@@ -74,7 +74,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "aydinplatform.net",
-        gaId: "",
+        gaId: "G-ZHS202Q2CZ",
         baslik: "Aydın Platform Kiralama | Efeler, Nazilli, Söke Hattında Hızlı Teslim",
         aciklama: "Aydın genelinde 8-32 m makaslı ve bomlu platform kiralama. Jeotermal tesisler, tarım sanayii ve inşaat işleri için; İzmir filosundan hızlı sevkiyat.",
         h1: "Aydın Platform Kiralama",
@@ -89,7 +89,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bilecikplatform.com",
-        gaId: "",
+        gaId: "G-W503GFYREQ",
         baslik: "Bilecik Platform Kiralama | Bozüyük Sanayi Hattına Aynı Gün Teslim",
         aciklama: "Bilecik ve Bozüyük'te 8-32 m makaslı ve bomlu platform kiralama. Seramik ve metal sanayine uygun ekipman; Eskişehir filosundan hızlı sevkiyat.",
         h1: "Bilecik Platform Kiralama",
@@ -104,7 +104,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukplatform.com.tr",
-        gaId: "",
+        gaId: "G-80XK5R3BN2",
         baslik: "Bozüyük Platform Kiralama | Sanayi Bölgesine En Yakın Filo",
         aciklama: "Bozüyük OSB ve çevresinde makaslı ve bomlu platform kiralama. Seramik, cam ve lojistik tesislerine hızlı teslimat; günlük ve proje bazlı kiralama.",
         h1: "Bozüyük Platform Kiralama",
@@ -119,7 +119,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "canakkaleplatform.com",
-        gaId: "",
+        gaId: "G-SKXSE7ZCN5",
         baslik: "Çanakkale Platform Kiralama | Biga Sanayi ve Merkeze Hızlı Teslim",
         aciklama: "Çanakkale, Biga ve Çan hattında 8-32 m makaslı ve bomlu platform kiralama. Enerji santralleri, seramik ve gıda tesislerine uygun ekipman.",
         h1: "Çanakkale Platform Kiralama",
@@ -134,7 +134,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "platformmanisa.com",
-        gaId: "",
+        gaId: "G-BKS6Y4X2JD",
         baslik: "Manisa Platform Kiralama | OSB ve Turgutlu Hattına Aynı Gün Teslim",
         aciklama: "Manisa OSB, Turgutlu, Salihli ve Akhisar'da makaslı ve bomlu platform kiralama. Elektronik ve gıda sanayine uygun; İzmir filosundan hızlı sevkiyat.",
         h1: "Manisa Platform Kiralama",
@@ -149,7 +149,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manisaforklift.com",
-        gaId: "",
+        gaId: "G-754SNQKTY7",
         baslik: "Manisa Forklift Kiralama | OSB İçi Saatlik ve Aylık Kiralama",
         aciklama: "Manisa genelinde 1,5-10 ton forklift kiralama. Dizel, LPG, elektrikli modeller; OSB tesislerine saatlik yükleme-boşaltma ve aylık sözleşmeli tedarik.",
         h1: "Manisa Forklift Kiralama",
@@ -164,7 +164,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "yuksektecalismarehberi.com",
-        gaId: "",
+        gaId: "G-QG5XZ2JHQQ",
         baslik: "Yüksekte Çalışma Rehberi | Platform Seçimi, İSG ve Mevzuat",
         aciklama: "Yüksekte güvenli çalışma rehberi: makaslı/bomlu platform ve telehandler seçimi, İSG mevzuatı, operatör belgeleri ve pratik kontrol listeleri.",
         h1: "Yüksekte Çalışma Rehberi",
@@ -182,7 +182,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "platformakademisi.com",
-        gaId: "",
+        gaId: "G-3GYGQ0FR9L",
         baslik: "Platform Akademisi | Operatör Eğitimi ve Yetkinlik Kaynağı",
         aciklama: "Yükseltici platform operatörlüğü eğitim kaynağı: IPAF ve MYK belgelendirme yolları, güvenli kullanım teknikleri, sınav hazırlık notları.",
         h1: "Platform Akademisi",

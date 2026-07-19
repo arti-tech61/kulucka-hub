@@ -1,10 +1,29 @@
 import Link from "next/link";
+import Script from "next/script";
 import { kategoriler, yazilar } from "@/lib/yazilar";
+
+const GA_ID = "G-6Q4PC3QLDC";
 
 // izmirsektor.com hub içinden yayınlanır; kendi başlık/altbilgi çerçevesini burada taşır
 export function HaberCerceve({ children }: { children: React.ReactNode }) {
     return (
         <div className="bg-slate-50">
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+            <Script id="ga-haber" strategy="afterInteractive">{`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}');
+              document.addEventListener('click', function (e) {
+                var a = e.target && e.target.closest ? e.target.closest('a') : null;
+                if (!a || !a.href) return;
+                if (a.href.indexOf('tel:') === 0) gtag('event', 'telefon_tiklamasi');
+                else if (a.href.indexOf('wa.me') !== -1 || a.href.indexOf('api.whatsapp.com') !== -1) gtag('event', 'whatsapp_tiklamasi');
+              }, true);
+              document.addEventListener('submit', function (e) {
+                if (e.target && e.target.tagName === 'FORM') gtag('event', 'generate_lead');
+              }, true);
+            `}</Script>
             <header className="border-b border-slate-200 bg-white">
                 <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-5">
                     <Link href="/" className="text-2xl font-extrabold tracking-tight">

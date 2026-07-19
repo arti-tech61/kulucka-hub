@@ -66,6 +66,15 @@ export default async function Sayfa() {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', '${site.gaId}');
+                document.addEventListener('click', function (e) {
+                  var a = e.target && e.target.closest ? e.target.closest('a') : null;
+                  if (!a || !a.href) return;
+                  if (a.href.indexOf('tel:') === 0) gtag('event', 'telefon_tiklamasi');
+                  else if (a.href.indexOf('wa.me') !== -1 || a.href.indexOf('api.whatsapp.com') !== -1) gtag('event', 'whatsapp_tiklamasi');
+                }, true);
+                document.addEventListener('submit', function (e) {
+                  if (e.target && e.target.tagName === 'FORM') gtag('event', 'generate_lead');
+                }, true);
               `}</Script>
             </>)}
 
