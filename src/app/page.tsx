@@ -39,13 +39,15 @@ export default async function Sayfa() {
     return (
         <main className="mx-auto max-w-3xl px-6 py-16">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-            <Script src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`} strategy="afterInteractive" />
-            <Script id="ga" strategy="afterInteractive">{`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${site.gaId}');
-            `}</Script>
+            {site.gaId && (<>
+              <Script src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`} strategy="afterInteractive" />
+              <Script id="ga" strategy="afterInteractive">{`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${site.gaId}');
+              `}</Script>
+            </>)}
 
             <p className="text-xs font-bold tracking-widest text-blue-700 uppercase">{site.bolge}</p>
             <h1 className="mt-2 text-4xl font-extrabold tracking-tight">{site.h1}</h1>
