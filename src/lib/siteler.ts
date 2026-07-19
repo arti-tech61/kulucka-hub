@@ -8,6 +8,7 @@ export interface SiteIcerik {
     hizmetler: string[];
     anaSite: { ad: string; url: string };
     bolge: string;
+    bolumler?: { baslik: string; href: string }[];
 }
 
 export const siteler: SiteIcerik[] = [
@@ -175,6 +176,9 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Platform tipi seçim rehberi (makaslı / eklemli / teleskopik)", "Telehandler mi bomlu platform mu? Karşılaştırma", "Yüksekte çalışma İSG mevzuatı özetleri", "Operatör belgesi ve eğitim süreçleri", "İş öncesi kontrol listeleri (indirilebilir)"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Türkiye geneli · bilgi kaynağı",
+        bolumler: [
+            { baslik: "Telehandler mi, bomlu platform mu? Makine seçim rehberi", href: "/rehber/telehandler-mi-bomlu-platform-mu" },
+        ],
     },
     {
         host: "platformakademisi.com",

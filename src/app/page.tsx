@@ -88,6 +88,19 @@ export default async function Sayfa() {
                 ))}
             </ul>
 
+            {site.bolumler && site.bolumler.length > 0 && (
+                <>
+                    <h2 className="mt-10 text-xl font-bold">Rehber bölümleri</h2>
+                    <ul className="mt-4 space-y-2">
+                        {site.bolumler.map((b) => (
+                            <li key={b.href}>
+                                <a className="text-blue-700 underline hover:text-blue-900" href={b.href}>{b.baslik}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </>
+            )}
+
             <div className="mt-12 rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
                 <h2 className="text-xl font-bold">Teklif ve rezervasyon</h2>
                 <p className="mt-2 text-slate-600">
