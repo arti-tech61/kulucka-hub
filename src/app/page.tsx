@@ -2,15 +2,34 @@ import { headers } from "next/headers";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { hostIcinSite, siteler } from "@/lib/siteler";
+import { HaberAnaSayfa } from "@/components/haber-sitesi";
 
 export const dynamic = "force-dynamic";
 
-async function aktifSite() {
+async function aktifHost() {
     const h = await headers();
-    return hostIcinSite(h.get("host") ?? "") ?? siteler[0];
+    return (h.get("host") ?? "").toLowerCase().replace(/^www\./, "").split(":")[0];
+}
+
+async function aktifSite() {
+    return hostIcinSite(await aktifHost()) ?? siteler[0];
 }
 
 export async function generateMetadata(): Promise<Metadata> {
+    if ((await aktifHost()).startsWith("izmirsektor.")) {
+        return {
+            title: "İzmir Sektör | İzmir İş ve Sanayi Haberleri",
+            description:
+                "İzmir'in sanayi, lojistik, enerji ve iş dünyası gündemi: OSB'lerden limana, yatırımlardan iş güvenliğine bölgeyi izleyen bağımsız yayın.",
+            alternates: { canonical: "https://izmirsektor.com/" },
+            openGraph: {
+                title: "İzmir Sektör | İzmir İş ve Sanayi Haberleri",
+                url: "https://izmirsektor.com/",
+                locale: "tr_TR",
+                type: "website",
+            },
+        };
+    }
     const site = await aktifSite();
     return {
         title: site.baslik,
@@ -27,6 +46,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Sayfa() {
+    if ((await aktifHost()).startsWith("izmirsektor.")) return <HaberAnaSayfa />;
     const site = await aktifSite();
     const jsonLd = {
         "@context": "https://schema.org",
