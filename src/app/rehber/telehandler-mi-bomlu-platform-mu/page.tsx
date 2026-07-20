@@ -29,7 +29,7 @@ const SORULAR = [
 export const metadata: Metadata = {
     title: "Telehandler mi Bomlu Platform mu?",
     description:
-        "Telehandler (teleskopik yükleyici) ile bomlu platform arasındaki farklar: hangi iş hangi makineyle yapılır, sepetli telehandler ne zaman yeterli, maliyet nasıl karşılaştırılır?",
+        "Telehandler (teleskopik yükleyici) ile bomlu platform arasındaki farklar: hangi iş hangi makineyle yapılır, maliyet nasıl karşılaştırılır?",
     alternates: { canonical: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-bomlu-platform-mu" },
 };
 
