@@ -17,7 +17,7 @@ export interface HaberSitesi {
 
 export const haberSiteleri: HaberSitesi[] = [
     {
-        host: "izmirsektor.com",
+        host: "izmirsektor.net",
         gaId: "G-6Q4PC3QLDC",
         adOn: "İzmir",
         adSon: "Sektör",
@@ -48,8 +48,8 @@ export const haberSiteleri: HaberSitesi[] = [
 
 export function hostIcinHaberSitesi(host: string): HaberSitesi | undefined {
     const temiz = host.toLowerCase().replace(/^www\./, "").split(":")[0];
-    // izmirsektor.net → izmirsektor.com içeriği (301 zaten var; SSR yedeği)
-    const esas = temiz === "izmirsektor.net" ? "izmirsektor.com" : temiz;
+    // izmirsektor.com Türkiye'de erişim engeli aldı (2026-07-20) → .net ana alan adı; 301 zaten var, bu SSR yedeği
+    const esas = temiz === "izmirsektor.com" ? "izmirsektor.net" : temiz;
     return haberSiteleri.find((s) => s.host === esas);
 }
 
