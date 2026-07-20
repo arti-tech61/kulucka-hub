@@ -15,7 +15,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "eklemliplatform.com.tr",
         gaId: "G-CFM36MYGHJ",
-        baslik: "Eklemli Platform Kiralama | Zor Erişim Noktaları İçin Doğru Makine",
+        baslik: "Eklemli Platform Kiralama | 12-43 m Akrobat Bomlar",
         aciklama: "12-43 metre eklemli (akrobat) platform kiralama. Dizel, elektrikli ve hibrit seçenekler; Türkiye geneli günlük, haftalık, aylık kiralama. Ücretsiz keşif.",
         h1: "Eklemli Platform Kiralama",
         paragraflar: [
@@ -30,7 +30,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "bandirmamanlift.net",
         gaId: "G-LDY8ZP140T",
-        baslik: "Bandırma Manlift Kiralama | Balıkesir Kuzeyinde Hızlı Teslimat",
+        baslik: "Bandırma Manlift Kiralama | Hızlı Teslimat",
         aciklama: "Bandırma, Erdek, Gönen ve Biga hattında manlift kiralama. Liman, fabrika ve tersane işlerine uygun makas ve bomlu platformlar; İSG uyumlu, hızlı teslimat.",
         h1: "Bandırma Manlift Kiralama",
         paragraflar: [
@@ -45,7 +45,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "izmirforkliftkiralama.net",
         gaId: "G-E24F8SWEFE",
-        baslik: "İzmir Forklift Kiralama | Günlük ve Uzun Dönem, Operatörlü Seçenek",
+        baslik: "İzmir Forklift Kiralama | Günlük, Aylık, Operatörlü",
         aciklama: "İzmir genelinde 1,5-10 ton forklift kiralama. Dizel, LPG, elektrikli; depo içi triplex seçenekler. Kemalpaşa, Torbalı, Çiğli, Aliağa'ya aynı gün teslimat.",
         h1: "İzmir Forklift Kiralama",
         paragraflar: [
@@ -60,7 +60,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "kutahyaplatform.com",
         gaId: "G-6C9FTW6S1G",
-        baslik: "Kütahya Platform Kiralama | Seramik Sanayisinin Yükseklik Çözümü",
+        baslik: "Kütahya Platform Kiralama | Seramik Sanayisine Çözüm",
         aciklama: "Kütahya ve ilçelerinde 8-32 m makaslı ve bomlu platform kiralama. Seramik fabrikaları ve depolara uygun; Eskişehir filosundan hızlı sevkiyat.",
         h1: "Kütahya Platform Kiralama",
         paragraflar: [
@@ -75,7 +75,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "aydinplatform.net",
         gaId: "G-ZHS202Q2CZ",
-        baslik: "Aydın Platform Kiralama | Efeler, Nazilli, Söke Hattında Hızlı Teslim",
+        baslik: "Aydın Platform Kiralama | Efeler, Nazilli, Söke Hattı",
         aciklama: "Aydın genelinde 8-32 m makaslı ve bomlu platform kiralama. Jeotermal tesisler, tarım sanayii ve inşaat işleri için; İzmir filosundan hızlı sevkiyat.",
         h1: "Aydın Platform Kiralama",
         paragraflar: [
@@ -90,7 +90,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "bilecikplatform.com",
         gaId: "G-W503GFYREQ",
-        baslik: "Bilecik Platform Kiralama | Bozüyük Sanayi Hattına Aynı Gün Teslim",
+        baslik: "Bilecik Platform Kiralama | Bozüyük'e Aynı Gün Teslim",
         aciklama: "Bilecik ve Bozüyük'te 8-32 m makaslı ve bomlu platform kiralama. Seramik ve metal sanayine uygun ekipman; Eskişehir filosundan hızlı sevkiyat.",
         h1: "Bilecik Platform Kiralama",
         paragraflar: [
@@ -120,7 +120,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "canakkaleplatform.com",
         gaId: "G-SKXSE7ZCN5",
-        baslik: "Çanakkale Platform Kiralama | Biga Sanayi ve Merkeze Hızlı Teslim",
+        baslik: "Çanakkale Platform Kiralama | Biga ve Merkeze Teslim",
         aciklama: "Çanakkale, Biga ve Çan hattında 8-32 m makaslı ve bomlu platform kiralama. Enerji santralleri, seramik ve gıda tesislerine uygun ekipman.",
         h1: "Çanakkale Platform Kiralama",
         paragraflar: [
@@ -135,7 +135,7 @@ export const siteler: SiteIcerik[] = [
     {
         host: "platformmanisa.com",
         gaId: "G-BKS6Y4X2JD",
-        baslik: "Manisa Platform Kiralama | OSB ve Turgutlu Hattına Aynı Gün Teslim",
+        baslik: "Manisa Platform Kiralama | OSB'ye Aynı Gün Teslim",
         aciklama: "Manisa OSB, Turgutlu, Salihli ve Akhisar'da makaslı ve bomlu platform kiralama. Elektronik ve gıda sanayine uygun; İzmir filosundan hızlı sevkiyat.",
         h1: "Manisa Platform Kiralama",
         paragraflar: [

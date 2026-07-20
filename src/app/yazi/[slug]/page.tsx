@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const yazi = haberYazisi(site, slug);
     if (!yazi) return {};
     return {
-        title: `${yazi.baslik} | ${site.adOn} ${site.adSon}`,
+        title: yazi.baslik.length > 42 ? yazi.baslik : `${yazi.baslik} | ${site.adOn} ${site.adSon}`,
         description: yazi.ozet,
         alternates: { canonical: `https://${site.host}/yazi/${yazi.slug}` },
         openGraph: { title: yazi.baslik, description: yazi.ozet, type: "article", locale: "tr_TR" },

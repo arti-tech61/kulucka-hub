@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const rehber = rehberBul(slug);
     if (!rehber) return {};
     return {
-        title: `${rehber.baslik} | Yüksekte Çalışma Rehberi`,
+        title: rehber.baslik.length > 34 ? rehber.baslik : `${rehber.baslik} | Yüksekte Çalışma Rehberi`,
         description: rehber.aciklama,
         alternates: { canonical: `https://${HOST}/rehber/${rehber.slug}` },
         openGraph: { title: rehber.baslik, description: rehber.aciklama, type: "article", locale: "tr_TR" },
