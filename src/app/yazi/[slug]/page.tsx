@@ -28,9 +28,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             : yazi.baslik.length <= 60
                 ? yazi.baslik
                 : `${yazi.baslik.slice(0, 59).trimEnd()}…`;
+    const seoDescription =
+        yazi.ozet.length <= 160 ? yazi.ozet : `${yazi.ozet.slice(0, 159).trimEnd()}…`;
     return {
         title: { absolute: seoTitle },
-        description: yazi.ozet,
+        description: seoDescription,
         alternates: { canonical: `https://${site.host}/yazi/${yazi.slug}` },
         openGraph: { title: yazi.baslik, description: yazi.ozet, type: "article", locale: "tr_TR" },
     };

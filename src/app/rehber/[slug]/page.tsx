@@ -20,9 +20,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             : rehber.baslik.length <= 60
                 ? rehber.baslik
                 : `${rehber.baslik.slice(0, 59).trimEnd()}…`;
+    const seoDescription =
+        rehber.aciklama.length <= 160 ? rehber.aciklama : `${rehber.aciklama.slice(0, 159).trimEnd()}…`;
     return {
         title: { absolute: seoTitle },
-        description: rehber.aciklama,
+        description: seoDescription,
         alternates: { canonical: `https://${HOST}/rehber/${rehber.slug}` },
         openGraph: { title: rehber.baslik, description: rehber.aciklama, type: "article", locale: "tr_TR" },
     };
