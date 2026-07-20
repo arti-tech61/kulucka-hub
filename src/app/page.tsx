@@ -2,6 +2,8 @@ import { headers } from "next/headers";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { hostIcinSite, siteler } from "@/lib/siteler";
+import { hostIcinHaberSitesi } from "@/lib/haber-config";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { HaberAnaSayfa } from "@/components/haber-sitesi";
 
 export const dynamic = "force-dynamic";
@@ -16,15 +18,16 @@ async function aktifSite() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-    if ((await aktifHost()).startsWith("izmirsektor.")) {
+    const haber = hostIcinHaberSitesi(await aktifHost());
+    if (haber) {
         return {
-            title: "İzmir Sektör | İzmir İş ve Sanayi Haberleri",
-            description:
-                "İzmir'in sanayi, lojistik, enerji ve iş dünyası gündemi: OSB'lerden limana, yatırımlardan iş güvenliğine bölgeyi izleyen bağımsız yayın.",
-            alternates: { canonical: "https://izmirsektor.com/" },
+            title: haber.baslik,
+            description: haber.aciklama,
+            alternates: { canonical: `https://${haber.host}/` },
             openGraph: {
-                title: "İzmir Sektör | İzmir İş ve Sanayi Haberleri",
-                url: "https://izmirsektor.com/",
+                title: haber.baslik,
+                description: haber.aciklama,
+                url: `https://${haber.host}/`,
                 locale: "tr_TR",
                 type: "website",
             },
@@ -46,8 +49,11 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Sayfa() {
-    if ((await aktifHost()).startsWith("izmirsektor.")) return <HaberAnaSayfa />;
+    const host = await aktifHost();
+    const haber = hostIcinHaberSitesi(host);
+    if (haber) return <HaberAnaSayfa site={haber} />;
     const site = await aktifSite();
+    const altSayfalar = hostAltSayfalari(site.host);
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -96,6 +102,19 @@ export default async function Sayfa() {
                     </li>
                 ))}
             </ul>
+
+            {altSayfalar.length > 0 && (
+                <>
+                    <h2 className="mt-10 text-xl font-bold">Detaylı bilgi</h2>
+                    <ul className="mt-4 space-y-2">
+                        {altSayfalar.map((a) => (
+                            <li key={a.slug}>
+                                <a className="text-blue-700 underline hover:text-blue-900" href={`/${a.slug}`}>{a.baslik}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </>
+            )}
 
             {site.bolumler && site.bolumler.length > 0 && (
                 <>

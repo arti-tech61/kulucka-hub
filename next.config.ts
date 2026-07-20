@@ -17,6 +17,12 @@ const nextConfig: NextConfig = {
         destination: "https://izmirsektor.com/:path*",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www\\.guvenliyukselis\\.com" }],
+        destination: "https://guvenliyukselis.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };

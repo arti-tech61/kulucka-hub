@@ -178,6 +178,9 @@ export const siteler: SiteIcerik[] = [
         bolge: "Türkiye geneli · bilgi kaynağı",
         bolumler: [
             { baslik: "Telehandler mi, bomlu platform mu? Makine seçim rehberi", href: "/rehber/telehandler-mi-bomlu-platform-mu" },
+            { baslik: "Makaslı mı, eklemli mi, teleskopik mi? Platform tipi seçim rehberi", href: "/rehber/platform-tipi-secim-rehberi" },
+            { baslik: "Yüksekte çalışma mevzuatı: 6331 kapsamında yükümlülükler", href: "/rehber/yuksekte-calisma-mevzuati" },
+            { baslik: "Yüksekte çalışma öncesi 10 maddelik kontrol listesi", href: "/rehber/is-oncesi-kontrol-listesi" },
         ],
     },
     {

@@ -76,6 +76,45 @@ export const yazilar: Yazi[] = [
             "İzmir Sektör, bölgede iş kuran ve büyüten işletmelerin deneyimlerini görünür kılmayı amaçlıyor; hikâyesini paylaşmak isteyen girişimcilere sayfalarımız açık.",
         ],
     },
+    {
+        slug: "kemalpasa-osb-bakim-sezonu-tedarikci-planlamasi",
+        kategori: "Sanayi",
+        baslik: "Kemalpaşa'da Bakım Sezonu: Fabrikalar Duruşları Nasıl Planlıyor?",
+        ozet: "Yaz duruşları yaklaşırken Kemalpaşa hattındaki tesisler bakım takvimlerini kilitliyor. Ekipman ve tedarikçi rezervasyonunda geç kalmanın maliyeti artıyor.",
+        tarih: "2026-07-20",
+        paragraflar: [
+            "İzmir sanayisinde yıllık bakım duruşları ağırlıkla yaz aylarında ve dini bayram tatillerinde toplanır: üretim kaybının en düşük olduğu pencerede fabrikalar tavan vinçlerinden havalandırmaya, çatıdan enerji altyapısına birikmiş işleri kapatır.",
+            "Bu yoğunlaşmanın tedarik tarafında bir sonucu var: bakım haftalarında bölgede ekipman kiralama, elektrik taahhüt ve izolasyon ekiplerine talep aynı anda patlar. Geç rezervasyon, ya işin ertelenmesi ya da uzak bölgeden yüksek nakliyeyle makine getirilmesi anlamına geliyor.",
+            "Tesis yöneticilerinin son yıllarda benimsediği pratik, duruş takvimini tedarikçilerle en az bir ay önceden paylaşmak: makine, ekip ve vinç planı tek organizasyonda kilitleniyor, duruş günü sürprizsiz açılıyor.",
+            "İzmir Sektör olarak bakım sezonu boyunca bölgedeki tedarik dengesini izleyecek, kapasite sıkışıklıklarını bu sayfadan duyuracağız.",
+        ],
+    },
+    {
+        slug: "izmir-e-ticaret-depolari-cigli-torbali-hatti",
+        kategori: "Lojistik",
+        baslik: "E-Ticaret Depoculuğu İzmir'de Nereye Kuruluyor? Çiğli-Torbalı Hattı Yükseliyor",
+        ozet: "Ulusal e-ticaret oyuncularının bölge dağıtım merkezleri İzmir çevresinde kümeleniyor. Lokasyon tercihlerarını belirleyen üç etken ve bölge işletmelerine etkisi.",
+        tarih: "2026-07-20",
+        paragraflar: [
+            "E-ticaret hacmi büyüdükçe ulusal oyuncuların 'aynı gün teslimat' hedefi, İzmir çevresinde yeni nesil dağıtım merkezlerini çoğaltıyor. Tercih edilen koridor belli: kuzeyde Çiğli-Menemen, güneyde Torbalı-Kemalpaşa hattı.",
+            "Lokasyon kararını üç etken belirliyor: otoyol bağlantısına mesafe, kent merkezine kurye erişim süresi ve yüksek tavanlı (10 metre üzeri) modern depo stoğunun varlığı. Eski tip alçak depolar bu talepten pay alamıyor; bölgede yüksek raflı yeni yatırımlar öne çıkıyor.",
+            "Bu depoların işletmesi bölge hizmet ekonomisine düzenli iş üretiyor: raf kurulumu ve denetimi, forklift ve istif makinesi tedariki, sprinkler ve aydınlatma bakımı ile soğuk oda kurulumları başlıca kalemler.",
+            "Önümüzdeki dönemde Çandarlı ve kuzey aksı yatırımlarının bu haritayı nasıl değiştireceğini izleyeceğiz.",
+        ],
+    },
+    {
+        slug: "aliaga-agir-sanayi-yatirimlari-2026",
+        kategori: "Enerji",
+        baslik: "Aliağa'da Yatırım Trafiği: Ağır Sanayi ve Enerjide Yeni Dönem",
+        ozet: "Petrokimyadan gemi geri dönüşümüne, rüzgâr komponentinden liman genişlemelerine — Aliağa aksındaki yatırım başlıkları ve bölge tedarik zincirine yansımaları.",
+        tarih: "2026-07-20",
+        paragraflar: [
+            "Aliağa, İzmir sanayisinin ağır tonajlı ucu olmayı sürdürüyor: petrokimya kapasite artışları, liman ve iskele genişlemeleri, gemi geri dönüşüm tesislerindeki modernizasyon ve enerji depolama projeleri bölgenin yatırım gündemini dolduruyor.",
+            "Bu ölçekteki tesislerin ortak özelliği, bakım ve proje işlerinin sürekli bir yüklenici ekosistemi beslemesi: yüksek tonajlı kaldırma, bakım duruşları, izolasyon ve yüzey koruma işleri yıl boyu dönüyor.",
+            "Bölgede çalışacak taşeron ve tedarikçiler için giriş bileti İSG olgunluğu: rafineri ve petrokimya sahaları, ekipman evrakları ve personel belgelendirmesinde en sıkı denetimi uygulayan işverenler arasında.",
+            "İzmir Sektör, Aliağa aksındaki yatırım duyurularını ve bunların yerel tedarik zincirine açtığı iş kalemlerini düzenli izleyecek.",
+        ],
+    },
 ];
 
 export function slugIleYazi(slug: string): Yazi | undefined {
