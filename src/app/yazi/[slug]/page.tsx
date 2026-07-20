@@ -21,8 +21,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const { slug } = await params;
     const yazi = haberYazisi(site, slug);
     if (!yazi) return {};
+    const suffix = ` | ${site.adOn} ${site.adSon}`;
+    const seoTitle =
+        yazi.baslik.length + suffix.length <= 60
+            ? `${yazi.baslik}${suffix}`
+            : yazi.baslik.length <= 60
+                ? yazi.baslik
+                : `${yazi.baslik.slice(0, 59).trimEnd()}…`;
     return {
-        title: yazi.baslik.length > 42 ? yazi.baslik : `${yazi.baslik} | ${site.adOn} ${site.adSon}`,
+        title: { absolute: seoTitle },
         description: yazi.ozet,
         alternates: { canonical: `https://${site.host}/yazi/${yazi.slug}` },
         openGraph: { title: yazi.baslik, description: yazi.ozet, type: "article", locale: "tr_TR" },

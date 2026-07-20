@@ -13,8 +13,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const { slug } = await params;
     const rehber = rehberBul(slug);
     if (!rehber) return {};
+    const suffix = " | Yüksekte Çalışma Rehberi";
+    const seoTitle =
+        rehber.baslik.length + suffix.length <= 60
+            ? `${rehber.baslik}${suffix}`
+            : rehber.baslik.length <= 60
+                ? rehber.baslik
+                : `${rehber.baslik.slice(0, 59).trimEnd()}…`;
     return {
-        title: rehber.baslik.length > 34 ? rehber.baslik : `${rehber.baslik} | Yüksekte Çalışma Rehberi`,
+        title: { absolute: seoTitle },
         description: rehber.aciklama,
         alternates: { canonical: `https://${HOST}/rehber/${rehber.slug}` },
         openGraph: { title: rehber.baslik, description: rehber.aciklama, type: "article", locale: "tr_TR" },
