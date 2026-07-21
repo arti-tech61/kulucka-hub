@@ -24,6 +24,15 @@ const nextConfig: NextConfig = {
         destination: "https://guvenliyukselis.com/:path*",
         permanent: true,
       },
+      // Coolify'ın www⇄non-www yönlendirmesi çoklu-domain uygulamalarda çalışmıyor
+      // (her domain kendi bağımsız router'ı, aralarında middleware yok). Kalan tüm
+      // domain'ler için genel bir www -> non-www 301'i burada, uygulama katmanında yapılıyor.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www\\.(?<host>.+)" }],
+        destination: "https://:host/:path*",
+        permanent: true,
+      },
     ];
   },
 };
