@@ -148,6 +148,139 @@ export const rehberler: Rehber[] = [
             { soru: "Gözcü gerçekten zorunlu mu?", cevap: "Mevzuat acil durumlara karşı organizasyon ister; sepetteki çalışanın kurtarılması yerden acil indirme bilen biri olmadan mümkün olmayabilir. Tek kişilik 'yalnız çalışma' yüksekte kabul edilmemelidir." },
         ],
     },
+    {
+        slug: "akulu-mu-dizel-mi-platform-secimi",
+        etiket: "Makine Seçim Rehberi",
+        baslik: "Akülü mü, Dizel mi? Güç Kaynağına Göre Platform Seçimi",
+        aciklama:
+            "İç mekân mı, açık şantiye mi? Akülü ve dizel yükseltici platformlar arasındaki fark: emisyon, gürültü, zemin gereksinimi ve maliyet açısından karşılaştırma.",
+        giris:
+            "Platform tipini (makaslı/eklemli/teleskopik) belirledikten sonra ikinci büyük karar güç kaynağıdır. Bu seçim çalışma ortamına göre değişir ve doğru yapılmadığında hem operasyonel hem maliyet sorunu doğurur.",
+        bolumler: [
+            {
+                baslik: "Akülü platformlar: kapalı alanın standardı",
+                paragraflar: [
+                    "Akülü modeller sıfır emisyonlu ve düşük gürültülüdür; bu özellikleri onları AVM, hastane, fabrika içi ve ofis gibi kapalı, havalandırması sınırlı mekânlar için zorunlu tercih hâline getirir.",
+                    "Şarj süresi ve vardiya planlaması akülü kullanımın kısıtıdır: tam şarj genellikle 8 saat sürer, bu yüzden 24 saat kesintisiz çalışan sahalarda yedek makine veya vardiya arası şarj planı gerekir.",
+                    "Zemin hassasiyeti de düşüktür — iz bırakmayan lastik seçenekleri sayesinde parke, epoksi kaplama gibi hassas zeminlerde akülü modeller tercih edilir.",
+                ],
+            },
+            {
+                baslik: "Dizel platformlar: açık sahanın gücü",
+                paragraflar: [
+                    "Dizel modeller genellikle 4 çeker tahrik ve daha yüksek tırmanma açısıyla gelir; şantiye sahası, arazi zemini ve eğimli yüzeylerde akülüden daha güvenilirdir.",
+                    "Yakıt ikmali dakikalar sürer, bu da kesintisiz vardiya gerektiren dış mekân projelerinde operasyonel avantaj sağlar.",
+                    "Buna karşılık gürültü ve egzoz emisyonu nedeniyle kapalı alanda kullanılamaz; kapalı bir depo veya hangarda dizel makine çalıştırmak karbon monoksit riski doğurur.",
+                ],
+            },
+            {
+                baslik: "Karar tablosu",
+                paragraflar: [
+                    "Kapalı mekân, hassas zemin, gece/mesai saati kısıtı olan sahalar → akülü. Açık şantiye, eğimli/arazi zemin, uzun vardiya ve hızlı ikmal ihtiyacı → dizel.",
+                    "Bazı projelerde her iki tip de gerekir: örneğin bir fabrika genişletme projesinde iç mekân bakımı akülüyle, dış cephe ve çatı işleri dizel makineyle yürütülür.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Hibrit (akülü + dizel) modeller var mı?", cevap: "Evet, bazı üreticiler her iki gücü birleştiren modeller sunar; ancak Türkiye'deki kiralık filo ağırlıklı olarak saf akülü veya saf dizel modellerden oluşur." },
+            { soru: "Akülü platform yağmurda kullanılabilir mi?", cevap: "Çoğu akülü model iç mekân kullanımı için tasarlanmıştır ve açık havada yağışa karşı IP koruma sınıfı sınırlıdır; dış mekân/yağış koşulları için üreticinin onayı kontrol edilmelidir." },
+        ],
+    },
+    {
+        slug: "kis-aylarinda-yukseklik-guvenligi-buz-don",
+        etiket: "Saha Uygulaması",
+        baslik: "Kış Aylarında Yükseklikte Çalışma: Buz ve Don Riskine Karşı Önlemler",
+        aciklama:
+            "Düşük sıcaklıkta yükseltici platform kullanımı: buzlanmış zemin, donmuş hidrolik hortum ve soğuk hava koşullarının operasyona etkisi.",
+        giris:
+            "Kış ayları yüksekte çalışmaya iki ayrı risk katmanı ekler: zemin ve ekipmanın kendisi. Bu rehber, düşük sıcaklıkta güvenli operasyon için alınması gereken ek önlemleri özetler.",
+        bolumler: [
+            {
+                baslik: "Buzlanmış zemin ve kayma riski",
+                paragraflar: [
+                    "Sabah erken saatlerde veya gölgeli alanlarda zemin buzlanması, makinenin stabilizatör ayaklarının tam temas kurmasını engelleyebilir. Kurulum öncesi zemin görsel kontrolü kış aylarında standart hâle getirilmelidir.",
+                    "Merdiven ve platforma giriş basamaklarındaki buzlanma, çalışanın düşme riskini asıl işten önce, makineye binerken doğurur — bu basit ama sık gözden kaçan bir risktir.",
+                ],
+            },
+            {
+                baslik: "Ekipmanın soğuktan etkilenmesi",
+                paragraflar: [
+                    "Düşük sıcaklıkta hidrolik yağın viskozitesi artar; bu, makinenin ilk hareketlerinde yavaşlık veya sertlik olarak hissedilir. Üreticiler genellikle belirli bir sıcaklığın altında ısınma süresi (rölantide bekleme) önerir.",
+                    "Akülü platformlarda düşük sıcaklık akü performansını düşürür; kış aylarında normalden daha kısa çalışma süresi ve daha uzun şarj süresi beklenmelidir.",
+                    "Lastiklerin ve hidrolik hortumların soğukta sertleşmesi, günlük kontrolde çatlak taraması yapılırken normalden daha dikkatli bakılmasını gerektirir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Kar yağışında çalışmaya devam edilebilir mi?", cevap: "Görüş mesafesi, zemin kayganlığı ve üreticinin hava koşulu limitlerine bağlıdır; genel kural, aktif kar yağışında dış mekân platform operasyonlarının durdurulmasıdır." },
+            { soru: "Kışın periyodik kontrol sıklığı değişir mi?", cevap: "Yasal periyot değişmez, ancak bazı işletmeler kış öncesi ek bir teknik kontrol (hidrolik seviye, akü sağlığı) uygulamayı tercih eder." },
+        ],
+    },
+    {
+        slug: "gecici-koruma-sistemleri-guvenlik-agi-korkuluk",
+        etiket: "İSG ve Mevzuat",
+        baslik: "Geçici Koruma Sistemleri: Güvenlik Ağı ve Korkuluk Ne Zaman Kullanılır?",
+        aciklama:
+            "Yükseltici platform tek çözüm değildir — geçici korkuluk sistemleri ve güvenlik ağları hangi işlerde platformun yerini alır veya tamamlar?",
+        giris:
+            "Yüksekte çalışma önlemleri yalnız yükseltici platformdan ibaret değildir. Bu rehber, sabit veya uzun süreli işlerde tercih edilen geçici koruma sistemlerini ve platformla birlikte nasıl kullanıldıklarını anlatır.",
+        bolumler: [
+            {
+                baslik: "Geçici korkuluk sistemleri",
+                paragraflar: [
+                    "Döşeme kenarı, çatı saçağı ve iskele kenarlarında kurulan geçici korkuluklar, uzun süreli sabit çalışma alanlarında yükseltici platforma göre daha ekonomik bir toplu koruma çözümüdür.",
+                    "Korkuluk yüksekliği ve orta bar/topuk levhası mevzuatta net tanımlıdır; sahada en sık eksik bırakılan unsur topuk levhasıdır — bu, düşen küçük malzemenin alt kattaki çalışanı yaralamasını önler.",
+                ],
+            },
+            {
+                baslik: "Güvenlik ağları",
+                paragraflar: [
+                    "Çelik yapı montajı ve büyük açıklıklı çatı işlerinde güvenlik ağı, çalışanın düşmesi durumunda onu yakalayan bir toplu korumadır. Ağın doğru gerginlikte kurulması ve düzenli kontrolü, etkinliği için şarttır.",
+                    "Güvenlik ağı, yükseltici platformun ulaşamadığı büyük açıklıklı alanlarda (örneğin çelik konstrüksiyon montajı sırasında) platformla birlikte tamamlayıcı olarak kullanılır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Korkuluk mu platform mu daha güvenli?", cevap: "İkisi de doğru uygulandığında toplu korumadır; seçim işin süresine ve geometrisine bağlıdır. Kısa süreli, hareketli işlerde platform; uzun süreli sabit kenarlarda korkuluk daha pratiktir." },
+            { soru: "Güvenlik ağı periyodik kontrole tabi mi?", cevap: "Evet, ağların üretici talimatına göre düzenli görsel ve gerekirse yük kontrolü yapılmalı, hasarlı ağlar derhâl değiştirilmelidir." },
+        ],
+    },
+    {
+        slug: "sarkma-travmasi-suspension-trauma-acil-mudahale",
+        etiket: "Saha Uygulaması",
+        baslik: "Sarkma Travması (Suspension Trauma): Düşme Sonrası Gözden Kaçan Risk",
+        aciklama:
+            "Emniyet kemeriyle düşmeyi durdurmak yalnız ilk adımdır — sarkma travması, kurtarma gecikirse hayati risk oluşturabilir. Belirtileri ve acil müdahale ilkeleri.",
+        giris:
+            "Bir çalışan emniyet kemeriyle düşmesini durdursa bile tehlike geçmiş sayılmaz. Hareketsiz asılı kalma durumu, dakikalar içinde ciddi bir tıbbi risk olan sarkma travmasına yol açabilir. Bu rehber, riskin mekanizmasını ve acil müdahale ilkelerini anlatır.",
+        bolumler: [
+            {
+                baslik: "Sarkma travması nasıl oluşur?",
+                paragraflar: [
+                    "Kemerle asılı kalan bir kişide bacak kayışları kan dolaşımını kısıtlar; hareketsizlik nedeniyle kan bacaklarda birikir ve kalbe geri dönüşü azalır. Bu durum dakikalar içinde bilinç kaybına ve tedavisiz bırakılırsa ölüme yol açabilir.",
+                    "Risk, düşmenin kendisinden değil, düşme sonrası kurtarmanın gecikmesinden kaynaklanır — bu yüzden 'kemer düşmeyi durdurdu, tehlike geçti' yaklaşımı yanlıştır.",
+                ],
+            },
+            {
+                baslik: "Kurtarma planının önemi",
+                paragraflar: [
+                    "Mevzuat ve iyi uygulama, her yüksekte çalışma işi için önceden planlanmış bir kurtarma prosedürü ister: asılı kalan kişiye kaç dakikada ulaşılabileceği, hangi ekipmanla (kurtarma makarası, yükseltici platform, itfaiye) indirileceği belirlenmelidir.",
+                    "112'nin gelmesini beklemek yeterli bir plan değildir — özellikle şehir dışı veya trafik yoğun bölgelerde müdahale süresi kritik dakikaları aşabilir. Sahada bulunan yükseltici platform, çoğu durumda en hızlı kurtarma aracıdır.",
+                ],
+            },
+            {
+                baslik: "İlk müdahalede dikkat edilecekler",
+                paragraflar: [
+                    "İndirilen kişi hemen düz yatırılmamalıdır: uzun süre asılı kalan birinde ani yatay pozisyon, biriken kanın aniden kalbe dönmesine ve ciddi komplikasyona yol açabilir (reperfüzyon sendromu). Kademeli pozisyon değişikliği ve tıbbi ekibin yönlendirmesi esastır.",
+                    "Bu nedenle yüksekte çalışan ekiplerde en az bir kişinin temel ilk yardım ve özellikle asılı kalma sonrası müdahale konusunda bilgilendirilmiş olması önerilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Sarkma travması ne kadar sürede kritik hâle gelir?", cevap: "Literatürde 5-30 dakika arasında belirtilerin başlayabileceği belirtilir; kişiye ve koşullara göre değişir, bu yüzden kurtarma süresi ne kadar kısaltılırsa risk o kadar azalır." },
+            { soru: "Her şantiyede kurtarma ekipmanı bulunmalı mı?", cevap: "Yüksekte çalışma riski taşıyan her sahada, düşme durumunda hızlı müdahaleyi sağlayacak bir yöntem (platform, kurtarma makarası, eğitimli ekip) önceden planlanmış olmalıdır." },
+        ],
+    },
 ];
 
 export function rehberBul(slug: string): Rehber | undefined {
