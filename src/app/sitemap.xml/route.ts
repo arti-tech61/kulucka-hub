@@ -15,16 +15,20 @@ function xmlKacis(s: string) {
 export async function GET(istek: Request) {
     const host = (istek.headers.get("host") ?? "").toLowerCase().replace(/^www\./, "").split(":")[0];
     const bugun = new Date().toISOString().slice(0, 10);
-    const urller: { loc: string; lastmod: string }[] = [];
+    const urller: { loc: string; lastmod?: string }[] = [];
 
     const haber = hostIcinHaberSitesi(host);
     if (haber) {
-        urller.push({ loc: `https://${haber.host}/`, lastmod: bugun });
+        const sonYayin = haber.yazilar
+            .map((yazi) => yazi.tarih)
+            .sort()
+            .at(-1);
+        urller.push({ loc: `https://${haber.host}/`, lastmod: sonYayin });
         for (const y of haber.yazilar) {
             urller.push({ loc: `https://${haber.host}/yazi/${y.slug}`, lastmod: y.tarih });
         }
         for (const sayfa of haberKurumsalSayfalar(haber).filter((s) => s.indexlenebilir)) {
-            urller.push({ loc: `https://${haber.host}/${sayfa.slug}`, lastmod: bugun });
+            urller.push({ loc: `https://${haber.host}/${sayfa.slug}` });
         }
     } else {
         const site = hostIcinSite(host);
@@ -46,7 +50,7 @@ export async function GET(istek: Request) {
     }
 
     const govde = urller
-        .map((u) => `  <url><loc>${xmlKacis(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`)
+        .map((u) => `  <url><loc>${xmlKacis(u.loc)}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ""}</url>`)
         .join("\n");
     const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${govde}\n</urlset>\n`;
     return new Response(xml, {

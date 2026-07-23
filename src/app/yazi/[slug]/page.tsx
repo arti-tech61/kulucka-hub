@@ -34,7 +34,21 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         title: { absolute: seoTitle },
         description: seoDescription,
         alternates: { canonical: `https://${site.host}/yazi/${yazi.slug}` },
-        openGraph: { title: yazi.baslik, description: yazi.ozet, type: "article", locale: "tr_TR" },
+        openGraph: {
+            title: yazi.baslik,
+            description: seoDescription,
+            url: `https://${site.host}/yazi/${yazi.slug}`,
+            siteName: `${site.adOn} ${site.adSon}`,
+            type: "article",
+            locale: "tr_TR",
+            publishedTime: yazi.tarih,
+            section: yazi.kategori,
+        },
+        twitter: {
+            card: "summary",
+            title: yazi.baslik,
+            description: seoDescription,
+        },
     };
 }
 
@@ -46,24 +60,41 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
     if (!yazi) notFound();
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "NewsArticle",
         headline: yazi.baslik,
         description: yazi.ozet,
         datePublished: yazi.tarih,
+        inLanguage: "tr-TR",
         articleSection: yazi.kategori,
-        publisher: { "@type": "Organization", name: `${site.adOn} ${site.adSon}`, url: `https://${site.host}` },
-        mainEntityOfPage: `https://${site.host}/yazi/${yazi.slug}`,
+        author: {
+            "@type": "Organization",
+            name: `${site.adOn} ${site.adSon}`,
+            url: `https://${site.host}`,
+        },
+        publisher: {
+            "@type": "NewsMediaOrganization",
+            name: `${site.adOn} ${site.adSon}`,
+            url: `https://${site.host}`,
+        },
+        mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": `https://${site.host}/yazi/${yazi.slug}`,
+        },
+        url: `https://${site.host}/yazi/${yazi.slug}`,
     };
     return (
         <HaberCerceve site={site}>
             <main className="mx-auto max-w-3xl px-6 py-10">
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
                 <Link href="/" className="text-sm text-slate-500 hover:underline">← Ana sayfa</Link>
                 <p className={`mt-6 text-xs font-bold uppercase tracking-widest ${renkSinifi[site.renk]}`}>{yazi.kategori}</p>
                 <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">{yazi.baslik}</h1>
-                <time className="mt-3 block text-sm text-slate-500" dateTime={yazi.tarih}>
-                    {new Date(yazi.tarih).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" })}
-                </time>
+                <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-500">
+                    <span>Yayın: {site.adOn} {site.adSon}</span>
+                    <time dateTime={yazi.tarih}>
+                        Yayımlandı: {new Date(`${yazi.tarih}T00:00:00+03:00`).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" })}
+                    </time>
+                </div>
                 <div className="mt-8 space-y-5 text-lg leading-relaxed text-slate-700">
                     {yazi.paragraflar.map((p, i) => (
                         <p key={i}>{p}</p>

@@ -29,8 +29,14 @@ export async function generateMetadata(): Promise<Metadata> {
                 title: haber.baslik,
                 description: haber.aciklama,
                 url: `https://${haber.host}/`,
+                siteName: `${haber.adOn} ${haber.adSon}`,
                 locale: "tr_TR",
                 type: "website",
+            },
+            twitter: {
+                card: "summary",
+                title: haber.baslik,
+                description: haber.aciklama,
             },
         };
     }
@@ -52,7 +58,33 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Sayfa() {
     const host = await aktifHost();
     const haber = hostIcinHaberSitesi(host);
-    if (haber) return <HaberAnaSayfa site={haber} />;
+    if (haber) {
+        const publicationJsonLd = {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "NewsMediaOrganization",
+                    "@id": `https://${haber.host}/#organization`,
+                    name: `${haber.adOn} ${haber.adSon}`,
+                    url: `https://${haber.host}/`,
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": `https://${haber.host}/#website`,
+                    name: `${haber.adOn} ${haber.adSon}`,
+                    url: `https://${haber.host}/`,
+                    inLanguage: "tr-TR",
+                    publisher: { "@id": `https://${haber.host}/#organization` },
+                },
+            ],
+        };
+        return (
+            <>
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(publicationJsonLd).replace(/</g, "\\u003c") }} />
+                <HaberAnaSayfa site={haber} />
+            </>
+        );
+    }
     const site = await aktifSite();
     const altSayfalar = hostAltSayfalari(site.host);
     const jsonLd = {

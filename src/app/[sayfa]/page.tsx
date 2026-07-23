@@ -24,10 +24,19 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
     const haber = hostIcinHaberSitesi(host);
     const haberSayfasi = haber ? haberKurumsalSayfaBul(haber, sayfa) : undefined;
     if (haber && haberSayfasi) {
+        const canonical = `https://${haber.host}/${haberSayfasi.slug}`;
         return {
             title: haberSayfasi.baslik,
             description: haberSayfasi.aciklama,
-            alternates: { canonical: `https://${haber.host}/${haberSayfasi.slug}` },
+            alternates: { canonical },
+            openGraph: {
+                title: haberSayfasi.baslik,
+                description: haberSayfasi.aciklama,
+                url: canonical,
+                siteName: `${haber.adOn} ${haber.adSon}`,
+                locale: "tr_TR",
+                type: "website",
+            },
             robots: haberSayfasi.indexlenebilir ? undefined : { index: false, follow: true },
         };
     }
