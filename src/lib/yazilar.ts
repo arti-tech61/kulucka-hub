@@ -4,7 +4,28 @@ export interface Yazi {
     baslik: string;
     ozet: string;
     tarih: string; // ISO
+    guncellemeTarihi?: string; // ISO; yalnız gerçek editoryal güncellemede değiştirilir
     paragraflar: string[];
+    bolumler?: YaziBolumu[];
+    kaynaklar?: YaziKaynagi[];
+    incelemeNotu?: string;
+}
+
+export interface YaziBolumu {
+    baslik: string;
+    paragraflar: string[];
+    maddeler?: string[];
+}
+
+export interface YaziKaynagi {
+    id: string;
+    yayinci: string;
+    baslik: string;
+    url: string;
+    tur: "resmi" | "birincil" | "standart" | "arastirma";
+    yayinTarihi?: string;
+    erisimTarihi: string;
+    veriDonemi?: string;
 }
 
 export const kategoriler = ["Sanayi", "Lojistik", "Enerji", "İş Dünyası", "İş Güvenliği"] as const;

@@ -68,7 +68,7 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
         headline: yazi.baslik,
         description: yazi.ozet,
         datePublished: yazi.tarih,
-        dateModified: yazi.tarih,
+        dateModified: yazi.guncellemeTarihi ?? yazi.tarih,
         inLanguage: "tr-TR",
         articleSection: yazi.kategori,
         author: {
@@ -114,12 +114,36 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
                     <time dateTime={yazi.tarih}>
                         Yayımlandı: {new Date(`${yazi.tarih}T00:00:00+03:00`).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" })}
                     </time>
+                    {yazi.guncellemeTarihi && yazi.guncellemeTarihi !== yazi.tarih ? (
+                        <time dateTime={yazi.guncellemeTarihi}>
+                            Güncellendi: {new Date(`${yazi.guncellemeTarihi}T00:00:00+03:00`).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" })}
+                        </time>
+                    ) : null}
                 </div>
                 <div className="mt-8 space-y-5 text-lg leading-relaxed text-slate-700">
                     {yazi.paragraflar.map((p, i) => (
                         <p key={i}>{p}</p>
                     ))}
                 </div>
+                {yazi.bolumler?.map((bolum) => (
+                    <section key={bolum.baslik} className="mt-10">
+                        <h2 className="text-2xl font-extrabold leading-tight text-slate-900">
+                            {bolum.baslik}
+                        </h2>
+                        <div className="mt-4 space-y-5 text-lg leading-relaxed text-slate-700">
+                            {bolum.paragraflar.map((paragraf, index) => (
+                                <p key={`${bolum.baslik}-${index}`}>{paragraf}</p>
+                            ))}
+                            {bolum.maddeler?.length ? (
+                                <ul className="list-disc space-y-2 pl-6">
+                                    {bolum.maddeler.map((madde) => (
+                                        <li key={madde}>{madde}</li>
+                                    ))}
+                                </ul>
+                            ) : null}
+                        </div>
+                    </section>
+                ))}
                 <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6">
                     <h2 className="text-xl font-bold">Okur için doğrulama kontrolü</h2>
                     <p className="mt-3 leading-relaxed text-slate-700">
@@ -134,6 +158,43 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
                         <li>Maddi hata görürseniz sayfa bağlantısıyla yayın iletişim kanalına bildirin.</li>
                     </ul>
                 </section>
+                {yazi.kaynaklar?.length ? (
+                    <section className="mt-10 border-t border-slate-200 pt-8" aria-labelledby="kaynaklar-basligi">
+                        <h2 id="kaynaklar-basligi" className="text-2xl font-extrabold text-slate-900">
+                            Kaynaklar ve yöntem
+                        </h2>
+                        <p className="mt-3 leading-relaxed text-slate-700">
+                            Bu içerik aşağıdaki birincil veya kurumsal kaynaklar
+                            karşılaştırılarak hazırlanmıştır. Bağlantılar son erişim
+                            tarihinde kontrol edilmiştir; güncel kararlar için kaynağın
+                            en yeni sürümünü inceleyin.
+                        </p>
+                        <ol className="mt-5 space-y-4">
+                            {yazi.kaynaklar.map((kaynak) => (
+                                <li key={kaynak.id} id={`kaynak-${kaynak.id}`} className="rounded-xl bg-slate-50 p-4">
+                                    <a
+                                        href={kaynak.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-bold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-900"
+                                    >
+                                        {kaynak.baslik}
+                                    </a>
+                                    <p className="mt-1 text-sm text-slate-600">
+                                        {kaynak.yayinci} · {kaynak.tur} kaynak
+                                        {kaynak.veriDonemi ? ` · Veri dönemi: ${kaynak.veriDonemi}` : ""}
+                                        {` · Erişim: ${new Date(`${kaynak.erisimTarihi}T00:00:00+03:00`).toLocaleDateString("tr-TR")}`}
+                                    </p>
+                                </li>
+                            ))}
+                        </ol>
+                        {yazi.incelemeNotu ? (
+                            <p className="mt-5 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-950">
+                                <strong>Editoryal inceleme notu:</strong> {yazi.incelemeNotu}
+                            </p>
+                        ) : null}
+                    </section>
+                ) : null}
             </main>
         </HaberCerceve>
     );
