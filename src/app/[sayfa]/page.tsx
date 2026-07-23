@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { altSayfaBul, hostAltSayfalari } from "@/lib/alt-sayfalar";
@@ -85,7 +85,7 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
         sayfa === "bomlu-platform-kiralama"
         && hostAltSayfalari(host).some((alt) => alt.slug === "eklemli-ve-teleskopik-platform-kiralama")
     ) {
-        redirect("/eklemli-ve-teleskopik-platform-kiralama");
+        permanentRedirect("/eklemli-ve-teleskopik-platform-kiralama");
     }
     const haber = hostIcinHaberSitesi(host);
     const haberSayfasi = haber ? haberKurumsalSayfaBul(haber, sayfa) : undefined;
@@ -132,6 +132,14 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
             url: `https://${host}/${alt.slug}`,
             isPartOf: { "@type": "WebSite", name: site.h1, url: `https://${host}` },
         },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+                { "@type": "ListItem", position: 1, name: site.h1, item: `https://${host}/` },
+                { "@type": "ListItem", position: 2, name: alt.baslik, item: `https://${host}/${alt.slug}` },
+            ],
+        },
     ];
     if (alt.sss && alt.sss.length > 0) {
         jsonLd.push({
@@ -153,7 +161,13 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
             ))}
             <GaEtiketi gaId={site.gaId} />
 
-            <Link href="/" className="text-sm font-semibold text-blue-700 hover:underline">← {site.h1}</Link>
+            <nav aria-label="Breadcrumb" className="text-sm font-semibold text-slate-500">
+                <ol className="flex flex-wrap items-center gap-2">
+                    <li><Link href="/" className="text-blue-700 hover:underline">{site.h1}</Link></li>
+                    <li aria-hidden="true" className="text-slate-400">/</li>
+                    <li className="text-slate-700" aria-current="page">{alt.baslik}</li>
+                </ol>
+            </nav>
             <section className="mt-6 overflow-hidden rounded-[2rem] bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 px-6 py-12 text-white sm:px-10 sm:py-16">
                 <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">{site.bolge}</p>
                 <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-[-0.04em] sm:text-6xl">{alt.h1}</h1>

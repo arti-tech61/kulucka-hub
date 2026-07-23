@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { HaberCerceve } from "@/components/haber-sitesi";
 import { hostIcinHaberSitesi, haberYazisi } from "@/lib/haber-config";
@@ -56,6 +56,10 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
     const site = await aktifHaberSitesi();
     if (!site) notFound();
     const { slug } = await params;
+    // Eski "bomlu platform" slug'ı doğru terminolojili yeni sayfaya kalıcı yönlendirilir.
+    if (slug === "bomlu-platformda-emniyet-kemeri-neden-tartisilmaz") {
+        permanentRedirect("/yazi/eklemli-teleskopik-platformda-emniyet-kemeri");
+    }
     const yazi = haberYazisi(site, slug);
     if (!yazi) notFound();
     const jsonLd = {
@@ -64,6 +68,7 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
         headline: yazi.baslik,
         description: yazi.ozet,
         datePublished: yazi.tarih,
+        dateModified: yazi.tarih,
         inLanguage: "tr-TR",
         articleSection: yazi.kategori,
         author: {
@@ -82,11 +87,26 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
         },
         url: `https://${site.host}/yazi/${yazi.slug}`,
     };
+    const breadcrumbJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: `${site.adOn} ${site.adSon}`, item: `https://${site.host}/` },
+            { "@type": "ListItem", position: 2, name: yazi.baslik, item: `https://${site.host}/yazi/${yazi.slug}` },
+        ],
+    };
     return (
         <HaberCerceve site={site}>
             <main className="mx-auto max-w-3xl px-6 py-10">
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-                <Link href="/" className="text-sm text-slate-500 hover:underline">← Ana sayfa</Link>
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, "\\u003c") }} />
+                <nav aria-label="Breadcrumb" className="text-sm font-semibold text-slate-500">
+                    <ol className="flex flex-wrap items-center gap-2">
+                        <li><Link href="/" className="text-slate-700 hover:underline">Ana sayfa</Link></li>
+                        <li aria-hidden="true" className="text-slate-400">/</li>
+                        <li className="text-slate-500">{yazi.kategori}</li>
+                    </ol>
+                </nav>
                 <p className={`mt-6 text-xs font-bold uppercase tracking-widest ${renkSinifi[site.renk]}`}>{yazi.kategori}</p>
                 <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">{yazi.baslik}</h1>
                 <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-500">

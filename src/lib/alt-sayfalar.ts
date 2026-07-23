@@ -88,7 +88,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             aciklama: "Bandırma, Erdek, Gönen ve Biga'da makaslı platform seçimi. Yükseklik, zemin, saha girişi ve teslimat koşulları teklifte doğrulanır.",
             h1: "Bandırma Makaslı Platform Kiralama",
             paragraflar: [
-                "Makaslı platformlar, geniş sepetiyle birden fazla çalışanın malzemeyle birlikte dikey yükselmesine izin verir; Bandırma bölgesindeki fabrika bakımı, liman ekipmanı onarımı ve depo işlerinin en çok kiralanan makinesidir.",
+                "Makaslı platformlar, geniş sepetiyle birden fazla çalışanın malzemeyle birlikte dikey yükselmesine izin verir; Bandırma bölgesindeki fabrika bakımı, liman ekipmanı onarımı ve depo işlerinde en sık başvurulan makine tipidir.",
                 "Elektrikli veya dizel makine seçimi; çalışma yüksekliği, zemin, iç-dış mekân ve saha giriş şartlarına göre yapılır. Model ile teslimat tarihi güncel uygunluk kontrolünden sonra yazılı teklifte netleşir.",
                 "Elektrikli modeller kapalı üretim alanlarında ve gıda tesislerinde, dizel 4x4 modeller tersane sahaları ve açık depolama alanlarında kullanılır.",
             ],
@@ -157,7 +157,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
             maddeler: [
                 { baslik: "1,5-2 ton", metin: "Dar koridorlu depolar ve hafif paletli yükler; en ekonomik sınıf." },
-                { baslik: "2,5-3 ton", metin: "Standart palet trafiği ve üretim hattı besleme; en çok kiralanan aralık." },
+                { baslik: "2,5-3 ton", metin: "Standart palet trafiği ve üretim hattı besleme; en sık ihtiyaç duyulan aralık." },
                 { baslik: "Triplex asansör", metin: "6 metreye kadar istif; kapıdan giriş yüksekliği düşük kalır." },
                 { baslik: "Soğuk hava gereksinimi", metin: "Düşük sıcaklıkta kullanım için model uygunluğu ve üretici limitleri önceden doğrulanır." },
             ],
@@ -551,7 +551,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 "Turgutlu ve Akhisar'daki gıda işleme tesislerinin silo bakımlarında dönemsel yoğunluk yaşanır; hasat sezonu öncesi erken rezervasyon öneriyoruz.",
             ],
             maddeler: [
-                { baslik: "16-22 m sınıfı", metin: "Cephe ve konveyör üstü işler; en çok kiralanan aralık." },
+                { baslik: "16-22 m sınıfı", metin: "Cephe ve konveyör üstü işler; en sık talep edilen aralık." },
                 { baslik: "26-32 m sınıfı", metin: "Silo, baca ve yüksek yapı işleri; planlı sevkiyat." },
                 { baslik: "Sezon planlaması", metin: "Gıda sanayinin hasat öncesi bakım dönemine öncelikli rezervasyon." },
                 { baslik: "İSG seti", metin: "Kemer, lanyard ve güncel evraklarla teslim." },

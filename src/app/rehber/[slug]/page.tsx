@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { rehberBul, rehberler } from "@/lib/rehberler";
 import { hostIcinSite } from "@/lib/siteler";
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function RehberSayfasi({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     if (slug === "telehandler-mi-bomlu-platform-mu") {
-        redirect("/rehber/telehandler-mi-personel-yukseltici-mi");
+        permanentRedirect("/rehber/telehandler-mi-personel-yukseltici-mi");
     }
     const rehber = rehberBul(slug);
     if (!rehber) notFound();
@@ -60,8 +60,20 @@ export default async function RehberSayfasi({ params }: { params: Promise<{ slug
             headline: rehber.baslik,
             description: rehber.aciklama,
             articleSection: rehber.etiket,
+            inLanguage: "tr-TR",
+            datePublished: rehber.yayin,
+            dateModified: rehber.guncelleme ?? rehber.yayin,
+            author: { "@type": "Organization", name: "Yüksekte Çalışma Rehberi", url: `https://${HOST}` },
             publisher: { "@type": "Organization", name: "Yüksekte Çalışma Rehberi", url: `https://${HOST}` },
             mainEntityOfPage: `https://${HOST}/rehber/${rehber.slug}`,
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Yüksekte Çalışma Rehberi", item: `https://${HOST}/` },
+                { "@type": "ListItem", position: 2, name: rehber.baslik, item: `https://${HOST}/rehber/${rehber.slug}` },
+            ],
         },
     ];
     if (rehber.sss && rehber.sss.length > 0) {
@@ -82,9 +94,21 @@ export default async function RehberSayfasi({ params }: { params: Promise<{ slug
                 <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} />
             ))}
             {site && <GaEtiketi gaId={site.gaId} />}
-            <Link href="/" className="text-sm text-slate-500 hover:underline">← Yüksekte Çalışma Rehberi</Link>
+            <nav aria-label="Breadcrumb" className="text-sm font-semibold text-slate-500">
+                <ol className="flex flex-wrap items-center gap-2">
+                    <li><Link href="/" className="text-blue-700 hover:underline">Yüksekte Çalışma Rehberi</Link></li>
+                    <li aria-hidden="true" className="text-slate-400">/</li>
+                    <li className="text-slate-700" aria-current="page">{rehber.etiket}</li>
+                </ol>
+            </nav>
             <p className="mt-6 text-xs font-bold uppercase tracking-widest text-blue-700">{rehber.etiket}</p>
             <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">{rehber.baslik}</h1>
+            <p className="mt-3 text-sm text-slate-500">
+                <time dateTime={rehber.yayin}>Yayımlandı: {new Date(`${rehber.yayin}T00:00:00+03:00`).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" })}</time>
+                {rehber.guncelleme && rehber.guncelleme !== rehber.yayin && (
+                    <> · <time dateTime={rehber.guncelleme}>Güncellendi: {new Date(`${rehber.guncelleme}T00:00:00+03:00`).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" })}</time></>
+                )}
+            </p>
             <p className="mt-4 text-lg leading-relaxed text-slate-600">{rehber.giris}</p>
 
             <div className="mt-10 space-y-10">

@@ -18,7 +18,7 @@ export const guvenliYazilar: Yazi[] = [
         ],
     },
     {
-        slug: "bomlu-platformda-emniyet-kemeri-neden-tartisilmaz",
+        slug: "eklemli-teleskopik-platformda-emniyet-kemeri",
         kategori: "Saha Güvenliği",
         baslik: "Eklemli ve Teleskopik Platformda Emniyet Kemeri",
         ozet: "Eklemli ve teleskopik personel yükselticilerde fırlama etkisini, doğru ankraj noktasını ve bağlantı sistemi seçiminde üretici talimatının neden belirleyici olduğunu açıklıyoruz.",
