@@ -2,6 +2,7 @@ import { hostIcinSite } from "@/lib/siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
+import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
 
 export const dynamic = "force-dynamic";
 
@@ -27,6 +28,9 @@ export async function GET(istek: Request) {
             urller.push({ loc: `https://${site.host}/`, lastmod: bugun });
             for (const alt of hostAltSayfalari(site.host)) {
                 urller.push({ loc: `https://${site.host}/${alt.slug}`, lastmod: bugun });
+            }
+            for (const sayfa of kurumsalSayfalar(site).filter((s) => s.indexlenebilir)) {
+                urller.push({ loc: `https://${site.host}/${sayfa.slug}`, lastmod: bugun });
             }
             if (site.host === "yuksektecalismarehberi.com") {
                 urller.push({ loc: `https://${site.host}/rehber/telehandler-mi-bomlu-platform-mu`, lastmod: bugun });

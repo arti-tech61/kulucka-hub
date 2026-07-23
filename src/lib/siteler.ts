@@ -8,6 +8,11 @@ export interface SiteIcerik {
     hizmetler: string[];
     anaSite: { ad: string; url: string };
     bolge: string;
+    telefon: string;
+    telefonGosterim: string;
+    eposta: string;
+    uzmanlik: string;
+    kategori?: "kiralama" | "egitim" | "rehber";
     bolumler?: { baslik: string; href: string }[];
 }
 
@@ -26,6 +31,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Elektrikli eklemli platform seçenekleri", "Dizel eklemli platform seçenekleri", "Yüksek erişim bom sınıfı planlaması", "Operatör ve nakliye seçeneği", "Saha bilgisine göre bom tipi danışmanlığı"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Türkiye geneli",
+        telefon: "+905305518961",
+        telefonGosterim: "0530 551 89 61",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "engelli erişim gerektiren açık ve kapalı çalışma sahaları",
     },
     {
         host: "bandirmamanlift.net",
@@ -41,6 +50,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platform kiralama (8-22 m)", "Bomlu platform kiralama (16-43 m)", "Liman ve tersane çalışmalarına uygun ekipman", "Günlük ve proje bazlı kiralama", "Nakliye ve İSG evrak organizasyonu"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Bandırma, Erdek, Gönen, Biga",
+        telefon: "+905331728943",
+        telefonGosterim: "0533 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "liman, tersane, enerji ve fabrika bakım sahaları",
     },
     {
         host: "izmirforkliftkiralama.net",
@@ -56,6 +69,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["1,5-3 ton elektrikli forkliftler (depo içi)", "3-5 ton dizel/LPG forkliftler", "7-10 ton ağır hizmet forkliftleri", "Operatörlü saatlik yükleme-boşaltma", "Aylık sözleşmeli uzun dönem kiralama"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "İzmir ve çevresi",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "depo, üretim ve yükleme sahalarında forklift seçimi",
     },
     {
         host: "kutahyaplatform.com",
@@ -71,6 +88,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platformlar (8-18 m, elektrikli/dizel)", "Bomlu platformlar (16-32 m)", "Fabrika içi hassas zemin çözümleri", "Proje süresine göre esnek kiralama", "Aynı gün sevkiyat planlaması"],
         anaSite: { ad: "Eskişehir Platform", url: "https://eskisehirplatform.com" },
         bolge: "Kütahya ve ilçeleri",
+        telefon: "+905305518961",
+        telefonGosterim: "0530 551 89 61",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "seramik üretimi, depo ve tesis bakım çalışmaları",
     },
     {
         host: "aydinplatform.net",
@@ -86,6 +107,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platformlar (8-18 m, elektrikli/dizel)", "Bomlu platformlar (16-32 m)", "Otel ve tesis bakımlarına dönemsel kiralama", "Tarım sanayii depo çalışmaları", "Aynı gün sevkiyat planlaması"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Aydın, Efeler, Nazilli, Söke, Kuşadası",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "otel, enerji, tarım sanayisi ve tesis bakım işleri",
     },
     {
         host: "bilecikplatform.com",
@@ -101,6 +126,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platformlar (8-18 m)", "Bomlu platformlar (16-32 m)", "Fabrika bakım duruşlarına günlük kiralama", "Depo ve raf sistemi kurulum çalışmaları", "Nakliye ve İSG evrak organizasyonu"],
         anaSite: { ad: "Eskişehir Platform", url: "https://eskisehirplatform.com" },
         bolge: "Bilecik, Bozüyük, Osmaneli, Söğüt",
+        telefon: "+905305518961",
+        telefonGosterim: "0530 551 89 61",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "seramik, metal işleme ve depo projeleri",
     },
     {
         host: "bozuyukplatform.com.tr",
@@ -116,6 +145,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platform seçenekleri", "Bomlu platform seçenekleri", "OSB saha koşulu değerlendirmesi", "Günlük ve proje bazlı teklif", "Makine ve nakliye planlaması"],
         anaSite: { ad: "Eskişehir Platform", url: "https://eskisehirplatform.com" },
         bolge: "Bozüyük OSB ve çevresi",
+        telefon: "+905305518961",
+        telefonGosterim: "0530 551 89 61",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "OSB içi seramik, cam ve lojistik tesisleri",
     },
     {
         host: "canakkaleplatform.com",
@@ -131,6 +164,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platformlar (8-18 m)", "Bomlu platformlar (16-32 m)", "Enerji santrali bakım çalışmaları", "Proje bazlı sahada konuşlu kiralama", "Belgeli operatör desteği"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Çanakkale, Biga, Çan, Gelibolu",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "enerji, liman, metal ve seramik sahaları",
     },
     {
         host: "platformmanisa.com",
@@ -146,6 +183,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Elektrikli ve dizel makaslı seçenekleri", "Bomlu platform seçenekleri", "OSB teslimat planlaması", "İç ve dış mekân makine seçimi", "Kapasite danışmanlığı"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Manisa OSB, Turgutlu, Salihli, Akhisar",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "OSB üretim tesisleri, depo ve bakım operasyonları",
     },
     {
         host: "manisaforklift.com",
@@ -161,6 +202,10 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["1,5-3 ton elektrikli forkliftler (depo içi)", "3-5 ton dizel/LPG forkliftler", "7-10 ton ağır hizmet forkliftleri", "Saatlik yükleme-boşaltma operasyonu", "Aylık sözleşmeli tedarik"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Manisa OSB, Turgutlu, Akhisar",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "yükleme, depo ve üretim hattı forklift operasyonları",
     },
     {
         host: "yuksektecalismarehberi.com",
@@ -176,6 +221,11 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Platform tipi seçim rehberi (makaslı / eklemli / teleskopik)", "Telehandler mi bomlu platform mu? Karşılaştırma", "Yüksekte çalışma İSG mevzuatı özetleri", "Operatör belgesi ve eğitim süreçleri", "İş öncesi kontrol listeleri (indirilebilir)"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Türkiye geneli · bilgi kaynağı",
+        telefon: "+905305518961",
+        telefonGosterim: "0530 551 89 61",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "ekipman seçimi, yüksekte çalışma güvenliği ve saha kontrolü",
+        kategori: "rehber",
         bolumler: [
             { baslik: "Telehandler mi, bomlu platform mu? Makine seçim rehberi", href: "/rehber/telehandler-mi-bomlu-platform-mu" },
             { baslik: "Makaslı mı, eklemli mi, teleskopik mi? Platform tipi seçim rehberi", href: "/rehber/platform-tipi-secim-rehberi" },
@@ -197,6 +247,11 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["MYK operatör belgesi başvuru rehberi", "IPAF eğitimi nedir, nasıl alınır?", "Günlük makine kontrol listeleri", "Saha güvenlik kuralları ve senaryolar", "Kurumsal ekip eğitimi organizasyonu"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Türkiye geneli · eğitim kaynağı",
+        telefon: "+905305518961",
+        telefonGosterim: "0530 551 89 61",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "operatör yetkinliği, günlük kontrol ve güvenli kullanım",
+        kategori: "egitim",
     },
 ];
 

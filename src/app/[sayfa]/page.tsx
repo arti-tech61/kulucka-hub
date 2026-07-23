@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { altSayfaBul, hostAltSayfalari } from "@/lib/alt-sayfalar";
+import { kurumsalSayfaBul, kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
 import { GaEtiketi } from "@/components/ga";
 
 export const dynamic = "force-dynamic";
@@ -16,7 +17,8 @@ async function aktifHost() {
 export async function generateMetadata({ params }: { params: Promise<{ sayfa: string }> }): Promise<Metadata> {
     const host = await aktifHost();
     const { sayfa } = await params;
-    const alt = altSayfaBul(host, sayfa);
+    const site = hostIcinSite(host);
+    const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
     if (!alt) return {};
     return {
         title: alt.baslik,
@@ -29,6 +31,9 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
             locale: "tr_TR",
             type: "website",
         },
+        robots: "indexlenebilir" in alt && !alt.indexlenebilir
+            ? { index: false, follow: true }
+            : undefined,
     };
 }
 
@@ -36,9 +41,10 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
     const host = await aktifHost();
     const { sayfa } = await params;
     const site = hostIcinSite(host);
-    const alt = altSayfaBul(host, sayfa);
+    const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
     if (!site || !alt) notFound();
-    const digerSayfalar = hostAltSayfalari(host).filter((s) => s.slug !== alt.slug);
+    const digerSayfalar = [...hostAltSayfalari(host), ...kurumsalSayfalar(site)]
+        .filter((s) => s.slug !== alt.slug);
 
     const jsonLd: Record<string, unknown>[] = [
         {
@@ -70,6 +76,12 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
             <GaEtiketi gaId={site.gaId} />
 
             <Link href="/" className="text-sm text-slate-500 hover:underline">← {site.h1}</Link>
+            <nav aria-label="Ana menü" className="mt-5 flex flex-wrap gap-3 text-sm">
+                <Link href="/" className="font-semibold text-blue-800">Ana sayfa</Link>
+                <Link href="/hakkimizda" className="text-blue-800">Hakkımızda</Link>
+                <Link href="/teklif-hazirligi" className="text-blue-800">Talep rehberi</Link>
+                <Link href="/iletisim" className="text-blue-800">İletişim</Link>
+            </nav>
             <p className="mt-6 text-xs font-bold tracking-widest text-blue-700 uppercase">{site.bolge}</p>
             <h1 className="mt-2 text-4xl font-extrabold tracking-tight">{alt.h1}</h1>
 
@@ -130,10 +142,13 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
                     makine uygunluğu için ana sitemizden bize ulaşın.
                 </p>
                 <a
-                    href={`${site.anaSite.url}/iletisim`}
+                    href={`tel:${site.telefon}`}
                     className="mt-5 inline-block rounded-full bg-blue-700 px-7 py-3 font-semibold text-white hover:bg-blue-800"
                 >
-                    Teklif Al — {site.anaSite.ad}
+                    Ara — {site.telefonGosterim}
+                </a>
+                <a className="mt-3 block text-sm text-blue-800 underline" href={`mailto:${site.eposta}`}>
+                    {site.eposta}
                 </a>
             </div>
 
