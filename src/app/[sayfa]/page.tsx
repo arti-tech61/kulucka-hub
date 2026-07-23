@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
     const haberSayfasi = haber ? haberKurumsalSayfaBul(haber, sayfa) : undefined;
     if (haber && haberSayfasi) {
         const canonical = `https://${haber.host}/${haberSayfasi.slug}`;
+        const socialImage = `https://${haber.host}/media/saha-hero.png`;
         return {
             title: haberSayfasi.baslik,
             description: haberSayfasi.aciklama,
@@ -36,6 +37,13 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
                 siteName: `${haber.adOn} ${haber.adSon}`,
                 locale: "tr_TR",
                 type: "website",
+                images: [{ url: socialImage, alt: haberSayfasi.h1 }],
+            },
+            twitter: {
+                card: "summary_large_image",
+                title: haberSayfasi.baslik,
+                description: haberSayfasi.aciklama,
+                images: [socialImage],
             },
             robots: haberSayfasi.indexlenebilir ? undefined : { index: false, follow: true },
         };
@@ -43,16 +51,26 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
     const site = hostIcinSite(host);
     const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
     if (!alt) return {};
+    const canonical = `https://${host}/${alt.slug}`;
+    const socialImage = `https://${host}/media/saha-hero.png`;
     return {
         title: alt.baslik,
         description: alt.aciklama,
-        alternates: { canonical: `https://${host}/${alt.slug}` },
+        alternates: { canonical },
         openGraph: {
             title: alt.baslik,
             description: alt.aciklama,
-            url: `https://${host}/${alt.slug}`,
+            url: canonical,
+            siteName: site?.h1,
             locale: "tr_TR",
             type: "website",
+            images: [{ url: socialImage, alt: alt.h1 }],
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: alt.baslik,
+            description: alt.aciklama,
+            images: [socialImage],
         },
         robots: "indexlenebilir" in alt && !alt.indexlenebilir
             ? { index: false, follow: true }

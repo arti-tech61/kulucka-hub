@@ -26,7 +26,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         title: { absolute: seoTitle },
         description: seoDescription,
         alternates: { canonical: `https://${HOST}/rehber/${rehber.slug}` },
-        openGraph: { title: rehber.baslik, description: rehber.aciklama, type: "article", locale: "tr_TR" },
+        openGraph: {
+            title: rehber.baslik,
+            description: rehber.aciklama,
+            type: "article",
+            locale: "tr_TR",
+            url: `https://${HOST}/rehber/${rehber.slug}`,
+            images: [{ url: `https://${HOST}/media/saha-hero.png`, alt: rehber.baslik }],
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: rehber.baslik,
+            description: rehber.aciklama,
+            images: [`https://${HOST}/media/saha-hero.png`],
+        },
     };
 }
 

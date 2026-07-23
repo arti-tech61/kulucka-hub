@@ -21,6 +21,7 @@ async function aktifSite() {
 export async function generateMetadata(): Promise<Metadata> {
     const haber = hostIcinHaberSitesi(await aktifHost());
     if (haber) {
+        const socialImage = `https://${haber.host}/media/saha-hero.png`;
         return {
             title: haber.baslik,
             description: haber.aciklama,
@@ -32,15 +33,18 @@ export async function generateMetadata(): Promise<Metadata> {
                 siteName: `${haber.adOn} ${haber.adSon}`,
                 locale: "tr_TR",
                 type: "website",
+                images: [{ url: socialImage, alt: `${haber.adOn} ${haber.adSon}` }],
             },
             twitter: {
-                card: "summary",
+                card: "summary_large_image",
                 title: haber.baslik,
                 description: haber.aciklama,
+                images: [socialImage],
             },
         };
     }
     const site = await aktifSite();
+    const socialImage = `https://${site.host}/media/saha-hero.png`;
     return {
         title: site.baslik,
         description: site.aciklama,
@@ -49,8 +53,16 @@ export async function generateMetadata(): Promise<Metadata> {
             title: site.baslik,
             description: site.aciklama,
             url: `https://${site.host}/`,
+            siteName: site.h1,
             locale: "tr_TR",
             type: "website",
+            images: [{ url: socialImage, alt: site.h1 }],
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: site.baslik,
+            description: site.aciklama,
+            images: [socialImage],
         },
     };
 }

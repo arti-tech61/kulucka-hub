@@ -31,6 +31,25 @@ export const metadata: Metadata = {
     description:
         "Telehandler (teleskopik yükleyici) ile bomlu platform arasındaki farklar: hangi iş hangi makineyle yapılır, maliyet nasıl karşılaştırılır?",
     alternates: { canonical: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-bomlu-platform-mu" },
+    openGraph: {
+        title: "Telehandler mi Bomlu Platform mu?",
+        description:
+            "Telehandler ile bomlu platformun kullanım, güvenlik ve makine seçimi farklarını karşılaştırın.",
+        type: "article",
+        locale: "tr_TR",
+        url: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-bomlu-platform-mu",
+        images: [{
+            url: "https://yuksektecalismarehberi.com/media/saha-hero.png",
+            alt: "Telehandler ve bomlu platform seçim rehberi",
+        }],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Telehandler mi Bomlu Platform mu?",
+        description:
+            "Telehandler ile bomlu platformun kullanım, güvenlik ve makine seçimi farklarını karşılaştırın.",
+        images: ["https://yuksektecalismarehberi.com/media/saha-hero.png"],
+    },
 };
 
 export default function TelehandlerRehberi() {
