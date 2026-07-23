@@ -93,6 +93,11 @@ export default async function Sayfa() {
                 ))}
             </div>
 
+            <aside className="mt-8 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-950">
+                Makine modeli, kapasite, belge, operatör, teslimat tarihi ve ücret;
+                güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir.
+            </aside>
+
             <h2 className="mt-10 text-xl font-bold">Hizmetlerimiz</h2>
             <ul className="mt-4 space-y-2">
                 {site.hizmetler.map((h, i) => (

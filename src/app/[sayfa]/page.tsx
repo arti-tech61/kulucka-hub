@@ -79,6 +79,12 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
                 ))}
             </div>
 
+            <aside className="mt-8 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-950">
+                Bu sayfa makine seçimi için ön bilgi verir. Model, kapasite, belge,
+                operatör, teslimat tarihi ve ücret güncel uygunluk kontrolünden sonra
+                yalnız yazılı teklif ve sözleşmeyle kesinleşir.
+            </aside>
+
             {alt.maddeler && alt.maddeler.length > 0 && (
                 <div className="mt-10 grid gap-4 sm:grid-cols-2">
                     {alt.maddeler.map((m) => (
