@@ -168,7 +168,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             paragraflar: [
                 "Dizel ve LPG forkliftler açık saha, rampa ve yoğun tempolu yükleme işlerinin makinesidir. Kemalpaşa ve Torbalı'daki lojistik merkezlerinde konteyner boşaltma, Aliağa'daki ağır sanayi tesislerinde malzeme elleçleme bu grubun tipik işleridir.",
                 "3-5 ton sınıfı standart palet ve balya trafiğini karşılar; 7-10 ton sınıfı mermer blokları, çelik rulolar ve makine parçaları gibi ağır yükler için kiralanır.",
-                "LPG modeller, iyi havalandırılan kapalı alanlarda da kullanılabilme esnekliği sunar; tüp değişimiyle kesintisiz vardiya çalışması yapılır.",
+                "LPG modellerin kapalı alanda kullanımı; havalandırma, emisyon, yangın ve tesis kuralları değerlendirilerek planlanmalıdır. Yakıt ve vardiya düzeni teklif ile saha prosedüründe netleştirilir.",
             ],
             maddeler: [
                 { baslik: "3-5 ton dizel/LPG", metin: "Yükleme rampaları ve açık stok sahaları; günlük ve aylık kiralamada en yoğun sınıf." },
@@ -204,11 +204,11 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
         {
             slug: "makasli-platform-kiralama",
             baslik: "Kütahya Makaslı Platform Kiralama (8-18 m)",
-            aciklama: "Kütahya'da seramik fabrikaları ve depolar için 8-18 metre makaslı platform kiralama. Elektrikli ve dizel modeller; Eskişehir'den hızlı sevkiyat.",
+            aciklama: "Kütahya'da seramik fabrikaları ve depolar için makaslı platform seçimi. Elektrikli veya dizel sınıf, zemin ve sevkiyat koşulları teklifte doğrulanır.",
             h1: "Kütahya Makaslı Platform Kiralama",
             paragraflar: [
                 "Kütahya'nın seramik ve çini üretim tesislerinde tavan vinçleri, havalandırma kanalları ve aydınlatma sistemlerinin bakımı düzenli yüksekte çalışma gerektirir. Makaslı platformlar bu işlerin en verimli makinesidir: geniş sepetinde iki-üç çalışan malzemeleriyle birlikte yükselir.",
-                "8-18 metre aralığında elektrikli ve dizel modeller sunuyoruz. Elektrikli modeller fabrika içi hassas zeminlerde iz bırakmadan çalışır; dizel 4x4 modeller fabrika sahaları ve açık depolama alanlarında kullanılır.",
+                "Elektrikli veya dizel makine sınıfı; çalışma yüksekliği, zemin taşıma kapasitesi, lastik tipi ve iç/dış mekân koşuluna göre değerlendirilir. Seçilen modelin teknik ölçüleri ve zemin uyumu teklif öncesinde doğrulanır.",
                 "Kütahya merkez, OSB, Tavşanlı ve Gediz sevkiyatı; seçilen makine, tarih, çıkış noktası ve nakliye uygunluğu doğrulandıktan sonra planlanır.",
             ],
             maddeler: [
@@ -219,14 +219,14 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
             sss: [
                 { soru: "Kütahya'ya teslimat süresi nedir?", cevap: "Teslimat tarihi, makine ve nakliye uygunluğu ile saha kabul saatleri teyit edildikten sonra yazılı teklifte belirtilir." },
-                { soru: "Seramik fabrikası zemininde hangi model çalışır?", cevap: "Epoksi ve sırlı zeminlerde beyaz lastikli elektrikli modeller iz bırakmadan çalışır; zemin yükü hassasiyeti varsa makine ağırlık tablosunu paylaşırız." },
+                { soru: "Seramik fabrikası zemininde hangi model çalışır?", cevap: "Lastik tipi, toplam makine ağırlığı, noktasal yük ve zeminin üretici kuralları birlikte kontrol edilir; uygunluk teknik föy ve saha sorumlusu onayıyla belirlenir." },
                 { soru: "Günlük kiralama yapılıyor mu?", cevap: "Asgari süre ve dönemsel fiyat seçilen makine ile iş programına göre teklifte belirtilir." },
             ],
         },
         {
             slug: "bomlu-platform-kiralama",
             baslik: "Kütahya Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Kütahya'da fabrika bacası, silo ve cephe işleri için 16-32 metre eklemli/teleskopik bomlu platform kiralama; Eskişehir'den hızlı sevkiyat.",
+            aciklama: "Kütahya'da fabrika bacası, silo ve cephe işleri için eklemli veya teleskopik bomlu platform seçimi ve doğrulanmış sevkiyat teklifi.",
             h1: "Kütahya Bomlu Platform Kiralama",
             paragraflar: [
                 "Yüksek fabrika cepheleri, bacalar, silolar ve enerji hatları — Kütahya sanayisinin dikeyde en zorlu işleri bomlu platformlarla yapılır. Bom, hem yükseğe hem de engellerin ötesine yatay erişim sağlar.",
@@ -240,7 +240,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "İSG evrak seti", metin: "Periyodik kontrol raporu ve kemer setiyle teslim." },
             ],
             sss: [
-                { soru: "Bomlu platformda operatör şart mı?", cevap: "Makineyi kullananın operatör belgesi olması zorunludur; bomlu grupta çoğu müşterimiz operatörlü kiralamayı tercih eder." },
+                { soru: "Bomlu platformda operatör için ne gerekir?", cevap: "Operatör yetkinliği, eğitim ve belgelendirme gereklilikleri makine sınıfı, işveren yükümlülükleri ve güncel mevzuata göre İSG sorumlusuyla doğrulanmalıdır." },
                 { soru: "Yüksek erişim işi nasıl planlanır?", cevap: "Çalışma ve yatay erişim ölçüsü alınır; uygun makine ile tedarik süresi doğrulanmadan kapasite veya teslimat sözü verilmez." },
                 { soru: "Kış koşullarında çalışılıyor mu?", cevap: "Kütahya kışında kar ve buzlanma günlerinde zemin ve rüzgâr değerlendirmesi yapılır; makine ısıtma süreleri günlük plana eklenir." },
             ],
@@ -255,7 +255,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
             sss: [
                 { soru: "Hangi ilçelere sevkiyat planlanabilir?", cevap: "Merkez, OSB, Tavşanlı, Gediz, Simav ve Emet talepleri mesafe, makine ve nakliye uygunluğuna göre ayrı ayrı değerlendirilir." },
-                { soru: "Fiyata neler dahil?", cevap: "Makine ve evrak seti dahildir; nakliye mesafeye göre ayrı hesaplanır, uzun kiralamalarda çoğunlukla pakete dahil edilir." },
+                { soru: "Fiyata neler dahil?", cevap: "Makine, nakliye, operatör, yakıt, evrak ve diğer hizmet kalemlerinin dahil olup olmadığı her teklif ve sözleşmede ayrı ayrı belirtilir." },
                 { soru: "Makine seçiminde hangi bilgiler gerekir?", cevap: "Çalışma yüksekliği, zemin, engel, tarih ve adres bilgilerini mümkünse fotoğrafla iletin; uygunluk kontrolünden sonra yazılı teklif hazırlanır." },
                 { soru: "Periyodik kontrol raporu veriliyor mu?", cevap: "Seçilen makinenin raporu ve geçerlilik tarihi sözleşmeden önce doğrulanmalı; saha dosyasına girecek kopyanın teslim yöntemi yazılı olarak belirlenmelidir." },
             ],
@@ -266,7 +266,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
         {
             slug: "makasli-platform-kiralama",
             baslik: "Aydın Makaslı Platform Kiralama (8-18 m)",
-            aciklama: "Aydın, Nazilli, Söke ve Kuşadası'nda 8-18 metre makaslı platform kiralama. Otel, jeotermal tesis ve tarım sanayi işleri; İzmir'den hızlı sevkiyat.",
+            aciklama: "Aydın, Nazilli, Söke ve Kuşadası'nda otel, jeotermal tesis ve tarım sanayisi işleri için makaslı platform seçimi ve sevkiyat teklifi.",
             h1: "Aydın Makaslı Platform Kiralama",
             paragraflar: [
                 "Aydın bölgesinde makaslı platform talebinin üç ana kaynağı var: incir ve zeytin işleme tesislerinin depo işleri, jeotermal santrallerin bakım programları ve Kuşadası-Didim hattındaki otellerin sezon öncesi yenileme çalışmaları.",
@@ -276,7 +276,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             maddeler: [
                 { baslik: "8-12 m elektrikli", metin: "Otel, AVM ve tesis içi işler; sessiz ve emisyonsuz çalışma." },
                 { baslik: "14-18 m dizel", metin: "Jeotermal saha, fabrika cephesi ve açık depo işleri." },
-                { baslik: "Sezon paketi", metin: "Otellerin kapalı dönem yenilemeleri için haftalık/aylık avantajlı paketler." },
+                { baslik: "Sezon planı", metin: "Otellerin kapalı dönem yenilemeleri için süre, makine ve sevkiyat kalemleri ayrı gösterilen dönemsel teklif." },
                 { baslik: "Tarım sanayi çözümü", metin: "İşleme tesislerinin hasat öncesi bakım duruşlarına planlı sevkiyat." },
             ],
             sss: [
@@ -299,7 +299,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "16-22 m sınıfı", metin: "Otel ve fabrika cepheleri; en yoğun aralık." },
                 { baslik: "26-32 m sınıfı", metin: "Silo, baca ve yüksek yapı işleri; planlı temin." },
                 { baslik: "Ağaç/engel aşma", metin: "Eklemli bom peyzajlı alanlarda cepheye zarar vermeden erişir." },
-                { baslik: "Dönemsel paket", metin: "Otellerin yıllık bakım takvimine bağlı avantajlı sözleşme." },
+                { baslik: "Dönemsel plan", metin: "Otellerin yıllık bakım takvimine göre kapsamı ve fiyat kalemleri yazılı sözleşmede belirtilen çalışma planı." },
             ],
             sss: [
                 { soru: "Otel çalışmasında misafir konforu nasıl korunur?", cevap: "Elektrikli-hibrit modellerle ve sabah erken/öğle arası vardiyalarla gürültü penceresi daraltılır; çalışma alanı şeritle izole edilir." },
@@ -319,7 +319,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { soru: "Hangi bölgelere sevkiyat planlanabilir?", cevap: "Aydın merkez, Efeler, Nazilli, Söke, Kuşadası ve Didim talepleri güncel makine ve nakliye uygunluğuna göre değerlendirilir." },
                 { soru: "Teslimat süresi ne kadar?", cevap: "Teslimat tarihi makine, çıkış noktası, nakliye ve saha kabul saatleri doğrulandıktan sonra yazılı teklifte belirtilir." },
                 { soru: "Fiyat teklifi için hangi bilgiler gerekli?", cevap: "Çalışma yüksekliği, yatay erişim, süre, zemin, tarih ve adres bilgileriyle uygunluk ve fiyat hesabı hazırlanır." },
-                { soru: "Uzun dönem kiralamada avantaj var mı?", cevap: "Haftalık kiralamada günlük birim fiyat düşer; aylık sözleşmelerde nakliye çoğunlukla pakete dahil edilir." },
+                { soru: "Uzun dönem kiralama nasıl fiyatlanır?", cevap: "Süreye bağlı fiyat, nakliye ve diğer hizmet kalemleri güncel uygunluğa göre hesaplanır; kısa dönemden farklı olup olmadığı yazılı teklifte karşılaştırılmalıdır." },
             ],
         },
     ],
@@ -332,7 +332,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             h1: "Bilecik Makaslı Platform Kiralama",
             paragraflar: [
                 "Bilecik sanayisinin omurgasını oluşturan seramik ve metal işleme tesislerinde tavan ve tesisat işleri düzenli yüksekte çalışma gerektirir. 8-18 metre makaslı platformlarımız bu işlerin standart makinesidir.",
-                "Elektrikli modeller üretim alanlarında emisyonsuz ve iz bırakmadan çalışır; dizel 4x4 modeller açık stok sahalarında ve cephe işlerinde kullanılır.",
+                "Elektrikli veya dizel sınıf seçimi; emisyon, havalandırma, zemin, lastik, çekiş ve çalışma yüksekliği gereksinimlerine göre yapılır. Seçilen modelin sahaya uygunluğu teknik föyden doğrulanır.",
                 "Bilecik merkez, Bozüyük ve Osmaneli sevkiyatı makine, tarih, çıkış noktası ve nakliye uygunluğu kontrol edildikten sonra planlanır.",
             ],
             maddeler: [
@@ -343,17 +343,17 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
             sss: [
                 { soru: "Bilecik'e teslimat süresi nedir?", cevap: "Teslimat tarihi stok, nakliye, adres ve saha kabul saatleri doğrulandıktan sonra yazılı teklifte belirtilir." },
-                { soru: "Seramik fabrikası içinde hangi model çalışır?", cevap: "Beyaz lastikli elektrikli makaslı modeller sırlı ve epoksi zeminlerde iz bırakmadan çalışır." },
-                { soru: "En kısa kiralama süresi nedir?", cevap: "Günlük kiralama yapıyoruz; yarım günlük acil işler için rota uygunsa çözüm üretiyoruz." },
+                { soru: "Seramik fabrikası içinde hangi model çalışır?", cevap: "Lastik tipi, makine ağırlığı, noktasal yük, emisyon ve tesis kuralları kontrol edilir; uygunluk teknik föy ile saha sorumlusu onayına göre belirlenir." },
+                { soru: "En kısa kiralama süresi nedir?", cevap: "Asgari süre makine, operatör, nakliye rotası ve iş programına göre değerlendirilir; teklif verilmeden kesin süre sözü verilmez." },
             ],
         },
         {
             slug: "bomlu-platform-kiralama",
             baslik: "Bilecik Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Bilecik ve çevresinde 16-32 metre eklemli/teleskopik bomlu platform kiralama. Fabrika cephesi, silo ve baca işleri; hızlı sevkiyat.",
+            aciklama: "Bilecik ve çevresinde fabrika cephesi, silo ve baca işleri için eklemli veya teleskopik bomlu platform seçimi ve sevkiyat teklifi.",
             h1: "Bilecik Bomlu Platform Kiralama",
             paragraflar: [
-                "Fabrika cepheleri, silolar, bacalar ve yüksek depo yapıları — Bilecik sanayisinin dikeyde zorlu işleri için 16-32 metre bomlu platform kiralıyoruz.",
+                "Fabrika cepheleri, silolar, bacalar ve yüksek depo yapılarında gerekli çalışma ve yatay erişim ölçüsüne göre bomlu platform sınıfı değerlendirilir.",
                 "Eklemli modeller boru hatlarının ve yapı çıkıntılarının üzerinden aşarak çalışır; teleskopik modeller açık cephede maksimum yatay erişim sağlar. Keşifte işin fotoğrafı üzerinden doğru tipi öneriyoruz.",
                 "Mermer ocağı ve taş işleme tesisi gibi tozlu ortamlarda makine uygunluğu, filtre bakımı ve saha riskleri seçilen model için ayrıca doğrulanmalıdır.",
             ],
@@ -366,7 +366,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             sss: [
                 { soru: "Bomlu platform için operatör seçeneği var mı?", cevap: "Operatör yeterliliği, tarih ve vardiya uygunluğu talep bazında kontrol edilir; operatörsüz kullanım şartları saha sorumlusuyla doğrulanır." },
                 { soru: "Silo bakımı için hangi yükseklik gerekir?", cevap: "Bölgedeki tipik çimento ve agrega siloları 20-30 metre aralığındadır; silo yüksekliğinize erişim payı eklenerek makine seçilir. Fotoğrafla ön değerlendirme yapıyoruz." },
-                { soru: "Hafta sonu çalışma mümkün mü?", cevap: "Fabrika duruşları çoğunlukla hafta sonu olduğu için cumartesi-pazar teslimat ve çalışma önceden planlanarak yapılır." },
+                { soru: "Hafta sonu çalışma mümkün mü?", cevap: "Hafta sonu teslimat ve çalışma; makine, nakliye, operatör ve tesis kabul saatleri doğrulandıktan sonra yazılı olarak planlanabilir." },
             ],
         },
         {
@@ -406,7 +406,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             sss: [
                 { soru: "Acil arıza için teslimat ne kadar sürer?", cevap: "Stok, nakliye, adres ve saha kabul saatleri kontrol edilir; teyit edilen en erken tarih yazılı olarak bildirilir." },
                 { soru: "Cam fabrikasında hangi önlemler alınır?", cevap: "Sıcak bölge mesafeleri, zemin koruma ve kıvılcım riski değerlendirmesi tesis İSG ekibiyle birlikte yapılır; uygun lastik ve konumlandırma planı çıkarılır." },
-                { soru: "Aylık kiralama avantajlı mı?", cevap: "Sürekli bakım ekibi olan tesisler için aylık kiralama, günlük çağırmaya göre belirgin maliyet avantajı sağlar; makine sahada konuşlu kalır." },
+                { soru: "Aylık kiralama nasıl değerlendirilir?", cevap: "Süre, kullanım yoğunluğu, nakliye ve sahada konuşlanma koşulları karşılaştırılır; maliyet farkı yalnız güncel yazılı teklif üzerinden değerlendirilmelidir." },
             ],
         },
         {
@@ -504,7 +504,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             sss: [
                 { soru: "Hangi bölgelere sevkiyat planlanabilir?", cevap: "Merkez, Biga, Çan, Ezine, Gelibolu ve Eceabat talepleri makine, güzergâh ve nakliye uygunluğuna göre değerlendirilir." },
                 { soru: "Rezervasyon ne kadar önceden yapılmalı?", cevap: "Bölgeye sevkiyat planlı günlerde yapıldığı için 2-3 gün öncesinden rezervasyon öneririz; acil durumlar için ayrıca çözüm üretiyoruz." },
-                { soru: "Uzun projede fiyat nasıl hesaplanır?", cevap: "Makine sahada konuşlu kalır, aylık birim fiyat uygulanır ve nakliye tek sefer alınır; bu model kısa kiralamalara göre belirgin avantajlıdır." },
+                { soru: "Uzun projede fiyat nasıl hesaplanır?", cevap: "Süre, kullanım planı, nakliye, operatör ve sahada konuşlanma koşulları ayrı kalemlerle hesaplanır; kısa dönemle farkı güncel yazılı teklifte gösterilir." },
                 { soru: "Evrak setinde neler olmalı?", cevap: "Saha prosedürüne göre periyodik kontrol, sigorta, makine uygunluğu ve operatör belgeleri istenebilir; kapsam ve geçerlilik tarihleri önceden doğrulanır." },
             ],
         },
@@ -567,7 +567,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { soru: "Hangi bölgelere sevkiyat planlanabilir?", cevap: "Manisa OSB, merkez, Turgutlu, Salihli, Akhisar ve Soma talepleri güncel makine ve nakliye uygunluğuna göre değerlendirilir." },
                 { soru: "Gece teslimat gerçekten yapılıyor mu?", cevap: "Evet; OSB tesislerinin vardiya saatlerine uyumlu gece teslim ve alım, önceden planlanarak düzenli yapılır." },
                 { soru: "Fiyat teklifi için ne gerekli?", cevap: "Çalışma yüksekliği, yatay erişim, süre, zemin, tarih ve adres bilgileriyle uygunluk ve fiyat hesabı hazırlanır." },
-                { soru: "Uzun dönem kiralamada avantaj nedir?", cevap: "Aylık sözleşmede birim fiyat düşer, nakliye çoğunlukla dahil edilir ve makine sahada konuşlu kalır." },
+                { soru: "Uzun dönem kiralama nasıl planlanır?", cevap: "Süre, nakliye, bakım, operatör ve sahada konuşlanma koşulları sözleşmede ayrı ayrı belirtilir; fiyat farkı güncel teklif üzerinden değerlendirilir." },
             ],
         },
     ],
@@ -603,7 +603,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             paragraflar: [
                 "Açık stok sahaları, yükleme rampaları ve tır-konteyner boşaltma işleri Manisa'da dizel ve LPG forkliftlerle döner. OSB'nin sevkiyat trafiğinde 3-5 ton sınıfı en yoğun kiralanan gruptur.",
                 "7-10 ton ağır hizmet sınıfı; makine parçaları, bobin ve büyük ebatlı ambalajlı ürünlerin elleçlenmesinde kullanılır. Uzun çatal ve kaydırıcı ataşman seçenekleri mevcuttur.",
-                "LPG modeller iyi havalandırılan kapalı alanlarda da çalışabilir; tüp değişimiyle kesintisiz vardiya sürdürülür.",
+                "LPG modelin kapalı alanda kullanımı; havalandırma, emisyon, yangın ve tesis prosedürlerine göre değerlendirilir. Yakıt ve vardiya düzeni yazılı çalışma planında netleştirilir.",
             ],
             maddeler: [
                 { baslik: "3-5 ton dizel/LPG", metin: "Rampa ve açık saha işlerinin standardı." },
@@ -627,7 +627,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
             sss: [
                 { soru: "Forklift kapasitesi nasıl seçilir?", cevap: "En ağır yük ve yük merkezi mesafesi belirleyicidir; standart 500 mm yük merkezinde etiket kapasitesi geçerlidir, uzayan yükte kapasite düşer. Yük bilgisiyle seçimi biz yapıyoruz." },
-                { soru: "Hangi belge gerekir?", cevap: "G sınıfı operatör belgesi zorunludur; belgeli personel yoksa operatörlü kiralama sunuyoruz." },
+                { soru: "Hangi belge gerekir?", cevap: "Operatör yetkinliği ve gerekli belgeler makine sınıfı, işveren yükümlülükleri ve güncel mevzuata göre İSG sorumlusuyla doğrulanmalıdır; operatör seçeneği ayrıca teklif edilir." },
                 { soru: "Teslimat süresi nedir?", cevap: "Teslimat tarihi seçilen model, nakliye, adres ve saha kabul saatleri doğrulandıktan sonra yazılı teklifte belirtilir." },
                 { soru: "Kiralık makinenin sigortası kime ait?", cevap: "Sigorta kapsamı, muafiyetler ve üçüncü şahıs sorumlulukları poliçe ile sözleşmeden kontrol edilmelidir." },
             ],

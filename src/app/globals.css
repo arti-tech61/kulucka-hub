@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+}
+
+a,
+button,
+summary {
+    outline-offset: 4px;
+}
+
+::selection {
+    background: #bfdbfe;
+    color: #0f172a;
+}

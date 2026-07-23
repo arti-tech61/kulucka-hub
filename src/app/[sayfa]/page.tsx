@@ -9,6 +9,7 @@ import { GaEtiketi } from "@/components/ga";
 import { HaberCerceve } from "@/components/haber-sitesi";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { haberKurumsalSayfaBul } from "@/lib/haber-kurumsal";
+import { TicariCerceve, TicariTeklif } from "@/components/ticari-cerceve";
 
 export const dynamic = "force-dynamic";
 
@@ -111,51 +112,62 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
     }
 
     return (
-        <main className="mx-auto max-w-3xl px-6 py-16">
+        <TicariCerceve site={site}>
+        <main className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
             {jsonLd.map((j, i) => (
                 <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} />
             ))}
             <GaEtiketi gaId={site.gaId} />
 
-            <Link href="/" className="text-sm text-slate-500 hover:underline">← {site.h1}</Link>
-            <nav aria-label="Ana menü" className="mt-5 flex flex-wrap gap-3 text-sm">
-                <Link href="/" className="font-semibold text-blue-800">Ana sayfa</Link>
-                <Link href="/hakkimizda" className="text-blue-800">Hakkımızda</Link>
-                <Link href="/teklif-hazirligi" className="text-blue-800">Talep rehberi</Link>
-                <Link href="/iletisim" className="text-blue-800">İletişim</Link>
-            </nav>
-            <p className="mt-6 text-xs font-bold tracking-widest text-blue-700 uppercase">{site.bolge}</p>
-            <h1 className="mt-2 text-4xl font-extrabold tracking-tight">{alt.h1}</h1>
+            <Link href="/" className="text-sm font-semibold text-blue-700 hover:underline">← {site.h1}</Link>
+            <section className="mt-6 overflow-hidden rounded-[2rem] bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 px-6 py-12 text-white sm:px-10 sm:py-16">
+                <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">{site.bolge}</p>
+                <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-[-0.04em] sm:text-6xl">{alt.h1}</h1>
+                <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">{alt.paragraflar[0]}</p>
+                <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                    <a href={`tel:${site.telefon}`} className="rounded-full bg-blue-600 px-6 py-3 text-center font-bold text-white hover:bg-blue-500">
+                        Uygunluk sor
+                    </a>
+                    <Link href="/teklif-hazirligi" className="rounded-full border border-white/25 px-6 py-3 text-center font-bold text-white hover:bg-white/10">
+                        Talep rehberini aç
+                    </Link>
+                </div>
+            </section>
 
-            <div className="mt-6 space-y-4 leading-relaxed text-slate-700">
-                {alt.paragraflar.map((p, i) => (
-                    <p key={i}>{p}</p>
-                ))}
+            <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+                <div className="space-y-5 text-lg leading-relaxed text-slate-700">
+                    {alt.paragraflar.slice(1).map((p, i) => <p key={i}>{p}</p>)}
+                </div>
+                <aside className="h-fit rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-950">
+                    <strong className="block text-base">Teklif öncesi doğrulama</strong>
+                    <span className="mt-2 block">
+                        Model, kapasite, belge, operatör, teslimat tarihi ve ücret güncel uygunluk kontrolünden sonra yazılı teklifte kesinleşir.
+                    </span>
+                </aside>
             </div>
 
-            <aside className="mt-8 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-amber-950">
-                Bu sayfa makine seçimi için ön bilgi verir. Model, kapasite, belge,
-                operatör, teslimat tarihi ve ücret güncel uygunluk kontrolünden sonra
-                yalnız yazılı teklif ve sözleşmeyle kesinleşir.
-            </aside>
-
             {alt.maddeler && alt.maddeler.length > 0 && (
-                <div className="mt-10 grid gap-4 sm:grid-cols-2">
+                <section className="mt-14">
+                    <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">Karar noktaları</p>
+                    <h2 className="mt-3 text-3xl font-black tracking-tight">İhtiyaca göre değerlendirme</h2>
+                <div className="mt-6 grid gap-4 sm:grid-cols-2">
                     {alt.maddeler.map((m) => (
-                        <div key={m.baslik} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-                            <h2 className="font-bold">{m.baslik}</h2>
+                        <div key={m.baslik} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                            <span className="mb-4 grid size-9 place-items-center rounded-xl bg-blue-50 font-black text-blue-700">✓</span>
+                            <h3 className="font-bold">{m.baslik}</h3>
                             <p className="mt-1 text-sm leading-relaxed text-slate-600">{m.metin}</p>
                         </div>
                     ))}
                 </div>
+                </section>
             )}
 
             {alt.sss && alt.sss.length > 0 && (
                 <>
-                    <h2 className="mt-12 text-2xl font-bold">Sık sorulan sorular</h2>
-                    <div className="mt-4 space-y-4">
+                    <h2 className="mt-16 text-3xl font-black tracking-tight">Sık sorulan sorular</h2>
+                    <div className="mt-6 space-y-3">
                         {alt.sss.map((s) => (
-                            <details key={s.soru} className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+                            <details key={s.soru} className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm open:border-blue-300">
                                 <summary className="cursor-pointer font-semibold">{s.soru}</summary>
                                 <p className="mt-3 leading-relaxed text-slate-700">{s.cevap}</p>
                             </details>
@@ -166,38 +178,19 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
 
             {digerSayfalar.length > 0 && (
                 <>
-                    <h2 className="mt-12 text-xl font-bold">Diğer sayfalar</h2>
-                    <ul className="mt-4 space-y-2">
+                    <h2 className="mt-16 text-2xl font-black">İlgili sayfalar</h2>
+                    <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                         {digerSayfalar.map((s) => (
-                            <li key={s.slug}>
-                                <a className="text-blue-700 underline hover:text-blue-900" href={`/${s.slug}`}>{s.baslik}</a>
+                            <li key={s.slug} className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                                <a className="font-bold text-blue-700 hover:text-blue-900" href={`/${s.slug}`}>{s.baslik} →</a>
                             </li>
                         ))}
                     </ul>
                 </>
             )}
 
-            <div className="mt-12 rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
-                <h2 className="text-xl font-bold">Teklif ve rezervasyon</h2>
-                <p className="mt-2 text-slate-600">
-                    Bu hizmet {site.anaSite.ad} filosu tarafından verilmektedir. Fiyat teklifi ve
-                    makine uygunluğu için ana sitemizden bize ulaşın.
-                </p>
-                <a
-                    href={`tel:${site.telefon}`}
-                    className="mt-5 inline-block rounded-full bg-blue-700 px-7 py-3 font-semibold text-white hover:bg-blue-800"
-                >
-                    Ara — {site.telefonGosterim}
-                </a>
-                <a className="mt-3 block text-sm text-blue-800 underline" href={`mailto:${site.eposta}`}>
-                    {site.eposta}
-                </a>
-            </div>
-
-            <footer className="mt-14 border-t border-slate-200 pt-6 text-sm text-slate-500">
-                © {new Date().getFullYear()} {site.anaSite.ad} ailesi ·{" "}
-                <a className="underline" href={site.anaSite.url}>{site.anaSite.url.replace("https://", "")}</a>
-            </footer>
+            <div className="mt-16"><TicariTeklif site={site} /></div>
         </main>
+        </TicariCerceve>
     );
 }
