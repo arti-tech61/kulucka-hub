@@ -1,34 +1,83 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 
+function siteGorunumu(site: SiteIcerik) {
+    if (site.host.includes("forklift")) {
+        return {
+            kod: "FL",
+            vurgu: "bg-amber-400 text-slate-950",
+            buton: "bg-amber-400 text-slate-950 hover:bg-amber-300",
+            gorsel: "/media/forklift.jpg",
+            gorselAlt: "Saha koşuluna göre değerlendirilen forklift sınıfı",
+            gorselSinifi: "object-cover",
+        };
+    }
+    if (site.kategori === "egitim" || site.kategori === "rehber") {
+        return {
+            kod: site.kategori === "egitim" ? "PA" : "YR",
+            vurgu: "bg-emerald-400 text-slate-950",
+            buton: "bg-emerald-400 text-slate-950 hover:bg-emerald-300",
+            gorsel: "/media/guvenli-calisma.png",
+            gorselAlt: "Yüksekte çalışma planı ve güvenlik kontrolü",
+            gorselSinifi: "object-cover",
+        };
+    }
+    if (site.host.includes("eklemli")) {
+        return {
+            kod: "EP",
+            vurgu: "bg-cyan-300 text-slate-950",
+            buton: "bg-cyan-300 text-slate-950 hover:bg-cyan-200",
+            gorsel: "/media/eklemli-platform.png",
+            gorselAlt: "Eklemli personel yükseltici platform",
+            gorselSinifi: "object-contain p-8 sm:p-12",
+        };
+    }
+    return {
+        kod: "AP",
+        vurgu: "bg-lime-300 text-slate-950",
+        buton: "bg-lime-300 text-slate-950 hover:bg-lime-200",
+        gorsel: "/media/saha-hero.png",
+        gorselAlt: "Yüksekte erişim işi için saha planlaması",
+        gorselSinifi: "object-cover",
+    };
+}
+
 export function TicariBaslik({ site }: { site: SiteIcerik }) {
+    const gorunum = siteGorunumu(site);
     return (
-        <header className="border-b border-slate-200/80 bg-white/95 backdrop-blur">
-            <div className="mx-auto flex max-w-6xl items-center justify-between gap-5 px-5 py-4 sm:px-8">
+        <header className="relative z-20 border-b border-white/10 bg-slate-950 text-white">
+            <div className="border-b border-white/10 bg-white/[0.035]">
+                <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-2 text-[11px] font-semibold tracking-wide text-slate-400 sm:px-8">
+                    <span>{site.bolge}</span>
+                    <span className="hidden sm:inline">Doğrulanmış kapsam · Yazılı teklif · Açık iletişim</span>
+                </div>
+            </div>
+            <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4 sm:px-8">
                 <Link href="/" className="group flex min-w-0 items-center gap-3">
-                    <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-blue-700 text-xl font-black text-white shadow-lg shadow-blue-700/20">
-                        {site.kategori === "rehber" ? "R" : site.kategori === "egitim" ? "A" : "P"}
+                    <span className={`grid size-11 shrink-0 place-items-center rounded-xl text-sm font-black tracking-tighter shadow-lg ${gorunum.vurgu}`}>
+                        {gorunum.kod}
                     </span>
                     <span className="min-w-0">
-                        <span className="block truncate text-base font-black tracking-tight text-slate-950">{site.h1}</span>
-                        <span className="block truncate text-xs font-medium text-slate-500">{site.bolge}</span>
+                        <span className="block truncate text-base font-black tracking-tight text-white">{site.h1}</span>
+                        <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">{site.anaSite.ad} hizmet ağı</span>
                     </span>
                 </Link>
-                <nav aria-label="Ana menü" className="hidden items-center gap-6 text-sm font-semibold text-slate-700 md:flex">
-                    <Link href="/">Ana sayfa</Link>
-                    <Link href="/hakkimizda">Hakkımızda</Link>
-                    <Link href="/teklif-hazirligi">Talep rehberi</Link>
-                    <Link href="/iletisim">İletişim</Link>
+                <nav aria-label="Ana menü" className="hidden items-center gap-7 text-sm font-semibold text-slate-300 md:flex">
+                    <Link className="transition hover:text-white" href="/">Ana sayfa</Link>
+                    <Link className="transition hover:text-white" href="/hakkimizda">Hakkımızda</Link>
+                    <Link className="transition hover:text-white" href="/teklif-hazirligi">Talep rehberi</Link>
+                    <Link className="transition hover:text-white" href="/iletisim">İletişim</Link>
                 </nav>
                 <a
                     href={`tel:${site.telefon}`}
-                    className="shrink-0 rounded-full bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-blue-700"
+                    className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition ${gorunum.buton}`}
                 >
                     <span className="hidden sm:inline">Hemen ara · </span>{site.telefonGosterim}
                 </a>
             </div>
-            <nav aria-label="Mobil menü" className="mx-auto grid max-w-6xl grid-cols-4 gap-2 border-t border-slate-100 px-4 py-3 text-center text-xs font-semibold text-slate-700 md:hidden">
+            <nav aria-label="Mobil menü" className="mx-auto grid max-w-7xl grid-cols-4 gap-2 border-t border-white/10 px-4 py-3 text-center text-[11px] font-bold text-slate-300 md:hidden">
                 <Link href="/">Ana sayfa</Link>
                 <Link href="/hakkimizda">Hakkımızda</Link>
                 <Link href="/teklif-hazirligi">Talep rehberi</Link>
@@ -39,29 +88,28 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
 }
 
 export function TicariGorsel({ site }: { site: SiteIcerik }) {
+    const gorunum = siteGorunumu(site);
     return (
-        <div aria-hidden="true" className="relative min-h-72 overflow-hidden rounded-[2rem] bg-slate-950 p-8 text-white shadow-2xl shadow-slate-950/20">
-            <div className="absolute -right-16 -top-16 size-64 rounded-full bg-blue-500/30 blur-3xl" />
-            <div className="absolute -bottom-20 -left-16 size-56 rounded-full bg-cyan-400/20 blur-3xl" />
-            <div className="relative flex h-full min-h-56 flex-col justify-between">
-                <div className="flex items-center justify-between">
-                    <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-widest">
-                        Saha planı
-                    </span>
-                    <span className="grid size-12 place-items-center rounded-2xl bg-blue-600 text-2xl">↗</span>
-                </div>
-                <div>
-                    <div className="mb-5 flex items-end gap-2">
-                        {[36, 58, 84, 112].map((height) => (
-                            <span
-                                key={height}
-                                className="w-9 rounded-t-lg border border-white/20 bg-gradient-to-t from-blue-700 to-cyan-300"
-                                style={{ height }}
-                            />
-                        ))}
+        <div className="relative min-h-[28rem] overflow-hidden rounded-[2rem] border border-white/15 bg-slate-900 shadow-2xl shadow-black/30">
+            <Image
+                src={gorunum.gorsel}
+                alt={gorunum.gorselAlt}
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 48vw"
+                className={gorunum.gorselSinifi}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+                <div className="flex items-end justify-between gap-5">
+                    <div>
+                        <span className={`inline-flex rounded-full px-3 py-1 text-[11px] font-black uppercase tracking-widest ${gorunum.vurgu}`}>
+                            Saha odaklı plan
+                        </span>
+                        <p className="mt-4 max-w-sm text-xl font-black leading-snug text-white">{site.uzmanlik}</p>
+                        <p className="mt-2 text-sm font-medium text-slate-300">İhtiyaç → uygunluk → yazılı teklif</p>
                     </div>
-                    <p className="max-w-sm text-lg font-bold leading-snug">{site.uzmanlik}</p>
-                    <p className="mt-2 text-sm text-slate-300">İş bilgisi → uygunluk kontrolü → yazılı teklif</p>
+                    <span aria-hidden="true" className="grid size-12 shrink-0 place-items-center rounded-full border border-white/25 bg-white/10 text-2xl text-white backdrop-blur">↗</span>
                 </div>
             </div>
         </div>
@@ -69,20 +117,24 @@ export function TicariGorsel({ site }: { site: SiteIcerik }) {
 }
 
 export function TicariTeklif({ site }: { site: SiteIcerik }) {
+    const gorunum = siteGorunumu(site);
     return (
-        <section className="rounded-[2rem] bg-blue-700 px-6 py-10 text-center text-white shadow-xl shadow-blue-700/20 sm:px-10">
-            <p className="text-xs font-bold uppercase tracking-[0.22em] text-blue-100">İhtiyacınızı birlikte netleştirelim</p>
-            <h2 className="mx-auto mt-3 max-w-2xl text-3xl font-black tracking-tight">Saha bilgilerinizi paylaşın, doğrulanabilir teklif hazırlayalım.</h2>
-            <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-blue-100">
+        <section className="relative overflow-hidden rounded-[2rem] bg-slate-950 px-6 py-12 text-center text-white shadow-2xl shadow-slate-950/20 sm:px-10">
+            <div className="absolute -left-20 -top-24 size-72 rounded-full bg-blue-600/30 blur-3xl" />
+            <div className="relative">
+            <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-400">İhtiyacınızı birlikte netleştirelim</p>
+            <h2 className="mx-auto mt-4 max-w-3xl text-3xl font-black tracking-[-0.03em] sm:text-4xl">Saha bilgilerinizi paylaşın, doğrulanabilir teklif hazırlayalım.</h2>
+            <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-slate-300">
                 Model, kapasite, belge, operatör, nakliye, teslimat ve ücret; güncel uygunluk kontrolünden sonra yazılı teklif ve sözleşmede kesinleşir.
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
-                <a href={`tel:${site.telefon}`} className="rounded-full bg-white px-6 py-3 font-bold text-blue-800 transition hover:bg-blue-50">
+                <a href={`tel:${site.telefon}`} className={`rounded-full px-6 py-3 font-black transition ${gorunum.buton}`}>
                     Ara · {site.telefonGosterim}
                 </a>
                 <a href={`mailto:${site.eposta}`} className="rounded-full border border-white/40 px-6 py-3 font-bold text-white transition hover:bg-white/10">
                     E-posta gönder
                 </a>
+            </div>
             </div>
         </section>
     );
@@ -93,10 +145,10 @@ export function TicariCerceve({ site, children }: { site: SiteIcerik; children: 
         <>
             <TicariBaslik site={site} />
             {children}
-            <footer className="mt-20 border-t border-slate-200 bg-white">
-                <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 text-sm text-slate-600 sm:px-8 md:grid-cols-[1fr_auto]">
+            <footer className="mt-20 border-t border-white/10 bg-slate-950 text-white">
+                <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 text-sm text-slate-400 sm:px-8 md:grid-cols-[1fr_auto]">
                     <div>
-                        <p className="font-black text-slate-950">{site.h1}</p>
+                        <p className="font-black text-white">{site.h1}</p>
                         <p className="mt-2 max-w-xl leading-relaxed">
                             {site.anaSite.ad} hizmet ağı içinde, {site.uzmanlik} odağında bilgilendirme ve teklif hazırlama noktası.
                         </p>

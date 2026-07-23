@@ -88,26 +88,43 @@ export default async function Sayfa() {
               `}</Script>
             </>)}
 
-            <section className="overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white">
-                <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-14 sm:px-8 lg:grid-cols-[1.08fr_.92fr] lg:py-20">
+            <section className="relative overflow-hidden bg-slate-950 text-white">
+                <div className="absolute left-1/3 top-0 size-[34rem] rounded-full bg-blue-600/15 blur-3xl" />
+                <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-14 sm:px-8 lg:grid-cols-[1.02fr_.98fr] lg:py-20">
                     <div>
-                        <p className="text-xs font-black uppercase tracking-[0.22em] text-blue-700">{site.bolge}</p>
-                        <h1 className="mt-4 text-4xl font-black tracking-[-0.04em] text-slate-950 sm:text-6xl">{site.h1}</h1>
-                        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600">{site.paragraflar[0]}</p>
+                        <div className="flex flex-wrap items-center gap-3">
+                            <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">{site.bolge}</p>
+                            <span className="size-1 rounded-full bg-slate-600" />
+                            <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-400">Planlı saha çözümü</p>
+                        </div>
+                        <h1 className="mt-5 max-w-3xl text-5xl font-black leading-[0.98] tracking-[-0.055em] text-white sm:text-7xl">{site.h1}</h1>
+                        <p className="mt-7 max-w-2xl text-lg leading-relaxed text-slate-300">{site.paragraflar[0]}</p>
                         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                            <a href={`tel:${site.telefon}`} className="rounded-full bg-blue-700 px-6 py-3.5 text-center font-bold text-white shadow-lg shadow-blue-700/20 hover:bg-blue-800">
+                            <a href={`tel:${site.telefon}`} className="rounded-full bg-white px-6 py-3.5 text-center font-black text-slate-950 transition hover:bg-cyan-100">
                                 Teklif için ara
                             </a>
-                            <a href="/teklif-hazirligi" className="rounded-full border border-slate-300 bg-white px-6 py-3.5 text-center font-bold text-slate-800 hover:border-blue-400">
+                            <a href="/teklif-hazirligi" className="rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-center font-bold text-white backdrop-blur transition hover:bg-white/10">
                                 Talep bilgilerini hazırla
                             </a>
+                        </div>
+                        <div className="mt-10 grid max-w-xl grid-cols-3 gap-3 border-t border-white/10 pt-6 text-sm">
+                            {[
+                                ["01", "İhtiyaç analizi"],
+                                ["02", "Uygunluk kontrolü"],
+                                ["03", "Yazılı kapsam"],
+                            ].map(([no, label]) => (
+                                <div key={no}>
+                                    <span className="block text-[10px] font-black text-cyan-300">{no}</span>
+                                    <span className="mt-1 block font-semibold text-slate-300">{label}</span>
+                                </div>
+                            ))}
                         </div>
                     </div>
                     <TicariGorsel site={site} />
                 </div>
             </section>
 
-            <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
+            <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
             <aside className="rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-950">
                 Makine modeli, kapasite, belge, operatör, teslimat tarihi ve ücret;
                 güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir.
@@ -120,9 +137,12 @@ export default async function Sayfa() {
             </div>
             <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {site.hizmetler.map((h, i) => (
-                    <li key={i} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-                        <span className="grid size-9 place-items-center rounded-xl bg-blue-50 font-black text-blue-700">0{i + 1}</span>
-                        <p className="mt-4 font-bold leading-snug text-slate-800">{h}</p>
+                    <li key={i} className="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl">
+                        <div className="flex items-start justify-between">
+                            <span className="text-xs font-black tracking-widest text-blue-700">0{i + 1}</span>
+                            <span aria-hidden="true" className="grid size-9 place-items-center rounded-full bg-slate-100 text-slate-500 transition group-hover:bg-slate-950 group-hover:text-white">↗</span>
+                        </div>
+                        <p className="mt-10 text-lg font-black leading-snug text-slate-900">{h}</p>
                     </li>
                 ))}
             </ul>
@@ -132,7 +152,7 @@ export default async function Sayfa() {
                     <h2 className="mt-16 text-2xl font-black">Detaylı hizmet sayfaları</h2>
                     <div className="mt-5 grid gap-4 md:grid-cols-3">
                         {altSayfalar.map((a) => (
-                            <a key={a.slug} className="group rounded-2xl border border-slate-200 bg-slate-50 p-5 font-bold text-slate-800 transition hover:-translate-y-0.5 hover:border-blue-300 hover:bg-white hover:shadow-lg" href={`/${a.slug}`}>
+                            <a key={a.slug} className="group rounded-3xl border border-slate-200 bg-slate-50 p-6 font-bold text-slate-800 transition hover:-translate-y-1 hover:border-blue-300 hover:bg-white hover:shadow-xl" href={`/${a.slug}`}>
                                 {a.baslik}<span className="mt-4 block text-blue-700">İncele →</span>
                             </a>
                         ))}
@@ -159,8 +179,9 @@ export default async function Sayfa() {
                     ["2", "Uygunluğu kontrol edelim", "Makine sınıfı, nakliye, belge ve operatör kapsamını doğrulayalım."],
                     ["3", "Yazılı teklif alın", "Kesinleşen kapsamı fiyat ve sözleşme koşullarıyla birlikte görün."],
                 ].map(([no, baslik, metin]) => (
-                    <div key={no} className="rounded-2xl bg-slate-950 p-6 text-white">
-                        <span className="text-sm font-black text-cyan-300">{no}</span>
+                    <div key={no} className="relative overflow-hidden rounded-3xl bg-slate-950 p-7 text-white">
+                        <div className="absolute -right-10 -top-10 size-28 rounded-full bg-blue-600/20 blur-2xl" />
+                        <span className="relative text-sm font-black text-cyan-300">{no}</span>
                         <h2 className="mt-5 text-xl font-black">{baslik}</h2>
                         <p className="mt-2 text-sm leading-relaxed text-slate-300">{metin}</p>
                     </div>
