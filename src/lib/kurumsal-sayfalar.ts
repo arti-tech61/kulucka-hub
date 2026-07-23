@@ -49,7 +49,7 @@ export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
         },
         {
             slug: "teklif-hazirligi",
-            baslik: `Doğru Talep ve Teklif Hazırlama Rehberi | ${site.h1}`,
+            baslik: `Teklif Hazırlama | ${site.h1}`,
             aciklama: `${site.h1} için ihtiyaçları eksiksiz tarif etme, seçenekleri karşılaştırma ve yazılı kapsam kontrolü rehberi.`,
             h1: bilgiSitesi ? "Doğru Bilgi Talebi Nasıl Hazırlanır?" : "Doğru Kiralama Teklifi Nasıl Hazırlanır?",
             indexlenebilir: true,
