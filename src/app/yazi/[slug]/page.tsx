@@ -69,6 +69,20 @@ export default async function YaziSayfasi({ params }: { params: Promise<{ slug: 
                         <p key={i}>{p}</p>
                     ))}
                 </div>
+                <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6">
+                    <h2 className="text-xl font-bold">Okur için doğrulama kontrolü</h2>
+                    <p className="mt-3 leading-relaxed text-slate-700">
+                        Bu başlıkla ilgili karar vermeden önce bilginin tarihini, uygulandığı
+                        bölgeyi ve birincil kaynağını kontrol edin. Mevzuat ve güvenlik
+                        konularında Resmî Gazete, yetkili kamu kurumu, üretici kullanım
+                        kılavuzu ve işyerine özgü risk değerlendirmesi önceliklidir.
+                    </p>
+                    <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-700">
+                        <li>Rakam veya kuralın hangi tarih ve kaynak için geçerli olduğunu doğrulayın.</li>
+                        <li>Genel bilgiyi saha koşuluna uygulamadan önce yetkili uzmana danışın.</li>
+                        <li>Maddi hata görürseniz sayfa bağlantısıyla yayın iletişim kanalına bildirin.</li>
+                    </ul>
+                </section>
             </main>
         </HaberCerceve>
     );

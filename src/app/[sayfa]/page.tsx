@@ -6,6 +6,9 @@ import { hostIcinSite } from "@/lib/siteler";
 import { altSayfaBul, hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { kurumsalSayfaBul, kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
 import { GaEtiketi } from "@/components/ga";
+import { HaberCerceve } from "@/components/haber-sitesi";
+import { hostIcinHaberSitesi } from "@/lib/haber-config";
+import { haberKurumsalSayfaBul } from "@/lib/haber-kurumsal";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +20,16 @@ async function aktifHost() {
 export async function generateMetadata({ params }: { params: Promise<{ sayfa: string }> }): Promise<Metadata> {
     const host = await aktifHost();
     const { sayfa } = await params;
+    const haber = hostIcinHaberSitesi(host);
+    const haberSayfasi = haber ? haberKurumsalSayfaBul(haber, sayfa) : undefined;
+    if (haber && haberSayfasi) {
+        return {
+            title: haberSayfasi.baslik,
+            description: haberSayfasi.aciklama,
+            alternates: { canonical: `https://${haber.host}/${haberSayfasi.slug}` },
+            robots: haberSayfasi.indexlenebilir ? undefined : { index: false, follow: true },
+        };
+    }
     const site = hostIcinSite(host);
     const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
     if (!alt) return {};
@@ -40,6 +53,35 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
 export default async function AltSayfaGorunum({ params }: { params: Promise<{ sayfa: string }> }) {
     const host = await aktifHost();
     const { sayfa } = await params;
+    const haber = hostIcinHaberSitesi(host);
+    const haberSayfasi = haber ? haberKurumsalSayfaBul(haber, sayfa) : undefined;
+    if (haber && haberSayfasi) {
+        return (
+            <HaberCerceve site={haber}>
+                <main className="mx-auto max-w-3xl px-6 py-12">
+                    <p className="text-xs font-bold uppercase tracking-widest text-slate-500">{haber.slogan}</p>
+                    <h1 className="mt-2 text-4xl font-extrabold tracking-tight">{haberSayfasi.h1}</h1>
+                    <div className="mt-8 space-y-5 text-lg leading-relaxed text-slate-700">
+                        {haberSayfasi.paragraflar.map((paragraf) => <p key={paragraf}>{paragraf}</p>)}
+                    </div>
+                    {haberSayfasi.maddeler && (
+                        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+                            {haberSayfasi.maddeler.map((madde) => (
+                                <section key={madde.baslik} className="rounded-2xl border border-slate-200 bg-white p-5">
+                                    <h2 className="font-bold">{madde.baslik}</h2>
+                                    <p className="mt-2 text-sm leading-relaxed text-slate-600">{madde.metin}</p>
+                                </section>
+                            ))}
+                        </div>
+                    )}
+                    {haberSayfasi.slug === "iletisim" && (
+                        <a className="mt-8 inline-block rounded-full bg-slate-900 px-6 py-3 font-semibold text-white"
+                           href="mailto:arti.tech61@gmail.com">E-posta gönder</a>
+                    )}
+                </main>
+            </HaberCerceve>
+        );
+    }
     const site = hostIcinSite(host);
     const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
     if (!site || !alt) notFound();

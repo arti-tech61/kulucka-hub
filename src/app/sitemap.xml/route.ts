@@ -3,6 +3,7 @@ import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
+import { haberKurumsalSayfalar } from "@/lib/haber-kurumsal";
 
 export const dynamic = "force-dynamic";
 
@@ -21,6 +22,9 @@ export async function GET(istek: Request) {
         urller.push({ loc: `https://${haber.host}/`, lastmod: bugun });
         for (const y of haber.yazilar) {
             urller.push({ loc: `https://${haber.host}/yazi/${y.slug}`, lastmod: y.tarih });
+        }
+        for (const sayfa of haberKurumsalSayfalar(haber).filter((s) => s.indexlenebilir)) {
+            urller.push({ loc: `https://${haber.host}/${sayfa.slug}`, lastmod: bugun });
         }
     } else {
         const site = hostIcinSite(host);

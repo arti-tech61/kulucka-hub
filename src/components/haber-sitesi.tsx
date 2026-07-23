@@ -36,11 +36,19 @@ export function HaberCerceve({ site, children }: { site: HaberSitesi; children: 
                     </Link>
                     <p className="hidden text-sm text-slate-500 sm:block">{site.slogan}</p>
                 </div>
+                <nav aria-label="Yayın menüsü" className="mx-auto flex max-w-4xl flex-wrap gap-4 px-6 pb-4 text-sm">
+                    <Link href="/" className="font-semibold text-slate-800">Ana sayfa</Link>
+                    <Link href="/hakkimizda" className="text-slate-600 hover:text-slate-900">Hakkımızda</Link>
+                    <Link href="/yayin-ilkeleri" className="text-slate-600 hover:text-slate-900">Yayın ilkeleri</Link>
+                    <Link href="/iletisim" className="text-slate-600 hover:text-slate-900">İletişim</Link>
+                </nav>
             </header>
             {children}
             <footer className="mt-16 border-t border-slate-200 bg-white">
                 <div className="mx-auto max-w-4xl px-6 py-8 text-sm text-slate-500">
                     © {new Date().getFullYear()} {site.altBilgi}
+                    <span> · </span><Link className="underline" href="/gizlilik-politikasi">Gizlilik</Link>
+                    <span> · </span><Link className="underline" href="/kullanim-kosullari">Koşullar</Link>
                 </div>
             </footer>
         </div>
