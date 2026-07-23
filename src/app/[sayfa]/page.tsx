@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { altSayfaBul, hostAltSayfalari } from "@/lib/alt-sayfalar";
@@ -81,6 +81,12 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
 export default async function AltSayfaGorunum({ params }: { params: Promise<{ sayfa: string }> }) {
     const host = await aktifHost();
     const { sayfa } = await params;
+    if (
+        sayfa === "bomlu-platform-kiralama"
+        && hostAltSayfalari(host).some((alt) => alt.slug === "eklemli-ve-teleskopik-platform-kiralama")
+    ) {
+        redirect("/eklemli-ve-teleskopik-platform-kiralama");
+    }
     const haber = hostIcinHaberSitesi(host);
     const haberSayfasi = haber ? haberKurumsalSayfaBul(haber, sayfa) : undefined;
     if (haber && haberSayfasi) {
@@ -113,6 +119,7 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
     const site = hostIcinSite(host);
     const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
     if (!site || !alt) notFound();
+    const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     const digerSayfalar = [...hostAltSayfalari(host), ...kurumsalSayfalar(site)]
         .filter((s) => s.slug !== alt.slug);
 
@@ -152,11 +159,17 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
                 <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-[-0.04em] sm:text-6xl">{alt.h1}</h1>
                 <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">{alt.paragraflar[0]}</p>
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                    <a href={`tel:${site.telefon}`} className="rounded-full bg-blue-600 px-6 py-3 text-center font-bold text-white hover:bg-blue-500">
-                        Uygunluk sor
-                    </a>
+                    {bilgiSitesi ? (
+                        <a href="#kaynaklar" className="rounded-full bg-emerald-500 px-6 py-3 text-center font-bold text-slate-950 hover:bg-emerald-400">
+                            Kaynakları incele
+                        </a>
+                    ) : (
+                        <a href={`tel:${site.telefon}`} className="rounded-full bg-blue-600 px-6 py-3 text-center font-bold text-white hover:bg-blue-500">
+                            Uygunluk sor
+                        </a>
+                    )}
                     <Link href="/teklif-hazirligi" className="rounded-full border border-white/25 px-6 py-3 text-center font-bold text-white hover:bg-white/10">
-                        Talep rehberini aç
+                        {bilgiSitesi ? "Yayın kapsamını öğren" : "Talep rehberini aç"}
                     </Link>
                 </div>
             </section>
@@ -165,10 +178,12 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
                 <div className="space-y-5 text-lg leading-relaxed text-slate-700">
                     {alt.paragraflar.slice(1).map((p, i) => <p key={i}>{p}</p>)}
                 </div>
-                <aside className="h-fit rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-950">
-                    <strong className="block text-base">Teklif öncesi doğrulama</strong>
+                <aside className={`h-fit rounded-2xl p-5 text-sm leading-relaxed ${bilgiSitesi ? "border border-emerald-200 bg-emerald-50 text-emerald-950" : "border border-amber-200 bg-amber-50 text-amber-950"}`}>
+                    <strong className="block text-base">{bilgiSitesi ? "Bilgiyi uygulamadan önce" : "Teklif öncesi doğrulama"}</strong>
                     <span className="mt-2 block">
-                        Model, kapasite, belge, operatör, teslimat tarihi ve ücret güncel uygunluk kontrolünden sonra yazılı teklifte kesinleşir.
+                        {bilgiSitesi
+                            ? "Yayın tarihini, resmî kaynağın güncel sürümünü, üretici talimatını ve işyerinizin risk değerlendirmesini birlikte kontrol edin."
+                            : "Model, kapasite, belge, operatör, teslimat tarihi ve ücret güncel uygunluk kontrolünden sonra yazılı teklifte kesinleşir."}
                     </span>
                 </aside>
             </div>
@@ -201,6 +216,22 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
                         ))}
                     </div>
                 </>
+            )}
+            {"kaynaklar" in alt && alt.kaynaklar && alt.kaynaklar.length > 0 && (
+                <section id="kaynaklar" className="mt-16 rounded-3xl border border-emerald-200 bg-emerald-50 p-7 sm:p-9">
+                    <p className="text-xs font-black uppercase tracking-[0.2em] text-emerald-800">Birincil kaynaklar</p>
+                    <h2 className="mt-3 text-2xl font-black text-slate-950">Güncel bilgiyi doğrulayın</h2>
+                    <div className="mt-6 space-y-4">
+                        {alt.kaynaklar.map((kaynak) => (
+                            <article key={kaynak.url} className="rounded-2xl bg-white p-5 shadow-sm">
+                                <a className="font-bold text-emerald-800 underline" href={kaynak.url} rel="noopener noreferrer" target="_blank">
+                                    {kaynak.ad} ↗
+                                </a>
+                                {kaynak.not && <p className="mt-2 text-sm leading-relaxed text-slate-600">{kaynak.not}</p>}
+                            </article>
+                        ))}
+                    </div>
+                </section>
             )}
 
             {digerSayfalar.length > 0 && (

@@ -41,7 +41,7 @@ export async function GET(istek: Request) {
                 urller.push({ loc: `https://${site.host}/${sayfa.slug}`, lastmod: bugun });
             }
             if (site.host === "yuksektecalismarehberi.com") {
-                urller.push({ loc: `https://${site.host}/rehber/telehandler-mi-bomlu-platform-mu`, lastmod: bugun });
+                urller.push({ loc: `https://${site.host}/rehber/telehandler-mi-personel-yukseltici-mi`, lastmod: bugun });
                 for (const r of rehberler) {
                     urller.push({ loc: `https://${site.host}/rehber/${r.slug}`, lastmod: bugun });
                 }

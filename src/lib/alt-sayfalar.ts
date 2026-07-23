@@ -1,3 +1,9 @@
+import {
+    platformAkademisiIpafParagraflari,
+    platformAkademisiKontrolParagraflari,
+    platformAkademisiMykParagraflari,
+} from "./platform-akademisi-icerik";
+
 export interface AltSayfa {
     slug: string;
     baslik: string; // <title> ve bağlantı metni
@@ -6,6 +12,7 @@ export interface AltSayfa {
     paragraflar: string[];
     maddeler?: { baslik: string; metin: string }[];
     sss?: { soru: string; cevap: string }[];
+    kaynaklar?: { ad: string; url: string; not?: string }[];
 }
 
 export const altSayfalar: Record<string, AltSayfa[]> = {
@@ -16,12 +23,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             aciklama: "Şantiye ve açık saha işleri için dizel eklemli platform seçimi. Çalışma yüksekliği, yatay erişim, zemin ve sevkiyat koşulları teklifte doğrulanır.",
             h1: "Dizel Eklemli Platform Kiralama",
             paragraflar: [
-                "Dizel eklemli platformlar, açık sahada ve bozuk zeminde çalışmanın standart makinesidir. 4x4 çekişli şasileri sayesinde stabilize yollarda, şantiye içi rampalarda ve tesviyesi tamamlanmamış zeminlerde güvenle hareket eder; elektrik altyapısı gerektirmediği için sahanın her noktasında çalışır.",
+                "Dizel eklemli platformlar, açık saha ve engel aşma gerektiren işlerde değerlendirilen seçeneklerdendir. Çekiş, izin verilen eğim, zemin basıncı ve kullanım alanı modele göre değişir; stabilize yol, rampa veya tesviyesi tamamlanmamış zeminde uygunluk ancak saha incelemesi ile üretici verileri birlikte değerlendirilerek belirlenir.",
                 "Gerekli yükseklik sınıfı; cephe kaplama, çelik konstrüksiyon, dış cephe, aydınlatma ve tabela işinin erişim ölçülerine göre belirlenir. Model ve kapasite uygunluğu güncel stok üzerinden teyit edilir.",
                 "Eklemli bom yapısı, düz teleskopik bomların aksine engelin üzerinden aşarak çalışmaya izin verir: bir çatı parapetinin arkasına, bir boru hattının ötesine veya ağaçların üzerinden cepheye bu makinelerle erişilir.",
             ],
             maddeler: [
-                { baslik: "18-26 m sınıfı", metin: "En çok kiralanan aralık; cephe ve montaj işlerinin çoğunu karşılar, nakliyesi tek çekiciyle yapılır." },
+                { baslik: "18-26 m sınıfı", metin: "Cephe ve montaj işlerinde değerlendirilen aralık; erişim geometrisi ve nakliye biçimi seçilen modelin teknik ölçülerine göre teyit edilir." },
                 { baslik: "28-43 m sınıfı", metin: "Yüksek yapı cepheleri, silo ve endüstriyel baca işleri için; sahada geniş kurulum alanı ister." },
                 { baslik: "4x4 ve jack sistemleri", metin: "Eğimli ve gevşek zeminlerde çekiş ve dengeleme desteği sağlar." },
                 { baslik: "Operatör seçeneği", metin: "Operatör talebi, yeterlilik belgesi ve tarih uygunluğu teklif sırasında doğrulanır." },
@@ -30,7 +37,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { soru: "Dizel eklemli platform hangi zeminlerde çalışır?", cevap: "Stabilize yol, sıkıştırılmış dolgu ve şantiye zemini dahil çoğu açık saha zemininde çalışır. Çamurlu ve taşıma kapasitesi belirsiz zeminlerde önce zemin uygunluğu değerlendirilir; gerekirse çelik plaka serilir." },
                 { soru: "Kiralama için asgari süre nedir?", cevap: "Asgari süre ve dönemsel fiyat, seçilen makine ile proje tarihine göre yazılı teklifte belirtilir." },
                 { soru: "Nakliye kime aittir?", cevap: "Nakliye sorumluluğu, çıkış noktası, teslimat adresi ve ücret kalemi yazılı teklifte açıkça belirtilir." },
-                { soru: "Operatör belgesi zorunlu mu?", cevap: "Evet. Makineyi kullanacak kişinin yükseltici platform operatör belgesi bulunmalıdır; belgeli personeliniz yoksa operatörlü kiralama öneririz." },
+                { soru: "Operatör için hangi belgeler gerekir?", cevap: "Gereklilik; yapılan görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir. Göreve başlamadan önce güncel şartlar yetkili İSG birimi ve resmî kaynaklardan doğrulanmalıdır." },
             ],
         },
         {
@@ -68,7 +75,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { soru: "Eklemli platform ile teleskopik platform arasındaki fark nedir?", cevap: "Teleskopik bom düz bir doğrultuda uzar ve aynı yükseklikte daha fazla yatay erişim sunar; eklemli bom ise 'kırılan' yapısıyla engellerin üzerinden aşarak çalışır. Cephe önünde engel (saçak, boru, ağaç, parapet) varsa eklemli, açık alanda maksimum erişim gerekiyorsa teleskopik doğru seçimdir." },
                 { soru: "Fiyat neye göre belirlenir?", cevap: "Makine sınıfı, süre, nakliye mesafesi, operatör talebi ve saha koşulları fiyatı etkiler; geçerlilik süresi bulunan yazılı teklif esas alınır." },
                 { soru: "Hangi evraklar gerekir?", cevap: "Periyodik kontrol, makine uygunluğu ve operatör yeterliliği gibi saha tarafından istenen belgeler önceden listelenir; mevcut belge seti sözleşme öncesinde doğrulanır." },
-                { soru: "Yağmurda çalışılır mı?", cevap: "Hafif yağışta dizel makinelerle çalışma sürdürülebilir; ancak rüzgâr hızı üretici limitini (genellikle 12,5 m/sn) aştığında çalışma durdurulmalıdır. Operatörlerimiz hava koşulu kararlarında yetkilidir." },
+                { soru: "Yağmurda çalışılır mı?", cevap: "Yağış, rüzgâr, görüş ve zemin koşulları birlikte değerlendirilir. Çalışma kararı sabit bir genel sınıra göre değil, seçilen modelin kullanım kılavuzu, saha risk değerlendirmesi ve sorumlu personelin kararıyla verilir." },
                 { soru: "Ne kadar önceden rezervasyon gerekli?", cevap: "Rezervasyon süresi güncel stok, makine sınıfı, nakliye ve proje tarihine bağlıdır; uygunluk teyidi alınmadan teslimat tarihi kesin kabul edilmemelidir." },
             ],
         },
@@ -94,18 +101,18 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             sss: [
                 { soru: "Makaslı platform kaç kişi taşır?", cevap: "Modele göre sepet kapasitesi 230-450 kg arasındadır; pratikte 2-3 çalışan ve el aletleri güvenle taşınır." },
                 { soru: "Liman sahasında çalışma için özel izin gerekir mi?", cevap: "Liman işletmesinin saha giriş prosedürü önceden öğrenilmelidir. Talep edilen periyodik kontrol, sigorta ve operatör belgelerinin mevcudiyeti sözleşmeden önce doğrulanır." },
-                { soru: "Tersane işlerinde hangi model uygun?", cevap: "Açık saha ve halat/blok engelleri nedeniyle 4x4 dizel makaslı veya duruma göre bomlu platform önerilir; keşifte netleştiririz." },
+                { soru: "Tersane işlerinde hangi model uygun?", cevap: "Açık saha ve halat/blok engelleri nedeniyle 4x4 dizel makaslı veya duruma göre eklemli veya teleskopik platform önerilir; keşifte netleştiririz." },
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Bandırma Bomlu Platform Kiralama (16-43 m)",
-            aciklama: "Bandırma ve çevresinde 16-43 metre eklemli ve teleskopik bomlu platform kiralama. Silo, enerji tesisi ve cephe işleri; İSG uyumlu teslimat.",
-            h1: "Bandırma Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Bandırma Eklemli ve Teleskopik Platform Kiralama (16-43 m)",
+            aciklama: "Bandırma ve çevresinde 16-43 metre eklemli ve teleskopik platform seçenekleri. Silo, enerji tesisi ve cephe işleri için saha koşullarına göre planlama.",
+            h1: "Bandırma Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Bomlu platformlar hem yükseğe hem de yatayda uzağa erişim gerektiren işlerin makinesidir. Bandırma bölgesinde silo bakımları, un ve yem fabrikalarının çatı-cephe işleri, enerji tesislerindeki yapısal kontroller bu grubun tipik kullanım alanlarıdır.",
+                "Eklemli ve teleskopik platformlar hem yükseğe hem de yatayda uzağa erişim gerektiren işlerin makinesidir. Bandırma bölgesinde silo bakımları, un ve yem fabrikalarının çatı-cephe işleri, enerji tesislerindeki yapısal kontroller bu grubun tipik kullanım alanlarıdır.",
                 "Eklemli veya teleskopik seçiminde hedef yükseklik, yatay erişim ve engel geometrisi dikkate alınır; uygun model ve kapasite güncel stok üzerinden doğrulanır.",
-                "Bomlu platform kullanımında üretici talimatları, risk değerlendirmesi ve geçerli saha kuralları esas alınır. KKD, operatör ve belge gereksinimleri iş başlamadan önce sorumlu taraflarla yazılı olarak netleştirilir.",
+                "Eklemli ve teleskopik platform kullanımında üretici talimatları, risk değerlendirmesi ve geçerli saha kuralları esas alınır. KKD, operatör ve belge gereksinimleri iş başlamadan önce sorumlu taraflarla yazılı olarak netleştirilir.",
             ],
             maddeler: [
                 { baslik: "16-26 m sınıfı", metin: "Fabrika cepheleri ve orta yükseklikteki silo işleri; bölgede en çok dönen aralık." },
@@ -114,7 +121,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "İSG kontrolü", metin: "KKD ve makine evrakı gereksinimleri saha prosedürüne göre teklif öncesinde doğrulanır." },
             ],
             sss: [
-                { soru: "Bomlu platformda kemer neden zorunlu?", cevap: "Bom yapısı ani hareketlerde sepetteki çalışanı fırlatabilir (mancınık etkisi); tam vücut kemeri ve kısa lanyard çalışanı sepette tutar. Bu, mevzuat ve üretici talimatı gereğidir." },
+                { soru: "Eklemli veya teleskopik platformda düşüşten korunma nasıl belirlenir?", cevap: "Bağlantı noktası, donanım ve kullanım yöntemi seçilen modelin üretici talimatı, saha risk değerlendirmesi ve yürürlükteki kurallara göre belirlenir; ekipmana özgü talimat görülmeden genelleme yapılmamalıdır." },
                 { soru: "Rüzgârlı havada çalışılır mı?", cevap: "Çalışma, seçilen modelin üretici rüzgâr limiti ve saha risk değerlendirmesine tabidir; limit değeri teknik föyden doğrulanmalıdır." },
                 { soru: "Yüksek erişim işi nasıl planlanır?", cevap: "Gerekli çalışma yüksekliği ve yatay erişim ölçülür; uygun makine bulunabilirliği teyit edilmeden kapasite veya teslimat sözü verilmez." },
             ],
@@ -224,12 +231,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Kütahya Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Kütahya'da fabrika bacası, silo ve cephe işleri için eklemli veya teleskopik bomlu platform seçimi ve doğrulanmış sevkiyat teklifi.",
-            h1: "Kütahya Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Kütahya Eklemli ve Teleskopik Platform Kiralama (16-32 m)",
+            aciklama: "Kütahya'da fabrika bacası, silo ve cephe işleri için eklemli veya teleskopik platform seçimi ve doğrulanmış sevkiyat teklifi.",
+            h1: "Kütahya Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Yüksek fabrika cepheleri, bacalar, silolar ve enerji hatları — Kütahya sanayisinin dikeyde en zorlu işleri bomlu platformlarla yapılır. Bom, hem yükseğe hem de engellerin ötesine yatay erişim sağlar.",
+                "Yüksek fabrika cepheleri, bacalar, silolar ve enerji hatları — Kütahya sanayisinin dikeyde en zorlu işleri eklemli veya teleskopik platformlarla yapılır. Bom, hem yükseğe hem de engellerin ötesine yatay erişim sağlar.",
                 "16-32 metre aralığında eklemli ve teleskopik modeller sunuyoruz: fırın binalarının arkasına veya boru köprülerinin üzerinden erişim gerekiyorsa eklemli, açık cephede maksimum yükseklik gerekiyorsa teleskopik model doğru seçimdir.",
                 "Kamu binaları ve tarihi yapılarda yetkili kurum izinleri, yüzey koruması, zemin ve kurulum alanı iş başlamadan önce ayrıca değerlendirilmelidir.",
             ],
@@ -240,7 +247,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "İSG evrak seti", metin: "Periyodik kontrol raporu ve kemer setiyle teslim." },
             ],
             sss: [
-                { soru: "Bomlu platformda operatör için ne gerekir?", cevap: "Operatör yetkinliği, eğitim ve belgelendirme gereklilikleri makine sınıfı, işveren yükümlülükleri ve güncel mevzuata göre İSG sorumlusuyla doğrulanmalıdır." },
+                { soru: "Eklemli veya teleskopik platformda operatör için ne gerekir?", cevap: "Operatör yetkinliği, eğitim ve belgelendirme gereklilikleri makine sınıfı, işveren yükümlülükleri ve güncel mevzuata göre İSG sorumlusuyla doğrulanmalıdır." },
                 { soru: "Yüksek erişim işi nasıl planlanır?", cevap: "Çalışma ve yatay erişim ölçüsü alınır; uygun makine ile tedarik süresi doğrulanmadan kapasite veya teslimat sözü verilmez." },
                 { soru: "Kış koşullarında çalışılıyor mu?", cevap: "Kütahya kışında kar ve buzlanma günlerinde zemin ve rüzgâr değerlendirmesi yapılır; makine ısıtma süreleri günlük plana eklenir." },
             ],
@@ -286,12 +293,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Aydın Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Aydın'da bomlu platform seçimi. Otel cephesi, jeotermal tesis ve silo işlerinde erişim, makine, operatör ve sevkiyat teklifte doğrulanır.",
-            h1: "Aydın Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Aydın Eklemli ve Teleskopik Platform Kiralama (16-32 m)",
+            aciklama: "Aydın'da eklemli veya teleskopik platform seçimi. Otel cephesi, jeotermal tesis ve silo işlerinde erişim, makine, operatör ve sevkiyat teklifte doğrulanır.",
+            h1: "Aydın Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Otel dış cepheleri, jeotermal santral boru hatları, tarım işleme tesislerinin siloları — Aydın'da yükseğe ve uzağa erişim gerektiren işleri 16-32 metre bomlu platformlarla yapıyoruz.",
+                "Otel dış cepheleri, jeotermal santral boru hatları, tarım işleme tesislerinin siloları — Aydın'da yükseğe ve uzağa erişim gerektiren işleri 16-32 metre eklemli veya teleskopik platformlarla yapıyoruz.",
                 "Eklemli modeller, otel bahçelerindeki ağaçların veya santral sahalarındaki boru köprülerinin üzerinden aşarak çalışma imkânı verir; teleskopik modeller açık cephede maksimum erişim sağlar.",
                 "Sahil hattındaki tuzlu hava koşullarında cephe bakım ihtiyacı iç bölgelere göre daha sıktır; otel işletmelerine yıllık bakım takvimine bağlı dönemsel kiralama modeli öneriyoruz.",
             ],
@@ -331,7 +338,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             aciklama: "Bilecik, Bozüyük, Osmaneli ve Söğüt'te makaslı platform seçimi. Makine, zemin ve sevkiyat koşulları teklifte doğrulanır.",
             h1: "Bilecik Makaslı Platform Kiralama",
             paragraflar: [
-                "Bilecik sanayisinin omurgasını oluşturan seramik ve metal işleme tesislerinde tavan ve tesisat işleri düzenli yüksekte çalışma gerektirir. 8-18 metre makaslı platformlarımız bu işlerin standart makinesidir.",
+                "Bilecik'teki seramik ve metal işleme tesislerinde tavan ve tesisat işleri düzenli yüksekte çalışma gerektirir. 8-18 metre makaslı platformlar; zemin taşıma gücü, çalışma yüksekliği ve sepet kapasitesi uygun olduğunda değerlendirilebilecek seçenekler arasındadır.",
                 "Elektrikli veya dizel sınıf seçimi; emisyon, havalandırma, zemin, lastik, çekiş ve çalışma yüksekliği gereksinimlerine göre yapılır. Seçilen modelin sahaya uygunluğu teknik föyden doğrulanır.",
                 "Bilecik merkez, Bozüyük ve Osmaneli sevkiyatı makine, tarih, çıkış noktası ve nakliye uygunluğu kontrol edildikten sonra planlanır.",
             ],
@@ -348,12 +355,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Bilecik Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Bilecik ve çevresinde fabrika cephesi, silo ve baca işleri için eklemli veya teleskopik bomlu platform seçimi ve sevkiyat teklifi.",
-            h1: "Bilecik Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Bilecik Eklemli ve Teleskopik Platform Kiralama (16-32 m)",
+            aciklama: "Bilecik ve çevresinde fabrika cephesi, silo ve baca işleri için eklemli veya teleskopik platform seçimi ve sevkiyat teklifi.",
+            h1: "Bilecik Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Fabrika cepheleri, silolar, bacalar ve yüksek depo yapılarında gerekli çalışma ve yatay erişim ölçüsüne göre bomlu platform sınıfı değerlendirilir.",
+                "Fabrika cepheleri, silolar, bacalar ve yüksek depo yapılarında gerekli çalışma ve yatay erişim ölçüsüne göre eklemli veya teleskopik platform sınıfı değerlendirilir.",
                 "Eklemli modeller boru hatlarının ve yapı çıkıntılarının üzerinden aşarak çalışır; teleskopik modeller açık cephede maksimum yatay erişim sağlar. Keşifte işin fotoğrafı üzerinden doğru tipi öneriyoruz.",
                 "Mermer ocağı ve taş işleme tesisi gibi tozlu ortamlarda makine uygunluğu, filtre bakımı ve saha riskleri seçilen model için ayrıca doğrulanmalıdır.",
             ],
@@ -364,7 +371,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "İSG seti", metin: "Kemer, lanyard ve güncel periyodik kontrol raporuyla teslim." },
             ],
             sss: [
-                { soru: "Bomlu platform için operatör seçeneği var mı?", cevap: "Operatör yeterliliği, tarih ve vardiya uygunluğu talep bazında kontrol edilir; operatörsüz kullanım şartları saha sorumlusuyla doğrulanır." },
+                { soru: "Eklemli veya teleskopik platform için operatör seçeneği var mı?", cevap: "Operatör yeterliliği, tarih ve vardiya uygunluğu talep bazında kontrol edilir; operatörsüz kullanım şartları saha sorumlusuyla doğrulanır." },
                 { soru: "Silo bakımı için hangi yükseklik gerekir?", cevap: "Bölgedeki tipik çimento ve agrega siloları 20-30 metre aralığındadır; silo yüksekliğinize erişim payı eklenerek makine seçilir. Fotoğrafla ön değerlendirme yapıyoruz." },
                 { soru: "Hafta sonu çalışma mümkün mü?", cevap: "Hafta sonu teslimat ve çalışma; makine, nakliye, operatör ve tesis kabul saatleri doğrulandıktan sonra yazılı olarak planlanabilir." },
             ],
@@ -381,7 +388,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { soru: "Hangi ilçelere sevkiyat planlanabilir?", cevap: "Merkez, Bozüyük, Osmaneli, Söğüt, Gölpazarı ve Pazaryeri talepleri makine ve nakliye uygunluğuna göre değerlendirilir." },
                 { soru: "Fiyat neye göre değişir?", cevap: "Makine sınıfı, süre, nakliye mesafesi, operatör talebi ve saha koşulları fiyatı etkiler; yazılı teklif esas alınır." },
                 { soru: "Evrak seti neleri kapsıyor?", cevap: "Sahanın istediği periyodik kontrol, makine uygunluğu ve operatör belgeleri listelenir; mevcut belgeler sözleşme öncesinde doğrulanır." },
-                { soru: "Rezervasyonu ne kadar önceden yapmalıyım?", cevap: "Standart makineler için 1-2 gün yeterli; bakım duruşu dönemlerinde ve 26 metre üzeri makinelerde bir hafta öncesini öneririz." },
+                { soru: "Rezervasyonu ne kadar önceden yapmalıyım?", cevap: "Uygun süre; makine sınıfına, mevcut programa, nakliye rotasına ve saha giriş koşullarına bağlıdır. Tarih, model ve teslimat planı yazılı teyit edilmeden kesin kabul edilmemelidir." },
             ],
         },
     ],
@@ -410,12 +417,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Bozüyük Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Bozüyük'te 16-32 metre eklemli ve teleskopik bomlu platform kiralama. Fabrika bacası, silo ve cephe işleri; OSB'ye hızlı teslim.",
-            h1: "Bozüyük Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Bozüyük Eklemli ve Teleskopik Platform Kiralama (16-32 m)",
+            aciklama: "Bozüyük'te 16-32 metre eklemli ve teleskopik platform seçenekleri. Fabrika bacası, silo ve cephe işleri için OSB teslimat planlaması.",
+            h1: "Bozüyük Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Seramik fabrikalarının bacaları, hammadde siloları ve yüksek depo cepheleri — Bozüyük'ün dikeyde en zorlu işleri 16-32 metre bomlu platformlarla yapılır.",
+                "Seramik fabrikalarının bacaları, hammadde siloları ve yüksek depo cepheleri — Bozüyük'ün dikeyde en zorlu işleri 16-32 metre eklemli veya teleskopik platformlarla yapılır.",
                 "Eklemli modeller engel aşma, teleskopik modeller açık erişim için değerlendirilebilir; doğru bom tipi fotoğraf, ölçü ve üretici erişim diyagramıyla seçilir.",
                 "Tesis giriş prosedürü ve İSG evrak listesi saha yetkilisinden alınır; seçilen makinenin ve operatörün belgeleri sözleşmeden önce doğrulanır.",
             ],
@@ -472,12 +479,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Çanakkale Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Çanakkale'de bomlu platform seçimi. Rüzgâr santrali, liman ve cephe işlerinde makine, operatör ve saha evrakı teklifte doğrulanır.",
-            h1: "Çanakkale Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Çanakkale Eklemli ve Teleskopik Platform Kiralama (16-32 m)",
+            aciklama: "Çanakkale'de eklemli veya teleskopik platform seçimi. Rüzgâr santrali, liman ve cephe işlerinde makine, operatör ve saha evrakı teklifte doğrulanır.",
+            h1: "Çanakkale Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Çanakkale'nin rüzgâr santralleri, liman tesisleri ve fabrika cepheleri yüksekte ve uzakta çalışma gerektirir; 16-32 metre eklemli ve teleskopik bomlu platformlarımız bu işlerin makinesidir.",
+                "Çanakkale'nin rüzgâr santralleri, liman tesisleri ve fabrika cepheleri yüksekte ve uzakta çalışma gerektirir; 16-32 metre eklemli ve teleskopik platformlarımız bu işlerin makinesidir.",
                 "Rüzgâr santrali sahalarında türbin kule dibi ekipmanları, trafo binaları ve saha aydınlatması işleri için erişim ölçüsü ile tesis prosedürleri birlikte değerlendirilmelidir.",
                 "Liman çalışmalarında vinç ve aydınlatma direği bakımları için teleskopik modeller, gemi yanaşma bölgelerindeki engelli erişimlerde eklemli modeller kullanılır.",
             ],
@@ -488,7 +495,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "Operatör seçeneği", metin: "Yeterlilik belgesi, tarih ve proje koşulları teklif öncesinde doğrulanır." },
             ],
             sss: [
-                { soru: "Rüzgârlı bölgede bomlu platform güvenli mi?", cevap: "Üretici rüzgâr limiti (genellikle 12,5 m/sn) aşıldığında çalışma durdurulur; Çanakkale planlamasında günlük rüzgâr tahmini çalışma penceresine dahil edilir." },
+                { soru: "Rüzgârlı bölgede eklemli veya teleskopik platform kullanılabilir mi?", cevap: "İzin verilen koşullar modele ve üretici talimatına göre değişir. Güncel hava verisi, anlık saha ölçümü ve risk değerlendirmesi birlikte ele alınır; model limiti dışında çalışma planlanmaz." },
                 { soru: "Santral sahası giriş evrakları nasıl kontrol edilir?", cevap: "Tesisin istediği periyodik kontrol, sigorta, makine ve operatör belgeleri listelenir; seçilen kaynağın mevcut belgeleri sözleşmeden önce doğrulanır." },
                 { soru: "Gelibolu yakasına hizmet var mı?", cevap: "Evet, planlı sevkiyatla Gelibolu ve Eceabat hattına da teslimat yapıyoruz; feribot geçişi programa eklenir." },
             ],
@@ -534,12 +541,12 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
         {
-            slug: "bomlu-platform-kiralama",
-            baslik: "Manisa Bomlu Platform Kiralama (16-32 m)",
-            aciklama: "Manisa'da bomlu platform seçimi. Fabrika cephesi, silo ve altyapı işlerinde erişim, makine, operatör ve sevkiyat teklifte doğrulanır.",
-            h1: "Manisa Bomlu Platform Kiralama",
+            slug: "eklemli-ve-teleskopik-platform-kiralama",
+            baslik: "Manisa Eklemli ve Teleskopik Platform Kiralama (16-32 m)",
+            aciklama: "Manisa'da eklemli veya teleskopik platform seçimi. Fabrika cephesi, silo ve altyapı işlerinde erişim, makine, operatör ve sevkiyat teklifte doğrulanır.",
+            h1: "Manisa Eklemli ve Teleskopik Platform Kiralama",
             paragraflar: [
-                "Fabrika cepheleri, hammadde siloları, yüksek depo yapıları ve OSB altyapı direkleri — Manisa'da yükseğe ve uzağa erişim gerektiren işleri 16-32 metre bomlu platformlarla yapıyoruz.",
+                "Fabrika cepheleri, hammadde siloları, yüksek depo yapıları ve OSB altyapı direkleri — Manisa'da yükseğe ve uzağa erişim gerektiren işleri 16-32 metre eklemli veya teleskopik platformlarla yapıyoruz.",
                 "Eklemli veya teleskopik seçiminde konveyör, boru hattı, açık erişim ve kurulum alanı ölçülür; fotoğrafla ön değerlendirme sonrası teknik erişim diyagramı doğrulanır.",
                 "Turgutlu ve Akhisar'daki gıda işleme tesislerinin silo bakımlarında dönemsel yoğunluk yaşanır; hasat sezonu öncesi erken rezervasyon öneriyoruz.",
             ],
@@ -598,7 +605,7 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
         {
             slug: "dizel-forklift-kiralama",
             baslik: "Manisa Dizel ve LPG Forklift Kiralama (3-10 ton)",
-            aciklama: "Manisa'da açık saha ve rampa işleri için 3-10 ton dizel/LPG forklift kiralama. OSB, Turgutlu ve Akhisar'a hızlı teslimat.",
+            aciklama: "Manisa'da açık saha ve rampa işleri için 3-10 ton dizel/LPG forklift seçenekleri. OSB, Turgutlu ve Akhisar için teslimat planlaması.",
             h1: "Manisa Dizel ve LPG Forklift Kiralama",
             paragraflar: [
                 "Açık stok sahaları, yükleme rampaları ve tır-konteyner boşaltma işleri Manisa'da dizel ve LPG forkliftlerle döner. OSB'nin sevkiyat trafiğinde 3-5 ton sınıfı en yoğun kiralanan gruptur.",
@@ -637,60 +644,85 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
     "platformakademisi.com": [
         {
             slug: "myk-operator-belgesi",
-            baslik: "MYK Operatör Belgesi: Başvurudan Sınava Yol Haritası",
-            aciklama: "Yükseltici platform operatörü için MYK Ulusal Yeterlilik belgesi: başvuru adımları, sınav içeriği, geçerlilik süresi ve maliyet çerçevesi.",
-            h1: "MYK Operatör Belgesi Yol Haritası",
-            paragraflar: [
-                "Türkiye'de tehlikeli ve çok tehlikeli işlerde çalışanların Mesleki Yeterlilik Kurumu (MYK) belgesine sahip olması yasal zorunluluktur; yükseltici platform operatörlüğü de bu kapsamdadır.",
-                "Belge, MYK tarafından yetkilendirilmiş belgelendirme kuruluşlarından alınır. Süreç üç adımdan oluşur: başvuru ve evrak teslimi, teorik sınav (iş güvenliği, makine bilgisi, işaretleşme) ve pratik sınav (kurulum, manevra, acil indirme senaryoları).",
-                "Sınav başarımında belge düzenlenir ve MYK portalında sorgulanabilir. Belgenin geçerlilik süresi ilgili ulusal yeterlilikte tanımlanır; süre sonunda gözetim/yenileme prosedürü uygulanır.",
-                "İşverenler için pratik not: belge ücretleri, sınavda başarılı olunması hâlinde teşvik kapsamında iade edilebilmektedir; güncel teşvik koşullarını belgelendirme kuruluşunuzdan teyit edin.",
-            ],
+            baslik: "MYK Operatör Belgesi Rehberi: Başvuru ve Doğrulama",
+            aciklama: "MYK operatör belgesi araştırmasında yeterlilik, yetkili kuruluş, sınav, doğrulama ve yenileme adımlarını resmî kaynaklarla öğrenin.",
+            h1: "MYK Operatör Belgesi: Kaynaklı Başvuru Rehberi",
+            paragraflar: platformAkademisiMykParagraflari,
             maddeler: [
-                { baslik: "1. Adım — Kuruluş seçimi", metin: "MYK yetkilendirilmiş kuruluş listesinden ilinize yakın merkezi seçin." },
-                { baslik: "2. Adım — Evrak", metin: "Kimlik, sağlık uygunluğu ve başvuru formu; kuruluşa göre ufak farklar olabilir." },
-                { baslik: "3. Adım — Teorik sınav", metin: "Çoktan seçmeli; İSG, makine bilgisi ve mevzuat soruları." },
-                { baslik: "4. Adım — Pratik sınav", metin: "Gerçek makine üzerinde kurulum, manevra ve acil durum uygulaması." },
+                { baslik: "1. Görevi tanımlayın", metin: "Kullanılacak ekipman sınıfını ve fiilî işi yazın; belge adını tahmin etmeyin." },
+                { baslik: "2. Yeterliliği doğrulayın", metin: "Kod, revizyon, birimler ve geçerlilik koşullarını MYK Ulusal Yeterlilikler portalından okuyun." },
+                { baslik: "3. Kuruluş kapsamını kontrol edin", metin: "Kuruluşun aktif yetkisini MYK resmî listesinden başvuru tarihinde doğrulayın." },
+                { baslik: "4. Sınav ve kayıtları izleyin", metin: "Aday bilgilendirmesini, sonucu, itiraz yolunu ve yenileme tarihini yazılı saklayın." },
             ],
             sss: [
-                { soru: "Belge ne kadar sürede alınır?", cevap: "Başvuru yoğunluğuna göre değişir; evrak tamamsa sınav randevusu genellikle birkaç hafta içinde verilir, belge sınav sonrası birkaç hafta içinde düzenlenir." },
-                { soru: "Ehliyet (G sınıfı) MYK belgesinin yerine geçer mi?", cevap: "Hayır; iki belge farklı mevzuatlara dayanır. Yükseltici platform için MYK yeterlilik belgesi esastır." },
-                { soru: "Sınavda başarısız olursam ne olur?", cevap: "Başarısız olunan bölüm (teorik veya pratik) belirli süre içinde tekrar edilebilir; yalnız o bölümün sınavına yeniden girilir." },
+                { soru: "Belge ne kadar sürede alınır?", cevap: "Sabit süre verilemez. Kuruluşun sınav takvimi, değerlendirme ve belge düzenleme sürecini yazılı isteyin; güncel bilgiyi yetkili kuruluştan doğrulayın." },
+                { soru: "G sınıfı sürücü belgesi MYK belgesinin yerine geçer mi?", cevap: "Belge türleri farklı düzenlemelere dayanabilir. Yapılacak iş ve makine için güncel gerekliliği işverenin yetkili İSG birimi ve resmî kaynaklarla doğrulamadan eşdeğer kabul etmeyin." },
+                { soru: "Sınavda başarısız olunca ne olur?", cevap: "Tekrar, birim başarısı ve itiraz koşulları yeterlilik revizyonu ile kuruluş prosedürüne bağlıdır. Aday bilgilendirmesindeki güncel hüküm esas alınır." },
+            ],
+            kaynaklar: [
+                {
+                    ad: "MYK — Ana sayfa ve güncel duyurular",
+                    url: "https://www.myk.gov.tr/",
+                    not: "Mevzuat, teşvik ve süreç değişikliklerini başvuru tarihinde kurumun güncel duyurularından kontrol edin.",
+                },
+                {
+                    ad: "MYK — Yetkilendirilmiş Belgelendirme Kuruluşları",
+                    url: "https://www.myk.gov.tr/index.php/tr/yetkilendirilmis-belgelendirme-kuruluslari",
+                    not: "Başvuru yapmadan önce kuruluşun güncel yetki kapsamını MYK üzerinden doğrulayın.",
+                },
+                {
+                    ad: "MYK — Ulusal Yeterlilikler",
+                    url: "https://portal.myk.gov.tr/index.php?option=com_yeterlilik",
+                    not: "Belge adı, seviye, geçerlilik ve sınav birimleri ilgili ulusal yeterlilikte yer alır.",
+                },
+                {
+                    ad: "T.C. Mevzuat Bilgi Sistemi",
+                    url: "https://www.mevzuat.gov.tr/",
+                    not: "Yasal yorum için resmî güncel metni ve işyerinizin yetkili birimlerinin değerlendirmesini esas alın.",
+                },
             ],
         },
         {
             slug: "ipaf-egitimi-nedir",
-            baslik: "IPAF Eğitimi Nedir? PAL Card Kategorileri ve Başvuru",
-            aciklama: "IPAF operatör eğitimi ve PAL Card: 3a/3b kategorileri, eğitim içeriği, geçerlilik süresi ve Türkiye'de nereden alınacağı.",
-            h1: "IPAF Eğitimi ve PAL Card",
-            paragraflar: [
-                "IPAF (International Powered Access Federation), yükseltici platform sektörünün uluslararası federasyonudur; eğitim programını tamamlayan operatörlere PAL Card (Powered Access Licence) düzenlenir.",
-                "Kart, makine kategorilerine göre verilir: 3a dikey (makaslı) platformlar, 3b bomlu platformlar en yaygın kategorilerdir; statik kategoriler (1a/1b) araç üstü ve sabit kurulumlu makineleri kapsar.",
-                "Eğitim bir gün sürer: teorik bölümde mevzuat, risk değerlendirme ve makine bilgisi işlenir; pratik bölümde kurulum, manevra ve acil indirme uygulanır. Sonunda yazılı ve uygulamalı değerlendirme yapılır.",
-                "PAL Card beş yıl geçerlidir ve uluslararası projelerde, kurumsal denetimli şantiyelerde sıkça şart koşulur. Türkiye'de IPAF onaylı eğitim merkezleri üzerinden alınır; MYK belgesinin yasal zorunluluğunu ortadan kaldırmaz, onu tamamlar.",
-            ],
+            baslik: "IPAF Eğitimi Nedir? Kategori ve PAL Card Rehberi",
+            aciklama: "IPAF eğitimi, 3a ve 3b kategorileri, onaylı merkez doğrulaması ve PAL Card sürecini resmî IPAF kaynaklarıyla inceleyin.",
+            h1: "IPAF Eğitimi ve PAL Card: Bağımsız Rehber",
+            paragraflar: platformAkademisiIpafParagraflari,
             maddeler: [
-                { baslik: "Kategori 3a", metin: "Makaslı ve dikey platformlar; depo ve tesis işlerinin standardı." },
-                { baslik: "Kategori 3b", metin: "Eklemli ve teleskopik bomlu platformlar; şantiye ve cephe işleri." },
-                { baslik: "Süre ve geçerlilik", metin: "1 günlük eğitim, 5 yıl geçerli kart." },
-                { baslik: "Kimler almalı", metin: "Uluslararası projede çalışacak veya kurumsal şantiyelere girecek operatörler." },
+                { baslik: "3a kategorisi", metin: "Hareketli dikey platformlarla ilişkilidir; kesin kapsamı güncel IPAF kategori tablosundan kontrol edin." },
+                { baslik: "3b kategorisi", metin: "Hareketli kol tipi platformlarla ilişkilidir; Eklemli ve Teleskopik Platform için model hareketini doğrulayın." },
+                { baslik: "Merkez doğrulaması", metin: "Sağlayıcıyı IPAF Find a Training Centre dizininde unvan ve program kapsamıyla eşleştirin." },
+                { baslik: "Saha aktarımı", metin: "Kart sonrasında model tanıtımı, saha oryantasyonu ve kurtarma planını ayrıca tamamlayın." },
             ],
             sss: [
-                { soru: "IPAF eğitimi Türkçe veriliyor mu?", cevap: "Evet; Türkiye'deki onaylı merkezlerde eğitim Türkçe verilir, kart uluslararası formatta düzenlenir." },
-                { soru: "MYK belgem varsa IPAF gerekir mi?", cevap: "Yasal olarak gerekmez; ancak yabancı ana yüklenicili projelerde ve bazı kurumsal sahalarda sözleşme gereği istenir." },
-                { soru: "Kart süresi dolunca ne yapılır?", cevap: "Yenileme eğitimiyle kart beş yıl daha uzatılır; süresi geçmiş kartla sahaya giriş çoğu projede reddedilir." },
+                { soru: "IPAF eğitiminin dili nasıl öğrenilir?", cevap: "Dili ve değerlendirme desteğini seçilen onaylı merkezden kayıt öncesinde yazılı teyit edin; bütün merkezler için tek bir varsayım yapmayın." },
+                { soru: "MYK belgesi varsa IPAF gerekir mi?", cevap: "Yasal koşul ile müşteri veya proje şartı ayrı değerlendirilir. Güncel mevzuatı, görev kapsamını ve sözleşmeyi yetkili taraflarla doğrulayın." },
+                { soru: "PAL Card ne zaman yenilenir?", cevap: "Kart kaydı ve IPAF’ın güncel yenileme kuralları esas alınır. Süre ve yöntem değişebileceği için kart sahibi yetkili merkezle önceden görüşmelidir." },
+            ],
+            kaynaklar: [
+                {
+                    ad: "IPAF — Training and PAL Card",
+                    url: "https://www.ipaf.org/en/training",
+                    not: "Kategori, eğitim merkezi ve kart koşullarını IPAF'ın güncel sayfasından kontrol edin.",
+                },
+                {
+                    ad: "IPAF — Find a Training Centre",
+                    url: "https://www.ipaf.org/en/training-centres",
+                    not: "Eğitim sağlayıcının IPAF kaydını başvuru öncesinde doğrulayın.",
+                },
+                {
+                    ad: "IPAF — PAL Card",
+                    url: "https://www.ipaf.org/en/pal-card",
+                    not: "Kart biçimi, dijital kayıt ve geçerlilik koşullarını işlem tarihinde resmî sayfadan doğrulayın.",
+                },
             ],
         },
         {
             slug: "gunluk-kontrol-listesi",
-            baslik: "Yükseltici Platformda Günlük Kontrol Listesi",
-            aciklama: "Vardiya öncesi yükseltici platform kontrolü: 12 maddelik pratik liste, kayıt tutma ve kontrolde çıkan arızada yapılacaklar.",
+            baslik: "Yükseltici Platform Günlük Kontrol Listesi ve Yöntemi",
+            aciklama: "Makaslı, Eklemli, Teleskopik ve Örümcek Platform için vardiya öncesi kontrol, arıza bildirimi ve kayıt yöntemini öğrenin.",
             h1: "Günlük (Vardiya Öncesi) Kontrol Listesi",
-            paragraflar: [
-                "Yükseltici platform kazalarının önemli bölümü, vardiya öncesi beş dakikalık kontrolle yakalanabilecek arızalardan çıkar. Günlük kontrol operatörün yükümlülüğüdür ve kayıt altına alınmalıdır.",
-                "Aşağıdaki liste saha pratiğine göre derlenmiştir; üreticinin kullanım kılavuzundaki modele özgü kontroller her zaman önceliklidir.",
-                "Kontrolde arıza bulunursa makine kullanılmaz: makineye 'KULLANMAYIN' etiketi asılır, vardiya amiri ve kiralama firması bilgilendirilir. Arızalı makineyle 'kısa bir iş' dahi yapılmamalıdır — kayıtlardaki ciddi kazaların tekrar eden senaryosu budur.",
-            ],
+            paragraflar: platformAkademisiKontrolParagraflari,
             maddeler: [
                 { baslik: "1. Görsel kontrol", metin: "Gövde, bom ve sepette çatlak, deformasyon, kaçak izi." },
                 { baslik: "2. Lastik ve jantlar", metin: "Hasar, basınç, bijon gevşekliği." },
@@ -703,16 +735,208 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 { baslik: "9. Denge sensörü", metin: "Tilt alarmı ve limit anahtarlarının testi." },
                 { baslik: "10. Sesli/ışıklı uyarılar", metin: "Korna, çakar ve hareket alarmı." },
                 { baslik: "11. Çalışma alanı", metin: "Zemin uygunluğu, üstte enerji hattı, çevre şeritleme." },
-                { baslik: "12. KKD", metin: "Bomlu makinede kemer + lanyard; baret ve yelek." },
+                { baslik: "12. KKD", metin: "Eklemli veya teleskopik platformda üretici talimatına uygun kemer ve lanyard; ayrıca saha kuralına uygun baret ve yelek." },
             ],
             sss: [
-                { soru: "Kontrolü kim yapmalı?", cevap: "Makineyi o vardiyada kullanacak belgeli operatör yapar; İSG uzmanı veya vardiya amiri kayıtları denetler." },
+                { soru: "Kontrolü kim yapmalı?", cevap: "İşverenin görevlendirdiği, makineyi ve kontrol yöntemini bilen operatör yapmalıdır. Yetkinlik ve gözetim koşulu güncel işyeri prosedürüyle doğrulanır." },
                 { soru: "Kayıt nasıl tutulmalı?", cevap: "Basılı form veya dijital checklist kullanılabilir; tarih, saat, makine seri no ve operatör imzası asgari alanlardır. Kayıtlar denetimde istenir." },
-                { soru: "Kiralık makinede arıza çıkarsa sorumluluk kimde?", cevap: "Arıza bildirimi yapıldığı andan itibaren kiralama firmasınındır; makine değişimi veya onarım süreci sözleşme koşullarına göre işletilir. Bildirilmeden kullanılmaya devam edilen makinedeki kaza sorumluluğu kiracıya geçer." },
+                { soru: "Kontrolde arıza çıkarsa ne yapılır?", cevap: "Makine kullanılmaz, erişim engellenir, görünür biçimde işaretlenir ve işyerinin kayıtlı bildirim süreci uygulanır. Yetkisiz onarım yapılmaz; yeniden devreye alma yetkili prosedürle gerçekleşir." },
+            ],
+            kaynaklar: [
+                {
+                    ad: "IPAF — Operators' Safety Guide",
+                    url: "https://www.ipaf.org/en/resource-library/operators-safety-guide",
+                    not: "Günlük kontrol, güvenli kullanım ve acil durum adımlarını üretici kılavuzuyla birlikte uygulayın.",
+                },
+                {
+                    ad: "T.C. Mevzuat Bilgi Sistemi",
+                    url: "https://www.mevzuat.gov.tr/",
+                    not: "İşyerinize uygulanacak güncel mevzuat için İSG sorumlunuz ve resmî metinler esas alınmalıdır.",
+                },
             ],
         },
     ],
 };
+
+type TicariAltProfil = {
+    yer: string;
+    sektor: string;
+    saha: string;
+    rota: string;
+    risk: string;
+    icIs: string;
+    disIs: string;
+};
+
+const ticariAltProfiller: Record<string, TicariAltProfil> = {
+    "eklemliplatform.com.tr": {
+        yer: "Türkiye genelindeki proje sahaları",
+        sektor: "endüstriyel bakım, cephe, çelik montaj, tesisat ve yapı işleri",
+        saha: "dar fabrika koridorundan açık şantiye dolgusuna, bitmiş AVM zemininden boru köprüleriyle çevrili proses alanına kadar değişen sahalar",
+        rota: "çıkış deposu, ağır vasıta güzergâhı, tesis kabul saati ve indirme alanı",
+        risk: "parapet, çatı, boru, ağaç veya üretim hattının arkasına yatay erişim",
+        icIs: "tavan tesisatı, sprinkler, aydınlatma, dekorasyon ve hat üstü bakım",
+        disIs: "çelik montaj, cephe kaplama, çatı kenarı, silo ve saha aydınlatması",
+    },
+    "bandirmamanlift.net": {
+        yer: "Bandırma, Erdek, Gönen ve Biga hattı",
+        sektor: "liman lojistiği, yem-gıda üretimi, enerji, tersane ve fabrika bakımı",
+        saha: "rüzgâr alan liman betonları, yoğun kamyon trafiği, fabrika içi kaplamalar ve açık stok sahaları",
+        rota: "liman veya tesis kapı randevusu, kantar, vardiya geçişi ve Bandırma-Biga nakliye planı",
+        risk: "aynı alanda çalışan araçlar, açık saha rüzgârı ve üretim sürerken çalışma bölgesinin ayrılması",
+        icIs: "depo aydınlatması, raf kurulumu, yangın tesisatı ve bakım duruşu işleri",
+        disIs: "silo çevresi, liman tesisi, çelik yapı, cephe ve yüksek saha ekipmanı bakımı",
+    },
+    "izmirforkliftkiralama.net": {
+        yer: "Kemalpaşa, Torbalı, Çiğli, Aliağa ve İzmir çevresi",
+        sektor: "lojistik, gıda, e-ticaret, metal, kimya ve üretim operasyonları",
+        saha: "dar raf koridoru, epoksi üretim zemini, yükleme rampası, konteyner sahası ve açık stok alanı",
+        rota: "OSB giriş randevusu, şehir içi ağır araç kısıtı, rampa sırası ve güvenli indirme noktası",
+        risk: "yük merkezinin büyümesi, eğimli rampada denge, yaya trafiği ve görüşü kapatan hacimli yük",
+        icIs: "raf istifi, üretim hattı besleme, palet toplama ve kapalı depo transferi",
+        disIs: "konteyner boşaltma, açık saha istifi, ağır parça taşıma ve araç yükleme",
+    },
+    "kutahyaplatform.com": {
+        yer: "Kütahya merkez, OSB, Tavşanlı ve Gediz hattı",
+        sektor: "seramik, çini, maden, gıda ve üretim tesisleri",
+        saha: "fırın çevresindeki sıcak-tozlu bölümler, fabrika betonu, hassas kaplama ve kışın buzlanabilen açık alanlar",
+        rota: "şehirler arası sevkiyat, tesis kapı kontrolü, bakım duruşu saati ve makine indirme alanı",
+        risk: "fırın hattı, toz toplama kanalı, dar kolon arası ve zemin üzerindeki noktasal yük",
+        icIs: "tavan vinci çevresi, aydınlatma, kanal, raf ve üretim hattı bakımı",
+        disIs: "silo, baca, fabrika cephesi, çatı kenarı ve açık saha montajı",
+    },
+    "aydinplatform.net": {
+        yer: "Efeler, Nazilli, Söke, Kuşadası ve Didim hattı",
+        sektor: "otelcilik, jeotermal enerji, tarım ürünleri işleme, depo ve yapı bakımı",
+        saha: "otel içi hassas zemin, peyzajlı cephe çevresi, sıcak jeotermal alan ve tarım işletmesi avlusu",
+        rota: "sahil trafiği, işletme kabul saati, misafir veya üretim programı ve nakliye indirme noktası",
+        risk: "peyzaj ve saçak üzerinden erişim, sıcak yüzey, açık alan rüzgârı ve faal işletmede alan izolasyonu",
+        icIs: "otel atriumu, depo aydınlatması, yangın sistemi ve gıda tesisi bakım işi",
+        disIs: "otel cephesi, jeotermal boru hattı, silo, çatı ve saha aydınlatması",
+    },
+    "bilecikplatform.com": {
+        yer: "Bilecik, Bozüyük, Osmaneli ve Söğüt çevresi",
+        sektor: "seramik, metal, ambalaj, kimya ve lojistik üretim tesisleri",
+        saha: "dar üretim hattı, epoksi zemin, depo betonu, açık stok alanı ve eğimli fabrika yolu",
+        rota: "tesis kabul randevusu, vardiya değişimi, şehirler arası taşıma ve boşaltma cebi",
+        risk: "kolon-hat arası sınırlı manevra, üst yapı engeli, zemin yükü ve çalışan tesis trafiği",
+        icIs: "raf kurulumu, çatı altı tesisat, aydınlatma ve planlı bakım duruşu",
+        disIs: "cephe, çelik konstrüksiyon, çatı, baca ve saha aydınlatması",
+    },
+    "bozuyukplatform.com.tr": {
+        yer: "Bozüyük Organize Sanayi Bölgesi ve yakın çevresi",
+        sektor: "seramik, cam, metal, ambalaj ve lojistik işletmeleri",
+        saha: "üretim hattı araları, yüksek tavanlı depolar, fabrika rampaları ve kış koşullarından etkilenen açık sahalar",
+        rota: "OSB güvenlik kaydı, bakım penceresi, fabrika içi ağır araç yolu ve indirme alanı",
+        risk: "kısıtlı bakım süresinde doğru geçiş ölçüsü, üretim hatları üzerindeki engel ve güvenli alan ayrımı",
+        icIs: "hat üstü bakım, raf, aydınlatma, yangın tesisatı ve kanal çalışmaları",
+        disIs: "baca, çatı, dış cephe, saha ekipmanı ve çelik montaj işleri",
+    },
+    "canakkaleplatform.com": {
+        yer: "Çanakkale merkez, Biga, Çan ve Gelibolu hattı",
+        sektor: "enerji, liman, seramik, gıda, metal ve inşaat projeleri",
+        saha: "rüzgârlı kıyı alanları, enerji tesisi mıcırı, fabrika içi zemin ve yağıştan etkilenen şantiye dolgusu",
+        rota: "feribot veya kara yolu seçimi, hava-sefer durumu, tesis kabul saati ve boşaltma alanı",
+        risk: "uzak sevkiyat, açık alan rüzgârı, enerji tesisi giriş prosedürü ve değişken zemin",
+        icIs: "fabrika tavanı, depo rafı, aydınlatma, tesisat ve bakım duruşu",
+        disIs: "enerji ekipmanı, liman deposu, cephe, çelik yapı ve yüksek montaj",
+    },
+    "platformmanisa.com": {
+        yer: "Manisa OSB, Turgutlu, Salihli ve Akhisar hattı",
+        sektor: "elektronik, otomotiv, gıda, ambalaj, beyaz eşya ve lojistik tesisleri",
+        saha: "temiz üretim bölümü, epoksi kaplı hat çevresi, yüksek depo ve açık fabrika sahası",
+        rota: "OSB kapı kaydı, vardiya dışı teslimat, fabrika içi trafik ve nakliye bekleme alanı",
+        risk: "temiz alan kuralları, hatlar arasındaki dar geçiş, vardiya trafiği ve üst yapı engelleri",
+        icIs: "üretim hattı üstü tesisat, raf, yangın sistemi, aydınlatma ve bakım",
+        disIs: "fabrika cephesi, çatı, çelik montaj ve saha aydınlatması",
+    },
+    "manisaforklift.com": {
+        yer: "Manisa OSB, Turgutlu, Akhisar ve Salihli çevresi",
+        sektor: "otomotiv, elektronik, gıda, ambalaj, tarım ürünleri ve lojistik operasyonları",
+        saha: "epoksi üretim alanı, dar depo koridoru, rampa, asfalt avlu ve yüzeyi bozuk açık stok sahası",
+        rota: "OSB girişi, vardiya ve rampa randevusu, ağır araç yolu ve güvenli boşaltma alanı",
+        risk: "yük merkezi, görüşü kapatan yük, yaya-araç ayrımı, rampa eğimi ve ataşmanla azalan kapasite",
+        icIs: "hammadde kabulü, hat besleme, palet istifi ve bitmiş ürün hazırlığı",
+        disIs: "araç yükleme, açık saha istifi, kalıp-makine taşıma ve ağır malzeme transferi",
+    },
+};
+
+function urunTuru(alt: AltSayfa) {
+    const s = `${alt.slug} ${alt.h1}`.toLocaleLowerCase("tr-TR");
+    if (s.includes("elektrikli-eklemli")) return {
+        ad: "Elektrikli Eklemli Platform",
+        temel: "kapalı veya zemini tamamlanmış alanda egzoz emisyonu oluşturmadan, bir engelin üzerinden ya da çevresinden çalışma noktasına ulaşmak",
+        olculer: "çalışanın el seviyesi, makine merkezinden hedefe yatay mesafe, aşılacak engelin eni-yüksekliği, kapı-koridor, dönüş cebi, zemin yük sınırı ve sepetin toplam yükü",
+        teknik: "çalışma diyagramı, hedef konumdaki yatay erişim ve sepet kapasitesi, şasi-kuyruk dönüşü, kapalı makine yüksekliği, toplam ağırlık, lastik türü, akü ve şarj gerilimi",
+        uygun: "düz ve taşıyıcı zeminde AVM, fabrika, depo, hastane veya otel içindeki tesisat, dekorasyon ve hat üstü erişim işi",
+        hata: "yalnız çalışma yüksekliğine bakıp engel geometrisini, kuyruk dönüşünü, zemin noktasal yükünü ve vardiyaya yetecek şarj planını gözden kaçırmak",
+    };
+    if (s.includes("dizel-eklemli")) return {
+        ad: "Dizel Eklemli Platform",
+        temel: "açık sahada çekiş gerektiren zeminden çalışarak çatı, boru hattı, yapı elemanı veya ekipman engelinin arkasındaki noktaya erişmek",
+        olculer: "hedef çalışma kotu, yatay uzaklık, aşılacak engelin eni-yüksekliği, kurulum ve kuyruk dönüş alanı, zemin eğimi, yaklaşma rotası ve sepet yükü",
+        teknik: "erişim zarfı, hedef konumdaki sepet kapasitesi, şasi genişliği, toplam ağırlık, 4x4 çekiş ve lastik yapısı, kuyruk dönüşü, tırmanma-eğim sınırı ile rüzgâr limiti",
+        uygun: "taşıma kapasitesi doğrulanmış açık saha, şantiye, fabrika dışı, cephe, çelik montaj, silo veya çatı çevresindeki engel aşmalı iş",
+        hata: "arazi tipi görünümüne güvenip zemin taşıma kapasitesini veya eğimi ölçmemek ve azami yükseklik değerini bütün erişim zarfında geçerli sanmak",
+    };
+    if (s.includes("elektrikli-forklift")) return {
+        ad: "Elektrikli Forklift",
+        temel: "kapalı alanda egzoz emisyonu oluşturmadan, düşük gürültüyle palet ve malzeme taşımak",
+        olculer: "en ağır yük, yükün eni-boyu, yük merkezi, rafın üst kotu, en dar koridor, kapı yüksekliği ve asansör serbest kaldırma ihtiyacı",
+        teknik: "nominal kapasite, belirtilen yük merkezindeki kalan kapasite, duplex veya triplex asansör, kapalı yükseklik, dönüş yarıçapı, akü tipi ve şarj gerilimi",
+        uygun: "düz ve taşıyıcı depo zemini, yeterli havalandırmaya rağmen emisyon istenmeyen üretim alanı ve düzenli şarj molası bulunan vardiya",
+        hata: "tonaj etiketine bakıp raf kotundaki kalan kapasiteyi, akü-şarj düzenini veya kapalı asansör yüksekliğini kontrol etmemek",
+    };
+    if (s.includes("dizel-forklift")) return {
+        ad: "Dizel Forklift",
+        temel: "açık sahada, rampada veya yoğun vardiyada paletli ve ağır yükleri kontrollü biçimde elleçlemek",
+        olculer: "yük ağırlığı ve ölçüsü, ağırlık merkezi, kaldırma kotu, koridor ve kapı, rampa eğimi, zemin bozukluğu ile ataşman ihtiyacı",
+        teknik: "yük merkezi tablosu, kaldırma yüksekliğinde kalan kapasite, çatal boyu, sideshift veya özel ataşman, lastik tipi, kabin yüksekliği ve dönüş dairesi",
+        uygun: "açık veya iyi yönetilen saha, taşıyıcı zemin, egzoz ve gürültüye uygun işletme kuralı, yeterli manevra ve yaya ayrımı",
+        hata: "uzun ya da hacimli yükün merkezini hesaba katmadan nominal kapasite seçmek ve kapalı alanda emisyon riskini göz ardı etmek",
+    };
+    if (s.includes("makasli")) return {
+        ad: "Makaslı Platform",
+        temel: "çalışma noktasının doğrudan altında konumlanıp personel ile el aletlerini geniş bir platformda dikey olarak yükseltmek",
+        olculer: "çalışanın el seviyesi, tavan veya cephe kotu, kapı-koridor ölçüsü, dönüş alanı, zemin eğimi ve platformda taşınacak toplam yük",
+        teknik: "çalışma yüksekliği, platform yüksekliği, uzatma tablası, sepet kapasitesi, makine genişliği-yüksekliği, toplam ağırlık, lastik ve iç/dış kullanım sınıfı",
+        uygun: "hedefin altında düz yaklaşma alanı bulunan tavan, aydınlatma, raf, kanal, cephe veya montaj işi",
+        hata: "yatay erişim gereken işi makaslı platformla çözmeye çalışmak, korkuluk katlama ölçüsünü veya zemin noktasal yükünü atlamak",
+    };
+    if (s.includes("eklemli-ve-teleskopik")) return {
+        ad: "Eklemli Platform ve Teleskopik Platform",
+        temel: "yüksek çalışma noktasına yatay mesafe kat ederek ulaşmak; engel aşma gerekiyorsa Eklemli Platform, açık doğrultuda daha uzun uzanma gerekiyorsa Teleskopik Platform değerlendirmek",
+        olculer: "çalışma kotu, makine merkezinden hedefe yatay uzaklık, aşılacak engelin eni ve yüksekliği, sepet yükü, kurulum alanı ve zemin eğimi",
+        teknik: "çalışma diyagramındaki erişim zarfı, sepet kapasitesi, kuyruk dönüşü, şasi genişliği, toplam ağırlık, lastik-çekiş yapısı, rüzgâr limiti ve güç türü",
+        uygun: "cephe, çatı arkası, boru köprüsü, silo, çelik yapı veya üretim hattı üzerinden erişilen bakım-montaj noktası",
+        hata: "yalnız azami çalışma yüksekliğine göre seçim yapıp yatay erişimi, kuyruk dönüşünü veya hedef konumdaki sepet kapasitesini doğrulamamak",
+    };
+    return null;
+}
+
+function urunSeoParagraflari(host: string, alt: AltSayfa, p: TicariAltProfil, u: NonNullable<ReturnType<typeof urunTuru>>): string[] {
+    return [
+        `${alt.h1} için sağlıklı karar, makinenin adından önce işin hareketini tarif etmekle başlar. ${p.yer} içinde bu ürünün temel amacı ${u.temel} şeklindedir. ${p.sektor} aynı ürün sınıfını farklı gerekçelerle kullanabilir; bu yüzden komşu tesiste çalışan modelin sizin sahaya da uygun olduğu varsayılmaz. Hedef nokta, yük veya personel miktarı, çalışma döngüsü ve çevrede süren faaliyetler birlikte kaydedilir. Talep formuna birkaç fotoğraf eklemek faydalıdır fakat fotoğraf ölçek vermediği için gerçek ölçülerin yerini tutmaz. Ön değerlendirme, ölçü ve saha bilgisiyle yapılır; kesin model güncel uygunluk ve teknik veriler kontrol edildiğinde belirlenir.`,
+        `Saha ölçümünde ${u.olculer} açıkça yazılmalıdır. Ölçülerin nereden nereye alındığı fotoğraf üzerinde işaretlenirse yanlış yorum azalır. ${p.risk}, bu hizmet alanındaki ayırt edici koşullardan biridir. Platform için bina yüksekliği ile çalışanın erişeceği el seviyesi karıştırılmamalı; forklift için paletin toplam ağırlığı kadar ağırlık merkezinin çatal yüzüne mesafesi de bilinmelidir. Kapıdan yalnız makinenin gövdesi değil, korkuluk, kabin, asansör veya diğer üst yapı geçecektir. En dar nokta, dönüşten sonraki açıklık ve tavan altındaki tesisatlar ayrı ölçülür. Eksik saha ölçüsü büyük sınıf seçilerek güvenli biçimde telafi edilemez.`,
+        `${u.ad} teknik karşılaştırmasında ${u.teknik} seçilen modelin teknik föyünden kontrol edilir. Katalogdaki en yüksek değerler çoğu zaman aynı anda kullanılamaz: erişim uzadıkça izin verilen yük değişebilir, ataşman eklendiğinde forklift kapasitesi azalabilir veya platform yalnız belirli şasi konumunda üst erişim değerine ulaşabilir. Bu nedenle teklif üzerinde yalnız “on iki metre” ya da “üç ton” yazması yeterli değildir. Model belli değilse performans aralığı ve kabul kriterleri tanımlanmalı; sevkten önce önerilen modelin verileri bu kriterlerle karşılaştırılmalıdır. Teknik uygunluk, satış ifadesiyle değil üretici verisi ve gerçek saha ölçüsüyle kanıtlanır.`,
+        `${p.saha} zemin ve hareket planında farklı sonuçlar doğurur. Makinenin toplam ağırlığı, teker başına veya denge noktasında oluşabilecek yük, zeminin altındaki boşluklar, rögar-mazgal, kenar mesafesi, eğim ve yüzey kirliliği incelenir. ${u.ad} için uygun kullanım bağlamı genel olarak ${u.uygun} olarak tarif edilebilir; yine de her modelin sınırı ayrıdır. Epoksi veya bitmiş yüzeyde lastik izi ve dönüş hasarı, açık alanda çamur ve yağış, rampada çekiş-frenleme, bodrum üstü döşemede taşıma kapasitesi önem kazanır. Zeminin kapasitesi bilinmiyorsa tahmin yürütülmez; saha yetkilisinin veya ilgili teknik disiplinin onayı alınır.`,
+        `İç mekândaki tipik işler ${p.icIs}; dış mekândaki tipik işler ise ${p.disIs} olarak öne çıkar. İçeride gürültü, egzoz, havalandırma, yangın kuralları, lastik izi ve enerji altyapısı; dışarıda çekiş, görüş, yağış, rüzgâr ve yüzey değişimi değerlendirilir. Elektrikli ürün her zaman küçük veya hafif, dizel ürün de her zeminde kullanılabilir kabul edilmemelidir. Akü kapasitesi ile şarj zamanı vardiya akışına, yakıt ikmali işletme prosedürüne yazılmalıdır. Çalışma alanı üretim, misafir, araç ya da yaya trafiğine açıksa bariyerleme, gözcü ve hareket zamanları iş planının parçası olur. Makine tercihi saha kurallarından bağımsız yapılamaz.`,
+        `Sevkiyat için ${p.rota} önceden teyit edilir. Nakliye aracının tesis kapısından dönüp dönemeyeceği, boşaltma alanının düz ve taşıyıcı olup olmadığı, rampa kullanımı, bekleme ve kabul saatleri sorulur. Makinenin nakliye konumundaki eni, boyu ve yüksekliği çalışma konumundan farklı olabileceği için teknik föydeki taşıma ölçüleri esas alınır. Güvenlik kaydı, araç ve sürücü belgesi, randevu numarası ya da saha oryantasyonu isteniyorsa liste teklif aşamasında paylaşılmalıdır. Planlanan teslim tarihi, model ve nakliye uygunluğu doğrulanmadan kesin kabul edilmez. Uzak veya özel rotada dönüş nakliyesinin bildirim süresi de yazılı kapsamda yer almalıdır.`,
+        `Seçim hataları içinde en önemlisi ${u.hata} davranışıdır. Ayrıca yalnız kiralama birim fiyatına bakmak; gidiş-dönüş nakliye, operatör, yakıt veya şarj, ataşman, fazla çalışma, bekleme ve hasar sorumluluğunu karşılaştırmamak toplam maliyeti belirsiz bırakır. Gereğinden büyük makine daha güvenli olmak zorunda değildir; ek ağırlık, genişlik ve dönüş alanı yeni risk yaratabilir. Gereğinden küçük model ise kullanıcıyı erişim sınırını zorlamaya, yükü yanlış konumlandırmaya veya işi doğaçlama yöntemle tamamlamaya yöneltebilir. Doğru yaklaşım, kabul edilecek teknik sınırları önce yazmak ve teklifleri aynı iş tanımı üzerinden karşılaştırmaktır.`,
+        `Teklif dosyasında ürün sınıfı ile mümkünse marka-model, teknik föy, kiralama başlangıç ve bitişi, günlük çalışma saati veya sayaç sınırı, operatör kapsamı, nakliye bedelleri, enerji-yakıt sorumluluğu, bakım ve arıza bildirim yolu, ikame koşulu, ödeme ve iptal maddeleri görülmelidir. İstenen periyodik kontrol veya uygunluk kayıtlarının geçerlilik tarihi makine özelinde kontrol edilir; genel tanıtım dosyası yeterli sayılmaz. Operatörlü hizmette vardiya, fazla çalışma, konaklama-yol ve saha eğitimleri; operatörsüz kiralamada kullanıcı yetkinliği ve teslim eğitimi konuşulur. Dahil-hariç bütün kalemler açık yazılmadan farklı fiyatların gerçekten karşılaştırılabilir olduğu söylenemez.`,
+        `Teslim anında model ve seri bilgisi teklif ile eşleştirilir; görünür hasar, lastikler, korkuluk-kabin, çatal veya sepet, enerji seviyesi ve varsa ataşman kayıt altına alınır. Alt ve üst kumandalar, fren, korna, acil durdurma, acil indirme veya ürüne özgü güvenlik işlevleri kullanım kılavuzuna göre yetkili kişi tarafından kontrol edilir. Bu vardiya öncesi kontrol, geçerli periyodik kontrolün yerine geçmez. Uygunsuzluk bulunduğunda makine kullanılmaz, etiketlenir ve yazılı bildirim yapılır. İade sırasında sayaç, yakıt-şarj, anahtar-aksesuar ve görünür durum yeniden kayda alınarak sonradan oluşabilecek anlaşmazlıkların önüne geçilir.`,
+        `Saha çalışması boyunca üretici sınırları, risk değerlendirmesi ve sorumlu personelin kararları esas alınır. Makineyi başka amaçla kullanmak, emniyet sistemini devre dışı bırakmak, kapasite dışı insan veya malzeme taşımak kabul edilemez. Platform sepeti vinç değildir; forklift de uygun ve onaylı çözüm olmaksızın insan yükseltmek için kullanılmaz. Hava, zemin, yük, güzergâh veya çalışma noktası değişirse ilk seçim yeniden değerlendirilir. ${p.yer} için fiyat ve teslimat; talep tarihi, makine durumu, rota ve kapsam görülmeden bu içerikte garanti edilmez. Ölçüleri ve iş planını paylaşmak, doğrulanabilir bir teklifin ve kesintisiz bir saha uygulamasının en kısa yoludur.`,
+    ];
+}
+
+for (const [host, sayfalar] of Object.entries(altSayfalar)) {
+    const profil = ticariAltProfiller[host];
+    if (!profil) continue;
+    for (const alt of sayfalar) {
+        const urun = urunTuru(alt);
+        if (urun) alt.paragraflar.push(...urunSeoParagraflari(host, alt, profil, urun));
+    }
+}
 
 export function hostAltSayfalari(host: string): AltSayfa[] {
     const temiz = host.toLowerCase().replace(/^www\./, "").split(":")[0];

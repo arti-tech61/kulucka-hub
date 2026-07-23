@@ -99,6 +99,7 @@ export default async function Sayfa() {
     }
     const site = await aktifSite();
     const altSayfalar = hostAltSayfalari(site.host);
+    const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": site.kategori ? "WebSite" : "LocalBusiness",
@@ -139,24 +140,36 @@ export default async function Sayfa() {
                         <div className="flex flex-wrap items-center gap-3">
                             <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">{site.bolge}</p>
                             <span className="size-1 rounded-full bg-slate-600" />
-                            <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-400">Planlı saha çözümü</p>
+                            <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-400">
+                                {bilgiSitesi ? "Bağımsız bilgi mimarisi" : "Planlı saha çözümü"}
+                            </p>
                         </div>
                         <h1 className="mt-5 max-w-3xl text-5xl font-black leading-[0.98] tracking-[-0.055em] text-white sm:text-7xl">{site.h1}</h1>
                         <p className="mt-7 max-w-2xl text-lg leading-relaxed text-slate-300">{site.paragraflar[0]}</p>
                         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                            <a href={`tel:${site.telefon}`} className="rounded-full bg-white px-6 py-3.5 text-center font-black text-slate-950 transition hover:bg-cyan-100">
-                                Teklif için ara
-                            </a>
+                            {bilgiSitesi ? (
+                                <a href={`/${altSayfalar[0]?.slug ?? "hakkimizda"}`} className="rounded-full bg-white px-6 py-3.5 text-center font-black text-slate-950 transition hover:bg-cyan-100">
+                                    Rehberleri keşfet
+                                </a>
+                            ) : (
+                                <a href={`tel:${site.telefon}`} className="rounded-full bg-white px-6 py-3.5 text-center font-black text-slate-950 transition hover:bg-cyan-100">
+                                    Teklif için ara
+                                </a>
+                            )}
                             <a href="/teklif-hazirligi" className="rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-center font-bold text-white backdrop-blur transition hover:bg-white/10">
-                                Talep bilgilerini hazırla
+                                {bilgiSitesi ? "Kaynak değerlendirme ilkeleri" : "Talep bilgilerini hazırla"}
                             </a>
                         </div>
                         <div className="mt-10 grid max-w-xl grid-cols-3 gap-3 border-t border-white/10 pt-6 text-sm">
-                            {[
+                            {(bilgiSitesi ? [
+                                ["01", "Kavramı öğrenin"],
+                                ["02", "Kaynağı doğrulayın"],
+                                ["03", "Sahada uygulayın"],
+                            ] : [
                                 ["01", "İhtiyaç analizi"],
                                 ["02", "Uygunluk kontrolü"],
                                 ["03", "Yazılı kapsam"],
-                            ].map(([no, label]) => (
+                            ]).map(([no, label]) => (
                                 <div key={no}>
                                     <span className="block text-[10px] font-black text-cyan-300">{no}</span>
                                     <span className="mt-1 block font-semibold text-slate-300">{label}</span>
@@ -169,14 +182,19 @@ export default async function Sayfa() {
             </section>
 
             <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
-            <aside className="rounded-2xl border border-amber-200 bg-amber-50 p-5 text-sm leading-relaxed text-amber-950">
-                Makine modeli, kapasite, belge, operatör, teslimat tarihi ve ücret;
-                güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir.
+            <aside className={`rounded-2xl p-5 text-sm leading-relaxed ${bilgiSitesi ? "border border-emerald-200 bg-emerald-50 text-emerald-950" : "border border-amber-200 bg-amber-50 text-amber-950"}`}>
+                {bilgiSitesi
+                    ? "Bu yayın eğitim ve genel bilgilendirme amacı taşır. Belgelendirme, mevzuat ve makine kullanımında resmî kurumların güncel metinleri, üretici talimatları ve işyerinizin İSG sorumlusu esas alınmalıdır."
+                    : "Makine modeli, kapasite, belge, operatör, teslimat tarihi ve ücret; güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir."}
             </aside>
 
             <div className="mt-14 max-w-3xl">
-                <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">Doğru seçim, net kapsam</p>
-                <h2 className="mt-3 text-3xl font-black tracking-tight">Hizmet başlıkları</h2>
+                <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
+                    {bilgiSitesi ? "Öğrenme yolu" : "Doğru seçim, net kapsam"}
+                </p>
+                <h2 className="mt-3 text-3xl font-black tracking-tight">
+                    {bilgiSitesi ? "Bilgi ve rehber başlıkları" : "Hizmet başlıkları"}
+                </h2>
                 <p className="mt-4 leading-relaxed text-slate-600">{site.paragraflar.slice(1).join(" ")}</p>
             </div>
             <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -193,11 +211,11 @@ export default async function Sayfa() {
 
             {altSayfalar.length > 0 && (
                 <>
-                    <h2 className="mt-16 text-2xl font-black">Detaylı hizmet sayfaları</h2>
+                    <h2 className="mt-16 text-2xl font-black">{bilgiSitesi ? "Derinlemesine rehberler" : "Detaylı hizmet sayfaları"}</h2>
                     <div className="mt-5 grid gap-4 md:grid-cols-3">
                         {altSayfalar.map((a) => (
                             <a key={a.slug} className="group rounded-3xl border border-slate-200 bg-slate-50 p-6 font-bold text-slate-800 transition hover:-translate-y-1 hover:border-blue-300 hover:bg-white hover:shadow-xl" href={`/${a.slug}`}>
-                                {a.baslik}<span className="mt-4 block text-blue-700">İncele →</span>
+                            {a.baslik}<span className="mt-4 block text-blue-700">{bilgiSitesi ? "Rehberi oku →" : "İncele →"}</span>
                             </a>
                         ))}
                     </div>
@@ -218,11 +236,15 @@ export default async function Sayfa() {
             )}
 
             <div className="mt-16 grid gap-4 md:grid-cols-3">
-                {[
+                {(bilgiSitesi ? [
+                    ["1", "Soruyu tanımlayın", "Makine sınıfını, kullanım bağlamını ve öğrenmek istediğiniz konuyu netleştirin."],
+                    ["2", "Birincil kaynağı açın", "Üretici kılavuzu, resmî kurum veya yetkili programın güncel metnini kontrol edin."],
+                    ["3", "Saha koşuluna uyarlayın", "Bilgiyi risk değerlendirmesi, iş ekipmanı ve işyeri prosedürünüzle birlikte uygulayın."],
+                ] : [
                     ["1", "İşi tarif edin", "Yükseklik, zemin, erişim engeli, tarih ve adres bilgisini paylaşın."],
                     ["2", "Uygunluğu kontrol edelim", "Makine sınıfı, nakliye, belge ve operatör kapsamını doğrulayalım."],
                     ["3", "Yazılı teklif alın", "Kesinleşen kapsamı fiyat ve sözleşme koşullarıyla birlikte görün."],
-                ].map(([no, baslik, metin]) => (
+                ]).map(([no, baslik, metin]) => (
                     <div key={no} className="relative overflow-hidden rounded-3xl bg-slate-950 p-7 text-white">
                         <div className="absolute -right-10 -top-10 size-28 rounded-full bg-blue-600/20 blur-2xl" />
                         <span className="relative text-sm font-black text-cyan-300">{no}</span>

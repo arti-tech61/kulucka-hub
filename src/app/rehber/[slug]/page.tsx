@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { rehberBul, rehberler } from "@/lib/rehberler";
 import { hostIcinSite } from "@/lib/siteler";
@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function RehberSayfasi({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
+    if (slug === "telehandler-mi-bomlu-platform-mu") {
+        redirect("/rehber/telehandler-mi-personel-yukseltici-mi");
+    }
     const rehber = rehberBul(slug);
     if (!rehber) notFound();
     const site = hostIcinSite(HOST);
@@ -116,8 +119,8 @@ export default async function RehberSayfasi({ params }: { params: Promise<{ slug
                     <h2 className="mt-12 text-xl font-bold">Diğer rehber bölümleri</h2>
                     <ul className="mt-4 space-y-2">
                         <li>
-                            <a className="text-blue-700 underline hover:text-blue-900" href="/rehber/telehandler-mi-bomlu-platform-mu">
-                                Telehandler mi, bomlu platform mu? Makine seçim rehberi
+                            <a className="text-blue-700 underline hover:text-blue-900" href="/rehber/telehandler-mi-personel-yukseltici-mi">
+                                Telehandler mı, personel yükseltici mi? Makine seçim rehberi
                             </a>
                         </li>
                         {digerleri.map((r) => (

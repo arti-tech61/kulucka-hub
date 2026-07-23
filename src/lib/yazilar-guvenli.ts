@@ -20,12 +20,12 @@ export const guvenliYazilar: Yazi[] = [
     {
         slug: "bomlu-platformda-emniyet-kemeri-neden-tartisilmaz",
         kategori: "Saha Güvenliği",
-        baslik: "Bomlu Platformda Emniyet Kemeri Neden Tartışılmaz?",
-        ozet: "Makaslı platformda korkuluk çoğu durumda yeterliyken bomlu platformda tam vücut kemeri zorunlu. Fırlama etkisi (catapult effect) bu farkın nedeni — mekanizmayı ve doğru bağlantı noktasını anlatıyoruz.",
+        baslik: "Eklemli ve Teleskopik Platformda Emniyet Kemeri",
+        ozet: "Eklemli ve teleskopik personel yükselticilerde fırlama etkisini, doğru ankraj noktasını ve bağlantı sistemi seçiminde üretici talimatının neden belirleyici olduğunu açıklıyoruz.",
         tarih: "2026-07-20",
         paragraflar: [
-            "Bomlu (eklemli veya teleskopik) platformlarda sepet, uzun bir kaldıraç kolunun ucundadır. Makine bir çukura girdiğinde, bir engelle karşılaştığında ya da ani bir hareket yaptığında bu kol bir mancınık gibi davranır ve sepetteki çalışanı yukarı doğru fırlatabilir. Sektörde 'catapult effect' denen bu mekanizma, korkuluğun koruyamayacağı bir risktir.",
-            "Bu nedenle bomlu platformlarda tam vücut emniyet kemeri ve kısa lanyard kullanımı tartışmasız kuraldır: amaç düşmeyi durdurmak değil, çalışanı sepetin içinde tutmaktır. Lanyard uzun seçilirse çalışan sepetten fırladıktan sonra havada sallanır — koruma amacı ortadan kalkar.",
+            "Eklemli veya teleskopik platformlarda çalışma platformu uzun bir erişim yapısının ucundadır. Makine bir çukura girdiğinde, bir engelle karşılaştığında ya da ani hareket ettiğinde oluşan fırlama etkisi çalışanı korkuluk seviyesinin üzerine taşıyabilir.",
+            "Bu nedenle bağlantı sistemi; seçilen makinenin üretici talimatı, uygun ankraj noktası ve saha risk değerlendirmesine göre belirlenmelidir. Yanlış uzunluk veya yanlış bağlantı noktası koruma sisteminin amacını ortadan kaldırabilir.",
             "Bağlantı noktası da kritiktir: kemer, sepetin korkuluğuna değil, üretici tarafından işaretlenmiş ankraj noktasına bağlanmalıdır. Her sepette bu nokta bulunur ve kullanım kılavuzunda gösterilir.",
             "Makaslı platformlarda ise sepet doğrudan şasinin üzerinde dikey hareket eder; fırlama etkisi yoktur. Bu yüzden korkulukları sağlam ve kapısı kapalı bir makaslı platformda kemer, üretici aksini söylemedikçe zorunlu değildir. İki makine tipi arasındaki bu fark, saha eğitimlerinde en sık yanlış anlatılan konulardan biridir.",
         ],
@@ -51,7 +51,7 @@ export const guvenliYazilar: Yazi[] = [
         tarih: "2026-07-20",
         paragraflar: [
             "Türkiye'de tehlikeli ve çok tehlikeli işlerde çalışanların Mesleki Yeterlilik Kurumu (MYK) belgesine sahip olması esastır. Yükseltici platform operatörlüğü için ilgili ulusal yeterlilik üzerinden teorik ve pratik sınavla belge alınır; belge, yetkilendirilmiş belgelendirme kuruluşlarınca düzenlenir.",
-            "IPAF (International Powered Access Federation) eğitimi ise uluslararası geçerliliğe sahip bir sektör standardıdır: PAL Card, makine kategorilerine (3a makaslı, 3b bomlu vb.) göre verilir ve beş yıl geçerlidir. Uluslararası projelerde, denetimli büyük şantiyelerde ve yabancı ana yüklenicilerin sahalarında sıkça şart koşulur.",
+            "IPAF (International Powered Access Federation) eğitimi uluslararası bir sektör programıdır. PAL Card kategorileri arasında 3a hareketli dikey platformlar ve 3b hareketli bom tipi personel yükselticiler bulunur. Güncel kategori, geçerlilik ve eğitim merkezi bilgileri IPAF'ın resmî kaynaklarından doğrulanmalıdır.",
             "İki belge birbirinin alternatifi değil tamamlayıcısıdır: yasal zorunluluğu MYK karşılar, IPAF ise işverene uluslararası standartta eğitim güvencesi verir. Bütçesi kısıtlı işletmeler için önerilen sıra, önce MYK belgesinin tamamlanması, uluslararası saha gereksinimi doğduğunda IPAF eğitiminin eklenmesidir.",
             "Belgesiz operatör çalıştırmanın sonucu yalnız idari para cezası değildir: kaza hâlinde işverenin kusur oranı artar, sigorta rücu riski doğar. Kiralama sözleşmelerinde 'operatör belgesini kiracı sağlar' maddesi varsa belge kontrolü fiilen kiracının İSG ekibine düşer.",
         ],
@@ -77,7 +77,7 @@ export const guvenliYazilar: Yazi[] = [
         ozet: "Her yükseltici platformun kullanım kılavuzunda azami rüzgâr hızı yazar — bu sayı keyfi değil, sepetin devrilme momentine göre hesaplanmıştır. Sahada bu limiti göz ardı etmenin gerçek riski.",
         tarih: "2026-07-21",
         paragraflar: [
-            "Yükseltici platformların çoğu, imalatçı tarafından belirlenmiş azami rüzgâr hızında (genellikle 12,5 m/s, saatte yaklaşık 45 km) çalışacak şekilde tasarlanır ve test edilir. Bu sayı, makinenin yükseklikte açık sepet yüzeyinin rüzgâra karşı oluşturduğu devirme momentine göre hesaplanır.",
+            "Yükseltici platformların izin verilen rüzgâr koşulları model, kullanım sınıfı ve imalatçı talimatına göre değişir. Karar, internette sık tekrarlanan tek bir eşik değere göre verilmemeli; makinenin etiketi ve güncel kullanım kılavuzundaki sınır doğrudan doğrulanmalıdır.",
             "Sahada en sık yapılan hata, 'rüzgâr hafif esiyor' gibi öznel bir değerlendirmeyle işe devam etmektir. Doğru uygulama, sahada anemometre bulundurmak ve ölçülen değeri kılavuzdaki limitle karşılaştırmaktır; özellikle bina cepheleri ve açık sahil şeridi gibi rüzgârı hızlandıran noktalarda yerel etkiler ölçüm olmadan tahmin edilemez.",
             "Yükseklik arttıkça rüzgâr hızı da artar — zeminde ölçülen değer, 20 metre yukarıdaki gerçek rüzgârı yansıtmaz. Bu nedenle büyük yükseklikli operasyonlarda saha ölçümü, meteorolojik tahminden daha güvenilir bir referanstır.",
             "Rüzgâr limitini aşan koşullarda çalışmaya devam etmenin sonucu yalnız devrilme değildir: sepetteki yükün fırlaması, kumanda hassasiyetinin bozulması ve acil iniş sırasında kontrolsüz hareket de rapor edilen kaza türleri arasındadır. Güvenli Yükseliş, hava koşulu kaynaklı olayları ayrı bir başlık altında izlemeye devam edecek.",

@@ -46,12 +46,18 @@ function siteGorunumu(site: SiteIcerik) {
 
 export function TicariBaslik({ site }: { site: SiteIcerik }) {
     const gorunum = siteGorunumu(site);
+    const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
+    const ilkIcerik = site.kategori === "egitim"
+        ? "/myk-operator-belgesi"
+        : "/rehber/platform-tipi-secim-rehberi";
     return (
         <header className="relative z-20 border-b border-white/10 bg-slate-950 text-white">
             <div className="border-b border-white/10 bg-white/[0.035]">
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-2 text-[11px] font-semibold tracking-wide text-slate-400 sm:px-8">
                     <span>{site.bolge}</span>
-                    <span className="hidden sm:inline">Doğrulanmış kapsam · Yazılı teklif · Açık iletişim</span>
+                    <span className="hidden sm:inline">
+                        {bilgiSitesi ? "Kaynak odaklı içerik · Açık yayın ilkeleri · Güncellik notları" : "Doğrulanmış kapsam · Yazılı teklif · Açık iletişim"}
+                    </span>
                 </div>
             </div>
             <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4 sm:px-8">
@@ -61,26 +67,36 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
                     </span>
                     <span className="min-w-0">
                         <span className="block truncate text-base font-black tracking-tight text-white">{site.h1}</span>
-                        <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">{site.anaSite.ad} hizmet ağı</span>
+                        <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">
+                            {bilgiSitesi ? "Eğitim ve saha bilgisi yayını" : `${site.anaSite.ad} hizmet ağı`}
+                        </span>
                     </span>
                 </Link>
                 <nav aria-label="Ana menü" className="hidden items-center gap-7 text-sm font-semibold text-slate-300 md:flex">
                     <Link className="transition hover:text-white" href="/">Ana sayfa</Link>
                     <Link className="transition hover:text-white" href="/hakkimizda">Hakkımızda</Link>
-                    <Link className="transition hover:text-white" href="/teklif-hazirligi">Talep rehberi</Link>
+                    <Link className="transition hover:text-white" href={bilgiSitesi ? ilkIcerik : "/teklif-hazirligi"}>
+                        {bilgiSitesi ? "Rehberler" : "Talep rehberi"}
+                    </Link>
                     <Link className="transition hover:text-white" href="/iletisim">İletişim</Link>
                 </nav>
-                <a
-                    href={`tel:${site.telefon}`}
-                    className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition ${gorunum.buton}`}
-                >
-                    <span className="hidden sm:inline">Hemen ara · </span>{site.telefonGosterim}
-                </a>
+                {bilgiSitesi ? (
+                    <Link href="/iletisim" className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition ${gorunum.buton}`}>
+                        Soru veya düzeltme bildir
+                    </Link>
+                ) : (
+                    <a
+                        href={`tel:${site.telefon}`}
+                        className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition ${gorunum.buton}`}
+                    >
+                        <span className="hidden sm:inline">Hemen ara · </span>{site.telefonGosterim}
+                    </a>
+                )}
             </div>
             <nav aria-label="Mobil menü" className="mx-auto grid max-w-7xl grid-cols-4 gap-2 border-t border-white/10 px-4 py-3 text-center text-[11px] font-bold text-slate-300 md:hidden">
                 <Link href="/">Ana sayfa</Link>
                 <Link href="/hakkimizda">Hakkımızda</Link>
-                <Link href="/teklif-hazirligi">Talep rehberi</Link>
+                <Link href={bilgiSitesi ? ilkIcerik : "/teklif-hazirligi"}>{bilgiSitesi ? "Rehberler" : "Talep rehberi"}</Link>
                 <Link href="/iletisim">İletişim</Link>
             </nav>
         </header>
@@ -89,6 +105,7 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
 
 export function TicariGorsel({ site }: { site: SiteIcerik }) {
     const gorunum = siteGorunumu(site);
+    const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     return (
         <div className="relative min-h-[28rem] overflow-hidden rounded-[2rem] border border-white/15 bg-slate-900 shadow-2xl shadow-black/30">
             <Image
@@ -104,10 +121,12 @@ export function TicariGorsel({ site }: { site: SiteIcerik }) {
                 <div className="flex items-end justify-between gap-5">
                     <div>
                         <span className={`inline-flex rounded-full px-3 py-1 text-[11px] font-black uppercase tracking-widest ${gorunum.vurgu}`}>
-                            Saha odaklı plan
+                            {bilgiSitesi ? "Kaynak odaklı rehber" : "Saha odaklı plan"}
                         </span>
                         <p className="mt-4 max-w-sm text-xl font-black leading-snug text-white">{site.uzmanlik}</p>
-                        <p className="mt-2 text-sm font-medium text-slate-300">İhtiyaç → uygunluk → yazılı teklif</p>
+                        <p className="mt-2 text-sm font-medium text-slate-300">
+                            {bilgiSitesi ? "Kavram → uygulama → resmî kaynak" : "İhtiyaç → uygunluk → yazılı teklif"}
+                        </p>
                     </div>
                     <span aria-hidden="true" className="grid size-12 shrink-0 place-items-center rounded-full border border-white/25 bg-white/10 text-2xl text-white backdrop-blur">↗</span>
                 </div>
@@ -118,21 +137,30 @@ export function TicariGorsel({ site }: { site: SiteIcerik }) {
 
 export function TicariTeklif({ site }: { site: SiteIcerik }) {
     const gorunum = siteGorunumu(site);
+    const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     return (
         <section className="relative overflow-hidden rounded-[2rem] bg-slate-950 px-6 py-12 text-center text-white shadow-2xl shadow-slate-950/20 sm:px-10">
             <div className="absolute -left-20 -top-24 size-72 rounded-full bg-blue-600/30 blur-3xl" />
             <div className="relative">
-            <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-400">İhtiyacınızı birlikte netleştirelim</p>
-            <h2 className="mx-auto mt-4 max-w-3xl text-3xl font-black tracking-[-0.03em] sm:text-4xl">Saha bilgilerinizi paylaşın, doğrulanabilir teklif hazırlayalım.</h2>
+            <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-400">
+                {bilgiSitesi ? "Editoryal iletişim" : "İhtiyacınızı birlikte netleştirelim"}
+            </p>
+            <h2 className="mx-auto mt-4 max-w-3xl text-3xl font-black tracking-[-0.03em] sm:text-4xl">
+                {bilgiSitesi ? "Bir sorunuz, düzeltmeniz veya kaynak öneriniz mi var?" : "Saha bilgilerinizi paylaşın, doğrulanabilir teklif hazırlayalım."}
+            </h2>
             <p className="mx-auto mt-4 max-w-2xl leading-relaxed text-slate-300">
-                Model, kapasite, belge, operatör, nakliye, teslimat ve ücret; güncel uygunluk kontrolünden sonra yazılı teklif ve sözleşmede kesinleşir.
+                {bilgiSitesi
+                    ? "İçerikler genel bilgilendirme içindir. Belgelendirme ve mevzuat kararlarında resmî kurumların güncel metinleri esas alınır; hata bildirimleri incelenerek sayfalara işlenir."
+                    : "Model, kapasite, belge, operatör, nakliye, teslimat ve ücret; güncel uygunluk kontrolünden sonra yazılı teklif ve sözleşmede kesinleşir."}
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
-                <a href={`tel:${site.telefon}`} className={`rounded-full px-6 py-3 font-black transition ${gorunum.buton}`}>
-                    Ara · {site.telefonGosterim}
-                </a>
+                {!bilgiSitesi && (
+                    <a href={`tel:${site.telefon}`} className={`rounded-full px-6 py-3 font-black transition ${gorunum.buton}`}>
+                        Ara · {site.telefonGosterim}
+                    </a>
+                )}
                 <a href={`mailto:${site.eposta}`} className="rounded-full border border-white/40 px-6 py-3 font-bold text-white transition hover:bg-white/10">
-                    E-posta gönder
+                    {bilgiSitesi ? "Editöre e-posta gönder" : "E-posta gönder"}
                 </a>
             </div>
             </div>
@@ -141,6 +169,7 @@ export function TicariTeklif({ site }: { site: SiteIcerik }) {
 }
 
 export function TicariCerceve({ site, children }: { site: SiteIcerik; children: ReactNode }) {
+    const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     return (
         <>
             <TicariBaslik site={site} />
@@ -150,7 +179,9 @@ export function TicariCerceve({ site, children }: { site: SiteIcerik; children: 
                     <div>
                         <p className="font-black text-white">{site.h1}</p>
                         <p className="mt-2 max-w-xl leading-relaxed">
-                            {site.anaSite.ad} hizmet ağı içinde, {site.uzmanlik} odağında bilgilendirme ve teklif hazırlama noktası.
+                            {bilgiSitesi
+                                ? `${site.uzmanlik} odağında genel bilgi sunan editoryal yayın. İçerikler resmî kurum görüşü veya kişiye özel eğitim danışmanlığı yerine geçmez.`
+                                : `${site.anaSite.ad} hizmet ağı içinde, ${site.uzmanlik} odağında bilgilendirme ve teklif hazırlama noktası.`}
                         </p>
                     </div>
                     <div className="flex flex-wrap items-start gap-x-5 gap-y-2 md:justify-end">

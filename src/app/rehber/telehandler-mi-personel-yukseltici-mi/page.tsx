@@ -5,16 +5,16 @@ export const dynamic = "force-dynamic";
 
 const SORULAR = [
     {
-        q: "Telehandler ile bomlu platform arasındaki temel fark nedir?",
-        a: "Telehandler (teleskopik yükleyici) öncelikle YÜK kaldırmak için tasarlanmıştır: paletli malzemeyi yüksekteki bir noktaya taşır. Bomlu platform ise İNSAN çalıştırmak için tasarlanmıştır: personeli güvenli sepette yüksekteki çalışma noktasına konumlar. Sepet aparatı takılmış telehandler bazı işlerde platform gibi kullanılsa da, insan taşıma için tip onaylı sepet ve uygun makine konfigürasyonu zorunludur.",
+        q: "Telehandler ile personel yükseltici platform arasındaki temel fark nedir?",
+        a: "Telehandler (teleskopik yükleyici) öncelikle yük taşımak için tasarlanmıştır: paletli malzemeyi yüksekteki bir noktaya ulaştırır. Eklemli veya teleskopik personel yükseltici ise çalışanı korkuluklu platform içinde çalışma noktasına konumlandırır. Telehandler üzerinde insan kaldırma ancak üreticinin onayladığı makine-aparat konfigürasyonu ve geçerli saha kurallarıyla değerlendirilmelidir.",
     },
     {
         q: "Hangi işte telehandler seçilmeli?",
         a: "Malzemenin yüksek rafa, çatıya veya iskele üzerine taşınması ana işse telehandler doğru makinedir: tuğla/palet çıkarma, çatı kaplama malzemesi besleme, prefabrik montaj lojistiği. Aynı makinede çatal yerine kova, vinç kancası gibi aparatlar da kullanılabilir.",
     },
     {
-        q: "Hangi işte bomlu platform seçilmeli?",
-        a: "İş yüksekte ÇALIŞMAYI gerektiriyorsa — cephe kaynağı, tesisat, boya, cam montajı, bakım — bomlu (eklemli veya teleskopik) platform seçilmelidir. Personel korkuluklu sepette, kumanda kendisindeyken çalışır; bu hem İSG mevzuatına uyum hem de iş hızı demektir.",
+        q: "Hangi işte eklemli veya teleskopik platform seçilmeli?",
+        a: "İş yüksekte çalışmayı gerektiriyorsa — cephe kaynağı, tesisat, boya, cam montajı veya bakım gibi — erişim geometrisine göre eklemli ya da teleskopik personel yükseltici değerlendirilir. Personel korkuluklu platformda çalışır ve kumandaya doğrudan erişir.",
     },
     {
         q: "Sepetli telehandler platform yerine geçer mi?",
@@ -22,32 +22,32 @@ const SORULAR = [
     },
     {
         q: "Maliyet tarafında nasıl karşılaştırmalı?",
-        a: "Kiralama bedelleri bölgeye ve süreye göre değişir; genel kural olarak aynı erişim yüksekliğindeki telehandler, bomlu platforma yakın günlük bedelle kiralanır. Doğru soru 'hangisi ucuz' değil 'işin ana faaliyeti yük mü insan mı' sorusudur — yanlış makine seçimi iş tekrarı ve İSG riski olarak geri döner.",
+        a: "Kiralama bedelleri bölgeye, kapasiteye ve süreye göre değişir. Karşılaştırmada önce işin ana faaliyeti belirlenmelidir: yük taşımak mı, personeli çalışma noktasına ulaştırmak mı? Fiyat karşılaştırması ancak uygun makine sınıfları belirlendikten ve güncel yazılı teklifler alındıktan sonra anlamlıdır.",
     },
 ];
 
 export const metadata: Metadata = {
-    title: "Telehandler mi Bomlu Platform mu?",
+    title: "Telehandler mı, Personel Yükseltici mi?",
     description:
-        "Telehandler (teleskopik yükleyici) ile bomlu platform arasındaki farklar: hangi iş hangi makineyle yapılır, maliyet nasıl karşılaştırılır?",
-    alternates: { canonical: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-bomlu-platform-mu" },
+        "Telehandler ile eklemli veya teleskopik personel yükseltici arasındaki farklar: yük taşıma, personel erişimi, güvenlik ve makine seçimi.",
+    alternates: { canonical: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-personel-yukseltici-mi" },
     openGraph: {
-        title: "Telehandler mi Bomlu Platform mu?",
+        title: "Telehandler mı, Personel Yükseltici mi?",
         description:
-            "Telehandler ile bomlu platformun kullanım, güvenlik ve makine seçimi farklarını karşılaştırın.",
+            "Telehandler ile eklemli veya teleskopik personel yükselticinin kullanım ve güvenlik farklarını karşılaştırın.",
         type: "article",
         locale: "tr_TR",
-        url: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-bomlu-platform-mu",
+        url: "https://yuksektecalismarehberi.com/rehber/telehandler-mi-personel-yukseltici-mi",
         images: [{
             url: "https://yuksektecalismarehberi.com/media/saha-hero.png",
-            alt: "Telehandler ve bomlu platform seçim rehberi",
+            alt: "Telehandler ve personel yükseltici seçim rehberi",
         }],
     },
     twitter: {
         card: "summary_large_image",
-        title: "Telehandler mi Bomlu Platform mu?",
+        title: "Telehandler mı, Personel Yükseltici mi?",
         description:
-            "Telehandler ile bomlu platformun kullanım, güvenlik ve makine seçimi farklarını karşılaştırın.",
+            "Telehandler ile eklemli veya teleskopik personel yükselticinin kullanım ve güvenlik farklarını karşılaştırın.",
         images: ["https://yuksektecalismarehberi.com/media/saha-hero.png"],
     },
 };
@@ -68,11 +68,11 @@ export default function TelehandlerRehberi() {
             <Link href="/" className="text-sm text-slate-500 hover:underline">← Yüksekte Çalışma Rehberi</Link>
             <p className="mt-6 text-xs font-bold uppercase tracking-widest text-blue-700">Makine Seçim Rehberi</p>
             <h1 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">
-                Telehandler mi, Bomlu Platform mu?
+                Telehandler mı, Personel Yükseltici mi?
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-slate-600">
                 Şantiyede en sık karıştırılan iki makine sınıfını netleştirelim: teleskopik yükleyici
-                (telehandler) ile bomlu yükseltici platform aynı yüksekliğe erişebilir ama aynı iş için
+                (telehandler) ile eklemli veya teleskopik personel yükseltici aynı yüksekliğe erişebilir ama aynı iş için
                 tasarlanmamıştır. Yanlış seçim hem İSG riski hem gereksiz maliyet üretir.
             </p>
             <div className="mt-10 space-y-8">
@@ -87,7 +87,7 @@ export default function TelehandlerRehberi() {
                 <h2 className="text-xl font-bold">Özet karar tablosu</h2>
                 <ul className="mt-4 space-y-2 text-slate-700">
                     <li><b>Yük taşınacak</b> → telehandler</li>
-                    <li><b>İnsan çalışacak</b> → bomlu platform (eklemli / teleskopik)</li>
+                    <li><b>İnsan çalışacak</b> → erişime göre eklemli veya teleskopik personel yükseltici</li>
                     <li><b>Düz zemin + dikey erişim</b> → makaslı platform da değerlendirin</li>
                     <li><b>Her ikisi de gerekli</b> → iki ayrı makine; sepetli telehandler yalnız onaylı konfigürasyonda</li>
                 </ul>

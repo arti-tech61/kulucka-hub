@@ -57,8 +57,8 @@ export const rehberler: Rehber[] = [
         ],
         sss: [
             { soru: "Aynı işte iki tip makine gerekebilir mi?", cevap: "Evet; örneğin depo projesinde raf işleri makaslıyla, cephe ve saçak işleri eklemliyle yürür. Çok makineli işlerde tek organizasyonla kombine kiralama maliyeti düşürür." },
-            { soru: "Rüzgâr limiti tipe göre değişir mi?", cevap: "Üretici limiti model bazında verilir; bomlu (eklemli/teleskopik) makinelerde tipik limit 12,5 m/sn'dir. İç mekân makaslılarının bir bölümü yalnız rüzgârsız ortam için onaylıdır." },
-            { soru: "Zemin eğimi hangi tipte daha kritik?", cevap: "Hepsinde kritiktir; ancak bomlu makinelerde devrilme momenti daha büyük olduğundan kurulum eğim limitleri daha sıkıdır. Şasi terazisi alınmadan bom açılmamalıdır." },
+            { soru: "Rüzgâr limiti tipe göre değişir mi?", cevap: "Evet. Üretici limiti model ve kullanım konfigürasyonu bazında verir. Eklemli, teleskopik ve makaslı platformların dış mekân onayları aynı olmayabilir; çalışma öncesinde makinenin teknik föyü ve üzerindeki bilgi plakası kontrol edilmelidir." },
+            { soru: "Zemin eğimi hangi tipte daha kritik?", cevap: "Tüm personel yükselticilerde kritiktir. Eklemli ve teleskopik modellerde uzayan erişim nedeniyle üreticinin eğim ve kurulum sınırlarına özellikle uyulmalıdır; denge göstergesi ve zemin koşulu kontrol edilmeden platform yükseltilmemelidir." },
         ],
     },
     {
@@ -82,7 +82,7 @@ export const rehberler: Rehber[] = [
                 paragraflar: [
                     "Mevzuat önlem sırasını açıkça kurar: önce çalışma yerinin güvenli kılınması (korkuluk, platform, kapak), sonra toplu koruma (güvenlik ağı), en son kişisel koruyucu donanım (emniyet kemeri).",
                     "Yükseltici platform kullanımı bu hiyerarşide güçlü bir toplu koruma çözümüdür: çalışan, korkuluklu ve zemin dayanımı test edilmiş bir sepette çalışır. Merdiven ve iskele kurulumuna göre hem hızlı hem denetlenebilir bir yöntemdir.",
-                    "Kemer, korkuluğun alternatifi değildir; bomlu platformlarda ise fırlama riskine karşı korkuluğa EK olarak zorunludur.",
+                    "Kemer, korkuluğun alternatifi değildir. Eklemli ve teleskopik personel yükselticilerde fırlama riskine karşı üretici talimatı, saha prosedürü ve risk değerlendirmesine uygun bağlantı sistemi kullanılmalıdır.",
                 ],
             },
             {
@@ -120,7 +120,7 @@ export const rehberler: Rehber[] = [
                 baslik: "1-3: Saha ve çevre",
                 paragraflar: [
                     "1) Zemin: Makinenin kurulacağı zeminin taşıma kapasitesi ve eğimi uygun mu? Dolgu, rögar kapağı ve kanal üstlerinden kaçının; gerekirse çelik plaka serin.",
-                    "2) Hava: Rüzgâr hızı üretici limitinin (tipik 12,5 m/sn) altında mı? Yağış ve görüş durumu çalışmaya uygun mu? Gün içi bozulma ihtimaline karşı durdurma kriterini baştan belirleyin.",
+                    "2) Hava: Rüzgâr, yağış ve görüş koşulları seçilen modelin üretici limitlerine uygun mu? Gün içi bozulma ihtimaline karşı ekipmana özgü durdurma kriterini baştan belirleyin.",
                     "3) Enerji hatları: Çalışma sahasının üstünde veya bom hareket zarfında enerji nakil hattı var mı? Güvenli mesafe sağlanamıyorsa hat sahibinden kesinti/izolasyon istenmeden iş açılmaz.",
                 ],
             },
@@ -129,7 +129,7 @@ export const rehberler: Rehber[] = [
                 paragraflar: [
                     "4) Günlük kontrol: Operatörün vardiya öncesi kontrol formu dolduruldu mu? Acil stop ve acil indirme test edildi mi?",
                     "5) Evrak: Periyodik kontrol raporu ve operatör belgesi sahada mı?",
-                    "6) KKD: Bomlu platformda tam vücut kemeri ve kısa lanyard sepetteki ankraj noktasına bağlı mı? Baret çene bantlı mı (yüksekte standart)?",
+                    "6) KKD: Eklemli veya teleskopik platformda üretici talimatına uygun tam vücut kemeri ve bağlantı sistemi doğru ankraj noktasına bağlı mı? Baret ve diğer KKD saha risk değerlendirmesine uygun mu?",
                     "7) Yük: Sepetteki kişi + malzeme toplamı kapasite etiketinin altında mı? Sepetten sarkan, korkuluğa asılan yük var mı?",
                 ],
             },

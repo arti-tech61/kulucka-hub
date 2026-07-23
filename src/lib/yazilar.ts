@@ -57,9 +57,9 @@ export const yazilar: Yazi[] = [
         tarih: "2026-07-19",
         paragraflar: [
             "Yüksekten düşme, inşaat ve bakım işlerindeki ciddi iş kazalarının başında gelir. 6331 sayılı İş Sağlığı ve Güvenliği Kanunu ve ilgili yönetmelikler, yüksekte çalışmayı özel risk değerlendirmesine tabi tutar.",
-            "Birinci kural doğru ekipman seçimidir: seyyar merdiven ve iskelenin yetersiz kaldığı işlerde makaslı veya bomlu yükseltici platformlar hem daha hızlı hem daha güvenli bir çalışma zemini sağlar.",
+            "Birinci kural doğru ekipman seçimidir: seyyar merdiven ve iskelenin yetersiz kaldığı işlerde makaslı, eklemli veya teleskopik personel yükselticiler kontrollü bir çalışma alanı sağlar.",
             "İkinci kural belgeli operatördür: yükseltici platform kullanan personelin operatör eğitimi almış ve belgelendirilmiş olması gerekir. Üçüncüsü günlük kontroldür: her vardiya öncesi makinenin fren, acil indirme ve korkuluk kontrolleri kayıt altına alınmalıdır.",
-            "Dördüncü kural kişisel koruyucu donanım — bomlu platformlarda tam vücut emniyet kemeri kullanımı zorunludur. Beşincisi ise saha organizasyonu: çalışma alanının şeritle sınırlanması ve zemin uygunluğunun teyididir.",
+            "Dördüncü kural kişisel koruyucu donanımdır: eklemli ve teleskopik platformlarda üretici talimatı ile saha risk değerlendirmesine uygun tam vücut kemeri ve bağlantı sistemi kullanılmalıdır. Beşinci kural ise çalışma alanının sınırlandırılması ve zemin uygunluğunun teyididir.",
             "İzmir Sektör'de bu başlığı düzenli işleyeceğiz; sahadan soru ve vaka paylaşımlarınız içerik gündemimizi belirleyecek.",
         ],
     },
