@@ -141,6 +141,7 @@ export const siteler: SiteIcerik[] = [
             "Bozüyük Organize Sanayi Bölgesi ve çevresindeki taleplerde seramik, cam ve lojistik tesislerinin bakım, raf ve aydınlatma işleri için makaslı veya bomlu platform seçimi yapılır.",
             "Teslimat zamanı; makine sınıfı, güncel uygunluk, adres ve saha giriş koşulları doğrulandıktan sonra belirlenir.",
             "Çalışma yüksekliği, yatay erişim ve zemin bilgisi üzerinden makine sınıfı değerlendirilir; kapasite ve ücret yazılı teklifte teyit edilir.",
+            "Teklif öncesinde kapı ve koridor ölçüsü, zeminin taşıma kapasitesi, vardiya saatleri ve çalışma noktasındaki engeller paylaşılmalıdır. Düz ve taşıyıcı fabrika zeminlerinde makaslı; makine hattı, tesisat veya yapı elemanının üzerinden uzanılması gereken noktalarda bomlu platform değerlendirilir. Nihai seçim saha bilgisi ve güncel makine uygunluğuna göre yapılır.",
         ],
         hizmetler: ["Makaslı platform seçenekleri", "Bomlu platform seçenekleri", "OSB saha koşulu değerlendirmesi", "Günlük ve proje bazlı teklif", "Makine ve nakliye planlaması"],
         anaSite: { ad: "Eskişehir Platform", url: "https://eskisehirplatform.com" },
