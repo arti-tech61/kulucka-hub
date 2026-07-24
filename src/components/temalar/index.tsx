@@ -4,6 +4,7 @@ import { TicariCerceve } from "@/components/ticari-cerceve";
 import type { TemaModulu } from "./tipler";
 import { aydinTema } from "./aydin";
 import { platformmanisaTema } from "./platformmanisa";
+import { manisaforkliftTema } from "./manisaforklift";
 import { kutahyaTema } from "./kutahya";
 import { bilecikTema } from "./bilecik";
 import { bozuyukTema } from "./bozuyuk";
@@ -13,6 +14,7 @@ import { canakkaleTema } from "./canakkale";
 const TEMALAR: Record<string, TemaModulu> = {
     "aydinplatform.net": aydinTema,
     "platformmanisa.com": platformmanisaTema,
+    "manisaforklift.com": manisaforkliftTema,
     "kutahyaplatform.com": kutahyaTema,
     "bilecikplatform.com": bilecikTema,
     "bozuyukplatform.com.tr": bozuyukTema,
