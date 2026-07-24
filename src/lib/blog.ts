@@ -4278,6 +4278,91 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "aydinda-orumcek-platform-dar-ve-hassas-alanlar",
+            kategori: "Karşılaştırma", baslik: "Aydın'da Örümcek Platform: Dar ve Hassas Alanlar",
+            ozet: "Otel iç avlusu, tarihi yapı ve dar hassas alanlarda katlanır ayaklı örümcek platform. Standart eklemliyle karşılaştırma.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Dar ve hassas alanda örümcek platformla erişim",
+            tarih: "2026-05-21", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'ın otel iç avluları, tarihi yapıları ve dar hassas alanlarında standart eklemli her zaman giremez. Örümcek platform bu noktada devreye girer. Bu yazı iki sınıfı karşılaştırır.",
+            bolumler: [
+                { baslik: "Örümcek platform ne zaman?", paragraflar: ["Katlanır paletli ayakları ve hafif gövdesiyle dar kapılardan geçer, hassas zemine düşük yük bindirir; otel iç avlusu, tarihi yapı gibi hem dar hem hassas sahalarda değerlendirilir.", "Kapasite ve erişim sınırları standart eklemliye göre dardır."] },
+                { baslik: "Standart eklemli ne zaman?", paragraflar: ["Giriş ve zemin uygunsa daha yüksek kapasite ve erişim için eklemli tercih edilir. Kapı ölçüsü, zemin yükü ve ayak açılımı teknik föyle teyit edilir.", "Nihai seçim saha bilgisine göre yapılır."] },
+            ],
+            sss: [
+                { soru: "Örümcek platform her dar alana girer mi?", cevap: "Girmez; giriş genişliği, zemin yükü ve ayak açılım alanı model bazında değişir ve teknik föyle teyit edilir." },
+                { soru: "Hassas zeminde iz bırakır mı?", cevap: "Hafif gövdesi düşük noktasal yük bindirir; yine de hassas zeminde koruyucu levha ve uygunluk değerlendirmesi önerilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-telehandler-mi-platform-mu",
+            kategori: "Karşılaştırma", baslik: "Aydın'da Telehandler mı, Platform mu?",
+            ozet: "Yük taşımak mı, personeli çalıştırmak mı? Aydın tesis ve saha işlerinde telehandler ile personel yükseltici farkı.",
+            gorsel: blogGorsel.forkliftDepo, gorselAlt: "Aydın sahasında telehandler ve platform karşılaştırması",
+            tarih: "2026-05-18", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'ın tesis ve saha işlerinde telehandler ile personel yükseltici sık karıştırılır. İkisi aynı yüksekliğe ulaşsa da farklı işler içindir. Bu yazı farkı açıklar.",
+            bolumler: [
+                { baslik: "Farklı amaçlar", paragraflar: ["Telehandler yük taşır: bomuyla malzemeyi ileri ve yukarı ulaştırır. Personel yükseltici insanı korkuluklu sepette çalışma noktasına konumlandırır. Doğru soru 'ana faaliyet yük mü, personel mi?' sorusudur.", "İki faaliyet birlikteyse iş kalemleri ayrılır."] },
+                { baslik: "Güvenlik", paragraflar: ["Telehandler'a insan sepeti takmak ancak üretici onayı ve yük tablosuna uyumla değerlendirilir; birçok modelde sepetten kumanda yoktur. Sürekli yüksekte çalışmada gerçek personel yükseltici daha güvenli ve verimlidir.", "Forklift, telehandler ve personel yükseltici üç ayrı sınıftır."] },
+            ],
+            sss: [
+                { soru: "Telehandler ile personel yükseltebilir miyim?", cevap: "Ancak üretici onayı ve yük tablosuna uyumla; sınırlıdır. Sürekli yüksekte çalışmada gerçek personel yükseltici tercih edilir." },
+                { soru: "Hangisi gerekir?", cevap: "Ana faaliyet yük taşımaksa telehandler, personel çalıştırmaksa platform. İki faaliyet birlikteyse iş kalemleri ayrılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-dikey-personel-yukseltici-dar-alan-isleri",
+            kategori: "Ürün Rehberi", baslik: "Aydın'da Dikey Personel Yükseltici ile Dar Alan İşleri",
+            ozet: "Mağaza, depo raf arası ve dar koridorda tekil erişim için dikey personel yükseltici. Çevik ve hafif çözüm.",
+            gorsel: blogGorsel.depo, gorselAlt: "Aydın'da dar koridorda dikey personel yükselticiyle çalışma",
+            tarih: "2026-05-15", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'daki mağaza ve tesislerde her iş geniş makaslı gerektirmez. Tekil, hafif ve dar koridorlu işlerde dikey personel yükseltici çevik bir çözümdür.",
+            bolumler: [
+                { baslik: "Ne için?", paragraflar: ["Tek kişilik, dar tabanlı ve dikey hareket eden bu sınıf; depo raf sayımı, mağaza içi aydınlatma ve dar koridorlu tesis bakımı gibi tekil işlerde öne çıkar. Geniş makaslıya göre daha çevik ve ekonomik olabilir.", "Yük ve alan geniş değilse avantaj sağlar."] },
+                { baslik: "Sınırları", paragraflar: ["Kapasite ve erişim sınırları dardır; birden fazla çalışan, ağır malzeme veya engel aşma gerektiren işlerde yetersiz kalır.", "Kapı ölçüsü ve yükseklik teknik föyle teyit edilir."] },
+            ],
+            sss: [
+                { soru: "Kaç kişilik?", cevap: "Genellikle tek kişilik ve hafif yük içindir; ağır/çoklu işte makaslı değerlendirilir." },
+                { soru: "Dar mağaza koridorunda olur mu?", cevap: "Evet; dar tabanı ve çevikliğiyle mağaza ve depo koridorlarında tekil erişim için uygundur." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-eklemli-platform-ile-engel-asan-erisim",
+            kategori: "Ürün Rehberi", baslik: "Aydın'da Eklemli Platform ile Engel Aşan Erişim",
+            ozet: "Peyzaj, boru ve ekipman arkasına erişimde eklemli bomun avantajı. Aydın otel ve jeotermal tesislerinde engel aşan erişim.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Aydın'da eklemli platformla engel aşan erişim",
+            tarih: "2026-05-12", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'ın otel ve jeotermal tesislerinde çalışma noktaları çoğu zaman peyzaj, boru veya ekipman engelinin arkasındadır. Buraya ancak engel aşan bir bomla erişilir. Bu yazı eklemli platformun avantajını anlatır.",
+            bolumler: [
+                { baslik: "Up-and-over geometrisi", paragraflar: ["Eklemli platformun kırılan bomu makineyi engelin yanına koyup sepeti engelin üzerinden veya arkasına konumlamaya izin verir. Otel peyzajı, jeotermal boru ve ekipman arkası erişimde makaslının giremediği açılara ulaşır.", "Dönebilen kule dar sahada manevra sağlar."] },
+                { baslik: "Sınıf ve seçim", paragraflar: ["İç mekânda elektrikli, açık sahada dizel eklemli değerlendirilir. Erişim uzadıkça sepet kapasitesi ve rüzgâr limiti değişir.", "Kesin model yazılı teklifte belirlenir."] },
+            ],
+            sss: [
+                { soru: "Peyzaj arkasına nasıl erişilir?", cevap: "Peyzaj veya ekipman engelinin arkasına erişim için eklemli platformun engel aşan bomu kullanılır; makaslı tam altına giremez, teleskopik engeli aşamaz." },
+                { soru: "İç mekânda eklemli olur mu?", cevap: "Evet; elektrikli eklemli modeller sıfır emisyon ve iz bırakmayan lastikle kapalı alanda kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-platform-yukseklik-siniflari-secimi",
+            kategori: "Ürün Rehberi", baslik: "Aydın'da Platform Yükseklik Sınıfları Nasıl Seçilir?",
+            ozet: "İç mekân orta yükseklikten yüksek endüstriyel erişime kadar sınıf seçimi. Aydın otel, gıda ve jeotermal işlerinde doğru yükseklik.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Aydın'da farklı yükseklik sınıfında platformlar",
+            tarih: "2026-05-09", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'da platform kiralarken 'kaç metre?' tek başına yeterli değildir; aynı yükseklikte farklı erişim ve kapasite bulunur. Bu yazı sınıf seçimini anlatır.",
+            bolumler: [
+                { baslik: "16-20 metre", paragraflar: ["Otel iç mekânı, fabrika tesisatı ve orta yükseklikteki işleri karşılar; elektrikli modeller yaygındır. Yatay erişim sınırlıdır.", "Engelin ötesine uzanılan işlerde bir üst sınıf değerlendirilir."] },
+                { baslik: "28-43 metre", paragraflar: ["Yüksek cephe, silo ve jeotermal tesis işleri için; genellikle dizel/4x4 modeller. Erişim arttıkça sepet yükü ve rüzgâr limiti değişir.", "Sınıf, işin en zorlu noktasına göre seçilir."] },
+            ],
+            sss: [
+                { soru: "16 metre hangi işlere yeter?", cevap: "Otel iç mekânı, fabrika tesisatı ve orta yükseklikteki cephe işlerine genellikle yeterlidir. Yüksek cephe/silo işlerinde 28-43 metre değerlendirilir." },
+                { soru: "Yükseklikle kapasite düşer mi?", cevap: "Evet; erişim ve yükseklik arttıkça izin verilen sepet yükü değişebilir, çalışma diyagramından kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
