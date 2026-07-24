@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.worktrees
+*.log
+.DS_Store
+.env*.local
+.vscode
+npm-debug.log*
