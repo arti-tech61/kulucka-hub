@@ -442,6 +442,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
         },
+        {
+            slug: "makasli-mi-eklemli-mi-engel-varsa-hangisi",
+            kategori: "Karşılaştırma",
+            baslik: "Makaslı mı Eklemli mi? Engel Varsa Hangisi Seçilir?",
+            ozet: "Makaslı platform dikey erişimin standardı, eklemli ise engel aşmanın makinesi. Çalışma noktasının altına girilebiliyorsa makaslı, arada engel varsa eklemli: net karar rehberi.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Sanayi holünde dikey erişim için makaslı platformla yüksekte çalışma",
+            tarih: "2026-07-12",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Yükseltici platform seçiminde ilk ayrım basittir: çalışma noktasının tam altına makine koyabiliyor musunuz? Cevap evetse makaslı, hayırsa eklemli düşünülür. Bu yazı iki tipi aynı ölçütlerle karşılaştırır.",
+            bolumler: [
+                {
+                    baslik: "Makaslı: dikey erişimin geniş sepetli çözümü",
+                    paragraflar: [
+                        "Makaslı platform sepeti yalnız dikey hareket ettirir; çalışma noktasının tam altına konumlanabildiğiniz her işte ilk tercihtir. Geniş tablasında birden fazla çalışan, malzeme ve el aletiyle yükselir. Tavan tesisatı, aydınlatma, sprinkler, depo rafı ve düz cephe makaslının tipik işleridir.",
+                        "Sınırı nettir: yatay erişim yok denecek kadar azdır. Sepetin ulaşacağı noktanın altında engel (makine hattı, çukur, saçak) varsa makaslı yetersiz kalır.",
+                    ],
+                },
+                {
+                    baslik: "Eklemli: engelin üzerinden aşan bom",
+                    paragraflar: [
+                        "Eklemli platformun kırılan bomu, makineyi engelin yanına koyup sepeti engelin üzerinden veya arkasına konumlamaya izin verir. Çatı arkası, boru köprüsü ve peyzaj önündeki cephe eklemlinin alanıdır.",
+                        "Karşılığında eklemli, aynı yükseklikte genellikle daha yüksek bir bedelle döner. Bu yüzden engel yoksa makaslıyı zorlamak gerekmez.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Aynı işte hem makaslı hem eklemli gerekebilir mi?", cevap: "Evet; örneğin bir projede raf işleri makaslıyla, saçak arkası cephe işleri eklemliyle yürür. Çok makineli işlerde tek organizasyonla kombine kiralama maliyeti düşürür." },
+                { soru: "Makaslı platform yatay erişim yapabilir mi?", cevap: "Çoğu makaslıda yatay erişim yok denecek kadar azdır; bazı modellerde sınırlı bir uzatma tablası bulunur. Gerçek yatay erişim gereken işlerde eklemli veya teleskopik değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "avm-ve-alisveris-merkezi-bakiminda-eklemli-platform",
+            kategori: "Şehir & Sektör",
+            baslik: "AVM ve Alışveriş Merkezi Bakımında Eklemli Platform",
+            ozet: "Atrium, cam tavan, tabela ve aydınlatma bakımında iç mekân erişimi. AVM'lerde sıfır emisyon, iz bırakmayan lastik ve ziyaretçi trafiğiyle güvenli çalışma.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Kapalı alanda elektrikli yükseltici platformla bakım çalışması",
+            tarih: "2026-07-11",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "AVM ve alışveriş merkezleri, iç mekân yüksekte çalışmanın en zorlu ortamlarındandır: yüksek atriumlar, cam tavanlar, ziyaretçi trafiği ve hassas zeminler bir arada bulunur. Bu yazı, bu ortamlarda eklemli platform kullanımının inceliklerini anlatır.",
+            bolumler: [
+                {
+                    baslik: "İç mekân koşulları: emisyon, gürültü, zemin",
+                    paragraflar: [
+                        "AVM içinde sıfır emisyon ve düşük gürültü zorunludur; bu yüzden elektrikli eklemli modeller tercih edilir. İz bırakmayan lastikler mermer, seramik ve epoksi zeminlerde yüzeye zarar vermez.",
+                        "Atrium ve cam tavan gibi yüksek ve engelli noktalara erişimde eklemli bomun engel aşma kabiliyeti öne çıkar; makaslının giremediği açılara ulaşır.",
+                    ],
+                },
+                {
+                    baslik: "Ziyaretçi trafiği ve çalışma planı",
+                    paragraflar: [
+                        "AVM'lerde çalışma çoğu zaman ziyaretçi trafiğiyle aynı alanda yürür. Bu yüzden çalışma alanı bariyerle ayrılır, gerektiğinde mesai dışı saatler planlanır, makinenin altı ve devrilme zarfı kapatılır.",
+                        "Zeminin (özellikle üst kat döşemelerinin) taşıma kapasitesi kontrol edilmelidir; makine ağırlığı ve noktasal yük, döşeme sınırının altında olmalıdır. Belirsizlikte yapı yetkilisinin görüşü alınır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "AVM içinde dizel platform kullanılabilir mi?", cevap: "Hayır; egzoz emisyonu ve gürültü nedeniyle kapalı AVM ortamında elektrikli modeller kullanılır. Sıfır emisyon ve düşük ses, ziyaretçi ve çalışan güvenliği için gereklidir." },
+                { soru: "Üst kat döşemesinde platform kullanmak güvenli mi?", cevap: "Döşemenin taşıma kapasitesi ve makinenin noktasal yükü karşılaştırılmadan karar verilmez. Kapasite bilinmiyorsa yapı yetkilisinin yazılı görüşü alınır; gerekirse yük dağıtıcı plaka kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "depo-ve-lojistik-merkezinde-raf-ve-tavan-isleri",
+            kategori: "Şehir & Sektör",
+            baslik: "Depo ve Lojistik Merkezinde Raf ve Tavan İşleri",
+            ozet: "Yüksek raf sistemleri, çatı altı tesisat, aydınlatma ve yangın sistemi bakımında platform seçimi. Dar koridor, zemin ve sürekli operasyon koşullarıyla çalışma.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Lojistik deposunda forklift ve makaslı platformla raf ve tavan çalışması",
+            tarih: "2026-07-10",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Depo ve lojistik merkezleri; yüksek raf sistemleri, çatı altı tesisat, aydınlatma ve yangın sistemleriyle sürekli yüksekte çalışma ihtiyacı doğurur. Bu yazı, bu ortamda doğru makine seçimini ve saha koşullarını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Raf arası mı, çatı altı mı?",
+                    paragraflar: [
+                        "Dar raf koridorlarında ve düz zeminde, tam altından erişilen işlerde makaslı platform veya dikey personel yükseltici çevik bir çözümdür. Çatı altı tesisat, kanal ve konveyör üstü gibi engel aşmalı noktalarda ise eklemli platformun bomu gerekir.",
+                        "Koridor genişliği, kapı yüksekliği ve dönüş alanı seçilen modelin ölçüleriyle karşılaştırılır; makine nakliye ve çalışma ölçüleri farklı olabilir.",
+                    ],
+                },
+                {
+                    baslik: "Sürekli operasyon ve zemin",
+                    paragraflar: [
+                        "Faal depolarda çalışma, forklift ve palet trafiğiyle aynı alanda yürür; çalışma bölgesi ayrılır ve hareket zamanları planlanır. Elektrikli modeller sıfır emisyonla vardiya içinde çalışabilir.",
+                        "Depo betonu genellikle taşıyıcıdır, ancak mazgal, rampa ve dilatasyon noktaları değerlendirilir. Sürekli çalışmada akü/şarj planı vardiya akışına yazılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Dar raf koridorunda hangi makine kullanılır?", cevap: "Tam altından erişilen işlerde dar gövdeli makaslı platform veya dikey personel yükseltici çeviktir. Engel aşma gerekiyorsa eklemli platform değerlendirilir; koridor ve kapı ölçüleri modelin ölçüleriyle karşılaştırılır." },
+                { soru: "Depoda çalışırken operasyon durdurulmalı mı?", cevap: "Çalışma bölgesi forklift ve yaya trafiğinden ayrılır; tümüyle durdurmak yerine bölge izolasyonu ve hareket zamanlaması çoğu zaman yeterlidir. Karar saha risk değerlendirmesine göre verilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platformda-emniyet-kemeri-ve-ankraj-noktasi",
+            kategori: "Güvenlik",
+            baslik: "Eklemli Platformda Emniyet Kemeri ve Ankraj Noktası",
+            ozet: "Eklemli ve teleskopik platformlarda fırlama etkisine karşı tam vücut kemeri ve doğru ankraj noktası neden zorunlu? Makaslıdan farkı ve üretici talimatının önemi.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Yükseltici platform sepetinde emniyet donanımıyla çalışan operatör",
+            tarih: "2026-07-09",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Eklemli platformlarda çalışma platformu uzun bir erişim yapısının ucundadır. Makine bir çukura girdiğinde veya ani hareket ettiğinde oluşan fırlama etkisi, çalışanı korkuluk seviyesinin üzerine taşıyabilir. Bu yüzden bağlantı sistemi eklemli ve teleskopik platformlarda özel önem taşır.",
+            bolumler: [
+                {
+                    baslik: "Fırlama etkisi ve doğru bağlantı",
+                    paragraflar: [
+                        "Eklemli veya teleskopik platformlarda fırlama riskine karşı, üretici talimatı ve saha risk değerlendirmesine uygun tam vücut kemeri ve bağlantı sistemi kullanılmalıdır. Yanlış uzunluk veya yanlış bağlantı noktası, koruma sisteminin amacını ortadan kaldırabilir.",
+                        "Bağlantı noktası kritiktir: kemer, sepetin korkuluğuna değil, üretici tarafından işaretlenmiş ankraj noktasına bağlanmalıdır. Her sepette bu nokta bulunur ve kullanım kılavuzunda gösterilir.",
+                    ],
+                },
+                {
+                    baslik: "Makaslıdan farkı ve kurtarma",
+                    paragraflar: [
+                        "Makaslı platformlarda sepet doğrudan şasinin üzerinde dikey hareket eder; fırlama etkisi yoktur. Bu yüzden korkulukları sağlam ve kapısı kapalı bir makaslıda kemer, üretici aksini söylemedikçe zorunlu değildir. İki tip arasındaki bu fark saha eğitimlerinde en sık yanlış anlatılan konulardandır.",
+                        "Kemer kullanılan her yerde bir kurtarma planı da gerekir: kemerle düşmesi duran bir kişinin asılı kalması sarkma travması riski doğurur. 'Kemer taktık' demek planın sonu değil başıdır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Makaslı platformda emniyet kemeri zorunlu mu?", cevap: "Korkulukları sağlam ve kapısı kapalı bir makaslı platformda, fırlama etkisi olmadığından kemer üretici aksini belirtmedikçe zorunlu değildir. Eklemli ve teleskopikte ise fırlama riskine karşı bağlantı sistemi gerekir." },
+                { soru: "Kemer nereye bağlanmalı?", cevap: "Sepetin korkuluğuna değil, üretici tarafından işaretlenmiş ankraj noktasına bağlanmalıdır. Bu nokta her sepette bulunur ve kullanım kılavuzunda gösterilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platform-periyodik-kontrol-ve-gunluk-kontrol",
+            kategori: "Güvenlik",
+            baslik: "Eklemli Platformda Periyodik Kontrol ve Günlük Kontrol",
+            ozet: "Yıllık periyodik kontrol ile vardiya öncesi günlük kontrol farkı, kiralık makinede sorumluluk paylaşımı ve raporda aranacak başlıklar.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Artı Platform makine parkında kontrolü yapılmış yükseltici platformlar",
+            tarih: "2026-07-08",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Yükseltici platform güvenliğinin iki katmanı vardır: yılda en az bir kez yapılan periyodik kontrol ve her vardiya öncesi operatörün yaptığı günlük kontrol. İkisi birbirinin yerine geçmez. Bu yazı, kiralık eklemli platformda bu kontrollerin nasıl işlediğini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Periyodik kontrol: yılda en az bir kez",
+                    paragraflar: [
+                        "Yükseltici platformlar kaldırma ekipmanı sayılır ve standartlarda aksi belirtilmedikçe yılda en az bir kez yetkili teknik elemanca periyodik kontrolden geçirilir. Raporda yük testi, hidrolik sistem, acil indirme, korkuluk ve denge sensörü kontrolleri aranır.",
+                        "Kiralık makinede periyodik kontrol raporunu kiraya veren sağlar; raporun bir kopyasının makineyle birlikte sahada bulunması denetimlerde zaman kazandırır.",
+                    ],
+                },
+                {
+                    baslik: "Günlük kontrol: operatörün sorumluluğu",
+                    paragraflar: [
+                        "Her vardiya öncesi operatör; fren, acil stop, acil indirme, korkuluk, kumandalar ve denge sensörünü test eder ve kaydeder. Ciddi kazaların önemli bölümü, günlük kontrolde yakalanabilecek arızalardan çıkar.",
+                        "Kiralık makinede günlük kontrol ve doğru kullanım kiracının yükümlülüğündedir. Bu sorumluluk paylaşımının sözleşmede yazılı olması iki tarafı da korur.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Periyodik kontrolü kim yapar?", cevap: "İlgili teknik eğitime sahip yetkili kişilerce (makine mühendisi/tekniker) ve geçerli kayıt sistemi üzerinden yapılır. Güncel yetki ve kayıt şartları resmî kaynaklardan doğrulanmalıdır." },
+                { soru: "Kiralık makinede kontrol sorumluluğu kimde?", cevap: "Periyodik kontrol raporunu kiraya veren sağlar; günlük vardiya öncesi kontrol ve doğru kullanım kiracının sorumluluğundadır. Paylaşımın sözleşmede yazılı olması önerilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
     ],
 };
 
