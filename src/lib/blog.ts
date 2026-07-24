@@ -1731,6 +1731,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bandirmada-enerji-tesisi-bakiminda-yuksek-erisim",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Enerji Tesisi Bakımında Yüksek Erişim",
+            ozet: "Enerji üretim ve dağıtım tesislerinde yüksek erişim, enerji hatlarına yaklaşma sınırı ve saha izinleri. Bandırma enerji sahalarında platform seçimi.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Bandırma enerji tesisinde yüksek erişim için yükseltici platform",
+            tarih: "2026-05-22",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma ve çevresindeki enerji tesisleri hem yüksek erişim hem özel güvenlik koşulları gerektirir. Bu yazı, enerji sahalarında platform seçimini ve enerji hattı güvenliğini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Enerji hatlarına yaklaşma sınırı",
+                    paragraflar: [
+                        "Enerjili hatların yakınında hat gerilimine göre tanımlı bir güvenli yaklaşma mesafesi vardır. Bom hareket zarfı üç boyutludur; yandan güvenli görünen hat, bom uzayınca tehlike mesafesine girebilir.",
+                        "Güvenli mesafe sağlanamıyorsa hat sahibinden kesinti veya izolasyon istenmeden iş açılmaz.",
+                    ],
+                },
+                {
+                    baslik: "Yüksek erişim ve saha izni",
+                    paragraflar: [
+                        "Yüksek erişim işlerinde genellikle dizel ve 4x4 modeller kullanılır; açık sahada rüzgâr limiti belirleyicidir. Enerji tesisleri çalışma izni, operatör yeterliliği ve giriş prosedürü ister.",
+                        "Makine evrakı ve saha kuralları teklif öncesinde tesisle karşılıklı doğrulanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Enerji hattına ne kadar yaklaşılabilir?", cevap: "Güvenli mesafe hat gerilimine göre değişir ve tesis/dağıtım şirketi prosedürüne tabidir. Belirsizlikte hat yetkilisinden yazılı mesafe veya kesinti talep edilmelidir." },
+                { soru: "Enerji tesisinde hangi platform sınıfı?", cevap: "Erişim yüksekliğine göre değişir; yüksek erişimde genellikle dizel/4x4 modeller kullanılır. Rüzgâr limiti ve iş izni çalışma öncesinde kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-silo-ve-tarim-tesisinde-yuksekte-calisma",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Silo ve Tarım Tesisinde Yüksekte Çalışma",
+            ozet: "Yem, gübre ve tarımsal depolama tesislerinde silo çevresi, elevatör ve depo işlerinde erişim. Toz, yükseklik ve engel koşullarında platform seçimi.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Bandırma'da silo ve tarım tesisinde yükseltici platformla çalışma",
+            tarih: "2026-05-19",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'nın tarımsal sanayisi silo, yem ve gübre tesisleriyle şekillenir. Silo çevresi ve elevatör işleri, yükseklik ve engel nedeniyle özel erişim gerektirir. Bu yazı bu işlerdeki platform seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Silo çevresi ve elevatör",
+                    paragraflar: [
+                        "Silo dış yüzeyi, elevatör ve bağlantı yapılarına erişim çoğu zaman engel aşmalıdır; eklemli veya teleskopik platform değerlendirilir. Yüksek silolarda teleskopiğin uzun erişimi öne çıkar.",
+                        "Toz yoğun ortamda günlük kontrolde filtre ve hareketli parçalara dikkat edilir.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve depo işleri",
+                    paragraflar: [
+                        "Tesis içi depo tavan ve raf işlerinde makaslı platform yeterli olabilir. Açık saha ve mıcır zeminde dizel modeller, taşıma kapasitesi doğrulanarak kullanılır.",
+                        "Mevsimsel yoğunluk (hasat dönemi) teslimat planını etkiler; erken planlama önerilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Silo dış yüzeyine nasıl erişilir?", cevap: "Silo çevresi genellikle engelli ve yüksektir; eklemli veya teleskopik platform değerlendirilir. Yüksek silolarda teleskopiğin uzun erişimi, engelli noktalarda eklemlinin bomu tercih edilir." },
+                { soru: "Tozlu ortamda ek önlem gerekir mi?", cevap: "Toz yoğun tarım tesislerinde günlük kontrolde filtre, hareketli parça ve elektrik bağlantılarına ek dikkat gösterilir; üretici bakım talimatı esastır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-gida-tesisinde-ic-mekan-platform-kullanimi",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Gıda Tesisinde İç Mekân Platform Kullanımı",
+            ozet: "Hijyen kuralları, sıfır emisyon ve iz bırakmayan lastikle gıda üretim tesislerinde yüksekte çalışma. Vardiya ve temizlik koşullarına uyum.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Bandırma gıda tesisinde elektrikli platformla iç mekân çalışması",
+            tarih: "2026-05-16",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'nın gıda üretim tesislerinde yüksekte çalışma, hijyen ve emisyon kurallarıyla iç içedir. Bu yazı, gıda tesislerinde iç mekân platform kullanımının inceliklerini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Sıfır emisyon ve hijyen",
+                    paragraflar: [
+                        "Gıda üretim alanlarında sıfır emisyon ve düşük gürültü nedeniyle elektrikli platformlar kullanılır; iz bırakmayan lastikler epoksi ve hijyenik zemine zarar vermez. Makinenin temizlik ve hijyen kurallarına uygunluğu talep dosyasına eklenir.",
+                        "Vardiya içinde çalışma mümkündür; çalışma bölgesi üretimden ayrılır.",
+                    ],
+                },
+                {
+                    baslik: "Tavan ve hat üstü işleri",
+                    paragraflar: [
+                        "Tavan tesisatı, aydınlatma, havalandırma ve hat üstü bakımda tam altından erişilen işlerde makaslı, engel aşmalı noktalarda eklemli değerlendirilir.",
+                        "Zeminin taşıma kapasitesi ve dilatasyon noktaları kontrol edilir; koridor ve kapı ölçüleri makineyle karşılaştırılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Gıda tesisinde vardiya sırasında çalışılabilir mi?", cevap: "Elektrikli platformlar sıfır emisyon ve düşük gürültüsüyle vardiya içinde çalışabilir; çalışma bölgesi üretimden ayrılır ve hijyen kurallarına uyulur." },
+                { soru: "Hangi lastik kullanılmalı?", cevap: "Epoksi ve hijyenik zeminlerde iz bırakmayan (beyaz) lastik tercih edilir; makinenin hijyen uygunluğu talep dosyasında belirtilir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-sepet-kapasitesi-ve-calisma-diyagrami",
+            kategori: "Ürün Rehberi",
+            baslik: "Bandırma'da Sepet Kapasitesi ve Çalışma Diyagramı",
+            ozet: "Azami değerler her konumda birlikte geçerli değildir. Çalışma diyagramı ve kalan sepet kapasitesini doğru okuma; Bandırma işlerinde uygulama.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Yükseltici platform sepetinde personel ve malzeme yükü",
+            tarih: "2026-05-13",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'da manlift kiralarken teklifte yalnız yükseklik yazması yeterli değildir; azami erişim ve azami yük çoğu zaman aynı anda kullanılamaz. Bu yazı, çalışma diyagramını ve kalan kapasiteyi doğru okumayı anlatır.",
+            bolumler: [
+                {
+                    baslik: "Çalışma diyagramı",
+                    paragraflar: [
+                        "Çalışma diyagramı, bomun ulaşabildiği her nokta için izin verilen sepet yükünü gösterir; erişim uzadıkça izin verilen yük düşer. Bu yüzden hedef konumdaki kalan kapasite, işin en zorlu noktasına göre kontrol edilir.",
+                        "Model belli değilse teklifte performans aralığı ve kabul kriterleri tanımlanır.",
+                    ],
+                },
+                {
+                    baslik: "Sepet yükünü hesaplamak",
+                    paragraflar: [
+                        "Sepet yükü personel + el aleti + malzemedir; geniş yüzeyli malzeme ayrıca rüzgâr etkisini artırır. En yüksek + en uzak + en ağır kombinasyonu belirlenir ve seçilen modelin çalışma zarfı içinde kaldığı teknik föyden teyit edilir.",
+                        "Payı büyük makineyle değil, doğru modelle bırakmak gerekir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Neden azami yükseklik ve erişim birlikte kullanılamıyor?", cevap: "Bom uzadıkça denge ve yapısal sınırlar nedeniyle izin verilen yük ve erişim değişir. Çalışma diyagramı her konum için izin verilen değeri gösterir." },
+                { soru: "Kalan kapasiteyi nasıl öğrenirim?", cevap: "Seçilen modelin çalışma diyagramından, işin hedef noktasındaki değeri okunur; model belli değilse kabul kriterleri tanımlanıp sevkten önce teyit edilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-manlift-nakliye-ve-sevkiyat-planlamasi",
+            kategori: "Maliyet",
+            baslik: "Bandırma'da Manlift Nakliye ve Sevkiyat Planlaması",
+            ozet: "Bölgesel rota, tesis kabul saati, indirme alanı ve nakliye ölçüsü. Bandırma ve çevresinde sevkiyatta sık yapılan hatalar.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Bandırma'da manlift teslimatı ve sevkiyat hazırlığı",
+            tarih: "2026-05-10",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'da manlift sevkiyatı, bölgesel mesafe ve saha koşullarıyla planlanır. Yanlış planlanmış bir teslimat, makinenin sahaya girememesi gibi pahalı hatalara yol açar. Bu yazı, sevkiyat planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Rota ve saha kabulü",
+                    paragraflar: [
+                        "Nakliye; çıkış noktası ile Bandırma merkez, Erdek, Gönen veya Biga arasındaki mesafe, güzergâh, tesis kabul saati ve indirme alanına göre planlanır. Nakliye aracının tesis kapısından dönüşü ve boşaltma alanının uygunluğu önceden sorulur.",
+                        "Liman/tersane sahalarında kantar, güvenlik kapısı ve randevu süreçleri de plana girer.",
+                    ],
+                },
+                {
+                    baslik: "Nakliye ölçüsü ≠ çalışma ölçüsü",
+                    paragraflar: [
+                        "Makinenin nakliye konumundaki ölçüsü çalışma konumundan farklı olabilir; korkuluk katlama ve bom konumu değiştirir. Kapı, koridor, rampa ve dönüş cebi taşıma ölçüleriyle karşılaştırılır.",
+                        "Uzak veya özel rotada dönüş bildirim süresi de plana ve fiyata girer; nakliye sorumluluğu yazılı teklifte belirtilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Erdek/Gönen/Biga teslimatı nasıl planlanır?", cevap: "Mesafe, güzergâh, kabul saati ve indirme alanı önceden teyit edilir; sezon trafiği ve tesis randevusu plana eklenir. Nakliye ücreti ve sorumluluğu yazılı teklifte yer alır." },
+                { soru: "Makine sahaya sığmazsa?", cevap: "Bu yüzden nakliye ölçüsü (katlı korkuluk, bom konumu) kapı-koridor-rampa ölçüleriyle önceden karşılaştırılır. Doğru ölçü paylaşımı pahalı hataları önler." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
