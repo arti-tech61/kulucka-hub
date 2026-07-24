@@ -1070,6 +1070,107 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
         },
     ],
+    "bandirmamanlift.net": [
+        {
+            slug: "bandirmada-liman-ve-tersane-isinde-yuksekte-calisma",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Liman ve Tersane İşlerinde Yüksekte Çalışma",
+            ozet: "Bandırma Limanı, tersane ve enerji tesislerinde manlift ihtiyacı: rüzgâr alan açık saha, yoğun araç trafiği ve liman betonu koşullarında doğru platform seçimi.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Bandırma liman ve tersane sahasında yükseltici platformla yüksekte çalışma",
+            tarih: "2026-07-20",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Bandırma'nın sanayi dokusu limanı, tersanesi ve enerji tesisleriyle şekillenir. Bu sahalarda yüksekte çalışma; rüzgâr, yoğun araç trafiği ve liman zemini gibi kendine özgü koşullar getirir. Bu yazı, Bandırma ve çevresindeki liman-tersane işlerinde manlift (personel yükseltici) seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Liman sahasının koşulları",
+                    paragraflar: [
+                        "Bandırma Limanı ve çevresindeki depo, silo ve ekipman bakımı işlerinde açık saha rüzgârı ile yoğun araç trafiği aynı çalışma planında bulunur. Rüzgâr alan açık sahada rüzgâr limiti makineye özgüdür ve erişim yükseldikçe önem kazanır; kantar geçişi, vardiya kapısı ve nakliye aracının bekleme noktası da plana girer.",
+                        "Liman betonu genellikle taşıyıcıdır, ancak mıcır saha, rampa ve yağış sonrası yumuşayabilen açık stok alanı zemin açısından ayrı değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Tersane ve enerji tesisi işleri",
+                    paragraflar: [
+                        "Tersane çelik montajı, silo çevresi ve tesis üst yapı kontrolleri çoğu zaman engel aşan erişim gerektirir; makaslı tam altına giremediğinde eklemli veya teleskopik platform değerlendirilir. Enerji ve fabrika bakım duruşları belirli zaman pencereleriyle sınırlıdır, makine bu pencereye göre planlanır.",
+                        "Rüzgâr santrali ve liman gibi özel sahalarda istenen makine evrakı, operatör yeterliliği ve giriş prosedürü teklif öncesinde karşılıklı doğrulanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Bandırma'da liman işleri için hangi platform gerekir?", cevap: "İş engel aşmadan, tam altından erişiliyorsa makaslı; boru, silo veya ekipman engelinin arkasına erişim gerekiyorsa eklemli/teleskopik değerlendirilir. Açık sahada rüzgâr limiti çalışma öncesinde kontrol edilir." },
+                { soru: "Liman sahasında rüzgâr çalışmayı durdurur mu?", cevap: "Rüzgâr limiti makineye ve erişim yüksekliğine göre değişir; sınır aşıldığında iş durdurulur. Bandırma gibi rüzgâra açık sahalarda durdurma kriteri iş başlamadan yazılmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirma-fabrika-bakim-durusunda-platform-planlamasi",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma Fabrika Bakım Duruşunda Platform Planlaması",
+            ozet: "Gıda, gübre ve enerji tesislerinde planlı bakım duruşları için zaman penceresine uygun makine, erişim ve iş izni planlaması.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Bandırma fabrika bakım duruşunda yükseltici platformla tesisat işi",
+            tarih: "2026-07-18",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma ve çevresindeki fabrikalarda bakım işleri çoğunlukla planlı duruş pencerelerinde yapılır. Bu pencere dar ve kesindir; yanlış makine veya eksik izin, tüm bakım programını geciktirir. Bu yazı, bakım duruşu için platform planlamasını anlatır.",
+            bolumler: [
+                {
+                    baslik: "Zaman penceresine göre makine",
+                    paragraflar: [
+                        "Bakım duruşu belirli saatlerle sınırlıdır; makine sınıfı, teslimat ve kurulum bu pencereye göre planlanır. Üretim hattı üstü, baca, kanal ve depo rafı işlerinde erişim geometrisi (engel var mı, ne kadar yatay uzaklık) makine sınıfını belirler.",
+                        "Birden çok çalışma noktası varsa tek makineyle mi yoksa kombine kiralamayla mı ilerleneceği baştan planlanır; bu, duruş süresini kısaltır.",
+                    ],
+                },
+                {
+                    baslik: "İş izni ve saha kuralları",
+                    paragraflar: [
+                        "Gıda, gübre ve enerji tesisleri iş izni, gaz ölçümü ve giriş prosedürü işletir. Emisyon kısıtı olan alanlarda elektrikli, açık saha ve zorlu zeminde dizel modeller değerlendirilir.",
+                        "Makine evrakı, operatör yeterliliği ve istenen belgeler teklif öncesinde tesisle karşılıklı doğrulanır; eksik evrak sahada iş açılmasını geciktirir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Bakım duruşu için ne kadar önceden planlanmalı?", cevap: "Makine sınıfı, teslimat ve iş izni süreçleri duruş penceresinden önce netleştirilmelidir. Erken planlama ve net saha bilgisi, dar bakım penceresinde iş kaybını önler." },
+                { soru: "Tek makineyle birden çok iş yapılabilir mi?", cevap: "Çalışma noktalarının geometrisine bağlıdır; farklı erişim gerektiren noktalarda kombine kiralama (birden çok sınıf) duruş süresini kısaltabilir. Plan saha bilgisine göre yapılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "manlift-kiralama-nedir-hangi-makineleri-kapsar",
+            kategori: "Ürün Rehberi",
+            baslik: "Manlift Kiralama Nedir, Hangi Makineleri Kapsar?",
+            ozet: "'Manlift' bir personel yükseltici genel adıdır: makaslı, eklemli ve teleskopik platformları kapsar. Bandırma'da hangi iş için hangisi seçilir?",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Personel yükseltici platform (manlift) ile yüksekte çalışma",
+            tarih: "2026-07-15",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "'Manlift' terimi sahada sık kullanılır ama tek bir makineyi değil, personel yükseltici platformların genelini anlatır. Doğru kiralama için hangi makine sınıfının ne işe uygun olduğunu bilmek gerekir. Bu yazı manlift kapsamını ve seçim ölçütünü açıklar.",
+            bolumler: [
+                {
+                    baslik: "Manlift kapsamındaki makineler",
+                    paragraflar: [
+                        "Manlift, personeli korkuluklu bir sepette yükselten makinelerin genel adıdır ve makaslı platform, eklemli platform ile teleskopik platformu kapsar. Bunlara dikey personel yükseltici de eklenebilir. Her biri farklı bir erişim geometrisi için tasarlanmıştır.",
+                        "Makaslı dikey erişim, eklemli engel aşma, teleskopik açık doğrultuda uzun erişim içindir. 'Manlift kiralayacağım' demek, önce işin geometrisini tarif etmeyi gerektirir.",
+                    ],
+                },
+                {
+                    baslik: "Bandırma'da doğru seçim",
+                    paragraflar: [
+                        "Bandırma'nın liman, tersane, fabrika ve enerji işlerinde bu sınıfların hepsi kullanılır: depo tavan işi makaslıyla, silo çevresi engel aşmalı erişim eklemliyle, yüksek ve uzak nokta teleskopikle yürür.",
+                        "Doğru sınıf; çalışma yüksekliği, yatay erişim, engel ve zemin bilgisiyle seçilir. Kesin model güncel uygunluk kontrolünden sonra yazılı teklifte belirlenir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Manlift ile personel yükseltici aynı şey mi?", cevap: "Evet; manlift, personel yükseltici platformların sahada kullanılan genel adıdır ve makaslı, eklemli, teleskopik platformları kapsar. Forklift ve telehandler bu kapsamda değildir." },
+                { soru: "Bandırma'da hangi manlift türü daha çok kullanılır?", cevap: "İşe göre değişir: depo/tavan işlerinde makaslı, silo ve ekipman arkası erişimde eklemli, yüksek/uzak noktalarda teleskopik. Seçim işin geometrisine göre yapılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+    ],
 };
 
 export function hostBloglari(host: string): BlogYazisi[] {
