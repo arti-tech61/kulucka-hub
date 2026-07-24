@@ -6,6 +6,7 @@ import { aydinTema } from "./aydin";
 import { platformmanisaTema } from "./platformmanisa";
 import { manisaforkliftTema } from "./manisaforklift";
 import { izmirforkliftTema } from "./izmirforklift";
+import { eklemliTema } from "./eklemli";
 import { kutahyaTema } from "./kutahya";
 import { bilecikTema } from "./bilecik";
 import { bozuyukTema } from "./bozuyuk";
@@ -17,6 +18,7 @@ const TEMALAR: Record<string, TemaModulu> = {
     "platformmanisa.com": platformmanisaTema,
     "manisaforklift.com": manisaforkliftTema,
     "izmirforkliftkiralama.net": izmirforkliftTema,
+    "eklemliplatform.com.tr": eklemliTema,
     "kutahyaplatform.com": kutahyaTema,
     "bilecikplatform.com": bilecikTema,
     "bozuyukplatform.com.tr": bozuyukTema,
