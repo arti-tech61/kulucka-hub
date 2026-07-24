@@ -4466,6 +4466,93 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
     ],
+    "bilecikplatform.com": [
+        {
+            slug: "bilecikte-seramik-ve-metal-tesisinde-yuksekte-calisma",
+            kategori: "Şehir & Sektör", baslik: "Bilecik'te Seramik ve Metal Tesisinde Yüksekte Çalışma",
+            ozet: "Seramik fabrikaları ve metal işleme tesislerinde hat üstü bakım, baca ve depo işlerinde platform. Bilecik ve Bozüyük sanayisine özgü.",
+            gorsel: blogGorsel.tesisat, gorselAlt: "Bilecik seramik ve metal tesisinde yükseltici platformla çalışma",
+            tarih: "2026-07-20", guncelleme: "2026-07-24", okuma: 5,
+            giris: "Bilecik'in sanayisi seramik fabrikaları ve metal işleme tesisleriyle şekillenir. Bu tesislerde yüksekte çalışma; ısı, toz ve engelli erişim koşulları getirir. Bu yazı, Bilecik ve Bozüyük sanayisinde platform seçimini ele alır.",
+            bolumler: [
+                { baslik: "Hat üstü ve baca işleri", paragraflar: ["Üretim hattı üstü bakım, baca ve kanal kontrolü, depo rafı ve dış cephe işleri farklı erişim gerektirir. Engel aşmalı noktalarda eklemli, açık ve uzak noktalarda teleskopik, tam altından erişilen işlerde makaslı değerlendirilir.", "Üretim kesintisi penceresine uygun makine ve iş izni önceden planlanır."] },
+                { baslik: "Zemin ve emisyon", paragraflar: ["Seramik ve metal tesisinde fabrika betonu, epoksi ve açık stok alanı farklı davranış gösterir. Emisyon kısıtlı bölgelerde elektrikli, açık sahada dizel modeller değerlendirilir.", "Toz yoğun ortamda günlük kontrolde filtreye dikkat edilir."] },
+            ],
+            sss: [
+                { soru: "Seramik/metal tesisinde hangi platform?", cevap: "Tam altından erişilen işlerde makaslı; baca, kanal veya ekipman arkası erişimde eklemli/teleskopik değerlendirilir. Isı, toz ve geçiş ölçüsü seçimi belirler." },
+                { soru: "Bakım duruşu için ne kadar önce planlanmalı?", cevap: "Makine sınıfı, teslimat ve iş izni duruş penceresinden önce netleştirilmelidir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bozuyuk-ve-bilecik-osb-de-platform-planlamasi",
+            kategori: "Şehir & Sektör", baslik: "Bozüyük ve Bilecik OSB'de Platform Planlaması",
+            ozet: "OSB tesislerinde bakım duruşu, geçiş ölçüleri ve iş izni. Bozüyük, Osmaneli ve Söğüt hattında platform planlaması.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Bozüyük OSB sahasında yükseltici platformla çalışma",
+            tarih: "2026-07-17", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in Bozüyük, Osmaneli ve Söğüt hattındaki OSB tesislerinde yüksekte çalışma planlı yürür. Bu yazı OSB'de platform planlamasını ele alır.",
+            bolumler: [
+                { baslik: "Bakım penceresi ve geçiş", paragraflar: ["Bakım duruşu belirli saatlerle sınırlıdır; makine, geçiş ölçüleri ve iş izni bu pencereye göre planlanır. Hatlar arası net genişlik, kapı yüksekliği ve tavan kotu önceden ölçülür.", "Birden çok çalışma noktasında kombine kiralama duruş süresini kısaltır."] },
+                { baslik: "İş izni ve saha kuralı", paragraflar: ["OSB güvenlik kapısı, nakliye güzergâhı ve indirme rampası plana girer. Makine evrakı ve operatör yeterliliği teklif öncesinde doğrulanır.", "Emisyon kısıtlı alanda uygun güç kaynağı seçilir."] },
+            ],
+            sss: [
+                { soru: "OSB'de bakım için ne gerekir?", cevap: "Makine sınıfı, geçiş ölçüleri, iş izni ve nakliye planı duruş penceresinden önce netleştirilir; makine evrakı ve operatör yeterliliği doğrulanır." },
+                { soru: "Tek makineyle birden çok iş olur mu?", cevap: "Çalışma noktalarının geometrisine bağlıdır; farklı erişimde kombine kiralama duruş süresini kısaltabilir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-makasli-platform-ile-depo-ve-tesis-isleri",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Makaslı Platform ile Depo ve Tesis İşleri",
+            ozet: "Depo rafı, tavan aydınlatması ve tesisatta dikey erişim. Bilecik üretim tesislerinde makaslı platform kullanımı.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Bilecik tesisinde makaslı platformla depo ve tavan çalışması",
+            tarih: "2026-07-14", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki depo ve üretim tesislerinde iç mekân yüksekte çalışma çoğunlukla makaslı platformla yürür. Bu yazı bu işlerde makaslı kullanımını ele alır.",
+            bolumler: [
+                { baslik: "Makaslının tipik işleri", paragraflar: ["Depo tavanı, raf, aydınlatma ve düz cephe gibi tam altından erişilen işlerde makaslı platform ilk tercihtir. Kapalı alanda elektrikli modeller vardiya içinde çalışır.", "Engel aşma gereken noktalarda eklemli değerlendirilir."] },
+                { baslik: "Zemin ve koridor", paragraflar: ["Fabrika betonu ve seramik kaplı bölüm farklı davranış gösterir; mazgal ve dilatasyon değerlendirilir. Koridor ve kapı ölçüsü makineyle karşılaştırılır.", "Hassas zeminde iz bırakmayan lastik kullanılır."] },
+            ],
+            sss: [
+                { soru: "Depo tavanı için hangi platform?", cevap: "Tam altından erişilen tavan/raf işlerinde makaslı yeterlidir; kanal veya ekipman engelinin arkasında eklemli." },
+                { soru: "Seramik zeminde iz bırakır mı?", cevap: "İz bırakmayan lastik seçenekleriyle hassas zemin korunur; gerekirse koruyucu levha kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-platform-kiralama-fiyatini-etkileyen-unsurlar",
+            kategori: "Maliyet", baslik: "Bilecik'te Platform Kiralama Fiyatını Etkileyen Unsurlar",
+            ozet: "Makine sınıfı, süre, nakliye (Bozüyük, Osmaneli, Söğüt), operatör ve saha koşulunun maliyete etkisi.",
+            gorsel: blogGorsel.makinePark, gorselAlt: "Bilecik bölgesinde kiralamaya hazır platformlar",
+            tarih: "2026-07-11", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te platform kiralama fiyatı tek bir günlük ücret değildir; makine sınıfı, süre, bölgesel nakliye ve saha koşulunun kesişiminde oluşur.",
+            bolumler: [
+                { baslik: "Sınıf, süre ve nakliye", paragraflar: ["Erişim sınıfı ve yükseklik fiyatın ilk belirleyenidir. Nakliye; Bilecik merkez, Bozüyük, Osmaneli ve Söğüt hattındaki mesafe ve rotaya göre değişir.", "Nakliye sorumluluğu ve ücreti yazılı teklifte belirtilir."] },
+                { baslik: "Operatör ve saha", paragraflar: ["Operatörlü/operatörsüz kiralama farklı fiyatlanır. Seramik/metal tesisi gibi sahalarda istenen evrak ve giriş prosedürü kapsamı etkiler.", "Kesin stok/fiyat/teslimat sözü verilmez; uygunluk yazılı teklifte kesinleşir."] },
+            ],
+            sss: [
+                { soru: "Bozüyük/Söğüt teslimatı fiyatı değişir mi?", cevap: "Evet; nakliye bölgesel mesafe ve güzergâha göre değişir. Çıkış noktası, adres ve ücret yazılı teklifte belirtilir." },
+                { soru: "Fiyat neden peşin liste değil?", cevap: "Fiyat; sınıf, süre, nakliye ve saha koşulunun kesişiminde oluşur; değişkenler görülmeden verilen liste fiyatı yanıltıcıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-cephe-ve-cati-isinde-platform-secimi",
+            kategori: "Şehir & Sektör", baslik: "Bilecik'te Cephe ve Çatı İşinde Platform Seçimi",
+            ozet: "Fabrika ve kamu binası cephe/çatı işlerinde engel aşan erişim. Bilecik'te saçak, peyzaj ve yükseklik koşullarında doğru sınıf.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Bilecik'te cephe ve çatı işinde yükseltici platform",
+            tarih: "2026-07-08", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki fabrika ve konut cephelerinde çatı, saçak ve kaplama işleri çoğu zaman engel aşan erişim gerektirir. Bu yazı cephe ve çatı işlerinde platform seçimini ele alır.",
+            bolumler: [
+                { baslik: "Cephe önü engelli mi?", paragraflar: ["Cephe önünde saçak, boru veya çıkıntı varsa eklemli platformun engel aşan bomu gerekir; düz cephede makaslı yeterli olabilir. Yüksek/uzak noktada teleskopik.", "Aynı projede farklı sınıf gerekebilir."] },
+                { baslik: "Zemin ve kış", paragraflar: ["Açık cephede rüzgâr limiti makineye özgüdür; zemin kapasitesi kontrol edilir. Bilecik'in soğuk kışında buzlanma ve düşük sıcaklık ek önlem gerektirir.", "Faaliyet süren binalarda alan ayrılır."] },
+            ],
+            sss: [
+                { soru: "Fabrika cephesi için hangi platform?", cevap: "Cephe önü açıksa makaslı, engel varsa eklemli, yüksek/uzak noktada teleskopik. Rüzgâr çalışma öncesinde kontrol edilir." },
+                { soru: "Kışın cephe işi olur mu?", cevap: "Buzlanma, rüzgâr ve düşük sıcaklık ek önlem gerektirir; zemin kontrolü ve durdurma kriterleri baştan belirlenir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+    ],
 };
 
 export function hostBloglari(host: string): BlogYazisi[] {
