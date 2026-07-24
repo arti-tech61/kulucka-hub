@@ -6,6 +6,8 @@ import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { HaberAnaSayfa } from "@/components/haber-sitesi";
 import { TicariCerceve, TicariGorsel, TicariTeklif } from "@/components/ticari-cerceve";
+import { GaEtiketi } from "@/components/ga";
+import { ozelTemaVar, OzelTema } from "@/components/temalar";
 
 export const dynamic = "force-dynamic";
 
@@ -110,6 +112,18 @@ export default async function Sayfa() {
         email: site.eposta,
         parentOrganization: { "@type": "Organization", name: site.anaSite.ad, url: site.anaSite.url },
     };
+
+    // Host'a özel Stitch teması varsa varsayılan çerçeve yerine onu kullan.
+    if (ozelTemaVar(host)) {
+        return (
+            <>
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+                <GaEtiketi gaId={site.gaId} />
+                <OzelTema host={host} site={site} />
+            </>
+        );
+    }
+
     return (
         <TicariCerceve site={site}>
         <main>
