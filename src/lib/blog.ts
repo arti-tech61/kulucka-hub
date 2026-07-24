@@ -4552,6 +4552,74 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "bilecikte-elektrikli-mi-dizel-mi-platform-secimi",
+            kategori: "Karşılaştırma", baslik: "Bilecik'te Elektrikli mi, Dizel mi Platform?",
+            ozet: "Kapalı seramik/metal tesisi işinde elektrikli, açık saha ve OSB dışında dizel. Bilecik koşullarında güç kaynağı seçimi.",
+            gorsel: blogGorsel.depo, gorselAlt: "Bilecik'te elektrikli ve dizel platform seçimi",
+            tarih: "2026-07-05", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te güç kaynağı seçimi çalışma ortamına göre değişir: kapalı seramik ve metal tesisinde elektrikli, açık saha ve OSB dışında dizel. Bu yazı bu seçimi ele alır.",
+            bolumler: [
+                { baslik: "Kapalı alan: elektrikli", paragraflar: ["Kapalı tesis ve depoda sıfır emisyon ve düşük gürültü nedeniyle elektrikli modeller kullanılır; iz bırakmayan lastik hassas zemine zarar vermez. Şarj altyapısı baştan kurulur.", "Kışın akü performansı düşer, vardiya buna göre planlanır."] },
+                { baslik: "Açık saha: dizel", paragraflar: ["Açık saha, eğim ve gevşek zeminde dizel modeller 4x4 çekişle güvenilirdir; yakıt ikmali hızlıdır. Kapalı alanda egzoz nedeniyle kullanılmaz.", "Doğru güç kaynağı saha koşuluna göre seçilir."] },
+            ],
+            sss: [
+                { soru: "Seramik tesisinde dizel olur mu?", cevap: "Kapalı ve emisyona duyarlı alanda elektrikli modeller tercih edilir; dizel açık saha içindir." },
+                { soru: "Açık sahada elektrikli çalışır mı?", cevap: "Kısa ve düz zeminde mümkün; açık, eğimli ve rüzgârlı sahada dizel daha güvenilirdir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-teleskopik-platform-ile-yuksek-erisim",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Teleskopik Platform ile Yüksek Erişim",
+            ozet: "Yüksek yapı, silo ve baca işlerinde açık doğrultuda uzun yatay erişim. Teleskopik platformun kullanım alanları.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Bilecik'te yüksek erişim için teleskopik platformla çalışma",
+            tarih: "2026-07-02", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in sanayi sahalarında bazı işler hem yüksek hem uzak noktaya erişim gerektirir; bu noktada teleskopik platform öne çıkar. Bu yazı kullanım alanlarını anlatır.",
+            bolumler: [
+                { baslik: "Ne zaman teleskopik?", paragraflar: ["Teleskopik bom tek doğrultuda uzar; aynı yükseklik sınıfında en uzun yatay erişimi verir. Yüksek cephe, silo ve makineyi işin uzağına kurmak gereken işlerde doğrudur.", "Engel aşamaz; bomun önünde yapı varsa eklemliye dönülür."] },
+                { baslik: "Açık saha koşulları", paragraflar: ["Yüksek erişim genellikle dizel/4x4 ile karşılanır; eğim, zemin ve rüzgâr belirleyicidir.", "Zemin kapasitesi doğrulanmadan yükseltilmez."] },
+            ],
+            sss: [
+                { soru: "Teleskopik ve eklemli farkı?", cevap: "Arada engel varsa eklemli, engel yok ama nokta uzaktaysa teleskopik." },
+                { soru: "Teleskopik rüzgârdan etkilenir mi?", cevap: "Uzayan bom rüzgâr etkisini artırır; limit makineye özgüdür ve yüksek erişimde önem kazanır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-yuksekte-calisma-guvenligi-temel-kurallar",
+            kategori: "Güvenlik", baslik: "Bilecik'te Yüksekte Çalışma Güvenliği: Temel Kurallar",
+            ozet: "Zemin, rüzgâr, alan izolasyonu ve kurtarma planı. Bilecik seramik ve metal tesislerinde güvenli çalışma.",
+            gorsel: blogGorsel.tesisat, gorselAlt: "Bilecik'te güvenli yüksekte çalışma düzeni",
+            tarih: "2026-06-29", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki seramik ve metal tesislerinde yüksekte çalışma güvenliği makine seçilmeden önce planlanır. Bu yazı temel başlıkları özetler.",
+            bolumler: [
+                { baslik: "Zemin, kurulum ve rüzgâr", paragraflar: ["Zeminin taşıma kapasitesi ve eğimi kontrol edilir; denge göstergesi doğrulanmadan yükseltilmez. Açık sahada rüzgâr limiti makineye özgüdür.", "Eklemli/teleskopikte fırlama riskine karşı bağlantı sistemi kullanılır."] },
+                { baslik: "Alan izolasyonu ve kurtarma", paragraflar: ["Makinenin altı ve devrilme zarfı ayrılır; gözcü planlanır. Vardiya öncesi kontrol her çalışmadan önce yapılır.", "Her yüksekte çalışma için kurtarma planı gerekir."] },
+            ],
+            sss: [
+                { soru: "Platform hangi zeminde yükseltilmez?", cevap: "Taşıma kapasitesi doğrulanmamış, eğimli veya altında boşluk bulunan zeminde denge teyit edilmeden yükseltilmez." },
+                { soru: "Kurtarma planı zorunlu mu?", cevap: "Yüksekte çalışma riski taşıyan her sahada hızlı müdahale yöntemi önceden planlanmış olmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-operatorlu-platform-kiralama-ne-zaman-gerekir",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Operatörlü Platform Kiralama Ne Zaman Gerekir?",
+            ozet: "Tesis ve saha işlerinde operatörlü mü operatörsüz mü? Yetkinlik, belge ve saha oryantasyonu açısından karar.",
+            gorsel: blogGorsel.makinePark, gorselAlt: "Bilecik'te operatörlü kiralamaya hazır platformlar",
+            tarih: "2026-06-26", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki tesis ve saha işlerinde operatör kararı hem güvenliği hem maliyeti etkiler. Bu yazı operatörlü/operatörsüz kiralama farkını anlatır.",
+            bolumler: [
+                { baslik: "Operatörlü kiralama", paragraflar: ["Kısa süreli veya kendi ekibinizde yetkin operatör bulunmayan işlerde operatörlü kiralama pratik olur; tesis sahalarında saha oryantasyonu kapsama girer.", "Vardiya ve fazla çalışma teklifte görülür."] },
+                { baslik: "Operatörsüz ve belge", paragraflar: ["Operatörsüz kiralamada kullanıcının yetkinliği ve teslim eğitimi önem kazanır. Belge gerekliliği görev, ekipman sınıfı, işveren prosedürü ve mevzuata göre belirlenir.", "Uzun projede kendi ekibinizle operatörsüz ekonomik olabilir."] },
+            ],
+            sss: [
+                { soru: "Tesiste operatörlü şart mı?", cevap: "Şart değildir ama saha kurallarını tanıyan operatörle çalışmak güvenliği artırır. Kendi yetkin ekibiniz varsa operatörsüz de olabilir." },
+                { soru: "Operatör belgesi nasıl belirlenir?", cevap: "Görev, ekipman sınıfı, işveren prosedürü ve mevzuata göre belirlenir; kesin şartlar resmî kaynaklardan doğrulanır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
