@@ -607,6 +607,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
         },
+        {
+            slug: "eklemli-platform-sepet-kapasitesi-ve-calisma-diyagrami",
+            kategori: "Ürün Rehberi",
+            baslik: "Sepet Kapasitesi ve Çalışma Diyagramı: Katalog Değerini Doğru Okumak",
+            ozet: "Eklemli platformda azami değerler her konumda birlikte geçerli değildir. Çalışma diyagramı, kalan sepet kapasitesi ve erişim zarfını okuma rehberi.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Çelik montaj sahasında yükseltici platform sepetinde personel ve malzeme",
+            tarih: "2026-07-07",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Eklemli platform kiralarken teklifte 'yirmi metre' yazması yeterli değildir. Katalogdaki azami yükseklik, azami erişim ve azami sepet yükü çoğu zaman aynı anda kullanılamaz. Bu yazı, çalışma diyagramını ve kalan kapasiteyi doğru okumayı anlatır.",
+            bolumler: [
+                {
+                    baslik: "Çalışma diyagramı nedir?",
+                    paragraflar: [
+                        "Çalışma diyagramı, bomun ulaşabildiği her nokta için izin verilen sepet yükünü gösteren bir haritadır. Erişim uzadıkça veya yükseldikçe izin verilen yük düşer; makine belirli bölgelerde tam kapasiteye, uç noktalarda daha düşük kapasiteye izin verir.",
+                        "Bu yüzden 'bu makine 20 metre yana ulaşır' ifadesi, diyagramdaki ilgili nokta okunmadan bağlayıcı sayılmaz. Hedef konumdaki kalan kapasite, işin en zorlu noktasına göre kontrol edilir.",
+                    ],
+                },
+                {
+                    baslik: "Sepet yükünü doğru hesaplamak",
+                    paragraflar: [
+                        "Sepet yükü yalnız personel değildir: el aletleri, bağlantı elemanları, malzeme ve varsa levha/pano birlikte hesaplanır. Geniş yüzeyli malzeme ayrıca rüzgâr etkisini artırır.",
+                        "İşin gerektirdiği en yüksek + en uzak + en ağır kombinasyonu belirlenir ve bu noktanın seçilen modelin çalışma zarfı içinde kaldığı teknik föyden teyit edilir. Payı büyük makineyle değil, doğru modelle bırakmak gerekir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Neden azami yükseklik ve azami erişim aynı anda kullanılamıyor?", cevap: "Bom uzadıkça denge ve yapısal sınırlar nedeniyle izin verilen yük ve erişim değişir. Çalışma diyagramı her konum için izin verilen değeri gösterir; katalog başlığındaki azami değerler uç durumları temsil eder." },
+                { soru: "Kalan sepet kapasitesini nasıl öğrenirim?", cevap: "Seçilen modelin çalışma diyagramından, işin hedef noktasındaki değeri okunur. Model belli değilse teklifte performans aralığı ve kabul kriterleri tanımlanır; sevkten önce önerilen modelin verileri bu kriterlerle karşılaştırılır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "boru-koprusu-ve-proses-tesisi-erisiminde-eklemli-platform",
+            kategori: "Şehir & Sektör",
+            baslik: "Boru Köprüsü ve Proses Tesisi Erişiminde Eklemli Platform",
+            ozet: "Petrokimya, rafineri ve proses tesislerinde boru hatları, köprüler ve ekipman arasından erişim. Engel aşan bom yapısının kritik olduğu işler ve saha izin süreçleri.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Proses tesisinde boru ve ekipman arasından yükseltici platformla erişim",
+            tarih: "2026-07-06",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Proses tesisleri, boru köprüleri ve yoğun ekipmanla dolu sahalar, eklemli platformun en ayırt edici olduğu ortamlardır. Çalışma noktası çoğu zaman boru, kablo tavası veya ekipman engelinin arkasındadır; buraya ancak engel aşan bir bomla erişilir.",
+            bolumler: [
+                {
+                    baslik: "Engel aşan erişimin kritik olduğu saha",
+                    paragraflar: [
+                        "Petrokimya, rafineri ve enerji üretim tesislerinde çalışma noktaları genellikle boru hatları, köprüler ve proses ekipmanının arkasındadır. Eklemli platformun kırılan bomu, makineyi engelin yanına koyup sepeti engelin üzerinden veya arkasına konumlamaya izin verir.",
+                        "Dar geçişler ve yoğun ekipman nedeniyle kurulum alanı sınırlıdır; eklemlinin kompakt kurulumu ve dönebilen kulesi bu sahalarda avantaj sağlar.",
+                    ],
+                },
+                {
+                    baslik: "İzin süreçleri ve saha kuralları",
+                    paragraflar: [
+                        "Bu tesisler çoğunlukla sıcak iş izni, gaz ölçümü ve çalışma izni (permit-to-work) sistemi işletir. Makine sınıfı, operatör yeterliliği ve giriş prosedürü teklif öncesinde karşılıklı doğrulanır.",
+                        "Emisyon kısıtı olan bölgelerde güç kaynağı ve makine sınıfı bu kurallara göre seçilir; bazı sahalarda özel emisyon veya kıvılcım önleyici şart aranabilir. Bu koşullar talep dosyasına eklenmelidir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Proses tesisinde neden eklemli platform tercih edilir?", cevap: "Çalışma noktaları genellikle boru, köprü ve ekipman engelinin arkasında olduğundan, engel aşan bom yapısı gerekir. Makaslı tam altına giremez, teleskopik ise düz bomuyla engeli aşamaz." },
+                { soru: "Tesis giriş izinleri için ne gerekir?", cevap: "Sıcak iş izni, gaz ölçümü ve çalışma izni gibi süreçler tesise göre değişir. Makine evrakı, operatör yeterliliği ve giriş prosedürü teklif öncesinde tesisle karşılıklı doğrulanır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "otel-ve-kamu-binasi-cephe-bakiminda-erisim",
+            kategori: "Şehir & Sektör",
+            baslik: "Otel ve Kamu Binası Cephe Bakımında Erişim",
+            ozet: "Cephe temizliği, boya, tabela ve aydınlatma bakımında peyzaj ve mimari engellerin üzerinden erişim. Faaliyet sürerken güvenli çalışma planı.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Bina cephesine yükseltici platformla erişim ve bakım çalışması",
+            tarih: "2026-07-05",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Otel ve kamu binalarının cephe bakımı; peyzaj, saçak, balkon ve mimari çıkıntılar nedeniyle çoğu zaman engel aşan erişim gerektirir. Ayrıca bu binalar bakım sırasında da faaliyettedir. Bu yazı, bu koşullarda platform seçimini ve çalışma planını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Peyzaj ve mimari engeller",
+                    paragraflar: [
+                        "Otel cephelerinde havuz, bahçe, saçak ve balkon gibi engeller cephenin önünü kapatır. Eklemli platform, makineyi peyzajın kenarına koyup sepeti cephenin önüne, engelin üzerinden ulaştırır; bu, makaslının yapamadığı bir erişimdir.",
+                        "Hassas peyzaj ve bitmiş yüzeylerde iz bırakmayan lastik ve koruyucu levha kullanılır; zeminin taşıma kapasitesi (özellikle havuz çevresi ve döşeme üstü) kontrol edilir.",
+                    ],
+                },
+                {
+                    baslik: "Faaliyet sürerken çalışma",
+                    paragraflar: [
+                        "Otel ve kamu binaları bakım sırasında misafir ve ziyaretçi trafiğine açıktır. Çalışma alanı bariyerle ayrılır, gerektiğinde sezon dışı veya düşük yoğunluklu saatler planlanır, düşen malzemeye karşı alt alan korunur.",
+                        "Cephe yüksekliği, balkon-saçak derinliği ve yaklaşma alanı ölçülür; erişim geometrisine göre eklemli veya teleskopik sınıf değerlendirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Havuz çevresinde platform kullanmak güvenli mi?", cevap: "Havuz çevresi kaplamasının taşıma kapasitesi ve altındaki yapı kontrol edilmeden karar verilmez. Kapasite belirsizse yapı yetkilisinin görüşü alınır; yük dağıtıcı plaka ve iz bırakmayan lastik değerlendirilir." },
+                { soru: "Otel faaliyetteyken cephe bakımı yapılabilir mi?", cevap: "Evet; çalışma alanı bariyerle ayrılır, alt alan korunur ve gerektiğinde düşük yoğunluklu saatler planlanır. Karar saha risk değerlendirmesine göre verilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "enerji-ve-ruzgar-santrali-bakiminda-eklemli-platform",
+            kategori: "Şehir & Sektör",
+            baslik: "Enerji ve Rüzgâr Santrali Bakımında Erişim",
+            ozet: "Enerji üretim tesisleri, trafo alanları ve yüksek yapılarda bakım erişimi. Enerji hatlarına yaklaşma sınırı, rüzgâr ve saha izinlerinin belirleyici olduğu işler.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Enerji tesisi sahasında yüksek erişim için yükseltici platform",
+            tarih: "2026-07-04",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Enerji üretim ve dağıtım tesisleri, hem yüksek erişim hem de özel güvenlik koşulları gerektirir. Enerji hatlarına yaklaşma sınırı, açık saha rüzgârı ve tesis giriş prosedürleri, makine seçimi kadar iş planını da belirler.",
+            bolumler: [
+                {
+                    baslik: "Enerji hatlarına yaklaşma sınırı",
+                    paragraflar: [
+                        "Enerjili hatların yakınında çalışırken hat gerilimine göre tanımlı bir güvenli yaklaşma mesafesi vardır. Bom hareket zarfı üç boyutludur; yandan güvenli görünen bir hat, bom uzayınca tehlike mesafesine girebilir.",
+                        "Güvenli mesafe sağlanamıyorsa, hat sahibinden kesinti veya izolasyon istenmeden iş açılmaz. Mesafe gözle değil, hat gerilimine göre tanımlı değerle değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Rüzgâr, saha izni ve makine sınıfı",
+                    paragraflar: [
+                        "Rüzgâr santrali ve açık enerji sahaları rüzgâra açıktır; rüzgâr limiti makineye ve erişim yüksekliğine göre değişir ve durdurma kriteri baştan yazılır. Yüksek erişim sınıfları (28-43 m) genellikle dizel ve 4x4 modellerle karşılanır.",
+                        "Bu tesisler çalışma izni, operatör yeterliliği ve giriş prosedürü ister; makine evrakı ve saha kuralları teklif öncesinde karşılıklı doğrulanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Enerji hattına ne kadar yaklaşılabilir?", cevap: "Güvenli yaklaşma mesafesi hat gerilimine göre değişir ve tesis/dağıtım şirketi prosedürüne tabidir. Belirsizlikte hat yetkilisinden yazılı mesafe veya kesinti talep edilmelidir." },
+                { soru: "Rüzgâr santralinde hangi sınıf platform gerekir?", cevap: "Erişim yüksekliğine göre değişir; yüksek erişim işlerinde genellikle dizel ve 4x4 modeller kullanılır. Rüzgâr limiti makineye özgüdür ve çalışma öncesinde kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platformda-sarkma-travmasi-ve-kurtarma-plani",
+            kategori: "Güvenlik",
+            baslik: "Sarkma Travması ve Kurtarma Planı: Düşme Sonrası Gözden Kaçan Risk",
+            ozet: "Kemerle düşmeyi durdurmak yalnız ilk adımdır. Asılı kalma dakikalar içinde hayati risk oluşturur; her yüksekte çalışma işi için kurtarma planı neden zorunlu?",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Yükseltici platformda güvenli çalışma ve kurtarma hazırlığı",
+            tarih: "2026-07-03",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bir çalışan emniyet kemeriyle düşmesini durdursa bile tehlike geçmiş sayılmaz. Hareketsiz asılı kalma, dakikalar içinde ciddi bir tıbbi risk olan sarkma travmasına yol açabilir. Bu yazı, riskin mekanizmasını ve kurtarma planının önemini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Asılı kalma neden tehlikeli?",
+                    paragraflar: [
+                        "Kemerle asılı kalan kişide bacak kayışları kan dolaşımını kısıtlar; hareketsizlik nedeniyle kan bacaklarda birikir ve kalbe geri dönüşü azalır. Bu durum dakikalar içinde baş dönmesi, bilinç kaybı ve tedavisiz bırakılırsa hayati tehlikeye yol açabilir.",
+                        "Risk, düşmenin kendisinden değil, düşme sonrası kurtarmanın gecikmesinden kaynaklanır. 'Kemer düşmeyi durdurdu, tehlike geçti' yaklaşımı yanlıştır.",
+                    ],
+                },
+                {
+                    baslik: "Kurtarma planı zorunludur",
+                    paragraflar: [
+                        "Her yüksekte çalışma işi için önceden planlanmış bir kurtarma prosedürü gerekir: asılı kalan kişiye kaç dakikada, hangi ekipmanla ulaşılacağı belirlenmelidir. Sahadaki yükseltici platform çoğu durumda en hızlı kurtarma aracıdır.",
+                        "112'yi beklemek tek başına yeterli bir plan değildir; müdahale süresi kritik dakikaları aşabilir. Plan yazılı olmalı, ekipte en az bir kişi uygulayabilecek şekilde eğitilmeli ve tatbik edilmelidir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Sarkma travması ne kadar sürede kritik olur?", cevap: "Kaynaklarda belirtilerin dakikalar içinde başlayabileceği belirtilir; süre kişiye ve koşullara göre değişir. Bu yüzden kurtarma süresi ne kadar kısaltılırsa risk o kadar azalır. Bu içerik tıbbi tavsiye değildir." },
+                { soru: "Her sahada kurtarma ekipmanı gerekir mi?", cevap: "Yüksekte çalışma riski taşıyan her sahada, düşme durumunda hızlı müdahaleyi sağlayacak bir yöntem (platform, kurtarma makarası, eğitimli ekip) önceden planlanmış olmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
     ],
 };
 
