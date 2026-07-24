@@ -1,5 +1,7 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
+import type { TemaModulu } from "./tipler";
 import { TemaForm } from "./tema-form";
 
 // aydinplatform.net — Google Stitch tasarımının birebir portu.
@@ -22,13 +24,84 @@ const IK = {
     share: "M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M16 6l-4-4-4 4M12 2v13",
     globe: "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z",
 };
-const hy = "font-['Hanken_Grotesk']"; // başlık yazı tipi
+const hy = "font-['Hanken_Grotesk']";
 
-export function AydinTema({ site }: { site: SiteIcerik }) {
+function bolgelerCoz(site: SiteIcerik) {
     const ilceler = site.bolge.split(",").map((s) => s.trim());
-    const bolgeler = ilceler.slice(1).length >= 3 ? ilceler.slice(1) : ilceler;
-    const vurgu = bolgeler.slice(0, 3).join(", ");
+    return ilceler.slice(1).length >= 3 ? ilceler.slice(1) : ilceler;
+}
 
+// ---- Ortak çerçeve: header + footer + FAB + font linki ----
+function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; children: ReactNode }) {
+    const nav = [
+        { ad: "Ana Sayfa", href: "/" },
+        { ad: "Hakkımızda", href: "/hakkimizda" },
+        { ad: "Filo", href: "/urunler" },
+        { ad: "Blog", href: "/blog" },
+        { ad: "İletişim", href: "/iletisim" },
+    ];
+    return (
+        <div className="bg-[#f9f9ff] text-[#141b2b] font-['Inter'] overflow-x-hidden">
+            {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+            <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+            <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#f9f9ff]/95 backdrop-blur-md shadow-sm border-b border-[#d3c5ac]">
+                <a href="/" className="flex items-center gap-4">
+                    <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={160} height={40} className="h-10 w-auto object-contain" priority />
+                    <span className={`hidden md:block text-[24px] font-bold text-[#0A1525] ${hy}`}>{site.h1}</span>
+                </a>
+                <nav className="hidden lg:flex items-center gap-8">
+                    {nav.map((n) => (
+                        <a key={n.href} className={aktif === n.href ? "text-[#0A1525] font-bold border-b-2 border-[#0A1525] pb-1" : "text-[#4f4633] font-medium hover:text-[#795900] transition-colors"} href={n.href}>{n.ad}</a>
+                    ))}
+                </nav>
+                <a className="bg-[#FBBF24] text-[#0A1525] px-6 py-2.5 rounded-[2px] text-[14px] font-semibold flex items-center gap-2 hover:scale-105 active:scale-95 transition-all" href={`tel:${site.telefon}`}>
+                    <Ikon d={IK.phone} className="w-4 h-4" />
+                    <span className="hidden sm:inline">Hemen Ara: </span>{site.telefonGosterim}
+                </a>
+            </header>
+
+            {children}
+
+            <footer className="w-full py-20 px-6 flex flex-col md:flex-row justify-between items-start gap-8 bg-[#0A1525] text-white">
+                <div className="max-w-md">
+                    <div className={`${hy} text-[24px] font-bold text-white mb-4`}>{site.h1}</div>
+                    <p className="text-[#dce2f7] text-base mb-6">{site.anaSite.ad} hizmet ağı içinde, {site.uzmanlik} odağında bilgilendirme ve teklif hazırlama noktası.</p>
+                    <div className="flex gap-4">
+                        <a className="w-10 h-10 rounded-xl border border-white/20 flex items-center justify-center hover:bg-[#FBBF24] hover:text-[#0A1525] transition-all" href={site.anaSite.url} aria-label="Web"><Ikon d={IK.globe} className="w-5 h-5" /></a>
+                        <a className="w-10 h-10 rounded-xl border border-white/20 flex items-center justify-center hover:bg-[#FBBF24] hover:text-[#0A1525] transition-all" href="/iletisim" aria-label="İletişim"><Ikon d={IK.share} className="w-5 h-5" /></a>
+                    </div>
+                </div>
+                <div className="grid grid-cols-2 gap-x-12 gap-y-4">
+                    <h4 className="col-span-2 text-[14px] font-semibold text-[#FBBF24] uppercase tracking-widest mb-2">Hızlı Menü</h4>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/hakkimizda">Hakkımızda</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/urunler">Filo</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/blog">Blog</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/iletisim">İletişim</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/teklif-hazirligi">Talep Rehberi</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href={site.anaSite.url}>{site.anaSite.ad}</a>
+                </div>
+                <div className="flex flex-col gap-4">
+                    <h4 className="text-[14px] font-semibold text-[#FBBF24] uppercase tracking-widest mb-2">Yasal</h4>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-[12px]" href="/gizlilik-politikasi">Gizlilik Politikası</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-[12px]" href="/kullanim-kosullari">Kullanım Koşulları</a>
+                </div>
+                <div className="w-full md:w-auto mt-8 md:mt-0 border-t md:border-t-0 border-white/10 pt-8 md:pt-0">
+                    <p className="text-[12px] text-[#dce2f7] opacity-80">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır.<br />{site.anaSite.ad} ağının bir parçasıdır.</p>
+                </div>
+            </footer>
+
+            <a className="fixed bottom-8 right-8 bg-[#FBBF24] text-[#0A1525] w-16 h-16 rounded-xl shadow-2xl flex items-center justify-center z-40 hover:scale-110 active:scale-95 transition-transform" href={`tel:${site.telefon}`} aria-label="Hemen ara">
+                <Ikon d={IK.phone} className="w-7 h-7" />
+            </a>
+        </div>
+    );
+}
+
+// ---- Ana sayfa gövdesi ----
+function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
+    const bolgeler = bolgelerCoz(site);
+    const vurgu = bolgeler.slice(0, 3).join(", ");
     const filo = [
         { baslik: "Makaslı Platformlar", metin: "8m'den 18m'e kadar dikey erişim. İç ve dış mekan için elektrikli veya dizel seçenekler.", etiket: "8 - 18 Metre", gorsel: "/media/makasli-platform.png", slug: "makasli-platform-kiralama" },
         { baslik: "Eklemli Platformlar", metin: "16m'den 26m'e kadar çalışma yüksekliği. Engel üzerinden aşma ve hassas konumlandırma.", etiket: "16 - 26 Metre", gorsel: "/media/eklemli-platform.png", slug: "eklemli-ve-teleskopik-platform-kiralama" },
@@ -45,32 +118,8 @@ export function AydinTema({ site }: { site: SiteIcerik }) {
         [`${bolgeler.length}`, "Bölgesel Destek"],
         ["24/7", "Teknik Destek"],
     ];
-
     return (
-        <div className="bg-[#f9f9ff] text-[#141b2b] font-['Inter'] overflow-x-hidden">
-            {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-            <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
-            {/* Üst menü */}
-            <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#f9f9ff]/95 backdrop-blur-md shadow-sm border-b border-[#d3c5ac]">
-                <a href="/" className="flex items-center gap-4">
-                    <Image src="/media/logo/logo.png" alt="Aydın Platform Logo" width={160} height={40} className="h-10 w-auto object-contain" priority />
-                    <span className={`hidden md:block text-[24px] font-bold text-[#0A1525] ${hy}`}>Aydın Platform</span>
-                </a>
-                <nav className="hidden lg:flex items-center gap-8">
-                    <a className="text-[#0A1525] font-bold border-b-2 border-[#0A1525] pb-1" href="/">Ana Sayfa</a>
-                    <a className="text-[#4f4633] font-medium hover:text-[#795900] transition-colors" href="#fleet">Filo</a>
-                    <a className="text-[#4f4633] font-medium hover:text-[#795900] transition-colors" href="/blog">Blog</a>
-                    <a className="text-[#4f4633] font-medium hover:text-[#795900] transition-colors" href="#regions">Bölgeler</a>
-                    <a className="text-[#4f4633] font-medium hover:text-[#795900] transition-colors" href="#contact">İletişim</a>
-                </nav>
-                <a className="bg-[#FBBF24] text-[#0A1525] px-6 py-2.5 rounded-[2px] text-[14px] font-semibold flex items-center gap-2 hover:scale-105 active:scale-95 transition-all" href={`tel:${site.telefon}`}>
-                    <Ikon d={IK.phone} className="w-4 h-4" />
-                    <span className="hidden sm:inline">Hemen Ara: </span>{site.telefonGosterim}
-                </a>
-            </header>
-
-            {/* Hero */}
+        <>
             <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <Image src="/media/saha-hero.png" alt="Aydın'da yüksek erişim için saha planlaması" fill priority sizes="100vw" className="object-cover" />
@@ -84,14 +133,13 @@ export function AydinTema({ site }: { site: SiteIcerik }) {
                         </h1>
                         <p className="text-[18px] leading-[28px] mb-8 text-white/90">{site.paragraflar[0]}</p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <a className="bg-[#FBBF24] text-[#0A1525] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:shadow-xl transition-all" href="#contact">Teklif Alın</a>
-                            <a className="bg-transparent border-2 border-[#F9FAFB] text-[#F9FAFB] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:bg-[#F9FAFB] hover:text-[#0A1525] transition-all" href="#fleet">Filoyu İncele</a>
+                            <a className="bg-[#FBBF24] text-[#0A1525] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:shadow-xl transition-all" href="/iletisim">Teklif Alın</a>
+                            <a className="bg-transparent border-2 border-[#F9FAFB] text-[#F9FAFB] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:bg-[#F9FAFB] hover:text-[#0A1525] transition-all" href="/urunler">Filoyu İncele</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* İstatistik */}
             <section className="py-12 bg-[#0A1525] border-b border-white/10">
                 <div className="container mx-auto px-6 max-w-[1280px] flex flex-wrap justify-center md:justify-between items-center gap-8">
                     {istatistik.map(([sayi, etiket]) => (
@@ -103,7 +151,6 @@ export function AydinTema({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            {/* Filo */}
             <section className="py-20 bg-[#F9FAFB]" id="fleet">
                 <div className="container mx-auto px-6 max-w-[1280px]">
                     <div className="mb-16 text-center lg:text-left">
@@ -132,7 +179,6 @@ export function AydinTema({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            {/* Süreç */}
             <section className="py-20 bg-[#f9f9ff]">
                 <div className="container mx-auto px-6 max-w-[1280px]">
                     <div className="flex flex-col lg:flex-row gap-16 items-start">
@@ -156,14 +202,13 @@ export function AydinTema({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            {/* Bölgeler */}
             <section className="py-20 bg-[#0A1525] text-[#F9FAFB] overflow-hidden relative" id="regions">
                 <div className="absolute top-0 right-0 w-1/3 h-full bg-[#FBBF24]/5 skew-x-12 translate-x-1/2" />
                 <div className="container mx-auto px-6 max-w-[1280px] relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div>
                             <h2 className={`${hy} text-[32px] leading-[40px] font-bold text-[#FBBF24] mb-8`}>Aydın Bölgesel Hizmet Ağı</h2>
-                            <p className="text-[18px] text-[#dce2f7] mb-12">Efeler&apos;den Didim&apos;e kadar Aydın&apos;ın tüm stratejik noktalarında yanınızdayız. Jeotermal enerji tesisleri, otel bakımları ve tarım depoları için yerel çözümler.</p>
+                            <p className="text-[18px] text-[#dce2f7] mb-12">{site.bolge} hattında stratejik noktalarda yanınızdayız. Jeotermal enerji tesisleri, otel bakımları ve tarım depoları için yerel çözümler.</p>
                             <div className="grid grid-cols-2 gap-6">
                                 {bolgeler.map((b) => (
                                     <div key={b} className="flex items-center gap-4 p-4 border border-white/20 rounded">
@@ -183,84 +228,83 @@ export function AydinTema({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            {/* İletişim */}
-            <section className="py-20 bg-[#F9FAFB]" id="contact">
-                <div className="container mx-auto px-6 max-w-[1280px]">
-                    <div className="bg-[#f9f9ff] rounded-2xl shadow-xl overflow-hidden border border-[#d3c5ac]">
-                        <div className="flex flex-col lg:flex-row">
-                            <div className="lg:w-1/2 p-12 bg-[#0A1525] text-[#F9FAFB]">
-                                <h2 className={`${hy} text-[32px] leading-[40px] font-bold mb-6`}>Hemen Teklif Alın</h2>
-                                <p className="text-base text-[#dce2f7] mb-8">Saha bilgilerinizi paylaşın, işinize en uygun makine ve fiyat çalışmasını yapalım.</p>
-                                <div className="space-y-6">
-                                    <a href={`tel:${site.telefon}`} className="flex items-start gap-4 group">
-                                        <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.phone} className="w-5 h-5 text-[#FBBF24]" /></div>
-                                        <div>
-                                            <p className="text-[12px] uppercase text-[#dce2f7]">Telefon</p>
-                                            <p className={`${hy} text-xl group-hover:text-[#FBBF24] transition-colors`}>{site.telefonGosterim}</p>
-                                        </div>
-                                    </a>
-                                    <a href={`mailto:${site.eposta}`} className="flex items-start gap-4 group">
-                                        <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.mail} className="w-5 h-5 text-[#FBBF24]" /></div>
-                                        <div>
-                                            <p className="text-[12px] uppercase text-[#dce2f7]">E-posta</p>
-                                            <p className={`${hy} text-xl break-all group-hover:text-[#FBBF24] transition-colors`}>{site.eposta}</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="mt-12 pt-12 border-t border-white/10">
-                                    <p className="text-[12px] text-[#dce2f7] italic leading-relaxed">&ldquo;Model, kapasite, belge, operatör, nakliye ve ücret; güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir.&rdquo;</p>
-                                </div>
+            <AydinIletisim site={site} />
+        </>
+    );
+}
+
+// ---- İletişim gövdesi (hem ana sayfada hem /iletisim'de kullanılır) ----
+function AydinIletisim({ site }: { site: SiteIcerik }) {
+    const bolgeler = bolgelerCoz(site);
+    return (
+        <section className="py-20 bg-[#F9FAFB]" id="contact">
+            <div className="container mx-auto px-6 max-w-[1280px]">
+                <div className="bg-[#f9f9ff] rounded-2xl shadow-xl overflow-hidden border border-[#d3c5ac]">
+                    <div className="flex flex-col lg:flex-row">
+                        <div className="lg:w-1/2 p-12 bg-[#0A1525] text-[#F9FAFB]">
+                            <h2 className={`${hy} text-[32px] leading-[40px] font-bold mb-6`}>Hemen Teklif Alın</h2>
+                            <p className="text-base text-[#dce2f7] mb-8">Saha bilgilerinizi paylaşın, işinize en uygun makine ve fiyat çalışmasını yapalım.</p>
+                            <div className="space-y-6">
+                                <a href={`tel:${site.telefon}`} className="flex items-start gap-4 group">
+                                    <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.phone} className="w-5 h-5 text-[#FBBF24]" /></div>
+                                    <div>
+                                        <p className="text-[12px] uppercase text-[#dce2f7]">Telefon</p>
+                                        <p className={`${hy} text-xl group-hover:text-[#FBBF24] transition-colors`}>{site.telefonGosterim}</p>
+                                    </div>
+                                </a>
+                                <a href={`mailto:${site.eposta}`} className="flex items-start gap-4 group">
+                                    <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.mail} className="w-5 h-5 text-[#FBBF24]" /></div>
+                                    <div>
+                                        <p className="text-[12px] uppercase text-[#dce2f7]">E-posta</p>
+                                        <p className={`${hy} text-xl break-all group-hover:text-[#FBBF24] transition-colors`}>{site.eposta}</p>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="lg:w-1/2 p-12">
-                                <TemaForm
-                                    eposta={site.eposta}
-                                    konu={`Teklif Talebi — ${site.h1}`}
-                                    opsiyonlar={bolgeler}
-                                    cls={{
-                                        etiket: "block text-[14px] font-semibold text-[#0A1525] mb-2",
-                                        alan: "w-full bg-[#f1f3ff] border border-[#d3c5ac] rounded p-3 focus:ring-2 focus:ring-[#FBBF24] outline-none transition-all",
-                                        buton: "w-full bg-[#FBBF24] text-[#0A1525] font-bold py-4 rounded hover:brightness-95 transition-all text-lg uppercase tracking-wider",
-                                    }}
-                                />
+                            <div className="mt-12 pt-12 border-t border-white/10">
+                                <p className="text-[12px] text-[#dce2f7] italic leading-relaxed">&ldquo;Model, kapasite, belge, operatör, nakliye ve ücret; güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir.&rdquo;</p>
                             </div>
+                        </div>
+                        <div className="lg:w-1/2 p-12">
+                            <TemaForm
+                                eposta={site.eposta}
+                                konu={`Teklif Talebi — ${site.h1}`}
+                                opsiyonlar={bolgeler}
+                                cls={{
+                                    etiket: "block text-[14px] font-semibold text-[#0A1525] mb-2",
+                                    alan: "w-full bg-[#f1f3ff] border border-[#d3c5ac] rounded p-3 focus:ring-2 focus:ring-[#FBBF24] outline-none transition-all",
+                                    buton: "w-full bg-[#FBBF24] text-[#0A1525] font-bold py-4 rounded hover:brightness-95 transition-all text-lg uppercase tracking-wider",
+                                }}
+                            />
                         </div>
                     </div>
                 </div>
-            </section>
-
-            {/* Footer */}
-            <footer className="w-full py-20 px-6 flex flex-col md:flex-row justify-between items-start gap-8 bg-[#0A1525] text-white">
-                <div className="max-w-md">
-                    <div className={`${hy} text-[24px] font-bold text-white mb-4`}>{site.h1}</div>
-                    <p className="text-[#dce2f7] text-base mb-6">{site.anaSite.ad} hizmet ağı içinde, {site.uzmanlik} odağında bilgilendirme ve teklif hazırlama noktası.</p>
-                    <div className="flex gap-4">
-                        <a className="w-10 h-10 rounded-xl border border-white/20 flex items-center justify-center hover:bg-[#FBBF24] hover:text-[#0A1525] transition-all" href={site.anaSite.url} aria-label="Web"><Ikon d={IK.globe} className="w-5 h-5" /></a>
-                        <a className="w-10 h-10 rounded-xl border border-white/20 flex items-center justify-center hover:bg-[#FBBF24] hover:text-[#0A1525] transition-all" href="/iletisim" aria-label="İletişim"><Ikon d={IK.share} className="w-5 h-5" /></a>
-                    </div>
-                </div>
-                <div className="grid grid-cols-2 gap-x-12 gap-y-4">
-                    <h4 className="col-span-2 text-[14px] font-semibold text-[#FBBF24] uppercase tracking-widest mb-2">Hızlı Menü</h4>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/hakkimizda">Hakkımızda</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/teklif-hazirligi">Talep Rehberi</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/iletisim">İletişim</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/blog">Blog</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="#fleet">Filo</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href={site.anaSite.url}>{site.anaSite.ad}</a>
-                </div>
-                <div className="flex flex-col gap-4">
-                    <h4 className="text-[14px] font-semibold text-[#FBBF24] uppercase tracking-widest mb-2">Yasal</h4>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-[12px]" href="/gizlilik-politikasi">Gizlilik Politikası</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-[12px]" href="/kullanim-kosullari">Kullanım Koşulları</a>
-                </div>
-                <div className="w-full md:w-auto mt-8 md:mt-0 border-t md:border-t-0 border-white/10 pt-8 md:pt-0">
-                    <p className="text-[12px] text-[#dce2f7] opacity-80">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır.<br />{site.anaSite.ad} ağının bir parçasıdır.</p>
-                </div>
-            </footer>
-
-            {/* Hızlı arama FAB */}
-            <a className="fixed bottom-8 right-8 bg-[#FBBF24] text-[#0A1525] w-16 h-16 rounded-xl shadow-2xl flex items-center justify-center z-40 hover:scale-110 active:scale-95 transition-transform" href={`tel:${site.telefon}`} aria-label="Hemen ara">
-                <Ikon d={IK.phone} className="w-7 h-7" />
-            </a>
-        </div>
+            </div>
+        </section>
     );
 }
+
+// ---- Basit temalı içerik sarmalayıcı (hakkımızda gibi metin sayfaları için) ----
+function AydinMetinSayfa({ baslik, altbaslik, children }: { baslik: string; altbaslik?: string; children: ReactNode }) {
+    return (
+        <section className="pt-32 pb-20 bg-[#F9FAFB] min-h-screen">
+            <div className="container mx-auto px-6 max-w-[1000px]">
+                {altbaslik && <p className="text-[14px] font-semibold text-[#795900] uppercase tracking-widest mb-3">{altbaslik}</p>}
+                <h1 className={`${hy} text-[40px] leading-[1.1] font-extrabold text-[#0A1525] mb-8`}>{baslik}</h1>
+                <div className="prose max-w-none text-[17px] leading-relaxed text-[#4f4633] space-y-5">{children}</div>
+            </div>
+        </section>
+    );
+}
+
+export const aydinTema: TemaModulu = {
+    Cerceve: AydinCerceve,
+    AnaSayfa: AydinAnaSayfa,
+    sayfalar: {
+        iletisim: ({ site }) => <div className="pt-24"><AydinIletisim site={site} /></div>,
+        hakkimizda: ({ site }) => (
+            <AydinMetinSayfa baslik={`${site.anaSite.ad} — ${site.h1}`} altbaslik="Hakkımızda">
+                {site.paragraflar.map((p, i) => <p key={i}>{p}</p>)}
+            </AydinMetinSayfa>
+        ),
+    },
+};

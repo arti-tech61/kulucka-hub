@@ -9,7 +9,8 @@ import { GaEtiketi } from "@/components/ga";
 import { HaberCerceve } from "@/components/haber-sitesi";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { haberKurumsalSayfaBul } from "@/lib/haber-kurumsal";
-import { TicariCerceve, TicariTeklif } from "@/components/ticari-cerceve";
+import { TicariTeklif } from "@/components/ticari-cerceve";
+import { temaModulu, Kabuk } from "@/components/temalar";
 
 export const dynamic = "force-dynamic";
 
@@ -117,8 +118,20 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
         );
     }
     const site = hostIcinSite(host);
-    const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
-    if (!site || !alt) notFound();
+    if (!site) notFound();
+    // Temalı özel sayfa (hakkimizda, iletisim, urunler ...) — alt-sayfa kaydı olmasa da render edilir.
+    const tema = temaModulu(host);
+    const OzelSayfa = tema?.sayfalar?.[sayfa];
+    if (OzelSayfa) {
+        return (
+            <Kabuk host={host} site={site} aktif={`/${sayfa}`}>
+                <GaEtiketi gaId={site.gaId} />
+                <OzelSayfa site={site} />
+            </Kabuk>
+        );
+    }
+    const alt = altSayfaBul(host, sayfa) ?? kurumsalSayfaBul(site, sayfa);
+    if (!alt) notFound();
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     const digerSayfalar = [...hostAltSayfalari(host), ...kurumsalSayfalar(site)]
         .filter((s) => s.slug !== alt.slug);
@@ -154,7 +167,7 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
     }
 
     return (
-        <TicariCerceve site={site}>
+        <Kabuk host={host} site={site} aktif={`/${alt.slug}`}>
         <main className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
             {jsonLd.map((j, i) => (
                 <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} />
@@ -263,6 +276,6 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
 
             <div className="mt-16"><TicariTeklif site={site} /></div>
         </main>
-        </TicariCerceve>
+        </Kabuk>
     );
 }

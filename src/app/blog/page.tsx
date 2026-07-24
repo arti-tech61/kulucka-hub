@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 import { GaEtiketi } from "@/components/ga";
-import { TicariCerceve } from "@/components/ticari-cerceve";
+import { temaModulu, Kabuk } from "@/components/temalar";
 
 export const dynamic = "force-dynamic";
 
@@ -32,8 +32,18 @@ export default async function BlogListesi() {
     const yazilar = hostBloglari(host);
     if (!site || yazilar.length === 0) notFound();
 
+    const BlogListe = temaModulu(host)?.BlogListe;
+    if (BlogListe) {
+        return (
+            <Kabuk host={host} site={site} aktif="/blog">
+                <GaEtiketi gaId={site.gaId} />
+                <BlogListe site={site} />
+            </Kabuk>
+        );
+    }
+
     return (
-        <TicariCerceve site={site}>
+        <Kabuk host={host} site={site} aktif="/blog">
             <main className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
                 <GaEtiketi gaId={site.gaId} />
                 <nav aria-label="Breadcrumb" className="text-sm font-semibold text-slate-500">
@@ -73,6 +83,6 @@ export default async function BlogListesi() {
                     ))}
                 </div>
             </main>
-        </TicariCerceve>
+        </Kabuk>
     );
 }

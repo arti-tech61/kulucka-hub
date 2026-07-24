@@ -7,7 +7,7 @@ import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { HaberAnaSayfa } from "@/components/haber-sitesi";
 import { TicariCerceve, TicariGorsel, TicariTeklif } from "@/components/ticari-cerceve";
 import { GaEtiketi } from "@/components/ga";
-import { ozelTemaVar, OzelTema } from "@/components/temalar";
+import { temaModulu, Kabuk } from "@/components/temalar";
 
 export const dynamic = "force-dynamic";
 
@@ -114,13 +114,15 @@ export default async function Sayfa() {
     };
 
     // Host'a özel Stitch teması varsa varsayılan çerçeve yerine onu kullan.
-    if (ozelTemaVar(host)) {
+    const tema = temaModulu(host);
+    if (tema) {
+        const AnaSayfa = tema.AnaSayfa;
         return (
-            <>
+            <Kabuk host={host} site={site} aktif="/">
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
                 <GaEtiketi gaId={site.gaId} />
-                <OzelTema host={host} site={site} />
-            </>
+                <AnaSayfa site={site} />
+            </Kabuk>
         );
     }
 

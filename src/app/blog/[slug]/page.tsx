@@ -6,7 +6,8 @@ import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { hostBloglari, blogBul } from "@/lib/blog";
 import { GaEtiketi } from "@/components/ga";
-import { TicariCerceve, TicariTeklif } from "@/components/ticari-cerceve";
+import { TicariTeklif } from "@/components/ticari-cerceve";
+import { Kabuk } from "@/components/temalar";
 
 export const dynamic = "force-dynamic";
 
@@ -84,7 +85,7 @@ export default async function BlogYazisiSayfa({ params }: { params: Promise<{ sl
     const tarihGoster = (iso: string) => new Date(`${iso}T00:00:00+03:00`).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
 
     return (
-        <TicariCerceve site={site}>
+        <Kabuk host={host} site={site} aktif="/blog">
             <main className="mx-auto max-w-4xl px-5 py-10 sm:px-8 sm:py-14">
                 {jsonLd.map((j, i) => (
                     <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} />
@@ -176,6 +177,6 @@ export default async function BlogYazisiSayfa({ params }: { params: Promise<{ sl
 
                 <div className="mt-14"><TicariTeklif site={site} /></div>
             </main>
-        </TicariCerceve>
+        </Kabuk>
     );
 }
