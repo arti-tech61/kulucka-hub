@@ -4790,6 +4790,91 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "bilecikte-orumcek-platform-dar-ve-hassas-alanlar",
+            kategori: "Karşılaştırma", baslik: "Bilecik'te Örümcek Platform: Dar ve Hassas Alanlar",
+            ozet: "Tarihi yapı ve dar hassas alanlarda katlanır ayaklı örümcek platform. Standart eklemliyle karşılaştırma.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Dar ve hassas alanda örümcek platformla erişim",
+            tarih: "2026-05-24", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in tarihi yapıları (Söğüt) ve dar hassas iç mekânlarında standart eklemli her zaman giremez. Örümcek platform bu noktada devreye girer.",
+            bolumler: [
+                { baslik: "Örümcek platform ne zaman?", paragraflar: ["Katlanır paletli ayakları ve hafif gövdesiyle dar kapılardan geçer, hassas zemine düşük yük bindirir; tarihi yapı ve iç avlu gibi hem dar hem hassas sahalarda değerlendirilir.", "Kapasite ve erişim sınırları dardır."] },
+                { baslik: "Standart eklemli ne zaman?", paragraflar: ["Giriş ve zemin uygunsa daha yüksek kapasite için eklemli tercih edilir. Kapı ölçüsü, zemin yükü ve ayak açılımı teknik föyle teyit edilir.", "Nihai seçim saha bilgisine göre yapılır."] },
+            ],
+            sss: [
+                { soru: "Örümcek platform her dar alana girer mi?", cevap: "Girmez; giriş genişliği, zemin yükü ve ayak açılım alanı model bazında teyit edilir." },
+                { soru: "Tarihi yapı zemininde iz bırakır mı?", cevap: "Düşük noktasal yük bindirir; yine de hassas/tarihi zeminde koruyucu levha önerilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-telehandler-mi-platform-mu",
+            kategori: "Karşılaştırma", baslik: "Bilecik'te Telehandler mı, Platform mu?",
+            ozet: "Yük taşımak mı, personeli çalıştırmak mı? Bilecik tesis ve saha işlerinde telehandler ile personel yükseltici farkı.",
+            gorsel: blogGorsel.forkliftDepo, gorselAlt: "Bilecik sahasında telehandler ve platform karşılaştırması",
+            tarih: "2026-05-21", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in tesis ve saha işlerinde telehandler ile personel yükseltici sık karıştırılır. İkisi aynı yüksekliğe ulaşsa da farklı işler içindir.",
+            bolumler: [
+                { baslik: "Farklı amaçlar", paragraflar: ["Telehandler yük taşır; personel yükseltici insanı korkuluklu sepette çalışma noktasına konumlandırır. Doğru soru 'ana faaliyet yük mü, personel mi?' sorusudur.", "İki faaliyet birlikteyse iş kalemleri ayrılır."] },
+                { baslik: "Güvenlik", paragraflar: ["Telehandler'a insan sepeti takmak ancak üretici onayı ve yük tablosuna uyumla değerlendirilir; sürekli yüksekte çalışmada gerçek personel yükseltici daha güvenlidir.", "Forklift, telehandler ve personel yükseltici üç ayrı sınıftır."] },
+            ],
+            sss: [
+                { soru: "Telehandler ile personel yükseltebilir miyim?", cevap: "Ancak üretici onayı ve yük tablosuna uyumla; sınırlıdır. Gerçek personel yükseltici tercih edilir." },
+                { soru: "Hangisi gerekir?", cevap: "Ana faaliyet yük taşımaksa telehandler, personel çalıştırmaksa platform." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-dikey-personel-yukseltici-dar-alan-isleri",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Dikey Personel Yükseltici ile Dar Alan İşleri",
+            ozet: "Mağaza, depo raf arası ve dar koridorda tekil erişim için dikey personel yükseltici. Çevik ve hafif çözüm.",
+            gorsel: blogGorsel.depo, gorselAlt: "Bilecik'te dar koridorda dikey personel yükselticiyle çalışma",
+            tarih: "2026-05-18", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki mağaza ve tesislerde her iş geniş makaslı gerektirmez. Tekil, hafif ve dar koridorlu işlerde dikey personel yükseltici çevik bir çözümdür.",
+            bolumler: [
+                { baslik: "Ne için?", paragraflar: ["Tek kişilik, dar tabanlı ve dikey hareket eden bu sınıf; depo raf sayımı, mağaza içi aydınlatma ve dar koridorlu tesis bakımı gibi tekil işlerde öne çıkar.", "Yük ve alan geniş değilse avantaj sağlar."] },
+                { baslik: "Sınırları", paragraflar: ["Kapasite ve erişim sınırları dardır; ağır/çoklu işte yetersiz kalır.", "Kapı ölçüsü ve yükseklik teknik föyle teyit edilir."] },
+            ],
+            sss: [
+                { soru: "Kaç kişilik?", cevap: "Genellikle tek kişilik ve hafif yük içindir; ağır/çoklu işte makaslı değerlendirilir." },
+                { soru: "Dar mağaza koridorunda olur mu?", cevap: "Evet; dar tabanı ve çevikliğiyle tekil erişim için uygundur." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-eklemli-platform-ile-engel-asan-erisim",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Eklemli Platform ile Engel Aşan Erişim",
+            ozet: "Baca, boru ve ekipman arkasına erişimde eklemli bomun avantajı. Bilecik seramik/metal tesislerinde engel aşan erişim.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Bilecik'te eklemli platformla engel aşan erişim",
+            tarih: "2026-05-15", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik seramik ve metal tesislerinde çalışma noktaları çoğu zaman baca, boru veya ekipman engelinin arkasındadır. Buraya ancak engel aşan bir bomla erişilir.",
+            bolumler: [
+                { baslik: "Up-and-over geometrisi", paragraflar: ["Eklemli platformun kırılan bomu makineyi engelin yanına koyup sepeti engelin üzerinden veya arkasına konumlamaya izin verir. Baca, kanal ve ekipman arkası erişimde makaslının giremediği açılara ulaşır.", "Dönebilen kule dar tesiste manevra sağlar."] },
+                { baslik: "Sınıf ve seçim", paragraflar: ["İç mekânda elektrikli, açık sahada dizel eklemli değerlendirilir. Erişim uzadıkça sepet kapasitesi ve rüzgâr limiti değişir.", "Kesin model yazılı teklifte belirlenir."] },
+            ],
+            sss: [
+                { soru: "Baca arkasına nasıl erişilir?", cevap: "Baca veya ekipman engelinin arkasına erişim için eklemli platformun engel aşan bomu kullanılır." },
+                { soru: "İç mekânda eklemli olur mu?", cevap: "Evet; elektrikli eklemli modeller sıfır emisyon ve iz bırakmayan lastikle kapalı alanda kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-ambalaj-ve-lojistik-tesisinde-platform",
+            kategori: "Şehir & Sektör", baslik: "Bilecik'te Ambalaj ve Lojistik Tesisinde Platform",
+            ozet: "Ambalaj üretimi ve lojistik depolarında yüksek raf, çatı altı tesisat ve aydınlatma bakımında platform seçimi.",
+            gorsel: blogGorsel.depo, gorselAlt: "Bilecik ambalaj ve lojistik tesisinde platformla çalışma",
+            tarih: "2026-05-12", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te ambalaj üretimi ve lojistik depoları yüksek raf ve çatı altı tesisatla sürekli yüksekte çalışma gerektirir. Bu yazı bu işlerde platform seçimini ele alır.",
+            bolumler: [
+                { baslik: "Raf ve çatı altı", paragraflar: ["Dar raf koridorunda makaslı veya dikey personel yükseltici çeviktir; çatı altı tesisat ve konveyör üstü gibi engel aşmalı noktalarda eklemli gerekir.", "Koridor ve kapı ölçüsü model ölçüleriyle karşılaştırılır."] },
+                { baslik: "Sürekli operasyon", paragraflar: ["Faal depoda çalışma bölgesi trafiğinden ayrılır; elektrikli modeller sıfır emisyonla vardiya içinde çalışır.", "Zemin ve dilatasyon noktaları değerlendirilir."] },
+            ],
+            sss: [
+                { soru: "Lojistik deposunda hangi makine?", cevap: "Dar raf koridorunda makaslı/dikey yükseltici; çatı altı engelli erişimde eklemli değerlendirilir." },
+                { soru: "Operasyon durdurulmalı mı?", cevap: "Çoğu zaman bölge izolasyonu yeterlidir; karar risk değerlendirmesine göre verilir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
