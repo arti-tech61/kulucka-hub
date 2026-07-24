@@ -1434,6 +1434,138 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bandirmada-kis-kosullarinda-yuksekte-calisma",
+            kategori: "Güvenlik",
+            baslik: "Bandırma'da Kış Koşullarında Yüksekte Çalışma",
+            ozet: "Rüzgâr, buzlanma ve düşük sıcaklığın liman ve açık saha işlerine etkisi. Kış aylarında manlift kullanımında ek önlemler.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Bandırma'da kış koşullarında açık sahada yükseltici platformla çalışma",
+            tarih: "2026-06-18",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'nın liman ve açık sanayi sahaları kışın rüzgâr, buzlanma ve düşük sıcaklıkla daha zorlu hâle gelir. Bu yazı, kış koşullarında manlift kullanımının ek önlemlerini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Rüzgâr ve buzlanma",
+                    paragraflar: [
+                        "Bandırma'nın rüzgâra açık liman ve kıyı sahalarında kış rüzgârı çalışmayı sık sık durdurabilir; rüzgâr limiti makineye özgüdür ve durdurma kriteri baştan yazılır. Sabah erken saatlerde ve gölgeli alanlarda zemin buzlanması, jack ayaklarının tam temasını engelleyebilir.",
+                        "Kurulum öncesi zemin görsel kontrolü ve denge göstergesi kışın daha sık kontrol edilir; gün içinde eriyen kar zemini oynatabilir.",
+                    ],
+                },
+                {
+                    baslik: "Ekipman ve çalışan",
+                    paragraflar: [
+                        "Düşük sıcaklıkta hidrolik yağ koyulaşır; üretici önerdiği ısınma süresine uyulur. Akü performansı düşer, kışın daha kısa çalışma süresi beklenir. Rüzgâr soğuğu yükseklikte belirginleşir; termal giysi ve ısınma molaları planlanır.",
+                        "Kısa gün ışığında aydınlatma erken devreye alınır; sisli havada görüş, güvenli çalışmanın ön koşuludur.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Bandırma'da kışın rüzgâr çalışmayı ne sıklıkla durdurur?", cevap: "Kıyı ve liman sahaları rüzgâra açıktır; durdurma, o günkü rüzgâr değeri ve makinenin limitine bağlıdır. Değer gözle değil, makine limiti ve ölçümle değerlendirilir." },
+                { soru: "Soğukta makine ısıtılmalı mı?", cevap: "Evet; düşük sıcaklıkta hidrolik yağ koyulaşır, üreticiler rölantide ısınma süresi önerir. Bu süre atlanıp tam yükle başlanması hidrolik bileşenleri zorlar." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-manlift-kiralarken-saha-kesfi-ve-olcum",
+            kategori: "Ürün Rehberi",
+            baslik: "Bandırma'da Manlift Kiralarken Saha Keşfi ve Ölçüm",
+            ozet: "Doğru makine doğru ölçümle başlar. Çalışma yüksekliği, yatay erişim, engel, zemin ve giriş ölçüleri; Bandırma sahalarında talep dosyası hazırlığı.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Bandırma sahasında manlift için keşif ve erişim ölçümü",
+            tarih: "2026-06-15",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'da manlift kiralamanın en sık hatası, sahayı yeterince tarif etmeden makine istemektir. Doğru makine, işin geometrisini doğru ölçmekle başlar. Bu yazı, keşif ve ölçümde kaydedilmesi gerekenleri anlatır.",
+            bolumler: [
+                {
+                    baslik: "Üç değeri ayrı ölçün",
+                    paragraflar: [
+                        "Çalışma noktasının yüksekliği, makinenin kurulabileceği en yakın sağlam zeminden yatay uzaklık ve arada aşılması gereken engelin konumu ayrı ölçülür. Liman ve tesis sahalarında engel (boru, silo, ekipman) sık bulunur; bu, sınıf seçimini belirler.",
+                        "Ölçüler fotoğrafla, başlangıç ve hedef noktası işaretlenerek paylaşılırsa yanlış yorum azalır.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve giriş",
+                    paragraflar: [
+                        "Liman betonu, mıcır saha, rampa ve açık stok alanı farklı taşıma davranışı gösterir; zemin kapasitesi belirsizse tahmin yürütülmez. Kapı, koridor ve dönüş alanı makinenin nakliye/çalışma ölçüleriyle karşılaştırılır.",
+                        "Çevrede süren operasyon, araç trafiği ve varsa enerji hattı da not edilir. Eksiksiz saha dosyası, teklifleri aynı iş tanımıyla karşılaştırmayı sağlar.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Bandırma'da keşif için sahaya gelinmeli mi?", cevap: "Çoğu talep doğru ölçü ve fotoğrafla uzaktan ön değerlendirilebilir. Karmaşık erişim veya belirsiz zeminde yerinde inceleme gerekip gerekmediği ayrıca kararlaştırılır." },
+                { soru: "Liman sahasında zemin nasıl değerlendirilir?", cevap: "Liman betonu genellikle taşıyıcıdır ama mıcır saha, rampa ve stok alanı ayrı değerlendirilir. Kapasite belirsizse saha yetkilisinin görüşü alınır; gerekirse çelik plaka kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-gunluk-haftalik-aylik-manlift-kiralama",
+            kategori: "Maliyet",
+            baslik: "Bandırma'da Günlük, Haftalık, Aylık Manlift Kiralama",
+            ozet: "Kiralama süresinin birim maliyete etkisi ve bölgesel nakliyeyle ilişkisi. Bandırma projelerinde doğru süre planlaması.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Bandırma'da uzun dönem kiralamaya uygun manlift",
+            tarih: "2026-06-12",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'da manlift kiralamada süre, birim maliyeti doğrudan etkiler; ayrıca bölgesel nakliyeyle birlikte değerlendirilir. Bu yazı, süre planlamasını ve nakliyeyle ilişkisini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Süre ve nakliye ilişkisi",
+                    paragraflar: [
+                        "Günlük, haftalık ve aylık kiralamada birim maliyet farklıdır; uzun dönem genellikle daha uygun bir aralığa yerleşir. Bandırma'da Erdek, Gönen veya Biga gibi uzak noktalarda uzun dönem, tekrarlı nakliye maliyetini azaltır.",
+                        "'Süre'; çalışma saati, vardiya ve atıl günleri kapsar. Başlangıç-bitiş tarihi ve günlük çalışma saati baştan yazılırsa sürpriz kalem oluşmaz.",
+                    ],
+                },
+                {
+                    baslik: "Doğru planlama",
+                    paragraflar: [
+                        "Kısa ama tekrarlı ihtiyaçlarda toplam gün sayısı, tek seferlik uzun kiralamayla karşılaştırılır; uzak bölgede tekrarlı nakliye maliyeti belirleyici olabilir.",
+                        "Kesin oran ve koşullar; makine, çalışma saati sınırı ve nakliye planına göre yazılı teklifte belirtilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Uzak bölgede uzun dönem daha mı mantıklı?", cevap: "Erdek, Gönen, Biga gibi uzak noktalarda uzun dönem kiralama, tekrarlı nakliye maliyetini azaltarak toplam maliyeti düşürebilir. Karar iş süresine ve tekrar sıklığına göre verilir." },
+                { soru: "Atıl gün ne demek?", cevap: "Makinenin sahada olup çalışmadığı günlerdir ve genellikle kapsama girer. Bu yüzden başlangıç-bitiş tarihi ve çalışma günleri baştan tanımlanmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-manlift-teklifinde-nelere-dikkat-edilir",
+            kategori: "Maliyet",
+            baslik: "Bandırma'da Manlift Teklifinde Nelere Dikkat Edilir?",
+            ozet: "Yazılı teklifte görülmesi gereken kalemler ve Bandırma özelinde nakliye, saha izni ve operatör kapsamı.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Bandırma için yazılı teklif hazırlığındaki manlift makineleri",
+            tarih: "2026-06-09",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'daki manlift tekliflerini sağlıklı karşılaştırmanın yolu, aynı kalemlerin aynı iş tanımı üzerinden yazılı görülmesidir. Bu yazı, teklifte aranması gereken başlıkları ve bölgesel kalemleri sıralar.",
+            bolumler: [
+                {
+                    baslik: "Teklifte görülmesi gerekenler",
+                    paragraflar: [
+                        "Ürün sınıfı ve mümkünse marka-model, çalışma saati/sayaç sınırı, operatör kapsamı, gidiş-dönüş nakliye (Bandırma merkez veya Erdek/Gönen/Biga), enerji-yakıt sorumluluğu, ikame koşulu ve ödeme maddeleri ayrı satırlarda görülmelidir.",
+                        "Liman/tersane/tesis sahasına giriş için istenen belgeler ve saha oryantasyonu da teklif aşamasında paylaşılmalıdır.",
+                    ],
+                },
+                {
+                    baslik: "'Her şey dahil' yerine dahil-hariç",
+                    paragraflar: [
+                        "Belirsiz ifadeler yerine dahil ve hariç kalemler ayrı yazıldığında farklı teklifler gerçekten karşılaştırılabilir. Nakliye sorumluluğu ve bölgesel mesafe farkı açıkça belirtilmelidir.",
+                        "Model belirtilmemişse kabul edilecek teknik sınırlar tanımlanır; sevkten önce model teyidi istenir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Bandırma dışı teslimatta nakliye nasıl gösterilmeli?", cevap: "Çıkış noktası, teslimat adresi (Erdek/Gönen/Biga vb.), sorumluluk ve ücret ile dönüş bildirim süresi yazılı teklifte ayrı ayrı belirtilmelidir." },
+                { soru: "Teklifte model yoksa ne yapmalı?", cevap: "Kabul edilecek teknik sınırlar (yükseklik, erişim, kapasite) tanımlanmalı; sevkten önce önerilen modelin verileri bu kriterlerle karşılaştırılmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
