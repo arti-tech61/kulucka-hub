@@ -3385,6 +3385,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "kutahyada-cam-ve-cini-uretiminde-yuksekte-calisma",
+            kategori: "Şehir & Sektör",
+            baslik: "Kütahya'da Cam ve Çini Üretiminde Yüksekte Çalışma",
+            ozet: "Çini ve cam atölyeleri ile üretim tesislerinde hassas erişim, fırın çevresi ve tavan işleri. Kütahya'nın geleneksel sanayisinde platform kullanımı.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Kütahya çini ve cam üretiminde yükseltici platformla çalışma",
+            tarih: "2026-06-20",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Kütahya, çini ve cam üretimiyle de tanınır. Bu atölye ve tesislerde yüksekte çalışma; hassas zemin, fırın çevresi ve dar geçiş koşulları getirir. Bu yazı, cam ve çini üretiminde platform kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Hassas ortam ve fırın çevresi",
+                    paragraflar: [
+                        "Çini ve cam atölyelerinde tavan aydınlatması, havalandırma ve fırın çevresi bakımı yapılır; iz bırakmayan lastik hassas zemine zarar vermez, elektrikli modeller sıfır emisyonla çalışır.",
+                        "Fırın ve ekipman engelinin arkasına erişimde eklemli platform değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Dar geçiş ve zemin",
+                    paragraflar: [
+                        "Atölye ve tesislerde dar geçiş ve kapı ölçüsü makine seçimini belirler; dar gövdeli makaslı veya dikey personel yükseltici çeviklik sağlar.",
+                        "Zeminin taşıma kapasitesi ve seramik/çini kaplı yüzey kontrol edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Çini atölyesinde hangi platform uygun?", cevap: "Dar geçiş ve hassas zemin nedeniyle dar gövdeli makaslı veya dikey personel yükseltici çevik bir çözümdür; engel aşma gerekiyorsa eklemli platform değerlendirilir." },
+                { soru: "Hassas zeminde iz bırakır mı?", cevap: "İz bırakmayan lastik seçenekleriyle çini ve cam atölyelerinin hassas zemini korunur; gerekirse koruyucu levha kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-makasli-mi-eklemli-mi-platform-secimi",
+            kategori: "Karşılaştırma",
+            baslik: "Kütahya'da Makaslı mı, Eklemli mi Platform?",
+            ozet: "Depo ve tavan işinde makaslı, fırın ve ekipman arkası erişimde eklemli. Kütahya seramik sanayisinde iş tipine göre seçim.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Kütahya'da makaslı ve eklemli platform seçimi",
+            tarih: "2026-06-17",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Kütahya'daki işlerin geometrisi makaslı ve eklemli arasındaki seçimi belirler. Bu yazı, iş tipine göre doğru sınıfı ayırt etmeyi anlatır.",
+            bolumler: [
+                {
+                    baslik: "Tam altından erişim: makaslı",
+                    paragraflar: [
+                        "Depo tavanı, aydınlatma ve düz cephe gibi tam altından erişilen işlerde makaslı platform ilk tercihtir; geniş sepetiyle birden fazla çalışan yükselir.",
+                        "Gıda ve hassas alanda elektrikli makaslı vardiya içinde çalışır.",
+                    ],
+                },
+                {
+                    baslik: "Engel arkası: eklemli",
+                    paragraflar: [
+                        "Fırın çevresi, kanal ve ekipman arkası erişimde makaslı yetersiz kalır; eklemlinin engel aşan bomu gerekir. Kütahya seramik tesislerinde bu tür engelli erişim sıktır.",
+                        "Seçim işin geometrisine göre yapılır; aynı projede iki tip de gerekebilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Fırın çevresi işinde hangisi?", cevap: "Fırın, kanal veya ekipman engelinin arkasına erişim gerekiyorsa eklemli platform; tam altından erişilen tavan/raf işlerinde makaslı yeterlidir." },
+                { soru: "İki tip aynı projede kullanılır mı?", cevap: "Evet; farklı iş kalemleri farklı sınıf gerektirebilir, kombine kiralama maliyeti düşürür." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-elektrikli-mi-dizel-mi-platform-secimi",
+            kategori: "Karşılaştırma",
+            baslik: "Kütahya'da Elektrikli mi, Dizel mi Platform?",
+            ozet: "Kapalı seramik tesisi işinde elektrikli, açık saha ve maden çevresinde dizel. Kütahya koşullarında güç kaynağı seçimi.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Kütahya'da elektrikli ve dizel platform seçimi",
+            tarih: "2026-06-14",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Kütahya'da güç kaynağı seçimi çalışma ortamına göre değişir: kapalı seramik ve üretim alanında elektrikli, açık saha ve maden çevresinde dizel. Bu yazı bu seçimi ele alır.",
+            bolumler: [
+                {
+                    baslik: "Kapalı alan: elektrikli",
+                    paragraflar: [
+                        "Kapalı seramik tesisi ve depoda sıfır emisyon ve düşük gürültü nedeniyle elektrikli modeller kullanılır; iz bırakmayan lastik hassas zemine zarar vermez. Şarj altyapısı ve vardiya planı baştan kurulur.",
+                        "Dar tesis içinde çeviklik ve dönüş alanı değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha: dizel",
+                    paragraflar: [
+                        "Açık saha, maden çevresi ve eğimli zeminde dizel modeller 4x4 çekiş ve jack sistemiyle güvenilirdir; yakıt ikmali hızlıdır. Kapalı alanda egzoz nedeniyle kullanılmaz.",
+                        "Doğru güç kaynağı; makine tipiyle birlikte saha koşuluna göre seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Seramik tesisinde dizel platform olur mu?", cevap: "Kapalı ve emisyona duyarlı seramik alanında elektrikli modeller tercih edilir; dizel açık saha içindir. Kapalı alanda dizel egzozu risk oluşturur." },
+                { soru: "Açık madende elektrikli çalışır mı?", cevap: "Kısa ve düz zeminli kullanım mümkün olsa da açık saha, eğim ve rüzgâr koşullarında dizel modeller daha güvenilirdir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-platform-nakliye-ve-teslimat-planlamasi",
+            kategori: "Maliyet",
+            baslik: "Kütahya'da Platform Nakliye ve Teslimat Planlaması",
+            ozet: "Kütahya merkez, Tavşanlı ve Gediz hattında rota, kabul saati ve nakliye ölçüsü. Teslimatta sık yapılan hatalar.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Kütahya'da platform teslimatı ve sevkiyat hazırlığı",
+            tarih: "2026-06-11",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Kütahya'da platform sevkiyatı, bölgesel mesafe ve saha koşullarına göre planlanır. Bu yazı, nakliye ve teslimat planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Rota ve saha kabulü",
+                    paragraflar: [
+                        "Nakliye; çıkış noktası ile Kütahya merkez, Tavşanlı veya Gediz arasındaki mesafe, güzergâh, tesis kabul saati ve indirme alanına göre planlanır. Nakliye aracının tesis kapısından dönüşü önceden sorulur.",
+                        "Seramik tesisi gibi sahalarda güvenlik kaydı ve randevu süreçleri plana girer.",
+                    ],
+                },
+                {
+                    baslik: "Nakliye ölçüsü ≠ çalışma ölçüsü",
+                    paragraflar: [
+                        "Makinenin nakliye ölçüsü çalışma ölçüsünden farklı olabilir; kapı, koridor ve rampa taşıma ölçüleriyle karşılaştırılır. Doğru ölçü paylaşımı makinenin sahaya girememesi gibi hataları önler.",
+                        "Nakliye sorumluluğu ve dönüş bildirim süresi yazılı teklifte belirtilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Tavşanlı/Gediz teslimatı nasıl planlanır?", cevap: "Mesafe, güzergâh, kabul saati ve indirme alanı önceden teyit edilir; nakliye ücreti ve sorumluluğu yazılı teklifte yer alır." },
+                { soru: "Makine sahaya sığmazsa?", cevap: "Bu yüzden nakliye ölçüsü kapı-koridor-rampa ölçüleriyle önceden karşılaştırılır. Doğru ölçü paylaşımı pahalı hataları önler." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-gunluk-haftalik-aylik-platform-kiralama",
+            kategori: "Maliyet",
+            baslik: "Kütahya'da Günlük, Haftalık, Aylık Platform Kiralama",
+            ozet: "Kiralama süresinin birim maliyete etkisi ve bölgesel nakliyeyle ilişkisi. Kütahya projelerinde doğru süre planlaması.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Kütahya'da uzun dönem kiralamaya uygun platform",
+            tarih: "2026-06-08",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Kütahya'da platform kiralamada süre, birim maliyeti doğrudan etkiler ve bölgesel nakliyeyle birlikte değerlendirilir. Bu yazı, süre planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Süre ve nakliye ilişkisi",
+                    paragraflar: [
+                        "Günlük, haftalık ve aylık kiralamada birim maliyet farklıdır; uzun dönem genellikle daha uygun bir aralığa yerleşir. Tavşanlı veya Gediz gibi uzak noktalarda uzun dönem, tekrarlı nakliye maliyetini azaltır.",
+                        "'Süre'; çalışma saati, vardiya ve atıl günleri kapsar.",
+                    ],
+                },
+                {
+                    baslik: "Doğru planlama",
+                    paragraflar: [
+                        "Başlangıç-bitiş tarihi ve günlük çalışma saati baştan yazılırsa sürpriz kalem oluşmaz. Kısa ama tekrarlı ihtiyaçta toplam gün ve tekrarlı nakliye karşılaştırılır.",
+                        "Kesin oran; makine, çalışma saati sınırı ve nakliye planına göre yazılı teklifte belirtilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Uzak bölgede uzun dönem daha mı mantıklı?", cevap: "Tavşanlı, Gediz gibi uzak noktalarda uzun dönem, tekrarlı nakliye maliyetini azaltarak toplam maliyeti düşürebilir. Karar iş süresine ve tekrar sıklığına göre verilir." },
+                { soru: "Atıl gün kapsama girer mi?", cevap: "Makinenin sahada olup çalışmadığı günler genellikle kapsama girer; bu yüzden başlangıç-bitiş tarihi ve çalışma günleri baştan tanımlanmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
