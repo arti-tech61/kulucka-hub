@@ -3054,6 +3054,173 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
         },
     ],
+    "kutahyaplatform.com": [
+        {
+            slug: "kutahyada-seramik-fabrikasinda-yuksekte-calisma",
+            kategori: "Şehir & Sektör",
+            baslik: "Kütahya'da Seramik Fabrikasında Yüksekte Çalışma",
+            ozet: "Fırın hattı üstü bakım, toz toplama kanalı ve tavan işlerinde ısı, toz ve dar geçiş koşullarında platform seçimi. Kütahya seramik tesislerine özgü.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Kütahya seramik fabrikasında yükseltici platformla hat üstü bakım",
+            tarih: "2026-07-20",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Kütahya'nın sanayisi seramik üretimiyle şekillenir. Seramik fabrikalarında yüksekte çalışma; ısı, toz, dar geçiş ve hassas zemin gibi kendine özgü koşullar getirir. Bu yazı, Kütahya seramik tesislerinde platform seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Fırın hattı ve toz koşulları",
+                    paragraflar: [
+                        "Fırın hattı üstü bakım, tavan aydınlatması, toz toplama kanalı ve dış cephe işleri seramik tesisinin tipik yüksekte çalışma noktalarıdır. Isı, toz ve dar geçiş bu işlerde erişim planını belirler; engel aşmalı noktalarda eklemli platform değerlendirilir.",
+                        "Toz yoğun ortamda günlük kontrolde filtre ve hareketli parçalara dikkat edilir.",
+                    ],
+                },
+                {
+                    baslik: "Bakım penceresi ve zemin",
+                    paragraflar: [
+                        "Fırın ve hat çevresindeki işler çoğu zaman planlı duruş penceresinde yapılır; makine, geçiş ölçüleri ve iş izni bu pencereye göre planlanır. Seramik kaplı bölüm ve fabrika betonu farklı zemin davranışı gösterir.",
+                        "İç mekân için elektrikli, açık saha için dizel modeller değerlendirilir; hassas yüzeyde iz bırakmayan lastik kullanılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Seramik fabrikasında hangi platform kullanılır?", cevap: "Tam altından erişilen tavan/hat işlerinde makaslı; fırın, kanal veya ekipman engelinin arkasına erişimde eklemli platform değerlendirilir. Isı, toz ve geçiş ölçüsü seçimi belirler." },
+                { soru: "Toz yoğun ortamda ek önlem gerekir mi?", cevap: "Evet; günlük kontrolde filtre, hareketli parça ve elektrik bağlantılarına ek dikkat gösterilir. Üretici bakım talimatı esastır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-makasli-platform-ile-depo-ve-tesis-isleri",
+            kategori: "Ürün Rehberi",
+            baslik: "Kütahya'da Makaslı Platform ile Depo ve Tesis İşleri",
+            ozet: "Depo rafı, tavan aydınlatması ve tesisatta dikey erişim. Kütahya seramik ve üretim tesislerinde makaslı platform kullanımı.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Kütahya tesisinde makaslı platformla depo ve tavan çalışması",
+            tarih: "2026-07-17",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'daki depo ve üretim tesislerinde iç mekân yüksekte çalışma çoğunlukla makaslı platformla yürür. Bu yazı, bu işlerde makaslı platform kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Makaslının tipik işleri",
+                    paragraflar: [
+                        "Depo tavanı, raf, aydınlatma ve düz cephe gibi tam altından erişilen işlerde makaslı platform ilk tercihtir; geniş sepetiyle birden fazla çalışan malzemeyle yükselir. Elektrikli modeller iç mekânda vardiya içinde çalışır.",
+                        "Engel aşma gereken (kanal, konveyör üstü) noktalarda makaslı yetersiz kalır; eklemli değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve koridor",
+                    paragraflar: [
+                        "Fabrika betonu ve seramik kaplı bölüm farklı taşıma davranışı gösterir; mazgal ve dilatasyon noktaları değerlendirilir. Koridor genişliği ve kapı yüksekliği makine ölçüsüyle karşılaştırılır.",
+                        "Hassas yüzeyde iz bırakmayan lastik ve gerekirse koruyucu levha kullanılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Depo tavanı işinde hangi platform?", cevap: "Tam altından erişilen tavan ve raf işlerinde makaslı platform yeterlidir; kanal veya ekipman engelinin arkasına erişimde eklemli platform değerlendirilir." },
+                { soru: "Seramik zeminde platform iz bırakır mı?", cevap: "İz bırakmayan lastik seçenekleriyle hassas seramik ve epoksi zeminde yüzey korunur; gerekirse koruyucu levha kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-platform-kiralama-fiyatini-etkileyen-unsurlar",
+            kategori: "Maliyet",
+            baslik: "Kütahya'da Platform Kiralama Fiyatını Etkileyen Unsurlar",
+            ozet: "Makine sınıfı, süre, nakliye (Tavşanlı, Gediz), operatör ve saha koşulunun maliyete etkisi. Kütahya'da teklif karşılaştırma.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Kütahya bölgesinde kiralamaya hazır platformlar",
+            tarih: "2026-07-14",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'da platform kiralama fiyatı tek bir günlük ücret değildir; makine sınıfı, süre, bölgesel nakliye ve saha koşulunun kesişiminde oluşur. Bu yazı, maliyeti belirleyen kalemleri açıklar.",
+            bolumler: [
+                {
+                    baslik: "Sınıf, süre ve nakliye",
+                    paragraflar: [
+                        "Erişim sınıfı (makaslı, eklemli, teleskopik) ve gereken yükseklik fiyatın ilk belirleyenidir. Süre; çalışma saati ve atıl günleri kapsar. Nakliye; Kütahya merkez, Tavşanlı ve Gediz hattındaki mesafeye ve rotaya göre değişir.",
+                        "Nakliye sorumluluğu ve ücreti yazılı teklifte belirtilir.",
+                    ],
+                },
+                {
+                    baslik: "Operatör ve saha",
+                    paragraflar: [
+                        "Operatörlü ve operatörsüz kiralama farklı fiyatlanır. Seramik tesisi gibi sahalarda istenen evrak ve giriş prosedürü kapsamı etkiler.",
+                        "Kesin stok, sabit fiyat veya teslimat sözü bu içerikte verilmez; uygunluk güncel makine durumu ve saha koşuluyla yazılı teklifte kesinleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Tavşanlı veya Gediz'e teslimat fiyatı değişir mi?", cevap: "Evet; nakliye bölgesel mesafeye ve güzergâha göre değişir. Çıkış noktası, adres ve ücret yazılı teklifte belirtilir." },
+                { soru: "Platform fiyatı neden peşin liste hâlinde verilmiyor?", cevap: "Fiyat; sınıf, süre, nakliye ve saha koşulunun kesişiminde oluşur. Bu değişkenler görülmeden verilen liste fiyatı yanıltıcı olur; doğru bedel yazılı teklifte belirlenir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-cephe-ve-cati-isinde-platform-secimi",
+            kategori: "Şehir & Sektör",
+            baslik: "Kütahya'da Cephe ve Çatı İşinde Platform Seçimi",
+            ozet: "Fabrika ve kamu binası cephe/çatı işlerinde engel aşan erişim. Kütahya'da saçak, peyzaj ve yükseklik koşullarında doğru sınıf.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Kütahya'da fabrika cephe ve çatı işinde yükseltici platform",
+            tarih: "2026-07-11",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'daki fabrika ve kamu binası cephelerinde çatı, saçak ve kaplama işleri çoğu zaman engel aşan erişim gerektirir. Bu yazı, cephe ve çatı işlerinde platform seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Cephe önü engelli mi?",
+                    paragraflar: [
+                        "Cephe önünde saçak, boru veya çıkıntı varsa eklemli platformun engel aşan bomu gerekir; düz ve açık cephede makaslı yeterli olabilir. Yüksek ve uzak noktada teleskopik değerlendirilir.",
+                        "Aynı projede farklı iş kalemleri farklı sınıf gerektirebilir.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve rüzgâr",
+                    paragraflar: [
+                        "Açık cephede rüzgâr limiti makineye özgüdür; zemin taşıma kapasitesi ve peyzaj yüzeyleri kontrol edilir. Kış aylarında buzlanma ve düşük sıcaklık ek önlem gerektirir.",
+                        "Faaliyet süren binalarda çalışma alanı ayrılır ve alt alan korunur.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Fabrika cephesi için hangi platform?", cevap: "Cephe önü açıksa makaslı, engel (saçak, boru) varsa eklemli, yüksek/uzak noktada teleskopik değerlendirilir. Saha geometrisi ve rüzgâr çalışma öncesinde kontrol edilir." },
+                { soru: "Kışın cephe işi yapılabilir mi?", cevap: "Yapılabilir ancak buzlanma, rüzgâr ve düşük sıcaklık ek önlem gerektirir; zemin kontrolü ve durdurma kriterleri baştan belirlenir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-manlift-kiralarken-saha-kesfi-ve-olcum",
+            kategori: "Ürün Rehberi",
+            baslik: "Kütahya'da Platform Kiralarken Saha Keşfi ve Ölçüm",
+            ozet: "Doğru makine doğru ölçümle başlar. Çalışma yüksekliği, yatay erişim, engel, zemin ve giriş ölçüleri; Kütahya sahalarında talep dosyası hazırlığı.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Kütahya sahasında platform için keşif ve ölçüm",
+            tarih: "2026-07-08",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'da platform kiralamanın en sık hatası, sahayı yeterince tarif etmeden makine istemektir. Doğru makine, işin geometrisini doğru ölçmekle başlar. Bu yazı, keşif ve ölçümde kaydedilmesi gerekenleri anlatır.",
+            bolumler: [
+                {
+                    baslik: "Üç değeri ayrı ölçün",
+                    paragraflar: [
+                        "Çalışma noktasının yüksekliği, makinenin kurulabileceği en yakın sağlam zeminden yatay uzaklık ve arada aşılması gereken engelin konumu ayrı ölçülür. Seramik tesislerinde fırın, kanal ve ekipman engeli sıktır; bu, sınıf seçimini belirler.",
+                        "Ölçüler fotoğrafla, başlangıç ve hedef noktası işaretlenerek paylaşılırsa yanlış yorum azalır.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve giriş",
+                    paragraflar: [
+                        "Fabrika betonu, seramik kaplı bölüm ve açık stok alanı farklı taşıma davranışı gösterir; kapasite belirsizse tahmin yürütülmez. Kapı, koridor ve dönüş alanı makinenin ölçüleriyle karşılaştırılır.",
+                        "Eksiksiz saha dosyası, teklifleri aynı iş tanımıyla karşılaştırmayı sağlar.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Keşif için sahaya gelinmeli mi?", cevap: "Çoğu talep doğru ölçü ve fotoğrafla uzaktan ön değerlendirilebilir. Karmaşık erişim veya belirsiz zeminde yerinde inceleme gerekip gerekmediği ayrıca kararlaştırılır." },
+                { soru: "Hangi ölçüleri paylaşmalıyım?", cevap: "Çalışma yüksekliği, yatay erişim, engel geometrisi, zemin durumu, kapı-koridor ölçüleri, sepette taşınacak yük ve saha giriş koşulları. Fotoğrafta işaretleme değerlendirmeyi hızlandırır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+    ],
 };
 
 export function hostBloglari(host: string): BlogYazisi[] {
