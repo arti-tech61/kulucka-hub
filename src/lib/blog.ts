@@ -4620,6 +4620,91 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "bilecikte-sepet-kapasitesi-ve-calisma-diyagrami",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Sepet Kapasitesi ve Çalışma Diyagramı",
+            ozet: "Azami değerler her konumda birlikte geçerli değildir. Çalışma diyagramı ve kalan sepet kapasitesini doğru okuma.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Yükseltici platform sepetinde personel ve malzeme yükü",
+            tarih: "2026-06-23", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te platform kiralarken teklifte yalnız yükseklik yazması yeterli değildir; azami erişim ve azami yük çoğu zaman aynı anda kullanılamaz.",
+            bolumler: [
+                { baslik: "Çalışma diyagramı", paragraflar: ["Çalışma diyagramı her nokta için izin verilen sepet yükünü gösterir; erişim uzadıkça izin verilen yük düşer. Kalan kapasite işin en zorlu noktasına göre kontrol edilir.", "Model belli değilse kabul kriterleri tanımlanır."] },
+                { baslik: "Sepet yükünü hesaplamak", paragraflar: ["Sepet yükü personel + el aleti + malzemedir; geniş yüzeyli malzeme rüzgâr etkisini artırır. En zorlu kombinasyon teknik föyden teyit edilir.", "Payı doğru modelle bırakmak gerekir."] },
+            ],
+            sss: [
+                { soru: "Azami yükseklik ve erişim birlikte olur mu?", cevap: "Bom uzadıkça izin verilen yük ve erişim değişir; çalışma diyagramı her konum için değeri gösterir." },
+                { soru: "Kalan kapasiteyi nasıl öğrenirim?", cevap: "Modelin çalışma diyagramından hedef noktadaki değer okunur; model belli değilse kabul kriterleri tanımlanır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-platform-yukseklik-siniflari-secimi",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Platform Yükseklik Sınıfları Nasıl Seçilir?",
+            ozet: "İç mekân orta yükseklikten yüksek endüstriyel erişime kadar sınıf seçimi. Bilecik seramik ve metal işlerinde doğru yükseklik.",
+            gorsel: blogGorsel.depo, gorselAlt: "Bilecik'te farklı yükseklik sınıfında platformlar",
+            tarih: "2026-06-20", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te platform kiralarken 'kaç metre?' tek başına yeterli değildir; aynı yükseklikte farklı erişim ve kapasite bulunur.",
+            bolumler: [
+                { baslik: "16-20 metre", paragraflar: ["Fabrika içi tesisat, depo tavanı ve orta yükseklikteki işleri karşılar; elektrikli modeller yaygındır. Yatay erişim sınırlıdır.", "Engelin ötesine uzanılan işlerde üst sınıf değerlendirilir."] },
+                { baslik: "28-43 metre", paragraflar: ["Yüksek cephe, silo ve baca işleri için; genellikle dizel/4x4. Erişim arttıkça sepet yükü ve rüzgâr limiti değişir.", "Sınıf en zorlu noktaya göre seçilir."] },
+            ],
+            sss: [
+                { soru: "16 metre hangi işlere yeter?", cevap: "Fabrika içi tesisat ve orta yükseklikteki işlere yeter; yüksek cephe/silo işlerinde 28-43 metre değerlendirilir." },
+                { soru: "Yükseklikle kapasite düşer mi?", cevap: "Evet; erişim ve yükseklik arttıkça izin verilen sepet yükü değişebilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-makasli-mi-eklemli-mi-platform-secimi",
+            kategori: "Karşılaştırma", baslik: "Bilecik'te Makaslı mı, Eklemli mi Platform?",
+            ozet: "Depo ve tavan işinde makaslı, baca ve ekipman arkası erişimde eklemli. Bilecik'te iş tipine göre seçim.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Bilecik'te makaslı ve eklemli platform seçimi",
+            tarih: "2026-06-17", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki işlerin geometrisi makaslı ve eklemli arasındaki seçimi belirler. Bu yazı iş tipine göre doğru sınıfı ayırt etmeyi anlatır.",
+            bolumler: [
+                { baslik: "Tam altından erişim: makaslı", paragraflar: ["Depo tavanı, aydınlatma ve düz cephe gibi tam altından erişilen işlerde makaslı ilk tercihtir.", "Kapalı alanda elektrikli makaslı vardiya içinde çalışır."] },
+                { baslik: "Engel arkası: eklemli", paragraflar: ["Baca, kanal ve ekipman arkası erişimde makaslı yetersiz kalır; eklemlinin engel aşan bomu gerekir.", "Seçim işin geometrisine göre yapılır."] },
+            ],
+            sss: [
+                { soru: "Baca çevresi işinde hangisi?", cevap: "Baca, kanal veya ekipman engelinin arkasına erişimde eklemli; tam altından erişilen işlerde makaslı." },
+                { soru: "İki tip aynı projede olur mu?", cevap: "Evet; farklı iş kalemleri farklı sınıf gerektirebilir, kombine kiralama maliyeti düşürür." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-emniyet-kemeri-ve-ankraj-noktasi",
+            kategori: "Güvenlik", baslik: "Bilecik'te Emniyet Kemeri ve Ankraj Noktası",
+            ozet: "Eklemli ve teleskopik platformlarda fırlama etkisine karşı tam vücut kemeri ve doğru ankraj; makaslıdan farkı.",
+            gorsel: blogGorsel.tesisat, gorselAlt: "Yükseltici platformda emniyet donanımıyla çalışma",
+            tarih: "2026-06-14", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki tesis işlerinde eklemli/teleskopik platform kullanımı yaygındır; fırlama etkisine karşı bağlantı sistemi kritiktir.",
+            bolumler: [
+                { baslik: "Fırlama etkisi ve bağlantı", paragraflar: ["Eklemli/teleskopikte ani hareket fırlama etkisi oluşturabilir; üretici talimatına uygun tam vücut kemeri ve bağlantı sistemi kullanılır, kemer işaretli ankraj noktasına bağlanır.", "Yanlış nokta koruma sistemini işlevsiz bırakır."] },
+                { baslik: "Makaslıdan farkı", paragraflar: ["Makaslıda fırlama etkisi yoktur; korkuluk sağlamsa kemer üretici aksini demedikçe zorunlu değildir.", "Kemer kullanılan her yerde kurtarma planı gerekir."] },
+            ],
+            sss: [
+                { soru: "Makaslıda kemer şart mı?", cevap: "Korkuluğu sağlam makaslıda zorunlu değildir; eklemli/teleskopikte bağlantı sistemi gerekir." },
+                { soru: "Kemer nereye bağlanır?", cevap: "Korkuluğa değil, üretici tarafından işaretlenmiş ankraj noktasına." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-platform-periyodik-ve-gunluk-kontrol",
+            kategori: "Güvenlik", baslik: "Bilecik'te Platform Periyodik ve Günlük Kontrol",
+            ozet: "Yıllık periyodik kontrol ile vardiya öncesi günlük kontrol farkı ve kiralık makinede sorumluluk paylaşımı.",
+            gorsel: blogGorsel.makinePark, gorselAlt: "Bilecik'te kontrolü yapılmış kiralık platform",
+            tarih: "2026-06-11", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Platform güvenliğinin iki katmanı vardır: yıllık periyodik kontrol ve vardiya öncesi günlük kontrol. Bu yazı Bilecik'te kiralık platformda bunları anlatır.",
+            bolumler: [
+                { baslik: "Periyodik ve günlük", paragraflar: ["Yükseltici platformlar yılda en az bir kez yetkili teknik elemanca periyodik kontrolden geçer. Her vardiya öncesi operatör fren, acil stop, acil indirme ve denge sensörünü test eder.", "İkisi birbirinin yerine geçmez."] },
+                { baslik: "Kiralıkta sorumluluk", paragraflar: ["Periyodik kontrol raporunu kiraya veren sağlar; günlük kontrol kiracıya aittir. Paylaşım sözleşmede yazılıdır.", "Rapor makineyle sahada bulunur."] },
+            ],
+            sss: [
+                { soru: "Kontrol raporu kimde?", cevap: "Periyodik kontrol raporunu kiraya veren sağlar; günlük vardiya öncesi kontrol kiracıya aittir." },
+                { soru: "Günlük kontrol neden önemli?", cevap: "Ciddi kazaların önemli bölümü günlük kontrolde yakalanabilecek arızalardan çıkar." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
