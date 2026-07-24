@@ -2345,7 +2345,7 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
         },
         {
-            slug: "izmir-liman-ve-konteyner-elleçlemede-forklift",
+            slug: "izmir-liman-ve-konteyner-elleclemede-forklift",
             kategori: "Şehir & Sektör",
             baslik: "İzmir Liman ve Konteyner Elleçlemede Forklift",
             ozet: "Alsancak Limanı ve Aliağa hattında ağır yük, konteyner ve açık saha elleçlemesinde dizel forklift kullanımı ve saha koşulları.",
