@@ -4875,6 +4875,108 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bilecikte-dizel-eklemli-platform-acik-saha-erisim",
+            kategori: "Ürün Rehberi", baslik: "Bilecik'te Dizel Eklemli Platform: Açık Saha Erişimi",
+            ozet: "Şantiye, çelik montaj ve açık saha işlerinde 4x4 çekiş ve yüksek erişim. Dizel eklemli platformun açık saha avantajları.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Bilecik açık sahasında dizel eklemli platformla çalışma",
+            tarih: "2026-05-09", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in açık saha ve şantiye işlerinde dizel eklemli platform güç ve dayanım sunar. Bu yazı dizel eklemlinin açık saha avantajlarını anlatır.",
+            bolumler: [
+                { baslik: "Açık sahanın gücü", paragraflar: ["Dizel eklemli modeller 4x4 çekiş ve jack sistemiyle eğimli ve gevşek zeminde güvenilirdir; yüksek erişim sınıflarında yaygındır. Yakıt ikmali hızlıdır.", "Taşıma kapasitesi belirsizse çelik plaka serilir."] },
+                { baslik: "Kapalı alan kısıtı", paragraflar: ["Havalandırması sınırlı kapalı alanda dizel egzozu risk oluşturur; kapalı alanın çözümü elektriklidir.", "Doğru güç kaynağı saha koşuluna göre seçilir."] },
+            ],
+            sss: [
+                { soru: "Dizel eklemli her zeminde çalışır mı?", cevap: "Çoğu açık saha zemininde; taşıma kapasitesi belirsiz veya çok yumuşak zeminde önce uygunluk değerlendirilir." },
+                { soru: "Kapalı binada dizel olur mu?", cevap: "Havalandırması sınırlı kapalı alanda dizel kullanılmaz; elektrikli değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-sarkma-travmasi-ve-kurtarma-plani",
+            kategori: "Güvenlik", baslik: "Bilecik'te Sarkma Travması ve Kurtarma Planı",
+            ozet: "Kemerle düşmeyi durdurmak yalnız ilk adımdır. Asılı kalma dakikalar içinde hayati risk oluşturur; kurtarma planı neden zorunlu?",
+            gorsel: blogGorsel.tesisat, gorselAlt: "Bilecik'te güvenli çalışma ve kurtarma hazırlığı",
+            tarih: "2026-05-06", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki tesis ve saha işlerinde kemer kullanımı yaygındır; ancak kemerle düşmeyi durdurmak tehlikenin sonu değildir.",
+            bolumler: [
+                { baslik: "Asılı kalma neden tehlikeli?", paragraflar: ["Kemerle asılı kalan kişide bacak kayışları kan dolaşımını kısıtlar; dakikalar içinde bilinç kaybı ve tedavisiz kalırsa hayati tehlike doğar.", "Risk kurtarmanın gecikmesinden kaynaklanır."] },
+                { baslik: "Kurtarma planı zorunlu", paragraflar: ["Her yüksekte çalışma için önceden planlanmış kurtarma prosedürü gerekir; sahadaki platform çoğu durumda en hızlı kurtarma aracıdır.", "Plan yazılı olmalı ve tatbik edilmelidir."] },
+            ],
+            sss: [
+                { soru: "Ne kadar sürede kritik olur?", cevap: "Kaynaklarda dakikalar içinde belirti başlayabileceği belirtilir; kurtarma ne kadar hızlıysa risk o kadar azalır. Bu içerik tıbbi tavsiye değildir." },
+                { soru: "Kurtarma planı şart mı?", cevap: "Yüksekte çalışma riski taşıyan her sahada hızlı müdahale yöntemi önceden planlanmış olmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-kamu-binasi-ve-okul-bakiminda-platform",
+            kategori: "Şehir & Sektör", baslik: "Bilecik'te Kamu Binası ve Okul Bakımında Platform",
+            ozet: "Kamu binaları, okul ve spor salonu bakımında tavan, aydınlatma ve cephe erişimi. Faaliyet süren binalarda güvenli çalışma.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Bilecik kamu binasında yükseltici platformla bakım",
+            tarih: "2026-05-03", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki kamu binaları, okullar ve spor salonlarında düzenli bakım yapılır: tavan aydınlatması, havalandırma ve cephe işleri.",
+            bolumler: [
+                { baslik: "İç mekân yüksek tavan", paragraflar: ["Spor ve konferans salonu ile okul koridorlarında yüksek tavan işlerinde makaslı platform tam altından erişim sağlar; elektrikli modeller sıfır emisyonla çalışır.", "Engel aşma gereken noktalarda eklemli değerlendirilir."] },
+                { baslik: "Faaliyet ve güvenlik", paragraflar: ["Bakım tatil/ders dışı saatlere planlanır, alan bariyerle ayrılır ve alt alan korunur.", "Üst kat döşemesinde taşıma kapasitesi kontrol edilir."] },
+            ],
+            sss: [
+                { soru: "Spor salonu tavanı için hangi platform?", cevap: "Yüksek ve düz tavanda makaslı; engelli noktalarda eklemli değerlendirilir." },
+                { soru: "Okulda ders sırasında bakım olur mu?", cevap: "Genellikle ders/tatil dışı saatlere planlanır; alan bariyerle ayrılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-yuksekte-calismada-ruzgar-ve-hava-kosullari",
+            kategori: "Güvenlik", baslik: "Bilecik'te Yüksekte Çalışmada Rüzgâr ve Hava Koşulları",
+            ozet: "Açık saha işlerinde rüzgâr limitinin makineye özgü olması ve durdurma kriterinin baştan tanımlanması.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Bilecik'te açık sahada rüzgâr koşullarında çalışma",
+            tarih: "2026-04-30", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in açık saha işlerinde rüzgâr, güvenliğin belirleyici koşullarındandır. Bu yazı rüzgâr limitini ve hava koşulunun iş planına etkisini ele alır.",
+            bolumler: [
+                { baslik: "Rüzgâr limiti makineye özgü", paragraflar: ["Tek bir güvenli rüzgâr değeri yoktur; limit makineye, modele ve erişime göre değişir ve uzayan erişimle düşebilir. Çalışma öncesinde teknik föy ve bilgi plakası kontrol edilir.", "Geniş yüzeyli malzeme rüzgâr etkisini artırır."] },
+                { baslik: "Durdurma kriterini yazın", paragraflar: ["Hangi rüzgâr, yağış veya görüş değerinde işin duracağı baştan yazılır.", "Sınır aşıldığında platform indirilir."] },
+            ],
+            sss: [
+                { soru: "Güvenli rüzgâr sınırı kaçtır?", cevap: "Sabit değer yoktur; limit makineye ve erişime göre değişir. Seçilen modelin teknik föyü esas alınır." },
+                { soru: "Yağmurda çalışılır mı?", cevap: "Yoğun yağış ve düşük görüşte dış mekân operasyonları genellikle durdurulur." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-metal-isleme-tesisinde-platform-kullanimi",
+            kategori: "Şehir & Sektör", baslik: "Bilecik'te Metal İşleme Tesisinde Platform Kullanımı",
+            ozet: "Metal işleme ve montaj tesislerinde vinç altı, hat üstü ve çelik yapı erişiminde platform. Bilecik metal sanayisine özgü.",
+            gorsel: blogGorsel.tesisat, gorselAlt: "Bilecik metal işleme tesisinde yükseltici platformla çalışma",
+            tarih: "2026-04-27", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'in metal işleme ve montaj tesislerinde yüksekte çalışma; çelik yapı, hat üstü ve vinç altı erişim gerektirir. Bu yazı metal sanayisinde platform kullanımını ele alır.",
+            bolumler: [
+                { baslik: "Çelik yapı ve hat üstü", paragraflar: ["Çelik konstrüksiyon, vinç kirişi ve hat üstü bakımda engel aşmalı erişimde eklemli, açık ve uzak noktada teleskopik değerlendirilir. Kapalı tesiste elektrikli modeller çalışır.", "Sepet yükü ve kalan kapasite çalışma diyagramından kontrol edilir."] },
+                { baslik: "Zemin ve güvenlik", paragraflar: ["Fabrika betonu genellikle taşıyıcıdır; büyük açıklıklı montajda güvenlik ağı birlikte planlanır.", "Alan izolasyonu ve vardiya öncesi kontrol uygulanır."] },
+            ],
+            sss: [
+                { soru: "Çelik montajda hangi platform?", cevap: "Engel aşmalı noktalarda eklemli, açık ve uzak noktada teleskopik; büyük açıklıklı montajda güvenlik ağı birlikte planlanır." },
+                { soru: "Vinç altı işte platform kullanılır mı?", cevap: "Vinç hareket zarfı ve iş koordinasyonu planlanarak, çalışma bölgesi ayrılarak kullanılır; saha risk değerlendirmesi esastır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-platform-nakliye-ve-teslimat-planlamasi",
+            kategori: "Maliyet", baslik: "Bilecik'te Platform Nakliye ve Teslimat Planlaması",
+            ozet: "Bozüyük, Osmaneli ve Söğüt hattında rota, kabul saati ve nakliye ölçüsü. Teslimatta sık yapılan hatalar.",
+            gorsel: blogGorsel.forkliftDepo, gorselAlt: "Bilecik'te platform teslimatı ve sevkiyat hazırlığı",
+            tarih: "2026-04-24", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te platform sevkiyatı bölgesel mesafe ve saha koşullarına göre planlanır. Bu yazı nakliye ve teslimat planlamasını ele alır.",
+            bolumler: [
+                { baslik: "Rota ve saha kabulü", paragraflar: ["Nakliye; çıkış noktası ile Bozüyük, Osmaneli veya Söğüt arasındaki mesafe, güzergâh, tesis kabul saati ve indirme alanına göre planlanır. OSB güvenlik kapısı ve randevu plana girer.", "Nakliye sorumluluğu ve ücreti yazılı teklifte belirtilir."] },
+                { baslik: "Nakliye ölçüsü ≠ çalışma ölçüsü", paragraflar: ["Makinenin nakliye ölçüsü çalışma ölçüsünden farklı olabilir; kapı, koridor ve rampa taşıma ölçüleriyle karşılaştırılır.", "Doğru ölçü paylaşımı makinenin sahaya girememesini önler."] },
+            ],
+            sss: [
+                { soru: "Bozüyük/Söğüt teslimatı nasıl planlanır?", cevap: "Mesafe, güzergâh, kabul saati ve OSB randevusu önceden teyit edilir; nakliye ücreti ve sorumluluğu yazılı teklifte yer alır." },
+                { soru: "Makine sahaya sığmazsa?", cevap: "Nakliye ölçüsü kapı-koridor-rampa ölçüleriyle önceden karşılaştırılır; doğru ölçü pahalı hataları önler." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
