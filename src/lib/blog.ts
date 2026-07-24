@@ -2079,7 +2079,7 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
     ],
-    "izmirforklift.net": [
+    "izmirforkliftkiralama.net": [
         {
             slug: "izmirde-forklift-kiralama-kapasite-secimi-rehberi",
             kategori: "Ürün Rehberi",
