@@ -1302,6 +1302,138 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bandirmada-cati-ve-cephe-isinde-eklemli-teleskopik-platform",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Çatı ve Cephe İşinde Eklemli/Teleskopik Platform",
+            ozet: "Fabrika çatısı, cephe kaplama ve saçak arkası işlerinde engel aşan erişim. Bandırma sanayi ve konut cephelerinde doğru platform sınıfı.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Bandırma'da fabrika cephesi ve çatı işinde yükseltici platform",
+            tarih: "2026-06-30",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'daki fabrika ve konut cephelerinde çatı, saçak ve kaplama işleri çoğu zaman engel aşan erişim gerektirir. Bu yazı, cephe ve çatı işlerinde eklemli ve teleskopik platform seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Cephe önünde engel varsa eklemli",
+                    paragraflar: [
+                        "Cephe önünde saçak, boru, peyzaj veya farklı kotlarda çıkıntı varsa eklemli platformun engel aşan bomu gerekir; makine engelin yanına kurulur, sepet cephenin önüne ulaştırılır.",
+                        "Düz ve önü açık cephede makine tam altına konulabiliyorsa makaslı da yeterli olabilir; seçim saha geometrisine göre yapılır.",
+                    ],
+                },
+                {
+                    baslik: "Yüksek ve uzak nokta için teleskopik",
+                    paragraflar: [
+                        "Yüksek fabrika cepheleri, silo ve baca gibi işlerde makineyi işin uzağına kurmak gerektiğinde teleskopik platformun uzun yatay erişimi öne çıkar. Açık sahada rüzgâr limiti ve zemin koşulu bu seçimde belirleyicidir.",
+                        "Aynı projede farklı iş kalemleri farklı sınıf gerektirebilir; kombine kiralama duruş süresini kısaltır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Fabrika çatı kenarı işinde hangi platform?", cevap: "Çatı kenarına saçak veya çıkıntı arkasından erişiliyorsa eklemli; açık ve uzak bir noktaya erişiliyorsa teleskopik değerlendirilir. Saha geometrisi ve rüzgâr koşulu çalışma öncesinde kontrol edilir." },
+                { soru: "Cephede rüzgâr çalışmayı etkiler mi?", cevap: "Evet; açık cephe işlerinde rüzgâr limiti makineye özgüdür ve erişim yükseldikçe önem kazanır. Durdurma kriteri iş başlamadan yazılmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirma-sanayi-tesislerinde-yuksekte-calisma-planlamasi",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma Sanayi Tesislerinde Yüksekte Çalışma Planlaması",
+            ozet: "Gıda, gübre, kimya ve enerji tesislerinde üretim hattı üstü, baca ve depo işlerinde platform planlaması, iş izni ve emisyon koşulları.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Bandırma sanayi tesisinde yükseltici platformla hat üstü çalışma",
+            tarih: "2026-06-27",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'nın sanayi dokusu gıda, gübre, kimya ve enerji tesislerini kapsar. Bu tesislerde yüksekte çalışma, üretim ve emisyon kurallarıyla iç içedir. Bu yazı, sanayi tesislerinde platform planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Hat üstü, baca ve depo işleri",
+                    paragraflar: [
+                        "Üretim hattı üstü bakım, baca ve kanal kontrolü, depo rafı ve dış cephe işleri farklı erişim gerektirir. Engel aşmalı noktalarda eklemli, açık ve uzak noktalarda teleskopik, tam altından erişilen işlerde makaslı değerlendirilir.",
+                        "Üretim kesintisi penceresine uygun makine, geçiş ölçüleri ve iş izin süreci önceden doğrulanır.",
+                    ],
+                },
+                {
+                    baslik: "Emisyon ve iş izni",
+                    paragraflar: [
+                        "Kimya ve gıda tesislerinde emisyon kısıtı olan alanlarda elektrikli, açık saha ve zorlu zeminde dizel modeller değerlendirilir. Sıcak iş izni, gaz ölçümü ve giriş prosedürü işletilir.",
+                        "Makine evrakı, operatör yeterliliği ve istenen belgeler teklif öncesinde tesisle karşılıklı doğrulanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Kimya tesisinde hangi güç kaynağı gerekir?", cevap: "Emisyon veya kıvılcım kısıtı olan bölgelerde elektrikli modeller ya da tesisin özel şartlarına uygun makineler değerlendirilir. Şartlar tesis prosedürü ve iş izniyle belirlenir." },
+                { soru: "Üretim durmadan bakım yapılabilir mi?", cevap: "Çalışma bölgesi izole edilerek bazı işler üretim sürerken yapılabilir; ancak hat üstü ve riskli işler genellikle planlı duruş penceresinde yürütülür. Karar saha risk değerlendirmesine göre verilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-teleskopik-platform-ile-yuksek-erisim",
+            kategori: "Ürün Rehberi",
+            baslik: "Bandırma'da Teleskopik Platform ile Yüksek Erişim",
+            ozet: "Yüksek yapı, silo ve enerji tesisi işlerinde açık doğrultuda uzun yatay erişim. Teleskopik platformun Bandırma sanayisindeki kullanım alanları.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Bandırma'da yüksek erişim için teleskopik platformla çalışma",
+            tarih: "2026-06-24",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'nın liman, enerji ve sanayi sahalarında bazı işler hem yüksek hem uzak noktaya erişim gerektirir. Bu noktada teleskopik platform öne çıkar. Bu yazı, teleskopik platformun kullanım alanlarını ve sınırlarını anlatır.",
+            bolumler: [
+                {
+                    baslik: "Teleskopik ne zaman doğru seçim?",
+                    paragraflar: [
+                        "Teleskopik bom tek doğrultuda uzar; aynı yükseklik sınıfında en uzun yatay erişimi verir. Makineyi işin uzağına kurmak zorunda olduğunuz açık cephe, silo, baca ve enerji tesisi işlerinde doğru seçimdir.",
+                        "Engel aşma kabiliyeti sınırlıdır: bomun önünde yapı varsa eklemliye dönmek gerekir. Uzun bomun salınımı nedeniyle hassas montajda eklemli daha konforlu olabilir.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha koşulları",
+                    paragraflar: [
+                        "Yüksek erişim sınıfları genellikle dizel ve 4x4 modellerle karşılanır; eğim, gevşek zemin ve rüzgâr açık sahada belirleyicidir. Rüzgâr limiti makineye özgüdür ve erişim yükseldikçe önem kazanır.",
+                        "Zemin taşıma kapasitesi doğrulanmadan platform yükseltilmez; gerekirse jack sistemi ve çelik plaka değerlendirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teleskopik ve eklemli arasında nasıl seçim yaparım?", cevap: "Arada engel varsa eklemli, engel yok ama nokta uzaktaysa teleskopik. Teleskopik açık doğrultuda daha uzun erişim verir; engel aşamaz." },
+                { soru: "Teleskopik platform rüzgârdan çok mu etkilenir?", cevap: "Uzayan bom rüzgâr etkisini artırır; rüzgâr limiti makineye özgüdür ve yüksek erişimde önem kazanır. Çalışma öncesinde teknik föy ve bilgi plakası kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-operatorlu-manlift-kiralama-ne-zaman-gerekir",
+            kategori: "Ürün Rehberi",
+            baslik: "Bandırma'da Operatörlü Manlift Kiralama Ne Zaman Gerekir?",
+            ozet: "Liman, tersane ve tesis işlerinde operatörlü mü operatörsüz mü? Yetkinlik, saha oryantasyonu ve belge gereksinimi açısından karar rehberi.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Bandırma'da operatörlü kiralamaya hazır manlift makineleri",
+            tarih: "2026-06-21",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'nın liman, tersane ve tesis işlerinde operatör kararı hem güvenliği hem maliyeti etkiler. Bu yazı, operatörlü ve operatörsüz manlift kiralama arasındaki farkı ve karar ölçütlerini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Operatörlü kiralama ne sağlar?",
+                    paragraflar: [
+                        "Kısa süreli, tek seferlik veya kendi ekibinizde yetkin operatör bulunmayan işlerde operatörlü kiralama hem güvenli hem pratik olur. Liman ve tersane gibi özel sahalarda saha oryantasyonu ve giriş prosedürü de kapsama girer.",
+                        "Operatörlü hizmette vardiya, fazla çalışma ve yol-konaklama teklifte ayrı ayrı görülmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Operatörsüz kiralamada sorumluluk",
+                    paragraflar: [
+                        "Operatörsüz kiralamada makineyi kullanacak kişinin yetkinliği ve teslim eğitimi önem kazanır. Operatör belgesi gerekliliği; görev, ekipman sınıfı, işveren prosedürü ve mevzuata göre belirlenir ve yetkili İSG birimi ile resmî kaynaklardan doğrulanır.",
+                        "Uzun süreli projelerde kendi yetkin operatörünüzle operatörsüz kiralama ekonomik olabilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Liman sahasında operatörlü kiralama şart mı?", cevap: "Şart değildir ama liman/tersane gibi özel sahalarda ekipmanı ve saha kurallarını tanıyan bir operatörle çalışmak güvenliği artırır. Kendi yetkin ekibiniz varsa operatörsüz de olabilir." },
+                { soru: "Operatör belgesi gerekliliği nasıl belirlenir?", cevap: "Görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir; kesin şartlar yetkili İSG birimi ve resmî kaynaklardan doğrulanmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
