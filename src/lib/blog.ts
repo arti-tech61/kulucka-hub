@@ -904,6 +904,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
         },
+        {
+            slug: "eklemli-platform-kiralarken-saha-kesfi-ve-olcum",
+            kategori: "Ürün Rehberi",
+            baslik: "Eklemli Platform Kiralarken Saha Keşfi ve Ölçüm",
+            ozet: "Doğru makine, doğru ölçümle başlar. Çalışma yüksekliği, yatay erişim, engel geometrisi, zemin ve giriş ölçüleri; talep dosyasında paylaşılması gereken bilgiler.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Saha keşfinde çalışma yüksekliği ve erişim ölçümü",
+            tarih: "2026-06-28",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Eklemli platform seçiminde en sık hata, sahayı yeterince tarif etmeden makine istemektir. Doğru makine, işin geometrisini doğru ölçmekle başlar. Bu yazı, keşif ve ölçümde nelerin kaydedilmesi gerektiğini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Üç değeri ayrı ölçün",
+                    paragraflar: [
+                        "Çalışma noktasının yerden yüksekliği, makinenin kurulabileceği en yakın sağlam zeminden çalışma noktasına yatay uzaklık ve arada aşılması gereken engelin konumu ayrı ayrı ölçülür. 'Bina yaklaşık on metre' demek, çalışanın el seviyesini, parapeti ve yatay uzaklığı vermez.",
+                        "Ölçüler fotoğrafla birlikte, başlangıç ve hedef noktası işaretlenerek paylaşılırsa yanlış yorum azalır. Fotoğraf ölçek vermediği için gerçek ölçülerin yerini tutmaz.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve giriş",
+                    paragraflar: [
+                        "Zeminin taşıma kapasitesi, eğim, kurulum ve kuyruk dönüş alanı kaydedilir. Kapı, koridor, rampa ve dönüş cebi; makinenin nakliye ve çalışma ölçüleriyle karşılaştırılır. Sahaya giriş, ayrı ölçülmesi gereken bir iştir.",
+                        "Çevrede devam eden operasyon, trafik ve varsa enerji hattı da not edilir. Eksiksiz saha dosyası, farklı tedarikçilerin aynı iş tanımı üzerinden teklif vermesini sağlar.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Keşif için mutlaka sahaya gelinmeli mi?", cevap: "Çoğu talep, doğru ölçü ve fotoğraflarla uzaktan ön değerlendirilebilir. Karmaşık erişim veya belirsiz zemin koşullarında yerinde inceleme gerekip gerekmediği ayrıca kararlaştırılır." },
+                { soru: "Hangi ölçüleri paylaşmalıyım?", cevap: "Çalışma yüksekliği, yatay erişim, engel geometrisi, zemin durumu, kapı-koridor-rampa ölçüleri, sepette taşınacak yük ve saha giriş koşulları. Fotoğrafta başlangıç ve hedef noktası işaretlenirse değerlendirme hızlanır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platform-teklif-dosyasinda-nelere-dikkat-edilir",
+            kategori: "Maliyet",
+            baslik: "Eklemli Platform Teklifinde Nelere Dikkat Edilir?",
+            ozet: "Yazılı teklifte görülmesi gereken kalemler: makine sınıfı/model, çalışma saati, operatör kapsamı, nakliye, enerji sorumluluğu, ikame ve ödeme koşulları.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Yazılı teklif hazırlığı için makine parkındaki platformlar",
+            tarih: "2026-06-27",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Farklı tedarikçilerden gelen teklifleri sağlıklı karşılaştırmanın tek yolu, aynı kalemlerin aynı iş tanımı üzerinden yazılı olarak görülmesidir. Bu yazı, eklemli platform teklifinde aranması gereken başlıkları sıralar.",
+            bolumler: [
+                {
+                    baslik: "Teklifte görülmesi gerekenler",
+                    paragraflar: [
+                        "Ürün sınıfı ve mümkünse marka-model, teknik föy, kiralama başlangıç-bitişi, günlük çalışma saati veya sayaç sınırı, operatör kapsamı, gidiş-dönüş nakliye bedelleri, enerji-yakıt sorumluluğu, bakım ve arıza bildirim yolu, ikame koşulu, ödeme ve iptal maddeleri ayrı satırlarda görülmelidir.",
+                        "Model belirtilmemişse sevkten önce model teyidi istenir; istenen periyodik kontrol veya uygunluk kayıtlarının geçerlilik tarihi makine özelinde kontrol edilir.",
+                    ],
+                },
+                {
+                    baslik: "'Her şey dahil' tuzağı",
+                    paragraflar: [
+                        "'Her şey dahil' gibi belirsiz ifadeler yerine dahil ve hariç kalemler ayrı yazılmalıdır. Aksi hâlde farklı tekliflerin gerçekten karşılaştırılabilir olduğu söylenemez.",
+                        "Operatörlü hizmette vardiya, fazla çalışma, yol-konaklama; operatörsüzde kullanıcı yetkinliği ve teslim eğitimi teklifte netleştirilir. Belge kopyalarının hangi aşamada paylaşılacağı da anlaşılır olmalıdır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teklifte model belirtilmemişse ne yapmalı?", cevap: "Yalnız sınıf belirtilmişse, kabul edilecek teknik sınırlar (yükseklik, erişim, kapasite) tanımlanmalı; sevkten önce önerilen modelin verileri bu kriterlerle karşılaştırılmalıdır." },
+                { soru: "Arıza durumunda ne olur?", cevap: "Arıza bildirim yolu ve ikame (yedek makine) koşulu teklifte yer almalıdır. Bu maddelerin yazılı olması, sahada iş kaybını sınırlar." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platform-teslim-alma-ve-iade-kontrolu",
+            kategori: "Güvenlik",
+            baslik: "Eklemli Platform Teslim Alma ve İade Kontrolü",
+            ozet: "Makine teslim alınırken ve iade edilirken neler kayıt altına alınmalı? Model uyumu, görünür hasar, güvenlik işlevleri ve anlaşmazlıkları önleyen teslim tutanağı.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Teslim alma kontrolü yapılan yükseltici platform",
+            tarih: "2026-06-26",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Eklemli platform teslim alınırken ve iade edilirken yapılan kısa bir kontrol, hem güvenliği sağlar hem de sonradan çıkabilecek hasar ve kapsam anlaşmazlıklarını önler. Bu yazı, teslim ve iade kontrolünün başlıklarını özetler.",
+            bolumler: [
+                {
+                    baslik: "Teslim alırken",
+                    paragraflar: [
+                        "Sevk edilen makinenin teklifteki sınıf ve modelle uyumu, görünür hasarlar, sayaç veya enerji seviyesi, korkuluk-kabin, sepet ve varsa ataşman kayıt altına alınır. Alt ve üst kumandalar, fren, acil durdurma ve acil indirme işlevleri kullanım kılavuzuna göre yetkili kişice kontrol edilir.",
+                        "Bu vardiya öncesi kontrol, geçerli periyodik kontrolün yerine geçmez; teslim durumunu kayda alır. Uygunsuzluk görülürse makine kullanılmaz, fotoğraf ve tutanakla bildirilir.",
+                    ],
+                },
+                {
+                    baslik: "İade ederken",
+                    paragraflar: [
+                        "İade sırasında sayaç, yakıt-şarj durumu, anahtar-aksesuar ve görünür hasar yeniden kayda alınır. Teslim ve iade kayıtlarının karşılaştırılması, sonradan oluşabilecek anlaşmazlıkların önüne geçer.",
+                        "Kullanım kılavuzu, gerekli kontrol kayıtları ve sahaya özel istenen belgeler teslim dosyasında bulunmalıdır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teslim kontrolü periyodik kontrol yerine geçer mi?", cevap: "Hayır. Teslim/vardiya öncesi kontrol makinenin o anki durumunu kayda alır; yılda en az bir kez yapılan periyodik kontrolün yerine geçmez. İkisi birbirini tamamlar." },
+                { soru: "Görünür hasar bulunursa ne yapılır?", cevap: "Makine güvenli değilse kullanılmaz; hasar fotoğraf ve tutanakla bildirilir. Teslim ve iade kayıtlarının tutulması, hasar sorumluluğu tartışmasını önler." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "kis-kosullarinda-eklemli-platform-kullanimi",
+            kategori: "Güvenlik",
+            baslik: "Kış Koşullarında Eklemli Platform Kullanımı",
+            ozet: "Buzlanmış zemin, donmuş hidrolik, düşen akü performansı ve kısa gün ışığı. Düşük sıcaklıkta eklemli platformla güvenli çalışmanın ek önlemleri.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Kış koşullarında açık sahada yükseltici platformla çalışma",
+            tarih: "2026-06-25",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kış ayları eklemli platform kullanımına iki risk katmanı ekler: zemin ve ekipmanın kendisi. Buzlanma, donmuş hidrolik ve düşen akü performansı, sıradan bir işi bile zorlaştırır. Bu yazı, düşük sıcaklıkta güvenli operasyonun ek önlemlerini özetler.",
+            bolumler: [
+                {
+                    baslik: "Buzlanmış zemin ve stabilizasyon",
+                    paragraflar: [
+                        "Sabah erken saatlerde veya gölgeli alanlarda zemin buzlanması, jack ayaklarının tam temas kurmasını engelleyebilir. Kurulum öncesi zemin görsel kontrolü kış aylarında standart hâle getirilmelidir; ayak altına konan plaka ile zemin arasındaki buz da kayma yüzeyi oluşturabilir.",
+                        "Gün içinde eriyen kar zemini oynatabilir; denge göstergesi kışın daha sık kontrol edilir ve herhangi bir uyarıda platform indirilir.",
+                    ],
+                },
+                {
+                    baslik: "Ekipman ve çalışan",
+                    paragraflar: [
+                        "Düşük sıcaklıkta hidrolik yağın viskozitesi artar; üreticiler genellikle belirli sıcaklığın altında rölantide ısınma süresi önerir. Akü performansı düşer; kışın daha kısa çalışma ve daha uzun şarj süresi beklenir.",
+                        "Rüzgâr soğuğu yükseklikte belirginleşir; termal katmanlı ama hareketi kısıtlamayan giysi, yalıtımlı eldiven ve ısınma molaları planlanır. Kısa gün ışığında aydınlatma erken devreye alınır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Soğukta makineyi hemen çalıştırabilir miyim?", cevap: "Düşük sıcaklıkta hidrolik yağ koyulaşır; üreticiler rölantide ısınma süresi önerir. Bu süreyi atlayıp tam yükle başlamak hidrolik bileşenleri zorlar. Kullanım kılavuzundaki soğuk çalıştırma talimatı esastır." },
+                { soru: "Kar yağışında çalışılır mı?", cevap: "Görüş, zemin kayganlığı ve üretici hava koşulu limitlerine bağlıdır; genel kural, aktif kar yağışında dış mekân platform operasyonlarının durdurulmasıdır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "telehandler-mi-eklemli-platform-mu",
+            kategori: "Karşılaştırma",
+            baslik: "Telehandler mı, Eklemli Platform mu? Doğru Makineyi Seçmek",
+            ozet: "İkisi de yükseğe ulaşır ama biri yük taşır, diğeri personeli çalıştırır. Telehandler ile eklemli personel yükseltici arasındaki kritik fark ve seçim.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Sahada telehandler ve yükseltici platform sınıflarının karşılaştırması",
+            tarih: "2026-06-24",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Şantiyede en sık karıştırılan iki sınıftan biri de telehandler ile eklemli personel yükselticidir. Aynı yüksekliğe ulaşabilirler ama aynı iş için tasarlanmamışlardır. Bu yazı, aradaki kritik farkı ve seçim ölçütünü anlatır.",
+            bolumler: [
+                {
+                    baslik: "Farklı amaçlar için tasarım",
+                    paragraflar: [
+                        "Telehandler temelde bir kaldırma ve taşıma makinesidir: uzayan bomuyla malzemeyi ileri ve yukarı, örneğin iskele üstüne ulaştırır. Eklemli personel yükseltici ise insanı korkuluklu bir sepette çalışma noktasına konumlandırmak için tasarlanmıştır.",
+                        "Bir makinenin ulaşabildiği yükseklik, o işi güvenle yapabileceği anlamına gelmez. Doğru soru 'kaç metreye çıkıyor?' değil, 'bu işin ana faaliyeti yük taşımak mı, personel çalıştırmak mı?' sorusudur.",
+                    ],
+                },
+                {
+                    baslik: "Güvenlik ve doğru seçim",
+                    paragraflar: [
+                        "Telehandler'a insan taşıma sepeti takmak, ancak üreticinin o konfigürasyonu onayladığı ve yük tablosuna uyulduğu durumlarda değerlendirilebilir; birçok modelde sepetten kumanda yoktur. Sürekli yüksekte çalışma işlerinde gerçek personel yükseltici hem daha güvenli hem daha verimlidir.",
+                        "İşin ana faaliyeti yük ise telehandler, personel çalıştırmak ise eklemli/teleskopik personel yükseltici seçilir. İki faaliyet birlikteyse tek makineyi zorlamak yerine iş kalemleri ayrılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Telehandler ile personel yükseltebilir miyim?", cevap: "Ancak üreticinin onayladığı sepet konfigürasyonu, yük tablosuna uyum ve geçerli saha kurallarıyla; birçok modelde sepetten kumanda olmadığından sınırlıdır. Sürekli yüksekte çalışmada gerçek personel yükseltici tercih edilir." },
+                { soru: "Telehandler forklift midir?", cevap: "İkisi de yük taşır ama aynı değildir. Forklift düz zeminde palet istifler; telehandler uzayan bomuyla yükü ileri ve yukarı ulaştırır ve arazi zemininde çalışır. Forklift, telehandler ve personel yükseltici üç ayrı sınıftır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
     ],
 };
 
