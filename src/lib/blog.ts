@@ -1896,6 +1896,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bandirmada-yukseklik-siniflari-16-43-metre-secimi",
+            kategori: "Ürün Rehberi",
+            baslik: "Bandırma'da Yükseklik Sınıfları: 16-43 Metre Nasıl Seçilir?",
+            ozet: "İç mekân orta yükseklikten yüksek endüstriyel erişime kadar sınıf seçimi. Bandırma tesis ve liman işlerinde doğru yükseklik sınıfı.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Bandırma'da farklı yükseklik sınıfında yükseltici platformlar",
+            tarih: "2026-05-07",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'da manlift kiralarken 'kaç metre?' sorusu tek başına yeterli değildir; aynı yükseklikte farklı erişim ve kapasite bulunur. Bu yazı, yükseklik sınıflarını ayırt eden ölçütleri anlatır.",
+            bolumler: [
+                {
+                    baslik: "16-20 metre: iç mekân ve orta yükseklik",
+                    paragraflar: [
+                        "Fabrika içi tesisat, depo tavanı ve orta yükseklikteki cephe işlerini karşılar; elektrikli modeller bu sınıfta yaygındır. Dar şasi standart geçişlere uygundur, ancak yatay erişim sınırlıdır.",
+                        "Engelin çok ötesine uzanılması gereken işlerde bir üst sınıf değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "28-43 metre: yüksek endüstriyel erişim",
+                    paragraflar: [
+                        "Yüksek yapı cephesi, silo, baca ve çelik montaj işleri içindir; genellikle dizel ve 4x4 modellerle karşılanır. Açık sahada eğim ve rüzgâr belirleyicidir.",
+                        "Erişim arttıkça sepet yükü ve rüzgâr limiti değişir; çalışma diyagramı model bazında okunur. Sınıf, işin en zorlu noktasına göre seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "16 metre Bandırma'da hangi işlere yeter?", cevap: "Fabrika içi tesisat, depo tavanı ve orta yükseklikteki cephe işlerine genellikle yeterlidir. Yüksek silo, baca veya cephe işlerinde 28-43 metre sınıfı değerlendirilir." },
+                { soru: "Yükseklik arttıkça sepet kapasitesi düşer mi?", cevap: "Evet; erişim ve yükseklik arttıkça izin verilen sepet yükü değişebilir. Seçilen modelin çalışma diyagramından kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-dikey-personel-yukseltici-ile-dar-alan-isleri",
+            kategori: "Ürün Rehberi",
+            baslik: "Bandırma'da Dikey Personel Yükseltici ile Dar Alan İşleri",
+            ozet: "Mağaza, depo raf arası ve dar koridorlarda tekil erişim için dikey personel yükseltici. Çevik, hafif ve dar tabanlı çözümün kullanım alanları.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Bandırma'da dar koridorda dikey personel yükselticiyle çalışma",
+            tarih: "2026-05-04",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'daki mağaza, depo ve tesislerde her iş geniş makaslı gerektirmez. Tekil, hafif ve dar koridorlu işlerde dikey personel yükseltici çevik bir çözümdür. Bu yazı bu sınıfın kullanım alanlarını anlatır.",
+            bolumler: [
+                {
+                    baslik: "Dikey personel yükseltici ne için?",
+                    paragraflar: [
+                        "Tek kişilik, dar tabanlı ve dikey hareket eden bu sınıf; depo raf sayımı, mağaza içi aydınlatma ve dar koridorlu tesis bakımı gibi tekil, hafif ve tam altından erişilen işlerde öne çıkar. Geniş makaslıya göre daha çevik ve ekonomik olabilir.",
+                        "Yük ve alan geniş değilse hem manevra hem maliyet avantajı sağlar.",
+                    ],
+                },
+                {
+                    baslik: "Sınırları",
+                    paragraflar: [
+                        "Kapasite ve erişim sınırları dardır; birden fazla çalışan, ağır malzeme veya engel aşma gerektiren işlerde yetersiz kalır. Bu durumda makaslı veya eklemli değerlendirilir.",
+                        "Kapı ölçüsü, zemin ve çalışma yüksekliği teknik föyle teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Dikey personel yükseltici kaç kişilik?", cevap: "Genellikle tek kişiliktir ve hafif yük içindir. Birden fazla çalışan veya ağır malzeme gerektiren işlerde makaslı platform değerlendirilir." },
+                { soru: "Dar mağaza koridorunda kullanılır mı?", cevap: "Evet; dar tabanı ve çevikliğiyle mağaza ve depo koridorlarında tekil erişim için uygundur. Kapı ve koridor ölçüsü makineyle karşılaştırılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-dis-cephe-temizligi-ve-boya-isinde-platform",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Dış Cephe Temizliği ve Boya İşinde Platform",
+            ozet: "Bina ve tesis dış cephesinde temizlik, boya ve kaplama işleri için erişim. Peyzaj, saçak ve yükseklik koşullarında doğru sınıf.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Bandırma'da dış cephe boya ve temizlik işinde yükseltici platform",
+            tarih: "2026-05-01",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'da bina ve tesis dış cephelerinde temizlik, boya ve kaplama işleri düzenli olarak yapılır. Bu işlerde peyzaj, saçak ve yükseklik erişim sınıfını belirler. Bu yazı cephe işlerinde platform seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Cephe önü engelli mi?",
+                    paragraflar: [
+                        "Cephe önünde peyzaj, saçak veya çıkıntı varsa eklemli platformun engel aşan bomu gerekir; düz ve açık cephede makaslı yeterli olabilir. Yüksek ve uzak noktada teleskopik değerlendirilir.",
+                        "Boya ve temizlik işinde sepette taşınan ekipman ve malzeme sepet kapasitesine dâhil edilir.",
+                    ],
+                },
+                {
+                    baslik: "Rüzgâr ve zemin",
+                    paragraflar: [
+                        "Açık cephede rüzgâr limiti makineye özgüdür; boya işinde rüzgâr ayrıca sıçrama nedeniyle iş kalitesini etkiler. Zeminin taşıma kapasitesi ve peyzaj yüzeyleri kontrol edilir.",
+                        "Faaliyet süren binalarda çalışma alanı ayrılır ve alt alan korunur.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Cephe boyası için hangi platform?", cevap: "Cephe önü açıksa makaslı, engel (saçak, peyzaj) varsa eklemli, yüksek/uzak noktada teleskopik değerlendirilir. Rüzgâr hem güvenlik hem iş kalitesi için kontrol edilir." },
+                { soru: "Rüzgâr boya işini etkiler mi?", cevap: "Evet; rüzgâr hem makine limiti açısından hem boya sıçraması nedeniyle iş kalitesini etkiler. Durdurma kriteri baştan belirlenir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-insaat-santiyesinde-yuksekte-calisma",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da İnşaat Şantiyesinde Yüksekte Çalışma",
+            ozet: "Yapı, çelik montaj ve inşaat işlerinde açık saha erişimi. Zemin, rüzgâr ve iş güvenliği koşullarında şantiyede platform kullanımı.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Bandırma inşaat şantiyesinde yükseltici platform ve forklift",
+            tarih: "2026-04-28",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'daki inşaat ve yapı şantiyeleri, açık saha koşullarında yüksekte çalışma gerektirir. Zemin, rüzgâr ve iş güvenliği bir arada yönetilir. Bu yazı şantiyede platform kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Şantiye zemini ve makine",
+                    paragraflar: [
+                        "Şantiye zemini genellikle dolgu, mıcır veya eğimlidir; dizel 4x4 modeller ve jack sistemi bu koşullarda kullanılır. Taşıma kapasitesi belirsizse tahmin yürütülmez, gerekirse çelik plaka serilir.",
+                        "Çelik montaj ve yapı elemanı erişiminde eklemli/teleskopik, düz erişimde makaslı değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Güvenlik ve organizasyon",
+                    paragraflar: [
+                        "Rüzgâr limiti, alan izolasyonu, gözcü ve kurtarma planı şantiyede standart önlemlerdir. Çalışma bölgesi araç ve vinç trafiğinden ayrılır.",
+                        "İş izni ve operatör yeterliliği saha kurallarına göre yönetilir; büyük açıklıklı montajda güvenlik ağı gibi toplu koruma birlikte planlanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Şantiye dolgu zemininde platform çalışır mı?", cevap: "Dizel 4x4 modeller dolgu ve eğimli zeminde kullanılabilir, ancak taşıma kapasitesi doğrulanmalıdır. Belirsizse çelik plaka serilir veya saha yetkilisinin görüşü alınır." },
+                { soru: "Çelik montajda platform tek başına yeter mi?", cevap: "Büyük açıklıklı montajlarda platform, güvenlik ağı gibi toplu koruma sistemleriyle birlikte planlanır. Makine seçimi iş metodunun parçasıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-sarkma-travmasi-ve-kurtarma-plani",
+            kategori: "Güvenlik",
+            baslik: "Bandırma'da Sarkma Travması ve Kurtarma Planı",
+            ozet: "Kemerle düşmeyi durdurmak yalnız ilk adımdır. Asılı kalma dakikalar içinde hayati risk oluşturur; her yüksekte çalışma için kurtarma planı neden zorunlu?",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Bandırma'da yükseltici platformda güvenli çalışma ve kurtarma hazırlığı",
+            tarih: "2026-04-25",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'nın liman, tersane ve şantiye işlerinde kemer kullanımı yaygındır; ancak kemerle düşmeyi durdurmak tehlikenin sonu değildir. Asılı kalma dakikalar içinde ciddi risk oluşturur. Bu yazı sarkma travmasını ve kurtarma planını anlatır.",
+            bolumler: [
+                {
+                    baslik: "Asılı kalma neden tehlikeli?",
+                    paragraflar: [
+                        "Kemerle asılı kalan kişide bacak kayışları kan dolaşımını kısıtlar; kan bacaklarda birikir ve kalbe dönüşü azalır. Dakikalar içinde baş dönmesi, bilinç kaybı ve tedavisiz kalırsa hayati tehlike doğar.",
+                        "Risk, düşmeden değil, kurtarmanın gecikmesinden kaynaklanır.",
+                    ],
+                },
+                {
+                    baslik: "Kurtarma planı zorunlu",
+                    paragraflar: [
+                        "Her yüksekte çalışma için önceden planlanmış kurtarma prosedürü gerekir: asılı kalan kişiye kaç dakikada, hangi ekipmanla ulaşılacağı belirlenir. Sahadaki yükseltici platform çoğu durumda en hızlı kurtarma aracıdır.",
+                        "112'yi beklemek tek başına yeterli değildir; plan yazılı olmalı, ekipte en az bir kişi uygulayabilecek şekilde eğitilmeli ve tatbik edilmelidir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Sarkma travması ne kadar sürede kritik olur?", cevap: "Kaynaklarda belirtilerin dakikalar içinde başlayabileceği belirtilir; süre kişiye ve koşullara göre değişir. Kurtarma ne kadar hızlıysa risk o kadar azalır. Bu içerik tıbbi tavsiye değildir." },
+                { soru: "Liman/şantiye sahasında kurtarma planı şart mı?", cevap: "Yüksekte çalışma riski taşıyan her sahada, düşme durumunda hızlı müdahale yöntemi önceden planlanmış olmalıdır. Sahadaki platform çoğu durumda en hızlı kurtarma aracıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
