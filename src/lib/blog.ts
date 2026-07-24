@@ -2228,6 +2228,138 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
         },
+        {
+            slug: "izmir-depolarinda-elektrikli-forklift-ve-sarj-plani",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir Depolarında Elektrikli Forklift ve Şarj Planı",
+            ozet: "Çiğli, Torbalı ve Kemalpaşa lojistik depolarında elektrikli forklift kullanımı, şarj altyapısı ve vardiya planlaması.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir lojistik deposunda elektrikli forklift ile çalışma",
+            tarih: "2026-07-04",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "İzmir'in Çiğli, Torbalı ve Kemalpaşa hattındaki lojistik ve e-ticaret depolarında elektrikli forklift yaygındır. Verimli kullanım, doğru şarj planına bağlıdır. Bu yazı elektrikli forklift ve şarj planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Neden depoda elektrikli?",
+                    paragraflar: [
+                        "Kapalı lojistik depolarında sıfır emisyon ve düşük gürültü nedeniyle elektrikli forklift tercih edilir; iz bırakmayan tekerlekler epoksi zemine zarar vermez. Dar koridorda çeviktir, triplex asansörle yüksek raf beslenir.",
+                        "Sürekli palet trafiği olan e-ticaret depolarında sessiz ve emisyonsuz çalışma, çalışan konforunu ve iç hava kalitesini korur.",
+                    ],
+                },
+                {
+                    baslik: "Şarj altyapısı ve vardiya",
+                    paragraflar: [
+                        "Kesintisiz veya çok vardiyalı çalışmada fırsat şarjı ya da yedek akü planı yapılmalı; uygun voltajda ve yakında priz erişimi baştan teyit edilir. Şarj noktası ve mola düzeni vardiya akışına yazılır.",
+                        "Akü tipi ve model, günlük çalışma süresine göre seçilir; düşük sıcaklıkta akü performansı düşebilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "E-ticaret deposunda kaç forklift gerekir?", cevap: "Palet trafiği, raf yüksekliği ve vardiya yoğunluğuna bağlıdır; ihtiyaç saha analizi ile belirlenir. Kesintisiz çalışmada şarj/yedek planı da hesaba katılır." },
+                { soru: "Şarj için özel altyapı gerekir mi?", cevap: "Uygun voltajda ve makineye yakın bir şarj noktası gerekir; çok vardiyalı çalışmada fırsat şarjı veya yedek akü planlanır. Bu koşullar teklif öncesinde teyit edilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-operatorlu-forklift-kiralama-ne-zaman-gerekir",
+            kategori: "Ürün Rehberi",
+            baslik: "İzmir'de Operatörlü Forklift Kiralama Ne Zaman Gerekir?",
+            ozet: "Saatlik yükleme-boşaltma mı, uzun dönem tedarik mi? Yetkinlik, belge ve maliyet açısından operatörlü/operatörsüz forklift kararı.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "İzmir'de operatörlü kiralamaya hazır forkliftler",
+            tarih: "2026-07-01",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'de forklift kiralarken operatör kararı hem güvenliği hem maliyeti etkiler. Bu yazı, operatörlü ve operatörsüz forklift kiralama arasındaki farkı ve karar ölçütlerini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Operatörlü kiralama",
+                    paragraflar: [
+                        "Saatlik veya kısa süreli yükleme-boşaltma operasyonlarında, kendi ekibinizde yetkin operatör yoksa operatörlü forklift pratik olur. Vardiya süresi, fazla çalışma ve saha oryantasyonu teklifte görülmelidir.",
+                        "Yoğun sezon ve dönemsel taleplerde operatörlü hizmet esneklik sağlar.",
+                    ],
+                },
+                {
+                    baslik: "Operatörsüz ve belge",
+                    paragraflar: [
+                        "Operatörsüz kiralamada kullanıcının yetkinliği ve teslim eğitimi önem kazanır. Operatör belgesi gerekliliği; görev, ekipman sınıfı, işveren prosedürü ve mevzuata göre belirlenir ve yetkili İSG birimi ile resmî kaynaklardan doğrulanır.",
+                        "Uzun dönem tedarikte kendi yetkin operatörünüzle operatörsüz kiralama ekonomik olabilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift operatörü için belge zorunlu mu?", cevap: "Gereklilik; görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir. Kesin şartlar yetkili İSG birimi ve resmî kaynaklardan doğrulanmalıdır." },
+                { soru: "Saatlik operatörlü forklift alınabilir mi?", cevap: "Evet; kısa süreli yükleme-boşaltma için saatlik operatörlü hizmet yaygındır. Süre, kapsam ve ücret yazılı teklifte belirtilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-gunluk-kontrol-ve-guvenli-kullanim",
+            kategori: "Güvenlik",
+            baslik: "Forklift Günlük Kontrol ve Güvenli Kullanım",
+            ozet: "Vardiya öncesi kontrol, yük dengesi, yaya ayrımı ve devrilme riskine karşı önlemler. İzmir sahalarında forklift güvenliği.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir deposunda forklift günlük kontrol ve güvenli kullanım",
+            tarih: "2026-06-28",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Forklift kazalarının önemli bölümü günlük kontrolde yakalanabilecek arızalardan ve yanlış kullanımdan çıkar. Bu yazı, vardiya öncesi kontrol ve güvenli kullanım ilkelerini özetler.",
+            bolumler: [
+                {
+                    baslik: "Vardiya öncesi kontrol",
+                    paragraflar: [
+                        "Her vardiya öncesi fren, direksiyon, korna, aydınlatma, çatal ve asansör fonksiyonları, lastikler ve akü/yakıt seviyesi kontrol edilip kaydedilir. Sızıntı, çatlak veya anormal ses varsa makine kullanılmaz.",
+                        "Yükseltici platformlarda olduğu gibi forkliftlerde de periyodik kontrol (kaldırma ekipmanı) ayrı bir yükümlülüktür ve günlük kontrolün yerine geçmez.",
+                    ],
+                },
+                {
+                    baslik: "Yük dengesi ve yaya ayrımı",
+                    paragraflar: [
+                        "Yük, kapasite ve yük merkezi sınırları içinde taşınır; devrilme riskine karşı yük geriye yatık ve alçak taşınır, ani dönüşten kaçınılır. Görüşü kapatan yükte gerektiğinde geri manevra veya gözcü kullanılır.",
+                        "Çalışma alanı yaya trafiğinden ayrılır; hız sınırı ve kör nokta yönetimi saha kurallarına yazılır. Sadece yetkin ve yetkili kişiler kullanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift neden devrilir?", cevap: "Kapasite veya yük merkezi aşımı, ani dönüş, eğimli zemin ve yüksek hızda manevra devrilme riskini artırır. Yük kapasite sınırında, geriye yatık ve alçak taşınır; üretici kullanım kuralları esastır." },
+                { soru: "Forklift periyodik kontrole tabi mi?", cevap: "Forklift kaldırma ekipmanı sayılır ve periyodik kontrole tabidir; bu, operatörün her vardiya öncesi yaptığı günlük kontrolün yerine geçmez, onu tamamlar." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-liman-ve-konteyner-elleçlemede-forklift",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir Liman ve Konteyner Elleçlemede Forklift",
+            ozet: "Alsancak Limanı ve Aliağa hattında ağır yük, konteyner ve açık saha elleçlemesinde dizel forklift kullanımı ve saha koşulları.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "İzmir liman sahasında dizel forklift ile ağır yük elleçlemesi",
+            tarih: "2026-06-25",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "İzmir'in Alsancak Limanı ve Aliağa hattı, ağır yük ve konteyner elleçlemesiyle şekillenir. Bu açık saha işleri, kapalı depodan farklı forklift ihtiyaçları doğurur. Bu yazı liman ve konteyner elleçlemesinde forklift kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Ağır yük ve açık saha",
+                    paragraflar: [
+                        "Liman ve açık stok sahalarında ağır yük ve konteyner elleçlemesi için yüksek kapasiteli (7-10 ton ve üzeri) dizel forkliftler değerlendirilir. Açık sahada çekiş, görüş ve zemin bozukluğu belirleyicidir.",
+                        "Yakıt ikmalinin hızlı olması, kesintisiz liman operasyonunda avantaj sağlar. Kapalı alanda emisyon nedeniyle dizel kullanılmaz.",
+                    ],
+                },
+                {
+                    baslik: "Saha kuralları ve zemin",
+                    paragraflar: [
+                        "Liman sahaları güvenlik kaydı, giriş prosedürü ve saha oryantasyonu ister; makine evrakı ve operatör yeterliliği önceden teyit edilir. Liman betonu, asfalt stok alanı ve rampa farklı taşıma davranışı gösterir.",
+                        "Yoğun araç ve yaya trafiği nedeniyle çalışma bölgesi ayrılır ve hız yönetimi uygulanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Konteyner elleçlemede hangi forklift?", cevap: "Ağır yük ve konteyner için yüksek kapasiteli dizel forkliftler (7-10 ton ve üzeri) değerlendirilir. Kesin kapasite yük ve saha koşuluna göre belirlenir." },
+                { soru: "Liman sahasına giriş için ne gerekir?", cevap: "Liman sahaları güvenlik kaydı, giriş prosedürü ve saha oryantasyonu ister; makine evrakı ve operatör yeterliliği teklif öncesinde teyit edilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
     ],
 };
 
