@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 import type { TemaModulu } from "./tipler";
-import { TemaForm } from "./tema-form";
+import { ManisaTeklifForm } from "./platformmanisa-form";
 
 // platformmanisa.com — Google Stitch DARK tasarımının birebir portu.
 // surface-deep #020617, surface #101415, surface-card #1E293B, primary #b8c4ff, industrial-orange #F97316.
@@ -229,103 +229,208 @@ function Baslik({ ust, baslik, alt }: { ust: string; baslik: string; alt?: strin
     );
 }
 
-// ---- İletişim ----
+// ---- İletişim (Stitch ekranından birebir) ----
 function Iletisim({ site }: { site: SiteIcerik }) {
+    const bl = bolgeler(site);
     return (
-        <>
-            <Baslik ust="İLETİŞİM & TEKLİF" baslik="Hızlı Teklif ve Saha Analizi" alt="Proje detaylarınızı paylaşın, uzman ekibimiz en uygun makine ve fiyat çalışmasını hazırlasın." />
-            <section className="px-6 py-16 bg-[#020617]">
-                <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
-                    <div className="bg-[#1E293B] rounded-xl border border-white/10 p-8 flex flex-col gap-6">
-                        <a href={`tel:${site.telefon}`} className="flex items-center gap-4 group">
-                            <div className="bg-[#b8c4ff]/10 p-3 rounded-lg"><Ikon d={IK.phone} className="w-6 h-6 text-[#b8c4ff]" /></div>
-                            <div><p className={`text-[#c4c5d9] ${caps}`}>Telefon</p><p className={`${pj} text-xl font-bold text-white group-hover:text-[#b8c4ff] transition-colors`}>{site.telefonGosterim}</p></div>
-                        </a>
-                        <a href={`mailto:${site.eposta}`} className="flex items-center gap-4 group">
-                            <div className="bg-[#b8c4ff]/10 p-3 rounded-lg"><Ikon d={IK.mail} className="w-6 h-6 text-[#b8c4ff]" /></div>
-                            <div><p className={`text-[#c4c5d9] ${caps}`}>E-posta</p><p className={`${pj} text-xl font-bold text-white break-all group-hover:text-[#b8c4ff] transition-colors`}>{site.eposta}</p></div>
-                        </a>
-                        <div className="grid grid-cols-2 gap-3 mt-2">
-                            {bolgeler(site).map((b) => (
-                                <div key={b} className="bg-[#101415] p-3 rounded-lg border border-white/10 flex items-center gap-2 text-sm text-white"><Ikon d={IK.pin} className="w-4 h-4 text-[#b8c4ff]" box={18} />{b}</div>
-                            ))}
+        <section className="pt-24 pb-[120px] bg-[#020617]">
+            <div className="max-w-[1280px] mx-auto px-6">
+                {/* Başlık */}
+                <div className="text-center mb-12 pt-12">
+                    <p className={`${caps} text-[#b8c4ff] tracking-widest mb-4`}>PROFESYONEL DESTEK</p>
+                    <h1 className={`${pj} text-[32px] md:text-[48px] leading-[1.1] tracking-[-0.02em] font-extrabold text-white mb-6`}>Hızlı Teklif ve Saha Analizi<br /><span className="text-[#b8c4ff]">İçin Bizimle İletişime Geçin</span></h1>
+                    <p className="text-[18px] text-[#c4c5d9] max-w-2xl mx-auto">Projenizin ihtiyaçlarını en iyi şekilde anlamak ve size özel, güvenilir çözümler sunmak için buradayız.</p>
+                </div>
+                {/* Bento */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+                    <div className="lg:col-span-5 flex flex-col gap-4">
+                        <div className="bg-[#1E293B] border border-white/10 rounded-xl p-6 relative overflow-hidden group hover:border-[#b8c4ff] transition-colors">
+                            <div className="absolute inset-0 bg-gradient-to-br from-[#b8c4ff]/5 to-transparent z-0" />
+                            <div className="relative z-10">
+                                <h3 className={`${pj} text-[28px] font-bold text-white mb-2`}>Hemen İletişime Geçin</h3>
+                                <p className="text-[#c4c5d9] mb-6">Acil kiralama ihtiyaçlarınız için doğrudan uzman ekibimize ulaşın.</p>
+                                <a href={`tel:${site.telefon}`} className="flex items-center gap-4 bg-[#323537] p-4 rounded-lg mb-4 hover:bg-[#323537]/80 transition-colors">
+                                    <div className="w-12 h-12 rounded-full bg-[#F97316]/20 flex items-center justify-center text-[#F97316]"><Ikon d={IK.phone} className="w-6 h-6" /></div>
+                                    <div><p className={`${caps} text-[#c4c5d9] mb-1`}>DİREKT HAT</p><p className={`${pj} text-[22px] font-bold text-white`}>{site.telefonGosterim}</p></div>
+                                </a>
+                                <a href={`mailto:${site.eposta}`} className="flex items-center gap-4 bg-[#323537] p-4 rounded-lg hover:bg-[#323537]/80 transition-colors">
+                                    <div className="w-12 h-12 rounded-full bg-[#b8c4ff]/20 flex items-center justify-center text-[#b8c4ff]"><Ikon d={IK.mail} className="w-6 h-6" /></div>
+                                    <div><p className={`${caps} text-[#c4c5d9] mb-1`}>E-POSTA</p><p className="text-[18px] font-medium text-white break-all">{site.eposta}</p></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="bg-[#1E293B] border border-white/10 rounded-xl p-6 flex-grow hover:border-[#b8c4ff] transition-colors">
+                            <h3 className={`${pj} text-[28px] font-bold text-white mb-2`}>Hizmet Ağı</h3>
+                            <p className="text-[#c4c5d9] mb-6">{site.bolge} endüstriyel bölgelerine hızlı servis imkanı.</p>
+                            <div className="w-full h-48 rounded-lg overflow-hidden relative">
+                                <Image src="/media/blog/forklift-ve-makasli-platform-kiralama-fabrika-deposu.jpg" alt="Manisa hizmet ağı" fill sizes="(max-width:1024px) 100vw, 40vw" className="object-cover" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-[#1E293B] to-transparent" />
+                                {bl.slice(0, 2).map((b, i) => (
+                                    <div key={b} className={`absolute ${i === 0 ? "top-1/4 left-1/3 text-[#F97316]" : "top-1/2 right-1/4 text-[#b8c4ff]"}`}>
+                                        <Ikon d={IK.pin} className="w-6 h-6" />
+                                        <span className="text-xs bg-[#020617] px-1 rounded shadow-lg absolute mt-1 whitespace-nowrap">{b}</span>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
-                    <div className="bg-[#1E293B] rounded-xl border border-white/10 p-8">
-                        <h2 className={`${pj} text-2xl font-bold text-white mb-6`}>Proje Detaylarınızı Paylaşın</h2>
-                        <TemaForm
-                            eposta={site.eposta}
-                            konu={`Teklif Talebi — ${site.h1}`}
-                            opsiyonlar={bolgeler(site)}
-                            cls={{
-                                etiket: `block ${caps} text-[#c4c5d9] mb-2`,
-                                alan: "w-full bg-[#101415] border border-white/10 rounded-lg p-3 text-white focus:ring-2 focus:ring-[#b8c4ff] outline-none transition-all",
-                                buton: `w-full bg-[#F97316] text-white font-bold py-4 rounded-xl hover:brightness-95 transition-all ${caps}`,
-                            }}
-                        />
+                    <div className="lg:col-span-7">
+                        <div className="bg-[#1E293B] border border-white/10 rounded-xl p-8 h-full">
+                            <h2 className={`${pj} text-[32px] font-bold text-white mb-2`}>Proje Detaylarınızı Paylaşın</h2>
+                            <p className="text-[#c4c5d9] mb-8">Size en uygun makine seçeneklerini ve kiralama teklifini hazırlayabilmemiz için aşağıdaki formu doldurun.</p>
+                            <ManisaTeklifForm eposta={site.eposta} opsiyonlar={bl} />
+                        </div>
                     </div>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 }
 
-// ---- Kiralık makineler (ürünler) ----
+// ---- Kiralık makineler / ürünler (Stitch ekranından birebir) ----
 function Urunler({ site }: { site: SiteIcerik }) {
+    void site;
     const kartlar = [
-        { baslik: "Makaslı Platformlar", erisim: "8-18m", metin: "Düz zeminde dikey erişim; iç mekân montaj, tavan ve hat üstü işleri için sessiz, emisyonsuz elektrikli modeller.", gorsel: "/media/makasli-platform.png", slug: "makasli-platform-kiralama" },
-        { baslik: "Eklemli & Teleskopik", erisim: "16-32m", metin: "Engel aşan ve uzak noktalara erişen, dış saha ve zorlu arazi için dizel/hibrit yüksek erişim platformları.", gorsel: "/media/eklemli-platform.png", slug: "eklemli-ve-teleskopik-platform-kiralama" },
-        { baslik: "Depo & Lojistik Çözümleri", erisim: "Raf & Tavan", metin: "Yüksek raflı depolarda sayım, aydınlatma ve tavan bakımı için kompakt, dar koridora uygun makine seçenekleri.", gorsel: "/media/blog/forklift-ve-makasli-platform-kiralama-fabrika-deposu.jpg", slug: "makasli-platform-kiralama" },
+        { baslik: "Makaslı Platform", rozet: "DİZEL / ELEKTRİKLİ", metin: "Düz zeminlerde dikey personel yükseltici. Dar alanlar için ideal.", specler: [["Çalışma Yüksekliği", "8m - 22m"], ["Kaldırma Kapasitesi", "227kg - 680kg"]], gorsel: "/media/makasli-platform.png", slug: "makasli-platform-kiralama" },
+        { baslik: "Eklemli Platform", rozet: "DİZEL / ELEKTRİKLİ", metin: "Engelleri aşarak erişim sağlayan çok noktalı personel yükseltici.", specler: [["Çalışma Yüksekliği", "11m - 43m"], ["Yatay Erişim", "6m - 21m"]], gorsel: "/media/eklemli-platform.png", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        { baslik: "Teleskopik Platform", rozet: "DİZEL", metin: "Yüksek erişim, uzun bom ve geniş çalışma alanı sağlayan teleskopik platform.", specler: [["Çalışma Yüksekliği", "16m - 58m"], ["Kaldırma Kapasitesi", "227kg - 450kg"]], gorsel: "/media/blog/celik-konstruksiyon-montaji-makasli-platform-forklift-kiralama.jpg", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+    ];
+    const rehber = [
+        { d: "M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6", baslik: "Epoksi & Hassas Zeminler", metin: "İz bırakmayan lastikli, elektrikli makaslı veya eklemli platformlar tercih edilmelidir." },
+        { d: "M3 20l6-9 4 5 3-4 5 8z", baslik: "Toprak & Engebeli Zeminler", metin: "4x4 çekişli, dizel motorlu, köpük dolgulu lastikli teleskopik veya eklemli platformlar uygundur." },
     ];
     return (
         <>
-            <Baslik ust="KİRALIK MAKİNELER" baslik="Doğru Makineyi Seçin" alt="Manisa OSB ve çevre sanayi için yükseklik, zemin ve erişim ihtiyacınıza uygun makine parkuru." />
-            <section className="px-6 py-16 bg-[#020617]">
-                <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <section className="pt-32 pb-12 px-6 max-w-[1280px] mx-auto text-center">
+                <h1 className={`${pj} text-[32px] md:text-[48px] leading-[1.1] tracking-[-0.02em] font-extrabold text-white mb-4`}>Makine Parkurumuz</h1>
+                <p className="text-[18px] text-[#c4c5d9] max-w-2xl mx-auto">İhtiyaca göre karşılaştırılan makine sınıflarıyla projeye özel erişim seçenekleri sunuyoruz.</p>
+            </section>
+            <section className="px-6 max-w-[1280px] mx-auto pb-[120px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {kartlar.map((m) => (
-                        <div key={m.baslik} className="group bg-[#1E293B] rounded-xl border border-white/10 overflow-hidden hover:scale-[1.02] hover:border-[#b8c4ff]/50 transition-all duration-300">
-                            <div className="h-56 relative bg-[#101415] overflow-hidden">
+                        <div key={m.baslik} className="bg-[#1E293B] rounded-xl border border-white/10 overflow-hidden hover:scale-[1.02] hover:border-[#b8c4ff] transition-all duration-300 group flex flex-col">
+                            <div className="h-48 relative overflow-hidden">
                                 <Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
-                                <div className="absolute top-4 left-4 bg-[#020617]/80 backdrop-blur px-3 py-1 rounded-full border border-white/10"><span className={`${caps} text-[#b8c4ff]`}>{m.erisim}</span></div>
+                                <div className="absolute top-4 left-4 bg-[#323537] px-3 py-1 rounded-full border border-white/10"><span className={`${caps} text-[#e0e3e5]`}>{m.rozet}</span></div>
                             </div>
-                            <div className="p-6">
-                                <h3 className={`${pj} text-[22px] font-bold text-white mb-3`}>{m.baslik}</h3>
-                                <p className="text-[#c4c5d9] mb-6">{m.metin}</p>
-                                <a className={`inline-flex items-center gap-1 text-[#b8c4ff] ${caps} group-hover:text-[#dde1ff]`} href={`/${m.slug}`}>Detaylı Bilgi <Ikon d={IK.chevron} className="w-4 h-4" box={18} /></a>
+                            <div className="p-6 flex-1 flex flex-col">
+                                <h3 className={`${pj} text-[24px] font-bold text-white mb-2`}>{m.baslik}</h3>
+                                <p className="text-[#c4c5d9] mb-4">{m.metin}</p>
+                                <div className="mt-auto space-y-2 mb-6 border-t border-white/10 pt-3">
+                                    {m.specler.map(([k, v]) => (<div key={k} className="flex justify-between items-center text-sm"><span className="text-[#c4c5d9]">{k}</span><span className="font-medium text-white">{v}</span></div>))}
+                                </div>
+                                <a href={`/${m.slug}`} className="w-full bg-[#b8c4ff] text-[#002486] py-3 rounded-lg font-semibold hover:bg-[#dde1ff] transition-colors mt-auto flex items-center justify-center gap-2">Teklif İste <Ikon d={IK.ok} className="w-4 h-4" box={16} /></a>
                             </div>
                         </div>
                     ))}
                 </div>
             </section>
+            <section className="bg-[#191c1e] py-[120px] border-y border-white/10">
+                <div className="max-w-[1280px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <span className={`${caps} text-[#ffb68b] mb-2 block`}>REHBER</span>
+                        <h2 className={`${pj} text-[32px] font-bold text-white mb-4`}>Doğru Makineyi Seçin</h2>
+                        <p className="text-[18px] text-[#c4c5d9] mb-6">Zemin tipine ve çalışma ortamına göre en uygun ekipmanı seçmek güvenlik ve verimlilik için kritik öneme sahiptir.</p>
+                        <div className="space-y-4">
+                            {rehber.map((r) => (
+                                <div key={r.baslik} className="flex gap-4 p-4 rounded-xl border border-white/10 bg-[#020617]">
+                                    <Ikon d={r.d} className="w-6 h-6 text-[#b8c4ff] shrink-0 mt-1" />
+                                    <div><h4 className="font-bold text-white mb-1">{r.baslik}</h4><p className="text-sm text-[#c4c5d9]">{r.metin}</p></div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="relative h-[400px] rounded-xl border border-white/10 overflow-hidden">
+                        <Image src="/media/blog/forklift-ve-makasli-platform-kiralama-fabrika-deposu.jpg" alt="Makine seçim rehberi" fill sizes="(max-width:768px) 100vw, 50vw" className="object-cover opacity-60" />
+                        <div className="absolute inset-0 flex items-center justify-center">
+                            <a href="/blog" className="bg-[#020617]/80 backdrop-blur-sm border border-[#b8c4ff] text-[#b8c4ff] px-6 py-3 rounded-lg font-medium hover:bg-[#b8c4ff] hover:text-[#002486] transition-all flex items-center gap-2"><Ikon d={IK.doc} className="w-5 h-5" box={20} /> Detaylı Rehberi İncele</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }
 
-// ---- Hakkımızda ----
+// ---- Hakkımızda (Stitch ekranından birebir) ----
+const IK2 = {
+    factory: "M2 20h20M4 20V9l5 3V9l5 3V9l5 3v8M8 20v-3h2v3M14 20v-3h2v3",
+    truck: "M1 4h13v11H1zM14 8h4l3 3v4h-7M5.5 18a1.5 1.5 0 1 0 0 .01M16.5 18a1.5 1.5 0 1 0 0 .01",
+    compass: "M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM16 8l-2.5 5.5L8 16l2.5-5.5z",
+    play: "M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM10 8l6 4-6 4z",
+};
 function Hakkimizda({ site }: { site: SiteIcerik }) {
-    const standartlar = [
-        "Periyodik bakımı yapılmış, sertifikalı makine parkuru",
-        "İş güvenliği mevzuatına uygun operasyon ve belgelendirme",
-        "Şeffaf yazılı teklif ve sözleşme süreci",
-        "Manisa OSB ve çevre ilçelere hızlı sevkiyat",
-        "Saha analizi ve doğru makine sınıfı yönlendirmesi",
-        "Kesintisiz teknik destek ve yerinde çözüm",
+    const adimlar = [
+        ["01", "Saha Keşfi ve Talep Analizi", "Projeye uygun yükseklik, erişim tipi ve zemin taşıma kapasitesi yerinde incelenir."],
+        ["02", "Doğru Makine Seçimi", "Keşif verilerine dayanarak makaslı, eklemli, teleskopik veya örümcek platform önerilir."],
+        ["03", "Teknik Dokümantasyon", "Seçilen makinenin CE belgeleri, periyodik kontrol raporları ve sigorta poliçeleri sunulur."],
+        ["04", "Sözleşme ve Onay", "Kiralama süresi, sorumluluklar ve ticari şartlar şeffaf bir sözleşme ile güvence altına alınır."],
+        ["05", "Sevk Öncesi Son Kontrol (PDI)", "Makinenin hidrolik, mekanik ve elektronik aksamları sevkten hemen önce test edilir."],
+        ["06", "Güvenli Lojistik Planlaması", "Makine, özel taşıyıcı araçlarımızla proje sahasına zamanında ve güvenle nakledilir."],
+        ["07", "Saha İçi Konumlandırma", "Uzman personelimiz makineyi sahada çalışacak en stabil ve verimli noktaya yerleştirir."],
+        ["08", "Operatör Oryantasyonu", "Makineyi kullanacak personele temel kullanım ve acil durum prosedürleri eğitimi verilir."],
     ];
     return (
         <>
-            <Baslik ust="HAKKIMIZDA" baslik="Endüstriyel Güven, Platform Kiralama Standartlarımız" alt={`${site.anaSite.ad} hizmet ağı içinde, ${site.uzmanlik} odağında güvenilir yüksekte çalışma çözümleri.`} />
-            <section className="px-6 py-16 bg-[#020617]">
-                <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
-                    <div className="space-y-5 text-[17px] leading-relaxed text-[#c4c5d9]">
-                        {site.paragraflar.map((p, i) => <p key={i}>{p}</p>)}
+            {/* Hero */}
+            <section className="relative min-h-[560px] flex items-center justify-center px-6 overflow-hidden pt-24">
+                <div className="absolute inset-0 z-0">
+                    <Image src="/media/saha-hero.png" alt="Manisa endüstriyel tesis" fill priority sizes="100vw" className="object-cover opacity-30" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-[#020617]/80 via-[#020617]/50 to-[#020617]" />
+                </div>
+                <div className="relative z-10 text-center max-w-4xl mx-auto space-y-6">
+                    <span className={`inline-block ${caps} text-[#b8c4ff] tracking-widest border border-[#b8c4ff]/30 px-4 py-1 rounded-full backdrop-blur-sm`}>Neden Biz?</span>
+                    <h1 className={`${pj} text-[32px] md:text-[48px] leading-[1.1] tracking-[-0.02em] font-extrabold text-white`}>Endüstriyel Güven, <br /><span className="text-[#b8c4ff]">Operasyonel Mükemmellik</span></h1>
+                    <p className="text-[18px] text-[#c4c5d9] max-w-2xl mx-auto">{site.bolge} bölgesindeki yüksek katlı projelerinizde ve ağır sanayi tesislerinizde; güvenliği, hızı ve kesintisiz hizmeti garanti eden profesyonel çözüm ortağınız.</p>
+                    <div className="pt-2 flex justify-center gap-4">
+                        <a className={`bg-[#b8c4ff] text-[#002486] px-8 py-3 rounded-lg font-bold hover:bg-[#dde1ff] transition-colors ${caps}`} href="/iletisim">Projemi İncele</a>
+                        <a className={`bg-[#1E293B]/70 backdrop-blur text-white px-8 py-3 rounded-lg font-bold hover:bg-[#1E293B] transition-colors flex items-center gap-2 ${caps}`} href="/urunler"><Ikon d={IK2.play} className="w-4 h-4" box={18} /> Makine Parkuru</a>
                     </div>
-                    <div className="bg-[#1E293B] rounded-xl border border-white/10 p-8">
-                        <h2 className={`${pj} text-xl font-bold text-white mb-6`}>Hizmet Standartlarımız</h2>
-                        <ul className="space-y-4">
-                            {standartlar.map((s) => (
-                                <li key={s} className="flex items-start gap-3 text-[#c4c5d9]"><Ikon d={IK.shield} className="w-5 h-5 text-[#b8c4ff] shrink-0 mt-0.5" box={20} />{s}</li>
-                            ))}
-                        </ul>
+                </div>
+            </section>
+
+            {/* Değer bento */}
+            <section className="max-w-[1280px] mx-auto px-6 py-[120px]">
+                <div className="text-center mb-12">
+                    <h2 className={`${pj} text-[32px] font-bold text-white mb-2`}>Platform Kiralama Standartlarımız</h2>
+                    <p className="text-[#c4c5d9] max-w-2xl mx-auto">Teoride değil, sahada test edilmiş güvenlik ve operasyon protokolleri.</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="md:col-span-2 rounded-xl p-6 flex flex-col justify-end min-h-[300px] relative overflow-hidden group">
+                        <Image src="/media/blog/makasli-platform-kiralama-fabrika-tesisat-montaj-isi.jpg" alt="Güvenlik" fill sizes="(max-width:768px) 100vw, 60vw" className="object-cover opacity-40 group-hover:opacity-60 transition-opacity duration-500" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent" />
+                        <div className="relative z-10"><Ikon d={IK.shield} className="w-9 h-9 text-[#3B82F6] mb-4" box={36} /><h3 className={`${pj} text-[28px] font-bold text-white mb-2`}>Sıfır Taviz Güvenlik Politikası</h3><p className="text-[#c4c5d9] text-sm">Tüm makine parkurumuz periyodik olarak uluslararası standartlarda (EN 280) bağımsız denetim kuruluşlarınca test edilmektedir.</p></div>
+                    </div>
+                    <div className="rounded-xl p-6 flex flex-col min-h-[300px] bg-[#1E293B]/70 backdrop-blur border-t-4 border-[#F97316]">
+                        <Ikon d={IK2.factory} className="w-9 h-9 text-[#F97316] mb-4" box={36} /><h3 className={`${pj} text-[28px] font-bold text-white mb-2 mt-auto`}>OSB Uzmanlığı</h3><p className="text-[#c4c5d9] text-sm">Manisa Organize Sanayi Bölgesi&apos;nin lojistik ve güvenlik dinamiklerine tam hakimiyet. Dar alanlar ve hassas zeminler için özel çözümler.</p>
+                    </div>
+                    <div className="rounded-xl p-6 flex flex-col min-h-[300px] bg-[#1E293B]/70 backdrop-blur">
+                        <Ikon d={IK2.truck} className="w-9 h-9 text-[#b8c4ff] mb-4" box={36} /><h3 className={`${pj} text-[28px] font-bold text-white mb-2 mt-auto`}>Hızlı Sevk &amp; Kurulum</h3><p className="text-[#c4c5d9] text-sm">Kendi lojistik ağımız ile talep edilen ekipmanı 120 dakika içinde proje sahasına ulaştırma ve kurma garantisi.</p>
+                    </div>
+                    <div className="md:col-span-2 rounded-xl p-6 flex flex-col justify-end min-h-[300px] relative overflow-hidden group">
+                        <Image src="/media/blog/celik-konstruksiyon-montaji-makasli-platform-forklift-kiralama.jpg" alt="Danışmanlık" fill sizes="(max-width:768px) 100vw, 60vw" className="object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent" />
+                        <div className="relative z-10"><Ikon d={IK2.compass} className="w-9 h-9 text-[#b8c4ff] mb-4" box={36} /><h3 className={`${pj} text-[28px] font-bold text-white mb-2`}>Kapasite &amp; Erişim Danışmanlığı</h3><p className="text-[#c4c5d9] text-sm">Yanlış makine seçimi zaman kaybettirir. Uzman mühendislerimiz saha keşfi yaparak yük, zemin ve erişim ihtiyacınıza en uygun aracı belirler.</p></div>
+                    </div>
+                </div>
+            </section>
+
+            {/* 14 Adımda Standart */}
+            <section className="bg-[#1d2022] py-[120px] border-y border-white/10">
+                <div className="max-w-[1280px] mx-auto px-6">
+                    <div className="text-center mb-12">
+                        <span className={`${caps} text-[#F97316] tracking-widest`}>Operasyon Protokolü</span>
+                        <h2 className={`${pj} text-[32px] font-bold text-white mt-2`}>14 Adımda Profesyonel Hizmet Standardı</h2>
+                        <p className="text-[#c4c5d9] max-w-2xl mx-auto mt-4">Her kiralamada eksiksiz uygulanan, sıfır hata prensibine dayalı operasyonel sürecimiz.</p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {adimlar.map(([no, b, m]) => (
+                            <div key={no} className="bg-[#1E293B] p-6 rounded-xl border border-white/10 relative overflow-hidden group hover:border-[#b8c4ff] transition-colors">
+                                <div className={`absolute -right-4 -top-8 text-[120px] ${pj} font-extrabold text-white/5 group-hover:text-[#b8c4ff]/10 transition-colors pointer-events-none`}>{no}</div>
+                                <h4 className="text-lg font-bold text-white mb-2 relative z-10">{b}</h4>
+                                <p className="text-sm text-[#c4c5d9] relative z-10">{m}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
