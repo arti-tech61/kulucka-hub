@@ -2062,6 +2062,173 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
     ],
+    "izmirforklift.net": [
+        {
+            slug: "izmirde-forklift-kiralama-kapasite-secimi-rehberi",
+            kategori: "Ürün Rehberi",
+            baslik: "İzmir'de Forklift Kiralama: Doğru Kapasite Nasıl Seçilir?",
+            ozet: "Yük ağırlığı, yük merkezi, kaldırma yüksekliği ve zemin. İzmir depo ve üretim sahalarında forklift kapasitesini belirleyen ölçütler.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir deposunda forklift ile palet elleçleme",
+            tarih: "2026-07-19",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "İzmir'de forklift kiralarken 'kaç ton?' sorusu tek başına yetmez. Doğru kapasite; yükün ağırlığı kadar ağırlık merkezine, kaldırma yüksekliğine ve zemine göre belirlenir. Bu rehber, Kemalpaşa'dan Aliağa'ya İzmir sahalarında forklift seçimini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Etikette yazan ton yeterli değil",
+                    paragraflar: [
+                        "Forklift kapasitesi, belirli bir yük merkezi (genellikle 500 mm) için verilir. Yükün ağırlık merkezi çatal yüzünden uzaklaştıkça kaldırılabilecek gerçek yük düşer. Uzun veya hacimli yüklerde nominal kapasiteye bakıp seçim yapmak hatalıdır.",
+                        "Kaldırma yüksekliği de kapasiteyi etkiler: raf üst kotunda kalan kapasite, zemindekinden düşük olabilir. Bu değer yük merkezi tablosundan kontrol edilir.",
+                    ],
+                },
+                {
+                    baslik: "İzmir sahalarında zemin ve koridor",
+                    paragraflar: [
+                        "Kemalpaşa, Torbalı, Çiğli ve Aliağa'daki depo ve üretim alanlarında zemin, koridor genişliği ve kapı yüksekliği makine seçimini belirler. Dar koridorda dönüş yarıçapı, kapalı alanda asansör serbest kaldırma ihtiyacı değerlendirilir.",
+                        "Kapalı üretim alanında elektrikli, açık stok ve rampa işinde dizel/LPG modeller değerlendirilir; seçim saha koşuluna göre yapılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift kapasitesi neden yük merkezine bağlı?", cevap: "Kapasite belirli bir yük merkezi için verilir; yük çataldan uzaklaştıkça devrilme momenti artar ve kaldırılabilecek gerçek yük düşer. Uzun/hacimli yüklerde yük merkezi tablosu kontrol edilir." },
+                { soru: "İzmir'de hangi forklift türü depo içine uygun?", cevap: "Kapalı depo ve üretim alanında sıfır emisyon ve düşük gürültüsüyle elektrikli forklift uygundur; açık stok ve rampa işlerinde dizel/LPG modeller değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-osb-lerinde-forklift-ihtiyaci-kemalpasa-torbali-aliaga",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir OSB'lerinde Forklift İhtiyacı: Kemalpaşa, Torbalı, Aliağa",
+            ozet: "İzmir'in üretim coğrafyasında forklift kullanımı: gıda, mobilya, kimya ve ağır sanayi sahalarında elleçleme ihtiyaçları ve makine seçimi.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "İzmir OSB sahasında forklift ile yükleme-boşaltma",
+            tarih: "2026-07-16",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "İzmir'in üretim coğrafyası Kemalpaşa, Torbalı, Çiğli ve Aliağa hattında yoğunlaşır. Her bölgenin sektörel ağırlığı forklift ihtiyacını da farklılaştırır. Bu yazı, İzmir OSB'lerinde elleçleme ihtiyaçlarını ve makine seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Bölgeye göre değişen ihtiyaç",
+                    paragraflar: [
+                        "Kemalpaşa ve Torbalı'nın gıda, mobilya ve lojistik ağırlıklı depolarında palet trafiği ve raf besleme öne çıkar; kapalı alanda elektrikli forklift yaygındır. Aliağa'nın ağır sanayi ve liman sahalarında ise açık saha, rampa ve ağır yük için dizel modeller değerlendirilir.",
+                        "Çiğli ve çevresindeki üretim ve e-ticaret depolarında yükleme-boşaltma ve konteyner elleçleme ihtiyaçları belirleyicidir.",
+                    ],
+                },
+                {
+                    baslik: "OSB saha koşulları",
+                    paragraflar: [
+                        "OSB kabul saati, rampa randevusu, ağır araç güzergâhı ve zemin koşulu makine ve teslimat planını etkiler. Depo betonu, epoksi kaplama ve açık stok alanı farklı taşıma davranışı gösterir.",
+                        "Periyodik kontrol, saha giriş belgeleri ve operatör yeterliliği sözleşme öncesinde teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Aliağa'da hangi forklift türü uygun?", cevap: "Ağır sanayi ve liman sahasında açık saha, rampa ve ağır yük için dizel forkliftler değerlendirilir. Kapalı ve emisyona duyarlı alanlarda elektrikli modeller tercih edilir." },
+                { soru: "Kemalpaşa gıda deposunda elektrikli forklift olur mu?", cevap: "Evet; kapalı gıda ve lojistik depolarında sıfır emisyon ve düşük gürültüsüyle elektrikli forklift uygundur. Şarj altyapısı ve vardiya planı baştan kurulur." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-elektrikli-mi-dizel-mi-forklift-secimi",
+            kategori: "Karşılaştırma",
+            baslik: "İzmir'de Elektrikli mi, Dizel mi Forklift?",
+            ozet: "Kapalı depo mu, açık stok/rampa mı? Emisyon, gürültü, şarj/yakıt ve zemin açısından İzmir sahalarında forklift güç kaynağı seçimi.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir'de elektrikli ve dizel forklift karşılaştırması",
+            tarih: "2026-07-13",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "İzmir'de forklift güç kaynağı seçimi çalışma ortamına göre değişir: kapalı üretim ve depo alanında elektrikli, açık stok ve rampa işinde dizel. Bu yazı bu seçimi ele alır.",
+            bolumler: [
+                {
+                    baslik: "Kapalı alan: elektrikli",
+                    paragraflar: [
+                        "Kapalı depo ve üretim alanında sıfır emisyon ve düşük gürültü nedeniyle elektrikli forklift kullanılır; havalandırması sınırlı alanda içten yanmalı motor egzozu risk oluşturur. Şarj süresi ve vardiya planı baştan kurulur, yakında uygun voltajda priz gerekir.",
+                        "Elektrikli modeller düz ve taşıyıcı depo zemininde çeviktir; triplex asansörle kapalı alanda yüksek raf beslenir.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha: dizel/LPG",
+                    paragraflar: [
+                        "Açık stok, rampa ve ağır yük işlerinde dizel veya LPG modeller güç ve hız avantajı sağlar; yakıt ikmali hızlıdır. Kapalı alanda emisyon nedeniyle kullanılmaz.",
+                        "Doğru güç kaynağı; zemin, vardiya, emisyon kuralı ve yük özelliğine göre seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Depo içinde dizel forklift kullanılır mı?", cevap: "Havalandırması sınırlı kapalı alanda dizel egzozu risk oluşturur; kapalı depoların standart çözümü elektrikli forkliftlerdir. Dizel açık saha ve rampa içindir." },
+                { soru: "Elektrikli forkliftin şarjı vardiyaya yeter mi?", cevap: "Tipik bir vardiyayı karşılayacak şekilde tasarlanır; yoğun kullanımda fırsat şarjı veya yedek akü planlanır. Uygun voltajda priz erişimi baştan teyit edilmelidir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-yuk-merkezi-ve-kalan-kapasite-nasil-okunur",
+            kategori: "Ürün Rehberi",
+            baslik: "Forklift Yük Merkezi ve Kalan Kapasite Nasıl Okunur?",
+            ozet: "Nominal kapasite ile gerçek kapasite farkı. Yük merkezi tablosu, kaldırma yüksekliği ve ataşman etkisiyle kalan kapasiteyi doğru hesaplama.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Forklift yük merkezi ve kapasite değerlendirmesi",
+            tarih: "2026-07-10",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Forklift seçiminde en sık hata, etiketteki nominal tonaja bakıp yük merkezini göz ardı etmektir. Gerçek kaldırma kapasitesi; yük merkezine, kaldırma yüksekliğine ve ataşmana göre değişir. Bu yazı kalan kapasiteyi doğru okumayı anlatır.",
+            bolumler: [
+                {
+                    baslik: "Yük merkezi tablosu",
+                    paragraflar: [
+                        "Kapasite belirli bir yük merkezi (örneğin 500 mm) için verilir. Yükün ağırlık merkezi çataldan uzaklaştıkça (uzun veya hacimli yük) kaldırılabilecek gerçek yük düşer. Bu düşüş yük merkezi tablosundan okunur.",
+                        "Uzun profil, geniş palet veya sarkan yükte nominal kapasite yanıltıcıdır; gerçek yük merkezi ölçülüp tabloyla karşılaştırılır.",
+                    ],
+                },
+                {
+                    baslik: "Yükseklik ve ataşman etkisi",
+                    paragraflar: [
+                        "Kaldırma yüksekliği arttıkça kalan kapasite azalabilir; raf üst kotundaki değer zemindekinden düşük olabilir. Sideshift, klemp veya özel ataşman eklendiğinde makinenin kendi ağırlık merkezi değişir ve kapasite yeniden hesaplanır.",
+                        "Doğru seçim; yük, yükseklik ve ataşman birlikte değerlendirilerek yapılır ve teklifte teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "3 tonluk forklift her 3 tonu kaldırır mı?", cevap: "Hayır; 3 ton, belirli bir yük merkezi (örn. 500 mm) içindir. Yük merkezi uzarsa veya kaldırma yüksekliği artarsa gerçek kapasite düşer. Yük merkezi tablosu kontrol edilir." },
+                { soru: "Ataşman kapasiteyi etkiler mi?", cevap: "Evet; sideshift, klemp veya özel ataşman makinenin ağırlık merkezini ve kalan kapasitesini değiştirir. Ataşmanlı kapasite ayrıca değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-forklift-kiralama-fiyatini-etkileyen-unsurlar",
+            kategori: "Maliyet",
+            baslik: "İzmir'de Forklift Kiralama Fiyatını Etkileyen Unsurlar",
+            ozet: "Kapasite, süre, güç kaynağı, operatör, ataşman ve nakliye. İzmir'de forklift kiralama maliyetini oluşturan kalemler ve teklif karşılaştırma.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "İzmir'de kiralamaya hazır forklift ve makine parkı",
+            tarih: "2026-07-07",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "İzmir'de forklift kiralama fiyatı tek bir günlük ücret değildir; kapasite, süre, güç kaynağı, operatör, ataşman ve nakliyenin kesişiminde oluşur. Bu yazı, teklifleri karşılaştırabilmeniz için maliyet kalemlerini açıklar.",
+            bolumler: [
+                {
+                    baslik: "Kapasite, süre ve güç kaynağı",
+                    paragraflar: [
+                        "Kapasite sınıfı (1,5-3 ton, 3-5 ton, 7-10 ton) ve kaldırma yüksekliği fiyatı belirler. Süre; günlük, aylık ve sözleşmeli kullanımda farklı birim maliyet oluşturur ve çalışma saati sınırını kapsar. Elektrikli ve dizel modellerde şarj/yakıt sorumluluğu ayrı değerlendirilir.",
+                        "Saatlik operatörlü yükleme-boşaltma ile uzun dönem tedarik farklı fiyatlanır.",
+                    ],
+                },
+                {
+                    baslik: "Ataşman, operatör ve nakliye",
+                    paragraflar: [
+                        "Sideshift, triplex asansör, klemp gibi ataşmanlar hem uygunluğu hem bedeli değiştirir. Operatörlü hizmette vardiya ve fazla çalışma, operatörsüzde kullanıcı yetkinliği konuşulur. Nakliye İzmir içi mesafeye ve teslimat noktasına göre ayrı bir kalemdir.",
+                        "Kesin stok, sabit fiyat veya teslimat sözü bu içerikte verilmez; uygunluk güncel stok ve saha koşuluyla yazılı teklifte kesinleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift kiralama fiyatı neden değişken?", cevap: "Kapasite, süre, güç kaynağı, ataşman, operatör ve nakliyenin kesişiminde oluşur. Bu değişkenler görülmeden verilen liste fiyatı yanıltıcı olur; doğru bedel yazılı teklifte belirlenir." },
+                { soru: "Operatörlü forklift daha mı pahalı?", cevap: "Operatörlü ve operatörsüz kiralama farklı fiyatlanır; operatörlü hizmette vardiya ve fazla çalışma kapsama girer. Karar ekibinizin yetkinliğine ve iş süresine göre verilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+    ],
 };
 
 export function hostBloglari(host: string): BlogYazisi[] {
