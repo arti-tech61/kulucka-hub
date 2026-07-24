@@ -772,6 +772,138 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
         },
+        {
+            slug: "orumcek-platform-vs-eklemli-dar-ve-hassas-alanlar",
+            kategori: "Karşılaştırma",
+            baslik: "Örümcek Platform vs Eklemli Platform: Dar ve Hassas Alanlar",
+            ozet: "Katlanır ayaklı hafif örümcek platform mu, standart eklemli mi? Dar kapı, hassas zemin ve iç avlu erişiminde iki sınıfın karşılaştırması.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Dar ve hassas alanda erişim için yükseltici platform",
+            tarih: "2026-07-02",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Hem dar hem hassas alanlarda standart eklemli platform her zaman giremez. Bu noktada örümcek platform devreye girer: katlanır paletli ayakları ve hafif gövdesiyle dar kapılardan geçer, hassas zemine zarar vermeden kurulur. Bu yazı iki sınıfı karşılaştırır.",
+            bolumler: [
+                {
+                    baslik: "Örümcek platform ne zaman öne çıkar?",
+                    paragraflar: [
+                        "Örümcek platform; cami, tarihi yapı, iç avlu, cam tavanlı atrium ve bahçe içi erişim gibi hem dar hem hassas sahalarda, standart eklemli veya teleskopiğin giremediği yerlerde değerlendirilir. Hafif gövdesi hassas zemine düşük yük bindirir, katlanır ayakları dar girişten geçer.",
+                        "Ancak kapasite ve erişim sınırları standart eklemliye göre dardır; ağır yük veya geniş sepet gerektiren işlerde örümcek platform yetersiz kalabilir.",
+                    ],
+                },
+                {
+                    baslik: "Standart eklemli ne zaman yeterli?",
+                    paragraflar: [
+                        "Giriş genişliği ve zemin standart bir eklemli platforma uygunsa, daha yüksek kapasite ve erişim için eklemli tercih edilir. Örümcek platform 'her işin makinesi' değildir; yalnız dar+hassas kombinasyonu söz konusu olduğunda öne çıkar.",
+                        "Kapı ölçüsü, zemin yükü ve ayak açılım alanı her iki sınıf için de teknik föyle birlikte teyit edilir; nihai seçim saha bilgisine göre yapılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Örümcek platform her dar alana girer mi?", cevap: "Girmez; giriş genişliği, zemin taşıma gücü ve ayak açılım alanı model bazında değişir. Dar ve hassas alanlarda güçlü bir seçenektir ancak kapı ölçüsü, zemin yükü ve ayak açılımı teknik föyle teyit edilmelidir." },
+                { soru: "Örümcek platform hassas zeminde iz bırakır mı?", cevap: "Hafif gövdesi ve geniş ayak tabanları zemine düşük noktasal yük bindirir; yine de mermer, ahşap veya tarihi zeminlerde koruyucu levha ve uygunluk değerlendirmesi önerilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "kiralama-mi-satin-alma-mi-eklemli-platform",
+            kategori: "Maliyet",
+            baslik: "Kiralama mı, Satın Alma mı? Eklemli Platform İçin Karar",
+            ozet: "Kullanım sıklığı, bakım, depolama, periyodik kontrol ve amortisman açısından eklemli platformda kiralama ve satın almanın karşılaştırması.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Artı Platform makine parkında kiralamaya hazır eklemli platformlar",
+            tarih: "2026-07-01",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Eklemli platform ihtiyacı süreklilik kazandığında 'kiralamak mı, satın almak mı?' sorusu doğar. Doğru karar; kullanım sıklığına, bakım ve depolama yüküne ve ihtiyaç duyulan sınıf çeşitliliğine bağlıdır. Bu yazı kararı etkileyen kalemleri sıralar.",
+            bolumler: [
+                {
+                    baslik: "Kiralama ne zaman avantajlı?",
+                    paragraflar: [
+                        "Proje bazlı, aralıklı veya farklı sınıflar gerektiren ihtiyaçlarda kiralama esneklik sağlar: her iş için doğru sınıfı seçer, bakım, periyodik kontrol, depolama ve amortisman yükünü üstlenmezsiniz. İhtiyaç değiştikçe farklı yükseklik ve güç sınıfına geçebilirsiniz.",
+                        "Kiralama, makinenin atıl kaldığı dönemlerde sabit maliyet oluşturmaz; ödeme kullanılan süreyle sınırlıdır.",
+                    ],
+                },
+                {
+                    baslik: "Satın almada gizli maliyetler",
+                    paragraflar: [
+                        "Satın alma, yalnız makine bedeli değildir: periyodik kontrol, bakım-onarım, yedek parça, depolama, sigorta ve operatör yetkinliği süreklilik gerektiren kalemlerdir. Tek bir sınıf satın alındığında, farklı bir erişim gerektiğinde yine kiralamaya ihtiyaç doğar.",
+                        "Yüksek ve düzenli kullanım varsa satın alma anlamlı olabilir; ancak toplam sahip olma maliyeti bu kalemler dâhil hesaplanmalıdır. Karar, gerçek kullanım verisiyle verilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Ne kadar kullanımda satın alma mantıklı olur?", cevap: "Kesin bir eşik yoktur; makinenin yılda kaç gün ve kaç farklı sınıfta kullanıldığı belirleyicidir. Aralıklı ve çok sınıflı ihtiyaçta kiralama; yoğun ve tek sınıflı sürekli kullanımda satın alma değerlendirilebilir." },
+                { soru: "Kiralamada bakım ve kontrol kime ait?", cevap: "Periyodik kontrol raporunu kiraya veren sağlar; günlük kontrol ve doğru kullanım kiracıya aittir. Bu paylaşım satın almada tümüyle sahibin üzerindedir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "gunluk-haftalik-aylik-eklemli-platform-kiralama",
+            kategori: "Maliyet",
+            baslik: "Günlük, Haftalık, Aylık Eklemli Platform Kiralama",
+            ozet: "Kiralama süresi birim maliyeti nasıl etkiler? Çalışma saati sınırı, vardiya ve atıl günlerin kapsama etkisi; süreye göre doğru planlama.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Depo içinde uzun dönem kiralamaya uygun yükseltici platform",
+            tarih: "2026-06-30",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Eklemli platform kiralamada süre, birim maliyeti doğrudan etkiler. Ancak 'süre' yalnız takvim günü değildir. Bu yazı, günlük, haftalık ve aylık kiralamanın farkını ve süreyi doğru tanımlamayı anlatır.",
+            bolumler: [
+                {
+                    baslik: "Süre uzadıkça birim maliyet",
+                    paragraflar: [
+                        "Günlük, haftalık ve proje/aylık kiralamada birim maliyet farklıdır; uzun dönem genellikle günlük orana göre daha uygun bir aralığa yerleşir. Uzun projelerde makinenin sürekli sahada olması, tekrarlı nakliye maliyetini de azaltır.",
+                        "Ancak 'süre'; çalışma saati veya sayaç sınırı, vardiya sayısı ve makinenin sahada beklediği atıl günleri de kapsar. Bu kalemler baştan tanımlanmazsa dönem sonunda sürpriz çıkar.",
+                    ],
+                },
+                {
+                    baslik: "Doğru planlama",
+                    paragraflar: [
+                        "Talebin başlangıç-bitiş tarihi, günlük çalışma saati ve olası uzatma koşulu baştan yazılırsa hem fiyat hem plan öngörülebilir olur. Kısa ama tekrarlı ihtiyaçlarda toplam gün sayısı, tek seferlik uzun kiralamayla karşılaştırılır.",
+                        "Kesin oran ve koşullar; seçilen makine, çalışma saati sınırı ve nakliye planına göre yazılı teklifte belirtilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Aylık kiralama günlükten ne kadar uygun?", cevap: "Genellikle aylık/uzun dönem, günlük orana göre daha uygun bir aralığa yerleşir; kesin oran makineye, çalışma saati sınırına ve nakliye planına göre yazılı teklifte belirlenir." },
+                { soru: "Çalışma saati sınırı ne demek?", cevap: "Kiralama, takvim günü kadar makinenin çalıştığı saat/sayaç üzerinden de tanımlanabilir. Günlük çalışma saati ve olası fazla çalışma koşulu teklifte belirtilmelidir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platform-nakliye-ve-sevkiyat-sureci",
+            kategori: "Maliyet",
+            baslik: "Eklemli Platform Nakliye ve Sevkiyat Süreci",
+            ozet: "Gidiş-dönüş nakliye, rota, tesis kabul saati ve indirme alanı. Makinenin nakliye ölçüsünün çalışma ölçüsünden farkı ve sevkiyatta sık yapılan hatalar.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Saha teslimatı için hazırlanan yükseltici platform ve nakliye",
+            tarih: "2026-06-29",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Eklemli platform kiralamada nakliye, çoğu zaman ayrı bir maliyet kalemi ve sık gözden kaçan bir planlama alanıdır. Yanlış planlanmış bir sevkiyat, makinenin kapıdan geçememesi gibi pahalı hatalara yol açar. Bu yazı, sevkiyat sürecini adım adım anlatır.",
+            bolumler: [
+                {
+                    baslik: "Rota ve saha kabulü",
+                    paragraflar: [
+                        "Gidiş-dönüş nakliye; çıkış deposu ile teslimat adresi arasındaki mesafe, ağır vasıta güzergâhı, tesis kabul saati ve indirme alanına göre planlanır. Nakliye aracının tesis kapısından dönüp dönemeyeceği, boşaltma alanının düz ve taşıyıcı olup olmadığı önceden sorulur.",
+                        "Güvenlik kaydı, araç-sürücü belgesi, randevu veya saha oryantasyonu isteniyorsa liste teklif aşamasında paylaşılmalıdır.",
+                    ],
+                },
+                {
+                    baslik: "Nakliye ölçüsü ≠ çalışma ölçüsü",
+                    paragraflar: [
+                        "Makinenin nakliye konumundaki eni, boyu ve yüksekliği çalışma konumundan farklı olabilir; korkuluk katlama ve bom konumu ölçüyü değiştirir. Kapı, koridor, rampa ve dönüş cebi, seçilen modelin taşıma ölçüleriyle karşılaştırılır.",
+                        "Uzak veya özel rotada dönüş nakliyesinin bildirim süresi de fiyata ve plana girer. Nakliye sorumluluğu ve ücreti yazılı teklifte açıkça belirtilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Nakliye kiralama fiyatına dahil mi?", cevap: "Nakliye çoğu teklifte ayrı bir kalemdir. Çıkış noktası, teslimat adresi, sorumluluk ve ücret yazılı teklifte yer alır; uzak/özel rotalarda dönüş bildirim süresi de belirtilir." },
+                { soru: "Makine sahaya sığmazsa ne olur?", cevap: "Bu yüzden nakliye ölçüsü (katlı korkuluk, bom konumu) kapı-koridor-rampa ölçüleriyle önceden karşılaştırılır. Doğru ölçü paylaşımı, makinenin kapıdan geçememesi gibi pahalı hataları önler." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
     ],
 };
 
