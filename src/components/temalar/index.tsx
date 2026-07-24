@@ -3,6 +3,7 @@ import type { SiteIcerik } from "@/lib/siteler";
 import { TicariCerceve } from "@/components/ticari-cerceve";
 import type { TemaModulu } from "./tipler";
 import { aydinTema } from "./aydin";
+import { platformmanisaTema } from "./platformmanisa";
 import { kutahyaTema } from "./kutahya";
 import { bilecikTema } from "./bilecik";
 import { bozuyukTema } from "./bozuyuk";
@@ -11,6 +12,7 @@ import { canakkaleTema } from "./canakkale";
 // Host'a özel Stitch temaları. Kayıtlı olmayan host'lar varsayılan TicariCerceve'yi kullanır.
 const TEMALAR: Record<string, TemaModulu> = {
     "aydinplatform.net": aydinTema,
+    "platformmanisa.com": platformmanisaTema,
     "kutahyaplatform.com": kutahyaTema,
     "bilecikplatform.com": bilecikTema,
     "bozuyukplatform.com.tr": bozuyukTema,
