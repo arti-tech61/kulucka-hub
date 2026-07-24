@@ -1170,6 +1170,138 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bandirma-manlift-kiralama-fiyatini-etkileyen-unsurlar",
+            kategori: "Maliyet",
+            baslik: "Bandırma Manlift Kiralama Fiyatını Etkileyen Unsurlar",
+            ozet: "Bandırma ve çevresinde manlift kiralama maliyeti: makine sınıfı, süre, bölgesel nakliye (Erdek, Gönen, Biga), operatör ve saha koşulunun fiyata etkisi.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Bandırma bölgesinde kiralamaya hazır manlift makine parkı",
+            tarih: "2026-07-12",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'da manlift kiralama fiyatı tek bir günlük ücret değildir; makine sınıfı, süre, bölgesel nakliye ve saha koşulunun kesişiminde oluşur. Bu yazı, Bandırma ve çevresindeki taleplerde maliyeti belirleyen kalemleri açıklar.",
+            bolumler: [
+                {
+                    baslik: "Sınıf, süre ve bölgesel nakliye",
+                    paragraflar: [
+                        "Fiyatın ilk belirleyeni erişim sınıfıdır: makaslı, eklemli veya teleskopik ve gereken yükseklik. Süre; çalışma saati, vardiya ve atıl günleri kapsar. Bandırma'da nakliye bölgesel mesafeye göre değişir: merkez, Erdek, Gönen ve Biga hattındaki teslimat noktaları farklı rota ve süre gerektirir.",
+                        "Nakliye aracının tesis kapısından dönüşü, kabul saati ve indirme alanı önceden teyit edilir; sorumluluk ve ücret yazılı teklifte belirtilir.",
+                    ],
+                },
+                {
+                    baslik: "Operatör ve saha koşulu",
+                    paragraflar: [
+                        "Operatörlü ve operatörsüz kiralama farklı fiyatlanır. Liman, tersane ve enerji tesisi gibi sahalarda istenen evrak, giriş prosedürü ve operatör yeterliliği kapsamı etkiler.",
+                        "Kesin stok, sabit fiyat veya teslimat sözü bu içerikte verilmez; uygunluk tarih, güncel makine durumu, rota ve saha koşulu görüldükten sonra yazılı teklifte kesinleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Bandırma dışına (Erdek, Gönen, Biga) teslimat fiyatı değişir mi?", cevap: "Evet; nakliye bölgesel mesafeye, güzergâha ve teslimat noktasına göre değişir. Çıkış noktası, adres ve ücret yazılı teklifte belirtilir." },
+                { soru: "Manlift fiyatı neden peşin liste hâlinde verilmiyor?", cevap: "Fiyat; sınıf, süre, nakliye ve saha koşulunun kesişiminde oluşur. Bu değişkenler görülmeden verilen liste fiyatı yanıltıcı olur; doğru bedel yazılı teklifte belirlenir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-makasli-platform-ile-depo-ve-tesis-isleri",
+            kategori: "Şehir & Sektör",
+            baslik: "Bandırma'da Makaslı Platform ile Depo ve Tesis İşleri",
+            ozet: "Depo raf sistemleri, tavan aydınlatması, tesisat ve fabrika içi bakımda makaslı platform. Bandırma tesislerinde iç mekân yüksekte çalışma rehberi.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Bandırma tesisinde makaslı platformla depo ve tavan çalışması",
+            tarih: "2026-07-09",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'daki depo, gıda tesisi ve fabrikalarda iç mekân yüksekte çalışma çoğunlukla makaslı platformla yürür: tavan tesisatı, aydınlatma, raf ve düz cephe işleri. Bu yazı, bu işlerde makaslı platform kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Makaslının tipik işleri",
+                    paragraflar: [
+                        "Çalışma noktasının tam altına girilebilen depo tavanı, aydınlatma, sprinkler ve raf işlerinde makaslı platform ilk tercihtir. Geniş sepetinde birden fazla çalışan malzemeyle birlikte yükselir.",
+                        "Gıda ve hassas üretim alanlarında elektrikli makaslı modeller sıfır emisyon ve iz bırakmayan lastikle vardiya içinde çalışabilir.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve koridor",
+                    paragraflar: [
+                        "Depo betonu genellikle taşıyıcıdır; ancak mazgal, rampa ve dilatasyon noktaları değerlendirilir. Koridor genişliği, kapı yüksekliği ve dönüş alanı seçilen modelin ölçüleriyle karşılaştırılır.",
+                        "Engel aşma gereken (kanal, konveyör üstü) noktalarda makaslı yetersiz kalır; bu durumda eklemli platform değerlendirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Gıda tesisinde makaslı platform kullanılır mı?", cevap: "Evet; elektrikli makaslı modeller sıfır emisyon ve düşük gürültüsüyle gıda ve hassas alanlarda vardiya içinde çalışabilir. İşletmenin hijyen ve çalışma kuralları talep dosyasına eklenir." },
+                { soru: "Makaslı platform engel aşabilir mi?", cevap: "Hayır; makaslı yalnız dikey hareket eder. Kanal, konveyör veya ekipman engelinin arkasına erişim gerekiyorsa eklemli platform gerekir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirma-erdek-gonen-biga-hattinda-teslimat-planlamasi",
+            kategori: "Maliyet",
+            baslik: "Bandırma, Erdek, Gönen, Biga Hattında Teslimat Planlaması",
+            ozet: "Bölgesel manlift teslimatında rota, mesafe, kabul saati ve dönüş bildirim süresi. Sezon ve turizm trafiğinin sevkiyata etkisi.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Bandırma bölgesinde manlift teslimatı ve sevkiyat planlaması",
+            tarih: "2026-07-06",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'nın çevresi Erdek, Gönen ve Biga gibi farklı mesafe ve karakterde noktalar içerir. Doğru teslimat planı, hem maliyeti hem de işin zamanında başlamasını belirler. Bu yazı, bölgesel teslimat planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Rota ve mesafe",
+                    paragraflar: [
+                        "Teslimat; çıkış noktası ile Erdek, Gönen veya Biga arasındaki mesafe, ağır vasıta güzergâhı ve teslimat adresine göre planlanır. Makinenin nakliye ölçüsü, tesis kapısı ve indirme alanıyla karşılaştırılır.",
+                        "Uzak veya özel rotada dönüş nakliyesinin bildirim süresi de plana girer; bu koşullar yazılı teklifte belirtilir.",
+                    ],
+                },
+                {
+                    baslik: "Sezon ve trafik",
+                    paragraflar: [
+                        "Erdek gibi turizm noktalarında sezon trafiği teslimat saatini etkiler; kabul saatleri ve güzergâh buna göre planlanır. Sanayi tesislerinde ise vardiya ve bakım penceresi belirleyicidir.",
+                        "Erken planlama ve net adres-erişim bilgisi, teslimatın gecikmeden yapılmasını kolaylaştırır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Erdek'e sezon içinde teslimat mümkün mü?", cevap: "Evet; ancak turizm trafiği nedeniyle kabul saati ve güzergâh önceden planlanmalıdır. Net adres, erişim ve kabul saati bilgisi teslimatı hızlandırır." },
+                { soru: "Dönüş nakliyesi nasıl planlanır?", cevap: "Uzak veya özel rotada dönüş nakliyesinin bildirim süresi baştan konuşulur ve yazılı teklifte yer alır. Bu, iş bitiminde makinenin zamanında alınmasını sağlar." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-liman-tersane-isinde-yuksekte-calisma-guvenligi",
+            kategori: "Güvenlik",
+            baslik: "Bandırma Liman ve Tersane İşinde Yüksekte Çalışma Güvenliği",
+            ozet: "Rüzgâr, araç trafiği ve açık saha koşullarında güvenlik: alan izolasyonu, rüzgâr limiti, kurtarma planı ve saha iş izni.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Bandırma liman sahasında güvenli yüksekte çalışma düzeni",
+            tarih: "2026-07-03",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Bandırma'nın liman ve tersane sahaları, yüksekte çalışmayı hem rüzgâr hem yoğun araç trafiğiyle zorlaştırır. Güvenlik, makine seçilmeden önce planlanır. Bu yazı, bu sahalardaki yüksekte çalışma güvenliğinin başlıklarını özetler.",
+            bolumler: [
+                {
+                    baslik: "Rüzgâr ve alan izolasyonu",
+                    paragraflar: [
+                        "Açık liman sahasında rüzgâr limiti makineye özgüdür ve erişim yükseldikçe önem kazanır; durdurma kriteri iş başlamadan yazılır. Sepete asılan geniş yüzeyli malzeme rüzgâr etkisini artırır.",
+                        "Yoğun araç ve yaya trafiği nedeniyle makinenin altı ve devrilme zarfı şeritle ayrılır; kör noktalar için gözcü ve yönlendirme planlanır.",
+                    ],
+                },
+                {
+                    baslik: "İş izni ve kurtarma",
+                    paragraflar: [
+                        "Liman ve tersane sahaları çalışma izni, gaz ölçümü ve giriş prosedürü ister; makine evrakı ve operatör yeterliliği teklif öncesinde doğrulanır.",
+                        "Her yüksekte çalışma için kurtarma planı gerekir: asılı kalma durumunda hızlı müdahale yöntemi önceden belirlenir. Sahadaki yükseltici platform çoğu durumda en hızlı kurtarma aracıdır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Liman sahasında rüzgâr sınırı nasıl belirlenir?", cevap: "Rüzgâr limiti makineye ve erişim yüksekliğine göre değişir; seçilen modelin teknik föyü ve bilgi plakası esas alınır. Sınır aşıldığında iş durdurulur." },
+                { soru: "Tersane işinde iş izni zorunlu mu?", cevap: "Tersane ve liman sahaları genellikle çalışma izni, gaz ölçümü ve giriş prosedürü işletir. Makine evrakı ve operatör yeterliliği teklif öncesinde tesisle doğrulanır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
