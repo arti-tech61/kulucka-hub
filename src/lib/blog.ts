@@ -1566,6 +1566,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "bandirmada-yuksekte-calismada-emniyet-kemeri-ve-ankraj",
+            kategori: "Güvenlik",
+            baslik: "Bandırma'da Yüksekte Çalışmada Emniyet Kemeri ve Ankraj",
+            ozet: "Eklemli ve teleskopik platformlarda fırlama etkisine karşı tam vücut kemeri ve doğru ankraj; makaslıdan farkı ve liman/tersane sahasında uygulama.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Bandırma sahasında yükseltici platformda emniyet donanımıyla çalışma",
+            tarih: "2026-06-06",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'nın liman ve tersane sahalarında eklemli ve teleskopik platform kullanımı yaygındır; bu makinelerde fırlama etkisine karşı bağlantı sistemi kritik önem taşır. Bu yazı emniyet kemeri ve ankraj konusunu ele alır.",
+            bolumler: [
+                {
+                    baslik: "Fırlama etkisi ve doğru bağlantı",
+                    paragraflar: [
+                        "Eklemli/teleskopik platformlarda makine bir çukura girdiğinde veya ani hareket ettiğinde oluşan fırlama etkisi çalışanı korkuluk üzerine taşıyabilir. Üretici talimatına uygun tam vücut kemeri ve bağlantı sistemi kullanılır; kemer, korkuluğa değil işaretli ankraj noktasına bağlanır.",
+                        "Yanlış uzunluk veya yanlış bağlantı noktası koruma sistemini işlevsiz bırakır.",
+                    ],
+                },
+                {
+                    baslik: "Makaslıdan farkı",
+                    paragraflar: [
+                        "Makaslı platformda sepet dikey hareket eder; fırlama etkisi yoktur, korkulukları sağlam ve kapısı kapalı makaslıda kemer üretici aksini demedikçe zorunlu değildir.",
+                        "Kemer kullanılan her yerde kurtarma planı da gerekir; asılı kalma sarkma travması riski doğurur.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Liman işinde eklemli platformda kemer şart mı?", cevap: "Eklemli ve teleskopikte fırlama riskine karşı üretici talimatına uygun bağlantı sistemi gerekir. Makaslıda ise korkuluk sağlamsa kemer üretici aksini belirtmedikçe zorunlu değildir." },
+                { soru: "Kemer nereye bağlanır?", cevap: "Sepetin korkuluğuna değil, üretici tarafından işaretlenmiş ankraj noktasına. Bu nokta her sepette bulunur ve kullanım kılavuzunda gösterilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-manlift-periyodik-ve-gunluk-kontrol",
+            kategori: "Güvenlik",
+            baslik: "Bandırma'da Manlift Periyodik ve Günlük Kontrol",
+            ozet: "Yıllık periyodik kontrol ile vardiya öncesi günlük kontrol farkı ve kiralık makinede sorumluluk paylaşımı.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Bandırma'da kontrolü yapılmış kiralık manlift",
+            tarih: "2026-06-03",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Manlift güvenliğinin iki katmanı vardır: yıllık periyodik kontrol ve vardiya öncesi günlük kontrol. Bu yazı, Bandırma'da kiralık manliftte bu kontrollerin nasıl işlediğini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Periyodik ve günlük kontrol",
+                    paragraflar: [
+                        "Yükseltici platformlar standartlarda aksi belirtilmedikçe yılda en az bir kez yetkili teknik elemanca periyodik kontrolden geçer; raporun sahada bulunması denetimlerde zaman kazandırır. Her vardiya öncesi operatör fren, acil stop, acil indirme, korkuluk ve denge sensörünü test eder.",
+                        "İkisi birbirinin yerine geçmez; günlük kontrol, periyodik kontrolün tamamlayıcısıdır.",
+                    ],
+                },
+                {
+                    baslik: "Kiralıkta sorumluluk paylaşımı",
+                    paragraflar: [
+                        "Periyodik kontrol raporunu kiraya veren sağlar; günlük kontrol ve doğru kullanım kiracının sorumluluğundadır. Bu paylaşımın sözleşmede yazılı olması iki tarafı da korur.",
+                        "Raporun bir kopyasının makineyle sahada bulunması, liman/tesis denetimlerinde önemlidir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Kiralık manliftte kontrol raporu kimde?", cevap: "Periyodik kontrol raporunu kiraya veren sağlar ve makineyle birlikte sahada bulunmalıdır; günlük vardiya öncesi kontrol kiracıya aittir." },
+                { soru: "Günlük kontrol neden önemli?", cevap: "Ciddi kazaların önemli bölümü günlük kontrolde yakalanabilecek arızalardan çıkar. Fren, acil stop, acil indirme ve denge sensörü her vardiya öncesi test edilip kaydedilir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-makasli-mi-eklemli-mi-secim",
+            kategori: "Karşılaştırma",
+            baslik: "Bandırma'da Makaslı mı, Eklemli mi? İş Tipine Göre Seçim",
+            ozet: "Depo ve tavan işinde makaslı, silo ve ekipman arkası erişimde eklemli. Bandırma sanayisinde iş tipine göre platform seçimi.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Bandırma'da makaslı ve eklemli platform seçimi",
+            tarih: "2026-05-31",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'daki işlerin geometrisi makaslı ve eklemli arasındaki seçimi belirler. Bu yazı, iş tipine göre doğru sınıfı ayırt etmeyi anlatır.",
+            bolumler: [
+                {
+                    baslik: "Tam altından erişim: makaslı",
+                    paragraflar: [
+                        "Depo tavanı, aydınlatma, raf ve düz cephe gibi tam altından erişilen işlerde makaslı platform ilk tercihtir; geniş sepetiyle birden fazla çalışan malzemeyle yükselir.",
+                        "Gıda ve hassas tesislerde elektrikli makaslı sıfır emisyonla vardiya içinde çalışır.",
+                    ],
+                },
+                {
+                    baslik: "Engel arkası: eklemli",
+                    paragraflar: [
+                        "Silo çevresi, boru köprüsü ve ekipman arkası erişimde makaslı yetersiz kalır; eklemlinin engel aşan bomu gerekir. Bandırma'nın liman ve tesis sahalarında bu tür engelli erişim sıktır.",
+                        "Seçim işin geometrisine göre yapılır; aynı projede iki tip de gerekebilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Depo işinde hangi platform?", cevap: "Tam altından erişilen tavan/raf işlerinde makaslı yeterlidir; kanal veya ekipman engelinin arkasına erişim gerekiyorsa eklemli değerlendirilir." },
+                { soru: "İki tip aynı projede kullanılır mı?", cevap: "Evet; farklı iş kalemleri farklı sınıf gerektirebilir. Kombine kiralama tek organizasyonla maliyeti düşürür." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-elektrikli-mi-dizel-mi-platform",
+            kategori: "Karşılaştırma",
+            baslik: "Bandırma'da Elektrikli mi, Dizel mi Platform?",
+            ozet: "İç mekân gıda/tesis işinde elektrikli, açık liman/tersane sahasında dizel. Bandırma koşullarında güç kaynağı seçimi.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Bandırma'da elektrikli ve dizel platform seçimi",
+            tarih: "2026-05-28",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'da güç kaynağı seçimi çalışma ortamına göre değişir: kapalı gıda/tesis alanında elektrikli, açık liman ve tersane sahasında dizel. Bu yazı bu seçimi ele alır.",
+            bolumler: [
+                {
+                    baslik: "Kapalı alan: elektrikli",
+                    paragraflar: [
+                        "Gıda tesisi, depo ve kapalı üretim alanlarında sıfır emisyon ve düşük gürültü nedeniyle elektrikli modeller kullanılır; iz bırakmayan lastik hassas zemine zarar vermez. Şarj altyapısı ve vardiya planı baştan kurulur.",
+                        "Düşük sıcaklıkta akü performansı düşer; kış vardiyası buna göre planlanır.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha: dizel",
+                    paragraflar: [
+                        "Liman, tersane ve açık sanayi sahasında dizel modeller 4x4 çekiş ve jack sistemiyle eğim ve gevşek zeminde güvenilirdir; yakıt ikmali hızlıdır. Kapalı alanda egzoz nedeniyle kullanılmaz.",
+                        "Doğru güç kaynağı, makine tipiyle birlikte saha koşuluna göre seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Gıda tesisinde dizel kullanılır mı?", cevap: "Kapalı ve emisyona duyarlı gıda alanlarında elektrikli modeller tercih edilir; dizel açık saha içindir. Kapalı alanda dizel egzozu risk oluşturur." },
+                { soru: "Liman sahasında elektrikli çalışır mı?", cevap: "Kısa süreli ve düz zeminli kullanım mümkün olsa da açık saha, eğim ve rüzgâr koşullarında dizel modeller daha güvenilirdir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bandirmada-telehandler-mi-manlift-mi",
+            kategori: "Karşılaştırma",
+            baslik: "Bandırma'da Telehandler mı, Manlift mi?",
+            ozet: "Yük taşımak mı, personeli çalıştırmak mı? Bandırma tesis ve şantiye işlerinde telehandler ile personel yükseltici arasındaki fark.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Bandırma sahasında telehandler ve manlift karşılaştırması",
+            tarih: "2026-05-25",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Bandırma'nın şantiye ve tesis işlerinde telehandler ile manlift (personel yükseltici) sık karıştırılır. İkisi aynı yüksekliğe ulaşsa da farklı işler için tasarlanmıştır. Bu yazı farkı açıklar.",
+            bolumler: [
+                {
+                    baslik: "Farklı amaçlar",
+                    paragraflar: [
+                        "Telehandler temelde yük taşır: bomuyla malzemeyi ileri ve yukarı ulaştırır. Manlift ise insanı korkuluklu sepette çalışma noktasına konumlandırır. Doğru soru 'kaç metre?' değil, 'ana faaliyet yük mü, personel mi?' sorusudur.",
+                        "İki faaliyet birlikteyse tek makineyi zorlamak yerine iş kalemleri ayrılır.",
+                    ],
+                },
+                {
+                    baslik: "Güvenlik",
+                    paragraflar: [
+                        "Telehandler'a insan sepeti takmak ancak üreticinin onayladığı konfigürasyonda ve yük tablosuna uyularak değerlendirilir; birçok modelde sepetten kumanda yoktur. Sürekli yüksekte çalışmada gerçek personel yükseltici hem daha güvenli hem daha verimlidir.",
+                        "Forklift, telehandler ve personel yükseltici üç ayrı sınıftır ve birbirinin yerine kullanılmaz.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Telehandler ile personel yükseltebilir miyim?", cevap: "Ancak üreticinin onayladığı sepet konfigürasyonu ve yük tablosuna uyumla; sınırlıdır. Sürekli yüksekte çalışmada gerçek personel yükseltici tercih edilir." },
+                { soru: "Bandırma'da hangisi gerekir?", cevap: "İşin ana faaliyeti yük taşımaksa telehandler, personel çalıştırmaksa manlift. İki faaliyet birlikteyse iş kalemleri ayrılıp iki makine kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
     ],
 };
 
