@@ -2360,6 +2360,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
         },
+        {
+            slug: "dizel-forklift-acik-saha-ve-rampa-isleri",
+            kategori: "Ürün Rehberi",
+            baslik: "Dizel Forklift: Açık Saha ve Rampa İşleri",
+            ozet: "Açık stok, rampa ve arazi zemininde güç ve dayanım. Dizel forkliftin açık saha avantajları ve kapalı alan kısıtları.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir açık sahasında dizel forklift ile yükleme",
+            tarih: "2026-06-22",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in açık stok ve liman sahalarında dizel forklift güç ve dayanım sunar. Bu yazı, dizel forkliftin açık saha avantajlarını ve nerede kullanılmayacağını anlatır.",
+            bolumler: [
+                {
+                    baslik: "Açık sahanın gücü",
+                    paragraflar: [
+                        "Dizel forkliftler yüksek tork ve dayanımıyla açık stok, rampa ve arazi zemininde güvenilirdir; ağır yük ve konteyner işlerinde tercih edilir. Yakıt ikmali hızlıdır, kesintisiz vardiyada avantaj sağlar.",
+                        "Yüksek kapasite sınıfları (5 ton ve üzeri) genellikle dizel modellerdir.",
+                    ],
+                },
+                {
+                    baslik: "Kapalı alan kısıtı",
+                    paragraflar: [
+                        "Havalandırması sınırlı kapalı alanda dizel egzozu karbon monoksit riski oluşturur; kapalı depoların çözümü elektrikli forkliftlerdir. Gürültü de kapalı ve hassas alanlarda kısıttır.",
+                        "Doğru seçim; zemin, vardiya, emisyon kuralı ve yük özelliğine göre yapılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Dizel forklift rampada güvenli mi?", cevap: "Dizel forkliftler yüksek tork ve dayanımıyla rampa ve eğimli zeminde kullanılır; ancak yük geriye yatık, hız kontrollü ve üretici eğim sınırına uyularak taşınır." },
+                { soru: "Neden depoda dizel kullanılmaz?", cevap: "Kapalı alanda dizel egzozu karbon monoksit riski taşır. Havalandırması sınırlı depoların standart çözümü elektrikli forkliftlerdir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-gida-sanayinde-forklift-ve-hijyen-kosullari",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir Gıda Sanayinde Forklift ve Hijyen Koşulları",
+            ozet: "Gıda üretim ve depolama tesislerinde sıfır emisyon, temizlik ve soğuk hava deposu koşullarında forklift kullanımı.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir gıda tesisinde elektrikli forklift ile hijyenik elleçleme",
+            tarih: "2026-06-19",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in gıda sanayisi (zeytin, süt işleme ve paketleme) hijyen ve emisyon kurallarıyla çalışır. Bu tesislerde forklift kullanımı bu koşullara uyar. Bu yazı gıda sanayisinde forklift kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Sıfır emisyon ve hijyen",
+                    paragraflar: [
+                        "Gıda üretim ve depolama alanlarında sıfır emisyon ve düşük gürültü nedeniyle elektrikli forklift kullanılır; makinenin temizlik ve hijyen kurallarına uygunluğu talep dosyasına eklenir.",
+                        "İz bırakmayan tekerlekler hijyenik zemine zarar vermez; sürekli palet trafiğinde iç hava kalitesi korunur.",
+                    ],
+                },
+                {
+                    baslik: "Soğuk hava deposu",
+                    paragraflar: [
+                        "Soğuk hava depolarında düşük sıcaklık akü performansını düşürür; kışa benzer koşulda daha kısa çalışma süresi ve uygun akü/kabin seçimi değerlendirilir. Makinenin soğuk ortama uygunluğu teyit edilir.",
+                        "Nem ve yoğuşma koşulları günlük kontrolde ayrıca dikkate alınır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Gıda tesisinde dizel forklift olur mu?", cevap: "Kapalı ve emisyona duyarlı gıda alanlarında elektrikli forklift tercih edilir; dizel açık saha içindir. Kapalı alanda dizel egzozu risk oluşturur." },
+                { soru: "Soğuk hava deposunda forklift çalışır mı?", cevap: "Evet; ancak düşük sıcaklık akü performansını düşürür, uygun akü ve kabin seçimi ile daha kısa çalışma süresi planlanır. Makinenin soğuk ortama uygunluğu teyit edilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-forklift-nakliye-ve-teslimat-planlamasi",
+            kategori: "Maliyet",
+            baslik: "İzmir'de Forklift Nakliye ve Teslimat Planlaması",
+            ozet: "İzmir içi mesafe, OSB kabul saati, rampa randevusu ve nakliye sorumluluğu. Forklift teslimatında sık yapılan hatalar.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "İzmir'de forklift teslimatı ve sevkiyat hazırlığı",
+            tarih: "2026-06-16",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'de forklift teslimatı, şehir içi mesafe ve OSB koşullarına göre planlanır. Bu yazı, nakliye ve teslimat planlamasını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Rota ve OSB koşulları",
+                    paragraflar: [
+                        "Nakliye; çıkış noktası ile Kemalpaşa, Torbalı, Çiğli veya Aliağa arasındaki mesafe, ağır araç güzergâhı, OSB kabul saati ve rampa randevusuna göre planlanır. Şehir içi ağır araç kısıtları teslimat saatini etkiler.",
+                        "Nakliye sorumluluğu ve ücreti yazılı teklifte açıkça belirtilir.",
+                    ],
+                },
+                {
+                    baslik: "Teslim ve iade",
+                    paragraflar: [
+                        "Teslimatta model uyumu, görünür hasar, sayaç/enerji seviyesi ve fonksiyonlar kayıt altına alınır; iade sırasında aynı bilgiler yeniden kaydedilir. Bu, sonradan çıkabilecek anlaşmazlıkları önler.",
+                        "Uzun dönem tedarikte tekrarlı nakliye maliyeti hesaba katılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "İzmir içi forklift teslimatı ne kadar sürer?", cevap: "Mesafe, OSB kabul saati, rampa randevusu ve şehir içi ağır araç kısıtlarına bağlıdır. Net adres ve kabul saati bilgisi teslimatı hızlandırır." },
+                { soru: "Nakliye ücreti kimde?", cevap: "Nakliye çoğu teklifte ayrı bir kalemdir; çıkış noktası, teslimat adresi, sorumluluk ve ücret yazılı teklifte belirtilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-kiralama-mi-satin-alma-mi-izmir",
+            kategori: "Maliyet",
+            baslik: "Forklift Kiralama mı, Satın Alma mı? İzmir İçin Karar",
+            ozet: "Kullanım sıklığı, bakım, operatör ve amortisman açısından forklift kiralama ve satın almanın karşılaştırması.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir'de kiralamaya hazır forklift filosu",
+            tarih: "2026-06-13",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'de forklift ihtiyacı süreklilik kazandığında 'kiralamak mı, satın almak mı?' sorusu doğar. Karar, kullanım sıklığına ve bakım yüküne bağlıdır. Bu yazı kararı etkileyen kalemleri sıralar.",
+            bolumler: [
+                {
+                    baslik: "Kiralamanın esnekliği",
+                    paragraflar: [
+                        "Proje bazlı, dönemsel veya farklı kapasiteler gerektiren ihtiyaçlarda kiralama esneklik sağlar: her iş için doğru kapasiteyi seçer, bakım, periyodik kontrol ve amortisman yükünü üstlenmezsiniz.",
+                        "Sezonluk yoğunlukta kiralama, atıl dönemde sabit maliyet oluşturmaz.",
+                    ],
+                },
+                {
+                    baslik: "Satın almada gizli maliyetler",
+                    paragraflar: [
+                        "Satın alma; bakım-onarım, yedek parça, periyodik kontrol, sigorta ve depolama gibi süreklilik gerektiren kalemleri getirir. Yüksek ve düzenli kullanım varsa satın alma anlamlı olabilir; toplam sahip olma maliyeti bu kalemlerle hesaplanır.",
+                        "Karar, gerçek kullanım verisiyle ve tek/çok kapasite ihtiyacına göre verilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Sezonluk kullanımda hangisi mantıklı?", cevap: "Dönemsel ve değişken kapasiteli ihtiyaçta kiralama esneklik ve düşük sabit maliyet sağlar. Yoğun ve sürekli tek kapasite kullanımında satın alma değerlendirilebilir." },
+                { soru: "Kiralamada bakım kime ait?", cevap: "Periyodik kontrol ve bakım genellikle kiraya verenin sorumluluğundadır; günlük kontrol ve doğru kullanım kiracıya aittir. Paylaşım sözleşmede yazılıdır." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-triplex-asansor-ve-yuksek-raf-forklift",
+            kategori: "Ürün Rehberi",
+            baslik: "İzmir'de Triplex Asansör ve Yüksek Raf Forklifti",
+            ozet: "Yüksek raf sistemlerinde serbest kaldırma ve triplex asansör ihtiyacı. Kapalı depolarda tavan yüksekliği ve raf kotuna göre forklift seçimi.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir deposunda triplex asansörlü forklift ile yüksek raf besleme",
+            tarih: "2026-06-10",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in yüksek raflı lojistik depolarında forklift seçimi, tavan yüksekliği ve raf kotuna bağlıdır. Bu yazı, triplex asansör ve serbest kaldırma ihtiyacını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Serbest kaldırma ve triplex",
+                    paragraflar: [
+                        "Kapalı ve tavanı sınırlı depolarda, kapalı asansör yüksekliği düşük tutulup yükün yükseğe çıkarılması gerektiğinde serbest kaldırmalı (full free lift) triplex asansör kullanılır. Bu, alçak kapı veya konteyner içinde yükleme yapılırken önemlidir.",
+                        "Raf üst kotu, kapalı asansör yüksekliği ve tavan açıklığı birlikte değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Kapasite ve kalan yük",
+                    paragraflar: [
+                        "Yüksek kaldırmada kalan kapasite düşebilir; raf üst kotundaki değer yük merkezi tablosundan kontrol edilir. Triplex asansör ve ataşman makinenin ağırlık merkezini etkiler.",
+                        "Doğru model; raf yüksekliği, tavan açıklığı ve yük özelliğine göre seçilip teklifte teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Triplex forklift ne zaman gerekir?", cevap: "Alçak tavan veya konteyner içi yüklemede, kapalı asansör yüksekliği düşük tutulup yükün yükseğe çıkarılması gerektiğinde serbest kaldırmalı triplex asansör kullanılır." },
+                { soru: "Yüksek raf beslemede kapasite düşer mi?", cevap: "Evet; kaldırma yüksekliği arttıkça kalan kapasite azalabilir. Raf üst kotundaki değer yük merkezi tablosundan kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
     ],
 };
 
