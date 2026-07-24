@@ -2987,6 +2987,72 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
         },
+        {
+            slug: "izmir-tekstil-ve-konfeksiyonda-forklift-kullanimi",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir Tekstil ve Konfeksiyonda Forklift Kullanımı",
+            ozet: "Bergama-Kınık hattı ve İzmir tekstil tesislerinde kumaş topu, balya ve koli elleçlemesinde forklift ve iç mekân koşulları.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir tekstil tesisinde forklift ile balya ve koli elleçlemesi",
+            tarih: "2026-04-26",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in tekstil ve konfeksiyon sanayisi (Bergama-Kınık hattı dahil) kumaş topu, balya ve koli elleçler. Bu yükler ve kapalı üretim ortamı forklift seçimini belirler. Bu yazı bu sektörde forklift kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Balya, koli ve top",
+                    paragraflar: [
+                        "Kumaş balyası, iplik ve koli gibi yükler için uygun kapasiteli forklift; paletsiz balyada klemp ataşmanı değerlendirilebilir. Kapalı üretim ve depo alanında elektrikli forklift tercih edilir.",
+                        "Hafif ama hacimli yüklerde görüş ve manevra ayrıca planlanır.",
+                    ],
+                },
+                {
+                    baslik: "İç mekân koşulları",
+                    paragraflar: [
+                        "Sıfır emisyon ve düşük gürültü, kapalı tekstil tesisinde vardiya içinde çalışmayı sağlar; iz bırakmayan lastik zemine zarar vermez. Toz ve elyaf yoğun ortamda günlük kontrolde filtreye dikkat edilir.",
+                        "Dar depo koridorunda çeviklik ve dönüş alanı makine seçimini belirler.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Paletsiz balya nasıl taşınır?", cevap: "Paletsiz kumaş veya iplik balyası için klemp gibi ataşmanlar kullanılır; ataşmanlı kapasite ayrıca hesaplanır ve makine uygunluğu değerlendirilir." },
+                { soru: "Tekstil tesisinde elektrikli forklift olur mu?", cevap: "Evet; kapalı üretim ve depoda sıfır emisyon ve düşük gürültüsüyle elektrikli forklift uygundur. Toz/elyaf yoğun ortamda filtre ve bakım dikkatle takip edilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "dar-alan-icin-reach-truck-ve-dar-koridor-forklifti",
+            kategori: "Ürün Rehberi",
+            baslik: "Dar Alan İçin Reach Truck ve Dar Koridor Çözümleri",
+            ozet: "Yüksek raflı ve dar koridorlu depolarda alan verimliliği. Reach truck ve dar koridor forkliftinin standart forkliftten farkı.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Dar koridorlu depoda yüksek raf besleme çözümü",
+            tarih: "2026-04-23",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Yüksek raflı ve dar koridorlu depolarda standart karşı ağırlıklı forklift alan verimliliğini düşürebilir. Bu yazı, dar alan için reach truck ve dar koridor çözümlerini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Reach truck nedir?",
+                    paragraflar: [
+                        "Reach truck, çatalı ileri uzatabilen (reach) yapısıyla dar koridorda yüksek rafa erişim sağlar; karşı ağırlıklı forklifte göre daha dar koridorda çalışır ve alan verimliliğini artırır. Genellikle kapalı depo için elektriklidir.",
+                        "Yüksek raf kotu ve dar koridor bir arada olduğunda reach truck değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Seçim ölçütü",
+                    paragraflar: [
+                        "Koridor genişliği, raf yüksekliği ve palet trafiği reach truck ihtiyacını belirler. Standart forkliftin dönemediği dar koridorlarda alan kazancı önemlidir.",
+                        "Kapasite, yükseklik ve koridor birlikte değerlendirilir; uygunluk güncel stok üzerinden teklifte teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Reach truck ile forklift farkı nedir?", cevap: "Reach truck çatalı ileri uzatabilir ve dar koridorda yüksek rafa erişir; karşı ağırlıklı standart forklifte göre daha dar koridorda çalışır, alan verimliliği sağlar." },
+                { soru: "Dar koridorlu depoda hangi çözüm?", cevap: "Yüksek raf ve dar koridor bir aradaysa reach truck veya dar koridor çözümleri değerlendirilir. Koridor genişliği, raf yüksekliği ve trafik seçimi belirler." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
     ],
 };
 
