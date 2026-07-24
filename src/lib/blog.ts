@@ -4705,6 +4705,91 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "bilecikte-platform-teslim-alma-ve-iade-kontrolu",
+            kategori: "Güvenlik", baslik: "Bilecik'te Platform Teslim Alma ve İade Kontrolü",
+            ozet: "Makine teslim alınırken ve iade edilirken model uyumu, görünür hasar ve güvenlik işlevlerinin kayıt altına alınması.",
+            gorsel: blogGorsel.depo, gorselAlt: "Bilecik'te teslim alma kontrolü yapılan platform",
+            tarih: "2026-06-08", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Platform teslim alınırken ve iade edilirken yapılan kısa kontrol hem güvenliği sağlar hem anlaşmazlıkları önler.",
+            bolumler: [
+                { baslik: "Teslim alırken", paragraflar: ["Model uyumu, görünür hasar, sayaç/enerji seviyesi, korkuluk ve ataşman kayıt altına alınır. Fren, acil durdurma ve acil indirme yetkili kişice kontrol edilir.", "Uygunsuzlukta makine kullanılmaz, tutanakla bildirilir."] },
+                { baslik: "İade ederken", paragraflar: ["Sayaç, yakıt-şarj ve görünür hasar yeniden kaydedilir; teslim-iade karşılaştırması anlaşmazlığı önler.", "Kontrol kayıtları teslim dosyasında bulunur."] },
+            ],
+            sss: [
+                { soru: "Teslim kontrolü periyodik kontrol yerine geçer mi?", cevap: "Hayır; o anki durumu kayda alır, periyodik kontrolün yerine geçmez, onu tamamlar." },
+                { soru: "Hasar bulunursa?", cevap: "Makine güvenli değilse kullanılmaz; hasar tutanakla bildirilir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-kis-kosullarinda-yuksekte-calisma",
+            kategori: "Güvenlik", baslik: "Bilecik'te Kış Koşullarında Yüksekte Çalışma",
+            ozet: "Buzlanma, düşük sıcaklık ve rüzgârın açık saha işlerine etkisi. Bilecik'in soğuk kışında platform kullanımında ek önlemler.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Bilecik'te kış koşullarında yükseltici platformla çalışma",
+            tarih: "2026-06-05", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik, iç Anadolu'ya yakın konumuyla sert kışlara sahiptir; bu, açık saha yüksekte çalışmayı zorlaştırır. Bu yazı kış koşullarında ek önlemleri ele alır.",
+            bolumler: [
+                { baslik: "Buzlanma ve zemin", paragraflar: ["Sabah erken ve gölgeli alanlarda buzlanma jack ayaklarının tam temasını engelleyebilir; kurulum öncesi zemin kontrolü standart hâle gelir. Gün içinde eriyen kar zemini oynatır.", "Ayak altı plakayla zemin arasındaki buz kayma yüzeyi oluşturabilir."] },
+                { baslik: "Ekipman ve çalışan", paragraflar: ["Düşük sıcaklıkta hidrolik yağ koyulaşır; üretici ısınma süresine uyulur. Akü performansı düşer. Rüzgâr soğuğu yükseklikte belirginleşir; termal giysi ve ısınma molaları planlanır.", "Kısa gün ışığında aydınlatma erken devreye alınır."] },
+            ],
+            sss: [
+                { soru: "Soğukta makine hemen çalıştırılır mı?", cevap: "Düşük sıcaklıkta hidrolik yağ koyulaşır; üreticiler rölantide ısınma süresi önerir. Bu süre atlanamaz." },
+                { soru: "Kar yağışında çalışılır mı?", cevap: "Genel kural, aktif kar yağışında dış mekân operasyonlarının durdurulmasıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-platform-teklifinde-nelere-dikkat-edilir",
+            kategori: "Maliyet", baslik: "Bilecik'te Platform Teklifinde Nelere Dikkat Edilir?",
+            ozet: "Yazılı teklifte makine sınıfı, çalışma saati, operatör, nakliye, ikame ve ödeme koşulları.",
+            gorsel: blogGorsel.makinePark, gorselAlt: "Bilecik için platform yazılı teklif hazırlığı",
+            tarih: "2026-06-02", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'teki platform tekliflerini sağlıklı karşılaştırmanın yolu aynı kalemlerin aynı iş tanımı üzerinden yazılı görülmesidir.",
+            bolumler: [
+                { baslik: "Teklifte görülmesi gerekenler", paragraflar: ["Ürün sınıfı ve mümkünse model, çalışma saati sınırı, operatör kapsamı, nakliye, enerji-yakıt sorumluluğu, ikame koşulu ve ödeme maddeleri ayrı satırlarda görülmelidir.", "Tesis giriş belgeleri de paylaşılmalıdır."] },
+                { baslik: "'Her şey dahil' yerine dahil-hariç", paragraflar: ["Belirsiz ifadeler yerine dahil ve hariç kalemler ayrı yazılır; nakliye sorumluluğu belirtilir.", "Model yoksa kabul edilecek teknik sınırlar tanımlanır."] },
+            ],
+            sss: [
+                { soru: "İkame maddesi neden önemli?", cevap: "Arıza durumunda yedek makine koşulu iş kaybını sınırlar." },
+                { soru: "Model yoksa ne yapmalı?", cevap: "Kabul edilecek teknik sınırlar tanımlanır; sevkten önce model verileri karşılaştırılır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-platform-kiralama-mi-satin-alma-mi",
+            kategori: "Maliyet", baslik: "Bilecik'te Platform Kiralama mı, Satın Alma mı?",
+            ozet: "Kullanım sıklığı, bakım, periyodik kontrol ve amortisman açısından kiralama ve satın almanın karşılaştırması.",
+            gorsel: blogGorsel.depo, gorselAlt: "Bilecik'te kiralamaya hazır platform filosu",
+            tarih: "2026-05-30", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te platform ihtiyacı süreklilik kazandığında 'kiralamak mı, satın almak mı?' sorusu doğar.",
+            bolumler: [
+                { baslik: "Kiralamanın esnekliği", paragraflar: ["Proje bazlı ve farklı sınıflar gerektiren ihtiyaçlarda kiralama esneklik sağlar; bakım, periyodik kontrol ve amortisman yükünü üstlenmezsiniz.", "Atıl dönemde sabit maliyet oluşmaz."] },
+                { baslik: "Satın almada gizli maliyetler", paragraflar: ["Bakım, yedek parça, periyodik kontrol, sigorta ve depolama süreklilik gerektirir. Yüksek ve düzenli kullanımda satın alma anlamlı olabilir.", "Karar gerçek kullanım verisiyle verilir."] },
+            ],
+            sss: [
+                { soru: "Ne kadar kullanımda satın alma mantıklı?", cevap: "Aralıklı/çok sınıflı ihtiyaçta kiralama; yoğun tek sınıflı kullanımda satın alma değerlendirilir." },
+                { soru: "Kiralamada bakım kime ait?", cevap: "Periyodik kontrol ve bakım genellikle kiraya verende; günlük kontrol kiracıda." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "bilecikte-gunluk-haftalik-aylik-platform-kiralama",
+            kategori: "Maliyet", baslik: "Bilecik'te Günlük, Haftalık, Aylık Platform Kiralama",
+            ozet: "Kiralama süresinin birim maliyete etkisi ve bölgesel nakliyeyle ilişkisi. Bilecik projelerinde süre planlaması.",
+            gorsel: blogGorsel.makinePark, gorselAlt: "Bilecik'te uzun dönem kiralamaya uygun platform",
+            tarih: "2026-05-27", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Bilecik'te platform kiralamada süre birim maliyeti doğrudan etkiler ve bölgesel nakliyeyle birlikte değerlendirilir.",
+            bolumler: [
+                { baslik: "Süre ve nakliye ilişkisi", paragraflar: ["Günlük, haftalık ve aylık kiralamada birim maliyet farklıdır; uzun dönem genellikle daha uygun bir aralığa yerleşir. Söğüt/Osmaneli gibi uzak noktalarda uzun dönem tekrarlı nakliyeyi azaltır.", "'Süre'; çalışma saati, vardiya ve atıl günleri kapsar."] },
+                { baslik: "Doğru planlama", paragraflar: ["Başlangıç-bitiş tarihi ve günlük çalışma saati baştan yazılırsa sürpriz kalem oluşmaz.", "Kesin oran yazılı teklifte belirtilir."] },
+            ],
+            sss: [
+                { soru: "Uzak bölgede uzun dönem mantıklı mı?", cevap: "Uzak noktalarda uzun dönem tekrarlı nakliyeyi azaltarak toplam maliyeti düşürebilir." },
+                { soru: "Atıl gün kapsama girer mi?", cevap: "Genellikle girer; başlangıç-bitiş ve çalışma günleri baştan tanımlanır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
