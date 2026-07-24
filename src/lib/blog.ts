@@ -329,6 +329,119 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
         },
+        {
+            slug: "dizel-eklemli-platform-acik-saha-erisim-rehberi",
+            kategori: "Ürün Rehberi",
+            baslik: "Dizel Eklemli Platform: Açık Sahada Engel Aşan Erişim",
+            ozet: "Şantiye, çelik montaj ve fabrika dışı işlerde 4x4 çekiş, jack sistemi ve yüksek erişim. Dizel eklemli platformun açık saha avantajları ve zemin koşulları.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Fabrika sahasında dizel yükseltici platform ve forklift ile çalışma",
+            tarih: "2026-07-15",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Açık sahada yüksekte çalışma, kapalı alandan farklı koşullar getirir: eğim, gevşek zemin, rüzgâr ve uzun erişim. Dizel eklemli platform, bu koşullar için tasarlanmıştır. Bu rehber, dizel modelin nerede doğru olduğunu ve zemin koşullarının seçime etkisini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Dizel modelin açık saha avantajı",
+                    paragraflar: [
+                        "Dizel eklemli platformlar genellikle 4x4 çekiş ve daha yüksek tırmanma açısıyla gelir; şantiye, arazi zemini ve eğimli yüzeylerde elektrikliden daha güvenilirdir. Jack (denge ayağı) sistemi eğimli ve gevşek zeminde makineyi dengeler.",
+                        "Yakıt ikmali dakikalar sürer, bu da kesintisiz vardiya gerektiren dış mekân projelerinde operasyonel avantaj sağlar. Yüksek erişim sınıflarında (28-43 m) dizel modeller yaygındır.",
+                    ],
+                },
+                {
+                    baslik: "Zemin: gözle değil, veriyle karar",
+                    paragraflar: [
+                        "Makinenin toplam ağırlığı kadar, teker veya jack ayağında oluşan noktasal yük de zemini zorlar. Stabilize yol, sıkıştırılmış dolgu ve şantiye zemini çoğu modelde uygundur; ancak taşıma kapasitesi belirsiz, çamurlu veya bodrum üzeri zeminlerde önce uygunluk değerlendirilir, gerekirse çelik plaka serilir.",
+                        "Arazi tipi görünümüne güvenip eğimi ve zemin kapasitesini ölçmemek en sık yapılan hatadır. Zemin kapasitesi bilinmiyorsa saha yetkilisinin veya ilgili teknik disiplinin görüşü alınır.",
+                    ],
+                },
+                {
+                    baslik: "Kapalı alanda dizel neden kullanılmaz?",
+                    paragraflar: [
+                        "Dizel motorun egzozu, havalandırması sınırlı kapalı alanda karbon monoksit riski oluşturur; bu yüzden kapalı alanların standart çözümü elektrikli modellerdir. Gürültü de kapalı ve hassas alanlarda bir kısıttır.",
+                        "Doğru güç kaynağı, makine tipiyle birlikte saha koşuluna göre seçilir. Aynı projede iç mekân işleri elektrikliyle, dış cephe ve çatı işleri dizelle yürütülebilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Dizel eklemli platform her zeminde çalışır mı?", cevap: "Çoğu açık saha zemininde çalışır, ancak taşıma kapasitesi belirsiz, çok yumuşak veya bodrum üzeri zeminlerde önce uygunluk değerlendirilir. 4x4 çekiş ve jack sistemi eğimli zeminde destek sağlar; yine de üretici eğim sınırı esastır." },
+                { soru: "Açık sahada rüzgâr çalışmayı durdurur mu?", cevap: "Rüzgâr limiti makineye ve erişim yüksekliğine göre değişir; üretici sınırı ve makine üzerindeki bilgi plakası kontrol edilir. Sınır aşılıyorsa iş durdurulur." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "operatorlu-eklemli-platform-kiralama-ne-zaman-gerekir",
+            kategori: "Ürün Rehberi",
+            baslik: "Operatörlü Eklemli Platform Kiralama Ne Zaman Gerekir?",
+            ozet: "Operatörlü mü, operatörsüz mü? Yetkinlik, vardiya, saha oryantasyonu ve maliyet açısından karar rehberi. Operatör belgesi gerekliliği nasıl belirlenir?",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Artı Platform makine parkında operatörlü kiralamaya hazır platformlar",
+            tarih: "2026-07-14",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Eklemli platform kiralarken operatör kararı hem güvenliği hem maliyeti etkiler. Doğru karar, işi kimin, hangi yetkinlikle ve hangi koşulda yapacağına bağlıdır. Bu yazı, operatörlü ve operatörsüz kiralama arasındaki farkı ve karar ölçütlerini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Operatörlü kiralama ne sağlar?",
+                    paragraflar: [
+                        "Operatörlü hizmette makineyi, ekipmanı tanıyan ve yetkinliği belgelenmiş bir kişi kullanır. Kısa süreli, tek seferlik veya kendi ekibinizde yetkin operatör bulunmayan işlerde operatörlü kiralama hem güvenli hem pratik olur.",
+                        "Operatörlü hizmette vardiya süresi, fazla çalışma, yol-konaklama ve saha oryantasyonu teklif kapsamında konuşulur. Bu kalemler yazılı teklifte ayrı ayrı görülmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Operatörsüz kiralamada sorumluluk",
+                    paragraflar: [
+                        "Operatörsüz kiralamada makineyi kullanacak kişinin yetkinliği ve teslim eğitimi önem kazanır. Operatör yeterlilik belgesi gerekliliği; yapılan görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir ve göreve başlamadan önce yetkili İSG birimi ile resmî kaynaklardan doğrulanmalıdır.",
+                        "Belgesiz veya yetkinliği doğrulanmamış kullanım, kaza hâlinde işverenin sorumluluğunu ağırlaştırır. Bu yüzden operatörsüz talepte makineyi kimin kullanacağı baştan netleştirilir.",
+                    ],
+                },
+                {
+                    baslik: "Maliyet ve karar",
+                    paragraflar: [
+                        "Operatörlü ve operatörsüz kiralama farklı fiyatlanır; karar yalnız maliyete göre değil, ekibinizin yetkinliğine ve işin süresine göre verilir. Uzun süreli projelerde kendi yetkin operatörünüzle operatörsüz kiralama ekonomik olabilir; kısa ve teknik işlerde operatörlü hizmet güvenliği artırır.",
+                        "Her iki durumda da vardiya öncesi kontrol, kurtarma planı ve saha güvenlik kuralları uygulanır. Kesin kapsam ve fiyat yazılı teklifte belirlenir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Eklemli platform için operatör belgesi zorunlu mu?", cevap: "Gereklilik; görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir. Kesin şartlar yetkili İSG birimi ve resmî kaynaklardan doğrulanmalıdır; belgesiz kullanım kaza hâlinde işverenin kusurunu ağırlaştırır." },
+                { soru: "Operatörlü kiralama daha mı güvenli?", cevap: "Kendi ekibinizde yetkin operatör yoksa ya da iş kısa ve teknikse, ekipmanı tanıyan bir operatörle çalışmak güvenliği artırır. Uzun süreli işlerde kendi yetkin ekibinizle operatörsüz kiralama da uygun olabilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platformda-ruzgar-limiti-ve-hava-kosullari",
+            kategori: "Güvenlik",
+            baslik: "Eklemli Platformda Rüzgâr Limiti ve Hava Koşulları",
+            ozet: "Uzayan bomda rüzgâr etkisi yükseklikte artar. Rüzgâr limitinin makineye özgü olması, hava koşulunun bir durdurma kriteri olarak baştan tanımlanması ve saha uygulaması.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Açık sahada rüzgâra açık koşullarda yüksekte çalışma",
+            tarih: "2026-07-13",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Eklemli platformda uzayan bom, rüzgârın etkisini yükseklikte belirgin biçimde artırır. Rüzgâr, açık saha işlerinin en çok küçümsenen ama en belirleyici koşullarından biridir. Bu yazı, rüzgâr limitinin nasıl okunacağını ve hava koşulunun iş planına nasıl işleneceğini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Rüzgâr limiti makineye özgüdür",
+                    paragraflar: [
+                        "Tek bir 'güvenli rüzgâr değeri' yoktur; limit makineye, modele ve erişim konfigürasyonuna göre değişir. Uzayan erişimle birlikte izin verilen rüzgâr değeri düşebilir. Bu yüzden çalışma öncesinde seçilen modelin teknik föyü ve makine üzerindeki bilgi plakası kontrol edilir.",
+                        "Sepete asılan levha, pano veya geniş yüzeyli malzeme rüzgâr etkisini artırır ('yelken etkisi'); bu tür yükler rüzgâr değerlendirmesine dâhil edilmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Durdurma kriterini baştan yazın",
+                    paragraflar: [
+                        "Hangi rüzgâr, yağış veya görüş değerinde işin duracağı, iş başlamadan önce yazılmalıdır. Aksi hâlde karar sahada baskı altında ve genellikle güvenlik aleyhine verilir. Gün içi bozulma ihtimaline karşı ekipmana özgü durdurma kriteri belirlenir.",
+                        "Anemometre (rüzgâr ölçer) ile ölçüm, gözle tahminden güvenilirdir. Rüzgâr sınırı aşıldığında platform indirilir ve iş durdurulur; makine park konumuna alınır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Eklemli platformda güvenli rüzgâr sınırı kaçtır?", cevap: "Sabit bir değer yoktur; limit makineye, modele ve erişim yüksekliğine göre değişir ve uzayan erişimle düşebilir. Seçilen modelin teknik föyü ve bilgi plakası esas alınır." },
+                { soru: "Yağmurda eklemli platform kullanılabilir mi?", cevap: "Görüş, zemin kayganlığı ve üreticinin hava koşulu limitlerine bağlıdır. Yoğun yağış ve düşük görüşte dış mekân platform operasyonları genellikle durdurulur." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
     ],
 };
 
