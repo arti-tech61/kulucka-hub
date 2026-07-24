@@ -2822,6 +2822,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
         },
+        {
+            slug: "lpg-forklift-ne-zaman-tercih-edilir",
+            kategori: "Karşılaştırma",
+            baslik: "LPG Forklift Ne Zaman Tercih Edilir?",
+            ozet: "Elektrikli ve dizel arasında bir seçenek olarak LPG forklift: yarı açık alan, hızlı ikmal ve emisyon dengesi açısından kullanım alanı.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir sahasında LPG forklift ile elleçleme",
+            tarih: "2026-05-11",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Forklift güç kaynağında elektrikli ve dizel dışında bir seçenek de LPG'dir. Belirli koşullarda pratik bir denge sunar. Bu yazı, LPG forkliftin ne zaman tercih edildiğini anlatır.",
+            bolumler: [
+                {
+                    baslik: "LPG'nin dengesi",
+                    paragraflar: [
+                        "LPG forklift, dizele göre daha düşük egzoz emisyonu ve elektrikliye göre hızlı ikmal (tüp değişimi) sunar; iyi havalandırılan yarı açık alanlarda ve tek vardiyalı işlerde pratiktir. Şarj beklemesi olmadan sürekli çalışabilir.",
+                        "Yine de kapalı ve havalandırması sınırlı alanların standart çözümü elektrikli forkliftlerdir.",
+                    ],
+                },
+                {
+                    baslik: "Kullanım koşulları",
+                    paragraflar: [
+                        "Tüp depolama ve değişim düzeni, işletmenin yakıt prosedürüne yazılır. Emisyon kısıtı olan hassas alanlarda kullanılmaz.",
+                        "Doğru güç kaynağı; havalandırma, vardiya düzeni ve emisyon kuralına göre seçilir. Türkiye'deki filo ağırlıklı elektrikli ve dizel olsa da uygunluk tedarikçiden teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "LPG forklift kapalı alanda kullanılır mı?", cevap: "Sadece iyi havalandırılan ortamlarda ve işletme prosedürüne uygun olarak; havalandırması sınırlı kapalı alanların standart çözümü elektrikli forkliftlerdir." },
+                { soru: "LPG mi dizel mi daha hızlı ikmal?", cevap: "LPG'de tüp değişimi hızlıdır ve şarj beklemesi olmaz; dizelde de ikmal hızlıdır. İkisi de kesintisiz vardiyada avantaj sağlar, seçim emisyon ve saha koşuluna bağlıdır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-otomotiv-yan-sanayinde-forklift-kullanimi",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir Otomotiv Yan Sanayinde Forklift Kullanımı",
+            ozet: "Metal parça, kalıp ve komponent elleçlemesinde hassas ve ağır yük yönetimi. İzmir otomotiv yan sanayi sahalarında forklift seçimi.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir otomotiv yan sanayi tesisinde forklift ile parça elleçlemesi",
+            tarih: "2026-05-08",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in otomotiv yan sanayisinde metal parça, kalıp ve komponent elleçlenir; bu yükler hem ağır hem hassastır. Bu yazı, otomotiv yan sanayide forklift kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Ağır ve hassas yük",
+                    paragraflar: [
+                        "Kalıp ve metal parça gibi ağır ve hassas yüklerde kapasite ve yük merkezi dikkatle hesaplanır; hassas konumlama için sideshift değerlendirilebilir. Kapalı üretim alanında elektrikli forklift tercih edilir.",
+                        "Hat besleme ve JIT (tam zamanında) üretimde sürekli ve düzenli elleçleme gerekir.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve hat düzeni",
+                    paragraflar: [
+                        "Epoksi üretim zemininde iz bırakmayan lastik kullanılır; dar hat aralıkları ve dönüş alanı makine seçimini belirler. Hat kenarındaki yaya trafiği yönetilir.",
+                        "Kapasite, koridor ve yük özelliği birlikte değerlendirilerek doğru model seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Kalıp taşımada hangi forklift?", cevap: "Ağır ve hassas kalıp yükünde kapasite ve yük merkezi dikkatle hesaplanır; kapalı alanda elektrikli forklift ve hassas konumlama için sideshift değerlendirilir." },
+                { soru: "Üretim hattında elektrikli forklift şart mı?", cevap: "Kapalı üretim alanında sıfır emisyon ve düşük gürültü nedeniyle elektrikli forklift tercih edilir; iz bırakmayan lastik epoksi zemine zarar vermez." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-yaya-guvenligi-ve-saha-trafik-yonetimi",
+            kategori: "Güvenlik",
+            baslik: "Forklift Yaya Güvenliği ve Saha Trafik Yönetimi",
+            ozet: "Forklift-yaya çarpışmaları önlenebilir kazalardır. Ayrılmış yollar, hız yönetimi, kör nokta ve görünürlük önlemleri.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir deposunda forklift ve yaya trafiğinin güvenli ayrımı",
+            tarih: "2026-05-05",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Forklift kazalarının önemli bölümü yaya ile çarpışmadır ve büyük ölçüde önlenebilir. Bu yazı, saha trafik yönetimi ve yaya güvenliği önlemlerini özetler.",
+            bolumler: [
+                {
+                    baslik: "Yolları ayırın",
+                    paragraflar: [
+                        "En etkili önlem, forklift ve yaya yollarını fiziksel olarak ayırmaktır: işaretli yollar, bariyer ve yaya geçitleri çarpışma riskini belirgin azaltır. Kesişim noktaları ayna, uyarı ve gerektiğinde durak kuralıyla yönetilir.",
+                        "Kör noktalar (raf araları, kapı çıkışları) ayrıca işaretlenir.",
+                    ],
+                },
+                {
+                    baslik: "Hız, görünürlük ve kural",
+                    paragraflar: [
+                        "Saha içi hız sınırı belirlenir; görüşü kapatan yükte geri manevra veya gözcü kullanılır. Sesli-ışıklı uyarı, yüksek görünürlüklü yelek ve iyi aydınlatma görünürlüğü artırır.",
+                        "Sadece yetkin ve yetkili kişiler forklift kullanır; kurallar saha eğitiminde tekrarlanır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift-yaya kazası nasıl önlenir?", cevap: "En etkili yöntem forklift ve yaya yollarını fiziksel olarak ayırmaktır; işaretli yollar, bariyer, hız sınırı, ayna ve uyarı sistemleri riski azaltır." },
+                { soru: "Görüşü kapatan yükte ne yapılmalı?", cevap: "Görüşü kapatan yükte geri manevra ya da gözcü kullanılır; ani dönüşten kaçınılır ve hız düşürülür. Alternatifte yük yönü veya taşıma yöntemi değiştirilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-kisa-sureli-mi-uzun-donem-mi-forklift-kiralama",
+            kategori: "Maliyet",
+            baslik: "İzmir'de Kısa Süreli mi, Uzun Dönem mi Forklift Kiralama?",
+            ozet: "Saatlik/günlük ihtiyaç mı, aylık sözleşmeli tedarik mi? Kullanım yoğunluğu ve maliyet açısından süre kararı.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "İzmir'de kısa ve uzun dönem kiralamaya uygun forkliftler",
+            tarih: "2026-05-02",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'de forklift ihtiyacının süresi, hem makine seçimini hem maliyeti etkiler. Bu yazı, kısa süreli ve uzun dönem kiralama arasındaki kararı ele alır.",
+            bolumler: [
+                {
+                    baslik: "Kısa süreli kiralama",
+                    paragraflar: [
+                        "Saatlik veya günlük ihtiyaçlar (sezonluk yoğunluk, tek seferlik yükleme, geçici hat) için kısa süreli kiralama esneklik sağlar; operatörlü hizmetle birlikte pratik olur.",
+                        "Tekrarlı kısa ihtiyaçlarda toplam gün sayısı ve tekrarlı nakliye maliyeti değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Uzun dönem tedarik",
+                    paragraflar: [
+                        "Sürekli ve düzenli kullanımda aylık sözleşmeli uzun dönem kiralama, günlük orana göre daha uygun bir birim maliyete yerleşir ve tekrarlı nakliyeyi azaltır. Bakım ve periyodik kontrol yükü kiraya verende kalır.",
+                        "Karar; kullanım yoğunluğu, süre ve tekrar sıklığına göre verilir ve yazılı teklifte netleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Sezonluk yoğunlukta hangisi uygun?", cevap: "Sezonluk ve değişken ihtiyaçta kısa süreli/operatörlü kiralama esneklik sağlar; sürekli kullanımda uzun dönem daha uygun birim maliyet sunar." },
+                { soru: "Uzun dönemde birim maliyet düşer mi?", cevap: "Genellikle uzun dönem, günlük orana göre daha uygun bir aralığa yerleşir ve tekrarlı nakliyeyi azaltır; kesin oran yazılı teklifte belirtilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-secerken-saha-analizi-ve-talep-dosyasi",
+            kategori: "Ürün Rehberi",
+            baslik: "Forklift Seçerken Saha Analizi ve Talep Dosyası",
+            ozet: "Doğru forklift, doğru saha bilgisiyle başlar. Yük, koridor, zemin, yükseklik ve vardiya bilgisiyle talep dosyası hazırlığı.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir'de forklift için saha analizi ve ölçüm",
+            tarih: "2026-04-29",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "İzmir'de forklift kiralamanın en sık hatası, sahayı yeterince tarif etmeden makine istemektir. Doğru seçim, saha analiziyle başlar. Bu yazı, talep dosyasında paylaşılması gereken bilgileri anlatır.",
+            bolumler: [
+                {
+                    baslik: "Yük ve elleçleme",
+                    paragraflar: [
+                        "En ağır yükün ağırlığı ve ölçüsü, yük merkezi, paletli mi paletsiz mi, kaldırma yüksekliği ve elleçleme sıklığı kaydedilir. Uzun veya hacimli yükte ataşman ihtiyacı belirtilir.",
+                        "Bu bilgiler kapasite ve model seçimini doğrudan belirler.",
+                    ],
+                },
+                {
+                    baslik: "Saha ve vardiya",
+                    paragraflar: [
+                        "En dar koridor, kapı yüksekliği, dönüş alanı, zemin türü (epoksi, beton, mıcır), rampa ve iç/dış mekân bilgisi paylaşılır. Vardiya sayısı ve çalışma saati, güç kaynağı ve şarj planını etkiler.",
+                        "Eksiksiz talep dosyası, farklı tedarikçilerin aynı iş tanımı üzerinden teklif vermesini ve doğru makinenin seçilmesini sağlar.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift talebi için hangi bilgileri vermeliyim?", cevap: "En ağır yük ve ölçüsü, yük merkezi, kaldırma yüksekliği, koridor/kapı ölçüsü, zemin türü, iç/dış mekân ve vardiya bilgisi. Bu bilgiler kapasite, güç kaynağı ve model seçimini belirler." },
+                { soru: "Saha görülmeden teklif alınır mı?", cevap: "Doğru ölçü ve saha bilgisiyle çoğu talep uzaktan ön değerlendirilebilir; karmaşık koşullarda yerinde inceleme gerekip gerekmediği ayrıca kararlaştırılır. Kesin model yazılı teklifte belirlenir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
     ],
 };
 
