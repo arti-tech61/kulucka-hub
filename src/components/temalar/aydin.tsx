@@ -36,7 +36,7 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
     const nav = [
         { ad: "Ana Sayfa", href: "/" },
         { ad: "Hakkımızda", href: "/hakkimizda" },
-        { ad: "Filo", href: "/urunler" },
+        { ad: "Filo", href: "/makasli-platform-kiralama" },
         { ad: "Blog", href: "/blog" },
         { ad: "İletişim", href: "/iletisim" },
     ];
@@ -75,7 +75,7 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
                 <div className="grid grid-cols-2 gap-x-12 gap-y-4">
                     <h4 className="col-span-2 text-[14px] font-semibold text-[#FBBF24] uppercase tracking-widest mb-2">Hızlı Menü</h4>
                     <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/hakkimizda">Hakkımızda</a>
-                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/urunler">Filo</a>
+                    <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/makasli-platform-kiralama">Filo</a>
                     <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/blog">Blog</a>
                     <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/iletisim">İletişim</a>
                     <a className="text-[#dce2f7] hover:text-white transition-colors text-base" href="/teklif-hazirligi">Talep Rehberi</a>
@@ -134,7 +134,7 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
                         <p className="text-[18px] leading-[28px] mb-8 text-white/90">{site.paragraflar[0]}</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a className="bg-[#FBBF24] text-[#0A1525] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:shadow-xl transition-all" href="/iletisim">Teklif Alın</a>
-                            <a className="bg-transparent border-2 border-[#F9FAFB] text-[#F9FAFB] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:bg-[#F9FAFB] hover:text-[#0A1525] transition-all" href="/urunler">Filoyu İncele</a>
+                            <a className="bg-transparent border-2 border-[#F9FAFB] text-[#F9FAFB] px-8 py-4 rounded-[2px] font-bold text-lg text-center hover:bg-[#F9FAFB] hover:text-[#0A1525] transition-all" href="/makasli-platform-kiralama">Filoyu İncele</a>
                         </div>
                     </div>
                 </div>
