@@ -1,5 +1,6 @@
 import { hostIcinSite } from "@/lib/siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
+import { hostBloglari } from "@/lib/blog";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
@@ -39,6 +40,13 @@ export async function GET(istek: Request) {
             }
             for (const sayfa of kurumsalSayfalar(site).filter((s) => s.indexlenebilir)) {
                 urller.push({ loc: `https://${site.host}/${sayfa.slug}`, lastmod: bugun });
+            }
+            const bloglar = hostBloglari(site.host);
+            if (bloglar.length > 0) {
+                urller.push({ loc: `https://${site.host}/blog`, lastmod: bugun });
+                for (const y of bloglar) {
+                    urller.push({ loc: `https://${site.host}/blog/${y.slug}`, lastmod: y.guncelleme ?? y.tarih });
+                }
             }
             if (site.host === "yuksektecalismarehberi.com") {
                 urller.push({ loc: `https://${site.host}/rehber/telehandler-mi-personel-yukseltici-mi`, lastmod: bugun });

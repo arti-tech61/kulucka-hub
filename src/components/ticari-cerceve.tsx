@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
+import { hostBloglari } from "@/lib/blog";
 
 function siteGorunumu(site: SiteIcerik) {
     if (site.host.includes("forklift")) {
@@ -47,6 +48,9 @@ function siteGorunumu(site: SiteIcerik) {
 export function TicariBaslik({ site }: { site: SiteIcerik }) {
     const gorunum = siteGorunumu(site);
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
+    const blogVar = hostBloglari(site.host).length > 0;
+    // Tema rengine göre Artı Platform logosu (eğitim→yeşil, diğer→mavi; forklift/amber ileride eklenecek)
+    const logo = site.kategori === "egitim" || site.kategori === "rehber" ? "/media/logo/4.png" : "/media/logo/logo.png";
     const ilkIcerik = site.kategori === "egitim"
         ? "/myk-operator-belgesi"
         : "/rehber/platform-tipi-secim-rehberi";
@@ -62,9 +66,8 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
             </div>
             <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4 sm:px-8">
                 <Link href="/" className="group flex min-w-0 items-center gap-3">
-                    <span className={`grid size-11 shrink-0 place-items-center rounded-xl text-sm font-black tracking-tighter shadow-lg ${gorunum.vurgu}`}>
-                        {gorunum.kod}
-                    </span>
+                    <Image src={logo} alt={`${site.anaSite.ad} logosu`} width={116} height={52} priority className="h-10 w-auto shrink-0 drop-shadow-md" />
+                    <span aria-hidden="true" className="h-8 w-px shrink-0 bg-white/15" />
                     <span className="min-w-0">
                         <span className="block truncate text-base font-black tracking-tight text-white">{site.h1}</span>
                         <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">
@@ -78,6 +81,7 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
                     <Link className="transition hover:text-white" href={bilgiSitesi ? ilkIcerik : "/teklif-hazirligi"}>
                         {bilgiSitesi ? "Rehberler" : "Talep rehberi"}
                     </Link>
+                    {blogVar && <Link className="transition hover:text-white" href="/blog">Blog</Link>}
                     <Link className="transition hover:text-white" href="/iletisim">İletişim</Link>
                 </nav>
                 {bilgiSitesi ? (
@@ -93,10 +97,11 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
                     </a>
                 )}
             </div>
-            <nav aria-label="Mobil menü" className="mx-auto grid max-w-7xl grid-cols-4 gap-2 border-t border-white/10 px-4 py-3 text-center text-[11px] font-bold text-slate-300 md:hidden">
+            <nav aria-label="Mobil menü" className={`mx-auto grid max-w-7xl gap-2 border-t border-white/10 px-4 py-3 text-center text-[11px] font-bold text-slate-300 md:hidden ${blogVar ? "grid-cols-5" : "grid-cols-4"}`}>
                 <Link href="/">Ana sayfa</Link>
                 <Link href="/hakkimizda">Hakkımızda</Link>
-                <Link href={bilgiSitesi ? ilkIcerik : "/teklif-hazirligi"}>{bilgiSitesi ? "Rehberler" : "Talep rehberi"}</Link>
+                <Link href={bilgiSitesi ? ilkIcerik : "/teklif-hazirligi"}>{bilgiSitesi ? "Rehberler" : "Talep"}</Link>
+                {blogVar && <Link href="/blog">Blog</Link>}
                 <Link href="/iletisim">İletişim</Link>
             </nav>
         </header>
