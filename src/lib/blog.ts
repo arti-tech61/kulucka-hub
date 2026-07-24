@@ -2525,6 +2525,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
         },
+        {
+            slug: "forklift-kapasite-siniflari-1-5-tondan-10-tona",
+            kategori: "Ürün Rehberi",
+            baslik: "Forklift Kapasite Sınıfları: 1,5 Tondan 10 Tona",
+            ozet: "Depo içi hafif elleçlemeden liman ağır yüküne kadar kapasite sınıfları. İşe göre doğru forklift tonajını seçme rehberi.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir'de farklı kapasite sınıfında forkliftler",
+            tarih: "2026-06-07",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Forklift kapasite sınıfları, işin ağırlığına ve sahasına göre değişir. Bu yazı, 1,5 tondan 10 tona kapasite sınıflarını ve tipik kullanım alanlarını anlatır.",
+            bolumler: [
+                {
+                    baslik: "1,5-3 ton: depo içi standart",
+                    paragraflar: [
+                        "Standart palet trafiği, üretim hattı besleme ve depo içi elleçlemede en sık ihtiyaç duyulan aralıktır; kapalı alanda elektrikli modeller yaygındır. Dar koridor ve raf besleme için çeviktir.",
+                        "Yük merkezi ve kaldırma yüksekliği bu sınıfta da kalan kapasiteyi belirler.",
+                    ],
+                },
+                {
+                    baslik: "3-5 ton ve 7-10 ton",
+                    paragraflar: [
+                        "3-5 ton sınıfı ağır palet, makine ve ambalaj yükünde; genellikle dizel/LPG modellerle açık ve yarı açık sahada kullanılır. 7-10 ton ve üzeri ise liman, ağır sanayi ve konteyner elleçlemesi içindir.",
+                        "Yüksek kapasitede zemin, manevra alanı ve operatör yeterliliği ayrıca değerlendirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Depo için hangi tonaj yeterli?", cevap: "Standart palet ve raf besleme için 1,5-3 ton aralığı çoğu depoda yeterlidir; ağır yük ve yüksek raf için üst sınıflar değerlendirilir. Yük merkezi ve yükseklik kapasiteyi etkiler." },
+                { soru: "10 ton forklift nerede kullanılır?", cevap: "Liman, ağır sanayi ve konteyner elleçlemesi gibi ağır yük işlerinde kullanılır. Zemin, manevra alanı ve operatör yeterliliği bu sınıfta özellikle önemlidir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-mobilya-ve-agac-sanayinde-forklift-kullanimi",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir Mobilya ve Ağaç Sanayinde Forklift Kullanımı",
+            ozet: "Kereste, panel ve mobilya elleçlemesinde uzun ve hacimli yük yönetimi. İzmir'in mobilya üretim sahalarında forklift ve ataşman seçimi.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir mobilya tesisinde forklift ile panel ve kereste elleçlemesi",
+            tarih: "2026-06-04",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in mobilya ve ağaç işleme sanayisinde kereste, panel ve mobilya gibi uzun ve hacimli yükler elleçlenir. Bu yükler forklift seçimini farklılaştırır. Bu yazı bu sektörde forklift kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Uzun ve hacimli yük",
+                    paragraflar: [
+                        "Kereste ve panel gibi uzun yüklerde ağırlık merkezi çataldan uzaklaşır; nominal kapasite yanıltıcı olur, yük merkezi tablosu kontrol edilir. Uzun çatal veya özel ataşman değerlendirilebilir.",
+                        "Hacimli mobilya yükünde görüş ve manevra ayrıca planlanır.",
+                    ],
+                },
+                {
+                    baslik: "İç mekân ve toz",
+                    paragraflar: [
+                        "Kapalı üretim alanında elektrikli forklift sıfır emisyonla çalışır; ağaç tozu yoğun ortamda günlük kontrolde filtre ve hareketli parçalara dikkat edilir.",
+                        "Zemin ve koridor genişliği makine seçimini belirler; dar alanda dönüş yarıçapı değerlendirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Uzun kereste için hangi forklift?", cevap: "Uzun yükte ağırlık merkezi çataldan uzaklaştığından yük merkezi tablosu kontrol edilir; uzun çatal veya özel ataşman değerlendirilir. Nominal kapasiteye göre seçim hatalıdır." },
+                { soru: "Ağaç tozlu ortamda ek önlem gerekir mi?", cevap: "Evet; toz yoğun ortamda günlük kontrolde filtre, hareketli parça ve elektrik bağlantılarına ek dikkat gösterilir. Üretici bakım talimatı esastır." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-atasmanlari-sideshift-klemp-ve-uzun-catal",
+            kategori: "Ürün Rehberi",
+            baslik: "Forklift Ataşmanları: Sideshift, Klemp ve Uzun Çatal",
+            ozet: "Ataşmanlar verimi artırır ama kapasiteyi değiştirir. Sideshift, klemp ve uzun çatalın kullanımı ve kalan kapasiteye etkisi.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Ataşmanlı forklift ile özel yük elleçlemesi",
+            tarih: "2026-06-01",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Forklift ataşmanları belirli yükleri daha verimli elleçlemeyi sağlar, ancak makinenin ağırlık merkezini ve kalan kapasitesini değiştirir. Bu yazı yaygın ataşmanları ve kapasite etkisini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Yaygın ataşmanlar",
+                    paragraflar: [
+                        "Sideshift, yükü yana kaydırarak hassas konumlama sağlar; palet hizalamada zaman kazandırır. Klemp, balya, koli veya varil gibi paletsiz yükleri kavrar. Uzun çatal, uzun yükte destek yüzeyini artırır.",
+                        "Her ataşman belirli bir yük ve saha için verim sağlar; ihtiyaca göre seçilir.",
+                    ],
+                },
+                {
+                    baslik: "Kapasiteye etkisi",
+                    paragraflar: [
+                        "Ataşman makinenin kendi ağırlığını ve ağırlık merkezini değiştirir; bu, kalan kaldırma kapasitesini düşürebilir. Ataşmanlı kapasite ayrıca hesaplanır ve teklifte teyit edilir.",
+                        "Ataşman uygunluğu makine modeliyle birlikte değerlendirilir; her ataşman her makineye takılmaz.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Sideshift kapasiteyi düşürür mü?", cevap: "Ataşmanlar makinenin ağırlık merkezini ve kendi ağırlığını değiştirdiğinden kalan kapasiteyi bir miktar düşürebilir. Ataşmanlı kapasite ayrıca hesaplanır ve teyit edilir." },
+                { soru: "Paletsiz yük nasıl taşınır?", cevap: "Balya, koli veya varil gibi paletsiz yükler için klemp gibi ataşmanlar kullanılır. Ataşman uygunluğu makine modeliyle birlikte değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmirde-forklift-periyodik-kontrol-ve-belge",
+            kategori: "Güvenlik",
+            baslik: "İzmir'de Forklift Periyodik Kontrol ve Belge",
+            ozet: "Kaldırma ekipmanı olarak forkliftin periyodik kontrolü, günlük kontrol ve operatör belgesi. Kiralık makinede sorumluluk paylaşımı.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir'de kontrolü yapılmış kiralık forklift",
+            tarih: "2026-05-29",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Forklift kaldırma ekipmanı sayılır ve periyodik kontrole tabidir; ayrıca operatör yeterliliği ve günlük kontrol gerekir. Bu yazı, İzmir'de kiralık forkliftte bu yükümlülükleri ele alır.",
+            bolumler: [
+                {
+                    baslik: "Periyodik ve günlük kontrol",
+                    paragraflar: [
+                        "Forkliftler standartlarda aksi belirtilmedikçe yetkili teknik elemanca periyodik kontrolden geçer; rapor makineyle birlikte sahada bulunur. Her vardiya öncesi operatör fren, direksiyon, çatal, asansör ve lastikleri kontrol eder.",
+                        "İkisi birbirinin yerine geçmez; günlük kontrol periyodik kontrolün tamamlayıcısıdır.",
+                    ],
+                },
+                {
+                    baslik: "Operatör belgesi ve sorumluluk",
+                    paragraflar: [
+                        "Operatör yeterlilik belgesi gerekliliği; görev, ekipman sınıfı, işveren prosedürü ve mevzuata göre belirlenir ve yetkili İSG birimi ile resmî kaynaklardan doğrulanır.",
+                        "Kiralık makinede periyodik kontrol raporunu kiraya veren sağlar; günlük kontrol ve doğru kullanım kiracıya aittir. Paylaşım sözleşmede yazılıdır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift operatör belgesi nasıl belirlenir?", cevap: "Gereklilik; görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir. Kesin şartlar yetkili İSG birimi ve resmî kaynaklardan doğrulanmalıdır." },
+                { soru: "Kiralık forkliftte kontrol raporu kimde?", cevap: "Periyodik kontrol raporunu kiraya veren sağlar ve makineyle birlikte sahada bulunur; günlük vardiya öncesi kontrol kiracıya aittir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-e-ticaret-deposunda-forklift-operasyonu",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir E-Ticaret Deposunda Forklift Operasyonu",
+            ozet: "Çiğli-Torbalı hattındaki e-ticaret depolarında yoğun palet trafiği, hızlı elleçleme ve sürekli operasyonda forklift planlaması.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "İzmir e-ticaret deposunda forklift ile hızlı elleçleme",
+            tarih: "2026-05-26",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in Çiğli ve Torbalı hattındaki e-ticaret depoları, yoğun ve sürekli palet trafiğiyle çalışır. Bu tempo, forklift planlamasını farklılaştırır. Bu yazı e-ticaret deposunda forklift operasyonunu ele alır.",
+            bolumler: [
+                {
+                    baslik: "Yoğun ve sürekli operasyon",
+                    paragraflar: [
+                        "E-ticaret depolarında sürekli mal kabul, raf besleme ve sevkiyat hazırlığı olur; sessiz ve emisyonsuz çalışma için elektrikli forklift tercih edilir. Kesintisiz vardiyada fırsat şarjı veya yedek akü planlanır.",
+                        "Dar koridor ve yüksek rafta çeviklik ve triplex asansör ihtiyacı değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Güvenlik ve trafik",
+                    paragraflar: [
+                        "Yoğun yaya ve palet trafiğinde çalışma bölgesi ayrılır, hız yönetimi ve kör nokta kuralları uygulanır. Sürekli operasyonda günlük kontrol ve yük dengesi disiplini önemlidir.",
+                        "İhtiyaç sayısı ve kapasite, palet trafiği ve vardiya yoğunluğuna göre saha analiziyle belirlenir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "E-ticaret deposunda elektrikli forklift neden tercih edilir?", cevap: "Kapalı ve yoğun ortamda sıfır emisyon, düşük gürültü ve iz bırakmayan tekerlek nedeniyle tercih edilir; çalışan konforu ve iç hava kalitesi korunur. Kesintisiz çalışmada şarj planı yapılır." },
+                { soru: "Sürekli operasyonda kaç forklift gerekir?", cevap: "Palet trafiği, raf yüksekliği ve vardiya yoğunluğuna bağlıdır; ihtiyaç saha analiziyle belirlenir ve şarj/yedek planı hesaba katılır." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
+        },
     ],
 };
 
