@@ -4363,6 +4363,108 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
         },
+        {
+            slug: "aydinda-elektrikli-eklemli-platform-ic-mekan-isleri",
+            kategori: "Ürün Rehberi", baslik: "Aydın'da Elektrikli Eklemli Platform ile İç Mekân İşleri",
+            ozet: "Otel, gıda tesisi ve depoda sıfır emisyon ve engel aşan erişim. Elektrikli eklemli platformun iç mekân avantajları.",
+            gorsel: blogGorsel.depo, gorselAlt: "Aydın'da elektrikli eklemli platformla iç mekân çalışması",
+            tarih: "2026-05-06", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'ın kapalı otel, gıda ve depo alanlarında hem sıfır emisyon hem engel aşan erişim gerektiğinde elektrikli eklemli platform öne çıkar. Bu yazı bu makinenin iç mekân kullanımını ele alır.",
+            bolumler: [
+                { baslik: "Sıfır emisyon ve engel aşma", paragraflar: ["Elektrikli eklemli platform kapalı alanda sıfır emisyon ve düşük gürültüyle çalışır; kırılan bomuyla ekipman engelinin arkasına erişir. İz bırakmayan lastik hassas zemine zarar vermez.", "Dar şasi standart geçişlere uygundur."] },
+                { baslik: "Şarj ve vardiya", paragraflar: ["Çalışma süresi model ve kullanıma göre değişir; kesintisiz çalışmada fırsat şarjı veya yedek makine planlanır.", "Şarj altyapısı ve vardiya planı üretici verileriyle değerlendirilir."] },
+            ],
+            sss: [
+                { soru: "Otel içinde eklemli iz bırakır mı?", cevap: "İz bırakmayan lastik seçenekleriyle hassas zemin korunur; gerekirse koruyucu levha kullanılır." },
+                { soru: "Kapalı alanda elektrikli mi dizel mi?", cevap: "Kapalı ve havalandırması sınırlı alanda sıfır emisyonlu elektrikli modeller kullanılır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-dizel-eklemli-platform-acik-saha-erisim",
+            kategori: "Ürün Rehberi", baslik: "Aydın'da Dizel Eklemli Platform: Açık Saha Erişimi",
+            ozet: "Jeotermal, inşaat ve açık saha işlerinde 4x4 çekiş ve yüksek erişim. Dizel eklemli platformun açık saha avantajları.",
+            gorsel: blogGorsel.celikMontaj, gorselAlt: "Aydın açık sahasında dizel eklemli platformla çalışma",
+            tarih: "2026-05-03", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'ın jeotermal ve açık saha işlerinde dizel eklemli platform güç ve dayanım sunar. Bu yazı dizel eklemlinin açık saha avantajlarını anlatır.",
+            bolumler: [
+                { baslik: "Açık sahanın gücü", paragraflar: ["Dizel eklemli modeller 4x4 çekiş ve jack sistemiyle eğimli ve gevşek zeminde güvenilirdir; yüksek erişim sınıflarında yaygındır. Yakıt ikmali hızlıdır.", "Taşıma kapasitesi belirsizse çelik plaka serilir."] },
+                { baslik: "Kapalı alan kısıtı", paragraflar: ["Havalandırması sınırlı kapalı alanda dizel egzozu risk oluşturur; kapalı alanın çözümü elektriklidir.", "Doğru güç kaynağı saha koşuluna göre seçilir."] },
+            ],
+            sss: [
+                { soru: "Dizel eklemli her zeminde çalışır mı?", cevap: "Çoğu açık saha zemininde çalışır; taşıma kapasitesi belirsiz veya çok yumuşak zeminde önce uygunluk değerlendirilir." },
+                { soru: "Kapalı jeotermal binada dizel olur mu?", cevap: "Havalandırması sınırlı kapalı alanda dizel kullanılmaz; elektrikli veya uygun makine değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-sarkma-travmasi-ve-kurtarma-plani",
+            kategori: "Güvenlik", baslik: "Aydın'da Sarkma Travması ve Kurtarma Planı",
+            ozet: "Kemerle düşmeyi durdurmak yalnız ilk adımdır. Asılı kalma dakikalar içinde hayati risk oluşturur; kurtarma planı neden zorunlu?",
+            gorsel: blogGorsel.tesisat, gorselAlt: "Aydın'da güvenli çalışma ve kurtarma hazırlığı",
+            tarih: "2026-04-30", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'daki jeotermal, otel ve saha işlerinde kemer kullanımı yaygındır; ancak kemerle düşmeyi durdurmak tehlikenin sonu değildir. Bu yazı sarkma travmasını ve kurtarma planını anlatır.",
+            bolumler: [
+                { baslik: "Asılı kalma neden tehlikeli?", paragraflar: ["Kemerle asılı kalan kişide bacak kayışları kan dolaşımını kısıtlar; dakikalar içinde baş dönmesi, bilinç kaybı ve tedavisiz kalırsa hayati tehlike doğar.", "Risk düşmeden değil, kurtarmanın gecikmesinden kaynaklanır."] },
+                { baslik: "Kurtarma planı zorunlu", paragraflar: ["Her yüksekte çalışma için önceden planlanmış kurtarma prosedürü gerekir; sahadaki platform çoğu durumda en hızlı kurtarma aracıdır.", "112'yi beklemek tek başına yeterli değildir; plan yazılı olmalı ve tatbik edilmelidir."] },
+            ],
+            sss: [
+                { soru: "Ne kadar sürede kritik olur?", cevap: "Kaynaklarda dakikalar içinde belirti başlayabileceği belirtilir; kurtarma ne kadar hızlıysa risk o kadar azalır. Bu içerik tıbbi tavsiye değildir." },
+                { soru: "Kurtarma planı şart mı?", cevap: "Yüksekte çalışma riski taşıyan her sahada hızlı müdahale yöntemi önceden planlanmış olmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-kamu-binasi-ve-okul-bakiminda-platform",
+            kategori: "Şehir & Sektör", baslik: "Aydın'da Kamu Binası ve Okul Bakımında Platform",
+            ozet: "Kamu binaları, okul ve spor salonu bakımında tavan, aydınlatma ve cephe erişimi. Faaliyet süren binalarda güvenli çalışma.",
+            gorsel: blogGorsel.holTavan, gorselAlt: "Aydın kamu binasında yükseltici platformla bakım",
+            tarih: "2026-04-27", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'daki kamu binaları, okullar ve spor salonlarında düzenli bakım yapılır: tavan aydınlatması, havalandırma ve cephe işleri. Bu yazı bu binalarda platform kullanımını ele alır.",
+            bolumler: [
+                { baslik: "İç mekân yüksek tavan", paragraflar: ["Spor ve konferans salonu ile okul koridorlarında yüksek tavan işlerinde makaslı platform tam altından erişim sağlar; elektrikli modeller sıfır emisyonla çalışır.", "Engel aşma gereken noktalarda eklemli değerlendirilir."] },
+                { baslik: "Faaliyet ve güvenlik", paragraflar: ["Bakım tatil/ders dışı saatlere planlanır, alan bariyerle ayrılır ve alt alan korunur.", "Üst kat döşemesinde taşıma kapasitesi kontrol edilir."] },
+            ],
+            sss: [
+                { soru: "Spor salonu tavanı için hangi platform?", cevap: "Yüksek ve düz tavanda makaslı tam altından erişim sağlar; engelli noktalarda eklemli değerlendirilir." },
+                { soru: "Okulda ders sırasında bakım olur mu?", cevap: "Genellikle ders/tatil dışı saatlere planlanır; alan bariyerle ayrılır ve alt alan korunur." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-depo-ve-lojistik-raf-ve-tavan-isleri",
+            kategori: "Şehir & Sektör", baslik: "Aydın'da Depo ve Lojistikte Raf ve Tavan İşleri",
+            ozet: "Yüksek raf, çatı altı tesisat ve aydınlatma bakımında platform seçimi. Aydın depolarında dar koridor ve zemin koşulları.",
+            gorsel: blogGorsel.depo, gorselAlt: "Aydın deposunda platformla raf ve tavan çalışması",
+            tarih: "2026-04-24", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'daki depo ve lojistik tesisleri yüksek raf, çatı altı tesisat ve aydınlatmayla sürekli yüksekte çalışma gerektirir. Bu yazı bu işlerde platform seçimini ele alır.",
+            bolumler: [
+                { baslik: "Raf arası mı, çatı altı mı?", paragraflar: ["Dar raf koridorunda ve düz zeminde makaslı veya dikey personel yükseltici çeviktir. Çatı altı tesisat ve konveyör üstü gibi engel aşmalı noktalarda eklemli gerekir.", "Koridor, kapı ve dönüş alanı model ölçüleriyle karşılaştırılır."] },
+                { baslik: "Zemin ve operasyon", paragraflar: ["Depo betonu genellikle taşıyıcıdır; mazgal ve rampa değerlendirilir. Faal depoda çalışma bölgesi trafiğinden ayrılır.", "Elektrikli modeller vardiya içinde çalışır."] },
+            ],
+            sss: [
+                { soru: "Dar raf koridorunda hangi makine?", cevap: "Tam altından erişilen işlerde dar gövdeli makaslı veya dikey personel yükseltici; engel aşma gerekiyorsa eklemli." },
+                { soru: "Depoda operasyon durdurulmalı mı?", cevap: "Çoğu zaman bölge izolasyonu ve hareket zamanlaması yeterlidir; karar risk değerlendirmesine göre verilir." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "aydinda-platform-nakliye-ve-teslimat-planlamasi",
+            kategori: "Maliyet", baslik: "Aydın'da Platform Nakliye ve Teslimat Planlaması",
+            ozet: "Nazilli, Söke, Kuşadası ve Didim hattında rota, kabul saati ve nakliye ölçüsü. Sezon trafiğinin sevkiyata etkisi.",
+            gorsel: blogGorsel.forkliftDepo, gorselAlt: "Aydın'da platform teslimatı ve sevkiyat hazırlığı",
+            tarih: "2026-04-21", guncelleme: "2026-07-24", okuma: 4,
+            giris: "Aydın'da platform sevkiyatı bölgesel mesafe ve saha koşullarına göre planlanır. Bu yazı nakliye ve teslimat planlamasını ele alır.",
+            bolumler: [
+                { baslik: "Rota ve saha kabulü", paragraflar: ["Nakliye; çıkış noktası ile Nazilli, Söke, Kuşadası veya Didim arasındaki mesafe, güzergâh, tesis kabul saati ve indirme alanına göre planlanır. Sahil turizm trafiği teslimat saatini etkiler.", "Nakliye sorumluluğu ve ücreti yazılı teklifte belirtilir."] },
+                { baslik: "Nakliye ölçüsü ≠ çalışma ölçüsü", paragraflar: ["Makinenin nakliye ölçüsü çalışma ölçüsünden farklı olabilir; kapı, koridor ve rampa taşıma ölçüleriyle karşılaştırılır.", "Doğru ölçü paylaşımı makinenin sahaya girememesini önler."] },
+            ],
+            sss: [
+                { soru: "Kuşadası/Didim teslimatı nasıl planlanır?", cevap: "Mesafe, güzergâh, kabul saati ve sezon trafiği önceden teyit edilir; nakliye ücreti ve sorumluluğu yazılı teklifte yer alır." },
+                { soru: "Makine sahaya sığmazsa?", cevap: "Nakliye ölçüsü kapı-koridor-rampa ölçüleriyle önceden karşılaştırılır; doğru ölçü pahalı hataları önler." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
