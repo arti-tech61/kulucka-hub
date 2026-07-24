@@ -169,6 +169,166 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
         },
+        {
+            slug: "eklemli-platform-yukseklik-siniflari-nasil-secilir",
+            kategori: "Ürün Rehberi",
+            baslik: "Eklemli Platform Yükseklik Sınıfları: 16, 20, 28 ve 43 Metre Nasıl Seçilir?",
+            ozet: "Eklemli platformlar 16 metreden 43 metreye kadar farklı sınıflarda gelir. Çalışma yüksekliği, yatay erişim ve saha koşuluna göre doğru sınıfı seçme rehberi.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Sanayi holünde yüksek erişim için açılmış yükseltici platform",
+            tarih: "2026-07-19",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Eklemli platform kiralarken en sık sorulan soru 'kaç metre gerekir?' olur. Oysa yükseklik tek başına yeterli bir ölçüt değildir; aynı yükseklik sınıfında farklı yatay erişim, sepet kapasitesi ve kurulum alanı bulunur. Bu rehber, sınıfları ayırt eden gerçek kriterleri anlatır.",
+            bolumler: [
+                {
+                    baslik: "16-20 metre: iç mekân ve orta yükseklik",
+                    paragraflar: [
+                        "16-20 metre çalışma yüksekliğindeki eklemli platformlar, fabrika içi tesisat, AVM atrium bakımı, depo raf üstü ve orta yükseklikteki cephe işlerinin büyük bölümünü karşılar. Elektrikli modeller bu sınıfta yaygındır; sıfır emisyon ve iz bırakmayan lastikle kapalı alanda çalışır.",
+                        "Bu sınıfta dar şasi ve kompakt kurulum öne çıkar; standart kapı ve koridorlardan geçiş çoğu modelde mümkündür. Ancak yatay erişim sınırlıdır, bu yüzden engelin çok ötesine uzanılması gereken işlerde bir üst sınıf değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "28-43 metre: yüksek cephe ve endüstriyel erişim",
+                    paragraflar: [
+                        "28-43 metre sınıfı; yüksek yapı cepheleri, silo, endüstriyel baca, çelik konstrüksiyon ve enerji tesisi bakımı gibi işler içindir. Bu modeller genellikle dizel ve 4x4 çekişlidir; açık saha, eğim ve gevşek zeminde jack sistemiyle dengelenir.",
+                        "Erişim arttıkça izin verilen sepet yükü ve rüzgâr limiti değişir; bu yüzden yüksek sınıflarda çalışma diyagramı model bazında dikkatle okunur. Kurulum ve kuyruk dönüş alanı da büyür, saha bu genişliğe göre planlanır.",
+                    ],
+                },
+                {
+                    baslik: "Sınıfı belirleyen: en zorlu nokta",
+                    paragraflar: [
+                        "Doğru sınıf, işin en zorlu noktasına göre seçilir: en yüksek + en uzak + en ağır kombinasyonu. Platform (sepet) yüksekliği ile çalışma yüksekliği karıştırılmamalı; çalışma yüksekliği platform yüksekliğinin yaklaşık 2 metre üzeridir.",
+                        "Fazladan büyük sınıf daha güvenli değildir; ek ağırlık, genişlik ve nakliye zorluğu getirir. Kesin sınıf ve model, güncel uygunluk kontrolünden sonra yazılı teklifte netleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "16 metre eklemli platform hangi işlere yeter?", cevap: "Fabrika içi tesisat, AVM ve depo tavan işleri, orta yükseklikteki cephe müdahaleleri için genellikle yeterlidir. Engelin çok ötesine erişim gerekiyorsa yatay erişimi daha yüksek bir sınıf değerlendirilir." },
+                { soru: "Yükseklik arttıkça sepet kapasitesi düşer mi?", cevap: "Erişim ve yükseklik arttıkça izin verilen sepet yükü değişebilir. Bu, seçilen modelin çalışma diyagramından kontrol edilir; katalogdaki azami değerler her konumda birlikte geçerli olmayabilir." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "elektrikli-eklemli-platform-ic-mekan-yuksekte-calisma",
+            kategori: "Ürün Rehberi",
+            baslik: "Elektrikli Eklemli Platform: İç Mekânda Yüksekte Çalışmanın Doğru Yolu",
+            ozet: "AVM, fabrika, hastane ve depo gibi kapalı alanlarda sıfır emisyon ve iz bırakmayan lastikle yüksekte çalışma. Elektrikli eklemli platformun avantajları ve sınırları.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Depo içinde elektrikli yükseltici platformla yüksekte çalışma",
+            tarih: "2026-07-18",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kapalı alanda yüksekte çalışırken güç kaynağı bir konfor değil, güvenlik meselesidir. İçten yanmalı motorların egzozu havalandırması sınırlı bir mekânda ciddi risk oluşturur. Elektrikli eklemli platform, tam da bu ortamlar için tasarlanmıştır.",
+            bolumler: [
+                {
+                    baslik: "Neden kapalı alanda elektrikli?",
+                    paragraflar: [
+                        "Elektrikli eklemli platformlar sıfır egzoz emisyonlu ve düşük gürültülüdür; AVM, fabrika içi, hastane, otel ve depo gibi havalandırması sınırlı mekânlarda güvenle çalışır. İz bırakmayan lastik seçenekleriyle epoksi, mermer ve seramik zeminlerde yüzeye zarar vermez.",
+                        "Dar şasi genişlikleri standart kapı ve koridorlardan geçişe izin verir; dönebilen kule yapısı raf araları ve kolon aralarında manevrayı kolaylaştırır.",
+                    ],
+                },
+                {
+                    baslik: "Şarj ve vardiya planı",
+                    paragraflar: [
+                        "Çalışma süresi akü tipi, model, yük, sıcaklık ve kullanım yoğunluğuna göre değişir. Kesintisiz veya çok vardiyalı çalışmada fırsat şarjı ya da yedek makine planı yapılmalı; uygun voltajda ve yakında bir priz erişimi baştan teyit edilmelidir.",
+                        "Düşük sıcaklık akü performansını düşürür; soğuk depo veya kış koşullarında normalden daha kısa çalışma süresi beklenmelidir. Şarj altyapısı ve vardiya akışı seçilen modelin üretici verileriyle birlikte değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Sınırları: nerede dizel gerekir?",
+                    paragraflar: [
+                        "Elektrikli modeller iç mekân için tasarlanmıştır; açık havada yağışa karşı koruma sınıfı sınırlıdır ve zorlu, eğimli, gevşek zeminde çekişleri yetersiz kalabilir. Açık saha, şantiye ve çelik montaj işleri için dizel eklemli modeller değerlendirilir.",
+                        "Kısa süreli, düz ve sert zeminli dış kullanım mümkün olsa da asıl çalışma alanı kapalı mekânlardır. Doğru güç kaynağı, makine tipiyle birlikte saha koşuluna göre seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Elektrikli eklemli platform gıda tesisinde kullanılır mı?", cevap: "Evet; sıfır emisyon ve düşük gürültüsü nedeniyle gıda tesisi, hastane ve benzeri hassas alanlarda vardiya saatinde çalışabilir. İşletmenin hijyen ve çalışma kuralları talep dosyasına eklenmelidir." },
+                { soru: "Bir şarjla ne kadar çalışır?", cevap: "Süre modele, yüke, sıcaklığa ve kullanım yoğunluğuna göre değişir; tipik bir vardiyayı karşılayacak şekilde tasarlanır. Kesintisiz çalışmada fırsat şarjı veya yedek makine planlanır." },
+            ],
+            ilgiliUrun: { baslik: "Elektrikli Eklemli Platform Kiralama", slug: "elektrikli-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-mi-teleskopik-mi-yatay-erisimde-dogru-secim",
+            kategori: "Karşılaştırma",
+            baslik: "Eklemli mi Teleskopik mi? Yatay Erişimde Doğru Seçim",
+            ozet: "İkisi de aynı yüksekliğe çıkar ama farklı işler için tasarlanmıştır. Engel aşma gereken yerde eklemli, açık doğrultuda uzun erişim gerekende teleskopik: net karşılaştırma.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Açık sahada çelik konstrüksiyon montajında yüksek erişim",
+            tarih: "2026-07-17",
+            guncelleme: "2026-07-24",
+            okuma: 6,
+            giris: "Eklemli ve teleskopik platform aynı yükseklik sınıfında olabilir ama seçim yüksekliğe göre yapılmaz. Belirleyici olan, çalışma noktasına nasıl ulaşıldığıdır: engelin üzerinden aşarak mı, yoksa açık doğrultuda uzanarak mı?",
+            bolumler: [
+                {
+                    baslik: "Eklemli: engelin üzerinden aşan bom",
+                    paragraflar: [
+                        "Eklemli platformun bomu birden fazla noktadan kırılır; makineyi engelin yanına koyup sepeti engelin üzerinden veya arkasına konumlamaya izin verir. Çatı parapetinin arkası, boru köprüsünün ötesi, ağaçlı peyzaj önündeki cephe eklemlinin alanıdır.",
+                        "Dönebilen kule yapısı dar şantiyede avantaj sağlar; aynı yükseklikteki teleskopiğe göre daha küçük alanda kurulur. Karşılığında maksimum yatay erişimi teleskopikten kısadır.",
+                    ],
+                },
+                {
+                    baslik: "Teleskopik: açık doğrultuda maksimum erişim",
+                    paragraflar: [
+                        "Teleskopik bom tek doğrultuda uzar; aynı yükseklik sınıfında en uzun yatay erişimi verir. Makineyi işin uzağına kurmak zorunda olduğunuz açık cephe, geniş saha, köprü altı ve hangar işlerinde doğru seçimdir.",
+                        "Engel aşma kabiliyeti sınırlıdır: bomun önünde yapı varsa eklemliye dönmek gerekir. Uzun bomun salınımı nedeniyle hassas montajda eklemli daha konforlu çalışabilir.",
+                    ],
+                },
+                {
+                    baslik: "Üç soruda karar",
+                    paragraflar: [
+                        "Arada engel var mı? Varsa eklemli. Engel yok ama nokta uzakta mı? Teleskopik. Kurulum alanı dar mı? Eklemlinin kompakt kurulumu öne çıkar. Aynı projede farklı iş kalemleri farklı sınıf gerektirebilir.",
+                        "Her iki tipte de erişim arttıkça sepet kapasitesi ve rüzgâr limiti değişir; nihai seçim seçilen modelin çalışma diyagramından teyit edilir ve yazılı teklifte kesinleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Aynı yükseklikte eklemli neden daha pahalı olabilir?", cevap: "Eklemli bomun çok eklemli yapısı ve engel aşma kabiliyeti, aynı yükseklik sınıfında genellikle bir miktar daha yüksek kiralama bedeliyle döner. Seçim maliyete değil, işin geometrisine göre yapılır." },
+                { soru: "Teleskopik platform engel aşabilir mi?", cevap: "Sınırlı olarak; düz bomu nedeniyle önündeki yapıyı aşamaz. Engelin üzerinden veya arkasına erişim gerekiyorsa eklemli platform değerlendirilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
+        {
+            slug: "eklemli-platform-kiralama-fiyatini-etkileyen-unsurlar",
+            kategori: "Maliyet",
+            baslik: "Eklemli Platform Kiralama Fiyatını Etkileyen Unsurlar",
+            ozet: "Kiralama fiyatı tek bir günlük ücret değildir. Makine sınıfı, süre, nakliye, operatör, enerji ve saha koşulu maliyeti nasıl belirler? Teklifleri doğru karşılaştırma rehberi.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Artı Platform makine parkında yükseltici platformlar",
+            tarih: "2026-07-16",
+            guncelleme: "2026-07-24",
+            okuma: 7,
+            giris: "Eklemli platform kiralamada fiyat, makinenin adından çok işin gerektirdiği kapsamla belirlenir. Aynı yükseklik sınıfı farklı süre, erişim ve saha koşuluyla kullanıldığından, iki talebin 'aynı makine' olması aynı fiyatı doğurmaz. Bu yazı, teklifleri gerçekten karşılaştırabilmeniz için maliyeti oluşturan kalemleri açıklar.",
+            bolumler: [
+                {
+                    baslik: "Sınıf, süre ve nakliye",
+                    paragraflar: [
+                        "Fiyatın ilk belirleyeni erişim sınıfıdır: gereken çalışma yüksekliği ve yatay erişim büyüdükçe daha yüksek sınıf ve genellikle daha yüksek bir bedel gerekir. Süre ise yalnız takvim günü değildir; çalışma saati veya sayaç sınırı, vardiya ve atıl günler de kapsama girer.",
+                        "Gidiş-dönüş nakliye çoğu teklifte ayrı bir kalemdir ve mesafe, güzergâh, kabul saati ile indirme alanına göre değişir. Nakliye sorumluluğunun kime ait olduğu yazılı teklifte açıkça belirtilmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Operatör, enerji ve ataşman",
+                    paragraflar: [
+                        "Operatörlü ve operatörsüz kiralama farklı fiyatlanır; operatörlü hizmette vardiya, fazla çalışma ve yol-konaklama, operatörsüzde kullanıcı yetkinliği ve teslim eğitimi konuşulur. Dizelde yakıt, elektriklide şarj sorumluluğu fiyat-kapsam ilişkisini etkiler.",
+                        "Uzatma tablası, 4x4 çekiş, jack sistemi veya özel sepet gibi ek donanımlar hem uygunluğu hem bedeli değiştirir. Bu kalemler 'her şey dahil' gibi belirsiz bir ifadeyle değil, dahil ve hariç olarak ayrı yazıldığında karşılaştırma sağlıklı olur.",
+                    ],
+                },
+                {
+                    baslik: "Teklifleri aynı iş tanımıyla karşılaştırın",
+                    paragraflar: [
+                        "Sağlıklı karşılaştırma, farklı tedarikçilerin aynı iş tanımı üzerinden fiyat vermesiyle olur. Yalnız günlük birim ücrete bakmak yanıltıcıdır; nakliye, operatör, yakıt/şarj, ataşman, bekleme ve hasar sorumluluğu birlikte değerlendirilmelidir.",
+                        "Bu içerikte kesin stok, sabit fiyat veya teslimat sözü verilmez; bunlar güncel uygunluk, rota ve kapsam görüldükten sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Eklemli platform kiralama fiyatı neden liste hâlinde verilmiyor?", cevap: "Fiyat; makine sınıfı, süre, nakliye, operatör ve saha koşulunun kesişiminde oluşur. Bu değişkenler görülmeden verilen liste fiyatı yanıltıcı olur; doğru bedel yazılı teklifte belirlenir." },
+                { soru: "Uzun süreli projede birim maliyet düşer mi?", cevap: "Genellikle uzun dönem, günlük orana göre daha uygun bir aralığa yerleşir; kesin oran seçilen makine, çalışma saati sınırı ve nakliye planına göre yazılı teklifte belirtilir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Eklemli Platform Kiralama", slug: "dizel-eklemli-platform-kiralama" },
+        },
     ],
 };
 
