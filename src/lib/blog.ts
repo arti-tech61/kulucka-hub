@@ -3220,6 +3220,171 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
         },
+        {
+            slug: "kutahyada-maden-ve-uretim-tesisinde-yuksekte-calisma",
+            kategori: "Şehir & Sektör",
+            baslik: "Kütahya'da Maden ve Üretim Tesisinde Yüksekte Çalışma",
+            ozet: "Maden sahası yakını, silo ve üretim tesislerinde açık saha erişimi. Bozuk yüzey, toz ve yükseklik koşullarında platform seçimi.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "Kütahya maden ve üretim tesisinde yükseltici platformla çalışma",
+            tarih: "2026-07-05",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya, seramik yanında maden ve üretim tesisleriyle de öne çıkar. Bu sahalarda yüksekte çalışma; bozuk yüzey, toz ve açık saha koşulları getirir. Bu yazı, maden ve üretim tesislerinde platform seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Açık saha ve zemin",
+                    paragraflar: [
+                        "Maden sahasına yakın bozuk yüzey ve açık stok alanında dizel ve 4x4 modeller, taşıma kapasitesi doğrulanarak kullanılır. Silo, elevatör ve tesis üst yapı işleri engel aşmalı olduğunda eklemli/teleskopik değerlendirilir.",
+                        "Zemin kapasitesi belirsizse tahmin yürütülmez; gerekirse çelik plaka serilir.",
+                    ],
+                },
+                {
+                    baslik: "Toz ve güvenlik",
+                    paragraflar: [
+                        "Toz yoğun ortamda günlük kontrolde filtre ve hareketli parçalara dikkat edilir. Rüzgâr limiti ve alan izolasyonu açık sahada standart önlemlerdir.",
+                        "İş izni ve operatör yeterliliği saha kurallarına göre yönetilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Maden sahası yakınında hangi platform?", cevap: "Bozuk yüzey ve açık sahada dizel 4x4 modeller taşıma kapasitesi doğrulanarak kullanılır; silo ve tesis üst yapı işlerinde engel aşmalı erişim için eklemli/teleskopik değerlendirilir." },
+                { soru: "Tozlu sahada ek önlem gerekir mi?", cevap: "Evet; günlük kontrolde filtre ve hareketli parçalara ek dikkat gösterilir, üretici bakım talimatı esastır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-elektrikli-eklemli-platform-ic-mekan-isleri",
+            kategori: "Ürün Rehberi",
+            baslik: "Kütahya'da Elektrikli Eklemli Platform ile İç Mekân İşleri",
+            ozet: "Seramik tesisi, depo ve kapalı üretim alanında sıfır emisyon ve engel aşan erişim. Elektrikli eklemli platformun iç mekân avantajları.",
+            gorsel: blogGorsel.depo,
+            gorselAlt: "Kütahya seramik tesisinde elektrikli eklemli platformla iç mekân çalışması",
+            tarih: "2026-07-02",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'nın kapalı seramik ve üretim tesislerinde hem sıfır emisyon hem engel aşan erişim gerektiğinde elektrikli eklemli platform öne çıkar. Bu yazı, bu makinenin iç mekân kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Sıfır emisyon ve engel aşma",
+                    paragraflar: [
+                        "Elektrikli eklemli platform, kapalı alanda sıfır emisyon ve düşük gürültüyle çalışır; kırılan bomuyla fırın, kanal veya ekipman engelinin arkasına erişir. İz bırakmayan lastik hassas seramik zemine zarar vermez.",
+                        "Dar şasi standart geçişlere uygundur; dönebilen kule dar tesis içinde manevra sağlar.",
+                    ],
+                },
+                {
+                    baslik: "Şarj ve vardiya",
+                    paragraflar: [
+                        "Çalışma süresi model ve kullanıma göre değişir; kesintisiz çalışmada fırsat şarjı veya yedek makine planlanır, yakında uygun voltajda priz gerekir.",
+                        "Şarj altyapısı ve vardiya planı seçilen modelin üretici verileriyle değerlendirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Seramik tesisinde eklemli platform iz bırakır mı?", cevap: "İz bırakmayan lastik seçenekleriyle hassas seramik ve epoksi zeminde yüzey korunur; gerekirse koruyucu levha kullanılır." },
+                { soru: "Kapalı alanda elektrikli mi dizel mi?", cevap: "Kapalı ve havalandırması sınırlı alanda sıfır emisyonlu elektrikli modeller kullanılır; dizel açık saha içindir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-teleskopik-platform-ile-yuksek-erisim",
+            kategori: "Ürün Rehberi",
+            baslik: "Kütahya'da Teleskopik Platform ile Yüksek Erişim",
+            ozet: "Yüksek yapı, silo ve baca işlerinde açık doğrultuda uzun yatay erişim. Teleskopik platformun Kütahya sanayisindeki kullanım alanları.",
+            gorsel: blogGorsel.holTavan,
+            gorselAlt: "Kütahya'da yüksek erişim için teleskopik platformla çalışma",
+            tarih: "2026-06-29",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'nın sanayi sahalarında bazı işler hem yüksek hem uzak noktaya erişim gerektirir; bu noktada teleskopik platform öne çıkar. Bu yazı, teleskopik platformun kullanım alanlarını ve sınırlarını anlatır.",
+            bolumler: [
+                {
+                    baslik: "Ne zaman teleskopik?",
+                    paragraflar: [
+                        "Teleskopik bom tek doğrultuda uzar; aynı yükseklik sınıfında en uzun yatay erişimi verir. Yüksek fabrika cephesi, silo ve baca gibi makineyi işin uzağına kurmak gereken işlerde doğru seçimdir.",
+                        "Engel aşma kabiliyeti sınırlıdır: bomun önünde yapı varsa eklemliye dönmek gerekir.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha koşulları",
+                    paragraflar: [
+                        "Yüksek erişim genellikle dizel ve 4x4 modellerle karşılanır; eğim, gevşek zemin ve rüzgâr belirleyicidir. Rüzgâr limiti makineye özgüdür ve erişim yükseldikçe önem kazanır.",
+                        "Zemin taşıma kapasitesi doğrulanmadan platform yükseltilmez.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teleskopik ve eklemli farkı?", cevap: "Arada engel varsa eklemli, engel yok ama nokta uzaktaysa teleskopik. Teleskopik açık doğrultuda daha uzun erişim verir, engel aşamaz." },
+                { soru: "Teleskopik rüzgârdan çok mu etkilenir?", cevap: "Uzayan bom rüzgâr etkisini artırır; rüzgâr limiti makineye özgüdür ve yüksek erişimde önem kazanır. Çalışma öncesinde teknik föy ve bilgi plakası kontrol edilir." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-yuksekte-calisma-guvenligi-temel-kurallar",
+            kategori: "Güvenlik",
+            baslik: "Kütahya'da Yüksekte Çalışma Güvenliği: Temel Kurallar",
+            ozet: "Zemin, rüzgâr, alan izolasyonu ve kurtarma planı. Kütahya seramik ve üretim tesislerinde güvenli yüksekte çalışmanın temel başlıkları.",
+            gorsel: blogGorsel.tesisat,
+            gorselAlt: "Kütahya tesisinde güvenli yüksekte çalışma düzeni",
+            tarih: "2026-06-26",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Kütahya'daki seramik ve üretim tesislerinde yüksekte çalışma güvenliği, makine seçilmeden önce planlanır. Bu yazı, güvenli çalışmanın temel başlıklarını özetler.",
+            bolumler: [
+                {
+                    baslik: "Zemin, kurulum ve rüzgâr",
+                    paragraflar: [
+                        "Zeminin taşıma kapasitesi ve eğimi kontrol edilir; denge göstergesi ve zemin koşulu doğrulanmadan platform yükseltilmez. Açık sahada rüzgâr limiti makineye özgüdür ve durdurma kriteri baştan yazılır.",
+                        "Eklemli ve teleskopik platformlarda fırlama riskine karşı üretici talimatına uygun bağlantı sistemi kullanılır.",
+                    ],
+                },
+                {
+                    baslik: "Alan izolasyonu ve kurtarma",
+                    paragraflar: [
+                        "Makinenin altı ve devrilme zarfı şeritle ayrılır; kör noktalar için gözcü ve yönlendirme planlanır. Vardiya öncesi kontrol her çalışmadan önce yapılıp kaydedilir.",
+                        "Her yüksekte çalışma için kurtarma planı gerekir; asılı kalma durumunda hızlı müdahale yöntemi önceden belirlenir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Platform hangi zeminde yükseltilmez?", cevap: "Taşıma kapasitesi doğrulanmamış, eğimli veya altında boşluk bulunan zeminde denge göstergesi teyit edilmeden yükseltilmez. Belirsizlikte yapı/zemin yetkilisinin görüşü alınır." },
+                { soru: "Kurtarma planı zorunlu mu?", cevap: "Yüksekte çalışma riski taşıyan her sahada, düşme/asılı kalma durumunda hızlı müdahaleyi sağlayacak bir yöntem önceden planlanmış olmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Makaslı Platform Kiralama", slug: "makasli-platform-kiralama" },
+        },
+        {
+            slug: "kutahyada-operatorlu-platform-kiralama-ne-zaman-gerekir",
+            kategori: "Ürün Rehberi",
+            baslik: "Kütahya'da Operatörlü Platform Kiralama Ne Zaman Gerekir?",
+            ozet: "Seramik tesisi ve saha işlerinde operatörlü mü operatörsüz mü? Yetkinlik, belge ve saha oryantasyonu açısından karar rehberi.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "Kütahya'da operatörlü kiralamaya hazır platformlar",
+            tarih: "2026-06-23",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Kütahya'daki seramik tesisi ve saha işlerinde operatör kararı hem güvenliği hem maliyeti etkiler. Bu yazı, operatörlü ve operatörsüz kiralama arasındaki farkı ve karar ölçütlerini anlatır.",
+            bolumler: [
+                {
+                    baslik: "Operatörlü kiralama",
+                    paragraflar: [
+                        "Kısa süreli, tek seferlik veya kendi ekibinizde yetkin operatör bulunmayan işlerde operatörlü kiralama hem güvenli hem pratik olur. Seramik tesisi gibi sahalarda saha oryantasyonu ve giriş prosedürü de kapsama girer.",
+                        "Operatörlü hizmette vardiya, fazla çalışma ve yol-konaklama teklifte ayrı görülür.",
+                    ],
+                },
+                {
+                    baslik: "Operatörsüz ve belge",
+                    paragraflar: [
+                        "Operatörsüz kiralamada kullanıcının yetkinliği ve teslim eğitimi önem kazanır. Operatör belgesi gerekliliği; görev, ekipman sınıfı, işveren prosedürü ve mevzuata göre belirlenir ve resmî kaynaklardan doğrulanır.",
+                        "Uzun süreli projelerde kendi yetkin operatörünüzle operatörsüz kiralama ekonomik olabilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Seramik tesisinde operatörlü kiralama şart mı?", cevap: "Şart değildir ama tesis kurallarını ve ekipmanı tanıyan bir operatörle çalışmak güvenliği artırır. Kendi yetkin ekibiniz varsa operatörsüz de olabilir." },
+                { soru: "Operatör belgesi gerekliliği nasıl belirlenir?", cevap: "Görev, ekipman sınıfı, işveren prosedürü ve yürürlükteki mevzuata göre belirlenir; kesin şartlar yetkili İSG birimi ve resmî kaynaklardan doğrulanmalıdır." },
+            ],
+            ilgiliUrun: { baslik: "Eklemli ve Teleskopik Platform Kiralama", slug: "eklemli-ve-teleskopik-platform-kiralama" },
+        },
     ],
 };
 
