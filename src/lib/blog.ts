@@ -2690,6 +2690,138 @@ export const blogYazilari: Record<string, BlogYazisi[]> = {
             ],
             ilgiliUrun: { baslik: "Elektrikli Forklift Kiralama", slug: "elektrikli-forklift-kiralama" },
         },
+        {
+            slug: "izmirde-forklift-kiralama-teklifinde-nelere-dikkat",
+            kategori: "Maliyet",
+            baslik: "İzmir'de Forklift Teklifinde Nelere Dikkat Edilir?",
+            ozet: "Kapasite, çalışma saati, güç kaynağı, ataşman, operatör, nakliye ve ikame koşulu. Yazılı teklifte aranması gereken kalemler.",
+            gorsel: blogGorsel.makinePark,
+            gorselAlt: "İzmir için forklift yazılı teklif hazırlığı",
+            tarih: "2026-05-23",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'de forklift tekliflerini sağlıklı karşılaştırmanın yolu, aynı kalemlerin aynı iş tanımı üzerinden yazılı görülmesidir. Bu yazı teklifte aranması gerekenleri sıralar.",
+            bolumler: [
+                {
+                    baslik: "Teklifte görülmesi gerekenler",
+                    paragraflar: [
+                        "Kapasite sınıfı ve mümkünse model, kaldırma yüksekliği, çalışma saati/sayaç sınırı, güç kaynağı ve şarj/yakıt sorumluluğu, ataşman, operatör kapsamı, nakliye, ikame ve ödeme maddeleri ayrı satırlarda görülmelidir.",
+                        "İstenen periyodik kontrol ve uygunluk kayıtlarının geçerlilik tarihi makine özelinde kontrol edilir.",
+                    ],
+                },
+                {
+                    baslik: "'Her şey dahil' yerine dahil-hariç",
+                    paragraflar: [
+                        "Belirsiz ifadeler yerine dahil ve hariç kalemler ayrı yazılır. Arıza bildirim yolu ve ikame (yedek makine) koşulu, sahada iş kaybını sınırlamak için teklifte yer almalıdır.",
+                        "Model belirtilmemişse kabul edilecek teknik sınırlar tanımlanır; sevkten önce model teyidi istenir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift teklifinde ikame maddesi neden önemli?", cevap: "Arıza durumunda yedek makine (ikame) koşulu, sahada iş kaybını sınırlar. Arıza bildirim yolu ve ikame süresi teklifte yer almalıdır." },
+                { soru: "Çalışma saati sınırı ne demek?", cevap: "Kiralama, takvim günü kadar makinenin çalıştığı saat/sayaç üzerinden de tanımlanabilir. Günlük çalışma saati ve fazla çalışma koşulu teklifte belirtilmelidir." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-lastik-secimi-dolgu-mu-havali-mi",
+            kategori: "Ürün Rehberi",
+            baslik: "Forklift Lastik Seçimi: Dolgu mu, Havalı mı?",
+            ozet: "Zemin ve saha koşuluna göre dolgu (solid) ve havalı lastik seçimi. Delinme riski, konfor ve kullanım alanı farkları.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "Forklift lastik tipi ve saha koşulu değerlendirmesi",
+            tarih: "2026-05-20",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "Forklift lastiği, sahanın zemin koşuluna göre seçilir ve hem güvenliği hem konforu etkiler. Bu yazı, dolgu ve havalı lastik seçimini ele alır.",
+            bolumler: [
+                {
+                    baslik: "Dolgu (solid) lastik",
+                    paragraflar: [
+                        "Dolgu lastik delinmez; hurda, cam veya keskin atık bulunan sahalarda ve sürekli ağır kullanımda avantajlıdır. Bakım ihtiyacı düşüktür ancak konfor havalıya göre azdır.",
+                        "İç mekân ve düz zeminde iz bırakmayan dolgu lastik seçenekleri kullanılır.",
+                    ],
+                },
+                {
+                    baslik: "Havalı lastik",
+                    paragraflar: [
+                        "Havalı lastik açık ve engebeli zeminde daha iyi konfor ve çekiş sağlar; ancak delinme riski taşır. Açık stok ve arazi sahalarında değerlendirilir.",
+                        "Lastik seçimi zemin, atık durumu ve kullanım yoğunluğuna göre yapılır; saha bilgisi teklifte paylaşılır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Hurdalı sahada hangi lastik?", cevap: "Delinme riski yüksek (hurda, cam, keskin atık) sahalarda delinmez dolgu (solid) lastik tercih edilir; bakım ihtiyacı düşüktür." },
+                { soru: "İç mekânda lastik iz bırakır mı?", cevap: "İç mekân ve hassas zeminde iz bırakmayan lastik seçenekleri kullanılır; hijyenik ve epoksi zeminlerde yüzey korunur." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "izmir-insaat-ve-yapi-marketinde-forklift-kullanimi",
+            kategori: "Şehir & Sektör",
+            baslik: "İzmir İnşaat ve Yapı Marketinde Forklift Kullanımı",
+            ozet: "Yapı malzemesi, tuğla, çimento ve panel elleçlemesinde açık saha forklifti. İnşaat ve yapı market sahalarında kapasite ve zemin.",
+            gorsel: blogGorsel.celikMontaj,
+            gorselAlt: "İzmir yapı market sahasında forklift ile malzeme elleçlemesi",
+            tarih: "2026-05-17",
+            guncelleme: "2026-07-24",
+            okuma: 4,
+            giris: "İzmir'in inşaat ve yapı market sahalarında tuğla, çimento, panel ve yapı malzemesi elleçlenir. Açık saha ve ağır yük bu işlerde forklift seçimini belirler. Bu yazı bu sektörde forklift kullanımını ele alır.",
+            bolumler: [
+                {
+                    baslik: "Ağır yük ve açık saha",
+                    paragraflar: [
+                        "Tuğla, çimento paleti ve panel gibi ağır yükler için uygun kapasiteli dizel forkliftler değerlendirilir; açık saha, rampa ve engebeli zemin belirleyicidir. Havalı lastik engebeli zeminde konfor sağlar.",
+                        "Uzun panel ve profil yükünde yük merkezi ve uzun çatal ihtiyacı değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Zemin ve güvenlik",
+                    paragraflar: [
+                        "Yapı market sahasında zemin bozukluğu, rampa ve müşteri-yaya trafiği yönetilir; çalışma alanı ayrılır ve hız kontrolü uygulanır.",
+                        "Kapasite, yük merkezi ve zemin koşulu birlikte değerlendirilerek doğru makine seçilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Yapı marketinde hangi forklift?", cevap: "Ağır yapı malzemesi ve açık saha için uygun kapasiteli dizel forklift değerlendirilir; engebeli zeminde havalı lastik konfor sağlar. Uzun yükte yük merkezi kontrol edilir." },
+                { soru: "Müşteri trafiğinde güvenlik nasıl sağlanır?", cevap: "Çalışma alanı yaya ve müşteri trafiğinden ayrılır, hız sınırı ve kör nokta yönetimi uygulanır. Sadece yetkin ve yetkili kişiler kullanır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
+        {
+            slug: "forklift-devrilme-kazalari-nedenleri-ve-onlemler",
+            kategori: "Güvenlik",
+            baslik: "Forklift Devrilme Kazaları: Nedenleri ve Önlemler",
+            ozet: "Devrilme, forklift kazalarının en ciddilerindendir. Kapasite aşımı, ani dönüş ve eğim gibi nedenler ve alınabilecek önlemler.",
+            gorsel: blogGorsel.forkliftDepo,
+            gorselAlt: "İzmir sahasında güvenli forklift kullanımı",
+            tarih: "2026-05-14",
+            guncelleme: "2026-07-24",
+            okuma: 5,
+            giris: "Forklift kazaları içinde devrilme en ciddi sonuçları doğuranlardandır. Çoğu, önlenebilir nedenlerden kaynaklanır. Bu yazı, devrilme nedenlerini ve önlemleri özetler.",
+            bolumler: [
+                {
+                    baslik: "Devrilme nedenleri",
+                    paragraflar: [
+                        "Kapasite veya yük merkezi aşımı, yükü yüksek ve öne yatık taşımak, ani dönüş ve yüksek hızda manevra, eğimli veya bozuk zemin devrilme riskini artırır. Yükü kaldırarak dönmek denge merkezini yükseltir.",
+                        "Boş forklift de yüklüye göre farklı denge gösterir; her iki durumda da hız ve dönüş kontrol edilir.",
+                    ],
+                },
+                {
+                    baslik: "Önlemler",
+                    paragraflar: [
+                        "Yük kapasite sınırında, geriye yatık ve mümkün olduğunca alçak taşınır; dönüşler yavaş ve yük alçakken yapılır. Eğimde yük yukarı bakacak şekilde hareket edilir.",
+                        "Emniyet kemeri (varsa) takılır; devrilmede kabin dışına çıkmaya çalışmak yerine kabin içinde kalmak önerilir. Operatör yetkinliği ve saha kuralları esastır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift yük kaldırarak dönebilir mi?", cevap: "Yükü yüksekte taşıyarak dönmek denge merkezini yükseltir ve devrilme riskini artırır. Dönüşler yük alçakken, yavaş ve geriye yatık yapılmalıdır." },
+                { soru: "Devrilme anında ne yapılmalı?", cevap: "Genel öneri, kabin içinde kalmak, direksiyona tutunmak ve devrilme yönünün tersine yaslanmaktır; kabin dışına atlamaya çalışmak daha tehlikelidir. Üretici ve İSG talimatı esastır." },
+            ],
+            ilgiliUrun: { baslik: "Dizel Forklift Kiralama", slug: "dizel-forklift-kiralama" },
+        },
     ],
 };
 
