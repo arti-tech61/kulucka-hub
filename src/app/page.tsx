@@ -188,14 +188,21 @@ export default async function Sayfa() {
                     : "Makine modeli, kapasite, belge, operatör, teslimat tarihi ve ücret; güncel uygunluk kontrolünden sonra yalnız yazılı teklif ve sözleşmeyle kesinleşir."}
             </aside>
 
-            <div className="mt-14 max-w-3xl">
-                <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">
+            <div className="mt-14">
+                <p className="max-w-3xl text-xs font-black uppercase tracking-[0.2em] text-blue-700">
                     {bilgiSitesi ? "Öğrenme yolu" : "Doğru seçim, net kapsam"}
                 </p>
-                <h2 className="mt-3 text-3xl font-black tracking-tight">
+                <h2 className="mt-3 max-w-3xl text-3xl font-black tracking-tight">
                     {bilgiSitesi ? "Bilgi ve rehber başlıkları" : "Hizmet başlıkları"}
                 </h2>
-                <p className="mt-4 leading-relaxed text-slate-600">{site.paragraflar.slice(1).join(" ")}</p>
+                <div className="mt-8 gap-5 sm:columns-2 [column-fill:balance]">
+                    {site.paragraflar.slice(1).map((p, i) => (
+                        <div key={i} className="mb-5 break-inside-avoid rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-blue-200 hover:shadow-md">
+                            <span className="text-xs font-black tracking-widest text-blue-700">{String(i + 1).padStart(2, "0")}</span>
+                            <p className="mt-2 text-[15px] leading-relaxed text-slate-600">{p}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
             <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {site.hizmetler.map((h, i) => (
