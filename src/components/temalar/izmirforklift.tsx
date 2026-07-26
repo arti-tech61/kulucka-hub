@@ -66,7 +66,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                     <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>Kurumsal</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/hakkimizda">Hakkımızda</a></li><li><a className="text-white/60 hover:text-white" href="/blog">Blog</a></li><li><a className="text-white/60 hover:text-white" href="/gizlilik-politikasi">KVKK ve Gizlilik</a></li></ul></div>
                     <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>İletişim</h4><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px] mt-3 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a></div>
                 </div>
-                <div className="max-w-[1280px] mx-auto px-4 md:px-8 border-t border-white/10 mt-10 pt-8 text-center"><p className="text-white/40 text-sm">© {new Date().getFullYear()} {site.h1}. Tüm Hakları Saklıdır · {site.anaSite.ad} ağının bir parçasıdır.</p></div>
+                <div className="max-w-[1280px] mx-auto px-4 md:px-8 border-t border-white/10 mt-10 pt-8 text-center"><p className="text-white/40 text-sm">© {new Date().getFullYear()} {site.h1}. Tüm Hakları Saklıdır · {site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p></div>
             </footer>
         </div>
     );

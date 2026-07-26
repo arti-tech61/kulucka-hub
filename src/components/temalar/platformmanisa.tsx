@@ -93,7 +93,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                         <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a>
                     </div>
                     <div className="md:col-span-4 mt-4 pt-8 border-t border-white/10 text-center">
-                        <p className="text-[#c4c5d9] text-sm">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır. · {site.anaSite.ad} ağının bir parçasıdır.</p>
+                        <p className="text-[#c4c5d9] text-sm">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır. · {site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p>
                     </div>
                 </div>
             </footer>

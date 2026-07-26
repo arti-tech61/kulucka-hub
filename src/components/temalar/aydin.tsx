@@ -87,7 +87,7 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
                     <a className="text-[#dce2f7] hover:text-white transition-colors text-[12px]" href="/kullanim-kosullari">Kullanım Koşulları</a>
                 </div>
                 <div className="w-full md:w-auto mt-8 md:mt-0 border-t md:border-t-0 border-white/10 pt-8 md:pt-0">
-                    <p className="text-[12px] text-[#dce2f7] opacity-80">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır.<br />{site.anaSite.ad} ağının bir parçasıdır.</p>
+                    <p className="text-[12px] text-[#dce2f7] opacity-80">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır.<br />{site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p>
                 </div>
             </footer>
 
