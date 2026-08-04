@@ -69,6 +69,14 @@ export function HazirlananSiteSayfasi({ site }: { site: HazirlananSite }) {
                         </a>{" "}
                         üzerinden karşılanmaktadır.
                     </p>
+                    {site.ilgiliSayfa && (
+                        <p className="mt-3 text-sm text-slate-600">
+                            Ayrıntılı bilgi:{" "}
+                            <a href={site.ilgiliSayfa.url} className="font-medium text-slate-900 underline underline-offset-4">
+                                {site.ilgiliSayfa.ad}
+                            </a>
+                        </p>
+                    )}
                     {(site.telefonGosterim || site.eposta) && (
                         <div className="mt-4 flex flex-wrap gap-3">
                             {site.telefon && site.telefonGosterim && (

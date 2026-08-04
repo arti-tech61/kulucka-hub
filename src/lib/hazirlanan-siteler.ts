@@ -32,6 +32,8 @@ export interface HazirlananSite {
     /** Hizmet verilecek ilce ve sanayi bolgeleri. */
     bolgeler: string[];
     anaSite: { ad: string; url: string };
+    /** Ana sitedeki en alakali derin sayfa; ic baglanti olarak gosterilir. */
+    ilgiliSayfa?: { ad: string; url: string };
     telefon?: string;
     telefonGosterim?: string;
     eposta?: string;
@@ -296,6 +298,7 @@ export const hazirlananSiteler: HazirlananSite[] = [
         ],
         bolgeler: ["Çiğli", "Menemen", "Atatürk OSB", "Karşıyaka", "Bayraklı"],
         anaSite: ARTI,
+        ilgiliSayfa: { ad: "İzmir Eklemli Platform (Manlift) Kiralama", url: "https://www.artiplatform.com.tr/izmir-eklemli-platform-kiralama" },
         telefon: ARTI_TEL,
         telefonGosterim: ARTI_TEL_GOSTERIM,
         eposta: ARTI_EPOSTA,
@@ -321,6 +324,7 @@ export const hazirlananSiteler: HazirlananSite[] = [
         ],
         bolgeler: ["Kemalpaşa", "Torbalı", "Kemalpaşa OSB", "Bornova", "Pancar OSB"],
         anaSite: ARTI,
+        ilgiliSayfa: { ad: "İzmir Makaslı Platform Kiralama", url: "https://www.artiplatform.com.tr/izmir-makasli-platform-kiralama" },
         telefon: ARTI_TEL,
         telefonGosterim: ARTI_TEL_GOSTERIM,
         eposta: ARTI_EPOSTA,
@@ -346,6 +350,7 @@ export const hazirlananSiteler: HazirlananSite[] = [
         ],
         bolgeler: ["Aliağa", "Menderes", "Gaziemir", "Nemrut", "Serbest Bölge"],
         anaSite: ARTI,
+        ilgiliSayfa: { ad: "İzmir Eklemli Platform (Manlift) Kiralama", url: "https://www.artiplatform.com.tr/izmir-eklemli-platform-kiralama" },
         telefon: ARTI_TEL,
         telefonGosterim: ARTI_TEL_GOSTERIM,
         eposta: ARTI_EPOSTA,
@@ -371,6 +376,7 @@ export const hazirlananSiteler: HazirlananSite[] = [
         ],
         bolgeler: ["Bornova", "Gaziemir", "Buca", "Pınarbaşı", "Işıkkent"],
         anaSite: ARTI,
+        ilgiliSayfa: { ad: "İzmir Teleskopik Platform Kiralama", url: "https://www.artiplatform.com.tr/izmir-teleskopik-platform-kiralama" },
         telefon: ARTI_TEL,
         telefonGosterim: ARTI_TEL_GOSTERIM,
         eposta: ARTI_EPOSTA,
@@ -396,6 +402,7 @@ export const hazirlananSiteler: HazirlananSite[] = [
         ],
         bolgeler: ["Buca", "Karabağlar", "Konak", "Gaziemir", "Küçük sanayi siteleri"],
         anaSite: ARTI,
+        ilgiliSayfa: { ad: "İzmir Platform Kiralama Rehberi", url: "https://www.artiplatform.com.tr/hizmet-agimiz/izmir" },
         telefon: ARTI_TEL,
         telefonGosterim: ARTI_TEL_GOSTERIM,
         eposta: ARTI_EPOSTA,
@@ -421,6 +428,7 @@ export const hazirlananSiteler: HazirlananSite[] = [
         ],
         bolgeler: ["Konak", "Karşıyaka", "Alsancak", "Bayraklı", "Şehir merkezi"],
         anaSite: ARTI,
+        ilgiliSayfa: { ad: "İzmir Örümcek Platform Kiralama", url: "https://www.artiplatform.com.tr/izmir-orumcek-platform-kiralama" },
         telefon: ARTI_TEL,
         telefonGosterim: ARTI_TEL_GOSTERIM,
         eposta: ARTI_EPOSTA,
