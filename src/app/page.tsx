@@ -3,6 +3,8 @@ import Script from "next/script";
 import type { Metadata } from "next";
 import { hostIcinSite, siteler } from "@/lib/siteler";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
+import { hostIcinHazirlananSite } from "@/lib/hazirlanan-siteler";
+import { HazirlananSiteSayfasi } from "@/components/hazirlanan-site";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { HaberAnaSayfa } from "@/components/haber-sitesi";
 import { TicariCerceve, TicariGorsel, TicariTeklif } from "@/components/ticari-cerceve";
@@ -21,7 +23,25 @@ async function aktifSite() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-    const haber = hostIcinHaberSitesi(await aktifHost());
+    const metaHost = await aktifHost();
+    // Hazirlanan siteler: tanimli olmayan host `siteler[0]`a duserdi ve hepsi
+    // ayni icerigi sunardi. Bu kontrol fallback'ten ONCE gelmelidir.
+    const hazirlanan = hostIcinHazirlananSite(metaHost);
+    if (hazirlanan) {
+        return {
+            title: hazirlanan.baslik,
+            description: hazirlanan.aciklama,
+            alternates: { canonical: `https://${hazirlanan.host}/` },
+            openGraph: {
+                title: hazirlanan.baslik,
+                description: hazirlanan.aciklama,
+                url: `https://${hazirlanan.host}/`,
+                locale: "tr_TR",
+                type: "website",
+            },
+        };
+    }
+    const haber = hostIcinHaberSitesi(metaHost);
     if (haber) {
         const socialImage = `https://${haber.host}/media/saha-hero.png`;
         return {
@@ -71,6 +91,35 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Sayfa() {
     const host = await aktifHost();
+    const hazirlanan = hostIcinHazirlananSite(host);
+    if (hazirlanan) {
+        const hazirlananJsonLd = {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: hazirlanan.h1,
+            url: `https://${hazirlanan.host}/`,
+            description: hazirlanan.aciklama,
+            areaServed: hazirlanan.sehir,
+            ...(hazirlanan.telefon ? { telephone: hazirlanan.telefon } : {}),
+            ...(hazirlanan.eposta ? { email: hazirlanan.eposta } : {}),
+            parentOrganization: {
+                "@type": "Organization",
+                name: hazirlanan.anaSite.ad,
+                url: hazirlanan.anaSite.url,
+            },
+        };
+        return (
+            <>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify(hazirlananJsonLd).replace(/</g, "\\u003c"),
+                    }}
+                />
+                <HazirlananSiteSayfasi site={hazirlanan} />
+            </>
+        );
+    }
     const haber = hostIcinHaberSitesi(host);
     if (haber) {
         const publicationJsonLd = {

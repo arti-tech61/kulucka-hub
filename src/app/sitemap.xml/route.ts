@@ -1,4 +1,5 @@
 import { hostIcinSite } from "@/lib/siteler";
+import { hostIcinHazirlananSite } from "@/lib/hazirlanan-siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { hostBloglari } from "@/lib/blog";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
@@ -17,6 +18,12 @@ export async function GET(istek: Request) {
     const host = (istek.headers.get("host") ?? "").toLowerCase().replace(/^www\./, "").split(":")[0];
     const bugun = new Date().toISOString().slice(0, 10);
     const urller: { loc: string; lastmod?: string }[] = [];
+
+    // Hazirlanan site: tek sayfa yayindadir.
+    const hazirlanan = hostIcinHazirlananSite(host);
+    if (hazirlanan) {
+        urller.push({ loc: `https://${hazirlanan.host}/`, lastmod: bugun });
+    }
 
     const haber = hostIcinHaberSitesi(host);
     if (haber) {
