@@ -2,6 +2,7 @@ import { hostIcinSite } from "@/lib/siteler";
 import { hostIcinHazirlananSite } from "@/lib/hazirlanan-siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { hostBloglari } from "@/lib/blog";
+import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
@@ -55,7 +56,7 @@ export async function GET(istek: Request) {
                     urller.push({ loc: `https://${site.host}/urunler/${urun.slug}`, lastmod: bugun });
                 }
             }
-            const bloglar = hostBloglari(site.host);
+            const bloglar = hostBloglari(site.host).length > 0 ? hostBloglari(site.host) : paylasilanBlogYazilari(site);
             if (bloglar.length > 0) {
                 urller.push({ loc: `https://${site.host}/blog`, lastmod: bugun });
                 for (const y of bloglar) {
