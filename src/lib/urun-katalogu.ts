@@ -1,10 +1,14 @@
 import type { SiteIcerik } from "@/lib/siteler";
 
 // Paylaşımlı ürün kataloğu: görseller ve teknik özellikler TÜM domain'lerde
-// aynıdır (mevcut bespoke temalar da /media/makasli-platform.png gibi görselleri
-// zaten paylaşıyor — bkz. aydin.tsx, bozuyuk.tsx, kutahya.tsx vb.). Yalnızca
-// AÇIKLAMA metni her domain için site.bolge/uzmanlik'ten otomatik türetilir,
-// böylece kopya içerik oluşmaz.
+// aynıdır. Görseller Sinoboom'un resmi ürün sayfalarından (2025 stüdyo çekim
+// serisi, tamamı 800x540 tutarlı format) + forklift için Zoomlion'un resmi
+// sayfasından alındı — tek tip, showroom kalitesinde, marka-tutarlı görünüm
+// için. `pt-` önekli dosya adları kasıtlı: mevcut 9 bespoke temanın kullandığı
+// /media/makasli-platform.png gibi paylaşılan dosyalarla ÇAKIŞMASIN diye ayrı
+// tutuldu (o temalar kendi görsellerini korur, dokunulmadı).
+// Yalnızca AÇIKLAMA metni her domain için site.bolge/uzmanlik'ten otomatik
+// türetilir, böylece kopya içerik oluşmaz.
 export interface UrunKatalogOgesi {
     slug: string;
     ad: string;
@@ -17,7 +21,7 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
     {
         slug: "makasli-platform-kiralama",
         ad: "Makaslı Platform",
-        gorsel: "/media/makasli-platform.png",
+        gorsel: "/media/pt-makasli-platform.png",
         ozellikler: [
             ["Çalışma Yüksekliği", "8m - 18m"],
             ["Kaldırma Kapasitesi", "227kg - 680kg"],
@@ -28,7 +32,7 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
     {
         slug: "eklemli-ve-teleskopik-platform-kiralama",
         ad: "Eklemli Platform",
-        gorsel: "/media/eklemli-platform.png",
+        gorsel: "/media/pt-eklemli-platform.png",
         ozellikler: [
             ["Çalışma Yüksekliği", "11m - 43m"],
             ["Yatay Erişim", "6m - 21m"],
@@ -39,7 +43,7 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
     {
         slug: "eklemli-ve-teleskopik-platform-kiralama",
         ad: "Teleskopik Platform",
-        gorsel: "/media/blog/celik-konstruksiyon-montaji-makasli-platform-forklift-kiralama.jpg",
+        gorsel: "/media/pt-teleskopik-platform.png",
         ozellikler: [
             ["Çalışma Yüksekliği", "16m - 58m"],
             ["Kaldırma Kapasitesi", "227kg - 450kg"],
@@ -50,7 +54,7 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
     {
         slug: "dizel-forklift-kiralama",
         ad: "Forklift",
-        gorsel: "/media/forklift.jpg",
+        gorsel: "/media/pt-forklift.jpg",
         ozellikler: [
             ["Kapasite", "1.5 - 10 Ton"],
             ["Yakıt Tipi", "Dizel / Elektrikli"],
@@ -61,7 +65,7 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
     {
         slug: "orumcek-platform-kiralama",
         ad: "Örümcek Platform",
-        gorsel: "/media/orumcek-platform.png",
+        gorsel: "/media/pt-orumcek-platform.png",
         ozellikler: [
             ["Çalışma Yüksekliği", "13m - 30m"],
             ["Zemin Baskısı", "Düşük - hassas yüzeylere uygun"],
@@ -72,7 +76,7 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
     {
         slug: "telehandler-kiralama",
         ad: "Telehandler",
-        gorsel: "/media/telehandler.png",
+        gorsel: "/media/pt-telehandler.png",
         ozellikler: [
             ["Kaldırma Yüksekliği", "7m - 18m"],
             ["Kapasite", "3 - 5 Ton"],
