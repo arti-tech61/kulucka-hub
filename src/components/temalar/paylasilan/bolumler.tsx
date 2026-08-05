@@ -1,4 +1,6 @@
+import Image from "next/image";
 import type { SiteIcerik } from "@/lib/siteler";
+import { urunKatalogu } from "@/lib/urun-katalogu";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon } from "./ikonlar";
 
@@ -25,6 +27,42 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
                         </span>
                         <p className="mt-4 leading-6 text-fg">{h}</p>
                     </article>
+                ))}
+            </div>
+        </section>
+    );
+}
+
+// Görseller ve teknik özellikler tüm domain'lerde ortaktır (urun-katalogu.ts);
+// yalnızca açıklama metni site.bolge/uzmanlik/h1'den türetilerek domain'e özel
+// hale gelir — kopya içerik oluşmaz.
+export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
+    return (
+        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
+            <div className="grid gap-8 md:grid-cols-2">
+                {urunKatalogu.map((urun) => (
+                    <a key={urun.ad} href={`/${urun.slug}`} className="group overflow-hidden rounded-2xl border border-border bg-elevated">
+                        <div className="relative h-64 w-full overflow-hidden">
+                            <Image
+                                src={urun.gorsel}
+                                alt={`${urun.ad} - ${site.h1}`}
+                                fill
+                                sizes="(min-width: 768px) 50vw, 100vw"
+                                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            />
+                        </div>
+                        <div className="p-6">
+                            <h3 className="font-display text-[24px] font-bold text-fg">{urun.ad}</h3>
+                            <p className="mt-2 leading-6 text-muted">{urun.aciklamaSablonu(site)}</p>
+                            <div className="mt-4 flex flex-wrap gap-4 text-sm text-muted">
+                                {urun.ozellikler.map(([etiket, deger]) => (
+                                    <span key={etiket}>
+                                        <strong className="text-fg">{etiket}:</strong> {deger}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    </a>
                 ))}
             </div>
         </section>
@@ -101,6 +139,7 @@ export function MetinSayfasi({ site, baslik }: { site: SiteIcerik; baslik: strin
 export function AnaSayfaGovde({ site }: { site: SiteIcerik }) {
     return (
         <>
+            <UrunlerBolumu site={site} />
             <HizmetlerBolumu site={site} />
             <BolgeBolumu site={site} />
             <IletisimKarti site={site} />

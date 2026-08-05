@@ -39,7 +39,7 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                                     key={href}
                                     href={href}
                                     className={`rounded-[8px] px-3 py-2 font-semibold transition-colors ${
-                                        aktif === href ? "bg-elevated text-accent-fg" : "text-muted hover:bg-elevated hover:text-fg"
+                                        aktif === href ? "bg-elevated text-primary" : "text-muted hover:bg-elevated hover:text-fg"
                                     }`}
                                 >
                                     {etiket}
@@ -54,34 +54,34 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
 
                 <main className="flex-1">{children}</main>
 
-                <footer className="bg-primary px-6 py-16 text-primary-light">
+                <footer className="bg-primary px-6 py-16 text-bg">
                     <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
                         <div>
-                            <h2 className="font-display text-[24px] font-bold text-primary-light">{config.markaAdi}</h2>
-                            <p className="mt-4 leading-6 text-primary-light/80">{site.uzmanlik}</p>
+                            <h2 className="font-display text-[24px] font-bold text-bg">{config.markaAdi}</h2>
+                            <p className="mt-4 leading-6 text-bg/80">{site.uzmanlik}</p>
                         </div>
                         <div>
-                            <h3 className="font-display text-[18px] font-semibold text-primary-light">Hızlı Bağlantılar</h3>
+                            <h3 className="font-display text-[18px] font-semibold text-bg">Hızlı Bağlantılar</h3>
                             <div className="mt-4 grid grid-cols-2 gap-3">
                                 {nav.slice(1).map(([href, etiket]) => (
-                                    <a key={href} href={href} className="text-primary-light/80 hover:text-primary-light">
+                                    <a key={href} href={href} className="text-bg/80 hover:text-bg">
                                         {etiket}
                                     </a>
                                 ))}
-                                <a href={site.anaSite.url} className="text-primary-light/80 hover:text-primary-light">
+                                <a href={site.anaSite.url} className="text-bg/80 hover:text-bg">
                                     {site.anaSite.ad}
                                 </a>
                             </div>
                         </div>
                         <div>
-                            <h3 className="font-display text-[18px] font-semibold text-primary-light">Bize Ulaşın</h3>
+                            <h3 className="font-display text-[18px] font-semibold text-bg">Bize Ulaşın</h3>
                             {site.telefon && (
-                                <a className="mt-4 flex items-center gap-3 text-primary-light/80 hover:text-primary-light" href={`tel:${site.telefon}`}>
+                                <a className="mt-4 flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${site.telefon}`}>
                                     <Ikon ad="telefon" />
                                     {site.telefonGosterim}
                                 </a>
                             )}
-                            <a className="mt-3 flex items-center gap-3 break-all text-primary-light/80 hover:text-primary-light" href={`mailto:${site.eposta}`}>
+                            <a className="mt-3 flex items-center gap-3 break-all text-bg/80 hover:text-bg" href={`mailto:${site.eposta}`}>
                                 <Ikon ad="posta" />
                                 {site.eposta}
                             </a>

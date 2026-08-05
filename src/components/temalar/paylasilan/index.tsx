@@ -3,7 +3,7 @@ import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
 import { olusturCerceve } from "./cerceve";
 import { Hero } from "./hero";
-import { AnaSayfaGovde, HizmetlerBolumu, IletisimKarti, MetinSayfasi } from "./bolumler";
+import { AnaSayfaGovde, IletisimKarti, MetinSayfasi, UrunlerBolumu } from "./bolumler";
 
 export type { PaylasilanTemaConfig, PaylasilanRenkler } from "./renkler";
 
@@ -43,8 +43,9 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
             <div>
                 <div className="mx-auto max-w-7xl px-6 pt-16 md:px-8">
                     <h1 className="font-display text-[36px] font-bold text-fg md:text-[44px]">Ürünlerimiz</h1>
+                    <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine sınıfını birlikte belirliyoruz.</p>
                 </div>
-                <HizmetlerBolumu site={site} />
+                <UrunlerBolumu site={site} />
             </div>
         );
     }
