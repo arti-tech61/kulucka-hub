@@ -58,4 +58,26 @@ export const urunKatalogu: UrunKatalogOgesi[] = [
         aciklamaSablonu: (site) =>
             `Yük taşıma ve istifleme işleri için; ${site.bolge.split(",")[0].trim()} bölgesindeki depo, saha ve lojistik ihtiyaçlarına uygun kapasite seçenekleri.`,
     },
+    {
+        slug: "orumcek-platform-kiralama",
+        ad: "Örümcek Platform",
+        gorsel: "/media/orumcek-platform.png",
+        ozellikler: [
+            ["Çalışma Yüksekliği", "13m - 30m"],
+            ["Zemin Baskısı", "Düşük - hassas yüzeylere uygun"],
+        ],
+        aciklamaSablonu: (site) =>
+            `Paletli hareket kabiliyeti ile dar, düzensiz veya iç mekân zeminlerde erişim sağlar; ${site.bolge.split(",")[0].trim()} bölgesinde hassas yüzeyli sahalar için tercih edilir.`,
+    },
+    {
+        slug: "telehandler-kiralama",
+        ad: "Telehandler",
+        gorsel: "/media/telehandler.png",
+        ozellikler: [
+            ["Kaldırma Yüksekliği", "7m - 18m"],
+            ["Kapasite", "3 - 5 Ton"],
+        ],
+        aciklamaSablonu: (site) =>
+            `Çatal, sepet ve kova ataşmanlarıyla çok amaçlı kullanım sunar; ${site.bolge.split(",")[0].trim()} bölgesindeki şantiye ve saha lojistiği işlerinde tercih edilir.`,
+    },
 ];

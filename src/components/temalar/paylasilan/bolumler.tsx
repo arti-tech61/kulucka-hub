@@ -46,7 +46,7 @@ export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
                 </h2>
                 <p className="mt-3 text-muted">Makaslı platform, eklemli platform ve forklift — {site.uzmanlik} için doğru sınıfı birlikte belirliyoruz.</p>
             </div>
-            <div className="grid gap-8 md:grid-cols-2">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {urunKatalogu.map((urun) => (
                     <a key={urun.ad} href={`/${urun.slug}`} className="group overflow-hidden rounded-2xl border border-border bg-elevated">
                         {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
