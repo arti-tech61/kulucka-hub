@@ -96,6 +96,11 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                         <p className="text-[#c4c5d9] text-sm">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır. · {site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p>
                     </div>
                 </div>
+            <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-5 text-center text-xs text-white/50">
+                <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80">
+                    Web Yazılım ve Tasarım: SAYGITECH
+                </a>
+            </div>
             </footer>
         </div>
     );

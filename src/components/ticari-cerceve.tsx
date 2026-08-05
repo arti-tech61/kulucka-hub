@@ -197,6 +197,11 @@ export function TicariCerceve({ site, children }: { site: SiteIcerik; children: 
                         <a href={site.anaSite.url}>{site.anaSite.ad}</a>
                     </div>
                 </div>
+                <div className="mx-auto max-w-7xl border-t border-white/10 px-5 py-5 text-center text-xs text-slate-500 sm:px-8">
+                    <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">
+                        Web Yazılım ve Tasarım: SAYGITECH
+                    </a>
+                </div>
             </footer>
         </>
     );

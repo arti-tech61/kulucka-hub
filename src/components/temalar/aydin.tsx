@@ -89,6 +89,11 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
                 <div className="w-full md:w-auto mt-8 md:mt-0 border-t md:border-t-0 border-white/10 pt-8 md:pt-0">
                     <p className="text-[12px] text-[#dce2f7] opacity-80">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır.<br />{site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p>
                 </div>
+            <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-5 text-center text-xs text-white/50">
+                <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80">
+                    Web Yazılım ve Tasarım: SAYGITECH
+                </a>
+            </div>
             </footer>
 
             <a className="fixed bottom-8 right-8 bg-[#FBBF24] text-[#0A1525] w-16 h-16 rounded-xl shadow-2xl flex items-center justify-center z-40 hover:scale-110 active:scale-95 transition-transform" href={`tel:${site.telefon}`} aria-label="Hemen ara">

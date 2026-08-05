@@ -87,6 +87,11 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                             </a>
                         </div>
                     </div>
+                    <div className="mx-auto mt-10 max-w-7xl border-t border-bg/10 pt-6 text-center text-sm text-bg/60">
+                        <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-bg/90">
+                            Web Yazılım ve Tasarım: SAYGITECH
+                        </a>
+                    </div>
                 </footer>
 
                 {site.telefon && (

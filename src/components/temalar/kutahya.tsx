@@ -42,6 +42,11 @@ function Cerceve({ site, aktif = "", children }: Parameters<TemaModulu["Cerceve"
                 <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">Hızlı Menü</h3><div className="mt-4 grid grid-cols-2 gap-3 text-[14px]">{nav.slice(1).map(([h, e]) => <a key={h} href={h} className="hover:text-[#67E8F9]">{e}</a>)}<a href={site.anaSite.url} className="hover:text-[#67E8F9]">{site.anaSite.ad}</a></div></div>
                 <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">İletişim</h3><a href={`tel:${site.telefon}`} className="mt-4 flex gap-2"><Ikon ad="telefon" />{site.telefonGosterim}</a><a href={`mailto:${site.eposta}`} className="mt-3 flex gap-2 break-all"><Ikon ad="posta" />{site.eposta}</a></div>
             </div>
+        <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-5 text-center text-xs text-white/50">
+            <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80">
+                Web Yazılım ve Tasarım: SAYGITECH
+            </a>
+        </div>
         </footer>
         <a href={`tel:${site.telefon}`} aria-label="Kütahya Platform'u ara" className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-[8px] bg-[#67E8F9] text-[#020617] shadow-xl"><Ikon ad="telefon" /></a>
     </div>;
