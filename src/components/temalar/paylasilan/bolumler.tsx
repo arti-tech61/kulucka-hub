@@ -5,6 +5,40 @@ import { urunKatalogu } from "@/lib/urun-katalogu";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 
+// Google Drive "İş resimleri" klasöründen indirilen gerçek Artı Platform saha
+// fotoğrafları (bkz. public/media/isler/) — anahtar kelime eşleştirmesiyle her
+// hizmet metnine en uygun gerçek fotoğraf atanır, tekdüze ikon yerine.
+const HIZMET_GORSELLERI: { anahtarlar: string[]; src: string; alt: string }[] = [
+    { anahtarlar: ["sepetli", "örümcek", "orumcek", "vinç", "vinc", "tırtıl"], src: "/media/isler/is-9.jpg", alt: "Örümcek platform ile sahada erişim çalışması" },
+    { anahtarlar: ["nakliye", "teslimat", "sevkiyat", "taşıma", "tasima"], src: "/media/isler/is-12.jpg", alt: "Kamyonla saha teslimatı ve nakliye" },
+    { anahtarlar: ["forklift", "istifleme", "palet", "yük taşıma", "yuk tasima"], src: "/media/isler/is-3.jpg", alt: "Forklift ve makaslı platform ile saha çalışması" },
+    { anahtarlar: ["eklemli", "boom", "akrobat", "manlift"], src: "/media/isler/is-7.jpg", alt: "Eklemli platform ile yükleme alanı çalışması" },
+    { anahtarlar: ["iç mekan", "ic mekan", "depo içi", "depo ici", "tesisat", "tavan", "boru", "avm", "fabrika içi", "fabrika ici", "hastane"], src: "/media/isler/is-10.jpg", alt: "Fabrika içi tesisat ve tavan çalışması" },
+    { anahtarlar: ["çelik", "celik", "konstrüksiyon", "konstruksiyon", "montaj", "cephe", "sanayi holü", "sanayi holu"], src: "/media/isler/is-1.jpg", alt: "Sanayi holünde çelik konstrüksiyon montaj çalışması" },
+    { anahtarlar: ["tarım", "tarim", "silo", "kırsal", "kirsal", "çiftlik", "ciftlik", "sera"], src: "/media/isler/is-2.jpg", alt: "Kırsal sahada çelik konstrüksiyon çalışması" },
+    { anahtarlar: ["enerji", "aydınlatma", "aydinlatma", "elektrik", "direk", "hat", "santral"], src: "/media/isler/is-11.jpg", alt: "Tabela ve aydınlatma bakımı için sahada erişim" },
+    { anahtarlar: ["operatörlü", "operatorlu", "operatörsüz", "operatorsuz"], src: "/media/isler/is-14.jpg", alt: "Operatörlü platform teslimatı ve saha kontrolü" },
+    { anahtarlar: ["dağınık", "daginik", "çok noktalı", "cok noktali", "rota", "güzergah", "guzergah"], src: "/media/isler/is-6.jpg", alt: "Çok noktalı bakım rotasında platform çalışması" },
+    { anahtarlar: ["zemin", "arazi", "hazırlıksız", "hazirliksiz", "engebeli"], src: "/media/isler/is-8.jpg", alt: "Zorlu zemin koşullarında makine parkı" },
+];
+const HIZMET_VARSAYILAN = { src: "/media/isler/is-13.jpg", alt: "Artı Platform saha çalışması" };
+const TUM_GORSELLER = [...HIZMET_GORSELLERI.map((g) => ({ src: g.src, alt: g.alt })), HIZMET_VARSAYILAN, { src: "/media/isler/is-4.jpg", alt: "Artı Platform saha çalışması" }, { src: "/media/isler/is-5.jpg", alt: "Artı Platform saha çalışması" }];
+
+function hizmetGorseli(h: string, kullanilanlar: Set<string>) {
+    const t = h.toLocaleLowerCase("tr-TR");
+    const skorlu = HIZMET_GORSELLERI
+        .map((g) => ({ g, skor: g.anahtarlar.filter((a) => t.includes(a)).length }))
+        .filter((x) => x.skor > 0)
+        .sort((a, b) => b.skor - a.skor);
+    const secili =
+        skorlu.find((x) => !kullanilanlar.has(x.g.src))?.g
+        ?? TUM_GORSELLER.find((g) => !kullanilanlar.has(g.src))
+        ?? skorlu[0]?.g
+        ?? HIZMET_VARSAYILAN;
+    kullanilanlar.add(secili.src);
+    return secili;
+}
+
 const formCls: TemaFormClass = {
     etiket: "mb-2 block font-semibold text-fg",
     alan: "w-full rounded-lg border border-border bg-bg p-3 text-fg outline-none focus:border-accent",
@@ -14,6 +48,7 @@ const formCls: TemaFormClass = {
 
 export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
     const hizmetler = site.hizmetler.slice(0, 6);
+    const kullanilanlar = new Set<string>();
     return (
         <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
             <div className="mb-10 max-w-2xl">
@@ -21,14 +56,22 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
                 <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine seçimi ve yazılı teklif süreci.</p>
             </div>
             <div className="grid gap-6 md:grid-cols-3">
-                {hizmetler.map((h) => (
-                    <article key={h} className="rounded-2xl bg-elevated p-6">
-                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-bg">
-                            <Ikon ad="onay" className="h-5 w-5" />
-                        </span>
-                        <p className="mt-4 leading-6 text-fg">{h}</p>
-                    </article>
-                ))}
+                {hizmetler.map((h) => {
+                    const gorsel = hizmetGorseli(h, kullanilanlar);
+                    return (
+                        <article key={h} className="overflow-hidden rounded-2xl bg-elevated">
+                            <div className="relative h-44 w-full overflow-hidden bg-bg">
+                                <Image src={gorsel.src} alt={gorsel.alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
+                            </div>
+                            <div className="p-6">
+                                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-bg">
+                                    <Ikon ad="onay" className="h-5 w-5" />
+                                </span>
+                                <p className="mt-4 leading-6 text-fg">{h}</p>
+                            </div>
+                        </article>
+                    );
+                })}
             </div>
             <a href="/urunler" className="mt-8 inline-flex items-center gap-2 font-bold text-accent hover:text-accent-hover">
                 Tüm makine kategorilerini görün
