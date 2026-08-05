@@ -22,7 +22,7 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
             <div className="grid gap-6 md:grid-cols-3">
                 {hizmetler.map((h) => (
                     <article key={h} className="rounded-2xl bg-elevated p-6">
-                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-accent-fg">
+                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-bg">
                             <Ikon ad="onay" className="h-5 w-5" />
                         </span>
                         <p className="mt-4 leading-6 text-fg">{h}</p>
@@ -37,22 +37,32 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
 // yalnızca açıklama metni site.bolge/uzmanlik/h1'den türetilerek domain'e özel
 // hale gelir — kopya içerik oluşmaz.
 export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
+    const bolgeIlk = site.bolge.split(",")[0].trim();
     return (
         <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
+            <div className="mb-10 max-w-2xl">
+                <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">
+                    {bolgeIlk} Kiralık Makine Parkuru
+                </h2>
+                <p className="mt-3 text-muted">Makaslı platform, eklemli platform ve forklift — {site.uzmanlik} için doğru sınıfı birlikte belirliyoruz.</p>
+            </div>
             <div className="grid gap-8 md:grid-cols-2">
                 {urunKatalogu.map((urun) => (
                     <a key={urun.ad} href={`/${urun.slug}`} className="group overflow-hidden rounded-2xl border border-border bg-elevated">
-                        <div className="relative h-64 w-full overflow-hidden">
+                        {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
+                            object-contain + sabit yükseklikli nötr zemin, hiçbir görseli kırpmadan
+                            tam sığdırır. */}
+                        <div className="relative h-56 w-full overflow-hidden bg-bg">
                             <Image
                                 src={urun.gorsel}
-                                alt={`${urun.ad} - ${site.h1}`}
+                                alt={`${urun.ad} kiralama - ${bolgeIlk}`}
                                 fill
                                 sizes="(min-width: 768px) 50vw, 100vw"
-                                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                                className="object-contain p-6 transition-transform duration-500 group-hover:scale-105"
                             />
                         </div>
                         <div className="p-6">
-                            <h3 className="font-display text-[24px] font-bold text-fg">{urun.ad}</h3>
+                            <h3 className="font-display text-[22px] font-bold text-fg">{urun.ad} Kiralama</h3>
                             <p className="mt-2 leading-6 text-muted">{urun.aciklamaSablonu(site)}</p>
                             <div className="mt-4 flex flex-wrap gap-4 text-sm text-muted">
                                 {urun.ozellikler.map(([etiket, deger]) => (
@@ -100,7 +110,7 @@ export function IletisimKarti({ site }: { site: SiteIcerik }) {
                 <div className="space-y-5">
                     {kartlar.map(([baslik, ikon, deger, href]) => (
                         <a key={baslik} href={href} className="flex items-center gap-4 rounded-2xl bg-elevated p-6">
-                            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-accent-fg">
+                            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-bg">
                                 <Ikon ad={ikon} className="h-5 w-5" />
                             </span>
                             <div>
