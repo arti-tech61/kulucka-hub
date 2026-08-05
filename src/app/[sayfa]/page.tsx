@@ -263,11 +263,11 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
 
             {digerSayfalar.length > 0 && (
                 <>
-                    <h2 className="mt-16 text-2xl font-black">İlgili sayfalar</h2>
+                    <h2 className="mt-16 text-2xl font-black text-fg">İlgili sayfalar</h2>
                     <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                         {digerSayfalar.map((s) => (
-                            <li key={s.slug} className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                                <a className="font-bold text-blue-700 hover:text-blue-900" href={`/${s.slug}`}>{s.baslik} →</a>
+                            <li key={s.slug} className="rounded-2xl border border-border bg-elevated p-4">
+                                <a className="font-bold text-accent hover:text-accent-hover" href={`/${s.slug}`}>{s.baslik} →</a>
                             </li>
                         ))}
                     </ul>

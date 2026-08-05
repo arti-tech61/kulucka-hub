@@ -4,6 +4,7 @@ import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import type { TemaModulu } from "./tipler";
 import { TemaForm } from "./tema-form";
+import { IkonWhatsapp } from "./paylasilan/ikonlar";
 
 // aydinplatform.net — Google Stitch tasarımının birebir portu.
 // Renkler: deep-navy #0A1525, safety-yellow #FBBF24, off-white #F9FAFB.
@@ -251,21 +252,21 @@ function AydinIletisim({ site }: { site: SiteIcerik }) {
                             <h2 className={`${hy} text-[32px] leading-[40px] font-bold mb-6`}>Hemen Teklif Alın</h2>
                             <p className="text-base text-[#dce2f7] mb-8">Saha bilgilerinizi paylaşın, işinize en uygun makine ve fiyat çalışmasını yapalım.</p>
                             <div className="space-y-6">
-                                <a href={`tel:${site.telefon}`} className="flex items-start gap-4 group">
+                                <div className="flex items-center gap-3"><a href={`tel:${site.telefon}`} className="flex flex-1 items-start gap-4 group">
                                     <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.phone} className="w-5 h-5 text-[#FBBF24]" /></div>
                                     <div>
                                         <p className="text-[12px] uppercase text-[#dce2f7]">Telefon</p>
                                         <p className={`${hy} text-xl group-hover:text-[#FBBF24] transition-colors`}>{site.telefonGosterim}</p>
                                     </div>
-                                </a>
+                                </a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>
                                 {ikinciTelefon(site) && (
-                                    <a href={`tel:${ikinciTelefon(site)!.telefon}`} className="flex items-start gap-4 group">
+                                    <div className="flex items-center gap-3"><a href={`tel:${ikinciTelefon(site)!.telefon}`} className="flex flex-1 items-start gap-4 group">
                                         <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.phone} className="w-5 h-5 text-[#FBBF24]" /></div>
                                         <div>
-                                            <p className="text-[12px] uppercase text-[#dce2f7]">Telefon (2. Hat)</p>
+                                            <p className="text-[12px] uppercase text-[#dce2f7]">Telefon (Hat 2)</p>
                                             <p className={`${hy} text-xl group-hover:text-[#FBBF24] transition-colors`}>{ikinciTelefon(site)!.telefonGosterim}</p>
                                         </div>
-                                    </a>
+                                    </a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>
                                 )}
                                 <a href={`mailto:${site.eposta}`} className="flex items-start gap-4 group">
                                     <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.mail} className="w-5 h-5 text-[#FBBF24]" /></div>

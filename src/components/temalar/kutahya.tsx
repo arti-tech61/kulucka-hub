@@ -4,6 +4,7 @@ import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { TemaForm } from "./tema-form";
 import type { TemaModulu } from "./tipler";
+import { IkonWhatsapp } from "./paylasilan/ikonlar";
 
 function Ikon({ ad, className = "h-5 w-5" }: { ad: keyof typeof yollar; className?: string }) {
     return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={yollar[ad]} /></svg>;
@@ -41,7 +42,7 @@ function Cerceve({ site, aktif = "", children }: Parameters<TemaModulu["Cerceve"
             <div className="mx-auto grid max-w-[1280px] gap-10 md:grid-cols-3">
                 <div><h2 className="font-['Montserrat'] text-[24px] font-bold">Kütahya Platform</h2><p className="mt-4 text-[14px] leading-5 text-[#c0c6de]">{site.uzmanlik} için doğru makine ve yazılı teklif planlaması.</p></div>
                 <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">Hızlı Menü</h3><div className="mt-4 grid grid-cols-2 gap-3 text-[14px]">{nav.slice(1).map(([h, e]) => <a key={h} href={h} className="hover:text-[#67E8F9]">{e}</a>)}<a href={site.anaSite.url} className="hover:text-[#67E8F9]">{site.anaSite.ad}</a></div></div>
-                <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">İletişim</h3><a href={`tel:${site.telefon}`} className="mt-4 flex gap-2"><Ikon ad="telefon" />{site.telefonGosterim}</a>{ikinciTelefon(site) && (<a href={`tel:${ikinciTelefon(site)!.telefon}`} className="mt-3 flex gap-2"><Ikon ad="telefon" />{ikinciTelefon(site)!.telefonGosterim}</a>)}<a href={`mailto:${site.eposta}`} className="mt-3 flex gap-2 break-all"><Ikon ad="posta" />{site.eposta}</a></div>
+                <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">İletişim</h3><div className="mt-4 flex items-center gap-2"><a href={`tel:${site.telefon}`} className="flex gap-2"><Ikon ad="telefon" />{site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="mt-3 flex items-center gap-2"><a href={`tel:${ikinciTelefon(site)!.telefon}`} className="flex gap-2"><Ikon ad="telefon" />{ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}<a href={`mailto:${site.eposta}`} className="mt-3 flex gap-2 break-all"><Ikon ad="posta" />{site.eposta}</a></div>
             </div>
         <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-5 text-center text-xs text-white/50">
             <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80">

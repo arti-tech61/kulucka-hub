@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ikinciTelefon } from "@/lib/siteler";
 import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
-import { Ikon } from "./ikonlar";
+import { Ikon, IkonWhatsapp } from "./ikonlar";
 import { PaylasilanTemaStil } from "./tema-css";
 
 const nav: [string, string][] = [
@@ -77,16 +77,26 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                         <div>
                             <h3 className="font-display text-[18px] font-semibold text-bg">Bize Ulaşın</h3>
                             {site.telefon && (
-                                <a className="mt-4 flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${site.telefon}`}>
-                                    <Ikon ad="telefon" />
-                                    {site.telefonGosterim}
-                                </a>
+                                <div className="mt-4 flex items-center gap-3">
+                                    <a className="flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${site.telefon}`}>
+                                        <Ikon ad="telefon" />
+                                        {site.telefonGosterim}
+                                    </a>
+                                    <a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-[#25D366] text-white">
+                                        <IkonWhatsapp className="h-4 w-4" />
+                                    </a>
+                                </div>
                             )}
                             {ikinciTelefon(site) && (
-                                <a className="mt-3 flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${ikinciTelefon(site)!.telefon}`}>
-                                    <Ikon ad="telefon" />
-                                    {ikinciTelefon(site)!.telefonGosterim}
-                                </a>
+                                <div className="mt-3 flex items-center gap-3">
+                                    <a className="flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${ikinciTelefon(site)!.telefon}`}>
+                                        <Ikon ad="telefon" />
+                                        {ikinciTelefon(site)!.telefonGosterim}
+                                    </a>
+                                    <a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-[#25D366] text-white">
+                                        <IkonWhatsapp className="h-4 w-4" />
+                                    </a>
+                                </div>
                             )}
                             <a className="mt-3 flex items-center gap-3 break-all text-bg/80 hover:text-bg" href={`mailto:${site.eposta}`}>
                                 <Ikon ad="posta" />

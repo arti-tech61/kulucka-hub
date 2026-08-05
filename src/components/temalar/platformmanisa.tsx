@@ -5,6 +5,7 @@ import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 import type { TemaModulu } from "./tipler";
 import { ManisaTeklifForm } from "./platformmanisa-form";
+import { IkonWhatsapp } from "./paylasilan/ikonlar";
 
 // platformmanisa.com — Google Stitch DARK tasarımının birebir portu.
 // surface-deep #020617, surface #101415, surface-card #1E293B, primary #b8c4ff, industrial-orange #F97316.
@@ -90,7 +91,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                     </div>
                     <div className="flex flex-col gap-3">
                         <h4 className={`text-white ${caps} mb-2`}>İletişim</h4>
-                        <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a>{ikinciTelefon(site) && (<a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2 mt-2" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a>)}
+                        <div className="flex items-center gap-2"><a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="flex items-center gap-2 mt-2"><a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}
                         <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a>
                     </div>
                     <div className="md:col-span-4 mt-4 pt-8 border-t border-white/10 text-center">

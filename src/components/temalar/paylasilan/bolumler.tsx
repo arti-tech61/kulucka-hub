@@ -3,7 +3,7 @@ import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { urunKatalogu } from "@/lib/urun-katalogu";
 import { TemaForm, type TemaFormClass } from "../tema-form";
-import { Ikon } from "./ikonlar";
+import { Ikon, IkonWhatsapp } from "./ikonlar";
 
 const formCls: TemaFormClass = {
     etiket: "mb-2 block font-semibold text-fg",
@@ -122,27 +122,35 @@ export function BolgeBolumu({ site }: { site: SiteIcerik }) {
 export function IletisimKarti({ site }: { site: SiteIcerik }) {
     const bolgeler = site.bolge.split(",").map((s) => s.trim());
     const digerHat = ikinciTelefon(site);
-    const kartlar: [string, "telefon" | "posta" | "konum", string, string][] = [
-        ...(site.telefon ? ([["Telefon", "telefon", site.telefonGosterim, `tel:${site.telefon}`]] as [string, "telefon" | "posta" | "konum", string, string][]) : []),
-        ...(digerHat ? ([["Telefon (2. Hat)", "telefon", digerHat.telefonGosterim, `tel:${digerHat.telefon}`]] as [string, "telefon" | "posta" | "konum", string, string][]) : []),
-        ["E-posta", "posta", site.eposta, `mailto:${site.eposta}`],
-        ["Bölge", "konum", site.bolge, "#"],
+    type Kart = { baslik: string; ikon: "telefon" | "posta" | "konum"; deger: string; href: string; whatsapp?: string };
+    const kartlar: Kart[] = [
+        ...(site.telefon ? [{ baslik: "Telefon (Hat 1)", ikon: "telefon" as const, deger: site.telefonGosterim, href: `tel:${site.telefon}`, whatsapp: site.telefon }] : []),
+        ...(digerHat ? [{ baslik: "Telefon (Hat 2)", ikon: "telefon" as const, deger: digerHat.telefonGosterim, href: `tel:${digerHat.telefon}`, whatsapp: digerHat.telefon }] : []),
+        { baslik: "E-posta", ikon: "posta" as const, deger: site.eposta, href: `mailto:${site.eposta}` },
+        { baslik: "Bölge", ikon: "konum" as const, deger: site.bolge, href: "#" },
     ];
 
     return (
         <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
             <div className="grid gap-8 lg:grid-cols-[1fr_1.4fr]">
                 <div className="space-y-5">
-                    {kartlar.map(([baslik, ikon, deger, href]) => (
-                        <a key={baslik} href={href} className="flex items-center gap-4 rounded-2xl bg-elevated p-6">
-                            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-bg">
-                                <Ikon ad={ikon} className="h-5 w-5" />
-                            </span>
-                            <div>
-                                <h3 className="font-display text-fg">{baslik}</h3>
-                                <p className="mt-1 break-all text-muted">{deger}</p>
-                            </div>
-                        </a>
+                    {kartlar.map((k) => (
+                        <div key={k.baslik} className="flex items-center gap-3">
+                            <a href={k.href} className="flex flex-1 items-center gap-4 rounded-2xl bg-elevated p-6">
+                                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-bg">
+                                    <Ikon ad={k.ikon} className="h-5 w-5" />
+                                </span>
+                                <div>
+                                    <h3 className="font-display text-fg">{k.baslik}</h3>
+                                    <p className="mt-1 break-all text-muted">{k.deger}</p>
+                                </div>
+                            </a>
+                            {k.whatsapp && (
+                                <a href={`https://wa.me/${k.whatsapp.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white">
+                                    <IkonWhatsapp className="h-5 w-5" />
+                                </a>
+                            )}
+                        </div>
                     ))}
                 </div>
                 <div className="rounded-2xl bg-elevated p-8">

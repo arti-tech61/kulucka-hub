@@ -1,6 +1,6 @@
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
-import { Ikon } from "./ikonlar";
+import { Ikon, IkonWhatsapp } from "./ikonlar";
 
 // Paylaşılan tema — ana sayfa hero bölümü. Component ağacı domain'ler arasında
 // hiç değişmez; sadece `site` içeriği ve (Cerceve/renkler.ts üzerinden) renk
@@ -66,29 +66,57 @@ export function Hero({ site }: { site: SiteIcerik }) {
 
                     <div className="lg:col-span-5">
                         <div className="rounded-2xl border-2 border-accent bg-elevated p-8 shadow-xl">
-                            <div className="mb-6 flex items-start gap-4">
-                                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-accent">
-                                    <Ikon ad="telefon" className="h-7 w-7 text-accent-fg" />
-                                </div>
-                                <div>
-                                    <div className="text-xs font-bold uppercase tracking-widest text-muted">Teklif ve Bilgi Hattı</div>
-                                    {site.telefon ? (
-                                        <a href={`tel:${site.telefon}`} className="block font-display text-3xl font-black leading-tight text-primary">
-                                            {site.telefonGosterim}
-                                        </a>
-                                    ) : (
-                                        <a href={`mailto:${site.eposta}`} className="block font-display text-xl font-black leading-tight text-primary">
-                                            {site.eposta}
-                                        </a>
-                                    )}
-                                    {digerHat && (
-                                        <a href={`tel:${digerHat.telefon}`} className="mt-1 block font-display text-lg font-bold text-fg">
-                                            {digerHat.telefonGosterim}
-                                        </a>
-                                    )}
-                                </div>
+                            <div className="text-xs font-bold uppercase tracking-widest text-muted">Teklif ve Bilgi Hattı</div>
+                            <div className="mt-4 space-y-3">
+                                {site.telefon ? (
+                                    <>
+                                        <div className="flex items-center gap-3">
+                                            <a href={`tel:${site.telefon}`} className="flex flex-1 items-center gap-3 rounded-xl bg-bg p-3">
+                                                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent">
+                                                    <Ikon ad="telefon" className="h-5 w-5 text-accent-fg" />
+                                                </span>
+                                                <span className="font-display text-xl font-black leading-tight text-primary">{site.telefonGosterim}</span>
+                                            </a>
+                                            <a
+                                                href={`https://wa.me/${site.telefon.replace("+", "")}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                aria-label="WhatsApp ile yazın"
+                                                className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-xl bg-[#25D366] text-white"
+                                            >
+                                                <IkonWhatsapp className="h-6 w-6" />
+                                            </a>
+                                        </div>
+                                        {digerHat && (
+                                            <div className="flex items-center gap-3">
+                                                <a href={`tel:${digerHat.telefon}`} className="flex flex-1 items-center gap-3 rounded-xl bg-bg p-3">
+                                                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent">
+                                                        <Ikon ad="telefon" className="h-5 w-5 text-accent-fg" />
+                                                    </span>
+                                                    <span className="font-display text-xl font-black leading-tight text-primary">{digerHat.telefonGosterim}</span>
+                                                </a>
+                                                <a
+                                                    href={`https://wa.me/${digerHat.telefon.replace("+", "")}`}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    aria-label="WhatsApp ile yazın"
+                                                    className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-xl bg-[#25D366] text-white"
+                                                >
+                                                    <IkonWhatsapp className="h-6 w-6" />
+                                                </a>
+                                            </div>
+                                        )}
+                                    </>
+                                ) : (
+                                    <a href={`mailto:${site.eposta}`} className="flex items-center gap-3 rounded-xl bg-bg p-3">
+                                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent">
+                                            <Ikon ad="posta" className="h-5 w-5 text-accent-fg" />
+                                        </span>
+                                        <span className="font-display text-lg font-black leading-tight text-primary">{site.eposta}</span>
+                                    </a>
+                                )}
                             </div>
-                            <div className="grid grid-cols-3 gap-3 text-center">
+                            <div className="mt-6 grid grid-cols-3 gap-3 text-center">
                                 <div className="rounded-lg bg-bg p-3">
                                     <div className="font-display text-xl font-black text-primary">Stok</div>
                                     <div className="text-[0.6rem] font-bold uppercase tracking-wider text-muted">Teklifte</div>

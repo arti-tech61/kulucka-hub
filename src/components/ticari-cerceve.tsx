@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
+import { IkonWhatsapp } from "@/components/temalar/paylasilan/ikonlar";
 
 function siteGorunumu(site: SiteIcerik) {
     if (site.host.includes("forklift")) {
@@ -86,13 +87,13 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
                     <Link className="transition hover:text-white" href="/iletisim">İletişim</Link>
                 </nav>
                 {bilgiSitesi ? (
-                    <Link href="/iletisim" className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition ${gorunum.buton}`}>
+                    <Link href="/iletisim" className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition bg-accent text-accent-fg hover:bg-accent-hover`}>
                         Soru veya düzeltme bildir
                     </Link>
                 ) : (
                     <a
                         href={`tel:${site.telefon}`}
-                        className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition ${gorunum.buton}`}
+                        className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-black transition bg-accent text-accent-fg hover:bg-accent-hover`}
                     >
                         <span className="hidden sm:inline">Hemen ara · </span>{site.telefonGosterim}
                     </a>
@@ -126,7 +127,7 @@ export function TicariGorsel({ site }: { site: SiteIcerik }) {
             <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
                 <div className="flex items-end justify-between gap-5">
                     <div>
-                        <span className={`inline-flex rounded-full px-3 py-1 text-[11px] font-black uppercase tracking-widest ${gorunum.vurgu}`}>
+                        <span className="inline-flex rounded-full bg-accent px-3 py-1 text-[11px] font-black uppercase tracking-widest text-accent-fg">
                             {bilgiSitesi ? "Kaynak odaklı rehber" : "Saha odaklı plan"}
                         </span>
                         <p className="mt-4 max-w-sm text-xl font-black leading-snug text-white">{site.uzmanlik}</p>
@@ -160,15 +161,25 @@ export function TicariTeklif({ site }: { site: SiteIcerik }) {
                     ? "İçerikler genel bilgilendirme içindir. Belgelendirme ve mevzuat kararlarında resmî kurumların güncel metinleri esas alınır; hata bildirimleri incelenerek sayfalara işlenir."
                     : "Model, kapasite, belge, operatör, nakliye, teslimat ve ücret; güncel uygunluk kontrolünden sonra yazılı teklif ve sözleşmede kesinleşir."}
             </p>
-            <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
+            <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
                 {!bilgiSitesi && (
-                    <a href={`tel:${site.telefon}`} className={`rounded-full px-6 py-3 font-black transition ${gorunum.buton}`}>
+                    <a href={`tel:${site.telefon}`} className="rounded-full bg-accent px-6 py-3 font-black text-accent-fg transition hover:bg-accent-hover">
                         Ara · {site.telefonGosterim}
                     </a>
                 )}
+                {!bilgiSitesi && site.telefon && (
+                    <a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#25D366] text-white">
+                        <IkonWhatsapp className="h-5 w-5" />
+                    </a>
+                )}
                 {!bilgiSitesi && digerHat && (
-                    <a href={`tel:${digerHat.telefon}`} className="rounded-full border border-white/40 px-6 py-3 font-bold text-white transition hover:bg-white/10">
+                    <a href={`tel:${digerHat.telefon}`} className="rounded-full bg-accent px-6 py-3 font-black text-accent-fg transition hover:bg-accent-hover">
                         Ara · {digerHat.telefonGosterim}
+                    </a>
+                )}
+                {!bilgiSitesi && digerHat && (
+                    <a href={`https://wa.me/${digerHat.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#25D366] text-white">
+                        <IkonWhatsapp className="h-5 w-5" />
                     </a>
                 )}
                 <a href={`mailto:${site.eposta}`} className="rounded-full border border-white/40 px-6 py-3 font-bold text-white transition hover:bg-white/10">
