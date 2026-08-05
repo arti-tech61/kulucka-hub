@@ -48,7 +48,7 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
 
             <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#f9f9ff]/95 backdrop-blur-md shadow-sm border-b border-[#d3c5ac]">
                 <a href="/" className="flex items-center gap-4">
-                    <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={160} height={40} className="h-10 w-auto object-contain" priority />
+                    <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={50} className="h-12 w-auto object-contain" priority />
                     <span className={`hidden md:block text-[24px] font-bold text-[#0A1525] ${hy}`}>{site.h1}</span>
                 </a>
                 <nav className="hidden lg:flex items-center gap-8">

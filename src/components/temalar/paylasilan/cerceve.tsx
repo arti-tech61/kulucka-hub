@@ -29,7 +29,7 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                     <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
                         <a href="/" className="flex items-center gap-2">
                             {config.logoUrl ? (
-                                <Image src={config.logoUrl} alt={`${config.markaAdi} logosu`} width={140} height={40} className="h-9 w-auto object-contain" priority />
+                                <Image src={config.logoUrl} alt={`${config.markaAdi} logosu`} width={200} height={60} className="h-12 w-auto object-contain" priority />
                             ) : (
                                 <span className="font-display text-[20px] font-black tracking-tight text-primary">{config.markaAdi}</span>
                             )}

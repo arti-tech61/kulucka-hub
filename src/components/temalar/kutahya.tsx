@@ -31,7 +31,7 @@ function Cerceve({ site, aktif = "", children }: Parameters<TemaModulu["Cerceve"
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" />
         <header className="sticky top-0 z-50 border-b border-white/10 bg-[#020617]/95 text-white backdrop-blur-md">
             <div className="mx-auto flex max-w-[1280px] items-center justify-between px-4 py-4 md:px-6">
-                <a href="/" className="flex items-center gap-3"><Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={150} height={40} className="h-9 w-auto object-contain" /><span className="hidden font-['Montserrat'] text-[18px] font-bold sm:block">Kütahya Platform</span></a>
+                <a href="/" className="flex items-center gap-3"><Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={53} className="h-12 w-auto object-contain" /><span className="hidden font-['Montserrat'] text-[18px] font-bold sm:block">Kütahya Platform</span></a>
                 <nav className="hidden items-center gap-1 lg:flex">{nav.map(([href, etiket]) => <a key={href} href={href} className={`rounded-[2px] px-3 py-2 text-[14px] font-semibold tracking-[0.05em] transition-colors ${aktif === href ? "bg-[#1D4ED8] text-white" : "text-white hover:text-[#67E8F9]"}`}>{etiket}</a>)}</nav>
                 <a href={`tel:${site.telefon}`} className="flex items-center gap-2 rounded-[2px] bg-[#67E8F9] px-4 py-3 text-[14px] font-bold text-[#020617]"><Ikon ad="telefon" className="h-4 w-4" /><span className="hidden md:inline">{site.telefonGosterim}</span><span className="md:hidden">Ara</span></a>
             </div>

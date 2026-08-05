@@ -53,7 +53,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             <header className="fixed top-0 w-full z-50 bg-[#020617]/80 backdrop-blur-md border-b border-white/10">
                 <div className="flex justify-between items-center px-6 py-4 max-w-[1280px] mx-auto">
                     <a className="flex items-center gap-2" href="/">
-                        <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={150} height={40} className="h-9 md:h-10 w-auto object-contain" priority />
+                        <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={53} className="h-12 md:h-14 w-auto object-contain" priority />
                     </a>
                     <nav className="hidden md:flex gap-8 items-center">
                         {NAV.map((n) => (
@@ -72,7 +72,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             <footer className="w-full mt-[120px] bg-[#0b0f10] border-t border-white/10">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-6 py-12 max-w-[1280px] mx-auto">
                     <div className="md:col-span-1 flex flex-col gap-4">
-                        <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={150} height={40} className="h-10 w-auto object-contain opacity-70" />
+                        <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={53} className="h-12 w-auto object-contain opacity-70" />
                         <p className="text-sm text-[#c4c5d9] mt-2">Güvenilir, teknolojik ve profesyonel platform kiralama çözümleri.</p>
                     </div>
                     <div className="flex flex-col gap-3">
