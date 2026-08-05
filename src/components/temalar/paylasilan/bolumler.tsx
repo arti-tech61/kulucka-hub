@@ -65,7 +65,7 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {gosterilecekler.map((urun) => (
-                    <a key={urun.ad} id={urun.slug} href={`/urunler#${urun.slug}`} className="group scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-elevated">
+                    <a key={urun.ad} id={urun.slug} href={`/urunler/${urun.slug}`} className="group scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-elevated">
                         {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
                             object-contain + sabit yükseklikli nötr zemin, hiçbir görseli kırpmadan
                             tam sığdırır. */}

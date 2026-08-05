@@ -6,6 +6,8 @@ import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
 import { haberKurumsalSayfalar } from "@/lib/haber-kurumsal";
+import { urunKatalogu } from "@/lib/urun-katalogu";
+import { paylasilanTemaKonfigleri } from "@/lib/paylasilan-tema-konfig";
 
 export const dynamic = "force-dynamic";
 
@@ -47,6 +49,11 @@ export async function GET(istek: Request) {
             }
             for (const sayfa of kurumsalSayfalar(site).filter((s) => s.indexlenebilir)) {
                 urller.push({ loc: `https://${site.host}/${sayfa.slug}`, lastmod: bugun });
+            }
+            if (site.host in paylasilanTemaKonfigleri) {
+                for (const urun of urunKatalogu) {
+                    urller.push({ loc: `https://${site.host}/urunler/${urun.slug}`, lastmod: bugun });
+                }
             }
             const bloglar = hostBloglari(site.host);
             if (bloglar.length > 0) {
