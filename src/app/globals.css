@@ -1,5 +1,42 @@
 @import "tailwindcss";
 
+/* Paylaşılan tema (src/components/temalar/paylasilan/) için token kayıtları.
+   Bu blok yalnızca EKLEME'dir — mevcut 9 bespoke tema (aydin.tsx, bozuyuk.tsx vb.)
+   literal hex kullanır ve bu token isimlerine hiç dokunmaz; TicariCerceve/
+   HazirlananSiteSayfasi de kendi slate/amber class'larını kullanır. Gerçek
+   renk değerleri her paylaşımlı sayfada scoped <style> ile per-request
+   ayarlanır (bkz. paylasilan/tema-css.tsx) — buradaki :root değerleri sadece
+   güvenlik amaçlı varsayılan/fallback'tir. */
+:root {
+    --color-primary: #0a1525;
+    --color-primary-light: #16233a;
+    --color-accent: #ccff00;
+    --color-accent-hover: #b3e600;
+    --color-accent-fg: #0a1525;
+    --color-bg: #ffffff;
+    --color-fg: #0a1525;
+    --color-muted: #6b7280;
+    --color-elevated: #f3f4f6;
+    --color-border: #e5e7eb;
+}
+
+@theme inline {
+    --color-primary: var(--color-primary);
+    --color-primary-light: var(--color-primary-light);
+    --color-accent: var(--color-accent);
+    --color-accent-hover: var(--color-accent-hover);
+    --color-accent-fg: var(--color-accent-fg);
+    --color-bg: var(--color-bg);
+    --color-fg: var(--color-fg);
+    --color-muted: var(--color-muted);
+    --color-elevated: var(--color-elevated);
+    --color-border: var(--color-border);
+}
+
+.paylasilan-tema {
+    border-color: var(--color-border);
+}
+
 html {
     scroll-behavior: smooth;
 }

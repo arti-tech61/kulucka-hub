@@ -11,6 +11,8 @@ import { kutahyaTema } from "./kutahya";
 import { bilecikTema } from "./bilecik";
 import { bozuyukTema } from "./bozuyuk";
 import { canakkaleTema } from "./canakkale";
+import { olusturPaylasilanTema } from "./paylasilan";
+import { paylasilanTemaKonfigleri } from "@/lib/paylasilan-tema-konfig";
 
 // Host'a özel Stitch temaları. Kayıtlı olmayan host'lar varsayılan TicariCerceve'yi kullanır.
 const TEMALAR: Record<string, TemaModulu> = {
@@ -23,6 +25,11 @@ const TEMALAR: Record<string, TemaModulu> = {
     "bilecikplatform.com": bilecikTema,
     "bozuyukplatform.com.tr": bozuyukTema,
     "canakkaleplatform.com": canakkaleTema,
+    // Paylaşımlı tema: tek bileşen ağacı, host'a göre yalnızca renk/marka/logo değişir
+    // (bkz. src/lib/paylasilan-tema-konfig.ts). Yukarıdaki bespoke temalarla çakışmaz.
+    ...Object.fromEntries(
+        Object.entries(paylasilanTemaKonfigleri).map(([host, cfg]) => [host, olusturPaylasilanTema(cfg)])
+    ),
 };
 
 export function temaModulu(host: string): TemaModulu | undefined {

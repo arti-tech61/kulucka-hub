@@ -1,0 +1,90 @@
+{
+  "1": {
+    "dosya": "/media/logolar/1.png",
+    "accent": "#f1212b"
+  },
+  "2": {
+    "dosya": "/media/logolar/2.png",
+    "accent": "#516df3"
+  },
+  "3": {
+    "dosya": "/media/logolar/3.png",
+    "accent": "#c3a100"
+  },
+  "4": {
+    "dosya": "/media/logolar/4.png",
+    "accent": "#00aa4f"
+  },
+  "5": {
+    "dosya": "/media/logolar/5.png",
+    "accent": "#81bf04"
+  },
+  "6": {
+    "dosya": "/media/logolar/6.png",
+    "accent": "#e16503"
+  },
+  "7": {
+    "dosya": "/media/logolar/7.png",
+    "accent": "#00b5bc"
+  },
+  "8": {
+    "dosya": "/media/logolar/8.png",
+    "accent": "#cc9e57"
+  },
+  "9": {
+    "dosya": "/media/logolar/9.png",
+    "accent": "#974ada"
+  },
+  "10": {
+    "dosya": "/media/logolar/10.png",
+    "accent": "#af8d03"
+  },
+  "11": {
+    "dosya": "/media/logolar/11.png",
+    "accent": "#3c5f98"
+  },
+  "12": {
+    "dosya": "/media/logolar/12.png",
+    "accent": "#c4a404"
+  },
+  "13": {
+    "dosya": "/media/logolar/13.png",
+    "accent": "#00a9b0"
+  },
+  "14": {
+    "dosya": "/media/logolar/14.png",
+    "accent": "#9d5525"
+  },
+  "15": {
+    "dosya": "/media/logolar/15.png",
+    "accent": "#2b5790"
+  },
+  "16": {
+    "dosya": "/media/logolar/16.png",
+    "accent": "#6b3088"
+  },
+  "17": {
+    "dosya": "/media/logolar/17.png",
+    "accent": "#93305d"
+  },
+  "18": {
+    "dosya": "/media/logolar/18.png",
+    "accent": "#cc501a"
+  },
+  "19": {
+    "dosya": "/media/logolar/19.png",
+    "accent": "#cd1bd2"
+  },
+  "20": {
+    "dosya": "/media/logolar/20.png",
+    "accent": "#cc501a"
+  },
+  "21": {
+    "dosya": "/media/logolar/21.png",
+    "accent": "#d09d46"
+  },
+  "22": {
+    "dosya": "/media/logolar/22.png",
+    "accent": "#ffd940"
+  }
+}

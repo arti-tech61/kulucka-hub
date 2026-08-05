@@ -268,6 +268,31 @@ export const siteler: SiteIcerik[] = [
             { baslik: "Yükseltici platform vardiya öncesi kontrol yöntemi", href: "/rehber/gunluk-kontrol-listesi" },
         ],
     },
+    {
+        host: "boluplatform.com",
+        gaId: "",
+        baslik: "Bolu Platform Kiralama | Makaslı, Eklemli Platform ve Forklift",
+        aciklama: "Bolu, Gerede, Mengen, Mudurnu ve Kıbrıscık'ta makaslı platform, eklemli platform ve forklift kiralama. Stok, sevkiyat ve belge kapsamı yazılı teklifte doğrulanır.",
+        h1: "Bolu Platform Kiralama",
+        paragraflar: [
+            "Bolu, TEM otoyolunun İstanbul-Ankara hattındaki en kritik geçiş noktalarından biri olmasının yanı sıra orman ürünleri sanayisi, Abant ve Kartalkaya turizm tesisleri ile dağlık arazideki inşaat projelerine ev sahipliği yapıyor. Bu çeşitlilik, platform ve forklift kiralama ihtiyacını da farklı sahalara yayıyor: otel bakım işlerinden TEM dinlenme tesisi düzenlemelerine, orman ürünleri deposundan kayak tesisi altyapısına kadar geniş bir yelpaze.",
+            "Rakım ve kış mevsimi koşulları Bolu'da makine seçiminin ayrılmaz bir parçası. Donan zeminler, kar yağışı sonrası kayganlaşan açık sahalar ve düşük sıcaklıklar; hem makine tipini hem teslimat zamanlamasını etkiliyor. Saha bilgisini paylaştığınızda, mevsim koşullarına uygun donanımlı makineyi doğru zamanda ulaştırıyoruz.",
+        ],
+        hizmetler: [
+            "Otel ve tesis cephe/çatı bakımı için makaslı ve eklemli platform",
+            "TEM otoyol dinlenme tesisleri ve hizmet alanları için erişim çözümleri",
+            "Orman ürünleri deposu ve lojistik sahalar için forklift kiralama",
+            "İnşaat şantiyesi çelik montaj ve yüksek erişim işleri",
+            "Kayak tesisi (Kartalkaya) altyapı ve bakım dönemi ekipman desteği",
+            "Kış koşullarına uygun donanımlı makine seçimi ve zamanlı teslimat",
+        ],
+        anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
+        bolge: "Bolu, Gerede, Mengen, Mudurnu, Kıbrıscık",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "kiralama@artiplatform.com.tr",
+        uzmanlik: "orman ürünleri, TEM otoyol tesisleri, turizm işletmeleri (Abant, Kartalkaya) ve inşaat sahalarında platform/forklift kiralama",
+    },
 ];
 
 type TicariSeoProfili = {
@@ -370,6 +395,15 @@ const ticariSeoProfilleri: Record<string, TicariSeoProfili> = {
         zemin: "depo betonu, epoksi üretim alanı, yükleme rampası, asfalt avlu ve yüzey bozukluğu bulunan açık stok sahası",
         olcu: "yükün ağırlığı ve ölçüsü, yük merkezi, raf yüksekliği, koridor genişliği, kapı kotu, rampa eğimi ve tavan açıklığı",
         makine: "Elektrikli Forklift veya Dizel Forklift",
+    },
+    "boluplatform.com": {
+        yer: "Bolu merkez, TEM otoyol güzergâhı, Abant, Kartalkaya ve Gerede-Mudurnu hattındaki orman ürünleri, turizm ve inşaat sahaları",
+        isler: "otel-tesis cephe/çatı bakımı, orman ürünleri deposu düzenlemesi, TEM dinlenme tesisleri bakımı, inşaat şantiyesi çelik montajı ve kayak tesisi altyapı işleri",
+        rota: "TEM otoyolu bağlantı süresi, dağlık arazi erişimi, kış aylarında yol ve rakım durumu ve tesis kabul saatleri",
+        kritik: "yüksek rakım, kış mevsimi soğuk hava koşulları ve dağlık arazide zemin-eğim değerlendirmesinin çalışma planına doğru yansıtılması",
+        zemin: "otel peyzajı, orman yolu, TEM tesis betonu, şantiye dolgusu ve kış aylarında donan veya kayganlaşan açık alan",
+        olcu: "hedef çalışma kotu, engel derinliği, kapı-koridor ölçüsü, zemin eğimi, rakım ve kış koşullarına uygun donanım ihtiyacı",
+        makine: "Makaslı Platform, Eklemli Platform veya Forklift",
     },
 };
 
