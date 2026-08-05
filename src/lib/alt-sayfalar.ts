@@ -3,6 +3,8 @@ import {
     platformAkademisiKontrolParagraflari,
     platformAkademisiMykParagraflari,
 } from "./platform-akademisi-icerik";
+import { hostIcinSite } from "./siteler";
+import { firsatSayfalari } from "./firsat-sayfalar";
 
 export interface AltSayfa {
     slug: string;
@@ -3938,7 +3940,10 @@ for (const [host, sayfalar] of Object.entries(altSayfalar)) {
 
 export function hostAltSayfalari(host: string): AltSayfa[] {
     const temiz = host.toLowerCase().replace(/^www\./, "").split(":")[0];
-    return altSayfalar[temiz] ?? [];
+    const bespoke = altSayfalar[temiz] ?? [];
+    const site = hostIcinSite(temiz);
+    const firsat = site && (!site.kategori || site.kategori === "kiralama") ? firsatSayfalari(site) : [];
+    return [...bespoke, ...firsat];
 }
 
 export function altSayfaBul(host: string, slug: string): AltSayfa | undefined {
