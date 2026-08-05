@@ -38,11 +38,23 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
     );
 }
 
+// Ana sayfada gösterilecek temsilci ürünler (her kategoriden orta segment bir
+// sınıf) — tam liste (25 ürün, tüm metrajlar) yalnızca /urunler sayfasında.
+const ANA_SAYFA_TEMSILCILERI = [
+    "makasli-platform-12m-kiralama",
+    "eklemli-platform-20m-kiralama",
+    "teleskopik-platform-22m-kiralama",
+    "dizel-forklift-3-5-ton-kiralama",
+    "orumcek-platform-18m-kiralama",
+    "telehandler-14m-kiralama",
+];
+
 // Görseller ve teknik özellikler tüm domain'lerde ortaktır (urun-katalogu.ts);
 // yalnızca açıklama metni site.bolge/uzmanlik/h1'den türetilerek domain'e özel
 // hale gelir — kopya içerik oluşmaz.
-export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
+export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik; tumunuGoster?: boolean }) {
     const bolgeIlk = site.bolge.split(",")[0].trim();
+    const gosterilecekler = tumunuGoster ? urunKatalogu : urunKatalogu.filter((u) => ANA_SAYFA_TEMSILCILERI.includes(u.slug));
     return (
         <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
             <div className="mb-10 max-w-2xl">
@@ -52,7 +64,7 @@ export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
                 <p className="mt-3 text-muted">Makaslı platform, eklemli platform ve forklift — {site.uzmanlik} için doğru sınıfı birlikte belirliyoruz.</p>
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {urunKatalogu.map((urun) => (
+                {gosterilecekler.map((urun) => (
                     <a key={urun.ad} id={urun.slug} href={`/urunler#${urun.slug}`} className="group scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-elevated">
                         {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
                             object-contain + sabit yükseklikli nötr zemin, hiçbir görseli kırpmadan
@@ -80,6 +92,12 @@ export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
                     </a>
                 ))}
             </div>
+            {!tumunuGoster && (
+                <a href="/urunler" className="mt-8 inline-flex items-center gap-2 font-bold text-accent hover:text-accent-hover">
+                    Tüm metrajları ve makine sınıflarını görün ({urunKatalogu.length} ürün)
+                    <Ikon ad="ok" className="h-4 w-4" />
+                </a>
+            )}
         </section>
     );
 }

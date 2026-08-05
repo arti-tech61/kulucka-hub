@@ -57,7 +57,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
                     <h1 className="font-display text-[36px] font-bold text-fg md:text-[44px]">Ürünlerimiz</h1>
                     <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine sınıfını birlikte belirliyoruz.</p>
                 </div>
-                <UrunlerBolumu site={site} />
+                <UrunlerBolumu site={site} tumunuGoster />
             </div>
         );
     }
