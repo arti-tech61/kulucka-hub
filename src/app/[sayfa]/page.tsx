@@ -174,39 +174,39 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
             ))}
             <GaEtiketi gaId={site.gaId} />
 
-            <nav aria-label="Breadcrumb" className="text-sm font-semibold text-slate-500">
+            <nav aria-label="Breadcrumb" className="text-sm font-semibold text-muted">
                 <ol className="flex flex-wrap items-center gap-2">
-                    <li><Link href="/" className="text-blue-700 hover:underline">{site.h1}</Link></li>
-                    <li aria-hidden="true" className="text-slate-400">/</li>
-                    <li className="text-slate-700" aria-current="page">{alt.baslik}</li>
+                    <li><Link href="/" className="text-accent hover:underline">{site.h1}</Link></li>
+                    <li aria-hidden="true" className="text-muted/60">/</li>
+                    <li className="text-fg" aria-current="page">{alt.baslik}</li>
                 </ol>
             </nav>
-            <section className="mt-6 overflow-hidden rounded-[2rem] bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 px-6 py-12 text-white sm:px-10 sm:py-16">
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-cyan-300">{site.bolge}</p>
+            <section className="mt-6 overflow-hidden rounded-[2rem] bg-gradient-to-br from-primary via-primary to-primary-light px-6 py-12 text-bg sm:px-10 sm:py-16">
+                <p className="text-xs font-black uppercase tracking-[0.22em] text-accent">{site.bolge}</p>
                 <h1 className="mt-4 max-w-4xl text-4xl font-black tracking-[-0.04em] sm:text-6xl">{alt.h1}</h1>
-                <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">{alt.paragraflar[0]}</p>
+                <p className="mt-6 max-w-3xl text-lg leading-relaxed text-bg/80">{alt.paragraflar[0]}</p>
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                     {bilgiSitesi ? (
                         <a href="#kaynaklar" className="rounded-full bg-emerald-500 px-6 py-3 text-center font-bold text-slate-950 hover:bg-emerald-400">
                             Kaynakları incele
                         </a>
                     ) : (
-                        <a href={`tel:${site.telefon}`} className="rounded-full bg-blue-600 px-6 py-3 text-center font-bold text-white hover:bg-blue-500">
+                        <a href={`tel:${site.telefon}`} className="rounded-full bg-accent px-6 py-3 text-center font-bold text-accent-fg hover:bg-accent-hover">
                             Uygunluk sor
                         </a>
                     )}
-                    <Link href="/teklif-hazirligi" className="rounded-full border border-white/25 px-6 py-3 text-center font-bold text-white hover:bg-white/10">
+                    <Link href="/teklif-hazirligi" className="rounded-full border border-bg/25 px-6 py-3 text-center font-bold text-bg hover:bg-bg/10">
                         {bilgiSitesi ? "Yayın kapsamını öğren" : "Talep rehberini aç"}
                     </Link>
                 </div>
             </section>
 
             <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
-                <div className="space-y-5 text-lg leading-relaxed text-slate-700">
+                <div className="space-y-5 text-lg leading-relaxed text-fg">
                     {alt.paragraflar.slice(1).map((p, i) => <p key={i}>{p}</p>)}
                 </div>
-                <aside className={`h-fit rounded-2xl p-5 text-sm leading-relaxed ${bilgiSitesi ? "border border-emerald-200 bg-emerald-50 text-emerald-950" : "border border-amber-200 bg-amber-50 text-amber-950"}`}>
-                    <strong className="block text-base">{bilgiSitesi ? "Bilgiyi uygulamadan önce" : "Teklif öncesi doğrulama"}</strong>
+                <aside className={`h-fit rounded-2xl p-5 text-sm leading-relaxed ${bilgiSitesi ? "border border-emerald-200 bg-emerald-50 text-emerald-950" : "border border-accent/30 bg-accent/5 text-fg"}`}>
+                    <strong className="block text-base text-accent">{bilgiSitesi ? "Bilgiyi uygulamadan önce" : "Teklif öncesi doğrulama"}</strong>
                     <span className="mt-2 block">
                         {bilgiSitesi
                             ? "Yayın tarihini, resmî kaynağın güncel sürümünü, üretici talimatını ve işyerinizin risk değerlendirmesini birlikte kontrol edin."
@@ -217,14 +217,14 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
 
             {alt.maddeler && alt.maddeler.length > 0 && (
                 <section className="mt-14">
-                    <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-700">Karar noktaları</p>
-                    <h2 className="mt-3 text-3xl font-black tracking-tight">İhtiyaca göre değerlendirme</h2>
+                    <p className="text-xs font-black uppercase tracking-[0.2em] text-accent">Karar noktaları</p>
+                    <h2 className="mt-3 text-3xl font-black tracking-tight text-fg">İhtiyaca göre değerlendirme</h2>
                 <div className="mt-6 grid gap-4 sm:grid-cols-2">
                     {alt.maddeler.map((m) => (
-                        <div key={m.baslik} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-                            <span className="mb-4 grid size-9 place-items-center rounded-xl bg-blue-50 font-black text-blue-700">✓</span>
-                            <h3 className="font-bold">{m.baslik}</h3>
-                            <p className="mt-1 text-sm leading-relaxed text-slate-600">{m.metin}</p>
+                        <div key={m.baslik} className="rounded-2xl border border-border bg-elevated p-6 shadow-sm">
+                            <span className="mb-4 grid size-9 place-items-center rounded-xl bg-accent/15 font-black text-accent">✓</span>
+                            <h3 className="font-bold text-fg">{m.baslik}</h3>
+                            <p className="mt-1 text-sm leading-relaxed text-muted">{m.metin}</p>
                         </div>
                     ))}
                 </div>
@@ -233,12 +233,12 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
 
             {alt.sss && alt.sss.length > 0 && (
                 <>
-                    <h2 className="mt-16 text-3xl font-black tracking-tight">Sık sorulan sorular</h2>
+                    <h2 className="mt-16 text-3xl font-black tracking-tight text-fg">Sık sorulan sorular</h2>
                     <div className="mt-6 space-y-3">
                         {alt.sss.map((s) => (
-                            <details key={s.soru} className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm open:border-blue-300">
-                                <summary className="cursor-pointer font-semibold">{s.soru}</summary>
-                                <p className="mt-3 leading-relaxed text-slate-700">{s.cevap}</p>
+                            <details key={s.soru} className="group rounded-2xl border border-border bg-elevated p-5 shadow-sm open:border-accent">
+                                <summary className="cursor-pointer font-semibold text-fg">{s.soru}</summary>
+                                <p className="mt-3 leading-relaxed text-muted">{s.cevap}</p>
                             </details>
                         ))}
                     </div>

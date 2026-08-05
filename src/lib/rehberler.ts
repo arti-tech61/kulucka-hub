@@ -528,6 +528,102 @@ export const rehberler: Rehber[] = [
             { soru: "Yükseltici platform sepeti kurtarma aracı olarak kullanılabilir mi?", cevap: "Çoğu durumda sahadaki yükseltici platform, asılı kalan bir kişiye ulaşmanın en hızlı yoludur; bu nedenle kurtarma planında sıklıkla yer alır. Ancak kurtarmanın nasıl yapılacağı önceden belirlenmeli ve tatbik edilmelidir; gerçek olay anı, yöntemi ilk kez denemek için uygun zaman değildir." },
         ],
     },
+    {
+        slug: "platform-kiralamak-mi-satin-almak-mi",
+        etiket: "Maliyet ve Karar Rehberi",
+        baslik: "Platform Kiralamak mı, Satın Almak mı? Gerçek Maliyet Karşılaştırması",
+        aciklama:
+            "Makaslı, eklemli veya teleskopik platform satın almak mı kiralamak mı daha mantıklı? Amortisman, bakım, depolama ve kullanım sıklığına göre karar rehberi.",
+        yayin: "2026-08-05",
+        giris:
+            "Yüksekte çalışma ihtiyacı düzenli hâle geldiğinde işletmeler er ya da geç aynı soruyla karşılaşır: bu makineyi satın mı almalıyız, yoksa ihtiyaç oldukça mı kiralamalıyız? Cevap tek bir kurala bağlanamaz; kullanım sıklığı, sermaye durumu, saha çeşitliliği ve bakım kapasitesi birlikte değerlendirilmesi gereken değişkenlerdir. Bu rehber, iki seçeneği duygusal değil sayısal bir çerçevede karşılaştırır.",
+        bolumler: [
+            {
+                baslik: "Satın almanın görünmeyen maliyetleri",
+                paragraflar: [
+                    "Bir makaslı veya eklemli platformun etiket fiyatı, toplam sahip olma maliyetinin yalnızca başlangıç noktasıdır. Yıllık periyodik kontrol, yedek parça, lastik ve hidrolik bakımı, sigorta, park/depolama alanı ve makinenin kullanılmadığı dönemlerdeki değer kaybı (amortisman) hesaba katılmadan yapılan bir 'satın almak daha ucuz' değerlendirmesi eksik kalır.",
+                    "Ayrıca her makine belirli bir iş sınıfına hizmet eder: 12 metrelik bir makaslı platform sahibi olmak, 26 metrelik bir eklemli platform gerektiren işe çözüm üretmez. Farklı iş tiplerini karşılamak için birden fazla makine sınıfına sahip olmak, sermaye bağlanmasını katlayarak artırır.",
+                    "Operatör istihdamı da bu denklemin parçasıdır: makineyi sürekli ve güvenli kullanacak, periyodik kontrol takibini yapacak ve arıza durumunda karar verecek bir kadro gerekir. Küçük ve orta ölçekli işletmelerde bu sorumluluk çoğu zaman zaten dolu olan bir ekibe eklenir.",
+                ],
+            },
+            {
+                baslik: "Kiralamanın getirdiği esneklik",
+                paragraflar: [
+                    "Kiralamada sermaye bir makineye kilitlenmez; her proje için o işe en uygun sınıf seçilir. Bu ay 12 metre makaslı platform gereken bir işletme, gelecek ay 26 metre eklemli platforma ihtiyaç duyduğunda yeni bir yatırım yapmadan makine değiştirebilir.",
+                    "Periyodik kontrol, bakım, lastik ve hidrolik yağı gibi kalemler kiralama bedeline dahildir ve kiralayan firmanın sorumluluğundadır; işletme yalnız makinenin performansıyla ilgilenir. Arıza durumunda ikame makine planı, kiralama sözleşmesinin standart bir parçasıdır — sahiplenilen bir makinede aynı arıza, iş durmasına dönüşebilir.",
+                    "Kısa süreli veya mevsimsel işlerde (örneğin sezonluk otel bakımı, tek seferlik çatı montajı, proje bazlı fabrika kurulumu) kiralama neredeyse her zaman daha düşük toplam maliyetlidir; çünkü makinenin atıl kaldığı süre için ödeme yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Kırılma noktası: kullanım sıklığı",
+                paragraflar: [
+                    "Sektörde sıkça kullanılan bir kaba kural, bir makinenin yılda kaç hafta fiilen çalıştığına bakar. Bir platform yılın büyük bölümünde, düzenli ve tahmin edilebilir şekilde (örneğin sabit bir fabrika sahasında sürekli bakım işinde) kullanılıyorsa satın alma zamanla amorti olabilir. Kullanım aralıklı, proje bazlı veya mevsimselse kiralama neredeyse her zaman daha ucuza gelir.",
+                    "Bu hesap yalnız 'kaç gün kullanıyorum' sorusuyla sınırlı değildir: makinenin bakımını yapacak teknik kapasiteye, arıza anında yedek makineye ve değişen iş tiplerine uyum sağlayacak çeşitliliğe sahip olup olmadığınız da kırılma noktasını etkiler.",
+                    "Karışık bir strateji de yaygındır: işletmeler en sık kullandıkları temel sınıfı (örneğin standart makaslı platform) satın alıp, nadiren ihtiyaç duydukları özel sınıfları (yüksek eklemli, telehandler, örümcek platform) proje bazlı kiralar. Bu yaklaşım sermaye ve esnekliği dengeler.",
+                ],
+            },
+            {
+                baslik: "Kiralarken neye dikkat etmeli",
+                paragraflar: [
+                    "Kiralama kararı verildiğinde ikinci soru hangi firmadan kiralanacağıdır. Güncel periyodik kontrol belgesi, makinenin yaşı ve bakım kaydı, arıza durumunda ikame makine garantisi, nakliye süresi ve operatör desteği; fiyattan önce sorulması gereken kalemlerdir. Bu kriterler ayrı bir rehberde ('Doğru Platform Kiralama Firması Nasıl Seçilir?') ayrıntılı ele alınmıştır.",
+                    "Sözleşmede kiralama bedeline neyin dahil olduğu (nakliye, operatör, yakıt/şarj, sigorta) ve neyin hariç tutulduğu açıkça yazılmalıdır; sonradan çıkan kalemler toplam maliyeti belirsiz bırakır. Yazılı teklif olmadan sözlü fiyat karşılaştırması yapılmamalıdır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Küçük bir işletme için hangisi genelde daha mantıklı?", cevap: "Kullanım aralıklıysa veya iş tipleri çeşitliyse kiralama; sermaye ve bakım kapasitesi sınırlı küçük işletmeler için genellikle daha düşük risklidir." },
+            { soru: "İkinci el makine almak satın alma maliyetini düşürür mü?", cevap: "Fiyat düşer ama bilinmeyen bakım geçmişi, gizli arıza ve kısalan kalan ömür riski artar; bu risk toplam maliyeti öngörülemez hâle getirebilir." },
+            { soru: "Uzun süreli kiralama satın almaya göre nasıl konumlanır?", cevap: "Uzun süreli (proje bazlı, aylık) kiralama, bakım ve ikame sorumluluğu kiralayan firmada kalmaya devam ederken, satın almanın esnekliğine yakın bir kullanım süresi sunar; birçok işletme için orta yol olarak tercih edilir." },
+            { soru: "Satın almanın avantajlı olduğu tipik durum nedir?", cevap: "Aynı sınıf makinenin yıl boyunca, tahmin edilebilir ve yüksek yoğunlukla, tek bir sabit sahada kullanıldığı durumlarda satın alma zamanla amorti olabilir." },
+            { soru: "Kiralama bedeline bakım dahil midir?", cevap: "Standart uygulamada periyodik bakım ve kontrol kiralayan firmanın sorumluluğundadır ve bedele dahildir; sözleşmede bu kalemin açıkça yazılı olduğundan emin olunmalıdır." },
+        ],
+    },
+    {
+        slug: "dogru-platform-kiralama-firmasi-nasil-secilir",
+        etiket: "Tedarikçi Seçim Rehberi",
+        baslik: "Doğru Platform Kiralama Firması Nasıl Seçilir? 8 Maddelik Kontrol Listesi",
+        aciklama:
+            "Platform, manlift veya forklift kiralarken en düşük fiyat yerine hangi kriterlere bakılmalı? Belge, stok, nakliye ve arıza desteği kontrol listesi.",
+        yayin: "2026-08-05",
+        giris:
+            "Yüksekte çalışma ekipmanı piyasasında onlarca firma benzer fiyat aralığında görünür; aradaki gerçek fark çoğunlukla teklif sırasında değil, makine sahaya geldiğinde veya bir arıza yaşandığında ortaya çıkar. Bu rehber, yalnız fiyata bakarak karar vermenin risklerini ve bir kiralama firmasını değerlendirirken sorulması gereken somut soruları listeler.",
+        bolumler: [
+            {
+                baslik: "1-2. Belge ve bakım kaydı",
+                paragraflar: [
+                    "Her makinenin güncel periyodik kontrol belgesi olmalı ve bu belge talep edildiğinde tereddütsüz paylaşılabilmelidir. Belgeyi göstermekte zorlanan veya 'sahada verilir' diyen bir firma, teklif aşamasında zaten bir uyarı işaretidir.",
+                    "Makinenin yaşı ve bakım periyodu da sorulmalıdır. Düzenli bakımdan geçmiş, kayıtlı bir filo; sahada arıza riskini ve iş durma süresini doğrudan azaltır.",
+                ],
+            },
+            {
+                baslik: "3-4. Stok derinliği ve gerçek uygunluk",
+                paragraflar: [
+                    "'Elimizde var' demek başka, o makinenin talep edilen tarihte fiilen boşta olması başkadır. Ciddi bir firma, stok durumunu güncel rezervasyon takvimiyle teyit eder; belirsiz veya aşırı iyimser sözlü onay yerine yazılı teyit istenmelidir.",
+                    "Aynı sınıfta birden fazla makine bulunması, arıza anında hızlı ikame makine sağlanabileceğinin de bir göstergesidir. Tek makineli veya dar filolu tedarikçilerde ikame süresi genellikle daha uzundur.",
+                ],
+            },
+            {
+                baslik: "5-6. Nakliye ve teslimat netliği",
+                paragraflar: [
+                    "Nakliye süresi, kim tarafından karşılanacağı ve olası gecikme durumunda ne yapılacağı teklif aşamasında yazılı olarak netleşmelidir. 'Aynı gün' vaadi, somut bir teslimat saati ve iletişim hattı olmadan tek başına yeterli bir garanti değildir.",
+                    "Sahaya erişim koşulları (dar sokak, rampa, kapı yüksekliği) firmayla önceden paylaşılmalı ve firmanın bu bilgiye göre doğru makineyi/aracı önerip önermediği gözlemlenmelidir; bu, firmanın saha deneyimi hakkında iyi bir gösterge sunar.",
+                ],
+            },
+            {
+                baslik: "7-8. Arıza desteği ve sözleşme netliği",
+                paragraflar: [
+                    "Arıza anında kime ulaşılacağı, müdahale süresinin ne kadar olacağı ve ikame makine garantisinin sözleşmede yazılı olup olmadığı kiralama öncesi sorulmalıdır. Bu bilgi yalnız sözlü verildiyse, yazılı teklife eklenmesi istenmelidir.",
+                    "Son olarak, kiralama bedeline nelerin dahil olduğu (nakliye, operatör, yakıt/şarj, sigorta) ve nelerin hariç tutulduğu tek bir belgede açıkça görülebilmelidir. Dağınık veya sözlü fiyat bilgisi, sahada beklenmedik ek kalemlere dönüşme riski taşır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "En düşük fiyatı veren firma her zaman riskli midir?", cevap: "Hayır, ama fiyat tek başına yeterli bir ölçüt değildir. Belge, stok teyidi ve arıza desteği aynı standartta olan firmalar arasında fiyat karşılaştırması anlamlıdır." },
+            { soru: "Yazılı teklif neden bu kadar önemli?", cevap: "Sözlü anlaşmalarda dahil/hariç kalemler, teslimat tarihi ve ikame koşulları netleşmeden kiralama başlarsa anlaşmazlık riski artar; yazılı teklif her iki tarafı da korur." },
+            { soru: "Yeni kurulmuş bir firmadan kiralamak sakıncalı mı?", cevap: "Tek başına sakıncalı değildir; ama filo yaşı, bakım kaydı ve referans sahalar hakkında ek soru sormak, deneyimli firmalara kıyasla daha önemli hâle gelir." },
+            { soru: "Sözleşmede en çok atlanan madde nedir?", cevap: "Arıza durumunda ikame makine süresi ve kimin sorumlu olacağı, sıkça sözlü bırakılan ama en çok anlaşmazlığa yol açan maddelerden biridir." },
+        ],
+    },
 ];
 
 export function rehberBul(slug: string): Rehber | undefined {
