@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ikinciTelefon } from "@/lib/siteler";
 import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
 import { Ikon } from "./ikonlar";
@@ -79,6 +80,12 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                                 <a className="mt-4 flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${site.telefon}`}>
                                     <Ikon ad="telefon" />
                                     {site.telefonGosterim}
+                                </a>
+                            )}
+                            {ikinciTelefon(site) && (
+                                <a className="mt-3 flex items-center gap-3 text-bg/80 hover:text-bg" href={`tel:${ikinciTelefon(site)!.telefon}`}>
+                                    <Ikon ad="telefon" />
+                                    {ikinciTelefon(site)!.telefonGosterim}
                                 </a>
                             )}
                             <a className="mt-3 flex items-center gap-3 break-all text-bg/80 hover:text-bg" href={`mailto:${site.eposta}`}>

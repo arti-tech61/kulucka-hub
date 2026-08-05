@@ -23,7 +23,19 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
     }
 
     function Hakkimizda({ site }: { site: SiteIcerik }) {
-        return <MetinSayfasi site={site} baslik="Hakkımızda" />;
+        return (
+            <div>
+                <MetinSayfasi site={site} baslik="Hakkımızda" />
+                <div className="mx-auto -mt-12 flex max-w-4xl flex-wrap gap-4 px-6 pb-20 md:px-8">
+                    <a href="/urunler" className="rounded-[8px] bg-accent px-6 py-3 font-bold text-accent-fg hover:bg-accent-hover">
+                        Makine Parkurunu İnceleyin
+                    </a>
+                    <a href="/iletisim" className="rounded-[8px] border border-border px-6 py-3 font-bold text-fg hover:bg-elevated">
+                        Teklif İsteyin
+                    </a>
+                </div>
+            </div>
+        );
     }
 
     function Iletisim({ site }: { site: SiteIcerik }) {

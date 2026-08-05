@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
+import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 import type { TemaModulu } from "./tipler";
 import { EklemliHizliTeklif, EklemliIletisimForm } from "./eklemli-form";
@@ -48,7 +49,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                     <div><div className="text-[22px] font-extrabold text-white mb-4">{site.h1.toUpperCase()}</div><p className="text-white/50 text-sm">{site.uzmanlik} için engel aşan eklemli ve teleskopik platform çözümleri.</p></div>
                     <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">Makineler</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/dizel-eklemli-platform-kiralama">Dizel Eklemli</a></li><li><a className="text-white/60 hover:text-white" href="/elektrikli-eklemli-platform-kiralama">Elektrikli Eklemli</a></li><li><a className="text-white/60 hover:text-white" href="/urunler">Tüm Makineler</a></li></ul></div>
                     <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">Kurumsal</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/hakkimizda">Hakkımızda</a></li><li><a className="text-white/60 hover:text-white" href="/blog">Blog</a></li><li><a className="text-white/60 hover:text-white" href="/gizlilik-politikasi">Gizlilik</a></li></ul></div>
-                    <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">İletişim</h4><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px] mt-3 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a></div>
+                    <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">İletişim</h4><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a>{ikinciTelefon(site) && (<a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px] mt-3" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a>)}<a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px] mt-3 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a></div>
                 </div>
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 border-t border-white/10 mt-10 pt-8 text-center"><p className="text-white/40 text-sm">© {new Date().getFullYear()} {site.h1}. {site.anaSite.ad} ağının bir parçasıdır.</p></div>
             <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-5 text-center text-xs text-white/50">

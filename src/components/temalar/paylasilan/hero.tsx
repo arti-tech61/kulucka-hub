@@ -1,4 +1,5 @@
 import type { SiteIcerik } from "@/lib/siteler";
+import { ikinciTelefon } from "@/lib/siteler";
 import { Ikon } from "./ikonlar";
 
 // Paylaşılan tema — ana sayfa hero bölümü. Component ağacı domain'ler arasında
@@ -11,11 +12,12 @@ export function Hero({ site }: { site: SiteIcerik }) {
     const h1Alt = h1Kelimeler.slice(ortaNokta).join(" ");
 
     const oneCikanHizmetler = site.hizmetler.slice(0, 2);
+    const digerHat = ikinciTelefon(site);
 
     return (
-        <section className="bg-gradient-to-br from-bg via-bg to-elevated pb-16 pt-20 lg:pb-24 lg:pt-28">
+        <section className="bg-gradient-to-br from-bg via-bg to-elevated pb-16 pt-8 lg:pb-24 lg:pt-12">
             <div className="mx-auto max-w-7xl px-5 md:px-8">
-                <div className="grid items-center gap-10 lg:grid-cols-12">
+                <div className="grid items-start gap-10 lg:grid-cols-12">
                     <div className="lg:col-span-7">
                         <span className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-[0.7rem] font-bold uppercase tracking-wide text-accent-fg">
                             <Ikon ad="yildirim" className="h-3.5 w-3.5" />
@@ -77,6 +79,11 @@ export function Hero({ site }: { site: SiteIcerik }) {
                                     ) : (
                                         <a href={`mailto:${site.eposta}`} className="block font-display text-xl font-black leading-tight text-primary">
                                             {site.eposta}
+                                        </a>
+                                    )}
+                                    {digerHat && (
+                                        <a href={`tel:${digerHat.telefon}`} className="mt-1 block font-display text-lg font-bold text-fg">
+                                            {digerHat.telefonGosterim}
                                         </a>
                                     )}
                                 </div>

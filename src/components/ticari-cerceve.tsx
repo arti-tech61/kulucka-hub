@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
+import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 
 function siteGorunumu(site: SiteIcerik) {
@@ -143,6 +144,7 @@ export function TicariGorsel({ site }: { site: SiteIcerik }) {
 export function TicariTeklif({ site }: { site: SiteIcerik }) {
     const gorunum = siteGorunumu(site);
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
+    const digerHat = ikinciTelefon(site);
     return (
         <section className="relative overflow-hidden rounded-[2rem] bg-slate-950 px-6 py-12 text-center text-white shadow-2xl shadow-slate-950/20 sm:px-10">
             <div className="absolute -left-20 -top-24 size-72 rounded-full bg-blue-600/30 blur-3xl" />
@@ -162,6 +164,11 @@ export function TicariTeklif({ site }: { site: SiteIcerik }) {
                 {!bilgiSitesi && (
                     <a href={`tel:${site.telefon}`} className={`rounded-full px-6 py-3 font-black transition ${gorunum.buton}`}>
                         Ara · {site.telefonGosterim}
+                    </a>
+                )}
+                {!bilgiSitesi && digerHat && (
+                    <a href={`tel:${digerHat.telefon}`} className="rounded-full border border-white/40 px-6 py-3 font-bold text-white transition hover:bg-white/10">
+                        Ara · {digerHat.telefonGosterim}
                     </a>
                 )}
                 <a href={`mailto:${site.eposta}`} className="rounded-full border border-white/40 px-6 py-3 font-bold text-white transition hover:bg-white/10">

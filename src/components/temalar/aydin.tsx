@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
+import { ikinciTelefon } from "@/lib/siteler";
 import type { TemaModulu } from "./tipler";
 import { TemaForm } from "./tema-form";
 
@@ -257,6 +258,15 @@ function AydinIletisim({ site }: { site: SiteIcerik }) {
                                         <p className={`${hy} text-xl group-hover:text-[#FBBF24] transition-colors`}>{site.telefonGosterim}</p>
                                     </div>
                                 </a>
+                                {ikinciTelefon(site) && (
+                                    <a href={`tel:${ikinciTelefon(site)!.telefon}`} className="flex items-start gap-4 group">
+                                        <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.phone} className="w-5 h-5 text-[#FBBF24]" /></div>
+                                        <div>
+                                            <p className="text-[12px] uppercase text-[#dce2f7]">Telefon (2. Hat)</p>
+                                            <p className={`${hy} text-xl group-hover:text-[#FBBF24] transition-colors`}>{ikinciTelefon(site)!.telefonGosterim}</p>
+                                        </div>
+                                    </a>
+                                )}
                                 <a href={`mailto:${site.eposta}`} className="flex items-start gap-4 group">
                                     <div className="bg-[#FBBF24]/20 p-2 rounded"><Ikon d={IK.mail} className="w-5 h-5 text-[#FBBF24]" /></div>
                                     <div>

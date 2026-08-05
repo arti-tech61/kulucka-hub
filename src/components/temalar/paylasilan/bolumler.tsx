@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { SiteIcerik } from "@/lib/siteler";
+import { ikinciTelefon } from "@/lib/siteler";
 import { urunKatalogu } from "@/lib/urun-katalogu";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon } from "./ikonlar";
@@ -29,6 +30,10 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
                     </article>
                 ))}
             </div>
+            <a href="/urunler" className="mt-8 inline-flex items-center gap-2 font-bold text-accent hover:text-accent-hover">
+                Tüm makine kategorilerini görün
+                <Ikon ad="ok" className="h-4 w-4" />
+            </a>
         </section>
     );
 }
@@ -48,7 +53,7 @@ export function UrunlerBolumu({ site }: { site: SiteIcerik }) {
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {urunKatalogu.map((urun) => (
-                    <a key={urun.ad} href={`/${urun.slug}`} className="group overflow-hidden rounded-2xl border border-border bg-elevated">
+                    <a key={urun.ad} id={urun.slug} href={`/urunler#${urun.slug}`} className="group scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-elevated">
                         {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
                             object-contain + sabit yükseklikli nötr zemin, hiçbir görseli kırpmadan
                             tam sığdırır. */}
@@ -98,8 +103,10 @@ export function BolgeBolumu({ site }: { site: SiteIcerik }) {
 
 export function IletisimKarti({ site }: { site: SiteIcerik }) {
     const bolgeler = site.bolge.split(",").map((s) => s.trim());
+    const digerHat = ikinciTelefon(site);
     const kartlar: [string, "telefon" | "posta" | "konum", string, string][] = [
         ...(site.telefon ? ([["Telefon", "telefon", site.telefonGosterim, `tel:${site.telefon}`]] as [string, "telefon" | "posta" | "konum", string, string][]) : []),
+        ...(digerHat ? ([["Telefon (2. Hat)", "telefon", digerHat.telefonGosterim, `tel:${digerHat.telefon}`]] as [string, "telefon" | "posta" | "konum", string, string][]) : []),
         ["E-posta", "posta", site.eposta, `mailto:${site.eposta}`],
         ["Bölge", "konum", site.bolge, "#"],
     ];

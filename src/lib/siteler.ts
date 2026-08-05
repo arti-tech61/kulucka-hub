@@ -702,8 +702,8 @@ export const siteler: SiteIcerik[] = [
         hizmetler: ["Makaslı platform kiralama (8-22 m)", "Eklemli ve teleskopik platform kiralama (16-43 m)", "Liman ve tersane çalışmalarına uygun ekipman", "Günlük ve proje bazlı kiralama", "Nakliye ve İSG evrak organizasyonu"],
         anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
         bolge: "Bandırma, Erdek, Gönen, Biga",
-        telefon: "+905331728943",
-        telefonGosterim: "0533 172 89 43",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
         eposta: "kiralama@artiplatform.com.tr",
         uzmanlik: "liman, tersane, enerji ve fabrika bakım sahaları",
     },
@@ -1829,4 +1829,17 @@ for (const site of siteler) {
 export function hostIcinSite(host: string): SiteIcerik | undefined {
     const temiz = host.toLowerCase().replace(/^www\./, "").split(":")[0];
     return siteler.find((s) => s.host === temiz);
+}
+
+// Artı Platform'un iki sabit hattı. Her site tek birini `telefon` alanında
+// birincil olarak kullanır; bu fonksiyon diğerini ikincil hat olarak döner
+// (yalnızca gerçek Artı Platform siteleri için — haber siteleri, Simya Reklam
+// ve bilgi yayınları (Platform Akademisi) kendi iletişim kanallarını kullanır).
+const ARTI_HAT_A = { telefon: "+905305518961", gosterim: "0530 551 89 61" };
+const ARTI_HAT_B = { telefon: "+905321728943", gosterim: "0532 172 89 43" };
+
+export function ikinciTelefon(site: SiteIcerik): { telefon: string; telefonGosterim: string } | undefined {
+    if (site.telefon === ARTI_HAT_A.telefon) return { telefon: ARTI_HAT_B.telefon, telefonGosterim: ARTI_HAT_B.gosterim };
+    if (site.telefon === ARTI_HAT_B.telefon) return { telefon: ARTI_HAT_A.telefon, telefonGosterim: ARTI_HAT_A.gosterim };
+    return undefined;
 }

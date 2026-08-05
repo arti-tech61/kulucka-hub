@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
+import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 import type { TemaModulu } from "./tipler";
 import { ManisaTeklifForm } from "./platformmanisa-form";
@@ -89,7 +90,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                     </div>
                     <div className="flex flex-col gap-3">
                         <h4 className={`text-white ${caps} mb-2`}>İletişim</h4>
-                        <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a>
+                        <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a>{ikinciTelefon(site) && (<a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2 mt-2" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a>)}
                         <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a>
                     </div>
                     <div className="md:col-span-4 mt-4 pt-8 border-t border-white/10 text-center">
