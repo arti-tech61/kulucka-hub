@@ -1074,4 +1074,23 @@ export const paylasilanTemaKonfigleri: Record<string, PaylasilanTemaConfig> = {
             border: "#e5e7eb",
         },
     },
+
+    // 2026-08-06'da fark edildi: siteler.ts'te tanımlıydı ama bu config'e hiç
+    // eklenmemişti — TicariCerceve varsayılan çerçevesine düşüyorlardı, paylaşımlı
+    // temaya hiç taşınmamışlardı.
+    "bandirmamanlift.net": {
+        markaAdi: "Bandırma Manlift",
+        logoUrl: "/media/logolar/4.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#0e7490", accentHover: "#0c6178", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "platformakademisi.com": {
+        markaAdi: "Platform Akademisi",
+        logoUrl: "/media/logolar/9.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#7c3aed", accentHover: "#6926d9", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "yuksektecalismarehberi.com": {
+        markaAdi: "Yükseklikte Çalışma Rehberi",
+        logoUrl: "/media/logolar/13.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#b91c1c", accentHover: "#9f1717", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
 };
