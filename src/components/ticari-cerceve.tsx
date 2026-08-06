@@ -51,8 +51,9 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
     const gorunum = siteGorunumu(site);
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     const blogVar = hostBloglari(site.host).length > 0;
-    // Tema rengine göre Artı Platform logosu (eğitim→yeşil, diğer→mavi; forklift/amber ileride eklenecek)
-    const logo = site.kategori === "egitim" || site.kategori === "rehber" ? "/media/logo/4.png" : "/media/logo/logo.png";
+    // Bilgi siteleri (eğitim/rehber) kasıtlı olarak Artı Platform'dan bağımsız
+    // görünür (backlink/SEO amaçlı ayrı marka kimliği) — logo göstermiyoruz.
+    const logo = bilgiSitesi ? undefined : "/media/logo/logo.png";
     const ilkIcerik = site.kategori === "egitim"
         ? "/myk-operator-belgesi"
         : "/rehber/platform-tipi-secim-rehberi";
@@ -68,8 +69,12 @@ export function TicariBaslik({ site }: { site: SiteIcerik }) {
             </div>
             <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4 sm:px-8">
                 <Link href="/" className="group flex min-w-0 items-center gap-3">
-                    <Image src={logo} alt={`${site.anaSite.ad} logosu`} width={116} height={52} priority className="h-10 w-auto shrink-0 drop-shadow-md" />
-                    <span aria-hidden="true" className="h-8 w-px shrink-0 bg-white/15" />
+                    {logo ? (
+                        <>
+                            <Image src={logo} alt={`${site.anaSite.ad} logosu`} width={116} height={52} priority className="h-10 w-auto shrink-0 drop-shadow-md" />
+                            <span aria-hidden="true" className="h-8 w-px shrink-0 bg-white/15" />
+                        </>
+                    ) : null}
                     <span className="min-w-0">
                         <span className="block truncate text-base font-black tracking-tight text-white">{site.h1}</span>
                         <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-400">
