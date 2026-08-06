@@ -30,7 +30,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
         const bolgeler = site.bolge.split(",").map((s) => s.trim());
         return (
             <div>
-                <section className="mx-auto grid max-w-7xl gap-10 px-6 pt-16 md:grid-cols-2 md:px-8 md:pt-20">
+                <section className="mx-auto grid max-w-7xl gap-10 px-6 pt-10 md:grid-cols-2 md:px-8 md:pt-12">
                     <div>
                         <p className="text-xs font-black uppercase tracking-[0.2em] text-accent">Hakkımızda</p>
                         <h1 className="mt-3 font-display text-[36px] font-bold text-fg md:text-[44px]">{site.h1}</h1>
@@ -41,7 +41,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
                     </div>
                 </section>
 
-                <section className="mx-auto max-w-7xl px-6 py-16 md:px-8">
+                <section className="mx-auto max-w-7xl px-6 py-10 md:px-8">
                     <div className="grid gap-6 md:grid-cols-3">
                         {site.paragraflar.slice(1, 3).map((p, i) => (
                             <div key={p} className="overflow-hidden rounded-2xl bg-elevated md:col-span-1">
@@ -71,7 +71,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
                     </div>
                 </section>
 
-                <section className="mx-auto max-w-7xl px-6 pb-16 md:px-8">
+                <section className="mx-auto max-w-7xl px-6 pb-10 md:px-8">
                     <div className="grid gap-5 md:grid-cols-2">
                         {site.hizmetler.slice(0, 4).map((h) => (
                             <div key={h} className="flex items-start gap-4 rounded-2xl border border-border bg-elevated p-6">
@@ -84,7 +84,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
                     </div>
                 </section>
 
-                <section className="mx-auto max-w-7xl px-6 pb-20 md:px-8">
+                <section className="mx-auto max-w-7xl px-6 pb-12 md:px-8">
                     <div className="flex flex-wrap items-center justify-between gap-6 rounded-2xl bg-primary p-8 text-bg md:p-12">
                         <div>
                             <h2 className="font-display text-[26px] font-bold">Doğru Makineyi Birlikte Seçelim</h2>
@@ -107,7 +107,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
     function Iletisim({ site }: { site: SiteIcerik }) {
         return (
             <div>
-                <div className="mx-auto max-w-7xl px-6 pt-16 md:px-8">
+                <div className="mx-auto max-w-7xl px-6 pt-10 md:px-8">
                     <h1 className="font-display text-[36px] font-bold text-fg md:text-[44px]">İletişim</h1>
                     <p className="mt-3 text-muted">{site.bolge} bölgesinde saha bilgilerinizi paylaşın, yazılı teklif hazırlayalım.</p>
                 </div>
@@ -119,7 +119,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
     function Urunler({ site }: { site: SiteIcerik }) {
         return (
             <div>
-                <div className="mx-auto max-w-7xl px-6 pt-16 md:px-8">
+                <div className="mx-auto max-w-7xl px-6 pt-10 md:px-8">
                     <h1 className="font-display text-[36px] font-bold text-fg md:text-[44px]">Ürünlerimiz</h1>
                     <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine sınıfını birlikte belirliyoruz.</p>
                 </div>

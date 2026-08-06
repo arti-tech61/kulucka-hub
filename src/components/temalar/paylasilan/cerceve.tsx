@@ -6,6 +6,7 @@ import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 import { PaylasilanTemaStil } from "./tema-css";
+import { MobilMenu } from "./mobil-menu";
 
 const nav: [string, string][] = [
     ["/", "Ana Sayfa"],
@@ -29,7 +30,7 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                 {/* eslint-disable-next-line @next/next/no-page-custom-font */}
                 <link rel="stylesheet" href={fontHref} />
                 <header className="sticky top-0 z-50 border-b border-border bg-bg/90 backdrop-blur-md">
-                    <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
+                    <div className="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
                         <a href="/" className="flex items-center gap-2">
                             {config.logoUrl ? (
                                 <Image src={config.logoUrl} alt={`${config.markaAdi} logosu`} width={200} height={60} className="h-12 w-auto object-contain" priority />
@@ -50,9 +51,12 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                                 </a>
                             ))}
                         </nav>
-                        <a href="/iletisim" className="rounded-[8px] bg-accent px-5 py-3 font-bold text-accent-fg transition-colors hover:bg-accent-hover">
-                            Teklif Alın
-                        </a>
+                        <div className="flex items-center gap-2">
+                            <a href="/iletisim" className="rounded-[8px] bg-accent px-4 py-2.5 text-sm font-bold text-accent-fg transition-colors hover:bg-accent-hover md:px-5 md:py-3 md:text-base">
+                                Teklif Alın
+                            </a>
+                            <MobilMenu nav={nav} aktif={aktif} />
+                        </div>
                     </div>
                 </header>
 
