@@ -1,18 +1,24 @@
 "use client";
 
 import { useState } from "react";
+import { teklifGonder } from "@/lib/teklif-gonder";
 
-// manisaforklift.com İletişim ekranının birebir "Send a Request" formu → mailto.
+// manisaforklift.com İletişim ekranının birebir "Send a Request" formu → /api/teklif (Resend), hata olursa mailto.
 export function ForkliftTalepForm({ eposta }: { eposta: string }) {
     const [g, setG] = useState({ ad: "", firma: "", email: "", tel: "", hizmet: "Filo Kiralama", mesaj: "" });
+    const [durum, setDurum] = useState<"bos" | "gonderiliyor" | "tamam">("bos");
     const alan = "w-full bg-white border border-[#d3c5ac] rounded-lg px-4 py-3 text-[#191c1e] focus:outline-none focus:ring-2 focus:ring-[#FBBF24] transition-all";
     const etiket = "block font-['Inter'] text-[12px] text-[#4f4633] mb-2";
 
-    function gonder(e: React.FormEvent) {
+    async function gonder(e: React.FormEvent) {
         e.preventDefault();
         const govde = `Ad Soyad: ${g.ad}\nFirma: ${g.firma}\nE-posta: ${g.email}\nTelefon: ${g.tel}\nHizmet: ${g.hizmet}\n\nMesaj:\n${g.mesaj}`;
-        window.location.href = `mailto:${eposta}?subject=${encodeURIComponent("Talep — Manisa Forklift")}&body=${encodeURIComponent(govde)}`;
+        setDurum("gonderiliyor");
+        const basarili = await teklifGonder(eposta, "Talep — Manisa Forklift", govde);
+        setDurum(basarili ? "tamam" : "bos");
     }
+
+    if (durum === "tamam") return <p className={etiket}>Talebiniz alındı, en kısa sürede dönüş yapacağız.</p>;
 
     return (
         <form className="space-y-6" onSubmit={gonder}>
@@ -30,7 +36,7 @@ export function ForkliftTalepForm({ eposta }: { eposta: string }) {
                 </select>
             </div>
             <div><label className={etiket}>Mesaj</label><textarea className={`${alan} resize-none`} rows={5} placeholder="Lojistik ihtiyacınızı açıklayın..." value={g.mesaj} onChange={(e) => setG({ ...g, mesaj: e.target.value })} /></div>
-            <button className="w-full md:w-auto bg-[#FBBF24] text-black font-semibold px-8 py-4 rounded-lg hover:brightness-95 transition-all shadow-sm flex items-center justify-center gap-2" type="submit">Talep Gönder →</button>
+            <button className="w-full md:w-auto bg-[#FBBF24] text-black font-semibold px-8 py-4 rounded-lg hover:brightness-95 transition-all shadow-sm flex items-center justify-center gap-2" type="submit" disabled={durum === "gonderiliyor"}>{durum === "gonderiliyor" ? "Gönderiliyor…" : "Talep Gönder →"}</button>
         </form>
     );
 }

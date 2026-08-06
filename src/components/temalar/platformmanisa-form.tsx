@@ -1,18 +1,24 @@
 "use client";
 
 import { useState } from "react";
+import { teklifGonder } from "@/lib/teklif-gonder";
 
-// platformmanisa.com İletişim ekranının birebir form alanları → mailto.
+// platformmanisa.com İletişim ekranının birebir form alanları → /api/teklif (Resend), hata olursa mailto.
 export function ManisaTeklifForm({ eposta, opsiyonlar }: { eposta: string; opsiyonlar: string[] }) {
     const [g, setG] = useState({ ad: "", tel: "", firma: "", lokasyon: "", yukseklik: "", mesaj: "" });
+    const [durum, setDurum] = useState<"bos" | "gonderiliyor" | "tamam">("bos");
     const alan = "w-full bg-[#323537] border border-[#434656] rounded-lg px-4 py-3 text-[#e0e3e5] placeholder-[#c4c5d9]/50 focus:border-[#b8c4ff] focus:ring-1 focus:ring-[#b8c4ff] transition-colors outline-none";
     const etiket = "block font-['JetBrains_Mono'] text-[12px] tracking-[0.1em] uppercase font-semibold text-[#c4c5d9] mb-2";
 
-    function gonder(e: React.FormEvent) {
+    async function gonder(e: React.FormEvent) {
         e.preventDefault();
         const govde = `Ad Soyad: ${g.ad}\nTelefon: ${g.tel}\nFirma: ${g.firma}\nProje Lokasyonu: ${g.lokasyon}\nÇalışma Yüksekliği: ${g.yukseklik}\n\nEk Detaylar:\n${g.mesaj}`;
-        window.location.href = `mailto:${eposta}?subject=${encodeURIComponent("Teklif Talebi — Manisa Platform")}&body=${encodeURIComponent(govde)}`;
+        setDurum("gonderiliyor");
+        const basarili = await teklifGonder(eposta, "Teklif Talebi — Manisa Platform", govde);
+        setDurum(basarili ? "tamam" : "bos");
     }
+
+    if (durum === "tamam") return <p className={etiket}>Teklif talebiniz alındı, en kısa sürede dönüş yapacağız.</p>;
 
     return (
         <form className="space-y-6" onSubmit={gonder}>
@@ -37,7 +43,7 @@ export function ManisaTeklifForm({ eposta, opsiyonlar }: { eposta: string; opsiy
                 </div>
             </div>
             <div><label className={etiket}>Ek Detaylar (Opsiyonel)</label><textarea className={`${alan} resize-none`} rows={3} placeholder="Projenizle ilgili belirtmek istediğiniz diğer detaylar..." value={g.mesaj} onChange={(e) => setG({ ...g, mesaj: e.target.value })} /></div>
-            <button className="w-full bg-[#b8c4ff] text-[#002486] font-bold py-4 rounded-lg flex items-center justify-center gap-2 hover:bg-[#b8c4ff]/90 transition-all shadow-lg" type="submit">Teklif İste →</button>
+            <button className="w-full bg-[#b8c4ff] text-[#002486] font-bold py-4 rounded-lg flex items-center justify-center gap-2 hover:bg-[#b8c4ff]/90 transition-all shadow-lg" type="submit" disabled={durum === "gonderiliyor"}>{durum === "gonderiliyor" ? "Gönderiliyor…" : "Teklif İste →"}</button>
         </form>
     );
 }

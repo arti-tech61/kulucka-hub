@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { teklifGonder } from "@/lib/teklif-gonder";
 
 export interface TemaFormClass {
     alan: string;      // input/select/textarea ortak
@@ -9,7 +10,7 @@ export interface TemaFormClass {
     izgara?: string;   // ad+telefon satırı grid
 }
 
-// Yeniden kullanılabilir teklif formu — backend gerektirmez, mailto ile gönderir.
+// Yeniden kullanılabilir teklif formu — /api/teklif üzerinden Resend ile gönderir, hata olursa mailto'ya düşer.
 export function TemaForm({
     eposta,
     konu,
@@ -22,15 +23,22 @@ export function TemaForm({
     cls: TemaFormClass;
 }) {
     const [g, setG] = useState({ ad: "", tel: "", bolge: opsiyonlar[0] ?? "", ozet: "" });
+    const [durum, setDurum] = useState<"bos" | "gonderiliyor" | "tamam" | "hata">("bos");
 
-    function gonder(e: React.FormEvent) {
+    async function gonder(e: React.FormEvent) {
         e.preventDefault();
         const govde =
             `Ad Soyad: ${g.ad}\n` +
             `Telefon: ${g.tel}\n` +
             `Hizmet Bölgesi: ${g.bolge}\n\n` +
             `İş Özeti:\n${g.ozet}`;
-        window.location.href = `mailto:${eposta}?subject=${encodeURIComponent(konu)}&body=${encodeURIComponent(govde)}`;
+        setDurum("gonderiliyor");
+        const basarili = await teklifGonder(eposta, konu, govde);
+        setDurum(basarili ? "tamam" : "hata");
+    }
+
+    if (durum === "tamam") {
+        return <p className={cls.etiket}>Teklif talebiniz alındı, en kısa sürede size dönüş yapacağız.</p>;
     }
 
     return (
@@ -58,7 +66,10 @@ export function TemaForm({
                 <label className={cls.etiket}>İş Özeti (Yükseklik, Zemin vb.)</label>
                 <textarea className={cls.alan} rows={4} value={g.ozet} onChange={(e) => setG({ ...g, ozet: e.target.value })} />
             </div>
-            <button className={cls.buton} type="submit">Teklifi Gönder</button>
+            <button className={cls.buton} type="submit" disabled={durum === "gonderiliyor"}>
+                {durum === "gonderiliyor" ? "Gönderiliyor…" : "Teklifi Gönder"}
+            </button>
+            {durum === "hata" && <p className="text-sm text-red-500">Otomatik gönderim başarısız oldu, e-posta uygulamanız açıldı.</p>}
         </form>
     );
 }
