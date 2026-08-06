@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { bolgeSayfalari, bolgeSayfasiBul } from "@/lib/bolge-sayfalari";
-import { paylasilanTemaKonfigleri } from "@/lib/paylasilan-tema-konfig";
 import { GaEtiketi } from "@/components/ga";
 import { TicariTeklif } from "@/components/ticari-cerceve";
 import { Kabuk } from "@/components/temalar";
@@ -23,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const host = await aktifHost();
     const { slug } = await params;
     const site = hostIcinSite(host);
-    if (!site || !(host in paylasilanTemaKonfigleri)) return {};
+    if (!site) return {};
     const bolge = bolgeSayfasiBul(site, slug);
     if (!bolge) return {};
     const canonical = `https://${host}/bolge/${slug}`;
@@ -40,7 +39,6 @@ export default async function BolgeSayfasi({ params }: { params: Promise<{ slug:
     const { slug } = await params;
     const site = hostIcinSite(host);
     if (!site) notFound();
-    if (!(host in paylasilanTemaKonfigleri)) notFound();
     const bolge = bolgeSayfasiBul(site, slug);
     if (!bolge) notFound();
 

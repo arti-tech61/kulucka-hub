@@ -56,9 +56,9 @@ export async function GET(istek: Request) {
                 for (const urun of urunKatalogu) {
                     urller.push({ loc: `https://${site.host}/urunler/${urun.slug}`, lastmod: bugun });
                 }
-                for (const bolge of bolgeSayfalari(site)) {
-                    urller.push({ loc: `https://${site.host}/bolge/${bolge.slug}`, lastmod: bugun });
-                }
+            }
+            for (const bolge of bolgeSayfalari(site)) {
+                urller.push({ loc: `https://${site.host}/bolge/${bolge.slug}`, lastmod: bugun });
             }
             const bloglar = hostBloglari(site.host).length > 0 ? hostBloglari(site.host) : paylasilanBlogYazilari(site);
             if (bloglar.length > 0) {
