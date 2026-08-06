@@ -11,17 +11,13 @@ import { hizmetKonusuBul } from "@/lib/hizmet-konulari";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 
-// Kutu hover'ında soldan sağa dolan tema-renkli "sweep" efekti — ::before ile
-// arka planı doldururken metin de accent-fg'ye geçer (bkz. renkler.ts accentFg,
-// her domain için elle kontrast-güvenli seçilmiş kontrast rengi — bu sayede
-// dolgu her zaman okunabilir kalır, kontrast riski taşımaz).
+// Kutu hover'ında doğrudan (kaymasız) tema-renkli dolgu — metin de aynı anda
+// accent-fg'ye geçer (bkz. renkler.ts accentFg, her domain için elle
+// kontrast-güvenli seçilmiş kontrast rengi — dolgu her zaman okunabilir kalır).
 const KART_SWEEP =
-    "group relative isolate overflow-hidden transition-colors duration-500 motion-reduce:transition-none " +
-    "before:absolute before:inset-0 before:-z-10 before:origin-left before:scale-x-0 before:bg-accent before:content-[''] " +
-    "before:transition-transform before:duration-500 before:ease-out motion-reduce:before:transition-none " +
-    "hover:before:scale-x-100 focus-visible:before:scale-x-100";
-const KART_METIN = "transition-colors duration-500 motion-reduce:transition-none group-hover:text-accent-fg group-focus-visible:text-accent-fg";
-const KART_METIN_SOLUK = "transition-colors duration-500 motion-reduce:transition-none group-hover:text-accent-fg/80 group-focus-visible:text-accent-fg/80";
+    "group transition-colors duration-150 motion-reduce:transition-none hover:bg-accent focus-visible:bg-accent";
+const KART_METIN = "transition-colors duration-150 motion-reduce:transition-none group-hover:text-accent-fg group-focus-visible:text-accent-fg";
+const KART_METIN_SOLUK = "transition-colors duration-150 motion-reduce:transition-none group-hover:text-accent-fg/80 group-focus-visible:text-accent-fg/80";
 
 // Google Drive "İş resimleri" klasöründen indirilen gerçek Artı Platform saha
 // fotoğrafları (bkz. public/media/isler/) — anahtar kelime eşleştirmesiyle her
@@ -81,7 +77,7 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
                     const gorsel = hizmetGorseli(h, kullanilanlar);
                     const konu = hizmetKonusuBul(h);
                     return (
-                        <Link key={h} href={`/hizmet/${konu.slug}`} className={`block rounded-2xl bg-elevated ${KART_SWEEP}`}>
+                        <Link key={h} href={`/hizmet/${konu.slug}`} className={`block overflow-hidden rounded-2xl bg-elevated ${KART_SWEEP}`}>
                             <div className="relative aspect-[4/3] w-full overflow-hidden bg-bg">
                                 <Image src={gorsel.src} alt={gorsel.alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
                             </div>
@@ -130,7 +126,7 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {gosterilecekler.map((urun) => (
-                    <a key={urun.ad} id={urun.slug} href={`/urunler/${urun.slug}`} className={`scroll-mt-24 rounded-2xl border border-border bg-elevated ${KART_SWEEP}`}>
+                    <a key={urun.ad} id={urun.slug} href={`/urunler/${urun.slug}`} className={`scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-elevated ${KART_SWEEP}`}>
                         {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
                             object-contain + sabit yükseklikli nötr zemin, hiçbir görseli kırpmadan
                             tam sığdırır. */}
