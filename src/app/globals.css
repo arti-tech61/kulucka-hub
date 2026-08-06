@@ -10,9 +10,9 @@
 :root {
     --color-primary: #0a1525;
     --color-primary-light: #16233a;
-    --color-accent: #ccff00;
-    --color-accent-hover: #b3e600;
-    --color-accent-fg: #0a1525;
+    --color-accent: #2563eb;
+    --color-accent-hover: #1d4ed8;
+    --color-accent-fg: #ffffff;
     --color-bg: #ffffff;
     --color-fg: #0a1525;
     --color-muted: #6b7280;
