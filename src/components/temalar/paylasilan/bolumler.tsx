@@ -3,6 +3,9 @@ import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { urunKatalogu } from "@/lib/urun-katalogu";
 import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
+import { hostBloglari } from "@/lib/blog";
+import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
+import { anahtarKelimeSayfalari } from "@/lib/anahtar-kelime-sayfalari";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 
@@ -229,11 +232,49 @@ export function MetinSayfasi({ site, baslik }: { site: SiteIcerik; baslik: strin
     );
 }
 
+// Google'ın "Yerel haberler" kart ızgarasına benzer, kompakt 3x5 blog kartı
+// ızgarası — Hizmet Bölgelerimiz'in hemen üstünde, ana sayfada blog trafiğine
+// iç link sağlar.
+export function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const bespoke = hostBloglari(site.host);
+    const yazilar = (bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)]).slice(0, 15);
+    if (yazilar.length === 0) return null;
+    return (
+        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+                <div>
+                    <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Blog&apos;dan Öne Çıkanlar</h2>
+                    <p className="mt-3 text-muted">Makine seçimi, saha uygulaması ve maliyet üzerine güncel rehberler.</p>
+                </div>
+                <a href="/blog" className="inline-flex items-center gap-2 font-bold text-accent hover:text-accent-hover">
+                    Tüm yazıları görün
+                    <Ikon ad="ok" className="h-4 w-4" />
+                </a>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {yazilar.map((y) => (
+                    <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-xl border border-border bg-elevated p-3 transition hover:border-accent">
+                        <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-bg">
+                            <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
+                        </div>
+                        <div className="min-w-0">
+                            <span className="text-[11px] font-bold uppercase tracking-wide text-accent">{y.kategori}</span>
+                            <p className="mt-0.5 line-clamp-2 text-sm font-bold leading-snug text-fg group-hover:text-accent">{y.baslik}</p>
+                            <span className="mt-1 block text-xs text-muted">{y.okuma} dk okuma</span>
+                        </div>
+                    </a>
+                ))}
+            </div>
+        </section>
+    );
+}
+
 export function AnaSayfaGovde({ site }: { site: SiteIcerik }) {
     return (
         <>
             <UrunlerBolumu site={site} />
             <HizmetlerBolumu site={site} />
+            <BlogOneCikanlar site={site} />
             <BolgeBolumu site={site} />
             <IletisimKarti site={site} />
         </>
