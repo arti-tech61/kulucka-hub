@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { tumBloglar } from "@/lib/tum-bloglar";
 import Link from "next/link";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
@@ -251,7 +252,7 @@ export function MetinSayfasi({ site, baslik }: { site: SiteIcerik; baslik: strin
 // iç link sağlar.
 export function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
     const bespoke = hostBloglari(site.host);
-    const yazilar = (bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)]).slice(0, 15);
+    const yazilar = tumBloglar(site).slice(0, 15);
     if (yazilar.length === 0) return null;
     return (
         <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">

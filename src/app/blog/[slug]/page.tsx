@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { tumBloglar } from "@/lib/tum-bloglar";
 import Image from "next/image";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
@@ -22,7 +23,7 @@ function hostVeSiteBloglari(host: string) {
     const site = hostIcinSite(host);
     if (!site) return { site: undefined, yazilar: [] as ReturnType<typeof paylasilanBlogYazilari> };
     const bespoke = hostBloglari(host);
-    return { site, yazilar: bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)] };
+    return { site, yazilar: tumBloglar(site) };
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

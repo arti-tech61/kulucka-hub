@@ -1,4 +1,5 @@
 import { hostIcinSite } from "@/lib/siteler";
+import { tumBloglar } from "@/lib/tum-bloglar";
 import { hostIcinHazirlananSite } from "@/lib/hazirlanan-siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { hostBloglari } from "@/lib/blog";
@@ -90,7 +91,7 @@ export async function GET(istek: Request) {
                     urller.push({ loc: `https://${site.host}/sozluk/${t.slug}`, lastmod: bugun });
                 }
             }
-            const bloglar = hostBloglari(site.host).length > 0 ? hostBloglari(site.host) : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)];
+            const bloglar = tumBloglar(site);
             if (bloglar.length > 0) {
                 urller.push({ loc: `https://${site.host}/blog`, lastmod: bugun });
                 for (const y of bloglar) {

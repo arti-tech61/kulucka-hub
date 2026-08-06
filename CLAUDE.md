@@ -90,6 +90,8 @@ npm run kontrol:icerik
 | 2026-08-06 | sözlük domain bağlamı | %5.6 ✅ |
 | 2026-08-06 | marka sayfaları | %12.8 ✅ |
 | 2026-08-06 | yükseklik sayfaları | %15.7 ✅ |
+| 2026-08-06 | bölgesel bloglar (havuz içi) | %2.4 ✅ |
+| 2026-08-06 | **bölgesel bloglar (aynı şablon, domainler arası)** | %32.1 → **%18.3** ✅ |
 
 ---
 
@@ -185,6 +187,30 @@ Bu dosyalarda metin değiştiriyorsanız Kural 1 mutlaka geçerlidir:
 | `src/lib/anahtar-kelime-sayfalari.ts` | ~420 | ✅ `cesitle()` |
 | `src/lib/urun-katalogu.ts` | ~2.125 | ✅ `urun-kategori-bilgi.ts` — çekirdek tanım korunur, domain bağlamı eklenir |
 | `src/lib/kurumsal-sayfalar.ts` | ~255 | ✅ `cesitle()` |
+| `src/lib/bolgesel-blog.ts` | ~1.416 | ✅ varyant + çift bağlam kuyruğu (aşağıya bak) |
+| `src/lib/tum-bloglar.ts` | (birleştirici) | Blog kaynaklarını slug'a göre tekilleştirir — bespoke önceliklidir |
+
+---
+
+## ⚠️ "Aynı şablon, farklı domain" ölçümü — ATLAMAYIN
+
+Havuz içi ölçüm (tüm sayfaları bir torbaya atıp karşılaştırmak) **yanıltıcıdır**.
+Bölgesel bloglar bu ölçümde %2,4 çıkarken, asıl kritik metrik olan *aynı
+şablonun 85 domaindeki çıktısının birbiriyle karşılaştırılması* %32,1'di.
+
+**Yeni bir çok-domainli şablon eklerken ölçmeniz gereken metrik budur:**
+şablon i'nin domain A çıktısı ile domain B çıktısı arasındaki 8-gram örtüşmesi.
+
+Bunu %20'nin altına indiren desen (`bolgesel-blog.ts` referans):
+1. Her paragraf havuzunda **en az 3-4 yapısal farklı seçenek** (85 domain / 4
+   seçenek ≈ 21 domain aynı gövdeyi alır — tek başına yetmez).
+2. Her paragrafa **iki ayrı bağlam kuyruğu** eklenir
+   (`BAGLAM_KUYRUGU` 15 + `BAGLAM_KUYRUGU_2` 14 = 210 kombinasyon). Kuyruk
+   cümleleri `{merkez}` `{uzm}` `{liste}` `{ilIfade}` gibi **domain verisi
+   taşır** — aynı kuyruğu alan iki domainin metni yine farklı çıkar.
+3. SSS cevaplarına da aynı kuyruklar eklenir; sabit cevap bırakılmaz.
+4. Kısa şablonlar (2 bölüm) örtüşmede dezavantajlıdır — gövde payı düşük
+   olduğu için 3. bir bölüm eklemek hem SEO derinliği hem farklılaşma sağlar.
 
 ---
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { tumBloglar } from "@/lib/tum-bloglar";
 import Image from "next/image";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
@@ -33,7 +34,7 @@ export default async function BlogListesi() {
     const site = hostIcinSite(host);
     if (!site) notFound();
     const bespoke = hostBloglari(host);
-    const yazilar = bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)];
+    const yazilar = tumBloglar(site);
 
     const BlogListe = temaModulu(host)?.BlogListe;
     if (BlogListe) {
