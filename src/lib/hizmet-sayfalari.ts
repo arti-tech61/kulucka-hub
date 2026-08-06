@@ -3,6 +3,7 @@
 // sitenin kendi bolge/uzmanlik/telefon verisiyle doldurulur → kopya içerik olmaz.
 import type { SiteIcerik } from "./siteler";
 import { urunKatalogu } from "./urun-katalogu";
+import { varyantSec, uzmanlikIfade, cevapOperator, cevapNakliye, cevapSure, cevapBelge } from "./varyant";
 import { HIZMET_KONULARI, hizmetKonusuSlugIle, type HizmetKonusu } from "./hizmet-konulari";
 
 export interface HizmetSayfasi {
@@ -35,26 +36,134 @@ function hizmetSayfasiUret(konu: HizmetKonusu, i: number, site: SiteIcerik): Hiz
     const urunSlug = URUN_DONGUSU[i % URUN_DONGUSU.length];
     const urun = urunKatalogu.find((u) => u.slug === urunSlug) ?? urunKatalogu[0];
     const eslesenHizmet = site.hizmetler.find((h) => konu.anahtarlar.some((a) => h.toLocaleLowerCase("tr-TR").includes(a)));
+    const konuAd = konu.baslikTaban;
+    const konuKucuk = konuAd.toLocaleLowerCase("tr-TR");
+    const uzm = uzmanlikIfade(site);
+    // Varyant tuzu konu slug'ını da içerir — aynı domainin 11 hizmet sayfası da birbirinden farklılaşır.
+    const t = (alan: string) => `hizmet-${konu.slug}-${alan}`;
+
     return {
         slug: konu.slug,
         konu,
-        baslik: `${bolge} ${konu.baslikTaban}`,
-        aciklama: `${bolge} bölgesinde ${konu.baslikTaban.toLocaleLowerCase("tr-TR")} — ${site.uzmanlik.toLocaleLowerCase("tr-TR")} kapsamında saha bilgisine göre doğru makine sınıfı ve yazılı teklif.`,
-        h1: `${bolge} Bölgesinde ${konu.baslikTaban}`,
+        baslik: varyantSec(site, t("baslik"), [
+            `${bolge} ${konuAd}`,
+            `${konuAd} — ${bolge}`,
+            `${bolge} Bölgesinde ${konuAd}`,
+            `Kiralık ${konuAd} | ${bolge}`,
+        ]),
+        aciklama: varyantSec(site, t("aciklama"), [
+            `${bolge} bölgesinde ${konuKucuk} — ${uzm} kapsamında saha bilgisine göre doğru makine sınıfı ve yazılı teklif.`,
+            `${konuAd} işleriniz için ${bolge} ve çevresine makine sağlıyoruz. Yükseklik, zemin ve süre bilgisiyle net teklif hazırlıyoruz.`,
+            `${bolge} sahalarında ${konuKucuk} kapsamında kiralık platform ve ekipman. ${site.telefonGosterim} numarasından saha bilgisi paylaşabilirsiniz.`,
+            `${uzm} deneyimiyle ${bolge} bölgesinde ${konuKucuk}: doğru sınıf seçimi, nakliye planı ve şeffaf fiyatlandırma.`,
+        ]),
+        h1: varyantSec(site, t("h1"), [
+            `${bolge} Bölgesinde ${konuAd}`,
+            `${bolge} İçin ${konuAd}`,
+            `${konuAd} — ${bolge} ve Çevresi`,
+        ]),
         giris: eslesenHizmet
-            ? `${bolge} sahalarında sık karşılaşılan bir iş tipi: ${eslesenHizmet.toLocaleLowerCase("tr-TR")}. Bu kapsamda ${site.uzmanlik.toLocaleLowerCase("tr-TR")} deneyimimizle doğru makine sınıfını ve yazılı teklifi birlikte belirliyoruz.`
-            : `${bolge} bölgesinde ${konu.baslikTaban.toLocaleLowerCase("tr-TR")} kapsamında ${site.uzmanlik.toLocaleLowerCase("tr-TR")} deneyimimizle doğru makine sınıfı ve yazılı teklif süreci sunuyoruz.`,
+            ? varyantSec(site, t("giris-e"), [
+                `${bolge} sahalarında sık karşılaşılan bir iş tipi: ${eslesenHizmet.toLocaleLowerCase("tr-TR")}. Bu kapsamda ${uzm} deneyimimizle doğru makine sınıfını ve yazılı teklifi birlikte belirliyoruz.`,
+                `${eslesenHizmet} işleri ${bolge} bölgesinde düzenli olarak yaptığımız uygulamalardan. Bu tip işlerde makine seçimini erişim geometrisi ve zemin koşulu belirler; ikisini de sahayı tanıyarak değerlendiriyoruz.`,
+                `${bolge} bölgesinde ${eslesenHizmet.toLocaleLowerCase("tr-TR")} talebi yoğun. ${uzm} kapsamındaki tecrübemizle, işin gerektirdiği yüksekliğe ve zemine uygun sınıfı öneriyor, gereksiz büyük makine maliyetinden kaçınmanızı sağlıyoruz.`,
+            ])
+            : varyantSec(site, t("giris-g"), [
+                `${bolge} bölgesinde ${konuKucuk} kapsamında ${uzm} deneyimimizle doğru makine sınıfı ve yazılı teklif süreci sunuyoruz.`,
+                `${konuAd} işleri için ${bolge} ve çevresine makine sağlıyoruz. Doğru sınıfı belirlemek için çalışma yüksekliği, zemin tipi ve erişim ölçülerini birlikte değerlendiriyoruz.`,
+                `${bolge} sahalarında ${konuKucuk} ihtiyacınıza uygun ekipmanı ${uzm} tecrübemizle seçiyoruz. Saha bilgisi paylaşıldığında sınıf ve bedel yazılı teklifte netleşir.`,
+            ]),
         maddeler: [
-            { baslik: "Saha tipi iş", metin: eslesenHizmet ?? `${bolge} bölgesinde ${konu.baslikTaban.toLocaleLowerCase("tr-TR")} ihtiyacı için makine parkımızdan uygun sınıf belirlenir.` },
-            { baslik: "Bölgeye yakın hizmet", metin: `${bolge} sahasına yakın konumlanma, teslimat süresini kısaltır; acil ihtiyaçlarda öncelikli planlama yapılabilir.` },
-            { baslik: "Doğru makine sınıfı", metin: `${konu.baslikTaban} işlerinde çalışma yüksekliği ve erişim geometrisine göre ${urun.ad.toLocaleLowerCase("tr-TR")} veya dengi bir sınıf değerlendirilir.` },
-            { baslik: "Yazılı teklif süreci", metin: "Çalışma yüksekliği, zemin, erişim ve süre bilgisi paylaşıldığında, uygun makine sınıfı ve kesin bedel yazılı teklifte netleşir." },
+            {
+                baslik: varyantSec(site, t("m1b"), ["Saha tipi iş", "İş kapsamı", "Uygulama alanı"]),
+                metin: eslesenHizmet ?? varyantSec(site, t("m1m"), [
+                    `${bolge} bölgesinde ${konuKucuk} ihtiyacı için makine parkımızdan uygun sınıf belirlenir.`,
+                    `${konuAd} kapsamındaki işlerde makine sınıfı, erişilecek yükseklik ve sahanın geometrisine göre seçilir.`,
+                    `Bu iş tipinde doğru makine, işin süresini ve güvenliğini doğrudan etkiler; ${bolge} sahalarındaki deneyimimizle sınıfı netleştiriyoruz.`,
+                ]),
+            },
+            {
+                baslik: varyantSec(site, t("m2b"), ["Bölgeye yakın hizmet", "Teslimat ve lojistik", "Sevkiyat planı"]),
+                metin: varyantSec(site, t("m2m"), [
+                    `${bolge} sahasına yakın konumlanma, teslimat süresini kısaltır; acil ihtiyaçlarda öncelikli planlama yapılabilir.`,
+                    `${bolge} hattındaki düzenli sevkiyatımız hem teslimat süresini hem nakliye maliyetini düşürür.`,
+                    `Makine parkımızın ${bolge} bölgesine mesafesi, plansız duruşlarda hızlı ikame imkânı sağlar.`,
+                ]),
+            },
+            {
+                baslik: varyantSec(site, t("m3b"), ["Doğru makine sınıfı", "Sınıf seçimi", "Önerilen ekipman"]),
+                metin: varyantSec(site, t("m3m"), [
+                    `${konuAd} işlerinde çalışma yüksekliği ve erişim geometrisine göre ${urun.ad.toLocaleLowerCase("tr-TR")} veya dengi bir sınıf değerlendirilir.`,
+                    `Bu kapsamdaki işlerde sık tercih edilen sınıflardan biri ${urun.ad.toLocaleLowerCase("tr-TR")}; kesin seçim sahanın zemin ve açıklık ölçülerine göre yapılır.`,
+                    `${urun.ad} bu iş tipinde yaygın kullanılan bir sınıftır, ancak hedef yükseklik ve engel durumuna göre bir alt veya üst sınıfa geçmek gerekebilir.`,
+                ]),
+            },
+            {
+                baslik: varyantSec(site, t("m4b"), ["Yazılı teklif süreci", "Teklif nasıl çıkar", "Fiyatlandırma"]),
+                metin: varyantSec(site, t("m4m"), [
+                    "Çalışma yüksekliği, zemin, erişim ve süre bilgisi paylaşıldığında, uygun makine sınıfı ve kesin bedel yazılı teklifte netleşir.",
+                    "Teklifi yazılı veriyoruz; makine, nakliye, operatör ve süre kalemleri ayrı ayrı görünür, sonradan sürpriz maliyet çıkmaz.",
+                    "Saha bilgisi netleştiğinde sınıf ve bedel kesinleşir. Fiyatı etkileyen kalemleri ayrıştırarak gösteriyoruz.",
+                ]),
+            },
         ],
         sss: [
-            { soru: `${bolge} bölgesinde ${konu.baslikTaban.toLocaleLowerCase("tr-TR")} için teslimat süresi ne kadar?`, cevap: "Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir." },
-            { soru: "Bu iş tipi için hangi makine sınıfı önerilir?", cevap: "Sahanın erişim geometrisi ve zemin koşuluna göre değişir; kesin sınıf saha bilgisiyle birlikte teklif aşamasında belirlenir." },
-            { soru: "Operatörlü mü operatörsüz mü kiralanabilir?", cevap: "Her iki seçenek de sunulur; operatörlü kiralamada yeterlilik belgesi ve tarih uygunluğu teklif aşamasında doğrulanır." },
-            { soru: "Nakliye bedeli fiyata dahil mi?", cevap: `${bolge} mesafesine göre değişir; dahil olup olmadığı yazılı teklifte ayrı kalem olarak belirtilir.` },
+            {
+                soru: varyantSec(site, t("s1q"), [
+                    `${bolge} bölgesinde ${konuKucuk} için teslimat süresi ne kadar?`,
+                    `${konuAd} için makine ne kadar sürede sahada olur?`,
+                    `Bu iş için ne kadar sürede teslimat yapabiliyorsunuz?`,
+                ]),
+                cevap: varyantSec(site, t("s1a"), [
+                    `Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir.`,
+                    `${bolge} hattına düzenli sevkiyatımız olduğu için teslimat genelde hızlıdır; kesin süreyi makine müsaitliği belirler.`,
+                    `Standart planlamada 1-2 iş günü; makine hazır ve nakliye aracı uygunsa aynı gün sevkiyat da mümkün olabilir.`,
+                ]),
+            },
+            {
+                soru: varyantSec(site, t("s2q"), [
+                    "Bu iş tipi için hangi makine sınıfı önerilir?",
+                    `${konuAd} işinde hangi platformu seçmeliyim?`,
+                    "Doğru makineyi nasıl belirliyorsunuz?",
+                ]),
+                cevap: varyantSec(site, t("s2a"), [
+                    "Sahanın erişim geometrisi ve zemin koşuluna göre değişir; kesin sınıf saha bilgisiyle birlikte teklif aşamasında belirlenir.",
+                    "Üç veriye bakıyoruz: ulaşılacak yükseklik, zeminin taşıma kapasitesi ve makinenin gireceği açıklık. Kapalı alanda akülü, engebeli sahada dizel 4x4 sınıf gerekir.",
+                    `${konuAd} işlerinde genelde ${urun.ad.toLocaleLowerCase("tr-TR")} sınıfı öne çıkıyor, ancak engel ve yükseklik durumuna göre sınıf değişebilir. Saha fotoğrafı paylaşırsanız daha net öneri veriyoruz.`,
+                ]),
+            },
+            {
+                soru: varyantSec(site, t("s3q"), [
+                    "Operatörlü mü operatörsüz mü kiralanabilir?",
+                    "Makineyi kendi ekibimiz kullanabilir mi?",
+                    "Operatör de sağlıyor musunuz?",
+                ]),
+                cevap: cevapOperator(site),
+            },
+            {
+                soru: varyantSec(site, t("s4q"), [
+                    "Nakliye bedeli fiyata dahil mi?",
+                    "Teslimat ücreti ayrı mı hesaplanıyor?",
+                    "Nakliye maliyeti nasıl belirleniyor?",
+                ]),
+                cevap: cevapNakliye(site),
+            },
+            {
+                soru: varyantSec(site, t("s5q"), [
+                    "Kiralama süresini nasıl belirlemeliyim?",
+                    "Günlük kiralama mümkün mü?",
+                    "Uzun süreli kiralamada avantaj var mı?",
+                ]),
+                cevap: cevapSure(site),
+            },
+            {
+                soru: varyantSec(site, t("s6q"), [
+                    "Periyodik kontrol belgesi veriliyor mu?",
+                    "İSG evrakları makineyle birlikte geliyor mu?",
+                    "Şantiye girişi için gereken belgeler sağlanıyor mu?",
+                ]),
+                cevap: cevapBelge(site),
+            },
         ],
         ilgiliUrun: { baslik: `${urun.ad} Kiralama`, slug: urun.slug },
     };
