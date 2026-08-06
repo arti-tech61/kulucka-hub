@@ -5,6 +5,7 @@ import { hostBloglari } from "@/lib/blog";
 import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
 import { anahtarKelimeSayfalari } from "@/lib/anahtar-kelime-sayfalari";
 import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
+import { hizmetSayfalari } from "@/lib/hizmet-sayfalari";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
@@ -60,6 +61,9 @@ export async function GET(istek: Request) {
             }
             for (const bolge of bolgeSayfalari(site)) {
                 urller.push({ loc: `https://${site.host}/bolge/${bolge.slug}`, lastmod: bugun });
+            }
+            for (const hizmet of hizmetSayfalari(site)) {
+                urller.push({ loc: `https://${site.host}/hizmet/${hizmet.slug}`, lastmod: bugun });
             }
             const bloglar = hostBloglari(site.host).length > 0 ? hostBloglari(site.host) : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)];
             if (bloglar.length > 0) {

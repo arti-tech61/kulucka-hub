@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { urunKatalogu } from "@/lib/urun-katalogu";
@@ -6,8 +7,21 @@ import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import { hostBloglari } from "@/lib/blog";
 import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
 import { anahtarKelimeSayfalari } from "@/lib/anahtar-kelime-sayfalari";
+import { hizmetKonusuBul } from "@/lib/hizmet-konulari";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
+
+// Kutu hover'ında soldan sağa dolan tema-renkli "sweep" efekti — ::before ile
+// arka planı doldururken metin de accent-fg'ye geçer (bkz. renkler.ts accentFg,
+// her domain için elle kontrast-güvenli seçilmiş kontrast rengi — bu sayede
+// dolgu her zaman okunabilir kalır, kontrast riski taşımaz).
+const KART_SWEEP =
+    "group relative isolate overflow-hidden transition-colors duration-500 motion-reduce:transition-none " +
+    "before:absolute before:inset-0 before:-z-10 before:origin-left before:scale-x-0 before:bg-accent before:content-[''] " +
+    "before:transition-transform before:duration-500 before:ease-out motion-reduce:before:transition-none " +
+    "hover:before:scale-x-100 focus-visible:before:scale-x-100";
+const KART_METIN = "transition-colors duration-500 motion-reduce:transition-none group-hover:text-accent-fg group-focus-visible:text-accent-fg";
+const KART_METIN_SOLUK = "transition-colors duration-500 motion-reduce:transition-none group-hover:text-accent-fg/80 group-focus-visible:text-accent-fg/80";
 
 // Google Drive "İş resimleri" klasöründen indirilen gerçek Artı Platform saha
 // fotoğrafları (bkz. public/media/isler/) — anahtar kelime eşleştirmesiyle her
@@ -65,8 +79,9 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
             <div className="grid gap-6 md:grid-cols-3">
                 {hizmetler.map((h) => {
                     const gorsel = hizmetGorseli(h, kullanilanlar);
+                    const konu = hizmetKonusuBul(h);
                     return (
-                        <article key={h} className="overflow-hidden rounded-2xl bg-elevated">
+                        <Link key={h} href={`/hizmet/${konu.slug}`} className={`block rounded-2xl bg-elevated ${KART_SWEEP}`}>
                             <div className="relative aspect-[4/3] w-full overflow-hidden bg-bg">
                                 <Image src={gorsel.src} alt={gorsel.alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
                             </div>
@@ -74,9 +89,9 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
                                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-bg">
                                     <Ikon ad="onay" className="h-5 w-5" />
                                 </span>
-                                <p className="mt-4 leading-6 text-fg">{h}</p>
+                                <p className={`mt-4 leading-6 text-fg ${KART_METIN}`}>{h}</p>
                             </div>
-                        </article>
+                        </Link>
                     );
                 })}
             </div>
@@ -115,7 +130,7 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {gosterilecekler.map((urun) => (
-                    <a key={urun.ad} id={urun.slug} href={`/urunler/${urun.slug}`} className="group scroll-mt-24 overflow-hidden rounded-2xl border border-border bg-elevated">
+                    <a key={urun.ad} id={urun.slug} href={`/urunler/${urun.slug}`} className={`scroll-mt-24 rounded-2xl border border-border bg-elevated ${KART_SWEEP}`}>
                         {/* Ürün görselleri farklı en-boy oranlarına sahip (bkz. urun-katalogu.ts);
                             object-contain + sabit yükseklikli nötr zemin, hiçbir görseli kırpmadan
                             tam sığdırır. */}
@@ -129,12 +144,12 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
                             />
                         </div>
                         <div className="p-6">
-                            <h3 className="font-display text-[22px] font-bold text-fg">{urun.ad} Kiralama</h3>
-                            <p className="mt-2 leading-6 text-muted">{urun.aciklamaSablonu(site)}</p>
-                            <div className="mt-4 flex flex-wrap gap-4 text-sm text-muted">
+                            <h3 className={`font-display text-[22px] font-bold text-fg ${KART_METIN}`}>{urun.ad} Kiralama</h3>
+                            <p className={`mt-2 leading-6 text-muted ${KART_METIN_SOLUK}`}>{urun.aciklamaSablonu(site)}</p>
+                            <div className={`mt-4 flex flex-wrap gap-4 text-sm text-muted ${KART_METIN_SOLUK}`}>
                                 {urun.ozellikler.map(([etiket, deger]) => (
                                     <span key={etiket}>
-                                        <strong className="text-fg">{etiket}:</strong> {deger}
+                                        <strong className={`text-fg ${KART_METIN}`}>{etiket}:</strong> {deger}
                                     </span>
                                 ))}
                             </div>
@@ -162,12 +177,12 @@ export function BolgeBolumu({ site }: { site: SiteIcerik }) {
             </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {bolgeSayfaListesi.map((b) => (
-                    <a key={b.slug} href={`/bolge/${b.slug}`} className="group flex items-center justify-between gap-3 rounded-2xl bg-elevated px-6 py-5 transition hover:bg-accent hover:text-accent-fg">
-                        <span className="flex items-center gap-3 font-bold text-fg group-hover:text-accent-fg">
-                            <Ikon ad="konum" className="h-4 w-4 shrink-0 text-accent group-hover:text-accent-fg" />
+                    <a key={b.slug} href={`/bolge/${b.slug}`} className={`flex items-center justify-between gap-3 rounded-2xl bg-elevated px-6 py-5 ${KART_SWEEP}`}>
+                        <span className={`flex items-center gap-3 font-bold text-fg ${KART_METIN}`}>
+                            <Ikon ad="konum" className={`h-4 w-4 shrink-0 text-accent ${KART_METIN}`} />
                             {b.bolgeAdi}
                         </span>
-                        <Ikon ad="ok" className="h-4 w-4 shrink-0 text-muted group-hover:text-accent-fg" />
+                        <Ikon ad="ok" className={`h-4 w-4 shrink-0 text-muted ${KART_METIN_SOLUK}`} />
                     </a>
                 ))}
             </div>
@@ -192,13 +207,13 @@ export function IletisimKarti({ site }: { site: SiteIcerik }) {
                 <div className="space-y-5">
                     {kartlar.map((k) => (
                         <div key={k.baslik} className="flex items-center gap-3">
-                            <a href={k.href} className="flex flex-1 items-center gap-4 rounded-2xl bg-elevated p-6">
+                            <a href={k.href} className={`flex flex-1 items-center gap-4 rounded-2xl bg-elevated p-6 ${KART_SWEEP}`}>
                                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-bg">
                                     <Ikon ad={k.ikon} className="h-5 w-5" />
                                 </span>
                                 <div>
-                                    <h3 className="font-display text-fg">{k.baslik}</h3>
-                                    <p className="mt-1 break-all text-muted">{k.deger}</p>
+                                    <h3 className={`font-display text-fg ${KART_METIN}`}>{k.baslik}</h3>
+                                    <p className={`mt-1 break-all text-muted ${KART_METIN_SOLUK}`}>{k.deger}</p>
                                 </div>
                             </a>
                             {k.whatsapp && (
@@ -256,14 +271,14 @@ export function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
             </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {yazilar.map((y) => (
-                    <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-xl border border-border bg-elevated p-3 transition hover:border-accent">
+                    <a key={y.slug} href={`/blog/${y.slug}`} className={`flex gap-3 rounded-xl border border-border bg-elevated p-3 ${KART_SWEEP}`}>
                         <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-bg">
                             <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
                         </div>
                         <div className="min-w-0">
-                            <span className="text-[11px] font-bold uppercase tracking-wide text-accent">{y.kategori}</span>
-                            <p className="mt-0.5 line-clamp-2 text-sm font-bold leading-snug text-fg group-hover:text-accent">{y.baslik}</p>
-                            <span className="mt-1 block text-xs text-muted">{y.okuma} dk okuma</span>
+                            <span className={`text-[11px] font-bold uppercase tracking-wide text-accent ${KART_METIN}`}>{y.kategori}</span>
+                            <p className={`mt-0.5 line-clamp-2 text-sm font-bold leading-snug text-fg ${KART_METIN}`}>{y.baslik}</p>
+                            <span className={`mt-1 block text-xs text-muted ${KART_METIN_SOLUK}`}>{y.okuma} dk okuma</span>
                         </div>
                     </a>
                 ))}
