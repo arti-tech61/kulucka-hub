@@ -13,6 +13,7 @@ const nav: [string, string][] = [
     ["/hakkimizda", "Hakkımızda"],
     ["/urunler", "Ürünler"],
     ["/blog", "Blog"],
+    ["/sozluk", "Sözlük"],
     ["/iletisim", "İletişim"],
 ];
 

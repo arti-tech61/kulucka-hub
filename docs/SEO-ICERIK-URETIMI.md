@@ -157,7 +157,7 @@ Analiz sonucu kulucka-hub'da olmayan, izmir-manlift.com'da bulunan siloların
 | Öncelik | Silo | Potansiyel sayfa | Gerekli yeni veri |
 |---|---|---|---|
 | ✅ | **Bölge × Hizmet kesişimi** | **833 (kuruldu)** | — |
-| 2 | Teknik terim sözlüğü (`/terimler`) | ~20 × ortak | terim veri modeli |
+| ✅ | Teknik terim sözlüğü (`/sozluk`) | **133 (kuruldu)** | — |
 | 3 | Marka sayfaları (`/markalar`) | ~7 × ortak | marka veri modeli |
 | 4 | Yükseklik-niyetli sayfalar (`/yukseklik`) | ~8 × 85 | mevcut ürün verisinden türetilebilir |
 | 5 | İlçe derinliği (il → ilçe hiyerarşisi) | ~1.000+ | yapılandırılmış ilçe verisi |
