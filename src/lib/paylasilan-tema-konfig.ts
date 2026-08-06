@@ -7,6 +7,84 @@ import type { PaylasilanTemaConfig } from "@/components/temalar/paylasilan";
 // (hazırlanan-siteler kontrolü page.tsx'te bu temadan önce çalışır ve varsa
 // içeriği sessizce maskeler).
 export const paylasilanTemaKonfigleri: Record<string, PaylasilanTemaConfig> = {
+    // Bu 15 domain 2026-08-06'da eklendi: 5'i Cloudflare'de tamamen boştu (hiç DNS
+    // kaydı yoktu), 10'u ise kullanıcı onayıyla mevcut yönlendirmelerinden (bkz.
+    // domain portföyü raporu) ayrılıp kendi benzersiz içerikleriyle canlıya alındı.
+    "afyonmanlift.com": {
+        markaAdi: "Afyon Manlift",
+        logoUrl: "/media/logolar/1.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#e16503", accentHover: "#c25703", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "afyonmanliftkiralama.net": {
+        markaAdi: "Afyon Manlift Kiralama",
+        logoUrl: "/media/logolar/2.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#00b5bc", accentHover: "#009a9f", accentFg: "#0a1525", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "afyonplatform.net": {
+        markaAdi: "Afyon Platform",
+        logoUrl: "/media/logolar/7.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#974ada", accentHover: "#8236c2", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "afyonplatformkiralama.com": {
+        markaAdi: "Afyon Platform Kiralama",
+        logoUrl: "/media/logolar/9.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#af8d03", accentHover: "#957703", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "izmir-forklift.com": {
+        markaAdi: "İzmir Forklift",
+        logoUrl: "/media/logolar/11.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#2b5790", accentHover: "#234873", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "izmirmakasliplatform.com.tr": {
+        markaAdi: "İzmir Makaslı Platform",
+        logoUrl: "/media/logolar/12.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#6b3088", accentHover: "#582871", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "izmirmakasliplatform.net.tr": {
+        markaAdi: "İzmir Makaslı Platform",
+        logoUrl: "/media/logolar/13.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#93305d", accentHover: "#7a284d", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkirala.net": {
+        markaAdi: "Ankara Manlift Kirala",
+        logoUrl: "/media/logolar/15.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#cc501a", accentHover: "#ad4315", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkirala.online": {
+        markaAdi: "Bursa Manlift Kirala",
+        logoUrl: "/media/logolar/17.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#516df3", accentHover: "#3a54e0", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkirala.store": {
+        markaAdi: "Konya Manlift Kirala",
+        logoUrl: "/media/logolar/20.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#c3a100", accentHover: "#a68800", accentFg: "#0a1525", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkirala.xyz": {
+        markaAdi: "Denizli Manlift Kirala",
+        logoUrl: "/media/logolar/4.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#81bf04", accentHover: "#6ca303", accentFg: "#0a1525", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkiralama.online": {
+        markaAdi: "Kayseri Manlift Kiralama",
+        logoUrl: "/media/logolar/3.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#9d5525", accentHover: "#84461e", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkiralama.org.tr": {
+        markaAdi: "Gaziantep Manlift Kiralama",
+        logoUrl: "/media/logolar/5.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#00a9b0", accentHover: "#008d93", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkiralama.site": {
+        markaAdi: "Samsun Manlift Kiralama",
+        logoUrl: "/media/logolar/8.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#3c5f98", accentHover: "#31507f", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "manliftkiralama.xyz": {
+        markaAdi: "Adana Manlift Kiralama",
+        logoUrl: "/media/logolar/10.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#cd1bd2", accentHover: "#ac16b0", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
     // bozuyukplatform.com.tr eskiden bespoke temaydı (src/components/temalar/bozuyuk.tsx) —
     // sepetli platform hero fotoğrafı yanlış üründü, Ürünler sayfasında yinelenen slug
     // ve zayıf 3 kartlık katalog vardı, süreç bölümü dengesiz metin uzunluklarıyla
