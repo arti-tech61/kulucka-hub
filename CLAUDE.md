@@ -85,6 +85,7 @@ npm run kontrol:icerik
 | 2026-08-06 sonrası | bölge | %11.4 ✅ |
 | 2026-08-06 sonrası | hizmet | %11.6 ✅ |
 | (referans) | ürün | %6.8 ✅ |
+| 2026-08-06 sonrası | ürün kategori metni | %7.8 ✅ |
 
 ---
 
@@ -173,7 +174,7 @@ Bu dosyalarda metin değiştiriyorsanız Kural 1 mutlaka geçerlidir:
 | `src/lib/alt-sayfalar.ts` | ~280 | ✅ okuma anında varyantlanıyor |
 | `src/lib/paylasilan-blog.ts` | ~700 | ✅ varyant + `cesitle()` |
 | `src/lib/anahtar-kelime-sayfalari.ts` | ~420 | ✅ `cesitle()` |
-| `src/lib/urun-katalogu.ts` | ~2.125 | ⚠️ `KATEGORI_BILGI` metni 85 domainde aynı |
+| `src/lib/urun-katalogu.ts` | ~2.125 | ✅ `urun-kategori-bilgi.ts` — çekirdek tanım korunur, domain bağlamı eklenir |
 | `src/lib/kurumsal-sayfalar.ts` | ~255 | ✅ `cesitle()` |
 
 ---

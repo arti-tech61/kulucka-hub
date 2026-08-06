@@ -179,9 +179,12 @@ function kopyaIcerikKontrol() {
 
         // Tuz ayırt edici mi (sayfa slug'ı içeriyor mu)
         const tuzlar = [...c.matchAll(/varyantSec\(\s*\w+\s*,\s*(["'`])([^"'`]+)\1/g)];
-        const sabitTuz = tuzlar.filter((t) => !/\$\{/.test(t[2]));
-        if (sabitTuz.length > 6 && !/const t = \(|function tuz\(/.test(c)) {
-            uyari("İÇERİK-2.5", `${f} ${sabitTuz.length} sabit tuz — aynı domainin farklı sayfaları aynı varyantı alabilir.`);
+        // Sabit tuz sorun DEĞİL, aynı tuzun birden fazla yerde kullanılması sorun.
+        // (Tuz sayfa adını içeriyorsa — "f-nakliye-teslim" gibi — ayırt edicidir.)
+        const sabitTuz = tuzlar.map((t) => t[2]).filter((t) => !/\$\{/.test(t));
+        const tekrarEden = sabitTuz.filter((t, i) => sabitTuz.indexOf(t) !== i);
+        if (tekrarEden.length) {
+            hata("İÇERİK-2.5", `${f} aynı tuz birden fazla yerde: ${[...new Set(tekrarEden)].join(", ")} → farklı alanlar aynı varyantı alır.`);
         }
     }
 }

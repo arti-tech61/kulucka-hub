@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
+import { kategoriBilgisi } from "@/lib/urun-kategori-bilgi";
 import { urunKatalogu, type UrunKatalogOgesi } from "@/lib/urun-katalogu";
 import { paylasilanTemaKonfigleri } from "@/lib/paylasilan-tema-konfig";
 import { GaEtiketi } from "@/components/ga";
@@ -31,44 +32,6 @@ function kategoriKok(slug: string): string {
     return slug;
 }
 
-const KATEGORI_BILGI: Record<string, { baslik: string; aciklama: string; kullanim: string; secim: string }> = {
-    "makasli-platform": {
-        baslik: "Makaslı Platform",
-        aciklama: "Makaslı platform, sepeti yalnızca dikey doğrultuda hareket ettirir; çalışma noktasının tam altına konumlanabildiğiniz her işte ilk tercihtir. Geniş sepeti sayesinde birden fazla çalışan, malzeme ve el aletleriyle birlikte güvenle yükselir.",
-        kullanim: "Tavan tesisatı, aydınlatma, sprinkler, depo raf sistemleri ve cephenin düz bölümlerindeki bakım-montaj işleri makaslı platformun tipik kullanım alanıdır.",
-        secim: "Yatay erişim ihtiyacı yoksa ve zemin düz-taşıyıcıysa, aynı yükseklik sınıfındaki diğer makine tiplerine kıyasla en ekonomik ve en yüksek kapasiteli seçenektir.",
-    },
-    "eklemli-platform": {
-        baslik: "Eklemli Platform",
-        aciklama: "Eklemli (akrobat) platformun bomu birden fazla noktadan kırılır; bu yapı makineyi engelin yanına konumlandırıp sepeti engelin üzerinden veya arkasına ulaştırmaya izin verir.",
-        kullanim: "Çatı arkaları, cephe girintileri, boru köprüleri, konveyör hatları ve engelli noktalardaki bakım-montaj işleri eklemli platformun asıl alanıdır.",
-        secim: "Hedef noktanın önünde bir engel (kolon, boru hattı, çatı çıkıntısı) varsa, düz bomlu makinelerin ulaşamadığı noktalara bu makine sınıfıyla erişilir.",
-    },
-    "teleskopik-platform": {
-        baslik: "Teleskopik Platform",
-        aciklama: "Teleskopik bom tek doğrultuda uzar; aynı yükseklik sınıfında en uzun yatay erişimi sağlar. Açık ve engelsiz sahada, makineyi işin uzağına kurmak zorunda olduğunuz durumlarda doğru seçimdir.",
-        kullanim: "Köprü altı bakımları, geniş hangar ve stadyum işleri, enerji nakil hattı yakını kontrollü çalışmalar ve yüksek prefabrik montajı teleskopiğin tipik alanıdır.",
-        secim: "Engel aşma ihtiyacı yoksa ve açık sahada maksimum yatay mesafeye ulaşmak gerekiyorsa, eklemli platforma göre daha uzun erişim sunar.",
-    },
-    forklift: {
-        baslik: "Forklift",
-        aciklama: "Forklift, palet ve ağır yükleri kontrollü biçimde kaldırıp taşımak için tasarlanmıştır; kapasite ve yakıt tipi saha koşuluna göre seçilir.",
-        kullanim: "Depo içi istifleme, üretim hattı besleme, TIR/konteyner yükleme-boşaltma ve şantiye malzeme taşıma forkliftin tipik işleridir.",
-        secim: "Kapalı ve egzoz kısıtlı alanlarda elektrikli, açık saha ve yoğun vardiyada dizel model tercih edilir; yük ağırlığı ve kaldırma yüksekliği kapasite sınıfını belirler.",
-    },
-    "orumcek-platform": {
-        baslik: "Örümcek Platform",
-        aciklama: "Paletli hareket kabiliyeti ve ayarlanabilir ayakları sayesinde dar, düzensiz veya hassas yüzeyli zeminlerde çalışmaya izin verir; dar kapı ve merdiven boşluklarından geçebilir.",
-        kullanim: "Atrium, cam tavan, iç avlu, bahçe ve teras gibi standart platformların giremediği veya zemine zarar verebileceği alanlarda tercih edilir.",
-        secim: "Zemin hassasiyeti veya dar geçiş standart platform seçimini engelliyorsa, kompakt boyutu ve düşük zemin baskısıyla örümcek platform devreye girer.",
-    },
-    telehandler: {
-        baslik: "Telehandler",
-        aciklama: "Teleskopik yükleyici olan telehandler, çatal, sepet ve kova ataşmanlarıyla çok amaçlı kullanım sunar; hem yük taşır hem de uygun ataşmanla yükseğe malzeme ulaştırır.",
-        kullanim: "Şantiye malzeme lojistiği, çatı kaplama malzemesi besleme, prefabrik montaj ve palet çıkarma telehandler'ın tipik işleridir.",
-        secim: "Aynı sahada hem yük taşıma hem yüksekte erişim ihtiyacı varsa, iki ayrı makine yerine tek makineyle çözüm arayan projelerde değerlendirilir.",
-    },
-};
 
 function digerUrunler(mevcutSlug: string, kategori: string, limit = 3): UrunKatalogOgesi[] {
     const ayniKategori = urunKatalogu.filter((u) => u.slug !== mevcutSlug && kategoriKok(u.slug) === kategori);
@@ -113,7 +76,7 @@ export default async function UrunDetaySayfasi({ params }: { params: Promise<{ s
     if (!urun) notFound();
 
     const kategori = kategoriKok(slug);
-    const bilgi = KATEGORI_BILGI[kategori];
+    const bilgi = kategoriBilgisi(site, kategori);
     const bolgeIlk = site.bolge.split(",")[0].trim();
     const digerler = digerUrunler(slug, kategori);
     const tema = temaModulu(host);
