@@ -2,6 +2,8 @@ import Image from "next/image";
 import { hostBloglari } from "@/lib/blog";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { TemaForm } from "./tema-form";
 import type { TemaModulu } from "./tipler";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
@@ -43,9 +45,10 @@ function Cerceve({ site, aktif = "", children }: Parameters<TemaModulu["Cerceve"
         </header>
         <main>{children}</main>
         <footer className="bg-[#020617] px-6 py-14 text-white">
-            <div className="mx-auto grid max-w-[1280px] gap-10 md:grid-cols-3">
-                <div><h2 className="font-['Montserrat'] text-[24px] font-bold">Kütahya Platform</h2><p className="mt-4 text-[14px] leading-5 text-[#c0c6de]">{site.uzmanlik} için doğru makine ve yazılı teklif planlaması.</p></div>
-                <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">Hızlı Menü</h3><div className="mt-4 grid grid-cols-2 gap-3 text-[14px]">{nav.slice(1).map(([h, e]) => <a key={h} href={h} className="hover:text-[#67E8F9]">{e}</a>)}<a href={site.anaSite.url} className="hover:text-[#67E8F9]">{site.anaSite.ad}</a></div></div>
+            <div className="mx-auto grid max-w-[1280px] gap-10 md:grid-cols-4">
+                <div><h2 className="font-['Montserrat'] text-[24px] font-bold">Kütahya Platform</h2><p className="mt-4 text-[14px] leading-5 text-[#c0c6de]">{site.uzmanlik} için doğru makine ve yazılı teklif planlaması.</p><div className="mt-4 grid grid-cols-2 gap-3 text-[14px]">{nav.slice(1).map(([h, e]) => <a key={h} href={h} className="hover:text-[#67E8F9]">{e}</a>)}<a href={site.anaSite.url} className="hover:text-[#67E8F9]">{site.anaSite.ad}</a></div></div>
+                <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">Hizmet Bölgeleri</h3><div className="mt-4 flex flex-col gap-2.5 text-[14px]">{bolgeSayfalari(site).slice(0, 6).map((b) => <a key={b.slug} href={`/bolge/${b.slug}`} className="hover:text-[#67E8F9]">{b.bolgeAdi}</a>)}</div></div>
+                <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">Kaynaklar</h3><div className="mt-4 flex flex-col gap-2.5 text-[14px]">{hostAltSayfalari(site.host).slice(0, 5).map((s) => <a key={s.slug} href={`/${s.slug}`} className="hover:text-[#67E8F9]">{s.baslik}</a>)}<a href="/blog" className="hover:text-[#67E8F9]">Blog</a></div></div>
                 <div><h3 className="font-['Montserrat'] text-[20px] font-semibold text-[#67E8F9]">İletişim</h3><div className="mt-4 flex items-center gap-2"><a href={`tel:${site.telefon}`} className="flex gap-2"><Ikon ad="telefon" />{site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="mt-3 flex items-center gap-2"><a href={`tel:${ikinciTelefon(site)!.telefon}`} className="flex gap-2"><Ikon ad="telefon" />{ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}<a href={`mailto:${site.eposta}`} className="mt-3 flex gap-2 break-all"><Ikon ad="posta" />{site.eposta}</a></div>
             </div>
         <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-5 text-center text-xs text-white/50">
