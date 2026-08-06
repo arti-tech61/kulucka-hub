@@ -7,6 +7,27 @@ import type { PaylasilanTemaConfig } from "@/components/temalar/paylasilan";
 // (hazırlanan-siteler kontrolü page.tsx'te bu temadan önce çalışır ve varsa
 // içeriği sessizce maskeler).
 export const paylasilanTemaKonfigleri: Record<string, PaylasilanTemaConfig> = {
+    // bozuyukplatform.com.tr eskiden bespoke temaydı (src/components/temalar/bozuyuk.tsx) —
+    // sepetli platform hero fotoğrafı yanlış üründü, Ürünler sayfasında yinelenen slug
+    // ve zayıf 3 kartlık katalog vardı, süreç bölümü dengesiz metin uzunluklarıyla
+    // dağınık görünüyordu. Paylaşımlı temaya taşındı: gerçek 24 ürünlük katalog,
+    // doğru fotoğraflar, DetayliRehber ve mobil menü otomatik geliyor.
+    "bozuyukplatform.com.tr": {
+        markaAdi: "Bozüyük Platform",
+        logoUrl: "/media/logolar/6.png",
+        renkler: {
+            primary: "#2e3230",
+            primaryLight: "#4a4e4a",
+            accent: "#4a7c59",
+            accentHover: "#3e6a4b",
+            accentFg: "#ffffff",
+            bg: "#ffffff",
+            fg: "#2e3230",
+            muted: "#6b7280",
+            elevated: "#f3f4f6",
+            border: "#e5e7eb",
+        },
+    },
     // Pilot domain — logo 4 (yeşil, /public/media/logolar/4.png), Bolu'nun
     // orman/doğa kimliğiyle uyumlu accent rengi.
     "boluplatform.com": {
