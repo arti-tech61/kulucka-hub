@@ -8,6 +8,7 @@ import type { TemaModulu } from "./tipler";
 import { TemaForm } from "./tema-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
 import { AydinMobilMenu } from "./aydin-mobil-menu";
+import { DetayliRehber } from "./detayli-rehber";
 
 // aydinplatform.net — Google Stitch tasarımının birebir portu.
 // Renkler: deep-navy #0A1525, safety-yellow #FBBF24, off-white #F9FAFB.
@@ -311,6 +312,7 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
             </section>
 
             <AydinIletisim site={site} />
+            <DetayliRehber site={site} />
         </>
     );
 }

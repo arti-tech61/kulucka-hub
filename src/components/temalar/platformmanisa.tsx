@@ -9,6 +9,7 @@ import type { TemaModulu } from "./tipler";
 import { ManisaTeklifForm } from "./platformmanisa-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
 import { PlatformManisaMobilMenu } from "./platformmanisa-mobil-menu";
+import { DetayliRehber } from "./detayli-rehber";
 
 // platformmanisa.com — Google Stitch DARK tasarımının birebir portu.
 // surface-deep #020617, surface #101415, surface-card #1E293B, primary #b8c4ff, industrial-orange #F97316.
@@ -234,6 +235,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                     </div>
                 </div>
             </section>
+            <DetayliRehber site={site} />
         </>
     );
 }

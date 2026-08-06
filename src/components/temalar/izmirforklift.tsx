@@ -9,6 +9,7 @@ import type { TemaModulu } from "./tipler";
 import { IzmirHizliTeklif, IzmirIletisimForm } from "./izmir-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
 import { IzmirforkliftMobilMenu } from "./izmirforklift-mobil-menu";
+import { DetayliRehber } from "./detayli-rehber";
 
 // izmirforkliftkiralama.net — Google Stitch LIGHT "endüstriyel brutalist" tasarımı birebir.
 // background #f8f9ff, charcoal #121c2a, primary #914d00, primary-container(orange) #f68b1e,
@@ -185,6 +186,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-3">{bolgeler.map((b) => (<a key={b.slug} href={`/bolge/${b.slug}`} className="bg-white p-4 rounded-lg border border-[#121c2a]/10 flex items-center gap-2 font-semibold text-[#121c2a] hover:border-[#f68b1e] hover:text-[#914d00] hover:shadow-md transition-all"><Ikon d={IK.pin} className="w-5 h-5 text-[#914d00] shrink-0" box={20} />{b.bolgeAdi}</a>))}</div>
                 </div>
             </section>
+            <DetayliRehber site={site} />
         </>
     );
 }

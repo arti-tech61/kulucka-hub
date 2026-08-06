@@ -9,6 +9,7 @@ import type { TemaModulu } from "./tipler";
 import { EklemliHizliTeklif, EklemliIletisimForm } from "./eklemli-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
 import { EklemliMobilMenu } from "./eklemli-mobil-menu";
+import { DetayliRehber } from "./detayli-rehber";
 
 // eklemliplatform.com.tr — Google Stitch LIGHT tasarımının birebir portu.
 // primary #0233d3, primary-container(mavi) #3151eb, secondary(turuncu) #9d4300,
@@ -187,6 +188,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 <p className="text-white/70 max-w-2xl mx-auto mb-8">Türkiye geneli; sertifikalı makine parkuru, belgeli operatör ve şeffaf yazılı teklifle işinizi güvene alın.</p>
                 <a className={`inline-flex items-center gap-2 bg-[#3151eb] text-white ${lbl} px-8 py-4 rounded-xl hover:bg-white hover:text-[#0233d3] transition-all`} href="/iletisim">Hemen Teklif Alın <Ikon d={IK.ok} className="w-5 h-5" box={20} /></a>
             </div></section>
+            <DetayliRehber site={site} />
         </>
     );
 }

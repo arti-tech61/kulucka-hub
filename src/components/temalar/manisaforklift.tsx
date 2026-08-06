@@ -9,6 +9,7 @@ import type { TemaModulu } from "./tipler";
 import { ForkliftTalepForm } from "./manisaforklift-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
 import { ManisaforkliftMobilMenu } from "./manisaforklift-mobil-menu";
+import { DetayliRehber } from "./detayli-rehber";
 
 // manisaforklift.com — Google Stitch "clean-tech" LIGHT tasarımının birebir portu.
 // background #f7f9fb, primary #795900, safety-amber #FBBF24, deep-slate #020617 (koyu bölümler),
@@ -123,6 +124,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
             <BlogOneCikanlar site={site} />
+            <DetayliRehber site={site} />
         </>
     );
 }
