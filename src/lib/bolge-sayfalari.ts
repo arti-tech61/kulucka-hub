@@ -23,12 +23,16 @@
 // her zaman en az 4-6 varyantlı bir havuz kullanın.
 import type { SiteIcerik } from "./siteler";
 import { urunKatalogu } from "./urun-katalogu";
+import { bespokeBul, bespokeUygula, type BespokeIcerik } from "./bespoke-icerik";
 import {
     varyantSec, uzmanlikIfade,
     cevapOperator, cevapNakliye, cevapSure, cevapBelge, cevapSinif, cevapTeslimat,
 } from "./varyant";
 
 export interface BolgeSayfasi {
+    /** Elle yazılmış içerik varsa true — sayfa şablonu ek bölümleri gösterir. */
+    elleYazilmis?: boolean;
+    ekBolumler?: BespokeIcerik["ekBolumler"];
     slug: string;
     bolgeAdi: string;
     baslik: string;
@@ -77,7 +81,7 @@ export function bolgeSayfalari(site: SiteIcerik): BolgeSayfasi[] {
         const uzm = uzmanlikIfade(site);
         const t = (alan: string) => tuz(bolgeAdi, alan);
 
-        return {
+        const sablon: BolgeSayfasi = {
             slug: slugla(bolgeAdi),
             bolgeAdi,
             baslik: varyantSec(site, t("baslik"), [
@@ -213,6 +217,8 @@ export function bolgeSayfalari(site: SiteIcerik): BolgeSayfasi[] {
             ],
             ilgiliUrun: { baslik: `${urun.ad} Kiralama`, slug: urun.slug },
         };
+        // Elle yazılmış içerik varsa şablonun yerine geçer (kısmi override).
+        return bespokeUygula(sablon, bespokeBul(site, `bolge:${slugla(bolgeAdi)}`));
     });
 }
 

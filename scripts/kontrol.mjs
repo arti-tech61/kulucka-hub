@@ -136,7 +136,8 @@ function responsiveKontrol() {
     for (const f of tsDosyalari("src")) {
         const c = oku(f);
         if (!c) continue;
-        const m = c.match(/\bw-\[\d{3,}px\]/g);
+        // min-w-[...] overflow-x-auto kabı içinde meşrudur (tablo yatay kaydırma).
+        const m = c.match(/(?<!min-)\bw-\[\d{3,}px\]/g);
         if (m) uyari("RESP-3", `${f} sabit genişlik: ${[...new Set(m)].join(", ")} — max-w-* + w-full kullanın (yatay taşma riski).`);
     }
 }
