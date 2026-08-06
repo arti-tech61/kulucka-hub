@@ -159,7 +159,7 @@ Analiz sonucu kulucka-hub'da olmayan, izmir-manlift.com'da bulunan siloların
 | ✅ | **Bölge × Hizmet kesişimi** | **833 (kuruldu)** | — |
 | ✅ | Teknik terim sözlüğü (`/sozluk`) | **133 (kuruldu)** | — |
 | ✅ | Marka sayfaları (`/markalar`) | **680 (kuruldu)** | — |
-| 4 | Yükseklik-niyetli sayfalar (`/yukseklik`) | ~8 × 85 | mevcut ürün verisinden türetilebilir |
+| ✅ | Yükseklik-niyetli sayfalar (`/yukseklik`) | **1.020 (kuruldu)** | — |
 | 5 | İlçe derinliği (il → ilçe hiyerarşisi) | ~1.000+ | yapılandırılmış ilçe verisi |
 
 ### ⚠️ Bölge × Hizmet kesişiminde neden 6.446 değil 833 sayfa

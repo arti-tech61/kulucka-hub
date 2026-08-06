@@ -9,6 +9,7 @@ import { hizmetSayfalari } from "@/lib/hizmet-sayfalari";
 import { bolgeHizmetSayfalari } from "@/lib/bolge-hizmet-sayfalari";
 import { TERIMLER, derinTerimSayfasiVarMi } from "@/lib/terimler";
 import { aktifMarkalar } from "@/lib/marka-sayfalari";
+import { yukseklikSayfalari } from "@/lib/yukseklik-sayfalari";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
@@ -76,6 +77,11 @@ export async function GET(istek: Request) {
             urller.push({ loc: `https://${site.host}/markalar`, lastmod: bugun });
             for (const m of aktifMarkalar()) {
                 urller.push({ loc: `https://${site.host}/markalar/${m.slug}`, lastmod: bugun });
+            }
+            // Yükseklik niyetli sayfalar
+            urller.push({ loc: `https://${site.host}/yukseklik`, lastmod: bugun });
+            for (const y of yukseklikSayfalari(site)) {
+                urller.push({ loc: `https://${site.host}/yukseklik/${y.slug}`, lastmod: bugun });
             }
             // Sözlük: hub her domainde, derin terim sayfaları yalnız bilgi/rehber sitelerinde
             urller.push({ loc: `https://${site.host}/sozluk`, lastmod: bugun });

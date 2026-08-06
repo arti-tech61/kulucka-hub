@@ -89,6 +89,7 @@ npm run kontrol:icerik
 | 2026-08-06 | bölge×hizmet kesişimi | %12.8 ✅ |
 | 2026-08-06 | sözlük domain bağlamı | %5.6 ✅ |
 | 2026-08-06 | marka sayfaları | %12.8 ✅ |
+| 2026-08-06 | yükseklik sayfaları | %15.7 ✅ |
 
 ---
 
@@ -176,6 +177,7 @@ Bu dosyalarda metin değiştiriyorsanız Kural 1 mutlaka geçerlidir:
 | `src/lib/terimler.ts` | ~133 | ✅ çekirdek tanım + domain bağlamı |
 | `src/lib/filo.ts` | (veri) | ⛔ GERÇEK envanter — uydurulamaz, kaynak: izmir-manlift.com |
 | `src/lib/marka-sayfalari.ts` | ~680 | ✅ varyant + kompozisyon + filo bağlamı |
+| `src/lib/yukseklik-sayfalari.ts` | ~1.020 | ✅ varyant + kompozisyon + exactMatch dürüstlük |
 | `src/lib/hizmet-sayfalari.ts` | ~935 | ✅ varyantlandı |
 | `src/lib/firsat-sayfalar.ts` | ~166 | ✅ varyantlandı |
 | `src/lib/alt-sayfalar.ts` | ~280 | ✅ okuma anında varyantlanıyor |
