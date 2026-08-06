@@ -1695,6 +1695,35 @@ export const siteler: SiteIcerik[] = [
         uzmanlik: "Adana tekstil ve tarım sanayinde manlift kiralama",
     },
     {
+        // platformistanbul.net — İstanbul grubu 5-repo taşıma planının pilot
+        // domain'i. Eskiden ayrı bir Next.js reposundaydı (aynı sunucuda ayrı
+        // Coolify app) — içerik (3 bölgesel hub modeli: İkitelli/Tuzla/Gebze,
+        // gerçek adres, 12 blog yazısı) o repodan taşındı.
+        host: "platformistanbul.net",
+        gaId: "",
+        baslik: "Artı Platform İstanbul | Manlift, Forklift, Telehandler Kiralama",
+        aciklama: "İstanbul'un tamamına ve Doğu Marmara koridoruna İkitelli, Tuzla ve Gebze hub'larından manlift, makaslı/eklemli platform, forklift ve telehandler kiralama. Bölgeye en yakın hub'dan hızlı sevkiyat.",
+        h1: "İstanbul Manlift, Platform, Forklift ve Telehandler Kiralama",
+        paragraflar: [
+            "Artı Platform İstanbul, filoyu tek bir merkezden değil üç bölgesel hub'dan yönetiyor: Avrupa Yakası için İkitelli, Anadolu Yakası için Tuzla, Doğu Marmara için Gebze. Bu yapı sayesinde talep coğrafi olarak en yakın hub'dan karşılanıyor ve bölgeye göre değişen ortalama sevkiyat süreleri net şekilde paylaşılıyor.",
+            "İkitelli OSB'deki üretim tesisleri, Tuzla tersane kümesi ve OSB'si, Gebze GOSB/TOSB otomotiv ve ağır sanayi bölgesi — her hub kendi çevresindeki sanayi yapısına göre farklılaşmış makine parkuru ve saha bilgisiyle hizmet veriyor.",
+        ],
+        hizmetler: [
+            "İkitelli, Tuzla, Gebze hub'larından bölgeye özel sevkiyat",
+            "Manlift: makaslı, eklemli ve teleskopik platform (6-28m çalışma yüksekliği)",
+            "Forklift: elektrikli, dizel, LPG (1.5-18 ton kapasite)",
+            "Telehandler: çatal/sepet/kova ataşmanlı, 4-21 ton kapasite",
+            "Tuzla tersane ve Gebze OSB'ye özel saha prosedürü desteği",
+            "Operatörlü/operatörsüz kiralama, yazılı teklif süreci",
+        ],
+        anaSite: { ad: "Artı Platform", url: "https://www.artiplatform.com.tr" },
+        bolge: "İkitelli, Başakşehir, Tuzla, Pendik, Gebze, GOSB, TOSB, Dilovası, Mahmutbey, İstanbul geneli",
+        telefon: "+905321728943",
+        telefonGosterim: "0532 172 89 43",
+        eposta: "filo@platformistanbul.net",
+        uzmanlik: "İstanbul'da bölgesel hub modeliyle manlift, platform, forklift ve telehandler kiralama",
+    },
+    {
         // plusplatform.com.tr — Artı Platform grubunun kendi "PLUS" markalı akülü
         // makaslı platform satış hattı (Eskişehir Odunpazarı merkezli). Eskiden
         // ayrı bir Joomla sitesindeydi (192.185.165.194) — gerçek logo, ürün
@@ -2597,6 +2626,15 @@ const ticariSeoProfilleri: Record<string, TicariSeoProfili> = {
         zemin: "Fabrika ve depo beton zemini",
         olcu: "12-22 metre çalışma yüksekliği",
         makine: "Manlift veya Makaslı Platform",
+    },
+    "platformistanbul.net": {
+        yer: "İkitelli OSB (Avrupa Yakası hub), Tuzla tersane/OSB (Anadolu Yakası hub), Gebze GOSB/TOSB (Doğu Marmara hub)",
+        isler: "manlift/platform/forklift/telehandler kiralama, tersane ve otomotiv sanayi saha desteği",
+        rota: "Talebe göre bölgeye en yakın hub'dan (İkitelli/Tuzla/Gebze) sevkiyat",
+        kritik: "Tersane ve OSB sahalarında güvenlik kontrollü giriş prosedürü önceden netleştirilmeli",
+        zemin: "Tersane sahası, OSB üretim tesisi, açık şantiye zemini",
+        olcu: "6-28 metre çalışma yüksekliği (manlift), 1.5-18 ton (forklift), 4-21 ton (telehandler)",
+        makine: "Manlift, Forklift veya Telehandler",
     },
     "plusplatform.com.tr": {
         yer: "Eskişehir Odunpazarı merkez showroom, Türkiye geneli satış ve teslimat ağı",

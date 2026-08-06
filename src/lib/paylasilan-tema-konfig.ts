@@ -139,6 +139,26 @@ export const paylasilanTemaKonfigleri: Record<string, PaylasilanTemaConfig> = {
     },
     // plusplatform.com.tr — gerçek marka: kendi logosu ve gerçek ürün fotoğrafları
     // kullanılıyor (bkz. public/media/plusplatform/, eski siteden indirildi).
+    // platformistanbul.net — İstanbul grubu taşıma planının pilot domain'i
+    // (bkz. İstanbul Grubu Taşıma Planı). Gerçek logo eski repodan alındı,
+    // 12 blog yazısı da (src/lib/blog.ts) aynı reponun gerçek içeriğinden
+    // dönüştürüldü — jenerik şablon değil.
+    "platformistanbul.net": {
+        markaAdi: "Artı Platform İstanbul",
+        logoUrl: "/media/platformistanbul/logo.png",
+        renkler: {
+            primary: "#1a1530",
+            primaryLight: "#332a52",
+            accent: "#7c3aed",
+            accentHover: "#6d28d9",
+            accentFg: "#ffffff",
+            bg: "#ffffff",
+            fg: "#1a1530",
+            muted: "#6b7280",
+            elevated: "#f5f3ff",
+            border: "#e5e7eb",
+        },
+    },
     "plusplatform.com.tr": {
         markaAdi: "PLUS Platform",
         logoUrl: "/media/plusplatform/logo.png",
