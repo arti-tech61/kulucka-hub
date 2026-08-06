@@ -1,3 +1,17 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// ⛔ KOPYA İÇERİK YASAĞI — GEÇİLMEZ KURAL
+//
+// Bu dosya ~700 canlı sayfa üretir (85+ domain × sayfa/domain).
+// Buraya yazacağınız TEK BİR SABİT CÜMLE, o kadar sayfada birebir tekrarlanır.
+//
+//   ❌ cevap: "Her iki seçenek de sunulur."          → 85 domainde aynı
+//   ❌ giris: `${bolge} bölgesinde hizmet veriyoruz.` → mad-lib, hâlâ kopya
+//   ✅ varyantSec(site, `tuz-${slug}`, [4-6 YAPISAL OLARAK FARKLI varyant])
+//   ✅ kur(site, "tuz", [5 açılış], [5 gövde], [5 kapanış])  ← yüksek hacimde
+//
+// Değişiklikten sonra ZORUNLU:  npm run kontrol:icerik   (eşik: örtüşme < %20)
+// Tam kurallar: CLAUDE.md · docs/SEO-ICERIK-URETIMI.md
+// ═══════════════════════════════════════════════════════════════════════════
 // Paylaşılan tema kullanan domainler için parametrik blog üretimi.
 // Amaç: bespoke temalardaki (blog.ts) elle yazılmış 40+ yazı yerine, her domain'in
 // kendi SiteIcerik verisinden (bolge/uzmanlik/hizmetler/h1) beslenen 10 konu — ama
@@ -7,6 +21,7 @@
 // kalıpları da farklılaşır — yalnızca isim/bölge değişen "mad-lib" kopya içerik
 // üretilmez. Aynı domain her build'de aynı varyantı alır (deterministik).
 import type { SiteIcerik } from "./siteler";
+import { cesitle } from "./varyant";
 import type { BlogYazisi } from "./blog";
 import { blogGorsel } from "./blog";
 import { urunKatalogu } from "./urun-katalogu";
@@ -119,8 +134,8 @@ const SABLONLAR: Sablon[] = [
         ],
         sss: (s) => [
             { soru: secim(s, "b1-sss1-s", [`${bolgeIlk(s)} bölgesinde hangi platform sınıfı daha çok tercih ediliyor?`, `${bolgeIlk(s)}'de en sık talep edilen makine sınıfı hangisi?`, `Hangi sınıf ${bolgeIlk(s)} sahalarında öne çıkıyor?`]), cevap: `Sahanın erişim geometrisine göre değişir; ${s.uzmanlik} kapsamındaki işlerde genellikle makaslı ve eklemli platform öne çıkar, kesin sınıf saha bilgisiyle teyit edilir.` },
-            { soru: "Katalog yüksekliği ile çalışma yüksekliği aynı mı?", cevap: "Hayır; katalogdaki değer platform (sepet zemini) yüksekliğidir, çalışma yüksekliği bunun yaklaşık 2 metre üzeridir." },
-            { soru: "Yanlış sınıf seçilirse ne olur?", cevap: "Erişemeyen veya gereğinden pahalı bir makine sahada zaman kaybettirir; bu yüzden seçim saha ziyareti veya doğru bilgi paylaşımıyla teyit edilerek yapılır." },
+            { soru: "Katalog yüksekliği ile çalışma yüksekliği aynı mı?", cevap: cesitle(s, "paylas-1", "Hayır; katalogdaki değer platform (sepet zemini) yüksekliğidir, çalışma yüksekliği bunun yaklaşık 2 metre üzeridir.") },
+            { soru: "Yanlış sınıf seçilirse ne olur?", cevap: cesitle(s, "paylas-2", "Erişemeyen veya gereğinden pahalı bir makine sahada zaman kaybettirir; bu yüzden seçim saha ziyareti veya doğru bilgi paylaşımıyla teyit edilerek yapılır.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["makasli-platform-12m", "eklemli-platform-20m"]),
     },
@@ -176,8 +191,8 @@ const SABLONLAR: Sablon[] = [
         ],
         sss: (s) => [
             { soru: "Saha ziyareti şart mı?", cevap: `Çoğu durumda değil; ${bolgeIlk(s)} sahasının fotoğraf ve ölçüleri paylaşıldığında uzaktan da doğru sınıf belirlenebilir, karmaşık sahalarda saha ziyareti önerilir.` },
-            { soru: "Elektrik hattına yakın çalışma mümkün mü?", cevap: "Güvenli mesafe kuralları çerçevesinde değerlendirilir; kesin mesafe ve önlem saha bilgisiyle birlikte teyit edilir." },
-            { soru: "Teslimat günü zemin uygun çıkmazsa ne olur?", cevap: "Alternatif makine sınıfı veya zemin takviyesi gibi çözümler birlikte değerlendirilir; bu yüzden önceden bilgi paylaşımı önemlidir." },
+            { soru: "Elektrik hattına yakın çalışma mümkün mü?", cevap: cesitle(s, "paylas-3", "Güvenli mesafe kuralları çerçevesinde değerlendirilir; kesin mesafe ve önlem saha bilgisiyle birlikte teyit edilir.") },
+            { soru: "Teslimat günü zemin uygun çıkmazsa ne olur?", cevap: cesitle(s, "paylas-4", "Alternatif makine sınıfı veya zemin takviyesi gibi çözümler birlikte değerlendirilir; bu yüzden önceden bilgi paylaşımı önemlidir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["orumcek-platform", "makasli-platform-8m"]),
     },
@@ -231,10 +246,10 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: () => [
-            { soru: "Operatörlü kiralamada operatör kime ait olur?", cevap: "Operatör kiralayan firmaya aittir; sorumluluk ve belge süreci bu şekilde tedarikçi tarafında kalır." },
-            { soru: "Operatörsüz kiralama için hangi belge gerekir?", cevap: "Kullanıcının SRC/G sınıfı yüksekte çalışma platformu operatör belgesine sahip olması gerekir." },
-            { soru: "Karar hangi aşamada verilir?", cevap: "Teklif aşamasında iş süresi, ekip belge durumu ve saha koşulu birlikte değerlendirilerek netleştirilir." },
+        sss: (s) => [
+            { soru: "Operatörlü kiralamada operatör kime ait olur?", cevap: cesitle(s, "paylas-5", "Operatör kiralayan firmaya aittir; sorumluluk ve belge süreci bu şekilde tedarikçi tarafında kalır.") },
+            { soru: "Operatörsüz kiralama için hangi belge gerekir?", cevap: cesitle(s, "paylas-6", "Kullanıcının SRC/G sınıfı yüksekte çalışma platformu operatör belgesine sahip olması gerekir.") },
+            { soru: "Karar hangi aşamada verilir?", cevap: cesitle(s, "paylas-7", "Teklif aşamasında iş süresi, ekip belge durumu ve saha koşulu birlikte değerlendirilerek netleştirilir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["teleskopik-platform-22m", "eklemli-platform-16m"]),
     },
@@ -290,8 +305,8 @@ const SABLONLAR: Sablon[] = [
         ],
         sss: (s) => [
             { soru: "En ucuz seçenek her zaman doğru mu?", cevap: `Hayır; ${bolgeIlk(s)} sahasının ihtiyacını karşılamayan bir makine, iş gecikmesi nedeniyle daha pahalıya mal olabilir.` },
-            { soru: "Nakliye bedeli sabit mi?", cevap: "Hayır, mesafe ve araç tipine göre değişir; teklifte ayrı kalem olarak belirtilir." },
-            { soru: "Uzun süreli kiralamada indirim var mı?", cevap: "Genellikle evet; kesin oran talep edilen süreye göre teklifte netleşir." },
+            { soru: "Nakliye bedeli sabit mi?", cevap: cesitle(s, "paylas-8", "Hayır, mesafe ve araç tipine göre değişir; teklifte ayrı kalem olarak belirtilir.") },
+            { soru: "Uzun süreli kiralamada indirim var mı?", cevap: cesitle(s, "paylas-9", "Genellikle evet; kesin oran talep edilen süreye göre teklifte netleşir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["dizel-forklift-3-5-ton", "makasli-platform-10m"]),
     },
@@ -341,10 +356,10 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: () => [
-            { soru: "Forklift ve platform aynı gün teslim edilebilir mi?", cevap: "Evet, saha planına göre aynı gün veya ayrı günlerde teslimat planlanabilir." },
-            { soru: "İki makine için tek fatura mı kesilir?", cevap: "Talebe göre tek veya ayrı fatura düzenlenebilir; bu detay teklif aşamasında netleşir." },
-            { soru: "Operatör her iki makine için ayrı mı olur?", cevap: "Evet, her makine kendi operatör belgesine tabidir; operatörlü kiralamada bu ayrı ayrı planlanır." },
+        sss: (s) => [
+            { soru: "Forklift ve platform aynı gün teslim edilebilir mi?", cevap: cesitle(s, "paylas-10", "Evet, saha planına göre aynı gün veya ayrı günlerde teslimat planlanabilir.") },
+            { soru: "İki makine için tek fatura mı kesilir?", cevap: cesitle(s, "paylas-11", "Talebe göre tek veya ayrı fatura düzenlenebilir; bu detay teklif aşamasında netleşir.") },
+            { soru: "Operatör her iki makine için ayrı mı olur?", cevap: cesitle(s, "paylas-12", "Evet, her makine kendi operatör belgesine tabidir; operatörlü kiralamada bu ayrı ayrı planlanır.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["elektrikli-forklift-1-3-ton", "agir-hizmet-forklift"]),
     },
@@ -394,10 +409,10 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: () => [
-            { soru: "Periyodik kontrol belgesi kaç ayda bir yenilenir?", cevap: "Mevzuata göre değişir; makinenin güncel belge tarihi teslimat öncesinde paylaşılır." },
-            { soru: "Rüzgârlı havada platform kullanılabilir mi?", cevap: "Üretici sınırları çerçevesinde değerlendirilir; yüksek rüzgârda çalışma ertelenmesi önerilir." },
-            { soru: "Günlük kontrolü kim yapar?", cevap: "Operatörlü kiralamada operatör, operatörsüz kiralamada saha ekibi bu kontrolü üstlenir." },
+        sss: (s) => [
+            { soru: "Periyodik kontrol belgesi kaç ayda bir yenilenir?", cevap: cesitle(s, "paylas-13", "Mevzuata göre değişir; makinenin güncel belge tarihi teslimat öncesinde paylaşılır.") },
+            { soru: "Rüzgârlı havada platform kullanılabilir mi?", cevap: cesitle(s, "paylas-14", "Üretici sınırları çerçevesinde değerlendirilir; yüksek rüzgârda çalışma ertelenmesi önerilir.") },
+            { soru: "Günlük kontrolü kim yapar?", cevap: cesitle(s, "paylas-15", "Operatörlü kiralamada operatör, operatörsüz kiralamada saha ekibi bu kontrolü üstlenir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["makasli-platform-14m", "eklemli-platform-26m"]),
     },
@@ -447,10 +462,10 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: () => [
-            { soru: "Kısa süreli kiralama uzatılabilir mi?", cevap: "Evet, ihtiyaç halinde süre uzatma teklif aşamasında değerlendirilir." },
-            { soru: "Uzun süreli kiralamada bakım kime aittir?", cevap: "Periyodik bakım genellikle kiralayan firma tarafından planlanır; detay sözleşmede belirtilir." },
-            { soru: "Süre ortasında makine değiştirilebilir mi?", cevap: "İhtiyaç değişirse farklı sınıfa geçiş değerlendirilebilir; bu durum önceden bildirilmelidir." },
+        sss: (s) => [
+            { soru: "Kısa süreli kiralama uzatılabilir mi?", cevap: cesitle(s, "paylas-16", "Evet, ihtiyaç halinde süre uzatma teklif aşamasında değerlendirilir.") },
+            { soru: "Uzun süreli kiralamada bakım kime aittir?", cevap: cesitle(s, "paylas-17", "Periyodik bakım genellikle kiralayan firma tarafından planlanır; detay sözleşmede belirtilir.") },
+            { soru: "Süre ortasında makine değiştirilebilir mi?", cevap: cesitle(s, "paylas-18", "İhtiyaç değişirse farklı sınıfa geçiş değerlendirilebilir; bu durum önceden bildirilmelidir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["telehandler-14m", "teleskopik-platform-28m"]),
     },
@@ -502,8 +517,8 @@ const SABLONLAR: Sablon[] = [
         ],
         sss: (s) => [
             { soru: "Bu hatalardan nasıl kaçınılır?", cevap: `${bolgeIlk(s)} sahasının fotoğrafı ve temel ölçüleri paylaşıldığında, doğru sınıf teklif aşamasında birlikte belirlenir.` },
-            { soru: "Yanlış makine seçilirse değiştirilebilir mi?", cevap: "Mümkün olduğunda evet; ancak erken doğru bilgi paylaşımı bu ihtiyacı büyük ölçüde azaltır." },
-            { soru: "Saha fotoğrafı yeterli mi, ölçü de gerekir mi?", cevap: "İkisi birlikte en sağlıklı sonucu verir; fotoğraf geometriyi, ölçü ise kesin sınıfı netleştirir." },
+            { soru: "Yanlış makine seçilirse değiştirilebilir mi?", cevap: cesitle(s, "paylas-19", "Mümkün olduğunda evet; ancak erken doğru bilgi paylaşımı bu ihtiyacı büyük ölçüde azaltır.") },
+            { soru: "Saha fotoğrafı yeterli mi, ölçü de gerekir mi?", cevap: cesitle(s, "paylas-20", "İkisi birlikte en sağlıklı sonucu verir; fotoğraf geometriyi, ölçü ise kesin sınıfı netleştirir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["orumcek-platform-23m", "makasli-platform-18m"]),
     },
@@ -549,10 +564,10 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: () => [
-            { soru: "Bu sorular telefonda mı yoksa yazılı mı sorulmalı?", cevap: "Her ikisi de mümkündür; yazılı kayıt tutmak isteyenler için WhatsApp veya e-posta üzerinden teyit önerilir." },
-            { soru: "Tüm sorulara aynı anda cevap alınabilir mi?", cevap: "Evet, saha bilgisi paylaşıldığında bu sorulara yazılı teklif içinde topluca cevap verilir." },
-            { soru: "Ek soru sorma hakkım var mı?", cevap: "Elbette; teklif öncesi ve sonrasında ek sorular her zaman yanıtlanır." },
+        sss: (s) => [
+            { soru: "Bu sorular telefonda mı yoksa yazılı mı sorulmalı?", cevap: cesitle(s, "paylas-21", "Her ikisi de mümkündür; yazılı kayıt tutmak isteyenler için WhatsApp veya e-posta üzerinden teyit önerilir.") },
+            { soru: "Tüm sorulara aynı anda cevap alınabilir mi?", cevap: cesitle(s, "paylas-22", "Evet, saha bilgisi paylaşıldığında bu sorulara yazılı teklif içinde topluca cevap verilir.") },
+            { soru: "Ek soru sorma hakkım var mı?", cevap: cesitle(s, "paylas-23", "Elbette; teklif öncesi ve sonrasında ek sorular her zaman yanıtlanır.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["makasli-platform-12m", "dizel-forklift"]),
     },
@@ -603,9 +618,9 @@ const SABLONLAR: Sablon[] = [
             },
         ],
         sss: (s) => [
-            { soru: "Elektrikli modelin şarj süresi ne kadar?", cevap: "Modele göre değişir; tam şarj süresi ve saha elektrik altyapısı teklif aşamasında birlikte değerlendirilir." },
-            { soru: "Dizel model iç mekânda kullanılabilir mi?", cevap: "Önerilmez; emisyon ve gürültü nedeniyle kapalı alanlarda elektrikli modeller tercih edilir." },
-            { soru: `${bolgeIlk(s)} sahasında hangi model daha yaygın kullanılıyor?`, cevap: "Saha tipine göre değişir; iç mekân işlerinde elektrikli, açık saha işlerinde dizel model daha sık tercih edilir." },
+            { soru: "Elektrikli modelin şarj süresi ne kadar?", cevap: cesitle(s, "paylas-24", "Modele göre değişir; tam şarj süresi ve saha elektrik altyapısı teklif aşamasında birlikte değerlendirilir.") },
+            { soru: "Dizel model iç mekânda kullanılabilir mi?", cevap: cesitle(s, "paylas-25", "Önerilmez; emisyon ve gürültü nedeniyle kapalı alanlarda elektrikli modeller tercih edilir.") },
+            { soru: `${bolgeIlk(s)} sahasında hangi model daha yaygın kullanılıyor?`, cevap: cesitle(s, "paylas-26", "Saha tipine göre değişir; iç mekân işlerinde elektrikli, açık saha işlerinde dizel model daha sık tercih edilir.") },
         ],
         ilgiliUrun: (s) => ilgiliUrunSec(s, ["elektrikli-forklift", "eklemli-platform-16m"]),
     },

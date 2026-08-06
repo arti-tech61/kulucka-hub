@@ -1,3 +1,17 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// ⛔ KOPYA İÇERİK YASAĞI — GEÇİLMEZ KURAL
+//
+// Bu dosya ~420 canlı sayfa üretir (85+ domain × sayfa/domain).
+// Buraya yazacağınız TEK BİR SABİT CÜMLE, o kadar sayfada birebir tekrarlanır.
+//
+//   ❌ cevap: "Her iki seçenek de sunulur."          → 85 domainde aynı
+//   ❌ giris: `${bolge} bölgesinde hizmet veriyoruz.` → mad-lib, hâlâ kopya
+//   ✅ varyantSec(site, `tuz-${slug}`, [4-6 YAPISAL OLARAK FARKLI varyant])
+//   ✅ kur(site, "tuz", [5 açılış], [5 gövde], [5 kapanış])  ← yüksek hacimde
+//
+// Değişiklikten sonra ZORUNLU:  npm run kontrol:icerik   (eşik: örtüşme < %20)
+// Tam kurallar: CLAUDE.md · docs/SEO-ICERIK-URETIMI.md
+// ═══════════════════════════════════════════════════════════════════════════
 // Anahtar kelime eşleşmeli SEO/blog sayfaları: "İzmir manlift kiralama",
 // "İzmir makaslı platform kiralama" gibi gerçek arama terimlerine yakın
 // başlıklar. Google'da üst sıralardaki rakip sayfaların ele aldığı konular
@@ -5,6 +19,7 @@
 // teslimat hızı) referans alınarak — kopyalanmadan, sitenin kendi
 // bolge/uzmanlik/telefon verisiyle özgün olarak — üretildi.
 import type { SiteIcerik } from "./siteler";
+import { cesitle } from "./varyant";
 import type { BlogYazisi } from "./blog";
 import { blogGorsel } from "./blog";
 import { urunKatalogu } from "./urun-katalogu";
@@ -64,7 +79,7 @@ const SABLONLAR: Sablon[] = [
         slugTaban: "manlift-kiralama",
         kategori: "Ürün Rehberi",
         baslik: (il) => `${il} Manlift Kiralama`,
-        ozet: (il) => `${il} bölgesinde manlift (yükseltici platform) kiralama; makine sınıfı, kapsanan ilçeler ve teslimat süreci hakkında güncel rehber.`,
+        ozet: (il, s) => `${il} bölgesinde manlift (yükseltici platform) kiralama; makine sınıfı, kapsanan ilçeler ve teslimat süreci hakkında güncel rehber.`,
         giris: (il, site) => `${ilIfade(il)} manlift kiralama arayan firmalar için doğru makine sınıfı, sahanın erişim geometrisi ve zemin koşuluyla belirlenir. ${site.uzmanlik} kapsamındaki işlerde bu rehber, ilk aramadan yazılı teklife kadar sürece bakıyor.`,
         bolumler: (il, site) => {
             const ilceListesi = ilceler(site);
@@ -94,18 +109,18 @@ const SABLONLAR: Sablon[] = [
                 },
             ];
         },
-        sss: (il) => [
-            { soru: `${il} genelinde manlift teslimat süresi ne kadar?`, cevap: "Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir." },
-            { soru: "Manlift ile makaslı platform aynı şey mi?", cevap: "Manlift genellikle tüm yükseltici platform ailesini kapsayan genel bir terimdir; makaslı platform bunun bir alt sınıfıdır." },
-            { soru: "Operatörlü kiralama mümkün mü?", cevap: "Evet; operatörlü kiralamada yeterlilik belgesi ve tarih uygunluğu teklif aşamasında doğrulanır." },
+        sss: (il, s) => [
+            { soru: `${il} genelinde manlift teslimat süresi ne kadar?`, cevap: cesitle(s, "anahta-1", "Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir.") },
+            { soru: "Manlift ile makaslı platform aynı şey mi?", cevap: cesitle(s, "anahta-2", "Manlift genellikle tüm yükseltici platform ailesini kapsayan genel bir terimdir; makaslı platform bunun bir alt sınıfıdır.") },
+            { soru: "Operatörlü kiralama mümkün mü?", cevap: cesitle(s, "anahta-3", "Evet; operatörlü kiralamada yeterlilik belgesi ve tarih uygunluğu teklif aşamasında doğrulanır.") },
         ],
     },
     {
         slugTaban: "makasli-platform-kiralama-rehberi",
         kategori: "Ürün Rehberi",
         baslik: (il) => `${il} Makaslı Platform Kiralama`,
-        ozet: (il) => `${il} bölgesinde makaslı platform kiralama: hangi metraj sınıfı seçilir, zemin ve kapasite nasıl değerlendirilir, kiralama süreci nasıl işler?`,
-        giris: (il) => `${ilIfade(il)} makaslı platform kiralamak, çoğu iç mekân ve düz zeminli açık saha işinde ilk tercihtir. Bu rehber, doğru metraj sınıfını seçmek için bakılması gereken noktaları özetliyor.`,
+        ozet: (il, s) => `${il} bölgesinde makaslı platform kiralama: hangi metraj sınıfı seçilir, zemin ve kapasite nasıl değerlendirilir, kiralama süreci nasıl işler?`,
+        giris: (il, s) => `${ilIfade(il)} makaslı platform kiralamak, çoğu iç mekân ve düz zeminli açık saha işinde ilk tercihtir. Bu rehber, doğru metraj sınıfını seçmek için bakılması gereken noktaları özetliyor.`,
         bolumler: (il, site) => [
             {
                 baslik: "Metraj sınıfı nasıl belirlenir?",
@@ -129,18 +144,18 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: (il) => [
-            { soru: `${il}'de makaslı platform kiralama fiyatını ne belirler?`, cevap: "Metraj sınıfı, kiralama süresi, nakliye mesafesi ve operatör tercihi fiyatı belirleyen ana kalemlerdir; kesin bedel yazılı teklifte netleşir." },
-            { soru: "Hangi metraj en çok tercih ediliyor?", cevap: "Sahanın ihtiyacına göre değişir; iç mekân işlerinde 8-12 metre, yüksek sanayi hollerinde 14 metre ve üzeri sınıflar daha sık tercih edilir." },
-            { soru: "Aynı gün teslimat mümkün mü?", cevap: "Araç ve makine uygunluğuna göre değerlendirilir; acil ihtiyaçlarda öncelikli planlama yapılabilir." },
+        sss: (il, s) => [
+            { soru: `${il}'de makaslı platform kiralama fiyatını ne belirler?`, cevap: cesitle(s, "anahta-4", "Metraj sınıfı, kiralama süresi, nakliye mesafesi ve operatör tercihi fiyatı belirleyen ana kalemlerdir; kesin bedel yazılı teklifte netleşir.") },
+            { soru: "Hangi metraj en çok tercih ediliyor?", cevap: cesitle(s, "anahta-5", "Sahanın ihtiyacına göre değişir; iç mekân işlerinde 8-12 metre, yüksek sanayi hollerinde 14 metre ve üzeri sınıflar daha sık tercih edilir.") },
+            { soru: "Aynı gün teslimat mümkün mü?", cevap: cesitle(s, "anahta-6", "Araç ve makine uygunluğuna göre değerlendirilir; acil ihtiyaçlarda öncelikli planlama yapılabilir.") },
         ],
     },
     {
         slugTaban: "manlift-kiralama-fiyatlarini-etkileyen-faktorler",
         kategori: "Maliyet",
         baslik: (il) => `${il} Manlift Kiralama Fiyatları Neye Göre Değişir?`,
-        ozet: (il) => `${il} bölgesinde manlift ve platform kiralama bedelini belirleyen kalemler: makine sınıfı, süre, nakliye ve operatör tercihi.`,
-        giris: (il) => `${ilIfade(il)} manlift kiralama fiyatı tek bir sayı değildir; makine sınıfı, kiralama süresi, nakliye mesafesi ve operatör tercihi birlikte bedeli belirler.`,
+        ozet: (il, s) => `${il} bölgesinde manlift ve platform kiralama bedelini belirleyen kalemler: makine sınıfı, süre, nakliye ve operatör tercihi.`,
+        giris: (il, s) => `${ilIfade(il)} manlift kiralama fiyatı tek bir sayı değildir; makine sınıfı, kiralama süresi, nakliye mesafesi ve operatör tercihi birlikte bedeli belirler.`,
         bolumler: (il, site) => [
             {
                 baslik: "Makine sınıfı ve süre",
@@ -164,18 +179,18 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: (il) => [
+        sss: (il, s) => [
             { soru: "En ucuz makine her zaman doğru tercih mi?", cevap: `Hayır; ${il} sahasının ihtiyacını karşılamayan bir makine iş gecikmesine yol açabilir, bu da toplamda daha maliyetli olabilir.` },
-            { soru: "Fiyat teklifi ne kadar sürede geliyor?", cevap: "Saha bilgisi (yükseklik, zemin, süre, konum) paylaşıldığında yazılı teklif kısa sürede iletilir." },
-            { soru: "Uzun süreli kiralamada indirim var mı?", cevap: "Genellikle evet; kesin oran talep edilen süreye göre teklifte netleşir." },
+            { soru: "Fiyat teklifi ne kadar sürede geliyor?", cevap: cesitle(s, "anahta-7", "Saha bilgisi (yükseklik, zemin, süre, konum) paylaşıldığında yazılı teklif kısa sürede iletilir.") },
+            { soru: "Uzun süreli kiralamada indirim var mı?", cevap: cesitle(s, "anahta-8", "Genellikle evet; kesin oran talep edilen süreye göre teklifte netleşir.") },
         ],
     },
     {
         slugTaban: "manlift-kiralama-nasil-yapilir",
         kategori: "Karşılaştırma",
         baslik: (il) => `${il}'de Manlift Kiralama Nasıl Yapılır?`,
-        ozet: (il) => `${il} bölgesinde manlift kiralama adım adım süreç: saha bilgisi, makine seçimi, teklif ve teslimat.`,
-        giris: (il) => `${ilIfade(il)} manlift kiralamak isteyenler için süreç dört adımda özetlenebilir: saha bilgisi paylaşımı, makine sınıfı seçimi, yazılı teklif ve teslimat.`,
+        ozet: (il, s) => `${il} bölgesinde manlift kiralama adım adım süreç: saha bilgisi, makine seçimi, teklif ve teslimat.`,
+        giris: (il, s) => `${ilIfade(il)} manlift kiralamak isteyenler için süreç dört adımda özetlenebilir: saha bilgisi paylaşımı, makine sınıfı seçimi, yazılı teklif ve teslimat.`,
         bolumler: (il, site) => [
             {
                 baslik: "1. Saha bilgisini paylaşın",
@@ -202,17 +217,17 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: (il) => [
+        sss: (il, s) => [
             { soru: "Saha ziyareti şart mı?", cevap: `Çoğu durumda değil; ${il} sahasının fotoğraf ve ölçüleri paylaşıldığında uzaktan da doğru sınıf belirlenebilir.` },
-            { soru: "Kiralama için minimum süre var mı?", cevap: "Günlük kiralama seçenekleri mevcuttur; asgari süre makine sınıfına göre teklif aşamasında belirtilir." },
-            { soru: "Teklif bağlayıcı mı?", cevap: "Yazılı teklif, belirtilen saha bilgisi ve süre için geçerlidir; saha koşulu değişirse teklif güncellenir." },
+            { soru: "Kiralama için minimum süre var mı?", cevap: cesitle(s, "anahta-9", "Günlük kiralama seçenekleri mevcuttur; asgari süre makine sınıfına göre teklif aşamasında belirtilir.") },
+            { soru: "Teklif bağlayıcı mı?", cevap: cesitle(s, "anahta-10", "Yazılı teklif, belirtilen saha bilgisi ve süre için geçerlidir; saha koşulu değişirse teklif güncellenir.") },
         ],
     },
     {
         slugTaban: "forklift-kiralama-rehberi",
         kategori: "Ürün Rehberi",
         baslik: (il) => `${il} Forklift Kiralama`,
-        ozet: (il) => `${il} bölgesinde forklift kiralama: kapasite sınıfı, elektrikli/dizel seçimi ve saha koşuluna göre doğru model.`,
+        ozet: (il, s) => `${il} bölgesinde forklift kiralama: kapasite sınıfı, elektrikli/dizel seçimi ve saha koşuluna göre doğru model.`,
         giris: (il, site) => `${ilIfade(il)} forklift kiralamak isteyen ${site.uzmanlik.toLocaleLowerCase("tr-TR")} kapsamındaki firmalar için kapasite ve yakıt tipi seçimi, sahanın günlük yük profiline göre belirlenir.`,
         bolumler: (il, site) => [
             {
@@ -236,18 +251,18 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: (il) => [
-            { soru: `${il}'de hangi forklift kapasitesi en çok kiralanıyor?`, cevap: "Sahanın yük profiline göre değişir; depo içi işlerde 1,5-3 ton, ağır sanayi ve açık saha işlerinde 3-5 ton ve üzeri sınıflar daha sık tercih edilir." },
-            { soru: "Forklift operatörlü mü kiralanır?", cevap: "Hem operatörlü hem operatörsüz seçenek sunulur; operatörsüz kiralamada kullanıcının forklift operatör belgesine sahip olması gerekir." },
-            { soru: "Dolgu mu havalı lastik mi tercih edilmeli?", cevap: "Delinme riski olan sahalarda dolgu (solid) lastik, düz beton zeminlerde havalı lastik değerlendirilir." },
+        sss: (il, s) => [
+            { soru: `${il}'de hangi forklift kapasitesi en çok kiralanıyor?`, cevap: cesitle(s, "anahta-11", "Sahanın yük profiline göre değişir; depo içi işlerde 1,5-3 ton, ağır sanayi ve açık saha işlerinde 3-5 ton ve üzeri sınıflar daha sık tercih edilir.") },
+            { soru: "Forklift operatörlü mü kiralanır?", cevap: cesitle(s, "anahta-12", "Hem operatörlü hem operatörsüz seçenek sunulur; operatörsüz kiralamada kullanıcının forklift operatör belgesine sahip olması gerekir.") },
+            { soru: "Dolgu mu havalı lastik mi tercih edilmeli?", cevap: cesitle(s, "anahta-13", "Delinme riski olan sahalarda dolgu (solid) lastik, düz beton zeminlerde havalı lastik değerlendirilir.") },
         ],
     },
     {
         slugTaban: "eklemli-platform-kiralama-rehberi",
         kategori: "Ürün Rehberi",
         baslik: (il) => `${il} Eklemli Platform Kiralama`,
-        ozet: (il) => `${il} bölgesinde eklemli (akrobat) platform kiralama; engel aşan erişim gerektiren işlerde doğru sınıf seçimi.`,
-        giris: (il) => `${ilIfade(il)} eklemli platform kiralamak, çalışma noktasının önünde bir engel (kolon, boru hattı, çatı çıkıntısı) olduğunda devreye giren doğru tercihtir.`,
+        ozet: (il, s) => `${il} bölgesinde eklemli (akrobat) platform kiralama; engel aşan erişim gerektiren işlerde doğru sınıf seçimi.`,
+        giris: (il, s) => `${ilIfade(il)} eklemli platform kiralamak, çalışma noktasının önünde bir engel (kolon, boru hattı, çatı çıkıntısı) olduğunda devreye giren doğru tercihtir.`,
         bolumler: (il, site) => [
             {
                 baslik: "Eklemli platform ne zaman seçilir?",
@@ -269,10 +284,10 @@ const SABLONLAR: Sablon[] = [
                 ],
             },
         ],
-        sss: (il) => [
-            { soru: "Eklemli platform ile teleskopik platform farkı nedir?", cevap: "Eklemli bomun kırılan yapısı engel aşmaya, teleskopik bomun düz yapısı ise aynı yükseklikte daha uzun yatay erişime uygundur." },
-            { soru: `${il}'de iç mekânda eklemli platform kullanılır mı?`, cevap: "Evet; elektrikli eklemli modeller sıfır emisyon ve iz bırakmayan lastikle kapalı alanlarda kullanılır." },
-            { soru: "Eklemli platform kaç kişilik sepete sahip?", cevap: "Modele göre değişir; kesin kapasite ve sepet ölçüsü teklif aşamasında paylaşılır." },
+        sss: (il, s) => [
+            { soru: "Eklemli platform ile teleskopik platform farkı nedir?", cevap: cesitle(s, "anahta-14", "Eklemli bomun kırılan yapısı engel aşmaya, teleskopik bomun düz yapısı ise aynı yükseklikte daha uzun yatay erişime uygundur.") },
+            { soru: `${il}'de iç mekânda eklemli platform kullanılır mı?`, cevap: cesitle(s, "anahta-15", "Evet; elektrikli eklemli modeller sıfır emisyon ve iz bırakmayan lastikle kapalı alanlarda kullanılır.") },
+            { soru: "Eklemli platform kaç kişilik sepete sahip?", cevap: cesitle(s, "anahta-16", "Modele göre değişir; kesin kapasite ve sepet ölçüsü teklif aşamasında paylaşılır.") },
         ],
     },
 ];

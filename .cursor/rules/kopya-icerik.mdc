@@ -1,0 +1,28 @@
+---
+description: Kopya içerik yasağı — 85 domainli çok-kiracılı sitede şablon metni yazma kuralları
+globs: ["src/lib/**/*.ts"]
+alwaysApply: true
+---
+
+# ⛔ KOPYA İÇERİK YASAKTIR (GEÇİLMEZ KURAL)
+
+Bu repo 85+ domaini tek kod tabanından yayınlar. `src/lib/` şablonlarına
+yazılan tek bir sabit cümle 85–900 canlı sayfada birebir tekrarlanır.
+Google bunu doorway/kopya içerik sayar.
+
+## Yasak
+- Şablonda sabit cümle: `cevap: "Her iki seçenek de sunulur..."`
+- Sadece değişken enjeksiyonu: `` `${bolge} bölgesinde hizmet sunuyoruz.` ``
+  (85 sayfa arasındaki tek fark bölge adıysa bu HÂLÂ kopya içeriktir)
+
+## Zorunlu
+- `varyantSec(site, tuz, [...])` ile en az 4-6 YAPISAL OLARAK FARKLI varyant
+- Yüksek hacimli alanlarda `kur()` kompozisyonel üretici (3 parça × 5 seçenek)
+- Site verisini (`site.bolge`, `site.uzmanlik`) cümlenin İÇİNE dokuyun
+- Tuz sayfayı da tanımlasın: `bolge-${slug}-giris`
+- Bilgi uydurmayın — çeşitlilik anlatımdan gelir, uydurma veriden değil
+
+## Ölçüm
+Değişiklik sonrası sayfa seviyesi 8-gram örtüşmesi **%20 altında** olmalı.
+
+Tam kural seti: `CLAUDE.md`

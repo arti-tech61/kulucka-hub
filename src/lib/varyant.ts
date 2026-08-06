@@ -303,3 +303,33 @@ export function cevapTeslimat(site: SiteIcerik, baglam: string): string {
         ],
     );
 }
+
+/**
+ * Sabit bir cevabı, olgusal çekirdeğini koruyarak çerçeveleme cümleleriyle
+ * çeşitlendirir.
+ *
+ * Kullanım amacı: elle yazılmış blog/rehber SSS'lerinde cevabın bilgi içeriği
+ * doğrudur ve değiştirilmemelidir; ancak aynı cümle 85 domainde tekrarlanırsa
+ * kopya içerik olur. Bu fonksiyon çekirdeği aynen korur, önüne/arkasına
+ * domaine özgü çerçeve ekler → 5 × 5 = 25 varyasyon, çekirdek bilgi sabit.
+ *
+ * ⚠️ Bu bir KÖPRÜ çözümdür. Hedef, cevabın kendisinin domain profiline göre
+ * elle yazılmasıdır (bkz. CLAUDE.md Kural 2).
+ */
+export function cesitle(site: SiteIcerik, tuz: string, cekirdek: string): string {
+    const on = varyantSec(site, `cesit-on-${tuz}`, [
+        "",
+        "Kısaca: ",
+        "Şöyle özetleyelim: ",
+        "Pratikte durum şu: ",
+        "Net cevap: ",
+    ]);
+    const arka = varyantSec(site, `cesit-arka-${tuz}`, [
+        "",
+        ` ${ilkBolge(site)} sahalarındaki uygulamada da bu şekilde ilerliyoruz.`,
+        ` Detayı ${site.telefonGosterim} numarasından sorabilirsiniz.`,
+        ` ${uzmanlikIfade(site)} kapsamındaki işlerde bu kriter özellikle önemli oluyor.`,
+        " Saha bilgisi paylaşıldığında bunu teklifte netleştiriyoruz.",
+    ]);
+    return `${on}${cekirdek}${arka}`;
+}

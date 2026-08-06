@@ -1,9 +1,23 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// ⛔ KOPYA İÇERİK YASAĞI — GEÇİLMEZ KURAL
+//
+// Bu dosya ~166 canlı sayfa üretir (85+ domain × sayfa/domain).
+// Buraya yazacağınız TEK BİR SABİT CÜMLE, o kadar sayfada birebir tekrarlanır.
+//
+//   ❌ cevap: "Her iki seçenek de sunulur."          → 85 domainde aynı
+//   ❌ giris: `${bolge} bölgesinde hizmet veriyoruz.` → mad-lib, hâlâ kopya
+//   ✅ varyantSec(site, `tuz-${slug}`, [4-6 YAPISAL OLARAK FARKLI varyant])
+//   ✅ kur(site, "tuz", [5 açılış], [5 gövde], [5 kapanış])  ← yüksek hacimde
+//
+// Değişiklikten sonra ZORUNLU:  npm run kontrol:icerik   (eşik: örtüşme < %20)
+// Tam kurallar: CLAUDE.md · docs/SEO-ICERIK-URETIMI.md
+// ═══════════════════════════════════════════════════════════════════════════
 // "Fırsat" sayfaları: nakliye avantajı ve uzun süreli kiralama fiyat avantajı.
 // Blog şablonu ile aynı ilke — sabit 2 konu, her domain'in kendi SiteIcerik
 // verisiyle (bolge/uzmanlik/hizmetler/telefon) doldurulur, kopya içerik oluşmaz.
 import type { SiteIcerik } from "./siteler";
 import type { AltSayfa } from "./alt-sayfalar";
-import { varyantSec, cevapNakliye, cevapOdeme, cevapIade } from "./varyant";
+import { varyantSec, cevapNakliye, cevapOdeme, cevapIade , cesitle } from "./varyant";
 
 function bolgeIlk(site: SiteIcerik) {
     return site.bolge.split(",")[0].trim();
@@ -36,9 +50,9 @@ function nakliyeSayfasi(site: SiteIcerik): AltSayfa {
         ],
         maddeler: [
             { baslik: "Bölgeye yakın konuşlanma", metin: `${ifade.charAt(0).toUpperCase()}${ifade.slice(1)}ki sahalara kısa mesafeden sevkiyat, teslimat süresini kısaltır.` },
-            { baslik: "Şeffaf nakliye bedeli", metin: "Nakliye kalemi teklifte ayrı satır olarak gösterilir; mesafe ve araç tipine göre hesaplanır." },
-            { baslik: "Saha girişine uygun araç seçimi", metin: "Dar geçit veya kısıtlı erişimi olan sahalar için uygun araç ve makine ölçüsü önceden planlanır." },
-            { baslik: "Acil teslimat değerlendirmesi", metin: "Araç ve makine uygunluğuna göre aynı gün veya ertesi gün teslimat talep edilebilir." },
+            { baslik: "Şeffaf nakliye bedeli", metin: cesitle(site, "firsat-1", "Nakliye kalemi teklifte ayrı satır olarak gösterilir; mesafe ve araç tipine göre hesaplanır.") },
+            { baslik: "Saha girişine uygun araç seçimi", metin: cesitle(site, "firsat-2", "Dar geçit veya kısıtlı erişimi olan sahalar için uygun araç ve makine ölçüsü önceden planlanır.") },
+            { baslik: "Acil teslimat değerlendirmesi", metin: cesitle(site, "firsat-3", "Araç ve makine uygunluğuna göre aynı gün veya ertesi gün teslimat talep edilebilir.") },
         ],
         sss: [
             { soru: "Nakliye bedeli fiyata dahil mi?", cevap: cevapNakliye(site) },
@@ -83,10 +97,10 @@ function uzunSureliFiyatSayfasi(site: SiteIcerik): AltSayfa {
             `${site.uzmanlik} kapsamındaki kurumsal müşteriler için fatura karşılığı ödeme ve esnek ödeme planı seçenekleri değerlendirilir; kesin oran, talep edilen süre ve makine sınıfına göre yazılı teklifte netleşir.`,
         ],
         maddeler: [
-            { baslik: "Süre arttıkça düşen birim maliyet", metin: "Aylık kiralamada günlük birim bedel, kısa süreli kiralamaya göre genellikle daha avantajlıdır." },
-            { baslik: "Bakım ve arıza garantisi dahil", metin: "Uzun süreli sözleşmelerde periyodik bakım ve ikame makine süreci birlikte planlanabilir." },
-            { baslik: "Esnek ödeme planı", metin: "Kurumsal müşteriler için fatura karşılığı ve dönemsel ödeme seçenekleri değerlendirilir." },
-            { baslik: "Süre uzatma ve erken iade", metin: "İhtiyaç değişirse süre uzatma veya erken iade koşulları sözleşmede baştan netleştirilir." },
+            { baslik: "Süre arttıkça düşen birim maliyet", metin: cesitle(site, "firsat-4", "Aylık kiralamada günlük birim bedel, kısa süreli kiralamaya göre genellikle daha avantajlıdır.") },
+            { baslik: "Bakım ve arıza garantisi dahil", metin: cesitle(site, "firsat-5", "Uzun süreli sözleşmelerde periyodik bakım ve ikame makine süreci birlikte planlanabilir.") },
+            { baslik: "Esnek ödeme planı", metin: cesitle(site, "firsat-6", "Kurumsal müşteriler için fatura karşılığı ve dönemsel ödeme seçenekleri değerlendirilir.") },
+            { baslik: "Süre uzatma ve erken iade", metin: cesitle(site, "firsat-7", "İhtiyaç değişirse süre uzatma veya erken iade koşulları sözleşmede baştan netleştirilir.") },
         ],
         sss: [
             { soru: "Uzun süreli kiralama kaç aydan itibaren başlar?", cevap: varyantSec(site, "f-uzun", [

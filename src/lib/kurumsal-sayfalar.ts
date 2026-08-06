@@ -1,5 +1,20 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// ⛔ KOPYA İÇERİK YASAĞI — GEÇİLMEZ KURAL
+//
+// Bu dosya ~255 canlı sayfa üretir (85+ domain × sayfa/domain).
+// Buraya yazacağınız TEK BİR SABİT CÜMLE, o kadar sayfada birebir tekrarlanır.
+//
+//   ❌ cevap: "Her iki seçenek de sunulur."          → 85 domainde aynı
+//   ❌ giris: `${bolge} bölgesinde hizmet veriyoruz.` → mad-lib, hâlâ kopya
+//   ✅ varyantSec(site, `tuz-${slug}`, [4-6 YAPISAL OLARAK FARKLI varyant])
+//   ✅ kur(site, "tuz", [5 açılış], [5 gövde], [5 kapanış])  ← yüksek hacimde
+//
+// Değişiklikten sonra ZORUNLU:  npm run kontrol:icerik   (eşik: örtüşme < %20)
+// Tam kurallar: CLAUDE.md · docs/SEO-ICERIK-URETIMI.md
+// ═══════════════════════════════════════════════════════════════════════════
 import type { SiteIcerik } from "@/lib/siteler";
 import type { AltSayfa } from "@/lib/alt-sayfalar";
+import { cesitle } from "@/lib/varyant";
 
 export interface KurumsalSayfa extends AltSayfa {
     indexlenebilir: boolean;
@@ -24,7 +39,7 @@ export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
                 { baslik: "İşleten", metin: `${site.anaSite.ad}; iletişim ve talep değerlendirmesinden sorumludur.` },
                 { baslik: "Hizmet alanı", metin: site.bolge },
                 { baslik: "Uzmanlık", metin: site.uzmanlik },
-                { baslik: "Şeffaflık", metin: "Bu site bağımsız bir şube veya farklı bir şirket izlenimi vermez; sorumlu işletmeyi açıkça gösterir." },
+                { baslik: "Şeffaflık", metin: cesitle(site, "kurums-1", "Bu site bağımsız bir şube veya farklı bir şirket izlenimi vermez; sorumlu işletmeyi açıkça gösterir.") },
             ],
         },
         {
@@ -43,8 +58,8 @@ export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
             maddeler: [
                 { baslik: "Telefon", metin: site.telefonGosterim },
                 { baslik: "E-posta", metin: site.eposta },
-                { baslik: "Yanıt kapsamı", metin: "Uygunluk, gerekli ek bilgiler ve sonraki adımlar yazılı biçimde bildirilir." },
-                { baslik: "Kesinleşme", metin: "Fiyat, tarih ve kapsam yalnız yazılı teklif veya teyitle kesinleşir." },
+                { baslik: "Yanıt kapsamı", metin: cesitle(site, "kurums-2", "Uygunluk, gerekli ek bilgiler ve sonraki adımlar yazılı biçimde bildirilir.") },
+                { baslik: "Kesinleşme", metin: cesitle(site, "kurums-3", "Fiyat, tarih ve kapsam yalnız yazılı teklif veya teyitle kesinleşir.") },
             ],
         },
         {
@@ -61,10 +76,10 @@ export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
                 "Gelen yanıtta kapsam dışı kalemleri, nakliye veya operatör seçeneğini, belge sorumluluğunu, iptal şartını ve geçerlilik süresini kontrol edin. Sözlü bilgi yerine yazılı teyit isteyin.",
             ],
             maddeler: [
-                { baslik: "1. İş tanımı", metin: "Yapılacak işi, hedef noktayı ve erişim engellerini tek paragrafta açıklayın." },
+                { baslik: "1. İş tanımı", metin: cesitle(site, "kurums-4", "Yapılacak işi, hedef noktayı ve erişim engellerini tek paragrafta açıklayın.") },
                 { baslik: "2. Yer ve zaman", metin: `Adres, saha giriş saatleri, başlangıç tarihi ve tahmini süreyi ekleyin. Bölge: ${site.bolge}.` },
                 { baslik: "3. Teknik koşullar", metin: bilgiSitesi ? "Kullanım senaryosu ve yetkinlik hedefini yazın." : "Yükseklik, yatay erişim, zemin, kapı ve koridor ölçülerini ekleyin." },
-                { baslik: "4. Yazılı kontrol", metin: "Kapsam, sorumluluk, ücret ve tarih bilgilerini tek belgede doğrulayın." },
+                { baslik: "4. Yazılı kontrol", metin: cesitle(site, "kurums-5", "Kapsam, sorumluluk, ücret ve tarih bilgilerini tek belgede doğrulayın.") },
             ],
         },
         {

@@ -1,3 +1,17 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// ⛔ KOPYA İÇERİK YASAĞI — GEÇİLMEZ KURAL
+//
+// Bu dosya ~935 canlı sayfa üretir (85+ domain × sayfa/domain).
+// Buraya yazacağınız TEK BİR SABİT CÜMLE, o kadar sayfada birebir tekrarlanır.
+//
+//   ❌ cevap: "Her iki seçenek de sunulur."          → 85 domainde aynı
+//   ❌ giris: `${bolge} bölgesinde hizmet veriyoruz.` → mad-lib, hâlâ kopya
+//   ✅ varyantSec(site, `tuz-${slug}`, [4-6 YAPISAL OLARAK FARKLI varyant])
+//   ✅ kur(site, "tuz", [5 açılış], [5 gövde], [5 kapanış])  ← yüksek hacimde
+//
+// Değişiklikten sonra ZORUNLU:  npm run kontrol:icerik   (eşik: örtüşme < %20)
+// Tam kurallar: CLAUDE.md · docs/SEO-ICERIK-URETIMI.md
+// ═══════════════════════════════════════════════════════════════════════════
 // /hizmet/[slug] SEO/GEO landing sayfaları — "Hizmetlerimiz" kartlarının tıklama
 // hedefi. Aynı bolge-sayfalari.ts ilkesi: sabit şablon (11 hizmet konusu),
 // sitenin kendi bolge/uzmanlik/telefon verisiyle doldurulur → kopya içerik olmaz.
