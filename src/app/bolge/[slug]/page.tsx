@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { bolgeSayfalari, bolgeSayfasiBul } from "@/lib/bolge-sayfalari";
+import { bolgeHizmetSayfalari } from "@/lib/bolge-hizmet-sayfalari";
 import { GaEtiketi } from "@/components/ga";
 import { TicariTeklif } from "@/components/ticari-cerceve";
 import { Kabuk } from "@/components/temalar";
@@ -44,6 +45,8 @@ export default async function BolgeSayfasi({ params }: { params: Promise<{ slug:
     if (!bolge) notFound();
 
     const digerBolgeler = bolgeSayfalari(site).filter((b) => b.slug !== slug).slice(0, 3);
+    // Bu bölgede sunulan hizmetlerin kesişim sayfaları (varsa)
+    const bolgeHizmetleri = bolgeHizmetSayfalari(site).filter((s) => s.bolgeSlug === slug);
     const gorsel = BOLGE_GORSELLERI[bolge.slug.length % BOLGE_GORSELLERI.length];
 
     // Önce bölge adının kendisinde (ör. "İkitelli OSB") ilçe/il eşleşmesi ara;
@@ -113,6 +116,19 @@ export default async function BolgeSayfasi({ params }: { params: Promise<{ slug:
                         {bolge.ilgiliUrun.baslik} →
                     </Link>
                 </div>
+
+                {bolgeHizmetleri.length > 0 && (
+                    <>
+                        <h2 className="mt-16 text-2xl font-black text-fg">{bolge.bolgeAdi} Bölgesinde Sunduğumuz Hizmetler</h2>
+                        <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                            {bolgeHizmetleri.map((s) => (
+                                <Link key={s.slug} href={`/bolge/${s.slug}`} className="rounded-2xl border border-border bg-elevated p-4 font-bold text-accent hover:text-accent-hover">
+                                    {s.konu.baslikTaban} →
+                                </Link>
+                            ))}
+                        </div>
+                    </>
+                )}
 
                 <h2 className="mt-16 text-2xl font-black tracking-tight text-fg">Sık sorulan sorular</h2>
                 <div className="mt-4 space-y-3">

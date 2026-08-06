@@ -53,7 +53,7 @@ export function uzmanlikIfade(site: SiteIcerik): string {
 //
 // kur(site, tuz, ...parcalar) her parçayı kendi tuzuyla seçer ve boşlukla birleştirir.
 // ---------------------------------------------------------------------------
-function kur(site: SiteIcerik, tuz: string, ...parcalar: readonly string[][]): string {
+export function kur(site: SiteIcerik, tuz: string, ...parcalar: readonly string[][]): string {
     return parcalar
         .map((p, i) => varyantSec(site, `${tuz}#${i}`, p))
         .filter(Boolean)

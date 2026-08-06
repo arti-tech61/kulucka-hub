@@ -86,6 +86,7 @@ npm run kontrol:icerik
 | 2026-08-06 sonrası | hizmet | %11.6 ✅ |
 | (referans) | ürün | %6.8 ✅ |
 | 2026-08-06 sonrası | ürün kategori metni | %7.8 ✅ |
+| 2026-08-06 | bölge×hizmet kesişimi | %12.8 ✅ |
 
 ---
 
@@ -168,7 +169,8 @@ Bu dosyalarda metin değiştiriyorsanız Kural 1 mutlaka geçerlidir:
 | Dosya | Ağdaki sayfa sayısı | Durum |
 |---|---|---|
 | `src/lib/varyant.ts` | (motor) | Varyant/kompozisyon altyapısı — yeni ortak cümle buraya |
-| `src/lib/bolge-sayfalari.ts` | ~595 | ✅ varyantlandı |
+| `src/lib/bolge-sayfalari.ts` | ~586 | ✅ varyantlandı |
+| `src/lib/bolge-hizmet-sayfalari.ts` | ~833 | ✅ varyant + kompozisyon (sınırlı kesişim) |
 | `src/lib/hizmet-sayfalari.ts` | ~935 | ✅ varyantlandı |
 | `src/lib/firsat-sayfalar.ts` | ~166 | ✅ varyantlandı |
 | `src/lib/alt-sayfalar.ts` | ~280 | ✅ okuma anında varyantlanıyor |

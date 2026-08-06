@@ -146,6 +146,7 @@ function responsiveKontrol() {
 // ---------------------------------------------------------------------------
 const SABLON_DOSYALARI = [
     "src/lib/bolge-sayfalari.ts",
+    "src/lib/bolge-hizmet-sayfalari.ts",
     "src/lib/hizmet-sayfalari.ts",
     "src/lib/firsat-sayfalar.ts",
     "src/lib/kurumsal-sayfalar.ts",
@@ -197,6 +198,7 @@ function sitemapKontrol() {
     if (!sm) return;
     const uretenler = [
         ["bolgeSayfalari", "/bolge/"],
+        ["bolgeHizmetSayfalari", "/bolge/[slug]/[hizmet]"],
         ["hizmetSayfalari", "/hizmet/"],
         ["hostAltSayfalari", "/[sayfa]"],
         ["kurumsalSayfalar", "/[sayfa] kurumsal"],
