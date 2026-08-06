@@ -2,29 +2,14 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { TicariCerceve } from "@/components/ticari-cerceve";
 import type { TemaModulu } from "./tipler";
-import { aydinTema } from "./aydin";
-import { platformmanisaTema } from "./platformmanisa";
-import { manisaforkliftTema } from "./manisaforklift";
-import { izmirforkliftTema } from "./izmirforklift";
-import { eklemliTema } from "./eklemli";
-import { kutahyaTema } from "./kutahya";
-import { bilecikTema } from "./bilecik";
-import { canakkaleTema } from "./canakkale";
 import { olusturPaylasilanTema } from "./paylasilan";
 import { paylasilanTemaKonfigleri } from "@/lib/paylasilan-tema-konfig";
 
-// Host'a özel Stitch temaları. Kayıtlı olmayan host'lar varsayılan TicariCerceve'yi kullanır.
+// Tüm domainler artık tek paylaşımlı tema ağacını kullanıyor; host'a göre yalnızca
+// renk/marka/logo değişir (bkz. src/lib/paylasilan-tema-konfig.ts). Eskiden 9 domain
+// hand-written bespoke tema kullanıyordu — hepsi paylaşımlı temaya taşındı (tutarlı
+// kalite + tek yerden bakım). Kayıtlı olmayan host'lar varsayılan TicariCerceve'yi kullanır.
 const TEMALAR: Record<string, TemaModulu> = {
-    "aydinplatform.net": aydinTema,
-    "platformmanisa.com": platformmanisaTema,
-    "manisaforklift.com": manisaforkliftTema,
-    "izmirforkliftkiralama.net": izmirforkliftTema,
-    "eklemliplatform.com.tr": eklemliTema,
-    "kutahyaplatform.com": kutahyaTema,
-    "bilecikplatform.com": bilecikTema,
-    "canakkaleplatform.com": canakkaleTema,
-    // Paylaşımlı tema: tek bileşen ağacı, host'a göre yalnızca renk/marka/logo değişir
-    // (bkz. src/lib/paylasilan-tema-konfig.ts). Yukarıdaki bespoke temalarla çakışmaz.
     ...Object.fromEntries(
         Object.entries(paylasilanTemaKonfigleri).map(([host, cfg]) => [host, olusturPaylasilanTema(cfg)])
     ),
