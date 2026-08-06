@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
 import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
+import { anahtarKelimeSayfalari } from "@/lib/anahtar-kelime-sayfalari";
 import { GaEtiketi } from "@/components/ga";
 import { temaModulu, Kabuk } from "@/components/temalar";
 
@@ -32,7 +33,7 @@ export default async function BlogListesi() {
     const site = hostIcinSite(host);
     if (!site) notFound();
     const bespoke = hostBloglari(host);
-    const yazilar = bespoke.length > 0 ? bespoke : paylasilanBlogYazilari(site);
+    const yazilar = bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)];
 
     const BlogListe = temaModulu(host)?.BlogListe;
     if (BlogListe) {

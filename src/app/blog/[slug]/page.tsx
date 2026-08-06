@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { hostBloglari, blogBul } from "@/lib/blog";
 import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
+import { anahtarKelimeSayfalari } from "@/lib/anahtar-kelime-sayfalari";
 import { GaEtiketi } from "@/components/ga";
 import { TicariTeklif } from "@/components/ticari-cerceve";
 import { Kabuk } from "@/components/temalar";
@@ -21,7 +22,7 @@ function hostVeSiteBloglari(host: string) {
     const site = hostIcinSite(host);
     if (!site) return { site: undefined, yazilar: [] as ReturnType<typeof paylasilanBlogYazilari> };
     const bespoke = hostBloglari(host);
-    return { site, yazilar: bespoke.length > 0 ? bespoke : paylasilanBlogYazilari(site) };
+    return { site, yazilar: bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)] };
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
