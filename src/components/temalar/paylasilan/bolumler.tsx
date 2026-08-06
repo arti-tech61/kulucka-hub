@@ -54,8 +54,8 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
     const hizmetler = site.hizmetler.slice(0, 6);
     const kullanilanlar = new Set<string>();
     return (
-        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
-            <div className="mb-10 max-w-2xl">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
+            <div className="mb-6 max-w-2xl">
                 <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Hizmetlerimiz</h2>
                 <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine seçimi ve yazılı teklif süreci.</p>
             </div>
@@ -103,8 +103,8 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
     const bolgeIlk = site.bolge.split(",")[0].trim();
     const gosterilecekler = tumunuGoster ? urunKatalogu : urunKatalogu.filter((u) => ANA_SAYFA_TEMSILCILERI.includes(u.slug));
     return (
-        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
-            <div className="mb-10 max-w-2xl">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
+            <div className="mb-6 max-w-2xl">
                 <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">
                     {bolgeIlk} Kiralık Makine Parkuru
                 </h2>
@@ -152,8 +152,8 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
 export function BolgeBolumu({ site }: { site: SiteIcerik }) {
     const bolgeSayfaListesi = bolgeSayfalari(site);
     return (
-        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
-            <div className="mb-10 max-w-2xl">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
+            <div className="mb-6 max-w-2xl">
                 <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Hizmet Bölgelerimiz</h2>
                 <p className="mt-3 text-muted">Her bölgenin kendi saha koşulları vardır — detaylar için bölgenizi seçin.</p>
             </div>
@@ -184,7 +184,7 @@ export function IletisimKarti({ site }: { site: SiteIcerik }) {
     ];
 
     return (
-        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
             <div className="grid gap-8 lg:grid-cols-[1fr_1.4fr]">
                 <div className="space-y-5">
                     {kartlar.map((k) => (
@@ -219,7 +219,7 @@ export function IletisimKarti({ site }: { site: SiteIcerik }) {
 // render ediyor, burada ikinci bir <main> anlamsal olarak yanlış (iç içe main) olurdu.
 export function MetinSayfasi({ site, baslik }: { site: SiteIcerik; baslik: string }) {
     return (
-        <div className="mx-auto max-w-4xl px-6 py-20 md:px-8">
+        <div className="mx-auto max-w-4xl px-6 py-12 md:px-8">
             <h1 className="font-display text-[36px] font-bold text-fg md:text-[44px]">{baslik}</h1>
             <div className="mt-8 space-y-5">
                 {site.paragraflar.map((p, i) => (
@@ -240,8 +240,8 @@ export function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
     const yazilar = (bespoke.length > 0 ? bespoke : [...paylasilanBlogYazilari(site), ...anahtarKelimeSayfalari(site)]).slice(0, 15);
     if (yazilar.length === 0) return null;
     return (
-        <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
-            <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
+            <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
                 <div>
                     <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Blog&apos;dan Öne Çıkanlar</h2>
                     <p className="mt-3 text-muted">Makine seçimi, saha uygulaması ve maliyet üzerine güncel rehberler.</p>
