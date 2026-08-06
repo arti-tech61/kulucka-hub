@@ -8,6 +8,7 @@ import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import { hizmetSayfalari } from "@/lib/hizmet-sayfalari";
 import { bolgeHizmetSayfalari } from "@/lib/bolge-hizmet-sayfalari";
 import { TERIMLER, derinTerimSayfasiVarMi } from "@/lib/terimler";
+import { aktifMarkalar } from "@/lib/marka-sayfalari";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
 import { rehberler } from "@/lib/rehberler";
 import { kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
@@ -70,6 +71,11 @@ export async function GET(istek: Request) {
             // Bölge × hizmet kesişimi — yalnız gerçek hizmet eşleşmeleri, ilk 3 bölge
             for (const bh of bolgeHizmetSayfalari(site)) {
                 urller.push({ loc: `https://${site.host}/bolge/${bh.slug}`, lastmod: bugun });
+            }
+            // Marka sayfaları — filoda gerçekten makinesi olan markalar
+            urller.push({ loc: `https://${site.host}/markalar`, lastmod: bugun });
+            for (const m of aktifMarkalar()) {
+                urller.push({ loc: `https://${site.host}/markalar/${m.slug}`, lastmod: bugun });
             }
             // Sözlük: hub her domainde, derin terim sayfaları yalnız bilgi/rehber sitelerinde
             urller.push({ loc: `https://${site.host}/sozluk`, lastmod: bugun });
