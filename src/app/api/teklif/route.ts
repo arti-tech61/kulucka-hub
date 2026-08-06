@@ -48,8 +48,8 @@ export async function POST(req: Request) {
         from: GONDEREN,
         to: [ALICI],
         replyTo,
-        subject: kaynak ? `${konu} — ${kaynak}` : konu,
-        text: `${govde}\n\n—\nKaynak: ${kaynak || "bilinmiyor"}`,
+        subject: kaynak ? `[${kaynak}] ${konu}` : konu,
+        text: `Site: ${kaynak || "bilinmiyor"}\nForm: ${konu}\n\n${govde}`,
     });
 
     if (error) {
