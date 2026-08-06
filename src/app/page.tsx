@@ -10,6 +10,7 @@ import { HaberAnaSayfa } from "@/components/haber-sitesi";
 import { TicariCerceve, TicariGorsel, TicariTeklif } from "@/components/ticari-cerceve";
 import { GaEtiketi } from "@/components/ga";
 import { temaModulu, Kabuk } from "@/components/temalar";
+import { ilKoordinatBul, bolgeListesindenKoordinatBul } from "@/lib/il-koordinatlari";
 
 export const dynamic = "force-dynamic";
 
@@ -93,13 +94,20 @@ export default async function Sayfa() {
     const host = await aktifHost();
     const hazirlanan = hostIcinHazirlananSite(host);
     if (hazirlanan) {
+        const hazirlananKoordinat = ilKoordinatBul(hazirlanan.sehir);
         const hazirlananJsonLd = {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: hazirlanan.h1,
             url: `https://${hazirlanan.host}/`,
             description: hazirlanan.aciklama,
-            areaServed: hazirlanan.sehir,
+            areaServed: { "@type": "City", name: hazirlanan.sehir },
+            ...(hazirlananKoordinat
+                ? {
+                      address: { "@type": "PostalAddress", addressLocality: hazirlananKoordinat.il, addressRegion: hazirlananKoordinat.il, addressCountry: "TR" },
+                      geo: { "@type": "GeoCoordinates", latitude: hazirlananKoordinat.lat, longitude: hazirlananKoordinat.lng },
+                  }
+                : {}),
             ...(hazirlanan.telefon ? { telephone: hazirlanan.telefon } : {}),
             ...(hazirlanan.eposta ? { email: hazirlanan.eposta } : {}),
             parentOrganization: {
@@ -151,12 +159,20 @@ export default async function Sayfa() {
     const site = await aktifSite();
     const altSayfalar = hostAltSayfalari(site.host);
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
+    const bolgeListesi = site.bolge.split(",").map((b) => b.trim()).filter(Boolean);
+    const siteKoordinat = bolgeListesindenKoordinatBul(site.bolge);
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": site.kategori ? "WebSite" : "LocalBusiness",
         name: site.h1,
         url: `https://${site.host}`,
-        areaServed: site.bolge,
+        areaServed: bolgeListesi.map((b) => ({ "@type": "Place", name: b })),
+        ...(siteKoordinat
+            ? {
+                  address: { "@type": "PostalAddress", addressLocality: bolgeListesi[0] ?? siteKoordinat.il, addressRegion: siteKoordinat.il, addressCountry: "TR" },
+                  geo: { "@type": "GeoCoordinates", latitude: siteKoordinat.lat, longitude: siteKoordinat.lng },
+              }
+            : {}),
         telephone: site.telefon,
         email: site.eposta,
         parentOrganization: { "@type": "Organization", name: site.anaSite.ad, url: site.anaSite.url },

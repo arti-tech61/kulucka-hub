@@ -8,6 +8,7 @@ import { bolgeSayfalari, bolgeSayfasiBul } from "@/lib/bolge-sayfalari";
 import { GaEtiketi } from "@/components/ga";
 import { TicariTeklif } from "@/components/ticari-cerceve";
 import { Kabuk } from "@/components/temalar";
+import { ilKoordinatBul, bolgeListesindenKoordinatBul } from "@/lib/il-koordinatlari";
 
 export const dynamic = "force-dynamic";
 
@@ -45,12 +46,21 @@ export default async function BolgeSayfasi({ params }: { params: Promise<{ slug:
     const digerBolgeler = bolgeSayfalari(site).filter((b) => b.slug !== slug).slice(0, 3);
     const gorsel = BOLGE_GORSELLERI[bolge.slug.length % BOLGE_GORSELLERI.length];
 
+    // Önce bölge adının kendisinde (ör. "İkitelli OSB") ilçe/il eşleşmesi ara;
+    // bulunamazsa site.bolge listesini sırayla dener.
+    const koordinat = ilKoordinatBul(bolge.bolgeAdi) ?? bolgeListesindenKoordinatBul(site.bolge);
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         name: `${site.anaSite.ad} — ${bolge.bolgeAdi}`,
         description: bolge.aciklama,
-        areaServed: bolge.bolgeAdi,
+        areaServed: { "@type": "Place", name: bolge.bolgeAdi },
+        ...(koordinat
+            ? {
+                  address: { "@type": "PostalAddress", addressLocality: bolge.bolgeAdi, addressRegion: koordinat.il, addressCountry: "TR" },
+                  geo: { "@type": "GeoCoordinates", latitude: koordinat.lat, longitude: koordinat.lng },
+              }
+            : {}),
         telephone: site.telefon,
         url: `https://${host}/bolge/${slug}`,
     };
