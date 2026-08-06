@@ -201,3 +201,51 @@ Kiracılar arası link zaten istenmez.
 
 **KURAL 6.2** — Sayfa sayısı domain başına 150'yi geçerse `force-dynamic`
 yerine ISR/cache stratejisi gerekir.
+
+---
+
+## 7. Elle yazılmış içerik geçişi — yol haritası
+
+**Altyapı hazır:** `src/lib/bespoke-icerik.ts` (kısmi override; bir sayfayı
+elle yazmak diğerlerini bozmaz). Pilot: `boluplatform.net/bolge/gerede`.
+
+### Durum
+
+| Silo | Sayfa | Ortalama kelime | Hedef |
+|---|---|---|---|
+| Bölge | 586 | ~110 | 1.200-1.500 |
+| Hizmet | 935 | ~110 | 1.200-1.500 |
+| Bölge × Hizmet | 833 | ~286 | 1.200-1.500 |
+| Yükseklik | 1.020 | ~300 | 1.200-1.500 |
+| Marka | 680 | ~350 | 1.200-1.500 |
+| Sözlük | 133 | ~1.635 (hub) | ✅ hedefte |
+
+### Öncelik sırası
+
+Sayfa sayısı çok olduğu için hepsi elle yazılamaz. Sıra **arama değeri × sayfa
+sayısı** dengesine göre:
+
+1. **En yüksek trafikli domainlerin bölge sayfaları.** Hangi domainlerin trafik
+   aldığı RankPanel'den (GSC verisi) belirlenir; körlemesine başlanmaz.
+2. **Bölge × hizmet kesişimleri** — en yüksek ticari niyetli sorgular.
+3. **Yükseklik sayfaları** — bilgi + ticari niyet karışımı, tek yazım tüm
+   domainlerde kullanılamaz (bölge adı değişiyor) ama gövde çoğunlukla ortak
+   olabilir.
+4. **Marka sayfaları** — teknik künye zaten gerçek veriden geliyor, gövde
+   genişletilmeli.
+
+### Yazarken
+
+- **Bilgi uydurulamaz.** Tesis adı, mesafe, kapasite, sanayi kolu doğrulanabilir
+  olmalı. Emin değilseniz o cümleyi yazmayın — sayfa kısa kalsın, yanlış olmasın.
+- Karşılaştırma tablosu ekleyin (`ekBolumler[].tablo`) — featured snippet ve
+  AI özet yakalama şansını belirgin şekilde artırıyor.
+- `kaynak` alanını doldurun: kim, ne zaman, hangi bilgiye dayanarak yazdı.
+- Yazdıktan sonra `npm run kontrol:icerik`.
+
+### Kalite referansı
+
+`saygitech/izmir-manlift.com` deposundaki `src/data/heights.ts` ve
+`src/data/brands.ts` — ~1.500 kelime, 11-12 H2, tablo ağırlıklı, 5-6 uzun SSS,
+8-gram örtüşmesi %0.2. Aynı deponun `districts.ts` dosyası ise thin content
+(medyan 169 kelime) — **onu örnek almayın.**
