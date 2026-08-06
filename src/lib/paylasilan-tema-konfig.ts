@@ -143,6 +143,73 @@ export const paylasilanTemaKonfigleri: Record<string, PaylasilanTemaConfig> = {
     // (bkz. İstanbul Grubu Taşıma Planı). Gerçek logo eski repodan alındı,
     // 12 blog yazısı da (src/lib/blog.ts) aynı reponun gerçek içeriğinden
     // dönüştürüldü — jenerik şablon değil.
+    // İstanbul grubu Faz 2 — kalan 4 domain (bkz. İstanbul Grubu Taşıma Planı).
+    // Her biri kendi gerçek logosuyla (public/media/<host>/logo.png, eski repolardan
+    // alındı) ve gerçek blog içeriğiyle (src/lib/blog.ts) taşındı.
+    "istanbuldaplatform.com": {
+        markaAdi: "Artı Platform İstanbul",
+        logoUrl: "/media/istanbuldaplatform/logo.png",
+        renkler: {
+            primary: "#0f2e22",
+            primaryLight: "#1f4a38",
+            accent: "#1a9c63",
+            accentHover: "#15804f",
+            accentFg: "#ffffff",
+            bg: "#ffffff",
+            fg: "#0f2e22",
+            muted: "#6b7280",
+            elevated: "#f0faf5",
+            border: "#e5e7eb",
+        },
+    },
+    "istanbulplatforms.com": {
+        markaAdi: "İstanbul Platforms",
+        logoUrl: "/media/istanbulplatforms/logo.png",
+        renkler: {
+            primary: "#0a1e42",
+            primaryLight: "#15316b",
+            accent: "#1e40af",
+            accentHover: "#1a3690",
+            accentFg: "#ffffff",
+            bg: "#ffffff",
+            fg: "#0a1e42",
+            muted: "#6b7280",
+            elevated: "#eef2ff",
+            border: "#e5e7eb",
+        },
+    },
+    "istanbulplatformkiralama.net": {
+        markaAdi: "İstanbul Platform Kiralama",
+        logoUrl: "/media/istanbulplatformkiralama/logo.png",
+        renkler: {
+            primary: "#020c1b",
+            primaryLight: "#0f2438",
+            accent: "#ccff00",
+            accentHover: "#b3e600",
+            accentFg: "#020c1b",
+            bg: "#ffffff",
+            fg: "#020c1b",
+            muted: "#6b7280",
+            elevated: "#f3f4f6",
+            border: "#e5e7eb",
+        },
+    },
+    "istanbul-platform.com": {
+        markaAdi: "İstanbul Platform",
+        logoUrl: "/media/istanbulplatform/logo.png",
+        renkler: {
+            primary: "#020c1b",
+            primaryLight: "#0f2438",
+            accent: "#ccff00",
+            accentHover: "#b3e600",
+            accentFg: "#020c1b",
+            bg: "#ffffff",
+            fg: "#020c1b",
+            muted: "#6b7280",
+            elevated: "#f3f4f6",
+            border: "#e5e7eb",
+        },
+    },
     "platformistanbul.net": {
         markaAdi: "Artı Platform İstanbul",
         logoUrl: "/media/platformistanbul/logo.png",

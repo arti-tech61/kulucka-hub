@@ -39,6 +39,1889 @@ export const blogGorsel = {
 const erisimDiyagrami = `<svg viewBox="0 0 300 190" role="img" aria-label="Çalışma yüksekliği ve yatay erişim diyagramı"><line x1="20" y1="165" x2="285" y2="165" stroke="#94a3b8" stroke-width="1.5"/><rect x="34" y="140" width="46" height="18" rx="4" fill="none" stroke="#2563eb" stroke-width="2"/><circle cx="46" cy="161" r="6" fill="none" stroke="#94a3b8" stroke-width="1.6"/><circle cx="68" cy="161" r="6" fill="none" stroke="#94a3b8" stroke-width="1.6"/><line x1="57" y1="140" x2="120" y2="70" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/><circle cx="120" cy="70" r="5" fill="#fff" stroke="#2563eb" stroke-width="2.5"/><line x1="120" y1="70" x2="210" y2="55" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round"/><rect x="208" y="42" width="20" height="14" rx="2" fill="none" stroke="#2563eb" stroke-width="2"/><line x1="250" y1="55" x2="250" y2="165" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 4"/><text x="256" y="112" font-size="10" fill="#b45309">çalışma yük.</text><line x1="57" y1="180" x2="218" y2="180" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4 4"/><text x="120" y="176" font-size="10" fill="#1d4ed8" text-anchor="middle">yatay erişim</text></svg>`;
 
 export const blogYazilari: Record<string, BlogYazisi[]> = {
+    "istanbuldaplatform.com": [
+        {
+            slug: "istanbul-manlift-kiralama",
+            kategori: "Manlift",
+            baslik: "İstanbul Manlift Kiralama",
+            ozet: "İstanbul'da manlift kiralama ararken sorulması gereken ilk soru yükseklik değil, erişim biçimidir. Eklemli ve makaslı modeller arasındaki fark, hangi hub'ın size en yakın olduğu ve sevkiyat süresi bu sayfada.",
+            gorsel: "/media/isler/is-3.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-08-06",
+            okuma: 7,
+            giris: "\"Manlift\" günlük dilde hem eklemli hem makaslı platformlar için kullanılan genel bir terim. İstanbul'da bir talep aldığımızda önce sorduğumuz şey model adı değil, çalışma noktasının nasıl bir yerde olduğu: düz bir zeminde dikey mi çıkacaksınız, yoksa bir engelin (kiriş, tesisat hattı, çatı çıkması) üzerinden mi erişeceksiniz? Bu ayrım, doğru ekipmanı seçmenin ilk adımı ve bu sayfada İstanbul'daki manlift kiralama sürecini uçtan uca anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Eklemli mi, makaslı mı?",
+                    paragraflar: [
+                        "Makaslı platformlar sadece dikey yükselir ve daha geniş sepet alanı sunar — düz zeminde, tek noktada uzun süreli çalışmalar için (tavan boyası, tesisat montajı, raf üstü işler) idealdir. Eklemli platformlar ise kollarını yatayda da açabildiği için bir engelin üzerinden veya yan tarafından çalışma noktasına ulaşabilir — cephe işleri, ağaç budama, boru hattı geçişleri gibi düzensiz erişim gerektiren işlerde tercih edilir. Park sayfamızda her iki sınıfın çalışma yüksekliği ve kapasite tablosunu görebilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da hangi hub size yakın?",
+                    paragraflar: [
+                        "Sevkiyat süresini belirleyen en büyük etken mesafe değil, hangi hub'dan çıktığıdır. Avrupa Yakası talepleri İkitelli OSB merkezli hub'dan, Anadolu Yakası talepleri Tuzla tersane bölgesindeki hub'dan, Kocaeli (Gebze, Dilovası, Körfez) talepleri ise Gebze hub'ından karşılanır. İkitelli, Tuzla ve Gebze'nin kendisi 20-30 dakikada sevk edilirken, Silivri veya Beykoz gibi uç noktalar 75 dakikaya kadar çıkabilir. Bölge sayfamızda ilçenize özel tahmini süreyi görebilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "Operatörlü mü, operatörsüz mü?",
+                    paragraflar: [
+                        "İstanbul'da manlift kiralarken operatör kararı sadece maliyet değil, sorumluluk meselesidir. Operatörsüz teslimde platformu kullanan personelinizin G sınıfı yetkinlik belgesi olmalı; operatörlü teslimde iş güvenliği sorumluluğu büyük ölçüde tedarikçi tarafındadır. Kısa süreli (3 ay altı) ve tek seferlik işlerde operatörlü teslim genelde daha az risklidir; sürekli/yıllık sözleşmelerde ise kendi operatör kadronuzla operatörsüz model maliyet avantajı sağlayabilir.",
+                    ],
+                },
+                {
+                    baslik: "Teklif öncesi hazırlamanız gerekenler",
+                    paragraflar: [
+                        "Hızlı ve doğru bir teklif için üç bilgi yeterli: çalışma yüksekliği (zeminden değil, ulaşılacak en yüksek noktadan ölçün), zemin tipi (asfalt, toprak, döşeme) ve çalışma ortamı (kapalı alan mı, açık saha mı). Kapalı alan çalışmalarında elektrikli modeller zorunlu tutulur çünkü dizel motorlar egzoz gazı bırakır. Bu üç bilgiyi ilettiğinizde saha mühendisimiz 24 saat içinde model önerisiyle dönüş yapar.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "İstanbul'da manlift kiralama günlük mü, aylık mı daha uygun?", cevap: "3 aydan kısa işlerde günlük/haftalık kiralama, 3 aydan uzun süren projelerde aylık sözleşme genelde daha ekonomiktir. Uzun süreli sözleşmelerde nakliye ve bakım maliyeti de tek seferde optimize edilir." },
+                { soru: "Manlift kiralama için hangi belgeler istenir?", cevap: "Kurumsal talepte vergi levhası ve yetkili imza sirküleri, operatörsüz teslimde ise kullanacak personelin G sınıfı operatör belgesi istenir. Kapalı alan işlerinde ayrıca zemin taşıma kapasitesi bilgisi talep edilebilir." },
+                { soru: "Aynı gün teslimat mümkün mü?", cevap: "İkitelli, Tuzla ve Gebze hub çevresindeki ilçelerde stok uygunluğuna göre aynı gün teslimat mümkündür. Uç bölgelerde (Silivri, Şile, Beykoz) bir gün önceden planlama önerilir." },
+                { soru: "Elektrikli manlift kapalı alanda zorunlu mu?", cevap: "Evet — kapalı alan ve havalandırması sınırlı ortamlarda dizel/LPG motorlu ekipman egzoz riski nedeniyle önerilmez, elektrikli modeller talep edilir." },
+            ],
+        },
+        {
+            slug: "istanbul-makasli-platform-kiralama",
+            kategori: "Makaslı Platform",
+            baslik: "İstanbul Makaslı Platform Kiralama",
+            ozet: "Makaslı platform, düz zeminde tek noktada uzun süre çalışılacak işler için İstanbul'da en çok tercih edilen sınıf. Kapasite, çalışma yüksekliği ve dar koridor uyumluluğu bu sayfada.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "İstanbul Makaslı Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-08-05",
+            okuma: 6,
+            giris: "Makaslı platformlar İstanbul'daki taleplerin büyük bölümünü oluşturuyor çünkü çoğu bakım, tesisat ve cephe içi işi düz zeminde, tek bir noktada uzun süre çalışmayı gerektiriyor. Sepet alanının geniş olması iki kişilik ekiplerin malzemeyle birlikte çalışmasına imkân verirken, dar koridor modelleri (81cm genişlik) asansör boşluğu veya kapı geçişi gibi sınırlı alanlara girebiliyor.",
+            bolumler: [
+                {
+                    baslik: "Kapasite ve yükseklik aralığı",
+                    paragraflar: [
+                        "İstanbul filomuzda 8m'den 14m'ye kadar elektrikli makaslı platform seçenekleri bulunur. 8m sınıfı iç mekân tavan ve tesisat işleri, 12-14m sınıfı ise depo rafı üstü ve yüksek tavanlı endüstriyel hacimler için tercih edilir. Sepet kapasitesi genelde 2 kişi + malzeme (300-450 kg) aralığındadır — tam teknik föy için park sayfamızdaki model kartlarına bakabilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "Kapalı alan ve zemin şartı",
+                    paragraflar: [
+                        "Makaslı platformların büyük çoğunluğu elektrikli olduğu için kapalı alan çalışmalarına uygundur — egzoz riski yoktur ve daha sessizdir. Ancak zemin taşıma kapasitesi önemlidir: yükseklik arttıkça platformun toplam ağırlığı ve tekerlek altı basıncı da artar, bu yüzden asma kat, rampa veya zayıf döşemeli alanlarda önceden zemin bilgisi paylaşılmalıdır.",
+                    ],
+                },
+                {
+                    baslik: "Dar koridor modelleri",
+                    paragraflar: [
+                        "Standart makaslı platformlar 1,2-1,5m genişliğinde olsa da İstanbul'daki AVM, hastane ve ofis projelerinde sıkça karşılaşılan dar koridor/kapı geçişleri için 81cm genişliğinde kompakt modeller de filomuzda mevcuttur. Bu modeller özellikle Fatih, Beyoğlu ve Kadıköy gibi tarihi doku ve dar sokak yapısına sahip bölgelerde tercih edilir.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da teslimat ve saha kabulü",
+                    paragraflar: [
+                        "Makaslı platform teslimatında araç ölçüsü (genelde tek araçla taşınabilir), indirme noktası ve saha giriş prosedürü önceden netleştirilir. Teslim anında model, seri numarası ve periyodik kontrol belgesi saha sorumlusuna teslim edilir — bu, sonradan yaşanacak belge eksikliği anlaşmazlıklarını önler.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Makaslı platform ile eklemli platform arasındaki temel fark nedir?", cevap: "Makaslı platform sadece dikey yükselir ve daha geniş sepet sunar; eklemli platform kollarını yatayda da açarak bir engelin üzerinden erişim sağlar. Düz zeminde tek noktada çalışacaksanız makaslı, engelli/düzensiz erişimde eklemli daha uygundur." },
+                { soru: "İstanbul'da makaslı platform günlük fiyatı neye göre değişir?", cevap: "Çalışma yüksekliği, kiralama süresi, elektrikli/dizel ayrımı ve teslimat mesafesi fiyatı belirleyen ana kalemlerdir. Detaylı kırılım için fiyatları etkileyen faktörler yazımıza bakabilirsiniz." },
+                { soru: "Dar koridor modeli hangi işlerde gerekir?", cevap: "Asansör boşluğu, standart kapı genişliği veya dar AVM/ofis koridorlarında 81cm genişliğindeki kompakt makaslı modeller tercih edilir." },
+                { soru: "Makaslı platform operatörsüz kullanılabilir mi?", cevap: "Evet, G sınıfı operatör belgesine sahip personeliniz varsa operatörsüz teslim mümkündür. Belgesi olmayan ekipler için operatörlü teslim önerilir." },
+            ],
+        },
+        {
+            slug: "istanbul-eklemli-platform-kiralama",
+            kategori: "Eklemli Platform",
+            baslik: "İstanbul Eklemli Platform Kiralama",
+            ozet: "Bir engelin üzerinden veya yan tarafından çalışma noktasına ulaşmanız gerekiyorsa aradığınız ekipman eklemli platformdur. İstanbul'daki 15-26m aralığındaki filo seçenekleri bu sayfada.",
+            gorsel: "/media/isler/is-14.jpg",
+            gorselAlt: "İstanbul Eklemli Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-08-04",
+            okuma: 6,
+            giris: "Eklemli platformlar (İngilizce'de boom lift, halk arasında bazen \"dize\" veya \"kollu manlift\" de deniyor) kollarının çok eksenli hareketi sayesinde sadece dikey değil, yatay ve yan yönde de erişim sağlar. İstanbul'da cephe yenileme, ağaç budama, havai hat ve boru geçişi gibi düzensiz erişim gerektiren işlerde standart tercihtir.",
+            bolumler: [
+                {
+                    baslik: "Çalışma yüksekliği sınıfları",
+                    paragraflar: [
+                        "Filomuzda 15m sınıfı (kompakt, dar sahalara uygun) ve 26m sınıfı (yüksek katlı bina cephesi, endüstriyel baca/silo işleri) eklemli platform seçenekleri bulunur. 26m sınıfı modeller genelde dizel motorludur ve açık sahada, ağır rüzgâr koşullarına dayanıklı yapıdadır.",
+                    ],
+                },
+                {
+                    baslik: "Yatay erişim mesafesi neden önemli?",
+                    paragraflar: [
+                        "Bir eklemli platform seçerken sadece \"kaç metre yükseğe çıkıyor\" sorusu yeterli değildir — çalışma noktasının platformun duracağı zeminden yatay uzaklığı da (outreach) kritik. Örneğin bir çatı çıkmasının 4m gerisindeki bir noktaya erişmek için hem dikey hem yatay menzili yeterli bir model gerekir. Teklif talebinde bu iki ölçüyü birlikte belirtmeniz doğru model seçimini hızlandırır.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha ve rüzgâr koşulları",
+                    paragraflar: [
+                        "İstanbul'un sahil bölgelerinde (Kartal, Maltepe, Büyükçekmece, Beykoz Boğaz hattı) rüzgâr yükü önemli bir güvenlik parametresidir. Eklemli platformların üretici tarafından belirlenen maksimum rüzgâr hızı sınırı vardır; sahil ve yüksek kat cephe işlerinde bu sınır saha planlamasında dikkate alınmalıdır.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da hangi sektörler eklemli platform kullanır",
+                    paragraflar: [
+                        "Cephe kaplama ve boya firmaları, tabela/reklam montaj ekipleri, telekom ve enerji altyapı firmaları (havai hat, direk bakımı), tersane ve gemi cephesi bakım ekipleri eklemli platformun en yoğun kullanıcılarıdır. Sanayi çözümleri sayfamızda sektöre özel filo önerilerini görebilirsiniz.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Eklemli platform kaç metreye kadar çıkar?", cevap: "İstanbul filomuzda 15m ve 26m sınıfı modeller bulunur; proje ihtiyacına göre daha yüksek kapasiteli modeller için saha mühendisimizle görüşebilirsiniz." },
+                { soru: "Eklemli platform dar sahaya girer mi?", cevap: "15m sınıfı kompakt modeller dar sahalara uygun tasarlanmıştır; 26m sınıfı modeller ise daha geniş dönüş alanı gerektirir. Saha ölçülerini teklif talebinde belirtmeniz önerilir." },
+                { soru: "Rüzgârlı havada eklemli platform kullanılabilir mi?", cevap: "Üreticinin belirlediği maksimum rüzgâr hızı sınırı içinde kullanılabilir; sahil ve yüksek kat işlerinde bu sınır saha planında dikkate alınır ve gerekirse çalışma ertelenir." },
+                { soru: "Eklemli platform ile kaç metre yatay erişim sağlanır?", cevap: "Modele göre değişir; 26m sınıfı modellerde yatay erişim genelde 15-20m aralığındadır. Kesin ölçü için model bazlı teknik föy paylaşılır." },
+            ],
+        },
+        {
+            slug: "istanbul-manlift-kiralama-fiyatlari-neye-gore-degisir",
+            kategori: "Fiyatlandırma",
+            baslik: "İstanbul Manlift Kiralama Fiyatları Neye Göre Değişir?",
+            ozet: "Aynı yükseklikteki iki manlift, İstanbul'un farklı ilçelerinde farklı fiyatlanabilir. Süre, enerji tipi, zemin koşulu ve teslimat mesafesinin fiyata etkisini kalem kalem açıklıyoruz.",
+            gorsel: "/media/isler/is-8.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama Fiyatları Neye Göre Değişir? — Artı Platform saha çalışması",
+            tarih: "2026-08-03",
+            okuma: 8,
+            giris: "\"Manlift kiralama ne kadar tutar?\" sorusuna tek bir rakamla cevap vermek yanıltıcı olur çünkü fiyat beş ayrı değişkenin bileşkesidir. Bu sayfada İstanbul'daki tedarik sürecimizde fiyatı belirleyen kalemleri, teklif hazırlarken hangi bilgiyi neden sorduğumuzu açıklıyoruz — amacımız sabit bir fiyat listesi vermek değil, teklifinizi doğru okumanızı sağlamak.",
+            bolumler: [
+                {
+                    baslik: "1. Çalışma yüksekliği ve model sınıfı",
+                    paragraflar: [
+                        "En belirleyici kalem budur. 8m makaslı platform ile 26m eklemli platform arasında hem satın alma/amortisman maliyeti hem bakım gereksinimi büyük farklıdır — bu fark kira bedeline yansır. Genel kural: yükseklik arttıkça günlük/aylık bedel doğrusal değil, kademeli olarak artar çünkü yüksek sınıf modellerin sayısı filoda daha azdır.",
+                    ],
+                },
+                {
+                    baslik: "2. Kiralama süresi",
+                    paragraflar: [
+                        "Günlük kiralamada birim maliyet en yüksektir çünkü nakliye ve kurulum maliyeti tek güne yayılır. Haftalık kiralamada bu maliyet 5-7 güne, aylık kiralamada 20-30 güne yayıldığı için birim gün maliyeti düşer. 3 aydan uzun projelerde genelde aylık sözleşme en ekonomik seçenektir; paketler sayfamızda kurumsal sözleşme modellerini inceleyebilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "3. Elektrikli mi, dizel mi?",
+                    paragraflar: [
+                        "Elektrikli modeller kapalı alanda zorunlu olduğu için o segmentte fiyat esnekliği azdır; açık sahada ise dizel modeller genelde daha güçlü ve daha uzun çalışma menziline sahip olduğundan farklı bir fiyat bandında değerlendirilir. Enerji tipi seçimi fiyattan önce saha koşuluna (kapalı/açık, havalandırma, gürültü hassasiyeti) göre yapılmalıdır — sadece maliyete bakarak yanlış enerji tipini seçmek saha kabul aşamasında reddedilme riski doğurur.",
+                    ],
+                },
+                {
+                    baslik: "4. Zemin koşulu ve operatör",
+                    paragraflar: [
+                        "Zayıf zemin (toprak, moloz, eğimli alan) ek destek plakası veya farklı lastik/palet konfigürasyonu gerektirebilir — bu ek maliyet yaratır. Operatörlü teslim de operatörsüze göre daha yüksek günlük bedel taşır ancak İSG sorumluluğunu tedarikçiye kaydırır; bu dengeyi operatörlü mü operatörsüz mü karar rehberimizde detaylı işledik.",
+                    ],
+                },
+                {
+                    baslik: "5. Teslimat mesafesi",
+                    paragraflar: [
+                        "İstanbul'un genişliği nedeniyle nakliye kalemi göz ardı edilmemelidir. İkitelli, Tuzla veya Gebze hub'larına yakın ilçelerde (20-30dk ETA) nakliye maliyeti minimum düzeydeyken, Silivri, Şile veya Beykoz gibi uç bölgelerde ek mesafe bedeli oluşabilir. Bölge sayfamızda ilçenize özel ETA ve hub bilgisini görebilirsiniz.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "En ucuz manlift kiralama seçeneği hangisi?", cevap: "Genel olarak elektrikli makaslı platformlar, düşük yükseklik sınıfında ve aylık sözleşmeyle kiralandığında en ekonomik seçenektir. Ancak doğru seçim işin niteliğine göre değişir; sadece fiyata göre karar vermek yanlış model seçimine yol açabilir." },
+                { soru: "Fiyat teklifi kaç saatte gelir?", cevap: "Yükseklik, süre, zemin ve teslimat adresi bilgisi ile talep formu doldurulduğunda saha mühendisimiz genelde 24 saat içinde dönüş yapar." },
+                { soru: "Uzun süreli kiralamada indirim var mı?", cevap: "Evet, aylık ve çok aylık sözleşmelerde birim gün maliyeti günlük kiralamaya göre belirgin şekilde düşer. Kurumsal paket seçenekleri için paketler sayfamıza bakabilirsiniz." },
+                { soru: "Nakliye ücreti fiyata dahil mi?", cevap: "Hub'a yakın bölgelerde nakliye genelde teklife dahil edilir; uç bölgelerde ayrı kalem olarak gösterilebilir. Teklifte bu her zaman açıkça belirtilir." },
+            ],
+        },
+        {
+            slug: "istanbulda-manlift-kiralama-nasil-yapilir",
+            kategori: "Karar Rehberi",
+            baslik: "İstanbul'da Manlift Kiralama Nasıl Yapılır?",
+            ozet: "İlk telefon görüşmesinden platformun sahaya teslim edilmesine kadar geçen süreci adım adım anlatıyoruz — böylece teklif isterken neyi hazır bulundurmanız gerektiğini biliyorsunuz.",
+            gorsel: "/media/isler/is-12.jpg",
+            gorselAlt: "İstanbul'da Manlift Kiralama Nasıl Yapılır? — Artı Platform saha çalışması",
+            tarih: "2026-08-02",
+            okuma: 7,
+            giris: "Manlift kiralama süreci ilk kez bu işi yapan firmalar için karmaşık görünebilir. Aslında dört net adımdan oluşur: ihtiyaç tanımı, model/teklif eşleşmesi, sözleşme ve saha teslimatı. Bu sayfada İstanbul'daki sürecimizi adım adım anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Adım 1 — İhtiyaç tanımı",
+                    paragraflar: [
+                        "Talep formu, telefon veya WhatsApp üzerinden bize ulaştığınızda önce üç temel bilgiyi netleştiririz: çalışma yüksekliği (ulaşılacak en yüksek nokta), çalışma ortamı (kapalı/açık, zemin tipi) ve süre (günlük, haftalık, aylık). Bu üç bilgi, doğru model sınıfını (makaslı/eklemli/telehandler) belirlememizi sağlar.",
+                    ],
+                },
+                {
+                    baslik: "Adım 2 — Model önerisi ve teklif",
+                    paragraflar: [
+                        "Saha mühendisimiz ihtiyacınıza uygun 1-2 model önerisiyle birlikte fiyat teklifini hazırlar. Teklifte kira bedeli, nakliye, operatör (talep edildiyse) ve sözleşme süresi ayrı kalemler halinde gösterilir — böylece hangi kalemin neyi kapsadığını net görürsünüz.",
+                    ],
+                },
+                {
+                    baslik: "Adım 3 — Sözleşme ve belge teyidi",
+                    paragraflar: [
+                        "Teklif onaylandığında kurumsal evraklar (vergi levhası, imza sirküleri) ve operatörsüz teslimde kullanacak personelin yetkinlik belgesi talep edilir. Aynı zamanda teslim edilecek makinenin model, seri numarası ve periyodik kontrol kaydı sözleşmeye eklenir.",
+                    ],
+                },
+                {
+                    baslik: "Adım 4 — Nakliye ve saha kabulü",
+                    paragraflar: [
+                        "Teslimat günü ve zaman penceresi önceden teyit edilir. Araç sahaya ulaştığında indirme noktası, geçiş güzergâhı ve saha giriş prosedürü (varsa) önceden koordine edilmiş olur. Makine indirildikten sonra saha sorumlusuyla birlikte kısa bir kontrol yapılır — çalışma durumu, teknik föy ve belge eşleşmesi teyit edilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Süreç ne kadar sürer?", cevap: "Talep formunun iletilmesinden teklifin size ulaşmasına kadar genelde 24 saat, onay sonrası teslimat ise stok uygunluğuna ve bölgeye göre aynı gün ile 2 gün arasında değişir." },
+                { soru: "Sözleşme öncesi saha ziyareti gerekir mi?", cevap: "Standart işlerde telefonla verilen bilgiler yeterlidir; karmaşık erişim veya özel zemin koşulu olan projelerde saha mühendisimiz talebe göre yerinde ön inceleme yapabilir." },
+                { soru: "Ödeme nasıl yapılır?", cevap: "Kurumsal müşterilerde fatura karşılığı havale/EFT standart yöntemdir; sözleşme süresine göre peşin veya dönemsel ödeme planlanabilir." },
+                { soru: "Kiralama süresi uzatılabilir mi?", cevap: "Evet, süre bitiminden önce bildirim yapıldığında stok uygunluğuna göre sözleşme uzatılabilir." },
+            ],
+        },
+        {
+            slug: "istanbul-forklift-kiralama",
+            kategori: "Forklift",
+            baslik: "İstanbul Forklift Kiralama",
+            ozet: "Depo ve üretim hattı operasyonlarında doğru forklift seçimi kapasiteden çok enerji tipi ve zemin koşuluna bağlıdır. İstanbul filomuzdaki elektrikli ve dizel seçenekler bu sayfada.",
+            gorsel: "/media/isler/is-4.jpg",
+            gorselAlt: "İstanbul Forklift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-08-01",
+            okuma: 6,
+            giris: "Forklift kiralama talepleri genelde iki sorudan başlar: kaç ton kaldıracak ve nerede kullanılacak? İkinci soru genelde göz ardı edilir ama aslında birincisi kadar önemlidir çünkü kapalı depo ile açık liman sahası farklı enerji tipi ve lastik yapısı gerektirir.",
+            bolumler: [
+                {
+                    baslik: "Elektrikli forklift ne zaman tercih edilir?",
+                    paragraflar: [
+                        "Kapalı depo ve üretim hatlarında elektrikli forklift standart tercihtir — egzoz gazı çıkarmaz, daha sessizdir ve dar koridorlarda manevra kabiliyeti yüksektir. 2,5 tonluk elektrikli modeller İstanbul'daki e-ticaret ve lojistik depolarında en sık talep edilen sınıftır.",
+                    ],
+                },
+                {
+                    baslik: "Dizel/ağır forklift ne zaman gerekir?",
+                    paragraflar: [
+                        "Açık sahada, uzun mesafe taşımada veya 10 tonun üzerindeki yüklerde dizel forkliftler tercih edilir. Liman, tersane ve inşaat malzemesi depolarında ağır forklift (10-16 ton) kapasitesi standarttır. Bu sınıf genelde operatörlü teslim edilir çünkü yük ve manevra riski daha yüksektir.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da forklift yoğun kullanım bölgeleri",
+                    paragraflar: [
+                        "Mahmutbey ve Bağcılar lojistik/tekstil depoları elektrikli forklift talebinin yoğunlaştığı bölgelerdir; Tuzla tersane kümesi ve Gebze OSB/TOSB ise ağır forklift talebinin merkezi konumundadır. Bölgenize en yakın hub bilgisini bölge sayfamızdan kontrol edebilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "Operatör ve sertifikasyon",
+                    paragraflar: [
+                        "Forklift operatörünün G/İş Makinesi Operatörlüğü belgesi zorunludur. Operatörsüz teslimde bu belgenin kontrolü sizde, operatörlü teslimde ise tedarikçidedir. Vardiyalı çalışan depo operasyonlarında genelde birden fazla vardiyayı kapsayacak operatör planı önceden netleştirilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "İstanbul'da hangi kapasitede forklift daha çok kiralanıyor?", cevap: "Depo ve e-ticaret operasyonlarında 2,5 ton elektrikli, inşaat ve liman operasyonlarında 10-16 ton dizel forklift en sık talep edilen sınıflardır." },
+                { soru: "Forklift kapalı alanda dizel kullanılabilir mi?", cevap: "Önerilmez; havalandırması yetersiz kapalı alanlarda egzoz riski nedeniyle elektrikli veya LPG modeller tercih edilir." },
+                { soru: "Aynı gün forklift teslimatı var mı?", cevap: "İkitelli, Tuzla ve Gebze hub çevresinde stok uygunluğuna göre aynı gün teslimat mümkündür." },
+                { soru: "Forklift kiralamada minimum süre var mı?", cevap: "Günlük kiralama mümkündür; 3 aydan uzun ihtiyaçlarda aylık sözleşme daha ekonomiktir." },
+            ],
+        },
+        {
+            slug: "istanbul-telehandler-kiralama",
+            kategori: "Telehandler",
+            baslik: "İstanbul Telehandler Kiralama",
+            ozet: "Hem yatay hem dikey erişim gerektiren şantiye işlerinde telehandler tek makineyle iki görevi karşılar. İstanbul'daki 4-21 ton kapasite aralığı ve bağlantı seçenekleri bu sayfada.",
+            gorsel: "/media/isler/is-13.jpg",
+            gorselAlt: "İstanbul Telehandler Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-07-30",
+            okuma: 6,
+            giris: "Telehandler (teleskopik forklift), standart forkliftin yatay erişim sınırını aşmak için tasarlanmıştır — teleskopik kolu sayesinde hem yüksekte hem de yanal mesafede yük taşıyabilir. İstanbul'daki inşaat şantiyelerinde malzeme paletlerini üst katlara veya iskele arkasına ulaştırmak için standart ekipmandır.",
+            bolumler: [
+                {
+                    baslik: "Kapasite aralığı ve kullanım alanı",
+                    paragraflar: [
+                        "Filomuzda 4 tondan 21 tona kadar telehandler seçenekleri bulunur. Küçük kapasiteli modeller (4-8 ton) konut şantiyelerinde malzeme taşıma için, büyük kapasiteli modeller (12-21 ton) endüstriyel tesis ve liman operasyonlarında ağır yük taşıma için tercih edilir.",
+                    ],
+                },
+                {
+                    baslik: "Bağlantı (attachment) seçenekleri",
+                    paragraflar: [
+                        "Telehandler'ın esnekliği değiştirilebilir bağlantılarından gelir: çatal (palet taşıma), sepet (personel yükseltme — özel sertifika gerektirir), kova (dökme malzeme) ve vinç kancası (nokta kaldırma) en sık kullanılan konfigürasyonlardır. Hangi bağlantının işinize uygun olduğunu teklif aşamasında birlikte belirleriz.",
+                    ],
+                },
+                {
+                    baslik: "Şantiyede yatay-dikey ikili erişim",
+                    paragraflar: [
+                        "Standart forklift sadece dikey kaldırır; telehandler ise teleskopik kolu sayesinde hem yükseğe hem de öne doğru uzanabilir. Bu, iskele arkası veya bina içi noktalara malzeme ulaştırmada ayrı bir vinç veya platform ihtiyacını ortadan kaldırabilir — özellikle dar şantiye sahalarında makine sayısını azaltarak trafik ve güvenlik riskini düşürür.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da telehandler yoğun kullanım alanları",
+                    paragraflar: [
+                        "Başakşehir, Esenyurt ve Beylikdüzü gibi yoğun konut inşaat bölgelerinde malzeme lojistiği için, Gebze OSB/TOSB ve Dilovası gibi endüstriyel bölgelerde ise üretim hattı malzeme taşımada telehandler talebi yoğundur.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Telehandler ile forklift arasındaki fark nedir?", cevap: "Forklift sadece dikey kaldırır; telehandler teleskopik kolu sayesinde hem dikey hem yatay (öne doğru) erişim sağlar, bu yüzden engel arkasındaki veya yüksekteki noktalara ulaşabilir." },
+                { soru: "Telehandler ile personel yükseltilebilir mi?", cevap: "Sepet bağlantısı takıldığında ve gerekli sertifikasyon sağlandığında mümkündür; standart çatal konfigürasyonunda personel taşınmaz." },
+                { soru: "En büyük kapasiteli telehandler kaç ton?", cevap: "İstanbul filomuzda 21 tona kadar kapasiteli modeller bulunur; daha yüksek kapasite ihtiyacı için saha mühendisimizle görüşebilirsiniz." },
+                { soru: "Telehandler operatörü ayrı sertifika gerektirir mi?", cevap: "Evet, teleskopik yükleyici operatörlüğü ayrı bir yetkinlik belgesi gerektirir; operatörlü teslimde bu belge tedarikçi tarafından karşılanır." },
+            ],
+        },
+        {
+            slug: "elektrikli-mi-dizel-mi-manlift-secimi",
+            kategori: "Karar Rehberi",
+            baslik: "Elektrikli mi Dizel mi? İstanbul Şantiyelerinde Doğru Manlift Seçimi",
+            ozet: "Elektrikli mi dizel mi sorusunun doğru cevabı bütçeden çok sahanın kendisinde gizli. Kapalı alan, gürültü hassasiyeti ve çalışma menzili kriterlerini karşılaştırdık.",
+            gorsel: "/media/isler/is-9.jpg",
+            gorselAlt: "Elektrikli mi Dizel mi? İstanbul Şantiyelerinde Doğru Manlift Seçimi — Artı Platform saha çalışması",
+            tarih: "2026-07-28",
+            okuma: 6,
+            giris: "İstanbul'daki taleplerin önemli bir kısmında müşteri önce fiyatı sorar, ama doğru soru sırası aslında tam tersidir: önce saha koşulu, sonra enerji tipi, en son fiyat. Çünkü elektrikli ve dizel modeller arasında sadece maliyet değil, kullanım kısıtı da fark yaratır — yanlış enerji tipi seçimi saha kabul aşamasında reddedilmeye yol açabilir.",
+            bolumler: [
+                {
+                    baslik: "Kapalı alan = elektrikli zorunluluğu",
+                    paragraflar: [
+                        "Havalandırması sınırlı kapalı alanlarda (depo içi, fabrika salonu, otopark katları) dizel/LPG motorlu ekipman egzoz gazı biriktirme riski taşır ve çoğu tesis yönetimi tarafından kabul edilmez. Bu koşullarda elektrikli model tek seçenektir — bütçe tartışması burada devreye girmez.",
+                    ],
+                },
+                {
+                    baslik: "Açık sahada dizel avantajı",
+                    paragraflar: [
+                        "Açık şantiye, liman veya tersane gibi geniş sahalarda dizel modeller daha uzun çalışma menzili (şarj ihtiyacı olmadan tam vardiya) ve daha güçlü tırmanma/manevra kabiliyeti sunar. Özellikle eğimli veya düzensiz zeminli açık sahalarda dizel/4x4 modeller tercih edilir.",
+                    ],
+                },
+                {
+                    baslik: "Gürültü ve zaman penceresi",
+                    paragraflar: [
+                        "Gece bakım pencereleri, hastane çevresi veya konut bitişiği ticari alanlarda gürültü hassasiyeti elektrikli modelleri öne çıkarır — dizel motorlara göre belirgin şekilde daha sessizdirler. Vaka çalışmaları sayfamızdaki \"ortak alanda gece bakımı\" senaryosu bu kararın somut örneğidir.",
+                    ],
+                },
+                {
+                    baslik: "Maliyet karşılaştırması nasıl okunmalı",
+                    paragraflar: [
+                        "Elektrikli modeller genelde daha düşük günlük/aylık bedelle kiralanır çünkü bakım maliyeti düşüktür; ancak şarj süresi ve kapalı devre çalışma sınırı vardır. Dizel modeller daha yüksek bedelle kiralanır ama kesintisiz uzun vardiya sağlar. Doğru karşılaştırma \"hangisi ucuz\" değil, \"hangisi sahanızda çalışabilir, ikisi de çalışabiliyorsa hangisi daha ekonomik\" sorusuyla yapılmalıdır.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Kapalı alanda dizel manlift hiç kullanılamaz mı?", cevap: "Yeterli havalandırma ve tesis onayı olan büyük kapalı hacimlerde istisnai olarak değerlendirilebilir, ancak genel kural elektrikli modelin tercih edilmesidir." },
+                { soru: "Elektrikli modelin şarj süresi ne kadar?", cevap: "Modele göre değişir; genelde tam şarj 8 saat civarındadır ve gece boyunca şarj edilerek ertesi gün tam vardiya kullanılabilir." },
+                { soru: "Dizel model daha mı pahalı?", cevap: "Genelde evet — hem kira bedeli hem yakıt maliyeti elektrikli modele göre daha yüksektir, ancak açık sahada kesintisiz uzun vardiya ihtiyacında bu fark operasyonel avantajla dengelenir." },
+                { soru: "LPG modeller hangi durumda tercih edilir?", cevap: "Yarı kapalı alanlarda (havalandırmalı depo, geniş atölye) elektrikli kadar temiz olmasa da dizelden daha az emisyonlu bir orta yol olarak tercih edilebilir." },
+            ],
+        },
+        {
+            slug: "anadolu-yakasi-manlift-kiralama",
+            kategori: "Bölge",
+            baslik: "Anadolu Yakası Manlift Kiralama",
+            ozet: "Anadolu Yakası'ndaki filo koordinasyonumuz Tuzla tersane bölgesindeki hub'dan yürütülür. Kadıköy'den Pendik'e, Üsküdar'dan Tuzla'ya kadar ilçe bazlı ETA bilgisi bu sayfada.",
+            gorsel: "/media/isler/is-1.jpg",
+            gorselAlt: "Anadolu Yakası Manlift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-07-26",
+            okuma: 6,
+            giris: "Anadolu Yakası'ndaki manlift ve platform taleplerinin tamamı Tuzla tersane bölgesindeki hub'ımızdan koordine edilir. Tuzla'nın kendisi tuzlu hava koşullarına uygun özel filo ile 30 dakikada sevk edilirken, yakasın diğer ilçelerine göre teslimat süresi mesafeye göre 20 ile 75 dakika arasında değişir.",
+            bolumler: [
+                {
+                    baslik: "Tuzla ve Pendik — hub'a en yakın bölge",
+                    paragraflar: [
+                        "Tuzla, 47 tersaneden oluşan gemi inşa kümesi ve Tuzla OSB ile Anadolu Yakası'ndaki en yoğun talep bölgemiz; hub'ın kendisi burada olduğu için sevkiyat süresi 30 dakikadır. Pendik ise Sabiha Gökçen havalimanı ve Pendik OSB çevresinde 20 dakikalık ETA ile hızlı erişilen ikinci bölgedir.",
+                    ],
+                },
+                {
+                    baslik: "Kadıköy, Üsküdar, Ataşehir — orta mesafe",
+                    paragraflar: [
+                        "Ataşehir finans merkezi yüksek katlı kule bakımları için 45 dakika, Kadıköy'ün dar sokak ve yenileme işleri için 55 dakika, Üsküdar'ın hem tarihi hem modern yapı stoğu için 65 dakika ETA ile hizmet veriyoruz. Bu bölgelerde özellikle dar koridor uyumlu kompakt makaslı modeller tercih ediliyor.",
+                    ],
+                },
+                {
+                    baslik: "Maltepe, Kartal, Ümraniye, Sultanbeyli, Çekmeköy",
+                    paragraflar: [
+                        "Maltepe sahil parkı ve konut projeleri (40dk), Kartal sahil bandı yenileme (30dk), Ümraniye endüstri ve konut karışık bölgesi (60dk), Sultanbeyli TOKİ ve konut yenileme (35dk), Çekmeköy'ün hızlı genişleyen yeni konut bölgesi (55dk) — her biri için 16-22m eklemli platform ve elektrikli makaslı filomuz aktif durumda.",
+                    ],
+                },
+                {
+                    baslik: "Beykoz — Boğaz hattı özel koşulu",
+                    paragraflar: [
+                        "Beykoz'un boğaz manzaralı yalı ve orman içi yapı projeleri için 75 dakikalık ETA ile 4x4 kapasiteli özel filomuz devreye giriyor; bu bölgede zemin ve erişim koşulu genelde standart şehir içi işlerden farklı olduğu için teklif öncesi saha bilgisi paylaşılması önerilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Anadolu Yakası'nda en hızlı teslimat hangi ilçede?", cevap: "Hub'ın bulunduğu Tuzla'da 30 dakika, Pendik'te ise 20 dakika ile en hızlı sevkiyat sağlanıyor." },
+                { soru: "Kadıköy gibi dar sokaklı bölgelerde hangi model önerilir?", cevap: "81cm genişliğindeki dar koridor uyumlu kompakt makaslı platform modelleri bu tür bölgelerde tercih ediliyor." },
+                { soru: "Beykoz'a teslimat için önceden bilgi vermek gerekir mi?", cevap: "Evet, boğaz hattı ve orman içi yapı projelerinde zemin ve erişim koşulu standarttan farklı olabileceği için teklif öncesi saha bilgisi paylaşılması sürecı hızlandırır." },
+                { soru: "Ataşehir'deki yüksek katlı binalarda hangi ekipman kullanılıyor?", cevap: "Finans merkezi kuleleri gibi yüksek katlı yapı bakımlarında 22m ve üzeri çalışma yüksekliğine sahip eklemli platform filomuz devreye giriyor." },
+            ],
+        },
+        {
+            slug: "avrupa-yakasi-platform-kiralama",
+            kategori: "Bölge",
+            baslik: "Avrupa Yakası Platform Kiralama",
+            ozet: "Avrupa Yakası'ndaki filo koordinasyonu İkitelli OSB'deki merkez hub'ımızdan yürütülür. Başakşehir'den Silivri'ye, Şişli'den Fatih'e kadar ilçe bazlı ETA bilgisi bu sayfada.",
+            gorsel: "/media/isler/is-11.jpg",
+            gorselAlt: "Avrupa Yakası Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-07-24",
+            okuma: 6,
+            giris: "Avrupa Yakası'ndaki tüm platform, vinç ve forklift taleplerimiz İkitelli OSB'deki merkez hub'ımızdan sevk edilir. Bu hub aynı zamanda 30 dakikalık ETA yetkinliğimizin başlangıç noktası — İkitelli'nin kendisi ve yakın çevresi en hızlı sevkiyat alan bölgelerdir.",
+            bolumler: [
+                {
+                    baslik: "İkitelli, Mahmutbey, Bağcılar, Esenler — hub çevresi",
+                    paragraflar: [
+                        "İkitelli OSB (30dk), Mahmutbey lojistik koridoru (25dk), Bağcılar tekstil ve üretim tesisleri (20dk) ve Esenler otogar çevresi (20dk) hub'a en yakın bölgeler olduğu için burada forklift ve telehandler talepleri özellikle hızlı karşılanıyor.",
+                    ],
+                },
+                {
+                    baslik: "Başakşehir, Küçükçekmece, Bahçelievler",
+                    paragraflar: [
+                        "Başakşehir Şehir Hastanesi ve Mall of İstanbul çevresindeki konut/AVM projeleri (20dk), Küçükçekmece'nin Halkalı OSB ve Kanarya konut bölgesi (30dk), Bahçelievler'in yoğun ticari yapı stoğu (25dk) — bu bölgelerde hem elektrikli makaslı hem eklemli platform filomuz aktif.",
+                    ],
+                },
+                {
+                    baslik: "Esenyurt, Beylikdüzü, Avcılar, Büyükçekmece — batı koridoru",
+                    paragraflar: [
+                        "Esenyurt'un yoğun konut inşaat aktivitesi (35dk), Beylikdüzü Mimaroba'daki yüksek yapı projeleri (45dk, 16-22m eklemli platform), Avcılar İstanbul Üniversitesi ve sahil bandı (40dk), Büyükçekmece OSB ve sahil yapıları (55dk) batı koridorunun ana talep noktaları.",
+                    ],
+                },
+                {
+                    baslik: "Fatih, Beyoğlu, Şişli, Sarıyer — tarihi ve merkezi bölge",
+                    paragraflar: [
+                        "Fatih'in tarihi yarımada hassas yapı bakımı için sertifikalı kadrolu eklemli platform (30dk), Beyoğlu'nun İstiklal Caddesi ve Karaköy'ünde dar koridor uyumlu kompakt filo (40dk), Şişli-Mecidiyeköy iş merkezlerinde gece bakım pencereleri için elektrikli filo (45dk), Sarıyer-Maslak iş kulelerinde yüksek katlı bakım filosu (55dk) devreye giriyor. Silivri ise batı ucundaki tarımsal ve endüstriyel tesisler için 75 dakikalık ETA ile 4x4 kapasiteli filomuzla hizmet alıyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Avrupa Yakası'nda en hızlı teslimat hangi bölgede?", cevap: "Hub'ın bulunduğu İkitelli'de ve çevresindeki Bağcılar, Esenler gibi ilçelerde 20-25 dakika ile en hızlı sevkiyat sağlanıyor." },
+                { soru: "Silivri'ye teslimat mümkün mü?", cevap: "Evet, Silivri'nin tarımsal ve endüstriyel tesisleri için 75 dakikalık ETA ile 4x4 kapasiteli filomuz hizmet veriyor; uç bölge olduğu için bir gün önceden planlama önerilir." },
+                { soru: "Tarihi yarımadada (Fatih, Beyoğlu) hangi ekipman kullanılıyor?", cevap: "Hassas yapı bakımı ve dar sokak koşulları nedeniyle özel sertifikalı kadrolu eklemli platform ve dar koridor uyumlu kompakt makaslı modeller tercih ediliyor." },
+                { soru: "Beylikdüzü'ndeki yüksek yapı projelerinde hangi model önerilir?", cevap: "Mimaroba gibi yüksek yapı stoğu olan bölgelerde 16-22m eklemli platform filomuz genelde en uygun seçenek oluyor." },
+            ],
+        },
+        {
+            slug: "gebze-kocaeli-vinc-forklift-kiralama",
+            kategori: "Bölge",
+            baslik: "Gebze ve Kocaeli'de Vinç, Forklift ve Telehandler Kiralama",
+            ozet: "Gebze'deki hub'ımız Doğu Marmara endüstri kuşağının tamamına hizmet veriyor — GOSB, TOSB, Dilovası petrokimya ve Körfez rafineri bölgesi için özel filo bilgisi bu sayfada.",
+            gorsel: "/media/isler/is-10.jpg",
+            gorselAlt: "Gebze ve Kocaeli'de Vinç, Forklift ve Telehandler Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-07-22",
+            okuma: 6,
+            giris: "İstanbul dışına taşan ama endüstriyel talebin yoğun olduğu Doğu Marmara koridorunda — Gebze, Dilovası ve Körfez — ayrı bir hub'ımız bulunuyor. Bu bölgede talep profili İstanbul'un konut/ticari ağırlıklı işlerinden farklı: ağır sanayi, petrokimya ve otomotiv üretim tesisleri öne çıkıyor.",
+            bolumler: [
+                {
+                    baslik: "Gebze GOSB ve TOSB — merkez hub",
+                    paragraflar: [
+                        "Gebze Organize Sanayi Bölgesi (GOSB) ve TOSB (otomotiv yan sanayi kümesi) hub'ımızın merkezinde yer alıyor; bu yakınlık sayesinde 20 dakikalık ETA ile Doğu Marmara endüstri kuşağının en hızlı sevkiyat alan bölgesi. Otomotiv üretim hatlarında telehandler ve ağır forklift talebi yoğun.",
+                    ],
+                },
+                {
+                    baslik: "Dilovası — petrokimya ve ATEX gereksinimi",
+                    paragraflar: [
+                        "Dilovası OSB'deki petrokimya tesisleri patlama riskine karşı ATEX sertifikalı ekipman gerektirir; bu bölgeye 30 dakikalık ETA ile ATEX sertifikalı özel filomuzla hizmet veriyoruz. Standart dizel ekipman bu tesislerde kullanılamaz — sertifikasyon teklif aşamasında netleştirilir.",
+                    ],
+                },
+                {
+                    baslik: "Körfez — Tüpraş ve Petkim çevresi",
+                    paragraflar: [
+                        "Tüpraş İzmit Rafinerisi, Petkim Yarımca ve Körfez OSB çevresinde 40 dakikalık ETA ile hizmet veriyoruz. Bu bölgedeki işler genelde planlı bakım duruşlarına (turnaround) bağlı olduğu için teslimat takvimi haftalar öncesinden netleştiriliyor.",
+                    ],
+                },
+                {
+                    baslik: "Neden ayrı bir Doğu Marmara hub'ı?",
+                    paragraflar: [
+                        "İstanbul'daki hub'lardan (İkitelli, Tuzla) Gebze koridoruna sevkiyat trafik nedeniyle uzayabildiği için, bölgenin kendi içinde ayrı bir hub kurarak ETA'yı 20-40 dakika bandında tuttuk. Bu, özellikle planlı fabrika duruşları gibi zaman kritik operasyonlarda belirleyici bir avantaj.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Dilovası'ndaki petrokimya tesislerine standart ekipman girebilir mi?", cevap: "Hayır, patlama riski taşıyan alanlarda ATEX sertifikalı ekipman zorunludur; standart dizel/elektrikli modeller bu tesislere giremez." },
+                { soru: "Gebze'ye teslimat süresi ne kadar?", cevap: "GOSB ve TOSB bölgesine 20 dakikalık ETA ile sevkiyat sağlanıyor." },
+                { soru: "Kocaeli'deki fabrika duruşları için ne kadar önceden planlama gerekir?", cevap: "Planlı bakım duruşları (turnaround) genelde haftalar öncesinden planlandığı için teslimat takviminin de aynı sürede netleştirilmesi önerilir." },
+                { soru: "Otomotiv üretim hatlarında hangi ekipman en çok kullanılıyor?", cevap: "TOSB çevresindeki otomotiv yan sanayi tesislerinde telehandler ve ağır forklift talebi en yoğun ekipman sınıflarıdır." },
+            ],
+        },
+        {
+            slug: "istanbulda-manlift-platform-ayni-gun-teslimat",
+            kategori: "Lojistik",
+            baslik: "İstanbul'da Manlift ve Platform Ne Kadar Sürede Teslim Edilir?",
+            ozet: "\"Bugün lazım\" talebi geldiğinde teslimat süresini üç faktör belirler: hangi hub'a yakınsınız, model stokta var mı ve sahaya araç girişi kolay mı? Bu üçünü açıklıyoruz.",
+            gorsel: "/media/isler/is-7.jpg",
+            gorselAlt: "İstanbul'da Manlift ve Platform Ne Kadar Sürede Teslim Edilir? — Artı Platform saha çalışması",
+            tarih: "2026-07-20",
+            okuma: 5,
+            giris: "Beklenmedik bir arıza veya ani proje ihtiyacında \"ne kadar sürede gelir\" sorusu fiyattan bile önce sorulur. İstanbul'un genişliği nedeniyle tek bir cevap yok — ama teslimat süresini belirleyen üç net faktör var, bunları önceden bilmek beklentinizi doğru kurmanızı sağlar.",
+            bolumler: [
+                {
+                    baslik: "Faktör 1 — Hangi hub'a yakınsınız",
+                    paragraflar: [
+                        "Üç hub'ımız var: İkitelli (Avrupa Yakası), Tuzla (Anadolu Yakası) ve Gebze (Doğu Marmara). Hub'ın bulunduğu ilçe ve yakın çevresi 20-30 dakikada sevk edilirken, uç bölgeler (Silivri, Beykoz, Şile) 75 dakikaya kadar çıkabiliyor. İlçenize özel ETA'yı bölge sayfamızda bulabilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "Faktör 2 — Model stok durumu",
+                    paragraflar: [
+                        "Yaygın kullanılan modeller (8-12m elektrikli makaslı, standart forklift) genelde her hub'da stokta bulunur ve talep anında sevk edilebilir. Özel sınıf ekipman (26m eklemli, 16 ton ağır forklift, ATEX sertifikalı model) sınırlı sayıda olduğu için müsaitlik teyidi gerekebilir — bu durumda teslimat 1-2 güne uzayabilir.",
+                    ],
+                },
+                {
+                    baslik: "Faktör 3 — Saha erişimi ve giriş prosedürü",
+                    paragraflar: [
+                        "Fabrika, liman veya kurumsal kampüs gibi güvenlik prosedürü olan sahalarda araç girişi için önceden bildirim (plaka, sürücü bilgisi) istenebilir. Bu prosedür teslimat gününü değiştirmez ama saha içindeki bekleme süresini etkileyebilir — bu yüzden ilk görüşmede saha giriş kuralı varsa paylaşmanız süreci hızlandırır.",
+                    ],
+                },
+                {
+                    baslik: "Aynı gün teslimat için ne yapmalısınız",
+                    paragraflar: [
+                        "Sabah saatlerinde iletilen ve hub çevresindeki bir ilçeye yönelik, stokta bulunan bir model talebi genelde aynı gün karşılanabilir. En hızlı sonuç için telefonla (0532 172 89 43) doğrudan arayıp yükseklik, süre ve adres bilgisini paylaşmanız, form doldurup yanıt beklemekten daha hızlı sonuç verir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Aynı gün teslimat garantili mi?", cevap: "Garanti edilmez ama hub çevresindeki bölgelerde stokta bulunan modeller için sabah talep edildiğinde aynı gün teslimat sık uygulanan bir sonuçtur." },
+                { soru: "Gece veya hafta sonu teslimat mümkün mü?", cevap: "Planlı projelerde önceden koordine edilerek mümkündür; acil durumlarda telefonla müsaitlik teyit edilir." },
+                { soru: "Teslimat süresini en çok ne uzatır?", cevap: "Özel sınıf ekipman müsaitlik teyidi ve uç bölgelere (Silivri, Beykoz, Şile) mesafe en sık uzatma nedenleridir." },
+                { soru: "Saha girişinde özel prosedür varsa ne yapmalıyım?", cevap: "İlk görüşmede plaka/sürücü bildirimi gibi bir kuralınız olduğunu belirtmeniz, teslimat gününde beklemeyi önler ve süreci hızlandırır." },
+            ],
+        },
+    ],
+    "istanbulplatforms.com": [
+        {
+            slug: "istanbul-manlift-kiralama",
+            kategori: "Genel Rehber",
+            baslik: "İstanbul Manlift Kiralama",
+            ozet: "İstanbul'da manlift kiralarken karar vermeniz gereken üç soru: hangi tip, hangi yükseklik, ne kadar süre. Bu rehber karar sürecini adım adım anlatır.",
+            gorsel: "/media/isler/is-1.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-04",
+            okuma: 9,
+            giris: "İstanbul'da \"manlift kiralama\" araması yapan çoğu kişi aslında birbirinden farklı üç ihtiyacı tek kelimeyle ifade ediyor: bazen bir cephe boya işi için makaslı platform, bazen ulaşılması zor bir noktaya erişim için eklemli platform, bazen de bina dışından yüksekliğe çıkmak için teleskopik platform aranıyor. Doğru ekipmanı seçmek fiyatı, teslim süresini ve iş güvenliğini doğrudan etkiler.\nArtı Platform olarak İkitelli, Tuzla ve Gebze'deki üç operasyon merkezimizden İstanbul'un tüm ilçelerine ve Kocaeli'ye sevkiyat yapıyoruz. Bu yazıda manlift tiplerini, seçim kriterlerini ve kiralama sürecini saha deneyimimize dayanarak anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Manlift ne demek, hangi tipler var?",
+                    paragraflar: [
+                        "\"Manlift\" günlük dilde yükseltici platformların genel adı olarak kullanılır; teknik olarak üç ana aile vardır:",
+                        "Her üç tip de akülü veya dizel motor seçeneğiyle temin edilebilir; iç mekân işlerinde akülü modeller, açık saha ve düzensiz zeminde dizel modeller öne çıkar.",
+                        "Makaslı platform: Dikey yükselen, geniş sepetli, düz zeminde yüksek kapasiteli çalışma için uygundur. İç mekân mağaza/depo işlerinde en çok tercih edilen tiptir. Eklemli platform: Kollarını katlayarak engelin üzerinden veya arkasından erişim sağlar. Ağaç, tesisat, çatı çıkıntısı gibi engellerin olduğu noktalarda kullanılır. Teleskopik platform: Tek kollu, uzun yatay ve dikey erişim mesafesi sunar. Yüksek cephe, direk, saha aydınlatması gibi işlerde tercih edilir.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da manlift ihtiyacı hangi işlerde ortaya çıkar?",
+                    paragraflar: [
+                        "Saha taleplerimizde en sık karşılaştığımız kullanım alanları şunlardır:",
+                        "İşin niteliği değiştikçe önerilen ekipman sınıfı da değişir; bu nedenle telefonda \"kaç metre\" sorusu tek başına yeterli değildir — zemin tipi, engel durumu ve erişim koridoru genişliği birlikte değerlendirilmelidir.",
+                        "AVM ve mağaza zincirlerinde tavan/vitrin bakımı ve yenileme. Sanayi tesislerinde çatı, aydınlatma ve HVAC bakımı. Otel ve site yönetimlerinde cephe temizliği. Reklam panosu, tabela ve dijital ekran montajı. Etkinlik ve sahne kurulum organizasyonları.",
+                    ],
+                },
+                {
+                    baslik: "Teslimat ve operasyon merkezleri",
+                    paragraflar: [
+                        "Üç operasyon merkezimiz bölgesel teslim süresini kısaltır:",
+                        "Merkeze yakın ilçelerde aynı gün teslimat mümkün olabilir; kesin teslim süresi mesafe, trafik ve makinenin uygunluğuna göre teklif aşamasında netleşir. Güncel filo durumu ve ilçe bazlı özet bilgi için servis alanları sayfasını inceleyebilirsiniz.",
+                        "İkitelli: Avrupa Yakası'nın batı ve merkez ilçeleri. Tuzla: Anadolu Yakası ve Kocaeli sınırına yakın ilçeler. Gebze: Kocaeli sanayi bölgesi ve OSB'ler.",
+                    ],
+                },
+                {
+                    baslik: "Teklif isterken hangi bilgileri hazırlamalısınız?",
+                    paragraflar: [
+                        "Doğru teklif için şu bilgileri elinizde bulundurmanız süreci hızlandırır:",
+                        "Bu bilgilerle hazırlanan teklif; makine, nakliye, operatör ve varsa ek hizmetleri aynı tabloda gösterir, sürpriz kalem çıkmaz.",
+                        "Çalışılacak gerçek yükseklik (platform tabanı değil, erişilecek nokta). İç mekân mı dış mekân mı, zemin düz mü engebeli mi. Kullanım süresi (günlük, haftalık, aylık). Operatörlü mü operatörsüz mü ihtiyaç. Saha giriş kısıtları (kapı genişliği, asansör, rampa).",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "İstanbul'un her ilçesine manlift gönderiyor musunuz?", cevap: "Avrupa Yakası, Anadolu Yakası, Kocaeli ve çevre illerdeki birçok ilçeye sevkiyat yapıyoruz. İlçe bazlı teslim süresi ve nakliye koşulu için servis alanları sayfasını inceleyebilir veya doğrudan talep oluşturabilirsiniz." },
+                { soru: "Manlift kiralama için ehliyet gerekir mi?", cevap: "Platform kullanımı için sürücü ehliyeti değil, ilgili operatör belgesi ve iş güvenliği eğitimi gereklidir. Operatörsüz kiralamada bu belgelerin sahada bulunması sizin sorumluluğunuzdadır; operatörlü kiralamada belgeli operatör ekiple birlikte gelir." },
+                { soru: "En kısa kiralama süresi nedir?", cevap: "Günlük kiralama mümkündür; haftalık ve aylık kontratlarda birim fiyat genellikle düşer. Kesin süre ve tarife teklif sırasında projeye göre belirlenir." },
+            ],
+        },
+        {
+            slug: "istanbul-makasli-platform-kiralama",
+            kategori: "Ekipman Rehberi",
+            baslik: "İstanbul Makaslı Platform Kiralama",
+            ozet: "Makaslı platform, dikey ve geniş sepetli yapısıyla İstanbul'da en çok talep edilen ekipman sınıflarından biri. Doğru model seçimi için bilmeniz gerekenler.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "İstanbul Makaslı Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-08",
+            okuma: 8,
+            giris: "Makaslı platform, dikey açılan makas mekanizması sayesinde geniş ve stabil bir çalışma alanı sunar. Bu özelliği onu özellikle mağaza içi, depo, ofis ve düz zeminli açık saha işlerinde İstanbul'un en çok tercih edilen platform sınıfı yapar.\nBu yazıda makaslı platformun ne zaman doğru seçim olduğunu, akülü/dizel ayrımını ve kapasite planlamasını anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Makaslı platform ne zaman doğru seçimdir?",
+                    paragraflar: [
+                        "Makaslı platformlar düz ve sağlam zeminde, geniş sepet alanı gerektiren işlerde avantajlıdır: birden fazla kişi ve malzemeyle aynı anda çalışmak, uzun süreli tavan/aydınlatma bakımı, mağaza rafı ve tabela montajı gibi işler bu sınıfa uygundur.",
+                        "Buna karşılık zeminde engel varsa, çalışılacak nokta düz yukarı değil yandan erişim gerektiriyorsa (örneğin bir kolon ya da çatı çıkıntısının arkası), eklemli platform daha uygun olabilir.",
+                    ],
+                },
+                {
+                    baslik: "Akülü mü dizel mi?",
+                    paragraflar: [
+                        "Akülü makaslı platformlar sessiz çalışır, egzoz emisyonu yoktur; bu nedenle AVM, hastane, ofis ve mağaza gibi kapalı/hassas alanlarda tercih edilir. Şarj süresi ve saha elektrik altyapısı önceden planlanmalıdır.",
+                        "Dizel makaslı platformlar daha yüksek tekerlek torku ve engebeli zemin performansı sunar; açık saha, inşaat alanı ve sanayi tesisi dış mekân işlerinde tercih edilir.",
+                    ],
+                },
+                {
+                    baslik: "Kapasite ve sepet alanı planlaması",
+                    paragraflar: [
+                        "Sepet yük kapasitesi sadece kişi sayısını değil, taşınacak malzeme ağırlığını da kapsar. Boya, tesisat parçası, tabela gibi malzemelerle birlikte çalışan ekiplerin toplam ağırlığı üreticinin belirttiği sınırın altında kalmalıdır. Kesin kapasite değerleri model bazında değişir ve teklif sırasında doğrulanır.",
+                        "Dar koridor veya asansörle taşınacak saha girişlerinde kompakt gövdeli akülü modeller, geniş sahalarda ise daha yüksek kapasiteli modeller önerilir.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da teslim ve saha kabul süreci",
+                    paragraflar: [
+                        "Makaslı platform teslimatında saha girişi, kapı genişliği ve zemin taşıma kapasitesi önceden kontrol edilmelidir. İkitelli, Tuzla ve Gebze merkezlerimizden sevk edilen makineler, teslimde seri numarası ve periyodik kontrol belgesiyle birlikte sahaya ulaştırılır.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Makaslı platform iç mekânda kullanılabilir mi?", cevap: "Evet, akülü makaslı platformlar egzoz emisyonu üretmediği ve sessiz çalıştığı için mağaza, ofis, hastane gibi kapalı alanlarda yaygın olarak kullanılır." },
+                { soru: "Makaslı platform ile eklemli platform arasındaki temel fark nedir?", cevap: "Makaslı platform dikey yükselir ve geniş sepet sunar; eklemli platform kollarını katlayarak engelin üzerinden veya yanından erişim sağlar. Zemin düz ve erişim doğrudansa makaslı, engel varsa eklemli platform tercih edilir." },
+                { soru: "Kaç kişi aynı anda sepette çalışabilir?", cevap: "Model bazında değişir; üretici kapasite tablosuna göre kişi sayısı ve malzeme ağırlığı birlikte hesaplanır. Kesin değer teklif sırasında modelle birlikte belirtilir." },
+            ],
+        },
+        {
+            slug: "istanbul-manlift-kiralama-fiyatlari-neye-gore-degisir",
+            kategori: "Fiyat Rehberi",
+            baslik: "İstanbul Manlift Kiralama Fiyatları Neye Göre Değişir?",
+            ozet: "Aynı 'manlift kiralama' aramasının fiyatı projeye göre birkaç kat değişebilir. Fiyatı belirleyen değişkenleri ve bunları nasıl kontrol altına alacağınızı anlatıyoruz.",
+            gorsel: "/media/isler/is-3.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama Fiyatları Neye Göre Değişir? — Artı Platform saha çalışması",
+            tarih: "2026-05-12",
+            okuma: 8,
+            giris: "\"Manlift kiralama fiyatı ne kadar?\" sorusunun tek bir cevabı yoktur; çünkü fiyat, altı farklı değişkenin birleşiminden oluşur. Bu yazıda bu değişkenleri açıklıyor, teklif isterken hangi bilgileri hazır bulundurmanız gerektiğini gösteriyoruz.",
+            bolumler: [
+                {
+                    baslik: "1. Çalışma yüksekliği ve ekipman sınıfı",
+                    paragraflar: [
+                        "Yükseklik arttıkça makinenin ağırlığı, gücü ve nakliye gereksinimi de artar; bu doğrudan günlük kiralama bedelini etkiler. Kompakt bir iç mekân makaslı platform ile 30 metre üzerinde çalışabilen bir teleskopik platformun maliyeti aynı kategoride değerlendirilemez.",
+                    ],
+                },
+                {
+                    baslik: "2. Kiralama süresi",
+                    paragraflar: [
+                        "Günlük, haftalık ve aylık tarifeler farklı birim fiyatlara sahiptir. Genel eğilim olarak süre uzadıkça günlük maliyet düşer; bu nedenle uzun süreli projelerde haftalık/aylık kontrat değerlendirmesi bütçe avantajı sağlayabilir.",
+                    ],
+                },
+                {
+                    baslik: "3. Operatörlü mü operatörsüz mü",
+                    paragraflar: [
+                        "Operatörlü kiralamada işçilik maliyeti kira bedeline eklenir; buna karşılık iş güvenliği sorumluluğu ve belge yönetimi büyük ölçüde hizmet sağlayıcıda kalır. Operatörsüz kiralamada bu sorumluluk kiracı tarafındadır ve belgeli personel bulundurmak zorunludur.",
+                    ],
+                },
+                {
+                    baslik: "4. Nakliye mesafesi ve saha koşulu",
+                    paragraflar: [
+                        "Operasyon merkezine (İkitelli/Tuzla/Gebze) uzaklık, saha giriş kısıtları, vinç/kamyonla indirme-bindirme ihtiyacı nakliye kalemini etkiler. Bazı yakın bölgelerde nakliye bedeli avantajlı olabilirken, uzak veya erişimi zor sahalarda ek maliyet oluşabilir.",
+                        "İç mekân ve dış mekân ayrımı da fiyatı etkiler: iç mekân işlerinde akülü model, dış sahada dizel model gerekebilir ve bu ekipman değişimi fiyatı doğrudan değiştirir.",
+                    ],
+                },
+                {
+                    baslik: "5. Sigorta, bakım ve ek hizmetler",
+                    paragraflar: [
+                        "Kurumsal kiralamalarda sigorta, periyodik bakım ve arıza durumunda ikame makine garantisi teklif kapsamına dahil edilebilir. Bu kalemlerin teklifte açıkça yazılı olması, iş durması riskine karşı önemlidir.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "En ucuz manlift hangisidir?", cevap: "En düşük günlük bedel genellikle kompakt akülü makaslı platformlarda görülür; ancak 'en ucuz' değil 'işe uygun' ekipman seçimi toplam maliyeti daha çok etkiler. Yanlış seçilen ekipman ek nakliye veya yeniden kiralama maliyetine yol açabilir." },
+                { soru: "Fiyat teklifi almak ücretli mi?", cevap: "Hayır, proje bilgilerinizi paylaştığınızda yazılı teklif hazırlanması ücretsizdir." },
+                { soru: "Aylık kontratlarda indirim var mı?", cevap: "Uzun dönem kontratlarda birim fiyat avantajı genellikle mevcuttur; kesin oran süre ve makine sınıfına göre teklif aşamasında belirlenir." },
+            ],
+        },
+        {
+            slug: "istanbulda-manlift-kiralama-nasil-yapilir",
+            kategori: "Operasyon Rehberi",
+            baslik: "İstanbul'da Manlift Kiralama Nasıl Yapılır?",
+            ozet: "Manlift kiralama süreci dört adımdan oluşur: ihtiyaç tanımı, teklif, saha kabul planı ve teslimat. Her adımda nelere dikkat etmelisiniz?",
+            gorsel: "/media/isler/is-4.jpg",
+            gorselAlt: "İstanbul'da Manlift Kiralama Nasıl Yapılır? — Artı Platform saha çalışması",
+            tarih: "2026-05-16",
+            okuma: 7,
+            giris: "İlk kez manlift kiralayacak bir işletme için süreç karmaşık görünebilir. Aslında dört net adımdan oluşur: ihtiyacın doğru tanımlanması, yazılı teklif, saha kabul planı ve teslimat. Bu yazıda her adımı açıklıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Adım 1 — İhtiyacınızı tanımlayın",
+                    paragraflar: [
+                        "Erişilecek gerçek yükseklik, zemin tipi (iç/dış mekân, düz/engebeli), kullanım süresi ve operatör ihtiyacı net şekilde tanımlanmalıdır. Bu bilgiler doğru ekipman sınıfının (makaslı, eklemli, teleskopik veya forklift) belirlenmesini sağlar.",
+                    ],
+                },
+                {
+                    baslik: "Adım 2 — Yazılı teklif isteyin",
+                    paragraflar: [
+                        "Teklif talep formunu doldurarak veya telefonla iletişime geçerek proje bilgilerinizi paylaşabilirsiniz. Hazırlanan teklif; makine modeli, kiralama süresi, nakliye, operatör (varsa) ve ek hizmetleri aynı tabloda gösterir.",
+                    ],
+                },
+                {
+                    baslik: "Adım 3 — Saha kabul planı",
+                    paragraflar: [
+                        "Teslimat öncesinde şu noktalar netleştirilir: yükleme/boşaltma noktası, saha giriş genişliği, zemin taşıma kapasitesi, giriş saati ve varsa özel izin gereksinimi (OSB, AVM, tersane gibi kontrollü sahalar). Bu plan, teslimat gününde gecikme yaşanmasını önler.",
+                    ],
+                },
+                {
+                    baslik: "Adım 4 — Teslimat ve belge kontrolü",
+                    paragraflar: [
+                        "Makine sahaya ulaştığında seri numarası, periyodik kontrol belgesi ve (varsa) operatör belgesi teslim tutanağıyla birlikte kontrol edilir. Kullanım süresince arıza durumunda bildirim ve ikame makine koşulları teklifte belirtilen kapsama göre işletilir.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teklif almak için hangi bilgileri hazırlamalıyım?", cevap: "Proje adresi, erişilecek yükseklik, iç/dış mekân durumu, kullanım süresi ve operatör tercihinizi hazırlamanız yeterlidir." },
+                { soru: "Aynı gün teslimat mümkün mü?", cevap: "Operasyon merkezine yakın bölgelerde ve filo uygunluğuna göre aynı gün teslimat değerlendirilebilir; kesin süre teklif sırasında netleşir." },
+                { soru: "Teslimatta hangi belgeler kontrol edilmeli?", cevap: "Makinenin seri numarası, periyodik kontrol/muayene belgesi ve operatörlü kiralamada operatör belgesi teslim anında doğrulanmalıdır." },
+            ],
+        },
+        {
+            slug: "istanbul-forklift-kiralama",
+            kategori: "Ekipman Rehberi",
+            baslik: "İstanbul Forklift Kiralama",
+            ozet: "Forklift kiralama, depo ve lojistik operasyonlarında en sık tekrar eden kiralama ihtiyacıdır. Doğru güç tipi ve kapasite seçimi verimliliği doğrudan etkiler.",
+            gorsel: "/media/isler/is-5.jpg",
+            gorselAlt: "İstanbul Forklift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-20",
+            okuma: 7,
+            giris: "İstanbul ve Kocaeli'nin yoğun lojistik ve sanayi bölgelerinde forklift, günlük operasyonun bel kemiğidir. Depo yükleme-boşaltma, saha içi malzeme taşıma ve mevsimsel yoğunluk dönemlerinde filo desteği ihtiyacı sık ortaya çıkar.",
+            bolumler: [
+                {
+                    baslik: "Akülü, dizel, LPG — hangisi ne zaman?",
+                    paragraflar: [
+                        "Akülü forkliftler kapalı depo ve gıda/ilaç gibi hassas ortamlarda emisyonsuz çalışma avantajı sunar. Dizel forkliftler açık saha, liman ve ağır yük operasyonlarında güç avantajı sağlar. LPG forkliftler iç-dış mekân arası geçiş yapan karma operasyonlarda esneklik sunar.",
+                    ],
+                },
+                {
+                    baslik: "Kapasite ve ataşman seçimi",
+                    paragraflar: [
+                        "Taşınacak yükün ağırlığı, palet boyutu ve raf yüksekliği kapasite seçiminde belirleyicidir. Özel yük tipleri için çatal uzatma, yan kayar çatal gibi ataşmanlar talep bazında değerlendirilir.",
+                    ],
+                },
+                {
+                    baslik: "Mevsimsel ve proje bazlı filo desteği",
+                    paragraflar: [
+                        "Market zincirleri, e-ticaret depoları ve üretim tesisleri yoğun dönemlerde (kampanya, envanter sayımı, sezon geçişi) ek forklift ihtiyacı duyar. Aylık+ filo kontratları bu dönemlerde hem maliyet hem operasyonel süreklilik avantajı sağlar.",
+                    ],
+                },
+                {
+                    baslik: "OSB ve sanayi bölgelerinde teslim",
+                    paragraflar: [
+                        "Gebze ve Dilovası gibi yoğun sanayi bölgelerinde OSB içi paket sözleşmeler ile hızlı teslim sağlanır; Tuzla ve İkitelli operasyon merkezlerimiz de Anadolu ve Avrupa yakasındaki depo/lojistik bölgelerine kısa sürede sevkiyat yapar.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift kiralama için operatör dahil mi?", cevap: "Hem operatörlü hem operatörsüz seçenek sunulur; operatörsüz kiralamada geçerli forklift operatör belgesine sahip personel bulundurmanız gerekir." },
+                { soru: "Kısa süreli (birkaç günlük) forklift kiralama mümkün mü?", cevap: "Evet, günlük kiralama mümkündür; yoğun dönem veya proje bazlı kısa süreli ihtiyaçlar için uygundur." },
+                { soru: "Hangi kapasitede forklift önerilir?", cevap: "Kapasite, taşınan yük ağırlığı ve palet/raf ölçülerine göre belirlenir; kesin model önerisi teklif sırasında proje bilgilerine göre yapılır." },
+            ],
+        },
+        {
+            slug: "istanbul-eklemli-platform-kiralama",
+            kategori: "Ekipman Rehberi",
+            baslik: "İstanbul Eklemli Platform Kiralama",
+            ozet: "Zeminde engel, çıkıntı ya da dar erişim koridoru varsa makaslı platform yetmez. Eklemli platformun avantajlarını ve doğru kullanım senaryolarını anlatıyoruz.",
+            gorsel: "/media/isler/is-6.jpg",
+            gorselAlt: "İstanbul Eklemli Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-24",
+            okuma: 7,
+            giris: "Eklemli platform (bilinen adıyla \"boom lift\"), kollarını katlayarak hem dikey hem yatay yönde esnek erişim sağlar. Bu özelliği onu, düz yukarı çıkışın yeterli olmadığı — bir çıkıntının arkasına, ağacın üzerinden, borulama hattının yanından erişim gerektiren — işlerde vazgeçilmez kılar.",
+            bolumler: [
+                {
+                    baslik: "Eklemli platform ne zaman gereklidir?",
+                    paragraflar: [
+                        "Zemin ile hedef nokta arasında engel varsa (çıkıntılı çatı, ağaç, boru hattı, yapı elemanı), eklemli platformun kollarını katlayarak engelin üzerinden veya yanından geçme kabiliyeti kritik hale gelir. Makaslı platform sadece dikey açıldığı için bu tip erişimlerde yetersiz kalabilir.",
+                    ],
+                },
+                {
+                    baslik: "Tipik kullanım alanları",
+                    paragraflar: [
+                        "Cephe bakım ve boya işlerinde çıkıntılı bina detayları. Sanayi tesislerinde boru hattı ve ekipman çevresi bakım. Peyzaj/ağaçlandırma alanlarında budama ve aydınlatma. Elektrik direği ve saha aydınlatma bakımı.",
+                    ],
+                },
+                {
+                    baslik: "Akülü ve dizel eklemli modeller",
+                    paragraflar: [
+                        "İç mekân ve hassas alanlarda akülü eklemli platformlar, açık saha ve engebeli zeminde ise dizel modeller tercih edilir. Yükseklik arttıkça (22-32 m gibi büyük eklemli sınıflar) makine ağırlığı ve nakliye planlaması da değişir.",
+                    ],
+                },
+                {
+                    baslik: "Saha planlaması",
+                    paragraflar: [
+                        "Eklemli platformun dönme yarıçapı ve kol açılım mesafesi, saha genişliğine göre önceden kontrol edilmelidir. Dar sokak veya sınırlı saha genişliğinde daha kompakt eklemli modeller önerilebilir.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Eklemli platform ile teleskopik platform farkı nedir?", cevap: "Eklemli platform kollarını katlayarak engelin üzerinden/yanından erişim sağlar; teleskopik platform tek kollu uzayarak daha uzun düz mesafeye ulaşır. Engelli sahalarda eklemli, açık uzun mesafede teleskopik daha uygundur." },
+                { soru: "Eklemli platform dar alanlarda kullanılabilir mi?", cevap: "Kompakt eklemli modeller dar saha ve iç mekân koridorlarında kullanılabilir; saha ölçüleri teklif öncesi paylaşılmalıdır." },
+                { soru: "Eklemli platform hangi yükseklik aralığında hizmet veriyor?", cevap: "Filo içinde farklı yükseklik sınıflarında eklemli modeller bulunur; proje ihtiyacına göre uygun sınıf teklif sırasında belirlenir." },
+            ],
+        },
+        {
+            slug: "istanbul-teleskopik-platform-kiralama",
+            kategori: "Ekipman Rehberi",
+            baslik: "İstanbul Teleskopik Platform Kiralama",
+            ozet: "Teleskopik platform, tek kollu yapısıyla en uzun yatay erişimi sağlayan sınıftır. Yüksek bina cepheleri ve büyük saha operasyonları için tercih edilir.",
+            gorsel: "/media/isler/is-7.jpg",
+            gorselAlt: "İstanbul Teleskopik Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-28",
+            okuma: 7,
+            giris: "Teleskopik platform (tek parça uzayan bom kollu tip), diğer platform sınıflarına göre en uzun yatay erişim mesafesini sunar. Bu nedenle yüksek katlı bina cephesi, endüstriyel baca/direk bakımı ve geniş açık sahalarda en verimli çözümdür.",
+            bolumler: [
+                {
+                    baslik: "Ne zaman teleskopik platform seçilmeli?",
+                    paragraflar: [
+                        "Erişilecek nokta hem yüksek hem de zeminden yatay olarak uzaksa (örneğin bina önünde park alanı bulunmayan bir cephe, ya da geniş bir üretim hattının üzerinden geçen bir aydınlatma hattı), teleskopik platformun tek kollu uzun erişimi en verimli sonucu verir.",
+                    ],
+                },
+                {
+                    baslik: "Plaza, hastane ve AVM cephe bakımında kullanım",
+                    paragraflar: [
+                        "Şişli, Ataşehir gibi plaza ve finans merkezi yoğun bölgelerde, 32-43 m sınıfı büyük teleskopik platformlar cephe bakım ve temizlik operasyonlarında düzenli olarak talep edilir. Bu tip işlerde plaza yönetim onay süreci ve çalışma saatleri önceden planlanmalıdır.",
+                    ],
+                },
+                {
+                    baslik: "Açık saha ve sanayi kullanım senaryoları",
+                    paragraflar: [
+                        "Liman, tersane ve büyük üretim tesislerinde saha aydınlatması, çelik konstrüksiyon bakımı ve kran/vinç hattı kontrolü gibi işlerde teleskopik platformun uzun erişimi zaman kazandırır.",
+                    ],
+                },
+                {
+                    baslik: "Nakliye ve saha hazırlığı",
+                    paragraflar: [
+                        "Büyük teleskopik modeller ağır ve uzun gövdeli olduğundan nakliye aracı, saha giriş yüksekliği ve zemin taşıma kapasitesi önceden kontrol edilmelidir.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teleskopik platform en fazla ne kadar yükseğe çıkar?", cevap: "Filo içinde farklı sınıflarda teleskopik modeller bulunur; en uygun yükseklik sınıfı proje ihtiyacına göre teklif sırasında belirlenir." },
+                { soru: "Teleskopik platform açık sahada mı yoksa iç mekânda mı kullanılır?", cevap: "Büyük gövdesi ve genellikle dizel motoru nedeniyle çoğunlukla açık saha ve geniş alanlarda kullanılır." },
+                { soru: "Teleskopik platform ile makaslı platform aynı işe uygun mu?", cevap: "Hayır, teleskopik platform uzun yatay erişim gerektiren işler için, makaslı platform ise düz yukarı geniş sepetli çalışmalar için tercih edilir." },
+            ],
+        },
+        {
+            slug: "istanbul-orumcek-platform-kiralama",
+            kategori: "Ekipman Rehberi",
+            baslik: "İstanbul Örümcek Platform Kiralama",
+            ozet: "Örümcek platform, paletli ve kompakt gövdesiyle standart platformların giremediği dar alanlara erişim sağlar. Beyoğlu, Fatih gibi tarihi bölgelerde tercih edilir.",
+            gorsel: "/media/isler/is-8.jpg",
+            gorselAlt: "İstanbul Örümcek Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-06-01",
+            okuma: 6,
+            giris: "Örümcek platform (spider lift), paletli hareket sistemi ve katlanabilir ayaklarıyla dar kapı, merdiven boşluğu veya iç avlu gibi standart platformların ulaşamadığı alanlara girebilir. İstanbul'un tarihi yarımada, Beyoğlu ve Beşiktaş gibi dar sokaklı bölgelerinde sık tercih edilen bir çözümdür.",
+            bolumler: [
+                {
+                    baslik: "Örümcek platform hangi durumlarda tercih edilir?",
+                    paragraflar: [
+                        "Standart tekerlekli platformların sığmadığı dar sokak girişleri, iç avlular, bahçe içi ağaç budama alanları ve zemin hassasiyeti yüksek (peyzaj, mermer zemin gibi) sahalarda örümcek platformun kompakt gövdesi ve zemine düşük baskı uygulayan ayakları avantaj sağlar.",
+                    ],
+                },
+                {
+                    baslik: "Tarihi bina ve dar sokak projeleri",
+                    paragraflar: [
+                        "Beyoğlu, Fatih ve Üsküdar gibi tarihi doku yoğun bölgelerde restorasyon ve cephe bakım projelerinde, dar sokak girişi nedeniyle standart platform yerine örümcek platform tercih edilir. Bu tip projelerde belediye/koruma kurulu izin süreçleri de ayrıca planlanmalıdır.",
+                    ],
+                },
+                {
+                    baslik: "Merdivenle taşınabilme özelliği",
+                    paragraflar: [
+                        "Bazı örümcek platform modelleri katlanabilir yapısı sayesinde dar geçitlerden veya merdivenden manuel olarak sahaya taşınabilir; bu, bina içi avlu veya çatı katı erişimlerinde önemli bir avantajdır.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Örümcek platform hangi zeminlerde kullanılabilir?", cevap: "Paletli hareket sistemi sayesinde düz olmayan ve hassas zeminlerde (mermer, ahşap döşeme, peyzaj alanı) düşük baskı ile kullanılabilir; kesin uygunluk saha ziyareti/bilgisiyle teyit edilir." },
+                { soru: "Örümcek platform dar sokaklara sığar mı?", cevap: "Kompakt gövdesi ve katlanabilir ayakları sayesinde standart platformların giremediği dar sokak ve avlulara erişebilir; giriş genişliği teklif öncesi kontrol edilmelidir." },
+                { soru: "Örümcek platform operatörlü mü kiralanır?", cevap: "Genellikle operatörlü kiralanır çünkü kullanım tekniği standart platformlardan farklıdır; operatörsüz talepler proje bazında değerlendirilir." },
+            ],
+        },
+        {
+            slug: "ic-mekan-dis-mekan-platform-secimi",
+            kategori: "Operasyon Rehberi",
+            baslik: "İç Mekân ve Dış Mekân Platform Kiralamada Fark Nedir?",
+            ozet: "Aynı yükseklikteki iki iş, ortam farkı nedeniyle tamamen farklı ekipman gerektirebilir. İç mekân ve dış mekân seçim kriterlerini karşılaştırıyoruz.",
+            gorsel: "/media/isler/is-9.jpg",
+            gorselAlt: "İç Mekân ve Dış Mekân Platform Kiralamada Fark Nedir? — Artı Platform saha çalışması",
+            tarih: "2026-06-05",
+            okuma: 6,
+            giris: "Platform kiralama teklifi isterken en sık atlanan detaylardan biri \"iç mekân mı dış mekân mı\" sorusudur. Oysa bu tek soru; motor tipini, lastik seçimini ve hatta makine sınıfını doğrudan değiştirir.",
+            bolumler: [
+                {
+                    baslik: "Motor tipi: akülü vs dizel",
+                    paragraflar: [
+                        "İç mekânda egzoz emisyonu ve gürültü kısıtı olduğundan akülü modeller tercih edilir. Dış mekânda, özellikle uzun süreli veya güç gerektiren işlerde dizel modeller daha verimlidir. Karma kullanım (gün içinde hem iç hem dış mekân) gereken projelerde LPG veya hibrit seçenekler değerlendirilebilir.",
+                    ],
+                },
+                {
+                    baslik: "Lastik ve zemin uyumu",
+                    paragraflar: [
+                        "İç mekân zemini genelde düz ve hassas olduğundan iz bırakmayan (non-marking) lastikli modeller tercih edilir. Dış mekânda engebeli zemin için dolgu veya büyük çaplı lastikler gereklidir. Zemin taşıma kapasitesi de (özellikle üst kat ya da asansörle taşınan alanlarda) önceden kontrol edilmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Erişim ve saha giriş kısıtları",
+                    paragraflar: [
+                        "İç mekân işlerinde kapı genişliği, tavan yüksekliği ve asansör ölçüleri; dış mekân işlerinde ise saha zemini, eğim ve hava koşulları planlamayı etkiler. Her iki durumda da saha ölçüleri teklif öncesi paylaşılmalıdır.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Dizel platform iç mekânda kullanılabilir mi?", cevap: "Genel olarak önerilmez; egzoz emisyonu ve gürültü nedeniyle kapalı alanlarda akülü modeller tercih edilir. Zorunlu durumlarda havalandırma koşulları ayrıca değerlendirilmelidir." },
+                { soru: "Aynı proje hem iç hem dış mekân içeriyorsa ne yapılmalı?", cevap: "Bu durumda iki farklı ekipman planlanabilir veya LPG/hibrit modeller değerlendirilebilir; en uygun çözüm saha bilgisiyle teklif aşamasında belirlenir." },
+                { soru: "Zemin taşıma kapasitesi nasıl kontrol edilir?", cevap: "Özellikle üst katlarda veya eski yapılarda zeminin makine ağırlığını taşıyıp taşımadığı proje ekibi veya yapı sorumlusu tarafından teyit edilmelidir." },
+            ],
+        },
+        {
+            slug: "operatorlu-mu-operatorsuz-mu-manlift-kiralama",
+            kategori: "Operasyon Rehberi",
+            baslik: "Operatörlü mü Operatörsüz mü Manlift Kiralama?",
+            ozet: "Operatörlü ve operatörsüz kiralama arasındaki fark sadece fiyat değil; sorumluluk paylaşımı ve iş güvenliği yönetimidir. Karar verirken nelere bakmalısınız?",
+            gorsel: "/media/isler/is-10.jpg",
+            gorselAlt: "Operatörlü mü Operatörsüz mü Manlift Kiralama? — Artı Platform saha çalışması",
+            tarih: "2026-06-09",
+            okuma: 6,
+            giris: "Manlift kiralarken karşınıza çıkan bir diğer önemli soru: \"operatörlü mü, operatörsüz mü?\" Bu tercih sadece maliyeti değil, iş güvenliği sorumluluğunun kimde olacağını da belirler.",
+            bolumler: [
+                {
+                    baslik: "Operatörsüz kiralama ne zaman uygundur?",
+                    paragraflar: [
+                        "İşletmenizde geçerli platform operatör belgesine sahip personel varsa ve iş güvenliği süreçleri kurumsal olarak yönetiliyorsa, operatörsüz kiralama maliyet avantajı sağlar. Bu durumda belge geçerliliği, periyodik eğitim ve saha güvenliği tamamen kiracı sorumluluğundadır.",
+                    ],
+                },
+                {
+                    baslik: "Operatörlü kiralama ne zaman tercih edilmeli?",
+                    paragraflar: [
+                        "Kısa süreli, tek seferlik veya özel uzmanlık gerektiren işlerde (tarihi bina restorasyonu, dar sokak erişimi, örümcek platform kullanımı gibi) operatörlü kiralama hem güvenlik hem verimlilik açısından avantajlıdır. Belgeli operatör, makine ve sahaya özgü riskleri değerlendirerek çalışır.",
+                    ],
+                },
+                {
+                    baslik: "Maliyet ve sorumluluk dengesi",
+                    paragraflar: [
+                        "Operatörlü kiralamada işçilik bedeli kira tutarına eklenir ancak iş güvenliği ve makine kullanım riski büyük ölçüde hizmet sağlayıcı tarafından yönetilir. Operatörsüz kiralamada birim maliyet düşer ancak belge kontrolü ve saha güvenliği kiracının sorumluluğuna geçer.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Operatörsüz kiralamada hangi belgeler zorunludur?", cevap: "Kullanacak personelin geçerli platform operatör belgesi ve iş güvenliği eğitim kaydı bulunmalıdır; bu belgelerin sahada ibraz edilebilir olması gerekir." },
+                { soru: "Operatörlü kiralama daha mı pahalıdır?", cevap: "İşçilik bedeli eklendiği için birim maliyet operatörsüz seçeneğe göre daha yüksektir; ancak toplam iş güvenliği ve verimlilik açısından bazı projelerde daha avantajlı olabilir." },
+                { soru: "Kısa süreli işlerde hangisi önerilir?", cevap: "Tek seferlik veya özel uzmanlık gerektiren kısa süreli işlerde operatörlü kiralama genellikle daha pratik bir çözümdür." },
+            ],
+        },
+        {
+            slug: "tuzla-manlift-forklift-kiralama",
+            kategori: "Bölge Rehberi",
+            baslik: "Tuzla Manlift ve Forklift Kiralama",
+            ozet: "Tuzla, Anadolu Yakası operasyon merkezimizin bulunduğu bölge. Tersane ve sanayi yoğun bu ilçede ekipman ihtiyacı ve teslim süreleri nasıl işler?",
+            gorsel: "/media/isler/is-11.jpg",
+            gorselAlt: "Tuzla Manlift ve Forklift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-06-13",
+            okuma: 6,
+            giris: "Tuzla, Artı Platform'un Anadolu Yakası operasyon merkezinin bulunduğu ilçedir. Tersane bölgesi, sanayi siteleri ve lojistik tesislerinin yoğunlaştığı bu bölgede, merkeze yakınlık sayesinde 15-30 dakika gibi kısa sürede teslimat sağlanabilir.",
+            bolumler: [
+                {
+                    baslik: "Tuzla'da öne çıkan sektörler ve ekipman ihtiyacı",
+                    paragraflar: [
+                        "Tersane bakım ve montaj operasyonlarında yüksek erişimli platformlar ve forkliftler; sanayi sitelerinde ise malzeme taşıma amaçlı forklift filoları düzenli talep edilir. Petrol ve kimyasal madde bulunan sahalarda ATEX sertifikalı modeller değerlendirilebilir.",
+                    ],
+                },
+                {
+                    baslik: "Operasyon merkezi avantajı",
+                    paragraflar: [
+                        "Tuzla'daki operasyon merkezimiz sayesinde ilçe içi teslim süresi 15-30 dakika civarında olabilir; bu, acil arıza veya ek makine ihtiyacında önemli bir avantajdır. Filo hazırlık oranımız bu bölgede yüksek tutulur.",
+                    ],
+                },
+                {
+                    baslik: "Tersane sahalarında çalışma izinleri",
+                    paragraflar: [
+                        "Tersane sahalarında genellikle özel giriş izni ve güvenlik eğitimi şartı bulunur. Operatörlü kiralamalarda bu süreç önceden koordine edilerek sahaya giriş gecikmesi önlenir.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Tuzla'da aynı gün teslimat mümkün mü?", cevap: "Operasyon merkezimizin bulunduğu ilçe olduğundan filo uygunluğuna bağlı olarak aynı gün, hatta saatler içinde teslimat değerlendirilebilir." },
+                { soru: "Tersane sahasına giriş için özel belge gerekir mi?", cevap: "Çoğu tersane sahası özel güvenlik eğitimi ve giriş izni talep eder; bu süreç teslimat öncesi birlikte planlanmalıdır." },
+                { soru: "Tuzla dışındaki Anadolu Yakası ilçelerine de hizmet veriyor musunuz?", cevap: "Evet, Tuzla operasyon merkezimizden Kadıköy, Maltepe, Kartal, Pendik ve çevresindeki ilçelere sevkiyat yapılmaktadır." },
+            ],
+        },
+        {
+            slug: "gebze-osb-manlift-kiralama",
+            kategori: "Bölge Rehberi",
+            baslik: "Gebze OSB Manlift Kiralama",
+            ozet: "Gebze, Kocaeli'nin en yoğun organize sanayi bölgesi. Operasyon merkezimizin burada olması OSB içi firmalar için hızlı teslim anlamına geliyor.",
+            gorsel: "/media/isler/is-12.jpg",
+            gorselAlt: "Gebze OSB Manlift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-06-17",
+            okuma: 6,
+            giris: "Gebze, Güzeller ve Plastikçiler OSB gibi büyük organize sanayi bölgelerine ev sahipliği yapar. Artı Platform'un üçüncü operasyon merkezi de bu bölgede konumlanmıştır; bu sayede OSB içi firmalara hızlı teslim ve paket sözleşme imkânı sunulur.",
+            bolumler: [
+                {
+                    baslik: "OSB içi sanayi tesislerinde ekipman ihtiyacı",
+                    paragraflar: [
+                        "Üretim hattı bakımı, çatı ve aydınlatma operasyonları için eklemli/teleskopik platformlar; malzeme ve hammadde taşıma için forklift filoları OSB'de en sık talep edilen ekipmanlardır. İlaç ve kimya tesislerinde hijyen sertifikalı model tercihi öne çıkar.",
+                    ],
+                },
+                {
+                    baslik: "Petrokimya ve ağır sanayi için ATEX modeller",
+                    paragraflar: [
+                        "Dilovası ve çevresindeki petrokimya yoğun sahalarda ATEX sertifikalı manlift ve LOTO (kilitle-etiketle) eğitimli operatör desteği özel önem taşır. Bu tip sahalarda çalışma izni (PtW) süreçleri teslimat öncesi koordine edilmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Gebze operasyon merkezi avantajı",
+                    paragraflar: [
+                        "Operasyon merkezimizin Gebze'de olması sayesinde OSB içi teslim süresi 15-30 dakikaya kadar inebilir. Kocaeli merkez (İzmit), Darıca ve Dilovası gibi çevre ilçelere de bu merkezden hızlı sevkiyat sağlanır.",
+                        "",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Gebze OSB'ye hangi ekipmanlar temin ediliyor?", cevap: "Yükseltici platformlar (makaslı, eklemli, teleskopik), forklift filoları ve mobil vinç hizmetleri OSB içi sanayi tesislerine sağlanmaktadır." },
+                { soru: "Petrokimya tesislerinde özel sertifika gerekiyor mu?", cevap: "Evet, bu tip sahalarda ATEX sertifikalı ekipman ve LOTO/PtW protokolüne uygun operatör süreci değerlendirilir." },
+                { soru: "OSB dışı Kocaeli ilçelerine hizmet veriyor musunuz?", cevap: "Evet, Gebze operasyon merkezimizden Darıca, Dilovası ve Kocaeli (İzmit) merkez gibi çevre ilçelere sevkiyat yapılmaktadır." },
+            ],
+        },
+    ],
+    "istanbulplatformkiralama.net": [
+        {
+            slug: "istanbul-manlift-kiralama",
+            kategori: "Manlift Kiralama",
+            baslik: "İstanbul Manlift Kiralama",
+            ozet: "İstanbul'da manlift kiralarken hangi tip, hangi enerji kaynağı ve hangi şube senin işine uygun? Filo, teslimat ve fiyatlandırma mantığını tek sayfada topladık.",
+            gorsel: "/media/isler/is-13.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-04",
+            okuma: 9,
+            giris: "İstanbul'da \"manlift kiralama\" araması yaptıysan muhtemelen elinde somut bir iş var: tavan bakımı, cephe temizliği, tabela montajı ya da depo rafında yüksek erişim. Bu sayfada İstanbul'daki manlift kiralama sürecini — tip seçiminden şubeden teslimata kadar — kendi filomuzun verisiyle anlatıyoruz. Kopyala-yapıştır bir rehber değil; Tuzla, İkitelli ve Gebze şubelerimizden günlük yürüttüğümüz operasyonun özeti.",
+            bolumler: [
+                {
+                    baslik: "Manlift Ne İşe Yarar, İstanbul'da Kimler Kiralıyor?",
+                    paragraflar: [
+                        "Manlift (personel yükseltici platform), bir kişiyi veya küçük bir ekibi güvenli bir platform üzerinde belirli bir yüksekliğe çıkaran hidrolik makinedir. İstanbul'da en çok üç grup kiralıyor: AVM ve mağaza yönetimleri (tavan, aydınlatma, vitrin işleri), fabrika/depo bakım ekipleri (çatı, raf, tesisat) ve cephe/inşaat firmaları (dış cephe boyama, temizlik, tabela). Her grubun ihtiyacı farklı — bu yüzden \"en iyi manlift\" diye tek bir cevap yok, işin türüne göre model değişiyor.",
+                    ],
+                },
+                {
+                    baslik: "Hangi Manlift Tipini Seçmelisin?",
+                    paragraflar: [
+                        "Filomuzda dört ana sınıf var: akülü makaslı (iç mekan, sessiz, asansörden geçen dar gövde), eklemli platform (engelli aşma kabiliyeti, çatı çıkıntısı ve boru hattı gibi zor erişimler), teleskopik platform (açık sahada uzun mesafe yatay+dikey erişim) ve örümcek (spider) platform — dar kapı ve merdivenlerden geçip iç mekanda katlanarak açılan model. İç mekan mağaza/AVM işi akülü makaslıya, dış cephe ve şantiye işi genelde eklemli veya teleskopiğe yönlendiriliyor.",
+                    ],
+                },
+                {
+                    baslik: "İstanbul'da Teslimat Nasıl İşliyor?",
+                    paragraflar: [
+                        "Üç şubemiz var: İkitelli (Avrupa Yakası), Tuzla (Anadolu Yakası, Tuzla OSB) ve Gebze (Kocaeli hattı). Talebini ilettiğinde en yakın şubeden sevkiyat planlanıyor; şube-ilçe mesafesine göre teslimat süresi güncel stok ve trafik durumuna bağlı olarak yazılı teklifte netleşiyor. Şubeye yakın ilçelerde (10 km içi) nakliye genelde ücretsiz, uzak ilçelerde güncel teklif üzerinden belirleniyor.",
+                    ],
+                },
+                {
+                    baslik: "Fiyatı Neler Belirliyor?",
+                    paragraflar: [
+                        "Manlift kiralama fiyatı tek bir sabit rakam değil — dört değişkene bağlı: çalışma yüksekliği (5 metrelik makaslı ile 30 metrelik teleskopik aynı fiyat olamaz), kiralama süresi (günlük/haftalık/aylık kontratlarda birim fiyat düşer), enerji kaynağı (akülü iç mekan modelleri genelde dizele göre farklı fiyatlanır) ve operatör dahil olup olmadığı. Online teklif formumuzdan bu dört bilgiyi girdiğinde 15 dakika içinde yazılı fiyat dönüyoruz.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "İstanbul'un her ilçesine manlift götürüyor musunuz?", cevap: "Evet, Avrupa Yakası, Anadolu Yakası ve Kocaeli hattı dahil geniş bir bölgeye hizmet veriyoruz. Teslimat süresi ilçeye ve güncel stok durumuna göre yazılı teklifte belirtilir." },
+                { soru: "Manlift kullanmak için belge gerekiyor mu?", cevap: "Evet, MYK (Mesleki Yeterlilik Kurumu) yüksekte çalışma platformu operatör belgesi gerekiyor. Belgeli personelin yoksa operatörlü kiralama seçebilirsin." },
+                { soru: "En kısa kiralama süresi ne kadar?", cevap: "Günlük kiralama mevcut. Kısa süreli işlerde günlük, uzun projelerde haftalık/aylık kontrat daha avantajlı oluyor." },
+                { soru: "Aynı gün teslimat mümkün mü?", cevap: "Güncel stok ve şube mesafesine bağlı. Teslimat garantisi verilmez; net tarih yazılı teklifte belirtilir." },
+            ],
+        },
+        {
+            slug: "istanbul-makasli-platform-kiralama",
+            kategori: "Manlift Kiralama",
+            baslik: "İstanbul Makaslı Platform Kiralama",
+            ozet: "Makaslı platform, İstanbul'daki iç mekan işlerinin en çok tercih edilen makinesi. Dar gövde, sessiz akü, düz dikey erişim — hangi model hangi işe uyar?",
+            gorsel: "/media/isler/is-6.jpg",
+            gorselAlt: "İstanbul Makaslı Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-05-11",
+            okuma: 7,
+            giris: "\"İstanbul makaslı platform kiralama\" araması yaptıysan büyük ihtimalle bir mağaza, AVM veya depo içinde dikey erişim ihtiyacın var. Makaslı platform, filomuzun en yoğun kiralanan sınıfı — çünkü İstanbul'daki iç mekan işlerinin çoğu düz tavan yüksekliğine dikey erişimi gerektiriyor. Bu yazıda hangi modelin hangi işe uyduğunu, kendi filo verimizle anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Makaslı Platform Diğer Tiplerden Nasıl Ayrılır?",
+                    paragraflar: [
+                        "Eklemli veya teleskopik platformlar yatayda da uzanabilirken, makaslı platform sadece dikey eksende yükselir — makas mekanizması platformu düz yukarı iter. Bu basitlik onu daha dengeli ve genelde daha geniş taşıma kapasiteli yapar. İstanbul'da düz tavanlı, engelsiz iç mekanlarda (AVM koridoru, depo koridoru, mağaza salonu) ilk tercih genelde makaslı platform oluyor.",
+                    ],
+                },
+                {
+                    baslik: "Akülü Makaslı Neden İç Mekanda Zorunlu?",
+                    paragraflar: [
+                        "Kapalı alanda dizel motor egzoz gazı ve yangın riski nedeniyle pratikte kullanılmaz; akülü model bu yüzden AVM, mağaza, ofis, hastane gibi ortamların standart seçeneğidir. Filomuzdaki akülü makaslı modeller 45 dB civarında çalışıyor — yani konuşma sesinden bile daha sessiz. Beyaz polyurethane teker seçenekleriyle mermer ve parke zeminde iz bırakmıyor.",
+                    ],
+                },
+                {
+                    baslik: "Dar Gövde = Asansörden Geçme Avantajı",
+                    paragraflar: [
+                        "İstanbul'daki çok katlı AVM ve plazalarda işin büyük kısmı asansörle taşınabilen makinede toplanıyor. Standart yük asansörü genişliği yaklaşık 81 cm; filomuzdaki dar gövdeli makaslı modeller (örneğin 5.8 m çalışma yüksekliğine sahip akülü seri) tam bu ölçüye uyacak şekilde tasarlanmış. Bu da farklı katlara taşınırken merdiven ya da vinç gerektirmiyor.",
+                    ],
+                },
+                {
+                    baslik: "Hangi Yükseklikte Hangi Model?",
+                    paragraflar: [
+                        "Kaba bir kural: hedeflenen tavan/çalışma noktasının üzerine yaklaşık 1.5 metre pay ekleyip o rakama en yakın modeli seç. 3-4 metre tavan için 5-6 metrelik makaslı, 5-6 metre tavan için 9-10 metrelik makaslı genelde yeterli oluyor. Daha yükseğe çıkmak gerekiyorsa (7 metre üstü) eklemli platform sınıfına geçmek daha mantıklı, çünkü o noktada makaslı gövdeler hacimce büyüyor ve manevra kabiliyeti düşüyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Makaslı platform ile eklemli platform arasındaki temel fark nedir?", cevap: "Makaslı sadece dikey yükselir, geniş ve dengeli bir çalışma alanı sunar. Eklemli ise kollarıyla yatayda da uzanabilir, engel aşma kabiliyeti daha yüksektir." },
+                { soru: "Mağaza içinde makaslı platform kullanmak zemine zarar verir mi?", cevap: "Beyaz polyurethane lastikli modellerde hayır — mermer, parke ve seramik zeminde test edilmiş, iz bırakmayan bir kullanım sağlıyor." },
+                { soru: "Kaç kişi platform üzerine çıkabilir?", cevap: "Modele göre değişir; genelde 1-2 kişi + malzeme için tasarlanmış, platform kapasitesi 230 kg civarındadır. Kesin kapasite teklif aşamasında belirtilir." },
+            ],
+        },
+        {
+            slug: "istanbul-manlift-kiralama-fiyatlari-neye-gore-degisir",
+            kategori: "Fiyat Rehberi",
+            baslik: "İstanbul Manlift Kiralama Fiyatları Neye Göre Değişir?",
+            ozet: "\"Manlift günlüğü ne kadar?\" sorusuna tek bir sayı ile cevap vermek mümkün değil. Fiyatı belirleyen değişkenleri sıraladık.",
+            gorsel: "/media/isler/is-12.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama Fiyatları Neye Göre Değişir? — Artı Platform saha çalışması",
+            tarih: "2026-05-18",
+            okuma: 6,
+            giris: "\"Manlift günlüğü ne kadar?\" telefonda en sık duyduğumuz soru ama tek bir sayıyla cevap vermek yanıltıcı olur. Fiyatı belirleyen beş değişkeni günlük operasyonumuzdan örneklerle açıyoruz — böylece teklif istediğinde hangi bilgileri paylaşman gerektiğini de baştan bileceksin.",
+            bolumler: [
+                {
+                    baslik: "1. Çalışma Yüksekliği",
+                    paragraflar: [
+                        "En büyük fiyat farkı yükseklikten geliyor. 5-6 metrelik akülü makaslı ile 30-40 metrelik teleskopik platform arasında hem makine maliyeti hem nakliye lojistiği açısından ciddi fark var. Genel eğilim: yükseklik arttıkça günlük birim fiyat da artıyor, çünkü makine daha büyük, daha ağır ve nakliyesi daha özel ekipman gerektiriyor.",
+                    ],
+                },
+                {
+                    baslik: "2. Kiralama Süresi",
+                    paragraflar: [
+                        "Günlük kiralamalarda birim fiyat en yüksek seviyede; haftalık kontratlarda genelde %10-15, aylık kontratlarda daha fazla indirim uygulanıyor. Eğer işin 3 günden uzun süreceğini biliyorsan, baştan haftalık teklif istemek genelde daha ekonomik çıkıyor.",
+                    ],
+                },
+                {
+                    baslik: "3. Enerji Kaynağı: Akülü, Dizel, LPG, Hibrit",
+                    paragraflar: [
+                        "Akülü modeller iç mekan işleri için standart ve genelde orta segment fiyatlıdır. Dizel modeller açık saha/şantiye işlerinde kullanılıyor ve motor gücüne göre farklı fiyatlanıyor. LPG ve hibrit modeller ise özel kullanım senaryolarında (kapalı ama havalandırmalı alan gibi) tercih ediliyor — bu seçenekler için güncel uygunluk teklif aşamasında teyit ediliyor.",
+                    ],
+                },
+                {
+                    baslik: "4. Operatörlü mü, Operatörsüz mü?",
+                    paragraflar: [
+                        "MYK belgeli personelin yoksa operatörlü kiralama gerekiyor — bu da günlük fiyata operatör ücretini ekliyor. Belgeli ekibin varsa sadece makine kiralaması yeterli. İkisi arasındaki fark, işin süresine ve operatör gün sayısına göre değişiyor.",
+                    ],
+                },
+                {
+                    baslik: "5. Teslimat Mesafesi ve Nakliye",
+                    paragraflar: [
+                        "Şubeye (Tuzla, İkitelli, Gebze) yakın ilçelerde nakliye genelde ücretsiz ya da minimal; uzak ilçelerde nakliye ayrı bir kalem olarak teklife ekleniyor. Şehir dışı ya da özel ekipman gerektiren büyük makineler için ayrıca mobilizasyon bedeli oluşabiliyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "En ucuz manlift seçeneği hangisi?", cevap: "Genelde küçük akülü makaslı modeller (5-6 m) en uygun günlük fiyata sahip. Ama iş yüksekliğine uygun olmayan makine seçmek zaman kaybettirir — doğru boyut, doğru fiyat demektir." },
+                { soru: "Fiyat teklifi almak ücretli mi?", cevap: "Hayır, online teklif formu ya da telefonla talep ücretsizdir. 15 dakika içinde yazılı fiyat dönüyoruz." },
+                { soru: "KDV fiyata dahil mi?", cevap: "Tüm fiyatlar yazılı teklifte KDV dahil/hariç açıkça belirtilir, sürprizle karşılaşmazsın." },
+            ],
+        },
+        {
+            slug: "istanbulda-manlift-kiralama-nasil-yapilir",
+            kategori: "Süreç Rehberi",
+            baslik: "İstanbul'da Manlift Kiralama Nasıl Yapılır?",
+            ozet: "İlk kez manlift kiralayacaksan süreç kafanda net olsun istiyoruz. Talep formundan makinenin iadesine kadar 5 adımlık akış.",
+            gorsel: "/media/isler/is-14.jpg",
+            gorselAlt: "İstanbul'da Manlift Kiralama Nasıl Yapılır? — Artı Platform saha çalışması",
+            tarih: "2026-05-25",
+            okuma: 7,
+            giris: "İlk kez manlift kiralayacaksan sürecin nasıl işlediğini bilmek işini kolaylaştırır. Talep formundan makinenin sahadan iadesine kadar 5 adımlık akışı, İstanbul'daki günlük operasyonumuzdan derledik.",
+            bolumler: [
+                {
+                    baslik: "Adım 1 — İhtiyacını Tanımla",
+                    paragraflar: [
+                        "İşin türü (tavan bakımı, cephe temizliği, tabela montajı vb.), hedeflenen çalışma yüksekliği, çalışma alanı (iç mekan mı açık saha mı) ve tahmini süre. Bu bilgiler ne kadar net olursa, önerilen makine o kadar isabetli oluyor. Online teklif formu ya da telefon üzerinden bu bilgileri paylaşman yeterli.",
+                    ],
+                },
+                {
+                    baslik: "Adım 2 — Makine Önerisi ve Yazılı Teklif",
+                    paragraflar: [
+                        "Saha mühendisimiz ihtiyacına göre 1-2 model önerir; her biri için günlük/haftalık/aylık fiyat, nakliye bedeli, operatör dahil olup olmadığı bilgisi yazılı teklifte netleşir. Bu aşamada sorularını sorabilir, alternatif model isteyebilirsin.",
+                    ],
+                },
+                {
+                    baslik: "Adım 3 — Belge ve Sözleşme",
+                    paragraflar: [
+                        "Kurumsal müşteriler için sözleşme, teslim tutanağı ve gerekiyorsa sigorta bilgisi hazırlanır. Operatörlü kiralamada operatörün MYK belgesi de kayıt altına alınır. Bu adımda teslimat tarihi ve saati de netleşir.",
+                    ],
+                },
+                {
+                    baslik: "Adım 4 — Teslimat ve Sahada Kontrol",
+                    paragraflar: [
+                        "Makine belirlenen adrese sevk edilir; teslim anında birlikte fonksiyon kontrolü yapılır (hidrolik, fren, acil durdurma, akü/yakıt seviyesi). Bu kontrol hem senin hem bizim için makinenin sağlam ve çalışır durumda teslim edildiğinin kaydıdır.",
+                    ],
+                },
+                {
+                    baslik: "Adım 5 — Kullanım Süresi ve İade",
+                    paragraflar: [
+                        "Kiralama süresi boyunca teknik destek hattımız açık. Süre sonunda makine aynı şekilde kontrol edilerek teslim alınır. Süre uzatmak istersen, bitmeden önce haber vermen yeterli — stok müsaitse kontratı uzatıyoruz.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teklif almak için hangi bilgileri hazırlamalıyım?", cevap: "İşin türü, hedef yükseklik, iç mekan/açık saha ayrımı, tahmini süre ve teslimat adresi. Bu bilgilerle 15 dakikada teklif hazırlıyoruz." },
+                { soru: "Sözleşme şart mı?", cevap: "Kurumsal ve uzun süreli kiralamalarda evet. Kısa süreli bireysel taleplerde süreç daha sade işleyebilir, detay teklif aşamasında netleşir." },
+                { soru: "Makine arızalanırsa ne oluyor?", cevap: "Teknik destek hattımızdan bildirim yapman yeterli; duruma göre yerinde müdahale ya da makine değişimi organize edilir." },
+            ],
+        },
+        {
+            slug: "istanbul-forklift-kiralama",
+            kategori: "Forklift Kiralama",
+            baslik: "İstanbul Forklift Kiralama",
+            ozet: "Depo, lojistik merkezi ya da fabrika sahasında forklift ihtiyacın mı var? Kapasite ve enerji kaynağı seçimini doğru yapmak operasyonun verimini belirliyor.",
+            gorsel: "/media/isler/is-3.jpg",
+            gorselAlt: "İstanbul Forklift Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-06-01",
+            okuma: 8,
+            giris: "İstanbul'da forklift kiralama talebi en çok lojistik depoları, tekstil atölyeleri ve sanayi tesislerinden geliyor. Doğru kapasite ve enerji kaynağı seçimi operasyonun verimini doğrudan etkiliyor — bu yazıda filo verimizle karar sürecini anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "İstanbul'da Forklift Talebi Nereden Geliyor?",
+                    paragraflar: [
+                        "En yoğun talep lojistik depoları, tekstil atölyeleri, toptan satış merkezleri ve fabrika sahalarından geliyor. Esenyurt, Bağcılar, Tuzla ve Gebze gibi sanayi yoğun ilçelerde aylık kontratlarla depo operasyonu için forklift kiralama özellikle yaygın — sezon yoğunluğunda ek forklift ihtiyacı da sıkça oluşuyor.",
+                    ],
+                },
+                {
+                    baslik: "Kapasite Seçimi: 1.5 Tondan 10 Tona",
+                    paragraflar: [
+                        "Forklift kapasitesi taşınacak yükün ağırlığına göre belirlenir. Palet bazlı standart depo işlerinde 1.5-2.5 ton aralığı genelde yeterli. Ağır sanayi malzemesi, çelik rulo veya büyük ambalajlı yük taşıyan operasyonlarda 3 ton ve üzeri modeller gerekiyor. Yanlış kapasite seçimi hem güvenlik riski hem verim kaybı demek — teklif aşamasında yük tipini ve ağırlığını belirtmen öneri doğruluğunu artırıyor.",
+                    ],
+                },
+                {
+                    baslik: "Akülü mü, Dizel mi, LPG mi?",
+                    paragraflar: [
+                        "Kapalı depo ve gıda/hassas ürün ortamlarında akülü forklift standart tercih — emisyonsuz ve sessiz. Açık saha ve şantiye işlerinde dizel modeller güç ve dayanıklılık avantajı sağlıyor. LPG modeller ise hem iç hem dış mekanda esnek kullanım isteyen operasyonlarda tercih ediliyor. Üç seçeneğin de filoda karşılığı var; iş tipine göre öneri sunuyoruz.",
+                    ],
+                },
+                {
+                    baslik: "Kısa Süreli mi, Aylık Kontrat mı?",
+                    paragraflar: [
+                        "Sezonluk yoğunluk, stok sayımı veya proje bazlı işlerde günlük/haftalık kiralama; sürekli depo operasyonunda ise aylık ya da yıllık kontrat daha ekonomik oluyor. Aylık kontratlarda bakım ve servis desteği de genelde kapsam dahilinde netleştiriliyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Forklift operatörü sizde mi çalışıyor, kendi personelimi mi kullanmalıyım?", cevap: "İkisi de mümkün. Belgeli operatörün yoksa operatörlü kiralama seçebilirsin; belgeli personelin varsa sadece makine kiralaması yeterli." },
+                { soru: "Aylık forklift kiralama fiyatı sabit mi?", cevap: "Kapasite, enerji kaynağı ve kontrat süresine göre değişir; yazılı teklifte netleşir. Uzun kontratlarda birim fiyat düşer." },
+                { soru: "Gıda deposunda hangi forklift kullanılmalı?", cevap: "Akülü modeller emisyonsuz olduğu için gıda ve hassas ürün depolarında standart tercih." },
+            ],
+        },
+        {
+            slug: "istanbul-eklemli-platform-kiralama",
+            kategori: "Manlift Kiralama",
+            baslik: "İstanbul Eklemli Platform Kiralama",
+            ozet: "Düz dikey erişim yetmediğinde, kolun döndüğü ve uzandığı eklemli platform devreye giriyor. İstanbul'daki tipik kullanım senaryolarını anlattık.",
+            gorsel: "/media/isler/is-11.jpg",
+            gorselAlt: "İstanbul Eklemli Platform Kiralama — Artı Platform saha çalışması",
+            tarih: "2026-06-08",
+            okuma: 7,
+            giris: "\"İstanbul eklemli platform kiralama\" aradıysan büyük ihtimalle düz dikey erişimin yetmediği bir işin var — bir çatı çıkıntısı, bir boru hattı, bir engelin arkası. Eklemli platformun katlanır kolu tam bu tür işler için tasarlandı. Filomuzdaki modelleri ve tipik kullanım senaryolarını anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Eklemli Platform Ne Zaman Gerekiyor?",
+                    paragraflar: [
+                        "Bir çatı saçağının altına, bir borunun arkasına ya da bir merdiven boşluğunun üzerine erişmen gerektiğinde düz dikey çıkan makaslı platform yetersiz kalır. Eklemli platformun katlanır kolu hem yukarı hem yatayda uzanarak engelin \"üstünden aşıp\" hedefe ulaşabilir. İstanbul'da en çok cephe bakımı, çatı çıkıntısı işleri ve endüstriyel tesisat/boru hattı bakımında tercih ediliyor.",
+                    ],
+                },
+                {
+                    baslik: "Filo Aralığı: 12 Metreden 30 Metreye",
+                    paragraflar: [
+                        "Filomuzda orta segment (12-20 m) modeller mağaza/AVM dış cephesi ve orta yükseklikli bina işleri için, üst segment (20-30 m) modeller ise çok katlı bina cephesi ve büyük çaplı şantiye işleri için kullanılıyor. Her modelin dönüş yarıçapı ve yatay erişim mesafesi farklı — iş planını paylaştığında doğru modeli öneriyoruz.",
+                    ],
+                },
+                {
+                    baslik: "Akülü mü Dizel mi Eklemli?",
+                    paragraflar: [
+                        "İç mekan yüksek tavanlı alanlarda (fuar salonu, spor kompleksi, üretim tesisi) akülü eklemli modeller tercih ediliyor. Açık şantiye ve dış cephe işlerinde ise dizel modeller hem güç hem arazi geçme kabiliyeti açısından öne çıkıyor — özellikle düzensiz zeminlerde.",
+                    ],
+                },
+                {
+                    baslik: "Operatör Deneyimi Neden Önemli?",
+                    paragraflar: [
+                        "Eklemli platformun kol hareketleri makaslıya göre daha karmaşık; yanlış açı hesaplama devrilme riskini artırabilir. Bu yüzden özellikle 20 metre üzeri modellerde operatörlü kiralamayı öneriyoruz. MYK belgeli operatörlerimiz saha koşullarına göre en güvenli erişim rotasını planlıyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Eklemli platform hangi zeminlerde çalışır?", cevap: "Düz beton, asfalt ve orta sertlikte toprak zeminlerde çalışabilir. Çok yumuşak veya eğimli zeminlerde önceden saha değerlendirmesi yapılması önerilir." },
+                { soru: "Eklemli platform ile teleskopik platform farkı nedir?", cevap: "Eklemli platformun katlanır kolu vardır ve engel aşmada esnektir; teleskopik platform ise düz uzayan tek kolla daha uzun mesafeye, daha az esneklikle ulaşır." },
+                { soru: "20 metre üzeri modellerde operatör zorunlu mu?", cevap: "Zorunluluk MYK mevzuatına ve belgeli personel durumuna bağlı; belgeli ekibin yoksa operatörlü kiralamayı öneriyoruz." },
+            ],
+        },
+        {
+            slug: "istanbul-teleskopik-platform-kiralama-ne-zaman-tercih-edilmeli",
+            kategori: "Manlift Kiralama",
+            baslik: "İstanbul Teleskopik Platform Kiralama: Ne Zaman Tercih Edilmeli?",
+            ozet: "Uzun düz kol, büyük yükseklik, geniş açık saha — teleskopik platformun avantajlı olduğu durumları örneklerle anlattık.",
+            gorsel: "/media/isler/is-7.jpg",
+            gorselAlt: "İstanbul Teleskopik Platform Kiralama: Ne Zaman Tercih Edilmeli? — Artı Platform saha çalışması",
+            tarih: "2026-06-15",
+            okuma: 6,
+            giris: "Uzun düz kol, büyük yükseklik, geniş açık saha — teleskopik platform bu üç koşulda avantajlı. Ama her iş için doğru seçim değil. Hangi durumda teleskopik, hangi durumda eklemli tercih etmen gerektiğini saha örnekleriyle anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Teleskopik Platform Nedir?",
+                    paragraflar: [
+                        "Teleskopik platform, tek parça düz bir kolun teleskop gibi katman katman uzamasıyla çalışır. Eklemli platforma göre daha az manevra esnekliği sunar ama çok daha uzun yatay ve dikey erişim mesafesine ulaşabilir. Bu yüzden geniş açık alanlarda, tek bir noktadan uzak mesafeye erişmek gerektiğinde ilk tercih oluyor.",
+                    ],
+                },
+                {
+                    baslik: "Hangi İşlerde Öne Çıkıyor?",
+                    paragraflar: [
+                        "Büyük çatı montajı, çelik konstrüksiyon işleri, liman/tersane sahası operasyonları, havalimanı yükleme rıhtımı bakımı gibi geniş açık saha işlerinde teleskopik platform verimli çalışıyor. Tek bir konumdan makineyi hareket ettirmeden geniş bir alana erişebilmek, zaman kazandırıyor.",
+                    ],
+                },
+                {
+                    baslik: "40 Metreye Kadar Erişim",
+                    paragraflar: [
+                        "Filomuzdaki üst segment teleskopik modeller 40 metreye kadar çalışma yüksekliğine ulaşabiliyor — çok katlı bina cephesi, büyük depo çatısı veya endüstriyel baca/silo işleri için bu sınıf gerekiyor. Bu yükseklikte çalışırken rüzgar limiti ve zemin taşıma kapasitesi önceden değerlendiriliyor.",
+                    ],
+                },
+                {
+                    baslik: "Teleskopik mi, Eklemli mi Seçmeliyim?",
+                    paragraflar: [
+                        "Basit kural: erişim noktan doğrudan görüş hattında ve uzak mesafedeyse teleskopik; erişim noktan bir engelin arkasında veya üstündeyse (çatı çıkıntısı, boru, korkuluk) eklemli platform daha uygun. Emin değilsen, saha fotoğrafı veya kroki paylaşman öneri sürecini hızlandırıyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Teleskopik platform rüzgarlı havada çalışır mı?", cevap: "Üretici rüzgar hız limitleri vardır; hava koşulu limit üzerindeyse çalışma ertelenir. Güvenlik önceliklidir." },
+                { soru: "Teleskopik platform için zemin ne kadar sağlam olmalı?", cevap: "Yükseklik ve modele göre değişir; büyük modellerde zemin taşıma kapasitesi saha değerlendirmesiyle teyit edilir." },
+                { soru: "40 metre model için operatör zorunlu mu?", cevap: "Bu segmentte operatörlü kiralamayı öneriyoruz; MYK belgeli operatörlerimiz teknik riskleri sahada yönetiyor." },
+            ],
+        },
+        {
+            slug: "akulu-mu-dizel-mi-istanbulda-dogru-manlift-secimi",
+            kategori: "Seçim Rehberi",
+            baslik: "Akülü mü Dizel mi? İstanbul'da Doğru Manlift Seçimi",
+            ozet: "İç mekanda akülü, açık sahada dizel — kural bu kadar basit gibi görünse de detaylar işin doğru gitmesini belirliyor.",
+            gorsel: "/media/isler/is-4.jpg",
+            gorselAlt: "Akülü mü Dizel mi? İstanbul'da Doğru Manlift Seçimi — Artı Platform saha çalışması",
+            tarih: "2026-06-22",
+            okuma: 6,
+            giris: "İç mekanda akülü, açık sahada dizel — kural kabaca bu. Ama LPG, hibrit gibi ara seçenekler ve karar vermeni kolaylaştıracak dört soru var. İstanbul'daki tipik iç mekan ve açık saha örnekleriyle karşılaştırdık.",
+            bolumler: [
+                {
+                    baslik: "Akülü Modelin Avantajları",
+                    paragraflar: [
+                        "Emisyon üretmez, bu yüzden kapalı alanlarda (AVM, mağaza, ofis, hastane) yasal ve güvenli tek seçenek. Sesi düşüktür (45 dB civarı) — gece vardiyası veya müşteri saatleri içinde bile fark edilmez. Beyaz polyurethane lastikli modeller hassas zeminde iz bırakmaz. Dezavantajı: şarj süresi gerektirir ve sürekli yoğun kullanımda dizele göre güç sınırı daha erken hissedilebilir.",
+                    ],
+                },
+                {
+                    baslik: "Dizel Modelin Avantajları",
+                    paragraflar: [
+                        "Daha yüksek güç ve tork sunar, düzensiz veya eğimli açık saha zeminlerinde daha iyi performans gösterir. Şarj beklemeden kesintisiz çalışır — uzun mesafeli şantiye ve inşaat sahalarında bu önemli bir avantaj. Dezavantajı: egzoz emisyonu ve ses seviyesi nedeniyle kapalı alanda kullanılamaz.",
+                    ],
+                },
+                {
+                    baslik: "LPG ve Hibrit Ne Zaman Devreye Girer?",
+                    paragraflar: [
+                        "LPG modeller havalandırmalı yarı kapalı alanlarda (büyük depo, atölye) bir orta yol sunuyor. Hibrit modeller ise hem akü hem yakıtlı çalışma esnekliği istenen, uzun süreli karma kullanım senaryolarında tercih ediliyor. Bu iki seçenek daha niş — uygunluk teklif aşamasında teyit ediliyor.",
+                    ],
+                },
+                {
+                    baslik: "Karar Vermeden Önce Sor Kendine",
+                    paragraflar: [
+                        "İş kapalı mı açık mı? Zemin hassas mı (mermer/parke) yoksa dayanıklı mı (beton/toprak)? Çalışma saatleri gündüz mü gece mi? Süre kaç gün? Bu dört sorunun cevabı genelde doğru enerji kaynağını netleştiriyor. Emin değilsen, saha bilgisini paylaş — mühendisimiz öneri yapsın.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Yarı açık alanda (üstü kapalı, yanları açık depo) hangisi kullanılmalı?", cevap: "Havalandırma durumuna göre değişir; genelde akülü veya LPG tercih edilir. Saha değerlendirmesiyle netleştiriyoruz." },
+                { soru: "Akülü makine kaç saat çalışır?", cevap: "Modele göre değişir, filomuzdaki çoğu akülü manlift tek şarjla 8-10 saat civarı çalışma süresine sahiptir." },
+                { soru: "Dizel makine gürültü seviyesi ne kadar?", cevap: "Akülüye göre belirgin şekilde yüksektir; açık saha kullanımı için tasarlanmıştır." },
+            ],
+        },
+        {
+            slug: "anadolu-yakasi-manlift-kiralama-kadikoy-uskudar-maltepe",
+            kategori: "Bölgesel Rehber",
+            baslik: "Anadolu Yakası Manlift Kiralama: Kadıköy, Üsküdar, Maltepe Karşılaştırması",
+            ozet: "Tuzla şubemize yakınlığa göre Anadolu Yakası ilçelerinde manlift teslimat süresi ve tipik müşteri profili değişiyor. Üç ilçeyi karşılaştırdık.",
+            gorsel: "/media/isler/is-1.jpg",
+            gorselAlt: "Anadolu Yakası Manlift Kiralama: Kadıköy, Üsküdar, Maltepe Karşılaştırması — Artı Platform saha çalışması",
+            tarih: "2026-06-29",
+            okuma: 7,
+            giris: "Anadolu Yakası tek tip bir bölge değil — Kadıköy'ün ticari yoğunluğu, Üsküdar'ın tarihi dokusu ve Maltepe'nin yeni yapılaşması farklı makine ve teslimat ihtiyaçları doğuruyor. Tuzla şubemizin verisiyle üç ilçeyi karşılaştırdık.",
+            bolumler: [
+                {
+                    baslik: "Kadıköy: Ticari Yoğunluk, Sık Mağaza Yenileme",
+                    paragraflar: [
+                        "Kadıköy'ün yoğun ticari doku ve sık mağaza/restoran devir hızı, dar sokaklara uygun kompakt akülü makaslı platform talebini artırıyor. İş genelde mağaza içi tavan/vitrin işleri ile sınırlı, bu yüzden dar gövdeli ve asansörden geçen modeller ön planda.",
+                    ],
+                },
+                {
+                    baslik: "Üsküdar: Tarihi Doku, Hassas Erişim",
+                    paragraflar: [
+                        "Üsküdar'da tarihi yapı yoğunluğu ve dar sokaklar nedeniyle erişim planlaması daha kritik. Cephe bakımı ve restorasyon destekli işlerde örümcek platform veya kompakt eklemli modeller tercih ediliyor — büyük araçların giremediği sokaklarda bu modellerin manevra kabiliyeti fark yaratıyor.",
+                    ],
+                },
+                {
+                    baslik: "Maltepe: Sahil Şeridi ve Yeni Yapılaşma",
+                    paragraflar: [
+                        "Maltepe'nin sahil şeridindeki yeni konut ve ticari yapılaşma, orta-yüksek katlı bina cephe bakımı için eklemli ve teleskopik platform talebini artırıyor. Tuzla şubemize nispeten yakın olması teslimat sürecini de hızlandırıyor.",
+                    ],
+                },
+                {
+                    baslik: "Tuzla Şubesinden Anadolu Yakası'na Teslimat",
+                    paragraflar: [
+                        "Tuzla şubemiz Anadolu Yakası'nın büyük kısmına merkezi bir konumda. Kadıköy, Üsküdar, Maltepe, Kartal, Pendik gibi ilçelere teslimat süresi güncel stok, trafik ve saha koşullarına göre yazılı teklifte netleşiyor; şubeye yakın ilçelerde süreç genelde daha hızlı işliyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Kadıköy'e aynı gün teslimat mümkün mü?", cevap: "Güncel stok ve trafik durumuna bağlı; kesin tarih yazılı teklifte belirtilir." },
+                { soru: "Üsküdar'daki dar sokaklara hangi makine giriyor?", cevap: "Kompakt örümcek platform ve dar gövdeli eklemli modeller genelde tercih ediliyor; saha fotoğrafı paylaşman öneri sürecini netleştirir." },
+                { soru: "Maltepe'de nakliye ücretli mi?", cevap: "Tuzla şubesine mesafeye göre değişir; ücretsiz veya güncel teklif üzerinden belirlenir." },
+            ],
+        },
+        {
+            slug: "tuzla-gebze-forklift-kiralama-sanayi-bolgesi",
+            kategori: "Bölgesel Rehber",
+            baslik: "Tuzla ve Gebze'de Forklift Kiralama: Sanayi Bölgesi Rehberi",
+            ozet: "Tuzla Organize Sanayi Bölgesi ve Gebze hattı, İstanbul'un en yoğun forklift talebinin geldiği bölgelerden. Şubelerimize komşu olmanın avantajını anlattık.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "Tuzla ve Gebze'de Forklift Kiralama: Sanayi Bölgesi Rehberi — Artı Platform saha çalışması",
+            tarih: "2026-07-06",
+            okuma: 7,
+            giris: "Tuzla Organize Sanayi Bölgesi ve Gebze hattı, İstanbul'un en yoğun forklift talebinin geldiği bölgelerden — çünkü şubelerimiz tam bu hattın içinde konumlu. Bölgedeki tipik kapasite tercihleri ve kontrat yapısını anlatıyoruz.",
+            bolumler: [
+                {
+                    baslik: "Tuzla OSB: Şubeye Komşu Avantajı",
+                    paragraflar: [
+                        "Tuzla şubemiz doğrudan Tuzla Organize Sanayi Bölgesi içinde konumlu. Bu, bölgedeki fabrika ve atölyelere teslimat süresini kısaltıyor ve nakliye maliyetini düşürüyor. Metal işleme, gemi yan sanayi ve lojistik firmaları burada en çok 1.5-3 ton aralığında akülü ve dizel forklift kiralıyor.",
+                    ],
+                },
+                {
+                    baslik: "Gebze Hattı: Kocaeli Sanayi Koridoru",
+                    paragraflar: [
+                        "Gebze ve Darıca hattı, İstanbul-Kocaeli sanayi koridorunun kalbinde. Otomotiv yan sanayi, kimya ve ambalaj firmalarının yoğun olduğu bu bölgede aylık kontratlarla forklift kiralama standart bir uygulama — üretim hattının sürekliliği için makine kesintisiz operasyonel kalmalı.",
+                    ],
+                },
+                {
+                    baslik: "Aylık Kontrat Neden Bu Bölgede Yaygın?",
+                    paragraflar: [
+                        "Sanayi tesislerinde forklift ihtiyacı genelde geçici değil, sürekli. Bu yüzden günlük kiralamaya göre aylık/yıllık kontrat hem birim maliyeti düşürüyor hem bakım-servis desteğini kontrata dahil ediyor. Sezonluk yoğunlukta ek makine talebi de mevcut kontrata kolayca eklenebiliyor.",
+                    ],
+                },
+                {
+                    baslik: "Doğru Kapasite Seçimi Sanayi Sahasında Neden Kritik?",
+                    paragraflar: [
+                        "Ağır sanayi malzemesi, çelik rulo, palet yığınları — yük tipi kapasiteyi belirliyor. Tuzla ve Gebze'deki sanayi müşterilerimizin çoğu 2-5 ton aralığında dizel forklift tercih ediyor; açık saha ve düzensiz zeminde dizel modelin gücü avantaj sağlıyor. İç mekan/kapalı depo kısımlarında ise akülü modellere geçiliyor.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "Tuzla OSB içine forklift teslimatı ne kadar sürer?", cevap: "Şubeye komşu olduğumuz için genelde en hızlı teslimat bu bölgede gerçekleşiyor; kesin süre güncel stoka bağlı." },
+                { soru: "Gebze'de aylık forklift kontratına bakım dahil mi?", cevap: "Kontrat kapsamı yazılı teklifte netleşir; çoğu aylık kontratta rutin bakım/servis desteği dahil ediliyor." },
+                { soru: "Sanayi sahasında hangi forklift kapasitesi standart?", cevap: "2-5 ton aralığı en yaygın talep; kesin kapasite taşınacak yük tipine göre belirlenir." },
+            ],
+        },
+        {
+            slug: "avm-magaza-manlift-kiralama-sessiz-iz-birakmayan-cozum",
+            kategori: "Kullanım Alanı",
+            baslik: "AVM ve Mağazalarda Manlift Kiralama: Sessiz, İz Bırakmayan Çözüm",
+            ozet: "AVM ve mağaza operasyonlarının kendine has kuralları var: sessizlik, zemin koruması, gece çalışma. Bu üçünü karşılayan makine kombinasyonunu anlattık.",
+            gorsel: "/media/isler/is-13.jpg",
+            gorselAlt: "AVM ve Mağazalarda Manlift Kiralama: Sessiz, İz Bırakmayan Çözüm — Artı Platform saha çalışması",
+            tarih: "2026-07-13",
+            okuma: 7,
+            giris: "AVM ve mağaza operasyonlarının kendine has kuralları var: sessizlik, zemin koruması, gece çalışma. Bu üç kuralı karşılayan makine kombinasyonunu, saha deneyimimizden örneklerle anlattık.",
+            bolumler: [
+                {
+                    baslik: "AVM ve Mağaza İşinin Üç Kuralı",
+                    paragraflar: [
+                        "Birincisi sessizlik — ziyaretçi trafiği devam ederken çalışılıyorsa makine ses seviyesi kritik. İkincisi zemin koruması — mermer ve parke zeminlere iz bırakılamaz. Üçüncüsü emisyonsuzluk — kapalı, havalandırması sınırlı alanlarda dizel motor pratikte kullanılamaz. Bu üç kural akülü makaslı platformu AVM/mağaza segmentinin standart çözümü yapıyor.",
+                    ],
+                },
+                {
+                    baslik: "Gece Vardiyası Planlaması",
+                    paragraflar: [
+                        "AVM kapanış saatinden sonra (genelde 23:00-07:00 arası) çalışma tercih ediliyor; ziyaretçi görmeden tavan armatürü, klima kanalı veya tabela işi tamamlanabiliyor. Akülü makinenin sessizliği bu vardiyanın komşu mağazaları rahatsız etmeden yürümesini sağlıyor.",
+                    ],
+                },
+                {
+                    baslik: "Asansörden Geçen Dar Gövde",
+                    paragraflar: [
+                        "Çok katlı AVM'lerde makineyi kata taşımak için asansör kullanılıyor. Standart yük asansörü genişliği ~81 cm; filomuzdaki dar gövdeli akülü makaslı modeller bu ölçüye uyacak şekilde seçiliyor. Asansör kapasitesinin makine ağırlığını (yaklaşık 1.450 kg civarı) karşıladığını önceden teyit etmek gerekiyor.",
+                    ],
+                },
+                {
+                    baslik: "Mağaza Yenileme Sürecinde Tipik Kullanım",
+                    paragraflar: [
+                        "Vitrin değişimi, tavan boyaması, tabela montajı, raf düzenlemesi gibi işlerde genelde 1-3 günlük kiralama yeterli oluyor. İşin süresi netse baştan haftalık teklif almak, uzarsa maliyet avantajı sağlıyor. MYK belgeli personelin yoksa operatörlü kiralama tercih edilebilir.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "AVM yönetimine bildirim gerekiyor mu?", cevap: "Genelde evet, AVM yönetimi işlem öncesi bilgilendirilmeli. Talep halinde belge desteği sağlıyoruz." },
+                { soru: "Gece vardiyasında ek ücret var mı?", cevap: "Vardiya saatine göre fiyatlandırma değişebilir; teklif aşamasında netleştiriliyor." },
+                { soru: "Mağaza içi 1 günlük iş için hangi model önerilir?", cevap: "Tavan yüksekliğine göre değişir; 3-4 metre tavan için 5-6 metrelik akülü makaslı genelde yeterlidir." },
+            ],
+        },
+        {
+            slug: "sinoboom-mu-genie-mi-istanbulda-marka-karsilastirmasi",
+            kategori: "Marka Karşılaştırma",
+            baslik: "Sinoboom mu Genie mi? İstanbul'da Marka Karşılaştırması",
+            ozet: "Fiyat-performans mı, marka prestiji mi? İki markanın filodaki yerini ve hangi işte hangisinin öne çıktığını anlattık.",
+            gorsel: "/media/isler/is-9.jpg",
+            gorselAlt: "Sinoboom mu Genie mi? İstanbul'da Marka Karşılaştırması — Artı Platform saha çalışması",
+            tarih: "2026-07-20",
+            okuma: 6,
+            giris: "Fiyat-performans mı, marka prestiji mi? Filomuzda hem Sinoboom hem Genie var ve her ikisi de günlük operasyonda yerini buluyor. İki markanın hangi işte öne çıktığını, hangi kriterlere göre karar vermen gerektiğini anlattık.",
+            bolumler: [
+                {
+                    baslik: "Sinoboom: Fiyat-Performans Odaklı",
+                    paragraflar: [
+                        "Sinoboom, CE ve EN280 sertifikalı, Avrupa premium markalarına göre %25-30 daha uygun fiyatlı bir seçenek sunuyor. Bütçeyi sıkı yöneten 1-3 aylık orta vadeli kiralamalarda, AVM yenileme ve mağaza dekoru gibi işlerde ilk tercihimiz genelde bu marka oluyor. Modern hidrolik sistemi ve 2 yıl üretici garantisi, fiyat avantajından ödün vermeden güvenilirlik sağlıyor.",
+                    ],
+                },
+                {
+                    baslik: "Genie: Marka Değeri ve Dar Geçiş Kabiliyeti",
+                    paragraflar: [
+                        "Genie, özellikle dar geçiş gerektiren premium işlerde (yüksek tavanlı atrium, galeri/müze sergi kurulumu) tercih ediliyor. Marka değeri, kurumsal müşteri ve yatırımcı gözünde \"doğru ekipman seçildi\" güvencesi de getiriyor. 9.7 metreye kadar erişen dar gövdeli modelleri, orta yükseklik segmentinde güvenilir bir seçenek.",
+                    ],
+                },
+                {
+                    baslik: "Hangi İşte Hangisi?",
+                    paragraflar: [
+                        "Kısa-orta vadeli, bütçe odaklı ve yoğun operasyonel kullanımda Sinoboom net avantaj sağlıyor. Uzun vadeli yatırım, prestijli proje veya marka hassasiyeti olan kurumsal işlerde Genie tercih edilebiliyor. İkisi de CE sertifikalı ve filo bakımımızdan geçiyor — güvenlik standardı aynı, fark fiyat ve konumlanma noktasında.",
+                    ],
+                },
+                {
+                    baslik: "Karar Verirken Nelere Bakmalısın?",
+                    paragraflar: [
+                        "Bütçe kısıtı varsa ve iş orta vadeliyse Sinoboom ile başlamak mantıklı. Marka prestiji, çok uzun vadeli kontrat veya özel bir kurumsal gereklilik varsa Genie'yi değerlendir. Emin değilsen, ikisinin de teknik özelliklerini yan yana karşılaştırmalı teklif olarak istemen en sağlıklısı.",
+                    ],
+                },
+            ],
+            sss: [
+                { soru: "İki markanın güvenlik standardı farklı mı?", cevap: "Hayır, ikisi de CE/EN280 sertifikalı ve aynı bakım standardından geçiyor. Fark fiyat ve marka konumlanmasında." },
+                { soru: "Sinoboom modelleri ne kadar yeni?", cevap: "Filomuzdaki Sinoboom modelleri modern üretim serisi; düzenli bakım ve 2 yıl üretici garantisi kapsamında." },
+                { soru: "Genie modelleri neden daha yüksek fiyatlı?", cevap: "Marka değeri, uzun süreli güvenilirlik geçmişi ve premium mühendislik bu fiyatlandırmayı etkiliyor." },
+            ],
+        },
+    ],
+    "istanbul-platform.com": [
+        {
+            slug: "2026-vinc-kiralama-fiyatlari-ve-rehberi",
+            kategori: "Rehber",
+            baslik: "2026 Güncel Vinç Kiralama Fiyatları ve Rehberi: Maliyetleri Nasıl Düşürebilirsiniz?",
+            ozet: "2026 yılında vinç kiralama fiyatlarını etkileyen faktörler, saatlik ve günlük kiralama ücretleri, doğru vinç seçimi ile maliyet tasarrufu yapmanın yolları.",
+            gorsel: "/media/isler/is-1.jpg",
+            gorselAlt: "2026 Güncel Vinç Kiralama Fiyatları ve Rehberi: Maliyetleri Nasıl Düşürebilirsiniz? — Artı Platform saha çalışması",
+            tarih: "2026-01-20",
+            okuma: 6,
+            giris: "İnşaat, lojistik ve ağır sanayi projelerinde vinç kiralama maliyetleri, proje bütçesinin önemli bir kalemini oluşturur. 2026 yılı itibarıyla artan operasyonel maliyetlere rağmen, doğru planlama ve doğru makine seçimi ile bu giderleri optimize etmek mümkün. İşte 2026 vinç kiralama piyasası analizi ve tasarruf stratejileri.",
+            bolumler: [
+                {
+                    baslik: "Vinç Kiralama Fiyatlarını Belirleyen Temel Faktörler",
+                    paragraflar: [
+                        "Kiralama fiyatları sabit bir liste fiyatı üzerinden değil, projenin değişkenlerine göre hesaplanır. Fiyatı en çok etkileyen 4 ana faktör şunlardır:",
+                        "1. Vinç Kapasitesi ve Türü:",
+                        "Kaldırılacak yükün ağırlığı ve erişilmesi gereken yükseklik, vinç tipini belirler. 30 tonluk bir mobil vinç ile 200 tonluk bir hiyap vincin operasyon maliyeti ve saatlik ücreti arasında büyük fark vardır. İhtiyacınızdan büyük vinç kiralamak bütçenizi gereksiz yorar.",
+                        "2. Kiralama Süresi (Saatlik vs. Proje Bazlı):",
+                        "Saatlik Kiralama: En yüksek birim maliyet. Kısa süreli yükleme/indirme işleri için. Günlük Kiralama: Orta ölçekli işler için daha ekonomiktir. Aylık/Proje Bazlı: En avantajlı modeldir. Fiyat sabitleme garantisi sunar.",
+                    ],
+                },
+                {
+                    baslik: "2026 Mobil ve Hiyap Vinç Kiralama Trendleri",
+                    paragraflar: [
+                        "Bu yıl sektörde özellikle \"Akıllı Vinç Sistemleri\" ve \"Operatör Güvenliği\" ön plana çıkıyor. Artı Platform olarak filomuzu, yük moment kontrol sistemi (LMI) ve anti-collision sensörleri ile donatılmış yeni nesil makinelerle güncelledik. Bu teknolojik vinçler, iş kazası riskini minimize ederek projenizin duraksamadan ilerlemesini sağlar.",
+                        "Maliyet Düşürme Stratejileri:",
+                        "Erken Rezervasyon: Proje takviminizi önceden belirleyip erken rezervasyon yaparak %15-20 oranında fiyat avantajı sağlayabilirsiniz. talebe göre planlanan saha incelemesi: Artı Platform'un sunduğu ücretsiz saha keşif hizmetini kullanarak, projenize en uygun (ne eksik ne fazla) makineyi mühendislerimizle belirleyin. Tek Tedarikçi: Manlift, forklift ve vinç ihtiyaçlarınızı tek bir firmadan karşılayarak paket indirimlerden faydalanın.",
+                    ],
+                },
+                {
+                    baslik: "Neden Artı Platform?",
+                    paragraflar: [
+                        "Gerçek model, stok, operatör belgesi, poliçe ve destek kapsamını iş başlamadan önce yazılı teklifte doğrulayın.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "manlift-nedir-cesitleri-nelerdir",
+            kategori: "Rehber",
+            baslik: "Manlift (Personel Yükseltici) Seçim Rehberi: Projeniz İçin Doğru Makine Hangisi?",
+            ozet: "Personel yükseltici platformlar (manlift) hakkında sektörün en kapsamlı rehberi. Makaslı, eklemli ve dikey platformların teknik farklarını, kullanım alanlarını ve kiralama avantajlarını detaylandırdık.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "Manlift (Personel Yükseltici) Seçim Rehberi: Projeniz İçin Doğru Makine Hangisi? — Artı Platform saha çalışması",
+            tarih: "2026-01-15",
+            okuma: 6,
+            giris: "Yüksek irtifa çalışmalarında iş güvenliğini ve verimliliği maksimize etmek, doğru ekipman seçimiyle başlar. Bu rehberde, Artı Platform olarak filomuzda bulunan manlift çeşitlerini ve hangi projede hangi makinenin kullanılması gerektiğini mühendislik bakış açısıyla inceledik.",
+            bolumler: [
+                {
+                    baslik: "1. Manlift Nedir ve Neden Kullanılır?",
+                    paragraflar: [
+                        "Manlift; personelin, aletlerin ve malzemelerin ulaşılması zor yüksekliklere güvenli bir şekilde taşınmasını sağlayan hidrolik veya mekanik kaldırma ekipmanıdır. Geleneksel iskele sistemlerine göre kurulum gerektirmez, mobildir ve iş kazası riskini %90 oranında azaltır.",
+                        "Kullanım Alanları::",
+                        "İnşaat ve Taahhüt: Cephe montajı, boya, sıva işleri. Endüstriyel Tesisler: Fabrika içi bakım, aydınlatma değişimi, tavan vinci onarımı. Lojistik ve Depolama: Raf sistemleri, stok sayımı. Organizasyon: Sahne kurulumu, fuar alanı hazırlığı.",
+                    ],
+                },
+                {
+                    baslik: "2. En Sık Kullanılan Manlift Çeşitleri",
+                    paragraflar: [
+                        "A. Makaslı Platformlar (Scissor Lifts):",
+                        "Dikey yönde hareket eden ve geniş bir platform alanı sunan makinelerdir. \"Makas\" benzeri çapraz bağlantı mekanizması sayesinde yüksek tonaj kaldırma kapasitesine sahiptir.",
+                        "Çalışma Yüksekliği: 8m - 22m arası. Avantajı: Geniş sepette birden fazla personel rahatça çalışabilir. Çeşitleri: Akülü (Sessiz, iç mekan, iz bırakmayan lastik) ve Dizel (Güçlü, dış mekan, engebeli arazi).",
+                        "B. Eklemli Platformlar (Articulating Booms):",
+                        "Zorlu, engelli ve dar alanlarda çalışmak için tasarlanmıştır. Bom kolundaki eklemler sayesinde engellerin (örn: boru hatları, makine üstleri) üzerinden \"aşarak\" hedefe ulaşabilir.",
+                        "Hem dikey hem de yatay erişim imkanı sunar. Şasisi sabitken sepeti sağa-sola döndürebilirsiniz.",
+                        "C. Dikey Platformlar (Vertical Masts):",
+                        "Kompakt yapısıyla dar koridorlar ve kapı girişleri için idealdir. Genellikle AVM, otel ve hastane gibi hassas zeminli iç mekanlarda kullanılır. Hafiftir ve yük asansörlerine girebilir.",
+                        "D. Örümcek Platformlar (Spider Lifts):",
+                        "Paletli yürüyüş takımı ve açılabilir denge ayaklarına sahiptir. Eğimli arazilerde, merdiven boşluklarında veya hassas mermer zeminlerde zemine zarar vermeden dengede durabilir.",
+                    ],
+                },
+                {
+                    baslik: "3. Kiralama Yaparken Dikkat Edilmesi Gerekenler",
+                    paragraflar: [
+                        "Yanlış makine seçimi, projenizi yavaşlatabilir veya maliyetinizi artırabilir. Kiralama öncesi şu soruları yanıtlayın:",
+                        "Maksimum Çalışma Yüksekliği: Erişmeniz gereken en uç nokta kaç metre? (Platform yüksekliği + 2 metre personel erişimi olarak hesaplanır). Yatay Erişim İhtiyacı: Makine binanın dibine yanaşabiliyor mu, yoksa uzaktan mı erişmeli? (Yanaşamıyorsa eklemli platform şarttır). Zemin Yapısı: Zemin beton mu, toprak mı? Eğim var mı? (Toprak zemin için 4x4 dizel makine gerekir). Enerji Kaynağı: Kapalı alanda egzoz gazı yasaktır, akülü seçilmeli. Dışarıda şarj imkanı yoksa dizel seçilmeli.",
+                        "Artı Platform olarak, projenize en uygun makineyi belirlemek için talebe göre planlanan saha incelemesi hizmeti sunuyoruz. Uzmanlarımız sahada ölçüm yaparak size en verimli çözümü sunar.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "forklift-kiralama-fiyatlari-2026",
+            kategori: "Sektörel",
+            baslik: "2026 Forklift Kiralama Fiyatları ve Maliyet Düşürme Stratejileri",
+            ozet: "Forklift kiralama maliyetlerini etkileyen faktörler nelerdir? Günlük, aylık ve uzun dönem kiralama arasındaki farklar ve işletmenize en uygun finansal modeller.",
+            gorsel: "/media/isler/is-3.jpg",
+            gorselAlt: "2026 Forklift Kiralama Fiyatları ve Maliyet Düşürme Stratejileri — Artı Platform saha çalışması",
+            tarih: "2026-01-12",
+            okuma: 6,
+            giris: "Lojistik ve depolama operasyonlarının kalbi olan forkliftler, satın alma maliyetlerini yüksek ekipmanlardır. Bu nedenle kiralama (operasyonel leasing), pek çok işletme için daha sürdürülebilir bir modeldir. İşte 2026 yılı forklift kiralama dinamikleri.",
+            bolumler: [
+                {
+                    baslik: "Fiyatı Etkileyen Temel Faktörler",
+                    paragraflar: [
+                        "Forklift kiralama fiyatları standart bir tarife üzerinden değil, projenin özelliklerine göre belirlenir.",
+                        "1. Makine Tipi ve Kapasitesi:",
+                        "1.5 tonluk standart bir elektrikli forklift ile 10 tonluk ağır hizmet dizel forkliftin kiralama bedeli arasında ciddi fark vardır. İhtiyacınızdan büyük makine kiralamak gereksiz maliyet, küçük makine kiralamak ise iş güvenliği riskidir.",
+                        "2. Kiralama Süresi (En Önemli Faktör):",
+                        "Günlük/Haftalık Kiralama: Acil ihtiyaçlar ve kısa süreli yoğunluklar içindir. Birim maliyeti en yüksek modeldir. Nakliye bedeli genellikle fiyata dahildir veya ayrıca konuşulur. Aylık Kiralama: Orta vadeli projeler için idealdir. Yıllık/Uzun Dönem Kiralama: En ekonomik modeldir. Genellikle 12, 24 veya 36 aylık sözleşmeler yapılır. Fiyat sabitleme avantajı sunar.",
+                        "3. Operatörlü vs. Operatörsüz:",
+                        "Sadece makineyi (\"Dry Lease\") veya operatörüyle birlikte anahtar teslim (\"Wet Lease\") kiralayabilirsiniz. Kendi operatörünüz yoksa, firmamızdan sertifikalı ve tecrübeli operatör desteği alabilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "Neden Satın Alma Değil, Kiralama?",
+                    paragraflar: [
+                        "Sermaye Yönetimi: Makineye toplu para bağlamak yerine, o sermayeyi işinizi büyütmekte kullanırsınız. Vergi Avantajı: Kiralama faturalarını gider olarak gösterip vergi matrahından düşebilirsiniz. Bakım Derdi Yok: Periyodik bakım, parça değişimi, lastik masrafı, sigorta ve kasko tamamen kiralama firmasına (bize) aittir. Makine Parkı Güncelliği: Kiralama süresi bitince eski makineyi yenisiyle değiştirir, teknolojinin gerisinde kalmazsınız.",
+                    ],
+                },
+                {
+                    baslik: "Artı Platform Avantajları",
+                    paragraflar: [
+                        "Tuzla, İkitelli ve Gebze bölgelerindeki geniş filomuzla, nakliye maliyetlerini minimize ediyoruz. Arıza durumunda 4 saat içinde ikame makine garantisi veriyoruz. Böylece operasyonunuz asla durmaz.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "is-guvenligi-ve-yuksekte-calisma",
+            kategori: "İSG & Eğitim",
+            baslik: "Yüksekte Çalışmada İş Güvenliği: Hayat Kurtaran Kurallar ve Yasal Zorunluluklar",
+            ozet: "Şantiyelerde en büyük risk grubu olan yüksekte çalışma için alınması gereken teknik önlemler, KKD kullanımı ve 'İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yönetmeliği' detayları.",
+            gorsel: "/media/isler/is-4.jpg",
+            gorselAlt: "Yüksekte Çalışmada İş Güvenliği: Hayat Kurtaran Kurallar ve Yasal Zorunluluklar — Artı Platform saha çalışması",
+            tarih: "2026-01-05",
+            okuma: 6,
+            giris: "İstatistiklere göre inşaat sektöründeki iş kazalarının %40'ından fazlası yüksekten düşme kaynaklıdır. Ancak doğru ekipman ve eğitimle bu kazaların tamamı önlenebilir. İşte yüksekte güvenli çalışmanın anayasası.",
+            bolumler: [
+                {
+                    baslik: "Yasal Çerçeve",
+                    paragraflar: [
+                        "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu ve ilgili yönetmelikler gereği, seviye farkı bulunan ve düşme sonucu yaralanma ihtimali olan her yer \"yüksekte çalışma\" kabul edilir. Standartlara göre 1.8 metrenin üzerindeki çalışmalar riskli gruptadır.",
+                    ],
+                },
+                {
+                    baslik: "Platform Kullanımında Altın Kurallar",
+                    paragraflar: [
+                        "1. Kişisel Koruyucu Donanım (KKD):",
+                        "Manlift sepetindeki personel, ne kadar güvenli olursa olsun mutlaka KKD kullanmalıdır.",
+                        "Paraşüt Tipi Emniyet Kemeri: Bel tipi kemerler yüksekte çalışma için uygun değildir. Tüm vücudu saran kemerler kullanılmalı ve lanyard (bağlantı halatı) mutlaka sepet içindeki ankraj noktasına takılmalıdır. Baret: Çeneden bağlamalı baretler tercih edilmelidir, böylece düşme anında kafadan çıkmaz. Kaymaz Ayakkabı: Platform zemininde kaymayı önleyici iş ayakkabısı şarttır.",
+                        "2. Zemin Etüdü ve Denge:",
+                        "Makinenin kurulacağı zemin sağlam, düz ve taşıma kapasitesine sahip olmalıdır. Yumuşak zeminlerde (toprak, çamur) mutlaka altlık (pad) kullanılmalı, makaslı platformların denge ayakları tam açılmalıdır.",
+                        "3. Çevre Güvenliği:",
+                        "Çalışma alanının altı şeritle çevrilmeli, aşağıya malzeme düşme riskine karşı uyarı levhaları asılmalıdır. Makine hareket halindeyken çevresinde yaya bulunmamalıdır.",
+                    ],
+                },
+                {
+                    baslik: "Periyodik Kontrolün Önemi",
+                    paragraflar: [
+                        "\"İş Ekipmanlarının Kullanımında Sağlık ve Güvenlik Şartları Yönetmeliği\"ne göre manlift, vinç ve forkliftlerin yılda en az 1 kez akredite kurumlarca (MMO vb.) kontrol edilmesi zorunludur.",
+                        "Artı Platform Güvencesi:\n        Filomuzdaki tüm makinelerin periyodik kontrolleri tamdır. Her kiralama öncesi teknik servisimiz tarafından 30 noktalı güvenlik kontrolünden (lastik, hidrolik, acil stop, switchler vb.) geçirilir. Güvenliğinizi şansa bırakmıyoruz.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "marmara-bolgesindeki-projelerde-dogru-makine-secimi",
+            kategori: "Strateji",
+            baslik: "Marmara Bölgesi'ndeki Projelerde Doğru Makine Seçimi: Verimlilik ve Güvenlik Dengesi",
+            ozet: "İstanbul, Gebze ve Kocaeli hattındaki endüstriyel projelerde doğru platform ve forklift seçiminin operasyonel maliyetlere etkisi.",
+            gorsel: "/media/isler/is-5.jpg",
+            gorselAlt: "Marmara Bölgesi'ndeki Projelerde Doğru Makine Seçimi: Verimlilik ve Güvenlik Dengesi — Artı Platform saha çalışması",
+            tarih: "2026-02-10",
+            okuma: 6,
+            giris: "Marmara Bölgesi, Türkiye'nin sanayi kalbi olmasının yanı sıra, lojistik ve inşaat projelerinin de en yoğun olduğu bölgedir. Bu yoğunlukta, doğru iş makinesi seçimi sadece bir tercih değil, projenin karlılığını belirleyen kritik bir karardır.",
+            bolumler: [
+                {
+                    baslik: "Sektörel İhtiyaç Analizi",
+                    paragraflar: [
+                        "Her sektörün kendine has dinamikleri vardır ve makine seçimi bu dinamiklere göre yapılmalıdır.",
+                        "1. Depolama ve Lojistik (Gebze - Tuzla Hattı):",
+                        "Bu bölgelerdeki dar koridorlu depolarda manevra kabiliyeti yüksek akülü forkliftler ve dikey platformlar (vertical masts) tercih edilmelidir. İz bırakmayan beyaz lastik kullanımı, epoksi zeminlerin korunması için şarttır.",
+                        "2. Ağır Sanayi ve Enerji:",
+                        "Hademköy ve Dilovası gibi bölgelerdeki tesislerde, ağır tonajlı dış mekan çalışmaları için yüksek kapasiteli dizel forkliftler ve 4x4 arazi tipi makaslı platformlar operasyonun bel kemiğidir.",
+                        "3. Şehir İçi İnşaat ve Restorasyon:",
+                        "İstanbul'un dar sokaklarındaki restorasyon veya cephe işlerinde, sepetli vinçlerin yanaşamadığı noktalara \"Örümcek Platformlar\" (Spider Lifts) ile erişim sağlanabilir. Hafifliği sayesinde tarihi zeminlere zarar vermez.",
+                    ],
+                },
+                {
+                    baslik: "Maliyetinizi DÜŞÜREN 3 Altın Kural",
+                    paragraflar: [
+                        "Keşif: Makine kiralamadan önce mutlaka uzman görüşü alın. Gereğinden büyük makine kiralayarak yakıt ve kira bedelinden zarar etmeyin. Lojistik Planlama: Şantiyenize en yakın şubeden makine kiralamak, nakliye maliyetlerini %40'a kadar düşürebilir. Artı Platform'un 3 farklı lokasyondaki gücü burada devreye girer. Bakım Geçmişi: Arıza yapan bir makine, duran bir şantiye demektir. Sadece fiyata değil, kiralama firmasının teknik servis hızına ve makine yaşına bakın.",
+                        "Operasyonel İpucu: Artı Platform olarak Marmara Bölgesi genelinde 2 saat içinde teknik servis müdahale garantisi veriyoruz. Biz makine kiralarken sadece metal değil, \"zaman\" ve \"kesintisiz iş akışı\" kiralıyoruz.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "istanbul-manlift-kiralama-fiyatlari-2026",
+            kategori: "Fiyat Rehberi",
+            baslik: "İstanbul Manlift Kiralama Fiyatları 2026: Bölgelere Göre Güncel Rehber",
+            ozet: "İstanbul'da manlift kiralama fiyatını neler belirler? Avrupa ve Anadolu yakasında bölgeye, makine tipine ve kiralama süresine göre değişen maliyetleri ve tasarruf yollarını inceledik.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "İstanbul Manlift Kiralama Fiyatları 2026: Bölgelere Göre Güncel Rehber — Artı Platform saha çalışması",
+            tarih: "2026-02-18",
+            okuma: 6,
+            giris: "\"İstanbul manlift kiralama\" araması yapan işletmelerin en sık sorduğu soru fiyatlandırmanın nasıl belirlendiğidir. Şehrin trafik yoğunluğu, bölge çeşitliliği ve proje tipi nedeniyle İstanbul'da manlift kiralama fiyatı tek bir sabit rakamla ifade edilemez. İşte 2026 yılı için güncel fiyat mantığı ve bölgesel farkları.",
+            bolumler: [
+                {
+                    baslik: "İstanbul'da Manlift Kiralama Fiyatını Belirleyen Unsurlar",
+                    paragraflar: [
+                        "Bir manlift teklifi hazırlanırken şu değişkenler birlikte değerlendirilir:",
+                        "Çalışma Yüksekliği: 10 metrelik bir akülü makaslı platform ile 22 metrelik bir eklemli platformun günlük bedeli arasında ciddi fark vardır. Bölge ve Nakliye Mesafesi: Tuzla, İkitelli veya Gebze şubesine yakın şantiyelerde nakliye maliyeti düşer; şehrin diğer ucundaki projelerde bu kalem fiyata eklenir. Kiralama Süresi: Günlük kiralamalarda birim maliyet en yüksektir; haftalık ve aylık sözleşmelerde oransal indirim uygulanır. Enerji Tipi: Akülü makineler iç mekân işlerinde, dizel makineler açık şantiye ve engebeli zeminlerde tercih edilir; bu tercih de fiyatı etkiler.",
+                    ],
+                },
+                {
+                    baslik: "Avrupa Yakası ve Anadolu Yakası Arasındaki Fark",
+                    paragraflar: [
+                        "İkitelli, Esenyurt, Başakşehir ve Hadımköy hattında yoğunlaşan Avrupa yakası projeleri ile Tuzla, Gebze, Pendik ve Kartal hattındaki Anadolu yakası projeleri arasında nakliye süresi ve trafik yoğunluğu farklıdır. Şubeye yakın bölgede talep edilen manlift, aynı gün içinde teslim edilebilirken; uzak bölgelerde teslim planı bir gün önceden netleştirilmelidir.",
+                        "Projenizin başlangıç tarihini netleştirip erken rezervasyon yaparak fiyat avantajı sağlayabilirsiniz. Şantiyenize en yakın şubeden makine talep ederek nakliye bedelini düşürebilirsiniz. Manlift ile birlikte forklift veya vinç ihtiyacınız da varsa, tek teklifte paket fiyat isteyin.",
+                    ],
+                },
+                {
+                    baslik: "Gerçekçi Bir Teklif Nasıl Okunur?",
+                    paragraflar: [
+                        "İstanbul manlift kiralama fiyatı isterken teklifte şu kalemlerin ayrı ayrı yazılı olduğundan emin olun: makine günlük/haftalık/aylık bedeli, nakliye (gidiş-dönüş), operatör bedeli (talep edilirse), sigorta kapsamı ve olası gecikme/fazla mesai koşulları. Sadece \"günlük X TL\" ifadesiyle verilen sözlü tekliflerde nakliye ve ek hizmetler sonradan fatura sürprizi yaratabilir.",
+                        "Artı Platform olarak İstanbul genelindeki 3 şubemizle (İkitelli, Tuzla, Gebze) bölgenize en yakın noktadan sevkiyat yapıyor, teklifte tüm maliyet kalemlerini yazılı olarak sunuyoruz.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "istanbulda-manlift-kiralama-nasil-yapilir",
+            kategori: "Rehber",
+            baslik: "İstanbul'da Manlift Kiralama Nasıl Yapılır? Adım Adım Süreç Rehberi",
+            ozet: "İstanbul'da ilk kez manlift kiralayacaklar için talep aşamasından teslimata kadar izlenmesi gereken adımlar, istenecek bilgiler ve dikkat edilmesi gereken noktalar.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "İstanbul'da Manlift Kiralama Nasıl Yapılır? Adım Adım Süreç Rehberi — Artı Platform saha çalışması",
+            tarih: "2026-02-22",
+            okuma: 6,
+            giris: "İstanbul'da manlift kiralama süreci, doğru bilgiyle ilerletildiğinde aynı gün içinde tamamlanabilecek kadar hızlıdır. Ancak eksik bilgiyle verilen talepler, yanlış makine seçimine veya sahada gecikmeye yol açabilir. İşte talep aşamasından teslimata kadar izlenmesi gereken adımlar.",
+            bolumler: [
+                {
+                    baslik: "1. Adım: İhtiyaç Analizi",
+                    paragraflar: [
+                        "Kiralama firmasını aramadan önce şu bilgileri netleştirin:",
+                        "Erişilecek maksimum yükseklik: Platform yüksekliği değil, ulaşmanız gereken nokta. Çalışma ortamı: Kapalı alan mı, açık şantiye mi?. Zemin durumu: Beton, toprak, eğimli veya hassas (mermer, epoksi) zemin mi?. Kullanım süresi: Tek günlük mü, haftalık/aylık proje mi?.",
+                    ],
+                },
+                {
+                    baslik: "2. Adım: Doğru Makine Tipinin Belirlenmesi",
+                    paragraflar: [
+                        "İstanbul'daki projelerde en çok tercih edilen üç manlift tipi şunlardır:",
+                        "Makaslı Platform: Dikey erişim ve geniş sepet alanı gereken işlerde. Eklemli Platform: Boru hattı, çatı çıkıntısı gibi engellerin üzerinden erişim gereken işlerde. Dikey/Örümcek Platform: Dar koridor, kapı girişi veya hassas iç mekân zeminlerinde.",
+                        "Emin değilseniz, saha ölçülerini ve fotoğraflarını paylaşarak kiralama firmasından öneri isteyebilirsiniz.",
+                    ],
+                },
+                {
+                    baslik: "3. Adım: Teklif Alma ve Karşılaştırma",
+                    paragraflar: [
+                        "Makine model ve kapasitesi. Kiralama süresi ve birim fiyat. Nakliye dahil mi, ayrı mı?. Operatör dahil mi (talep edilmişse)?. Periyodik kontrol belgesinin güncelliği.",
+                    ],
+                },
+                {
+                    baslik: "4. Adım: Teslimat ve Kontrol",
+                    paragraflar: [
+                        "Makine sahaya ulaştığında teslim tutanağı üzerinden seri numarası, çalışma saati (sayaç), görünür hasar ve belge kapsamı kontrol edilmelidir. İstanbul trafiği nedeniyle teslimat saatini şantiye giriş kurallarınıza (örneğin ağır vasıta giriş yasağı olan saatlere) göre önceden netleştirmeniz gecikmeleri önler.",
+                    ],
+                },
+                {
+                    baslik: "5. Adım: Kullanım ve İade",
+                    paragraflar: [
+                        "Kullanım süresince olağan dışı ses, sızıntı veya arıza durumunda makineyi güvenli konuma alıp kiralama firmasının teknik hattını arayın. İade sırasında da teslim alımdaki aynı kontrol listesi tekrar uygulanır.",
+                        "Artı Platform olarak İstanbul genelinde talep aldığımız manlift kiralama süreçlerinde, saha bilgisi netleştiği andan itibaren 15 dakika içinde teklif, uygun şubeden aynı gün sevkiyat imkanı sunuyoruz.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "istanbul-makasli-platform-kiralama",
+            kategori: "Fiyat Rehberi",
+            baslik: "İstanbul Makaslı Platform Kiralama: Fiyatlar, Modeller ve Seçim Kriterleri",
+            ozet: "İstanbul'da makaslı platform kiralamak isteyenler için akülü ve dizel model farkları, çalışma yüksekliği seçenekleri ve fiyatı etkileyen kriterler.",
+            gorsel: "/media/isler/is-2.jpg",
+            gorselAlt: "İstanbul Makaslı Platform Kiralama: Fiyatlar, Modeller ve Seçim Kriterleri — Artı Platform saha çalışması",
+            tarih: "2026-02-25",
+            okuma: 6,
+            giris: "Makaslı platformlar, geniş sepet alanı ve yüksek kaldırma kapasitesi sayesinde İstanbul'daki AVM, fabrika ve şantiye projelerinde en sık talep edilen personel yükseltici tipidir. \"İstanbul makaslı platform kiralama\" araştıranlar için model, fiyat ve seçim kriterlerini derledik.",
+            bolumler: [
+                {
+                    baslik: "Fiyatı Etkileyen Kriterler",
+                    paragraflar: [
+                        "Çalışma Yüksekliği: 8m'den 22m'ye kadar farklı sınıflar bulunur; yükseklik arttıkça günlük bedel artar. Kiralama Süresi: Günlük kiralamada birim maliyet en yüksektir, aylık/proje bazlı kiralamada avantajlıdır. Bölge: İstanbul içinde şubeye (İkitelli, Tuzla, Gebze) yakınlık nakliye maliyetini doğrudan etkiler. Operatör İhtiyacı: Operatörlü talep edilmesi durumunda ayrı bir bedel eklenir.",
+                        "Seçim İpucu: AVM ve hastane gibi hassas zeminli iç mekânlarda mutlaka akülü ve iz bırakmayan lastikli model talep edin. Açık şantiye ve toprak zeminde ise 4x4 dizel makaslı platform tercih edilmelidir.",
+                    ],
+                },
+                {
+                    baslik: "Neden Artı Platform?",
+                    paragraflar: [
+                        "Filomuzdaki makaslı platformlar 8m ile 22m arasında farklı çalışma yüksekliklerinde, hem akülü hem dizel seçenekleriyle mevcuttur. İstanbul genelindeki şubelerimizden bölgenize en yakın olanından sevkiyat yaparak nakliye süresini kısaltıyoruz. Gerçek model, stok ve fiyat bilgisini yazılı teklifte doğrulayın.",
+                    ],
+                },
+            ],
+        },
+        {
+            slug: "istanbul-forklift-kiralama-bolgeler",
+            kategori: "Sektörel",
+            baslik: "İstanbul Forklift Kiralama: Bölgesel Depolar ve Sanayi Siteleri İçin Rehber",
+            ozet: "İstanbul'da forklift kiralamak isteyen depo ve fabrika işletmeleri için İkitelli, Tuzla, Gebze ve Dudullu hattında dikkat edilmesi gereken kapasite ve lojistik kriterleri.",
+            gorsel: "/media/isler/is-3.jpg",
+            gorselAlt: "İstanbul Forklift Kiralama: Bölgesel Depolar ve Sanayi Siteleri İçin Rehber — Artı Platform saha çalışması",
+            tarih: "2026-03-01",
+            okuma: 6,
+            giris: "İstanbul, İkitelli OSB'den Tuzla ve Gebze sanayi hattına kadar geniş bir depo ve üretim tesisi ağına sahiptir. Bu nedenle \"İstanbul forklift kiralama\" ihtiyacı bölgeden bölgeye farklı makine tiplerini gerektirir. İşte bölgesel ihtiyaç analizine göre doğru forklift seçimi.",
+            bolumler: [
+                {
+                    baslik: "Bölgeye Göre Forklift İhtiyacı Nasıl Değişir?",
+                    paragraflar: [
+                        "İkitelli OSB ve Başakşehir Hattı:",
+                        "Dar koridorlu depolarda manevra kabiliyeti yüksek, kompakt akülü forkliftler tercih edilir. Epoksi zeminlerde iz bırakmayan lastik kullanımı önemlidir.",
+                        "Tuzla ve Gebze Sanayi Hattı:",
+                        "Ağır tonajlı dış mekân yükleme-boşaltma işlerinde dizel forkliftler, açık sahalarda ve limana yakın lojistik operasyonlarda yüksek kapasiteli modeller devreye girer.",
+                        "Dudullu ve Ümraniye Bölgesi:",
+                        "Karma kullanım alanlarında (hem iç mekân depo hem açık yükleme rampası) LPG'li forkliftler sık tercih edilir; hem kapalı alanda çalışabilir hem açık alanda dizel kadar güçlüdür.",
+                    ],
+                },
+                {
+                    baslik: "Kapasite Seçiminde Dikkat Edilecekler",
+                    paragraflar: [
+                        "Yük Ağırlığı ve Yük Merkezi: Sadece maksimum kaldırma kapasitesine değil, yükün ağırlık merkezine göre kapasite tablosuna bakılmalıdır. Kaldırma Yüksekliği: Raf sistemlerinizin yüksekliğine uygun asansör seçilmelidir. Koridor Genişliği: Dar koridorlu depolarda standart forklift yerine dar koridor forkliftleri gerekebilir.",
+                        "Lojistik İpucu: Şantiyenize veya deponuza en yakın şubeden forklift kiralamak, İstanbul trafiğinde nakliye süresini ve maliyetini önemli ölçüde düşürür. Artı Platform'un İkitelli, Tuzla ve Gebze şubeleri sayesinde bölgenize en yakın noktadan aynı gün sevkiyat mümkündür.",
+                    ],
+                },
+                {
+                    baslik: "Operatörlü mü, Operatörsüz mü?",
+                    paragraflar: [
+                        "Kendi sertifikalı operatörünüz yoksa \"wet lease\" (operatörlü) seçeneğini tercih edebilirsiniz. Operatörlerimiz MYK belgelidir ve İSG eğitimleri güncel tutulur.",
+                        "Arıza durumunda 4 saat içinde ikame makine garantisi sunarak İstanbul genelindeki depo ve üretim operasyonlarınızın kesintisiz devam etmesini sağlıyoruz.",
+                    ],
+                },
+            ],
+        },
+    ],
     "platformistanbul.net": [
         {
             slug: "istanbul-manlift-kiralama",
