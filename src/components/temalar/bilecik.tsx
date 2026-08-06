@@ -40,9 +40,42 @@ function Cerceve({ site, aktif = "", children }: Parameters<TemaModulu["Cerceve"
 function AnaSayfa({ site }: { site: SiteIcerik }) {
     return <><section className="mx-auto grid max-w-[1440px] items-center gap-12 px-8 py-12 md:py-24 lg:grid-cols-2"><div className="max-w-2xl"><div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#d8d0c8]/50 bg-[#ece6dc] px-3 py-1 text-[12px] text-[#605850]"><span className="h-2 w-2 rounded-full bg-[#c2652a]" />{site.bolge}</div><h1 className="font-['EB_Garamond'] text-[48px] font-semibold leading-tight text-[#3a302a] md:text-[72px]">{site.h1}<br /><span className="italic text-[#c2652a]">Profesyonel Çözümler.</span></h1><p className="mt-6 text-[18px] leading-8 text-[#605850]">{site.paragraflar[0]}</p><div className="mt-8 flex flex-wrap gap-4"><a href="/iletisim" className="rounded-[8px] bg-[#c2652a] px-6 py-3 font-semibold text-white">Teklif İsteyin</a><a href="/urunler" className="rounded-[8px] border border-[#d8d0c8] px-6 py-3 font-semibold">Filoyu İnceleyin</a></div></div><div className="relative min-h-[560px] overflow-hidden rounded-[12px]"><Image src="/media/saha-hero.png" alt="Bilecik platform kiralama sahası" fill priority sizes="50vw" className="object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-[#3a302a]/50 to-transparent" /><div className="absolute bottom-6 left-6 right-6 rounded-[8px] bg-[#faf5ee]/90 p-6 backdrop-blur-md"><p className="text-[14px] font-semibold text-[#3a302a]">Güncel uygunluk • Yazılı kapsam • Planlı sevkiyat</p></div></div></section>
         <section className="mx-auto max-w-[1440px] px-8 py-24"><h2 className="font-['EB_Garamond'] text-[40px] text-[#3a302a]">Hizmet başlıkları</h2><p className="mt-3 max-w-2xl text-[#605850]">{site.paragraflar[1]}</p><div className="mt-12 grid gap-8 md:grid-cols-3">{makineler.map((m) => <article key={m.baslik} className="group"><div className="relative h-72 overflow-hidden rounded-[12px]"><Image src={m.gorsel} alt={m.baslik} fill sizes="33vw" className="object-cover transition-transform duration-500 group-hover:scale-105" /></div><span className="mt-6 block text-[12px] font-semibold uppercase tracking-[0.08em] text-[#c2652a]">{m.alt}</span><h3 className="mt-2 font-['EB_Garamond'] text-[28px] text-[#3a302a]">{m.baslik}</h3><p className="mt-3 leading-6 text-[#605850]">{m.metin}</p><a href={`/${m.slug}`} className="mt-5 inline-flex items-center gap-2 font-semibold text-[#c2652a]">Detayları İncele <Ikon ad="ok" /></a></article>)}</div><div className="mt-14 rounded-[12px] bg-[#3a302a] p-8 text-[#faf5ee]"><h3 className="font-['EB_Garamond'] text-[32px]">Güvenilir Operasyon</h3><p className="mt-2 text-[#cec6be]">{site.paragraflar[2]}</p></div></section>
-        <section className="border-y border-[#d8d0c8]/30 bg-[#f6f0e8] px-8 py-24"><div className="mx-auto grid max-w-[1440px] gap-16 lg:grid-cols-[1fr_2fr]"><h2 className="font-['EB_Garamond'] text-[40px] text-[#3a302a] lg:sticky lg:top-32 lg:self-start">İhtiyacınızı birlikte netleştirelim.</h2><div className="space-y-12">{["İşi tarif edin", "Uygunluğu kontrol edelim", "Yazılı teklif alın"].map((a, i) => <article key={a} className="grid gap-5 border-b border-[#d8d0c8] pb-10 sm:grid-cols-[64px_1fr]"><span className="font-['Manrope'] text-[13px] font-semibold tracking-[0.1em] text-[#c2652a]">0{i + 1}</span><div><h3 className="font-['EB_Garamond'] text-[28px] text-[#3a302a]">{a}</h3><p className="mt-3 leading-7 text-[#605850]">{site.paragraflar[Math.min(i, site.paragraflar.length - 1)]}</p></div></article>)}</div></div></section><section className="mx-auto max-w-[1440px] px-8 py-24 text-center"><h2 className="mx-auto max-w-3xl font-['EB_Garamond'] text-[40px] text-[#3a302a] md:text-[52px]">Saha bilgilerinizi paylaşın, doğrulanabilir teklif hazırlayalım.</h2><a href="/iletisim" className="mt-8 inline-flex rounded-[8px] bg-[#c2652a] px-7 py-4 font-semibold text-white">Teklif Hazırlığına Başlayın</a></section></>;
+        <section className="border-y border-[#d8d0c8]/30 bg-[#f6f0e8] px-8 py-24"><div className="mx-auto grid max-w-[1440px] gap-16 lg:grid-cols-[1fr_2fr]"><h2 className="font-['EB_Garamond'] text-[40px] text-[#3a302a] lg:sticky lg:top-32 lg:self-start">İhtiyacınızı birlikte netleştirelim.</h2><div className="space-y-12">{["İşi tarif edin", "Uygunluğu kontrol edelim", "Yazılı teklif alın"].map((a, i) => <article key={a} className="grid gap-5 border-b border-[#d8d0c8] pb-10 sm:grid-cols-[64px_1fr]"><span className="font-['Manrope'] text-[13px] font-semibold tracking-[0.1em] text-[#c2652a]">0{i + 1}</span><div><h3 className="font-['EB_Garamond'] text-[28px] text-[#3a302a]">{a}</h3><p className="mt-3 leading-7 text-[#605850]">{site.paragraflar[Math.min(i, site.paragraflar.length - 1)]}</p></div></article>)}</div></div></section><section className="mx-auto max-w-[1440px] px-8 py-24 text-center"><h2 className="mx-auto max-w-3xl font-['EB_Garamond'] text-[40px] text-[#3a302a] md:text-[52px]">Saha bilgilerinizi paylaşın, doğrulanabilir teklif hazırlayalım.</h2><a href="/iletisim" className="mt-8 inline-flex rounded-[8px] bg-[#c2652a] px-7 py-4 font-semibold text-white">Teklif Hazırlığına Başlayın</a></section>
+        <BlogOneCikanlar site={site} /></>;
 }
 
+function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const yazilar = hostBloglari(site.host).slice(0, 15);
+    if (yazilar.length === 0) return null;
+    return (
+        <section className="mx-auto max-w-[1440px] px-8 py-24">
+            <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+                <div>
+                    <h2 className="font-['EB_Garamond'] text-[40px] text-[#3a302a]">Blog&apos;dan Öne Çıkanlar</h2>
+                    <p className="mt-3 max-w-2xl text-[#605850]">Makine seçimi, saha uygulaması ve maliyet üzerine güncel rehberler.</p>
+                </div>
+                <a href="/blog" className="inline-flex items-center gap-2 font-semibold text-[#c2652a]">
+                    Tüm yazıları görün
+                    <Ikon ad="ok" className="h-4 w-4" />
+                </a>
+            </div>
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {yazilar.map((y) => (
+                    <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-[12px] border border-[#d8d0c8]/40 bg-[#f6f0e8] p-3 transition hover:border-[#c2652a]">
+                        <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-[8px] bg-[#faf5ee]">
+                            <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
+                        </div>
+                        <div className="min-w-0">
+                            <span className="text-[11px] font-semibold uppercase tracking-[0.08em] text-[#c2652a]">{y.kategori}</span>
+                            <p className="mt-0.5 line-clamp-2 font-['EB_Garamond'] text-[16px] font-medium leading-snug text-[#3a302a] group-hover:text-[#c2652a]">{y.baslik}</p>
+                            <span className="mt-1 block text-[12px] text-[#605850]">{y.okuma} dk okuma</span>
+                        </div>
+                    </a>
+                ))}
+            </div>
+        </section>
+    );
+}
 function IcBaslik({ etiket, baslik, metin }: { etiket: string; baslik: string; metin?: string }) {
     return <section className="px-8 pb-12 pt-24"><div className="mx-auto max-w-[1440px]"><p className="text-[13px] font-semibold tracking-[0.12em] text-[#c2652a]">{etiket}</p><h1 className="mt-4 max-w-4xl font-['EB_Garamond'] text-[48px] font-medium leading-tight text-[#3a302a] md:text-[72px]">{baslik}</h1>{metin && <p className="mt-6 max-w-3xl text-[18px] leading-8 text-[#605850]">{metin}</p>}</div></section>;
 }

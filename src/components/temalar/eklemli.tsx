@@ -80,6 +80,43 @@ const HIZMET = [
     { d: IK.support, baslik: "Teknik Destek", metin: "Kesintisiz operasyon için hızlı müdahale ve yerinde çözüm." },
 ];
 
+// Google'ın "Yerel haberler" kart ızgarasına benzer, kompakt 3x5 blog kartı
+// ızgarası — ana sayfada Profesyonel Hizmetlerimiz'in hemen altında, kapanış
+// CTA'sının hemen üstünde; blog trafiğine iç link sağlar.
+function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const yazilar = hostBloglari(site.host).slice(0, 15);
+    if (yazilar.length === 0) return null;
+    return (
+        <section className="bg-[#f8f9fb] py-20">
+            <div className="max-w-[1280px] mx-auto px-4 md:px-8">
+                <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+                    <div>
+                        <h2 className="text-[32px] font-extrabold text-[#191c1e] mb-3 tracking-tight">Blog&apos;dan Öne Çıkanlar</h2>
+                        <p className="text-[#444655]">Platform seçimi, güvenlik ve saha uygulaması üzerine sahadan rehberler.</p>
+                    </div>
+                    <a href="/blog" className={`inline-flex items-center gap-2 text-[#0233d3] ${lbl}`}>
+                        Tüm yazıları görün <Ikon d={IK.chevron} className="w-4 h-4" box={16} />
+                    </a>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {yazilar.map((y) => (
+                        <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-xl border border-[#edeef0] bg-white p-3 transition-all hover:border-[#3151eb]/40 hover:shadow-md">
+                            <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-[#f8f9fb]">
+                                <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
+                            </div>
+                            <div className="min-w-0">
+                                <span className="text-[11px] font-bold uppercase tracking-wide text-[#3151eb]">{y.kategori}</span>
+                                <p className="mt-0.5 line-clamp-2 text-sm font-bold leading-snug text-[#191c1e] group-hover:text-[#0233d3]">{y.baslik}</p>
+                                <span className="mt-1 block text-xs text-[#444655]">{y.okuma} dk okuma</span>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
+
 function AnaSayfa({ site }: { site: SiteIcerik }) {
     return (
         <>
@@ -138,6 +175,9 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">{HIZMET.map((h) => (<div key={h.baslik} className="bg-[#f8f9fb] rounded-2xl border border-[#edeef0] p-7 hover:border-[#3151eb]/40 hover:shadow-md transition-all"><div className="w-12 h-12 rounded-xl bg-[#3151eb]/10 flex items-center justify-center mb-4 text-[#3151eb]"><Ikon d={h.d} className="w-6 h-6" /></div><h3 className="text-[18px] font-bold text-[#191c1e] mb-2">{h.baslik}</h3><p className="text-[#444655] text-[15px] leading-6">{h.metin}</p></div>))}</div>
                 </div>
             </section>
+
+            {/* Blog'dan Öne Çıkanlar — Hizmet Bölgelerimiz benzeri kapanış bölümlerinin hemen üstünde */}
+            <BlogOneCikanlar site={site} />
 
             {/* CTA */}
             <section className="py-24 bg-[#0d1330] text-white"><div className="max-w-[1280px] mx-auto px-4 md:px-8 text-center">

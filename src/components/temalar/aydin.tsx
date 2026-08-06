@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
+import { hostBloglari } from "@/lib/blog";
 import type { TemaModulu } from "./tipler";
 import { TemaForm } from "./tema-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
@@ -137,6 +138,43 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
     );
 }
 
+// Google'ın "Yerel haberler" kart ızgarasına benzer, kompakt 3x5 blog kartı
+// ızgarası — Hizmet Bölgeleri bölümünün hemen üstünde, ana sayfada blog
+// trafiğine iç link sağlar.
+function AydinBlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const yazilar = hostBloglari(site.host).slice(0, 15);
+    if (yazilar.length === 0) return null;
+    return (
+        <section className="py-20 bg-[#F9FAFB]">
+            <div className="container mx-auto px-6 max-w-[1280px]">
+                <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+                    <div>
+                        <h2 className={`${hy} text-[32px] leading-[40px] font-bold text-[#0A1525] mb-3`}>Blog&apos;dan Öne Çıkanlar</h2>
+                        <p className="text-base text-[#4f4633] max-w-2xl">Makine seçimi, saha uygulaması ve maliyet üzerine güncel rehberler.</p>
+                    </div>
+                    <a href="/blog" className="text-[#0A1525] font-bold flex items-center gap-1 hover:text-[#795900] transition-colors">
+                        Tüm yazıları görün <Ikon d={IK.ok} className="w-4 h-4" />
+                    </a>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {yazilar.map((y) => (
+                        <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-lg border border-[#d3c5ac] bg-[#f9f9ff] p-3 transition-colors hover:border-[#FBBF24]">
+                            <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded bg-[#F9FAFB]">
+                                <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
+                            </div>
+                            <div className="min-w-0">
+                                <span className="text-[11px] font-bold uppercase tracking-wide text-[#795900]">{y.kategori}</span>
+                                <p className={`${hy} mt-0.5 line-clamp-2 text-sm font-semibold leading-snug text-[#0A1525] group-hover:text-[#795900] transition-colors`}>{y.baslik}</p>
+                                <span className="mt-1 block text-xs text-[#4f4633]">{y.okuma} dk okuma</span>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
+
 // ---- Ana sayfa gövdesi ----
 function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
     const bolgeler = bolgelerCoz(site);
@@ -240,6 +278,8 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
                     </div>
                 </div>
             </section>
+
+            <AydinBlogOneCikanlar site={site} />
 
             <section className="py-20 bg-[#0A1525] text-[#F9FAFB] overflow-hidden relative" id="regions">
                 <div className="absolute top-0 right-0 w-1/3 h-full bg-[#FBBF24]/5 skew-x-12 translate-x-1/2" />

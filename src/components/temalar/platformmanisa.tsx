@@ -206,6 +206,8 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
+            <BlogOneCikanlar site={site} />
+
             {/* Hizmet bölgeleri */}
             <section className="py-[120px] bg-[#101415] relative overflow-hidden">
                 <div className="max-w-[1280px] mx-auto px-6 relative z-10">
@@ -229,6 +231,39 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
         </>
+    );
+}
+
+// ---- Blog'dan öne çıkanlar (ana sayfa, Hizmet Bölgeleri üstü) ----
+function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const yazilar = hostBloglari(site.host).slice(0, 15);
+    if (yazilar.length === 0) return null;
+    return (
+        <section className="py-[120px] bg-[#020617]">
+            <div className="max-w-[1280px] mx-auto px-6">
+                <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                    <div>
+                        <h2 className={`${pj} text-[32px] font-bold text-white mb-2`}>Blog&apos;dan Öne Çıkanlar</h2>
+                        <p className="text-[#c4c5d9]">Makine seçimi, saha uygulaması ve maliyet üzerine güncel rehberler.</p>
+                    </div>
+                    <a className={`inline-flex items-center gap-2 text-[#b8c4ff] hover:text-[#dde1ff] transition-colors ${caps}`} href="/blog">Tüm yazıları görün <Ikon d={IK.ok} className="w-4 h-4" box={18} /></a>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {yazilar.map((y) => (
+                        <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-xl border border-white/10 bg-[#1E293B] p-3 transition-colors hover:border-[#b8c4ff]/50">
+                            <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-[#101415]">
+                                <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
+                            </div>
+                            <div className="min-w-0">
+                                <span className={`${caps} text-[#F97316]`}>{y.kategori}</span>
+                                <p className={`${pj} mt-0.5 line-clamp-2 text-sm font-bold leading-snug text-white group-hover:text-[#b8c4ff] transition-colors`}>{y.baslik}</p>
+                                <span className="mt-1 block text-xs text-[#c4c5d9]">{y.okuma} dk okuma</span>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
     );
 }
 

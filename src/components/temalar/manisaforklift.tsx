@@ -68,22 +68,58 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
     );
 }
 
-function AnaSayfa({ site }: { site: SiteIcerik }) {
+function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const yazilar = hostBloglari(site.host).slice(0, 15);
+    if (yazilar.length === 0) return null;
     return (
-        <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden py-24">
-            <div className="absolute inset-0 z-0"><Image src="/media/forklift.jpg" alt="Modern forklift ile lojistik" fill priority sizes="100vw" className="object-cover" /><div className="absolute inset-0 bg-gradient-to-r from-[#f7f9fb]/90 via-[#f7f9fb]/70 to-transparent" /></div>
-            <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className={`${glass} p-8 md:p-12 rounded-xl`}>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#eceef0] text-[#795900] font-semibold text-[14px] rounded-full mb-6 border border-[#d3c5ac]/50"><Ikon d={IK.precision} className="w-4 h-4" box={16} /> Yeni Nesil Lojistik</div>
-                    <h1 className={`${mo} text-[32px] md:text-[48px] leading-[1.1] md:leading-[56px] tracking-[-0.02em] font-bold text-[#191c1e] mb-6`}>Ege&apos;nin Endüstriyel Gücü: <span className="text-[#795900]">{site.h1}</span></h1>
-                    <p className="text-[18px] leading-[28px] text-[#4f4633] mb-8 max-w-xl">{site.paragraflar[0]}</p>
-                    <div className="flex flex-wrap gap-4">
-                        <a className="bg-[#FBBF24] text-black font-semibold text-[14px] px-8 py-4 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all flex items-center gap-2" href="/urunler">Filomuzu İnceleyin <Ikon d={IK.ok} className="w-5 h-5" box={20} /></a>
-                        <a className="backdrop-blur bg-white/40 text-[#191c1e] font-semibold text-[14px] px-8 py-4 rounded-lg border border-slate-200 hover:bg-white/70 transition-all" href="/iletisim">Talebiniz Var Mı?</a>
-                    </div>
+        <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-20">
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+                <div>
+                    <h2 className={`${mo} text-[28px] md:text-[32px] font-bold text-[#191c1e]`}>Blog&apos;dan Öne Çıkanlar</h2>
+                    <p className="mt-2 text-[#4f4633]">Filo yönetimi, saha uygulaması ve bakım üzerine güncel rehberler.</p>
                 </div>
+                <a href="/blog" className="inline-flex items-center gap-2 font-semibold text-[#795900] hover:text-[#5e4600]">
+                    Tüm yazıları görün
+                    <Ikon d={IK.ok} className="h-4 w-4" box={16} />
+                </a>
+            </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {yazilar.map((y) => (
+                    <a key={y.slug} href={`/blog/${y.slug}`} className={`${glass} group flex gap-3 rounded-xl p-3 transition hover:border-[#795900]/40`}>
+                        <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-[#e0e3e5]">
+                            <Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" />
+                        </div>
+                        <div className="min-w-0">
+                            <span className="text-[11px] font-bold uppercase tracking-wide text-[#795900]">{y.kategori}</span>
+                            <p className={`${mo} mt-0.5 line-clamp-2 text-[13px] font-bold leading-snug text-[#191c1e] group-hover:text-[#795900]`}>{y.baslik}</p>
+                            <span className="mt-1 block text-[12px] text-[#4f4633]">{y.okuma} dk okuma</span>
+                        </div>
+                    </a>
+                ))}
             </div>
         </section>
+    );
+}
+
+function AnaSayfa({ site }: { site: SiteIcerik }) {
+    return (
+        <>
+            <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden py-24">
+                <div className="absolute inset-0 z-0"><Image src="/media/forklift.jpg" alt="Modern forklift ile lojistik" fill priority sizes="100vw" className="object-cover" /><div className="absolute inset-0 bg-gradient-to-r from-[#f7f9fb]/90 via-[#f7f9fb]/70 to-transparent" /></div>
+                <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div className={`${glass} p-8 md:p-12 rounded-xl`}>
+                        <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#eceef0] text-[#795900] font-semibold text-[14px] rounded-full mb-6 border border-[#d3c5ac]/50"><Ikon d={IK.precision} className="w-4 h-4" box={16} /> Yeni Nesil Lojistik</div>
+                        <h1 className={`${mo} text-[32px] md:text-[48px] leading-[1.1] md:leading-[56px] tracking-[-0.02em] font-bold text-[#191c1e] mb-6`}>Ege&apos;nin Endüstriyel Gücü: <span className="text-[#795900]">{site.h1}</span></h1>
+                        <p className="text-[18px] leading-[28px] text-[#4f4633] mb-8 max-w-xl">{site.paragraflar[0]}</p>
+                        <div className="flex flex-wrap gap-4">
+                            <a className="bg-[#FBBF24] text-black font-semibold text-[14px] px-8 py-4 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all flex items-center gap-2" href="/urunler">Filomuzu İnceleyin <Ikon d={IK.ok} className="w-5 h-5" box={20} /></a>
+                            <a className="backdrop-blur bg-white/40 text-[#191c1e] font-semibold text-[14px] px-8 py-4 rounded-lg border border-slate-200 hover:bg-white/70 transition-all" href="/iletisim">Talebiniz Var Mı?</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <BlogOneCikanlar site={site} />
+        </>
     );
 }
 

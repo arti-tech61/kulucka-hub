@@ -100,6 +100,36 @@ function FiloGrid() {
     );
 }
 
+function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
+    const yazilar = hostBloglari(site.host).slice(0, 15);
+    if (yazilar.length === 0) return null;
+    return (
+        <section className="bg-[#eceef0] py-16">
+            <div className="max-w-[1280px] mx-auto px-4 md:px-8">
+                <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
+                    <div>
+                        <h2 className={`${mo} text-[28px] font-bold text-[#121c2a] uppercase border-l-8 border-[#f68b1e] pl-4`}>Blog&apos;dan Öne Çıkanlar</h2>
+                        <p className="text-[#554335] mt-2 pl-5">Makine seçimi, saha uygulaması ve maliyet üzerine güncel rehberler.</p>
+                    </div>
+                    <a href="/blog" className={`${lbl} inline-flex items-center gap-1 text-[#914d00] hover:text-[#f68b1e] transition-colors`}>Tüm yazıları görün <Ikon d={IK.ok} className="w-4 h-4" box={16} /></a>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {yazilar.map((y) => (
+                        <a key={y.slug} href={`/blog/${y.slug}`} className="group flex gap-3 rounded-lg border border-[#121c2a]/10 bg-white p-3 transition-all hover:border-[#f68b1e] hover:shadow-md">
+                            <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-md bg-[#f8f9ff]"><Image src={y.gorsel} alt={y.gorselAlt} fill sizes="80px" className="object-cover" /></div>
+                            <div className="min-w-0">
+                                <span className={`${lbl} text-[11px] text-[#914d00] uppercase tracking-wide`}>{y.kategori}</span>
+                                <p className={`${mo} mt-0.5 line-clamp-2 text-[14px] font-bold leading-snug text-[#121c2a] group-hover:text-[#914d00]`}>{y.baslik}</p>
+                                <span className="mt-1 block text-[12px] text-[#554335]">{y.okuma} dk okuma</span>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
+
 function AnaSayfa({ site }: { site: SiteIcerik }) {
     const yazilar = hostBloglari(site.host).slice(0, 3);
     const bolgeler = bolgeSayfalari(site);
@@ -143,6 +173,8 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                     {yazilar.map((y) => (<a key={y.slug} href={`/blog/${y.slug}`} className="bg-white border border-[#121c2a]/10 rounded-lg overflow-hidden group hover:border-[#f68b1e] hover:shadow-lg transition-all flex flex-col"><div className="h-44 relative overflow-hidden"><Image src={y.gorsel} alt={y.gorselAlt} fill sizes="33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" /></div><div className="p-5"><span className={`${lbl} text-[#914d00] uppercase text-[12px]`}>{y.kategori}</span><h3 className={`${mo} mt-2 text-[18px] font-bold text-[#121c2a] group-hover:text-[#914d00]`}>{y.baslik}</h3><span className="mt-4 inline-flex items-center gap-1 text-[#f68b1e] font-semibold text-[14px]">Devamını Oku <Ikon d={IK.ok} className="w-4 h-4" box={16} /></span></div></a>))}
                 </div>
             </section>
+            {/* Blog'dan öne çıkanlar */}
+            <BlogOneCikanlar site={site} />
             {/* Hizmet bölgeleri */}
             <section className="bg-[#e6eeff] py-16">
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8">
