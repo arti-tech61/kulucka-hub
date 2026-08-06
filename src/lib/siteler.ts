@@ -21,7 +21,7 @@ export interface SiteIcerik {
 export const siteler: SiteIcerik[] = [
     {
         host: "boluplatform.net",
-        gaId: "",
+        gaId: "G-KY9NEVP2PY",
         baslik: "Bolu Platform Kiralama | Gerede TEM Hattı Manlift ve Vinç",
         aciklama: "Bolu merkez ve Gerede'de makaslı platform, eklemli platform, forklift ve vinç kiralama. TEM otoyol hattı boyunca hızlı sevkiyat, günlük-haftalık kiralama seçenekleri.",
         h1: "Bolu ve Gerede'de Platform, Vinç ve Forklift Kiralama",
@@ -46,7 +46,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "boluplatform.xyz",
-        gaId: "",
+        gaId: "G-TC98MCQ3Z9",
         baslik: "Mudurnu Göynük Kıbrıscık Platform Kiralama | Orman Ürünleri",
         aciklama: "Mudurnu, Göynük ve Kıbrıscık'ta orman ürünleri ve ahşap sanayi tesislerine forklift, teleskopik yükleyici ve platform kiralama. Ahşap atölyeleri için özel çözümler.",
         h1: "Mudurnu, Göynük, Kıbrıscık Orman Ürünleri Sanayi Kiralama Hizmeti",
@@ -71,7 +71,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "boluplatform.com.tr",
-        gaId: "",
+        gaId: "G-WHN4NSH30T",
         baslik: "Abant Kartalkaya Otel Bakım Platform Kiralama | Bolu",
         aciklama: "Abant Gölü ve Kartalkaya kayak merkezindeki otel ve tesislerde cephe, çatı ve teknik bakım için platform kiralama. Sezon öncesi ve sonrası hızlı sevkiyat.",
         h1: "Abant ve Kartalkaya Otel Tesisleri İçin Bakım Platformu Kiralama",
@@ -96,7 +96,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukmanlift.com",
-        gaId: "",
+        gaId: "G-99HP43QD6C",
         baslik: "Bozüyük Manlift Kiralama | Seramik Fabrika Bakım-Çatı",
         aciklama: "Bozüyük'te seramik fabrikalarına özel eklemli manlift kiralama. Çatı, çelik konstrüksiyon ve yüksek bakım işleri için hızlı sevkiyat, operatörlü hizmet.",
         h1: "Bozüyük Seramik Fabrikaları İçin Manlift Kiralama",
@@ -121,7 +121,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukmanlift.net",
-        gaId: "",
+        gaId: "G-964ZDT9EPS",
         baslik: "Bozüyük Manlift Kiralama | Cam Sanayi Yüksek Erişim",
         aciklama: "Eczacıbaşı VitrA bölgesi ve cam sanayi tesisleri için manlift kiralama. Depo rafı, cephe ve iç mekân yüksek işlerinde güvenli, hızlı ekipman desteği.",
         h1: "Bozüyük Cam Sanayi Bölgesinde Manlift Kiralama",
@@ -146,7 +146,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukmanlift.xyz",
-        gaId: "",
+        gaId: "G-2ZZ3SQ8VG2",
         baslik: "Bozüyük Manlift Kiralama | TEM Lojistik Depo-Metal",
         aciklama: "TEM otoyolu çıkışındaki lojistik depolar ve metal işleme atölyeleri için manlift kiralama. Raf sistemleri, çelik konstrüksiyon montajı için hızlı kiralama.",
         h1: "TEM Otoyolu Bozüyük Çıkışı Lojistik ve Metal Sanayi Manlift",
@@ -171,7 +171,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukplatform.net.tr",
-        gaId: "",
+        gaId: "G-N0G4VZHK1D",
         baslik: "Bozüyük Platform Kiralama | OSB Sanayi Bakım Hizmetleri",
         aciklama: "Bozüyük Organize Sanayi Bölgesi'ndeki tüm fabrikalara makas, eklemli ve teleskopik platform kiralama. Genel bakım, tadilat ve tesisat işleri için hızlı çözüm.",
         h1: "Bozüyük OSB Genel Sanayi Bakımı İçin Platform Kiralama",
@@ -196,7 +196,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukplatform.org",
-        gaId: "",
+        gaId: "G-MEW9Q3WXLN",
         baslik: "Bozüyük Forklift ve Platform Kiralama | Depo-Sevkiyat",
         aciklama: "Bozüyük'te depo, sevkiyat ve yükleme alanları için forklift ve platform kiralama. Palet taşıma, raf istifleme ve TIR yükleme işlerinde hızlı ekipman desteği.",
         h1: "Bozüyük Depo ve Sevkiyat İşleri İçin Forklift-Platform Kiralama",
@@ -221,7 +221,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukplatform.xyz",
-        gaId: "",
+        gaId: "G-WG8SFYTN6Z",
         baslik: "Bozüyük İnşaat Platform Kiralama | Fabrika Yatırım-Çelik",
         aciklama: "Bozüyük'te yeni fabrika yatırımları ve çelik konstrüksiyon inşaatları için platform kiralama. Cephe, çatı montajı ve şantiye işlerinde güçlü ekipman desteği.",
         h1: "Bozüyük Yeni Fabrika Yatırımları İçin İnşaat Platform Kiralama",
@@ -246,7 +246,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "canakkaleplatform.tr",
-        gaId: "",
+        gaId: "G-T830143FM0",
         baslik: "Çanakkale Platform Kiralama | Biga OSB ve Liman Bölgesi Sepetli Platform",
         aciklama: "Çanakkale'de makas tip ve eklemli platform kiralama. Biga Organize Sanayi Bölgesi fabrikaları, Çanakkale Limanı ve liman lojistik tesisleri için sahaya aynı gün sevkiyat.",
         h1: "Çanakkale'de Platform Kiralama — Biga OSB ve Liman Bölgesine Özel Hizmet",
@@ -271,7 +271,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "canakkaleplatform.xyz",
-        gaId: "",
+        gaId: "G-RDV78PC13Q",
         baslik: "Çanakkale Platform Kiralama | Çan Seramik ve Gelibolu Tersane Bölgesi",
         aciklama: "Çan seramik fabrikaları ve Gelibolu tersane bölgesi için sepetli platform ve forklift kiralama. Toz ve ısıya dayanıklı ekipman, gemi bakım sahalarına özel çözümler.",
         h1: "Çan Seramik Fabrikaları ve Gelibolu Tersaneleri için Platform Kiralama",
@@ -296,7 +296,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "kutahyaplatform.com.tr",
-        gaId: "",
+        gaId: "G-ZERSP5EDDL",
         baslik: "Kütahya Platform Kiralama | Merkez Seramik ve Çini Fabrikaları",
         aciklama: "Kütahya merkez seramik ve çini fabrikalarında fırın, depo ve üretim hattı bakımı için sepetli platform kiralama. Aynı gün sevkiyat, operatörlü hizmet.",
         h1: "Kütahya Merkez Seramik ve Çini Fabrikaları için Platform Kiralama",
@@ -321,7 +321,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "kutahyaplatform.tr",
-        gaId: "",
+        gaId: "G-PSC4FHHXXL",
         baslik: "Kütahya Platform Kiralama | Tavşanlı Maden ve Termik Santral, Gediz Bölgesi",
         aciklama: "Tavşanlı kömür madenleri, termik santral tesisleri ve Gediz bölgesi için ağır hizmet tipi platform kiralama. Zorlu saha koşullarına uygun ekipman.",
         h1: "Tavşanlı Termik Santral ve Gediz Bölgesi için Platform Kiralama",
@@ -346,7 +346,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "muglaplatform.com.tr",
-        gaId: "",
+        gaId: "G-8EJ4MQZPKK",
         baslik: "Muğla Platform Kiralama | Bodrum ve Marmaris Otel-Tesis Bakım Hizmeti",
         aciklama: "Bodrum ve Marmaris otel, tatil köyü ve marina tesislerinde sezon öncesi bakım için sepetli platform kiralama. Sessiz elektrikli modellerle misafir konforunu bozmayan çözüm.",
         h1: "Bodrum ve Marmaris Otel-Turizm Tesisleri için Platform Kiralama",
@@ -371,7 +371,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "muglaplatform.xyz",
-        gaId: "",
+        gaId: "G-M1L8C73L6R",
         baslik: "Muğla Platform Kiralama | Milas Yatağan Maden ve Enerji Tesisleri",
         aciklama: "Milas ve Yatağan bölgesi termik santral, linyit madeni ve enerji tesislerinde ağır hizmet tipi platform kiralama. Zorlu arazi ve yüksek güvenlik standardına uygun ekipman.",
         h1: "Milas-Yatağan Maden ve Enerji Tesisleri için Platform Kiralama",
@@ -396,7 +396,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "eskisehirmanlift.xyz",
-        gaId: "",
+        gaId: "G-G8G7PSYNER",
         baslik: "Eskişehir Manlift Kiralama | OSB Sanayi Tesisleri Bakım Hizmeti",
         aciklama: "Eskişehir Organize Sanayi Bölgesi fabrikalarına özel manlift kiralama. Makas tip ve eklemli manlift, aynı gün sahaya sevkiyat, operatörlü hizmet.",
         h1: "Eskişehir OSB için Manlift Kiralama — Sanayi Bakımına Özel",
@@ -421,7 +421,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "eskisehirplatform.org",
-        gaId: "",
+        gaId: "G-JR6BFDFRZS",
         baslik: "Eskişehir Platform Kiralama | Havacılık-Savunma Sanayi ve Sivrihisar Bölgesi",
         aciklama: "Artı Platform Genel Merkez güvencesiyle Eskişehir havacılık-savunma sanayi tesisleri ve Sivrihisar bölgesi için sepetli platform kiralama. Yüksek güvenlik standardına uygun ekipman.",
         h1: "Eskişehir Havacılık-Savunma Sanayi ve Sivrihisar için Platform Kiralama",
@@ -446,7 +446,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "afyonplatform.com.tr",
-        gaId: "",
+        gaId: "G-LKPDC3JKCD",
         baslik: "Afyon Platform Kiralama | Manlift, Sepetli Vinç Kiralama",
         aciklama: "Afyonkarahisar'da termal otel, mermer ocağı ve sanayi tesislerine manlift, makaslı ve eklemli platform kiralama. İscehisar mermer bölgesi ve Ömer-Gazlıgöl termal tesislerine hızlı sevkiyat.",
         h1: "Afyonkarahisar Platform ve Manlift Kiralama",
@@ -471,7 +471,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "ankaraeklemliplatform.com",
-        gaId: "",
+        gaId: "G-QEC7W0Y2GE",
         baslik: "Ankara Eklemli Platform Kiralama | OSTİM, İvedik, Sincan",
         aciklama: "Ankara OSTİM, İvedik ve Sincan OSB sanayi bölgelerinde eklemli platform ve manlift kiralama. Dar alan ve engebeli zeminde erişim için hızlı sevkiyat, saatlik/günlük fiyat.",
         h1: "Ankara Eklemli Platform (Manlift) Kiralama",
@@ -496,7 +496,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bilecikplatform.com.tr",
-        gaId: "",
+        gaId: "G-8RSKY6VRZK",
         baslik: "Bilecik Platform Kiralama | Osmaneli, Söğüt Manlift",
         aciklama: "Bilecik Osmaneli ve Söğüt OSB'lerinde seramik, orman ürünleri ve mobilya fabrikalarına manlift, makaslı platform kiralama. Sanayi tesisi bakımı için hızlı ve güvenli çözüm.",
         h1: "Bilecik Platform ve Manlift Kiralama",
@@ -521,7 +521,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirmakasliplatform.xyz",
-        gaId: "",
+        gaId: "G-3EW0DL3YJE",
         baslik: "İzmir Makaslı Platform Kiralama | Kemalpaşa, Torbalı, Çiğli",
         aciklama: "İzmir Kemalpaşa, Torbalı ve Çiğli OSB'lerinde depo ve lojistik tesislerine makaslı platform kiralama. Yüksek raf erişimi ve dar koridorda güvenli çalışma için hızlı sevkiyat.",
         h1: "İzmir Makaslı Platform Kiralama",
@@ -546,7 +546,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "denizliplatform.net",
-        gaId: "",
+        gaId: "G-E67ED9JJEX",
         baslik: "Denizli Platform Kiralama | Tekstil, Mermer, Pamukkale",
         aciklama: "Denizli'de havlu-bornoz tekstil fabrikaları, mermer ocakları ve Pamukkale bölgesi otellerine manlift, makaslı platform kiralama. Sanayi ve turizm tesislerine hızlı sevkiyat.",
         h1: "Denizli Platform ve Manlift Kiralama",
@@ -571,7 +571,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "usakplatform.com",
-        gaId: "",
+        gaId: "G-5V5J9GSBZ8",
         baslik: "Uşak Platform Kiralama | Halı, Tekstil, Deri Sanayi",
         aciklama: "Uşak'ta halı, tekstil ve deri sanayi fabrikalarına manlift ve makaslı platform kiralama. Üretim hattı, depo ve çatı bakımı için hızlı sevkiyat, uygun fiyat.",
         h1: "Uşak Platform ve Manlift Kiralama",
@@ -596,7 +596,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "konyaplatform.net",
-        gaId: "",
+        gaId: "G-TMLJ495V00",
         baslik: "Konya Platform Kiralama | Tarım Makineleri, OSB, Lojistik",
         aciklama: "Konya OSB'de tarım makineleri sanayi ve tahıl lojistik tesislerine manlift, eklemli platform kiralama. Büyük fabrika ve silo bakımı için ağır hizmet ekipmanı.",
         h1: "Konya Platform ve Manlift Kiralama",
@@ -621,7 +621,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "ikincielplatform.net",
-        gaId: "",
+        gaId: "G-DY3R21090R",
         baslik: "İkinci El Platform Almadan Önce Oku | Kiralama ile Riske Girme",
         aciklama: "İkinci el platform ve manlift almadan önce bakım geçmişi, gizli arıza ve parça maliyeti riskini değerlendirin. Artı Platform ile günlük/aylık kiralama çok daha güvenli ve ekonomik.",
         h1: "İkinci El Platform Almadan Önce: Kiralama Neden Daha Güvenli?",
@@ -646,7 +646,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "ikincielplatform.xyz",
-        gaId: "",
+        gaId: "G-BN73JDBM9S",
         baslik: "İkinci El Forklift Almadan Önce Maliyeti Hesaplayın | Kiralama",
         aciklama: "İkinci el forklift alımında bakım, parça ve arıza maliyetleri bütçenizi zorlayabilir. Artı Platform ile forklift kiralama çok daha ekonomik ve risksiz.",
         h1: "İkinci El Forklift Almadan Önce: Gerçek Maliyeti Biliyor musunuz?",
@@ -920,7 +920,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "boluplatform.com",
-        gaId: "",
+        gaId: "G-Q3KJ56TJGT",
         baslik: "Bolu Platform Kiralama | Makaslı, Eklemli Platform ve Forklift",
         aciklama: "Bolu, Gerede, Mengen, Mudurnu ve Kıbrıscık'ta makaslı platform, eklemli platform ve forklift kiralama. Stok, sevkiyat ve belge kapsamı yazılı teklifte doğrulanır.",
         h1: "Bolu Platform Kiralama",
@@ -946,7 +946,7 @@ export const siteler: SiteIcerik[] = [
 
     {
         host: "ankara-platform.com",
-        gaId: "",
+        gaId: "G-MKEQ450VJJ",
         baslik: "Ankara Platform Kiralama | OSTİM İvedik Sincan Makine Kiralama",
         aciklama: "OSTİM, İvedik OSB, Sincan ve Etimesgut'ta makaslı, eklemli, teleskopik platform ve dikey personel yükseltici kiralama. Ankara sanayi hattına aynı gün sevkiyat.",
         h1: "Ankara Sanayi Hattında Platform ve Yüksekte Çalışma Ekipmanı Kiralama",
@@ -971,7 +971,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "ankaramanlift.net",
-        gaId: "",
+        gaId: "G-XT6L7QCT0G",
         baslik: "Ankara Manlift Kiralama | Sincan Etimesgut Polatlı Akyurt Hattı",
         aciklama: "Sincan, Etimesgut, Kazan, Temelli, Polatlı ve Akyurt hattında eklemli ve teleskopik manlift kiralama. Lojistik depo, ilaç fabrikası ve açık saha erişimi.",
         h1: "Ankara Batı Hattında Eklemli ve Teleskopik Manlift Kiralama",
@@ -996,7 +996,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "ankaraplatform.net",
-        gaId: "",
+        gaId: "G-8W05G728K5",
         baslik: "Ankara İç Mekan Platform Kiralama | Çankaya Yenimahalle Kırıkkale",
         aciklama: "Yenimahalle, Başkent OSB, Ostim, Çankaya ve Kırıkkale'de iç mekân ağırlıklı makaslı platform ve dikey personel yükseltici kiralama. Ofis, AVM ve fabrika içi bakım.",
         h1: "Ankara'da İç Mekân Makaslı Platform ve Dikey Personel Yükseltici Kiralama",
@@ -1021,7 +1021,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bursamanlift.net",
-        gaId: "",
+        gaId: "G-63ZB2M56VP",
         baslik: "Bursa Manlift Kiralama | Nilüfer DOSAB Hasanağa OSB Cephe Erişimi",
         aciklama: "Bursa Nilüfer, DOSAB ve Hasanağa OSB'de eklemli ve teleskopik manlift kiralama. Cephe, çatı ve tesis içi yüksek erişim için günlük-haftalık teslimat, operatörlü seçenek.",
         h1: "Nilüfer, DOSAB ve Hasanağa OSB'de Manlift Kiralama",
@@ -1046,7 +1046,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bursamanliftkiralama.net",
-        gaId: "",
+        gaId: "G-TVMLZZQ4Y9",
         baslik: "Bursa Uzun Süreli Manlift Kiralama | İnegöl Kestel Gemlik",
         aciklama: "İnegöl, Kestel, Gürsu, Gemlik ve Mudanya'da mobilya ve otomotiv yan sanayine uzun süreli manlift ve platform kiralama. Periyodik bakım ve yedekleme dahil.",
         h1: "İnegöl, Kestel, Gürsu, Gemlik ve Mudanya'da Uzun Süreli Manlift Kiralama",
@@ -1071,7 +1071,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmir-man-lift.com",
-        gaId: "",
+        gaId: "G-0JFE9EDSN1",
         baslik: "Çiğli Menemen Manlift Kiralama | Atatürk OSB Eklemli Platform",
         aciklama: "Çiğli Atatürk OSB, Menemen ve Karşıyaka'da eklemli ve teleskopik manlift kiralama. Deniz kıyısı rüzgar koşullarına uygun ağırlıklı platformlarla fabrika ve liman sahalarına hızlı sevkiyat.",
         h1: "Çiğli, Menemen ve Karşıyaka'da Eklemli ve Teleskopik Manlift Kiralama",
@@ -1096,7 +1096,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmir-manlift.net",
-        gaId: "",
+        gaId: "G-CSZC4DWV69",
         baslik: "Kemalpaşa Torbalı Manlift Kiralama | Fabrika İçi Bakım Platformu",
         aciklama: "Kemalpaşa OSB, Torbalı ve Bornova'da akülü makaslı ve eklemli manlift kiralama. Fabrika içi bakım, depo raf sistemi ve iç mekan tesisat işleri için sessiz, egzozsuz platform.",
         h1: "Kemalpaşa ve Torbalı Fabrikalarında Akülü Makaslı ve Eklemli Platform Kiralama",
@@ -1121,7 +1121,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirmanliftkiralama.net",
-        gaId: "",
+        gaId: "G-WSB7ET4XGN",
         baslik: "Aliağa Nemrut Manlift Kiralama | Rafineri ve Liman Sahası Platformu",
         aciklama: "Aliağa Nemrut, Menderes ve Gaziemir Serbest Bölge'de rafineri ve liman standartlarına uygun, belgeli operatörlü manlift kiralama. Saha giriş evrakları ve iş güvenliği sertifikaları hazır.",
         h1: "Aliağa ve Nemrut Bölgesinde Rafineri Standardında Manlift Kiralama",
@@ -1146,7 +1146,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirmanliftkiralama.org",
-        gaId: "",
+        gaId: "G-JPWKYZ5MLF",
         baslik: "Bornova Gaziemir Manlift Kiralama | Şehir İçi Trafik Uyumlu Teslimat",
         aciklama: "Bornova, Gaziemir, Buca, Pınarbaşı ve Işıkkent'te şehir içi trafik kısıtlarına uygun manlift ve platform teslimatı. Dar sokak ve park düzeni planlamasıyla zamanında saha erişimi.",
         h1: "Bornova, Gaziemir ve Buca'da Şehir İçi Manlift Teslimat Hizmeti",
@@ -1171,7 +1171,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirplatformkiralama.org",
-        gaId: "",
+        gaId: "G-RFZ2P107HF",
         baslik: "Buca Karabağlar Platform Kiralama | KOBİ Atölye ve Depo Hizmeti",
         aciklama: "Buca, Karabağlar, Konak ve Gaziemir küçük sanayi sitelerinde KOBİ atölye ve depolarına akülü makaslı platform ve dikey personel yükseltici kiralama. Uygun fiyatlı kısa süreli çözümler.",
         h1: "Buca ve Karabağlar Küçük Sanayi Sitelerinde KOBİ'lere Platform Kiralama",
@@ -1196,7 +1196,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirplatformskiralama.com",
-        gaId: "",
+        gaId: "G-Y2RGYZW6B2",
         baslik: "Konak Alsancak Platform Kiralama | Tabela Cephe Saatlik Kiralama",
         aciklama: "Konak, Karşıyaka, Alsancak ve Bayraklı şehir merkezinde tabela, cephe, aydınlatma ve klima montajı için saatlik ve kısa süreli platform kiralama. Hızlı kurulum, esnek çalışma saatleri.",
         h1: "Konak ve Alsancak Şehir Merkezinde Saatlik Platform Kiralama",
@@ -1221,7 +1221,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "eskisehirmanlift.net",
-        gaId: "",
+        gaId: "G-R4QYB3FYCG",
         baslik: "Eskişehir OSB Manlift Kiralama | Odunpazarı Muttalip Üretim Hattı",
         aciklama: "Eskişehir OSB, Odunpazarı ve Muttalip'te eklemli ve teleskopik manlift kiralama. Üretim hattı bakımı, çatı ve cephe erişimi için hızlı sevkiyat.",
         h1: "Eskişehir OSB ve Odunpazarı'nda Üretim Hattı Manlift Kiralama",
@@ -1246,7 +1246,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "eskisehirplatformkiralama.net",
-        gaId: "",
+        gaId: "G-98M8LX0S16",
         baslik: "Eskişehir İç Mekan Platform Kiralama | Tepebaşı Şehir Merkezi",
         aciklama: "Tepebaşı, Odunpazarı, şehir merkezi, Çifteler ve Alpu'da iç mekân makaslı platform ve dikey personel yükseltici kiralama. Mağaza, otel ve kamu binası bakımı.",
         h1: "Eskişehir Şehir Merkezinde İç Mekân Platform Kiralama",
@@ -1271,7 +1271,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "eskisehirvincplatform.com",
-        gaId: "",
+        gaId: "G-XR53S2SVD1",
         baslik: "Eskişehir Sepetli Vinç Kiralama | Sivrihisar Kırsal Hat Erişimi",
         aciklama: "Sivrihisar, Alpu, Mahmudiye, Seyitgazi ve çevre yolunda sepetli platform ve vinç kiralama. Enerji nakil hattı, aydınlatma direği ve tarımsal tesis erişimi.",
         h1: "Sivrihisar ve Eskişehir Kırsal Hattında Sepetli Platform Kiralama",
@@ -1296,7 +1296,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manlifteskisehir.com",
-        gaId: "",
+        gaId: "G-BTPRNHZLJ9",
         baslik: "Eskişehir Bozüyük Manlift Kiralama | Planlı Duruş Dönemi Desteği",
         aciklama: "Eskişehir OSB, Bozüyük, Bilecik ve İnönü hattında seramik, cam ve otomotiv yan sanayi için planlı duruş dönemi manlift kiralama. Çok tesisli nakliye planı.",
         h1: "Eskişehir-Bozüyük Hattında Planlı Duruş Dönemi Manlift Kiralama",
@@ -1321,7 +1321,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "afyonmanlift.com",
-        gaId: "",
+        gaId: "G-YG49RGNBLJ",
         baslik: "Afyon Manlift Kiralama | Emirdağ, Sinanpaşa, Çay Sanayi",
         aciklama: "Afyonkarahisar Emirdağ, Sinanpaşa ve Çay'daki tarım makineleri sanayi ve un fabrikalarına manlift kiralama. Silo ve depo yüksekte çalışma için hızlı sevkiyat.",
         h1: "Afyon Emirdağ-Sinanpaşa Hattında Manlift Kiralama",
@@ -1346,7 +1346,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "afyonmanliftkiralama.net",
-        gaId: "",
+        gaId: "G-1VVTJCK30W",
         baslik: "Afyon OSB Manlift Kiralama | Fabrika ve Depo Yüksekte Çalışma",
         aciklama: "Afyonkarahisar Organize Sanayi Bölgesi'ndeki fabrika ve lojistik depolarına manlift kiralama. Hat üstü bakım, raf erişimi ve çatı işleri için hızlı sevkiyat.",
         h1: "Afyon OSB Fabrika ve Depo Manlift Kiralama",
@@ -1371,7 +1371,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "afyonplatform.net",
-        gaId: "",
+        gaId: "G-XENBVMF84B",
         baslik: "Afyon Şehir Merkezi Platform Kiralama | İnşaat ve Bina Cephesi",
         aciklama: "Afyonkarahisar şehir merkezinde inşaat, bina cephesi ve tabela montajı için makaslı ve eklemli platform kiralama. Şehir içi dar sokak ve trafik koşullarına uygun makine.",
         h1: "Afyon Şehir Merkezi İnşaat ve Cephe Platform Kiralama",
@@ -1396,7 +1396,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "afyonplatformkiralama.com",
-        gaId: "",
+        gaId: "G-3X37J4REK4",
         baslik: "Afyon Enerji ve Tarım Sanayi Platform Kiralama",
         aciklama: "Afyonkarahisar'da güneş enerjisi santrali bakımı ve tarım makineleri sanayi tesislerine platform kiralama. Açık saha ve geniş alan işleri için uygun makine sınıfı.",
         h1: "Afyon Enerji Tesisleri ve Tarım Sanayi Platform Kiralama",
@@ -1421,7 +1421,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmir-forklift.com",
-        gaId: "",
+        gaId: "G-D0GBM0LJ83",
         baslik: "İzmir Aliağa-Gaziemir Forklift Kiralama | Liman ve Havalimanı Lojistiği",
         aciklama: "İzmir Aliağa limanı ve Gaziemir havalimanı çevresindeki lojistik tesislere forklift kiralama. Konteyner sahası ve kargo terminali yük taşıma ekipmanı.",
         h1: "İzmir Aliağa-Gaziemir Lojistik Forklift Kiralama",
@@ -1446,7 +1446,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirmakasliplatform.com.tr",
-        gaId: "",
+        gaId: "G-15PRB9Z9RN",
         baslik: "İzmir Konak-Alsancak Makaslı Platform Kiralama | Otel ve AVM Cephesi",
         aciklama: "İzmir Konak ve Alsancak'taki otel, AVM ve iş merkezi bina cephesi bakımına makaslı platform kiralama. Şehir merkezi dar sokak koşullarına uygun makine.",
         h1: "İzmir Konak-Alsancak Otel ve AVM Cephe Platform Kiralama",
@@ -1471,7 +1471,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "izmirmakasliplatform.net.tr",
-        gaId: "",
+        gaId: "G-VJNK1TCHHM",
         baslik: "İzmir Buca-Bornova Makaslı Platform Kiralama | Üniversite ve Sanayi",
         aciklama: "İzmir Buca ve Bornova'daki üniversite kampüsleri ve sanayi tesislerine makaslı platform kiralama. Kampüs bina bakımı ve fabrika iç mekan erişimi.",
         h1: "İzmir Buca-Bornova Kampüs ve Sanayi Makaslı Platform Kiralama",
@@ -1496,7 +1496,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkirala.net",
-        gaId: "",
+        gaId: "G-B3D6QVFPMF",
         baslik: "Ankara Manlift Kiralama | Sincan-Ostim Sanayi Bölgesi",
         aciklama: "Ankara Sincan ve Ostim sanayi bölgelerindeki fabrika ve atölyelere manlift kiralama. Hat üstü bakım ve çatı işleri için hızlı sevkiyat.",
         h1: "Ankara Sincan-Ostim Sanayi Bölgesi Manlift Kiralama",
@@ -1521,7 +1521,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkirala.online",
-        gaId: "",
+        gaId: "G-GKTNH58JFG",
         baslik: "Bursa Manlift Kiralama | Nilüfer-Osmangazi Sanayi",
         aciklama: "Bursa Nilüfer ve Osmangazi'deki tekstil ve otomotiv yan sanayi tesislerine manlift kiralama. Fabrika bakımı ve çatı işleri için hızlı sevkiyat.",
         h1: "Bursa Nilüfer-Osmangazi Sanayi Manlift Kiralama",
@@ -1546,7 +1546,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkirala.store",
-        gaId: "",
+        gaId: "G-2T20HDL88P",
         baslik: "Konya Manlift Kiralama | Selçuklu-Karatay Sanayi Bölgesi",
         aciklama: "Konya Selçuklu ve Karatay sanayi bölgelerindeki fabrika ve depo tesislerine manlift kiralama. Tarım makineleri ve gıda sanayi bakımı için hızlı sevkiyat.",
         h1: "Konya Selçuklu-Karatay Sanayi Bölgesi Manlift Kiralama",
@@ -1571,7 +1571,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkirala.xyz",
-        gaId: "",
+        gaId: "G-G79M3WZ4D1",
         baslik: "Denizli Manlift Kiralama | Tekstil ve Mermer Sanayi",
         aciklama: "Denizli tekstil fabrikaları ve mermer işleme tesislerine manlift kiralama. Üretim hattı bakımı ve atölye çatı işleri için hızlı sevkiyat.",
         h1: "Denizli Tekstil ve Mermer Sanayi Manlift Kiralama",
@@ -1596,7 +1596,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkiralama.online",
-        gaId: "",
+        gaId: "G-G82KJ9DKZT",
         baslik: "Kayseri Manlift Kiralama | Mobilya ve Tekstil Sanayi",
         aciklama: "Kayseri mobilya ve tekstil sanayi tesislerine manlift kiralama. Üretim hattı bakımı ve depo yüksekte çalışma için hızlı sevkiyat.",
         h1: "Kayseri Mobilya ve Tekstil Sanayi Manlift Kiralama",
@@ -1621,7 +1621,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkiralama.org.tr",
-        gaId: "",
+        gaId: "G-MGG9XV682E",
         baslik: "Gaziantep Manlift Kiralama | Organize Sanayi ve Tekstil",
         aciklama: "Gaziantep Organize Sanayi Bölgesi'ndeki tekstil, halı ve gıda fabrikalarına manlift kiralama. Üretim hattı bakımı için hızlı sevkiyat.",
         h1: "Gaziantep OSB Tekstil ve Gıda Sanayi Manlift Kiralama",
@@ -1646,7 +1646,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkiralama.site",
-        gaId: "",
+        gaId: "G-LXDFXWCEC9",
         baslik: "Samsun Manlift Kiralama | Liman ve Gıda Sanayi",
         aciklama: "Samsun limanı ve gıda sanayi tesislerine manlift kiralama. Depo, silo ve liman tesisi bakımı için hızlı sevkiyat.",
         h1: "Samsun Liman ve Gıda Sanayi Manlift Kiralama",
@@ -1671,7 +1671,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "manliftkiralama.xyz",
-        gaId: "",
+        gaId: "G-G3X9SZN2GQ",
         baslik: "Adana Manlift Kiralama | Tekstil ve Tarım Sanayi",
         aciklama: "Adana tekstil fabrikaları ve tarım sanayi tesislerine manlift kiralama. Üretim hattı bakımı ve depo yüksekte çalışma için hızlı sevkiyat.",
         h1: "Adana Tekstil ve Tarım Sanayi Manlift Kiralama",
@@ -1703,7 +1703,7 @@ export const siteler: SiteIcerik[] = [
         // çevresine ve maliyet-hesaplama/vaka-çalışması odaklı kurumsal projelere
         // ağırlık veren gerçek repo içeriğinden taşındı.
         host: "istanbuldaplatform.com",
-        gaId: "",
+        gaId: "G-ZKDS0TXJVE",
         baslik: "Artı Platform İstanbul | Maliyet Hesaplama ile Manlift, Forklift Kiralama",
         aciklama: "İkitelli OSB merkezli, İstanbul'un tamamına manlift, makaslı/eklemli platform, forklift ve telehandler kiralama. Vaka çalışmaları ve maliyet hesaplama desteğiyle kurumsal proje odaklı hizmet.",
         h1: "İstanbul Manlift, Platform ve Forklift Kiralama — Maliyet Hesaplama Destekli",
@@ -1730,7 +1730,7 @@ export const siteler: SiteIcerik[] = [
         // İstanbul grubu Faz 2 — kurumsal/endüstriyel proje odaklı domain, uzun
         // dönem kontrat ve mühendislik desteği vurgusuyla farklılaştırıldı.
         host: "istanbulplatforms.com",
-        gaId: "",
+        gaId: "G-Y8MF75Q5VB",
         baslik: "İstanbul Platforms | Endüstriyel Manlift ve Forklift Tedariki",
         aciklama: "İkitelli OSB'de endüstriyel platform, manlift, forklift ve vinç tedariki. Kurumsal projelerde uzun dönem kontrat ve mühendislik desteğiyle İstanbul ve Marmara geneli hizmet.",
         h1: "İstanbul Endüstriyel Platform, Manlift ve Forklift Tedariki",
@@ -1757,7 +1757,7 @@ export const siteler: SiteIcerik[] = [
         // İstanbul grubu Faz 2 — Tuzla OSB merkezli, tersane bölgesine özel
         // saha bilgisiyle farklılaştırıldı (diğer İstanbul domainlerinden ayrı).
         host: "istanbulplatformkiralama.net",
-        gaId: "",
+        gaId: "G-5SVVJNLXJJ",
         baslik: "İstanbul Platform Kiralama | Tuzla Tersane ve OSB Odaklı",
         aciklama: "Tuzla Organize Sanayi Bölgesi merkezli manlift, forklift ve vinç kiralama. Tersane bölgesi ve OSB sahalarına özel saha bilgisiyle İstanbul geneline hizmet.",
         h1: "Tuzla Merkezli İstanbul Manlift, Forklift ve Vinç Kiralama",
@@ -1786,7 +1786,7 @@ export const siteler: SiteIcerik[] = [
         // testimonials-data.ts) vardı — kasıtlı olarak taşınmadı, yalnızca
         // gerçek blog içeriği (9 yazı) src/lib/blog.ts'e aktarıldı.
         host: "istanbul-platform.com",
-        gaId: "",
+        gaId: "G-CJ93VWVF21",
         baslik: "İstanbul Platform | Manlift, Forklift, Vinç Kiralama Rehberi",
         aciklama: "İstanbul Avrupa ve Anadolu yakasında manlift, forklift ve vinç kiralama. Fiyat rehberleri, iş güvenliği ve bölgesel seçim kriterleriyle detaylı saha desteği.",
         h1: "İstanbul Manlift, Forklift ve Vinç Kiralama Rehberi",
@@ -1811,7 +1811,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "platformistanbul.net",
-        gaId: "",
+        gaId: "G-1X287SLMBF",
         baslik: "Artı Platform İstanbul | Manlift, Forklift, Telehandler Kiralama",
         aciklama: "İstanbul'un tamamına ve Doğu Marmara koridoruna İkitelli, Tuzla ve Gebze hub'larından manlift, makaslı/eklemli platform, forklift ve telehandler kiralama. Bölgeye en yakın hub'dan hızlı sevkiyat.",
         h1: "İstanbul Manlift, Platform, Forklift ve Telehandler Kiralama",
@@ -1842,7 +1842,7 @@ export const siteler: SiteIcerik[] = [
         // buraya taşındı. Diğer domainlerden farkı: kiralamanın yanı sıra kendi
         // markalı THJZ serisi akülü makaslı platformların SATIŞINI da yapıyor.
         host: "plusplatform.com.tr",
-        gaId: "",
+        gaId: "G-XY8R5PRHTN",
         baslik: "PLUS Platform | THJZ Akülü Makaslı Platform Satış ve Kiralama",
         aciklama: "Eskişehir Odunpazarı merkezli PLUS Platform; THJZ-8, THJZ-12 ve THJZ-14 akülü makaslı platform modellerinin Türkiye geneli satışını ve kiralamasını yapar. 7/24 satış, teknik destek ve yedek parça hizmeti.",
         h1: "PLUS Platform — THJZ Akülü Makaslı Platform Satış ve Kiralama",
@@ -1872,7 +1872,7 @@ export const siteler: SiteIcerik[] = [
     // domainlerinden farklılaştırılmış gerçek içerikle.
     {
         host: "afyonplatform.com",
-        gaId: "",
+        gaId: "G-QL6CJS937W",
         baslik: "Afyon Dazkırı-Çobanlar Tekstil ve Halı Sanayi Platform Kiralama",
         aciklama: "Afyonkarahisar Dazkırı ve Çobanlar'daki tekstil, halı ve iplik fabrikalarına platform kiralama. Üretim hattı bakımı ve depo raf erişimi için hızlı sevkiyat.",
         h1: "Afyon Dazkırı-Çobanlar Tekstil Sanayi Platform Kiralama",
@@ -1897,7 +1897,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "amasyaplatform.com",
-        gaId: "",
+        gaId: "G-ELBGSSJ631",
         baslik: "Amasya Gıda ve Meyve İşleme Sanayi Platform Kiralama",
         aciklama: "Amasya OSB'deki elma ve meyve işleme, konserve ve gıda fabrikalarına platform kiralama. Soğuk hava deposu ve üretim hattı bakımı için hızlı sevkiyat.",
         h1: "Amasya Gıda ve Meyve İşleme Sanayi Platform Kiralama",
@@ -1922,7 +1922,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "balikesirplatform.org",
-        gaId: "",
+        gaId: "G-VP97808GKJ",
         baslik: "Balıkesir Susurluk-Gönen Gıda ve Zeytinyağı Sanayi Platform Kiralama",
         aciklama: "Balıkesir Susurluk ve Gönen'deki zeytinyağı, süt ve gıda işleme fabrikalarına platform kiralama. Üretim hattı ve depo bakımı için hızlı sevkiyat.",
         h1: "Balıkesir Susurluk-Gönen Gıda Sanayi Platform Kiralama",
@@ -1947,7 +1947,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bilecikplatform.net",
-        gaId: "",
+        gaId: "G-SYHWCP45C1",
         baslik: "Bilecik Osmaneli-Pazaryeri OSB Platform Kiralama",
         aciklama: "Bilecik Osmaneli ve Pazaryeri Organize Sanayi Bölgelerindeki fabrikalara platform kiralama. Hat üstü bakım ve depo raf erişimi için hızlı sevkiyat.",
         h1: "Bilecik Osmaneli-Pazaryeri OSB Platform Kiralama",
@@ -1972,7 +1972,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukplatform.com",
-        gaId: "",
+        gaId: "G-6KJQJ3SXF1",
         baslik: "Bozüyük Lojistik ve Nakliye Terminali Platform Kiralama",
         aciklama: "Bozüyük'ün TIR ve lojistik terminali çevresindeki depo ve nakliye tesislerine platform kiralama. Antrepo ve yükleme rampası bakımı için hızlı sevkiyat.",
         h1: "Bozüyük Lojistik Terminali Platform Kiralama",
@@ -1997,7 +1997,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bozuyukplatform.net",
-        gaId: "",
+        gaId: "G-VN18B6FY1L",
         baslik: "Bozüyük Mobilya ve Orman Ürünleri Sanayi Platform Kiralama",
         aciklama: "Bozüyük'teki mobilya, orman ürünleri ve ahşap işleme fabrikalarına platform kiralama. Üretim hattı bakımı ve depo raf erişimi için hızlı sevkiyat.",
         h1: "Bozüyük Mobilya ve Orman Ürünleri Sanayi Platform Kiralama",
@@ -2022,7 +2022,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "bursaeklemliplatform.net",
-        gaId: "",
+        gaId: "G-G2GWJ9HCJJ",
         baslik: "Bursa Yüksek Bina ve AVM Cephesi Eklemli Platform Kiralama",
         aciklama: "Bursa şehir merkezindeki yüksek bina, AVM ve iş merkezi cephe işlerine eklemli platform kiralama. Engel aşma gerektiren yüksek erişim işleri için hızlı sevkiyat.",
         h1: "Bursa Yüksek Bina ve AVM Cephesi Eklemli Platform Kiralama",
@@ -2047,7 +2047,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "eskisehirplatform.net",
-        gaId: "",
+        gaId: "G-PTRRNXPE5M",
         baslik: "Eskişehir Havacılık ve Savunma Sanayi Platform Kiralama",
         aciklama: "Eskişehir'deki havacılık, savunma sanayi ve seramik fabrikalarına platform kiralama. Hangar bakımı ve üretim hattı erişimi için hızlı sevkiyat.",
         h1: "Eskişehir Havacılık ve Savunma Sanayi Platform Kiralama",
@@ -2072,7 +2072,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "istanbuleklemliplatform.com",
-        gaId: "",
+        gaId: "G-HEQJNZ0CX5",
         baslik: "İstanbul Gökdelen ve Liman Tesisi Eklemli Platform Kiralama",
         aciklama: "İstanbul'daki gökdelen, iş merkezi ve liman tesislerine eklemli platform kiralama. Yüksek erişim ve engel aşma gerektiren cephe işleri için hızlı sevkiyat.",
         h1: "İstanbul Gökdelen ve Liman Tesisi Eklemli Platform Kiralama",
@@ -2097,7 +2097,7 @@ export const siteler: SiteIcerik[] = [
     },
     {
         host: "kutahyaplatform.net",
-        gaId: "",
+        gaId: "G-8BB2B622NL",
         baslik: "Kütahya Çini ve Seramik Sanayi Platform Kiralama",
         aciklama: "Kütahya'nın meşhur çini ve seramik fabrikalarına, termik santral tesislerine platform kiralama. Fırın hattı ve santral bakımı için hızlı sevkiyat.",
         h1: "Kütahya Çini ve Seramik Sanayi Platform Kiralama",
