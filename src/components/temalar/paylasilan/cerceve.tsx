@@ -27,6 +27,10 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
         return (
             <div className="paylasilan-tema flex min-h-screen flex-col bg-bg font-sans text-fg" data-tema-host={site.host}>
                 <PaylasilanTemaStil renkler={config.renkler} host={site.host} />
+                {/* Google Fonts stylesheet isteği render-blocking — preconnect ile DNS/TLS
+                    turlarını daha erken başlatıp bekleme süresini kısaltıyoruz (PageSpeed). */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 {/* eslint-disable-next-line @next/next/no-page-custom-font */}
                 <link rel="stylesheet" href={fontHref} />
                 <header className="sticky top-0 z-50 border-b border-border bg-bg/90 backdrop-blur-md">

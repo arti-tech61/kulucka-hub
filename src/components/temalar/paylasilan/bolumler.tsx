@@ -135,7 +135,7 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
                                 src={urun.gorsel}
                                 alt={`${urun.ad} kiralama - ${bolgeIlk}`}
                                 fill
-                                sizes="(min-width: 768px) 50vw, 100vw"
+                                sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                                 className="object-contain p-6 transition-transform duration-500 group-hover:scale-105"
                             />
                         </div>

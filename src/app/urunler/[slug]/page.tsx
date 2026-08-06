@@ -209,7 +209,7 @@ export default async function UrunDetaySayfasi({ params }: { params: Promise<{ s
                             {digerler.map((d) => (
                                 <Link key={d.slug} href={`/urunler/${d.slug}`} className="group overflow-hidden rounded-2xl border border-border bg-elevated">
                                     <div className="relative h-40 w-full bg-bg">
-                                        <Image src={d.gorsel} alt={d.ad} fill sizes="33vw" className="object-contain p-4 transition-transform duration-500 group-hover:scale-105" />
+                                        <Image src={d.gorsel} alt={d.ad} fill sizes="(min-width: 640px) 33vw, 100vw" className="object-contain p-4 transition-transform duration-500 group-hover:scale-105" />
                                     </div>
                                     <div className="p-4">
                                         <h3 className="font-display font-bold text-fg">{d.ad}</h3>
