@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import type { TemaModulu } from "./tipler";
 import { IzmirHizliTeklif, IzmirIletisimForm } from "./izmir-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
@@ -14,7 +16,6 @@ import { IkonWhatsapp } from "./paylasilan/ikonlar";
 
 const mo = "font-['Montserrat']";
 const lbl = "font-['Inter'] text-[14px] tracking-[0.03em] font-semibold";
-const ILCE = ["Aliağa", "Bornova", "Torbalı", "Kemalpaşa", "Çiğli AOSB", "Menemen", "Gaziemir", "Işıkkent"];
 
 function Ikon({ d, className, box = 24 }: { d: string; className?: string; box?: number }) {
     return (<svg className={className} width={box} height={box} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={d} /></svg>);
@@ -62,10 +63,12 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             </header>
             <main className="flex-grow">{children}</main>
             <footer className="bg-[#121c2a] pt-16 pb-8 text-white mt-auto">
-                <div className="max-w-[1280px] mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-6">
-                    <div><div className={`${mo} text-[22px] text-[#f68b1e] font-extrabold mb-4`}>{site.h1}</div><p className="text-white/50 text-sm">{site.uzmanlik} odağında güvenilir forklift ve platform kiralama.</p></div>
+                <div className="max-w-[1280px] mx-auto px-4 md:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6">
+                    <div className="sm:col-span-2 lg:col-span-1"><div className={`${mo} text-[22px] text-[#f68b1e] font-extrabold mb-4`}>{site.h1}</div><p className="text-white/50 text-sm">{site.uzmanlik} odağında güvenilir forklift ve platform kiralama.</p></div>
                     <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>Hizmetler</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/dizel-forklift-kiralama">Kiralık Forklift</a></li><li><a className="text-white/60 hover:text-white" href="/urunler">Platform Hizmetleri</a></li></ul></div>
                     <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>Kurumsal</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/hakkimizda">Hakkımızda</a></li><li><a className="text-white/60 hover:text-white" href="/blog">Blog</a></li><li><a className="text-white/60 hover:text-white" href="/gizlilik-politikasi">KVKK ve Gizlilik</a></li></ul></div>
+                    <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>Hizmet Bölgeleri</h4><ul className="space-y-3 text-[15px]">{bolgeSayfalari(site).slice(0, 6).map((b) => (<li key={b.slug}><a className="text-white/60 hover:text-white" href={`/bolge/${b.slug}`}>{b.bolgeAdi}</a></li>))}</ul></div>
+                    <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>Kaynaklar</h4><ul className="space-y-3 text-[15px]">{hostAltSayfalari(site.host).slice(0, 5).map((s) => (<li key={s.slug}><a className="text-white/60 hover:text-white" href={`/${s.slug}`}>{s.baslik}</a></li>))}<li><a className="text-white/60 hover:text-white" href="/blog">Blog</a></li></ul></div>
                     <div><h4 className={`${mo} text-[16px] text-[#f68b1e] font-bold mb-4`}>İletişim</h4><div className="flex items-center gap-2"><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="flex items-center gap-2 mt-3"><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}<a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px] mt-3 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a></div>
                 </div>
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 border-t border-white/10 mt-10 pt-8 text-center"><p className="text-white/40 text-sm">© {new Date().getFullYear()} {site.h1}. Tüm Hakları Saklıdır · {site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p></div>
@@ -99,6 +102,7 @@ function FiloGrid() {
 
 function AnaSayfa({ site }: { site: SiteIcerik }) {
     const yazilar = hostBloglari(site.host).slice(0, 3);
+    const bolgeler = bolgeSayfalari(site);
     return (
         <>
             {/* Hero + hızlı teklif */}
@@ -144,7 +148,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8">
                     <h2 className={`${mo} text-[28px] font-bold text-[#121c2a] mb-2`}>Hizmet Bölgelerimiz</h2>
                     <p className="text-[#554335] mb-8">İzmir&apos;in her noktasına hızlı ve güvenilir iş makinesi kiralama hizmeti.</p>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">{ILCE.map((b) => (<div key={b} className="bg-white p-4 rounded-lg border border-[#121c2a]/10 flex items-center gap-2 font-semibold text-[#121c2a]"><Ikon d={IK.pin} className="w-5 h-5 text-[#914d00]" box={20} />{b}</div>))}</div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">{bolgeler.map((b) => (<a key={b.slug} href={`/bolge/${b.slug}`} className="bg-white p-4 rounded-lg border border-[#121c2a]/10 flex items-center gap-2 font-semibold text-[#121c2a] hover:border-[#f68b1e] hover:text-[#914d00] hover:shadow-md transition-all"><Ikon d={IK.pin} className="w-5 h-5 text-[#914d00] shrink-0" box={20} />{b.bolgeAdi}</a>))}</div>
                 </div>
             </section>
         </>
@@ -200,14 +204,33 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
             </section>
             <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
                 <p className={`${lbl} text-[#914d00] uppercase mb-8`}>Neden Biz?</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="bg-white rounded-xl border border-[#121c2a]/10 p-8 shadow-sm"><div className="w-12 h-12 rounded-xl bg-[#f68b1e]/15 text-[#914d00] flex items-center justify-center mb-5"><Ikon d={IK.rocket} className="w-6 h-6" /></div><h3 className={`${mo} text-[22px] font-bold text-[#121c2a] mb-3`}>Misyonumuz</h3><p className="text-[#554335]">İnşaat, lojistik ve endüstriyel tesis projelerinde, müşterilerimizin yükseklikteki çalışmalarını en güvenli, hızlı ve maliyet etkin şekilde gerçekleştirmelerini sağlamak. Son teknoloji makine filomuz ve uzman kadromuzla, sıfır iş kazası hedefiyle 7/24 kesintisiz destek sunmak.</p></div>
-                    <div className="bg-white rounded-xl border border-[#121c2a]/10 p-8 shadow-sm"><div className="w-12 h-12 rounded-xl bg-[#f68b1e]/15 text-[#914d00] flex items-center justify-center mb-5"><Ikon d={IK.eye} className="w-6 h-6" /></div><h3 className={`${mo} text-[22px] font-bold text-[#121c2a] mb-3`}>Vizyonumuz</h3><p className="text-[#554335]">Ege Bölgesi&apos;nde başlayan liderliğimizi, tüm Türkiye&apos;de referans alınan, sektörün standartlarını belirleyen bir platform kiralama markası haline getirmek.</p></div>
+                <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.1fr] gap-10 items-center mb-16">
+                    <div className="relative h-[280px] md:h-[380px] rounded-xl overflow-hidden border border-[#121c2a]/10 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">
+                        <Image src="/media/blog/forklift-ve-makasli-platform-kiralama-fabrika-deposu.jpg" alt={`${site.h1} - saha ekibi ve filo`} fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#121c2a]/70 via-transparent to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-5"><span className={`${lbl} inline-flex items-center gap-2 bg-[#f68b1e] text-white px-3 py-1.5 rounded uppercase text-[12px]`}><Ikon d={IK.shield} className="w-4 h-4" box={16} /> Sahada Güvenlik Önceliğimiz</span></div>
+                    </div>
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="bg-white rounded-xl border border-[#121c2a]/10 p-8 shadow-sm"><div className="w-12 h-12 rounded-xl bg-[#f68b1e]/15 text-[#914d00] flex items-center justify-center mb-5"><Ikon d={IK.rocket} className="w-6 h-6" /></div><h3 className={`${mo} text-[22px] font-bold text-[#121c2a] mb-3`}>Misyonumuz</h3><p className="text-[#554335]">İnşaat, lojistik ve endüstriyel tesis projelerinde, müşterilerimizin yükseklikteki çalışmalarını en güvenli, hızlı ve maliyet etkin şekilde gerçekleştirmelerini sağlamak. Son teknoloji makine filomuz ve uzman kadromuzla, sıfır iş kazası hedefiyle 7/24 kesintisiz destek sunmak.</p></div>
+                        <div className="bg-white rounded-xl border border-[#121c2a]/10 p-8 shadow-sm"><div className="w-12 h-12 rounded-xl bg-[#f68b1e]/15 text-[#914d00] flex items-center justify-center mb-5"><Ikon d={IK.eye} className="w-6 h-6" /></div><h3 className={`${mo} text-[22px] font-bold text-[#121c2a] mb-3`}>Vizyonumuz</h3><p className="text-[#554335]">Ege Bölgesi&apos;nde başlayan liderliğimizi, tüm Türkiye&apos;de referans alınan, sektörün standartlarını belirleyen bir platform kiralama markası haline getirmek.</p></div>
+                    </div>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                     {[[IK.shield, "%100", "Güvenlik Standardı"], [IK.wrench, "Periyodik", "Bakımlı Filo"], [IK.bolt, "7/24", "Kesintisiz Destek"]].map(([d, b, m]) => (
                         <div key={m as string} className="bg-[#121c2a] text-white rounded-xl p-6 text-center"><Ikon d={d as string} className="w-8 h-8 text-[#f68b1e] mx-auto mb-3" box={32} /><div className={`${mo} text-[26px] font-extrabold text-[#f68b1e]`}>{b}</div><p className="text-white/70 text-[14px] mt-1">{m}</p></div>
                     ))}
+                </div>
+            </section>
+            <section className="bg-[#f68b1e] py-14">
+                <div className="max-w-[1280px] mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="text-center md:text-left">
+                        <h2 className={`${mo} text-[24px] md:text-[30px] font-extrabold text-white uppercase`}>Projeniz İçin Hemen Teklif Alın</h2>
+                        <p className="text-white/90 mt-2 text-[16px]">{site.bolge} genelinde 7/24 hızlı teklif ve teslimat.</p>
+                    </div>
+                    <div className="flex flex-wrap gap-4 justify-center">
+                        <a href={wa(site.telefon)} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3.5 rounded-lg font-semibold hover:bg-[#1DA851] transition-colors"><Ikon d={IK.chat} className="w-5 h-5" /> WhatsApp&apos;tan Yaz</a>
+                        <a href={`tel:${site.telefon}`} className="inline-flex items-center gap-2 bg-[#121c2a] text-white px-6 py-3.5 rounded-lg font-semibold hover:bg-[#0c141f] transition-colors"><Ikon d={IK.phone} className="w-5 h-5" /> {site.telefonGosterim}</a>
+                    </div>
                 </div>
             </section>
         </>

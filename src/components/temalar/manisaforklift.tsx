@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import type { TemaModulu } from "./tipler";
 import { ForkliftTalepForm } from "./manisaforklift-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
@@ -47,10 +49,12 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             </header>
             <main className="flex-grow">{children}</main>
             <footer className="bg-[#020617] pt-16 pb-8 text-[#FBBF24] mt-auto border-t border-[#d3c5ac]/30">
-                <div className="max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-6">
-                    <div className="flex flex-col gap-4"><div className={`${mo} text-[24px] text-[#FBBF24] font-extrabold`}>{site.h1.toUpperCase()}</div><p className="text-white/50 text-sm">Ağır Lojistikte Hassasiyet.</p></div>
+                <div className="max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
+                    <div className="flex flex-col gap-4 sm:col-span-2 lg:col-span-1"><div className={`${mo} text-[24px] text-[#FBBF24] font-extrabold`}>{site.h1.toUpperCase()}</div><p className="text-white/50 text-sm">Ağır Lojistikte Hassasiyet.</p></div>
                     <div><h4 className={`${mo} text-[16px] text-[#FBBF24] font-bold mb-4`}>Filo Çözümleri</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white transition-colors" href="/elektrikli-forklift-kiralama">Elektrikli Filo</a></li><li><a className="text-white/60 hover:text-white transition-colors" href="/dizel-forklift-kiralama">Dizel Güç</a></li></ul></div>
                     <div><h4 className={`${mo} text-[16px] text-[#FBBF24] font-bold mb-4`}>Şirket</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white transition-colors" href="/hakkimizda">Hakkımızda</a></li><li><a className="text-white/60 hover:text-white transition-colors" href="/blog">Blog</a></li><li><a className="text-white/60 hover:text-white transition-colors" href="/gizlilik-politikasi">Gizlilik Politikası</a></li></ul></div>
+                    <div><h4 className={`${mo} text-[16px] text-[#FBBF24] font-bold mb-4`}>Hizmet Bölgeleri</h4><ul className="space-y-3 text-[15px]">{bolgeSayfalari(site).slice(0, 5).map((b) => (<li key={b.slug}><a className="text-white/60 hover:text-white transition-colors" href={`/bolge/${b.slug}`}>{b.bolgeAdi}</a></li>))}</ul></div>
+                    <div><h4 className={`${mo} text-[16px] text-[#FBBF24] font-bold mb-4`}>Kaynaklar</h4><ul className="space-y-3 text-[15px]">{hostAltSayfalari(site.host).slice(0, 4).map((s) => (<li key={s.slug}><a className="text-white/60 hover:text-white transition-colors" href={`/${s.slug}`}>{s.baslik}</a></li>))}<li><a className="text-white/60 hover:text-white transition-colors" href="/blog">Blog</a></li></ul></div>
                     <div><h4 className={`${mo} text-[16px] text-[#FBBF24] font-bold mb-4`}>İletişim</h4><div className="flex items-center gap-2"><a className="text-white/60 hover:text-white transition-colors flex items-center gap-2 text-[15px]" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="flex items-center gap-2 mt-3"><a className="text-white/60 hover:text-white transition-colors flex items-center gap-2 text-[15px]" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}<a className="text-white/60 hover:text-white transition-colors flex items-center gap-2 text-[15px] mt-3 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a></div>
                 </div>
                 <div className="max-w-[1280px] mx-auto px-4 md:px-12 border-t border-white/10 mt-10 pt-8 text-center"><p className="text-white/40 text-sm">© {new Date().getFullYear()} {site.h1}. Ağır Lojistikte Hassasiyet · {site.anaSite.ad} ağının bir parçasıdır.</p></div>
@@ -195,6 +199,31 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                 <div className="text-center mb-12"><h2 className={`${mo} text-[32px] font-bold text-[#191c1e] mb-2`}>Temel Değerler</h2></div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {deger.map((d) => (<div key={d.baslik} className="bg-white rounded-xl border border-[#d3c5ac]/40 p-8 shadow-sm"><div className="w-12 h-12 rounded-xl bg-[#020617] text-[#FBBF24] flex items-center justify-center mb-5"><Ikon d={d.d} className="w-6 h-6" /></div><h3 className={`${mo} text-[18px] font-bold text-[#191c1e] mb-2`}>{d.baslik}</h3><p className="text-[#4f4633] text-[15px]">{d.metin}</p></div>))}
+                </div>
+            </section>
+            <section className="bg-white border-y border-[#d3c5ac]/30 py-20">
+                <div className="max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div className="relative h-72 md:h-[420px] rounded-xl overflow-hidden shadow-sm order-2 lg:order-1">
+                        <Image src="/media/isler/is-4.jpg" alt={`${site.h1} saha ekibi çalışma anı`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
+                    </div>
+                    <div className="order-1 lg:order-2">
+                        <h2 className={`${mo} text-[32px] font-bold text-[#191c1e] mb-4`}>Sahada Deneyim</h2>
+                        <p className="text-[#4f4633] text-[16px] leading-7 mb-6">{site.bolge} bölgesinde onlarca sahada görev yapan ekibimiz, her projeye hazır makine parkı ve hızlı sevkiyatla eşlik eder. Bakımı düzenli, operatörü eğitimli filomuzla iş durmalarını sıfıra indiriyoruz.</p>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="bg-[#f7f9fb] rounded-xl border border-[#d3c5ac]/40 p-5"><div className={`${mo} text-[26px] font-extrabold text-[#795900]`}>7/24</div><p className="text-[#4f4633] text-[13px] mt-1">Acil Destek Hattı</p></div>
+                            <div className="bg-[#020617] rounded-xl p-5"><div className={`${mo} text-[26px] font-extrabold text-[#FBBF24]`}>+150</div><p className="text-white/60 text-[13px] mt-1">Aktif Ünite</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-20">
+                <div className={`${mo} rounded-2xl bg-[#020617] px-6 py-14 md:px-16 text-center shadow-[0_20px_40px_rgba(2,6,23,0.15)]`}>
+                    <h2 className="text-[28px] md:text-[36px] font-extrabold text-white mb-4">Filo İhtiyacınızı Konuşalım</h2>
+                    <p className="font-['Inter'] font-normal text-white/70 text-[16px] max-w-2xl mx-auto mb-8">{site.bolge} bölgesinde aynı gün teklif, hızlı sevkiyat ve şeffaf fiyatlandırma. Hemen arayın ya da talep formunu doldurun.</p>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        <a className="bg-[#FBBF24] text-black font-semibold text-[14px] px-8 py-4 rounded-lg shadow-sm hover:brightness-95 transition-all flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-5 h-5" box={20} /> {site.telefonGosterim}</a>
+                        <a className="bg-white/10 text-white font-semibold text-[14px] px-8 py-4 rounded-lg border border-white/20 hover:bg-white/20 transition-all" href="/iletisim">Teklif Formunu Doldur</a>
+                    </div>
                 </div>
             </section>
         </>

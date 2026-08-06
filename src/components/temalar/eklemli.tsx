@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import type { TemaModulu } from "./tipler";
 import { EklemliHizliTeklif, EklemliIletisimForm } from "./eklemli-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
@@ -46,10 +48,12 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             </header>
             <main className="flex-grow">{children}</main>
             <footer className="bg-[#0d1330] pt-16 pb-8 text-white mt-auto">
-                <div className="max-w-[1280px] mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div className="max-w-[1280px] mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6">
                     <div><div className="text-[22px] font-extrabold text-white mb-4">{site.h1.toUpperCase()}</div><p className="text-white/50 text-sm">{site.uzmanlik} için engel aşan eklemli ve teleskopik platform çözümleri.</p></div>
                     <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">Makineler</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/dizel-eklemli-platform-kiralama">Dizel Eklemli</a></li><li><a className="text-white/60 hover:text-white" href="/elektrikli-eklemli-platform-kiralama">Elektrikli Eklemli</a></li><li><a className="text-white/60 hover:text-white" href="/urunler">Tüm Makineler</a></li></ul></div>
                     <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">Kurumsal</h4><ul className="space-y-3 text-[15px]"><li><a className="text-white/60 hover:text-white" href="/hakkimizda">Hakkımızda</a></li><li><a className="text-white/60 hover:text-white" href="/blog">Blog</a></li><li><a className="text-white/60 hover:text-white" href="/gizlilik-politikasi">Gizlilik</a></li></ul></div>
+                    <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">Hizmet Bölgeleri</h4><ul className="space-y-3 text-[15px]">{bolgeSayfalari(site).slice(0, 6).map((b) => (<li key={b.slug}><a className="text-white/60 hover:text-white" href={`/bolge/${b.slug}`}>{b.bolgeAdi}</a></li>))}</ul></div>
+                    <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">Kaynaklar</h4><ul className="space-y-3 text-[15px]">{hostAltSayfalari(site.host).slice(0, 5).map((s) => (<li key={s.slug}><a className="text-white/60 hover:text-white" href={`/${s.slug}`}>{s.baslik}</a></li>))}<li><a className="text-white/60 hover:text-white" href="/blog">Blog</a></li></ul></div>
                     <div><h4 className="text-[16px] font-bold text-[#8ea2ff] mb-4">İletişim</h4><div className="flex items-center gap-2"><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="flex items-center gap-2 mt-3"><a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px]" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}<a className="text-white/60 hover:text-white flex items-center gap-2 text-[15px] mt-3 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a></div>
                 </div>
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 border-t border-white/10 mt-10 pt-8 text-center"><p className="text-white/40 text-sm">© {new Date().getFullYear()} {site.h1}. {site.anaSite.ad} ağının bir parçasıdır.</p></div>
@@ -182,15 +186,48 @@ function Urunler({ site }: { site: SiteIcerik }) {
     );
 }
 
+const STANDARTLAR = [
+    { d: IK.verified, baslik: "Sertifikalı Parkur", metin: "Sertifikalı, periyodik bakımlı eklemli/teleskopik parkuru.", bg: "bg-[#3151eb]/10", fg: "text-[#3151eb]" },
+    { d: IK.shield, baslik: "Mevzuata Uyum", metin: "İş güvenliği mevzuatına uygun operasyon ve CE belgeli makine.", bg: "bg-[#9d4300]/10", fg: "text-[#9d4300]" },
+    { d: IK.user, baslik: "Belgeli Operatör", metin: "Belgeli operatör ve saha risk yönlendirmesi.", bg: "bg-[#3151eb]/10", fg: "text-[#3151eb]" },
+    { d: IK.truck, baslik: "Planlı Nakliye", metin: "Türkiye geneli planlı nakliye ve teslimat.", bg: "bg-[#9d4300]/10", fg: "text-[#9d4300]" },
+    { d: IK.handshake, baslik: "Şeffaf Teklif", metin: "Şeffaf yazılı teklif ve sözleşme.", bg: "bg-[#3151eb]/10", fg: "text-[#3151eb]" },
+    { d: IK.support, baslik: "Kesintisiz Destek", metin: "Kesintisiz 7/24 teknik destek.", bg: "bg-[#9d4300]/10", fg: "text-[#9d4300]" },
+];
+
 function Hakkimizda({ site }: { site: SiteIcerik }) {
-    const st = ["Sertifikalı, periyodik bakımlı eklemli/teleskopik parkuru", "İş güvenliği mevzuatına uygun operasyon ve CE belgeli makine", "Belgeli operatör ve saha risk yönlendirmesi", "Türkiye geneli planlı nakliye ve teslimat", "Şeffaf yazılı teklif ve sözleşme", "Kesintisiz 7/24 teknik destek"];
+    const bolgeler = bolgeSayfalari(site);
     return (
         <>
             <Baslik ust="Hakkımızda" baslik="Engelli Erişimde Zirve" alt={`${site.anaSite.ad} hizmet ağı içinde, ${site.uzmanlik} odağında güvenilir yüksekte çalışma.`} />
-            <section className="px-4 md:px-8 py-16 bg-[#f8f9fb]"><div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-12 items-start">
+            <section className="px-4 md:px-8 py-16 bg-[#f8f9fb]"><div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-[1.1fr_1.3fr] gap-12 items-start">
                 <div className="space-y-5 text-[17px] leading-relaxed text-[#444655]">{site.paragraflar.map((p, i) => <p key={i}>{p}</p>)}</div>
-                <div className="bg-white rounded-2xl border border-[#edeef0] p-8 shadow-sm"><h2 className="text-xl font-bold text-[#191c1e] mb-6">Hizmet Standartlarımız</h2><ul className="space-y-4">{st.map((s) => (<li key={s} className="flex items-start gap-3 text-[#444655]"><Ikon d={IK.shield} className="w-5 h-5 text-[#3151eb] shrink-0 mt-0.5" box={20} />{s}</li>))}</ul></div>
+                <div>
+                    <h2 className="text-xl font-bold text-[#191c1e] mb-6">Hizmet Standartlarımız</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        {STANDARTLAR.map((s) => (
+                            <div key={s.baslik} className="bg-white rounded-2xl border border-[#edeef0] p-5 shadow-sm hover:shadow-md transition-all">
+                                <div className={`w-11 h-11 rounded-xl ${s.bg} ${s.fg} flex items-center justify-center mb-3`}><Ikon d={s.d} className="w-5 h-5" box={20} /></div>
+                                <h3 className="font-bold text-[#191c1e] mb-1">{s.baslik}</h3>
+                                <p className="text-[14px] text-[#444655]">{s.metin}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div></section>
+            {bolgeler.length > 0 && (
+                <section className="px-4 md:px-8 py-16 bg-[#0d1330] text-white"><div className="max-w-[1280px] mx-auto">
+                    <h2 className="text-[26px] font-extrabold mb-2 tracking-tight">Hizmet Bölgelerimiz</h2>
+                    <p className="text-white/60 mb-6 max-w-2xl">{site.uzmanlik} kapsamında düzenli hizmet verdiğimiz bölgeler.</p>
+                    <div className="flex flex-wrap gap-3">
+                        {bolgeler.map((b) => (
+                            <a key={b.slug} href={`/bolge/${b.slug}`} className={`${lbl} inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/15 px-4 py-2 text-white/90 hover:bg-[#3151eb] hover:border-[#3151eb] transition-colors`}>
+                                {b.bolgeAdi} <Ikon d={IK.chevron} className="w-3.5 h-3.5" box={14} />
+                            </a>
+                        ))}
+                    </div>
+                </div></section>
+            )}
         </>
     );
 }

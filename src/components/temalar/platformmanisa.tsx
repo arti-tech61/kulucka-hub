@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostBloglari } from "@/lib/blog";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import type { TemaModulu } from "./tipler";
 import { ManisaTeklifForm } from "./platformmanisa-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
@@ -71,15 +73,15 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             <main className="pt-24">{children}</main>
 
             <footer className="w-full mt-[120px] bg-[#0b0f10] border-t border-white/10">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-6 py-12 max-w-[1280px] mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-5 gap-12 px-6 py-12 max-w-[1280px] mx-auto">
                     <div className="md:col-span-1 flex flex-col gap-4">
                         <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={53} className="h-12 w-auto object-contain opacity-70" />
                         <p className="text-sm text-[#c4c5d9] mt-2">Güvenilir, teknolojik ve profesyonel platform kiralama çözümleri.</p>
                     </div>
                     <div className="flex flex-col gap-3">
                         <h4 className={`text-white ${caps} mb-2`}>Hizmet Bölgeleri</h4>
-                        {bolgeler(site).map((b) => (
-                            <a key={b} className="text-[#c4c5d9] text-[15px] hover:text-[#F97316] transition-all" href="/urunler">{b}</a>
+                        {bolgeSayfalari(site).map((b) => (
+                            <a key={b.slug} className="text-[#c4c5d9] text-[15px] hover:text-[#F97316] transition-all" href={`/bolge/${b.slug}`}>{b.bolgeAdi}</a>
                         ))}
                     </div>
                     <div className="flex flex-col gap-3">
@@ -90,11 +92,18 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                         <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all" href={site.anaSite.url}>{site.anaSite.ad}</a>
                     </div>
                     <div className="flex flex-col gap-3">
+                        <h4 className={`text-white ${caps} mb-2`}>Kaynaklar</h4>
+                        {hostAltSayfalari(site.host).slice(0, 5).map((s) => (
+                            <a key={s.slug} className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all" href={`/${s.slug}`}>{s.baslik}</a>
+                        ))}
+                        <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all" href="/blog">Blog Yazıları</a>
+                    </div>
+                    <div className="flex flex-col gap-3">
                         <h4 className={`text-white ${caps} mb-2`}>İletişim</h4>
                         <div className="flex items-center gap-2"><a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a><a href={`https://wa.me/${site.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>{ikinciTelefon(site) && (<div className="flex items-center gap-2 mt-2"><a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2" href={`tel:${ikinciTelefon(site)!.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {ikinciTelefon(site)!.telefonGosterim}</a><a href={`https://wa.me/${ikinciTelefon(site)!.telefon.replace("+", "")}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile yazın" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white ml-2 align-middle"><IkonWhatsapp className="h-4 w-4" /></a></div>)}
                         <a className="text-[#c4c5d9] text-[15px] hover:text-[#b8c4ff] transition-all flex items-center gap-2 break-all" href={`mailto:${site.eposta}`}><Ikon d={IK.mail} className="w-4 h-4" box={18} /> {site.eposta}</a>
                     </div>
-                    <div className="md:col-span-4 mt-4 pt-8 border-t border-white/10 text-center">
+                    <div className="md:col-span-5 mt-4 pt-8 border-t border-white/10 text-center">
                         <p className="text-[#c4c5d9] text-sm">© {new Date().getFullYear()} {site.h1}. Tüm hakları saklıdır. · {site.anaSite.ad} ağının bir parçasıdır. · <a href="https://www.saygitech.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Web Tasarım &amp; Yazılım: SAYGITECH</a></p>
                     </div>
                 </div>
@@ -205,11 +214,11 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                             <h2 className={`${pj} text-[32px] font-bold text-white mb-6`}>Hizmet Bölgelerimiz</h2>
                             <p className="text-[#c4c5d9] mb-8">{site.bolge} sanayi bölgelerine hızlı ve güvenilir teslimat sağlıyoruz. Stratejik konumumuz sayesinde acil ihtiyaçlarınıza anında yanıt veriyoruz.</p>
                             <div className="grid grid-cols-2 gap-4">
-                                {bolgeler(site).map((b) => (
-                                    <div key={b} className="bg-[#1E293B] p-4 rounded-lg border border-white/10 flex items-center gap-3">
+                                {bolgeSayfalari(site).map((b) => (
+                                    <a key={b.slug} href={`/bolge/${b.slug}`} className="bg-[#1E293B] p-4 rounded-lg border border-white/10 flex items-center gap-3 hover:border-[#b8c4ff]/50 transition-colors group">
                                         <Ikon d={IK.pin} className="w-5 h-5 text-[#b8c4ff]" box={20} />
-                                        <span className="font-bold text-white">{b}</span>
-                                    </div>
+                                        <span className="font-bold text-white group-hover:text-[#b8c4ff] transition-colors">{b.bolgeAdi}</span>
+                                    </a>
                                 ))}
                             </div>
                         </div>
@@ -396,8 +405,34 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
+            {/* Hizmetlerimiz */}
+            <section className="max-w-[1280px] mx-auto px-6 py-[100px]">
+                <div className="text-center mb-12">
+                    <span className={`${caps} text-[#b8c4ff] tracking-widest`}>Kapsamımız</span>
+                    <h2 className={`${pj} text-[32px] font-bold text-white mt-2 mb-2`}>Neler Sunuyoruz?</h2>
+                    <p className="text-[#c4c5d9] max-w-2xl mx-auto">{site.uzmanlik} için değerlendirdiğimiz makine sınıfları ve hizmet başlıkları.</p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    {site.hizmetler.slice(0, 4).map((h, i) => {
+                        const renkler = [
+                            "bg-[#b8c4ff]/10 border-[#b8c4ff]/30 text-[#b8c4ff]",
+                            "bg-[#F97316]/10 border-[#F97316]/30 text-[#F97316]",
+                            "bg-[#3B82F6]/10 border-[#3B82F6]/30 text-[#3B82F6]",
+                            "bg-[#b8c4ff]/10 border-[#b8c4ff]/30 text-[#b8c4ff]",
+                        ];
+                        const ikonlar = [IK.shield, IK.clipboard, IK2.compass, IK.doc];
+                        return (
+                            <div key={h} className={`rounded-xl border p-6 ${renkler[i % renkler.length]} hover:brightness-125 transition-all`}>
+                                <Ikon d={ikonlar[i % ikonlar.length]} className="w-8 h-8 mb-4" box={32} />
+                                <p className="text-white text-[15px] font-medium leading-snug">{h}</p>
+                            </div>
+                        );
+                    })}
+                </div>
+            </section>
+
             {/* Değer bento */}
-            <section className="max-w-[1280px] mx-auto px-6 py-[120px]">
+            <section className="max-w-[1280px] mx-auto px-6 pb-[120px]">
                 <div className="text-center mb-12">
                     <h2 className={`${pj} text-[32px] font-bold text-white mb-2`}>Platform Kiralama Standartlarımız</h2>
                     <p className="text-[#c4c5d9] max-w-2xl mx-auto">Teoride değil, sahada test edilmiş güvenlik ve operasyon protokolleri.</p>
@@ -438,6 +473,18 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                                 <p className="text-sm text-[#c4c5d9] relative z-10">{m}</p>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* CTA */}
+            <section className="py-[100px] px-6 bg-[#020617]">
+                <div className="max-w-[900px] mx-auto text-center bg-[#1E293B] border border-white/10 rounded-2xl p-10 md:p-14">
+                    <h2 className={`${pj} text-[28px] md:text-[36px] font-bold text-white mb-4`}>Projeniz İçin Doğru Platformu Birlikte Belirleyelim</h2>
+                    <p className="text-[#c4c5d9] text-[17px] mb-8 max-w-2xl mx-auto">Saha koşullarınızı bize iletin; size en uygun makine sınıfını ve yazılı teklifi hazırlayalım.</p>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a className={`inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#b8c4ff] text-[#002486] rounded-xl ${caps} hover:bg-[#dde1ff] transition-all hover:scale-[1.02]`} href="/iletisim">Teklif Al <Ikon d={IK.ok} className="w-5 h-5" box={20} /></a>
+                        <a className={`inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#020617] border border-white/10 text-white rounded-xl ${caps} hover:border-[#b8c4ff] transition-all`} href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a>
                     </div>
                 </div>
             </section>
