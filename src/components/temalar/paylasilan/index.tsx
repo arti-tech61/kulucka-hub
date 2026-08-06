@@ -29,6 +29,21 @@ function DetayliRehber({ site }: { site: SiteIcerik }) {
 
 const HAKKIMIZDA_GORSELLERI = ["/media/isler/is-1.jpg", "/media/isler/is-9.jpg", "/media/isler/is-14.jpg"];
 
+function GercekGaleri({ site, gorseller }: { site: SiteIcerik; gorseller: { src: string; alt: string }[] }) {
+    return (
+        <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
+            <h2 className="font-display text-[28px] font-bold text-fg md:text-[34px]">{site.h1} — Kendi Ürün ve Saha Fotoğraflarımız</h2>
+            <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
+                {gorseller.map((g, i) => (
+                    <div key={i} className="relative aspect-square overflow-hidden rounded-2xl bg-elevated">
+                        <Image src={g.src} alt={g.alt} fill sizes="(min-width: 768px) 25vw, 50vw" className="object-contain p-3" />
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
+}
+
 export type { PaylasilanTemaConfig, PaylasilanRenkler } from "./renkler";
 
 // Paylaşımlı tema factory'si: tek bileşen ağacı, domain başına yalnızca `config`
@@ -41,6 +56,9 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
         return (
             <>
                 <Hero site={site} />
+                {config.galeriGorselleri && config.galeriGorselleri.length > 0 && (
+                    <GercekGaleri site={site} gorseller={config.galeriGorselleri} />
+                )}
                 <AnaSayfaGovde site={site} />
                 <DetayliRehber site={site} />
             </>

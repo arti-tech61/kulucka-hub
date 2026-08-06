@@ -85,6 +85,82 @@ export const paylasilanTemaKonfigleri: Record<string, PaylasilanTemaConfig> = {
         logoUrl: "/media/logolar/10.png",
         renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#cd1bd2", accentHover: "#ac16b0", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
     },
+    // Aşağıdaki 10 domain eski 3. parti hosting'den (İsimtescil paylaşımlı hosting)
+    // kuluçka-hub'a taşındı — bkz. siteler.ts'teki aynı bloktaki not.
+    "afyonplatform.com": {
+        markaAdi: "Afyon Platform",
+        logoUrl: "/media/logolar/14.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#e16503", accentHover: "#c25703", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "amasyaplatform.com": {
+        markaAdi: "Amasya Platform",
+        logoUrl: "/media/logolar/16.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#81bf04", accentHover: "#6ca303", accentFg: "#0a1525", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "balikesirplatform.org": {
+        markaAdi: "Balıkesir Platform",
+        logoUrl: "/media/logolar/18.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#00b5bc", accentHover: "#009a9f", accentFg: "#0a1525", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "bilecikplatform.net": {
+        markaAdi: "Bilecik Platform",
+        logoUrl: "/media/logolar/20.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#974ada", accentHover: "#8236c2", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "bozuyukplatform.com": {
+        markaAdi: "Bozüyük Platform",
+        logoUrl: "/media/logolar/22.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#3c5f98", accentHover: "#31507f", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "bozuyukplatform.net": {
+        markaAdi: "Bozüyük Platform",
+        logoUrl: "/media/logolar/6.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#9d5525", accentHover: "#84461e", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "bursaeklemliplatform.net": {
+        markaAdi: "Bursa Eklemli Platform",
+        logoUrl: "/media/logolar/9.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#af8d03", accentHover: "#957703", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "eskisehirplatform.net": {
+        markaAdi: "Eskişehir Platform",
+        logoUrl: "/media/logolar/11.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#2b5790", accentHover: "#234873", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "istanbuleklemliplatform.com": {
+        markaAdi: "İstanbul Eklemli Platform",
+        logoUrl: "/media/logolar/12.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#6b3088", accentHover: "#582871", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    "kutahyaplatform.net": {
+        markaAdi: "Kütahya Platform",
+        logoUrl: "/media/logolar/13.png",
+        renkler: { primary: "#0a1525", primaryLight: "#16233a", accent: "#93305d", accentHover: "#7a284d", accentFg: "#ffffff", bg: "#ffffff", fg: "#0a1525", muted: "#6b7280", elevated: "#f3f4f6", border: "#e5e7eb" },
+    },
+    // plusplatform.com.tr — gerçek marka: kendi logosu ve gerçek ürün fotoğrafları
+    // kullanılıyor (bkz. public/media/plusplatform/, eski siteden indirildi).
+    "plusplatform.com.tr": {
+        markaAdi: "PLUS Platform",
+        logoUrl: "/media/plusplatform/logo.png",
+        renkler: {
+            primary: "#1a1a1a",
+            primaryLight: "#3a3a3a",
+            accent: "#c1272d",
+            accentHover: "#a01f24",
+            accentFg: "#ffffff",
+            bg: "#ffffff",
+            fg: "#1a1a1a",
+            muted: "#6b7280",
+            elevated: "#f7f4f4",
+            border: "#e5e7eb",
+        },
+        galeriGorselleri: [
+            { src: "/media/plusplatform/thjz-8.jpg", alt: "PLUS THJZ-8 akülü makaslı platform" },
+            { src: "/media/plusplatform/thjz-12-a.jpg", alt: "PLUS THJZ-12 akülü makaslı platform" },
+            { src: "/media/plusplatform/thjz-14.jpg", alt: "PLUS THJZ-14 akülü makaslı platform" },
+            { src: "/media/plusplatform/thjz.jpg", alt: "PLUS THJZ akülü makaslı platform serisi" },
+        ],
+    },
     // bozuyukplatform.com.tr eskiden bespoke temaydı (src/components/temalar/bozuyuk.tsx) —
     // sepetli platform hero fotoğrafı yanlış üründü, Ürünler sayfasında yinelenen slug
     // ve zayıf 3 kartlık katalog vardı, süreç bölümü dengesiz metin uzunluklarıyla

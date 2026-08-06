@@ -19,4 +19,8 @@ export interface PaylasilanTemaConfig {
     logoUrl?: string;            // /media/logolar/N.png — verilmezse header'da yalnız markaAdi metni gösterilir
     fontDisplay?: string;        // Google Fonts aile adı — başlıklar (varsayılan: Oswald)
     fontSans?: string;           // Google Fonts aile adı — gövde metni (varsayılan: Manrope)
+    // Gerçek marka fotoğrafları (ör. kendi ürün/showroom görselleri) olan domainler
+    // için — verilirse ana sayfada jenerik saha fotoğrafları yerine bu galeri gösterilir.
+    // {src, alt} — src /media/... yolu, alt SEO/erişilebilirlik metni.
+    galeriGorselleri?: { src: string; alt: string }[];
 }
