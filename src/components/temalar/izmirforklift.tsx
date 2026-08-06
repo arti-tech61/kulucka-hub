@@ -138,7 +138,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
     return (
         <>
             {/* Hero + hızlı teklif */}
-            <section className="relative w-full min-h-[600px] flex items-center overflow-hidden bg-[#121c2a] py-20">
+            <section className="relative w-full min-h-[600px] flex items-center overflow-hidden bg-[#121c2a] py-12">
                 <div className="absolute inset-0"><Image src="/media/forklift.jpg" alt="İzmir forklift kiralama" fill priority sizes="100vw" className="object-cover opacity-40 mix-blend-overlay" /></div>
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                     <div className="text-white">
@@ -156,7 +156,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
             {/* Makine filosu */}
-            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-12">
                 <h2 className={`${mo} text-[28px] md:text-[32px] font-bold text-[#121c2a] uppercase border-l-8 border-[#f68b1e] pl-4 mb-2`}>Makine Filosu</h2>
                 <p className="text-[#554335] mb-10 pl-5">İhtiyacınıza uygun, bakımlı ve güvenilir iş makineleri.</p>
                 <FiloGrid />
@@ -168,7 +168,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
             {/* Blog teaser */}
-            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-12">
                 <h2 className={`${mo} text-[28px] font-bold text-[#121c2a] mb-2`}>Sektörel Bilgiler ve Rehberler</h2>
                 <p className="text-[#554335] mb-10">İş makineleri ve depo yönetimi hakkında uzman görüşleri.</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -236,7 +236,7 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                     <p className="text-[18px] text-white/70 max-w-3xl">{site.anaSite.ad} olarak, Ege bölgesinin en zorlu projelerinde güvenliği ve verimliliği merkeze alan ağır makine kiralama çözümleri sunuyoruz.</p>
                 </div>
             </section>
-            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-12">
                 <p className={`${lbl} text-[#914d00] uppercase mb-8`}>Neden Biz?</p>
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.1fr] gap-10 items-center mb-16">
                     <div className="relative h-[280px] md:h-[380px] rounded-xl overflow-hidden border border-[#121c2a]/10 shadow-[0_8px_30px_rgb(0,0,0,0.12)]">

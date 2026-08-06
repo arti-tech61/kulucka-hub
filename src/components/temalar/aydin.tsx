@@ -88,7 +88,7 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
 
             {children}
 
-            <footer className="w-full py-20 px-6 flex flex-col md:flex-row flex-wrap justify-between items-start gap-x-8 gap-y-12 bg-[#0A1525] text-white">
+            <footer className="w-full py-12 px-6 flex flex-col md:flex-row flex-wrap justify-between items-start gap-x-8 gap-y-12 bg-[#0A1525] text-white">
                 <div className="max-w-md">
                     <div className={`${hy} text-[24px] font-bold text-white mb-4`}>{site.h1}</div>
                     <p className="text-[#dce2f7] text-base mb-6">{site.anaSite.ad} hizmet ağı içinde, {site.uzmanlik} odağında bilgilendirme ve teklif hazırlama noktası.</p>
@@ -148,7 +148,7 @@ function AydinBlogOneCikanlar({ site }: { site: SiteIcerik }) {
     const yazilar = hostBloglari(site.host).slice(0, 15);
     if (yazilar.length === 0) return null;
     return (
-        <section className="py-20 bg-[#F9FAFB]">
+        <section className="py-12 bg-[#F9FAFB]">
             <div className="container mx-auto px-6 max-w-[1280px]">
                 <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
                     <div>
@@ -231,7 +231,7 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            <section className="py-20 bg-[#F9FAFB]" id="fleet">
+            <section className="py-12 bg-[#F9FAFB]" id="fleet">
                 <div className="container mx-auto px-6 max-w-[1280px]">
                     <div className="mb-16 text-center lg:text-left">
                         <h2 className={`${hy} text-[32px] leading-[40px] font-bold text-[#0A1525] mb-4`}>Makine Filomuz</h2>
@@ -259,7 +259,7 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            <section className="py-20 bg-[#f9f9ff]">
+            <section className="py-12 bg-[#f9f9ff]">
                 <div className="container mx-auto px-6 max-w-[1280px]">
                     <div className="flex flex-col lg:flex-row gap-16 items-start">
                         <div className="lg:w-1/3">
@@ -284,7 +284,7 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
 
             <AydinBlogOneCikanlar site={site} />
 
-            <section className="py-20 bg-[#0A1525] text-[#F9FAFB] overflow-hidden relative" id="regions">
+            <section className="py-12 bg-[#0A1525] text-[#F9FAFB] overflow-hidden relative" id="regions">
                 <div className="absolute top-0 right-0 w-1/3 h-full bg-[#FBBF24]/5 skew-x-12 translate-x-1/2" />
                 <div className="container mx-auto px-6 max-w-[1280px] relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -319,7 +319,7 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
 function AydinIletisim({ site }: { site: SiteIcerik }) {
     const bolgeler = bolgelerCoz(site);
     return (
-        <section className="py-20 bg-[#F9FAFB]" id="contact">
+        <section className="py-12 bg-[#F9FAFB]" id="contact">
             <div className="container mx-auto px-6 max-w-[1280px]">
                 <div className="bg-[#f9f9ff] rounded-2xl shadow-xl overflow-hidden border border-[#d3c5ac]">
                     <div className="flex flex-col lg:flex-row">
@@ -397,7 +397,7 @@ function AydinHakkimizda({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            <section className="py-20 bg-[#0A1525] text-[#F9FAFB]">
+            <section className="py-12 bg-[#0A1525] text-[#F9FAFB]">
                 <div className="container mx-auto px-6 max-w-[1280px]">
                     <h2 className={`${hy} text-[32px] leading-[40px] font-bold text-[#FBBF24] mb-4`}>Neler Sunuyoruz?</h2>
                     <p className="text-[18px] text-[#dce2f7] mb-12 max-w-2xl">{site.uzmanlik} odağında, sahanıza göre planlanan hizmetler.</p>
@@ -414,7 +414,7 @@ function AydinHakkimizda({ site }: { site: SiteIcerik }) {
                 </div>
             </section>
 
-            <section className="py-20 bg-[#FBBF24]">
+            <section className="py-12 bg-[#FBBF24]">
                 <div className="container mx-auto px-6 max-w-[1280px] flex flex-col md:flex-row items-center justify-between gap-8">
                     <div>
                         <h2 className={`${hy} text-[28px] leading-[36px] font-bold text-[#0A1525] mb-2`}>Sahanız İçin Doğru Makineyi Belirleyelim</h2>

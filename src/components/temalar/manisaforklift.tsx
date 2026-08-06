@@ -76,7 +76,7 @@ function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
     const yazilar = hostBloglari(site.host).slice(0, 15);
     if (yazilar.length === 0) return null;
     return (
-        <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-20">
+        <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-12">
             <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
                 <div>
                     <h2 className={`${mo} text-[28px] md:text-[32px] font-bold text-[#191c1e]`}>Blog&apos;dan Öne Çıkanlar</h2>
@@ -108,7 +108,7 @@ function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
 function AnaSayfa({ site }: { site: SiteIcerik }) {
     return (
         <>
-            <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden py-24">
+            <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden py-14">
                 <div className="absolute inset-0 z-0"><Image src="/media/forklift.jpg" alt="Modern forklift ile lojistik" fill priority sizes="100vw" className="object-cover" /><div className="absolute inset-0 bg-gradient-to-r from-[#f7f9fb]/90 via-[#f7f9fb]/70 to-transparent" /></div>
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className={`${glass} p-8 md:p-12 rounded-xl`}>
@@ -224,10 +224,10 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                     <p className="text-[18px] text-white/70">Ege bölgesinde daha temiz, daha akıllı ve daha güvenli bir endüstriyel manzara inşa ediyoruz. {site.h1}, zorlu güvenilirliği hassas teknolojiyle birleştirir.</p>
                 </div>
             </section>
-            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-20 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
                 {ozellik.map((o) => (<div key={o.baslik} className="bg-white rounded-xl border border-[#d3c5ac]/40 p-8 shadow-sm text-center"><div className="w-14 h-14 rounded-full bg-[#FBBF24]/20 flex items-center justify-center text-[#795900] mx-auto mb-5"><Ikon d={o.d} className="w-7 h-7" box={28} /></div><h3 className={`${mo} text-[20px] font-bold text-[#191c1e] mb-2`}>{o.baslik}</h3><p className="text-[#4f4633] text-[15px]">{o.metin}</p></div>))}
             </section>
-            <section className="bg-white border-y border-[#d3c5ac]/30 py-20">
+            <section className="bg-white border-y border-[#d3c5ac]/30 py-12">
                 <div className="max-w-[1280px] mx-auto px-4 md:px-12">
                     <div className="text-center mb-12"><h2 className={`${mo} text-[32px] font-bold text-[#191c1e] mb-2`}>Yolculuğumuz</h2><p className="text-[#4f4633]">Türkiye&apos;nin endüstriyel kalbiyle birlikte büyüyoruz.</p></div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -235,13 +235,13 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                     </div>
                 </div>
             </section>
-            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-20">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-12">
                 <div className="text-center mb-12"><h2 className={`${mo} text-[32px] font-bold text-[#191c1e] mb-2`}>Temel Değerler</h2></div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {deger.map((d) => (<div key={d.baslik} className="bg-white rounded-xl border border-[#d3c5ac]/40 p-8 shadow-sm"><div className="w-12 h-12 rounded-xl bg-[#020617] text-[#FBBF24] flex items-center justify-center mb-5"><Ikon d={d.d} className="w-6 h-6" /></div><h3 className={`${mo} text-[18px] font-bold text-[#191c1e] mb-2`}>{d.baslik}</h3><p className="text-[#4f4633] text-[15px]">{d.metin}</p></div>))}
                 </div>
             </section>
-            <section className="bg-white border-y border-[#d3c5ac]/30 py-20">
+            <section className="bg-white border-y border-[#d3c5ac]/30 py-12">
                 <div className="max-w-[1280px] mx-auto px-4 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="relative h-72 md:h-[420px] rounded-xl overflow-hidden shadow-sm order-2 lg:order-1">
                         <Image src="/media/isler/is-4.jpg" alt={`${site.h1} saha ekibi çalışma anı`} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
@@ -256,7 +256,7 @@ function Hakkimizda({ site }: { site: SiteIcerik }) {
                     </div>
                 </div>
             </section>
-            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-20">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-12 py-12">
                 <div className={`${mo} rounded-2xl bg-[#020617] px-6 py-14 md:px-16 text-center shadow-[0_20px_40px_rgba(2,6,23,0.15)]`}>
                     <h2 className="text-[28px] md:text-[36px] font-extrabold text-white mb-4">Filo İhtiyacınızı Konuşalım</h2>
                     <p className="font-['Inter'] font-normal text-white/70 text-[16px] max-w-2xl mx-auto mb-8">{site.bolge} bölgesinde aynı gün teklif, hızlı sevkiyat ve şeffaf fiyatlandırma. Hemen arayın ya da talep formunu doldurun.</p>
@@ -279,7 +279,7 @@ function Iletisim({ site }: { site: SiteIcerik }) {
                     <p className="text-[18px] text-white/70 max-w-2xl mx-auto">{site.bolge} bölgesinin önde gelen forklift lojistik ve teknoloji ortağı. Ağır kaldırma ihtiyaçlarınızda hassasiyetle yanınızdayız.</p>
                 </div>
             </section>
-            <section className="py-24 max-w-[1280px] mx-auto px-4 md:px-12 relative z-20 -mt-20">
+            <section className="py-14 max-w-[1280px] mx-auto px-4 md:px-12 relative z-20 -mt-20">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <div className="lg:col-span-4 flex flex-col gap-6">
                         <a href={`tel:${site.telefon}`} className={`${glass} rounded-xl p-8 hover:-translate-y-1 transition-all duration-300 block`}>

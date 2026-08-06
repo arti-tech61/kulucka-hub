@@ -89,7 +89,7 @@ function BlogOneCikanlar({ site }: { site: SiteIcerik }) {
     const yazilar = hostBloglari(site.host).slice(0, 15);
     if (yazilar.length === 0) return null;
     return (
-        <section className="bg-[#f8f9fb] py-20">
+        <section className="bg-[#f8f9fb] py-12">
             <div className="max-w-[1280px] mx-auto px-4 md:px-8">
                 <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
                     <div>
@@ -125,7 +125,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
             {/* Hero + hızlı teklif */}
             <section className="relative overflow-hidden bg-[#0d1330] text-white">
                 <div className="absolute inset-0 opacity-25"><Image src="/media/eklemli-platform.png" alt="" fill priority sizes="100vw" className="object-cover" /></div>
-                <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 py-20 grid grid-cols-1 lg:grid-cols-[1.3fr_1fr] gap-12 items-center">
+                <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-8 py-12 grid grid-cols-1 lg:grid-cols-[1.3fr_1fr] gap-12 items-center">
                     <div>
                         <div className={`inline-flex items-center gap-2 px-4 py-1.5 bg-[#3151eb]/20 border border-[#3151eb]/40 text-[#b7c4ff] ${lbl} rounded-full mb-6`}><Ikon d={IK.verified} className="w-4 h-4" box={16} /> Kurumsal Çözüm Ortağı</div>
                         <h1 className="text-[34px] md:text-[52px] leading-[1.05] tracking-[-0.02em] font-extrabold mb-6">Projeniz İçin <span className="text-[#8ea2ff]">Manlift ve Platform Kiralama</span></h1>
@@ -143,7 +143,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
             </section>
 
             {/* Makine Parkurumuz */}
-            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-20">
+            <section className="max-w-[1280px] mx-auto px-4 md:px-8 py-12">
                 <div className="mb-12 max-w-2xl"><h2 className="text-[32px] font-extrabold text-[#191c1e] mb-3 tracking-tight">Makine Parkurumuz</h2><p className="text-[#444655]">İhtiyaca göre karşılaştırılan makine sınıflarıyla projeye özel erişim seçenekleri sunuyoruz; gerçek model ve belge kapsamını teklifte doğruluyoruz.</p></div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Öne çıkan */}
@@ -170,7 +170,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
             </section>
 
             {/* Profesyonel Hizmetlerimiz */}
-            <section className="bg-white border-y border-[#edeef0] py-20">
+            <section className="bg-white border-y border-[#edeef0] py-12">
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8">
                     <span className={`${lbl} text-[#9d4300] uppercase`}>Çözüm Ortağınız</span>
                     <h2 className="text-[32px] font-extrabold text-[#191c1e] mb-10 mt-1 tracking-tight">Profesyonel Hizmetlerimiz</h2>
@@ -182,7 +182,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
             <BlogOneCikanlar site={site} />
 
             {/* CTA */}
-            <section className="py-24 bg-[#0d1330] text-white"><div className="max-w-[1280px] mx-auto px-4 md:px-8 text-center">
+            <section className="py-14 bg-[#0d1330] text-white"><div className="max-w-[1280px] mx-auto px-4 md:px-8 text-center">
                 <h2 className="text-[32px] md:text-[40px] font-extrabold tracking-tight mb-4">Güveniniz İçin Zirveyi Hedefliyoruz</h2>
                 <p className="text-white/70 max-w-2xl mx-auto mb-8">Türkiye geneli; sertifikalı makine parkuru, belgeli operatör ve şeffaf yazılı teklifle işinizi güvene alın.</p>
                 <a className={`inline-flex items-center gap-2 bg-[#3151eb] text-white ${lbl} px-8 py-4 rounded-xl hover:bg-white hover:text-[#0233d3] transition-all`} href="/iletisim">Hemen Teklif Alın <Ikon d={IK.ok} className="w-5 h-5" box={20} /></a>
