@@ -4,8 +4,28 @@ import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
 import { olusturCerceve } from "./cerceve";
 import { Hero } from "./hero";
+import { anaSayfaDetayliRehber } from "@/lib/siteler";
 import { AnaSayfaGovde, IletisimKarti, UrunlerBolumu } from "./bolumler";
 import { Ikon } from "./ikonlar";
+
+function DetayliRehber({ site }: { site: SiteIcerik }) {
+    const rehber = anaSayfaDetayliRehber(site);
+    if (!rehber || rehber.length === 0) return null;
+    return (
+        <section className="mx-auto max-w-4xl px-6 py-12 md:px-8">
+            <details className="group rounded-2xl border border-border bg-elevated p-6">
+                <summary className="cursor-pointer font-display text-xl font-bold text-fg">
+                    {site.h1} — Detaylı Kiralama Rehberi
+                </summary>
+                <div className="mt-6 space-y-4 text-muted">
+                    {rehber.map((p, i) => (
+                        <p key={i} className="leading-7">{p}</p>
+                    ))}
+                </div>
+            </details>
+        </section>
+    );
+}
 
 const HAKKIMIZDA_GORSELLERI = ["/media/isler/is-1.jpg", "/media/isler/is-9.jpg", "/media/isler/is-14.jpg"];
 
@@ -22,6 +42,7 @@ export function olusturPaylasilanTema(config: PaylasilanTemaConfig): TemaModulu 
             <>
                 <Hero site={site} />
                 <AnaSayfaGovde site={site} />
+                <DetayliRehber site={site} />
             </>
         );
     }

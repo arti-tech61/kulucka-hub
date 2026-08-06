@@ -1821,9 +1821,13 @@ function anaSayfaSeoParagraflari(site: SiteIcerik, p: TicariSeoProfili): string[
     ];
 }
 
-for (const site of siteler) {
+// NOT: Önceden bu 12 paragraf site.paragraflar dizisine push() ile ekleniyordu —
+// bu, paragraflar'ı kullanan HER sayfaya (Hakkımızda, hero vb.) sızdırıyordu
+// ("duvar gibi metin" bug'ı). Artık yalnızca ana sayfaya özel, ayrı bir
+// fonksiyonla (aşağıda) sunuluyor; site.paragraflar kısa/öz kalıyor.
+export function anaSayfaDetayliRehber(site: SiteIcerik): string[] | undefined {
     const profil = ticariSeoProfilleri[site.host];
-    if (profil) site.paragraflar.push(...anaSayfaSeoParagraflari(site, profil));
+    return profil ? anaSayfaSeoParagraflari(site, profil) : undefined;
 }
 
 export function hostIcinSite(host: string): SiteIcerik | undefined {
