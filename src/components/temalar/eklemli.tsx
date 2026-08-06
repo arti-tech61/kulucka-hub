@@ -8,6 +8,7 @@ import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import type { TemaModulu } from "./tipler";
 import { EklemliHizliTeklif, EklemliIletisimForm } from "./eklemli-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
+import { EklemliMobilMenu } from "./eklemli-mobil-menu";
 
 // eklemliplatform.com.tr — Google Stitch LIGHT tasarımının birebir portu.
 // primary #0233d3, primary-container(mavi) #3151eb, secondary(turuncu) #9d4300,
@@ -37,12 +38,13 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             {/* eslint-disable-next-line @next/next/no-page-custom-font */}
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
             <header className="bg-white/90 backdrop-blur-md border-b border-[#edeef0] sticky top-0 z-50 shadow-sm">
-                <div className="max-w-[1280px] mx-auto px-4 md:px-8 flex justify-between items-center h-20">
+                <div className="relative max-w-[1280px] mx-auto px-4 md:px-8 flex justify-between items-center h-20">
                     <a className="flex items-center gap-2 shrink-0" href="/"><span className="w-10 h-10 rounded-lg bg-[#3151eb] text-white flex items-center justify-center"><Ikon d={IK.architecture} className="w-6 h-6" /></span><span className="text-[18px] md:text-[20px] font-extrabold text-[#0233d3] tracking-tight">{site.h1.toUpperCase()}</span></a>
                     <nav className="hidden md:flex gap-1 items-center">{NAV.map((n) => (<a key={n.href} className={`${lbl} px-3 py-2 rounded-md transition-all ${aktif === n.href ? "text-[#0233d3] bg-[#3151eb]/10" : "text-[#444655] hover:text-[#0233d3] hover:bg-[#3151eb]/5"}`} href={n.href}>{n.ad}</a>))}</nav>
                     <div className="flex items-center gap-2">
                         <a className={`hidden lg:inline-flex ${lbl} text-[#0233d3] items-center gap-2`} href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> {site.telefonGosterim}</a>
                         <a className={`bg-[#3151eb] text-white ${lbl} px-5 py-2.5 rounded-lg hover:bg-[#0233d3] transition-colors`} href="/iletisim">Teklif İste</a>
+                        <EklemliMobilMenu nav={NAV} aktif={aktif} />
                     </div>
                 </div>
             </header>
@@ -210,7 +212,7 @@ function Urunler({ site }: { site: SiteIcerik }) {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {makineler.map((m) => (
                             <div key={m.baslik} className="bg-white border border-[#edeef0] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:border-[#3151eb]/40 transition-all group flex flex-col">
-                                <div className="relative h-52 overflow-hidden"><Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" /><div className="absolute top-3 left-3 bg-[#0d1330] text-[#8ea2ff] text-[12px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1"><Ikon d={m.rozetIk} className="w-3.5 h-3.5" box={14} /> {m.rozet}</div></div>
+                                <div className="relative h-52 overflow-hidden bg-[#f8f9fb]"><Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-contain p-6 group-hover:scale-105 transition-transform duration-500" /><div className="absolute top-3 left-3 bg-[#0d1330] text-[#8ea2ff] text-[12px] font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider flex items-center gap-1"><Ikon d={m.rozetIk} className="w-3.5 h-3.5" box={14} /> {m.rozet}</div></div>
                                 <div className="p-6 flex-1 flex flex-col">
                                     <h3 className="text-[20px] font-bold text-[#191c1e] mb-4">{m.baslik}</h3>
                                     <p className="text-[#444655] text-[14px] mb-4">{m.metin}</p>

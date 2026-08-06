@@ -7,6 +7,7 @@ import { hostBloglari } from "@/lib/blog";
 import type { TemaModulu } from "./tipler";
 import { TemaForm } from "./tema-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
+import { AydinMobilMenu } from "./aydin-mobil-menu";
 
 // aydinplatform.net — Google Stitch tasarımının birebir portu.
 // Renkler: deep-navy #0A1525, safety-yellow #FBBF24, off-white #F9FAFB.
@@ -70,17 +71,19 @@ function AydinCerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: str
             <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#f9f9ff]/95 backdrop-blur-md shadow-sm border-b border-[#d3c5ac]">
                 <a href="/" className="flex items-center gap-4">
                     <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={50} className="h-12 w-auto object-contain" priority />
-                    <span className={`hidden md:block text-[24px] font-bold text-[#0A1525] ${hy}`}>{site.h1}</span>
                 </a>
-                <nav className="hidden lg:flex items-center gap-8">
+                <nav className="hidden lg:flex items-center gap-5 whitespace-nowrap">
                     {nav.map((n) => (
                         <a key={n.href} className={aktif === n.href ? "text-[#0A1525] font-bold border-b-2 border-[#0A1525] pb-1" : "text-[#4f4633] font-medium hover:text-[#795900] transition-colors"} href={n.href}>{n.ad}</a>
                     ))}
                 </nav>
-                <a className="bg-[#FBBF24] text-[#0A1525] px-6 py-2.5 rounded-[2px] text-[14px] font-semibold flex items-center gap-2 hover:scale-105 active:scale-95 transition-all" href={`tel:${site.telefon}`}>
-                    <Ikon d={IK.phone} className="w-4 h-4" />
-                    <span className="hidden sm:inline">Hemen Ara: </span>{site.telefonGosterim}
-                </a>
+                <div className="flex items-center gap-2">
+                    <a className="bg-[#FBBF24] text-[#0A1525] px-6 py-2.5 rounded-[2px] text-[14px] font-semibold flex items-center gap-2 hover:scale-105 active:scale-95 transition-all" href={`tel:${site.telefon}`}>
+                        <Ikon d={IK.phone} className="w-4 h-4" />
+                        <span className="hidden sm:inline">Hemen Ara: </span>{site.telefonGosterim}
+                    </a>
+                    <AydinMobilMenu nav={nav} aktif={aktif} />
+                </div>
             </header>
 
             {children}
@@ -237,8 +240,8 @@ function AydinAnaSayfa({ site }: { site: SiteIcerik }) {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {filo.map((f) => (
                             <div key={f.baslik} className="bg-[#f9f9ff] rounded-lg overflow-hidden border border-[#d3c5ac] group transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(0,0,0,0.08)]">
-                                <div className="h-64 relative overflow-hidden">
-                                    <Image src={f.gorsel} alt={f.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                                <div className="h-64 relative overflow-hidden bg-[#f2f2fa]">
+                                    <Image src={f.gorsel} alt={f.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-contain p-6 group-hover:scale-105 transition-transform duration-500" />
                                 </div>
                                 <div className="p-8">
                                     <h3 className={`${hy} text-[24px] leading-[32px] font-semibold text-[#0A1525] mb-2`}>{f.baslik}</h3>

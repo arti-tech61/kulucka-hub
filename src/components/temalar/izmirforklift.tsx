@@ -8,6 +8,7 @@ import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import type { TemaModulu } from "./tipler";
 import { IzmirHizliTeklif, IzmirIletisimForm } from "./izmir-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
+import { IzmirforkliftMobilMenu } from "./izmirforklift-mobil-menu";
 
 // izmirforkliftkiralama.net — Google Stitch LIGHT "endüstriyel brutalist" tasarımı birebir.
 // background #f8f9ff, charcoal #121c2a, primary #914d00, primary-container(orange) #f68b1e,
@@ -51,13 +52,14 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
         <div className="bg-[#f8f9ff] text-[#121c2a] font-['Inter'] min-h-screen flex flex-col antialiased selection:bg-[#f68b1e] selection:text-white">
             {/* eslint-disable-next-line @next/next/no-page-custom-font */}
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
-            <header className="bg-[#f8f9ff] border-b border-[#121c2a]/10 shadow-sm sticky top-0 w-full z-50">
+            <header className="relative bg-[#f8f9ff] border-b border-[#121c2a]/10 shadow-sm sticky top-0 w-full z-50">
                 <div className="max-w-[1280px] mx-auto px-4 md:px-8 flex justify-between items-center h-20">
                     <a className={`${mo} text-[22px] md:text-[26px] text-[#914d00] font-extrabold tracking-tight flex items-center gap-2`} href="/"><Ikon d={IK.forklift} className="w-8 h-8 text-[#f68b1e]" box={30} /> {site.h1.toUpperCase()}</a>
                     <nav className="hidden md:flex gap-1 items-center">{NAV.map((n) => (<a key={n.href} className={`${lbl} px-3 py-2 rounded-md transition-all ${aktif === n.href ? "text-[#914d00] border-b-2 border-[#914d00]" : "text-[#554335] hover:text-[#914d00]"}`} href={n.href}>{n.ad}</a>))}</nav>
                     <div className="flex items-center gap-2">
                         <a className={`hidden lg:inline-flex ${lbl} text-[#121c2a] border border-[#121c2a]/20 px-4 py-2 rounded-lg hover:bg-[#eceef0] transition-colors items-center gap-2`} href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /> Hemen Ara</a>
                         <a className={`${lbl} bg-[#25D366] text-white px-4 py-2 rounded-lg hover:bg-[#1DA851] transition-colors flex items-center gap-2`} href={wa(site.telefon)} target="_blank" rel="noopener noreferrer"><Ikon d={IK.chat} className="w-4 h-4" box={18} /><span className="hidden sm:inline">WhatsApp İle Fiyat Al</span></a>
+                        <IzmirforkliftMobilMenu nav={NAV} aktif={aktif} />
                     </div>
                 </div>
             </header>

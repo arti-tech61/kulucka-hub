@@ -8,6 +8,7 @@ import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import type { TemaModulu } from "./tipler";
 import { ForkliftTalepForm } from "./manisaforklift-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
+import { ManisaforkliftMobilMenu } from "./manisaforklift-mobil-menu";
 
 // manisaforklift.com — Google Stitch "clean-tech" LIGHT tasarımının birebir portu.
 // background #f7f9fb, primary #795900, safety-amber #FBBF24, deep-slate #020617 (koyu bölümler),
@@ -41,10 +42,13 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             {/* eslint-disable-next-line @next/next/no-page-custom-font */}
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
             <header className="bg-white/70 backdrop-blur-md border-b border-white/20 sticky top-0 z-50 shadow-sm">
-                <div className="max-w-[1280px] mx-auto px-4 md:px-12 flex justify-between items-center h-20">
+                <div className="relative max-w-[1280px] mx-auto px-4 md:px-12 flex justify-between items-center h-20">
                     <a className={`${mo} text-[24px] md:text-[28px] text-[#795900] font-extrabold tracking-tight flex items-center gap-2`} href="/"><Ikon d={IK.forklift} className="w-8 h-8 text-[#FBBF24]" box={32} /> {site.h1.toUpperCase()}</a>
                     <nav className="hidden md:flex gap-1 items-center">{NAV.map((n) => (<a key={n.href} className={`font-['Inter'] text-[14px] tracking-[0.05em] font-semibold px-3 py-2 rounded-md transition-all ${aktif === n.href ? "text-[#795900] border-b-2 border-[#795900]" : "text-[#4f4633] hover:text-[#795900] hover:bg-[#FBBF24]/10"}`} href={n.href}>{n.ad}</a>))}</nav>
-                    <a className="bg-[#FBBF24] text-black font-semibold text-[14px] px-6 py-2.5 rounded-lg hover:brightness-95 transition-all shadow-sm flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /><span className="hidden sm:inline">Hemen Ara</span></a>
+                    <div className="flex items-center gap-2">
+                        <a className="bg-[#FBBF24] text-black font-semibold text-[14px] px-6 py-2.5 rounded-lg hover:brightness-95 transition-all shadow-sm flex items-center gap-2" href={`tel:${site.telefon}`}><Ikon d={IK.phone} className="w-4 h-4" box={18} /><span className="hidden sm:inline">Hemen Ara</span></a>
+                        <ManisaforkliftMobilMenu nav={NAV} aktif={aktif} />
+                    </div>
                 </div>
             </header>
             <main className="flex-grow">{children}</main>

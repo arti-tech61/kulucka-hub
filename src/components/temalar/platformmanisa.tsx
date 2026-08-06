@@ -8,6 +8,7 @@ import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import type { TemaModulu } from "./tipler";
 import { ManisaTeklifForm } from "./platformmanisa-form";
 import { IkonWhatsapp } from "./paylasilan/ikonlar";
+import { PlatformManisaMobilMenu } from "./platformmanisa-mobil-menu";
 
 // platformmanisa.com — Google Stitch DARK tasarımının birebir portu.
 // surface-deep #020617, surface #101415, surface-card #1E293B, primary #b8c4ff, industrial-orange #F97316.
@@ -54,7 +55,7 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
 
             <header className="fixed top-0 w-full z-50 bg-[#020617]/80 backdrop-blur-md border-b border-white/10">
-                <div className="flex justify-between items-center px-6 py-4 max-w-[1280px] mx-auto">
+                <div className="relative flex justify-between items-center px-6 py-4 max-w-[1280px] mx-auto">
                     <a className="flex items-center gap-2" href="/">
                         <Image src="/media/logo/logo.png" alt={`${site.h1} logosu`} width={200} height={53} className="h-12 md:h-14 w-auto object-contain" priority />
                     </a>
@@ -66,7 +67,10 @@ function Cerceve({ site, aktif, children }: { site: SiteIcerik; aktif?: string; 
                     <a className={`hidden md:inline-flex items-center gap-2 bg-[#F97316] text-white px-6 py-2 rounded-lg ${caps} hover:brightness-95 transition-all`} href={`tel:${site.telefon}`}>
                         <Ikon d={IK.phone} className="w-4 h-4" box={20} /> Hemen Ara
                     </a>
-                    <a className="md:hidden text-[#b8c4ff]" href={`tel:${site.telefon}`} aria-label="Ara"><Ikon d={IK.phone} className="w-6 h-6" /></a>
+                    <div className="flex items-center gap-2 md:hidden">
+                        <a className="text-[#b8c4ff]" href={`tel:${site.telefon}`} aria-label="Ara"><Ikon d={IK.phone} className="w-6 h-6" /></a>
+                        <PlatformManisaMobilMenu nav={NAV} aktif={aktif} />
+                    </div>
                 </div>
             </header>
 
@@ -190,7 +194,7 @@ function AnaSayfa({ site }: { site: SiteIcerik }) {
                         {makineler.map((m) => (
                             <div key={m.baslik} className="group bg-[#1E293B] rounded-xl border border-white/10 overflow-hidden hover:scale-[1.02] hover:border-[#b8c4ff]/50 transition-all duration-300">
                                 <div className="h-64 relative bg-[#101415] overflow-hidden">
-                                    <Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:768px) 100vw, 50vw" className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
+                                    <Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:768px) 100vw, 50vw" className="object-contain p-8 opacity-80 group-hover:opacity-100 transition-opacity" />
                                     <div className="absolute top-4 left-4 bg-[#020617]/80 backdrop-blur px-3 py-1 rounded-full border border-white/10">
                                         <span className={`${caps} ${m.renk}`}>{m.erisim}</span>
                                     </div>
@@ -360,8 +364,8 @@ function Urunler({ site }: { site: SiteIcerik }) {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {kartlar.map((m) => (
                         <div key={m.baslik} className="bg-[#1E293B] rounded-xl border border-white/10 overflow-hidden hover:scale-[1.02] hover:border-[#b8c4ff] transition-all duration-300 group flex flex-col">
-                            <div className="h-48 relative overflow-hidden">
-                                <Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
+                            <div className="h-48 relative overflow-hidden bg-[#101415]">
+                                <Image src={m.gorsel} alt={m.baslik} fill sizes="(max-width:1024px) 100vw, 33vw" className="object-contain p-6 opacity-80 group-hover:opacity-100 transition-opacity" />
                                 <div className="absolute top-4 left-4 bg-[#323537] px-3 py-1 rounded-full border border-white/10"><span className={`${caps} text-[#e0e3e5]`}>{m.rozet}</span></div>
                             </div>
                             <div className="p-6 flex-1 flex flex-col">
