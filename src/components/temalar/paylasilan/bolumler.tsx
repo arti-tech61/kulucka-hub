@@ -13,7 +13,7 @@ import { Ikon, IkonWhatsapp } from "./ikonlar";
 // fotoğrafları (bkz. public/media/isler/) — anahtar kelime eşleştirmesiyle her
 // hizmet metnine en uygun gerçek fotoğraf atanır, tekdüze ikon yerine.
 const HIZMET_GORSELLERI: { anahtarlar: string[]; src: string; alt: string }[] = [
-    { anahtarlar: ["sepetli", "örümcek", "orumcek", "vinç", "vinc", "tırtıl"], src: "/media/isler/is-9.jpg", alt: "Örümcek platform ile sahada erişim çalışması" },
+    { anahtarlar: ["sepetli", "örümcek", "orumcek", "tırtıl"], src: "/media/isler/is-9.jpg", alt: "Örümcek platform ile sahada erişim çalışması" },
     { anahtarlar: ["nakliye", "teslimat", "sevkiyat", "taşıma", "tasima"], src: "/media/isler/is-12.jpg", alt: "Kamyonla saha teslimatı ve nakliye" },
     { anahtarlar: ["forklift", "istifleme", "palet", "yük taşıma", "yuk tasima"], src: "/media/isler/is-3.jpg", alt: "Forklift ve makaslı platform ile saha çalışması" },
     { anahtarlar: ["eklemli", "boom", "akrobat", "manlift"], src: "/media/isler/is-7.jpg", alt: "Eklemli platform ile yükleme alanı çalışması" },
@@ -26,7 +26,10 @@ const HIZMET_GORSELLERI: { anahtarlar: string[]; src: string; alt: string }[] = 
     { anahtarlar: ["zemin", "arazi", "hazırlıksız", "hazirliksiz", "engebeli"], src: "/media/isler/is-8.jpg", alt: "Zorlu zemin koşullarında makine parkı" },
 ];
 const HIZMET_VARSAYILAN = { src: "/media/isler/is-13.jpg", alt: "Artı Platform saha çalışması" };
-const TUM_GORSELLER = [...HIZMET_GORSELLERI.map((g) => ({ src: g.src, alt: g.alt })), HIZMET_VARSAYILAN, { src: "/media/isler/is-4.jpg", alt: "Artı Platform saha çalışması" }, { src: "/media/isler/is-5.jpg", alt: "Artı Platform saha çalışması" }];
+// is-9.jpg (örümcek/sepetli platform) kasıtlı olarak dışarıda bırakıldı —
+// yalnızca kendi anahtar kelimesiyle eşleştiğinde gösterilsin, rastgele
+// dolgu fotoğrafı olarak alakasız hizmet metinlerine düşmesin.
+const TUM_GORSELLER = [...HIZMET_GORSELLERI.map((g) => ({ src: g.src, alt: g.alt })), HIZMET_VARSAYILAN, { src: "/media/isler/is-4.jpg", alt: "Artı Platform saha çalışması" }, { src: "/media/isler/is-5.jpg", alt: "Artı Platform saha çalışması" }].filter((g) => g.src !== "/media/isler/is-9.jpg");
 
 function hizmetGorseli(h: string, kullanilanlar: Set<string>) {
     const t = h.toLocaleLowerCase("tr-TR");
