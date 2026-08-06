@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { SiteIcerik } from "@/lib/siteler";
 import { ikinciTelefon } from "@/lib/siteler";
 import { urunKatalogu } from "@/lib/urun-katalogu";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 
@@ -60,7 +61,7 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
                     const gorsel = hizmetGorseli(h, kullanilanlar);
                     return (
                         <article key={h} className="overflow-hidden rounded-2xl bg-elevated">
-                            <div className="relative h-44 w-full overflow-hidden bg-bg">
+                            <div className="relative aspect-[4/3] w-full overflow-hidden bg-bg">
                                 <Image src={gorsel.src} alt={gorsel.alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
                             </div>
                             <div className="p-6">
@@ -146,16 +147,22 @@ export function UrunlerBolumu({ site, tumunuGoster = false }: { site: SiteIcerik
 }
 
 export function BolgeBolumu({ site }: { site: SiteIcerik }) {
-    const bolgeler = site.bolge.split(",").map((s) => s.trim());
+    const bolgeSayfaListesi = bolgeSayfalari(site);
     return (
         <section className="mx-auto max-w-7xl px-6 py-20 md:px-8">
-            <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Hizmet Bölgelerimiz</h2>
-            <div className="mt-8 flex flex-wrap gap-3">
-                {bolgeler.map((b) => (
-                    <span key={b} className="flex items-center gap-2 rounded-full bg-elevated px-4 py-2 text-fg">
-                        <Ikon ad="konum" className="h-4 w-4 text-accent" />
-                        {b}
-                    </span>
+            <div className="mb-10 max-w-2xl">
+                <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Hizmet Bölgelerimiz</h2>
+                <p className="mt-3 text-muted">Her bölgenin kendi saha koşulları vardır — detaylar için bölgenizi seçin.</p>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {bolgeSayfaListesi.map((b) => (
+                    <a key={b.slug} href={`/bolge/${b.slug}`} className="group flex items-center justify-between gap-3 rounded-2xl bg-elevated px-6 py-5 transition hover:bg-accent hover:text-accent-fg">
+                        <span className="flex items-center gap-3 font-bold text-fg group-hover:text-accent-fg">
+                            <Ikon ad="konum" className="h-4 w-4 shrink-0 text-accent group-hover:text-accent-fg" />
+                            {b.bolgeAdi}
+                        </span>
+                        <Ikon ad="ok" className="h-4 w-4 shrink-0 text-muted group-hover:text-accent-fg" />
+                    </a>
                 ))}
             </div>
         </section>

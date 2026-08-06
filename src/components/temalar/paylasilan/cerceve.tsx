@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { ikinciTelefon } from "@/lib/siteler";
+import { hostAltSayfalari } from "@/lib/alt-sayfalar";
+import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
@@ -56,14 +58,11 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                 <main className="flex-1">{children}</main>
 
                 <footer className="bg-primary px-6 py-16 text-bg">
-                    <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
+                    <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-4">
                         <div>
                             <h2 className="font-display text-[24px] font-bold text-bg">{config.markaAdi}</h2>
                             <p className="mt-4 leading-6 text-bg/80">{site.uzmanlik}</p>
-                        </div>
-                        <div>
-                            <h3 className="font-display text-[18px] font-semibold text-bg">Hızlı Bağlantılar</h3>
-                            <div className="mt-4 grid grid-cols-2 gap-3">
+                            <div className="mt-5 grid grid-cols-2 gap-3">
                                 {nav.slice(1).map(([href, etiket]) => (
                                     <a key={href} href={href} className="text-bg/80 hover:text-bg">
                                         {etiket}
@@ -72,6 +71,27 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                                 <a href={site.anaSite.url} className="text-bg/80 hover:text-bg">
                                     {site.anaSite.ad}
                                 </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 className="font-display text-[18px] font-semibold text-bg">Hizmet Bölgeleri</h3>
+                            <div className="mt-4 flex flex-col gap-2.5">
+                                {bolgeSayfalari(site).slice(0, 6).map((b) => (
+                                    <a key={b.slug} href={`/bolge/${b.slug}`} className="text-bg/80 hover:text-bg">
+                                        {b.bolgeAdi}
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+                        <div>
+                            <h3 className="font-display text-[18px] font-semibold text-bg">Kaynaklar</h3>
+                            <div className="mt-4 flex flex-col gap-2.5">
+                                {hostAltSayfalari(site.host).slice(0, 5).map((s) => (
+                                    <a key={s.slug} href={`/${s.slug}`} className="text-bg/80 hover:text-bg">
+                                        {s.baslik}
+                                    </a>
+                                ))}
+                                <a href="/blog" className="text-bg/80 hover:text-bg">Blog</a>
                             </div>
                         </div>
                         <div>
