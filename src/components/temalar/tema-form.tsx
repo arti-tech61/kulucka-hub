@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 import { teklifGonder } from "@/lib/teklif-gonder";
 
 export interface TemaFormClass {
@@ -24,6 +24,7 @@ export function TemaForm({
 }) {
     const [g, setG] = useState({ ad: "", tel: "", bolge: opsiyonlar[0] ?? "", ozet: "" });
     const [durum, setDurum] = useState<"bos" | "gonderiliyor" | "tamam" | "hata">("bos");
+    const id = useId();
 
     async function gonder(e: React.FormEvent) {
         e.preventDefault();
@@ -45,17 +46,17 @@ export function TemaForm({
         <form className="space-y-6" onSubmit={gonder}>
             <div className={cls.izgara ?? "grid grid-cols-1 sm:grid-cols-2 gap-6"}>
                 <div>
-                    <label className={cls.etiket}>Ad Soyad</label>
-                    <input className={cls.alan} type="text" required value={g.ad} onChange={(e) => setG({ ...g, ad: e.target.value })} />
+                    <label htmlFor={`${id}-ad`} className={cls.etiket}>Ad Soyad</label>
+                    <input id={`${id}-ad`} className={cls.alan} type="text" required value={g.ad} onChange={(e) => setG({ ...g, ad: e.target.value })} />
                 </div>
                 <div>
-                    <label className={cls.etiket}>Telefon</label>
-                    <input className={cls.alan} type="tel" required value={g.tel} onChange={(e) => setG({ ...g, tel: e.target.value })} />
+                    <label htmlFor={`${id}-tel`} className={cls.etiket}>Telefon</label>
+                    <input id={`${id}-tel`} className={cls.alan} type="tel" required value={g.tel} onChange={(e) => setG({ ...g, tel: e.target.value })} />
                 </div>
             </div>
             <div>
-                <label className={cls.etiket}>Hizmet Bölgesi</label>
-                <select className={cls.alan} value={g.bolge} onChange={(e) => setG({ ...g, bolge: e.target.value })}>
+                <label htmlFor={`${id}-bolge`} className={cls.etiket}>Hizmet Bölgesi</label>
+                <select id={`${id}-bolge`} className={cls.alan} value={g.bolge} onChange={(e) => setG({ ...g, bolge: e.target.value })}>
                     {opsiyonlar.map((o) => (
                         <option key={o}>{o}</option>
                     ))}
@@ -63,8 +64,8 @@ export function TemaForm({
                 </select>
             </div>
             <div>
-                <label className={cls.etiket}>İş Özeti (Yükseklik, Zemin vb.)</label>
-                <textarea className={cls.alan} rows={4} value={g.ozet} onChange={(e) => setG({ ...g, ozet: e.target.value })} />
+                <label htmlFor={`${id}-ozet`} className={cls.etiket}>İş Özeti (Yükseklik, Zemin vb.)</label>
+                <textarea id={`${id}-ozet`} className={cls.alan} rows={4} value={g.ozet} onChange={(e) => setG({ ...g, ozet: e.target.value })} />
             </div>
             <button className={cls.buton} type="submit" disabled={durum === "gonderiliyor"}>
                 {durum === "gonderiliyor" ? "Gönderiliyor…" : "Teklifi Gönder"}
