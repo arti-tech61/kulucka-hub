@@ -123,3 +123,41 @@ curl -s "https://$domain/urunler" | grep -o "/urunler/[a-z0-9-]*" | sort -u | wc
 Birden fazla domain eklerken hepsini TEK commit + TEK deploy'da topla (her domain
 için ayrı deploy döngüsü gereksiz zaman kaybı). DNS ve Coolify `domains` adımlarını
 da toplu (tüm domainler için tek PATCH / tek DNS script koşusu) yap.
+
+## Kritik: tek Coolify app'in domain tavanı ~63
+
+Coolify deploy'u domain listesini SSH komutuna gömüyor; belirli bir toplam uzunluktan
+sonra `posix_spawn(): Argument list too long` hatasıyla deploy başarısız oluyor (rollback
+otomatik, canlı siteler etkilenmiyor ama yeni domain hiç yayılmıyor). 2026-08-06'da
+bisection ile ölçüldü: **62 domain çalıştı, 64 patladı → tavan tam 63**. Bu sayı
+domain adlarının toplam karakter uzunluğuna bağlı, kesin sabit değil ama ~60-65
+aralığında bekle.
+
+**Yeni domain eklerken önce mevcut `fqdn` sayısını kontrol et**
+(`GET /applications/{uuid}` → `fqdn.split(",")`). 63'e yaklaşıyorsa (veya deploy
+`Argument list too long` ile patlarsa) **yeni bir Coolify app aç** (`kulucka-hub-2`,
+`kulucka-hub-3`...) aynı repo/branch/dockerfile ile:
+```
+POST /api/v1/applications/public
+{"project_uuid": "f13vr4fshpmhasw1v5193r18", "server_uuid": "vw2d8sl5hz64y2amrabz0ntu",
+ "environment_name": "production", "git_repository": "https://github.com/arti-tech61/kulucka-hub",
+ "git_branch": "main", "build_pack": "dockerfile", "ports_exposes": "3000", "name": "kulucka-hub-2"}
+```
+Sonra o app'in `domains` alanına yeni domain grubunu PATCH'le, deploy et. Hangi domain
+hangi app'te olduğunu takip etmek için (henüz merkezi bir kayıt yok) Coolify
+`GET /applications` ile tüm app'lerin `fqdn` alanlarını tarayarak bulunabilir.
+
+## Cloudflare "Mass URL Redirect" tuzağı
+
+Bazı domain varyantları (örn. `manliftkirala.*`, `izmirmakasliplatform.*`) hesap
+seviyesinde bir Cloudflare **Mass URL Redirect** listesine kayıtlı olabilir (eski
+SEO konsolidasyon kararı) — DNS'i bizim sunucuya çeksen bile CF edge'de 301 dönmeye
+devam eder, origin'e hiç ulaşmaz. Kontrol: `curl -sI -w "%{redirect_url}"`.
+
+Bu listeleri görmek/düzenlemek **Account Rulesets** izni ister; günlük DNS token'ında
+(`/etc/rankpanel/cloudflare.env`) bu izin yok. Gerekirse kullanıcıdan token-oluşturma
+yetkili geçici bir token iste, onunla şu izinlerle yeni bir token türet: Account
+Rulesets Read/Write, Mass URL Redirects Read/Write, Account Rule Lists Read/Write.
+Listeleri bul: `GET /accounts/{id}/rules/lists`, öğeleri: `.../lists/{list_id}/items`,
+sil: `DELETE .../items` body `{"items":[{"id":"..."}]}` (async, `operation_id` ile
+`GET .../bulk_operations/{op_id}` üzerinden takip edilir, ~10-30sn sürer).
