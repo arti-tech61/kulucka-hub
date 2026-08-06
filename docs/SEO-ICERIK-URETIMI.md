@@ -156,11 +156,29 @@ Analiz sonucu kulucka-hub'da olmayan, izmir-manlift.com'da bulunan siloların
 
 | Öncelik | Silo | Potansiyel sayfa | Gerekli yeni veri |
 |---|---|---|---|
-| 1 | **Bölge × Hizmet kesişimi** | ~6.500 | yok — mevcut veriyle üretilir |
+| ✅ | **Bölge × Hizmet kesişimi** | **833 (kuruldu)** | — |
 | 2 | Teknik terim sözlüğü (`/terimler`) | ~20 × ortak | terim veri modeli |
 | 3 | Marka sayfaları (`/markalar`) | ~7 × ortak | marka veri modeli |
 | 4 | Yükseklik-niyetli sayfalar (`/yukseklik`) | ~8 × 85 | mevcut ürün verisinden türetilebilir |
 | 5 | İlçe derinliği (il → ilçe hiyerarşisi) | ~1.000+ | yapılandırılmış ilçe verisi |
+
+### ⚠️ Bölge × Hizmet kesişiminde neden 6.446 değil 833 sayfa
+
+Kartezyen çarpım 6.446 sayfa ederdi, ancak analizde bunun yalnızca **%32'si**
+sitenin gerçekten sunduğunu beyan ettiği bir hizmete karşılık geliyordu.
+Kalan 4.415 sayfa sahte kombinasyon olurdu (yalnızca makaslı platform kiralayan
+bir siteye "örümcek platform kiralama" sayfası açmak gibi) — hem yanlış bilgi,
+hem de Google'in **doorway page** tanımına birebir uyuyor. Ağ 2,1 katına
+çıkar ve olası ceza 85 domainin tamamını birden etkilerdi.
+
+Konulan iki sınır (`src/lib/bolge-hizmet-sayfalari.ts`):
+
+1. Yalnız `site.hizmetler` ile GERÇEKTEN eşleşen hizmet konuları
+2. Yalnız ilk `MAKS_BOLGE = 3` bölge
+
+**KURAL 5.0 — Sayfa sayısı hedef değildir.** Yeni silo eklerken "kaç sayfa
+üretebilirim" değil, **"kaç sayfa gerçek bir arama niyetine karşılık geliyor"**
+sorusu sorulur. Dolgu sayfa üretmek ağın tamamını riske atar.
 
 **KURAL 5.1** — Yeni silo eklerken sayısal bir eksen varsa (yükseklik, kapasite,
 fiyat bandı), ilgili sayfa seçimi **metin benzerliğiyle değil o eksenle**
