@@ -3,7 +3,8 @@ import {
     platformAkademisiKontrolParagraflari,
     platformAkademisiMykParagraflari,
 } from "./platform-akademisi-icerik";
-import { hostIcinSite } from "./siteler";
+import { hostIcinSite, type SiteIcerik } from "./siteler";
+import { cevapOperator, cevapNakliye, cevapSure, cevapOdeme, cevapAriza, cevapIade, cevapBelge } from "./varyant";
 import { firsatSayfalari } from "./firsat-sayfalar";
 
 export interface AltSayfa {
@@ -3938,12 +3939,48 @@ for (const [host, sayfalar] of Object.entries(altSayfalar)) {
     }
 }
 
+// KOPYA İÇERİK DÜZELTMESİ
+// Bu dosyadaki elle yazılmış alt sayfalarda, 7 ortak SSS cevabı ağ genelinde
+// 115'e varan tekrarla birebir aynı metinle basılıyordu (ölçüm: toplam 747
+// tekrar). 3951 satırlık veri dosyasını elle düzenlemek yerine, cevaplar
+// OKUMA ANINDA varyant havuzundan seçilen sürümle değiştirilir — kaynak veri
+// dokunulmadan kalır, çıktı her domainde farklılaşır.
+//
+// Yeni bir ortak cevap yazacaksanız: buraya eklemek yerine varyant.ts'te
+// havuz oluşturup doğrudan oradan çağırın.
+const TEKRARLAYAN_CEVAPLAR: { esik: string; uret: (s: SiteIcerik) => string }[] = [
+    { esik: "Her iki seçenek de sunulur; operatörlü", uret: cevapOperator },
+    { esik: "Operatör talebi, yeterlilik belgesi ve tarih", uret: cevapOperator },
+    { esik: "Ödeme planı, süre ve tutara göre", uret: cevapOdeme },
+    { esik: "Nakliye bedeli mesafeye ve araç tipine", uret: cevapNakliye },
+    { esik: "Günlük, haftalık ve aylık kiralama seçenekleri", uret: cevapSure },
+    { esik: "Arıza bildirimi sonrası müdahale süresi", uret: cevapAriza },
+    { esik: "Erken iade ve sözleşme fesih koşulları", uret: cevapIade },
+    { esik: "Makinenin güncel periyodik kontrol belgesi", uret: cevapBelge },
+];
+
+function sssVaryantla(sayfa: AltSayfa, site: SiteIcerik, sayfaIndex: number): AltSayfa {
+    if (!sayfa.sss?.length) return sayfa;
+    let degisti = false;
+    const sss = sayfa.sss.map((qa, i) => {
+        const kural = TEKRARLAYAN_CEVAPLAR.find((k) => qa.cevap.startsWith(k.esik));
+        if (!kural) return qa;
+        degisti = true;
+        // Tuz sayfa ve soru indeksini içerir: aynı domainin farklı alt
+        // sayfalarındaki aynı soru da farklı varyant alsın.
+        const tuzluSite = { ...site, host: `${site.host}#alt${sayfaIndex}-${i}` };
+        return { ...qa, cevap: kural.uret(tuzluSite) };
+    });
+    return degisti ? { ...sayfa, sss } : sayfa;
+}
+
 export function hostAltSayfalari(host: string): AltSayfa[] {
     const temiz = host.toLowerCase().replace(/^www\./, "").split(":")[0];
     const bespoke = altSayfalar[temiz] ?? [];
     const site = hostIcinSite(temiz);
     const firsat = site && (!site.kategori || site.kategori === "kiralama") ? firsatSayfalari(site) : [];
-    return [...bespoke, ...firsat];
+    const tumu = [...bespoke, ...firsat];
+    return site ? tumu.map((s, i) => sssVaryantla(s, site, i)) : tumu;
 }
 
 export function altSayfaBul(host: string, slug: string): AltSayfa | undefined {

@@ -3,7 +3,7 @@
 // sitenin kendi bolge/uzmanlik/telefon verisiyle doldurulur → kopya içerik olmaz.
 import type { SiteIcerik } from "./siteler";
 import { urunKatalogu } from "./urun-katalogu";
-import { varyantSec, uzmanlikIfade, cevapOperator, cevapNakliye, cevapSure, cevapBelge } from "./varyant";
+import { varyantSec, uzmanlikIfade, cevapOperator, cevapNakliye, cevapSure, cevapBelge, cevapSinif, cevapTeslimat } from "./varyant";
 import { HIZMET_KONULARI, hizmetKonusuSlugIle, type HizmetKonusu } from "./hizmet-konulari";
 
 export interface HizmetSayfasi {
@@ -114,11 +114,7 @@ function hizmetSayfasiUret(konu: HizmetKonusu, i: number, site: SiteIcerik): Hiz
                     `${konuAd} için makine ne kadar sürede sahada olur?`,
                     `Bu iş için ne kadar sürede teslimat yapabiliyorsunuz?`,
                 ]),
-                cevap: varyantSec(site, t("s1a"), [
-                    `Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir.`,
-                    `${bolge} hattına düzenli sevkiyatımız olduğu için teslimat genelde hızlıdır; kesin süreyi makine müsaitliği belirler.`,
-                    `Standart planlamada 1-2 iş günü; makine hazır ve nakliye aracı uygunsa aynı gün sevkiyat da mümkün olabilir.`,
-                ]),
+                cevap: cevapTeslimat(site, konu.slug),
             },
             {
                 soru: varyantSec(site, t("s2q"), [
@@ -126,11 +122,7 @@ function hizmetSayfasiUret(konu: HizmetKonusu, i: number, site: SiteIcerik): Hiz
                     `${konuAd} işinde hangi platformu seçmeliyim?`,
                     "Doğru makineyi nasıl belirliyorsunuz?",
                 ]),
-                cevap: varyantSec(site, t("s2a"), [
-                    "Sahanın erişim geometrisi ve zemin koşuluna göre değişir; kesin sınıf saha bilgisiyle birlikte teklif aşamasında belirlenir.",
-                    "Üç veriye bakıyoruz: ulaşılacak yükseklik, zeminin taşıma kapasitesi ve makinenin gireceği açıklık. Kapalı alanda akülü, engebeli sahada dizel 4x4 sınıf gerekir.",
-                    `${konuAd} işlerinde genelde ${urun.ad.toLocaleLowerCase("tr-TR")} sınıfı öne çıkıyor, ancak engel ve yükseklik durumuna göre sınıf değişebilir. Saha fotoğrafı paylaşırsanız daha net öneri veriyoruz.`,
-                ]),
+                cevap: cevapSinif(site, konu.slug),
             },
             {
                 soru: varyantSec(site, t("s3q"), [

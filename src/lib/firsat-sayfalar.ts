@@ -3,6 +3,7 @@
 // verisiyle (bolge/uzmanlik/hizmetler/telefon) doldurulur, kopya içerik oluşmaz.
 import type { SiteIcerik } from "./siteler";
 import type { AltSayfa } from "./alt-sayfalar";
+import { varyantSec, cevapNakliye, cevapOdeme, cevapIade } from "./varyant";
 
 function bolgeIlk(site: SiteIcerik) {
     return site.bolge.split(",")[0].trim();
@@ -40,11 +41,31 @@ function nakliyeSayfasi(site: SiteIcerik): AltSayfa {
             { baslik: "Acil teslimat değerlendirmesi", metin: "Araç ve makine uygunluğuna göre aynı gün veya ertesi gün teslimat talep edilebilir." },
         ],
         sss: [
-            { soru: "Nakliye bedeli fiyata dahil mi?", cevap: "Hayır, mesafe ve araç tipine göre değişir; yazılı teklifte ayrı kalem olarak gösterilir." },
-            { soru: `${bolge} teslimat süresi ne kadar sürer?`, cevap: "Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir." },
-            { soru: "Nakliye sırasında makine sigortalı mı?", cevap: "Nakliye ve kullanım süresince sigorta kapsamı tedarikçi tarafından sağlanır; detaylar teklif ile birlikte paylaşılır." },
-            { soru: "Dar sahalara nakliye yapılabilir mi?", cevap: "Evet, saha ölçüleri önceden paylaşıldığında uygun araç ve makine ölçüsü birlikte planlanır." },
-            { soru: "Nakliye ücreti iade ediliyor mu?", cevap: "Tek yönlü ve çift yönlü nakliye seçenekleri ve ücretlendirmesi teklif aşamasında netleştirilir." },
+            { soru: "Nakliye bedeli fiyata dahil mi?", cevap: cevapNakliye(site) },
+            { soru: `${bolge} teslimat süresi ne kadar sürer?`, cevap: varyantSec(site, "f-teslim", [
+                "Araç ve makine uygunluğuna göre değişir; acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir.",
+                `${bolge} hattına düzenli sevkiyatımız olduğu için teslimat çoğunlukla 1-2 iş gününde tamamlanır; acil taleplerde önceliklendirme yapılır.`,
+                "Standart planlamada 1-2 iş günü sürer. Makine sahada hazırsa ve nakliye aracı uygunsa aynı gün sevkiyat da mümkündür.",
+                "Süre, makine müsaitliği ve nakliye aracı planına bağlıdır. Tarih verdiğinizde kesin teslimat gününü teyit ediyoruz.",
+            ]) },
+            { soru: "Nakliye sırasında makine sigortalı mı?", cevap: varyantSec(site, "f-sigorta", [
+                "Nakliye ve kullanım süresince sigorta kapsamı tedarikçi tarafından sağlanır; detaylar teklifte belirtilir.",
+                "Makine sigortası bizim tarafımızdadır; kapsam, muafiyet tutarı ve hasar bildirim süreci sözleşmede yazılı olarak tanımlanır.",
+                "Sigorta kiralama paketine dahildir. Ancak hatalı kullanım kaynaklı hasarlar kapsam dışıdır; sınırlar teklifte açıkça yazılır.",
+                "Nakliye ve kiralama dönemi sigorta kapsamındadır. Poliçe detaylarını teklif ekinde paylaşıyoruz.",
+            ]) },
+            { soru: "Dar sahalara nakliye yapılabilir mi?", cevap: varyantSec(site, "f-dar", [
+                "Evet, saha ölçüleri önceden paylaşıldığında uygun araç ve makine ölçüsü birlikte planlanır.",
+                "Dar sahalar için kompakt şaseli modellerimiz var. Giriş kapısı genişliği ve manevra alanını paylaşırsanız uygun makineyi seçiyoruz.",
+                "Mümkün. Kritik olan giriş açıklığı, dönüş yarıçapı ve zemin taşıma kapasitesi; bu üçünü teslimat öncesi teyit ediyoruz.",
+                "Evet. Dar erişimli sahalarda küçük araçla sevkiyat veya makinenin sahada montajı gibi alternatifleri değerlendiriyoruz.",
+            ]) },
+            { soru: "Nakliye ücreti iade ediliyor mu?", cevap: varyantSec(site, "f-iade-nak", [
+                "Tek yönlü ve çift yönlü nakliye seçenekleri ve ücretlendirmesi teklif aşamasında netleştirilir.",
+                "Nakliye gidiş ve dönüş olarak ayrı ayrı fiyatlandırılır; iade nakliyesini kendiniz organize ederseniz o kalem düşer.",
+                "Gidiş-dönüş nakliye tek kalemde de fiyatlandırılabilir, ayrı ayrı da. Hangisinin uygun olduğunu teklifte gösteriyoruz.",
+                "İade nakliyesi ayrı bir hizmettir; teklifte gidiş ve dönüş kalemleri ayrıştırılmış olarak yer alır.",
+            ]) },
         ],
     };
 }
@@ -68,11 +89,26 @@ function uzunSureliFiyatSayfasi(site: SiteIcerik): AltSayfa {
             { baslik: "Süre uzatma ve erken iade", metin: "İhtiyaç değişirse süre uzatma veya erken iade koşulları sözleşmede baştan netleştirilir." },
         ],
         sss: [
-            { soru: "Uzun süreli kiralama kaç aydan itibaren başlar?", cevap: "Genellikle 1 aylık kiralama uzun süreli kabul edilir; kesin eşik ve indirim oranı talep edilen süreye göre teklifte belirtilir." },
-            { soru: "Aylık kiralamada bakım kime aittir?", cevap: "Periyodik bakım genellikle kiralayan firma tarafından planlanır; detay sözleşmede belirtilir." },
-            { soru: "Süre ortasında makine değiştirilebilir mi?", cevap: "İhtiyaç değişirse farklı sınıfa geçiş değerlendirilebilir; bu durum önceden bildirilmelidir." },
-            { soru: "Uzun süreli kiralamada ön ödeme gerekir mi?", cevap: "Ödeme planı süre ve tutara göre teklif aşamasında belirlenir; kurumsal müşteriler için fatura karşılığı seçenekler değerlendirilebilir." },
-            { soru: "Erken sonlandırmada ceza var mı?", cevap: "Erken iade ve sözleşme fesih koşulları imzalanan kiralama sözleşmesinde açıkça tanımlanır; olası kesinti ücreti varsa önceden bildirilir." },
+            { soru: "Uzun süreli kiralama kaç aydan itibaren başlar?", cevap: varyantSec(site, "f-uzun", [
+                "Genellikle 1 aylık kiralama uzun süreli kabul edilir; kesin eşik ve indirim oranı talep edilen makine ve süreye göre belirlenir.",
+                "Pratikte 1 ay ve üzeri kiralamalar uzun süreli sayılır. Günlük birim maliyet bu eşikten sonra belirgin şekilde düşer.",
+                "Uzun süreli tarife çoğunlukla aylık kiralamada devreye girer; 3 ay ve üzeri projelerde ek kademeler değerlendirilebilir.",
+                "Eşik makine sınıfına göre değişmekle birlikte genelde 30 gündür. Proje sürenizi paylaşın, karşılaştırmalı gösterelim.",
+            ]) },
+            { soru: "Aylık kiralamada bakım kime aittir?", cevap: varyantSec(site, "f-bakim", [
+                "Periyodik bakım genellikle kiralayan firma tarafından planlanır; detay sözleşmede belirtilir.",
+                "Uzun süreli kiralamalarda periyodik bakım bizim yükümlülüğümüzdedir ve bakım takvimi sözleşmeye eklenir.",
+                "Bakım sorumluluğu bize aittir; planlı bakımlar iş programınıza en az duruş yaratacak şekilde takvimlenir.",
+                "Rutin bakım ve yağ/filtre değişimi kiralama paketine dahildir. Günlük kontroller ise kullanıcı sorumluluğundadır.",
+            ]) },
+            { soru: "Süre ortasında makine değiştirilebilir mi?", cevap: varyantSec(site, "f-degisim", [
+                "İhtiyaç değişirse farklı sınıfa geçiş değerlendirilebilir; bu durum önceden bildirilmelidir.",
+                "Evet, makine sınıfı değişimi mümkündür. Müsaitlik ve fiyat farkı gözden geçirilir; talebi birkaç gün önceden iletmeniz yeterli.",
+                "Proje ilerledikçe ihtiyaç değişebiliyor; bu durumda makine değişimi planlanabilir. Nakliye ve tarife farkı ayrıca hesaplanır.",
+                "Sınıf değişikliği talebi değerlendirmeye alınır. Filo müsaitliğine bağlı olarak genelde birkaç gün içinde uygulanabiliyor.",
+            ]) },
+            { soru: "Uzun süreli kiralamada ön ödeme gerekir mi?", cevap: cevapOdeme(site) },
+            { soru: "Erken sonlandırmada ceza var mı?", cevap: cevapIade(site) },
         ],
     };
 }

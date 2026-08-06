@@ -11,7 +11,7 @@ import type { SiteIcerik } from "./siteler";
 import { urunKatalogu } from "./urun-katalogu";
 import {
     varyantSec, uzmanlikIfade,
-    cevapOperator, cevapNakliye, cevapSure, cevapBelge,
+    cevapOperator, cevapNakliye, cevapSure, cevapBelge, cevapSinif, cevapTeslimat,
 } from "./varyant";
 
 export interface BolgeSayfasi {
@@ -154,11 +154,7 @@ export function bolgeSayfalari(site: SiteIcerik): BolgeSayfasi[] {
                         `${bolgeAdi} için makine ne kadar sürede sahada olur?`,
                         `${bolgeAdi} bölgesine ne kadar sürede teslim edebiliyorsunuz?`,
                     ]),
-                    cevap: varyantSec(site, t("s1a"), [
-                        `Araç ve makine uygunluğuna göre değişir; ${bolgeAdi} için acil ihtiyaçlarda aynı gün veya ertesi gün teslimat değerlendirilir.`,
-                        `${bolgeAdi} hattına düzenli sevkiyatımız olduğu için teslimat genelde hızlıdır. Kesin süre makine müsaitliği ve nakliye aracı planına bağlıdır; tarih verdiğinizde netleştiriyoruz.`,
-                        `Standart planlamada teslimat 1-2 iş günüdür. Makine sahada hazırsa ve nakliye aracı uygunsa ${bolgeAdi} için aynı gün sevkiyat da mümkün olabilir — acil durumu belirtin, önceliklendirelim.`,
-                    ]),
+                    cevap: cevapTeslimat(site, slugla(bolgeAdi)),
                 },
                 {
                     soru: varyantSec(site, t("s2q"), [
@@ -166,11 +162,7 @@ export function bolgeSayfalari(site: SiteIcerik): BolgeSayfasi[] {
                         `${bolgeAdi} için hangi platformu seçmeliyim?`,
                         `${bolgeAdi} bölgesindeki işlerde hangi sınıf uygun olur?`,
                     ]),
-                    cevap: varyantSec(site, t("s2a"), [
-                        `Sahanın erişim geometrisi ve zemin koşuluna göre değişir; kesin sınıf saha bilgisiyle birlikte teklif aşamasında belirlenir.`,
-                        `Karar üç ölçüye bakar: ulaşılacak yükseklik (platform yüksekliğine ~2 m eklenir), zeminin sert ve düz olup olmadığı, ve makinenin gireceği açıklık. Kapalı alanda akülü, engebeli açık sahada dizel 4x4 sınıf gerekir.`,
-                        `${bolgeAdi} sahalarında zemin belirleyici oluyor: beton ve epoksi zeminde akülü makaslı platform yeterliyken, kırmataş veya çamurlu sahada dizel arazi sınıfına geçmek gerekir. Yükseklik ve zemin bilgisini paylaşın, sınıfı birlikte netleştirelim.`,
-                    ]),
+                    cevap: cevapSinif(site, slugla(bolgeAdi)),
                 },
                 {
                     soru: varyantSec(site, t("s3q"), [
