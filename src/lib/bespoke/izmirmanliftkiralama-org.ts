@@ -413,4 +413,598 @@ export const IZMIRMANLIFTKIRALAMA_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Pınarbaşı'nın Bornova'da Ankara yolu aksı üzerindeki sanayi konumu kamuya açık bilgidir; parsel içi indirme ilkesi, üç adımlı hız standardı ve dönüş yükü modeli firma pratiğidir.",
     },
+
+    "bolge:isikkent": {
+        h1: "Işıkkent Sanayi Bölgesine Ada İçi Manlift Teslimatı",
+        giris:
+            "Işıkkent, Bornova'nın güneyinde ayakkabıcılar sitesiyle özdeşleşmiş, küçük ve orta ölçekli imalatçının yoğun biçimde kümelendiği bir sanayi bölgesidir — ve teslimat gözünden bakıldığında karakteri, komşusu Pınarbaşı'nın tam tersidir: orada arter kenarında geniş parseller varken, burada birbirine bitişik küçük işyerleri, ada-blok düzeninde dizilmiş iç sokaklar ve gün boyu süren yükleme-boşaltma hareketi vardır. Çekiciyle bu dokuya girmek, adresin yalnızca cadde adını değil, ada ve blok numarasını bilmeyi gerektirir; aynı sitenin iki farklı bloğu, aracı iki farklı iç sokağa yönlendirir. Işıkkent sevkiyatlarımız bu yüzden blok bazlı kurgulanır: föye ada-blok-kapı üçlüsü yazılır, araç siteye en uygun girişten alınır ve indirme, iç sokağın yük hareketini en az kesecek noktada yapılır. Bölgenin çevre yoluna yakınlığı ise varış süresini kısaltan tarafıdır — zorluk yolda değil, iç sokaktadır ve biz iç sokağı önceden çözeriz.",
+        maddeler: [
+            {
+                baslik: "Ada-blok adresleme: föyün ilk satırı",
+                metin:
+                    "Işıkkent'te 'hangi caddedesiniz' sorusu teslimatı kurtarmaz; siteler kendi iç numaralandırmasıyla yaşar ve navigasyon uygulamaları bu iç düzeni her zaman doğru göstermez. Sipariş alınırken bu yüzden ada, blok ve kapı numarası ayrı ayrı sorulur, mümkünse işyerinin kepenk fotoğrafı istenir. Şoför siteye girdiğinde aradığı bloğu değil, föyde tarif edilen dönüş sırasını takip eder — üçüncü iç sokaktan sola, ikinci blok, köşe kapı. Bu kesinlik, dar dokuda aracın gezinmesini ve iç trafiği kilitleme riskini ortadan kaldırır.",
+            },
+            {
+                baslik: "Kısa şasili araç tercihi ve iç sokak manevrası",
+                metin:
+                    "Bitişik nizam blokların arasındaki iç sokaklar, uzun çekici için manevra alanı bırakmaz; Işıkkent teslimatlarının çoğu bu nedenle kısa şasili araçla planlanır. Makine sınıfı kısa aracın kapasitesini aşıyorsa kurgu değişir: büyük araç sitenin dışındaki geniş kesişimde durur, makine son mesafeyi kendi tekerleğiyle kat eder. Hangi kurgunun uygulanacağı, sipariş anındaki blok konumuna göre kararlaştırılır — iç sokağın derinliğindeki bir adrese uzun araç sokmak, geri çıkışı olmayan bir hamledir ve biz o hamleyi hiç yapmayız.",
+            },
+            {
+                baslik: "Yükleme saatleriyle çakışmayan pencere",
+                metin:
+                    "Ayakkabı ve yan sanayi imalatının ritmi, Işıkkent iç sokaklarını belirli saatlerde kamyonet ve panelvanla doldurur: malzeme girişleri sabah, sevkiyat çıkışları öğleden sonra yoğunlaşır. Bizim indirme operasyonumuz bu dalgaların arasına yazılır — çoğu blokta en temiz dilim, sabah dalgasının söndüğü kuşluk saatleridir. Bloktaki komşu işyerlerinin yük düzeni de hesaba katılır; sizin kapınız müsaitken komşunun yükleme yapması, iç sokağı yine kapatır. Pencere seçiminde bu yüzden 'sokağın saati' sorulur, yalnızca sizin saatiniz değil.",
+            },
+            {
+                baslik: "Tek siteye çoklu teslim: paylaşımlı sefer",
+                metin:
+                    "Küçük işletme yoğunluğu, Işıkkent'e özgü bir fırsat üretir: aynı sitede birden fazla firmaya aynı gün makine gerekmesi seyrek değildir. Sevkiyat planımız bu talepleri tek sefere bindirir — araç siteye bir kez girer, ardışık bloklara ardışık indirme yapar ve nakliye bedeli teslim sayısına bölünür. Komşunuzla aynı haftaya denk gelen ihtiyaçlarınızı birlikte iletmeniz, iki tarafın da sevkiyat payını düşürür. Bölgeye zaten sık araç çıkardığımız için, tekil taleplerde de o haftaki Işıkkent seferine eklenme imkânı önce kontrol edilir.",
+            },
+            {
+                baslik: "Çevre yolu bağlantısıyla hızlı varış, sakin saatte giriş",
+                metin:
+                    "Işıkkent'in şehir çeperindeki konumu, depodan çıkan aracın kent içi arterlere bulaşmadan bölgeye ulaşmasına imkân verir; varış süresi bu hatta oldukça öngörülebilirdir. Öngörülemeyen kısım sitenin giriş kesişimleridir — mesai başlangıcında ve öğle çıkışında site kapı çevreleri kısa süreli düğümlenir. Sevkiyat saatini bu düğüm anlarının dışına yazarız: araç ana yoldan sakin dilimde ayrılır, kapı çevresinde beklemeden içeri süzülür ve indirme noktasına doğrudan iner. Hızlı yol artı sakin giriş, Işıkkent tesliminin formülüdür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Işıkkent teslimatında blok konumu ve araç kurgusu",
+                paragraflar: [
+                    "Adresin site içindeki konumu, hangi araçla ve hangi kurguyla gelineceğini belirler. Tablo, Işıkkent'te kullandığımız eşleşmeyi gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Blok konumu", "Araç kurgusu", "İndirme yeri", "Pencere"],
+                    satirlar: [
+                        ["Ana yol cepheli blok", "Standart çekici", "Blok önü cep", "Kuşluk saatleri"],
+                        ["İç sokak derinliği", "Kısa şasili araç", "Blok kapısı hizası", "Yük dalgaları arası"],
+                        ["Dar iç sokak + büyük makine", "Dış kesişimde indirme", "Site girişi yakını düzlük", "Sabah erken"],
+                        ["Site ortak alanı işi", "Yönetimle saatli plan", "Yönetimin gösterdiği alan", "Mesai dışı seçenekli"],
+                        ["Çoklu teslim (aynı site)", "Tek araç ardışık indirme", "Blok sırasına göre", "Tek pencere, sıralı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kepenk fotoğrafı: dar dokunun sigortası",
+                paragraflar: [
+                    "Işıkkent siparişlerinde alıcıdan istediğimiz en değerli şey, işyerinin kepengini ve önündeki sokağı gösteren iki fotoğraftır. Bu iki kare, planlamacıya blok cephesinin genişliğini, sokaktaki park düzenini ve indirme cebinin gerçek boyutunu söyler; ada-blok numarasının söyleyemediği her şeyi söyler. Fotoğrafla kurulan plan, teslim günü şoförün doğru kapıyı ilk geçişte bulmasını sağlar — dar dokuda ikinci tur atmak, hem zaman hem iç sokak trafiği açısından pahalıdır.",
+                    "Fotoğraf gönderemeyen alıcılarda telefon tarifi devreye girer; ama tarif, karenin yerini tutamaz. Bir dakikalık iki fotoğraf, Işıkkent tesliminin en ucuz ve en etkili hazırlık adımıdır.",
+                ],
+            },
+            {
+                baslik: "İade turu: siteden toplu çıkış",
+                paragraflar: [
+                    "Teslimde işleyen paylaşımlı sefer mantığı, iadede de çalışır: aynı sitede biten kiralamalar tek alım turunda toplanır ve araç, bloktan bloğa yükleyerek siteden tek seferde çıkar. İade tarihiniz esnekse bunu belirtmeniz yeterlidir — alımınız, o haftaki Işıkkent toplama turuna yazılır ve nakliye payınız düşer. Kesin tarihli iadeler ise bağımsız planlanır; fark yalnızca maliyettedir, hız aynıdır.",
+                    "Alım günü makinenin blok önünde, sokağı kapatmayan bir hizada hazır bekletilmesi süreci hızlandırır; yükleme dakikalar içinde biter ve iç sokak uzun süre meşgul edilmez. Bu küçük hazırlık ricamız, sitenin ortak yaşamına duyduğumuz saygının parçasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ayakkabıcılar sitesindeki atölyemize makine getirebilir misiniz; sokaklar çok dar.",
+                cevap:
+                    "Getiririz — doğru araç ve doğru kurguyla: blok konumunuza göre ya kısa şasili araç iç sokağa kadar girer ya da araç sitenin geniş kesişiminde durur ve makine son metreleri kendi yürüyüşüyle alır. Hangi kurgunun uygulanacağını sipariş anında, ada-blok bilginiz ve kepenk fotoğrafınızla birlikte kararlaştırırız. Dar sokak, teslimatın engeli değil planlama girdisidir; bizim çözemeyeceğimiz tek senaryo, plansız gelinen dar sokaktır ve o senaryoyu hiç oynamayız.",
+            },
+            {
+                soru: "Navigasyona adresimizi yazınca yanlış kapıya yönlendiriyor; şoförünüz bizi nasıl bulacak?",
+                cevap:
+                    "Föy, navigasyonun yerine geçer: sipariş alınırken ada, blok ve kapı numaranızla birlikte site girişinden kapınıza kadar olan dönüş sırası yazılır ve şoför uygulamayı değil bu tarifi izler. Araç siteye yaklaşırken teslim alacak kişi aranır; gerekiyorsa son sokakta telefonla yönlendirme yapılır. İlk teslimatın tarifi kayıtta kalır — ikinci kiralamanızda şoför kapınızı ezbere bilir. Yanlış kapıya inen makine bizim hatamız olur ve bu hatayı planlama disipliniyle sıfırda tutarız.",
+            },
+            {
+                soru: "Gün içinde sürekli mal giriş çıkışımız var; makine indirilirken kapımız bloke olur mu?",
+                cevap:
+                    "Olmaz — çünkü indirme sizin ve sokağınızın sakin dilimine yazılır: sipariş görüşmesinde hem sizin yükleme saatlerinizi hem bloktaki komşuların ritmini sorarız ve pencere, iki dalganın arasına oturtulur. İndirmenin kendisi dakikalarla ölçülür; rampa iner, makine yere alınır, araç sokaktan çıkar. Kapınızın önünde uzun süre duran bir araç görmezsiniz. Sürekli hareketli bloklarda mesai öncesi teslim de güçlü bir alternatiftir — makine siz kepengi açmadan kapınızda olur.",
+            },
+            {
+                soru: "Komşu atölyeyle aynı hafta makine kiralayacağız; ortak sevkiyat mümkün mü?",
+                cevap:
+                    "Mümkün ve tam da önerdiğimiz model bu: iki talebi birlikte ilettiğinizde teslimler aynı sefere yazılır, araç siteye tek giriş yapar, ardışık bloklara ardışık indirme gerçekleşir ve nakliye bedeli ikiye bölünür. İadeler de aynı mantıkla toplanabilir; kiralama süreleriniz farklıysa alımlar ayrı turlara düşer ama her tur yine o haftanın diğer Işıkkent alımlarıyla birleştirilir. Küçük işletme yoğunluğu, bu bölgede sevkiyat maliyetini paylaştırmanın en doğal zeminidir; kullanmamak israftır.",
+            },
+            {
+                soru: "Makinemiz iç sokakta gece güvende olur mu, yoksa her akşam içeri mi almalıyız?",
+                cevap:
+                    "Karar sizindir ama önerimiz nettir: makine gece işyerinizin kapalı alanına veya sitenin kontrollü bir köşesine alınmalıdır — iç sokakta bırakılan makine hem site trafiğine engel olur hem de sorumluluğu size ait bir risk taşır. Teslimatta bu yüzden makinenin gece bekleme yerini de sorarız; kapalı alanınız yoksa blok önünde sokağı daraltmayan bir park hizası birlikte belirlenir ve anahtar-şalter düzeni anlatılır. Doğru gece düzeni, kiralama boyunca hem sizi hem komşularınızı rahat ettirir.",
+            },
+            {
+                soru: "Sipariş verirsek makine ne kadar sürede Işıkkent'te olur?",
+                cevap:
+                    "Bölge, en hızlı dönebildiğimiz adreslerdendir: çevre yolu bağlantısı varış süresini kısaltır ve Işıkkent'e çoğu hafta zaten sefer çıkar — talebiniz o günkü veya ertesi günkü sefere eklenebiliyorsa cevap 'yarın' yerine 'bugün' olabilir. Kesinleşmesi gereken üç bilgi süreyi belirler: ada-blok adresi, makinenin sınıfı ve indirme kurgusu. Üçü telefonda netleşirse aynı gün teslim küçük ve orta sınıf makinelerde gerçekçidir; büyük sınıf, araç planına bağlı olarak bir gün ister. Net saat, telefonda verilir ve tutulur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Işıkkent'in Bornova'daki konumu ve ayakkabıcılar sitesiyle bilinen küçük imalatçı dokusu kamuya açık bilgidir; ada-blok föyü, kısa şasi kurgusu ve paylaşımlı sefer düzeni firma pratiğidir.",
+    },
+
+    "bolge:bergama-osb": {
+        h1: "Bergama OSB'ye Uzun Hat Manlift Sevkiyatı",
+        giris:
+            "Bergama, teslimat ağımızın en uzun düzenli hattıdır: İzmir'in kuzeyine, Menemen ve Aliağa üzerinden ilerleyen karayoluyla yaklaşık yüz kilometrelik bir sevkiyat rotası söz konusudur ve bu mesafe, kent içi teslimatın hiçbir alışkanlığını tanımaz. Yüz kilometrelik hatta 'öğlene doğru geliriz' denmez; çıkış saati, mola gerekmeyen tek etaplı sürüş, OSB kapısına varış penceresi ve dönüş yükü tek bir planın satırlarıdır. Ağır sınıf makinelerde lowbed devreye girer ve lowbed'in hız limiti ile güzergâh kuralları, varış hesabını ayrıca şekillendirir. Bergama hattımızın ilkesi tek cümledir: bu yola çıkan araç, günü dolu çıkar — teslimat tek başına değil, bölgedeki diğer teslim ve alımlarla aynı sefere bindirilir; nakliyenin kilometre maliyeti böylece paylaşılır. Bu sayfa, uzun hattın nasıl planlandığını ve Bergama'daki alıcının bu plandan nasıl kazançlı çıktığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kuzey aksı: Menemen-Aliağa üzerinden rota",
+                metin:
+                    "Bergama sevkiyatının omurgası, İzmir'i kuzeye bağlayan ana karayoludur: araç Menemen ovasını geçer, Aliağa sanayi kuşağının trafiğini yaşar ve oradan kuzeye, Bakırçay havzasına iner. Rotanın kritik kesiti Aliağa çevresidir — rafineri ve liman trafiğinin ağır araç yoğunluğu, günün belirli saatlerinde hattı yavaşlatır. Çıkış saatimiz bu kesitin sakin geçilmesine göre ayarlanır; erken çıkan araç, Aliağa'yı yoğunluk bağlamadan aşar ve Bergama'ya öngörülen pencerede varır.",
+            },
+            {
+                baslik: "Lowbed hesabı: ağır sınıfın yol kuralları",
+                metin:
+                    "Büyük çalışma yüksekliğindeki makineler lowbed ile taşınır ve lowbed, uzun hatta kendi matematiğini getirir: seyir hızı standart çekicinin altındadır, bazı kavşak ve dönemeçlerde geniş dönüş gerekir ve yüklü yükseklik, güzergâh üzerindeki alt geçitlerle önceden karşılaştırılır. Bergama föylerinde bu kontrol ayrı bir satırdır — rota, yüklü ölçülerle bir kez zihinde sürülür, sonra araç yola çıkar. Ağır sınıf talebinde alıcıya verilen varış penceresi, bu hesabın sonucudur; iyimser tahmin değil, ölçülmüş süredir.",
+            },
+            {
+                baslik: "OSB kapısına bildirimli varış",
+                metin:
+                    "Uzun yolun sonunda kapıda beklemek, hattın bütün verimini siler; Bergama OSB teslimatlarında bu yüzden varış önceden bildirilir. Alıcı firma, aracın plakasını ve tahmini varış dilimini kapı görevlisine iletir; tesis içindeki indirme noktası ve karşılayacak kişi föyde yazılıdır. Araç Bergama'ya girdiğinde teslim alacak kişi bir kez daha aranır — yüz kilometre yol gelmiş bir çekicinin kapı önünde yetkili araması, kabul etmediğimiz bir israftır. Bildirimli varış, uzun hattın kapıdaki karşılığıdır.",
+            },
+            {
+                baslik: "Sefer birleştirme: kilometrenin paylaşılması",
+                metin:
+                    "Yüz kilometrelik nakliyeyi tek müşteriye yüklemek, kiralamayı gereksiz pahalandırır; Bergama planlamamızın ana işi bu yükü bölmektir. Bölgeden gelen talepler haftalık takvimde toplanır, teslimler ve biten kiralamaların alımları aynı sefere dizilir — kuzeye giden araç dolu gider, dolu döner. Tarihi birkaç gün esnetebilen alıcı, bu birleşmeden doğrudan kazanır; sabit tarihli acil talep de karşılanır ama seferi tek başına taşır. İki seçeneğin bedeli teklifte ayrı ayrı gösterilir ve karar alıcıya bırakılır.",
+            },
+            {
+                baslik: "Uzun kiralama teşviki: hattın doğal sonucu",
+                metin:
+                    "Mesafe, kiralama süresinin ekonomisini de değiştirir: Bergama'ya iki günlük iş için makine göndermek, nakliyenin toplam içindeki payını büyütür; iki haftalık kiralamada aynı nakliye, gün başına eridiğinde önemsizleşir. Bu yüzden Bergama alıcılarına dürüst önerimiz, bölgedeki işlerini toplayıp tek uzun kiralamada birleştirmeleridir — makine sahada kalır, ara sevkiyat doğmaz ve gün maliyeti kent içi seviyeye yaklaşır. Kısa işler içinse sefer birleştirme takvimi devrededir; kimseye 'değmez' demeyiz, doğru modeli gösteririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bergama hattında talep tipi ve sevkiyat modeli",
+                paragraflar: [
+                    "Uzun hatta her talep tipinin kendi sevkiyat modeli vardır. Tablo, Bergama planlamasında kullandığımız karar düzenini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep tipi", "Sevkiyat modeli", "Nakliye payı", "Varış penceresi"],
+                    satirlar: [
+                        ["Uzun süreli kiralama", "Tek gidiş + planlı iade", "Güne bölünmüş, düşük", "Anlaşılan gün, sabah"],
+                        ["Kısa iş, tarihi esnek", "Haftalık sefer birleştirme", "Paylaşımlı", "Sefer günü"],
+                        ["Kısa iş, tarihi sabit", "Bağımsız sefer", "Tam", "Seçilen gün"],
+                        ["Ağır sınıf (lowbed)", "Önceden ölçülmüş rota", "Sınıfa göre", "Geniş pay ile verilen dilim"],
+                        ["Aynı bölgede çoklu teslim", "Tek araç ardışık teslim", "Bölünmüş", "Sıralı pencereler"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gidiş-dönüş tek gün: hattın zaman bütçesi",
+                paragraflar: [
+                    "Bergama seferi, sürücünün gününü baştan sona planlayan bir zaman bütçesiyle çalışır: sabah erken çıkış, Aliağa kesitinin sakin geçişi, OSB'de bildirimli indirme, varsa bölgedeki ikinci teslim veya alım, öğleden sonra dönüş. Bu bütçenin her kalemi föyde saatlendirilir ve alıcıya verilen pencere, bütçenin içinden okunur. Bütçe disiplini sayesinde uzun hat, belirsizlik üretmez — 'araç nerede' sorusunun cevabı gün planında zaten yazılıdır.",
+                    "Bütçeyi bozan tek şey plansız eklemelerdir: yola çıkmış araçtan habersiz ikinci bir iş istemek, ya o işi ya günün dönüşünü feda ettirir. Bergama talebinizi sefer gününden önce iletin; bütçeye yazılan iş, aksamayan iştir.",
+                ],
+            },
+            {
+                baslik: "İade planı: kuzeyden dönen aracın yükü",
+                paragraflar: [
+                    "Uzun hatta boş dönen araç, hattın en pahalı görüntüsüdür; iade planlaması bu görüntüyü ortadan kaldırmak için çalışır. Bergama'da biten kiralamaların alım tarihleri, kuzeye çıkacak teslim seferleriyle eşleştirilir: makinenizi bırakan araç, bölgede biten başka bir makineyi yükleyip döner. İade tarihinizi birkaç gün önceden bildirmeniz, bu eşleşmenin kurulmasını sağlar ve alım bedelinize doğrudan yansır.",
+                    "Son güne kalan iadeler için bağımsız alım her zaman mümkündür; fark maliyettedir ve baştan söylenir. Uzun hattın altın kuralı değişmez: erken haber, ucuz kilometre demektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İzmir'den Bergama'ya makine kaç saatte gelir?",
+                cevap:
+                    "Standart çekiciyle yol süresi, çıkış saatine ve Aliağa kesitinin durumuna göre değişmekle birlikte öngörülebilir bir aralıktadır; lowbed taşımalarında hız limiti nedeniyle bu süre uzar. Size verdiğimiz bilgi ham yol süresi değil, varış penceresidir: çıkış saati, kesit geçişleri ve kapı bildirimi hesaba katılmış bir dilim söyleriz ve o dilime uyarız. Kesin rakamı telefonda, makine sınıfınız ve teslim gününüz netleşince veririz — uzun hatta genel geçer saat söylemek, tutulmayacak söz vermektir ve biz vermeyiz.",
+            },
+            {
+                soru: "Nakliye ücreti bu mesafede çok yüksek olmaz mı?",
+                cevap:
+                    "Tek başına taşınırsa yüksektir; planla taşınırsa değildir. Üç mekanizma maliyeti düşürür: talepler haftalık seferde birleştirilir ve kilometre paylaşılır, teslim yapan araç dönüşte biten bir kiralamayı yükler ve boş kilometre silinir, uzun kiralamalarda nakliye gün başına eriyerek önemsizleşir. Teklifinizde bu seçenekleri ayrı satırlarda görürsünüz. Bergama'da nakliyeyi pahalı yapan mesafe değil, plansızlıktır — tarih esnekliğiniz varsa söyleyin, rakam gözle görülür biçimde iner.",
+            },
+            {
+                soru: "Ağır sınıf bir makine istiyoruz; lowbed OSB'ye kadar sorunsuz gelir mi?",
+                cevap:
+                    "Gelir — rota önceden ölçüldüğü için: lowbed sevkiyatından önce güzergâhtaki alt geçit yükseklikleri, dönüş yarıçapları ve OSB girişinin geometrisi yüklü ölçülerle karşılaştırılır; tereddüt doğuran nokta varsa alternatif kesit planlanır. Tesisinizin kapı genişliği ve saha girişi de aynı kontrole dahildir — lowbed'in tesise giremediği durumda makine, kapıya en yakın uygun noktada indirilir ve kendi yürüyüşüyle içeri alınır. Bu kontrollerin tamamı sipariş aşamasında biter; yola çıkan lowbed, sürprizsiz yol alır.",
+            },
+            {
+                soru: "İki günlük kısa bir işimiz var; bu mesafeye gelir misiniz?",
+                cevap:
+                    "Geliriz ve iki dürüst seçenek sunarız: tarihiniz esnekse işiniz o haftaki kuzey seferine eklenir, nakliye payınız paylaşımlı hesaplanır ve maliyet makul kalır; tarihiniz sabitse bağımsız sefer planlanır ve kilometre bedeli tek başına size yazılır — farkı teklifte açıkça görürsünüz. Üçüncü ve çoğu zaman en akıllı yol, bölgedeki diğer işlerinizi de toplayıp kiralamayı uzatmaktır: makine sahada kaldıkça nakliyenin gün başına düşen payı küçülür. Hangisinin size uyduğunu rakamlarla birlikte konuşuruz.",
+            },
+            {
+                soru: "Aracınız geldiğinde tesisimizde kimse olmazsa makine geri mi döner?",
+                cevap:
+                    "Bu senaryoyu yaşamamak için çift teyit uygularız: sefer gününden önce teslim alacak kişinin adı ve telefonu föye yazılır, araç Bergama'ya yaklaşırken o kişi aranır. Buna rağmen sahada yetkili yoksa makine indirilemez — teslim tutanağı imzasız kalamaz — ve yüz kilometrelik seferin boşa dönmesi, maliyetiyle birlikte talep sahibine yansımak zorunda kalır. Bu yüzden ricamız basittir: teslim saatinde ulaşılabilir bir yetkili veya vekili belirleyin; gerisini sefer planı taşır.",
+            },
+            {
+                soru: "Kiralamamız uzarsa makineyi almaya boşuna araç gelmesin; nasıl haberleşelim?",
+                cevap:
+                    "İade haftası yaklaşırken biz sizi arar, alım gününü teyit ederiz — uzatma kararınızı bu aramada söylemeniz yeterlidir ve alım aracı hiç planlanmaz. Kendi takviminizde uzama ihtimali erken belli olduysa beklemeyin, bir telefonla bildirin; kuzey seferlerinin haftalık planı buna göre kurulur ve sizin alımınıza ayrılan yer başka bir işe verilir. Uzun hatta boş çıkan sefer herkesin kaybıdır; erken haberleşme, bu hattı hem sizin için hem bizim için ekonomik tutan tek alışkanlıktır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bergama'nın İzmir'e Menemen-Aliağa karayolu üzerinden bağlanan kuzey konumu kamuya açık coğrafi bilgidir; sefer birleştirme, zaman bütçesi ve bildirimli varış düzeni firma pratiğidir.",
+    },
+
+    "bolge:menemen-deri-osb": {
+        h1: "Menemen Deri OSB'ye Tur Günlü Manlift Teslimatı",
+        giris:
+            "Menemen'deki Deri İhtisas OSB, sevkiyat planlamacısının sevdiği türden bir adrestir: bölge tek girişli ve derli topludur, tesisler birbirine yakındır ve İzmir'den Menemen yönüne akan ana hat, depomuzdan kesintisiz bir güzergâh sunar. Bu yapı, Deri OSB teslimatlarımızı 'tur günü' modeline oturtmamızı sağladı — bölgeye araç münferit taleplerle değil, haftanın belirli günlerinde planlı turlarla çıkar; tur günü bölgedeki teslimler, alımlar ve makine değişimleri tek araçta toplanır. Alıcı açısından sonuç somuttur: nakliye payı paylaşılır ve teslim günü önceden bellidir. Bölgenin ihtisas karakteri ise teslimatın kapı tarafını şekillendirir: OSB girişinde araç kaydı sorulabilir, tesis içinde indirme noktası üretim düzenine göre seçilir ve ıslak zeminli saha kesimlerinden uzak, kuru ve sağlam bir indirme zemini önceden tarif edilir. Bu sayfa, Deri OSB hattının tur mantığını ve tesise varış sürecini anlatır.",
+        maddeler: [
+            {
+                baslik: "Menemen hattı: kesintisiz güzergâhın rahatlığı",
+                metin:
+                    "Depodan Deri OSB'ye giden yol, İzmir'in kuzey çıkışını izleyen ana karayoludur ve bu hat, kent içi teslimatların kavşak stresini taşımaz: araç ana yola bir kez girer, Menemen'e kadar iner ve OSB sapağından bölgeye ulaşır. Güzergâhın tek dikkat kesimi, kuzey çıkışının sabah yoğunluğudur; tur günleri bu yüzden çıkışı erken saate yazar. Yolun öngörülebilirliği, alıcıya verilen teslim penceresinin dar tutulabilmesini sağlar — Deri OSB'de 'gün içinde geliriz' değil, 'şu dilimde kapınızdayız' deriz.",
+            },
+            {
+                baslik: "Tur günü modeli: bölgeye planlı çıkış",
+                metin:
+                    "Deri OSB talepleri haftalık takvimde toplanır ve bölgeye araç, belirlenen tur günlerinde çıkar: aynı seferde birden fazla tesise teslim yapılır, biten kiralamalar yüklenir ve gerekirse makine değişimleri aynı araçla çözülür. Tur modeli iki taraf için de verimlidir — sevkiyat maliyeti taleplere bölünür, bölge tesisleri teslim gününü önceden bilerek plan yapar. Tur dışı acil talepler için bağımsız sevkiyat her zaman açıktır; farkı yalnızca nakliyenin tek başına taşınmasıdır ve teklifte iki model yan yana gösterilir.",
+            },
+            {
+                baslik: "OSB girişi ve tesise varış sırası",
+                metin:
+                    "İhtisas bölgesinin düzenli yapısı, varış sürecini standartlaştırır: araç OSB girişinden içeri alınır, föyde yazılı tesis sırasına göre ilerler ve her tesiste önceden bildirilmiş kişi kapıda karşılar. Girişte araç kaydı istenen dönemlerde plaka ve şoför bilgisi bir gün önceden alıcıya iletilir; kapı prosedürü tur akışını yavaşlatmaz çünkü prosedür turdan önce tamamlanmıştır. Tesis sırası da rastgele değildir — indirmesi uzun sürecek adres tura önce yazılır, hızlı teslimler araya dizilir ve turun toplam saati kısalır.",
+            },
+            {
+                baslik: "Kuru zemin kuralı: indirme noktasının seçimi",
+                metin:
+                    "Deri işleyen tesislerin sahalarında ıslak zeminli kesimler bulunur ve makine indirme açısından bunun anlamı nettir: rampa inişi ve makinenin park edeceği alan, kuru, düz ve yük taşıyan bir zeminde olmalıdır. Sipariş görüşmesinde bu yüzden indirme noktasının zemin durumu ayrıca sorulur; tesis yetkilisinin 'şurası kuru ve boş' diye tarif ettiği alan föye işlenir. Bu beş dakikalık teyit, teslim günü sahada nokta arayışını ortadan kaldırır ve turun sonraki tesislerine sarkma yaşanmaz.",
+            },
+            {
+                baslik: "Değişim sevkiyatı: aynı turda indir-yükle",
+                metin:
+                    "Kiralamanın ortasında makine değişimi gerektiğinde — iş büyüdü, daha yüksek sınıf gerekti — Deri OSB'nin tur düzeni en ekonomik çözümü sunar: yeni makine tur aracıyla gelir, aynı araç eski makineyi yükleyip döner; tek seferde indir-yükle yapılır ve iki ayrı sevkiyat bedeli doğmaz. Değişim talebinin tur gününden önce bildirilmesi yeterlidir. Bu düzen, bölge tesislerine kiralama boyunca esneklik kazandırır — yanlış sınıfla devam etmek yerine, bir sonraki turda doğru makineye geçmek her zaman masadadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Deri OSB turunda işlem tipi ve planlama süresi",
+                paragraflar: [
+                    "Tur gününe yazılan her işlem tipinin kendi hazırlık gereksinimi vardır. Tablo, Deri OSB hattında kullandığımız düzeni gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İşlem tipi", "Bildirim zamanı", "Tur içindeki yeri", "Ön koşul"],
+                    satirlar: [
+                        ["Yeni teslim", "Tur gününden önce", "Süreye göre sıralanır", "Kuru indirme noktası teyidi"],
+                        ["Kiralama iadesi", "Bir gün önce teyit", "Teslimlerin arasına", "Makinenin yüklemeye hazır olması"],
+                        ["Makine değişimi", "Tur gününden önce", "İndir-yükle tek durak", "Yeni sınıf kararı"],
+                        ["Acil bağımsız teslim", "Aynı gün görüşülür", "Tur dışı sefer", "Nakliye tam bedel"],
+                        ["Çoklu tesis teslimi", "Birlikte sipariş", "Ardışık duraklar", "Ortak pencere anlaşması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Pencere sözü: dar dilimin arkasındaki hesap",
+                paragraflar: [
+                    "Deri OSB alıcılarına verdiğimiz teslim penceresi dar tutulur çünkü hattın her değişkeni ölçülüdür: güzergâh tek ve kesintisizdir, tur sırası önceden bellidir ve her durağın indirme süresi föyde tahminlidir. Pencerenin tutması, tesislerin de plana katkısıyla tamamlanır — kapıda karşılayacak kişinin hazır olması ve indirme alanının boş tutulması, turun saat düzenini korur. Bir durakta kaybedilen yarım saat, turun kalan tesislerinin tamamına yansır; dar pencere, ortak disiplinle mümkün olur.",
+                    "Aksama olduğunda yönetim şeffaftır: turdaki gecikme, sonraki duraklara telefonla ve yeni tahminle bildirilir. Bilgisiz bekletmek, pencereyi kaçırmaktan daha büyük kusurdur ve bizde yeri yoktur.",
+                ],
+            },
+            {
+                baslik: "Bölge yakınlığının iade esnekliği",
+                paragraflar: [
+                    "Deri OSB'nin İzmir'e görece yakın konumu ve tur sıklığı, iade tarafında rahatlık üretir: kiralaması biten makine, bir sonraki tur gününde alınır ve sahada uzun süre atıl beklemez; uzatma kararı da tur gününe kadar verilebilir. Uzak hatlardaki 'erken bildir, yoksa pahalı' baskısı burada yumuşar — yine erken haber isteriz ama hattın ritmi, geç kararlara da makul çözüm bırakır.",
+                    "Bu esnekliğin sınırı ağır sınıftır: lowbed gerektiren makineler tur aracına yüklenemez ve alımları ayrı planlanır. Ağır sınıf kiralamalarda iade tarihini erken kesinleştirmek, Deri OSB'de de geçerli kuraldır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tur gününüz bizim istediğimiz güne denk gelmezse ne oluyor?",
+                cevap:
+                    "İki yol vardır ve ikisi de açıktır: işiniz bir-iki gün esneyebiliyorsa teslim, en yakın tur gününe yazılır ve nakliye payınız paylaşımlı hesaplanır; esnemiyorsa istediğiniz güne bağımsız sefer planlanır ve sevkiyat bedeli tek başına size ait olur. Çoğu alıcı, farkı teklifte görünce ilk yolu seçer — bir günlük esneklik, somut bir tasarruf üretir. Tur günlerimizi telefonda öğrenebilirsiniz; siparişinizi ona göre zamanlamak, Deri OSB'de en ekonomik teslimatın anahtarıdır.",
+            },
+            {
+                soru: "OSB girişinde araç kaydı gerekiyorsa süreci kim yürütüyor?",
+                cevap:
+                    "İş bölümü nettir: kapı prosedürünü bölge yönetimi karşısında başlatmak alıcı firmanın, gereken bilgileri anında sağlamak bizim işimizdir. Tur gününden önce plaka, şoför adı ve makine bilgisi size iletilir; siz bunları kapıya bildirirsiniz ve araç, giriş sırasında tanınarak içeri alınır. Prosedürün tur akışını yavaşlatmamasının sırrı zamanlamadır — kayıt turdan önce biter, kapıda evrak konuşulmaz. İlk kiralamada süreci birlikte yürütürüz; sonrakilerde iki taraf için de rutine döner.",
+            },
+            {
+                soru: "Sahamızın bir kısmı ıslak ve kaygan; indirme nerede yapılır?",
+                cevap:
+                    "Kuru zemin kuralına göre: rampa inişi ve makinenin bekleyeceği alan için düz, kuru ve yük taşıyan bir zemin parçası gerekir — sipariş görüşmesinde saha yetkilinizle bu noktayı birlikte seçer, föye yazarız. Islak kesimlerin yakınında zorunlu çalışma varsa makine, kuru noktada indirilir ve çalışma konumuna kendi tekerleğiyle, uygun güzergâhtan alınır. İndirme noktasının fotoğrafı işi daha da kesinleştirir. Teslim günü nokta arayışı yaşanmaz; şoför nereye ineceğini araca binerken bilir.",
+            },
+            {
+                soru: "Kiraladığımız makine yetersiz kaldı; değişim için iki ayrı nakliye mi ödeyeceğiz?",
+                cevap:
+                    "Hayır — tur düzeninin en somut avantajı budur: değişim talebinizi tur gününden önce bildirdiğinizde yeni makine tur aracıyla gelir, aynı durakta eskisi yüklenir ve indir-yükle tek sevkiyat işlemi olarak fiyatlanır. İki ayrı araç, iki ayrı bedel senaryosu ancak tur dışı acil değişimlerde doğar ve onu da baştan söyleriz. Sınıf kararsızlığınız varsa ilk siparişte danışın; işin metrajını ve zeminini dinleyip doğru sınıfı birlikte seçmek, değişim ihtiyacını çoğu zaman baştan ortadan kaldırır.",
+            },
+            {
+                soru: "Komşu tesisle aynı gün teslim istiyoruz; pencerelerimiz çakışır mı?",
+                cevap:
+                    "Çakışmaz, sıralanır: iki tesisin teslimi aynı tura ardışık duraklar olarak yazılır ve her birine kendi dilimi verilir — araç ilkini indirir, ikinciye geçer; aradaki mesafe bölge içinde dakikalardır. Siparişleri birlikte iletmeniz planlamayı kolaylaştırır ve nakliye payının bölüşümünü netleştirir. Tek dikkat noktası indirme süreleridir: uzun sürecek teslim tura önce yazılır ki ikinci tesis bekletilmesin. İki tesisin yetkilileri de kendi dilimlerini önceden bilir ve kapıda sürpriz yaşanmaz.",
+            },
+            {
+                soru: "Acil bir arıza için tur gününü bekleyemeyiz; aynı gün gelebilir misiniz?",
+                cevap:
+                    "Çoğu durumda evet: Menemen hattının kesintisiz güzergâhı, bağımsız acil seferi hızlı kurmamıza imkân verir ve küçük-orta sınıf makinelerde aynı gün teslim gerçekçidir. İki koşulu telefonda kapatırız — indirme noktanızın kuru zemin teyidi ve teslim alacak kişinin netliği; OSB kapı kaydı gerekiyorsa bilgileri anında iletiriz. Ağır sınıfta lowbed planı gerektiği için aynı gün sözü veremeyiz; gerçekçi saat neyse onu söyleriz. Acil seferde nakliye tek başına taşınır — bunu da teklifte açıkça görürsünüz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Deri İhtisas OSB'nin Menemen'deki konumu ve İzmir kuzey karayolu bağlantısı kamuya açık bilgidir; tur günü modeli, kuru zemin kuralı ve indir-yükle değişim düzeni firma pratiğidir.",
+    },
+
+    "bolge:tire-osb": {
+        h1: "Tire OSB'ye Güney Hattından Planlı Manlift Teslimatı",
+        giris:
+            "Tire, sevkiyat haritamızda güney hattının iç durağıdır: araç İzmir-Aydın otoyolunda Torbalı'ya kadar iner, orada otoyoldan ayrılır ve Küçük Menderes ovasını geçen devlet yoluyla Tire'ye ulaşır. Bu iki parçalı güzergâh — hızlı otoyol kesiti artı ova yolu — Tire teslimatının zaman hesabını belirler ve hesap, kent içi teslimattan farklı işler: otoyol kesiti dakikası dakikasına öngörülebilirken, ova kesiti tarım araçları ve ilçe içi trafikle kendi ritmini dayatır. Tire OSB'nin gıda ağırlıklı tesis dokusu ise varış tarafına kendine özgü bir kural ekler: süt işleyen tesislerin kapıları gün boyu tanker ve sevkiyat aracı kabul eder ve bizim çekicimizin bu sirkülasyonla çakışmaması gerekir — teslim penceresi, tesisin araç trafiği sorularak seçilir. Bölgeye düzenli aralıklarla çıkan güney seferlerimiz, Tire taleplerini toplu taşıyarak mesafenin nakliye yükünü böler; bu sayfa o düzenin işleyişini anlatır.",
+        maddeler: [
+            {
+                baslik: "İki parçalı güzergâh: otoyol artı ova yolu",
+                metin:
+                    "Tire föylerinde güzergâh iki ayrı satırdır: birinci satır otoyol kesitidir — depodan Torbalı ayrımına kadar süre nettir, sapma yoktur; ikinci satır ova kesitidir — Torbalı'dan Tire'ye uzanan yolda mevsime göre tarım aracı hareketi, ilçe girişinde yerel trafik ve OSB sapağına kadar değişken bir akış vardır. Varış penceresi bu iki satırın toplamından, ikincisine pay bırakılarak hesaplanır. Şoföre iki kesitin geçiş noktası ve OSB'ye son yaklaşım ayrı ayrı tarif edilir; hat bir kez doğru öğrenildiğinde her sefer aynı düzenle akar.",
+            },
+            {
+                baslik: "Tanker trafiğine saygılı teslim penceresi",
+                metin:
+                    "Süt ve gıda tesislerinin kapısı, günün büyük bölümünde kendi araç sirkülasyonuyla doludur: süt tankerleri, soğuk zincir araçları ve sevkiyat kamyonları aynı girişi ve aynı manevra sahasını kullanır. Bizim teslimatımız bu sirkülasyonun boşluğuna yerleşmek zorundadır — sipariş görüşmesinde tesisin araç kabul programı sorulur ve makine indirme, tanker saatlerinin dışındaki dilime yazılır. Çekicimiz manevra sahasını dakikalar içinde boşaltır; ama yanlış saatte gelen doğru araç bile, soğuk zincirin kapısında istenmeyen bir engeldir.",
+            },
+            {
+                baslik: "Gıda sahasına uygun araç ve indirme düzeni",
+                metin:
+                    "Gıda tesisine giren sevkiyat aracından beklenen, saha düzenine uyumdur: araç temiz gelir, indirme tesisin gösterdiği alanda yapılır ve makine, üretim alanlarına yaklaşmadan teslim edilir — iç sahaya girişin hijyen koşulları varsa bunlar kiracının sorumluluğundaki çalışma aşamasına aittir, bizim işimiz makineyi doğru noktaya kusursuz bırakmaktır. İndirme alanı olarak tesislerin çoğu, sevkiyat sahasının kenarında bir kesim gösterir; nokta föye yazılır ve şoför üretim trafiğinin içinden geçmeden teslimini tamamlar.",
+            },
+            {
+                baslik: "Güney seferi: Tire taleplerinin toplanması",
+                metin:
+                    "Tire'nin mesafesi, münferit sevkiyatta nakliyeyi kabartır; güney seferi düzenimiz bu yükü bölmek için vardır. Tire ve çevresinden gelen talepler takvimde toplanır, bölgeye çıkan araç teslimleri ve alımları tek rotada gezer — OSB içindeki birden fazla tesis, ardışık duraklar olarak dizilir. Tarihi esnek talepler sefere eklenerek paylaşımlı nakliyeden yararlanır; sabit tarihli işler bağımsız planlanır. Sefer takvimimizi soran alıcı, siparişini en ekonomik güne denk getirme şansını baştan kazanır.",
+            },
+            {
+                baslik: "Ova koşullarında iade ve uzatma yönetimi",
+                metin:
+                    "Tire kiralamalarında iade, güney seferinin dönüş ayağına bağlanır: biten makine, bölgeye teslimat için gelen aracın dönüş yüküne yazılır ve alım maliyeti düşük kalır. Uzatma kararları için sefer gününe kadar süre vardır; ancak hasat ve yoğun tarım dönemlerinde ova yolunun trafiği ve tesislerin kendi sevkiyat tempoları değiştiği için, bu dönemlerde iade-teslim planlarını birkaç gün daha erken kesinleştirmenizi isteriz. Dönemin ritmini iki taraf da hesaba kattığında, hat yılın her ayında aynı güvenilirlikte çalışır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tire teslimatında tesis tipi ve varış düzeni",
+                paragraflar: [
+                    "Tire OSB ve çevresindeki tesis tipleri, varış sürecini farklı biçimlerde şekillendirir. Tablo, hattımızın uyguladığı düzeni özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Pencere seçimi", "İndirme alanı", "Özel koşul"],
+                    satirlar: [
+                        ["Süt-gıda işleme tesisi", "Tanker saatleri dışı", "Sevkiyat sahası kenarı", "Temiz araç, üretimden uzak teslim"],
+                        ["Soğuk depo", "Yükleme dalgaları arası", "Rampa dışı düz alan", "Soğuk zincir araçlarına öncelik"],
+                        ["Tekstil-ambalaj tesisi", "Esnek", "Saha içi gösterilen nokta", "Standart düzen"],
+                        ["OSB çoklu teslim", "Sıralı dilimler", "Tesis bazlı", "Uzun indirme önce"],
+                        ["İlçe içi işletme", "İlçe trafiği sakin dilim", "Yol kenarı hızlı indirme", "Kısa araç tercihi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sefer öncesi üç teyit: Tire hattının kontrol listesi",
+                paragraflar: [
+                    "Güney seferine yazılan her Tire teslimatı, araç yola çıkmadan üç teyitten geçer. Birincisi pencere teyididir: tesisin araç kabul programı son kez sorulur ve dilim kesinleşir — gıda tesislerinde program haftadan haftaya değişebilir. İkincisi indirme alanı teyididir: gösterilen noktanın boş ve kuru olacağı doğrulanır. Üçüncüsü kişi teyididir: teslim alacak yetkilinin adı ve o gün sahada olacağı onaylanır. Üç teyit toplamda birkaç dakikalık telefon işidir; karşılığı, mesafeli hatta sıfır boş seferdir.",
+                    "Teyitlerden biri olumsuz dönerse teslim, aynı seferin başka durağıyla yer değiştirir veya bir sonraki sefere kayar — araç her koşulda dolu gider ve kimsenin nakliye payı boşa yazılmaz.",
+                ],
+            },
+            {
+                baslik: "Mevsim takvimi: ovanın sevkiyata etkisi",
+                paragraflar: [
+                    "Küçük Menderes ovasının tarım takvimi, Tire hattının planlamasına iki yoldan girer. Yol tarafında: hasat dönemlerinde ova kesitindeki tarım aracı hareketi artar ve varış pencereleri bu dönemde daha geniş payla verilir. Tesis tarafında: gıda tesislerinin yoğun alım-işleme haftalarında kapı sirkülasyonu sıklaşır ve teslim dilimleri daralır — bu haftalarda pencere seçimi daha erken yapılmalıdır. İki etkiyi de takvimimizde izler, alıcıya dönem gerçeğine uygun saat veririz.",
+                    "Mevsim etkisini bilmek, onu sorun olmaktan çıkarır: yoğun döneme denk gelen kiralamalarda siparişin birkaç gün erken verilmesi, hattın bütün konforunu korur. Bu bilgiyi teklif aşamasında açıkça paylaşırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tire'ye teslim süresi İzmir içi teslimattan ne kadar farklı?",
+                cevap:
+                    "Fark yolda değil, planlamadadır: otoyol kesiti sayesinde Tire'ye varış süresi öngörülebilirdir ve doğru kurulmuş bir seferde makineniz söz verilen dilimde kapınızdadır. Asıl fark sefer düzenindedir — kent içine her gün araç çıkar, Tire'ye planlı günlerde çıkılır; bu yüzden 'yarın sabah' esnekliği her zaman olmayabilir ve tarih, sefer takvimiyle birlikte netleşir. Acil durumda bağımsız sefer kurulur ve aynı gün teslim küçük-orta sınıfta mümkündür; sefer takvimini sorup siparişi ona göre vermek en ekonomik yoldur.",
+            },
+            {
+                soru: "Süt işleme tesisimizin kapısı sabah tankerlerle dolu; makineyi ne zaman getirirsiniz?",
+                cevap:
+                    "Tanker programınızın boşluğunda: sipariş görüşmesinde araç kabul saatlerinizi sorar ve teslim dilimini sirkülasyonunuzun seyrek olduğu kuşağa yazarız — bu çoğu süt tesisinde sabah alım dalgası bittikten sonraki saatler veya öğle kuşağıdır. İndirme, manevra sahanızı dakikalar içinde boşaltacak düzenle yapılır ve çekici, sonraki tanker gelmeden sahadan çıkar. Programınız haftalık değişiyorsa sefer öncesi teyit telefonumuzda son durumu alırız; pencere, sahadaki gerçeğe göre kesinleşir.",
+            },
+            {
+                soru: "Makine tesisimizin üretim alanında çalışacak; teslimatta hijyen açısından ne yapıyorsunuz?",
+                cevap:
+                    "Teslimat tarafındaki payımızı eksiksiz yaparız: araç temiz gelir, indirme üretim alanlarından uzakta, tesisinizin gösterdiği sevkiyat sahası kenarında yapılır ve şoförümüz iç sahaya girmez. Makinenin üretim alanına alınması aşamasındaki hijyen koşulları — tekerlek temizliği, iç saha kuralları — sizin prosedürünüze tabidir ve ekibinizin yönetiminde uygulanır; bu sınırı net çizmek, iki tarafın sorumluluğunu da netleştirir. İç saha koşullarınızı sipariş aşamasında bildirirseniz, makineyi o koşullara en uygun durumda teslim ederiz.",
+            },
+            {
+                soru: "OSB'deki üç ayrı tesisimize aynı hafta makine lazım; nasıl planlarız?",
+                cevap:
+                    "Tek seferde: üç talebi birlikte ilettiğinizde teslimler aynı güney seferine ardışık duraklar olarak yazılır — araç OSB'ye bir kez girer, üç tesise sırayla indirir ve nakliye üç teslime bölünür. Sıralama indirme sürelerine göre kurulur; uzun sürecek teslim öne alınır ki kimse bekletilmesin. Her tesisin yetkilisi kendi dilimini önceden bilir. İadeler de aynı mantıkla toplanabilir — üç kiralama farklı günlerde bitse bile alımlar sefer günlerine denk getirilerek maliyet düşük tutulur.",
+            },
+            {
+                soru: "Hasat döneminde teslimatlar gecikir mi?",
+                cevap:
+                    "Gecikmez ama pencere genişler — ve bunu baştan söyleriz: hasat haftalarında ova kesitindeki tarım aracı hareketi varış süresine pay ekletir; aynı dönemde gıda tesislerinin kapı trafiği de sıklaşır ve uygun teslim dilimleri azalır. İki etkiye karşı iki önlemimiz vardır: bu dönemde varış tahminleri geniş payla verilir ve siparişlerin birkaç gün erken kesinleştirilmesi istenir. Dönemin ritmine göre kurulan plan aksamaz; aksayan, yoğun haftada son dakika kurulmaya çalışılan plandır ve biz onu kurmayız.",
+            },
+            {
+                soru: "İade gününde makinemiz OSB'de; almaya özel araç mı gelecek?",
+                cevap:
+                    "Çoğu zaman hayır — alımınız güney seferinin dönüş yüküne yazılır: Tire yönüne teslimat için gelen araç, dönüşte sizin makinenizi yükler ve hat boş kilometre üretmez; alım maliyetinize bu doğrudan yansır. Bunun için iade tarihinizin sefer takvimiyle eşleşmesi gerekir — tarihi birkaç gün önceden bildirdiğinizde eşleşmeyi biz kurarız. Sefer günlerine denk gelmeyen kesin tarihli iadelerde özel araç planlanır ve fark açıkça söylenir. Ağır sınıf makinelerde alım her koşulda lowbed planıyla, ayrıca kurulur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Tire'nin İzmir-Aydın otoyolu Torbalı ayrımı üzerinden ulaşılan Küçük Menderes ovasındaki konumu ve OSB'nin gıda ağırlıklı dokusu kamuya açık bilgidir; güney seferi, üç teyit listesi ve tanker saati penceresi firma pratiğidir.",
+    },
+
+    "bolge:manisa-osb-cevre-ili": {
+        h1: "Manisa OSB'ye İl Aşırı Manlift Sevkiyatı (Çevre İl)",
+        giris:
+            "Manisa OSB'ye teslimat, sevkiyat planımızda 'il aşırı hat' başlığı altında yürür ve bu başlığın ilk maddesi güzergâh seçimidir: İzmir ile Manisa arasında ağır araç için iki gerçek seçenek vardır — Sabuncubeli tüneliyle kısalan dağ geçidi hattı ve şehrin kuzeyinden dolanan otoyol bağlantısı. Hangisinin seçileceği makinenin sınıfına, aracın tipine ve günün saatine göre değişir; föyün rota satırı bu yüzden Manisa seferlerinde iki alternatifli yazılır. Hattın ikinci maddesi kapıdır: Manisa OSB'nin büyük ölçekli fabrikaları, sevkiyat araçlarını kayıtlı ve randevulu kabul eden kurumsal kapı düzenleriyle çalışır — plaka bildirimi, güvenlik kontrolü ve tesis içi trafik kuralları, teslimatın son yarım saatini şekillendirir. Uzun yol artı kurumsal kapı denklemini, çift alternatifli rota ve önceden tamamlanmış kayıt süreciyle çözeriz; bu sayfa o çözümün ayrıntısıdır.",
+        maddeler: [
+            {
+                baslik: "Rota kararı: tünel hattı mı, otoyol mu",
+                metin:
+                    "Sabuncubeli tüneli, İzmir-Manisa arasındaki dağ geçidini kısaltarak standart çekici için hızlı bir hat sunar; otoyol bağlantısı ise daha uzun ama eğimsiz ve kesintisiz bir alternatiftir. Seçim föyde şu mantıkla yapılır: hafif ve orta sınıf yüklerde tünel hattı varsayılandır; ağır lowbed taşımalarında eğim profili, araç performansı ve trafik durumu birlikte değerlendirilir ve gerekirse otoyol tercih edilir. Şoföre iki rota da tarif edilir — yol durumuna göre hat değiştirme kararı, telefonla teyitle verilir.",
+            },
+            {
+                baslik: "Fabrika kapısında randevulu kabul",
+                metin:
+                    "Manisa OSB'nin büyük tesisleri, sevkiyat aracını kayıt görmeden içeri almaz: plaka ve şoför bilgisi önceden bildirilir, araç kapıda güvenlik kontrolünden geçer ve tesis içi hız-güzergâh kurallarına tabi olur. Bu düzen bizim için sürpriz değil standarttır — teslim tarihinden önce alıcı firmanın sevkiyat veya güvenlik birimiyle kayıt tamamlanır, randevu saati kapı yoğunluğuna göre seçilir ve şoföre tesisin iç kuralları anlatılır. Kaydı bitmemiş aracı yola çıkarmayız; il aşırı hatta kapıda dönen araç, bir günün kaybıdır.",
+            },
+            {
+                baslik: "Tesis içi son etap: kapıdan indirme noktasına",
+                metin:
+                    "Büyük fabrikada kapıdan geçmek teslimatın bittiği yer değil, son etabın başladığı yerdir: geniş sahalarda indirme noktası kapıdan yüzlerce metre içeride olabilir ve tesis içi güzergâh — hangi yoldan, hangi hızda, nerede durulacak — tesisin trafik düzenine göre yürünür. Föyde bu etap ayrıca yazılır: indirme sahasının adı veya numarası, refakat gerekip gerekmediği ve manevra alanının durumu. Alıcının sevkiyat birimiyle kurulan bu ayrıntı düzeyi, aracın tesis içinde yolunu sormadan ilerlemesini sağlar.",
+            },
+            {
+                baslik: "İl aşırı zaman planı: pencereye pay bırakmak",
+                metin:
+                    "İki il arasında verilen teslim sözü, tek il içindekinden daha disiplinli kurulur: yol süresi rota alternatifine göre hesaplanır, kapı randevusu sabit bir çapa oluşturur ve araç, randevudan önce varacak şekilde payla yola çıkarılır — erken varan araç kapı yakınında bekler, geç kalan araç randevuyu düşürür. Manisa seferlerinde bu pay standart uygulamadır çünkü randevu kaçırmanın maliyeti, yarım saat erken çıkmanın maliyetinden her zaman büyüktür. Alıcıya verilen pencere, bu pay dahil edilerek söylenir ve tutulur.",
+            },
+            {
+                baslik: "Uzun işlerde makinenin sahada kalması",
+                metin:
+                    "İl aşırı hattın ekonomisi, kısa kiralamalarla dost değildir: gidiş-dönüş sevkiyatın toplam maliyeti, birkaç günlük işte kiralamanın kendisine yaklaşabilir. Manisa alıcılarına bu gerçeği teklif aşamasında rakamla gösteririz ve iki model öneririz: işleri birleştirip makineyi sahada uzun süre tutmak — nakliye güne bölününce erir — veya aynı OSB'deki başka taleplerle sefer paylaşmak. Fabrika ölçeğindeki tesislerde ilk model neredeyse her zaman kazanır; bakım ve proje işleri tek kiralama takviminde toplanır, sevkiyat bir kez ödenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manisa seferinde yük sınıfı ve rota-randevu düzeni",
+                paragraflar: [
+                    "İl aşırı hatta yük sınıfı, hem rotayı hem randevu kurgusunu belirler. Tablo, Manisa seferlerimizin karar düzenini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Yük sınıfı", "Rota tercihi", "Randevu kurgusu", "Not"],
+                    satirlar: [
+                        ["Küçük-orta sınıf makine", "Tünel hattı", "Kapı randevusu + pay", "Standart çekici"],
+                        ["Büyük sınıf (lowbed)", "Eğim ve trafiğe göre seçim", "Geniş dilimli randevu", "İki rota föyde hazır"],
+                        ["Çoklu makine sevkiyatı", "Tek rota, tek konvoy", "Ardışık kapı kayıtları", "Aynı randevu bloğu"],
+                        ["Acil tekil talep", "Günün hızlı hattı", "Alıcı kapıyla hızlı kayıt", "Nakliye tam bedel"],
+                        ["İade alımı", "Dönüş yüküne bağlı", "Çıkış kaydı önceden", "Sefer eşleşmesi aranır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kayıt dosyası: kapıyı önceden açan evrak düzeni",
+                paragraflar: [
+                    "Manisa OSB seferlerinde her teslimat, araç yola çıkmadan tamamlanmış bir kayıt dosyasıyla gider: alıcı firmaya iletilen plaka ve şoför kimliği, tesisin istediği formlar, makinenin belgeleri ve randevu yazışmasının özeti. Dosyanın sahibi planlama ekibimizdir ama doldurulması iki taraflıdır — tesisin güvenlik birimi hangi bilgiyi istiyorsa, alıcı firma köprü olur ve biz anında sağlarız. Bu iş birliği ilk kiralamada bir günlük yazışma ister; sonraki kiralamalarda dosya şablonu hazırdır ve süreç saatlere iner.",
+                    "Dosyanın karşılığı kapıda görülür: kayıtlı araç, güvenlik kontrolünü dakikalar içinde geçer ve randevu saatine sadık kalır. İl aşırı hatta evrak disiplini, hız disiplininin ta kendisidir.",
+                ],
+            },
+            {
+                baslik: "Dönüş ayağı: Manisa'dan boş dönmeme hedefi",
+                paragraflar: [
+                    "İl aşırı seferin görünmeyen maliyeti dönüş kilometresidir ve planlamamız bu kilometreyi doldurmaya çalışır: Manisa'ya teslimat yapan araç, bölgede biten bir kiralamanın makinesini veya aynı hattaki başka bir alımı dönüş yüküne alır. Bu eşleşme kurulduğunda seferin ekonomisi iki müşteriye bölünür ve her ikisinin nakliye payı düşer. İade tarihlerini erken bildiren alıcılar, bu eşleşmenin doğal ortağıdır.",
+                    "Eşleşme her sefer kurulamayabilir — hat, kent içi kadar yoğun değildir ve bunu dürüstçe söyleriz. Kurulamadığında sevkiyat bedeli gerçek maliyeti yansıtır; kurulduğunda fark, teklifte gözle görülür biçimde iner. Alıcının tek yapması gereken, tarih esnekliğini bizimle paylaşmaktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İzmir'den Manisa OSB'ye teslimat gerçekten aynı gün olabilir mi?",
+                cevap:
+                    "Koşullara bağlı olarak evet: küçük-orta sınıf bir makine, kapı kaydınız hızlı tamamlanırsa ve talep sabah saatlerinde gelirse aynı gün teslim edilebilir — tünel hattı, yol süresini il aşırı olmasına rağmen makul tutar. Süreci uzatan yol değil kapıdır: tesisinizin güvenlik kaydı saatler içinde bitirilebiliyorsa plan kurulur, bitirilemiyorsa ertesi gün gerçekçi olur. Ağır sınıfta lowbed planlaması her koşulda ek süre ister. Telefonda üç bilgiyi alırız — makine sınıfı, kapı süreci, indirme sahası — ve gerçek saati söyleriz.",
+            },
+            {
+                soru: "Fabrikamızın güvenlik prosedürü sıkı; sevkiyat kaydını kim tamamlayacak?",
+                cevap:
+                    "Birlikte tamamlarız, yükün çoğu bizdedir: güvenlik biriminizin istediği her bilgiyi — plaka, şoför kimliği, araç tipi, makine belgeleri, gerekiyorsa form doldurma — planlama ekibimiz anında sağlar; sizin rolünüz, birimle bizim aramızda köprü olmak ve kaydın açılmasını sağlamaktır çünkü çoğu tesiste kaydı ancak kendi personeli başlatabilir. İlk kiralamada bu yazışma bir gün alır; dosya şablonu oluştuktan sonra tekrar kiralamalarda saatlere iner. Kayıt bitmeden aracı yola çıkarmayız — bu, iki tarafı da koruyan kuraldır.",
+            },
+            {
+                soru: "Lowbed ile gelecek büyük makinemiz için dağ yolu sorun olur mu?",
+                cevap:
+                    "Sorun olmaz çünkü rota, yükün profiline göre seçilir: ağır lowbed taşımalarında Sabuncubeli hattının eğim profili ile otoyol alternatifinin uzunluğu karşılaştırılır ve o günün trafiğiyle birlikte karar verilir — föyde iki rota da hazırdır, şoför gerektiğinde telefon teyidiyle hat değiştirir. Varış randevunuz bu değerlendirmenin üzerine geniş dilimle kurulur; lowbed hız limitleri hesaba katılmıştır. Sizin tarafta değişen tek şey, randevu dilimin standarttan biraz geniş olmasıdır — dağ, planlamayla aşılır.",
+            },
+            {
+                soru: "Kapıdan indirme sahamıza kadar tesis içinde uzun yol var; şoförünüz düzeni bilecek mi?",
+                cevap:
+                    "Bilecek — çünkü tesis içi etap föyün ayrı bölümüdür: indirme sahanızın adı veya numarası, iç güzergâh, hız kuralları ve varsa refakat düzeni, sevkiyat biriminizden alınıp yazılır; şoför kapıdan geçtikten sonra kimseye yol sormaz. Refakatçi zorunluluğu olan tesislerde randevu saati, refakatçinizin müsaitliğiyle eşleştirilir. İndirme sahasında manevra alanı ve zemin durumu da önceden teyit edilir. Büyük tesiste teslimatın kalitesi, son beş yüz metrenin planında belli olur — biz o planı önceden yaparız.",
+            },
+            {
+                soru: "Birkaç günlük iş için nakliye maliyeti kiralamayı anlamsızlaştırmaz mı?",
+                cevap:
+                    "Riski vardır ve bunu saklamayız: il aşırı gidiş-dönüş sevkiyat, kısa kiralamada toplamın büyük kalemi olabilir. Teklifte bu oranı açıkça gösterir ve iki çıkış yolu öneririz — bakım, montaj ve proje işlerinizi tek takvimde birleştirip makineyi sahada uzun tutmak (nakliye güne bölününce erir) veya teslim-iade tarihlerinizi hattımızdaki diğer Manisa işleriyle eşleştirerek sefer paylaşmak. Fabrika ölçeğinde iş listesi çoğu zaman zaten vardır; listeyi birleştiren alıcı, aynı paraya iki kat makine günü alır.",
+            },
+            {
+                soru: "İade gününde çıkış kaydı da gerekiyor mu?",
+                cevap:
+                    "Çoğu kurumsal tesiste evet — makinenin tesisten çıkışı da kayıt düzenine tabidir: alım aracının plakası önceden bildirilir, makinenin çıkış evrakı tesisinizin prosedürüne göre hazırlanır ve araç, kayıtlı çıkışla sahadan ayrılır. Bu süreci iade randevusunun parçası olarak yönetiriz: tarih kesinleşince çıkış bilgileri size iletilir, siz iç kaydı açtırırsınız. Alımın dönüş yüküne eşleşmesi için tarihinizi birkaç gün erken bildirmeniz ayrıca kazanç sağlar. Giriş nasıl planlıysa çıkış da planlıdır; il aşırı hatta doğaçlama yoktur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Sabuncubeli tüneli ve İzmir-Manisa otoyol bağlantısı ile Manisa OSB'nin büyük ölçekli tesis dokusu kamuya açık bilgidir; çift rotalı föy, kayıt dosyası ve dönüş yükü eşleşmesi firma pratiğidir.",
+    },
+
+    "bolge:aydin-osb-cevre-ili": {
+        h1: "Aydın OSB'ye Otoyol Hattından Manlift Teslimatı (Çevre İl)",
+        giris:
+            "Aydın, güney sevkiyat ağımızın en uzun ayağıdır ve bu hattı taşınabilir kılan tek şey otoyoldur: İzmir-Aydın otoyolu, iki il arasındaki mesafeyi ağır araç için dahi tek etapta sürülebilir, süresi hesaplanabilir bir koridora çevirir. Aydın OSB seferlerimiz bu koridorun disipliniyle kurulur — çıkış saati otoyol girişine, varış penceresi otoyol çıkışından tesise uzanan son kesite göre hesaplanır ve araç, gidiş-dönüşü aynı günde tamamlayan bir zaman planıyla yola çıkar. Mesafenin ekonomisi ise planlamanın ikinci yarısıdır: bu hatta tekil sevkiyat pahalıdır ve Aydın taleplerini tek rotada toplayan bölge günleri, nakliye yükünü paylaştırmanın ana aracıdır. Varış tarafında OSB tesislerinin kabul saatleri, indirme sahaları ve teslim yetkilileri, uzun yolun sonunda dakika kaybettirmeyecek biçimde önceden netleştirilir. Bu sayfa, otoyol hattının teslimat kurgusunu baştan sona anlatır.",
+        maddeler: [
+            {
+                baslik: "Otoyol koridoru: hesaplanabilir uzun yol",
+                metin:
+                    "Aydın hattının planlama şansı, güzergâhın neredeyse tamamının otoyolda geçmesidir: sabit seyir hızı, kavşaksız akış ve öngörülebilir süre, iki yüz kilometreye yaklaşan gidiş-dönüşü hesaplanabilir kılar. Föyde yol iki kesite ayrılır — otoyol kesiti dakika hassasiyetiyle, çıkış sonrası tesise ulaşan son kilometreler ise yerel trafiğe pay bırakılarak yazılır. Ücretli geçiş maliyeti sefer hesabına baştan dahildir ve teklifte ayrıca görünür; uzun hatta gizli kalem bırakmayız.",
+            },
+            {
+                baslik: "Bölge günü: Aydın taleplerinin tek rotası",
+                metin:
+                    "Bu mesafede her talebe ayrı araç göndermek, nakliyeyi kiralamanın önüne geçirir; Aydın planlamamız bu yüzden bölge günü modeliyle çalışır: Aydın ve çevresinden gelen teslim, alım ve değişim talepleri belirli günlerde tek rotada toplanır, araç OSB ve çevresindeki durakları sırayla gezer. Bölge gününe yazılan her iş, sevkiyat bedelini paylaşır. Tarihi esnek alıcı bu modelden en kazançlı çıkar; sabit tarihli talepler için bağımsız sefer kurulur ve maliyet farkı teklifte dürüstçe yan yana konur.",
+            },
+            {
+                baslik: "Varış penceresi ve tesise kabul düzeni",
+                metin:
+                    "Uzun yoldan gelen aracın tesiste bekletilmesi, hattın en pahalı dakikalarıdır; Aydın teslimatlarında varış bu yüzden çift taraflı hazırlanır. Bizim tarafımız: araç OSB'ye yaklaşırken teslim yetkilisi aranır ve varış dakikası netleşir. Alıcı tarafı: indirme sahası boşaltılmış, teslim alacak kişi sahada, gerekiyorsa kapı bildirimi yapılmış olur. Tesisin araç kabul saatleri sipariş aşamasında sorulur ve pencere o saatlere yazılır — öğle tatilinde kapanan kapıya öğlen varmak gibi basit hataların bu hatta affı yoktur.",
+            },
+            {
+                baslik: "Tarım-gıda tesislerinde sezon uyumlu teslim",
+                metin:
+                    "Aydın ekonomisinin tarım-gıda ağırlığı, OSB ve çevresindeki tesislerin sevkiyat ritmini mevsime bağlar: incir, zeytin ve pamuk işleme dönemlerinde tesis kapıları kendi ürün trafiğiyle dolar ve makine tesliminin bu trafikle çakışmaması gerekir. Yoğun sezondaki teslimatlarda tesisin kabul programı daha ayrıntılı sorulur, pencere daha erken kesinleştirilir ve indirme, ürün kabul sahasından ayrı bir noktaya yazılır. Sezon dışında ise aynı tesisler geniş pencereli, rahat teslimat adresleridir; planlama, takvimin hangi yüzündeyse ona göre kurulur.",
+            },
+            {
+                baslik: "İade ve uzatmada uzun hat kuralları",
+                metin:
+                    "Aydın kiralamalarında iade, bölge günlerine bağlanarak ekonomik tutulur: biten makine, o hafta güneye inen aracın dönüş yüküne yazılır ve alım bedeli paylaşımlı hesaplanır. Bunun karşılığında alıcıdan istediğimiz tek şey erken karardır — iade veya uzatma, bölge gününden önce netleşmelidir; yola çıkmış aracın programına eklenen veya çıkarılan iş, bu mesafede telafi edilemez. İade haftasında teyit telefonunu biz açarız; sizin cevabınız, güney rotasının o haftaki şeklini belirler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydın hattında talep profili ve sefer kurgusu",
+                paragraflar: [
+                    "Uzun hattın sefer kurgusu, talebin profiline göre şekillenir. Tablo, Aydın planlamasında uyguladığımız eşleşmeyi gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Talep profili", "Sefer kurgusu", "Nakliye modeli", "Kesinleşme zamanı"],
+                    satirlar: [
+                        ["Uzun kiralama, tek tesis", "Bağımsız gidiş + planlı iade", "Güne bölünen bedel", "Teslim gününden önce"],
+                        ["Kısa iş, esnek tarih", "Bölge günü rotası", "Paylaşımlı", "Bölge gününe kadar"],
+                        ["Kısa iş, sabit tarih", "Bağımsız sefer", "Tam bedel", "Sipariş anında"],
+                        ["Sezon içi gıda tesisi", "Kabul programına bağlı dilim", "Kurguya göre", "Erken kesinleşme şart"],
+                        ["Ağır sınıf", "Lowbed + geniş pencere", "Sınıf bedeli", "En az bir gün önce"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gün planı: güney rotasının saat iskeleti",
+                paragraflar: [
+                    "Aydın bölge günü, saat iskeleti önceden çizilmiş bir gündür: erken çıkış, otoyol kesitinin tek etapta sürülmesi, OSB'de ilk teslim, ardından duraklara göre dizilmiş indirme ve yüklemeler, dönüş yükünün alınması ve akşam depoya varış. Her durağın dilimi föyde yazılıdır ve duraklar arasındaki geçişler, OSB içi kısa mesafeler olduğu için dakikalarla ölçülür. Alıcı, kendi dilimini sabahtan bilir ve araç o dilimde kapıdadır.",
+                    "İskeletin esneme payı sınırlıdır: uzun hatta bir durakta kaybedilen saat, günün sonundaki durağı tehlikeye atar. Bu yüzden dilim disiplinini iki taraflı işletiriz — biz saatinde geliriz, sizden sahanın hazır olmasını isteriz. Disiplinli günün ödülü, herkes için düşen nakliye payıdır.",
+                ],
+            },
+            {
+                baslik: "Uzun hatta dürüst fiyat anatomisi",
+                paragraflar: [
+                    "Aydın tekliflerimizde nakliye kalemi tek satır değildir; anatomisiyle gösterilir: yol mesafesi, otoyol geçiş ücretleri, aracın gidiş-dönüş süresi ve varsa paylaşım indirimi ayrı ayrı okunur. Bu şeffaflığın nedeni pratiktir — uzun hatta 'nakliye neden bu kadar' sorusu meşrudur ve cevabı rakamla verilmelidir. Paylaşımlı kurguda hangi kalemin nasıl bölündüğünü de aynı açıklıkla gösteririz; alıcı, esnekliğinin tam olarak neyi kazandırdığını görür.",
+                    "Aynı anatomi, karar aracına dönüşür: kiralama süresini uzatmanın gün başı maliyeti nasıl düşürdüğü, iki işi birleştirmenin sefer bedelini nasıl böldüğü teklif üzerinde hesaplanabilir hâle gelir. Uzun hatta doğru karar, ancak görünür rakamla verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aydın OSB'ye teslimat için kaç gün önceden sipariş vermeliyiz?",
+                cevap:
+                    "En ekonomik sonuç için bölge gününü yakalayacak kadar önce — pratikte bu, birkaç gün demektir: talebiniz o haftanın güney rotasına yazılır ve nakliye payınız paylaşımlı hesaplanır. Daha acil ihtiyaçta bağımsız sefer kurulur; otoyol koridoru sayesinde ertesi gün teslim çoğu sınıfta mümkündür, aynı gün teslim ise sabah gelen taleplerde ve küçük-orta sınıfta değerlendirilir. Sezon içindeki gıda tesislerine teslimatlarda kabul programı devreye girdiği için erken kesinleşme her koşulda önerimizdir.",
+            },
+            {
+                soru: "Nakliye bedeli teklifinizde neden bu kadar ayrıntılı gösteriliyor?",
+                cevap:
+                    "Çünkü uzun hatta güven, rakamın görünürlüğünden doğar: mesafe, otoyol geçişleri, araç süresi ve paylaşım indirimi ayrı satırlarda okunduğunda, bedelin neden o seviyede olduğu tartışma konusu olmaktan çıkar. Ayrıntının ikinci faydası karar desteğidir — kiralamayı bir hafta uzatmanın gün başı maliyeti nasıl erittiğini veya iade tarihinizi bölge gününe çekmenin neyi kazandırdığını teklifin üzerinde kendiniz hesaplayabilirsiniz. Kapalı rakam pazarlık üretir, açık rakam plan üretir; biz planı tercih ederiz.",
+            },
+            {
+                soru: "İncir işleme sezonundayız ve kapımız ürün araçlarıyla dolu; teslimat nasıl yapılır?",
+                cevap:
+                    "Programınıza yerleşerek: sezon içindeki tesislerde sipariş görüşmesi, kabul programınızın ayrıntısıyla başlar — ürün araçlarınızın yoğun saatleri, kantar ve kabul sahasının düzeni, günün nefes aldığı dilimler. Teslim penceresi o dilime yazılır ve indirme, ürün kabul akışından ayrı bir noktada yapılır; çekicimiz sahanızı dakikalar içinde terk eder. Sezonda pencerelerin azlığı nedeniyle tarihi erken kesinleştirmenizi isteriz — geç gelen talep, uygun dilim bulamayabilir ve kimsenin istemediği ertelemeler doğar.",
+            },
+            {
+                soru: "Makine birkaç haftalık iş için gelecek; bu mesafede mantıklı mı?",
+                cevap:
+                    "Birkaç haftalık işte hat tam anlamıyla mantıklıdır: sevkiyat bedeli kiralama süresine bölündüğünde gün başı maliyet hızla düşer ve toplam, kent içi kiralamayla rekabet eder hâle gelir. Mantık sınırına yaklaşan senaryo bir-iki günlük işlerdir — orada da bölge günü paylaşımı devreye girer ve bedel makul kalır. Teklifimizdeki fiyat anatomisi bu hesabı önünüze koyar: sürenizi bir hafta uzatmanın veya iki ayrı işinizi tek kiralamada birleştirmenin etkisini rakamla görürsünüz. Karar, görünür hesapla sizindir.",
+            },
+            {
+                soru: "Aracınız uzun yoldan gelirken bizim hazırlığımızda eksik olursa ne oluyor?",
+                cevap:
+                    "Yol boyunca kurduğumuz iletişim, bu riski erken yakalar: araç otoyoldayken teslim yetkiliniz aranır ve saha hazırlığı — indirme alanının boşluğu, yetkilinin sahada olması, kapı bildirimi — son kez teyit edilir. Eksik varsa varışa kadar tamamlanacak şekilde yönlendiririz; tamamlanamayacak bir eksikse araç, OSB yakınında kısa bekleme yapar ve dilim güncellenir. Telafisi olmayan tek durum, teslim alacak kimsenin bulunmamasıdır — tutanak imzasız makine bırakılmaz ve boş dönen seferin bedeli doğar. Yetkili netliği, bu hattın altın kuralıdır.",
+            },
+            {
+                soru: "İzmir'deki firmanız yerine Aydın'dan yerel kiralama yapsak daha mı ekonomik olur?",
+                cevap:
+                    "Bazen evet ve bunu söylemekten çekinmeyiz — kararın doğru verisi şudur: karşılaştırmayı makine sınıfı, kiralama süresi ve toplam bedel üzerinden yapın, yalnızca nakliye satırına bakmayın. Uzun kiralamalarda bizim hattımızın gün başı maliyeti, sevkiyatın erimesiyle rekabetçi hâle gelir; filo genişliği ve makine yaşı da toplam değere dahildir. Kısa ve acil işlerde yerel çözüm gerçekten avantajlıysa teklif aşamasında bunu görürsünüz — açık fiyat anatomimiz, karşılaştırmayı kolaylaştırmak için vardır. Bilgiyle seçen müşteri, iki tarafta da iyi müşteridir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. İzmir-Aydın otoyolu koridoru ve Aydın ekonomisinin tarım-gıda ağırlığı kamuya açık bilgidir; bölge günü rotası, fiyat anatomisi ve yol boyu teyit düzeni firma pratiğidir.",
+    },
 };
