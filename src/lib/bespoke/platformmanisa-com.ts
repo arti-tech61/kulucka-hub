@@ -511,4 +511,400 @@ export const PLATFORMMANISA_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Turgutlu OSB'nin karma tesis dokusu ve ilçenin yapı malzemesi geleneği kamuya açık genel bilgidir; kapı arşivi, talep havuzu ve fotoğraflı kapanış raporu firma pratiğidir.",
     },
+
+    "bolge:akhisar-osb": {
+        h1: "Akhisar OSB'de Platform Kiralama — Gıda Sanayi Odaklı Bakım Desteği",
+        giris:
+            "Akhisar'ın organize sanayi bölgesi, ilçenin zeytin ve tarım ürünleri ekonomisinin sanayileşmiş yüzünü barındırır: işleme ve paketleme tesisleri, yağ ve gıda üretim binaları, ambalaj ve yan sanayi parselleri, soğuk zincir depoları. Bu doku, platform hizmetini gıda sanayi disipliniyle yürütmeyi zorunlu kılar — makine bir üretim ekipmanı gibi hazırlanır, iş planı kalite yönetimiyle kurulur, çalışma alanı ürün güvenliği gözetilerek korunur. Bölgeye Manisa merkezden düzenli girdiğimiz için bu disiplin bizde alışkanlık hâline gelmiştir; tesis kapısında hijyen koşulunu ilk kez duyan bir ekip değiliz. Bölgenin ikinci karakteri sezonsallıktır: hasat ve işleme dönemleri tesisleri doldurur, aradaki aylar bakımın altın penceresidir ve biz filo planımızı bu pencereye göre kurarız. Bu sayfa, ilçe merkezindeki genel çalışma düzenimizin değil, organize bölgeye özgü tesis içi bakım desteğinin anlatımıdır.",
+        maddeler: [
+            {
+                baslik: "Üretim binalarında tavan ve tesisat bakımı",
+                metin:
+                    "Gıda üretim binalarının en yoğun platform kalemi tavan katmanıdır: hijyenik panel yüzeyleri, aydınlatma armatürleri, havalandırma menfezleri, buhar ve su hatlarının askıları, kablo tavaları. Bu katmanda çalışırken alt bölge ürün ve ekipmandan arındırılır ya da örtülür; parça düşürmeme disiplini araç bağlama zorunluluğuyla uygulanır. İş, hattın temizlik ve yıkama saatlerine değil, tam boş olduğu dilimlere yazılır — ıslak zeminde platform çalıştırmak, hem kayma hem elektrik riski üretir ve bunu kabul etmeyiz.",
+            },
+            {
+                baslik: "Soğuk zincir yapılarının teknik odaları ve üniteleri",
+                metin:
+                    "Bölgenin soğuk depo ve soğutmalı sevkiyat yapılarında evaporatör grupları, kondenser üniteleri, makine dairesi üstü boru hatları ve çatı üstü ekipmanlar düzenli erişim ister. Bu işlerin planında iki değişken belirleyicidir: soğutma sisteminin devre dışı kalabileceği süre ve bu sürenin ürün stokuyla ilişkisi. Bakım ekibinizle birlikte iş, deponun en düşük doluluk gününe yazılır; çatı üstü kalemler ise sistemden bağımsız yürüdüğü için ayrı takvimde ilerleyebilir ve depo hiç etkilenmez.",
+            },
+            {
+                baslik: "Ambalaj ve yan sanayi parsellerinde standart hız",
+                metin:
+                    "Gıda tesislerini çevreleyen ambalaj, etiket, kasa ve lojistik yan sanayi parselleri, hijyen rejiminin dışında kalan standart sanayi işleri üretir: çelik konstrüksiyon kontrolleri, aydınlatma hatları, kompresör odası kotları, cephe ve saha kalemleri. Bu tesislerde iş hızlı akar, çoğu kalem yarım-bir gün sürer ve keşif fotoğrafla tamamlanabilir. Bölge turlarımızda bu parseller, gıda tesislerinin katı zamanlama kısıtları arasındaki boşlukları verimli dolduran esnek işlerdir.",
+            },
+            {
+                baslik: "Sezon dışı toplu bakım penceresi",
+                metin:
+                    "İşleme sezonunun bitişiyle açılan sakin aylar, bölgedeki tesislerin platform ihtiyacının zirvesidir: tesis boşalır, hatlar durur ve bir yıl boyunca ertelenen yüksek kalemler bu pencerede toplu olarak yapılır. Bu dönemde bölgeye günlerce süren kalışlarla gireriz — makine tesiste konumlanır, iş listesi bölüm bölüm ilerler ve gün bedeli uzun kiralama koşullarına oturur. Pencerenin dar ve talebin yoğun olduğu bu aylarda rezervasyon sırası her şeydir; tesislere sezon bitmeden takvim teklifiyle gideriz.",
+            },
+            {
+                baslik: "Denetim ve belgelendirme dönemlerine hazırlık",
+                metin:
+                    "Gıda sanayi tesisleri düzenli denetim ve belgelendirme süreçlerinden geçer ve bu süreçlerin yüksek kotu ilgilendiren maddeleri vardır: aydınlatma koruyucularının bütünlüğü, tavan yüzeylerinin durumu, havalandırma temizliği, kaçak ve yoğuşma izleri. Denetim öncesi haftalarda tesislerden gelen taleplerin ortak adı 'kontrol ve düzeltme turu'dur — sepetle tüm tavan hattı gezilir, tespit edilenler aynı ziyarette düzeltilir. Bu tur, denetim gününe sürprizle girmemenin en ucuz yoludur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Akhisar OSB'de yıllık ritim ve planlama",
+                paragraflar: [
+                    "Bölge tesislerinin yıl içindeki dönemleri ve her dönemde uygun çalışma biçimi aşağıdadır. Takvim, tesisin sezon tarihlerine göre kaydırılır.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Tesis durumu", "Uygun işler", "Kiralama biçimi"],
+                    satirlar: [
+                        ["Sezon öncesi", "Hazırlık, temizlik", "Kontrol turu, kritik düzeltme", "1 – 2 gün"],
+                        ["Yoğun işleme", "Tam kapasite", "Yalnız zorunlu müdahale", "Saat dışı kısa blok"],
+                        ["Sezon sonu", "Yavaşlama", "Ertelenmiş kalem listesi", "2 – 4 gün"],
+                        ["Sakin aylar", "Hatlar boş", "Toplu bakım, yenileme", "Haftalık kalış"],
+                        ["Denetim öncesi", "Değişken", "Tavan-aydınlatma taraması", "1 gün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gıda tesisinde parça düşürme riskini sıfırlamak",
+                paragraflar: [
+                    "Gıda üretim alanında yüksekte çalışmanın en ciddi riski düşme değil, düşürmedir: sepetten kayan bir cıvata, kırılan bir armatür camı veya kopan bir kablo parçası, üretim hattına düştüğünde yalnız o partiyi değil tesisin güvenini de zedeler. Bu yüzden gıda sahalarında alet bağlama zorunlu, sepet içi düzen denetimli ve cam içeren malzemelerde kırılmaz muadil tercih edilir.",
+                    "Uygulamanın son halkası kapanış kontrolüdür: iş bittiğinde çalışılan alanın altı ve çevresi, tesis personeliyle birlikte gözle taranır ve tutanağa bağlanır. Bu adımı atlamayız — gıda tesisinde 'muhtemelen bir şey düşmedi' cümlesi yeterli değildir.",
+                ],
+            },
+            {
+                baslik: "Rezervasyon sırası: sakin ayların gizli rekabeti",
+                paragraflar: [
+                    "Bölgedeki tesislerin bakım pencereleri büyük ölçüde çakışır; herkesin sakin ayı aynı aylardır. Bu, dar bir zaman aralığında yoğunlaşan bir talep demektir ve platform tarafında bunun tek çözümü erken rezervasyondur. Sezon bitmeden takvim bağlayan tesis, istediği makineyi istediği haftada alır; pencere açıldıktan sonra arayan tesis, kalanla yetinir.",
+                    "Bu yüzden bölge tesislerine sezon içindeyken uğrar, gelecek pencerenin iş listesini önceden alırız. Tesis için maliyeti yoktur — rezervasyon, tarih değişikliğine açık ve esnek tutulur; amaç bağlamak değil, herkesin doğru haftayı bulmasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim hattımızın üstündeki aydınlatmalar değişecek; hat durmadan yapılabilir mi?",
+                cevap:
+                    "Hattın tam üstündeki armatürlerde hayır — ürün akarken üstünde çalışmayız, bu bizim taviz vermediğimiz kuralımızdır. Uygulanabilir yol, hattın boş olduğu dilimleri kullanmaktır: vardiya değişimi, ürün geçişi arası veya hat temizliği sonrası kuru dönem. Hattın kenarındaki ve koridor üstündeki armatürler ise üretim sürerken bariyerli düzende değiştirilebilir. Armatür yerleşim planınızı paylaşın; hangi kalemin hangi dilimde yapılacağını liste hâlinde çıkaralım — çoğu tesiste iş, tek bir duruşa bile ihtiyaç duymadan bitiyor.",
+            },
+            {
+                soru: "Soğuk depomuzun evaporatör bakımı için ne kadar süre sisteme ara vermemiz gerekir?",
+                cevap:
+                    "Süreyi biz değil, ünite sayısı ve bakım kapsamı belirler; ama planlama mantığı şudur: iş, deponuzun en düşük doluluk gününe yazılır ve üniteler tek tek değil bölge bölge ele alınır ki sistemin tamamı aynı anda devre dışı kalmasın. Platform tarafında hazırlık tamdır — makine soğuk hacme uygun, akü payı hesaplanmış ve operatör donanımlı gelir, böylece sizin verdiğiniz ara, kurulum beklemekle harcanmaz. Soğutma servisinizle ortak plan yapalım; ara süresi çoğu zaman tahmin edilenden kısa çıkıyor.",
+            },
+            {
+                soru: "Denetimimiz iki hafta sonra; tavan tarafında ne yapmalıyız?",
+                cevap:
+                    "Bir günlük kontrol ve düzeltme turu öneriyoruz: sepetle tüm tavan hattı gezilir, aydınlatma koruyucularının bütünlüğü, panel yüzeylerinin durumu, menfez temizliği ve yoğuşma-kaçak izleri tek tek bakılır. Tespit edilen küçük kalemler aynı ziyarette düzeltilir, büyük olanlar için denetim sonrasına plan yapılır. Turun çıktısı fotoğraflı bir rapordur ve bu rapor, denetimde 'düzenli kontrol yapılıyor' kanıtı olarak da işinize yarar. İki hafta bunun için fazlasıyla yeterli bir süre.",
+            },
+            {
+                soru: "Sakin dönemde tüm bakımı toplu yaptırmak istiyoruz; makine bizde kalabilir mi?",
+                cevap:
+                    "Kalabilir ve bu dönemde en ekonomik biçim zaten budur: makine tesisinizde konumlanır, iş listesi bölüm bölüm ilerler ve haftalık-aylık kiralama koşulları uygulanır — günlük tarifeyle kıyaslandığında birim maliyet belirgin düşer. Operatörlü veya operatörsüz çalışılabilir; operatörsüzde ekibinizin yetkili kullanıcı belgeleri kontrol edilir ve teslimde kullanım eğitimi verilir. Sakin dönem talebi yoğun olduğu için tek uyarımız erken haber vermek: takvimi sezon bitmeden bağlayalım.",
+            },
+            {
+                soru: "Yan sanayi tesisiyiz, gıda üretimi yapmıyoruz; sizinle çalışmak daha mı basit oluyor?",
+                cevap:
+                    "Hazırlık tarafında evet — hijyen rejimi yerine standart sanayi düzeni geçerlidir: İSG evrakları, saha kuralları ve vardiyanıza uygun iş blokları yeterlidir, keşif çoğu zaman fotoğrafla tamamlanır. Bunun pratik faydası esnekliktir: işiniz, gıda tesislerinin katı zaman kısıtları arasındaki boşluklara kolayca yerleşir ve bölge turlarında öncelikli eşleşme şansı bulur. Yani basitlik size hız ve daha iyi bir gün fiyatı olarak döner.",
+            },
+            {
+                soru: "Bölgede birden fazla tesisimiz var; hepsi için tek anlaşma yapabilir miyiz?",
+                cevap:
+                    "Yapabilirsiniz; çok tesisli anlaşma bizim tercih ettiğimiz yapıdır çünkü planlamayı iki taraf için de sadeleştirir. Tesislerin bakım listeleri tek takvimde birleştirilir, ortak dönemlerde makine bölgede kalır ve tesisler arası geçiş aynı kiralama içinde yapılır — her tesis için ayrı nakliye ve ayrı süreç yürütülmez. Faturalama tesis bazında ayrıştırılabilir, böylece her tesisin kendi bütçe takibi bozulmaz. Tesis listenizle gelin, ortak takvimi tek oturumda kuralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Akhisar'ın zeytin-gıda sanayi ağırlığı ve gıda tesislerinin denetim pratiği kamuya açık genel bilgidir; kontrol turu, kapanış taraması ve çok tesisli takvim firma pratiğidir.",
+    },
+
+    "bolge:salihli-osb": {
+        h1: "Salihli OSB'de Platform Kiralama ve Planlı Bakım Hizmeti",
+        giris:
+            "Salihli'nin organize sanayi bölgesi, ilçenin karma ekonomik yapısını sanayi ölçeğinde tekrar eder: tarım ürünlerini işleyen ve paketleyen tesisler, metal ve makine imalatı yapan atölye ölçeğinden fabrika ölçeğine uzanan bir kuşak, ambalaj ve depolama yapıları. Bu bölgede platform ihtiyacı çoğunlukla planlı bakımdan doğar ve talebin niteliği tekil bir kiralamadan çok, tesisin bakım takvimine eşlik eden bir hizmet ilişkisi ister. Manisa merkezden Salihli'ye günübirlik çalıştığımız için bu ilişkiyi kurmak bizim açımızdan doğal — bölgeye ayda birkaç kez giren bir ekibiz, tesislerin bakım sorumlularını tanıyoruz ve bölgenin ortak sorunlarını (yumuşak dış saha zeminleri, yaz sonrası yoğunlaşan bakım talebi, vinçli hollerdeki koordinasyon ihtiyacı) tekrar tekrar çözmüş olmanın pratiğine sahibiz. Ankara yolu bağlantısı sevkiyatı kolaylaştırır; bölge kapısı bizim için uzak bir adres değildir.",
+        maddeler: [
+            {
+                baslik: "Planlı bakım listesini makineyle eşleştirmek",
+                metin:
+                    "Bölgedeki tesislerin çoğu bakım listesini hazırlar ama listedeki hangi kalemin hangi ekipmanla yapılacağını çoğu zaman iş gününe bırakır — ve o gün makine yanlış tipse iş yarım kalır. Bizim çalışma biçimimiz listeyi baştan eşleştirmektir: her kalemin çalışma kotu, erişim engelleri ve zemin durumu not edilir, makine tipi kalem bazında atanır. Bu ön çalışma bir saat sürer ve karşılığında iş gününde kaybedilen saatleri kurtarır; tesisin bakım şefi de listesini ekipman gerçeğiyle bir kez gözden geçirmiş olur.",
+            },
+            {
+                baslik: "Metal ve makine imalatında vinç-platform koordinasyonu",
+                metin:
+                    "Bölgenin imalat kuşağında üretim holleri tavan vinçleriyle çalışır ve platformla vincin aynı hacmi paylaşması, planlanması gereken bir durumdur. Çalışma bölgesindeki vinç hattı, iş bloğu boyunca tesisin vinç sorumlusuyla birlikte sınırlandırılır; tam sınırlama üretimi durduracaksa bölgesel kısıt ve gözcü düzeni uygulanır. Vinç yolu ve halat kontrolleri gibi işlerde ise ilişki tersine döner — platform, bakım ekibini ray hattı boyunca taşıyan araç olur ve iş vinç servisiyle eş zamanlı yürür.",
+            },
+            {
+                baslik: "Tarım ürünleri tesislerinde işleme dönemi dışı çalışma",
+                metin:
+                    "Bölgenin tarım ürünleri işleyen tesisleri yılın belirli aylarında dolar; bu dönemlerde platform işleri ancak zorunlu müdahalelerle sınırlı kalır. Asıl bakım, hatların durduğu aylarda yapılır: tavan tesisatı, aydınlatma yenileme, havalandırma ve toz toplama sistemlerinin yüksek bileşenleri, çatı iç yüzeyi kontrolleri. Tesisin işleme takvimini önceden bilmek bu planın anahtarıdır ve biz bölgedeki tesislere bu tarihi bir kez sorup kendi takvimimize işleriz — her yıl yeniden sormaya gerek kalmaz.",
+            },
+            {
+                baslik: "Dış saha ve çatı işlerinde zemin-hava planı",
+                metin:
+                    "Organize bölgenin parsel içi dış sahaları çoğu tesiste beton değildir: stabilize alanlar, peyzaj bantları ve yeni düzenlenmiş bölümler yumuşak zemin üretir. Cephe, çatı kenarı ve saha aydınlatması işlerinde makine ayaklarının altına yük dağıtıcı plaka serilir ve yağışlı dönem sonrasında iş tarihi zeminin oturmasına göre kaydırılır. Hava tarafında ise ovanın öğleden sonra kuvvetlenen rüzgârı, yüksek kot işlerini sabaha taşır — dış iş günü sabah ağırlıklı, öğleden sonrası iç kalemlerle dengeli kurulur.",
+            },
+            {
+                baslik: "Küçük atölyelerde erişilebilir kiralama",
+                metin:
+                    "Bölgenin atölye ölçeğindeki işletmeleri, platform ihtiyacını çoğu zaman merdiven ve iskeleyle çözmeye çalışır; oysa yarım günlük bir kiralamanın bedeli, kurulup sökülen iskelenin harcadığı iş gücünün altında kalabilir. Bu ölçeğe erişilebilir bir kiralama sunmak için işi basitleştiririz: telefonla tarif, fotoğrafla teyit, gün içi teslim ve yarım gün tarifesi. Bölgeye zaten girdiğimiz günlere eşleşen atölye işleri en ekonomik biçime iner ve bu eşleşmeyi kurmak bizim işimizdir, işletmenin değil.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Salihli OSB'de bakım kalemi–makine eşleştirmesi",
+                paragraflar: [
+                    "Bölgedeki tesislerden en sık gelen bakım kalemleri ve ilk eşleştirme önerisi aşağıdadır. Kesin seçim keşifle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Erişim zorluğu", "Makine", "Planlama notu"],
+                    satirlar: [
+                        ["Hol aydınlatması", "Vinç trafiği", "Akülü makaslı", "Vinç sınırlaması gerekir"],
+                        ["Vinç yolu kontrolü", "Ray boyu ilerleme", "Eklemli", "Vinç servisiyle eş zamanlı"],
+                        ["Toz toplama üst hattı", "Dar ve engelli", "Eklemli", "Hat duruşuna bağlı"],
+                        ["Çatı iç yüzeyi", "Yüksek, açık hacim", "Akülü makaslı", "Tesis boşken hızlı"],
+                        ["Saha aydınlatma direği", "Yumuşak zemin", "Eklemli", "Plaka + sabah penceresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bakım listesini keşifle okumak: yarım kalan iş günü olmaz",
+                paragraflar: [
+                    "Platform kiralamalarında en sık yaşanan hayal kırıklığı, makinenin sahaya gelip işe yetişememesidir: kot yetmez, makine engelin arkasına ulaşamaz, zemin taşımaz. Bunların hepsi iş gününden önce anlaşılabilecek sorunlardır ve keşif tam bunun içindir. Bölgedeki tesislerle çalışırken keşfi bir formalite değil, işin ilk adımı sayarız ve ücretsiz yaparız.",
+                    "Keşfin ikinci faydası süredir: kalemler sıralandığında iş gününün kaç saat süreceği gerçekçi biçimde tahmin edilir ve tesis, bakım penceresini buna göre ayarlar. 'Bir günde biter' tahminiyle başlayıp üç güne yayılan işler, bu bölgede bizim adımıza yaşanmıyor.",
+                ],
+            },
+            {
+                baslik: "Yıl sonu yoğunluğu ve erken planlamanın karşılığı",
+                paragraflar: [
+                    "Bölgede bakım talebi yıl içinde eşit dağılmaz; işleme sezonlarının bitişi ve yıl sonu bütçe kapanışları, talebi belirli haftalara yığar. Bu yığılma dönemlerinde makine bulmak zorlaşır ve tesisler ihtiyaç duydukları tipi değil, kalanı kullanmak zorunda kalır.",
+                    "Erken planlamanın karşılığı burada net görünür: takvimini önceden bağlayan tesis hem istediği makineyi hem istediği haftayı alır, hem de dönem koşullarından yararlanır. Bölgedeki tesislere yoğunluk dönemi başlamadan uğramamızın sebebi budur — takvimi birlikte kurmak, iki taraf için de sürprizi ortadan kaldırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bakım listemiz uzun; hangi kalem için hangi makine gerektiğini nasıl belirliyorsunuz?",
+                cevap:
+                    "Listeyi birlikte okuyarak. Her kalemin çalışma kotunu, erişim yolundaki engelleri (makine, raf, boru hattı) ve altındaki zemin durumunu not ederiz; buna göre kalem bazında makine tipi atanır ve aynı tipte olanlar gruplanarak iş günü sıraya dizilir. Bu ön çalışma bir saatinizi alır ama iş gününde kaybedilecek saatleri kurtarır. Çıktı olarak elinize eşleştirilmiş bir liste geçer — bu liste, sonraki yıllarda da bakım planlamanızın referansı olur.",
+            },
+            {
+                soru: "Üretim holümüzde tavan vinci sürekli çalışıyor; platform aynı anda girebilir mi?",
+                cevap:
+                    "Girer, koordinasyon planıyla. Çalışma bölgenizdeki vinç hattı iş bloğu boyunca sınırlandırılır — tam kilitleme üretimi durduracaksa bölgesel kısıt ve gözcü düzeni uygulanır, sepetle köprünün aynı hatta buluşması planla imkânsız kılınır. İş blokları vinç trafiğinizin sakin saatlerine yazılır. Bu düzeni tesisinizin vinç sorumlusuyla keşifte kurar, yazılı hâle getiririz. Sözlü mutabakatla vinçli holde çalışmayız; bu bölgede en ciddiye aldığımız güvenlik konusu budur.",
+            },
+            {
+                soru: "Dış sahamız stabilize; makine oraya kurulabilir mi?",
+                cevap:
+                    "Kurulur ama hazırlıkla: makine ayaklarının altına yük dağıtıcı plaka serilir ve zeminin taşıma durumu iş öncesinde kontrol edilir. Yağış sonrası dönemlerde iş tarihini zeminin oturmasına göre kaydırmayı öneririz — ıslak stabilize, plaka olsa bile riskli davranır. Sizden istediğimiz tek bilgi sahanın son dönemde ne zaman düzenlendiği ve altında dolgu olup olmadığıdır. Keşifte zemini fiilen görür, gerekiyorsa iş noktasını birkaç metre kaydırarak sağlam bölgeye alırız.",
+            },
+            {
+                soru: "Küçük bir atölyeyiz; iskele kurmak yerine kiralamak gerçekten daha mı hesaplı?",
+                cevap:
+                    "Çoğu durumda evet ve hesabı yaparken iskelenin sadece bedelini değil, kurulum-söküm için harcanan iş gücünü ve kaybedilen günleri de sayın. Yarım günlük bir platform kiralaması, iki kişinin bir gün iskele kurmasından genellikle ucuza gelir ve iş, sepetle çok daha hızlı biter. Bölgeye girdiğimiz günlere eşleşen atölye işlerinde bedel daha da iner. İşinizi tarif edin; kiralama ile mevcut yönteminizin karşılaştırmasını rakamla yapalım — çıkan sonuç sizin lehinize değilse bunu da açıkça söyleriz.",
+            },
+            {
+                soru: "Tarım ürünleri işliyoruz; bakım işlerimizi hangi aylara planlamalıyız?",
+                cevap:
+                    "İşleme döneminizin bitişini izleyen ilk sakin haftalara. O dönemde hatlar durur, hijyen riski küçülür ve iş belirgin hızlanır — aynı liste, tesis doluyken harcayacağı sürenin çok altında biter. Yalnız bir uyarı: bölgedeki tesislerin sakin dönemleri büyük ölçüde çakışır ve o haftalarda makine talebi yığılır. Bu yüzden işleme döneminiz sürerken takvimi bağlamanızı öneriyoruz; rezervasyon esnek tutulur, tarih değişikliği sorun değildir ama sıra sizde olur.",
+            },
+            {
+                soru: "İş sırasında beklenmedik bir kalem çıkarsa ne oluyor?",
+                cevap:
+                    "Sahada karar veririz, sizi sonradan sürprizle karşılaştırmadan. Sepetten görülen ek bir sorun (gevşek askı, hasarlı armatür, kaçak izi) varsa önce bildirilir; küçük ve o gün yapılabilecek bir kalemse süre etkisi söylenerek onayınızla yapılır, büyükse rapora yazılır ve ayrı planlanır. Kiralama süresini kendi kendimize uzatmayız — ek süre gerekiyorsa nedeniyle birlikte konuşulur. İş sonunda elinize geçen fotoğraflı rapor, hem yapılanları hem tespit edilen ek bulguları içerir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Salihli'nin karma sanayi yapısı ve ova zemin koşulları kamuya açık genel bilgidir; kalem-makine eşleştirmesi, vinç koordinasyon planı ve ek bulgu raporlaması firma pratiğidir.",
+    },
+
+    "bolge:izmir-kemalpasa-osb-cevre-ili": {
+        h1: "Kemalpaşa OSB'ye Manisa'dan Platform Kiralama (Çevre İl)",
+        giris:
+            "Kemalpaşa, İzmir'in doğu kapısıdır ama Manisa'dan bakıldığında komşu bir sanayi havzasıdır: Turgutlu üzerinden uzanan hat, bölgeyi bizim günlük çalışma yarıçapımızın içine alır. Bu sayfa, İzmir merkezli bir tedarikçinin Kemalpaşa'ya bakışını değil, Manisa'dan doğuya değil batıya doğru çalışan bir ekibin bakışını anlatır — ve bu yön farkı pratikte gerçek bir sonuç üretir. Kemalpaşa'nın yoğun lojistik ve imalat dokusunda İzmir tarafından gelen makineler şehir içi trafiğin ritmine bağlıdır; bizim sevkiyatımız ise ilçe hattından, sanayi trafiğine takılmadan ilerler. Sabahın erken saatlerinde sahada olmak isteyen tesisler için bu, göz ardı edilmeyecek bir avantajdır. Bölgede yaptığımız iş de yön kadar belirgindir: kalabalık lojistik yapıların iç bakım kalemleri, imalat tesislerinin planlı duruş destekleri ve depo hacimlerinin yüksek erişim işleri.",
+        maddeler: [
+            {
+                baslik: "Batı yönlü sevkiyatın zaman avantajı",
+                metin:
+                    "Bir platformun sahaya kaçta ulaştığı, iş gününün kaç saat olduğunu belirler. Kemalpaşa'ya Manisa tarafından yaklaşan makine, İzmir merkezinden çıkan bir sevkiyatın karşılaştığı şehir içi yoğunluğu yaşamaz; ilçe hattından ilerleyen lowbed, sabah mesaisi başlarken bölge kapısında olabilir. Bu, özellikle tek günlük işlerde doğrudan kazanç demektir — kurulum sabah dokuzda değil sekizde biterse, gün bir saat değil çoğu zaman yarım iş bloğu kazanır. Sevkiyat saatini de tesise söz verdiğimiz saate göre değil, bir kademe erkene planlarız.",
+            },
+            {
+                baslik: "Lojistik ve dağıtım yapılarında iç erişim işleri",
+                metin:
+                    "Bölgenin yoğun depo ve dağıtım merkezi dokusu, kendi bakım kalemlerini üretir: yüksek raf sistemlerinin üstündeki aydınlatma, çatı altı yangın tesisatı, dok kapılarının mekanizmaları ve konveyör hatlarının üst bileşenleri. Bu yapılarda kritik kısıt operasyonun sürekliliğidir — depo çoğu zaman durmaz, bu yüzden iş bölge bölge, sevkiyat trafiğinin sakinleştiği saat dilimlerine yazılır. Koridor genişliği makine seçiminin ilk maddesidir ve dar koridorlu depolarda dar şasili makineler kullanılır.",
+            },
+            {
+                baslik: "İmalat tesislerinde duruş desteği",
+                metin:
+                    "Bölgedeki üretim tesislerinin planlı duruş haftaları, platform talebinin yoğunlaştığı dönemlerdir ve bu haftalarda tedarikçiden beklenen tek şey vardır: söz verilen makinenin söz verilen sabah sahada olması. Duruş penceresi kısa ve pahalıdır; geciken bir makine, tüm bakım programını kaydırır. Bu yüzden duruş işlerinde rezervasyonu erken bağlar, makineyi bir gün önceden konumlandırırız. Hafta içinde makine tipi değişikliği gerekirse, il hattımız üzerinden yedek makine aynı gün gönderilebilir.",
+            },
+            {
+                baslik: "Karma parsel dokusunda kısa işler",
+                metin:
+                    "Kemalpaşa'nın sanayi dokusu yalnız büyük tesislerden oluşmaz; orta ölçekli imalatçılar, atölyeler ve yan sanayi parselleri bölgenin önemli bir bölümünü kaplar. Bu ölçekte işler kısadır — bir cephe tabelası, bir çatı sızıntısı, bir vinç kontrolü. Kısa işleri ekonomik kılan yöntem bölge günüdür: aynı güne birden fazla adres dizilir, sevkiyat bir kez yapılır ve maliyet paylaşılır. Bölgeye Manisa tarafından düzenli girdiğimiz için bu günleri kurmak bizim için zor değildir.",
+            },
+            {
+                baslik: "Çevre il olmanın dürüst sınırları",
+                metin:
+                    "Çevre il hizmetinde abartılı vaat vermeyiz. Bölgeye erişimimiz hızlıdır ama sınırsız değildir: gece yarısı doğan bir arıza için 'yarım saatte oradayız' demeyiz, aynı gün içinde makul bir saat söyleriz ve o saati tutarız. Uzun süreli işlerde çevre il farkı zaten erir — makine tesiste kalır, sevkiyat toplam maliyetin küçük bir kalemi olur. Kısa ve acil işlerde ise dürüst hesap yaparız: nakliye payını gösterir, işi bölge gününe eşleştirme seçeneğini sunar ve kararı tesise bırakırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kemalpaşa işlerinde iş tipi ve planlama",
+                paragraflar: [
+                    "Bölgeden gelen taleplerin tipik yapısı ve Manisa hattından planlama biçimi aşağıdadır. Süreler keşifle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Kısıt", "Planlama", "Sevkiyat"],
+                    satirlar: [
+                        ["Depo raf üstü işler", "Operasyon sürekliliği", "Bölge bölge, sakin saatler", "Sabah erken"],
+                        ["Çatı altı tesisat", "Yükseklik, hacim", "Tam gün blokları", "Bir gün önceden"],
+                        ["Duruş haftası desteği", "Kısa pencere", "Erken rezervasyon", "Önceden konumlama"],
+                        ["Dok kapısı bakımı", "Sevkiyat trafiği", "Kapı sırasıyla", "Gün içi"],
+                        ["Atölye kısa işleri", "Bütçe", "Bölge gününe eşleşme", "Paylaşımlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yön farkı neden önemli",
+                paragraflar: [
+                    "Platform kiralamada mesafe genellikle kilometreyle konuşulur, oysa asıl belirleyici olan varış saatidir. Kemalpaşa gibi yoğun bir sanayi bölgesine hangi yönden yaklaşıldığı, aynı kilometrenin farklı sürelere karşılık gelmesine yol açar. Manisa hattından gelen sevkiyat, şehir içi yoğunluğun dışında kalır ve sabah erken varış gerçekçi bir taahhüt hâline gelir.",
+                    "Bu, İzmir tarafındaki tedarikçilerin işini yapamayacağı anlamına gelmez; sadece sabah saatlerine hassas işlerde — duruş haftaları, tek günlük yoğun listeler, denetim öncesi hazırlıklar — bizim tarafımızın yapısal bir kolaylığı olduğunu söyler. Tesis için doğru soru şudur: makine kaçta sahada olacak ve bu saat yazılı mı?",
+                ],
+            },
+            {
+                baslik: "Depo operasyonunu durdurmadan çalışmak",
+                paragraflar: [
+                    "Dağıtım merkezlerinde bakım işinin en zor kısmı teknik değil operasyoneldir: depo durmaz, forklift trafiği akar, sevkiyat saatleri kutsaldır. Bu ortamda çalışmanın yolu, işi depo diline çevirmektir — hangi koridor hangi saatte boşalır, hangi bölge hangi gün stok değiştirir, hangi kapı ne zaman sakinleşir. İş planı bu haritanın üzerine yazılır.",
+                    "Uygulamada bu, bir koridorda saatlerce çalışmak yerine, birden çok koridorda kısa bloklarla ilerlemek anlamına gelir. Depo yöneticisiyle sabah yapılan kısa bir koordinasyon toplantısı, günün blok sırasını belirler ve bu on dakika, gün boyunca yaşanacak tıkanmaları önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manisa'dan geliyorsunuz; makine sabah kaçta sahada olur?",
+                cevap:
+                    "Mesai başlangıcına yetişecek şekilde planlarız ve saati yazılı olarak veririz. İlçe hattından ilerleyen sevkiyat şehir içi yoğunluğa takılmadığı için sabah erken varış bizim için gerçekçi bir taahhüttür; kritik günlerde ise makineyi bir gün önceden konumlandırmayı öneririz — böylece sabah kurulumla değil doğrudan işle başlanır. Tek günlük yoğun listelerde bu tercih, gün sonunda yarım iş bloğu fark yaratıyor. Sizin mesai saatinizi söyleyin, sevkiyat planını ona göre bir kademe erkene çekelim.",
+            },
+            {
+                soru: "Deponuz gibi hiç durmayan bir tesiste çalışma nasıl planlanır?",
+                cevap:
+                    "Depo takviminin üzerine yazılarak. Sabah kısa bir koordinasyonla hangi koridorun hangi saatte boşalacağı, hangi bölgenin o gün stok değiştireceği ve kapıların sakin saatleri belirlenir; iş, tek koridorda uzun süre kalmak yerine birden çok koridorda kısa bloklarla ilerler. Böylece forklift trafiği ve sevkiyat hiç kesilmez, iş de gün sonunda biter. Depo yöneticinizle bu on dakikalık toplantıyı her iş sabahı yaparız — planı sahada kuran taraf, depoyu bizden iyi bilen taraftır.",
+            },
+            {
+                soru: "Duruş haftamıza makine sözü veriyorsunuz; gecikme riskine karşı garantiniz ne?",
+                cevap:
+                    "Üç katmanlı bir düzen: rezervasyon erken bağlanır, makine kritik günlerde bir gün önceden sahaya konumlandırılır ve hafta boyunca yedek makine hattımızda hazır tutulur — tip değişikliği veya arıza durumunda aynı gün ikame gönderilir. Duruş penceresinin ne kadar pahalı olduğunu biliyoruz, bu yüzden bu haftalarda 'muhtemelen yetişiriz' demeyiz. Duruş programınızı paylaşın; hangi gün hangi makinenin nerede olacağını saatiyle yazılı plana dökelim.",
+            },
+            {
+                soru: "Çevre ilden hizmet almak bize pahalıya gelir mi?",
+                cevap:
+                    "İşin süresine bağlı ve hesabı açık gösteririz. Uzun süreli işlerde fark neredeyse yok olur — makine tesiste kalır, sevkiyat toplam içinde küçük bir kalem hâline gelir. Kısa ve tekil işlerde nakliye payı görünür hâle gelir; bu durumda size iki seçenek sunarız: işi bölge gününe eşleştirip nakliyeyi paylaşmak veya tekil sevkiyatla kendi gününüzde yaptırmak. İki seçeneğin bedelini yan yana görür, aciliyetinize göre seçersiniz. Gizlenen bir nakliye kalemi bizim tekliflerimizde olmaz.",
+            },
+            {
+                soru: "Küçük bir atölyeyiz; bölge günü sistemine nasıl dahil oluruz?",
+                cevap:
+                    "İşinizi birkaç günlük tarih esnekliğiyle bize bildirmeniz yeterli. Bölgeye zaten düzenli girdiğimiz için, uygun bir gün oluştuğunda size tarih öneririz; o gün makine bölgededir, sevkiyat diğer adreslerle paylaşılır ve kısa işiniz hak ettiği bedele iner. Önerilen gün uymazsa iş bir sonraki eşleşmeye kalır, taahhüt oluşmaz. Aciliyeti olan işlerde ise eşleşme beklenmez — makine kendi gününde gelir, bedel de tekil hesaplanır ve bunu baştan bilirsiniz.",
+            },
+            {
+                soru: "İzmir'deki tedarikçilerle aranızdaki fark tam olarak nedir?",
+                cevap:
+                    "Dürüst cevap: teknik olarak makineler benzer, fark yaklaşma yönünde ve çalışma alışkanlığında. Manisa hattından geldiğimiz için sabah erken varış bizim için yapısal olarak kolaydır ve sabaha hassas işlerde bu belirgin bir avantajdır. İkinci fark ölçek alışkanlığıdır: biz ilçe sanayisinde, küçük işletmeden büyük tesise kadar geniş bir yelpazeyle çalışmaya alışkın bir ekibiz — küçük işi de büyük iş kadar ciddiye alırız. Sizin işiniz hangi tarafta ağır basıyorsa, karşılaştırmayı ona göre yapın; biz hangi durumda avantajlı olmadığımızı da söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kemalpaşa'nın İzmir doğu aksındaki lojistik-imalat yoğunluğu kamuya açık genel bilgidir; sevkiyat planlama tercihleri, bölge günü ve yedek makine düzeni firma pratiğidir.",
+    },
+
+    "bolge:usak-osb-cevre-ili": {
+        h1: "Uşak OSB'ye Manisa'dan Platform Kiralama (Çevre İl)",
+        giris:
+            "Uşak, tekstil ve deri sanayisiyle tanınan bir üretim şehridir: battaniye ve ev tekstili üretimi, iplik ve dokuma tesisleri, deri işleme ve seramik-yapı malzemeleri sanayisi, şehrin organize bölgelerinde yoğunlaşmış bir doku oluşturur. Manisa'nın doğu aksından Uşak'a uzanan hat, bizim için düzenli bir çalışma koridorudur ve bu koridoru yalnızca mesafe olarak değil, iş biçimi olarak da kurduk: Uşak'a tekil kiralamalarla değil, çok günlük programlarla gideriz. Tekstil ve deri tesislerinin bakım kalemleri buna zaten uygundur — bu tesislerde iş, bir armatürle bitmez; tavan hattı boyunca uzanan aydınlatma, havalandırma ve toz-tüy toplama sistemleri, bir hafta boyunca sürecek bir liste üretir. Bu sayfada, Manisa'dan Uşak'a verdiğimiz hizmetin nasıl kurulduğunu ve tekstil-deri sahasının platform açısından ne anlama geldiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Tekstil hollerinde tüy ve toz katmanı",
+                metin:
+                    "Dokuma, iplik ve battaniye üretim hollerinin havasında sürekli asılı bir lif katmanı bulunur ve bu katman tavan yüzeylerinde, aydınlatma armatürlerinde, havalandırma menfezlerinde ve kablo tavalarında birikir. Platform açısından bu iki şey demektir: birincisi, bakım kalemleri temizlik ağırlıklıdır ve tavan hattı boyunca uzun mesafeler kat edilir; ikincisi, makine filtreleri bu ortamda hızlı dolar ve kontrol aralığı kısaltılır. Lif birikimi aynı zamanda yangın yükü olduğu için bu temizlik işleri tesisler açısından ertelenebilir değil, güvenlik kalemidir.",
+            },
+            {
+                baslik: "Uzun tavan hatlarında sistemli ilerleme",
+                metin:
+                    "Tekstil hollerinin geometrisi platform işini seri hâline getirir: uzun ve tekrarlı tavan hatları, birbirinin aynı armatür dizileri, düzenli aralıklı menfezler. Bu geometride verim, tek tek işlerden değil ilerleme düzeninden gelir — makine hat boyunca sabit adımlarla ilerler, her konumda o konumun tüm kalemleri (temizlik, armatür, menfez, askı kontrolü) birlikte yapılır ve bir daha o noktaya dönülmez. Bu düzen kurulduğunda günlük metraj öngörülebilir hâle gelir ve tesis, işin ne zaman biteceğini gerçek bir tahminle bilir.",
+            },
+            {
+                baslik: "Deri işleme tesislerinde nemli ve kimyasal ortam",
+                metin:
+                    "Deri işleme sahalarının ortamı nem, su ve kimyasal buhar içerir; bu koşullar hem çalışma güvenliğini hem makine ömrünü etkiler. Islak zeminlerde platform kurulumu ekstra dikkat ister, kimyasal buharın yoğun olduğu bölümlerde çalışma dilimleri havalandırma durumuna göre planlanır ve iş sonrası makine temizliği koruyucu bakımla tamamlanır. Bu sahalarda tesisin kendi İSG ve kimyasal maruziyet prosedürleri esastır; iş planımızı tesisin güvenlik biriminin belirlediği çerçeveye yerleştiririz.",
+            },
+            {
+                baslik: "Çok günlük program modeli",
+                metin:
+                    "Uşak işlerini tekil kiralama olarak değil, çok günlük program olarak kurarız: makine tesiste konumlanır, iş listesi gün gün ilerler ve haftalık kiralama koşulları uygulanır. Bu modelin iki faydası vardır — çevre il sevkiyatı toplam maliyet içinde küçük bir kaleme iner ve tesis, her iş için yeniden organizasyon yapmak zorunda kalmaz. Programın uzunluğu tesisin liste büyüklüğüne göre belirlenir; komşu tesislerin işleri aynı programa eklenebildiğinde makine bölgede kalır ve maliyet daha da dengelenir.",
+            },
+            {
+                baslik: "Seramik ve yapı malzemesi tesislerinde tanıdık zemin",
+                metin:
+                    "Uşak'ın seramik ve yapı malzemeleri sanayisi, bizim Turgutlu tarafındaki toprak sanayi deneyimimizle doğrudan örtüşür: tozlu hacimler, fırın ve kurutma bölgeleri, silo ve bant hatları. Bu tesislerde ne yapacağımızı ilk günden biliriz — makine ağır ortam düzeniyle hazırlanır, sıcak bölge işleri üretim penceresine göre planlanır, filtre bakımı programa dahil edilir. Aynı sanayi kolunu iki ilde birden çalışmak, tesislerin bakım sorumlularıyla teknik dili hızla kurmamızı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Uşak sanayi kolları ve çalışma karşılıkları",
+                paragraflar: [
+                    "Şehrin başlıca sanayi kollarında platform işinin karakteri aşağıda özetlenmiştir. Süre ve makine seçimi keşifle kesinleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Sanayi kolu", "Baskın kalem", "Ortam", "Program"],
+                    satirlar: [
+                        ["Dokuma-iplik", "Tavan temizliği, aydınlatma", "Lif-toz", "Çok günlük seri"],
+                        ["Ev tekstili-battaniye", "Havalandırma, menfez", "Lif-toz", "Çok günlük seri"],
+                        ["Deri işleme", "Tesisat, üst hat kontrol", "Nem, kimyasal", "Prosedürlü blok"],
+                        ["Seramik-yapı malzemesi", "Silo, bant, fırın çevresi", "Toz, sıcak", "Duruş penceresi"],
+                        ["Depo-lojistik", "Raf üstü, çatı altı", "Standart", "1 – 2 gün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Lif birikimi: bakım değil, güvenlik konusu",
+                paragraflar: [
+                    "Tekstil tesislerinde tavan ve havalandırma hatlarında biriken lif, estetik bir sorun değildir: yanıcı bir katman olarak yangın yükünü artırır, havalandırma verimini düşürür ve aydınlatma seviyesini zamanla azaltarak üretim kalitesini etkiler. Bu yüzden tavan temizliği, tesislerin bakım listesinde ertelenebilir kalemler arasında değil, periyodik güvenlik kalemleri arasında yer alır.",
+                    "Platform tarafında bu, işin düzenli tekrarlanan bir program olduğu anlamına gelir. Yılda bir veya iki kez tekrarlanan temizlik turları, tesisin kendi bakım takvimine yazıldığında hem maliyet öngörülebilir hâle gelir hem her turda daha az birikimle karşılaşıldığı için süre kısalır.",
+                ],
+            },
+            {
+                baslik: "Koridoru programla kurmak",
+                paragraflar: [
+                    "Çevre il hizmetinin sürdürülebilir olmasının tek yolu, işi doğru büyüklükte kurmaktır. Yarım günlük bir iş için Uşak'a makine göndermek ne bizim için ne tesis için mantıklıdır; buna karşılık bir haftalık bir program, sevkiyatı önemsiz bir kaleme indirir ve tesise günlük tarifenin altında bir birim maliyet sağlar.",
+                    "Bu yüzden Uşak taleplerinde ilk sorumuz liste büyüklüğüdür. Liste küçükse, ya komşu tesislerin işleriyle birleştirmeyi ya da tesisin bir sonraki bakım dönemine kadar biriktirmesini öneririz — kendi işimize karşı verilmiş gibi görünen bu tavsiye, aslında ilişkiyi uzun vadede ayakta tutan şeydir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dokuma holümüzün tavan temizliği ne kadar sürer?",
+                cevap:
+                    "Süre, hol uzunluğu ve birikim yoğunluğuyla belirlenir; ama tahmin yöntemimiz nettir: makinenin hat boyunca kaç konumda duracağı hesaplanır ve her konumun ortalama süresi keşifte ölçülür — böylece 'yaklaşık bir hafta' değil, konum sayısına dayalı bir gün tahmini verilir. İlk temizlik turu her zaman en uzun olanıdır; periyodik hâle geldiğinde birikim azaldığı için süre belirgin kısalır. Holünüzün ölçülerini ve son temizlik tarihini paylaşın, ilk tahmini telefonda verelim, keşifte kesinleştirelim.",
+            },
+            {
+                soru: "Üretimimiz üç vardiya çalışıyor; tavan işleri için hattı durdurmalı mıyız?",
+                cevap:
+                    "Tamamen durdurmanız çoğu zaman gerekmez. Tavan hattı boyunca ilerleyen çalışma, altındaki tezgâh grubunu geçici olarak boşaltmak veya örtmekle yürütülebilir; makine bir bölgede çalışırken diğer bölgeler üretimine devam eder. Yalnızca doğrudan tezgâh üstü kalemlerde o grubun kısa süreli durması gerekir ve bu duruşlar vardiya değişimlerine denk getirilerek en aza indirilir. Üretim planınızı görelim; bölge sırasını üretimin en az etkileneceği şekilde birlikte dizelim.",
+            },
+            {
+                soru: "Deri işleme bölümümüzde kimyasal buhar var; çalışabilir misiniz?",
+                cevap:
+                    "Tesisinizin güvenlik prosedürleri çerçevesinde evet. Çalışma dilimleri havalandırma durumuna göre planlanır, gerekli koruyucu donanım tesisinizin maruziyet değerlendirmesine göre belirlenir ve iş, güvenlik biriminizin onayladığı plan üzerinden yürür. Islak zeminlerde kurulum ekstra kontrolle yapılır. Bizden beklemeniz gereken şey şudur: prosedürünüzü esnetmemizi isteyecek bir teklif getirmeyiz — koşullar çalışmaya uygun değilse bunu söyler, alternatif zaman veya yöntem öneririz.",
+            },
+            {
+                soru: "Manisa'dan geliyorsunuz; küçük bir işimiz için gelir misiniz?",
+                cevap:
+                    "Dürüst cevap: tek başına yarım günlük bir iş için çevre ilden sevkiyat, size de bize de mantıklı gelmez — ve bunu baştan söyleriz. Üç alternatifimiz var: işi bir sonraki bakım döneminizde biriktirip programa dönüştürmek, komşu tesislerin işleriyle aynı haftaya eşleştirmek veya gerçekten acilse tekil sevkiyatla gelip nakliye payını açıkça göstermek. Çoğu tesis ilk iki seçenekten birini seçiyor ve sonuçta hem daha çok iş hem daha düşük birim maliyet elde ediyor.",
+            },
+            {
+                soru: "Tavan temizliğini ne sıklıkla yaptırmalıyız?",
+                cevap:
+                    "Sıklığı üretim yoğunluğunuz ve elyaf tipiniz belirler; ama karar için iyi bir gösterge, iki tur arasındaki birikim miktarıdır. İlk turdan sonra bir sonraki ziyarette karşılaştığımız birikim yoğunluğunu raporlarız — beklenenden fazlaysa periyot kısaltılır, azsa uzatılır. Bu şekilde sıklık tahminle değil, tesisin kendi verisiyle belirlenir. Bir noktayı vurgulayalım: bu iş yangın yükü ve havalandırma verimiyle ilgilidir; ertelenen turların maliyeti, tasarruf edilen kiralama bedelinden büyük olabilir.",
+            },
+            {
+                soru: "Bir haftalık program kurarsak makine sürekli bizde mi kalır?",
+                cevap:
+                    "Evet — program boyunca makine tesisinizde konumlanır ve haftalık kiralama koşulları uygulanır; günlük tarifeye kıyasla birim maliyet belirgin düşer. Operatörlü çalışılabilir veya ekibiniz yetkili kullanıcı belgelerine sahipse operatörsüz kullanım için teslimde eğitim verilir. Program sırasında listeye ek kalem çıkarsa süre uzatımı nedeniyle birlikte konuşulur. Komşu tesislerin de işi varsa aynı hafta içinde makine kısa süreli onlara kaydırılabilir; bu durumda maliyet paylaşımı baştan yazılı olarak belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Uşak'ın tekstil-battaniye, deri ve seramik sanayi kolları kamuya açık genel bilgidir; çok günlük program modeli, konum sayısına dayalı süre tahmini ve periyot verisiyle sıklık belirleme firma pratiğidir.",
+    },
 };

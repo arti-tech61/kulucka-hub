@@ -511,4 +511,202 @@ export const KONYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Ereğli'nin demir-çelik ağırlıklı sanayisi ile tahıl-pancar-meyvecilik ekonomisi ve merkeze ~150 km mesafesi kamuya açık bilgidir; sevkiyat modelleri ve sıcak saha düzeni firma pratiğidir.",
     },
+
+    "bolge:cumra": {
+        h1: "Çumra'da Ağır Hizmet Platform Kiralama",
+        giris:
+            "Çumra, Konya ovasının sulu tarımla en çok değişen ilçesidir ve bu değişim, platform talebinin karakterini doğrudan belirler: şeker pancarı ekonomisinin çevresinde kurulan işleme ve depolama yapıları, yem-gübre tesisleri, tarımsal sulama altyapısı ve köy köy yayılmış üretici depoları. Buradaki iş, fabrika holünün kontrollü ortamından çok açık arazinin kendi şartlarında geçer — toprak yol, tarla kenarı parsel, mevsime göre çamurlaşan ya da kavrulan zemin ve ilçe merkezine dağınık mesafeler. Ağır hizmet filosunun buradaki karşılığı arazi kabiliyetidir: dört çeker dizel yürüyüş, kaba zeminde denge, uzun erişim ve tek sevkiyatta birden çok noktayı gezebilen bir plan. Bu sayfa, kampanya dönemi ritmi, arazi zemini ve sulama-enerji altyapısı üçlüsünde Çumra işlerinin nasıl kurulduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Pancar kampanyası ritmi ve bakım penceresi",
+                metin:
+                    "Şeker pancarı ekonomisinin yıllık ritmi, ilçedeki büyük tesislerin bakım takvimini belirler: kampanya sürerken tesis ve çevresindeki lojistik hattı kesintisiz çalışır, kantar-boşaltma sahası araç doludur ve platformun manevra alanı kalmaz. Bakım işlerinin doğal yeri kampanya dışı dönemdir — bu pencerede çatı, konveyör üstü, filtre ve aydınlatma kalemleri rahat planlanır. Kampanya içinde zorunlu doğan işlerde kurgu değişir: çalışma, araç trafiğinin seyreldiği gece-sabah dilimlerine alınır ve saha yönlendiricisiyle birlikte yürütülür.",
+            },
+            {
+                baslik: "Toprak yol ve tarla kenarı zemin gerçeği",
+                metin:
+                    "Çumra adreslerinin çoğunda son birkaç yüz metre toprak yoldur ve bu, iki ayrı soruyu doğurur: makine sahaya nasıl ulaşacak, sahada nereye basacak. Ulaşım tarafında ağır çekicinin yumuşak toprak yola girmesi risklidir; sulama sonrası dönemlerde makineyi sert zeminde indirip kendi yürüyüşüyle sahaya götürmek daha güvenlidir. Çalışma tarafında ise dört çeker dizel sınıf, kaba ve gevşek zeminde iş görür; ıslak toprakta yük dağıtma plakaları serilir. Keşifte yolun ve parselin fotoğrafı, bu iki kararın tamamını verir.",
+            },
+            {
+                baslik: "Sulama, enerji ve aydınlatma direği işleri",
+                metin:
+                    "Ovanın tarımsal altyapısı kendi erişim ihtiyacını üretir: pompa istasyonu binaları, enerji direği bağlantıları, saha aydınlatma kuleleri ve depolama tesislerinin dış hatları. Bu kalemler yüksek değil ama dağınıktır — tek bir işletmenin işleri birkaç yüz metre arayla farklı noktalara yayılabilir. Doğru kurgu nokta sıralamasıdır: makine parselin bir ucundan girer, iş noktalarını güzergâh üzerinde tarayarak ilerler ve gereksiz manevrayla zaman kaybetmez. Elektrik hattı komşuluğu olan her noktada mesafe kuralı ve gerekiyorsa hat sorumlusuyla koordinasyon devrededir.",
+            },
+            {
+                baslik: "Üretici depoları ve hangar tipi yapılar",
+                metin:
+                    "İlçeye yayılmış üretici depoları ve makine hangarları, platform talebinin en sık gelen kaynağıdır: çatı sacı onarımı, oluk temizliği, aydınlatma armatürü, havalandırma bacası ve kapı üstü konstrüksiyon kalemleri. Bu yapıların tavan yüksekliği çoğunlukla 6-10 metre bandındadır ve zemin sıkıştırılmış toprak ya da kaba betondur — dizel makaslı sınıfın tam sahasıdır. İşlerin süresi kısa olduğu için birleştirme mantığı burada en yüksek getiriyi verir: komşu depoların kalemleri aynı güne dizildiğinde her üretici yalnız kendi saatini öder.",
+            },
+            {
+                baslik: "Köy köy dolaşan gün planı",
+                metin:
+                    "Çumra'nın yerleşim düzeni dağınık olduğu için tekil işe makine göndermek verimsizdir; bunun yerine ilçe günü kurarız: bir sevkiyatla gelen makine, önceden sıralanmış noktaları köy köy dolaşır ve gün sonunda toplanır. Sıralama coğrafyaya göre yapılır — aynı aks üzerindeki noktalar peş peşe, uzak noktalar günün ortasına. Bu plan üreticiye iki şey kazandırır: nakliyenin bölüşülmesi ve makinenin gerçekten geleceği net bir gün. Talebini erken bildiren, bir sonraki ilçe gününe kolayca girer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çumra iş noktalarında zemin ve makine eşlemesi",
+                paragraflar: [
+                    "İlçe işlerinde makine kararını kot kadar zemin belirler. Sık karşılaştığımız nokta tiplerini zemin gerçekleriyle birlikte eşledik.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Zemin", "Makine sınıfı", "Ek önlem"],
+                    satirlar: [
+                        ["Üretici deposu / hangar", "Sıkıştırılmış toprak, kaba beton", "Dizel makaslı", "Kot ölçümü"],
+                        ["İşleme tesisi sahası", "Beton, araç trafikli", "Dizel eklemli / makaslı", "Trafik yönlendirmesi"],
+                        ["Pompa ve sulama yapıları", "Tarla kenarı toprak", "Dört çeker dizel", "Yük dağıtma plakası"],
+                        ["Saha aydınlatma direkleri", "Karışık, gevşek", "Eklemli bom", "Hat mesafesi kontrolü"],
+                        ["Köy içi ticari yapı", "Asfalt / parke", "Kompakt akülü", "Sokak park düzeni"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sulama mevsimi ile kiralama takviminin çakışması",
+                paragraflar: [
+                    "Ovanın sulama düzeni, zemin koşullarını yıl içinde ciddi biçimde değiştirir: sulamanın yoğun olduğu dönemlerde parsel çevresi ve toprak yollar yumuşar, ağır makine hareketi hem zorlaşır hem iz bırakır. Aynı işin birkaç hafta önce ya da sonra yapılması, sahada bambaşka bir zemin anlamına gelir. Bu yüzden Çumra taleplerinde ilk sorduğumuz şeylerden biri işin tarihinin ne kadar esnek olduğudur.",
+                    "Pratik öneri şudur: tarla kenarındaki yapı ve altyapı işlerini sulama yoğunluğunun dışına, zeminin sert olduğu dönemlere yazın. Zorunlu hâllerde plakalı çalışma ve alternatif güzergâh devreye girer, ancak bu ek hazırlık hem süreyi hem maliyeti yukarı çeker. Tarihini zemine göre seçen üretici, aynı işi daha ucuza ve daha temiz bitirir.",
+                ],
+            },
+            {
+                baslik: "Tek üretici, çok nokta: liste yönteminin getirisi",
+                paragraflar: [
+                    "İlçedeki işletmelerin çoğu tek bir yapıda değil, birkaç noktada iş biriktirir: depo çatısı, pompa binası, saha direği, hangar aydınlatması. Bu kalemler tek tek çağrıldığında her biri ayrı bir sevkiyat gerektirir ve toplam maliyet, işlerin kendisinin çok üstüne çıkar. Liste yöntemi bunu tersine çevirir — tüm noktalar tek talepte toplanır, güzergâha göre sıralanır ve makine bir gün içinde hepsini dolaşır.",
+                    "Listenin bir faydası da doğru makinenin tek seferde seçilmesidir: kalemler birlikte görüldüğünde en yüksek kot ve en zor zemin belirlenir, gelen makine hepsini karşılar. Parça parça çağrılan işlerde ise her seferinde farklı sınıf gelme ihtimali vardır ve bu, hem gecikme hem gereksiz metraj demektir. Noktalarınızı bir kâğıda yazın; sıralamayı biz çıkaralım.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Deponun yolu toprak; makine buraya kadar gelebilir mi?",
+                cevap:
+                    "Çoğu durumda gelir, ama yolu görmek isteriz. Kuru dönemde sıkışmış toprak yol, ağır çekici için genellikle sorun değildir; sulama sonrası ya da yağış sonrası yumuşamış yolda ise çekiciyi riske atmayız — makineyi en yakın sert zeminde indirip kendi yürüyüşüyle sahaya getiririz, bu birkaç yüz metre için pratik bir çözümdür. Yolun ve deponun önünü gösteren birkaç fotoğraf yeterlidir; hangi yöntemin uygulanacağını ve ek süre gerekip gerekmediğini baştan söyleriz.",
+            },
+            {
+                soru: "Hangarımızın çatı sacında birkaç noktada onarım var; ne kadar sürer?",
+                cevap:
+                    "Nokta sayısına ve kota bağlı, ama tipik bir hangarda birkaç saatlik iştir: 6-10 metre bandındaki çatılarda dizel makaslı, hangar içinden ya da dışından konumlanarak onarım noktalarını sırayla karşılar. Süreyi uzatan şey genellikle onarımın kendisi değil, malzemenin sepete taşınması ve konumlanma sayısıdır — bu yüzden onarım noktalarını önceden işaretlemenizi isteriz. Yarım günlük bu tür işlerde asıl kazanç, komşu depoların kalemleriyle aynı güne dizilmesidir; gününüzü paylaşırsanız nakliye payınız belirgin düşer.",
+            },
+            {
+                soru: "Saha aydınlatma direğimizin armatürü arızalı; elektrik hattı yakın, çalışılır mı?",
+                cevap:
+                    "Çalışılır ama mesafe kuralıyla: enerji hattına yaklaşma sınırı vardır ve bu sınır aşılacaksa iş, hattın enerjisi kesilmeden ya da hat sorumlusuyla koordinasyon kurulmadan yapılmaz. Keşifte direğin hatta uzaklığını ve çalışma açısını ölçeriz; çoğu durumda makineyi hattın ters yönünden konumlandırmak yeterli çözümdür. Direğin ve çevresindeki hattın fotoğrafı bu değerlendirmeyi telefonda yapmamızı sağlar. Sınır aşılıyorsa bunu açıkça söyler, koordinasyon kurulmadan sepeti yükseltmeyiz.",
+            },
+            {
+                soru: "İşleme tesisimizin bakımını kampanya döneminde yaptırabilir miyiz?",
+                cevap:
+                    "Zorunluysa yaparız ama önermeyiz: kampanya sürerken saha araç doludur, manevra alanı yoktur ve platform hem trafiği aksatır hem kendi güvenliği için sürekli beklemek zorunda kalır — aynı iş kampanya dışında yarı sürede biter. Zorunlu kalemlerde kurgumuz gece-sabah dilimleridir; saha yönlendiricinizle birlikte kısa pencereler açılır ve iş bölünerek yürütülür. Kalıcı çözüm yıllık plandır: kampanya dışı döneme yazılan bakım listesi, sezon içi acil çağrıların çoğunu doğmadan ortadan kaldırır.",
+            },
+            {
+                soru: "Birkaç farklı noktada işimiz var; hepsi için ayrı ayrı mı arayalım?",
+                cevap:
+                    "Hayır, tek seferde arayın — Çumra'da en çok fark yaratan şey budur. Depo çatısı, pompa binası, saha direği ve hangar aydınlatması tek talepte toplandığında hepsini karşılayacak makine bir kerede seçilir, noktalar güzergâha göre sıralanır ve iş tek günde biter. Parça parça çağrıda her kalem ayrı sevkiyat, ayrı bekleme ve bazen yanlış sınıf demektir. Noktalarınızı, yaklaşık kotlarını ve aralarındaki mesafeyi yazın; sıralamayı ve gün planını biz çıkarıp tek teklifte gösterelim.",
+            },
+            {
+                soru: "Küçük bir işim var, ilçe gününe nasıl dahil olurum?",
+                cevap:
+                    "Talebinizi bildirip tarih esnekliği tanıyarak. İlçeye çıkan her sevkiyatta, o günün güzergâhına yakın kısa kalemleri sıraya alırız; siz de bu sıraya girersiniz ve nakliyeden yalnız payınıza düşeni ödersiniz. Yapmanız gereken tek şey erken haber vermek ve 'şu hafta içinde herhangi bir gün' diyebilmektir. Gerçek acilde tekil sevkiyat da mümkündür; rakamını baştan söyler, sürprize bırakmayız. Küçük iş diye çekinmeyin — ilçe günü modeli tam olarak bu ölçek için kuruldu.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Çumra'nın sulu tarım ve şeker pancarı ekonomisine dayalı yapısı kamuya açık bilgidir; zemin-güzergâh kararları, ilçe günü ve liste yöntemi firma pratiğidir.",
+    },
+
+    "bolge:konya-2-osb": {
+        h1: "Konya 2. OSB'de Ağır Hizmet Platform Kiralama",
+        giris:
+            "İkinci organize sanayi bölgesi, Konya'nın sanayi büyümesinin yeni kuşağını temsil eder: parseller daha büyük, yollar daha geniş, yapılar daha yeni ve çoğu tesis hâlâ kurulum, genişleme ya da devreye alma aşamasındadır. Platform kiralama açısından bu, olgun bir sanayi bölgesinden bambaşka bir talep profili demektir — burada iş çoğunlukla bakım değil, kurulum işidir: yeni çelik konstrüksiyonun montaj sonrası kalemleri, boru ve kablo tavası hatlarının çekilmesi, aydınlatma sistemlerinin ilk kurulumu, cephe kaplamasının tamamlanması. Ağır hizmet filosunun bu bölgedeki değeri süreklilik ve uyumdur: kurulum işleri haftalarca sürer, birden fazla taşeron aynı hacimde çalışır ve makine, projenin akışına göre yer değiştirir. Bu sayfa, şantiye ritmindeki bir sanayi bölgesinde platform planlamanın kurallarını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kurulum işi ile bakım işinin farkı",
+                metin:
+                    "Bakım işi bellidir: nokta bilinir, süre kısadır, makine gelir ve gider. Kurulum işi ise akış hâlindedir — çelik montajı biter, tesisatçı girer, elektrikçi arkasından gelir ve her ekip aynı hacimde farklı kotlarda çalışır. Bu yüzden yeni tesis projelerinde tekil kiralama yerine dönemsel kullanım planlarız: makine sahada kalır, ekipler arasında sıraya girer ve günlük tarife yerine haftalık-aylık kurgu devreye girer. Projenin takvimini gördüğümüzde makinenin ne zaman hangi ekibin emrinde olacağını da birlikte yazarız.",
+            },
+            {
+                baslik: "Yeni çelik yapıların kot ve erişim profili",
+                metin:
+                    "Yeni kuşak üretim yapıları eskilerden daha yüksektir: çelik makas altı kotlar 10-16 metre bandına, bazı depolama hacimlerinde daha yukarıya çıkar. Bu bandın makinesi eklemli bomdur — kirişler arasından kırılarak geçebilmesi, mahya ve çatı altı noktalara alttan ulaşabilmesi belirleyicidir. Yapı henüz kapanmamışsa (cephe takılmadan) dizel sınıf içeride de rahat çalışır; kapandıktan ve zemin betonu döküldükten sonra akülü sınıfa geçiş doğru olur. Projenin hangi aşamasında olduğunuz, makine sınıfını doğrudan belirler.",
+            },
+            {
+                baslik: "Çok taşeronlu sahada platform paylaşımı",
+                metin:
+                    "Yeni tesis şantiyesinde aynı anda mekanik, elektrik, cephe ve boya ekipleri çalışır ve hepsinin erişim ihtiyacı vardır. Platformun bu ortamda paylaşılması hem ekonomiktir hem karışıklık kaynağıdır — çözüm yazılı sıra düzenidir: makine hangi gün hangi ekibin, kim operatör, hangi kotta çalışılacak, iş programına işlenir. Ana yükleniciyle kurduğumuz bu düzen, 'makineyi kim aldı' tartışmasını bitirir. Ayrıca her kullanıcı ekibin yetkili operatör bulundurması şarttır; bunu sözleşmede açıkça belirtiriz.",
+            },
+            {
+                baslik: "Geniş parselin sevkiyat kolaylığı",
+                metin:
+                    "İkinci bölgenin fiziksel avantajı lojistiktedir: geniş yollar, büyük parseller ve serbest indirme alanları, ağır makine sevkiyatını sorunsuz kılar. Çekici tesise doğrudan yanaşır, makine rahat iner ve parsel içinde manevra sıkıntısı yaşanmaz. Bu, teslimat sürelerini kısaltır ve büyük sınıf makinelerin — eski dar dokularda zorlanan 16-20 metre bandının — burada rahatça kullanılabilmesini sağlar. Pratik sonuç şudur: bölgede metraj kısıtı erişimden değil, yalnızca işin gerçek kotundan gelir.",
+            },
+            {
+                baslik: "Devreye alma döneminin acil erişim ihtiyacı",
+                metin:
+                    "Yeni tesisin devreye alma haftaları, platform talebinin en ani doğduğu dönemdir: test sırasında ortaya çıkan bir hat kaçağı, ayarı tutmayan bir sensör ya da yeniden konumlandırılması gereken bir armatür, saatler içinde erişim ister. Bu dönemde sahada makine bulundurmak — kısa süreli kiralama yerine dönemsel park — çoğu tesis için daha ucuza gelir; çünkü her acil çağrının sevkiyat maliyeti, bekleyen makinenin günlük bedelinden yüksektir. Devreye alma takvimini paylaşan tesise bu hesabı baştan çıkarırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje aşamasına göre makine ve kiralama kurgusu",
+                paragraflar: [
+                    "Yeni tesis projelerinde doğru makine, işin türünden çok projenin aşamasına bağlıdır. Aşama aşama tipik ihtiyacı ve uygun kiralama biçimini çıkardık.",
+                ],
+                tablo: {
+                    basliklar: ["Proje aşaması", "Tipik iş", "Makine", "Kiralama biçimi"],
+                    satirlar: [
+                        ["Çelik montaj sonrası", "Bağlantı, kaplama, mahya", "Dizel eklemli bom", "Haftalık"],
+                        ["Mekanik-elektrik kurulum", "Tava, boru, kanal, armatür", "Akülü eklemli / makaslı", "Aylık, paylaşımlı"],
+                        ["Cephe tamamlama", "Panel, oluk, saçak", "Dizel makaslı / bom", "Haftalık"],
+                        ["Devreye alma", "Ani erişim ihtiyaçları", "Karma", "Sahada park"],
+                        ["İşletmeye geçiş", "Rutin bakım", "Akülü makaslı", "Gün bazlı çağrı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Uzun süreli kiralamada makine bakımı kimin işi",
+                paragraflar: [
+                    "Haftalar süren şantiye kullanımında en çok karışan konu bakımdır. Düzenimiz nettir: periyodik bakım, yağ-filtre kontrolü ve arıza müdahalesi bize aittir; günlük kontroller (batarya durumu, hasar bildirimi, çalışma öncesi gözlem) sahadaki kullanıcı ekibin sorumluluğundadır. Uzun kiralamalarda saha ziyareti takvimi baştan belirlenir ve makine düzenli aralıklarla teknik ekibimizce kontrol edilir.",
+                    "Bu ayrımın yazılı olması, şantiye sonunda hasar tartışmasını da önler: teslim tutanağı, ara kontrol kayıtları ve iade tutanağı üçlüsü, makinenin durumunu belgeler. Kullanıcı ekip değişse bile kayıt zinciri kopmaz. Uzun kiralamaya çıkan her müşteriye bu düzeni sözleşme ekinde sunarız.",
+                ],
+            },
+            {
+                baslik: "Yeni bölgede güvenlik kültürünün kurulması",
+                paragraflar: [
+                    "Kurulum aşamasındaki tesislerde saha güvenliği henüz oturmamıştır: yürüyüş yolları belirsiz, işaretleme eksik, farklı ekiplerin çalışma alanları iç içedir. Platform bu ortamın en görünür riskini taşır — yükselmiş sepetin altında yürüyen bir kişi, düşen bir aletin menzilindedir. Bu yüzden makine teslim ederken saha düzeni şartlarımızı yazılı iletiyoruz: sepet altı alanın kapatılması, çalışma öncesi kot üstü kontrolü, yetkili operatör belgesi ve rüzgâr sınırı.",
+                    "Yeni bölgede çalışan yüklenicilerin çoğu bu şartları zaten uyguluyor; uygulamayan sahada makineyi çalıştırmayız. Katı gibi görünen bu tavır, hem sizin hem bizim ekipmanı ve insanı koruyor — ve şantiyenin ilerleyen haftalarında düzenin kendiliğinden oturmasını sağlıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimiz hâlâ inşaat aşamasında; şimdiden platform kiralamak mantıklı mı?",
+                cevap:
+                    "Aşamasına bağlı ama çoğu projede evet: çelik montaj bittikten sonraki kalemler — kaplama, tava, kanal, armatür — zaten erişim ister ve her ekibin ayrı ayrı makine çağırması hem pahalı hem takvim kırıcıdır. Sahada duran tek makine, ekipler arasında sıraya girerek bu işlerin tümünü karşılar ve haftalık-aylık tarife, tekil çağrıların toplamının belirgin altında kalır. Proje takviminizi paylaşın; hangi aşamada hangi sınıfın gerekeceğini ve dönemsel kiralamanın tekil çağrılara göre farkını rakamla gösterelim.",
+            },
+            {
+                soru: "Makineyi birden fazla taşeron kullanacak; sorun olur mu?",
+                cevap:
+                    "Kurallı olursa olmaz, kuralsız olursa kaçınılmaz olarak olur. İki şartımız var: yazılı sıra düzeni (hangi gün hangi ekip, hangi kotta) ve her kullanan ekipte yetkili operatör bulunması. Ana yükleniciyle bu düzeni iş programına işleriz; böylece hem 'makineyi kim aldı' tartışması hem eğitimsiz kullanım riski ortadan kalkar. Hasar sorumluluğu da bu düzenle netleşir: teslim, ara kontrol ve iade tutanakları kayıt zincirini kurar. Sahanızdaki ekip sayısını söyleyin, sıra düzenini birlikte kuralım.",
+            },
+            {
+                soru: "Çatı kotumuz 15 metre; bu bölgede o boyda makine sahaya girebilir mi?",
+                cevap:
+                    "Girer — ikinci bölgenin en büyük avantajı budur: geniş yollar ve büyük parseller, 16-20 metre bandındaki büyük sınıfların rahatça taşınmasına ve indirilmesine izin verir; eski dar dokularda yaşanan erişim sıkıntısı burada yoktur. Dolayısıyla makine seçimini erişim değil, işin gerçek kotu belirler: 15 metrelik hedef için sepet payıyla birlikte uygun eklemli bom sınıfı gelir. Parsel içi indirme noktanızı gösteren bir fotoğraf yeterli; sevkiyat planını ve konumlanma noktalarını baştan netleştirelim.",
+            },
+            {
+                soru: "Devreye alma haftalarında ani işler çıkıyor; her seferinde makine çağırmak zorunda mıyız?",
+                cevap:
+                    "Zorunda değilsiniz ve zaten pahalı olan yol budur: her acil çağrı ayrı sevkiyat, ayrı bekleme demektir ve devreye alma döneminde bu çağrılar üst üste gelir. Alternatif, dönem boyunca sahada makine bulundurmaktır — günlük bedel işler, ama sevkiyat maliyeti ve bekleme süresi sıfırlanır. Deneyimimiz, iki haftalık yoğun devreye alma döneminde park modelinin çağrı modelinden ucuza geldiği yönünde. Devreye alma takviminizi paylaşın; iki senaryonun toplam maliyetini yan yana koyalım.",
+            },
+            {
+                soru: "Uzun süreli kiralamada makine arızalanırsa ne oluyor?",
+                cevap:
+                    "Müdahale bize aittir: uzun kiralamalarda periyodik bakım takvimi baştan belirlenir, teknik ekibimiz düzenli saha ziyareti yapar ve arıza durumunda çağrı öncelikli işlenir. Onarım süresi işi durduracak boyuttaysa muadil makine ikamesi devreye girer — şantiye takviminin arızaya kurban gitmesine izin vermeyiz. Sizin tarafınızdaki sorumluluk günlük kontroller ve hasar bildirimidir; erken bildirilen küçük belirti, büyük duruşu önler. Bu düzeni sözleşme ekinde yazılı veririz, sözlü teminatla bırakmayız.",
+            },
+            {
+                soru: "Kurulum bitince rutin bakım için de aynı düzen mi geçerli?",
+                cevap:
+                    "Hayır, düzen değişir ve bu değişim sizin lehinizedir: kurulum aşamasının yoğun, çok ekipli akışı bitince ihtiyaç seyrekleşir — yılda birkaç kez armatür, kanal, oluk ve çatı kalemleri. Bu profilde sahada makine tutmak gereksiz maliyettir; doğru model gün bazlı çağrıdır. İşletmeye geçmiş tesislere önerimiz yıllık bakım listesi çıkarmalarıdır: kalemler birkaç verimli güne toplanır, kapalı ve betonlanmış hacimde akülü makaslı çoğunu karşılar. Kurulum bittiğinde bir planlama görüşmesi yapalım; modeli birlikte çevirelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. İkinci organize sanayi bölgesinin yeni kuşak, geniş parselli yapısı kamuya açık bilgidir; proje aşaması eşlemesi, paylaşım düzeni ve park modeli firma pratiğidir.",
+    },
 };
