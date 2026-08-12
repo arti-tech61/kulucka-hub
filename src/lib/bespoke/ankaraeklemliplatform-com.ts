@@ -509,4 +509,499 @@ export const ANKARAEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Batıkent'in planlı toplu konut kimliği kamuya açık bilgidir; blok gezme modeli ve site çalışma düzeni firma pratiğidir.",
     },
+
+    "bolge:ankara-anadolu-osb": {
+        h1: "Anadolu OSB'de Eklemli Platform Kiralama",
+        giris:
+            "Anadolu OSB, Ankara'nın batı gelişme koridorunda görece genç bir organize sanayi bölgesidir ve karakterini bu gençlik belirler: parseller planlı, yollar geniş, yapı stoku modern — ama bölge hâlâ inşa hâlindedir. Her yıl yeni fabrikalar yükselir, mevcut tesisler ek bina yapar ve altyapı büyümeye ayak uydurur. Platform ihtiyacının iki yüzü de buradan doğar: bir yanda inşaat-montaj dönemi işleri (çelik konstrüksiyon, cephe paneli, altyapı aydınlatması), diğer yanda devreye giren fabrikaların ilk işletme dönemi ihtiyaçları. Eklemli sınıfın bu ikili yapıdaki rolü esnekliktir — aynı makine sabah stabilize şantiye zeminindeki cephe işinde, öğleden sonra biten holün içindeki tesisat işinde çalışabilir. Batı koridoru turlarımızın merkezindeki bölge, hızlı döngülü hizmetin en verimli sahalarındandır.",
+        maddeler: [
+            {
+                baslik: "İnşa hâlindeki bölgede iki dünya tek sahada",
+                metin:
+                    "Anadolu OSB'nin tipik manzarası, çalışan fabrikanın bitişiğindeki şantiyedir ve platform planı iki dünyanın kurallarını birden taşır: şantiye tarafında stabilize zemin, vinç trafiği ve yapı denetim düzeni; işletme tarafında hol içi temiz zemin, üretim pencereleri ve tesis İSG'si. Dizel 4x4 eklemli modeller şantiye fazının, akülü kompaktlar işletme fazının makinesidir — ve projelerin faz geçişinde tek sözleşmeli makine değişimi, iki ayrı kiralamadan ekonomiktir.",
+            },
+            {
+                baslik: "Çelik konstrüksiyon montajında eklemli erişim",
+                metin:
+                    "Yeni fabrika binalarının çelik iskelet montajı, bölgedeki en yoğun platform işidir: kolon-kiriş birleşimleri, aşık montajı, çapraz bağlantılar ve cephe kuşakları. Eklemli bomun değeri montaj geometrisinde ortaya çıkar — kurulmakta olan iskeletin dışından park edip elemanların arasına uzanmak, makaslının düz çıkışıyla çoğu noktada mümkün değildir. Montajcı ekiple sepet koordinasyonu (kim nerede, hangi eleman sırada) günlük plana bağlanır; askıda yük hattının altına bom sokulmaz.",
+            },
+            {
+                baslik: "Cephe paneli ve çatı kaplamada seri çalışma",
+                metin:
+                    "Sandviç panel cephe ve çatı kaplama işleri, uzun hatlar boyunca seri ilerler: makine panel hattını izleyerek kademeli konum değiştirir, sepette malzeme-vidalama ekipmanı taşınır ve günlük metraj, hava koşuluyla birlikte planlanır. Ankara platosunun rüzgârı panel işinin ana değişkenidir — geniş panel yüzeyi yelken etkisi yaratır ve rüzgârlı saatlerde panel taşıma durdurulur. Sabah bloklarında panel, öğleden sonra vidalama-detay işleri: bölgedeki panel ekiplerinin bildiği ritim budur.",
+            },
+            {
+                baslik: "Devreye giren fabrikalarda ilk yıl işleri",
+                metin:
+                    "Yeni binasına taşınan üreticinin ilk yılı, tamamlama işleriyle geçer: eksik aydınlatma bölgeleri, ilave havalandırma, raf-asma kat montajları, tabela ve saha aydınlatması. Bu dağınık liste için en verimli model, dönemsel toplu planlamadır — işler biriktirilir, makine birkaç günlüğüne gelir ve liste güzergâh sırasıyla biter. Bölgede eş zamanlı devreye giren komşu tesislerin listeleri birleştirildiğinde maliyet daha da düşer; genç OSB'nin avantajı, herkesin aynı dönemden geçmesidir.",
+            },
+            {
+                baslik: "Batı koridoru turlarıyla hızlı döngü",
+                metin:
+                    "Anadolu OSB, Sincan-Temelli eksenindeki batı koridoru turlarımızın üzerindedir: teslimat hızlı, faz geçişlerinde makine değişimi pratik, arıza-ikame desteği gün içindedir. Şantiye dönemindeki tesisler için lowbed gerektiren ağır modeller bir gün önceden, akülü kompaktlar standart araçla kısa sürede planlanır. Bölgenin büyüme temposunda 'komşu parsel de başladı' sıklığı yüksektir — aynı turda çoklu teslimat, nakliyeyi ada bazında böler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Anadolu OSB'de faz-iş-makine eşleşmesi",
+                paragraflar: [
+                    "Bölgenin inşaat-işletme ikili yapısında tipik işler ve makine eşleşmesi aşağıdadır. Faz geçişi olan projelerde tablo, tek sözleşmenin iki dönemini tanımlar.",
+                ],
+                tablo: {
+                    basliklar: ["Faz", "Tipik iş", "Zemin/ortam", "Makine"],
+                    satirlar: [
+                        ["Kaba yapı", "Çelik montaj, aşık-kuşak", "Stabilize, vinçli saha", "Dizel 4x4 eklemli 16 – 20 m"],
+                        ["Kapama", "Cephe paneli, çatı kaplama", "Saha betonu kısmi", "Dizel eklemli + rüzgâr planı"],
+                        ["İnce imalat", "Hol içi elektrik-mekanik", "Beton, temiz", "Akülü eklemli / makaslı"],
+                        ["İşletme ilk yıl", "Tamamlama listeleri", "İşletme düzeni", "Akülü kompakt, toplu plan"],
+                        ["Altyapı", "Saha aydınlatma, direk", "Yol-refüj", "Dizel eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiyeden işletmeye: tek sözleşmeli faz geçişi",
+                paragraflar: [
+                    "Fabrika inşaatının platform ihtiyacı fazlarla değişir ve her faz için ayrı kiralama, hem evrak hem nakliye tekrarıdır. Tek sözleşmeli faz modeli bunu çözer: sözleşme, projenin fazlarını ve her fazın makine sınıfını baştan tanımlar; geçiş tarihleri esnek aralıklarla bağlanır ve makine değişimi aynı sevkiyat turunda yapılır — giden dizelin yerine gelen akülü, tek araçla döner. Proje takviminin kayması hâlinde faz tarihleri sözleşme içinde güncellenir.",
+                    "Bu modelin bölgedeki değeri, Anadolu OSB'nin proje yoğunluğundan gelir: aynı anda birden fazla projenin fazlarını koordine ettiğimiz için makine parkı fazlar arasında verimli döner ve fiyat, tekil kiralamaların altında kalır.",
+                ],
+            },
+            {
+                baslik: "Yapı denetim ve şantiye İSG düzeniyle uyum",
+                paragraflar: [
+                    "Şantiye fazındaki işlerde platform, yapı denetim ve şantiye İSG düzeninin parçasıdır: günlük İSG kayıtlarına makine kontrolü işlenir, operatör belgeleri şantiye dosyasında bulunur, sepetteki montaj personelinin kemer-lanyard düzeni bom sınıfı kurallarına tabidir ve vinçle eş zamanlı çalışmada sorumluluk matrisi (kim kimi bekler) yazılı kurulur. Bu düzen, şantiye şefinin yükünü artırmaz — hazır formatlarımız şantiye dosyasına doğrudan girer.",
+                    "Montaj taşeronlarıyla üçlü çalışmada (işveren-taşeron-biz) makine kullanım sorumluluğu netleştirilir: operatörlü modelde sepeti operatörümüz yönetir, taşeron personeli montajı yapar — 'makineyi taşeron kullanır' modeli ancak taşeronun belgeli operatörüyle kurulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrika inşaatımız başlıyor; platform planını ne zaman kurmalıyız?",
+                cevap:
+                    "Çelik montaj ihalesiyle birlikte — çünkü faz planı, montaj programının üzerine kurulur: kaba yapı fazında dizel eklemli sınıf ve adet, kapama fazında panel hattı ritmi, ince imalatta akülü geçişi ve işletme dönemi tamamlama listesi tek sözleşmede tanımlanır. Erken kurulan plan, hem makine güvencesi hem fiyat avantajı sağlar; faz tarihleri esnek aralıklarla bağlanır ve takvim kaymaları sözleşme içinde yönetilir. Montajcınızla üçlü toplantı, planın ilk adımıdır.",
+            },
+            {
+                soru: "Çelik iskeletin iç noktalarına makaslıyla ulaşamıyoruz; eklemli çözer mi?",
+                cevap:
+                    "Çözer — montaj geometrisi tam olarak eklemli senaryodur: makine iskeletin dışına park eder, bom kolon-kiriş aralarından kırılarak birleşim noktalarına uzanır. Kesinleştirme zarf diyagramıyla yapılır: park noktası, aşılacak eleman geometrisi ve hedef koordinat işaretlenir. Montaj sırasına göre erişim açıları değişeceği için günlük plan montajcıyla koordine edilir; askıda yük hattının altına bom girmez — vinç-platform sıralaması yazılı kurulur. İskelet planını paylaşın, erişim haritasını çıkaralım.",
+            },
+            {
+                soru: "Panel montajında rüzgâr işleri ne kadar aksatır?",
+                cevap:
+                    "Planlanmazsa ciddi aksatır; planlanırsa yönetilir: Ankara platosunun öğleden sonra rüzgârlanması bilinen desendir ve panel taşıma (yelken etkisi nedeniyle) sabah bloklarına, vidalama-detay işleri öğleden sonraya planlanır. Sepette ölçümle çalışılır ve limitte panel işi durdurulur — vidalamaya devam edilebilir, gün boşa geçmez. Takvim tahminine rüzgâr payı eklenir: 'panel hattı X gün' taahhüdü, mevsim ortalamasıyla verilir ve rüzgârlı hafta senaryosu baştan konuşulur.",
+            },
+            {
+                soru: "Binamız bitti, taşındık; ufak tefek işler sürekli çıkıyor. Her seferinde kiralama mı?",
+                cevap:
+                    "Hayır — ilk yıl profili için toplu plan modeli var: işleri listeye biriktirin (eksik aydınlatma, ilave havalandırma, raf montajı, tabela...), makine birkaç günlüğüne gelsin ve liste güzergâh sırasıyla bitsin. Nakliye teke iner, birim maliyet düşer. Bölgede aynı dönemde devreye giren komşularınız varsa listeleri birleştiriyoruz — genç OSB'nin herkesi aynı fazdan geçtiği için bu eşgüdüm burada özellikle verimli. Acil tekil işlerde batı koridoru turları gün içi müdahale sağlar.",
+            },
+            {
+                soru: "Saha aydınlatma direklerimiz dikilecek; hangi makine ve nasıl bir plan?",
+                cevap:
+                    "Direk montajı vinç işidir; platformun rolü bağlantı-terminal işleridir: armatür montajı, kablo terminali, test-ayar. Dizel eklemli, direk dibinden park edip armatür kotuna uzanır; refüj-yol kenarı çalışmalarda OSB içi trafik düzeniyle koordinasyon kurulur. Vinçle ardışık çalışmada sıralama (direk dikimi → bağlantı) tek güne planlanırsa iki makine aynı turda gelir ve saha, hat hat ilerler. Direk sayısı ve hat planını paylaşın; günlük metraj tahminiyle dönelim.",
+            },
+            {
+                soru: "Taşeronumuzun kendi operatörü var; makineyi ona verebilir miyiz?",
+                cevap:
+                    "Belgesi uygunsa evet: taşeron operatörünün MYK yeterlilik belgesi (bom sınıfı için ayrıca) ve şantiye dosyasına giren eğitim kayıtları şarttır — belge makine tipine göredir, makaslı belgesiyle eklemli kullanılamaz. Belge eksikse iki yol var: operatörlü model (sepeti operatörümüz yönetir, taşeron montajı yapar) veya taşeron personelinin belgelendirilmesi. Sorumluluk matrisi her durumda yazılı kurulur; 'kim kullanıyorsa o sorumlu' belirsizliği, şantiyede kabul etmediğimiz tek düzendir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Anadolu OSB'nin genç-büyüyen profili kamuya açık bilgidir; faz modeli ve montaj koordinasyonu firma pratiğidir.",
+    },
+
+    "bolge:temelli-osb": {
+        h1: "Temelli'de (ASO 2-3. OSB) Eklemli Platform Kiralama",
+        giris:
+            "Temelli'deki ASO 2. ve 3. Organize Sanayi Bölgeleri, Ankara sanayisinin batıya doğru büyüyen yeni ölçeğidir: başkentin en geniş parselleri, en yeni fabrika binaları ve en uzun mesafeleri buradadır. Şehir merkezine uzaklık, bölgenin hem kimliği hem lojistik denklemini kurar — geniş arazi ucuz kuruluma imkân verir, ama her hizmet 40-50 kilometrelik yolun ucundan gelir. Platform kiralamada bu denklem iki sonuç doğurur: kısa tekil işlerde nakliye payı büyür ve planlama disiplini önem kazanır; buna karşılık büyük parsellerin geniş iş hacimleri, konaklamalı ve turlu modelleri son derece verimli kılar. Eklemli sınıfın buradaki profili büyük ölçeklidir: yüksek holler, uzun cepheler, geniş dış sahalar — ve hepsinde plato rüzgârının söz hakkı vardır.",
+        maddeler: [
+            {
+                baslik: "Büyük parselde mesafe içi mesafe",
+                metin:
+                    "Temelli parsellerinin ölçeği, saha içi lojistiği ayrı bir planlama konusu yapar: kapıdan üretim holüne yüzlerce metre, holden dış stok sahasına bir o kadar. Makinenin gün içinde saha içi yer değiştirmeleri (sürüş süreleri, geçiş güzergâhları, ara şarj ihtiyacı) iş planına dakika olarak girer. Dizel eklemliler uzun saha içi mesafelerde avantajlıdır; akülü modellerde günlük rota, şarj noktalarına göre kurulur. Büyük parselde 'makine nerede' sorusunun cevabı, telsiz koordinasyonuyla verilir.",
+            },
+            {
+                baslik: "Yüksek ve geniş yapılarda büyük metraj işleri",
+                metin:
+                    "Bölgenin yeni nesil fabrikaları büyük ölçekli inşa edilir: 10-15 metre tavanlı holler, uzun cephe hatları, geniş saçaklar. Çatı makası altı işler 16-20 metre eklemli bandında, cephe işleri uzun hat seri çalışmasıyla yürür. Büyük yapının avantajı düzenliliktir — geniş servis kapıları, ferah manevra alanları, düzgün saha betonu; erişim problemi OSTİM tipolojisine göre azdır, iş hacmi ise katbekat büyüktür. Bu yüzden Temelli işleri makine gününü verimli dolduran, uzun soluklu işlerdir.",
+            },
+            {
+                baslik: "Plato rüzgârında dış saha disiplini",
+                metin:
+                    "Temelli, Ankara platosunun açık batı kesimindedir ve rüzgâr, dış saha işlerinin birinci değişkenidir: engebesiz arazi rüzgârı kesmez, yüksek sepet kotlarında maruziyet tamdır. Cephe paneli, saçak, dış aydınlatma ve silo-tank işlerinde sabah blokları esastır; sepette ölçüm ve limit disiplini tavizsizdir. Uzun cephe hatlarının takvimi mevsim rüzgâr ortalamasıyla verilir — yaz öğleden sonralarının termik rüzgârı, plana bilinen bir parametre olarak girer.",
+            },
+            {
+                baslik: "Uzak bölgede konaklamalı verim modeli",
+                metin:
+                    "Mesafe, Temelli'de kısa kiralamanın aleyhine, konaklamanın lehine çalışır: makine parselinde kalır, iş listesi günlere yayılır, nakliye tek girişte ödenir ve mesafenin maliyeti erir. Büyük tesislerin süreklilik arz eden ihtiyaçlarında (bakım + tamamlama + dönemsel işler) aylık konaklama, her ölçümde kısa kiralamalar toplamını geçer. Komşu parsellerin işleri aynı konaklama dönemine bağlandığında model tur hâlini alır — geniş parselli bölgede tesisler arası geçiş bile araçla planlanır ama tek nakliye ekonomisi korunur.",
+            },
+            {
+                baslik: "Batı ucunda destek ve ikame planı",
+                metin:
+                    "Sincan-Temelli ekseni batı koridoru turlarımızın ana hattıdır; günlük tur düzeni, uzak bölgenin destek denklemini çözer — arıza müdahalesi ve ikame makine, tur saatleriyle gün içinde ulaşır. Kritik terminli işlerde (montaj ekibi bekleyen, vinçle senkron çalışan) yedek makine rezervasyonu öneririz: uzak bölgede beklenmedik duruşun saati, merkezdekinden pahalıdır. Lowbed gerektiren büyük modellerin sevkiyatı bir gün önceden planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Temelli'de iş profili ve model eşleşmesi",
+                paragraflar: [
+                    "Büyük parsel bölgesinin tipik iş profilleri ve verimli kiralama modeli aşağıdadır. Mesafe faktörü, model sütununu belirleyen ana değişkendir.",
+                ],
+                tablo: {
+                    basliklar: ["İş profili", "Tipik süre", "Verimli model", "Makine"],
+                    satirlar: [
+                        ["Yeni yapı montaj dönemi", "Haftalar", "Faz sözleşmesi + konaklama", "Dizel eklemli 16 – 20 m"],
+                        ["Cephe/çatı hattı işleri", "Günler-haftalar", "Konaklama + rüzgâr planı", "Dizel eklemli, sabah blokları"],
+                        ["Hol içi tamamlama", "Günler", "Toplu liste", "Akülü eklemli/makaslı"],
+                        ["Dönemsel bakım", "Tekrarlayan", "Çerçeve + bölge turu", "İşe göre karma"],
+                        ["Kısa tekil iş", "Saatler", "Tur gününe bağlama", "Tur makinesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kısa işin doğru zamanı: tur takvimi",
+                paragraflar: [
+                    "Temelli'de yarım günlük tekil iş, kendi başına nakliye taşıyamaz — ama taşımak zorunda da değildir: batı koridoru turlarımız bölgeden düzenli geçer ve tur gününe bağlanan kısa işler, nakliyeyi turla paylaşır. Pratik kural şudur: acil olmayan kısa işlerde talebi 'tur gününe uygun' notuyla açmak, maliyeti belirgin düşürür; tarih dayatan kısa işlerde ise fark, dürüstçe fiyata yansır ve bunu baştan gösteririz.",
+                    "Tesislerin bakım sorumlularına önerimiz, kısa işleri aylık ritimde biriktirmektir: ayda bir tur günü, biriken listeyi bitirir ve tesis, nakliye ekonomisini süreklileştirir. Bu ritim kurulduğunda Temelli'nin mesafesi, maliyet tablosundan fiilen silinir.",
+                ],
+            },
+            {
+                baslik: "Büyük tesiste saha içi koordinasyon düzeni",
+                paragraflar: [
+                    "Geniş parselli tesislerde işin verimi, saha içi koordinasyona bağlıdır: günlük iş sırası (hangi hol, hangi cephe, hangi saat), geçiş güzergâhları ve refakat düzeni sabah kısa toplantısıyla netleşir; makine-operatör çifti gün boyu telsizle ulaşılabilir kalır ve plan değişiklikleri anında işlenir. Saha içi sürüş güzergâhlarında tesis trafiği (tır, forklift, personel servisi) hesaba katılır — büyük parselin iç yolları, küçük bir kasabanın trafiğini taşır.",
+                    "Bu düzenin kaydı da tutulur: günlük iş kapanışları, ertesi gün planı ve karşılaşılan engeller kısa notlarla işlenir. Haftalar süren konaklamalı işlerde bu kayıt, hem ilerleme takibi hem faturalama şeffaflığıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Temelli'ye tek günlük iş için makine gelir mi? Maliyeti nasıl düşer?",
+                cevap:
+                    "Gelir — ama akıllı zamanlamayla: batı koridoru turlarımız bölgeden düzenli geçer ve tur gününe bağlanan kısa işler nakliyeyi turla paylaşır; 'tur gününe uygun' notuyla açılan talep, belirgin ucuzlar. Tarih dayatan tek günlük işte nakliye payı büyür ve bunu baştan gösteririz. Kalıcı çözüm, kısa işleri aylık ritimde biriktirmektir: ayda bir tur günü listeyi bitirir ve mesafe, maliyet tablosundan silinir.",
+            },
+            {
+                soru: "Parselimiz çok büyük; makine gün içinde üç ayrı noktada çalışacak. Bu nasıl planlanır?",
+                cevap:
+                    "Saha içi rota planıyla: üç noktanın iş sırası, aralarındaki sürüş süreleri ve geçiş güzergâhları sabah toplantısında netleşir; dizel modelde rota serbesttir, akülüde şarj noktalarına göre kurulur. Tesis içi trafik (tır-forklift-servis) güzergâh planına işlenir ve makine-operatör gün boyu telsizle ulaşılabilir kalır. Üç noktanın toplam işi bir günü aşıyorsa konaklama zaten devrededir — büyük parselde günlerin verimi, bu koordinasyon düzeninden çıkar.",
+            },
+            {
+                soru: "Uzun cephemizin panel işi üç hafta sürecek; rüzgâr takvimi nasıl etkiler?",
+                cevap:
+                    "Takvim, mevsim rüzgâr ortalamasıyla kurulur ve gün içi ritim sabittir: panel taşıma sabah bloklarında, vidalama-detay öğleden sonra — plato rüzgârının termik deseni bu ritmi belirler. Sepette ölçümle çalışılır, limitte panel durur ama gün boşa geçmez. Üç haftalık taahhüt, rüzgârlı hafta payıyla verilir; takvim dürüstlüğü bu sınıfın standardıdır. Konaklamalı modelde makine sahada olduğu için sakin geçen her saat değerlendirilir — rüzgâr penceresini kaçırmamak, konaklamanın gizli avantajıdır.",
+            },
+            {
+                soru: "Montaj ekibimiz beklerken makine arızalanırsa ne olur?",
+                cevap:
+                    "Batı koridoru tur düzeni devreye girer: telefonla çözülemeyen arızada teknisyen tur hattından yönlendirilir, onarım uzayacaksa ikame makine sevk edilir — gün içi ulaşım, sözleşmede saatle taahhütlüdür. Ekip bekleyen kritik işlerde önerimiz yedek rezervasyondur: bekleyen montaj ekibinin saati, yedek makinenin bedelinden pahalıdır ve uzak bölgede bu fark büyür. Normal kullanım arızalarında sürecin tüm maliyeti bize aittir; kritik terminli işlerin risk planını sözleşmede birlikte kuruyoruz.",
+            },
+            {
+                soru: "Komşu parseldeki tesisle ortak kiralama yapabilir miyiz?",
+                cevap:
+                    "Yapılır ve Temelli'de özellikle mantıklıdır: iki tesisin listesi aynı konaklama dönemine bağlanır, makine parseller arasında planlı geçişle çalışır ve nakliye tek girişte bölüşülür. Geniş parselli bölgede tesisler arası geçiş bile araç gerektirir ama tek nakliye ekonomisi korunur. Kullanım günleri ve maliyet paylaşımı sözleşmede tesislere ayrı tanımlanır — muhasebe tarafı temiz kalır. Bölgede aynı fazda büyüyen komşular için bu model, neredeyse standart önerimizdir.",
+            },
+            {
+                soru: "15 metre tavanlı holümüzde vinç rayı üstüne erişim gerekiyor; hangi makine?",
+                cevap:
+                    "Ray üstü kot + ~2 metre uzanma payı hesabıyla 18-20 metre bandında eklemli: hol doluysa koridor parkından makine dizilimlerinin üzerinden kademeli uzanım (zarf diyagramı kontrolüyle), boşsa yüksek makaslı alternatifi de değerlendirilir ve ekonomikse onu öneririz. Gezer vinçle eş zamanlı çalışmada kilitleme pencereleri üretim programınıza göre kısa tutulur. Hol kesiti ve ray kotunu paylaşın; model listesi ve pencere planıyla dönelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. ASO 2-3. OSB'nin (Temelli) büyük parselli yeni bölge profili ve Ankara batı platosu rüzgâr deseni kamuya açık bilgidir; tur ve konaklama modelleri firma pratiğidir.",
+    },
+
+    "bolge:kazan": {
+        h1: "Kahramankazan'da Eklemli Platform Kiralama",
+        giris:
+            "Kahramankazan, Ankara sanayisinin kuzeybatı kanadıdır ve iki farklı ölçeği bir arada taşır: bir yanda savunma ve havacılık sanayinin çevresinde konumlanmış kurumsal tesisler ve onların yan sanayi halkası, diğer yanda Ankara-İstanbul karayolu boyunca dizilmiş depolama, gıda ve madencilik destekli işletmeler. Bu ikilik, platform işlerinin de iki rejimde yürümesi demektir: kurumsal tarafta kayıt-güvenlik-İSG süreçleri işin çerçevesini çizer; karayolu hattında ise hız ve pratiklik öne çıkar. Eklemli sınıfın Kazan'daki tipik işleri hangar tipi yüksek yapılarda, depo çatı altlarında ve dış saha tesislerindedir. Kuzeybatı yönü, batı koridoru turlarımızın uzantısıdır ve düzenli geçiş, bölgeye öngörülebilir hizmet ritmi sağlar.",
+        maddeler: [
+            {
+                baslik: "Hangar tipi yapılarda büyük açıklık erişimi",
+                metin:
+                    "Havacılık çevresinin hangar tipi yapıları — geniş açıklıklı, yüksek tavanlı, kolonsuz orta hacimler — platform erişiminde kendi geometrisini dayatır: hedefler (çatı makası, aydınlatma hattı, kapı mekanizmaları) yüksek ve yayvandır, iç düzen ise korunması gereken değerli ekipmanla doludur. Eklemli bomun kademeli uzanımı, ekipman bölgelerinin üzerinden güvenli mesafeyle geçerek hedefe ulaşır; zemin işgali minimumda tutulur ve çalışma alanı, hangar operasyonlarıyla saat bazında koordine edilir.",
+            },
+            {
+                baslik: "Kurumsal tesislerde kayıt ve güvenlik süreci",
+                metin:
+                    "Savunma-havacılık halkasındaki tesislerin yüklenici süreçleri titizdir: personel bildirimi ve güvenlik kontrolü, cihaz-fotoğraf kısıtları, alan bazlı erişim ve refakat düzeni. Operatör dosyalarımız bu süreçlere hazırdır ve ilk kayıt payıyla açılan talepler sorunsuz ilerler. İş kayıtları tesis formatında tutulur; gizlilik kuralları operatör brifinginin sabit maddesidir. Bu tesislerle çalışma geçmişimiz, yeni kayıtlarda referans hızı sağlar.",
+            },
+            {
+                baslik: "Karayolu hattında depo ve gıda tesisleri",
+                metin:
+                    "Ankara-İstanbul karayolu boyunca dizilen depolar ve gıda işletmeleri, klasik iş profilini taşır: çatı altı aydınlatma-sprinkler, raf üstü erişim, yükleme kapısı mekanizmaları ve dış saha direkleri. Akülü eklemli ve makaslı karması bu profili karşılar; gıda tesislerinde hijyen seti (temiz makine, iz bırakmayan lastik, alet disiplini) devrededir. Karayolu erişimi sevkiyatı kolaylaştırır — bu hattın işleri, tur günlerine kolayca bağlanır ve nakliye payı düşük kalır.",
+            },
+            {
+                baslik: "Madencilik destekli işletmelerde ağır koşul",
+                metin:
+                    "Kazan çevresinin madencilik bağlantılı tesislerinde (agrega, hazır beton, maden destek atölyeleri) ortam ağırdır: toz yoğunluğu, stabilize sahalar, bunker-silo yapıları ve bant konveyör hatları. Dizel 4x4 eklemli bu sahaların makinesidir; filtre-soğutma bakımı toz katsayısıyla sıklaştırılır ve bant üstü işlerde konveyör kilitleme prosedürü uygulanır. Silo-bunker cidarı işlerinde yüksek metraj ve rüzgâr planı birlikte çalışır.",
+            },
+            {
+                baslik: "Kuzeybatı hattında tur ritmi",
+                metin:
+                    "Kazan, batı koridoru turlarımızın kuzey uzantısındadır: düzenli geçiş günleri bölgeye öngörülebilir teslimat sağlar, kısa işler tur günlerine bağlanarak nakliye paylaşır ve arıza-ikame desteği tur hattından gün içinde ulaşır. Kurumsal tesislerin planlı bakım dönemlerinde kapasite erken bağlanır; karayolu hattının dağınık işletmeleri için ay ritmli toplu günler, en verimli modeldir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kazan'da saha tipi ve çalışma rejimi",
+                paragraflar: [
+                    "Bölgenin iki rejimli yapısında saha tipleri ve çalışma çerçevesi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Rejim", "Tipik iş", "Makine"],
+                    satirlar: [
+                        ["Hangar tipi yapı", "Kurumsal kayıt + saat koordinasyonu", "Makas altı, aydınlatma hattı", "Eklemli 16 – 20 m"],
+                        ["Savunma yan sanayi", "Güvenlik süreci + gizlilik", "Hol içi bakım", "Akülü eklemli, kayıtlı operatör"],
+                        ["Karayolu depoları", "Hızlı-pratik", "Çatı altı, raf üstü", "Akülü karma"],
+                        ["Gıda işletmeleri", "Hijyen seti", "Tavan, sprinkler", "Akülü, iz bırakmayan"],
+                        ["Madencilik destekli", "Ağır koşul + kilitleme", "Bunker, konveyör üstü", "Dizel 4x4 eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Değerli ekipman üzerinde çalışma güvencesi",
+                paragraflar: [
+                    "Hangar ve kurumsal tesislerin iç hacimleri, zarar maliyeti yüksek ekipman barındırır ve platform çalışması bu gerçeğe göre kurulur: bom güzergâhı, ekipman bölgelerinin üzerinden tanımlı güvenli mesafeyle geçer; alet bağlama ve sarf sayımı tavizsiz uygulanır; kritik bölgelerin üzeri işletmeyle birlikte örtülür ve bom hareketleri bu bölgelerde yavaşlatılmış modda yapılır. Sepet yükü (kişi + malzeme) her blokta kontrol edilir.",
+                    "Bu disiplinin sigortası kayıttır: çalışma öncesi saha fotoğrafları, bom güzergâh planı ve iş sonu kontrol turu belgelenir — 'iş öncesi/sonrası' netliği, hem işletmenin hem bizim güvencemizdir.",
+                ],
+            },
+            {
+                baslik: "İki rejim tek sözleşmede: karma tesis grupları",
+                paragraflar: [
+                    "Kazan'ın karma yapısında aynı işletme grubunun hem kurumsal tesisi hem karayolu deposu olabilir ve iki rejimli tek sözleşme, bu grupların doğal modelidir: kurumsal tarafta kayıt-güvenlik süreçleri ve formatlı iş kayıtları, depo tarafında hızlı tur işleri — tek muhatap, tek faturalama, iki rejim disiplini. Operatör ataması rejime göre yapılır; kurumsal tarafın kayıtlı operatörü ile tur tarafının pratik ritmi ayrı planlanır.",
+                    "Bu modelin değeri yönetim yükünde görülür: grup yönetimi tek sözleşmeyi izler, sahalar kendi rejimlerinde sorunsuz çalışır ve dönemsel raporlama iki sahayı tek tabloda gösterir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hangarımızın çatı makası altında aydınlatma yenilenecek; içerideki ekipmana risk var mı?",
+                cevap:
+                    "Yönetilen düzenle hayır: bom güzergâhı ekipman bölgelerinin üzerinden tanımlı mesafeyle planlanır, kritik bölgeler örtülür, aletler bağlı ve sayımlı çalışılır, bom hareketleri hassas bölgelerde yavaşlatılır. Çalışma öncesi-sonrası fotoğraf kaydı iki tarafın güvencesidir. Hangar operasyon saatleriyle koordinasyon (hangi bölge hangi saatte boş) işin planını kurar — bu düzeni hangar yönetimiyle keşifte birlikte çiziyoruz.",
+            },
+            {
+                soru: "Savunma yan sanayi tesisiyiz; operatörünüzün güvenlik süreci ne kadar sürer?",
+                cevap:
+                    "Tesisinizin sürecine bağlı — bizden gecikme olmaz: personel bilgileri ve belgeler bildirime hazır formatta sunulur, cihaz-fotoğraf kısıtlarına ve alan erişim kurallarına brifingli uyum sağlanır. İlk kayıt genellikle birkaç gün ister; bu payla açılan talep sorunsuz ilerler ve kayıt açıldıktan sonra işler hızlı döner. Bölgedeki kurumsal tesislerle çalışma geçmişimiz, yeni kayıtlarda referans hızı sağlar — gerekirse referans tesislerimizi paylaşırız.",
+            },
+            {
+                soru: "Karayolundaki depomuzda yarım günlük raf üstü işi var; ekonomik çözüm ne?",
+                cevap:
+                    "Tur gününe bağlamak: kuzeybatı hattı turlarımız bölgeden düzenli geçer ve tur gününe denk gelen kısa işler nakliyeyi paylaşır — yarım günlük iş, kendi nakliyesini taşımak zorunda kalmaz. 'Tarih esnek' notuyla açılan talep, ilk tur gününe yerleşir. Depo profilinizde işler tekrarlıyorsa ay ritmli toplu gün daha da verimlidir: birikmiş liste tek turda biter. Acil işlerde ise tur beklenmez, standart sevkiyat planlanır — fark fiyatta görünür ve baştan söylenir.",
+            },
+            {
+                soru: "Beton santralimizin bunker cidarında onarım var; hangi makine ve önlem?",
+                cevap:
+                    "Dizel 4x4 eklemli, yüksek metraj bandında: stabilize saha zemini ve bunker geometrisi bu sınıfı gerektirir. Önlem seti üç katmanlı: toz katsayılı makine bakımı (filtre-soğutma), bant-konveyör hatlarının çalışma bölgesinde kilitlenmesi ve yüksek kotta rüzgâr planı (sabah blokları, sepette ölçüm). Santral operasyonuyla koordinasyon — hangi bunker hangi saatte dolum dışı — işin penceresini belirler. Cidar yüksekliği ve saha fotoğrafıyla keşif, modeli kesinleştirir.",
+            },
+            {
+                soru: "Gıda tesisimizde ve depomuzda ayrı işler var; tek seferde olur mu?",
+                cevap:
+                    "Olur — iki rejimli tek plan: gıda tarafı hijyen setiyle (temiz makine, iz bırakmayan lastik, alet disiplini) ve uygun pencerede, depo tarafı standart düzenle çalışılır; aynı makine sırayla iki sahayı bitirir ve nakliye teke iner. Sıralama önemlidir — önce gıda sahası (makine en temizken), sonra depo. İki sahanın listesini talepte paylaşın; pencere ve sıra planıyla dönelim. Grup şirketlerinde bu modeli sözleşmeli süreklilik hâline getiriyoruz.",
+            },
+            {
+                soru: "Planlı bakım haftamız için kapasite garantisi alabilir miyiz?",
+                cevap:
+                    "Erken rezervasyonla evet: kurumsal tesislerin bakım dönemleri bölge kapasitesini hızla bağlar ve takvim netleştiğinde iş listesi + makine karması + operatör planı sözleşmeyle sabitlenir — yedek makine rezervasyonu kritik işler için pakete eklenir. Geç gelen taleplerde dürüst cevap veririz: o hafta kapasite kalmamışsa 'sıkıştırırız' demeyiz. Bakım takviminiz her yıl benzer döneme geliyorsa yıllık çerçeve, kapasiteyi kalıcı güvenceye alır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kahramankazan'ın savunma-havacılık çevresi ve karayolu sanayi hattı kamuya açık bilgidir; iki rejimli çalışma modeli firma pratiğidir.",
+    },
+
+    "bolge:polatli": {
+        h1: "Polatlı'da Eklemli Platform Kiralama",
+        giris:
+            "Polatlı, Ankara'nın batı ucunda iki kimliği birleştirir: Türkiye'nin en önemli tahıl havzalarından birinin merkezi ve büyüyen bir organize sanayi bölgesinin ev sahibi. Platform ihtiyacı bu iki kimlikten iki ayrı profille gelir — tarımsal altyapı tarafında tahıl siloları, yem fabrikaları, un değirmenleri ve lisanslı depoculuk tesisleri; OSB tarafında ise gıda işleme, makine imalatı ve karma üretim holleri. Silo bölgesinin işleri yüksek metraj ve toz disiplini ister; OSB işleri klasik hol profilindedir. Ankara'ya mesafe, Temelli hattının bir adım ötesidir ve aynı kural geçerlidir: kısa işler tur ekonomisiyle, büyük işler konaklamayla verimlenir. Bozkırın açık rüzgârı, yüksek silo işlerinin değişmez parametresidir.",
+        maddeler: [
+            {
+                baslik: "Tahıl silolarında yüksek metraj işleri",
+                metin:
+                    "Silo tesislerinin platform işleri yapının kendisi kadar dikeydir: cidar kaynakları ve boya-onarım, çatı konisi ekipmanları, elevatör kuleleri, dolum boruları ve seviye sensörleri. 20 metre bandına uzanan dizel eklemliler bu profil için gerekir; silolar arası dar geçitlerde bom geometrisi zarf diyagramıyla planlanır. Elevatör kulesi işlerinde yapıya yaslanmadan, bağımsız erişim esastır — platformun değeri, kuleye iskele sarmadan her kota ulaşabilmesidir.",
+            },
+            {
+                baslik: "Organik toz ortamında patlama disiplini",
+                metin:
+                    "Tahıl tozu, yeterli konsantrasyonda patlayıcı bir ortam oluşturur ve silo-değirmen-yem tesislerinde platform çalışması bu gerçeğin disipliniyle yürür: toz birikimli kapalı hacimlerin (galeri, elevatör şaftı çevresi, filtre odaları) alan sınıflandırması sorulur, sınıflı alanlarda standart makine çalıştırılmaz ve işler temizlik-havalandırma sonrası ölçümlü pencerelere alınır. Açık saha ve dış cidar işleri bu kısıtın dışındadır; iç-dış ayrımı keşifte netleştirilir ve iş planı iki listeye bölünür.",
+            },
+            {
+                baslik: "Hasat takvimiyle ters planlama",
+                metin:
+                    "Tahıl havzasının yılı, hasat ve alım dönemi etrafında döner: yaz aylarında silolar kesintisiz çalışır, kamyon trafiği zirvededir ve tesise bakım işi sokmak hem zor hem yanlıştır. Doğru pencere tersidir — ilkbahar (hasat öncesi hazırlık: sensör, dolum hattı, çatı bakımı) ve sonbahar sonu (sezon çıkışı onarımları). Bu pencerelerde bölge talebi yoğunlaşır; hasat öncesi haftalar için erken rezervasyon, silo işletmecilerinin yıllık rutini olmalıdır.",
+            },
+            {
+                baslik: "OSB ve yem-un tesislerinde hol işleri",
+                metin:
+                    "Polatlı OSB ve ilçenin değirmen-yem fabrikalarında işler klasik hol profilindedir: çatı altı aydınlatma, havalandırma, boru-bant üstü erişim ve makine parkı üzerinden tavan noktaları. Akülü eklemli, un-yem tesislerinin toz hassasiyetinde filtre bakım katsayısıyla çalışır; gıda işleme tesislerinde hijyen seti devrededir. OSB'nin kompakt yerleşimi, birden fazla tesisin işini aynı güne bağlamayı kolaylaştırır — ilçe turu modeli burada iyi işler.",
+            },
+            {
+                baslik: "Bozkır rüzgârında silo üstü çalışma",
+                metin:
+                    "Polatlı ovasının açık coğrafyası rüzgârı kesintisiz taşır ve silo üstü-koni işlerinde bu, planın birinci maddesidir: yüksek kotta sabah blokları, sepette sürekli ölçüm, limitte tartışmasız duruş ve geniş yüzeyli parça (sac, kapak) taşımada ek temkin. Silo dizilerinin arasında rüzgâr kanallaşması yaşanır — iki silo arasındaki geçitte rüzgâr, açık sahadan sert olabilir ve bom pozisyonu buna göre seçilir. Takvim, rüzgâr payıyla verilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Polatlı'da tesis tipi ve iş profili",
+                paragraflar: [
+                    "Havza ve OSB'nin tesis tipleri, iş profilleri ve çalışma çerçevesi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis", "Tipik iş", "Kritik disiplin", "Makine"],
+                    satirlar: [
+                        ["Tahıl silosu", "Cidar, koni, elevatör kulesi", "Toz sınıfı + rüzgâr planı", "Dizel eklemli 20 m bandı"],
+                        ["Un değirmeni / yem fabrikası", "Hol içi, bant üstü", "Organik toz + filtre bakımı", "Akülü eklemli"],
+                        ["Lisanslı depo", "Çatı, sensör, dolum hattı", "Sezon penceresi", "Dizel/akülü karma"],
+                        ["OSB üretim holü", "Aydınlatma, havalandırma", "Standart + hijyen (gıdada)", "Akülü karma"],
+                        ["Açık stok/saha", "Direk, dış aydınlatma", "Zemin + rüzgâr", "Dizel 4x4 eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Silo işlerinde iç-dış ayrımı: iki liste yöntemi",
+                paragraflar: [
+                    "Silo tesisinin iş listesi keşifte ikiye bölünür. Dış liste (cidar, koni, dış merdiven-platformlar, dolum boruları) standart yüksek metraj düzeniyle, rüzgâr planı eşliğinde yürür. İç liste (galeri, şaft çevresi, filtre odası) alan sınıflandırmasına tabidir: sınıflı alanlarda iş, temizlik-havalandırma-ölçüm zinciri tamamlanıp güvenli pencere belgelendikten sonra yapılır ve bu pencereler tesisin operasyon duruşlarıyla eşzamanlanır.",
+                    "İki liste yönteminin değeri nettir: dış işler beklemeden ilerlerken iç işler doğru pencereye planlanır — 'her şey duruş bekliyor' tıkanıklığı yaşanmaz ve konaklamalı modelde makine günü tam verimle kullanılır.",
+                ],
+            },
+            {
+                baslik: "Hasat öncesi hazırlık paketi",
+                paragraflar: [
+                    "Silo ve lisanslı depo işletmecilerine yıllık ritim önerimiz, hasat öncesi hazırlık paketidir: seviye sensörleri ve dolum hattı kontrolleri, çatı-koni bakımı, aydınlatma ve kamera direkleri, kantar çevresi işleri — hepsi ilkbahar penceresinde tek konaklamalı planla bitirilir ve tesis, alım sezonuna eksiksiz girer. Sezon içinde doğan zorunlu işler için acil protokol pakete eklenir: iş tanımları ve pencere düzeni hazırsa, müdahale kamyon trafiğini aksatmadan kısa duruşlarla yapılır.",
+                    "Havza genelinde bu paketleri aynı haftalara toplayarak bölge turu kuruyoruz — komşu silo tesislerinin ortak planlaması, hem nakliyeyi böler hem hasat öncesi kapasite sıkışıklığını çözer.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silomuzun dış cidarında boya-onarım var; nasıl planlanır?",
+                cevap:
+                    "Yüksek metraj dizel eklemliyle, rüzgâr planlı: cidar kotuna göre 20 metre bandı model seçilir, iş sabah bloklarına planlanır ve sepette ölçümle çalışılır — bozkır rüzgârında öğleden sonra yüksek iş, plana değil şansa kalır ve biz şansla çalışmayız. Silolar arası geçitlerde rüzgâr kanallaşması bom pozisyonunu etkiler; keşifte diziliş fotoğrafıyla plan kurulur. Takvim rüzgâr payıyla verilir — cidar metrajınızı paylaşın, gün tahminiyle dönelim.",
+            },
+            {
+                soru: "Elevatör kulemizin üst kotlarına iskele kurmadan çıkılır mı?",
+                cevap:
+                    "Çıkılır — bu, eklemli platformun kule işlerindeki ana değeridir: makine kule dibinden bağımsız park eder, bom kademeli kırılımla her kota ulaşır ve yapıya yük bindirilmez. İskele sarmanın günler süren kurulumu ve kule çevresini kaplaması yerine, platform aynı gün çalışmaya başlar. Kule yüksekliği bandı aşıyorsa dürüst söylenir ve üst kotlar için alternatif (asılı erişim) yönlendirilir. Kule kotu ve çevre açıklığını paylaşın; zarf kontrolüyle modeli netleştirelim.",
+            },
+            {
+                soru: "Değirmenimizin iç galerisinde iş var; un tozu sorun mu?",
+                cevap:
+                    "Sorun değil, disiplin konusu: un tozu birikimli kapalı hacimler patlayıcı ortam sınıfına girebilir ve sınıflı alanda standart makine çalıştırmayız. Akış şudur — alanın sınıfı tesisinizden sorulur, gerekiyorsa temizlik-havalandırma yapılır, ölçümle güvenli pencere belgelenir ve iş o pencerede biter. Bu zincir, değirmen duruşlarıyla eşzamanlanır. Sınıf dışı alanlardaki işler (dış cephe, açık bölümler) beklemeden yapılır — keşifte iş listenizi iç-dış olarak ikiye bölüyoruz.",
+            },
+            {
+                soru: "Alım sezonundayız ve dolum hattında arıza var; gelebilir misiniz?",
+                cevap:
+                    "Geliriz — ama dürüst çerçeveyle: sezon ortasında müdahale, kamyon trafiğinizi aksatmayacak kısa duruş pencereleriyle planlanır ve mesafe nedeniyle aynı gün ulaşım, tur takvimine denk gelmezse zordur; gerçekçi süre ertesi gündür. Kalıcı çözüm, hasat öncesi hazırlık paketi + acil protokoldür: sensör-dolum hattı kontrolleri sezondan önce yapılır, zorunlu müdahalenin pencere düzeni önceden kurulur. Bu yıl için müdahaleyi planlayalım; gelecek sezon için paketi konuşalım.",
+            },
+            {
+                soru: "OSB'deki fabrikamız ve dışarıdaki depomuzun işlerini birleştirebilir miyiz?",
+                cevap:
+                    "Evet — ilçe turu modeliyle: OSB holü işleri ve depo-silo işleri aynı konaklama dönemine bağlanır, makine iki saha arasında planlı geçişle çalışır ve nakliye teke iner. Polatlı'nın kompakt yerleşimi bu geçişleri kısa tutar. İşlerin rejim farkı (hijyen seti, toz disiplini, rüzgâr planı) sıralamayı belirler — planlamada önce hangi sahanın geleceğini koşullar söyler. İki listeyi talepte paylaşın; tur planıyla dönelim.",
+            },
+            {
+                soru: "Ankara'dan bu mesafeye kısa iş için gelmeye değer mi?",
+                cevap:
+                    "Tur ekonomisiyle değer: Polatlı, batı hattı turlarımızın uzantısındadır ve tur gününe bağlanan kısa işler nakliyeyi paylaşır — tekil sevkiyat maliyeti doğmaz. 'Tarih esnek' notu, işinizi ilk tur gününe yerleştirir. Tekrarlayan kısa işlerde ay ritmli birikim listesi en verimlisidir. Tarih dayatan tekil acil işte nakliye payı büyür ve teklifte açık görünür — karar, rakamla sizindir. Havza komşularınızla ortak planlama, üçüncü ve en güçlü seçenektir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Polatlı'nın tahıl havzası kimliği ve silo altyapısı kamuya açık bilgidir; organik toz sınıflaması mevzuat çerçevesi, iki liste yöntemi firma pratiğidir.",
+    },
+
+    "bolge:kirikkale-osb-cevre-ili": {
+        h1: "Kırıkkale OSB'ye Eklemli Platform Hizmeti (Çevre İl)",
+        giris:
+            "Kırıkkale, Ankara'nın doğu komşusudur ve sanayi kimliği iki ağır kolonda durur: köklü savunma sanayi tesisleri ve rafineri-petrokimya altyapısı; bunların çevresinde OSB'nin metal işleme, makine ve yan sanayi dokusu gelişir. Ankara merkezli filomuz için Kırıkkale, doğu yönündeki ana çevre il hedefidir — mesafe Temelli'nin batıdaki karşılığıdır ve aynı ekonomi kuralları geçerlidir: tur bağlantılı kısa işler, konaklamalı büyük işler. İşin niteliği ise batı hattından farklıdır: rafineri çevresinin izin rejimleri, savunma tesislerinin güvenlik süreçleri ve ağır metal sanayinin vinçli-sıcak ortamları, platform işini İSG çerçevesinin içine oturtur. Eklemli sınıf, bu sahaların hem yüksek metraj hem dar erişim ihtiyacını tek gövdede karşılar.",
+        maddeler: [
+            {
+                baslik: "Rafineri çevresinde izinli çalışma düzeni",
+                metin:
+                    "Kırıkkale'nin rafineri ve petrokimya çevresindeki işler, çalışma izni rejimiyle yürür: iş tanımı-risk analizi-gaz ölçümü zinciri, alan sınıflandırması (Zone) kontrolü ve günlük izin yenileme. Standart makine sınıflı alana girmez; işler ya arındırılmış-ölçülmüş pencerelerde ya Zone dışı erişim geometrisiyle yapılır. Evrak setimiz bu sistemlere hazır formatta gider ve sevkiyat, izin onayına senkron planlanır — makine kapıda izin beklemez, izin çıkınca makine yoldadır.",
+            },
+            {
+                baslik: "Savunma tesislerinde süreç disiplini",
+                metin:
+                    "Köklü savunma tesislerinin yüklenici süreçleri kurumsaldır: personel güvenlik bildirimi, kimlik-geçiş düzeni, cihaz kısıtları, alan bazlı erişim ve formatlı iş kayıtları. Operatör dosyalarımız bu süreçlere hazırdır; ilk kayıt payıyla açılan talepler sorunsuz ilerler ve kayıt sonrası işler hızlı döner. Gizlilik kuralları operatör brifinginin sabit maddesidir; iş kayıtları tesis formatında teslim edilir.",
+            },
+            {
+                baslik: "Ağır metal sanayinde vinç ve ısı ortamı",
+                metin:
+                    "OSB'nin metal işleme ve makine imalat tesislerinde ortam ağırdır: gezer vinç trafiği süreklidir, sıcak iş bölgeleri (kaynak, taşlama, ısıl işlem) yayılıdır ve zeminde malzeme-skrap hareketi yoğundur. Platform düzeni buna göre kurulur — vinç kilitleme pencereleri telsiz koordinasyonuyla kısa tutulur, sıcak bölge mesafeleri iş planına işlenir, dönüş alanı (kuyruk taşması) bariyerlenir. Bom sınıfının kemer-lanyard kuralı bu ortamda hiç esnemez.",
+            },
+            {
+                baslik: "Doğu hattında mesafe ekonomisi",
+                metin:
+                    "Ankara-Kırıkkale hattı, batı koridorunun doğudaki simetriğidir ve aynı model geçerlidir: kısa işler tur günlerine bağlanır ve nakliyeyi paylaşır; büyük işler konaklamayla mesafeyi eritir; kritik terminli işlerde yedek plan kurulur. Doğu yönü turlarımız Kırıkkale OSB'yi düzenli kapsar; rafineri-savunma tesislerinin planlı bakım dönemlerinde kapasite erken bağlanır. Lowbed gereken yüksek modeller bir gün önceden planlanır.",
+            },
+            {
+                baslik: "OSB yan sanayisinde pratik işler",
+                metin:
+                    "Büyük tesislerin çevresindeki yan sanayi halkası — talaşlı imalat, kaynaklı imalat, yüzey işlem — orta ölçekli hol profilinde çalışır: vinç yolu bakımı, aydınlatma, havalandırma ve pano üstü işler. Akülü eklemli bu profili karşılar; tezgâh dizilimi üzerinden erişim, dar hol geometrisinde zarf kontrolüyle planlanır. Yan sanayi işleri kısa ve dağınıktır — OSB içi toplu gün modeli (birkaç tesisin işi tek turda) bölgede en verimli düzendir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kırıkkale'de saha tipi ve çalışma çerçevesi",
+                paragraflar: [
+                    "Doğu hattının saha tipleri ve çalışma çerçevesi aşağıdadır. İzin-güvenlik süreçleri, iki büyük saha tipinde planlamanın ilk adımıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Süreç çerçevesi", "Tipik iş", "Makine"],
+                    satirlar: [
+                        ["Rafineri-petrokimya çevresi", "İzin rejimi + Zone kontrolü", "Boru köprüsü, aydınlatma, yapı bakımı", "Şartnameye uygun eklemli"],
+                        ["Savunma tesisi", "Güvenlik bildirimi + kayıt", "Hol ve altyapı bakımı", "Kayıtlı operatörle akülü/dizel"],
+                        ["Ağır metal holü", "Vinç kilitleme + sıcak bölge", "Vinç yolu, tavan işleri", "Eklemli 16 – 20 m"],
+                        ["Yan sanayi holü", "Standart", "Aydınlatma, pano üstü", "Akülü eklemli"],
+                        ["Dış saha-altyapı", "Zemin + rüzgâr", "Direk, cephe", "Dizel 4x4 eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "İzin senkron sevkiyat: doğu hattında da aynı ilke",
+                paragraflar: [
+                    "Rafineri ve savunma sahalarının izin süreçleri günler alabilir ve mesafeli bölgede yanlış sıralamanın maliyeti büyür: izinden önce giden makine kapıda bekler, kira sayacı boşa işler. İlkemiz burada da senkrondur — izin süreci talep günü başlar, evrak setleri (makine + operatör) sisteme formatlı girer ve sevkiyat, onay teyidine bağlanır. Düzenli çalıştığımız sahalarda açık kayıtlar, süreci iş-özel adımlara indirger.",
+                    "Bu ilkenin doğu hattındaki ek değeri, tur planıyla birleşmesidir: izin onayı tur gününe denk getirildiğinde nakliye de paylaşılır — izin takvimi ve tur takvimi tek planda okunur.",
+                ],
+            },
+            {
+                baslik: "Ağır sanayi ortamında operatör yetkinliği",
+                paragraflar: [
+                    "Kırıkkale profilinin üç sahası da (rafineri çevresi, savunma, ağır metal) operatör yetkinliğini sınayan ortamlardır: izin sistemlerini okuyabilmek, vinç-sıcak bölge koordinasyonunu yürütebilmek, gizlilik-kayıt disiplinini taşıyabilmek. Operatör atamalarını bu profile göre yaparız — ağır sanayi deneyimli, izin sistemlerine aşina, kayıt düzeni oturmuş operatörler doğu hattının sabit ekibidir.",
+                    "Bu yetkinliğin işletmeye görünen karşılığı pürüzsüzlüktür: saha İSG ekibiyle aynı dili konuşan operatör, gözetim yükü yaratmaz; izin masasında eksik evrak çıkarmayan dosya, süreci bekletmez. Ağır sanayide 'sorunsuz iş', tesadüf değil hazırlık ürünüdür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ankara'dan Kırıkkale'ye hizmet gerçekçi mi, yerel firma mı arayalım?",
+                cevap:
+                    "Rakamla karar verin: doğu yönü turlarımız bölgeyi düzenli kapsar — tur bağlantılı işlerde nakliye payı düşüktür, konaklamalı büyük işlerde mesafe zaten erir ve teklifte nakliye ayrı satır olarak görünür. İşin niteliği de denklemin parçasıdır: rafineri-savunma-ağır metal sahalarının izin ve İSG rejimlerine hazır dosya ve deneyimli operatör, her yerel seçenekte bulunmaz. İki teklifi yan yana koyun; fark, çoğu zaman nakliyeden değil süreç yetkinliğinden çıkar.",
+            },
+            {
+                soru: "Rafineri sahamızdaki boru köprüsü işi için süreç nasıl başlar?",
+                cevap:
+                    "İzin zinciriyle: iş tanımı ve risk analizi dosyası hazırlanır, makine-operatör evrakları saha sisteminize formatlı girer, alan sınıfı (Zone) kontrolü yapılır ve gaz ölçüm şartlı izin süreci işletilir. Sevkiyat, izin onayına senkron planlanır — makine kapıda beklemez. Zone içi noktalar varsa iş, arındırma-ölçüm pencerelerine veya Zone dışı erişim geometrisine planlanır. Süreç talep günü başlar; düzenli çalıştığımız sahalarda kayıtlar açık olduğundan yalnızca iş-özel adımlar kalır.",
+            },
+            {
+                soru: "Tesisimizde gezer vinç sürekli çalışıyor; tavan işi üretimi durdurur mu?",
+                cevap:
+                    "Durdurmaz — kısa kilitleme pencereleriyle: bom ile kancanın aynı düşeye gireceği anlar telsiz koordinasyonuyla dakika bazında yönetilir, pencereler üretim ritminizin doğal boşluklarına denk getirilir ve iş listesinin vinç hattıyla kesişmeyen bölümü hiç kilitleme gerektirmeden ilerler. Sıcak iş bölgelerinin mesafeleri plana işlenir. Keşifte listeyi 'kesişen/kesişmeyen' diye ayırıyoruz — ağır metal hollerinde bile kesişen kısım çoğu zaman azınlıkta kalır.",
+            },
+            {
+                soru: "Savunma tesisimize giriş için güvenlik süreci uzun; nasıl hızlanır?",
+                cevap:
+                    "Süreci hızlandırmanın tek meşru yolu hazırlıktır: personel bilgileri ve belgeler bildirim formatında eksiksiz sunulur, operatör dosyası (MYK, eğitimler, sağlık) tam gider ve kayıt, tesisin takviminde pürüzsüz ilerler — eksik evrakla uzayan tur, en yaygın gecikme nedenidir ve bizde yaşanmaz. İlk kayıt payıyla açılan talep, sonraki tüm işleri hızlandırır: kayıt açıkken yeni iş, gün içinde planlanabilir hâle gelir. Referans tesislerimiz, güvenlik biriminizin sorularına hazır cevaptır.",
+            },
+            {
+                soru: "OSB'deki üç yan sanayi tesisimizin küçük işleri var; ayrı ayrı mı planlanır?",
+                cevap:
+                    "Hayır — OSB toplu gün modeli tam bunun için: üç tesisin listesi tek tur gününe bağlanır, makine tesisleri sırayla dolaşır, nakliye bölüşülür ve her tesis yalnızca kendi iş saatlerini üstlenir. Yan sanayi hollerinin benzer profili (vinç yolu, aydınlatma, pano üstü) geçişleri hızlandırır. Listeleri 'ortak güne uygun' notuyla açın; sıralamayı iş sürelerine göre kurarız. Aylık ritme bağlanan toplu gün, doğu hattında en düşük birim maliyeti üretir.",
+            },
+            {
+                soru: "Kritik bir montaj işimiz var; makine arızası durumunda planınız ne?",
+                cevap:
+                    "Katmanlı güvence: telefon desteğiyle başlar, çözülmezse teknisyen doğu tur hattından yönlendirilir, onarım uzayacaksa ikame makine sevk edilir — süreler sözleşmede saatle taahhütlüdür. Mesafeli bölgede kritik işler için bir katman daha öneririz: yedek makine rezervasyonu — bekleyen montaj ekibinin saati, yedeğin bedelinden pahalıdır. Normal kullanım arızalarında sürecin maliyeti bize aittir; kritik iş planını sözleşme aşamasında birlikte kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kırıkkale'nin savunma-rafineri kimliği kamuya açık bilgidir; izin senkron sevkiyat ve tur modeli firma pratiğidir.",
+    },
 };
