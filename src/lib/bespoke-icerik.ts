@@ -45,6 +45,7 @@ import { PLATFORMISTANBUL_NET } from "./bespoke/platformistanbul-net";
 import { ANKARAMANLIFT_NET } from "./bespoke/ankaramanlift-net";
 import { IZMIRFORKLIFTKIRALAMA_NET } from "./bespoke/izmirforkliftkiralama-net";
 import { IZMIRMANLIFTKIRALAMA_ORG } from "./bespoke/izmirmanliftkiralama-org";
+import { ISTANBULPLATFORMKIRALAMA_NET } from "./bespoke/istanbulplatformkiralama-net";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -133,6 +134,7 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "ankaramanlift.net": ANKARAMANLIFT_NET,
     "izmirforkliftkiralama.net": IZMIRFORKLIFTKIRALAMA_NET,
     "izmirmanliftkiralama.org": IZMIRMANLIFTKIRALAMA_ORG,
+    "istanbulplatformkiralama.net": ISTANBULPLATFORMKIRALAMA_NET,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
