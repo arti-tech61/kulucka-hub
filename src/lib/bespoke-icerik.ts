@@ -34,6 +34,7 @@
 
 import type { SiteIcerik } from "./siteler";
 import { IZMIRMAKASLIPLATFORM_XYZ } from "./bespoke/izmirmakasliplatform-xyz";
+import { IZMIR_MANLIFT_NET } from "./bespoke/izmir-manlift-net";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -111,6 +112,7 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     },
     // ── DİLİM 1 (docs/ICERIK-SIRASI.md) — host başına ayrı modül ────────
     "izmirmakasliplatform.xyz": IZMIRMAKASLIPLATFORM_XYZ,
+    "izmir-manlift.net": IZMIR_MANLIFT_NET,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
