@@ -516,4 +516,499 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Çevre yolu güzergâhında aydınlatma direği, yönlendirme levhası ve portal yapıların bulunması kamuya açık genel bilgidir; trafik altında çalışma işaretleme düzeni, gece görünürlük gerekleri ve yaklaşma mesafesi kuralları karayolu bakım ve iş güvenliği mevzuatının genel uygulamasıdır. Firma adı ve rakam kullanılmamıştır.",
     },
+
+    "bolge:odunpazari": {
+        h1: "Odunpazarı'nda Sokak Aydınlatması ve Direk İşleri için Sepetli Platform",
+        giris:
+            "Odunpazarı'nda aydınlatma ve enerji altyapısı işleri, kırsaldaki hat çalışmalarının kent içine sıkışmış hâlidir: mantık aynıdır — güzergâh boyunca ilerlemek — ama koşullar tümüyle değişir. Direkler arası mesafe kısalır, dolayısıyla bir sokakta çok sayıda nokta arka arkaya gelir; buna karşılık her nokta için aracın park edeceği yer bulmak ayrı bir uğraşa dönüşür. İlçenin tarihi dokusunda sokaklar dar, kaldırımlar sınırlı ve gün boyu park yoğunluğu yüksektir. Buna kent mobilyalarının yarattığı ikinci bir katman eklenir: park ve meydan aydınlatmaları, yaya bölgelerindeki bahçe direkleri, cephe ve anıt aydınlatmaları, tabela ve yönlendirme donanımları. Bunların hepsi yüksekte durur, hepsi bakım ister ve neredeyse hiçbiri için iskele kurmak makul değildir. Araç üstü sepetli platform bu koşullarda üstündür çünkü kendi tekerlekleriyle sokaktan sokağa geçer, kısa sürede kurulur ve alanı yalnızca çalışma süresince işgal eder. Ağır bir direk taşınacak ya da dikilecekse aynı programa vinç eklenir; ancak kent içinde vincin kurulum alanı, kırsaldakinden çok daha dikkatli seçilir.",
+        maddeler: [
+            {
+                baslik: "Park yeri sorunu tekniğin önüne geçer",
+                metin:
+                    "Kent içi aydınlatma bakımında en çok zaman kaybettiren şey, arızanın kendisi değil aracın duracağı yerin bulunamamasıdır. Sepetli araç yalnızca duracak yere değil, destek ayaklarını açacak yan boşluğa da ihtiyaç duyar; iki yandan sıkışmış bir sokakta bu boşluk çoğu zaman yoktur. Bu yüzden ilçedeki programları saat üzerinden kuruyoruz: park yoğunluğunun düştüğü erken sabah ve akşam dilimleri, aynı iş için gün ortasına göre kat kat verimli geçiyor. Gerekli durumlarda çalışılacak bölümün kısa süreli park kısıtı ile boşaltılması, işi yaptıran tarafın kolaylaştırabileceği en etkili adımdır.",
+            },
+            {
+                baslik: "Yaya trafiği ve çalışma alanının kapatılması",
+                metin:
+                    "Kaldırım ya da meydan üzerinde çalışırken yayanın çalışma noktasının altından geçmesi engellenmelidir; uyarı şeridi bunun için yeterli bir önlem değildir, fiziksel bariyer gerekir. Bariyer, sepetin düşey izdüşümünü ve çevresindeki güvenlik payını kapsayacak genişlikte kurulur, yaya akışına alternatif geçiş bırakılır. Yoğun yaya bölgelerinde ayrıca bir gözcü bulundurulur. Bu düzenin kurulması birkaç dakika sürer, ancak kent içi işlerde yaşanan olayların büyük bölümü tam olarak bu düzenin kurulmamasından kaynaklanır.",
+            },
+            {
+                baslik: "Ağaç, kablo ve cephe: bomun yörüngesi kalabalıktır",
+                metin:
+                    "Kent içindeki bir direğin çevresi kırsaldakinden çok daha doludur: budanmamış ağaç dalları, cepheden geçen abone hatları, telekom kabloları, tente ve levhalar bomun hareket alanına girer. Çalışmaya başlamadan önce bomun izleyeceği yörünge gözle taranır ve engeller belirlenir. Ağaç dalı söz konusuysa budama işi yapılmadan çalışma başlamaz; dalın arasından geçirilmeye çalışılan bir bom hem makineye hem ağaca zarar verir. Yörüngede enerjili bir iletken varsa yaklaşma mesafesi kuralı kent içinde de aynen geçerlidir ve gerekirse ilgili bölüm ayrılır.",
+            },
+            {
+                baslik: "Park, meydan ve cephe aydınlatmasının kendi düzeni",
+                metin:
+                    "Yaya bölgelerindeki bahçe direkleri, meydan projektörleri ve cephe aydınlatmaları, sokak armatürlerinden farklı bir bakım ritmi ister. Bu donanımlarda arıza kadar ayar da iş konusudur: yönlendirmesi kaymış bir projektör, teknik olarak çalışıyor olmasına rağmen amacını yerine getirmez. Ayar işleri karanlıkta yapılmak zorundadır, çünkü sonucun görülmesi gerekir. Bu yüzden bu grup işleri akşam penceresine yığıyoruz; aynı çıkışta hem arızalı armatürleri değiştirmek hem ayarları düzeltmek, ikinci bir sevkiyatı gereksiz kılıyor.",
+            },
+            {
+                baslik: "Kent içinde vinç kurmanın ek şartları",
+                metin:
+                    "Direk dikimi ya da ağır malzeme kaldırma gerektiren işlerde vinç kent içinde kırsaldakinden daha kısıtlı çalışır. Ayakların açılacağı alan, yükün dönme yörüngesi ve yükün hiçbir aşamada yaya ya da araç trafiğinin üzerinden geçmemesi birlikte planlanmalıdır. Yörüngenin altında kalan bölüm çalışma süresince tümüyle boşaltılır. Ayrıca kent içinde yeraltı altyapısı yoğun olduğu için destek ayaklarının bastığı noktanın altında rögar, kapak veya galeri bulunup bulunmadığı kontrol edilir; kapak üzerine yapılan yükleme, kent içindeki en sık göz ardı edilen risktir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sokak tipine göre çalışma penceresi",
+                paragraflar: [
+                    "İlçedeki işlerde belirleyici olan direğin kendisi değil, bulunduğu sokağın karakteridir. Aşağıdaki tablo, bir programı hazırlarken noktaları hangi başlıklara göre ayırdığımızı ve her grupta hangi pencerenin verimli olduğunu gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Konum", "Ana kısıt", "Verimli pencere", "Ek hazırlık"],
+                    satirlar: [
+                        ["Dar konut sokağı", "Park yoğunluğu", "Erken sabah", "Geçici park kısıtı"],
+                        ["Ana cadde", "Araç trafiği", "Gece", "Şerit işaretlemesi"],
+                        ["Yaya bölgesi ve meydan", "Yaya akışı", "Kapanış sonrası", "Bariyer ve gözcü"],
+                        ["Park ve yeşil alan", "Ağaç ve zemin", "Akşam", "Budama, plaka"],
+                        ["Cephe ve anıt aydınlatması", "Görsel ayar", "Karanlık saat", "Ayar için ikinci kişi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin görünüşe göre değil, altındakine göre değerlendirilir",
+                paragraflar: [
+                    "Kent içinde zemin sorunu kırsaldaki gibi çamur ya da toprak değildir; buradaki sorun görünmeyendir. Parke, asfalt ya da taş kaplı bir yüzey sağlam görünse de altında kanal, rögar kapağı, galeri ya da yeni yapılmış bir alt yapı dolgusu bulunabilir. Destek ayağı bu noktalardan birine bastığında yük tek noktada yoğunlaşır ve kapak çökebilir. Bu yüzden ayak yerlerini seçerken kapak ve ızgaraların üzerinden kaçınıyor, plaka kullanımını standart tutuyoruz.",
+                    "İkinci nokta eğimdir. Tarihi dokudaki sokakların bir bölümü belirgin eğimlidir ve araç yatay konuma getirilmeden bom kaldırılmaz. Destek ayaklarıyla düzeltilemeyen eğimde park noktası değiştirilir. Bu iki kontrol birlikte birkaç dakika sürüyor ve kent içi çalışmalarda karşılaşılan en ciddi devrilme senaryosunu ortadan kaldırıyor.",
+                ],
+            },
+            {
+                baslik: "Tek nokta arızası ile program bakımı arasındaki maliyet farkı",
+                paragraflar: [
+                    "Kent içindeki aydınlatma bakımı iki şekilde yürütülebilir. Birincisi bildirim üzerine tek tek müdahaledir: bir armatür bildirildiğinde araç yola çıkar, o noktaya gider ve döner. İkincisi bölge programıdır: bir mahalle ya da sokak grubu seçilir ve o bölgedeki bütün noktalar aynı çıkışta ele alınır. İkinci yöntemde araç zaten sahadadır ve noktalar arası geçiş dakikalarla ölçülür, dolayısıyla nokta başına düşen maliyet çok daha düşük kalır.",
+                    "Pratikte en verimli düzen ikisinin karması oluyor: gerçekten acil bildirimler beklemeden karşılanırken, ertelenebilir kalemler bölge programına yazılıyor ve sırası geldiğinde kapanıyor. Bu ayrımı yapmak, aynı ekiple kapatılan yıllık nokta sayısını belirgin artırıyor. Bizden istediğiniz çıkışın hangi kategoride olduğunu baştan belirtmeniz yeterli.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sokağımız dar; sepetli araç buraya girebilir mi?",
+                cevap:
+                    "Girmesi genellikle mümkün, asıl soru destek ayaklarını açacak yerin bulunup bulunmadığı. Sepetli araçlar gövde genişliğinden çok, ayaklarını açtıklarında kapladıkları alanla değerlendirilir; ayaklar tam açılamadığında makine kendi sınırlarını daraltır ve kullanılabilir erişim ile sepet yükü düşer. Dar sokaklarda üç yol izliyoruz: aracı sokağın daha geniş bir noktasına park edip bomun yatay uzanmasıyla hedefe gitmek, çalışma saatini park yoğunluğunun düştüğü erken sabaha almak ya da o bölüm için kısa süreli park kısıtı konulmasını istemek. Sokağın ve direğin çevresinin birkaç fotoğrafını görmek, hangi yolun geçerli olacağını sahaya çıkmadan belirlememizi sağlıyor.",
+            },
+            {
+                soru: "Ağaçların arasındaki direklere ulaşabiliyor musunuz?",
+                cevap:
+                    "Yörünge açıksa evet, kapalıysa önce budama gerekir. Bomu dalların arasından zorlayarak geçirmek iki nedenle kabul edilmez: makinenin hidrolik hortumları ve sepet korkuluğu zarar görebilir, ayrıca dalın yaylanması sepeti beklenmedik şekilde itebilir. Bu yüzden çalışmadan önce bomun izleyeceği yolu gözle tarıyor, engel varsa çalışmayı budama sonrasına bırakıyoruz. Budama işi bizim kapsamımızda değil; bunu program öncesinde çözmenizi istiyoruz, çünkü araç sahaya geldikten sonra beklemek doğrudan zaman kaybı. Park ve yeşil alanlarda ayrıca zemin konusu var: çim ve toprak yüzeyde destek ayaklarının altına plaka konulması ve yüzeyde iz bırakmamak için yük dağıtımının genişletilmesi standart uygulamamız.",
+            },
+            {
+                soru: "Yaya bölgesinde gündüz çalışılabilir mi?",
+                cevap:
+                    "Çalışılabilir ama tercihimiz değil. Gündüz çalışmada iki sorun var: yaya akışını yönlendirmek sürekli bir uğraş hâline geliyor ve alanın kapatılması işletmelerin önünü etkiliyor. Buna karşılık kapanış sonrası ve erken sabah saatlerinde aynı iş daha hızlı, daha güvenli ve daha az rahatsızlıkla bitiyor. Gündüz çalışmak zorunluysa düzen şu şekilde kuruluyor: çalışma noktasının düşey izdüşümü ve güvenlik payı fiziksel bariyerle çevriliyor, yaya akışına alternatif geçiş bırakılıyor ve yoğun noktalarda bir gözcü bulunduruluyor. Uyarı şeridini yeterli saymıyoruz; şerit uyarır, durdurmaz. İş bittiğinde alan süpürülüp gözle taranmadan bariyerleri kaldırmıyoruz.",
+            },
+            {
+                soru: "Armatür ayarlarını gündüz yapamaz mısınız?",
+                cevap:
+                    "Teknik olarak yapılabilir, ama sonucu görmeden yapılan ayar çoğu zaman ikinci bir çıkış gerektirir. Cephe aydınlatması, meydan projektörleri ve park direklerinde amaç belirli bir yüzeyi ya da alanı aydınlatmaktır; yönlendirmenin doğru olup olmadığı ancak karanlıkta anlaşılır. Bu yüzden ayar gerektiren kalemleri akşam penceresine planlıyoruz ve mümkünse aynı çıkışta hem arızalı armatürleri değiştirip hem ayarları düzeltiyoruz. Ayar işlerinde bir ayrıntı daha var: sepetteki kişi ayarı yaparken sonucu aşağıdan değerlendirecek ikinci bir kişiye ihtiyaç duyulur. Bu kişinin sizin tarafınızdan sahada bulunması, sonucun sizin beklentinize göre kesinleşmesini sağlıyor ve tekrar çağrısını ortadan kaldırıyor.",
+            },
+            {
+                soru: "Direğin altında rögar kapağı var; sorun olur mu?",
+                cevap:
+                    "Olabilir ve bu, kent içinde en çok gözden kaçan risklerden biri. Sepetli aracın destek ayakları yükü çok küçük bir alana yoğunlaştırır; bu yük bir rögar veya galeri kapağının üzerine bindiğinde kapak çökebilir ve araç ani biçimde yana yatabilir. Uygulamamız ayak yerlerini kapak, ızgara ve yeni açılmış altyapı dolgusundan uzak seçmek, bu mümkün değilse yükü genişleten plakalarla desteklemektir. Aynı dikkat kaldırım kenarları için de geçerli: kenara fazla yaklaşan bir ayak, altındaki dolgu göçerse dayanağını kaybeder. Bomu kaldırmadan önce ayakların oturup oturmadığını gözle kontrol ediyoruz; bu kontrol birkaç saniye sürüyor ve kent içi çalışmalardaki en ciddi kazayı önlüyor.",
+            },
+            {
+                soru: "Mahallemizde çok sayıda arızalı armatür var; nasıl ilerlemek en ekonomik?",
+                cevap:
+                    "Tek tek bildirim yerine bölge programı kurmak. Bir armatür için ayrı çıkış yapıldığında sürenin büyük bölümü yolda ve park yeri aramakla geçer; aynı mahalledeki otuz nokta tek programa alındığında araç zaten sahadadır ve noktalar arası geçiş dakikalarla ölçülür. Bu yüzden ertelenebilir kalemleri biriktirip bölge programına yazmanızı, yalnızca gerçekten acil olanları ayrı çıkışla karşılamamızı öneriyoruz. Programı hazırlarken noktaları sokak sokak sıralıyor, park yoğunluğunun düşük olduğu saati seçiyoruz. Listeyi adres ve arıza tipiyle paylaşırsanız gerçekçi bir gün sayısı çıkarıyoruz; direk üstü donanım değişimi gerektiren kalemler varsa onları ayrı işaretliyoruz, çünkü süreleri belirgin farklı.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Odunpazarı'nın tarihi kent dokusu ve dar sokak yapısı kamuya açık bilgidir; destek ayağı yük dağılımı ve kapak üzerine yükleme riski makine üretici talimatları ile saha pratiğinden, yaklaşma mesafesi kuralı elektrik işlerinin genel güvenlik mevzuatından gelir. Firma adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:tepebasi": {
+        h1: "Tepebaşı'nda Bulvar Aydınlatması ve Yüksek Direk İşleri için Platform ve Vinç",
+        giris:
+            "Tepebaşı'nın kent dokusu geniş bulvarlar, çok şeritli arterler ve büyük kavşaklar üzerine kuruludur; aydınlatma altyapısı da bu ölçeğe göre şekillenmiştir. Dar sokak armatürünün yerini burada bulvar boyu dizilmiş yüksek gövdeli direkler, kavşak ve kesişme noktalarındaki çoklu projektör grupları, orta refüj ve yaya geçidi aydınlatmaları alır. Ölçek büyüdükçe iş de değişir: erişim yüksekliği artar, direkler arası açıklık büyür ve çalışma neredeyse her zaman araç trafiğiyle aynı sahayı paylaşır. Bir başka gerçek de kent içi raylı sistemin bu ilçedeki güzergâhıdır; hattın besleme donanımı bomun hareket alanına giren, dokunulmaz bir komşudur ve yakınında çalışılacak her işte ayrı bir koordinasyon gerektirir. Bu koşullar altında araç üstü sepetli platform hem hızlı yer değiştirmesi hem yüksek erişimi nedeniyle temel araçtır; direk dikimi, gövde değişimi ya da ağır projektör grubu montajı gerektiğinde ise vinç aynı programa eklenir ve iki makine bulvar boyunca ardışık ilerler.",
+        maddeler: [
+            {
+                baslik: "Bulvar boyu ilerleyen program ve şerit düzeni",
+                metin:
+                    "Geniş arterlerde direkler düzenli aralıklarla dizildiği için iş, doğal olarak bir hat çalışmasına dönüşür. Verimi belirleyen şey ise trafik düzeninin kaç kez kurulup kaldırıldığıdır. Uygulamada bir bulvar dilimi seçilir, o dilimdeki bütün noktalar aynı çıkışta ele alınır ve işaretleme düzeni tek seferde kurulur. Sağ şeritteki direklerde çalışma sırasında araç kendi konumunu koruyarak ilerler; orta refüjdeki direklerde ise iki yönlü koruma gerektiği için düzen daha kapsamlı kurulur ve bu kalemler ayrı bir pencereye toplanır.",
+            },
+            {
+                baslik: "Yüksek direklerde erişim sınıfı ve sepet yükü",
+                metin:
+                    "Bulvar ve kavşak direkleri, konut sokağındakilerden belirgin daha yüksektir ve bu, makine seçimini iki yönden etkiler. Birincisi erişim sınıfıdır: hedefin kotuna sepetten uzanma payı eklendiğinde gereken çalışma yüksekliği hızla büyür. İkincisi sepet kapasitesidir; bom uzandıkça izin verilen yük düşer ve iki kişi ile ağır bir projektör grubunun aynı anda sepette bulunması sınıra dayanabilir. Bu yüzden keşifte yalnızca direk boyunu değil, sepete çıkacak toplam yükü de soruyoruz. İki veri birlikte değerlendirilmediğinde saha günü boşa gidiyor.",
+            },
+            {
+                baslik: "Raylı sistem besleme hattının yakınında çalışma",
+                metin:
+                    "Kent içi raylı sistemin besleme donanımı, güzergâh boyunca sürekli ve genellikle enerjili bir iletkendir; bomun ya da sepetin bu donanıma yaklaşma mesafesi kuralı aynen geçerlidir ve mesafe göz kararıyla değerlendirilemez. Güzergâha yakın noktalarda çalışma, hattı işleten tarafla koordinasyon kurulmadan başlatılmaz; gerekiyorsa ilgili bölüm enerjisiz hâle getirilir ve bu, ayrı bir zaman planı demektir. Uygulamada bu tip noktaları program içinde ayrı işaretliyor ve koordinasyon süresini takvime baştan yazıyoruz.",
+            },
+            {
+                baslik: "Kavşak aydınlatmasında gece penceresi zorunluluğu",
+                metin:
+                    "Büyük kavşaklarda gündüz çalışmak, hem trafik etkisi hem güvenlik açısından çoğu zaman mümkün olmaz; çalışma trafiğin seyreldiği gece saatlerine alınır. Bu, iki ek hazırlık getirir. Birincisi çalışma alanının kendi aydınlatmasıdır — üzerinde çalışılan direğin beslemesi kesileceği için ortam ayrıca kararır. İkincisi görünürlüktür: personel yüksek görünürlüklü giysi kullanır, araç uyarı lambalarıyla donatılır ve işaretleme yansıtıcı olur. Gece penceresinin süresi kısıtlı olduğundan iş listesi önceden sıraya dizilir ve malzeme sahada hazır bekletilir.",
+            },
+            {
+                baslik: "Vinçle direk dikiminde kent içi yörünge planı",
+                metin:
+                    "Bulvar üzerinde bir direğin dikilmesi ya da değiştirilmesi, kırsaldaki aynı işten farklı bir planlama gerektirir. Vincin kurulacağı alan, yükün dönme yörüngesi ve yörüngenin altında kalan bölüm birlikte belirlenir; yük hiçbir aşamada açık trafiğin ya da yayanın üzerinden geçirilmez. Bu, çoğu zaman kaldırmanın yapılacağı kısa süre için ilgili şeridin tümüyle kapatılması anlamına gelir. Direk dikildikten sonra tepe donanımı sepetli platformla bağlanır; iki makinenin aynı gece penceresinde sahada bulunması, işi tek seferde kapatmanın tek yolu.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Direk konumuna göre düzen ve ekipman",
+                paragraflar: [
+                    "İlçedeki aydınlatma işlerini direğin konumuna göre ayırıyoruz; trafik düzeni, çalışma penceresi ve gereken ekipman bu ayrımdan çıkıyor. Aşağıdaki tablo program hazırlarken kullandığımız temel çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Direk konumu", "Trafik düzeni", "Pencere", "Ekipman"],
+                    satirlar: [
+                        ["Bulvar sağ şerit kenarı", "Şerit daraltma", "Gece veya seyrek saat", "Sepetli araç"],
+                        ["Orta refüj", "İki yönlü koruma", "Gece", "Sepetli araç, uzun bom"],
+                        ["Kavşak yüksek direği", "Nokta kapatma", "Gece", "Üst sınıf bom"],
+                        ["Yaya geçidi ve kaldırım", "Yaya bariyeri", "Gündüz mümkün", "Kompakt sepetli araç"],
+                        ["Direk dikimi ve değişimi", "Şerit kapatma", "Gece", "Vinç + sepetli araç"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gece penceresini boşa harcamamak",
+                paragraflar: [
+                    "Gece çalışması pahalı bir kaynaktır: penceresi kısadır, ekip yorgunluğu yüksektir ve düzenin kurulması zaman alır. Bu yüzden pencereye girmeden önce her şeyin hazır olması gerekir — değişecek malzeme sahada, iş listesi sıralanmış, ayırma noktaları belirlenmiş ve trafik düzeni izni alınmış olmalıdır. Pencere içinde malzeme aramak ya da yetkili beklemek, o gecenin yarısını götürür.",
+                    "İkinci verimlilik kaynağı listeyi doğru sıralamaktır. Kritik ve uzun süren kalemler pencerenin başına, kısa ve ertelenebilir kalemler sonuna yazılır. Böylece pencere beklenenden erken kapanmak zorunda kalırsa — beklenmedik bir trafik durumu ya da hava koşulu nedeniyle — geride kalanlar en az önemli olanlar olur. Bu sıralamayı iş öncesi birlikte yapıyor ve yazılı olarak paylaşıyoruz.",
+                ],
+            },
+            {
+                baslik: "Kurumsal tarafta belge ve sorumluluk düzeni",
+                paragraflar: [
+                    "Bulvar ve kavşak aydınlatması işleri çoğunlukla kurumsal bir işverenle yürür ve bu, saha dışında da bir düzen gerektirir. Standart olarak sağladığımız evrak seti makinenin geçerli periyodik kontrol raporu, makinenin tanım bilgisi ve operatörlü çalışmada operatörün yeterlilik belgesinden oluşur. Trafik düzeni izni ve kapatma yetkisi ise yol idaresinde ya da işverendedir; bu izin olmadan sahaya çıkmıyoruz.",
+                    "Sorumluluk sınırı da benzer biçimde ayrılır. Makinenin uygunluğu, kurulumu ve güvenli kullanımı bizim tarafımızda kalır; hattın ayrılması, gerilim yokluğunun doğrulanması ve elektriksel işin kendisi işverenin yetkili personelindedir. Bu ayrımı iş öncesinde yazılı hâle getirmek, gece penceresinde yaşanabilecek yetki tartışmalarını tümüyle ortadan kaldırıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bulvarımızdaki direkler yüksek; hangi sınıf makine gerekiyor?",
+                cevap:
+                    "Karar iki veriyle veriliyor ve ikisini de sizden istiyoruz. Birincisi çalışılacak noktanın zeminden gerçek kotu — direğin toplam boyu değil, sepetin çıkması gereken yükseklik. Buna sepetten uzanma payı ekleniyor ve gereken çalışma yüksekliği çıkıyor. İkincisi sepete çıkacak toplam yük: kaç kişi ve hangi malzeme. Bom tipi makinelerde izin verilen sepet yükü sabit değildir, uzanma arttıkça düşer; iki kişi ve ağır bir projektör grubu birlikte düşünüldüğünde sınıra takılmak mümkündür. Ayrıca orta refüjdeki direklerde araç kenarda kaldığı için yatay uzanma da devreye girer. Üç veriyi birlikte değerlendirip uygun sınıfı gerekçesiyle öneriyoruz; katalogdaki tek bir yükseklik rakamına bakarak seçim yapmıyoruz.",
+            },
+            {
+                soru: "Raylı sistem hattının yakınındaki direklerde çalışılabilir mi?",
+                cevap:
+                    "Çalışılabilir, ancak koordinasyon kurulmadan başlanmaz. Kent içi raylı sistemin besleme donanımı güzergâh boyunca uzanan ve genellikle enerjili olan bir iletkendir; sepetin ya da bomun buna yaklaşma mesafesi kuralı, herhangi bir enerji hattında olduğu gibi aynen geçerlidir ve mesafe göz kararıyla değerlendirilemez. Bu tip noktaları program içinde ayrı işaretliyor, hattı işleten tarafla temas kurulmasını ve gerekiyorsa ilgili bölümün enerjisiz hâle getirilmesini bekliyoruz. Bu, ayrı bir zaman planı demektir ve takvime baştan yazılır. Koordinasyon sağlanamıyorsa o noktadaki işi programdan çıkarıyoruz; bomun hareketini iyi niyete bırakmak kabul edilebilir bir yaklaşım değil.",
+            },
+            {
+                soru: "Kavşakta gündüz çalışmanız mümkün değil mi?",
+                cevap:
+                    "Çoğu kavşakta değil ve bunun nedeni ekipman değil trafik. Kavşak aydınlatmasında çalışma alanı genellikle akışın ortasında ya da hemen kenarında kalır; gündüz saatlerinde bu alanı kapatmak hem yoğun bir etki yaratır hem çalışan personel açısından risklidir. Bu yüzden bu tip işleri trafiğin seyreldiği gece saatlerine planlıyoruz. Gece çalışmanın kendi gerekleri var: çalışma alanı seyyar aydınlatmayla destekleniyor — üzerinde çalışılan direğin beslemesi kesileceği için ortam ayrıca kararıyor — personel yüksek görünürlüklü giysi kullanıyor ve işaretleme yansıtıcı oluyor. Pencere kısıtlı olduğu için malzemeyi sahada hazır bekletiyor, iş listesini önceden sıraya diziyoruz.",
+            },
+            {
+                soru: "Direk değişiminde vinç ve platform aynı anda mı gerekiyor?",
+                cevap:
+                    "Aynı gece penceresinde ikisi de sahada olmalı, ama aynı anda çalışmazlar. Sıralama şu şekilde işler: önce hat ayrılır ve doğrulanır, iletkenler ve donanım alınır, ardından vinç eski direği kaldırıp yerinden çıkarır. Yeni direk aynı vinçle kaldırılıp yerine oturtulur ve sabitlenir. Vinç yükü askıda tuttuğu her aşamada yörüngesinin altı boş kalır; orada bir sepet bulunamaz. Direk sabitlendikten sonra sepetli platform yanaşır ve tepe donanımı bağlanır. İki makineyi ayrı gecelere bölmek teoride mümkün ama pratikte pahalıdır, çünkü trafik düzeni ve hat ayırma işlemleri iki kez tekrarlanır. Bu yüzden bu tip işlerde iki makineyi tek programa alıyoruz.",
+            },
+            {
+                soru: "Gece penceremiz kısa; iş listesi sığmazsa ne oluyor?",
+                cevap:
+                    "Sığmayacağını baştan görürsek söylüyoruz; bu, sonradan yarım kalan bir işten çok daha ucuz. Listenin süresini tahmin ederken nokta sayısı kadar noktalar arası mesafeyi ve trafik düzeninin kaç kez kurulacağını hesaba katıyoruz — çoğu zaman süreyi belirleyen kalem, işin kendisi değil düzenin kurulup kaldırılması oluyor. Pencereye sığmayan listelerde iki seçenek var: dilimi kısaltıp güzergâhı iki geceye bölmek ya da ikinci bir ekiple paralel çalışmak. Ayrıca listeyi önem sırasına diziyoruz; kritik kalemler pencerenin başına yazıldığında, beklenmedik bir gecikme yaşansa bile geride kalanlar en az önemli olanlar oluyor. Bu sıralamayı iş öncesinde birlikte yapıp yazılı paylaşıyoruz.",
+            },
+            {
+                soru: "Kurumsal alım sürecimiz için hangi belgeleri sağlıyorsunuz?",
+                cevap:
+                    "Talep beklemeden gönderdiğimiz standart bir set var: makinenin geçerli periyodik kontrol raporu, marka-model ve seri bilgisini içeren tanım sayfası ile operatörlü çalışmada operatörün yeterlilik belgesi. Buna teklif metnini ekliyor, kiralama süresinin hangi saatte başlayıp bittiğini ve nakliyenin ayrı kalem olup olmadığını açıkça yazıyoruz. Trafik düzeni izni ve şerit kapatma yetkisi bizde değil, yol idaresinde ya da işverendedir; bu izin alınmadan sahaya çıkmıyoruz. Elektriksel işin sorumluluğu da benzer biçimde ayrılıyor: hattın ayrılması ve gerilim yokluğunun doğrulanması sizin yetkili personelinizde, makinenin güvenli kullanımı bizde kalıyor. Bu sınırı iş öncesinde yazılı hâle getirmek, gece penceresinde tartışma çıkmasını önlüyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Tepebaşı'nın geniş bulvar ve arter dokusu ile kentte raylı sistem bulunması kamuya açık bilgidir; sepet yükü-uzanma ilişkisi ve rüzgâr sınırı makine üretici verisinden, yaklaşma mesafesi ile trafik düzeni gerekleri iş güvenliği ve karayolu bakım mevzuatının genel uygulamasından gelir. Firma adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:eskisehir-2-osb": {
+        h1: "Eskişehir 2. OSB'de Saha Aydınlatması ve Enerji Şebekesi için Platform ve Vinç",
+        giris:
+            "Bir organize sanayi bölgesi, dışarıdan bakıldığında fabrikalar topluluğu gibi görünse de teknik olarak kendi iç şebekesini işleten bir yerleşimdir: iç yolları, o yolları aydınlatan direk dizileri, parselleri besleyen dağıtım hatları, trafo binaları ve bunlar arasındaki bağlantılar. Eskişehir'in ikinci sanayi alanı bu açıdan görece genç bir altyapıya sahiptir ve genç altyapının kendine özgü iş profili vardır: arıza az, buna karşılık yeni bağlantı, kapasite artışı ve genişleme işi çoktur. Yeni bir parsel devreye girdiğinde iç yol aydınlatması uzatılır, besleme kolu genişletilir, saha direkleri eklenir. Bunların hepsi hol içinde değil, açık sahada ve yol boyunca yapılan işlerdir; yani yine bir hat çalışmasıdır. Araç üstü sepetli platform bölgenin düzgün iç yollarında kolayca ilerler ve direkler arasında hızlı yer değiştirir; yeni direk dikimi ya da ağır pano ve trafo donanımının yerine konması gerektiğinde vinç aynı programa eklenir. Bölgede işi kolaylaştıran şey ise açık ve düzgün zemin, zorlaştıran şey ise ağır araç trafiğidir.",
+        maddeler: [
+            {
+                baslik: "İç yol aydınlatmasında hat mantığı",
+                metin:
+                    "OSB iç yolları boyunca dizilmiş aydınlatma direkleri, kent içi sokak armatürlerinden farklı olarak düzenli aralıklı ve tek tiptir; bu, programı kolaylaştıran bir özelliktir. Bir yol ekseni seçilip baştan sona ilerlendiğinde araç kısa aralıklarla yer değiştirir ve nokta başına harcanan süre düşer. Verimi bozan tek şey, çalışmanın ağır araç trafiğiyle kesişmesidir. Bu yüzden iç yol programlarını vardiya değişimi ve sevkiyat yoğunluğunun dışındaki saatlere alıyor, çalışma bölümünü koni ve uyarı düzeniyle ayırıyoruz.",
+            },
+            {
+                baslik: "Parsel bağlantısı ve genişleme işlerinin ikili yapısı",
+                metin:
+                    "Yeni bir parselin devreye alınması, hemen her zaman iki aşamalı bir iştir. Önce taşıyıcı unsurlar yerine konur: direk dikimi, pano ya da trafo donanımının indirilmesi, ağır parçaların yerleştirilmesi — bunlar vinç işidir. Ardından bağlantı işleri gelir: iletken çekimi, konsol ve izolatör bağlantıları, armatür montajı, ölçüm noktalarının kurulması — bunlar sepetli platform işidir. İki aşamayı tek programda kurgulamak, iki makineyi de boş bekletmeden kullanmayı sağlar. Aşamalar arasında beton priz süresi gibi teknik bir bekleme varsa program buna göre bölünür.",
+            },
+            {
+                baslik: "Ağır araç trafiğiyle aynı sahayı paylaşmak",
+                metin:
+                    "Sanayi bölgesinin iç yolları tır, kamyon ve iş makinesi trafiğine açıktır ve bu araçların manevra alanları geniştir. Sepetli aracın yol kenarında destek ayaklarını açtığı her nokta, bu trafiğin geçiş genişliğini daraltır. Uygulamada çalışma bölümü koni ve uyarı levhalarıyla belirgin hâle getirilir, gerekiyorsa geçiş tek yöne düşürülür ve yoğun kesişme noktalarında bir yönlendirici bulundurulur. Ayrıca dönüş yapan uzun araçların bomun hareket alanına girme ihtimali değerlendirilir; bu, açık sahada en sık gözden kaçan risktir.",
+            },
+            {
+                baslik: "Trafo ve dağıtım noktalarında ayırma zinciri",
+                metin:
+                    "Bölge içindeki dağıtım noktaları ve trafo binaları çevresinde yapılacak işlerde ayırma, tek bir şalterin kapatılmasından ibaret değildir. Hangi bölümün kimi beslediği, ayırmanın hangi noktadan yapılacağı ve kesintiden hangi parsellerin etkileneceği önceden belirlenir. Kilitleme ve etiketleme yapılır, çalışılacak bölümde gerilim yokluğu ölçülerek doğrulanır ve topraklama takılır. Bu zinciri bölgenin kendi teknik ekibi yürütür; bizim rolümüz, zincir tamamlandığı teyit edilene kadar sepeti yükseltmemektir. Kesintinin kapsamı üretim yapan parselleri etkilediği için pencere de buna göre seçilir.",
+            },
+            {
+                baslik: "Saha aydınlatması ve yüksek direkli alanlar",
+                metin:
+                    "Parsel içi açık depolama alanları, tır park sahaları ve yükleme meydanları, yol aydınlatmasından farklı olarak yüksek direkli projektör gruplarıyla aydınlatılır. Bu direklerde bakım, hem erişim sınıfı hem sepet yükü açısından daha talepkârdır; ayrıca ayar işi gerektiğinde sonucun karanlıkta görülmesi gerekir. Bir bölümünde armatür grubunu aşağı indiren mekanizma bulunur ve bu, işi tümüyle değiştirir. İş listesi hazırlanırken hangi direklerin indirme sistemli olduğunu ayırmak, gereksiz büyük makine sevkini önlüyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölge içi iş tipine göre program",
+                paragraflar: [
+                    "Bölgeden gelen talepler karakter olarak birbirinden ayrışır; makine ikilisi, çalışma penceresi ve koordinasyon ihtiyacı bu ayrımdan çıkar. Aşağıdaki tablo, talebi aldığımızda yaptığımız ilk sınıflandırmadır.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Kesinti kapsamı", "Pencere", "Makine"],
+                    satirlar: [
+                        ["İç yol armatür bakımı", "Dar veya yok", "Trafik seyrek saati", "Sepetli araç"],
+                        ["Yeni parsel bağlantısı", "Planlı", "Hafta içi gündüz", "Vinç + sepetli araç"],
+                        ["Direk dikimi ve değişimi", "Bölümsel", "Üretim dışı saat", "Vinç + sepetli araç"],
+                        ["Trafo çevresi işleri", "Parsel etkili", "Duyurulu pencere", "Sepetli araç"],
+                        ["Saha projektör grubu", "Genellikle yok", "Karanlık saat (ayar)", "Üst sınıf bom"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kesinti penceresini bölge içinde duyurmak",
+                paragraflar: [
+                    "Bir sanayi bölgesinde kesinti, kent içindekinden farklı bir sonuç doğurur: etkilenen taraf üretim yapan bir tesistir ve plansız bir kesinti, yalnızca rahatsızlık değil doğrudan üretim kaybı anlamına gelir. Bu yüzden kesinti gerektiren işlerde pencere, bölge yönetimi tarafından etkilenecek parsellere önceden duyurulur ve zaman aralığı tesislerin kendi programlarına göre seçilir.",
+                    "Bizim tarafımızdaki karşılığı hazırlıktır: pencere açıldığında sahada beklenecek hiçbir kalem kalmamalıdır. Malzeme yerinde, güzergâh sıralanmış, makine kurulu ve ekip hazır olur. Kesinti süresini uzatan şey neredeyse hiçbir zaman işin kendisi değil, başlamadan önce eksik kalan hazırlıktır. Aynı kol üzerindeki bütün kalemleri tek pencereye toplamak da bu nedenle standart önerimiz.",
+                ],
+            },
+            {
+                baslik: "Tesislerin kendi parsel içi işleri",
+                paragraflar: [
+                    "Bölgedeki tesislerin bir bölümünün talebi ortak altyapıyla değil, kendi parselleriyle ilgilidir: avlu ve otopark aydınlatması, çatı kenarı ve saçak donanımı, tabela ve bayrak direkleri, kamera ve anten montajı, cephe üzerindeki noktalar. Bunlar birkaç saatlik işlerdir ve tek başına sevkiyatı zor karşılar. Bölgede yürüyen bir programa eklendiğinde ise araç zaten sahadadır ve ek nakliye doğmaz.",
+                    "Parsel içi işlerde ayırmayı tesisin kendi yetkili personeli yapar ve bunun kim olduğunun baştan belli olmasını istiyoruz. İkinci konu zemindir: parsel içi saha betonu genellikle düzgündür, ancak yeni doldurulmuş bölümlerde ve kanal kapaklarının üzerinde destek ayağı yüklemesi ayrıca değerlendirilir. Bu iki başlık netleştiğinde parsel içi işler programın en hızlı kapanan kalemleri oluyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni parselimizin aydınlatma ve besleme işini tek programda yapabilir misiniz?",
+                cevap:
+                    "Yapabiliriz ve bu tip işlerde önerdiğimiz kurgu tam olarak bu. İş doğal olarak ikiye ayrılıyor: önce ağır unsurların yerine konması — direk dikimi, pano ya da donanım indirme — ki bu vinç işidir; sonra bağlantı kalemleri — iletken, konsol, izolatör, armatür montajı — ki bu sepetli platform işidir. İkisini tek programa aldığımızda iki makine de boş beklemez ve aynı ekip iki aşamayı ardışık yürütür. Arada beton priz süresi gibi teknik bir bekleme varsa programı ona göre bölüyoruz; direk gerçekten yük taşıyacak duruma gelmeden tepesine çıkılmaz. Parselin yerleşim planını ve direk sayısını paylaşırsanız kaç günlük bir program gerektiğini gerçekçi biçimde çıkarabiliriz.",
+            },
+            {
+                soru: "İç yollarda tır trafiği yoğun; çalışma güvenli yürütülebilir mi?",
+                cevap:
+                    "Yürütülebilir ama düzen kurulmadan başlanmaz. Sepetli araç yol kenarında destek ayaklarını açtığında geçiş genişliği daralır ve bu, uzun araçlar için doğrudan bir sorun. Uygulamada çalışma bölümünü koni ve uyarı levhalarıyla belirgin hâle getiriyor, gerekiyorsa geçişi tek yöne düşürüyor ve yoğun kesişme noktalarında bir yönlendirici bulunduruyoruz. İkinci risk daha az fark edilir: dönüş yapan uzun bir aracın dorsesi, bomun hareket alanına girebilir. Bu yüzden bomun çalışma yönünü trafiğe kapalı tarafa alıyoruz. Ayrıca programı vardiya değişimi ve sevkiyat yoğunluğunun dışındaki saatlere planlıyoruz; aynı iş, seyrek saatte hem daha hızlı hem daha güvenli bitiyor.",
+            },
+            {
+                soru: "Kesinti hangi parselleri etkileyecek, önceden bilebilir miyiz?",
+                cevap:
+                    "Bunu bölgenin kendi teknik ekibi belirler, çünkü hangi kolun kimi beslediğini gösteren şema onlardadır. Bizim ısrarla istediğimiz şey, bu belirlemenin işten önce yapılmış olması. Ayırma noktası seçildiğinde etkilenecek parseller ortaya çıkar ve pencere, o tesislerin kendi programlarına göre seçilir; sanayi bölgesinde plansız bir kesinti doğrudan üretim kaybı demektir. Ayırma yapıldıktan sonra kilitleme ve etiketleme uygulanır, çalışılacak bölümde gerilim yokluğu ölçüm aletiyle doğrulanır ve topraklama takılır. Sepeti ancak bu zincirin tamamlandığı teyit edildikten sonra yükseltiyoruz. Kesinti süresini kısaltmanın yolu da hazırlıktan geçiyor: malzeme yerinde, güzergâh sıralanmış ve makine kurulu olmalı.",
+            },
+            {
+                soru: "Saha projektörlerimizin ayarı için hangi ekipman gerekiyor?",
+                cevap:
+                    "Önce direğin tipini bilmemiz gerekiyor. Bir bölüm yüksek direkte armatür grubunu aşağı indiren bir mekanizma bulunur; böyle bir direkte bakım ve ayar yerde yapılır, yüksek erişim ekipmanı gerekmez. Mekanizma yoksa ya da arızalıysa iş üst sınıf bom gerektiren bir yüksek erişim işine döner ve burada iki şey birlikte hesaplanır: hedefin kotu ve sepete çıkacak toplam yük. Ayar tarafında bir de zamanlama var: yönlendirmenin doğru olup olmadığı ancak karanlıkta görülebildiği için ayar işlerini akşam penceresine planlıyoruz ve sonucu aşağıdan değerlendirecek ikinci bir kişinin sizin tarafınızdan bulunmasını istiyoruz. Böylece tek çıkışta hem değişim hem ayar kapanıyor.",
+            },
+            {
+                soru: "Tesisimizin kendi parseli içindeki işler için de geliyor musunuz?",
+                cevap:
+                    "Geliyoruz ve bölgedeki taleplerin önemli bölümü zaten bu tip işlerden oluşuyor: avlu ve otopark aydınlatması, saçak ve çatı kenarı işleri, tabela, kamera, anten ve benzeri montajlar. Bunların ortak özelliği birkaç saatte bitmesi; tek başına sevkiyat yaptırmak oransal olarak pahalı kalıyor. Bölgede yürüyen bir programa eklendiğinde araç zaten sahada oluyor ve yalnızca kullanım süresini ödüyorsunuz. Sizden iki şey istiyoruz: parsel içinde ayırmayı yapacak yetkili kişinin belli olması ve aracın konumlanacağı noktanın zemin durumu. Saha betonu genellikle düzgün, ancak yeni doldurulmuş bölümlerde ve kanal kapaklarının üzerinde destek ayağı yüklemesini ayrıca değerlendiriyoruz.",
+            },
+            {
+                soru: "Direk dikimi için tesisimizin bir hazırlık yapması gerekiyor mu?",
+                cevap:
+                    "Gerekiyor ve bu hazırlığın eksik olması sahada en sık yaşadığımız gecikme. Vinç gelmeden önce şunların hazır olması gerekir: direğin oturacağı temel ya da kuyu, dikim noktasına vincin kurulabileceği düz ve yeterli genişlikte bir alan, kaldırma yörüngesinin altında kalan bölümün boşaltılmış olması ve direğin sahaya indirilmiş olması. Ayrıca yörüngenin üzerinde ya da yakınında enerjili bir hat bulunup bulunmadığı önceden tespit edilmelidir; varsa yaklaşma mesafesi kuralı vinç için de aynen geçerlidir. Beton dolgulu temellerde priz süresi tamamlanmadan tepe donanımına geçilmez; programı bu beklemeyi hesaba katarak kuruyoruz. Bu kalemleri iş öncesi bir listeyle paylaşıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Organize sanayi bölgelerinin iç yol, aydınlatma ve dağıtım altyapısını kendi bünyesinde işletmesi genel ve kamuya açık bir bilgidir; ayırma-kilitleme-doğrulama-topraklama adımları ile yaklaşma mesafesi kuralı elektrik işlerinin genel güvenlik mevzuatından, kaldırma yörüngesi kuralları vinç kullanım pratiğinden gelir. Firma adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:bozuyuk-osb-bilecik-cevre-ili": {
+        h1: "Bozüyük OSB ve Çevresinde Hat, Direk ve Aydınlatma İşleri (Çevre İl)",
+        giris:
+            "Bozüyük, Eskişehir'e karayoluyla yakın bir sanayi ilçesidir ve buradan gelen enerji-aydınlatma talepleri iki farklı dokudan doğar. Birincisi sanayi alanının kendi iç altyapısıdır: yol boyu aydınlatma direkleri, parselleri besleyen kollar, saha ve otopark aydınlatmaları, tesis girişlerindeki yüksek direkler. İkincisi ilçeyi çevreleyen kırsal doku ve bu dokudan geçen hat güzergâhlarıdır — köy bağlantı hatları, yol kenarı direk dizileri, tarımsal işletmelerin besleme hatları. İki doku aynı ekipmanla çalışılır ama farklı planlanır. Bunun üzerine il sınırının getirdiği üçüncü bir başlık eklenir: makine Eskişehir'den yola çıkar ve gün içinde dönüşü her zaman mümkün olmayabilir; bu, kiralama süresinin ve programın nasıl kurgulanacağını doğrudan etkiler. Bizim buradaki yaklaşımımız, işi mutlaka bir güzergâh programına oturtmaktır: araç geldiğinde tek nokta değil, bir dizi nokta kapanmalıdır. Direk dikimi ya da ağır donanım kaldırma gerekiyorsa vinç aynı programa yazılır ve iki makine bir arada gönderilir.",
+        maddeler: [
+            {
+                baslik: "İl dışına çıkan makinede program yoğunluğu",
+                metin:
+                    "Bir sepetli aracın il sınırını geçmesi, tek bir armatür değişimi için ekonomik değildir; bu yüzden burada ilk yaptığımız şey iş listesini büyütmektir. Sanayi alanındaki noktalar, çevredeki köy hatları ve varsa tesislerin kendi parsel içi kalemleri tek programa toplanır ve araç geldiği gün bunların hepsini sırayla kapatır. Bu yaklaşım, çevre il olmanın getirdiği maliyet farkını büyük ölçüde eritir. Programın kurulabilmesi için tek gereken, acil olmayan kalemlerin biriktirilmesi ve tarih konusunda birkaç günlük pay bırakılmasıdır.",
+            },
+            {
+                baslik: "Sanayi alanı ile kırsal hattın farklı ritmi",
+                metin:
+                    "Sanayi alanı içindeki işler mesai ve sevkiyat trafiğine göre planlanır; kesinti gerektiren kalemler üretimi etkilediği için pencere önceden duyurulur. Kırsal hatlarda ise belirleyici olan trafik değil erişim ve gün ışığıdır: yol durumu, tarla erişimi, mevsim. Aynı gün içinde iki dokuda birden çalışılacaksa sıralamayı buna göre kuruyoruz — kırsal kalemler gün ışığının bol olduğu saatlere, sanayi alanı kalemleri ise trafiğin seyreldiği dilimlere yerleştiriliyor. Bu sıralama, aynı ekiple kapatılan nokta sayısını belirgin artırıyor.",
+            },
+            {
+                baslik: "Yol kenarı direk dizilerinde çalışma düzeni",
+                metin:
+                    "İlçeyi çevreleyen karayolu ve bağlantı yolları boyunca uzanan direk dizilerinde çalışma, trafik altında yapılan bir iştir. Aracın banket üzerinde durduğu ve bomun yola uzanmadığı durumlarda uygun işaretlemeyle akış sürebilir; bomun yol üzerine girdiği ya da aracın şeride taşması gereken durumlarda ise kapatma gerekir ve bu, yol idaresinin iznine bağlıdır. Banket kenarında park ederken destek ayaklarının şev kenarından güvenli mesafede tutulması ve altlarına plaka konulması standart uygulamamızdır; banketin kenarı görünenden zayıftır.",
+            },
+            {
+                baslik: "Arıza değil, program: mesafenin dayattığı disiplin",
+                metin:
+                    "Merkezdeki bir arızaya birkaç saat içinde ulaşılabilir; il dışında aynı çıkış çok daha uzun sürer ve maliyeti farklıdır. Bu gerçek, bakım anlayışını değiştirmeyi gerektirir: burada plansız çıkışı azaltmanın yolu, düzenli program bakımıdır. Bir güzergâh ya da bölge dönemsel olarak baştan sona gözden geçirildiğinde, arızaya dönüşecek kalemlerin önemli bölümü daha önce yakalanır. Yıllık bir bakım takvimi paylaşan tesislerde acil çıkış sayısının belirgin düştüğünü görüyoruz.",
+            },
+            {
+                baslik: "İki makineyi tek sefere sığdırmak",
+                metin:
+                    "Vinç ve sepetli platformun il dışına ayrı ayrı gitmesi, nakliyeyi iki kez ödemek demektir. Bu yüzden direk dikimi, direk değişimi ya da ağır donanım kaldırma gerektiren kalemler tespit edildiğinde bunları tek programa topluyor ve iki makineyi birlikte gönderiyoruz. Programın sıralaması da buna göre kurulur: vinç işleri gün içinde arka arkaya yapılır, sepetli platform ise hem vincin bıraktığı noktaları tamamlar hem kendi kalemlerini kapatır. İki makinenin de boş beklediği süreyi en aza indirmek, çevre il işlerinde maliyeti en çok etkileyen ayrıntı.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çevre il programında karar sırası",
+                paragraflar: [
+                    "Bozüyük'ten gelen bir talebi programa çevirirken belirli bir sıra izliyoruz; her adımın atlanması, sahada belirli bir kayba karşılık geliyor. Aşağıdaki tablo bu sırayı ve atlanma bedelini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Adım", "Ne belirlenir", "Kim sağlar", "Atlanırsa"],
+                    satirlar: [
+                        ["Nokta listesi", "Kaç nokta, hangi tip", "Talep eden", "Süre tahmini tutmaz"],
+                        ["Vinç ihtiyacı", "Dikim/değişim var mı", "Talep eden", "İkinci sevkiyat"],
+                        ["Erişim durumu", "Park ve zemin", "Talep eden", "Nokta atlanır"],
+                        ["Kesinti kapsamı", "Kim etkilenir", "Teknik sorumlu", "Pencere kayar"],
+                        ["Yol izni", "Kapatma gerekli mi", "Yol idaresi", "Çalışma başlayamaz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Uzaktan değerlendirme: keşif gününü kazanmak",
+                paragraflar: [
+                    "Çevre il işlerinde ayrı bir keşif günü ayırmak çoğu zaman ekonomik değildir; bu yüzden değerlendirmeyi uzaktan yapacak bir veri seti kullanıyoruz. İstediğimiz bilgiler şunlar: her noktanın tipi ve çalışılacak kotu, aracın park edebileceği yerin durumu, park noktasından hedefe olan yatay mesafe, zemin cinsi, çevrede bomun hareketini kısıtlayacak bir engel bulunup bulunmadığı ve kesinti gerekip gerekmediği. Buna birkaç fotoğraf eklendiğinde doğru makine sınıfını sahaya gitmeden belirleyebiliyoruz.",
+                    "Bu setin ikinci faydası süre tahmininin doğruluğudur. İl dışı bir programda süre tahmini yanlışsa sonuç yalnızca gecikme değil, ikinci bir sevkiyattır ve bunun bedeli kiralama farkının çok üzerindedir. Bu yüzden listenin tek günde bitmeyeceğini gördüğümüzde bunu baştan söylüyoruz; programı iki güne bölmek, yarım kalmış bir günden her zaman daha ucuz.",
+                ],
+            },
+            {
+                baslik: "Sorumluluk sınırı ve makine belgeleri",
+                paragraflar: [
+                    "Çevre il çalışmalarında sınırı daha ayrıntılı yazıyoruz, çünkü mesafe her belirsizliği büyütür. Bizim tarafımızda kalan başlıklar: makinenin teknik uygunluğu, geçerli periyodik kontrol raporu, kurulumun doğru yapılması ve makinenin güvenli kullanımı. Karşı tarafta kalanlar: hattın ayrılması, gerilim yokluğunun doğrulanması, topraklamanın takılması ve elektriksel işin kendisi. Trafik düzeni izni ise yol idaresinin yetkisindedir.",
+                    "Ayrıca teklifte iki kalemi her zaman açıkça yazıyoruz: kiralama süresinin hangi saatte başlayıp bittiği ve nakliyenin ayrı kalem mi yoksa dâhil mi olduğu. Çevre il işlerinde sonradan çıkan anlaşmazlıkların neredeyse tamamı bu iki başlıktan doğuyor; baştan yazıldığında ise tartışılacak bir şey kalmıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eskişehir'den geliyorsunuz; çevre il olmak fiyatı çok mu değiştiriyor?",
+                cevap:
+                    "Değişen kalem nakliye, kullanım bedeli değil. Karayolu bağlantısı yakın olduğu için fark yönetilebilir düzeyde kalıyor; asıl belirleyici olan, araç geldiğinde kaç noktanın kapandığı. Tek bir armatür için il dışına çıkmak oransal olarak pahalıdır, buna karşılık aynı çıkışta yirmi nokta kapanırsa nakliyenin nokta başına payı önemsizleşir. Bu yüzden acil olmayan kalemleri biriktirip tek programa almanızı öneriyoruz. İkinci yöntem, aynı hafta içinde aynı güzergâhta başka bir işimiz varsa sevkiyatı birleştirmek; bunun için birkaç günlük takvim payı yeterli. Teklifte nakliyenin ayrı kalem olup olmadığını ve sürenin hangi saatte başlayıp bittiğini her zaman açıkça yazıyoruz.",
+            },
+            {
+                soru: "Hem sanayi alanında hem çevre köylerde işimiz var; aynı güne sığar mı?",
+                cevap:
+                    "Çoğu zaman sığar ve zaten önerdiğimiz kurgu bu. İki dokunun kısıtları farklı olduğu için sıralamayı buna göre yapıyoruz. Kırsal noktalar gün ışığına ve yol durumuna bağlı olduğundan günün aydınlık saatlerine yerleştiriliyor; sanayi alanı içindeki kalemler ise trafiğin ve sevkiyatın seyreldiği dilimlere alınıyor. Bu sıralama sayesinde araç gün boyunca boş beklemiyor. Sığıp sığmayacağını nokta sayısı, nokta tipleri ve aralarındaki mesafeye bakarak tahmin ediyoruz; kesinti gerektiren kalemler süreyi belirgin uzattığı için onları ayrıca sayıyoruz. Listeyi paylaşırsanız gerçekçi bir gün sayısı çıkarır, sığmayacaksa bunu baştan söyleriz.",
+            },
+            {
+                soru: "Yol kenarındaki direklerde trafiği kapatmak gerekir mi?",
+                cevap:
+                    "Her zaman değil. Araç tümüyle banket içinde kalabiliyor ve bom yola doğru uzanmıyorsa, uygun işaretleme ve uyarı düzeniyle akış sürebilir. Bomun yol üzerine girmesi gerekiyorsa ya da araç şeride taşıyorsa kapatma gerekir ve bu, yol idaresinin izniyle olur; izin olmadan sahaya çıkmıyoruz. Banket kenarında ayrı bir teknik konu daha var: banket görünenden zayıf olabilir, altında menfez ya da dolgu şevi bulunabilir. Destek ayaklarını kenardan güvenli mesafede tutuyor, altlarına yük dağıtıcı plaka koyuyor ve bomu kaldırmadan önce oturma olup olmadığını kontrol ediyoruz. Bu kontrol atlandığında yaşanan senaryo, aracın kenara doğru yatması oluyor.",
+            },
+            {
+                soru: "Direk dikimi için vinç de gelecekse ek bir hazırlık gerekir mi?",
+                cevap:
+                    "Gerekir ve bunu il dışı işlerde daha da önemsiyoruz, çünkü eksik hazırlık burada tek bir günü değil, ikinci bir sevkiyatı doğuruyor. Vinç sahaya geldiğinde şunlar hazır olmalı: direğin oturacağı temel ya da kuyu, vincin kurulabileceği düz ve yeterli genişlikte alan, kaldırma yörüngesinin altında kalan bölümün boşaltılmış olması ve dikilecek direğin sahaya getirilmiş olması. Yörüngenin yakınında enerjili bir hat varsa yaklaşma mesafesi kuralı vinç için de geçerlidir ve gerekiyorsa ayırma planlanır. Temelde beton dolgu varsa priz süresi tamamlanmadan tepe donanımına geçilmez; programı bu beklemeyi hesaba katarak kuruyoruz ve gerekirse sepetli platform işini ertesi güne yazıyoruz.",
+            },
+            {
+                soru: "Makine sahadayken arızalanırsa ne oluyor?",
+                cevap:
+                    "İl dışında bu riski iki aşamada yönetiyoruz. Birincisi önleme: sınırı geçen makinelerde teslimat öncesi kontrolü geniş tutuyoruz — akü ve motor durumu, hidrolik seviye ve kaçak kontrolü, destek ayaklarının işleyişi, emniyet tertibatları ve sepet donanımı tek tek doğrulanır; şüpheli görünen bir makine yola çıkmaz. İkincisi telafi: uzaktan çözülemeyen arızalarda teknisyen yönlendirilir, onarımın uzayacağı anlaşılırsa yerine makine sevk edilir. Karayolu bağlantısı yakın olduğu için ikame süresi makul kalıyor, ama yine de kaybedilen zaman merkeze göre uzun. Takvimi kritik olan işlerde bunu baştan konuşup programı buna göre kuruyoruz; örneğin duyurusu yapılmış bir kesinti penceresinde risk alınmaz.",
+            },
+            {
+                soru: "Düzenli bakım programı kurmanın bize somut faydası ne?",
+                cevap:
+                    "Çevre il koşullarında en somut fayda plansız çıkış sayısının düşmesi. Bir güzergâh ya da bölge dönemsel olarak baştan sona gözden geçirildiğinde, arızaya dönüşecek kalemlerin önemli bölümü daha önce yakalanır: gevşemiş bağlantılar, aşınmış donanım, eğilmiş direkler, ömrünü doldurmuş armatürler. Bunlar tek programda kapandığında, kışın ya da gece yarısı çıkılan acil çağrılar belirgin azalıyor. İkinci fayda maliyet öngörülebilirliği: yıllık bir takvim paylaşıldığında sevkiyatlar aynı güzergâhtaki diğer işlerle eşleştirilebiliyor ve nakliye payı düşüyor. Üçüncüsü rezervasyon güvencesi — kesinti pencereniz belliyse makine o tarih için ayrılıyor ve başka bir işe verilmiyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bozüyük'ün sanayi ağırlıklı yapısı ve Eskişehir'e karayolu yakınlığı kamuya açık bilgidir; banket üzerinde park, işaretleme düzeni ve yol kapatma izni karayolu bakım pratiğinden, ayırma ve topraklama adımları elektrik işlerinin genel güvenlik mevzuatından gelir. Firma adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:polatli-ankara-cevre-ili": {
+        h1: "Polatlı'da Kırsal Enerji Hatları ve Aydınlatma için Sepetli Platform ve Vinç",
+        giris:
+            "Polatlı, geniş bir kırsal alana yayılmış ve tarımsal üretimin ağırlıkta olduğu bir ilçedir; elektrik altyapısı da bu yayılmayı izler. Enerji, ilçe merkezinden çıkıp ovaya dağılan kollar hâlinde ilerler ve bu kolların ucunda köyler kadar sulama tesisleri, kuyu panoları, tahıl depolama yapıları ve tarımsal işletmeler bulunur. Böyle bir coğrafyada bakım işi, tek bir tesise gidip dönmek değil, bir güzergâhı kat etmektir; hesap nokta üzerinden değil, kilometre ve gün üzerinden yapılır. Eskişehir ile başkent arasındaki karayolu ekseninin ilçeden geçmesi, bu il dışı çalışmayı bizim açımızdan planlanabilir kılar: araç ekseni izleyerek ulaşır, sahada bir program yürütür ve dönüşte de aynı ekseni kullanır. Sahada kullandığımız ikili değişmez — araç üstü sepetli platform hat boyunca ilerleyip direk üstü işleri kapatır, direk dikimi ya da ağır donanım taşıma gerektiğinde vinç aynı programa eklenir ve iki makine güzergâhı birlikte yürür.",
+        maddeler: [
+            {
+                baslik: "Kilometreyle ölçülen iş, günle ölçülen program",
+                metin:
+                    "İlçenin genişliği, bir günde kapanabilecek iş miktarını nokta sayısından çok güzergâh uzunluğunun belirlemesine yol açar. Bu yüzden program hazırlarken güzergâhı tek yönde ilerleyecek biçimde sıralıyor, geri dönüşleri ortadan kaldırıyoruz. Kollar dallanıyorsa her dal ayrı bir dilim olarak ele alınır ve dilimlere günlük hedef yazılır. Bu yöntemin faydası, gecikmenin erken görünmesidir: ikinci gün hedefin gerisinde kalındıysa plan, üçüncü güne yansımadan revize edilir. Sabit bir tesis işinde gereksiz olan bu esneklik, hat işinde programın temelidir.",
+            },
+            {
+                baslik: "Sulama ve depolama tesislerinin besleme hatları",
+                metin:
+                    "Ovadaki tesislerin önemli bölümü kendi besleme hattına, trafo bağlantısına ve saha aydınlatmasına sahiptir. Bu unsurlar şebeke bakımının kapsamı dışında kaldığı için ihmal edilmeye açıktır ve arıza genellikle en kritik anda — sulama ya da hasat sezonunda — ortaya çıkar. Sezon dışında yapılan bir gözden geçirme, gevşemiş bağlantıları, hasarlı izolatörleri ve eğilmiş direkleri önceden yakalar. Bu tip işlerde ayırmayı tesisin kendi yetkili personeli yapar; talebi aldığımızda ilk sorduğumuz şey, sahada bu kişinin bulunup bulunmayacağıdır.",
+            },
+            {
+                baslik: "Tarla ve toprak yol erişiminde mevsim etkisi",
+                metin:
+                    "Hat güzergâhı tarla içinden ya da toprak yoldan geçtiğinde, çalışmanın mümkün olup olmadığını mevsim belirler. Kuru ve sıkışmış zeminde araç sorunsuz ilerler; yağış sonrası aynı güzergâh geçilemez hâle gelir ve ekili dönemde ise ürün nedeniyle giriş sorunu doğar. En rahat pencereler hasat sonrası ile ekim öncesi dönemlerdir. Ertelenebilir kalemleri bu aralıklara toplamak hem çalışma hızını artırır hem tazmin konuşulacak bir kalem bırakmaz. Ekili araziye giriş gerektiğinde arazi sahibiyle önceden temas kurulması, işi yaptıran tarafın hazırlığıdır.",
+            },
+            {
+                baslik: "Açık arazide rüzgâr ve ışık sınırı",
+                metin:
+                    "Ova boyunca yapılan direk işlerinde iki doğal sınır vardır. Birincisi rüzgâr: makinenin izin verilen değeri aşıldığında bom indirilir ve bu kural işin aciliyetine göre esnetilmez; sepet yükseldikçe etki büyür. İkincisi ışık: kırsal güzergâhlarda genel aydınlatma bulunmadığından çalışma gün ışığına bağlıdır ve kış aylarında etkin pencere belirgin daralır. Programı bu iki sınıra göre iki katmanlı kuruyoruz — yükseklik gerektiren kalemler ile yerde yapılabilen hazırlık kalemleri ayrı listelerde tutuluyor ve koşul bozulduğunda ekip ikinci listeye geçiyor.",
+            },
+            {
+                baslik: "Eksen üzerinde olmanın lojistik karşılığı",
+                metin:
+                    "Polatlı, Eskişehir ile başkent arasındaki karayolu ekseni üzerinde bulunduğu için makinenin ilçeye ulaşması ayrı bir sapma gerektirmez. Bunun pratik karşılığı, tarih esnekliği olan işlerin eksende yürüyen diğer sevkiyatlara bağlanabilmesi ve nakliye payının bölünmesidir. Uzun iş listelerinde ise makinenin sahada kalması tercih edilir; nakliye tek sefere iner ve kalemler güzergâh boyunca sırayla kapanır. Planlı geçişlerin dışına çıkan acil taleplerde tam sevkiyat bedeli uygulanır ve bunu baştan söylüyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Saha tipine göre erişim ve ekipman",
+                paragraflar: [
+                    "İlçeden gelen talepleri saha tipine göre ayırıyoruz; erişim koşulu, gerekli hazırlık ve makine ikilisi bu ayrımdan çıkıyor. Aşağıdaki tablo, talebi programa çevirirken kullandığımız ilk çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Erişim", "Kritik hazırlık", "Ekipman"],
+                    satirlar: [
+                        ["Yol kenarı hat güzergâhı", "Doğrudan", "Banket ve işaretleme", "Sepetli araç"],
+                        ["Tarla içi direkler", "Mevsime bağlı", "Giriş izni ve zemin", "Sepetli araç, uzun uzanma"],
+                        ["Sulama tesisi beslemesi", "Doğrudan", "Ayırma yetkilisi", "Sepetli araç"],
+                        ["Depolama tesisi sahası", "Doğrudan", "Trafik ve zemin", "Sepetli araç veya vinç"],
+                        ["Yeni direk dikimi", "Temel hazır olmalı", "Yörünge boşaltma", "Vinç + sepetli araç"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon dışını bakım penceresine çevirmek",
+                paragraflar: [
+                    "Tarımsal coğrafyada bakımın doğal takvimi üretim takviminin negatifidir: sezon içinde herkes işini kesintisiz sürdürmek ister, sezon dışında ise saha boşalır ve erişim rahatlar. Buna karşılık pratikte talep tam tersine dağılır — arıza sezonun ortasında çıkar ve o anda müdahale istenir. Bu döngüyü kırmanın yolu, sezon dışında yapılan gözden geçirmedir.",
+                    "Uygulamada bir tesis ya da bir güzergâh için sezon dışında tek bir program kuruyoruz: bütün direkler, bağlantılar ve armatürler baştan sona gözden geçiriliyor ve zayıf kalemler değiştiriliyor. Bu programın maliyeti, sezon ortasında yapılan tek bir acil çıkışın maliyetiyle çoğu zaman kıyaslanabilir düzeyde kalıyor; kazanılan şey ise sezon boyunca kesintisiz çalışma oluyor.",
+                ],
+            },
+            {
+                baslik: "Komşu sahaları aynı programa toplamak",
+                paragraflar: [
+                    "İlçenin genişliği, tek bir kısa iş için ödenen nakliyeyi oransal olarak ağırlaştırır. Bunu düşürmenin en etkili yolu, aynı hat üzerindeki ya da birbirine yakın sahalardaki işleri aynı güne dizmektir: araç bir kez gelir, gün içinde sırayla dolaşır ve her taraf yalnızca kendi kullanım süresini üstlenir. Sıralamayı ve zaman planını biz kurguluyoruz.",
+                    "Bu model özellikle sezon dışı dönemlerde iyi çalışıyor, çünkü benzer işler bütün işletmelerde aynı haftalarda gündeme geliyor. Modelin tek koşulu, katılan tarafların acil olmayan işlerde birkaç günlük takvim payı bırakması. Vinç gerektiren kalemler varsa bunları da aynı güne toplamaya çalışıyoruz; vincin gün içindeki kullanım oranı, toplam maliyeti doğrudan belirliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ankara'ya bağlıyız; Eskişehir'den ekip getirmek mantıklı mı?",
+                cevap:
+                    "Konum açısından mantıklı, çünkü ilçe iki şehri bağlayan karayolu ekseninin üzerinde; makine ilçeye ulaşmak için ayrı bir sapma yapmıyor. Eksende aynı hafta içinde başka bir işimiz varsa sevkiyatı birleştirip nakliye payını bölüyoruz. Asıl belirleyici olan ise mesafeden çok programın doluluğu: araç geldiği gün tek nokta yerine bir dizi nokta kapanıyorsa nakliyenin birim payı önemsizleşiyor. Bu yüzden acil olmayan kalemleri biriktirip tek programa almanızı öneriyoruz. Uzun iş listelerinde makinenin sahada kalması daha ekonomik oluyor. Teklifte nakliyenin ayrı kalem olup olmadığını ve kiralama süresinin hangi saatte başlayıp bittiğini açıkça yazıyoruz.",
+            },
+            {
+                soru: "Sulama tesisimizin besleme hattı için ne zaman çağırmalıyız?",
+                cevap:
+                    "Sezon dışında. Bu hatlar şebeke bakımının kapsamı dışında kaldığı için genellikle ihmal ediliyor ve arıza tam da suyun en çok gerektiği anda çıkıyor. Sezon dışında yapılan bir gözden geçirmede gevşemiş bağlantılar, hasarlı izolatörler, aşınmış donanım ve eğilmiş direkler önceden yakalanır; bunların değişimi planlı yapıldığında hem ucuz hem hızlı oluyor. Sezon içinde çıkan bir arızada ise hem acil çıkış bedeli doğuyor hem kesinti üretimi doğrudan etkiliyor. Bir de ön koşul var: bu işlerde ayırmayı tesisinizin kendi yetkili personeli yapar. Kimin kapatacağı ve gerilim yokluğunu kimin doğrulayacağı belirlenmeden çalışma başlamıyor, bu yüzden talep anında bunu soruyoruz.",
+            },
+            {
+                soru: "Direklerimiz tarla içinde; her mevsim gelebiliyor musunuz?",
+                cevap:
+                    "Gelebiliyoruz ama her mevsim aynı noktaya ulaşamıyoruz ve bunu baştan söylemeyi tercih ediyoruz. Kuru ve sıkışmış zeminde araç sorunsuz ilerler; yağış sonrası aynı güzergâh geçilemez hâle gelir ve çamurda çekilmek zorunda kalmak bir günü tümüyle bitirir. Ekili dönemde ise ürün nedeniyle giriş sorunu doğar ve arazi sahibiyle önceden anlaşılması gerekir. En rahat pencereler hasat sonrası ile ekim öncesi dönemler; ertelenebilir kalemleri buraya toplamanızı öneriyoruz. Erişimin tartışmalı olduğu noktalarda ikinci bir yol var: aracı sert zemine park edip bomun yatay uzanmasıyla hedefe ulaşmak. Bunun için park noktasından direğe olan mesafeyi bilmemiz gerekiyor.",
+            },
+            {
+                soru: "Bir günde ne kadar hat kapatılabiliyor?",
+                cevap:
+                    "Bunu direk sayısıyla değil üç veriyle tahmin ediyoruz: nokta sayısı, direkler arası ortalama açıklık ve kaç noktanın kesinti gerektirdiği. Kesintili kalemler süreyi belirgin uzatır, çünkü ayırma, kilitleme, gerilim yokluğunun doğrulanması ve topraklamanın takılması her kesinti için tekrarlanır; aynı kol üzerindeki kalemleri tek kesintiye topladığımızda bu tekrar ortadan kalkar. Güzergâhı tek yönde ilerleyecek biçimde sıralamak da geri dönüşleri ortadan kaldırıyor. Listenizi nokta tipi ve konum bilgisiyle paylaşırsanız gerçekçi bir gün sayısı çıkarıyoruz. Sığmayacağını görürsek programı iki güne bölmeyi öneriyoruz; yarım kalan bir gün, il dışında ikinci bir sevkiyat demek.",
+            },
+            {
+                soru: "Rüzgârlı bir günde ekip boş mu bekleyecek?",
+                cevap:
+                    "Beklememesi için programı iki katmanlı kuruyoruz. Makinenin izin verilen rüzgâr değeri aşıldığında bom indirilir; bu kural pazarlığa açık değil ve sepet yükseldikçe etki büyüdüğü için açık ovada sık karşılaşılan bir durum. Buna karşılık aynı gün içinde yerde yapılabilecek kalemler var: malzeme dağıtımı, temel ve kuyu hazırlığı, güzergâh işaretlemesi, ölçü ve tespit çalışmaları. Koşul bozulduğunda ekip bu ikinci listeye geçiyor. Uzun programlarda ayrıca alternatif gün belirliyoruz; makine sahada kaldığı için yalnızca kiralama süresi işliyor ve ikinci bir nakliye doğmuyor. Bu iki düzenleme sayesinde rüzgârlı bir gün genellikle takvimde tam kayıp yaratmıyor.",
+            },
+            {
+                soru: "Komşu işletmelerle birlikte kiralamak mümkün mü?",
+                cevap:
+                    "Mümkün ve ilçenin genişliği düşünüldüğünde en çok önerdiğimiz model bu. Kısa süreli kırsal işlerde nakliye, toplam bedelin belirgin bir parçası; tek bir işletmenin bunu tek başına üstlenmesi ekonomik değil. Aynı hat üzerindeki işletmeler, komşu tesisler ya da aynı sahadaki farklı yapılar tek gün içinde sırayla ele alınabilir; her taraf yalnızca kendi kullanım süresini üstlenir. Sıralamayı ve zaman planını biz kurguluyoruz. Model sezon dışı dönemlerde özellikle iyi çalışıyor, çünkü benzer işler bütün işletmelerde aynı haftalarda gündeme geliyor. Vinç gerektiren kalemler varsa onları da aynı güne toplamaya çalışıyoruz; vincin gün içinde ne kadar kullanıldığı toplam maliyeti doğrudan belirliyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Polatlı'nın geniş kırsal dokusu, tarımsal üretim ağırlığı ve iki şehri bağlayan karayolu ekseni üzerinde bulunması kamuya açık bilgidir; rüzgâr sınırı makine üretici talimatlarından, ayırma-kilitleme-doğrulama-topraklama adımları elektrik işlerinin genel güvenlik mevzuatından, mevsimsel erişim koşulları saha pratiğinden gelir. Firma adı ve rakam kullanılmamıştır.",
+    },
 };

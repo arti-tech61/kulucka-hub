@@ -72,6 +72,7 @@ import { MANLIFTESKISEHIR_COM } from "./bespoke/manlifteskisehir-com";
 import { AFYONMANLIFT_COM } from "./bespoke/afyonmanlift-com";
 import { BALIKESIRPLATFORM_ORG } from "./bespoke/balikesirplatform-org";
 import { AMASYAPLATFORM_COM } from "./bespoke/amasyaplatform-com";
+import { ISTANBULPLATFORMS_COM } from "./bespoke/istanbulplatforms-com";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -190,6 +191,7 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "afyonmanlift.com": AFYONMANLIFT_COM,
     "balikesirplatform.org": BALIKESIRPLATFORM_ORG,
     "amasyaplatform.com": AMASYAPLATFORM_COM,
+    "istanbulplatforms.com": ISTANBULPLATFORMS_COM,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
