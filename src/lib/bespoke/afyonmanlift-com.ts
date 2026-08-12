@@ -242,7 +242,7 @@ export const AFYONMANLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 baslik: "Kasa ve palet istif alanlarında çatı altı",
                 metin:
-                    "Boş kasa ve paletlenmiş ürünün bekletildiği hacimler, ilçedeki en geniş kapalı alanlardır ve buradaki iş çatı altında yoğunlaşır: havalandırma bacaları, çatı ışıklıkları, yangın algılama dedektörleri ve genel aydınlatma. Belirleyici kısıt yükseklik değil koridor geometrisidir; makinenin ilerleyeceği hattın boş olması ve sepetin istif yığınına güvenli mesafede kalması gerekir. Bu yüzden istif alanı işleri, bölümün geçici olarak boşaldığı pencerelere göre parçalanır ve gün planı depo yönetimiyle birlikte kurulur.",
+                    "Boş kasa ve paletlenmiş ürünün bekletildiği hacimler, ilçedeki en geniş kapalı alanlardır ve buradaki iş çatı altında yoğunlaşır: havalandırma bacaları, çatı ışıklıkları, yangın algılama dedektörleri ve genel aydınlatma. Belirleyici kısıt yükseklik değil koridor geometrisidir; makinenin ilerleyeceği hattın boş olması ve sepetin istif yığınına güvenli mesafede kalması gerekir. Bu yüzden istif alanı işleri, bölümün geçici olarak boşaldığı pencerelere göre parçalanır ve gün planı depo yönetimiyle birlikte kurulur. Boş kasa istifleri özellikle aldatıcıdır: hafif oldukları için sağlam görünmezler ve sepetin yaratacağı küçük bir temas bile yığını devirebilir, bu yüzden onlara yaklaşma mesafesi dolu paletlerden daha geniş tutulur.",
             },
             {
                 baslik: "Sevkiyat rampası ve dış örtü işleri",
@@ -252,7 +252,7 @@ export const AFYONMANLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 baslik: "Kampanya dışı pencerenin darlığı",
                 metin:
-                    "Bu tesislerin bakım takvimi yılın tamamına yayılmaz; ürün girişinin durduğu ve hacimlerin boşaldığı aralığa sıkışır. Aynı aralık ilçedeki diğer tesisler tarafından da istenir ve bu, makine bulmayı fiyattan daha kritik bir konu hâline getirir. Bu yüzden düzenli çalıştığımız işletmelerden bakım listelerini iki gruba ayırmalarını isteriz: tarihi kampanyaya kilitli olanlar ve kaydırılabilir olanlar. İkinci grup, birinci grubun yarattığı yığılmayı boşaltmanın tek pratik yoludur.",
+                    "Bu tesislerin bakım takvimi yılın tamamına yayılmaz; ürün girişinin durduğu ve hacimlerin boşaldığı aralığa sıkışır. Aynı aralık ilçedeki diğer tesisler tarafından da istenir ve bu, makine bulmayı fiyattan daha kritik bir konu hâline getirir. Bu yüzden düzenli çalıştığımız işletmelerden bakım listelerini iki gruba ayırmalarını isteriz: tarihi kampanyaya kilitli olanlar ve kaydırılabilir olanlar. İkinci grup, birinci grubun yarattığı yığılmayı boşaltmanın tek pratik yoludur ve bu ayrımı yapan işletmeler hem istedikleri sınıfı bulur hem programlarını daha rahat kurar.",
             },
         ],
         ekBolumler: [
@@ -285,6 +285,7 @@ export const AFYONMANLIFT_COM: Record<string, BespokeIcerik> = {
                 paragraflar: [
                     "Çay’ın ana karayolu hattı üzerinde bulunması, kiralama ekonomisinde doğrudan görünür bir fark üretir: makinenin ilçeye ulaşması, iç kesimdeki kırsal noktalara kıyasla belirgin biçimde daha basittir. Lowbed girişinde manevra sorunu çoğu tesiste yaşanmaz, indirme için sert zemin genellikle mevcuttur ve acil taleplerde aynı gün müdahale ihtimali burada daha yüksektir.",
                     "Bunun ikinci sonucu, ilçenin çevre noktalara sıçrama tahtası olarak kullanılabilmesidir. Hat üzerindeki bir tesiste başlayan bir program, aynı sevkiyat içinde iç kesimdeki bir adrese uzatılabilir ve nakliye payı ikiye bölünür. Bu birleşmenin tek koşulu tarihlerin önceden konuşulmuş olmasıdır; son anda gelen talepler hatta yetişemez ve tekil sevkiyat maliyetini üstlenir.",
+                    "Karayolu yakınlığının üçüncü etkisi, tesislerin kendi dış cephesinde görünür: yol kenarına bakan yüzeylerde toz ve is birikimi daha hızlıdır, tabela ve yönlendirme levhaları daha sık yenilenir, dış aydınlatma armatürleri daha erken kirlenir. Bu kalemler tek başına küçük işlerdir ama düzenli tekrar ederler; bakım listesine yıllık bir kalem olarak yazıldıklarında, her defasında ayrı çağrı yapmaktan belirgin biçimde ucuza gelirler ve zaten sahada bulunan makineyle aynı gün kapanırlar.",
                 ],
             },
         ],
@@ -422,5 +423,305 @@ export const AFYONMANLIFT_COM: Record<string, BespokeIcerik> = {
         ],
         kaynak:
             "Elle yazıldı — 2026-08-12. Afyonkarahisar’ın et ürünleri, süt ürünleri, un ve şekerleme üretimiyle anılması kamuya açık genel bilgidir; hijyen hazırlığı, pencere yönetimi ve teslim tutanağı düzeni firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:bolvadin-osb": {
+        h1: "Bolvadin OSB’de Tarımsal Sanayi Tesisleri İçin Manlift",
+        giris:
+            "Bolvadin, Afyonkarahisar’ın tarımsal üretimi sanayiye çeviren ilçelerinin başında gelir; şeker pancarı ve haşhaş gibi endüstriyel bitkilerin işlendiği bir üretim geleneği ilçenin kimliğini oluşturur ve organize sanayi dokusu da bu geleneğin üzerine kurulmuştur. Bu, yüksekte çalışma açısından kendine özgü bir sanayi tipi demektir: burada karşımıza çıkan yapı, montaj bandı olan bir fabrikadan çok, proses tesisidir — silolar, kurutucular, buhar hatları, taşıma bantları, aspirasyon kanalları ve bunları birbirine bağlayan çelik konstrüksiyon kuleler. İş kalemleri de buna göre dikeydir: hedef nokta çoğu zaman bir tavan değil, birbirinin üstünde duran ekipman katmanlarından biridir. Bir de kampanya gerçeği vardır; işlenecek ürün geldiğinde tesis kesintisiz çalışır, kampanya bittiğinde ise bakım listesi bir anda açılır. Bolvadin OSB’ye gönderdiğimiz ekipman bu iki gerçeği birlikte karşılar: uzanma mesafesi yüksek, dış sahada ve kaba zeminde ilerleyebilen, uzun programlarda sahada kalabilen sınıflar.",
+        maddeler: [
+            {
+                baslik: "Silo ve kule konstrüksiyonlarında dikey erişim",
+                metin:
+                    "Proses tesislerinin en belirgin unsuru, birbirine bağlı silo ve kule gruplarıdır; bu yapıların gövde bağlantıları, merdiven ve sahanlık korkulukları, üst kapak mekanizmaları ve seviye ölçüm ekipmanları düzenli kontrol ister. Bu noktalara sabit merdivenle çıkmak mümkündür ama iş yapmak, elde malzeme ve alet varken çok başka bir konudur. Sepetli erişim burada hem hız hem güvenlik kazandırır; makine kule dibine değil, devrilme koridorunun dışına konumlanır ve mesafe bomla kapatılır.",
+            },
+            {
+                baslik: "Taşıma bantları ve aktarma kulelerinin bakımı",
+                metin:
+                    "Hammaddenin tesis içinde yer değiştirdiği bant hatları, eğimli olarak ilerler ve aktarma noktalarında kule oluşturur. Tambur ve rulo değişimi, sıyırıcı ayarı, örtü sacının onarımı ve bant boyunca uzanan aspirasyon hattının kontrolü bu hatların rutin işidir. Bandın enerjisi kesilmeden hiçbir noktasında çalışılmaz; ani devreye alınan bir bant, sepetteki kişi için doğrudan tehdittir. Enerji kesme ve kilitleme düzeni, çalışma öncesinde saha sorumlusuyla birlikte kurulur ve iş emrine yazılır.",
+            },
+            {
+                baslik: "Buhar ve proses hatlarında yalıtım işleri",
+                metin:
+                    "Proses tesislerinde sıcak hatlar, tesis içinde ve dışında uzun mesafeler kat eder; yalıtım kaplamasının açıldığı yerlerden içeri giren su, kaplamanın altında görünmeyen bir korozyon başlatır ve bu, fark edilene kadar ilerler. Hat boyunca yürütülen kontrol ve yenileme işleri eklemli bomlu makinelerin doğal konusudur: ünite hattın altına konumlanır, sepet boru kotuna çıkar ve hat kademe kademe taranır. Sıcak hatta yakın çalışmada izin süreci tesisin kendi prosedürüne göre işler ve buna uyarız.",
+            },
+            {
+                baslik: "Aspirasyon ve toz tutma sistemlerinde çatı üstü",
+                metin:
+                    "Kuru ürün işleyen tesislerde toz tutma sistemi, üretimin kendisi kadar kritik bir hattır: filtre üniteleri genellikle çatı kotunda veya kule üstünde durur, kanallar uzun mesafeler boyunca çatı üzerinde ilerler. Filtre torbası değişimi, kanal ekleri, damper mekanizmaları ve fan grupları buradaki iş kalemleridir. Çatı üstü çalışmada belirleyici olan rüzgârdır ve yükseklik arttıkça sınır daha erken devreye girer; geniş yüzeyli parça taşınan kalemler rüzgârın sakinleştiği saatlere alınır.",
+            },
+            {
+                baslik: "Kampanya sonrası açılan toplu bakım listesi",
+                metin:
+                    "Bu tesislerde bakım, yılın tamamına yayılan bir faaliyet değildir; kampanya bittiğinde açılan ve birkaç haftaya sığdırılması gereken bir programdır. Aynı dönemde bölgedeki diğer tesisler de aynı işi ister ve makine bulmak, fiyattan önce gelen bir konu hâline gelir. Bu yüzden kampanya bitişinden önce program kurmayı öneririz: liste çıkarılır, hangi kalemin hangi sınıfla ve kaç günde yapılacağı yazılır ve makine, tesis boşaldığı gün sahada olur. Sonradan çıkarılan listeler sıraya en arkadan girer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proses tesisinde bölge, kot ve makine eşleşmesi",
+                paragraflar: [
+                    "Bir proses tesisi tek tip bir hacim değildir; bölgeden bölgeye kot, ortam ve uygun makine değişir. Aşağıdaki tablo, OSB’de en sık çalıştığımız bölgeleri ve her birinin belirleyici kısıtını toplar.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "Yapılan iş", "Belirleyici kısıt", "Seçilen sınıf"],
+                    satirlar: [
+                        ["Silo grubu", "Kapak, seviye ölçüm, korkuluk", "Devrilme koridoru", "Uzun uzanmalı bomlu"],
+                        ["Aktarma kulesi", "Tambur, sıyırıcı, örtü sacı", "Bant enerjisi", "Eklemli bomlu"],
+                        ["Buhar / proses hattı", "Yalıtım, vana, askı", "Sıcak yüzey, izin", "Kademeli konumlanan bom"],
+                        ["Filtre / aspirasyon", "Torba, kanal, damper", "Rüzgâr, çatı kotu", "Yüksek erişimli bomlu"],
+                        ["Üretim holü", "Aydınlatma, kanal, askı", "Kapalı hacim", "Akülü makaslı"],
+                        ["Dış saha ve boru köprüsü", "Hat kontrolü, boya", "Kaba zemin", "Dizel 4x4 sınıf"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji kesme ve izinli çalışma düzeni",
+                paragraflar: [
+                    "Proses tesisinde bir ekipmanın durgun görünmesi, durduğu anlamına gelmez; bant, helezon, karıştırıcı ve fan grupları merkezi bir panelden ya da otomasyon üzerinden devreye alınabilir. Bu yüzden çalışma öncesinde tek bir şey yaparız ve bundan hiç vazgeçmeyiz: çalışılacak ekipmanın enerjisi kesilir, şalter kilitlenir ve bu düzen saha sorumlusunun onayıyla iş emrine yazılır. Sözlü teyit, bu tesislerde yeterli değildir.",
+                    "İkinci başlık sıcak hatlardır. Buhar ve sıcak akışkan taşıyan borulara yakın çalışmada tesisin kendi izin prosedürü devreye girer; hattın basıncı, sıcaklığı ve gerekiyorsa boşaltılmış olması bu prosedürle belgelenir. Bizim rolümüz bu prosedürü hızlandırmak değil, ona uymaktır. Bu iki başlık netleştiğinde saha çalışması hızlı ilerler — belirsizlik sahada değil, plan aşamasında tüketilmiş olur.",
+                ],
+            },
+            {
+                baslik: "Uzun programda makinenin sahada kalması",
+                paragraflar: [
+                    "OSB’deki bakım programları çoğunlukla tek günlük değildir; liste haftalara yayılır ve makine tesiste kalır. Uzun kalışta iki konu öne çıkar. Birincisi bakımdır: tozlu ve kaba ortamda çalışan bir ünitede yağlama ve filtre kontrol aralığını kısaltırız, bu ziyaretler kiralama süresinden düşülmez. İkincisi süreklilik: arıza hâlinde ikame süresi sözleşmede baştan yazılır, çünkü duran makine ilerlemeyen program demektir.",
+                    "Tesis tarafında istediğimiz iki basit düzenleme var: makinenin gece park edeceği düz ve korunaklı bir alan, akülü ünite kalacaksa şarj için erişilebilir bir enerji hattı. Bu iki düzenleme, uzun programlarda yaşanan duruşların önemli bölümünü baştan ortadan kaldırır ve iade günü yapılan durum karşılaştırmasını da tartışmasız hâle getirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silolarımızın üst kapaklarında iş var; makine kule dibine yanaşabilir mi?",
+                cevap:
+                    "Yanaşmasını tercih etmeyiz. Doğru yöntem, devrilme koridorunun dışında kalan sağlam bir noktaya konumlanıp mesafeyi bomla kapatmaktır; bu hem daha güvenlidir hem kule çevresindeki dar alanda manevra derdini ortadan kaldırır. Gerekli uzanma mesafesini belirlemek için üç ölçü isteriz: hedef noktanın zeminden kotu, kule ile makinenin durabileceği en yakın sağlam zemin arasındaki mesafe ve arada engel bulunup bulunmadığı. Bu üç bilgi netleştiğinde sınıf seçimini tek turda yaparız ve sahada değiştirmek zorunda kalmayız.",
+            },
+            {
+                soru: "Bant hattımızda bakım yapacağız; tesisin tamamı durmalı mı?",
+                cevap:
+                    "Hayır, yalnızca çalıştığımız hat durur. Ancak o hattın durması gerçek olmalıdır: enerjisi kesilir, şalter kilitlenir ve bu düzen saha sorumlusunun onayıyla iş emrine yazılır. Bunun nedeni, bant ve aktarma ekipmanının merkezi panelden veya otomasyon üzerinden devreye alınabilmesidir; sözlü teyit bu tesislerde yeterli bir güvence değildir. Diğer hatlar üretime devam edebilir. Hangi hattın hangi saatte durabileceğini önceden konuşup işi o pencereye yerleştiririz; böylece duruş, işin gerçekten gerektirdiği süreyle sınırlı kalır.",
+            },
+            {
+                soru: "Buhar hattımızın yalıtımı yenilenecek; hattın soğumasını beklemeli miyiz?",
+                cevap:
+                    "Bu kararı biz değil, tesisin kendi izin prosedürü verir ve biz o prosedüre uyarız. Genel olarak hattın basıncı, sıcaklığı ve gerekiyorsa boşaltılmış olması belgelenmeden sıcak hat çevresinde çalışılmaz. Uygulamada işi ikiye bölmek çoğu zaman en pratik yoldur: hazırlık, söküm ve ölçüm kalemleri daha esnek bir tarihe alınır, doğrudan hat üstünde yapılacak uygulama ise izinli pencereye yazılır. Böylece makine izin bekleyerek gün harcamaz. Prosedürünüzü önceden paylaşırsanız planı buna göre kurar, gün sayısını gerçekçi veririz.",
+            },
+            {
+                soru: "Çatıdaki filtre ve kanal işlerinde rüzgâr sizi durdurur mu?",
+                cevap:
+                    "Durdurur ve bunu baştan söylemeyi tercih ederiz; her makinenin üretici tarafından belirlenmiş bir rüzgâr sınırı vardır ve yükseklik arttıkça bu sınır daha erken devreye girer. Geniş yüzeyli bir kanal parçası taşınıyorsa sınır daha da düşer. Bu belirsizliği yönetmenin yolu, aynı programa hava bağımlı ve hava bağımsız kalemleri birlikte yazmaktır: rüzgârlı bir sabahta çatı işi duruyorken ekip hol içi kalemlere geçer ve kiralanan gün boş geçmez. Hava kaynaklı bekleme günlerinin nasıl fiyatlanacağı sözleşmede baştan yazılır; sonradan çıkan sürpriz kalem olmaz.",
+            },
+            {
+                soru: "Kampanya sonrası bakım için ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Kampanya bitmeden önce. Bunun nedeni basit: bölgedeki tesisler aynı takvimi paylaşır ve hacimler boşaldığında talep birkaç haftaya yığılır. Bu dönemde müsait sınıf, tercih ettiğiniz sınıf olmayabilir. Erken rezervasyon yaptığınızda makine tesis boşaldığı gün sahada olur ve program ilk günden işler. Bize gereken, kalem listesi ve tahmini bitiş tarihidir; tarih birkaç gün kayarsa programı kaydırırız, bu sorun değildir. Sorun, listenin hiç çıkarılmamış olmasıdır — o durumda sıra, listesi hazır olana geçer.",
+            },
+            {
+                soru: "Makine haftalarca tesisimizde kalacak; bakımı nasıl yürüyor?",
+                cevap:
+                    "Uzun kalışlarda bakım bizim yükümüzdür ve programa dahildir. Tozlu ve kaba ortamda çalışan bir ünitede yağlama ve filtre kontrol aralığını standarttan kısa tutarız; bu kontrol ziyaretleri kiralama süresinden düşülmez. Arıza hâlinde ikame süresi sözleşmede baştan yazılır, çünkü duran makine ilerlemeyen program demektir. Sizden istediğimiz iki basit düzenleme var: makinenin gece park edeceği düz ve korunaklı bir alan, akülü ünite kalacaksa şarj için erişilebilir bir enerji hattı. Teslim ve iade anında mevcut durum fotoğrafla kayıt altına alınır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bolvadin’in şeker pancarı ve haşhaş gibi endüstriyel bitkilerin işlenmesiyle anılan tarımsal sanayi ilçesi olması kamuya açık genel bilgidir; enerji kesme düzeni, izinli çalışma ve uzun program bakımı firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:sultandagi": {
+        h1: "Sultandağı’nda Meyve Depoları İçin Manlift Kiralama",
+        giris:
+            "Sultandağı, adını taşıdığı dağ eteklerindeki bahçecilikle tanınan bir ilçedir ve kiraz üretimiyle ülke genelinde anılır; ilçedeki yapı stoğu da bu üretimin gerektirdiği zincire göre şekillenmiştir. Meyvenin toplandığı, ön soğutmaya alındığı, tasnif edilip paketlendiği ve sevkiyata kadar bekletildiği yapılar birbirine yakın kurulur ve hepsi aynı takvimin baskısı altında çalışır. Bu takvim, yüksekte çalışma açısından son derece keskin bir kısıt üretir: hasat penceresi kısadır, bu pencerede tesisin durması söz konusu değildir ve hasattan hemen önce yapılmayan her bakım, sezon boyunca yapılamaz hâle gelir. İlçeye gelen manlift taleplerinin büyük bölümü bu nedenle iki dönemde toplanır — hasat öncesi hazırlık ve sezon kapanışı sonrası bakım. Gönderdiğimiz ekipman da bu iki dönemin farklı ihtiyaçlarına göre seçilir: hazırlık döneminde hızlı hareket eden ve çok noktayı kısa sürede kapatan sınıflar, kapanış döneminde ise uzun program taşıyabilen üniteler.",
+        maddeler: [
+            {
+                baslik: "Ön soğutma ve muhafaza hacimlerinin ekipmanı",
+                metin:
+                    "Toplanan ürünün sıcaklığının hızla düşürüldüğü ön soğutma üniteleri ve ardından bekletildiği muhafaza hacimleri, ilçedeki en kritik yapılardır. Buradaki yüksekteki iş, tavana asılı soğutma ünitelerinin kanat ve fan bakımı, defrost ile tahliye hattının kontrolü, hava sirkülasyon perdelerinin askıları ve hacim aydınlatmasıdır. Bu kalemlerin hepsi ürün girmeden önce tamamlanmış olmalıdır; sezon içinde bir soğutma ünitesine müdahale, o hacimdeki ürünün tamamını riske atan bir karardır.",
+            },
+            {
+                baslik: "Paketleme evlerinde hat üstü ve kasa akışı",
+                metin:
+                    "Ürünün boylandığı, seçildiği ve kasalandığı paketleme hacimlerinde üst kot yoğun bir bölgedir: bant üstü aydınlatma, ayıklama masalarının aydınlatması, aspirasyon ağızları ve taşıyıcı askılar hep buradadır. Sezon içinde bu hat neredeyse hiç durmaz ve durduğu kısa aralıklar temizliğe ayrılmıştır. Bu yüzden paketleme hattı işlerini sezon öncesi hazırlık listesine yazarız; sezon içinde yalnızca arıza müdahalesi yapılır ve bu müdahalede ürünün üstünde serbest parça bırakılmaz.",
+            },
+            {
+                baslik: "Bahçe altyapısında sulama ve dolu koruma sistemleri",
+                metin:
+                    "Bahçe tarafındaki yüksekte çalışma ihtiyacı, ağaçtan değil altyapıdan gelir: sulama hattının pompa ve pano bağlantıları, elektrik direği üzerindeki hat kontrolleri, gölgeleme ve koruma örtülerinin taşıyıcı direk ve tel sistemleri. Bu işler tarla zemininde yapılır ve zeminin taşıma gücü sulama sonrasında belirgin biçimde düşer. Sulama programı bize önceden söylenmeli, çalışma noktaları kuru pencereye yazılmalıdır; şüpheli zeminde makine indirmeyiz.",
+            },
+            {
+                baslik: "Sezon öncesi hazırlık turunun mantığı",
+                metin:
+                    "İlçedeki en verimli kiralama modeli, hasattan önce yapılan tek bir hazırlık turudur. Bu turda soğutma ekipmanı, aydınlatma, havalandırma ve çatı kalemleri bir arada ele alınır; makine tesiste birkaç gün kalır ve liste tek seferde kapanır. Bunun alternatifi, sezon içinde çıkan arızalar için tek tek çağrı yapmaktır ve bu hem daha pahalıdır hem her seferinde üretimi keser. Hazırlık turunun tarihini hasat tahmininize göre birlikte belirleriz.",
+            },
+            {
+                baslik: "Sezonda acil müdahale ve sıra gerçeği",
+                metin:
+                    "Hasat penceresinde bir soğutma ünitesi arızalandığında zaman, günle değil saatle ölçülür; bunu biliyoruz ve bu dönemde acil çağrılara öncelik veririz. Ancak dürüst olmak gerekir: aynı hafta ilçedeki birçok tesis aynı durumda olabilir ve müsait sınıf, tercih ettiğiniz sınıf olmayabilir. Acil müdahalede kapsam arızayı gidermeye odaklanır, birikmiş bakım kalemleri aynı sefere sığmaz. Bu yüzden hazırlık turu, sezon içi acil çağrıların çoğunu baştan gereksiz kılan en ucuz sigortadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sezon takvimine göre iş dağılımı",
+                paragraflar: [
+                    "İlçede hangi işin hangi döneme yazılacağı, tesisin verimini doğrudan etkiler. Aşağıdaki tablo, sık çalıştığımız kalemleri doğru dönemleri ve gerekçeleriyle birlikte gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Doğru dönem", "Gerekçe", "Uygun ünite"],
+                    satirlar: [
+                        ["Soğutma ünitesi bakımı", "Hasat öncesi", "Sezon içi müdahale ürünü riske atar", "Kompakt akülü"],
+                        ["Paketleme hattı üstü", "Hasat öncesi", "Sezonda hat durmaz", "Akülü, tablalı"],
+                        ["Çatı ve ışıklık onarımı", "Sezon kapanışı", "Uzun program gerektirir", "Arazi tipi makaslı"],
+                        ["Sulama pano ve hattı", "Sulama dışı gün", "Zemin taşıma gücü", "Geniş tabanlı 4x4"],
+                        ["Koruma örtüsü direkleri", "Bahar öncesi", "Örtü kurulumundan önce", "Eklemli bomlu"],
+                        ["Sevkiyat rampası", "Sezon dışı", "Sezonda rampa boşalmaz", "Dizel, hızlı toplanan"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat penceresinin kısalığı neyi değiştirir",
+                paragraflar: [
+                    "Meyvecilikte hasat, haftalarla değil günlerle ölçülen bir pencerede yapılır ve bu pencere hava koşuluna göre öne ya da arkaya kayar. Tesis açısından bunun anlamı şudur: sezon başladığında bakım için bir saat bile ayrılamaz. Bu keskinlik, kiralama planlamasını da sıradan bir sanayi tesisinden ayırır — burada tarih pazarlığı yoktur, tarih ürüne bağlıdır.",
+                    "Bizim buna uyum biçimimiz, hazırlık turunu hasat tahmininin biraz öncesine kilitlemek ve tarih kaydığında programı esnetebilecek şekilde planlamaktır. Bu esnekliği sağlayabilmek için ilçedeki işlerin aynı haftaya toplanması gerekir; tek bir adres için kurulmuş katı bir program, tarih kaydığında dağılır. Hattın parçası olan işletmeler ise kayan tarihe birlikte uyum sağlar.",
+                ],
+            },
+            {
+                baslik: "Dağ eteği coğrafyasında erişim",
+                paragraflar: [
+                    "İlçenin yerleşim ve bahçe dokusu dağ eteğine yayıldığı için erişim, ova ilçelerine kıyasla daha değişkendir: eğimli yaklaşımlar, dar köy girişleri ve bahçe yollarında sınırlı manevra alanı sık karşılaştığımız durumlardır. Ağır makine taşıyan çekicinin dönebileceği bir alan her adreste bulunmaz ve bu, makine sınıfını doğrudan sınırlar.",
+                    "Çözümümüz iki aşamalıdır: makine, çekicinin rahat dönebildiği en yakın sert zemine indirilir ve kalan mesafe kendi yürüyüşüyle alınır; bu mümkün değilse daha hafif bir sınıf seçilir ve iş listesinin bu sınıfla kapanıp kapanmadığı önceden kontrol edilir. Karar için son yüz metreyi, giriş açıklığını ve eğimi gösteren birkaç fotoğraf yeterlidir — sahaya boşa yapılan bir sefere kıyasla çok ucuz bir hazırlıktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk hava deposunun bakımını hasattan ne kadar önce yaptırmalıyız?",
+                cevap:
+                    "Ürün girmeden önce tamamlanmış olacak kadar önce — pratikte bu, hasat tahmininizin birkaç hafta öncesi demektir. Nedeni şu: soğutma ünitesine sezon içinde müdahale etmek, o hacimdeki ürünün tamamını riske atan bir karardır ve çoğu işletme bu riski almak yerine arızayla yaşamayı seçer. Hazırlık turunda evaporatör kanatları, fan grupları, defrost ve tahliye hattı ile hacim aydınlatması bir arada ele alınır; makine tesiste birkaç gün kalır ve liste tek seferde kapanır. Tarih kayarsa programı kaydırırız; asıl önemli olan listenin önceden çıkarılmış olmasıdır.",
+            },
+            {
+                soru: "Sezon içinde soğutmamız arızalanırsa aynı gün gelebilir misiniz?",
+                cevap:
+                    "Bu dönemde acil çağrılara öncelik veririz ve mümkün olan en hızlı şekilde geliriz. Ancak iki şeyi baştan söylemeyi doğru buluyoruz. Birincisi, hasat penceresinde ilçedeki talep yoğunlaşır ve müsait ünite, sizin tercih ettiğiniz sınıf olmayabilir; işi yapabilecek en uygun sınıfı göndeririz. İkincisi, acil müdahalede kapsam arızayı gidermekle sınırlıdır; birikmiş bakım kalemleri aynı sefere sığmaz ve sonraki programa yazılır. Hazırlık turunu yaptırmış tesislerde bu çağrıların çoğunun zaten oluşmadığını sahada düzenli olarak görüyoruz.",
+            },
+            {
+                soru: "Paketleme hattımızın üstündeki aydınlatmaya sezon içinde dokunulabilir mi?",
+                cevap:
+                    "Sezon içinde yalnızca arıza müdahalesi yaparız, planlı yenileme yapmayız. Hat çalışırken açık ürünün üstünde iş yapılmaz; zorunlu bir müdahalede çalıştığımız kesitin üstü örtülür, sepet altına toplama tablası konur, el aletleri bağlanır ve alan bariyerlenir. Bu düzen riski azaltır, ortadan kaldırmaz. Planlı aydınlatma yenileme, bant üstü tesisat ve askı işleri hazırlık listesine yazılır ve sezon başlamadan bitirilir. Sezon öncesinde bir tur yaptırmak, sezon ortasında hattı durdurmak zorunda kalmaktan her ölçüde ucuzdur.",
+            },
+            {
+                soru: "Bahçemizdeki sulama panosuna ulaşmanız gerekiyor; tarlaya makine girebilir mi?",
+                cevap:
+                    "Zemin kuruysa girer. Belirleyici olan yağıştan çok sulama programınızdır; sulanmış bir güzergâhta yüzey sağlam görünse bile alt katman yumuşak kalır ve destek ayağı gömüldüğünde makine hem hareket edemez hem sepet yukarıdayken stabilitesini kaybeder. Bu yüzden sulama takviminizi önceden isteriz ve bahçe işlerini kuru pencereye yazarız. Şüpheli zeminde makineyi indirmeyiz; bu kararı sahada, indirme öncesinde veririz. Gerekiyorsa çalışma noktalarının altına plaka serilir — bu, kurtarma operasyonundan çok daha ucuz bir önlemdir.",
+            },
+            {
+                soru: "Bahçe yolumuz dar ve eğimli; makine oraya çıkabilir mi?",
+                cevap:
+                    "Çoğu durumda çıkabilir ama yöntemi önceden belirlemek gerekir. İki seçenek var: makineyi çekicinin rahat dönebildiği en yakın sert zemine indirip kalan mesafeyi kendi yürüyüşüyle almak, ya da daha hafif ve dar şaseli bir sınıf seçip taşımayı küçük araçla yapmak. İkinci seçenekte çalışma yüksekliği bir miktar düşer ve iş listenizin bu sınıfla kapanıp kapanmadığını birlikte kontrol ederiz. Karar için son yüz metreyi, giriş açıklığını ve eğimi gösteren birkaç fotoğraf yeterlidir; bu hazırlık, sahaya boşa yapılan bir seferden çok daha ucuzdur.",
+            },
+            {
+                soru: "İlçede birkaç işletme aynı dönemde iş yaptırmak istiyor; bu bize avantaj sağlar mı?",
+                cevap:
+                    "Sağlar ve bu ilçede özellikle işe yarar. Makine bir kez ilçeye indirilir, adresler arasında sırayla dolaşır ve nakliye kalemi işletmeler arasında iş yüküne göre bölünür. Bunun ikinci ve daha önemli faydası esnekliktir: hasat tarihi kaydığında tek adrese kurulmuş katı bir program dağılır, hattın parçası olan işletmeler ise kayan tarihe birlikte uyum sağlar. Her işletme kendi teklifini, kendi tutanağını ve kendi teslim kaydını alır; aranızda hiçbir hukuki bağ kurulmaz. Ortak olan yalnızca ilçeye giriş-çıkış kalemidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Sultandağı’nın kiraz üretimi ve bahçecilikle anılması kamuya açık genel bilgidir; hazırlık turu mantığı, sezon içi müdahale sınırı ve erişim yöntemi firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:konya-osb-cevre-ili": {
+        h1: "Konya Hattında Gıda Sanayii İçin Manlift Kiralama",
+        giris:
+            "Afyonkarahisar ile Konya arasındaki hat, bizim için bir il sınırı değil, aynı sanayi ailesinin iki ucudur: her iki ilde de tarımsal hammaddeyi işleyen tesisler yoğundur ve Konya, un, bulgur, makarna, bisküvi ve şekerleme üretimiyle ülke genelinde bilinen bir gıda sanayii merkezidir. Afyon tarafındaki tesislerle aynı prosesleri, aynı hijyen kurallarını ve aynı kampanya mantığını paylaşan bu tesisler, bizim için tanıdık bir çalışma ortamıdır. İl dışı sevkiyatı ayıran şey teknik değil lojistiktir: mesafe, makinenin gidiş-geliş süresini kiralamanın içine sokar ve bu, tek günlük işleri ekonomik olmaktan çıkarır. Bu yüzden Konya hattına yaptığımız her çıkışı program olarak kurarız — makine bölgeye indirildiğinde birden fazla adresi kapatacak bir liste hazırdır, gün planı önceden yazılmıştır ve dönüş tarihi bellidir. Bu sayfada, il dışı bir talebin nasıl planlandığını ve gıda sanayii tesislerinde hangi kuralların geçerli olduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Değirmen ve öğütme tesislerinde kat yapısı",
+                metin:
+                    "Un ve irmik üreten tesisler, yatay bir hol değil çok katlı bir yapı kurar: hammadde temizleme, tavlama, öğütme ve eleme kademeleri üst üste yerleşir ve ürün kat aralarında dikey olarak taşınır. Yüksekteki iş kalemleri bu kademeler arasındaki aktarma boruları, elevatör gövdeleri, aspirasyon kanalları ve kat aralarındaki aydınlatmadır. Kat yüksekliklerinin sınırlı olması, makine seçiminde yükseklikten çok gövde ölçüsünü belirleyici kılar; buraya kompakt sınıflar gider.",
+            },
+            {
+                baslik: "Bisküvi ve şekerleme hatlarında fırın üstü",
+                metin:
+                    "Fırınlı üretim yapan tesislerde en zorlu bölge, tünel fırının üstü ve çevresidir: baca hattı, ısı tahliye kanalları, üst konveyör askıları ve fırın üstü aydınlatma buradadır. Sıcaklık, çalışma süresini kısaltan gerçek bir kısıttır ve fırın soğumadan bu bölgede iş yapılmaz. Uygulamada işi fırının planlı soğuma penceresine yazarız; bu pencere kısa olduğunda liste parçalara bölünür ve birden fazla duruşa yayılır. Sıcak yüzeye yakın çalışmada tesisin kendi izin prosedürü geçerlidir.",
+            },
+            {
+                baslik: "Bulgur ve bakliyat tesislerinde toz ve elek hattı",
+                metin:
+                    "Kuru ürün işleyen tesislerde havada asılı kalan ince toz, hem sağlık hem tutuşma açısından yönetilmesi gereken bir ortam üretir. Elek kademelerinin askıları, aspirasyon ağızları, filtre üniteleri ve taşıma helezonlarının bağlantı noktaları bu ortamın içinde kalır. Bu hacimlerde kıvılcım çıkaran hiçbir işlem yapılmaz ve çalışma öncesinde aspirasyonun devrede olduğu, üst yüzeylerdeki birikmiş tozun temizlendiği teyit edilir. Ekipman uygunluğu tesisin risk değerlendirmesiyle birlikte ele alınır.",
+            },
+            {
+                baslik: "Mamul depolarında raf üstü ve koridor geometrisi",
+                metin:
+                    "Gıda sanayiinin mamul depoları, paletlenmiş ürünün yüksek kotlara istiflendiği hacimlerdir ve buradaki iş raf üstü aydınlatma, yangın algılama, sprinkler hattı ve çatı altı havalandırmasıdır. Belirleyici kısıt yükseklik değil geometridir: makinenin ilerleyeceği koridorun boş olması ve sepetin istif yığınına güvenli mesafede kalması gerekir. Bu yüzden depo işleri, bölümün geçici olarak boşaldığı pencerelere göre parçalanır ve sıralama depo yönetimiyle birlikte kurulur.",
+            },
+            {
+                baslik: "İl dışı sevkiyatın program mantığı",
+                metin:
+                    "Mesafe, il dışı bir işin fiyatını belirleyen tek kalemdir ve bu kalem gün sayısına bölünür. Tek günlük bir iş için yapılan çıkışta nakliye payı tek işin üstünde kaldığı için maliyet yükselir; aynı çıkışta üç adres kapatıldığında ise pay üçe bölünür. Bu yüzden Konya hattına yapılan çıkışları program olarak kurarız: adresler haritada sıralanır, gün planı önceden yazılır ve dönüş tarihi belirlenir. Hatta katılmak isteyen işletmeye o hafta için kurulmuş plan olduğunu talep sırasında söyleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gıda sanayii tesis tipleri ve çalışma koşulları",
+                paragraflar: [
+                    "Hat üzerinde çalıştığımız tesis tipleri birbirinden farklı koşullar dayatır. Aşağıdaki tablo, her tipte baskın iş kalemini, belirleyici koşulu ve uygun çalışma penceresini toplar.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Baskın iş kalemi", "Belirleyici koşul", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Değirmen / öğütme", "Aktarma borusu, elevatör", "Dar kat yüksekliği", "Planlı duruş"],
+                        ["Fırınlı üretim", "Baca, ısı kanalı, konveyör", "Sıcaklık", "Fırın soğuma penceresi"],
+                        ["Bulgur / bakliyat", "Elek askısı, aspirasyon", "Organik toz yükü", "Temizlik duruşu"],
+                        ["Paketleme hattı", "Armatür, sensör, menfez", "Açık ürün üstü", "Hat duruşu"],
+                        ["Mamul deposu", "Raf üstü, dedektör", "Koridor geometrisi", "Bölüm boşaldığında"],
+                        ["Dış saha ve rampa", "Sundurma, oluk, aydınlatma", "Araç trafiği", "Sevkiyat dışı saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "İl dışı çıkışta gün planının kurulması",
+                paragraflar: [
+                    "Bir il dışı programın kalitesi, sahada değil planlama masasında belirlenir. Çıkış öncesinde üç şeyi netleştiririz: adres sırası, her adreste geçirilecek gün sayısı ve geçiş süreleri. Bu üçlü yazıldığında dönüş tarihi de netleşir ve hiçbir işletme, başka bir adresteki iş uzadı diye gününü kaybetmez. Süre aşımı olursa program bir gün uzar ve bu, gecikmeye neden olan tarafla konuşulur.",
+                    "İkinci konu makinenin geceleri nerede kalacağıdır. Uzun bir programda ünitenin her akşam geri getirilmesi mümkün değildir; bu yüzden hat üzerindeki bir tesiste düz, sert ve korunaklı bir park alanı belirlenir ve akülü ünite kalacaksa şarj için erişilebilir bir enerji hattı istenir. Bu iki düzenleme sağlandığında program kesintisiz ilerler; sağlanamadığında ise gün sayısı, iş yüzünden değil lojistik yüzünden uzar.",
+                ],
+            },
+            {
+                baslik: "İki il arasında ortak çalışma disiplini",
+                paragraflar: [
+                    "Afyon ve Konya tarafındaki gıda tesisleri, aynı hijyen ve gıda güvenliği çerçevesine tabidir; bu, bizim için sahadan sahaya değişmeyen tek bir çalışma disiplini anlamına gelir. Üretim hacmine giren ünite sevkiyat öncesinde temizlenir, girişte tekerlek yüzeyleri silinir, sepet altına toplama tablası konur ve el aletleri bağlanır. Kapalı hacimde egzoz üretmeyen sınıflar tercih edilir. Bu düzeni işletme talep etmeden uygularız.",
+                    "İş sonunda da aynı standart geçerlidir: kullanılan el aletleri sayılarak toplanır, çalışılan alan sizin kendi temizlik prosedürünüze göre teslim edilir ve uygulanan önlemler tutanağa yazılır. Bu belge, denetim anında kayıt sisteminize eklenebilecek bir dayanaktır. İl sınırının hangi tarafında olduğunuz bu adımların hiçbirini değiştirmez; değişen tek şey, sahaya ulaşmanın planlama biçimidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Afyon dışındayız; il dışına makine gönderiyor musunuz?",
+                cevap:
+                    "Gönderiyoruz ve Konya hattı düzenli çalıştığımız güzergâhlardan biridir. Tek farkı planlama biçimidir: mesafe, makinenin gidiş-geliş süresini kiralamanın içine soktuğu için il dışı çıkışları program olarak kurarız. Pratikte bu, çıkış öncesinde adres sırasının, her adreste geçirilecek gün sayısının ve dönüş tarihinin yazılması demektir. Talep ettiğinizde o hafta için kurulmuş bir hat varsa size söyleriz; hatta katıldığınızda nakliye payı adresler arasında bölünür ve birim maliyet belirgin biçimde düşer.",
+            },
+            {
+                soru: "Tek günlük küçük bir işimiz var; il dışına gelmeniz mantıklı mı?",
+                cevap:
+                    "Tek başına genellikle değil ve bunu açıkça söyleriz. Nakliye, kiralama süresinden bağımsız sabit bir kalemdir; tek günlük bir işte bu kalemin tamamı sizin üstünüzde kalır ve iş, kendi değerinin çok üstünde bir maliyete çıkar. İki alternatif öneririz. Birincisi, o hafta hat üzerinde kurulmuş bir programa katılmak — bu durumda pay bölünür. İkincisi, birikmiş küçük işleri tek bir listeye toplayıp tek çıkışta kapatmak. Aciliyet varsa elbette geliriz, ama maliyet farkını teklifte açıkça göstermeyi tercih ederiz.",
+            },
+            {
+                soru: "Fırın hattımızın üstünde iş var; fırını soğutmak zorunda mıyız?",
+                cevap:
+                    "Fırın üstü ve çevresindeki kalemler için evet. Sıcaklık, hem sepetteki kişi hem ekipman açısından gerçek bir kısıttır ve süreyi kısaltmakla çözülmez. Uygulamada işi fırının planlı soğuma penceresine yazarız; bu pencere kısa olduğunda listeyi parçalara böler ve birden fazla duruşa yayarız. Sıcak yüzeye yakın çalışmada tesisin kendi izin prosedürü geçerlidir ve biz o prosedüre uyarız. Fırından uzaktaki kalemler — hol aydınlatması, depo tarafı, dış saha — bu kısıtın dışındadır ve aynı sevkiyat içinde normal seyrinde ilerler.",
+            },
+            {
+                soru: "Değirmenimizin katları alçak; makine bu hacimlere sığar mı?",
+                cevap:
+                    "Sığması için sınıfın yükseklikten değil gövde ölçüsünden seçilmesi gerekir ve bu, çok katlı öğütme tesislerinde en sık yaptığımız düzeltmedir. Bize gereken üç ölçü var: kat yüksekliği, makinenin geçeceği en dar açıklığın eni ve yüksekliği, bir de asansör ya da yük kapısı kullanılacaksa taşıma kapasitesi. Bu ölçülerle kompakt bir akülü sınıf çoğu kat arasında rahat çalışır. Kat aralarında makine taşınamıyorsa iş, her kat için ayrı ünite yerine, kat bazlı program hâlinde kurgulanır; bunu keşifte netleştiririz.",
+            },
+            {
+                soru: "Toz yoğun bölümlerimizde çalışma kurallarınız nedir?",
+                cevap:
+                    "Kuru ürün işleyen hacimlerde havada asılı ince organik toz, tutuşma riski taşıyan bir ortam üretir; bu yüzden kural setimiz farklıdır. Kıvılcım çıkaran hiçbir işlem — taşlama, kesme, kaynak — bu bölümlerde yapılmaz; böyle bir kalem varsa listeden ayrılır ve başka bir yönteme yazılır. Çalışma öncesinde aspirasyonun devrede olduğunu ve üst yüzeylerdeki birikmiş tozun temizlendiğini teyit ederiz. Ekipmanın ortama uygunluğu, tesisin kendi risk değerlendirmesiyle birlikte ele alınır; bu değerlendirmeyi görmeden bu bölümlere ünite indirmeyiz.",
+            },
+            {
+                soru: "Program birkaç gün sürecek; makine geceleri nerede kalır?",
+                cevap:
+                    "Hat üzerindeki bir tesiste, önceden belirlenmiş bir park alanında kalır — uzun bir programda üniteyi her akşam geri getirmek ne mümkün ne ekonomiktir. Park alanının düz, sert ve tesis içinde korunaklı olması gerekir; akülü ünite kalacaksa gece şarjı için erişilebilir bir enerji hattı isteriz. Kalış süresince makinenin muhafazası, park alanını sağlayan işletmeye ait olur ve bu, sözleşmede açıkça yazılır. Teslim ve iade anında mevcut durum fotoğrafla kayıt altına alınır; böylece program sonunda hiçbir kalem tartışma konusu olmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Konya’nın un, bulgur, makarna ve bisküvi-şekerleme üretimiyle anılan bir gıda sanayii merkezi olması kamuya açık genel bilgidir; il dışı program kurgusu, park-şarj düzeni ve toz-sıcaklık kuralları firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
 };

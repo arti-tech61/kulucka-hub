@@ -332,4 +332,304 @@ export const BALIKESIRPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Susurluk ve çevresindeki sanayi parsellerinde gıda ağırlıklı üretim tesislerinin yaygın olduğu, gıda tesisi kurulumunun çelik-panel-proses-tesisat-otomasyon sırasıyla ilerlediği ve gıda atıksuyunun organik yükü nedeniyle arıtma yapılarının bu tesislerin parçası olduğu kamuya açık genel bilgidir; faz planı, kullanım kaydı ve ikame taahhüdü firmamızın sözleşme pratiğidir.",
     },
+
+    "bolge:balikesir-merkez": {
+        h1: "Balıkesir Merkezde Zeytinyağı ve Gıda Tesislerine Platform Kiralama",
+        giris:
+            "Balıkesir merkezinden bakıldığında ilin gıda üretimi tek bir kalemden ibaret değildir; şehir, çevresindeki üretim havzalarının hepsinin buluştuğu bir işleme ve dağıtım merkezi gibi çalışır. Zeytin ve zeytinyağı bunun en görünür yüzüdür: kırma tesisleri ve yağhaneler, yağın dinlendirildiği depolama tankları, şişeleme ve etiketleme hatları, sofralık zeytin işleme ve salamura üniteleri şehrin çevresine dağılmış hâldedir. Yanına un ve irmik değirmenleri, et işleme tesisleri, mandıra ölçeğindeki süt ürünleri işletmeleri, ekmek ve unlu mamul fabrikaları ile toptan gıda depoları eklenir. Bu çeşitlilik erişim ekipmanı açısından tek bir reçete bırakmaz — bir yağhanenin dekantör katıyla bir un değirmeninin silo çevresi, bir et tesisinin ray sistemiyle bir toptancı deposunun raf koridoru birbirine benzemez. Buna kent içinde olmanın kendi kısıtları da katılır: dar avlular, komşu parseller, sevkiyat aracının duracağı yerin sorun olması. Bu sayfa, Balıkesir merkezindeki gıda ve zeytinyağı tesislerinde platform, manlift ve forklift kiralamayı tesis tipine göre ayrıştırarak anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yağhanede kırma hattı ve dekantör katı çevresinde erişim",
+                metin:
+                    "Zeytin işleyen bir tesiste ekipman kalabalığı belirli bir hatta toplanır: kabul ve yıkama ünitesi, kırıcı, malaksör, dekantör ve separatör arka arkaya dizilir ve hepsinin üzerinde motor, kayış koruması, elektrik bağlantısı ve aspirasyon hattı bulunur. Bu bölgede zemin genellikle ıslak ve yağlıdır; tekerlek tutuşu ile makinenin duracağı noktanın eğimi konumlanmanın ilk maddesidir. Hedefe erişim çoğunlukla yandan uzanmayı gerektirir, çünkü makinelerin üzerine doğrudan çıkılmaz. Bu geometride kompakt eklemli sınıf hem hattı hem geçiş koridorunu tıkamadan çalışır.",
+            },
+            {
+                baslik: "Yağ depolama tanklarının üstünde ve çevresinde çalışma",
+                metin:
+                    "Dinlendirme ve depolama tankları, tesisin en uzun ömürlü ekipmanıdır ve bakım ihtiyaçları da buna göre seyrektir ama zorludur: kapak contası, menfez, seviye göstergesi, tepe bağlantıları ve dış gövde yüzey bakımı. Tanklar çoğunlukla kapalı bir depoda veya sundurma altında sıralandığı için çalışma yüksekliği kadar tavan yüksekliği de sınırlayıcıdır; sepetin tank üstüne çıkabilmesi için üstte yeterli boşluk kalması gerekir. Bu iki ölçüyü — tank kotu ve tavan altı net boşluğu — önceden almadan makine sınıfını kesinleştirmeyiz.",
+            },
+            {
+                baslik: "Şişeleme, etiketleme ve kolileme hattı üstü işler",
+                metin:
+                    "Yağın nihai ürüne dönüştüğü bölüm dar ve hassas bir alandır: dolum başlıkları, etiket makinesi, kodlama ünitesi ve kolileme ekipmanı bir hat üzerinde sıkışık durur. Buradaki erişim işleri küçük ama sık tekrarlanır — aydınlatma, fotosel, hava hattı, aspiratör. Hat çalışırken üzerinde çalışılmaz; bu yüzden kalemler hattın durduğu temizlik veya ürün değişim aralıklarına toplanır. Cam şişe kullanılan hatlarda ek bir kural daha vardır: sepette gevşek parça bulundurulmaz ve çalışma noktasının altı fiziksel olarak örtülür.",
+            },
+            {
+                baslik: "Un değirmeni, et işleme ve soğuk depo tesislerinde erişim",
+                metin:
+                    "Merkezdeki diğer gıda tesisleri kendi geometrilerini dayatır. Un değirmenlerinde erişim hedefleri dikeydir — silo çevresi, aspirasyon kanalları, üst kat üniteleri. Et işleme tesislerinde ise tavan hemen her zaman doludur: taşıma rayları, kancalar, soğutma bataryaları ve aydınlatma aynı kotu paylaşır ve makinenin bu kalabalığın altından geçmesi gerekir. Toptan gıda depolarında ise talep raf montajı, çatı altı tesisat ve dönemsel forklift takviyesi olarak gelir. Üçünde de ortak kısıt aynıdır: alanın gıda alanı olması ve elektrikli sınıf zorunluluğu.",
+            },
+            {
+                baslik: "Kent içi tesislerde sevkiyat ve konumlanma",
+                metin:
+                    "Merkezdeki işletmelerin önemli bölümü yıllar içinde şehrin içinde kalmış parsellerdedir; avlu dardır, kapı alçaktır, komşu binaya mesafe azdır. Bu sahalarda asıl mesele makinenin kendisi değil, oraya nasıl ulaştığıdır. Sevkiyat planını adres üzerinden değil, giriş noktası üzerinden yaparız: kapı ölçüsü, kapı önündeki manevra alanı ve çekicinin duracağı yer önceden konuşulur. Gerekiyorsa makine uygun bir noktada indirilir ve kalan mesafeyi kendi gücüyle yürür; güzergâhtaki rampa, kanal kapağı ve alçak geçiş bu yürüyüş öncesi kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gıda tesisi tipine göre erişim profili",
+                paragraflar: [
+                    "Balıkesir merkezinde hizmet verdiğimiz gıda tesisi tiplerinin erişim profili aşağıda karşılaştırılmıştır. Sağdaki sütun, o tesis tipinde işi planlarken önce çözmemiz gereken sorunu gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Yoğun erişim noktası", "Ekipman", "Önce çözülen sorun"],
+                    satirlar: [
+                        ["Yağhane / kırma tesisi", "Malaksör, dekantör üstü", "Kompakt eklemli", "Islak ve yağlı zemin"],
+                        ["Yağ depolama", "Tank kapağı, menfez", "Elektrikli makaslı", "Tavan altı boşluk"],
+                        ["Şişeleme hattı", "Dolum, etiket, kodlama", "Kompakt makaslı", "Hat durdurma aralığı"],
+                        ["Un ve irmik değirmeni", "Silo çevresi, aspirasyon", "Bomlu", "Dikey erişim mesafesi"],
+                        ["Et işleme tesisi", "Ray, kanca, soğutma", "Dar gövdeli elektrikli", "Dolu tavan kotu"],
+                        ["Toptan gıda deposu", "Raf, çatı altı, istif", "Makaslı + forklift", "Koridor genişliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zeytinyağı tesisinde ıslak ve yağlı zeminle çalışmak",
+                paragraflar: [
+                    "Yağhanede zemin, yılın hiçbir gününde tam kuru olmaz. Yıkama suyu, karasu ve yağ kalıntısı yüzeyde ince bir film oluşturur; bu film normal görünen bir betonu ciddi biçimde kaygan hâle getirir. Erişim makinesi için bunun iki sonucu vardır. Birincisi hareket: makinenin ilerlerken veya dönerken kayması, sepetteki ekip için doğrudan risk üretir; bu yüzden yağhane içinde konumlanma yavaş yapılır ve hedefe varıldıktan sonra makine sabitlenmeden sepet yükseltilmez. İkincisi zeminin kendisidir — eğimli tahliye kanallarına ve ızgaralara tekerlek veya destek ayağı oturtulmaz.",
+                    "Tesis tarafında yapılabilecek en yararlı hazırlık, çalışma yapılacak bölgenin iş öncesinde temizlenip kurutulmasıdır. Bu birkaç dakikalık iş, hem çalışmayı hızlandırır hem de riskin büyük bölümünü ortadan kaldırır. Ekipman tarafında ise iş dönüşü prosedürümüz nettir: yağ ve karasu ile temas eden yüzeyler bekletilmeden temizlenir. Bunu makinenin görüntüsü için değil, sonraki sahaya iz taşınmaması için yaparız; gıda tesisleri arasında dolaşan bir ekipmanda çapraz bulaşma ihtimali en az mekanik arıza kadar ciddiye alınır.",
+                ],
+            },
+            {
+                baslik: "Merkez konumun sağladığı hız ve iş birleştirme",
+                paragraflar: [
+                    "İl merkezine hizmet vermenin en somut avantajı, ekipmanın kısa sürede yola çıkabilmesidir. Bunun karşılığı iki yerde görülür. Birincisi acil taleplerdir: üretimi durduran bir arıza için makine bekleme süresi burada, ilçelere kıyasla belirgin biçimde kısadır. İkincisi uzun dönem kiralamalarda ikame süresidir — sahadaki makine arızalandığında yerine gelen ekipmanın yolda geçireceği zaman doğrudan mesafenin bir fonksiyonudur ve merkez bu denklemde en avantajlı noktadır.",
+                    "İkinci kazanç iş birleştirmedir. Merkezde aynı gün içinde birden fazla noktaya sevkiyat yaptığımız için, tarih esnekliği olan işleri mevcut bir programa bağlayabiliriz; taşıma yükü birden fazla iş arasında paylaşıldığında yarım günlük küçük bir iş bile makul bir bedelle yapılabilir hâle gelir. Bunu müşterilerimize açıkça söyleriz: tarihi bir güne kilitlemek yerine bize iki-üç günlük bir aralık verirseniz, işinizi uygun bir sefere yerleştirir ve farkı teklifte gösteririz. Tarihi kesin olan işlerde ise sefer tek başına planlanır ve fiyat buna göre kurulur; hangi durumda olduğunuzu baştan bilmeniz, sonradan tartışma çıkmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yağhanemizin içi dar ve ekipman kalabalık; hangi makine sığar?",
+                cevap:
+                    "Bu sorunun cevabı yükseklikten önce genişlikle başlar. Sizden üç ölçü isteriz: giriş kapısının net genişliği ve yüksekliği, makinenin ilerleyeceği koridorun en dar noktası ve hedefe uzanırken bomun süpüreceği boşluğun durumu. Yağhanelerde en sık karşılaştığımız durum, makinenin hedefin altına hiç giremediği ama birkaç metre uzaktan yandan uzanabildiği bir geometridir; bu yüzden dar gövdeli eklemli sınıfı öneririz. Makaslı platformlar bu tesislerde çoğu zaman işe yaramaz, çünkü doğrudan dikey çıkarlar ve altta duran ekipmanı aşamazlar. Bir de zemin sorusu vardır: yağhane zemini ıslak ve yağlı olduğu için tekerlek tutuşu ile eğim ayrıca değerlendirilir. Birkaç fotoğraf ve kaba bir yerleşim krokisi gönderirseniz sınıfı sahaya çıkmadan kesinleştirebiliriz.",
+            },
+            {
+                soru: "Hasat kampanyası sırasında tesise makine gönderiyor musunuz?",
+                cevap:
+                    "Gönderiyoruz ama planı tamamen farklı kuruyoruz. Kampanya döneminde tesisin durması pratikte imkânsızdır; bu yüzden yalnızca hattın çalışmasını engellemeyen işleri kabul ederiz — dış cephe, çatı, saha aydınlatması, depo tarafı, sevkiyat ucu ve hattın üzerine gelmeyen kalemler. Hattın tam üzerindeki bir iş için kampanya döneminde gelmek, hem işi yarım bırakmak hem tesisin gününü bozmak demektir; bunu baştan söyleriz. Acil arıza müdahaleleri elbette istisnadır ve öncelikli işlem görür. Asıl önerimiz ise şudur: hattı ilgilendiren bakım kalemlerini kampanya öncesindeki hazırlık dönemine toplayın. O dönemde tesis boş, takvim rahat, ekipman bulunabilirliği yüksek olur ve iş, üretimin üzerinde hiçbir baskı olmadan yapılır.",
+            },
+            {
+                soru: "Depoda yağ tanklarımızın üzerine çıkmak istiyoruz; tavan yüksekliği yeterli mi?",
+                cevap:
+                    "Bunu iki ölçüyle hesaplıyoruz. Birincisi tank üst kotu, yani sepetin zemininin ulaşması gereken yükseklik; ikincisi tavan altı net boşluk, yani tavana asılı tesisat da dâhil olmak üzere en alçak engelin yerden yüksekliği. Sepet zemininin tank üstüne çıkması yeterli değildir, sepette çalışan kişinin de tavana temas etmeden durabilmesi gerekir. Bu iki ölçüyü verirseniz uygun sınıfı hesaplar, yeterli boşluk yoksa alternatif çözüm öneririz — genellikle tankın yanından uzanarak çalışmak veya makineyi tankların arasındaki koridora konumlandırmak mümkün olur. Depo tavanında sprinkler hattı veya kablo tavası varsa bunları da engel listesine ekleriz; en sık yaşanan sürpriz, hesaplanan yüksekliğin doğru ama unutulan bir tesisat hattının işi bloke etmesidir.",
+            },
+            {
+                soru: "Et işleme tesisimizde tavan ray sistemiyle dolu; platform altından geçebilir mi?",
+                cevap:
+                    "Geçebilir, ancak makine seçimi tavanın en alçak noktasına göre yapılır, ortalama yüksekliğine göre değil. Bize verilecek kritik bilgi, makinenin ilerleyeceği güzergâhtaki en alçak engelin yerden yüksekliğidir; ray, kanca askısı, boru veya batarya bunların hepsi bu hesaba girer. Katlanmış hâldeki makine yüksekliği bu ölçünün altında kalmalıdır. İkinci konu ray sisteminin kendisidir: çalışma sırasında rayın boş olması ve hareket ettirilmemesi gerekir, bunu tesis sorumlusuyla yazılı olarak teyit ederiz. Üçüncüsü zemindir — et işleme alanlarında zemin sürekli yıkanır ve tahliye kanalları vardır; makinenin bu kanallara basmaması, konumlanma planının bir maddesidir. Kapalı üretim alanı olduğu için elektrikli sınıf zorunludur, bunu ayrıca konuşmaya gerek kalmaz.",
+            },
+            {
+                soru: "İşletmemizin avlusu çok dar; nakliye aracı giremezse ne yapıyorsunuz?",
+                cevap:
+                    "Bu, merkezdeki tesislerde sık karşılaştığımız bir durum ve çözümü genellikle basittir. Çekici, sokakta veya avlu girişinde uygun bir noktaya kadar gelir; makine orada indirilir ve kalan mesafeyi refakatçi eşliğinde kendi gücüyle yürür. Bu yürüyüş öncesinde güzergâhı kontrol ederiz: rampa eğimi, kapı yüksekliği, kanal kapakları, alçak saçak veya havai hat. Bunların hepsi telefonda konuşulabilecek şeylerdir, sahada sürpriz olmaları gerekmez. İndirme noktasının belediye trafiğini etkileyeceği durumlarda çalışmayı günün sakin saatine alırız. Tek isteğimiz, sipariş anında avlunun ve giriş kapısının fotoğrafını paylaşmanızdır; bu birkaç kare, sevkiyat gününde saatler kazandırır ve yanlış araçla yola çıkma ihtimalini ortadan kaldırır.",
+            },
+            {
+                soru: "Küçük bir işletmeyiz ve yılda birkaç kez ihtiyacımız oluyor; her seferinde baştan mı anlaşacağız?",
+                cevap:
+                    "Gerekmez. Sizin için bir tesis kaydı açarız: sahanızın ölçüleri, giriş kapısının durumu, zemin koşulları, daha önce kullandığınız makine sınıfı ve varsa hijyen prosedürünüz bir kez kaydedilir. Sonraki ihtiyaçlarınızda tek telefonla aynı koşullar devreye girer, keşif ve evrak süreci baştan yaşanmaz. Aradaki boş dönemlerde hiçbir ödeme veya taahhüt doğmaz — bu kayıt bağlayıcı bir sözleşme değil, hazır bekleyen bir zemindir. Faydası özellikle plansız işlerde ortaya çıkar: bir arıza çıktığında telefonda uzun uzun saha tarif etmeniz gerekmez, doğru makine ilk uygun seferle yola çıkar. Küçük ölçekli işletmelere ayrıca şunu öneririz: yıl içinde biriken küçük yüksek kotlu kalemleri bir listede tutun ve tek çağrıya dönüştürün; makine zaten geldiğinde ek kalem yapmanın maliyeti çok düşüktür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Balıkesir’in zeytin ve zeytinyağı üretimiyle anılan illerden biri olduğu, zeytinyağı işlemesinde kırma-malaksasyon-ayırma sırasının izlendiği ve il merkezinde un, et, süt ürünleri ile toptan gıda depolama faaliyetlerinin bulunduğu kamuya açık genel bilgidir; ölçü alma, konumlanma ve tesis kaydı uygulamaları firmamızın kendi çalışma biçimidir.",
+    },
+
+    "bolge:manyas": {
+        h1: "Manyas’ta Tarım, Süt ve Yem Tesislerine Platform Kiralama",
+        giris:
+            "Manyas, kuş cennetiyle tanınan gölünün çevresine yayılmış, ekonomisi büyük ölçüde tarım ve hayvancılıkla dönen bir Balıkesir ilçesidir. Buradaki üretim, büyük fabrika blokları hâlinde değil, geniş bir alana serpilmiş orta ve küçük ölçekli tesisler hâlinde durur: süt toplama ve soğutma merkezleri, yem ve kaba yem depoları, tarımsal ürün kurutma ve saklama yapıları, tarım makinesi bakım atölyeleri ve köy ölçeğindeki işletme binaları. Erişim ekipmanı açısından bu dağınıklık, tek bir tesise odaklanan planlamadan farklı bir yaklaşım gerektirir — burada asıl soru hangi makinenin geleceği değil, o makinenin bir günde kaç noktaya uğrayabileceğidir. İkinci belirleyici, göl havzasının kendisidir: sulak alanın komşuluğunda çalışırken gürültü, ışık ve zamanlama konusunda ilçenin doğal hassasiyeti dikkate alınır. Üçüncüsü ise mevsimdir; tarımsal takvimin yoğun dönemlerinde işletmelerin bakıma ayıracak vakti kalmaz. Bu sayfa, Manyas’ta platform ve forklift kiralamayı bu üç gerçeğin üzerine kuruyor.",
+        maddeler: [
+            {
+                baslik: "Süt toplama ve soğutma merkezlerinde erişim",
+                metin:
+                    "İlçedeki süt toplama noktaları, çevredeki işletmelerden gelen ürünün soğutulup sevk edildiği görece küçük ama kritik yapılardır. Erişim ihtiyacı çoğunlukla soğutma tankının üst bağlantılarında, tesisin dış ünitesinde, çatı ve saçak kesimlerinde ve yükleme alanının aydınlatmasında doğar. Bu yapıların çevresinde manevra alanı sınırlıdır ve tanker sabah saatlerinde yanaşır; işleri sevkiyat trafiğinin bittiği dilime yazarız. Yapı ölçekleri küçük olduğu için kompakt sınıf yeterli olur, ama zemin dış tarafta çoğu zaman betonsuzdur ve ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Yem, saman ve balya sahalarında istif desteği",
+                metin:
+                    "Kaba yem ve balya stoklama, ilçede forklift ve telehandler talebinin ana kaynağıdır ve talep tarımsal takvime bağlı olarak keskin dönemlerde yükselir. Bu işlerde makine seçimini yükün ölçüsü ve zemin belirler: standart bir palet değil, hacimli ve dengesiz bir yük söz konusudur ve istif yüksekliği açık sahada kolayca artar. Açık ve sıkıştırılmamış zeminlerde arazi tipi sınıf tercih edilir. Yığın üzerinde çalışma yapılmaz; makine daima sağlam zeminden çalışır ve yüke oradan uzanır, bu kural yoğun dönemde de esnetilmez.",
+            },
+            {
+                baslik: "Depolama ve kurutma yapılarında yüksek kotlu bakım",
+                metin:
+                    "Tarımsal ürünün saklandığı ve kurutulduğu yapılarda bakım hedefleri tavan ve çatı kotundadır: havalandırma fanları, kanal bağlantıları, aydınlatma armatürleri, çatı sacı ve oluk kesimleri. Bu yapılar geniş açıklıklı olduğu için içeride hareket rahattır, ancak kapı yüksekliği sık sık sınırlayıcı olur — makinenin katlanmış hâldeki yüksekliği kapıdan geçmelidir. Kapalı hacimde toz varsa çalışma öncesi havalandırma istenir. Bu yapıların çoğunda iç aydınlatma zayıftır; çalışma penceresi gün ışığının yeterli olduğu saatlere alınır.",
+            },
+            {
+                baslik: "Sulak alan komşuluğunda gürültü ve ışık disiplini",
+                metin:
+                    "Göl ve çevresindeki sulak alanın komşuluğunda çalışırken uyguladığımız birkaç basit kural vardır. Motor sesi üreten makineler yerine mümkün olduğunca elektrikli sınıf tercih edilir; gece çalışması gerektiğinde aydınlatma doğrudan alana değil, çalışma noktasına yönlendirilir ve iş biter bitmez söndürülür. Gürültülü kalemler gün ortasına yazılır, erken sabah ve akşam saatlerinden uzak tutulur. Bunlar yasal bir zorunluluk listesi değil, bölgede çalışırken benimsediğimiz bir davranış biçimidir; ilçe halkının kendi hassasiyetine saygı göstermenin karşılığını sahada fazlasıyla görüyoruz.",
+            },
+            {
+                baslik: "Dağınık adresleri tek güne toplayan rota planı",
+                metin:
+                    "Manyas’ta bir iş genellikle tek başına gelmez; aynı köy veya aynı hat üzerinde başka işletmelerin de bekleyen kalemleri vardır. Ekipmanı her biri için ayrı ayrı göndermek, hem gecikme hem gereksiz taşıma üretir. Uygulamamız, ilçedeki talepleri coğrafi olarak gruplayıp bir rota kurmaktır: makine gün içinde hat boyunca ilerler, her noktada işin gerektirdiği kadar kalır ve taşıma yükü noktalar arasında paylaşılır. Bu düzenin işlemesi için tek şart tarih esnekliğidir; erken haber veren işletme rotanın başında yer alır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manyas’ta iş tipine göre ekipman ve planlama",
+                paragraflar: [
+                    "İlçeden gelen taleplerin başlıca tipleri ve her birinde planı belirleyen unsur aşağıdadır. Tablo, telefonda hangi bilgiyi sorduğumuzu da göstermektedir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Yaygın kalem", "Ekipman", "Planı belirleyen"],
+                    satirlar: [
+                        ["Süt toplama merkezi", "Tank üstü, dış ünite, saçak", "Kompakt bomlu", "Tanker saatleri"],
+                        ["Yem ve balya sahası", "İstif, aktarma", "Arazi tipi forklift", "Zemin ve yük ölçüsü"],
+                        ["Depolama yapısı", "Fan, kanal, aydınlatma", "Elektrikli makaslı", "Kapı yüksekliği"],
+                        ["Kurutma tesisi", "Üst ünite, çatı geçişi", "Bomlu", "Dış erişim mesafesi"],
+                        ["Atölye ve garaj", "Vinç yolu, tavan tesisatı", "Kompakt makaslı", "Net tavan kotu"],
+                        ["Köy içi yapılar", "Cephe, çatı, aydınlatma", "Kompakt bomlu", "Yol genişliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tarımsal takvim: hangi iş hangi döneme yazılır",
+                paragraflar: [
+                    "Tarım ve hayvancılıkla geçinen bir ilçede takvimi belirleyen şey, işletmenin değil mevsimin kararıdır. Ekim, hasat ve yem hazırlık dönemlerinde işletme sahibinin bakım işine ayıracak ne vakti ne de dikkati kalır; bu dönemlerde yapılan çağrılar genellikle arıza kaynaklıdır. Buna karşılık iki dönem, planlı bakım için doğal olarak boştur: yoğun tarla işlerinin arasındaki geçiş haftaları ve kışın sakin dilimi. Düzenli çalıştığımız işletmelere önerimiz, ertelenebilir kalemleri bu iki pencereye toplamalarıdır.",
+                    "Bunun pratik karşılığı bulunabilirlikte ortaya çıkar. Yoğun dönemde ilçedeki talep aynı haftalara yığılır ve makine seçenekleri daralır; sakin dönemde ise tarihinizi neredeyse serbestçe belirlersiniz, ekip acele etmez ve iş daha temiz biter. Kışın tek dikkat edilecek konu havadır — yağış ve rüzgâr, açık alandaki yüksek kotlu çalışmayı doğrudan sınırlar. Bu yüzden kış planlarını yedek günle kurarız: hedef gün ve onu izleyen bir alternatif birlikte belirlenir, hangisinin geçerli olacağı bir gün önceden netleşir.",
+                ],
+            },
+            {
+                baslik: "Köy yollarında sevkiyat ve son yüz metre",
+                paragraflar: [
+                    "İlçedeki adreslerin bir bölümü, yerleşimin içinden veya tarla yollarından geçilerek ulaşılan noktalardadır. Buralarda planlamayı adres üzerinden değil, güzergâhın en zayıf noktası üzerinden yaparız. Bakılan şeyler bellidir: yolun en dar kesiti, dönüş yarıçapları, menfez ve köprü durumu, ağaç ve havai hat yüksekliği, son yüz metrenin zemini. Bu kontrol telefonda ve harita üzerinde büyük ölçüde yapılabilir; emin olamadığımız noktalarda birkaç fotoğraf isteriz. Ağır çekicinin giremediği durumlarda makine uygun bir yerde indirilir ve kalan mesafeyi refakatçi eşliğinde kendi gücüyle katlar.",
+                    "İkinci mesele varış noktasındaki zemindir. Sıkıştırılmamış toprak veya taze dolgu üzerinde ağır bir makinenin destek ayakları noktasal yük oluşturur ve yüzey beklenmedik biçimde çöker. Bu yüzden destek ayaklarının basacağı yerlere yayma yüzeyi hazırlanır; hazırlanamıyorsa daha uzun erişimli bir makineyle sağlam zeminden uzanmak tercih edilir. Bu tercihi yapmakta hiç tereddüt etmeyiz: mesafeyi ekipmanla kapatmak, makineyi riskli zemine sokmaktan her zaman daha ucuza gelir ve işin tamamlanma ihtimalini artırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Köyümüzde birkaç işletmenin işi var; hepsini aynı güne alabilir misiniz?",
+                cevap:
+                    "Alabiliriz ve bunu zaten teşvik ediyoruz, çünkü ilçedeki en akılcı çalışma biçimi bu. Yapmanız gereken tek şey, bize komşuda da iş olduğunu söylemek; koordinasyonu biz yaparız. Makine sabah hatta girer, işleri coğrafi sıraya göre yapar ve akşam bölgeden ayrılır. Taşıma yükü noktalar arasında paylaşıldığı için her işletmenin ödeyeceği bedel, tek başına çağırdığındakinden belirgin biçimde düşer. Bu düzenin tek şartı tarih esnekliğidir — tek bir güne kilitlenmiş talepleri rotaya bağlamak zorlaşır. İşleri toplarken sizden istediğimiz bilgi de basittir: her noktada ne yapılacağı, hedef yüksekliği ve makinenin durabileceği alanın durumu. Bu üç bilgiyle günün gerçekçi programını çıkarır, hangi işlerin sığacağını önceden söyleriz.",
+            },
+            {
+                soru: "Süt soğutma tankımızın üstünde iş var ama tesis çok küçük; makine sığar mı?",
+                cevap:
+                    "Bu tip yapılarda çoğu zaman iki seçenek üretiriz. Birincisi kompakt bir makineyle içeri girmektir; kapı genişliği, katlanmış makine yüksekliği ve iç manevra alanı buna izin veriyorsa en pratik yol budur. İkincisi, makineyi dışarıda konumlandırıp kapı veya açıklıktan bomla uzanmaktır — küçük yapılarda bu yöntem şaşırtıcı derecede sık işe yarar ve içeriye hiçbir tekerlek girmediği için tesis açısından da temiz bir çözümdür. Hangi yolun geçerli olduğuna karar vermek için kapı ölçüsünü ve hedef noktanın kapıya olan mesafesini bilmemiz gerekir. Süt işlenen bir alan olduğu için elektrikli sınıf kullanırız ve makine içeri girmeden önce tekerlek yüzeyleri temizlenir; bu, ayrıca talep etmenize gerek olmayan standart bir adımdır.",
+            },
+            {
+                soru: "Balya istifi için forklift kiralarken nelere dikkat etmeliyiz?",
+                cevap:
+                    "Üç şeye. Birincisi yükün kendisidir: balya ölçüsü, tahmini ağırlığı ve dengesi standart bir paletten farklıdır, bu yüzden uygun ataşman ve kapasiteyi buna göre seçeriz. İkincisi zemindir — açık sahada sıkıştırılmamış toprak veya taze dolgu varsa standart bir depo forklifti çalışamaz, arazi tipi sınıfa geçmek gerekir. Üçüncüsü istif yüksekliğidir; açık sahada yığın hızla yükselir ve makinenin kaldırma yüksekliği yetmediğinde iş yarıda kalır. Bu üç bilgiyi baştan konuşursak yanlış makine gönderme ihtimali kalmaz. Bir uyarıyı da baştan yapalım: yığının üzerine makine çıkarılmaz ve yükü dengesiz taşımak devrilme riskini doğrudan tetikler. Yoğun dönemde işi hızlandırmak için bu kuralların esnetilmesini talep eden ekiplerle karşılaşıyoruz; operatörlerimiz bu talebi kimden gelirse gelsin kabul etmez.",
+            },
+            {
+                soru: "Göle yakın çalışacağız; özel bir kısıt var mı?",
+                cevap:
+                    "Bizim kendi uyguladığımız birkaç kural var ve bunları müşterilerimize de öneriyoruz. Motor sesi üreten makineler yerine mümkün olduğunca elektrikli sınıf kullanırız; gürültülü kalemler günün orta saatlerine yazılır, erken sabah ve akşam üzeri tercih edilmez. Gece çalışması gerekiyorsa aydınlatma çevreye değil, doğrudan çalışma noktasına yönlendirilir ve iş bittiğinde söndürülür. Atık, ambalaj ve kimyasal hiçbir şey sahada bırakılmaz. Bunların hiçbiri bize dayatılmış kurallar değil, bölgede uzun süre çalışmak isteyen bir firmanın makul davranışıdır. Bunun ötesinde, korunan alanlar ve resmi kısıtlar söz konusuysa bunun muhatabı ilgili kurumlardır; işi planlarken gerekli izinlerin sizde olduğunu varsayarız ve şüpheli bir durum görürsek işe başlamadan sorarız.",
+            },
+            {
+                soru: "İşletmemiz küçük; birkaç saatlik iş için gelmeniz mantıklı mı?",
+                cevap:
+                    "Tek başına duran birkaç saatlik bir iş için taşıma kalemi görece yüksek kalır, bunu saklamayız. Ama ilçedeki çalışma biçimimiz bu sorunu büyük ölçüde çözer: işleri rotaya bağlarız. Bize bir-iki günlük esneklik verirseniz, işinizi aynı bölgeye giden bir programa yerleştirir ve maliyeti paylaştırırız; bu durumda kısa bir iş için de gelmek gayet makul hâle gelir. İkinci öneri kapsamı büyütmektir — çoğu işletmede yüksekte yapılacak küçük kalemler birikmiş hâlde bekler: cephe aydınlatması, oluk, çatı sacı, anten, kamera, ağaç budama. Makine zaten geldiğinde bunları aynı güne toplamak neredeyse ek maliyet üretmez. Üçüncüsü komşuluktur: yakınınızdaki işletmelerin de işi varsa bunu bize söylemeniz yeterli, gerisini biz düzenleriz.",
+            },
+            {
+                soru: "Operatörsüz kiralayıp kendi personelimizle kullanabilir miyiz?",
+                cevap:
+                    "Kullanabilirsiniz, ancak makineyi kullanacak kişinin geçerli yeterlilik belgesi olması şarttır ve bu belgeyi teslimat sırasında görürüz. Belgesiz kullanım hem sözleşmenin ihlalidir hem de olası bir olayda sigorta kapsamını doğrudan etkiler; bu konuda istisna yapmıyoruz. Belgeli bir kullanıcınız varsa teslimatta yine de o modele özgü kısa bir tanıtım yaparız: kumanda düzeni, acil durum indirme, kapasite sınırları ve o makineye ait özel kısıtlar. Kısa sürer ama sahada yaşanan sorunların önemli bölümünü baştan keser. Personeliniz belgeli değilse operatörlü seçeneği öneririz; bu durumda makineyle birlikte gelen operatör yalnızca ekipmanı kullanır, yapılacak teknik işi sizin ekibiniz yürütür. Hangi seçeneği tercih ederseniz edin, kullanım koşulları teklifte açıkça yazılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Manyas’ın kuş cennetiyle tanınan gölüyle anılan, ekonomisi tarım ve hayvancılığa dayalı bir Balıkesir ilçesi olduğu ve bölgede süt toplama, yem-kaba yem stoklama ile tarımsal ürün depolama faaliyetlerinin yaygın olduğu kamuya açık genel bilgidir; rota planı, çevre duyarlılığı kuralları ve zemin uygulamaları firmamızın kendi çalışma biçimidir.",
+    },
+
+    "bolge:bursa-cevre-ili": {
+        h1: "Bursa Çevre İlde Gıda ve Tarım Tesislerine Platform Kiralama",
+        giris:
+            "Balıkesir’in doğu sınırı Bursa’ya komşudur ve bu sınırın iki yanında birbirinin devamı gibi çalışan bir tarım-gıda coğrafyası uzanır. Susurluk’tan doğuya doğru gidildiğinde Karacabey ovası başlar; Mustafakemalpaşa ile birlikte bu hat, hayvancılık, süt üretimi, tarımsal işleme ve kültür mantarı üretimi gibi kalemlerle bilinen bir üretim kuşağı oluşturur. Bizim için buranın anlamı idari sınırdan çok mesafedir: Balıkesir’in doğusundaki parkımızdan bu tesislere ulaşmak, Bursa kent merkezinden yola çıkmaktan çoğu zaman daha kısa sürer. Bu sayfa, Bursa’nın Balıkesir’e komşu bu kesimindeki gıda ve tarım tesislerine verdiğimiz hizmeti anlatıyor — kent sanayisinin cephe ve çatı işlerini değil, üretim tesisinin içindeki erişim ihtiyacını konu ediyor. Buradaki tesis tipleri Susurluk hattındakine benzer biçimde süt, yem ve tarımsal işleme ağırlıklıdır; dolayısıyla saha bilgimiz ve çalışma düzenimiz sınırın ötesinde de aynı şekilde geçerli olur.",
+        maddeler: [
+            {
+                baslik: "Sınır komşuluğunun ulaşım süresine etkisi",
+                metin:
+                    "Çevre il hizmetinde belirleyici olan şey idari harita değil, yol süresidir. Balıkesir’in doğu ilçelerinden Karacabey ve Mustafakemalpaşa hattına ulaşım kısa olduğu için bu bölgedeki işleri kendi hizmet alanımızın doğal bir uzantısı gibi planlarız. Bunun somut karşılığı iki yerde görülür: acil taleplerde bekleme süresinin kısalması ve uzun dönem kiralamalarda ikame makinenin hızlı ulaşması. Yola çıkma kararını da buna göre veririz; bölgeye giden bir sevkiyat varsa aynı hattaki diğer işler o programa eklenir.",
+            },
+            {
+                baslik: "Süt ve hayvancılık işletmelerinde erişim işleri",
+                metin:
+                    "Ovadaki büyük ölçekli hayvancılık ve süt üretim işletmeleri, geniş açıklıklı yapıları ve yoğun mekanik donanımıyla düzenli erişim ihtiyacı doğurur: havalandırma ekipmanı, tavan tesisatı, çatı geçişleri, yemleme sistemi bileşenleri ve saha aydınlatması. Bu yapılarda çalışma planı işletmenin günlük düzenine göre bölünür ve gürültülü kalemler mümkün olduğunca uzak bölümlere yazılır. Kapalı hacimlerde elektrikli sınıf kullanılır; zemin nemli olduğu için konumlanma öncesi tekerlek tutuşu her seferinde ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Tarımsal işleme ve paketleme tesislerinde çalışma",
+                metin:
+                    "Bölgedeki tarımsal ürünün işlendiği, ayıklandığı ve paketlendiği tesisler, dar hatlar ve çok sayıda küçük ekipmandan oluşur. Erişim hedefleri genellikle hat üzerindeki aydınlatma, sensör, aspirasyon kanalı ve konveyör bağlantılarıdır. Buradaki temel kısıt yüksekliğin kendisi değil, hattın çalışıp çalışmadığıdır; hat üzerindeki kalemler yalnızca üretim durduğunda yapılır. Ürünün doğrudan açıkta olduğu bölümlerde ise çalışma noktasının altı örtülür ve sepette gevşek malzeme bulundurulmaz.",
+            },
+            {
+                baslik: "Kontrollü ortamda üretim yapan tesislerde erişim",
+                metin:
+                    "Mantar üretimi gibi sıcaklık ve nemin sürekli kontrol edildiği yapılarda, dış ortamla bağlantının açık kaldığı her dakika üretim koşulunu etkiler. Bu tesislerde çalışırken kapıların açık kalma süresini en aza indirmek, çalışmayı tek seferde bitirmek ve makineyi girmeden önce temizlemek standart uygulamalarımızdır. Yüksek nemli ortamlarda ekipmanın elektrik bağlantıları da ayrı bir dikkat ister; iş dönüşünde kontrol aralığı kısaltılır. Erişim hedefleri genellikle havalandırma ve iklimlendirme donanımıdır.",
+            },
+            {
+                baslik: "Depo, soğuk zincir ve sevkiyat tarafında forklift",
+                metin:
+                    "Ovadaki üretimin şehir pazarlarına ulaştığı halka, depolama ve sevkiyat yapılarıdır ve buradaki talep ağırlıklı olarak forklift takviyesi biçiminde gelir: hasat sonrası dönemde ek makine, kendi ekipmanı bakıma girdiğinde yedek, raf yenilemesinde proje bazlı destek. Kapalı depoda elektrikli veya LPG’li sınıf, açık yükleme alanında dizel sınıf çalışır; ürünün yanında egzoz istenmeyen ortamlarda bu tercih baştan kapanır. Palet ağırlığı, istif yüksekliği ve koridor genişliği teklif öncesinde netleşmesi gereken üç bilgidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Komşu il hattında tesis tipi ve hizmet biçimi",
+                paragraflar: [
+                    "Balıkesir’in doğusundan Bursa ovasına uzanan hatta hizmet verdiğimiz tesis tipleri ve her birinde uyguladığımız kiralama biçimi aşağıdadır. Bu tablo, hangi durumda kısa hangi durumda uzun dönem kurgunun mantıklı olduğunu da gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Erişim ihtiyacı", "Ekipman", "Kiralama biçimi"],
+                    satirlar: [
+                        ["Hayvancılık işletmesi", "Fan, çatı, tesisat", "Elektrikli eklemli", "Kısa dönem tekrarlı"],
+                        ["Süt üretim tesisi", "Tank, hat üstü, dış ünite", "Kompakt elektrikli", "Planlı ziyaret"],
+                        ["Tarımsal işleme", "Hat üstü, kanal, sensör", "Kompakt makaslı", "Duruşa bağlı"],
+                        ["Kontrollü ortam üretimi", "İklimlendirme donanımı", "Dar gövdeli elektrikli", "Kısa ve tek seferlik"],
+                        ["Depo ve soğuk zincir", "Raf, çatı altı, istif", "Makaslı + forklift", "Sezonluk takviye"],
+                        ["Yeni tesis kurulumu", "Çelik, panel, tesisat", "Arazi tipi bomlu", "Uzun dönem proje"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çevre il işlerinde takvimi nasıl kuruyoruz",
+                paragraflar: [
+                    "İl sınırının ötesindeki işlerde planlamayı iki başlıkta yapıyoruz. Tarihi kesin olan işler — planlı duruş, sözleşmeli montaj, önceden belirlenmiş bakım günü — tek başına programlanır ve ekipman o güne ayrılır. Tarihi esnek olan işler ise bekleyen bir listeye alınır ve aynı hatta çıkacak ilk uygun sevkiyata bağlanır. İkinci grupta bekleme birkaç günü bulabilir ama taşıma kalemi paylaşıldığı için bedel belirgin biçimde düşer. Hangi grupta olduğunuzu ilk telefonda birlikte belirleriz; bunu netleştirmek, sonradan yaşanan beklenti farkını tamamen ortadan kaldırır.",
+                    "Uzun süreli işlerde ise yaklaşım değişir. Birkaç haftayı aşan kurulum ve montaj projelerinde makine sahada konaklar; bu durumda mesafenin maliyete etkisi tek bir gidiş-dönüşe iner ve çevre il olması hiçbir dezavantaj üretmez. Bu tip projelerde makineyi düzenli aralıklarla yerinde kontrol eder, servis ihtiyacını sahaya giderek karşılarız. Arıza durumunda ikame ekipman yükümlülüğü sözleşmede süre belirtilerek yazılır ve bu süre, çevre il olduğu için uzatılmaz — mesafeyi müşterinin sorununa dönüştürmek bizim işimiz değil.",
+                ],
+            },
+            {
+                baslik: "Aynı saha bilgisi, iki ilde geçerli",
+                paragraflar: [
+                    "Susurluk hattındaki süt ve gıda tesisleriyle Bursa ovasındaki işletmeler, üretim yapıları itibarıyla birbirine yakın çalışır. Bu, bizim için pratik bir avantajdır: bir tesis tipinde biriktirdiğimiz saha bilgisi sınırın öbür tarafında da geçerlidir. Kapalı gıda alanında elektrikli sınıf zorunluluğu, hidrolik sızıntıya karşı sıkılaştırılmış ön kontrol, çalışma noktasının altının örtülmesi ve sepette gevşek parça bulundurmama kuralı hangi ilde olursak olalım aynı biçimde uygulanır. Müşteri açısından bunun anlamı, prosedürü baştan anlatmak zorunda kalmamaktır.",
+                    "İkinci avantaj operatör tarafındadır. Gıda tesisinde çalışmış bir operatör, alanın kendine has kurallarını bilir: nereye basılmaz, hangi yüzeye temas edilmez, hangi bölümde ne yapılmaz. Bu tür sahalara ilk kez giren bir ekiple çalışmanın maliyeti genellikle zamanla ödenir. Bölgeye atadığımız operatörleri bu nedenle tesis tipine göre seçeriz ve düzenli çalıştığımız sahalara mümkün olduğunca aynı kişileri göndeririz; tanıdık bir saha, her ziyarette daha kısa hazırlık ve daha az soru demektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bursa sınırındayız; Balıkesir’den gelmeniz süre ve maliyet açısından dezavantaj mı?",
+                cevap:
+                    "Hayır, çoğu durumda tam tersi. Belirleyici olan idari sınır değil, aradaki yol süresidir; Balıkesir’in doğu kesiminden ovaya ulaşmak kısa bir yolculuktur ve bu, kent merkezinden gelen bir alternatife göre çoğu zaman avantajlıdır. Maliyet tarafında ise taşıma kalemi mesafeye göre hesaplanır ve teklifte ayrı bir satır olarak açıkça gösterilir; gizli bir çevre il farkı uygulamayız. Uzun süreli projelerde bu tartışma zaten ortadan kalkar, çünkü makine sahada konaklar ve mesafe tek bir gidiş-dönüşe iner. Kısa işlerde ise tarih esnekliği farkı belirgin biçimde düşürür: işinizi aynı hatta çıkan bir sevkiyata bağlarız ve taşıma yükü paylaşılır.",
+            },
+            {
+                soru: "Üretimimiz sıcaklık ve nem kontrollü; makine girişi koşulları etkiler mi?",
+                cevap:
+                    "Etkiler, bu yüzden çalışmayı buna göre kurarız. Temel ilke, dış ortamla bağlantının açık kaldığı süreyi en aza indirmektir: makine ve ekip önceden hazırlanır, iş adımları listelenir, alana girildiğinde beklemeden çalışılır ve tek seferde bitirilir. Kapıların uzun süre açık kalmasını gerektiren senaryolardan kaçınırız. Makine alana girmeden temizlenir; yüksek nemli ortamlarda elektrik bağlantılarının korunması da bizim tarafımızda ek bir kontrol kalemidir. Sizden istediğimiz, çalışma yapılacak bölümün üretim döngüsünde hangi aşamada olduğunu bilmemizdir — hasat veya dolum aşamasındaki bir bölümde çalışmak yerine, döngünün boş dilimine denk getirmek her iki taraf için de doğru olandır. Bu takvimi işletme sorumlunuzla birlikte belirleriz.",
+            },
+            {
+                soru: "Hasat sonrası dönemde forklift takviyesi alıyoruz; süre belirsizse nasıl kiralarız?",
+                cevap:
+                    "Bu senaryo için iki parçalı sözleşme kullanıyoruz. Birinci parça, yoğunluğun kesinlikle yaşanacağı çekirdek süredir; ikinci parça günlük bazda uzayan esnek bir kuyruk. Çekirdek süre bittiğinde makine otomatik çekilmez, siz bildirene kadar sahada kalır ve iadeyi birkaç gün önceden haber vermeniz yeterlidir. Böylece ne erken iade edip yeniden taşıma ödersiniz ne de kullanmadığınız günlere kira yazdırırsınız. Bu dönemler için ayrıca erken rezervasyonu öneririz: hasat sonrası talep hattın tamamında aynı haftalara yığılır ve makine bulunabilirliği hızla daralır. Yaklaşık bir tarih bildirmeniz bile ekipmanın o döneme ayrılması için yeterlidir; kesinleşme yaklaştıkça takvimi birlikte daraltırız.",
+            },
+            {
+                soru: "İki ilde de tesisimiz var; tek sözleşmeyle yönetebilir miyiz?",
+                cevap:
+                    "Evet ve bunu öneriyoruz. Tek bir çerçeve altında her tesis için ayrı bir saha kaydı tutarız: giriş prosedürü, zemin ve ölçü bilgileri, hijyen kuralları ve daha önce kullanılan makine sınıfları. Yeni bir talep geldiğinde hangi tesis olduğunu söylemeniz yeterli olur, koşullar zaten kayıtlıdır. Faturalandırmayı tesis bazında ayrıştırabiliriz; muhasebe tarafında bu genellikle istenen bir düzendir. Tesisler arası makine transferini de biz yaparız — ekipmanı kendi imkânlarınızla taşımanızı istemeyiz, çünkü yükleme, bağlama ve karayolu taşıması ayrı bir uzmanlık ve sigorta konusudur. Transfer önceden planlandığında makine ertesi sabah ikinci tesiste hazır olur ve iki tesisin işini aynı kiralama dönemine yerleştirmek, iki ayrı kiralamadan belirgin biçimde ekonomik çıkar.",
+            },
+            {
+                soru: "Kapalı üretim alanımıza kesinlikle dizel makine giremiyor; hepsi elektrikli mi?",
+                cevap:
+                    "Kapalı gıda üretim alanlarına gönderdiğimiz makinelerin tamamı elektriklidir; bu bir tercih değil, bizim kendi kuralımızdır. Dizel sınıf yalnızca açık sahalarda, yükleme alanlarında ve kurulum şantiyelerinde kullanılır. Elektrikli makinelerde konuşulması gereken iki konu vardır. Birincisi çalışma süresi: uzun ve kesintisiz işlerde şarj ihtiyacı doğar, bu yüzden priz noktası ve kablo güzergâhı önceden belirlenir. İkincisi tekerlek tipi: gıda alanlarında iz bırakmayan tekerlek tercih edilir ve makine alana girmeden yüzeyler temizlenir. Bu iki konuyu teklif aşamasında konuşuruz, sahada sürpriz olmaz. İşin bir bölümü kapalı bir bölümü açık alandaysa iki farklı sınıf planlarız; tek makineyi iki ortama zorlamak yerine doğru makineyi doğru yere koymak her zaman daha verimlidir.",
+            },
+            {
+                soru: "Bölgede uzun süreli bir kurulum projemiz var; ekipmanı sahada tutmanın avantajı ne?",
+                cevap:
+                    "Birkaç haftayı aşan projelerde makinenin sahada konaklaması hemen her açıdan avantajlıdır. Taşıma tek bir gidiş-dönüşe iner, ortaya çıkan ek işlere anında müdahale edilebilir, uzun dönem tarifesi günlük tarifeye göre belirgin biçimde uygundur ve ekip makineye alışır. Buna karşılık iki konuyu baştan netleştiririz. Birincisi faz planıdır: kurulum ilerledikçe ihtiyaç duyulan makine sınıfı değişir ve geçişleri takvime bağlarız, aynı sözleşme altında ekipman değiştiririz. İkincisi bakım ve ikamedir; sahada uzun süre kalan makineyi düzenli aralıklarla yerinde kontrol eder, aşınma emaresi gösteren parçaları arıza çıkmadan değiştiririz. Arıza olursa ikame ekipman süresi sözleşmede yazılıdır ve arızalı geçen süre için kira işlemez. Projede takvim kayması yaşanması normaldir; geçiş tarihlerini yeniden düzenlemek için ek bir bedel istemiyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Balıkesir’in doğu sınırının Bursa’ya komşu olduğu, Karacabey ve Mustafakemalpaşa hattının tarım, hayvancılık ve tarımsal işleme ile anıldığı ve bölgede kültür mantarı üretiminin bilinen bir faaliyet olduğu kamuya açık genel bilgidir; mesafe planlaması, faz kurgusu ve saha kaydı uygulamaları firmamızın kendi pratiğidir.",
+    },
 };

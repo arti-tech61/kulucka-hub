@@ -129,6 +129,11 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `afyonmanlift.com` | **7/7** | 0 | 0 | ✅ TAMAM — Afyon tarım-gıda hattı |
+| `balikesirplatform.org` | **6/6** | 0 | 0 | ✅ TAMAM — gıda-süt-zeytinyağı tesisleri |
+| `amasyaplatform.com` | **5/5** | 0 | 0 | ✅ TAMAM — meyve işleme/soğuk depo (ilk Amasya) |
+| `eskisehirvincplatform.com` | 5/10 | 0 | 0 | 🟡 devam — enerji hat altyapısı + vinç |
+| `manlifteskisehir.com` | 5/9 | 0 | 0 | 🟡 devam — duruş dönemi kapasite yönetimi |
 | `eskisehirplatform.org` | **7/7** | 0 | 0 | ✅ TAMAM — havacılık-savunma tedarik + Sivrihisar |
 | `afyonplatform.com.tr` | **10/10** | 0 | 0 | ✅ TAMAM — mermer ocağı + termal (ilk Afyon) |
 | `bilecikplatform.com` | **7/7** | 0 | 0 | ✅ TAMAM — lojistik kavşak/depo projeleri (ilk Bilecik) |

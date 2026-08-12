@@ -67,6 +67,11 @@ import { AFYONPLATFORM_COM_TR } from "./bespoke/afyonplatform-com-tr";
 import { BILECIKPLATFORM_COM } from "./bespoke/bilecikplatform-com";
 import { BOLUPLATFORM_NET } from "./bespoke/boluplatform-net";
 import { BOZUYUKMANLIFT_COM } from "./bespoke/bozuyukmanlift-com";
+import { ESKISEHIRVINCPLATFORM_COM } from "./bespoke/eskisehirvincplatform-com";
+import { MANLIFTESKISEHIR_COM } from "./bespoke/manlifteskisehir-com";
+import { AFYONMANLIFT_COM } from "./bespoke/afyonmanlift-com";
+import { BALIKESIRPLATFORM_ORG } from "./bespoke/balikesirplatform-org";
+import { AMASYAPLATFORM_COM } from "./bespoke/amasyaplatform-com";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -180,6 +185,11 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "afyonplatform.com.tr": AFYONPLATFORM_COM_TR,
     "bilecikplatform.com": BILECIKPLATFORM_COM,
     "bozuyukmanlift.com": BOZUYUKMANLIFT_COM,
+    "eskisehirvincplatform.com": ESKISEHIRVINCPLATFORM_COM,
+    "manlifteskisehir.com": MANLIFTESKISEHIR_COM,
+    "afyonmanlift.com": AFYONMANLIFT_COM,
+    "balikesirplatform.org": BALIKESIRPLATFORM_ORG,
+    "amasyaplatform.com": AMASYAPLATFORM_COM,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
