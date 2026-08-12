@@ -129,6 +129,9 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `istanbulplatformkiralama.net` | **8/8** | 0 | 0 | ✅ TAMAM — tersane açısı (paralel ajan) |
+| `bursamanlift.net` | **9/9** | 0 | 0 | ✅ TAMAM — cephe-çatı açısı, ilk Bursa (paralel ajan) |
+| `bursamanliftkiralama.net` | **10/10** | 0 | 0 | ✅ TAMAM — uzun dönem sözleşme açısı (paralel ajan) |
 | `ankaraplatform.net` | **10/10** | 0 | 0 | ✅ TAMAM — egzozsuz iç mekân açısı (paralel ajan) |
 | `platformistanbul.net` | **10/10** | 0 | 0 | ✅ TAMAM — hub modeli açısı, ilk İstanbul domaini (paralel ajan) |
 | `ankaramanlift.net` | **9/9** | 0 | 0 | ✅ TAMAM — depo-lojistik/açık saha açısı (paralel ajan) |
