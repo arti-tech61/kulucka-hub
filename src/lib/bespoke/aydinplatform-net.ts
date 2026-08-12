@@ -297,7 +297,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "Yeni deponun raf üstü işleri için hangi makine gerekiyor?",
                 cevap:
-                    "Belirleyici olan tavan yüksekliği ile raf koridorlarının genişliği. Yüksek depolarda iç işler için yüksek erişimli akülü sınıf gerekiyor; koridor darsa dikey sınıf, yatay uzanma gerekiyorsa eklemli akülü tercih ediliyor. İkinci belirleyici zemin: epoksi kaplı zeminlerin yük ve iz toleransı makine ağırlığını sınırlayabiliyor. Bu yüzden keşifte tavan kotu, koridor genişliği ve zemin tipini birlikte soruyoruz. Bu üç bilgiyi paylaşırsanız doğru sınıfı ilk seferde belirleyip teklifi tek turda verebiliriz.",
+                    "Cevabı belirleyen şey, çalışılacak noktanın kotu ile rafların arasındaki geçiş ölçüsü. Ferah geçişli yeni depolarda akülü eklemli gövde rahat dönüyor; geçişler dar kaldığında dikey sınıfa iniyor, sepetin yana açılması gerektiğinde eklemliye geçiyoruz. Üçüncü değişken zemin kaplaması, çünkü bazı yüzeyler makinenin ağırlığına üst sınır koyuyor. Bu ölçüleri keşifte birlikte alıyoruz. Depo projeniz elimizde olduğunda doğru gövdeyi ilk seferde belirleyip teklifi tek turda verebiliyoruz.",
             },
             {
                 soru: "Küçük bir işimiz için Nazilli'ye gelmeniz ekonomik olur mu?",
@@ -589,12 +589,12 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "Panel derzlerimizi ne sıklıkla kontrol ettirmeliyiz?",
                 cevap:
-                    "Yılda bir kez, tercihen yağışlı dönem başlamadan önce. Sandviç panel cephelerin zayıf noktası panelin kendisi değil birleşim detayları: fitil yaşlanması, vida başı korozyonu ve köşe profillerinin açılması yıllar içinde ilerliyor ve genellikle iç mekâna su geldiğinde fark ediliyor. Aynı turda çatı-cephe birleşim hatlarını ve oluk-iniş borularını da kontrol ediyoruz, çünkü sepet zaten orada. Fotoğraflı bir durum kaydı bırakıyoruz; bu kayıt ertesi yıl keşif süresini kısaltıyor ve bütçenizi öngörülebilir hâle getiriyor.",
+                    "Yılda bir kez, tercihen yağışlı dönem başlamadan önce. Sandviç panel cephelerin zayıf noktası panelin kendisi değil birleşim detayları: conta sertleşmesi, sabitleme elemanlarının paslanması ve köşe profillerinin aralanması yıllar içinde ilerliyor ve genellikle iç mekâna su geldiğinde fark ediliyor. Aynı turda çatı-cephe birleşim hatlarını ve oluk-iniş borularını da kontrol ediyoruz, çünkü sepet zaten orada. Fotoğraflı bir durum kaydı bırakıyoruz; bu kayıt ertesi yıl keşif süresini kısaltıyor ve bütçenizi öngörülebilir hâle getiriyor.",
             },
             {
                 soru: "Yeni tesisimizin devreye alma sürecinde makine sahada kalabilir mi?",
                 cevap:
-                    "Kalabilir ve bu tür projelerde önerdiğimiz model bu. Devreye alma döneminde aydınlatma montajı, kanal ve tesisat askıları, kablo tavaları, tabela yerleşimi ve dış cephe kontrolleri farklı yükleniciler tarafından iç içe yürüyor. Her ekip için ayrı sevkiyat yapmak hem pahalı hem de takvimi zorluyor. Makine sahada kaldığında sırayla tüm ekiplere hizmet veriyor ve devreye alma tarihi korunuyor. Proje takviminizi ve hangi ekiplerin yüksek erişime ihtiyaç duyacağını paylaşırsanız, kalış süresini ve toplam maliyeti önceden çıkarabiliriz.",
+                    "Kalır; devreye alma projelerinde zaten önerdiğimiz yöntem bu. O dönemde aydınlatma montajı, kanal ve tesisat askıları, kablo tavaları, tabela yerleşimi ve dış cephe kontrolleri farklı yükleniciler tarafından iç içe yürüyor. Her ekip için ayrı sevkiyat yapmak hem pahalı hem de takvimi zorluyor. Makine sahada kaldığında sırayla tüm ekiplere hizmet veriyor ve devreye alma tarihi korunuyor. Proje takviminizi ve hangi ekiplerin yüksek erişime ihtiyaç duyacağını paylaşırsanız, kalış süresini ve toplam maliyeti önceden çıkarabiliriz.",
             },
             {
                 soru: "Bölge yönetimi olarak ortak alan işlerini toplu yaptırabilir miyiz?",
@@ -604,7 +604,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "Acil bir arızada ne kadar sürede OSB'ye ulaşırsınız?",
                 cevap:
-                    "Aydın içinden çalıştığımız ve bölge ana koridora yakın olduğu için ulaşım saatlerle ölçülüyor. Belirleyici olan mesafe değil, o gün makinenin nerede olduğu ve işin hangi sınıfı gerektirdiği. Tesisinizle önceden basit bir müdahale notu oluşturmayı öneriyoruz: hangi iş tipleri için hangi sınıf gerekiyor, giriş hangi kapıdan yapılıyor, hangi saat aralıkları müsait. Bu not varsa müdahale telefonla başlıyor ve hazırlık süresi neredeyse sıfıra iniyor; yoksa aynı iş keşif ve koordinasyon nedeniyle yarım gün uzayabiliyor.",
+                    "Bölge ana koridora yakın olduğu için ulaşım tarafında sıkıntı yaşamıyoruz; süreyi belirleyen şey yolun uzunluğu değil, o saatte hangi makinenin serbest olduğu ve arızanın hangi erişim sınıfını istediği. Tesisinizle önceden basit bir müdahale notu oluşturmayı öneriyoruz: hangi iş tipleri için hangi sınıf gerekiyor, giriş hangi kapıdan yapılıyor, hangi saat aralıkları müsait. Bu not varsa müdahale telefonla başlıyor ve hazırlık süresi neredeyse sıfıra iniyor; yoksa aynı iş keşif ve koordinasyon nedeniyle yarım gün uzayabiliyor.",
             },
         ],
         kaynak:
@@ -693,7 +693,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "Soğuk depomuzun kabuk bakımı enerji tüketimini gerçekten etkiler mi?",
                 cevap:
-                    "Doğrudan etkiliyor ve en sinsi tarafı, etkisinin arıza olarak görünmemesi. Panel birleşimlerindeki küçük açıklıklar, çatı birleşim hatlarındaki yorulmalar ve soğutma ünitelerinin üst bağlantılarındaki gevşemeler ilk aşamada hiçbir alarm üretmiyor, sadece tüketimi sessizce artırıyor. Fark, nedeni belirsiz bir fatura artışı olarak ortaya çıkıyor. Yıllık kabuk kontrolüyle bu kalemler yakalanıyor. Rampa ve sundurma hattındaki işleri sevkiyat yoğunluğunuza göre sakin haftalara yazıyoruz; cephe ve çatı kalemlerini ise normal akışta yapabiliyoruz.",
+                    "Doğrudan etkiliyor ve sinsi tarafı, kendini hiçbir zaman arıza olarak göstermemesi. Duvar panellerinin ek noktalarında açılan milimetrik boşluklar, örtü birleşimlerinde yorulan detaylar ve soğutma grubunun üst bağlantılarındaki gevşeme herhangi bir alarm üretmiyor; yalnızca kompresörün daha uzun süre çalışmasına yol açıyor. Sonuç, nedeni bulunamayan bir fatura yükselmesi oluyor. Yılda bir yapılan kabuk kontrolü bu kalemleri erkenden yakalıyor. Rampa çevresini sevkiyatın seyreldiği haftalara alıyor, duvar ve örtü işlerini normal akışta yürütüyoruz.",
             },
             {
                 soru: "Silo dış gövde boyası için doğru dönem hangisi?",
@@ -703,7 +703,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "OSB içindeki birkaç tesisimizin işlerini tek programda toplayabilir miyiz?",
                 cevap:
-                    "Toplanmalı, çünkü organize bölgede maliyetin büyük bölümünü makinenin gelip kurulması oluşturuyor. Aynı gün içinde birden fazla tesis ziyaret edildiğinde bu pay bölünüyor ve küçük kalemler makul maliyetli hâle geliyor. Tesislerin ürün takvimleri farklıysa bu avantaj oluyor; program en erken sakinleşen tesisten başlayarak kuruluyor. Faturalama tesis bazında ayrı tutuluyor. Tesislerin kalem listeleri ve hammadde takvimleriyle oturursak tümünü kapsayan tek yıllık programı ve tesis bazlı iş sıralarını birlikte çıkarabiliriz.",
+                    "Toplanmalı, çünkü organize bölgede maliyetin büyük bölümünü makinenin gelip kurulması oluşturuyor. Aynı gün içinde birden fazla tesis ziyaret edildiğinde bu pay bölünüyor ve küçük kalemler makul maliyetli hâle geliyor. Tesislerin ürün takvimleri farklıysa bu avantaj oluyor; program en erken sakinleşen tesisten başlayarak kuruluyor. Faturalama tesis bazında ayrı tutuluyor. Tesislerin kalem listeleri ve hammadde takvimlerini önümüze koyarsak, hepsini kapsayan yıllık çerçeveyi ve her tesisin kendi iş sırasını tek oturumda netleştirebiliriz.",
             },
         ],
         kaynak:
@@ -827,7 +827,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 baslik: "Gıda ve ambalaj hatlarında bilinen disiplin",
                 metin:
-                    "Bölgedeki gıda işleme ve ambalaj tesislerinde uyguladığımız çalışma düzeni, Aydın'daki tarım sanayisi tesislerinde yıllardır uyguladığımızın aynısıdır: açık ürün hattı üstünde çalışılmaz, toz üreten kalemler hava emiş noktalarının komşuluğunda yapılmaz, makine giriş öncesi temizlik protokolünden geçer ve program kalite ekibiyle birlikte kurulur. Bu disiplin bizim için sonradan öğrenilen bir gereklilik değil, standart iş biçimidir. Kemalpaşa'daki gıda tesislerine bu deneyimle gidiyoruz ve kalite kayıtlarının eksiksiz tutulmasına da destek veriyoruz.",
+                    "Bölgedeki gıda işleme ve ambalaj tesislerine, Aydın'daki tarım sanayisinde yıllardır uyguladığımız düzenle giriyoruz: ürünün açıkta ilerlediği bölümlerin dikeyinde çalışılmaz, partikül üretebilecek kalemler emiş ağızlarına yakın noktalarda ertelenir, makine kapıdan geçmeden temizlenir ve iş sırası tesisin kalite sorumlusuyla birlikte belirlenir. Bu disiplin bizim için sonradan öğrenilen bir gereklilik değil, standart iş biçimidir. Kemalpaşa'daki gıda tesislerine bu deneyimle gidiyoruz ve kalite kayıtlarının eksiksiz tutulmasına da destek veriyoruz.",
             },
             {
                 baslik: "Lojistik yapılarında yükseklik ve zemin",
@@ -886,12 +886,12 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "Gıda tesisimizin hijyen kurallarına uyum sağlayabilir misiniz?",
                 cevap:
-                    "Bu bizim için sonradan öğrenilen bir gereklilik değil, standart iş biçimi. Aydın'daki tarım sanayisi ve gıda tesislerinde yıllardır aynı disiplinle çalışıyoruz: açık ürün hattı üstünde çalışılmaz, toz üreten kalemler hava emiş noktalarının komşuluğunda yapılmaz, makine giriş öncesi temizlik protokolünden geçer ve program kalite ekibiyle birlikte kurulur. Kalite kayıtlarının eksiksiz tutulmasına da destek veriyoruz. Kalite ekibinizle işe başlamadan önce yarım saatlik bir toplantı yapmamız yeterli oluyor ve sonrasında sahada tereddüt kalmıyor.",
+                    "Bu bizim için sonradan öğrenilen bir gereklilik değil, olağan çalışma biçimimiz. Aydın'daki tarım sanayisi ve gıda tesislerinde yıllardır aynı disiplinle giriyoruz sahaya: ürünün açıkta ilerlediği bölümlerin dikeyinde iş yapılmıyor, partikül üretebilecek kalemler emiş ağızlarına yakın noktalarda ertelenip başka güne alınıyor, makine kapıdan geçmeden temizleniyor ve iş sırası kalite sorumlunuzla belirleniyor. Kayıtların eksiksiz tutulmasına da yardımcı oluyoruz. Başlamadan önce kısa bir ön görüşme, kuralları netleştirmeye ve sahada tereddüt kalmamasına genellikle yetiyor.",
             },
             {
                 soru: "Depomuzun raf üstü işleri için hangi bilgileri istiyorsunuz?",
                 cevap:
-                    "Üç bilgi belirleyici: tavan kotu, raf koridorlarının genişliği ve zemin tipi. Yüksek depolarda yüksek erişimli akülü sınıf standart; koridor darsa dikey sınıf, yatay uzanma gerekiyorsa akülü eklemli kullanıyoruz. Zemin önemli, çünkü epoksi kaplı yüzeylerin yük ve iz toleransı makine ağırlığını sınırlayabiliyor. Bu üç bilgiyi önceden aldığımızda doğru sınıfı ilk seferde gönderiyoruz ve komşu ilden gelen bir araç için bu özellikle kritik. Depo yerleşim planınızı paylaşırsanız çoğu durumda ayrı keşfe gerek kalmadan net teklif çıkarabiliyoruz.",
+                    "Öncelikle çalışılacak en üst noktanın kotunu, rafların arasındaki geçiş ölçüsünü ve zeminin ne ile kaplı olduğunu soruyoruz. Geniş geçişli depolarda akülü eklemli gövde rahat çalışıyor; geçiş daralıyorsa dikey sınıfa iniyoruz, sepetin yana uzanması gerekiyorsa eklemli tercih ediliyor. Zemin kaplaması, makinenin taşıyabileceği ağırlığa üst sınır koyabiliyor. Komşu ilden gelen bir araç için bu ölçüleri önceden bilmek özellikle önemli, çünkü sahada sınıf değiştirme şansı yok. Yerleşim planınız varsa çoğu zaman keşfe gerek kalmıyor.",
             },
             {
                 soru: "Planlı duruşumuz için Aydın'dan makine bağlayabilir miyiz?",
@@ -916,7 +916,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 baslik: "Tekstil salonlarında iç mekân işleri",
                 metin:
-                    "Dokuma ve örme salonlarında yüksek iş ailesi bellidir: aydınlatma armatürleri, nemlendirme ve havalandırma kanalları, hav emiş hatları, sprinkler donanımı, elektrik tavaları ve kamera sistemleri. Bu ortamlarda iki koşul belirleyicidir — havadaki lif ve toz yükü ile makinelerin sıkışık yerleşimi. Akülü sınıf, egzoz üretmediği ve dar koridorlarda manevra kabiliyeti yüksek olduğu için tercih edilir. Aydınlatma kalitesi tekstil üretiminde doğrudan kalite kontrol performansına bağlıdır; bu yüzden armatür yenileme, bu tesislerde kozmetik değil üretime bağlı bir kalemdir.",
+                    "Dokuma ve örme salonlarında yüksek iş ailesi bellidir: aydınlatma armatürleri, nemlendirme ve havalandırma kanalları, hav emiş hatları, sprinkler donanımı, elektrik tavaları ve kamera sistemleri. Salonun havasındaki lif birikimi ve tezgâhların birbirine yakın dizilmesi, çalışma yönteminin iki temel kısıtıdır; makine seçiminde dikey erişimden çok dar aralıkta dönebilme ve sepetin yana uzanma payı öne çıkar. İçeride egzoz üretmeyen akülü gövde zorunludur. Aydınlatma kalitesi tekstil üretiminde doğrudan kalite kontrol performansına bağlıdır; bu yüzden armatür yenileme, bu tesislerde kozmetik değil üretime bağlı bir kalemdir.",
             },
             {
                 baslik: "Boya-apre bölümlerinde nem ve korozyon",
@@ -926,7 +926,7 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 baslik: "Dış kabuk ve çatı kalemleri",
                 metin:
-                    "Bölgedeki üretim yapılarının büyük bölümü sandviç panel cephe ve trapez çatı ile inşa edilmiştir ve dış kabuk kalemleri düzenli bakım ister: panel ek yerlerinin fitil ve vida kontrolü, çatı-cephe birleşim hatları, oluk ve iniş boruları, çatı ışıklıkları ve duman tahliye kapakları, dış aydınlatma. Bu işlerin tamamı üretim durmadan yapılabilir, bu yüzden tesisin planlı duruş gününü işgal etmemelidir. Kabuk kalemlerini tek gün içinde toplayıp fotoğraflı durum kaydı bırakmak, bu tesislerde en çok tercih edilen çalışma biçimidir.",
+                    "Bölgedeki üretim binalarında hafif çelik taşıyıcı üzerine kurulmuş panel duvar ve eğimli metal örtü yaygındır; bu kabuğun yıllık bakım listesi bellidir: derz hatlarının sızdırmazlık kontrolü, saçak ve mahya bitişleri, yağmur suyu tahliye sistemi, tavan ışıklıkları ile duman atım kapakları ve dış aydınlatma armatürleri. Bu işlerin tamamı üretim durmadan yapılabilir, bu yüzden tesisin planlı duruş gününü işgal etmemelidir. Kabuk kalemlerini tek gün içinde toplayıp fotoğraflı durum kaydı bırakmak, bu tesislerde en çok tercih edilen çalışma biçimidir.",
             },
             {
                 baslik: "Hat günü ve konaklamalı paket ayrımı",
@@ -966,8 +966,8 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 baslik: "Duruş gününü korumak",
                 paragraflar: [
-                    "Çok vardiyalı tekstil tesislerinde planlı duruş günü en pahalı kaynaktır ve o günün hangi işlerle doldurulduğu, bakım bütçesinden daha belirleyicidir. Duruş gerektiren kalemler sınırlıdır: doğrudan makine hattı üstündeki işler, sprinkler sisteminin devre dışı bırakılmasını gerektiren müdahaleler, ana enerji hattına yakın çalışmalar ve boya-apre bölümlerindeki bazı tavan üstü kalemleri.",
-                    "Duruş gerektirmeyen alan ise sanılandan geniştir: dış kabuğun tamamı, konfeksiyon bölümü işleri, alan bölümlemeyle yapılabilen aydınlatma değişimleri, depo raf üstü kalemleri ve idari bölüm işleri üretim sürerken rahatlıkla yürür. Keşifte bu iki listeyi ayırmak, duruş gününü gerçekten gerekli işlere ayırmayı sağlar. Uygulamada en sık gördüğümüz kayıp, duruş gününün üretim sürerken yapılabilecek kalemlerle dolmasıdır.",
+                    "Tekstil tesislerinde tezgâhların durduğu saat, işletmenin en kıt kaynağıdır; o saatin nasıl harcandığı bakıma ayrılan bütçeden çok daha fazlasını belirler. Gerçekten durdurma isteyen kalem listesi kısadır: tezgâh üzerine denk gelen tavan işleri, yangın söndürme hattının kapatılmasını zorunlu kılan müdahaleler, ana pano ve besleme güzergâhına yakın çalışmalar ve yaş işlem bölümündeki bazı üst kot kalemleri.",
+                    "Geri kalanı, tezgâhlar dönerken yürüyebilir: kabuk işlerinin hepsi, konfeksiyon tarafı, bölüm bölüm ilerleyen armatür yenileme, depo raflarının üstü ve idari kanat. Bu iki listeyi keşif aşamasında ayırmak, durdurma saatinin başka türlü yapılamayacak işlere kalmasını sağlar. Sahada en sık rastladığımız savurganlık, tezgâhlar dururken yapılan işlerin aslında dönerken de yapılabilecek olmasıdır.",
                 ],
             },
         ],
@@ -975,12 +975,12 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
             {
                 soru: "Aydın'dan gelmeniz Denizli'deki işimizi pahalılaştırır mı?",
                 cevap:
-                    "Doğru model seçildiğinde hayır. Kısa kalemler için hat günü kullanıyoruz: Nazilli üzerinden ilerleyen koridorda toplanan talepler tek güne diziliyor ve nakliye payı gün içindeki duraklara bölünüyor. Çok günlük işlerde konaklamalı paket kullanıyoruz; sevkiyat tek sefere iniyor ve kurulum-toplama döngüsü tekrarlanmadığı için günlük verim artıyor. Fark, tekil ve sabit tarihli sevkiyat istendiğinde ortaya çıkıyor ve bunu baştan açık paylaşıyoruz. Tarih esnekliği bildirmeniz, mesafeyi faturada görünen bir kalem olmaktan büyük ölçüde çıkarıyor.",
+                    "Modeli doğru kurduğumuzda hayır. Küçük kalemleri hat gününe yazıyoruz: Nazilli üzerinden ilerleyen koridorda biriken talepler aynı güne diziliyor ve araç masrafı o günün bütün duraklarına yayılıyor. İşiniz birkaç gün sürecekse ekip bölgede kalıyor, araç bir kez geliyor ve her sabah yeniden kurulup akşam toplanmadığı için günlük ilerleme belirgin artıyor. Ek yük ancak size özel ve tarihi sabit bir sefer istendiğinde doğuyor; bunu da rakamıyla baştan söylüyoruz. Tarihi esnek bırakmanız çoğu durumda bu farkı ortadan kaldırıyor.",
             },
             {
                 soru: "Dokuma salonumuzda üretim sürerken çalışabilir misiniz?",
                 cevap:
-                    "Çoğu kalem için evet. Aydınlatma değişimi, hat üstüne denk gelmeyen kanal ve tava işleri, kamera ve anons donanımları alan bölümlemeyle yürütülüyor: çalışılacak bölüm geçici boşaltılıyor, akülü sınıf makine egzoz üretmeden ve sessizce çalışıyor, bölüm bitince sıradakine geçiliyor. Havadaki lif yükü ve makinelerin sıkışık yerleşimi nedeniyle yatay uzanma kabiliyeti dikey yükseklikten daha belirleyici oluyor. Yerleşim planınız üzerinden hangi kalemlerin üretim sürerken, hangilerinin duruşta yapılacağını önceden ayırıp iki ayrı program çıkarıyoruz.",
+                    "Kalemlerin çoğu için evet. Armatür yenileme, tezgâh üstüne denk gelmeyen kanal ve tava işleri, kamera ve anons donanımları bölge bölge ilerleyerek yapılıyor: çalışılacak alan geçici olarak boşaltılıyor, iş bitince bir sonraki alana geçiliyor ve salonun tamamı hiçbir aşamada durmuyor. Havadaki lif birikimi ve tezgâhların sık dizilmesi nedeniyle sepetin yana uzanma payı, ulaşılabilen yükseklikten daha çok işe yarıyor. Yerleşim planınız üzerinden çalışırken yapılacak ve durdurma isteyen kalemleri ayırıp iki ayrı program çıkarıyoruz.",
             },
             {
                 soru: "Boya-apre bölümümüzde neden daha sık kontrol gerekiyor?",
