@@ -36,6 +36,7 @@ import type { SiteIcerik } from "./siteler";
 import { IZMIRMAKASLIPLATFORM_XYZ } from "./bespoke/izmirmakasliplatform-xyz";
 import { IZMIR_MANLIFT_NET } from "./bespoke/izmir-manlift-net";
 import { IZMIRMANLIFTKIRALAMA_NET } from "./bespoke/izmirmanliftkiralama-net";
+import { ANKARAEKLEMLIPLATFORM_COM } from "./bespoke/ankaraeklemliplatform-com";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -115,6 +116,7 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "izmirmakasliplatform.xyz": IZMIRMAKASLIPLATFORM_XYZ,
     "izmir-manlift.net": IZMIR_MANLIFT_NET,
     "izmirmanliftkiralama.net": IZMIRMANLIFTKIRALAMA_NET,
+    "ankaraeklemliplatform.com": ANKARAEKLEMLIPLATFORM_COM,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
