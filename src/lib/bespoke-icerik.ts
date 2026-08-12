@@ -57,6 +57,11 @@ import { KONYAPLATFORM_NET } from "./bespoke/konyaplatform-net";
 import { DENIZLIPLATFORM_NET } from "./bespoke/denizliplatform-net";
 import { AYDINPLATFORM_NET } from "./bespoke/aydinplatform-net";
 import { ESKISEHIRMANLIFT_NET } from "./bespoke/eskisehirmanlift-net";
+import { USAKPLATFORM_COM } from "./bespoke/usakplatform-com";
+import { KUTAHYAPLATFORM_COM } from "./bespoke/kutahyaplatform-com";
+import { CANAKKALEPLATFORM_COM } from "./bespoke/canakkaleplatform-com";
+import { MUGLAPLATFORM_COM_TR } from "./bespoke/muglaplatform-com-tr";
+import { BANDIRMAMANLIFT_NET } from "./bespoke/bandirmamanlift-net";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -157,6 +162,11 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "denizliplatform.net": DENIZLIPLATFORM_NET,
     "aydinplatform.net": AYDINPLATFORM_NET,
     "eskisehirmanlift.net": ESKISEHIRMANLIFT_NET,
+    "usakplatform.com": USAKPLATFORM_COM,
+    "kutahyaplatform.com": KUTAHYAPLATFORM_COM,
+    "canakkaleplatform.com": CANAKKALEPLATFORM_COM,
+    "muglaplatform.com.tr": MUGLAPLATFORM_COM_TR,
+    "bandirmamanlift.net": BANDIRMAMANLIFT_NET,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

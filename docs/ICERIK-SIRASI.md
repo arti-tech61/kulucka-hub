@@ -129,6 +129,11 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `kutahyaplatform.com` | **6/6** | 0 | 0 | ✅ TAMAM — seramik+maden-enerji (ilk Kütahya) |
+| `canakkaleplatform.com` | **7/7** | 0 | 0 | ✅ TAMAM — boğaz koridoru+ağır sanayi (ilk Çanakkale) |
+| `usakplatform.com` | 4/8 | 0 | 0 | 🟡 devam — halı-tekstil-deri üçlüsü |
+| `muglaplatform.com.tr` | 4/8 | 0 | 0 | 🟡 devam — turizm sezon ekonomisi |
+| `bandirmamanlift.net` | 4/8 | 0 | 0 | 🟡 devam — Marmara güney liman kuşağı |
 | `eskisehirmanlift.net` | **7/7** | 0 | 0 | ✅ TAMAM — hat bakımı/Eskişehir kimliği (ilk Eskişehir) |
 | `denizliplatform.net` | **10/10** | 0 | 0 | ✅ TAMAM — tekstil-mermer-termal üçlüsü (ilk Denizli) |
 | `aydinplatform.net` | **10/10** | 0 | 0 | ✅ TAMAM — Aydın yerelli dört sektör (ilk Aydın) |

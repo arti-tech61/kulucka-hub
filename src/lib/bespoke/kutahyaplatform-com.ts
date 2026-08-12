@@ -315,4 +315,301 @@ export const KUTAHYAPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Simav'ın jeotermal kaynakları, Eynal çevresindeki termal işletmeler ve ilçenin orman ürünleri sanayisi kamuya açık bilgidir; ortam-makine değerlendirmesi ve program mantığı firma pratiğidir.",
     },
+
+    "bolge:gediz": {
+        h1: "Gediz'de Tarım ve Gıda Sanayisine Platform Kiralama",
+        giris:
+            "Gediz, Kütahya'nın güneyinde, Murat Dağı eteklerinde kurulmuş ve adını bölgede doğan Gediz Nehri ile paylaşan bir ilçedir; 1970 depreminin ardından yerleşimin büyük bölümünün yeniden inşa edilmiş olması, ilçedeki yapı stokunun karakterini de belirlemiştir. Ekonomisi ağırlıkla tarım ve hayvancılık üzerine kuruludur ve platform ihtiyacı da bu zeminden doğar: tahıl siloları, yem üretim tesisleri, soğuk hava depoları, hayvancılık işletmelerinin kapalı ahır ve süthane yapıları, sera ısıtma hatları ve tarımsal ürün paketleme atölyeleri. Buna ilçe merkezindeki kamu binaları, okullar ve ticari yapılar ile Murat Dağı çevresindeki kaplıca işletmelerinin sezon bakımları eklenir. Bu profillerin ortak özelliği, taleplerin yıl içinde düzensiz değil mevsimlik yığılmasıdır — hasat öncesi silo hazırlığı, sezon öncesi tesis bakımı, kış öncesi ısıtma kontrolü. Gediz sayfası, bu mevsimsel ritmi ve saha koşullarının makine seçimine etkisini anlatır.",
+        maddeler: [
+            {
+                baslik: "Tahıl siloları ve depolama yapıları",
+                metin:
+                    "Silo grupları, tarım bölgesinin en yüksek yapılarıdır ve bakım noktaları gövde boyunca dağılır: seviye ölçerler, havalandırma fanları, merdiven ve korkuluk bağlantıları, gövde kaplaması ve tepe kapakları. Bu noktaların bir kısmına sabit merdivenden ulaşılabilir; ulaşılamayan kalemlerde eklemli veya teleskopik sınıf devreye girer. Belirleyici olan, makinenin siloya yanaşabileceği düz alanın genişliğidir — silo çevresi çoğu zaman dolgu zeminlidir ve yanaşma mesafesi kısıtlıysa yükseklikten önce yatay uzanım hesaplanmalıdır.",
+            },
+            {
+                baslik: "Yem ve gıda işleme tesislerinde iç mekân işleri",
+                metin:
+                    "Yem üretimi ve tarımsal ürün işleme tesislerinde iş, karışım ve öğütme bölümlerinin üst kotlarında, elevatör ve bant hatlarında, paketleme hattı üstündeki tesisatlarda yoğunlaşır. Bu tesislerde ortam tozludur ancak ürün gıda zincirine girdiği için temizlik standardı seramik veya maden sahasından farklıdır: iz bırakmayan tekerlek, yağ sızdırma riski kontrol edilmiş elektrikli ünite ve çalışma altının örtülmesi burada da temel kuraldır. İşletmenin kendi gıda güvenliği prosedürü varsa çalışma planı o çerçeveye yerleştirilir.",
+            },
+            {
+                baslik: "Soğuk hava deposu ve muhafaza tesisleri",
+                metin:
+                    "Ürün muhafaza tesislerinde platform işleri belirli bir listeye oturur: evaporatör ve fan grubu bakımı, tavan panel derzlerinin kontrolü, aydınlatma yenileme ve raf sistemleri. Soğuk hacimde çalışmanın iki özelliği vardır — ünitenin ve operatörün düşük sıcaklıkta çalışma süresi sınırlıdır ve kapı geçişleri sıcaklık kaybı ürettiği için giriş-çıkış sayısı azaltılacak şekilde planlanır. Bu yüzden soğuk oda işlerinde konumlanma sırası önceden çıkarılır: makine içeri bir kez alınır, o hacmin bütün kalemleri bitirilip çıkılır.",
+            },
+            {
+                baslik: "Hayvancılık işletmeleri ve sera yapılarında erişim",
+                metin:
+                    "Kapalı ahır, süthane ve sera yapıları, sanayi binalarından farklı bir geometri sunar: geniş açıklıklı ama alçak tavanlı hacimler, hafif çelik veya ahşap taşıyıcılar, yumuşak veya kaygan zeminler. İş kalemleri genellikle havalandırma fanı, aydınlatma, sulama hattı ve örtü-panel onarımıdır. Bu yapılarda ağır makine hem zemin hem manevra açısından uygun değildir; hafif ve dar şasili sınıflar tercih edilir. Hayvan bulunan hacimlerde çalışma, işletmenin belirlediği saatlerde ve hayvanların bölmeden çıkarıldığı pencerelerde yapılır.",
+            },
+            {
+                baslik: "Mevsimlik yığılma ve rezervasyon",
+                metin:
+                    "Tarım bölgesinde talep takvimi doğaya bağlıdır: hasat öncesinde silo ve depo hazırlıkları, sezon öncesinde işletme bakımları, kış girmeden ısıtma ve çatı kalemleri yoğunlaşır. Bu, aynı haftalarda birden çok işletmenin aynı makineyi istemesi anlamına gelir. Çözüm basittir ama erken davranmayı gerektirir — hazırlık dönemini bilen işletmelerin makineyi önceden rezerve etmesi. Tarihini üç-dört hafta önceden bildiren işletmeler istedikleri günü alır; son haftaya kalan talepler, uygunluk neyse ona göre yerleşir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gediz hattında yapı tipi, iş kalemi ve makine notu",
+                paragraflar: [
+                    "İlçedeki başlıca yapı tiplerinde en sık istenen kalemler ve makine seçimini belirleyen ayrıntı aşağıda toplanmıştır.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Sık istenen kalem", "Belirleyici ayrıntı", "Sınıf notu"],
+                    satirlar: [
+                        ["Tahıl silosu", "Seviye ölçer, fan, gövde", "Yanaşma mesafesi", "Eklemli / teleskopik"],
+                        ["Yem-gıda tesisi", "Elevatör, paketleme üstü", "Temizlik standardı", "Elektrikli, iz bırakmayan"],
+                        ["Soğuk hava deposu", "Evaporatör, tavan, raf", "Kapı geçiş sayısı", "Dar şasili makaslı"],
+                        ["Ahır ve süthane", "Fan, aydınlatma, örtü", "Zemin ve tavan kotu", "Hafif sınıf"],
+                        ["Sera", "Isıtma hattı, örtü onarımı", "Yumuşak zemin", "Hafif, geniş tekerlekli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat takvimi bakım takvimini belirler",
+                paragraflar: [
+                    "Tarımsal tesislerde bakımın ne zaman yapılacağı, işletmenin tercihinden çok ürünün takviminden çıkar. Silo, hasat başladığında dolar ve dolu silonun içinde yapılabilecek iş neredeyse yoktur; soğuk hava deposu sezonda ürünle doludur ve boşaltılması mümkün değildir; yem tesisi, hayvancılığın yoğun döneminde durdurulamaz. Bu yüzden bakım penceresi, yıl içinde birkaç haftaya sıkışır ve o pencerede yapılamayan iş, bir sonraki yıla kalır.",
+                    "Bunun kiralamaya yansıması şudur: Gediz hattındaki işletmelerle konuşmamız, ihtiyaç doğduğunda değil pencere yaklaşırken başlamalıdır. Boş dönem tarihini bize önceden bildiren işletme için makineyi o güne kilitleriz, iş listesini birlikte çıkarır ve pencerenin içine sığacak bir sıralama kurarız. Pencereyi kaçırmanın maliyeti, kiralama bedelinin çok üstündedir.",
+                ],
+            },
+            {
+                baslik: "Kırsal saha lojistiği: yol, avlu ve indirme alanı",
+                paragraflar: [
+                    "Tarımsal işletmelerin çoğu, ilçe merkezinin dışında ve tarla yollarından ulaşılan noktalarda bulunur. Bu, ağır nakliye aracı için sanayi bölgesinden farklı bir sorun demektir: yolun genişliği, virajlardaki dönüş açısı, köprü ve menfez taşıma sınırı ile avludaki indirme alanının düzlüğü, sevkiyat gününün başarısını belirler. Yağış sonrası toprak yollarda ağır aracın ilerlemesi mümkün olmayabilir ve bu, sahaya gidildikten sonra anlaşılırsa hem gün hem nakliye boşa gider.",
+                    "Bu yüzden kırsal adreslerde tek bir şey isteriz: giriş yolunun ve avlunun birkaç fotoğrafı ile son yağış durumu. Bu bilgi, aracın hangi noktaya kadar girebileceğini ve makinenin nereden indirilip nasıl ilerleyeceğini önceden çözmemizi sağlar. Gerekirse makine, avlunun dışında uygun bir noktada indirilip kendi gücüyle sahaya yürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silolarımızın bakımını hasattan önce mi sonra mı yaptırmalıyız?",
+                cevap:
+                    "Hasattan önce — ve mümkünse hasada birkaç hafta kala. Bunun nedeni pratiktir: silo boşken gövde, kapak ve havalandırma grubu rahatça gezilir, tespit edilen kusur onarılacak zamanı bulur ve ürün geldiğinde sistem hazır olur. Hasat başladıktan sonra silo dolu ve işletme yoğun olur; o dönemde ancak dışarıdan yapılabilecek sınırlı kalemler kalır. Bir de sırada bekleme meselesi var: bölgedeki bütün işletmeler aynı haftalarda hazırlık yaptığı için makine talebi yığılır. Tarihi erken bildirmek, istediğiniz günü almanın tek yoludur.",
+            },
+            {
+                soru: "Soğuk hava deposunda çalışma yapılabilir mi, makine dondurucu ortamda çalışır mı?",
+                cevap:
+                    "Çalışır, ancak plan buna göre kurulur. Düşük sıcaklık hem akü performansını hem hidrolik akışkan davranışını etkiler ve operatörün konforlu çalışma süresi kısalır; bu yüzden soğuk hacimdeki işler bloklar hâlinde ve mola düzeniyle planlanır. Bir de kapı gerçeği var: her giriş-çıkış hacimde sıcaklık kaybı üretir, dolayısıyla makinenin içeri girip çıkma sayısını en aza indirecek bir konum sırası önceden çıkarılır. Deponuz sezonda doluysa, işi ürün çıkışı sonrasındaki boş pencereye planlamak her açıdan daha verimli olur.",
+            },
+            {
+                soru: "Ahırımızın tavanı alçak ama zemini yumuşak; hangi makine uygun olur?",
+                cevap:
+                    "Bu profilde hafif ve geniş temas yüzeyli sınıflar öne çıkar; ağır ünite, yumuşak zeminde iz açar ve sepet yükseldiğinde tekerlek altında yük tek noktada toplanır. Alçak tavan avantajdır — küçük sınıf makaslı ünite çoğu kalemi karşılar ve manevra sorunu azalır. Zemin gerçekten yumuşaksa yük dağıtıcı altlık kullanılır veya makine, sağlam bir hatta yerleştirilip iş bölgelere ayrılır. Hayvanların bulunduğu bölmelerde çalışma, hayvanlar çıkarıldıktan sonra yapılır; bunu işletmenin günlük düzenine göre birlikte planlarız.",
+            },
+            {
+                soru: "İşletmemiz köy yolundan ulaşılıyor; nakliye aracı gelebilir mi?",
+                cevap:
+                    "Çoğu durumda gelir ama bunu sahaya çıkmadan doğrulamak gerekir. İhtiyacımız olan bilgi az: giriş yolunun genişliği, keskin virajların durumu, yol üzerindeki köprü veya menfezin taşıma sınırı ve avludaki indirme alanının düzlüğü. Birkaç fotoğraf çoğu zaman yeterli olur. Yol ağır araç için uygun değilse çözüm üretiriz — makine yola yakın uygun bir noktada indirilir ve kendi gücüyle sahaya ilerler; arazi tipi üniteler bu geçiş için elverişlidir. Yağış sonrası toprak yollarda ise sevkiyatı birkaç kuru güne ertelemek en sağlıklısıdır.",
+            },
+            {
+                soru: "Sera ısıtma hattımızda bakım var; örtüye zarar verir misiniz?",
+                cevap:
+                    "Amacımız tam tersi. Sera içinde çalışırken iki risk vardır: makinenin manevrası sırasında taşıyıcı profillere veya örtüye temas ve zeminin yumuşaklığı nedeniyle dengesiz konumlanma. İkisi de planla çözülür — çalışma güzergâhı önceden belirlenir, sepetin hareket açıklığı taşıyıcı sistemle karşılaştırılır ve konumlar sağlam yürüyüş hatlarına oturtulur. Örtünün alt sınırına yakın çalışmalarda sepet hareketi yavaş ve kontrollü yapılır. Serada çalışma deneyimi olan operatörle gitmeyi tercih ederiz; bu, teoride küçük görünen ama pratikte pahalıya patlayan temas hasarlarını önler.",
+            },
+            {
+                soru: "İlçedeki birkaç işletme birlikte talep etsek avantaj olur mu?",
+                cevap:
+                    "Olur ve bunu açıkça öneririz. Gediz, Kütahya merkezine göre mesafeli bir ilçedir; tekil bir günlük işte nakliye payı yüksek kalır, buna karşılık aynı hafta içinde birkaç işletmenin işi sıraya dizildiğinde makine bölgede kalır ve sevkiyat maliyeti paylaşılır. İşletmeler arasında herhangi bir ortak sözleşme kurulmaz — herkes yalnız kendi işçilik ve kiralama kalemini öder, kendi teklifini alır. Ortak olan tek şey takvimdir. Pratikte en kolay yol, bir işletmenin koordinasyonu üstlenip tarihleri tek kanaldan netleştirmesidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Gediz'in Murat Dağı eteğindeki konumu, Gediz Nehri'nin bu bölgede doğması, 1970 depremi sonrası yeniden yapılanma ve ilçenin tarım-hayvancılık ağırlığı kamuya açık bilgidir; mevsimsel planlama ve saha lojistiği yaklaşımı firma pratiğidir.",
+    },
+
+    "bolge:bilecik-osb-cevre-ili": {
+        h1: "Bilecik ve Bozüyük'e Kütahya'dan Platform Kiralama",
+        giris:
+            "Bilecik, Kütahya'nın kuzeyindeki komşu ildir ve bizim için tanıdık bir sanayi dili konuşur: Bozüyük aksı, Türkiye'nin seramik ve yapı malzemeleri üretiminde adı geçen merkezlerinden biridir ve bu tesislerin iç mimarisi, Kütahya'da her hafta içinde çalıştığımız binaların neredeyse aynısıdır — uzun fırın hatları, presleme ve şekillendirme bölümleri, sırlama kabinleri, hammadde hazırlama kuleleri ve paletli mamul depoları. Kütahya'dan kuzeye çıkan karayolu bu hattı doğrudan besler; ayrıca ilin İstanbul-Ankara aksı üzerinde bulunması, seramik dışında ambalaj, metal işleme ve depolama tesislerinden oluşan ikinci bir talep katmanı yaratır. Çevre il hizmetimizi buraya götürürken sattığımız şey yalnız makine değil, aynı üretim tipini tanıyan bir çalışma düzenidir: fırın duruşunun ne demek olduğunu, sırlama hattının neden örtülmesi gerektiğini ve hammadde kulesinde hangi kota nasıl yanaşıldığını baştan biliriz.",
+        maddeler: [
+            {
+                baslik: "Aynı üretim tipini tanımanın saha karşılığı",
+                metin:
+                    "Seramik tesisinde erişim planı, binanın kendisinden çok üretim akışına göre kurulur; bunu bilmeyen bir ekip sahada zaman kaybeder. Kütahya'daki tesislerde kurduğumuz düzen Bozüyük hattında doğrudan işe yarar: hangi kalemin fırın duruşunu beklemesi gerektiği, hangi bölümde iz bırakmayan ünite kullanılacağı ve mamul deposunda forklift trafiğiyle nasıl bir sıra kurulacağı, keşif gününde konuşulacak konu olmaktan çıkar. Teklif ilk turda gerçekçi çıkar ve saha günü konumlanma denemeleriyle tükenmez.",
+            },
+            {
+                baslik: "Duruş takvimlerinin eşleştirilmesi",
+                metin:
+                    "Fırınlı üretim yapan tesislerin bakım pencereleri yıl içinde belirli tarihlere oturur ve bu tarihler çoğu zaman komşu tesislerde birbirine yakın düşer. Bilecik hattındaki taleplerde ilk yaptığımız iş, elimizdeki duruş takvimlerini yan yana koymaktır: aynı haftaya düşen iki tesisin işi ardışık planlandığında makine bölgede kalır, sevkiyat bir kez yaşanır ve iki tesis de gecikmesiz makine bulur. Takvimini erken paylaşan tesis bu düzende her zaman avantajlıdır; geç bildirilen tarihler, boşta kalan güne göre yerleşir.",
+            },
+            {
+                baslik: "Ambalaj, metal ve depolama tesisleri",
+                metin:
+                    "İlin ana ulaşım aksı üzerindeki konumu, seramik dışında da düzenli iş üreten bir doku kurmuştur: ambalaj ve kâğıt işleme tesisleri, metal şekillendirme atölyeleri, dağıtım ve aktarma depoları. Bu tesislerdeki kalemler seramiğe göre daha öngörülebilirdir — raf sistemleri, çatı altı aydınlatma, havalandırma ve yangın hattı bakımı, kapı-rampa mekanizmaları. Zemin beton ve ortam temiz olduğu için makaslı sınıf çoğu işi karşılar ve bu tesisler, hava koşulundan bağımsız planlanabildikleri için programın esnek omurgasını oluşturur.",
+            },
+            {
+                baslik: "Blok program: mesafeyi süreyle eritmek",
+                metin:
+                    "Çevre il çalışmasında ekonomiyi belirleyen tek değişken, makinenin bölgede geçirdiği gün sayısıdır. Bu yüzden Bilecik taleplerini tekil çağrı olarak değil blok program olarak kurarız: makine bölgeye gider, önceden çıkarılmış liste gün gün ilerler ve blok bitince döner. Blok en az birkaç günü bulduğunda sevkiyat, toplam içinde küçük bir kaleme iner. Tesisin listesi tek başına bloku doldurmuyorsa aynı hattaki başka tesislerin kalemleriyle birleştirilir; bu, işletmeye günlük tarifenin altında bir birim maliyet sağlar.",
+            },
+            {
+                baslik: "Uzun projelerde sahada konumlanma",
+                metin:
+                    "Yeni hat kurulumu, kapsamlı fırın revizyonu veya depo genişletme gibi haftalara yayılan projelerde blok program yerini yerinde bulundurmaya bırakır: ünite proje boyunca tesiste kalır, günlük sevkiyat maliyeti ortadan kalkar ve ekipler makineyi bekleyerek zaman kaybetmez. Bu modelde periyodik bakım, bizim bölgeye yaptığımız planlı ziyaretlerle yürür ve kullanım kayıtları düzenli tutulur. Proje takvimi kayarsa süre uzatımı önceden konuşulur; makinenin projeye bağlı kalması, teklif aşamasında yazılı olarak tanımlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bilecik hattında iş büyüklüğü ve çalışma modeli",
+                paragraflar: [
+                    "İşin büyüklüğüne göre önerdiğimiz model ve bunun işletmeye yansıması aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş büyüklüğü", "Önerilen model", "Sevkiyatın payı", "Tipik kalemler"],
+                    satirlar: [
+                        ["Yarım-bir günlük", "Başka tesisle eşleştirme", "Paylaşılır", "Aydınlatma, tekil bakım"],
+                        ["Birkaç günlük liste", "Blok program", "Günlere bölünür", "Depo rafı, tavan hattı"],
+                        ["Fırın duruşu", "Takvimli rezervasyon", "Duruşa yazılır", "Hat üstü, baca çevresi"],
+                        ["Haftalara yayılan proje", "Yerinde bulundurma", "Tek sefer", "Yeni hat, revizyon"],
+                        ["Ani arıza", "Öncelikli sevkiyat", "Tam", "Kritik erişim ihtiyacı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Komşu il olmanın gerçek sınırı: müdahale süresi",
+                paragraflar: [
+                    "Çevre il hizmetinde dürüst konuşulması gereken bir konu var: mesafe, günlük erişimi etkilemez ama ani ihtiyaçta gecikme üretir. Makine sahanızdaysa aradaki yol sizin için görünmez; ancak sahada makine yokken çıkan acil bir talep, sevkiyat süresini bekler. Bu gerçeği süsleyerek anlatmayız — şehir içi hızına eşdeğer bir müdahale sözü vermek, tutulamayacak bir taahhüttür.",
+                    "Buna karşı elimizdeki tek etkili araç öngörüdür. Bakım takvimini paylaşan, listesini önceden çıkaran ve tekrarlayan kalemleri programa bağlayan tesislerde acil çağrı neredeyse hiç doğmaz. Öngörülemeyen durumlarda ise sevkiyatı önceliklendirir ve tahmini varış süresini net söyleriz; belirsiz bir 'yola çıktık' cümlesi yerine, planlamanızı kurabileceğiniz bir saat vermeyi tercih ederiz.",
+                ],
+            },
+            {
+                baslik: "Kütahya standardının komşu ile taşınması",
+                paragraflar: [
+                    "Merkezden uzaklaşınca işin standardının gevşemesi, kiralama sektöründe bilinen bir sorundur. Bizim düzenimizde Bilecik'e giden makine, Kütahya'da teslim ettiğimiz makineyle aynı hazırlıktan geçer: periyodik kontrol belgeleri güncel, teslim öncesi kontrol listesi imzalı, operatör yeterlilikleri dosyalı. Sahada uygulanan güvenlik talimatları ve iş sonu raporlama biçimi de değişmez.",
+                    "Bunun bir de ticari yüzü var: çevre ilde verilen taahhüdün takibi zor olduğu için, verdiğimiz sözü dar tutup tam tutmayı tercih ederiz. Yapamayacağımız süre taahhüdünü teklife yazmayız; yazdığımızın arkasında ise, mesafe ne olursa olsun dururuz. İşçilikten kaynaklanan bir eksik çıkarsa bir sonraki bölge ziyaretinde bedelsiz tamamlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bozüyük'teki seramik tesisimizin fırın duruşu iki gün; bu sürede iş biter mi?",
+                cevap:
+                    "Listeye bağlı, ama iki günlük duruşta yapılabilecek iş miktarını belirleyen şey çoğu zaman kalem sayısı değil konumlanma sayısıdır. Bu yüzden duruş öncesinde listeyi konumlara göre grupluyoruz: makinenin duracağı her nokta için o noktadan erişilebilen bütün kalemler bir arada toplanır ve aynı yere iki kez gidilmez. Bu ön çalışma yapıldığında iki günlük pencerede tamamlanan iş, plansız çalışmanın belirgin üstüne çıkar. Duruş tarihini ve iş listesini birkaç hafta önce paylaşırsanız bu sıralamayı birlikte çıkarır, gerçekçi bir kapsam üzerinde anlaşırız.",
+            },
+            {
+                soru: "Kütahya'dan geliyorsunuz; Bilecik'teki yerel firmalara göre avantajınız ne?",
+                cevap:
+                    "Mesafe konusunda yerel firmanın avantajı gerçektir ve bunu inkâr etmeyiz — ani ihtiyaçta yakınlık kazanır. Bizim iddiamız başka bir yerde: aynı üretim tipini her gün çalışıyor olmak. Kütahya, seramik üretiminin köklü merkezlerinden biridir ve fırın hattı, sırlama bölümü, hammadde kulesi bizim için tarif edilmesi gereken yerler değil, rutin çalışma alanlarıdır. Bu birikim sahada zaman kazandırır, özellikle kısa duruş pencerelerinde fark yaratır. Karşılaştırmayı adres üzerinden değil, işin kapsamı ve yazılı taahhütler üzerinden yapmanızı öneririz.",
+            },
+            {
+                soru: "Depomuzun raf montajı için birkaç günlük iş var; nasıl bir model kurmalıyız?",
+                cevap:
+                    "Bu tam olarak blok program büyüklüğüdür: makine bölgeye gelir, iş listesi gün gün ilerler ve sevkiyat maliyeti toplam içinde küçük bir kaleme iner. Depo işlerinin avantajı öngörülebilir olmalarıdır — zemin beton, ortam temiz, kalemler tekrarlı; bu da günlük ilerlemeyi tahmin etmeyi kolaylaştırır. Listenizi ve raf koridor genişliğinizi paylaşın, gün sayısını baştan yazalım. İşiniz bloku doldurmuyorsa aynı hattaki başka bir tesisin talebiyle eşleştirmeyi öneririz; bu durumda sevkiyat payı paylaşılır ve her iki taraf da kazanır.",
+            },
+            {
+                soru: "Makine sahamızdayken arıza çıkarsa ne kadar beklememiz gerekir?",
+                cevap:
+                    "Önce şunu söyleyelim: çağrıların önemli bir kısmı sahada çözülebilir. Kumanda, akü, emniyet devresi ve kullanım kaynaklı duruşların çoğu telefonla veya görüntülü bağlantıyla giderilir; bunun için teslimde sık karşılaşılan durumların kısa bir listesini bırakırız. Yerinde müdahale gerekiyorsa ekip Kütahya'dan yola çıkar ve size tahmini varış saatini net söyleriz. Onarım uzayacaksa ikame ünite planı devreye girer. Şehir içi hızında bir taahhüt vermeyiz; verdiğimiz süre gerçekçidir ve uzun süreli kiralamalarda bu eşik sözleşmede yazılı hâle getirilir.",
+            },
+            {
+                soru: "Yeni üretim hattı kuruyoruz; makineyi proje boyunca sahada tutabilir miyiz?",
+                cevap:
+                    "Evet, uzun projelerde önerdiğimiz model zaten budur. Ünite proje süresince tesiste kalır; günlük sevkiyat maliyeti ortadan kalkar, montaj ekipleri makine beklemez ve iş, takvim kaydıkça esnek ilerler. Periyodik bakım, bölgeye yaptığımız planlı ziyaretlerle yürütülür ve kullanım saatleri düzenli kaydedilir. Süre uzarsa uzatım koşulları baştan yazılır, böylece proje ortasında yeniden pazarlık gerekmez. Bir de pratik ayrıntı: ünitenin gece güvenli ve mümkünse kapalı bir alanda bırakılabilmesi, hem güvenlik hem bakım açısından bizim istediğimiz tek şeydir.",
+            },
+            {
+                soru: "İki komşu tesis birlikte talep etsek nasıl bir düzen kurulur?",
+                cevap:
+                    "Bu, bölge için kurabileceğimiz en verimli düzendir. İki işletmenin kalem listeleri ayrı ayrı elimize ulaştığında bloku iş yüküne göre böler ve sıralamayı tarihlere bağlarız. Sevkiyat payı iş yüküne oranla paylaşılır; işçilik ve malzeme kalemleri ise tamamen ayrıdır — her tesis kendi teklifini alır, kendi raporunu alır ve diğerinin işleyişinden etkilenmez. Süre yetmezse blok bir gün uzar. Sizden istediğimiz tek şey, tarih ve sıra konusunda tek bir muhatap belirlemenizdir; bu, planlamayı gereksiz yazışmadan kurtarır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bozüyük hattının seramik ve yapı malzemeleri üretimindeki yeri, Bilecik'in İstanbul-Ankara ulaşım aksı üzerindeki konumu ve Kütahya'nın seramik üretim geleneği kamuya açık bilgidir; blok program ve rezervasyon düzeni firma pratiğidir.",
+    },
+
+    "bolge:usak-osb-cevre-ili": {
+        h1: "Uşak OSB'ye Kütahya'dan Platform Kiralama (Çevre İl)",
+        giris:
+            "Uşak, Kütahya'nın güneybatı komşusudur ve iki il, Zafer bölgesi olarak anılan kalkınma hattının parçası olarak ortak bir ulaşım ve sanayi coğrafyasını paylaşır; iki ile birlikte hizmet veren Zafer Havalimanı bu ortaklığın en görünür örneğidir. Şehrin sanayi kimliğini battaniye üretimiyle özdeşleşmiş dokuma geleneği, iplik tesisleri ve ülke genelinde bilinen tekstil geri dönüşüm faaliyeti belirler; buna deri işleme sanayisi ile seramik ve yapı malzemeleri üretimi eklenir. Kütahya'dan bakınca bu tablo iki tanıdık, bir yabancı alan içerir: seramik ve yapı malzemeleri tesisleri bizim günlük çalışma alanımızdır, depolama ve istif ağırlıklı tesisler her il için benzer kurallarla işler, deri ve arıtma sahaları ise kendi prosedürlerini dayatan özel bir ortamdır. Bu sayfada, Kütahya çıkışlı bir programın Uşak'ta nasıl kurulduğunu ve hangi tesis tipinin hangi hazırlığı gerektirdiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Seramik ve yapı malzemesi tesislerinde ortak teknik dil",
+                metin:
+                    "Uşak'ın seramik ve yapı malzemeleri tesisleri, Kütahya'da çalıştığımız binalarla aynı mantıkla kurulmuştur: hammadde hazırlama kulesi, presleme ve şekillendirme bölümü, fırın hattı, mamul deposu. Bu benzerlik, keşif süresini kısaltan somut bir avantajdır — hangi kalemin duruş penceresi istediğini ve makinenin hangi kota nereden yanaşacağını tartışmadan çıkarabiliriz. Bu tesislerde en sık istenen kalemler hat üstü tesisat, toz kanalı bakımı, aydınlatma yenileme ve mamul deposu raf işleridir.",
+            },
+            {
+                baslik: "Balya depoları ve yüksek istif alanları",
+                metin:
+                    "Tekstil ve geri dönüşüm faaliyetinin en belirgin fiziksel izi, balyalanmış malzemenin depolandığı geniş hacimlerdir. Bu alanlarda istif yüksekliği tavana kadar çıkabilir ve bu, platform açısından iki sorun üretir: makinenin ilerleyebileceği koridorlar daralır, ayrıca istif kenarına yanaşırken devrilme riski taşıyan balya yığınlarından güvenli mesafe korunmalıdır. Aydınlatma, yangın algılama ve sprinkler hattı bakımı bu hacimlerde en kritik kalemlerdir ve çalışma, istifin geçici olarak açıldığı pencerelerde planlanır.",
+            },
+            {
+                baslik: "Deri işleme ve arıtma sahalarında prosedür önceliği",
+                metin:
+                    "Deri sanayisinin bulunduğu bölgelerde ortak arıtma yapıları düzenli erişim işi çıkarır: havuz çevresi korkulukları, blower ve pompa grupları, boru köprüleri ve ölçüm ekipmanları. Bu sahalarda çalışmanın kuralını biz değil tesisin kendi güvenlik prosedürü belirler; gaz ölçümü, izin sistemi ve koruyucu donanım koşulları sağlanmadan iş başlamaz. Havuz kenarına yanaşan makine konumları ayrıca dikkat ister — kenar zemininin taşıma gücü ve düşme riski, konum seçiminin belirleyicisidir.",
+            },
+            {
+                baslik: "Kütahya çıkışlı programın kurulması",
+                metin:
+                    "Uşak, günübirlik tekil kiralama için ekonomik bir mesafede değildir; bu yüzden talepleri baştan program olarak kurarız. Program, tek tesisin biriken listesiyle veya aynı bölgedeki birkaç işletmenin kalemlerinin aynı haftaya toplanmasıyla oluşur. Makine bölgeye bir kez gider, liste gün gün ilerler ve sevkiyat, günlere bölündüğü için birim maliyeti aşağı çeker. Program uzunluğu keşifte liste büyüklüğüne göre belirlenir ve tarih, tesisin bakım penceresine göre kilitlenir.",
+            },
+            {
+                baslik: "Ortam farkına göre makine hazırlığı",
+                metin:
+                    "Uşak'taki tesis tipleri birbirinden hayli farklı ortamlar sunar ve makine hazırlığı buna göre değişir: tozlu seramik hatlarında filtre ve soğutma kontrolü sıklaştırılır, elyaf ve balya bulunan hacimlerde ünitenin sıcak yüzeyleri ve elektrik grubu düzenli temizlenir, nemli arıtma sahalarında korozyon açısından bağlantı noktaları izlenir. Bu hazırlık, kiralamanın görünmeyen ama arıza oranını doğrudan belirleyen kısmıdır; hangi ortama gideceğini bilerek çıkan makine, sahada beklenmedik duruş üretmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Uşak'ta tesis tipi, erişim noktası ve hazırlık notu",
+                paragraflar: [
+                    "Bölgedeki başlıca tesis tiplerinde erişimin yoğunlaştığı noktalar ve makine hazırlığına yansıması aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Erişim noktası", "Zemin / ortam", "Hazırlık notu"],
+                    satirlar: [
+                        ["Seramik-yapı malzemesi", "Hat üstü, toz kanalı", "Fabrika betonu, tozlu", "Sık filtre kontrolü"],
+                        ["Dokuma-iplik tesisi", "Tavan hattı, menfez", "Beton, elyaf yüklü", "Sıcak yüzey temizliği"],
+                        ["Balya deposu", "Aydınlatma, yangın hattı", "Beton, dar koridor", "İstif mesafesi planı"],
+                        ["Deri ve arıtma sahası", "Havuz çevresi, boru köprüsü", "Nem, kimyasal", "İzin ve gaz ölçümü"],
+                        ["Lojistik deposu", "Raf üstü, çatı altı", "Düz beton", "Trafik penceresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İstif yüksekliğinin erişim planına etkisi",
+                paragraflar: [
+                    "Balya ve paletli malzemenin tavana yakın istiflendiği depolarda erişim sorunu yükseklikten değil geometriden doğar. Makinenin çalışacağı noktaya ulaşması için koridorun boş olması gerekir; istif kenarına fazla yaklaşıldığında ise yığının stabilitesi devreye girer ve bu, sepetteki kişi için gerçek bir risktir. Bu yüzden depo işlerinde konum planı, istif yerleşimi bilinmeden kâğıt üstünde çıkarılamaz.",
+                    "Pratik çözümümüz, işi istif hareketiyle birlikte planlamaktır: deponuzun sevkiyat veya giriş yoğunluğunun düştüğü, belirli bir bölümün geçici olarak boşaldığı pencere belirlenir ve makine o bölümün bütün kalemlerini o pencerede bitirir. Bu düzen kurulduğunda hem güvenlik sınırları korunur hem depo operasyonu bir bütün olarak durdurulmak zorunda kalmaz.",
+                ],
+            },
+            {
+                baslik: "İki ilin ortak coğrafyası ve programın ekonomisi",
+                paragraflar: [
+                    "Kütahya ile Uşak, aynı kalkınma bölgesinde yer alan ve ulaşım altyapısını paylaşan iki komşudur; bu, çevre il hizmetini bir istisna değil düzenli bir çalışma hattı hâline getirir. Bizim için anlamı şudur: bölgeye giden makine, tek bir tesisin işiyle sınırlı kalmak zorunda değildir ve hat üzerindeki talepler birbirini besler. İşletme için anlamı ise birim maliyettir — program büyüdükçe sevkiyatın gündeki payı küçülür.",
+                    "Buna karşılık dürüst bir sınır da çizeriz: yarım günlük tekil bir iş için çevre ile makine göndermek, ödeyeceğiniz nakliye açısından savunulabilir değildir ve bunu baştan söyleriz. Böyle durumlarda ya işi bakım döneminize kadar biriktirmenizi ya da bölgedeki başka bir talebe eşleştirmeyi öneririz. Her işi almaya çalışmak yerine doğru büyüklükte iş kurmak, ilişkinin uzun sürmesini sağlayan şeydir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Balya deposumuzda yangın algılama hattı bakımı var; istifi boşaltmamız gerekir mi?",
+                cevap:
+                    "Tamamını boşaltmanız gerekmez, ancak çalışılacak bölümün geçici olarak açılması gerekir. Nedeni güvenliktir: makinenin ilerleyeceği koridorun boş olması ve sepetin istif yığınına güvenli mesafede kalması şarttır — yüksek balya yığınının kenarına yanaşmak, yığın stabilitesi bilinmeden kabul edilebilir bir risk değildir. Uygulamada en verimli yöntem, işi bölümlere ayırıp deponun doğal sirkülasyonuyla eşleştirmektir: hangi bölüm ne zaman boşalıyorsa o bölümün kalemleri o pencereye yazılır. Böylece depo bir bütün olarak durmaz.",
+            },
+            {
+                soru: "Arıtma tesisimizde çalışma yapabilir misiniz?",
+                cevap:
+                    "Tesisinizin güvenlik prosedürü çerçevesinde evet. Bu sahalarda kural koyucu biz değiliz: gaz ölçümü, çalışma izni, koruyucu donanım ve gerekiyorsa gözcü bulundurma koşulları sizin sisteminizce belirlenir ve biz o çerçeveye uyarız. Ekibimiz sahaya, talep edilen belge ve donanımla gelir. Teknik tarafta dikkat ettiğimiz nokta konumlanmadır — havuz kenarındaki zeminin taşıma gücü ve düşme riski, makinenin duracağı yeri belirler ve gerekirse sepet, havuza uzanmak yerine güvenli bir noktadan yatay erişimle çalışır. Koşullar uygun değilse bunu söyler, alternatif yöntem öneririz.",
+            },
+            {
+                soru: "Seramik tesisimizde çalışacaksınız; Kütahya'daki deneyiminiz bize ne kazandırır?",
+                cevap:
+                    "En somut kazanç zamandır. Fırın hattı, sırlama bölümü, hammadde kulesi ve mamul deposu bizim için tarif edilmesi gereken yerler değildir; hangi kalemin duruş istediğini, hangi bölümde iz bırakmayan ünite kullanılacağını ve hangi kota nereden yanaşılacağını keşifte tartışmadan çıkarırız. Bu, özellikle kısa bakım pencerelerinde fark yaratır — plan hazır olduğu için duruşun ilk saatleri konumlanma denemeleriyle geçmez. İkinci kazanç, teklifin gerçekçiliğidir: gün sayısı tahminle değil, benzer tesislerdeki ilerleme hızıyla verilir.",
+            },
+            {
+                soru: "Tek günlük bir işimiz var; Kütahya'dan gelmeniz mantıklı mı?",
+                cevap:
+                    "Açık konuşalım: tek günlük bir iş için çevre ilden sevkiyat, ödediğiniz nakliye açısından verimsizdir ve bunu size baştan söyleriz. Üç yol var. Birincisi, işi bir sonraki bakım dönemine kadar biriktirip programa dönüştürmek — çoğu tesis için en ekonomik seçenek budur. İkincisi, bölgede zaten planlanmış bir programa eklenmek; o hafta makine oradaysa işiniz araya girer ve sevkiyat payı düşer. Üçüncüsü, iş gerçekten acilse tekil sevkiyatla gelmek ve nakliyeyi ayrı satır olarak açıkça göstermek. Karar sizin, ama hesabı gizlemeyiz.",
+            },
+            {
+                soru: "Programa komşu tesisleri de eklersek bizim işimiz gecikir mi?",
+                cevap:
+                    "Gecikmez, çünkü program kurulurken sıra ve gün paylaşımı baştan yazılır: hangi tesiste kaç gün çalışılacağı ve hangi tarihte geçileceği tarih verilmeden önce netleşir. Kendi listeniz için ayrılan gün, başka bir tesisin işi uzadı diye kısalmaz — süre aşımı yaşanırsa program bir gün uzar ve bu, gecikmeye neden olan tarafla konuşulur. Tesisler arasında hiçbir sözleşme bağı kurulmaz; herkes kendi teklifini alır ve kendi raporunu alır. Paylaşılan tek kalem sevkiyattır ve payı iş yüküne göre belirlenir.",
+            },
+            {
+                soru: "Farklı ortamlar için ayrı makine mi göndermeniz gerekiyor?",
+                cevap:
+                    "Her zaman değil, ama hazırlık farklıdır. Aynı ünite hem tozlu bir seramik hattında hem temiz bir lojistik deposunda çalışabilir; değişen şey kontrol sıklığı ve ara temizliktir. Buna karşılık bazı durumlarda sınıf değişimi gerçekten gerekir — dar depo koridoru ile açık saha arasında geçiş yapıyorsanız veya kapalı hacimde egzoz üretmeyen ünite şartsa iki farklı makine planlanır. Programı kurarken bunu baştan hesaplarız: hangi kalem hangi üniteyle yapılacaksa liste ona göre gruplanır ve gerekirse program içinde makine değişimi tek sevkiyata sığdırılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Uşak'ın battaniye-ev tekstili, tekstil geri dönüşüm, deri ve seramik-yapı malzemeleri sanayisi ile Kütahya-Uşak illerinin ortak kalkınma bölgesinde yer alması ve Zafer Havalimanı'nın iki ile birlikte hizmet vermesi kamuya açık bilgidir; program kurulumu ve hazırlık düzeni firma pratiğidir.",
+    },
 };

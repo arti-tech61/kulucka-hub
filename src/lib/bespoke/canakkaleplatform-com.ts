@@ -416,4 +416,301 @@ export const CANAKKALEPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Gelibolu yarımadasının dar kara yapısı, tarım-balıkçılık-ziyaretçi trafiğine dayalı ekonomik dokusu kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Üç katmanlı gün planı ve konaklamalı model firma pratiğidir.",
     },
+
+    "bolge:biga-osb": {
+        h1: "Biga OSB'de Organize Sanayi Platform Kiralama",
+        giris:
+            "Organize sanayi bölgesi, aynı ilçedeki dağınık sanayi sahalarından yapısal olarak ayrılır: parseller planlıdır, yollar makine geçişine uygun boyutlandırılmıştır, altyapı ortaktır ve bölge yönetimi giriş-güvenlik düzenini merkezden yürütür. Bu düzen platform işini kolaylaştırdığı kadar kendi kurallarını da getirir — giriş kaydı, saha içi hız ve güzergâh kuralları, yüklenici belge kontrolü. Biga OSB'nin üretim dokusunda metal işleme ve yan sanayi ağırlıklı tesislerle birlikte gıda, yapı malzemesi ve lojistik yapıları da yer alır; dolayısıyla tek bir OSB gününde birbirinden çok farklı iş tipleri sıralanabilir. Bizim için buranın asıl kazancı komşuluktur: yürüme mesafesindeki üç tesisin işi, tek sevkiyatla ve tek güvenlik kaydıyla bitirilebilir.",
+        maddeler: [
+            {
+                baslik: "Yeni nesil üretim hollerinde yüksek kot işleri",
+                metin:
+                    "OSB parsellerindeki üretim yapıları genellikle planlı ve geniş açıklıklı çelik hollerdir: tavan yükseklikleri fazladır, kolon aralıkları geniştir ve iç zemin düzgün betondur. Bu geometri platform için elverişlidir; makine engelle karşılaşmadan hedefin altına yanaşabilir. Tipik kalemler aydınlatma yenileme, kablo tavası ve boru hattı montajı, çatı altı havalandırma, sprinkler hattı ve vinç kirişi çevresi işleridir. Kapalı hollerde akülü sınıf zorunludur; hol boşken çalışıldığında günlük ilerleme belirgin şekilde artar.",
+            },
+            {
+                baslik: "Yeni tesis kurulumları ve devreye alma dönemi",
+                metin:
+                    "Organize bölgelerde iş talebinin önemli bir kısmı yeni yatırımların kurulum aşamasından gelir: makine yerleşimi sırasında yüksek bağlantılar, basınçlı hava ve elektrik hatlarının çekilmesi, aydınlatma armatürlerinin montajı, tabela ve cephe tamamlama işleri. Bu dönem yoğun ve sıkışıktır; birden fazla taşeron aynı anda sahadadır ve platform, farklı ekipler arasında paylaşılır. Bu tür kurulumlarda haftalık ya da aylık kiralama, günlük çağrılara göre hem ucuz hem pratik olur; makine sahada kalır, sıra ekipler arasında planlanır.",
+            },
+            {
+                baslik: "Uzun cephe hatlarında ilerleme düzeni",
+                metin:
+                    "OSB yapılarının dış cepheleri uzun ve engelsizdir; panel onarımı, oluk-dere hatları, cephe aydınlatması ve tabela işleri bu hat boyunca ilerler. Burada verimi belirleyen şey bomun boyu değil, makinenin konum değiştirme hızıdır: cephe hattı boyunca kademeli ilerleyen bir düzen kurulduğunda günlük metraj yükselir. Cephe yönü de plana girer, çünkü açık parsel düzeni rüzgârı kesmez; boğaz tarafından gelen akış OSB koridorlarında hissedilir ve geniş yüzeyli panel taşıyan kalemler sakin saatlere yazılır.",
+            },
+            {
+                baslik: "Saha altyapısı: aydınlatma, kamera ve yönlendirme",
+                metin:
+                    "Bölge yönetiminin ve tesislerin ortak kullandığı saha altyapısı düzenli bakım ister: yol aydınlatma direkleri, güvenlik kamerası kuleleri, yönlendirme tabelaları ve enerji direği çevresindeki işler. Bu kalemler kısa sürer ama dağınıktır; makinenin gün içinde çok kez yer değiştirmesi gerekir. En verimli düzen, bunları tek güne dizip rota mantığıyla ilerlemektir. Enerji hattı yakınındaki kalemlerde yaklaşma mesafeleri ve gerekiyorsa dağıtım tarafıyla koordinasyon plana önceden eklenir.",
+            },
+            {
+                baslik: "Bölge kurallarına uyum ve belge düzeni",
+                metin:
+                    "OSB'ye makineyle girmek, bir fabrikaya girmekten farklıdır: bölge yönetiminin giriş kaydı, saha içi trafik kuralları ve çoğu zaman yüklenici belge kontrolü vardır. Operatör yeterlilik belgeleri, makinenin periyodik kontrol kayıtları ve sigorta evrakları hazır tutulur; ilk girişte tamamlanan bu set, sonraki işlerde süreci hızlandırır. Saha içi güzergâh ve hız kurallarına uyum, hem bölge yönetimiyle ilişkiyi hem tesislerin operasyon güvenliğini korur. Bu düzen bizim açımızdan rutindir ve müşteriye ek yük çıkarmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB gününde iş tipi, süre karakteri ve kiralama biçimi",
+                paragraflar: [
+                    "Organize bölge işlerinde doğru kiralama biçimini işin süresi değil, tekrar sıklığı belirler. Aşağıdaki tablo bu ayrımı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Süre karakteri", "Uygun kiralama", "Not"],
+                    satirlar: [
+                        ["Hol içi aydınlatma ve tesisat", "Orta, tekrarlı", "Haftalık", "Hol boşken hızlı ilerler"],
+                        ["Yeni tesis devreye alma", "Uzun, çok ekipli", "Aylık", "Makine ekipler arasında paylaşılır"],
+                        ["Uzun cephe hattı", "Orta, kesintisiz", "Haftalık", "Kademeli ilerleme düzeni"],
+                        ["Saha altyapı direkleri", "Kısa, dağınık", "Günlük, rotalı", "Tek güne dizilir"],
+                        ["Acil arıza müdahalesi", "Çok kısa", "Günlük", "Komşu işlerle birleştirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Komşuluk ekonomisi: aynı sevkiyat, üç tesis",
+                paragraflar: [
+                    "Organize bölgenin en büyük avantajı, tesislerin birbirine yakın olmasıdır. Bir platformun sahaya gelmesi, indirilmesi ve gün sonunda toparlanması sabit bir maliyet üretir; bu maliyet tek bir tesise yüklendiğinde yüksek, üç tesise bölündüğünde makul hâle gelir. Bu yüzden OSB taleplerinde ilk sorduğumuz şey, komşu parsellerde benzer bir işin olup olmadığıdır. Bölge yönetiminin ya da tesislerin kendi aralarındaki iletişimi bu planı çoğu zaman kolayca kurar.",
+                    "Uygulamada iki model işliyor. Birincisi eş zamanlı model: aynı gün için üç tesis birlikte talep açar, makine parseller arasında sırayla dolaşır. İkincisi tur modeli: bölgeye zaten planlanmış bir sevkiyat varken kısa işler o güne eklenir. İkinci model için tarih esnek notuyla talep açmak yeterlidir; sıra geldiğinde biz haber veririz.",
+                ],
+            },
+            {
+                baslik: "Kurulum döneminde makineyi sahada tutmanın mantığı",
+                paragraflar: [
+                    "Yeni bir tesisin devreye alınması, günlük çağrılarla yönetilebilecek bir süreç değildir: mekanik, elektrik, otomasyon ve cephe ekipleri sırayla ve bazen aynı anda yüksek erişime ihtiyaç duyar. Her ihtiyaçta makine çağırmak hem gecikme hem tekrarlanan nakliye maliyeti demektir. Aylık kiralamada makine sahada kalır, ekipler arasında bir sıra çizelgesi kurulur ve boş kalan saatler başka kalemlerle doldurulur.",
+                    "Bu modelde bizim tarafımızdaki sorumluluk süreklilik sağlamaktır: periyodik kontroller sahada yapılır, arıza durumunda ikame süresi sözleşmede tanımlanır ve operatörlü çalışılacaksa vardiya düzeni baştan yazılır. Kurulum takviminizi paylaşırsanız hangi haftalarda hangi sınıfın gerekeceğini de birlikte çıkarabiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'ye girişte hangi belgeler isteniyor, süreci siz mi yürütüyorsunuz?",
+                cevap:
+                    "Süreci biz yürütüyoruz, sizden yalnızca bölge yönetiminin sizden istediği tesis içi onayı bekliyoruz. Bizim tarafımızda hazır duran set şudur: operatör yeterlilik belgeleri, makinenin periyodik kontrol ve muayene kayıtları, sigorta evrakları ve gerektiğinde risk değerlendirme dokümanı. Bu belgeler ilk girişte bölge yönetimine ve tesis güvenliğine iletilir; sonraki işlerde süreç çok daha hızlı işler. Sizin tarafınızda bir yüklenici kayıt sistemi varsa formatını söyleyin, evrakları o formatta hazırlarız. Amaç, iş gününün evrak beklemekle geçmemesi.",
+            },
+            {
+                soru: "Yeni fabrikamız kuruluyor; kiralamayı nasıl kurgulamalıyız?",
+                cevap:
+                    "Kurulum döneminde günlük çağrı modeli en pahalı seçenektir. Mekanik, elektrik, otomasyon ve cephe ekipleriniz sırayla yüksek erişime ihtiyaç duyacak ve her seferinde nakliye maliyeti tekrar edecek. Bunun yerine aylık kiralamada makine sahada kalır, ekipler arasında bir çizelge kurulur ve boş saatler başka kalemlerle doldurulur. Kurulum takviminizi paylaşırsanız hangi haftada hangi sınıfın gerektiğini birlikte çıkarırız — bazı dönemlerde yüksek erişimli tek makine yeterken, montaj yoğun haftalarda ikinci bir kompakt makine daha verimli olur.",
+            },
+            {
+                soru: "Hol içi aydınlatmayı üretim devam ederken yenileyebilir miyiz?",
+                cevap:
+                    "Yenileyebilirsiniz ama iş süresi uzar. Üretim sürerken sepetin altındaki alan kapatılır, forklift ve personel trafiğine alternatif güzergâh gösterilir ve varsa köprülü vincin hareket sektörleriyle hizalanır. Bu düzenin kurulması ve her konum değişiminde tekrarlanması, hol boşken yapılacak aynı işi belirgin şekilde uzatır. Deneyimimiz şu: aydınlatma yenileme gibi hol boyunca ilerleyen işler, hafta sonu veya planlı duruş gibi boş bir pencerede yapıldığında hem daha ucuz hem daha hızlı bitiyor. Karar sizin, iki senaryoyu da rakamla sunarız.",
+            },
+            {
+                soru: "Komşu parseldeki firmayla birlikte kiralasak avantaj olur mu?",
+                cevap:
+                    "Belirgin avantaj olur ve organize bölgede en çok önerdiğimiz düzenleme budur. Nakliye, indirme-yükleme ve giriş kaydı sabit maliyetlerdir; iki ya da üç tesise bölündüğünde birim maliyet ciddi şekilde düşer. Uygulaması da basit: aynı gün için birlikte talep açarsınız, makine parseller arasında sırayla dolaşır ve her tesis kendi kalemlerini kendi saatinde çalışır. Faturalandırmayı ayrı ayrı yaparız, ortak bir muhasebe düzenlemesine ihtiyacınız olmaz. Komşunuzda iş olup olmadığını bilmiyorsanız, talebinizi ortak plana açık notuyla iletin.",
+            },
+            {
+                soru: "Cephe panelimiz geniş; rüzgâr OSB içinde de sorun olur mu?",
+                cevap:
+                    "Olur, çünkü organize bölgelerin parsel düzeni açıktır ve rüzgârı kesecek yoğun bir yapı dokusu yoktur. Boğaz tarafından gelen akış OSB yolları boyunca rahatça ilerler; hatta yapı adaları arasındaki koridorlarda hızlanabilir. Geniş yüzeyli panel bom ucunda ek bir yük yaratır ve çalışma sınırını makinenin sertifikalı değerinin altına çeker. Bu yüzden panel taşıyan kalemleri günün sakin dilimine, bağlantı ve detay kalemlerini gün içine yazarız. Cephenizin yönünü ve panel ölçülerini söylerseniz, hangi bloklara böleceğimizi baştan planlarız.",
+            },
+            {
+                soru: "Bölgedeki saha aydınlatma direklerinin bakımı için toplu anlaşma yapılabilir mi?",
+                cevap:
+                    "Yapılabilir ve dağınık kısa işler için en mantıklı düzen budur. Yol aydınlatması, kamera kuleleri ve yönlendirme tabelaları gibi kalemler tek tek çağrıldığında her seferinde nakliye maliyeti doğurur; oysa bunlar planlı bir turda tek güne dizilebilir. Dönemsel bir bakım programı kurarız: liste önceden çıkarılır, rota mantığıyla sıralanır ve makine gün boyunca kısa mesafelerle ilerler. Enerji hattı yakınındaki kalemler için mesafe kuralları ve gerekiyorsa dağıtım tarafıyla koordinasyon aynı programda planlanır. Liste elimize geçtiğinde gün ve fiyat tahminini birlikte veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Organize sanayi bölgelerinin planlı parsel-altyapı düzeni ve Biga'nın sanayi ağırlığı kamuya açık genel bilgidir; firma adı, parsel sayısı ve rakam kullanılmamıştır. Komşuluk ekonomisi, tur modeli ve kurulum dönemi kurgusu firma pratiğidir.",
+    },
+
+    "bolge:ezine": {
+        h1: "Ezine'de Gıda ve Tarım Tesislerinde Platform Kiralama",
+        giris:
+            "Ezine, Çanakkale'nin adını üretimiyle duyurmuş ilçesidir: hayvancılığa dayalı süt ve peynir üretimi burada bir işletme kolundan çok bölgesel bir kimlik hâlini almış, çevresindeki tarım ve zeytin üretimiyle birlikte ilçenin ekonomik dokusunu kurmuştur. Bu doku, platform ihtiyacını ağır sanayiden tamamen farklı bir yere taşır. Buradaki tesisler kapalı, hijyen kurallı ve üretim akışı kesintisiz yapılardır; çalışma alanı temiz, zemin ıslak, tavan yüksekliği orta banttadır. İşin zorluğu bomun boyunda değil, üretim hattını durdurmadan ve hijyen düzenini bozmadan yüksek kota çıkabilmektedir. İlçenin ikinci damarı ise tarımsal yapılar ve depolardır: bunlarda kısıt hijyen değil zemin ve mevsimdir. Aynı ilçede iki farklı çalışma disiplini yan yana yürür.",
+        maddeler: [
+            {
+                baslik: "Gıda üretim alanlarında hijyen düzeni",
+                metin:
+                    "Süt ve peynir üretimi yapılan alanlarda platform, sıradan bir ekipman değil üretim ortamına giren bir unsurdur; bu yüzden sahaya temizlenmiş hâlde girer, lastikleri kontrol edilir ve gerekirse çalışma alanı üretim hattından fiziksel olarak ayrılır. Egzoz üreten makine bu alanlarda kullanılmaz, akülü sınıf zorunludur. Yağ ve hidrolik sızıntı riski taşıyan noktalar iş öncesi kontrol edilir; üretim alanının üstünde çalışılıyorsa altına koruma serilir. Bu kurallar tesisin kendi hijyen prosedürüyle birleştirilir ve çalışma öncesinde yazılı hâle getirilir.",
+            },
+            {
+                baslik: "Islak zemin ve soğutmalı alanlarda güvenlik",
+                metin:
+                    "Süt işleme alanlarının zemini üretim boyunca ıslaktır ve düzenli yıkanır; bu, makinenin tutuşunu ve fren mesafesini doğrudan etkiler. Park noktaları kuru ve düz bölgelerden seçilir, gerekirse çalışma öncesi bölgesel kurutma istenir. Soğutmalı depolarda ise düşük sıcaklık çalışma bloklarını kısaltır ve zeminde buzlanma olabilir. Bu iki koşul birlikte, ilçedeki gıda tesislerinde en sık verdiğimiz güvenlik uyarısını oluşturur: yüksekteki iş değil, makinenin alttaki tutuşu belirleyicidir.",
+            },
+            {
+                baslik: "Kesintisiz üretimde pencere planı",
+                metin:
+                    "Süt işleyen tesislerde hammadde günlük gelir ve işlenmesi ertelenemez; dolayısıyla üretim akışı kolayca durdurulamaz. Yüksek kotlu bakımlar bu nedenle vardiya araları, temizlik dönemleri ve haftalık bakım pencerelerine yazılır. Bu pencereler kısa ama düzenlidir; planlanabilir olmaları büyük avantajdır. Uzun süren işler bu kısa pencerelere bölünerek birkaç güne yayılır. Tesis yetkilisiyle vardiya takvimi üzerinden çalışıp hangi kalemin hangi pencereye sığdığını baştan belirlemek, buradaki işlerin en kritik adımıdır.",
+            },
+            {
+                baslik: "Tarımsal depolar ve zeytin işleme yapıları",
+                metin:
+                    "İlçenin gıda tesisleri dışındaki ikinci iş ailesi tarımsal yapılardır: yem ve hububat depoları, zeytin işleme tesisleri, soğuk hava depoları ve hayvancılık işletmelerinin barınak yapıları. Bu yapılarda tipik kalemler çatı ve oluk onarımı, aydınlatma, havalandırma sistemleri ve silo üstü erişimdir. Kısıt burada hijyen değil zemindir: toprak yüzeyler, dar giriş kapıları ve mevsimlik yumuşama. Ayrıca hasat ve işleme dönemlerinde tesisler doludur; planlı işler bu dönemlerin dışına alınır.",
+            },
+            {
+                baslik: "Hayvancılık işletmelerinde çalışma nezaketi",
+                metin:
+                    "Süt üretiminin arka planındaki hayvancılık işletmelerinde platform işi bir ek boyut daha kazanır: hayvan varlığının bulunduğu barınaklarda gürültü ve ani hareket rahatsızlık yaratır, bu yüzden akülü ekipmanın sessiz çalışması burada teknik değil pratik bir avantajdır. Çalışma, sağım saatleri dışına planlanır; barınak içi zemin ve altlık malzemesi makinenin tutuşunu etkilediği için park noktaları dikkatle seçilir. Aydınlatma, havalandırma ve çatı işleri barınaklarda en sık talep edilen kalemlerdir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ezine'de tesis tipi, baskın kısıt ve çalışma penceresi",
+                paragraflar: [
+                    "İlçedeki iki farklı iş ailesinin kısıtları ve uygun çalışma pencereleri aşağıdadır. Aynı makine sınıfı iki ailede de çalışır, değişen şey plandır.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Baskın kısıt", "Çalışma penceresi", "Makine notu"],
+                    satirlar: [
+                        ["Süt ve peynir üretim alanı", "Hijyen, ıslak zemin", "Vardiya arası, temizlik dönemi", "Akülü, temizlenmiş giriş"],
+                        ["Soğuk hava deposu", "Düşük sıcaklık, buzlanma", "Depo boşken", "Kısa blok, tutuş kontrolü"],
+                        ["Zeytin işleme tesisi", "Sezon yoğunluğu", "İşleme dönemi dışı", "Standart iç mekân sınıfı"],
+                        ["Yem ve hububat deposu", "Toz, dolu depo", "Boşaltma sonrası", "Arazi kabiliyeti"],
+                        ["Hayvancılık barınağı", "Hayvan varlığı, altlık zemin", "Sağım saatleri dışı", "Sessiz akülü çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kısa pencereleri verimli kullanmanın yolu",
+                paragraflar: [
+                    "Gıda tesislerinde çalışma penceresi kısa olduğu için kaybedilen her dakika pahalıdır ve en çok dakika hazırlıkta kaybedilir: makinenin temizlenmesi, alan ayrımının kurulması, park noktasının bulunması. Bu yüzden pencere işlerinde hazırlığı pencerenin dışına taşıyoruz — makine alana pencere başlamadan önce girer, konumlanır, kontrolü yapılır ve üretim durduğu anda iş fiilen başlar. Bu düzenleme, otuz dakikalık bir pencerede yapılabilecek iş miktarını gözle görülür şekilde artırır.",
+                    "İkinci yöntem kalem gruplamadır. Aynı bölgedeki birden fazla kalem tek pencereye toplanır, farklı bölgedeki kalemler ise ayrı pencerelere yazılır; makinenin pencere içinde uzun mesafe gitmesi en büyük zaman kaybıdır. Tesis krokisi üzerinde bu gruplamayı birlikte yapmayı öneriyoruz.",
+                ],
+            },
+            {
+                baslik: "Mevsim takvimine göre planlama",
+                paragraflar: [
+                    "İlçedeki üretimin büyük kısmı mevsime bağlıdır ve bakım takvimi bu ritme göre kurulduğunda hem ucuz hem sorunsuz olur. Zeytin işleme tesislerinde sezon dışı aylar, yem ve hububat depolarında boşaltma sonrası dönem, soğuk hava depolarında ise stokun en düşük olduğu haftalar en verimli çalışma zamanlarıdır. Bu dönemlerde alan boştur, çalışma penceresi geniştir ve iş, üretimi hiç etkilemeden biter.",
+                    "Süt işleyen tesislerde ise mevsimden çok haftalık ritim belirleyicidir; hammadde her gün geldiği için uzun duruş yerine düzenli kısa pencereler kullanılır. Bu iki farklı ritmi bilerek planlamak, ilçedeki müşterilerimizin bakım maliyetini en çok düşüren şeydir. Yıllık bakım listenizi çıkarırsak hangi kalemin hangi aya yazılacağını birlikte belirleyebiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim alanımıza makine sokmak hijyen açısından sorun yaratır mı?",
+                cevap:
+                    "Doğru hazırlıkla yaratmaz. Sahaya giren ekipman temizlenmiş hâlde gelir, lastikleri kontrol edilir ve gerekirse çalışma alanı üretim hattından fiziksel olarak ayrılır. Egzoz üreten makine bu alanlarda kullanılmaz; akülü sınıf hem emisyon hem koku açısından uygundur. Üretim ekipmanının üstünde çalışılacaksa altına koruma serilir ve olası yağ-hidrolik sızıntı noktaları iş öncesinde kontrol edilir. Tesisinizin kendi hijyen prosedürünü bize iletirseniz, çalışma planını o prosedüre göre yazılı hâle getiririz. Böylece denetim açısından da kayıt altında bir süreç yürütmüş olursunuz.",
+            },
+            {
+                soru: "Zeminimiz sürekli ıslak; platform kaymaz mı?",
+                cevap:
+                    "Islak zemin bu tesislerdeki en gerçek risktir ve çalışmanın ilk maddesi budur. Park noktaları kuru ve düz bölgelerden seçilir, gerekirse çalışma öncesi o bölgenin kurutulmasını isteriz. Zeminde eğim varsa ve makine hareket hâlinde çalışacaksa tutuş ve fren mesafesi ayrıca değerlendirilir; şüphe varsa makine sabit konumda çalıştırılır ve hedefe bomla ulaşılır. Soğutmalı alanlarda buzlanma riski de aynı başlığa girer. Bu değerlendirme keşifte yapılır ve sonucu operatör brifingine yazılır; sahada karar verilmez.",
+            },
+            {
+                soru: "Üretimi durduramıyoruz; iş ne zaman yapılacak?",
+                cevap:
+                    "Vardiya araları, temizlik dönemleri ve haftalık bakım pencereleri kullanılır. Bu pencereler kısadır ama düzenli olmaları büyük avantajdır: planlanabilirler. Uzun bir iş, bu kısa pencerelere bölünüp birkaç güne yayılır ve toplamda üretim hiç durmadan tamamlanır. Verimi artırmak için hazırlığı pencerenin dışına taşırız; makine alan hazır olduğunda içerideki yerini almış olur ve üretim durduğu anda iş fiilen başlar. Vardiya takviminizi paylaşırsanız hangi kalemin hangi pencereye sığdığını baştan belirleriz.",
+            },
+            {
+                soru: "Soğuk hava deposunda çatı altı işi var; depo dolu olabilir mi?",
+                cevap:
+                    "Olabilir ama plan tamamen değişir. Depo boşken çalışmak her açıdan üstündür: makine serbestçe konumlanır, güvenlik alanı rahat kurulur ve süre kısalır. Dolu depoda ise koridor genişlikleri, raf yükseklikleri ve ürün koruma gereksinimleri belirleyici olur; makine sınıfı buna göre seçilir ve altta koruma düzeni kurulur. Düşük sıcaklık ayrıca çalışma bloklarını kısaltır, dinlenme aralıkları plana yazılır. Bu yüzden önerimiz nettir: mümkünse stokun en düşük olduğu haftaya planlayın, iş hem ucuza hem hızlı biter.",
+            },
+            {
+                soru: "Zeytin tesisimizin bakımını ne zaman yaptırmalıyız?",
+                cevap:
+                    "Sezon dışı aylar açık ara en verimli dönemdir. İşleme döneminde tesis doludur, hatlar çalışır, alan dardır ve her müdahale üretimi etkiler; oysa sezon dışında alan boştur, çalışma penceresi gün boyudur ve iş kesintisiz ilerler. Bu dönemde çatı-oluk onarımı, aydınlatma yenileme, havalandırma ve silo üstü erişim kalemlerinin hepsi tek kiralamada toplanabilir. Ayrıca makine bulunurluğu da bu aylarda rahattır, dolayısıyla tarih konusunda esnekliğiniz olur. Yıllık listenizi çıkarırsanız hangi kalemin hangi aya yazılacağını birlikte planlarız.",
+            },
+            {
+                soru: "Hayvan barınağımızda çalışacaksınız; hayvanlar etkilenir mi?",
+                cevap:
+                    "Düzen doğru kurulursa etkilenmez. Akülü ekipman içten yanmalı makinelere göre çok daha sessiz çalışır ve egzoz gazı üretmez; barınak içinde bu iki özellik doğrudan işe yarar. Çalışmayı sağım ve besleme saatlerinin dışına planlarız, bom hareketleri yavaşlatılmış modda yürütülür ve ani hareketlerden kaçınılır. Zemin tarafında altlık malzemesi makinenin tutuşunu etkiler; park noktaları bu nedenle dikkatle seçilir ve gerekirse sert zeminli bölgeden bomla erişim tercih edilir. Barınak düzeninizi ve günlük ritminizi söylerseniz planı ona göre kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Ezine'nin süt-peynir üretimiyle tanınan tarım-gıda kimliği kamuya açık bölgesel bilgidir; işletme adı, kapasite ve rakam kullanılmamıştır. Hijyen düzeni, pencere planı ve mevsim takvimi yaklaşımı firma pratiğidir.",
+    },
+
+    "bolge:bandirma-osb-balikesir-cevre-ili": {
+        h1: "Bandırma OSB ve Balıkesir Çevresine Platform Kiralama",
+        giris:
+            "Çanakkale'nin doğu kapısından çıkıldığında Balıkesir tarafı başlar ve Bandırma, bu komşuluğun en çok iş üreten noktasıdır: liman işlevi, kimya-gübre ağırlıklı sanayisi ve Marmara kıyısındaki lojistik konumu, bölgeyi Biga hattının doğal devamı hâline getirir. Biga yarımadasının metal-enerji kuşağıyla Bandırma çevresi arasındaki mesafe, aynı sevkiyat planına girebilecek kadar kısadır; bu yüzden Çanakkale tarafındaki filomuz komşu il taleplerini de düzenli karşılar. Buradaki iş profili kıyı sanayisinin klasik bileşenlerini taşır: liman geri sahası depoları, kimya tesislerinin boru ve tank yapıları, silo ve dökme yük tesisleri, organize bölge içindeki üretim holleri. Marmara kıyısındaki rüzgâr rejimi ise boğaz koridorundan farklıdır ve planı ayrıca etkiler.",
+        maddeler: [
+            {
+                baslik: "Liman geri sahası ve depo yapıları",
+                metin:
+                    "Liman çevresindeki geri saha, dökme ve genel kargonun elleçlendiği geniş açık alanlarla yüksek tavanlı depolardan oluşur. Platform işleri burada aydınlatma direkleri, depo içi çatı altı hatları, konveyör ve elleçleme ekipmanı çevresi ile kapı-rampa üstü kalemlerde yoğunlaşır. Belirleyici koşul trafiktir: liman sahasında iş makinesi ve kamyon hareketi süreklidir, çalışma alanı bariyerle ayrılmadan platform kaldırılmaz. Saha giriş izinleri ve güvenlik prosedürleri liman işletmesinin kurallarına göre yürütülür ve iş gününden önce tamamlanır.",
+            },
+            {
+                baslik: "Kimya ve gübre tesislerinde prosedür ağırlığı",
+                metin:
+                    "Bandırma çevresinin kimya ve gübre ağırlıklı sanayi dokusu, platform işine ağır bir prosedür katmanı ekler: iş izni sistemi, sıcak iş kısıtları, gaz ölçümü, kilitleme-etiketleme ve alan bazlı giriş kuralları. Bu tesislerde işin teknik kısmı çoğu zaman basit, süreci uzundur. Boru köprüleri, tank çevresi platformlar, izolasyon ve boya kalemleri en sık talep edilen işlerdir. Kırılımlı bom, boru hattı ve çelik yapı arasından geçmek için burada belirgin avantaj sağlar. Belge setimiz bu tür sahaların gerektirdiği düzende hazırlanır.",
+            },
+            {
+                baslik: "Silo, tank ve dökme yük yapıları",
+                metin:
+                    "Kıyı sanayisinin dikey hedefleri — hububat ve çimento siloları, sıvı depolama tankları, yükleme kuleleri — önü açık yapılar olduğu için düz uzanan teleskopik bomun sahasıdır. Bu işlerde belirleyici olan hedefin yüksekliği kadar makinenin dibe ne kadar yanaşabildiğidir; çevrede boru hattı, bariyer veya betonarme ayak varsa gereken bom boyu belirgin artar. Tank sahalarında ayrıca zemin kotları ve emniyet havuzu duvarları park serbestliğini kısıtlar. Bu nedenle keşifte hedefin kendisi kadar çevresi de fotoğraflanır.",
+            },
+            {
+                baslik: "Marmara kıyısında farklı bir rüzgâr düzeni",
+                metin:
+                    "Bandırma çevresi açık Marmara kıyısıdır ve buradaki rüzgâr, boğazın dar kesitinde hızlanan akıştan farklı davranır: koridor etkisi yoktur ama açık su üzerinden gelen yük geniş bir cephede etkilidir ve körfez ağzında yön değişimleri belirgindir. Liman sahası ve açık depolama alanları rüzgârı kesintisiz alır. Bu yüzden yüksek kotlu kalemler — silo tepesi, direk, tank üstü — günün sakin dilimine yazılır; kapalı hol ve depo işleri havadan bağımsız olarak günün kalanını doldurur. Aynı sahada iki listeyle çalışmak burada da geçerli yöntemdir.",
+            },
+            {
+                baslik: "Çanakkale hattından sevkiyat mantığı",
+                metin:
+                    "Bandırma ve Balıkesir çevresine hizmet, Çanakkale tarafındaki filomuz için ek bir yük değil, mevcut hattın doğal uzantısıdır. Biga hattı üzerinden ilerleyen bir sevkiyat, komşu ildeki bir işi aynı tura ekleyebilir; bu, tekil sevkiyata göre belirgin bir maliyet farkı yaratır. Bölge talepleri bu yüzden tur planına göre değerlendirilir: acil olmayan işler için tarih esnekliği bırakıldığında fiyat düşer. Uzun süreli işlerde ise makine bölgede konaklar ve nakliye tek girişte kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bandırma ve çevresinde saha tipi, prosedür ve makine",
+                paragraflar: [
+                    "Komşu il sahalarının belirleyici kısıtları ve makine eşleşmesi aşağıdadır. Prosedür sütunu, bu bölgede planın en uzun süren parçasıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Prosedür ağırlığı", "Makine", "Planlama notu"],
+                    satirlar: [
+                        ["Liman geri sahası", "Giriş izni, saha trafiği", "Teleskopik / eklemli", "Bariyerli alan zorunlu"],
+                        ["Kimya-gübre tesisi", "İş izni, gaz ölçümü", "Kırılımlı eklemli", "Süreç iş gününden önce"],
+                        ["Silo ve tank sahası", "Alan giriş kuralları", "Teleskopik", "Yanaşma mesafesi kritik"],
+                        ["OSB üretim holü", "Bölge giriş kaydı", "Akülü eklemli", "Hol boşken hızlı"],
+                        ["Açık depolama alanı", "Düşük", "Arazi tipi", "Rüzgâr sakin dilim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Prosedürlü sahalarda zamanı nerede kaybediyoruz",
+                paragraflar: [
+                    "Kimya ve liman sahalarında yaptığımız işlerin süre analizi hep aynı sonucu veriyor: fiili çalışma süresi toplamın küçük bir kısmı, geri kalanı izin, ölçüm, refakat bekleme ve alan hazırlığı. Bunu kabul edip planı buna göre kurmak, şikâyet etmekten daha verimli. Uygulamamız şu: iş izni ve giriş kayıtları iş gününden önce tamamlanır, gaz ölçümü ve kilitleme adımlarının kimin sorumluluğunda olduğu yazılı hâle getirilir, refakatçi ataması saat bazında netleştirilir.",
+                    "Bu hazırlık yapıldığında sahada geçen gün, gerçekten çalışılan güne dönüşüyor. Yapılmadığında ise makine ve operatör, ücreti ödenen saatleri bekleyerek geçiriyor. Müşteri tarafında en çok fayda gören uygulama, tesisin kendi iş izni sürecinin gerektirdiği takvimi bize önceden söylemesi oluyor.",
+                ],
+            },
+            {
+                baslik: "İki il arasında çalışan bir filo ne kazandırır",
+                paragraflar: [
+                    "Çanakkale ile Balıkesir arasındaki bu hat, tek başına düşünüldüğünde iki ayrı pazar gibi görünse de sevkiyat açısından tek bir koridordur. Biga tarafındaki bir duruş işiyle Bandırma tarafındaki bir liman kalemi aynı hafta içinde planlanabilir, hatta aynı sevkiyata bağlanabilir. Bunun müşteriye yansıması doğrudan fiyattır: nakliye maliyeti tek bir işe değil, tura dağılır.",
+                    "Bu modelden en çok yararlananlar, işi acil olmayan müşterilerimiz oluyor. Talebinizi tarih esnek notuyla açtığınızda ilk uygun tura yerleştiriyor ve fiyat farkını size gösteriyoruz. Acil işler için tekil sevkiyat da yapılır; farkı gizlemek yerine iki seçeneği yan yana sunmayı tercih ediyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çanakkale merkezli bir firma olarak Bandırma'ya gelmeniz ek maliyet çıkarır mı?",
+                cevap:
+                    "Tekil sevkiyatta mesafe elbette fiyata yansır, ancak bu hat bizim için kopuk bir bölge değil. Biga yarımadası üzerinden ilerleyen sevkiyatlarımız Bandırma çevresine doğal olarak uzanır ve komşu ildeki bir iş çoğu zaman mevcut bir tura eklenebilir. Bu durumda nakliye maliyeti tek işe değil tura dağılır ve fark belirgin olur. Uygulama basit: talebinizi tarih esnek notuyla açın, ilk uygun tura yerleştirelim ve iki fiyatı yan yana gösterelim. İşiniz acilse tekil sevkiyat da yaparız; kararı rakamları görerek verirsiniz.",
+            },
+            {
+                soru: "Kimya tesisimizde iş izni süreci uzun; siz nasıl hazırlanıyorsunuz?",
+                cevap:
+                    "Süreci iş gününden önce kapatmayı standart hâline getirdik. Bizim tarafımızda hazır duran belgeler operatör yeterlilikleri, makine periyodik kontrol kayıtları, sigorta evrakları ve talep edilirse risk değerlendirme dokümanıdır. Sizin tarafınızdaki iş izni formu, gaz ölçümü ve kilitleme-etiketleme adımlarının kimin sorumluluğunda olduğunu yazılı olarak netleştiririz; refakatçi ataması saat bazında planlanır. Bu hazırlık yapıldığında sahada geçen süre gerçekten çalışılan süreye dönüşür. Tesisinizin prosedürünün gerektirdiği takvimi bize söyleyin, makineyi o tarihe rezerve edelim.",
+            },
+            {
+                soru: "Liman sahasında iş makinesi trafiği yoğun; çalışma nasıl güvence altına alınıyor?",
+                cevap:
+                    "Alan ayrımı olmadan platform kaldırılmaz, bu kural tartışmaya kapalı. Çalışma bölgesi bariyer ve uyarı düzeniyle kapatılır, kamyon ve elleçleme ekipmanına alternatif güzergâh gösterilir ve saha sorumlunuzla vardiya başında kısa bir bilgilendirme yapılır. Liman işletmesinin kendi giriş ve güvenlik prosedürleri bu düzenin üstüne eklenir. Elleçleme yoğunluğunun düşük olduğu saatleri söylerseniz planı doğrudan o pencereye kurarız; bu, hem sizin operasyonunuzu hem bizim çalışma hızımızı korur. Sahanın yoğunluk grafiğini bilen müşterilerimizde bu planlama çok verimli işliyor.",
+            },
+            {
+                soru: "Silo tepemizdeki iş için hangi bom boyu gerekir?",
+                cevap:
+                    "Yalnızca silo yüksekliğine bakarak karar verilemez; belirleyici ikinci değişken makinenin siloya ne kadar yanaşabildiğidir. Dibe yanaşılabiliyorsa hedef yüksekliğine yakın bir sınıf yeterli olur; çevrede boru hattı, bariyer, emniyet havuzu duvarı veya betonarme ayak varsa makine uzaktan çalışmak zorunda kalır ve gereken bom boyu belirgin artar. Bu yüzden keşifte hedefin kendisi kadar çevresini de fotoğraflamanızı istiyoruz. Yatay uzanım gerekiyorsa sepet kapasitesinin de mesafeyle azaldığını hesaba katarız; kaç kişi ve ne kadar malzeme çıkacağını baştan söylerseniz sınıfı doğru seçeriz.",
+            },
+            {
+                soru: "Marmara kıyısında rüzgâr çalışmayı ne kadar engelliyor?",
+                cevap:
+                    "Açık kıyı olduğu için yüksek kotlu kalemlerde etkisi gerçektir, ancak boğazdaki gibi dar kesitte hızlanan bir akış değil, geniş cepheli bir yük söz konusudur. Pratikte şu düzeni kuruyoruz: silo tepesi, direk ve tank üstü gibi kalemler günün sakin dilimine yazılır; kapalı hol, depo ve tesis içi kalemler havadan bağımsız olduğu için günün kalanını doldurur. Böylece rüzgârlı bir gün, iptal edilen gün olmaz. Sahada yalnızca yüksek kotlu tek bir kalem varsa esneklik azalır; o durumda tarihi rüzgâr payıyla verir ve konaklamalı modeli öneririz.",
+            },
+            {
+                soru: "OSB içindeki tesisimizde uzun süreli kiralama düşünüyoruz; nasıl işliyor?",
+                cevap:
+                    "Uzun süreli kiralamada makine sahanızda kalır ve kullanım hakkı sözleşme süresi boyunca sizindir. Avantajı çift yönlü: nakliye tek girişte kalır ve her ihtiyaçta çağrı beklemezsiniz. Bizim tarafımızdaki sorumluluk süreklilik sağlamaktır — periyodik kontroller sahada yapılır, arıza hâlinde ikame süresi sözleşmede tanımlanır ve operatörlü çalışılacaksa vardiya düzeni baştan yazılır. Ortam koşulu ağırsa bakım aralığı kısaltılır ve bu teklifte görünür. Aylık kullanım yoğunluğunuzu söylerseniz, uzun süreli ile çağrı bazlı modelin maliyetini yan yana çıkarıp hangisinin size uygun olduğunu birlikte görürüz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bandırma'nın liman işlevi ve kimya-gübre ağırlıklı sanayi kimliği ile Marmara kıyısındaki açık su konumu kamuya açık bölgesel bilgidir; tesis adı, kapasite, mesafe ve rakam kullanılmamıştır. Tur modeli, prosedür hazırlığı ve iki listeli gün planı firma pratiğidir.",
+    },
 };
