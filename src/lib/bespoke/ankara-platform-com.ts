@@ -510,4 +510,499 @@ export const ANKARA_PLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Başkent OSB'nin karma sektörlü, dolmakta olan profili kamuya açık bilgidir; iki kanal planı ve yol haritası firma pratiğidir.",
     },
+
+    "bolge:ankara-anadolu-osb": {
+        h1: "Anadolu OSB'de Platform Kiralama Rehberi",
+        giris:
+            "Büyüyen bir OSB'de kiralama sorusu iki kez sorulur: bir kez inşaat döneminde ('şantiyeme hangi makine gelir'), bir kez işletmeye geçince ('fabrikama hangisi lazım') — ve iki sorunun cevapları birbirine benzemez. Anadolu OSB'nin sürekli inşa hâlindeki dokusunda genel amaçlı rehberliğimiz bu iki soru arasındaki geçişi yönetir: şantiye döneminin dizel-arazi mantığından işletme döneminin akülü-kapalı alan mantığına, doğru zamanda ve tek plan içinde geçilir. Karma filo iki dönemin makinesini de taşır; rehberliğin işi, hangi dönemde hangisinin doğru olduğunu — ve dönem geçişinin tam nerede yaşandığını — netleştirmektir. Batı koridoru konumu, her iki dönemin sevkiyatını tur ekonomisine bağlar.",
+        maddeler: [
+            {
+                baslik: "Dönem sorusu: şantiye mi, işletme mi, arası mı?",
+                metin:
+                    "Seçim rehberliğinin bu bölgedeki ilk sorusu iş değil dönemdir: saha betonu atılmamışsa cevaplar dizel-arazi ailesinden gelir (4x4 şasi, stabilize zemin toleransı), tesis çalışıyorsa akülü aileden (emisyonsuz, sessiz, düz zemin) — ve en kritik durum arasıdır: kısmen biten, kısmen şantiye olan tesis. Ara dönemde iki aile aynı sahada bulunur ve iş listesi, zemin haritasına göre ikiye bölünür; tek makineyle iki dünyayı idare etmeye çalışmak, bu bölgenin en sık düzelttiğimiz yanlışıdır.",
+            },
+            {
+                baslik: "Şantiye döneminin makine mantığı",
+                metin:
+                    "İnşaat dönemindeki taleplerin ortak dili yükseklik ve zemindir: çelik montaj 16-20 metre bandında dizel eklemli ister, cephe-çatı kapama aynı ailenin seri çalışmasıdır ve saha altyapısı (aydınlatma, çevre güvenlik) direk işleriyle tamamlanır. Şantiye kiralamasının süre mantığı da farklıdır — işler haftalarla ölçülür, aylık paketler doğaldır ve makine, montaj programının parçası olarak planlanır. Vinç koordinasyonu ve şantiye İSG düzeni, dönem kiralamasının standart çerçevesidir.",
+            },
+            {
+                baslik: "İşletme dönemine geçişin işaretleri",
+                metin:
+                    "Geçiş anını üç işaret belirler: saha betonunun tamamlanması (akülü ailenin zemini hazır), hol kapılarının takılması (kapalı alan rejimi başlar — dizel içeri giremez) ve üretim ekipmanının yerleşmesi (hedeflerin altı dolmaya başlar — eklemli ihtiyacı doğar). Üç işaret göründüğünde kiralama planı akülü aileye döner ve dizel, yalnızca dış saha kalemlerinde kalır. Geçişi planlı yaşayan tesis, makine değişimini sevkiyat turuyla birleştirir ve boş gün ödemez.",
+            },
+            {
+                baslik: "İlk yıl listesinin doğal birikimi",
+                metin:
+                    "Devreye giren tesisin ilk yılı, rehberliğin en yoğun dönemidir: eksik aydınlatma, ilave havalandırma, raf montajı, tabela-saha kalemleri — dağınık, küçük, sürekli. Bu birikimin ekonomik cevabı toplu liste planıdır: kalemler biriktirilir, makine dönemsel gelir ve liste güzergâh sırasıyla biter. Bölgenin eş zamanlı devreye giren tesisleri, listelerini birleştirdiğinde koridor turlarının ekonomisi katlanır — genç OSB'nin herkesle aynı dönemden geçme avantajı budur.",
+            },
+            {
+                baslik: "Karma filodan dönem paketi",
+                metin:
+                    "İki dönemli yatırımın en verimli kiralama biçimi, dönem paketli tek sözleşmedir: şantiye fazının dizel ailesi, geçiş işaretleriyle akülü aileye devreder, tamamlama dönemi toplu listelerle kapanır ve işletme ritmi tur bağlantısına oturur — dört evre, tek muhatap ve kesintisiz planla akar. Paketin rakamsal avantajı geçişlerdedir: makine değişimleri tur sevkiyatlarıyla birleşir, her evrenin tarifesi kendi ailesinden gelir ve yatırımın toplam kiralama maliyeti, evre evre arayışın belirgin altında kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Anadolu OSB'de dönem-makine haritası",
+                paragraflar: [
+                    "Yatırımın dört evresinin makine ailesi ve plan modeli aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Evre", "Zemin-ortam", "Makine ailesi", "Plan modeli"],
+                    satirlar: [
+                        ["Kaba yapı-montaj", "Stabilize, açık", "Dizel eklemli 16 – 20 m", "Aylık, montaj programlı"],
+                        ["Kapama", "Kısmi beton", "Dizel ağırlıklı karma", "Seri çalışma"],
+                        ["Geçiş (üç işaret)", "Beton + kapılar + ekipman", "Dizel → akülü devir", "Tur sevkiyatlı değişim"],
+                        ["Tamamlama (ilk yıl)", "İşletme düzeni", "Akülü karma", "Toplu liste"],
+                        ["İşletme ritmi", "Standart", "İşe göre", "Tur bağlantısı / paket"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ara dönemin ikili listesi: en sık düzeltilen yanlış",
+                paragraflar: [
+                    "Kısmen biten tesisin tek makineli kiralama talebi, bölgenin klasik yanlışıdır: 'dizel her yerde çalışır' varsayımı kapalı hole giren egzozla, 'akülü idare eder' varsayımı stabilize sahada zorlanan şasiyle sonuçlanır — ikisi de işi aksatır ve çoğu zaman ikinci sevkiyat doğurur. Doğru kurgu ikili listedir: iş kalemleri zemin-ortam haritasına göre dizel/akülü ailelerine ayrılır ve iki makine, kısa dönemli paralel veya ardışık planla gelir.",
+                    "İkili listenin maliyet korkusu yersizdir: iki doğru makinenin kısa dönemi, tek yanlış makinenin uzayan dönemi ve telafi sevkiyatından neredeyse her zaman ucuzdur — hesabı teklifte iki kurguyla gösterir, farkı rakamla koyarız.",
+                ],
+            },
+            {
+                baslik: "Yeni yatırımcının kiralama takvimi",
+                paragraflar: [
+                    "Bölgeye gelen yatırımcı için kiralama takvimi, inşaat takviminin gölgesidir ve üç randevusu vardır: montaj ihalesi (dönem paketi burada kurulur — makine aileleri, evre tarifleri, geçiş mekanizması), beton takvimi (akülü geçişinin sevkiyat planı buradan çıkar) ve devreye alma (tamamlama listesinin toplu planı). Üç randevuyu kaçırmadan kurulan paket, yatırımın kiralama tarafını tek karar hâline getirir ve 'her evrede yeniden arayış' yükünü ortadan kaldırır.",
+                    "Randevuların en değerlisi ilkidir: montaj ihalesinde kurulan plan, kapasiteyi erken bağlar ve genç OSB'nin yoğun dönemlerinde 'makine bulunamadı' riskini sıfırlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimizin yarısı bitti, yarısı şantiye; tek makineyle idare edebilir miyiz?",
+                cevap:
+                    "Edemezsiniz — ve zorlamak pahalıdır: biten holün kapalı alanına dizel giremez (egzoz), şantiye tarafının stabilize zemininde akülü zorlanır (şasi-zemin uyumsuzluğu) ve tek makine, iki dünyanın birinde mutlaka yanlış kalır. Doğru kurgu ikili listedir: kalemler zemin-ortam haritasına ayrılır, iki aile kısa dönemli paralel veya ardışık gelir ve toplam, tek yanlış makinenin uzayan döneminden ucuz çıkar — hesabı iki kurguyla gösterelim, rakam karar versin.",
+            },
+            {
+                soru: "Saha betonumuz gelecek ay dökülüyor; makine planını şimdi mi değiştirelim?",
+                cevap:
+                    "Şimdi planlayın, beton gününde değiştirin: geçişin üç işareti (beton + kapılar + ekipman yerleşimi) netleşmeden akülü aile devreye girmez ama geçiş sevkiyatı bugünden takvime bağlanır — dizel iade ile akülü teslimatı aynı tur gününde buluşur ve boş gün ödemezsiniz. Beton tarihinizin kayması hâlinde geçiş de kayar; paket sözleşmesi bu esnekliği taşır. Beton takviminizle dönün; geçiş gününü şimdiden yazalım.",
+            },
+            {
+                soru: "Fabrika açıldı, sürekli ufak işler çıkıyor; ne zaman biter bu liste?",
+                cevap:
+                    "İlk yıl boyunca çıkar — ve bu normaldir: eksik aydınlatma, ilave havalandırma, raf-tabela-saha kalemleri, devreye almanın doğal artçılarıdır. Ekonomik cevap tek tek kiralamak değil toplu liste ritmidir: kalemler biriktirilir, makine dönemsel gelir (aylık-iki aylık), liste güzergâh sırasıyla biter. Bölgede sizinle aynı dönemde açılan komşularınız varsa listeleri birleştirelim — genç OSB'nin eş zamanlı ihtiyacı, koridor turlarının en verimli yüküdür.",
+            },
+            {
+                soru: "Montajcımız kendi platformunu getirmek istiyor; biz ayrıca kiralamalı mıyız?",
+                cevap:
+                    "Listeye bağlı — çakışmayan iki ihtiyaç olabilir: montajcının makinesi kendi işine (çelik montaj) gelir ve sizin kalemleriniz (saha aydınlatması, cephe-çatı dışı işler, erken tamamlama kalemleri) onun programına sıkışmak zorunda değildir. Doğru kurgu üçlü masada netleşir: montajcının kapsamı, sizin kaleminiz ve zaman çakışmaları tek planda görünür — bazı yatırımlarda tek filo herkese yeter, bazılarında iki ayrı düzen doğrudur. Montaj sözleşmenizin kapsamıyla dönün; çakışma haritasını çıkaralım.",
+            },
+            {
+                soru: "Şantiyede vinç de çalışıyor; platform kiralamada bunu belirtmeli miyiz?",
+                cevap:
+                    "Mutlaka — vinç, platform planının birinci koordinasyon maddesidir: askıda yük hattının altına bom girmez, çalışma sektörleri ayrılır ve sıralama (vinç kaldırır → platform bağlar) günlük programda yazılır. Vinç bilgisi baştan verildiğinde operatör brifingi ve saha düzeni ona göre kurulur; verilmediğinde ilk gün koordinasyon kurmakla geçer. Montaj programı ve vinç tipiyle dönün — şantiye İSG düzeninize uyumlu planı baştan yazalım.",
+            },
+            {
+                soru: "Dönem paketi bizi bağlar mı; ya proje gecikirse?",
+                cevap:
+                    "Paket, takvimi değil geçiş mantığını bağlar: evreler tarih değil işaretlerle tanımlanır (beton döküldüğünde, kapılar takıldığında) ve proje gecikmesi, evre geçişlerini otomatik kaydırır — ceza-sıkışma mekanizması yoktur, esneklik sözleşmenin kendisindedir. Bağlanan şey kapasitedir: makineleriniz evre başında hazırdır ve yoğun dönemde 'bulunamadı' yaşamazsınız. Gecikme riskinizi baştan konuşun; esneklik payları paket maddelerine açıkça yazılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Anadolu OSB'nin inşa hâlindeki dokusu kamuya açık bilgidir; dönem geçiş işaretleri ve ikili liste kurgusu firma pratiğidir.",
+    },
+
+    "bolge:temelli-osb": {
+        h1: "Temelli'de (ASO 2-3. OSB) Platform Kiralama Rehberi",
+        giris:
+            "Uzak ve büyük ölçekli bir OSB'de kiralama kararının iki değişkeni öne çıkar: mesafe (her sevkiyat, planlamanın maliyet kalemidir) ve ölçek (işler küçük değil, listeler hâlinde gelir). Temelli'deki ASO 2-3. OSB'nin geniş parselli dünyasında genel amaçlı rehberliğimiz bu iki değişkeni tek soruda birleştirir: bu listeyi hangi makine karması, kaç günde, kaç sevkiyatla bitirir? Cevap nadiren tek makinedir — büyük tesisin listesi ailelere ayrılır, karma kurgu güne yayılır ve sevkiyat, batı koridoru turlarının ritmiyle eşleşir. Bu sayfa, uzak-büyük ölçeğin kiralama matematiğini açıyor: liste nasıl analiz edilir, karma nasıl kurulur, mesafe nasıl eritilir ve hangi işler tur gününü beklemeli.",
+        maddeler: [
+            {
+                baslik: "Liste analizi: büyük tesisin ilk adımı",
+                metin:
+                    "Temelli taleplerinin doğal biçimi listedir — tek iş için bu mesafeye sevkiyat nadirdir — ve rehberliğin ilk işi analizdir: kalemler yükseklik bandına (yüksek/standart/alçak), ortama (hol içi/dış saha) ve erişim durumuna (altı boş/dolu) göre ayrılır; her küme kendi makinesini çağırır ve karma kurgu, kümelerin büyüklüğüne göre şekillenir. Analizsiz gelen 'bir makine gönderin' talebi, ya eksik kalan işlerle ya gereksiz büyük makineyle sonuçlanır — liste, telefondan önce kalem kalem yazılmalıdır.",
+            },
+            {
+                baslik: "Karma kurgu: kaç makine, hangi sırayla?",
+                metin:
+                    "Analiz edilen listenin karma kurgusu iki soruyla kurulur: kümeler paralel mi çalışmalı (takvim sıkışıksa iki-üç makine aynı anda) yoksa ardışık mı (tek makine aileden aileye — daha uzun ama tek tarifeli)? Ve hangi küme önce (üretim pencereleri, hava koşulları ve montaj bağımlılıkları sırayı yazar)? Tipik Temelli kurgusu, bir yüksek dizel eklemli + bir akülü kompaktın ardışık-kesişimli planıdır; bakım dönemlerinde paralel kurulum devreye girer.",
+            },
+            {
+                baslik: "Mesafeyi eriten üç mekanizma",
+                metin:
+                    "Uzaklığın maliyeti üç mekanizmayla eritilir. Konaklama: liste günlere yayılıyorsa makine sahada kalır ve sevkiyat teke iner. Tur eşleşmesi: kısa listeler ve tekil işler, batı koridoru turlarının Temelli geçişlerine bağlanır — nakliye turla bölüşülür. Komşu birleştirme: bitişik parsellerin listeleri aynı döneme dizilir ve bölgenin geniş ada düzeni, tesisler arası geçişi tek nakliye ekonomisinde tutar. Üç mekanizmanın dışında kalan tek durum gerçek acildir — ve onun fiyatı, dürüstçe tam sevkiyattır.",
+            },
+            {
+                baslik: "Plato koşullarında dış saha planı",
+                metin:
+                    "Geniş parsellerin dış saha kalemleri (cephe hatları, saha aydınlatması, silo-tank işleri), platonun açık rüzgârıyla planlanır: yüksek kalemler sabah bloklarına, alçak-iç kalemler güne yayılır ve uzun cephe listelerinin takvimi mevsim payıyla verilir. Zemin çeşitliliği (saha betonu, stabilize, dolgu) makine ailesini kalem kalem değiştirebilir — dış listenin zemin haritası, karma kurgunun parçasıdır ve 'hepsi dizel olsun' basitleştirmesi, beton sahalarda gereksiz maliyettir.",
+            },
+            {
+                baslik: "Büyük tesisin kayıt ve koordinasyon düzeni",
+                metin:
+                    "Ölçek büyüdükçe kiralama, idari düzen ister: yüklenici kayıtları, saha içi güzergâh onayları, günlük iş planları ve kapanış kayıtları — karma kurgunun operasyon ayağı, bu düzenle taşınır. Tek muhatap ilkesi burada değer üretir: üç makinelik kurgu, üç ayrı firma-üç ayrı koordinasyon değil, tek plan-tek telefon-tek kayıt düzenidir. İş kayıtları, tesisin bakım sistemine uygun formatta teslim edilir ve listeli çalışmanın görünmez faydası, birikimli bakım tarihçesidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Temelli listelerinde küme-makine eşleşmesi",
+                paragraflar: [
+                    "Büyük tesis listesinin tipik kümeleri ve makine eşleşmesi aşağıdadır. Karma kurgu, kümelerin büyüklük oranından çıkar.",
+                ],
+                tablo: {
+                    basliklar: ["Küme", "Tipik kalemler", "Makine", "Sıra notu"],
+                    satirlar: [
+                        ["Yüksek hol (14 m+)", "Makas altı, vinç yolu üstü", "Dizel eklemli 16 – 20 m", "Kilitleme pencereli"],
+                        ["Standart hol", "Aydınlatma, tava, boru", "Akülü karma", "Üretim pencereli"],
+                        ["Dış saha — beton", "Cephe alt bandı, sundurma", "Akülü (zemin doğrulanmış)", "Hava esnekliği"],
+                        ["Dış saha — stabilize", "Direk, çevre, silo", "Dizel 4x4", "Sabah rüzgâr bloğu"],
+                        ["Dar-özel alanlar", "Pano, ara hacim", "Kompakt sınıf", "Geçiş ölçülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek makine ısrarının Temelli maliyeti",
+                paragraflar: [
+                    "Uzak bölgede 'tek makine yeter' ısrarı, iki gizli maliyet taşır: eksik kalan kümeler için ikinci sevkiyat (mesafede bu, en pahalı telafi kalemidir) veya her işi yapabilsin diye seçilen büyük makinenin tüm listeye ödetilen yüksek tarifesi. Karma kurgunun görünür maliyeti (iki makine bedeli), bu gizli kalemlerin neredeyse her listede altında kalır — ve hesap, teklifte iki kurguyla açıkça gösterilir.",
+                    "İstisna, homojen listedir: kalemlerin tamamı tek kümeye düşüyorsa (yalnız yüksek işler, yalnız standart hol) tek makine doğrudur ve bunu da aynı açıklıkla söyleriz — kurgu, listeye hizmet eder, karmaşıklık hevesine değil.",
+                ],
+            },
+            {
+                baslik: "Tur takvimiyle yaşamak: uzak bölgenin ritmi",
+                paragraflar: [
+                    "Temelli'de kiralamanın en ucuz hâli, tur takvimiyle senkron yaşamaktır: batı koridoru turlarının bölge geçişleri bellidir, 'tarih esnek' işler bu geçişlere bağlanır ve tekil kalemler bile tur ekonomisiyle çözülür. Tesislerin bakım sorumlularına önerdiğimiz ritim aylıktır — biriken kalemler ay turunda kapanır, acil etiketi yalnız gerçek acile kalır ve yıllık kiralama maliyeti, plansız arayışın yarısına iner.",
+                    "Tur senkronunun kurumsal hâli çerçeve sözleşmedir: koşullar bir kez bağlanır, aylık turlar takvime oturur ve her tur, önceki turun kayıtları üzerine biner — uzak bölgenin mesafesi, düzenin içinde görünmez olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Listemizde 30 kalem var; nereden başlayalım?",
+                cevap:
+                    "Listeyi bize gönderin — analiz ilk adımdır: kalemler yükseklik-ortam-erişim kümelerine ayrılır, her kümenin makinesi belirlenir ve karma kurgu (kaç makine, paralel mi ardışık mı, hangi sıra) iki seçenekli teklife dönüşür — süre ve maliyet yan yana. 30 kalemlik tipik Temelli listesi, bir yüksek + bir kompakt makinenin 4-6 günlük kurgusuna oturur; sizinkinin gerçek cevabını analiz verir. Kalem başına yükseklik tahmini ve birkaç saha fotoğrafı, analizi keşif ziyareti kalitesine taşır.",
+            },
+            {
+                soru: "İki makine pahalı gelir diye tek büyük makine istiyoruz; mantıklı mı?",
+                cevap:
+                    "Listeye bağlı — ve çoğu listede mantıklı değil: büyük makinenin yüksek tarifesi tüm kalemlere ödenir, küçük işlerdeki yavaşlığı gün sayısını uzatır ve dar-özel alanlara zaten giremez (eksikler ikinci sevkiyat doğurur — mesafede en pahalı kalem). Karma kurgunun görünür bedeli, bu gizli kalemlerin altında kalır; hesabı iki kurguyla teklifte gösteririz. İstisna homojen listedir: kalemleriniz tek kümedeyse tek makine doğrudur ve bunu da açıkça söyleriz — ısrarımız karmaya değil, rakama.",
+            },
+            {
+                soru: "Acil olmayan üç kalemimiz var; en ucuza nasıl çözeriz?",
+                cevap:
+                    "Tur eşleşmesiyle: batı koridoru turlarımızın Temelli geçişlerine 'tarih esnek' notuyla bağlanan kalemler, nakliyeyi turla bölüşür ve üç kalem, tek tur gününün birkaç saatinde biter. Daha da ucuzu komşu katılımıdır — bitişik parsellerin bekleyen kalemleri aynı güne eklenirse bölüşüm büyür. Kalıcı çözüm aylık ritimdir: kalemleri biriktirin, ay turu kapansın ve 'acil' etiketi gerçek acile kalsın. Üç kalemin listesiyle dönün; ilk uygun tur gününü söyleyelim.",
+            },
+            {
+                soru: "Dış sahamızın bir kısmı beton, bir kısmı stabilize; makine seçimi nasıl olur?",
+                cevap:
+                    "Zemin haritasıyla kalem kalem: beton doğrulanmış bölümlerin kalemleri akülü aileyle (ekonomik), stabilize bölümler dizel 4x4'le çalışılır ve 'hepsi dizel olsun' basitleştirmesi, beton sahada gereksiz maliyettir — ama tersi ('hepsi akülü') güvenlik hatasıdır ve pazarlık kabul etmez. Saha krokinize zemin türlerini işaretleyin; kalem-makine eşleşmesi harita üzerinden çıkar ve karma kurguya dış sahanın iki ailesi doğru oranla girer. Rüzgâr planı (yüksek kalemler sabaha) her iki ailede geçerlidir.",
+            },
+            {
+                soru: "Bakım haftamız için üç makine gerekiyor; koordinasyonu kim taşır?",
+                cevap:
+                    "Biz — tek muhatap ilkesi karma kurgunun tanımıdır: üç makinenin günlük planları, hol-saat eşleşmeleri, operatör atamaları ve kapanış kayıtları tek koordinasyondan yürür; tesisinize düşen, öncelikleri söylemek ve saha erişimlerini bildirmektir. Kayıtlar bakım sisteminize uygun formatta teslim edilir. Kritik nokta zamandır: bölge tesislerinin bakım takvimleri çakışır ve üç makinelik kapasite erken bağlanmalıdır — takviminiz netleştiği gün kurguyu yazalım.",
+            },
+            {
+                soru: "Çerçeve sözleşme küçük tesisimize ağır gelmez mi?",
+                cevap:
+                    "Tersine, küçük tesisin aracıdır: çerçeve, taahhüt yükü değil koşul sabitlemesidir — birim fiyatlar ve düzen bir kez bağlanır, aylık turlara katılım ihtiyaca göre akar ve kullanmadığınız ay ödeme doğurmaz. Kazanç, her kiralamada pazarlık-evrak turunun kalkması ve tur ekonomisine otomatik erişimdir; uzak bölgede bu ikili, küçük listelerin bile maliyetini belirgin düşürür. Yıllık iş hacminizle bakalım — çerçevenin size maliyeti sıfır, getirisi rakamla görünür olacaktır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. ASO 2-3. OSB'nin uzak-büyük ölçeği kamuya açık bilgidir; liste analizi ve karma kurgu hesabı firma pratiğidir.",
+    },
+
+    "bolge:kazan": {
+        h1: "Kahramankazan'da Platform Kiralama Rehberi",
+        giris:
+            "Kazan'ın iki yüzlü sanayi dokusu — kurumsal havacılık-savunma çevresi ile karayolu boyunca uzanan pratik işletme kuşağı — kiralama rehberliğine iki ayrı soru getirir: kurumsal tesis 'süreçlerimize uyar mısınız' diye sorar, karayolu işletmesi 'yarın gelebilir misiniz' diye. Genel amaçlı hizmetin bu bölgedeki ustalığı, iki soruya aynı filodan iki farklı hızda cevap vermektir: kurumsal tarafta evrak-kayıt-güvenlik süreçlerine hazır dosyalarla planlı hizmet, karayolu tarafında tur ritmiyle beslenen hızlı döngü. Makine seçimi her iki tarafta aynı mantıkla (üç soru: yükseklik-altı-zemin) işler; farklılaşan, hizmetin etrafındaki süreç katmanıdır. Bu sayfa, iki yüzün rehberini tek yerde topluyor.",
+        maddeler: [
+            {
+                baslik: "Kurumsal çevrede süreç-önce yaklaşımı",
+                metin:
+                    "Havacılık-savunma halkasının tesislerinde kiralama, makineden önce süreçle başlar: yüklenici ön yeterliliği, personel bildirimleri, ekipman onayları ve alan erişim kuralları — makine ne kadar doğru seçilirse seçilsin, süreç tamamlanmadan sahaya giremez. Rehberliğimizin kurumsal ayağı bu sırayı bilir: ilk temasta süreç haritası çıkarılır, evrak setleri formatında sunulur ve makine planı, onay takvimiyle senkron kurulur. İlk kayıt payı bir kez ödenir; sonraki her kiralama, kayıtlı yüklenicinin hızında akar.",
+            },
+            {
+                baslik: "Karayolu kuşağında hız-önce yaklaşımı",
+                metin:
+                    "Ankara-İstanbul aksının depo, gıda ve servis işletmelerinde soru basittir: ne zaman gelirsiniz? Kuşağın cevabı tur ritmindedir — kuzeybatı hattı turlarımız bölgeden düzenli geçer, kısa işler geçişlere bağlanır ve tekil talepler bile tur ekonomisiyle fiyatlanır. Makine seçimi üç soruyla telefonda biter, fotoğraf kesinleştirir ve teslimat çoğu zaman ertesi gündür. Hızın sınırı dürüstlüktür: tur takvimine sığmayan 'hemen' talebi, tam sevkiyat fiyatıyla mümkündür ve fark baştan söylenir.",
+            },
+            {
+                baslik: "Hangar ve geniş hacim işlerinde makine kararı",
+                metin:
+                    "Bölgenin hangar tipi geniş hacimlerinde seçim, yükseklik-erişim dengesinden çıkar: yüksek ve açık hedefler (makas altı, aydınlatma hatları) teleskopik-eklemli yüksek sınıfı çağırır; değerli ekipman üstü noktalar, bom güzergâhı planlı eklemli erişim ister. Geniş hacmin cazibesi 'büyük makine rahat eder' yanılgısıdır — doğru metraj yine ölçüden çıkar ve hacmin genişliği, gereksiz yüksek sınıfın gerekçesi değildir. Zemin çoğunlukla düzgün betondur ve akülü aile, hangar içinin doğal seçimidir.",
+            },
+            {
+                baslik: "Gıda ve depo işletmelerinde standart setler",
+                metin:
+                    "Karayolu kuşağının gıda işletmeleri hijyen setiyle (temiz makine, iz bırakmayan lastik, alet düzeni), depoları raf setiyle (koridor ölçüsü, kot+2 hesabı, forklift ayrımı) çalışılır — iki set de rehberliğin hazır şablonlarıdır ve talep formunun 'işletme tipi' sorusu, doğru şablonu otomatik açar. Madencilik bağlantılı tesislerin ağır koşul seti (toz katsayısı, konveyör kilitleme, arazi şasisi) üçüncü şablondur; kuşağın çeşitliliği, şablon zenginliğiyle karşılanır.",
+            },
+            {
+                baslik: "İki yüzün ortak ekonomisi: tur ve birleştirme",
+                metin:
+                    "Süreç hızları farklı olsa da iki yüzün maliyet mekanizması ortaktır: kuzeybatı turlarının ritmi, hem kurumsal tesisin planlı işlerini hem karayolu işletmesinin kısa kalemlerini aynı geçişlerde toplar ve nakliye, günün tüm işlerine bölünür. Karma günler (sabah kurumsal saha, öğleden sonra karayolu işletmeleri) bölgenin verimli standardıdır ve iki dünyanın birbirinden habersiz talepleri, aynı tur gününde buluştuğunda herkes daha az öder.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kazan'da iki yüz, iki süreç, tek filo",
+                paragraflar: [
+                    "Bölgenin iki yüzünün hizmet çerçevesi aşağıda karşılaştırılır.",
+                ],
+                tablo: {
+                    basliklar: ["Başlık", "Kurumsal çevre", "Karayolu kuşağı"],
+                    satirlar: [
+                        ["İlk soru", "Süreçlere uyum", "Teslimat hızı"],
+                        ["Hazırlık", "Kayıt-evrak-onay (ilk sefer)", "Üç soru + fotoğraf"],
+                        ["Teslimat ritmi", "Onay takvimiyle senkron", "Tur geçişli, çoğu ertesi gün"],
+                        ["Tipik makine", "Yüksek eklemli / akülü hangar seti", "Akülü karma + ağır koşul şablonu"],
+                        ["Ekonomi", "Kayıtlı yüklenici sürekliliği", "Tur bağlantısı + birleştirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kurumsal ilk kaydın yatırım değeri",
+                paragraflar: [
+                    "Kurumsal çevrenin ilk kayıt süreci — ön yeterlilik, bildirimler, onaylar — günler alabilir ve acele işin önünde duvar gibi görünür; doğru okuma tersidir: kayıt bir yatırımdır ve bir kez yapıldığında, sonraki her kiralama günler değil saatler ölçeğinde kurulur. Kayıtsız tesisin her acil talebi duvara yeniden çarpar; kayıtlı tesisin acili, kayıtlı yüklenicinin hızıyla akar. Bu yüzden kurumsal çevredeki tesislere ilk önerimiz iş değil kayıttır — ihtiyaç doğmadan kurulan kayıt, ihtiyacın gününde fark yaratır.",
+                    "Kayıt sürerken işler beklemek zorunda da değildir: onay takvimiyle senkron makine planı, sürecin son gününe teslimatı yazar ve kayıt-kiralama tek akışta biter.",
+                ],
+            },
+            {
+                baslik: "Değerli hacimde bom disiplini",
+                paragraflar: [
+                    "Hangar ve kurumsal hacimlerin içindeki ekipman değeri, makine kararına bir katman ekler: doğru metraj yetmez, bom güzergâhı planlanır — ekipman bölgeleri üzerinde tanımlı mesafe, hassas noktalarda yavaşlatılmış hareket, alet bağlama ve iş öncesi-sonrası fotoğraf kaydı. Bu disiplin, genel amaçlı hizmetin 'genel' kelimesinin sınırıdır: makine herkese benzer gelir, çalışma düzeni hacmin değerine göre kurulur.",
+                    "Rehberliğin bu katmanı, teklif aşamasında görünür: değerli hacim işlerinde teklif, makine-süre satırlarının yanına koruma düzeni satırını da taşır ve 'nasıl çalışılacağı', 'neyle çalışılacağı' kadar yazılıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Savunma tedarikçisi komşumuz sizi önerdi; bizde de süreç aynı mı işler?",
+                cevap:
+                    "Büyük olasılıkla benzer — kurumsal çevrenin süreç iskeleti ortaktır (ön yeterlilik, personel bildirimi, ekipman onayı, alan kuralları) ve dosyalarımız bu iskelete formatlı hazırdır; tesisinize özgü farklar (ek güvenlik katmanları, kendi onay zinciriniz) ilk temasta haritalanır ve süreç, sizin takviminizle senkron kurulur. Komşunuzdaki kayıt geçmişimiz, güvenlik biriminizin sorularına hazır referanstır. İhtiyacınız bugün değilse bile kaydı bugün kuralım — ihtiyaç gününde fark, saat ölçeğinde görünür.",
+            },
+            {
+                soru: "Depomuza yarın makine lazım; bürokrasi var mı?",
+                cevap:
+                    "Yok — karayolu kuşağının hızı budur: üç soru telefonda (raf kotu, koridor ölçüsü, zemin), fotoğraf kesinleştirir ve kuzeybatı turumuzun geçişine denk gelirse yarın teslimat çoğu zaman mümkündür. Raf seti (iz bırakmayan lastik, forklift ayrımı, kot+2 hesabı) otomatik uygulanır. Tur takvimine sığmayan gerçek acilde tam sevkiyat seçeneği vardır ve fark fiyatta baştan görünür — 'yarın' sözünü tutamayacaksak saatiyle söyleriz, biriktirdiğimiz güven bundan gelir.",
+            },
+            {
+                soru: "Hangarımız çok geniş; büyük makine mi kiralayalım rahat çalışsın?",
+                cevap:
+                    "Hacmin genişliği, metrajın gerekçesi değildir — makine hedefe göre seçilir: makas altı-aydınlatma hattı kotunuz ölçülür, +2 metre uzanma payıyla sınıf belirlenir ve geniş hangar tabanı yalnızca manevrayı rahatlatır, sınıfı büyütmez. 'Büyük rahat eder' refleksi, yüksek tarifeyi gereksiz ödetir. Hangar içinin düzgün betonu akülü aileyi çağırır; değerli ekipman üstü noktalarda bom güzergâh planı ve koruma düzeni teklifte yazılır. Kotlarınızı ölçün — makine, hedefinize göre gelsin.",
+            },
+            {
+                soru: "Gıda imalathanemiz ve yan depomuz var; iki ayrı kiralama mı?",
+                cevap:
+                    "Tek plan — iki set: imalathane kalemleri hijyen setiyle (temiz makine, iz bırakmayan lastik, alet düzeni, uygun pencere), depo kalemleri raf setiyle çalışılır ve aynı makine, doğru sırayla (önce hijyen sahası) iki bölümü tek kiralamada bitirir. Nakliye teke iner, setler şablondan otomatik uygulanır. İki bölümün kalem listesiyle dönün; sıra ve pencere planını tek teklifte kuralım.",
+            },
+            {
+                soru: "Beton santralimizde konveyör üstü iş var; hangi hazırlıkla gelirsiniz?",
+                cevap:
+                    "Ağır koşul şablonuyla: konveyör hattı çalışma bölgesinde kilitlenir (prosedür santral ekibinizle kurulur), toz katsayılı bakım hazırlığı yapılmış dizel 4x4 gelir ve yüksek kotlu kalemlerde sabah rüzgâr bloğu planlanır. Bunker-silo cidarı işleri aynı şablonun yüksek metraj koluna girer. Santral operasyon saatlerinizle pencere eşleşmesi keşifte netleşir — dolum trafiğinizi aksatmayan plan, şablonun parçasıdır. Konveyör-bunker fotoğraflarıyla dönün; hazırlık listesi hazır çıksın.",
+            },
+            {
+                soru: "Kurumsal tesisimizle karayolundaki servis binamızın işleri birleşebilir mi?",
+                cevap:
+                    "Birleşir — karma gün modeli tam budur: kurumsal saha işleri onaylı takvimle sabaha, servis binası kalemleri öğleden sonraya yazılır ve aynı tur günü, iki yüzün işlerini tek nakliyeyle bitirir. Kurumsal tarafın kayıt-onay süreci kendi ritminde yürür; karayolu tarafı beklemez. Fatura düzeni ihtiyaca göre ayrışır. İki sahanın listeleriyle dönün — karma günün planını ve bölüşülmüş maliyetini gösterelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kazan'ın kurumsal-karayolu ikiliği kamuya açık bilgidir; süreç-önce/hız-önce ayrımı ve şablon setleri firma pratiğidir.",
+    },
+
+    "bolge:polatli": {
+        h1: "Polatlı'da Platform Kiralama Rehberi",
+        giris:
+            "Tahıl havzasının kiralama takvimini toprak yazar: hasat ve alım döneminde silolar durmaz, bakım kapıları kapanır ve doğru işin doğru mevsimi, makine seçiminden önce gelir. Polatlı'daki rehberliğimiz bu yüzden takvim-önce çalışır — hangi iş hangi mevsimde, hangi pencere hangi tesise — ve makine sorusu, mevsim sorusunun içinde cevaplanır. Havzanın dikey envanteri (silolar, elevatörler, değirmen-yem tesisleri) yüksek metraj ailesini, OSB ve şehir kuşağı standart aileyi çağırır; organik toz gerçeği, iç hacim işlerine kendi disiplinini ekler. Batı hattının uzantısındaki konum, tur ekonomisini buraya da taşır: mevsimi doğru seçen tesis, mesafeyi maliyet listesinden siler.",
+        maddeler: [
+            {
+                baslik: "Takvim-önce rehberlik: mevsim haritası",
+                metin:
+                    "Havza işlerinin ilk sorusu 'ne zaman'dır: silo-depo tesislerinin bakım pencereleri ilkbahar (hasat öncesi hazırlık) ve geç sonbahardadır (sezon çıkışı onarımları); yaz, alım trafiğinin dokunulmaz dönemidir. OSB ve şehir kuşağı işleri mevsimden bağımsız akar ama havza turlarının yoğunluğu, tarım takvimini izler. Rehberliğin pratik çıktısı yıllık plandır: tesisin işleri mevsim haritasına yazılır, pencereler erken rezervasyonla bağlanır ve 'yanlış mevsimde acil iş' senaryosu, planla ortadan kalkar.",
+            },
+            {
+                baslik: "Dikey envanterde yüksek metraj kararı",
+                metin:
+                    "Silo cidarları, elevatör kuleleri ve dolum hatları, havzanın 20 metre bandına uzanan işleridir ve makine kararı iki ölçüyle netleşir: hedef kotu (cidar-koni-kule tepesine göre sınıf) ve erişim geometrisi (silolar arası geçit ölçüleri, bom pozisyon alanı). Dizel eklemli yüksek sınıf, bu envanterin ana makinesidir; bozkır rüzgârının sabah disiplini, tüm yüksek kalemlerin ortak penceresidir. İskelesiz kule erişimi — platformun bu envanterdeki temel değeri — kuruluş süresi sıfırla, işleri gün ölçeğinde bitirir.",
+            },
+            {
+                baslik: "Organik toz alanlarında iç hacim disiplini",
+                metin:
+                    "Değirmen, yem tesisi ve silo galerilerinin iç hacimleri, un-tahıl tozunun patlayıcı ortam potansiyelini taşır ve iç kalemlerin rehberliği alan sınıfıyla başlar: sınıflı alanda standart makine çalışmaz, iş temizlik-havalandırma-ölçüm zincirinin ardından güvenli pencerede yapılır ve bu pencere, tesisin duruş saatleriyle eşleşir. İç-dış ayrımlı iki liste (dış: standart yüksek metraj düzeni; iç: sınıf kontrollü pencere düzeni), havza tesislerinin doğru talep biçimidir.",
+            },
+            {
+                baslik: "OSB ve şehir kuşağında standart rehberlik",
+                metin:
+                    "Polatlı OSB'nin üretim holleri ve şehir kuşağının işletme-site kalemleri, üç soru yöntemiyle çözülür: yükseklik-altı-zemin üçlüsü makineyi belirler, fotoğraf kesinleştirir ve akülü karma aile, işlerin çoğunu karşılar. İlçe ölçeğinin avantajı yoğunlaşmadır — OSB, şehir ve yakın çevre işleri aynı tur gününe kolay dizilir ve ilçe turu, tekil işlerin bile ekonomik çözümüdür.",
+            },
+            {
+                baslik: "Hasat öncesi paketin yıllık ritmi",
+                metin:
+                    "Havza tesislerine standart önerimiz, hasat öncesi hazırlık paketidir: sensör-dolum-aydınlatma kontrolleri, çatı-koni bakımı ve kantar-saha kalemleri, ilkbahar penceresinde tek konaklamalı planla biter ve tesis, alım sezonuna eksiksiz girer. Paketin havza ölçeği turlaşmadır — komşu siloların paketleri aynı haftalara dizilir, sevkiyat bölünür ve kapasite sıkışıklığı (hasat öncesi haftaların bilinen riski) erken rezervasyonla aşılır. Sezon içi zorunlu işler için acil protokol, paketin ekidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Polatlı'da mevsim-iş-makine haritası",
+                paragraflar: [
+                    "Havzanın yıllık ritmi, iş ailelerini mevsimlere dağıtır. Harita, yıllık planın temelidir.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Doğru işler", "Makine ailesi", "Not"],
+                    satirlar: [
+                        ["İlkbahar", "Hasat öncesi paket (silo-depo)", "Dizel eklemli yüksek + akülü", "Erken rezervasyon şart"],
+                        ["Yaz (alım dönemi)", "Yalnız zorunlu işler", "Acil protokol", "Kısa duruş pencereleri"],
+                        ["Geç sonbahar", "Sezon çıkışı onarımları", "İşe göre karma", "İkinci talep dalgası"],
+                        ["Kış", "İç hacim + OSB işleri", "Akülü karma", "Sınıf kontrollü pencereler"],
+                        ["Yıl boyu", "OSB-şehir kuşağı", "Üç soru yöntemi", "İlçe turu ekonomisi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Silo işinde iki liste yöntemi: iç ve dış",
+                paragraflar: [
+                    "Silo-değirmen tesisinin talebini iki listeyle almak, rehberliğin havza standardıdır. Dış liste (cidar, koni, dolum boruları, dış merdivenler): standart yüksek metraj düzeni, sabah rüzgâr blokları, iskelesiz erişim — beklemeden planlanır. İç liste (galeri, şaft çevresi, filtre odaları): alan sınıfı sorulur, sınıflı alanlar temizlik-ölçüm zinciriyle güvenli pencereye bağlanır ve pencere, tesisin duruş takvimiyle eşleşir.",
+                    "İki listenin ayrımı, işin tıkanmasını önler: dış işler kendi ritminde biterken iç işler doğru pencereyi bekler ve 'her şey duruşa kaldı' darboğazı yaşanmaz. Konaklamalı planlarda iki liste, aynı dönemin farklı günlerine dağılır.",
+                ],
+            },
+            {
+                baslik: "Yanlış mevsimin maliyeti: planla önlenen kriz",
+                paragraflar: [
+                    "Havzanın en pahalı kiralama biçimi, alım dönemine sarkan ertelemedir: ilkbaharda yapılmayan sensör kontrolü, ağustosta kamyon kuyruğunun ortasında arızalanır ve müdahale, hem kısa duruş pencerelerine sıkışır hem tur takviminin dışında tam sevkiyat ister. Yıllık planın matematiği bu krizle kıyaslanınca nettir: hasat öncesi paketin bedeli, tek bir sezon içi krizin — duruş kaybı + acil sevkiyat + gecikme stresi — altında kalır.",
+                    "Bu hesap, havza tesislerine ilk görüşmede gösterdiğimiz tablodur ve yıllık plan kültürü, bölgede yıldan yıla yerleşmektedir: planlı tesisin ağustos telefonu, plansız komşusununkinden sakindir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silomuzun bakımını ne zaman yaptırmalıyız?",
+                cevap:
+                    "İlkbaharda — hasat öncesi pencere, havzanın altın dönemidir: tesis görece boşken cidar-koni-sensör-dolum kalemleri konaklamalı pakette biter, alım sezonuna eksiksiz girersiniz ve yaz krizlerinin çoğu doğmadan ölür. İkinci pencere geç sonbahardır (sezon çıkışı onarımları). Yaza sarkıtmak, kısa duruş pencerelerine sıkışmak ve tur dışı sevkiyat ödemek demektir. Hasat öncesi haftalar erken dolar — paket rezervasyonunu kış aylarında bağlamak, havzanın öğrenilmiş dersidir.",
+            },
+            {
+                soru: "Elevatör kulemize iskele kurmadan bakım yapılabilir mi?",
+                cevap:
+                    "Yapılır — ve platformun havzadaki temel değeri budur: dizel eklemli yüksek sınıf, kule dibinden bağımsız park eder, kademeli erişimle her kota ulaşır ve iskele kurulum-söküm günleri (ve kule çevresinin haftalarca kaplanması) tamamen ortadan kalkar; iş, gün ölçeğinde biter. Kule kotu ve çevre açıklığı iki ölçülük keşif konusudur. Bant üstü sınıfı aşan kuleler için dürüst yönlendirme yapılır — 'zorlarız' cevabı bizden çıkmaz.",
+            },
+            {
+                soru: "Değirmen galerimizde iş var; un tozu nedeniyle özel bir şey mi gerekiyor?",
+                cevap:
+                    "Evet — alan sınıfı kontrolü: un tozu birikimli kapalı hacimler patlayıcı ortam potansiyeli taşır ve sınıflı alanda standart makine çalıştırılmaz; akış, temizlik-havalandırma-ölçüm zinciri ve güvenli pencere belgelemesiyle kurulur, pencere duruş saatlerinizle eşleşir. Alan sınıfınızı İSG ekibinizden sorun — bilinmiyorsa birlikte netleştiririz. Dış kalemleriniz (cidar, dolum boruları) bu kısıttan bağımsız, standart düzenle beklemeden planlanır; iki liste yöntemi tam bunun içindir.",
+            },
+            {
+                soru: "Alım dönemindeyiz ve dolum hattı sensörü arızalandı; ne yapabilirsiniz?",
+                cevap:
+                    "Protokollü tesisseniz kısa duruş penceresinde müdahale ederiz: iş tanımı ve pencere düzeni hazır olduğu için süreç telefonla başlar, kamyon trafiğinizi kesmeyen dilimde biter. Protokolsüz durumda dürüst çerçeve: tur takvimi dışı sevkiyat gerekir, gerçekçi süre çoğu zaman ertesi gündür ve müdahale, kısa pencere planıyla yürür. Kalıcı ders her iki durumda aynıdır — gelecek ilkbaharın hazırlık paketi, bu telefonun tekrarını önler; sezon sonunda birlikte planlayalım.",
+            },
+            {
+                soru: "OSB'deki fabrikamızın işleri için de mevsim beklememiz gerekiyor mu?",
+                cevap:
+                    "Hayır — mevsim disiplini silo-depo envanterine özgüdür: OSB holleriniz ve şehir kuşağı işleri yıl boyu, üç soru yöntemiyle (yükseklik-altı-zemin) planlanır ve akülü karma aile çoğunu karşılar. Havza turlarının yoğunluğu tarım takvimini izlediği için 'tarih esnek' OSB işleri, tur günlerine bağlanarak en ekonomik hâlini bulur. Fabrika listenizle dönün; mevsimden bağımsız planı ilk uygun tura yazalım.",
+            },
+            {
+                soru: "Komşu silolarla ortak bakım haftası kurmak istiyoruz; nasıl işler?",
+                cevap:
+                    "Havza turlaşmasının ta kendisi — ve en verimli modelidir: komşu tesislerin hasat öncesi paketleri aynı haftalara dizilir, makine silodan siloya konaklamalı turla geçer, sevkiyat bölüşülür ve hasat öncesi kapasite sıkışıklığı, grup rezervasyonuyla aşılır. Kuruluş için bir toplayıcı yeter: tesislerin listelerini birleştiren bir sorumlu veya bizim keşif turumuz. İlk ortak hafta, sonraki yılların takvim çapasıdır — bu ilkbahar için listeleri şimdiden toplayalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Polatlı havzasının tarım takvimi kamuya açık bilgidir; takvim-önce rehberlik ve iki liste yöntemi firma pratiğidir.",
+    },
+
+    "bolge:kirikkale-osb-cevre-ili": {
+        h1: "Kırıkkale OSB'de Platform Kiralama Rehberi (Çevre İl)",
+        giris:
+            "Doğu komşuluğundaki Kırıkkale, rehberliğimizin üç zorlu başlığını aynı bölgede toplar: ağır süreçli sahalar (rafineri çevresi ve savunma tesisleri — izin ve güvenlik katmanları), ağır ortamlı holler (metal sanayinin vinçli-sıcak dünyası) ve mesafe (Ankara'dan doğu yönünün tur ekonomisi). Genel amaçlı hizmetin bu bölgedeki biçimi, üç başlığın her birine hazır şablonla gelmektir: süreçli sahalara evrak-senkron planlama, ağır hollere koordinasyon disiplini, mesafeye tur-konaklama matematiği. Makine seçiminin evrensel üçlüsü (yükseklik-altı-zemin) burada da geçerlidir; bölgenin farkı, seçimin etrafını saran katmanlardadır ve rehberliğin işi, katmanları müşteri yerine taşımaktır.",
+        maddeler: [
+            {
+                baslik: "Süreçli sahalarda evrak-senkron plan",
+                metin:
+                    "Rafineri çevresi ve savunma tesislerinin kiralama planı, evrak takvimiyle senkron kurulur: izin zinciri (iş tanımı, risk analizi, ölçüm şartları) talep günü başlar, makine-operatör dosyaları saha sistemlerine formatlı girer ve sevkiyat, onay teyidine bağlanır — makine kapıda izin beklemez. Kayıtlı yüklenici sürekliliği, bu sahaların en değerli kısayoludur: ilk kayıt bir kez yaşanır ve sonraki işler, iş-özel adımlara iner. Doğu hattının mesafesi, senkron ilkesini daha da değerli kılar — boş bekleyen makinenin kilometresi buradan pahalıdır.",
+            },
+            {
+                baslik: "Ağır metal hollerinde koordinasyon seti",
+                metin:
+                    "OSB'nin metal işleme dünyasında makine kararı kadar çalışma seti konuşulur: gezer vinçle dakika koordinasyonu (kısa kilitleme pencereleri, telsiz düzeni), sıcak bölge mesafeleri (kaynak-taşlama-ısıl işlem komşuluğu), zemin trafiği (skrap-malzeme akışı) ve bom sınıfında tavizsiz kemer-lanyard kuralı. Seçim tipik olarak eklemli aileden çıkar — hedeflerin altı vinç yolu ve tezgâh dizilimiyle doludur — ve set, teklifin yazılı parçasıdır: ağır holde 'nasıl çalışılacağı', sınıf kadar önemlidir.",
+            },
+            {
+                baslik: "Yan sanayi kuşağında pratik ritim",
+                metin:
+                    "Büyük tesislerin çevresindeki yan sanayi holleri, rehberliğin hızlı tarafıdır: üç soru yöntemi, fotoğraf kesinleştirmesi ve akülü karma aile — talepler telefonda çözülür ve doğu turlarının geçişleriyle teslim edilir. Kuşağın ekonomi anahtarı toplu gündür: birkaç tesisin kalemleri tek tur gününe dizilir, makine hol hol ilerler ve nakliye bölünür. Aylık ritme oturan toplu günler, kuşağın kiralama maliyetini kalıcı düşürür.",
+            },
+            {
+                baslik: "Mesafe matematiği: tur, konaklama, acil",
+                metin:
+                    "Doğu yönünün mesafe denklemi üç çözümle yönetilir: tur bağlantısı (esnek tarihli işler, düzenli geçişlere bağlanır — nakliye bölüşümü), konaklama (listeli büyük işlerde makine sahada kalır — sevkiyat teke iner) ve dürüst acil (tur dışı 'hemen' talebi, tam sevkiyat fiyatıyla mümkündür ve fark baştan söylenir). Üç çözümün seçimi iş profilinden çıkar ve teklif, uygun olanları yan yana gösterir — mesafe, saklanan değil yönetilen bir kalemdir.",
+            },
+            {
+                baslik: "Karma bölge listelerinde tek plan",
+                metin:
+                    "Bölgenin gerçek talepleri çoğu zaman karışıktır: aynı grup şirketinin rafineri çevresinde izinli işi, OSB'de hol kalemleri ve yan sanayide kısa listeleri olabilir. Tek plan yaklaşımı bu karışımı toplar — süreçli işler evrak takvimiyle, hol işleri koordinasyon setiyle, kısa kalemler tur ritmiyle aynı dönemin içine dizilir ve tek muhatap, üç dünyanın trafiğini tek koordinasyondan yürütür. Doğu hattında bu birleştirme, mesafe maliyetini görünmez kılan ana mekanizmadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kırıkkale'de üç başlık, üç şablon",
+                paragraflar: [
+                    "Bölgenin üç zorlu başlığının hazır şablonları aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Başlık", "Zorluk", "Şablon", "Anahtar"],
+                    satirlar: [
+                        ["Süreçli sahalar", "İzin-güvenlik katmanları", "Evrak-senkron plan", "Kayıtlı yüklenici sürekliliği"],
+                        ["Ağır metal holleri", "Vinç-sıcak-trafik ortamı", "Koordinasyon seti", "Dakika kilitleme + mesafeler"],
+                        ["Yan sanayi kuşağı", "Küçük dağınık talepler", "Toplu gün ritmi", "Aylık tur bölüşümü"],
+                        ["Mesafe", "Doğu yönü sevkiyatı", "Tur-konaklama-acil üçlüsü", "Dürüst fiyat ayrımı"],
+                        ["Karma listeler", "Üç dünya bir arada", "Tek plan-tek muhatap", "Dönem birleştirmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İzin sahasında 'bekleyen makine' sıfır ilkesi",
+                paragraflar: [
+                    "Süreçli sahaların klasik verimsizliği, iznin ve makinenin birbirini beklemesidir: erken gelen makine kapıda kira yakar, geç kalan izin pencereyi kaçırır. Sıfır ilkemiz iki yönlü senkrondur — evrak süreci talep günü başlar ve sevkiyat, onayın teyit gününe yazılır; onay gecikirse sevkiyat kayar ve sahada bekleyen makineye kira işlemez. Doğu mesafesinde bu ilke, başka bölgelerden daha fazla para eder: yüz kilometrelik boş bekleyiş, kimsenin bütçesinde yoktur.",
+                    "İlkenin müşteri tarafı da nettir: izin ayağının tesis içi adımlarını (alan sorumlusu onayı, refakat planı) zamanında yürüyen tesis, senkronun tam hızını alır — geciken iç adım, dış planı da kaydırır.",
+                ],
+            },
+            {
+                baslik: "Doğu hattında yıllık ritim önerisi",
+                paragraflar: [
+                    "Bölge tesislerine tek cümlelik önerimiz, kiralamayı olaydan ritme çevirmektir: yılda dört-altı planlı tur (mevsim başlarına dağılmış), her turda biriken listelerin toplu kapanışı ve acil etiketinin yalnız gerçek acile kalması — bu ritim, doğu mesafesini maliyet tablosundan pratik olarak siler ve tesislerin bakım kültürünü 'kriz çözme'den 'takvim yürütme'ye taşır.",
+                    "Ritmin kurumsal aracı çerçeve sözleşmedir: koşullar bir kez bağlanır, turlar takvime oturur, kayıtlar birikir. Grup şirketli yapılarda çerçeve, üç dünyanın (süreçli saha + hol + yan sanayi) tek planını da taşır ve bölgenin karma listeleri, tek imzayla yönetilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Rafineri çevresindeki işimiz için makine ne zaman gelmeli?",
+                cevap:
+                    "İzin onayının teyit gününde — ne önce ne sonra: evrak zinciri (iş tanımı, risk analizi, ölçüm şartları, dosyalar) talep günü başlar, sevkiyat onay teyidine yazılır ve makine kapıda izin beklemez — sıfır ilkemiz budur ve doğu mesafesinde ekstra değerlidir. Sizin tarafınızdaki adımlar (alan sorumlusu onayı, refakat planı) zamanında yürürse senkron tam hızda işler. Kayıtlı yüklenici olduğumuz sahalarda süreç iş-özel adımlara iner; ilk kayıt sahasıysa payını baştan konuşuruz.",
+            },
+            {
+                soru: "Vinçlerimiz sürekli çalışan ağır bir holüz; platform işi bizde nasıl yürür?",
+                cevap:
+                    "Koordinasyon setiyle — ve set, teklifte yazılıdır: bom-kanca kesişimleri dakika bazlı kısa kilitleme pencereleriyle yönetilir (telsiz düzeni kurulur), sıcak bölge mesafeleri plana işlenir, zemin trafiğinize göre çalışma alanı bariyerlenir ve bom sınıfının kemer-lanyard kuralı tavizsiz uygulanır. İş listenizin vinç hattıyla kesişmeyen bölümü, kilitleme gerektirmeden paralel ilerler — keşifte 'kesişen/kesişmeyen' ayrımı yapılır ve üretiminiz, çoğu tesiste hiç durmaz.",
+            },
+            {
+                soru: "Yan sanayi holümüzün üç küçük kalemi için bu mesafeye gelinir mi?",
+                cevap:
+                    "Toplu günle gelinir — tekil sevkiyatla değil: kalemleriniz doğu turlarının geçişine yazılır, komşu tesislerin listeleriyle aynı güne dizilir ve nakliye bölüşülür — üç kalem, tur gününün bir diliminde biter ve dilim payı ödersiniz. Aylık ritme katılırsanız birikimleriniz düzenli kapanır ve 'değer mi' sorusu ortadan kalkar. Acilse tam sevkiyat da mümkündür; farkı rakamla baştan görürsünüz. Komşularınıza tek soru sorun — 'sizin de işiniz var mı' — ve dilim maliyetiniz birlikte insin.",
+            },
+            {
+                soru: "Grubumuzun hem rafineri sahasında hem OSB'de işleri var; nasıl toparlanır?",
+                cevap:
+                    "Tek planla: süreçli saha işleri evrak takvimiyle, OSB hol kalemleri koordinasyon setiyle, kısa listeler tur ritmiyle aynı dönemin içine dizilir ve tek muhatap, üç dünyanın trafiğini tek koordinasyondan yürütür — doğu hattında bu birleştirme, mesafeyi görünmez kılan ana mekanizmadır. Faturalar şirketlere göre ayrışır, kayıtlar her sahanın formatında teslim edilir. Grup listenizi dünyalara ayırıp gönderin; tek dönemin planını ve bölüşülmüş maliyetini çıkaralım.",
+            },
+            {
+                soru: "Savunma tesisimizde ilk kez çalışacaksınız; süreç ne kadar sürer?",
+                cevap:
+                    "Tesisinizin onay hızına bağlı — bizden gecikme çıkmaz: personel bildirimleri, operatör dosyaları ve ekipman evrakları formatlı hazırdır, güvenlik sürecinize eksiksiz girer ve ilk kayıt, tipik birkaç gün-bir hafta bandında tamamlanır. Bu pay bir kez yaşanır: kayıt açıldıktan sonra her yeni iş, gün ölçeğinde planlanır. Bölgedeki kurumsal sahalarla çalışma geçmişimiz, güvenlik biriminizin referans sorularına hazır cevaptır. İhtiyaç doğmadan kaydı kuralım — ihtiyaç günü, farkı görürsünüz.",
+            },
+            {
+                soru: "Yılda kaç kez makine kiraladığımızı bilmiyoruz; ritim önerisi bize uyar mı?",
+                cevap:
+                    "Bilmemek, ritmin tam gerekçesidir: dağınık kiralama geçmişi, çoğu tesiste 'hatırlanandan fazla ve pahalı' çıkar — son bir yılın faturalarını toplayın, rakam sizi şaşırtabilir. Ritim önerisi bu dağınıklığı toplar: yılda dört-altı planlı tur, biriken listelerin toplu kapanışı ve gerçek acile saklanan acil bütçesi. Çerçeve sözleşme koşulları sabitler ama kullanım taahhüdü dayatmaz — kullanmadığınız tur, ödemediğiniz turdur. Geçen yılın dökümüyle oturalım; ritmin size maliyet tablosunu çıkaralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kırıkkale'nin rafineri-savunma-metal profili kamuya açık bilgidir; üç şablon yaklaşımı ve sıfır bekleyiş ilkesi firma pratiğidir.",
+    },
 };
