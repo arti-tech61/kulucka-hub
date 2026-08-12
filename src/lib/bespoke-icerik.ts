@@ -33,6 +33,7 @@
 //   marka:<slug>            → /markalar/[slug]
 
 import type { SiteIcerik } from "./siteler";
+import { IZMIRMAKASLIPLATFORM_XYZ } from "./bespoke/izmirmakasliplatform-xyz";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -108,6 +109,8 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
             kaynak: "Elle yazıldı — 2026-08-06. Coğrafi bilgiler (TEM/D-100 kavşağı, Bolu Dağı geçişi) kamuya açık kaynaklardan; metraj tablosu genel yapı standartlarına dayanır.",
         },
     },
+    // ── DİLİM 1 (docs/ICERIK-SIRASI.md) — host başına ayrı modül ────────
+    "izmirmakasliplatform.xyz": IZMIRMAKASLIPLATFORM_XYZ,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
