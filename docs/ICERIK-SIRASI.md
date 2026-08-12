@@ -129,6 +129,11 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `ankaraplatform.net` | **10/10** | 0 | 0 | ✅ TAMAM — egzozsuz iç mekân açısı (paralel ajan) |
+| `platformistanbul.net` | **10/10** | 0 | 0 | ✅ TAMAM — hub modeli açısı, ilk İstanbul domaini (paralel ajan) |
+| `ankaramanlift.net` | **9/9** | 0 | 0 | ✅ TAMAM — depo-lojistik/açık saha açısı (paralel ajan) |
+| `izmirforkliftkiralama.net` | **6/6** | 0 | 0 | ✅ TAMAM — forklift odağı (paralel ajan) |
+| `izmirmanliftkiralama.org` | 4/10 | 0 | 0 | 🟡 devam — teslimat lojistiği açısı; kalan 6 sayfa limit sonrası |
 | `ankara-platform.com` | **10/10** | 0 | 0 | ✅ bölge sayfaları TAMAM — seçim rehberliği açısı, çapraz ≤%0,2, domain içi %0,0 |
 | `izmirplatformskiralama.com` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — saatlik dilim açısı; ortak bölgeler 5 sürümlü, çapraz max %0,4 |
 | `izmir-man-lift.com` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — rüzgâr/teleskopik açısı; ortak bölgeler 4 sürümlü, çapraz max %0,4 |

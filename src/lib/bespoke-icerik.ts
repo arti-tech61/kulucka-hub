@@ -40,6 +40,11 @@ import { ANKARAEKLEMLIPLATFORM_COM } from "./bespoke/ankaraeklemliplatform-com";
 import { IZMIR_MAN_LIFT_COM } from "./bespoke/izmir-man-lift-com";
 import { IZMIRPLATFORMSKIRALAMA_COM } from "./bespoke/izmirplatformskiralama-com";
 import { ANKARA_PLATFORM_COM } from "./bespoke/ankara-platform-com";
+import { ANKARAPLATFORM_NET } from "./bespoke/ankaraplatform-net";
+import { PLATFORMISTANBUL_NET } from "./bespoke/platformistanbul-net";
+import { ANKARAMANLIFT_NET } from "./bespoke/ankaramanlift-net";
+import { IZMIRFORKLIFTKIRALAMA_NET } from "./bespoke/izmirforkliftkiralama-net";
+import { IZMIRMANLIFTKIRALAMA_ORG } from "./bespoke/izmirmanliftkiralama-org";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -123,6 +128,11 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "izmir-man-lift.com": IZMIR_MAN_LIFT_COM,
     "izmirplatformskiralama.com": IZMIRPLATFORMSKIRALAMA_COM,
     "ankara-platform.com": ANKARA_PLATFORM_COM,
+    "ankaraplatform.net": ANKARAPLATFORM_NET,
+    "platformistanbul.net": PLATFORMISTANBUL_NET,
+    "ankaramanlift.net": ANKARAMANLIFT_NET,
+    "izmirforkliftkiralama.net": IZMIRFORKLIFTKIRALAMA_NET,
+    "izmirmanliftkiralama.org": IZMIRMANLIFTKIRALAMA_ORG,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
