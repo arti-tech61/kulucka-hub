@@ -62,6 +62,11 @@ import { KUTAHYAPLATFORM_COM } from "./bespoke/kutahyaplatform-com";
 import { CANAKKALEPLATFORM_COM } from "./bespoke/canakkaleplatform-com";
 import { MUGLAPLATFORM_COM_TR } from "./bespoke/muglaplatform-com-tr";
 import { BANDIRMAMANLIFT_NET } from "./bespoke/bandirmamanlift-net";
+import { ESKISEHIRPLATFORM_ORG } from "./bespoke/eskisehirplatform-org";
+import { AFYONPLATFORM_COM_TR } from "./bespoke/afyonplatform-com-tr";
+import { BILECIKPLATFORM_COM } from "./bespoke/bilecikplatform-com";
+import { BOLUPLATFORM_NET } from "./bespoke/boluplatform-net";
+import { BOZUYUKMANLIFT_COM } from "./bespoke/bozuyukmanlift-com";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -91,6 +96,10 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     // konumu ve Gerede'nin lojistik kavşak niteliği kamuya açık coğrafi
     // gerçeklerdir.
     "boluplatform.net": {
+        // Modülün 9 sayfası yayılır; aşağıdaki pilot Gerede sayfası (2026-08-06,
+        // metraj tablosuyla) onu bilinçli olarak geçersiz kılar — ilk elle yazılmış
+        // sayfamızdır ve canlıda kanıtlanmıştır.
+        ...BOLUPLATFORM_NET,
         "bolge:gerede": {
             h1: "Gerede'de Platform ve Forklift Kiralama",
             giris:
@@ -167,6 +176,10 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "canakkaleplatform.com": CANAKKALEPLATFORM_COM,
     "muglaplatform.com.tr": MUGLAPLATFORM_COM_TR,
     "bandirmamanlift.net": BANDIRMAMANLIFT_NET,
+    "eskisehirplatform.org": ESKISEHIRPLATFORM_ORG,
+    "afyonplatform.com.tr": AFYONPLATFORM_COM_TR,
+    "bilecikplatform.com": BILECIKPLATFORM_COM,
+    "bozuyukmanlift.com": BOZUYUKMANLIFT_COM,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

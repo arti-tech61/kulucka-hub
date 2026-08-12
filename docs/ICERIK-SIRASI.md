@@ -129,6 +129,11 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `eskisehirplatform.org` | **7/7** | 0 | 0 | ✅ TAMAM — havacılık-savunma tedarik + Sivrihisar |
+| `afyonplatform.com.tr` | **10/10** | 0 | 0 | ✅ TAMAM — mermer ocağı + termal (ilk Afyon) |
+| `bilecikplatform.com` | **7/7** | 0 | 0 | ✅ TAMAM — lojistik kavşak/depo projeleri (ilk Bilecik) |
+| `boluplatform.net` | **9/9** | 0 | 0 | ✅ TAMAM — TEM hattı + kış lojistiği (pilot Gerede korundu) |
+| `bozuyukmanlift.com` | **7/7** | 0 | 0 | ✅ TAMAM — seramik fabrikası çatı-yüksek bakım |
 | `kutahyaplatform.com` | **6/6** | 0 | 0 | ✅ TAMAM — seramik+maden-enerji (ilk Kütahya) |
 | `canakkaleplatform.com` | **7/7** | 0 | 0 | ✅ TAMAM — boğaz koridoru+ağır sanayi (ilk Çanakkale) |
 | `usakplatform.com` | **8/8** | 0 | 0 | ✅ TAMAM — halı-tekstil-deri üçlüsü (ilk Uşak) |
