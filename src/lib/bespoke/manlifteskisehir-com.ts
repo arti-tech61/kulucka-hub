@@ -521,4 +521,404 @@ export const MANLIFTESKISEHIR_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Odunpazarı'nın merkez ilçe niteliği ve kent içi küçük-orta ölçekli üretim dokusu kamuya açık bilgidir; duruş sezonu dışına planlama, kalem biriktirme ve gece bloğu koşulları firma saha pratiğidir. İşletme adı ve rakam kullanılmamıştır.",
     },
+
+    "bolge:tepebasi": {
+        h1: "Tepebaşı'nda Sanayi Duruş Sezonu Dışı Manlift Kiralama",
+        giris:
+            "Tepebaşı, kiralama takvimimizde ilginç bir işlev görür: bu ilçedeki işlerin büyük bölümü sanayi duruş sezonuna bağlı değildir ve tam da bu yüzden, bölgedeki tesisler bakıma girdiğinde ilçedeki talep sakinleşmez, tersine sakin dönemleri doldurur. Kentin idari, teknik ve ticari yapı stokunun ağırlığı burada olduğu için çalışma pencereleri üretim programına değil kullanım yoğunluğuna göre açılır — akşam saatleri, hafta sonları, dönem araları, kapanış sonrası. Bunlar sanayi duruşlarıyla çakışmaz ve çoğu zaman onun tam tersi haftalara düşer. Bir kapasite havuzu açısından bu, dengeleyici bir yüktür: zirve haftada tüm makineler sanayi tarafındayken, ilçedeki işler bir sonraki sakin döneme yerleşir ve yıl boyunca kapasite dengeli kullanılır. Bu sayfada anlattığımız şey bu dengenin nasıl kurulduğu ve ilçedeki bir kurumun kendi takvimini bu akış içinde nereye yerleştirmesi gerektiğidir. Sorumuz burada da tarihle başlıyor, ama bu kez üretim değil kullanım takvimini soruyoruz.",
+        maddeler: [
+            {
+                baslik: "Kullanım takvimi, üretim takvimi değil",
+                metin:
+                    "Bir yönetim binasında, eğitim yapısında ya da ticari holde çalışma penceresini belirleyen şey bir hattın durması değil, insanların o mekânı ne zaman kullanmadığıdır. Bu, planlamayı sanayi tarafından tümüyle ayırır: pencereler daha sık açılır, daha kısa sürer ve çoğunlukla mesai dışına düşer. Talep aldığımızda ilk sorduğumuz şey bu yüzden yapının kullanım grafiğidir — hangi gün ve saatlerde boşalır, hangi dönemlerde tümüyle kapanır. Bu grafik elimize geçtiğinde takvimdeki yer neredeyse kendiliğinden belirlenir.",
+            },
+            {
+                baslik: "Sanayi zirvesi ile kent sakinliğinin ters döngüsü",
+                metin:
+                    "Uzun tatil bloklarında sanayi tarafındaki talep tepe yaparken, ilçedeki kurumsal yapıların bir bölümü de aynı dönemde kapanır ve bu, bakım için ideal bir pencere açar. Yani iki talep aynı haftaya düşebilir. Bunu defterde önceden görüyor ve iki taraf arasında bir sıralama kuruyoruz: sanayi duruşları saat ve gün olarak kaydırılamadığı için sabitlenir, kent tarafındaki işler ise dönem içinde daha geniş bir aralığa yayılabildiği için o aralığa yerleştirilir. Kurumlar bu bilgiyi erken aldığında planlarını buna göre kuruyor.",
+            },
+            {
+                baslik: "Dönem aralarının değerlendirilmesi",
+                metin:
+                    "Eğitim ve araştırma yapılarında yılın en verimli çalışma pencereleri dönem aralarıdır: yapı boşalır, iş kesintisiz ilerler ve alanın uzun süre kapalı kalması sorun yaratmaz. Bu pencerelerin tarihleri önceden bellidir, dolayısıyla erken bağlanabilir. Uygulamada tam tersini görüyoruz — dönem arası başladıktan sonra yapılan aramalar, o aralığın büyük bölümünün zaten dolmuş olduğu bir noktaya denk geliyor. Tarihi mevsim başında bağlayan kurumlar, kesintisiz bir çalışma bloğunu tümüyle kendilerine ayırabiliyor.",
+            },
+            {
+                baslik: "Bölünmüş çalışma: bina kapanmadan ilerlemek",
+                metin:
+                    "Bazı yapılarda kapanış imkânı hiç yoktur ve pencere beklemek işi süresiz erteler. Bu durumda takvimi güne değil bölgeye göre kuruyoruz: yapı bölümlere ayrılır, her bölüm için ayrı bir çalışma dilimi belirlenir ve iş bölüm bölüm ilerler. Bu, tek seferde bitirilecek bir işi haftaya yaymak demektir; karşılığında kullanım hiç durmaz. Planı yapının işleyişini bilen görevliyle birlikte kuruyoruz, çünkü bölümlerin gerçek yoğunluk saatleri dışarıdan doğru tahmin edilemiyor.",
+            },
+            {
+                baslik: "Kent tarafının kapasiteyi dengeleyen rolü",
+                metin:
+                    "İlçedeki işler takvim açısından esnek olduğu için havuzdaki boş günleri doldurur ve bu, bize sanayi tarafında zirve haftalarda daha rahat hareket etme imkânı verir. Bu ilişkiyi kurumlara da açıkça anlatıyoruz, çünkü karşılığı doğrudan onlara dönüyor: takvim payı bırakan bir kurum, sakin bir güne yerleştiği için hem istediği makine sınıfını alıyor hem daha uygun bir bedelle çalışıyor. Tarihi kesin olan işlerde ise esneklik aramıyoruz; denetim, tören ya da açılış tarihine bağlı işler sabit gün olarak deftere yazılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yapı tipine göre pencere kaynağı ve bağlama zamanı",
+                paragraflar: [
+                    "İlçedeki yapı tiplerinde çalışma penceresi farklı kaynaklardan doğar ve bu, talebin ne zaman bağlanması gerektiğini belirler. Aşağıdaki çerçeve, keşif görüşmesinde takvimi kurarken kullandığımız haritadır.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Pencereyi açan", "Bağlama zamanı", "Takvim esnekliği"],
+                    satirlar: [
+                        ["Eğitim ve araştırma yapısı", "Dönem arası", "Mevsim başında", "Düşük — tarih sabit"],
+                        ["Yönetim ve hizmet binası", "Mesai dışı saatler", "Birkaç hafta önce", "Yüksek"],
+                        ["Ticari hol ve mağaza", "Kapanış sonrası", "Kısa vadede yeterli", "Yüksek"],
+                        ["Teknik tesis", "Hizmet yoğunluğu düşüşü", "Erken", "Orta"],
+                        ["Bakım ve servis atölyesi", "Vardiya dışı", "Birkaç gün önce", "Yüksek"],
+                        ["Tarihe bağlı iş", "Etkinlik veya denetim", "Tarih bilinir bilinmez", "Yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sabit tarihli işlerde geri sayım planı",
+                paragraflar: [
+                    "Bir açılış, denetim ya da etkinlik tarihine bağlı işlerde takvim tersten kurulur: bitiş günü sabittir ve her adım oradan geriye doğru yerleştirilir. Makinenin sahada olması gereken gün, hazırlık için gereken süre, olası bir hava ya da erişim aksaklığı için bırakılan pay ve evrak süreci sırayla geri sayıma yazılır. Bu düzen kurulduğunda tarihe yetişmeme riski büyük ölçüde ortadan kalkıyor.",
+                    "Geri sayımın en sık atlanan kalemi tampon gündür. İşin tam olarak bitiş gününe planlanması, en küçük aksaklıkta tarihi kaçırmak anlamına gelir. Bir gün tampon bırakmanın maliyeti tek bir günün bedeli; kaçırılmış bir tarihin maliyeti ise genellikle hesaplanamaz. Sabit tarihli işlerde bu payı teklife koyuyoruz ve gerekçesini yazıyoruz.",
+                ],
+            },
+            {
+                baslik: "Kurum tarafında karar süresinin takvime etkisi",
+                paragraflar: [
+                    "Kurumsal ve kamu tarafında planlamayı geciktiren şey çoğunlukla teknik değil, karar süresidir: teklifin onaydan geçmesi, satın alma sürecinin tamamlanması, çalışma izninin çıkması. Bu süreler öngörülebilir olduğu için geri sayıma dâhil edilebilir; sorun, çoğu zaman hiç hesaba katılmamalarıdır. Talep aldığımızda karar sürecinizin ne kadar süreceğini soruyoruz ve rezervasyonu buna göre kuruyoruz.",
+                    "Pratik çözüm opsiyondur: karar süreci işlerken hafta defterde kurum adına bekletilir, belirlenen serbest bırakma gününe kadar başka bir talebe verilmez. Bu, onay çıktığında tarihi kaybetmiş olmayı önlüyor. Tekrar eden ihtiyaçlarda ise çerçeve düzen kuruyoruz; süreç bir kez tamamlandıktan sonra sonraki talepler doğrudan takvime yazılıyor ve karar süresi tümüyle devreden çıkıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bizim binamızın bakımı sanayi duruş takvimine bağlı değil; bu bir avantaj mı?",
+                cevap:
+                    "Evet ve genellikle fark edilmeyen bir avantaj. Bölgedeki üretim tesisleri belirli haftalarda toplu olarak durduğu için o haftalarda kapasite baskısı yükseliyor. Sizin pencereniz üretim programına değil kullanım yoğunluğuna bağlı olduğu için bu haftalarla çakışmak zorunda değil; işi sakin bir döneme yerleştirdiğinizde makine seçeneği geniş oluyor, teslim saati esnekleşiyor ve bedel daha uygun çıkıyor. Bize söylemeniz gereken şey yapının kullanım grafiği: hangi gün ve saatlerde boşaldığı, hangi dönemlerde tümüyle kapandığı. Bu bilgiyle takvimdeki yer neredeyse kendiliğinden belirleniyor ve karşılıklı beklenti sahada değil, planda netleşiyor.",
+            },
+            {
+                soru: "Dönem arasında çalışma yaptırmak istiyoruz; ne zaman bağlamalıyız?",
+                cevap:
+                    "Dönem arası başlamadan çok önce, tercihen mevsim başında. Bu pencerelerin tarihleri önceden belli olduğu için erken bağlanabilir ve erken bağlandığında kesintisiz bir çalışma bloğunu tümüyle kendinize ayırabilirsiniz. Uygulamada tam tersini görüyoruz: aramalar genellikle dönem arası başladıktan sonra geliyor ve o noktada aralığın büyük bölümü dolmuş oluyor. Kalan günlerle de iş yapılıyor elbette, ama blok parçalanıyor ve aynı iş daha uzun sürüyor. Tarihiniz kurum takviminizde zaten yazılı; onu bize bir yıl önceden bile bildirseniz deftere yazarız. Kesinleşmemiş tarihlerde opsiyon kuruyoruz, hafta sizin adınıza bekliyor.",
+            },
+            {
+                soru: "Binamızı hiç kapatamıyoruz; iş nasıl ilerliyor?",
+                cevap:
+                    "Takvimi güne göre değil bölgeye göre kuruyoruz. Yapı bölümlere ayrılır, her bölüm için ayrı bir çalışma dilimi belirlenir ve iş bölüm bölüm ilerler; hiçbir anda yapının tamamı devre dışı kalmaz. Bu, tek seferde bitecek bir işi birkaç güne yaymak demektir ve süre uzar — ama kullanım hiç durmaz, ki kapatma imkânı olmayan yapılarda tek gerçekçi yol bu. Bölümlendirmeyi yapının işleyişini bilen görevlinizle birlikte yapıyoruz; bölümlerin gerçek yoğunluk saatleri dışarıdan doğru tahmin edilemiyor. Plan çıktığında hangi bölümde hangi gün çalışılacağını yazılı olarak paylaşıyoruz, böylece kurum içinde de duyurulabiliyor.",
+            },
+            {
+                soru: "Belirli bir tarihe yetişmesi gereken bir işimiz var; nasıl planlıyorsunuz?",
+                cevap:
+                    "Takvimi tersten kuruyoruz. Bitiş günü sabit kabul edilir ve her adım oradan geriye doğru yerleştirilir: makinenin sahada olması gereken gün, hazırlık süresi, evrak ve izin süreci, bir de aksaklık payı. En çok atlanan kalem bu son madde oluyor — işin tam olarak bitiş gününe planlanması, en küçük aksaklıkta tarihi kaçırmak demek. Bir gün tampon bırakmanın maliyeti tek bir günün bedeli; kaçırılmış bir tarihin maliyeti ise çoğu zaman hesaplanamıyor. Bu payı teklife koyuyor ve gerekçesini yazıyoruz. Tarih kesinse rezervasyonu opsiyonsuz, doğrudan bağlıyoruz ve o gün başka bir işe vermiyoruz.",
+            },
+            {
+                soru: "Onay sürecimiz uzun; tarih elimizden kaçar mı?",
+                cevap:
+                    "Kaçmaması için opsiyon kuruyoruz. Karar süreciniz işlerken istediğiniz hafta defterde kurum adına ayrılır ve birlikte belirlediğimiz serbest bırakma gününe kadar başka bir talebe verilmez. Bu düzen, onay çıktığında tarihi kaybetmiş olmayı önlüyor ve bize de defterin gerçeği yansıtmasını sağlıyor. Sizden istediğimiz tek şey, karar sürecinizin ne kadar süreceğini gerçekçi söylemeniz; iyimser bir süre verildiğinde opsiyon erken düşüyor ve aynı sorun geri geliyor. Tekrar eden ihtiyaçlarda ise çerçeve düzen kuruyoruz; süreç bir kez tamamlandıktan sonra sonraki talepler doğrudan takvime yazılıyor, onay süresi tümüyle devreden çıkıyor.",
+            },
+            {
+                soru: "Takvim konusunda esnek olursak bize ne dönüyor?",
+                cevap:
+                    "Üç şey. Birincisi makine seçimi: sakin bir güne yerleşen iş için hangi sınıfın geleceğini siz belirliyorsunuz, sıkışık bir haftada ise uygun olan hangisiyse o geliyor. İkincisi süre — esnek bir güne yerleşen işte makine gerekirse ertesi güne de kalabiliyor, çünkü arkasında bekleyen sabit bir duruş penceresi yok. Üçüncüsü bedel: sakin bir gün, makinenin aynı gün içinde başka bir adrese de geçebilmesini mümkün kıldığı için teklife yansıyor. Buna karşılık işiniz gerçekten tarihe bağlıysa esneklik aramıyoruz; o gün deftere sabit yazılır ve başka bir işe verilmez. Ayrımı talep aşamasında birlikte yapıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Tepebaşı'nın kentin idari, teknik ve ticari yapı stokunu yoğun olarak barındırması kamuya açık bilgidir; ters döngü planlaması, geri sayım takvimi ve opsiyon düzeni firma saha pratiğidir. Kurum adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:eskisehir-2-osb": {
+        h1: "Eskişehir 2. OSB'de İlk Duruş Takvimini Kurmak ve Manlift Planlaması",
+        giris:
+            "Eskişehir'in ikinci organize sanayi alanındaki tesislerin önemli bir bölümü, bakım takvimi henüz oturmamış tesislerdir. Yeni kurulan ya da hâlâ büyüyen bir işletmede duruş takvimi bir gelenek değil, ilk kez yazılan bir belgedir: hangi ekipmanın hangi aralıkla duracağı, pencerenin ne kadar süreceği ve bu pencerelerin yılın hangi haftalarına konulacağı deneyimle değil tahminle belirlenir. Bu, kiralama tarafında iki sonuç doğurur. Birincisi, talep düzensiz gelir — bazen aylarca ses çıkmaz, sonra üst üste birkaç hafta yoğun kullanım açılır. İkincisi, tahminler ilk yıllarda tutmaz; pencereler beklenenden uzun sürer ve devreye alma kuyruğu hesaba katılmamış olur. Bu sayfada anlattığımız şey, bir tesisin ilk duruş takvimini kurarken kiralama tarafından neye bakması gerektiği: pencerenin gerçek uzunluğu nasıl tahmin edilir, ilk yılın hataları nasıl kayda geçirilir ve bir sonraki yılın takvimi bu kayıtla nasıl düzeltilir.",
+        maddeler: [
+            {
+                baslik: "İlk takvimde en sık yapılan hata: pencereyi kısa yazmak",
+                metin:
+                    "Bakım takvimini ilk kez kuran tesislerde pencere süreleri neredeyse her zaman olması gerekenden kısa yazılır. Nedeni basit: hesap yapılırken yalnızca işin kendisi düşünülür, hazırlık, ekip değişimi ve devreye alma hesaba katılmaz. Sonuç, ilk yılda pencerelerin taşması ve bir bölüm işin ertelenmesidir. Bunu ilk turdan sonra düzeltmenin yolu, gerçekleşen süreleri kayda geçirmektir. Biz kendi tarafımızdan bu kaydı tutuyor ve tesisle paylaşıyoruz; ikinci yılın takvimi tahmine değil ölçüme dayanıyor.",
+            },
+            {
+                baslik: "Montaj dönemi ile bakım dönemi ayrı takvimlerdir",
+                metin:
+                    "Büyüyen bir tesiste platform ihtiyacı iki farklı kaynaktan gelir ve bunlar aynı deftere yazılmamalıdır. Montaj ve genişleme işleri süreklidir, haftalara yayılır ve takvimi esnektir. Bakım duruşları ise kısa, tarihe sıkı bağlı ve ertelenemezdir. İkisi tek bir kullanım kalemi gibi görüldüğünde, montaj için sahada tutulan makine bir bakım penceresine denk geldiğinde çakışma yaşanır. Talebi baştan iki başlık altında ele alıyor, montaj kullanımını sürekli, duruş kullanımını tarihli olarak deftere ayrı ayrı yazıyoruz.",
+            },
+            {
+                baslik: "Kapasite tahminini büyüme hızına bağlamak",
+                metin:
+                    "Bir tesis büyüdükçe bakım yükü de büyür, ancak bu artış doğrusal olmaz: yeni bir hat eklendiğinde yalnızca kendi bakım kalemleri değil, ortak altyapının yükü de artar. İlk yılların takvimi bu artışı öngörmediği için ikinci ve üçüncü yıllarda pencereler sıkışmaya başlar. Talebi yıllık olarak konuştuğumuz tesislerde bu eğilimi birlikte izliyoruz; kullanım kayıtları büyüme hızını gösterdiğinde bir sonraki yılın kapasitesini baştan daha geniş ayırıyoruz.",
+            },
+            {
+                baslik: "Yeni tesiste devreye alma kuyruğu daha uzundur",
+                metin:
+                    "Oturmuş bir tesiste duruş sonrası çıkan iş listesi kısadır; yeni bir hatta ise devreye alma dönemi haftalara yayılabilir ve bu sürede yukarıda yapılacak iş bitmez. İlk duruş takvimini kurarken bu kuyruğun uzunluğu neredeyse her zaman eksik tahmin edilir. Uygulamamız, ilk yıl için kuyruk süresini gerçekçi bir üst sınırla planlamak ve gerçekleşen süreyi kayda geçirmektir. İkinci yıldan itibaren bu sayı elinizde olur ve takvim gerçek verilere göre kurulur.",
+            },
+            {
+                baslik: "Sahada konaklayan makine ile tarihli kiralamanın ayrımı",
+                metin:
+                    "Yoğun montaj dönemlerinde makinenin tesiste kalması ekonomiktir; ancak sahada konaklayan bir makine havuzdan çıkar ve o süre boyunca başka bir talebe verilemez. Bu ayrımı baştan netleştiriyoruz: konaklama süresi belirli ve yazılıdır, uzatma ihtiyacı doğduğunda defterdeki sonraki taahhütlere bakarak cevap veriyoruz. Belirsiz süreli konaklama isteklerine olumlu cevap vermiyoruz, çünkü o makinenin başka bir tesisin duruş penceresine bağlanmış olma ihtimali her zaman var.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlk duruş takvimini kurarken doldurulacak alanlar",
+                paragraflar: [
+                    "Bir tesis bakım takvimini ilk kez yazarken kiralama tarafını ilgilendiren alanlar sınırlıdır ama hepsi belirleyicidir. Aşağıdaki çerçeve, takvim çalışmasında birlikte doldurduğumuz alanları ve ilk yıl için önerdiğimiz yaklaşımı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "İlk yıl yaklaşımı", "Kaydedilecek veri", "İkinci yıl düzeltmesi"],
+                    satirlar: [
+                        ["Pencere uzunluğu", "Geniş tahmin", "Gerçekleşen süre", "Ölçüme göre daraltma"],
+                        ["Makine sayısı", "Slot planına göre", "Bekleme süreleri", "Sayının artırılması veya azaltılması"],
+                        ["Devreye alma kuyruğu", "Üst sınırdan", "Kullanılan gün", "Gerçek süreye çekme"],
+                        ["Montaj kullanımı", "Süreli konaklama", "Toplam saat", "Süre yeniden pazarlığı"],
+                        ["Pencere haftası", "Sakin haftaya yerleştirme", "Çakışma sayısı", "Hafta değişimi"],
+                        ["Yedek makine", "Kritik pencerede işaretli", "Devreye girme sayısı", "Kapsamın daraltılması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Duruş haftasını bölge zirvesinden ayırmanın imkânı",
+                paragraflar: [
+                    "Yeni bir takvim kuran tesisin elinde, yerleşik tesislerde bulunmayan bir serbestlik var: pencereler henüz alışkanlığa dönüşmediği için hangi haftaya konulacakları hâlâ tartışılabilir. Bu, kapasiteyi doğrudan etkileyen bir karardır. Bölgenin toplu olarak durduğu haftalar dışına yerleştirilen bir pencere, makine seçiminde ve yedeklilikte belirgin bir rahatlık sağlar.",
+                    "Bu öneriyi takvim çalışmasının başında sunuyoruz, çünkü sonradan değiştirmek çok daha zor oluyor. Üretim programı izin veriyorsa pencereyi bölgesel zirvenin bir iki hafta öncesine ya da sonrasına almak, yıllar boyunca sürecek bir avantaj yaratıyor. İzin vermiyorsa zirve hafta için kapasiteyi baştan ayırıyoruz; önemli olan bu kararın bilinçli verilmesi.",
+                ],
+            },
+            {
+                baslik: "Kullanım kaydının ikinci yıla faydası",
+                paragraflar: [
+                    "İlk yılın en değerli çıktısı yapılan işler değil, tutulan kayıttır. Her pencere için makinenin sahada kaç saat kaldığı, kaç saat fiilen çalıştığı, hangi noktalarda beklendiği ve hangi kalemlerin ertelendiği yazıldığında ikinci yılın takvimi tahmin olmaktan çıkar. Bu kaydı biz kendi tarafımızdan tutuyor ve dönem sonunda tesise veriyoruz; kullanımı tümüyle tesise ait.",
+                    "Kaydın en çok işe yaradığı yer makine sayısı kararıdır. İki makinenin gerçekten gerekli olup olmadığı ancak birinci yılın bekleme süreleri görüldüğünde netleşir. Aynı şekilde, tek makineyle yürütülen bir pencerede kaç saatin sıra beklemekle geçtiği de kayıttan okunur. İkinci yılda bu iki sayı elinizdeyse takvim çalışması çok daha kısa sürüyor ve tartışmasız ilerliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bakım takvimimizi ilk kez kuruyoruz; pencereleri ne kadar uzun tutmalıyız?",
+                cevap:
+                    "İlk yıl için tahmininizden geniş tutmanızı öneriyoruz ve bunun somut bir gerekçesi var: ilk takvimlerde süre hesabı genellikle yalnızca işin kendisi üzerinden yapılıyor, hazırlık, ekip değişimi ve devreye alma hesaba katılmıyor. Sonuç, pencerenin taşması ve bir bölüm işin ertelenmesi oluyor. Geniş yazılmış bir pencerenin maliyeti birkaç saatlik fazla kullanım; dar yazılmış bir pencerenin maliyeti ise ertelenmiş bir bakım kalemi ve onun bir sonraki döneme kadar taşıdığı risk. İlk turda gerçekleşen süreleri kaydediyoruz ve dönem sonunda size veriyoruz; ikinci yılın takvimi tahmine değil ölçüme dayanıyor, o zaman pencereleri rahatlıkla daraltabiliyorsunuz.",
+            },
+            {
+                soru: "Montaj işlerimiz sürüyor, bir de bakım duruşumuz var; ikisini birlikte mi planlamalıyız?",
+                cevap:
+                    "Ayrı planlamanızı öneriyoruz, çünkü karakterleri tümüyle farklı. Montaj kullanımı sürekli, haftalara yayılan ve takvim açısından esnek bir kalem; bakım duruşu ise kısa, tarihe sıkı bağlı ve ertelenemez. İkisi tek bir kullanım gibi görüldüğünde şu olur: montaj için sahada tutulan makine bir bakım penceresine denk gelir ve iki iş aynı makineyi bekler. Biz talebi baştan iki başlık altında deftere yazıyoruz — montaj süreli konaklama olarak, duruş ise tarihli rezervasyon olarak. Böylece montaj döneminde bir duruş açıldığında ikinci makine planlanmış oluyor ve sahada çakışma yaşanmıyor. Fiyatlama da iki kalem için ayrı ayrı yapılıyor.",
+            },
+            {
+                soru: "Duruş haftamızı hangi döneme koymalıyız?",
+                cevap:
+                    "Üretim programınız izin veriyorsa bölgenin toplu olarak durduğu haftaların dışına. Yeni bir takvim kuran tesisin elinde yerleşik tesislerde olmayan bir serbestlik var: pencereler henüz alışkanlığa dönüşmediği için hangi haftaya konulacakları hâlâ tartışılabilir. Zirve hafta dışına yerleştirilen bir pencere yıllar boyunca sürecek bir avantaj sağlıyor — makine sınıfını siz seçiyorsunuz, ikinci makine eklemek mümkün oluyor ve yedek bulundurmak gerçekçi hâle geliyor. Üretim programınız buna izin vermiyorsa sorun değil, zirve hafta için kapasiteyi baştan ayırıyoruz. Önemli olan bu kararın bilinçli verilmesi; sonradan hafta değiştirmek çok daha zor oluyor.",
+            },
+            {
+                soru: "Kaç makineye ihtiyacımız olacağını nasıl bileceğiz?",
+                cevap:
+                    "İlk yıl slot planıyla tahmin ediyor, ikinci yıl kayda göre kesinleştiriyoruz. Slot planı şudur: pencereyi saat dilimlerine bölüyor, hangi ekibin hangi dilimde ve hangi bölgede yukarı çıkacağını tabloya yazıyoruz. Ekipler farklı dilimlerde çalışıyorsa tek makine sıraya göre dolaşarak yetiyor; aynı dilimde ve hacmin iki ucundalarsa ikinci makine gerekiyor. Bu, ilk yıl için makul bir tahmin veriyor. Asıl kesinlik pencere kapandıktan sonra geliyor: makinenin kaç saat fiilen çalıştığı, kaç saat sıra beklendiği kayda geçiyor. İkinci yılda bu iki sayıyla makine sayısı tartışmasız belirleniyor — çoğu tesiste sayı sanılandan az çıkıyor.",
+            },
+            {
+                soru: "Makineyi montaj boyunca sahamızda tutabilir miyiz?",
+                cevap:
+                    "Tutabilirsiniz, ancak süre belirli ve yazılı olmak zorunda. Sahada konaklayan bir makine havuzdan çıkıyor ve o süre boyunca başka bir tesisin duruş penceresine verilemiyor; bu yüzden belirsiz süreli konaklama isteklerine olumlu cevap vermiyoruz. Süre baştan yazıldığında planlama iki taraf için de netleşiyor: siz makinenin ne zamana kadar sizde olduğunu biliyorsunuz, biz de sonrasını planlayabiliyoruz. Uzatma ihtiyacı doğduğunda defterdeki taahhütlere bakıp cevap veriyoruz — çoğu zaman mümkün oluyor, ama sonraki adres bir duruş penceresine bağlıysa olmuyor ve bunu erken söylüyoruz. Konaklama süresince park ve şarj noktasının belirlenmiş olmasını, periyodik bakımın yerinde yapılabilmesini istiyoruz.",
+            },
+            {
+                soru: "Tesisimiz büyüyor; kapasiteyi nasıl önden ayarlıyorsunuz?",
+                cevap:
+                    "Kullanım kaydınızı yıllık olarak izleyerek. Bakım yükü tesis büyüdükçe artıyor ama doğrusal değil: yeni bir hat eklendiğinde kendi kalemlerinin yanında ortak altyapının yükü de büyüyor. İlk yılların takvimi bu artışı öngörmediği için ikinci ve üçüncü yılda pencereler sıkışmaya başlıyor. Yıllık konuştuğumuz tesislerde kullanım kayıtları bu eğilimi gösteriyor ve bir sonraki yılın kapasitesini baştan geniş ayırabiliyoruz. Sizden istediğimiz, yeni bir hat ya da hacim planladığınızda bunu bakım takvimi konuşmasına dâhil etmeniz. Yatırım kararını bilmemiz gerekmiyor, yalnızca kabaca ne zaman devreye gireceğini bilmemiz yetiyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Eskişehir'in ikinci organize sanayi alanının genç ve büyümekte olan tesis dokusu kamuya açık bilgidir; ilk duruş takvimi kurma, kullanım kaydı ve konaklama süresi düzeni firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:bozuyuk-osb-bilecik-cevre-ili": {
+        h1: "Bozüyük OSB'de Duruş Sezonu Kapasitesi ve Manlift Kiralama (Çevre İl)",
+        giris:
+            "Bozüyük Organize Sanayi Bölgesi, iki şehirli kapasite havuzumuzun güney ayağıdır ve bu ayağın kendine özgü bir takvim karakteri vardır: buradaki büyük tesislerin bakım pencereleri uzun çevrimli ekipmanlara bağlı olduğu için seyrek açılır, açıldığında ise günlerce sürer ve kaydırılması neredeyse imkânsızdır. Kuzey uçtaki tesislerin daha sık ve daha kısa pencereleriyle karşılaştırıldığında ortaya iki farklı talep profili çıkar — biri uzun blok, diğeri parçalı kullanım. Bir kiralama defterinde bu ikisinin yan yana durması aslında iyi haberdir: uzun bloklar takvimde önceden yer tuttuğu için aralarındaki günler kuzeydeki kısa taleplere açılabilir ve makineler iki uç arasında dolaşır. Bu sayfada anlattığımız şey bu akışın güney ucundan görünüşü: bir bloğun deftere nasıl yazıldığı, blok içinde kaç makinenin gerçekten gerektiği, bloğun uzaması hâlinde ne olduğu ve çevre il olmanın planlı işlerde neden bir dezavantaj yaratmadığı.",
+        maddeler: [
+            {
+                baslik: "Uzun blok: kaydırılamayan pencerenin planlaması",
+                metin:
+                    "Uzun çevrimli ekipmana bağlı bir bakım penceresi, tarihi belirlenen değil ortaya çıkan bir penceredir; üretim planı, ekipmanın kendi çevrimi ve enerji maliyeti birlikte tarihi dayatır. Bu tip pencerelerde kaydırma pazarlığı yapmıyoruz, çünkü karşılığı yok. Yaptığımız şey bloğu defterde erken sabitlemek ve etrafındaki günleri buna göre kurgulamak. Blok bir kez yazıldığında o tarihe makine ayrılır ve başka bir talebe verilmez — çevre il olması bu kuralı hiçbir şekilde değiştirmez.",
+            },
+            {
+                baslik: "Blok içinde makine sayısını iş listesi belirler",
+                metin:
+                    "Günlerce süren bir pencerede tek makineyle çalışmak her zaman yanlış değildir; belirleyici olan iş listesinin dağılımıdır. Noktalar tesisin farklı bölümlerine yayılmışsa ve ekipler paralel çalışacaksa ikinci makine gerekir; noktalar tek bölümde toplanmışsa tek makine bloğun tamamını taşır. Bu kararı listeyi görmeden vermiyoruz. Blok uzun olduğu için hata payı da büyük — gereksiz ikinci makine günlerce boş bekler, eksik makine ise ekipleri sıraya sokar.",
+            },
+            {
+                baslik: "Blok uzarsa ne oluyor",
+                metin:
+                    "Uzun pencerelerin beklenenden uzaması sık görülür ve bunu baştan konuşuyoruz. Makinenin bloktan sonra bağlı olduğu bir iş varsa uzatma mümkün olmayabilir; bu yüzden rezervasyon kurarken bloğun arkasındaki günün durumunu söylüyoruz. Uzama ihtimali yüksek pencerelerde makineyi baştan daha uzun süreye bağlamayı öneriyoruz — birkaç ek günün bedeli, pencerenin ortasında makinesiz kalmanın karşılığıyla kıyaslanamaz. Bu, çevre il işlerinde özellikle geçerli çünkü ikinci bir sevkiyat mesafeye bağlı zaman kaybı yaratıyor.",
+            },
+            {
+                baslik: "Blok aralarının kuzey talebine açılması",
+                metin:
+                    "Güneydeki uzun bloklar takvimde önceden yer tuttuğu için aralarındaki günler görünür hâle gelir ve bu günler kuzeydeki kısa taleplere açılabilir. Havuzun verimini sağlayan mekanizma budur: makine bloğun bitiminde geri çekilir, birkaç gün kuzey uçta çalışır ve bir sonraki bloğa yetişecek şekilde geri döner. Bu akışın kurulabilmesi için tek gereken, blokların erken bildirilmesi. Geç bildirilen bir blok, arasındaki günlerin planlanmasını da imkânsız kılıyor.",
+            },
+            {
+                baslik: "Çevre il olmanın planlı işlerde etkisi yok",
+                metin:
+                    "Planlı bir işte adres değil takvim belirleyicidir. Tarih önceden bilindiğinde makine o gün orada olur ve hazırlığı, teslim düzeni, evrakı yerel bir işle birebir aynıdır; bu konuda gevşeme kabul etmiyoruz. Fark yalnızca plansız durumlarda ortaya çıkar: sahada makine yokken doğan bir talep, yolun süresini bekler ve şehir içi hızında bir müdahale sözü vermiyoruz. Bu ayrımı baştan söylemeyi tercih ediyoruz, çünkü tutulamayacak bir taahhüt yazmak diğer taahhütlerin de güvenilirliğini düşürüyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Güney ucunda talep tipine göre defter düzeni",
+                paragraflar: [
+                    "Bölgeden gelen talepleri süre ve tarih bağına göre ayırıyoruz. Aşağıdaki çerçeve, bir talebin defterde nasıl yer aldığını ve buna bağlı olarak hangi güvencelerin verilebildiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Talep tipi", "Tarih bağı", "Defterdeki yeri", "Verilebilen güvence"],
+                    satirlar: [
+                        ["Uzun revizyon bloğu", "Kaydırılamaz", "Sabit blok", "Tarih ve makine sınıfı"],
+                        ["Kısa planlı duruş", "Sınırlı esneklik", "Bloklar arası", "Gün ve saat aralığı"],
+                        ["Ekipman değişimi projesi", "Proje takvimi", "Süreli konaklama", "Süre ve uzatma koşulu"],
+                        ["Dönemsel kontrol", "Esnek", "Sakin haftaya kaydırılır", "Hafta aralığı"],
+                        ["Ölçüm ve denetim erişimi", "Randevuya bağlı", "Tekil sevkiyat", "Randevu saati"],
+                        ["Plansız arıza", "Anlık", "Boşluğa yerleştirilir", "Gerçekçi varış saati"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bloğu erken bildirmenin havuz üzerindeki etkisi",
+                paragraflar: [
+                    "Bir uzun bloğun erken bildirilmesi yalnızca o tesise değil, hattın tamamına yarar. Blok deftere yazıldığı anda öncesindeki ve sonrasındaki günler planlanabilir hâle gelir; makineler bu boşluklara yerleştirilir ve kuzey uçtaki kısa talepler karşılanır. Geç bildirilen bir blok ise iki yönlü zarar üretir — hem o tesis için kapasite bulmak zorlaşır hem de çevresindeki günler boşa gider.",
+                    "Bu yüzden bloğun tarihini kesinleşmeden önce bile paylaşmanızı istiyoruz. Kesinleşmemiş bir tarih için opsiyon kuruyoruz: hafta sizin adınıza ayrılır, belirlenen güne kadar teyit gelmezse serbest kalır. Bu düzen ilk bakışta bize yük gibi görünse de gerçekte tersini yapıyor; defterin gerçeği yansıtması, kapasite planlamasının tek şartı.",
+                ],
+            },
+            {
+                baslik: "Uzun pencerede yedeklilik gerçekten anlamlı",
+                paragraflar: [
+                    "Kısa bir duruşta makine arızası genellikle bir kalemin ertelenmesiyle sonuçlanır; günlerce süren bir blokta ise arıza, bloğun geri kalanını riske atar ve bu blok yakın zamanda tekrar açılmaz. Bu yüzden uzun pencerelerde yedek makine işaretlemesini gerçekten öneriyoruz. İşaretlenen makine havuzda kalır ama o hafta başka bir uzun işe bağlanmaz; devreye girmediğinde yalnızca küçük bir hazır bulundurma kalemi doğar.",
+                    "İkinci yedeklilik katmanı mesafeyle ilgilidir. Çevre ilde bir arızanın çözümü, kuzey uçtakine göre yol süresi kadar uzar. Bunu küçültmek için bloklara giden makinelerde teslimat öncesi kontrolü geniş tutuyor, sınırda görünen bir makineyi yola çıkarmıyoruz. Uzun bloklarda ayrıca şarj düzenini ve gece park noktasını baştan belirliyoruz; blok ortasında çözülmeye çalışılan bu iki başlık günlük kayıp üretiyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Revizyon bloğumuz günlerce sürüyor; makineyi ne kadar önceden bağlamalıyız?",
+                cevap:
+                    "Tarih ortaya çıktığı anda, kesinleşmesini beklemeden. Uzun çevrimli ekipmana bağlı pencerelerin tarihi belirlenmez, ortaya çıkar — üretim planı, ekipmanın çevrimi ve maliyet birlikte dayatır. Bu yüzden kaydırma pazarlığı yapmıyoruz, blok deftere sabit olarak yazılıyor ve o tarihe makine ayrılıyor. Tarih henüz kesin değilse opsiyon kuruyoruz: hafta sizin adınıza ayrılır, birlikte belirlediğimiz güne kadar teyit gelmezse serbest kalır. Erken bildirimin ikinci faydası bloğun çevresindeki günlerin de planlanabilir hâle gelmesi; bu, hattın tamamındaki kapasiteyi rahatlatıyor ve dolaylı olarak size de dönüyor.",
+            },
+            {
+                soru: "Blok boyunca kaç makine tutmalıyız?",
+                cevap:
+                    "İş listesini görmeden sayı vermiyoruz, çünkü uzun bloklarda hata payı da uzun. Belirleyici olan noktaların dağılımı: kalemler tesisin farklı bölümlerine yayılmışsa ve ekipler paralel çalışacaksa ikinci makine gerekiyor; noktalar tek bölümde toplanmışsa tek makine bloğun tamamını taşıyor. Listeyi aldığımızda noktaları güzergâh sırasına diziyor, her bölümde geçecek süreyi kabaca hesaplıyor ve iki senaryonun maliyetini yan yana gösteriyoruz. Gereksiz ikinci makine günlerce boş bekler, eksik makine ise ekipleri sıraya sokar — ikisi de pahalı. Kararı liste üzerinden birlikte veriyoruz, tahminle değil.",
+            },
+            {
+                soru: "Blok beklenenden uzarsa makine bizde kalabilir mi?",
+                cevap:
+                    "Çoğu zaman kalabiliyor ama bunu baştan garanti etmiyoruz ve nedenini açıkça söylüyoruz: makinenin bloktan sonra bağlı olduğu bir iş olabilir. Rezervasyon kurarken bloğun arkasındaki günün durumunu bildiriyoruz — arkası boşsa uzatma tek telefonla çözülüyor, arkası başka bir tesisin duruş penceresine bağlıysa uzatma mümkün olmuyor. Uzama ihtimalini yüksek gördüğünüz pencerelerde makineyi baştan daha uzun süreye bağlamanızı öneriyoruz. Birkaç ek günün bedeli, bloğun ortasında makinesiz kalmanın karşılığıyla kıyaslanamaz; çevre ilde ikinci bir sevkiyat ayrıca yol süresi kadar zaman kaybı demek.",
+            },
+            {
+                soru: "Çevre il olmamız hizmet kalitesini etkiliyor mu?",
+                cevap:
+                    "Planlı işlerde hayır, plansız işlerde evet — ve bu ayrımı süslemeden söylüyoruz. Tarihi önceden bilinen bir işte makine o gün orada oluyor; hazırlığı, teslim düzeni ve evrakı yerel bir işle birebir aynı, bu konuda gevşeme kabul etmiyoruz. Fark plansız durumda ortaya çıkıyor: sahada makine yokken doğan acil bir talep yolun süresini bekliyor ve şehir içi hızında bir müdahale sözü vermiyoruz, çünkü tutamayacağımız bir taahhüt yazmak diğer sözlerimizin de değerini düşürür. Acil çağrılarda yaptığımız şey önce uzaktan değerlendirme yapıp doğru sınıftaki makineyle yola çıkmak ve size gerçekçi bir varış saati söylemek.",
+            },
+            {
+                soru: "Uzun pencerede yedek makine tutmak mantıklı mı?",
+                cevap:
+                    "Uzun pencerelerde gerçekten mantıklı ve bunu kısa duruşlardan ayırıyoruz. Birkaç saatlik bir duruşta arıza, bir kalemin ertelenmesiyle sonuçlanır; günlerce süren bir blokta ise bloğun geri kalanını riske atar ve o blok yakın zamanda tekrar açılmaz. Yedek işaretlemesinde makine havuzda kalır ama o hafta başka bir uzun işe bağlanmaz; devreye girmezse yalnızca küçük bir hazır bulundurma kalemi doğar. Buna ek olarak bloklara giden makinelerde teslimat öncesi kontrolü geniş tutuyor, sınırda görünen bir makineyi yola çıkarmıyoruz. Şarj düzeni ve gece park noktası da baştan belirleniyor — blok ortasında çözülmeye çalışılan bu iki başlık gün kaybı üretiyor.",
+            },
+            {
+                soru: "Blok dışında kalan kısa işlerimiz için de aynı hattı kullanabilir miyiz?",
+                cevap:
+                    "Kullanabilirsiniz ve havuz düzeninin asıl faydası burada ortaya çıkıyor. Uzun bloklar defterde önceden yer tuttuğu için aralarındaki günler görünür oluyor; bu günlere hem güneydeki kısa talepler hem kuzey uçtaki işler yerleşiyor. Kısa işlerinizi bu boşluklara yazdığımızda makine zaten bölgede oluyor ve ayrı bir sevkiyat organizasyonu gerekmiyor. Sizden istediğimiz, kısa işler için birkaç günlük takvim payı bırakmanız; gün sabitlendiğinde boşluğa yerleştirme imkânı kalmıyor. Tarihe bağlı kısa işlerde ise elbette gün sabit yazılıyor, sadece bedeli farklı oluşuyor ve bunu teklifte açıkça gösteriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bozüyük'ün Bilecik'teki sanayi ağırlığı, uzun çevrimli ekipmanların bakım pencerelerini belirlemesi ve ilçenin Eskişehir'e karayolu yakınlığı kamuya açık bilgidir; blok rezervasyonu, yedek işaretleme ve havuz akışı firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:polatli-ankara-cevre-ili": {
+        h1: "Polatlı'da Takvim Çakışmaları ve Duruş Dönemi Manlift Kiralama (Çevre İl)",
+        giris:
+            "Polatlı, kapasite defterimizde üçüncü bir eksen olarak durur ve buradaki takvim, Eskişehir-Bozüyük hattındakinden farklı bir mantıkla kurulur. İlçedeki talebin bir bölümü sanayi duruş sezonuna bağlıdır, ancak önemli bir bölümü tarımsal işleme ve depolama ritmine bağlıdır — yani takvimi belirleyen şey bir üretim programı değil, ürünün kendi mevsimidir. Bu iki takvim yılın bazı dönemlerinde birbirinden uzak durur, bazı dönemlerinde ise üst üste biner ve o haftalar ilçede kapasitenin en zorlandığı haftalar olur. Bir kiralama defteri açısından bu, üç eksenin aynı anda yönetilmesi demektir: kuzeydeki sanayi zirvesi, güneydeki uzun bloklar ve doğudaki mevsimsel dalga. Bu sayfada anlattığımız şey ilçedeki bir tesisin bu üçlü akış içinde kendi penceresini nasıl güvenceye alacağı — hangi tarihlerin çakışma riski taşıdığı, hangi işlerin mevsim dışına taşınabileceği ve eksende yapılan geçişlerin planlamaya nasıl dâhil edildiği.",
+        maddeler: [
+            {
+                baslik: "İki takvimin üst üste bindiği haftalar",
+                metin:
+                    "İlçede bakım talebi iki ayrı kaynaktan gelir: üretim programına bağlı sanayi duruşları ve ürünün mevsimine bağlı işleme-depolama pencereleri. Bu ikisi yılın bazı dönemlerinde aynı haftalara düşer ve o haftalarda ilçedeki talep, iki eksenin toplamı kadar olur. Defterde bu haftaları önceden işaretliyoruz ve talep aldığımızda hangi dönemde olduğumuzu açıkça söylüyoruz. Çakışma haftasına denk gelen bir iş için erken bağlama, ilçedeki en belirleyici tek etken.",
+            },
+            {
+                baslik: "Mevsime bağlı pencerenin sertliği",
+                metin:
+                    "Ürünün mevsimine bağlı bir bakım penceresi, üretim programına bağlı bir pencereden daha katıdır: kaydırmak mümkün değildir, çünkü kararı veren şey takvim değil ürünün kendisidir. Dolum öncesi ve boşalma sonrası dönemler bu yapıların doğal bakım aralığıdır ve bu aralık kaçırıldığında bir sonraki fırsat bir yıl sonrasına düşebilir. Bu tip pencerelerde rezervasyonu mevsim başında bağlamayı şart koşmuyoruz ama açıkça öneriyoruz; geç kalan talepler ilçede en sık geri çevrilen taleplerdir.",
+            },
+            {
+                baslik: "Eksende yapılan geçişlerin planlamaya katılması",
+                metin:
+                    "İlçe, Eskişehir ile başkent arasındaki karayolu hattının üzerinde bulunduğu için düzenli geçişlerimizin doğal durağıdır. Bunun planlamadaki karşılığı, takvim payı bırakan işlerin bu geçişlere bağlanabilmesidir: makine zaten yolda olduğu için ayrı bir sevkiyat organizasyonu doğmaz. Geçiş günlerini defterde tutuyor ve esnek talepleri bu günlere yerleştiriyoruz. Tarihe sabit bağlı işlerde ise geçiş beklenmez, tekil sevkiyat yapılır ve bedeli teklifte ayrı satır olarak görünür.",
+            },
+            {
+                baslik: "Üç eksenin aynı anda dolduğu nadir haftalar",
+                metin:
+                    "Yılın birkaç haftasında kuzeydeki sanayi zirvesi, güneydeki uzun bloklar ve ilçedeki mevsimsel dalga aynı döneme denk gelir. Bu haftalarda havuzda kaydırılabilecek makine kalmaz ve verilecek dürüst cevap kapasitenin olmadığıdır. Bunu önceden görebildiğimiz için talepleri erken uyarıyoruz: söz konusu haftalara denk gelen bir işi ya erken bağlamak ya da birkaç gün kaydırmak gerekir. Geç gelen taleplere o hafta için gerçekçi bir alternatif sunamıyoruz ve bunu peşinen söylüyoruz.",
+            },
+            {
+                baslik: "Bekleyen işi mevsim dışına taşımanın karşılığı",
+                metin:
+                    "İlçedeki tavan iş listelerinin bir bölümü mevsime bağlı değildir: organize sanayi hollerindeki aydınlatma, havalandırma ve tesisat kalemleri yıl boyu planlanabilir. Bu kalemleri çakışma haftalarının dışına taşımak, hem daha rahat bir çalışma hem daha uygun bir bedel demektir. Talep aldığımızda bu ayrımı ilk adımda yapıyoruz — işiniz gerçekten mevsime bağlı mı, yoksa alışkanlıkla mı o döneme çekiliyor? Cevap çoğu zaman ikincisi çıkıyor ve takvimde belirgin bir rahatlama sağlıyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlçede takvim kaynağına göre planlama",
+                paragraflar: [
+                    "İlçeden gelen talepleri, pencereyi belirleyen kaynağa göre ayırıyoruz. Aşağıdaki çerçeve, bir talebin ne kadar esnek olduğunu ve ne zaman bağlanması gerektiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Talep kaynağı", "Pencereyi belirleyen", "Esneklik", "Bağlama zamanı"],
+                    satirlar: [
+                        ["Mevsimsel işleme tesisi", "Ürün takvimi", "Yok", "Mevsim başında"],
+                        ["Depolama yapısı", "Dolum ve boşalma", "Çok düşük", "Bir dönem önceden"],
+                        ["OSB üretim holü", "Üretim programı", "Orta", "Birkaç hafta önce"],
+                        ["Bakım atölyesi", "Kendi programı", "Yüksek", "Kısa vadede yeterli"],
+                        ["Kurumsal tesis", "Kullanım yoğunluğu", "Yüksek", "Esnek"],
+                        ["Arıza müdahalesi", "Anlık", "Yok", "Aynı gün, mesafeye bağlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çakışma haftasını yönetmenin yolları",
+                paragraflar: [
+                    "İki takvimin üst üste bindiği haftalarda kullandığımız araçlar sınırlı ama etkili. Birincisi erken bağlamadır — o hafta için kapasite, talebin geliş sırasına göre dağıtılır ve sonradan gelen bir talep için makine üretmek mümkün değildir. İkincisi iş listesinin ayrıştırılmasıdır: mevsime bağlı olmayan kalemler hafta dışına çıkarıldığında ihtiyaç duyulan makine sayısı ve süre küçülür.",
+                    "Üçüncü araç, geçiş günlerinin kullanılmasıdır. Eksen üzerinde zaten yapılan bir geçişe eklenen kısa bir iş, çakışma haftasında bile karşılanabiliyor, çünkü ayrı bir sevkiyat organizasyonu gerektirmiyor. Bunun tek şartı işin kısa olması ve saat aralığının esnek bırakılması. Üç araç birlikte kullanıldığında çakışma haftalarında bile ilçeden gelen taleplerin önemli bölümü karşılanabiliyor.",
+                ],
+            },
+            {
+                baslik: "Mevsimsel yığılmayı bir yıl önceden düzeltmek",
+                paragraflar: [
+                    "İlçedeki mevsimsel taleplerin en pratik çözümü bir yıl geriden gelir: geçen yıl hangi hafta hangi işi yaptırdığınızı not edip, bu yıl aynı talebi bir dönem öne alarak bağlamak. Mevsimsel pencereler tekrar ettiği için bu düzeltme bir kez yapıldığında kalıcı oluyor ve her yıl aynı sıkışmayı yaşamaktan kurtarıyor.",
+                    "Bunu tek başınıza yapmanız gerekmiyor; kullanım kaydınızı biz de tutuyoruz ve dönem sonunda paylaşıyoruz. Kayıtta hangi işin hangi hafta yapıldığı, ne kadar sürdüğü ve o hafta kapasitenin ne durumda olduğu yer alır. Bu üç bilgi yan yana geldiğinde bir sonraki yılın takvimi kendiliğinden düzeliyor ve rezervasyon konuşması tartışmasız ilerliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mevsime bağlı bir penceremiz var; ne zaman bağlamalıyız?",
+                cevap:
+                    "Mevsim başında, hatta bir önceki dönemde. Ürünün mevsimine bağlı bir bakım penceresi, üretim programına bağlı bir pencereden daha katı: kaydırılamıyor, çünkü kararı veren şey takvim değil ürünün kendisi. Dolum öncesi ve boşalma sonrası dönemler bu yapıların doğal bakım aralığı ve bu aralık kaçırıldığında bir sonraki fırsat çoğu zaman bir yıl sonrasına düşüyor. İlçede en sık geri çevirmek zorunda kaldığımız talepler, tam da bu tip pencerelerin son anında gelen talepler. Tarihiniz kesin değilse opsiyon kuruyoruz; hafta sizin adınıza bekliyor ve belirlediğimiz güne kadar teyit gelmezse serbest kalıyor.",
+            },
+            {
+                soru: "Talebimiz çakışma haftasına denk geliyor; şansımız ne?",
+                cevap:
+                    "Erken geldiyseniz yüksek, geç geldiyseniz sınırlı. Çakışma haftalarında kapasite talebin geliş sırasına göre dağılıyor ve sonradan makine üretmek mümkün değil. Buna karşılık elimizde üç araç var. Birincisi iş listesini ayrıştırmak: mevsime bağlı olmayan kalemler hafta dışına çıkarıldığında ihtiyaç duyulan süre ve makine sayısı küçülüyor, kalan iş sığabiliyor. İkincisi pencereyi birkaç gün öne ya da arkaya almak, mümkünse. Üçüncüsü, eksende zaten yapılan bir geçişe kısa bir iş eklemek — bu, ayrı sevkiyat gerektirmediği için çakışma haftasında bile çalışıyor. Hangisinin sizde uygulanabilir olduğunu talep aşamasında birlikte belirliyoruz.",
+            },
+            {
+                soru: "İşimiz gerçekten o döneme bağlı mı, nasıl anlarız?",
+                cevap:
+                    "Sorduğumuz ilk soru bu oluyor ve cevap çoğu zaman şaşırtıyor. İlçedeki tavan iş listelerinin önemli bölümü aslında mevsime bağlı değil: organize sanayi hollerindeki aydınlatma, havalandırma, tesisat ve kablo kalemleri yıl boyu planlanabilir. Bunlar alışkanlıkla yoğun döneme çekiliyor, çünkü bakım işleri toptan gündeme alınıyor. Ayrımı yapmanın pratik yolu şu: bu kalem yapılmazsa üretim ya da depolama doğrudan etkilenir mi? Cevap hayırsa iş mevsim dışına taşınabilir. Taşındığında hem daha rahat çalışılıyor hem teklif daha uygun çıkıyor, çünkü sakin bir güne yerleşen iş makinenin gün içinde başka bir adrese de geçmesini mümkün kılıyor.",
+            },
+            {
+                soru: "Eskişehir'den geldiğiniz için gecikme yaşar mıyız?",
+                cevap:
+                    "Planlı işlerde hayır. İlçe, iki şehir arasındaki karayolu hattının üzerinde olduğu için düzenli geçişlerimizin doğal durağı; tarihi önceden bilinen bir işte makine o gün orada oluyor ve hazırlığı yerel bir işle aynı. Takvim payı bırakan işlerde ayrıca avantaj var: iş zaten yapılan bir geçişe bağlandığında ayrı bir sevkiyat organizasyonu doğmuyor. Fark plansız durumlarda çıkıyor — sahada makine yokken doğan acil bir talep yolun süresini bekliyor ve gerçekçi süre çoğu zaman ertesi gün oluyor. Aynı gün mümkün olan durumlar yaşanıyor ama bunu peşinen taahhüt etmiyoruz; tutamayacağımız bir söz, yazdığımız diğer taahhütlerin de değerini düşürüyor.",
+            },
+            {
+                soru: "Her yıl aynı dönemde sıkışıyoruz; bunu nasıl kırarız?",
+                cevap:
+                    "Takvimi bir yıl geriden düzelterek. Geçen yıl hangi işi hangi hafta yaptırdığınızı not edip, bu yıl aynı talebi bir dönem öne alarak bağlamak yeterli oluyor. Mevsimsel pencereler tekrar ettiği için bu düzeltme bir kez yapıldığında kalıcı hâle geliyor. Tek başınıza yapmanız da gerekmiyor: kullanım kaydınızı biz tutuyoruz ve dönem sonunda paylaşıyoruz. Kayıtta hangi işin hangi hafta yapıldığı, ne kadar sürdüğü ve o hafta kapasitenin ne durumda olduğu yer alıyor. Bu üç bilgi yan yana geldiğinde bir sonraki yılın takvimi kendiliğinden düzeliyor ve rezervasyon konuşması tartışmasız ilerliyor.",
+            },
+            {
+                soru: "Kısa bir işimiz için ayrı sevkiyat mı yapılacak?",
+                cevap:
+                    "Tarihiniz esnekse gerekmiyor. Eksen üzerinde düzenli geçişlerimiz var ve bu geçiş günlerini defterde tutuyoruz; kısa ve saat aralığı esnek işleri bu günlere yerleştirdiğimizde makine zaten bölgede oluyor, ayrı bir organizasyon doğmuyor. Sizden istediğimiz tek şey, işin hangi tarih aralığında yapılabileceğini söylemeniz — tek bir güne sabitlenmiş kısa işlerde geçiş beklenmiyor, tekil sevkiyat yapılıyor ve bedeli teklifte ayrı satır olarak görünüyor. Bunu saklamıyoruz, çünkü kısa işlerde bu kalem toplamın içinde belirgin biçimde göze çarpıyor. Birkaç günlük aralık verebiliyorsanız fark doğrudan size dönüyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Polatlı'nın Ankara'nın batı ucunda ve iki şehri bağlayan karayolu hattı üzerinde bulunması ile tarımsal işleme ve depolama tesislerinin ilçedeki varlığı kamuya açık bilgidir; üç eksenli kapasite defteri, çakışma haftası yönetimi ve geçiş günü planlaması firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };
