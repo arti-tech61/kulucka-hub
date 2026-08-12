@@ -129,6 +129,7 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `ankara-platform.com` | 5/10 | 0 | 0 | 🟡 devam — ostim, ivedik, sincan, etimesgut, baskent-osb (seçim rehberliği açısı; çapraz ≤%0,2) |
 | `izmirplatformskiralama.com` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — saatlik dilim açısı; ortak bölgeler 5 sürümlü, çapraz max %0,4 |
 | `izmir-man-lift.com` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — rüzgâr/teleskopik açısı; ortak bölgeler 4 sürümlü, çapraz max %0,4 |
 | `ankaraeklemliplatform.com` | **10/10** | 0 | 0 | ✅ bölge sayfaları TAMAM — dar alan/eklemli açısı, domain içi %0,0 |
