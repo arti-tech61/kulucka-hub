@@ -116,6 +116,82 @@ function ascii(t: string): string {
 
 // Metin içinde (bölge adı, host adı, il ismi ne olursa olsun) bilinen bir yer adı
 // arar, ilk eşleşen il ve koordinatlarını döner. Bulamazsa undefined.
+
+// ═══════════════════════════════════════════════════════════════════════════
+// İLÇE → İL TABLOSU
+//
+// ⚠️ ilKoordinatBul() ascii()'den geçen metinde alt-dize araması yapar; bu
+// yüzden "Karşıyaka" → "karsiyaka" içinde "kars" bulunur ve İzmir ilçesi
+// KARS iline eşlenirdi. Aynı şekilde site.bolge listelerinin sonundaki
+// "(çevre ili)" etiketleri gerçek merkez ilçeden önce eşleşiyordu:
+//   Aliağa → Manisa, Çiğli → Kars, Yenimahalle → Kırıkkale, Nilüfer → Bilecik.
+// Bu tablo, sık kullanılan ilçe adlarını doğrudan iline bağlar ve tahmin
+// yürütmeyi devreden çıkarır. Yeni domain eklerken merkez ilçe burada yoksa
+// EKLEYİN — aksi hâlde blog anahtar kelimeleri yanlış ili hedefler.
+// ═══════════════════════════════════════════════════════════════════════════
+const ILCE_IL: Record<string, string> = {
+    // İzmir
+    cigli: "İzmir", karsiyaka: "İzmir", konak: "İzmir", bornova: "İzmir",
+    buca: "İzmir", aliaga: "İzmir", kemalpasa: "İzmir", gaziemir: "İzmir",
+    torbali: "İzmir", menemen: "İzmir", bayrakli: "İzmir", alsancak: "İzmir",
+    // Ankara
+    yenimahalle: "Ankara", cankaya: "Ankara", sincan: "Ankara",
+    etimesgut: "Ankara", mamak: "Ankara", kecioren: "Ankara",
+    ostim: "Ankara", ivedik: "Ankara",
+    // Bursa
+    nilufer: "Bursa", osmangazi: "Bursa", yildirim: "Bursa",
+    inegol: "Bursa", gemlik: "Bursa", kestel: "Bursa",
+    // Eskişehir
+    odunpazari: "Eskişehir", tepebasi: "Eskişehir", sivrihisar: "Eskişehir",
+    // Konya
+    selcuklu: "Konya", karatay: "Konya", meram: "Konya",
+    // Bolu
+    abant: "Bolu", mudurnu: "Bolu", gerede: "Bolu", kartalkaya: "Bolu",
+    // Afyonkarahisar
+    emirdag: "Afyonkarahisar", sinanpasa: "Afyonkarahisar",
+    dazkiri: "Afyonkarahisar", cobanlar: "Afyonkarahisar",
+    // Balıkesir
+    susurluk: "Balıkesir", gonen: "Balıkesir",
+    // Bilecik
+    osmaneli: "Bilecik", pazaryeri: "Bilecik", sogut: "Bilecik",
+    // İstanbul
+    ikitelli: "İstanbul", levent: "İstanbul", tuzla: "İstanbul",
+    // Kütahya / Çanakkale / Muğla / Denizli
+    tavsanli: "Kütahya", gediz: "Kütahya",
+    biga: "Çanakkale", can: "Çanakkale", gelibolu: "Çanakkale",
+    bodrum: "Muğla", marmaris: "Muğla", milas: "Muğla", yatagan: "Muğla",
+};
+
+/** Bilinen bir ilçe adı mı? İl adını döner. */
+export function ilceninIli(metin: string): string | undefined {
+    const n = ascii(metin);
+    for (const [ilce, il] of Object.entries(ILCE_IL)) if (n === ilce) return il;
+    return undefined;
+}
+
+
+/**
+ * Host adından il çıkarır — ÖNEK eşleşmesiyle.
+ *
+ * ⚠️ Neden includes() değil: markalı domainlerde il adı hep başta yer alır
+ * ("izmirmanliftkiralama", "boluplatform"). Alt-dize araması yapılırsa
+ * "ankaramanlift" içinde "karaman" bulunur ve Ankara sitesi KARAMAN iline
+ * eşlenir. Önek eşleşmesi bu sınıf hatayı tamamen ortadan kaldırır.
+ * En uzun önek kazanır ("afyonkarahisar" > "afyon").
+ */
+export function hostIlBul(host: string): IlKoordinat | undefined {
+    const etiket = ascii(host.split(".")[0] ?? host);
+    let enIyi: IlKoordinat | undefined;
+    let enUzun = 0;
+    for (const anahtar of Object.keys(IL_KOORDINATLARI)) {
+        if (etiket.startsWith(anahtar) && anahtar.length > enUzun) {
+            enUzun = anahtar.length;
+            enIyi = IL_KOORDINATLARI[anahtar];
+        }
+    }
+    return enIyi;
+}
+
 export function ilKoordinatBul(metin: string): IlKoordinat | undefined {
     const normalize = ascii(metin);
     const anahtarlar = Object.keys(IL_KOORDINATLARI).sort((a, b) => b.length - a.length);

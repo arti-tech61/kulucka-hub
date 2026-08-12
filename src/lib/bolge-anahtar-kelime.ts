@@ -15,7 +15,8 @@
 // yazarken varyant.ts fonksiyonlarını kullanın. Tam kurallar: CLAUDE.md
 
 import type { SiteIcerik } from "./siteler";
-import { ilKoordinatBul, bolgeListesindenKoordinatBul } from "./il-koordinatlari";
+import { ilKoordinatBul, bolgeListesindenKoordinatBul, ilceninIli, hostIlBul } from "./il-koordinatlari";
+import { hedefYuzey, type HedefYuzey } from "./hedef-bolgeler";
 
 export interface BolgeProfili {
     /** İl adı — "Bolu", "Ankara". Bulunamazsa "Türkiye". */
@@ -30,6 +31,9 @@ export interface BolgeProfili {
     sanayiBolgeleri: string[];
     /** Ulusal kapsamlı mı (il bazlı içerik anlamsız olur). */
     ulusal: boolean;
+    /** TAM hedef yüzey: ilin tüm ilçeleri + OSB/KSS + komşu iller ve sanayileri.
+     *  site.bolge'deki dar liste değil — içerik üretimi bu yüzeyi hedefler. */
+    yuzey: HedefYuzey;
 }
 
 export function bolgeProfili(site: SiteIcerik): BolgeProfili {
@@ -37,17 +41,36 @@ export function bolgeProfili(site: SiteIcerik): BolgeProfili {
     const merkez = bolgeler[0] ?? "";
     const ulusal = /türkiye|turkiye|bağımsız/i.test(merkez);
 
-    // Önce bölge listesinden, sonra host'tan il ara.
-    const koord = ulusal ? undefined : (bolgeListesindenKoordinatBul(site.bolge) ?? ilKoordinatBul(site.host));
-    const il = koord?.il ?? "Türkiye";
+    // İl çıkarım sırası — SIRALAMA ÖNEMLİ, değiştirmeyin:
+    //   1. HOST: "izmirmanliftkiralama.net" gibi markalı domainlerde il adı
+    //      host'ta açıkça yazar ve en güvenilir kaynaktır.
+    //   2. MERKEZ İLÇE: host'ta il yoksa (manliftkirala.online) merkez ilçeyi
+    //      ILCE_IL tablosundan çöz.
+    //   3. BÖLGE LİSTESİ: son çare. Liste sonundaki "(çevre ili)" etiketleri
+    //      buraya düştüğü için en düşük öncelikte.
+    // Önceden liste önce denendiği ve alt-dize eşleşmesi kullanıldığı için
+    // Aliağa→Manisa, Çiğli→Kars, Yenimahalle→Kırıkkale gibi hatalar oluşuyordu.
+    const il = ulusal
+        ? "Türkiye"
+        : (hostIlBul(site.host)?.il
+            ?? ilceninIli(merkez)
+            ?? bolgeListesindenKoordinatBul(site.bolge)?.il
+            ?? "Türkiye");
 
+    const yuzey = hedefYuzey(il);
+    // site.bolge'deki dar sanayi listesi + il verisindeki tam OSB/KSS listesi
+    const sanayiBolgeleri = [...new Set([
+        ...bolgeler.filter((b) => /osb|organize|sanayi|liman|serbest bölge/i.test(b)),
+        ...yuzey.sanayi,
+    ])];
     return {
         il,
         ilIfade: il === "Türkiye" ? "Türkiye genelinde" : `${il} bölgesinde`,
         merkez: ulusal ? "Türkiye" : merkez,
-        bolgeler: ulusal ? [] : bolgeler,
-        sanayiBolgeleri: bolgeler.filter((b) => /osb|organize|sanayi|liman|serbest bölge/i.test(b)),
+        bolgeler: ulusal ? [] : [...new Set([...bolgeler, ...yuzey.ilceler])],
+        sanayiBolgeleri,
         ulusal,
+        yuzey,
     };
 }
 
@@ -86,9 +109,10 @@ export function bolgeIfadeleri(site: SiteIcerik) {
         merkez: p.merkez,
         ikincil,
         ucuncul,
-        /** "Gerede, Mengen ve Yeniçağa" gibi doğal liste */
+        /** "Gerede, Mengen ve Yeniçağa" gibi doğal liste — cümle içinde
+         *  okunabilir kalması için en fazla 4 ad (tam yüzey p.yuzey'de). */
         liste: p.bolgeler.length > 2
-            ? `${p.bolgeler.slice(0, -1).join(", ")} ve ${p.bolgeler[p.bolgeler.length - 1]}`
+            ? `${p.bolgeler.slice(0, Math.min(3, p.bolgeler.length - 1)).join(", ")} ve ${p.bolgeler[Math.min(3, p.bolgeler.length - 1)]}`
             : p.bolgeler.join(" ve ") || "Türkiye geneli",
         sanayi: p.sanayiBolgeleri[0] ?? (p.il === "Türkiye" ? "organize sanayi bölgeleri" : `${p.il} sanayi bölgesi`),
         ulusal: p.ulusal,
