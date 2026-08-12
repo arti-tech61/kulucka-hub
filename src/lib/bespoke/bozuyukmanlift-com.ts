@@ -207,7 +207,7 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Yarım günlük tek bir işimiz var; sevkiyat maliyeti bize ağır gelir mi?",
                 cevap:
-                    "Tekil ve kısa işlerde taşıma payı toplamın içinde göze çarpar, bunu saklamayız. Bunu düşürmenin en pratik yolu tarih esnekliğidir: işiniz belirli bir güne bağlı değilse aynı bölgedeki başka bir talebin gününe ekleriz ve taşıma iki iş arasında bölünür. İkinci yol, işletmenin biriken küçük kalemlerini tek güne toplamasıdır — bir armatür grubu, bir menfez temizliği ve bir tabela işi aynı sepet turunda bitebilir. Acil ve tarihe bağlı işlerde tekil sevkiyat da yaparız, bu durumda taşıma tam bedelle fiyatlanır ve bunu teklifte açıkça gösteririz.",
+                    "Tekil ve kısa işlerde taşıma payı toplamın içinde göze çarpar, bunu saklamayız. Bunu düşürmenin en pratik yolu tarih esnekliğidir: işiniz belirli bir güne bağlı değilse aynı bölgedeki başka bir talebin gününe ekleriz ve taşıma iki iş arasında bölünür. İkinci yol, işletmenin biriken küçük kalemlerini tek güne toplamasıdır — bir armatür grubu, bir menfez temizliği ve bir tabela işi aynı sepet turunda bitebilir. Beklemeye gelmeyen, güne kilitli işler için tek başına da yola çıkarız; o senaryoda yol bedelinin tamamı işe biner ve teklifte ayrı satır olarak görünür.",
             },
             {
                 soru: "Kışın çatı işi yaptırmak mantıklı mı?",
@@ -316,7 +316,7 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Çatı üstü mekanik ekipman, aspirasyon sistemleri ve çatı geçiş detayları sektör standardı teknik bilgidir; rüzgâr sınırı ve kilitleme uygulaması ekipman üreticisi talimatları ile iş güvenliği pratiğinden gelir. Tesis adı ve rakam verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. Çatı üstü mekanik ekipman, aspirasyon sistemleri ve çatı geçiş detayları sektör standardı teknik bilgidir; azami rüzgâr değeri ve kilitleme uygulaması ekipman üreticisi talimatları ile iş güvenliği mevzuatına dayanır. Herhangi bir tesis adı ya da rakam kullanılmamıştır.",
     },
 
     "bolge:sogut": {
@@ -594,12 +594,12 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Bozüyük'ten geliyorsunuz; yerel bir firmadan ne farkınız var?",
                 cevap:
-                    "Yakınlık konusunda yerel firmanın avantajı gerçektir, bunu inkâr etmeyiz — acil bir ihtiyaçta yol süresi bizim aleyhimizedir. Bizim iddiamız başka yerde: fırınlı üretim yapan tesislerin çatı ve üst kot dünyasını her hafta çalışıyor olmak. Baca geçişinin neden hızlı yorulduğunu, aspirasyon hattının hangi noktalarında sorun çıktığını ve ölçüm ağzına nasıl yanaşılacağını tarif edilmesi gereken konular olmaktan çıkarmış oluyoruz. Bu birikim, kısa duruş pencerelerinde ve tarihe bağlı işlerde fark yaratıyor. Karşılaştırmayı adres üzerinden değil, kapsam ve yazılı taahhüt üzerinden yapmanızı öneririz.",
+                    "Bölgedeki bir firmanın yakınlık üstünlüğü tartışmasızdır; ani çıkan bir ihtiyaçta yol bizim aleyhimize işler ve bunu kabul ederiz. Öne çıkardığımız şey farklı: fırınlı üretim yapan tesislerin çatı ve üst kot dünyasını her hafta çalışıyor olmak. Baca geçişinin neden hızlı yorulduğunu, aspirasyon hattının hangi noktalarında sorun çıktığını ve ölçüm ağzına nasıl yanaşılacağını tarif edilmesi gereken konular olmaktan çıkarmış oluyoruz. Bu birikim, kısa duruş pencerelerinde ve tarihe bağlı işlerde fark yaratıyor. Karşılaştırmayı adres üzerinden değil, kapsam ve yazılı taahhüt üzerinden yapmanızı öneririz.",
             },
             {
                 soru: "Çatımızdaki aspirasyon hattını komple yenileyeceğiz; makine ne kadar kalır?",
                 cevap:
-                    "Bu ölçekteki işlerde önerdiğimiz model yerinde bulundurmadır: makine proje boyunca tesiste kalır. Nedeni basit — günlük gidiş dönüş hem taşıma maliyetini çoğaltır hem de montaj ekibinin makine beklemesine yol açar. Makine sahada kaldığında iş, hava penceresine ve montaj hızına göre esnek ilerler. Süreyi baştan tahmin eder, uzatım koşullarını da teklife yazarız; böylece proje ortasında yeniden fiyat konuşmak gerekmez. Sizden beklediğimiz tek şey, ünitenin akşamları kapalı ya da gözetimli bir alanda durabilmesi. Periyodik bakımı bölgeye yaptığımız planlı ziyaretlerle yürütürüz.",
+                    "Bu büyüklükteki işlerde önerimiz üniteyi proje süresince tesisinizde bırakmaktır. Gerekçe basit: her gün yola çıkan bir makine hem tekrar tekrar taşıma bedeli doğurur hem de montajcıların sabah saatlerini bekleyerek geçirmesine yol açar. Makine sahada kaldığında iş, hava penceresine ve montaj hızına göre esnek ilerler. Süreyi baştan tahmin eder, uzatım koşullarını da teklife yazarız; böylece proje ortasında yeniden fiyat konuşmak gerekmez. Sizden beklediğimiz tek şey, ünitenin akşamları kapalı ya da gözetimli bir alanda durabilmesi. Periyodik bakımı bölgeye yaptığımız planlı ziyaretlerle yürütürüz.",
             },
             {
                 soru: "Acil bir arızada ne kadar sürede gelirsiniz?",
@@ -617,7 +617,7 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
     },
 
     "bolge:inegol-osb-bursa-cevre-ili": {
-        h1: "İnegöl OSB'ye Bozüyük'ten Çatı ve Yüksek Bakım Manlift Hizmeti",
+        h1: "İnegöl OSB'de Ahşap Sanayisi Çatılarına Manlift ile Yüksek Bakım",
         giris:
             "İnegöl, Bozüyük'ün batı komşusudur ve sanayi kimliği mobilya ile ahşap işleme etrafında şekillenmiştir. Çatı ve yüksek bakım açısından bu, bizim Bozüyük'te alıştığımız tablodan anlamlı biçimde farklı bir üst katman demektir: seramik tesislerinde mineral toz taşıyan aspirasyon hatlarıyla çalışırken, İnegöl'de talaş ve ahşap tozu taşıyan sistemlerle karşılaşırız. İkisi de çatı üstünde siklon ve filtre gövdeleriyle sonlanır, ikisi de kanal hattı boyunca askı ve flanş bakımı ister; ancak organik tozun yanıcılığı, bu tesislerdeki üst kot çalışmasına ek bir dikkat katmanı ekler. Bunun yanında ahşap işleme hollerinin boya ve vernik bölümleri, çatı üstünde kendi egzoz ve emiş üniteleriyle görünür hâle gelir. Çevre il olarak İnegöl hattına verdiğimiz hizmet, bu farklılıkları tanıyarak kurgulanır ve tur düzeniyle yürütülür. Bu sayfa, ahşap ağırlıklı bir sanayi bölgesinde çatı ve yüksek bakım işlerini nasıl planladığımızı anlatıyor.",
         maddeler: [
@@ -639,12 +639,12 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 baslik: "Geniş ahşap hollerinde ışıklık ve aydınlatma",
                 metin:
-                    "Mobilya üretim holleri geniş ve yüksektir; aydınlatma bu tesislerde iş kalitesini doğrudan etkileyen bir unsurdur çünkü yüzey kusurları ancak yeterli ışıkta görülür. Işıklıkların iç yüzeyinde biriken ince toz filmi ışık geçirgenliğini fark edilmeden düşürür ve armatürlerin gündüz de yanmasına yol açar. Sepetle hol içinde hat boyunca ilerleyerek ışıklık alt yüzü temizliği ve armatür bakımı aynı turda yapılır. Işıklık yüzeyine hiçbir aşamada basılmaz; kırılgan bir eleman, üzerine çıkılacak yer değildir.",
+                    "Mobilya üretim holleri geniş ve yüksektir; aydınlatma bu tesislerde iş kalitesini doğrudan etkileyen bir unsurdur çünkü yüzey kusurları ancak yeterli ışıkta görülür. Işıklıkların iç yüzeyinde biriken ince toz filmi ışık geçirgenliğini fark edilmeden düşürür ve armatürlerin gündüz de yanmasına yol açar. Bu yüzden ışıklık alt yüzeyinin temizliği ile armatür bakımını tek programa bağlarız; sepet hol boyunca ilerlerken iki iş birlikte kapanır. Şeffaf yüzeye ne ayak basar ne alet konur — taşıyıcı olmayan bir malzeme, çalışma zemini sayılmaz.",
             },
             {
                 baslik: "Bozüyük'ten İnegöl hattına tur düzeni",
                 metin:
-                    "İnegöl hattına makine, biriken talep bir günü doldurduğunda ya da tek başına gün gerektiren bir iş çıktığında yola çıkar. O gün hangi adrese kaçta uğrayacağımız önceden bildirilir ve sahada yalnızca onaylı liste üzerinden çalışılır; akşam ünite ya Bozüyük'e döner ya da ertesi günkü adresler için bölgede bırakılır. İşletmenin kazancı iki başlıkta toplanır: tarih belirsizliği ortadan kalkar, taşıma bedeli o günkü işlere paylaştırılır. Günlere yayılan projelerde ise makine proje boyunca sahada kalır ve taşıma tek sefere iner.",
+                    "Batı yönündeki bu hatta çıkışımız iki koşuldan birine bağlıdır: ya bölgedeki talepler bir günlük programı doldurmuştur ya da tek bir tesisin listesi zaten bir günü kapsamaktadır. O gün hangi adrese kaçta uğrayacağımız önceden bildirilir ve sahada yalnızca onaylı liste üzerinden çalışılır; akşam ünite ya Bozüyük'e döner ya da ertesi günkü adresler için bölgede bırakılır. İşletmenin kazancı iki başlıkta toplanır: tarih belirsizliği ortadan kalkar, taşıma bedeli o günkü işlere paylaştırılır. Günlere yayılan projelerde ise makine proje boyunca sahada kalır ve taşıma tek sefere iner.",
             },
         ],
         ekBolumler: [
@@ -675,7 +675,7 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
                 baslik: "Çevre il turunda kalite ve raporlama",
                 paragraflar: [
                     "Komşu ile giden işlerde bilinen risk, merkezden uzaklaştıkça standardın gevşemesidir. Bizim düzenimizde İnegöl turu, Bozüyük'teki herhangi bir günden farklı işlemez: aynı hazırlık, aynı kontrol belgeleri, aynı güvenlik talimatları ve aynı fotoğraflı rapor formatı. Adres başına yazdığımız süreyi de bolca tutarız, çünkü sıkışan bir program yolda toparlanamaz; hızlı bitirilmiş bir iş, sonraki ziyarette yeniden açılan bir dosyaya dönüşür.",
-                    "Raporlama tarafında uygulamamız şu: her turda yapılan kalemler tek tek kayda geçer, yapılmayıp not düşülen kalemler ayrıca listelenir. Bu ikinci liste zamanla değer kazanır — hangi noktanın ne hızda yorulduğu görünür hâle gelir ve sonraki turun kapsamı tahmine değil kayda dayanır. Bizim işçiliğimizden doğan bir eksik görülürse bölgeye bir sonraki gelişimizde bedel almadan tamamlanır.",
+                    "Raporlama tarafında uygulamamız şu: her turda yapılan kalemler tek tek kayda geçer, yapılmayıp not düşülen kalemler ayrıca listelenir. Bu ikinci liste zamanla değer kazanır — hangi noktanın ne hızda yorulduğu görünür hâle gelir ve sonraki turun kapsamı tahmine değil kayda dayanır. Eksik bıraktığımız ya da yanlış yaptığımız bir kalem çıkarsa, bölgeye tekrar geldiğimizde ücret talep etmeden düzeltiriz.",
                 ],
             },
         ],
@@ -698,12 +698,12 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Işıklıklarımız kirlendi ama üzerine çıkmak istemiyoruz; nasıl temizleniyor?",
                 cevap:
-                    "Doğru refleks — ışıklık yüzeyine basılmaz, kırılgan bir elemandır ve üzerine çıkmak sanayi çatılarındaki ciddi kaza nedenlerinden biridir. İç yüzeydeki toz filmi zaten yalnızca hol içinden erişilebilir ve bunun için sepet uygun araçtır: makine hol içinde ışıklık hattı boyunca ilerler, her duruşta o dilimdeki şeffaf yüzey ve hemen yanındaki armatürler birlikte ele alınır. Böylece tek tur iki işi birden kapatır. Dış yüzey gerekiyorsa binanın dışından, saçak üzerinden yanaşarak çalışılır. Mobilya üretiminde aydınlık seviyesi yüzey kusurlarının görülmesini doğrudan etkilediği için bu turun karşılığı iş kalitesinde hemen fark ediliyor.",
+                    "Doğru refleks — ışıklık yüzeyine basılmaz, kırılgan bir elemandır ve üzerine çıkmak sanayi çatılarındaki ciddi kaza nedenlerinden biridir. İçeride biriken toz katmanına yalnızca hol tarafından ulaşılabildiği için iş, sepetle yürütülür: ünite ışıklık hattını takip eder, durduğu her noktada o bölümün şeffaf yüzeyi ile komşu armatürleri sırayla ele alınır. Tek geçişte iki kalem birden biter. Dış yüzey gerekiyorsa binanın dışından, saçak üzerinden yanaşarak çalışılır. Mobilya üretiminde aydınlık seviyesi yüzey kusurlarının görülmesini doğrudan etkilediği için bu turun karşılığı iş kalitesinde hemen fark ediliyor.",
             },
             {
                 soru: "Bozüyük'ten geliyorsunuz, ahşap sanayisini tanıyor musunuz?",
                 cevap:
-                    "Ana uzmanlığımız fırınlı üretim yapan tesislerin çatı ve üst kot dünyası, bunu saklamayız. Ancak iki sektörün üst katmanı yapısal olarak akrabadır: her ikisinde de kanal hatları tavan altından geçer, çatı üstünde siklon ve filtre gövdeleriyle sonlanır, aynı askı ve flanş bakımını ister. Farkı yaratan tozun karakteridir ve bu farkı ciddiye alarak gideriz — ahşap tozunun yanıcılığı, kıvılcımlı işlem kurallarımızı doğrudan değiştirir. İnegöl hattına giderken ekibimize hatırlattığımız çerçeve budur. Tesisinizin kendine özgü koşulları varsa keşifte konuşur, çalışma planına yazarız; varsayımla değil, gördüğümüzle çalışırız.",
+                    "Asıl birikimimizin fırınlı tesislerin üst katmanında olduğunu açıkça söyleyelim. Ancak iki sektörün üst katmanı yapısal olarak akrabadır: her ikisinde de kanal hatları tavan altından geçer, çatı üstünde siklon ve filtre gövdeleriyle sonlanır, aynı askı ve flanş bakımını ister. Farkı yaratan tozun karakteridir ve bu farkı ciddiye alarak gideriz — ahşap tozunun yanıcılığı, kıvılcımlı işlem kurallarımızı doğrudan değiştirir. İnegöl hattına giderken ekibimize hatırlattığımız çerçeve budur. Tesisinizin kendine özgü koşulları varsa keşifte konuşur, çalışma planına yazarız; varsayımla değil, gördüğümüzle çalışırız.",
             },
             {
                 soru: "Birkaç günlük bir işimiz var; makine her gün gidip gelecek mi?",
