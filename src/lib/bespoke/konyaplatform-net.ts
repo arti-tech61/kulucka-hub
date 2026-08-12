@@ -709,4 +709,300 @@ export const KONYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İkinci organize sanayi bölgesinin yeni kuşak, geniş parselli yapısı kamuya açık bilgidir; proje aşaması eşlemesi, paylaşım düzeni ve park modeli firma pratiğidir.",
     },
+
+    "bolge:aksehir": {
+        h1: "Akşehir'de Ağır Hizmet Platform Kiralama",
+        giris:
+            "Akşehir, Konya'nın batı kapısıdır: il merkezine yaklaşık 130 kilometre uzaklıkta, Afyonkarahisar ve İç Ege yönüne açılan aks üzerinde, kendi tarım-ticaret ekonomisini kurmuş bir ilçe. Kiraz başta olmak üzere meyveciliğin belirlediği üretim düzeni, soğuk hava depolarını, paketleme tesislerini ve ambalaj-lojistik yapılarını beraberinde getirir; bunlara küçük sanayi sitesi dokusu, ticari yapılar ve kamu binaları eklenir. Platform işi açısından ilçeyi tanımlayan iki şey vardır: hasat ve sevkiyat sezonunun keskin takvimi ile merkeze olan mesafenin sevkiyat ekonomisi. Ağır hizmet filosu buraya, soğuk depo tavan kotlarını, paketleme hattı üstü işleri ve ilçe merkezinin ticari cephe kalemlerini tek planda toplayan bir kurguyla gelir. Bu sayfa, batı kapısının kendine özgü takvimini ve mesafe yönetimini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Meyve sezonunun keskin takvimi",
+                metin:
+                    "İlçenin meyve ekonomisi, tesislerin yılını ikiye böler: hasat ve sevkiyat haftalarında soğuk depolar, paketleme hatları ve tır trafiği tam kapasite çalışır — bu dönemde bakım için tesis durdurmak neredeyse imkânsızdır. Sezon dışında ise aynı tesisler büyük ölçüde boşalır ve platform işlerinin gerçek penceresi açılır. Doğru yaklaşım, yıllık bakım kalemlerini bu boş döneme yazmak ve sezon içine yalnızca gerçek arıza müdahalelerini bırakmaktır. Sezon takvimini bize söyleyen tesisin işleri, hiç çakışma yaşamadan planlanır.",
+            },
+            {
+                baslik: "Soğuk depo ve paketleme tesisi kotları",
+                metin:
+                    "Soğuk hava depolarının platform işleri belirgindir: evaporatör ve soğutucu ünite bakım kotları, panel tavan birleşim noktaları, aydınlatma ve raf üstü erişim. Paketleme tesislerinde ise konveyör üstü hatlar, tasnif makinesi çevresi ve ambalaj deposu rafları öne çıkar. Bu hacimlerin ortak özelliği kapalı ve gıda temaslı olmasıdır — akülü sınıf, egzozsuz çalışmasıyla zorunlu tercihtir ve iz bırakmayan lastik, temiz makine düzeni standarttır. Soğuk odalarda batarya kapasitesinin düşeceği hesaba katılır; iş planı kısa dilimlerle kurulur.",
+            },
+            {
+                baslik: "İlçe merkezinin ticari ve kamu kalemleri",
+                metin:
+                    "Merkezdeki talep, tarım tesislerinden bağımsız kendi ailesini kurar: mağaza ve banka şubesi cepheleri, tabela-aydınlatma, otel ve iş hanı dış yüzeyleri, okul-kurum binalarının bakım kalemleri. Bu işlerin kotları 6-12 metre bandındadır ve süreleri kısadır — çoğu birkaç saatte biter. Kısa süreli işlerin ilçedeki tek doğru kurgusu birleştirmedir: merkezdeki kalemler, tarım tesisine giden bir sevkiyatın gününe eklenerek çalışılır ve nakliye yükü paylaşılır. Kamu binalarında yazılı izin süreci vardır; evrak düzenini biz hazırlarız.",
+            },
+            {
+                baslik: "Batı aksının sevkiyat mantığı",
+                metin:
+                    "Merkeze 130 kilometrelik mesafe, Akşehir işlerinde sevkiyatı planın merkezine koyar. Tekil bir kısa iş için gidiş-dönüş yapmak ekonomik değildir; bunun yerine batı aksı günü kurarız — aynı güzergâh üzerindeki talepler biriktirilir, makine tek sevkiyatla çıkar ve noktaları sırayla dolaşır. Birden çok günlük iş listelerinde konaklamalı plan devreye girer: makine ilçede kalır, çekici iki sefere iner ve mesafe maliyeti liste genişliğine bölünür. Tarih esnekliği, bu hatta doğrudan fiyata yansıyan bir avantajdır.",
+            },
+            {
+                baslik: "Küçük sanayi dokusunda kompakt işler",
+                metin:
+                    "İlçenin küçük sanayi sitesi ve tamir-bakım atölyeleri, kendi ölçeğinde talep üretir: atölye tavanı aydınlatması, asma kat erişimi, dükkân önü tabela ve saçak kalemleri. Sokak genişliği ve kapı ölçüsü burada belirleyicidir; dar şase akülü sınıf ve kompakt eklemli, dokunun doğal makineleridir. Site içindeki talepleri tek güne dizmek, bu ölçek için tek makul yoldur — komşu dükkânların işleri birlikte planlandığında nakliye payı esnaf başına küçük bir kaleme iner ve tek günlük iş, ekonomik biçimde yapılabilir hâle gelir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Akşehir'de yıl içi iş penceresi haritası",
+                paragraflar: [
+                    "İlçedeki işlerin ne zaman yapılacağı, hangi makineyle yapılacağı kadar önemlidir. Dönemsel pencereleri ve o dönemde öne çıkan iş ailelerini çıkardık.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Uygun iş ailesi", "Makine", "Not"],
+                    satirlar: [
+                        ["Sezon öncesi hazırlık", "Soğuk depo, paketleme hattı", "Akülü makaslı", "En verimli pencere"],
+                        ["Hasat ve sevkiyat", "Yalnız arıza müdahalesi", "Duruma göre", "Tesis durmaz"],
+                        ["Sezon sonrası", "Onarım ve yenileme", "Karma", "İkinci yoğun pencere"],
+                        ["Kış ayları", "İç hacim ve merkez işleri", "Akülü / kompakt", "Dış işlerde don kontrolü"],
+                        ["Yıl boyu", "Ticari cephe, kurum binası", "Eklemli bom", "Sevkiyat gününe eklenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon öncesi kontrol paketi neden işe yarıyor",
+                paragraflar: [
+                    "Meyve tesislerinin en pahalı senaryosu, sezonun ortasında duran bir soğutma ünitesi ya da arızalanan bir paketleme hattıdır: ürün beklemez, sevkiyat gecikir ve müdahale, tesisin en yoğun gününe denk gelir. Sezon öncesi kontrol paketi bu riski büyük ölçüde düşürür — evaporatör kotları, tavan birleşimleri, aydınlatma ve hat üstü erişim noktaları tesis boşken tek planda taranır, eksikler sezon başlamadan kapatılır.",
+                    "Paketin ekonomik tarafı da açıktır: tesis boşken yapılan iş hızlı biter, duruş maliyeti doğmaz ve mesafe kalemi tüm kalemlere bölünür. Sezon içi bir acil müdahalenin toplam bedeliyle kıyaslandığında paket, çoğu tesiste kendini tek seferde amorti eder. Kalem listenizi sezon bitiminde çıkarın; gelecek yılın planını erkenden bağlayalım.",
+                ],
+            },
+            {
+                baslik: "Mesafeyi maliyet olmaktan çıkaran üç alışkanlık",
+                paragraflar: [
+                    "Batı aksındaki müşterilerimizin zamanla edindiği üç alışkanlık, mesafenin faturasını neredeyse görünmez kılıyor. Birincisi erken haber vermek: birkaç gün öncesinden bildirilen talep, güzergâh gününe rahatça yerleşir. İkincisi liste tutmak: tek kalem için değil, biriken kalemler için çağırmak. Üçüncüsü komşuyla konuşmak: aynı bölgedeki iki tesisin aynı güne denk gelmesi, nakliyeyi ikiye böler.",
+                    "Bu alışkanlıkların hiçbiri fedakârlık değil; yalnızca planlama disiplinidir. Aynı işi acele ve tek başına çağıran müşteriyle, üç alışkanlığı uygulayan müşteri arasındaki fiyat farkı, işin kendisinden değil sevkiyattan gelir. Bunu ilk görüşmede açıkça anlatıyoruz — çünkü müşterinin cebindeki kazanç, bizim de planlama verimimiz oluyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk hava depomuzun bakımını hasat başlamadan yaptırmak istiyoruz; ne kadar önce planlamalıyız?",
+                cevap:
+                    "Sezon başlangıcından en az birkaç hafta önce — çünkü aynı pencerede bölgedeki diğer tesisler de aynı şeyi ister ve takvim hızla dolar. İdeal olan, bir önceki sezon biter bitmez gelecek yılın kontrol listesini çıkarmaktır; böylece hem tarihi siz seçersiniz hem batı aksı gününe rahat yerleşirsiniz. Depo hacminizi, oda sıcaklıklarını ve kalem listenizi iletin; iş süresini ve konaklamalı plan gerekip gerekmediğini baştan netleştirelim. Son haftaya kalan taleplerde tarih garantisi vermek zorlaşır, bunu şimdiden söyleyelim.",
+            },
+            {
+                soru: "Paketleme hattımızın üstünde iş var ama hat çalışıyor; nasıl yaparsınız?",
+                cevap:
+                    "Hattın kendisi çalışırken üstünde çalışılmaz — hareketli konveyör ve tasnif ekipmanının üzerinde sepetle iş yapmak kabul edilebilir bir risk değildir. Uygulanabilir kurgu, hattın ilgili bölümünün kısa süreli durdurulmasıdır: iş, vardiya arası ya da temizlik molası gibi mevcut duruşlara yerleştirilir ve bölünerek yürütülür. Hat üstü olmayan çevre kalemler (aydınlatma, kanal, raf) bu kısıttan bağımsız çalışılır. Hat duruş düzeninizi paylaşın; kalemleri 'hat üstü' ve 'hat dışı' diye ayırıp planı buna göre kuralım.",
+            },
+            {
+                soru: "Merkezde tek bir tabela işimiz var; bu mesafe için makine gönderir misiniz?",
+                cevap:
+                    "Göndeririz ama tek başına gönderirsek nakliye, işin kendisinden pahalı olur — dürüst hâli bu. Doğru yol batı aksı gününe girmektir: ilçeye çıkan bir sevkiyatın gününe merkezdeki kısa kalemler eklenir, sizin işiniz sıraya yazılır ve nakliyeden yalnız payınıza düşeni ödersiniz. Tek yapmanız gereken birkaç gün esneklik tanımak. Gerçekten sabit tarihli bir zorunluluksa tekil sevkiyatın rakamını baştan açık söyleriz; kararı bilgiyle verirsiniz, sahada sürprizle karşılaşmazsınız.",
+            },
+            {
+                soru: "Soğuk odada akülü makine yeterince çalışır mı, ortada kalır mıyız?",
+                cevap:
+                    "Planlanırsa kalmazsınız: düşük sıcaklık batarya kapasitesini düşürür, bu bilinen bir gerçektir ve iş planı buna göre kurulur — çalışma kısa dilimlere bölünür, dilim aralarında makine ılık bölgeye çıkarılıp şarj edilir. Daha verimli alternatif, işi odanın sıcaklığının yükseltildiği bakım ya da defrost penceresine almaktır; hem makine hem ekip kazanır. Oda sıcaklığınızı ve iş süresini söyleyin, iki kurgunun süre farkını gösterelim. Kapasiteyi olduğundan iyi göstermek yerine planı gerçeğe göre kurmayı tercih ediyoruz.",
+            },
+            {
+                soru: "Okul binamızın cephesi için kamu izni gerekiyor; süreci siz mi yürütüyorsunuz?",
+                cevap:
+                    "Teknik tarafını biz, idari tarafını kurum yürütür. Bizim payımıza düşen dosyadır: makine sınıfı, ağırlığı, konumlanma noktaları, güvenlik alanı düzeni ve çalışma takvimi yazılı olarak hazırlanır; idarenin isteyeceği teknik ekler bu dosyadan çıkar. İzin yazışmasını okul idaresi ya da bağlı olduğu kurum yapar. Deneyimimiz, dosyası eksiksiz giden başvurunun hızlı sonuçlandığı yönünde. Bir de takvim uyarısı: kurum binası işleri tatil ve ders dışı pencerelere yazılır, bu yüzden izin sürecini o pencereden geriye doğru planlamak gerekir.",
+            },
+            {
+                soru: "Hem tesisimizde hem ilçedeki mağazamızda iş var; tek seferde olur mu?",
+                cevap:
+                    "Olur ve bu hatta yapılacak en akıllı şeydir: tesis işleri günün ana bloğu, mağaza kalemleri ise dönüş güzergâhındaki kısa durak olarak planlanır — tek sevkiyat, iki adres. Makine sınıfları farklıysa ya iki makine aynı çekiciyle gider ya iş sırası tek makineyi ikisine de yeterli kılacak biçimde kurulur; hangisinin uygun olduğunu kalemleri görünce söyleriz. İki adresin listesini ayrı ayrı gönderin; birleşik günün akışını ve bölüşülmüş nakliye rakamını tek teklifte gösterelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Akşehir'in meyvecilik ağırlıklı tarım ekonomisi, batı aksındaki konumu ve merkeze ~130 km mesafesi kamuya açık bilgidir; sezon paketi ve aks günü modeli firma pratiğidir.",
+    },
+
+    "bolge:aksaray-osb-cevre-ili": {
+        h1: "Aksaray OSB ve Çevresinde Ağır Hizmet Platform Kiralama",
+        giris:
+            "Aksaray, Konya'nın kuzeydoğu komşusudur ve organize sanayi bölgesi, ticari araç ve makine imalatı ağırlığıyla İç Anadolu'nun dikkat çeken üretim adalarından biridir. Konya-Aksaray hattı bizim için düzenli işleyen bir güzergâhtır: iki ilin sanayi dokusu benzer karakterde — metal işleme, montaj hatları, geniş üretim holleri ve ağır hizmet ortamı — bu yüzden makine ve saha pratiği ilden ile değişmez, yalnızca lojistik planı değişir. Komşu il çalışması olarak Aksaray'a yaklaşımımız nettir: mesafe, işi imkânsız kılmaz ama plansızlığı affetmez. Bu sayfa, sınır ötesi bir sanayi bölgesine ağır hizmet platformu götürürken kurduğumuz sevkiyat, süre ve saha düzenini; hangi işlerin bu mesafeyi hak ettiğini ve hangilerinin nasıl birleştirileceğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Komşu il çalışmasının çerçevesi",
+                metin:
+                    "İl sınırının ötesindeki iş, teknik olarak farklı değildir — makine aynıdır, saha kuralları aynıdır, operatör aynı eğitimden geçmiştir. Değişen tek şey planlama ufkudur: aynı gün çıkıp dönmek yerine, sevkiyat penceresi ve iş süresi baştan hesaplanır. Uygulamamız şudur — komşu il talepleri liste hâlinde alınır, süre gerçekçi tahmin edilir ve makinenin sahada kalacağı gün sayısı önceden belirlenir. Belirsiz süreli açık uçlu çağrılar bu mesafede işlemez; net iş tanımı, komşu il çalışmasının ön koşuludur.",
+            },
+            {
+                baslik: "Ticari araç ve makine imalatı hollerinde iş profili",
+                metin:
+                    "Bölgenin üretim karakteri, platform işlerini tanıdık bir aileye toplar: geniş montaj hollerinin çatı ve aydınlatma kotları, boya-kurutma hatlarının üst tesisatı, köprü vinç yolları, duman ve toz tahliye sistemleri. Kot bandı 10-16 metre arasında yoğunlaşır ve dizel eklemli bom ile büyük makaslı sınıflar öne çıkar. Montaj hatlarının üstünde çalışırken hattın ilgili bölümünün durdurulması, vinç bulunan hollerde kilitleme protokolü standart uygulamadır — bunlar Konya sahasında da geçerli olan, ilden bağımsız kurallardır.",
+            },
+            {
+                baslik: "Konaklamalı plan: makinenin sahada kalması",
+                metin:
+                    "Komşu il işlerinde en verimli model, makinenin birkaç gün sahada kalmasıdır: çekici bir kez götürür, bir kez getirir ve arada geçen günlerde iş listesi tamamlanır. Bu modelin şartı iki tanedir — makine için güvenli park alanı (kapalı ya da kontrollü saha) ve iş listesinin en az iki günlük olması. Kısa tek işlerde konaklama gereksizdir; bu durumda güzergâh ortaklığı ya da başka bir Aksaray talebiyle eşleştirme aranır. Hangi modelin uyacağını iş listesini görür görmez söyleriz.",
+            },
+            {
+                baslik: "Operatörlü mü, operatörsüz mü",
+                metin:
+                    "Komşu il çalışmasında sık gündeme gelen soru, makinenin operatörle mi gönderileceğidir. İki seçenek de mümkündür: tesisinizde yetkili operatörünüz varsa makine kuru kiralanır ve maliyet düşer; yoksa operatörlü kiralama devreye girer ve konaklama süresince operatör de sahada kalır. Kuru kiralamada teslim sırasında saha oryantasyonu ve kullanım brifingi yapılır, bu bizim standardımızdır. Belgesiz kullanıcıya makine bırakılmaz — mesafe uzasa da bu şartta esneklik göstermeyiz.",
+            },
+            {
+                baslik: "Sanayi bölgesi dışındaki komşu il işleri",
+                metin:
+                    "Aksaray talebi yalnızca organize sanayi bölgesinden gelmez: lojistik depoları, gıda ve yem tesisleri, ticari yapılar ve kurum binaları da erişim ister. Bu adreslerde iş profili Konya'nın merkez ilçelerindekiyle benzerdir — depo raf üstü kalemleri, cephe ve tabela işleri, çatı-oluk bakımı. Sevkiyat mantığı ise aynı kalır: tek başına kısa iş yerine, aynı güne dizilmiş noktalar. Aksaray gününe hem sanayi hem şehir kalemleri birlikte yazıldığında, mesafe her katılımcı için küçülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aksaray işlerinde model seçim tablosu",
+                paragraflar: [
+                    "Komşu il çalışmasında doğru modeli belirleyen şey işin süresi ve tarih esnekliğidir. Dört modeli koşullarıyla birlikte özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Model", "İş süresi", "Koşul", "Mesafe yükü"],
+                    satirlar: [
+                        ["Konaklamalı plan", "2 gün ve üzeri", "Güvenli park alanı", "İki sefere bölünür"],
+                        ["Aksaray günü", "Yarım-bir gün", "Tarih esnekliği", "Katılımcılara bölünür"],
+                        ["Güzergâh ortaklığı", "Kısa", "Birkaç gün esneklik", "Paylaşımlı"],
+                        ["Tekil sevkiyat", "Her süre", "Sabit tarih zorunluluğu", "Tam yük"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki ilin sanayi karakteri neden aynı pratiği paylaşıyor",
+                paragraflar: [
+                    "Konya ve Aksaray sanayisi, metal işleme ve makine-araç imalatı ağırlığıyla benzer bir ortam üretir: geniş çelik holler, kaynak ve montaj hatları, köprü vinçler, toz ve kıvılcım. Bu benzerlik, ağır hizmet pratiğimizin sınır ötesinde de bire bir geçerli olması demektir — vinç kilitleme, sıcak iş komşuluğu, toz ortamı filtre hazırlığı ve hat üstü çalışma izni, iki ilde de aynı biçimde uygulanır.",
+                    "Müşteri açısından pratik anlamı şudur: Aksaray'daki tesis, Konya'daki bir tesisin aldığı hizmetin aynısını alır; farklı bir saha standardı, farklı bir hazırlık düzeyi ya da 'uzak diye kısa kesilmiş' bir plan söz konusu değildir. Mesafenin etkisi yalnızca lojistik kalemdedir ve o kalem de modellerle yönetilir.",
+                ],
+            },
+            {
+                baslik: "Komşu il talebinde ilk görüşmede sorduklarımız",
+                paragraflar: [
+                    "Mesafe, belirsizliği pahalı hâle getirdiği için ilk görüşmeyi ayrıntılı yaparız. Dört soru standarttır: iş listesi nedir (kalem kalem), en yüksek kot kaçtır, saha ortamı nasıldır (toz, sıcak iş, vinç, zemin) ve tarih ne kadar esnektir. Bu dördü elimize geçtiğinde makine sınıfı, süre tahmini ve sevkiyat modeli aynı gün netleşir.",
+                    "Beşinci bir soru daha var ki cevabı çoğu zaman planı değiştirir: sahada yetkili operatörünüz var mı. Varsa kuru kiralama maliyeti düşürür, yoksa operatörlü plan kurulur ve konaklama süresi buna göre hesaplanır. Bu beş başlığı tek e-postada gönderen tesise, aynı gün içinde net bir teklif dönebiliyoruz — komşu il işinde hız, bilgi tamlığından geliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Konya'dan Aksaray'a makine göndermeniz gerçekçi mi?",
+                cevap:
+                    "Gerçekçi — bu güzergâhta düzenli çalışıyoruz ve iki ilin sanayi karakteri benzer olduğu için saha pratiğimiz aynen geçerli. Belirleyici olan işin süresi ve tarih esnekliğidir: iki gün ve üzeri listelerde makine sahanızda kalır, kısa işlerde Aksaray gününe ya da güzergâh ortaklığına bağlanır, sabit tarihli zorunluluklarda tekil sevkiyat yapılır. Dördünün de rakamı farklıdır ve hepsini baştan açık gösteririz. İş listenizi ve tarih durumunuzu iletin; hangi modelin size uyduğunu ilk görüşmede söyleyelim.",
+            },
+            {
+                soru: "Makine birkaç gün sahamızda kalacaksa geceleri nerede duracak?",
+                cevap:
+                    "Sizin göstereceğiniz güvenli alanda — konaklamalı planın tek ön koşulu budur: kapalı bir hol köşesi ya da kontrollü, çitli bir saha yeterlidir. Makine mesai sonunda emniyete alınır, anahtar düzeni ve kilitleme talimatı teslimde yazılı verilir. Sigorta ve sorumluluk çerçevesi sözleşmede nettir; gece hasarı ihtimaline karşı park alanının aydınlatma ve kamera durumunu da sorarız. Uygun alanınız yoksa modeli değiştirir, günlük gidiş-dönüş ya da paylaşımlı gün kurgusuna geçeriz — zorlama yapmayız.",
+            },
+            {
+                soru: "Kendi operatörümüz var; makineyi operatörsüz alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz ve maliyet avantajı da sağlarsınız — şartı, kullanacak kişinin yetkili operatör olmasıdır; belgesiz kullanıcıya makine bırakmıyoruz, mesafe uzasa bile bu kuralda esnemiyoruz. Kuru kiralamada teslimde saha oryantasyonu yaparız: makinenin o sahadaki kısıtları, güvenli konumlanma noktaları, günlük kontrol listesi ve arıza bildirim yolu anlatılır. Operatör belgeniz ve saha İSG düzeniniz hazırsa kuru kiralama komşu il işlerinde en ekonomik modeldir. Belge durumunuzu söyleyin, iki seçeneğin farkını rakamla gösterelim.",
+            },
+            {
+                soru: "Montaj hattımızın üstündeki aydınlatma yenilenecek; üretimi durdurmak şart mı?",
+                cevap:
+                    "Hattın tam üstündeki noktalar için evet, o bölümün durması gerekir — hareketli hat üzerinde sepetle çalışmak kabul edilebilir değildir. Ama iş genellikle tümüyle hat üstü değildir: koridor, duvar kenarı ve hat dışı bölgelerdeki armatürler üretim sürerken, sepet altı alan güvenliğe alınarak değiştirilebilir. Kalemleri 'hat üstü' ve 'hat dışı' diye ayırır, hat üstü olanları vardiya arası veya planlı duruşa yazarız. Hol yerleşiminizi ve vardiya düzeninizi paylaşın; durdurma ihtiyacını gerçekten gerekli kalemlerle sınırlayalım.",
+            },
+            {
+                soru: "Aksaray'da sanayi bölgesi dışındayız; yine de gelir misiniz?",
+                cevap:
+                    "Geliriz — sınıflandırmamız adrese değil işin gereğine bakar. Lojistik deposu, gıda tesisi, ticari yapı ya da kurum binası fark etmez; sorduğumuz şeyler aynıdır: kot, zemin-ortam, iş listesi ve tarih esnekliği. Sevkiyat mantığı da değişmez, yalnızca güzergâha eklenirsiniz. Sanayi bölgesi dışındaki adreslerde ek olarak erişimi netleştiririz: çekicinin gireceği yol ve indirme alanı fotoğrafla teyit edilir. Adresinizi ve iş listenizi gönderin, aynı güne dizebileceğimiz başka bir talep varsa mesafe payınız daha da düşer.",
+            },
+            {
+                soru: "Aynı anda iki tesisimizde iş yaptırmak istiyoruz; ikisi de Aksaray'da.",
+                cevap:
+                    "Komşu il işinin en verimli hâli tam budur: iki tesisin listeleri tek planda toplanır, kotlara göre makine seçimi bir kerede yapılır ve konaklamalı planla makine iki adres arasında gün gün dağıtılır. Çekici bir kez gider, bir kez döner; mesafe maliyeti iki tesise bölünür ve toplam, iki ayrı kiralamanın belirgin altına iner. Farklı sınıflar gerekiyorsa iki makine aynı sevkiyatla gidebilir. İki listeyi ayrı başlıklarla gönderin; gün dağılımını ve bölüşülmüş rakamı tek teklifte sunalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Aksaray'ın ticari araç ve makine imalatı ağırlıklı sanayi kimliği ile Konya'ya komşuluğu kamuya açık bilgidir; komşu il modelleri ve teslim düzeni firma pratiğidir.",
+    },
+
+    "bolge:karaman-osb-cevre-ili": {
+        h1: "Karaman OSB ve Çevresinde Ağır Hizmet Platform Kiralama",
+        giris:
+            "Karaman, Konya'nın güney komşusu ve Türkiye'de gıda sanayisiyle — özellikle bisküvi, gofret ve şekerleme üretimiyle — tanınan bir sanayi kentidir. Bu kimlik, platform kiralamaya doğrudan yansır: gıda üretim tesislerinde çalışmak, metal işleme holünde çalışmaktan bambaşka bir disiplin ister. Üretim hattının üstünde hijyen kuralları, kapalı hacimde egzozsuz makine zorunluluğu, un ve şeker tozunun biriktiği alanlarda ortam sınıfı değerlendirmesi, temizlik ve girişi belgelenmiş ekipman — bunların hiçbiri opsiyonel değildir. Konya-Karaman hattı bizim için kısa ve düzenli bir güzergâhtır; komşu il olmasına rağmen mesafe, Ereğli ya da Akşehir kadar belirleyici değildir. Bu sayfa, gıda sanayisinin hijyen odaklı platform pratiğini ve komşu il lojistiğini birlikte anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Gıda tesisinde hijyen odaklı ekipman düzeni",
+                metin:
+                    "Üretim alanına girecek platformun karşılaması gereken şartlar bellidir: makine temizlenmiş ve kayıt altına alınmış olarak girer, iz bırakmayan lastik kullanılır, hidrolik kaçak kontrolü giriş öncesi yapılır ve sepette kullanılacak alet-malzeme düzeni tesis kurallarına göre belirlenir. Üretim hattının üstünde çalışılacaksa hattın durdurulması ve ürün-hat örtülmesi standarttır. Bu şartlar bizim için ek yük değil rutindir; gıda tesisine giden makine ayrı bir hazırlık akışından geçer ve bu akış teklifte yazılı görünür.",
+            },
+            {
+                baslik: "Un ve şeker tozunda ortam sınıfı gerçeği",
+                metin:
+                    "Gıda üretiminde biriken organik toz — un, nişasta, şeker — kapalı hacimlerde patlayıcı ortam potansiyeli taşır ve bu, platform işinin en ciddiye alınması gereken başlığıdır. Silo, karıştırma, elek ve taşıma hatlarının bulunduğu alanlarda ortam sınıfı tesisin İSG birimince belirlenir; sınıflı alanda standart makine çalıştırılmaz. Uygulanabilir yol, işin temizlik ve ölçüm sonrası açılan güvenli pencereye alınmasıdır. İlk görüşmede sorduğumuz ilk şeylerden biri budur; cevabı belirsizse tesisin uzmanıyla birlikte netleştirir, tahminle ilerlemeyiz.",
+            },
+            {
+                baslik: "Üretim ve depo alanlarında iki farklı düzen",
+                metin:
+                    "Gıda tesisinin platform işleri iki ayrı listeye ayrılır. Üretim alanı listesi (hat üstü tesisat, aydınlatma, kanal, tavan panelleri) hijyen ve duruş penceresi kurallarına bağlıdır, planlanması zaman ister. Depo ve lojistik alanı listesi (raf üstü, yükleme kapısı, sundurma, dış aydınlatma) ise çok daha esnektir, üretimi durdurmadan yürür. Bu ayrımı baştan yapmak, tesisin işlerini tıkanmadan ilerletir: depo kalemleri kendi ritminde biterken üretim kalemleri doğru pencereyi bekler.",
+            },
+            {
+                baslik: "Duruş pencerelerine hazırlıklı girmek",
+                metin:
+                    "Gıda tesisleri genellikle planlı temizlik ve bakım duruşları uygular ve platform işlerinin doğal yeri bu pencerelerdir. Ancak pencere kısadır ve içine birçok ekip girer — hazırlıksız gelen platform, pencereyi kurulumla harcar. Uygulamamız erken planlamadır: duruş tarihinden önce keşif yapılır, makine sınıfı ve konumlanma noktaları belirlenir, iş sırası tesisin bakım programına işlenir. Pencere açıldığında makine hazır olur ve süre, çalışmayla geçer. Duruş takvimini erken paylaşan tesis, aynı pencerede iki katı iş bitirir.",
+            },
+            {
+                baslik: "Kısa güzergâhın operasyonel avantajı",
+                metin:
+                    "Konya-Karaman arası, komşu il çalışmaları içinde en rahat yönetilen hattır: mesafe, günlük gidiş-dönüşü ve gerektiğinde hızlı ikinci sevkiyatı mümkün kılar. Pratik sonucu şudur — Karaman tesisleri, konaklamalı plana mecbur kalmadan gün bazlı çalışabilir ve acil müdahale talepleri makul sürelerde karşılanabilir. Yine de birden çok günlük iş listelerinde konaklama modeli maliyeti düşürür. Kısa hattın ikinci faydası esnekliktir: sahada beklenmedik bir ihtiyaç doğduğunda ikinci makine ya da yedek ekipman göndermek, uzak hatlara göre çok daha kolaydır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gıda tesisinde alan tipine göre çalışma kuralları",
+                paragraflar: [
+                    "Aynı tesisin farklı alanları, platform işinde bambaşka kurallara tabidir. Alan tiplerini gereklilikleriyle birlikte çıkardık; talep hazırlarken bu ayrım işinizi hızlandırır.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Makine", "Zorunlu şart", "Zamanlama"],
+                    satirlar: [
+                        ["Üretim hattı üstü", "Akülü, temiz hazırlık", "Hat durdurma + örtme", "Duruş penceresi"],
+                        ["Toz sınıflı bölgeler", "Ortam sınıfına uygun", "Temizlik + ölçüm", "Güvenli pencere"],
+                        ["Ambalaj ve mamul deposu", "Akülü makaslı", "İz bırakmayan lastik", "Esnek"],
+                        ["Yükleme ve sundurma", "Dizel makaslı", "Trafik yönlendirmesi", "Kapı boşalma saati"],
+                        ["Dış cephe ve çatı", "Dizel eklemli bom", "Rüzgâr kontrolü", "Gündüz, mevsime göre"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hijyen şartının maliyete ve süreye etkisi",
+                paragraflar: [
+                    "Gıda tesisi çalışması, aynı kotta yapılan bir sanayi işinden neden farklı fiyatlanır sorusunun cevabı hazırlıktadır: makine ayrı bir temizlik ve kontrol akışından geçer, giriş belgelemesi yapılır, sepet düzeni tesis kurallarına uyarlanır ve iş, çoğu zaman dar bir duruş penceresine sıkışır. Bunların her biri süre ve emek demektir ve teklifte açık kalem olarak görünür.",
+                    "Buna karşılık hazırlıklı gelmenin getirisi de somuttur: hijyen şartını karşılamayan bir makine tesis kapısından geri döner ve o günün tamamı kaybedilir. Gıda sanayisinde çalışan müşterilerimizin bu farkı en iyi bilen kesim olduğunu görüyoruz — hazırlığın bedelini ödemek, kapıdan dönen makinenin bedelinden her zaman düşük.",
+                ],
+            },
+            {
+                baslik: "Karaman çevresinde gıda dışı talepler",
+                paragraflar: [
+                    "İlin sanayi kimliği gıdayla anılsa da platform talebi yalnızca oradan gelmez: lojistik ve soğuk zincir depoları, ambalaj üreticileri, tarımsal işletmeler, ticari yapılar ve kurum binaları da erişim ister. Bu adreslerde hijyen kısıtları yoktur; iş, standart ağır hizmet ya da genel amaçlı düzenle yürür ve planlama belirgin biçimde hızlanır.",
+                    "Gıda dışı taleplerin bir faydası da güzergâh doldurmaktır: aynı güne yazılan bir gıda tesisi işi ile bir depo ya da cephe işi, sevkiyat maliyetini paylaşır. İlde işi olan işletmelere önerimiz, tarih esnekliği tanıyarak bu paylaşımlı günlere girmeleridir — kısa hattın avantajı, bu modelle daha da belirginleşir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim hattımızın üzerindeki aydınlatmayı yenileyeceğiz; hattı durdurmadan olur mu?",
+                cevap:
+                    "Hattın tam üstündeki armatürler için olmaz — gıda üretiminde hem düşen parça riski hem ürün güvenliği nedeniyle hat durdurulur ve çalışma bölgesi örtülür. Ancak listenizin tamamı hat üstü olmayabilir: hat dışı bölgelerdeki, koridor ve duvar kenarındaki armatürler üretim sürerken değiştirilebilir. Kalemleri bu ayrımla listeleyin; hat üstü olanları planlı temizlik-bakım duruşunuza yazalım, gerisini önceden bitirelim. Böylece duruş penceresi yalnızca gerçekten gerekli işlere ayrılır ve daha kısa sürer.",
+            },
+            {
+                soru: "Un silosu ve elek bölgemizde iş var; standart makineniz girer mi?",
+                cevap:
+                    "Ortam sınıfı belirlenmeden girmez — un ve nişasta birikiminin bulunduğu kapalı bölümlerde patlama riski gündeme gelir; böyle alanlarda standart ekipman çalıştırmak kabul edilemez. Doğru sıra şudur: tesisinizin İSG birimi alanın sınıfını netleştirir; sınıflıysa iş, temizlik ve ölçüm sonrası açılan güvenli pencereye alınır ve uygun ekipmanla yapılır. Sınıf bilgisi elinizde yoksa birlikte netleştiririz. Aynı tesisin sınıf dışı kalemleri (depo, dış cephe, yükleme sahası) bu kısıttan bağımsız, beklemeden planlanır.",
+            },
+            {
+                soru: "Makinenizin gıda alanına girmesi için hangi belgeler gerekiyor?",
+                cevap:
+                    "Tesisinizin kurallarına göre değişir ama standart paketimiz hazırdır: makinenin temizlik kaydı, hidrolik kaçak kontrol teyidi, iz bırakmayan lastik beyanı, operatörün yetki belgesi ve sağlık-hijyen kurallarına uyum taahhüdü. Buna tesisin kendi giriş formları ve varsa yabancı madde kontrol prosedürü eklenir. Kalite biriminizin istediği liste bize önceden ulaşırsa evrakı sevkiyattan önce tamamlar, kapıda vakit kaybetmeyiz. Bu hazırlık gıda müşterilerimizde rutindir; ilk işte listeyi paylaşmanız yeterli.",
+            },
+            {
+                soru: "Planlı bakım duruşumuz iki gün; bu sürede ne kadar iş bitirebiliriz?",
+                cevap:
+                    "Hazırlığa bağlı — ve fark büyük. Duruş öncesi keşif yapılmış, makine sınıfı ve konumlanma noktaları belirlenmiş, iş sırası bakım programınıza işlenmişse iki gün oldukça verimli geçer: makine pencere açılır açılmaz çalışmaya başlar. Hazırlıksız girilen duruşta ise ilk yarım gün kurulum ve koordinasyonla erir. Bu yüzden duruş takviminizi bize erken bildirmenizi istiyoruz. Kalem listenizi ve duruş tarihini paylaşın; iki günde neyin gerçekçi olarak biteceğini baştan, abartısız söyleyelim.",
+            },
+            {
+                soru: "Karaman'a acil müdahale için gelebilir misiniz?",
+                cevap:
+                    "Bu hat, komşu il çalışmalarımız içinde acile en uygun olanıdır: mesafe günlük gidiş-dönüşe elverir, gerektiğinde ikinci sevkiyat da makul sürede yapılabilir. Dürüst sınır, makine müsaitliğidir — yoğun dönemde her sınıf her an boşta olmayabilir; telefonda önce müsaitliği kontrol eder, tutamayacağımız saati vermeyiz. Acil çağrınızda üç bilgi hazır olsun: işin kotu, alanın hijyen-ortam durumu ve adres. Cevabımız net bir saat ya da net bir alternatif olur; belirsiz söz vermeyiz.",
+            },
+            {
+                soru: "Gıda tesisimiz dışında ambalaj depomuz da var; ikisi tek planda birleşir mi?",
+                cevap:
+                    "Birleşir ve önerdiğimiz kurgu da budur: ambalaj deposunun raf üstü, aydınlatma ve yükleme kapısı kalemleri hijyen kısıtı olmadığı için esnek çalışılır; gıda tesisinin kalemleri ise duruş penceresine yazılır. İkisini aynı sevkiyat gününe dizmek nakliyeyi teke indirir. Sıra önemlidir — hijyen şartlı alana girecek makine, tozlu depo işinden sonra değil, önce ya da temizlik akışından geçtikten sonra girer. İki listeyi ayrı gönderin; sırayı ve gün planını hijyen kurallarına uygun biçimde biz kuralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Karaman'ın bisküvi-gofret ağırlıklı gıda sanayisi kimliği ve Konya'ya komşuluğu kamuya açık bilgidir; hijyen giriş düzeni, alan ayrımı ve duruş hazırlığı firma pratiğidir.",
+    },
 };

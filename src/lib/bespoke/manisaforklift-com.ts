@@ -115,7 +115,7 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Manisa OSB'nin üretim ağırlığı kamuya açık bilgidir; turlu besleme, devir kontrolü, şarj penceresi ve kesişim önlemleri sektör standardı operasyon pratikleridir; gösterge seti firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Manisa OSB'deki beyaz eşya-elektronik üretim ağırlığı kamuya açık bilgidir; turlu besleme, devir kontrolü, şarj penceresi ve kesişim önlemleri sektör standardı operasyon pratikleridir; gösterge seti firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
     },
 
     "bolge:turgutlu": {
@@ -205,7 +205,7 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Tozlu ortamda kiralık makinenin bakımından kim sorumlu; filtre tıkanırsa fatura kime çıkar?",
                 cevap:
-                    "Sorumluluk ikiye ayrılır ve teslimatta yazılı netleştirilir: periyodik bakım, parça değişimi ve arıza müdahalesi kiralayan firmadadır; günlük temizlik rutini — vardiya sonu filtre-radyatör üfleme, mast kanalı kontrolü — tesistedir. Tozlu sahada bakım aralığı standart takvimden kısaltılır ve bu sıklaştırma kira planına baştan işlenir; yani tozun olağan etkisi tesise fatura edilmez. Fatura konusu olan durum, tanımlı günlük rutinin hiç yapılmamasından doğan hasarlardır ve bu da iade günü sürpriziyle değil, dönem içi bakım ziyaretlerinde tespit edilip önce uyarıyla yönetilir. Sahanın toz profilini teslimat keşfinde birlikte görür, rutini birlikte yazarız.",
+                    "Sorumluluk ikiye ayrılır ve teslimatta yazılı netleştirilir: periyodik bakım, parça değişimi ve arıza müdahalesi kiralayan firmadadır; günlük temizlik rutini — vardiya sonu filtre-radyatör üfleme, mast kanalı kontrolü — tesistedir. Tozlu sahada bakım aralığı standart takvimden kısaltılır ve bu sıklaştırma kira planına baştan işlenir; yani tozun olağan etkisi tesise fatura edilmez. Fatura konusu olan durum, tanımlı günlük rutinin hiç yapılmamasından doğan hasarlardır ve bunlar da iade gününe bırakılmaz; düzenli bakım turlarında görülüp önce yazılı uyarıyla ele alınır. Sahanın toz profilini teslimat keşfinde birlikte görür, rutini birlikte yazarız.",
             },
             {
                 soru: "Yoğun sezonda ikinci vardiyaya çıkıyoruz; aynı makineyle iki vardiya döner mi, ek makine mi alalım?",
@@ -214,7 +214,7 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Turgutlu'nun toprağa dayalı sanayi geleneği kamuya açık bilgidir; palet bütünlüğü, dorse denge dağılımı, devrilme önlemleri ve tozlu ortam bakım sıklaştırması sektör standardıdır; vardiya akış planı firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Turgutlu'nun toprağa dayalı sanayi geleneği kamuya açık bilgidir; palet bütünlüğü, dorse denge dağılımı, devrilme önlemleri ve tozlu ortam bakım sıklaştırması sektör standardıdır; vardiya akış planı firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
     },
 
     "bolge:akhisar": {
@@ -313,7 +313,7 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Akhisar'ın zeytin-zeytinyağı ekonomisi kamuya açık bilgidir; sıvı yük elleçleme kuralları, kap istif sınırları ve gece vardiyası önlemleri sektör standardıdır; devir noktası ve iade kayıt düzeni firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Akhisar'ın zeytin-zeytinyağı ekonomisi kamuya açık bilgidir; sıvı yük elleçleme kuralları, kap istif sınırları ve gece vardiyası önlemleri sektör standardıdır; devir noktası ve iade kayıt düzeni firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
     },
 
     "bolge:turgutlu-osb": {
@@ -412,6 +412,402 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. OSB ölçeğindeki karma üretim dokusu genel bilgidir; takoz-köprü kuralları, zimmet düzeni ve araç çevrim süresi yaklaşımı sektör standardı operasyon pratikleridir; kademeli filo doğrulama modeli firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. OSB ölçeğindeki karma üretim dokusu genel bilgidir; takoz-köprü kuralları, zimmet düzeni ve araç çevrim süresi yaklaşımı sektör standardı operasyon pratikleridir; kademeli filo doğrulama modeli firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
+    },
+
+    "bolge:akhisar-osb": {
+        h1: "Akhisar OSB'de Forklift Operasyonu: Paketleme Çıkışından Konteynere Kesintisiz Akış",
+        giris:
+            "Akhisar OSB'deki gıda ve tarımsal işleme tesislerinde yılın büyük bölümü hasat telaşıyla değil, düzenli üretim ve ihracat sevkiyatıyla geçer; forklift operasyonunun asıl sınavı da burada verilir. Paketleme hattından çıkan mamul paletinin depoda doğru adrese yerleşmesi, sipariş geldiğinde saniyeler içinde bulunması, konteyner veya tır yüklemesinde partinin eksiksiz ve doğru sırayla çıkması — bu zincirin her halkası bir forklift hareketidir ve halkalardan biri gevşediğinde kayıp, ürünün kendisinde değil zamanda ortaya çıkar. İhracat yükü olan tesislerde ek bir hassasiyet daha vardır: konteyner yüklemesi geri dönüşü olmayan bir iştir, kapı mühürlendikten sonra yanlış yüklenmiş bir paletin telafisi yoktur. Bu sayfa, düzenli üretim yapan gıda tesislerinde forklift operasyonunu paketleme çıkışından konteyner kapısına kadar izler: çıkış tamponu yönetimi, adresleme ve parti izlenebilirliği, konteyner yükleme disiplini, ambalaj hasarının önlenmesi ve depo içi trafiğin hijyen kurallarıyla birlikte yürütülmesi.",
+        maddeler: [
+            {
+                baslik: "Paketleme çıkış tamponu: hat, forklifti beklememeli",
+                metin:
+                    "Paketleme hattının sonunda biriken mamul paleti, forklift geç kaldığında hattın kendisini durdurur; erken geldiğinde ise operatör boş bekler. İkisinin ortası tampon alanıdır: hat çıkışına iki-üç paletlik tanımlı bir alan ayrılır, hat bu alana bırakır ve forklift kendi turunda buradan toplar. Tamponun boyutu hattın palet üretme hızıyla forklift tur süresinin çarpımından çıkar ve alan işaretlenerek sabitlenir — 'nereye denk gelirse' bırakılan palet, hem trafik engeli hem hasar adayıdır. Tampon dolduğunda görsel bir uyarı (zemin çizgisi veya lamba) devreye giriyorsa hat operatörü de durumu görür ve haber verme yükü telsize kalmaz.",
+            },
+            {
+                baslik: "Adresleme ve parti izlenebilirliği: forklift hareketi aynı zamanda bir kayıttır",
+                metin:
+                    "Gıda üretiminde parti-lot izlenebilirliği yasal bir zorunluluktur ve bu zincirin fiziksel tarafını forklift taşır: palet hangi adrese kondu, hangi adresten çekildi, hangi araca yüklendi. Kayıt elle tutulan çizelgeyle de yürütülebilir, el terminaliyle de; belirleyici olan araç değil kuralın istisnasızlığıdır — kayıtsız hiçbir palet hareketi olmaz. Bu disiplinin günlük getirisi izlenebilirlikten ibaret değildir: sipariş toplama süresi kısalır, sayım farkları erir ve 'palet kayboldu' vakaları biter. Operasyon planlarken adres kaydını forkliftin işine ek bir yük değil, işin tanımı hâline getirmek gerekir; ayrı bir kişiye bırakılan kayıt, yoğun günde tutulmaz.",
+            },
+            {
+                baslik: "İhracat konteyneri yüklemesi: sıra, doğrulama ve geri dönüşsüzlük",
+                metin:
+                    "Konteyner yüklemesi, forklift operasyonunun en az affeden işidir: kapı kapanıp mühür vurulduktan sonra yanlış parti, eksik palet veya bozuk istif düzeltilemez. Operasyon buna göre kurgulanır — yükleme listesi palet bazında yazılır, paletler yükleme öncesi konteyner ağzına yükleme sırasına göre dizilir, her palet konteynere girerken listeden okunarak işaretlenir ve yükleme bitiminde ikinci bir kişi sayımı doğrular. Fiziksel tarafta konteyner içi çalışma kendi kurallarını getirir: dar hacimde manevra, tavan yüksekliği sınırı ve zeminin araç şasisiyle birlikte esnemesi. Bu koşullarda hız değil düzen aranır; yüklemenin hızı, ön dizimin kalitesinden gelir.",
+            },
+            {
+                baslik: "Ambalaj hasarını önlemek: gıda paletinde tek temas, tüm partiyi riske atar",
+                metin:
+                    "Karton kutu ve şrinkli gıda paleti, çatal temasına ve sıkışmaya karşı toleranssızdır; ezilen tek kutu, ihracat partisinde bütün paletin ayrılmasına yol açabilir. Hasarı önleyen davranışlar operasyon kuralına çevrilir: çatal, paletin altına tam ve düz girer, palet kenarına sürtülerek hizalanmaz; raf yerleşiminde palet, komşu paletle temas etmeyecek paya göre konur; istif yüksekliği alt kutunun taşıma dayanımına göre sınırlandırılır ve şrinki gevşemiş palet raf üstüne çıkarılmaz. Hasar vakaları yer ve neden bilgisiyle kaydedildiğinde birkaç hafta içinde belirli bir koridor veya belirli bir raf katı öne çıkar — düzeltme çoğu zaman orada, tek bir noktadadır.",
+            },
+            {
+                baslik: "Hijyen kurallarıyla birlikte akan trafik: iç makine dışarı çıkmaz",
+                metin:
+                    "Gıda depolarında forklift operasyonu, temizlik planının bir parçası olarak yürür: üretim ve depo içinde çalışan akülü makineler dış sahaya çıkmaz, dış saha makinesi kapının içine girmez ve iki taraf arasında tanımlı bir devir noktası bulunur. Makinenin kendisi de rutine dahildir — lastik izi kontrolü, hidrolik kaçak bakışı ve gövde temizliği vardiya sonu görevidir; denetim geldiğinde bakım kayıtlarının yanında temizlik kaydı da sorulur. Bu ayrımın operasyon tarafındaki tek maliyeti devir noktasında oluşabilecek beklemedir ve o da tampon alanla çözülür; hijyen ile verim arasındaki gerilim, doğru yerleşimle büyük ölçüde ortadan kalkar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sevkiyat gününün forklift kontrol noktaları",
+                paragraflar: [
+                    "İhracat veya toplu sevkiyat gününde forklift operasyonunun kontrol noktaları aşağıdadır; her noktanın hatası, bir sonraki noktada değil araç yola çıktıktan sonra ortaya çıkar.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol noktası", "Ne doğrulanır", "Atlanınca sonuç"],
+                    satirlar: [
+                        ["Liste hazırlığı", "Palet bazında sevk listesi ve adresler", "Sahada arama, araç bekler"],
+                        ["Ön dizim", "Paletlerin yükleme sırasına göre dizilmesi", "Konteynerde sıra bozulur"],
+                        ["Palet durumu", "Şrink, etiket, kutu ezilmesi", "Alıcıda hasarlı parti reddi"],
+                        ["Yükleme okuması", "Her paletin listeden işaretlenmesi", "Eksik veya fazla yükleme"],
+                        ["Kapanış sayımı", "İkinci kişiyle karşı doğrulama", "Mühürden sonra telafi imkânsız"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sipariş toplama verimi: koridorda yürünen mesafe kadar kayıp",
+                paragraflar: [
+                    "Karışık siparişlerin toplandığı depolarda forkliftin en çok zaman kaybettiği yer manevra değil, adresler arası gidiş gelişlerdir: sipariş satırları depo sırasına göre değil müşterinin yazdığı sırayla toplanıyorsa makine aynı koridora gün içinde defalarca girer. Basit düzeltme, toplama listesini depo yerleşimine göre sıralamaktır — yazılım kullanılıyorsa ayarı vardır, kullanılmıyorsa liste elle depo sırasına dizilir. İkinci düzeltme, hızlı devreden ürünlerin sevkiyat kapısına yakın adreslere alınmasıdır; ürün hareket hızına göre yapılan bu yerleşim, aynı filoyla toplanan sipariş sayısını gözle görülür artırır.",
+                    "Yerleşim kararı sabit değildir: sezonluk ürün gamı değişen tesislerde adres planı yılda birkaç kez gözden geçirilir. Bu gözden geçirme yarım günlük bir masa çalışmasıdır ve karşılığını her sevkiyat gününde verir.",
+                ],
+            },
+            {
+                baslik: "Vardiya planı ile sevkiyat takvimini örtüştürmek",
+                paragraflar: [
+                    "Forklift filosunun günün hangi saatinde nerede olacağı, sevkiyat takvimi ile üretim akışının kesiştiği yerde belirlenir. Sık görülen aksaklık, araçların sabah aynı saate randevulanması ve depo makinelerinin o saatte üretim beslemesinden çekilmesidir; iki iş de aksar. Çözüm randevu dağıtımıdır — araçlar güne yayılır, yoğun yükleme blokları üretimin sakin saatlerine denk getirilir ve her bloğun kaç makineyle döneceği önceden yazılır. Bu plan haftalık yapılır, günlük teyit edilir ve değişiklikler tek noktadan duyurulur.",
+                    "Planın işlediğini gösteren metrik araç bekleme süresidir; yükleme kapasitesini artırmadan yalnız randevu dağıtımıyla bu sürenin belirgin düştüğü tesisler çoktur. Sevkiyat takviminizi paylaşırsanız blok planını birlikte kurabiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Paketleme hattımız forklift yetişmediği için zaman zaman duruyor; ek makine almadan çözüm var mı?",
+                cevap:
+                    "Çoğu tesiste var: hattın durması genelde makine kapasitesinden değil tampon eksikliğinden doğar. Hat çıkışında iki-üç paletlik tanımlı bir bırakma alanı yoksa hat, forkliftin gelmesini beklemek zorunda kalır ve makine tek bir gecikmede zinciri kilitler. Tampon alanı işaretlendiğinde hat kendi ritmiyle bırakır, forklift kendi turuyla toplar ve iki taraf birbirinden bağımsızlaşır. İkinci adım, toplama turunun periyodunu hattın palet üretme hızına göre belirlemektir. Bu iki düzenlemeden sonra hâlâ duruş varsa gerçekten kapasite sorunu vardır ve ölçüm net gösterir — o noktada kısa dönem ek makineyle deneyip doğrulamak, kalıcı yatırımdan önce doğru adımdır.",
+            },
+            {
+                soru: "Konteyner yüklemesinde geçen ay eksik palet gönderdik; bir daha yaşamamak için hangi düzen gerekir?",
+                cevap:
+                    "Eksik yükleme neredeyse her zaman tek kişilik ve sözlü yürütülen bir süreçten çıkar. Kurulacak düzenin dört adımı vardır: yükleme listesinin palet bazında ve yazılı olması, paletlerin konteyner ağzına yükleme sırasına göre önceden dizilmesi, her paletin konteynere girerken listeden okunup işaretlenmesi ve yükleme sonunda ikinci bir kişinin karşı sayım yapması. Dördüncü adım en çok atlanan ve en çok işe yarayandır — yükleyen kişi kendi sayımını doğrulayamaz, dikkat körlüğü tam burada devreye girer. Ayrıca mühürleme, sayım onayı verilmeden yapılmaz; sıra bir kez bozulduğunda hata ortaya çıkmaz. Bu düzen ek personel değil, on dakikalık disiplin gerektirir.",
+            },
+            {
+                soru: "Depo adresleme için yazılım almadan izlenebilirliği sağlayabilir miyiz?",
+                cevap:
+                    "Sağlayabilirsiniz — yazılım süreci hızlandırır, kuran şey disiplindir. Kağıt veya basit tablo tabanlı bir düzende de her palet hareketi (parti-lot, adres, tarih, saat, kim) kaydedilebilir; kritik nokta kaydın forkliftin işine gömülü olmasıdır, ayrı bir görevliye bırakılan kayıt yoğun günde tutulmaz. Uygulamada iyi çalışan yöntem, adres etiketlerinin raf ve blok üzerinde büyük ve okunur olması, palet etiketinde parti bilgisinin bulunması ve operatörün hareket sonrası tek satır not düşmesidir. Bu düzen kurulduktan sonra yazılıma geçiş de kolaylaşır, çünkü asıl zor kısım olan alışkanlık zaten yerleşmiştir. Denetim tarafında da elle tutulan tutarlı kayıt kabul görür; tutarsız kayıt ise yazılımda da sorun yaratır.",
+            },
+            {
+                soru: "Alıcılarımızdan ambalaj hasarı şikâyeti geliyor; hasar depoda mı yolda mı oluşuyor, nasıl anlarız?",
+                cevap:
+                    "Ayrım için iki kayıt noktası yeterlidir: paletin rafa girişinde ve araca yüklenmeden hemen önce durumu kaydedilir; fotoğrafla desteklenirse tartışma tamamen biter. Yükleme öncesi sağlam görünen paletin alıcıda hasarlı çıkması taşıma veya istif dengesi sorununa işaret eder — konteyner içi boşlukların doldurulması, katlar arası kayma ve bağlama gözden geçirilir. Yükleme öncesinde zaten hasarlıysa kaynak depodadır ve bu durumda hasarın nerede oluştuğunu bulmak için vaka kaydına yer bilgisi eklenir; belirli bir koridor, raf katı veya vardiya öne çıkar. Deneyimde en sık iki kaynak, çatalın palet kenarına sürtülerek hizalanması ve raf yerleşiminde komşu palete temastır; ikisi de operasyon kuralıyla düzelir.",
+            },
+            {
+                soru: "Sevkiyat sabahları depo makineleri üretime yetişemiyor; vardiya planını nasıl kurmalıyız?",
+                cevap:
+                    "Sorunun kaynağı çoğunlukla araç randevularının aynı saate yığılmasıdır: bütün araçlar sabah kapıya geldiğinde depo filosu tümüyle rampaya çekilir ve üretim beslemesi aksar. Randevuları güne yaymak, kapasite eklemeden yükü dengeler — yükleme blokları üretimin sakin saatlerine yerleştirilir ve her blokta kaç makinenin rampada, kaçının üretimde olacağı yazılı belirlenir. İkinci düzeltme, sevkiyat paletlerinin bir önceki vardiyada hazırlanıp rampa ağzına dizilmesidir; hazırlık gece veya öğleden sonra yapıldığında sabah bloğu yalnızca yükleme yapar. Üçüncüsü, üretim beslemesinin tur periyoduna bağlanması ve rampa çağrılarıyla bölünmemesidir. Bu üçlü, mevcut filoyla iki işi de aksatmadan yürütmeye çoğu tesiste yeter.",
+            },
+            {
+                soru: "Gıda denetimi forklift tarafında ne soruyor; hazırlık listemizde ne olmalı?",
+                cevap:
+                    "Denetimin forklift maddeleri genelde şu başlıklarda toplanır: kapalı üretim ve depo alanında egzozsuz (akülü) makine kullanımı, iz bırakmayan lastik ve temizlenebilir gövde, hidrolik kaçak bulunmaması, makinelerin periyodik kontrol raporları ve bakım kayıtları, operatörlerin belge durumu, iç saha-dış saha makine ayrımının fiilen uygulanması ve makine temizliğinin temizlik planında tanımlı olması. Hazırlık listesi bu maddelerin her biri için bir evrak veya bir saha kanıtı içermelidir; kiralık makinelerde bakım ve periyodik kontrol dosyası kiralayan firmadan hazır gelir, saha uygulaması ise tesisin sorumluluğundadır. Denetim tarihi belliyse bir hafta önce yapılan iç tur, eksikleri rahatça kapatacak süre bırakır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Akhisar OSB'nin gıda-tarımsal işleme ağırlığı kamuya açık bilgidir; parti izlenebilirliği, konteyner yükleme doğrulaması ve gıda alanı makine kuralları sektör standardıdır; tampon ve blok planlama yaklaşımı firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
+    },
+
+    "bolge:salihli-osb": {
+        h1: "Salihli OSB'de Forklift Operasyonu: Operatör Yetkinliği ve İSG Sisteminin Sahada Yaşaması",
+        giris:
+            "Bir tesiste forklift operasyonunun kalitesini belirleyen en güçlü tek etken, dosyadaki İSG prosedürü değil sahadaki operatörün davranışıdır; Salihli OSB gibi karma üretim dokusuna sahip bölgelerde bu gerçek her tesis ölçeğinde aynıdır. Makine ne kadar yeni olursa olsun, yükü yüksek taşıyan, dönüşte hız kesmeyen veya arkasına bakmadan geri manevra yapan bir kullanım kaza üretir; buna karşılık orta yaşlı bir filo, disiplinli bir kadroyla yıllarca kazasız çalışır. Yetkinlik ise tek seferlik bir belge işi değildir — belge giriş şartıdır, asıl mesele o yetkinliğin sahada tazelenmesi, ölçülmesi ve tesise özgü risklerle güncellenmesidir. Bu sayfa, forklift operasyonunun insan tarafını sistem hâline getirmeyi anlatır: belge ve yetki düzeni, işe alıştırma programı, davranış temelli gözlem, periyodik kontrol ve kayıt yükümlülükleri ile yakın ıskalama bildirimlerinin gerçekten işleyen bir öğrenme döngüsüne çevrilmesi.",
+        maddeler: [
+            {
+                baslik: "Belge ve yetkilendirme: yasal şart ile tesis içi yetki aynı şey değildir",
+                metin:
+                    "Forklift kullanımı Türkiye'de belgeye bağlıdır ve operatörün mesleki yeterlilik belgesi bulunması yasal asgaridir. Ancak belge, kişinin sizin sahanızda çalışabileceğini göstermez; tesis içi yetkilendirme ayrı bir adımdır. İyi işleyen düzende her operatör için hangi makine sınıflarını (karşı ağırlıklı, reach truck, ataşmanlı) ve hangi bölgeleri kullanmaya yetkili olduğu yazılıdır; yetki, saha oryantasyonu ve gözlemli kullanım sonrası verilir. Bu ayrım pratik bir soruna da çözüm getirir: yeni gelen deneyimli bir operatör belgesine güvenilerek doğrudan en kritik rotaya çıkarıldığında, sahayı bilmediği için ilk hafta hasar riski en yüksek dönemi yaşar.",
+            },
+            {
+                baslik: "İşe alıştırma: ilk hafta, sonraki yılların kaza oranını belirler",
+                metin:
+                    "Yeni operatörün ilk haftası bir program olarak tasarlanmalıdır: saha turu ve risk noktalarının yerinde gösterilmesi, boş makineyle manevra alıştırması, deneyimli bir operatörün gölgesinde yüklü çalışma ve ancak sonrasında bağımsız rota. Program bir sayfayı geçmez ama uygulanması, 'başla bakalım' yaklaşımına göre ölçülebilir fark yaratır. Alıştırma döneminde verilen görevler de seçilidir — yoğun rampa saatleri, dar koridor istifi ve ataşmanlı işler sona bırakılır. Bu dönemin sonunda kısa bir değerlendirme yapılır ve yetkilendirme yazılı olarak genişletilir; belirsiz bırakılan yetki, yoğun günde herkesin her işi yapmasına dönüşür.",
+            },
+            {
+                baslik: "Davranış temelli gözlem: kural asmak değil, kullanımı izlemek",
+                metin:
+                    "Panoya asılan kural listesi davranışı çok az değiştirir; değiştiren şey düzenli ve yapıcı gözlemdir. Uygulama basittir: vardiya amiri veya İSG sorumlusu, haftada birkaç kez on beş dakikalık gözlem yapar ve belirli davranışları işaretler — yükün alçakta taşınması, dönüş öncesi yavaşlama, geri manevrada dönüp bakma, emniyet kemeri, kesişimde duruş, yaya önceliği. Gözlem sonrası konuşma ceza dili değil geri bildirim dilidir; amaç kayıt tutmak değil davranışı düzeltmektir. Birkaç ay sonra ortaya çıkan tablo, hangi davranışın tesis genelinde zayıf olduğunu gösterir ve eğitim, tahmine değil bu veriye göre planlanır.",
+            },
+            {
+                baslik: "Periyodik kontrol ve kayıtlar: denetimde değil, kazadan önce işe yarar",
+                metin:
+                    "İş ekipmanlarının periyodik kontrolü mevzuat gereğidir ve forkliftler bu kapsamdadır; kontrolün yetkili kişilerce yapılması, raporların saklanması ve tespit edilen eksikliklerin kapatılması zincirin tamamıdır. Uygulamada en sık kopan halka sonuncusudur — rapor alınır, dosyalanır, eksik kalır. İşleyen düzende her tespit bir sorumluya ve tarihe bağlanır, kapandığında kayda geçer. Kiralık filoda periyodik kontrol yükümlülüğü ve raporların temini kiralayan firmadadır; tesis, raporların güncelliğini takip eder ve dosyayı hazır tutar. Günlük kontrol listeleri ile periyodik kontrol birbirinin yerine geçmez: biri erken belirtiyi, diğeri yapısal uygunluğu yakalar.",
+            },
+            {
+                baslik: "Yakın ıskalama bildirimi: kazasız yılın gerçek göstergesi bildirim sayısıdır",
+                metin:
+                    "Kaza olmadan atlatılan olaylar — az kalsın çarpışma, devrilmeye giden manevra, düşen palet — bir tesisin en değerli erken uyarı verisidir ve neredeyse hiçbir yerde kendiliğinden bildirilmez; çünkü bildiren kişi kendini suçlamış gibi hisseder. Bildirimi açan tek şey, bildirimin cezaya dönüşmediğinin fiilen görülmesidir. Uygulama sırası şudur: bildirim kanalı basitleştirilir (kısa form ya da amire sözlü), gelen her bildirim için bir düzeltme adımı atılır ve bu adım sahaya duyurulur. Bildirim sayısının artması kötü değil iyi haberdir — riskler kazaya dönüşmeden görünür hâle gelmiştir. Bildirim sıfır olan tesiste risk yoktur denmez; risk görünmüyordur denir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatör yetkinlik matrisi: kim, hangi makineyi, hangi bölgede",
+                paragraflar: [
+                    "Aşağıdaki matris yapısı, tesis içi yetkilendirmeyi izlenebilir kılar; her satır bir operatör, her sütun bir yetki alanıdır ve yetki tarihiyle birlikte tutulur.",
+                ],
+                tablo: {
+                    basliklar: ["Yetki alanı", "Ön koşul", "Yetki nasıl verilir", "Tazeleme"],
+                    satirlar: [
+                        ["Karşı ağırlıklı, genel saha", "Geçerli operatör belgesi", "Saha oryantasyonu + gözlemli kullanım", "Yıllık"],
+                        ["Dar koridor / raf istifi", "Genel saha yetkisi", "Koridorda gözlemli istif değerlendirmesi", "Yıllık"],
+                        ["Ataşmanlı çalışma", "İlgili ataşman brifingi", "Ataşmanla gözlemli çalışma", "Ataşman değişiminde"],
+                        ["Rampa ve dorse içi", "Genel saha yetkisi", "Takoz-köprü prosedürü uygulamalı", "Yıllık"],
+                        ["Gece vardiyası rotası", "En az bir dönem gündüz deneyimi", "Amir değerlendirmesi", "Vardiya değişiminde"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eğitimin sahaya inmesi: sınıf saatinden çok, makine başında geçen dakika",
+                paragraflar: [
+                    "Forklift eğitiminin en zayıf hâli, yılda bir kez sınıfta anlatılıp imzalanan sunumdur; en güçlü hâli ise kısa, sık ve makine başında yapılan uygulamalı tazelemelerdir. Vardiya başında beş dakikalık tek konu — bu hafta geri manevra, gelecek hafta yük yüksekliği — anlatıp sahada gösterildiğinde davranışta iz bırakır. Yıl içinde işlenen konular gözlem verisine göre seçilir; herkesin zaten yaptığı davranışı tekrar anlatmak zaman kaybıdır, tabloda zayıf çıkan davranışı işlemek ise doğrudan risk düşürür.",
+                    "Kiralık filoyla çalışan tesislerde teslimat günü verilen makine brifingi bu döngünün başlangıcıdır: yeni gelen makinenin kumanda farkları, ataşman kullanımı ve kapasite sınırları sahada gösterilir. Makine değiştiğinde brifing tekrarlanır — 'forklift forklifttir' varsayımı, model farklarının yol açtığı hataların kaynağıdır.",
+                ],
+            },
+            {
+                baslik: "Kaza sonrası: sorumluyu değil nedeni aramak",
+                paragraflar: [
+                    "Kaza veya ciddi hasar sonrası yapılan incelemenin yönü, tesisin gelecekteki güvenliğini belirler: soru 'kim yaptı' olduğunda cevaplar savunmaya döner ve gerçek neden gizlenir; soru 'bu koşullarda neden mümkün oldu' olduğunda zemin, görüş, hız, yük, aydınlatma, eğitim ve iş baskısı gibi düzeltilebilir etkenler ortaya çıkar. İnceleme aynı gün ve olay yerinde yapılır, fotoğrafla kaydedilir ve çıkan düzeltici adımlar tarihiyle takip edilir. Kapanan her adımın sahaya duyurulması, bir sonraki bildirimin gelmesini sağlar.",
+                    "Kiralık makine karışan olaylarda teknik inceleme ortak yapılır: makinede bir arıza payı var mıydı, bakım kayıtları ne diyor, ataşman doğru kullanılmış mıydı. Bu ortak inceleme, hem sorumluluk sınırını netleştirir hem de aynı olayın başka tesiste tekrarını önleyecek bilgiyi üretir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlerimizin belgeleri var ama saha alışkanlıkları kötü; eğitimi tekrar mı almalılar?",
+                cevap:
+                    "Aynı eğitimi tekrar almak genelde işe yaramaz, çünkü sorun bilgi eksikliği değil davranış alışkanlığıdır — kişiler doğruyu bilir, yoğunlukta eskiye döner. Etkili yol, önce hangi davranışların zayıf olduğunu gözlemle ölçmek, sonra o davranışlara odaklı kısa ve sık tazelemeler yapmaktır: haftada beş dakika, tek konu, makine başında gösterimle. Buna iki destek eklenir — sahadaki fiziksel koşulların davranışı zorlaştırmadığından emin olmak (dar dönüş, kör köşe, kötü aydınlatma kuralı fiilen imkânsızlaştırıyor olabilir) ve yöneticinin iş baskısıyla farkında olmadan hızı ödüllendirmediğinden emin olmak. Bu üçlü kurulduğunda alışkanlık birkaç ay içinde ölçülebilir şekilde değişir.",
+            },
+            {
+                soru: "Kiralık makine kullanıyoruz; periyodik kontrol ve İSG sorumluluğu kimde?",
+                cevap:
+                    "Sorumluluk paylaşılır ve sınırı sözleşmede yazılı olmalıdır. Makinenin teknik uygunluğu, periyodik kontrollerinin yaptırılması ve raporlarının temini kiralayan firmanın yükümlülüğüdür; makinenin sahada güvenli kullanımı, operatörün belgeli ve yetkili olması, saha düzeni ve günlük kontroller ise makineyi çalıştıran tesisin sorumluluğundadır. Uygulamada tesisin yapması gereken iki şey vardır: rapor dosyasını güncel tutmak ve makinede fark ettiği teknik eksikliği bekletmeden bildirmek. Bildirilmemiş ve kullanılmaya devam edilmiş bir eksiklik, sorumluluğu tesise kaydırır. Teslimat sırasında bu haritayı yazılı geçiyoruz; belirsizlik kalmaması iki taraf için de koruyucudur.",
+            },
+            {
+                soru: "Yakın ıskalama bildirimi istiyoruz ama kimse bildirmiyor; nasıl başlatırız?",
+                cevap:
+                    "Bildirimin önündeki engel neredeyse her zaman korkudur: bildiren kişi suçlanacağını veya işini riske atacağını düşünür. Başlangıç için üç adım işe yarar. Birincisi kanalı basitleştirmek — uzun form yerine amire sözlü bildirim veya birkaç satırlık kart yeterlidir. İkincisi ilk bildirimlerde kimseyi sorgulamamak ve her bildirim için görünür bir düzeltme yapmak: ayna takılır, çizgi çekilir, hız levhası konur ve bu düzeltme sahaya 'şu bildirim sayesinde yapıldı' diye duyurulur. Üçüncüsü yöneticinin kendi hatasını da bildirmesi; kültürü açan en güçlü hamle budur. İlk aylarda bildirim sayısının artması hedeftir — artan bildirim, azalan kazanın öncü göstergesidir.",
+            },
+            {
+                soru: "Yeni işe aldığımız deneyimli operatörler ilk haftalarda hasar yapıyor; neden?",
+                cevap:
+                    "Çünkü deneyim makineye aittir, sahaya değil: kişi forklifti bilir ama sizin koridor genişliğinizi, kör köşelerinizi, raf katı sınırlarınızı, palet kalitenizi ve yaya alışkanlıklarınızı bilmez — üstelik deneyimli olduğu için hızlı başlar ve öğrenme payı bırakmaz. Çözüm kısa ve yapılandırılmış bir alıştırma dönemidir: yerinde saha turu ve risk noktalarının gösterilmesi, ilk günler ikincil rotada çalışma, deneyimli bir operatörün gölge olarak eşlik etmesi ve ancak sonra kritik rotaya çıkma. Ataşmanlı işler ve dar koridor istifi bu dönemin sonuna bırakılır. Bir hafta süren bu program, ilk ay hasarlarını belirgin düşürür ve yeni kişinin kendini kanıtlama baskısını da azaltır.",
+            },
+            {
+                soru: "Vardiya amirlerimiz İSG kurallarını takip etmeye vakit bulamıyor; ne önerirsiniz?",
+                cevap:
+                    "Takibi ayrı bir iş olmaktan çıkarıp mevcut rutine gömmek gerekir. Üç pratik yerleştirme işe yarar: vardiya başı beş dakikalık toplantıya tek bir güvenlik konusu eklemek, saha turunu zaten yapıyorsa turda üç davranışı işaretleyecek küçük bir kart taşımak ve haftada bir kez on beş dakikalık odaklı gözlem yapmak. Toplam yük haftada bir saati geçmez. İkinci mesele önceliktir — amir, üretim baskısıyla güvenliği ikinci sıraya koyuyorsa sorun vakit değil yönetim mesajıdır; üst yönetimin duruşu bunu belirler. Üçüncüsü sadeleştirmedir: takip edilecek kalem sayısı azaltıldığında takip fiilen yapılır, uzun kontrol listeleri doldurulmuş görünüp okunmaz.",
+            },
+            {
+                soru: "Ataşman değiştirdiğimizde ek eğitim gerekiyor mu?",
+                cevap:
+                    "Gerekiyor ve bu, en sık atlanan adımlardan biridir: klemp, rotator, uzatma çatalı veya big-bag aparatı takılan makine, artık farklı bir makinedir — kapasitesi düşer, ağırlık merkezi değişir, kumanda kolları farklı işlev kazanır ve yükü kavrama biçimi yeni bir teknik gerektirir. Uygulanması gereken minimum, ataşman tanıtımı ve gözlemli ilk çalışma seansıdır; kapasite düşüşü operatöre rakamla anlatılmalı ve yeni yük diyagramı kabinde bulunmalıdır. Klempli işlerde basınç ayarının ürüne göre değiştiği tesislerde ayar tablosu yazılı verilir. Ataşmanlı makine tesliminde bu brifingi biz veriyoruz; ataşman sonradan değişirse tekrarlanması gerektiğini hatırlatırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Operatör belge zorunluluğu ve iş ekipmanlarının periyodik kontrolü Türkiye mevzuatına dayanır; davranış temelli gözlem, yakın ıskalama bildirimi ve yetkinlik matrisi sektör standardı İSG pratikleridir; alıştırma programı firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
+    },
+
+    "bolge:izmir-kemalpasa-osb-cevre-ili": {
+        h1: "Kemalpaşa OSB'de Forklift Operasyonu: Lojistik Depolarında Çevrim Süresi Yönetimi",
+        giris:
+            "Kemalpaşa, İzmir'in üretim ve lojistik yoğunluğunun en belirgin toplandığı bölgelerden biridir ve buradaki büyük depolar, forklift operasyonunu üretim tesislerinden farklı bir mantıkla çalıştırır: üretimde makine hattı besler, depoda ise makine siparişi besler. Ölçü birimi paletten çok çevrim süresidir — mal kabulde aracın boşalması, adresine yerleşmesi, sipariş anında toplanması ve sevkiyat kapısından çıkması arasındaki toplam süre. Bu zincirde forklift, deponun en pahalı hareketli kaynağıdır ve boşta geçen her dakikası doğrudan maliyettir. Depo operasyonunun zorluğu da buradan gelir: iş yükü gün içinde eşit dağılmaz, mal kabul sabaha, sevkiyat akşama yığılır ve aynı filo iki tepeyi de karşılamak zorundadır. Bu sayfa, lojistik depolarında forklift operasyonunu çevrim süresi gözüyle ele alır: kapı ve rampa planlaması, mal kabulden adrese geçiş, raf disiplini, dalga bazlı toplama düzeni ve filo kapasitesinin gerçek veriyle boyutlanması.",
+        maddeler: [
+            {
+                baslik: "Kapı planlaması: rampa sayısı değil, kapının doluluk dağılımı belirleyicidir",
+                metin:
+                    "Depoların çoğunda rampa kapıları gün içinde eşit kullanılmaz; sabah mal kabul kapıları tıkanırken sevkiyat kapıları boş bekler, akşam tersi olur. Forklift filosu bu dalgayı takip etmek zorunda kaldığı için sürekli yer değiştirir ve boş dolaşım artar. Etkili düzenleme, kapı randevularını dalgayı yumuşatacak biçimde dağıtmak ve kapıları esnek tanımlamaktır — sabit 'mal kabul kapısı' yerine saate göre rol değiştiren kapılar, aynı fiziksel altyapıdan daha fazla çevrim çıkarır. Randevu sistemi olmayan depolarda ilk adım, tedarikçi ve nakliyecilerle gelişleri saat aralıklarına bağlamaktır; bu tek düzenleme, filo eklemeden bekleme sürelerini düşürür.",
+            },
+            {
+                baslik: "Mal kabulden adrese: iki aşamalı yerleştirmenin gizli maliyeti",
+                metin:
+                    "Yoğun mal kabulde yaygın pratik, aracı hızla boşaltıp paletleri kabul alanına yığmak ve adrese yerleştirmeyi sonraya bırakmaktır. Bu, aracı erken serbest bırakır ama her paleti iki kez taşıtır — forklift saatinin en sessiz israfı budur. Alternatif, doğrudan yerleştirmedir: paletin adresi kabul sırasında belli olur ve makine, boşalttığı paleti aynı hareketle adresine götürür. Doğrudan yerleştirmenin ön şartı, adres planının önceden hazır olması ve kabul kayıtlarının araç kapıya yanaşmadan girilmiş olmasıdır. Her palet için iki aşamanın kaçınılmaz olduğu durumlar vardır (kalite kontrol bekleyen mallar gibi); önemli olan bunun istisna olması, varsayılan yöntem olmamasıdır.",
+            },
+            {
+                baslik: "Raf disiplini: bozulan tek adres, bütün toplama planını yavaşlatır",
+                metin:
+                    "Depoda forklift verimini sessizce düşüren şey, adres düzeninin küçük ihlalleridir: paletin komşu göze taşması, koridora bırakılan geçici palet, etiketi okunmayan raf gözü, yanlış adrese konmuş ve kayda geçmemiş palet. Her biri tek başına küçüktür ama toplama sırasında makinenin durup aramasına, sormasına, geri dönmesine yol açar. Düzeni koruyan iki uygulama vardır: koridora palet bırakmanın istisnasız yasaklanması ve günlük kısa bir düzen turu — vardiya sonunda taşan, kayan, yanlış duran paletlerin düzeltilmesi. Bu tur on beş dakikadır ve ertesi günün toplama süresinden fazlasını geri kazandırır.",
+            },
+            {
+                baslik: "Dalga bazlı toplama: sipariş sırasına değil, depo coğrafyasına göre çalışmak",
+                metin:
+                    "Siparişler geldikleri sırayla tek tek toplandığında forklift aynı koridora gün boyu tekrar tekrar girer. Dalga mantığı bunu tersine çevirir: belirli bir zaman diliminin siparişleri birleştirilir, ortak koridorlar tek geçişte taranır ve toplanan paletler sevkiyat alanında siparişlerine ayrılır. Kazanç mesafededir ve büyük depolarda belirgindir. Dalga büyüklüğü, sevkiyat alanının ayrıştırma kapasitesiyle sınırlıdır — çok büyük dalga, ayrıştırmada karışıklık üretir. Uygulamanın ön şartı yine adres doğruluğudur; yanlış adres, dalga içinde çözülmesi en pahalı hatadır çünkü tek bir eksik satır bütün dalganın kapanmasını geciktirir.",
+            },
+            {
+                baslik: "Filo kapasitesini veriyle boyutlamak: makine sayısı bir tahmin işi değildir",
+                metin:
+                    "Depoda kaç forklift gerektiği sorusu, günlük palet hareketi sayısı ve ortalama çevrim süresiyle hesaplanır: günde kaç yerleştirme, kaç toplama, kaç yükleme hareketi yapılıyor, bir hareket ortalama kaç dakika sürüyor ve makine başına kaç etkin çalışma saati var. Bu üç veriyle bulunan sayı, tepe saatlerin payıyla düzeltilir. Hesabı yapmayan depolarda iki yanlış birden görülür — sakin saatlerde atıl duran makineler ve tepe saatlerde yetişememe. Doğru cevap genelde filoyu büyütmek değil, iş yükünü güne yaymaktır; yayma imkânı bittiğinde ise ek makine kısa dönem kiralamayla denenip veriyle doğrulanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo forklift operasyonunun çevrim süresi bileşenleri",
+                paragraflar: [
+                    "Aşağıdaki tablo, deponun temel forklift hareketlerini, süreyi belirleyen ana etkeni ve iyileştirmenin ilk adresini gösterir; süre kısaltma çalışmalarına en yüksek hacimli hareketten başlanır.",
+                ],
+                tablo: {
+                    basliklar: ["Hareket", "Süreyi belirleyen etken", "İlk iyileştirme"],
+                    satirlar: [
+                        ["Araç boşaltma", "Kapı doluluğu ve palet erişilebilirliği", "Randevu dağıtımı"],
+                        ["Yerleştirme", "Kabul alanı ile adres arası mesafe", "Doğrudan yerleştirmeye geçiş"],
+                        ["Toplama", "Adresler arası dolaşım mesafesi", "Dalga ve depo sırasına göre liste"],
+                        ["Sevkiyat hazırlığı", "Ön dizim yapılıp yapılmadığı", "Bir önceki vardiyada hazırlık"],
+                        ["Araç yükleme", "Ön dizim ve doğrulama düzeni", "Palet bazlı liste ve karşı sayım"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yüksek raflı depoda makine görev ayrımı",
+                paragraflar: [
+                    "Yüksek raflı ve dar koridorlu depolarda tek tip makineyle bütün işleri yürütmek, hem verimi hem güvenliği zorlar: koridorda çalışan makinenin rampaya çıkması, rampa makinesinin koridora girmesi ikisinin de tasarlandığı işten uzaklaşmasıdır. Verimli düzen görev ayrımıdır — koridor içi istif ve toplama kendi makinelerine, rampa ve kabul alanı işleri kendi makinelerine bırakılır ve ikisi arasında tanımlı bir aktarma noktası bulunur. Bu ayrım, koridor içi trafiği de sadeleştirir; koridora giren makine sayısı azaldıkça raf hasarı riski düşer.",
+                    "Raf hasarı ayrı bir takip başlığıdır: her temas kayda geçmeli, hasarlı raf gözü boşaltılıp değerlendirilmelidir. Görülmeyen raf hasarı, yıllar sonra ağır sonuçlu göçmelerin arkasındaki en yaygın nedendir ve kayıt kültürü olmayan depolarda birikerek ilerler.",
+                ],
+            },
+            {
+                baslik: "Kiralık filoyla depo operasyonu: esneklik, kampanya dönemlerinde kazanır",
+                paragraflar: [
+                    "Lojistik depolarının iş hacmi müşteri portföyüne bağlı olarak yıl içinde belirgin dalgalanır; yeni bir müşteri kazanıldığında hacim bir anda artar, sözleşme bittiğinde düşer. Bu belirsizlik, filoyu tümüyle satın alarak yönetmeyi zorlaştırır — sabit filo, hacim düştüğünde maliyet olarak kalır. Kiralamanın buradaki değeri, filo boyutunu sözleşme takvimiyle hizalayabilmektir: taban hacim uzun dönem sözleşmede tutulur, yeni müşteri veya kampanya dönemleri kısa dönem ek makineyle karşılanır.",
+                    "Operasyon tarafında dikkat edilecek nokta devreye alma hızıdır: ek makine geldiği gün üretken olmalıdır. Bunun için rota ataması, operatör eşleşmesi ve şarj altyapısı önceden hazırlanır; hacim artışı planlıysa makine, artıştan birkaç gün önce sahaya alınıp devreye sokulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzda forkliftler sürekli meşgul ama çevrim süreleri iyileşmiyor; nereden başlamalıyız?",
+                cevap:
+                    "Meşguliyet ile verim aynı şey değildir — makineler dolu çalışıyor olabilir ama hareketlerin bir kısmı gereksiz olabilir. Başlangıç için iki ölçüm yeterlidir: yüklü hareket oranı (yüklü mesafenin toplam mesafeye oranı) ve palet başına ortalama taşıma sayısı. İkinci ölçüm çoğu depoda çarpıcı çıkar; paletlerin iki hatta üç kez taşındığı görülür ve neden bellidir — mal kabulde yığma, geçici alanlar, yanlış adres düzeltmeleri. İyileştirme sırası da buradan çıkar: doğrudan yerleştirmeye geçmek, geçici alanları kaldırmak ve adres doğruluğunu yükseltmek. Bu üç adım genelde filoyu büyütmeden çevrim süresini kısaltır; sonrasında kalan darboğaz gerçekten kapasite ise veriyle net görünür.",
+            },
+            {
+                soru: "Sabah mal kabul, akşam sevkiyat yığılıyor; aynı filoyla iki tepeyi nasıl karşılarız?",
+                cevap:
+                    "Önce tepeleri düzleştirmeye çalışın, sonra filoyu konuşun. Düzleştirmenin en güçlü aracı randevudur: tedarikçi araçları güne yayıldığında sabah tepesi belirgin iner ve bunu uygulamak çoğu zaman sadece iletişim işidir. İkinci araç kaydırmadır — sevkiyat hazırlığının (ön dizim, etiketleme, kontrol) bir önceki vardiyada veya öğle saatlerinde yapılması akşam yükünü hafifletir. Üçüncüsü esnek kapı ve görev tanımıdır: kapıların saate göre rol değiştirmesi ve operatörlerin hem kabul hem sevkiyat işine yetkili olması, filoyu tepenin olduğu yere kaydırmayı mümkün kılar. Bu üçünden sonra kalan tepe gerçek kapasite açığıdır ve tarihli kısa dönem ek makineyle karşılanması en ekonomik yoldur.",
+            },
+            {
+                soru: "Raflarımızda ara sıra çarpma oluyor ama ciddi görünmüyor; ne yapmalıyız?",
+                cevap:
+                    "Görünürde küçük olan raf temasları, depo güvenliğinin en yanıltıcı konusudur: raf ayağındaki bir ezilme veya eğilme, taşıma kapasitesini düşürür ve hasar birikimli ilerler; sonuç, yıllar sonra beklenmedik bir göçme olabilir. Kurulması gereken düzen üç adımlıdır. Her temas, küçük görünse de kayda geçer ve amire bildirilir; bildirim cezalandırılmaz, yoksa hiç bildirilmez. Hasarlı göz derhal boşaltılır ve yetkin bir değerlendirme yapılana kadar kullanılmaz. Belirli noktalarda tekrarlayan temaslar için fiziksel önlem alınır — ayak koruma, koridor girişi yönlendirme, aydınlatma iyileştirmesi. Ayrıca raf sisteminin periyodik uzman kontrolü, deponun İSG takvimine sabit bir kalem olarak yazılmalıdır.",
+            },
+            {
+                soru: "Toplama listelerimiz sipariş sırasına göre çıkıyor; depo sırasına çevirmek gerçekten fark yaratır mı?",
+                cevap:
+                    "Büyük depolarda fark belirgindir çünkü kaybın kaynağı manevra değil dolaşımdır: sipariş sırasına göre toplanan liste, forklifti aynı koridora defalarca sokar ve kat edilen mesafenin önemli bölümü boşa gider. Liste depo yerleşimine göre sıralandığında koridorlar tek geçişte taranır. Ölçmek için basit bir deney yeterlidir — bir gün aynı hacimdeki siparişleri iki yöntemle toplayıp süreleri karşılaştırın. Yazılım kullanıyorsanız sıralama genelde bir ayardır; kullanmıyorsanız listeleri elle depo sırasına dizmek de işi görür. İkinci adım, hızlı devreden ürünlerin sevkiyat kapısına yakın adreslere alınmasıdır; ikisi birlikte uygulandığında aynı filoyla toplanan sipariş sayısı gözle görülür artar.",
+            },
+            {
+                soru: "Yeni bir müşteri aldık, hacmimiz iki ay içinde artacak; filoyu nasıl planlamalıyız?",
+                cevap:
+                    "Hacim artışını hareket sayısına çevirerek başlayın: yeni müşterinin günlük kaç palet giriş, kaç toplama ve kaç sevkiyat hareketi getireceği tahmin edilir ve mevcut çevrim sürelerinizle çarpılarak ek makine-saat ihtiyacı bulunur. Bu hesap, ek makinenin gerekip gerekmediğini ve kaç adet olduğunu tahminden çıkarır. Planlamanın ikinci yarısı zamanlamadır — makine, hacim geldiği gün değil birkaç gün önce sahada olmalı ki rota ataması, operatör eşleşmesi ve şarj düzeni oturmuş olsun. Sözleşme tarafında ise başlangıçta kısa dönem, hacim kalıcılaştığında uzun döneme geçiş yapısı en esnek yoldur; müşteri sözleşmenizin süresiyle kiralama süresini hizalamak da riski dengeler. Hacim tahmininizi paylaşırsanız hesabı birlikte kurabiliriz.",
+            },
+            {
+                soru: "Aynı makinelerle hem dar koridorda hem rampada çalışıyoruz; ayırmak gerçekten gerekli mi?",
+                cevap:
+                    "Depo büyüdükçe gereklilik artar. Sebebi iki yönlüdür. Verim tarafında, koridor içi işten rampaya çağrılan makine hem yolu kaybeder hem toplama ritmini bozar; rampa dalgası bittiğinde koridora dönüş, yeniden ısınma süresi ister. Güvenlik tarafında, koridora giren makine sayısı arttıkça raf teması ve karşılaşma riski büyür; ayrıca rampa ve dış saha işlerinden gelen kir ve zemin farkı koridor içinde ek risk üretir. Küçük depolarda tek filoyla çalışmak makul olabilir; hacim büyüdüğünde görev ayrımı ve iki bölge arasında tanımlı bir aktarma noktası kurmak hem çevrim süresini kısaltır hem hasarı düşürür. Ayrımın maliyeti genelde sanıldığından düşüktür, çünkü ayrılan makineler kendi işlerinde daha yüksek doluluk oranıyla çalışır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kemalpaşa çevresindeki lojistik ve üretim yoğunluğu kamuya açık bilgidir; çevrim süresi bileşenleri, dalga bazlı toplama, doğrudan yerleştirme ve raf hasarı yönetimi sektör standardı depo operasyon pratikleridir; filo hesaplama yaklaşımı firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
+    },
+
+    "bolge:usak-osb-cevre-ili": {
+        h1: "Uşak OSB'de Forklift Operasyonu: Tekstil Balyası ve Bobin Elleçlemenin Günlük Disiplini",
+        giris:
+            "Uşak'ın sanayi kimliğinde tekstil ve iplik üretimi belirleyici bir yer tutar; battaniye ve iplik üretim geleneği, bölgedeki tesislerin elleçleme profiline doğrudan yansır. Bu profilin forklift operasyonuna getirdiği üç özel durum vardır. Birincisi yükün biçimidir: preslenmiş elyaf ve hurda tekstil balyaları, iplik bobin paletleri ve kumaş topları, standart kutu-palet dünyasından farklı davranır — kaygandır, yuvarlanır, silindiriktir ya da bağı gevşediğinde dağılır. İkincisi ortamdır: iplik ve elyaf işleyen sahalarda havada uçuşan lif ve toz, makinelerin soğutma ve elektrik aksamında birikir ve yangın riskiyle birlikte anılır. Üçüncüsü ise depo yoğunluğudur; hacimli ama görece hafif yükler, alanı ağırlıktan önce doldurur ve istif düzeni verimin merkezine oturur. Bu sayfa, tekstil ekosistemindeki forklift operasyonunu bu üç gerçek üzerinden ele alır: balya ve bobin elleçleme kuralları, klemp kullanımının günlük disiplini, lif-toz ortamında makine bakımı ve yangın önlemleri, hacimli yükte istif planlaması ve sevkiyat düzeni.",
+        maddeler: [
+            {
+                baslik: "Balya elleçleme: klemp bir kolaylık değil, kendi kuralları olan bir tekniktir",
+                metin:
+                    "Preslenmiş balya, çatalla taşınmaya uygun olmayan bir yüktür; balya klempi bu yüzden tekstil sahalarının standart donanımıdır. Klemp kullanımının günlük disiplini üç noktada toplanır. Kavrama basıncı yük tipine göre ayarlanır — düşük basınç balyayı kaydırır, yüksek basınç ambalajı ve balya bağını zorlar. Kavrama yüzeyinin balyanın orta hizasına gelmesi gerekir; alt veya üst kenardan kavranan balya taşıma sırasında döner. Ve klemp takılı makinenin taşıma kapasitesi, ataşmanın kendi ağırlığı ile yükü öne taşıması nedeniyle çatallı hâline göre düşüktür; operatör bu düşük değeri bilmeli ve kabinde güncel yük diyagramı bulunmalıdır.",
+            },
+            {
+                baslik: "Bobin ve top yükleri: yuvarlanan yükün rotası düz olur",
+                metin:
+                    "İplik bobini, kumaş topu ve rulo hâlindeki yüklerin ortak özelliği yuvarlanma eğilimidir; palet üzerinde dahi taşınsalar denge, kutu yüklerdeki kadar affedici değildir. Operasyon kuralları buna göre yazılır: rulo ve bobin yükleri düz ve kesintisiz rotalarda taşınır, eğimli geçişlerde yükün ekseni eğime dik değil paralel tutulur, palet üstü yükler bağlanmadan yola çıkarılmaz ve rulo klempi kullanılan işlerde kavrama, rulonun eksenine dik ve merkezli yapılır. Depoda rulo istifi yapılacaksa alt sıraya takoz konur; takozsuz istifin çözülmesi, sessiz ve hızlı gelişen bir yük düşmesi vakasıdır. Bu yüklerde hız sınırı, sahanın genel sınırının altında tutulur.",
+            },
+            {
+                baslik: "Lif ve toz ortamı: makine bakımı yangın önlemidir",
+                metin:
+                    "Elyaf ve iplik işlenen sahalarda havada dolaşan lif, forkliftin radyatör peteklerinde, motor bölmesinde ve elektrik aksamı çevresinde birikir. Bu birikimin iki sonucu vardır: soğutma verimi düşer ve makine ısınır; ısınan yüzeyle temas eden lif birikimi ise tutuşma riski taşır. Bu yüzden tekstil sahalarında forklift temizliği kozmetik bir iş değil güvenlik önlemidir — vardiya sonu basınçlı hava ile temizlik rutini kurulur, motor bölmesi düzenli açılıp kontrol edilir ve bakım aralıkları standart takvimden kısaltılır. Yangın tüpünün makine üzerinde bulunması ve operatörün kullanımını bilmesi de bu sahaların standardıdır; tesis yangın planında forklift rotaları ve şarj alanı ayrıca yer alır.",
+            },
+            {
+                baslik: "Hacimli hafif yükte istif planı: alan, tonajdan önce biter",
+                metin:
+                    "Tekstil yüklerinin çoğu hacimlidir ama görece hafiftir; bu, depo planlamasında alışılmış tonaj hesabını ikinci plana atar ve metreküp yönetimini öne çıkarır. Yükseğe istif etmek cazip görünür, ancak sınırı iki şey belirler: balya veya paletin kendi taşıma dayanımı ve istifin yanal kararlılığı. Yumuşak yükler üst üste bindiğinde alt sıralar sıkışır ve kule zamanla eğilir; bu eğilme fark edildiğinde istif hemen alçaltılmalıdır. Blok istif alanlarında koridor genişlikleri, yükün taşınırken kapladığı hacme göre değil, forkliftin klempli hâlde manevra ihtiyacına göre belirlenir — klemp takılı makine, çatallı makineden daha geniş yer ister ve bu ayrıntı planlamada sıkça atlanır.",
+            },
+            {
+                baslik: "Hammadde girişinden sevkiyata: iki uçlu trafiğin ayrılması",
+                metin:
+                    "Tekstil tesislerinde forklift trafiği iki uçludur: bir yanda hammadde balyalarının girişi ve üretime beslenmesi, diğer yanda mamul bobin veya top paletlerinin depolanıp sevk edilmesi. Bu iki akışın aynı koridorları ve aynı kapıları paylaşması, hem trafik hem temizlik açısından sorun üretir — hammadde tarafının tozu, mamul tarafına taşınır. Mümkün olan tesislerde iki akış fiziksel olarak ayrılır; ayrılamıyorsa zaman ayrımı uygulanır ve makinelerin görev ayrımı korunur. Ayrımın verim tarafındaki kazancı da vardır: her makine kendi yük tipine göre donanımlı kalır ve gün içinde ataşman değiştirmek zorunda kalınmaz, ki ataşman değişimi çoğu tesiste sanılandan uzun sürer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tekstil yük tiplerine göre elleçleme kuralları",
+                paragraflar: [
+                    "Aşağıdaki tablo, tekstil ekosisteminde sık karşılaşılan yük tiplerini, elleçleme donanımını ve operasyonun kritik kuralını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yük tipi", "Donanım", "Kritik operasyon kuralı"],
+                    satirlar: [
+                        ["Preslenmiş elyaf balyası", "Balya klempi", "Orta hizadan kavrama, basınç ayarı"],
+                        ["Hurda tekstil balyası", "Balya klempi", "Bağı gevşemiş balya taşınmaz"],
+                        ["İplik bobin paleti", "Çatal, gerekirse bağlama", "Düz rota, bağlanmadan taşınmaz"],
+                        ["Kumaş topu / rulo", "Rulo klempi", "Eksene dik ve merkezli kavrama"],
+                        ["Mamul koli paleti", "Çatal", "Palet altına tam giriş, ezme yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şarj alanı ve yangın: tekstil sahasında iki riskin kesişimi",
+                paragraflar: [
+                    "Akülü filo kullanan tekstil tesislerinde şarj alanının konumu, genel kuralların ötesinde bir önem taşır: kurşun-asit akü şarjında açığa çıkan hidrojen nedeniyle alanın havalandırılmış olması gerekir ve bu alan, lif-toz birikiminin yoğun olduğu bölümlerden uzak tutulmalıdır. Şarj alanı düzenli temizlenir, kablo ve konnektör yalıtımı kontrol edilir, alanda yanıcı malzeme ve tekstil atığı bulundurulmaz. Yangın söndürme ekipmanı alana yakın ve erişilir konumda olur.",
+                    "Aynı mantık makine üzerinde de işler: motor bölmesinde biriken lif, sıcak yüzeyle temas ettiğinde risk üretir ve bu birikim gözle görülmeden hızlı oluşur. Vardiya sonu temizliğin denetlenmesi, tekstil sahasında İSG turunun sabit maddelerinden biri olmalıdır.",
+                ],
+            },
+            {
+                baslik: "Üretim beslemesinin ritmi: makine değişimi ve parti geçişleri",
+                paragraflar: [
+                    "İplik ve dokuma tesislerinde üretim, parti bazlı akar ve parti geçişleri forklift operasyonunun en yoğun anlarıdır: biten partinin mamulü çekilir, yeni partinin hammaddesi getirilir ve bu iki hareket kısa bir pencerede üst üste biner. Planlanmadığında pencere uzar ve makineler bekler. Etkili yöntem, parti geçiş saatlerinin üretim planından önceden alınması ve forklift görevlendirmesinin bu saatlere göre yapılmasıdır; geçiş öncesi hammadde, hat kenarı tampon alanına önceden taşınırsa pencere belirgin kısalır.",
+                    "Bu planlamanın yan faydası trafiğin dengelenmesidir: geçiş anlarında bütün makinelerin aynı bölgeye yığılması yerine görevler sıraya konur ve koridorlarda karşılaşma azalır. Üretim planlama ile forklift planlamasının aynı masada yapılması, tekstil tesislerinde en hızlı geri dönüş veren düzenlemelerden biridir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Balya taşırken ara sıra balya klempten kayıyor; basıncı artırmak doğru çözüm mü?",
+                cevap:
+                    "Basıncı körlemesine artırmak, kaymayı azaltırken ambalajı ve balya bağını zorlayarak başka bir sorun üretir. Önce kaymanın nedenini ayrıştırın: kavrama balyanın orta hizasından mı yapılıyor, yoksa kenardan mı — kenardan kavranan balya taşımada döner ve kayar. Balya yüzeyi kaygan bir ambalajla mı sarılı, klemp pedleri aşınmış mı, basınç ayarı yük tipine göre mi yapılmış? Bu dört kontrol çoğu vakayı çözer. Ayrıca taşıma tekniği de etkendir: ani hızlanma, sert fren ve dönüşte hız, kavrama ne kadar iyi olursa olsun kaymayı davet eder. Klemp pedlerinin durumunu bakım kontrolüne sabit madde olarak ekleyin; aşınmış ped, tekstil sahalarında en sık gözden kaçan kalemdir.",
+            },
+            {
+                soru: "Makinelerimizin radyatörüne lif doluyor ve sık ısınıyorlar; ne yapmalıyız?",
+                cevap:
+                    "Bu, tekstil sahalarının klasik sorunudur ve çözümü rutinde: vardiya sonu basınçlı hava ile radyatör ve motor bölmesi temizliği, düzenli aralıklarla bölmenin açılıp kontrolü ve bakım aralıklarının standart takvimden kısaltılması. Rutin kurulduğunda ısınma vakaları belirgin azalır. İkinci katman makinenin konumlandırılmasıdır — mümkünse en yoğun lif üreten bölümlerde çalışan makineler belirlenip temizlik sıklığı onlarda artırılır. Üçüncü ve en önemli katman ise güvenliktir: sıcak yüzeyle temas eden lif birikimi tutuşma riski taşır, dolayısıyla bu temizlik konfor değil yangın önlemidir. Kiralık filoda temizlik rutininin kimde olduğu teslimatta yazılı belirlenir; tozlu-lifli sahalarda bakım planını baştan sıklaştırarak kurgularız.",
+            },
+            {
+                soru: "Balyaları yüksek istifliyoruz ve zamanla kuleler eğiliyor; sınırı nasıl belirleyeceğiz?",
+                cevap:
+                    "Sınırı iki etken belirler: balyanın kendi taşıma dayanımı ve istifin yanal kararlılığı. Yumuşak preslenmiş yükler üst üste bindiğinde alt sıralar sıkışır, yükseklik zamanla değişir ve kule eğilmeye başlar; eğilme fark edildiğinde istif derhal alçaltılmalıdır, çünkü eğilmiş kule kendiliğinden düzelmez. Pratik yöntem, kabul edilebilir azami sıra sayısını yük tipine göre yazılı belirlemek, istif alanlarını işaretlemek ve haftalık bir düzen turunda kuleleri gözle kontrol etmektir. Zemin düzgünlüğü de hesaba girer — hafif eğimli zeminde aynı yükseklik güvenli değildir. Alan sıkışıklığı sizi yüksek istife zorluyorsa çözüm istifi zorlamak değil, blok düzenini ve koridor genişliklerini yeniden planlamaktır.",
+            },
+            {
+                soru: "Klempli makineyle koridorlarımızda manevra zorlaşıyor; koridorları mı genişletmeliyiz?",
+                cevap:
+                    "Genişletme son çaredir; önce iki şeyi kontrol edin. Birincisi, klempli makinenin manevra ihtiyacı çatallı hâlinden fazladır ve koridor planı çoğu tesiste çatallı ölçüye göre yapılmıştır — yani sorun koridorda değil, planın hangi konfigürasyona göre yapıldığındadır. İkincisi görev dağılımıdır: klempli makinenin dar koridorlara girmesi zorunlu mu, yoksa koridor işleri çatallı bir makineye devredilip klempli makine blok istif ve sevkiyat alanında mı tutulabilir? Görev ayrımı çoğu tesiste genişletmeye gerek bırakmaz. Üçüncü seçenek yerleşim değişikliğidir — klempli iş gerektiren yüklerin geniş alanlı bölgeye toplanması. Saha krokinizle bakalım; bu üç seçenekten hangisinin sizde uygulanabilir olduğu yerinde netleşir.",
+            },
+            {
+                soru: "Parti geçişlerinde forkliftler yetişemiyor ve üretim bekliyor; ek makine mi almalıyız?",
+                cevap:
+                    "Ek makine kararından önce zamanlamayı düzeltmeyi deneyin, çünkü parti geçişi kısa bir pencerede iki işi birden dayatır: biten partinin mamulünü çekmek ve yeni partinin hammaddesini getirmek. Bu iki iş aynı dakikaya sıkıştığında filo yetişemez. Çözüm hazırlıktır — yeni partinin hammaddesi geçiş saatinden önce hat kenarı tampon alanına taşınır, mamul çekme işi geçişten sonraya planlanır ve görevler makineler arasında önceden dağıtılır. Üretim planından parti geçiş saatlerini almak bu planlamanın ön şartıdır. Bu düzenlemeden sonra hâlâ bekleme varsa gerçek bir kapasite açığı vardır ve o zaman kısa dönem ek makineyle test edip veriyle karar vermek en sağlıklı yoldur.",
+            },
+            {
+                soru: "Hammadde ve mamul akışımız aynı koridorları kullanıyor; ayırmanın maliyeti buna değer mi?",
+                cevap:
+                    "Çoğu tesiste değer, çünkü kazanç üç kalemden gelir. Temizlik tarafında hammadde balyalarının tozu mamul bölgesine taşınmaz; tekstilde mamul kirlenmesi doğrudan kalite sorunudur ve tek bir parti kaybı, düzenlemenin maliyetini aşabilir. Trafik tarafında iki akışın ayrılması karşılaşmaları ve bekleme sürelerini düşürür. Donanım tarafında ise her makine kendi yük tipine uygun ataşmanla kalır ve gün içinde ataşman değiştirme kaybı ortadan kalkar — bu kayıp çoğu tesiste hafife alınır ama toplandığında belirgindir. Fiziksel ayrım mümkün değilse zaman ayrımı ve görev ayrımı ile kazancın önemli bölümü yine elde edilir. Mevcut yerleşiminizi ve akış hacminizi paylaşın; hangi ayrım biçiminin sizde uygulanabilir olduğunu birlikte çıkaralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Uşak sanayisinin tekstil ve iplik geleneği kamuya açık bilgidir; balya-rulo klemp kullanımı, lif birikimi kaynaklı ısınma-yangın riski ve şarj alanı havalandırma kuralları sektör standardıdır; parti geçişi planlaması ve akış ayrımı yaklaşımı firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
     },
 };

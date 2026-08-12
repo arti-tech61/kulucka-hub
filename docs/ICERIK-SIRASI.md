@@ -134,7 +134,7 @@
 | `istanbuldaplatform.com` | **7/7** | 0 | 0 | ✅ TAMAM — kurumsal proje yönetimi açısı |
 | `platformmanisa.com` | **9/9** | 0 | 0 | ✅ TAMAM — Manisa yerelli bakım operasyonu |
 | `manisaforklift.com` | 4/8 | 0 | 0 | 🟡 devam — forklift operasyon mükemmelliği |
-| `konyaplatform.net` | 7/10 | 0 | 0 | 🟡 devam — ağır hizmet/Konya yerelli |
+| `konyaplatform.net` | **10/10** | 0 | 0 | ✅ TAMAM — ağır hizmet/Konya yerelli |
 | `istanbulplatformkiralama.net` | **8/8** | 0 | 0 | ✅ TAMAM — tersane açısı (paralel ajan) |
 | `bursamanlift.net` | **9/9** | 0 | 0 | ✅ TAMAM — cephe-çatı açısı, ilk Bursa (paralel ajan) |
 | `bursamanliftkiralama.net` | **10/10** | 0 | 0 | ✅ TAMAM — uzun dönem sözleşme açısı (paralel ajan) |
