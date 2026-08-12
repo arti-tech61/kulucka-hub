@@ -508,4 +508,399 @@ export const IZMIR_MANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Bergama'nın İzmir'e uzaklığı, gıda kampanya ritmi ve tekstil/maden profili kamuya açık bilgidir; acil protokol ve konaklama modelleri firma pratiğidir.",
     },
+
+    "bolge:menemen-deri-osb": {
+        h1: "Menemen Deri OSB'de Üretim Durmadan Platform Kiralama",
+        giris:
+            "Deri işleme, duraksamayı sevmeyen bir prosestir: tabaklama tamburları başladığı işi bitirmek zorundadır, kurutma katlarındaki deri askıda beklemez ve finisaj hattı sipariş terminine kilitlenmiştir. Menemen Deri OSB'deki tesislerde platform işi planlarken bu ritmin içine yerleşmek gerekir — tambur döngüsünün ortasında o holde çalışılmaz, ama aynı saatlerde kurutma katı boş olabilir. İhtisas OSB'nin avantajı, bu ritmi bir kez öğrenince her tesiste benzer şekilde uygulanabilmesidir. Kesintisiz üretim odaklı düzenimiz burada proses-senkron çalışma hâlini alır: iş listesi, tesisin proses haritasına oturtulur ve makine, o an boş olan bölümde çalışarak tesisi hiç durdurmadan listeyi bitirir.",
+        maddeler: [
+            {
+                baslik: "Proses-senkron iş planı",
+                metin:
+                    "Deri tesisinin bölümleri aynı anda değil sırayla yoğundur: ıslak bölüm tamburları döngüdeyken kuru bölüm sakin, finisaj sevkiyata çalışırken kurutma katları boş olabilir. Platform işlerini bu ritme senkronlamak — her bölümün işini o bölümün sakin saatine yerleştirmek — tesisi hiç durdurmadan tüm listeyi bitirmenin yoludur. Keşifte proses sorumlusuyla haftalık ritim haritası çıkarılır; iş listesi bu haritaya dağıtılır ve makine tesiste konaklayarak bölümden bölüme geçer.",
+            },
+            {
+                baslik: "Islak bölümde çalışmanın makine koşulu",
+                metin:
+                    "Tabaklama ve sulama bölümlerinde nem ve kimyasal buhar süreklidir; buraya giren platformun elektrik aksamı korumalı olmalı ve çıkışta temizlik-kurulama prosedürü uygulanmalıdır. Islak bölüm işleri mümkünse tamburların durduğu bakım penceresine alınır — hem ortam yükü azalır hem tambur üstü noktalara güvenli erişim açılır. Zemin bu bölümlerde süreklidir ıslaktır: hız sınırı ve geniş dönüş kuralıyla çalışılır, acele ettirilmez.",
+            },
+            {
+                baslik: "Kurutma katlarında dar alan erişimi",
+                metin:
+                    "Asma katlı kurutma alanları alçak ve doludur: askı sistemleri, ray hatları ve hava kanalları hacmi böler. Buradaki işler (askı rayı onarımı, kanal bakımı, aydınlatma) mikro ve dar şase makaslı sınıfla yapılır; kat taşıma kapasitesi ile makine ağırlığının karşılaştırılması her işten önce zorunludur. Kurutma katının boş olduğu pencere proses ritminden okunur — deri askıya alınmadan önceki saatler bu katın doğal çalışma penceresidir.",
+            },
+            {
+                baslik: "Finisaj ve sevkiyat bölümünde hassas dönem",
+                metin:
+                    "Finisaj hattı ve sevkiyat alanı, sipariş terminlerine kilitli çalışır; buradaki platform işleri termin haftalarından uzağa planlanır. Hat üstü noktalara eklemli erişim gerekebilir — finisaj makineleri taşınmaz ve hedefin altı doludur. Sevkiyat alanındaki raf ve kapı üstü işler, yükleme saatlerinin dışındaki bloklara alınır; bu alanlarda forklift trafiği yoğundur ve güzergâh koordinasyonu şarttır.",
+            },
+            {
+                baslik: "Ortak altyapıda OSB ritmiyle çalışma",
+                metin:
+                    "İhtisas OSB'nin arıtma tesisi ve ortak altyapısı da kendi ritmine sahiptir: arıtma yükü tesislerin deşarj saatlerini izler ve bakım işleri düşük yük saatlerine planlanır. Havuz üstü, boru köprüsü ve aydınlatma işlerinde OSB yönetiminin izin sistemi ve gaz ölçüm prosedürü uygulanır. Bu işleri tesis içi işlerle aynı konaklama dönemine denk getirmek — makine bir kez gelir, hem tesisin hem OSB'nin listesi biter — bölgede en verimli modeldir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Deri tesisinde bölüm-pencere haritası",
+                paragraflar: [
+                    "Aşağıdaki harita, proses-senkron planın temelidir: her bölümün doğal çalışma penceresi ve makine gereksinimi farklıdır. Tesisin kendi ritmi keşifte bu şablona oturtulur.",
+                ],
+                tablo: {
+                    basliklar: ["Bölüm", "Doğal pencere", "Ortam koşulu", "Makine"],
+                    satirlar: [
+                        ["Islak bölüm (tambur, sulama)", "Tambur bakım duruşu", "Nem + kimyasal, ıslak zemin", "Korumalı akülü makaslı"],
+                        ["Kurutma katları", "Askı öncesi saatler", "Alçak-dar hacim, kat kapasitesi", "Mikro / dar şase makaslı"],
+                        ["Finisaj hattı", "Termin haftaları dışı", "Hat üstü erişim", "Kompakt eklemli"],
+                        ["Sevkiyat / depo", "Yükleme saatleri dışı", "Forklift trafiği", "Akülü makaslı 10 – 12 m"],
+                        ["OSB ortak altyapı", "Düşük deşarj saatleri", "İzin + gaz ölçümü", "Duruma göre akülü / dizel"],
+                    ],
+                },
+            },
+            {
+                baslik: "Konaklamalı bölüm turu modeli",
+                paragraflar: [
+                    "Proses-senkron planın doğal sonucu konaklamadır: makine tesise bir kez girer, her bölümün sakin penceresinde o bölümün işini yapar ve liste bitene kadar sahada kalır. Tek nakliye, sıfır üretim duruşu ve her bölüm için doğru pencere — deri tesislerinde bu model, bölüm başına ayrı kısa kiralamalar toplamından hem ucuz hem hızlıdır. Islak bölüm çıkışlarında ara temizlik prosedürü konaklama planına dahildir.",
+                    "Aynı model OSB ölçeğine genişler: komşu tesislerin listeleri aynı konaklama dönemine toplandığında makine tesisler arasında turlar ve nakliye tüm katılımcılara paylaştırılır. Sipariş dönemlerinin OSB genelinde benzeşmesi bu eşgüdümü kolaylaştırır — sakin haftalar çoğu tesiste çakışır.",
+                ],
+            },
+            {
+                baslik: "Kimyasal ortamda ekipman ve personel güvenliği",
+                paragraflar: [
+                    "Deri prosesinin kimyasal yükü, platform çalışmasına iki güvenlik katmanı ekler. Ekipman tarafında: korumalı elektrik aksamı, çıkış temizliği ve nemli ortam katsayılı bakım takvimi — bunlar bizim yükümlülüğümüzdür ve sözleşmede yazılıdır. Personel tarafında: bölüme uygun KKD (maske, gözlük, eldiven) ve kimyasal bölgelerdeki çalışma izinleri — bunlar işveren yükümlülüğüdür; operatörlü kiralamada operatörümüz tesisin KKD ve izin düzenine tabidir.",
+                    "Havalandırmanın zayıf olduğu noktalarda (kapalı tank çevresi, bodrum kotu) gaz ölçümü çalışma önkoşuludur. Bu noktaları keşifte işaretliyor ve iş planında ölçüm sorumlusunu netleştiriyoruz — 'kim ölçecek' sorusu sahada değil planda cevaplanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimizi hiç durdurmadan tüm bakım listesi bitirilebilir mi?",
+                cevap:
+                    "Deri tesisinde çoğunlukla evet — proses-senkron planla. Bölümleriniz aynı anda değil sırayla yoğun olduğu için her bölümün işi o bölümün sakin penceresine yerleştirilir: kurutma katı askı öncesi, ıslak bölüm tambur duruşunda, finisaj termin haftası dışında. Makine konaklar ve bölümden bölüme geçer; üretim hiçbir noktada durmaz. Keşifte proses sorumlunuzla haftalık ritim haritası çıkarıyoruz — plan bu haritanın üzerine kurulur.",
+            },
+            {
+                soru: "Tambur bölümündeki tavan işi için üretimi durdurmak şart mı?",
+                cevap:
+                    "Tamamen durdurmak değil, doğru döngü arasını beklemek gerekir. Tamburlar başladığı döngüyü bitirmek zorundadır; iş, döngü bitişiyle yeni yükleme arasındaki doğal boşluğa veya planlı tambur bakım duruşuna yerleştirilir. Bu pencerede hem ortam yükü (buhar, gürültü) azalır hem tambur üstü noktalara güvenli erişim açılır. Islak bölüme giren makine korumalı aksamlı gelir ve çıkışta temizlik prosedürü uygulanır — bu hazırlık sevkiyat öncesi yapıldığı için pencere kaçırılmaz.",
+            },
+            {
+                soru: "Kurutma katımızın tabanı makineyi taşır mı?",
+                cevap:
+                    "Hesapla cevaplanır — varsayımla değil. Asma katın taşıma kapasitesi (projesinden veya statik raporundan) makinenin toplam ağırlığıyla karşılaştırılır; mikro makaslı sınıf bu katlar için hem ölçü hem ağırlık olarak tasarlanmıştır ama kontrol yine de atlanmaz. Kapasite sınırdaysa yük dağıtıcı plaka kullanılır veya iş, kat altından eklemli erişimle çözülür. Kat kapasitesi bilgisini talepte paylaşın; makine seçimi bu rakamla başlar.",
+            },
+            {
+                soru: "Sipariş terminimiz yaklaşırken finisaj hattında iş çıktı; ne yapılır?",
+                cevap:
+                    "Termin haftasında finisaj hattına planlı iş sokmuyoruz — riskin sahibi belli olmayan bir gecikme, terminin kendisini tehdit eder. Zorunlu (üretimi engelleyen) işlerde akış şöyledir: iş, hattın günlük kapanış saatinden sonraki bloğa alınır, makine önceden sahaya konumlanır ve sabah vardiyasından önce bitirilir. Ertelenebilir işler termin sonrasına yazılır. Bu ayrımı proses sorumlunuzla birlikte yapıyoruz — 'zorunlu mu, ertelenebilir mi' kararı teknik değil üretim kararıdır.",
+            },
+            {
+                soru: "OSB arıtma tesisindeki iş ile tesis içi işlerimizi birleştirebilir miyiz?",
+                cevap:
+                    "Evet — aynı konaklama dönemine toplanır: makine bir kez gelir, tesis içi liste proses pencerelerinde, arıtma işleri düşük deşarj saatlerinde yapılır ve nakliye teke iner. Arıtma tarafında OSB yönetiminin izin sistemi ve gaz riski olan noktalarda ölçüm prosedürü geçerlidir; bu süreci konaklama planıyla birlikte başlatıyoruz. OSB ölçeğinde komşu tesislerin de katıldığı turlu model kurulabilir — ihtisas OSB'nin benzer ritmi bu eşgüdümü kolaylaştırır.",
+            },
+            {
+                soru: "Nemli ortamda makinenin arızalanması üretimimizi aksatır mı?",
+                cevap:
+                    "Aksatmaması için üç önlem sözleşmede yer alır: nemli ortam katsayısıyla sıklaştırılmış periyodik bakım (arıza olasılığını düşürür), saatle tanımlı arıza müdahale taahhüdü ve gerektiğinde ikame makine sevkiyatı. Islak bölüm bilgisi baştan verildiyse doğru korumalı model gelir ve arıza riski zaten düşüktür. Konaklamalı işlerde bakım sahada takvimli yapılır — makine proses pencerenizi bakım için kaçırmaz, bakım da sizin sakin saatinize denk getirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Deri prosesinin bölüm ritmi (tambur döngüsü, kurutma, finisaj) sektör bilgisidir; proses-senkron plan ve konaklama modeli firma pratiğidir.",
+    },
+
+    "bolge:tire-osb": {
+        h1: "Tire OSB'de Üretim Durmadan Platform Kiralama",
+        giris:
+            "Süt işleyen bir tesiste 'üretimi durdurmak' diye bir seçenek çoğu zaman yoktur: çiğ süt her sabah gelir, proses o gün başlamak zorundadır ve soğuk zincir saat toleransı tanımaz. Tire OSB'nin süt ürünleri ağırlıklı dokusunda platform işleri bu gerçeğin etrafında planlanır — tesisi durdurmak yerine tesisin kendi doğal boşluklarını kullanmak. Süt prosesinin şansı, bu boşlukların her gün düzenli tekrarlamasıdır: CIP yıkama blokları, proses arası sanitasyon pencereleri ve gece saatleri. Tekstil ve ambalaj tesislerinde ise klasik paralel çalışma düzeni işler. Bu sayfa, Tire'deki kesintisiz üretim ortamlarında hangi işin hangi boşluğa nasıl yerleştirildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "CIP penceresi: süt tesisinin doğal iş bloğu",
+                metin:
+                    "Süt prosesinin günlük CIP (yerinde yıkama) blokları, platform işleri için hazır pencerelerdir: hat kimyasal yıkamadayken üzerinde ürün yoktur ve o bölgenin tavan-tesisat işleri güvenle yapılabilir. CIP takvimi tesisin kendi ritmidir ve her gün tekrarlar — iş listesi bu bloklara bölünür, makine tesiste konaklar ve liste birkaç günde parça parça biter. Açık ürün bölgesi kuralı burada da geçerlidir: proses çalışırken o zonun üzerinde iş yapılmaz, CIP penceresi beklenir.",
+            },
+            {
+                baslik: "Soğuk zincir alanlarında blok çalışma",
+                metin:
+                    "Olgunlaştırma odaları, soğuk depolar ve sevkiyat öncesi soğuk alanlarda çalışma, soğuk zinciri bozmayacak bloklar hâlinde planlanır: kapı disiplini korunur, akü performansı düşük sıcaklık katsayısıyla hesaplanır ve makine molalarda ılık bölmeye alınır. Evaporatör bakımı bu alanların en kritik işidir — arızalı evaporatör ürün riski demektir ve bakımı ertelemek arızayı beklemekten pahalıdır. Evaporatör işlerini dönemsel takvime bağlayan tesislerde acil çağrı pratikte sıfırlanır.",
+            },
+            {
+                baslik: "Buhar ve kazan dairesi çevresinde iş",
+                metin:
+                    "Süt tesisinin buhar altyapısı süreklidir; kazan dairesi ve buhar hattı çevresindeki işlerde sıcak yüzey mesafesi korunur ve izolasyon işlerinde malzeme taşıma planı yapılır. Bu alanlar üretimden bağımsız çalışılabilen nadir bölgelerdir — proses saatinden etkilenmezler — ve iş listesinin 'her an yapılabilir' kalemi olarak plan boşluklarını doldururlar. Dar kazan dairelerinde dar şase modeller gerekir.",
+            },
+            {
+                baslik: "Tekstil ve ambalajda klasik paralel düzen",
+                metin:
+                    "OSB'nin tekstil ve ambalaj tesislerinde süt prosesinin kısıtları yoktur; bariyer + alet bağlama + güzergâh planı üçlüsüyle işlerin çoğu üretime paralel yürür. Elyaf uçuntusu temizliği (armatür, pano üstü) periyodik ihtiyaçtır ve çerçeve anlaşmayla akşam bloklarına takvimlenir. Hat üstü doğrudan müdahaleler vardiya düzenine göre gece veya hafta sonuna alınır — akülü makinenin sessizliği her iki pencerede de sorunsuzdur.",
+            },
+            {
+                baslik: "Denetim takvimiyle senkron hazırlık",
+                metin:
+                    "Süt ve gıda tesislerinin BRC/IFS ve müşteri denetimleri, platform ihtiyacının öngörülebilir zirvesidir: tavan temizliği, aydınlatma, sinek-kuş önleme ve boya-onarım işleri denetim öncesi 2-3 haftada yoğunlaşır. Bu işleri CIP pencereleri ve gece bloklarına dağıtan tek konaklamalı plan — makine gelir, denetim listesi parça parça biter, üretim hiç durmaz — Tire'de en sık kurduğumuz düzendir. Denetim kayıtlarına girecek makine evrakları hazır teslim edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Süt tesisinde pencere-iş eşleşmesi",
+                paragraflar: [
+                    "Sütün günlük ritmi, her iş tipine uygun pencereyi kendisi üretir. Aşağıdaki eşleşme, Tire'deki konaklamalı planların temelidir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Doğru pencere", "Koşul", "Makine"],
+                    satirlar: [
+                        ["Proses hattı üstü tavan/tesisat", "CIP yıkama bloğu", "Zon kapalı-temiz durumda", "Akülü makaslı, iz bırakmayan"],
+                        ["Evaporatör / soğuk oda", "Ürün rotasyon boşluğu", "Soğuk zincir blokları, akü planı", "Akülü makaslı 10 – 12 m"],
+                        ["Kazan dairesi / buhar hattı", "Her an (plan boşluğu doldurur)", "Sıcak yüzey mesafesi", "Dar şase makaslı"],
+                        ["Paketleme alanı", "Vardiya arası / gece", "Hijyen seti, alet sayımı", "Akülü makaslı"],
+                        ["Denetim hazırlığı (toplu)", "2-3 hafta önce, karma pencere", "Konaklamalı plan", "Akülü makaslı + gerekirse eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Evaporatör bakımını takvime bağlamak",
+                paragraflar: [
+                    "Soğuk alan evaporatörleri, süt tesisinin en riskli tekil noktasıdır: arıza doğrudan ürün kaybı demektir ve arıza anında yapılan müdahale, hem pahalı hem soğuk zincir açısından streslidir. Dönemsel bakım takvimi bu riski tersine çevirir — yılda iki-üç kez, ürün rotasyonunun en uygun boşluğunda planlı temizlik-kontrol yapılır ve acil çağrı ihtimali pratikte sıfırlanır. Çerçeve anlaşmayla kurulan bu takvim, her turda aynı düzeni (aynı pencere tipi, aynı makine sınıfı, aynı prosedür) tekrarladığı için tur süresi giderek kısalır.",
+                    "Aynı takvim mantığı elyaf temizliği (tekstil) ve armatür bakımı (tüm sektörler) için geçerlidir: periyodik işleri takvime bağlamak, hem acil iş stresini hem toplam maliyeti düşürür.",
+                ],
+            },
+            {
+                baslik: "Tire'de konaklama ve tur ekonomisi",
+                paragraflar: [
+                    "Tire OSB, Torbalı-Tire-Aydın sevkiyat eksenimizin üzerindedir ve teslimat standart 1-2 iş günüdür; ancak süt tesislerinin parçalı pencere yapısı (her gün birkaç saatlik bloklar) kısa kiralamayı verimsiz kılar — işin kendisi üç günlük olsa da pencerelere bölününce takvimde bir haftaya yayılır. Bu yüzden bölgedeki standart önerimiz konaklamalı pakettir: makine yayılan takvim boyunca sahada kalır, her pencereyi kullanır ve günlük birim maliyet kısa kiralamanın altına iner.",
+                    "Ödemiş-Bayındır hattındaki diğer tesislerle tur birleştirmesi de aynı ekonomiyi büyütür: bir tesisin CIP penceresi öğlen, diğerinin gece bloğuysa aynı makine ikisine de yetişebilir. Bu eşgüdüm, taleplerin tarih ve pencere bilgisiyle gelmesiyle kurulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Süt prosesimiz hiç durmuyor; tavan işleri nasıl yapılacak?",
+                cevap:
+                    "Prosesin kendi boşluklarıyla: günlük CIP yıkama bloklarında hat üzerinde ürün yoktur ve o zonun tavan-tesisat işleri güvenle yapılır; soğuk alanlar ürün rotasyonunun boşluklarında, kazan dairesi ise her an çalışılabilir. İş listesi bu pencerelere dağıtılır, makine konaklar ve liste parça parça biter — proses hiç durmaz. CIP takviminizi keşifte alıyoruz; plan doğrudan onun üzerine kurulur.",
+            },
+            {
+                soru: "Evaporatör bakımı için soğuk odayı boşaltmamız mı gerekiyor?",
+                cevap:
+                    "Çoğunlukla hayır — ürün rotasyonunun doğal boşluğu yeterlidir: oda dolu-boş döngüsünde en düşük doluluk anına denk gelen blokta çalışılır, kapı disiplini korunur ve soğuk zincir bozulmaz. Akü, düşük sıcaklık katsayısıyla planlanır ve makine molalarda ılık bölmeye alınır. Asıl önerimiz bakımı takvime bağlamaktır: yılda iki-üç planlı tur, arıza anı müdahalesinin hem riskinden hem maliyetinden kurtarır.",
+            },
+            {
+                soru: "Denetimimize üç hafta var; işler yetişir mi?",
+                cevap:
+                    "Yetişir — bugün başlanırsa. Denetim hazırlığı (tavan temizliği, aydınlatma, sinek-kuş önleme, boya-onarım) konaklamalı planla CIP pencereleri ve gece bloklarına dağıtılır; üretim durmaz ve liste 2-3 haftada parça parça biter. Son haftaya sıkışan hazırlık hem makine bulunabilirliği hem işçilik kalitesi riskidir. Denetim kayıtlarınıza girecek makine evraklarını (temizlik belgesi, periyodik kontrol, operatör belgeleri) dosya hâlinde teslim ediyoruz.",
+            },
+            {
+                soru: "CIP sırasında hat üzerinde çalışmak gerçekten güvenli mi?",
+                cevap:
+                    "Evet — çünkü CIP bloğunda zon, tanımı gereği kapalı-temiz durumdadır: hat üzerinde açık ürün yoktur, kimyasal devridaim kapalı boru içindedir ve bölge zaten üretim dışıdır. Güvenlik seti yine tam uygulanır: bariyer, alet bağlama, sarf sayımı ve iz bırakmayan lastik. Tek koşul zamanlamadır — iş bloğu CIP süresinin içine sığacak şekilde planlanır, yarım kalan iş bir sonraki CIP bloğuna devredilir. Kalite ekibiniz her bloğun açılış-kapanışını onaylar.",
+            },
+            {
+                soru: "Hem süt tesisimiz hem yan ambalaj birimimiz var; tek plan olur mu?",
+                cevap:
+                    "Olur ve idealdir: ambalaj biriminin işleri klasik paralel düzenle (bariyer + alet bağlama) gündüz yapılırken süt tarafının işleri CIP ve gece bloklarını kullanır — aynı makine iki birimin listesini tek konaklamada bitirir. Pencere çakışması yaşanmaz çünkü iki birimin doğal boşlukları farklı saatlerdedir. İki listeyi keşifte birleştirip tek takvim kuruyoruz; nakliye ve kiralama tek sözleşmede toplanır.",
+            },
+            {
+                soru: "Tire'ye düzenli periyodik bakım turu kurulabilir mi?",
+                cevap:
+                    "Kurulur — çerçeve anlaşmayla: evaporatör bakımı, elyaf temizliği ve armatür kontrolü gibi periyodik işler yıllık takvime bağlanır ve her tur planlı sevkiyatla gelir. Ödemiş-Bayındır hattındaki diğer tesislerin turlarıyla birleştirildiğinde nakliye paylaşılır ve çerçeve fiyatına yansır. Takvimli tur modelinin asıl kazancı acil çağrının sıfırlanmasıdır — planlı bakım yapılan tesiste 'acil evaporatör' araması pratikte gelmez oluyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Süt prosesinin CIP/soğuk zincir ritmi gıda sektörü standardıdır; pencere planlama ve konaklama modeli firma pratiğidir.",
+    },
+
+    "bolge:manisa-osb-cevre-ili": {
+        h1: "Manisa OSB'de Üretim Durmadan Platform Kiralama (Çevre İl)",
+        giris:
+            "Manisa OSB'nin küresel ölçekli üreticilerinde 'hat duruşu' kelimesi, dakika başına hesaplanan bir maliyet tablosuna karşılık gelir — beyaz eşya ve elektronik üretiminde takt süresi kutsaldır ve planlı bakım pencereleri aylar öncesinden takvimlidir. Bu ortamda platform kiralamanın işi, makine getirmekten çok o takvime kusursuz oturmaktır: doğru makine, doğru saatte, evrakı tamam ve yedeği planlanmış hâlde. İzmir merkezli filomuz Kemalpaşa üzerinden bu bölgeye komşudur; Sabuncubeli bağlantısı teslimatı İzmir doğu OSB'leriyle aynı banda koyar. Kesintisiz üretim odağımız burada iki biçim alır: hat çalışırken bariyerli paralel işler ve — bölgenin asıl talebi olan — planlı duruş haftalarında dakika hesabıyla yürüyen yoğun bakım operasyonları.",
+        maddeler: [
+            {
+                baslik: "Takt süresine saygı: paralel işin sınırı",
+                metin:
+                    "Seri üretim hattında paralel çalışmanın sınırını bariyer değil titreşim ve dikkat çizer: hassas montaj istasyonlarının üzerinde çalışmak, düşen alet riski sıfırlansa bile operatör dikkatini böler ve kalite sapması yaratabilir. Bu yüzden hat kenarı işler (aydınlatma, kablo tavası, sprinkler) paralel yapılırken istasyon üstü noktalar mola bloklarına veya vardiya değişimlerine alınır. Hangi noktanın hangi kategoride olduğu, hat sorumlusuyla keşifte işaretlenir — bu harita olmadan üretim alanına makine sokmuyoruz.",
+            },
+            {
+                baslik: "Planlı duruşta dakika hesabı",
+                metin:
+                    "Yıllık bakım duruşu, bölge tesislerinde saatlere bölünmüş bir operasyon planıdır ve platform işleri bu planın içinde kendi slotlarını alır: hangi makine hangi holde hangi saatte, hangi işi, hangi ekiple. Bizim katkımız slot disiplinidir — makine slotundan önce holde konumlanmış, operatör brifingi alınmış ve bir önceki işin gecikmesi durumunda B planı belirlenmiş olur. Duruş haftasında kaybedilen bir saat geri gelmez; bu yüzden duruş işlerinde makine sayısını sıkışık değil payl planlıyoruz.",
+            },
+            {
+                baslik: "ESD ve temiz alan disiplini",
+                metin:
+                    "Elektronik üretim alanlarında ESD (statik boşalma) kuralları platform çalışmasına da uygulanır: makinenin topraklama sürekliliği, operatörün ESD donanımı ve bazı alanlarda iletken lastik şartı. Temiz oda sınıfına yaklaşan alanlarda partikül kaygısı ek katman getirir — makine temizliği ve yavaş hareket protokolü. Bu şartlar tesisten tesise değişir; kalite ekibinizin şartnamesini talepte alıyor ve makine hazırlığını ona göre belgeliyoruz.",
+            },
+            {
+                baslik: "Yan sanayide ana üreticinin ritmi",
+                metin:
+                    "Manisa'daki yan sanayi tesisleri, ana üreticinin üretim ritmine kilitlidir: onun duruşu geldiğinde yan sanayi de durur ve tüm bölgenin bakım talebi aynı haftalara yığılır. Bu senkron, planlamayı hem zorlaştırır (aynı hafta herkese makine gerekir) hem kolaylaştırır (takvim aylar önce bellidir). Yan sanayi tesislerine önerimiz nettir: ana üreticinin duruş takvimi açıklandığı gün rezervasyonu bağlayın — o hafta bölgede makine bulmak, duruşun kendisinden zor olabilir.",
+            },
+            {
+                baslik: "Sabuncubeli hattında hızlı destek",
+                metin:
+                    "Kemalpaşa-Manisa bağlantısı, arıza ve ikame senaryolarında kritik avantajdır: İzmir doğu turlarımızla aynı eksende olduğu için ikame makine ve teknisyen desteği aynı gün ulaşır. Kesintisiz üretim ortamında bu süre, sözleşmede saatle taahhüt edilir. Uzun kiralamalarda periyodik bakım sahada yapılır; büyük tesislerin yüklenici sistemlerine (online kayıt, İSG oryantasyonu, araç bildirimi) evrak setimiz hazır formatta girer — ilk kayıt sonrası her kiralama telefon hızındadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manisa OSB'de iş kategorisi ve zamanlama haritası",
+                paragraflar: [
+                    "Bölge tesislerinde işleri dört kategoriye ayırıyoruz; her kategorinin zamanlaması ve makine düzeni farklıdır. Keşifte iş listesi bu haritaya oturtulur.",
+                ],
+                tablo: {
+                    basliklar: ["Kategori", "Zamanlama", "Düzen", "Not"],
+                    satirlar: [
+                        ["Hat kenarı (aydınlatma, tava)", "Üretime paralel", "Bariyer + alet bağlama", "Takt etkilenmez"],
+                        ["İstasyon üstü noktalar", "Mola / vardiya değişimi", "Kısa bloklar", "Dikkat bölme riski yönetilir"],
+                        ["ESD / temiz alan işleri", "Kalite şartnamesine göre", "Topraklama + iletken lastik", "Şartname talepte alınır"],
+                        ["Duruş haftası yoğun bakım", "Yıllık planlı duruş", "Slot disiplini, çoklu makine", "Rezervasyon aylar önce"],
+                    ],
+                },
+            },
+            {
+                baslik: "Duruş haftası operasyonu: slot planından B planına",
+                paragraflar: [
+                    "Duruş haftası işlerinde standart hazırlığımız üç katmandır. Birincisi slot planı: her makinenin saat saat programı, hol ve iş eşleşmesi duruştan önce kesinleşir. İkincisi hazır konum: makineler slotlarından önce holde konumlanır, operatör brifingleri tamamlanır — duruş saatleri makine taşıyarak harcanmaz. Üçüncüsü B planı: önceki işin sarkması, beklenmeyen ek iş veya makine arızası durumunda hangi slotun nasıl kayacağı önceden bellidir ve yedek makine rezervasyonu duruş paketine dahildir.",
+                    "Bu disiplin, duruş haftasını 'umarım yetişir' gerginliğinden 'plan işliyor' rutinine çevirir. Duruş takviminiz netleştiğinde iş listesini slot planına birlikte döküyoruz — geçmiş duruşlarınızın sarkma noktaları da plana işlenir.",
+                ],
+            },
+            {
+                baslik: "Çevre ilden hizmetin işleyişi",
+                paragraflar: [
+                    "İzmir merkezli filo için Manisa OSB, Sabuncubeli bağlantısı sayesinde fiilen komşu bölgedir: teslimat 1-2 iş günü, Kemalpaşa turlarıyla birleşen sevkiyatlarda aynı gün; arıza müdahalesi ve ikame aynı eksenden saatler içinde. Uzun kiralamalarda makine sahada konaklar ve mesafenin operasyonel etkisi kalmaz. Nakliye teklifte ayrı satırdır — yerel alternatiflerle karşılaştırma yapabilirsiniz.",
+                    "Bölgeye özgü tek hazırlık, büyük tesislerin yüklenici kayıt sistemleridir: ilk kayıt birkaç gün alabilir ve talep bu payla açılmalıdır. ESD/temiz alan şartnameleri de ilk kiralamada netleştirilir; sonraki kiralamalarda her iki süreç de hazırdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hattımız 7/24 çalışıyor; bakım işleri için tek şansımız yıllık duruş mu?",
+                cevap:
+                    "Hayır — iş listesinin önemli bölümü duruş beklemez: hat kenarı aydınlatma, kablo tavası ve sprinkler işleri bariyerli düzenle üretime paralel, istasyon üstü noktalar mola ve vardiya değişimi bloklarında yapılır. Duruşa kalması gereken yalnızca hat üstü doğrudan müdahaleler ve büyük revizyon işleridir. Keşifte listenizi bu haritaya ayırıyoruz — çoğu tesiste 'duruşa kalan' liste, sanılandan kısa çıkar ve duruş haftası rahatlar.",
+            },
+            {
+                soru: "Yıllık duruşumuz iki hafta sonra; hâlâ makine bulabilir miyiz?",
+                cevap:
+                    "Deneriz ama garanti veremeyiz — duruş haftaları bölge genelinde senkron olduğu için kapasite aylar önce bağlanır. Bulunursa da slot planı aceleye gelir. Kalıcı çözüm önerimiz: ana üreticinin (veya kendi tesisinizin) duruş takvimi açıklandığı gün rezervasyonu bağlamak. Erken bağlanan duruş paketine slot planı, hazır konumlama, operatör brifingi ve yedek makine rezervasyonu dahildir — duruş haftası 'umarım yetişir' değil 'plan işliyor' modunda geçer.",
+            },
+            {
+                soru: "ESD kontrollü alanımızda platform şartlarımız var; karşılayabilir misiniz?",
+                cevap:
+                    "Evet — şartnamenizle çalışıyoruz: makinenin topraklama sürekliliği belgelenir, operatör ESD donanımıyla (bileklik, uygun ayakkabı) gelir ve iletken lastik şartı varsa uygun model sevk edilir. Temiz alan sınıfına yaklaşan bölgelerde makine temizliği ve yavaş hareket protokolü eklenir. Kalite ekibinizin şartnamesini talepte alıyor, hazırlığı ona göre belgeliyor ve onayınıza hazır dosyayla teslim ediyoruz — ilk kiralamada kurulan bu düzen sonraki tüm işlerde hazırdır.",
+            },
+            {
+                soru: "Üretim hattının üzerindeki noktaya hat çalışırken çıkılabilir mi?",
+                cevap:
+                    "Nokta hattın neresinde olduğuna bağlı. Hat kenarındaki (üzerinde istasyon olmayan) noktalar bariyerli düzenle paralel çalışılır. İstasyonların tam üzeri ise farklıdır: düşen alet riski sıfırlansa bile operatör dikkatinin bölünmesi kalite sapması yaratabilir — bu noktalar mola bloklarına veya vardiya değişimlerine alınır. Ayrımı hat sorumlunuzla keşifte işaretliyoruz; harita netleşmeden üretim alanına makine sokmuyoruz.",
+            },
+            {
+                soru: "Yan sanayi tesisiyiz; ana üreticinin duruşuna nasıl hazırlanmalıyız?",
+                cevap:
+                    "Takvim açıklandığı gün rezervasyonla. Ana üreticinin duruşu geldiğinde bölgedeki tüm yan sanayi aynı haftada bakım ister ve makine kapasitesi o hafta için erkenden dolar. İkinci hazırlık, iş listenizi iki gruba ayırmaktır: duruş gerektirmeyen işler (hat kenarı — normal haftalarda paralel yapılır, duruş listesi kısalır) ve gerçekten duruşa kalan işler (slot planına girer). Bu ayrım, duruş haftasında hem makine ihtiyacınızı hem maliyeti düşürür.",
+            },
+            {
+                soru: "İzmir'den gelen makineyle arıza durumunda ne kadar bekleriz?",
+                cevap:
+                    "Sözleşmede saatle taahhüt edilen süre kadar — pratikte Sabuncubeli bağlantısı sayesinde teknisyen ve ikame makine aynı gün ulaşır; Kemalpaşa turlarımızla aynı eksende olduğunuz için bu süre çoğu zaman birkaç saattir. Kritik pencereli işlerde (duruş slotu gibi) yedek makine rezervasyonu zaten pakete dahildir — bekleme senaryosu planla ortadan kaldırılır. Normal kullanım arızalarında sürecin tüm maliyeti bize aittir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Manisa OSB'nin beyaz eşya/elektronik profili ve planlı duruş pratiği kamuya açık/sektörel bilgidir; slot disiplini firma pratiğidir.",
+    },
+
+    "bolge:aydin-osb-cevre-ili": {
+        h1: "Aydın OSB'de Üretim Durmadan Platform Kiralama (Çevre İl)",
+        giris:
+            "Aydın havzasının üretim takvimi topraktan gelir: zeytin kasım'da sıkılır, incir ağustos'ta işlenir, süt her sabah toplanır ve jeotermal santral hiç durmaz. Bu takvimlerin ortak özelliği, insanın değil ürünün belirlediği pencereler olmasıdır — kampanyadaki zeytinyağı tesisine 'hattı yarın durduralım' denemez. Kesintisiz üretim odaklı düzenimiz bu havzada mevsim-senkron planlama hâlini alır: her tesisin işi, kendi ürününün sakin dönemine yerleştirilir ve kampanya dönemlerinde yalnızca önceden protokole bağlanmış acil pencereler kullanılır. İzmir-Aydın otoyolu, merkezli filomuzu havzaya bağlar; Torbalı-Tire turlarıyla birleşen sevkiyat düzeni, mevsimsel talep dalgalarına kapasite esnekliği sağlar.",
+        maddeler: [
+            {
+                baslik: "Mevsim-senkron plan: ürünün takvimi esastır",
+                metin:
+                    "Havzadaki her sektörün dokunulmaz dönemi farklıdır: zeytinyağında kasım-ocak, incirde ağustos-eylül, süt işlemede her günün proses saatleri. İş planı bu dönemlerin tersine kurulur — zeytinyağı tesisinin tavan işleri yaz aylarında, incir işleyicisininki ilkbaharda, süt tesisininki günlük CIP bloklarında yapılır. Mevsimlerin farklılığı bölge kapasitesini dengeler: aynı makine yazın zeytinyağı tesislerinde, ilkbaharda incir işleyicilerinde çalışır ve yıl boyu verimli döner.",
+            },
+            {
+                baslik: "Kampanya tesislerinde konaklamalı hazırlık",
+                metin:
+                    "Kampanyaya girecek tesiste son haftaların telaşı yerine önerdiğimiz model erken konaklamadır: makine kampanya öncesi son ayda tesise girer, tüm hazırlık listesi (tavan, aydınlatma, havalandırma, sprinkler, soğuk alan) sırayla biter ve tesis kampanyaya makinesi çıkmış, listesi kapanmış hâlde girer. Kampanya sırasında zorunlu iş doğarsa önceden kurulmuş acil protokol devreye girer — vardiya arası pencere, hazır bariyer düzeni ve saatle tanımlı ulaşım.",
+            },
+            {
+                baslik: "Jeotermal sahalarda süreklilik ve izin dengesi",
+                metin:
+                    "Jeotermal santral 7/24 üretir ve bakım işleri ekipman redundansı üzerinden planlanır: yedekli pompa gruplarından biri bakımdayken diğeri çalışır, platform işi o ekipmanın bakım penceresine eşzamanlanır. Saha İSG sistemi (H2S ölçümü, izin, refakat) evrak süreci ister ve bu süreç teknik işten uzun sürebilir — talep, izin takvimiyle birlikte açılır. Kapalı türbin binalarında akülü, açık sahada stabilize zemin nedeniyle dizel arazi tipi kullanılır; sıcak boru hatları çevresinde mesafe kuralları iş planına işlenir.",
+            },
+            {
+                baslik: "Soğuk zincir ve paketleme tesislerinde ihracat ritmi",
+                metin:
+                    "Havzanın ihracatçı paketleme tesislerinde (incir, kestane, zeytin) sezon içi sevkiyat ritmi yoğundur ve soğuk zincir alanlarındaki işler yükleme saatlerinin dışına, blok çalışmayla planlanır — kapı disiplini, akü soğuk katsayısı ve düşük doluluk anı üçlüsü buradaki standarttır. Müşteri denetimleri (BRC, zincir marketler) sezon öncesine denk geldiği için hazırlık işleri denetim ve kampanya öncesinin kesişiminde tek konaklamalı pakete toplanır.",
+            },
+            {
+                baslik: "Otoyol ekseninde mevsimsel kapasite esnekliği",
+                metin:
+                    "İzmir-Aydın otoyolu ve Torbalı-Tire tur düzenimiz, havzanın mevsimsel talep dalgalarına esneklik sağlar: yoğun dönemde ek makine aynı eksenden takviye edilir, sakin dönemde kapasite İzmir tarafına döner. Teslimat standart 1-2 iş günüdür; kampanya öncesi yoğun haftalarda erken rezervasyon şarttır. Kırsal tesislere (dağınık zeytinyağı işletmeleri) güzergâh kontrolü önceden yapılır; arıza-ikame desteği otoyol üzerinden aynı gün ulaşır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydın havzasında mevsim-iş takvimi",
+                paragraflar: [
+                    "Havzadaki ana sektörlerin dokunulmaz dönemleri ve doğru iş pencereleri aşağıdadır. Mevsim-senkron planın temeli bu tablodur; tesisin kendi takvimi keşifte üzerine işlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Sektör", "Dokunulmaz dönem", "Doğru iş penceresi", "Model"],
+                    satirlar: [
+                        ["Zeytinyağı", "Kasım – Ocak (kampanya)", "Yaz ayları", "Kampanya öncesi konaklama"],
+                        ["İncir / kuru meyve", "Ağustos – Eylül", "İlkbahar", "Denetim + hazırlık tek paket"],
+                        ["Süt işleme", "Günlük proses saatleri", "CIP blokları, gece", "Pencere-senkron konaklama"],
+                        ["Jeotermal", "— (7/24)", "Ekipman bakım pencereleri", "İzin takvimiyle eşzamanlı"],
+                        ["Paketleme / soğuk zincir", "Sevkiyat saatleri", "Yükleme dışı bloklar", "Blok çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kampanya öncesi tek paket: hazırlık + denetim + soğuk alan",
+                paragraflar: [
+                    "Havza tesislerinin üç ihtiyacı aynı döneme denk gelir: kampanya hazırlığı (tesis genel bakımı), müşteri denetimi hazırlığı (hijyen ve görünüm işleri) ve soğuk alan bakımı (evaporatör, oda tavanları). Bu üçünü ayrı kiralamalarla yapmak hem pahalı hem takvim açısından risklidir; tek konaklamalı pakette makine bir kez gelir, üç liste pencere pencere biter ve tesis sezona tam hazır girer. Paket, kampanya başlangıcından geriye doğru planlanır — son iş, kampanyadan en az bir hafta önce kapanır.",
+                    "Kampanya içi acil protokol de pakete dahil kurulur: hangi işler vardiya arasında yapılabilir, bariyer ve izin düzeni kimde, makine hangi süreyle ulaşır. Protokollü tesiste kampanya ortası sürpriz, plansız kriz değil işleyen prosedürdür.",
+                ],
+            },
+            {
+                baslik: "Çevre ilden hizmetin havzadaki işleyişi",
+                paragraflar: [
+                    "İzmir merkezli filo için Aydın havzası, otoyol sayesinde günlük operasyon alanıdır: teslimat 1-2 iş günü, Torbalı-Tire turlarıyla birleşen sevkiyatlarda nakliye paylaşımı, arıza-ikame desteği aynı gün. Konaklamalı modellerde mesafenin operasyonel etkisi zaten sıfırlanır — makine sahada, bakım yerinde, destek otoyol üzerinden.",
+                    "Havzaya özgü iki hazırlık kalemi vardır: jeotermal sahaların izin süreçleri (talep ile birlikte başlatılır) ve kırsal tesislerin güzergâh kontrolü (konum paylaşımı yeterli — köprü tonajı, dar geçit ve son kilometre değerlendirmesi bizden). Her iki süreç de ilk kiralamada kurulur ve sonrasında tekrarlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zeytinyağı tesisimiz kasımda kampanyaya giriyor; işleri ne zaman yapmalıyız?",
+                cevap:
+                    "Yaz aylarında — kampanya öncesi son ayda konaklamalı paketle: makine tesise girer, tavan-aydınlatma-havalandırma-soğuk alan listesi sırayla biter ve kampanyaya listesi kapanmış girersiniz. Kasım-ocak arasında planlı iş sokmuyoruz; kampanya içi zorunlu işler için pakete dahil acil protokol kurulur (vardiya arası pencere, hazır düzen, saatli ulaşım). Takviminiz netleştiğinde geriye doğru planlıyoruz — son iş kampanyadan en az bir hafta önce kapanır.",
+            },
+            {
+                soru: "Jeotermal santralimiz hiç durmuyor; bakım işleri nasıl planlanır?",
+                cevap:
+                    "Ekipman redundansı üzerinden: yedekli gruplardan biri bakıma alındığında platform işi o ekipmanın penceresine eşzamanlanır — santral üretimi sürer. Süreci belirleyen çoğunlukla teknik iş değil izin takvimi (H2S ölçümü, saha izni, refakat) olduğu için talebi izin süreciyle birlikte açıyoruz. Kapalı binalarda akülü, açık sahada dizel arazi tipi kullanılır; sıcak hat mesafeleri plana işlenir ve evrak setimiz santral sistemlerine hazır formatta girer.",
+            },
+            {
+                soru: "İncir sezonu bitti, denetimimiz baharda; işleri nasıl sıralamalıyız?",
+                cevap:
+                    "Tek pakette, denetimden geriye doğru: sezon çıkışı yıpranma onarımları önce, hijyen-görünüm işleri (tavan temizliği, aydınlatma, sinek-kuş önleme) denetime yakın, soğuk alan bakımı düşük doluluk dönemine denk gelecek şekilde. Konaklamalı planla makine bir kez gelir ve üç grup iş pencere pencere biter. Denetim kayıtlarına girecek makine evrakları dosya hâlinde teslim edilir — bahar denetimine hem tesis hem dosya hazır girersiniz.",
+            },
+            {
+                soru: "Soğuk depomuz sezonda sürekli dolu; evaporatör bakımı nasıl yapılır?",
+                cevap:
+                    "Doluluk döngüsünün en düşük anında, blok çalışmayla: sevkiyat sonrası-yeni ürün öncesi boşluklar keşifte haritalanır, iş o bloklara bölünür, kapı disiplini korunur ve soğuk zincir bozulmaz. Akü düşük sıcaklık katsayısıyla planlanır. Kalıcı önerimiz bakımı sezon dışına takvimlemektir — yılda iki planlı tur, sezon içi arıza riskini pratikte sıfırlar; sezon içi zorunlu müdahale kalırsa da blok modeliyle çözülür.",
+            },
+            {
+                soru: "Havzada birden fazla tesisimiz var (sıkım + paketleme); ortak plan olur mu?",
+                cevap:
+                    "Olur ve tam havza modelidir: iki tesisin dokunulmaz dönemleri farklıysa (sıkım kışın, paketleme yazın yoğun) aynı makine yılın farklı dönemlerinde iki tesisi dolaşır — yıllık çerçeve anlaşmayla takvim bir kez kurulur, her dönem planlı sevkiyatla işler. Dönemler çakışıyorsa konaklama sırası önceliğe göre belirlenir ve gerekirse ikinci makine takviye edilir. İki tesisin listesini keşifte birleştirip yıllık tek takvim çıkarıyoruz.",
+            },
+            {
+                soru: "Kırsaldaki sıkım tesisimize İzmir'den makine gelir mi?",
+                cevap:
+                    "Gelir — güzergâh kontrolü önceden yapılarak: konumunuzu paylaşmanız yeterli, köprü tonajı, dar geçit ve son kilometre değerlendirmesini biz yapıyoruz. Akülü modeller standart araçla çoğu köy yoluna ulaşır; gerekirse son kilometre için tesis desteği (traktör-çekici) planlanır — sürpriz sahada değil planda çözülür. Otoyol ekseni sayesinde havza teslimatı 1-2 iş günüdür; kampanya öncesi yoğun haftalar için erken rezervasyon öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Aydın havzasının ürün takvimi (zeytin, incir, süt) ve jeotermal 7/24 rejimi kamuya açık bilgidir; mevsim-senkron plan ve paket modelleri firma pratiğidir.",
+    },
 };

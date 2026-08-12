@@ -129,7 +129,7 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
-| `izmir-manlift.net` | 5/9 | 0 | 0 | 🟡 devam — kemalpasa, torbali, bornova, pancar-osb, bergama-osb (kesintisiz üretim açısı; çapraz domain örtüşme %0,0) |
+| `izmir-manlift.net` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — kesintisiz üretim açısı, ~970 kelime/sayfa, domain içi %0,0, çapraz domain %0,0-0,4 |
 | `izmirmakasliplatform.xyz` | **10/10** | 0 | 0 | ✅ bölge sayfaları TAMAM — ~1.100 kelime/sayfa, örtüşme %0,0, simetrik düzen (5 madde+3 ek bölüm+6 SSS) |
 
 Bir domain tamamlandığında bu tabloya satır ekleyin.
