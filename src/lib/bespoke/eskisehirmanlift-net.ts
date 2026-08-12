@@ -135,7 +135,7 @@ export const ESKISEHIRMANLIFT_NET: Record<string, BespokeIcerik> = {
             {
                 baslik: "Tek vardiyalı işletmenin gece avantajı",
                 metin:
-                    "Odunpazarı'ndaki işletmelerin çoğu tek vardiya çalışır ve bu, bakım açısından büyük bir imkândır: akşam üretim durduğunda ertesi sabaha kadar kesintisiz uzun bir çalışma bloğu açılır. Büyük tesislerin vardiya aralarına sıkıştırdığı işler burada rahat rahat tamamlanır. Akülü makinenin sessiz çalışması kent dokusunda ayrıca kritiktir; konutla iç içe konumlanmış bir işletmede gece boyunca dizel makine çalıştırmak pratikte mümkün değildir. Gece çalışmasının tek ön koşulu aydınlatmadır ve bunu tesisin sağlaması gerekir.",
+                    "Odunpazarı'ndaki işletmelerin çoğu tek vardiya çalışır ve bu, bakım açısından büyük bir imkândır: akşam üretim durduğunda ertesi sabaha kadar kesintisiz uzun bir çalışma bloğu açılır. Kesintisiz çalışan büyük tesislerde dar zaman dilimlerine bölünen işler, burada tek gecede rahatlıkla tamamlanır. Akülü makinenin sessiz çalışması kent dokusunda ayrıca kritiktir; konutla iç içe konumlanmış bir işletmede gece boyunca dizel makine çalıştırmak pratikte mümkün değildir. Gece çalışmasının tek ön koşulu aydınlatmadır ve bunu tesisin sağlaması gerekir.",
             },
             {
                 baslik: "Kısa hatta tavan işleri: aydınlatma, aspirasyon, kompresör hattı",
@@ -251,7 +251,7 @@ export const ESKISEHIRMANLIFT_NET: Record<string, BespokeIcerik> = {
             {
                 baslik: "Atölye tipine göre erişim ve hazırlık",
                 paragraflar: [
-                    "Muttalip kuşağındaki dört tipik atölye profili ve her birinin bakım çalışmasında öne çıkan hazırlık kalemi aşağıdadır. Aynı atölyede birden fazla profil bir arada bulunabilir; keşifte iş listesi profillere göre ayrılır.",
+                    "Kuşaktaki tipik atölye profillerini, sık tekrarlayan bakım kalemlerini ve her profilde öne çıkan hazırlığı aşağıda topladık. Bir atölyede birden çok profilin karşılığı bulunabilir; iş listesi keşifte bu satırlara dağıtılır.",
                 ],
                 tablo: {
                     basliklar: ["Atölye profili", "Sık bakım kalemi", "Kritik hazırlık", "Makine tercihi"],
@@ -412,5 +412,302 @@ export const ESKISEHIRMANLIFT_NET: Record<string, BespokeIcerik> = {
         ],
         kaynak:
             "Elle yazıldı — 2026-08-12. Tepebaşı'nın merkez ilçe niteliği ve Eskişehir'in raylı sistem bakım geleneği kamuya açık bilgidir; enerjiye yaklaşma mesafesi ve kilitle-etiketle uygulamaları İSG mevzuatından gelir.",
+    },
+
+    "bolge:eskisehir-2-osb": {
+        h1: "Eskişehir 2. OSB'de Üretim Hattı Bakımı için Manlift Kiralama",
+        giris:
+            "Eskişehir'in ikinci organize sanayi alanı, birinci bölgeye göre daha genç bir yapı stokuna ve daha büyük parsellere sahiptir. Bunun bakım işlerine yansıması doğrudandır: tavan kotları yüksektir, holler geniştir, servis kapıları büyük makinelerin geçişine uygun tasarlanmıştır ve saha betonu düzgündür. Yani birinci bölgede karşılaştığımız geçiş kısıtlarının çoğu burada yoktur; buna karşılık yükseklik, erişim mesafesi ve yeni kurulan hatların montaj yoğunluğu öne çıkar. Bölgedeki tesislerin önemli bir bölümü hâlâ ilk büyüme evresini yaşıyor — hat ekleniyor, kapasite artırılıyor, mevcut hat yeni ürüne göre revize ediliyor. Bu evrede platform ihtiyacı iki dalga hâlinde gelir: önce yoğun ve kesintisiz süren montaj dönemi, ardından üretim başladıktan sonra ortaya çıkan ve aylara yayılan ince ayar işleri. İkisini tek planda kurgulamak, bu bölgedeki en somut tasarruf kalemidir.",
+        maddeler: [
+            {
+                baslik: "Yeni hattın montajı ile mevcut hattın üretimi yan yana",
+                metin:
+                    "Kapasite artıran tesislerde yeni hat, çalışan hatların birkaç metre yanında kurulur. Bu, bir montaj sahasıyla bir üretim sahasının aynı çatı altında yaşaması demektir ve düzeni ancak fiziksel ayrım kurtarır: montaj bölgesi perde veya bariyerle çevrilir, platform yalnızca bu bölgenin içinde hareket eder ve ortak koridorun kullanımı üretim ekibiyle saat bazında paylaşılır. Yüksek montaj noktalarında bom tipi makine, kurulmakta olan ekipmanın üzerinden erişim sağlayarak iskele ihtiyacını ortadan kaldırır ve montaj sahasının zemin işgalini küçültür.",
+            },
+            {
+                baslik: "Yüksek tavan bandında erişim sınıfı seçimi",
+                metin:
+                    "Genç yapı stokunun tavanları eski kuşak hollerden belirgin yüksektir ve çatı makası altına giren işlerde erişim sınıfı hızla büyür. Burada en sık yapılan hata, katalogdaki platform yüksekliğini çalışma yüksekliği sanmaktır; ikisi arasında yaklaşık iki metrelik bir fark vardır ve bu fark, sepetten uzanılabilecek gerçek kotu belirler. Doğru hesap hedefin zeminden yüksekliğine uzanma payı eklemekle yapılır. Bom tipi makinelerde ise aynı anda hem maksimum yükseklik hem maksimum yatay uzanma kullanılamayacağı için, karar daima erişim eğrisi üzerinden verilir.",
+            },
+            {
+                baslik: "Devreye alma sonrası dağınık iş listesi",
+                metin:
+                    "Yeni bir hat üretime geçtikten sonra ortaya çıkan liste hemen her tesiste benzerdir: yetersiz kalan aydınlatma bölgeleri, sonradan eklenen sensör ve kamera montajları, revize edilen kablo güzergâhları, ek havalandırma noktaları. Bu işlerin ortak özelliği kısa ama dağınık olmalarıdır — her biri birkaç saat sürer ama tesisin farklı köşelerindedir. Bunları tek tek kiralamayla çözmek nakliye maliyetini katlar. Uygulamada listeyi biriktirip tek dönemde, güzergâh sırasıyla kapatmayı ya da makineyi belirli bir süre sahada tutmayı öneriyoruz.",
+            },
+            {
+                baslik: "Sahada konaklayan makine ve şarj düzeni",
+                metin:
+                    "Uzun süren montaj dönemlerinde makinenin tesiste kalması hem ekonomik hem pratiktir: nakliye tek sefere iner, çıkan iş beklemeden yapılır ve günlük birim maliyet düşer. Bu modelin işlemesi için tesisin iki şeyi sağlaması yeterlidir — makinenin güvenle park edebileceği bir alan ve uygun bir şarj noktası. Konaklama süresi boyunca periyodik bakım yerinde yapılır, kontrol tarihi kiralama dönemine denk gelirse yenilemeyi biz organize ederiz. Operatörsüz kullanımda yeterlilik belgesi şartı süre boyunca geçerliliğini korur.",
+            },
+            {
+                baslik: "Geniş sahada iç trafik ve güzergâh planı",
+                metin:
+                    "Büyük parsellerde makinenin hol içi hareketi kadar açık saha hareketi de planlanmalıdır: tır rampaları, konteyner alanları ve forklift güzergâhları geniş sahalarda uzun mesafeli akışlar oluşturur. Platformun bu akışlarla kesişmemesi için güzergâh teslimat öncesi tesisin iç trafik sorumlusuyla birlikte yürünür ve gerekiyorsa makine hareketleri vardiya değişimi gibi trafiğin seyreldiği anlara alınır. Açık sahada ayrıca rüzgâr faktörü devreye girer; bom tipi makinelerde üretici tarafından belirtilen rüzgâr sınırı aşıldığında çalışma durdurulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Büyüme evresinde iki dalga planlaması",
+                paragraflar: [
+                    "Yeni tesislerde ve kapasite artıran işletmelerde platform ihtiyacı iki farklı karakterde gelir. Aşağıdaki tablo, her dalganın uygun kiralama modelini ve planlama önceliğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Dalga", "İş karakteri", "Uygun model", "Planlama önceliği"],
+                    satirlar: [
+                        ["Mekanik montaj", "Yoğun, kesintisiz, yüksek nokta", "Sahada konaklama", "Bariyerli bölge ayrımı"],
+                        ["Elektrik ve otomasyon", "Hat boyu, çok noktalı", "Konaklama veya haftalık", "Güzergâh sırası"],
+                        ["Devreye alma", "Kısa aralıklı, ani çıkan", "Sahada bekleyen makine", "Hızlı ulaşım"],
+                        ["İnce ayar ve eksik kapatma", "Kısa, dağınık, aylara yayılan", "Toplu liste dönemi", "Nakliye birleştirme"],
+                        ["Rutin hat bakımı", "Takvimli, tekrarlayan", "Planlı duruşa bağlı", "Duruş süresine sığma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj döneminde iskeleyle karşılaştırma",
+                paragraflar: [
+                    "Yeni hat kurulumunda ilk refleks çoğu zaman iskele kurmaktır, ancak üretim sürerken yapılan montajda platformun iki belirgin üstünlüğü vardır. Birincisi zaman: iskelenin kurulumu ve sökümü günler alırken makine sahaya geldiği gün çalışmaya başlar. İkincisi alan: iskele kurulduğu koridoru işgal eder ve mevcut hattın lojistiğini daraltır, platform ise yalnızca kendi tabanı kadar yer kaplar ve iş bittiğinde alan anında boşalır. Montaj noktaları hat boyunca dağıldığında bu fark daha da büyür.",
+                    "Karma çözümler de sık kullanılıyor: ana montaj alanında sabit iskele kurulurken, dağınık bağlantı noktalarına — boru askıları, kablo tavaları, sensör braketleri — platformla ulaşılıyor. Bu düzeni kurarken montaj yüklenicisi, tesis ve biz üçlü bir plan yapıyoruz; kimin hangi hafta hangi bölgede olacağı baştan yazılı hâle geldiğinde saha çakışmaları büyük ölçüde ortadan kalkıyor.",
+                ],
+            },
+            {
+                baslik: "Erişim eğrisini okumak: yükseklik ile uzanmanın takası",
+                paragraflar: [
+                    "Bom tipi makinelerde katalogda iki büyük rakam yer alır: maksimum çalışma yüksekliği ve maksimum yatay erişim. Bu ikisi aynı anda kullanılamaz; makine yükseldikçe kullanılabilir yatay mesafe azalır, uzandıkça ulaşılabilir yükseklik düşer. Doğru seçim, üreticinin erişim eğrisi üzerinde hedefin bulunduğu noktaya bakmakla yapılır. Yeni bir hattın üzerinden aşarak çatı altına ulaşılacak bir işte, yalnızca yükseklik rakamına bakılarak seçilen makine sahada yetersiz kalır.",
+                    "İkinci sık hata sepet kapasitesinin göz ardı edilmesidir. Uzanma arttıkça izin verilen sepet yükü düşer; iki kişi ve malzemeyle çıkılacak bir işte bu sınır belirleyici olabilir. Keşifte hedefin kotu ve yatay mesafesi kadar sepette kaç kişinin ve ne kadar malzemenin bulunacağını da soruyoruz — üç veri birlikte değerlendirildiğinde sahada sürpriz kalmıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni hat kurarken mevcut üretimimiz devam edebilir mi?",
+                cevap:
+                    "Edebilir; bölge ayrımı disipliniyle bunu düzenli olarak yapıyoruz. Montaj alanı perde veya bariyerle fiziksel olarak ayrılır, platform yalnızca bu alanın içinde hareket eder ve ortak koridorların kullanımı üretim ekibinizle saat bazında paylaşılır. Yüksek montaj noktalarına bom tipi makineyle kurulmakta olan ekipmanın üzerinden ulaşıldığı için iskele kurulmaz; bu, mevcut hattınızın çevresindeki lojistik alanın daralmamasını sağlar. Montaj yükleniciniz, siz ve biz üçlü bir takvim çıkarıyoruz — hangi hafta hangi bölge kimin, baştan netleşiyor.",
+            },
+            {
+                soru: "Tavanımız yüksek; hangi erişim sınıfını istemeliyiz?",
+                cevap:
+                    "Hesabı hedefin gerçek kotundan başlatıyoruz: zeminden hedefe kadar olan yükseklik artı yaklaşık iki metrelik uzanma payı, gereken çalışma yüksekliğini verir. Katalogdaki platform yüksekliği ile çalışma yüksekliği farklı satırlardır ve karıştırılması sahada eksik erişimle sonuçlanır. Hedefin altı doluysa hesap tek boyutlu kalmaz: park edilebilecek en yakın noktadan hedefe olan yatay mesafeyi de ölçüp erişim eğrisine bakmak gerekir, çünkü yükseklik ve yatay uzanma birbirinin aleyhine çalışır. Ölçüleri paylaşırsanız uygun sınıfı gerekçesiyle söyleriz.",
+            },
+            {
+                soru: "Devreye alma sonrası sürekli küçük işler çıkıyor; her seferinde kiralamak mantıklı mı?",
+                cevap:
+                    "Genellikle değil. İki eşik kullanıyoruz. İşler ayda bir iki güne sığıyorsa listeyi biriktirip tek dönemde, güzergâh sırasıyla kapatmak yeterlidir; nakliye tek sefere iner. İşler her hafta çıkıyorsa makinenin sahada konaklaması belirgin şekilde ekonomiktir — çıkan iş beklemez, nakliye tekrarlanmaz ve günlük birim maliyet düşer. Yeni devreye alınmış hatlarda ilk aylarda ikinci profil çok yaygındır. İş tempoluğunuzu paylaşırsanız iki modelin maliyetini yan yana çıkarıp hangisinin size uyduğunu gösteririz.",
+            },
+            {
+                soru: "Makineyi uzun süre sahamızda tutabilir miyiz?",
+                cevap:
+                    "Tutabilirsiniz; montaj dönemlerinde tercih ettiğimiz model budur. Sizden istediğimiz iki şey var: makinenin güvenle park edebileceği bir alan ve uygun bir şarj noktası. Konaklama süresince periyodik bakımı yerinde yapıyoruz; makinenin kontrol tarihi kiralama dönemine denk gelirse yenilemeyi biz organize ediyoruz, sizin takip etmeniz gereken bir evrak kalmıyor. Operatörsüz kullanımda yeterlilik belgesi şartı tüm süre boyunca geçerlidir. Uzun dönem fiyatlandırması günlük kiralamadan belirgin farklıdır — süre uzadıkça birim maliyet düşer.",
+            },
+            {
+                soru: "Açık sahada rüzgâr çalışmayı engeller mi?",
+                cevap:
+                    "Belirli bir sınırın üzerinde engeller ve bu sınır üreticinin makine üzerindeki etiketinde yazılıdır. Bom tipi makinelerde sepet yükseldikçe rüzgâr etkisi hızla artar, ayrıca sepette taşınan geniş yüzeyli malzemeler yelken etkisi yaratır. Sınır aşıldığında çalışma durdurulur ve bom indirilir; bu konuda esneklik göstermiyoruz. Pratik çözüm, açık saha işlerini günün rüzgârsız saatlerine planlamak ve hol içi işlerle dönüşümlü ilerlemektir. Planı bu şekilde kurduğumuzda rüzgârlı bir gün, iş takviminde boşluk yaratmıyor.",
+            },
+            {
+                soru: "Sepette iki kişi ve malzeme olacak; bu makine seçimini etkiler mi?",
+                cevap:
+                    "Etkiler, hem de çoğu zaman yükseklikten daha belirleyici şekilde. Bom tipi makinelerde izin verilen sepet yükü sabit değildir; yatay uzanma arttıkça düşer. İki kişi, alet çantası ve monte edilecek parça birlikte düşünüldüğünde, uzak bir hedefte sınıra takılmak mümkündür. Bu yüzden keşifte üç veriyi birlikte soruyoruz: hedefin kotu, yatay mesafe ve sepete çıkacak toplam yük. Üçü birlikte değerlendirildiğinde doğru sınıf net çıkar. Sınıra takılan durumlarda ya bir üst sınıfa geçiyoruz ya da işi iki turda planlıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Eskişehir'in ikinci organize sanayi alanının genç yapı stoku ve büyük parsel düzeni kamuya açık bilgidir; erişim eğrisi ve sepet kapasitesi ilişkisi EN 280 kapsamında üretici verisidir.",
+    },
+
+    "bolge:bozuyuk-osb-bilecik-cevre-ili": {
+        h1: "Bozüyük OSB'de Üretim Hattı Bakımı için Manlift Kiralama (Çevre İl)",
+        giris:
+            "Bozüyük, Bilecik'in sanayi ağırlığını taşıyan ilçesi olarak Eskişehir'e karayoluyla yakın konumdadır ve bölgenin seramik-porselen ile yapı malzemeleri üretimindeki ağırlığı, buradaki bakım işlerine kendine özgü bir karakter kazandırır. Seramik üretiminin kalbi fırın hattıdır ve fırın hattının bakımı, bir montaj hattının bakımına benzemez: hat yalnızca durdurulmaz, soğutulur; çalışma penceresi bir takvim kararı olduğu kadar bir termodinamik gerçektir ve soğuma-ısınma çevrimi enerji maliyeti nedeniyle mümkün olduğunca seyrek tekrarlanır. Yani bu bölgede bakım penceresi hem uzun hem de son derece değerlidir — açıldığında yapılabilecek her iş yapılmalıdır. Eskişehir'den bakan bir servis sağlayıcı olarak buradaki rolümüz nettir: pencere açılmadan makine sahada olur, pencere boyunca kesintisiz çalışır ve pencere kapanmadan çıkar. Kuru presleme, sırlama, kurutma ve paketleme bölümlerinin tavan işleri de aynı takvime bağlanır.",
+        maddeler: [
+            {
+                baslik: "Fırın soğuma penceresinde zamanın değeri",
+                metin:
+                    "Tünel ve rulolu fırınlarda bakım, sıcaklığın güvenli seviyeye inmesiyle başlar ve yeniden ısıtma programının devreye girmesiyle biter. Bu pencerenin uzunluğu bakım ekibinin değil, fırının kendi eğrisinin kararıdır. Dolayısıyla plan tersten kurulur: pencere ne zaman açılacaksa makine bir önceki gün sahada hazır olur, iş listesi noktalara göre sıralanmış hâlde bekler ve güvenli sıcaklık teyit edildiği anda çalışma başlar. Pencere içinde makine arayışına çıkmak, o çevrimde yapılamayan iş anlamına gelir ve bir sonraki fırsat aylar sonrasıdır.",
+            },
+            {
+                baslik: "Fırın üstü ve yan erişimin geometrisi",
+                metin:
+                    "Fırın gövdesi uzun ve geniştir; üzerindeki baca, izolasyon, brülör hattı ve ölçüm noktalarına ulaşmak yandan uzanmayı gerektirir çünkü gövdenin üzerine makine park etmek mümkün değildir. Bu, bom tipi bir makinenin klasik kullanım senaryosudur: platform fırının yanındaki servis koridoruna konumlanır, bomunu gövdenin üzerine kıvırır ve sepet hedefin hizasına gelir. Servis koridorlarının genişliği bu tesislerde sınırlı olduğu için gövde ölçüsü ve dönüş yarıçapı, erişim mesafesi kadar belirleyicidir; keşifte koridor genişliği mutlaka ölçülür.",
+            },
+            {
+                baslik: "Toz ve sır hattında zemin ile görüş koşulları",
+                metin:
+                    "Seramik üretiminde hammadde hazırlama ve presleme bölümlerinde ince toz, sırlama hattında ise ıslak zemin baskındır. Her ikisi de makinenin tutunmasını etkiler: toz kayganlık yaratır, ıslak zemin ise fren mesafesini uzatır. Bu bölümlerde çalışma öncesi güzergâh temizliği standarttır. Toz yoğunluğu ayrıca görüşü düşürür; sepetten yapılan işlerde yer gözcüsü uygulaması bu tesislerde özellikle önemlidir. Aspirasyon sistemi devredeyse çalışmayı ona uygun saate almak, hem güvenlik hem iş kalitesi açısından fark yaratır.",
+            },
+            {
+                baslik: "Paketleme ve sevkiyat tarafında bağımsız takvim",
+                metin:
+                    "Fırın hattı bakım penceresine bağlıyken, paketleme ve sevkiyat bölümlerinin tavan işleri bu takvimden bağımsız yürütülebilir: hat kenarı aydınlatma, konveyör üstü kablo hatları, yüksek raf bölgeleri ve yükleme kapısı üzeri noktalar. Bu ayrımı baştan yapmak, fırın penceresine gereksiz iş yığmayı önler. Uygulamada tesisin tavan iş listesini iki gruba ayırıyoruz — pencereye bağlı olanlar ve olmayanlar — ve ikinci grubu daha esnek, dolayısıyla daha ekonomik tarihlere yayıyoruz.",
+            },
+            {
+                baslik: "Eskişehir hattından sevkiyat ve yedeklilik",
+                metin:
+                    "Bozüyük, Eskişehir'e karayoluyla yakın olduğu için sevkiyat planlaması gerçekçi bir sürede kurulabilir; bu, özellikle fırın penceresi gibi kaçırılamayacak takvimlerde önemlidir. Aynı yakınlık ikame makine taahhüdünü de anlamlı kılar: pencere içinde bir arıza yaşanırsa yerine makine yola çıkar. Kritik bakım çevrimlerinde ise yedek makinenin baştan rezerve edilmesini öneriyoruz — kullanılmadığında sembolik bir bekleme bedeli doğar, kullanıldığında ise bir bakım çevriminin kaçmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Seramik tesisinde bölüm bazlı çalışma çerçevesi",
+                paragraflar: [
+                    "Bir seramik veya yapı malzemeleri tesisinde her bölümün bakım takvimi ve saha koşulu farklıdır. Aşağıdaki çerçeve, iş listesini bölümlere ayırırken kullandığımız temel haritadır.",
+                ],
+                tablo: {
+                    basliklar: ["Bölüm", "Takvim bağı", "Saha koşulu", "Erişim şekli"],
+                    satirlar: [
+                        ["Hammadde hazırlama", "Bağımsız", "Yoğun ince toz", "Yandan uzanma, yer gözcüsü"],
+                        ["Presleme", "Kısa duruşlara bağlı", "Toz ve titreşim", "Hat kenarından bom erişimi"],
+                        ["Sırlama", "Kısa duruşlara bağlı", "Islak ve kaygan zemin", "Temizlenmiş güzergâh"],
+                        ["Fırın hattı", "Soğuma penceresine bağlı", "Sıcaklık ve dar servis koridoru", "Gövde üzerine yandan uzanma"],
+                        ["Paketleme ve sevkiyat", "Bağımsız", "Forklift trafiği", "Hat kenarı ve raf üstü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Pencereyi kaçırmamanın operasyonel karşılığı",
+                paragraflar: [
+                    "Fırın gibi çevrimi uzun ekipmanlarda bakım penceresi kaçırıldığında kayıp yalnızca gecikme değildir: yapılamayan iş bir sonraki çevrime kalır, o çevrime kadar geçen sürede ilgili ekipmanın arıza olasılığı artar ve plansız bir duruş riski doğar. Bu yüzden pencere planlamasında bizden beklenen tek şey makine tedariki değil, takvim güvenilirliğidir. Uygulamamız şudur: pencere tarihi teyit edildiği anda makine rezerve edilir, teslimat penceresinden bir gün önceye planlanır ve sahada bekleme süresi kiralama süresine baştan yazılır.",
+                    "İkinci güvence, iş listesinin pencere süresine göre önceden sıralanmasıdır. Kritik kalemler başa alınır, ertelenebilir kalemler sona bırakılır. Böylece pencere beklenenden kısa kapanırsa bile en önemli işler tamamlanmış olur. Bu sıralamayı tesisin bakım şefiyle birlikte yapıyoruz ve yazılı olarak paylaşıyoruz.",
+                ],
+            },
+            {
+                baslik: "Çevre il servisinde mesafenin yönetimi",
+                paragraflar: [
+                    "Eskişehir merkezli çalışan bir kiralama ekibi için Bozüyük, günlük erişilebilir mesafededir; ancak nakliye maliyetinin işin toplamına oranı, kısa süreli kiralamalarda belirgin şekilde büyür. Bunu yönetmenin üç pratik yolu var. Birincisi, tarih esnekliği olan işleri bölgeye yapılan diğer sevkiyatlarla aynı güne bağlamak. İkincisi, tesisin tavan iş listesini biriktirip tek dönemde kapatmak. Üçüncüsü, uzun bakım çevrimlerinde makineyi sahada tutmak — böylece nakliye tek sefere iner.",
+                    "Acil taleplerde ise dürüst çerçeve şudur: planlı sevkiyat turunun dışına çıkan bir teslimat tam nakliye bedeliyle fiyatlanır ve bunu baştan söyleriz. Bir arıza durumunda bu bedel çoğu zaman kayıpla kıyaslanınca küçüktür; ama tekrarlayan acillerin asıl çözümü, yıllık bakım takvimini önceden paylaşmaktır — bu paylaşımı yapan tesislerde acil sevkiyat ihtiyacı belirgin şekilde azalıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fırın bakım penceremiz belli; makine ne zaman gelmeli?",
+                cevap:
+                    "Pencereden bir gün önce. Fırın soğuma eğrisi bakım süresini belirlediği için, güvenli sıcaklığa ulaşıldığı anda çalışmanın başlaması gerekir; o saatte makine yolda olamaz. Uygulamamız makineyi bir önceki gün teslim etmek, tesisin gösterdiği alanda şarjlı olarak bekletmek ve pencere açıldığı anda ilk iş kalemine başlamaktır. Sahada geçen bekleme süresini kiralama süresine baştan yazıyoruz, sonradan çıkan sürpriz kalem olmuyor. Pencere tarihinizi teyit ettiğiniz anda makineyi rezerve ediyoruz.",
+            },
+            {
+                soru: "Fırın gövdesinin üzerindeki noktalara nasıl ulaşılıyor?",
+                cevap:
+                    "Gövdenin yanındaki servis koridorundan yandan uzanarak. Makine koridora konumlanır, bomunu fırın gövdesinin üzerine kıvırır ve sepet baca, izolasyon ya da ölçüm noktasının hizasına gelir; gövdeye herhangi bir yük binmez. Bu senaryoda iki ölçü kritik: koridor genişliği ile hedefin park noktasından yatay uzaklığı. Seramik tesislerinde servis koridorları çoğu zaman dar olduğu için makinenin gövde ölçüsü ve dönüş yarıçapı, erişim mesafesi kadar belirleyici hâle geliyor. Koridor ölçüsünü ve hedef fotoğrafını paylaşırsanız uygun modeli net söyleyebiliriz.",
+            },
+            {
+                soru: "Sırlama hattımızın zemini sürekli ıslak; çalışılabilir mi?",
+                cevap:
+                    "Çalışılabilir, ancak hazırlıkla. Islak zemin frenleme mesafesini uzatır ve bom açıkken stabilite açısından ek risk oluşturur; bu yüzden makinenin park edeceği alan ve izleyeceği güzergâh çalışma öncesi kurutulur ya da temizlenir. Sürekli akış olan noktalarda ise çalışmayı hattın durduğu kısa dilime alıyoruz. Aynı bölümde sır ve kimyasal buharı varsa havalandırma durumu da kontrol edilir. Bu kalemleri iş izni formuna yazıyoruz ve teslimatta saha ekibinizle birlikte gözle doğruluyoruz; birkaç dakikalık hazırlık, en yaygın kayma riskini ortadan kaldırıyor.",
+            },
+            {
+                soru: "Toz yoğun bölümlerde çalışma güvenli mi?",
+                cevap:
+                    "Uygun düzen kurulduğunda evet. İnce toz iki ayrı sorun yaratır: zeminde kayganlık ve havada görüş kaybı. Birincisi güzergâh temizliğiyle, ikincisi yer gözcüsü uygulamasıyla yönetilir — sepetteki personelle sürekli görsel ve sesli iletişim kuran bir kişi aşağıda konumlanır. Aspirasyon sistemi devredeyse çalışmayı buna uygun saate almak görüşü belirgin iyileştirir. Toz birikiminin patlayıcı ortam sınıflandırmasına girdiği alanlar varsa bu alanlar standart makineye kapalıdır; oradaki işler temizlik ve ölçüm sonrası, üretimin durduğu pencerede yapılır.",
+            },
+            {
+                soru: "Paketleme bölümündeki işleri de fırın penceresine mi yazmalıyız?",
+                cevap:
+                    "Hayır, tam tersi. Paketleme, sevkiyat ve depo tarafındaki tavan işleri fırın takviminden bağımsızdır ve bunları pencereye yığmak, pencerenin gerçekten kritik kalemlere ayrılmasını engeller. Uygulamada tavan iş listenizi ikiye ayırıyoruz: pencereye bağlı olanlar ve olmayanlar. İkinci grup daha esnek tarihlere yayıldığı için hem sevkiyat açısından ekonomik oluyor hem de fırın günü sıkışmıyor. Bu ayrımı keşifte birlikte yapıp yazılı olarak paylaşıyoruz; bakım şefinizin takvimi belirgin şekilde rahatlıyor.",
+            },
+            {
+                soru: "Eskişehir'den geliyorsunuz; nakliye maliyeti bize ağır gelir mi?",
+                cevap:
+                    "Karayolu bağlantısı yakın olduğu için mesafe yönetilebilir düzeyde; belirleyici olan işin süresi. Kısa bir iş için tek başına sevkiyat yaptırmak oransal olarak pahalıdır. Bunu üç şekilde düşürüyoruz: tarih esnekliği olan işleri bölgeye yaptığımız diğer sevkiyatlarla aynı güne bağlamak, tesisin tavan iş listesini biriktirip tek dönemde kapatmak ve uzun bakım çevrimlerinde makineyi sahada tutmak. Acil ve tur dışı taleplerde tam nakliye bedeli uygulanır ve bunu baştan söyleriz. Yıllık bakım takviminizi paylaşırsanız planlı sevkiyatları buna göre kurgularız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bozüyük'ün Bilecik'teki sanayi ağırlığı ve bölgenin seramik-yapı malzemeleri üretimindeki yeri kamuya açık bilgidir; fırın soğuma penceresi, yer gözcüsü ve patlayıcı ortam sınıflandırması saha pratiği ve mevzuattan gelir.",
+    },
+
+    "bolge:polatli-ankara-cevre-ili": {
+        h1: "Polatlı'da Üretim Hattı Bakımı için Manlift Kiralama (Çevre İl)",
+        giris:
+            "Polatlı, Ankara'nın batı ucunda ve Eskişehir ile başkent arasındaki karayolu ekseninin üzerinde yer alır; bu konum, Eskişehir merkezli bir kiralama ekibi için ilçeyi doğal servis alanı hâline getirir. İlçenin üretim dokusunda tahıl işleyen tesisler belirgin bir ağırlığa sahiptir ve bu tesislerde bakım denince akla ilk gelen dikey depolama yapıları olsa da, günlük operasyonu asıl belirleyen şey işleme ve paketleme hattıdır: eleme ve temizleme ünitesi, taşıyıcı bantlar ve elevatör bağlantıları, dolum kantarı ve paketleme makineleri. Bu hat durduğunda tesisin girdi-çıktı dengesi bozulur ve kamyon trafiği birikir. İlçenin organize sanayi alanındaki üretim holleri ile ilçe merkezindeki işletmeler de benzer bir mantıkla çalışır. Bizim buradaki yaklaşımımız, işi hattın ritmine göre kurgulamak ve batı ekseninden gelen sevkiyatı bu ritme senkronlamaktır.",
+        maddeler: [
+            {
+                baslik: "İşleme hattının duruş ritmini okumak",
+                metin:
+                    "Tahıl işleyen bir tesiste hat, günün her saatinde aynı yoğunlukta çalışmaz; giriş kabulünün ve sevkiyatın seyreldiği saatler bakım için doğal boşluklar yaratır. Bu boşlukları kullanmak, tam bir üretim duruşu talep etmekten çok daha kolaydır ve çoğu tavan işi için yeterlidir. Uygulamada tesisin günlük akış grafiğine bakıp iş kalemlerini bu boşluklara dağıtıyoruz; makine sahada beklediği için her boşluk verimli kullanılır. Bu yöntem, işlerin tek bir uzun duruşa yığılmasını ve o duruşun kritik hâle gelmesini engeller.",
+            },
+            {
+                baslik: "Bant, elevatör ve dolum hattı üzerinde erişim",
+                metin:
+                    "Taşıyıcı bantlar ve elevatör bağlantıları, tavan altında uzun ve sürekli bir hat oluşturur; bu hattın üzerindeki kayış kılavuzları, sensörler, kapaklar ve aydınlatma noktalarına doğrudan altından ulaşmak çoğu zaman mümkün değildir. Bom tipi makine hat kenarına park eder ve sepet, hat boyunca kademeli olarak ilerleyerek noktaları sırayla kapatır. Teleskopik erişim uzun düz hatlarda park sayısını azaltarak zaman kazandırır; kısa aralıklı ve engelli bölgelerde ise eklemli makine daha kullanışlıdır. Çalışma boyunca ilgili hattın enerjisi kesilir ve panosu kilitlenir.",
+            },
+            {
+                baslik: "Toz birikimi olan kapalı hacimlerde alan sınıfı",
+                metin:
+                    "Tahıl ve un tozunun biriktiği kapalı hacimler, patlayıcı ortam açısından sınıflandırılmış olabilir ve bu alanlarda standart makine çalıştırılmaz. Bu sınır, tartışma konusu değil bir ön koşuldur: alan sınıfı tesisin İSG dokümanlarından öğrenilir, sınıflı alanlardaki işler temizlik ve havalandırma sonrası, ölçümle güvenli seviye doğrulandığında ve üretimin durduğu bir dilimde yapılır. Sınıf dışında kalan hacimlerde ise standart çalışma düzeni geçerlidir. İş listesini bu ayrım üzerinden değerlendirmek, hangi kalemin ne zaman yapılabileceğini baştan netleştirir.",
+            },
+            {
+                baslik: "Organize sanayi hollerinde standart hat bakımı",
+                metin:
+                    "İlçenin organize sanayi alanındaki üretim holleri, tahıl tesislerinden farklı olarak klasik hat bakımı senaryosuna girer: aydınlatma yenileme, çatı altı havalandırma, sprinkler hattı kontrolü, hat üstü kablo tavaları. Bu işlerde makine seçimi üç veriyle netleşir — hedefin zeminden yüksekliği, altının dolu olup olmadığı ve zemin durumu. Akülü makineler kapalı hollerde standart tercihimizdir. Bu grubun avantajı takvim esnekliğidir; tesisin duruş programına bağlı olmadıkları için sevkiyat açısından en ekonomik günlere yerleştirilebilirler.",
+            },
+            {
+                baslik: "Batı ekseninde sevkiyat ve tur birleştirme",
+                metin:
+                    "Eskişehir ile Ankara arasındaki karayolu ekseni, Polatlı'yı düzenli geçiş güzergâhımızın üzerine koyar. Bunun pratik karşılığı, tarih esnekliği olan işlerin bu geçişlere bağlanabilmesi ve nakliye payının bölünmesidir. Uzun iş listelerinde ise makinenin sahada kalması tercih edilir; nakliye tek sefere iner ve iş kalemleri hattın boşluklarına yayılarak tamamlanır. Acil ve tur dışı taleplerde tam sevkiyat bedeli uygulanır; bunu baştan açıkça söylüyoruz, sonradan çıkan kalem olmuyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis tipine göre çalışma düzeni",
+                paragraflar: [
+                    "İlçeden gelen taleplerin toplandığı tesis tipleri, bakım için kullanılabilir zaman dilimleri ve kritik kontrol kalemleri aşağıda sıralanmıştır. Bir tesiste birkaç satırın karşılığı birden bulunabilir; liste keşifte bu ayrıma göre bölünür.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Bakım fırsatı", "Kritik kontrol", "Makine tercihi"],
+                    satirlar: [
+                        ["Tahıl işleme hattı", "Giriş-sevkiyat boşlukları", "Enerji kesme ve kilitleme", "Bom tipi, hat boyu erişim"],
+                        ["Kapalı toz hacimleri", "Üretim duruşu", "Alan sınıfı ve ölçüm", "Sınıfa uygun düzen, pencereli"],
+                        ["Paketleme ve dolum", "Vardiya arası", "Hat üstü düşme koridoru", "Kompakt eklemli"],
+                        ["OSB üretim holleri", "Takvim esnek", "Yükseklik-altı-zemin üçlüsü", "Akülü makaslı veya eklemli"],
+                        ["Depo ve sevkiyat alanı", "Takvim esnek", "Forklift trafiği ayrımı", "Makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hattın boşluklarını iş listesine çevirmek",
+                paragraflar: [
+                    "Bir tesisin bakım şefiyle yaptığımız ilk çalışma, günlük akış grafiği ile tavan iş listesini yan yana koymaktır. Grafikte kabul ve sevkiyat yoğunluğunun düştüğü saatler işaretlenir; iş listesindeki her kalem, süresine göre bu boşluklardan birine yazılır. Kısa kalemler dar boşluklara, uzun kalemler günün en sakin dilimine gider. Makine sahada beklediği için boşluk açıldığında hazırlık süresi yoktur — bu, yöntemin bütün verimini sağlayan noktadır.",
+                    "Yöntemin ikinci faydası risk dağıtımıdır. Tüm işleri tek bir uzun duruşa yığmak, o duruşun her açıdan kritik hâle gelmesi demektir; bir aksaklık tüm listeyi erteler. Boşluklara yayılmış bir planda ise aksayan tek bir kalem, kendisinden sonraki kalemleri etkilemez. Uzun listelerde bu yaklaşım, toplam bakım süresini uzatmadan riski belirgin şekilde düşürüyor.",
+                ],
+            },
+            {
+                baslik: "Çevre il servisinde beklenti yönetimi",
+                paragraflar: [
+                    "Eskişehir merkezli bir ekipten Polatlı'ya hizmet alırken bilinmesi gereken şey, hızın mesafeden çok planlamaya bağlı olduğudur. Tarih esnekliği olan bir iş, eksende yapılan diğer sevkiyatlara bağlanarak hem hızlı hem ekonomik çözülür. Buna karşılık aynı gün içinde, planlı geçişlerin dışında bir teslimat isteniyorsa bunun bir maliyeti vardır ve gerçekçi süresi çoğu zaman ertesi gündür. Bu çerçeveyi baştan söylemeyi tercih ediyoruz; sahada beklenti uyuşmazlığı yaşamak, her iki taraf için de zaman kaybı.",
+                    "Kalıcı çözüm yıllık bakım takviminin paylaşılmasıdır. Tesisin planlı duruşları ve tekrarlayan kontrolleri önceden bilindiğinde makine rezervasyonu erkenden yapılır, sevkiyat eksene yerleştirilir ve acil talep ihtiyacı büyük ölçüde ortadan kalkar. Bu düzeni kuran tesislerde bakım maliyetinin öngörülebilir hâle geldiğini gözlemliyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hattımızı tamamen durdurmadan tavan işi yaptırabilir miyiz?",
+                cevap:
+                    "Çoğu iş için evet. Yöntemimiz, tesisin günlük akış grafiğindeki boşlukları kullanmak: kabul ve sevkiyat yoğunluğunun düştüğü saatlerde iş kalemlerini sırayla kapatıyoruz. Makine sahada beklediği için boşluk açıldığında hazırlık süresi olmuyor. Doğrudan hattın üzerine gelen ve hattın çalışmasıyla bağdaşmayan kalemlerde ise kısa bir duruş gerekir — ilgili hattın enerjisi kesilir ve panosu kilitlenir. İş listenizi akış grafiğinizle yan yana koyup hangi kalemin hangi dilime uygun olduğunu birlikte belirliyoruz.",
+            },
+            {
+                soru: "Taşıyıcı bant hattımız boyunca çok sayıda nokta var; nasıl bir plan yapılıyor?",
+                cevap:
+                    "Hattı bir güzergâh gibi ele alıyoruz. Makine hat kenarına park eder ve sepet, noktaları sırayla kapatarak hat boyunca ilerler; her park noktasında birden fazla hedefe ulaşılacak şekilde konumlanma planlanır. Uzun ve düz hatlarda teleskopik erişim park sayısını azaltarak belirgin zaman kazandırır; hat üzerinde engeller ve kısa aralıklar varsa eklemli makine daha kullanışlıdır. Çalışma süresince ilgili hattın enerjisi kesilir ve kilitlenir. Hat uzunluğunu, tavandan yüksekliğini ve nokta sayısını paylaşırsanız gerçekçi bir süre çıkarabiliriz.",
+            },
+            {
+                soru: "Kapalı hacimlerimizde toz birikimi var; özel bir kısıt var mı?",
+                cevap:
+                    "Var. Tahıl ve un tozunun biriktiği kapalı hacimler patlayıcı ortam açısından sınıflandırılmış olabilir ve sınıflı alanlarda standart makine çalıştırılmaz. Alan sınıfınızı İSG dokümanlarınızdan öğrenmenizi istiyoruz; bilinmiyorsa birlikte netleştiriyoruz. Sınıflı alanlardaki işler temizlik ve havalandırma sonrası, ortam ölçümüyle güvenli seviye doğrulandığında ve üretimin durduğu bir dilimde yapılır. Sınıf dışında kalan hacimlerinizde ise standart düzenle, beklemeden çalışılır. Bu ayrımı iş listesinin en başında yapmak, planın tıkanmasını önlüyor.",
+            },
+            {
+                soru: "Organize sanayi bölgesindeki fabrikamızın işleri için de özel bir takvim gerekiyor mu?",
+                cevap:
+                    "Gerekmiyor. Tahıl işleyen tesislerin akış ve alan sınıfı kısıtları, organize sanayi hollerindeki klasik hat bakımı işleri için geçerli değildir; aydınlatma, havalandırma, sprinkler ve kablo tavası kalemleri yıl boyu planlanabilir. Makine seçimi üç veriyle netleşiyor: hedefin zeminden yüksekliği, hedefin altının dolu olup olmadığı ve zemin durumu. Bu grubun avantajı takvim esnekliği — tarih konusunda esnek olduğunuzu belirtirseniz işi ekseninde yaptığımız sevkiyatlara bağlayıp nakliye payını düşürebiliyoruz.",
+            },
+            {
+                soru: "Hattımız beklenmedik şekilde arızalandı; ne kadar sürede gelebilirsiniz?",
+                cevap:
+                    "Dürüst cevap: planlı geçişlerimizin dışına çıkan bir teslimat tam sevkiyat bedeliyle fiyatlanır ve gerçekçi süre çoğu zaman ertesi gündür. Aynı gün mümkün olan durumlar oluyor ama bunu peşinen taahhüt etmiyoruz. Arıza anında yapabileceğimiz en hızlı şey, sorunun gerçekten platform gerektirip gerektirmediğini telefonda netleştirmek ve uygun sınıftaki en yakın makineyi yola çıkarmaktır. Bu tür telefonların tekrarını azaltmanın yolu ise planlı bakım: tekrarlayan kontrolleriniz takvime bağlandığında ani arıza sayısı belirgin şekilde düşüyor.",
+            },
+            {
+                soru: "Yıllık bakım takvimimizi paylaşmamızın bize somut faydası ne?",
+                cevap:
+                    "Üç somut fayda var. Birincisi rezervasyon güvencesi: planlı duruş tarihleriniz bilindiğinde makine önceden ayrılır ve o tarihte başka bir işe verilmez. İkincisi maliyet: sevkiyatlar Eskişehir-Ankara ekseninde yaptığımız geçişlere yerleştirildiği için nakliye payı düşer. Üçüncüsü öngörülebilirlik: yıllık bakım bütçenizde platform kalemi tahmine değil takvime dayanır. Bunun için ayrıntılı bir doküman gerekmiyor; hangi ekipmanın hangi dönemde bakıma gireceğini gösteren kaba bir liste, planlamayı kurmamıza yetiyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Polatlı'nın Ankara'nın batısındaki konumu ve tahıl işleyen tesis yoğunluğu kamuya açık bilgidir; patlayıcı ortam sınıflandırması ve kilitle-etiketle uygulamaları mevzuattan, akış boşluğu planlaması saha pratiğinden gelir.",
     },
 };
