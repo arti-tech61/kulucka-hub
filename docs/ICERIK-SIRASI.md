@@ -129,6 +129,12 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `izmirplatformkiralama.org` | **9/9** | 0 | 0 | ✅ TAMAM — KOBİ bütçe ekonomisi açısı |
+| `istanbul-platform.com` | **8/8** | 0 | 0 | ✅ TAMAM — fiyat şeffaflığı açısı |
+| `istanbuldaplatform.com` | **7/7** | 0 | 0 | ✅ TAMAM — kurumsal proje yönetimi açısı |
+| `platformmanisa.com` | 5/9 | 0 | 0 | 🟡 devam — Manisa yerelli bakım operasyonu |
+| `manisaforklift.com` | 4/8 | 0 | 0 | 🟡 devam — forklift operasyon mükemmelliği |
+| `konyaplatform.net` | 5/10 | 0 | 0 | 🟡 devam — ağır hizmet/Konya yerelli |
 | `istanbulplatformkiralama.net` | **8/8** | 0 | 0 | ✅ TAMAM — tersane açısı (paralel ajan) |
 | `bursamanlift.net` | **9/9** | 0 | 0 | ✅ TAMAM — cephe-çatı açısı, ilk Bursa (paralel ajan) |
 | `bursamanliftkiralama.net` | **10/10** | 0 | 0 | ✅ TAMAM — uzun dönem sözleşme açısı (paralel ajan) |

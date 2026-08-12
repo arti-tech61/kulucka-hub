@@ -48,6 +48,12 @@ import { IZMIRMANLIFTKIRALAMA_ORG } from "./bespoke/izmirmanliftkiralama-org";
 import { ISTANBULPLATFORMKIRALAMA_NET } from "./bespoke/istanbulplatformkiralama-net";
 import { BURSAMANLIFT_NET } from "./bespoke/bursamanlift-net";
 import { BURSAMANLIFTKIRALAMA_NET } from "./bespoke/bursamanliftkiralama-net";
+import { IZMIRPLATFORMKIRALAMA_ORG } from "./bespoke/izmirplatformkiralama-org";
+import { ISTANBUL_PLATFORM_COM } from "./bespoke/istanbul-platform-com";
+import { ISTANBULDAPLATFORM_COM } from "./bespoke/istanbuldaplatform-com";
+import { PLATFORMMANISA_COM } from "./bespoke/platformmanisa-com";
+import { MANISAFORKLIFT_COM } from "./bespoke/manisaforklift-com";
+import { KONYAPLATFORM_NET } from "./bespoke/konyaplatform-net";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -139,6 +145,12 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "istanbulplatformkiralama.net": ISTANBULPLATFORMKIRALAMA_NET,
     "bursamanlift.net": BURSAMANLIFT_NET,
     "bursamanliftkiralama.net": BURSAMANLIFTKIRALAMA_NET,
+    "izmirplatformkiralama.org": IZMIRPLATFORMKIRALAMA_ORG,
+    "istanbul-platform.com": ISTANBUL_PLATFORM_COM,
+    "istanbuldaplatform.com": ISTANBULDAPLATFORM_COM,
+    "platformmanisa.com": PLATFORMMANISA_COM,
+    "manisaforklift.com": MANISAFORKLIFT_COM,
+    "konyaplatform.net": KONYAPLATFORM_NET,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
