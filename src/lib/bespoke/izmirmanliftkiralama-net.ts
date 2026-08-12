@@ -511,4 +511,400 @@ export const IZMIRMANLIFTKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. MYK belge zorunluluğu mevzuattır; Bergama'nın operatör havuzu gerçeği ve uzak saha lojistiği firma pratiğidir. Kaza desenleri sektör İSG istatistiklerinin genel bilgisidir.",
     },
+
+    "bolge:menemen-deri-osb": {
+        h1: "Menemen Deri OSB'de Kimyasal Ortam İSG'siyle Manlift Kiralama",
+        giris:
+            "Deri işleme tesislerinde yüksekte çalışmanın gerçek zorluğu yükseklik değil, altındaki kimyadır: tabaklama prosesinin asit ve baz banyoları, sülfür bileşikleri ve çözücüler, platform işine sıradan bir sanayi holünde bulunmayan bir risk katmanı ekler. Menemen Deri OSB'deki işlerimizde İSG planı bu katmandan başlar — hangi bölümde hangi kimyasal var, hangi noktada gaz ölçümü gerekir, operatör hangi KKD setiyle çalışır ve acil durumda tahliye nereden yapılır. Belgeli operatörlü modelimizin bu bölgedeki değeri tam burada ortaya çıkar: kimyasal ortam deneyimi olan operatör, riski bilerek çalışır ve işletmenin İSG ekibiyle aynı dili konuşur. İhtisas OSB'nin homojen yapısı, bir kez kurulan güvenlik düzeninin tüm bölgeye taşınabilmesi demektir.",
+        maddeler: [
+            {
+                baslik: "Kimyasal risk haritası: iş planının ilk adımı",
+                metin:
+                    "Deri tesisindeki platform işi, tesisin kimyasal envanteriyle başlar: ıslak bölümün banyo kimyasalları, sprey boyama alanlarının çözücüleri ve atık hatlarının gaz üretme potansiyeli (H2S) haritalanır. Bu harita üç kararı belirler — hangi alanlarda gaz ölçümü ön koşuldur, hangi işler havalandırma sonrası pencereye alınır ve operatör hangi KKD setiyle (maske tipi, filtre sınıfı) çalışır. Harita çoğu tesiste İSG ekibinde hazırdır; yoksa keşifte birlikte çıkarılır ve sonraki tüm işlerde kullanılır.",
+            },
+            {
+                baslik: "Kapalı ve az havalandırılan noktalarda ölçüm disiplini",
+                metin:
+                    "Tesislerin atık kanalı çevresi, bodrum kotları ve kapalı tank yakınları, gaz birikimi riski taşıyan noktalardır ve buralardaki yüksekte çalışma, ölçüm ön koşuluna bağlanır: çalışma öncesi ölçüm, sepette taşınan sürekli ölçüm cihazı ve alarm limitinde işin tartışmasız durdurulması. Operatörlerimiz bu disiplinle çalışır ve ölçüm kayıtları iş dosyasına girer. 'Kokuyu duyunca çıkarız' yaklaşımı bu ortamlarda ölümcüldür — H2S yüksek konsantrasyonda koku duyusunu felç eder.",
+            },
+            {
+                baslik: "Operatör KKD ve sağlık gözetimi",
+                metin:
+                    "Kimyasal ortamda çalışan operatörün donanımı standart setin üzerindedir: ortama uygun solunum koruması, kimyasala dayanıklı eldiven-tulum ve göz koruması tesis envanterine göre seçilir. Sağlık gözetimi tarafında operatörlerimizin periyodik muayene kayıtları günceldir ve kimyasal maruziyet gerektiren işlere uygunlukları belgelidir. Bu dosya, tesisin İSG sistemine yüklenici kaydında girer — denetimde 'yüklenici personeli gözetimi' başlığı hazır kapanır.",
+            },
+            {
+                baslik: "Asma kat ve kurutma katlarında yapısal güvenlik",
+                metin:
+                    "Deri tesislerinin asma katlı kurutma alanları, yapısal güvenlik kontrolünün en kritik olduğu noktadır: kat taşıma kapasitesi makine ağırlığıyla belgeli olarak karşılaştırılmadan çalışma başlamaz. Kapasite raporu yoksa iki yol vardır — statik değerlendirme yaptırmak veya erişimi kat altından (eklemli bomla) kurmak. İkinci yol çoğu durumda hem hızlı hem kesin güvenlidir ve dar şase gerektirmez; kurutma katı işlerinde ilk önerimiz budur. Bu kararın kaydı, iş dosyasında yapısal güvenlik satırı olarak yer alır.",
+            },
+            {
+                baslik: "OSB ortak altyapısında izinli çalışma",
+                metin:
+                    "Arıtma tesisi, kimyasal depo sahası ve pompa istasyonları OSB yönetiminin iş izni sistemine tabidir ve gaz riski nedeniyle bu izinler ölçüm şartlıdır. Operatörlü modelde iznin personel ayağı (eğitim, sağlık, KKD kayıtları) bizden hazır gider; işletme tarafında alan sorumlusu ve refakat düzeni kalır. Havuz üstü ve boru köprüsü işlerinde düşmeye karşı çift koruma (platform + yapısal ankraj değerlendirmesi) uygulanır — su üstü çalışmanın kendine özgü kurtarma planı iş öncesi kurulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Deri OSB'de alan-risk-önlem matrisi",
+                paragraflar: [
+                    "Bölge tesislerindeki alan tiplerinin risk profili ve çalışma önkoşulları aşağıdadır. Matris, her yeni işin İSG planına temel oluşturur.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Ana risk", "Önkoşul", "Operatör donanımı"],
+                    satirlar: [
+                        ["Islak bölüm (banyolar)", "Kimyasal buhar, ıslak zemin", "Havalandırma kontrolü, hız sınırı", "Solunum + kimyasal KKD"],
+                        ["Atık hattı / bodrum kotu", "H2S birikimi", "Ölçüm + sürekli cihaz", "Gaz cihazı + tam set"],
+                        ["Kurutma katları", "Yapısal kapasite", "Kapasite belgesi veya alt erişim", "Standart + kat planı"],
+                        ["Sprey / finisaj", "Çözücü buharı", "Havalandırma penceresi", "Filtre sınıfına göre maske"],
+                        ["OSB arıtma sahası", "Gaz + su üstü çalışma", "İzin + ölçüm + kurtarma planı", "Tam set + can yeleği (havuz üstü)"],
+                    ],
+                },
+            },
+            {
+                baslik: "İş dosyası: denetimden önce denetime hazır",
+                paragraflar: [
+                    "Deri OSB işlerinde her iş, kapanışında bir dosya bırakır: kimyasal risk değerlendirmesi, ölçüm kayıtları, kullanılan KKD seti, yapısal kontrol satırı (asma kat işlerinde), izin belgeleri ve iş sonu saha notu. Bu dosya işletmenin İSG klasörüne doğrudan girer ve hem resmi denetimde hem müşteri denetiminde 'yüksekte çalışma + kimyasal ortam' başlıklarını kanıtlarıyla kapatır.",
+                    "Tekrarlayan işlerde dosyalar birikimli bir geçmiş oluşturur: hangi alanda ne zaman ne yapıldı, hangi ölçüm ne gösterdi. Bu geçmiş, tesisin kendi risk değerlendirmesini güncellerken de kullanılabilir — kiralamanın görünmeyen ama kalıcı değeri budur.",
+                ],
+            },
+            {
+                baslik: "Acil durum planı: kimyasal ortamda yüksekte kurtarma",
+                paragraflar: [
+                    "Yüksekte çalışan operatörün kimyasal ortamda fenalaşması, iki riskin bileşimidir ve standart acil planla yönetilemez: sepetteki kişiye ulaşma süresi, gazlı ortamda kurtarıcının da korunmasını gerektirir. Bu yüzden deri tesislerindeki işlerde acil plan iş öncesi kurulur — acil iniş sisteminin yer seviyesinden kullanımı saha ekibine gösterilir, kurtarma sırasında kimin hangi KKD ile yaklaşacağı belirlenir ve tesis revirinin/112 akışının bilgisi plana işlenir.",
+                    "Bu plan çoğu işte hiç kullanılmaz — ama varlığı, hem yasal gereklilik hem de gerçek güvencedir. Operatörlerimiz planın kurulmadığı sahada yüksekte çalışmaya başlamaz; bu, esnetilebilir bir tercih değil çalışma standardımızdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tabakhanemizde platform işi için önce ne yapmalıyız?",
+                cevap:
+                    "Kimyasal risk haritanızı paylaşın — İSG ekibinizde büyük olasılıkla hazırdır: hangi bölümde hangi kimyasal, hangi noktalar az havalandırılıyor. Bu harita üzerinden gaz ölçüm noktaları, çalışma pencereleri ve operatör KKD seti belirlenir; makine (korumalı aksamlı akülü) ve operatör buna göre hazırlanıp gelir. Harita yoksa keşifte birlikte çıkarıyoruz ve sonraki tüm işlerinizde kullanılıyor. İlk işin hazırlığı bu yüzden birkaç gün ister; sonrakiler rutindir.",
+            },
+            {
+                soru: "Atık kanalı üzerindeki boru hattında iş var; özel önlem gerekir mi?",
+                cevap:
+                    "Evet — H2S protokolü: çalışma öncesi gaz ölçümü, sepette sürekli ölçüm cihazı ve alarm limitinde tartışmasız duruş. H2S yüksek konsantrasyonda koku duyusunu devre dışı bıraktığı için 'kokarsa çıkarız' yaklaşımı geçersizdir — ölçüm cihazsız bu noktalarda çalışmıyoruz. Operatör uygun solunum korumasıyla çalışır, kurtarma planı iş öncesi kurulur ve ölçüm kayıtları dosyanıza girer. Bu iş tipini talepte 'atık hattı çevresi' olarak işaretlemeniz hazırlığı doğru başlatır.",
+            },
+            {
+                soru: "Kurutma katımızın taşıma kapasitesini bilmiyoruz; iş yapılabilir mi?",
+                cevap:
+                    "Yapılır — ama katın üzerine makine çıkarmadan: erişim kat altından eklemli bomla kurulur, hedefe yanal ulaşılır ve yapısal belirsizlik riski tamamen ortadan kalkar. Bu çoğu kurutma katı işinde zaten en hızlı çözümdür. Kat üstü çalışma isteniyorsa önce statik değerlendirme gerekir — kapasite belgesi olmadan asma kata makine çıkarmıyoruz; bu, deri tesislerindeki en ciddi yapısal risktir ve 'bugüne kadar bir şey olmadı' kanıt değildir.",
+            },
+            {
+                soru: "Operatörünüzün kimyasal ortam donanımı kimin sorumluluğunda?",
+                cevap:
+                    "Standart ve kimyasal KKD seti (solunum koruması, dayanıklı eldiven-tulum, göz koruması) operatörümüzle birlikte bizden gelir; filtre sınıfı, tesisinizin kimyasal envanterine göre seçilir. Sağlık gözetimi kayıtları günceldir ve yüklenici dosyanıza girer. Tesise düşen taraf, alan-özel bilgilendirmedir: hangi banyoda ne var, hangi saatte hangi proses çalışıyor. Bu bilgi keşifte alınır — doğru filtreyle gelen operatör, sahada donanım beklemez.",
+            },
+            {
+                soru: "OSB arıtma havuzunun üzerindeki yürüyüş yolunda iş var; nasıl planlanır?",
+                cevap:
+                    "Üç katmanlı planla: OSB iş izni ve gaz ölçüm şartı (yönetim sistemi üzerinden), su üstü çalışma önlemi (kurtarma planı, gerekirse can yeleği) ve platform erişiminin havuz kenarından güvenli kurulumu (zemin ve devrilme mesafesi kontrolü). Operatörlü modelde iznin personel ayağı hazır gider; alan sorumlusu ve refakat tesisçe sağlanır. Bu işler kısa ama hazırlığı yoğundur — talebi izin süreciyle birlikte, birkaç gün payla açın.",
+            },
+            {
+                soru: "Denetimde kimyasal ortam + yüksekte çalışma kesişimi soruluyor; dosyanız yeterli mi?",
+                cevap:
+                    "Evet — tam bu kesişim için tasarlandı: kimyasal risk değerlendirmesi, ölçüm kayıtları, KKD seti kaydı, yapısal kontrol satırı, izinler ve saha notu tek dosyada teslim edilir. Resmi denetimde 'yüklenici yönetimi' ve 'yüksekte çalışma' başlıklarını, müşteri denetiminde kimyasal güvenlik beklentisini kanıtlarıyla kapatır. Tekrarlayan işlerde dosyalar birikir ve tesisinizin risk değerlendirme güncellemelerine veri sağlar — bu arşiv, kiralamanın kalıcı değeridir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Deri prosesinin kimyasal envanteri (asit/baz banyoları, H2S riski) sektör bilgisidir; ölçüm ve kurtarma disiplinleri İSG mevzuat çerçevesidir.",
+    },
+
+    "bolge:tire-osb": {
+        h1: "Tire OSB'de Gıda Güvenliği Uyumlu Manlift Kiralama",
+        giris:
+            "Süt işleme tesisinde çalışacak bir platform operatörü, iki ayrı dünyanın kurallarını aynı anda taşır: yüksekte çalışmanın İSG rejimi ve gıda güvenliğinin hijyen rejimi. Tire OSB'nin süt ürünleri ağırlıklı dokusunda bu çifte uyum, kiralamanın asıl konusudur — makine herkes tarafından bulunabilir; sağlık raporu güncel, hijyen eğitimi kayıtlı, gıda sahası refleksleri oturmuş operatörle birlikte gelen makine ise bölgede gerçek ihtiyacın karşılığıdır. Belgelendirme baskısı bu ihtiyacı büyütür: BRC/IFS denetimleri ve zincir market tedarik şartnameleri, tesise giren her yüklenicinin kayıtlarını sorgular. İşlerimiz bu sorguya hazır dosyayla yapılır; süt prosesinin durmaz ritmi içinde iş pencereleri kalite ekibiyle birlikte planlanır.",
+        maddeler: [
+            {
+                baslik: "Operatörün gıda sahası dosyası",
+                metin:
+                    "Gıda tesisine giren operatörün dosyası, İSG belgelerinin ötesine geçer: güncel sağlık raporu (portör muayenesi dahil), hijyen eğitimi kaydı, tesise uygun kıyafet-bone-galoş düzeni ve davranış taahhüdü (takı, kişisel eşya, belirlenmiş alanlar). Operatörlerimizin gıda profili bu seti hazır taşır ve tesisinizin yüklenici kayıt sistemine doğrudan girer. Denetimde 'tesise giren yüklenici personeli' sorgusu, eksiksiz dosyayla kapanır — son dakika sağlık raporu koşturması yaşanmaz.",
+            },
+            {
+                baslik: "Alet ve yabancı madde disiplini",
+                metin:
+                    "Süt tesisinde sepetten düşen bir vida, hat durdurma ve parti imha nedenidir. Çalışma disiplinimiz buna göre kuruludur: sepete çıkan her alet listelenir ve bağlanır, sarf malzemesi sayımla girer-çıkar, makine üzerinde gevşek parça kontrolü iş öncesi yapılır ve kırılabilir malzeme (cam, sert plastik) tesis kuralına göre yönetilir. Bu disiplinin kaydı, tesisin yabancı madde (cam-sert plastik) prosedürüne entegre formatta tutulur — kalite ekibi kendi sistemine doğrudan işler.",
+            },
+            {
+                baslik: "Hijyen bariyerleri ve makine hazırlığı",
+                metin:
+                    "Makine, gıda tesisine üretim ekipmanı titizliğiyle girer: sevkiyat öncesi yıkama-dezenfeksiyon, hidrolik kaçak kontrolünün belgelenmesi, iz bırakmayan lastik ve tesis içinde bölge geçişlerinde tekerlek dezenfeksiyonu (paspas/havuz düzenine uyum). Islak alan çalışmalarında (CIP dönüşü henüz kurumamış zeminler) hız ve dönüş kuralları uygulanır. Bu hazırlığın kaydı makine dosyasında yer alır ve denetimde 'tesise giren ekipman' sorgusunu karşılar.",
+            },
+            {
+                baslik: "Soğuk alan çalışmasında operatör sağlığı",
+                metin:
+                    "Soğuk depo ve olgunlaştırma odalarındaki uzun işlerde operatör maruziyeti planlanır: soğukta kesintisiz çalışma süreleri sınırlanır, ısınma molaları iş bloklarına işlenir ve uygun termal kıyafet kullanılır. Bu yalnızca konfor değil güvenlik konusudur — üşüyen elin hassasiyeti düşer, yüksekte hata payı artar. Akünün soğukta azalan performansıyla operatörün mola ritmi birlikte planlandığında ikisi de aynı pencereye oturur ve iş verimli akar.",
+            },
+            {
+                baslik: "Belgelendirme takvimine hizalı çalışma",
+                metin:
+                    "Tire tesislerinin BRC/IFS ve müşteri denetim takvimleri, platform işlerinin doğal takvimidir: denetim öncesi hazırlık dalgası (tavan, aydınlatma, sinek-kuş önleme) ve denetim sonrası bulgu kapatma işleri. İki dalgayı da denetim tarihinden geriye planlıyoruz — hazırlık en geç iki hafta önce biter, bulgu kapatma ise termin süresine göre önceliklenir. Denetim dosyasına girecek yüklenici kayıtlarımız formatlıdır; kalite ekibinin ek çevirisine gerek kalmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gıda tesisinde yüklenici uyum seti",
+                paragraflar: [
+                    "Süt işleme tesisine platform işi için giren ekibin uyum seti aşağıdadır. Bu set, BRC/IFS tipi denetimlerin yüklenici başlığına doğrudan karşılık gelir.",
+                ],
+                tablo: {
+                    basliklar: ["Uyum kalemi", "İçerik", "Kayıt", "Sorumlu"],
+                    satirlar: [
+                        ["Operatör sağlık", "Rapor + portör + hijyen eğitimi", "Yüklenici dosyası", "Biz"],
+                        ["Makine hijyeni", "Dezenfeksiyon + kaçak kontrolü", "Makine giriş kaydı", "Biz"],
+                        ["Alet disiplini", "Liste + bağlama + sayım", "Yabancı madde formu", "Biz + kalite"],
+                        ["Bölge geçişleri", "Kıyafet + tekerlek dezenfeksiyonu", "Tesis prosedürü", "Birlikte"],
+                        ["İş pencereleri", "CIP / duruş bloklarına hizalama", "İş planı", "Birlikte"],
+                    ],
+                },
+            },
+            {
+                baslik: "Denetim öncesi ve sonrası: iki dalgalı iş modeli",
+                paragraflar: [
+                    "Belgelendirmeli tesislerde platform ihtiyacı iki öngörülebilir dalgada gelir. Hazırlık dalgası denetimden 3-4 hafta önce başlar ve en geç iki hafta önce biter: tavan-boru üstü temizlik erişimi, aydınlatma yenileme, sinek-kuş önleme montajı, boya-onarım. Bulgu kapatma dalgası denetim raporuyla gelir ve termin baskısı taşır: minör bulgular ilk uygun pencerede, majörler önceliklendirilmiş planla kapatılır. İki dalgayı tek çerçevede planlayan tesisler, hem makine güvencesi hem maliyet avantajı kazanır.",
+                    "Denetim tarihiniz netleştiğinde geriye doğru takvim kuruyoruz; bulgu raporu geldiğinde ise kapatma işleri, kanıt fotoğrafı ve kayıt düzeniyle birlikte teslim ediliyor — denetçiye sunulacak dosya, işin doğal çıktısıdır.",
+                ],
+            },
+            {
+                baslik: "Süt prosesi penceresinde operatör-kalite iş birliği",
+                paragraflar: [
+                    "Durmaz proseste iş penceresi kalite ekibinin onayıyla açılır ve operatörün pencere disiplini işin sigortasıdır: blok süresine sığmayan iş zorlanmaz, sonraki pencereye devredilir; zon kapanış onayı alınmadan bariyer kaldırılmaz; her pencere açılış-kapanış saatiyle kayda girer. Bu ritim, kalite ekibinin platform işini 'risk' değil 'yönetilen rutin' olarak görmesini sağlar — ve sonraki işlerin onay süreci kısalır.",
+                    "CIP bloklarına hizalanan işlerde operatörümüz, zonun kapalı-temiz statüsünü kalite onayından teyit ederek başlar. Bu çift kontrol (bizim disiplinimiz + tesisin onayı), gıda güvenliği kültürünün platform işine yansımasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörünüz süt tesisimize hangi belgelerle girer?",
+                cevap:
+                    "Gıda sahası tam setiyle: güncel sağlık raporu ve portör muayenesi, hijyen eğitimi kaydı, MYK operatör belgesi ve İSG eğitim dosyası. Kıyafet düzeni (bone, galoş, tesise uygun tulum) ve davranış kuralları taahhüdü sete dahildir. Dosya, yüklenici kayıt sisteminize hazır formatta sunulur ve denetimlerde 'tesise giren yüklenici personeli' başlığını kapatır. Gıda deneyimli operatör ataması için talepte tesis tipinizi belirtmeniz yeterlidir.",
+            },
+            {
+                soru: "Hat üzerinde çalışırken vida düşerse ne olur? Bunu nasıl önlüyorsunuz?",
+                cevap:
+                    "Önleme katmanlı kuruludur: sepete çıkan her alet listelenip bağlanır (tool lanyard), sarf malzemesi sayımla giriş-çıkış yapar, makine gevşek parça kontrolünden geçer ve çalışma altı bariyer + gerekirse toplama örtüsüyle korunur. Açık ürün zonunun üzerinde ise hiç çalışılmaz — o işler CIP penceresine alınır. Buna rağmen şüpheli durumda dürüstlük ilkesi geçerlidir: olası düşme anında iş durur ve kalite ekibinize derhâl bildirilir — saklanan şüphe, gıda tesisinde en büyük ihanettir.",
+            },
+            {
+                soru: "BRC denetimimiz var; sizin kayıtlarınız denetçiye sunulabilir mi?",
+                cevap:
+                    "Evet — formatı buna göre tasarlandı: operatör dosyası, makine hijyen kaydı, yabancı madde disiplini formları, iş pencereleri kaydı ve iş sonu notları, yüklenici yönetimi başlığının kanıt seti olarak doğrudan sunulabilir. Denetim öncesi hazırlık işlerinde ayrıca kanıt fotoğrafı düzeni tutuyoruz. Kalite ekibinizin kendi formatı varsa kayıtları ona uyarlıyoruz — çeviri yükü size kalmaz.",
+            },
+            {
+                soru: "Soğuk depomuzdaki uzun iş operatör için sorun olur mu?",
+                cevap:
+                    "Planlanırsa olmaz: soğukta kesintisiz çalışma süreleri sınırlanır, ısınma molaları bloklara işlenir ve operatör termal donanımla çalışır. Bu plan aynı zamanda işin kalitesidir — üşümüş elin hassasiyeti düşer ve yüksekte hata payı artar; molasız 'hızlı bitirme' aslında yavaşlatır. Akünün soğuk performans planıyla operatör mola ritmi aynı pencereye oturtulur; soğuk oda işleri bu düzenle, tahmin edilen sürede ve güvenle biter.",
+            },
+            {
+                soru: "Denetim bulgumuz çıktı, iki haftada kapatmamız gerekiyor; yetişir mi?",
+                cevap:
+                    "Çoğu durumda evet — bulgu kapatma bizim öncelikli iş kategorimizdir: rapor geldiği gün işler sınıflanır (platform gerektiren/gerektirmeyen), gerektiren kalemler ilk uygun pencerelere yerleştirilir ve her kapatma, kanıt fotoğrafı + kayıtla teslim edilir. Termin baskılı işlerde makine-operatör çifti öncelikli atanır. Tek risk, bölgesel yoğunluk dönemleridir — bu yüzden bulgu raporunu aldığınız gün aramanız, terminin garantisidir.",
+            },
+            {
+                soru: "Tesisimizde birden fazla yüklenici çalışıyor; sizin ekip nasıl ayrışır?",
+                cevap:
+                    "Kayıt ve alan disipliniyle: ekibimiz kendi yüklenici kaydıyla, tanımlı alanda, onaylı pencerede çalışır ve diğer yüklenicilerin alanlarıyla kesişim, tesis koordinasyonuna bağlanır. Ortak alan kullanımı (koridor, geçiş) gerektiğinde saat planı kurulur. Bu ayrışmanın pratik değeri denetimde görünür — hangi işin kime ait olduğu, kayıtlardan tartışmasız okunur. Çok yüklenicili dönemlerde (büyük revizyon, denetim hazırlığı) koordinasyon toplantısına katılırız; iş planımız ortak takvime hizalanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Süt tesislerinin BRC/IFS yüklenici beklentileri ve portör/hijyen şartları sektör standartlarıdır; iki dalgalı denetim modeli firma pratiğidir.",
+    },
+
+    "bolge:manisa-osb-cevre-ili": {
+        h1: "Manisa OSB'de Kurumsal Yüklenici Uyumlu Manlift Kiralama (Çevre İl)",
+        giris:
+            "Manisa OSB'nin küresel üreticileriyle çalışmak, bir yeterlilik sınavından geçmektir: yüklenici olarak kabul edilmeden önce İSG performans geçmişiniz, belge altyapınız, sigorta limitleriniz ve personel dosyalarınız sistematik olarak sorgulanır — ve bu sorgu her yıl yenilenir. Bölgedeki beyaz eşya ve elektronik devlerinin yüklenici yönetim sistemleri, Türkiye'deki en olgun örneklerdendir; platform kiralama gibi 'küçük' görünen bir hizmet bile aynı elemeden geçer. İzmir merkezli operasyonumuz bu sistemlere kayıtlı çalışma pratiğine sahiptir: ön yeterlilik dosyamız hazırdır, operatör kayıtlarımız günceldir ve saha kurallarına uyum, sözleşme maddesi değil çalışma alışkanlığıdır. Sabuncubeli bağlantısı, bu uyumu İzmir hızıyla birleştirir.",
+        maddeler: [
+            {
+                baslik: "Ön yeterlilik: işin başlamadan kazanıldığı yer",
+                metin:
+                    "Kurumsal tesislerin yüklenici sistemine giriş, ön yeterlilik dosyasıyla başlar: firma belgeleri, İSG politikası ve performans kayıtları, sigorta poliçeleri (işveren mali mesuliyet dahil), ekipman belgeleri ve personel yeterlilikleri. Dosyamız bu sorgulara standart formatta hazırdır ve ilk kayıt, tesisin süreç hızında tamamlanır. Kayıt sonrası her iş, yalnızca iş-özel adımları (çalışma izni, alan onayı) bekler — bu yüzden ilk kiralamayı erken planlamak, sonraki tüm işlerin hızını satın almaktır.",
+            },
+            {
+                baslik: "Saha İSG kurallarına operasyonel uyum",
+                metin:
+                    "Bu tesislerin saha kuralları ayrıntılıdır ve tavizsiz uygulanır: hız limitleri, yaya yolları, telefon kullanımı, KKD standardı, atık ayrımı — platform operatörü bu kuralların tamamına tabidir. Operatörlerimizin kurumsal saha deneyimi burada belirleyicidir: kural setini bilen operatör, saha İSG ekibiyle sürtüşme üretmez ve iş, gözetim yükü yaratmadan akar. İhlalin sonucu bu sahalarda nettir (puan sistemi, saha yasağı) ve bizim sicilimizin temizliği, müşterilerimizin de referansıdır.",
+            },
+            {
+                baslik: "Çalışma izni sistemlerinde platform işi",
+                metin:
+                    "Kurumsal tesislerin izin sistemleri (yüksekte çalışma izni, sıcak iş, kapalı alan) dijitalleşmiştir ve platform işi çoğunlukla 'yüksekte çalışma' iznine bağlanır: risk değerlendirmesi, düşme önleme planı, ekipman kontrol kaydı ve onay zinciri. İzin dosyasının teknik ayağını (makine belgeleri, kontrol kayıtları, operatör yeterlilikleri) hazır formatta sağlıyoruz; işletme ayağı (alan sorumlusu onayı) tesis içinde kalır. Günlük izin yenileme düzeninde operatörümüz, sabah izin turunu saha ekibiyle birlikte tamamlar.",
+            },
+            {
+                baslik: "Üretim alanında davranış standardı",
+                metin:
+                    "Takt süreli üretim hatlarının yanında çalışmak, davranış standardı ister: hat personeliyle temasın sınırları, fotoğraf-video yasağı (ürün gizliliği), yabancı madde disiplini ve hat durdurma butonlarına mesafe. ESD kontrollü ve temiz alan yaklaşımlı bölgelerde ek katmanlar devreye girer. Operatörlerimiz bu standartla çalışır; tesisin oryantasyon eğitimini alır ve alan-özel kuralları iş planına işler. 'Dışarıdan gelen ekip' riski, bu disiplinle 'sistemin parçası' güvenine dönüşür.",
+            },
+            {
+                baslik: "Çevre ilden kurumsal hizmetin lojistiği",
+                metin:
+                    "Sabuncubeli bağlantısı, İzmir filosunu Manisa OSB'ye fiilen komşu yapar: teslimat 1-2 iş günü, ikame ve teknisyen desteği aynı gün. Kurumsal işlerin asıl lojistiği ise evrak ve insandır — ve orada mesafe zaten yoktur: yüklenici kayıtları dijital sistemlerde, operatör dosyaları hazır, izin süreçleri uzaktan başlatılabilir durumdadır. Uzun dönem işlerde (duruş haftaları, proje bazlı) makine ve operatör sahada konaklar; günlük operasyon tümüyle yerinde yönetilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kurumsal yüklenici sürecinin adımları",
+                paragraflar: [
+                    "Manisa OSB'nin kurumsal tesislerinde tipik süreç aşağıdadır. İlk üç adım yalnızca ilk kiralamada tam yaşanır; sonraki işlerde süreç 4. adımdan başlar.",
+                ],
+                tablo: {
+                    basliklar: ["Adım", "İçerik", "Süre", "Not"],
+                    satirlar: [
+                        ["1. Ön yeterlilik", "Firma + İSG + sigorta dosyası", "Tesise göre birkaç gün", "Dosyamız standart formatta hazır"],
+                        ["2. Personel kaydı", "Operatör belgeleri + oryantasyon", "1 – 2 gün", "Eğitim tesiste alınır"],
+                        ["3. Ekipman onayı", "Makine belgeleri + saha kontrolü", "Girişte", "Periyodik kontrol + bakım kaydı"],
+                        ["4. Çalışma izni", "İş-özel risk değerlendirme + onay", "Günlük döngü", "Teknik ayak bizden hazır"],
+                        ["5. İş + kayıt", "Uygulama + günlük kapanış", "Plana göre", "Kayıtlar tesis sistemine"],
+                    ],
+                },
+            },
+            {
+                baslik: "Duruş haftasında yüklenici koordinasyonu",
+                paragraflar: [
+                    "Planlı duruş haftaları, bu tesislerde onlarca yüklenicinin aynı sahada çalıştığı dönemlerdir ve koordinasyon, işin kendisi kadar önemlidir: alan çakışmaları, vinç-platform kesişimleri, enerji kesinti pencereleri ve ortak koridor trafiği duruş yönetim planında birleşir. Platform işlerimiz bu plana slot bazında entegre olur — hangi holde hangi saatte, hangi diğer yüklenicilerle komşu çalışılacağı önceden bellidir ve operatörümüz duruş koordinasyon toplantılarına katılır.",
+                    "Duruş kapasitesi bölgede aylar önce dolduğu için rezervasyon takvimi de kurumsaldır: duruş tarihi kesinleştiğinde iş listesi ve slot planı bağlanır, yedek makine rezervasyonu pakete eklenir. Geç kalan talepler o hafta fiilen karşılanamaz — bu, bölgenin bilinen gerçeğidir.",
+                ],
+            },
+            {
+                baslik: "Sicil: kurumsal sahada en değerli varlık",
+                paragraflar: [
+                    "Kurumsal yüklenici sistemleri geçmişi puanlar: iş güvenliği ihlalleri, termin performansı, kayıt kalitesi ve saha geri bildirimleri, sonraki işlerin onay hızını ve kapsamını belirler. Bizim yaklaşımımız bu gerçeğe göre kuruludur — her iş, sicile yazılan bir kayıttır ve temiz sicil, müşterilerimize de yansır: bizimle çalışan yüklenici firmalar, kendi puanlarına olumlu kayıt ekler.",
+                    "Bu nedenle kural esnetme taleplerini (izinsiz alan, eksik KKD, 'hızlıca hallederiz') kibarca ama net reddediyoruz: bir günlük pratiklik, yılların sicilinden pahalıdır — sizin için de, bizim için de.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimizin yüklenici sistemine kayıtlı değilsiniz; süreç ne kadar sürer?",
+                cevap:
+                    "Tesisin süreç hızına bağlı — dosyamız hazır olduğu için bizden gecikme olmaz: ön yeterlilik seti (firma, İSG, sigorta belgeleri) standart formatta sunulur, operatör kayıtları ve oryantasyon 1-2 günde tamamlanır, ekipman onayı girişte yapılır. Tipik toplam birkaç gün ile bir hafta arasıdır. Bu süreç yalnızca ilk kiralamada yaşanır — kayıt açıldıktan sonra her yeni iş, iş-özel izin adımlarından başlar ve telefon hızında planlanır.",
+            },
+            {
+                soru: "Yüksekte çalışma izni sistemimiz günlük onay istiyor; operatörünüz buna uyar mı?",
+                cevap:
+                    "Uyar — bu düzen operatörlerimizin çalışma alışkanlığıdır: sabah izin turu saha ekibinizle birlikte tamamlanır, günlük risk değerlendirmesi ve ekipman kontrol kaydı imzalanır, iş gün sonunda kayıtla kapatılır. İzin dosyasının teknik ayağı (makine belgeleri, kontrol kayıtları, operatör yeterlilikleri) bizden hazır gelir. Dijital izin sistemlerine kullanıcı tanımlanması gerekiyorsa ilk kayıtta çözülür — sonrası rutindir.",
+            },
+            {
+                soru: "Duruş haftamızda beş farklı yüklenici çalışacak; platform işleri nasıl koordine olur?",
+                cevap:
+                    "Duruş yönetim planına slot bazında entegre olarak: iş listemiz saat-hol-ekip detayında plana işlenir, vinç-platform kesişimleri ve enerji kesinti pencereleri koordinasyon toplantısında netleşir ve operatörümüz bu toplantılara katılır. Alan çakışması riskine karşı slot planında tampon bırakılır; yedek makine rezervasyonu pakete dahildir. Kritik nokta zamanlamadır — duruş kapasitesi bölgede aylar önce dolduğu için tarih kesinleştiğinde rezervasyonu bağlamak gerekir.",
+            },
+            {
+                soru: "Üretim alanında fotoğraf yasağımız var; iş kayıtları nasıl tutulur?",
+                cevap:
+                    "Tesis kuralına uygun düzenle: kayıtlar yazılı formda tutulur, görsel gerektiğinde tesisin onay süreciyle ve tesisin cihazıyla çekim yapılır veya çekim tesis personeline bırakılır. Ürün gizliliği bu sahalarda standarttır ve operatörlerimiz kişisel telefon kullanımının saha kurallarına tabi olduğunu bilir. Kayıt düzeni ilk işte kalite/güvenlik ekibinizle netleştirilir — sonraki işlerde otomatik uygulanır.",
+            },
+            {
+                soru: "Sigorta limiti şartımız yüksek; karşılıyor musunuz?",
+                cevap:
+                    "Poliçe setimiz kurumsal şartnamelerin yaygın limitlerine göre kuruludur ve ön yeterlilik dosyasında sunulur; şartnamenizin limitiyle karşılaştırma ilk adımda yapılır. Yetersiz kalması hâlinde ek teminat süreci başlatılabilir — bu durum önceden görülür ve sürpriz olmaz. İşveren mali mesuliyet, üçüncü şahıs ve ekipman poliçelerinin güncel örnekleri dosyada mevcuttur; yıllık yenileme kayıtları da sisteme işlenir.",
+            },
+            {
+                soru: "Geçmişte bir yüklenicinin İSG ihlali başımıza iş açtı; sizden farkı ne bekleyelim?",
+                cevap:
+                    "Sicille konuşuyoruz: kurumsal sistemlerdeki kayıtlarımız — ihlal geçmişi, termin performansı, saha geri bildirimleri — referansımızdır ve ilk kayıtta bu geçmişi sorabilirsiniz. Çalışma pratiğimizde kural esnetme talepleri (izinsiz alan, eksik KKD, aceleyle atlama) net reddedilir; bu, sizin puanınızı da koruyan bir ilkedir. Her iş kayıtla kapanır ve dosya, sisteminize girer — 'ne yapıldığı belirsiz yüklenici işi' kategorisi bizimle oluşmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kurumsal yüklenici yönetim sistemlerinin yapısı (ön yeterlilik, izin sistemleri, puanlama) sektör pratiğidir; Manisa OSB profili kamuya açık bilgidir.",
+    },
+
+    "bolge:aydin-osb-cevre-ili": {
+        h1: "Aydın OSB'de Enerji ve Gıda Sahaları İçin Manlift Kiralama (Çevre İl)",
+        giris:
+            "Aydın havzasında iki sektörün İSG rejimi, platform işini iki ayrı disipline böler: jeotermal enerji sahalarının ağır endüstri rejimi ve gıda-tarım tesislerinin hijyen rejimi. İlkinde H2S ölçümleri, sıcak akışkan hatları ve santral izin sistemleri; ikincisinde ihracat denetimleri, operatör sağlık dosyaları ve sezon baskısı işi çerçeveler. Belgeli operatörlü modelimiz her iki disiplinde de aynı ilkeyle çalışır — operatör, sahanın rejimini bilerek gelir. Havzanın mevsimsel iş yoğunluğu üçüncü bir katman ekler: kampanya dönemlerinde iş gücü ve makine talebi aynı haftalara sıkışır ve güvenlik disiplini, tam da bu aceleci dönemlerde en kritik hâlini alır. İzmir-Aydın otoyolu, bu üç katmanlı ihtiyaca merkez filodan hızlı destek sağlar.",
+        maddeler: [
+            {
+                baslik: "Jeotermal sahada H2S ve sıcak hat disiplini",
+                metin:
+                    "Jeotermal santrallerin platform işlerinde iki risk süreklidir: H2S gazı (kuyu başları, separatör çevresi, düşük kotlar) ve sıcak akışkan hatları (buhar-brine boruları, reenjeksiyon hatları). Çalışma düzenimiz buna göre kurulur — gaz ölçüm cihazıyla çalışma, alarm limitinde tartışmasız duruş, sıcak hatlardan tanımlı mesafe ve izolasyon işlerinde yüzey sıcaklığı kontrolü. Operatörlerimizin santral dosyası (saha eğitimi, sağlık gözetimi, izin sistemi kaydı) hazırdır; ilk kayıt sürecinin payı planlamaya eklenir.",
+            },
+            {
+                baslik: "Santral izin sisteminde ekipman bakım pencereleri",
+                metin:
+                    "7/24 üreten santralde platform işi, ekipman redundansının açtığı bakım pencerelerine oturur ve izin sistemi bu pencereleri yönetir: hangi ünite ne zaman bakımda, hangi alanda hangi izinle çalışılır. İş planımız santralın bakım programına hizalanır — pencere açılmadan izinler tamam, makine konumlanmış, operatör brifingli olur. Pencere kaçırmanın maliyeti bir sonraki bakım dönemini beklemektir; bu yüzden jeotermal işlerde hazırlık disiplini, iş disiplininden önce gelir.",
+            },
+            {
+                baslik: "Gıda tesislerinde ihracat denetimi hazırlığı",
+                metin:
+                    "Havzanın incir, zeytin ve süt işleyicileri ihracat denetimlerine tabidir ve platform işleri bu takvimle dalgalanır: denetim öncesi hazırlık (tavan, aydınlatma, sinek-kuş önleme) ve bulgu kapatma dönemleri. Operatörün gıda dosyası (sağlık, portör, hijyen eğitimi) ve makinenin hijyen hazırlığı (dezenfeksiyon, kaçak kontrolü, iz bırakmayan lastik) bu tesislerde standart settir. Denetim kayıtlarına girecek yüklenici belgeleri formatlı teslim edilir.",
+            },
+            {
+                baslik: "Sezon baskısında güvenlikten taviz vermeme düzeni",
+                metin:
+                    "Kampanya öncesi haftaların acelesi, havzadaki en büyük İSG riskidir: 'yetişsin de nasıl olursa olsun' baskısı, tam da kazaların olduğu iklimi üretir. Düzenimiz bu baskıya iki cevap verir — işleri erken takvime çekmek (kampanya öncesi son haftaya iş bırakmamak) ve sıkışan işlerde süreyi değil kaynağı artırmak (ikinci makine-operatör çifti, gece bloğu ekleme). Rüzgârda yüksek iş, ölçümsüz kapalı alan, belgesiz kullanım gibi kısayollar, takvim ne olursa olsun reddedilir.",
+            },
+            {
+                baslik: "Havza genelinde mevsim-uyumlu kapasite",
+                metin:
+                    "Otoyol ekseni ve Torbalı-Tire tur düzeni, havzanın mevsimsel dalgalarına esnek kapasite sağlar: kampanya öncesi yoğun haftalarda ek makine-operatör takviyesi, sakin dönemlerde standart tur ritmi. Kırsal tesislere (dağ köyleri zeytinyağı işletmeleri dahil) güzergâh kontrolüyle teslimat yapılır; uzak noktalarda operatör konaklama düzeni sözleşmede tanımlanır. Arıza-ikame desteği otoyol üzerinden gün içinde ulaşır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydın havzasında iki rejimin karşılaştırması",
+                paragraflar: [
+                    "Havzanın iki ana sektöründe platform işinin İSG çerçevesi aşağıda karşılaştırılır. Operatör ataması, bu çerçeveye göre yapılır — iki rejimin dosyaları farklıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Başlık", "Jeotermal saha", "Gıda tesisi"],
+                    satirlar: [
+                        ["Ana risk", "H2S + sıcak hatlar", "Yabancı madde + hijyen"],
+                        ["Operatör dosyası", "Santral eğitimi + gaz ölçüm yetkinliği", "Sağlık + portör + hijyen eğitimi"],
+                        ["İzin düzeni", "Santral izin sistemi + ölçüm şartı", "Kalite onayı + pencere planı"],
+                        ["Makine hazırlığı", "Arazi tipi ağırlıklı + sık bakım", "Dezenfeksiyon + iz bırakmayan lastik"],
+                        ["Zamanlama", "Ekipman bakım pencereleri", "Sezon dışı + denetim takvimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kampanya öncesi güvenli yoğunluk planı",
+                paragraflar: [
+                    "Sezon baskısını güvenlikle bağdaştırmanın yolu, yoğunluğu öne çekmektir: kampanya öncesi son ayın işleri, iki ay önceden başlayan takvime yayılır ve son hafta yalnızca küçük kalemlere kalır. Sıkışma yaşandığında ilkemiz kaynak artırmaktır — ikinci makine-operatör çifti veya gece bloğu ekleyerek süre korunur, tempo değil kapasite artar. Bu yaklaşım, 'aceleyle atlanan adım' riskini ortadan kaldırır.",
+                    "Havza genelinde kampanya takvimleri bilinir olduğu için kapasite planımız mevsime göre kurulur; erken bağlanan işler hem takvim hem fiyat avantajı alır. Son haftaya kalan taleplerde ise dürüst cevap veririz — yetişmeyecek işi 'yetişir' diye almak, bu bölgede en pahalı yalandır.",
+                ],
+            },
+            {
+                baslik: "Uzak ve kırsal sahada operatörlü iş düzeni",
+                paragraflar: [
+                    "Havzanın dağınık yerleşimi (kırsal sıkım tesisleri, dağ köyleri yakınındaki işletmeler), operatörlü modelin lojistik değerini büyütür: makine ve yetkin kullanıcı birlikte gider, sahada 'kim kullanacak' sorunu doğmaz ve iş tek seferde biter. Güzergâh kontrolü (köprü tonajı, dar geçit) sevkiyat öncesi yapılır; çok günlük işlerde operatör konaklaması sözleşmede tanımlı düzenle kurulur.",
+                    "Kırsal işletmelerin İSG altyapısı çoğunlukla incedir; operatörümüzün getirdiği düzen (güvenlik seti, çalışma disiplini, iş kaydı) bu açığı iş süresince kapatır ve işletmeye yazılı kayıt bırakır. Tekrarlayan ihtiyaçta bu kayıtlar, işletmenin kendi İSG dosyasının çekirdeği olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Jeotermal santralimizde çalışacak operatörün hangi eğitimleri olmalı?",
+                cevap:
+                    "Santral rejiminin tam seti: saha İSG eğitimi-oryantasyonu, gaz ölçüm cihazı kullanım yetkinliği, sağlık gözetimi kaydı ve izin sistemine kayıt — MYK platform belgesinin üzerine. Santral dosyası hazır operatörlerimiz bu işlere atanır; sahanıza özel ilk kayıt birkaç gün alabildiği için talebi erken açın. H2S disiplini (sürekli ölçüm, alarm duruşu) ve sıcak hat mesafeleri çalışma standardımızdır — bu konularda esneme talebi kabul edilmez.",
+            },
+            {
+                soru: "Bakım penceremiz üç gün; işler bu sürede biter mi?",
+                cevap:
+                    "Hazırlık önceden tamamlanırsa biter — jeotermal işlerin kuralı budur: izinler pencere açılmadan hazır, makine konumlanmış, operatör brifingli ve iş listesi saat planına dökülmüş olur. Pencere içinde yalnızca iş yapılır; evrak, sevkiyat ve keşif pencere dışında biter. Üç günlük pencereye sığmayan liste görünüyorsa çözüm tempoyu artırmak değil kaynağı artırmaktır — ikinci makine-operatör çiftiyle paralel çalışma. Pencere kaçırmanın maliyeti bir sonraki bakım dönemi olduğu için planlamayı birlikte ve erken yapıyoruz.",
+            },
+            {
+                soru: "İncir işleme tesisimizde denetim öncesi işler için operatör şartları neler?",
+                cevap:
+                    "Gıda sahası seti: güncel sağlık raporu ve portör muayenesi, hijyen eğitimi kaydı, tesise uygun kıyafet düzeni ve yabancı madde disiplini (alet listeleme-bağlama-sayım). Makine dezenfekte edilmiş, kaçak kontrolü belgeli ve iz bırakmayan lastikli gelir. Denetim kayıtlarınıza girecek yüklenici belgeleri formatlı teslim edilir. Denetim tarihinizden geriye doğru takvim kurup hazırlık işlerini son iki haftaya bırakmadan bitiriyoruz.",
+            },
+            {
+                soru: "Kampanyaya bir hafta kaldı ve işlerimiz bitmedi; ne yapabilirsiniz?",
+                cevap:
+                    "Dürüst değerlendirme ve kaynak artırma: kalan listeyi birlikte sınıflar, gerçekçi sığanı ikinci makine-operatör çifti ve gece bloklarıyla hızlandırır, sığmayanı kampanya sonrasına yazarız. 'Hepsi yetişir' diye alıp aceleyle atlanmış adımlarla çalışmak — ölçümsüz alan, rüzgârda yüksek iş, belgesiz kullanım — kabul etmediğimiz tek yoldur; kampanya arifesindeki kaza, işin kendisinden pahalıdır. Gelecek sezon için notumuz da nettir: bu sıkışma, işleri iki ay önce başlatan takvimle tamamen önlenebilir.",
+            },
+            {
+                soru: "Dağ köyündeki sıkım tesisimize operatörlü makine gelir mi?",
+                cevap:
+                    "Gelir — güzergâh kontrolü ve konaklama düzeniyle: konum bilginizle köprü tonajı ve dar geçit değerlendirmesi yapılır, çok günlük işlerde operatör konaklaması sözleşmede tanımlanır ve iş tek seferde bitirilir. Operatörlü modelin kırsaldaki değeri özellikle nettir: sahada 'kim kullanacak' sorunu yoktur, işletmenizin İSG altyapısı inceyse operatörün getirdiği düzen bu açığı kapatır ve yazılı iş kaydı kalır. Sezon öncesi bu tesislerin işlerini bölge turlarıyla birleştiriyoruz — maliyet belirgin düşer.",
+            },
+            {
+                soru: "Hem santralimiz hem paketleme tesisimiz var; tek sözleşme olur mu?",
+                cevap:
+                    "Olur — iki rejimli tek çerçeve: jeotermal işler santral izin sistemi ve bakım pencerelerine, gıda işleri hijyen setine ve sezon dışı takvime bağlanır; operatör ataması her sahanın dosya gereksinimine göre yapılır (gerekirse iki farklı operatör profili). Yıllık çerçeve sözleşmede iki sahanın takvimi birlikte kurulur ve makine-operatör planı mevsim ritmine oturur. Muhasebe tarafında tek sözleşme-tek muhatap kolaylığı, saha tarafında rejim ayrımı disiplini korunur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Jeotermal H2S/sıcak hat riskleri ve gıda ihracat denetim çerçevesi sektör bilgisidir; kampanya dönemi güvenlik yaklaşımı firma pratiğidir.",
+    },
 };
