@@ -129,6 +129,7 @@
 | Domain | Bölge | Hizmet | Blog | Durum |
 |---|---|---|---|---|
 | `boluplatform.net` | 1/9 | 0 | 0 | 🟡 pilot (243 kelime — hedefin altında) |
+| `izmir-man-lift.com` | 4/9 | 0 | 0 | 🟡 devam — cigli, menemen, karsiyaka, bayrakli (rüzgâr/teleskopik açısı; çapraz %0,0) |
 | `ankaraeklemliplatform.com` | **10/10** | 0 | 0 | ✅ bölge sayfaları TAMAM — dar alan/eklemli açısı, domain içi %0,0 |
 | `izmirmanliftkiralama.net` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — İSG/izin/operatör açısı, domain içi %0,0, üçlü çapraz max %0,4 |
 | `izmir-manlift.net` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — kesintisiz üretim açısı, ~970 kelime/sayfa, domain içi %0,0, çapraz domain %0,0-0,4 |
