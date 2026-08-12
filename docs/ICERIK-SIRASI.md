@@ -133,7 +133,7 @@
 | `balikesirplatform.org` | **6/6** | 0 | 0 | ✅ TAMAM — gıda-süt-zeytinyağı tesisleri |
 | `amasyaplatform.com` | **5/5** | 0 | 0 | ✅ TAMAM — meyve işleme/soğuk depo (ilk Amasya) |
 | `istanbulplatforms.com` | **4/4** | 0 | 0 | ✅ TAMAM — uzun dönem kontrat/SLA |
-| `eskisehirvincplatform.com` | 5/10 | 0 | 0 | 🟡 devam — enerji hat altyapısı + vinç |
+| `eskisehirvincplatform.com` | **10/10** | 0 | 0 | ✅ TAMAM — enerji hat altyapısı + vinç |
 | `manlifteskisehir.com` | **9/9** | 0 | 0 | ✅ TAMAM — duruş dönemi kapasite yönetimi |
 | `eskisehirplatform.org` | **7/7** | 0 | 0 | ✅ TAMAM — havacılık-savunma tedarik + Sivrihisar |
 | `afyonplatform.com.tr` | **10/10** | 0 | 0 | ✅ TAMAM — mermer ocağı + termal (ilk Afyon) |

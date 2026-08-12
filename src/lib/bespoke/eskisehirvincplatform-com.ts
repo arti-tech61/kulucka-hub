@@ -118,7 +118,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Sivrihisar'ın geniş yüzölçümü ve rüzgâra açık plato yapısı kamuya açık coğrafi bilgidir; enerji kesme, kilitleme, gerilim yokluğu doğrulama ve topraklama adımları ile yaklaşma mesafesi kuralları elektrik işlerinde geçerli genel güvenlik mevzuatı ve sektör uygulamasıdır. Firma adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. İlçenin çok geniş bir alana yayılması ve rüzgâra açık plato yapısı kamuya açık coğrafi bilgidir; enerji kesme, kilitleme, gerilim yokluğu doğrulama ve topraklama adımları ile yaklaşma mesafesi kuralları elektrik işlerinde geçerli genel güvenlik mevzuatı ve sektör uygulamasıdır. Firma adı ve rakam kullanılmamıştır.",
     },
 
     "bolge:alpu": {
@@ -613,7 +613,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Odunpazarı'nın tarihi kent dokusu ve dar sokak yapısı kamuya açık bilgidir; destek ayağı yük dağılımı ve kapak üzerine yükleme riski makine üretici talimatları ile saha pratiğinden, yaklaşma mesafesi kuralı elektrik işlerinin genel güvenlik mevzuatından gelir. Firma adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. İlçedeki tarihi dokunun dar sokaklardan oluşması kamuya açık bilgidir; destek ayağı yük dağılımı ve kapak üzerine yükleme riski makine üretici talimatları ile saha pratiğinden, yaklaşma mesafesi kuralı elektrik işlerinin genel güvenlik mevzuatından gelir. Firma adı ve rakam kullanılmamıştır.",
     },
 
     "bolge:tepebasi": {
@@ -674,7 +674,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 baslik: "Kurumsal tarafta belge ve sorumluluk düzeni",
                 paragraflar: [
-                    "Bulvar ve kavşak aydınlatması işleri çoğunlukla kurumsal bir işverenle yürür ve bu, saha dışında da bir düzen gerektirir. Standart olarak sağladığımız evrak seti makinenin geçerli periyodik kontrol raporu, makinenin tanım bilgisi ve operatörlü çalışmada operatörün yeterlilik belgesinden oluşur. Trafik düzeni izni ve kapatma yetkisi ise yol idaresinde ya da işverendedir; bu izin olmadan sahaya çıkmıyoruz.",
+                    "Bulvar ve kavşak aydınlatması işleri çoğunlukla kurumsal bir işverenle yürür ve bu, saha dışında da bir düzen gerektirir. İlettiğimiz dosya üç parçadan oluşur: süresi geçmemiş periyodik kontrol raporu, makinenin tanım bilgisi ve operatörlü çalışmada operatörün yeterlilik belgesi. Trafik düzeni izni ile kapatma yetkisi ise yol idaresinde ya da işverendedir; bu izin alınmadan sahaya çıkmıyoruz.",
                     "Sorumluluk sınırı da benzer biçimde ayrılır. Makinenin uygunluğu, kurulumu ve güvenli kullanımı bizim tarafımızda kalır; hattın ayrılması, gerilim yokluğunun doğrulanması ve elektriksel işin kendisi işverenin yetkili personelindedir. Bu ayrımı iş öncesinde yazılı hâle getirmek, gece penceresinde yaşanabilecek yetki tartışmalarını tümüyle ortadan kaldırıyor.",
                 ],
             },
@@ -683,7 +683,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Bulvarımızdaki direkler yüksek; hangi sınıf makine gerekiyor?",
                 cevap:
-                    "Karar iki veriyle veriliyor ve ikisini de sizden istiyoruz. Birincisi çalışılacak noktanın zeminden gerçek kotu — direğin toplam boyu değil, sepetin çıkması gereken yükseklik. Buna sepetten uzanma payı ekleniyor ve gereken çalışma yüksekliği çıkıyor. İkincisi sepete çıkacak toplam yük: kaç kişi ve hangi malzeme. Bom tipi makinelerde izin verilen sepet yükü sabit değildir, uzanma arttıkça düşer; iki kişi ve ağır bir projektör grubu birlikte düşünüldüğünde sınıra takılmak mümkündür. Ayrıca orta refüjdeki direklerde araç kenarda kaldığı için yatay uzanma da devreye girer. Üç veriyi birlikte değerlendirip uygun sınıfı gerekçesiyle öneriyoruz; katalogdaki tek bir yükseklik rakamına bakarak seçim yapmıyoruz.",
+                    "Karar iki veriyle veriliyor ve ikisini de sizden istiyoruz. Birincisi çalışılacak noktanın zeminden gerçek kotu — direğin toplam boyu değil, sepetin çıkması gereken yükseklik. Buna sepetten uzanma payı ekleniyor ve gereken çalışma yüksekliği çıkıyor. İkincisi sepete çıkacak toplam yük: kaç kişi ve hangi malzeme. Sepetin taşımasına izin verilen ağırlık her konumda aynı kalmaz, bom uzandıkça geriler; iki kişi ile ağır bir projektör grubu birlikte düşünüldüğünde bu sınıra dayanmak mümkündür. Ayrıca orta refüjdeki direklerde araç kenarda kaldığı için yatay uzanma da devreye girer. Üç veriyi birlikte değerlendirip uygun sınıfı gerekçesiyle öneriyoruz; katalogdaki tek bir yükseklik rakamına bakarak seçim yapmıyoruz.",
             },
             {
                 soru: "Raylı sistem hattının yakınındaki direklerde çalışılabilir mi?",
@@ -706,9 +706,9 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
                     "Sığmayacağını baştan görürsek söylüyoruz; bu, sonradan yarım kalan bir işten çok daha ucuz. Listenin süresini tahmin ederken nokta sayısı kadar noktalar arası mesafeyi ve trafik düzeninin kaç kez kurulacağını hesaba katıyoruz — çoğu zaman süreyi belirleyen kalem, işin kendisi değil düzenin kurulup kaldırılması oluyor. Pencereye sığmayan listelerde iki seçenek var: dilimi kısaltıp güzergâhı iki geceye bölmek ya da ikinci bir ekiple paralel çalışmak. Ayrıca listeyi önem sırasına diziyoruz; kritik kalemler pencerenin başına yazıldığında, beklenmedik bir gecikme yaşansa bile geride kalanlar en az önemli olanlar oluyor. Bu sıralamayı iş öncesinde birlikte yapıp yazılı paylaşıyoruz.",
             },
             {
-                soru: "Kurumsal alım sürecimiz için hangi belgeleri sağlıyorsunuz?",
+                soru: "Kurumsal alım sürecimiz için hangi evrakı sağlıyorsunuz?",
                 cevap:
-                    "Talep beklemeden gönderdiğimiz standart bir set var: makinenin geçerli periyodik kontrol raporu, marka-model ve seri bilgisini içeren tanım sayfası ile operatörlü çalışmada operatörün yeterlilik belgesi. Buna teklif metnini ekliyor, kiralama süresinin hangi saatte başlayıp bittiğini ve nakliyenin ayrı kalem olup olmadığını açıkça yazıyoruz. Trafik düzeni izni ve şerit kapatma yetkisi bizde değil, yol idaresinde ya da işverendedir; bu izin alınmadan sahaya çıkmıyoruz. Elektriksel işin sorumluluğu da benzer biçimde ayrılıyor: hattın ayrılması ve gerilim yokluğunun doğrulanması sizin yetkili personelinizde, makinenin güvenli kullanımı bizde kalıyor. Bu sınırı iş öncesinde yazılı hâle getirmek, gece penceresinde tartışma çıkmasını önlüyor.",
+                    "Sormanızı beklemeden ilettiğimiz üç parçalı bir dosya var: makinenin süresi geçmemiş periyodik kontrol raporu, marka-model ve seri numarasını gösteren tanım sayfası, operatörlü çalışmada da operatörün yeterlilik belgesi. Dosyaya teklif metnini ekliyoruz; teklifte sürenin ne zaman işlemeye başladığı ve nakliyenin fiyata dâhil olup olmadığı ayrı satırlar hâlinde görünür. Trafik düzeni izni ve şerit kapatma yetkisi bizde değil, yol idaresinde ya da işverendedir; bu izin alınmadan sahaya çıkmıyoruz. Elektriksel işin sorumluluğu da benzer biçimde ayrılıyor: hattın ayrılması ve gerilim yokluğunun doğrulanması sizin yetkili personelinizde, makinenin güvenli kullanımı bizde kalıyor. Bu sınırı iş öncesinde yazılı hâle getirmek, gece penceresinde tartışma çıkmasını önlüyor.",
             },
         ],
         kaynak:
@@ -873,7 +873,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
                 baslik: "Sorumluluk sınırı ve makine belgeleri",
                 paragraflar: [
                     "Çevre il çalışmalarında sınırı daha ayrıntılı yazıyoruz, çünkü mesafe her belirsizliği büyütür. Bizim tarafımızda kalan başlıklar: makinenin teknik uygunluğu, geçerli periyodik kontrol raporu, kurulumun doğru yapılması ve makinenin güvenli kullanımı. Karşı tarafta kalanlar: hattın ayrılması, gerilim yokluğunun doğrulanması, topraklamanın takılması ve elektriksel işin kendisi. Trafik düzeni izni ise yol idaresinin yetkisindedir.",
-                    "Ayrıca teklifte iki kalemi her zaman açıkça yazıyoruz: kiralama süresinin hangi saatte başlayıp bittiği ve nakliyenin ayrı kalem mi yoksa dâhil mi olduğu. Çevre il işlerinde sonradan çıkan anlaşmazlıkların neredeyse tamamı bu iki başlıktan doğuyor; baştan yazıldığında ise tartışılacak bir şey kalmıyor.",
+                    "Teklifte de iki satırı hiçbir zaman boş bırakmıyoruz: sürenin ne zaman işlemeye başladığı ve nakliyenin fiyata dâhil olup olmadığı. Çevre il çalışmalarında sonradan çıkan anlaşmazlıkların neredeyse tamamı bu iki başlıktan doğuyor; baştan yazıldığında tartışılacak bir şey kalmıyor.",
                 ],
             },
         ],
@@ -881,7 +881,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Eskişehir'den geliyorsunuz; çevre il olmak fiyatı çok mu değiştiriyor?",
                 cevap:
-                    "Değişen kalem nakliye, kullanım bedeli değil. Karayolu bağlantısı yakın olduğu için fark yönetilebilir düzeyde kalıyor; asıl belirleyici olan, araç geldiğinde kaç noktanın kapandığı. Tek bir armatür için il dışına çıkmak oransal olarak pahalıdır, buna karşılık aynı çıkışta yirmi nokta kapanırsa nakliyenin nokta başına payı önemsizleşir. Bu yüzden acil olmayan kalemleri biriktirip tek programa almanızı öneriyoruz. İkinci yöntem, aynı hafta içinde aynı güzergâhta başka bir işimiz varsa sevkiyatı birleştirmek; bunun için birkaç günlük takvim payı yeterli. Teklifte nakliyenin ayrı kalem olup olmadığını ve sürenin hangi saatte başlayıp bittiğini her zaman açıkça yazıyoruz.",
+                    "Değişen kalem nakliye, kullanım bedeli değil. Karayolu bağlantısı yakın olduğu için fark yönetilebilir düzeyde kalıyor; asıl belirleyici olan, araç geldiğinde kaç noktanın kapandığı. Tek bir armatür için il dışına çıkmak oransal olarak pahalıdır, buna karşılık aynı çıkışta yirmi nokta kapanırsa nakliyenin nokta başına payı önemsizleşir. Bu yüzden acil olmayan kalemleri biriktirip tek programa almanızı öneriyoruz. İkinci yöntem, aynı hafta içinde aynı güzergâhta başka bir işimiz varsa sevkiyatı birleştirmek; bunun için birkaç günlük takvim payı yeterli. Nakliyenin fiyata dâhil olup olmadığı ile sürenin ne zaman işlemeye başladığı, teklifte ayrı satırlar hâlinde görünür.",
             },
             {
                 soru: "Hem sanayi alanında hem çevre köylerde işimiz var; aynı güne sığar mı?",
@@ -941,7 +941,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 baslik: "Eksen üzerinde olmanın lojistik karşılığı",
                 metin:
-                    "Polatlı, Eskişehir ile başkent arasındaki karayolu ekseni üzerinde bulunduğu için makinenin ilçeye ulaşması ayrı bir sapma gerektirmez. Bunun pratik karşılığı, tarih esnekliği olan işlerin eksende yürüyen diğer sevkiyatlara bağlanabilmesi ve nakliye payının bölünmesidir. Uzun iş listelerinde ise makinenin sahada kalması tercih edilir; nakliye tek sefere iner ve kalemler güzergâh boyunca sırayla kapanır. Planlı geçişlerin dışına çıkan acil taleplerde tam sevkiyat bedeli uygulanır ve bunu baştan söylüyoruz.",
+                    "İlçe, iki şehri birbirine bağlayan karayolunun kenarında yer aldığı için ekipmanın buraya gelmesi güzergâh dışına çıkmayı gerektirmez. Bunun somut karşılığı şu: takvimi esnek olan kalemler, eksen üzerinde zaten yapılan çıkışlara iliştirilebiliyor. İş listesi uzunsa daha da iyisi mümkün — ekipman sahada bırakılır, kalemler güzergâh boyunca sırayla kapanır ve araç yalnızca bir kez gidip gelir. Planlı çıkışların dışında istenen acil müdahalelerde ise sevkiyat bedelinin tamamı işlenir; bunu talep anında söylüyoruz.",
             },
         ],
         ekBolumler: [
@@ -971,7 +971,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 baslik: "Komşu sahaları aynı programa toplamak",
                 paragraflar: [
-                    "İlçenin genişliği, tek bir kısa iş için ödenen nakliyeyi oransal olarak ağırlaştırır. Bunu düşürmenin en etkili yolu, aynı hat üzerindeki ya da birbirine yakın sahalardaki işleri aynı güne dizmektir: araç bir kez gelir, gün içinde sırayla dolaşır ve her taraf yalnızca kendi kullanım süresini üstlenir. Sıralamayı ve zaman planını biz kurguluyoruz.",
+                    "İlçenin genişliği, tek bir kısa iş için ödenen nakliyeyi oransal olarak ağırlaştırır. Bunu hafifletmenin en etkili yolu, birbirine yakın sahaların taleplerini aynı takvim gününe dizmektir: ekipman bir kez yola çıkar, gün içinde sırayla uğrar ve her işletme kendi kullanım süresi kadarını üstlenir. Uğrama sırasını ve saatleri biz kurguluyoruz.",
                     "Bu model özellikle sezon dışı dönemlerde iyi çalışıyor, çünkü benzer işler bütün işletmelerde aynı haftalarda gündeme geliyor. Modelin tek koşulu, katılan tarafların acil olmayan işlerde birkaç günlük takvim payı bırakması. Vinç gerektiren kalemler varsa bunları da aynı güne toplamaya çalışıyoruz; vincin gün içindeki kullanım oranı, toplam maliyeti doğrudan belirliyor.",
                 ],
             },
@@ -980,7 +980,7 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Ankara'ya bağlıyız; Eskişehir'den ekip getirmek mantıklı mı?",
                 cevap:
-                    "Konum açısından mantıklı, çünkü ilçe iki şehri bağlayan karayolu ekseninin üzerinde; makine ilçeye ulaşmak için ayrı bir sapma yapmıyor. Eksende aynı hafta içinde başka bir işimiz varsa sevkiyatı birleştirip nakliye payını bölüyoruz. Asıl belirleyici olan ise mesafeden çok programın doluluğu: araç geldiği gün tek nokta yerine bir dizi nokta kapanıyorsa nakliyenin birim payı önemsizleşiyor. Bu yüzden acil olmayan kalemleri biriktirip tek programa almanızı öneriyoruz. Uzun iş listelerinde makinenin sahada kalması daha ekonomik oluyor. Teklifte nakliyenin ayrı kalem olup olmadığını ve kiralama süresinin hangi saatte başlayıp bittiğini açıkça yazıyoruz.",
+                    "Konum açısından mantıklı: ilçe, iki şehri birbirine bağlayan yolun kenarında olduğu için ekipman buraya gelirken güzergâh dışına çıkmıyor. O yol üzerinde aynı hafta içinde yürüyen başka bir çıkışımız varsa iki işi tek araca bindiriyoruz. Yine de asıl belirleyici mesafe değil, programın doluluğu: gelinen gün tek nokta yerine bir dizi nokta kapanırsa nakliyenin nokta başına payı önemsizleşiyor. Bu yüzden beklemeye dayanan kalemleri biriktirip tek programda ele almanızı öneriyoruz; liste uzunsa ekipmanı sahada bırakmak daha da ekonomik oluyor. Nakliyenin fiyata dâhil olup olmadığı ile sürenin ne zaman işlemeye başladığı teklifte ayrı satırlarda görünür.",
             },
             {
                 soru: "Sulama tesisimizin besleme hattı için ne zaman çağırmalıyız?",
@@ -1005,10 +1005,10 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
             {
                 soru: "Komşu işletmelerle birlikte kiralamak mümkün mü?",
                 cevap:
-                    "Mümkün ve ilçenin genişliği düşünüldüğünde en çok önerdiğimiz model bu. Kısa süreli kırsal işlerde nakliye, toplam bedelin belirgin bir parçası; tek bir işletmenin bunu tek başına üstlenmesi ekonomik değil. Aynı hat üzerindeki işletmeler, komşu tesisler ya da aynı sahadaki farklı yapılar tek gün içinde sırayla ele alınabilir; her taraf yalnızca kendi kullanım süresini üstlenir. Sıralamayı ve zaman planını biz kurguluyoruz. Model sezon dışı dönemlerde özellikle iyi çalışıyor, çünkü benzer işler bütün işletmelerde aynı haftalarda gündeme geliyor. Vinç gerektiren kalemler varsa onları da aynı güne toplamaya çalışıyoruz; vincin gün içinde ne kadar kullanıldığı toplam maliyeti doğrudan belirliyor.",
+                    "Mümkün ve ilçenin genişliği düşünüldüğünde en çok önerdiğimiz model bu. Kırsalda birkaç saatlik bir iş için ödenen nakliye, toplam bedel içinde ağır kalıyor ve bunu tek bir işletmenin karşılaması ekonomik olmuyor. Birbirine yakın işletmeler, komşu tesisler ya da bir sahadaki farklı yapılar aynı takvim gününe dizilebilir; herkes kendi kullanım süresi kadarını üstlenir. Uğrama sırasını ve saatleri biz kurguluyoruz. Model sezon dışı dönemlerde özellikle iyi çalışıyor, çünkü benzer işler bütün işletmelerde aynı haftalarda gündeme geliyor. Vinç gerektiren kalemler varsa onları da aynı güne toplamaya çalışıyoruz; vincin gün içinde ne kadar kullanıldığı toplam maliyeti doğrudan belirliyor.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Polatlı'nın geniş kırsal dokusu, tarımsal üretim ağırlığı ve iki şehri bağlayan karayolu ekseni üzerinde bulunması kamuya açık bilgidir; rüzgâr sınırı makine üretici talimatlarından, ayırma-kilitleme-doğrulama-topraklama adımları elektrik işlerinin genel güvenlik mevzuatından, mevsimsel erişim koşulları saha pratiğinden gelir. Firma adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Polatlı'nın geniş kırsal dokusu, tarımsal üretim ağırlığı ve iki şehri bağlayan karayolu ekseni üzerinde bulunması kamuya açık bilgidir; rüzgâr sınırı makine üretici talimatlarından, ayırma-kilitleme-doğrulama-topraklama adımları elektrik işlerinin genel güvenlik mevzuatından gelir; mevsimsel erişim koşulları sahadaki uygulamaya dayanır. Metinde firma adı ve rakam bulunmamaktadır.",
     },
 };
