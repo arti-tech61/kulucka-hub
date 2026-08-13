@@ -625,4 +625,303 @@ export const AFYONMANLIFTKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Uşak OSB’nin karma sanayi ve lojistik parsel yapısı kamuya açık genel bilgidir; il dışı program kurgusu ve hacim bazlı sınıf eşleşmesi firma saha pratiğidir. Tesis adı, mesafe ve rakam kullanılmamıştır.",
     },
+    "bolge:sandikli-osb": {
+        h1: "Sandıklı OSB’de Fabrika ve Lojistik Depoları İçin Manlift Kiralama",
+        giris:
+            "Sandıklı OSB’de fabrika veya lojistik depo için manlift planlarken malzeme akışına bakarız. Hammadde üretim holüne girer, paletli ürün raflara yerleşir ve sevkiyat kapılarından çıkar; bakım ekibi aydınlatma, havalandırma, algılama hattı, kapı mekanizması ve çatı altı tesisata bu hareketin arasında ulaşır. Kardeş içeriğin termal teknik servis ve doğal taş çevresi burada işlenmez. Belirleyici olan makinenin kabul alanından hedef koridora rotası, raf aralığındaki dönüşü ve çalışma hücresinin sevkiyattan ne kadar ayrılabileceğidir. Teklif öncesinde tavan kotu, kapı, koridor, zemin ve şarj imkânı kaydedilir. Böylece gereğinden büyük sınıf yerine depo akışını az kesen gövde seçilir.",
+        maddeler: [
+            {
+                baslik: "Mal kabul alanında kapı, saçak ve trafik ayrımı",
+                metin:
+                    "Mal kabul cephesinde seksiyonel kapı motoru, fotosel, saçak altı aydınlatma, oluk ve yönlendirme levhaları sık bakım kalemidir. Aynı bölgede kamyon yanaşması, forklift geçişi ve yaya kontrolü yürüdüğü için manlifti boş bir rampa gözüne bırakmak yeterli değildir. Çalışma hücresi, bomun dönüş alanı ve aşağı düşebilecek parça sınırıyla birlikte kapatılır. Rampa takozu, seviyeleyici veya kapı üzerinde iş varsa ilgili ekipman yetkili kişi tarafından hareketsiz teslim edilir. Sevkiyat sorumlusu hangi kapının ne zaman boş kalacağını önceden belirler; ekip bir kapıyı bitirip teslim etmeden yan göze geçmez. Böylece bütün kabul cephesi değil, yalnız üzerinde çalışılan bölüm kısa süreliğine akıştan çıkar.",
+            },
+            {
+                baslik: "Raf koridorunda gövde ve dönüş ölçüsü",
+                metin:
+                    "Depoda hedef kot kadar önemli iki ölçü koridor genişliği ile dönüş başındaki boşluktur. Sepet gerekli yüksekliğe çıksa bile makine raf arasında dönemiyorsa doğru sınıf değildir. Koridorun en dar noktası, kolon çıkıntısı, raf koruma bariyeri ve zemindeki kılavuzlar ölçülür; yalnız mimari plandaki nominal genişliğe güvenilmez. Çalışma yapılacak koridor stok hareketine kapatılır ve komşu koridordan çatalların sepete uzanamayacağı teyit edilir. Raf gözü üzerinde gevşek ambalaj veya taşan palet varsa önce depo ekibi tarafından düzeltilir. Düz beton ve yeterli geçiş bulunan hacimde kompakt akülü makaslı sınıf; rafın arkasına yatay erişim gerekiyorsa dar gövdeli eklemli sınıf değerlendirilir.",
+            },
+            {
+                baslik: "Üretim holü ile depo arasındaki geçiş",
+                metin:
+                    "Aynı parselde üretim ve depo hacmi farklı zemin, temizlik ve trafik kurallarına sahip olabilir. Üretim holündeki talaş, ambalaj artığı veya proses kalıntısı depoya taşınmamalı; depoda çalışan ünitenin tekerlek ve gövde durumu bölüm geçişinde kontrol edilmelidir. Kapı eşiği, rampa, perde kapı ve yangın kapısı makinenin geçiş ölçüsünü sınırlar. Geçiş rotası vardiya başlamadan boşaltılır, enerji kablosu araç yoluna serilmez ve akülü ünitenin şarj yeri kuru, havalandırılan bir noktada belirlenir. İş sırası mümkün olduğunda temiz depodan üretim holüne doğru kurulur. Geri dönüş gerekiyorsa tesisin kabul ettiği ara temizlik yapılmadan ünite raf alanına alınmaz.",
+            },
+            {
+                baslik: "Tavan tesisatında hücre bazlı bakım",
+                metin:
+                    "Aydınlatma armatürleri, hava kanalları, kablo tavaları, sprinkler çevresi ve duman algılama bileşenleri geniş tavan boyunca dağılır. Bütün depoyu kapatmak yerine planı hücrelere böleriz. Her hücre için altındaki palet hareketi durur, alan bariyerlenir, gerekli enerji izolasyonu yapılır ve bakım ekibi o bölgedeki tüm kalemleri tek konum dizisiyle tamamlar. Elektrik veya yangın sisteminde devre dışı bırakma gerekiyorsa tesisin yetkili prosedürü uygulanır; manlift ekibi sistemi kendi kararıyla kapatmaz. Hücre teslim edilip düşen parça ve alet kontrolü bittikten sonra stok akışı yeniden açılır. Bu yöntem, makinenin aynı tavana tekrar tekrar dönmesini ve depo operasyonunun belirsiz süreyle kesilmesini önler.",
+            },
+            {
+                baslik: "Vardiya ve sevkiyat takvimine bağlı günlük rota",
+                metin:
+                    "Lojistik depoda boş görünen alan birkaç saat sonra yoğun bir toplama veya yükleme noktasına dönüşebilir. Bu nedenle saha keşfi tek başına yeterli değildir; günlük sevkiyat planı bakım programına bağlanır. Sabah kabul kapıları, öğleden sonra raf koridoru ya da ters sıra işletmenin akışına göre yazılır. Her geçiş öncesinde yeni alanın izin ve bariyer hazırlığı tamamlanmış olur. Hava uygun değilse dış cephe ve saçak işleri yerine kapalı hacimde hazır bekleyen kalemlere geçilir. Makine birkaç vardiya kalacaksa park noktası, şarj sorumlusu ve vardiya başı görsel kontrolü tutanağa yazılır; yetkisiz kullanıcıya anahtar veya kumanda bırakılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo alanı ve manlift seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Sandıklı OSB’de fabrika-depo akışında sık karşılaşılan erişim bölgelerini özetler. Nihai sınıf ölçülen geçişe, üretici çalışma sınırlarına ve saha kontrolüne göre belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Bakım hedefi", "Belirleyici ölçü", "Planlama yaklaşımı"],
+                    satirlar: [
+                        ["Mal kabul kapısı", "Motor, fotosel, saçak", "Rampa gözü ve araç yolu", "Kapıyı sırayla kapat"],
+                        ["Dar raf koridoru", "Aydınlatma ve üst bağlantı", "Koridor ile dönüş alanı", "Kompakt akülü sınıf"],
+                        ["Geniş depo aksı", "Tavan tesisatı", "Kot ve düz beton", "Akülü makaslı"],
+                        ["Üretim-depo geçişi", "Kapı ve üst tesisat", "Eşik, perde ve temizlik", "Geçiş sırasını yaz"],
+                        ["Dış sevkiyat cephesi", "Oluk ve kaplama", "Rüzgâr ve trafik", "Bariyerli bomlu"],
+                        ["Teknik koridor", "Kablo ve kanal", "Yatay engel", "Dar eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif için beş saha verisi",
+                paragraflar: [
+                    "İlk veri hedef kotudur; buna makinenin duracağı yerle hedef arasındaki yatay mesafe eklenir. İkinci grup, en dar kapı-koridor ve dönüş başı ölçüleridir. Üçüncü veri zemin ile eşik durumudur: düz beton, rampa, ızgara ve kanal ayrı ayrı işaretlenir. Dördüncü veri, sevkiyat ve forklift trafiğinin hangi saatlerde durabileceğidir. Son olarak kapalı hacimde şarj noktası ve dışarıda gece park alanı bildirilir. Yakın çekim arıza fotoğrafı kadar girişten hedefe kadar kesintisiz rota fotoğrafları da gerekir.",
+                    "Bu bilgilerle sınıf seçimi karşılaştırılabilir hâle gelir. Büyük makine her zaman iyi değildir; geniş gövde raf koridorunu kapatabilir, ağırlık ızgara veya rampaya uygun olmayabilir. Küçük sınıf da yatay engeli aşamıyorsa işi tamamlamaz. Teklifte alan, sınıf, taşıma, şarj, operatör seçeneği ve hava bağımlı kalemler görünür. Karar tamamlanacak bakım listesi üzerinden verilir.",
+                ],
+            },
+            {
+                baslik: "Teslimden kapanışa depo disiplini",
+                paragraflar: [
+                    "Teslimde görünür durum ve kumandalar kaydedilir. Yetkili kullanıcı belirlenir; vardiya başında lastik, korkuluk, kumanda, acil indirme ve sızıntı kontrol edilir. Düz zemin trafik ayrımını gereksiz kılmaz. Bariyer sepetin hareket alanını da kapsar. Alarm, ses veya sızıntıda çalışma kesilir ve servis aranır.",
+                    "Kapanışta her hücrenin alet-parça sayımı yapılır, izolasyonu yalnız tesis yetkilisi kaldırır ve raf koridoru depo sorumlusuna teslim edilir. Tamamlanmayan iş açık hedef olarak bırakılmaz; güvenli durumuyla birlikte sonraki vardiyanın yazılı planına girer. Makine düz, korunaklı park alanına çekilir ve akülü sınıfta kablo araç yolundan uzak tutulur. İade öncesinde gövde ile tekerlek temizliği ve durum karşılaştırması yapılır. Bu kayıt, hem kiralama tarafını hem depo işletmesini belirsiz hasar ve sorumluluk tartışmasından korur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Raf koridoru için yalnız tavan yüksekliğini vermemiz yeterli mi?",
+                cevap:
+                    "Yeterli değildir. Tavan kotu yalnız dikey erişimi gösterir; makinenin koridora girip dönmesi ve hedefin altına güvenle yerleşmesi için en dar koridor, dönüş başı, raf koruma bariyeri, kolon çıkıntısı ve yatay engel ölçülmelidir. Zemindeki ızgara, kanal ve eşikler de rota üzerinde işaretlenir. Raf yerleşim planı varsa ölçüler sahada doğrulanır; palet taşmaları kullanılabilir genişliği değiştirebilir. Bu bilgilerle kompakt makaslı ile dar eklemli sınıf arasında doğru seçim yapılır. Ölçü eksikse keşif öneririz; sahaya sığmayan büyük bir üniteyi değiştirmek, başta ölçüm yapmaktan daha uzun sürer.",
+            },
+            {
+                soru: "Depo çalışırken aydınlatma bakımını sürdürebilir misiniz?",
+                cevap:
+                    "Deponun tamamının durması gerekmez, ancak çalışılan hücre stok ve forklift hareketinden ayrılır. Koridor girişleri bariyerlenir, komşu akstan çatal veya yükün sepete yaklaşamayacağı düzen kurulur ve elektrik devresi tesis yetkilisi tarafından güvenli duruma getirilir. Ekip o hücredeki armatürleri tamamlayıp alet-parça sayımı yaptıktan sonra alan depo sorumlusuna teslim edilir; ardından sonraki hücre açılır. Yoğun toplama saatlerinde koridor kapatılamıyorsa bakım daha sakin vardiyaya taşınır. Sepet altında trafik sürerken kısa süreli müdahale yapmak, program baskısıyla kabul ettiğimiz bir yöntem değildir.",
+            },
+            {
+                soru: "Mal kabul kapılarının hepsini kapatmak gerekir mi?",
+                cevap:
+                    "Hayır; doğru plan, kapıları sırayla devre dışı bırakmaktır. Hangi rampa gözünün hangi saatte boş kalacağı sevkiyat sorumlusuyla belirlenir. O bölümde araç yanaşması durur, seviyeleyici veya kapı mekanizması yetkili kişi tarafından hareketsiz teslim edilir ve bomun hareket alanı bariyere alınır. İş tamamlanıp bağlantılar, sensör ve güvenlik elemanları kontrol edilince kapı tekrar işletmeye verilir; ekip bir sonraki göze geçer. Ancak ortak enerji veya mekanik sistem birden çok kapıyı etkiliyorsa tesis prosedürü daha geniş bir duruş isteyebilir; bunu keşif sırasında netleştiririz.",
+            },
+            {
+                soru: "Kapalı depoda dizel manlift kullanıyor musunuz?",
+                cevap:
+                    "Kapalı hacimde egzoz üreten sınıfı standart çözüm olarak kullanmayız. Düz betonlu depo ve üretim hollerinde akülü makaslı veya akülü eklemli ünite seçilir. Bunun karşılığında şarj planı gerekir: priz ve hat uygunluğu tesis tarafından doğrulanır, kablo forklift ya da yaya yolundan geçirilmez ve şarj alanı kuru, havalandırılan bir noktada tutulur. Birden fazla vardiyalık programda şarj zamanı iş sırasına yazılır. Dış sahada arazi sınıfı kullanılmışsa, o ünitenin kapalı hacme geçişi enerji türü ve temizlik açısından ayrıca değerlendirilir; tek makineyle her alanı kapatma varsayımı yapılmaz.",
+            },
+            {
+                soru: "Dış cephe işi rüzgâr nedeniyle durursa program nasıl ilerler?",
+                cevap:
+                    "Her ünitenin üretici tarafından tanımlanmış çalışma sınırları vardır ve rüzgâr uygun değilse dış iş durur. Kiralama gününü verimli tutmak için aynı programa kapalı hacimdeki raf, aydınlatma veya üst tesisat kalemlerini ekleriz. Bu alanların izin, enerji izolasyonu ve malzemesi önceden hazırsa ekip doğrudan içeri geçer; hava düzeldiğinde dış cepheye döner. Yalnız dış işten oluşan talepte bekleme ve erteleme koşulu teklif aşamasında yazılır. Güvenli olmayan havada işi hızlandırmak ya da geniş yüzeyli parçayı sepette taşımak bir seçenek değildir.",
+            },
+            {
+                soru: "Makine birkaç vardiya depoda kalırsa sorumluluk nasıl yürür?",
+                cevap:
+                    "Teslimde görünür durum fotoğraflanır, yetkili kullanıcı ve park alanı belirlenir. Her vardiya öncesinde lastik, korkuluk, kumanda, acil indirme ve sızıntı kontrolü yapılır; olağan dışı durumda ünite durdurulup servis aranır. Akülü makine için güvenli şarj hattı gerekir ve kablo araç yoluna bırakılmaz. Gece parkı düz, korunaklı ve yetkisiz erişime kapalı olmalıdır. Kiralama şirketinin periyodik kontrolü ile işletmenin günlük kontrolü birbirinin yerine geçmez. İade anında kayıtlar ve makinenin durumu birlikte karşılaştırılır; böylece kullanım süresindeki sorumluluk açık kalır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Sandıklı OSB’nin fabrika ve depolama parsellerine yönelik genel kullanım çerçevesi kamuya açık bilgidir; raf koridoru, sevkiyat hücresi, şarj ve vardiya planı sektör geneli saha pratiğidir. Termal veya mermer tesisine ilişkin özgül iddia, tesis adı, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:bolvadin-osb": {
+        h1: "Bolvadin OSB’de Fabrika ve Lojistik Depo İş Planı",
+        giris:
+            "Bolvadin OSB’de konu belirli bir ürünün işlenmesi değil, fabrika deposunun kabul, stok ve sevkiyat düzeninde yüksekte bakımın yürütülmesidir. Kardeş içerikteki tarımsal proses, silo, sıcak hat ve kampanya bakımı burada tekrarlanmaz. Lojistik bakış, malzemenin hangi kapıdan girdiği, hangi koridorda beklediği ve bakım makinesinin akışı nerede kesebileceğiyle ilgilenir. Aydınlatma, raf üstü algılama, havalandırma, kapı motoru ve çatı altı tesisat sektörden bağımsızdır; çalışma hücresinin açık kalacağı süre vardiyaya bağlıdır. Planı kot, koridor, zemin, şarj ve stok hareketiyle kurarız. Makine depo sorumlusunun teslim ettiği güvenli hücreye girer ve bölüm tamamlandıkça akış açılır.",
+        maddeler: [
+            {
+                baslik: "Kabulden stok alanına güvenli geçiş rotası",
+                metin:
+                    "Manliftin tesise giriş rotası çoğu zaman mal kabul araçlarıyla aynıdır. Teslim saati yoğun boşaltma penceresine denk getirilmez; taşıyıcı araç için dönüş ve indirme alanı önceden ayrılır. Makine indirildikten sonra rampa, kapı eşiği, yangın kapısı ve depo içindeki en dar dönüş gözden geçirilir. Yük taşıyan forkliftle manlift aynı dar koridorda karşılaştırılmaz. Rota bariyer veya saha gözcüsüyle kısa süreli ayrılır ve ünite hedef alana ulaştığında lojistik akış yeniden açılır. Birkaç günlük programda makinenin her sabah aynı güzergâhı kullanacağı varsayılmaz; stok yerleşimi ve park edilmiş araçlar değişebileceği için vardiya başlangıcında rota yeniden kontrol edilir.",
+            },
+            {
+                baslik: "Raf üstü tesisat ve sipariş hazırlama bölgesi",
+                metin:
+                    "Rafların üstünden geçen aydınlatma, kablo, algılama ve havalandırma hatları için çalışma yapılırken yalnız ilgili koridor değil, komşu toplama hareketi de değerlendirilir. Sipariş hazırlayan forkliftin çatalı veya kaldırdığı yük, bariyerin dışından sepete yaklaşmamalıdır. Raf gözündeki gevşek ambalaj ve taşan paletler depo ekibi tarafından düzeltilir. Manlift raf elemanına bağlanmaz ve rafı destek olarak kullanmaz. Koridor genişliğiyle dönüş başı ölçülür; düz betonda kompakt akülü sınıf tercih edilir. Hedefin raf arkasında kalması yatay erişim gerektiriyorsa eklemli sınıf seçilir. Bölüm tamamlandığında parçalar sayılır ve koridor stok ekibine tutanakla geri verilir.",
+            },
+            {
+                baslik: "Sevkiyat kapıları ve rampa ekipmanında sıra",
+                metin:
+                    "Kapı motorları, fotoseller, saçak altı armatürleri ve yön levhaları aynı cephede bulunur; bu nedenle tek konum dizisiyle toplu bakım yapılabilir. Hangi rampanın ne zaman boş kalacağı yükleme planından alınır. Çalışılan kapı araç kabulüne kapatılır, rampa ekipmanı güvenli durumda teslim edilir ve yaya geçişi alternatif rotaya yönlendirilir. Her kapı bitirildiğinde işlev kontrolünü tesis yetkilisi yapar; ekip onaydan sonra sonraki kapıya ilerler. Tüm cephenin kapatılması gerekmese de ortak elektrik devresi veya üst yapı birden fazla gözü etkiliyorsa daha geniş izin penceresi gerekebilir. Bu bağımlılık, makine sahaya gelmeden elektrik ve bakım sorumlusuyla netleştirilir.",
+            },
+            {
+                baslik: "Stok sayımı ve bakım penceresini eşleştirmek",
+                metin:
+                    "Depo bakımının verimli zamanı yalnız üretim duruşu değildir. Stok sayımı, raf düzenleme veya düşük sevkiyat dönemi bazı koridorların zaten boşaldığı doğal pencereler oluşturabilir. Bakım listesini depo yönetiminin bu takvimine bağlarız. Boşalan aksta önce üst tesisat ve raf çevresi kalemleri kapanır; ardından stok geri yerleşir. Sayım sırasında personel koridorda çalışıyorsa eş zamanlı manlift kullanımı yapılmaz. Takvim değişirse sıradaki hazır hücreye geçilir. Bu esneklik için her hücrenin malzemesi, enerji izolasyonu ve erişim ölçüsü önceden hazırlanmalıdır; sahada hangi işin yapılacağına o an karar vermek, kısa pencereyi tüketir.",
+            },
+            {
+                baslik: "Uzun kiralamada şarj, park ve günlük kontrol",
+                metin:
+                    "Kapalı depo için seçilen akülü ünitenin çalışma süresi, şarj düzeni kurulmadan yalnız gün sayısıyla planlanamaz. Şarj noktası kuru ve havalandırılan alanda olmalı, kablo araç yolunu kesmemeli ve elektrik hattının uygunluğu tesis tarafından doğrulanmalıdır. Gece parkı düz, korunaklı ve yetkisiz erişime kapalı tutulur. Her vardiya başında lastik, korkuluk, kumanda, acil indirme ve görünür sızıntı kontrol edilir; olağan dışı durumda kullanım kesilir. Bir vardiyanın sözlü olarak ‘sorunsuz’ devri yeni kontrolün yerine geçmez. Teslim ve iade fotoğraflarıyla günlük kayıtlar, program sonunda makinenin durumu ve sorumluluk konusunda ortak kanıt oluşturur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bolvadin OSB depo akışı eşleştirmesi",
+                paragraflar: [
+                    "Bu tablo proses ekipmanını değil, fabrika ve lojistik depo içindeki operasyon hücrelerini sınıflandırır. Makine seçimi her hücrenin ölçüsü ve trafik ayrımına göre kesinleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Operasyon hücresi", "Yüksek kot işi", "Akış kısıtı", "Uygulama"],
+                    satirlar: [
+                        ["Mal kabul", "Kapı, fotosel, saçak", "Araç yanaşması", "Rampa gözünü sırayla kapat"],
+                        ["Raf koridoru", "Aydınlatma ve algılama", "Forklift ve palet", "Kompakt akülü"],
+                        ["Sipariş hazırlama", "Üst tesisat", "Yoğun yaya-yük hareketi", "Düşük vardiyada hücre kur"],
+                        ["Geniş stok alanı", "Tavan armatürü", "Kot ve beton zemin", "Akülü makaslı"],
+                        ["Teknik geçiş", "Kablo ve kanal", "Kapı ve yatay engel", "Dar eklemli"],
+                        ["Dış sevkiyat alanı", "Oluk ve cephe", "Rüzgâr ve araç yolu", "Bariyerli bomlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hücre kartıyla iş programı kurmak",
+                paragraflar: [
+                    "Her çalışma hücresi için kısa bir kart hazırlarız: hedefler, kot, yatay engel, en dar geçiş, zemin, enerji kesme sorumlusu, stok ve trafik kapanma saati. Fotoğraflar girişten hedefe doğru sıralanır. Aynı aks üzerindeki armatür, kanal ve algılama kontrolleri tek hücrede birleştirilir. Böylece bariyer bir kez kurulur ve manlift aynı yere farklı ekipler için dönmez. Gerekli malzeme sepete çıkmadan önce yerde hazırlanır; yük sınırı üretici etiketinden kontrol edilir ve platform malzeme vinci gibi kullanılmaz.",
+                    "Kartlar vardiya sırasına dizilir. Bir hücre beklenmedik stok hareketi nedeniyle açılamazsa, izni ve malzemesi hazır başka karta geçilir. Bu yedek sıra özellikle sevkiyat programı değişken depolarda kiralama gününü korur. Tamamlanan kart depo sorumlusu tarafından kapatılır; enerji, raf güvenliği ve temizlik teyidi olmadan koridor yeniden açılmaz. Yarım kalan hedef yeni vardiyaya sözlü değil, güvenli durumu ve eksik kalemi belirtilerek yazılı devredilir.",
+                ],
+            },
+            {
+                baslik: "Sınıf seçimi ve teklif karşılaştırması",
+                paragraflar: [
+                    "Doğru sınıf için tavan yüksekliğinin yanında hedefe yatay uzaklık, koridor ile dönüş ölçüsü, kapı ve eşik, zemin üzerindeki ızgara-kanal, kapalı veya açık ortam ve çalışma yükü gerekir. Düz geniş aks için makaslı, engel arkasındaki hedef için eklemli sınıf uygun olabilir; ancak bu genel eşleşme saha ölçüsünün yerini tutmaz. Akülü ünite için şarj imkânı, dış saha için zemin ve hava sınırı ayrıca değerlendirilir. Tek makinenin bütün kartları kapatması mümkün değilse iki sınıf gereksinimi teklif aşamasında açıkça gösterilir.",
+                    "Teklifleri yalnız günlük bedel üzerinden karşılaştırmak depo işinde yanıltıcı olabilir. Taşıma, çalışma süresi, operatör seçeneği, şarj, vardiya dışı teslim, bekleme koşulu ve hangi hücrelerin kapsama girdiği aynı tabloda görünmelidir. Daha ucuz görünen ama raf koridoruna giremeyen bir ünite iş üretmez. Biz teklif notuna kullanılan ölçüleri ve varsayımları ekleriz; stok düzeni veya kapı açıklığı değişirse sınıfın yeniden kontrol edilmesi gerektiği baştan bilinir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bolvadin OSB sayfanız silo ve proses bakımını mı kapsıyor?",
+                cevap:
+                    "Bu sayfanın odağı o değildir. Burada fabrika ve lojistik deponun mal kabul, raf koridoru, sipariş hazırlama, sevkiyat kapısı ve genel tavan tesisatı için iş planını anlatıyoruz. Silo, taşıma kulesi, sıcak proses hattı veya kampanya dönemi gibi özel üretim ekipmanı ayrı bir saha değerlendirmesi ister ve kardeş içerikte farklı açıyla ele alınır. Talebiniz karma bir parselden geliyorsa listeyi depo hücreleri ile proses hücrelerine ayırırız; aynı izin, makine ve çalışma sırasının ikisine otomatik olarak uygun olduğunu varsaymayız. Teklif hangi bölümün hangi sınıfla kapsandığını açıkça gösterir.",
+            },
+            {
+                soru: "Forkliftler çalışırken raf koridorunda manlift kullanılabilir mi?",
+                cevap:
+                    "Çalışılan koridorda ve sepetin etkilenebileceği komşu alanda forklift hareketi durmalıdır. Yalnız manlift tabanının çevresine koni koymak yeterli değildir; yükselmiş çatal, taşınan yük veya dönüş yapan araç bomun çalışma zarfına girebilir. Koridor girişleri bariyerlenir, depo yönetim sistemi gerekiyorsa o aksa görev atamayı durdurur ve yaya rotası değiştirilir. Ekip hücreyi bitirip alet-parça sayımı ve görsel teslim yaptıktan sonra koridor açılır. Diğer, fiziksel olarak ayrılmış akslarda lojistik faaliyet sürdürülebilir; amaç tüm depoyu değil kontrol edilemeyen kesişimi durdurmaktır.",
+            },
+            {
+                soru: "Stok doluyken tavan aydınlatması değiştirilebilir mi?",
+                cevap:
+                    "Rafların dolu olması tek başına engel değildir, ancak paletlerin güvenli yerleşmiş olması ve çalışma alanının stok hareketinden ayrılması gerekir. Taşan ambalaj, gevşek üst yük veya hasarlı raf koruması varsa önce depo ekibi düzeltir. El aletleri bağlanır, küçük parçalar kontrollü kapta tutulur ve sepet altındaki paletlerde düşen parça riski işletmeyle değerlendirilir. Hassas ya da açık ürün varsa daha sıkı ürün koruma kuralı gerekebilir. Koridor kapatılamıyor veya yüklerin güvenliği doğrulanamıyorsa bakım düşük stok penceresine taşınır; hızlı değişim adına kontrolsüz çalışma yapılmaz.",
+            },
+            {
+                soru: "Bir vardiyada kaç depo hücresi tamamlanır?",
+                cevap:
+                    "Sabit bir sayı vermek doğru olmaz. Süreyi hedeflerin dağılımı, koridor geçişi, enerji izolasyonu, stok boşaltma zamanı, kullanılacak malzeme ve her hücrenin teslim kontrolü belirler. Keşifte iş listesini hücre kartlarına böler, her kart için erişim ve hazırlık bağımlılıklarını yazarız. Malzeme ile izin önceden hazırsa ekip konumlar arasında düzenli ilerler; raf boşaltma veya elektrik sorumlusu bekleniyorsa aynı liste uzar. Teklifte varsayılan vardiya penceresini ve kapsamı belirtiriz. Amaç yüksek bir hücre sayısı vaat etmek değil, açılan her bölümü güvenli ve tamamlanmış biçimde geri vermektir.",
+            },
+            {
+                soru: "Akülü makineyi gece şarj ederken nelere dikkat edilir?",
+                cevap:
+                    "Şarj noktası kuru, havalandırılan ve araç darbesinden korunmuş bir yerde seçilir; kullanılacak elektrik hattının uygunluğu tesis yetkilisi tarafından doğrulanır. Kablo forklift, transpalet veya yaya yolundan geçirilmez ve geçici uzatma düzeni rastgele kurulmaz. Makine düz zeminde park edilir, kumanda yetkisiz kullanıma karşı güvene alınır ve şarj durumu vardiya devrine yazılır. Sabah operatör görsel kontrol yapmadan üniteyi çalıştırmaz. Olağan dışı ısınma, koku, hasarlı bağlantı veya alarm görülürse şarj kesilir ve servisle görüşülür; günlük programı yetiştirmek için belirti görmezden gelinmez.",
+            },
+            {
+                soru: "Teklif için depo planı göndermek zorunda mıyız?",
+                cevap:
+                    "Mimari plan zorunlu değildir, fakat girişten hedefe rota ile kritik ölçüler zorunludur. Kapı eni-yüksekliği, koridorun en dar yeri, dönüş başı, hedef kotu, yatay engel ve zemindeki ızgara-rampa fotoğrafla birlikte paylaşılmalıdır. Mal kabul ve sevkiyat saatleri, kapatılabilecek koridorlar, şarj ile park alanı ve yapılacak işin enerji izolasyonu da belirtilir. Basit bir kroki çoğu zaman ayrıntılı projeden daha faydalıdır; stok düzeninin güncel hâlini gösterir. Bilgi eksik veya çelişkiliyse saha keşfi öneririz ve kesin sınıfı görmeden vaat etmeyiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bolvadin OSB’nin fabrika ve depolama kullanımına açık genel sanayi alanı olması kamuya açık çerçevedir; kabul-stok-sevkiyat hücreleri, vardiya kartı, şarj ve trafik ayrımı sektör geneli saha pratiğidir. Tarımsal ürün, silo, proses kapasitesi, tesis adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:afyonkarahisar-kucuk-sanayi-sitesi": {
+        h1: "Afyonkarahisar Küçük Sanayi Sitesinde Atölye ve Depo İçin Manlift",
+        giris:
+            "Afyonkarahisar Küçük Sanayi Sitesinde yüksekte çalışma, tek kullanıcıya ait fabrika parselinden farklı planlanır. Yan yana atölyeler, ortak yollar, kısa yükleme, park edilmiş araçlar ve sınırlı kapılar birlikte ele alınır. Tabela, oluk, aydınlatma, hava hattı veya raf işi kısa sürebilir; makinenin taşınması, güvenli konum ve komşu geçişi ise önemli hazırlık ister. Bu yüzden aynı bloktaki hazır kalemleri bir saha turunda birleştiririz. Ağır sanayi prosesi yerine dar gövdeli, hızlı konumlanan ve ortak yolu az kapatan sınıf öne çıkar. Teklif için hedef kotu, kapı, sert zemin, araç yolu ve iç-dış saha bilgisi sorulur. Gün, her atölyeyi güvenli teslim ederek ilerler.",
+        maddeler: [
+            {
+                baslik: "Dar atölye kapısından iç hacme erişim",
+                metin:
+                    "Atölye içindeki aydınlatma, kablo tavası, hava hattı, fan ve kapı motoruna ulaşmak için ilk sınır çoğu zaman tavan değil giriş kapısıdır. Kapının net eni ve yüksekliği, eşik, içerideki ilk dönüş ve tezgâhlar arasındaki kullanılabilir koridor ölçülür. Teknik katalogdaki gövde ölçüsüne ek olarak korkuluk katlama veya platformun çalışma konumu üretici talimatına göre değerlendirilir. Tezgâh, araç ve sökülmüş parçalar güvenli rota açacak biçimde işletme tarafından düzenlenir. Kapalı hacimde egzoz üretmeyen akülü sınıf tercih edilir. Yeterli geçiş yoksa makineyi zorlayarak içeri sokmak yerine dışarıdan erişim veya farklı çalışma yöntemi planlanır.",
+            },
+            {
+                baslik: "Ortak yolda tabela, cephe ve oluk işi",
+                metin:
+                    "Dükkân cephesindeki tabela, aydınlatma, oluk ve kaplama işi ortak araç yoluna taşabilir. Bariyer yalnız makine çevresine değil, sepetin hareket zarfı ve düşebilecek parça alanına göre kurulur. Komşu atölyenin girişini habersiz kapatmayız; çalışma saati blok esnafıyla önceden paylaşılır ve mümkünse daha sakin pencere seçilir. Araç yolu tamamen kapanacaksa ilgili saha yönetiminin yönlendirmesi uygulanır. Sepetten uzun tabela veya panel kaldırılmaz; malzeme ayrı ve uygun yöntemle konumlandırılır. Her cephe tamamlanınca gevşek parça kontrolü yapılır, bariyer kaldırılır ve yol sonraki noktaya geçmeden güvenli biçimde açılır.",
+            },
+            {
+                baslik: "Küçük depo rafı ve üst tesisat bakımı",
+                metin:
+                    "Atölye arkasındaki küçük depolarda raf koridoru büyük lojistik yapılardan daha dar olabilir ve stok düzensiz yerleşebilir. Taşan koli, gevşek parça ve zemindeki malzeme önce işletme tarafından toplanır. Koridor ile dönüş alanı ölçülür; hedefe dikey çıkış yeterliyse kompakt makaslı, raf veya tezgâh arkasına uzanmak gerekiyorsa küçük eklemli sınıf değerlendirilir. Raf sistemine manlift bağlanmaz, sepet raf gözüne dayanak yapılmaz. Çalışılan koridorda personel ve yük hareketi durur. İş sonunda sökülen bağlantılar ile el aletleri sayılır; depo, sorumlu kişi kontrol etmeden yeniden kullanıma açılmaz.",
+            },
+            {
+                baslik: "Aynı bloktaki kısa işleri tek turda toplamak",
+                metin:
+                    "Tek bir armatür veya tabela için ayrı taşıma yapmak, kısa işin maliyetinde nakliyeyi baskın hâle getirir. Aynı işletmenin ertelenmiş kalemlerini bir listede toplamak ilk adımdır. Tarihler uyuyorsa komşu atölyelerin benzer yükseklik ve zemin isteyen işleri de aynı saha turuna alınabilir. Bunun için her adresin fotoğrafı, ölçüsü, malzemesi ve yetkili kişisi önceden hazır olmalıdır; makine kapıda beklerken yeni hedef aramayız. Günlük sıra blok üzerindeki konuma göre kurulur ve bir nokta teslim edilmeden diğerine geçilmez. Her işin bedel ve süre payı teklifte açıkça ayrılır; ortak tur, sorumlulukların karışması anlamına gelmez.",
+            },
+            {
+                baslik: "Atölye faaliyeti ile bakım alanını ayırmak",
+                metin:
+                    "Kaynak, taşlama, araç kaldırma, boya veya parça taşıma süren bir atölyede manlift için boş görünen köşe güvenli çalışma alanı sayılmaz. Sepette yapılacak işin niteliği belirlenir; kıvılcım veya sıcak çalışma varsa işletmenin izin ve yangın önlemi uygulanır. Askılı yük, kaldırılmış araç ve hareketli makine aynı hücrede durdurulur. Boya veya solvent kullanılan hacimde ortam koşulları işletmenin risk değerlendirmesine göre teyit edilir. Küçük dükkânda bu faaliyetler fiziksel olarak ayrılamıyorsa bakım mesai dışına alınır. Kısa iş baskısı, birbirini etkileyen operasyonları aynı dar alanda sürdürme gerekçesi değildir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "KSS iş türü ve erişim yaklaşımı",
+                paragraflar: [
+                    "Küçük Sanayi Sitesinde sınıfı belirleyen temel unsur, kısa işin yapılacağı dar çevredir. Aşağıdaki tablo keşifte hangi ölçünün ve operasyon ayrımının öne çıktığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş alanı", "Sık bakım kalemi", "Ana kısıt", "Yaklaşım"],
+                    satirlar: [
+                        ["Dar atölye içi", "Aydınlatma ve hava hattı", "Kapı ve tezgâh koridoru", "Kompakt akülü"],
+                        ["Dükkân cephesi", "Tabela ve kaplama", "Ortak araç yolu", "Kısa bomlu, bariyerli"],
+                        ["Atölye arkası depo", "Raf ve üst tesisat", "Stok taşması", "Koridoru boşalt"],
+                        ["Çatı kenarı", "Oluk ve panel", "Rüzgâr ve komşu giriş", "Hava penceresinde bomlu"],
+                        ["Kapı üstü", "Motor ve ray", "Kapının enerjisi", "İzole edip kompakt çalış"],
+                        ["Ortak açık alan", "Direk ve dış aydınlatma", "Yaya-araç trafiği", "Saha yönetimiyle ayır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Blok turu öncesi hazırlık listesi",
+                paragraflar: [
+                    "Her atölyeden hedefin fotoğrafı, zeminden kotu, giriş açıklığı, içerideki dönüş alanı ve dükkân önünün hangi saatte boşaltılabileceği istenir. Sepette yapılacak iş ile taşınacak alet ve malzeme belirtilir. Elektrik, kapı motoru veya hareketli ekipman için enerji kesme yetkilisi belirlenir. Cephe işinde ortak yol ve komşu girişleri gösteren geniş açı fotoğraf gerekir. Bu bilgi olmadan aynı blokta olduğu için bütün işlerin tek makineye uygun olduğunu varsaymayız.",
+                    "Tur sırası yalnız adres numarasına göre değil, makine sınıfı ve çalışma ortamına göre kurulur. Temiz kapalı hacimler önce, dış saha veya kirli atölye işleri sonra gelebilir. Her işletme kendi malzemesini ve sorumlusunu saatinden önce hazır tutar. Bir nokta hazır değilse programın tamamı beklemez; ölçüsü ve izni tamamlanmış sonraki adrese geçilir. Ancak atlanan iş, ortak yol düzenini bozacak rastgele bir saate sıkıştırılmaz; uygun yeni pencereye yazılır.",
+                ],
+            },
+            {
+                baslik: "Kısa işte teslim ve sorumluluk kaydı",
+                paragraflar: [
+                    "Kısa süreli kullanımda dahi teslim kontrolü atlanmaz. Makinenin görünür durumu fotoğraflanır, kumanda ve acil indirme gösterilir, kullanacak kişi yetkilendirilir. Operatörlü hizmette atölye, çalışma alanını ve enerji izolasyonunu teslim eder; operatör zemini ve hareket zarfını ayrıca kontrol eder. Operatörsüz kullanımda kullanıcı yeterliliği ve günlük kontrol sorumluluğu açıkça yazılır. Sepetin yük ve kişi sınırı üretici etiketinden okunur, makine vinç veya malzeme taşıma aracı gibi kullanılmaz.",
+                    "Her iş bitiminde alet-parça sayımı, bağlantı kontrolü ve alan temizliği yapılır. Kapı ya da elektrik ekipmanı yalnız tesis yetkilisinin onayıyla yeniden enerjilenir. Ortak yoldaki bariyer, sepet tamamen toplanıp makine güvenli konuma geçmeden kaldırılmaz. Tur sonunda ünite düz ve korunaklı park alanına alınır; şarj gerekiyorsa kablo araç yolundan uzak tutulur. Bu küçük kayıtlar, birden fazla işletmenin katıldığı turda hangi işin nerede tamamlandığını ve sorumluluğun ne zaman devredildiğini net tutar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tek bir tabela işi için Küçük Sanayi Sitesine gelir misiniz?",
+                cevap:
+                    "Gelmek mümkündür, ancak tek kısa işte taşıma payının yüksek kalacağını açıkça belirtiriz. Önce aynı işletmedeki oluk, aydınlatma, kapı motoru veya iç tesisat gibi ertelenmiş kalemlerin tek listeye alınmasını öneririz. Tarih esnekse aynı blokta ölçüsü ve makine sınıfı uyumlu başka taleplerle bir tur kurulabilir. Bu birleştirme otomatik değildir; her dükkânın zemin, ortak yol ve izin koşulu ayrı kontrol edilir. Teklifte nakliye ile çalışma kalemi ayrı görünür. Acil ve tekil iş yine yapılabilir; kararınızı gerçek toplam üzerinden vermeniz için programlı tur seçeneğini de gösteririz.",
+            },
+            {
+                soru: "Atölye kapımız dar; makinenin sığıp sığmayacağını nasıl anlarız?",
+                cevap:
+                    "Kapının net eni ve yüksekliği başlangıçtır; eşik, kapı kanadı, içerideki ilk dönüş, tezgâhlar arasındaki koridor ve hedefin yatay engeli de ölçülmelidir. Makinenin taşıma konumundaki gövde ölçüsü teknik veriden kontrol edilir, ancak zemindeki malzeme ve kolon çıkıntısı gerçek kullanılabilir alanı daraltabilir. Girişten hedefe ardışık fotoğraf gönderirseniz uygun kompakt sınıfı önceden eleyebiliriz. Korkuluk veya platform parçası yalnız üreticinin tarif ettiği biçimde katlanabilir; makineyi geçişe uydurmak için güvenlik bileşeni sökülmez. Ölçü sınırdaysa sahada keşif yapılır.",
+            },
+            {
+                soru: "Dükkân önündeki yolu tamamen kapatmanız gerekir mi?",
+                cevap:
+                    "İşin konumu ve bomun hareket zarfına bağlıdır. Bazen tek şeritlik kontrollü alan yeterlidir; dar bir ortak yolda tabela veya çatı kenarı işi bütün geçişin kısa süre durmasını gerektirebilir. Bariyer planı komşu işletmeler ve saha yönetimiyle önceden paylaşılır, alternatif yaya-araç rotası belirlenir. Yalnız makine tabanına koni koyup sepeti aktif yolun üstüne uzatmayız. İş küçük bloklara bölünür; cephe tamamlanıp gevşek parça kontrolü yapıldıktan ve sepet toplandıktan sonra yol açılır. Daha sakin saat seçmek çoğu durumda kapanma süresini azaltır.",
+            },
+            {
+                soru: "Atölyede kaynak veya boya sürerken bakım yapabilir misiniz?",
+                cevap:
+                    "Aynı dar hücrede birbirini etkileyen işleri sürdürmeyiz. Kaynak, taşlama veya sıcak çalışma için kıvılcım alanı; boya ve solvent için işletmenin risk değerlendirmesi ve havalandırma koşulları dikkate alınır. Manliftin hedefi farklı olsa bile sepet bu faaliyetlerin etkilediği alana giriyorsa ilgili işlem durdurulur veya bakım mesai dışına taşınır. Askılı yük ve hareketli tezgâhlar da çalışma koridorunda durur. Fiziksel ayrım mümkünse komşu kesit faaliyetine devam edebilir. Kararı işin kısa olmasına göre değil, enerji, atmosfer ve hareketli yüklerin gerçekten ayrılıp ayrılmadığına göre veririz.",
+            },
+            {
+                soru: "Operatörlü ve operatörsüz kiralama arasında ne değişir?",
+                cevap:
+                    "Operatörlü hizmette makinenin sürüşü ve konumlandırması yetkili operatör tarafından yürütülür; işletme yine zemini, çalışma alanını, enerji izolasyonunu ve üretim trafiğinin ayrılmasını sağlar. Operatörsüz kiralamada kullanıcı yeterliliği doğrulanır, günlük kontroller ve izin verilen kullanım sınırları teslim tutanağına yazılır. Her iki modelde de makine, kaldırma vinci veya raf desteği olarak kullanılamaz ve üretici yük sınırı geçerlidir. Birden fazla atölyeli turda operatörlü model, her noktada yeni kullanıcı devri yapılmasını önleyebilir; uygun seçenek iş listesi ve süreye göre teklif edilir.",
+            },
+            {
+                soru: "Aynı gün birkaç atölyeyi dolaşırken gecikme nasıl önlenir?",
+                cevap:
+                    "Her adres için fotoğraf, ölçü, yapılacak iş, hazır malzeme, yetkili kişi ve yolun boş kalacağı saat turdan önce tek listede toplanır. Sıra coğrafi yakınlıkla birlikte makine sınıfı ve temiz-kirli ortam geçişine göre kurulur. Ekip geldiğinde yeni hedef keşfedilmesi veya malzeme aranması programı bozar; hazır olmayan adres atlanıp uygun pencereye yeniden yazılır. Her nokta alet-parça sayımı ve sorumlu kabulüyle kapanır. Komşu işletmeler ortak yol saatini bildiği için bariyer kurulurken araç beklenmez. Bu hazırlık kısa işlerin toplamını öngörülebilir bir günlük programa dönüştürür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Afyonkarahisar Küçük Sanayi Sitesindeki atölye, dükkân ve küçük depo ölçeği genel sanayi sitesi kullanım biçimine dayanan kamuya açık çerçevedir; blok turu, erişim ölçüsü, ortak yol ve teslim düzeni sektör geneli saha pratiğidir. İşletme adı, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

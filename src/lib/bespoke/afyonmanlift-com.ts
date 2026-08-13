@@ -724,4 +724,203 @@ export const AFYONMANLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Konya’nın un, bulgur, makarna ve bisküvi-şekerleme üretimiyle anılan bir gıda sanayii merkezi olması kamuya açık genel bilgidir; il dışı program kurgusu, park-şarj düzeni ve toz-sıcaklık kuralları firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+    "bolge:emirdag-osb": {
+        h1: "Emirdağ OSB’de Tarım Makinesi ve Gıda Tesisleri İçin Manlift Kiralama",
+        giris:
+            "Emirdağ OSB’de yüksekte çalışma planı, aynı sahada iki farklı üretim düzenini birlikte okumayı gerektirir: metal işleyen tarım makinesi imalatı ile hammaddenin temiz ve kontrollü akışını isteyen gıda ve yem üretimi. Bir tarafta vinç yolları, kaynak dumanı emiş kanalları, boya hattı çevresi ve büyük parçaların dolaştığı montaj holleri; diğer tarafta elevatörler, kapalı taşıma hatları, silo bağlantıları, aspirasyon sistemi ve paketleme bölümleri bulunur. Aynı manlifti yalnız erişim yüksekliğine bakarak iki hacme de göndermek doğru olmaz. Gövde ölçüsü, enerji türü, yük trafiği, üretim duruşu ve temizlik kabulü birlikte değerlendirilir. Emirdağ ilçe sayfasındaki kırsal lojistikten farklı olarak burada OSB parselindeki izin, izolasyon ve vardiya koordinasyonu ele alınır; esas mesele imalat holü ile gıda hacminin ayrılan kurallarını tek programda yönetmektir.",
+        maddeler: [
+            {
+                baslik: "Tarım makinesi imalatında vinç yolu ve üst tesisat",
+                metin:
+                    "Tarım makinesi üreten hollerde yüksek kot; köprülü vinç rayı, elektrik besleme hattı, aydınlatma, duman emiş kanalı ve çatı taşıyıcılarının çevresinde yoğunlaşır. Sepet yükselmeden önce manlift alanı ile tavandaki hareketli ekipmanın bölgesi kapatılır. Vinç kumandası yetkili kişide tutulur, hareket alanı izole edilir ve yarı mamul parçalar güvenli geçiş bırakacak biçimde düzenlenir. Uzun şasi ve geniş aparatların bulunduğu holde dar dönüşlü akülü eklemli sınıf çoğu zaman yükseklikten daha önemli bir ölçüttür. İş bölümlere ayrılır; kapanan koridor tamamlanınca bariyer sonraki bölüme taşınır.",
+            },
+            {
+                baslik: "Kaynak, boya ve yüzey hazırlama alanlarında ayrım",
+                metin:
+                    "Metal imalatında her üst kot işi aynı izinle yürütülemez. Kaynak dumanı emiş hattının mekanik kontrolü ile sıcak çalışma gerektiren bir kanal onarımı farklı riskler taşır; boya veya solvent kullanılan bölüme kıvılcım üreten işlem sokulmaz. Talep listesini bu nedenle önce soğuk bakım, elektrik işi ve sıcak çalışma olarak ayırırız. Manliftin kendisi çalışma ekipmanı değil erişim aracıdır; sepette yapılacak işin izni ayrıca açılır. Boya hattı çevresinde ortamın havalandırıldığı, kapların kapalı olduğu ve tesisin kendi güvenli giriş koşullarının sağlandığı teyit edilmeden çalışma başlamaz. Bu ayrım makinenin sahada gereksiz beklemesini önler ve farklı ekiplerin birbirinin izin penceresini tüketmesini engeller.",
+            },
+            {
+                baslik: "Gıda ve yem hacimlerinde ürün koruma düzeni",
+                metin:
+                    "Gıda veya yemle ilişkili kapalı hacimlerde erişim kadar yabancı madde kontrolü önemlidir. Üretim üstünde serbest el aleti bırakılmaz; aletler bağlanır, küçük parçalar kapalı kutuda tutulur ve sepet altında tesis prosedürüne uygun toplama düzeni kurulur. Makinenin tekerlekleri girişten önce temizlenir, sızıntı kontrolü yapılır ve egzoz üretmeyen sınıf tercih edilir. Açık ürün bulunan hatta planlı bakım yürütmeyiz; ilgili bölüm boşaltılır, üretimle fiziksel olarak ayrılır ve temizlik ekibinin kabul edebileceği bir teslim penceresi oluşturulur. İş sonunda parça ve alet sayımı yapılır, güzergâh gözden geçirilir, alan işletmenin temizlik prosedürüne hazır biçimde bırakılır ve kayıt saha sorumlusuyla kapatılır.",
+            },
+            {
+                baslik: "Silo, elevatör ve aspirasyon hattında enerji izolasyonu",
+                metin:
+                    "Hammadde kabulünden üretime uzanan kapalı taşıma düzeninde elevatör, helezon, fan ve döner ekipman uzaktan devreye girebilir. Durgun görünmesi güvenli olduğu anlamına gelmez. Çalışılacak ekipman tanımlanır, besleme kaynakları tesis prosedürüne göre kesilip kilitlenir ve yeniden başlatma yetkisi iş bitimine kadar sınırlandırılır. Manlift, silo veya konstrüksiyonun olası düşme alanına değil, taşıma gücü doğrulanmış yan zemine kurulur; hedefe bom erişimiyle ulaşılır. Toz birikimi görülürse önce temizlik ve tesis risk değerlendirmesi istenir. Taşlama, kesme veya kıvılcım çıkarabilecek iş, uygunluğu açıkça doğrulanmadan bu hacimde programlanmaz; erişim sağlanması sıcak çalışma izninin yerine geçmez.",
+            },
+            {
+                baslik: "İki üretim tipini tek bakım turunda sıraya koymak",
+                metin:
+                    "OSB’ye yapılan sevkiyatın verimi, bütün kalemleri aynı anda açmaktan değil doğru sıraya koymaktan gelir. İlk keşifte kapı ölçüleri, çalışma kotları, zemin, üretim vardiyası ve tesis içi geçişler kayda alınır. Temiz hacme girecek makine önce gıda bölümünü tamamlar; metal talaşı, boya kalıntısı veya dış saha kiri taşıdıktan sonra aynı üniteyi yeniden temiz alana sokmayız. Ardından imalat holü ve dış saha kalemleri kapanır. Hava koşuluna bağlı çatı işleriyle kapalı hacim işleri aynı programa yazılır; rüzgâr dış işi durdurursa ekip iç bölüme geçer. Böylece kiralama günü izin ya da hava beklemekle tüketilmez ve işletme hangi vardiyada hangi alanın kapanacağını önceden bilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Emirdağ OSB’de iş alanı ve ekipman eşleşmesi",
+                paragraflar: [
+                    "Seçimi yalnız azami çalışma yüksekliğiyle yapmak, OSB içindeki farklı hacimleri gözden kaçırır. Aşağıdaki eşleşme, keşifte hangi kısıtın önce ölçüleceğini gösterir; nihai sınıf, üretici sınırları ve saha değerlendirmesiyle belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Çalışma alanı", "Tipik iş", "Öncelikli kontrol", "Uygun yaklaşım"],
+                    satirlar: [
+                        ["Tarım makinesi montaj holü", "Vinç yolu, aydınlatma, emiş kanalı", "Hareketli yük ve koridor", "Dar dönüşlü akülü eklemli"],
+                        ["Kaynak bölümü", "Duman emiş hattı ve askılar", "Enerji ve sıcak çalışma ayrımı", "İzinli pencerede akülü"],
+                        ["Gıda üretim hacmi", "Üst tesisat ve armatür", "Ürün koruma ve temizlik", "İç saha akülü sınıf"],
+                        ["Silo ve elevatör çevresi", "Kapak, sensör, bağlantı", "İzolasyon ve güvenli konum", "Uzanmalı bomlu"],
+                        ["Paketleme ve depo", "Hat üstü, raf, aydınlatma", "Açık ürün ve trafik", "Kompakt makaslı"],
+                        ["Çatı ve dış saha", "Oluk, kaplama, kanal", "Zemin ve rüzgâr", "Arazi uyumlu bomlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşiften vardiya teslimine kadar iş akışı",
+                paragraflar: [
+                    "Hazırlık görüşmesinde iş listesi tesis bölümlerine ayrılır; her bölüm için hedef kot, yatay engel, kapı-koridor ölçüsü, zemin ve üretimin durabileceği pencere yazılır. Fotoğraf tek başına ölçek vermediği için kritik açıklıklar ayrıca ölçülür. Ardından tesisin izin sorumlusu, bakım ekibi ve manlift planlayıcısı aynı sıra üzerinde anlaşır. Bu sıra, sahaya gelen ünitenin ilk gün başka sınıfla değiştirilmesini veya bir izin açılana kadar boşta kalmasını önler.",
+                    "Vardiya değişiminde açık hedef bırakılmaz. Bariyer kaldırılmadan alet sayımı, görsel kontrol ve saha sorumlusu kabulü yapılır; yarım nokta enerji ve erişim durumuyla yazılı devredilir. Gıda bölümünde temizlik kabulü tamamlanmadan üretim alanı açılmaz.",
+                ],
+            },
+            {
+                baslik: "Teklif öncesi hazırlanması gereken saha paketi",
+                paragraflar: [
+                    "Sağlıklı teklif için yalnız yükseklik bilgisi yetmez. Hedeflerin işaretlendiği basit bir yerleşim krokisi, en dar kapı ve koridor ölçüleri, zeminin cinsi, vardiya planı, iç-dış saha ayrımı ve sepette yapılacak işin niteliği paylaşılmalıdır. Silo veya çatı hedefinde yatay erişim mesafesi de eklenir. Gıda alanı varsa işletmenin giriş-temizlik kuralı; kaynak, boya veya döner ekipman alanı varsa ilgili izin ve izolasyon yöntemi baştan bildirilir.",
+                    "Bu paketle tek sınıfın bütün listeyi kapatıp kapatamayacağını kontrol ederiz. İki sınıf gerekiyorsa bunu teklif aşamasında söyler, günleri temiz hacimden kirli hacme sıralarız. Nakliye, operatör tercihi, şarj veya yakıt düzeni ve hava bağımlı kalemler program notunda görünür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tarım makinesi montaj holünde üretim sürerken çalışabilir misiniz?",
+                cevap:
+                    "Tesisin tamamının durması gerekmez; fakat manliftin bulunduğu koridor ile tavandaki vinç veya hareketli yük bölgesi çalışma boyunca kapatılmalıdır. Önce zemindeki parça akışı başka güzergâha alınır, ardından ilgili vinç hareketi ve üst ekipman tesis prosedürüne göre izole edilir. Bariyerin sınırı, bomun dönüş alanını ve düşebilecek parça ihtimalini de kapsar. Montaj ekibi komşu bölümde çalışabilir; aynı koridordan yük geçirmek veya sepet altından personel yürütmek kabul edilmez. Vardiya planı önceden verilirse bölümleri sırayla kapatır, üretimin bütünü yerine yalnız çalışılan hücreyi etkileriz.",
+            },
+            {
+                soru: "Aynı manlift gıda bölümüyle kaynak holünde kullanılabilir mi?",
+                cevap:
+                    "Teknik ölçüler uygunsa kullanılabilir, ancak sıra ve temizlik koşulu baştan kurulmalıdır. Ünite önce temiz kabul edilen gıda hacmine girer; tekerlek ve gövde kontrolü yapılır, sızıntı bulunmadığı doğrulanır, aletler bağlanır ve ürün koruma düzeni uygulanır. Bu bölüm teslim edilip işletmenin temizlik kabulü kapandıktan sonra makine metal imalat alanına geçer. Kaynak dumanı, talaş veya boya çevresinde çalışmış bir üniteyi aynı programda tekrar temiz hacme döndürmeyiz. İş sırası ters olmak zorundaysa ikinci bir ünite ya da işletmenin onayladığı ayrıntılı yeniden temizlik planı gerekir.",
+            },
+            {
+                soru: "Silo veya elevatör bakımında sistemi yalnız kumandadan durdurmak yeterli mi?",
+                cevap:
+                    "Hayır. Kumandadaki durdurma komutu, ekipmanın başka bir panelden ya da otomasyon tarafından yeniden başlatılmasını fiziksel olarak engellemez. Çalışılacak hat açıkça tanımlanır; elektriksel, mekanik veya pnömatik beslemeler tesisin enerji izolasyonu prosedürüne göre kesilir ve yetkisiz açmayı engelleyecek biçimde kilitlenir. Saha sorumlusu bu durumu doğrulamadan sepet yükselmez. İş bitince alet ve parça sayımı yapılır, koruyucular yerine takılır, personel tehlike alanından çıkar ve kilit kaldırma süreci yine tesis yetkilisiyle yürütülür. Manlift operatörü üretim ekipmanının yeniden devreye alınmasına tek başına karar vermez.",
+            },
+            {
+                soru: "Boya kullanılan bölümde manliftle bakım yapılabilir mi?",
+                cevap:
+                    "Yapılabilir olup olmadığına işin türü ve tesisin risk değerlendirmesi birlikte karar verir. Boya veya solvent kullanılan bir hacme, ortam koşulları ve ekipman uygunluğu teyit edilmeden standart bir ünite sokmayız. Önce uygulama durdurulur, kaplar kapatılır, havalandırma ve ölçüm gereklilikleri işletme tarafından yerine getirilir. Sepette yapılacak işlem kıvılcım veya sıcak yüzey üretiyorsa ayrı sıcak çalışma izni gerekir; yalnızca bir bağlantıyı gözle kontrol etmekle taşlama yapmak aynı program maddesi değildir. Koşullar uygun değilse işi planlı duruşa taşır veya erişimi farklı bir yöntemle çözeriz.",
+            },
+            {
+                soru: "Çatı işi rüzgâr nedeniyle durursa kiralama günü boşa mı gider?",
+                cevap:
+                    "Program doğru kurulmuşsa boşa gitmez. Dış saha kalemlerinin yanına aynı makinenin yapabileceği hol işleri yazılır. Rüzgâr üretici sınırına yaklaştığında çatı işi durdurulur; ekip izinleri hazır bölüme geçer. Hava sakinleştiğinde dış kaleme dönülür. Bunun için iki bölümün iş emri, erişim koridoru ve enerji izolasyonu önceden hazırlanmalıdır. Tek çatı işi çağrısında hava kaynaklı beklemenin nasıl ele alınacağı teklifte açıkça yazılır; sonradan ücret kalemi bırakılmaz.",
+            },
+            {
+                soru: "Teklif alırken hangi ölçü ve belgeleri göndermeliyiz?",
+                cevap:
+                    "Her hedef için zeminden çalışma kotunu, makinenin duracağı yerle hedef arasındaki yatay mesafeyi ve güzergâhtaki en dar kapı-koridor ölçüsünü isteriz. Zeminin beton, dolgu veya açık saha olup olmadığı; rampalar, drenaj kanalları ve üst engeller fotoğrafla gösterilmelidir. Buna vardiya planı, yapılacak işin elektrik-mekanik-sıcak çalışma sınıfı ve üretimin hangi bölümde durabileceği eklenir. Gıda hacmi için giriş ve temizlik prosedürü, hareketli ekipman için izolasyon kuralı paylaşılır. Bu bilgilerle sınıfı ve iş sırasını tek turda belirler, sahada uygun olmayan makineyi değiştirme riskini azaltırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Emirdağ çevresinin tarım ve hayvancılık ekonomisiyle ilişkisi ile OSB’lerde tarım makinesi ve gıda üretimine uygun tesis tiplerinin bulunması kamuya açık genel sektörel çerçevedir; vardiya, izolasyon, temizlik ve makine eşleştirme düzeni firma saha pratiğidir. Tesis adı, kapasite ve üretim rakamı kullanılmamıştır.",
+    },
+
+    "bolge:ihsaniye": {
+        h1: "İhsaniye’de Tarımsal Yapılar ve Depo İşleri İçin Manlift Kiralama",
+        giris:
+            "İhsaniye’de yüksekte çalışma talebi büyük bir kampüsten çok, merkeze ve kırsal yerleşimlere dağılmış tarımsal yapılardan gelir. Tahıl veya yem deposu, makine sundurması, hayvan barınağı, ürün kabul saçağı ve küçük işleme hacmi aynı bakım listesinde bulunabilir; her birinin zemini, hijyen koşulu ve erişimi farklıdır. Kardeş domaindeki İhsaniye sayfası küçük imalathane ile ticari bina taleplerini anlatır. Burada odağı tarımsal yapının dönemsel kullanımına çeviriyoruz: ürün içerideyken depo boş değildir, yağıştan sonra avlu taşıma gücünü kaybedebilir, barınakta günlük akış kesilemez. Doğru makine kadar doğru gün de önemlidir. Plan doluluk takvimi ve günlük akış üzerinden kurulur; sert zemin ve ayrılmış çalışma bölgesi doğrulanmadan sepet yükselmez.",
+        maddeler: [
+            {
+                baslik: "Tahıl ve yem depolarında boş hacim penceresi",
+                metin:
+                    "Depo çatısındaki sac, mahya havalandırması, oluk, kuş engeli ve iç aydınlatma bakımı ürün içerideyken gereksiz risk üretir. Yığın yüzeyi taşıyıcı zemin değildir; makine veya destek ayağı ürün üstüne konulamaz. Üstten düşebilecek küçük bir bağlantı parçası bile partinin kontrolünü zorlaştırır. Planlı işleri ürün çıkışı ile yeni kabul arasındaki boş pencereye yazarız. Acil bir sızıntı varsa önce ürünün etkilenecek bölgeden uzaklaştırılması ve çalışma alanının fiziksel olarak ayrılması istenir. İş sonunda alet-parça sayımı yapılır, çatı açıklıkları kapatılır ve depo yeniden kullanıma verilmeden işletme sorumlusuyla görsel teslim tamamlanır.",
+            },
+            {
+                baslik: "Makine sundurması ve bakım avlusunda üst kot işleri",
+                metin:
+                    "Tarımsal ekipmanın park edildiği sundurmalarda çatı aydınlatması, taşıyıcı bağlantı, oluk ve kapı mekanizması sık bakım kalemleridir. Sorun çoğu zaman yükseklik değil, zemindeki traktör, aparat ve sökülmüş parçalardır. Çalışma öncesinde tek bir sert geçiş koridoru boşaltılır; manliftin dönüş alanı ve sepet altındaki düşme bölgesi bariyerle ayrılır. Sundurma dışındaki sıkıştırılmış toprak, kuru görünse bile altındaki dolgu veya drenaj hendeği nedeniyle aynı taşıma gücüne sahip olmayabilir. Operatör zemini yürüyerek kontrol eder, şüpheli bölümde ünite yükseltilmez. Kısa erişim için gereğinden ağır sınıf göndermek yerine zemine ve kapı açıklığına uygun kompakt ünite seçilir.",
+            },
+            {
+                baslik: "Hayvan barınaklarında fan, perde ve aydınlatma",
+                metin:
+                    "Ahır ve barınaklarda üst kot bakımının ana başlıkları çatı fanları, yan perde makaraları, sulama-yem hattı askıları ve aydınlatmadır. Nem, toz ve ortam gazları metal bağlantıları yıpratabilir; tek arıza çağrısı yerine düzenli bir görsel kontrol turu daha verimli olur. Çalışılan şerit hayvanlardan ayrılır, zemin temizlenir ve kaygan altlık kaldırılır. Fan veya motor üzerinde işlem varsa enerji kesilip yeniden çalıştırmayı önleyecek biçimde kontrol altına alınır. Egzozlu ekipman kapalı hacimde tercih edilmez; sessiz ve emisyonsuz akülü sınıf, günlük işletme akışını daha az bozar. İş mümkünse yemleme ve hayvan hareketinin düşük olduğu pencereye yerleştirilir.",
+            },
+            {
+                baslik: "Küçük işleme ve ürün kabul alanlarında temiz çalışma",
+                metin:
+                    "Ürünün tartıldığı, ayrıldığı, paketlendiği veya kısa süre bekletildiği hacimlerde üst tesisat bakımının ürün akışından ayrılması gerekir. Açık ürünün üzerinde çalışmayız; bölüm boşaltılır, komşu hatla fiziksel sınır kurulur ve el aletleri sepete bağlanır. Makine girişinde tekerlek ve sızıntı kontrolü yapılır. Ürün kabul saçaklarında ise aynı anda kamyon, traktör ve yaya hareketi olabilir; sevkiyat penceresi kapatılmadan bomu araç yoluna uzatmayız. İç hacim ile kabul avlusunu aynı güne yazmak mümkündür, ancak temiz bölüm önce tamamlanır. Dış sahada kirlenen üniteyi hazırlıksız biçimde yeniden ürün alanına döndürmeyiz.",
+            },
+            {
+                baslik: "Dağınık adreslerde hat ve hava planı",
+                metin:
+                    "İhsaniye’de birden fazla küçük kalemin ayrı ayrı sevk edilmesi, iş süresinden çok taşıma süresini büyütür. Bakım listesini aynı işletmenin depo, sundurma ve barınak hedefleriyle birleştirmek ilk çözümdür; tarihler uygunsa yakın adresler de tek ilçe turuna alınabilir. Bunun için her adresin giriş açıklığı, son yaklaşım yolu ve indirme alanı önceden görülmelidir. Yağıştan sonra kırsal avlu ve stabilize yol için yeniden teyit isteriz; bir gün önce uygun görünen zemin ertesi gün aynı durumda olmayabilir. Hava bağımlı çatı kalemleriyle kapalı hacim işleri birlikte sıralanır, böylece rüzgâr veya yağış dış işi ertelediğinde ekip içerideki bakım turuna geçebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarımsal yapı, risk ve erişim eşleşmesi",
+                paragraflar: [
+                    "İlçedeki yapılar benzer yükseklikte görünse de doğru erişim yaklaşımını belirleyen koşul farklıdır. Tablo, teklif öncesinde hangi bilginin öncelikli toplanacağını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı / alan", "Bakım kalemi", "Temel kısıt", "Erişim yaklaşımı"],
+                    satirlar: [
+                        ["Tahıl veya yem deposu", "Çatı, mahya, aydınlatma", "Doluluk ve yabancı madde", "Boş dönemde arazi uyumlu"],
+                        ["Makine sundurması", "Oluk, taşıyıcı, kapı", "Parklı ekipman ve dar koridor", "Kompakt eklemli"],
+                        ["Hayvan barınağı", "Fan, perde, askı", "Günlük akış ve kaygan zemin", "Akülü iç saha sınıfı"],
+                        ["Ürün işleme hacmi", "Üst tesisat, armatür", "Açık ürün ve temizlik", "Temizlenmiş akülü makaslı"],
+                        ["Kabul saçağı", "Aydınlatma, kaplama, oluk", "Araç trafiği", "Bariyerli bomlu çalışma"],
+                        ["Kırsal avlu", "Cephe ve dış çatı", "Taşıma gücü ve hava", "Zemine uygun geniş tabanlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Doluluk takviminden bakım penceresi üretmek",
+                paragraflar: [
+                    "Depo yöneticisinden yalnız boşalma tarihini istemek yeterli değildir. Son ürün çıktıktan sonra temizlik için ayrılan zaman, çatı açıklığının hava koşuluna göre güvenle açılabileceği dönem ve yeni kabulün başlayacağı gün birlikte görülmelidir. Liste; içeriden yapılacak elektrik-mekanik işler, dışarıdan yapılacak kaplama-oluk işleri ve yalnız boş hacimde yürütülebilecek kalemler olarak ayrılır. Böylece hava dış işi durdursa bile iç hazırlık ilerler ve kısa boşluk tek bir arıza yüzünden tamamen kaybedilmez.",
+                    "Barınak ve küçük işleme hacminde mevsimsel boşalma yerine yemleme, temizlik, ürün kabulü veya sevkiyat aralıkları kullanılır. Vardiya sonunda tamamlanan nokta teslim edilir; açık bağlantı, sökülmüş koruyucu veya açık çatı bölümü bırakılmaz. Sonraki pencereye kalan iş yazılı devredilir.",
+                ],
+            },
+            {
+                baslik: "Kırsal erişim için fotoğraf ve ölçü kontrolü",
+                paragraflar: [
+                    "Tekliften önce adresin son yaklaşımını gösteren fotoğraflar, giriş kapısının eni-yüksekliği, sert indirme alanı ve makinenin hedefe kadar izleyeceği güzergâh gerekir. Yalnız hedef yapının fotoğrafı yeterli değildir; lowbed veya taşıyıcı aracın döneceği yer de görülmelidir. Üstten geçen kablo, dar menfez, yol kenarı hendeği, avludaki kapalı çukur ve eğim ayrıca işaretlenir. Hedefin zeminden kotuyla makine konumu arasındaki yatay mesafe de sınıf seçimini doğrudan etkiler.",
+                    "Saha günü bilgi yeniden kontrol edilir. Yağış, sulama, ürün yığını veya park edilmiş ekipman güzergâhı değiştirmişse eski plana dayanarak yükselmez. Sert zemin daha uzaktaysa erişim yeniden hesaplanır; yetmiyorsa iş ertelenir veya başka sınıf planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuz doluyken çatı sızıntısına müdahale edebilir misiniz?",
+                cevap:
+                    "Önceliğimiz ürünü ve çalışanları risk alanından çıkarmaktır. Yığın üstüne makine koymayız ve açık ürün üzerinde planlı bakım yürütmeyiz. Acil sızıntıda ürün, düşebilecek parça veya suyun etkileyebileceği bölümden uzaklaştırılır; mümkünse dışarıdan güvenli bir sert zemine konumlanıp yalnız geçici kapatma yapılır. Kalıcı sac, mahya veya iç aydınlatma işi depo boşaldığında programa alınır. İş bitiminde kullanılan küçük parçalar ve aletler sayılır, açıklık güvenli biçimde kapatılır ve alan işletme sorumlusuna görsel kontrolle teslim edilir. Ürün korunamıyorsa çalışma ertelenir; aciliyet, yabancı madde riskini kabul etme gerekçesi değildir.",
+            },
+            {
+                soru: "Toprak avlu kuru görünüyor; arazi tipi manlift için yeterli midir?",
+                cevap:
+                    "Kuru görünüm tek başına taşıma gücünü kanıtlamaz. Dolgu kalınlığı, yakın zamandaki yağış veya sulama, yüzey altındaki drenaj hattı ve eski çukurlar yük altında farklı davranabilir. Sevkiyattan önce güzergâh ve indirme alanı fotoğraflanır; saha günü operatör zemini yürüyerek ve tesis sorumlusundan geçmiş kullanım bilgisini alarak yeniden değerlendirir. Şüpheli noktaya tekerlek veya destek ayağı basılmaz. Daha uzaktaki sert zeminden hedefe erişim mümkünse bomlu sınıf kullanılır; mümkün değilse zemin işletme tarafından uygun şekilde hazırlanır ya da iş kuru pencereye ertelenir. Makinenin dört çeker olması zemin değerlendirmesini gereksiz kılmaz.",
+            },
+            {
+                soru: "Hayvanları çıkarmadan fan ve aydınlatma bakımı yapılabilir mi?",
+                cevap:
+                    "Bütün barınağın boşaltılması her zaman gerekmez, fakat çalışılan şerit hayvanlardan ve günlük araç hareketinden fiziksel olarak ayrılmalıdır. Kaygan altlık temizlenir, makine için düz bir koridor açılır ve sepet altındaki alan bariyerlenir. Fan ya da motor üzerinde işlem varsa enerji kesilip yeniden devreye alınması önlenir. Gürültü ve hareketin hayvan davranışını etkileyebileceği hesaba katılır; işletme sorumlusu uygun günlük pencereyi belirler. Bu koşullar kurulamıyorsa iş daha sakin bir döneme taşınır. Amaç bakımı sürdürürken hayvanları, çalışanları ve operatörü aynı dar alanda kontrolsüz biçimde buluşturmamaktır.",
+            },
+            {
+                soru: "Bir günlük küçük işler için ilçeye sevkiyat ekonomik olur mu?",
+                cevap:
+                    "Tek bir kısa kalemde nakliye payı yüksek kalabilir. Önce aynı işletmedeki çatı, fan, aydınlatma, oluk ve kapı mekanizması hedeflerini tek listeye toplamanızı öneririz. İkinci seçenek, tarihinizi esnek tutarak ilçedeki uygun adreslerle aynı hatta katılmaktır; ancak her adresin makinesi ve temizlik koşulu aynı olmayabileceği için birleştirme otomatik yapılmaz. Güzergâh, sınıf ve iş sırası uyuyorsa taşıma paylaşılır. Teklifte kiralama ile nakliyeyi ayrı gösteririz; böylece programı birleştirmenin etkisini görürsünüz.",
+            },
+            {
+                soru: "Ürün işleme alanına dış sahada çalışan makineyi sokabilir misiniz?",
+                cevap:
+                    "Hazırlıksız biçimde sokmayız. Dış sahada toprak, yağ veya bitkisel kalıntıyla temas eden bir ünitenin ürün hacmine girişi işletmenin hijyen planına göre değerlendirilir. En güvenli program, temiz iç hacmi ilk sıraya yazıp dış saha ve barınak işlerini daha sonra tamamlamaktır. Sıra değişemiyorsa tekerlek, gövde ve çalışma platformu için işletmenin kabul ettiği temizlik uygulanır; sızıntı kontrolü tekrarlanır ve giriş yetkisi tesis sorumlusundan alınır. Açık ürün yine çalışma alanından çıkarılır, aletler bağlanır ve teslimde sayım yapılır. Temizlik kabulü verilmiyorsa ayrı bir iç saha ünitesi planlanır.",
+            },
+            {
+                soru: "Sevkiyattan önce hangi fotoğraf ve ölçüleri göndermeliyiz?",
+                cevap:
+                    "Hedef noktanın genel görünümüne ek olarak son yaklaşım yolunu, taşıyıcı aracın dönebileceği alanı ve makinenin indirileceği sert zemini görmek isteriz. Giriş kapısının eni ile yüksekliği, içerideki en dar koridor, hedefin zeminden kotu ve makinenin durabileceği yerden yatay uzaklığı ölçülmelidir. Eğim, hendek, menfez, kapalı çukur, üstten geçen hat ve yumuşak zemin fotoğrafta işaretlenir. Depo doluluk tarihi, hayvan veya araç hareketinin düşük olduğu pencere ve yapılacak işin türü de eklenir. Bu paket sınıfı uzaktan kesinleştirmeye yardım eder; saha günü koşullar yine kontrol edilir ve değişmişse plan güvenlik lehine güncellenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İhsaniye’de tarım ve hayvancılıkla ilişkili kırsal yapıların bulunması kamuya açık genel bilgidir; depo doluluğuna göre pencere kurma, zemin teyidi, hijyen ve hat planı firma saha pratiğidir. Tesis adı, kapasite ve üretim rakamı kullanılmamıştır.",
+    },
 };

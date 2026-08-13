@@ -521,4 +521,201 @@ export const AFYONPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Konya'nın hazır giyim, örme-çorap ve halı ihracatıyla anılan büyük ölçekli tekstil sanayii merkezi olması kamuya açık genel bilgidir; sevkiyat birleştirme mantığı ve toz-yangın önlemi firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+    "bolge:basmakci": {
+        h1: "Başmakçı'da Tesis, Atölye ve Depo Bakımı İçin Platform Kiralama",
+        giris:
+            "Başmakçı'da yüksekte çalışma talebi, büyük bir sanayi merkezinin sürekli makine trafiğinden çok, ilçe ölçeğindeki atölye, depo, ticari yapı ve tarımsal işletmelerde biriken bakım kalemlerinden doğar. Dazkırı'ya komşu üretim hattı düşünüldüğünde tekstil ve halı çevresindeki atölye işleri de bölgesel bağlamın parçasıdır; ancak her işletmenin aynı üretimi yaptığı veya aynı teknik düzene sahip olduğu varsayılmaz. Bu sayfada belirli bir tesis adı ya da kapasite iddiası yerine sahada doğrulanabilen koşullara odaklanıyoruz: dar kapı, tezgâh arası koridor, lif ve genel üretim tozu, çelik çatı, depo istifi, avlu zemini ve Afyonkarahisar yönünden planlanan sevkiyat. Tek bir armatür için rastgele makine göndermek yerine işletmenin bekleyen tüm yüksek erişim listesini çıkarır, uygun kalemleri tek turda kapatırız. İşin kırsal parselde ya da ilçe merkezinde olması seçim için tek başına belirleyici değildir; en dar geçiş, yatay engel, zemin ve çalışma sırasında üretimin durup duramayacağı asıl veridir. Bu yaklaşım Başmakçı'yı komşu ilçenin dokuma anlatısının kopyası hâline getirmeden, küçük işletmelerde erişim ve sevkiyat ekonomisi üzerinden ele alır.",
+        maddeler: [
+            {
+                baslik: "Küçük atölyede tezgâh arası hareket",
+                metin:
+                    "Atölye hacminde asıl sınırlama çoğu zaman tavan değil, makinenin kapıdan girdikten sonra dönebileceği boşluktur. Tezgâhlar, malzeme arabaları ve geçici stoklar koridoru daraltabilir. Teslim öncesinde en dar açıklık ile dönüş noktası ölçülür; çalışma günü güzergâh işletme tarafından boş tutulur. Aydınlatma, hava hattı veya kablo tavasında çalışırken alt tezgâh kapatılır, enerji kaynağı izole edilir ve askılı yük hareketi durdurulur. Kompakt akülü sınıf uygun olabilir, fakat yalnız gövde genişliğiyle karar verilmez; sepet hareketi ve güvenli alan da hesaba katılır.",
+            },
+            {
+                baslik: "Tekstil-halı çevresinde toz ve kıvılcım ayırımı",
+                metin:
+                    "Lif veya genel üretim tozu bulunan kapalı hacimde sıcak iş ile rutin mekanik bakım aynı anda ele alınmaz. Önce üst yüzeyler temizlenir ve tesisin emiş-havalandırma düzeni çalışır durumda doğrulanır. Açık malzeme ile üretim hattı çalışma kesitinden uzaklaştırılır. Kıvılcım doğuran işlem için tesisin kendi izin süreci uygulanır; uygun koşul yoksa iş başka zamana alınır. Platformun elektrik aksamı ve yüzeyleri vardiya sonunda gözle kontrol edilir. Toz çeşitliliği uydurma bir risk hikâyesine dönüştürülmez; sahada hangi madde varsa önlem onun güvenlik bilgi ve tesis kurallarına göre belirlenir.",
+            },
+            {
+                baslik: "Depoda raf ve çatı altını ayrı planlamak",
+                metin:
+                    "Depo rafının üst gözüne erişim ile çatı makası, armatür ya da oluk bağlantısına erişim aynı uzanmayı istemeyebilir. Koridor genişliği, raf yüksekliği ve üst engeller fotoğrafla kaydedilir. Platform istife dayanmaz; rafın altındaki koridor çalışma boyunca araç trafiğine kapatılır. Çatı altı işi rafın üzerinden geçmeyi gerektiriyorsa güvenli yatay erişim değerlendirilir, uygun değilse istif düzeni değiştirilir. Sepetten rafa ürün bırakılmaz ve platform malzeme toplama aracı olarak kullanılmaz. Bakım listesi koridor koridor ilerletilerek yeniden bariyer kurma süresi azaltılır.",
+            },
+            {
+                baslik: "Kırsal avlu ve çelik yapıda zemin teyidi",
+                metin:
+                    "Atölye ya da depo ilçe dışındaki bir parseldeyse son giriş ve avlu yüzeyi teslimin kritik kısmına dönüşür. Yağış sonrası dolgu yüzey, daha önce araç taşıdığı için platforma otomatik olarak uygun sayılmaz. Duruş noktaları işletme sorumlusuyla yürünür; kanal, çukur, kapak ve eğim işaretlenir. Çatı kenarı, oluk, dış aydınlatma ve cephe işinde rüzgâr ayrıca izlenir. Makine sepetinden çatıya çıkılmaz. Uygun olmayan zeminde işi sürdürmek için kapasitesi daha yüksek bir sınıf seçmek çözüm değildir; yüzey hazırlanır veya tarih değiştirilir.",
+            },
+            {
+                baslik: "İlçeye sevkiyatı ortak bakım listesiyle anlamlı kılmak",
+                metin:
+                    "Başmakçı'ya gelen makinenin maliyetini yalnız çalışma süresi değil, teslim ve geri alma düzeni de etkiler. İşletme aydınlatma, kapı, oluk, havalandırma ve dış cephe gibi bekleyen kalemleri tek listede topladığında aynı sevkiyat daha verimli kullanılır. Tarih esnekse yakın aks üzerindeki başka programlarla eşleştirme kontrol edilebilir; işletmelerin sözleşmeleri birbirine karıştırılmaz. Program birkaç vardiyaya yayılırsa gece parkı, şarj noktası ve günlük kontrol sorumlusu teslim tutanağında yer alır. Amaç acele etmek değil, ilçeye yapılan yolculukta yeniden geliş gerektiren eksik bırakmamaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Başmakçı saha türü ve bakım planı",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilçe ölçeğindeki yaygın yapı koşullarını güvenli erişim hazırlığıyla eşleştirir. Her satır keşif için başlangıçtır; gerçek saha ölçüsü nihai sınıfı belirler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Bakım kalemi", "Kısıt", "Hazırlık"],
+                    satirlar: [
+                        ["Küçük atölye", "Aydınlatma ve hat askısı", "Dar koridor, tezgâh", "Güzergâhı boşalt, enerjiyi kes"],
+                        ["Tekstil-halı çevresi", "Emiş ve çatı altı", "Lif veya üretim tozu", "Temizle, sıcak işi ayır"],
+                        ["Depo", "Raf, armatür ve kapı", "İstif, araç geçişi", "Bağımsız koridor oluştur"],
+                        ["Kırsal avlu", "Cephe ve dış aydınlatma", "Dolgu, eğim", "Taşıma yüzeyini teyit et"],
+                        ["Çelik çatı", "Oluk, panel ve ışıklık", "Rüzgâr, yağış", "Uygun hava penceresi seç"],
+                    ],
+                },
+            },
+            {
+                baslik: "Fotoğraf, ölçü ve iş listesiyle uzaktan ön keşif",
+                paragraflar: [
+                    "Talep gönderirken yalnız arızalı parçanın fotoğrafını paylaşmak yeterli değildir. Taşıyıcının yaklaşacağı yol, giriş kapısı, avlu dönüşü, kapalı hacimdeki en dar koridor ve çalışma noktasının bütünü ardışık biçimde görülmelidir. En dar açıklık, kullanılabilir taban, dikey kot ve yatay engel ölçülür. Zeminin türü, kanal ve kapak konumu ile üretimin durabileceği zaman aralığı not edilir. Bu veri, makinenin yalnız hedefe erişip erişmeyeceğini değil, oraya güvenle ulaşıp ulaşamayacağını gösterir.",
+                    "Ön keşif sonucunda işler saha bölgelerine ayrılır. Temiz kapalı alan önce, tozlu ya da ıslak kesit sonra planlanabilir; dış kalemler hava uygunluğuna göre esnek tutulur. Malzeme ve yetkili personelin makine gelmeden hazırlanması gerekir. Teslim günü fotoğraftan farklı bir istif veya yüzey görülürse çalışma planı güncellenir. Uzaktan yapılan hazırlık sahadaki son kontrolün yerine geçmez, onu daha kısa ve kesin hâle getirir.",
+                ],
+            },
+            {
+                baslik: "Kısa işi güvenli bir bakım turuna dönüştürmek",
+                paragraflar: [
+                    "Küçük işletmede bakım çoğu zaman arıza çıktıkça yapılır; bu da aynı çatıya farklı günlerde tekrar erişilmesine yol açar. Platform çağrısı öncesinde aydınlatma, havalandırma, oluk, kapı, kamera ve dış cephe gibi kalemler bölüm sorumlularından toplanabilir. Her işin gerekli malzemesi ve enerji izolasyonu yazılır. Öncelik, güvenliği veya üretimi doğrudan etkileyen kaleme verilir; kozmetik işler kalan pencereye yerleştirilir.",
+                    "Turun sonunda yapılanlar ve açık kalanlar kayıt altına alınır. El aleti ile sökülen parça sayımı yapılır, enerji izolasyonunu kaldırma yetkisi tesis görevlisine bırakılır ve makine temiz park alanına çekilir. Bir sonraki gün önceki iznin sürdüğü varsayılmaz. Bu düzen, tek günlük işi bile kontrolsüz bir müdahale olmaktan çıkarır; Başmakçı'ya yeniden sevkiyat gerektirecek unutulmuş kalemleri azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemizin koridoru dar; platformun sığıp sığmayacağını nasıl belirliyorsunuz?",
+                cevap:
+                    "Kapı ve en dar koridor genişliğiyle birlikte dönüş alanını, tavan engellerini, hedefin yatay uzaklığını ve makinenin açık hâlde ihtiyaç duyduğu güvenli tabanı ölçüyoruz. Yalnız gövdenin geçmesi yeterli değildir; sepetin hareketi ve operatörün çevresinde korunan alan bulunmalıdır. Tezgâh ya da geçici stok kaldırılabiliyorsa çalışma günü öncesinde güzergâh boşaltılır. Fotoğraf ve ölçüyle kompakt sınıfın işi kapatıp kapatmadığı anlaşılır. Alan fiziksel olarak yetersizse daha küçük ama erişemeyen makine göndermek yerine başka güvenli erişim yöntemi önerilir.",
+            },
+            {
+                soru: "Tozlu tekstil veya halı atölyesinde çalışırken üretim durmalı mı?",
+                cevap:
+                    "Platformun bulunduğu kesitte üretim ve malzeme hareketi durdurulmalıdır; tesisin tamamının kapanması her zaman gerekmez. Üst yüzeyler temizlenir, emiş düzeni doğrulanır, açık malzeme uzaklaştırılır ve çalışma alanı çevrilir. Kıvılcım çıkaran bir işlem varsa tesisin sıcak iş izni uygulanır ve uygun koşul yoksa iş ertelenir. Aletler bağlanır, parçalar kapalı kapta tutulur. Üretim kesiti güvenli biçimde ayrılamıyorsa çalışan hat üstünde bakım yapmayız. Planlı duruş, hem hijyen hem yangın riskini daha yönetilebilir kılar.",
+            },
+            {
+                soru: "Depo rafının üstüne platform sepetinden ürün koyabilir miyiz?",
+                cevap:
+                    "Hayır. Personel yükseltme platformu raf besleme veya ürün toplama makinesi değildir. Sepetin izin verilen yükü, kişi ve el aleti için üretici etiketinde tanımlanır; korkuluk dışına ürün uzatılmaz ve istife temas edilmez. Raf bakımı yapılacaksa koridor boşaltılır, araç geçişi durdurulur ve yalnız bakım personeli gerekli aletlerle yükselir. Ürün elleçleme ihtiyacı uygun depo ekipmanıyla ayrı yürütülür. İki işi aynı anda yapmak hızlı görünse de hem sepet dengesini hem raf istifini belirsiz hâle getirir.",
+            },
+            {
+                soru: "Kırsal parselimize taşıyıcı araç giremezse makine uzaktan yürütülebilir mi?",
+                cevap:
+                    "Kısa, özel mülk içinde kalan ve yüzeyi doğrulanmış güzergâhta mümkün olabilir; fakat otomatik karar değildir. Mesafe, eğim, yol genişliği, zemin, kamu trafiği ve makinenin yürüyüş sınırlamaları değerlendirilir. İndirme noktası güvenli olmalı ve platform kendi hareketi sırasında çalışma konumunda kullanılmamalıdır. Uzun ya da trafikle kesişen rota uygun değilse daha küçük taşıma çözümü veya farklı sınıf gerekir. Son yolun fotoğrafı ve ölçüsü tekliften önce gönderildiğinde boşa gelen sevkiyat riski azalır.",
+            },
+            {
+                soru: "Tek bir armatür işi için Başmakçı'ya gelmek mümkün mü?",
+                cevap:
+                    "Mümkündür, fakat taşıma payının toplam içindeki yeri açıkça gösterilir. Önce aynı işletmede bekleyen diğer yüksek erişim kalemlerini toplamanızı öneririz; birkaç armatür, oluk, kapı veya dış aydınlatma aynı turda kapanabilir. Tarih esnekse yakın bölgede planlanmış sevkiyatla eşleşme kontrol edilir. Acil güvenlik arızası bekletilmez, tekil teslim yapılabilir. Karar maliyeti gizleyerek değil, tek iş ve birleşik bakım turu seçeneklerini ayrı göstererek verilir.",
+            },
+            {
+                soru: "Birkaç gün süren kullanımda makinenin bakımı ve güvenliği kime aittir?",
+                cevap:
+                    "Planlı teknik bakım ve arıza müdahalesi kiralayan ekibin sorumluluğundadır; işletme ise yetkisiz kullanımı önler, güvenli park ve gerekiyorsa kuru şarj noktası sağlar. Her vardiya başında yetkilendirilmiş kullanıcı lastik, korkuluk, kumanda ve görünür sızıntıyı kontrol eder. Olağan dışı durumda makine durdurulur, yetkisiz onarım yapılmaz. Teslim ve iade fotoğrafları tutulur. Tozlu ortamda temizlik aralığı kısaltılır; bu düzen baştan plana yazıldığında normal saha etkisi ile kullanıcı hatası birbirinden ayrılabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Başmakçı'nın Dazkırı'ya komşuluğu ve bölgenin tarımsal-küçük işletme bağlamı kamuya açık genel bilgidir; belirli tesis, kapasite, üretim miktarı, mesafe ve doğrulanmamış rakam kullanılmamıştır. Toz, erişim, zemin ve sevkiyat turu anlatımı sektör geneli saha pratiğidir.",
+    },
+
+    "bolge:evciler": {
+        h1: "Evciler'de Uzak İlçe Tesisleri İçin Planlı Platform Kiralama",
+        giris:
+            "Evciler'de platform kiralamanın belirleyici konusu, yalnız makinenin hangi yüksekliğe çıkacağı değil, Afyonkarahisar'ın güneybatı aksındaki ilçe için sevkiyatın ilk seferde doğru kurulmasıdır. İlçe ölçeğindeki depo, atölye, tarımsal işletme, ticari yapı ve çelik çatılı hacimlerde biriken işler çoğu zaman kısa görünür; fakat eksik ölçüyle gelen yanlış sınıf ya da hazır olmayan malzeme ikinci bir yolculuk gerektirdiğinde asıl kayıp ortaya çıkar. Bu nedenle Evciler işi fotoğraf, ölçü, bakım listesi, saha sorumlusu ve zaman penceresi netleşmeden takvime alınmaz. Dazkırı yönündeki komşu üretim çevresinden gelen tekstil-halı ilişkili işler bulunabilir; yine de ilçedeki her tesisi aynı sektörle tanımlamayız. Sayfanın merceği üretim iddiası değil, uzak noktaya giden ekipmanın kapıdan çalışma noktasına kadar güvenle ilerlemesi, birkaç bakım kalemini tek programda kapatması ve gerektiğinde sahada kalışının yönetilmesidir. Böylece taşıma yolu planın zayıf noktası olmaktan çıkar; işin ölçülebilir bir parçasına dönüşür.",
+        maddeler: [
+            {
+                baslik: "Sevkiyat öncesi eksiksiz saha paketi",
+                metin:
+                    "Evciler'e makine çıkmadan önce hedef kot, yatay engel, giriş kapısı, en dar koridor, dönüş alanı, zemin ve gece parkı tek dosyada toplanır. Fotoğraflar yalnız arızayı değil, taşıyıcının yaklaşma noktasından hedefe kadar rotayı gösterir. Dış alanda eğim, kanal ve dolgu; içeride tezgâh, istif ve askılı hat kayda girer. İşletme üretimin hangi aralıkta duracağını ve enerji izolasyonunu kimin yapacağını bildirir. Bu paket, sahada yeni karar beklemeyi ve ilçeye uygun olmayan gövdede makine gönderilmesini önler.",
+            },
+            {
+                baslik: "Depo ve atölye işlerini aynı ziyaret içinde ayırmak",
+                metin:
+                    "Bir işletmede depo rafı, çatı aydınlatması, atölye hava hattı ve dış kapı bakımının hepsi bekliyor olabilir. Tek makinenin her işi güvenle yapacağı varsayılmaz; erişim biçimleri karşılaştırılır. Uygun sınıf ortaksa temiz kapalı hacimden başlanır, daha tozlu atölye ve dış alan sona bırakılır. Raf koridorunda araç hareketi durdurulur; tezgâh üstünde enerji izolasyonu yapılır. İki ayrı sınıf gerekiyorsa görevler açıkça bölünür, bir makineyi amacı dışında kullanarak ikinci sevkiyatı saklama yoluna gidilmez.",
+            },
+            {
+                baslik: "Çelik çatı ve dış cephede hava yedeği",
+                metin:
+                    "Oluk, panel eki, ışıklık, dış aydınlatma ve cephe işleri rüzgâr ile yağışa bağlıdır. Uzak ilçede hava nedeniyle tüm günün kaybolmaması için içeride yapılabilecek güvenli bakım kalemleri yedek programa alınır. Dış çalışma başlamadan zeminin yağış sonrası taşıma durumu ve bariyer sınırı yeniden kontrol edilir. Sepet hareket zarfı araç yoluyla kesişiyorsa trafik geçici olarak ayrılır. Platformdan çatıya geçilmez ve sepet, panel ya da uzun malzeme kaldırmak için kullanılmaz.",
+            },
+            {
+                baslik: "Uzun kalışta park, şarj ve servis düzeni",
+                metin:
+                    "Program birden fazla vardiya gerektiriyorsa makinenin her akşam merkeze dönmesi verimli değildir. Tesis içinde düz, korunaklı ve yetkisiz erişime kapalı park yeri belirlenir. Akülü sınıfın şarj noktası kuru olmalı ve kablo araç güzergâhından geçmemelidir. Yetkilendirilmiş kullanıcı vardiya başında görünür kontrolleri yapar; arıza belirtisinde kullanım durur. Servis ve muhtemel ikame iletişimi iş başlamadan kararlaştırılır. Böylece uzaklık, sorun çıktığında kimin ne yapacağının belirsizliği hâline gelmez.",
+            },
+            {
+                baslik: "Bölgesel programla taşıma payını yönetmek",
+                metin:
+                    "Tek kalemlik kısa işte taşıma maliyeti görünür biçimde büyüyebilir. İşletmenin tüm yüksek erişim kalemlerini toplaması ilk çözümdür. Tarih esnek olduğunda aynı güneybatı aksında planlanan başka sevkiyatlarla program eşleştirilebilir; her işletmenin sözleşmesi, teslimi ve kullanım sorumluluğu ayrı kalır. Acil iş bekletilmez, fakat tekil ve birleşik senaryo teklifte açıkça gösterilir. Evciler için ekonomik plan, işi küçültmek değil, hazırlığı tamamlayıp aynı yolculukta yeniden geliş gerektirmeyen bir bakım turu kurmaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Evciler işlerinde karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, uzak ilçe sevkiyatında hangi bilginin neden teslim öncesinde gerektiğini özetler. Seçim, gerçek ölçü ve üretici sınırları doğrulanarak yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["İş alanı", "Erişim kalemi", "Karar verisi", "Saha hazırlığı"],
+                    satirlar: [
+                        ["Depo", "Raf ve tavan", "Koridor, istif, dönüş", "Araç yolunu ayır"],
+                        ["Atölye", "Hat askısı ve aydınlatma", "Tezgâh, enerji, toz", "İzole et ve temizle"],
+                        ["Çelik çatı", "Oluk, ışıklık, panel", "Rüzgâr, yüzey, yatay erişim", "Hava yedeği oluştur"],
+                        ["Kırsal avlu", "Cephe ve direk", "Kapı, eğim, dolgu", "Teslim rotasını doğrula"],
+                        ["Çok vardiyalı saha", "Birleşik bakım turu", "Park, şarj, yetkili", "Yazılı devir düzeni kur"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bir seferde doğru makineyi seçme yöntemi",
+                paragraflar: [
+                    "Seçim görüşmesinde önce işin geometrisini çıkarırız. Dikey kot, yatay engel, çalışma tabanı ve yaklaşma yönü birlikte değerlendirilir. Sonra makinenin güzergâhı incelenir: taşıyıcı nerede duracak, platform nerede inecek, hangi kapıdan geçecek, nerede dönecek ve hangi yüzeyde açılacak? Kapalı hacimde egzoz kısıtı, zeminde iz bırakma ihtiyacı ve dışarıdaki eğim bu aşamada devreye girer. En yüksek sınıfı göndermek, bu soruların cevabı değildir.",
+                    "Ardından iş listesindeki kalemlerin aynı sınıfla kapanıp kapanmadığı kontrol edilir. Birbirine yakın ama farklı uzanma isteyen işler varsa öncelik ve alternatif konumlar belirlenir. Teslim günü yeni istif, kapalı kapı veya yumuşamış zemin görülürse eski plan zorlanmaz. Saha sorumlusuyla rota yeniden yürünür. Uzak ilçede hazırlığın değeri tam burada ortaya çıkar: yanlış varsayım yola çıkmadan bulunur, sahada yalnız doğrulama kalır.",
+                ],
+            },
+            {
+                baslik: "Vardiya devri ve iş kapanışını kayıtla yönetmek",
+                paragraflar: [
+                    "Birden fazla gün süren işte sözlü devir yeterli değildir. Her vardiya hangi bölümlerin tamamlandığını, hangi enerji izolasyonunun sürdüğünü, makinenin nerede bırakıldığını ve ertesi gün hangi malzemenin hazırlanacağını kaydeder. Yetkili kullanıcı değişiyorsa kontrol ve kullanım sınırları yeniden anlatılır. Önceki gün güvenli olan koridorun yeni stok veya araç hareketi nedeniyle aynı kalacağı varsayılmaz.",
+                    "Son kapanışta sepet boşaltılır, alet ve sökülen parça sayılır, tamamlanan alan tesis sorumlusuna teslim edilir ve açık kalan kalemler yazılır. Makinenin görünür durumu fotoğraflanır; iade rotası ile taşıyıcının geleceği zaman kesinleştirilir. Bu basit kayıt düzeni, uzaklık nedeniyle ortaya çıkabilecek iletişim boşluğunu azaltır ve bitmemiş bir işi tamamlanmış gibi göstermeden sonraki bakım kararına temiz veri bırakır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Evciler'e gelmeden saha keşfi yapmak zorunlu mu?",
+                cevap:
+                    "Her iş için fiziksel keşif zorunlu değildir; iyi hazırlanmış fotoğraf ve ölçü paketi çoğu seçimi uzaktan netleştirebilir. Ancak fotoğraflar yalnız hedefi değil, taşıyıcının yaklaşımını, indirme noktasını, kapı ve koridorları, dönüş alanını, zemini ve yatay engelleri göstermelidir. İş karmaşıksa, taşıma yüzeyi belirsizse veya üretim ekipmanıyla yakın çalışılacaksa fiziksel keşif gerekir. Uzaktan ön keşif saha kontrolünün yerine geçmez; teslim gününde rota yine yürünür. Amaç gereksiz ziyaret değil, yanlış makineyle yapılan çok daha pahalı ikinci sevkiyatı önlemektir.",
+            },
+            {
+                soru: "Tek makineyle hem depo hem dış çatı işimizi yapabilir miyiz?",
+                cevap:
+                    "Koşullar uyuyorsa mümkündür. Depodaki kapı, koridor ve temiz çalışma gereksinimi ile dış sahadaki zemin, eğim, rüzgâr ve yatay erişim aynı sınıfın sınırlarında olmalıdır. Dışarıdan içeri geçilecekse alt takım temizlenir ve kapalı alanda egzoz üretmeyen model kullanılır. Arazi kabiliyetli büyük bir makine depoya sığmıyorsa veya kompakt akülü sınıf dış zeminde güvenli değilse iki görev ayrılır. Tek sevkiyat hedefi, makineyi amacı dışında kullanma gerekçesi olamaz.",
+            },
+            {
+                soru: "Hava bozarsa uzak ilçedeki kiralama nasıl değerlendirilir?",
+                cevap:
+                    "Rüzgâr, yağış veya zemin koşulu üretici sınırları ile güvenli çalışmaya uymuyorsa dış iş durur. Sözleşmede hava kaynaklı bekleme ve yeniden planlama yöntemi baştan yer almalıdır. İçeride yapılabilecek uygun kalemler önceden hazırlanmışsa ekip depo ya da atölye bakımına geçebilir. Bunun için malzeme ve enerji izolasyonu hazır olmalıdır. Yedek iş yoksa güvenli olmayan koşulda süre kazanmak için çalışma yapılmaz. Yeni tarih, hava ve bölgesel sevkiyat programına göre açık biçimde kararlaştırılır.",
+            },
+            {
+                soru: "Makine birkaç gece tesisimizde kalırsa sorumluluk nasıl paylaşılır?",
+                cevap:
+                    "Kiralayan ekip teknik bakım ve arıza müdahalesini üstlenir; işletme düz, korunaklı park alanı sağlar ve yetkisiz kullanımı önler. Akülü makinenin şarj noktası kuru, uygun ve araç yolundan ayrılmış olmalıdır. Yetkilendirilmiş kullanıcı her vardiya başında görünür kontrol yapar, olağan dışı durumda makineyi durdurup servisle iletişim kurar. Teslim fotoğrafları ve günlük kayıtlar normal saha etkisi ile kullanıcı müdahalesini ayırır. İşletme personelinden yetkisi olmayan onarım yapması istenmez.",
+            },
+            {
+                soru: "Kısa işimizi başka sevkiyatla birleştirmek için ne kadar esnek olmalıyız?",
+                cevap:
+                    "Kesin bir gün yerine uygun bir zaman aralığı bildirmeniz eşleştirme ihtimalini artırır. Bölgesel program oluştuğunda makine birden fazla adrese sırayla gider; fakat her işin teklif, teslim ve sorumluluk kayıtları ayrı tutulur. Birleşme garanti edilmez, çünkü gerekli makine sınıfı ve saha pencereleri aynı olmalıdır. Tarihiniz sabitse tekil sevkiyat planlanır ve taşıma kalemi açık gösterilir. Acil olmayan kalemleri bir bakım listesinde birleştirmek, dış programa bağlı kalmadan da toplam kullanımı verimli hâle getirir.",
+            },
+            {
+                soru: "İş bitiminde ikinci kez gelinmemesi için ne hazırlamalıyız?",
+                cevap:
+                    "Bütün yüksek erişim kalemlerini bölüm bölüm listeleyin; gerekli yedek parça ve sarfı sahada hazır edin; enerji izolasyonunu yapacak yetkiliyi programa yazın; koridor ve çalışma tabanını teslimden önce boşaltın. Dış işler için hava uygun değilse içerideki yedek kalemleri belirleyin. Her hedefin fotoğrafı ve ölçüsü seçime dâhil olsun. Vardiya sonunda yapılanlar ile açık kalanlar kayda geçirilirse ertesi gün öncelik tartışılmaz. Bu hazırlık makinenin hızından daha fazla süre kazandırır ve unutulmuş bir kalem için yeni sevkiyat ihtimalini azaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Evciler'in Afyonkarahisar'ın güneybatı aksındaki ilçe konumu ve Dazkırı çevresiyle komşuluk bağlamı kamuya açık genel bilgidir; belirli tesis, kapasite, üretim miktarı, mesafe ve doğrulanmamış rakam kullanılmamıştır. Sevkiyat, saha keşfi, vardiya ve güvenli erişim anlatımı sektör geneli uygulamadır.",
+    },
 };

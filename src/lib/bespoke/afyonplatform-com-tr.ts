@@ -1019,4 +1019,300 @@ export const AFYONPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kütahya’nın toprağa dayalı üretim geleneği, açık hammadde işletmeciliği ve sıcak su kaynaklarıyla anılması ile iki ilin komşuluğu kamuya açık genel bilgidir; toz-ekipman eşleşmesi sektör geneli teknik bilgi, saha teyitleri ve ikame düzeni firma pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
     },
+    "bolge:iscehisar-mermer-ihtisas-osb": {
+        h1: "İscehisar Mermer İhtisas OSB'de Platform Kiralama ve Tesis Bakımı",
+        giris:
+            "İscehisar Mermer İhtisas OSB için yüksekte çalışma planı, sıradan bir kapalı fabrika kabulüyle kurulamaz. Bölgenin ayırt edici üretim ortamı doğal taşın kesildiği, yüzeyinin işlendiği ve sevkiyata hazırlandığı tesislerdir. Bu akışta su, mineral çamuru, ince taş tozu, ağır mamul hareketi ve açık stok alanı aynı parsel içinde yan yana bulunabilir. Platform taşı kaldırmaz; çatı, aydınlatma, havalandırma, enerji hattı, dış cephe ve proses çevresindeki servis noktalarına personeli ulaştırır. Blok veya levha elleçleme işi uygun kaldırma düzeneklerine bırakılır. Tekliften önce salon ile açık sahanın fotoğraflarını, en dar açıklığı, kanal ve çökeltme alanlarını, çalışma kotunu ve üretimin hangi bölümünün durabileceğini isteriz. Seçim böylece taş işleme tesisinin gerçek akışına göre yapılır.",
+        maddeler: [
+            {
+                baslik: "Sulu kesim çevresinde zemin ve kanal okuması",
+                metin:
+                    "Kesim ve yüzey işleme bölümlerinde suyla taş parçacığı birleştiğinde kaygan bir film oluşabilir. Drenaj kanalları, ızgaralar ve çökeltme cepleri teker yükünün doğrudan taşınacağı noktalar değildir. Makine salona girmeden önce yürüyüş hattı temizlenir, kanal geçişleri işaretlenir ve duruş noktalarının taşıma yeterliliği tesis sorumlusunca teyit edilir. Araç rotası kesişiyorsa işler vardiya boşluğuna alınır. Operatör her konum değişiminden önce teker hattını yeniden görür; çünkü riski belirleyen yalnız kapasite değil, yükün aktarıldığı yüzeydir.",
+            },
+            {
+                baslik: "Mineral tozuna karşı günlük bakım disiplini",
+                metin:
+                    "Kuru bölümde ve açık stok çevresinde oluşan ince mineral tozu, mafsal, kızak ve kumanda çevresine yerleşebilir. Uzun kiralamada standart başlangıç kontrolüyle yetinmeyiz; vardiya kapanışına yüzey temizliği, hareketli noktaların gözle kontrolü ve gerekiyorsa koruyucu bakım ekleriz. Basınçlı havayla tozu gelişigüzel dağıtmak yerine tesisin kabul ettiği temizleme yöntemi uygulanır. Elektrik panosu ya da aydınlatma üzerinde çalışılacaksa ilgili enerji kaynağı izole edilir ve yeniden enerjilendirme yetkili saha görevlisinin onayına bağlanır. Böylece taş tozu yalnız ekipman ömrü konusu olarak değil, görünürlük, tutunma ve elektrik güvenliğiyle birlikte yönetilir.",
+            },
+            {
+                baslik: "Levha ve blok istifinden bağımsız güvenli koridor",
+                metin:
+                    "Doğal taş mamullerinin dik ya da eğimli istif çevresi geçici park alanı sayılamaz. Makine istife temas etmeyecek, sepet mamulün üstünden geçmeyecek biçimde konumlandırılır. Keşifte açık görünen koridorun teslimde de boş olacağı varsayılmaz. Tesis güzergâhı iş emrinde ayırır; forklift, vinç ve sevkiyat araçları durdurulur. İş stok cephesine denk geliyorsa yandan güvenli uzanma değerlendirilir; erişim mümkün değilse mamul düzeni değişmeden başlanmaz.",
+            },
+            {
+                baslik: "Hat üstünde parça düşürmeyi önleyen düzen",
+                metin:
+                    "Kesim, cilalama ve paketleme hattının üzerinde yapılan bakımda küçük bir vida dahi ürüne, konveyöre veya çalışan kişiye zarar verebilir. Sepette kullanılan el aletleri bağlanır, sökülen parçalar kapalı kutuda tutulur ve gerekli noktada sepet altına toplama yüzeyi yerleştirilir. Tercih edilen yöntem hattı durdurmak, enerji izolasyonunu doğrulamak ve çalışma alanını boş teslim almaktır. Üretim tamamen duramıyorsa bakım bölümlere ayrılır; yalnız güvenli biçimde ayrılabilen kesitte çalışılır. Kıvılcım, sıcak parça veya kontrolsüz toz çıkaran işlem, açık mamul ve çalışan hat üzerinde yürütülmez. İş sonu parça ve alet sayımı yapılıp alan teknik sorumluya teslim edilir.",
+            },
+            {
+                baslik: "Açık saha ile kapalı salonu tek listede ayırmak",
+                metin:
+                    "OSB parsellerinde aynı gün çatı kenarı, dış cephe, saha aydınlatması ve üretim salonu tavanı gibi farklı koşullar görülebilir. Bunları tek makinenin yapacağı varsayımıyla fiyatlamak yerine önce güzergâh, zemin ve uzanma ihtiyacına göre gruplarız. Düz ve temiz kapalı zeminde akülü makaslı sınıf verimli olabilir; açık, bozuk veya eğimli kesitte farklı yürüyüş kabiliyeti gerekir. İki sınıf zorunluysa görevler takvime ayrı bloklar hâlinde yazılır. Tek sınıf yeterliyse de dış sahadan içeri girmeden önce teker ve alt takım temizliği yapılır. Bu sıra, mineral çamurunun üretim salonuna taşınmasını ve kapalı alanda egzoz oluşmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mermer işleme tesisinde alan, risk ve hazırlık tablosu",
+                paragraflar: [
+                    "Makine adı, ancak iş alanının koşulu okunduktan sonra anlam kazanır. Aşağıdaki tablo İscehisar Mermer İhtisas OSB'deki tipik bakım alanlarını, seçimi etkileyen başlıca koşulu ve sahadan beklenen hazırlığı birlikte gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Çalışma alanı", "Erişim işi", "Baskın koşul", "Saha hazırlığı"],
+                    satirlar: [
+                        ["Sulu proses salonu", "Aydınlatma ve tesisat", "Kaygan zemin, kanal", "Hat temizliği ve taşıma teyidi"],
+                        ["Kuru işlem bölümü", "Emiş ve üst yapı bakımı", "İnce mineral tozu", "Toz kontrolü ve enerji izolasyonu"],
+                        ["Levha paketleme alanı", "Çatı altı ve kapı ekipmanı", "Mamul istifi", "Bağımsız çalışma koridoru"],
+                        ["Açık blok sahası", "Direk, oluk ve cephe", "Araç trafiği, düzensiz yüzey", "Güzergâh ayırma ve zemin kontrolü"],
+                        ["Teknik hacim", "Kablo tavası ve pano çevresi", "Yetkisiz enerjilendirme", "Kilitleme ve teslim kaydı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşiften vardiya kapanışına iş akışı",
+                paragraflar: [
+                    "İlk görüşmede yalnız çalışma yüksekliğini sormayız. Kapı açıklığı, koridor genişliği, dönüş noktası, eğim, kanal ve ızgara konumu, açık sahadaki trafik, vardiya düzeni ve erişilecek noktanın yatay uzaklığı birlikte kayda alınır. Fotoğraflar alanın bütününü ve makinenin izleyeceği yolu göstermelidir; yalnız tavanın fotoğrafı seçime yetmez. Bu bilgiler üzerinden kapalı salon ve açık saha işleri ayrılır, üretimin duracağı pencere tesisle kesinleştirilir ve teslim rotası yazılı plana dönüşür.",
+                    "Teslimde operatör saha sorumlusuyla güzergâhı yürür, değişmiş istif veya yeni açılmış kanal varsa planı günceller. Gün içinde her bölüm geçişinde çalışma alanı yeniden çevrilir. Vardiya sonunda sepet boşaltılır, el aleti sayımı yapılır, makine taş çamurundan arındırılır ve düz, korunaklı park yerine alınır. Ertesi vardiyada ilk konuma geçmeden önce zemin ile enerji izolasyonu yeniden doğrulanır; önceki günün kabulü yeni gün için otomatik izin sayılmaz.",
+                ],
+            },
+            {
+                baslik: "Üretimi durdurmadan değil, doğru kesiti durdurarak çalışmak",
+                paragraflar: [
+                    "Bir doğal taş tesisinin tamamını bakım için kapatmak çoğu zaman gerekli değildir. İş listesi salon, hat ve dış saha olarak bölündüğünde yalnız platformun bulunduğu kesitte araç ve üretim hareketi durdurulabilir. Önce sevkiyatın yoğun olduğu koridorlar boş saate alınır; ardından hat üstü işler planlı bakım penceresine yerleştirilir; cephe ve çatı kalemleri ise hava ile saha trafiğinin uygun olduğu aralıkta tamamlanır. Böyle bir sıralama güvenlik tedbirini üretim kaybıyla karşı karşıya getirmez.",
+                    "Kiralama süresini belirlerken yalnız sepette geçirilecek zamanı değil, temizleme, izolasyon, alan devri ve bölüm geçişlerini de hesaba katarız. Bu adımlar teklif dışında bırakılırsa sahada acele baskısı doğar. Baştan görünür kılındığında ise işletme hangi hattın ne zaman etkileneceğini bilir, bakım ekibi de kontrol listesini eksiltmeden ilerler. İscehisar'daki mermer işleme ortamında verimli çalışma, en hızlı hareket eden makineden çok bu şeffaf sıraya bağlıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mermer çamuru bulunan zeminde platform güvenle çalışabilir mi?",
+                cevap:
+                    "Çalışabilir, fakat zemin yalnız gözle bakılarak kabul edilmez. Önce çamur temizlenir; drenaj kanalı, ızgara ve çökeltme noktaları belirlenir; makinenin duracağı yüzeyin yükü taşıyabildiği tesis sorumlusunca teyit edilir. Tekerin kanal kapağına veya zayıf dolguya basmasına izin verilmez. Islaklık yeniden oluşuyorsa çalışma ile proses akışı aynı kesitte yürütülmez. Makine konum değiştirmeden önce operatör güzergâhı tekrar kontrol eder. Bu hazırlık sağlanamıyorsa daha büyük makine göndermek çözüm değildir; alan uygun hâle gelene kadar çalışma ertelenir.",
+            },
+            {
+                soru: "Platformu blok ya da mermer levha taşımak için kullanabilir miyiz?",
+                cevap:
+                    "Hayır. Personel yükseltmek için tasarlanmış sepet, doğal taşın kaldırılması veya askıda tutulması için kullanılmaz. Blok ve levha elleçleme, yükün niteliğine uygun kaldırma ekipmanı ve tesis prosedürüyle yapılmalıdır. Platform yalnız bakım personelini, izin verilen el aletleriyle erişim noktasına götürür. Sepete malzeme bağlamak, korkuluk dışına yük uzatmak veya makineyi istifi itmek için kullanmak sözleşme ve güvenlik kurallarına aykırıdır. İşin iki farklı kaldırma ihtiyacı varsa, bunlar keşifte ayrılır ve sahada birbirinin yerine geçirilmez.",
+            },
+            {
+                soru: "Üretim devam ederken tavan aydınlatması değiştirilebilir mi?",
+                cevap:
+                    "En güvenli yöntem ilgili hattı ve altındaki hareketi durdurmaktır. Tesis bütünüyle kapanmak zorunda değildir; çalışma kesiti fiziksel olarak ayrılır, enerji kaynağı yetkili kişi tarafından izole edilir ve alttaki mamul uzaklaştırılır. El aletleri bağlanır, sökülen parçalar kapalı kutuda tutulur ve iş sonunda sayım yapılır. Çalışan konveyörün ya da hareketli mamulün üstünde kıvılcım ve parça düşürme riski taşıyan iş yapılmaz. Duruş penceresi çok darsa liste önceden hazırlanır, fakat güvenlik adımları süre kazanmak amacıyla atlanmaz.",
+            },
+            {
+                soru: "Açık blok sahasıyla kapalı salon için aynı makine yeter mi?",
+                cevap:
+                    "Bazen yeter, bazen iki ayrı sınıf gerekir. Kararı yükseklik tek başına vermez; açık sahadaki zemin, eğim ve yatay uzanma ile kapalı salonun kapı açıklığı, dönüş alanı ve egzoz kısıtı birlikte değerlendirilir. Aynı akülü sınıf iki alana da uygunsa dış çalışma sonrası alt takım temizlenerek salona alınır. Açık saha arazi yürüyüşü, salon ise dar ve temiz bir gövde istiyorsa görevleri iki makineye böleriz. Fotoğraf ve güzergâh ölçüsü, gereksiz ikinci sevkiyatı önlemek için teklif öncesinde istenir.",
+            },
+            {
+                soru: "Mineral tozu kiralanan makinede arıza oluşturursa sorumluluk nasıl ele alınır?",
+                cevap:
+                    "Tozlu üretim ortamı teklif aşamasında beyan edildiğinde buna uygun kontrol ve temizlik düzeni kiralama planına eklenir. Normal saha etkisi ile kullanıcı hatası birbirinden ayrılır; makinenin bakımını yapmak, mafsal ve kumandaları izlemek kiralayan ekibin görevidir. İşletmeden beklenen, tanımlanan temizleme alanını sağlamak, makineyi proses atığına bilinçli biçimde sokmamak ve arıza belirtisini gecikmeden bildirmektir. Teslim fotoğrafları ve vardiya kayıtları iki tarafın da durumunu açık tutar. Hasar değerlendirmesi varsayımla değil bu kayıtlarla yapılır.",
+            },
+            {
+                soru: "Teklif için sahadan hangi bilgileri göndermeliyiz?",
+                cevap:
+                    "Erişilecek noktanın yüksekliği ve yatay uzaklığıyla başlayın; ardından kapı ile en dar koridor ölçüsünü, zemin türünü, kanal ve ızgara yerlerini, açık saha eğimini, istif düzenini ve çalışma saatindeki araç trafiğini bildirin. Fotoğraflar hem hedefi hem makinenin girişten hedefe kadar izleyeceği yolu göstermelidir. İş listesinde enerji izolasyonu gerektiren kalemleri ayrıca işaretleyin. Üretimin durabileceği zaman aralığı ile makinenin gece park edeceği yeri de eklerseniz, sınıf, süre ve teslim planı tek görüşmede netleşir; eksik bilgi için sahada yeni karar beklenmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İscehisar'ın doğal taş ve mermer işleme kimliği ile Mermer İhtisas OSB bilgisi kamuya açık genel çerçevedir; zemin, istif, izolasyon ve bakım turu anlatımı sektör geneli güvenli çalışma pratiğidir. Tesis adı, kapasite, üretim miktarı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:sandikli-osb": {
+        h1: "Sandıklı OSB'de Termal ve Mermer Tedarik Tesisleri İçin Platform Kiralama",
+        giris:
+            "Sandıklı OSB için platform kiralama planını ilçenin iki belirgin ekonomik bağlamını birlikte okuyarak kuruyoruz: termal konaklama yapılarının teknik bakım ihtiyacı ve doğal taşla ilişkili üretim-tedarik işleri. OSB sayfasındaki odak, depoda ürün hareketi ya da genel lojistik turu değildir; üretim salonu, teknik servis hacmi, çatı ve dış tesisatta çalışan bakım ekibinin güvenli erişimidir. Termal işletmelere parça, metal imalat, tesisat veya bakım desteği veren bir atölyenin iş akışı ile taş kesen ya da yüzey hazırlayan bir tesisin koşulları aynı değildir. Birinde nemli ekipmanın servisi, korozyon kontrolü ve düzensiz bakım penceresi öne çıkabilir; diğerinde mineral tozu, sulu proses ve ağır mamul çevresi belirleyicidir. Bu nedenle teklif, “OSB'ye bir platform” diye değil, iş listesinin hangi üretim çevresinde yürüdüğü anlaşılınca hazırlanır. Teslim güzergâhı, kapı açıklığı, zemin, enerji izolasyonu ve vardiya aralığı yazılı hâle getirilir. Böylece ilçe merkezindeki otel cephe bakımından da, yalnız raf ve sevkiyat anlatan başka bir Sandıklı OSB sayfasından da ayrılan; fabrikanın teknik bakım gerçeklerine bağlı bir çalışma modeli ortaya çıkar.",
+        maddeler: [
+            {
+                baslik: "Termal teknik ekipmana hizmet veren atölyelerde erişim",
+                metin:
+                    "Termal tesislerin pompa, borulama, havalandırma ve metal aksamına bakım desteği veren üretim ya da servis hacimlerinde iş çoğu zaman tezgâh üstü kablo, emiş hattı, vinç yolu çevresi ve çatı altı tesisatta çıkar. Platform, servis edilen parçayı kaldırmak için değil, bakım personelini sabit çalışma noktasına ulaştırmak için kullanılır. Atölye içinde askılı yük veya hareketli kaldırma düzeneği varsa aynı koridorda eş zamanlı çalışılmaz. Sepetin altında açık tezgâh bırakılmaz; sökülen bağlantılar kapalı kapta tutulur. İş emrinde hangi ekipmanın enerjisiz ve hareketsiz teslim edileceği açıkça yazılır.",
+            },
+            {
+                baslik: "Mermer işleme çevresinde su ve mineral kalıntısı",
+                metin:
+                    "Doğal taşla ilişkili tesiste sulu kesim alanı, kuru paketleme kesitinden ayrı ele alınır. Islak zemindeki kanal ve ızgaralar işaretlenir; kuru bölümde biriken ince toz, yürüyüş hattı ile platformun hareketli parçalarından uzaklaştırılır. Ağır levha ve palet istifi çalışma koridoru olarak kullanılmaz. Çatı aydınlatması, havalandırma veya kapı üstü bakım için makine istiften güvenli uzaklıkta konumlandırılır. Dışarıda taş çamuruna giren ünite kapalı salona alınacaksa alt takım temizliği bölüm geçişinin zorunlu adımıdır.",
+            },
+            {
+                baslik: "Çelik çatı ve dış kabukta hava penceresi",
+                metin:
+                    "OSB tesislerinde oluk, çatı kenarı, panel eki, baca çevresi ve dış aydınlatma işleri rüzgâr ile yağıştan doğrudan etkilenir. Takvim yalnız bakım ekibinin müsaitliğine bağlanmaz; hava uygun değilse dış kalemler ertelenir, kapalı salon işleri öne çekilir. Zeminin yağış sonrası taşıma durumu ayrıca gözlenir. Sepette geniş panel taşınmaz ve platform, çatı malzemesini kaldıran vinç yerine kullanılmaz. Dış çevrede araç geçişi varsa bariyer alanı yalnız makinenin tabanını değil, sepetin hareket zarfını da kapsar.",
+            },
+            {
+                baslik: "Bakım duruşunu küçük kesitlere bölmek",
+                metin:
+                    "Tesisin tamamını kapatmak yerine iş listesi enerji hattı, üretim kesiti ve dış alan olarak parçalanabilir. Önce ilgili ekipmanın izolasyonu doğrulanır, ardından o kesitteki üst yapı işleri tamamlanır ve alan teknik sorumluya geri verilir. Platform bir sonraki bölüme ancak yeni çalışma izni açıldığında geçer. Bu yöntem, aceleyle farklı alanlara dağılmış bir ekibin aksine her kesiti kapatır ve üretim kaybını sınırlar. Özellikle kısa bakım penceresinde el aleti, yedek parça ve erişim sırası önceden hazırlanmalıdır.",
+            },
+            {
+                baslik: "Merkezden sevkiyatta arıza ve gece park planı",
+                metin:
+                    "İlçe dışından gelen makinenin sahada bekleyeceği süre, yalnız çalışma saatinden ibaret değildir. Birkaç vardiyalık programda düz ve korunaklı park noktası, akülü sınıf için uygun şarj alanı ve vardiya başı kontrol sorumluluğu teslim tutanağına yazılır. Arıza belirtisi görüldüğünde kullanıma devam edilmez; durum bildirilir ve uzaktan yönlendirmeyle riskli müdahale istenmez. İkame veya servis düzeni iş başlamadan konuşulduğunda, termal işletmenin bakım penceresine bağlı kritik bir işte belirsizlik azalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sandıklı OSB bakım alanı eşleştirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo depo hareketini değil, üretim ve teknik bakım sırasında karşılaşılan erişim alanlarını sınıflandırır. Nihai seçim, keşifte ölçülen zemine ve makinenin hareket yoluna göre yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Bakım kalemi", "Temel kısıt", "Planlama notu"],
+                    satirlar: [
+                        ["Teknik servis atölyesi", "Kanal, kablo ve aydınlatma", "Tezgâh ve askılı yük", "Koridoru durdur, ekipmanı izole et"],
+                        ["Sulu taş işleme kesiti", "Üst tesisat", "Islak zemin ve kanal", "Temizle, taşıma teyidi al"],
+                        ["Kuru işlem alanı", "Emiş hattı", "Mineral tozu", "Toz kontrolü ve ara temizlik"],
+                        ["Çelik çatı dışı", "Oluk, panel ve baca", "Rüzgâr, yağış", "Hava penceresine göre sırala"],
+                        ["Teknik hacim", "Pano ve boru askısı", "Enerji ve sıcak yüzey", "Yetkili teslimiyle çalış"],
+                    ],
+                },
+            },
+            {
+                baslik: "Termal-mermer açısında iş listesini hazırlamak",
+                paragraflar: [
+                    "Bakım talebi geldiğinde önce parçanın hangi sektöre hizmet ettiğinden çok, platformun gireceği ortamı sorarız. Nemli servis ekipmanı bulunan atölyede kayganlık ve korozyon izi görülebilir; taş işleme kesitinde mineral kalıntısı; çatı çevresinde ise hava ve zemin etkisi baskındır. Erişim kotu, yatay engel, en dar kapı, dönüş alanı ve alt yüzey bu bağlamla birlikte kayda alınır. Tesis, enerji kesme yetkisini kimin kullanacağını ve bakım kesitinin hangi vardiyada boş kalacağını bildirir.",
+                    "İş listesi aynı bölgede bulunan kalemleri arka arkaya sıralar. Böylece makine sürekli kirli ve temiz alan arasında dolaşmaz, bariyer tekrar tekrar kurulmaz ve her yeni konumda kaybedilen süre azalır. Islak kesit en sona bırakılabiliyorsa alt takım temizliğinden sonra makine park alanına alınır. Dış işlerde hava kapanırsa içeride güvenle yapılabilecek kalemlerin hazır tutulması, kiralama gününün boşa gitmesini önler.",
+                ],
+            },
+            {
+                baslik: "Teslim, kullanım ve kapanış sorumlulukları",
+                paragraflar: [
+                    "Teslim anında makinenin görünür durumu fotoğraflanır, operatör kontrol noktaları gösterilir ve yetkisiz kullanımın önüne geçecek teslim sorumlusu belirlenir. Platformun izin verilen kişi sayısı ile yük sınırı üretici etiketinden okunur; sepete ek yük bağlanmaz. İşletmenin kendi çalışma izni ve kişisel koruyucu donanım kuralları, kiralama ekibinin kontrol listesini tamamlar. Bir kuralın diğerini ortadan kaldırdığı varsayılmaz.",
+                    "Kapanışta el aleti ve sökülen parça sayımı yapılır, izolasyon kaldırma yetkisi tesis görevlisine bırakılır ve tamamlanmayan kalemler açıkça kayda geçirilir. Makine temiz, düz ve korunaklı park yerine alınır. Sonraki vardiya, önceki vardiyanın sözlü devriyle başlamaz; güzergâh, zemin ve çalışma izni yeniden görülür. Bu disiplin, kısa bir işte dahi hem termal teknik servis ortamını hem taş işleme çevresini öngörülebilir kılar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sandıklı OSB için makine seçerken yalnız çalışma yüksekliği yeterli mi?",
+                cevap:
+                    "Yeterli değildir. Yükseklik, sepetin ulaşacağı dikey kotu söyler; makinenin kapıdan geçip dönemeyeceğini, zeminin yükü taşıyıp taşımadığını veya engelin arkasına uzanmanın gerekip gerekmediğini göstermez. En dar açıklık, yatay uzaklık, yüzey türü, kanal ve ızgara konumu, üretim ekipmanının çalışma durumu ve açık alan eğimi birlikte değerlendirilir. Kapalı hacimde egzoz kısıtı da seçimi değiştirir. Bu veriler fotoğraf ve ölçüyle geldiğinde gereğinden büyük ya da sahaya sığmayan sınıf gönderme riski ortadan kalkar.",
+            },
+            {
+                soru: "Termal tesise bakım veren atölyemizde üretim sürerken çalışabilir misiniz?",
+                cevap:
+                    "Tesisin tamamının durması gerekmeyebilir, ancak platformun bulunduğu kesit mutlaka kontrol altına alınır. Askılı yük hareketi, tezgâh çalışması ve araç geçişi aynı koridorda durdurulur; bakım yapılacak ekipmanın enerjisi yetkili kişi tarafından izole edilir. Alttaki açık işler kaldırılır, alan bariyerle çevrilir ve el aletleri bağlanır. Güvenli biçimde ayrılamayan bir kesitte üretimle eş zamanlı çalışmayız. İş listesi küçük bölümlere ayrılırsa diğer hatlar devam ederken bakım kesiti sırayla kapatılabilir.",
+            },
+            {
+                soru: "Mermer tozu veya ıslak zemin için özel bir hazırlık gerekiyor mu?",
+                cevap:
+                    "Evet. Kuru mineral tozu yürüyüş hattından ve çalışma noktasından tesisin kabul ettiği yöntemle uzaklaştırılır; sulu alanda ise çamur temizlenir, kanal ile ızgaralar işaretlenir ve duruş yüzeyinin taşıma yeterliliği teyit edilir. Makine dışarıdan kirli hâlde temiz salona geçirilmez. Uzun kullanımda hareketli parçalar vardiya sonunda gözle kontrol edilir. Bu hazırlık yalnız makineyi korumaz; teker tutunmasını, operatör görüşünü ve enerji çevresindeki güvenliği de iyileştirir.",
+            },
+            {
+                soru: "Çatı işi yağış veya rüzgâr nedeniyle durursa kiralama günü boşa mı gider?",
+                cevap:
+                    "İş listesi yalnız dış kalemlerden oluşuyorsa güvenli olmayan havada çalışma yapılmaz ve takvim sözleşmedeki koşula göre ele alınır. Daha iyi yöntem, kapalı salon ve teknik hacim kalemlerini önceden hazırlamaktır. Dışarıdaki iş ertelendiğinde platform uygun sınıftaysa içerideki aydınlatma, kanal veya üst tesisat bakımına geçilebilir. Bunun için malzeme, enerji izolasyonu ve çalışma izni önceden hazır olmalıdır. Hava riskini yok edemeyiz; fakat sıralamayı esnek kurarak bekleme süresini üretken bir bakım penceresine çevirebiliriz.",
+            },
+            {
+                soru: "Birkaç vardiya sürecek kiralamada makine nerede kalır ve kim kontrol eder?",
+                cevap:
+                    "Makine tesisin göstereceği düz, taşıma gücü uygun ve yetkisiz erişime kapalı noktada bırakılır. Akülü sınıfta şarj alanı kuru ve havalandırılmış olmalı, kablo araç yolundan geçmemelidir. Günlük kullanım öncesi görsel kontrol yetkilendirilmiş kullanıcı tarafından yapılır; olağan dışı ses, sızıntı veya kumanda sorunu varsa makine çalıştırılmaz ve servis ekibine haber verilir. Kiralama şirketinin planlı kontrolü ile işletmenin vardiya başı kontrolü birbirinin yerine geçmez; iki kayıt birlikte tutulur.",
+            },
+            {
+                soru: "Doğru teklif için hangi fotoğraf ve ölçüleri göndermeliyiz?",
+                cevap:
+                    "Tesis girişinden çalışma noktasına kadar güzergâhı ardışık fotoğraflayın; kapı, dönüş, dar koridor, kanal, eğim ve istif engellerini ayrı gösterin. Hedef noktanın yüksekliğini, önündeki yatay engeli, en dar geçişi ve kullanılabilir çalışma tabanını ölçün. İşin kapalı mı açık mı olduğunu, üretimin durabileceği pencereyi, enerji izolasyonu gereksinimini ve gece park alanını bildirin. Yalnız yakın çekim arıza fotoğrafı yeterli değildir; makinenin oraya nasıl ulaşacağı görülmelidir. Bu paket, keşif gereksinimini ve yanlış sınıf riskini büyük ölçüde azaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Sandıklı'nın termal kimliği, Sandıklı OSB'nin varlığı ve Afyonkarahisar'ın doğal taş sektörü kamuya açık genel bağlamdır; tesis adı, üretim kapasitesi, mesafe ve doğrulanmamış sayı kullanılmamıştır. Erişim, izolasyon, zemin ve vardiya düzeni sektör geneli saha pratiğidir.",
+    },
+
+    "bolge:suhut": {
+        h1: "Şuhut'ta Tarımsal Tesis, Depo ve Atölye Bakımı İçin Platform Kiralama",
+        giris:
+            "Şuhut için bu sayfanın odağı ilçe merkezindeki konut cephesi değildir; tarımsal üretime hizmet eden kapalı yapılar, ürün ve ekipman depoları, küçük işleme hacimleri, bakım atölyeleri ile bunların çatı ve teknik tesisatıdır. İlçedeki bir işe Afyonkarahisar merkezden makine yönlendirilirken erişim yüksekliği kadar işlerin tek sefere nasıl toplanacağı önem kazanır. Kısa bir armatür işi için plansız sevkiyat yapmak yerine çatı ışıklığı, oluk, havalandırma, kapı üstü donanım, depo aydınlatması ve dış cephe kalemlerini aynı bakım listesinde birleştiririz. Tarımsal tesiste mevsimsel iş akışı belirleyicidir: yapının yoğun kullanıldığı dönemde araç ve ürün hareketi çalışma alanını daraltabilir; daha sakin bakım penceresinde ise koridorlar boşaltılıp enerji kesintisi kontrollü biçimde uygulanabilir. Makine seçimi, köy ya da ilçe yolunun adıyla değil, son girişin genişliği, avlu zemini, kapalı hacimdeki dönüş alanı ve hedefin önündeki engelle yapılır. Böylece Şuhut'u yalnız dar sokak ve bina cephesi üzerinden anlatan kardeş içerikten ayrılan, kırsal işletmenin bakım turuna ve merkezden planlı lojistiğe dayanan özgün bir hizmet çerçevesi kurulur.",
+        maddeler: [
+            {
+                baslik: "Depo çatısında ışıklık, oluk ve havalandırma işleri",
+                metin:
+                    "Geniş açıklıklı tarımsal depolarda yüksekteki bakım kalemleri çoğu zaman birbiriyle bağlantılıdır. Çatı ışıklığındaki hasar, olukta tıkanma, mahya havalandırmasındaki gevşeme ve iç aydınlatmadaki arıza aynı keşifte kayda alınabilir. Platform düz koridorda ilerleyebiliyorsa işler cephe boyunca sırayla kapanır. Depo doluyken istifin üzerine uzanmak yerine güvenli koridor ayrılır; koridor yoksa ürün yerleşimi işletme tarafından düzenlenir. Sepetten çatıya geçiş yapılmaz ve platform, yapı elemanını kaldırmak için kullanılmaz. Dış çatı kenarı işi rüzgâr ve zemin uygunluğuna bağlanır.",
+            },
+            {
+                baslik: "Tarımsal işleme hacminde hijyen ve ürün ayırımı",
+                metin:
+                    "Ürünün temizlendiği, ayrıldığı veya paketlendiği hacimde tavan donanımına erişirken açık ürünün üstünde çalışılmaz. Tercih, hattın boş olduğu bakım aralığıdır. Zorunlu küçük müdahalede çalışma kesiti kapatılır, alt yüzey koruyucu biçimde örtülür, el aletleri bağlanır ve sökülen parçalar kapalı kapta tutulur. Toz, kıvılcım ya da yağ damlası oluşturabilecek işlem ürün ve ambalajdan tamamen ayrılır. Platformun teker ve sepet temizliği tesise girişte kontrol edilir. İş sonunda alan, işletmenin kendi temizlik prosedürüne göre teslim edilir.",
+            },
+            {
+                baslik: "Atölyelerde tezgâh üstü erişim ve enerji izolasyonu",
+                metin:
+                    "Bakım ve tarım ekipmanı atölyelerinde aydınlatma, kablo tavası, hava hattı ve kapı mekanizması tezgâhların üzerinde kalabilir. Makinenin geçeceği koridor ölçülür; sepet hareketi askılı yük veya çalışan kaldırma ekipmanıyla kesişiyorsa bu hareket durdurulur. Elektrikli ya da mekanik ekipmanın üstünde çalışmadan önce enerji kaynağı yetkili kişi tarafından izole edilir. Platform sepetine ağır parça yüklenmez, tezgâhtaki malzeme kaldırma işi ayrı ekipmanla yapılır. Küçük atölyede alan sınırlı olduğu için çalışma sınırı zeminde açıkça işaretlenir.",
+            },
+            {
+                baslik: "Kırsal parselin son girişini önceden görmek",
+                metin:
+                    "Ana yol uygun olsa bile parselin son kapısı, avlu dönüşü veya mevsimsel olarak yumuşamış yüzeyi teslimi engelleyebilir. Tekliften önce giriş kapısı ve en dar dönüş ölçüsü, yolun son kesitini gösteren fotoğraflar, eğim ile çalışma tabanı istenir. Taşıyıcı araç güvenle giremiyorsa indirme noktası rastgele seçilmez; makinenin kendi yürüyüşüyle gideceği mesafenin yüzeyi ve trafik güvenliği ayrıca değerlendirilir. Yağış sonrası dolgu zeminin önceki keşifle aynı kaldığı varsayılmaz; teslim günü yeniden kontrol edilir.",
+            },
+            {
+                baslik: "Merkezden gelen sevkiyatı bakım turuna çevirmek",
+                metin:
+                    "Şuhut'ta tek bir kısa işin taşıma payını büyütmemesi için işletmenin bekleyen bütün yüksek erişim kalemlerini toplarız. Aynı işletmenin depo, atölye ve dış saha işleri uygun sınıfla bir programa alınabilir; farklı sınıf gerektiren kalemler ise açıkça ayrılır. İlçeye planlanmış başka bir iş varsa tarihler esnek olduğu ölçüde sevkiyatlar birleştirilebilir, fakat her işletmenin teslimi ve sorumluluğu ayrı tutulur. Program birkaç vardiyaya uzanırsa makinenin gece parkı, şarjı ve günlük kontrolü baştan belirlenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Şuhut'taki tesis alanları için erişim tablosu",
+                paragraflar: [
+                    "Her yapı aynı makineyi istemez. Aşağıdaki eşleştirme teklif için başlangıç sağlar; nihai karar saha ölçüsü, zemin ve çalışma izni görüldükten sonra verilir.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Tipik bakım", "Kritik koşul", "Hazırlık"],
+                    satirlar: [
+                        ["Ürün deposu", "Işıklık, oluk, aydınlatma", "İstif ve koridor", "Boş erişim hattı ayır"],
+                        ["İşleme-paketleme hacmi", "Tavan tesisatı", "Hijyen ve açık ürün", "Hattı boşalt, yüzeyi koru"],
+                        ["Bakım atölyesi", "Kablo, hava hattı, kapı", "Tezgâh ve askılı yük", "Enerjiyi izole et"],
+                        ["Kırsal avlu", "Cephe ve dış aydınlatma", "Dolgu, eğim, dönüş", "Teslim günü zemini doğrula"],
+                        ["Çelik çatı dışı", "Oluk ve panel eki", "Rüzgâr ve yağış", "Hava penceresi belirle"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif öncesi fotoğrafla yapılan güzergâh keşfi",
+                paragraflar: [
+                    "Yalnız arızalı noktayı gösteren yakın çekim, doğru platformu seçtirmez. Fotoğraf dizisi taşıyıcı aracın yaklaşacağı yerden başlamalı; giriş kapısını, avlu dönüşünü, makinenin kapalı hacme gireceği açıklığı, en dar koridoru ve hedefin önündeki istif ya da tezgâhı göstermelidir. Ölçülerde çalışma yüksekliğinin yanında yatay uzaklık ve kullanılabilir taban alanı bulunur. Zeminin beton, sıkıştırılmış dolgu ya da başka bir yüzey olduğu belirtilir.",
+                    "Bu bilgiler geldikten sonra teslim senaryosu masa başında sınanır. Makine taşıyıcıdan nerede iner, hangi rotayla ilerler, nerede döner, çalışma alanı nasıl çevrilir ve vardiya sonunda nereye park edilir sorularının cevabı yazılır. Teslim günü saha değişmişse plan da değişir; yeni istif veya yumuşayan zemin görmezden gelinmez. Birkaç dakikalık bu doğrulama, ilçeye yanlış gövdede makine gönderip işi erteleme riskini azaltır.",
+                ],
+            },
+            {
+                baslik: "Mevsimsel yoğunluğun dışında bakım penceresi açmak",
+                paragraflar: [
+                    "Tarımsal tesislerde üretim ve ürün hareketi yıl boyunca aynı düzeyde değildir. Platform işini yoğun dönemin içine sıkıştırmak koridorların kapanmasına, açık ürün nedeniyle hijyen tedbirlerinin artmasına ve aynı alanda daha fazla araç hareketine yol açar. Acil olmayan çatı, aydınlatma, kanal ve kapı kalemlerini işletmenin daha sakin dönemine toplamak, daha güvenli ve ölçülebilir bir bakım turu sağlar. Acil arızada ise yalnız gerekli kesit ayrılır ve diğer alanlar çalışmaya devam eder.",
+                    "Plan oluşturulurken malzemenin sahada hazır bulunması, enerji kesme yetkilisinin vardiyada olması ve dış işler için hava yedeği hazırlanması gerekir. Makine geldikten sonra parça aramak kiralama süresini uzatır. İş listesi öncelik sırasıyla yazılır: güvenliği veya üretimi doğrudan etkileyen arıza önce, düzenli kontrol ve iyileştirme kalemleri sonra tamamlanır. Bitmeyen iş açık kayda geçirilir; sözlü olarak kapanmış sayılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şuhut'taki kırsal tesisimize platform teslim edilebilir mi?",
+                cevap:
+                    "Çoğu durumda evet, ancak ana yolun açık olması tek başına yeterli değildir. Parselin son girişi, kapı genişliği, avludaki dönüş, eğim ve zeminin teslim aracını taşıması incelenir. Fotoğraf ve ölçü üzerinden uygun indirme noktası belirlenir. Taşıyıcı içeri giremiyorsa platformun kendi yürüyüşüyle ilerleyebileceği güzergâh ayrıca güvenlik açısından değerlendirilir; uzun veya kamu trafiğine açık rota otomatik kabul edilmez. Yağışla yumuşayan yüzey teslim günü yeniden görülür. Güvenli erişim sağlanamıyorsa daha küçük sınıf ya da farklı tarih önerilir.",
+            },
+            {
+                soru: "Depomuz doluyken çatı ve aydınlatma bakımı yapılabilir mi?",
+                cevap:
+                    "Dolu depo işi tamamen engellemez, fakat platform için bağımsız koridor ve düşen parçalara karşı boş alt alan gerekir. İstife dayanarak veya mamulün üstünden geçerek çalışılmaz. İşletme, çalışma cephesi boyunca koridoru boşaltır; sepet altındaki bölge çevrilir ve el aletleri bağlanır. Koridor makinenin dönüşüne yetmiyorsa ürün yerleşimi değiştirilmeden işe başlanmaz. Dış çatı kalemleri içerideki istiften bağımsız yürüyebiliyorsa ayrı programa alınabilir. En verimli seçenek, bu bakımı deponun daha sakin olduğu dönemde planlamaktır.",
+            },
+            {
+                soru: "Gıda veya tarımsal ürün bulunan hacimde hangi önlemler uygulanır?",
+                cevap:
+                    "Açık ürünün üstünde bakım yapmayız. İlgili hat boşaltılır veya güvenli kesit fiziksel olarak ayrılır; platform tesise temiz girer, alt yüzey korunur, aletler bağlanır ve sökülen parçalar kapalı kapta tutulur. Toz, kıvılcım, yağ ya da temizlik kimyasalı oluşturabilecek işlem ürün ve ambalajdan uzak alanda yapılır. İş sonunda alet-parça sayımı tamamlanır ve alan işletmenin hijyen prosedürüne göre teslim edilir. İşletmenin kendi gıda güvenliği kuralı daha sıkıysa o kural uygulanır; kiralama planı bunu gevşetmez.",
+            },
+            {
+                soru: "Atölye içindeki dar koridora hangi platformun sığacağını nasıl anlarsınız?",
+                cevap:
+                    "En dar kapı ve koridor genişliği, dönüş alanı, tavan kotu ve hedefin yatay uzaklığı birlikte ölçülür. Yalnız gövde genişliğine bakmak yetmez; makinenin dönüşü, sepetin açılması ve operatörün güvenli kaçış alanı da gerekir. Tezgâh, kablo veya askılı yük güzergâhı daraltıyorsa bunlar fotoğrafta gösterilir. Bu verilere göre kompakt akülü sınıfın işi kapatıp kapatmadığı belirlenir. Sığmak uğruna yetersiz erişimli makine göndermeyiz; fiziksel alan uygun değilse sabit erişim çözümü değerlendirilmesini söyleriz.",
+            },
+            {
+                soru: "Tek kalemlik kısa iş için sevkiyat maliyetini nasıl yönetebiliriz?",
+                cevap:
+                    "Önce aynı tesiste bekleyen diğer yüksek erişim kalemlerini toplayın: oluk, ışıklık, aydınlatma, havalandırma, kapı üstü ve dış cephe işleri aynı keşifte değerlendirilebilir. Uygun sınıf hepsini yapabiliyorsa tek teslimle bakım turu kurulur. Tarihiniz esnekse ilçeye planlanmış başka sevkiyatla eşleştirme imkânı kontrol edilir; ancak her müşterinin sözleşme ve teslim kaydı ayrı kalır. Acil iş tek başına da yapılabilir, fakat taşıma kalemi teklifte açık gösterilir. Gizli biçimde çalışma bedeline dağıtılmaz.",
+            },
+            {
+                soru: "Program birkaç gün sürerse günlük güvenlik kontrolünü kim yapar?",
+                cevap:
+                    "Kullanım öncesi görsel kontrol, yalnız yetkilendirilmiş kullanıcı tarafından yapılır; lastik, korkuluk, kumanda, sızıntı ve olağan dışı ses kontrol edilir. Kiralama ekibinin planlı servisi bu sorumluluğun yerine geçmez. Makine gece düz, korunaklı ve yetkisiz erişime kapalı yerde bırakılır; akülü model kuru ve güvenli noktada şarj edilir. Arıza belirtisinde kullanım durur ve servisle iletişim kurulur, sahadaki personelden yetkisi olmayan onarım istenmez. Yeni vardiya güzergâhı, zemin ve çalışma iznini yeniden doğrular.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Şuhut'un tarımsal üretim çevresi ve Afyonkarahisar merkezden hizmet planlama bağlamı kamuya açık genel çerçevedir; belirli işletme, tesis kapasitesi, ürün miktarı, mesafe ve doğrulanmamış rakam kullanılmamıştır. Erişim, hijyen, izolasyon ve sevkiyat turu anlatımı sektör geneli saha pratiğidir.",
+    },
 };
