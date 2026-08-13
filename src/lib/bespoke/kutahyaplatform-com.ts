@@ -612,4 +612,202 @@ export const KUTAHYAPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Uşak'ın battaniye-ev tekstili, tekstil geri dönüşüm, deri ve seramik-yapı malzemeleri sanayisi ile Kütahya-Uşak illerinin ortak kalkınma bölgesinde yer alması ve Zafer Havalimanı'nın iki ile birlikte hizmet vermesi kamuya açık bilgidir; program kurulumu ve hazırlık düzeni firma pratiğidir.",
     },
+
+    "bolge:kutahya-osb": {
+        h1: "Kütahya OSB'de Depo ve Lojistik Tesislerinde Platform Kiralama",
+        giris:
+            "Kütahya Organize Sanayi Bölgesi'nin adı çoğu zaman doğrudan seramik ve porselen üretimiyle anılır, ama bölgenin fiziksel dokusunu yalnız üretim holleri kurmaz — bu üretimi besleyen ve dağıtan depo-lojistik yapılar da OSB'nin önemli bir parçasıdır: hammadde ve mamul depoları, üçüncü parti lojistik firmalarının kiralık antrepoları, dağıtım merkezleri ve sevkiyat terminalleri. Bu sayfa OSB'deki fırın hattı veya sırlama bölümü gibi üretim tarafını değil, bu üretimin önünde ve arkasında duran depo tarafını konu alır: raf sistemleri, yükleme rampaları, çatı altı tesisat ve neredeyse hiç durmayan forklift trafiğiyle iç içe geçen bir çalışma alanı. Depo binası, üretim holünden farklı bir erişim mantığı kurar — tavan genellikle daha yüksektir, koridorlar dardır ve zemindeki araç trafiği günün her saatinde sürer. Platform kiralamada bizim işimiz, bu trafiği kesmeden veya en aza indirerek çatı altı ve raf üstü işleri bitirmektir.",
+        maddeler: [
+            {
+                baslik: "Yüksek raf sistemleri ve dar koridor geometrisi",
+                metin:
+                    "OSB'deki depo binalarının çoğunda raf sistemleri tavana yakın yüksekliğe çıkar ve koridorlar, depolama hacmini artırmak için mümkün olduğunca dar tutulur. Raf montajı, hasarlı traversin değişimi, çatı altı aydınlatma ve sprinkler hattı bakımı gibi işlerde belirleyici ölçü koridor genişliği ile makine şasi eninin ilişkisidir; rafın arasına girecek ünite koridorda kapalı hâlde dönebilmeli veya geri manevrayla çıkabilmelidir. Dar koridorlarda dönüş yarıçapı çoğu zaman genişlikten daha kısıtlayıcı bir ölçüdür ve bu, doğru sınıfı belirleyen ilk kriterdir.",
+            },
+            {
+                baslik: "Yükleme rampaları ve sevkiyat kapılarında bakım",
+                metin:
+                    "Depo binalarının sevkiyat cephesi — dock leveler mekanizmaları, rampa kapı sistemleri, tır sundurmaları ve rampa üstü aydınlatma — sürekli açılıp kapanan hareketli parçalar barındırır ve bu yüzden düzenli bakım ister. Rampa çevresinde çalışmanın zorluğu yükseklikten çok trafiktir: kamyonların yanaştığı ve ayrıldığı bir hatta sepetle çalışmak, aracın manevra alanıyla çakışmayacak bir konumlanma gerektirir. Bu işler genellikle sevkiyat yoğunluğunun düştüğü saatlere veya rampanın geçici olarak boşaldığı pencerelere planlanır.",
+            },
+            {
+                baslik: "Çatı altı aydınlatma, havalandırma ve yangın hattı",
+                metin:
+                    "Depo hacimlerinde tavan yüksekliği fazla olduğu için aydınlatma, havalandırma menfezi ve sprinkler hattı bakımı, sabit merdivenle ulaşılamayan bir kot aralığına düşer. Bu tip depolarda malzeme genellikle yanıcı ambalaj veya palet içerdiğinden yangın algılama ve söndürme hattının çalışır durumda tutulması öncelikli bir kalemdir; bakım gecikmediği sürece bu iş rutin bir program maddesidir. Tavan kotu ve raf üstü kalan boşluk, makine sınıfını doğrudan belirler — geniş açık depolarda teleskopik sınıf, dar koridorlu depolarda dar şasili makaslı sınıf tercih edilir.",
+            },
+            {
+                baslik: "Forklift trafiği ile ortak çalışma pencereleri",
+                metin:
+                    "Aktif bir depoda forklift trafiği günün büyük bölümünde sürer ve platform ile forklift aynı koridorda aynı anda çalışamaz; ikisinin de manevra alanı geniştir ve çakışma hem verim hem güvenlik açısından kabul edilemez. Bu yüzden depo işlerinde ilk sorduğumuz şey forklift trafiğinin hangi saatlerde düşük olduğu veya belirli bir koridorun geçici olarak kapatılıp kapatılamayacağıdır. Trafiğin tamamen durmasını beklemek yerine, koridor bazında sıralı bir çalışma planı kurmak — bir koridor bitmeden diğerine geçilmemesi — depo operasyonunu bütünüyle durdurmadan işi ilerletir.",
+            },
+            {
+                baslik: "OSB depo bölgesinde komşu antrepo blokları",
+                metin:
+                    "OSB içindeki depo ve lojistik bölgesi genellikle birbirine bitişik veya çok yakın antrepo bloklarından oluşur; bir blokta çalışan makine, komşu bloktaki benzer bir ihtiyaca kendi gücüyle birkaç dakikada ulaşabilir. Bu yakınlık, aynı hafta içinde birden fazla depo işletmesinin ihtiyacını tek sevkiyatla karşılamayı mümkün kılar. Özellikle üçüncü parti lojistik firmalarının kiraladığı antrepolarda kiracı sık değiştiği için bakım ihtiyacı da düzensiz aralıklarla ortaya çıkar; bu düzensizliği öngörülebilir bir programa bağlamak, hem bize hem depo işletmesine zaman kazandırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo tipine göre iş kalemi ve makine sınıfı",
+                paragraflar: [
+                    "OSB'deki başlıca depo tiplerinde en sık istenen kalemler, zemin-koşul ve öne çıkan makine sınıfı aşağıda toplanmıştır.",
+                ],
+                tablo: {
+                    basliklar: ["Depo tipi", "Sık istenen kalem", "Zemin / koşul", "Sınıf notu"],
+                    satirlar: [
+                        ["Hammadde-mamul deposu", "Raf montajı, travers değişimi", "Fabrika betonu, dar koridor", "Dar şasili makaslı"],
+                        ["3. parti antrepo", "Aydınlatma, sprinkler", "Yüksek tavan, geniş açıklık", "Teleskopik / eklemli"],
+                        ["Dağıtım merkezi", "Rampa kapısı, dock leveler", "Sürekli araç trafiği", "Trafik penceresine göre"],
+                        ["Soğuk zincir deposu", "Evaporatör, tavan panel", "Düşük sıcaklık", "Elektrikli, kısa blok"],
+                        ["Açık stok sahası", "Sundurma, direk aydınlatma", "Beton / mıcır", "Arazi tipi tercihli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Koridor genişliği hesaplamanın püf noktaları",
+                paragraflar: [
+                    "Depo işletmecileri bize sıklıkla koridor genişliğini metre cinsinden değil, kullandıkları forklift tipine göre tarif eder; bu, bizim için tek başına yeterli bir ölçü değildir çünkü platformun geçmesi gereken net açıklık forkliftin geçtiği açıklıktan farklı olabilir. İstediğimiz ölçü, raf ayakları arasındaki en dar noktadaki net genişlik ve bu genişliğin koridor boyunca sabit olup olmadığıdır — bazı depolarda kolon veya tesisat elemanı koridoru yer yer daraltır ve bu daralma, genel koridor genişliğinden daha belirleyici olabilir.",
+                    "İkinci püf noktası dönüş alanıdır. Koridor sonu kapalıysa makine ya dar bir alanda dönmeli ya da geri manevrayla çıkmalıdır; bu iki senaryo farklı makine sınıfları gerektirebilir. Koridor planını veya en azından birkaç fotoğrafı önceden paylaşan işletmelerde bu ölçümü sahaya çıkmadan tamamlayabiliyoruz, bu da teklif aşamasındaki belirsizliği önemli ölçüde azaltıyor.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat trafiğiyle paylaşımlı çalışma takvimi",
+                paragraflar: [
+                    "Aktif bir depoda bakım işini sevkiyat operasyonundan tamamen ayırmak neredeyse hiçbir zaman mümkün değildir; asıl hedef ikisini çakıştırmadan aynı gün içinde yürütmektir. Bunun için depo yönetiminden istediğimiz bilgi basittir: günün hangi saatlerinde araç trafiği en düşük, hangi koridorlar geçici olarak kapatılabilir ve rampa kapılarının kaçında aynı anda işlem yapılıyor. Bu bilgiyle, makinenin hangi koridorda ne zaman çalışacağını gösteren basit bir sıra planı çıkarırız.",
+                    "Bu plan, depo trafiğinde ölçüm ekipmanı gibi çalışır — beklenmeyen bir çakışma yaşanırsa hangi koridorun ertelenip hangisinin öne alınacağı önceden bellidir. Büyük antrepolarda bu planı depo müdürüyle birlikte gözden geçirip imzalı bir çalışma sırası olarak sahaya götürmeyi tercih ederiz; bu, saha günündeki tartışma ve bekleme süresini büyük ölçüde azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzdaki raf koridorları dar; makinenin geçip geçemeyeceğini nasıl anlarız?",
+                cevap:
+                    "İki ölçüyü paylaşmanız yeterli: raf ayakları arasındaki en dar noktadaki net koridor genişliği ve koridor sonunun kapalı mı açık mı olduğu. Makinenin kapalı hâldeki şasi eni bu genişliğe sığmalı, ayrıca ünite koridor içinde dönebilmeli veya geri manevrayla çıkabilmelidir; dar koridorlarda dönüş yarıçapı çoğu zaman genişlikten daha kısıtlayıcıdır. Koridorun bir bölümünde kolon veya tesisat elemanı varsa bu daralmayı da ayrıca belirtmenizi isteriz çünkü genel koridor ölçüsünden daha belirleyici olabilir. Bu bilgiler elimize geçtiğinde sahaya çıkmadan doğru sınıfı söyleyebiliriz.",
+            },
+            {
+                soru: "Forklift trafiği hiç durmuyor; işi nasıl planlıyorsunuz?",
+                cevap:
+                    "Trafiğin tamamen durmasını beklemek yerine koridor bazında çalışırız. Depo yönetiminden hangi koridorların hangi saatte daha az kullanıldığını öğreniriz ve makineyi o koridorlara göre sıraya dizeriz; bir koridorun işi bitmeden diğerine geçilmez, böylece açık bir koridorda forklift ile platform aynı anda çalışmaz. Trafiği tamamen kesmek gerekiyorsa bunun için de belirli, kısa bir pencere talep ederiz — bütün gün değil, o koridora özel birkaç saatlik bir kesinti çoğu zaman yeterlidir. Bu düzen, depo operasyonunu bütünüyle durdurmadan işi ilerletmemizi sağlar.",
+            },
+            {
+                soru: "Rampa kapısı ve dock leveler bakımı sırasında sevkiyatı durdurmamız gerekir mi?",
+                cevap:
+                    "Genellikle hayır, ama çalışılan rampanın o süre boyunca kullanılamayacağını baştan kabul etmeniz gerekir. Diğer rampa kapıları sevkiyata açık kalır; biz yalnızca üzerinde çalıştığımız kapının önüne kamyon yanaşmayacak şekilde bir işaretleme ve zaman penceresi isteriz. Birden fazla rampanız varsa işi rampa rampa sıraya dizer, her rampayı en kısa sürede tekrar hizmete açarız. Tek rampalı küçük depolarda ise iş, sevkiyatın en sakin olduğu saat aralığına — genellikle mesai başı veya sonu — planlanır.",
+            },
+            {
+                soru: "Soğuk zincir deposunda çalışma yapabiliyor musunuz?",
+                cevap:
+                    "Evet, ancak plan buna göre kurulur. Düşük sıcaklık hem operatörün konforlu çalışma süresini hem akü ve hidrolik performansını etkiler, bu yüzden soğuk hacimdeki işler kısa bloklar hâlinde ve mola düzeniyle planlanır. Her giriş-çıkış hacimde sıcaklık kaybı ürettiği için makinenin içeri girip çıkma sayısını en aza indirecek bir konum sırası önceden çıkarılır — makine bir kez içeri alınır, o bölümün bütün kalemleri bitirilip çıkılır. Depo sezonda doluysa işi ürün rotasyonunun düştüğü döneme planlamak daha verimli olur.",
+            },
+            {
+                soru: "Aynı OSB bloğunda birkaç depo işletmesi birlikte talep etse avantaj olur mu?",
+                cevap:
+                    "Olur ve bunu açıkça öneririz. OSB'nin depo bölgesindeki bloklar birbirine yakın olduğu için makine bir depodan diğerine kendi gücüyle geçebilir; bu, ayrı sevkiyat gerekmeden birden fazla işletmenin aynı haftada hizmet almasını sağlar. İşletmeler arasında herhangi bir ortak sözleşme kurulmaz — her biri kendi teklifini, kendi faturasını alır. Koordinasyonu genellikle bir işletme üstlenir ve tarihleri bize tek kanaldan bildirir; bu, planlamayı basitleştiren pratik bir yöntemdir.",
+            },
+            {
+                soru: "Kiracısı sık değişen bir antrepomuz var; düzenli bakım sözleşmesi mantıklı mı?",
+                cevap:
+                    "Kiracı değişimi olan antrepolarda düzenli bir sözleşme yerine dönemsel kontrol modelini öneririz: belirli aralıklarla (örneğin her kiracı değişiminde veya üç-dört ayda bir) depo genel kontrolden geçirilir, biriken kalemler tek seferde bitirilir. Bu model, boş kalan aylarda maliyet çıkarmadığı için kiracı devir hızı yüksek antrepolar için yıllık sabit sözleşmeden daha ekonomiktir. Kiracı devri yavaşlar ve bakım ihtiyacı düzenli bir ritme oturursa, o noktada sabit periyotlu bir programa geçmeyi birlikte değerlendirebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Kütahya OSB'nin seramik üretim tesislerinin yanı sıra depo ve lojistik yapılar da barındırdığı kamuya açık genel bilgidir; koridor/rampa değerlendirmesi, forklift trafiğiyle paylaşımlı planlama ve depo bakım modelleri firma pratiğidir.",
+    },
+
+    "bolge:emet": {
+        h1: "Emet'te Bor Madenciliği Bölgesinde Tesis Bakım Lojistiği",
+        giris:
+            "Emet, Kütahya'nın güneybatısında, ülkenin en tanınmış bor ve kolemanit yataklarının bulunduğu ilçedir; Eti Maden'e bağlı Emet Bor İşletmesi, ilçenin ekonomisini uzun yıllardır belirleyen ana sanayi koludur. Bizim açımızdan Emet, saha koşulundan çok lojistik açıdan kendine özgü bir bölgedir: ilçe merkezi Kütahya'ya belirli bir mesafededir, çevresi dağlık ve kırsal bir coğrafyadır, madenle bağlantılı destek tesisleri şehir merkezinden uzak noktalara yayılmıştır. Bu sayfa, maden işletmesinin cevher hazırlama ve zenginleştirme hattı gibi üretim tarafını değil, bu işletmeyi ve ilçedeki diğer yapıları ayakta tutan destek tesislerinin bakımını ve bu bakımın lojistik tarafını konu alır — idari binalar, atölye ve garaj yapıları, açık saha depolama alanları ve ilçe merkezindeki kamu-ticari binalar. Emet'teki her iş, önce bir mesafe ve yol sorusu, sonra bir makine sorusudur.",
+        maddeler: [
+            {
+                baslik: "Bor işletmesinin destek yapılarında iç mekân bakımı",
+                metin:
+                    "Maden işletmesinin idari binaları, atölye ve garaj yapıları, malzeme depoları gibi destek binaları, çoğu sanayi tesisinde olduğu gibi düzenli çatı, aydınlatma ve tesisat bakımı ister. Atölye ve garaj yapılarında vinç kirişi çevresi kontrolleri, tavan aydınlatması ve havalandırma bakımı sık istenen kalemlerdir; bu binalar genellikle beton zeminli ve görece düzenli olduğu için makaslı sınıf çoğu işi karşılar. Bu sayfanın konusu cevher hazırlama ve zenginleştirme hattının içindeki üretim ekipmanı değildir — o taraf, işletmenin kendi teknik bakım biriminin alanıdır; bizim işimiz binaların genel bakımı ve erişim tarafındadır.",
+            },
+            {
+                baslik: "Açık saha depolama ve malzeme sahalarında erişim",
+                metin:
+                    "Maden bölgelerinde ekipman ve malzeme genellikle açık sahada, sundurma çatılı depolama alanlarında tutulur; bu alanlarda aydınlatma direği bakımı, sundurma çatısı onarımı ve çevre çit-aydınlatma işleri düzenli olarak çıkar. Açık saha zemini çoğunlukla sıkıştırılmış dolgu veya doğal zemindir ve yağış sonrası taşıma gücü belirgin düşer; bu, makine yerleşimini doğrudan kısıtlayan bir etkendir. Bu tip sahalarda arazi tipi dört çeker dizel üniteler, düz zeminli tesislere göre daha sık tercih edilen sınıftır.",
+            },
+            {
+                baslik: "Dağlık arazide yol ve nakliye koşulları",
+                metin:
+                    "Emet çevresi dağlık ve engebeli bir arazidir; ilçe merkezinden madenle bağlantılı tesislere giden yollar, düz sanayi bölgesi yollarına göre daha dar, virajlı ve eğimlidir. Ağır nakliye aracı için bu, yolun genişliği, viraj dönüş açısı ve varsa köprü-menfez taşıma sınırının önceden bilinmesi gerektiği anlamına gelir. Sevkiyat öncesi güzergâhı netleştirmeden yola çıkmak, sahaya varıldığında aracın ilerleyemediği bir noktayla karşılaşma riski taşır; bu yüzden Emet'teki her talepte önce güzergâh bilgisi isteriz.",
+            },
+            {
+                baslik: "Kış ve yağış döneminde program esnekliği",
+                metin:
+                    "Dağlık arazinin kışı, düz ovadaki ilçelere göre daha sert ve daha uzun geçer; kar ve buzlanma, hem yol koşulunu hem sahadaki indirme alanının durumunu etkiler. Bu dönemde açık saha işlerini kesin bir tarihe kilitlemek yerine hava koşuluna göre birkaç günlük bir pencereye yaymayı öneririz. Atölye ve garaj gibi kapalı alan işleri ise hava koşulundan bağımsız planlanabildiği için, kış aylarında programın sabit omurgasını bu kapalı alan kalemleri oluşturur ve açık saha işleri uygun günlere kaydırılır.",
+            },
+            {
+                baslik: "İlçe merkezindeki kamu ve ticari yapılar",
+                metin:
+                    "Emet yalnız maden talebi üretmez; ilçe merkezindeki okul, sağlık tesisi ve ticari binalar da yıl içinde düzenli erişim işi çıkarır — çatı ve cephe bakımı, tabela, iç mekân aydınlatması gibi. Bu işlerde belirleyici olan sahanın küçük ölçeği ve mesafedir; tek bir kamu binası için ayrı bir sevkiyat düzenlemek yerine, aynı haftada ilçe merkezindeki birkaç talebi birleştirmek hem bize hem talep sahiplerine kazandırır. Bu birleştirmeyi genellikle biz, gelen talepleri tarih bazında eşleştirerek kurarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Emet'te yapı tipi ve lojistik notu",
+                paragraflar: [
+                    "İlçedeki başlıca yapı tiplerinde sık istenen kalemler, erişim koşulu ve lojistik notu aşağıda toplanmıştır.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Sık istenen kalem", "Erişim koşulu", "Lojistik notu"],
+                    satirlar: [
+                        ["İdari bina, atölye", "Çatı, aydınlatma, havalandırma", "Beton zemin, düzenli", "Standart sevkiyat"],
+                        ["Malzeme deposu (açık)", "Sundurma, direk, çit hattı", "Dolgu / doğal zemin", "Yağış sonrası dikkat"],
+                        ["Maden yolu çevresi", "Aydınlatma, işaret direği", "Dar, virajlı yol", "Güzergâh önceden netleşir"],
+                        ["Kamu / ticari bina", "Çatı, cephe, tabela", "Şehir içi kısıt", "Talep birleştirme"],
+                        ["Garaj, bakım hangarı", "Vinç kirişi, tavan işleri", "Fabrika betonu", "Hava koşulundan bağımsız"],
+                    ],
+                },
+            },
+            {
+                baslik: "Maden bölgesinde iş listesini büyütmenin mantığı",
+                paragraflar: [
+                    "Emet, Kütahya merkezine göre mesafeli bir ilçedir ve bu mesafe, tek kalemlik bir günlük iş için nakliye payını orantısız büyütür. Bizim burada önerdiğimiz yaklaşım, ilk talebi almadan önce iş listesini büyütmektir: idari bina, atölye, depo ve varsa ilçe merkezindeki başka bir talep aynı sevkiyat programına eklenir. Liste büyüdükçe sevkiyatın toplam maliyet içindeki payı küçülür ve bu, tek başına ekonomik olmayan bir ziyareti anlamlı hâle getirir.",
+                    "Bu yaklaşım özellikle düzenli bakım ihtiyacı olan işletmeler için işe yarar — bakım takvimini bize önceden bildiren bir işletme, aynı dönemde ilçedeki başka taleplerle eşleştirilerek hem kendi maliyetini hem bizim sahada geçirdiğimiz süreyi optimize eder. Tarih ne kadar erken netleşirse eşleştirme ihtimali o kadar artar.",
+                ],
+            },
+            {
+                baslik: "Kırsal ve dağlık saha lojistiği: yol, mesafe, indirme alanı",
+                paragraflar: [
+                    "Dağlık arazideki tesislere sevkiyat, düz sanayi bölgesine göre daha fazla ön hazırlık ister. İhtiyacımız olan bilgi azdır ama önemlidir: giriş yolunun genişliği, keskin virajların durumu, varsa köprü-menfez taşıma sınırı ve makinenin indirileceği alanın düzlüğü. Birkaç fotoğraf, çoğu zaman bu değerlendirmeyi sahaya çıkmadan tamamlamamıza yeter.",
+                    "Yol ağır araç için uygun değilse çözümü baştan kurarız — makine, yola yakın uygun bir noktada indirilip kendi gücüyle sahaya ilerleyebilir; arazi tipi üniteler bu geçiş için elverişlidir. Yağış veya kar sonrası dağlık yollarda ise sevkiyatı birkaç gün ertelemek, sahaya gidip geri dönmekten her zaman daha az maliyetlidir; bu ihtimali müşteriyle baştan konuşuruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Maden işletmesinin sahasına girmek için özel bir izin süreciniz var mı?",
+                cevap:
+                    "Maden sahasına giriş, tesisin kendi güvenlik ve izin prosedürüne tabidir ve biz bu prosedürün yerine geçmeyiz; ekibimiz, tesisin talep ettiği belge ve donanımla sahaya gelir. Çalışacağımız alan genellikle idari bina, atölye veya açık saha depolama gibi destek yapılarıdır; cevher hazırlama ve üretim hattının içine giren işler bu hizmetin kapsamı dışındadır ve o taraf işletmenin kendi teknik ekibince yürütülür. Sahaya girmeden önce hangi binada çalışacağımızı ve gereken izin belgelerini işletmeyle netleştiririz.",
+            },
+            {
+                soru: "İlçe merkezine giden yol iyi ama tesisiniz dağlık bir noktada; makine oraya çıkabilir mi?",
+                cevap:
+                    "Çoğu durumda çıkar, ancak bunu sahaya çıkmadan doğrulamak isteriz. İhtiyacımız olan bilgi azdır: yolun genişliği, virajların keskinliği, varsa köprü veya menfezin taşıma sınırı ve indirme alanının düzlüğü. Birkaç fotoğraf genellikle yeterli olur. Yol ağır nakliye aracı için uygun değilse, makineyi yola yakın uygun bir noktada indirip kendi gücüyle sahaya ilerletiriz; arazi tipi üniteler bu tip geçişler için tasarlanmıştır.",
+            },
+            {
+                soru: "Kışın Emet'e sevkiyat yapabiliyor musunuz?",
+                cevap:
+                    "Yapıyoruz, ancak kış aylarında sevkiyat gününü esnek tutmanızı isteriz. Dağlık arazide kar ve buzlanma, düz ovaya göre daha uzun sürer ve bir günlük kayma her zaman ihtimal dahilindedir. Kapalı alan işlerini — atölye, garaj, idari bina — programın sabit omurgası olarak kurar, açık saha işlerini ise hava penceresine göre esnetiriz. Böylece kötü hava, programın tamamını değil yalnızca açık saha kalemlerini etkiler.",
+            },
+            {
+                soru: "Tek bir bina için Emet'e gelmeniz ekonomik mi, yoksa listeyi mi büyütmeliyiz?",
+                cevap:
+                    "Dürüst cevap: tek bir bina için tekil bir sevkiyat, mesafe nedeniyle nakliye payını orantısız büyütür. Bunun yerine önerimiz, idari bina, atölye, depo ve varsa ilçe merkezindeki başka bir talebi aynı programa eklemektir; liste büyüdükçe sevkiyatın toplam içindeki payı küçülür. İşiniz gerçekten tek kalemse ve erteleme mümkün değilse yine geliriz, ancak nakliye payını teklifte ayrı satır olarak açıkça gösteririz.",
+            },
+            {
+                soru: "Açık sahadaki malzeme deposunun sundurma çatısında iş var; zemin bize sorun çıkarır mı?",
+                cevap:
+                    "Açık saha depolama alanlarının zemini genellikle sıkıştırılmış dolgu veya doğal zemindir ve yağış sonrası taşıma gücü belirgin düşer. Bu yüzden bu tip işlerde önce son yağış durumunu sorarız ve gerekiyorsa arazi tipi dört çeker üniteyi tercih ederiz. Zemin gerçekten yumuşaksa yük dağıtıcı altlık kullanılır veya makine, sağlam bir noktaya yerleştirilip iş bölgelere ayrılır. Sahanın birkaç fotoğrafını ve varsa yağış geçmişini paylaşırsanız, sevkiyattan önce gerçekçi bir değerlendirme yapabiliriz.",
+            },
+            {
+                soru: "İlçe merkezindeki bir okul veya ticari bina için de hizmet veriyor musunuz?",
+                cevap:
+                    "Evet, Emet'teki hizmetimiz yalnız maden bağlantılı yapılarla sınırlı değildir. İlçe merkezindeki okul, sağlık tesisi ve ticari binalar için de çatı, cephe, aydınlatma ve tabela gibi işleri yürütürüz. Bu tip küçük ölçekli işlerde mesafe payını azaltmanın en pratik yolu, aynı haftada ilçedeki başka bir talebi bizimle veya birbirinizle koordine etmenizdir; tarihinizi erken bildirirseniz bu eşleştirmeyi biz kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Emet'in Eti Maden'e bağlı bor ve kolemanit işletmeciliğiyle bilinen bir ilçe olması ile çevresinin dağlık-kırsal coğrafyası kamuya açık bilgidir; destek yapı bakımı, saha lojistiği ve program birleştirme yaklaşımı firma pratiğidir.",
+    },
 };

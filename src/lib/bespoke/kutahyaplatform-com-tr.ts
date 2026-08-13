@@ -612,4 +612,301 @@ export const KUTAHYAPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Uşak'ın tekstil ağırlıklı sanayi kimliği ve OSB'sindeki üretim çeşitliliği kamuya açık bölgesel bilgidir; tesis adı ve rakam kullanılmamıştır. Sevkiyat birleştirme ve komşuluk ekonomisi firma pratiğidir.",
     },
+
+    "bolge:kutahya-seramik-sanayi-bolgesi": {
+        h1: "Kütahya Seramik Sanayi Bölgesinde Fırın Hattı ve Sırlama Kabini Çevresi Çalışma",
+        giris:
+            "Kütahya Seramik Sanayi Bölgesi denince akla önce vitrindeki tabak ve fincan gelir, ama bu ürünlerin arkasında sürekli çalışan bir üretim hattı vardır: hammadde presi, kurutma tüneli, sırlama kabini ve tünel fırın, birbirine bağlı bir zincir gibi işler ve zincirin hiçbir halkası uzun süre durdurulamaz. Bu sayfa, sanayi bölgesindeki seramik üretim hattının kendisini — fırın üstü ve çevresi, sırlama kabininin havalandırma sistemi, presleme bölümünün toz toplama düzeni — platform kiralama açısından ele alır; bölgedeki depo veya paylaşımlı küçük işletme kiralaması bu sayfanın konusu değildir, burada anlatılan doğrudan üretim hattının teknik gereksinimidir.",
+        maddeler: [
+            {
+                baslik: "Tünel fırının üst kotu ve ısı bekleme süresi",
+                metin:
+                    "Tünel fırınlar, seramik sanayi bölgesindeki en uzun yapısal hatlardan biridir ve üstündeki baca gövdesi, çekme fanı ve yalıtım paneli bakımı fırının söndürülmesini gerektirir; ancak bir tünel fırının tam soğuması saatler sürebilir, bu yüzden bakım takvimi genellikle fırının zaten planlı olarak durduğu revizyon dönemine denk getirilir. Fırın üstünde çalışırken makine, hâlâ ılık olabilecek yüzeylere ve baca gazının kalıntı ısısına karşı, ısıya dayanıklı kişisel koruyucu donanımla desteklenen bir operatör tarafından kullanılır; bu, standart bir çatı işinden farklı bir hazırlık gerektirir.",
+            },
+            {
+                baslik: "Sırlama kabininin havalandırma ve filtre bakımı",
+                metin:
+                    "Sırlama kabini, sırlama tozunun ve buharının işçiye ulaşmadan emilmesini sağlayan bir emiş sistemiyle çalışır; bu sistemin filtre değişimi ve kanal temizliği, kabinin tavanına ve arkasına yerleşmiş menfezlerde yapılır. Sır kalıntısı zamanla kanal iç yüzeyinde sertleşen bir tabaka bırakır, bu yüzden bakım aralığı standart bir havalandırma bakımından daha sık tutulur. Kabin üstü dar ve düşük tavanlıdır, bu da kompakt gövdeli bir makineyi neredeyse zorunlu kılar.",
+            },
+            {
+                baslik: "Presleme bölümünde toz toplama hattı",
+                metin:
+                    "Kuru presleme yöntemiyle çalışan hatlarda, kalıptan taşan ince toz sürekli üretilir ve bu tozu havadan çeken bir toz toplama sistemi (siklon, torba filtre) genellikle presin hemen üstünde veya yan tarafında konumlanır. Bu sistemin torba değişimi ve kanal bağlantı kontrolü, presin tam durduğu ve tozun çökeldiği bir ara vermeyi gerektirir; presin çalışır hâldeyken üstünde iş yapmak hem tehlikeli hem verimsizdir. Bakım öncesi presin kapatılıp kısa bir bekleme süresi tanınması standart uygulamadır.",
+            },
+            {
+                baslik: "Kurutma tüneli ve nem dengesinin hassasiyeti",
+                metin:
+                    "Presten çıkan ham ürün, sırlanmadan önce bir kurutma tünelinden geçer; bu tünelin iç nem ve sıcaklık dengesi çok hassastır çünkü dengesiz kuruma çatlağa yol açar. Tünel üstündeki fan veya ısıtıcı elemanların bakımı sırasında tünelin kapağının uzun süre açık kalması iç ortamı bozabileceği için, iş genellikle tünelin boş olduğu bir üretim arası penceresine planlanır ve kapak açık kaldığı süre elimizden geldiğince kısa tutulur.",
+            },
+            {
+                baslik: "Hat boyunca vardiya geçişinin iş penceresi",
+                metin:
+                    "Seramik üretim hattı genellikle vardiyalı çalışır ve hattın tamamen durduğu tek an, vardiyalar arasındaki kısa geçiş dilimidir; bu dilim on-on beş dakika kadar kısa olabilir ve bakım işi için tek başına yeterli değildir. Bunun yerine, hattın planlı revizyon veya bakım durakları (genellikle haftalık veya aylık bir program dahilinde) esas alınır; biz iş planımızı bu duraklara göre kurarız, vardiya geçişine göre değil.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üretim hattı bölümüne göre bakım koşulu",
+                paragraflar: [
+                    "Aşağıdaki tablo, seramik üretim hattının farklı bölümlerinde platformun karşılaştığı koşulu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hat bölümü", "Baskın koşul", "Gerekli ara", "Makine notu"],
+                    satirlar: [
+                        ["Tünel fırın üstü", "Kalıntı ısı", "Tam soğuma veya revizyon durağı", "Isıya dayanıklı hazırlık"],
+                        ["Sırlama kabini üstü", "Sır kalıntısı, dar tavan", "Kabin durağı", "Kompakt gövde"],
+                        ["Presleme toz toplama", "İnce toz, tehlike", "Pres durağı + bekleme", "Standart erişim"],
+                        ["Kurutma tüneli üstü", "Nem-sıcaklık hassasiyeti", "Tünel boşken", "Hızlı iş, kısa kapak açıklığı"],
+                        ["Vardiya geçiş dilimi", "Çok kısa süre", "Yetersiz — kullanılmaz", "Revizyon durağı esas"],
+                    ],
+                },
+            },
+            {
+                baslik: "Fırının soğuma süresini planın parçası hâline getirmek",
+                paragraflar: [
+                    "Tünel fırınların soğuması, fırının boyutuna ve son çalışma sıcaklığına göre değişir ve bu süre, bakım işinin başlangıç saatini doğrudan belirler; erken girip yüzeye dokunmak hem operatör güvenliği hem malzeme açısından risklidir. Bu yüzden fırın bakımı planlarken ilk sorduğumuz şey, fırının ne zaman söndürüldüğü ve bize verilecek çalışma penceresinin ne zaman başlayacağıdır.",
+                    "Bu bilgi netleştiğinde, işi fırının soğuma eğrisine göre kurarız — örneğin baca üstü işleri daha geç, alt kısımdaki işleri daha erken sıraya alarak toplam bekleme süresini en aza indiririz. Bu sıralama, aynı revizyon durağı içinde iki-üç kalemi art arda bitirmemizi mümkün kılar.",
+                ],
+            },
+            {
+                baslik: "Sır kalıntısının bakım aralığına etkisi",
+                paragraflar: [
+                    "Sırlama kabini ve çevresindeki kanal sisteminde biriken sır kalıntısı, standart bir toz veya kir birikiminden farklı davranır — zamanla sertleşir ve mekanik olarak temizlenmesi gerekir. Bu nedenle sırlama hattı üstü işlerde bakım aralığını, tesisin kendi üretim hacmine göre (yüksek hacimli hatlarda daha sık) ayarlamasını öneririz; sabit bir takvim yerine kalıntı birikim hızına göre kurulan bir program, uzun vadede daha az acil çağrı doğurur.",
+                    "Bu önerimizi ilk keşifte, kabin içindeki mevcut kalıntı durumunu görerek somutlaştırırız; tesisin kendi bakım kayıtlarıyla birleştiğinde gerçekçi bir aralık ortaya çıkar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tünel fırının üstünde çalışmak için fırının tamamen soğumasını mı beklemeniz gerekiyor?",
+                cevap:
+                    "Çoğu zaman evet, en azından yüzeyin dokunulabilir bir sıcaklığa inmesini bekleriz; kalıntı ısı hem operatör güvenliği hem malzeme açısından risklidir. Bazı işlerde (örneğin baca gövdesinin dış yüzeyi) tam soğuma gerekmeyebilir ama bu, fırının o anki durumuna ve iş tipine göre keşifte değerlendirilir. Fırının söndürülme zamanını ve planlı revizyon durağınızı önceden bildirirseniz, işi bu pencereye göre kurarız.",
+            },
+            {
+                soru: "Sırlama kabininin filtre bakımı ne sıklıkla yapılmalı?",
+                cevap:
+                    "Sabit bir sayı vermek yerine kabin içindeki sır kalıntı birikim hızına göre bir aralık öneririz; yüksek hacimli hatlarda kalıntı daha hızlı sertleştiği için aralık kısalır. İlk keşifte kabin ve kanal içindeki mevcut durumu görüp tesisinizin kendi üretim temposuyla birleştirerek gerçekçi bir program öneririz. Bu program, sabit takvimden daha az acil çağrıya yol açar çünkü kalıntı sertleşmeden temizlenir.",
+            },
+            {
+                soru: "Pres çalışırken toz toplama sisteminde acil bir arıza çıkarsa ne yapıyorsunuz?",
+                cevap:
+                    "Öncelik presin güvenli şekilde durdurulmasıdır; toz toplama sistemi arızalıyken pres çalışmaya devam ederse hem iş güvenliği hem üretim kalitesi riske girer. Pres durduktan ve toz çökeldikten sonra makineyi yönlendiririz; bekleme süresi kısa olsa da atlanmaz. Acil çağrılarda arızanın türünü ve presin o anki durumunu net belirtirseniz, en yakın uygun makineyi hızlı yönlendiririz.",
+            },
+            {
+                soru: "Kurutma tünelinin kapağını açık tutma süremiz sınırlı mı?",
+                cevap:
+                    "Evet, mümkün olduğunca kısa tutulmalı çünkü tünelin iç nem-sıcaklık dengesi bozulursa üründe çatlak riski oluşur. Bu yüzden tünel üstü işlerde önceden hazırlık yapıp kapağı açtığımız andan itibaren işi hızlıca bitirmeyi hedefleriz; gerekli parça ve ekipman işe başlamadan hazır bulundurulur. Tünelin boş olduğu bir üretim arası varsa, iş bu pencereye planlanarak kapak açıklığı süresi daha da kısaltılabilir.",
+            },
+            {
+                soru: "Vardiya geçiş dilimini bakım için kullanabilir misiniz?",
+                cevap:
+                    "Genellikle hayır; vardiya geçişi on-on beş dakika gibi çok kısa bir dilimdir ve platform kurulumu, hedefe erişim ve iş bitirme için yeterli değildir. Bunun yerine hattın planlı revizyon veya bakım durağını (haftalık ya da aylık program dahilindeki daha uzun duruş) esas alırız. Tesisinizin revizyon takvimini önceden paylaşırsanız, işi bu durağa göre planlarız.",
+            },
+            {
+                soru: "Hat üstü işlerde operatörünüz üretim sürecine dair eğitim alıyor mu?",
+                cevap:
+                    "Operatörlerimiz genel makine yeterliliğine sahiptir ve fırın-sırlama-presleme gibi bölümlere özgü riskleri (kalıntı ısı, sır kalıntısı, ince toz) keşif ve iş öncesi brifingle öğrenir; bu bilgi, tesisin kendi vardiya sorumlusuyla birlikte iş başında da teyit edilir. Tesisinize özgü bir güvenlik prosedürünüz varsa (örneğin fırın çevresinde belirli bir bekleme mesafesi), bunu bize önceden iletmeniz yeterli; operatörümüz sahada buna uyar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Seramik üretiminde tünel fırın, sırlama kabini, kuru presleme ve kurutma tüneli aşamalarının genel işleyişi kamuya açık teknik bilgidir; tesis adı ve rakam kullanılmamıştır. Revizyon durağına göre planlama ve kalıntı birikimine göre bakım aralığı firma pratiğidir.",
+    },
+
+    "bolge:altintas": {
+        h1: "Altıntaş'ta Merkezden Sevkiyatlı Seramik Tesisi Bakım Planlaması",
+        giris:
+            "Altıntaş, Kütahya merkezine yakın bir ilçe olduğu için buradaki seramik ve çini üretim tesislerinin bakım işleri, çoğunlukla merkezdeki filomuzun günlük sevkiyat rotasına eklenerek yürütülür. Bu, Altıntaş'taki bir tesisin ayrı bir uzak bölge sevkiyatı gibi değil, merkez içi bir iş gibi planlanabildiği anlamına gelir; mesafe kısa olduğu için makine aynı gün içinde merkezdeki bir işten çıkıp Altıntaş'taki bir işe geçebilir. Bu sayfa, bu yakınlığın Altıntaş'taki seramik tesisleri için pratikte ne anlama geldiğini ve iş planının nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Merkez-Altıntaş hattının aynı gün kapasitesi",
+                metin:
+                    "Altıntaş'ın merkeze olan yakınlığı, makinenin bir günde iki ayrı tesise hizmet verebilmesini mümkün kılar; sabah merkezdeki bir seramik fabrikasında başlayan bir iş, öğleden sonra Altıntaş'taki bir tesise geçebilir. Bu, tekil bir uzak bölge sevkiyatına göre hem daha hızlı hem daha ekonomik bir model kurar çünkü nakliye süresi saatler değil dakikalar mertebesindedir.",
+            },
+            {
+                baslik: "Küçük ölçekli üretim tesislerinde fırın-sırlama bakımı",
+                metin:
+                    "Altıntaş'taki seramik üretim tesisleri, merkezdeki büyük fabrikalara göre genellikle daha kompakt bir hat kurar; fırın ve sırlama bölümü aynı hol içinde daha yakın konumlanabilir. Bu kompakt yapı, bakım işini basitleştirir çünkü makinenin bir bölümden diğerine geçişi kısa mesafede olur; ancak dar geçitler ve düşük tavan yüksekliği de bu kompaktlıkla birlikte gelir, bu yüzden makine sınıfı seçimi genellikle küçük ve manevra kabiliyeti yüksek sınıflara kayar.",
+            },
+            {
+                baslik: "Merkeze giden ürün sevkiyatıyla koordinasyon",
+                metin:
+                    "Altıntaş'ta üretilen yarı mamul veya mamul ürünler, zaman zaman merkezdeki daha büyük bir tesise nihai işlem için sevk edilir; bu ürün sevkiyat hattı, bizim bakım sevkiyatımızla aynı güzergâhı paylaşır. Bu örtüşme sayesinde, Altıntaş'taki bir tesisin bakım talebini merkeze giden bir ürün sevkiyat gününe denk getirmek, ilave bir planlama katmanı gerektirmeden mümkün olur.",
+            },
+            {
+                baslik: "İlçe merkezindeki küçük atölyelerin erişim ihtiyacı",
+                metin:
+                    "Altıntaş ilçe merkezinde, büyük üretim tesislerinin dışında küçük ölçekli çini işleme veya perakende satış noktasına bağlı küçük atölyeler de bulunur; bu atölyelerin bakım ihtiyacı (aydınlatma, tabela, cephe) büyük tesislerden farklı, daha küçük ölçekli bir taleptir. Bu tip işler, merkez-Altıntaş hattındaki büyük tesis işiyle aynı güne denk getirildiğinde nakliye maliyeti paylaşılır.",
+            },
+            {
+                baslik: "Acil çağrılarda kısa müdahale süresi",
+                metin:
+                    "Altıntaş'ın merkeze yakınlığı, acil bir arıza çağrısında müdahale süresini kısaltan doğrudan bir avantajdır; merkezdeki makine bulunurluğuna bağlı olarak genellikle aynı gün içinde bir makine yönlendirilebilir. Bu, uzak ilçelere göre belirgin bir fark yaratır ve Altıntaş'taki tesisler için acil bakım planlamasını daha esnek kılar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Altıntaş'ta iş tipi ve sevkiyat modeli",
+                paragraflar: [
+                    "Aşağıdaki tablo, Altıntaş'taki iş tiplerinin merkez hattına göre nasıl planlandığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Ölçek", "Sevkiyat modeli", "Not"],
+                    satirlar: [
+                        ["Seramik üretim tesisi (fırın-sırlama)", "Kompakt", "Aynı gün, merkez turu içi", "Kısa geçit, küçük sınıf"],
+                        ["Merkeze ürün sevkiyatı örtüşmesi", "—", "Ürün hattıyla eşleşme", "İlave planlama gerekmez"],
+                        ["İlçe merkezi küçük atölye", "Küçük", "Tur içi ek kalem", "Büyük tesis işiyle birleşir"],
+                        ["Acil arıza", "—", "Aynı gün müdahale", "Merkez yakınlığı avantajı"],
+                        ["Tekil özel iş", "Büyük ölçekli", "Bağımsız planlama", "Standart"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı günde iki tesise hizmet vermenin sınırı",
+                paragraflar: [
+                    "Merkez-Altıntaş hattının aynı gün kapasitesi sınırsız değildir; makinenin bir tesisteki işi ne kadar sürerse, ikinci tesise ayrılabilecek zaman o kadar kısalır. Bu yüzden aynı gün iki tesise hizmet planlarken, her iki işin de kapsamını (kalem sayısı, tahmini süre) önceden netleştiririz; kapsam net değilse, ilk iş uzayıp ikinci işi geciktirebilir.",
+                    "Bu netleştirme genellikle kısa bir telefon görüşmesiyle yapılır — her iki tesisten de iş listesini alıp toplam süreyi tahmin eder, gerekirse günü ikiye bölmek yerine ayrı günlere yayarız.",
+                ],
+            },
+            {
+                baslik: "Kompakt hat yapısında makine seçiminin önemi",
+                paragraflar: [
+                    "Altıntaş'taki kompakt üretim hatlarında yanlış makine sınıfı seçimi, sahada geri gönderme ve gecikmeye yol açabilir; dar geçit veya düşük tavan bilgisi eksik geldiğinde bu risk artar. Bu yüzden keşifte veya telefonda, hattın geçit genişliği ve tavan yüksekliği hakkında en azından yaklaşık bir bilgi almayı isteriz — kesin ölçü olmasa bile bu, doğru sınıfı önceden daraltmamıza yardımcı olur.",
+                    "Fotoğraf paylaşımı, bu bilgiyi netleştirmenin en hızlı yoludur; hattın genel görünümünü gösteren birkaç fotoğraf, sahaya gelmeden makine kararını büyük ölçüde kesinleştirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Altıntaş'taki tesisimiz için ayrı bir sevkiyat mı düzenleniyor, yoksa merkez turuna mı ekleniyor?",
+                cevap:
+                    "Genellikle merkez turuna eklenir çünkü Altıntaş'ın merkeze yakınlığı, makinenin aynı gün içinde iki tesise hizmet vermesini mümkün kılar. Bu, hem daha hızlı hem daha ekonomik bir çözümdür. İşinizin büyüklüğüne göre bazen tek başına bir gün de ayrılabilir; bu, iş kapsamını netleştirdikten sonra karara bağlanır.",
+            },
+            {
+                soru: "Fırın hattımızın çevresi dar, standart makine sığar mı?",
+                cevap:
+                    "Altıntaş'taki tesislerin çoğunda hat kompakt olduğu için küçük ve manevra kabiliyeti yüksek makine sınıfları tercih edilir; standart büyük sınıflar bu tip dar geçitlerde zorlanabilir. Kesin uygunluk, geçit genişliği ve tavan yüksekliği bilgisiyle netleşir. Fotoğraf paylaşırsanız sahaya gelmeden doğru sınıfı büyük ölçüde belirleyebiliriz.",
+            },
+            {
+                soru: "Ürün sevkiyatımızla bakım işini aynı güne getirebilir miyiz?",
+                cevap:
+                    "Getirebiliriz; Altıntaş'tan merkeze giden ürün sevkiyat hattı bizim bakım sevkiyatımızla aynı güzergâhı paylaştığı için bu örtüşme ilave bir planlama katmanı gerektirmez. Ürün sevkiyat tarihinizi bize önceden bildirirseniz, bakım işini o güne veya bir gün öncesine-sonrasına yerleştirmeye çalışırız.",
+            },
+            {
+                soru: "İlçe merkezindeki küçük atölyemiz için de hizmet alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz. Büyük üretim tesisi işiyle aynı güne denk getirildiğinde nakliye maliyeti paylaşılır ve bu, küçük atölye bütçesine daha uygun bir maliyet çıkarır. Talebinizi ilettiğinizde, o hafta Altıntaş'ta başka bir iş olup olmadığını kontrol edip size uygun bir tarih öneririz.",
+            },
+            {
+                soru: "Acil bir arızamız var, ne kadar sürede müdahale edersiniz?",
+                cevap:
+                    "Altıntaş'ın merkeze yakınlığı sayesinde genellikle aynı gün içinde bir makine yönlendirebiliriz; kesin süre merkezdeki o anki makine bulunurluğuna bağlıdır. Arızanın türünü ve tesisinizin konumunu ilk çağrıda net verirseniz, en yakın uygun makineyi belirleyip size gerçekçi bir süre bildiririz.",
+            },
+            {
+                soru: "Aynı gün merkezde başka bir iş varsa, bizim işimiz gecikir mi?",
+                cevap:
+                    "Gecikebilir, bu yüzden aynı gün iki tesise hizmet planlarken her iki işin kapsamını önceden netleştiririz. İş listenizi ve tahmini kalem sayısını paylaşırsanız, toplam süreyi tahmin edip günü buna göre kurarız; kapsam belirsizse ve iki iş sığmayacaksa, işinizi ayrı bir güne yerleştirmeyi öneririz. Bu netleştirme, sahada gecikme yaşamamanın en pratik yoludur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Altıntaş'ın Kütahya merkezine yakın konumu ve ilçedeki seramik üretim faaliyeti kamuya açık bölgesel bilgidir; tesis adı ve rakam kullanılmamıştır. Aynı gün tur birleştirme ve ürün sevkiyat örtüşmesi firma pratiğidir.",
+    },
+
+    "bolge:kutahya-osb": {
+        h1: "Kütahya OSB'de Seramik ve Çini Üretim Hattının Fırın-Sırlama-Presleme Bölümleri",
+        giris:
+            "Kütahya OSB'nin seramik ve çini üreticileri arasında dolaşırken, bakım açısından en çok tartışılan alan genellikle depo veya ofis değil, üretim hattının kendisidir — hammaddenin preslendiği bölüm, ürünün sırlandığı kabin ve son olarak fırınlandığı tünel. Bu üç bölüm, aynı çatı altında olsa da birbirinden çok farklı bakım koşulu taşır: biri toz, biri kimyasal buhar, biri kalıntı ısı ile uğraşır. Bu sayfa, OSB'deki seramik-çini üretim hattının bu üç bölümünü tek tek ele alır ve her birinde platformun nasıl kullanıldığını, hattın çalışma temposunu bozmadan anlatır; OSB'nin depo-lojistik tarafı veya küçük işletmelerin paylaşımlı kiralaması bu sayfanın konusu değildir.",
+        maddeler: [
+            {
+                baslik: "OSB'deki fırın hattının revizyon durağına göre planlanması",
+                metin:
+                    "OSB içindeki orta-büyük ölçekli seramik üreticilerinde tünel fırın, günün büyük bölümünde kesintisiz çalışır ve bakım işi ancak fırının planlı revizyon durağında yapılabilir; bu durak genellikle önceden belirlenmiş bir program dahilindedir ve tesis yönetimi tarafından haftalar öncesinden bilinir. Bizim işimiz, bu durağı bilip iş planımızı ona göre kurmaktır — durak günü geldiğinde makine ve operatör hazır bulunur, fırının soğuma süresine göre işe başlanır.",
+            },
+            {
+                baslik: "Sırlama kabininin OSB ölçeğindeki emiş sistemi",
+                metin:
+                    "OSB'deki büyük ölçekli sırlama hatlarında emiş sistemi, küçük atölyelere göre çok daha kapsamlı bir kanal ağına sahiptir ve bu ağ genellikle hol tavanının büyük bir kısmına yayılır. Kanal bakımı ve filtre değişimi, hattın hangi bölümünün o an aktif olduğuna göre parça parça yapılır — tüm hattı aynı anda durdurmak yerine, bir bölümün emiş sistemi bakımdayken diğer bölüm çalışmaya devam eder. Bu, OSB ölçeğindeki hatların küçük atölyelere göre bakım sırasında üretimi daha az kesintiye uğratmasını sağlayan bir avantajdır.",
+            },
+            {
+                baslik: "Presleme bölümünde OSB ölçeğinde toz toplama kapasitesi",
+                metin:
+                    "OSB'deki büyük presleme hatlarında toz toplama sistemi, tek bir siklon değil birden fazla toplama noktasından oluşan bir ağ olabilir; her toplama noktasının kendi torba veya filtre bakım periyodu vardır ve bunlar genellikle rotasyonlu bir programla, hattı tamamen durdurmadan sırayla bakımdan geçirilir. Bu rotasyon, hangi presin o an bakımda olduğunu ve diğerlerinin çalışmaya devam ettiğini bilmemizi gerektirir; bu bilgi tesis vardiya sorumlusundan iş günü sabahı teyit edilir.",
+            },
+            {
+                baslik: "Hat içi geçiş koridorlarının OSB'ye özgü genişliği",
+                metin:
+                    "OSB'deki üretim holleri, şehir içindeki küçük atölyelere göre genellikle daha geniş plana sahiptir ve pres-kurutma-sırlama-fırın bölümleri arasındaki geçiş koridorları da buna bağlı olarak daha ferahtır. Bu, makinenin bir bölümden diğerine geçişini kolaylaştırır ve aynı iş gününde birden fazla bölümde art arda çalışmayı mümkün kılar; ancak koridorun genişliği bölümden bölüme değişebileceği için, iş öncesi hattın genel planını görmek hâlâ faydalıdır.",
+            },
+            {
+                baslik: "OSB'deki çok bölümlü tesislerde vardiya sorumlusuyla koordinasyon",
+                metin:
+                    "OSB'deki büyük seramik tesislerinde üretim hattı vardiyalı çalıştığı için, bakım işinin hangi anda hangi bölümde yapılabileceği bilgisi genellikle tek bir kişide değil, vardiya sorumlusunda ve bölüm ustabaşılarında dağılmış olarak bulunur. İş gününe girmeden önce bu koordinasyonu netleştirmek — hangi bölüm ne zaman durur, hangi bölüm sürekli çalışır — sahadaki bekleme süresini büyük ölçüde azaltır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB ölçeğinde üretim hattı bölümü ve bakım rejimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, OSB'deki büyük ölçekli seramik-çini üretim hattının bölümlerine göre bakım rejimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hat bölümü", "OSB ölçeğinde özellik", "Bakım rejimi", "Makine notu"],
+                    satirlar: [
+                        ["Tünel fırın", "Kesintisiz uzun hat", "Planlı revizyon durağı", "Isıya dayanıklı hazırlık"],
+                        ["Sırlama kabini + kanal ağı", "Geniş, çok bölümlü emiş sistemi", "Bölüm bazlı, rotasyonlu", "Kompakt, kanal erişimli"],
+                        ["Presleme + toz toplama", "Çoklu toplama noktası", "Rotasyonlu, hat sürerken", "Standart erişim"],
+                        ["Bölümler arası koridor", "Geniş plan", "—", "Aynı günde çoklu bölüm"],
+                        ["Vardiya koordinasyonu", "Çok kişili bilgi kaynağı", "İş öncesi teyit", "—"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rotasyonlu bakımın hattı durdurmadan işlemesi",
+                paragraflar: [
+                    "OSB ölçeğindeki büyük hatlarda bakımı tüm hattı durdurarak yapmak hem tesise hem bize maliyetlidir; bu yüzden mümkün olduğunda rotasyonlu bir yaklaşım tercih ederiz — hattın bir bölümü bakımdayken diğer bölümler üretime devam eder. Bu yaklaşımın çalışması için tesisin bize hangi bölümün ne zaman 'bakıma uygun' olduğunu (örneğin o bölümün stok tamponunun dolu olduğu, kısa süreli durmanın üretimi etkilemeyeceği bir an) bildirmesi gerekir.",
+                    "Bu bilgi paylaşıldığında, biz de makine ve operatörü bu rotasyona göre bölümden bölüme kaydırarak, toplam iş süresini hem kısaltır hem tesisin üretim kaybını en aza indiririz.",
+                ],
+            },
+            {
+                baslik: "Büyük hatlarda ekipman hazırlığının önceden yapılması",
+                paragraflar: [
+                    "OSB'deki büyük seramik tesislerinde fırın revizyon durağı gibi kısıtlı zaman pencereleri söz konusu olduğunda, ekipman ve parça hazırlığını iş gününden önce tamamlamak kritik önem taşır; durak başladığında makine ve operatör sahada hazır beklemeli, gerekli malzeme elde bulunmalıdır. Bu hazırlık, revizyon durağının kısıtlı süresini bakım işine değil bekleme veya malzeme tedarikine harcamamak için yapılır.",
+                    "Bu yüzden büyük ölçekli hat işlerinde, iş kapsamını (kaç kalem, hangi malzeme gerekiyor) mümkün olduğunca erken netleştirmenizi öneririz; bu netleştirme, revizyon durağı geldiğinde işin ilk dakikadan itibaren ilerlemesini sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'deki fırın hattımızın revizyon durağı ne zaman olacağını bilmiyoruz, siz nasıl planlıyorsunuz?",
+                cevap:
+                    "Bu bilgiyi genellikle tesis yönetiminden veya bakım sorumlusundan alırız; siz de bu tarihi netleştirdiğinizde bize erken bildirirseniz, iş planımızı buna göre kurarız. Revizyon durağı tarihi kesinleşmeden randevu vermeyiz çünkü fırın çalışırken üstünde iş yapılamaz. Tarih netleştiğinde, durak başlar başlamaz makine ve operatörün sahada hazır olması için hazırlığı önceden tamamlarız.",
+            },
+            {
+                soru: "Sırlama kanal ağımız çok geniş, tüm hattı aynı anda mı temizliyorsunuz?",
+                cevap:
+                    "Genellikle hayır; OSB ölçeğindeki geniş kanal ağlarında rotasyonlu bir yaklaşım tercih ederiz — hattın bir bölümü bakımdayken diğer bölümler çalışmaya devam eder. Bu, tüm hattı aynı anda durdurmaktan daha az üretim kaybı yaratır. Hangi bölümün ne zaman bakıma uygun olduğunu tesis vardiya sorumlunuzla birlikte netleştirir, iş planını buna göre kurarız.",
+            },
+            {
+                soru: "Presleme hattımızda birden fazla toz toplama noktası var, hepsini tek seferde mi bakımdan geçiriyorsunuz?",
+                cevap:
+                    "Hayır, genellikle rotasyonlu bir programla sırayla bakımdan geçiririz; bu sayede diğer presler çalışmaya devam eder. Hangi presin o an bakımda olduğu ve diğerlerinin durumu, iş günü sabahı vardiya sorumlunuzla teyit edilir. Bu rotasyon, hattın toplam üretim kaybını en aza indirmek için kurulur; kapsamlı bir toz toplama ağınız varsa, iş öncesi bu ağın haritasını görmek bize yardımcı olur.",
+            },
+            {
+                soru: "OSB'deki hattımızda aynı gün birden fazla bölümde çalışabilir misiniz?",
+                cevap:
+                    "Çalışabiliriz; OSB'deki üretim holleri genellikle geniş planlı olduğu için pres-kurutma-sırlama-fırın bölümleri arasındaki geçiş koridorları ferahtır ve makine aynı gün içinde birden fazla bölüme geçebilir. Hangi bölümlerin o gün müsait olduğunu (hangisi çalışıyor, hangisi bakıma uygun) önceden netleştirirsek, günü buna göre sıralı bir plana bağlarız.",
+            },
+            {
+                soru: "Vardiya sorumlusu ile ustabaşılar arasında bilgi tutarsız olursa ne oluyor?",
+                cevap:
+                    "Bu durumda sahada bekleme süresi uzayabilir, bu yüzden iş gününe girmeden önce koordinasyonu netleştirmeye özellikle önem veririz — hangi bölüm ne zaman durur, hangi bölüm sürekli çalışır bilgisini tek bir kaynaktan (genellikle vardiya sorumlusu) teyit ederiz. Tesisinizde bu bilginin kimde toplandığını bize önceden belirtirseniz, iletişimi doğrudan o kişiyle kurarız ve sahadaki belirsizliği azaltırız.",
+            },
+            {
+                soru: "Fırın revizyon durağı beklenenden kısa sürerse işimiz yarım mı kalır?",
+                cevap:
+                    "Bu riski azaltmak için ekipman ve parça hazırlığını iş gününden önce tamamlarız, böylece durak başladığı andan itibaren zaman bekleme veya tedarikte kaybolmaz. Yine de durak beklenenden kısa sürerse, önceliği en kritik kalemlere veririz ve kalan işleri bir sonraki revizyon durağına veya ayrı bir kısa pencereye planlarız; bu senaryo keşifte konuşulur ve önceliklendirme sizinle birlikte belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. OSB ölçeğindeki seramik-çini üretim hatlarının genel işleyişi (tünel fırın, sırlama emiş sistemi, presleme toz toplama) kamuya açık teknik bilgidir; tesis adı ve rakam kullanılmamıştır. Rotasyonlu bakım ve revizyon durağı planlaması firma pratiğidir.",
+    },
 };

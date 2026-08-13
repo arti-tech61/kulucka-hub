@@ -614,4 +614,299 @@ export const KUTAHYAPLATFORM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Uşak OSB'de boyama-apre tesislerinin buhar/kojenerasyon kullanımı ve basınçlı kap mevzuatının işletme sorumluluğunda olduğu bilgisi kamuya açık genel sanayi bilgisidir; işletme adı, kapasite ve rakam kullanılmamıştır. Kazan dairesi önceliklendirmesi ve santral tecrübesi transferi firma pratiğidir.",
     },
+
+    "bolge:tuncbilek-termik-santral-bolgesi": {
+        h1: "Tunçbilek Termik Santral Bölgesinde Bakım Disiplini ve Platform Kiralama",
+        giris:
+            "Tunçbilek, Tavşanlı'nın linyit-termik santral kuşağının en eski yerleşimlerinden biridir; buradaki santral çevresinde onlarca yıldır süregelen bir işletme kültürü vardır ve bu kültür, sahaya giren her dış ekip için belirli bir bakım disiplinini önceden şart koşar. Kardeş sayfamız 'bolge:tavsanli' ilçenin genel linyit-termik profilini anlatırken, bu sayfa doğrudan Tunçbilek santral çevresindeki sahaya odaklanır: kömür tozunun her yüzeye çöktüğü bir atmosferde ekipman seçimi, iş izni prosedürü ve zamanlama, standart bir sanayi holünden çok farklı bir mantıkla ilerler. Buradaki iş, tek seferlik bir bakım çağrısı değil, santralin kendi işletme takvimine sıkı sıkıya bağlı bir disiplindir.",
+        maddeler: [
+            {
+                baslik: "Kömür tozu atmosferinde ekipman seçimi",
+                metin:
+                    "Tunçbilek santral sahasında havadaki kömür tozu yoğunluğu, özellikle kömür stok sahası ve nakil bant hatları çevresinde yüksektir; bu ortamda çalışacak platform, filtre ve elektrik bağlantı noktaları toz sızdırmazlığı açısından değerlendirilir. Dizel motorlu makineler, açık havadaki geniş sahalarda tercih edilse de, kapalı türbin binası veya kontrol odası yakınında akülü sınıfa geçilir; bu geçiş kararı sahaya girmeden önce santral yetkilisiyle netleştirilir.",
+            },
+            {
+                baslik: "Santral iş izni prosedürünün zamanlamaya etkisi",
+                metin:
+                    "Santral sahasına giren her ekip, tesisin kendi iş güvenliği biriminden çalışma izni almak zorundadır; bu izin süreci genellikle bir-iki günlük bir öncül hazırlık ister — sahaya giriş kartı, iş tanımı formu, risk değerlendirmesi. Bu prosedürü bilmeyen bir dış ekip, sahaya vardığında beklenmedik bir gecikmeyle karşılaşabilir; biz Tunçbilek'teki işleri planlarken bu izin süresini takvime baştan dahil ederiz, böylece müşteriye verdiğimiz tarih gerçekçi kalır.",
+            },
+            {
+                baslik: "Soğutma kulesi ve baca çevresinde erişim",
+                metin:
+                    "Santralin soğutma kuleleri ve baca gövdesi çevresindeki bakım-kontrol işleri, yükseklik ve sıcak yüzeye yakınlık nedeniyle özel bir dikkat gerektirir; bu bölgelerde çalışma daima santralin kendi duruş veya düşük yük penceresine denk getirilir, tam kapasite çalışan bir üniteye bitişik alanda platformla iş yapılmaz. Sepet konumu ve erişim yönü, baca çevresindeki rüzgâr ve sıcak hava akımı göz önünde bulundurularak seçilir.",
+            },
+            {
+                baslik: "Kömür nakil bant hattı çevresinde güvenli mesafe",
+                metin:
+                    "Kömürü stok sahasından kazan dairesine taşıyan bant hatları, santral sahasının en uzun ve en sürekli hareket eden ekipman grubudur; bu hatların üstünde veya çok yakınında çalışma, bandın durdurulduğu kısa bakım pencerelerine sıkıştırılır. Bandın tamamen durdurulamadığı durumlarda, platform bant hattından güvenli mesafede konumlandırılır ve çalışma alanı fiziksel bariyerle santral ekibi tarafından işaretlenir.",
+            },
+            {
+                baslik: "Uzun süreli sahada operatör ve santral ekibi koordinasyonu",
+                metin:
+                    "Tunçbilek gibi kapsamlı bir santral sahasında birkaç günü bulan bir bakım işi, tek bir operatörün kararıyla değil, santralin kendi vardiya amiriyle sürekli koordinasyonla ilerler; her gün sahaya giriş öncesi kısa bir brifing yapılır ve o günün özel riskleri (örneğin planlı bir bant durdurması veya yük değişimi) operatöre aktarılır. Bu günlük koordinasyon, sahadaki değişken koşullara karşı en pratik güvenlik önlemidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tunçbilek santral sahasında bölge tipine göre çalışma kuralı",
+                paragraflar: [
+                    "Aşağıdaki tablo, santral sahasının farklı bölgelerinde geçerli olan baskın kısıtı ve zamanlama mantığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha bölgesi", "Baskın kısıt", "Zamanlama", "Makine notu"],
+                    satirlar: [
+                        ["Kömür stok sahası", "Toz yoğunluğu", "Rüzgâr durumuna göre", "Filtre kontrolü sıklaştırılır"],
+                        ["Nakil bant hattı", "Hareketli ekipman", "Bant durdurma penceresi", "Güvenli mesafe/bariyer"],
+                        ["Soğutma kulesi/baca", "Yükseklik, sıcak hava", "Duruş/düşük yük", "Rüzgâr yönü değerlendirilir"],
+                        ["Kazan dairesi çevresi", "Sıcaklık, basınç", "Planlı duruş", "Isıl koruma donanımı"],
+                        ["İdari-kontrol binası", "Standart", "Esnek", "Akülü, toz sızdırmaz"],
+                    ],
+                },
+            },
+            {
+                baslik: "İzin süreci neden takvimin bir parçası olmalı",
+                paragraflar: [
+                    "Santral sahasına özgü iş izni prosedürünü göz ardı ederek verilen bir teslimat tarihi, sahaya varıldığında bozulmaya mahkûmdur; bu yüzden Tunçbilek'teki her iş için izin başvurusunu, sahaya asıl giriş tarihinden en az bir-iki gün önce başlatırız. Bu, müşteriye verdiğimiz tarihin gerçek bir taahhüt olmasını sağlar — sahada beklenmedik bir izin gecikmesiyle karşılaşma riski önceden elenmiş olur.",
+                    "İzin süreci santralin kendi yoğunluğuna göre bazen uzayabilir; böyle bir durumda güncellemeyi anında müşteriye iletiriz, sürpriz bir gecikme yaşatmayız.",
+                ],
+            },
+            {
+                baslik: "Kömür tozunun makine bakımına yansıması",
+                paragraflar: [
+                    "Tunçbilek sahasında birkaç gün çalışan bir makine, standart bir sanayi holündeki aynı süreye göre belirgin şekilde daha fazla toz maruziyeti alır; bu, iş sonrası temizlik ve filtre kontrolünü zorunlu bir adım hâline getirir. Uzun süreli işlerde makinenin günlük temizliğini sahada, kısa bir rutin olarak uygularız — bu, ertesi gün performansını korur ve iş bitiminde makinenin bir sonraki işe hazır dönmesini sağlar.",
+                    "Bu ek bakım adımı maliyete önceden yansıtılır; sahadan çıkışta sürpriz bir ek ücretle karşılaşılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tunçbilek santral sahasına girmek için hangi belgeler gerekiyor?",
+                cevap:
+                    "Santralin kendi iş güvenliği biriminin talep ettiği giriş kartı başvurusu, iş tanımı formu ve genellikle bir risk değerlendirmesi gerekir; bu belgeler santral tarafından istenir, biz kendi ekipmanımız ve operatör belgelerimizle bu sürece destek veririz. Süreç genellikle bir-iki gün sürer; bu süreyi işin teslimat tarihine baştan dahil ederiz ki sahaya vardığınızda beklenmedik bir gecikme yaşamayasınız.",
+            },
+            {
+                soru: "Kömür stok sahasında toz yoğunluğu makineye zarar verir mi?",
+                cevap:
+                    "Uzun süreli maruziyet, filtre ve elektrik bağlantı noktalarında birikime yol açabilir; bu yüzden stok sahası çevresinde çalışan makinelerde günlük temizlik ve filtre kontrolünü rutin hâline getiririz. Rüzgârın toz yoğunluğunu artırdığı günlerde çalışma saatini veya konumunu santral yetkilisiyle birlikte yeniden değerlendiririz; bu, hem makinenin hem operatörün korunması içindir.",
+            },
+            {
+                soru: "Bant hattı çalışırken yakınında iş yapabilir misiniz?",
+                cevap:
+                    "Bandın tamamen durdurulamadığı durumlarda, platform banttan güvenli mesafede konumlandırılır ve çalışma alanı fiziksel bariyerle işaretlenir; bandın doğrudan üstünde veya çok yakınında çalışma ise bandın durdurulduğu kısa bakım pencerelerine sıkıştırılır. Bu pencereler santralin kendi programına bağlıdır ve genellikle önceden bildirilir; biz de işimizi bu pencereye göre planlarız.",
+            },
+            {
+                soru: "Soğutma kulesi çevresindeki işi santral tam kapasitedeyken yapabilir miyiz?",
+                cevap:
+                    "Genellikle hayır; bu bölgedeki çalışma daima santralin duruş veya düşük yük penceresine denk getirilir çünkü sıcak hava akımı ve yükseklik birlikte önemli bir risk oluşturur. Santralin planlı duruş takvimini bildiğinizde bize önceden haber verirseniz, işi bu pencereye yerleştirir ve gereksiz bekleme süresini en aza indiririz.",
+            },
+            {
+                soru: "Birkaç günlük bir işte her gün aynı izinle mi giriyorsunuz?",
+                cevap:
+                    "Giriş kartı genellikle işin süresi için bir kez alınır ama her gün sahaya girmeden önce kısa bir brifing yapılır; bu brifingde o günün özel riskleri (planlı bir bant durdurması, yük değişimi gibi) operatöre aktarılır. Bu günlük koordinasyon, santral vardiya amiriyle sürekli iletişim hâlinde kalmamızı ve sahadaki değişken koşullara hızlı uyum sağlamamızı mümkün kılar.",
+            },
+            {
+                soru: "Tunçbilek'teki işiniz kardeş sayfanızdaki genel Tavşanlı anlatımından nasıl farklı?",
+                cevap:
+                    "Genel Tavşanlı sayfamız ilçenin linyit ocağı ve termik santral profilini bütün olarak anlatırken, bu sayfa doğrudan Tunçbilek santral sahasının kendi iş izni prosedürünü, bölge bazlı çalışma kısıtlarını ve toz-bant hattı gibi somut saha koşullarını ele alır. Genel bir Tavşanlı işiniz varsa kardeş sayfamızdan devam edebilirsiniz; doğrudan Tunçbilek santral sahasında planlı bir işiniz varsa bu sayfadaki bilgiler sahaya özgüdür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Tunçbilek'in Tavşanlı linyit-termik santral kuşağındaki köklü santral yerleşimi olduğu kamuya açık bölgesel bilgidir; işletme/tesis adı ve rakam kullanılmamıştır. İzin süreci takvimlemesi, bölge bazlı çalışma kısıtları ve günlük koordinasyon firma pratiğidir.",
+    },
+
+    "bolge:seyitomer-termik-santral-bolgesi": {
+        h1: "Seyitömer Termik Santral Bölgesinde Duruş Dönemi Bakım Planlaması",
+        giris:
+            "Seyitömer, Tavşanlı havzasının diğer büyük termik santral yerleşimidir ve Tunçbilek'ten farklı olarak bu sayfanın ekseni günlük saha koşulları değil, santralin periyodik duruş (bakım durdurması) dönemleridir. Bir termik santral ünitesi, belirli aralıklarla planlı bakım için tamamen veya kısmen devre dışı bırakılır; bu duruş penceresi, normalde erişilemeyen ekipmanın (kazan iç yüzeyi, baca gövdesi, türbin çevresi) kontrol ve bakımı için tek fırsattır ve bu yüzden kısa sürede yoğun bir iş listesi ortaya çıkar. Bu sayfa, Seyitömer'deki duruş dönemlerinde platform talebinin nasıl yoğunlaştığını ve bu yoğunluğun önceden nasıl planlanması gerektiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Duruş döneminin santral takvimindeki yeri",
+                metin:
+                    "Termik santral üniteleri, üretimi sürdürebilmek için belirli aralıklarla planlı duruşa alınır; bu duruş tarihleri santral tarafından aylar öncesinden belirlenir çünkü hem içeride hem dışarıda çok sayıda ekip ve kaynağın koordine edilmesi gerekir. Duruş tarihi kesinleştiğinde, santral çevresinde hizmet veren bizim gibi tedarikçilere de erken haber verilmesi, hazırlık için kritik zaman kazandırır.",
+            },
+            {
+                baslik: "Duruş penceresinde erişilebilir hâle gelen alanlar",
+                metin:
+                    "Ünite tam kapasite çalışırken kazan iç yüzeyi, baca gövdesinin üst kesimleri ve türbin salonu çevresindeki bazı noktalar sıcaklık veya hareketli ekipman nedeniyle erişilemez; duruş döneminde bu alanlar soğur ve durur, bu da platform erişimine açılır. Bu kısa pencere içinde, normalde aylarca bekleyen kontrol ve bakım kalemleri bir arada sıkışır — bu yüzden duruş dönemi, santral çevresindeki en yoğun platform talebi dönemidir.",
+            },
+            {
+                baslik: "Kısa sürede yoğun talep ve makine planlaması",
+                metin:
+                    "Duruş dönemi genellikle birkaç haftayla sınırlıdır ve bu süre içinde santral kendi ekipleri dışında birden fazla dış tedarikçiyle eşzamanlı çalışır; bu, platform talebinin de aynı kısa pencereye yığılması anlamına gelir. Bu yoğunluğu karşılamak için, duruş tarihi netleştiği anda hangi makine sınıfından kaç adet gerekeceğini önceden planlarız ve gerekirse filomuzun ilgili sınıfını bu döneme rezerve ederiz.",
+            },
+            {
+                baslik: "Duruş dışı dönemde sınırlı ve öncelikli erişim",
+                metin:
+                    "Ünite çalışır durumdayken santral çevresinde platform ihtiyacı devam eder ama bu, duruş dönemine göre çok daha sınırlı ve nokta bazlı bir taleptir — idari bina bakımı, dış çevre aydınlatması, stok sahası işleri gibi üretimi doğrudan etkilemeyen kalemler. Bu dönemki işler, duruş dönemindeki yoğun programın dışında kaldığı için daha esnek bir tarihle planlanabilir.",
+            },
+            {
+                baslik: "Erken bildirimin duruş döneminde kazandırdığı avantaj",
+                metin:
+                    "Duruş tarihi kesinleştiğinde bize ne kadar erken haber verilirse, o dönem için makine ve operatör ayırma şansımız o kadar yüksek olur; son dakika gelen bir talep, o dönemde tüm filo zaten diğer duruş işlerine ayrılmış olabileceği için karşılanamayabilir veya beklemeli olabilir. Bu yüzden Seyitömer çevresinde düzenli çalışan işletmelere, santralin bir sonraki duruş tarihini öğrendikleri anda bizimle paylaşmalarını öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Duruş dönemi ile normal işletme döneminin karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, Seyitömer santral çevresinde duruş dönemi ile normal işletme dönemi arasındaki platform talebi farkını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Erişilebilir alan", "Talep yoğunluğu", "Planlama süresi"],
+                    satirlar: [
+                        ["Planlı duruş", "Kazan içi, baca, türbin çevresi", "Çok yüksek, kısa pencere", "Aylar öncesinden"],
+                        ["Normal işletme", "İdari, çevre, stok sahası", "Düşük-orta, dağınık", "Günler-haftalar öncesinden"],
+                        ["Acil arıza (duruş dışı)", "Değişken", "Anlık, öngörülemez", "Aynı gün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Duruş tarihini öğrenir öğrenmez atılacak ilk adım",
+                paragraflar: [
+                    "Seyitömer çevresinde bakım-onarım hizmeti veren işletmelerin çoğu, santralin duruş tarihini kendi resmi kanallarından veya santralle olan iş ilişkisinden öğrenir; bu bilgiye ulaştığınız anda bizimle paylaşmanız, o dönem için makine rezervasyonu yapmamızın ilk adımıdır. Rezervasyon kesin bir sözleşme anlamına gelmez, ama o döneme dair niyet beyanınızı bilmemiz, filomuzu planlarken sizi öncelikli listeye almamızı sağlar.",
+                    "Duruş tarihi yaklaştıkça (genellikle son bir-iki ay içinde) iş kapsamınızı netleştirdiğinizde, kesin makine sayısı ve süre üzerinden bağlayıcı bir program kurarız.",
+                ],
+            },
+            {
+                baslik: "Duruş sonrası ilk hafta yoğunluğu",
+                paragraflar: [
+                    "Duruş dönemi bittiğinde bile, santral çevresinde bir miktar tamamlanmamış iş veya son kontrol kalemi kalabilir; bu, duruş sonrası ilk haftada da bir miktar platform talebinin devam etmesine yol açar. Bu geçiş haftasını da planımıza dahil ederiz — duruş döneminin resmi bitiş tarihinden hemen sonra makinelerimizi tamamen başka bir bölgeye çekmek yerine, kısa bir geçiş süresi için sahada tutarız.",
+                    "Bu yaklaşım, duruş programının son anda uzaması veya bir kalemin ertelenmesi gibi durumlarda esneklik sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Seyitömer'de duruş döneminin ne zaman olacağını nasıl öğreniyorsunuz?",
+                cevap:
+                    "Duruş tarihini biz kendimiz belirlemeyiz; bu bilgi santralin kendi işletme takviminden gelir ve genellikle santralle doğrudan iş ilişkisi olan işletmeler bu tarihi bize aktarır. Sizin de santralle bağlantınız varsa ve duruş tarihini öğrendiyseniz, bunu bize en erken şekilde iletmeniz, o dönem için makine planlamamızı doğrudan kolaylaştırır.",
+            },
+            {
+                soru: "Duruş döneminde talep bu kadar yoğunsa, son dakika başvursak makine bulabilir miyiz?",
+                cevap:
+                    "Bulma ihtimali düşer çünkü duruş dönemi kısa bir pencerede yoğunlaşır ve filomuzun ilgili sınıfı genellikle önceden rezerve edilmiş olur. Yine de son dakika bir ihtiyaç doğarsa müsaitlik durumumuzu kontrol eder, mümkünse alternatif bir makine sınıfıyla çözüm sunarız; ama en gerçekçi yaklaşım, duruş tarihini öğrenir öğrenmez bizimle iletişime geçmenizdir.",
+            },
+            {
+                soru: "Duruş dışı dönemde santral çevresinde acil bir işimiz olursa ne kadar sürede gelirsiniz?",
+                cevap:
+                    "Normal işletme döneminde talep yoğunluğu duruş dönemine göre çok daha düşük olduğu için acil çağrılara genellikle daha hızlı yanıt verebiliriz; bu dönemde filomuzun büyük kısmı başka bölgesel işlere dağılmış olsa da bölgesel önceliklendirmeyle en yakın uygun makineyi yönlendiririz. Kesin süre, o anki bölgesel makine dağılımına bağlıdır.",
+            },
+            {
+                soru: "Kazan içi bakım için hangi makine sınıfı kullanılıyor?",
+                cevap:
+                    "Kazan içi ve dar geçitli alanlarda genellikle kompakt eklemli sınıf tercih edilir çünkü bu sınıf dar açıklıklardan geçebilir ve karmaşık erişim noktalarına ulaşabilir; kesin sınıf, santralin kendi mühendislik ekibiyle birlikte, erişilecek noktanın konumu ve geçit ölçüleri üzerinden belirlenir. Bu belirleme genellikle duruş tarihinden haftalar önce, ön keşif aşamasında yapılır.",
+            },
+            {
+                soru: "Duruş programı beklenenden uzarsa makineniz sahada kalabilir mi?",
+                cevap:
+                    "Mümkün olduğunca evet; duruş döneminin resmi bitişinden sonra da kısa bir geçiş süresi için makinelerimizi sahada tutarız, çünkü programın son anda uzaması santral projelerinde sık karşılaşılan bir durumdur. Uzama süresi belirli bir noktayı aşarsa, bu durumda güncel müsaitlik durumumuza göre yeniden değerlendirme yaparız; bu ihtimali baştan açıkça konuşuruz.",
+            },
+            {
+                soru: "Tunçbilek'teki kardeş sayfanızla bu sayfa arasındaki fark ne?",
+                cevap:
+                    "Tunçbilek sayfamız santral sahasının günlük çalışma kısıtlarına (toz, iş izni, bant hattı) odaklanırken, bu sayfa Seyitömer'in periyodik duruş dönemlerine ve bu dönemlerdeki talep yoğunluğunun nasıl planlanması gerektiğine odaklanır. İki santral de aynı Tavşanlı havzasında olsa da, bu sayfadaki konu zamanlama ve kapasite planlamasıdır, saha bazlı günlük kısıtlar değil.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Seyitömer'in Tavşanlı havzasındaki termik santral yerleşimi olduğu ve termik santrallerin periyodik planlı duruşa alındığı kamuya açık genel enerji sektörü bilgisidir; işletme/tesis adı ve rakam kullanılmamıştır. Rezervasyon mantığı ve geçiş haftası uygulaması firma pratiğidir.",
+    },
+
+    "bolge:tavsanli-osb": {
+        h1: "Tavşanlı OSB'de Maden Yan Sanayi İşletmelerine Platform Kiralama",
+        giris:
+            "Tavşanlı'nın kendi organize sanayi bölgesi, ilçenin linyit ocağı ve termik santral ekonomisine doğrudan bağlı bir yan sanayi kümesi barındırır — santral ve ocak işletmelerine yedek parça üreten atölyeler, bakım-onarım firmaları, nakliye ve lojistik işletmeleri. Kardeş sayfamız 'bolge:kutahya' merkezdeki benzer yan sanayiyi anlatırken, bu sayfa doğrudan Tavşanlı OSB içindeki parsel yapısına, ortak altyapıya ve OSB'ye özgü organizasyona odaklanır; buradaki işletmeler merkezdekinden farklı olarak birbirine fiziksel olarak çok yakın, aynı OSB altyapısını paylaşan bir küme oluşturur.",
+        maddeler: [
+            {
+                baslik: "Maden yan sanayisinin OSB içindeki yoğunlaşması",
+                metin:
+                    "Tavşanlı OSB'deki parsellerin önemli bir kısmı, doğrudan veya dolaylı olarak linyit ocağı ve termik santral ekonomisine hizmet eder — kaynak-montaj atölyeleri, hidrolik parça bakım servisleri, konveyör bant onarım işletmeleri. Bu yoğunlaşma, OSB'nin genel bakım talebini de santral-ocak sektörünün kendi yoğunluk döngüsüne bağımlı kılar; santral tarafında bir duruş dönemi yaşanırken OSB'deki yan sanayi işletmelerinde de iş hacmi artar.",
+            },
+            {
+                baslik: "OSB altyapısında parsel arası kısa mesafe avantajı",
+                metin:
+                    "Tavşanlı OSB'nin iç yol ağı, diğer OSB'lerde olduğu gibi parseller arası mesafeyi kısa tutar; bu, makinenin bir parselden diğerine kendi gücüyle geçebilmesi anlamına gelir. Aynı hafta içinde OSB'deki iki-üç komşu işletmenin benzer bir ihtiyacı varsa, bu yakınlık nakliye maliyetinin paylaşılmasını kolaylaştırır — özellikle maden yan sanayisindeki küçük-orta ölçekli atölyelerin bütçesi için bu paylaşım belirgin bir fark yaratır.",
+            },
+            {
+                baslik: "Ağır parça ve ekipman atölyelerinde zemin ve yük taşıma",
+                metin:
+                    "Konveyör bandı, hidrolik silindir veya ağır maden ekipmanı parçalarıyla çalışan atölyelerin zemini genellikle güçlendirilmiş beton olsa da, atölye içinde büyük ve ağır parçaların bulunduğu alanlar daralmış geçit yaratabilir; bu durumda makine sınıfı, geçit genişliği ve parça çevresindeki manevra alanına göre seçilir. Kaynak atölyelerinde ayrıca kıvılcım ve duman tahliyesi için havalandırma bakımı da sık talep edilen bir kalemdir.",
+            },
+            {
+                baslik: "Santral duruş döneminin OSB'ye yansıması",
+                metin:
+                    "Seyitömer veya Tunçbilek'te bir planlı duruş dönemi başladığında, OSB'deki yedek parça ve bakım atölyelerinde de üretim ve onarım hacmi artar; bu dönemde atölyelerin kendi bina bakımı (çatı, aydınlatma, havalandırma) genellikle ertelenir çünkü öncelik santrale giden parça teslimatındadır. Bu yoğun dönem geçtikten sonra, ertelenen bakım kalemleri toplu hâlde talep edilir — biz bu döngüyü bildiğimiz için, duruş sonrası dönemde OSB'ye ekstra makine kapasitesi ayırırız.",
+            },
+            {
+                baslik: "OSB dışı standart işletmelerle karşılaştırma",
+                metin:
+                    "Tavşanlı OSB'deki işletmelerin bakım ihtiyacı, ilçe merkezindeki dağınık küçük işletmelere göre daha öngörülebilir bir düzen içindedir çünkü OSB'nin kendi yönetim yapısı ortak duyuru ve koordinasyon imkânı sunar. Bu, OSB'deki işletmelerin merkez dışındaki benzerlerine göre paylaşımlı kiralamadan daha kolay faydalanmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tavşanlı OSB'de işletme tipine göre platform ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki tablo, OSB'deki maden yan sanayi işletme tiplerinde tipik platform kullanımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme tipi", "Tipik kalem", "Zemin/geçit notu", "Zamanlama"],
+                    satirlar: [
+                        ["Kaynak-montaj atölyesi", "Havalandırma, çatı", "Kıvılcım tahliyesi", "Duruş dışı dönem"],
+                        ["Hidrolik parça servisi", "İç mekân aydınlatma", "Dar geçit, kompakt sınıf", "Esnek"],
+                        ["Konveyör bant onarım", "Depo çatısı", "Ağır parça manevra alanı", "Duruş sonrası yoğun"],
+                        ["Nakliye-lojistik ofis", "Cephe, tabela", "Standart", "Esnek"],
+                        ["OSB idari bina", "Standart bakım", "Standart", "Esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Duruş döngüsünü bilerek OSB'ye kapasite ayırma",
+                paragraflar: [
+                    "Tavşanlı OSB'deki maden yan sanayisinin iş yoğunluğu, santralin kendi duruş takvimiyle doğrudan ilişkili olduğu için, biz de OSB'ye ayırdığımız makine kapasitesini bu döngüye göre planlarız. Santral tarafında bir duruş döneminin yaklaştığını öğrendiğimizde, OSB'deki bilinen müşterilerimize bu bilgiyi paylaşır, ertelenmiş bakım kalemlerini duruş öncesi veya sonrası uygun bir pencereye yerleştirmelerini öneririz.",
+                    "Bu proaktif yaklaşım, OSB işletmelerinin kendi yoğun döneminde bakım telaşı yaşamasını önler ve bizim de kapasite planlamamızı kolaylaştırır.",
+                ],
+            },
+            {
+                baslik: "OSB içi komşuluk ile paylaşımlı kiralamanın kurulması",
+                paragraflar: [
+                    "OSB'deki işletmeler arasında paylaşımlı kiralama kurmak için resmi bir aracı kuruma her zaman ihtiyaç yoktur; OSB yönetimi veya sanayici dernekleri üzerinden bir duyuru yapılabilir, ya da komşu işletmeler doğrudan birbiriyle iletişime geçebilir. Biz bu süreçte teknik tarafı üstleniriz — en verimli güzergâhı ve makine sınıfını, katılan işletmelerin ihtiyaçlarına göre belirleriz.",
+                    "İlk kez bu modeli deneyen işletmelere, önce tek bir komşuyla küçük bir pilot birleştirme önererek başlamalarını tavsiye ederiz; sonuç memnun edici olduğunda, daha geniş bir OSB içi koordinasyona genişletmek kolaylaşır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tavşanlı OSB'deki atölyemiz maden sektörüne parça üretiyor, bakım işimizde öncelik alır mıyız?",
+                cevap:
+                    "Santral duruş dönemleri gibi bilinen yoğunluk pencerelerinde, maden yan sanayisine parça-hizmet sağlayan atölyelerin bina bakımını duruş öncesi veya sonrası uygun bir pencereye taşımanızı öneririz; bu şekilde kendi üretim yoğunluğunuzla bakım işiniz çakışmaz. Doğrudan bir 'öncelik sırası' garantisi vermesek de, üretim yoğunluğunuzu bize bildirdiğinizde planı buna göre kurarız.",
+            },
+            {
+                soru: "OSB'deki komşu atölyeyle aynı hafta kiralama yapmak istiyoruz, nasıl başlarız?",
+                cevap:
+                    "İkiniz de ihtiyacınızı bize ayrı ayrı bildirebilir veya birlikte tek bir talep olarak iletebilirsiniz; biz iki işi aynı haftaya, mümkünse art arda güne yerleştirir, nakliye maliyetini paylaştırırız. Her işletme kendi kullanımı için ayrı fatura alır, yalnızca nakliye payı bölüşülür. Bu süreç için resmi bir OSB onayına ihtiyaç yoktur.",
+            },
+            {
+                soru: "Kaynak atölyemizde kıvılcım riski var, hangi ekipmanla geliyorsunuz?",
+                cevap:
+                    "Kıvılcım ve kaynak dumanı riski taşıyan atölyelerde, mümkün olduğunda çalışmayı üretim molası veya vardiya dışı saatlere planlarız; kullanılacak ekipman, atölyenizin kendi yangın güvenlik prosedürüne göre değerlendirilir. Havalandırma bakımı gibi işlerde toz ve duman birikimini keşifte gözlemleyip buna göre bir çalışma planı öneririz.",
+            },
+            {
+                soru: "Santralde duruş dönemi başladığında OSB'deki işimiz gecikir mi?",
+                cevap:
+                    "Duruş döneminde öncelik genellikle santral sahasındaki işlere kayar, bu da OSB'deki standart bakım işlerinin bir miktar gecikebileceği anlamına gelebilir; bu yüzden OSB müşterilerimize duruş tarihini öğrenir öğrenmez bakım kalemlerini duruş öncesi veya sonrasına kaydırmalarını öneririz. Gerçekten acil bir OSB işi varsa, duruş döneminde bile mümkün olan en hızlı çözümü ararız.",
+            },
+            {
+                soru: "Hidrolik parça atölyemizin tavanı alçak, hangi makine sınıfı öneriyorsunuz?",
+                cevap:
+                    "Alçak tavanlı ve dar geçitli atölyelerde kompakt akülü makaslı sınıf genellikle en uygun seçimdir; egzozsuz çalışması kapalı mekânda ek bir avantajdır. Kesin uygunluk, atölyenizin tavan yüksekliği ve geçit genişliği bilgisiyle netleşir; bu ölçüleri paylaştığınızda size uygun sınıfı önceden bildiririz.",
+            },
+            {
+                soru: "OSB'deki idari binamızın standart bakımı için özel bir kısıt var mı?",
+                cevap:
+                    "Hayır, idari ve ofis yapılarındaki bakım standart bir bina bakımı gibi ele alınır ve OSB'nin maden yan sanayisine özgü risklerinden (toz, kıvılcım, ağır parça) bağımsızdır. Bu işlerde tarih esnekliği yüksektir; uygun bir tarihi bize bildirdiğinizde kolayca planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Tavşanlı OSB'nin ilçenin linyit-termik santral ekonomisine bağlı yan sanayi işletmeleri barındırdığı kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Duruş döngüsüne göre kapasite ayırma ve OSB içi paylaşımlı kiralama modeli firma pratiğidir.",
+    },
 };

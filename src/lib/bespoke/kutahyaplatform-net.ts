@@ -522,4 +522,200 @@ export const KUTAHYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Afyon'un Kütahya'ya komşu bir il olduğu ve bölgenin mermer sanayisiyle bilindiği kamuya açık coğrafi bilgidir; çevre il talep birleştirme ve dönemsel tur modeli firma pratiğidir.",
     },
+
+    "bolge:gediz-osb": {
+        h1: "Gediz OSB'de Küçük Üretim Tesisleri İçin Bütçeli Kiralama Modeli",
+        giris:
+            "Gediz OSB, ilçe merkezine göre daha küçük ölçekli ama kendi içinde yine de bir parsel düzeni ve ortak altyapı barındıran bir organize sanayi bölgesidir; buradaki üretim tesislerinin çoğu, ilçenin kendi ölçeğine uygun şekilde küçük-orta boyuttadır. Kardeş sayfamız 'bolge:gediz' ilçenin merkeze uzaklığından doğan genel mesafe maliyetini anlatırken, bu sayfa doğrudan OSB içindeki üretim tesislerinin kendine özgü durumuna odaklanır: OSB'nin kompakt parsel yapısı, mesafe dezavantajını bir miktar azaltsa da, OSB'nin kendisi merkeze uzak olduğu için birleştirme ihtiyacı burada da geçerliliğini korur — üstelik OSB içindeki tesis sayısı, ilçe merkezindeki dağınık işletmelere göre daha azdır, bu da birleştirme fırsatını bulmayı bazen daha zor kılar.",
+        maddeler: [
+            {
+                baslik: "OSB'nin küçük ölçeğinin birleştirmeye etkisi",
+                metin:
+                    "Gediz OSB'deki parsel sayısı, büyük şehirlerin OSB'lerine göre sınırlıdır; bu, aynı hafta içinde birden fazla tesisin benzer bir platform ihtiyacı doğurma ihtimalini de sınırlar. Büyük bir OSB'de haftalık birkaç talep bir araya gelebilirken, Gediz OSB'de bu birleşme daha uzun bir bekleme süresi (örneğin iki-üç hafta) gerektirebilir; bu gerçeği baştan açıkça söyleriz, boş bir beklenti yaratmayız.",
+            },
+            {
+                baslik: "OSB içi parsel yakınlığının yine de sağladığı avantaj",
+                metin:
+                    "OSB'nin küçük ölçeği birleştirme fırsatını sınırlasa da, parseller arası kısa mesafe kendi başına bir avantaj kalır: bir kez birleştirilmiş bir sefer kurulduğunda, OSB içindeki iki-üç tesis arasında makinenin kendi gücüyle geçmesi neredeyse maliyetsizdir. Bu yüzden Gediz OSB'deki tesislere, ihtiyaçlarını ne kadar erken bildirirlerse birleştirme ihtimalinin o kadar arttığını özellikle vurgularız.",
+            },
+            {
+                baslik: "Küçük üretim tesisinde tipik erişim ihtiyacı",
+                metin:
+                    "OSB'deki küçük üretim tesislerinin platform ihtiyacı genellikle iç mekân aydınlatması, havalandırma kanalı bakımı ve düşük-orta yükseklikteki raf sistemi kurulumunda yoğunlaşır; bu tesislerin tavan yüksekliği büyük fabrika holüne göre daha alçak olduğu için kompakt akülü makaslı sınıf çoğu işte yeterli olur. Bu sınıfın günlük kiralama bedeli de büyük dizel sınıfa göre düşüktür, bu da küçük tesis bütçesine ayrıca uyar.",
+            },
+            {
+                baslik: "OSB yönetimi ile erken bildirim düzeni kurma",
+                metin:
+                    "Gediz OSB'nin kendi yönetim yapısı, üye tesisler arasında ortak duyuru yapılmasına imkân tanır; bu kanalı kullanarak platform ihtiyacını toplu duyurmak, sınırlı sayıdaki tesis arasında birleştirme fırsatını yakalama şansını artırır. OSB yönetimiyle bu tür bir düzen henüz kurulmadıysa, biz bu bağlantıyı kurmak isteyen tesislere destek oluruz.",
+            },
+            {
+                baslik: "Acil ihtiyaçta OSB'nin küçük ölçeğinin dezavantajı",
+                metin:
+                    "Sınırlı sayıda tesis barındıran bir OSB'de acil bir ihtiyaç doğduğunda, aynı gün içinde birleştirilebilecek başka bir talebin bulunma ihtimali büyük bir OSB'ye göre daha düşüktür; bu durumda iş genellikle tek başına planlanır ve mesafe maliyeti tam olarak yansır. Bu maliyeti teklif aşamasında açıkça gösteririz, sürpriz bir fatura çıkarmayız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gediz OSB'de senaryoya göre maliyet karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, Gediz OSB'deki bir işin planlama süresine göre maliyet mantığındaki farkı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Nakliye payı", "Beklenen bekleme", "Uygunluk"],
+                    satirlar: [
+                        ["Tek tesis, acil iş", "Tam mesafe bedeli", "Yok, en hızlı planlama", "Kaçınılmaz durumlar"],
+                        ["Tek tesis, planlı iş", "Tam mesafe bedeli", "1-2 hafta", "Alternatif bulunamazsa"],
+                        ["2 tesis, aynı hafta", "Mesafe bedeli bölüşülür", "2-3 hafta", "Orta vadeli ihtiyaç"],
+                        ["OSB geneli dönemsel tur", "En düşük birim maliyet", "3-4 hafta", "Yıllık bakım kalemi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sınırlı tesis sayısıyla birleştirme kurmanın yolu",
+                paragraflar: [
+                    "Gediz OSB'de büyük bir OSB'deki gibi haftalık yoğun bir talep havuzu oluşmadığı için, birleştirme fırsatını yakalamanın en pratik yolu tesislerin yıllık bakım ihtiyacını önceden bize bildirmesidir; kesin tarih olmasa bile 'bu yıl içinde çatı kontrolü yaptıracağız' bilgisi, bizim OSB'deki diğer taleplerle eşleştirme yapmamız için yeterlidir.",
+                    "Bu erken bildirim alışkanlığı yerleştikçe, Gediz OSB için de zamanla daha düzenli bir dönemsel tur takvimi kurmayı hedefliyoruz; şu an bu düzen, Kütahya merkezdeki kadar sık değildir ama talep arttıkça sıklaşabilir.",
+                ],
+            },
+            {
+                baslik: "Küçük tesisin bütçe kararında dikkat etmesi gerekenler",
+                paragraflar: [
+                    "Gediz OSB'deki bir tesis sahibi, bakım kararını genellikle ihtiyaç ortaya çıktığında alır; oysa OSB'nin sınırlı tesis sayısı düşünüldüğünde, erken planlama burada büyük OSB'lere göre daha da belirleyicidir — çünkü birleştirme fırsatı zaten seyrek doğar ve bu fırsatı kaçırmamak için erken bildirim şarttır.",
+                    "İkinci öneri, iş kapsamını net tanımlamaktır; belirsiz bir talep hem doğru makine sınıfını seçmeyi zorlaştırır hem de sahada ek süre kaybına yol açar. Kısa bir keşif görüşmesi bu belirsizliği en ucuz şekilde giderir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gediz OSB'de tek tesisiz, komşu bulma ihtimalimiz düşük mü?",
+                cevap:
+                    "Gediz OSB'nin tesis sayısı büyük şehirlerin OSB'lerine göre sınırlı olduğu için, aynı hafta içinde birleştirilebilecek başka bir talep bulma ihtimali de sınırlıdır; bunu size dürüstçe söylüyoruz. Yine de ihtiyacınızı ne kadar erken bildirirseniz (örneğin birkaç hafta önceden), o kadar geniş bir zaman penceresinde eşleşme arayabiliriz. Erken bildirim, tek başına planlamaya göre her zaman daha avantajlıdır.",
+            },
+            {
+                soru: "OSB içindeki komşu tesisle makine paylaşırsak fatura nasıl bölünüyor?",
+                cevap:
+                    "Her tesis kendi kullandığı süre için ayrı fatura alır; ortak olan yalnızca nakliye maliyetidir ve katılan tesis sayısına göre bölünür. Bu paylaşım işe başlamadan önce her iki tarafa da yazılı olarak bildirilir, belirsizlik kalmaz.",
+            },
+            {
+                soru: "Küçük üretim tesisimizin tavanı alçak, hangi makine sığar?",
+                cevap:
+                    "Çoğu küçük OSB tesisinde kompakt akülü makaslı sınıf rahatlıkla çalışır; düşük tavan yüksekliği ve dar geçitler için tasarlanmıştır, egzoz gazı çıkarmadığı için kapalı alanda da uygundur. Kesin uygunluk, tavan yüksekliği ve geçit genişliğinin keşifte ölçülmesiyle netleşir.",
+            },
+            {
+                soru: "OSB yönetimi henüz toplu duyuru yapmıyor, biz nasıl başlatabiliriz?",
+                cevap:
+                    "OSB yönetimine kısa bir dilekçeyle talebinizi iletebilirsiniz; bizimle de iletişime geçerseniz, teknik tarafı (program, makine sınıfı, maliyet paylaşımı mantığı) hazırlayıp yönetime birlikte sunabiliriz. Sınırlı tesis sayısı nedeniyle bu tür bir organizasyonun kurulması biraz zaman alabilir ama bir kez kurulduğunda kalıcı bir düzene dönüşür.",
+            },
+            {
+                soru: "Acil bir ihtiyacımız var, OSB'de kimse yoksa maliyet nasıl olur?",
+                cevap:
+                    "Acil ve tek başına planlanan işlerde mesafe maliyeti tam olarak yansır çünkü nakliye tek işe yazılır; bu farkı teklif aşamasında açıkça gösteririz. Gerçekten acilse önceliğimiz hızlı çözümdür, sürpriz bir maliyetle karşılaşmamanız için fiyat işe başlamadan netleştirilir.",
+            },
+            {
+                soru: "Gediz OSB için düzenli bir dönemsel tur var mı?",
+                cevap:
+                    "Şu an Kütahya merkezdeki kadar sık ve düzenli bir tur takvimimiz yok çünkü OSB'nin tesis sayısı bunu henüz gerektirmiyor; talep arttıkça bu takvimi sıklaştırmayı hedefliyoruz. Şimdilik en pratik yol, yıllık bakım ihtiyacınızı (kesin tarih olmasa da) bize önceden bildirmenizdir; bu bilgi, OSB'deki diğer taleplerle eşleştirme yapmamız için yeterlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Gediz OSB'nin ilçe ölçeğine uygun küçük-orta boyutlu üretim tesisleri barındıran bir organize sanayi bölgesi olduğu kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Sınırlı tesis sayısına göre birleştirme ve erken bildirim modeli firma pratiğidir.",
+    },
+
+    "bolge:simav": {
+        h1: "Simav'da Jeotermal-Sera İşletmeleri İçin Bütçeli Kiralama Modeli",
+        giris:
+            "Simav, Kütahya'nın diğer üç kardeş dosyasında jeotermal kaynakları, termal turizm işletmeleri ve ahşap-orman ürünleri sanayisiyle anlatılmıştır; bu dosya o sektörel tabloyu tekrar etmez, doğrudan jeotermal ısıtmalı sera işletmeleri ve bunlara komşu küçük termik-sanayi bağlantılı atölyelerin bütçe mantığına odaklanır. Simav'daki jeotermal kaynak yalnızca kaplıca ve enerji üretiminde değil, bölgedeki seraların ısıtılmasında da kullanılır; bu seraların çoğu aile işletmesi ölçeğindedir ve bir platform kiralama kararı, büyük bir termik santral işletmesinin verdiği kararla aynı bütçe mantığıyla ilerlemez. Bu sayfa, Simav'daki küçük jeotermal-sera işletmelerinin bakım ihtiyacını nasıl daha ekonomik hâle getirebileceğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Jeotermal ısıtmalı seraların bakım takvimi",
+                metin:
+                    "Jeotermal kaynakla ısıtılan seraların çatı ve boru hattı bakımı, ısıtma sisteminin en az kullanıldığı yaz aylarına planlandığında hem sera üretimini aksatmaz hem de aynı dönemde ihtiyacı olan başka bir sera işletmesiyle birleştirilme ihtimalini artırır; kış aylarında ise sera aktif ısıtıldığı için bakım işleri yalnızca zorunlu arızalarla sınırlı tutulur.",
+            },
+            {
+                baslik: "Küçük sera işletmesinin bütçe kısıtı",
+                metin:
+                    "Aile işletmesi ölçeğindeki bir seranın yıllık bakım bütçesi, büyük bir jeotermal santral işletmesinin bakım bütçesiyle kıyaslanamayacak kadar küçüktür; bu yüzden tek başına bir kiralama, sera işletmesi için orantısız bir kalem hâline gelebilir. Çözüm, birden fazla küçük sera işletmesinin ihtiyacını aynı yaz döneminde birleştirmek ve nakliye maliyetini paylaşmaktır.",
+            },
+            {
+                baslik: "Jeotermal-termik sanayi bağlantılı küçük atölyeler",
+                metin:
+                    "Simav çevresinde, jeotermal enerji ekipmanına küçük ölçekli bakım-yedek parça desteği veren birkaç atölye de bulunur; bu atölyelerin kendi bina bakımı (çatı, aydınlatma) standart bir sanayi holü profilindedir ama jeotermal sektörünün mevsimsel yoğunluğundan (özellikle kış öncesi hazırlık dönemi) dolaylı olarak etkilenir. Bu atölyelerin bakım işlerini, sektörün en yoğun olmadığı döneme planlamalarını öneririz.",
+            },
+            {
+                baslik: "Sera ve atölye ihtiyacını birlikte değerlendirme",
+                metin:
+                    "Simav'daki bir sera işletmesi ile yakınındaki bir jeotermal yan sanayi atölyesinin bakım ihtiyacı aynı haftaya denk geldiğinde, biz bu iki farklı iş ailesini tek bir sefer içinde birleştirebiliriz; sera ve atölye farklı sektörlerde olsa da coğrafi yakınlık, nakliye paylaşımı için yeterlidir. Bu birleşim, iki işletmenin de mesafe maliyetini önemli ölçüde azaltır.",
+            },
+            {
+                baslik: "Erken bildirimin küçük işletme bütçesine katkısı",
+                metin:
+                    "Simav gibi merkeze uzak bir ilçede küçük ölçekli bir işletmenin bakım ihtiyacını son ana bırakması, mesafe maliyetini tam olarak ödemesi anlamına gelir; oysa yaz dönemi bakım planını kışın başında bize bildirmek, bizim o dönemde bölgedeki diğer taleplerle eşleştirme yapmamız için yeterli süre tanır ve maliyet avantajının kapısını açar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Simav'da işletme ölçeğine göre kiralama senaryosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, Simav'daki küçük ölçekli jeotermal-sera ve yan sanayi işletmelerinde kiralama senaryosuna göre maliyet mantığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "İşletme profili", "Nakliye payı", "Uygun dönem"],
+                    satirlar: [
+                        ["Tek sera, acil arıza", "Aile işletmesi", "Tam mesafe bedeli", "Kış, kaçınılmaz durumlar"],
+                        ["2-3 sera, birlikte", "Aile işletmesi kümesi", "Paylaşılır", "Yaz, ısıtma dışı sezon"],
+                        ["Sera + yan sanayi atölyesi", "Karma iş ailesi", "Paylaşılır", "Sektör dışı dönem"],
+                        ["Tek atölye, planlı", "Küçük-orta atölye", "Tam mesafe bedeli", "Alternatif yoksa"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yaz dönemi sera bakım programı nasıl kurulur",
+                paragraflar: [
+                    "Simav çevresindeki sera işletmelerinden yaz dönemi bakım talebi topladığımızda, önce ilgilenen işletmeleri bir listeye ekler, yeterli sayıya ulaştığında (genellikle iki-üç işletme) en verimli güzergâhı belirleyip bir tarih öneririz. Bu süreç, kışın başında başladığında yaza kadar rahatça olgunlaşır; son ana bırakılan bir talep ise genellikle tek başına planlanmak zorunda kalır.",
+                    "Sera işletmelerine, ısıtma sistemini kapattıkları anda bakım ihtiyaçlarını not almalarını ve yaz başında bize iletmelerini öneririz; bu basit alışkanlık, birleştirme fırsatını büyük ölçüde artırır.",
+                ],
+            },
+            {
+                baslik: "Küçük işletmenin karar sürecinde gerçekçi beklenti",
+                paragraflar: [
+                    "Simav'daki küçük bir sera veya atölye işletmesi, mesafe nedeniyle Kütahya merkezindeki bir işletmeyle aynı fiyatı beklememelidir; bunu baştan açıkça söyleriz. Ancak bu mesafe dezavantajını tamamen yok edemesek de, doğru zamanlama ve birleştirmeyle önemli ölçüde azaltabiliriz — bu, Simav'daki küçük işletmelere sunduğumuz gerçekçi ve dürüst bir çözüm yaklaşımıdır.",
+                    "İşletme sahibinin bizden beklemesi gereken şey, mesafeyi yok sayan bir vaat değil, mesafeyi yönetilebilir kılan somut bir planlama önerisidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Seramızın ısıtma sistemi kapalıyken bakım yaptırmak istiyoruz, ne zaman bildirmeliyiz?",
+                cevap:
+                    "Isıtma sistemini kapattığınız anda (genellikle yaz başı) bize bildirmenizi öneririz; bu bize, aynı dönemde ihtiyacı olan başka sera işletmeleriyle sizi eşleştirmek için yeterli süre tanır. Ne kadar erken bildirirseniz, birleştirme fırsatını yakalama ihtimaliniz o kadar artar; son ana bırakılan bir talep genellikle tek başına planlanmak zorunda kalır ve mesafe maliyeti tam olarak yansır.",
+            },
+            {
+                soru: "Küçük bir aile işletmesiyiz, büyük bir jeotermal santral işletmesiyle aynı fiyatı mı ödüyoruz?",
+                cevap:
+                    "Hayır, size sunduğumuz model farklıdır; büyük işletmelere uzun süreli sözleşme mantığı uygulanırken, küçük sera ve atölye işletmelerine kısa süreli, paylaşımlı ve iş bazlı faturalama sunulur. Makine kalitesi veya operatör yeterliliğinde bir fark yoktur, fark yalnızca fiyatlandırma mantığındadır.",
+            },
+            {
+                soru: "Jeotermal yan sanayi atölyemizin bina bakımını ne zaman planlamalıyız?",
+                cevap:
+                    "Sektörün en yoğun olduğu kış öncesi hazırlık dönemini bilinçli olarak dışarıda bırakmanızı öneririz; bu dönemde hem sizin üretim yoğunluğunuz artar hem bizim bölgedeki kapasitemiz sektöre yönelir. Bunun dışındaki bir dönemde bildirdiğinizde, hem daha rahat bir tarih hem birleştirme fırsatı bulma ihtimaliniz yükselir.",
+            },
+            {
+                soru: "Seramız ile komşu atölye farklı sektörlerde, yine de aynı seferde birleşebilir miyiz?",
+                cevap:
+                    "Birleşebilirsiniz; birleştirme kararımızda belirleyici olan sektör benzerliği değil coğrafi yakınlıktır. Sera ve jeotermal yan sanayi atölyesi farklı işler yapsa da, aynı bölgede olduğunuz için tek bir sefer içinde ikinize de hizmet verebiliriz; her işletme kendi kullandığı süre için ayrı fatura alır, yalnızca nakliye payı paylaşılır.",
+            },
+            {
+                soru: "Acil bir arızamız var, kışın seraya makine gönderebiliyor musunuz?",
+                cevap:
+                    "Gönderebiliriz; kış aylarında acil bir arıza için tek başına bir sefer planlarız ve mesafe maliyeti bu durumda tam olarak yansır, bunu teklif aşamasında açıkça belirtiriz. Acil durumlarda önceliğimiz hızlı çözümdür; sürpriz bir maliyetle karşılaşmamanız için fiyat işe başlamadan netleştirilir.",
+            },
+            {
+                soru: "Simav için düzenli bir yaz dönemi tur takvimi kurabilir misiniz?",
+                cevap:
+                    "Talep yeterince olgunlaştığında evet; şu an bu takvim, ilgilenen sera ve atölye işletmelerinden gelen bildirimlerin birikmesiyle her yıl yeniden şekilleniyor. Yıl başında (veya ısıtma sezonu kapanır kapanmaz) bize ihtiyacınızı bildirmeniz, bu takvimin sizin için de düzenli bir alışkanlığa dönüşmesini sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Simav'daki jeotermal kaynağın sera ısıtmasında da kullanıldığı ve bölgedeki seraların genellikle aile işletmesi ölçeğinde olduğu kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Sektörler arası birleştirme ve yaz dönemi tur programı firma pratiğidir.",
+    },
 };

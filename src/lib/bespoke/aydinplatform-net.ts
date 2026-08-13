@@ -1006,4 +1006,397 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Denizli'nin tekstil ağırlıklı sanayi kimliği ve Menderes koridoru bağlantısı kamuya açık genel bilgidir; hat günü modeli ve duruş günü ayrımı firma pratiğidir.",
     },
+
+    "bolge:astim-osb": {
+        h1: "ASTİM Organize Sanayi Bölgesi'nde Tesis Bakım Turu ve Yükseğe Erişim",
+        giris:
+            "ASTİM, Aydın'ın il merkezine bağlı ana organize sanayi bölgesi olarak ilin sanayi ağırlığının büyük kısmını tek bir alanda toplar ve bu yoğunlaşma, bir yükseğe erişim ekibi için hem avantaj hem disiplin gerektiren bir çalışma alanı yaratır. Bölgedeki parseller tek bir sektöre değil; tekstil, gıda, plastik, metal işleme, ambalaj ve lojistik gibi birbirinden farklı üretim kollarına ayrılmıştır ve her biri kendi çatı tipini, kendi erişim ihtiyacını ve kendi vardiya düzenini getirir. Bir sabah bir tekstil fabrikasının iç aydınlatmasında, öğleden sonra bitişik parseldeki bir gıda deposunun dış kabuk işinde çalışmak ASTİM'de olağan bir gündür. Bölgenin fiziksel planlaması — geniş ana yollar, düzenli parsel sınırları, standart yükleme rampaları — şehir merkezindeki dar sokaklara kıyasla makineyi konumlamayı belirgin ölçüde kolaylaştırır; asıl zorluk mekân değil, aynı gün içinde farklı fabrikaların farklı giriş kurallarına ve iş izni süreçlerine uyum sağlamaktır. Bu yoğunluk aynı zamanda bir fırsattır: doğru kurulan bir tur programı, aynı gün içinde birbirine yakın birçok parselin küçük kalemlerini tek sevkiyatla kapatabilir.",
+        maddeler: [
+            {
+                baslik: "OSB içi haftalık tur mantığı",
+                metin:
+                    "ASTİM'in parsel yoğunluğu, bölge içinde düzenli bir haftalık tur kurmayı ekonomik hâle getirir. Aynı hafta içinde birikmiş küçük kalemler — bir fabrikada armatür değişimi, komşu parselde tabela bakımı, üç sokak ötede oluk temizliği — coğrafi olarak yakın oldukları için tek güne dizilebilir ve sevkiyat payı bu kalemler arasında bölünür. Bu model özellikle tek başına makine çağırmanın maliyetli kaldığı küçük işletmeler için belirleyicidir; tur gününe yazılan bir kalem, bağımsız çağrılan aynı kalemden belirgin ölçüde ucuza gelir.",
+            },
+            {
+                baslik: "Karma sektör yapısının getirdiği çeşitlilik",
+                metin:
+                    "Bölgedeki tesisler tek tip bir erişim ihtiyacı üretmez. Tekstil parselleri geniş iç mekân ve düşük saçak, gıda tesisleri hijyen kısıtlı çalışma alanı, plastik ve metal işleme fabrikaları ağır vinç ve raf sistemleriyle paylaşılan sınırlı hacim, lojistik depoları ise yüksek saçaklı uzun cepheler ister. Bu çeşitlilik, ASTİM'de sabit bir makine sınıfıyla çalışmayı imkânsız kılar; her parsel için doğru sınıf keşifte belirlenir ve tur programı buna göre araç kombinasyonuyla kurulur.",
+            },
+            {
+                baslik: "OSB altyapısının erişim kolaylığı",
+                metin:
+                    "Organize sanayi bölgesinin planlı yapısı, eski şehir dokusuna kıyasla makineyi konumlamayı büyük ölçüde basitleştirir. Ana yollar geniş, parsel önü alanlar araç manevrasına uygun, yükleme rampaları standart yükseklikte kurulmuştur. Bu, dar sokak hesaplaması ya da park işgali izni gibi şehir içi kısıtların çoğunun burada gündeme gelmemesi demektir. Kolaylaşan tek nokta konumlanma değildir; aynı zamanda farklı parseller arasında geçiş süresi kısaldığı için bir günde ziyaret edilebilecek durak sayısı da artar.",
+            },
+            {
+                baslik: "Fabrika bazlı giriş ve iş izni prosedürü",
+                metin:
+                    "ASTİM içindeki her fabrika kendi giriş kuralını uygular ve bu, tek bir OSB genel iznine indirgenemez. Araç plaka kaydı, ziyaretçi/yüklenici formu, iş güvenliği eğitim belgesi ve bazı parsellerde refakatçi zorunluluğu, girişten önce tamamlanması gereken standart adımlardır. Aynı gün içinde birden fazla parseli dolaşan bir tur programında bu evrak trafiğini önceden hazırlamak, sahada kaybedilecek zamanı doğrudan azaltır. Deneyimimize göre bir tur gününün en sık aksama sebebi makine değil, geç kalan giriş evrakıdır.",
+            },
+            {
+                baslik: "Büyüyen bölgede inşaat-bakım çakışması",
+                metin:
+                    "ASTİM hâlâ yeni parsellerin dolduğu, bazı bölümlerinde inşaatın sürdüğü bir alandır ve bu, mevcut tesislerin bakım işlerini zaman zaman inşaat trafiğiyle aynı güzergâha düşürür. Yeni yapılan komşu parsellerdeki ağır araç trafiği ve malzeme depolama alanları, bazı günlerde erişim güzergâhını daraltabilir. Tur programını kurarken bu bilgiyi güncel tutmak — hangi sokakta inşaat sürdüğünü bilmek — planlanan süreyi gerçekçi kılan küçük ama etkili bir adımdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "ASTİM'de sektöre göre tur yaklaşımı",
+                paragraflar: [
+                    "Bölgedeki parsel tipleri farklı erişim ihtiyacı ürettiği için tur programı sektöre göre şekillenir. Aşağıdaki tablo, keşifte kullandığımız temel eşleştirmeyi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Sektör", "Tipik erişim ihtiyacı", "Tur sıklığı", "Makine yaklaşımı"],
+                    satirlar: [
+                        ["Tekstil / konfeksiyon", "İç mekân, düşük saçak", "Haftalık", "Akülü, dar manevra"],
+                        ["Gıda / ambalaj", "Hijyen kısıtlı iç ve dış", "Haftalık", "Akülü + protokol"],
+                        ["Plastik / metal işleme", "Sınırlı hacim, raf üstü", "İki haftada bir", "Dar gövde eklemli"],
+                        ["Lojistik depo", "Yüksek saçak, uzun cephe", "Aylık", "Yüksek akülü + teleskopik"],
+                        ["İdari / sosyal tesis", "Cephe, tabela, aydınlatma", "İhtiyaca göre", "Karma sınıf"],
+                    ],
+                },
+            },
+            {
+                baslik: "Haftalık turun ekonomisi",
+                paragraflar: [
+                    "ASTİM'de küçük işletmeler için en büyük maliyet kalemi işin kendisi değil, makinenin tek başına çağrılmasıdır. Bir armatür değişimi ya da bir tabela bakımı, kendi başına çağrıldığında sevkiyat payı işin değerine yaklaşabilir; aynı kalem haftalık tur gününe yazıldığında bu pay o günün bütün duraklarına bölünür ve fatura belirgin şekilde küçülür.",
+                    "Bu modelin işlemesi için tek koşul tarih esnekliğidir. Acil olmayan kalemlerini önceden bildiren işletmeler, ilk uygun tur gününe eklenir; parsel numarası ve fabrika adı bilgimizde olduğu için rota otomatik olarak en verimli sırayla kurulur. Sabit tarihli ve acil işlerde de geliriz, o durumda bağımsız sevkiyatın maliyetini baştan açık paylaşırız.",
+                ],
+            },
+            {
+                baslik: "Yeni parsellerde çalışma güzergâhını güncel tutmak",
+                paragraflar: [
+                    "Bölge büyümeye devam ettiği için bugün boş olan bir parsel birkaç ay içinde inşaat alanına, birkaç ay sonra da faal bir fabrikaya dönüşebilir. Bu değişim, tur güzergâhının statik bir harita olmadığı, düzenli güncellenmesi gereken bir çalışma dokümanı olduğu anlamına gelir.",
+                    "Pratikte bu, her tur öncesi güzergâh üzerindeki güncel inşaat noktalarını kontrol etmek ve gerekirse alternatif giriş sırası kurmak demektir. Yeni açılan bir fabrikanın ilk kez tur listesine eklenmesi de aynı şekilde önceden planlanır; ilk ziyarette kısa bir tanışma keşfiyle parselin giriş kuralları ve erişim özellikleri kayda geçirilir, sonraki turlar bu bilgiyle hızlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "ASTİM içindeki fabrikamız için tek seferlik küçük bir iş de yaptırabilir miyiz?",
+                cevap:
+                    "Evet, ama en ekonomik yol tek başına çağırmak değil. ASTİM içinde haftalık tur programımız var; aynı bölgedeki küçük kalemler bu tura yazılıyor ve sevkiyat payı o günün bütün duraklarına bölünüyor. Tarihinizi esnek bırakırsanız ilk uygun tur gününe ekliyoruz ve fiyat farkını baştan gösteriyoruz. Acil ve tarihi sabit işlerde de geliyoruz; o durumda bağımsız sevkiyatın maliyetini açık şekilde paylaşıp kararı size bırakıyoruz.",
+            },
+            {
+                soru: "Fabrikamızın kendi giriş prosedürü var, bu sizin için sorun olur mu?",
+                cevap:
+                    "Hayır, tam tersine bunu bekliyoruz. ASTİM'deki her fabrika kendi giriş kuralını uyguluyor ve biz tur programını kurarken bu kuralları önceden not ediyoruz: araç plaka kaydı, ziyaretçi formu, iş güvenliği belgesi, gerekiyorsa refakatçi talebi. Bu evrakı tur gününden önce tamamlamak bizim standart hazırlığımızın parçası. İlk ziyaretinizde prosedürünüzü bize iletirseniz, sonraki her turda aynı hazırlıkla giriş süremiz kısalıyor.",
+            },
+            {
+                soru: "Gıda tesisimizde hijyen kurallarına uygun çalışabilir misiniz?",
+                cevap:
+                    "Evet, ASTİM içindeki gıda ve ambalaj tesislerinde standart çalışma biçimimiz zaten kalite prosedürüne göre kurulu. Makine giriş öncesi temizlikten geçiyor, personelimiz tesisin giyim ve ekipman kuralına uyuyor, açık ürün hattı üstünde çalışılmıyor. Hangi kalemin hangi saatte yapılabileceğini kalite ekibinizle önceden netleştirdiğimizde program tek seferde doğru çıkıyor ve sahada sürpriz olmuyor.",
+            },
+            {
+                soru: "Bölgede inşaat süren bir sokaktan geçmemiz gerekiyorsa ne olur?",
+                cevap:
+                    "Tur güzergâhını her seferinde güncel tutuyoruz, bu yüzden aktif inşaat alanlarını genelde önceden biliyoruz. Bilmediğimiz bir durumla karşılaşırsak alternatif giriş sırası kurup gecikmeyi en aza indiriyoruz. Fabrikanızın çevresinde bildiğiniz bir çalışma varsa bunu tur öncesi bize bildirmeniz, güzergâhı doğru kurmamıza yardımcı oluyor ve sahada zaman kaybını önlüyor.",
+            },
+            {
+                soru: "Farklı sektörlerden komşu iki fabrika aynı gün hizmet alabilir mi?",
+                cevap:
+                    "Alabilir, ASTİM'in karma sektör yapısı zaten bu şekilde çalışmamızı gerektiriyor. Bir tekstil fabrikasında iç mekân işini bitirip aynı gün komşu parseldeki bir gıda deposunun dış kabuk işine geçmek olağan bir tur akışı. Makine kombinasyonunu iki farklı iş tipine göre önceden kuruyoruz, bu yüzden sektör farkı bir engel değil, tur planlamasının normal bir parçası.",
+            },
+            {
+                soru: "Yeni açılan bir fabrikayız, ASTİM'de düzenli hizmete nasıl başlarız?",
+                cevap:
+                    "İlk adım kısa bir tanışma keşfi: fabrikanızın giriş kuralları, çatı tipi, erişim güzergâhı ve öncelikli kalemleri birlikte kayda geçiriyoruz. Bu bilgi bir kere kayıtlara girdiğinde, sonraki turlarda aynı hazırlığı tekrar sormamıza gerek kalmıyor. Bölgedeki mevcut tur takvimimize göre en yakın uygun günde ilk ziyareti planlıyor, oradan itibaren düzenli tur programına ekliyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. ASTİM'in Aydın'ın ana organize sanayi bölgesi olduğu ve karma sektör yapısı kamuya açık genel bilgidir; tur modeli ve kümeleme yaklaşımı firma pratiğidir.",
+    },
+
+    "bolge:incirliova": {
+        h1: "İncirliova'da Tarım Sanayisi Aksında Tesis Bakımı ve Platform Hizmeti",
+        giris:
+            "İncirliova, adını taşıyan ürünün ilçedeki ağırlığını doğrudan yansıtır: Büyük Menderes ovasının bu kesimi Türkiye'nin en yoğun incir üretim ve işleme bölgelerinden biridir ve ilçe merkezi ile çevresindeki köyler, hasat sonrası kurutma, ayıklama ve paketleme tesisleriyle çevrilidir. Ancak İncirliova'yı tek ürünlü bir ilçe sanmak yanıltıcı olur; Aydın merkez ile Söke arasındaki ana aksta konumlanmış olması, incirin yanına küçük ölçekli gıda işleme atölyelerini, depo yapılarını ve genel sanayi tesislerini de eklemiştir. Bu tesislerin yükseğe erişim ihtiyacı büyük şehir sanayisinden farklı bir karakter taşır: açık kurutma alanları, düşük katlı ama geniş yayılımlı bina stoğu ve hasat döneminde belirgin şekilde daralan bir çalışma penceresi. İlçe merkezinin ana aks üzerindeki konumu, buradaki işleri güzergâh programına dahil etmeyi kolaylaştırır; İncirliova'ya özel bir sefer yerine, aynı hat üzerindeki taleplerle birlikte planlanan bir güzergâh, hem tesis hem bizim için daha verimli çalışır.",
+        maddeler: [
+            {
+                baslik: "İncir kurutma alanlarının açık saha erişimi",
+                metin:
+                    "Geleneksel kurutma sergileri ve modern kurutma tesislerinde yüksek iş genellikle örtü sistemleri, güneşlik kanopiler, aydınlatma direkleri ve çevre güvenlik kameralarıyla sınırlıdır; bu tesislerde bina yüksekliği düşük ama alan yayılımı geniştir. Sahanın açık olması makineyi konumlamayı kolaylaştırır ama toprak zeminin mevsime göre değişen sertliği keşifte mutlaka kontrol edilir; yağış sonrası yumuşayan zeminde tekerlek izi ve batma riski, kuru dönemdekinden farklı bir makine seçimi gerektirir.",
+            },
+            {
+                baslik: "Ayıklama ve paketleme hatlarında iç mekân işleri",
+                metin:
+                    "Kurutulan incirin ayıklandığı, sınıflandırıldığı ve paketlendiği kapalı hatlarda yüksek iş ağırlığı iç mekândadır: aydınlatma armatürleri, havalandırma kanalları, toz toplama noktaları ve hijyen kurallarına tabi çalışma alanları. Bu hatlarda gıda güvenliği protokolü standarttır — makine girişten önce temizlikten geçer, açık ürün üstünde çalışılmaz. Kampanya döneminde hat sürekli çalıştığı için bu tesislerdeki yüksek işlerin büyük kısmı kampanya öncesi ya da vardiya boşluklarına planlanır.",
+            },
+            {
+                baslik: "Küçük ölçekli sanayi ve depo yapılarında karma iş",
+                metin:
+                    "İncirin gölgesinde kalan ama düzenli talep üreten ikinci katman, ilçedeki küçük ölçekli sanayi atölyeleri ve depo yapılarıdır: tamirhaneler, yedek parça depoları, küçük gıda işleme birimleri, tarım aleti bakım atölyeleri. Bu tesislerin çoğu tek katlı ve mütevazı ölçektedir, ancak dağınık konumlanmaları nedeniyle tek tek ziyaret edilmeleri ekonomik değildir. Bu kalemler, güzergâh programına dahil edilerek aynı gün içinde birkaç durakta toplu şekilde kapatılır.",
+            },
+            {
+                baslik: "Ana aks üzerindeki güzergâh avantajı",
+                metin:
+                    "İncirliova, Aydın merkezinden Söke'ye uzanan ana yol üzerinde bulunur ve bu konum, ilçedeki talepleri bağımsız bir sefer yerine geçiş güzergâhının bir parçası olarak planlamayı mümkün kılar. Merkezden Söke yönüne giden ya da dönen bir programda İncirliova'daki kalemler araya eklenir ve bu, sevkiyat maliyetini doğrudan düşürür. İlçedeki tesislerin tarih esnekliği bildirmesi, bu avantajdan en çok faydalanmalarını sağlayan tek koşuldur.",
+            },
+            {
+                baslik: "Hasat sonrası daralan bakım penceresi",
+                metin:
+                    "İncir hasadı ağustos sonundan başlayıp sonbahar boyunca sürer ve bu dönemde kurutma-işleme tesislerinin neredeyse tamamı kapasitesinin tavanında çalışır; bu haftalarda planlı bakım için pencere pratikte kapanır. Asıl uygun dönem kampanya bitiminden bir sonraki hasada kadar olan geniş aralıktır. Bu geniş pencereyi doğru kullanmanın yolu erken planlamadır — bahar aylarında rezervasyon açan bir tesis, hasat başlamadan tüm kalemlerini rahatlıkla kapatabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İncirliova'da tesis tipine göre bakım penceresi",
+                paragraflar: [
+                    "İlçedeki tesis tipleri farklı çalışma alanları ve farklı takvimler üretir. Aşağıdaki tablo, programlama yaparken kullandığımız temel ayrımı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Çalışma alanı", "Yoğun dönem", "Bakım penceresi"],
+                    satirlar: [
+                        ["Açık kurutma sergisi", "Geniş açık saha", "Ağustos – Ekim", "Kış – ilkbahar"],
+                        ["Ayıklama / paketleme hattı", "Kapalı, hijyen kısıtlı", "Kampanya boyu", "Kampanya öncesi"],
+                        ["Küçük sanayi atölyesi", "Tek katlı, dağınık", "Yıl boyu düzenli", "Esnek, güzergâh bağlı"],
+                        ["Depo yapısı", "Orta ölçekli kapalı", "Sevkiyat yoğun aylar", "Sakin haftalar"],
+                    ],
+                },
+            },
+            {
+                baslik: "Açık saha zemininde makine seçimi",
+                paragraflar: [
+                    "Kurutma sergilerinin geniş açık alanları makineyi konumlamayı kolaylaştırsa da zemin her mevsim aynı davranmaz. Yaz aylarında sertleşmiş toprak neredeyse her makine sınıfını taşırken, yağışlı dönemde aynı zemin yumuşar ve tekerlek izi bırakma riski artar; bazı noktalarda ise geçici drenaj oluğu makinenin geçiş güzergâhını değiştirir.",
+                    "Bu yüzden açık saha işlerinde keşif, mevsime duyarlı bir adımdır. Yağış sonrası planlanan bir işte zemin durumu telefonla önceden sorulur, gerekirse yük dağıtım plakası ya da daha hafif tekerlekli bir sınıf tercih edilir. Bu küçük ön kontrol, sahada makinenin saplanması gibi büyük bir gecikmeyi baştan önler.",
+                ],
+            },
+            {
+                baslik: "Kampanya öncesi tek tur, kampanya içi sadece arıza",
+                paragraflar: [
+                    "İncir işleme tesislerinde en verimli yöntem, kampanya başlamadan tüm yüksek kalemleri tek programda toplamaktır: kurutma alanı örtüleri, aydınlatma direkleri, iç mekân armatürleri ve toz toplama hatları aynı ziyarette gözden geçirilir. Bu, kampanya içinde beklenmedik bir aksama riskini büyük ölçüde azaltır.",
+                    "Kampanya başladıktan sonra kalan tek başlık gerçek arıza müdahalesidir ve bu, hattın durmasına en az sebep olacak şekilde, vardiya değişim aralıklarına ya da kısa üretim molalarına sığdırılır. Kampanya döneminde planlı bakım talep etmeyen bir tesis, yüksek işlerin üretimle çakışma riskini tamamen ortadan kaldırmış olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kurutma sergimizin bulunduğu açık alana makine ne zaman gelmeli?",
+                cevap:
+                    "Hasat bitiminden bir sonraki hasada kadar olan geniş pencere içinde, tercihen erken kışta ya da ilkbaharda. Bu dönemde hem tesis boş hem zemin genelde daha kuru oluyor. Yağışlı bir dönemde planlıyorsanız zemin durumunu önceden soruyoruz; gerekirse yük dağıtım plakası kullanıyor ya da daha hafif bir sınıfa geçiyoruz. Örtü sistemi, kanopi ve aydınlatma direklerinin listesini paylaşırsanız tek ziyarette hepsini kapatacak bir program çıkarabiliriz.",
+            },
+            {
+                soru: "Ayıklama hattımız çalışırken iç mekânda iş yapabilir misiniz?",
+                cevap:
+                    "Kısmen; hattın durduğu vardiya boşluklarında ya da bölüm bölüm ilerleyerek evet. Gıda güvenliği protokolüne göre makine girişten önce temizlikten geçiyor ve açık ürün üstünde çalışılmıyor. Hangi bölümün hangi saatte müsait olduğunu kalite ekibinizle önceden netleştirdiğimizde iş, üretimi neredeyse hiç aksatmadan ilerliyor. Kampanya döneminde büyük kalemler için en verimli yol yine kampanya öncesi tek tur.",
+            },
+            {
+                soru: "Küçük atölyemiz için tek başına makine çağırmak pahalı olur mu?",
+                cevap:
+                    "Tek başına çağrıldığında evet, ama İncirliova ana aks üzerinde olduğu için genelde buna gerek kalmıyor. Merkez-Söke hattındaki güzergâh programına atölyenizi ekliyoruz; aynı gün içinde birkaç küçük durak toplanınca sevkiyat payı bölünüyor ve fiyat belirgin ölçüde düşüyor. Tarihinizi esnek bırakırsanız ilk uygun güzergâh gününe yerleştiriyoruz.",
+            },
+            {
+                soru: "Hasat döneminde acil bir arızamız olursa gelebilir misiniz?",
+                cevap:
+                    "Geliriz, ama planlı bakım değil sadece gerçek arıza için ve hattı en az etkileyecek pencerede. Kampanya boyunca tesislerin çoğu kapasitesinin tavanında çalıştığı için bu dönemde yeni planlı iş açmıyoruz. Kampanya öncesi yapılan tek tur, bu tür acil çağrıların büyük kısmını zaten önlüyor; yine de bir arıza çıkarsa vardiya aralıklarını kullanarak en hızlı şekilde müdahale ediyoruz.",
+            },
+            {
+                soru: "Depomuzun bulunduğu köy merkeze biraz uzak, yine de hizmet alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz; İncirliova çevresindeki köy ve mahalleler ana aks güzergâhına yakın olduğu için çoğu zaman ek bir sefer gerekmiyor. Konumunuzu ve yol durumunu keşifte netleştiriyoruz; dar geçiş ya da özel bir erişim kısıtı varsa makine sınıfını buna göre seçiyoruz. Tarihi esnek bırakan taleplerde güzergâh gününe ekleme yapıyoruz, sabit tarihli işlerde ise maliyeti baştan açık paylaşıyoruz.",
+            },
+            {
+                soru: "Yağmurdan sonra sergi alanına makine girer mi, zemine zarar verir mi?",
+                cevap:
+                    "Girer, ama önce zemin durumunu kontrol ediyoruz. Yağış sonrası yumuşayan toprak, standart tekerlekli bir makinede iz bırakma ve batma riski taşıyor; bu durumda yük dağıtım plakası kullanıyor ya da daha hafif bir sınıfa geçiyoruz. Zeminin tam olarak nasıl olduğunu bilmiyorsak, işi bir-iki gün erteleyip kuruması için beklemeyi öneriyoruz — bu, hem sizin sahanız hem bizim makinemiz için daha güvenli bir seçim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İncirliova'nın incir üretim ve işleme ağırlığı ile ana aks üzerindeki konumu kamuya açık genel bilgidir; güzergâh modeli ve zemin değerlendirmesi firma pratiğidir.",
+    },
+
+    "bolge:ortaklar": {
+        h1: "Ortaklar'da Kavşak Konumundan Lojistik Avantajlı Yükseğe Erişim Hizmeti",
+        giris:
+            "Ortaklar, Germencik ilçesine bağlı olsa da Aydın'ın yol haritasında kendi başına bir kavşak noktası olarak öne çıkar: Aydın merkezden gelen ana yol burada Kuşadası sahiline, Söke ovasına ve güneyde Denizli yönüne ayrılır, tarihi demiryolu hattı da bu kesişimden geçer. Bu coğrafi konum bir yerleşim için genelde geçiş noktası olmak anlamına gelir, ama bizim için farklı bir şey ifade eder: Ortaklar, dört ayrı yöne aynı anda yakın olduğu için güzergâh planlamasında doğal bir merkez noktasıdır. Kuşadası'ndaki bir otel işiyle Söke ovasındaki bir tarım tesisi işini aynı gün programlamak istediğimizde, iki nokta arasındaki en kısa hat çoğunlukla Ortaklar üzerinden geçer. Bu, ilçedeki işletmeler için doğrudan bir avantaza dönüşür: Ortaklar'daki bir talep, tek başına bir sefer gerektirmeden, zaten planlanmış bir güzergâhın doğal bir durağı olarak karşılanabilir.",
+        maddeler: [
+            {
+                baslik: "Dört yöne yakınlığın rota ekonomisi",
+                metin:
+                    "Ortaklar'ın konumu, aynı gün içinde farklı bölgelere giden bir programın ortasına düşer. Sabah Kuşadası sahilinde bir otel işini bitirip öğleden sonra Söke ovasındaki bir tesise geçen bir güzergâhta, Ortaklar'daki bir talebi araya eklemek ek mesafe neredeyse gerektirmez. Bu, ilçedeki işletmeler için sevkiyat payının çoğu zaman komşu ilçelerdekinden daha düşük çıkması anlamına gelir; tek koşul, talebin tarih esnekliğiyle bildirilmesidir.",
+            },
+            {
+                baslik: "Germencik ovasının tarım ve küçük sanayi karışımı",
+                metin:
+                    "Ortaklar çevresi, Germencik ovasının tarım ağırlıklı dokusuyla küçük ölçekli sanayi ve ticaret yapılarının iç içe geçtiği bir alandır: tarım ürünleri deposu, küçük paketleme birimleri, yol kenarı ticaret yapıları ve konut üstü işyerleri. Bu karışık doku, tek bir sabit makine sınıfı yerine keşifte belirlenen esnek bir yaklaşım gerektirir; bir depo işinde orta sınıf eklemli makine yeterken, yol kenarındaki bir tabela işinde dar gövdeli kısa kurulumlu bir sınıf tercih edilir.",
+            },
+            {
+                baslik: "Tarihi kavşağın taşıdığı yerleşim dokusu",
+                metin:
+                    "Ortaklar'ın demiryolu geçmişi, yerleşimin eski çekirdeğinde düşük katlı ve birbirine yakın yapılaşmış bir doku bırakmıştır; bu bölümde sokak genişliği sınırlıdır ve makine konumlanması şehir merkezindeki dar sokak mantığına benzer bir dikkat ister. Yerleşimin daha yeni gelişen kesimlerinde ise yol payı daha geniştir ve konumlanma kolaylaşır. Keşifte ilk sorduğumuz bilgi, işin hangi kesimde olduğudur; bu, makine sınıfını doğrudan belirler.",
+            },
+            {
+                baslik: "Çoklu yön avantajının acil çağrılara yansıması",
+                metin:
+                    "Kavşak konumunun en somut faydası acil çağrılarda görülür. Programımızdaki bir araç Kuşadası yönünde bir işi bitirip merkeze dönerken ya da Söke'den gelirken, güzergâhı Ortaklar üzerinden geçiyorsa, ilçedeki acil bir talebe sapmak ek olarak sadece kısa bir ara mesafe gerektirir. Bu, dört yöne eşit uzaklıkta olan bir noktanın sağladığı somut bir esnekliktir ve programın o günkü durumuna göre değişse de, komşu ilçelere kıyasla belirgin bir avantaj sunar.",
+            },
+            {
+                baslik: "Küçük işletmelerin toplu program avantajı",
+                metin:
+                    "Ortaklar'daki işletmelerin çoğu küçük ve orta ölçeklidir, bu da tek başına makine çağırmayı ekonomik olmaktan çıkarır. Ancak kavşak konumu sayesinde bu işletmeler, komşu ilçelere giden güzergâhların doğal bir parçası olarak hizmet alabilir. Bir depo sahibinin birkaç aydır ertelediği tabela bakımı ya da bir yol kenarı işletmesinin cephe onarımı, Kuşadası ya da Söke yönüne giden bir programın arasına kolayca eklenir ve maliyet bu sayede düşük kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ortaklar'dan yönlere göre güzergâh eşleştirmesi",
+                paragraflar: [
+                    "Kavşak konumu, farklı yönlere giden programlarla Ortaklar'daki talepleri birleştirmeyi mümkün kılar. Aşağıdaki tablo, hangi yöndeki bir programın Ortaklar'a en kolay uğrayabileceğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Güzergâh yönü", "Tipik hedef", "Ortaklar'a sapma", "Uygun kalem tipi"],
+                    satirlar: [
+                        ["Kuşadası hattı", "Sahil otelleri", "Kısa sapma", "Cephe, tabela, aydınlatma"],
+                        ["Söke ovası hattı", "Tarım sanayi tesisleri", "Doğrudan güzergâh üstü", "Depo, silo, kabuk"],
+                        ["Aydın merkez hattı", "Şehir içi işler", "Kısa sapma", "Küçük kalem, acil"],
+                        ["Denizli yönü", "Sanayi tesisleri", "Kısa sapma", "Genel bakım"],
+                    ],
+                },
+            },
+            {
+                baslik: "Merkez nokta olmanın gerçek anlamı",
+                paragraflar: [
+                    "Bir yerin kavşak olması tek başına avantaj sağlamaz; avantaj, o kavşağı aktif olarak kullanan bir program yapısına dönüştüğünde ortaya çıkar. Bizim için Ortaklar, günlük rotaları çizerken üzerinden geçtiğimiz bir referans noktasıdır: bir güzergâh planlanırken önce hangi büyük işlerin nereye gideceği belirlenir, sonra bu güzergâhların Ortaklar'dan geçip geçmediği kontrol edilir.",
+                    "Bu yöntem sayesinde ilçedeki küçük bir talep, haftalar boyunca bekletilmek yerine ilk uygun güzergâha hızlıca eklenebilir. İşletmelerin bunu bilerek talebini erken ve esnek tarihle bildirmesi, kavşak avantajından en çok faydalanmalarını sağlar.",
+                ],
+            },
+            {
+                baslik: "Karışık yapı dokusunda doğru sınıf seçimi",
+                paragraflar: [
+                    "Ortaklar'ın eski çekirdeği ile yeni gelişen kesimleri arasındaki fark, makine seçiminde göz ardı edilmemesi gereken bir ayrımdır. Eski kesimdeki dar sokaklar ve birbirine yakın yapılar, dar gövdeli ve kısa kurulum süreli bir sınıf gerektirirken, yeni kesimdeki geniş yol payı daha büyük sınıfların rahatça çalışmasına izin verir.",
+                    "Bu ayrımı keşifte netleştirmek, teklifte gerçekçi bir süre ve doğru bir makine sınıfı vermemizi sağlıyor. İşin adresini ve mümkünse sokak genişliğinin bir fotoğrafını paylaşmanız, bu değerlendirmeyi büyük ölçüde hızlandırıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ortaklar'a özel bir sefer düzenlemeniz gerekiyor mu, yoksa güzergâha mı ekleniyoruz?",
+                cevap:
+                    "Çoğu zaman güzergâha ekleniyorsunuz. Ortaklar'ın Kuşadası, Söke, Aydın merkez ve Denizli yönlerine aynı anda yakın olması, buradaki taleplerin zaten planlanmış bir programın doğal bir durağı olmasını sağlıyor. Tarihinizi esnek bırakırsanız ilk uygun güzergâha ekliyoruz ve sevkiyat payı düşük kalıyor. Tarihi sabit ve acil bir işse yine geliyoruz, o durumda bağımsız sefer maliyetini baştan açık söylüyoruz.",
+            },
+            {
+                soru: "İşletmemiz eski yerleşim kesiminde, dar sokaktan makine geçer mi?",
+                cevap:
+                    "Çoğu durumda geçer ama sınıfı sokağa göre seçiyoruz. Ortaklar'ın eski çekirdeğindeki dar sokaklarda dar gövdeli ve kısa kurulum süreli bir makine tercih ediyoruz; bu, şehir merkezindeki dar sokak işlerinde kullandığımız aynı yaklaşım. Sokağınızın genişliğini ve mümkünse bir fotoğrafını paylaşırsanız, doğru sınıfı ilk seferde belirleyip gereksiz bir keşif turunu önleyebiliriz.",
+            },
+            {
+                soru: "Söke'deki tarım tesisiyle bizim işimizi aynı gün yapabilir misiniz?",
+                cevap:
+                    "Genelde evet, çünkü Ortaklar tam olarak Söke ovası güzergâhının üzerinde. Söke yönüne giden bir programda sizin talebiniz araya kolayca eklenir ve sevkiyat maliyeti iki iş arasında paylaşılır. Bunun için gereken tek şey, talebinizi programın kurulmasından önce, yani mümkünse birkaç gün öncesinden bildirmeniz; son dakika taleplerinde güzergâh zaten kesinleşmiş olabilir.",
+            },
+            {
+                soru: "Acil bir arızamız var, Ortaklar'a ne kadar sürede ulaşırsınız?",
+                cevap:
+                    "Kesin bir süre vermek doğru olmaz çünkü o anki program durumuna bağlı, ama kavşak konumu burada gerçek bir avantaj sağlıyor. Kuşadası'ndan dönen ya da Söke'ye giden bir aracımız varsa, Ortaklar'a sapma neredeyse her zaman kısa bir ek mesafe. Arama sırasında işin adresini ve yüksekliğini paylaşırsanız, o an sahada olan araçlarımızın konumuna göre gerçekçi bir süre söyleyebiliriz.",
+            },
+            {
+                soru: "Yeni gelişen kesimde geniş bir depo binamız var, büyük makine girebilir mi?",
+                cevap:
+                    "Girer; Ortaklar'ın yeni gelişen kesimlerinde yol payı yeterli, bu da daha büyük sınıfların rahat çalışmasına izin veriyor. Deponun saçak yüksekliği ve zemin kaplaması, hangi sınıfın en uygun olacağını belirliyor. Bina projeniz ya da en azından yaklaşık saçak yüksekliği elimizde olursa, doğru gövdeyi keşif yapmadan da büyük ölçüde belirleyebiliyoruz.",
+            },
+            {
+                soru: "Küçük işletmemizin birkaç ayrı işi var, hepsini tek seferde mi yaptırmalıyız?",
+                cevap:
+                    "Kesinlikle öneririz. Kavşak konumu size güzergâh avantajı sağlasa da, aynı avantajdan en çok fayda tek bir ziyarette toplanan işlerde çıkıyor. Tabela, cephe ve aydınlatma gibi farklı kalemleri tek listede toplayıp bize iletirseniz, bunları tek güzergâh durağında birlikte kapatıyoruz ve ayrı ayrı çağırmanın getireceği tekrar eden sevkiyat maliyetinden kaçınmış oluyorsunuz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Ortaklar'ın Germencik'e bağlı olması ve Aydın-Kuşadası-Söke-Denizli yollarının kesişim noktasında bulunması kamuya açık genel bilgidir; güzergâh eşleştirme modeli firma pratiğidir.",
+    },
+
+    "bolge:buharkent": {
+        h1: "Buharkent'te Jeotermal Tesis Çevresinde Çalışma Koşuluna Uygun Platform Hizmeti",
+        giris:
+            "Buharkent, adını çevresindeki jeotermal kaynaklardan alan ve Aydın'ın doğusunda dar bir vadi içine kurulu küçük bir ilçedir; bölgesi Türkiye'nin bilinen jeotermal sahalarından biri olarak elektrik üretimi, sera ısıtması ve termal amaçlı kullanım için yoğun biçimde işletilir. Bir yükseğe erişim ekibi için bu çevre, standart sanayi tesisinden belirgin şekilde farklı bir çalışma koşulu üretir: sıcak buhar ve mineral yüklü su, metal yüzeylerde hızlandırılmış korozyona yol açar, bazı jeotermal alanlarda hidrojen sülfür gazı riski bilinen bir tehlikedir ve vadi topografyası hem yol erişimini hem de rüzgâr davranışını standart ovadan farklılaştırır. Bu üç unsur — kimyasal aşınma, gaz riski ve topografya — bölgedeki her işin planlamasına girer. Buharkent'te çalışmak, bu koşulları göz ardı eden bir ekip için hem güvenlik hem ekipman ömrü açısından risklidir; bizim yaklaşımımız bu koşulları normal saha bilgisinin bir parçası saymak ve her işi buna göre hazırlamaktır.",
+        maddeler: [
+            {
+                baslik: "Kükürtlü buhar ve mineral suyun korozyon etkisi",
+                metin:
+                    "Jeotermal sahalara yakın yapılarda metal yüzeyler, standart sanayi ortamına kıyasla belirgin şekilde daha hızlı korozyona uğrar; kükürt bileşikleri ve mineral yüklü buhar, çelik bağlantı elemanlarını, aydınlatma gövdelerini ve dış cephe donanımını normalden erken yıpratır. Bu etki genellikle gözden uzak noktalarda, yani vida ve bağlantı bölgelerinde başlar ve fark edilmeden ilerler. Bölgedeki yapılarda yıllık kontrol sıklığını standart sanayiye göre artırmayı öneriyoruz; erken tespit edilen bir korozyon noktası küçük bir onarımla kapanırken, gözden kaçan aynı nokta yıllar içinde ciddi bir yapısal soruna dönüşebilir.",
+            },
+            {
+                baslik: "Gaz riskine karşı saha güvenlik protokolü",
+                metin:
+                    "Jeotermal sahalarda hidrojen sülfür gibi gazların belirli noktalarda birikebilmesi, bilinen ve ciddiye alınması gereken bir risktir. Bu çevredeki işlerde kişisel gaz ölçüm cihazı taşımak, düşük noktalarda ve kapalı alanlarda ölçüm yapmadan çalışmaya başlamamak ve işletmenin kendi gaz izleme verilerine önceden danışmak standart uygulamamızdır. Rüzgârsız ve sisli günlerde, gaz birikme riski yükseldiği için bazı işler ertelenir; bu, hızdan değil güvenlik önceliğinden kaynaklanan bir karardır ve işletmeyle önceden netleştirilir.",
+            },
+            {
+                baslik: "Sıcaklık ve nem koşullarında ekip ve ekipman uygulaması",
+                metin:
+                    "Buhar hatlarına ve santral yapılarına yakın çalışma noktalarında ortam sıcaklığı ve nem, standart dış mekân koşullarının üzerindedir. Bu koşullarda personel için düzenli mola ve su takviyesi uyguluyoruz; makine tarafında ise elektronik aksamın nem korumasını ve hidrolik sistemin sıcaklık toleransını işe başlamadan kontrol ediyoruz. Yüksek nem, aynı zamanda zeminde kayganlık riski üretir; bu yüzden makine konumlanacak noktanın zemin durumu, sıcak su akış hatlarına yakınsa özellikle dikkatle değerlendirilir.",
+            },
+            {
+                baslik: "Dar vadi topografyasında erişim planlaması",
+                metin:
+                    "Buharkent'in dar vadi içine kurulu olması, ilçe merkezi ile çevredeki tesisler arasındaki yolları dolambaçlı ve zaman zaman dar kılar; bazı jeotermal tesislere giden yollar eğimli ve virajlıdır. Bu coğrafya, büyük gövdeli makinelerin bazı noktalara ulaşmasını zorlaştırabilir ve keşif aşamasında güzergâhın fiziksel olarak doğrulanmasını gerektirir. Vadi içindeki rüzgâr davranışı da ovadan farklıdır; dar geçitlerde rüzgâr hızlanabilir, bu da yüksek işlerde ek bir güvenlik değişkenidir ve hava durumu takibi işin planlamasına dahil edilir.",
+            },
+            {
+                baslik: "Jeotermal seracılık tesislerinde özel çalışma koşulu",
+                metin:
+                    "Bölgede jeotermal sıcak suyla ısıtılan seralar yaygındır ve bu yapılarda yüksek işler farklı bir hassasiyet gerektirir: sera örtü malzemesi hem kırılgan hem de sıcak buhara maruz kaldığı için erken yıpranmış olabilir, iç ortamdaki nem ekipman için ek koruma ister ve üretim genellikle kesintisiz sürdüğü için çalışma bitkilere en az zarar verecek şekilde planlanır. Bu tesislerde makine seçimi hem hafif hem dar manevralı bir sınıfa yönelir; örtü üzerine doğrudan yük bindirilmez ve tüm işler sepetten yürütülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Buharkent çevresinde risk tipine göre önlem tablosu",
+                paragraflar: [
+                    "Jeotermal çevrenin ürettiği farklı riskler, farklı önlemler gerektirir. Aşağıdaki tablo, bölgedeki işlerde uyguladığımız temel eşleştirmeyi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Çalışma alanı", "Başlıca risk", "Önlem", "Makine yaklaşımı"],
+                    satirlar: [
+                        ["Buhar/santral hattı yakını", "Korozyon, yüksek nem", "Sık kontrol, nem koruması", "Dar gövde, korozyona dayanıklı ekipman"],
+                        ["Kapalı/alçak nokta", "Gaz birikimi", "Gaz ölçüm cihazı, izleme verisi", "Ekip önce ölçüm yapar"],
+                        ["Vadi içi dar yol", "Erişim kısıtı", "Güzergâh keşfi", "Küçük gövdeli sınıf"],
+                        ["Jeotermal sera", "Kırılgan örtü, nem", "Sepetten çalışma", "Hafif akülü sınıf"],
+                    ],
+                },
+            },
+            {
+                baslik: "Korozyonu erken yakalamanın maliyet farkı",
+                paragraflar: [
+                    "Jeotermal çevrede korozyon, standart sanayi tesisindeki gibi yıllar içinde yavaş ilerlemez; kükürtlü buhara sürekli maruz kalan bir bağlantı noktası, birkaç yıl içinde ciddi bir zayıflama gösterebilir. Bu hız farkı, kontrol sıklığının burada neden standart aralıktan daha kısa tutulması gerektiğini açıklar.",
+                    "Erken yakalanan bir korozyon noktası, cıvata değişimi ya da yerel yüzey onarımıyla kapanan küçük bir kalemdir. Gözden kaçan aynı nokta, taşıyıcı bir elemana ilerlediğinde iş artık bakım değil, yapısal onarım kalemi hâline gelir ve maliyeti kat kat artar. Bölgedeki tesislere önerimiz, yıllık kontrolü sabit bir takvime bağlamak ve fotoğraflı durum kaydı tutarak yıldan yıla karşılaştırma yapmaktır.",
+                ],
+            },
+            {
+                baslik: "Vadi içinde güzergâhı önceden doğrulamak",
+                paragraflar: [
+                    "Buharkent çevresindeki jeotermal tesislere giden yolların bir kısmı, büyük gövdeli makinelerin standart ölçülerine göre tasarlanmamıştır. Dar viraj yarıçapı, eğim ve bazı noktalarda sınırlı köprü taşıma kapasitesi, makine sınıfını doğrudan etkileyen fiziksel gerçeklerdir.",
+                    "Bu yüzden ilk kez gittiğimiz bir tesiste güzergâhı fotoğrafla ya da kısa bir ön keşifle doğrulamadan makine sınıfına karar vermiyoruz. Tesisin giriş yolunun ve varsa alternatif güzergâhın bilgisini önceden paylaşan işletmeler, sahada makinenin geri dönmek zorunda kalması gibi bir kaybı baştan önlemiş oluyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Jeotermal santral çevresinde çalışmanız için özel bir eğitim gerekiyor mu?",
+                cevap:
+                    "Evet, ekibimiz jeotermal saha koşullarına özgü gaz riski ve korozyonlu ortam eğitiminden geçiyor ve kişisel gaz ölçüm cihazı standart ekipmanımızın parçası. İşletmenizin kendi yüklenici kabul sistemi ek bir belge veya eğitim istiyorsa bunları önceden tamamlıyoruz. Saha girişinde alan izni ve varsa refakat düzeni bizim için tartışma konusu değil, işin ön şartı; bu süreci işin başlama tarihinden yeterince önce başlatmanızı öneririz.",
+            },
+            {
+                soru: "Buhar hattına yakın metal yapılarımız neden bu kadar sık korozyona uğruyor?",
+                cevap:
+                    "Kükürt bileşikleri taşıyan buhar ve mineral yüklü su, metal yüzeylerde standart sanayi ortamına göre belirgin şekilde daha hızlı bir aşınma üretiyor. Bu etki genelde gözden uzak noktalarda, yani vida ve bağlantı bölgelerinde başlıyor ve geç fark ediliyor. Bölgedeki tesislere yıllık kontrol sıklığını artırmayı öneriyoruz; erken tespit edilen bir nokta küçük bir onarımla kapanırken, gözden kaçan aynı nokta yapısal bir soruna dönüşebiliyor.",
+            },
+            {
+                soru: "Seramızın örtüsüne makine yük bindirir mi, zarar verir mi?",
+                cevap:
+                    "Bindirmez, standart uygulamamız bu tür işlerde tüm çalışmayı sepetten yürütmek. Jeotermal sıcak suyla ısıtılan seraların örtü malzemesi hem kırılgan hem de sürekli buhara maruz kaldığı için ek hassasiyet gerektiriyor. Hafif ve dar manevralı bir akülü sınıf kullanıyoruz, bitkilere ve örtüye en az müdahaleyle çalışıyoruz. Üretiminiz sürerken çalışmamız gerekiyorsa, hangi bölümün ne zaman müsait olduğunu önceden birlikte belirliyoruz.",
+            },
+            {
+                soru: "Tesisimize giden yol dar ve virajlı, büyük makine ulaşabilir mi?",
+                cevap:
+                    "Çoğu durumda ulaşır ama önce güzergâhı doğrulamadan söz vermiyoruz. Vadi içindeki yolların bir kısmı büyük gövdeli makinelerin standart ölçülerine göre tasarlanmamış; dar viraj yarıçapı ve eğim, makine sınıfını doğrudan belirliyor. Yolun fotoğraflarını ya da kısa bir keşif imkânını paylaşırsanız, doğru sınıfı ilk seferde belirleyip sahada geri dönmek zorunda kalan bir aracın kaybını önlüyoruz.",
+            },
+            {
+                soru: "Sisli veya rüzgârlı günlerde işi erteliyor musunuz?",
+                cevap:
+                    "Bazı durumlarda evet. Sisli ve rüzgârsız havada, jeotermal sahalarda gaz birikme riski arttığı için düşük noktalardaki ve kapalı alanlardaki işleri erteliyoruz; bu, hızdan değil güvenlik önceliğinden kaynaklanan bir karar. Ayrıca vadi içindeki dar geçitlerde rüzgâr hızlanabildiği için yüksek işlerde hava durumunu takip ediyoruz. Ertelenen bir iş varsa ilk uygun güne yeniden planlıyor ve gecikmeyi önceden haber veriyoruz.",
+            },
+            {
+                soru: "Bölgedeki tesisimiz için yıllık düzenli kontrol önerir misiniz?",
+                cevap:
+                    "Kesinlikle öneririz, özellikle buhar hattına ya da sıcak su kaynağına yakın yapılar için. Kükürtlü ortamda korozyon standart sanayiden daha hızlı ilerlediği için kontrol aralığını kısa tutmak, küçük bir onarımla büyük bir maliyeti önlemenin en pratik yolu. Yıllık kontrolde bağlantı noktaları, aydınlatma gövdeleri ve dış donanımı tek turda gözden geçirip fotoğraflı durum kaydı çıkarıyoruz; bu kayıt bir sonraki yılın kontrolünü hem hızlandırıyor hem ucuzlatıyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Buharkent çevresinin jeotermal saha niteliği, bilinen gaz ve korozyon riskleri ile vadi topografyası kamuya açık genel bilgidir; saha güvenlik protokolü ve kontrol sıklığı firma pratiğidir.",
+    },
 };
