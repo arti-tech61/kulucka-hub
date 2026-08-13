@@ -1011,4 +1011,303 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Polatlı'nın geniş kırsal dokusu, tarımsal üretim ağırlığı ve iki şehri bağlayan karayolu ekseni üzerinde bulunması kamuya açık bilgidir; rüzgâr sınırı makine üretici talimatlarından, ayırma-kilitleme-doğrulama-topraklama adımları elektrik işlerinin genel güvenlik mevzuatından gelir; mevsimsel erişim koşulları sahadaki uygulamaya dayanır. Metinde firma adı ve rakam bulunmamaktadır.",
     },
+    "bolge:mihalgazi": {
+        h1: "Mihalgazi’de Vadi Boyu Hat ve Aydınlatma İçin Sepetli Platform",
+        giris:
+            "Mihalgazi’de enerji ve aydınlatma işini belirleyen temel gerçek vadi coğrafyasıdır. Yerleşim, tarımsal alan ve bağlantı yolları aynı dar koridor boyunca sıralanırken direkler de çoğu yerde bu akışı izler. Araç üstü sepetli platform için bu, her hedefe geniş bir ovadan yaklaşmak yerine yol, şev, su kanalı ve yapı sınırı arasında güvenli bir konum bulmak anlamına gelir. Güzergâhın bir bölümünde direğin yanına doğrudan yanaşılabilirken sonraki noktada sert zemin hedefin karşı tarafında kalabilir; gereken yalnız dikey yükseklik değil, yatay erişimdir. Yeni direk veya ağır donanım varsa vinç ile sepetli araç ardışık çalışır: kaldırma tamamlanıp yük güvenli biçimde sabitlenmeden sepet sahaya girmez. Hat üzerinde elektriksel işi yapan yetkili ekip ile araç operatörünün sorumluluğu ayrıdır. Programı nokta listesinden çok vadi boyunca tek yönlü rota, güvenli durak cepleri ve enerji ayırma bölgeleri üzerinden kurarız.",
+        maddeler: [
+            {
+                baslik: "Dar vadi yolunda güvenli konum cebi",
+                metin:
+                    "Sepetli aracın direğin tam dibine gelmesi her zaman mümkün veya gerekli değildir. Önce yol genişliği, şev tarafı, kanal ya da dere tarafı, üstten geçen iletkenler ve destek ayaklarının açılacağı yüzey birlikte incelenir. Araç trafiğini kontrolsüz biçimde daraltan veya ayağı dolgu kenarına bırakan konum kabul edilmez. Daha sağlam bir cep biraz uzaktaysa bomun yatay erişimi bu mesafeye göre seçilir. Trafik düzeni yalnız aracın tabanını değil bomun döneceği hava sahasını kapsar. Bir nokta tamamlandıktan sonra ayaklar toplanır, güzergâh güvenli biçimde açılır ve araç sonraki durağa geçer; açık destek ayağıyla kısa mesafe ilerleme yapılmaz.",
+            },
+            {
+                baslik: "Hat enerjisinde ayırma ve topraklama teslimi",
+                metin:
+                    "Direk üstünde aydınlatma veya enerji donanımına yaklaşmadan önce hattın durumu hattan sorumlu yetkili tarafından belirlenir. Yaklaşma mesafesinin korunamadığı işte besleme kesilir, yeniden açmayı önleyen kilitleme ve etiketleme uygulanır, çalışma noktasında gerilim yokluğu uygun yöntemle doğrulanır ve gerekli topraklama kurulur. Komşu enerjili bölümler işaretlenir veya korunur. Araç operatörü elektrik tesisini ayırmaz; kendisine güvenli çalışma bölgesinin teslim edildiğini teyit eder. Sözlü olarak hattın kapalı olduğu bilgisi yeterli sayılmaz. Vadi boyunca farklı besleme kolları bulunuyorsa her çalışma bölgesi ayrı teslim edilir ve önceki noktadaki izin sonraki direk için otomatik geçerli kabul edilmez.",
+            },
+            {
+                baslik: "Vinç ve sepetin birbirini izleyen görevi",
+                metin:
+                    "Direk değişiminde vinç eski elemanı kontrollü biçimde alır, yenisini kaldırır ve hazırlanmış noktaya yerleştirir. Bu sırada yükün altında, dönüş alanında ve olası salınım yönünde kimse bulunmaz. Direk kalıcı olarak güvenli duruma gelmeden sepetli platform yanaşmaz. Ardından sepet ekibi konsol, armatür veya hat donanımına erişir; vinç sepet yerine, sepet de kaldırma vinci yerine kullanılmaz. Dar vadi yolunda iki aracın aynı anda konumlanacağı alan sınırlı olabileceği için sıra krokisi önceden hazırlanır. Vincin çıkış rotası kapanmadan sepetli araç sahaya alınırsa gereksiz manevra ve bekleme doğar; bu nedenle araçların giriş-çıkış dizisi iş emrinin parçasıdır.",
+            },
+            {
+                baslik: "Şev, kanal ve değişken zeminde ayak kontrolü",
+                metin:
+                    "Vadi tabanındaki sıkı yüzey ile yol kenarındaki dolgu aynı taşıma davranışını göstermeyebilir. Destek ayaklarının her biri düz ve yeterli zemine basmalı, yük dağıtıcı plaka kullanılmalı ve bom yükselmeden oturma gözlenmelidir. Şev tepesi, menfez, kanal duvarı veya yol kenarı boşluğuna yakın noktalarda görünür yüzeye güvenilmez; taşıma alanı yetersizse araç geri alınır. Yağış ve sulama koşulları bir önceki keşfi geçersiz kılabilir, bu yüzden günlük rota başlamadan kritik duraklar yeniden görülür. Zemini uygun olmayan noktayı program baskısıyla zorlamak yerine sert bir alternatif konum ve yatay erişim değerlendirilir; ikisi de mümkün değilse hedef ertelenir.",
+            },
+            {
+                baslik: "Vadi boyunca tek yönlü günlük ilerleme",
+                metin:
+                    "Dağınık noktalar arasında geri dönmek gün ışığını ve yakıtı tüketir. Bu nedenle hedefler harita üzerinde aynı yönde sıralanır; enerji ayırma bölgeleri, vinç gerektiren duraklar ve yalnız sepetle kapanacak aydınlatma işleri ayrı işaretlenir. Malzeme araçta durak sırasına göre hazırlanır. Bir direğe gelindiğinde eksik armatür veya bağlantı aranmaz; hazır olmayan hedef atlanır ve dönüş zorunluysa yeni güne alınır. Vadi yolunda gün sonu dönüşü de programın parçasıdır; hava kararmadan destek ayaklarının güvenle kurulamayacağı noktaya yeni iş açılmaz. Hava koşulu yüksekte çalışmayı durdurursa yerde yapılabilecek işaretleme, malzeme hazırlığı ve güzergâh kontrolü devreye girer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Vadi hattında nokta ve ekipman eşleşmesi",
+                paragraflar: [
+                    "Mihalgazi güzergâhında her durak aynı yükseklikte olsa bile konum ve ekipman ihtiyacı değişebilir. Aşağıdaki tablo, kararın hangi saha bilgisine bağlandığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Saha kısıtı", "Ekipman görevi", "Hazırlık"],
+                    satirlar: [
+                        ["Yol kenarı armatür", "Dar trafik koridoru", "Sepetle bakım", "Trafik alanını ayır"],
+                        ["Şev karşısındaki direk", "Doğrudan yanaşamama", "Yatay erişimli sepet", "Sert konumu ölç"],
+                        ["Yeni direk noktası", "İki araçlık sınırlı alan", "Vinç diker, sepet bağlar", "Giriş-çıkış sırası"],
+                        ["Kanal kenarı hat", "Zemin ve kenar boşluğu", "Sepetli araç", "Ayak yerini doğrula"],
+                        ["Yerleşim içi aydınlatma", "Yaya ve araç geçişi", "Kompakt araç üstü sepet", "Kısa hücre kur"],
+                        ["Dağınık bağlantı kolu", "Farklı enerji bölgesi", "Sepet ve teknik ekip", "İzni yeniden teslim al"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşif dosyasından günlük rotaya",
+                paragraflar: [
+                    "Her hedef için yol yönünden çekilmiş geniş fotoğraf, direğin iki yanındaki yüzey, üst iletkenler, şev veya kanal sınırı ve aracın dönebileceği nokta kaydedilir. Hedef kotu ile sert park yerinden yatay uzaklık birlikte ölçülür. Direk değişecekse malzemenin ağırlığı ve kaldırma yöntemi yetkili proje bilgisine dayanır; tahminle vinç seçilmez. Elektrik ekibi ayırma noktasını ve sorumlu kişiyi rota kartına ekler. Böylece ekip sahaya geldiğinde ilk kez erişim veya enerji bölgesi araştırmaz.",
+                    "Kartlar vadi boyunca tek yönlü sıraya konur. Vinç gerektiren noktalar, yolun iki aracı kabul ettiği pencerelerde gruplanır; yalnız sepet işi bulunan duraklar aradaki boşlukları doldurur. Her kart tamamlanınca kullanılan malzeme, enerji teslimi ve alanın yeniden açılması kaydedilir. Bir hedef zemin veya izin nedeniyle kapanmazsa sözlü notla bırakılmaz; nedeni ve gereken yeni koşul yazılır. Bu kayıt sonraki çıkışın aynı engeli tekrar yaşamasını önler.",
+                ],
+            },
+            {
+                baslik: "Gün sonu güvenli kapanış",
+                paragraflar: [
+                    "Vardiya bitişinde sepet indirilir, destek ayakları toplanır, çevrede malzeme ve topraklama ekipmanı kalmadığı kontrol edilir. Yeniden enerjilendirme kararı hat yetkilisine aittir; araç ekibi ayırmayı kaldırmaz. Açık kazı veya sabitlenmemiş direk varsa alan korunmadan ekip ayrılmaz. Sonraki vardiyaya kalan hedef güvenli durumu ve eksik işlemiyle yazılı devredilir.",
+                    "Araçlar dönüşe geçmeden yakıt, lastik, hidrolik görünüm, aydınlatma ve ertesi gün kullanılacak malzeme gözden geçirilir. Vadi içinde servis erişimi gecikebileceği için küçük bir belirtiyi görmezden gelerek programa devam etmek doğru değildir. Olağan dışı ses, sızıntı veya kontrol uyarısında ekipman durdurulur ve teknik destek planlanır. Ertesi günün ilk durağı, hava ve yol koşulları değişmiş olabileceğinden yeniden teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Direğin yanına araç yanaşamıyorsa yine de erişebilir misiniz?",
+                cevap:
+                    "Çoğu durumda sert bir konumdan yatay erişim değerlendirilebilir. Bunun için hedefin kotu, araçla direk arasındaki gerçek yatay mesafe, aradaki iletken ve yapı engelleri ile park yüzeyinin taşıma durumu gerekir. Yalnız fotoğrafa bakarak bom seçmeyiz; ölçekli ölçü isteriz. Bomun çalışma zarfı hedefe ulaşıyorsa araç şev veya kanal kenarına yaklaşmadan kurulabilir. Ulaşmıyorsa daha uzun sınıfın yol ve ayak açıklığına sığıp sığmadığı kontrol edilir. Güvenli sınıf bulunamıyorsa farklı erişim yöntemi veya saha hazırlığı gerekir; aracı yumuşak kenara zorlamak seçenek değildir.",
+            },
+            {
+                soru: "Aydınlatma armatürü için hattı kapatmak gerekir mi?",
+                cevap:
+                    "Kararı hattan sorumlu teknik kişi, gerilim durumu ve korunabilecek yaklaşma mesafesine göre verir. Çalışan iletkene güvenli mesafe korunamıyorsa besleme ayrılır, yeniden açma kilitlenir ve etiketlenir, çalışma yerinde gerilim yokluğu doğrulanır ve gerekli topraklama uygulanır. Komşu enerjili bölümler de kontrol edilir. Yalnız kumandadan armatürü kapatmak, bütün risklerin giderildiği anlamına gelmez. Araç operatörü elektriksel ayırmayı yapmaz; güvenli çalışma bölgesinin teslimini bekler. Aciliyet veya işin kısa sürmesi bu zinciri kısaltmaz.",
+            },
+            {
+                soru: "Vinç ve sepetli platform aynı anda çalışabilir mi?",
+                cevap:
+                    "Aynı yük ve aynı dar çalışma alanında eş zamanlı çalıştırmayız. Vinç önce direği veya ağır donanımı kaldırıp güvenli biçimde yerleştirir; yük sabitlenir ve kaldırma alanı boşaltılır. Sepetli platform bundan sonra yanaşarak üst bağlantıyı tamamlar. İki aracın sahadaki sırası, dar vadi yolunda birbirinin çıkışını kapatmayacak biçimde önceden belirlenir. Vinç yük taşırken personel sepetle yükün yanına çıkarılmaz ve sepet malzeme kaldırma vinci gibi kullanılmaz. Ardışık çalışma biraz plan ister, fakat yük ile personel erişimini doğru ekipmana ayırır.",
+            },
+            {
+                soru: "Yağıştan sonra aynı rotaya çıkabilir misiniz?",
+                cevap:
+                    "Rota yeniden görülmeden önceki keşfe dayanarak çıkmayız. Yağış, yol kenarı dolgusunu, şev üstünü ve kanal çevresini görünenden daha zayıf hâle getirebilir. Destek ayağının basacağı her nokta kontrol edilir; taşıma şüphesi varsa sert alternatif cep aranır ve yatay erişim yeniden hesaplanır. Araç yolda ilerleyebilse bile ayaklarını güvenle açamıyorsa yüksekte çalışma yapılamaz. Uygun olmayan duraklar ertelenirken kuru ve sağlam bölümler rotada öne alınabilir. Bu esneklik için hedefler ayrı kartlarda tutulur; bütün gün tek bir sorunlu noktaya bağlanmaz.",
+            },
+            {
+                soru: "Hat boyunca iş süresini nasıl tahmin ediyorsunuz?",
+                cevap:
+                    "Süre yalnız direk adedinden çıkmaz. Duraklar arası geçiş, güvenli araç cebi, her noktadaki ayırma ve topraklama gereksinimi, vinç işi, zemin kontrolü ve trafik düzeni birlikte değerlendirilir. Aynı enerji bölgesindeki işleri uygun izinle gruplamak tekrarları azaltabilir; farklı kolların her biri yeniden teslim ister. Güzergâhı tek yönde kurar, malzemeyi durak sırasına dizeriz. Gün ışığı ve hava koşulları da gerçek çalışma penceresidir. Liste ve konum bilgileri geldiğinde kart bazlı süre çıkarırız; sahada bilinmeyen hedef eklemek yerine yeni kalemi sonraki programa yazarız.",
+            },
+            {
+                soru: "Elektrik ekibi ile araç operatörünün sorumluluğu nasıl ayrılır?",
+                cevap:
+                    "Hattın şemasını bilen yetkili ekip beslemeyi ayırır, kilitleme-etiketleme yapar, gerilim yokluğunu doğrular, topraklamayı kurar ve güvenli bölgeyi teslim eder. Araç operatörü zemini, destek ayaklarını, makinenin çalışma zarfını ve üretici sınırlarını yönetir. Sepette elektriksel işi yapacak kişinin mesleki yetkisi de ayrıca doğrulanır; makine operatörü olmak elektrik işi yetkisi vermez. İş bitiminde araç ekibi sepeti indirip alanı boşalttığını bildirir, hattın yeniden enerjilendirilmesine teknik yetkili karar verir. Bu sınırların iş emrinde yazılı olması, vadi boyunca ekipler değişse bile sorumluluğu açık tutar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Mihalgazi’nin vadi coğrafyasında yer alması kamuya açık genel bilgidir; hat güzergâhı, zemin, vinç-sepet sırası ve elektriksel ayırma düzeni sektör geneli saha ve güvenlik uygulamasıdır. Özel tesis, mesafe, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:saricakaya": {
+        h1: "Sarıcakaya’da Dağınık Yerleşim İçin Sepetli Platform ve Vinç Rotası",
+        giris:
+            "Sarıcakaya’da kırsal enerji ve aydınlatma işi tek bir şantiye çevresinde değil, yerleşimler ve bağlantı yolları boyunca dağılmış hedeflerde yürür. Aynı gün bir yerleşim içindeki armatür, başka bir noktadaki hat donanımı ve yol üzerindeki direk değişimi programa girebilir. Bu da ekipman seçiminden önce rota disiplinini öne çıkarır. Araç üstü sepetli platform kendi tekerlekleriyle noktalar arasında geçer; ağır direk veya donanım kaldırılacaksa vinç yalnız ilgili duraklarda ardışık çalışır. Günün verimi sepetin yukarıda kaldığı süreden çok doğru adrese ilk seferde ulaşmaya, yetkili kişinin ve malzemenin hazır bulunmasına bağlıdır. Her durak için konum, erişim yüzeyi, enerji durumu ve iş türü ayrı kartta tutulur. Sabah rastgele en yakın noktadan başlanmaz; enerji ayırma imkânı, yol koşulu ve gün sonunda güvenli dönüş birlikte değerlendirilerek tek yönlü rota oluşturulur. Dağınık yapı böylece kontrolsüz dolaşım değil, teslim edilen küçük çalışma hücreleri dizisine dönüşür.",
+        maddeler: [
+            {
+                baslik: "Adres kartı olmadan rota açmamak",
+                metin:
+                    "Kırsal tarifler ekip için yeterli değildir. Her hedefin harita konumu, yaklaşım yönü, direğin yolun hangi tarafında olduğu, aracın dönebileceği yer, zemin fotoğrafı ve irtibat kişisi kaydedilir. Yakın çekim armatür fotoğrafı kadar aracın duracağı geniş alan da görülmelidir. Elektrik işi varsa hattın hangi yetkili tarafından ayrılacağı ve çalışma penceresi karta eklenir. Vinç gerektiren durakta direk veya donanımın proje bilgisi sağlanır; kaldırma kapasitesi tahmin edilmez. Bu hazırlık yapılmadığında ekip doğru yerleşime ulaşsa bile hedefi, anahtarı veya sorumluyu ararken gün ışığını kaybeder. Hazır olmayan kart rotaya alınmaz.",
+            },
+            {
+                baslik: "Yerleşim içi aydınlatmada kısa hücre",
+                metin:
+                    "Yerleşim içindeki armatür ve direk üstü bağlantı işi kısa sürebilir, fakat yaya, park edilmiş araç ve dar sokak düzeni doğru kurulmazsa risk büyür. Sepetli araç mümkün olan en sağlam ve düz noktaya konumlanır; destek ayakları kapı, duvar veya drenaj boşluğuna sıkıştırılmaz. Bariyer, sepetin çalışma zarfını kapsar ve yerel geçiş için alternatif yön bırakılır. Hat yetkilisi elektriksel durumu teslim etmeden bom yükselmez. Bir sokaktaki hedefler ardışık kapanır, alet-parça kontrolü yapılır ve alan tamamen açıldıktan sonra araç başka yerleşime hareket eder. Kurulu makine çevresinden kontrolsüz geçişe izin verilmez.",
+            },
+            {
+                baslik: "Yerleşimler arası yol ve zemin teyidi",
+                metin:
+                    "Günlük rotada iki hedef haritada yakın görünse bile bağlantı yolunun araç ve vinç için uygunluğu farklı olabilir. Yol genişliği, eğim, menfez, yumuşak banket ve dönüş noktası önceden sorulur. Yağış veya yol çalışması bilgisi sabah yeniden teyit edilir. Araç üstü sepetli platformun yolda ilerleyebilmesi, hedefte destek ayaklarını güvenle açabileceği anlamına gelmez; duruş yüzeyi ayrıca kontrol edilir. Vinç rotaya katılacaksa daha geniş dönüş ve kurulum alanı gerekir. Uygun olmayan kestirme yerine güvenli ana bağlantı seçilir. Rota süresi, yalnız haritadaki çizgiye değil ekipmanın gerçek geçiş ve kurulum koşuluna göre hazırlanır.",
+            },
+            {
+                baslik: "Direk değişiminde buluşma zamanı",
+                metin:
+                    "Vinç ile sepetli aracın bütün gün yan yana seyretmesi gerekmeyebilir. Direk değişim kartları belirli bir zaman aralığında gruplanır; vinç önce kaldırma alanına girer, yükü yerleştirir ve güvenli hâle getirir. Sepetli ekip ardından tepe donanımını tamamlar. Araçların buluşma zamanı gecikmeye pay bırakacak şekilde belirlenir; biri hazır değilken diğerinin dar yolda beklemesi trafik ve maliyet üretir. Yük altında personel bulunmaz, sepet vinç yüküne yaklaşmaz ve iki makinenin görevleri karıştırılmaz. Direk sabitlenme koşulu proje ve yetkili teknik kişinin kabulüne bağlıdır; aceleyle üst bağlantıya geçilmez.",
+            },
+            {
+                baslik: "Gün ışığına göre rota kapanışı",
+                metin:
+                    "Kırsal yerleşimler arasında genel aydınlatmanın kesintili olabileceği rotalarda güvenli kurulum gün ışığına bağlıdır. Günün sonuna, erişimi belirsiz veya vinç gerektiren yeni bir hedef koymayız. Kalan süre, önceden görülmüş kısa armatür işleri ya da ertesi gün için yerde hazırlıkla değerlendirilir. Hava rüzgâr nedeniyle sepeti durdurursa malzeme dağıtımı, işaretleme ve adres teyidi yapılabilir; üretici sınırı aşılırken bom kaldırılmaz. Gün sonunda açık enerji izni, kurulu bariyer veya emniyetsiz direk bırakılmaz. Tamamlanmayan kart, güvenli durumu ve yeni ihtiyacı yazılarak sonraki rotaya aktarılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dağınık rota için durak sınıfları",
+                paragraflar: [
+                    "Sarıcakaya’da günlük plan, hedefleri yalnız konuma değil hazırlık ve ekipman türüne göre de gruplar. Tablo bu sınıflandırmanın pratik karşılığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Durak", "İş", "Gerekli hazırlık", "Rota kararı"],
+                    satirlar: [
+                        ["Yerleşim içi direk", "Armatür ve bağlantı", "Yaya-araç hücresi", "Aynı sokakta grupla"],
+                        ["Bağlantı yolu direği", "Hat donanımı", "Banket ve ayırma", "Gün ışığında sırala"],
+                        ["Direk değişim noktası", "Kaldırma ve üst bağlantı", "Vinç-sepet buluşması", "Zaman penceresi ayır"],
+                        ["Yumuşak zeminli hedef", "Bakım", "Alternatif sert konum", "Hava sonrası yeniden teyit"],
+                        ["Farklı enerji kolu", "Elektriksel iş", "Yeni güvenli teslim", "İzin saatine bağla"],
+                        ["Hazır olmayan adres", "Eksik malzeme veya yetkili", "Kartı tamamlama", "Rotadan çıkar"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sabah brifingi ve rota yedeği",
+                paragraflar: [
+                    "Gün başında sürücü-operatör, elektrik ekibi ve varsa vinç ekibi aynı kart sırasını görür. İlk hedefin erişimi, hava, enerji teslimi ve irtibat kişisi teyit edilir. Malzeme araçta durak sırasına göre yerleştirilir; bir sonraki noktanın parçasını bulmak için yük boşaltılmaz. Vinç yalnız kaldırma kartlarının penceresine katılır. Her ekip hangi noktada buluşacağını ve gecikme halinde kimi arayacağını bilir. Bu kısa brifing, dağınık yerleşimde telefon trafiğini ve ters yönde dönüşü azaltır.",
+                    "Ana sıranın yanında hazırlanmış bir yedek rota bulunur. Bir yerleşimde enerji ayrılamaz, yol kapanır veya yetkili kişi bulunamazsa ekip güvenli biçimde hazır başka karta geçer. Yedek hedef aynı ekipmanla yapılabilir ve gerekli izinleri önceden alınmış olmalıdır; rastgele iş eklenmez. Atlanan kartın nedeni kaydedilir ve yeni koşul sağlandığında sonraki güne yerleştirilir. Böylece tek bir adres sorunu bütün günlük programı durdurmaz.",
+                ],
+            },
+            {
+                baslik: "Durak teslimi ve izlenebilir kayıt",
+                paragraflar: [
+                    "Her durakta araç konumu, destek ayağı yüzeyi ve çalışma öncesi alan fotoğraflanır. Elektriksel işte güvenli bölge teslimi teknik sorumludan alınır; operatör makinenin sınırlarını, sepetteki yetkili kişi ise yapılacak teknik işi yönetir. Tamamlanınca alet ve sökülen parça sayılır, donanım görsel olarak kontrol edilir ve sepet indirilir. Hat yeniden enerjilendirilecekse karar teknik yetkilinindir. Alanın yaya ve araç kullanımına açıldığı kart üzerinde işaretlenir.",
+                    "Gün sonunda tamamlanan, atlanan ve ertelenen kartlar ayrılır. Yakıt, hidrolik görünüm, lastik, destek ayağı ve kumanda kontrol edilir; ertesi rota için malzeme eksikleri çıkarılır. Arıza belirtisi bulunan ekipmanla uzak hedefe başlanmaz, teknik destek sağlanır. Bu kayıt sistemi, dağınık yerleşimde bir sonraki ekibin önceki günün sözlü tarifine bağımlı kalmasını önler ve tamamlanmamış işi görünür tutar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Konum göndermek günlük rota için yeterli midir?",
+                cevap:
+                    "Tek başına yeterli değildir. Konum hedefi gösterir, fakat aracın hangi yönden yaklaşacağını, yolun genişliğini, dönme alanını, direğin yolun hangi tarafında olduğunu ve destek ayaklarının nereye basacağını göstermez. Geniş açı yol ve zemin fotoğrafları, hedef kotu, yatay engeller, irtibat kişisi, yapılacak iş ve enerji teslim saati de gerekir. Vinç işi varsa yük ve kaldırma düzenine ilişkin yetkili proje bilgisi eklenir. Bu kart tamamlandığında hedef rotaya girer. Eksik kartı sırf yakın göründüğü için programa almak, ekibin adreste beklemesine ve diğer hazır işlerin kaçmasına neden olur.",
+            },
+            {
+                soru: "Aynı gün farklı yerleşimlerde çalışma yapılabilir mi?",
+                cevap:
+                    "Araç üstü sepetli platform bu iş için uygundur; ancak verim hedeflerin doğru sıraya konmasına bağlıdır. Yerleşimler tek yönlü rota üzerinde gruplanır, her durakta irtibat kişisi, malzeme ve elektrik yetkilisi önceden hazır tutulur. Bir nokta tamamlanıp bariyer kaldırılmadan diğerine geçilmez. Vinç gerektiren işler ortak zaman penceresinde toplanır; vincin bütün kısa armatür duraklarını izlemesi gerekmez. Hava veya izin sorunu çıkarsa hazır yedek karta geçilir. Rastgele yeni adres eklemek yerine eksik bilgili hedef sonraki programa alınır.",
+            },
+            {
+                soru: "Hat kapatma işlemini platform ekibi yapabilir mi?",
+                cevap:
+                    "Elektriksel ayırma, hattı bilen ve bu iş için yetkili teknik ekip tarafından yapılır. Besleme kesilir, yeniden açmayı önleyen kilitleme ve etiketleme uygulanır, çalışma noktasında gerilim yokluğu doğrulanır ve gerekli topraklama kurulur. Sepetli araç operatörü bu işlemlerin yerine geçmez; güvenli çalışma bölgesinin teslimini alır ve makineyi üretici sınırları içinde konumlandırır. Sepette elektriksel işi yapan kişinin yetkisi de ayrıca gerekir. İş sonunda sepet ve personel alanı terk eder, yeniden enerjilendirmeye hat yetkilisi karar verir. Sözlü ‘kapalı’ bilgisi yeterli kabul edilmez.",
+            },
+            {
+                soru: "Yağış veya yol kapanması bütün günü iptal eder mi?",
+                cevap:
+                    "Her zaman değil. Sabah kritik bağlantılar teyit edilir ve ana rotanın yanında hazırlanmış yedek hedefler tutulur. Bir yol ağır araç için uygun değilse o bölge zorlanmaz; aynı ekipmanla erişilebilen, zemini ve izni hazır başka yerleşime geçilir. Yağış sonrası yalnız yol geçişi değil destek ayağı yüzeyi de yeniden değerlendirilir. Yüksekte çalışma rüzgâr nedeniyle duruyorsa yerde malzeme hazırlığı ve adres kontrolü yapılabilir. Ancak yedek program da güvenlik verileri tamamlanmış kartlardan oluşur; zaman kaybını önlemek adına hazırlıksız adrese gidilmez.",
+            },
+            {
+                soru: "Direk değişimi olan gün vinç sürekli ekiple kalır mı?",
+                cevap:
+                    "İş listesine bağlıdır. Kaldırma gerektiren duraklar aynı zaman penceresinde gruplanabiliyorsa vinç bu noktalarda sepetli ekiple buluşur; yalnız armatür veya bağlantı işi bulunan diğer durakları izlemez. Her kaldırmada vinç direği güvenli biçimde yerleştirir, yük sabitlenir ve kaldırma alanı boşaltılır; sepet bundan sonra üst bağlantıya geçer. Dar yolda araçların giriş ve çıkış sırası önceden yazılır. Vincin beklemesini veya iki aracın birbirini kapatmasını önleyen şey bu buluşma planıdır; görevleri aynı anda yürütmek değildir.",
+            },
+            {
+                soru: "Gün sonunda yarım kalan direk işi nasıl bırakılır?",
+                cevap:
+                    "Enerjili bölüm, geçici bağlantı veya sabitlenmemiş eleman belirsiz halde bırakılmaz. Teknik ekip işin hangi güvenli aşamada durabileceğini belirler. Sepet indirilir, araç ve aletler çalışma alanından çıkarılır; gerekiyorsa alan fiziksel olarak korunur. Enerji izolasyonunun devam edip etmeyeceği hat yetkilisinin prosedürüne göre kayıt altına alınır ve vardiya devri yazılı yapılır. Kartta tamamlanan adım, eksik malzeme veya izin ve yeniden başlama koşulu görünür. Ertesi ekip sözlü tarife güvenmeden bu kaydı ve sahadaki gerçek durumu birlikte doğrular.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Sarıcakaya’nın kırsal ve dağınık yerleşim yapısı belge kapsamındaki kamuya açık genel çerçevedir; günlük rota kartı, vinç-sepet buluşması, elektriksel güvenli teslim ve zemin kontrolü sektör geneli uygulamadır. Özel tesis, mesafe, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:gunyuzu": {
+        h1: "Günyüzü’nde Uzak Kırsal Hatlar İçin Öz Yeterli Sepetli Platform Ekibi",
+        giris:
+            "Günyüzü’nde kırsal enerji ve aydınlatma programının ayırt edici konusu, ekipmanın sahaya çıktıktan sonra günlük küçük ihtiyaçlar için merkeze dönmeden çalışabilmesidir. Dağınık hat noktaları ve uzak kırsal duraklar arasında ilerleyen sepetli araç için yakıt, sarf malzemesi, temel yedekler, haberleşme ve servis planı iş başlamadan hazırlanır. Öz yeterlilik, operatörün sahada yetkisiz onarım yapması anlamına gelmez; günlük kontrolle erken belirtiyi yakalamak, güvenli küçük ikmalleri planlamak ve gerçek arızada ekipmanı durdurup doğru teknik desteği çağırmaktır. Yeni direk veya ağır donanım gerekiyorsa vinç ayrı kaldırma göreviyle rotaya katılır, sepet üst bağlantıyı daha sonra tamamlar. Elektrik hattının ayrılması ve topraklanması yetkili teknik ekibin sorumluluğundadır. Günlük rota, dönüş için gereken payı tüketmeyecek şekilde kurulur ve her durak kendi zemin, enerji ve erişim kontrolünden sonra açılır.",
+        maddeler: [
+            {
+                baslik: "Yakıt ve şarj planını rotadan önce kapatmak",
+                metin:
+                    "Araç üstü sepetli platformun yol yakıtı ile üst yapı çalışma ihtiyacı, ekipman tipine göre planlanır; gün ortasında uygun ikmal noktası bulunacağı varsayılmaz. Rota, çıkış öncesi doluluk ve güvenli dönüş payıyla hazırlanır. Taşınacak yakıt veya enerji ekipmanı üretici talimatına ve mevzuata uygun biçimde muhafaza edilir; açık kap, uygunsuz aktarma veya sıcak yüzey yakınında ikmal yapılmaz. Akülü yardımcı ekipman varsa şarjı ve yedek enerji düzeni kontrol edilir. Yakıt göstergesi kritik seviyeye düştüğünde son hedefe zorla girilmez; program kısaltılır. Günlük kayıt, tüketimin sonraki rota için gerçek veri olmasını sağlar.",
+            },
+            {
+                baslik: "Sarf ve temel yedekleri durak sırasına hazırlamak",
+                metin:
+                    "Aydınlatma ve hat bakımında küçük bir bağlantı elemanı ya da uygun armatür eksikliği, uzak noktada bütün işi durdurabilir. Teknik ekip malzemeyi hedef kartlarına göre paketler; araçta ne olduğu ve hangi durakta kullanılacağı bellidir. Sepetli platformun kendi güvenli kullanımına ilişkin üreticinin izin verdiği günlük bakım sarfları da ayrı tutulur. Bu hazırlık, sahada doğaçlama parça üretmek veya uygun olmayan bileşen kullanmak için gerekçe değildir. Eksik ya da projeyle uyuşmayan malzemede iş güvenli aşamada durur. Vinçle kaldırılacak elemanın sapan ve bağlantı düzeni yetkili kaldırma planına göre gelir; rastgele ekipman seçilmez.",
+            },
+            {
+                baslik: "Arıza belirtisinde durdurma ve servis zinciri",
+                metin:
+                    "Uzak sahada makinenin olağan dışı sesi, hidrolik sızıntısı, kumanda uyarısı veya destek ayağı sorunu küçük görülmez. Operatör sepeti güvenli biçimde indirir, ekipmanı kullanımdan çıkarır ve belirtiyi teknik desteğe doğru aktarır. Yalnız üreticinin kullanıcı seviyesinde tanımladığı kontroller yapılır; emniyet sistemini köprüleme, ayarı değiştirme veya yetkisiz sökme yapılmaz. Servisin sahaya erişim yöntemi, ikame ihtimali ve aracın güvenli bekleme noktası sözleşme öncesinde konuşulur. Haberleşmenin zayıf olabileceği duraklarda irtibat ve konum paylaşımı rota başlamadan hazırlanır. Program baskısı arızalı ekipmanı kullanma nedeni değildir.",
+            },
+            {
+                baslik: "Her direkte bağımsız zemin ve enerji kontrolü",
+                metin:
+                    "Uzun kırsal rota boyunca bir önceki durağın güvenli olması sonrakini garanti etmez. Banket, tarla girişi, menfez ve sıkıştırılmış yüzey her noktada yeniden incelenir; destek ayakları yük dağıtıcı plakayla sağlam zemine kurulur. Aynı şekilde elektriksel izin de hedefe özgüdür. Hat yetkilisi beslemeyi ayırır, yeniden açmayı önler, gerilim yokluğunu doğrular ve gerekli topraklamayı teslim eder. Sepet ancak bu iki bağımsız kontrol, yani makine zemini ve elektrik güvenliği tamamlanınca yükselir. Hedefe erişim yalnız yumuşak kenardan mümkün görünüyorsa daha güvenli yatay konum araştırılır; uygun çözüm yoksa iş ertelenir.",
+            },
+            {
+                baslik: "Dönüş payı ve gün sonu park kararı",
+                metin:
+                    "Uzak kırsalda son hedefe başlama kararı, işin tahmini süresinin yanında gün ışığı, hava, yakıt ve güvenli dönüş güzergâhıyla verilir. Yeni bir direk değişimi veya enerji ayırması gün sonunda açılmaz. Kısa ve önceden hazırlanmış bir aydınlatma kartı kapanabilecekse uygulanır; aksi hâlde ekip ertesi güne hazırlık yapar. Çok günlük programda aracın sahada kalacağı düz, korunaklı ve erişimi kontrollü park yeri önceden belirlenir. Gece şarjı veya yakıt muhafazası için uygun koşul yoksa ekipman rastgele bir noktada bırakılmaz. Gün sonunda araç kontrolü, malzeme sayımı ve ertesi rota teyidi tamamlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Öz yeterli kırsal ekip hazırlık matrisi",
+                paragraflar: [
+                    "Öz yeterlilik, sahada her sorunu onarmak değil, önlenebilir eksikleri kapatıp yetki sınırını bilmektir. Tablo, rota öncesi hazırlığın temel başlıklarını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Başlık", "Çıkış öncesi hazırlık", "Sahadaki sınır", "Karar"],
+                    satirlar: [
+                        ["Yakıt ve enerji", "Rota ve dönüş payı", "Uygunsuz ikmal yok", "Kritik seviyede rotayı kısalt"],
+                        ["Bakım malzemesi", "Kart bazlı paketleme", "Uyumsuz parça kullanma", "Eksikte işi ertele"],
+                        ["Makine kontrolü", "Lastik, hidrolik, kumanda", "Emniyet sistemine müdahale yok", "Belirtide durdur"],
+                        ["Haberleşme", "Konum ve irtibat zinciri", "Kapsama varsayımı yok", "Önceden bildirim noktası seç"],
+                        ["Elektrik güvenliği", "Yetkili ve ayırma planı", "Operatör hattı ayırmaz", "Teslim olmadan yükselme"],
+                        ["Gece parkı", "Düz ve korunaklı yer", "Rastgele saha bırakma yok", "Koşul yoksa geri dön"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çıkış kontrolü ve servis senaryosu",
+                paragraflar: [
+                    "Sabah kontrolünde aracın yol güvenliği ile üst yapının çalışma güvenliği ayrı ayrı ele alınır. Lastik, aydınlatma, görünür sızıntı, destek ayakları, korkuluk, kumanda, acil indirme ve uyarılar gözden geçirilir. Kullanıcı seviyesinde tanımlı sıvı ve enerji kontrolleri üretici talimatına göre yapılır. Elektrik ekibinin ayırma-topraklama donanımı ile hedef malzemeleri kendi sorumluları tarafından sayılır. Konumlar çevrimdışı erişilebilecek biçimde hazırlanır ve günün bildirim düzeni belirlenir.",
+                    "Arıza senaryosu çıkıştan önce yazılır: operatörün kimi arayacağı, aracın güvenle nerede bekleyeceği, teknik desteğin hangi bilgi ve fotoğrafları isteyeceği ve sepet yüksekte kalırsa acil indirme sorumluluğu bilinir. Bu plan yetkisiz tamire izin vermez; tersine sınırı belirler. İkame ekipman gerekiyorsa yeni ünitenin rota ve zemin koşuluna uygunluğu yeniden kontrol edilir. Arızalı makinenin yerine gelen her sınıfın aynı çalışma zarfına sahip olduğu varsayılmaz.",
+                ],
+            },
+            {
+                baslik: "Çok günlük kırsal programın kaydı",
+                paragraflar: [
+                    "Her durak tamamlandığında kullanılan malzeme, yakıt veya enerji durumu, makine gözlemi, elektriksel teslim ve alanın yeniden açılması karta işlenir. Ertelenen hedefin nedeni zemin, izin, hava veya eksik malzeme olarak açıkça belirtilir. Bu bilgiler ertesi gün rotasını değiştirir; aynı engelle karşılaşmak üzere geri dönülmez. Vinç kullanılan noktada kaldırma tamamlanması ve sepet aşamasına geçiş ayrı kayıt olur. İş ekiplerinin sorumluluğu birbirine karışmaz.",
+                    "Gün sonu parkında bom ve ayaklar tamamen toplanır, araç düz zemine alınır ve yetkisiz erişim önlenir. Yakıt veya şarj güvenli düzende tamamlanır, sarf ve malzeme yeniden sayılır. Hava ile yol durumu ertesi sabah tekrar teyit edilir. Park koşulu uygun değilse araç güvenli üsse döner; yalnız ertesi hedefe yakın olmak için kontrolsüz yerde bırakılmaz. Bu düzen, uzak kırsal programın tesadüfi değil tekrarlanabilir olmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Öz yeterli ekip sahada makine arızasını onarır mı?",
+                cevap:
+                    "Öz yeterlilik yetkisiz onarım demek değildir. Operatör üreticinin günlük kullanıcı kontrolü olarak tanımladığı adımları uygular, belirtileri doğru kaydeder ve ekipmanı güvenli biçimde durdurur. Hidrolik, kumanda veya emniyet sistemi üzerinde sökme, ayar değiştirme ya da köprüleme yapmaz. Teknik destekle iletişim kurulur; servis veya ikame gereksinimi belirlenir. Araç güvenli bir noktada bekletilir ve çalışma alanı korunur. Ön hazırlığın amacı küçük eksiklerin arızaya dönüşmesini önlemek ve gerçek arızada doğru zinciri hızla başlatmaktır; programı sürdürmek uğruna makine güvenliği sınırını aşmak değildir.",
+            },
+            {
+                soru: "Yakıtı sahaya yedek olarak götürüyor musunuz?",
+                cevap:
+                    "Ekipman ve rota ihtiyacı önceden hesaplanır; gerekli ikmal düzeni yalnız uygun kap, taşıma ve güvenlik kurallarıyla oluşturulur. Açık kapta yakıt, uygunsuz aktarma veya sıcak yüzey yakınında ikmal yapılmaz. Yol aracı ile üst yapının ihtiyaçları ekipman tipine göre ayrı değerlendirilir. Ana yaklaşım, çıkışta yeterli seviye ve güvenli dönüş payıyla hareket etmektir. Tüketim beklenenden yüksekse son hedefe zorla başlanmaz; rota kısaltılır veya güvenli ikmal planı uygulanır. Kesin tüketim rakamı sahayı görmeden verilmez, günlük kayıt sonraki programın hesabını iyileştirir.",
+            },
+            {
+                soru: "Telefon çekmeyen bir hatta servis iletişimi nasıl kurulur?",
+                cevap:
+                    "Rota öncesinde kapsama belirsizliği olan duraklar işaretlenir, ekibin hangi zamanlarda ve hangi noktadan durum bildireceği belirlenir. Konumlar ve iş kartları çevrimdışı erişilebilir tutulur. İşletme veya hat sorumlusuyla alternatif irtibat zinciri paylaşılır. Arıza halinde önce sepet güvenli biçimde indirilir ve makine kullanımdan çıkarılır; ekip yalnız bağlantı bulmak için arızalı araçla riskli hareket yapmaz. Gerekirse önceden bilinen iletişim noktasına başka araç veya ekip üyesi gider. Haberleşme planı acil prosedürün yerini tutmaz, onun sahada işletilebilmesini sağlar.",
+            },
+            {
+                soru: "Her direkte yeniden enerji kontrolü neden gerekiyor?",
+                cevap:
+                    "Kırsal rota farklı besleme kollarına ve ayırma bölgelerine girebilir; önceki direkte alınan izin sonraki hedefin güvenli olduğunu kanıtlamaz. Hattan sorumlu yetkili, çalışılacak bölümü tanımlar, beslemeyi ayırır, yeniden açmayı engeller, gerilim yokluğunu doğrular ve gerekli topraklamayı kurar. Komşu enerjili bölümler de değerlendirilir. Araç operatörü bu elektriksel işlemleri üstlenmez; çalışma bölgesinin teslimini alır. İş kısa olsa bile kontrol atlanmaz. Kart bazlı kayıt, hangi hedefin hangi izin altında tamamlandığını görünür kılar ve vardiya değişiminde sözlü varsayımları önler.",
+            },
+            {
+                soru: "Makine kırsalda gece bırakılabilir mi?",
+                cevap:
+                    "Yalnız önceden belirlenmiş, düz, taşıma gücü uygun, korunaklı ve yetkisiz erişime kapalı bir alan varsa bırakılır. Bom ile destek ayakları tamamen toplanır, kumanda güvene alınır ve görünür durum kaydedilir. Yakıt veya şarj düzeni araç trafiğinden uzak ve üretici talimatına uygun olmalıdır. Park yerinde bu koşullar yoksa yalnız ertesi hedefe yakın olmak için makine sahada bırakılmaz; güvenli üsse döner. Sabah kullanım öncesi kontrol yeniden yapılır. Gece boyunca sorumluluk ve erişim yetkisi teslim tutanağında açıkça belirtilir.",
+            },
+            {
+                soru: "Gün sonunda son bir kısa armatür işi eklenebilir mi?",
+                cevap:
+                    "Yalnız kartı önceden hazırlanmış, erişimi görülmüş, enerji teslimi hazır ve güvenli dönüş payını tüketmeyecek bir hedefse değerlendirilebilir. Gün ışığı azalırken bilinmeyen zeminde destek ayağı kurmak veya yeni bir enerji bölgesi açmak doğru değildir. Vinç gerektiren ya da sonucu belirsiz iş ertesi güne bırakılır. Kalan süre malzeme düzenleme, yerde kontrol ve ertesi rota teyidi için kullanılabilir. Kısa görünmesi güvenlik adımlarını azaltmaz; alan bariyeri, elektriksel teslim, alet-parça sayımı ve kapanış yine tamamlanır. Son hedef kararı operatör ile teknik sorumlunun gerçek saha koşuluna göre verilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Günyüzü’nün uzak kırsal hat bağlamı görev belgesindeki genel çerçevedir; yakıt-servis öz yeterliği, günlük kontrol, elektriksel teslim, park ve rota kaydı sektör geneli saha uygulamasıdır. Özel tesis, mesafe, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };
