@@ -615,4 +615,400 @@ export const MANLIFTKIRALA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Ankara merkezin küçük ölçekli ticari-servis dokusu kamuya açık bilgidir; asgari liste, kontrol-onarım ayrımı ve komşu birleştirme düzeni firma pratiğidir. Kamusal alan kullanımı belediye mevzuatına tabidir.",
     },
+
+    "bolge:sasmaz-sanayi-sitesi": {
+        h1: "Şaşmaz Sanayi Sitesi'nde Oto Sanayi Atölyesi için Yıllık Bakım Takvimi",
+        giris:
+            "Şaşmaz Sanayi Sitesi'nde bir işletmenin yılı, üç işin ritmiyle geçer: kaporta-boya, lastik-yedek parça ve showroom-satış. Bu üç iş kolu birbirinden farklı yoğunluk mevsimlerine sahiptir ve tam da bu yüzden bakım takvimi kurmak burada hem daha gerekli hem daha kolaydır — yoğun ay bellidir, sakin ay bellidir, takvim bu ikisinin arasına yerleştirilir. Sorun, çoğu işletmenin bu bilgiyi kullanmamasıdır: bakım işleri hep 'ara sıra' başlığı altında kalır ve genellikle en yanlış anda, işin en yoğun olduğu haftada hatırlanır. Bu sayfa, Şaşmaz'daki oto sanayi atölyesi için bir yıllık bakım takvimi öneriyor — boyahanenin filtre ve aspiratör bakımı hangi aya yazılır, kaporta atölyesinin kaldırma ekipmanı kontrolleri ne sıklıkla yapılır, showroom aydınlatması ne zaman yenilenir ve kış lastik sezonunun bakım planını nasıl şekillendirdiği. Yükseğe erişim, bu takvimin birkaç satırında görünür; asıl konu takvimin kendisidir.",
+        maddeler: [
+            {
+                baslik: "Üç iş kolu, üç ayrı yoğunluk eğrisi",
+                metin:
+                    "Şaşmaz'daki bir işletme kaporta-boya, lastik-yedek parça ve showroom-satış işlerinden birini ya da birkaçını birlikte yürütür ve bu kollar farklı aylarda doluya çıkar. Kaporta-boya işi yıl boyu nispeten dengelidir ama kaza sezonlarında (yağmurlu-buzlu dönemler) sıçrar. Lastik ve yedek parça tarafı mevsim geçişlerinde, özellikle kış lastiği takma-sökme döneminde iş hacmini birkaç katına çıkarır. Showroom-satış ise yıl sonu kampanyalarında yoğunlaşır. Bakım takvimi kurmanın ilk adımı, kendi işletmenizin hangi ayda hangi kolunun doluya çıktığını yazmaktır — bakım, o ayların dışına yerleştirilir.",
+            },
+            {
+                baslik: "Boyahanede filtre ve aspiratör bakımının kaçınılmazlığı",
+                metin:
+                    "Boya kabini ve aspiratör hattı, atölyenin en sık bakım isteyen kalemidir çünkü boya tozu ve solvent buharı sürekli birikir. Filtre değişimi ertelendiğinde iki sonuç birden doğar: emiş gücü düşer ve boya kalitesi bundan etkilenir, ayrıca biriken toz yanıcı bir yük hâline gelir. Bu kalemin bakım sıklığı kullanım yoğunluğuna göre değişir ama takvime yazılması gereken şey netleşmiştir — filtre kontrolü, düzenli aralıklarla ve mutlaka kayıtla yapılır; kayıt hem iş güvenliği hem sigorta açısından işletmenin elindeki tek somut kanıttır.",
+            },
+            {
+                baslik: "Kaporta atölyesinde kaldırma ekipmanı kontrol periyodu",
+                metin:
+                    "Kaporta işinde kullanılan tavan vinci, zincirli caraskal veya sabit kaldırma donanımı, kendi periyodik kontrol takvimine tabidir ve bu takvim işletmenin genel bakım planının sabit çıpasıdır. Diğer kalemler (aydıntıma, havalandırma, çatı) bu çıpanın etrafına dizilir çünkü kaldırma ekipmanı kontrolü zaten belirli bir tarihte yapılacaktır — aynı güne aydınlatma ve havalandırma turunu eklemek, ayrı bir gün açmaktan daha ekonomiktir. Bu birleştirme, Şaşmaz'daki çok işlevli atölyelerde en sık uygulanan ve en az maliyetli yöntemdir.",
+            },
+            {
+                baslik: "Showroom ve vitrin bakımının ayrı takvimi",
+                metin:
+                    "Satış alanı olan işletmelerde vitrin ve iç aydıntıma, atölye bakımından farklı bir mantıkla planlanır çünkü burada öncelik estetiktir, güvenlik değil. Sönük bir spot ya da eskimiş bir tabela ışığı, müşteri karşısında doğrudan izlenim kaybettirir ve bu kayıp arıza gibi ölçülmez ama satışa yansır. Showroom bakımı, yıl sonu kampanya döneminden birkaç hafta önceye yazılır — kampanya başladığında değil, başlamadan önce tamamlanır. Atölye tarafındaki bakımla aynı güne sıkıştırılmaz çünkü ikisinin önceliği farklıdır: biri güvenlik, diğeri izlenimdir.",
+            },
+            {
+                baslik: "Kış lastik sezonu: bakımın konulmaması gereken pencere",
+                metin:
+                    "Lastik ve yedek parça işi yapan işletmeler için kış lastiği sezonu, yılın en yoğun birkaç haftasıdır ve bu haftalarda planlı bakım kesinlikle düşünülmez — makine bulmak da zorlaşır, personel de meşguldür. Doğru refleks tam tersidir: bakım takvimi, bu yoğun pencerenin hemen öncesine ya da hemen sonrasına yazılır. Sezon öncesi bakım, en yoğun haftalara sağlam ekipmanla girmeyi sağlar; sezon sonrası bakım ise yoğunluğun bıraktığı aşınmayı (artan trafik, sık kullanılan raf sistemleri) erken yakalar. İkisi arasında seçim, işletmenin kendi önceliğine kalır ama boş geçirilmemesi gereken bir pencere olduğu nettir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Şaşmaz'da iş koluna göre yıllık bakım çizelgesi",
+                paragraflar: [
+                    "Aşağıdaki çizelge, Şaşmaz'daki üç ana iş kolunun tipik bakım kalemlerini ve uygun dönemlerini gösterir. İşletmeler genellikle birden fazla kolu birlikte yürüttüğü için kalemler aynı güne toplanabilir.",
+                ],
+                tablo: {
+                    basliklar: ["İş kolu", "Bakım kalemi", "Uygun dönem", "Yoğun dönemle çakışır mı"],
+                    satirlar: [
+                        ["Kaporta-boya", "Filtre / aspiratör kontrolü", "Düzenli aralık", "Hayır"],
+                        ["Kaporta-boya", "Kaldırma ekipmanı periyodik kontrol", "Yasal periyoda göre", "Sabit çıpa"],
+                        ["Lastik-yedek parça", "Raf üstü aydınlatma / erişim", "Kış sezonu öncesi/sonrası", "Kaçınılır"],
+                        ["Showroom-satış", "Vitrin ve iç aydınlatma", "Kampanya öncesi", "Kaçınılır"],
+                        ["Genel", "Çatı ve su hattı", "Sonbahar başı", "Hayır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Boya tozu birikiminin görünmeyen riski",
+                paragraflar: [
+                    "Boya kabini ve aspiratör kanallarında biriken toz, iki ayrı sorunu aynı anda büyütür. Birincisi verim kaybıdır — emiş gücü düştükçe boya kalitesi ve iş süresi kötüleşir. İkincisi yangın riskidir — boya tozu ve solvent kalıntısı, düzenli temizlenmediğinde tutuşma yükünü artırır. Bu ikinci risk, filtre bakımını 'estetik' bir kalemden çıkarıp güvenlik kalemine taşır ve takvimde en üst sıraya yazılmasının nedenidir.",
+                    "Bakım sıklığı, kabin kullanım yoğunluğuna göre değişir; sürekli çalışan bir kabin ile ara sıra kullanılan bir kabinin ihtiyacı aynı değildir. Doğru yaklaşım, ilk yılın gözlemine göre kendi sıklığınızı belirlemek ve bunu takvime yazılı olarak sabitlemektir.",
+                ],
+            },
+            {
+                baslik: "Bakımı kış sezonundan önce bitirmenin ekonomisi",
+                paragraflar: [
+                    "Şaşmaz'daki lastikçi ve yedek parça işletmelerinde en sık görülen planlama hatası, bakımı 'işler sakinleşince yaparız' diye ertelemektir — ama kış sezonunda sakinleşme genellikle ilkbahara kadar gelmez, çünkü ardından yaz lastiği dönemi başlar. Sonuç, bakımın yıl boyu 'sonra' rafında kalmasıdır. Takvimi sezon öncesine sabit bir tarihle bağlamak (örneğin ekim başı) bu döngüyü kırar; tarih, işlerin sakinleşmesini beklemez, kendisi bir çıpa olur.",
+                    "İkinci ekonomi, ekipman müsaitliğindedir. Kış sezonu başladığında hem müşteri talebi hem sektördeki ekipman talebi aynı anda yükselir; sezon öncesinde planlanan bakım, hem daha uygun tarihte hem daha az rekabetle kiralanır. Sezon içinde çıkan acil bir ihtiyaç ise aynı kolaylığı bulamayabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Boyahanemizin filtre bakımını ne sıklıkla yapmalıyız?",
+                cevap:
+                    "Kesin bir sayı vermek yanıltıcı olur çünkü sıklık kabin kullanım yoğunluğuna bağlıdır; sürekli çalışan bir kabin ile haftada birkaç iş yapan bir kabinin ihtiyacı farklıdır. Doğru yöntem, ilk birkaç ayı gözlemleyip emiş gücündeki düşüşü ve filtre üzerindeki birikim hızını not etmektir — bu gözlem size kendi sıklığınızı verir. Bulduğunuz sıklığı takvime yazılı bir tarih olarak sabitleyin; 'gerektiğinde bakarız' cümlesi, çoğu atölyede filtrenin aylarca unutulmasına yol açar. İsterseniz ilk gözlem turunu birlikte yapıp başlangıç sıklığını belirleyebiliriz.",
+            },
+            {
+                soru: "Kaldırma ekipmanı kontrolünü bakım takvimine nasıl entegre ederiz?",
+                cevap:
+                    "Kaldırma ekipmanının kendi yasal periyodik kontrol tarihi zaten sabittir ve değiştirilemez; doğru yaklaşım bu tarihi bir çıpa olarak kullanmaktır. Aynı güne aydınlatma turu, havalandırma kontrolü ve gerekiyorsa filtre bakımını eklemek, ayrı bir gün açmaktan daha ekonomiktir çünkü nakliye ve kurulum tek seferde amorti edilir. Kaldırma kontrolünüzün tarihini paylaşırsanız, diğer kalemleri o güne göre planlayabiliriz.",
+            },
+            {
+                soru: "Kış lastik sezonunda bakım yaptırmak gerçekten sakıncalı mı?",
+                cevap:
+                    "Sakıncalı değil ama verimsiz — sezonun en yoğun haftalarında hem personel meşgul hem sektördeki ekipman talebi yüksektir, bu da hem planlama hem tarih esnekliği açısından işletmenin elini zayıflatır. Sezon öncesine (örneğin ekim başına) sabitlenen bir bakım tarihi, aynı işi daha uygun koşullarda ve daha geniş takvim seçeneğiyle tamamlar. Sezon içinde gerçekten acil bir durum çıkarsa elbette cevap veririz, ama bunu istisna olarak bırakmanızı öneririz.",
+            },
+            {
+                soru: "Showroom bakımını atölye bakımıyla aynı güne alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz ama önerimiz ayrı tutmanızdır, çünkü ikisinin önceliği farklıdır. Atölye bakımı güvenlik ve verim odaklıdır ve zamanlaması kaldırma ekipmanı kontrolü gibi sabit tarihlere bağlıdır; showroom bakımı ise izlenim odaklıdır ve doğru zamanlaması kampanya döneminden hemen öncedir. İkisini aynı güne sıkıştırmak, ikisinden birinin yanlış zamanda yapılmasına yol açar. İşletmenizin kampanya takvimini paylaşırsanız iki ayrı tarih öneririz.",
+            },
+            {
+                soru: "Bakım kaydı tutmak bize gerçekten ne kazandırır?",
+                cevap:
+                    "İki somut şey: birincisi filtre ve kaldırma ekipmanı gibi kalemlerde tarih ve bulgu kaydı, hem iş güvenliği denetiminde hem sigorta sürecinde elinizdeki tek nesnel belgedir. İkincisi, ikinci yıldan itibaren kendi işletmenizin gerçek bakım sıklığını size gösterir — filtre gerçekte ne kadar sürede tıkanıyor, kaldırma ekipmanında hangi bulgular tekrar ediyor. Bu bilgi olmadan her yıl aynı tahminle yola çıkarsınız; kayıtla birlikte plan, tahminden gerçeğe döner.",
+            },
+            {
+                soru: "Aynı sitede birkaç işletme bakım turunu birleştirebilir mi?",
+                cevap:
+                    "Evet ve Şaşmaz'ın yoğun işletme dokusunda bu oldukça uygulanabilir bir modeldir. Komşu işletmelerin bakım tarihleri aynı haftaya denk getirildiğinde nakliye ve kurulum payı bölünür, işletme başına maliyet düşer. Tek koşul, her işletmenin kendi kalem listesini önceden hazır etmesi ve alanını o saatte boşaltmasıdır. Komşularınızla bu konuda anlaşırsanız, sıralamayı ve saatleri birlikte kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Şaşmaz Sanayi Sitesi'nin kaporta-boya, lastik-yedek parça ve showroom karışık dokusu kamuya açık bilgidir; yıllık takvim, boya tozu risk değerlendirmesi ve sezon-öncesi planlama firma pratiğidir. Kaldırma ekipmanı kontrol periyotları ilgili mevzuata tabidir.",
+    },
+
+    "bolge:etimesgut-kucuk-sanayi-sitesi": {
+        h1: "Etimesgut Küçük Sanayi Sitesi'nde Kendin Yap Sınırı: Ne Zaman Profesyonel Destek Gerekir",
+        giris:
+            "Etimesgut Küçük Sanayi Sitesi'ndeki bir dükkânın en değerli kaynağı ustanın kendisidir — çoğu iş onun elinden çıkar ve bu, işletmenin en büyük avantajıdır. Ama her avantajın bir sınırı vardır ve yükseğe erişim, o sınırın en net göründüğü alandır. Dükkân sahibi ya da ustası merdivenle ya da taburede çıkıp pek çok işi güvenle bitirir; sorun, bu alışkanlığın sınırın nerede bittiğini fark etmeden devam etmesidir. Bu sayfa, KSS ölçeğindeki bir dükkânda hangi işin gerçekten kendi imkânlarınızla bitebileceğini, hangisinin ekipman gerektirdiğini ve aradaki çizginin nasıl çizileceğini anlatıyor — teorik bir güvenlik söylevi değil, dükkân işletmecisinin karar anında sorabileceği somut sorular. Amaç kiralamayı büyütmek değil, doğru işte doğru aracı kullanmaktır; çoğu zaman doğru araç merdivendir, bazen değildir.",
+        maddeler: [
+            {
+                baslik: "KSS dükkânının kendine has ölçeği",
+                metin:
+                    "Etimesgut KSS'deki dükkânlar genellikle dar, tavanı düşük ve tek işlevden çok işleve göre düzenlenmiştir — depo, atölye ve bazen küçük bir satış köşesi aynı çatı altındadır. Bu ölçekte yükseğe erişim ihtiyacı sanayi tesisindeki gibi geniş ve tekrarlayan değil, dağınık ve küçük hacimlidir: bir armatür, bir raf üstü, bir çatı kaçağı. Küçük ölçek, 'zaten küçük iş' varsayımını doğurur ve bu varsayım çoğu zaman doğrudur — ama iş küçük olsa bile risk küçük olmayabilir. Ölçüt, işin büyüklüğü değil işin niteliğidir.",
+            },
+            {
+                baslik: "Merdivenle güvenle bitecek işler",
+                metin:
+                    "Bir dükkânda merdiven ya da tabure, doğru kullanıldığında birçok işi güvenle bitirir: kısa süreli bir kontrol, bir ampul değişimi, bir rafın üzerine erişip malzeme indirme, bir noktada hızlı bir ölçüm. Bu işlerin ortak özelliği kısalığı ve tek noktada kalmasıdır — merdiven bir kez kurulur, iş birkaç dakikada biter, merdiven kaldırılır. Bu tür işlerde ekipman çağırmak gereksiz bir masraftır ve çoğu KSS ustası bu ayrımı zaten doğru yapar.",
+            },
+            {
+                baslik: "Üç kırmızı çizgi: süre, iki el, yatay hareket",
+                metin:
+                    "Sınırın net göründüğü üç durum vardır. Birincisi süre — iş on-on beş dakikayı aşıyorsa, merdivende geçirilen uzun süre yorgunluk ve denge kaybı riskini büyütür. İkincisi elin serbest olması — usta iki elini birden kullanacaksa (bir parçayı tutup diğer eliyle vidalamak gibi) merdivende güvenli tutunma noktası kalmaz. Üçüncüsü yatay hareket — iş bir hat boyunca ilerliyorsa (örneğin bir raf sırasının tamamı, bir çatı derenin tamamı) merdivenin her birkaç metrede yeniden kurulması gerekir ve asıl kaza riski bu tekrarlanan kurulum anlarında yaşanır. Bu üç durumdan biri karşınıza çıktığında, iş artık merdiven işi değildir.",
+            },
+            {
+                baslik: "Elektrik ve çatı işlerinde sınırın daha erken bitmesi",
+                metin:
+                    "KSS dükkânlarında iki iş türü, genel kuraldan daha erken sınıra girer. Elektrik panosu üstü ya da hat üzerindeki bir işte, yalnızca yükseklik değil gerilim riski de vardır ve bu ikisi bir araya geldiğinde merdiven üzerinde çalışmak önerilmez. Çatı işlerinde ise zemin türü belirsizdir — sac çatıda basılabilir nokta ile basılamayan nokta arasındaki fark gözle her zaman ayırt edilemez ve bu belirsizlik, merdivenle bile ulaşılsa çatı üstü işi riskli kılar. Bu iki alanda 'kısa iştir, hallederiz' refleksi en çok kazaya yol açan refleks olarak bilinir.",
+            },
+            {
+                baslik: "Ekipman çağırmanın dükkân ölçeğindeki gerçek maliyeti",
+                metin:
+                    "KSS ölçeğinde ekipman çağırmaktan kaçınmanın nedeni genellikle maliyet endişesidir, ama bu endişe hesaplanmadan büyür. Kısa bir iş için gelen kompakt bir platform, çoğu zaman birkaç saatte tamamlanır ve dükkânın günlük işleyişini neredeyse hiç etkilemez — buna karşılık merdivenle uzayan, tekrar tekrar kurulan ve sonunda yarım kalan bir iş, hem daha çok zaman hem de daha çok risk taşır. Doğru soru 'ekipman pahalı mı' değil, 'bu işi merdivenle bitirmek gerçekten daha ucuz mu' sorusudur; cevap, işin süresi ve tekrar sayısı hesaba katıldığında çoğu zaman sanılanın tersidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kendin yap / ekipman çağır karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, KSS dükkânında sık karşılaşılan işleri ve hangi tarafa düştüğünü gösterir. Sınırda kalan işlerde karar, işin süresine ve tekrar sayısına göre verilir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik durum", "Karar", "Neden"],
+                    satirlar: [
+                        ["Tek ampul değişimi", "Kısa, tek nokta", "Merdiven yeterli", "Süre ve tekrar düşük"],
+                        ["Raf sırası boyunca aydınlatma", "Uzun, çok nokta", "Ekipman gerekir", "Tekrarlanan kurulum riski"],
+                        ["Pano üstü kontrol", "Kısa ama gerilim riskli", "Ekipman önerilir", "Yükseklik + elektrik riski"],
+                        ["Çatı kaçağı tespiti", "Zemin belirsiz", "Ekipman önerilir", "Basılabilir nokta net değil"],
+                        ["Hızlı ölçüm / göz kontrolü", "Çok kısa", "Merdiven yeterli", "Elin serbest, tek nokta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sigorta ve kayıt açısından bakım karar sürecinin önemi",
+                paragraflar: [
+                    "KSS ölçeğinde bir kaza yaşandığında, işletmenin elinde iş güvenliği açısından makul bir karar süreci izlediğini gösteren bir kayıt olması önemli fark yaratır. Hangi işin merdivenle, hangisinin ekipmanla yapıldığına dair basit bir not — tarih, iş, karar gerekçesi — bu sürecin belgesidir. Karmaşık bir sistem gerekmez; birkaç satırlık bir defter yeterlidir ve zamanla işletmenin kendi karar alışkanlığını da netleştirir.",
+                    "Bu kayıt aynı zamanda ustanın kendi güvenliği için bir hatırlatıcı işlevi görür — 'geçen sefer bu iş için ekipman çağırmıştık, neden' sorusunun cevabı yazılı olduğunda, aynı kararı tekrar tartışmaya gerek kalmaz.",
+                ],
+            },
+            {
+                baslik: "Komşu dükkânlarla ortak çağrı ekonomisi",
+                paragraflar: [
+                    "Etimesgut KSS'nin yoğun dükkân dokusunda tek bir işletmenin kısa bir işi için ekipman çağırmak, maliyeti tek başına taşımak anlamına gelir. Komşu birkaç dükkânın benzer nitelikte küçük işlerini (raf üstü, tabela, çatı noktası) aynı güne toplamak bu maliyeti böler ve her işletme için kiralamayı daha ekonomik hâle getirir. Bu birleştirme genellikle kendiliğinden olmaz; birinin komşularına 'aynı gün ekipman çağırıyoruz, sizin de bir işiniz var mı' diye sorması yeterlidir.",
+                    "Site yönetiminiz ya da esnaf odası bağlantınız varsa, bu tür ortak günleri dönemsel bir düzene bağlamak daha da kolaydır — birkaç dükkânın adını iletin, sıralamayı biz kuralım.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hangi işlerde merdiven kullanmak gerçekten güvenlidir?",
+                cevap:
+                    "İş kısa (on-on beş dakikayı aşmayan), tek noktada kalan ve iki elin serbest olduğu işlerde merdiven güvenlidir — bir ampul değişimi, hızlı bir kontrol, bir rafın üzerinden malzeme indirme gibi. Sorun, bu üç şarttan biri kaybolduğunda ortaya çıkar: iş uzarsa, iki el gerekiyorsa ya da hat boyunca ilerlemek gerekiyorsa merdiven artık doğru araç değildir. Kendi işinizi bu üç ölçütten geçirerek değerlendirmeniz, çoğu zaman kararı kendiliğinden verir.",
+            },
+            {
+                soru: "Elektrik panosu üstünde kısa bir iş var; merdivenle yapılabilir mi?",
+                cevap:
+                    "Önermeyiz, çünkü burada iki risk üst üste biner: yükseklik ve gerilim. Kısa bir iş bile olsa, merdivende dengeyi korurken aynı zamanda elektrikli bir yüzeyle çalışmak, tek bir riskin bulunduğu işlerden farklı değerlendirilmelidir. Bu tür işlerde kompakt bir platform, hem daha stabil bir çalışma zemini hem de elleri serbest bırakan bir duruş sağlar. İşin kapsamını paylaşırsanız, gerçekten ekipman gerektirip gerektirmediğini net söyleriz — her elektrik işini büyütmeyiz.",
+            },
+            {
+                soru: "Çatımızda küçük bir kaçak var; kendimiz bakabilir miyiz?",
+                cevap:
+                    "Çatı üstü işlerde temkinli olmanızı öneririz çünkü asıl risk yükseklikten çok zemindir — sac çatıda basılabilir nokta ile basılamayan nokta arasındaki fark yerden ya da merdivenden her zaman görülemez. Kısa bir görsel kontrol için çatıya çıkmadan, dışarıdan veya iç mekândan (varsa tavan arası) bakmak daha güvenlidir. Kaçağın yerini net biçimde görmek ve güvenle müdahale etmek gerekiyorsa, ekipmanla çatı üstüne hiç basmadan dıştan erişmek çoğu zaman daha güvenli ve daha hızlı bir yoldur.",
+            },
+            {
+                soru: "Ekipman çağırmak bizim ölçekte pahalı olmaz mı?",
+                cevap:
+                    "Genellikle sanıldığı kadar değil. Kısa bir dükkân işi için gelen kompakt ekipman çoğu zaman birkaç saatte biter ve dükkânın günlük işleyişini neredeyse etkilemez; buna karşılık merdivenle uzayan, tekrar tekrar kurulan bir iş hem daha çok zaman alır hem de yarım kalma riski taşır. İşinizin kapsamını paylaşırsanız gerçek bir süre ve maliyet tahmini veririz — kısa işlerde çoğu zaman ekonomi sandığınızdan farklı çıkar.",
+            },
+            {
+                soru: "Komşu dükkânlarla ortak çağırmak nasıl işliyor?",
+                cevap:
+                    "Birkaç dükkânın benzer küçük işlerini (raf üstü, tabela, çatı noktası) aynı güne toplamanız yeterli; ekipman o gün dükkân dükkân ilerler ve nakliye-kurulum payı katılımcı sayısına bölünür. Tek koşul, her dükkânın kendi işini önceden net biçimde tarif etmesi ve sırasında hazır olmasıdır. Kaç dükkân katılacağını ve yaklaşık iş listesini iletirseniz, sıralamayı ve saatleri biz kurarız.",
+            },
+            {
+                soru: "Karar sürecimizi kayıt altına almanın gerçekten faydası var mı?",
+                cevap:
+                    "Var — hem güvenlik hem de olası bir sorunda işletmenin lehine somut bir belge olarak. Basit bir kayıt (tarih, iş, alınan karar ve gerekçesi) hem ustanın kendi kararını hatırlamasını sağlar hem de dışarıdan biri (denetim, sigorta) süreç sorduğunda elinizde hazır bir cevap bulunur. Karmaşık bir sistem gerekmez; birkaç satırlık bir defter, zamanla işletmenizin kendi karar alışkanlığını da netleştirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Etimesgut Küçük Sanayi Sitesi'nin dar-çok işlevli dükkân dokusu kamuya açık bilgidir; üç ölçütlü karar çerçevesi ve ortak çağrı düzeni firma pratiğidir. Yükseklikte çalışma ile ilgili genel ilkeler iş güvenliği mevzuatına dayanır.",
+    },
+
+    "bolge:siteler-mobilya-sanayi-bolgesi": {
+        h1: "Siteler Mobilya Sanayi Bölgesi'nde Mobilya Atölyesi için Periyodik Bakım Rutini",
+        giris:
+            "Siteler'deki bir mobilya atölyesinde bakımın en büyük düşmanı, üretimin doğal artığıdır: talaş, zımpara tozu, lake buharı. Bu artıklar günlük temizlikte süpürülür ama havalandırma kanalında, aspiratör motorunda, tavan altı yüzeylerde sessizce birikir ve bu birikim, çoğu atölyede yıllarca fark edilmeden büyür. Mobilya üretiminin kendine has bir bakım rutini gerekir çünkü aşınma hızı, kuru bir imalat atölyesinden farklıdır — toz daha inceliklidir, buhar daha yapışkandır ve ikisi birlikte hem ekipman ömrünü hem hava kalitesini etkiler. Bu sayfa, Siteler ölçeğindeki bir mobilya atölyesi için periyodik bakım rutininin nasıl kurulacağını anlatıyor: toz ve talaş kaynaklı bakımın sıklığı, lake-boya kabini bakımının ayrı ele alınması gereken nedeni, stok-raf alanının kontrol düzeni, showroom bakımının atölyeden ayrılması ve yoğun teslimat dönemlerinin takvimi nasıl şekillendirdiği.",
+        maddeler: [
+            {
+                baslik: "Talaş ve toz: rutinin en sık tekrar eden kalemi",
+                metin:
+                    "Mobilya atölyesinde havalandırma ve aspiratör hattı, diğer imalat türlerine göre daha sık bakım ister çünkü ahşap tozu hem daha ince hem de daha kolay birikir. Emiş gücündeki düşüş genellikle geç fark edilir — usta, azalan emişe alışır ve bunu normal sanır — ama düşen emiş hem hava kalitesini hem de motor ömrünü doğrudan etkiler. Rutin kurmanın ilk kalemi bu yüzden nettir: emiş ve havalandırma kontrolü, diğer imalat türlerinden daha sık aralıklarla takvime yazılır.",
+            },
+            {
+                baslik: "Lake-boya kabininin ayrı bakım mantığı",
+                metin:
+                    "Mobilyada yüzey işlemi (lake, vernik, boya) yapan atölyelerde kabin ve filtre bakımı, genel havalandırmadan ayrı bir kalem olarak ele alınmalıdır çünkü buhar ve ince partikül birikimi farklı bir hızda ilerler ve farklı bir riski büyütür — hem yüzey kalitesi hem yanıcı yük açısından. Bu kalemin takvimdeki yeri, üretim yoğunluğuna göre belirlenir ve genel bakım turundan bağımsız olarak izlenir; iki kalemi aynı sıklığa bağlamak, ya kabini yetersiz sıklıkta ya da genel havalandırmayı gereksiz sıklıkta bakıma sokar.",
+            },
+            {
+                baslik: "Stok ve raf alanının üst kısmı: görünmeyen erişim ihtiyacı",
+                metin:
+                    "Mobilya atölyelerinde stok alanı genellikle yüksek raf sistemleriyle kurulur ve bu rafların üst kısmı — aydınlatma, sprinkler varsa başlıkları, havalandırma ağızları — günlük işleyişte kimsenin baktığı bir yer değildir. Raf üstü kontrol, yılda bir kez bile yapılsa iki kazanç sağlar: sönük armatürler zamanında değişir ve yangın güvenliği ekipmanı (varsa) görsel olarak doğrulanır. Bu kontrol, mobilya atölyesinin diğer bakım kalemlerinden farklı olarak stok yoğunluğunun en düşük olduğu döneme yazılmalıdır çünkü raf aralarına erişim, dolu stokla çok daha zordur.",
+            },
+            {
+                baslik: "Showroom bakımının atölyeden ayrılması",
+                metin:
+                    "Satış alanı bulunan mobilya işletmelerinde showroom aydınlatması ve vitrin düzeni, atölye bakımından farklı bir öncelik taşır: burada amaç ürünü doğru ışıkta göstermektir ve sönük ya da renk uyumsuz bir aydınlatma, satışı doğrudan etkiler. Bu kalem, atölye bakımıyla aynı güne sıkıştırılmak yerine kendi takvimine bağlanır ve doğru zamanlaması, yoğun satış dönemlerinden birkaç hafta öncesidir — kampanya başladığında değil, başlamadan tamamlanmış olmalıdır.",
+            },
+            {
+                baslik: "Yoğun teslimat dönemleri ve bakımın konumu",
+                metin:
+                    "Mobilya sektöründe teslimat yoğunluğu belirli dönemlerde (okul sezonu öncesi, yılbaşı, bayram öncesi) belirgin biçimde artar ve bu dönemlerde atölye kapasitesinin tamamı üretime ayrılır. Bakım turunu bu dönemlere denk getirmek, hem ekipman hem personel açısından en yanlış zamanlamadır. Doğru yaklaşım, kendi teslimat takviminizdeki yoğun ve sakin ayları önceden işaretlemek ve bakım kalemlerini sakin aylara yerleştirmektir — bu, takvim kurmanın en basit ama en sık atlanan adımıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mobilya atölyesi yıllık bakım çizelgesi",
+                paragraflar: [
+                    "Aşağıdaki çizelge, Siteler ölçeğindeki bir mobilya atölyesinin tipik bakım kalemlerini ve sıklığını gösterir. Lake-boya işi yapmayan atölyelerde ilgili satır devre dışı kalır.",
+                ],
+                tablo: {
+                    basliklar: ["Bakım kalemi", "Tipik sıklık", "Uygun dönem", "Not"],
+                    satirlar: [
+                        ["Genel emiş / havalandırma", "Yılda 2 – 3", "Düzenli aralık", "Diğer imalattan sık"],
+                        ["Lake-boya kabini filtresi", "Üretim yoğunluğuna göre", "Bağımsız takip", "Genel havalandırmadan ayrı"],
+                        ["Raf üstü aydınlatma / erişim", "Yılda 1", "Stok az iken", "Erişim kolaylığı için"],
+                        ["Showroom aydınlatma", "Kampanya öncesi", "Yoğun satıştan haftalar önce", "Atölyeden ayrı takvim"],
+                        ["Çatı ve su hattı", "Yılda 1", "Sonbahar başı", "Stok üstü hasarı önler"],
+                    ],
+                },
+            },
+            {
+                baslik: "Toz ve buharın ekipman ömrüne etkisi",
+                paragraflar: [
+                    "Ahşap tozu ve lake buharı, motorlu ekipmanın hareketli parçalarına ve elektrik bağlantılarına ulaştığında aşınmayı hızlandırır. Bu etki tek seferde görülmez; yıllar içinde birikir ve fark edildiğinde genellikle bir arıza olarak ortaya çıkar. Düzenli bakımın burada asıl işi, birikimi arıza olmadan görmektir — armatür bağlantısındaki toz katmanı, aspiratör motorundaki ısınma belirtisi, kabin filtresindeki doygunluk. Bu belirtiler erken yakalandığında bakım kısa sürer; arızaya dönüştüğünde iş hem uzar hem pahalanır.",
+                    "Bu yüzden mobilya atölyesinde bakım sıklığını 'genel kural' olarak değil kendi gözleminize göre ayarlamanızı öneririz — ilk yılın bulguları, sizin atölyenizin gerçek birikim hızını gösterir ve ikinci yılın takvimi buna göre ayarlanır.",
+                ],
+            },
+            {
+                baslik: "Sezon takvimini bakım planına yansıtmak",
+                paragraflar: [
+                    "Yoğun teslimat dönemlerinizi bir kez yazıya döktüğünüzde, bakım takvimini bu dönemlerin dışına yerleştirmek basit bir işe döner. Pratik yöntem, yıl başında kendi sezon takviminizi (yoğun aylar, sakin aylar) bir kenara not etmek ve bakım kalemlerini sakin aylara dağıtmaktır. Bu, hem ekipman müsaitliği açısından hem de personelin bakım gününe eşlik edebilmesi açısından işi kolaylaştırır.",
+                    "Aynı sitede benzer sezon takvimine sahip komşu atölyelerin bakım günlerini birleştirmek de mümkündür; Siteler'in yoğun mobilya dokusunda bu tür ortak günler nakliye payını belirgin biçimde düşürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Havalandırma bakımını neden diğer atölyelerden daha sık yapmalıyız?",
+                cevap:
+                    "Çünkü ahşap tozu diğer imalat artıklarına göre daha ince ve daha kolay biriken bir yapıdadır; emiş gücündeki düşüş yavaş ilerlediği için usta bu düşüşe alışır ve fark etmez hâle gelir. Oysa düşen emiş hem çalışma ortamının hava kalitesini hem motor ömrünü etkiler. Kesin bir sayı vermek yerine önerimiz, ilk yıl emiş gücünü ve filtre birikimini gözlemlemeniz ve bulduğunuz sıklığı takvime yazılı bir tarih olarak sabitlemenizdir.",
+            },
+            {
+                soru: "Lake kabini bakımını genel havalandırmayla birlikte mi yapmalıyız?",
+                cevap:
+                    "Önermeyiz — ikisi farklı hızda kirlenir ve aynı takvime bağlandığında biri gereğinden sık, diğeri gereğinden seyrek bakılmış olur. Lake-boya kabininin filtre ve emiş durumu, üretim yoğunluğunuza göre bağımsız izlenmelidir; kabin sık kullanılıyorsa bu kalem genel havalandırmadan çok daha sık takvime girer. İki kalemi ayrı satırlarda tutmanız, hem maliyeti hem de riski daha doğru yönetmenizi sağlar.",
+            },
+            {
+                soru: "Raf üstü kontrolünü ne zaman yaptırmalıyız?",
+                cevap:
+                    "Stok seviyenizin en düşük olduğu döneme yazın. Dolu raflarda üst kısma erişim hem zaman alır hem de stoğun yer değiştirmesini gerektirir; boş ya da az dolu rafta aynı iş çok daha hızlı ve daha ucuz biter. Yoğun teslimat döneminizin hemen sonrası, genellikle stokun en düşük olduğu ve bu kontrol için en uygun pencere hâline gelir.",
+            },
+            {
+                soru: "Showroom bakımını atölye bakımından ayırmak gerçekten önemli mi?",
+                cevap:
+                    "Evet, çünkü ikisinin önceliği ve doğru zamanlaması farklıdır. Atölye bakımı verim ve güvenlik odaklıdır ve toz-birikim gözlemine göre zamanlanır; showroom bakımı ise izlenim odaklıdır ve doğru zamanlaması kampanya döneminden haftalar öncesidir. İkisini aynı güne sıkıştırmak, genellikle showroom tarafının aceleye gelmesine yol açar çünkü atölye kalemleri daha acil görünür. Ayrı tuttuğunuzda her ikisi de kendi doğru zamanında biter.",
+            },
+            {
+                soru: "Yoğun teslimat dönemimizde acil bir bakım ihtiyacı çıkarsa ne yapmalıyız?",
+                cevap:
+                    "Acil durumlara elbette cevap veririz ve bunu istisna olarak görürüz — asıl önerimiz, bilinen yoğun dönemlerinizde planlı bakımı hiç açmamanızdır. Yıl başında kendi sezon takviminizi not edip bakım kalemlerini sakin aylara yerleştirdiğinizde, yoğun dönemde çıkan ihtiyaçların sayısı da azalır çünkü birikim erken yakalanmış olur. Sezon takviminizi paylaşırsanız, bakım tarihlerini bu takvime göre öneririz.",
+            },
+            {
+                soru: "Komşu atölyelerle bakım gününü birleştirmek mümkün mü?",
+                cevap:
+                    "Mümkün ve Siteler'in yoğun mobilya dokusunda oldukça mantıklı bir modeldir. Benzer sezon takvimine sahip komşu atölyeler bakım tarihlerini aynı haftaya denk getirdiğinde nakliye ve kurulum payı bölünür. Tek koşul, her atölyenin kendi kalem listesini önceden hazır etmesi ve sırasında hazır olmasıdır. Katılacak atölyelerin sayısını ve yaklaşık kalemlerini iletirseniz, sıralamayı ve saatleri biz kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Siteler Mobilya Sanayi Bölgesi'nin ahşap işleme ve satış karışık dokusu kamuya açık bilgidir; kabin-genel havalandırma ayrımı, raf üstü kontrol zamanlaması ve sezon takvimi eşleştirmesi firma pratiğidir.",
+    },
+
+    "bolge:yenimahalle": {
+        h1: "Yenimahalle'de İlçe Atölye Dokusunda Bakım Erteleme Faturası",
+        giris:
+            "Yenimahalle'nin atölye dokusu, düzenli bir OSB'den farklı çalışır: işletmeler bir sanayi adası içinde değil, mahalle aralarına, ana caddelere ve yan sokaklara dağılmış durumdadır ve çoğunun ortak bir site yönetimi yoktur. Bu dağınıklık, bakım takvimi kurmayı zorlaştıran asıl etkendir — OSB'deki işletme, aynı yönetimin hatırlattığı ortak bir takvime uyar; Yenimahalle'deki atölye ise kendi takvimini kendisi kurmak, kendisi hatırlamak zorundadır ve bu genellikle olmaz. Sonuç, bakımın 'bir gün yaparız' cümlesinde sürekli ertelenmesidir ve bu erteleme, özellikle ilçenin görece eski yapı stoğunda hızlı bir faturaya dönüşür. Bu sayfa, ilçe dokusundaki atölyeler için bir bakım takvimi kurmanın neden zor olduğunu, ertelemenin nereye kadar ucuz göründüğünü ve nereden itibaren pahalanmaya başladığını, kiracı-mülk sahibi ilişkisinin ertelemeyi nasıl büyüttüğünü ve dağınık dokuda bile asgari bir takvimin nasıl kurulabileceğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Dağınık doku, dağınık takvim",
+                metin:
+                    "Yenimahalle'de bir atölye, komşusunun ne zaman bakım yaptırdığını bilmez ve bu bilgisizlik önemlidir çünkü OSB'lerdeki bakım disiplini büyük ölçüde görünürlükten gelir — komşu işletme bakım yaptırınca, kendi işletmenizin de sırası geldiğini hatırlarsınız. İlçe dokusunda bu hatırlatıcı yoktur; her işletme kendi takvimini kendi hafızasında tutar ve hafıza, yoğun bir üretim döneminde ilk kaybolan şeydir. Takvim kurmanın ilk adımı bu yüzden dışsal bir hatırlatıcı yaratmaktır — bir kayıt, bir tarih, bir kişi — çünkü ortamın kendisi bu hatırlatmayı sağlamaz.",
+            },
+            {
+                baslik: "Kiracı-mülk sahibi tartışmasının erteleme üzerindeki etkisi",
+                metin:
+                    "İlçe dokusundaki işletmelerin önemli bir bölümü kiracıdır ve bu, bazı bakım kalemlerinde 'bu kimin işi' sorusunu doğurur — çatı, cephe, ana elektrik hattı gibi yapısal kalemler çoğu zaman mülk sahibinin sorumluluğundadır ama kiracı bu kalemin bozukluğunu ilk yaşayan taraftır. Sorumluluk netleşmeden geçen her ay, kalemin kötüleşmesine izin verir çünkü hiç kimse 'bu benim işim' demez. Pratik çözüm, sorumluluğu tartışmadan önce bulguyu kayda geçirmektir — bir kontrol turunda tespit edilmiş ve tarihlenmiş bir bulgu, mülk sahibiyle yapılacak görüşmede kiracının elindeki somut belgedir.",
+            },
+            {
+                baslik: "Eski yapı stoğunda ertelemenin hızlanan maliyeti",
+                metin:
+                    "Yenimahalle'nin yapı stoğu, ilçenin bazı bölümlerinde Başkent OSB gibi yeni gelişen alanlara göre daha eskidir ve yaşlanan yapıda erteleme daha hızlı fatura keser. Genç bir yapıda ertelenen bir çatı kontrolü bir yıl beklenebilirken, eski bir çatıda aynı erteleme birkaç ay içinde sızıntıya dönüşebilir çünkü malzeme zaten ömrünün ilerisindedir. Elektrik tesisatı ve pano hattında da benzer bir hızlanma görülür — eski tesisat, yeni tesisata göre aynı yükü daha zorlanarak taşır ve bakımsızlık burada daha çabuk belirti verir. Yapı yaşı arttıkça, erteleme toleransı daralır.",
+            },
+            {
+                baslik: "'Arıza çıkınca ararız' refleksinin gerçek bedeli",
+                metin:
+                    "Takvimsiz işletmenin varsayılan modeli, bir şey bozulana kadar beklemek ve bozulunca aramaktır. Bu model, her seferinde aynı üç kalemi ekler: acil tedarik nedeniyle malzeme maliyeti yükselir, üretim planlanmadan durur ve ekipmanın o gün müsait olup olmadığı belirsizdir. Aynı iş planlı yapıldığında bu üç kalemin hiçbiri yoktur. İlçe dokusundaki işletmelerde bu fark özellikle belirgindir çünkü mahalle arası dar sokaklarda acil bir günde uygun ekipmanı bulmak, planlı bir günden daha zordur — sokak ve park koşulları önceden bilinmediğinde iş beklenenden uzar.",
+            },
+            {
+                baslik: "Dağınık dokuda asgari takvim nasıl kurulur",
+                metin:
+                    "Ortak bir yönetim olmadan da takvim kurulabilir; gereken şey karmaşık bir sistem değil, üç basit unsurdur. Birincisi bir liste — yüksekte duran kaç kalem var, nerede. İkincisi her kaleme bir tarih — ay bazında bile olsa yazılı bir tarih, 'bir ara' ifadesinden daha güçlüdür. Üçüncüsü bir kayıt — her bakımın sonunda ne yapıldığının birkaç satırlık notu. Bu üç unsur, site yönetimi olmayan bir işletmenin kendi başına kurabileceği en basit rutindir ve ikinci yıldan itibaren kendini güçlendirir çünkü geçen yılın kaydı, bu yılın planının başlangıç noktası olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlçe dokusunda erteleme süresi ve maliyet artışı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Yenimahalle'nin eski-orta yaşlı yapı stoğunda sık görülen kalemlerin ertelendiğinde nasıl davrandığını gösterir. Yapı yaşı arttıkça büyüme hızı da artar.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Kısa erteleme (haftalar)", "Uzun erteleme (aylar)", "Yapı yaşı etkisi"],
+                    satirlar: [
+                        ["Çatı / dere sızıntısı", "Küçük leke", "Tavan altı hasarı", "Eskidikçe hızlanır"],
+                        ["Elektrik pano / hat", "Belirti yok", "Isınma, kesinti riski", "Eski tesisatta hızlı"],
+                        ["Dış cephe bağlantıları", "Belirti yok", "Gevşeme, düşme riski", "Yavaş ama sabit"],
+                        ["İç aydınlatma", "Tek armatür sönük", "Genel seviye düşer", "Yapı yaşından bağımsız"],
+                        ["Havalandırma / emiş", "Verim kaybı", "Motor zorlanması", "Yavaş ama sabit"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sorumluluğu netleştirmeden önce bulguyu kayda geçirmek",
+                paragraflar: [
+                    "Kiracı-mülk sahibi ilişkisinde en çok zaman kaybettiren şey, bir bulgunun kime ait olduğunun tartışılmasıdır ve bu tartışma sürerken kalem kötüleşmeye devam eder. Doğru sıra tersine çevrilmelidir: önce bulgu tarihli ve konumlu biçimde kayda geçirilir, sorumluluk tartışması bu kayıt üzerinden yürütülür. Bir kontrol turunda çıkan her bulguyu bu şekilde belgeliyoruz — kalem, konum, gözlenen durum ve tarih. Hangi tarafın sorumlu olduğunu biz belirlemeyiz, çünkü sözleşme ilişkisini görmeyiz; bizim işimiz, tartışmanın üzerine kurulacağı nesnel zemini sağlamaktır.",
+                    "Bu yaklaşımın pratik faydası, tartışmanın kısalmasıdır — 'böyle bir şey yok' itirazı, tarihli ve fotoğraflı bir kayıt karşısında zemin bulamaz ve süreç doğrudan çözüme geçer.",
+                ],
+            },
+            {
+                baslik: "Ortak yönetimsiz dokuda komşu koordinasyonu",
+                paragraflar: [
+                    "Site yönetimi olmasa da, Yenimahalle'nin ilçe dokusunda komşu işletmeler kendi aralarında basit bir koordinasyon kurabilir. Aynı sokakta ya da aynı iş hanında birkaç işletmenin bakım tarihlerini aynı haftaya denk getirmesi, hem nakliye payını böler hem de her işletmenin diğerinin takviminden haberdar olmasını sağlar — bu farkındalık, dağınık dokunun eksik olduğu hatırlatma mekanizmasının yerini bir ölçüde tutar.",
+                    "Bu koordinasyonu kurmanın en kolay yolu, birinin ilk adımı atmasıdır: kendi takviminizi belirledikten sonra komşularınıza aynı haftaya katılmak isteyip istemediklerini sormanız yeterlidir. Talep sırasında bu niyeti belirtirseniz, sıralamayı ve saatleri birlikte kurarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bakım takvimimiz yok ve hatırlayan da kimse yok; nasıl başlarız?",
+                cevap:
+                    "Karmaşık bir sistem kurmaya çalışmadan üç basit adımla başlayın: yüksekte duran kalemlerin kısa bir listesini çıkarın, her kaleme ay bazında bir tarih yazın ve bir kişiyi bu tarihleri hatırlatmakla görevlendirin — bu kişinin işi yapması gerekmez, sadece tarihi takip etmesi yeterlidir. Site yönetimi olmayan bir işletmede bu üç adım, dışarıdan gelecek hiçbir hatırlatmayı beklemeden kendi takviminizi kurmanızı sağlar. İlk yıl eksik olur, bu normaldir; ikinci yıl geçen yılın kaydıyla kendiliğinden düzelir.",
+            },
+            {
+                soru: "Çatı kiracının mı mülk sahibinin mi sorumluluğunda, bilmiyoruz; ne yapmalıyız?",
+                cevap:
+                    "Sorumluluk tartışmasını beklemeden bulguyu kayda geçirin — bu, tartışmayı hızlandıran tek şeydir. Bir kontrol turunda çatının durumu tarihli ve konumlu biçimde belgelendiğinde, mülk sahibiyle yapılacak görüşme somut bir zeminde ilerler ve 'öyle bir sorun yok' itirazına yer kalmaz. Hukuki sorumluluğun kimde olduğuna biz karar vermeyiz — kira sözleşmenizin içeriğini görmeyiz — ama bulguyu, hangi tarafın hangi kalemden sorumlu olabileceğini ayırt edecek netlikte raporlarız.",
+            },
+            {
+                soru: "Binamız eski; bu bakım takvimimizi nasıl etkilemeli?",
+                cevap:
+                    "Yapı yaşı arttıkça erteleme toleransı daralır, bu yüzden eski yapıda takvim sıklığı gençten daha kısa olmalıdır. Özellikle çatı ve elektrik pano hattı gibi kalemlerde, genç bir yapıda bir yıl beklenebilecek bir kontrol, eski yapıda birkaç ayda kritikleşebilir. Yapınızın yaşını ve son ne zaman kapsamlı bakıldığını paylaşırsanız, sizin için gerçekçi bir başlangıç sıklığı öneririz — herkese aynı takvimi önermiyoruz.",
+            },
+            {
+                soru: "Komşularımızla ortak bakım günü kurmak site yönetimi olmadan mümkün mü?",
+                cevap:
+                    "Mümkün ve pratikte oldukça kolay — gereken şey resmi bir yönetim değil, birkaç işletmenin kendi aralarında anlaşmasıdır. Aynı sokaktaki ya da aynı handaki komşularınıza kendi bakım tarihinizi bildirip katılmak isteyip istemediklerini sormanız yeterli başlangıçtır. Katılım olduğunda tarihler aynı haftaya dizilir, ekipman gün içinde işletmeler arasında ilerler ve nakliye payı bölünür. Katılacak işletmeleri iletirseniz sıralamayı ve saatleri biz kurarız.",
+            },
+            {
+                soru: "Arıza çıkmadan bakım yaptırmanın somut faydası nedir?",
+                cevap:
+                    "Üç kalemi aynı anda önler: acil tedarik nedeniyle yükselen malzeme maliyetini, plansız üretim duruşunu ve o gün ekipman bulma belirsizliğini. İlçe dokusunda bu son madde özellikle önemlidir çünkü dar sokak ve park koşulları önceden bilinmediğinde acil bir günde iş beklenenden uzar. Planlı bir bakımda bu belirsizliklerin hiçbiri yoktur — tarih, malzeme ve erişim önceden bilinir. Kayıtlarınızı tutmaya başladığınızda, birkaç yıl içinde plansız çağrı sayısındaki düşüşü kendiniz görürsünüz.",
+            },
+            {
+                soru: "Bakım kaydını nasıl tutmalıyız, karmaşık bir sistem mi gerekiyor?",
+                cevap:
+                    "Hayır, birkaç satırlık bir defter yeterlidir: hangi kalem, hangi tarihte, hangi bulguyla kontrol edildi ve bir sonraki kontrol ne zaman. Bu basit kayıt üç işe yarar — ertesi yılın planı sıfırdan değil geçen yılın üzerinden kurulur, tekrarlayan sorunlar (aynı noktada tekrar eden sızıntı gibi) desen olarak görünür hâle gelir ve mülk sahibi ya da sigorta bir kayıt istediğinde elde hazır belge bulunur. Bıraktığımız kalem-bulgu notları, bu defterin ilk sayfası olacak biçimde düzenlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Yenimahalle'nin dağınık ve site yönetimsiz atölye dokusu ile görece eski yapı stoğu kamuya açık bilgidir; erteleme süresi-maliyet tablosu, kiracı-mülk sahibi kayıt yöntemi ve komşu koordinasyonu firma pratiğidir.",
+    },
 };

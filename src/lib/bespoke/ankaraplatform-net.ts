@@ -1008,4 +1008,400 @@ export const ANKARAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kırıkkale'nin rafineri-savunma-metal sanayi kimliği kamuya açık bilgidir; konaklamalı şarj modeli ve bölge günü ekonomisi firma pratiğidir.",
     },
+
+    "bolge:kecioren": {
+        h1: "Keçiören'de AVM ve Kapalı Ortak Alanlara Egzozsuz Platform Kiralama",
+        giris:
+            "Keçiören'in alışveriş merkezleri, kapalı pazar yerleri ve çok katlı iş merkezleri, ilçenin en yoğun kapalı hacim envanterini oluşturur — ve bu hacimlerin ortak talebi, çalışırken içeriye tek bir gram emisyon eklememektir. Kapalı bir AVM koridorunda dizel motor çalıştırmak, yalnızca kural ihlali değil fiziksel bir risktir: karbon monoksit kokusuzdur, ortak havalandırma sistemine karışır ve mağaza-koridor ayrımı gözetmeden yayılır. Keçiören'deki filomuz bu yüzden uçtan uca akülüdür: motor emisyonu sıfır, ses seviyesi konuşma tonunun altında, lastik ise mermer ve seramikte iz bırakmayan beyaz karışım. İlçenin ortak alan işlerinde makine, mekânın bir parçası gibi çalışır — gelir, işini bitirir, arkasında hiçbir emisyon ve iz izi bırakmadan çıkar.",
+        maddeler: [
+            {
+                baslik: "Kapalı ortak alanda emisyonun asıl bedeli",
+                metin:
+                    "AVM ortak alanı, tek bir havalandırma sistemine bağlı büyük bir kapalı hacimdir ve içine giren her emisyon kaynağı, sistemin tamamına yayılır — atriumdaki bir dizel jeneratör kokusu, iki kat yukarıdaki mağazaya kadar ulaşabilir. Akülü platformda bu risk baştan yoktur: motor yanma yapmaz, egzoz gazı üretmez, karbon monoksit birikmez. Keçiören'in kapalı pazar yerlerinde ve çok katlı ortak alanlarında bu, tercih değil zorunluluktur — yönetim, dizel makineyi ortak alana zaten sokturmaz.",
+            },
+            {
+                baslik: "AVM'lerde kapanış-açılış arası çalışma penceresi",
+                metin:
+                    "İlçenin alışveriş merkezlerinde bakım ve tadilat işleri, kapanışla açılış arasındaki dar pencereye sığar ve bu pencere dakika hesabıyla yönetilir: makine kapanışla birlikte ortak alana alınır, gece boyunca iş yürür, açılıştan önce alan silinip teslim edilir. Akülü makaslı platformun sessizliği, gece nöbetçi güvenlik ekibinin iletişimini bozmaz; beyaz lastiği ise mermer zeminde hiçbir iz bırakmaz. Yürüyen merdiven ve asansör çevresi gibi hassas noktalarda yük dağıtım plakası standarttır.",
+            },
+            {
+                baslik: "Kapalı pazar yeri ve çarşı hacimlerinde çalışma",
+                metin:
+                    "Keçiören'in kapalı semt pazarları ve çarşı tipi yapıları, tezgâh yoğunluğu nedeniyle dar geçişli ama tavanı yüksek hacimlerdir — aydınlatma değişimi, havalandırma bakımı ve elektrik hattı yenileme işleri buradan çıkar. Akülü kompakt platform, tezgâhlar arası dar koridorlardan geçebilecek gövde genişliğiyle seçilir ve iş, pazarın kapalı olduğu gün veya erken sabah saatine yazılır. Emisyon olmadığı için üstü kapalı gıda tezgâhlarına koku ve is riski hiç bulaşmaz — bu, pazar yeri müşterisinin en çok sorduğu konudur.",
+            },
+            {
+                baslik: "Çok katlı iş merkezlerinde asansörle kat çıkışı",
+                metin:
+                    "İlçenin çok katlı iş merkezlerinde üst kat işleri — tavan aydınlatması, kablo altyapısı, klima bakımı — makinenin yük asansörüyle kata çıkmasını gerektirir. Bunun için tasarlanmış sınıf bellidir: dar kapıdan geçen, kabine sığan, düşük kapalı yükseklikli itmeli ve dikey direkli modeller. Keşifte üç ölçü netleştirilir: asansör kabin ölçüsü ve kapasitesi, kat koridorunun dönüş genişliği, çalışma noktasının tavan kotu. Üçü tutuyorsa makine kata çıkar; tutmuyorsa iş öncesinde dürüstçe söylenir, merdivenle taşınacak alternatif ekipman önerilir.",
+            },
+            {
+                baslik: "Şarj düzeni: kapalı ortak alan işinin lojistiği",
+                metin:
+                    "Ortak alan işlerinde şarj sorunu neredeyse hiç yaşanmaz çünkü bina zaten prizlidir: tek gecelik AVM işlerinde makine tam şarjlı gelir ve geceyi rahat çıkarır, çok geceli tadilat projelerinde ise gündüz binada bırakılıp şarja bağlanır ve her akşam dolu başlar. Şarj noktası ve sigorta kapasitesi keşifte netleştirilir; kablo güzergâhı yaya akışını kesmeyecek şekilde planlanır. Şarj yüzünden gece programının kaymaması, Keçiören'deki ortak alan işlerinin standart uygulamasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Keçiören kapalı hacim tiplerinde egzozsuz makine eşleşmesi",
+                paragraflar: [
+                    "İlçenin kapalı ortak alan tiplerinde tipik iş ve akülü makine eşleşmesi aşağıdadır. Tüm satırlarda emisyon sıfırdır; ayrışma erişim genişliği ve zemin hassasiyetindedir.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Tipik iş", "Erişim/zemin", "Egzozsuz çözüm"],
+                    satirlar: [
+                        ["AVM ortak alanı", "Atrium-koridor aydınlatma", "Mermer, iz yasak", "Akülü makaslı + plaka"],
+                        ["Kapalı pazar/çarşı", "Havalandırma, elektrik hattı", "Dar tezgâh aralığı", "Kompakt akülü, dar gövde"],
+                        ["Çok katlı iş merkezi", "Tavan-kablo altyapısı", "Asansör kabini", "İtmeli/dikey direkli"],
+                        ["Kapalı otopark", "Sprinkler, aydınlatma", "Beton, alçak tavan", "Akülü makaslı, alçak model"],
+                        ["Ofis-mağaza katı", "LED dönüşüm, ray sistemi", "Halı-seramik", "Kompakt akülü, koruma bantı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Emisyon sıfır olunca kapalı alan izni de sadeleşir",
+                paragraflar: [
+                    "Kapalı ortak alanda çalışma izni almanın en zorlu maddesi genellikle emisyon ve hava kalitesi beyanıdır — ve akülü makinede bu madde kendiliğinden kapanır: motor yanma yapmaz, dolayısıyla beyan edilecek bir emisyon kaynağı yoktur. Keşif sırasında verdiğimiz belge seti (tahrik tipi beyanı, ses seviyesi verisi, akü sistemi bilgisi) AVM yönetimlerinin ve iş merkezi idarelerinin standart onay formatına uyar; ek yazışma turu genelde gerekmez.",
+                    "Bu sadelik, iş takvimine doğrudan yansır: dizel makinede haftalar süren onay süreci, akülü makinede günler içinde tamamlanır ve makine, izin beklerken sahada boşa durmaz.",
+                ],
+            },
+            {
+                baslik: "Ortak alan teslimi: bulunduğu gibi bırakma standardı",
+                paragraflar: [
+                    "AVM yönetimi veya çarşı işletmecisi için işin bittiği an, mekânın hiçbir iz taşımadığı andır ve bunu bir kontrol listesine bağladık: çalışma öncesi zemin fotoğraflanır, güzergâhtaki eşik ve köşeler korumaya alınır, iş bitiminde zemin silinir ve öncesi-sonrası fotoğraf karşılaştırmasıyla teslim yapılır. Beyaz lastik iz bırakmaz ama toz taşır — tekerlekler binaya girişte silinir; cilalı mermer zeminlerde bu küçük adım büyük fark yaratır.",
+                    "Keçiören'deki ortak alan müşterilerimizin çoğu bu standart yüzünden geri döner: ziyaretçi hiçbir şey fark etmeden biten iş, ortak alan işinin en iyi hâlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin atrium tavanında aydınlatma bakımı var; müşteri akışı varken yapılabilir mi?",
+                cevap:
+                    "Teknik olarak mümkündür çünkü makine sessiz ve emisyonsuzdur, ama önerimiz gece penceresidir: atrium çalışmasında düşen cisim güvenlik bölgesinin geniş kapatılması gerekir ve bu, gündüz ziyaretçi akışını ciddi bozar. Doğru kurgu şudur — makine kapanışla ortak alana alınır, gece boyunca iş yürür, açılıştan önce alan temizlenip fotoğraflı teslim yapılır. Birkaç geceye bölünen büyük işlerde makine AVM'de konaklar, her gece bir bölüm biter.",
+            },
+            {
+                soru: "Kapalı pazar yerimizde tezgâhlar arası çok dar; makine geçebilir mi?",
+                cevap:
+                    "Kompakt akülü modeller tam bu senaryo için üretilmiştir — gövde genişliği standart tezgâh aralığından geçecek şekilde seçilir ve keşifte tezgâh düzeninin gerçek ölçüsü alınır. Geçişin gerçekten dar olduğu noktalarda, tezgâh sahipleriyle koordineli olarak geçici küçük bir açıklık istenir; bu, işten önce netleştirilir, sürpriz olmaz. Emisyon olmadığı için üstü açık gıda tezgâhlarına koku veya is bulaşma riski hiç yoktur — pazar esnafının en çok sorduğu şey de budur.",
+            },
+            {
+                soru: "İş merkezimizin 8. katında elektrik hattı yenilemesi var; makine oraya nasıl çıkacak?",
+                cevap:
+                    "Yük asansörüyle — bunun için tasarlanmış kompakt sınıf vardır: dar kapıdan geçen, kabine sığan, ağırlığı asansör kapasitesinin içinde kalan itmeli ve dikey direkli modeller. Keşifte kabin iç ölçüsü, kapasite etiketi ve kat koridorunun dönüş genişliği kontrol edilir; üçü de uyuyorsa makine kata çıkar. Asansörün gerçekten yetersiz kaldığı nadir durumda dürüst alternatif sunulur — daha hafif model veya işin yöntem değişikliği; 'sığar herhalde' diyerek yola çıkmayız.",
+            },
+            {
+                soru: "Neden dizel makineyle daha ucuza yapmıyorsunuz, kapı açık tutulur nasılsa?",
+                cevap:
+                    "Çünkü kapı açık tutmak bir havalandırma planı değil bir temennidir — karbon monoksit kokusuz olduğu için fark edilmeden birikir, is partikülleri klima kanallarına ve mağaza ürünlerine taşınır. AVM ve iş merkezi yönetimleri de bu yüzden ortak alana dizel makine sokturmaz; onay süreci baştan tıkanır. Akülü makinenin kira farkı, tek bir havalandırma kanalı temizliğinin veya iptal edilen bir onay sürecinin maliyetinden azdır — hesap kısa vadede bile akülünün lehinedir.",
+            },
+            {
+                soru: "Mermer zeminimiz çok hassas, geçmişte iz bırakılmış. Nasıl önlem alıyorsunuz?",
+                cevap:
+                    "İki katmanlı önlemle: beyaz iz bırakmayan lastik siyah çizik ve kauçuk lekesi riskini kaldırır, yük dağıtım plakaları ise makinenin noktasal ağırlığını geniş yüzeye yayarak zemine binen basıncı düşürür. Güzergâh baştan sona plakayla döşenir, dönüşler plaka üstünde yapılır ve iş öncesi-sonrası fotoğraf karşılaştırmasıyla teslim edilir. Geçmişte iz bırakılmış bir zeminse, bu geçmiş bilgiyi keşifte paylaşmanız, ek koruma noktalarını baştan belirlememizi sağlar.",
+            },
+            {
+                soru: "Ortak alan yönetimimiz emisyon ve hava kalitesi beyanı istiyor; belgeniz var mı?",
+                cevap:
+                    "Var — ve akülü makinede bu beyanın en zor maddesi kendiliğinden kapanır: motor yanma yapmadığı için beyan edilecek egzoz emisyonu yoktur. Keşif aşamasında tahrik tipi beyanı, ses seviyesi verisi ve akü sistemi bilgisini içeren bir set teslim ederiz; bu set çoğu AVM ve iş merkezi yönetiminin standart onay formatına doğrudan uyar. Ek madde talep eden yönetimler için set, ilgili maddelere göre genişletilir; onay süreci genelde günler içinde tamamlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Karbon monoksitin kokusuzluğu ve kapalı hacimde birikme davranışı genel iş güvenliği bilgisidir; kapanış-açılış penceresi, pazar yeri koordinasyonu ve teslim standardı firma pratiğidir.",
+    },
+
+    "bolge:mamak": {
+        h1: "Mamak'ta Kapalı Spor ve Eğitim Salonlarına Akülü Platform Kiralama",
+        giris:
+            "Mamak'ın spor salonları, kapalı yüzme havuzları ve okul-dershane tipi eğitim binaları, ilçenin en yoğun kapalı hacim grubunu oluşturur — ve bu hacimlerin ortak özelliği, hem tavanının yüksek hem kullanıcısının hassas olmasıdır: sporcu, öğrenci veya veli, çalışma sırasında kokudan ve gürültüden rahatsız olmamalıdır. Kapalı bir spor salonunda dizel motor çalıştırmak iki riski birden taşır — egzoz gazı salonun havalandırma sistemine karışır, motor gürültüsü ise antrenman veya ders akışını böler. Mamak'taki filomuz bu yüzden akülüdür: sıfır emisyon, düşük ses seviyesi ve parke-tartan zeminde iz bırakmayan lastik. İlçenin salon tipi hacimlerinde makine, etkinlik takvimine saygılı bir misafir gibi çalışır.",
+        maddeler: [
+            {
+                baslik: "Spor salonu parkesinde egzozsuz çalışmanın gerekliliği",
+                metin:
+                    "Kapalı spor salonlarının havalandırma sistemi, sporcu yoğunluğuna göre boyutlandırılır — motor emisyonuna göre değil. Bir dizel makinenin ürettiği karbon monoksit ve is partikülleri bu sisteme fazladan yük bindirir ve renksiz-kokusuz olduğu için fark edilmeden birikir. Akülü platform bu riski baştan kaldırır: motor yanma yapmaz, salona ek emisyon girmez. Parke ve tartan zeminlerde beyaz lastik standarttır; salon yönetimlerinin çoğu bu ikisini (emisyon sıfır + iz yok) makine seçiminde ilk şart olarak sorar.",
+            },
+            {
+                baslik: "Antrenman ve etkinlik takvimine yazılan çalışma",
+                metin:
+                    "Salon işleri (tavan armatürü, skorbord bakımı, havalandırma menfezi değişimi) salonun boş olduğu saatlere yazılır — genelde erken sabah veya antrenman aralarındaki boşluklar. Akülü makinenin sessizliği bu planlamayı esnekleştirir: elektrik motoru, komşu salondaki antrenmanı bölmeyecek seviyede çalışır ve iş, salonun tamamen kapanmasını beklemeden bir köşede ilerleyebilir. Takvim çakışmalarında öncelik her zaman salonun etkinliğindedir; iş, boşluğa göre planlanır.",
+            },
+            {
+                baslik: "Kapalı yüzme havuzlarında nemli ortam ve zemin koruması",
+                metin:
+                    "Kapalı havuz hacimleri hem yüksek nem hem kaygan zemin taşır ve bu iki faktör, makine seçimini doğrudan etkiler: akülü sistemin elektrik aksamı nem koşullarına uygun korumalı gövdeyle çalışır, lastik ise havuz kenarı seramiğinde kaymaya karşı ek dikkatle konumlandırılır. Tavan aydınlatması ve havalandırma bakımı, havuzun boşaltıldığı bakım günlerine veya kapalı saatlere yazılır; su seviyesinin altındaki alanlarda çalışma yapılmaz, yalnızca tavan ve üst yapı kapsamındadır.",
+            },
+            {
+                baslik: "Okul ve dershane binalarında ders saatine duyarlı planlama",
+                metin:
+                    "Eğitim binalarında iş, ders programının dışına — tatil dönemi, hafta sonu veya ders sonrası saatlere — yazılır ve bu, akülü makinenin sessizliğiyle daha da kolaylaşır: ders devam ederken bile koridorda veya boş bir katta çalışmak mümkün olur, çünkü motor sesi sınıf ortamına taşmaz. Emisyon sıfır olduğu için havalandırma sistemine ek yük binmez — çocukların bulunduğu bir binada bu, pazarlık konusu olmayan bir şarttır. Okul idaresiyle çalışma saatleri önceden netleştirilir.",
+            },
+            {
+                baslik: "Şarj planı: salon ve okul binasının lojistiği",
+                metin:
+                    "Salon ve okul binaları genelde iyi elektrik altyapısına sahiptir, bu yüzden şarj sorun oluşturmaz: tek günlük işlerde makine tam şarjlı gelir, çok günlü tadilat işlerinde ise gece binada bırakılıp şarja bağlanır. Şarj noktası ve sigorta kapasitesi keşifte belirlenir; kablo güzergâhı, öğrenci veya sporcu geçişini kesmeyecek şekilde planlanır. Şarj yüzünden antrenman veya ders programının aksaması, planlı işlerimizde görülmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mamak salon tipi hacimlerde egzozsuz makine eşleşmesi",
+                paragraflar: [
+                    "İlçenin salon ve eğitim binası tiplerinde tipik iş ve akülü makine eşleşmesi aşağıdadır. Tüm satırlarda emisyon sıfırdır; ayrışma zemin tipi ve nem koşulundadır.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Tipik iş", "Zemin/koşul", "Egzozsuz çözüm"],
+                    satirlar: [
+                        ["Spor salonu", "Tavan armatürü, skorbord", "Parke/tartan, iz yasak", "Akülü makaslı + plaka"],
+                        ["Kapalı havuz", "Tavan aydınlatma, havalandırma", "Nemli, kaygan seramik", "Nem korumalı akülü model"],
+                        ["Okul-dershane", "Koridor-sınıf aydınlatma", "Seramik/parke", "Kompakt akülü, sessiz çalışma"],
+                        ["Kapalı spor kompleksi", "Menfez, kamera hattı", "Beton/parke karışık", "Akülü makaslı, alçak model"],
+                        ["Konferans-etkinlik salonu", "Ses-ışık ekipmanı bakımı", "Parke, iz yasak", "Kompakt akülü + koruma bandı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sessizlik yalnızca konfor değil, güvenlik meselesidir",
+                paragraflar: [
+                    "Spor salonlarında ani ve yüksek ses, antrenman sırasında sporcunun dikkatini dağıtabilir; okullarda ise ders akışını bölerek öğretmenin kontrolünü zorlaştırabilir. Akülü makinenin motor sesi bu iki ortamda da fark edilmeyecek seviyededir — gürültü üreten tek kalem, varsa vidalama veya kesme gibi el aletleridir ve bu kalemler ayrıca planlanır: mümkünse ders arası veya antrenman molasına toplanır.",
+                    "Bu ayrım, salon ve okul yönetimlerinin bize güvenmesinin asıl nedenidir: makinenin kendisi hiçbir zaman sürpriz gürültü kaynağı olmaz, plan sadece el aletlerinin zamanlamasını yönetir.",
+                ],
+            },
+            {
+                baslik: "Salon teslimi: ertesi gün oynanabilir hâlde bırakma",
+                paragraflar: [
+                    "Spor salonunun teslim standardı nettir: ertesi sabah antrenman veya maç varsa, salon iz taşımadan bırakılmalıdır. Çalışma öncesi parke fotoğraflanır, güzergâh plakayla korunur, iş bitiminde zemin kontrol edilip silinir ve öncesi-sonrası fotoğraf karşılaştırmasıyla teslim yapılır. Beyaz lastik iz bırakmaz ama toz taşır — tekerlekler salona girişte temizlenir; bu küçük adım, cilalı parkede fark yaratır.",
+                    "Okul binalarında aynı standart uygulanır: iş, ders başlamadan önce izsiz teslim edilir ve idare, öğrencilerin hiçbir şey fark etmemesini bekler — bu beklenti bizim işleyişimizin varsayılan hâlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Salonumuzda antrenmanlar devam ederken tavan aydınlatması değiştirilebilir mi?",
+                cevap:
+                    "Sınırlı ölçüde evet — akülü makinenin sessizliği, salonun kullanılmayan bir köşesinde antrenman sürerken çalışmaya izin verir; ama sepetin salon ortasına geçtiği, görüş hattını kestiği anlarda antrenman durdurulur. Doğru kurgu genelde erken sabah veya antrenman aralarındaki boşluklardır: makine o pencerede hızlıca çalışır, salon sporcuya teslim edilir. Antrenman takviminizi paylaşın, boşluklara göre plan çıkaralım.",
+            },
+            {
+                soru: "Kapalı havuzumuzda nem çok yüksek; makinenin elektrik aksamı bundan etkilenir mi?",
+                cevap:
+                    "Havuz gibi yüksek nemli hacimler için nem korumalı gövdeye sahip modeller seçilir; elektrik aksamı bu koşula göre üretilmiştir ve standart iç mekân makinesinden farklıdır. Çalışma yalnızca tavan ve üst yapı kapsamındadır, su seviyesinin altına inilmez. Havuz kenarı seramiğinin kaygan olması nedeniyle lastik-zemin teması ayrıca kontrol edilir ve gerekirse kaymaz taban örtüsü eklenir. Havuzun bakım kapatma tarihlerini paylaşırsanız, iş o pencereye yazılır.",
+            },
+            {
+                soru: "Okulumuzda ders saatleri dışında çalışabilir misiniz, tatil beklemek zorunda mıyız?",
+                cevap:
+                    "Beklemek zorunda değilsiniz — akülü makinenin sessizliği sayesinde iş, ders sonrası saatlere veya hafta sonuna yazılabilir; koridor ve boş katlarda ise ders devam ederken bile sınıflara ses taşımadan çalışılabilir. Emisyon sıfır olduğu için havalandırma sistemine ek yük binmez, bu da idarenin en çok sorduğu güvenlik sorusunu baştan kapatır. Tatil dönemi tercih edilirse elbette daha geniş bir çalışma alanı açılır; karar tamamen okulun programına bağlıdır.",
+            },
+            {
+                soru: "Spor salonumuzun parkesi hassas; makine iz bırakır mı, çökertir mi?",
+                cevap:
+                    "İki önlemle ikisi de önlenir: beyaz iz bırakmayan lastik çizik ve kauçuk lekesi riskini kaldırır, yük dağıtım plakaları ise makinenin noktasal ağırlığını geniş yüzeye yayarak parkenin esneme sınırını korur. Güzergâh baştan sona plakayla döşenir, dönüşler plaka üstünde yapılır ve iş bitiminde zemin fotoğraflı kontrol edilir. Etkinlik takviminize uyarız — iş, salonun boş gününe yazılır ve ertesi gün salon oynanabilir hâlde teslim edilir.",
+            },
+            {
+                soru: "Neden dizel değil de akülü makine öneriyorsunuz, fiyat farkı ciddi mi?",
+                cevap:
+                    "Fiyat farkı, taşıdığı riskin yanında küçüktür: dizel makinenin ürettiği karbon monoksit kapalı salonun havalandırma sistemine karışır ve renksiz-kokusuz olduğu için fark edilmeden birikir; is partikülleri ise havalandırma kanallarına yerleşir ve temizlik faturası çıkarır. Ayrıca motor gürültüsü antrenman veya ders akışını doğrudan böler. Akülü makinenin kira farkı, bir havalandırma kanalı temizliğinin veya bozulan bir antrenman programının maliyetinden azdır.",
+            },
+            {
+                soru: "Makine bir hafta okulumuzda-salonumuzda kalacak, şarj için bize ne düşer?",
+                cevap:
+                    "Size düşen yalnızca bir priz ve güvenli bir park köşesidir: makine binada konaklar, gece şarja bağlanır, sabah kontrol edilip güne dolu başlar. Şarj cihazının çektiği akım standart tesis prizinin taşıyacağı seviyededir; keşifte sigorta kapasitesi teyit edilir. Kablo güzergâhı öğrenci veya sporcu geçişini kesmeyecek şekilde planlanır ve her gün sonunda toparlanır — gündüz kimse kabloya takılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kapalı hacimde karbon monoksit birikimi ve havalandırma sistemi kapasitesi genel iş güvenliği bilgisidir; antrenman-ders takvimine göre planlama ve teslim standardı firma pratiğidir.",
+    },
+
+    "bolge:golbasi": {
+        h1: "Gölbaşı'nda Kurum ve Tesis İç Hacimlerinde Sessiz Platform Kiralama",
+        giris:
+            "Gölbaşı, kamu kurumlarının eğitim ve dinlenme tesisleri, özel şirketlerin sosyal tesisleri ve göl kıyısındaki kapalı etkinlik yapılarıyla, Ankara'nın en çok 'kurumsal iç hacim' barındıran ilçelerinden biridir. Bu tesislerin ortak özelliği sessizliktir — bir eğitim tesisinin konferans salonu, bir dinlenme kompleksinin lobi katı veya bir sosyal tesisin çok amaçlı salonu, çalışma sırasında bile huzurunu korumak zorundadır. Kapalı hacimde çalışan bir dizel motor bu huzuru iki yönden bozar: gürültüsüyle ve egzoz kokusuyla. Gölbaşı'ndaki filomuz bu yüzden akülü ve sessiz çalışmaya göre kurgulanmıştır — elektrik motorunun sesi fısıltı seviyesinde kalır, emisyon sıfırdır, lastik parke ve mermer zeminde iz bırakmaz. İlçenin kurumsal iç hacimlerinde makine, mekânın sessizliğine misafir gibi girer.",
+        maddeler: [
+            {
+                baslik: "Eğitim ve dinlenme tesislerinde sessizliğin değeri",
+                metin:
+                    "Kamu kurumlarının Gölbaşı'ndaki eğitim ve dinlenme tesisleri, katılımcıların odaklanması veya dinlenmesi üzerine kurulu mekânlardır ve bu mekânlarda ani gürültü, programın kendisini bozar. Akülü platformun elektrik motoru, konferans salonundaki bir sunumu veya lobi katındaki bir sohbeti bölmeyecek seviyede çalışır. Gürültü üreten tek kalemler — varsa delme veya kesme — ayrıca planlanır ve genelde programın boşluklarına (öğle arası, oturum aralığı) toplanır.",
+            },
+            {
+                baslik: "Sosyal tesis salonlarında iz bırakmadan çalışma",
+                metin:
+                    "Şirketlerin ve kurumların sosyal tesislerindeki çok amaçlı salonlar, hem etkinlik hem günlük kullanım görür ve zemin (parke, mermer, halı) bu kullanımla eskimeye zaten açıktır. Akülü makinenin beyaz lastiği ek iz bırakmaz; hareket güzergâhı ayrıca plakayla korunur. Salon işleri (tavan aydınlatması, ses sistemi bakımı, perde mekanizması) salonun boş olduğu güne veya erken saate yazılır ve iş bitiminde zemin fotoğraflı teslim edilir.",
+            },
+            {
+                baslik: "Göl kıyısındaki kapalı etkinlik yapılarında çalışma",
+                metin:
+                    "Gölbaşı'nın göl kıyısındaki kapalı etkinlik ve davet salonları, hem yüksek tavanlı hem hassas iç dekorasyona sahip hacimlerdir. Bu tip yapılarda çalışma, etkinlik takviminin boşluklarına — genelde hafta içi gündüz veya etkinliksiz haftalara — yazılır ve makine, dekoratif yüzeylerden (ahşap kaplama, cam bölme) pay bırakılarak manevra eder. Sessizlik burada da belirleyicidir: kıyı şeridindeki komşu tesislerin sakinliği bozulmaz, ses dışarıya taşmaz.",
+            },
+            {
+                baslik: "Kurum içi protokole uygun sessiz çalışma düzeni",
+                metin:
+                    "Kamu ve kurumsal tesislerde iş yapmak, teknik iş kadar protokol işidir: giriş izinleri ve çalışma saatleri önceden idari birimle netleştirilir, çalışma bölgesi göze rahatsız etmeyen bariyerlerle ayrılır ve her gün sonunda alan toparlanır. Akülü makinenin sessizliği bu protokolü kolaylaştırır — toplantı veya eğitim programı sürerken bile, sesin ulaşmayacağı bir mesafede iş ilerleyebilir. Bina yönetimine iş öncesi tek sayfalık bilgilendirme veririz.",
+            },
+            {
+                baslik: "Şarj planı: tesis içi konaklamalı işlerin lojistiği",
+                metin:
+                    "Kurum ve tesis binaları iyi elektrik altyapısına sahiptir, bu yüzden şarj sorun oluşturmaz: tek günlük işlerde makine tam şarjlı gelir, çok günlü işlerde gece tesiste bırakılıp şarja bağlanır ve her sabah dolu başlar. Şarj noktası ve sigorta kapasitesi keşifte belirlenir; kablo güzergâhı, tesis kullanıcılarının geçişini kesmeyecek şekilde planlanır. Şarj yüzünden programın aksaması, planlı işlerimizde görülmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gölbaşı kurumsal iç hacimlerinde çalışma çerçevesi",
+                paragraflar: [
+                    "İlçenin kurumsal tesis tiplerinde tipik iç iş ve sessiz çalışma eşleşmesi aşağıdadır. Ortak payda: tüm satırlarda makine akülü, ses seviyesi düşük ve lastik iz bırakmaz.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tipik iç iş", "Zaman penceresi", "Özel şart"],
+                    satirlar: [
+                        ["Eğitim tesisi", "Konferans salonu aydınlatma", "Oturum boşlukları", "Ses seviyesi minimum"],
+                        ["Dinlenme kompleksi", "Lobi-koridor bakımı", "Erken sabah", "Sessiz manevra"],
+                        ["Sosyal tesis salonu", "Ses-ışık, perde mekanizması", "Salon boş günü", "Zemin tam koruması"],
+                        ["Göl kıyısı etkinlik yapısı", "Tavan-dekor aydınlatma", "Etkinliksiz hafta", "Dekoratif yüzey mesafesi"],
+                        ["Kurum idari binası", "Ofis-koridor tesisatı", "Mesai dışı ağırlıklı", "Giriş izni + refakat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sessiz çalışmanın teknik gerekçesi",
+                paragraflar: [
+                    "Akülü platformun ses avantajı tesadüf değildir: elektrik motoru, içten yanmalı motorun aksine patlamalı yanma döngüsü içermez, bu yüzden karakteristik motor gürültüsü baştan yoktur. Kapalı hacimde ses, duvarlardan yansıyarak büyür — bir dizel motorun ürettiği gürültü, geniş bir salonda kaynağından çok daha uzakta bile rahatsız edici seviyede duyulabilir. Akülü sistemde bu yansıma sorunu, kaynak zaten sessiz olduğu için oluşmaz.",
+                    "Gölbaşı'ndaki tesislerin çoğu bu farkı ilk elden yaşadığı için akülü makineyi ikinci kez de tercih eder — sessizlik, bir kez deneyimlendiğinde vazgeçilmeyen bir standarda dönüşür.",
+                ],
+            },
+            {
+                baslik: "Tesis teslimi: programa hiç dokunmadan bitirme",
+                paragraflar: [
+                    "Kurumsal tesiste iyi iş, programın hiç fark etmediği iştir ve akışı üç adımda kurarız: çalışma alanı göze rahatsız etmeyen bariyerlerle ayrılır, ses üreten kalemler programın boşluklarına toplanır, gün sonunda alan ertesi güne hiçbir iz kalmayacak şekilde toparlanır. Zemin öncesi-sonrası fotoğrafla karşılaştırılır ve teslim bu karşılaştırmayla kapatılır.",
+                    "Bu düzenin sonucu nettir: tesis yöneticisi, program katılımcılarından tek bir şikâyet almadan işi teslim alır — Gölbaşı'ndaki kurumsal portföyümüzün büyümesi bu sessiz teslimin referansıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eğitim tesisimizde program sürerken konferans salonunun aydınlatması değiştirilebilir mi?",
+                cevap:
+                    "Programın oturum aralıklarında evet — akülü makinenin sessizliği, salonun boş olduğu kısa boşluklarda hızlı çalışmaya izin verir; ama katılımcı salondayken sepetin göz hizasına girdiği anlar tercih edilmez. Doğru kurgu genelde günün ilk oturumundan önceki erken saat veya öğle arasıdır: makine o pencerede işini bitirir, salon bir sonraki oturuma hazır teslim edilir. Program akışınızı paylaşın, boşluklara göre plan çıkaralım.",
+            },
+            {
+                soru: "Sosyal tesisimizin salonu hafta sonu etkinliğe kapalı; o gün çalışabilir misiniz?",
+                cevap:
+                    "Evet, bu tip boşluklar tam olarak tercih ettiğimiz pencerelerdir — salon etkinliksiz olduğunda makine, zemini tam koruma altına alarak serbestçe çalışır, sessizlik komşu bölümleri rahatsız etmez ve bir sonraki etkinliğe kadar salon iz bırakmadan teslim edilir. Perde mekanizması veya ses sistemi gibi teknik kalemler için etkinlik takviminizi paylaşın; boş günler önceden planlanır ve iş o güne yazılır.",
+            },
+            {
+                soru: "Göl kıyısındaki tesisimizde ahşap kaplama ve cam bölmeler var; makine bunlara zarar verir mi?",
+                cevap:
+                    "Bu tip hassas yüzeyler keşifte ayrıca işaretlenir ve manevra planı buna göre yapılır: makine dekoratif yüzeylerden belirli bir mesafe bırakılarak yönlendirilir, geçilemeyen dar noktalarda işin yöntemi değiştirilir — bina veya dekorasyon zorlanmaz. Ahşap ve cam yakınındaki hareketler yavaşlatılmış modda yapılır, gerekiyorsa ek koruma örtüsü kullanılır. Tesisin dekorasyon planını paylaşırsanız, hassas noktalar keşifte birlikte işaretlenir.",
+            },
+            {
+                soru: "Kurumumuzda protokol kuralları katı; giriş ve çalışma saatleri için ne istiyorsunuz?",
+                cevap:
+                    "Standart talebimiz nettir: ekip bilgileri ve kimlik bildirimi önceden idari birime iletilir, çalışma saatleri kurumun program takvimine göre belirlenir ve giriş-çıkış güzergâhı bina yönetimiyle koordineli çizilir. Akülü makinenin sessizliği, bu protokolün esnekliğini artırır — toplantı veya eğitim sürerken bile ses ulaşmayan bir mesafede iş ilerleyebilir. Kurumunuzun standart formatı varsa, evrak setimiz ona uyarlanır.",
+            },
+            {
+                soru: "Neden akülü öneriyorsunuz, dizel makine daha güçlü değil mi?",
+                cevap:
+                    "Güç farkı iç mekân işlerinde neredeyse hiç fark yaratmaz çünkü tavan yükseklikleri ve yük gereksinimleri akülü sınıfın kapasitesi içindedir; asıl fark sessizlikte ve emisyonda ortaya çıkar. Dizel motorun gürültüsü kapalı salonda yansıyarak büyür ve programı doğrudan böler; karbon monoksit ise kokusuz olduğu için fark edilmeden birikir. Akülü makinenin kira farkı, bozulan bir program veya havalandırma temizliğinin maliyetinden azdır.",
+            },
+            {
+                soru: "Tesisimizde makine birkaç gün kalacak; şarj için ne hazırlamalıyız?",
+                cevap:
+                    "Yalnızca bir priz ve güvenli bir park köşesi yeterlidir: makine tesiste konaklar, gece şarja bağlanır, sabah kontrol edilip güne dolu başlar. Şarj cihazının çektiği akım standart tesis prizinin taşıyacağı seviyededir; keşifte sigorta kapasitesi teyit edilir. Kablo güzergâhı, tesis kullanıcılarının ve katılımcıların geçişini kesmeyecek şekilde planlanır ve her gün sonunda toparlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Elektrik motorunun yanma döngüsü içermemesi ve kapalı hacimde ses yansıması genel fizik bilgisidir; program takvimine göre planlama ve protokole uygun çalışma düzeni firma pratiğidir.",
+    },
+
+    "bolge:kizilcahamam": {
+        h1: "Kızılcahamam'da Termal Otel Kapalı Alanlarında İz Bırakmayan Platform Kiralama",
+        giris:
+            "Kızılcahamam, Ankara'nın termal turizm merkezi olarak bilinir ve bu kimlik, ilçedeki kapalı hacim işlerine özgü bir hassasiyet doğurur: termal otellerin kapalı havuz katları, spa ve wellness bölümleri, konferans salonları hem yüksek nem hem misafir yoğunluğu taşıyan mekânlardır. Bu mekânlarda çalışmanın iki koşulu vardır — kokusuz olmak ve iz bırakmamak. Kapalı bir havuz katında dizel motor çalıştırmak düşünülemez; nem ve kapalılık, egzoz gazının birikmesini hızlandırır. Kızılcahamam'daki filomuz bu yüzden tamamen akülüdür: sıfır emisyon, düşük ses seviyesi ve seramik-mermer zeminde iz bırakmayan beyaz lastik. Termal otel işletmecisi için makine, misafirin fark etmeyeceği bir sessizlikte gelir ve öyle çıkar.",
+        maddeler: [
+            {
+                baslik: "Kapalı havuz ve spa katlarında emisyonsuz zorunluluk",
+                metin:
+                    "Termal otellerin kapalı havuz ve spa katları, yüksek nem ve sürekli misafir dolaşımı barındıran hacimlerdir ve bu hacimlerde havalandırma sistemi zaten nem yönetimiyle meşguldür — üzerine bir de motor emisyonu eklemek, sistemi fazladan zorlar. Akülü platform bu yükü hiç bindirmez: motor yanma yapmaz, egzoz gazı üretmez. Tavan aydınlatması, buhar odası bakımı, havalandırma menfezi değişimi gibi işler bu koşulda güvenle yürür.",
+            },
+            {
+                baslik: "Nemli ortamda çalışmaya uygun ekipman seçimi",
+                metin:
+                    "Havuz katının yüksek nemi, standart elektrikli ekipman için de bir zorluktur ve bu yüzden nem korumalı gövdeye sahip akülü modeller tercih edilir — elektrik aksamı, sürekli nemli ortamda güvenli çalışacak şekilde korumalıdır. Seramik ve mermer zeminlerde kayma riski ayrıca değerlendirilir; gerekirse kaymaz taban örtüsü eklenir. Su seviyesinin altına inilmez, çalışma yalnızca tavan ve üst yapı kapsamındadır.",
+            },
+            {
+                baslik: "Misafir doluyken sessiz ve kokusuz çalışma",
+                metin:
+                    "Termal otellerde doluluk yıl boyu yüksektir ve iş, misafir varlığında bile yürütülmek zorunda kalabilir. Akülü makinenin sessizliği burada belirleyicidir: elektrik motoru, spa katındaki bir masaj seansını veya lobi katındaki bir sohbeti bölmeyecek seviyede çalışır; emisyon olmadığı için koku da hiç oluşmaz. Çalışma bölgesi göze rahatsız etmeyen bariyerlerle ayrılır, gürültü üreten kalemler varsa gece geç saate veya erken sabaha toplanır.",
+            },
+            {
+                baslik: "İz bırakmayan lastik: otel zemininin uzun ömrü",
+                metin:
+                    "Termal otellerin havuz kenarı seramiği ve lobi mermeri, sürekli nem ve misafir trafiğiyle zaten yıpranmaya açık yüzeylerdir; beyaz iz bırakmayan lastik bu yüzeylere ek bir yük bindirmez. Hareket güzergâhı yük dağıtım plakalarıyla korunur, dönüşler plaka üstünde yapılır ve iş öncesi-sonrası fotoğraf karşılaştırmasıyla teslim edilir. Tekerlekler binaya girişte silinir — nemli havuz katında bu adım, ıslak zeminde toz ve kir taşınmasını önler.",
+            },
+            {
+                baslik: "Şarj planı: konaklamalı termal otel işlerinin lojistiği",
+                metin:
+                    "Otel binaları iyi elektrik altyapısına sahiptir, bu yüzden şarj sorun oluşturmaz: tek günlük işlerde makine tam şarjlı gelir, çok günlü kapsamlı bakım işlerinde ise gece otelde bırakılıp şarja bağlanır ve her sabah dolu başlar. Şarj noktası ve sigorta kapasitesi keşifte netleştirilir; kablo güzergâhı misafir geçişini kesmeyecek şekilde planlanır ve gün sonunda toparlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kızılcahamam termal tesis hacimlerinde egzozsuz makine eşleşmesi",
+                paragraflar: [
+                    "İlçenin termal otel hacim tiplerinde tipik iş ve akülü makine eşleşmesi aşağıdadır. Tüm satırlarda emisyon sıfırdır; ayrışma nem koşulu ve zemin hassasiyetindedir.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Tipik iş", "Nem/zemin", "Egzozsuz çözüm"],
+                    satirlar: [
+                        ["Kapalı havuz katı", "Tavan aydınlatma, menfez", "Yüksek nem, seramik", "Nem korumalı akülü model"],
+                        ["Spa-wellness bölümü", "Buhar odası bakımı", "Nemli, kaygan zemin", "Kompakt akülü, kaymaz taban"],
+                        ["Konferans salonu", "Ses-ışık ekipmanı bakımı", "Halı/parke, iz yasak", "Akülü makaslı + plaka"],
+                        ["Lobi-otel koridoru", "Avize-aydınlatma bakımı", "Mermer, iz yasak", "Akülü makaslı + plaka"],
+                        ["Otel restoran katı", "Tavan aydınlatma, havalandırma", "Seramik", "Kompakt akülü, raf koruması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Termal tesiste hijyen ve emisyonun kesişimi",
+                paragraflar: [
+                    "Termal otellerin sağlık turizmi kimliği, hava ve su kalitesine olağan otellerden daha yüksek bir standart yükler — misafirin tesise geliş nedeni zaten sağlık ve dinlenmedir. Bu standartta bir dizel motorun egzoz gazını kapalı havuz katına sokmak, tesisin kendi vaadiyle çelişir. Akülü makine bu çelişkiyi ortadan kaldırır: sıfır emisyon, tesisin hijyen ve hava kalitesi taahhüdüyle doğrudan uyumludur.",
+                    "Bu uyum, otel işletmecisinin bakım ekibi seçiminde ilk sorduğu sorudur ve akülü filomuz bu soruya baştan olumlu cevap verir.",
+                ],
+            },
+            {
+                baslik: "Otel teslimi: misafirin hiçbir şey fark etmemesi",
+                paragraflar: [
+                    "Termal otelde iyi bakım işi, misafirin fark etmediği iştir ve akışı dört adımda kurarız: çalışma alanı göze rahatsız etmeyen bariyerlerle ayrılır, gürültülü kalemler misafir yoğunluğunun düştüğü saatlere toplanır, zemin öncesi-sonrası fotoğrafla karşılaştırılır ve gün sonunda alan ertesi güne hiçbir iz kalmayacak şekilde toparlanır.",
+                    "Kızılcahamam'daki termal otel portföyümüzün büyümesi, bu görünmez akışın doğrudan sonucudur — bakım işi, misafir memnuniyetini hiç etkilemeden biter.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kapalı havuz katımızda tavan bakımı var; misafir yüzerken çalışılabilir mi?",
+                cevap:
+                    "Sınırlı ölçüde evet — akülü makinenin sessizliği ve sıfır emisyonu, havuz kullanılırken bile uzak bir bölümde çalışmaya izin verir; ama sepetin havuz üzerine geçtiği veya görüş hattını kestiği anlar için havuzun o bölümü geçici kapatılır. Doğru kurgu genelde erken sabah veya havuzun bakım için zaten kapalı olduğu saatlerdir. Havuzunuzun günlük kullanım yoğunluğunu paylaşın, boşluklara göre plan çıkaralım.",
+            },
+            {
+                soru: "Spa bölümümüz sürekli nemli; makinenin elektrik aksamı bundan zarar görür mü?",
+                cevap:
+                    "Görmez — nem korumalı gövdeye sahip akülü modeller tam bu ortam için seçilir; elektrik aksamı sürekli nemli koşullarda güvenli çalışacak şekilde korumalıdır. Zemin kayganlığı ayrıca değerlendirilir ve gerekirse kaymaz taban örtüsü eklenir. Çalışma yalnızca tavan ve üst yapı kapsamındadır; buhar üreten ekipmanın kendisine müdahale edilmez, yalnızca çevresindeki tavan-aydınlatma işleri yürütülür.",
+            },
+            {
+                soru: "Otelimiz dolu; konferans salonunda çalışırken toplantılar aksar mı?",
+                cevap:
+                    "Aksamaz — akülü makinenin elektrik motoru, salondaki bir toplantıyı bölmeyecek seviyede sessizdir ve emisyon olmadığı için koku da oluşmaz. İş, salonun boş olduğu saatlere veya toplantılar arası boşluklara yazılır; halı ve parke zemin baştan sona korumaya alınır. Salon takviminizi paylaşırsanız, boşluklara göre net bir plan çıkarırız — toplantı programınız bizim planımızın önceliğidir.",
+            },
+            {
+                soru: "Lobi mermerimiz çok değerli, geçmişte iz bırakılmış. Nasıl güvence veriyorsunuz?",
+                cevap:
+                    "İki katmanlı güvenceyle: beyaz iz bırakmayan lastik çizik ve kauçuk lekesi riskini kaldırır, yük dağıtım plakaları makinenin ağırlığını geniş yüzeye yayarak zemine binen basıncı düşürür. Güzergâh baştan sona plakayla döşenir ve iş öncesi-sonrası fotoğraf karşılaştırmasıyla teslim edilir. Geçmişte iz bırakılmış bir zeminse, bu bilgiyi keşifte paylaşmanız ek koruma noktalarını baştan belirlememizi sağlar.",
+            },
+            {
+                soru: "Neden dizel makineyle daha ucuza yapmıyorsunuz, kısa sürecek bir iş için?",
+                cevap:
+                    "Süre kısa olsa da risk aynıdır: kapalı havuz katında karbon monoksit kokusuz olduğu için fark edilmeden birikir ve termal otelin hijyen-hava kalitesi taahhüdüyle doğrudan çelişir. Ayrıca motor gürültüsü, dinlenmeye gelen misafirin huzurunu bozar. Akülü makinenin kira farkı, bir havalandırma kanalı temizliğinin veya misafir memnuniyetsizliğinin maliyetinden azdır — termal otel işinde bu hesap her zaman akülünün lehinedir.",
+            },
+            {
+                soru: "Otelimizde makine birkaç gün kalacak; şarj için bize ne düşer?",
+                cevap:
+                    "Yalnızca bir priz ve güvenli bir park köşesi yeterlidir: makine otelde konaklar, gece şarja bağlanır, sabah kontrol edilip güne dolu başlar. Şarj cihazının çektiği akım standart tesis prizinin taşıyacağı seviyededir; keşifte sigorta kapasitesi teyit edilir. Kablo güzergâhı misafir geçişini kesmeyecek şekilde planlanır ve gün sonunda toparlanır — gündüz hiçbir misafir kabloya takılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kızılcahamam'ın termal turizm kimliği kamuya açık bilgidir; karbon monoksitin kokusuzluğu genel iş güvenliği bilgisidir; nem korumalı ekipman seçimi ve misafir-öncelikli teslim standardı firma pratiğidir.",
+    },
 };

@@ -907,4 +907,400 @@ export const ANKARAMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kırıkkale'nin doğu karayolu kavşağındaki konumu ve OSB-depo kuşağı kamuya açık bilgidir; tur günü modeli, liste kültürü ve keşif disiplini firma pratiğidir.",
     },
+
+    "bolge:polatli-osb": {
+        h1: "Polatlı OSB Depo Sahalarında Açık Alan Manlift Kiralama",
+        giris:
+            "Polatlı OSB'nin parselleri, tahıl havzasının borsa çevresinden ayrı bir dünyadır: burada üretim hollerinin arkasında açık depo sahaları, yarı kapalı sundurma antrepoları ve çevre yolu boyunca dizilen hammadde-mamul stok alanları uzanır. Bu sayfanın konusu o açık sahadır — dört duvarın içi değil, parselin dışarıya taşan kısmı. OSB'nin geniş parsel yapısı, işletmelerin çoğuna kapalı depodan büyük açık stok alanı bırakır: profil-boru dizileri, palet yığınları, ambalaj malzemesi stokları, hurda-geri dönüşüm sahaları. Bu sahaların tepe işleri — aydınlatma direği, çevre kamera-tel sistemi, sundurma çatısı, yükleme rampası üstü — dizel arazi tipi manliftin doğal alanıdır; OSB'nin ana yollarındaki beton kesim dışında zemin çoğunlukla stabilize veya sıkıştırılmış dolgudur ve makine seçimi bu gerçeğe göre yapılır.",
+        maddeler: [
+            {
+                baslik: "OSB parselinde açık-kapalı sınırının okunması",
+                metin:
+                    "Polatlı OSB'de tek bir işletme, aynı günde iki farklı çalışma dünyası çıkarabilir: hol içinde beton zemin ve düzenli koridor, parsel dışında stabilize veya toprak dolgu açık saha. Keşifte ilk adım bu sınırı fotoğrafla netleştirmektir — hangi kalem hol içinde, hangi kalem dışarıda. Hol içi işler akülü sınıfa, açık saha işleri dizel arazi tipine yazılır; ikisi aynı güne planlansa da makine ve zemin hazırlığı ayrı ayrı ele alınır. Bu ayrım atlanırsa saha ekibi yanlış makineyle karşılaşır ve iş günü kaybedilir.",
+            },
+            {
+                baslik: "Açık stok sahalarında güzergâh ve istif kuralı",
+                metin:
+                    "OSB parsellerinin açık stok alanları — profil, boru, ambalaj, hurda — genellikle işletmenin büyüme sırasına göre dağınık istiflenir ve makine güzergâhı bu dağınıklığa göre çizilir. Kurulum noktası seçilirken bom hattının yığın kenarından payı ve makine gövdesinin olası kayma yönünün dışında durması aranır; gevşek istiflenmiş yığınların dibinde çalışmak yerine birkaç sıranın kaydırılması istenir. Bu talep işi geciktirmez, sahayı güvenli hâle getirir — OSB'de sık karşılaşılan kaza senaryolarının çoğu, aslında istif düzeninin göz ardı edilmesinden doğar.",
+            },
+            {
+                baslik: "Sundurma ve yarı kapalı antrepo çatı işleri",
+                metin:
+                    "Parsellerin önemli bir kısmında üretim ve tam kapalı depo arasında bir ara yapı bulunur: üç tarafı açık sundurma antrepolar. Bu yapıların çatı altı (aydınlatma, oluk, trapez sac bağlantıları, mahya) hem açık sahanın rüzgârına hem de altındaki stokun korunma ihtiyacına aynı anda tabidir. Makine sundurmanın dışından yaklaşır, sepet çatı hizasına oturur ve altındaki stok örtüyle korunarak iş tamamlanır — çatıya adım atma ihtiyacı doğmaz. Bu yapıların oluk ve mahya bakımı, OSB'de yılın en sık tekrarlanan açık saha çağrısıdır.",
+            },
+            {
+                baslik: "Çevre güvenlik hattı: tel örgü üstü kamera ve aydınlatma",
+                metin:
+                    "OSB parsellerinin çevre güvenliği, tel örgü hattına dizilen kamera direkleri ve aydınlatma noktalarıyla kurulur ve bu hat parselin dört bir yanını dolaşır — tek bir çalışma noktası değil, uzun bir güzergâhtır. İş, güzergâh boyunca ilerleyen bir tur olarak planlanır: makine hat boyunca kademeli hareket eder, her direk-kamera noktasında kısa durur ve komşu parsellerle ortak sınırdaki noktalarda karşılıklı bilgilendirme yapılır. Tek direk için ayrı sevkiyat yerine, çevre hattının tamamını tek günde tarayan bir tur, OSB işletmecisi için hem ucuz hem eksiksizdir.",
+            },
+            {
+                baslik: "Rüzgâr ve toz: OSB açık sahasının mevsim gerçeği",
+                metin:
+                    "Polatlı OSB'nin açık kesimi, bozkırın rüzgâr ve toz karakterini taşır: öğleden sonra kuvvetlenen rüzgâr yüksek kotlu işleri (direk tepesi, mahya) sabaha iter, kurak dönemlerin tozu ise açık sahada çalışırken görüş ve yüzey temizliği ekler. Gün planı bu ikiliye göre dizilir — yüksek ve rüzgâra açık kalemler sabah, alçak ve korunaklı kalemler öğleden sonra. Sepette rüzgâr ölçümü sürekli yapılır ve limite yaklaşıldığında sıra değiştirilir; gün boşa geçmez, yalnız kalemler yer değiştirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Polatlı OSB açık saha kalemlerinde zemin ve pencere",
+                paragraflar: [
+                    "OSB parsellerindeki açık saha kalemlerinin zemin gereksinimi ve doğru çalışma bandı aşağıdadır. Zemin sütunu, bu tabloda belirleyici ilk veridir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Zemin", "Çalışma bandı", "Makine"],
+                    satirlar: [
+                        ["Çevre kamera-aydınlatma turu", "Tel örgü hattı, stabilize", "Sabah, tur düzeni", "Dizel arazi tipi"],
+                        ["Sundurma çatı-oluk", "Sundurma önü sert zemin", "Sabah-öğle", "Dizel arazi tipi"],
+                        ["Açık stok sahası direği", "İstif arası, kontrol edilmiş", "Sabah", "Dizel arazi tipi"],
+                        ["Yükleme rampası üstü", "Rampa önü beton", "Gün içi, yük dışı saat", "Dizel / akülü"],
+                        ["Hol içi aydınlatma-raf", "Beton", "Gün boyu", "Akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "OSB'de parsel-içi ile parsel-dışı işin fiyat farkı",
+                paragraflar: [
+                    "Aynı işletmenin hol içi ve açık saha kalemleri farklı maliyet mantığı taşır: hol içi akülü iş, sabit koridor ve düzgün zeminle hızlı ilerler; açık saha dizel iş, zemin kontrolü, istif kaydırma ve rüzgâr beklemesi nedeniyle kalem başına daha fazla süre ister. Teklif hazırlarken iki listeyi ayrı tutmak — hol içi liste akülü fiyatlamayla, açık saha listesi dizel fiyatlamayla — işletmecinin bütçesini gerçekçi kurmasını sağlar. Karışık teklif isteyen işletmelere de aynı ayrım şeffaf şekilde sunulur.",
+                    "OSB'de sık yapılan hata, açık saha işini hol içi süreyle kıyaslamaktır; istif kaydırma ve zemin kontrolü gibi görünmeyen adımlar hesaba katılmadığında teklif gerçek süreyi yansıtmaz. Keşif fotoğrafı bu farkı baştan netleştirir.",
+                ],
+            },
+            {
+                baslik: "Komşu parsellerle ortak gün: OSB'nin kendine özgü ekonomisi",
+                paragraflar: [
+                    "OSB parselleri birbirine bitişik olduğundan, komşu işletmelerin küçük açık saha kalemleri (tek direk, tek kamera, kısa oluk hattı) aynı güne toplanabilir. Makine bir parselden diğerine yürüyerek geçer, nakliye tek seferde kalır ve her işletme yalnız kendi kalemi kadar öder. Bu model, OSB yönetimi veya sanayici dernekleri üzerinden koordine edildiğinde en verimli hâle gelir — bir çağrı, birden fazla parseli aynı güne bağlar.",
+                    "Komşu parseller arasında bu koordinasyonu ilk kez kurmak birkaç telefon görüşmesi ister; sonraki dönemlerde işletmeler birbirinin tur takvimini bilir ve listelerini kendiliğinden aynı haftaya biriktirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Parselimizin hem içinde hem dışında iş var; tek makine mi gelir, iki mi?",
+                cevap:
+                    "Genellikle tek makine yeterli değildir — hol içi düzgün zemin akülü sınıfla, açık saha stabilize-toprak zemin dizel arazi tipiyle çalışılır ve ikisi aynı güne planlanır. Bina çevresi zemin betonsa bazı dış kalemlere akülü de uzanabilir; bu ayrım keşif fotoğrafında netleşir. İki makine gerekse bile tek koordineli gün, iki ayrı sevkiyattan daha ucuz ve kısadır. İç-dış listenizi ve zemin fotoğraflarınızı gönderin; hangi kurgunun size uyduğunu net rakamla söyleyelim.",
+            },
+            {
+                soru: "Açık stok sahamızda malzeme çok sık yer değiştiriyor; sabit güzergâh kurmak mümkün mü?",
+                cevap:
+                    "Sabit güzergâh yerine güncellenebilir plan öneririz: her iş gününden önce sahanın güncel istif düzeni fotoğrafla kontrol edilir ve makine yolu o günkü diziliğe göre çizilir — sabit bir haritaya güvenmek, sık değişen sahada yanıltıcı olur. Değişkenlik yüksekse iş gününden bir gün önce kısa bir saha turu talep ederiz; bu, iş gününde sürpriz kaydırma ihtiyacını önler. Sahanızın ne sıklıkla değiştiğini söyleyin; kontrol adımını plana göre ayarlayalım.",
+            },
+            {
+                soru: "Çevre tel örgümüz boyunca on iki kamera direği var; hepsini tek günde bitirebilir misiniz?",
+                cevap:
+                    "Parselin çevre uzunluğuna bağlı ama çoğunlukla evet — tur düzeni tam bunun için kurulur: makine hat boyunca kademeli ilerler, her direkte kısa duruş yapar ve nakliye tek seferle on iki noktaya bölünür. Erişimi zor köşeler (yoğun bitki örtüsü, dar geçit) varsa önceden bildirin, güzergâhı ona göre çizelim. Tek günde bitmeyecek kadar uzun hatlarda iş iki güne bölünür ama makine sahada kalır, ikinci sevkiyat gerekmez. Direk sayınızı ve krokinizi paylaşın; tur süresini netleştirelim.",
+            },
+            {
+                soru: "Sundurmamızın altında hassas ambalaj malzemesi stoklanıyor; çatı işi sırasında zarar görür mü?",
+                cevap:
+                    "Görmez — makine sundurmanın dışından yaklaşır, sepet çatı hizasında çalışır ve altındaki stok, iş süresince örtüyle korunur; çatıya hiç adım atılmaz. Ambalaj gibi nem ve toz hassasiyeti olan malzemede örtü ek bir katman olarak uygulanır ve iş bitince kaldırılır. Stok hacminiz büyükse yalnızca çalışma hattının altındaki bölüm örtülür, kalanı yerinde kalır. Sundurma ölçüsü ve stok tipini paylaşın; koruma düzenini keşifte birlikte kuralım.",
+            },
+            {
+                soru: "Rüzgârlı bir günde randevumuz var; iş iptal mi olur, ertelenir mi?",
+                cevap:
+                    "Genellikle ne iptal ne tam erteleme — gün yeniden dizilir: sabah rüzgâr düşükken yüksek kotlu kalemler (direk tepesi, mahya) yapılır, öğleden sonra rüzgâr güçlenince alçak ve korunaklı kalemlere geçilir. Sepette sürekli ölçüm yapılır ve limit aşılırsa o kalem ertesi sabaha kaydırılır — gün tamamen boşa gitmez. Yalnızca tüm gün boyunca limit üstü rüzgâr beklenen istisnai günlerde erteleme konuşulur ve bu, hava durumu netleşir netleşmez size bildirilir.",
+            },
+            {
+                soru: "Komşu parseldeki firmayla aynı gün makine paylaşmak istiyoruz; nasıl kurulur?",
+                cevap:
+                    "İki işletmenin kalem listesini ve tercih ettiğiniz haftayı bize iletmeniz yeterli — makine bir parselden diğerine yürüyerek geçer, tek nakliye iki fatura arasında bölünür ve her işletme yalnız kendi kalemi kadar öder. İlk seferde koordinasyonu biz kurarız; ikinci seferden itibaren siz de komşu işletmeyle doğrudan anlaşıp bize ortak tarih bildirebilirsiniz. OSB'de bu model özellikle küçük kalemli (tek direk, kısa oluk) işletmeler için maliyeti gözle görülür düşürür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Polatlı OSB'nin geniş parsel yapısı ve açık-kapalı karma yerleşimi kamuya açık bilgidir; güzergâh turu, istif kuralı ve komşu parsel koordinasyonu firma pratiğidir.",
+    },
+
+    "bolge:elmadag": {
+        h1: "Elmadağ'da Samsun Yolu Aksında Açık Stok Sahalarına Manlift Kiralama",
+        giris:
+            "Elmadağ, Ankara'yı Samsun yönüne bağlayan karayolunun ilk sanayi durağıdır ve bu konum, ilçeye yol kenarına dizilmiş bir depo-stok kuşağı kazandırmıştır: yapı malzemesi toptancıları, nakliye firmalarının aktarma sahaları, tarım makinesi ve ekipman bayilerinin sergi-stok alanları, akaryakıt ve LPG dolum-depolama tesisleri. Bu kuşağın ortak özelliği yol cephesidir — sahalar genellikle karayoluna paralel uzanır, malzeme yol tarafından görünür şekilde istiflenir ve tabela-totem gibi yol cephesi unsurları işin önemli bir parçasıdır. Manlift talebimiz bu yol kenarı dünyasından gelir: açık stok sahası aydınlatması, yol cephesi tabela-totem işleri, sundurma ve depo çatı bakımları, dış saha güvenlik kamera direkleri. Samsun yolunun kendine özgü koşulu trafik yoğunluğudur — yol cephesindeki çalışmalar, araç akışını kesmeyecek şekilde ve genellikle koni-işaret düzeniyle planlanır.",
+        maddeler: [
+            {
+                baslik: "Yol cephesi tabela ve totem işlerinde trafik güvenliği",
+                metin:
+                    "Samsun yolu üzerindeki işletmelerin tabela ve totemleri, yola en yakın ve en görünür noktada durur — bu da işi trafik güvenliği sorununa çevirir. Çalışma alanı koni ve işaret levhalarıyla yoldan ayrılır, makine yol omzuna değil işletme sınırının içine konumlanır ve mümkün olduğunca trafiğin seyrek olduğu saat bandı seçilir. Geniş yüzeyli tabela panelleri rüzgârlı günlerde ek risktir; bu kalemler günün en sakin bandına, panel değişimi ise iki kişilik ekiple (biri sepette, biri yerde yönlendirici) yürütülür.",
+            },
+            {
+                baslik: "Yol boyu açık stok sahalarında istif ve erişim",
+                metin:
+                    "Yapı malzemesi ve ekipman bayilerinin açık stok sahaları, yol kenarında dar ve uzun parseller üzerine kurulur; bu geometride makine güzergâhı genellikle tek bir ana hat boyunca ilerler ve yan istifler bu hattı daraltır. Kurulum öncesi güzergâh, mevcut istif düzenine göre çizilir; malzeme yığınları sık değiştiği için güncel fotoğraf kontrolü iş gününden hemen önce tekrarlanır. Dar parsellerde makinenin dönüş yarıçapı sınırlı olduğundan, uzun sahalarda iş bir baştan başlayıp diğer başa doğru ilerleyen tek yönlü bir tur olarak planlanır.",
+            },
+            {
+                baslik: "Nakliye aktarma sahalarında gece-gündüz dengesi",
+                metin:
+                    "Karayolu üzerindeki nakliye ve aktarma tesislerinde araç trafiği günün büyük bölümüne yayılır ve tam boş bir pencere nadir bulunur; bu yüzden platform işi, günün nispeten sakin saatine — çoğunlukla öğleden önceki bant — yazılır ve çalışma karesi geçici koni hattıyla ayrılır. Sundurma aydınlatması, kapı üstü sensörler ve dış kamera noktaları bu tesislerin tipik kalemleridir. Sahanın araç giriş-çıkış kapısına yakın işlerde, kapı trafiğiyle çakışmayı önlemek için tesis yetkilisiyle saatlik koordinasyon kurulur.",
+            },
+            {
+                baslik: "Akaryakıt ve LPG tesislerinde özel çalışma kuralları",
+                metin:
+                    "Yol üzerindeki akaryakıt-LPG dolum ve depolama tesislerinde platform işi, tesisin kendi güvenlik prosedürüne tabidir: ateşleme kaynağı sayılabilecek ekipman kısıtları, çalışma izin belgesi (sıcak/soğuk iş izni) ve gaz ölçümü gibi adımlar iş öncesi tamamlanır. Bu tesislerde çalışma alanı ve zamanı, tesis güvenlik sorumlusuyla birlikte belirlenir; dolum operasyonu süren bölgelerde iş yapılmaz. Aydınlatma direği ve kamera bakımı gibi dış saha kalemleri, dolum trafiğinin en az olduğu saat bandına yazılır.",
+            },
+            {
+                baslik: "Yağış sonrası zemin kontrolü ve erteleme kararı",
+                metin:
+                    "Samsun yolu güzergâhının açık sahaları çoğunlukla stabilize veya sıkıştırılmış toprak zemindir ve yağış sonrası birkaç gün yumuşak kalabilir. Bu durumda erteleme, dürüst ve standart bir uygulamadır: yağıştan sonraki gün zemin fotoğrafla değerlendirilir, göllenme ve yumuşama izi varsa iş bir-iki gün ertelenir veya yayılım plakasıyla kurulum yapılır. İşletmecinin acele etmesi gereken durumlarda plaka desteği ilk seçenektir; zorlama kurulum hiçbir zaman tercih edilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Elmadağ yol kuşağında kalem ve trafik düzeni",
+                paragraflar: [
+                    "Samsun yolu aksındaki tesis tiplerine göre tipik kalemler ve trafik-güvenlik düzeni aşağıdadır. Trafik sütunu, bu kuşakta işin planlanmasında ilk sırada gelir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tipik kalem", "Trafik/güvenlik düzeni", "Makine"],
+                    satirlar: [
+                        ["Yapı malzemesi sahası", "İstif üstü, direk, tabela", "Koni + tek yönlü güzergâh", "Dizel arazi tipi"],
+                        ["Nakliye aktarma sahası", "Sundurma, sensör, kamera", "Sakin bant + kapı koordinasyonu", "Dizel arazi tipi"],
+                        ["Akaryakıt/LPG tesisi", "Direk, kamera bakımı", "Çalışma izni + gaz ölçümü", "Dizel, izinli"],
+                        ["Ekipman bayisi sergi alanı", "Tabela, totem, aydınlatma", "Yol omzu dışı konumlama", "Dizel arazi tipi"],
+                        ["İçeri depo bölümü", "Raf-aydınlatma", "Standart depo düzeni", "Akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yol cephesi işinin görünmeyen maliyeti: hazırlık süresi",
+                paragraflar: [
+                    "Yol kenarındaki bir tabela veya direk işi, sepetteki süreden çok hazırlık süresiyle uzar: koni dizilimi, işaret levhalarının yerleştirilmesi ve gerekiyorsa trafik yönlendirme desteği, iş başlamadan tamamlanması gereken adımlardır. Bu hazırlığı iş süresinin dışında değil içinde saymak, teklifi gerçekçi kılar — yol cephesi kalemleri, aynı ölçüdeki iç saha kalemlerinden genellikle daha uzun sürer.",
+                    "İşletmecilere önerimiz, yol cephesi kalemlerini mümkünse tek güne toplamaktır: hazırlık bir kez kurulur (koni, işaret), o günün tüm tabela-totem-direk işleri art arda tamamlanır ve hazırlık maliyeti listeye bölünür.",
+                ],
+            },
+            {
+                baslik: "Mevsim geçişinde yol kuşağı bakım turu",
+                paragraflar: [
+                    "Yol kenarındaki açık sahalar, kışın tuzlama-tipi rüzgârından ve yazın toz-güneşten benzer şekilde etkilenir: tabela yüzeyleri solar, direk bağlantıları gevşer, kamera lensleri kirlenir. Kuşak boyunca yılda iki tur — kış öncesi ve yaz öncesi — bu kalemleri toplu şekilde tarar ve her tesise ayrı ayrı çağrı yerine, hat boyunca ilerleyen tek bir tur gününde çözüm sunar.",
+                    "Tur kaydı tutulur; bir sonraki dönemde hangi tesiste hangi kalemin tekrar kontrol gerektirdiği bu kayıttan okunur ve tekrarlayan arıza noktaları zamanla ortadan kalkar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tabelamız yola çok yakın; çalışma sırasında trafik durur mu?",
+                cevap:
+                    "Durmaz, ama kısa süreli yavaşlama olabilir — çalışma alanı koni ve işaret levhalarıyla yoldan ayrılır, makine işletme sınırının içinde konumlanır ve yol omzuna taşmaz. Trafiğin görece seyrek olduğu saat bandı tercih edilir ve panel değişimi gibi görünür işlerde bir yönlendirici sepetle birlikte yerde bulunur. Yolun trafik yoğunluğu saatlerini bilen sizsiniz — en uygun bandı birlikte belirleyelim ve gerekiyorsa yerel trafik biriminize bilgi verelim.",
+            },
+            {
+                soru: "Stok sahamızdaki malzeme her hafta yer değiştiriyor; güzergâh her seferinde yeniden mi çizilir?",
+                cevap:
+                    "Evet, ve bu doğru yaklaşımdır — sabit bir güzergâh haritası, sık değişen sahada yanıltıcı olur. İş gününden hemen önce sahanın güncel fotoğrafı istenir ve makine yolu o günkü diziliğe göre çizilir; dar-uzun parsellerde tek yönlü, baştan başa ilerleyen bir tur tercih edilir. Bu kısa kontrol adımı birkaç dakika alır ama iş gününde beklenmedik kaydırma ihtiyacını önler.",
+            },
+            {
+                soru: "LPG tesisimizde çalışacaksınız; hangi izinleri önceden hazırlamalıyız?",
+                cevap:
+                    "Tesisinizin kendi güvenlik prosedürüne göre değişir ama tipik olarak çalışma izin belgesi (soğuk iş izni), gaz ölçüm kaydı ve varsa ateşleme kaynağı kısıtlarına uygun ekipman onayı istenir. Bu belgeleri güvenlik sorumlunuzla önceden hazırlarsanız iş günü kaybı yaşanmaz. Dolum operasyonu süren bölgelerde çalışılmaz; iş, dolum trafiğinin en az olduğu saat bandına yazılır. Tesis prosedür dosyanızı paylaşın, adımları önceden birlikte netleştirelim.",
+            },
+            {
+                soru: "Yağmurdan sonra sahamız çamur oldu; iş ertelenir mi, yoksa çözüm var mı?",
+                cevap:
+                    "İkisi de mümkün — önce zemin fotoğrafla değerlendirilir; göllenme ve belirgin yumuşama varsa bir-iki günlük erteleme önerilir, bu bekleme tarihiniz uygunsa en güvenli seçenektir. Aciliyet varsa yayılım plakası ile kurulum denenir ve makinenin denge sistemi doğrulanarak çalışılır. Zorlama kurulum hiçbir zaman yapılmaz çünkü hem makineyi hem sahayı riske atar. Son yağış tarihini ve saha fotoğrafını paylaşın, birlikte karar verelim.",
+            },
+            {
+                soru: "Nakliye sahamızda araçlar neredeyse hiç durmuyor; ne zaman çalışabilirsiniz?",
+                cevap:
+                    "Tam boş pencere nadir olsa da günün göreli sakin bandı vardır — genellikle öğleden önceki saatler; bu bandı sizinle birlikte belirleriz. Çalışma karesi koni hattıyla ayrılır ve araç giriş-çıkış kapısına yakın işlerde tesis yetkilinizle saatlik koordinasyon kurulur. Sundurma aydınlatması ve kamera gibi kısa kalemler bu bantta rahatlıkla biter; uzun süren kalemler birkaç sakin banda bölünerek tamamlanır.",
+            },
+            {
+                soru: "Yol boyunca birkaç komşu işletmeyle birlikte tabela-aydınlatma bakımı yaptırmak istiyoruz, mümkün mü?",
+                cevap:
+                    "Mümkün ve önerdiğimiz model tam olarak budur: hat boyunca ilerleyen bir tur, komşu işletmelerin kısa kalemlerini tek güne toplar, hazırlık (koni, işaret) bir kez kurulur ve nakliye maliyeti listeye bölünür. Katılan işletme sayısı arttıkça birim maliyet düşer. Komşularınızla kısa bir koordinasyon yaparak ortak bir tarih önerin; tur güzergâhını ve gün planını biz çıkaralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Elmadağ'ın Samsun yolu aksındaki yol kenarı sanayi-depo dokusu kamuya açık bilgidir; tabela-güzergâh koordinasyonu, güncel istif kontrolü ve tesis güvenlik uyumu firma pratiğidir.",
+    },
+
+    "bolge:ayas": {
+        h1: "Ayaş'ta Tarım-Depo Sahalarında Arazi Tipi Manlift Kiralama",
+        giris:
+            "Ayaş, Ankara'nın kuzeybatısında, kentin sanayi dokusundan çok tarım ve kırsal yerleşim dokusuyla öne çıkan bir ilçedir. Buradaki manlift talebi de bu karaktere uygun bir profilden gelir: tarımsal ürün depoları, soğuk hava ve kurutma tesisleri, kooperatif ambarları, sera işletmelerinin destek yapıları ve küçük ölçekli imalathanelerin açık stok alanları. Bu sahaların ortak paydası arazi zeminidir — Ayaş'ın kırsal parselleri neredeyse hiç asfalt veya beton kaplı değildir, toprak, stabilize ve otlu zemin karışımı hâkimdir. Dizel arazi tipi manlift, bu coğrafyanın tek gerçekçi seçeneğidir; akülü sınıf, dar tekerlekleri ve düşük yer basıncı toleransıyla bu zeminlere çıkarılmaz. Filomuzun Ayaş düzeni, geniş lastikli ve dört teker çekişli arazi makinelerine dayanır ve her iş, zemin değerlendirmesiyle başlar.",
+        maddeler: [
+            {
+                baslik: "Kırsal parselde zemin değerlendirmesinin önceliği",
+                metin:
+                    "Ayaş'ta bir işin ilk sorusu makine değil zemindir: parselin toprak yapısı, son yağıştan bu yana geçen süre ve göllenme izleri, kurulum noktasını belirler. Taze sürülmüş toprak, dere yatağına yakın nemli kesimler ve şev kenarları çalışılmayacak bölgeler olarak işaretlenir; şüpheli noktada yayılım plakası serilir. Arazi tipi manlift geniş lastikleri ve düşük basınç dağılımıyla kuru-sert toprakta güvenle çalışır, ama bu tolerans sınırsız değildir — zemin kontrolü her işin açılış adımıdır ve atlanmaz.",
+            },
+            {
+                baslik: "Tarımsal ürün depolarında sezonluk pencere",
+                metin:
+                    "Ayaş çevresindeki tarımsal ürün depoları ve kooperatif ambarları, hasat döneminde dolar ve bu dönemde bakım işi sokulmaz. Doğru pencere hasat öncesi ilkbahar ve hasat sonrası dönemlerdir: ambar çatı altı aydınlatma, havalandırma sistemleri ve kapı-sundurma kalemleri bu iki pencereye yazılır. Depo boşken çalışmanın avantajı yalnız erişim kolaylığı değildir — ürün kirlenme riski de ortadan kalkar, bu da özellikle gıda amaçlı depolarda tercih sebebidir.",
+            },
+            {
+                baslik: "Soğuk hava ve kurutma tesislerinde dış saha işleri",
+                metin:
+                    "Bölgedeki soğuk hava depoları ve kurutma tesislerinin dış altyapısı — kompresör ünitelerinin üst bağlantıları, çatı havalandırma bacaları, çevre aydınlatması — arazi zeminde çalışılan tipik kalemlerdir. Bu tesislerde iç mekan soğuk zincir hassasiyeti taşırken dış saha işleri bu kısıttan bağımsızdır ve gündüz saatlerinde rahatça planlanabilir. Kompresör üstü işlerde tesisin teknik ekibiyle koordinasyon kurulur; sistem çalışırken titreşimli müdahaleden kaçınılır.",
+            },
+            {
+                baslik: "Sera işletmelerinde destek yapı bakımı",
+                metin:
+                    "Ayaş'ın sera kuşağında platform ihtiyacı seranın kendisinden değil, destek yapılarından gelir: depo-paketleme binalarının çatı altı, ürün soğutma ön odalarının aydınlatması, saha aydınlatma direkleri ve çevre güvenlik kameraları. Sera örtü malzemesinin kendisi manlift işi değildir ama serayı besleyen bina ve saha altyapısı bu kapsama girer. İşler, üretim sezonunun paketleme yoğunluğu dışındaki sakin dönemlere yazılır ve arazi zemininde standart kurulum kuralları uygulanır.",
+            },
+            {
+                baslik: "Dağınık küçük imalathanelerde tur ekonomisi",
+                metin:
+                    "Ayaş'ın küçük ölçekli imalathaneleri ve atölye-depo karması yapıları, ilçe merkezi ve köyler arasında dağınıktır ve her biri için ayrı sevkiyat ekonomik değildir. Doğru model, bu coğrafyada da rota günüdür: birkaç işletmenin kalemleri (aydınlatma, saçak, direk) aynı güne toplanır, makine güzergâh boyunca ilerler ve mesafe maliyeti listeye bölünür. Rota günleri belirli aralıklarla tekrarlandığında işletmeler acil olmayan kalemlerini biriktirmeyi öğrenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ayaş kırsal sahalarında zemin ve pencere",
+                paragraflar: [
+                    "Bölgedeki tesis tiplerine göre zemin durumu ve doğru çalışma penceresi aşağıdadır. Bu tabloda zemin sütunu, her işin ilk değerlendirme konusudur.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Zemin", "Doğru pencere", "Makine"],
+                    satirlar: [
+                        ["Tarım ürün deposu", "Toprak/stabilize, parsel içi", "Hasat öncesi/sonrası", "Dizel arazi tipi"],
+                        ["Soğuk hava/kurutma tesisi", "Beton çevresi + toprak saha", "Gündüz, yıl boyu", "Dizel arazi tipi"],
+                        ["Sera destek binası", "Karma zemin", "Paketleme dışı sakin dönem", "Dizel arazi tipi"],
+                        ["Kooperatif ambarı", "Stabilize", "Boş depo dönemi", "Dizel arazi tipi"],
+                        ["Küçük imalathane", "Değişken", "Rota günü", "Dizel arazi tipi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Arazi tipi makinenin sınırları: ne zaman çalışılmaz",
+                paragraflar: [
+                    "Dizel arazi tipi manliftin dört teker çekişi ve geniş lastikleri, kırsal zeminlerin çoğuna uygundur ama sınırsız değildir: yakın zamanda sürülmüş yumuşak tarla toprağı, dere kenarı nemli kesimler, belirgin şev ve dolgu kenarları çalışılmayacak bölgelerdir. Bu sınırları önceden söylemek, işletmeciyle aramızdaki en önemli güven adımıdır — zorlama kurulum, hem makineyi hem operatörü riske atar ve hiçbir işte tercih edilmez.",
+                    "Sınır durumlarda çözüm genellikle erteleme değil uyarlamadır: yayılım plakası, alternatif kurulum noktası veya kısa bir kuruma bekleme süresi, çoğu zemini birkaç gün içinde çalışılabilir hâle getirir.",
+                ],
+            },
+            {
+                baslik: "Hasat takvimine göre yıllık bakım planı",
+                paragraflar: [
+                    "Tarımsal depoculuğun yılı hasat takvimine bağlıdır ve bakım planı da bu takvime göre kurulur: hasat öncesi ilkbaharda ambar-depo kalemleri (aydınlatma, havalandırma, kapı) topluca gözden geçirilir, hasat sonrası sonbaharda boşalan depolarda daha kapsamlı işler (raf, çatı, sundurma) yapılır. Bu iki dönemi önceden bize bildiren işletmeler, bölgedeki talep yoğunluğunun dışında kalır ve makine rezervasyonunu rahatça yapar.",
+                    "Yıllık planı bir kez kurmak, sonraki yıllarda kendiliğinden tekrarlanan bir rutine dönüşür — işletmecinin tek görevi hasat tarihini bize erken haber vermektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ambarımızın çevresi hiç kaplanmamış toprak; makine oraya güvenle girebilir mi?",
+                cevap:
+                    "Kontrollü şekilde girer — arazi tipi manlift bu zeminler için tasarlanmıştır, ama her nokta uygun değildir: son yağıştan bu yana geçen süre, göllenme izleri ve şev kenarları değerlendirilir, şüpheli noktada yayılım plakası serilir. Taze sürülmüş yumuşak toprakta çalışılmaz, kurumasını bekleriz. Saha fotoğrafı ve son yağış bilgisini paylaşın; çalışılabilir noktaları ve gerekiyorsa bekleme süresini baştan netleştirelim.",
+            },
+            {
+                soru: "Hasat zamanı ambarımız dolu oluyor; bakımı ne zaman yaptıralım?",
+                cevap:
+                    "Hasattan önceki ilkbahar veya hasattan sonraki boşalma döneminde — ikisi de doğru pencere, tercih ürün ve depo tipinize göre değişir. Boş depoda erişim kolay, ürün kirlenme riski yoktur ve iş hızlı biter. Hasat ortasında yalnız acil arıza müdahalesi yapılır. Hasat takviminizi paylaşın; hangi pencereye yazacağımızı ve makine rezervasyonunu birlikte netleştirelim.",
+            },
+            {
+                soru: "Soğuk hava deposunun kompresörleri çalışırken dış bağlantılarında iş yapılabilir mi?",
+                cevap:
+                    "Çoğunlukla evet — dış saha işleri iç soğuk zincirden bağımsızdır ve kompresör üstü bağlantı işleri, sistem teknik ekibinizle koordine edilerek yürütülür. Titreşimli veya sistemi doğrudan etkileyecek müdahalelerde kısa bir durdurma istenebilir; bu, tesis teknik ekibinizin kararına bağlıdır. İş öncesi kısa bir koordinasyon görüşmesi, hangi kalemlerin çalışırken hangilerinin durdurma gerektirdiğini netleştirir.",
+            },
+            {
+                soru: "Seramızın paketleme binasında aydınlatma sorunu var; en uygun dönem hangisi?",
+                cevap:
+                    "Paketleme yoğunluğunun düştüğü sakin dönem — üretim sezonunun ortasında paketleme binası neredeyse sürekli kullanıldığından iş bu dönemde ertelenir. Sakin döneme yazılan iş, hem bina trafiğini aksatmaz hem de arazi zemininde makinenin rahat çalışmasını sağlar. Sezon takviminizi paylaşın, hangi haftaların sakin olduğunu birlikte belirleyelim.",
+            },
+            {
+                soru: "İşletmemiz köyde, tek başına küçük bir kalem için gelir misiniz?",
+                cevap:
+                    "Geliriz ama en ekonomik yol rota günüdür: aynı yöndeki birkaç işletmenin kalemlerini tek güne topluyoruz, makine güzergâh boyunca ilerliyor ve mesafe maliyeti listeye bölünüyor. Tek başına acil olmayan küçük bir kalem varsa, bunu bir listeye ekleyip rota gününü bekletmenizi öneririz; tarih esnekliğiniz varsa maliyet gözle görülür düşer. Acil işlerde rota beklenmez, doğrudan gelinir.",
+            },
+            {
+                soru: "Kooperatif ambarımızın zemini yağmurdan sonra hep çamur oluyor; kalıcı çözüm var mı?",
+                cevap:
+                    "Bizim tarafımızdan kısa vadeli çözüm yayılım plakası ve bekleme süresidir; kalıcı çözüm ise saha zemininin bir kısmının stabilize dolguyla iyileştirilmesidir — bu, sizin veya kooperatifinizin yatırım kararıdır. Sık tekrarlayan çamurlanma sorunuysa, bu durumu ilk ziyaretimizde belgeleriz ve kooperatif yönetiminize iletilmek üzere fotoğraflı bir not hazırlarız; karar sizde kalır, biz yalnızca sahanın mevcut hâline göre en güvenli çalışma planını kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Ayaş'ın kırsal-tarımsal doku ve arazi zemini kamuya açık coğrafi bilgidir; zemin değerlendirme kuralları, hasat takvimi planı ve rota günü modeli firma pratiğidir.",
+    },
+
+    "bolge:beypazari": {
+        h1: "Beypazarı'nda İlçe Tesislerine Açık Saha Manlift Planlaması",
+        giris:
+            "Beypazarı, Ankara'nın batısında hem tarım hem de küçük ölçekli sanayi ve turizm dokusunu bir arada taşıyan bir ilçedir. Buradaki manlift talebi de bu çeşitliliği yansıtır: havuç ve sebze işleme-paketleme tesislerinin depo yapıları, termal-turizm işletmelerinin teknik altyapısı, ilçe merkezindeki küçük imalathaneler ve karayolu çevresindeki lojistik-depo tesisleri. Bu sayfanın odağı ilçe tesislerinin açık saha planlamasıdır — dört duvarın dışında kalan direk, sundurma, çatı ve çevre aydınlatma işleri. Beypazarı'nın Ankara merkeze uzaklığı, buradaki her işi planlı bir listeye dönüştürür; tekil küçük kalemler için ayrı sevkiyat nadiren mantıklıdır ve batı yönü rota günlerimiz, ilçenin dağınık tesislerini tek güne bağlar.",
+        maddeler: [
+            {
+                baslik: "Sebze işleme tesislerinde sezonluk açık saha yükü",
+                metin:
+                    "Beypazarı'nın havuç ve sebze işleme-paketleme tesisleri, hasat sezonunda açık sahalarını yoğun kullanır: yıkama-ayıklama hatlarının önündeki bekleme alanları, ambalaj malzemesi stok sahaları ve sevkiyat bekleme sundurmaları sezon boyunca doludur. Bu tesislerde açık saha bakımı sezon dışına yazılır — sezon öncesi hazırlık ve sezon sonrası onarım iki doğal penceredir. Sezon içinde yalnız operasyonu durduran arızalar (sönen sundurma aydınlatması, arızalı yükleme kapısı) öncelikli müdahale görür.",
+            },
+            {
+                baslik: "Termal-turizm işletmelerinde teknik altyapı işleri",
+                metin:
+                    "İlçedeki termal ve konaklama işletmelerinin misafir alanları dışında kalan teknik açık sahaları — makine dairesi çatıları, su deposu çevresi, personel-hizmet binalarının dış cephesi — manlift işinin konusudur. Bu tesislerde iş, misafir yoğunluğunun düşük olduğu gün ve saatlere planlanır; görsel bütünlüğü koruyan bir çalışma alanı sınırlaması (bariyer, örtü) misafir gözünden uzak tutulur. Termal tesislerin buhar-nem etkisiyle hızlanan dış cephe yıpranması, düzenli bir dış saha kontrolünü değerli kılar.",
+            },
+            {
+                baslik: "İlçe merkezi imalathanelerinde dar sokak erişimi",
+                metin:
+                    "Beypazarı merkezinin tarihi dokuya yakın kesimlerindeki küçük imalathaneler, dar sokaklarda konumlanabilir ve bu, makine erişimini bir planlama konusuna çevirir: sokak genişliği, araç giriş kısıtları ve varsa tarihi doku koruma kuralları önceden değerlendirilir. Dar erişimli noktalarda daha küçük gabaride makine seçimi veya işletme sınırına en yakın uygun noktadan çalışma tercih edilir. Bu değerlendirme, keşif aşamasında sokak fotoğrafıyla netleştirilir ve iş günü sürprizi önlenir.",
+            },
+            {
+                baslik: "Karayolu çevresi depo tesislerinde standart dış saha kalemleri",
+                metin:
+                    "İlçeyi çevre yollara bağlayan güzergâh üzerindeki depo ve lojistik tesisleri, bölgenin diğer ilçelerindeki benzerleriyle aynı dış saha kalemlerini üretir: saha aydınlatma direkleri, çevre kamera noktaları, sundurma ve saçak bakımları. Bu tesislerde iş, standart dizel arazi tipi düzeniyle ve zemin kontrolüyle yürütülür; ilçenin diğer kesimlerine kıyasla erişim genellikle daha kolaydır çünkü parseller yol kenarında ve düz zeminlidir.",
+            },
+            {
+                baslik: "Kaplıca ve tesis kümelerinde ortak rota fırsatı",
+                metin:
+                    "Beypazarı'nda termal tesisler, sebze işleme fabrikaları ve depo alanları birbirine yakın kümeler hâlinde bulunabilir; bu yakınlık, farklı sektörlerden işletmelerin aynı güne toplanmasını mümkün kılar. Bir termal tesisin çatı işi ile yakınındaki bir depo tesisinin direk bakımı, aynı rota gününe yazılabilir. Bu tür kesişen randevular önceden koordine edildiğinde, ilçenin tamamı için mesafe maliyeti daha da küçülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Beypazarı tesis tiplerinde kalem ve pencere eşleşmesi",
+                paragraflar: [
+                    "İlçedeki farklı tesis tiplerine göre tipik açık saha kalemleri ve doğru çalışma penceresi aşağıdadır. Sezon sütunu, tarımsal tesislerde planlamanın ilk girdisidir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tipik kalem", "Doğru pencere", "Makine"],
+                    satirlar: [
+                        ["Sebze işleme tesisi", "Sundurma, kapı, sahaaydınlatma", "Sezon dışı", "Dizel arazi tipi"],
+                        ["Termal-turizm işletmesi", "Çatı, su deposu çevresi", "Düşük misafir yoğunluğu", "Dizel arazi tipi"],
+                        ["Merkez imalathane", "Cephe, çatı, aydınlatma", "Dar erişime uygun gün", "Küçük gabari / dizel"],
+                        ["Karayolu depo tesisi", "Direk, kamera, saçak", "Yıl boyu, standart", "Dizel arazi tipi"],
+                        ["Kümelenmiş tesisler", "Karma kalemler", "Ortak rota günü", "Dizel arazi tipi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar sokakta makine planlaması: keşif fotoğrafının rolü",
+                paragraflar: [
+                    "Beypazarı merkezine yakın işletmelerde en sık karşılaşılan engel, geniş gabarili makinenin sığmayacağı dar sokaklardır. Bu sorunun çözümü sahada değil masada bulunur: keşif aşamasında istenen sokak ve giriş fotoğrafları, hangi makinenin sığacağını önceden netleştirir ve iş günü geri dönüş riskini ortadan kaldırır. Sığmayan durumlarda alternatif — daha küçük gabarili model veya işletme sınırına en yakın açık noktadan çalışma — önceden konuşulur.",
+                    "Bu ön değerlendirme, dar sokaklı ilçe merkezlerinde çalışmanın standart adımıdır ve müşteriye ek bir yük değil, iş gününün sorunsuz geçmesinin güvencesidir.",
+                ],
+            },
+            {
+                baslik: "Sezon dışı hazırlık: tarımsal ve turizm tesisleri için ortak mantık",
+                paragraflar: [
+                    "Beypazarı'nın iki büyük ekonomik kolu — tarımsal işleme ve turizm — farklı takvimlerde ama aynı mantıkla çalışır: yoğun sezon geldiğinde açık saha bakımına zaman ayrılmaz, bu yüzden hazırlık sezon başlamadan birkaç hafta önce tamamlanır. Sebze işleme tesisleri için bu hasat öncesi ilkbahardır, turizm işletmeleri için yaz-tatil sezonu öncesidir. İki takvimi de önceden bildiren işletmeler, ilçedeki talep yığılmasının dışında kalır.",
+                    "Sezon dışı hazırlık listesini yıllık bir alışkanlığa dönüştüren tesisler, sezon ortasında dış saha kaynaklı sürprizle neredeyse hiç karşılaşmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sebze işleme sezonumuz üç ay sürüyor; bu süre boyunca hiç bakım yaptıramaz mıyız?",
+                cevap:
+                    "Planlı bakım için doğru pencere sezon dışıdır, ama sezon içinde de bir kapınız açık kalır: operasyonu durduran gerçek arızalar (sönen sundurma aydınlatması, arızalı yükleme kapısı) öncelikli olarak ve kısa süreli müdahaleyle karşılanır. Planlı, geniş kapsamlı işler ise sezon öncesi ilkbahar veya sezon sonrası döneme yazılır — bu iki pencereyi takvim başında bize bildirirseniz talep yoğunluğunun dışında kalırsınız.",
+            },
+            {
+                soru: "Termal tesisimizde misafirler rahatsız olmadan çalışabilir misiniz?",
+                cevap:
+                    "Evet — çalışma alanı bariyer ve gerekirse görsel örtüyle misafir güzergâhından ayrılır, iş misafir yoğunluğunun düşük olduğu gün ve saatlere planlanır ve makine gürültüsü-görünürlüğü mümkün olduğunca teknik alanlara sınırlı tutulur. Otel işletmenizle önceden konuşup en sakin dönemi belirleriz; rezervasyon yoğunluğunuzu paylaşırsanız planı ona göre kurarız.",
+            },
+            {
+                soru: "İşyerimiz Beypazarı'nın eski çarşı kesiminde, sokak çok dar; makine oraya girer mi?",
+                cevap:
+                    "Sokak genişliğine bağlı — önce sokak ve giriş fotoğrafını isteriz, hangi gabaride makinenin sığacağını bu fotoğraftan netleştiririz. Sığmayan durumlarda daha küçük gabarili bir model veya işletme sınırına en yakın açık noktadan çalışma önerilir. Bu değerlendirme keşif aşamasında yapılır, iş günü geri dönüş riski kalmaz. Sokak fotoğraflarınızı gönderin, uygun makineyi baştan belirleyelim.",
+            },
+            {
+                soru: "Depo tesisimiz karayolu üzerinde ama tek başına küçük bir işimiz var; nakliye pahalı olur mu?",
+                cevap:
+                    "Tek başına ve tarihi sabit bir işse tam nakliye geçerlidir, ama esnek tarihli küçük kalemler için batı yönü rota günlerimize bağlanmanızı öneririz — mesafe maliyeti günün listesine bölünür ve fark faturada net görünür. İlçedeki komşu tesislerle ortak gün kurmak da aynı ekonomiyi sağlar. Tarih esnekliğinizi belirtin, hangi modelin size uyduğunu birlikte hesaplayalım.",
+            },
+            {
+                soru: "Termal tesisimizle yakınımızdaki depo tesisi aynı gün makine çağırmak istiyor, mümkün mü?",
+                cevap:
+                    "Mümkün ve tam olarak önerdiğimiz kesişen rota modelidir: iki işletmenin kalem listesi ve tercih ettiğiniz tarih bize iletilir, makine bir tesisten diğerine yürüyerek geçer ve nakliye maliyeti iki fatura arasında bölünür. Farklı sektörlerden olmanız sorun değildir — bir termal tesisin çatı işiyle bir depo tesisinin direk bakımı aynı güne rahatlıkla sığar. Komşu işletmenizle kısa bir koordinasyon yapıp bize ortak tarih bildirin.",
+            },
+            {
+                soru: "Sundurmamızın çatısı sezon başlamadan hazır olmalı; ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Sezon öncesi hazırlık pencereleri (tarımsal tesislerde ilkbahar, turizm tesislerinde yaz öncesi) ilçede herkes için aynı olduğundan talep bu dönemde yoğunlaşır. Erken rezervasyon en güvenli yoldur — sezon tarihiniz netleştiği an makine gününü bağlamanızı öneririz. Geç kalınan taleplerde de çözüm ararız ama en uygun tarihi kaçırma riski artar. Sezon başlangıç tarihinizi paylaşın, geriye doğru bir plan çıkaralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Beypazarı'nın tarım-turizm karma ekonomik dokusu ve tarihi merkez yerleşimi kamuya açık bilgidir; sezon dışı hazırlık, dar sokak keşfi ve kesişen rota modeli firma pratiğidir.",
+    },
 };

@@ -1004,4 +1004,400 @@ export const ANKARAEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kırıkkale'nin savunma-rafineri kimliği kamuya açık bilgidir; izin senkron sevkiyat ve tur modeli firma pratiğidir.",
     },
+
+    "bolge:siteler-mobilya-sanayi-bolgesi": {
+        h1: "Siteler Mobilya Sanayi Bölgesi'nde Eklemli Platform Kiralama",
+        giris:
+            "Siteler, Ankara'nın en köklü mobilya imalat kümesidir ve dokusu, kentin diğer sanayi bölgelerinden farklı bir geometri sorunu doğurur: parseller küçük, bina cepheleri bitişik, sokaklar araç trafiğine göre değil el arabası ve kısa mesafeli malzeme taşımaya göre şekillenmiştir. Bu ölçek, atölye kapılarının darlığında ve sokak genişliklerinde doğrudan görülür — çoğu ana giriş, standart bir aracın zorlukla sığdığı ölçüdedir. Eklemli platformun buradaki rolü, bu darlığı bir kısıt olarak değil bir zarf problemi olarak ele almaktır: makine geniş bir alana değil, doğru boyutlu bir boşluğa ve doğru kırılım açısına ihtiyaç duyar. Bu sayfada Siteler'in dar sokak-dar kapı geometrisinde eklemli kolun nasıl konumlandığını, hangi ölçülerin işi belirlediğini ve hangi model sınıfının bu dokuya uyduğunu anlatıyoruz — bakım takvimi veya iş rutini değil, salt erişim geometrisi.",
+        maddeler: [
+            {
+                baslik: "Dar kapı ölçüsü: makine seçiminin ilk filtresi",
+                metin:
+                    "Siteler'deki atölye ve mağaza girişlerinin büyük bölümü 1,2-1,8 metre bandında kapı genişliğine sahiptir ve bu ölçü, hangi makinenin sahaya girebileceğini standart metrajdan önce belirler. Şase genişliği kapı ölçüsünü aşan bir makine, ne kadar yüksek çıkarsa çıksın o kapıdan içeri giremez — bu yüzden Siteler işlerinde ilk soru 'kaç metre çıkıyor' değil 'kapıdan geçiyor mu'dur. Dar şaseli kompakt eklemli modeller (tipik 0,75-0,9 metre şase genişliği) bu bölgenin standart tercihidir; kapı ölçüsü keşifte cetvelle doğrulanır, tahmine bırakılmaz.",
+            },
+            {
+                baslik: "Bitişik cephe sokaklarında park ve kırılım açısı",
+                metin:
+                    "Bölgenin bitişik nizam yapılaşması, makinenin hedefin tam karşısına değil çoğunlukla sokağın bir kenarına park etmesini zorunlu kılar; bu da düz bir dikey çıkış yerine açılı bir kırılım gerektirir. Eklemli bomun üst ekleminden kırılabilme kabiliyeti tam bu noktada devreye girer — sokağın darlığı yüzünden hedefin tam altına gelinemeyen durumlarda bom, yandan yaklaşıp üstten kırılarak cepheye ulaşır. Bu geometri, zarf diyagramında park noktası ile hedef arasındaki yatay-dikey mesafe üçgeni çizilerek doğrulanır; sokak genişliği dar olduğunda park açısı da ayrıca hesaba katılır.",
+            },
+            {
+                baslik: "Komşu bina çıkıntıları ve tabela engelleri",
+                metin:
+                    "Siteler sokaklarında mağaza tabelaları, gölgelikler ve üst kat balkon çıkıntıları sık rastlanan engellerdir ve bunlar genellikle hedefin tam önünde, erişim hattının üzerinde bulunur. Bom, bu çıkıntıların altından geçip üzerinden kırılarak veya yan boşluktan sıyrılarak hedefe ulaşır; hangi yolun uygun olduğu, çıkıntının derinliği ve yüksekliği ölçülerek zarf diyagramına işlenir. Komşu bina cephesine temas riski olan dar geçişlerde bom hareketleri yavaşlatılmış modda yapılır ve gerekirse geçici koruma (yumuşak dolgu) komşu cepheye uygulanır.",
+            },
+            {
+                baslik: "Dönüş yarıçapı ve kuyruk taşması hesabı",
+                metin:
+                    "Dar sokaklarda makinenin kendi içinde dönebilmesi kadar önemli olan bir başka ölçü, şase arkasının dönüş sırasında ne kadar savrulacağıdır (kuyruk taşması). Siteler'in bazı sokaklarında bina köşeleri ve elektrik direkleri dönüş yarıçapını daraltır; bu direklerin ve köşelerin konumu keşifte işaretlenir ve makine, geri manevra gerektirmeyecek şekilde tek seferde konumlandırılır. Dar şaseli modellerin sıfıra yakın kuyruk taşması, bu sokaklarda ikinci bir manevra denemesinin önüne geçer — Siteler'de zaman kaybı, çoğunlukla yanlış park pozisyonundan doğar.",
+            },
+            {
+                baslik: "El arabası trafiğiyle paylaşılan dar geçitler",
+                metin:
+                    "Bölgenin malzeme taşıma alışkanlığı hâlâ büyük ölçüde el arabası ve kısa mesafeli manuel taşımaya dayanır; bu da makinenin çalıştığı sokağın aynı anda başka bir işlevi daha taşıdığı anlamına gelir. Çalışma alanı bariyerlenirken el arabası geçiş şeridi tamamen kapatılmaz, dar bir koridor bırakılır ve makine hareketleri bu koridora göre zamanlanır. Yoğun teslimat saatlerinde (genellikle sabah erken) çalışma geçici olarak durdurulup geçiş açılır — bu, Siteler'in kendine özgü trafik ritmine uyumun parçasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Siteler'de dar geçiş ölçü tablosu",
+                paragraflar: [
+                    "Bölgenin tipik dar geçiş senaryoları ve bunlara karşılık gelen makine-geometri eşleşmesi aşağıdadır. Her satır, keşifte doğrulanan bir ölçü eşiğine dayanır.",
+                ],
+                tablo: {
+                    basliklar: ["Engel", "Tipik ölçü", "Geometri çözümü", "Makine"],
+                    satirlar: [
+                        ["Dar atölye kapısı", "1,2 – 1,8 m genişlik", "Şase genişliği kapıdan dar model", "Kompakt eklemli, 0,75 – 0,9 m şase"],
+                        ["Bitişik cephe sokağı", "3 – 4 m sokak genişliği", "Yan park + açılı kırılım", "Dar şase eklemli"],
+                        ["Tabela/gölgelik çıkıntısı", "0,5 – 1,2 m derinlik", "Altından geçiş veya üstten kırılım", "Eklemli, yavaşlatılmış mod"],
+                        ["Köşe dönüşü / direk yakını", "Değişken", "Kuyruk taşması hesabıyla tek seferde park", "Sıfıra yakın kuyruk taşmalı model"],
+                        ["El arabası geçiş koridoru", "~0,8 m bırakılan şerit", "Zamanlanmış bariyer, saat dışı çalışma", "Akülü kompakt eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zarf diyagramı Siteler'de neden zorunlu",
+                paragraflar: [
+                    "Siteler'in ölçek küçüklüğü, zarf diyagramını isteğe bağlı bir detaydan zorunlu bir adıma çevirir: standart bir sanayi sahasında birkaç metrelik park hatası genellikle iş yapılabilirliğini etkilemezken, Siteler'in dar sokağında aynı hata makinenin hiç girememesi anlamına gelebilir. Bu yüzden keşifte üç ölçü mutlaka birlikte alınır — sokak/kapı genişliği, park noktasından hedefe yatay mesafe, hedefin yerden kotu — ve bu üçlü diyagrama işlenerek makinenin geometrik olarak ulaşıp ulaşamayacağı saha ziyareti öncesinde netleşir.",
+                    "Bu disiplinin pratik sonucu, 'gelip bakalım' turlarının Siteler'de neredeyse hiç yapılmamasıdır: ölçüler fotoğraf ve cetvelle önceden toplanır, diyagram masada kontrol edilir ve saha ziyareti doğrudan işin yapılmasıyla başlar.",
+                ],
+            },
+            {
+                baslik: "Dar alanda bom güvenliği",
+                paragraflar: [
+                    "Eklemli platformun dar alan güvenlik kuralları, Siteler'in bitişik dokusunda ayrı bir ağırlık kazanır: bom bir cepheye veya çıkıntıya temas ettiğinde sepet ani yaylanma yapabilir, bu yüzden tam vücut kemeri ve kısa lanyard kullanımı sokak genişliği ne olursa olsun tavizsizdir. Dönüş alanı, kuyruk taşması payıyla birlikte bariyerlenir ve bu alan, komşu atölyelerin giriş-çıkışını tamamen kapatmayacak şekilde en dar hâliyle kurulur.",
+                    "Komşu cepheye olan mesafe, çalışma süresince sabit tutulur; bom hareketi sırasında mesafe daralıyorsa operatör hareketi durdurup geometriyi yeniden değerlendirir. Bu üç kural — kemer, dar bariyer, sabit mesafe kontrolü — Siteler brifinginin sabit maddeleridir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemizin kapısı çok dar, standart bir makine giremiyor; çözüm var mı?",
+                cevap:
+                    "Büyük olasılıkla evet — Siteler'in dar kapı dokusu için özel olarak kompakt, dar şaseli eklemli modeller kullanıyoruz; şase genişliği tipik 0,75-0,9 metre bandındadır ve çoğu atölye kapısından geçer. Kapı ölçüsünü santimetre hassasiyetinde ölçüp paylaşmanız yeterli — geçmiyorsa dürüst söyleriz ve alternatif erişim noktası (yan kapı, komşu boşluk) birlikte değerlendirilir. Kapı genişliği ile birlikte kapı yüksekliğini de belirtin; bazı modellerde sepet katlanmış hâlde bile yükseklik sınırlayıcı olabilir.",
+            },
+            {
+                soru: "Sokağımız çok dar, karşı cepheye tam park edemiyoruz; bom yetişir mi?",
+                cevap:
+                    "Bunu zarf diyagramı belirler: makine sokağın kenarına açılı park ettiğinde bom, üst eklemden kırılarak hedefe yandan yaklaşır — düz dikey çıkış şart değildir. Sokak genişliği, park noktasından hedefe yatay mesafe ve hedefin kotu üçlüsünü ölçüp diyagrama işlediğimizde 'ulaşır mı' sorusu kesin cevap bulur. Sokağın bir fotoğrafını üstten ve yandan çekip göndermeniz, telefonla tarif etmekten çok daha hızlı sonuç verir.",
+            },
+            {
+                soru: "Mağazamızın önünde büyük bir tabela var, cephe boyası için engel oluşturuyor mu?",
+                cevap:
+                    "Genellikle oluşturmaz — bom, tabelanın altından geçip üzerinden kırılarak veya yan boşluktan sıyrılarak cepheye ulaşabilir; hangi yolun uygun olduğunu tabelanın derinlik ve yükseklik ölçüsü belirler. Komşu cepheye temas riski olan dar geçişlerde bom hareketleri yavaşlatılmış modda yapılır. Tabelanın çıkıntı derinliğini ve sokağın karşı kaldırıma kadar olan genişliğini ölçüp paylaşırsanız, geçiş yolunu keşif öncesinde çizeriz.",
+            },
+            {
+                soru: "Sokağımızın köşesinde elektrik direği var, makine dönerken çarpar mı?",
+                cevap:
+                    "Çarpmaması için tam bu yüzden kuyruk taşması hesabı yapılır: makinenin şase arkası dönüş sırasında ne kadar savrulacağı önceden hesaplanır ve direğin konumu bu hesaba göre park noktasını belirler. Dar şaseli modellerin kuyruk taşması sıfıra yakındır ve bu, köşeli sokaklarda ikinci manevra denemesini gereksiz kılar. Direğin sokak köşesine uzaklığını ve sokağın o noktadaki genişliğini keşifte ölçüp doğru park pozisyonunu işaretliyoruz.",
+            },
+            {
+                soru: "Sokağımızda gün boyu el arabasıyla malzeme taşınıyor; iş sırasında geçiş kapanır mı?",
+                cevap:
+                    "Tamamen kapanmaz — çalışma alanı bariyerlenirken el arabası geçişi için dar bir koridor bilinçli olarak açık bırakılır ve makine hareketleri bu koridoru bloke etmeyecek şekilde zamanlanır. Yoğun teslimat saatlerinde (genellikle sabah erken) kısa süreli duraklamalar olur, bu süreler işin toplam takvimine baştan eklenir. Sokağınızın en yoğun taşıma saatlerini bize bildirirseniz çalışma programını o saatlerin dışına planlarız.",
+            },
+            {
+                soru: "Siteler'deki tüm atölyeler bu kadar dar mı, yoksa geniş sokaklar da var mı?",
+                cevap:
+                    "Bölge homojen değildir — ana caddelere yakın kesimlerde nispeten geniş, araç trafiğine daha uygun sokaklar bulunurken, iç parsellere doğru gidildikçe sokaklar daralır ve bitişik nizam yoğunlaşır. Bu yüzden 'Siteler işi' tek bir standart makineyle tanımlanmaz; her adresin sokak ve kapı ölçüsü ayrı ayrı değerlendirilir. Adresinizi paylaştığınızda bölgenin o kesimine dair bildiğimiz genel doku bilgisini paylaşır, kesin ölçüyü yine de keşifle doğrularız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Siteler'in mobilya imalat yoğunluğu ve dar/bitişik parsel dokusu kamuya açık bilgidir; zarf diyagramı ve kuyruk taşması hesabı EN 280 ve üretici standartlarıdır.",
+    },
+
+    "bolge:sasmaz-sanayi-sitesi": {
+        h1: "Şaşmaz Sanayi Sitesi'nde Eklemli Platform Kiralama",
+        giris:
+            "Şaşmaz, Ankara'nın oto sanayi ağırlıklı kümelenmelerinden biridir ve bu ağırlık, sahanın fiziksel düzenine doğrudan yansır: servis dükkânları, yedek parçacılar ve kaporta-boya atölyeleri, birbirine yakın parsellerde ve genellikle dar aralıklarla ayrılmış blok sıralarında konuşlanır. Bir servisin önünde çalışırken hemen yanındaki servisin araç giriş-çıkışının kesintisiz sürmesi, bölgenin standart işleyiş koşuludur. Bu da eklemli platform için özel bir manevra problemi doğurur: makinenin kendisi dar aralığa sığmalı, aynı zamanda o aralıktaki araç trafiğini uzun süre bloke etmemelidir. Bu sayfada Şaşmaz'ın dar aralıklı oto sanayi dokusunda eklemli kolun manevra ve konumlandırma geometrisini anlatıyoruz — iş rutini veya bakım takvimi değil, sahanın fiziksel erişim problemi.",
+        maddeler: [
+            {
+                baslik: "Servis aralıkları: standart manevra alanının altında",
+                metin:
+                    "Şaşmaz'daki servis blokları arasındaki aralıklar, çoğunlukla bir aracın park edip kapılarını açabileceği kadar geniştir — bu, geniş açılı bir makine manevrası için yeterli değildir. Eklemli platformun dar şase ve düşük dönüş yarıçapı özellikleri, tam bu aralıkta devreye girer: makine aracın park edeceği genişlikte bir boşluğa girip, bomunu dikey kaldırarak hedefe ulaşabilir. Aralığın gerçek genişliği, iki bina arasındaki en dar noktadan (genellikle saçak veya çıkma noktasından) ölçülür; bu ölçü keşifte doğrulanmadan makine sahaya yönlendirilmez.",
+            },
+            {
+                baslik: "Komşu servisin araç trafiğini kesmeyen konumlandırma",
+                metin:
+                    "Şaşmaz'ın işleyiş ritmi, komşu servislerin sürekli araç kabul-teslim yapmasına dayanır ve bu, makinenin park pozisyonunu salt geometrik değil operasyonel bir karar hâline getirir. Makine, hedef servisin önüne değil genellikle yan aralığa veya kendi servisinin içine konumlanır ve bom, oradan komşu cepheye kırılarak ulaşır — böylece komşu servisin araç giriş şeridi açık kalır. Bu konumlandırma, aynı zamanda kuyruk taşması hesabıyla desteklenir: dönüş sırasında şase arkasının komşu araç şeridine taşmaması ayrıca kontrol edilir.",
+            },
+            {
+                baslik: "Kaporta-boya atölyelerinde tavan ve cephe erişimi",
+                metin:
+                    "Kaporta-boya atölyelerinin kabin yapıları ve boyahane bacaları, tavan yüksekliğinde düzensiz bir profil oluşturur; bu profildeki hedeflere (baca temizliği, çatı membran onarımı, havalandırma ünitesi) düz bir çıkışla değil, kabin gövdesinin etrafından dolanan bir erişimle ulaşılır. Eklemli bom, kabinin yan tarafından park edip üst eklemden kırılarak bacanın veya çatı elemanının üzerine uzanır. Boya tozu ve solvent buharı bulunan alanlarda elektrik aksamı koruması ve kıvılcım kaynağından kaçınma, geometri planlamasının parçası olarak değerlendirilir.",
+            },
+            {
+                baslik: "Yedek parça depolarında raf aralığı manevrası",
+                metin:
+                    "Bölgedeki yedek parça depolarının iç düzeni, dar raf aralıklarıyla yüksek doluluk oranını birleştirir; raf üstü etiketleme, aydınlatma veya tavan tesisatı işlerinde makine bu aralıklardan birine girip komşu raflara zarar vermeden bom hareketi yapmak zorundadır. Kompakt iç mekân eklemli modeller, raf koridoru genişliğine uygun şase ile seçilir ve bom hareketleri, raf kenarlarına belirlenmiş güvenlik mesafesi korunarak yönlendirilir. Koridor genişliği ve raf yüksekliği, keşifte birlikte ölçülür.",
+            },
+            {
+                baslik: "Çoklu servis işlerinde geçiş sırası ve manevra süresi",
+                metin:
+                    "Aynı sokaktaki birden fazla servisin işi tek güne toplandığında, iş süresinin önemli bir kısmını manevra değil geçiş oluşturur — makine bir servisten diğerine geçerken dar aralıkta yeniden konumlanır ve bu geçiş süresi, dar dokuda standart sanayi sahasına göre daha uzundur. Sıralama, komşu servislerin araç trafiği en düşük olduğu saatlere göre kurulur ve her geçiş için ayrı bir konumlandırma kontrolü yapılır. Bu, Şaşmaz'da toplu iş planlamasının salt lojistik değil manevra süresi hesabı da içermesinin nedenidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Şaşmaz'da aralık-manevra-makine eşleşmesi",
+                paragraflar: [
+                    "Bölgenin tipik dar aralık senaryoları ve bunlara karşılık gelen manevra çözümü aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Tipik aralık", "Manevra çözümü", "Makine"],
+                    satirlar: [
+                        ["Servis blokları arası", "Araç park genişliği kadar", "Dar giriş + dikey kaldırma", "Kompakt eklemli, dar şase"],
+                        ["Komşu servis önü", "Değişken, trafik açık kalmalı", "Yan konum + bom kırılımı", "Sıfıra yakın kuyruk taşmalı"],
+                        ["Boyahane kabin çevresi", "Kabin gövdesi kadar dar", "Yandan dolanan erişim", "Eklemli, kıvılcım korumalı"],
+                        ["Yedek parça raf koridoru", "Raf aralığı genişliği", "Koridor içi kademeli erişim", "İç mekân kompakt eklemli"],
+                        ["Çoklu servis geçişi", "Sokak boyu değişken", "Trafik düşük saate göre sıralama", "Dar şase eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manevra alanı hesabı: servis genişliğinden farklı bir ölçü",
+                paragraflar: [
+                    "Şaşmaz'da sık yapılan bir hata, servis dükkânının kendi genişliğini manevra alanı sanmaktır — oysa makinenin ihtiyaç duyduğu alan, servis genişliği değil, park pozisyonundan dönüş yarıçapına kadar olan bileşik alandır. Bu alan, makinenin giriş açısı, dönüş yarıçapı ve kuyruk taşmasının toplamından oluşur ve dar aralıklı sahada bu üç bileşenin ayrı ayrı ölçülmesi gerekir. Keşifte bu üçlü, aralığın fotoğrafı üzerine işaretlenir ve makinenin geçip geçemeyeceği masada netleşir.",
+                    "Bu hesabın atlanması, sahada 'giremedi' sürprizinin en yaygın nedenidir; Şaşmaz'ın dar dokusunda bu sürpriz, komşu servisin trafiğini de kilitleyebileceği için özellikle maliyetlidir.",
+                ],
+            },
+            {
+                baslik: "Dar aralıkta bom ve dönüş güvenliği",
+                paragraflar: [
+                    "Dar servis aralıklarında çalışırken iki risk öne çıkar: bomun komşu cepheye veya araca temas etmesi ve dönüş sırasında kuyruk taşmasının komşu şeride girmesi. Birinci risk için bom hareketleri yavaşlatılmış modda yapılır ve komşu cepheye sabit güvenlik mesafesi korunur; ikinci risk için dönüş alanı, komşu servisin araç şeridine taşmayacak şekilde daraltılmış bariyerle işaretlenir ve gerekiyorsa geçici trafik yönlendirmesi kısa süreli uygulanır.",
+                    "Kaporta-boya atölyelerinin yakınında ayrıca kıvılcım kaynağı kontrolü yapılır — solvent buharı bulunan ortamlarda elektrik bağlantı noktası ve şarj konumu bu gözle seçilir. Bu kurallar, Şaşmaz brifinginin sabit maddeleridir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Servisimizin önü çok dar, yan servisin araç girişini kapatmadan çalışabilir misiniz?",
+                cevap:
+                    "Genellikle evet — makineyi hedefin tam önüne değil, komşu servisin araç şeridini açık bırakacak bir yan konuma yerleştirip bomu oradan kırarak hedefe ulaştırıyoruz. Bu konumlandırma, kuyruk taşması hesabıyla desteklenir: dönüş sırasında şase arkasının komşu şeride taşmaması ayrıca kontrol edilir. Servis aralığının genişliğini ve komşu servisin araç giriş yoğunluğunu keşifte netleştirip konumu buna göre planlıyoruz.",
+            },
+            {
+                soru: "İki servis binası arasındaki aralık bir araç park genişliği kadar; makine sığar mı?",
+                cevap:
+                    "Çoğu durumda sığar — dar şaseli kompakt eklemli modeller tam bu genişlik için seçilmiştir. Ama 'sığar mı' sorusunun kesin cevabı, aralığın en dar noktasından (genellikle saçak veya çıkma seviyesinden) alınan ölçüyle gelir; zemin seviyesindeki genişlik yanıltıcı olabilir çünkü üst kattaki çıkmalar aralığı daraltır. Aralığın hem zemin hem üst kat ölçüsünü fotoğrafla paylaşın, geçip geçmeyeceğini keşif öncesinde söyleyelim.",
+            },
+            {
+                soru: "Boyahane kabininin arkasındaki bacaya erişim gerekiyor; kabin gövdesi engel mi?",
+                cevap:
+                    "Engel ama aşılabilir bir engel — makine kabinin yan tarafından park edip bomunu üst eklemden kırarak kabin gövdesinin etrafından dolanıp bacaya uzanır. Solvent buharı ihtimaline karşı elektrik aksamı korumalı ve kıvılcım kaynağından kaçınan bir çalışma düzeni uygularız; bu, boyahane yakınındaki her işimizde standarttır. Kabinin yüksekliğini ve bacanın konumunu ölçüp paylaşırsanız erişim yolunu keşifte çizeriz.",
+            },
+            {
+                soru: "Yedek parça deposundaki raf aralıkları dar, tavan aydınlatması değişecek; raflara zarar gelir mi?",
+                cevap:
+                    "Doğru model ve mesafe disipliniyle gelmez — iç mekân kompakt eklemli, koridor genişliğine uygun şaseyle seçilir ve bom hareketleri raf kenarlarına belirlenmiş güvenlik mesafesi korunarak yapılır. Koridor genişliğini ve raf yüksekliğini keşifte ölçüp uygun modeli belirliyoruz; koridor makinenin en dar şasesinden bile darsa, o bölüm için farklı bir erişim noktası (koridor ucundan uzanım) değerlendirilir.",
+            },
+            {
+                soru: "Aynı sokakta dört servisin işi var; hepsini tek günde nasıl bitirirsiniz?",
+                cevap:
+                    "Sıralı geçiş planıyla: işler, komşu servislerin araç trafiğinin en düşük olduğu saatlere göre sıralanır ve her geçişte makine yeniden konumlandırılır — dar dokuda bu konumlandırma standart sanayi sahasına göre biraz daha uzun sürer, bunu takvime baştan ekleriz. Nakliye tek seferle dört servise bölünür. Sokaktaki servislerin listesini ve varsa yoğun saatlerini bildirirseniz sıralamayı buna göre kurarız.",
+            },
+            {
+                soru: "Şaşmaz'daki tüm servisler bu kadar dar mı yerleşmiş?",
+                cevap:
+                    "Hayır, bölge tek tip değildir — bazı bloklar arasında araç manevrasına yetecek genişlikte aralıklar bulunurken, bazı iç sıralarda aralıklar oldukça dardır. Bu yüzden Şaşmaz için tek bir standart makine önerisi vermeyiz; her servisin aralık ölçüsü ayrı değerlendirilir. Adresinizi ve mümkünse aralığın bir fotoğrafını paylaşın, hangi sınıf makinenin uygun olduğunu keşif öncesinde söyleyelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Şaşmaz'ın oto sanayi ağırlıklı kümelenme yapısı kamuya açık bilgidir; manevra alanı hesabı ve kuyruk taşması EN 280 ve üretici standartlarıdır.",
+    },
+
+    "bolge:altindag": {
+        h1: "Altındağ'da Eklemli Platform Kiralama",
+        giris:
+            "Altındağ, Ankara'nın en eski yerleşim dokusuna sahip ilçelerinden biridir ve bu doku, sokak planlamasında modern imar mantığından önce şekillenmiş bir düzeni taşır: dar, kıvrımlı sokaklar, düzensiz cephe hizaları, bazı noktalarda araç geçişinin zaten güç olduğu dik ve dar geçitler. Bu eskilik, platform erişimi açısından net bir sonuç doğurur — düz, geniş bir cadde üzerinden hedefe park edip dikey çıkmak, Altındağ'ın büyük bölümünde mümkün olan senaryo değildir. Eklemli platformun buradaki değeri, tam bu dar-eski dokuda kırılan geometriyi telafi edebilmesidir: sokağın izin verdiği en dar noktadan girip bomu kıvırarak hedefe ulaşmak. Bu sayfada Altındağ'ın eski dokulu sokaklarından erişim problemini ve eklemli çözüm desenlerini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Kıvrımlı ve dar sokaklarda giriş noktası tespiti",
+                metin:
+                    "Altındağ'ın eski yerleşim dokusunda sokaklar çoğunlukla düz bir hat izlemez; kıvrımlar, ani daralmalar ve bazı noktalarda çıkmaz sokak görünümü verip aslında dar bir geçitle devam eden güzergâhlar yaygındır. Bu yüzden ilk adım, makinenin hedefe hangi sokaktan ve hangi noktadan girebileceğini haritada değil sahada tespit etmektir — uydu görüntüsü genellikle sokağın gerçek genişliğini yansıtmaz, çünkü çıkmalar ve alçak saçaklar görünmez. Keşifte giriş güzergâhı yürünerek, dar noktalar tek tek ölçülerek belirlenir.",
+            },
+            {
+                baslik: "Düzensiz cephe hizalarında bom kırılım açısı",
+                metin:
+                    "Eski dokuda binaların cephe hizaları sokağa göre düzensizdir — bazı binalar sokağa taşar, bazıları geri çekilmiştir. Bu düzensizlik, makinenin park edebileceği noktayla hedef cephe arasındaki açıyı sabit bir düz çıkıştan çok, değişken bir kırılım açısına dönüştürür. Eklemli bomun üst eklemden farklı açılarda kırılabilme kabiliyeti, bu düzensiz geometride makasli platformun sunamadığı bir esneklik sağlar; her cephe için kırılım açısı, o cephenin sokağa göre konumuna bakılarak ayrı hesaplanır.",
+            },
+            {
+                baslik: "Dar geçitlerde tek yönlü erişim ve geri manevra sorunu",
+                metin:
+                    "Bazı Altındağ sokakları, makinenin girebileceği ama içeride dönemeyeceği kadar dardır; bu durumda makine, girdiği güzergâhtan geri manevra ile çıkmak zorunda kalır. Bu senaryo önceden bilinmelidir çünkü geri manevra, dar sokakta zaman ve dikkat gerektiren bir işlemdir — keşifte sokağın döngü yapıp yapmadığı (başka bir sokağa çıkıp çıkmadığı) kontrol edilir, dönüş mümkün değilse iş planına geri manevra süresi baştan eklenir.",
+            },
+            {
+                baslik: "Eğimli sokaklarda park stabilitesi",
+                metin:
+                    "Altındağ'ın topografyası, ilçenin genelinde belirgin bir eğime sahiptir ve eski dokunun dar sokakları çoğu zaman bu eğimi doğrudan taşır. Eğimli bir sokakta park eden makinenin şasi dengeleme sistemi, eğim sınırı içinde kalacak şekilde konumlandırılmalıdır; sınırın dışında kalan bir noktada makine güvenlik nedeniyle çalışmayı zaten kilitler. Bu yüzden park noktası seçilirken sokağın eğim açısı da diğer ölçülerle (genişlik, kırılım açısı) birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Dar sokakta yaya ve komşu bina güvenliği",
+                metin:
+                    "Eski dokulu sokaklarda yaya trafiği ile makine çalışma alanı iç içe geçer; sokak genişliği zaten dar olduğundan bariyerleme alanı da minimumda tutulmak zorundadır. Bu, güvenlik önlemlerinin gevşetilmesi değil, farklı kurulması anlamına gelir: düşen cisim bölgesi tam kapatılır ama yaya geçişi için mümkün olan en dar güvenli koridor bırakılır ve bir gözcü, geçiş anlarında çalışmayı geçici durdurur. Komşu binaların dar araya sıkışmış cephelerine bom teması riski, yavaşlatılmış hareket ve sabit mesafe kontrolüyle yönetilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Altındağ'da dar sokak erişim tablosu",
+                paragraflar: [
+                    "Bölgenin eski doku sokaklarında sık karşılaşılan erişim senaryoları ve çözüm desenleri aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Sokak durumu", "Tipik zorluk", "Çözüm deseni", "Makine"],
+                    satirlar: [
+                        ["Kıvrımlı dar sokak", "Uydu görüntüsünde görünmeyen daralma", "Sahada yürünerek güzergâh tespiti", "Dar şase eklemli"],
+                        ["Düzensiz cephe hizası", "Değişken park-hedef açısı", "Cepheye özel kırılım açısı hesabı", "Eklemli, çok eklemli bom"],
+                        ["Dönüşsüz çıkmaz geçit", "Geri manevra zorunluluğu", "Süre payı + tek seferde doğru park", "Sıfıra yakın kuyruk taşmalı"],
+                        ["Eğimli sokak", "Şasi dengeleme sınırı", "Eğim ölçümüyle park noktası seçimi", "Dengeleme sistemi geniş model"],
+                        ["Dar yaya-araç ortak sokak", "Minimum bariyerleme alanı", "Gözcü + dar güvenli koridor", "Akülü kompakt eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte sahada yürüme zorunluluğu",
+                paragraflar: [
+                    "Altındağ'ın eski dokusunda haritadan veya uydu görüntüsünden yapılan planlama, sahadaki gerçekle sık sık örtüşmez: bir sokağın görünürdeki genişliği, alçak bir saçak veya çıkma yüzünden fiilen daha dardır; bir kavşağın döngü sağladığı sanılabilir ama gerçekte çıkmaz olabilir. Bu yüzden Altındağ işlerinde keşif, güzergâhın fiziksel olarak yürünmesini ve dar noktaların elle ölçülmesini içerir — bu adım atlandığında sahaya giden makinenin geri dönme riski, diğer bölgelere göre belirgin biçimde yüksektir.",
+                    "Bu ek adımın getirisi nettir: doğru ölçülmüş bir güzergâh, işin başında değil planlama masasında netleşir ve saha ziyareti doğrudan işin yapılmasıyla geçer.",
+                ],
+            },
+            {
+                baslik: "Eski yapı stoku yakınında ek dikkat",
+                paragraflar: [
+                    "Altındağ'ın bazı kesimlerinde yapı stoku eskidir ve bu, bom teması veya titreşim gibi etkilere karşı standart sanayi binalarına göre daha düşük tolerans anlamına gelebilir. Bu tür cepheler yakınında çalışırken bom hareketleri yavaşlatılmış modda yapılır, komşu cepheye sabit güvenlik mesafesi korunur ve görünür çatlak veya bozulma varsa iş öncesinde bina sahibiyle birlikte not edilir.",
+                    "Bu dikkat, işin yavaşlamasına değil doğru hızda ilerlemesine hizmet eder — eski yapı yakınında acele, hem güvenlik hem sorumluluk açısından yanlış tercihtir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sokağımız çok kıvrımlı, makinenin girip giremeyeceğini nasıl anlarız?",
+                cevap:
+                    "Kesin cevap sahada yürüyerek gelir — Altındağ'ın eski dokusunda uydu görüntüsü veya harita, sokağın gerçek genişliğini genellikle yansıtmaz çünkü alçak saçaklar ve çıkmalar görünmez. Keşifte güzergâhı yürüyüp dar noktaları tek tek ölçüyoruz; en dar noktanın ölçüsü, makinenin girip giremeyeceğini belirler. Sokağın birkaç fotoğrafını (özellikle en dar göründüğü noktalardan) paylaşırsanız ön değerlendirmeyi hızlandırabiliriz, ama kesin karar saha ölçüsüyle verilir.",
+            },
+            {
+                soru: "Evimizin/binamızın önü sokağa taşmış, karşı cepheye tam park edemiyoruz; erişim mümkün mü?",
+                cevap:
+                    "Çoğunlukla mümkün — eklemli bom, düzensiz cephe hizalarında sabit bir açı yerine değişken kırılım açısıyla çalışır: makine mevcut en uygun noktaya park eder, bom cephenin konumuna göre hesaplanan açıyla kırılarak hedefe uzanır. Bu hesap her cephe için ayrı yapılır çünkü eski dokuda iki komşu bina bile farklı hizada olabilir. Cephenin ve karşısındaki park alanının fotoğrafını paylaşın, kırılım açısını keşifte netleştirelim.",
+            },
+            {
+                soru: "Sokağımız çıkmaz gibi görünüyor, makine girerse geri mi çıkar?",
+                cevap:
+                    "Muhtemelen evet ve bunu keşifte önceden tespit ediyoruz: sokağın başka bir sokağa döngü yapıp yapmadığı sahada kontrol edilir; döngü yoksa makine geri manevrayla çıkmak zorunda kalır ve bu, iş süresine baştan eklenen bir zaman payıdır. Sürpriz olmaması için bu bilgiyi iş teklifine yazarız — 'sokak çıkmaz, geri manevra X dakika' gibi. Geri manevra riskini azaltmak için dar şaseli, sıfıra yakın kuyruk taşmalı modeller tercih edilir.",
+            },
+            {
+                soru: "Sokağımız hem dar hem eğimli; bu iki zorluk bir arada nasıl yönetilir?",
+                cevap:
+                    "İkisi birlikte park noktası seçimini belirler: önce eğim ölçülür ve makinenin şasi dengeleme sistemi bu eğimin sınırları içinde kalacak bir nokta aranır, sonra o noktanın sokak genişliği açısından da yeterli olup olmadığı kontrol edilir. İki koşulu birden karşılayan nokta bulunamazsa, dengeleme aralığı daha geniş bir model veya farklı bir giriş noktası değerlendirilir. Eğim ve genişlik ölçülerini birlikte aldığımız için bu iki zorluk keşifte tek seferde çözülür.",
+            },
+            {
+                soru: "Sokağımız hem dar hem yayalar sürekli kullanıyor; çalışma güvenli olur mu?",
+                cevap:
+                    "Olur, ama bariyerleme farklı kurulur: düşen cisim bölgesi tam kapatılırken yaya geçişi için mümkün olan en dar güvenli koridor bırakılır ve bir gözcü, yaya geçiş anlarında çalışmayı kısa süreliğine durdurur. Bu, standart geniş bariyerleme yerine daha aktif, insan gözetimli bir düzendir — dar sokakta tek çözüm budur. Sokağınızın yaya yoğunluğunu (özellikle okul veya çarşı saatleri) bildirirseniz çalışma saatlerini buna göre planlarız.",
+            },
+            {
+                soru: "Binamız eski, çalışma sırasında zarar görme riski var mı?",
+                cevap:
+                    "Standart dikkat düzeyimizin üzerinde bir hassasiyetle çalışırız: bom hareketleri cepheye yakınken yavaşlatılmış modda yapılır, sabit güvenlik mesafesi korunur ve mevcut çatlak veya bozulma varsa iş öncesinde birlikte tespit edilip not edilir. Titreşime hassas olduğu bilinen bir yapı ise bu bilgiyi keşifte paylaşmanız, çalışma planını daha da temkinli kurmamızı sağlar. Acele, eski yapı yakınında hiçbir zaman tercih ettiğimiz bir yol değildir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Altındağ'ın eski yerleşim dokusu ve eğimli topografyası kamuya açık bilgidir; kuyruk taşması ve dengeleme sistemi EN 280 ve üretici standartlarıdır.",
+    },
+
+    "bolge:kecioren": {
+        h1: "Keçiören'de Eklemli Platform Kiralama",
+        giris:
+            "Keçiören, Ankara'nın en yoğun nüfuslu ilçelerinden biridir ve yerleşimi büyük ölçüde eğimli arazi üzerine kurulmuştur — vadi yamaçlarına yayılan mahalleler, farklı kotlarda birbirine bağlanan sokaklar ve bu eğimin doğal sonucu olan dar, kıvrımlı bağlantı yolları. Bu topografya, platform erişiminde iki problemi aynı anda doğurur: sokakların dar olması ve zeminin düz olmaması. Bir makinenin düz bir zeminde rahatlıkla park edebileceği bir nokta, Keçiören'in yamaç sokaklarında eğim yüzünden kullanılamaz hâle gelebilir; aynı şekilde dar bir sokakta bulunan tek uygun düz nokta, hedeften uzak kalabilir. Eklemli platformun buradaki rolü, bu iki kısıtı aynı anda karşılayan bir denge noktası bulmaktır — dar sokak geometrisi ile engebeli zemin erişimini birlikte yönetmek. Bu sayfada Keçiören'in eğimli-dar dokusundaki erişim çözümlerini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Vadi yamacı sokaklarında eğim ve genişlik birlikte değerlendirmesi",
+                metin:
+                    "Keçiören'in yamaç mahallelerinde sokaklar genellikle eğimin yönüne paralel veya onu kesen kısa bağlantılar şeklindedir ve bu sokakların genişliği, düz araziye göre kurulmuş mahallelere kıyıla daha dardır — arazi eğimi, geniş bir yol kesitine imar izni vermemiştir. Makine park noktası seçilirken iki ölçü birlikte alınır: sokağın o noktadaki genişliği ve zeminin eğim açısı. Bu ikisi ayrı ayrı yeterli olsa bile birlikte uygun bir nokta bulunamayabilir — bu durumda hedefe daha uzak ama her iki koşulu da karşılayan bir nokta tercih edilir ve bom, ek mesafeyi kırılımla telafi eder.",
+            },
+            {
+                baslik: "Kademeli teraslama yapılan parsellerde erişim",
+                metin:
+                    "Bölgenin birçok parseli, eğimli araziye oturması nedeniyle kademeli teraslarla düzenlenmiştir — bina girişi bir kotta, arka bahçe veya ek yapı başka bir kottadır. Bu durumda hedefin bulunduğu kot ile makinenin park edebileceği kot arasında yükseklik farkı oluşur ve bu fark, gereken çalışma yüksekliğine doğrudan eklenir. Örneğin hedef kotun 3 metre üstünde kalan bir noktaysa ve park kotu hedeften 2 metre aşağıdaysa, gereken metraj basit toplamla değil kot farkı dahil edilerek hesaplanır; bu hesap keşifte yapılır.",
+            },
+            {
+                baslik: "Dar sokakta stabilize veya bozuk zeminde park",
+                metin:
+                    "Keçiören'in bazı eski yamaç sokaklarında zemin asfalt değil stabilize veya kısmen bozulmuş kaplamadır; bu zemin türü, akülü makinelerin düz-sert zemin şartını her zaman sağlamaz. Böyle noktalarda ya zemin uygunluğu ayrıca değerlendirilir ya da dizel 4x4 tahrikli modeller tercih edilir — ama dar sokak genişliği bu seçimi de sınırlar, çünkü 4x4 modeller genellikle akülü kompakt modellerden daha geniş şaseye sahiptir. Zemin ve genişlik arasındaki bu gerilim, keşifte ölçülerek doğru dengeye oturtulur.",
+            },
+            {
+                baslik: "Merdivenli-yaya yollu ara geçitlerde erişimsizlik sınırı",
+                metin:
+                    "Yamaç yerleşimlerinin bir kısmında bina girişine araç yolu değil merdivenli yaya geçidi ulaşır; bu tip noktalarda platform erişimi fiziksel olarak mümkün olmayabilir ve bunu dürüstçe söylemek, yanlış makine göndermekten daha değerlidir. Böyle durumlarda alternatif değerlendirilir — en yakın araç erişimli noktadan bom menzili hedefe yetiyor mu, yoksa iş farklı bir yöntemle mi (örneğin daha küçük ekipmanla) çözülmeli. Bu değerlendirme, keşifte sahaya gidilerek yapılır; haritadan karar verilmez.",
+            },
+            {
+                baslik: "Eğimli sokakta güvenli park açısı ve dengeleme",
+                metin:
+                    "Eğimli bir sokakta park eden makinenin şasi dengeleme sistemi, üreticinin belirlediği eğim sınırı içinde kalmalıdır ve bu sınırın dışına çıkıldığında makine güvenlik amacıyla çalışmayı otomatik olarak kilitler. Keçiören'in dar-eğimli sokaklarında bu sınırı karşılayan nokta bazen sokağın yalnızca birkaç metrelik bir kesitidir; bu kesit keşifte eğim ölçer ile tespit edilir ve makine tam o noktaya konumlandırılır. Sınırın karşılanamadığı durumlarda alternatif kot veya farklı bir yaklaşım açısı değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Keçiören'de eğim-genişlik senaryo tablosu",
+                paragraflar: [
+                    "Bölgenin yamaç dokusunda sık karşılaşılan senaryolar ve çözüm desenleri aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha durumu", "Zorluk", "Çözüm deseni", "Makine"],
+                    satirlar: [
+                        ["Dar + eğimli sokak", "İki kısıt aynı anda", "Her iki koşulu karşılayan nokta + kırılımla mesafe telafisi", "Dar şase eklemli"],
+                        ["Kademeli teraslı parsel", "Park-hedef kot farkı", "Kot farkı dahil metraj hesabı", "Eklemli, ek metraj payı"],
+                        ["Stabilize/bozuk zemin", "Akülü model zemin şartı sağlanamıyor", "Dizel 4x4 veya zemin takviyesi", "4x4 eklemli (genişlik izin verirse)"],
+                        ["Merdivenli yaya geçidi", "Araç erişimi yok", "En yakın erişimli noktadan menzil değerlendirmesi", "Durum bazlı, bazen erişilemez"],
+                        ["Dar eğim sınırı kesiti", "Dengeleme sistemi sınırı", "Eğim ölçerle tam nokta tespiti", "Geniş dengeleme aralıklı model"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki kısıt bir arada: neden tek ölçü yetmez",
+                paragraflar: [
+                    "Keçiören'in yamaç sokaklarında sıkça yapılan bir hata, yalnızca sokak genişliğini veya yalnızca zemin eğimini ölçüp diğerini gözden kaçırmaktır. Oysa iki ölçü birbirinden bağımsız değildir: dar bir sokakta düz görünen bir nokta, aslında yola paralel hafif bir eğim taşıyabilir; eğimi uygun bir nokta ise sokağın dar bir yerine denk gelebilir. Bu yüzden Keçiören keşiflerinde iki ölçü birlikte, aynı noktada alınır ve zarf diyagramına ikisi birden işlenir.",
+                    "Bu disiplinin pratik değeri, sahaya giden makinenin park edeceği noktada 'aslında olmuyormuş' sürprizini önlemesidir — yamaç dokuda bu sürpriz, düz araziye göre daha sık ortaya çıkar çünkü göz kararı eğim tahmini genellikle yanıltıcıdır.",
+                ],
+            },
+            {
+                baslik: "Kot farklı erişimde metraj dürüstlüğü",
+                paragraflar: [
+                    "Kademeli teraslı parsellerde metraj hesabını basitleştirip 'şu kadar metre yeter' demek, sahada yetmeme riski taşır. Bunun yerine üç değer ayrı ayrı ölçülür ve toplanır: hedefin kendi kotundaki yüksekliği, park noktası ile hedef arasındaki kot farkı ve bom kırılımının gerektirdiği ek pay. Bu üçü toplanmadan verilen bir metraj tahmini, Keçiören'in kademeli dokusunda güvenilir değildir.",
+                    "Doğru hesaplanmış metraj, keşif aşamasında birkaç dakika ek zaman alır ama sahada yanlış makineyle karşılaşma riskini ortadan kaldırır — bu fark, özellikle dar sokakta ikinci bir makine denemesinin zor olduğu Keçiören'de önemlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Evimiz yamaçta, sokağımız hem dar hem eğimli; makine hiç giremez mi?",
+                cevap:
+                    "Genellikle bir çözüm bulunur ama garantisi keşifle verilir: sokağın genişliği ve zemin eğimi birlikte ölçülür, ikisini de karşılayan bir nokta aranır — bu nokta hedeften biraz uzak kalsa bile bom kırılımı mesafeyi telafi edebilir. Hiçbir nokta iki koşulu birden karşılamıyorsa dürüstçe söyleriz ve alternatif (farklı erişim yönü, daha küçük ekipman) değerlendiririz. Sokağın birkaç noktadan fotoğrafını paylaşın, ön değerlendirmeyi hızlandıralım.",
+            },
+            {
+                soru: "Bahçemiz evin arkasında, bir kat aşağı kotta; erişim nasıl planlanır?",
+                cevap:
+                    "Kot farkı, metraj hesabına doğrudan eklenir: hedefin kendi yüksekliği, park noktası ile hedef arasındaki kot farkı ve bom kırılım payı ayrı ayrı ölçülüp toplanır — basit bir tahminle değil. Bu üçlü hesap sonucunda görünürde 'yakın' duran bir hedef, aslında daha yüksek metrajlı bir makine gerektirebilir. Bahçenin ve evin arka cephesinin kotlarını gösteren fotoğraf, bu hesabı keşif öncesinde büyük ölçüde netleştirir.",
+            },
+            {
+                soru: "Sokağımızın zemini bozuk, akülü makine güvenli çalışır mı?",
+                cevap:
+                    "Zemin durumuna bağlı — akülü modeller düz-sert zemin ister ve bozuk/stabilize zeminde bu şart her zaman sağlanmaz. Böyle durumlarda dizel 4x4 tahrikli model değerlendirilir, ama bu modellerin şasesi genellikle daha geniştir ve dar sokakta sığmayabilir; zemin ile genişlik arasındaki bu gerilim keşifte ölçülerek dengelenir. Zeminin fotoğrafını (özellikle çukur veya bozulma varsa) paylaşın, uygun modeli birlikte belirleyelim.",
+            },
+            {
+                soru: "Evimize araçla değil merdivenle çıkılıyor; platform hiç ulaşamaz mı?",
+                cevap:
+                    "Doğrudan ulaşamayabilir ve bunu keşifte netleştiririz — dürüst cevap, yanlış makine göndermekten değerlidir. Değerlendirdiğimiz alternatif, en yakın araç erişimli noktadan bom menzilinin hedefe yetip yetmediğidir; yetiyorsa iş oradan yapılır, yetmiyorsa platform dışı bir yöntem (daha küçük ekipman, farklı yaklaşım) konuşulur. Merdivenin başlangıcındaki en yakın araç erişim noktasını ve mesafeyi keşifte birlikte tespit ederiz.",
+            },
+            {
+                soru: "Sokağımız eğimli; makine devrilme riski taşımadan nasıl park eder?",
+                cevap:
+                    "Şasi dengeleme sistemi, üreticinin belirlediği eğim sınırı içinde kaldığı sürece güvenli çalışır ve sınır dışına çıkıldığında makine zaten çalışmayı otomatik kilitler — yani devrilme riski değil, çalışamama riski söz konusudur. Keçiören'in dar-eğimli sokaklarında bu sınırı karşılayan nokta bazen sokağın kısa bir kesitidir; bu kesiti eğim ölçerle keşifte tespit edip makineyi tam oraya konumlandırırız. Sınır hiçbir noktada karşılanamıyorsa alternatif kot veya yaklaşım açısı değerlendirilir.",
+            },
+            {
+                soru: "Aynı mahallede birkaç komşu evin de işi var; hepsi farklı kotlarda, tek günde olur mu?",
+                cevap:
+                    "Olabilir ama planlama, düz araziye göre daha fazla zaman payı ister: her adres için ayrı park noktası ve kot hesabı gerekir, sokaklar arası geçiş yamaç yollarında düz araziye göre daha yavaştır. Komşu evlerin listesini ve yaklaşık konumlarını paylaşırsanız, kotlara ve sokak genişliklerine göre en verimli sırayı çıkarır, gerçekçi bir gün planı sunarız — abartılı bir 'hepsi tek günde biter' sözü vermeyiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Keçiören'in yamaç topografyası ve kademeli yerleşim dokusu kamuya açık bilgidir; dengeleme sistemi eğim sınırı EN 280 ve üretici standartlarıdır.",
+    },
 };

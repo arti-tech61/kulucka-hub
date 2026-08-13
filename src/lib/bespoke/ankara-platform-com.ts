@@ -1005,4 +1005,500 @@ export const ANKARA_PLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kırıkkale'nin rafineri-savunma-metal profili kamuya açık bilgidir; üç şablon yaklaşımı ve sıfır bekleyiş ilkesi firma pratiğidir.",
     },
+
+    "bolge:akyurt": {
+        h1: "Akyurt'ta Lojistik Depoya Doğru Makine Seçimi",
+        giris:
+            "Akyurt'ta bir depo yöneticisinin platform kiralarken sorduğu ilk soru genelde yanlış sorudur: 'en yüksek metrajlı makineyi mi almalıyım?' Doğru soru şudur — raf aralığınız kaç metre, koridorunuza hangi şase girer ve kapınız hangi genişliği geçirir? Kuzeydoğu aksındaki depo-kargo yoğunluğu, bölgede tek bir 'depo makinesi' kalıbı olmadığını gösteriyor: aynı sokakta bir tesis 8 metrelik dar koridorda çalışırken komşusu 14 metrelik açık holde iş yapıyor olabilir. Genel amaçlı filomuzun buradaki rolü, depo sahibinin üç ölçüsünü (koridor genişliği, raf kotu, kapı ölçüsü) alıp doğru şaseye ve doğru metraja çevirmektir — kataloğa değil, sizin rafınıza bakan bir seçim. Bu sayfa o seçim mantığını anlatıyor: hangi koridor hangi şaseyi çağırır, hangi raf kotu hangi metrajı gerektirir ve büyük-küçük makine arasındaki kararı hangi ölçü verir.",
+        maddeler: [
+            {
+                baslik: "Koridor genişliği: şase kararının birinci girdisi",
+                metin:
+                    "Depo makinesi seçiminde ilk elenen değişken şasedir, metraj değil: standart akülü makaslı 1,15 metre şase genişliği ister ve bu, çoğu palet koridorunda (1,8-2,4 m) rahat manevra bulur; koridor 1,2-1,5 metre bandına düşüyorsa dar şase (0,76-0,81 m) seçeneği devreye girer. Şase ölçüsünü yanlış almanın bedeli iş günü kaybıdır — makine sahaya gelir ama koridora giremez. Bu yüzden ilk ölçü her zaman koridordur, ikinci ölçü raf kotudur; sıra tersine çevrilirse yanlış makine sipariş edilme riski doğar.",
+            },
+            {
+                baslik: "Raf kotu + 2 metre: metraj hesabının tek formülü",
+                metin:
+                    "Depo raflarının çalışma yüksekliği hesabı basittir ve tahmine yer bırakmaz: en üst rafın erişim kotu ölçülür, buna 2 metrelik uzanma payı eklenir ve sonuç, kiralanacak makinenin çalışma yüksekliği sınıfını verir. Akyurt'taki depo-kargo yapılarının tipik raf yüksekliği 8-12 metre bandındadır, bu da 10-14 metre çalışma yüksekliği sınıfına denk gelir. 'Üst katman boşsa küçük makine yeter' düşüncesi yanlıştır — raf sisteminin en üst kotu neyse makine ona göre seçilir, o an dolu olması metrajı düşürmez.",
+            },
+            {
+                baslik: "Zemin dokusu: epoksi mi, ham beton mu, dış saha mı?",
+                metin:
+                    "Depo zemininin dokusu, makinenin lastiğini ve enerji tipini belirler. Epoksi kaplı veya perdahlı beton zeminlerde iz bırakmayan (beyaz dolgu) lastikli akülü model zorunludur; ham beton veya sıkıştırılmış saha zemininde standart lastik yeterlidir ancak dizel gücün gerekip gerekmediği yine zemine bakar. Depo içi kapalı alanda egzoz emisyonu nedeniyle dizel makine seçilmez — bu bir tercih değil kapalı alan kuralıdır. Dış sahadaki stok veya sevkiyat rampası çevresi ise farklı bir seçimi çağırır: burada zemin bozuksa dizel 4x4 sınıfı doğru cevaptır.",
+            },
+            {
+                baslik: "Kompakt eklemli mi, geniş makaslı mı: raf üstü engel testi",
+                metin:
+                    "Depo işlerinin çoğu tavan aydınlatması, sprinkler hattı veya raf üstü kalemdir ve seçim burada iki sınıfa ayrılır. Hedefin altına makine dümdüz park edilebiliyorsa (koridor boşsa, raf araları geçilebiliyorsa) geniş sepetli akülü makaslı doğru ve ekonomik seçimdir. Hedefin altında konveyör hattı, sabit ekipman veya raf omurgası varsa kompakt eklemli gerekir — bom kırılımı engelin üzerinden erişim sağlar. İki sınıf arasındaki fark fiyattan önce erişilebilirliktir; erişilemeyen noktaya ekonomik makine gönderilmez, doğru sınıf gönderilir.",
+            },
+            {
+                baslik: "Kısa iş mi, sürekli program mı: süre kararı makineyi de etkiler",
+                metin:
+                    "Depo işlerinde süre kararı yalnız fiyatı değil bazen makine sınıfını da etkiler: tek günlük bir raf üstü iş için standart akülü makaslı yeterliyken, haftalarca süren bir raf-tavan bakım programında akü kapasitesi ve şarj döngüsü planı gündeme gelir — vardiya arasında şarj imkânı yoksa uzun süreli kiralamada iki makineli dönüşümlü kurgu daha verimli olabilir. Kısa işte bu hesap gereksizdir, süre uzadıkça makine seçimine bir katman daha eklenir: sadece 'hangi sınıf' değil 'kaç makine, hangi dönüşüm' sorusu da devreye girer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Akyurt depo işleri için hızlı şase-metraj tablosu",
+                paragraflar: [
+                    "Depo koridoru ve raf kotuna göre tipik makine eşleşmesi aşağıdadır. Kesin seçim, sizin koridor ve raf ölçünüzle yapılır; tablo başlangıç noktasıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Koridor genişliği", "Raf kotu", "Önerilen şase/sınıf", "Not"],
+                    satirlar: [
+                        ["1,8 m ve üstü", "8 – 10 m", "Standart şase, akülü makaslı 10 – 12 m", "En yaygın depo profili"],
+                        ["1,8 m ve üstü", "10 – 12 m", "Standart şase, akülü makaslı 12 – 14 m", "Üst raf kotuna göre"],
+                        ["1,2 – 1,5 m", "8 – 10 m", "Dar şase (0,76 – 0,81 m)", "Standart şase giremez"],
+                        ["Koridor boş değil (raf üstü engel)", "Değişken", "Kompakt eklemli", "Bom kırılımı gerekir"],
+                        ["Dış saha / rampa çevresi", "Değişken", "Dizel 4×4", "Zemin bozuksa varsayılan"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ölçmeden sipariş vermenin bedeli",
+                paragraflar: [
+                    "Depo kiralamalarında en sık yaşanan hüsran, telefonda 'depo makinesi lazım' denip ölçü sorulmadan makine gönderilmesidir — sonuç, koridora girmeyen şase veya hedefe iki metre kısa kalan sepettir. Bizim sürecimizde üç ölçü (koridor genişliği, raf kotu, kapı ölçüsü) ve mümkünse bir fotoğraf, teklif öncesi standarttır; bu, ek bir formalite değil, doğru makinenin ilk seferde gelmesinin garantisidir.",
+                    "Ölçüyü siz almak zorunda değilsiniz — şeritmetreyle beş dakikalık bir tur yeterlidir ve telefonda tarif ettiğiniz koridoru biz makineye çeviririz. Emin olmadığınız ölçüyü 'yaklaşık' değil 'bilmiyorum' diye iletmeniz, yanlış tahminden daha güvenlidir; o durumda ek bir soru sorarız.",
+                ],
+            },
+            {
+                baslik: "Kuzeydoğu aksında karma iş listeleri",
+                paragraflar: [
+                    "Akyurt'taki tesislerin çoğunda tek bir iş kalemi değil, karma bir liste bulunur: depo içi raf-tavan kalemleri, sevkiyat kapısı üstü işler ve dış sahadaki direk-tabela kalemleri aynı ziyaret talebinde birleşebilir. Bu durumda seçim tek makineye değil listeye bakar — iç kalemler akülü, dış kalemler dizel gerektirebilir ve iki sınıf aynı güne planlanabilir. Genel amaçlı filonun avantajı burada devreye girer: liste hangi sınıfları çağırıyorsa hepsi aynı filodadır, ayrı firma aramanıza gerek kalmaz.",
+                    "Kuzeydoğu aksındaki düzenli geçişlerimiz, kısa depo işlerini tur ekonomisiyle buluşturur; acil olmayan kalemler için tur gününü sormak, tekil nakliyeden her zaman ucuzdur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Deponun raf koridoru 1,4 metre; standart makaslı platform girer mi?",
+                cevap:
+                    "Girmez — standart akülü makaslı 1,15 metre şase genişliğiyle bile 1,4 metrelik koridorda güvenli manevra payı bırakmaz; bu ölçüde dar şase sınıfı (0,76-0,81 m) gerekir. Dar şase, geniş şaseye göre daha düşük sepet kapasitesiyle gelir ama koridora sığar — burada seçim tercih değil zorunluluktur. Koridor ölçünüzü ve raf kotunuzu iletin; hangi dar şase modelinin metrajınıza uyduğunu netleştirelim. Koridorun bir kısmı daha genişse, karma bir plan (geniş bölümde standart, dar bölümde dar şase) da değerlendirilebilir.",
+            },
+            {
+                soru: "Raflarımız 11 metre ama üst katman şu an boş; daha küçük makine yeterli olmaz mı?",
+                cevap:
+                    "Olmaz — metraj hesabı rafın o anki doluluk durumuna değil fiziksel kotuna bakar: raf sisteminizin en üst erişim noktası 11 metreyse, gereken çalışma yüksekliği (+2 metre uzanma payıyla) 13 metre sınıfıdır ve bu, üst katman boş olsa da değişmez — çünkü bir sonraki işiniz o katmanı da kapsayabilir ve küçük makine o noktaya ulaşamaz. 'Şimdilik yeter' mantığı, ikinci bir kiralamayı erkene çeker. Rafınızın tam kotunu paylaşın; metrajı bir kere doğru seçelim, tekrar aramayın.",
+            },
+            {
+                soru: "Epoksi zeminimiz var, dizel makine kullanabilir miyiz — daha güçlü değil mi?",
+                cevap:
+                    "Kullanılamaz ve güç burada yanlış ölçüttür: kapalı depo içinde dizel egzozu emisyon riski taşır ve epoksi zeminde standart dizel lastiği iz bırakır — akülü, iz bırakmayan lastikli model bu ortamın zorunlu seçimidir. 'Güçlü olsun' ihtiyacı depo metrajlarında (10-14 m) zaten akülü sınıfla karşılanır; dizelin meşru alanı kapalı depo değil açık sahadır. İç mekân işiniz için akülü sınıfı, dış saha veya rampa çevresi için ayrı bir dizel değerlendirmesini birlikte yapabiliriz.",
+            },
+            {
+                soru: "Konveyör hattımızın üzerinde tavan işi var; hangi sınıf makine gerekir?",
+                cevap:
+                    "Kompakt eklemli — çünkü hattın altına makine park edilemez ve hedefe bom kırılımıyla üzerinden erişilir; geniş sepetli akülü makaslı burada işe yaramaz, hat aşılamadığı için. Kompakt eklemli seçilirken hattın genişliği ve bomun erişim açısı ölçülür; hat çalışırken iş yapılacaksa bant örtme ve yavaş hareket kuralları plana eklenir. Hat krokisini ve hedef kotu paylaşın; bom uzunluğunu ve makine konumunu bu ölçülere göre netleştirelim.",
+            },
+            {
+                soru: "İşimiz üç hafta sürecek bir tavan bakım programı; tek makine yeter mi, akü sorun olur mu?",
+                cevap:
+                    "Süre uzadıkça akü döngüsü planlanması gereken bir değişkene dönüşür: vardiya arasında şarj imkânınız varsa tek makine tam gün çalışır; şarj penceresi yoksa iki makineli dönüşümlü kurgu (biri çalışırken diğeri şarjda) daha verimli olur. Üç haftalık programda ikinci soru bakım-servis penceresidir — uzun kiralamalarda periyodik kontrol planlanır. Günlük çalışma saatlerinizi ve şarj imkânınızı paylaşın; tek makine mi iki makineli dönüşüm mü, ikisini rakamla karşılaştıralım.",
+            },
+            {
+                soru: "Hem depo içinde raf işimiz hem dış sahada rampa aydınlatmamız var; iki ayrı kiralama mı gerekir?",
+                cevap:
+                    "Hayır — liste tek kalır, makine sınıfı ikiye ayrılır: depo içi raf-tavan kalemleri akülü sınıfla, dış sahadaki rampa-direk kalemleri (zemin bozuksa) dizel 4x4 ile aynı ziyarette planlanır ve genel amaçlı filonun karma yapısı bu ikisini tek koordinasyonda getirir. Kuzeydoğu aksındaki tur güzergâhımız, bu tarz karma listeleri nakliye açısından da ekonomikleştirir. İç ve dış kalemlerinizi tek listede gönderin; hangi kalemin hangi sınıfı çağırdığını birlikte ayıralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Akyurt'un kuzeydoğu aksındaki depo-kargo yoğunluğu kamuya açık bilgidir; koridor-metraj seçim yöntemi ve şase eşleştirmesi firma pratiğidir.",
+    },
+
+    "bolge:golbasi": {
+        h1: "Gölbaşı'nda İş Tipine Göre Platform Seçimi",
+        giris:
+            "Gölbaşı, Ankara'nın güneyinde konut, göl kıyısı tesisleri, tarım-hayvancılık işletmeleri ve son yıllarda büyüyen küçük-orta ölçekli sanayi parsellerinin bir arada bulunduğu karma bir ilçedir. Bu karışım, kiralama talebini de karma hâle getirir: bir gün site cephesi, ertesi gün bir imalathane tavanı, bir başka gün göl kıyısındaki bir tesisin dış aydınlatması. Tek tip bir 'Gölbaşı işi' yoktur — ve bu yüzden Gölbaşı'da doğru makine seçimi, önce işin hangi dünyaya ait olduğunu netleştirmekle başlar. Genel amaçlı filomuzun karma yapısı, bu çeşitliliğe hazırdır: konut sitesinin cephe işi eklemli ister, imalathanenin tavan işi akülü makaslı ister, açık tesisin direk işi dizel ister — ve öneri, hangi dünyadan geldiğinize göre şekillenir. Bu sayfa, ilçenin karma dokusunda iş tipine göre makine seçim mantığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İşin ait olduğu dünyayı belirlemek: ilk adım",
+                metin:
+                    "Gölbaşı'da doğru makineye giden yol, önce işin hangi kümeye ait olduğunu tanımaktan geçer: konut/site kümesi (cephe, saçak, otopark aydınlatması), küçük sanayi kümesi (atölye-imalathane tavan işleri), tarım-hayvancılık kümesi (depo-ahır çatı, tesis aydınlatması) ve göl kıyısı/açık tesis kümesi (dış mekân aydınlatma, tabela, çevre düzeni). Her küme kendi tipik yükseklik bandını ve zemin koşulunu taşır; işin kümesini tanımlamak, makine seçiminin yarısını çözer.",
+            },
+            {
+                baslik: "Site ve konut kümesinde eklemli-makaslı ayrımı",
+                metin:
+                    "Konut sitelerinin cephe, saçak ve otopark işleri, OSTİM-İvedik hattındaki sanayi mantığından farklı bir seçim ister: hedefin altı genelde boş bir site yoludur (makaslı elverir) ama cephenin kendisi engebeli olabilir — balkon çıkıntıları, tente kolları, iniş boruları. Bu tür engebeli cephelerde kompakt eklemli, engelin üzerinden veya yanından erişim sağlar; düz ve engelsiz cephede geniş sepetli makaslı daha ekonomiktir. Site içi zemin genelde düzgün asfalt-beton olduğundan akülü sınıf standart tercihtir; gürültü ve emisyon kısıtı da bunu destekler.",
+            },
+            {
+                baslik: "Küçük sanayi kümesinde atölye standardı",
+                metin:
+                    "İlçedeki küçük-orta ölçekli sanayi parsellerinin atölye tavanları, Ankara'nın diğer sanayi hatlarına benzer bir bant taşır: 4-7 metre tavan yüksekliği, 6-9 metre çalışma yüksekliği sınıfına karşılık gelir. Üç soru yöntemi (yükseklik-altı-zemin) burada da geçerlidir ve çoğu atölye işi akülü makaslıyla çözülür; tezgâh veya hat üstü hedeflerde kompakt eklemliye geçilir. Bu kümenin farkı hacimdir — Gölbaşı'nın sanayi parselleri OSTİM ölçeğinde değildir, dolayısıyla iş listesi genelde tek-iki kalemlik küçük taleplerdir.",
+            },
+            {
+                baslik: "Tarım-hayvancılık kümesinde açık-yarı açık yapı seçimi",
+                metin:
+                    "İlçenin tarım ve hayvancılık işletmelerindeki depo-ahır yapıları, genelde yarı açık veya geniş açıklıklı çatı sistemleridir ve zemin çoğunlukla stabilize veya sıkıştırılmış topraktır. Bu koşul makine seçimini doğrudan etkiler: kapalı atölyenin akülü mantığı burada geçerli değildir, arazi tipi dizel makine bu zeminlerin doğal seçimidir. Çatı altı aydınlatma, havalandırma bacası bakımı ve çatı kaplaması onarımı tipik kalemlerdir; geniş açıklıklı çatılarda yüksek erişim gerekebileceği için metraj, çatı mahyasına göre ölçülür.",
+            },
+            {
+                baslik: "Göl kıyısı ve açık tesis kümesinde zemin ve mevsim etkisi",
+                metin:
+                    "Göl kıyısındaki tesislerin dış aydınlatma direkleri, tabela ve çevre düzeni işleri, zemin dürüstlüğü gerektiren bir başka kümedir: kıyı şeridine yakın zeminler nem tutabilir ve mevsime göre sertlik değiştirebilir. Bu kümede varsayılan dizel arazi tipi makinedir; zemin ölçülüp doğrulanmadan akülü sınıf önerilmez. Mevsimsel kullanım yoğunluğu (yaz döneminde tesis işletmesi artıyorsa) bakım işlerinin sezon öncesi sakin döneme planlanmasını da beraberinde getirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gölbaşı'nda küme-makine eşleşme tablosu",
+                paragraflar: [
+                    "İlçenin dört ana iş kümesi ve tipik makine eşleşmesi aşağıdadır. Kesin seçim, işin ait olduğu kümeye ve saha ölçüsüne göre yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Küme", "Tipik iş", "İlk tercih", "Alternatif koşulu"],
+                    satirlar: [
+                        ["Konut / site", "Cephe, saçak, otopark aydınlatması", "Akülü makaslı", "Engebeli cephe → kompakt eklemli"],
+                        ["Küçük sanayi", "Atölye tavan-tesisat", "Akülü makaslı 6 – 9 m", "Altı dolu → kompakt eklemli"],
+                        ["Tarım / hayvancılık", "Çatı altı, ahır aydınlatması", "Dizel arazi tipi", "Zemin stabilize/toprak"],
+                        ["Göl kıyısı / açık tesis", "Direk, tabela, çevre düzeni", "Dizel arazi tipi", "Zemin doğrulanırsa akülü"],
+                        ["Karma liste (aynı gün)", "İki-üç kümeden kalem", "Tur karması", "Sınıf, kümeye göre değişir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Karma ilçede doğru soruyu sormak",
+                paragraflar: [
+                    "Gölbaşı'da telefonda sorduğumuz ilk soru makine değil, mekândır: 'site mi, atölye mi, çatılı bir tesis mi, açık alan mı?' Bu tek soru, dört kümeden hangisinde olduğunuzu belirler ve sonraki üç soru (yükseklik, altı boş mu, zemin) o kümenin çerçevesinde cevaplanır. Karma ilçede en sık yapılan hata, bir kümenin tipik makinesini diğerine uygulamaktır — site cephesinde alışılan akülü mantığı, göl kıyısındaki yumuşak zeminde işe yaramaz.",
+                    "Bu yüzden Gölbaşı'daki her talepte küme sorusu önceliklidir; makine sınıfı, kümenin kuralına göre değil genel bir varsayıma göre seçilmez.",
+                ],
+            },
+            {
+                baslik: "Aynı günde iki kümeden iş: mümkün mü?",
+                paragraflar: [
+                    "İlçenin dağınık dokusunda bazı müşterilerin (örneğin hem site yönetimi hem yakın bir imalathanesi olan bir grup) aynı gün iki kümeden işi olabilir. Bu durumda liste kümelere ayrılır ve her kümenin makinesi kendi kalemlerini çalışır — tek makineyle iki farklı zemin-yükseklik koşulunu zorlamak yerine, iki sınıf aynı güne dizilir ve nakliye ortaklaşır. Karma filonun tarafsızlığı burada devreye girer: hangi kümenin hangi sınıfı çağırdığına bakılır, stok müsaitliğine değil.",
+                    "Liste ne kadar erken paylaşılırsa, kümelere ayırma ve tur planlaması o kadar rahat kurulur — son dakika karma taleplerde bile aynı gün içinde iki sınıf koordine edilebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sitemizin cephesinde balkon çıkıntıları var; makaslı yeter mi yoksa eklemli mi gerekir?",
+                cevap:
+                    "Çıkıntıların sıklığına bağlı: balkonlar seyrekse ve aralarında düz cephe bandı varsa makaslı, düz banda park edip yan erişimle çalışır; balkonlar sık ve makine her noktada engelle karşılaşıyorsa kompakt eklemli, bom kırılımıyla çıkıntının üzerinden veya yanından erişir. Cephe fotoğrafı ve kat sayısı bu kararı masada bitirir — genelde karma bir çözüm de mümkündür: düz bölümlerde makaslı, engebeli bölümlerde eklemli. Cephenizin fotoğrafını paylaşın; hangi bölümün hangi sınıfı gerektirdiğini birlikte görelim.",
+            },
+            {
+                soru: "Küçük atölyemizin tavanı 5 metre; bu kadar küçük iş için makine kiralamaya değer mi?",
+                cevap:
+                    "Değer — ve doğru makine küçük bir yatırımdır: 5 metrelik tavan, 7 metre çalışma yüksekliği sınıfına düşer ve bu, filonun en ekonomik ve en kolay bulunan bandıdır. Küçük ölçekli sanayi parsellerinde tek-iki kalemlik işler yaygındır ve bu ölçekte fiyat, büyük tesislerin toplu işlerinden orantılı olarak düşüktür. Merdiven-iskele ile yapılmaya çalışılan aynı iş, süre ve güvenlik açısından çoğu zaman platformdan daha pahalıya çıkar. İşinizi tarif edin; küçük ölçekte de net bir teklif çıkarırız.",
+            },
+            {
+                soru: "Ahırımızın çatısı geniş açıklıklı ve zeminimiz toprak; hangi makine gelir?",
+                cevap:
+                    "Dizel arazi tipi — toprak veya stabilize zeminde akülü sınıf denge ve manevra açısından uygun değildir, arazi lastikli dizel model bu zeminler için tasarlanmıştır. Çatı mahyasının kotu ölçülür ve metraj ona göre belirlenir; geniş açıklıklı çatılarda mahya genelde standart atölye tavanından yüksektir. Kurulum öncesi zemin göllenme izi ve dolgu tazeliği açısından değerlendirilir, şüpheli noktada plaka takviyesi yapılır. Çatı yüksekliği ve zemin fotoğrafıyla dönün; doğru metrajı ve kurulum noktasını netleştirelim.",
+            },
+            {
+                soru: "Göl kıyısındaki tesisimizin aydınlatma direği bozuldu; zeminimiz nemli görünüyor, sorun olur mu?",
+                cevap:
+                    "Görünüşe güvenmeyiz, ölçüye güveniriz — nemli görünen zemin, yüksekte çalışmada akülü sınıf için yeterli bir garanti değildir ve bu tür sahalarda varsayılan dizel arazi tipi makinedir. Zemin fotoğraf ve varsa geçmiş yağış bilgisiyle değerlendirilir; sağlamlığı doğrulanmış bir nokta varsa akülü de istisnaen değerlendirilir ama bu istisnadır, kural değil. Direğin konumu ve saha zemininin fotoğrafını paylaşın; kurulum noktasını ve makine sınıfını birlikte netleştirelim.",
+            },
+            {
+                soru: "Hem site yönetimimiz hem yakın bir imalathanemiz var; aynı gün iki farklı iş yaptırabilir miyiz?",
+                cevap:
+                    "Evet — liste iki kümeye ayrılır ve her kümenin makinesi kendi kalemini çalışır: site cephesi işi akülü makaslı veya eklemli, imalathane tavan işi kendi metrajına göre akülü sınıf; ikisi aynı güne planlanır ve nakliye tek turda birleşir. Tek makineyle iki farklı işi zorlamak yerine bu ayrım, hem doğru makineyi hem ekonomik nakliyeyi bir arada verir. İki listeyi ayrı ayrı gönderin; tek günün planını ve iki sınıfın fiyatını birlikte çıkaralım.",
+            },
+            {
+                soru: "Gölbaşı'nda hangi işimiz olursa olsun aynı firmadan mı kiralamalıyız, yoksa küme başına ayrı mı aramalıyız?",
+                cevap:
+                    "Aynı firmadan — bu ilçenin karma dokusunda tam avantajlı olan yapı budur: karma filo, dört kümenin (site, sanayi, tarım, açık tesis) hepsini kapsar ve her iş için ayrı bir kiralamacı aramak yerine tek muhataptan, işin kümesine göre doğru sınıf gelir. Küme başına ayrı firma arayışı hem zaman kaybettirir hem karşılaştırma zorlaştırır. İşinizin hangi kümeden olduğunu söylemeniz yeterli; makine sınıfını biz kümenize göre öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Gölbaşı'nın konut-sanayi-tarım-göl kıyısı karma dokusu kamuya açık bilgidir; küme tanımlama yöntemi ve seçim mantığı firma pratiğidir.",
+    },
+
+    "bolge:pursaklar": {
+        h1: "Pursaklar'da İlk Kez Platform Kiralayan İşletmeler İçin Seçim Rehberi",
+        giris:
+            "Pursaklar, Ankara'nın kuzeyinde hızla büyüyen ve küçük-orta ölçekli işletmelerin yoğunlaştığı bir ilçedir; bölgedeki taleplerin önemli bir kısmı, hayatında ilk kez platform kiralayan işletme sahiplerinden gelir. İlk kiralamanın en büyük engeli terminoloji değil, güvensizliktir — 'yanlış makine gelirse ne olur, fazla ödersem nasıl anlarım, kimseye danışamadan karar veriyorum' hissi. Genel amaçlı filomuzun Pursaklar'daki rolü tam bu noktada devreye girer: küçük işletmenin bir kez yaşayacağı bir kararı, tekrar tekrar yaşadığımız bir süreçle kolaylaştırmak. Bu sayfa, ilk kez kiralayacak bir işletme sahibinin aklındaki soruları sırayla cevaplıyor — nereden başlanır, nasıl yanlış yapılmaz, fiyat nasıl anlaşılır ve süreç ne kadar sürer.",
+        maddeler: [
+            {
+                baslik: "İlk kiralamada bilmeniz gereken tek şey: işinizi anlatmak",
+                metin:
+                    "İlk kez kiralayan işletme sahibinin makaslı-eklemli-akülü-dizel terminolojisini bilmesi gerekmez; gereken tek şey işi anlatmaktır — 'tavanımızdaki şu noktaya ulaşmam lazım', 'dükkânın tabelasını değiştireceğiz', 'depo rafının üstünü boyayacağız'. Bu cümleden üç bilgi çıkarılır: hedef ne kadar yüksekte, altı boş mu dolu mu, zemin ve ortam nasıl. Bu üç bilgi, terminoloji bilmeden de doğru makineye ulaşmanın yoludur — ilk telefon görüşmesinde amaç sizi sınamak değil, sizin dilinizi makineye çevirmektir.",
+            },
+            {
+                baslik: "En sık yapılan hata: 'büyük olsun, garanti olsun'",
+                metin:
+                    "İlk kez kiralayan işletmelerin en yaygın refleksi, belirsizlik karşısında en büyük makineyi istemektir — ve bu refleks genelde pahalı bir hatadır. Büyük makine küçük işte hem daha yüksek kira hem daha zor manevra hem de kapıdan girmeme riski taşır. Doğru yaklaşım tam tersidir: hedefinizi (mümkünse şeritmetreyle) ölçün, 2 metrelik uzanma payını biz ekleyelim ve makine tam o ölçüye göre gelsin. Belirsizlik korkusunun çözümü büyük makine değil, doğru ölçüdür.",
+            },
+            {
+                baslik: "Operatör sorusu: ilk kiralamada en çok atlanan konu",
+                metin:
+                    "İlk kez kiralayan işletmelerin çoğu, makineyi kimin kullanacağı sorusunu son ana bırakır ve burada yasal çerçeve nettir: platform kullanımı MYK yeterlilik belgesi ister, ehliyet veya forklift belgesi geçerli değildir. Belgeli personeliniz yoksa en pratik çözüm operatörlü kiralamadır — operatör makineyle birlikte gelir, siz işinizi sepette yaptırırsınız. İlk kiralamanızda bu seçeneği baştan sorun; son ana bırakılan operatör kararı, teslimat gününde gecikmeye yol açabilir.",
+            },
+            {
+                baslik: "Fiyat nasıl anlaşılır: dört kalemi ayrı görmek",
+                metin:
+                    "İlk kez kiralayan işletme sahibinin en çok kafasını karıştıran şey, tek bir 'kiralama fiyatı' beklerken dört ayrı kalemle karşılaşmasıdır: makine sınıfı-metrajı, süre, operatör (varsa) ve nakliye. Bu dört kalemin ayrı ayrı görülmesi aslında avantajınızadır — hangi kalemin ne kadar tuttuğunu görür, ihtiyacınız olmayan kalemi (örneğin operatörlü değil operatörsüz) çıkararak fiyatı kontrol edebilirsiniz. 'Tek rakam' teklif isteyen ilk kiralayan işletmeler, aslında karşılaştırma yapma imkânını kaybeder; ayrıştırılmış teklif ilk kiralamanın en güvenilir kontrolüdür.",
+            },
+            {
+                baslik: "Süreç ne kadar sürer: telefon aramasından teslimata",
+                metin:
+                    "İlk kiralamanın tüm süreci genelde bir-iki gün içinde tamamlanır: telefonla işi anlatırsınız (birkaç dakika), üç ölçü ve mümkünse birkaç fotoğraf iletirsiniz (beş dakika), teklif ayrı kalemlerle gelir (aynı gün) ve teslimatta makine tanıtımı yapılır — kumandalar, acil iniş, temel güvenlik noktaları. Operatörlü kiralamada bu son adım brifinge dönüşür ve ustanız işine başlamadan önce kısa bir güvenlik anlatımı alır. İlk kiralamanın sorunsuz geçmesi, bir sonraki kiralamanızın da güveniyle geçmesi demektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Pursaklar'da küçük işletmeler için ilk kiralama tablosu",
+                paragraflar: [
+                    "Küçük işletmelerin sık karşılaştığı işlerin tipik cevapları aşağıdadır. Kesin seçim, telefonda cevaplanan üç soruyla netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İşiniz", "Tipik makine", "Süre", "İlk kiralamada dikkat"],
+                    satirlar: [
+                        ["Dükkân tabelası değişimi", "Akülü eklemli 10 – 12 m", "Yarım gün", "Cephe önü erişim ölçüsü"],
+                        ["Atölye tavan aydınlatması", "Akülü makaslı 8 m", "1 gün", "Kapı ölçüsü"],
+                        ["Depo raf üstü boyama", "Akülü makaslı 10 m", "1 – 2 gün", "Koridor genişliği"],
+                        ["Küçük işyeri cephe bakımı", "Akülü makaslı veya eklemli", "1 gün", "Altı dolu → eklemli"],
+                        ["Bahçe/avlu direk-aydınlatma", "Dizel arazi tipi (küçük)", "1 gün", "Zemin durumu"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada güven inşa eden dört adım",
+                paragraflar: [
+                    "İlk kez kiralayan işletmenin güvenini kazanmak, uzun bir satış konuşmasıyla değil dört basit adımın şeffaf işlemesiyle olur. Bir: sorularınıza terminoloji değil sade cevap. İki: teklifte gizli kalem olmaması — dört kalemin (makine, süre, operatör, nakliye) ayrı ayrı görünmesi. Üç: teslimatta makine tanıtımının atlanmaması. Dört: sorun çıkarsa (makine küçük geldi, süre yetmedi) hızlı ve dürüst çözüm.",
+                    "Bu dört adımın hiçbiri özel bir çaba gerektirmez — bizim tarafımızda standart süreçtir. İlk kez kiralayan işletmenin fark ettiği şey, sürecin karmaşık değil basit olduğudur.",
+                ],
+            },
+            {
+                baslik: "Komşu işletmeyle birlikte kiralamak: ilk kiralamanın gizli avantajı",
+                paragraflar: [
+                    "Pursaklar'ın yoğun küçük işletme dokusunda, aynı sokakta veya aynı sitede birden fazla işletmenin benzer dönemde benzer ihtiyacı olabilir — tabela yenileme, cephe bakımı, depo düzenlemesi. İlk kez kiralayan bir işletmenin bilmediği bir gerçek, komşu işletmelerle aynı güne denk gelen taleplerin nakliye maliyetini böldüğüdür. İlk kiralamanızı planlarken komşunuza da sormanız, hem sizin hem onun faturasını düşürebilir.",
+                    "Bu birleştirme bizim tarafımızda otomatik değildir — talep ettiğinizde değerlendiririz. İlk kiralamanızda bu soruyu sormanız, ikinci kiralamanızda zaten alışkanlık hâline gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hayatımda hiç platform kiralamadım; ilk aramada ne söylemeliyim?",
+                cevap:
+                    "Terminoloji değil, işinizi anlatın — 'şu duvara/tavana/cepheye ulaşmam lazım' cümlesi yeterli başlangıçtır. Biz size üç soru soracağız: hedef ne kadar yüksekte, altı boş mu dolu mu, ortam kapalı mı açık mı. Bu üç cevap, terminoloji bilmenize gerek kalmadan doğru makineyi belirler. Aramanız birkaç dakika sürer ve sonunda ne tür bir makine geleceğini, kabaca ne kadar tutacağını öğrenirsiniz — karar vermeniz için acele ettirilmezsiniz.",
+            },
+            {
+                soru: "Yanlış makine kiralarsam ne olur, parayı geri alabilir miyim?",
+                cevap:
+                    "Bu riski süreç baştan önler: ölçü ve fotoğraf paylaşımı olmadan teklif kesinleşmez, dolayısıyla 'yanlış makine geldi' senaryosu nadirdir. Yine de sahada makine işinize gerçekten uymuyorsa (örneğin ölçülmemiş bir engelle karşılaşıldıysa), durumu birlikte değerlendirir ve doğru sınıfa geçiş için en makul çözümü buluruz — bu, ilk kiralayan işletmelere karşı standart yaklaşımımızdır. En sağlam güvence yine de baştaki üç ölçüdür; onu atlamamak, sorunun kendisini oluşmadan önler.",
+            },
+            {
+                soru: "En büyük makineyi kiralarsam her işe yeter mi, bu daha mı güvenli?",
+                cevap:
+                    "Hayır — büyük makine küçük işte pahalı ve hantaldır: daha yüksek kira, daha geniş şase (kapıdan girmeme riski) ve dar alanda daha zor manevra demektir. Güvenli olan büyük makine değil, doğru ölçülmüş makinedir. Hedefinizi ölçün (veya bize tarif edin), biz 2 metrelik uzanma payını ekleyip doğru metrajı önerelim — bu, hem bütçenizi hem işin hızını korur. 'Garanti olsun' isteğiniz anlaşılır ama garantiyi büyüklük değil doğru ölçü verir.",
+            },
+            {
+                soru: "Kendimiz kullanabilir miyiz, yoksa mutlaka operatör mü gerekir?",
+                cevap:
+                    "Kullanacak kişide MYK yeterlilik belgesi olması şarttır; ehliyet veya farklı bir makine belgesi (örneğin forklift) platform için geçerli değildir. Belgeli personeliniz yoksa operatörlü kiralama en pratik çözümdür — operatör makineyle gelir, siz işinizi sepette yaptırırsınız; tek seferlik ihtiyaçlar için idealdir. Sık kiralama ihtiyacınız varsa personelinize belge aldırmayı da düşünebilirsiniz, süreci yönlendiririz. İlk kiralamanızda bu kararı baştan netleştirmeniz, teslimat gününde gecikmeyi önler.",
+            },
+            {
+                soru: "Teklifte dört ayrı kalem görüyorum, bu normal mi yoksa fiyatı şişirmek için mi?",
+                cevap:
+                    "Tamamen normal ve aslında sizin lehinize: makine sınıfı-metrajı, süre, operatör (varsa) ve nakliye kalemlerinin ayrı görünmesi, hangi kalemin ne kadar tuttuğunu görmenizi sağlar ve gerekirse bir kalemi (örneğin operatörü) çıkararak fiyatı düşürebilirsiniz. 'Tek rakam' teklif bu esnekliği ortadan kaldırır. İlk kiralamanızda bu dört kalemi tek tek sorun; her kalemin neden o rakamda olduğunu size açıklarız.",
+            },
+            {
+                soru: "İşimiz küçük, komşu dükkânın da benzer bir işi var; birlikte kiralarsak indirim olur mu?",
+                cevap:
+                    "Genelde evet — aynı güne denk gelen komşu talepler nakliye maliyetini böler ve bu, faturanıza yansır. İlk kiralamanızı planlarken komşu işletmelere sormanız, hem sizin hem onların lehine bir düzenlemedir; bunu bize söylediğinizde aynı güne planlamayı değerlendiririz. Otomatik bir indirim sistemi değildir, talebe göre değerlendirilir — ama sormanın maliyeti yoktur ve genellikle karşılığını bulur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Pursaklar'ın küçük-orta ölçekli işletme dokusu kamuya açık bilgidir; ilk kiralama süreci ve dört kalemli teklif yaklaşımı firma pratiğidir.",
+    },
+
+    "bolge:cubuk": {
+        h1: "Çubuk'ta Akülü mü Dizel mi: İlçe Ölçeğinde Karar Rehberi",
+        giris:
+            "Çubuk, Ankara'nın kuzeyinde tarım, hayvancılık ve küçük ölçekli sanayinin bir arada bulunduğu, kırsal ile yerleşik sanayinin iç içe geçtiği bir ilçedir. Bu ölçekte platform kiralayan işletme ve tesis sahiplerinin karşılaştığı en temel karar, metraj değil güç tipidir: akülü mü, dizel mi? İlçenin geniş açık alanları ve stabilize-toprak zeminli tesisleri bu soruyu sık sık gündeme getirir ve yanlış cevabın bedeli, sahaya gelip çalışamayan veya batan bir makinedir. Genel amaçlı filomuzun Çubuk'taki değeri, bu iki dünyaya (kapalı-düz zeminli işletme ve açık-değişken zeminli tesis) aynı hizmetten cevap vermesidir. Bu sayfa, ilçe ölçeğindeki akülü-dizel kararını üç net kritere indiriyor: zemin, ortam ve mesafe.",
+        maddeler: [
+            {
+                baslik: "Birinci kriter: zemin türü",
+                metin:
+                    "Akülü-dizel kararının en belirleyici girdisi zemindir. Beton, asfalt veya sıkıştırılmış düz saha akülü modelin çalışma alanıdır; stabilize dolgu, toprak veya düzensiz saha dizel arazi tipi makinenin alanıdır. Çubuk'ta bu ayrım özellikle önemlidir çünkü ilçenin tesis çeşitliliği (atölye, ahır, depo, açık stok sahası) aynı gün içinde iki zemin türünü de karşınıza çıkarabilir. Zemin türünü belirlemenin basit yolu şudur: yüzey düz ve sabit mi, yoksa mevsime ve yağışa göre davranışı değişen bir dolgu mu? İkinci durumda dizel varsayılır.",
+            },
+            {
+                baslik: "İkinci kriter: ortam — kapalı mı açık mı?",
+                metin:
+                    "Kapalı bir atölye veya ambar içinde dizel makine kullanılmaz — bu tercih değil kapalı alan kuralıdır, egzoz emisyonu nedeniyle. Açık sahada ise akülü modelin sınırları devreye girer: akü kapasitesi, uzun mesafeli hareket ve düzensiz zeminde denge açısından açık büyük sahalar için genelde yetersiz kalır. Çubuk'ta yarı açık yapılar (üstü kapalı ama üç tarafı açık ahır-depo tipi yapılar) bu ikisinin ortasında kalır ve karar, zeminin sağlamlığına göre verilir — sağlam betonsa akülü, dolgu-toprak ise dizel.",
+            },
+            {
+                baslik: "Üçüncü kriter: mesafe ve ulaşım kolaylığı",
+                metin:
+                    "İlçenin kırsal kesimlerindeki bazı tesisler, ana yoldan uzun bir stabilize veya toprak yolla erişilir. Bu durumda karar yalnızca çalışma sahasının zeminine değil, sahaya ulaşım yoluna da bakar — dizel arazi tipi makinenin dört teker çekişi, bu tür erişim yollarını akülü modelden daha güvenli geçer. Ulaşım yolu sorulmadan yapılan bir akülü teklif, sahaya ulaşamayan bir makineyle sonuçlanabilir; bu yüzden Çubuk'taki taleplerde erişim yolunun durumu, çalışma sahasının zemini kadar önemli bir sorudur.",
+            },
+            {
+                baslik: "Karma tesislerde iki sınıfın bir arada kullanımı",
+                metin:
+                    "Çubuk'taki bazı tesisler (örneğin bir atölye-depo kompleksi ile yanındaki açık stok sahası) tek ziyarette iki zemin türünü barındırır. Bu durumda tek makineyi her ikisine zorlamak yerine, iç kısım akülü, dış kısım dizel olarak ayrı ayrı planlanır ve aynı güne dizilir. İki makinenin aynı ziyarette gelmesi, nakliye maliyetini paylaştırır ve her alanın doğru makineyle çalışılmasını sağlar — tek makinelik 'ortalama' çözüm, genelde her iki alanda da eksik kalır.",
+            },
+            {
+                baslik: "Yanlış kararın somut maliyeti",
+                metin:
+                    "Akülü-dizel kararını yanlış vermenin bedeli soyut değildir: dizel gereken bir toprak sahaya akülü makine gönderilirse, makine ya sabitlenemez ya da güvenli çalışma açısından durdurulur ve yeniden sevkiyat gerekir — bu, hem zaman hem nakliye kaybıdır. Tersine, kapalı bir atölyeye dizel götürülmesi zaten mümkün değildir ama açık bir düz betonlu sahaya gereksiz yere dizel götürmek, akülüye göre daha yüksek maliyet ve daha fazla gürültü-emisyon demektir. Doğru karar, her iki yönde de tasarruf sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çubuk'ta zemin-ortam-güç tipi karar tablosu",
+                paragraflar: [
+                    "İlçedeki tipik saha koşullarına göre güç tipi kararı aşağıdadır. Kesin karar, sahanızın fotoğrafı ve erişim yolu bilgisiyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin/ortam", "Erişim yolu", "Önerilen güç tipi", "Not"],
+                    satirlar: [
+                        ["Kapalı atölye, beton zemin", "Asfalt/beton yol", "Akülü", "Kapalı alanda dizel kullanılmaz"],
+                        ["Açık düz beton saha", "Asfalt yol", "Akülü", "Zemin sağlamlığı doğrulanırsa"],
+                        ["Yarı açık ahır-depo, stabilize", "Stabilize yol", "Dizel arazi tipi", "Dolgu davranışı mevsime göre değişir"],
+                        ["Açık stok sahası, toprak", "Toprak yol", "Dizel arazi tipi", "Yağış sonrası erteleme olabilir"],
+                        ["Karma tesis (iç+dış)", "Değişken", "İkisi bir arada", "Aynı güne planlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kararı kim verir: siz mi, biz mi?",
+                paragraflar: [
+                    "Akülü-dizel kararını nihai olarak biz veririz ama girdiyi siz sağlarsınız: zemin fotoğrafı, erişim yolu tarifi ve ortamın kapalı-açık durumu. Bu üç bilgi olmadan verilen bir tahmin, sahada yanlış çıkma riski taşır. Telefonda 'zeminimiz düz beton' demek yeterli görünse de, fotoğraf genelde ek detay (çatlak, eğim, dolgu izi) ortaya çıkarır — bu yüzden mümkünse bir fotoğraf istiyoruz, zorunlu bir formalite olarak değil, doğru makinenin ilk seferde gelmesi için.",
+                    "Emin olmadığınız bir zemin tarifini 'sanırım düz' yerine 'emin değilim' diye iletmeniz, bizim için daha değerlidir — o durumda ek bir soru sorar, gerekirse fotoğraf isteriz.",
+                ],
+            },
+            {
+                baslik: "İlçe genelinde tur planlaması ve maliyet",
+                paragraflar: [
+                    "Çubuk'un merkez dışındaki dağınık tesis dokusu, tekil sevkiyatlarda mesafe maliyetini artırır. Bu nedenle ilçedeki kısa süreli işler, mümkün olduğunca tur güzergâhına denk getirilerek planlanır — aynı hat üzerindeki birden fazla tesisin talebi aynı güne dizildiğinde nakliye payı bölünür. Acil olmayan bakım işleri için 'tarih esnek, uygun tur gününe yazın' notu, ilçe genelinde en ekonomik kiralama biçimidir.",
+                    "Tur planlaması, akülü-dizel kararını değiştirmez ama toplam maliyeti düşürür — özellikle dizel arazi tipi makinenin ağırlığı nedeniyle nakliyesi görece daha maliyetli olduğu düşünüldüğünde, tur ekonomisi bu sınıfta daha da değerlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ahırımızın zemini yarı toprak yarı beton; hangi makineyi seçmeliyiz?",
+                cevap:
+                    "Karar, çalışma noktasının tam olarak hangi bölümde olduğuna bakar: hedefin altı beton kısımdaysa ve beton sağlam-düzse akülü değerlendirilebilir; toprak kısımdaysa dizel arazi tipi gerekir. İki bölüm arasında geçiş yapılacaksa (örneğin makine toprak kısımdan girip beton kısımda duracaksa) erişim yolunun tamamı toprak sayılır ve dizel varsayılan olur — çünkü makinenin oraya güvenle ulaşması önce gelir. Zeminin fotoğrafını ve hangi noktada duracağını paylaşın; kararı birlikte netleştirelim.",
+            },
+            {
+                soru: "Akülü makine daha sessiz ve ucuz diyorsunuz; zeminimiz toprak olsa da akülüyü zorlayabilir miyiz?",
+                cevap:
+                    "Önermeyiz — bu bir fiyat tercihi değil güvenlik sınırıdır: akülü modellerin denge sistemi düz-sabit zemin için tasarlanmıştır ve toprak zeminde makinenin devrilme riski artar. Sessizlik ve düşük maliyet avantajı, güvenli çalışma koşulunu sağlamayan bir zeminde anlamını yitirir. Dizel arazi tipinin maliyeti akülüden yüksek olsa da, toprak zeminde tek güvenli seçenek budur. Zemininizi beton veya sıkı stabilize ile güçlendirmeyi düşünüyorsanız, o zaman akülü seçeneği yeniden değerlendirilebilir.",
+            },
+            {
+                soru: "Tesisimize giden yol toprak ama çalışma alanımız beton; makine oraya nasıl ulaşır?",
+                cevap:
+                    "Erişim yolunun durumu, çalışma alanının zemininden bağımsız bir soru olarak değerlendirilir: toprak bir erişim yolunda dizel arazi tipi makinenin dört teker çekişi güvenli geçiş sağlarken, akülü model bu yolda zorlanabilir veya hiç ilerleyemeyebilir. Çalışma alanı beton olsa bile, oraya ulaşmak için toprak yoldan geçilecekse makine seçimi yol durumuna göre yapılır. Yolun uzunluğunu ve yüzeyini (sıkışmış mı, yumuşak mı) tarif edin; gerekirse fotoğrafla netleştirelim.",
+            },
+            {
+                soru: "Aynı tesiste hem kapalı atölyemiz hem açık stok sahamız var; tek makine mi iki makine mi gelir?",
+                cevap:
+                    "Genelde iki makine, aynı ziyarette: kapalı atölye akülü sınıf ister (dizel kapalı alanda kullanılamaz), açık stok sahası zemine göre dizel arazi tipi gerektirebilir. İki makine aynı güne planlandığında nakliye payı paylaşılır ve toplam maliyet, iki ayrı ziyaretten daha düşük çıkar. Tek makineyle ikisini de zorlamak, ya atölyede yasal bir sorun (dizel emisyonu) ya dış sahada güvenlik sorunu (akülünün zemine uygunsuzluğu) yaratır. İki alanın da fotoğrafını gönderin; tek ziyarette iki makineli planı çıkaralım.",
+            },
+            {
+                soru: "Yağmurdan sonra sahamız yumuşadı; birkaç gün ertelemek mi daha güvenli?",
+                cevap:
+                    "Genellikle evet — stabilize veya toprak zeminler yağış sonrası birkaç gün yumuşak kalabilir ve bu dönemde dizel arazi tipi makine bile devrilme riskiyle karşılaşabilir. Kurulum öncesi zeminin güncel durumu değerlendirilir; şüpheli görünen noktalarda yayılım plakası takviyesi yapılabilir ama zemin tamamen sertleşmemişse erteleme en güvenli seçenektir. Acil olmayan işlerde birkaç günlük bir bekleme, hem güvenlik hem gereksiz bir sevkiyat-iptal maliyetini önler. Son yağıştan bu yana geçen süreyi belirtin; birlikte karar verelim.",
+            },
+            {
+                soru: "İlçe merkezine uzak bir tesisimiz var, tekil sevkiyat pahalı olur mu?",
+                cevap:
+                    "Mesafeye göre evet, ama çözümü var: acil olmayan işlerinizi 'tarih esnek' notuyla bildirirseniz, ilçe genelindeki tur güzergâhımıza denk getirilir ve nakliye payı, o günkü diğer taleplerle bölünür. Tarihi esnek olmayan acil işlerde tam nakliye bedeli uygulanır ve bunu baştan açık söyleriz. Dizel arazi tipi makinenin ağırlığı nedeniyle bu sınıfta tur ekonomisi özellikle değerlidir — talebinizi erken bildirmeniz, size en uygun tur gününe yerleşme şansınızı artırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Çubuk'un tarım-hayvancılık-küçük sanayi karma dokusu ve zemin çeşitliliği kamuya açık bilgidir; üç kriterli akülü-dizel karar yöntemi firma pratiğidir.",
+    },
+
+    "bolge:polatli-osb": {
+        h1: "Polatlı OSB'de İş Kalemine Göre Doğru Makine Eşleştirmesi",
+        giris:
+            "Polatlı Organize Sanayi Bölgesi, Ankara'nın batısında tarım makineleri, gıda işleme, metal ve inşaat malzemesi üretiminin bir arada bulunduğu planlı bir sanayi bölgesidir. OSB'nin planlı yapısı, parsellerin geniş ve düzenli olması demek olsa da, tesis içi iş kalemleri yine de birbirinden çok farklı makine ihtiyaçları doğurur: bir parselde yüksek üretim holünün çatı işi konuşulurken, komşu parselde dar bir ofis-üretim ara koridorunun tavan noktası gündemdedir. Genel amaçlı filomuzun Polatlı OSB'deki değeri, bu iş kalemi çeşitliliğine tek bir kalıp değil, her kaleme özgü bir eşleştirme sunmasıdır. Bu sayfa, OSB tesislerinde en sık karşılaşılan iş kalemlerini ele alıp her birine hangi makine sınıfının eşleştiğini anlatıyor — karar, parselin büyüklüğüne değil, işin kendisine bakar.",
+        maddeler: [
+            {
+                baslik: "Yüksek üretim holünde çatı ve vinç işleri",
+                metin:
+                    "OSB'nin büyük ölçekli üretim tesislerinde çatı makası, vinç rayı bakımı ve çatı altı aydınlatma gibi işler tipik olarak 10-16 metre bandındadır ve bu yükseklikte dizel eklemli veya yüksek akülü sınıf gerekir — hol içinde kapalı alan olduğu için akülü tercih edilir, ancak metraj 14 metreyi aştığında dizel eklemli seçeneği de değerlendirilir (akülü sınıfların üst metraj sınırına yaklaşıldığında). Vinç hattı bulunan hollerde kilitleme prosedürü, sınıf seçiminden bağımsız olarak plana eklenir.",
+            },
+            {
+                baslik: "Orta ölçekli imalat alanında tezgâh üstü erişim",
+                metin:
+                    "Metal işleme ve tarım makineleri imalatındaki orta ölçekli tesislerin tavan işleri, genelde 6-10 metre bandında ve tezgâh dizilimiyle iç içedir. Tezgâhların yerinde kalması gerektiğinde (söküm maliyeti kiralamadan yüksektir) kompakt eklemli, tezgâhın üzerinden aşarak erişim sağlar; tezgâh aralıkları geçişe uygunsa dar makaslı daha ekonomik bir alternatiftir. Karar, bir yerleşim krokisiyle (tezgâh ve koridor ölçüleri) masada verilir — saha ziyareti çoğu zaman gerekmez.",
+            },
+            {
+                baslik: "Gıda işleme tesislerinde hijyen kısıtlı seçim",
+                metin:
+                    "OSB'deki gıda işleme tesislerinin tavan ve raf üstü işleri, diğer sektörlerden farklı bir ek kısıt taşır: makine temiz-bakımlı gelmeli, hidrolik kaçak kontrolü yapılmış olmalı ve açık ürün bölgelerinde çalışma yapılmamalıdır. Makine sınıfı seçimi (genelde 6-10 metre akülü) diğer sektörlerle benzer olsa da, seçimin ikinci katmanı hijyen setidir — alet bağlama, makine üstü koruma ve temizlik kaydı, sınıf seçimi kadar önemli bir karar bileşenidir.",
+            },
+            {
+                baslik: "İnşaat malzemesi ve depo parsellerinde açık-kapalı geçişi",
+                metin:
+                    "İnşaat malzemesi üreten veya depolayan parsellerde iş genelde iki bölgede birden bulunur: kapalı üretim/depo alanı (akülü sınıf) ve açık stok sahası (dizel arazi tipi, malzeme yığınları arasında). Bu tesislerde tek bir sınıfa karar vermek yerine liste iki bölgeye ayrılır; iç kalemler akülü, dış kalemler (stok üstü sundurma, aydınlatma direği) dizel ile aynı ziyarette çalışılır. Stok dizilerinin makine güzergâhını daraltabileceği, keşifte önceden değerlendirilir.",
+            },
+            {
+                baslik: "Parsel dışı ve tesis girişi kalemleri",
+                metin:
+                    "OSB parsellerinin girişindeki tabela, totem ve çevre aydınlatması kalemleri, üretim alanından ayrı bir değerlendirme ister: bu işler genelde 8-16 metre bandında ve dizel veya akülü eklemli seçimi, tabelanın yol kenarına yakınlığına ve zemin türüne bağlıdır. Parsel içi düzgün beton zeminde akülü eklemli yeterliyken, giriş kapısının hemen dışındaki yol kenarı zeminlerde dizel tercih edilir ve trafik güvenlik düzeni (koni, sakin saat) plana eklenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Polatlı OSB'de iş kalemi-makine eşleştirme tablosu",
+                paragraflar: [
+                    "OSB tesislerinde en sık karşılaşılan iş kalemleri ve tipik makine eşleşmesi aşağıdadır. Kesin seçim, hol yüksekliği ve yerleşim ölçüsüne göre netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Tipik bant", "Önerilen makine", "Alternatif koşulu"],
+                    satirlar: [
+                        ["Yüksek hol çatı/vinç", "10 – 16 m", "Yüksek akülü / dizel eklemli", "14 m üstü → dizel eklemli"],
+                        ["Orta ölçek tezgâh üstü", "6 – 10 m", "Kompakt eklemli", "Geçiş varsa dar makaslı"],
+                        ["Gıda işleme tavan-raf", "6 – 10 m", "Akülü, hijyen setli", "Açık ürün bölgesi hariç"],
+                        ["İnşaat malzemesi iç depo", "6 – 10 m", "Akülü makaslı", "Koridor genişliğine göre"],
+                        ["Açık stok sahası", "Değişken", "Dizel arazi tipi", "Stok güzergâhı planlanır"],
+                        ["Parsel girişi tabela-totem", "8 – 16 m", "Akülü/dizel eklemli", "Yol kenarı → dizel + trafik düzeni"],
+                    ],
+                },
+            },
+            {
+                baslik: "OSB'de kroki disiplini: seçimi saha ziyareti olmadan bitirmek",
+                paragraflar: [
+                    "Polatlı OSB'nin geniş parsel yapısı, saha ziyaretini zaman açısından maliyetli kılar. Bu yüzden tesis yerleşim krokisi (hol boyutları, tezgâh/raf konumları, kapı-koridor ölçüleri) ve birkaç fotoğraf, çoğu zaman keşif ziyareti kadar kesin bir seçim yapmayı sağlar. Kroki, iki pahalı senaryoyu önler: yanlış sınıf sevkiyatı (metraj yetersiz kaldı) ve gereksiz büyük seçim (garanti olsun diye yüksek sınıf).",
+                    "Tekrarlayan tesislerde bir kez çizilen kroki arşivlenir ve sonraki her talepte hızlıca yeniden kullanılır — OSB'nin geniş parsel mesafeleri düşünüldüğünde bu, hem zaman hem koordinasyon tasarrufu sağlar.",
+                ],
+            },
+            {
+                baslik: "Tek parselde birden çok iş kalemi: karma teklif mantığı",
+                paragraflar: [
+                    "OSB tesislerinin çoğunda tek bir iş kalemi değil, birden fazla kalem aynı anda gündeme gelir — hol çatı işi, tezgâh üstü nokta, gıda hattı raf üstü ve dış stok sahası aynı parselde bulunabilir. Bu durumda liste kalemlere ayrılır, her kalem kendi sınıfını çağırır ve teklif kalem kalem sunulur — 'tek makineyle her şeyi yapalım' yaklaşımı, çoğu zaman bazı kalemlerde yetersiz bazılarında pahalı kalır. Karma teklif, hangi kalemin hangi makineyi gerektirdiğini gösterir ve karar, sizin elinizde kalır.",
+                    "Karma listelerin ekonomisi, aynı ziyarette birden fazla makinenin gelmesinden değil, doğru sayıda ve doğru sınıfta makinenin gelmesinden gelir — fazladan makine getirmek de eksik getirmek kadar maliyetlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim holümüzün tavanı 15 metre; akülü mü dizel eklemli mi kiralamalıyız?",
+                cevap:
+                    "15 metre, akülü sınıfın üst sınırına yakın bir bant olduğu için genelde dizel eklemli önerilir — akülü yüksek sınıf modeller mevcut olsa da metraj arttıkça hem bulunabilirlik azalır hem manevra kabiliyeti düşer; dizel eklemli bu bantta daha stabil bir seçimdir. Hol kapalı olduğu için egzoz kısıtı akla gelebilir ama havalandırması yeterli büyük hollerde dizel kullanımı yaygındır — havalandırma durumunu keşifte değerlendiririz. Hol boyutları ve havalandırma bilgisiyle dönün; iki seçeneği (varsa) fiyatıyla karşılaştıralım.",
+            },
+            {
+                soru: "Tezgâhlarımızı sökmeden tavan işini nasıl yaptırabiliriz?",
+                cevap:
+                    "Kompakt eklemli ile — tezgâhlar yerinde kalır, makine bom kırılımıyla tezgâhın üzerinden hedefe erişir. Tezgâh aralıklarınız geçişe uygunsa (yaklaşık 1 metre ve üstü) dar makaslı da alternatif olarak değerlendirilir ve genelde daha ekonomiktir. Karar için bir yerleşim krokisi (tezgâh ve koridor ölçüleri, kapı genişliği) ve birkaç fotoğraf yeterlidir; saha ziyareti çoğu zaman gerekmeden seçim netleşir. Krokinizi paylaşın; hangi sınıfın işinize uyduğunu birlikte görelim.",
+            },
+            {
+                soru: "Gıda tesisimizde makine hijyen açısından güvenli mi geliyor, garanti var mı?",
+                cevap:
+                    "Var — bu, sektöre özgü standart bir uygulamadır: makine temiz-bakımlı gelir, hidrolik kaçak kontrolü yapılmış olur ve isterseniz teslimatta bu durumu birlikte kontrol edip kayda geçeririz. Açık ürün bölgelerinde çalışma yapılmaz; o bölge ya örtülür ya iş ürünün bulunmadığı vardiyaya alınır. Bu kayıt, müşteri denetimlerinizde 'tesise giren ekipman' sorusuna hazır cevap olur. Tesis kurallarınız (bone, galoş, kimyasal sınırları) varsa paylaşın; operatör düzenimize ekleriz.",
+            },
+            {
+                soru: "Hem iç depomuzda hem dış stok sahamızda işimiz var; tek teklif mi iki teklif mi alırız?",
+                cevap:
+                    "Tek teklif, iki kalem: liste iki bölgeye ayrılır (iç depo akülü, dış stok sahası dizel arazi tipi) ve her kalem kendi satırında fiyatlanır, ama teslimat tek ziyarette koordine edilir — iki ayrı kiralama süreci yaşamazsınız. Dış sahada stok dizileri makine güzergâhını daraltıyorsa, hangi dizinin ne kadar kaydırılması gerektiği keşifte netleşir. İç ve dış listenizi birlikte gönderin; tek teklifte iki kalemi ayrı ayrı görün.",
+            },
+            {
+                soru: "Parsel girişimizdeki totem 14 metre, yol kenarında; hangi makine ve nasıl bir güvenlik düzeni gerekir?",
+                cevap:
+                    "14 metrelik totem için 16 metre bandında dizel eklemli önerilir; yol kenarı konumu nedeniyle akülünün ekonomikliğinden çok trafik güvenliği önceliklidir. Çalışma, araç yaklaşım bölgesinin koni-bariyerle ayrılması, sakin saatlere (öğle boşluğu, sabah erken) yazılması ve yüksek işlerde rüzgâr takibiyle yürütülür. OSB içi trafik yoğunluğu düşünüldüğünde bu düzen özellikle önemlidir. Totem konumu ve yol genişliğiyle dönün; güvenlik düzenini ve pencereyi birlikte belirleyelim.",
+            },
+            {
+                soru: "OSB'de birden fazla parselimiz var; her parsel için ayrı mı talep açmalıyız?",
+                cevap:
+                    "Gerekmez — tek listede toplayıp bildirmeniz, hem koordinasyonu hem maliyeti düzenler: her parselin iş kalemleri ayrı ayrı listelenir, her kalem kendi sınıfını çağırır ve OSB içi kısa mesafe nedeniyle parseller arası geçişler aynı güne kolayca dizilir. Tek muhatap üzerinden yürüyen bu düzen, ayrı ayrı açılan taleplerin toplamından hem ucuz hem koordinasyon açısından daha rahattır. Parsel listelerinizi birlikte gönderin; tek programda tüm parselleri planlayalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Polatlı OSB'nin tarım makineleri-gıda-metal-inşaat malzemesi karma sektör yapısı kamuya açık bilgidir; iş kalemi eşleştirme yöntemi ve kroki disiplini firma pratiğidir.",
+    },
 };
