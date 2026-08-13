@@ -821,4 +821,400 @@ export const ISTANBUL_PLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kartal'ın sanayi parsellerinden konut-ofis dönüşümü geçiren yapısı ve sahil ticaret hattı kamuya açık bilgidir; teklif kontrol tablosu, karar dosyası ve hasar belge düzeni firma pratiğidir, TL tutarı verilmemiştir.",
     },
+
+    "bolge:beylikduzu": {
+        h1: "Beylikdüzü'nde Platform ve Forklift Kiralamada Fiyatı Belirleyen Kalemler",
+        giris:
+            "Beylikdüzü, Avrupa yakasının batısında hem yoğun bir konut-site nüfusu hem de organize sanayi ve depo alanlarını bir arada barındıran bir ilçedir; bu iki doku aynı ilçe sınırları içinde farklı kiralama profilleri üretir. Sahildeki ve E-5 gerisindeki site yönetimleri cephe ve peyzaj işleri için ara sıra makine ararken, ilçenin sanayi kesimindeki işletmeler forklift ve platform ihtiyacını daha sık ve süreklidir. İlçe genelinde fiyat sorusunu cevaplamak, tek bir rakam söylemek değil, teklifi oluşturan kalemlerin hangi mantıkla belirlendiğini açmaktır: iş İkitelli'deki merkez hub'dan ne kadar mesafede, işin süresi nasıl tanımlanmış, hangi makine sınıfı gerekiyor ve bu üçü birlikte teklifin hangi satırını büyütüyor. Bu sayfa, Beylikdüzü ölçeğindeki bir kiralama kararını rakamsız ama eksiksiz bir mantık çerçevesiyle ele alır — ilçenin neresinde olursanız olun, teklifinizi aynı çerçeveyle okuyabilirsiniz.",
+        maddeler: [
+            {
+                baslik: "Mesafenin fiyata giriş kapısı: hub'a uzaklık",
+                metin:
+                    "Avrupa yakasındaki filo İkitelli merkezli çalıştığı için, Beylikdüzü'ne bir teklif hazırlarken ilk bakılan satır mesafe satırıdır — ama mesafe tek başına bir rakam üretmez, üç şeyi birlikte belirler: aracın yolda geçireceği süre, bu sürenin gidiş-dönüş olarak iki kez sayılması ve E-5 veya sahil hattındaki trafik yoğunluğunun teslim saatine etkisi. İlçenin doğusu (E-5'e yakın kesim) ile batısı (sahil ve TEM bağlantı noktalarına yakın kesim) arasında bu üç unsur farklı ağırlıkta çalışır. Teklif isterken adresinizi net vermeniz, nakliye satırının tahminî değil gerçek mesafeye göre kurulmasını sağlar.",
+            },
+            {
+                baslik: "İşin süresi, mesafenin payını büyütür ya da küçültür",
+                metin:
+                    "Aynı mesafedeki iki iş, süreleri farklıysa nakliyenin toplam içindeki ağırlığı da farklı olur: haftalık bir kiralamada nakliye bedeli günlere yayılır ve payı küçülür, yarım günlük bir işte ise aynı nakliye bedeli tek güne yüklenir ve toplamın büyük kısmını oluşturabilir. Beylikdüzü'ndeki site cephesi işleri genelde bu ikinci gruba girer — kısa ve tek seferliktir. Bu yüzden kısa işlerde teklif değerlendirmesi günlük kira rakamından değil, nakliyenin gün başına düşen payından başlamalıdır; iki teklif arasındaki asıl fark çoğunlukla bu payda gizlidir.",
+            },
+            {
+                baslik: "Makine sınıfının fiyat basamağı",
+                metin:
+                    "İlçedeki iş çeşitliliği (konut cephesi, sanayi deposu, peyzaj işi) makine sınıfını da çeşitlendirir ve fiyatın en sert basamağı burada atlanır: erişim yüksekliği ve şase genişliği arttıkça hem kira hem nakliye satırı birlikte büyür, çünkü büyük makine özel taşıma aracı gerektirir. Doğru yaklaşım, işin gerçekten hangi sınıfı gerektirdiğini keşifte netleştirmektir — site cephesinin çoğu işi orta sınıf akülü platformla karşılanırken, sanayi tesisinin yüksek raf işleri farklı bir sınıfa ihtiyaç duyar. Teklifte makine sınıfının gerekçesi bir cümleyle yer almalıdır: bu ölçü neden bu makineyi gerektiriyor.",
+            },
+            {
+                baslik: "Site işi ile sanayi işinin kalem farkı",
+                metin:
+                    "Beylikdüzü'ndeki bir site yönetiminin teklifiyle bir depo işletmesinin teklifi aynı kalemlerden oluşmaz. Site işinde hazırlık kalemi öne çıkar — otoparkın boşaltılması, sakin bilgilendirmesi, çalışma saatinin gürültü kısıtına uyması; bu kalemler makinenin kendisinden bağımsız ama iş süresini ve dolayısıyla faturayı etkiler. Sanayi işinde ise zemin ve vardiya uyumu öne çıkar — zeminin makineyi taşıyıp taşımadığı, çalışmanın üretim saatleri dışına mı denk geldiği. Teklifinizi okurken kendi profilinizin kalemlerini arayın; karşı profilin kalemi sizin faturanızda görünüyorsa sorgulayın.",
+            },
+            {
+                baslik: "Operatör ve süre tanımının ilçe geneline etkisi",
+                metin:
+                    "Operatörlü mü operatörsüz mü, gün mü mesai mi sorularının cevabı Beylikdüzü'nde de diğer ilçelerdekiyle aynı mantıkla işler ama burada bir ek unsur devreye girer: site işlerinde çoğu zaman yönetimin kendi teknik personeli belgeli değildir ve operatör talebi neredeyse zorunludur, sanayi tesislerinde ise belgeli personel bulunma ihtimali daha yüksektir ve operatörsüz kiralama gerçek bir tasarruf seçeneği olur. Hangi durumda olduğunuzu teklif isterken belirtmek, size uygun olmayan bir kalemin faturanıza girmesini baştan önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Beylikdüzü'nde fiyatı etkileyen unsurların kategorik özeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilçe genelinde bir kiralama teklifini büyüten veya küçülten unsurları rakam vermeden, düşük-orta-yüksek etkisiyle özetler. Kendi işinizin hangi sütuna denk geldiğini işaretlediğinizde, teklifte hangi satırın büyük çıkacağını önceden kestirebilirsiniz.",
+                ],
+                tablo: {
+                    basliklar: ["Unsur", "Etki düşükken", "Etki yüksekken"],
+                    satirlar: [
+                        ["Hub'a mesafe", "E-5 hattına yakın kesim", "Sahilin ucu, ara sokak erişimi"],
+                        ["İş süresi", "Haftalık/aylık blok", "Yarım-tek günlük iş"],
+                        ["Makine sınıfı", "Kompakt, akülü, dar şase", "Büyük bomlu, dizel, özel taşıma"],
+                        ["Hazırlık ihtiyacı", "Açık, düzenli saha", "Otopark boşaltma, saat kısıtı"],
+                        ["Teslim saati esnekliği", "Geniş pencere, gündüz", "Dar pencere, yoğun saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlçe genelinde teklifi büyütmeden küçültme yolları",
+                paragraflar: [
+                    "Yukarıdaki tablodan çıkan pratik sonuç şudur: fiyatı küçültmenin en etkili yolu pazarlık değil, kalemlerin kendisini küçültmektir. Tarih esnekliği göstermek (belirli bir güne değil bir haftaya yayılan pencere) teslim saatinin sıkışmasını önler ve aynı bölgeye giden başka bir teslimatla nakliyenin paylaşılmasına imkân tanır. İşi doğru sınıfa oturtmak (gereğinden büyük makine istememek, ama yetmeyecek küçük makineyle de riske girmemek) hem kira hem nakliye satırını birlikte optimize eder. Komşu site veya işletmeyle aynı haftaya iş denk getirmek ise nakliye payını doğrudan bölüştürür.",
+                    "Bu üç yolun ortak noktası, hiçbirinin tedarikçiden 'indirim istemek' olmamasıdır — üçü de işin kendi parametrelerini değiştirerek maliyetin gerçekten küçülmesini sağlar. Şeffaf teklif, bu üç yolun her birinin faturada hangi satırı etkileyeceğini önceden gösterir.",
+                ],
+            },
+            {
+                baslik: "İki yakalı filo mantığının Beylikdüzü'ne yansıması",
+                paragraflar: [
+                    "İstanbul'un iki yakalı coğrafyası, filo planlamasını da iki ayrı mantıkla kurmayı gerektirir: Avrupa yakasındaki talep İkitelli merkezli hub'dan, Anadolu yakasındaki talep ise kendi bölgesindeki noktalardan karşılanır. Beylikdüzü, Avrupa yakasının batı ucunda olduğu için hub'a olan mesafesi ilçenin doğusundaki noktalara göre biraz daha uzundur — bu, nakliye satırının neden aynı ilçe içinde bile sabit olmadığını açıklayan yapısal bir gerçektir. Pratik sonucu şudur: teklif isterken tam adresinizi ve varsa saha fotoğraflarınızı paylaşmak, mesafeye dayalı tahminin yerini gerçek hesaba bırakmasını sağlar.",
+                    "İki yaka arasında makine transferi gerektiren istisnai durumlarda (örneğin Avrupa yakasında belirli bir sınıfın o an müsait olmaması), bu transferin ek bir nakliye kalemi ürettiği teklifte açıkça yazılmalıdır — sessizce eklenen köprü geçişi, faturada sürpriz olarak dönmemelidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Beylikdüzü'nde fiyatlarınız diğer ilçelerden farklı mı?",
+                cevap:
+                    "Sabit bir 'ilçe fiyatı' listemiz yok, çünkü fiyat ilçeye değil işin parametrelerine göre değişir — ama Beylikdüzü'nün konumu bazı parametreleri tipik olarak nasıl etkiliyor, onu açıkça söyleyebiliriz: hub'a olan mesafe orta-uzun bandındadır, bu nakliye satırını E-5'e daha yakın ilçelere göre biraz büyütebilir; buna karşılık ilçenin düzenli site ve sanayi dokusu, dar sokak manevrası gibi ek riskleri çoğu işte azaltır. İki etki birbirini kısmen dengeler. Kesin teklif için adresinizi ve iş tipinizi paylaşmanız, bu iki etkinin sizin işinizde nasıl birleştiğini gösteren gerçek bir rakam üretir.",
+            },
+            {
+                soru: "Site yönetimiyiz, cephe işi için üç ayrı firmadan teklif aldık; toplamlar birbirini tutmuyor. Nereden başlayalım?",
+                cevap:
+                    "Toplamı bir kenara koyup üç teklifi de aynı beş kaleme (makine sınıfı, nakliye, süre tanımı, operatör, hazırlık sorumluluğu) oturtun. Deneyimimizde site işlerinde en sık kayan kalem hazırlık sorumluluğudur — otoparkın boşaltılması ve saat kısıtına uyum kimin işiyse, o kalem bazı tekliflerde hiç yazılmaz ve iş günü uzarsa fatura da uzar. İkinci sık kayma nakliyenin tek yön mü çift yön mü yazıldığıdır. Bu iki kalemi eşitledikten sonra kalan fark, çoğunlukla makine sınıfı seçimindeki farktır ve bunun gerekçesini her firmadan ayrı ayrı isteyebilirsiniz.",
+            },
+            {
+                soru: "Sanayi bölgesindeki depomuz için düzenli forklift kiralıyoruz; ilçe içi mesafe bu kadar fiyatı etkiler mi?",
+                cevap:
+                    "Etkiler ama düzenli kiralamada bu etki tek seferlik işe göre daha küçüktür, çünkü nakliye maliyeti dönemin tamamına yayılır. Asıl belirleyici olan, tesisinizin ilçe içindeki konumunun hub'a göre mesafesinden çok, düzenli kiralamanın kendi avantajlarıdır: nakliye bir kez yapılır, makine planlaması öngörülebilir hâle gelir. Mesafenin etkisini daha da küçültmek isterseniz, aynı bölgedeki başka bir teslimatla senkronize bir teslim tarihi belirlemek — tarih esnekliğinizi paylaşmanız yeterli — pratik bir yoldur.",
+            },
+            {
+                soru: "İşimiz sahile yakın, dar bir sokakta; bu fiyatı nasıl etkiler?",
+                cevap:
+                    "Dar sokak erişimi, nakliye satırını mesafeden bağımsız bir başka yoldan etkiler: çekicinin manevra süresi uzar, bazı durumlarda daha küçük bir taşıma aracına aktarma gerekebilir ve indirme noktası bulmak zaman alır. Şeffaf teklif bu riski önceden ele alır — birkaç fotoğraf ve sokak genişliği bilgisiyle indirme koşulu netleştirilir ve nakliye satırı buna göre sabitlenir, ya da bekleme ihtimali ayrı bir koşul maddesi olarak yazılır. Sorulacak soru basittir: sokakta araç manevra edemezse ne olur, bu durumun bir ek maliyeti var mı?",
+            },
+            {
+                soru: "Komşu apartmanla aynı hafta iş yaptırmayı düşünüyoruz; bu gerçekten fiyatı düşürür mü?",
+                cevap:
+                    "Düşürür ve hangi satırı düşürdüğünü net söyleyebiliriz: nakliyeyi. Makine bedeli değişmez — her binanın işi kaç gün sürüyorsa o kadar faturalanır — ama araç bir kez gelip bir kez döner ve bu satır iki bina arasında bölüşülür. Bunun işlemesi için tek koşul, iki binanın tarih penceresini birlikte esnetebilmesidir. Teklifi iki bina için ayrı ama aynı organizasyona bağlı isteyin; bölüşülen nakliye satırı her iki dökümde ayrı ayrı görünsün ki toplamın nereden küçüldüğünü ikiniz de görebilesiniz.",
+            },
+            {
+                soru: "Teklifte 'bölgesel lojistik farkı' diye bir kalem gördük; bu ne anlama geliyor?",
+                cevap:
+                    "Bu kalem, mesafenin kendisinden değil, o bölgenin erişim özelliklerinden doğar — trafik yoğunluğunun teslim saatini nasıl etkilediği, sokak genişliğinin manevra süresini nasıl uzattığı, indirme noktasının ne kadar hazır olduğu gibi unsurların toplamıdır. Düzgün bir teklifte bu kalem tek bir muğlak satır olarak durmaz; hangi unsurun ne kadar etkili olduğu ayrı ayrı yazılır. Eğer teklifinizde bu kalem açıklamasız bir tek satırsa, içini açtırmanız hakkınızdır — biz kendi tekliflerimizde bu kalemi hiçbir zaman tek satırda bırakmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Beylikdüzü'nün Avrupa yakası batısındaki konut-site ve sanayi karma dokusu, İkitelli merkezli filo hub'ı kamuya açık bilgidir; fiyat kalemi mantığı ve teklif okuma yöntemi firma pratiğidir, TL tutarı verilmemiştir.",
+    },
+
+    "bolge:avcilar": {
+        h1: "Avcılar'da Manlift ve Forklift Kiralama: Nakliye Mesafesinin Fiyata Etkisi",
+        giris:
+            "Avcılar, E-5 karayolunun İstanbul'un batısındaki en yoğun kullanılan şeritlerinden birinin üzerinde, sahil ile E-5 arasında sıkışmış bir ilçedir ve bu konum kiralama fiyatına doğrudan bir kapı açar: nakliye. Avrupa yakasındaki filo İkitelli hub'ından beslendiği için, Avcılar'a gidecek bir makinenin yolu neredeyse tamamen E-5 hattı üzerinden geçer ve bu hattın trafik ritmi, hem yolda geçen süreyi hem teslim saatinin ne kadar öngörülebilir olduğunu belirler. Bu sayfanın konusu tek bir kalemdir ama o kalem çoğu zaman fatura kararının belirleyicisidir: nakliye mesafesinin ve E-5 lojistiğinin, bir Avcılar teklifinin toplamını nasıl şekillendirdiği. Rakam vermeden, mesafe-süre-saat üçlüsünün fiyata nasıl gireceğini ve bu üçlüyü sizin lehinize nasıl kullanabileceğinizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "E-5 hattının iki yüzü: hız ve öngörülemezlik",
+                metin:
+                    "E-5, düz hat mesafesi olarak Avcılar'ı hub'a nispeten yakın tutar ama bu yakınlık, trafiğin akıcı olduğu saatlerle sınırlıdır. Aynı kilometre, sabah erken saatte kısa bir sürede alınırken, yoğun saatte kat kat uzayabilir — ve nakliye satırını asıl büyüten şey kilometre değil, bu sürenin öngörülemezliğidir. Şeffaf teklif bu farkı gizlemez: teslim saati belirli bir pencereyle taahhüt edilir ve pencere, hattın o saatteki gerçek durumuna göre kurulur. Sabah erken teslimat isteyen müşteriye nakliye tarafında daha iyi bir koşul sunulabilmesinin nedeni de budur — risk küçülür, satır da küçülür.",
+            },
+            {
+                baslik: "Sahil ile E-5 arası: erişim noktasının önemi",
+                metin:
+                    "Avcılar'ın sahile yakın kesimleri ile E-5'e bitişik kesimleri, aynı ilçe içinde farklı erişim koşulları sunar. Sahile inen tali yollar bazı saatlerde yoğunlaşır ve büyük araçlar için manevra alanı daralabilir; E-5'e bitişik parsellerde ise ana yoldan doğrudan giriş çoğu zaman mümkündür. Bu fark, aynı ilçe içinde bile nakliye satırının neden sabit olmadığını açıklar. Teklif isterken tam adresinizi ve mümkünse sokak fotoğrafını paylaşmak, nakliye satırının tahminî değil gerçek erişim koşuluna göre kurulmasını sağlar.",
+            },
+            {
+                baslik: "Gidiş-dönüşün ikili maliyeti",
+                metin:
+                    "Nakliye satırı, kısa görünen mesafelerde bile iki kez sayılır: götürme ve getirme. E-5 hattında bu ikinci yön, ilk yönle aynı süreyi almayabilir — saat değiştikçe trafik yönü de değişir, bazen dönüş gidişten daha uzun sürer. Şeffaf teklif gidiş-dönüşü tek bir 'nakliye dahildir' cümlesine gömmez, iki yönü ayrı ayrı gösterir veya en azından ikisinin birlikte hesaplandığını açıkça yazar. Tek yön yazılıp dönüşün sonradan fatura edildiği teklif, Avcılar gibi trafiğe duyarlı bir hatta özellikle risklidir.",
+            },
+            {
+                baslik: "Kısa işte nakliyenin toplamdaki ağırlığı",
+                metin:
+                    "Avcılar'daki tipik talep — bir sitenin cephe işi, bir işyerinin tabela değişimi — genellikle yarım günlük veya tek günlük kısa işlerdir. Kısa işte nakliye bedeli tek güne yüklendiği için toplamın büyük kısmını oluşturabilir; haftalık bir kiralamada ise aynı nakliye bedeli günlere yayılıp payı küçülür. Bu yüzden Avcılar'daki kısa bir iş için teklif değerlendirirken ilk bakılacak satır günlük kira değil, nakliyenin gün başına düşen payıdır — iki teklif arasındaki fark çoğunlukla burada saklıdır.",
+            },
+            {
+                baslik: "Zamanlama esnekliğinin nakliyeye etkisi",
+                metin:
+                    "Tarih ve saat esnekliği, E-5 hattında nakliye maliyetini gerçek anlamda küçültebilecek tek değişkendir: belirli bir güne değil bir haftaya yayılan bir pencere, aracın aynı bölgeye giden başka bir teslimatla eşleştirilmesine imkân tanır ve bu eşleşme nakliye payını bölüştürür. Sabah erken saat tercih etmek ise trafik riskini azaltarak süreyi kısaltır. Esneklik göstermeyen, dar saatli ve tek tarihe bağlı talep ise nakliye satırının en yüksek hâlini görür — bu bir ceza değil, riskin gerçek maliyetinin yansımasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Avcılar'da nakliye maliyetini etkileyen unsurların kategorik karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, E-5 hattı üzerindeki bir teslimatta nakliye satırını büyülten veya küçülten unsurları rakam vermeden özetler. Kendi işinizin hangi sütuna yakın olduğunu görmek, teklifte nakliye satırının neden bu düzeyde çıktığını anlamanın en hızlı yoludur.",
+                ],
+                tablo: {
+                    basliklar: ["Unsur", "Nakliyeyi küçülten durum", "Nakliyeyi büyüten durum"],
+                    satirlar: [
+                        ["Teslim saati", "Sabah erken, trafik dışı", "Yoğun saat, öngörülemez süre"],
+                        ["Erişim noktası", "E-5'e bitişik, doğrudan giriş", "Sahil tali yolu, dar sokak"],
+                        ["Tarih esnekliği", "Haftalık pencere", "Tek ve sabit tarih"],
+                        ["İş süresi", "Haftalık/aylık blok", "Yarım-tek günlük iş"],
+                        ["Bölge eşleşmesi", "Aynı gün başka teslimatla paylaşım", "Tek başına özel sefer"],
+                    ],
+                },
+            },
+            {
+                baslik: "E-5 hattında teslim saatinin nasıl belirlendiği",
+                paragraflar: [
+                    "Teslim saatini rastgele değil, hattın o günkü ve o saatlik gerçek yoğunluğuna göre planlarız. Sevkiyat planlaması yapılırken üç bilgi birlikte değerlendirilir: işinizin en erken hangi saatte başlayabileceği, o gün E-5 üzerindeki bilinen yoğunluk pencereleri (mesai başlangıç-bitiş saatleri, okul giriş-çıkış saatleri gibi tekrarlayan örüntüler) ve aracın Avcılar'a gitmeden önce veya sonra başka bir teslimatı olup olmadığı. Bu üç bilginin kesişimi, size sunulan teslim penceresini oluşturur — pencere ne kadar dar ve talep edilen saat ne kadar yoğun bir dilime denk geliyorsa, nakliye satırındaki risk payı o kadar görünür hâle gelir.",
+                    "Müşterinin elindeki tek gerçek kaldıraç, bu pencereyi genişletebilmesidir. Bir günlük değil birkaç günlük bir aralık sunulduğunda, sevkiyat ekibi aracı en verimli saate yerleştirebilir ve bu verimlilik teklife yansır.",
+                ],
+            },
+            {
+                baslik: "Sahil kesimi ile E-5 kesimi arasındaki pratik fark",
+                paragraflar: [
+                    "Avcılar'ın sahile yakın kesimlerinde çalışan bir site yönetimi ile E-5'e bitişik bir işletmenin nakliye deneyimi aynı değildir. Sahil kesiminde tali yolların dar olması ve bazı saatlerde yoğunlaşması, büyük araçlar için ek manevra süresi ve bazen aktarma ihtiyacı doğurabilir; bu ihtimal teklifte önceden not edilmelidir. E-5'e bitişik kesimde ise ana yoldan doğrudan erişim genelde mümkün olduğu için bu risk düşüktür, ama hattın kendi trafik yoğunluğu bu kez öne çıkar. İki kesim de aynı ilçede olsa da farklı risk profili taşır — bu yüzden 'Avcılar fiyatı' tek bir sayı değil, adrese göre kurulan bir hesaptır.",
+                    "Pratik öneri: teklif isterken sokağınızın E-5'e mi yoksa sahil hattına mı daha yakın olduğunu belirtmeniz, ekibin doğru senaryoyu baştan kurmasını sağlar ve teklif süreci hızlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Avcılar E-5 üzerinde, hub'a yakın; neden nakliye ücretsiz veya çok düşük değil?",
+                cevap:
+                    "Yakınlık gerçekten bir avantajdır ve mesafeye bağlı taşıma payını küçültür — ama nakliye satırı tek bir bileşenden oluşmaz. Mesafeye ek olarak makinenin gerektirdiği araç tipi ve indirme koşulu da satırı belirler; bunlar mesafeden bağımsızdır. Ayrıca E-5'in kendine özgü bir gerçeği vardır: düz hat kısa olsa da trafik yoğun saatte süreyi uzatabilir ve bu süre, aracın o gün başka bir işe yetişememesi riskini taşır. Kısa mesafede toplamı asıl düşüren şey, aynı gün aynı bölgeye giden başka bir teslimatla aracın paylaşılmasıdır; tarih esnekliğiniz varsa bunu belirtin, paylaşım imkânı teklifte ayrı satır olarak gösterilir.",
+            },
+            {
+                soru: "Sabah erken teslimat istersek gerçekten fark yaratır mı?",
+                cevap:
+                    "Yaratır, çünkü sabah erken saat E-5 üzerindeki en öngörülebilir dilimdir — trafik yoğunluğu düşüktür ve süre tahmini gerçeğe yakın kurulabilir. Öngörülebilirlik arttıkça nakliye satırındaki risk payı küçülür; bu da genelde teklife yansıyan somut bir avantajdır. Ayrıca erken saatte tamamlanan bir teslimat, aracın aynı gün başka bir işe yetişmesini kolaylaştırır ve bu da bölge paylaşımlı sevkiyat imkânını artırır. Kesin bir oran vermek yerine şunu söyleyelim: teslim saatinizde esneklik gösterdiğinizde bunu teklif isterken belirtin, ekip en uygun dilimi sizin için arar.",
+            },
+            {
+                soru: "Sahile yakın bir apartmanız var, dar bir sokakta; bu nakliyeyi nasıl etkiler?",
+                cevap:
+                    "Dar sokak, mesafeden bağımsız bir risk üretir: çekicinin sokağa girip manevra edebilmesi, bazı durumlarda daha küçük bir araca aktarma yapılması gerekebilir ve bu aktarma bir ek kalem doğurabilir. Bunun önceden bilinmesi işinize yarar — birkaç fotoğraf ve sokak genişliği bilgisiyle bu ihtimal teklif aşamasında değerlendirilir ve ya nakliye satırı buna göre sabitlenir ya da koşullu bir madde olarak yazılır. Sorulması gereken soru nettir: sokakta araç manevra edemezse alternatif plan nedir ve bunun bir ek maliyeti var mı?",
+            },
+            {
+                soru: "İki farklı firmadan teklif aldık, nakliye satırları birbirinden çok farklı; neden?",
+                cevap:
+                    "En sık üç nedeni vardır: firmaların filo merkezinin farklı olması (bir firma için Avcılar yakın, ötekinin merkezi uzaksa satır farklı çıkar), gidiş-dönüşün bir teklifte tam, ötekinde tek yön yazılmış olması ve teslim saati esnekliğinin tekliflere farklı yansıtılmış olması. İki teklifi karşılaştırırken önce her ikisinin de gidiş-dönüşü kapsadığından emin olun, sonra hangi firmanın filo merkezinin size daha yakın olduğunu sorun — bu sorunun cevabı genelde farkın büyük kısmını açıklar.",
+            },
+            {
+                soru: "Komşu işletmeyle aynı hafta iş yaptırsak nakliye gerçekten paylaşılır mı?",
+                cevap:
+                    "Paylaşılır ve E-5 hattı gibi yoğun bir güzergâhta bu paylaşımın etkisi özellikle belirgindir: araç bölgeye bir kez gelir, iki işi art arda yapar ve nakliye bedeli iki fatura arasında bölüşülür. Bunun işlemesi için tek koşul, iki işletmenin tarih penceresini birlikte esnetebilmesidir — aynı güne kesin kilitlenmiş iki talep, paylaşım şansını azaltır. Teklifi iki işletme için ayrı ama aynı sevkiyata bağlı isteyin; bölüşülen nakliye satırı her iki dökümde ayrı ayrı görünsün.",
+            },
+            {
+                soru: "Nakliye ücretini gün içinde farklı saatlerde teklif istesek farklı mı çıkar?",
+                cevap:
+                    "Aynı gün için gerçek anlamda 'farklı saat teklifleri' istemenize gerek yok, ama teklif isterken saat tercihinizi belirtmeniz sonucu etkiler: yoğun bir öğle sonrası saatine kilitlenmiş bir talep ile geniş bir sabah penceresine açık bir talep, aynı iş olsa da farklı risk taşır ve bu risk teklife yansıyabilir. Bizim önerimiz, mümkünse kesin bir saat değil bir aralık (örneğin sabah dokuz ile on iki arası) belirtmenizdir — bu aralık, ekibin hem sizin işinizi hem varsa bölgedeki başka teslimatı en verimli şekilde planlamasına imkân tanır ve genelde daha iyi bir koşulla sonuçlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Avcılar'ın E-5 karayolu ile sahil arasındaki konumu ve İkitelli merkezli filo hub'ı kamuya açık bilgidir; nakliye planlama mantığı ve teslim saati kurgusu firma pratiğidir, TL tutarı verilmemiştir.",
+    },
+
+    "bolge:umraniye": {
+        h1: "Ümraniye'de Manlift ve Forklift Kiralama: İMES Hattında Makine Seçimi",
+        giris:
+            "Ümraniye, Anadolu yakasının en yoğun karma dokularından birine sahiptir: bir yanda İMES Sanayi Sitesi'nin kümelendirdiği binlerce küçük ve orta ölçekli atölye ve imalathane, öte yanda ilçenin geri kalanındaki yüksek yoğunluklu konut siteleri ve ticaret merkezleri. İki doku, aynı ilçe içinde birbirinden tamamen farklı makine ihtiyacı ve fiyat mantığı üretir. İMES hattındaki bir atölye sahibinin sorduğu soru genelde 'bu iş için hangi makine sınıfı yeterli' iken, bir site yönetiminin sorusu 'bu cephe işi kaç günde biter'dir — ve bu iki soru, teklifin farklı satırlarını büyütür. Bu sayfa, özellikle İMES hattındaki imalat ve depo işlerinde makine sınıfı seçiminin fiyatla nasıl bir ilişki kurduğunu, rakam vermeden ama seçimin mantığını tam açarak anlatır; site tarafı ihtiyaçları için de aynı çerçeveyi geçerli kılar.",
+        maddeler: [
+            {
+                baslik: "İMES hattında iş çeşitliliği, makine çeşitliliğine dönüşür",
+                metin:
+                    "İMES gibi yoğun bir sanayi sitesinde işler birbirine benzemez: kimi atölye tavan aydınlatması için kısa süreli bir platform ister, kimi raf sistemi kurulumu için haftalarca forklift kullanır, kimi çelik konstrüksiyon işinde yüksek erişimli bir makineye ihtiyaç duyar. Bu çeşitlilik, 'İMES için tek bir standart makine' beklentisini geçersiz kılar — teklif hazırlarken önce işin ne olduğu netleşmeli, sonra makine sınıfı buna göre seçilmelidir. Yanlış sınıf seçimi iki yönde de maliyetlidir: gereğinden büyük makine kirası şişirir, yetmeyecek küçük makine ikinci bir sevkiyatı zorunlu kılar.",
+            },
+            {
+                baslik: "Dar koridor ve sıkışık parsellerde şase genişliğinin fiyata girişi",
+                metin:
+                    "Sanayi sitelerinin karakteristik özelliği dar sokaklar ve sıkışık parsellerdir; İMES de bu yapıdan bağımsız değildir. Şase genişliği geniş bir makine, dar bir atölye kapısından veya sıkışık bir avludan geçemeyebilir — bu durumda ya daha kompakt bir sınıfa geçilir ya da makinenin sokağa park edilip malzeme elle taşınması gibi bir çözüm bulunur ve bu ikincisi genelde iş süresini uzatır. Şeffaf teklif bu ölçü uyumunu keşif aşamasında netleştirir: kapı genişliği, avlu ölçüsü ve zemin durumu sorularak, sahaya gerçekten girebilecek makine sınıfı önerilir. Ölçü uyumsuzluğu fiyattan önce gelen bir risktir — uymayan makine, ne kadar ucuz olursa olsun sahaya giremiyorsa değersizdir.",
+            },
+            {
+                baslik: "Kısa atölye işlerinde makine sınıfı ile süre ilişkisi",
+                metin:
+                    "İMES'teki tipik iş kısa ve noktasaldır — bir günlük tesisat, birkaç saatlik tavan kontrolü. Kısa işte doğru makine sınıfı seçimi süreyi de doğrudan etkiler: doğru sınıf işi tek seferde bitirirken, yetersiz sınıf ikinci bir ziyaret gerektirebilir ve bu ikinci ziyaret hem yeni bir nakliye hem kaybedilen bir gün demektir. Bu yüzden kısa işlerde makine sınıfı seçimini ucuza değil işin gerçek gereksinimine göre yapmak, görünürde biraz daha yüksek bir kira olsa da toplamda tasarruf sağlar. Atölye sahibinin işi tarif ederken en yüksek noktayı ve en dar geçişi birlikte söylemesi, doğru sınıf seçiminin anahtarıdır.",
+            },
+            {
+                baslik: "Süreklilik gösteren imalat işlerinde makine seçiminin dönemsel mantığı",
+                metin:
+                    "İMES'te düzenli üretim yapan bazı işletmeler forklifti tek seferlik değil sürekli ihtiyaç olarak kullanır. Bu durumda makine seçimi tek bir işin değil, tesisin genel iş yükünün ortalamasına göre yapılmalıdır — nadiren gereken en ağır yükü baz alan seçim kirayı gereksiz büyütür, sık gereken orta yükü baz alan seçim ise ara sıra ek bir makine gerektirebilir. İkisi arasındaki dengeyi bulmak için tesisin son birkaç ayki tipik yük profilini paylaşması, doğru sınıfın belirlenmesinde en güvenilir veridir — tahminden değil, gerçek kullanım örüntüsünden yola çıkılır.",
+            },
+            {
+                baslik: "Site tarafında farklı bir makine mantığı",
+                metin:
+                    "İMES hattının dışındaki Ümraniye'de, özellikle yüksek yoğunluklu site bölgelerinde, makine seçimini belirleyen unsur imalat ihtiyacı değil bina yüksekliği ve hazırlık koşuludur. Burada seçim, cephenin en yüksek noktasına göre değil işin ağırlıklı yapıldığı kata göre yapılmalı, gerekirse üst kontrol için ayrı ve kısa bir ikinci düzen kurulmalıdır. Bu, İMES tarafındaki 'dar geçiş' mantığından farklı bir seçim kriteridir — aynı ilçede iki farklı doku, iki farklı makine seçim mantığı üretir ve teklifinizin hangi mantığa göre kurulduğunu anlamak, fiyatı doğru okumanın ilk adımıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İMES hattında makine sınıfı seçim rehberi",
+                paragraflar: [
+                    "Aşağıdaki tablo, İMES ve benzeri sanayi sitesi koşullarında iş tipine göre tipik makine sınıfı eğilimini ve bu eğilimin fiyata dolaylı etkisini rakamsız, kategorik olarak özetler. Kendi işinizi tabloya yerleştirmek, teklif isterken doğru soruları sormanızı kolaylaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Tipik makine eğilimi", "Fiyata dolaylı etki"],
+                    satirlar: [
+                        ["Tavan aydınlatma, kısa kontrol", "Kompakt akülü, dar şase", "Düşük — kısa süre, kolay erişim"],
+                        ["Raf sistemi kurulumu", "Orta sınıf, sürekli forklift", "Orta — süre ve tekrar bağımlı"],
+                        ["Çelik konstrüksiyon, yüksek erişim", "Büyük bomlu, özel taşıma", "Yüksek — hem kira hem nakliye büyür"],
+                        ["Dar avlu / kapı geçişi", "Ultra kompakt, sınırlı seçenek", "Değişken — ölçü uyumu önce gelir"],
+                        ["Sürekli üretim desteği", "Dönemsel forklift, ortalama yük", "Orta — dönem indirimiyle dengelenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ölçü uyuşmazlığının gerçek maliyeti",
+                paragraflar: [
+                    "Sanayi sitesi işlerinde en sık rastlanan ve en pahalıya mal olan hata, makinenin fiyatına değil ölçüsüne bakmadan karar vermektir. Kapıdan geçemeyen veya avluda dönemeyen bir makine, ne kadar uygun fiyatlı olursa olsun işe yaramaz — geri gönderilir, doğru sınıf yeniden sevk edilir ve bu süreçte hem ikinci bir nakliye bedeli hem kaybedilen bir iş günü ortaya çıkar. Bu senaryonun tamamı, keşif aşamasında birkaç ölçü ve fotoğrafla önlenebilir bir risktir.",
+                    "Bizim yaklaşımımız, teklif öncesi kapı genişliği, avlu derinliği ve zemin tipini sormaktır — atölye sahibi bu üçünü telefonda birkaç dakikada verebilir. Bu küçük ön adım, sahaya doğru makinenin ilk seferde gelmesini sağlayan en ucuz sigortadır.",
+                ],
+            },
+            {
+                baslik: "Dönemsel forklift ihtiyacında sınıf ile sözleşme koşulunun birlikte kurulması",
+                paragraflar: [
+                    "Sürekli üretim yapan İMES işletmeleri için forklift ihtiyacı tek seferlik değil dönemseldir ve bu durumda makine sınıfı seçimi, sözleşme koşuluyla birlikte düşünülmelidir. Ortalama yükü karşılayan bir sınıf seçilip, nadiren gereken tepe yük için ayrı bir kısa süreli takviye makinesi öngörülebilir — bu, tek büyük makineyle sürekli çalışmaktan genelde daha ekonomik bir kurgudur çünkü büyük sınıfın kirası her gün, kullanılmadığı günlerde de işler. Sözleşmede bu takviye mekanizmasının nasıl tetikleneceği (hangi bildirimle, ne kadar sürede) yazılı olmalıdır.",
+                    "Bu kurgunun işletmeye getirdiği fayda öngörülebilirliktir: temel ihtiyaç sabit bir sınıfla karşılanırken, dalgalanan tepe talep esnek bir takviyeyle yönetilir — ikisi birlikte, tek büyük makineye göre daha isabetli bir maliyet dengesi kurar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemiz İMES'te, avlumuz dar; hangi makine sınıfının geçebileceğini nasıl anlarız?",
+                cevap:
+                    "Üç ölçüyü paylaşmanız yeterlidir: giriş kapısının genişliği, avlunun en dar noktasının genişliği ve zeminin tipi (beton, toprak, parke). Bu üç bilgiyle, sahaya fiziksel olarak girebilecek makine sınıflarını önceden eleriz ve size yalnızca gerçekten uyan seçenekleri sunarız. Mümkünse birkaç fotoğraf da isteriz — ölçü doğru olsa bile görünmeyen bir engel (örneğin alçak bir gölgelik) fotoğrafta ortaya çıkabilir. Bu ön kontrol, sahaya giremeyecek bir makinenin gönderilip geri çevrilmesi gibi maliyetli bir senaryoyu tamamen önler.",
+            },
+            {
+                soru: "Raf kurulumu için haftalarca forklift kiralayacağız; günlük fiyattan mı hesaplansın?",
+                cevap:
+                    "Hayır, öyle hesaplamayız — haftalık veya aylık blok tarifesi günlük tarifeden daha düşük bir gün başı maliyet taşır, çünkü nakliye bir kez yapılır ve makinenin boş gün riski ortadan kalkar. Sizin durumunuzda doğru soru 'günlük fiyat ne' değil 'işiniz kaç hafta sürecek' sorusudur — süre tahmininiz netleştikçe hangi blok eşiğinin sizin için avantajlı olduğunu birlikte hesaplarız. Süre tahmininiz değişken ise, bunu baştan söylemeniz de önemlidir; esnek süreli işler için farklı bir sözleşme kurgusu öneririz.",
+            },
+            {
+                soru: "Çelik konstrüksiyon işimiz için büyük bomlu makine öneriliyor; bu neden hem kira hem nakliyeyi birlikte büyütüyor?",
+                cevap:
+                    "Çünkü büyük bomlu makineler ağırlık ve boyut olarak standart taşıma araçlarına sığmaz ve özel bir nakliye düzeni (farklı araç tipi, bazen ek izin süreci) gerektirir — bu, mesafeden bağımsız ek bir maliyet kalemidir. Aynı zamanda büyük makinenin kendi kira bedeli de sınıfı gereği yüksektir. İkisi birlikte büyüdüğü için teklifte bu iki satırın ayrı ayrı görünmesini isteyin — bazı teklifler bu ikisini birleştirip tek bir yüksek toplam yazar, bu da hangi kalemin ne kadar etkili olduğunu gizler.",
+            },
+            {
+                soru: "Sürekli üretim yapıyoruz, forklift ihtiyacımız mevsime göre değişiyor; sabit bir sınıfa mı bağlanmalıyız?",
+                cevap:
+                    "Bağlanmanıza gerek yok — bunun için önerdiğimiz kurgu, ortalama yükünüzü karşılayan bir temel sınıfı sabit sözleşmeyle almak ve tepe dönemlerde kısa süreli bir takviye makinesi eklemektir. Bu kurgunun işlemesi için son birkaç ayınızın tipik yük profilini paylaşmanız yeterlidir — tahmin değil, gerçek kullanım verisi üzerinden temel sınıfı belirleriz. Takviye makinesinin hangi bildirimle ve ne kadar sürede sahaya geleceği sözleşmede yazılı olur; böylece mevsimsel dalgalanma, sürpriz değil planlanmış bir mekanizma hâline gelir.",
+            },
+            {
+                soru: "İMES dışında, site cephemiz için de teklif istedik; neden makine sınıfı önerisi farklı bir mantıkla geldi?",
+                cevap:
+                    "Çünkü iki iş farklı kriterlere göre değerlendirilir. İMES'teki bir atölye işinde belirleyici olan genelde erişim ölçüsüdür — makinenin kapıdan, avludan geçip geçemediği. Site cephe işinde ise belirleyici olan bina yüksekliğidir — makinenin cephenin en yüksek noktasına erişip erişemediği ve bu erişimin işin ne kadarını kapsadığı. İki kriter farklı olduğu için önerilen sınıf da farklı mantıkla seçilir; bu bir tutarsızlık değil, iki farklı iş tipinin doğal sonucudur. Her iki teklifte de sınıf seçiminin gerekçesini ayrı ayrı görebilirsiniz.",
+            },
+            {
+                soru: "Daha küçük ve ucuz bir makineyle işi idare etmeye çalışsak, gerçekten daha pahalıya mı gelir?",
+                cevap:
+                    "Çoğu zaman evet, ama nedenini bilerek karar vermenizi tercih ederiz. Yetersiz makineyle başlanan iş iki şekilde pahalılaşır: ya iş yavaşlar ve gün sayısı artar (fazladan her gün bir kira günüdür), ya da makine değiştirilir ve bu ikinci sevkiyat yeni bir nakliye bedeli demektir. Küçük makinenin gün fiyatındaki tasarruf, bu iki risklerden biri gerçekleştiğinde genelde silinir. Yine de bazı işlerde küçük makine gerçekten yeterlidir ve bu durumda önerimiz de o yöndedir — amacımız her zaman büyük makine satmak değil, işin gerçek gereksinimine göre doğru sınıfı önermektir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Ümraniye'nin İMES Sanayi Sitesi'ni barındırması ve ilçenin yüksek yoğunluklu site dokusu kamuya açık bilgidir; makine sınıfı seçim mantığı ve keşif yöntemi firma pratiğidir, TL tutarı verilmemiştir.",
+    },
+
+    "bolge:kagithane": {
+        h1: "Kağıthane'de Platform Kiralamada Süre-Bütçe Dengesi",
+        giris:
+            "Kağıthane, son yıllarda hızla dönüşen bir ilçedir: eski sanayi ve depo parsellerinin yerini yeni ofis kuleleri, plaza kompleksleri ve karma kullanımlı yapılar alıyor. Bu dönüşüm, kiralama pazarına kendine özgü bir müşteri profili getiriyor — henüz teslim alınmış ama iç mekân işleri süren yeni bir plazanın proje yöneticisi, cephesini yenileyen eski bir ofis binasının yönetimi, dönüşüm sürecindeki bir parselin yüklenicisi. Bu profilin ortak sorusu fiyattan çok zamandır: iş programı ne kadar sıkı, bütçe bu programa nasıl oturtulmalı, süre uzarsa bütçe ne kadar büyür. Kağıthane'deki bir kiralama kararında süre ile bütçe birbirinden ayrı düşünülemez — bu sayfa, dönüşen ofis-plaza aksındaki işlerde süre tanımının bütçeyi nasıl şekillendirdiğini, rakam vermeden ama mekanizmayı tam açarak anlatır.",
+        maddeler: [
+            {
+                baslik: "Yeni yapı teslim sürecinin kendine özgü zaman baskısı",
+                metin:
+                    "Yeni tamamlanan bir plaza veya ofis binasında iç mekân ve cephe işleri, çoğu zaman teslim takvimine sıkı sıkıya bağlıdır — kiracı taşınma tarihi, açılış etkinliği veya sözleşmesel teslim tarihi gibi ertelenemez noktalar vardır. Bu sıkı takvim, kiralama kararını da etkiler: işin gecikmesi ihtimaline karşı bütçede bir tampon bırakılmalı mı, yoksa iş programı zaten yeterince sıkı mı kurulmuş. Şeffaf teklif bu soruyu görmezden gelmez — iş programınızdaki kritik tarihleri bilirsek, makinenin hangi gün geleceğini ve gecikme ihtimalinde nasıl bir esneme payı olduğunu baştan konuşuruz.",
+            },
+            {
+                baslik: "Süre uzadıkça bütçenin hangi kalemi büyür",
+                metin:
+                    "Bir cephe veya iç mekân işi plandan uzun sürdüğünde, bütçenin tamamı değil belirli kalemleri büyür: makinenin sahada kaldığı her ek gün kira olarak eklenirken, nakliye ve kurulum bedeli sabit kalır — bu yüzden süre uzaması, kısa işlere göre uzun işlerde bütçeye orantılı olarak daha az yeni yük bindirir. Bu, Kağıthane'deki proje müşterisi için pratik bir sonuç doğurur: süre tahmininde belirsizlik varsa, kısa bir kiralama yerine biraz daha uzun bir blok tarifesiyle başlamak, olası uzamayı günlük tarifeden daha ucuza karşılar.",
+            },
+            {
+                baslik: "Plaza ve ofis yapılarında hazırlık süresinin bütçeye girişi",
+                metin:
+                    "Aktif kullanımdaki bir ofis binasında veya yeni teslim edilmiş bir plazada çalışmak, boş bir sanayi parselinden farklı bir hazırlık gerektirir: bina yönetiminden çalışma izni, asansör veya ortak alan kullanımının planlanması, mesai saatleri dışına kayan çalışma pencereleri. Bu hazırlıkların bir zaman maliyeti vardır ve bu maliyet iş programına önceden eklenmezse, iş günü sahada beklemeyle uzar — beklerken duran makine de gün olarak sayılır. Şeffaf teklif bu hazırlık süresini ayrı bir madde olarak yazar ve ilk işte bu payın daha yüksek, tekrar işlerinde ise düşük olacağını belirtir.",
+            },
+            {
+                baslik: "Dönüşüm sürecindeki parsellerde bütçenin fazlara bölünmesi",
+                metin:
+                    "Dönüşümü süren bir parselde iş genelde tek seferde değil fazlar hâlinde ilerler — önce kaba yapı çevresi, sonra cephe kapama, sonra iç mekân detayları. Her fazın kendi makine ihtiyacı ve süresi farklıdır ve bütçenin tek bir toplam yerine faz bazında kurulması, süre kaymalarının etkisini sınırlı tutar: bir fazın gecikmesi yalnızca o fazın bütçesini etkiler, tüm projeyi değil. Fazlar arası geçişte makinenin sahada beklemesi yerine çıkıp bir sonraki faz başladığında geri gelmesi, boşta bekleyen günlerin bütçeye eklenmesini önler.",
+            },
+            {
+                baslik: "Süre tahmininin isabeti, bütçe isabetinin ön koşuludur",
+                metin:
+                    "Kağıthane'deki dönüşüm aksında en sık karşılaşılan bütçe sapması, kötü niyetli bir fiyatlamadan değil iyimser bir süre tahmininden kaynaklanır: iş üç gün öngörülüp beş günde biter ve aradaki iki gün, ilk teklifte olmayan bir ek fatura olarak görünür. Bu riski azaltmanın yolu, süre tahminini işin gerçek kapsamına göre (kaç metrekare cephe, kaç konum değişikliği, günde kaç saat çalışılacağı) kurmak ve tahminin gerekçesini teklifte görmektir. Gerekçesiz verilen bir gün sayısı, iyimser bir tahmin olma ihtimali taşır — gerekçeli tahmin ise sapma payını önceden görünür kılar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Süre-bütçe dengesinin kategorik özeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, Kağıthane'deki dönüşen ofis-plaza aksı işlerinde süre belirsizliğinin bütçeye etkisini rakamsız, kategorik olarak özetler. Kendi projenizin hangi sütuna yakın olduğunu görmek, bütçe tamponunun ne kadar gerekli olduğunu önceden kestirmenizi sağlar.",
+                ],
+                tablo: {
+                    basliklar: ["Proje özelliği", "Bütçe riski düşükken", "Bütçe riski yüksekken"],
+                    satirlar: [
+                        ["Süre tahmini", "Metrekare ve konum sayısına dayalı", "Genel izlenimle verilmiş"],
+                        ["İş programı", "Gerçekçi tampon içeren", "Sıkı, tampon içermeyen"],
+                        ["Bina erişimi", "Bilinen, önceden test edilmiş", "İlk kez çalışılan, izinsiz"],
+                        ["Faz yapısı", "Ayrı bütçeli fazlara bölünmüş", "Tek toplam, tek faz"],
+                        ["Hazırlık süreci", "Bina yönetimiyle önceden netleşmiş", "Sahada anlık çözülecek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tampon bütçenin doğru kurgusu",
+                paragraflar: [
+                    "Süre belirsizliği taşıyan bir proje için 'ne olur ne olmaz' diye en yüksek olası günü baştan satın almak, çoğu zaman gereksiz bir maliyettir; ama hiç tampon düşünmemek de sürpriz faturaya açık kapı bırakır. Doğru kurgu, aradaki bir noktadır: gerçekçi süre tahmini üzerine, belirli koşullarda (örneğin bina yönetiminden izin gecikmesi, hava koşulu) tetiklenecek bir uzatma birim fiyatı baştan sözleşmeye yazılır. Böylece proje yöneticisi, olası uzamanın maliyetini tahmin edebilir ve bütçe onayını bu tahminle alır — iş sırasında pazarlık etmek zorunda kalmaz.",
+                    "Bu kurgunun ikinci faydası, uzatmanın ilk günden farklı fiyatlanmaması güvencesidir: sözleşmede birim fiyat baştan sabitlendiği için, iş uzadığında tedarikçi durumdan avantaj sağlayan bir zam yapamaz — uzatma, ilk teklifin doğal devamı olarak işler.",
+                ],
+            },
+            {
+                baslik: "Bina yönetimiyle koordinasyonun bütçeye dolaylı katkısı",
+                paragraflar: [
+                    "Aktif kullanımdaki bir plaza veya ofis binasında çalışırken bina yönetimiyle erken koordinasyon, bütçeyi doğrudan değil dolaylı yoldan korur: çalışma saatleri, asansör kullanımı ve ortak alan erişimi önceden netleşirse, iş gününde sahada 'izin bekleme' kaynaklı boşluklar oluşmaz ve bu boşluklar makinenin boşta duran günü olarak faturaya yansımaz. Bizim yaklaşımımız, proje başlamadan önce bina yönetimiyle kısa bir koordinasyon görüşmesi önermektir — bu görüşme bir formalite değil, iş gününün planlandığı gibi geçmesinin en ucuz güvencesidir.",
+                    "Koordinasyonun eksik kaldığı projelerde gördüğümüz örüntü şudur: ilk gün beklenenden geç başlar, ekip bu kaybı telafi etmeye çalışır ve iş yine de plandan uzar. Erken koordinasyon, bu örüntüyü baştan kırar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni plazamızın açılışına üç hafta var, cephe işini bu sürede bitirmemiz şart; bütçeyi buna göre nasıl kurmalıyız?",
+                cevap:
+                    "Önce işin gerçek kapsamını (kaç metrekare, kaç konum değişikliği gerektiği) netleştirip buna göre bir süre tahmini çıkarırız; bu tahmin üç haftanın altında kalıyorsa aradaki fark sizin güvence payınızdır. Eğer tahmin üç haftaya çok yakın çıkıyorsa, iki seçenek sunarız: iş programını hızlandıracak ek kaynak (paralel çalışan ikinci bir makine gibi) veya açılış tarihine göre önceliklendirilmiş bir kapsam (görünür cepheler önce, arka cepheler sonra). Her iki seçeneğin de bütçeye etkisini ayrı ayrı gösteririz — açılış tarihiniz sabit olduğu için burada esnek olması gereken taraf kapsam veya kaynaktır, tarih değil.",
+            },
+            {
+                soru: "İş programımız üç gün öngörüyor ama geçen projede benzer iş beş gün sürmüştü; bu farkı nasıl yönetiriz?",
+                cevap:
+                    "Geçmiş projenizin verisi tam da aradığımız şeydir — genel bir 'iyimser mi kötümser mi' tartışması yerine, o beş günün nereye gittiğini birlikte inceleriz: hangi gün beklenmedik bir gecikme oldu, bina erişimi mi zaman aldı, hava mı engel oldu, yoksa kapsam mı baştan eksik tahmin edilmişti. Bu inceleme, yeni projenin üç günlük tahmininin gerçekçi olup olmadığını gösterir. Eğer geçmişteki gecikme tekrarlanabilir bir nedene (örneğin bina izin süreci) bağlıysa, yeni sözleşmeye bu nedene özel bir tampon madde ekleriz; tekrarlanmayacak bir nedense (örneğin o günkü özel bir hava olayı), üç günlük tahmini olduğu gibi bırakabiliriz.",
+            },
+            {
+                soru: "Proje fazlara bölünecek; her faz için ayrı mı teklif almalıyız, yoksa tek bir toplam teklif mi istemeliyiz?",
+                cevap:
+                    "Faz bazlı teklif önerimiz — hem sizin hem bizim için daha sağlıklı bir kurgudur. Tek toplam teklifte bir fazın gecikmesi tüm bütçe planlamasını belirsizleştirirken, faz bazlı yaklaşımda her fazın kendi süre tahmini ve bütçesi ayrıdır; bir fazın kayması yalnızca o fazın takvimini etkiler, sonraki fazların bütçesini otomatik olarak bozmaz. Ayrıca faz bazlı kurguda makine, bir fazın bitişiyle sahadan çıkıp bir sonraki faz başladığında geri gelir — aradaki boşluk günlerinde kira işlemez. Tek dezavantajı biraz daha fazla koordinasyon gerektirmesidir, ama bütçe öngörülebilirliği açısından bu emek karşılığını fazlasıyla verir.",
+            },
+            {
+                soru: "Bina yönetimi çalışma saatlerini mesai dışına sıkıştırdı; bu bütçeyi nasıl etkiler?",
+                cevap:
+                    "Mesai dışı çalışma penceresi, operatör ve lojistik tarafında bir ek maliyet üretir ama bu ek, oransız bir zam olarak değil hangi kaleme ne eklendiği görünecek biçimde yazılmalıdır — operatör mesai farkı ayrı, varsa gece teslimat farkı ayrı satırda durur. Bunun yanında mesai dışı çalışmanın bir de olumlu etkisi olabilir: bina boş olduğu için hazırlık ve erişim süreci hızlanabilir, bu da iş gününü kısaltabilir. Teklifinizde bu artı ve eksinin ikisi de ayrı satırlarda görünmelidir; yalnızca 'gece zammı' diye tek bir kalem görürseniz içini açtırmanız hakkınızdır.",
+            },
+            {
+                soru: "Süre tahmininde belirsizlik var; bütçeyi en yüksek olası günden mi, en düşük olası günden mi kurmalıyız?",
+                cevap:
+                    "İkisi de yanıltıcıdır — en yüksek gün bütçenizi gereksiz şişirir, en düşük gün ise ilk aşımda kararsız kalmanıza neden olur. Önerimiz üçüncü bir yol: gerçekçi orta tahmini bütçenin ana gövdesi olarak alın, olası uzama için ise sözleşmeye baştan yazılmış bir uzatma birim fiyatı ekleyin. Bu kurguda bütçe onayınızı gerçekçi bir rakamla alırsınız ve uzama gerçekleşirse maliyeti önceden bildiğiniz bir birim fiyattan hesaplarsınız — iş sırasında yeni bir pazarlığa girmezsiniz.",
+            },
+            {
+                soru: "Dönüşüm sürecindeki parselimizde bir sonraki fazın tarihi henüz kesinleşmedi; makineyi ilk faz bitince tutmalı mıyız, çıkarmalı mıyız?",
+                cevap:
+                    "Bu kararı bekleme süresinin tahmini uzunluğuna göre birlikte hesaplarız: kısa ve belirsiz bir aradaysa (birkaç gün-bir hafta), makineyi sahada indirimli bir bekleme tarifesiyle tutmak, çıkarıp yeniden getirmenin iki nakliyesinden genelde ucuzdur; uzun ve büyük olasılıkla aylara yayılacak bir aradaysa, makineyi çıkarıp bir sonraki faz netleştiğinde yeniden planlamak daha ekonomik olur. Sınırın hangi tarafında olduğunuzu, bir sonraki fazın en olası başlama aralığını paylaşarak netleştirebiliriz — kesin tarih olmasa bile bir aralık, doğru kararı vermemiz için yeterlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Kağıthane'nin sanayi-depo dokusundan ofis-plaza aksına dönüşen yapısı kamuya açık bilgidir; süre-bütçe kurgusu ve faz planlaması firma pratiğidir, TL tutarı verilmemiştir.",
+    },
 };

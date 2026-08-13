@@ -1005,4 +1005,393 @@ export const PLATFORMISTANBUL_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İstanbul'un iki yakalı coğrafyası, köprü ağır vasıta kısıtları ve bölgesel sanayi-lojistik dağılımı kamuya açık bilgidir; hub yerleşimi, park kompozisyonu, ağ sözleşmesi ve acil protokolü firma pratiğidir.",
     },
+
+    "bolge:esenyurt": {
+        h1: "Esenyurt'a İkitelli Hub'ından Sevkiyat Penceresi ve Rota Planı",
+        giris:
+            "Esenyurt'a makine göndermek, üç hub'lı modelimizde tek bir soruyla başlar: hangi güzergâh, hangi saatte, hangi trafik yükünü taşıyor? İlçe, Avrupa yakası hub'ımızın (İkitelli) doğrudan hizmet alanında yer alır ve aradaki mesafe kent içi standartlara göre kısa sayılsa da, güzergâhın kendine özgü bir davranışı vardır — TEM bağlantılı ana arterler gün içinde iki ayrı yoğunluk dalgası üretir ve bu dalgalar arasındaki boşluk, sevkiyat ekibimizin planladığı asıl pencere olur. Diğer iki hub'ımız — Tuzla ve Gebze — bu ilçeye normal koşulda hizmet vermez; onlardan çıkan bir sevkiyat, boğaz veya uzun kent içi mesafe anlamına gelir ve bu yalnızca İkitelli parkının tükendiği istisnai anlarda devreye girer. Bu sayfa, Esenyurt'a giden bir makinenin hangi hub'dan çıktığını, o hub'dan çıkışın neden zaman kazandırdığını ve sevkiyat penceresinin nasıl kurulduğunu — fiyat değil, saat ve rota üzerinden — anlatır.",
+        maddeler: [
+            {
+                baslik: "İkitelli'den Esenyurt'a güzergâh mantığı",
+                metin:
+                    "İki bölge arasındaki bağlantı, kent içi standartlara göre kısa bir mesafedir ama 'kısa' ile 'hızlı' aynı şey değildir — güzergâh üzerindeki kavşak yoğunluğu, günün belirli saatlerinde bu kısa mesafeyi uzun bir bekleyişe çevirebilir. Sevkiyat ekibimiz bu güzergâhı günlük olarak izler ve iki alternatif rota arasında o günkü duruma göre seçim yapar; tek bir sabit rotaya bağlı kalmak, trafik anlık değiştiğinde teslim saatini riske atar. Rota seçimi, makine yola çıkmadan önce son kez teyit edilir.",
+            },
+            {
+                baslik: "Sevkiyat penceresinin iki ucu: sabah ve öğleden sonra",
+                metin:
+                    "Gün içinde iki dilim, İkitelli'den Esenyurt'a çıkışta belirgin biçimde avantajlıdır: sabah erken saatler ve öğleden sonranın ilk yarısı. Bu iki dilimde ana güzergâh henüz yoğunlaşmamış veya öğle yoğunluğunu atlatmış olur ve makine, kavşaklarda beklemeden sahaya ulaşır. Akşam saatlerine denk gelen teslimatlar ise plan dışına itilir; zorunlu kalınmadıkça bu dilime teslimat yazılmaz. Talep sabah bildirildiğinde, aynı günün ilk penceresine yerleşme ihtimali en yüksektir.",
+            },
+            {
+                baslik: "Diğer iki hub'dan Esenyurt'a çıkış: istisna kuralı",
+                metin:
+                    "Tuzla ve Gebze parkları Esenyurt'a normalde makine göndermez; bu iki hub'ın hinterlandı coğrafi olarak başka yöndedir ve buradan çıkan bir araç, boğaz geçişi veya kent içi uzun mesafe kat eder. Bu kural yalnızca İkitelli parkının o an dolu olduğu ve talebin ertelenemeyecek kadar acil olduğu durumlarda esner — o zaman bile önce parktaki dengeleme imkânı (başka bir işten erken dönen makine) aranır, sonra diğer yakadan çekme değerlendirilir. Bu sıralama, gereksiz köprü trafiğinin önüne geçer ve maliyet katmadan çözüm üretir.",
+            },
+            {
+                baslik: "Aynı güne düşen birden fazla Esenyurt talebi",
+                metin:
+                    "İkitelli hub'ının Esenyurt'a yakınlığı, aynı güne denk gelen birden fazla talebi tek sevkiyat turunda birleştirmeyi mümkün kılar: ilçenin farklı mahallelerindeki işler, coğrafi olarak yakın oldukları için aynı aracın güzergâhına art arda dizilebilir. Bu birleştirme yalnızca ekonomik değil, hızlıdır da — ikinci ve üçüncü teslimat, ilk teslimatın hemen ardından, ayrı bir sevkiyat turu beklemeden gerçekleşir. Talep sırasında 'bu hafta içinde uygun bir gün' esnekliği bildirilirse, bu kümelenmeden en çok yararlanan talep sizinki olur.",
+            },
+            {
+                baslik: "İade sevkiyatında hub'a dönüş rotası",
+                metin:
+                    "Sevkiyat planlaması yalnız gidişi değil dönüşü de kapsar: iş biten makine İkitelli parkına ne zaman ve hangi rotayla döneceğine göre, o park diğer Esenyurt taleplerine ne zaman müsait olacağını bilir. İade saati net bildirilmeyen bir iş, parkın kapasite hesabında belirsizlik yaratır ve bu belirsizlik zincirleme olarak sonraki taleplerin teslim saatini etkileyebilir. Bu yüzden her sevkiyat teklifinde iade penceresi de gidiş penceresi kadar açık yazılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Esenyurt sevkiyatında üç hub karşılaştırması",
+                paragraflar: [
+                    "Esenyurt'a hizmet açısından üç hub'ın konumu ve rotası aşağıda karşılaştırılmıştır. Normal koşulda yalnız ilk satır işler; diğer ikisi istisnai durum içindir.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Esenyurt'a rota karakteri", "Kullanım durumu", "Sevkiyat penceresi"],
+                    satirlar: [
+                        ["İkitelli (Avrupa yakası)", "Doğrudan kara bağlantısı, kısa aks", "Standart, birincil kaynak", "Sabah erken + öğleden sonra ilk yarısı"],
+                        ["Tuzla (Anadolu yakası)", "Köprü/tünel geçişi gerektirir", "Yalnız İkitelli dolu olduğunda", "Köprü trafiği dışı saatler"],
+                        ["Gebze (doğu kuşağı)", "Kent içi uzun mesafe", "Ancak son çare, önceden planlı", "Gece / erken sabah geçişi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Trafik verisiyle çalışan bir sevkiyat ekibi",
+                paragraflar: [
+                    "Esenyurt aksındaki günlük trafik davranışı sabit değildir; okul dönemi, resmi tatil öncesi ve hafta içi-hafta sonu farkı, iyi bilinen dalgayı bile kaydırabilir. Sevkiyat ekibimiz bu yüzden rota kararını bir gün önceden değil, sevkiyat sabahı son bir kez teyit ederek verir. Bu son dakika teyidi, teklifte yazılan pencerenin gerçekten tutulmasının arkasındaki mekanizmadır — sabit bir kural değil, güncellenen bir gözlemdir.",
+                    "Aynı disiplin dönüş yolculuğu için de geçerlidir: makinenin işi bittiği saatte trafik durumu yeniden değerlendirilir ve dönüş rotası buna göre seçilir. Gidiş ve dönüş aynı güzergâhı kullanmak zorunda değildir.",
+                ],
+            },
+            {
+                baslik: "Talebin erken bildirilmesinin sevkiyat üzerindeki etkisi",
+                paragraflar: [
+                    "Bir Esenyurt talebinin sevkiyat gününden önce bildirilmesi, tek başına makinenin varlığından daha çok şeyi etkiler: erken bildirim, o günün İkitelli çıkışlı turuna hangi sırada gireceğinizi belirler ve size en uygun pencereyi seçme şansı verir. Aynı gün bildirilen acil talepler de karşılanır ama sıralamada geriye düşer ve pencere seçeneği daralır — bu, kapasite yetersizliğinden değil, önceden planlanmış turların zaten yola çıkmış olmasından kaynaklanır.",
+                    "Sonuç olarak, sevkiyat penceresi konusunda en fazla kontrolü, en erken bildirilen talep elinde tutar; bu basit kural, ilçedeki tüm mahalleler için aynı şekilde işler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Esenyurt'taki işimize hangi hub'dan makine geliyor, biz nasıl bilebiliriz?",
+                cevap:
+                    "Teklif aşamasında bu bilgi zaten yazılıdır: standart bir Esenyurt talebi İkitelli hub'ından karşılanır ve teklifte hangi parktan çıkacağı, tahmini sevkiyat penceresi ve güzergâh notu birlikte belirtilir. İstisnai bir durumda (İkitelli parkının dolu olması gibi) farklı bir hub devreye girerse, bu durum ve varsa ek süre etkisi size ayrıca söylenir — sessizce değiştirilmez. Sorarsanız, sevkiyatı hangi aracın hangi rotadan yaptığı bilgisi de paylaşılır.",
+            },
+            {
+                soru: "Sabah 8'de teslim istiyoruz, bu mümkün mü?",
+                cevap:
+                    "Genelde evet ve aslında önerdiğimiz saat dilimlerinden biri budur — sabah erken pencere, güzergâhın henüz yoğunlaşmadığı ve İkitelli parkının günün ilk turunu çıkardığı zamandır. Kesin saat için tek koşul, önceki günden bildirim yapılmasıdır; sabah turu bir gece önceden planlanır ve son dakika talepler bu turun dışında kalabilir. Aynı gün 8'den önce bildirilen taleplerde ise gerçekçi bir saat, o sabahki park durumuna göre verilir.",
+            },
+            {
+                soru: "İşimiz öğleden sonra 15:00'te başlıyor; bu saat trafiğe takılır mı?",
+                cevap:
+                    "15:00 civarı genelde öğleden sonranın ilk yarısına denk düşer ve bu dilim, İkitelli-Esenyurt aksında akşam yoğunluğundan önceki görece rahat kısımdır — ama kesin cevap sevkiyat gününün trafik gözlemine bağlıdır. Teklif aşamasında bu saat için gerçekçi bir teslim penceresi verilir; eğer o gün beklenmedik bir yoğunluk varsa (kaza, yol çalışması) sevkiyat ekibi sizi önceden bilgilendirir ve alternatif saat önerir. Sürpriz gecikme yerine önceden haber verilen gecikme tercih edilir.",
+            },
+            {
+                soru: "Mahallemizde aynı hafta iki ayrı işimiz var; ikisini birlikte mi planlamalıyız?",
+                cevap:
+                    "Kesinlikle önerilir — İkitelli hub'ının Esenyurt'a yakınlığı, aynı bölgedeki birden fazla talebin tek sevkiyat turunda birleşmesine izin verir. İki işi aynı haftaya, mümkünse aynı güne bildirirseniz, sevkiyat ekibi bunları art arda güzergâha diziyor ve ikinci teslimat, ilk teslimatın hemen ardından geliyor. Bu hem sizin için hem bizim için daha az sevkiyat turu, daha kısa bekleme demektir. Talep bildirirken ikinci işi de belirtmeniz yeterli.",
+            },
+            {
+                soru: "Makine işimiz bitince ne zaman geri alınıyor, biz mi haber vermeliyiz?",
+                cevap:
+                    "İkisi birlikte işler: iş süresi teklifte baştan belirlenir ve tahmini iade saati plana yazılır, ama işin erken bitmesi veya uzaması durumunda haber vermeniz süreci hızlandırır. Erken biten bir iş bildirildiğinde, makine İkitelli parkına daha erken döner ve o parktaki başka bir Esenyurt talebine daha hızlı yönlenebilir — yani erken haber, yalnızca sizin değil bölgedeki diğer taleplerin de lehinedir. İade saati hiç bildirilmezse, plan baştaki tahmine göre yürütülür.",
+            },
+            {
+                soru: "Acil bir arızamız var, hemen makine gelebilir mi?",
+                cevap:
+                    "İkitelli hub'ının Esenyurt'a yakınlığı tam olarak bu tür durumlar için avantaj sağlar: bölge parkında hazır bekleyen bir makine varsa, kısa mesafe sayesinde diğer iki hub'a göre çok daha hızlı sahaya ulaşır. Talep alındığında önce İkitelli park durumu kontrol edilir ve size gerçekçi bir varış saati söylenir; 'hemen yola çıktı' değil, 'şu saatte orada olur' cevabı verilir. Park o an müsait değilse, dengeleme veya diğer hub seçenekleri değerlendirilir ve size dürüstçe süre farkı bildirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Esenyurt'un İstanbul'un Avrupa yakası ilçelerinden biri olduğu ve TEM bağlantılı ana arterlerin gün içi yoğunluk değişimi kamuya açık bilgidir; hub tahsisi, sevkiyat penceresi ve tur kümeleme firma pratiğidir.",
+    },
+
+    "bolge:dudullu-osb": {
+        h1: "Dudullu OSB'ye Tuzla Hub'ından Sevkiyat Rotası",
+        giris:
+            "Dudullu OSB'ye giden bir makinenin hikâyesi, üç hub'lı modelimizde net bir rota sorusuyla başlar: Anadolu yakası hub'ımız olan Tuzla'dan çıkan bir sevkiyat, hangi güzergâhı kullanır ve bu güzergâh günün hangi saatinde en hızlıdır? Dudullu, Anadolu yakasının iç kesiminde, Tuzla'daki sanayi-tersane hattından belirli bir mesafede yer alır ve aradaki bağlantı, Tuzla'nın kıyı aksından OSB'nin iç sanayi dokusuna geçişi içerir — bu geçiş, kıyı yoluyla iç yol ağının kesiştiği noktalarda kendine özgü bir trafik davranışı taşır. Diğer iki hub'ımız — İkitelli ve Gebze — Dudullu'ya normal koşulda hizmet vermez: İkitelli'den çıkan bir araç boğazı geçmek zorunda kalır, Gebze'den çıkan araç ise kent içi uzun bir mesafe kat eder. Bu sayfa, Tuzla'dan Dudullu OSB'ye giden tek bir sevkiyatın rotasının nasıl planlandığını, hangi saatlerin avantajlı olduğunu ve teslim sözünün nasıl korunduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Tuzla'dan Dudullu'ya güzergâh seçimi",
+                metin:
+                    "Tuzla hub'ından çıkan bir sevkiyat için Dudullu OSB'ye iki alternatif güzergâh değerlendirilir: kıyı aksını takip edip iç bağlantı yollarından OSB'ye giren rota ve ana kara yolu üzerinden daha kuzeyden dolanan rota. İkisi arasındaki seçim, o günkü trafik yoğunluğuna göre sevkiyat sabahı yapılır — sabit bir 'her zaman bu rota' kuralı yoktur, çünkü iki rotanın da darboğaz noktaları gün içinde yer değiştirebilir. Rota kararı, makine Tuzla parkından çıkmadan hemen önce netleşir.",
+            },
+            {
+                baslik: "OSB'nin vardiya girişleriyle çakışmayan teslim saati",
+                metin:
+                    "Dudullu OSB'nin iç yolları, vardiya giriş-çıkış saatlerinde kendi trafiğini üretir; bu saatlere denk gelen bir teslimat, OSB'nin ana kapısından çıkışta beklemeye girer ve teslim süresi güzergâhtan değil bu son yüz metreden uzar. Sevkiyat planımız bu yüzden vardiya geçiş saatlerini teslim penceresinin dışında tutar — makine ya vardiya başlamadan önce OSB içine girer ya da geçiş yoğunluğu bittikten sonra. Bu ince ayar, Tuzla'dan çıkışın hızlı olmasının OSB kapısında boşa gitmesini önler.",
+            },
+            {
+                baslik: "Diğer hub'lardan Dudullu'ya sevkiyat: istisna ve maliyeti",
+                metin:
+                    "İkitelli veya Gebze parkından Dudullu'ya bir makine gönderilmesi, yalnızca Tuzla parkının o an tükendiği durumlarda gündeme gelir. İkitelli'den çıkan sevkiyat köprü veya tünel geçişini, Gebze'den çıkan sevkiyat ise otoyol üzerinden uzun bir kent içi mesafeyi gerektirir; her iki durumda da süre ve rota farkı teklifte açıkça yazılır ve bu istisna sessizce standart fiyata gizlenmez. Öncelik her zaman Tuzla parkında dengeleme imkânı aramaktır — başka bir işten erken dönen makinenin Dudullu'ya yönlendirilmesi, diğer yakadan çekmekten daha hızlı ve daha ucuzdur.",
+            },
+            {
+                baslik: "OSB içi birden fazla tesise tek turda sevkiyat",
+                metin:
+                    "Dudullu OSB'nin planlı iç yol ağı, aynı güne denk gelen birden fazla teslimatın tek turda birleşmesini kolaylaştırır: OSB kapısından bir kez giren araç, farklı parsellerdeki birkaç tesise sırayla uğrayabilir. Bu, kapı önü bekleme ve giriş prosedürünün yalnız bir kez yaşanması anlamına gelir — her tesis için ayrı bir OSB girişi yapılmaz. Aynı hafta içinde OSB'de birden fazla tesisten talep geldiğinde, sevkiyat ekibi bunları otomatik olarak aynı tura yerleştirmeye çalışır.",
+            },
+            {
+                baslik: "Rota planında geri dönüş ve park müsaitliği",
+                metin:
+                    "Tuzla parkının Dudullu'ya bir sonraki sevkiyatı ne zaman yapabileceği, önceki makinenin ne zaman ve hangi rotayla geri döndüğüne bağlıdır. Bu yüzden her sevkiyat planı, gidiş rotası kadar net bir dönüş rotası da içerir; iade saati belirsiz bırakılan bir iş, Tuzla parkının OSB'ye yönelik sonraki kapasitesini de belirsizleştirir. Rota planlaması, tek yönlü değil çift yönlü bir hesaptır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dudullu OSB sevkiyatında üç hub karşılaştırması",
+                paragraflar: [
+                    "Dudullu OSB'ye hizmet açısından üç hub'ın rota karakteri aşağıda karşılaştırılmıştır. Standart sevkiyat yalnız ilk satırdan yürür.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Dudullu'ya rota karakteri", "Kullanım durumu", "Kritik nokta"],
+                    satirlar: [
+                        ["Tuzla (Anadolu yakası)", "Kıyı aksından iç bağlantıya geçiş", "Standart, birincil kaynak", "OSB vardiya giriş-çıkış saatleri"],
+                        ["İkitelli (Avrupa yakası)", "Köprü/tünel geçişi gerektirir", "Yalnız Tuzla dolu olduğunda", "Köprü trafiği + OSB girişi"],
+                        ["Gebze (doğu kuşağı)", "Otoyol üzerinden uzun kent içi mesafe", "Ancak son çare, önceden planlı", "Otoyol yoğunluğu + OSB girişi"],
+                    ],
+                },
+            },
+            {
+                baslik: "OSB kapısı: rotanın görünmeyen son adımı",
+                paragraflar: [
+                    "Dudullu OSB'ye giden her sevkiyatın gerçek darboğazı çoğu zaman açık yolda değil, OSB'nin kendi giriş kapısındadır — ziyaretçi-araç kaydı, güvenlik kontrolü ve iç yönlendirme, güzergâhın en hızlı geçtiği kısmından sonra ek süre ekleyebilir. Sevkiyat ekibimiz bu son adımı ayrı bir aşama olarak planlar: OSB'ye giriş için gereken bilgiler (araç plakası, sürücü kimliği, varsa tesis onayı) sevkiyat başlamadan önce hazırlanır ki kapıda beklenen süre en aza insin.",
+                    "Bu hazırlık, ilk sevkiyattan sonra hızlanır — OSB'nin kendi kayıt formatı bir kez tanındığında, sonraki teslimatlar için aynı süreç daha az sürtünmeyle işler.",
+                ],
+            },
+            {
+                baslik: "Tuzla parkının Dudullu'ya ayrılan kapasitesi",
+                paragraflar: [
+                    "Tuzla hub'ı yalnız Dudullu'ya değil, tersane bölgesi ve çevresindeki ihtisas OSB'lerine de hizmet verir; bu yüzden Dudullu'ya yönelik sevkiyat, parkın genel kapasitesiyle birlikte planlanır. Talep yoğunluğunun arttığı dönemlerde (örneğin tersanede eş zamanlı büyük bir iş varken) Dudullu'ya ayrılan pay geçici olarak daralabilir; bu durumda sevkiyat ekibi gerçekçi bir teslim penceresi verir ve gecikme riskini önceden bildirir.",
+                    "Düzenli ve tekrar eden Dudullu taleplerinde, talep takviminin önceden paylaşılması, bu tür dönemsel daralmalara karşı en etkili önlemdir; park, bilinen talebi bilinmeyen talebe göre önceliklendirebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dudullu OSB'ye hangi hub'dan makine geliyor?",
+                cevap:
+                    "Standart olarak Tuzla hub'ından — Anadolu yakası parkımız, kıyı aksından OSB'nin iç bağlantı yollarına geçen bir rotayla sevkiyat yapar. Teklifte bu bilgi ve tahmini sevkiyat süresi birlikte yazılır. Tuzla parkının o an dolu olduğu istisnai durumlarda İkitelli veya Gebze devreye girebilir; bu durumda süre farkı ve gerekçesi size açıkça bildirilir, sessiz bir değişiklik yapılmaz.",
+            },
+            {
+                soru: "Vardiya değişim saatimizde teslimat alırsak sorun olur mu?",
+                cevap:
+                    "Bu saatlerde teslimat almanızı önermeyiz ve teklifimiz zaten bu saatleri dışarıda bırakır — vardiya giriş-çıkış saatlerinde OSB'nin ana kapısı kendi trafiğini üretir ve makineniz güzergâhta değil kapı önünde bekler. Sevkiyat penceresi, vardiya geçişinden önceki veya sonraki sakin dilime yerleştirilir. Vardiya saatlerinizi bildirirseniz, bu dilimler teklifte otomatik olarak dışlanır.",
+            },
+            {
+                soru: "OSB içinde iki ayrı parselimiz var, ikisine de aynı gün mü teslimat yapılır?",
+                cevap:
+                    "Genellikle evet ve bu bizim de tercih ettiğimiz senaryodur — OSB kapısından bir kez giren araç, iki parseli sırayla dolaşabilir ve giriş prosedürü tek seferde yaşanır. İki talebi aynı hafta, mümkünse aynı gün bildirirseniz, sevkiyat ekibi bunları tek tura yerleştirmeye çalışır. Parseller arası mesafe ve sıralama, OSB'nin iç yol haritasına göre planlanır.",
+            },
+            {
+                soru: "OSB'ye giriş için önceden bir kayıt yaptırmamız gerekiyor mu?",
+                cevap:
+                    "Tesisinizin kendi giriş prosedürüne bağlıdır ve bu bilgiyi keşif aşamasında sizden alırız. Araç plakası, sürücü kimlik bilgisi ve varsa tesis onay numarası gibi gerekli veriler sevkiyattan önce hazırlanır ki kapıda ek bekleme çıkmasın. İlk sevkiyattan sonra bu süreç bizim tarafımızda kayıtlı kalır ve sonraki teslimatlarda tekrar sıfırdan sorulmaz.",
+            },
+            {
+                soru: "Tersanede yoğun bir dönem varsa bizim sevkiyatımız gecikir mi?",
+                cevap:
+                    "Tuzla parkı birden fazla bölgeye hizmet verdiği için, tersanede eş zamanlı büyük bir iş yaşandığında Dudullu'ya ayrılan kapasite geçici olarak daralabilir. Böyle bir durumda size gerçekçi bir teslim penceresi verilir ve olası gecikme önceden söylenir — son ana kadar beklenmez. Düzenli talebiniz varsa, aylık ihtiyaç takviminizi önceden paylaşmanız, park planlamasında önceliklenmenizi kolaylaştırır.",
+            },
+            {
+                soru: "Acil bir arıza çıkarsa Tuzla'dan Dudullu'ya ne kadar sürede makine gelir?",
+                cevap:
+                    "Kesin bir rakam vermeyiz çünkü o anki park durumu ve OSB giriş yoğunluğu belirleyicidir, ama Tuzla'nın Anadolu yakası içindeki konumu, İkitelli veya Gebze'den gelecek bir alternatife göre yapısal olarak daha hızlıdır. Talebiniz alındığında önce Tuzla park durumu kontrol edilir ve size net bir varış saati söylenir; bu saat verilirken güzergâh ve OSB kapısı birlikte hesaba katılır, yalnızca yol süresi değil.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Dudullu OSB'nin Ümraniye'deki konumu ve Tuzla'nın Anadolu yakası sanayi-tersane hattındaki yeri kamuya açık bilgidir; rota seçimi, vardiya penceresi ve OSB giriş hazırlığı firma pratiğidir.",
+    },
+
+    "bolge:arnavutkoy": {
+        h1: "Arnavutköy'de Havalimanı Lojistik Aksına Hub Planlaması",
+        giris:
+            "Arnavutköy, İstanbul Havalimanı'nın bulunduğu bölgeye komşuluğuyla, kentin en hızlı değişen lojistik aksadlarından birinin parçası hâline geldi: havalimanı çevresinde büyüyen kargo-lojistik yatırımları, yeni sanayi parselleri ve bu yatırımları besleyen inşaat-altyapı işleri, ilçeye kendine özgü bir ekipman talebi getiriyor. Üç hub'lı modelimizde bu bölgeye en yakın kaynak Avrupa yakası hub'ımız olan İkitelli'dir; aradaki mesafe, havalimanı çevresindeki gelişmekte olan yol bağlantıları üzerinden kat edilir ve bu bağlantıların olgunlaşma düzeyi, bölgenin diğer daha yerleşik ilçelerine göre sevkiyat planını farklı kılar. Bu sayfa, havalimanı lojistik aksının Arnavutköy tarafındaki ekipman ihtiyacını, hangi hub'ın buraya nasıl hizmet verdiğini ve bölgenin gelişmekte olan yapısının sevkiyat planına ne kattığını anlatır — burada anlatılan coğrafi yakınlık kamuya açık bir gerçektir, herhangi bir tesisin içinde konumlandığımız iddiası değildir.",
+        maddeler: [
+            {
+                baslik: "Havalimanı çevresinde büyüyen lojistik dokusu",
+                metin:
+                    "İstanbul Havalimanı'nın çekim gücü, çevresine kargo, depo ve dağıtım merkezi yatırımlarını topluyor ve bu yatırımların çoğu hâlâ inşaat veya genişleme aşamasında. Bu evre, klasik bir yerleşik sanayi bölgesinden farklı bir ekipman profili üretir: şantiye dönemi telehandler ve dizel arazi tipi platform talebi, henüz asfaltlanmamış saha yollarında çalışabilen ekipman ihtiyacı ve yeni tamamlanan tesislerin ilk donanım-montaj işleri. Arnavutköy tarafındaki talep, bu üç kategorinin karışımıdır ve zaman içinde yerleşik bir OSB dokusuna evrilecek gibi görünüyor.",
+            },
+            {
+                baslik: "Gelişmekte olan yol ağında sevkiyat planı",
+                metin:
+                    "Bölgenin yol bağlantıları hâlâ tamamlanma sürecinde ve bu durum, sabit bir güzergâh varsayımını riskli kılar — bir ay önce kullanılan rota, yeni bir bağlantı yolu açıldığında veya bir kesim çalışmaya kapandığında geçerliliğini yitirebilir. Sevkiyat ekibimiz bu yüzden Arnavutköy taleplerinde güzergâhı her seferinde güncel olarak doğrular ve sabit bir 'her zaman böyle gidilir' kuralına güvenmez. Bu, bölgenin olgunlaşmamış altyapısının doğal bir sonucudur ve zamanla yerleşik bölgelerdeki gibi öngörülebilir hâle gelecektir.",
+            },
+            {
+                baslik: "İkitelli hub'ından Arnavutköy'e mesafe gerçeği",
+                metin:
+                    "Avrupa yakası hub'ımız, ilçenin diğer bazı yerleşik bölgelerine göre Arnavutköy'e biraz daha uzak sayılabilir; bu mesafe farkı, sevkiyat teklifinde dürüstçe yansıtılır. Bununla birlikte, diğer iki hub'ımıza (Tuzla ve Gebze) kıyasla İkitelli hâlâ en yakın kaynaktır — Anadolu yakasından bir sevkiyat, boğaz geçişine ek olarak kentin kuzeybatı ucuna uzun bir mesafe daha kat etmek zorunda kalır. Bu yüzden Arnavutköy talepleri normal koşulda yalnızca İkitelli parkından karşılanır.",
+            },
+            {
+                baslik: "İnşaat dönemi ile tamamlanmış tesis dönemi arasındaki geçiş",
+                metin:
+                    "Bölgedeki bir tesisin inşaat aşamasından işletme aşamasına geçişi, ekipman ihtiyacını da değiştirir: kaba yapı döneminde ağırlıklı telehandler ve arazi tipi platform kullanılırken, tesis tamamlandıkça iç mekân bakım-onarım işleri için akülü sınıf devreye girer. Bu geçiş dönemini önceden bilen bir müşteri, sevkiyat planını da buna göre önceden konuşabilir — hangi ayda hangi ekipman sınıfına geçileceği, keşifte birlikte kabaca çizilir.",
+            },
+            {
+                baslik: "Bölgenin büyüme hızına uyum sağlayan park kararı",
+                metin:
+                    "Havalimanı çevresi lojistik yatırımlarının hızı, bölgedeki talebi de hızla artırabilir; bu ihtimale karşı İkitelli parkının Arnavutköy'e ayırdığı kapasite, sabit değil izlenen bir büyüklüktür. Talep arttıkça bölgeye ayrılan park payı gözden geçirilir; bu, bölgenin gelişimine ekipman tedarikinin geride kalmaması için gerekli bir esnekliktir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Arnavutköy'de proje evresi ve ekipman eşleşmesi",
+                paragraflar: [
+                    "Havalimanı lojistik aksındaki tipik proje evreleri ve bu evrelere uygun ekipman kategorileri aşağıdadır. Bölgenin gelişmekte olan yapısı nedeniyle evreler arası geçiş hızlı olabilir.",
+                ],
+                tablo: {
+                    basliklar: ["Evre", "Ana ekipman", "Saha koşulu", "Not"],
+                    satirlar: [
+                        ["Şantiye / kaba yapı", "Telehandler, arazi tipi platform", "Asfaltsız/düzensiz zemin", "Zemin keşfi önden yapılır"],
+                        ["Altyapı-donanım kurulumu", "Dizel eklemli, forklift", "Kısmen tamamlanmış saha", "Erişim değişken olabilir"],
+                        ["İlk işletme dönemi", "Akülü makaslı/eklemli", "Tamamlanmış iç mekân", "İz bırakmayan lastik"],
+                        ["Yerleşik bakım dönemi", "Akülü sınıf ağırlıklı", "Standart iç saha", "Yerleşik OSB dokusuna yakınsar"],
+                    ],
+                },
+            },
+            {
+                baslik: "Coğrafi yakınlık ile hizmet iddiası arasındaki fark",
+                paragraflar: [
+                    "İstanbul Havalimanı'na yakınlık, herkesçe doğrulanabilir bir coğrafi gerçektir ve bu sayfa bu gerçeği tarif eder — ama bu, havalimanı işletmesiyle bir bağlantımız veya havalimanı sahası içinde bir varlığımız olduğu anlamına gelmez. İkitelli hub'ımız, Arnavutköy dahil Avrupa yakasının kuzey kesimine hizmet veren bölgesel parkımızdır ve buradan çıkan sevkiyat, kamuya açık kara yolu ağını kullanır. Bu ayrımı net tutmak, hem doğru beklenti kurmak hem de teklifin gerçek kapsamını göstermek içindir.",
+                    "Sevkiyat planlaması bu gerçeğe göre kurulur: mesafe ve güzergâh üzerinden konuşuruz, iddia edilmemiş bir yakınlık üzerinden değil.",
+                ],
+            },
+            {
+                baslik: "Yeni gelişen bölgede keşfin ağırlığı artar",
+                paragraflar: [
+                    "Yerleşik bir sanayi bölgesinde keşif genelde kısa sürer çünkü saha koşulları bilinir ve tekrar eder; Arnavutköy'ün havalimanı aksı gibi hızlı değişen bir bölgede ise her keşif, o anki saha durumunu yeniden doğrulamak zorundadır — bir ay önceki fotoğraf güncelliğini yitirmiş olabilir. Bu yüzden bölgedeki talepler için keşif adımı atlanmaz veya kısaltılmaz; zemin durumu, geçici yol kapamaları ve erişim noktaları her seferinde teyit edilir.",
+                    "Bu ek özen, sevkiyat süresine küçük bir pay olarak yansır ama karşılığında sahaya yanlış ekipmanla gidip geri dönme riskini ortadan kaldırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hangi hub bize hizmet veriyor, sizin havalimanı içinde bir deponuz mu var?",
+                cevap:
+                    "Hayır — havalimanı sahası içinde veya işletmesiyle bağlantılı bir tesisimiz yok; size hizmet veren, Avrupa yakası bölgesel parkımız İkitelli hub'ıdır. Buradan çıkan sevkiyat, herkesin kullandığı kamuya açık kara yolu ağıyla bölgenize ulaşır. Havalimanına coğrafi yakınlığınız, sevkiyat mesafesini kısaltan bir avantajdır ama bu, tesis içi bir konumlanma anlamına gelmez; teklifte de bu ayrım net yazılır.",
+            },
+            {
+                soru: "Sahamız henüz yeni açılıyor, yollar tam bitmemiş; makine gelebilir mi?",
+                cevap:
+                    "Genellikle gelir ama önce bir doğrulama gerekir: keşifte mevcut erişim yolunun genişliği, zemin durumu ve varsa geçici kapamalar fotoğraflanır ve bu bilgiye göre uygun makine sınıfı seçilir. Asfaltsız veya düzensiz zeminde arazi tipi lastikli modeller tercih edilir. Yol durumu makine geçişine hiç uygun değilse, bu durum dürüstçe söylenir ve alternatif (daha küçük ekipman, kademeli erişim) birlikte değerlendirilir.",
+            },
+            {
+                soru: "Bölgemizdeki yollar sık değişiyor, her seferinde yeniden mi anlatmamız gerekiyor?",
+                cevap:
+                    "Anlatmanıza gerek kalmadan da güncel bilgiyi biz takip ederiz ama sizin güncel bir bilgi paylaşmanız süreci hızlandırır. Sevkiyat ekibimiz Arnavutköy taleplerinde güzergâhı her seferinde güncel olarak doğrular; bir önceki sevkiyattaki rota bilgisine körü körüne güvenilmez. Sahanıza yeni bir giriş noktası açıldıysa veya eski bir yol kapandıysa, bu bilgiyi talep sırasında iletmeniz, keşif adımını kısaltabilir.",
+            },
+            {
+                soru: "Şu an şantiyedeyiz ama birkaç ay sonra işletmeye geçeceğiz; ekipman ihtiyacımız nasıl değişir?",
+                cevap:
+                    "Kaba yapı döneminde ağırlıklı olarak telehandler ve arazi tipi platform kullanılırken, işletmeye geçtikten sonra ihtiyaç akülü makaslı ve eklemli sınıfa kayar — iç mekân bakım-onarım işleri bu sınıfla yürür. Bu geçişi önceden bilmemiz, park planımızda size ayıracağımız kapasiteyi doğru zamanlamamıza yardımcı olur; kaba tarihlerinizi paylaşırsanız, evreye göre kabaca bir ekipman takvimi çıkarabiliriz.",
+            },
+            {
+                soru: "Bölgede talep hızla artıyor, ileride kapasite bulamama riski var mı?",
+                cevap:
+                    "İkitelli parkının Arnavutköy'e ayırdığı kapasite sabit bir büyüklük değil, izlenen ve gerektiğinde büyütülen bir paydır. Bölgedeki lojistik yatırımların hızı bilindiği için bu kapasite dönemsel olarak gözden geçirilir. Düzenli veya öngörülebilir talebi olan müşterilerin, ihtiyaç takvimini önceden paylaşması, kapasite planlamasında öncelik kazanmalarını sağlar — beklenmedik talep karşılanamaz demek değildir ama önceden bilinen talep her zaman daha güvenli planlanır.",
+            },
+            {
+                soru: "Acil bir ihtiyacımız çıkarsa hangi hub'dan ne kadar sürede makine gelir?",
+                cevap:
+                    "Normal koşulda İkitelli hub'ından — bölgenin diğer iki hub'a (Tuzla, Gebze) göre en yakın kaynağı budur. Kesin bir süre vermeyiz çünkü o anki park durumu ve bölgenin o günkü yol durumu belirleyicidir, ama talebiniz alındığında bu iki veri hızla kontrol edilir ve size gerçekçi bir varış saati söylenir. Sahanızın erişim noktası ve varsa güvenlik/giriş prosedürü bilgisi, bu süreyi netleştirmeye yardımcı olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İstanbul Havalimanı'nın Arnavutköy'e komşu konumu ve çevresindeki lojistik yatırım yoğunluğu kamuya açık bilgidir; tesis içi konumlanma iddia edilmez. Hub tahsisi ve güzergâh doğrulama pratiği firma pratiğidir.",
+    },
+
+    "bolge:catalca": {
+        h1: "Çatalca'ya Sevkiyat: İstanbul'un En Uzak İlçesinde Hub Gerçekleri",
+        giris:
+            "Çatalca, İstanbul'un Avrupa yakasındaki en batı ve en geniş ilçelerinden biridir ve bu coğrafi konum, kentin diğer ilçelerine kıyasla farklı bir sevkiyat gerçeği doğurur: üç hub'lı modelimizdeki hiçbir hub, Çatalca'ya kent içi bir mesafeden hizmet vermez — en yakın kaynağımız olan İkitelli hub'ından bile aradaki mesafe, ilçenin kırsal ve yarı kırsal dokusuyla birleşince, kent merkezi ilçelerine göre daha uzun bir sevkiyat süresi anlamına gelir. Bu sayfanın amacı bu gerçeği gizlemek değil, tam tersine açıkça ortaya koymaktır: Çatalca'ya makine göndermek mümkündür ve düzenli yapılır, ama süre beklentisi kent merkezindeki bir ilçeyle aynı kalıba oturtulamaz. Üç hub arasında hangisinin Çatalca'ya en yakın olduğunu, bu mesafenin sevkiyat planına nasıl yansıdığını ve uzun mesafeli bir teslimatın nasıl güvenilir kılındığını burada anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Üç hub arasında Çatalca'ya en yakın olan",
+                metin:
+                    "Coğrafi olarak üç hub'ımız arasında İkitelli, Avrupa yakasında konumlandığı için Çatalca'ya en yakın kaynaktır; Tuzla ve Gebze ise Anadolu yakasında yer aldıkları için buradan bir sevkiyat hem boğaz geçişini hem de kentin bir ucundan diğerine uzanan ek bir mesafeyi gerektirir. Bu yüzden Çatalca talepleri normal koşulda yalnızca İkitelli parkından karşılanır; diğer iki hub, ancak İkitelli'nin tükendiği ve alternatif bulunamayan istisnai durumlarda değerlendirilir, o zaman da süre farkı açıkça bildirilir.",
+            },
+            {
+                baslik: "Kent içi mesafe ile kırsal mesafe arasındaki fark",
+                metin:
+                    "İkitelli'den Çatalca'ya olan mesafe, kent içi bir ilçeye göre saf kilometre olarak daha uzun olsa da, asıl fark yol karakterinde yatar: güzergâhın büyük kısmı şehir içi kesintili trafik yerine, daha az kesintili ama daha uzun süren bir yol karakterine sahiptir. Bu iki tip mesafe farklı davranır — kent içi kısa mesafe trafik yoğunluğuna göre büyük ölçüde değişkenken, kırsala uzanan uzun mesafe daha öngörülebilir ama başlangıçta daha yüksek bir taban süre taşır. Sevkiyat teklifinde bu taban süre dürüstçe yazılır.",
+            },
+            {
+                baslik: "Çatalca'nın geniş ve dağınık yerleşim dokusu",
+                metin:
+                    "İlçe, İstanbul'un en geniş yüz ölçümlü ilçelerinden biridir ve yerleşim merkezi, çevresindeki köy ve mahallelere dağılmış bir doku oluşturur. Bu dağınıklık, sevkiyat planlamasında ek bir değişken getirir: aynı 'Çatalca' talebi, ilçe merkezine mi yoksa uzak bir köye mi gittiğine göre önemli ölçüde farklı bir mesafe kat edebilir. Bu yüzden Çatalca talebi alındığında ilk sorulan bilgilerden biri tam konumdur — ilçe adı tek başına süre tahmini için yeterli değildir.",
+            },
+            {
+                baslik: "Uzun mesafeli sevkiyatta plan disiplini",
+                metin:
+                    "Kent içi kısa mesafeli bir sevkiyatta plan değişikliği görece ucuza mal olur; Çatalca gibi uzak bir hedefte ise bir plan hatası (yanlış makine, eksik bilgi, iptal edilen randevu) çok daha pahalıya oturur çünkü aracın geri dönüp tekrar gitmesi ciddi bir süre demektir. Bu yüzden Çatalca sevkiyatlarında keşif ve teyit adımları normalden daha titiz yürütülür — makine yola çıkmadan önce saha bilgisi, erişim durumu ve teslim alacak kişi bilgisi son kez doğrulanır.",
+            },
+            {
+                baslik: "Düzenli Çatalca talebinde randevu bloklama",
+                metin:
+                    "İlçedeki düzenli veya tekrar eden bir iş için (örneğin bir tesisin periyodik bakım kalemi), sevkiyat mesafesinin uzunluğu, önceden randevu bloklamayı özellikle değerli kılar. Tarih önceden belirlendiğinde, o güne özel bir sevkiyat turu ayrılır ve son dakika bir başka talep bu turu bozmaz. Plansız, aynı gün bildirilen bir Çatalca talebi de karşılanır ama uzun mesafe nedeniyle varış saati, önceden planlanmış bir taleple aynı kesinlikte verilemez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çatalca sevkiyatında üç hub karşılaştırması",
+                paragraflar: [
+                    "Çatalca'ya hizmet açısından üç hub'ın konumu aşağıda karşılaştırılmıştır. Mesafe rakamları verilmemiştir; sütunlar kategorik bir karşılaştırma sunar.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Yaka", "Çatalca'ya göreli mesafe", "Kullanım durumu"],
+                    satirlar: [
+                        ["İkitelli (Avrupa yakası)", "Aynı yaka", "En yakın seçenek", "Standart, birincil kaynak"],
+                        ["Tuzla (Anadolu yakası)", "Karşı yaka", "En uzak seçenek", "Yalnız istisnai durumda"],
+                        ["Gebze (doğu kuşağı)", "Karşı yaka, daha uzak", "En uzak seçenek", "Yalnız istisnai durumda"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dürüst süre beklentisi kurmak",
+                paragraflar: [
+                    "Çatalca gibi uzak bir ilçede en sık karşılaştığımız sorun, süre beklentisinin kent merkezindeki bir ilçeyle karıştırılmasıdır — 'İkitelli'den bir saatte gelir' varsayımı, Çatalca için genelde gerçekçi değildir. Bu yüzden ilk temasta ilçenin coğrafi konumu ve buna bağlı taban süre açıkça konuşulur; teklif bu gerçekçi süre üzerine kurulur, sonradan 'yol uzun sürdü' gerekçesiyle revize edilmez.",
+                    "Bu dürüstlüğün karşılığı, sözü verilen sürenin gerçekten tutulmasıdır — beklenti baştan doğru kurulduğu için, teslim de o beklentiyle örtüşür.",
+                ],
+            },
+            {
+                baslik: "Uzak ilçede keşfin değeri kentin merkezinden daha yüksektir",
+                paragraflar: [
+                    "Kent merkezindeki bir ilçede keşif eksikliği, hızlı bir düzeltmeyle telafi edilebilir çünkü ikinci bir sevkiyat kısa sürer. Çatalca'da ise bu telafi maliyeti yüksektir — yanlış giden bir makinenin geri dönüp doğrusuyla değişmesi, kent içi bir hataya göre çok daha fazla zaman yer. Bu yüzden Çatalca taleplerinde keşif verisi (tam konum, erişim yolu, saha zemini, teslim alacak kişi) ilk temas anında eksiksiz toplanır; 'sahada hallederiz' yaklaşımı bu mesafede risklidir.",
+                    "Tekrar eden müşterilerde bu veri kayıtlı tutulur ve her yeni talep, sıfırdan keşif yerine bu kayıt üzerinden hızla teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çatalca'ya gerçekten makine gönderiyor musunuz, yoksa çok mu uzak?",
+                cevap:
+                    "Gönderiyoruz ve düzenli olarak yapıyoruz — uzaklık, hizmeti imkânsız kılan değil, planlamayı farklılaştıran bir etken. İkitelli hub'ımız, üç hub arasında Çatalca'ya en yakın kaynak olduğu için standart olarak buradan sevkiyat yapılır. Tek fark, süre beklentisinin kent merkezindeki bir ilçeye göre daha uzun taban süre içermesidir ve bu, teklif aşamasında açıkça söylenir.",
+            },
+            {
+                soru: "Neden Tuzla veya Gebze'den değil de İkitelli'den geliyor?",
+                cevap:
+                    "Çünkü coğrafi olarak İkitelli, Avrupa yakasında olduğu için Çatalca'ya diğer iki hub'dan daha yakındır — Tuzla ve Gebze Anadolu yakasında yer alır ve oradan bir sevkiyat hem boğaz geçişini hem ek bir uzun mesafeyi gerektirir. Bu yüzden Çatalca'ya normal koşulda yalnızca İkitelli'den sevkiyat yapılır; diğer iki hub yalnızca İkitelli parkının tükendiği istisnai durumlarda ve süre farkı açıkça bildirilerek devreye girer.",
+            },
+            {
+                soru: "İlçe merkezinde değil, uzak bir köydeyiz; bu süreyi değiştirir mi?",
+                cevap:
+                    "Evet, değiştirebilir — Çatalca'nın geniş ve dağınık yerleşim dokusu nedeniyle 'Çatalca' tek başına yeterli bir konum bilgisi değildir. Talep alındığında tam konum sorulur ve süre tahmini buna göre verilir; ilçe merkezine yakın bir nokta ile uzak bir köy arasında belirgin fark olabilir. Doğru bir tahmin için ilk temasta konum bilgisini mümkün olduğunca net paylaşmanız önerilir.",
+            },
+            {
+                soru: "Randevu saatini kesin verebilir misiniz, yoksa geniş bir aralık mı?",
+                cevap:
+                    "Önceden bildirilen düzenli taleplerde kesin bir saat penceresi verilir — o güne özel bir sevkiyat turu ayrılır ve bu tur başka bir taleple bozulmaz. Aynı gün bildirilen plansız taleplerde ise, uzun mesafe nedeniyle pencere biraz daha geniş tutulur çünkü aracın o anki konumu ve park durumu süreyi etkiler. Kesinlik istiyorsanız, mümkün olduğunca önceden bildirim yapmanız en etkili yöntemdir.",
+            },
+            {
+                soru: "Sahamızın erişim yolu dar/toprak; bu Çatalca'da sorun olur mu?",
+                cevap:
+                    "İlçenin kırsal-yarı kırsal dokusu düşünüldüğünde bu durum sık karşılaştığımız bir profildir ve keşifte özellikle sorulur — erişim yolunun genişliği, zemin türü ve mevsimsel durumu (yağmur sonrası toprak yol gibi) fotoğraf ve tarifle doğrulanır. Standart makine geçemeyecekse, arazi tipi lastikli alternatif veya kademeli erişim planı birlikte değerlendirilir. Bu bilgiyi talep sırasında paylaşmanız, doğru makinenin ilk seferde gönderilmesini sağlar.",
+            },
+            {
+                soru: "Acil bir arızamız olursa Çatalca'ya ne kadar sürede makine ulaşır?",
+                cevap:
+                    "Dürüst cevap şudur: kent merkezindeki bir ilçeye göre daha uzun bir taban süre vardır ve bunu gizlemeyiz. Talebiniz alındığında İkitelli park durumu kontrol edilir, tam konumunuz sorulur ve bu iki veriye göre gerçekçi bir varış saati söylenir. Mesafe kısaltılamaz ama belirsizlik kısaltılabilir — verilen saat, iyimser bir tahmin değil, güzergâh ve park durumuna göre hesaplanmış bir sözdür ve tutulur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Çatalca'nın İstanbul'un Avrupa yakasındaki en batı ve geniş yüz ölçümlü ilçelerinden biri olduğu, kırsal-yarı kırsal dokusu kamuya açık bilgidir; hub tahsisi ve süre dürüstlüğü firma pratiğidir.",
+    },
 };
