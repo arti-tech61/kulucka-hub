@@ -428,102 +428,102 @@ export const AFYONPLATFORMKIRALAMA_COM: Record<string, BespokeIcerik> = {
     },
 
     "bolge:konya-osb-cevre-ili": {
-        h1: "Konya Hattında Enerji ve Tarım Sanayi Tesisleri İçin Platform Kiralama",
+        h1: "Konya Yönünde GES ve Tarım Sanayi Depoları İçin Platform Kiralama",
         giris:
-            "Afyon ile Konya arasındaki hat, bizim için enerji ve tarım sanayi tesisleri açısından da tanıdık bir güzergâhtır; her iki ilde de geniş tarım arazileri üzerine kurulan güneş enerjisi santralleri ve tarımsal ürünü işleyen sanayi tesisleri yoğundur. Konya’daki geniş ova arazileri, GES yatırımları için elverişli bir zemin oluşturur ve bölgedeki tarım sanayi depoları, Afyon tarafındakine benzer bir istif-erişim mantığıyla çalışır. İl dışı sevkiyatı ayıran şey teknik değil lojistiktir: mesafe, makinenin gidiş-geliş süresini kiralamanın içine sokar ve bu, tek günlük işleri ekonomik olmaktan çıkarır. Bu yüzden Konya hattına yaptığımız her çıkışı program olarak kurarız. Bu sayfada, il dışı bir enerji-tarım sanayi talebinin nasıl planlandığını anlatıyoruz.",
+            "\"Trafo kabininde ısınma var, üretim düşüyor, bugün birini gönderebilir misiniz?\" — bu tür bir aramayı Konya tarafındaki bir güneş enerjisi santralinden aldığımızda, önce sorduğumuz şey mesafe değil kabin kotudur; sonra devreye giren şey ise komşu ilin kendi elektrik güvenlik ekibiyle nasıl koordine olacağımızdır. Konya’ya bakan geniş ova, bir yandan panel dizileriyle kaplı GES sahalarını, öte yandan ürünü toplayıp bekleten tarım sanayi depolarını barındırır ve bu iki yapı taleple bize hiç aynı şekilde gelmez: biri arıza telefonuyla aniden açılır, diğeri depo boşaldığında planlı bir tur olarak sırasını bekler. Bu sayfada iki türü de ayrı ayrı, kendi ritimleriyle nasıl karşıladığımızı anlatıyoruz.",
         maddeler: [
             {
-                baslik: "GES sahalarında trafo ve invertör erişimi",
+                baslik: "Panel dizisi arasında trafo ve invertör kabinine ulaşmak",
                 metin:
-                    "Konya’nın geniş ova arazilerindeki GES sahalarında platform ihtiyacı, orta gerilim trafo merkezi bağlantıları, invertör kabin kontrolü ve saha çevre aydınlatmasıdır. Zemin, ova tabanında düz ancak mevsime göre değişen bir yapıdadır; arazi kabiliyeti yüksek bir sınıf standart tercihimizdir. Elektrik hattına yakın çalışmada tesisin kendi güvenlik prosedürü önceliklidir.",
+                    "Bir GES sahasında platform çağrısı çoğunlukla panelin kendisinden değil, dizilerin arasına serpiştirilmiş orta gerilim kabinlerden gelir. Bu kabinlere ulaşmak için makinenin dizi araları kadar dar bir koridordan geçmesi gerekir; bu yüzden şase genişliğini panel sıra aralığıyla karşılaştırmadan sınıf önermeyiz. Zemin, ekili arazinin devamı olduğu için tekerleğin batmayacağı bir taşıma gücü aranır ve bu, arazi tipi bir sınıfı neredeyse otomatik hâle getirir.",
             },
             {
-                baslik: "Biyogaz ve enerji dönüşüm tesislerinde erişim",
+                baslik: "Reaktör kapağına inmeden önce beklediğimiz onay",
                 metin:
-                    "Konya bölgesindeki tarımsal atığı işleyen biyogaz tesislerinde yüksekteki iş, fermantasyon tankı üst kapakları, gaz toplama hattı ve boru köprüsü kontrolüdür. Gaz kaynaklı risk her zaman ön plandadır; kıvılcım çıkaran hiçbir işlem tesisin kendi gaz güvenliği prosedürü olmadan yapılmaz. Makine tank gövdesine değil, güvenli mesafedeki bir noktaya konumlanır.",
+                    "Tarımsal artığı işleyen bir biyogaz ünitesinde sepeti yukarı kaldırmadan önce beklediğimiz tek şey, o bölgedeki gaz yoğunluğunun ölçülüp güvenli bulunduğuna dair tesisin kendi imzasıdır; bu imza gelmeden reaktör çevresine yaklaşmayız. Onay geldikten sonra bile makineyi tank gövdesine bitiştirmek yerine, yatay kolu geniş açan bir sınıfla mesafeli durup oradan uzanmayı tercih ederiz.",
             },
             {
-                baslik: "Tarım sanayi depolarında istif ve çatı kontrolü",
+                baslik: "Depo dolu görünse de üstüne çıkılmaz",
                 metin:
-                    "Konya’daki tarımsal ürün işleme ve depolama tesislerinde iş, istiflenmiş ürünün üst sırası, çatı sacı onarımı ve havalandırma kanalı kontrolüdür. Ürün doluyken istif yüzeyi taşıyıcı değildir; işleri ürünün boşaldığı döneme yazmayı öneririz. Bu depolarda toz yükü, filtre kontrol aralığını kısaltan bir etkendir.",
+                    "Tarımsal ürünün istiflendiği bir depoda, çuvalların en üst sırasına aydınlatma veya havalandırma için yaklaşmak istediğimizde önce sorduğumuz şey doluluk oranıdır. Yığın taşıyıcı bir zemin değildir; üstüne bir parça düşse bile o parti artık şüpheli sayılır. Bu yüzden depo dolu kaldığı sürece işi erteler, boşalma haberini beklemeyi öneririz — sabırsızlanan bir tesise dahi bu konuda taviz vermeyiz.",
             },
             {
-                baslik: "Elektrik ve gaz güvenlik teyidi olmadan sahaya inilmez",
+                baslik: "Gaz ve elektrik için ayrı imza, ayrı takvim",
                 metin:
-                    "Hem GES hem biyogaz tesislerinde, enerjili hatlara veya gaz sistemine yakın çalışmadan önce tesisin kendi güvenlik prosedürü uygulanır. İlgili hattın veya sistemin güvenli olduğu yazılı olarak teyit edilmeden sepet o kota çıkmaz. Bu teyit süreci işin süresini bir miktar uzatabilir; bunu teklifte açıkça gösteririz, sonradan çıkan sürpriz kalem olmaz.",
+                    "Bir günde hem enerji dönüşüm ünitesine hem GES trafosuna uğrayacaksak, iki farklı onayı aynı anda beklemeyiz; sabahı elektrik tarafına, öğleden sonrayı gaz tarafına ayırırız çünkü ikisinin imza süreci farklı ekiplerden ve farklı hızda gelir. Bu ayrım, sahada boş boş bekleyen bir makine yerine, her saatin bir işe gittiği bir günü mümkün kılar.",
             },
             {
-                baslik: "İl dışı sevkiyatın program mantığı",
+                baslik: "Komşu ilde neden tek seferlik değil listeli çalışırız",
                 metin:
-                    "Mesafe, il dışı bir işin fiyatını belirleyen tek kalemdir ve bu kalem gün sayısına bölünür. Tek günlük bir iş için yapılan çıkışta nakliye payı tek işin üstünde kalır; aynı çıkışta birden fazla tesis kapatıldığında pay bölünür. Bu yüzden Konya hattına yapılan çıkışları program olarak kurarız: tesisler haritada sıralanır, gün planı önceden yazılır ve dönüş tarihi belirlenir.",
+                    "Konya tarafına geçtiğimizde makine bir kez indirilip geri döner; bu geliş-gidiş kendi başına bir maliyettir ve tek bir kabin veya tek bir çatı sacı için katlanılırsa iş, değerinin üstünde bir bedele çıkar. Bu yüzden aynı bölgedeki birkaç talebi aynı haftaya toplarız — biri GES tarafında, diğeri depo tarafında olsa bile. Elimizde liste varsa geliş-gidişi bir kez öderiz, kalan her iş kendi kalemine düşer.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Konya hattında enerji ve tarım sanayi tesisleri",
+                baslik: "Konya tarafında karşılaştığımız alanlar",
                 paragraflar: [
-                    "Aşağıdaki tablo, hat üzerinde en sık çalıştığımız enerji ve tarım sanayi tesislerini ve seçtiğimiz sınıfı toplar.",
+                    "Bu bölgede sık çağrıldığımız alanları ve her birinde tercih ettiğimiz sınıfı aşağıdaki tabloda topladık.",
                 ],
                 tablo: {
-                    basliklar: ["Tesis / alan", "Baskın kalem", "Belirleyici koşul", "Seçilen sınıf"],
+                    basliklar: ["Alan", "Çağrı sebebi", "Beklenen onay", "Tercih edilen sınıf"],
                     satirlar: [
-                        ["GES trafo/invertör kabini", "Bağlantı, kontrol", "Elektrik güvenlik izni", "Arazi tipi bomlu"],
-                        ["GES saha aydınlatması", "Direk, kamera", "Ova zemini", "Hızlı toplanan bomlu"],
-                        ["Biyogaz reaktör üstü", "Kapak, gaz hattı", "Gaz güvenliği izni", "Eklemli bomlu"],
-                        ["Tarım sanayi deposu", "İstif üstü, çatı", "Ürün dolu hacim", "Arazi tipi makaslı"],
-                        ["Depo idari bölüm", "Aydınlatma, asma tavan", "Standart koşul", "Standart makaslı"],
-                        ["Dış saha / rampa", "Aydınlatma, oluk", "Araç trafiği", "Dizel, hızlı toplanan"],
+                        ["GES trafo/invertör kabini", "Isınma, bağlantı kontrolü", "Elektrik ekibi imzası", "Dar gövdeli arazi tipi"],
+                        ["GES çevre aydınlatması", "Direk, kamera arızası", "Yok, açık saha", "Hızlı toplanan bomlu"],
+                        ["Biyogaz reaktör kapağı", "Periyodik kontrol", "Gaz ölçüm imzası", "Uzun kollu eklemli"],
+                        ["Enerji dönüşüm ünitesi", "Baca, radyatör, pano", "Elektrik ekibi imzası", "Kompakt akülü"],
+                        ["Tarım sanayi deposu", "Çatı sacı, mahya", "Depo boşalmış olmalı", "Arazi tipi makaslı"],
+                        ["Sevkiyat rampası", "Aydınlatma, oluk", "Yok, trafik dışı saat", "Dizel, hızlı toplanan"],
                     ],
                 },
             },
             {
-                baslik: "İl dışı çıkışta gün planının kurulması",
+                baslik: "Neden aynı gün iki farklı imzayı beklemeyiz",
                 paragraflar: [
-                    "Bir il dışı programın kalitesi, sahada değil planlama masasında belirlenir. Çıkış öncesinde üç şeyi netleştiririz: tesis sırası, her tesiste geçirilecek gün sayısı ve geçiş süreleri. Bu üçlü yazıldığında dönüş tarihi de netleşir.",
-                    "Enerji tesislerindeki güvenlik teyit süreçleri, tarım sanayi depolarındakinden genellikle daha uzun sürer; bu yüzden gün planını kurarken enerji tesislerini günün erken saatlerine, depo işlerini ise öğleden sonraya yazma eğilimindeyiz. Bu sıralama, teyit beklerken geçen zamanı en aza indirir.",
+                    "Bir sahada hem elektrik hem gaz kaynaklı risk varsa, iki ayrı ekipten gelecek onayı aynı anda kovalamak günü heba eder; biri gelene kadar diğeri beklerken makine boş durur. Bunun yerine günü ikiye böleriz: sabah saatlerini, genellikle daha önce netleşen elektrik tarafına, öğleden sonrayı ise gaz ölçümünün tamamlandığı saate ayarlarız.",
+                    "Bu sıralamayı önceden konuşmadığımız sahalarda, ilk ziyaretin büyük bölümü onay beklemekle geçebilir. Tesisin iki ekibinin de o gün sahada olacağını teyit ettiğimizde, aynı sevkiyatla iki bölgeyi de bitirmemiz mümkün olur.",
                 ],
             },
             {
-                baslik: "Tek günlük işte maliyet gerçeği",
+                baslik: "Tek kabin için mi, listeyle mi gelmeliyiz",
                 paragraflar: [
-                    "Tek günlük küçük bir iş için Konya hattına tek başına makine göndermek genellikle ekonomik değildir ve bunu açıkça söyleriz. İki alternatif öneririz: o hafta hat üzerinde kurulmuş bir programa katılmak, ya da birikmiş küçük işleri tek listeye toplayıp tek çıkışta kapatmak.",
-                    "Aciliyet varsa elbette geliriz; bu durumda nakliye bedelini teklifte ayrı bir satır olarak gösteririz, karar sizde kalır. Hat üzerinde planlanmış bir programın olup olmadığını talep sırasında söyleriz.",
+                    "Konya tarafına giden bir sevkiyatın maliyetinin büyük kısmı, sahada geçirilen süreden değil geliş-gidişin kendisinden doğar. Tek bir trafo kabini veya tek bir çatı sacı için bu maliyeti tek başına taşımak, işin gerçek değerinin üstüne çıkar.",
+                    "Bunun yerine önerimiz şudur: bölgedeki başka bir GES sahası veya depo ile aynı haftaya denk gelip gelmediğinizi bize sorun. Denk geliyorsa geliş-gidiş payını paylaşırsınız; gelmiyorsa bile listenizi bir sonraki turumuza kadar biriktirip tek seferde kapatmayı öneririz.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Afyon dışındayız; il dışına makine gönderiyor musunuz?",
+                soru: "Konya tarafındaki bir GES sahasından acil arıza çağrısı geldi; aynı gün gelir misiniz?",
                 cevap:
-                    "Gönderiyoruz ve Konya hattı düzenli çalıştığımız güzergâhlardan biridir. Tek farkı planlama biçimidir: mesafe, makinenin gidiş-geliş süresini kiralamanın içine soktuğu için il dışı çıkışları program olarak kurarız. Enerji ve tarım sanayi tesisleri için ayrı güvenlik teyit süreçlerini de bu programa dahil ederiz.",
+                    "Geliriz, ancak sahaya inmeden önce mutlaka sorduğumuz şey kabin çevresinin gerilimsiz hâle getirilip getirilmediğidir; bu teyit tesisin kendi elektrik ekibinden gelmeden sepet o noktaya çıkmaz. Telefonda kabin kotunu ve zeminin ne durumda olduğunu öğrenirsek, makine yola çıkarken sınıf kararını da vermiş oluruz; sahada ikinci bir bekleme yaşanmaz.",
             },
             {
-                soru: "GES sahamızdaki trafo bakımı için gaz güvenliği prosedürü de mi gerekli?",
+                soru: "Biyogaz reaktörünün kapağını kontrol edeceğiz; gaz ölçümünü siz mi yapıyorsunuz?",
                 cevap:
-                    "Hayır, GES sahalarında geçerli olan elektrik güvenlik teyididir; gaz güvenliği prosedürü biyogaz tesislerine özgüdür. GES tarafında ilgili hattın gerilimsiz olduğu veya güvenli mesafenin korunduğu, tesisinizin kendi elektrik güvenlik ekibi tarafından yazılı olarak teyit edilir. Bu teyit alınmadan sepet o kota çıkmaz.",
+                    "Hayır, o ölçümü ve buna bağlı güvenli çalışma iznini tesisinizin kendi ekibi verir; biz bu izne uyarız, kendi ekipmanımızla ayrıca ölçüm yapmayız. Ölçümün ne kadar sürdüğünü bilirsek makinemizi o saate göre sahaya indiririz; izin gelmeden reaktöre yaklaşmayız, bunda esnememiz mümkün değildir.",
             },
             {
-                soru: "Tek günlük küçük bir işimiz var; il dışına gelmeniz mantıklı mı?",
+                soru: "Deponun içindeki istif hâlâ yüksek; yine de çatıya çıkabilir misiniz?",
                 cevap:
-                    "Tek başına genellikle değil ve bunu açıkça söyleriz. Nakliye, kiralama süresinden bağımsız sabit bir kalemdir; tek günlük bir işte bu kalemin tamamı sizin üstünüzde kalır. İki alternatif öneririz: o hafta hat üzerinde kurulmuş bir programa katılmak, ya da birikmiş küçük işleri tek listeye toplamak.",
+                    "Tercih etmeyiz. Yığının üst sırası ağırlığını taşıyacak biçimde tasarlanmamıştır ve sepetin küçük bir teması bile onu bozabilir. Acil bir sızıntı varsa dışarıdan yandan uzanarak sınırlı bir müdahale yaparız, ama esas onarımı deponun boşaldığı güne ertelemenizi öneririz — bu, hem daha hızlı hem daha güvenli sonuçlanır.",
             },
             {
-                soru: "Biyogaz tesisimizdeki reaktör bakımı için gaz ölçümünü kim yapar?",
+                soru: "Aynı gün hem trafo kabinine hem reaktöre uğrayabilir misiniz?",
                 cevap:
-                    "Gaz ölçümünü ve güvenli çalışma teyidini tesisin kendi ekibi yapar; biz bu teyide uyarız, kendi başımıza gaz ölçümü yapmayız. Teyit tamamlanmadan sepet o kota çıkmaz. Ekibinizin bu teyidi ne kadar sürede verdiğini bize önceden söylerseniz, gün planını buna göre kurarız.",
+                    "Uğrayabiliriz, ama iki onayı aynı anda beklemeyiz; günü bölerek çalışırız. Elektrik ekibinin onayı genellikle daha erken geldiği için sabahı ona ayırır, gaz ölçümü tamamlandığında öğleden sonra reaktör tarafına geçeriz. İki ekibin de o gün sahada olacağından emin olursak, tek sevkiyatla iki işi bitirmek mümkün olur.",
             },
             {
-                soru: "Program birkaç gün sürecek; makine geceleri nerede kalır?",
+                soru: "Tek bir kabin arızası için Konya’ya tek başına gelmeniz mantıklı mı?",
                 cevap:
-                    "Hat üzerindeki bir tesiste, önceden belirlenmiş bir park alanında kalır. Park alanının düz, sert ve korunaklı olması gerekir; akülü ünite kalacaksa gece şarjı için erişilebilir bir enerji hattı isteriz. Kalış süresince makinenin muhafazası, park alanını sağlayan işletmeye ait olur; teslim ve iade anında mevcut durum fotoğrafla kayıt altına alınır.",
+                    "Genellikle değil ve bunu saklamayız; geliş-gidişin kendisi tek bir kalem için işin değerinin üstüne çıkabilir. Acil bir durumsa yine de geliriz. Acil değilse bölgedeki başka bir talebe denk gelip gelmediğinizi kontrol ederiz; denk geliyorsa geliş-gidiş payı paylaşılır ve toplamda ödediğiniz belirgin biçimde düşer.",
             },
             {
-                soru: "Aynı hafta hem GES hem tarım sanayi deposunda işimiz var; birlikte planlanır mı?",
+                soru: "Program birden fazla gün sürerse makine nerede kalıyor, kim sorumlu oluyor?",
                 cevap:
-                    "Planlanır ve bu, hat üzerinde kiralamanın en ekonomik biçimidir. İki tesis farklı güvenlik prosedürü gerektirse bile nakliye tek seferde faturalanır ve ikisi arasında bölünür. Enerji tesislerindeki teyit süreci genellikle daha uzun sürdüğü için gün planında öne alınır. Her tesis kendi teklifini ve kendi teslim tutanağını alır.",
+                    "Tesis sınırları içinde, sizinle birlikte belirlediğimiz düz ve korunaklı bir noktada kalır. Akülü bir ünite kalacaksa oraya erişebilecek bir priz hattı isteriz. Kalış boyunca makinenin muhafazası park alanını sağlayan tarafa aittir; başlangıçta ve teslimde durumu fotoğraflarız ki iade günü hiçbir kalem tartışmalı kalmasın.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-13. Konya bölgesindeki geniş ova arazileri üzerindeki güneş enerjisi yatırımları ve tarım sanayi tesislerinin varlığı kamuya açık genel bilgidir; il dışı program kurgusu ve güvenlik teyit süreçlerinin yönetimi firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-13. Konya bölgesindeki güneş enerjisi yatırımlarının ve tarımsal ürün depolama tesislerinin varlığı kamuya açık genel bilgidir; onay sıralaması ve geliş-gidiş paylaşım yöntemi firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
 };

@@ -314,7 +314,7 @@ export const BURSAEKLEMLIPLATFORM_NET: Record<string, BespokeIcerik> = {
             "Elle yazıldı — 2026-08-12. Yıldırım'ın merkez ve gelişen kule stoku kamuya açık coğrafi bilgidir; eski cephe eleman kontrolü ve sakin saat koordinasyonu firma pratiğidir.",
     },
 
-    "bursa-sehir-merkezi": {
+    "bolge:bursa-sehir-merkezi": {
         h1: "Bursa Şehir Merkezinde Yüksek Bina ve AVM Cephesi İçin Eklemli Platform Kiralama",
         giris:
             "Bursa şehir merkezi — Heykel çevresi, Cumhuriyet Caddesi ve kent merkezinin tarihi-ticari dokusuyla iç içe geçmiş yeni nesil iş merkezleri — eklemli platform işlerinin en yoğun talep gördüğü bölgedir. Kent merkezinin özgünlüğü, tarihi doku ile yüksek bina stokunun aynı sokakta yan yana durmasıdır: bir yanda dar sokaklı çarşı binaları, öte yanda cadde üzerindeki modern ofis-AVM kuleleri. Bu sayfa, Bursa şehir merkezindeki yüksek bina ve AVM cephe işlerinde eklemli platform kullanımını, kent merkezi kısıtlarını ve karma doku disiplinini anlatır.",
@@ -413,7 +413,7 @@ export const BURSAEKLEMLIPLATFORM_NET: Record<string, BespokeIcerik> = {
             "Elle yazıldı — 2026-08-12. Bursa şehir merkezinin Heykel-Cumhuriyet Caddesi karma dokusu kamuya açık coğrafi bilgidir; ikili mod geçişi ve kalabalık yönetimi firma pratiğidir.",
     },
 
-    "kestel-cevre-ilce": {
+    "bolge:kestel-cevre-ilce": {
         h1: "Kestel ve Çevre İlçelerde Yüksek Bina ve Ticari Merkez Cephesi İçin Eklemli Platform Kiralama",
         giris:
             "Kestel ve Bursa'nın diğer çevre ilçelerinde yüksek bina stoku, şehir merkezine göre daha sınırlı ama düzenli olarak artan bir profildedir — ilçe merkezlerindeki yeni belediye hizmet binaları, orta ölçekli ticaret merkezleri ve gelişen konut projeleri, eklemli platformun cephe işlerinde kullanıldığı tipik yapılardır. Bu sayfa, Kestel ve çevre ilçelerdeki yüksek bina ve ticari merkez cephe işlerinde eklemli platform kullanımını, merkez ilçelere göre farklılaşan lojistik ve erişim koşullarını anlatır.",
