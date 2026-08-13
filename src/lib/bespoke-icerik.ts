@@ -101,6 +101,8 @@ import { CANAKKALEPLATFORM_XYZ } from "./bespoke/canakkaleplatform-xyz";
 import { KUTAHYAPLATFORM_COM_TR } from "./bespoke/kutahyaplatform-com-tr";
 import { KUTAHYAPLATFORM_TR } from "./bespoke/kutahyaplatform-tr";
 import { BOLUPLATFORM_COM } from "./bespoke/boluplatform-com";
+import { AFYONPLATFORM_COM } from "./bespoke/afyonplatform-com";
+import { BILECIKPLATFORM_NET } from "./bespoke/bilecikplatform-net";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -248,6 +250,8 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "kutahyaplatform.com.tr": KUTAHYAPLATFORM_COM_TR,
     "kutahyaplatform.tr": KUTAHYAPLATFORM_TR,
     "boluplatform.com": BOLUPLATFORM_COM,
+    "afyonplatform.com": AFYONPLATFORM_COM,
+    "bilecikplatform.net": BILECIKPLATFORM_NET,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

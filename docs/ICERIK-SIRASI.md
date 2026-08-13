@@ -133,6 +133,8 @@
 | `balikesirplatform.org` | **6/6** | 0 | 0 | ✅ TAMAM — gıda-süt-zeytinyağı tesisleri |
 | `amasyaplatform.com` | **5/5** | 0 | 0 | ✅ TAMAM — meyve işleme/soğuk depo (ilk Amasya) |
 | `istanbulplatforms.com` | **4/4** | 0 | 0 | ✅ TAMAM — uzun dönem kontrat/SLA |
+| `afyonplatform.com` | 5/5 | 0 | 0 | 🔴 İHLAL düzeltiliyor — konya-osb-cevre-ili %31,9 |
+| `bilecikplatform.net` | **5/5** | 0 | 0 | ✅ TAMAM — iki OSB karşılaştırması+tur |
 | `boluplatform.com` | **8/8** | 0 | 0 | ✅ TAMAM — forklift+platform karma/inşaat sahası |
 | `bozuyukmanlift.net` | **7/7** | 0 | 0 | 🟡 2 sayfa düzeltiliyor — cam sanayi (%15-18 örtüşme) |
 | `bozuyukplatform.net.tr` | **7/7** | 0 | 0 | ✅ TAMAM — OSB yönetimi perspektifi |
