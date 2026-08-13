@@ -231,6 +231,25 @@ export default async function AltSayfaGorunum({ params }: { params: Promise<{ sa
                 </section>
             )}
 
+            {alt.tablo && alt.tablo.satirlar.length > 0 && (
+                <section className="mt-12 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+                    <div className="overflow-x-auto">
+                        <table className="w-full border-collapse text-left text-sm">
+                            <thead className="bg-slate-900 text-white">
+                                <tr>{alt.tablo.basliklar.map((baslik) => <th key={baslik} className="px-5 py-4 font-bold">{baslik}</th>)}</tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-200">
+                                {alt.tablo.satirlar.map((satir, satirIndex) => (
+                                    <tr key={satirIndex} className="align-top odd:bg-slate-50">
+                                        {satir.map((hucre, hucreIndex) => <td key={hucreIndex} className="px-5 py-4 text-slate-700">{hucre}</td>)}
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            )}
+
             {alt.sss && alt.sss.length > 0 && (
                 <>
                     <h2 className="mt-16 text-3xl font-black tracking-tight text-fg">Sık sorulan sorular</h2>

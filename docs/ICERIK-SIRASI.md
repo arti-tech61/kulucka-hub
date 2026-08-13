@@ -211,4 +211,20 @@
 | `izmir-manlift.net` | **9/9** | 0 | 0 | ✅ bölge sayfaları TAMAM — kesintisiz üretim açısı, ~970 kelime/sayfa, domain içi %0,0, çapraz domain %0,0-0,4 |
 | `izmirmakasliplatform.xyz` | **10/10** | 0 | 0 | ✅ bölge sayfaları TAMAM — ~1.100 kelime/sayfa, örtüşme %0,0, simetrik düzen (5 madde+3 ek bölüm+6 SSS) |
 
+## İzmir SEO genişlemesi — 2026-08-13
+
+`docs/IZMIR-SEO-GENISLEME.md` kapsamındaki içerik üretimi tamamlandı:
+
+| Faz | Sayfa | Durum | İçerik türü |
+|---|---:|---|---|
+| A | 47 | ✅ | 11 İzmir domaininde yeni bölge sayfaları |
+| B | 14 | ✅ | Sektör ve saha uygulama rehberleri |
+| C | 6 | ✅ | Rakam içermeyen karar/fiyat rehberleri |
+| **Toplam** | **67** | **✅** | Her kayıt kendi hostunda tekil slug ile yayıma hazır |
+
+Faz C karar sayfaları: `izmirmanliftkiralama.net`, `izmirplatformskiralama.com`,
+`izmir-manlift.net`, `izmirmanliftkiralama.org`, `izmirmakasliplatform.xyz` ve
+`izmir-forklift.com`. Fiyat içerikleri sabit rakam yayınlamaz; teknik kapsam,
+süre, lojistik, operatör ve saha koşullarının yazılı teklife etkisini açıklar.
+
 Bir domain tamamlandığında bu tabloya satır ekleyin.
