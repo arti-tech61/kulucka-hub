@@ -112,6 +112,9 @@ import { BOZUYUKPLATFORM_COM } from "./bespoke/bozuyukplatform-com";
 import { BOZUYUKPLATFORM_NET } from "./bespoke/bozuyukplatform-net";
 import { ESKISEHIRPLATFORM_NET } from "./bespoke/eskisehirplatform-net";
 import { PLUSPLATFORM_COM_TR } from "./bespoke/plusplatform-com-tr";
+import { IZMIRMAKASLIPLATFORM_COM_TR } from "./bespoke/izmirmakasliplatform-com-tr";
+import { IZMIRMAKASLIPLATFORM_NET_TR } from "./bespoke/izmirmakasliplatform-net-tr";
+import { BURSAEKLEMLIPLATFORM_NET } from "./bespoke/bursaeklemliplatform-net";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -270,6 +273,9 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "bozuyukplatform.net": BOZUYUKPLATFORM_NET,
     "eskisehirplatform.net": ESKISEHIRPLATFORM_NET,
     "plusplatform.com.tr": PLUSPLATFORM_COM_TR,
+    "izmirmakasliplatform.com.tr": IZMIRMAKASLIPLATFORM_COM_TR,
+    "izmirmakasliplatform.net.tr": IZMIRMAKASLIPLATFORM_NET_TR,
+    "bursaeklemliplatform.net": BURSAEKLEMLIPLATFORM_NET,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

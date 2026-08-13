@@ -139,11 +139,14 @@
 | `kutahyaplatform.net` | **5/5** | 0 | 0 | ✅ TAMAM — KOBİ bütçe ekonomisi (4. Kütahya açısı) |
 | `afyonmanliftkiralama.net` | **6/6** | 0 | 0 | ✅ TAMAM — genel fabrika+depo |
 | `afyonplatform.net` | **5/5** | 0 | 0 | ✅ TAMAM — kent içi inşaat+cephe |
-| `afyonplatformkiralama.com` | 5/5 | 0 | 0 | 🟡 1 sayfa düzeltiliyor — konya-osb-cevre-ili %17,7 |
+| `afyonplatformkiralama.com` | **5/5** | 0 | 0 | ✅ TAMAM — enerji+tarım sanayi (düzeltildi %17,7→%0,2) |
 | `bozuyukplatform.com` | **5/5** | 0 | 0 | ✅ TAMAM — nakliye terminali/TIR parkı |
 | `bozuyukplatform.net` | **5/5** | 0 | 0 | ✅ TAMAM — mobilya/orman ürünleri |
 | `eskisehirplatform.net` | **5/5** | 0 | 0 | ✅ TAMAM — kalite denetimi/ISO |
 | `plusplatform.com.tr` | **6/6** | 0 | 0 | ✅ TAMAM — satış+kiralama karşılaştırması |
+| `izmirmakasliplatform.com.tr` | **6/6** | 0 | 0 | ✅ TAMAM — otel+AVM renovasyon projesi |
+| `izmirmakasliplatform.net.tr` | **6/6** | 0 | 0 | ✅ TAMAM — üniversite kampüsü |
+| `bursaeklemliplatform.net` | **5/5** | 0 | 0 | ✅ TAMAM — kule+AVM eklemli erişim |
 | `boluplatform.com` | **8/8** | 0 | 0 | ✅ TAMAM — forklift+platform karma/inşaat sahası |
 | `bozuyukmanlift.net` | **7/7** | 0 | 0 | 🟡 2 sayfa düzeltiliyor — cam sanayi (%15-18 örtüşme) |
 | `bozuyukplatform.net.tr` | **7/7** | 0 | 0 | ✅ TAMAM — OSB yönetimi perspektifi |
