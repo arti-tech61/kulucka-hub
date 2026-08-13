@@ -78,6 +78,7 @@ import { MANLIFTKIRALAMA_SITE } from "./bespoke/manliftkiralama-site";
 import { MANLIFTKIRALA_STORE } from "./bespoke/manliftkirala-store";
 import { MANLIFTKIRALAMA_ONLINE } from "./bespoke/manliftkiralama-online";
 import { IZMIR_FORKLIFT_COM } from "./bespoke/izmir-forklift-com";
+import { MANLIFTKIRALAMA_XYZ } from "./bespoke/manliftkiralama-xyz";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -202,6 +203,7 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "manliftkirala.store": MANLIFTKIRALA_STORE,
     "manliftkiralama.online": MANLIFTKIRALAMA_ONLINE,
     "izmir-forklift.com": IZMIR_FORKLIFT_COM,
+    "manliftkiralama.xyz": MANLIFTKIRALAMA_XYZ,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

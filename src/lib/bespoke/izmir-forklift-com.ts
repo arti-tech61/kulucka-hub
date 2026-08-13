@@ -320,4 +320,300 @@ export const IZMIR_FORKLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Aliağa'nın petrokimya ve rafineri sanayisi barındırdığı kamuya açık bilgidir; patlayıcı ortam bölge sınıflandırması ve ekipman uygunluğu, iş ekipmanlarında periyodik kontrol zorunluluğu, tehlikeli madde ayrıştırma ilkesi ve izinli çalışma sistemi Türkiye mevzuatı ile sektör standardına dayanır; sınırda iş bölme, uygunluk dosyası ve duruş planlaması firma pratiğimizdir. Tesis adı, bölge numarası ve sayısal iddia kullanılmamıştır.",
     },
+
+    "bolge:cigli": {
+        h1: "Çiğli'de Antrepo ve Kargo Terminali Forklifti: Atatürk OSB'den Liman Bağlantısına Elleçleme",
+        giris:
+            "Çiğli'nin lojistik yükü iki koldan beslenir: Atatürk OSB'nin üretim tesislerinden çıkan mamul, sevkiyat öncesi bölgedeki antrepo ve dağıtım depolarında toplanır; bu depoların bir kısmı da doğrudan liman ve kargo bağlantılı transit yük taşır — yani konteynerle gelen ithal hammadde önce burada mola verir, sonra üretime dağılır. Bu ikili yapı, forklift ihtiyacını sıradan bir üretim deposundan ayırır: aynı sahada hem standart palet trafiği hem konteyner boşaltma hem de dış nakliyeciye teslim edilecek ihracat yükü aynı anda döner. İyi kurulmuş bir Çiğli antreposunda bu üç akış birbirini beklemez; kötü kurulmuşta ise konteyner kapısı açık beklerken palet trafiği durur, ya da tersine sevkiyat kamyonu antrepo kapısında saatlerce sıraya girer. Bu sayfa, Atatürk OSB çevresindeki antrepo ve dağıtım merkezlerinin forklift kararlarını bu üç akışın kesişimi üzerinden ele alıyor: konteyner-antrepo geçiş noktası, transit yükün geçici elleçleme kuralları, çok kiracılı depo sahalarının makine paylaşımı ve OSB-liman arası nakliye penceresine göre planlama.",
+        maddeler: [
+            {
+                baslik: "Konteynerden antrepoya geçiş: iki ayrı elleçleme rejiminin buluştuğu nokta",
+                metin:
+                    "İthal hammadde veya yarı mamul konteynerle gelip Çiğli'deki antrepoya boşaltıldığında, forklift iki farklı rejim arasında köprü kurar: kutunun içindeki yük konteyner elleçleme kurallarına (kısa şasili makine, tam serbest kaldırmalı mast, taban dayanımı) tabidir; antrepoya girdiği andan itibaren ise standart depo raf düzenine göre çalışılır. Bu geçişte sık yapılan hata, tek makineyle iki rejimi de karşılamaya çalışmaktır — konteyner içine giren kompakt makine, antrepoda yüksek raf istifi için yetersiz kalır; raf makinesi ise kutuya giremez. Verimli antrepolarda boşaltma noktası ile raf sahası arasında bir ara toplama alanı tanımlanır: konteyner makinesi yükü buraya bırakır, raf makinesi buradan devralır.",
+            },
+            {
+                baslik: "Transit yük: antrepoda kalış süresi kısa, elleçleme kuralı sıkı",
+                metin:
+                    "Bölgedeki bazı antrepolar, yükü kalıcı stoklamaz; konteynerden inen malzeme birkaç gün içinde parçalara ayrılıp OSB içindeki üretim tesislerine dağıtılır. Bu transit modelde forklift operasyonunun önceliği stoklama değil hızlı ayrıştırmadır — gelen parti daha kapıdan girerken hangi üretim hattına gideceği belli olmalı, palet buna göre etiketlenmeli ve bekleme alanı, dağıtım sırasına göre önceden bölünmelidir. Ayrıştırma gecikirse antrepo, aslında geçici konaklama yeri olması gereken alanda kalıcı stok biriktirmeye başlar ve bu da hem yer hem forklift trafiğini tıkar. Transit ağırlıklı sahalarda makine sayısından çok, gelen partinin aynı gün dağıtılabilme hızı ölçülür.",
+            },
+            {
+                baslik: "Çok kiracılı depo sahaları: makine kimin, sorumluluk nerede biter",
+                metin:
+                    "Çiğli'deki bazı antrepo ve lojistik merkezleri, tek bir firmanın değil birden fazla kiracının aynı çatı altında çalıştığı yapılardır. Bu düzende forklift ya kiracıya özel (kendi makinesi, kendi operatörü, kendi rampa penceresi) ya da ortak havuzdan paylaşımlıdır. Paylaşımlı modelde çatışma noktası bellidir — iki kiracının sevkiyatı aynı saate denk geldiğinde makine kimin işini önce yapacak? Bu soru işin ortasında değil, sözleşme aşamasında cevaplanmalıdır: rampa penceresi kiracı bazında önceden paylaştırılır ve makine, o pencerede yalnız o kiracıya çalışır. Ortak alan yönetiminin olmadığı paylaşımlı depolarda, forklift kiralaması genelde kiracı sayısı kadar ayrı sözleşmeye bölünür — bu, çatışmayı en baştan ortadan kaldırır.",
+            },
+            {
+                baslik: "OSB-liman nakliye penceresi: kamyonun geldiği saate göre saha planı",
+                metin:
+                    "Atatürk OSB'den limana veya kargo terminaline giden nakliyenin kendi trafik penceresi vardır — şehir içi ağır vasıta kısıtları, liman giriş kuyruğu ve gümrük işlem saatleri, kamyonun hangi saatte yola çıkması gerektiğini dolaylı olarak belirler. Antrepo tarafında forklift planı bu pencereye göre geriye doğru kurulur: kamyon şu saatte çıkmak zorundaysa, yükleme şu saatte bitmeli, palet toplama ondan önce tamamlanmalıdır. Bu zincirin en sık kırıldığı yer, yükleme öncesi hazırlığın kamyon kapıya yanaşana kadar ertelenmesidir — o noktada forklift arama moduna geçer ve pencere kaçar. Sahaların çoğunda çözüm basittir: günün sevkiyat listesi sabah bloklanır, paletler kamyon gelmeden yükleme ağzına dizilir.",
+            },
+            {
+                baslik: "Akülü-dizel ayrımı: kapalı antrepo ile açık rampa arasında sınır",
+                metin:
+                    "Çiğli'deki antrepoların çoğu kapalı hacimli yapılardır ve içeride egzozlu makine çalıştırmak emisyon nedeniyle uygun değildir — antrepo içi trafik akülü makinelerle yürütülür. Dış rampa, kamyon manevra alanı ve açık konteyner boşaltma sahası ise dizel sınıfın alanıdır; bozuk zemin toleransı ve kesintisiz çalışma isteyen bu bölgelerde akülünün şarj molası vermesi verim kaybı yaratır. İki bölge arasındaki geçiş noktası — antrepo kapısı — bir devir istasyonu gibi tasarlanmalıdır: dış makine yükü kapı önündeki tampon alana bırakır, iç makine oradan devralır. Bu ayrımı yapmayan sahalarda ya dizel makine antrepoya girer ya da akülü makine dış rampada güçsüz kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Antrepo akışında iş noktası — makine eşleşmesi",
+                paragraflar: [
+                    "Çiğli çevresindeki antrepo ve dağıtım sahalarında tipik iş noktaları ve uygun makine sınıfı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta", "İş", "Makine", "Kritik ayrıntı"],
+                    satirlar: [
+                        ["Konteyner boşaltma", "Kutu içi elleçleme", "1,5 – 2,5 ton, kısa şasi", "Serbest kaldırmalı mast"],
+                        ["Ara toplama alanı", "Konteynerden raf sahasına devir", "Akülü 2 ton", "Tampon alan tanımlı olmalı"],
+                        ["Raf koridoru", "Standart palet istifi", "Akülü, koridor genişliğine göre", "Dar koridorda reach truck"],
+                        ["Dış rampa / kapı", "Kamyon boşaltma-yükleme", "Dizel 2,5 – 3 ton", "İç-dış makine devir noktası"],
+                        ["Sevkiyat ağzı", "İhracat/OSB içi dağıtım paleti", "Akülü, sideshift", "Nakliye penceresine göre hazırlık"],
+                    ],
+                },
+            },
+            {
+                baslik: "Paylaşımlı antrepoda kiralama modeli: pencere ve sorumluluk yazılı olmalı",
+                paragraflar: [
+                    "Birden fazla kiracının aynı sahayı paylaştığı antrepolarda forklift kiralamasının en kırılgan noktası, sözlü anlayışa dayanan paylaşım düzenidir. İki kiracının yükü aynı saate denk geldiğinde 'kim önce' sorusu sahada değil sözleşmede cevaplanmış olmalıdır — her kiracıya sabit bir rampa penceresi ayrılır ve makine o pencerede yalnız o kiracıya hizmet eder. Ortak makine havuzu kullanılıyorsa, havuzun kaç makineden oluştuğu ve yoğun saatte önceliğin nasıl belirleneceği baştan yazılır.",
+                    "Bu netlik, kiracılar arasındaki sürtünmeyi ortadan kaldırdığı gibi kiralayan firma için de öngörülebilirlik sağlar: hangi saatte kaç makinenin fiilen çalıştığı bilinir, filo büyüklüğü tahminle değil kayıtla belirlenir. Yeni kiracı sahaya girdiğinde pencere planı yeniden gözden geçirilir; büyüyen antrepoda bu gözden geçirme, sorunun büyümeden çözülmesinin tek yoludur.",
+                ],
+            },
+            {
+                baslik: "Nakliye penceresine göre geriye doğru planlama",
+                paragraflar: [
+                    "Atatürk OSB ile liman ve kargo terminali arasındaki nakliyenin kendi zaman kısıtları vardır ve antrepo tarafındaki forklift planı bu kısıtları veri olarak alır. Kamyonun yola çıkması gereken saat sabitse, yükleme bitiş saati ondan geriye, palet toplama başlangıcı ondan da geriye hesaplanır ve her adımın süresi gerçekçi tutulur — 'hızlı yaparız' varsayımı, plan yerine geçmez. Bu geriye doğru planlamanın en büyük kazancı, forkliftin kamyon kapıda beklerken değil kamyon gelmeden önce çalışmasıdır.",
+                    "Planın günlük işlemesi için sevkiyat listesinin bir gün önceden antrepo ekibine ulaşması yeterlidir; liste geç gelirse bütün geriye doğru hesap çöker ve forklift yine arama-toplama moduna geri düşer. Bu, teknik değil iletişim meselesidir ve çoğu antrepoda düzeltilmesi en kolay noktadır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Antrepomuza konteynerle gelen malzemeyi boşaltıp doğrudan rafa kaldırıyoruz; tek makineyle idare edilir mi?",
+                cevap:
+                    "Kısa vadede idare edilir ama verim kaybıyla: konteyner içine girecek makine kısa şasili, tam serbest kaldırmalı mastlı ve düşük tonajlı olmak zorundadır — bu profil yüksek raf istifinde yetersiz kalır. Tersine, raf istifine uygun makine konteynerin kapı yüksekliğine ve taban yüküne uygun değildir. İki işi tek makineyle yapan sahalarda genelde ya boşaltma yavaşlar ya istif verimsizleşir. Önerdiğimiz düzen, boşaltma noktası ile raf sahası arasına bir ara toplama alanı koymaktır: konteyner makinesi yükü oraya bırakır, raf makinesi devralır. Günlük konteyner hacminizi ve raf kotlarınızı paylaşın; tek makine mi iki makineli akış mı daha ekonomik, birlikte hesaplayalım.",
+            },
+            {
+                soru: "Transit malzememiz antrepoda birkaç gün kalıyor ama bazen haftalarca kalıyor; bu sorun mu?",
+                cevap:
+                    "Transit modelin bozulduğunun işaretidir. Antrepo geçici konaklama için tasarlandıysa, partinin üretim hattına dağıtım hızı asıl performans göstergesidir; parti haftalarca beklerse antrepo fiilen kalıcı depoya dönüşür ve bu da hem yer hem forklift trafiğini tıkar — çünkü saha, dağıtılmayı bekleyen paletlerle dolar ve yeni gelen konteynerin boşaltılacak yeri kalmaz. Kök neden genelde dağıtım kararının gecikmesidir: parti hangi hatta gideceği belirlenmeden bekletiliyordur. Çözüm, partinin daha kapıdan girerken hedef hatla etiketlenmesi ve bekleme alanının dağıtım sırasına göre önceden bölünmesidir. Ortalama bekleme sürenizi ve dağıtım kararının kimde olduğunu paylaşın; süreci birlikte kısaltalım.",
+            },
+            {
+                soru: "Depomuzda üç farklı kiracı var, forklift zamanlaması sürekli çakışıyor; nasıl düzenleriz?",
+                cevap:
+                    "Çakışma, paylaşımın sözlü anlayışa bırakılmasından doğar. Kalıcı çözüm, her kiracıya sabit bir rampa/yükleme penceresi tanımlamak ve makinenin o pencerede yalnız o kiracıya çalışmasıdır — bu düzen bir kez yazılı hâle geldiğinde 'kim önce' tartışması biter. Ortak makine havuzu kullanılacaksa havuzun büyüklüğü ve yoğun saatte önceliğin nasıl belirleneceği (örneğin rezervasyon sırasına göre) baştan tanımlanmalıdır. Üç kiracının tipik sevkiyat saatlerini paylaşın; çakışan pencereleri görüp ya zaman ayrımıyla ya ek makineyle çözüme kavuşturalım.",
+            },
+            {
+                soru: "Kamyonlarımız liman kapanış saatine yetişemiyor, antrepoda gecikme mi var?",
+                cevap:
+                    "Büyük ihtimalle evet ve neden genelde yükleme hazırlığının kamyon kapıya gelene kadar ertelenmesidir. Doğru kurulum tam tersine işler: kamyonun yola çıkması gereken saat sabit alınır, yükleme bitiş saati ondan geriye hesaplanır, palet toplama süresi de ondan geriye — ve her adım kamyon gelmeden tamamlanmış olur. Bunun işlemesi için sevkiyat listesinin bir gün önceden antrepo ekibine ulaşması yeterlidir; liste geç gelirse geriye doğru hesabın tamamı çöker. Liman kapanış saatinizi ve mevcut yükleme başlangıç saatinizi paylaşın; aradaki farkı geriye doğru planla kapatalım.",
+            },
+            {
+                soru: "Antrepomuzda hem dizel hem akülü forklift çalışıyor; ikisi aynı anda kapıdan geçebilir mi?",
+                cevap:
+                    "Geçebilir ama düzenli değilse verim kaybettirir. Doğru kurgu, kapıyı bir devir istasyonu olarak görmektir: dış rampa ve açık saha dizelin, antrepo içi akülünün alanıdır ve ikisi aynı yükü sırayla değil devirle taşır — dış makine yükü kapı önündeki tampon alana bırakır, iç makine oradan devralır. Bu ayrım yoksa ya dizel egzozlu hâliyle antrepoya girmeye çalışır ya da akülü dış rampada bozuk zemin ve mesafe karşısında yetersiz kalır. Kapı genişliğinizi ve tampon alan için ayırabileceğiniz metrekareyi paylaşın; devir noktasını birlikte kuralım.",
+            },
+            {
+                soru: "Yeni bir kiracı daha alacağız, mevcut forklift planımız yetecek mi?",
+                cevap:
+                    "Bu, yeni kiracının sevkiyat profiline bağlıdır ve mevcut pencere planının yeniden gözden geçirilmesini gerektirir. İlk soru, yeni kiracının yoğun saatlerinin mevcut kiracılarla çakışıp çakışmadığıdır — çakışmıyorsa aynı filo, farklı bir pencereyle yeni kiracıyı karşılayabilir; çakışıyorsa ya ek makine ya da pencere yeniden dağıtımı gerekir. İkinci soru, yeni kiracının yük tipidir — konteyner trafiği getiriyorsa ara toplama alanı ve kısa şasili makine ihtiyacı yeniden hesaplanmalıdır. Yeni kiracının tahmini hacmini ve sevkiyat sıklığını paylaşın; mevcut filo planını büyümeden önce birlikte test edelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Çiğli'nin Atatürk OSB ve liman bağlantılı lojistik yapısı kamuya açık bilgidir; konteyner elleçleme kuralları ve kapalı alanda emisyon kısıtı sektör standardıdır; paylaşımlı antrepo pencere modeli ve geriye doğru nakliye planlaması firma pratiğimizdir. Tesis adı ve sayısal iddia kullanılmamıştır.",
+    },
+
+    "bolge:foca": {
+        h1: "Foça'da Küçük Ölçekli Forklift Kiralama: Turizm Tedariki ve Tarımsal Sevkiyatın Karma İhtiyacı",
+        giris:
+            "Foça'nın ekonomik dokusu, bölgedeki diğer sanayi ilçelerinden farklı bir forklift talebi üretir: burada büyük bir liman geri sahası veya ağır sanayi kompleksi yoktur; bunun yerine turizm sezonunun tedarik trafiği ile küçük ölçekli tarım ve zeytincilik işletmelerinin sevkiyatı iç içe geçer. Yaz aylarında otel ve tatil köylerinin gıda-içecek-malzeme tedariki artar, kısa mesafeli ama sık teslimat düzeni kurulur; zeytin ve bahçe ürünleri tarafında ise hasat dönemi kendi dönemsel yükünü getirir. İkisinin ortak paydası küçük hacim ve düzensiz taleptir — hiçbiri sabit bir depo forkliftini tam gün meşgul edecek büyüklükte değildir. Bu profil, Foça'daki forklift kiralamasını komşu sanayi ilçelerinden ayırır: burada soru 'kaç ton, kaç makine' değil, 'ne sıklıkla, ne kadar süreyle' sorusudur. Bu sayfa, küçük ölçekli işletmelerin — depo, market tedarik merkezi, küçük paketleme atölyesi, zeytinlik ve bahçe işletmesi — forklift ihtiyacını kısa süreli ve esnek kiralama mantığıyla ele alıyor.",
+        maddeler: [
+            {
+                baslik: "Turizm tedarik zincirinin küçük hacimli, sık teslimatlı yapısı",
+                metin:
+                    "Otel ve tatil tesislerine mal ulaştıran tedarik depoları, büyük partiler değil sık ve küçük partiler taşır — içecek kasası, gıda paleti, mutfak malzemesi, tekstil sevkiyatı gibi kalemler günlük veya haftalık ritimle döner. Bu düzende forkliftin işi, tek seferde çok yük kaldırmak değil, kısa sürede çok sayıda küçük yükü araca yükleyip boşaltmaktır. Makine seçiminde tonajdan çok manevra kabiliyeti öne çıkar — dar sokak ve sınırlı yükleme alanına sahip depo cephelerinde küçük dönüş yarıçaplı, kompakt akülü makine büyük tonajlı dizelden daha kullanışlıdır. Sezon içinde teslimat sıklığı arttığında ihtiyaç makinenin büyümesi değil, çalışma saatinin uzamasıdır.",
+            },
+            {
+                baslik: "Sezonluk tepe: yaz başlangıcında talep neden aniden sıçrar",
+                metin:
+                    "Turizm tedarikinde talep eğrisi keskindir: sezon açılışından önceki birkaç hafta, tesislerin depolarını doldurma dönemidir ve bu dönemde forklift ihtiyacı yıl ortalamasının kat kat üzerine çıkar. Sezon ortasında talep daha düzenli bir ritme oturur, sezon kapanışında ise stok boşaltma ve depo toparlama dönemiyle küçük bir ikinci tepe oluşur. Yıl boyu sabit bir makine tutmak, sezon dışındaki aylarda bu makineyi atıl bırakmak demektir; Foça ölçeğindeki işletmeler için doğru model, sezon açılışı öncesi kısa dönem kiralamayı erkenden bağlamaktır — bölgedeki bütün tedarik depoları aynı haftalarda hareketlendiği için geç kalan talep, müsait makine bulmakta zorlanır.",
+            },
+            {
+                baslik: "Zeytin ve bahçe ürünleri: hasat dönemi elleçlemesi küçük ama yoğun",
+                metin:
+                    "Foça çevresindeki küçük ölçekli zeytinlik ve bahçe işletmelerinde hasat dönemi, kısa süreli ama yoğun bir elleçleme dalgası getirir: kasalar toplama noktasından araca, araçtan işleme veya depolama noktasına taşınır. İşletme ölçeği büyük sanayi tesisleri kadar olmadığı için burada ihtiyaç genelde tek bir orta boy makinedir, ama o makinenin hasat haftalarında günün büyük bölümünde çalışması beklenir. Kısa dönem kiralamanın küçük işletme için avantajı nettir — kendi makinesini alıp yılın onbir ayında atıl bırakmak yerine, hasat haftalarına özel makine tutmak, hem sermaye hem bakım yükünü ortadan kaldırır.",
+            },
+            {
+                baslik: "Dar sahil yolları ve sınırlı depo cepheleri: manevra alanı makineyi belirler",
+                metin:
+                    "Foça'nın yerleşim dokusu, sahil kesiminde dar sokaklar ve sınırlı yükleme cepheleriyle şekillenir; büyük tonajlı bir forkliftin dönüş yarıçapı, bu sokaklarda ve küçük depo avlularında fiilen çalışamaz hâle gelebilir. Bu yüzden bölgedeki küçük ölçekli kiralamalarda ilk soru kapasiteden çok saha ölçüsüdür — depo kapısının genişliği, avlunun dönüş alanı, kamyonun yanaşabileceği mesafe. Kompakt sınıf makineler, hem dar alanda hem de tarihi doku içindeki cadde sınırlamalarında (bazı bölgelerde araç giriş kısıtı olabilir) daha esnek çözüm sunar. Saha ölçüleri netleşmeden yapılan makine teklifi, sahaya sığmama riskiyle geri döner.",
+            },
+            {
+                baslik: "Kısa süreli ve tek seferlik ihtiyaçlar: taşınma, etkinlik, stok sayımı",
+                metin:
+                    "Küçük ölçekli işletme ve tedarik depolarının forklift ihtiyacı her zaman düzenli bir sevkiyat ritmine bağlı değildir; depo taşınması, mevsim sonu stok sayımı, bir etkinlik veya festival için geçici kurulum-söküm gibi tek seferlik işler de bölgede sık görülür. Bu tip işlerde günlük veya birkaç günlük kısa dönem kiralama, satın almanın veya uzun sözleşmenin yerini alır ve genelde operatörlü modelle çalışılır — küçük işletmenin kendi belgeli operatörü olmadığı durumlarda makineyle birlikte operatör gelmesi, işin tek seferlik doğasına en uygun çözümdür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Küçük ölçekli ihtiyaç profili ve kiralama süresi eşleşmesi",
+                paragraflar: [
+                    "Foça çevresindeki tipik küçük ölçekli işletme profilleri ve bunlara uygun kiralama süresi aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme tipi", "Yük profili", "Makine sınıfı", "Tipik kiralama süresi"],
+                    satirlar: [
+                        ["Turizm tedarik deposu", "Küçük hacimli, sık teslimat", "Akülü 1,5 – 2 ton, kompakt", "Sezonluk (haftalar-aylar)"],
+                        ["Market/gıda tedarik merkezi", "Palet, koli, kasa", "Akülü 1,5 – 2 ton", "Uzun dönem veya sezonluk"],
+                        ["Zeytinlik / bahçe işletmesi", "Kasa, dökme sandık", "Orta tonaj, açık saha uyumlu", "Hasat haftaları (kısa dönem)"],
+                        ["Küçük paketleme atölyesi", "Karışık palet", "Akülü, kompakt", "Uzun dönem düşük yoğunluklu"],
+                        ["Tek seferlik iş", "Taşınma, kurulum-söküm", "İşe göre değişken", "Günlük / birkaç gün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon öncesi rezervasyon: erken bağlamak neden fiyat değil müsaitlik meselesidir",
+                paragraflar: [
+                    "Foça'da forklift talebinin sezonsallığı, komşu sanayi ilçelerinden farklı bir dinamik yaratır: burada talep bir üretim takviminden değil turizm ve hasat takviminden gelir, ama sonuç aynıdır — bölgedeki bütün işletmeler benzer haftalarda harekete geçer. Sezon açılışına yakın günlerde talep edilen makine, müsaitlik sıkıntısıyla karşılaşabilir; bu yüzden küçük işletmeler için de erken rezervasyon, büyük sanayi tesisleri kadar önemlidir. Sezon takviminizin netleştiği an — genelde birkaç ay öncesinden tahmin edilebilir — rezervasyonun bağlanacağı andır.",
+                    "Erken rezervasyonun ikinci faydası, makinenin işe uygun donanımla (varsa özel ataşman, uygun lastik) hazırlanabilmesidir. Son dakika taleplerinde müsait olan makine her zaman en uygun donanımlı makine olmayabilir.",
+                ],
+            },
+            {
+                baslik: "Operatörsüz küçük işletme için pratik çözüm: operatörlü kiralama",
+                paragraflar: [
+                    "Küçük ölçekli işletmelerin çoğunda forklift kullanımı süreklilik arz etmez ve bu yüzden kendi bünyesinde belgeli operatör bulundurmak ekonomik olmayabilir. Bu durumda operatörlü kiralama — makineyle birlikte MYK belgeli operatörün gelmesi — hem yasal zorunluluğu karşılar hem de işletmenin personel eğitim yükünü ortadan kaldırır. Tek seferlik veya sezonluk kısa işlerde bu model neredeyse standarttır; iş bitince ilişki makineyle birlikte kapanır ve işletme yıl boyu forklift operatörü istihdam etmek zorunda kalmaz.",
+                    "Sürekli, düşük yoğunluklu bir ihtiyacı olan işletmeler için ise (örneğin haftada birkaç gün çalışan küçük bir tedarik deposu) kendi personelinden birine operatörlük belgesi kazandırmak, uzun vadede daha ekonomik olabilir. Hangi modelin uygun olduğu, işin yıllık toplam forklift saatine bakılarak birlikte hesaplanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otel tedarik depomuz sadece yaz aylarında yoğun çalışıyor; yıl boyu makine tutmak zorunda mıyız?",
+                cevap:
+                    "Hayır ve çoğu benzer profildeki işletme için doğru olan da bu değildir. Turizm tedarikinde talep eğrisi keskin bir sezonsallık gösterir — sezon açılışı öncesi birkaç hafta yoğun, sezon ortası düzenli, sezon dışı ise çok düşük. Yıl boyu sabit makine tutmak, sezon dışındaki aylarda atıl kapasite ödemek demektir. Doğru model, sezon açılışına yakın kısa-orta dönem kiralamayı erken bağlamaktır; bölgedeki bütün tedarik depoları benzer haftalarda hareketlendiği için geç kalan talep müsaitlik sorunuyla karşılaşabilir. Sezon takviminizi ve tahmini yoğun haftalarınızı paylaşın; kiralama süresini ve makine sınıfını birlikte netleştirelim.",
+            },
+            {
+                soru: "Depomuzun kapısı ve avlusu dar; büyük forklift giremeyeceğini düşünüyoruz. Ne önerirsiniz?",
+                cevap:
+                    "Haklı bir endişe — Foça'nın sahil kesimindeki dar sokak ve sınırlı depo cepheleri, büyük tonajlı makinenin dönüş yarıçapını fiilen çalışamaz hâle getirebilir. Bu profildeki sahalarda ilk soru kapasiteden çok manevra alanıdır: kapı genişliği, avlunun dönüş çapı ve kamyonun yanaşabileceği mesafe. Kompakt sınıf akülü makineler, hem dar alanlarda hem de tarihi doku içindeki olası araç kısıtlarında daha esnek çalışır ve çoğu küçük ölçekli işletmenin yük profili zaten bu sınıfın kapasitesini aşmaz. Depo kapı ölçülerinizi ve avlu fotoğraflarınızı paylaşın; sahaya sığacak makineyi birlikte belirleyelim.",
+            },
+            {
+                soru: "Zeytin hasadımız üç hafta sürüyor; bu kısa süre için kiralama mantıklı mı, yoksa kendi makinemizi mi almalıyız?",
+                cevap:
+                    "Üç haftalık bir kullanım için kiralama neredeyse her senaryoda daha ekonomiktir. Kendi makinenizi almak, satın alma bedelinin yanında yılın kalan kırk dokuz haftasında atıl bekleme, bakım ve muhafaza maliyetini de üstlenmek demektir. Kiralamada bu kalemler düşer — makine hasat başında gelir, hasat bitince iade edilir ve işletmenizin bilançosunda demirbaş değil dönemsel gider görünür. Kendi makinenizi almak ancak forkliftin yıl boyu başka işlerde de (bahçe bakımı, malzeme taşıma) düzenli kullanılacağı durumda anlam kazanır. Hasat takviminizi ve günlük kasa hacminizi paylaşın; üç haftalık kiralama planını birlikte çıkaralım.",
+            },
+            {
+                soru: "Depo taşınması için bir günlüğüne forklift lazım; bu kadar kısa süre için kiralama yapılıyor mu?",
+                cevap:
+                    "Yapılıyor ve bu tip tek seferlik işler bölgede sık görülüyor — depo taşınması, etkinlik kurulum-sökümü, stok sayımı gibi. Günlük kiralamada genelde operatörlü model tercih edilir: işletmenin kendi belgeli operatörü olmadığı durumlarda makineyle birlikte operatör gelmesi, hem yasal zorunluluğu karşılar hem de bir günlük iş için personel eğitme derdini ortadan kaldırır. Taşınacak yükün ölçüsünü, mesafeyi ve varsa dar geçiş noktalarını (asansör, dar koridor, kapı yüksekliği) önceden bildirin; doğru boyutta makineyi ve operatörü o güne göre planlayalım.",
+            },
+            {
+                soru: "Sezon başında talep ettiğimizde makine bulamama riski var mı?",
+                cevap:
+                    "Var, çünkü Foça'daki forklift talebi keskin bir sezonsallık taşır ve bölgedeki bütün turizm tedarik depoları ile tarım işletmeleri benzer haftalarda harekete geçer. Sezon açılışına çok yakın yapılan talepler, müsait makine bulmakta zorlanabilir — özellikle belirli bir ataşman veya donanım gerekiyorsa. Bunun tek çözümü erken rezervasyondur: sezon takviminiz netleştiği an, genelde birkaç ay öncesinden, kiralamayı bağlamak hem müsaitliği garantiler hem de makinenin işinize uygun donanımla hazırlanmasına zaman tanır. Geçen yılki sezon yoğunluk tarihlerinizi hatırlıyorsanız paylaşın; bu yılın rezervasyonunu ona göre erken planlayalım.",
+            },
+            {
+                soru: "Küçük işletmemizde forklift kullanımı haftada birkaç güne düşüyor; kendi operatörümüzü mü eğitmeliyiz, her seferinde operatörlü mü kiralamalıyız?",
+                cevap:
+                    "Bu, yıllık toplam forklift saatinize bağlı bir hesaptır. Kullanım gerçekten seyrekse (haftada bir-iki gün, birkaç saat) operatörlü kiralama genelde daha ekonomiktir — kendi personelinize belge kazandırmanın eğitim maliyeti ve süresi, düşük kullanım sıklığıyla karşılanamayabilir. Kullanım haftanın çoğu gününe yayılıyorsa ise kendi personelinizden birine MYK belgesi kazandırmak, tekrarlanan operatörlü kiralama maliyetinin altında kalır ve süreklilik sağlar. Haftalık ortalama forklift kullanım saatinizi paylaşın; iki modelin yıllık maliyetini birlikte karşılaştıralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Foça'nın turizm ve tarım ağırlıklı ekonomik profili kamuya açık bilgidir; operatör belgesi zorunluluğu Türkiye mevzuatına dayanır; sezonluk kiralama ekonomisi ve dar saha manevra değerlendirmesi firma pratiğimizdir. Tesis adı ve sayısal iddia kullanılmamıştır.",
+    },
+
+    "bolge:menemen-cevre-ilce": {
+        h1: "Menemen ve Çevre İlçelerde Forklift Kiralama: Ova Lojistiğinden Liman Bağlantısına",
+        giris:
+            "Menemen ve çevresindeki ilçeler, İzmir'in liman ve hava kargo omurgasına doğrudan bağlı olmayan ama onunla sürekli alışveriş hâlindeki bir ara bölge oluşturur: ovanın tarım-gıda işleme tesisleri, karayolu boyunca dizilen küçük-orta ölçekli üretim ve depolama tesisleri, buradan çıkan malı hem yerel pazara hem de Aliağa limanına ya da Gaziemir'deki hava kargo terminaline taşır. Bu bölgenin forklift ihtiyacı, tek bir sektörün değil bu geçiş rolünün ürünüdür: bir yandan sahanın kendi içindeki standart depo ve üretim elleçlemesi, öte yandan dışarıya çıkan yükün liman veya terminal standartlarına uygun hazırlanması. Bir palet limana konteynerle gidecekse, Menemen'deki depoda o konteynerin ölçüsüne göre paletlenmesi ve yüklenmesi gerekir; hava kargoya gidecek bir gönderi ise ağırlık-hacim dengesine göre hazırlanmalıdır. Bu sayfa, çevre ilçelerdeki depo ve üretim tesislerinin forklift kararlarını bu bağlantı rolü üzerinden ele alıyor: yerel elleçleme ile liman-terminal hazırlığı arasındaki fark, karayolu nakliyesine göre yükleme disiplini ve bölgenin dağınık saha yapısında filo planlaması.",
+        maddeler: [
+            {
+                baslik: "İki hedefli yük: yerel dağıtım ile liman-terminal sevkiyatı aynı depodan çıkar",
+                metin:
+                    "Menemen çevresindeki birçok tesis, ürettiği veya işlediği malı iki ayrı kanala gönderir — bir kısmı bölge içi ve yurt içi dağıtıma, bir kısmı ihracat kanalıyla limana veya hava kargoya gider. Bu ikilik, forklift operasyonunda tek bir standart yerine iki ayrı hazırlık kuralı gerektirir: yurt içi paletler standart palet ve dorse ölçülerine göre hazırlanırken, ihracat yükü konteyner iç ölçüsüne veya hava kargonun ağırlık-hacim tarifesine göre paletlenir. Aynı depoda iki farklı paletleme standardının karışması, sevkiyat gününde en çok zaman kaybettiren hatadır — yanlış ölçüde paketlenmiş yük konteynere sığmaz veya hava kargoda gereksiz yere ağır ücretlendirilir. Depo içinde iki hedefin ayrı alanlarda hazırlanması, bu karışıklığı baştan önler.",
+            },
+            {
+                baslik: "Konteynere gidecek yükün depo içi hazırlığı: paletleme kutunun ölçüsüne göre yapılır",
+                metin:
+                    "Bir standart konteynerin iç genişliği ve yüksekliği, palet ölçüsü ve istif düzenini doğrudan sınırlar; bu sınır depoda değil sahada fark edilirse, ya yük yeniden paletlenir ya da konteyner boş alanla gönderilir — ikisi de kayıptır. Menemen'deki tesislerde ihracat yükü hazırlanırken forklift operatörünün bildiği bir kural vardır: istif yüksekliği, konteynerin iç yüksekliğinden pay bırakılarak belirlenir ve palet tabanı, kutunun genişliğine göre önceden hesaplanmış ölçüde kurulur. Bu hazırlığın depo içinde, konteyner sahaya gelmeden önce tamamlanması, yükleme gününde forkliftin konteyner önünde beklemeden çalışmasını sağlar.",
+            },
+            {
+                baslik: "Karayolu nakliyesi ve dorse yükleme disiplini",
+                metin:
+                    "Bölgedeki tesislerin büyük kısmı, limana veya terminale kendi aracıyla değil nakliyeci dorsesiyle bağlanır ve bu, yükleme disiplinini karayolu taşımacılığı kurallarına tabi kılar: yük dorse boyunca dengeli dağıtılır, dingil yük sınırları gözetilir ve yük bağlama-sabitleme, forklift işinin bir parçası olarak sayılır — paleti dorseye koymak, işin yarısıdır; bağlamak diğer yarısıdır. Yükleme sırası da önemlidir; limana veya terminale zamanında yetişecek dorse, forkliftin doğru sırayla, bekletmeden yüklediği dorsedir. Sabah erken çıkması gereken bir dorse için yükleme, önceki akşamdan bloklanan bir sevkiyat listesiyle hazırlanmalıdır.",
+            },
+            {
+                baslik: "Dağınık saha yapısı: tek büyük tesis değil, karayolu boyunca dizilen küçük-orta ölçekli tesisler",
+                metin:
+                    "Menemen ve çevresindeki sanayi dokusu, tek bir büyük OSB'de yoğunlaşmak yerine karayolu boyunca dağılmış küçük-orta ölçekli tesislerden oluşur. Bu dağınıklık, forklift kiralamasına kendine özgü bir mantık getirir: her tesisin kendi makinesini tam gün doldurması genelde mümkün değildir, ama tesisler arası mesafe de bir makinenin günde birkaç tesise hizmet vermesini pratik kılmayabilir. Bu ortamda esnek kısa-orta dönem kiralama, sabit filo yatırımından daha uygun bir model olarak öne çıkar — tesis ihtiyacına göre makine süresi ayarlanır ve iş hacmi büyüdükçe kiralama kademeli olarak uzun döneme çevrilir.",
+            },
+            {
+                baslik: "Gecikme maliyeti: liman ve terminal randevusu kaçtığında",
+                metin:
+                    "Menemen'deki bir depodan çıkan yükün limana veya kargo terminaline zamanında ulaşmaması, sadece bir günlük gecikme değildir — liman rıhtım programı ve gemi yükleme sırası, hava kargoda ise uçuş programı belirli randevu pencerelerine bağlıdır ve kaçan pencere genelde bir sonraki müsait sefere kadar beklemek anlamına gelir. Depo içindeki forklift gecikmesi bu yüzden zincirin en sonunda büyür: sahada yarım saat kaybedilen bir yükleme, limanda veya terminalde günler süren bir gecikmeye dönüşebilir. Bu nedenle liman veya terminal bağlantılı sevkiyat yapan tesislerde forklift planlaması, sadece o günün işini değil bağlantılı olduğu nakliye ve liman-terminal takvimini de hesaba katar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki hedefli sevkiyatta depo içi hazırlık ayrımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, yerel dağıtım ile liman-terminal bağlantılı sevkiyatın depo içi hazırlık farklarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Paletleme standardı", "Kritik ölçü", "Forklift önceliği"],
+                    satirlar: [
+                        ["Yurt içi / bölge dağıtımı", "Standart palet, dorse yerleşimi", "Dingil yükü dengesi", "Sıralı yükleme, hızlı çevrim"],
+                        ["Liman / konteyner ihracatı", "Konteyner iç ölçüsüne göre", "İstif yüksekliği payı", "Konteyner önünde bekletmeden yükleme"],
+                        ["Hava kargo", "Ağırlık-hacim dengesine göre", "Hacimsel ağırlık oranı", "Randevu penceresine göre hazırlık"],
+                        ["Serbest bölge / gümrüklü", "Belgeli, adresli istif", "İzlenebilirlik kaydı", "Kayıt ile eşleşen kaldırma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dağınık sahada kiralama modeli: kademeli büyüme",
+                paragraflar: [
+                    "Karayolu boyunca dizilen küçük-orta ölçekli tesislerin çoğu, iş hacmi büyüdükçe forklift ihtiyacını aşamalı olarak artırır. Başlangıçta günlük veya haftalık kısa dönem kiralama, dalgalı ve henüz oturmamış talebi karşılar; iş hacmi düzene oturdukça aylık, sonra yıllık sözleşmeye geçilir. Bu kademeli model, tesisin sermayesini erken bir makine yatırımına bağlamadan büyümesine imkân tanır ve talep beklenenden düşük çıkarsa geri adım atmak da kolaydır — kısa dönem sözleşme basitçe uzatılmaz.",
+                    "Bu modelin işlemesi için tek şart, tesisin kendi hacim artışını düzenli izlemesidir: aylık sevkiyat sayısı ve ortalama palet miktarı takip edildiğinde, hangi ayda kiralama süresinin bir kademe yukarı çıkarılacağı veriyle görülür, tahminle değil.",
+                ],
+            },
+            {
+                baslik: "Liman-terminal randevusuna göre geriye doğru sevkiyat planı",
+                paragraflar: [
+                    "Liman veya hava kargo bağlantılı sevkiyat yapan tesislerde forklift planının başlangıç noktası, o günün işi değil bağlı olduğu randevudur. Gemi yükleme sırası veya uçuş kargo kabul saati sabitse, dorsenin yola çıkması gereken saat ondan geriye, depodaki yükleme bitiş saati ondan geriye, palet hazırlığının başlangıcı da ondan geriye hesaplanır. Bu geriye doğru zincirin her halkasına gerçekçi bir süre payı bırakılması, trafik veya küçük bir gecikmenin bütün planı çökertmemesini sağlar.",
+                    "Bu planlamanın en sık kırıldığı nokta, hazırlığın 'dorse geldiğinde başlarız' anlayışıyla ertelenmesidir. Sevkiyat listesinin bir gün önceden depo ekibine ulaşması ve palet hazırlığının dorse gelmeden tamamlanmış olması, randevuyu kaçırmamanın en basit ve en etkili önlemidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzdan hem yurt içine hem ihracata mal çıkıyor; aynı forklift ve aynı düzenle mi çalışmalıyız?",
+                cevap:
+                    "Makine aynı kalabilir ama paletleme standardı ayrılmalıdır. Yurt içi sevkiyat standart palet ve dorse ölçülerine göre hazırlanırken, ihracat yükü konteynerin iç ölçüsüne veya hava kargonun ağırlık-hacim dengesine göre paletlenmelidir; bu iki standardın depo içinde karışması, sevkiyat gününde en sık yaşanan gecikme nedenidir — yanlış ölçüde hazırlanmış yük konteynere sığmaz veya hava kargoda fazla ücretlendirilir. Depo içinde iki hedefin ayrı bir bölgede, ayrı paletleme kurallarıyla hazırlanması bu karışıklığı önler. Hangi oranda yurt içi, hangi oranda ihracat sevkiyatı yaptığınızı paylaşın; depo yerleşimini bu ayrıma göre birlikte gözden geçirelim.",
+            },
+            {
+                soru: "Konteynere yüklediğimiz paletler bazen sığmıyor, boş alan kalıyor; sorun nerede?",
+                cevap:
+                    "Sorun neredeyse her zaman paletlemenin konteyner sahaya gelmeden önce, kutunun ölçüsüne göre yapılmamasındandır. Standart bir konteynerin iç genişliği ve yüksekliği palet ölçüsünü ve istif düzenini doğrudan sınırlar; bu sınır depoda hesaba katılmazsa saha da fark edilir ve ya yeniden paletleme yapılır ya da konteyner eksik doldurulmuş gönderilir. Doğru yöntem, istif yüksekliğini konteynerin iç yüksekliğinden pay bırakarak önceden belirlemek ve palet tabanını kutunun genişliğine göre kurmaktır — bu hesap konteyner kapıya gelmeden, depo içinde tamamlanır. Kullandığınız konteyner tipini ve tipik palet ölçülerinizi paylaşın; istif planını birlikte önceden çıkaralım.",
+            },
+            {
+                soru: "Dorse sabah erken çıkmak zorunda ama yükleme her seferinde gecikiyor; neden?",
+                cevap:
+                    "Genelde nedeni, yükleme hazırlığının dorse kapıya yanaşana kadar başlamamasıdır. Doğru düzen tam tersidir: dorsenin çıkış saati sabit alınır, yükleme bitiş saati ondan geriye, palet hazırlığının başlangıcı ondan da geriye hesaplanır — yani forklift, dorse gelmeden önce paletleri yükleme ağzına dizmiş olur. Bunun işlemesi için sevkiyat listesinin bir gün önceden depo ekibine ulaşması yeterlidir; liste sabah geldiğinde geriye doğru hesap için zaman kalmaz ve gecikme kronikleşir. Mevcut dorse çıkış saatinizi ve şu anki yükleme başlangıç saatinizi paylaşın; geriye doğru planı birlikte kuralım.",
+            },
+            {
+                soru: "Tesisimiz küçük, forklifti tam gün dolduramıyoruz ama komşu tesisle paylaşmak da pratik değil; ne öneriyorsunuz?",
+                cevap:
+                    "Bölgenin dağınık saha yapısında bu, sık karşılaşılan bir durumdur ve çözüm genelde makine paylaşımı değil, kiralama süresinin iş hacmine göre esnetilmesidir. İş hacminiz dalgalıysa günlük veya haftalık kısa dönem kiralama, sabit bir makineyi atıl bırakmadan ihtiyacı karşılar; hacim düzene oturdukça aylık, sonra yıllık sözleşmeye kademeli geçiş yapılır. Bu model, sermayenizi erken bir makine yatırımına bağlamadan büyümenize imkân tanır. Aylık ortalama sevkiyat sayınızı ve forklift kullanım saatinizi paylaşın; hangi kademede olduğunuzu birlikte değerlendirelim.",
+            },
+            {
+                soru: "Limana gönderdiğimiz bir sevkiyat rıhtım programını kaçırdı, günler bekledi; bunu nasıl önleriz?",
+                cevap:
+                    "Kaçan randevunun bedeli genelde depo içindeki küçük bir gecikmenin zincirin sonunda büyümesidir — gemi yükleme sırası belirli pencerelere bağlıdır ve kaçan pencere bir sonraki müsait sefere kadar beklemek demektir. Önlem, forklift planını o günün işi değil bağlı olduğu liman randevusu üzerinden geriye doğru kurmaktır: dorsenin liman kapısına ulaşması gereken saat sabitlenir, oradan geriye doğru yola çıkış, yükleme bitişi ve palet hazırlığı saatleri hesaplanır ve her adıma gerçekçi pay bırakılır. Son sevkiyatınızda hangi adımda gecikme yaşandığını (hazırlık, yükleme, yola çıkış) paylaşın; zincirin zayıf halkasını birlikte tespit edip düzeltelim.",
+            },
+            {
+                soru: "Hava kargoya gönderdiğimiz bir parti beklenenden çok ücretlendirildi; forklift veya paletlemeyle ilgisi olabilir mi?",
+                cevap:
+                    "Olabilir ve sık karşılaşılan bir nedeni var: hava taşımacılığında ücretlendirme çoğu zaman gerçek ağırlık değil hacimsel ağırlık üzerinden yapılır — yani gönderinin kapladığı hacim, ağırlığından bağımsız olarak maliyeti belirler. Depoda paletleme yapılırken gereksiz boşluk bırakılması veya palet üzerinde yükün verimsiz istiflenmesi, hacmi büyütüp maliyeti artırır. Paletleme sırasında yükün hacmini sıkılaştırmak — boşluğu azaltmak, istifi yükün gerçek ölçüsüne göre kurmak — bu maliyeti doğrudan düşürür. Son sevkiyatınızın palet ölçülerini ve içeriğini paylaşın; hacim-ağırlık dengesini birlikte gözden geçirelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Menemen ve çevresinin tarım-gıda ağırlıklı sanayi dokusu ile İzmir'in liman-hava kargo altyapısına yakınlığı kamuya açık bilgidir; konteyner iç ölçü kısıtı, dorse dingil yükü dengesi ve hava kargoda hacimsel ağırlık uygulaması sektör standardı bilgilerdir; kademeli kiralama modeli ve geriye doğru sevkiyat planlaması firma pratiğimizdir. Tesis adı ve sayısal iddia kullanılmamıştır.",
+    },
 };
