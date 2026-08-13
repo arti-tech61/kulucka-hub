@@ -420,199 +420,199 @@ export const BOZUYUKMANLIFT_NET: Record<string, BespokeIcerik> = {
     },
 
     "bolge:pazaryeri": {
-        h1: "Pazaryeri'nde Küçük Ölçekli Cam ve Seramik Atölyelerine Yüksek Erişim Manlift",
+        h1: "Pazaryeri'nde Özel Sipariş Cam ve Vitray Atölyelerine Yüksek Erişim Manlift",
         giris:
-            "Pazaryeri, Bilecik'in küçük ölçekli ilçelerinden biridir ve buradaki cam-seramik bağlantılı iş, büyük üretim hattından çok, bölgedeki ana üretime malzeme ya da yarı hizmet sağlayan minik atölyelerden gelir: bir kesim aparatı üreticisi, bir ambalaj malzemesi tedarikçisi, birkaç kişilik bir cam çerçeveleme ya da montaj işletmesi. Bu ölçekte iş küçüktür ama malzeme aynı kırılganlığı taşır — bir çerçeveleme atölyesindeki işlenmiş cam paneller, bir ambalaj tedarikçisindeki köpük-karton stoku arasına yerleştirilmiş numune camlar, hepsi aynı dikkati ister. Pazaryeri'ndeki asıl güçlük teknik değil ölçektir: iki saatlik bir iş için makine göndermek, taşımayı işin önüne geçirir. Bu yüzden buradaki düzenimiz, küçük işleri biriktirip bölge turuna eklemek üzerine kuruludur. Bu sayfa hem bu ölçekteki tipik üst kot kalemlerini hem de işi ekonomik kılan planlama biçimini anlatıyor.",
+            "Bir cam parçasının değeri her zaman büyüklüğüyle ölçülmez; bazen tam tersine, küçük ve tek olması onu değerli kılar. Pazaryeri'ndeki cam bağlantılı işletmelerin çoğu bu tanıma uyar: özel sipariş vitray üreten birkaç kişilik bir atölye, dekoratif cam kesimi yapan bir zanaatkâr, restorasyon projelerine renkli cam parçası hazırlayan küçük bir işletme. Bu atölyelerin ortak özelliği, elde ettikleri stoğun büyük üretim hattındaki gibi standart ve bol değil, özel ve sınırlı olmasıdır — bir vitray panosunun kaybı, aynı desende ikinci bir parça bulamama riskiyle gelir. Bizim buradaki rolümüz, bu küçük ama kıymetli işlerde yüksek erişim ihtiyacını, malzemenin tekrarlanamaz olduğunu bilerek karşılamaktır. Bu sayfa, ilçedeki özel sipariş cam işlerinde hangi noktalara nasıl yaklaştığımızı ve küçük ölçekli talebi nasıl ekonomik hâle getirdiğimizi anlatıyor.",
         maddeler: [
             {
-                baslik: "Cam çerçeveleme ve montaj atölyelerinde yüksek stok kontrolü",
+                baslik: "Vitray atölyelerinde tavan asma sistemleri ve sergileme rafları",
                 metin:
-                    "Küçük ölçekli cam çerçeveleme atölyelerinde işlenmiş paneller, genellikle dikey ya da eğik raflarda az sayıda ama değerli parça olarak tutulur. Bu tür atölyelerde tek bir panel kaybı, büyük bir üretim hattındakinden orantısal olarak daha ağır bir maliyettir, çünkü stok az ve yeniden tedarik süresi uzundur. Raf üst bölümlerindeki kontrol ve düzenleme, sepetten temassız biçimde yapılır; personel panele değil panelin çevresine, bağlantı noktalarına bakar.",
+                    "Tamamlanmış vitray panoları, satışa ya da teslime hazır olana kadar genellikle tavana yakın asma sistemlerde ya da yüksek sergileme raflarında sergilenir — hem ışığın panoyu arkadan aydınlatması için hem de zemin trafiğinden uzak tutulması için. Bu asma noktalarının kontrolü ve yeni bir panonun asılması, sepetten yapılan hassas bir iştir; personel panoya değil asma teline ya da rafın kendisine müdahale eder, kurşun bantlı cam derzlerine doğrudan yük bindirilmez.",
             },
             {
-                baslik: "Ambalaj ve numune stoklarında tavan altı düzen",
+                baslik: "Restorasyon siparişlerinde eşleştirme ve arşiv camı stoklaması",
                 metin:
-                    "Ambalaj malzemesi tedarik eden küçük işletmelerde tavan altı alan, genellikle karton-köpük stokları ile birlikte numune cam veya seramik parçaların saklandığı raflara ayrılır. Bu karışık depolama, üst kot çalışmasında dikkat gerektirir — hafif ambalaj malzemesinin arasına yerleştirilmiş kırılgan bir numune, kolayca gözden kaçabilir. Çalışmaya başlamadan önce raf içeriğinin ne olduğunu sorarız; kırılgan parça bulunan bölgelerde ek özen gösteririz.",
+                    "Restorasyon projelerine cam hazırlayan atölyelerde, eski bir yapının orijinal rengine ya da dokusuna en yakın camı bulmak, üretimden çok arşivden bir parça çıkarmaya benzer — bu yüzden atölyeler yıllar içinde biriktirdikleri nadir cam örneklerini yüksek raflarda saklar. Bu arşivin bir parçasının kırılması, yalnızca o parçayı değil, gelecekte gelecek bir restorasyon siparişini de riske atar. Raf üstü kontrolde bu bilinçle çalışırız; hangi rafın arşiv niteliğinde olduğunu atölyeden önceden öğreniriz.",
             },
             {
-                baslik: "Küçük imalathanelerde aydınlatma ve aspirasyon",
+                baslik: "Kesim tezgâhı üstü aydınlatmanın renk doğruluğuna etkisi",
                 metin:
-                    "Bölgedeki küçük kesim ya da işleme atölyelerinde üst kot işleri çoğunlukla aydınlatma ve aspirasyon hattında yoğunlaşır. Bu yapılarda özel zorluk tavan yüksekliğinden çok zemindeki doluluktur — tezgâh ve stok arasında dar bir geçiş, makinenin manevra alanını sınırlar. Eklemli sınıf makineler bu doluluğun üzerinden aşarak çalışır; çalışma öncesi tek isteğimiz, makinenin gireceği güzergâhın temizlenmiş olmasıdır.",
+                    "Renkli cam kesiminde doğru rengi seçmek, ışığın kalitesine doğrudan bağlıdır — yanlış renk sıcaklığındaki bir ışık altında seçilen cam, gün ışığında beklenenden farklı görünebilir. Bu yüzden kesim tezgâhı üstü aydınlatmanın hem yeterli hem doğru renk sıcaklığında olması, küçük vitray atölyeleri için sıradan bir aydınlatma meselesinden daha fazlasıdır. Armatür değişimi ya da bakımı sırasında altındaki cam stoku güvenli mesafeye çekilir, sepet tezgâhın üstüne değil kenarından yaklaşır.",
             },
             {
-                baslik: "Sevkiyat öncesi kontrol ve paketleme alanı",
+                baslik: "Küçük ölçekli işlerde ambalajlama ve teslim öncesi son kontrol",
                 metin:
-                    "Bu ölçekteki işletmelerin çoğunda sevkiyat alanı, üretim alanından ayrı değildir — paketlenmiş ürün, aynı hacmin bir köşesinde yüksek istiflenir. İstif üst sıralarının kontrolü ve varsa tavan altı yükleme rampası mekanizmalarının bakımı, sepetten yapılan kısa bir turla tamamlanır. Küçük ölçekte bu iş genellikle diğer kalemlerle (aydınlatma, raf kontrolü) aynı ziyarette birleştirilir.",
+                    "Özel sipariş bir vitray ya da dekoratif cam parçası, teslim öncesi genellikle atölyenin bir köşesinde özel ambalajıyla bekletilir ve bu bekleme alanı da yükseğe uzanabilir. Teslim öncesi son kontrolde, paketin üst sırasının sağlamlığı ve varsa asma noktasındaki son gerginlik kontrolü sepetten yapılır. Bu, genellikle diğer kalemlerle (asma sistemi kontrolü, aydınlatma) aynı ziyarette birleştirilen kısa bir iştir.",
             },
             {
                 baslik: "Küçük işleri birleştiren gün planı",
                 metin:
-                    "Bu ölçekte ekonomiyi belirleyen, makinenin bölgede geçirdiği günün ne kadarının işe dönüştüğüdür. Uygulamamız, ilçedeki talepleri toplayıp aynı güne dizmektir — sabah bir atölyede raf kontrolü, öğleden sonra başka bir adreste aydınlatma değişimi. Bunun tek şartı tarih esnekliğidir; acil olmayan işletmeye bu düzeni öneririz, çünkü taşıma payı bölündüğünde birim maliyet belirgin biçimde düşer.",
+                    "İlçedeki atölyelerin çoğu, tek seferde birkaç saatlik bir iş çıkarır — bir asma noktası kontrolü, bir armatür değişimi, bir sergileme rafının düzenlenmesi. Bu ölçekte makinenin gidiş-geliş süresi işin kendisiyle yarışır. Uygulamamız, aynı bölgedeki tekil talepleri gün içinde ardışık dizmektir; tarih esnekliği tanıyan atölyeye bu düzenin taşıma payını düşüren avantajını yansıtırız.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Küçük ölçekli atölyelerde tipik kalem ve süre",
+                baslik: "Özel sipariş cam atölyelerinde üst kot kalemleri",
                 paragraflar: [
-                    "İlçe ölçeğinde en sık talep edilen üst kot kalemleri ve tipik saha süreleri aşağıda toplanmıştır; gün planını kurarken bu çerçeveyi kullanırız.",
+                    "Pazaryeri'ndeki vitray ve özel sipariş cam atölyelerinde en sık karşılaştığımız üst kot kalemleri aşağıda özetlenmiştir.",
                 ],
                 tablo: {
-                    basliklar: ["Kalem", "Tipik ölçek", "Belirleyici koşul", "Gün planındaki yeri"],
+                    basliklar: ["Kalem", "Malzeme durumu", "Öncelikli risk", "Erişim notu"],
                     satirlar: [
-                        ["Cam/seramik raf kontrolü", "Birkaç saat", "Stok içeriği", "Sabah ilk iş"],
-                        ["Ambalaj-numune raf düzeni", "Birkaç saat", "Karışık stok", "Gün içinde esnek"],
-                        ["Aydınlatma-aspirasyon bakımı", "Yarım gün", "Zemin doluluğu", "Ara işlere uygun"],
-                        ["Sevkiyat istif kontrolü", "Birkaç saat", "Yükleme yoğunluğu", "Gün sonuna uygun"],
+                        ["Tavan asma sistemi kontrolü", "Tamamlanmış pano", "Derz üzerine yük", "Tele/rafa müdahale, pano temassız"],
+                        ["Arşiv camı raf kontrolü", "Tekrarlanamaz örnek", "Yeniden bulunamama", "Raf içeriği önceden teyit"],
+                        ["Kesim tezgâhı aydınlatması", "İşlenmemiş cam stoku", "Renk sıcaklığı hatası", "Stok güvenli mesafeye alınır"],
+                        ["Teslim öncesi paket kontrolü", "Ambalajlı ürün", "Son an hasarı", "Kısa, birleşik tur"],
                     ],
                 },
             },
             {
-                baslik: "Az sayıda değerli parça: küçük ölçeğin kendine özgü riski",
+                baslik: "Tekrarlanamaz malzeme: küçük ölçeğin asıl riski",
                 paragraflar: [
-                    "Büyük bir üretim hattında bir parçanın hasar görmesi, akışın bir kesitini etkiler; küçük bir atölyede ise stoktaki az sayıda parçanın biri hasar görürse bu, o siparişin tamamını geciktirebilir. Bu yüzden Pazaryeri'ndeki küçük atölyelerde temas riskini büyük hatlardakinden daha katı bir şekilde yönetiriz — sepet, panelin ya da numunenin çevresinde geniş bir güvenlik mesafesi bırakarak hareket eder ve hiçbir aşamada doğrudan üzerinde durmaz.",
-                    "İkinci fark, yeniden tedarik süresidir. Büyük hatta hasar gören bir parça genellikle kısa sürede telafi edilir; küçük atölyede özel kesilmiş bir panel ya da nadir bir numunenin yeniden temini haftalar alabilir. Bu gerçeği bildiğimiz için küçük atölyelerde işi yavaşlatmak pahasına da olsa temas riskini en aza indirmeyi tercih ederiz.",
+                    "Standart bir cam levhanın hasar görmesi, yeniden sipariş edilebilen bir kayıptır; ama Pazaryeri'ndeki atölyelerin işlediği malzemenin önemli bir kısmı — özel renk kodlu vitray camı, eskimiş bir yapıyla eşleşen arşiv parçası, elle boyanmış bir dekoratif yüzey — bir kez kaybedildiğinde aynısı bulunamaz. Bu yüzden buradaki çalışmalarımızda temas riskini standart üretim hattındaki eşiğin belirgin altında tutarız; sepet malzemenin üzerinde değil her zaman çevresinde durur.",
+                    "Bu ihtiyatın maliyeti azdır çünkü işin kendisi zaten küçük ölçeklidir — birkaç dakika daha yavaş çalışmak, telafisi olmayan bir kaybı önlemenin yanında önemsiz kalır. Atölye sahipleriyle bu dengeyi baştan konuşuruz: hız değil, geri dönüşü olmayan kaybı önlemek önceliğimizdir.",
                 ],
             },
             {
-                baslik: "Tekil talebi ekonomik hâle getirmenin yolları",
+                baslik: "Küçük ölçekte doğru planlamanın yolu",
                 paragraflar: [
-                    "Küçük ölçekli bir işletme için makine kiralamanın en can sıkıcı yanı, iki saatlik bir iş için bir günlük düzen kurmak zorunda kalmaktır. Bunu hafifletmenin iki yolu var: işleri biriktirmek — yıl içinde ortaya çıkan üst kot kalemlerini not edip tek güne toplamak; ve tarih esnekliği tanımak — esnek tarihli iş, bölgeye gelen bir başka işin gününe eklenir.",
-                    "Komşuluk da işe yarar: yakın konumdaki işletmelerin talepleri aynı güne dizildiğinde taşıma payı bölünür. İşletmeler arasında herhangi bir bağ kurmaya gerek yoktur; her biri kendi işinin teklifini alır, kendi raporunu alır. Ortak olan yalnızca gün planımızdır.",
+                    "Birkaç saatlik bir iş için tek başına makine çağırmak, taşıma payını işin bedeliyle kıyaslanamayacak ölçüde büyütür. Önerimiz, atölyenin yıl içinde biriken üst kot ihtiyaçlarını (asma sistemi kontrolü, aydınlatma bakımı, raf düzeni) not edip tek seferde bildirmesidir — bu liste, bölgeye planladığımız bir sonraki tura eklenir.",
+                    "Tarihe bağlı olmayan işlerde bu düzen en verimli sonucu verir; taşıma payı bölgedeki diğer işlerle paylaşılır ve atölye, tek seferlik bir çağrının maliyetinden kurtulur. Tarihe bağlı, örneğin bir teslim tarihine yakın bir kontrol gerekiyorsa, bunu ayrıca ve öncelikli olarak planlarız.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Çerçeveleme atölyemizde az sayıda ama değerli cam panelimiz var; kontrol sırasında risk nasıl azaltılıyor?",
+                soru: "Vitray panomuzu asma sistemine yerleştirirken kurşun derzlere zarar verme riski var mı?",
                 cevap:
-                    "Sepet panelin doğrudan üzerine ya da bitişiğine değil, çevresine geniş bir güvenlik mesafesi bırakarak konumlanır; personel panele değil, panelin bağlantı noktalarına ve raf çerçevesine bakar. Az sayıda parçanız olduğu için yeniden tedarik süresinin uzun olabileceğini biliyoruz — bu yüzden temas riskini en aza indirmeyi, işi hızlı bitirmenin önüne koyarız. Kontrol öncesi hangi panellerin özellikle kritik ya da özel sipariş olduğunu bize belirtirseniz, o bölgede ek özenle çalışırız.",
+                    "Doğru teknikle uygulandığında bu risk çok düşük. Sepet panonun kendisine değil, asma teline ya da montaj çerçevesine müdahale eder; panonun ağırlığı hiçbir aşamada kurşun bantlı derzlere yük bindirecek şekilde taşınmaz — asma sistemi bu yükü panonun kendi taşıyıcı çerçevesinden alır. Montaj öncesi panonun ağırlığını ve boyutunu sizden alırız, bu bilgiye göre uygun kaldırma ve sabitleme yöntemini belirleriz.",
             },
             {
-                soru: "Ambalaj stoklarımızın arasında numune camlar var; nasıl ayırt ediyorsunuz?",
+                soru: "Arşivimizdeki nadir cam örneklerini kontrol ederken nasıl bir önlem alıyorsunuz?",
                 cevap:
-                    "Kendi başımıza ayırt etmeyiz — çalışmaya başlamadan önce raf içeriğinin ne olduğunu sizden sorarız ve kırılgan parça bulunan bölgeleri işaretletiriz. Karışık depolama, dışarıdan bakan biri için risklidir çünkü hafif ambalaj malzemesinin arasına yerleştirilmiş bir numune kolayca gözden kaçabilir. Bu yüzden ilk ziyarette birlikte bir kısa tur atıp hangi rafın hangi içerikte olduğunu not ederiz; bu not, sonraki ziyaretlerde zaman kazandırır ve riski baştan azaltır.",
+                    "Öncelikle hangi rafın arşiv niteliğinde, yani yeniden bulunamayacak parçalar içerdiğini sizden öğreniriz ve bu rafları standart stoktan ayrı bir dikkatle ele alırız. Sepet rafın önünde durur, personel örneklere dokunmadan görsel kontrol yapar; yalnızca açıkça gerekli olan bir düzenleme varsa temas eder. Bu atölyelerde hız değil, telafisi olmayan bir kaybı önlemek önceliğimizdir ve bu dengeyi baştan sizinle konuşuruz.",
             },
             {
-                soru: "Atölyemiz dar ve dolu; makine için yer açmamız gerekir mi?",
+                soru: "Kesim tezgâhımızın aydınlatmasını değiştirirken renk doğruluğunu nasıl koruyorsunuz?",
                 cevap:
-                    "Tamamen boşaltmanız gerekmez, ama makinenin gireceği güzergâh ve park edeceği nokta temizlenmiş olmalı. Eklemli bom, hedefin tam altına girmek zorunda değildir — koridordan yükselip stokların üzerinden yatay uzanarak hedefe ulaşabilir. Kapı genişliğini ve iç yükseklik durumunu önceden bilmemiz önemlidir; dar girişlerde daha kompakt bir sınıf seçeriz. Kapının ölçüsünü ve içeriden çekilmiş bir fotoğrafı paylaşmanız yeterli.",
+                    "Armatür seçimi ve montajı, atölyenizin mevcut aydınlatma standardına (renk sıcaklığı) uygun yapılır; farklı bir armatür kullanmak, renk seçim tutarlılığınızı bozabileceği için bunu sizinle önceden netleştiririz. Montaj sırasında altındaki işlenmemiş cam stoku güvenli mesafeye çekilir ve sepet tezgâhın üstüne değil kenarından yaklaşır. İş bittikten sonra yeni armatürün altında birkaç örnek camla hızlı bir renk kontrolü yapmanızı öneririz.",
             },
             {
-                soru: "Sadece raf kontrolü için makine tutmak pahalı olmaz mı?",
+                soru: "Atölyemiz küçük ve dar; makine için yer açmamız gerekir mi?",
                 cevap:
-                    "Tek başına yaptırılırsa taşıma payı göze çarpar, doğru. Bunu düşürmenin iki yolu var: aynı turda yapılabilecek diğer kalemleri listeye eklemek — aydınlatma, aspirasyon, sevkiyat istifi kontrolü gibi işler aynı sepet turunda bitebilir; ve tarih esnekliği tanımak, böylece işiniz bölgeye gelen başka bir işin gününe eklenir ve taşıma bölünür. Merdivenle yapılan raf kontrolünün hem yavaş hem riskli olduğunu da eklemek isteriz; sepetten çalışıldığında aynı iş kesintisiz ve malzemeye temas etmeden ilerliyor.",
+                    "Tamamen boşaltmanız gerekmez, ama makinenin gireceği güzergâh ve park edeceği nokta temizlenmiş olmalı. Eklemli bom, hedefin tam altına girmek zorunda değildir — koridordan yükselip stokların üzerinden yatay uzanarak hedefe ulaşabilir. Kapı genişliğini ve iç yükseklik durumunu önceden bilmemiz önemlidir; dar girişlerde daha kompakt bir sınıf seçeriz.",
             },
             {
-                soru: "Sevkiyat öncesi istiflerimizi ne sıklıkla kontrol ettirmeliyiz?",
+                soru: "Sadece bir asma sistemi kontrolü için makine tutmak pahalı olmaz mı?",
                 cevap:
-                    "Sevkiyat yoğunluğuna bağlı; yoğun dönem öncesi bir kontrol, çoğu küçük atölye için yeterlidir. İstiflerin devrilme riski, özellikle üst üste hızla eklenen paketlerde artar ve bu risk çoğunlukla yoğun sevkiyat dönemlerinde ortaya çıkar. Kontrolde personel istifin üzerine çıkmaz, sepetten yanaşarak üst sıraların sağlamlığını ve bağlama malzemesinin durumunu değerlendirir. Sorunlu istifler işaretlenir ve düzeltme için forklift ekibinize bildirilir; bu ikili yaklaşım, hem gözlemi hem müdahaleyi doğru ekipmana bırakır.",
+                    "Tek başına yaptırılırsa taşıma payı göze çarpar, doğru. Bunu düşürmenin yolu, yıl içinde biriken diğer kalemleri (aydınlatma bakımı, arşiv raf kontrolü, teslim öncesi paket kontrolü) aynı listeye eklemek ve tarih esnekliği tanımaktır — işiniz bölgeye gelen başka bir işin gününe eklenir, taşıma payı bölünür. Merdivenle yapılan asma sistemi kontrolünün hem yavaş hem risklidir de eklemek isteriz; sepetten çalışıldığında iş kesintisiz ve panoya temas etmeden ilerliyor.",
             },
             {
-                soru: "İşimiz acil değil; ne zaman geleceğinizi nasıl bileceğiz?",
+                soru: "Bir teslim tarihimiz yaklaşıyor; öncelikli olarak gelebilir misiniz?",
                 cevap:
-                    "Esnek tarihli işlerde düzenimiz şudur: talebi listeye alır, bölgeye planlanan bir sonraki gün belli olduğunda size tarih teyidiyle döneriz. Yani belirsiz bir bekleyiş değil, netleşen bir tarih söz konusudur. Bu düzenin karşılığı daha uygun bir birim maliyettir, çünkü taşıma o günkü diğer işlerle bölünür. Tarihiniz sabitse ya da işiniz acilse tekil sevkiyat da yaparız; bu durumda taşıma tam bedelle fiyatlanır ve bunu baştan açıkça söyleriz.",
+                    "Evet, tarihe bağlı işlerde standart bölge turunun dışına çıkıp öncelikli planlama yaparız. Teslim tarihinizi ve hangi kalemin (asma sistemi, paket kontrolü) tarihle ilişkili olduğunu bize bildirirseniz, bu işi ayrı ve öncelikli olarak programlarız. Bu durumda taşıma bedeli tam olarak işe yansır ve bunu teklifte açıkça gösteririz; tarihe bağlı olmayan diğer kalemlerinizi ise aynı ziyarete ekleyerek maliyeti dengeleyebiliriz.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. İlçenin küçük ölçekli yapısı genel bilgidir; kırılgan cam-seramik parçaların az sayıda ve yüksek değerli stok olarak tutulması ile buna bağlı temas riski yaklaşımı saha pratiğinden gelir. İşletme adı ve rakam verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. İlçenin küçük ölçekli özel sipariş cam ve vitray atölyeleri barındırması genel bilgidir; tekrarlanamaz malzeme riski, arşiv camı yaklaşımı ve renk sıcaklığının kesim doğruluğuna etkisi saha pratiği ile malzeme bilgisinden gelir. İşletme adı ve rakam verilmemiştir.",
     },
 
     "bolge:eskisehir-osb-cevre-ili": {
-        h1: "Eskişehir OSB'ye Bozüyük'ten Cam-Seramik Yüksek Erişim Hizmeti",
+        h1: "Eskişehir'de Cam Ambalaj Üretimine Bozüyük'ten Yüksek Erişim Hizmeti",
         giris:
-            "Eskişehir, Bozüyük'e karayoluyla yakın komşu ildir ve organize sanayi bölgesindeki tesislerin bir kısmı, cam ve seramik üretim geleneğiyle bizim her gün çalıştığımız dünyaya yakın durur — cam işleme ve kesim atölyeleri, seramik ürün ambalaj-lojistik merkezleri, bu üretime malzeme ve ekipman sağlayan yan sanayi. Çevre il olarak Eskişehir hattına verdiğimiz hizmetin merkezinde, kırılgan malzemenin yüksek raf ve tavan altı bakımını, mesafeye rağmen aynı disiplinle sürdürmek vardır. Bu sayfa, komşu ile giden bir ekibin cam-seramik özelinde nasıl çalıştığını ve iş tiplerini nasıl planladığımızı anlatıyor.",
+            "Bir şişe ya da kavanozun üretim mantığı, düz camdan ya da seramik sağlık gerecinden oldukça farklıdır: erimiş cam damlası kalıba düşer, şekillenir, tavlama tünelinden geçerek soğur ve saniyeler içinde bir sonraki damla aynı döngüyü tekrarlar. Eskişehir'deki cam ambalaj üretim tesislerinde bu döngü, Bozüyük'teki float hattı kadar kesintisiz ama tamamen farklı bir ritimde işler — burada süreklilik tek bir uzun akıştan değil, saniyelik tekrarlardan gelir. Biz bu tesislere Bozüyük'ten gittiğimizde, alıştığımız float ve seramik dünyasından farklı bir kalıp değişim atölyesi, farklı bir paletli şişe-kavanoz stoklama düzeni ve farklı bir tavlama tüneli üstü bakım rutiniyle karşılaşırız. Bu sayfa, cam ambalaj üretiminin kendine özgü üst kot ihtiyaçlarını ve bu hattı Bozüyük'ten düzenli olarak nasıl desteklediğimizi anlatıyor.",
         maddeler: [
             {
-                baslik: "Cam işleme atölyelerinde çevre il erişim planı",
+                baslik: "Kalıp değişim atölyesinde yüksek raf ve kalıp stoklaması",
                 metin:
-                    "Eskişehir'deki cam kesim ve işleme atölyelerine giderken, Bozüyük'te uyguladığımız aynı kuralları taşırız: sepet kırılgan mamulün üzerine değil kenarından yaklaşır, alet bağlama kuralı sıkı uygulanır, tezgâh üstü çalışmalarda altındaki stok güvenli mesafeye çekilir. Fark, planlamanın zamanlamasında ortaya çıkar — çevre il işinde makine bölgeye vardığında elindeki listeyi eksiksiz tamamlamak zorundadır, bu yüzden atölyeyle önceden yapılan hazırlık görüşmesi burada daha kritik bir adımdır.",
+                    "Cam ambalaj üretiminde her ürün deseni ayrı bir metal kalıp seti gerektirir ve bu kalıplar, kullanılmadıkları dönemde ağır ama hassas yüzeyli parçalar olarak yüksek raflarda tutulur — kalıp yüzeyindeki en ufak bir çizik, üretilen her şişede tekrarlanan bir kusura dönüşür. Raf üst gözlerindeki kalıp kontrolü ve düzenlemesi sepetten yapılır; personel kalıp yüzeyine değil kalıbın taşıma kulplarına ve raf bağlantılarına temas eder. Ağır kalıpların indirilmesi ayrı bir vinç ile koordineli yürütülür, sepet yalnızca erişim ve gözlem sağlar.",
             },
             {
-                baslik: "Seramik ambalaj-lojistik merkezlerinde yüksek raf bakımı",
+                baslik: "Tavlama tüneli üstünde ısı profili hassasiyeti",
                 metin:
-                    "Eskişehir OSB'deki bazı lojistik merkezleri, seramik sağlık gereçlerinin bölgesel dağıtım noktası işlevi görür ve burada paletlenmiş ürün yüksek raf sistemlerinde tutulur. Bu merkezlerde üst kot işleri, raf travers kontrolü ve aydınlatma bakımı etrafında yoğunlaşır; forklift yerine sepetle yapılan kontrol, palet hasarı riskini düşürür. Çevre il turunda bu merkezler, genellikle aynı güne yazılan birden fazla adresten biridir.",
+                    "Kalıplanan şişe ya da kavanoz, iç gerilimini almak için tavlama tünelinden belirli bir ısı ve süre eğrisiyle geçer; tünelin üst kaplamasında yapılacak her iş bu profili bozmayacak şekilde kısa tutulur. Bu, Bozüyük'teki seramik sağlık gereçleri fırın tünelinde uyguladığımız kısa blok mantığına benzer ama burada döngü çok daha hızlıdır — tünelden dakikada onlarca ürün geçebilir ve profildeki bir sapma, o an tünelde olan geniş bir ürün grubunu aynı anda etkiler.",
             },
             {
-                baslik: "Yan sanayi atölyelerinde malzeme ve ekipman bakımı",
+                baslik: "Paletli şişe-kavanoz stoklama sahalarında yüksek raf kontrolü",
                 metin:
-                    "Cam ve seramik üretimine malzeme ya da ekipman sağlayan yan sanayi atölyelerinde üst kot ihtiyacı, ana üretimdekinden daha küçük ölçekli ama benzer hassasiyettedir — kalıp stokları, kesim aparatları, yedek parça rafları. Bu atölyelerde çalışırken de kırılganlığı ana hattaki kadar ciddiye alırız; ölçek küçük olsa da dikkat seviyesi düşmez.",
+                    "Üretilen şişe ve kavanozlar, tel örgü paletlerde yüksek raf sistemlerinde stoklanır ve bu raflarda çalışırken karşılaşılan asıl risk, üründen çok paletin kendisidir — dolu bir cam paleti hem ağır hem de bir kenara çarptığında kırılma riski taşır. Raf travers bağlantılarının kontrolü, forklift yerine sepetle yapılır; bu, palete temas etmeden görsel kontrol imkânı verir ve forkliftin çatal manevrasından kaynaklanan hasar riskini ortadan kaldırır.",
+            },
+            {
+                baslik: "Besleme sistemi ve şekillendirme makinesi üstü bakım",
+                metin:
+                    "Erimiş camı kalıplara dağıtan besleme sistemi ve şekillendirme makinelerinin üst kısımlarındaki mekanik ve pnömatik hatlar, düzenli yağlama ve sıkma kontrolü ister. Bu hatlar sıcak bölgeye yakın konumlandığı için, çalışma öncesi güncel yüzey sıcaklığı tesisin kendi ölçümünden alınır ve sepetin yaklaşma mesafesi buna göre belirlenir — aynı ısı mesafesi disiplinini Bozüyük'teki float fırın çevresinde de uygularız.",
             },
             {
                 baslik: "Çevre il turunun kurulma biçimi",
                 metin:
-                    "Bozüyük'ten Eskişehir hattına makine, biriken talep bir günü doldurduğunda ya da tek başına bir günü hak eden bir iş çıktığında yola çıkar. Tur gününde adresler mesafeye göre sıralanır, her tesiste yalnızca önceden onaylanmış liste çalışılır. İşletme açısından sonuç iki maddedir: gün baştan sabittir ve taşıma bedeli o günkü işler arasında bölünür. Acil ve tur dışı taleplerde tekil sevkiyat yapılır, bunu baştan söyleriz.",
-            },
-            {
-                baslik: "Kalite standardının mesafeyle gevşememesi",
-                metin:
-                    "Çevre il hizmetinde bilinen risk, merkezden uzaklaştıkça işçilik standardının gevşemesidir. Eskişehir hattına giden makine, Bozüyük'te teslim ettiğimizle aynı hazırlıktan geçer, aynı kontrol belgeleriyle çıkar ve aynı fotoğraflı raporlama biçimiyle döner. Kırılgan malzeme etrafındaki temas kuralları da aynı sıkılıkta uygulanır — mesafe, dikkat seviyesini düşürmek için bir gerekçe sayılmaz.",
+                    "Bozüyük'ten Eskişehir hattına makine, biriken talep bir günü doldurduğunda ya da tek başına bir günü hak eden bir iş çıktığında yola çıkar. Tur gününde her tesiste yalnızca önceden onaylanmış liste çalışılır; ısı ve kalıp hassasiyeti taşıyan işler için tesisle önceden yapılan hazırlık görüşmesi, float ve seramik hattındakinden daha kritik bir adımdır çünkü çevre il turunda ikinci bir deneme şansı genellikle olmaz.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Eskişehir hattında iş tipine göre çalışma düzeni",
+                baslik: "Cam ambalaj üretiminde üst kot kalemleri",
                 paragraflar: [
-                    "Komşu ile giden cam-seramik bağlantılı işleri, süre ve takvim bağına göre şu şekilde ayırırız.",
+                    "Eskişehir'deki cam ambalaj tesislerinde en sık karşılaştığımız üst kot kalemleri aşağıda özetlenmiştir.",
                 ],
                 tablo: {
-                    basliklar: ["İş tipi", "Takvim bağı", "Önerilen düzen", "Erişim önceliği"],
+                    basliklar: ["Kalem", "Öncelikli risk", "Erişim biçimi", "Koordinasyon"],
                     satirlar: [
-                        ["Cam işleme atölyesi bakımı", "Esnek", "Tur gününe eklenir", "Kırılgan mamul teması"],
-                        ["Seramik ambalaj-lojistik raf", "Esnek", "Tur gününe eklenir", "Palet devrilme kontrolü"],
-                        ["Yan sanayi atölye bakımı", "Esnek", "Birden fazla adres birleşir", "Küçük ölçek, aynı dikkat"],
-                        ["Acil/tarihe bağlı iş", "Sabit", "Tekil sevkiyat", "Öncelikli müdahale"],
+                        ["Kalıp raf kontrolü", "Yüzey çizilmesi", "Kulp ve raftan, temassız", "Ayrı vinçle ağır kaldırma"],
+                        ["Tavlama tüneli üst kaplaması", "Isı profili sapması", "Kısa bloklarla açma-kapama", "Sürekli sıcaklık izleme"],
+                        ["Paletli şişe-kavanoz rafı", "Palet devrilme/kırılma", "Sepetten temassız kontrol", "Forklift ile iş bölümü"],
+                        ["Besleme-şekillendirme üstü", "Yüzey sıcaklığı", "Ölçülmüş mesafeden", "Tesis ısı ölçümü şart"],
                     ],
                 },
             },
             {
-                baslik: "İki bölgenin cam-seramik dokusu arasındaki fark",
+                baslik: "Float ile cam ambalajın ortak mantığı, farklı ritmi",
                 paragraflar: [
-                    "Bozüyük'te alıştığımız iş, ağırlıklı olarak ana üretim hattı ve doğrudan yan sanayi çevresinde geçer; Eskişehir'de ise karşımıza daha çok işleme atölyeleri ve bölgesel dağıtım-lojistik merkezleri çıkar. Fark, erişim ihtiyacının karakterinde kendini gösterir: Bozüyük'te iş sürekli akan hatta yakınlık ister, Eskişehir'de ise raf ve stok ağırlıklı, daha kesikli bir ritimdedir.",
-                    "Bu farkı bildiğimiz için Eskişehir'e giderken makineyi işin tipine göre seçeriz; lojistik merkezine gönderdiğimiz ünite ile işleme atölyesine gönderdiğimiz ünite genellikle aynı değildir.",
+                    "Bozüyük'teki float hattı ile Eskişehir'deki cam ambalaj üretimi, ikisi de eritilmiş camın sürekliliği üzerine kurulu olsa da farklı bir zaman ölçeğinde çalışır. Float hattında akış saatler, günler boyunca tek bir yönde ilerleyen bir nehir gibidir; cam ambalaj hattında ise aynı döngü saniyeler içinde defalarca tekrarlanır ve her tekrar kendi başına bir üretim birimidir. Bu fark, bizim çalışma temposumuzu da etkiler — float hattında bir işlem penceresi dakikalarla ölçülürken, ambalaj hattında bazı kararlar saniyeler içinde verilmek zorundadır.",
+                    "Bu yüzden Eskişehir'e giderken ekibimize hatırlattığımız çerçeve netleşir: burada yavaşlık, float hattındaki kadar tolere edilebilir değildir. Tünel üstü bir işi planlanandan uzun tutmak, float hattında bir sonraki bloğu geciktirirken, ambalaj hattında o anda tünelden geçen çok sayıda ürünü aynı anda etkiler.",
                 ],
             },
             {
-                baslik: "Komşu il olmanın dürüst çerçevesi",
+                baslik: "Çevre il turunda ikinci şansın olmaması",
                 paragraflar: [
-                    "Mesafe konusunda süslü konuşmayı tercih etmiyoruz. Planlı işlerde komşu il olmak bir dezavantaj değildir: tarih önceden bellidir, makine o gün oradadır. Fark plansız durumda ortaya çıkar — sahada makine yokken doğan acil bir talep, yolun süresini bekler. Şehir içi hızında bir müdahale sözü vermeyiz, çünkü tutamayacağımız bir taahhüt yazmak, verdiğimiz diğer sözlerin de değerini düşürür.",
-                    "Buna karşılık kalite tarafında hiçbir esneme yoktur: Eskişehir hattına giden makine, Bozüyük'te teslim ettiğimizle aynı hazırlıktan geçer ve kırılgan malzeme etrafındaki kurallar aynı sıkılıkta uygulanır.",
+                    "Bozüyük'teki kendi tesisimize yakın işlerde bir eksik hazırlık genellikle aynı gün içinde telafi edilebilir — makine oradadır, eksik bilgi bir telefonla tamamlanır. Eskişehir hattında bu esneklik yoktur; tur günü elimizdeki liste eksikse ya da bir ölçüm bilgisi eksik geldiyse, o kalem bir sonraki tura kalır. Bu yüzden Eskişehir işlerinde hazırlık görüşmesini özellikle titiz tutarız — ısı ölçümü, kalıp ağırlığı, tünel duruş penceresi gibi bilgileri tur gününden önce eksiksiz almaya çalışırız.",
+                    "Bu titizliğin karşılığı, tur gününün sürprizsiz geçmesidir. Eksik bir bilgi yüzünden bir kalemin ertelenmesi, hem bizim için hem tesis için bir sonraki tura kadar beklemek anlamına geldiğinden, bu riski baştan en aza indirmeyi tercih ederiz.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Cam işleme atölyemizin çevre il olmasından dolayı standart düşer mi?",
+                soru: "Kalıp raflarımızdaki metal kalıpları kontrol ederken yüzeyde çizik oluşma riski var mı?",
                 cevap:
-                    "Hayır. Eskişehir hattına giden makine, Bozüyük'te teslim ettiğimizle aynı hazırlıktan geçer, aynı kontrol belgeleriyle çıkar ve kırılgan mamul etrafındaki temas kuralları aynı sıkılıkta uygulanır — sepet kenardan yaklaşır, alet bağlama kuralı uygulanır, altındaki stok güvenli mesafeye alınır. Mesafenin fark yarattığı tek yer plansız acil durumlardır; onun dışında iş, yerel bir tedarikçiden farklı işlemez.",
+                    "Doğru teknikle çok düşük. Sepet kalıbın yüzeyine değil taşıma kulplarına ve raf bağlantılarına müdahale eder; kalıp yüzeyi hiçbir aşamada sepetle ya da aletle temas etmez. Ağır kalıpların indirilmesi ayrı bir vinç ile yapılır, sepet yalnızca erişim ve gözlem sağlar — bu iş bölümü, tek ekipmanın hem kaldırma hem hassas erişim yapmaya çalışmasından doğan hataları önler. Hangi kalıpların o an aktif kullanımda, hangilerinin yedekte olduğunu önceden bilmemiz, kontrolü doğru sıraya koymamıza yardımcı olur.",
             },
             {
-                soru: "Seramik lojistik merkezimizde raf kontrolünü neden forklift yerine sepetle yapıyorsunuz?",
+                soru: "Tavlama tünelimizin üst kaplamasında iş yaparken üretim hızınız neden bu kadar önemli?",
                 cevap:
-                    "Forklift, palet taşımak için tasarlanmıştır ve bir çatalın yanlış açıda palete değmesi bilinen bir hasar nedenidir. Sepetli platformda personel istediği açıdan yaklaşır, ürüne dokunmadan görsel kontrol yapar. Raf travers bağlantılarının kontrolü de aynı turda yapılır — bu, aynı erişimle iki işi birden bitirmek anlamına gelir ve depo operasyonunuzu iki kez kesmez.",
+                    "Cam ambalaj hattında tünelden dakikada onlarca ürün geçebilir ve tünel üst kaplamasının açık kaldığı her ek dakika, o an tünelde olan geniş bir ürün grubunun ısı profilini etkileyebilir. Float hattındaki benzer bir işte etkilenen ürün miktarı çok daha azdır çünkü akış daha yavaştır. Bu yüzden ambalaj hattında üst kaplama işlerini olağanüstü kısa bloklara böleriz ve tünel içi sıcaklığı sürekli izleriz; bir panel açılır, iş hızla tamamlanır, panel hemen kapatılır.",
             },
             {
-                soru: "Küçük bir yan sanayi atölyesiyiz; bize de gelir misiniz?",
+                soru: "Cam paletlerimizin raf kontrolünü neden forklift yerine sepetle yapıyorsunuz?",
                 cevap:
-                    "Geliriz, ancak tekil sevkiyat yerine bölge turuna eklemeyi öneririz — bu, taşıma maliyetini belirgin biçimde düşürür. Talebinizi bize ilettiğinizde, bölgeye planlanan bir sonraki gün belli olduğunda size tarih teyidiyle döneriz. Ölçek küçük olsa da malzemenizin kırılganlığını ana hattaki kadar ciddiye alırız; dikkat seviyesi işin büyüklüğüne göre değişmez.",
+                    "Dolu bir cam paleti hem ağır hem kırılmaya açıktır ve bir forklift çatalının yanlış açıda palete değmesi bilinen bir hasar nedenidir. Sepetli kontrolde personel palete dokunmadan görsel değerlendirme yapar; raf travers bağlantılarının kontrolü de aynı turda tamamlanır. Ağır kaldırma gerektiren bir düzenleme varsa bunu forklift ekibinize bildiririz, kendimiz üstlenmeyiz — iki farklı ekipmanın aynı palete aynı anda müdahale etmesi ek risk yaratır.",
             },
             {
-                soru: "Acil bir arızada ne kadar sürede gelirsiniz?",
+                soru: "Besleme sistemi üstündeki hatlara yaklaşırken ısı mesafesini nasıl belirliyorsunuz?",
                 cevap:
-                    "Karayolu bağlantısı yakın olduğu için mesafe yönetilebilir, ancak şehir içi hızında bir taahhüt vermeyiz — veremeyeceğimiz bir sözü teklife yazmak, verdiğimiz diğer taahhütlerin güvenilirliğini düşürür. Acil çağrıda önce uzaktan değerlendirme yaparız, çünkü çağrıların önemli bir kısmı telefonda veya fotoğraf üzerinden çözülür ya da en azından doğru ekipmanla yola çıkmayı sağlar. Yerinde müdahale gerekiyorsa gerçekçi bir varış saati söyleriz.",
+                    "Tesisinizin kendi ısı ölçümünden güncel yüzey sıcaklığını ve güvenli yaklaşma mesafesini isteriz; bu bilgi olmadan sepet o bölgeye yaklaştırılmaz. Bu, Bozüyük'teki float fırın çevresinde uyguladığımız aynı disiplindir — ısı ölçümü elle tahmin edilmez, tesisten teyit gelmeden çalışma başlamaz. Ölçüm güncel değilse, çalışmaya başlamadan önce güncellenmesini bekleriz; bu bazen tur gününde küçük bir gecikme yaratır ama güvenlik açısından vazgeçilmez bir adımdır.",
             },
             {
-                soru: "Birden fazla tesis aynı gün için talep etsek nasıl bir düzen kurulur?",
+                soru: "Çevre il turunda bir bilgi eksik çıkarsa ne oluyor?",
                 cevap:
-                    "Bu, çevre il için kurabileceğimiz en verimli düzendir. Her tesisin kalem listesi ayrı ayrı elimize ulaştığında günü iş yüküne göre böler, adresleri mesafeye göre sıralar ve saat aralıklarını önceden bildiririz. Yol bedeli, tesislerin o günkü çalışma sürelerine göre bölüştürülür; işçilik, malzeme ve rapor tesis bazında ayrı yürür. Sizden istediğimiz tek şey, her tesisin kendi tarafında tek bir muhatap belirlemesidir.",
+                    "Dürüst cevap: o kalem genellikle bir sonraki tura kalır. Bozüyük'teki kendi tesisimize yakın işlerde eksik bir bilgi aynı gün telafi edilebilirken, çevre il turunda bu esneklik yoktur — tur günü elimizdeki liste eksikse, eksik kalemi güvenli biçimde yapamayız. Bu yüzden Eskişehir işlerinde hazırlık görüşmesini özellikle titiz tutuyoruz; ısı ölçümü, kalıp ağırlığı, tünel duruş penceresi gibi bilgileri tur gününden önce eksiksiz almaya çalışıyoruz ki tur günü sürprizsiz geçsin.",
             },
             {
-                soru: "Cam işleme atölyemizdeki tezgâh üstü işler için üretimi durdurmamız gerekiyor mu?",
+                soru: "Bozüyük'ten geliyorsunuz; cam ambalaj üretimini float hattı kadar iyi biliyor musunuz?",
                 cevap:
-                    "Çalışılan tezgâhın kısa süreliğine durdurulmasını isteriz, çünkü sepet üstten yaklaşırken altında işlenmekte olan cam bulunmamalı. Atölyenin diğer tezgâhları bundan etkilenmez. Çevre il turunda zaman kısıtlı olduğu için, birden fazla tezgâh üstü iş varsa bunları art arda, tek ziyarette bitirecek şekilde sıralarız; bu, hem sizin durma süreniz hem bizim saha süremiz açısından en verimli yoldur.",
+                    "Asıl birikimimizin float ve seramik sağlık gereçleri hattında olduğunu açıkça söyleyelim. Ancak iki üretim de aynı temel mantığa dayanır — eritilmiş camın sürekliliği, ısı mesafesi disiplini, kırılgan mamule temassız erişim — ve bu ortak zemin, Eskişehir'e giderken bize güçlü bir başlangıç noktası veriyor. Farkı yaratan ritimdir: ambalaj hattında karar hızı çok daha kısadır ve biz bunu bilerek, tünel üstü işleri float hattındakinden daha kısa bloklara bölerek çalışıyoruz. Tesisinize özgü koşulları keşifte konuşur, çalışma planına yazarız.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Komşu ildeki sanayi bölgesinin cam-seramik bağlantılı üretim ve lojistik dokusu ile karayolu yakınlığı genel bilgidir; kırılgan malzeme etrafındaki temas kuralları ve raf kontrolü yöntemi firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. Eskişehir'in cam ambalaj üretimiyle anılması ve Bozüyük'e karayolu yakınlığı genel bilgidir; kalıplama-tavlama süreci ve ısı profili hassasiyeti sektör standardı teknik bilgidir; hazırlık görüşmesi ve çevre il tur düzeni firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
     },
 
     "bolge:inegol-osb-bursa-cevre-ili": {

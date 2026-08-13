@@ -152,6 +152,13 @@
 | `manliftkiralama.site` | **5/5** | 0 | 0 | ✅ TAMAM — Samsun liman/nem-yağış (ilk Samsun) |
 | `manliftkirala.store` | **6/6** | 0 | 0 | ✅ TAMAM — Konya imalatçı ateylesi |
 | `manliftkiralama.online` | **6/6** | 0 | 0 | ✅ TAMAM — Kayseri mobilya-tekstil (ilk Kayseri) |
+| `muglaplatform.xyz` | **7/7** | 0 | 0 | ✅ TAMAM — maden-enerji (Yatağan/Milas) |
+| `eskisehirmanlift.xyz` | **7/7** | 0 | 0 | ✅ TAMAM — ilk kiralama rehberi |
+| `eskisehirplatformkiralama.net` | **8/8** | 0 | 0 | ✅ TAMAM — kent içi iç mekân |
+| `canakkaleplatform.tr` | **8/8** | 0 | 0 | ✅ TAMAM — liman lojistiği+sepetli araç |
+| `canakkaleplatform.xyz` | **6/6** | 0 | 0 | ✅ TAMAM — seramik fırın+küçük tersane |
+| `kutahyaplatform.com.tr` | **6/6** | 0 | 0 | 🟡 1 sayfa düzeltiliyor — çini atölye/fabrika (%9,9) |
+| `kutahyaplatform.tr` | **6/6** | 0 | 0 | 🟡 1 sayfa düzeltiliyor — linyit/termik santral (%9,9) |
 | `eskisehirvincplatform.com` | **10/10** | 0 | 0 | ✅ TAMAM — enerji hat altyapısı + vinç |
 | `manlifteskisehir.com` | **9/9** | 0 | 0 | ✅ TAMAM — duruş dönemi kapasite yönetimi |
 | `eskisehirplatform.org` | **7/7** | 0 | 0 | ✅ TAMAM — havacılık-savunma tedarik + Sivrihisar |

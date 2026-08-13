@@ -92,6 +92,13 @@ import { EKLEMLIPLATFORM_COM_TR } from "./bespoke/eklemliplatform-com-tr";
 import { YUKSEKTECALISMAREHBERI_COM } from "./bespoke/yuksektecalismarehberi-com";
 import { PLATFORMAKADEMISI_COM } from "./bespoke/platformakademisi-com";
 import { BOZUYUKPLATFORM_ORG } from "./bespoke/bozuyukplatform-org";
+import { MUGLAPLATFORM_XYZ } from "./bespoke/muglaplatform-xyz";
+import { ESKISEHIRMANLIFT_XYZ } from "./bespoke/eskisehirmanlift-xyz";
+import { ESKISEHIRPLATFORMKIRALAMA_NET } from "./bespoke/eskisehirplatformkiralama-net";
+import { CANAKKALEPLATFORM_TR } from "./bespoke/canakkaleplatform-tr";
+import { CANAKKALEPLATFORM_XYZ } from "./bespoke/canakkaleplatform-xyz";
+import { KUTAHYAPLATFORM_COM_TR } from "./bespoke/kutahyaplatform-com-tr";
+import { KUTAHYAPLATFORM_TR } from "./bespoke/kutahyaplatform-tr";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -230,6 +237,13 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "yuksektecalismarehberi.com": YUKSEKTECALISMAREHBERI_COM,
     "platformakademisi.com": PLATFORMAKADEMISI_COM,
     "bozuyukplatform.org": BOZUYUKPLATFORM_ORG,
+    "muglaplatform.xyz": MUGLAPLATFORM_XYZ,
+    "eskisehirmanlift.xyz": ESKISEHIRMANLIFT_XYZ,
+    "eskisehirplatformkiralama.net": ESKISEHIRPLATFORMKIRALAMA_NET,
+    "canakkaleplatform.tr": CANAKKALEPLATFORM_TR,
+    "canakkaleplatform.xyz": CANAKKALEPLATFORM_XYZ,
+    "kutahyaplatform.com.tr": KUTAHYAPLATFORM_COM_TR,
+    "kutahyaplatform.tr": KUTAHYAPLATFORM_TR,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */
