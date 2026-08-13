@@ -45,9 +45,23 @@ içerik). İki sayfa tipi kullanılacak:
 
 ### 1a. Bölge sayfası (`/bolge/<slug>`) — Faz A
 1. `src/lib/siteler.ts` → ilgili domainin `bolge:` alanı virgüllü düz metin
-   listesidir. Yeni bölge adını **Türkçe karakterleriyle** bu listenin sonuna
-   (çevre ili girdilerinden ÖNCE, mantıklı sıraya) ekle. Rota + sitemap
-   otomatik üretilir, başka route dosyası YOK.
+   listesidir. Yeni bölge adını **Türkçe karakterleriyle, listenin EN SONUNA**
+   ekle. Rota + sitemap otomatik üretilir, başka route dosyası YOK.
+
+   ⛔ **SONA EKLEME KURALI MUTLAK — ortaya/başa ekleme YASAK.** Nedenleri:
+   - `bolge-hizmet-sayfalari.ts:240` yalnız **ilk 3 girdiden** `/bolge/<slug>/<hizmet>`
+     alt sayfaları üretir (`slice(0, MAKS_BOLGE)`). İlk 3'e yeni girdi sokarsan
+     mevcut bir bölgenin 5 alt sayfası ROTADAN DÜŞER → indekslenmiş URL'ler 404.
+   - `anahtar-kelime-sayfalari.ts:50` ve `firsat-sayfalar.ts:23` **ilk girdiyi**
+     başlık/metinlerde kullanır — ilk girdi değişirse onlarca canlı sayfanın
+     metni değişir.
+   - `bolge-sayfalari.ts` `ilgiliUrun`'u liste indeksinden türetir — araya
+     girmek sonraki tüm bölgelerin ürün eşleşmesini kaydırır.
+
+   Düzenleme sonrası kontrol: `git diff src/lib/siteler.ts` çıktısında her
+   değişen `bolge:` satırında eski girdiler AYNEN ve AYNI SIRADA korunmuş,
+   eklemeler yalnız satır sonunda olmalı. Mevcut bir adı asla yeniden yazma
+   (varyant tuzları bölge adına bağlı — ad değişirse canlı içerik değişir).
 2. Slug, `bolge-sayfalari.ts` içindeki `slugla()` ile üretilir:
    küçük harf (tr-TR), ı→i ğ→g ü→u ş→s ö→o ç→c, alfasayısal olmayan → `-`.
    Örn. `"Kemalpaşa OSB"` → `kemalpasa-osb`, `"Çiğli Atatürk OSB"` →
@@ -193,12 +207,44 @@ kamuya açık gerçeklerdir; bunların ötesinde yerel iddia üretme.
 | Torbalı | torbali | dağıtım merkezleri elleçlemesi |
 
 **Faz A toplamı: 47 yeni elle yazılmış bölge sayfası.**
-Aynı slug'ı yazan domain grupları (birbirini OKUMADAN yazmak yasak):
-`torbali` ×4 (A1,A5,A10,A11) · `cigli-ataturk-osb` ×3 (A1,A2,A10) ·
-`bornova` ×4 (A3,A4,A5,A10) · `balcova` ×4 (A4,A6,A8,A9) · `konak` ×2 ·
-`kemalpasa-osb` ×2 · `itob-osb` ×3 · `cesme` ×2 · `aliaga` ×2 · `urla` ×2 ·
-`karsiyaka`/`bayrakli`/`buca`/`menderes`/`menemen`/`foca`: mevcut kardeş
-dosyalarda da var — `grep` ile bul, oku, farklı yaz.
+
+### Çakışma haritası — MEVCUT + YENİ (yazmadan önce listelenen dosyaları OKU)
+
+Bir slug'ı yazmadan önce onu içeren TÜM dosyaları bul:
+`grep -l '"bolge:<slug>"' src/lib/bespoke/izmir*.ts` — aşağıdaki tablo
+2026-08-13 durumudur, yine de yazım anında grep'le teyit et.
+
+| Slug | Mevcut bespoke (dosya) | Yeni yazacak | Toplam |
+|---|---|---|---|
+| bornova | izmir-manlift-net, izmirmakasliplatform-xyz, izmirmakasliplatform-net-tr, izmirmanliftkiralama-org | A3, A4, A5, A10 | **8 — EN YÜKSEK RİSK** |
+| konak | izmirmakasliplatform-com-tr, izmirplatformskiralama-com, izmirplatformkiralama-org | A3, A6 | 5 |
+| torbali | izmir-manlift-net | A1, A5, A10, A11 | 5 |
+| cigli-ataturk-osb | izmirmakasliplatform-xyz | A1, A2, A10 | 4 |
+| balcova | — | A4, A6, A8, A9 | 4 |
+| aliaga | izmir-forklift-com, izmirmanliftkiralama-net | A2, A7 | 4 |
+| buca | izmirmakasliplatform-net-tr, izmirmanliftkiralama-org, izmirplatformkiralama-org | A4 | 4 |
+| bayrakli | izmirplatformskiralama-com, izmir-man-lift-com, izmirmakasliplatform-com-tr | A6 | 4 |
+| kemalpasa-osb | izmirmakasliplatform-xyz | A1, A10 | 3 |
+| karsiyaka | izmir-man-lift-com, izmirplatformskiralama-com | A6 | 3 |
+| itob-osb | — | A1, A2, A7 | 3 |
+| menemen | izmir-man-lift-com, izmirmakasliplatform-xyz | A2 | 3 |
+| cigli | izmir-forklift-com, izmir-man-lift-com | A9 | 3 |
+| cesme | — | A3, A8 | 2 |
+| urla | — | A3, A9 | 2 |
+| karabaglar | izmirplatformkiralama-org | A6 | 2 |
+| menderes | izmirmanliftkiralama-net | A5 | 2 |
+| foca | izmir-forklift-com | A3 | 2 |
+| pancar-osb | izmir-manlift-net | A7 | 2 |
+| kemalpasa | izmir-manlift-net | A11 | 2 |
+| sirinyer, inciralti, mavisehir, kinik, foca-cevre-ilce, alsancak-liman, gaziemir-ege-serbest-bolgesi, guzelbahce, narlidere | — | tekil | 1 |
+
+**Bornova kuralı (×8):** Bornova sayfası yazan her ajan önce 4 mevcut dosyayı
+okur ve şu ayrık çapaları kullanır — A3: yüksek depo/silo çatılarında rüzgar
+planlaması · A4: cadde mağazaları/ofislerde saatlik iş modeli · A5: Işıkkent
+atölye-dükkan KOBİ ekonomisi · A10: Işıkkent depolarında forklift sınıfı
+(A5 ile aynı bölgeyi anlatır ama makine tipi tamamen farklı — cümle düzeyi
+ortaklık yine yasak). Çakışan slug'lar parti içinde SIRAYLA yazılır; her yeni
+sayfa öncekilerin son hâlini okur.
 
 ---
 
@@ -225,6 +271,11 @@ dosyalarda da var — `grep` ile bul, oku, farklı yaz.
 
 Yapı: h1 + 4-6 uzun paragraf + 4-5 madde + 6 SSS; 1.000+ kelime; sektör
 gerçekleri genel ve doğrulanabilir düzeyde (firma/tesis adı yok).
+
+Eklemeden önce slug çakışması kontrolü ZORUNLU (o hostta veya routelarda aynı
+slug varsa sessizce gölgeleme olabilir):
+`grep -n '"<slug>"' src/lib/alt-sayfalar.ts src/lib/anahtar-kelime-sayfalari.ts src/lib/firsat-sayfalar.ts src/lib/hizmet-sayfalari.ts`
+— çıktı boş olmalı; doluysa farklı slug seç.
 
 ## 5. FAZ C — Karar/fiyat sayfaları (6 sayfa, featured snippet hedefi)
 
