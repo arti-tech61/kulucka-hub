@@ -241,4 +241,10 @@ Gaziantep, Samsun ve Amasya için 27 yeni elle yazılmış bölge sayfası üç
 partide tamamlandı. Çumra, Nizip ve Merzifon konu komşuları ayrı operasyon
 çapalarıyla yazıldı.
 
+## Çanakkale + Muğla + Bolu genişlemesi — 2026-08-13
+
+`docs/GENISLEME-KIYI-BOLU.md` kapsamındaki 14 yeni bölge sayfası ve Muğla
+turizmine yönelik bir sektör sayfası üç partide tamamlandı. Çan, Ezine,
+Milas ve Bolu konu komşuları mevcut içeriklerden ayrı saha akışlarıyla yazıldı.
+
 Bir domain tamamlandığında bu tabloya satır ekleyin.
