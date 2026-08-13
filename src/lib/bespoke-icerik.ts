@@ -103,6 +103,15 @@ import { KUTAHYAPLATFORM_TR } from "./bespoke/kutahyaplatform-tr";
 import { BOLUPLATFORM_COM } from "./bespoke/boluplatform-com";
 import { AFYONPLATFORM_COM } from "./bespoke/afyonplatform-com";
 import { BILECIKPLATFORM_NET } from "./bespoke/bilecikplatform-net";
+import { ISTANBULEKLEMLIPLATFORM_COM } from "./bespoke/istanbuleklemliplatform-com";
+import { KUTAHYAPLATFORM_NET } from "./bespoke/kutahyaplatform-net";
+import { AFYONMANLIFTKIRALAMA_NET } from "./bespoke/afyonmanliftkiralama-net";
+import { AFYONPLATFORM_NET } from "./bespoke/afyonplatform-net";
+import { AFYONPLATFORMKIRALAMA_COM } from "./bespoke/afyonplatformkiralama-com";
+import { BOZUYUKPLATFORM_COM } from "./bespoke/bozuyukplatform-com";
+import { BOZUYUKPLATFORM_NET } from "./bespoke/bozuyukplatform-net";
+import { ESKISEHIRPLATFORM_NET } from "./bespoke/eskisehirplatform-net";
+import { PLUSPLATFORM_COM_TR } from "./bespoke/plusplatform-com-tr";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -252,6 +261,15 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "boluplatform.com": BOLUPLATFORM_COM,
     "afyonplatform.com": AFYONPLATFORM_COM,
     "bilecikplatform.net": BILECIKPLATFORM_NET,
+    "istanbuleklemliplatform.com": ISTANBULEKLEMLIPLATFORM_COM,
+    "kutahyaplatform.net": KUTAHYAPLATFORM_NET,
+    "afyonmanliftkiralama.net": AFYONMANLIFTKIRALAMA_NET,
+    "afyonplatform.net": AFYONPLATFORM_NET,
+    "afyonplatformkiralama.com": AFYONPLATFORMKIRALAMA_COM,
+    "bozuyukplatform.com": BOZUYUKPLATFORM_COM,
+    "bozuyukplatform.net": BOZUYUKPLATFORM_NET,
+    "eskisehirplatform.net": ESKISEHIRPLATFORM_NET,
+    "plusplatform.com.tr": PLUSPLATFORM_COM_TR,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

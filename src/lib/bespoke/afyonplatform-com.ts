@@ -424,101 +424,101 @@ export const AFYONPLATFORM_COM: Record<string, BespokeIcerik> = {
     },
 
     "bolge:konya-osb-cevre-ili": {
-        h1: "Konya Hattında Tekstil ve Halı İhracat Sanayii İçin Platform Kiralama",
+        h1: "Konya'daki Tekstil ve Halı Fabrikalarına Afyon'dan Platform Sevkiyatı",
         giris:
-            "Afyonkarahisar ile Konya arasındaki hat, tekstil sektörü açısından bizim için doğal bir uzantıdır: Konya, hazır giyim, çorap-örme ve halı ihracatıyla ülke genelinde bilinen büyük ölçekli bir tekstil sanayii merkezidir ve buradaki tesisler, Afyon tarafındaki küçük atölyelerin bir sonraki halkasını oluşturur — burada üretilen iplik veya yarı mamul, Konya'daki büyük hazır giyim ve halı fabrikalarına, bitmiş ürün ise ihracat sevkiyatına gider. Bu hat üzerindeki tesisler bizim için tanıdık bir çalışma ortamıdır: aynı lif tozu disiplini, aynı toz yönetimi kuralları, ama çok daha büyük ölçekte. İl dışı sevkiyatı ayıran şey teknik değil lojistiktir — mesafe, makinenin gidiş-geliş süresini kiralamanın içine sokar ve bu, tek günlük işleri ekonomik olmaktan çıkarır. Bu yüzden Konya hattına yaptığımız her çıkışı program olarak kurarız: makine bölgeye indirildiğinde birden fazla adresi kapatacak bir liste hazırdır, gün planı önceden yazılmıştır. Bu sayfada, il dışı bir tekstil talebinin nasıl planlandığını ve büyük ölçekli tesislerde hangi kuralların geçerli olduğunu anlatıyoruz.",
+            "Bir örme fabrikasının bakım sorumlusu bizi aradığında genellikle tek bir kalemle başlar: bir aydınlatma armatürü arızalanmış, hattın üstünde asılı duruyor ve değişmesi gerekiyor. Telefondaki ilk soru neredeyse hiç değişmez — 'Afyon'dan buraya, tek bir armatür için gelir misiniz?' Dürüst cevabımız genellikle hayırdır, ama bu hayır bir ret değil bir öneridir: o armatürü, o hafta zaten planlanmış olan ya da planlanabilecek başka kalemlerle birleştirelim. Konya'daki tekstil ve halı fabrikaları, ölçek olarak Afyon'daki atölyelerden büyük olsa da bize aynı soruyu farklı büyüklüklerde sorar — bir kalem mi, bir liste mi? Cevap her zaman listedir, çünkü sevkiyatın kendisi sabit bir maliyet taşır ve bu maliyet ancak birden fazla iş arasında paylaşıldığında makul bir orana iner. Bu sayfada Konya'daki büyük ölçekli tesislere nasıl hizmet verdiğimizi, hangi soruların hangi cevaplara bağlandığını ve tek bir aramanın nasıl bir programa dönüştüğünü anlatıyoruz.",
         maddeler: [
             {
-                baslik: "Örme ve çorap fabrikalarında hat üstü",
+                baslik: "Örme ve çorap fabrikalarında hat üstü işler",
                 metin:
-                    "Örme makinelerinin sıralandığı hatlarda üst kot, aydınlatma armatürleri, aspirasyon ağızları ve iplik besleme sisteminin üst askı noktalarıyla doludur. Bu hatlar sürekli çalışır ve durma pencereleri kısadır; hat üstü işleri, tesisin planlı temizlik veya bakım duruşlarına yazmayı öneririz. Zorunlu müdahalede çalışılan kesitin üstü örtülür, sepet altına toplama tablası konur ve el aletleri bağlanır.",
+                    "Örme makinelerinin dizili olduğu hatlarda üst kotta aydınlatma armatürleri, aspirasyon ağızları ve iplik besleme sisteminin askı noktaları bulunur. Bu hatlar neredeyse hiç durmaz; bu yüzden hat üstü kalemleri, tesisin zaten var olan planlı temizlik veya bakım duruşuna yazmayı öneririz. Duruş beklenemiyorsa çalışılan kesit örtülür, sepet altına toplama tablası konur ve aletler bağlanır.",
             },
             {
-                baslik: "Hazır giyim konfeksiyon tesislerinde geniş hacim",
+                baslik: "Konfeksiyon üretiminde geniş açıklıklı hacimler",
                 metin:
-                    "Konfeksiyon üretiminin yapıldığı geniş hacimlerde iş, çatı altı aydınlatma, havalandırma kanalları ve kesim-dikim hatlarının üzerindeki tesisattır. Bu tesisler Afyon'daki küçük atölyelerden farklı olarak yüksek tavanlı ve geniş açıklıklıdır; makaslı sınıflar burada rahatça çalışır. Belirleyici kısıt, hat sıralarının arasındaki koridor genişliği ve ürün taşıma arabalarının güzergâhıdır.",
+                    "Kesim ve dikim hatlarının kurulu olduğu konfeksiyon salonları yüksek tavanlı ve geniş açıklıklıdır; bu, Afyon'daki dar atölye koridorlarının tam tersi bir çalışma ortamı sunar ve makaslı sınıflar burada rahatça hareket eder. Buradaki asıl kısıt yükseklik değil, ürün taşıma arabalarının geçtiği koridorların doluluk durumudur — makine bu güzergâha girmeden önce vardiya trafiğinin ne zaman seyrekleştiği sorulur.",
             },
             {
-                baslik: "Halı fabrikalarında dokuma salonu ve depo",
+                baslik: "Halı fabrikalarının dokuma salonu ve mamul deposu",
                 metin:
-                    "Büyük ölçekli halı fabrikalarının dokuma salonları, Afyon tarafındaki atölyelerin büyütülmüş hâlidir — aynı lif tozu yükü, aynı aspirasyon disiplini, ama çok daha geniş bir hacimde. Mamul deposunda ise paletlenmiş halı ruloları yüksek kotlara istiflenir ve buradaki iş raf üstü aydınlatma ile çatı altı havalandırmasıdır. Koridorun boş olması ve sepetin istif yığınına güvenli mesafede kalması esastır.",
+                    "Büyük ölçekli bir halı fabrikasının dokuma salonuna girdiğimizde karşılaştığımız tablo, Afyon'daki küçük atölyelerin büyütülmüş hâlidir: aynı lif tozu, aynı aspirasyon ihtiyacı, sadece kat kat daha geniş bir alanda. Mamul deposunda ise iş yön değiştirir — paletlenmiş halı rulolarının istiflendiği raf sisteminin üst gözleri, çatı altı havalandırması ve yangın algılama hattı gündeme gelir; buradaki tek kural, sepetin istif kütlesine asla doğrudan yaklaşmamasıdır.",
             },
             {
-                baslik: "İhracat sevkiyat rampalarında dış saha",
+                baslik: "İhracata hazır ürünün yüklendiği rampalar",
                 metin:
-                    "İhracata hazırlanan ürünün yüklendiği sevkiyat rampaları, tesisin en yoğun trafik gören bölümüdür. Rampa üstü sundurma, kapı üstü mekanizma ve dış aydınlatma işleri, araç trafiğinin durduğu saatlere yazılır. Kapı bazlı sıralama uygulanır: hangi kapının hangi saatte boşalacağı depo yönetiminden alınır, makine o sıraya göre ilerler.",
+                    "Sevkiyat rampaları, günün her saatinde araç trafiğine açık kalan bölümlerdir ve buradaki iş — sundurma sacı, kapı üstü mekanizma, dış aydınlatma — bu trafikle birlikte yaşamak zorundadır. Çözümümüz kapıları teker teker ele almaktır: bir kapı boşaldığında makine oraya girer, iş biter, sonraki boşalan kapıya geçilir. Tüm rampa hattının aynı anda kapanmasını hiçbir tesisten istemeyiz.",
             },
             {
-                baslik: "İl dışı sevkiyatın program mantığı",
+                baslik: "Bir aramanın programa dönüşme süreci",
                 metin:
-                    "Mesafe, il dışı bir işin fiyatını belirleyen tek kalemdir ve bu kalem gün sayısına bölünür. Tek günlük bir iş için yapılan çıkışta nakliye payı tek işin üstünde kaldığı için maliyet yükselir; aynı çıkışta birden fazla adres kapatıldığında pay bölünür. Bu yüzden Konya hattına yapılan çıkışları program olarak kurarız: adresler haritada sıralanır, gün planı önceden yazılır ve dönüş tarihi belirlenir.",
+                    "Telefondaki tek kalem, bizim tarafımızda üç soruyla genişler: bu hafta veya önümüzdeki hafta Konya'da başka bir talep var mı, sizin tarihiniz ne kadar esnek, ve tesisinizde bekleyen başka bir kalem var mı. Bu üç sorunun cevabı, sevkiyatın tek bir armatür değişimi mi yoksa birkaç adresi kapsayan bir program mı olacağını belirler. Program kurulduğunda her katılımcı kendi teklifini ayrı alır; ortaklaşan yalnızca yol masrafıdır.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Konya hattında tesis tipi ve çalışma koşulu",
+                baslik: "Fabrika bölümüne göre neyle karşılaşırız",
                 paragraflar: [
-                    "Hat üzerinde çalıştığımız tekstil ve halı tesisi tipleri farklı koşullar dayatır. Aşağıdaki tablo bu eşleşmeyi toplar.",
+                    "Konya'daki tesislerde bölümden bölüme hem iş kalemi hem çalışma zamanı değişir. Aşağıdaki tablo, sahaya çıktığımızda en sık gördüğümüz eşleşmeyi özetler.",
                 ],
                 tablo: {
-                    basliklar: ["Tesis tipi", "Baskın iş kalemi", "Belirleyici koşul", "Çalışma penceresi"],
+                    basliklar: ["Bölüm", "Karşılaştığımız iş", "Zamanlamayı belirleyen", "Uygun çalışma anı"],
                     satirlar: [
-                        ["Örme / çorap fabrikası", "Aydınlatma, aspirasyon", "Sürekli çalışan hat", "Planlı duruş"],
-                        ["Konfeksiyon tesisi", "Çatı altı, havalandırma", "Geniş koridor gereksinimi", "Vardiya arası"],
-                        ["Halı dokuma salonu", "Tezgah üstü, aspirasyon", "Yoğun lif tozu", "Temizlik duruşu"],
-                        ["Mamul deposu", "Raf üstü, dedektör", "Koridor geometrisi", "Bölüm boşaldığında"],
-                        ["Sevkiyat / rampa", "Sundurma, kapı üstü", "Araç trafiği", "Sevkiyat dışı saat"],
+                        ["Örme hattı", "Armatür, aspirasyon ağzı", "Hat neredeyse hiç durmaz", "Planlı duruş"],
+                        ["Konfeksiyon salonu", "Çatı altı, havalandırma", "Ürün taşıma arabası trafiği", "Vardiya arası"],
+                        ["Dokuma salonu", "Tezgah üstü, aspirasyon", "Lif tozu yoğunluğu", "Temizlik duruşu"],
+                        ["Mamul deposu", "Raf üstü, dedektör", "İstif kütlesine mesafe", "Bölüm boşaldığında"],
+                        ["Sevkiyat rampası", "Sundurma, kapı üstü", "Araç trafiği", "Kapı bazlı sıra"],
                     ],
                 },
             },
             {
-                baslik: "İl dışı çıkışta gün planının kurulması",
+                baslik: "Tek kalemden çok adresli sevkiyata: bir örnek",
                 paragraflar: [
-                    "Bir il dışı programın kalitesi, sahada değil planlama masasında belirlenir. Çıkış öncesinde üç şeyi netleştiririz: adres sırası, her adreste geçirilecek gün sayısı ve geçişler arası süre. Bu üçlü yazıldığında dönüş tarihi de netleşir ve hiçbir işletme, başka bir adresteki iş uzadı diye gününü kaybetmez.",
-                    "İkinci konu makinenin geceleri nerede kalacağıdır. Uzun bir programda ünitenin her akşam geri getirilmesi mümkün değildir; bu yüzden hat üzerindeki bir tesiste düz, sert ve korunaklı bir park alanı belirlenir ve akülü ünite kalacaksa şarj için erişilebilir bir enerji hattı istenir.",
+                    "Geçmişte yaşadığımız tipik bir senaryo şöyle işler: bir konfeksiyon tesisinden gelen tek bir havalandırma talebi, aynı hafta içinde bize ulaşan başka iki talep — bir örme fabrikasının aydınlatma listesi ve bir mamul deposunun raf kontrolü — ile birleşir. Üç işletme birbirini tanımaz, aralarında hiçbir bağ kurulmaz; tek ortak nokta, aynı hafta içinde makinenin bu üç adresi sırayla dolaşmasıdır.",
+                    "Bu birleşmenin kurulabilmesi için gereken şey basittir: talebin bize erken ulaşması. Son anda gelen tek kalemlik bir talep, o haftaki program zaten kapandıysa kendi sevkiyatını tek başına karşılamak zorunda kalır; bu durumda maliyetin nasıl oluştuğunu teklifte açıkça göstererek kararı işletmeye bırakırız.",
                 ],
             },
             {
-                baslik: "Küçük atölyeden büyük fabrikaya aynı disiplin",
+                baslik: "Ölçek büyüse de kural aynı kalır",
                 paragraflar: [
-                    "Afyon tarafındaki küçük atölyelerde uyguladığımız toz-yangın disiplini, Konya hattındaki büyük tesislerde de aynen geçerlidir; değişen yalnızca ölçektir. Aspirasyon devredeyken çalışma, kıvılcım çıkaran işlemlerin ayrı planlanması ve tozlu yüzeylerin çalışma öncesi temizlenmesi, iki ölçekte de aynı kuraldır.",
-                    "İş sonunda da aynı standart geçerlidir: kullanılan el aletleri sayılarak toplanır, çalışılan alan tesisin kendi temizlik prosedürüne göre teslim edilir ve uygulanan önlemler tutanağa yazılır. İl sınırının hangi tarafında olduğunuz bu adımların hiçbirini değiştirmez; değişen tek şey sahaya ulaşmanın planlama biçimidir.",
+                    "Bir okuyucu şunu sorabilir: küçük bir atölyede uyguladığınız toz ve yangın önlemleri, kat kat büyük bir fabrikada da geçerli mi? Cevap evettir ve bunun nedeni basittir — lif tozunun tutuşma riski, biriktiği hacmin büyüklüğüyle değil, aspirasyonun çalışıp çalışmadığıyla ilgilidir. Aspirasyon devrede değilse küçük bir atölye de büyük bir fabrika da aynı riski taşır; devredeyse ikisi de güvenlidir.",
+                    "İş bittiğinde de aynı kapanış uygulanır: kullanılan el aletleri sayılır, çalışılan alan tesisin kendi prosedürüne göre teslim edilir. Fabrikanın büyüklüğü bu adımların hiçbirini atlatmaz; değişen yalnızca kaç noktada bu adımların tekrarlandığıdır.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Afyon dışındayız, Konya'ya il dışına makine gönderiyor musunuz?",
+                soru: "Sadece bir armatür değişimi için Afyon'dan gelir misiniz?",
                 cevap:
-                    "Gönderiyoruz ve Konya hattı düzenli çalıştığımız güzergâhlardan biridir. Tek farkı planlama biçimidir: mesafe, makinenin gidiş-geliş süresini kiralamanın içine soktuğu için il dışı çıkışları program olarak kurarız. Çıkış öncesinde adres sırasının, her adreste geçirilecek gün sayısının ve dönüş tarihinin yazılması gerekir. Talep ettiğinizde o hafta için kurulmuş bir hat varsa size söyleriz; hatta katıldığınızda nakliye payı adresler arasında bölünür.",
+                    "Tek başına genellikle önermeyiz, çünkü yol masrafı tek bir kalemin bedelini kolayca aşar. Bunun yerine iki yol öneririz: talebinizi o hafta Konya'da planlanmış ya da planlanabilecek başka işlerle birleştirmek, ya da tarihinizi bize erken bildirip bir sonraki programa yazdırmak. Gerçekten bekleyemeyecek bir arıza varsa geliriz, ama bu durumda maliyetin neden yüksek çıktığını teklifte açıkça gösteririz; karar sizindir.",
             },
             {
-                soru: "Örme hattımız sürekli çalışıyor, ne zaman aydınlatma bakımı yapabilirsiniz?",
+                soru: "Örme hattımız durmuyor, aydınlatma bakımını ne zaman sıkıştırabiliriz?",
                 cevap:
-                    "En doğru yol, işi tesisin kendi planlı temizlik veya bakım duruşuna yazmaktır; bu duruşlar zaten takvimde vardır ve iş oraya yerleştiğinde ek üretim kaybı doğmaz. Zorunlu hâllerde çalıştığımız kesit örtülür, sepet altına toplama tablası konur ve el aletleri bağlanır — ama bu riski azaltır, ortadan kaldırmaz. Haftalık duruş takviminizi önceden paylaşırsanız işi o pencereye yerleştiririz.",
+                    "En pratik cevap, işi hattın zaten sahip olduğu planlı temizlik veya bakım duruşuna eklemektir; bu duruşlar takvimde var ve iş oraya girdiğinde ek bir üretim kaybı doğmaz. Duruş beklenemiyorsa çalıştığımız bölüm örtülür, sepet altına bir toplama tablası konur ve elimizdeki aletler bağlanır — ama bunlar riski azaltır, sıfırlamaz. Haftalık duruş saatlerinizi bize gönderirseniz, işi o pencereye yerleştiririz.",
             },
             {
-                soru: "Halı dokuma salonumuzda toz yoğun, çalışma kurallarınız nedir?",
+                soru: "Dokuma salonumuzda toz oldukça yoğun, bu bizim için ek bir tedbir gerektirir mi?",
                 cevap:
-                    "Kuralımız Afyon'daki küçük atölyelerle aynıdır, sadece ölçek büyür: kıvılcım çıkaran hiçbir işlem aspirasyon devredeyken ve ortam temizken dışında yapılmaz. Çalışma öncesinde aspirasyonun devrede olduğunu ve üst yüzeylerdeki birikmiş tozun temizlendiğini teyit ederiz. Ekipmanın ortama uygunluğu tesisin kendi risk değerlendirmesiyle birlikte ele alınır; bu değerlendirmeyi görmeden sahaya ünite indirmeyiz.",
+                    "Uyguladığımız tedbir küçük bir atölyeyle aynıdır, yalnızca sahanın büyüklüğü değişir: aspirasyon çalışmıyorken kıvılcım çıkaran hiçbir işleme başlamayız. Girmeden önce aspirasyonun devrede olduğunu ve üst yüzeylerdeki tozun temizlendiğini gözle teyit ederiz; bu teyit olmadan sepeti yükseltmeyiz. Tesisin kendi risk değerlendirmesi varsa onu görmek isteriz, yoksa kendi gözlemimize göre karar veririz.",
             },
             {
-                soru: "Mamul deposundaki koridorlar dar, makine geçebilir mi?",
+                soru: "Depomuzdaki koridorlar dar, makineniz oradan geçebilir mi?",
                 cevap:
-                    "Belirleyici olan yükseklik değil koridor genişliği ve dönüş yarıçapıdır. Makine ilerleyeceği hat boyunca serbest kalmalı, sepet istif yığınına güvenli mesafede durmalıdır. Uygulamada işi bölüm bölüm parçalarız: hangi koridorun hangi saatte boşalacağı depo yönetiminden alınır, makine o sıraya göre ilerler. Koridor genişliğini ve en üst istif kotunu bildirirseniz sınıf seçimini önceden netleştiririz.",
+                    "Asıl soru yükseklik değil, koridorun genişliği ve makinenin dönüş alanıdır. Sahaya girmeden önce hangi koridorun boş olduğunu depo yönetiminden öğreniriz ve makineyi o sıraya göre ilerletiriz; sepet hiçbir zaman istif kütlesine doğrudan yanaşmaz. Koridor ölçüsünü ve raf yüksekliğini önceden bildirirseniz, hangi sınıfın sığacağını telefonda bile büyük ölçüde söyleyebiliriz.",
             },
             {
-                soru: "Tek günlük küçük bir işimiz var, il dışına gelmeniz mantıklı mı?",
+                soru: "Bizim işimiz küçük ama tarihimiz kesin, ne yapmalıyız?",
                 cevap:
-                    "Tek başına genellikle değil ve bunu açıkça söyleriz. Nakliye, kiralama süresinden bağımsız sabit bir kalemdir; tek günlük bir işte bu kalemin tamamı üstünüzde kalır. İki alternatif öneririz: o hafta hat üzerinde kurulmuş bir programa katılmak — bu durumda pay bölünür — ya da birikmiş küçük işleri tek bir listeye toplayıp tek çıkışta kapatmak. Aciliyet varsa geliriz, ama maliyet farkını teklifte açıkça gösteririz.",
+                    "Tarihi bize mümkün olduğunca erken bildirin — bu, işinizin o haftaki programa girip girmeyeceğini belirleyen tek değişkendir. Erken bildirilen küçük bir iş, aynı bölgedeki başka taleplerle birleşme şansı bulur ve maliyeti düşer. Program zaten kapanmışsa ya bir sonraki haftaya kaydırmayı öneririz ya da tarihiniz gerçekten esnemiyorsa tek başına sevkiyatı planlarız; ikinci durumda fiyat farkını saklamayız.",
             },
             {
-                soru: "Program birkaç gün sürecek, makine geceleri nerede kalır?",
+                soru: "Program birkaç günü kapsayacak, makine her akşam Afyon'a mı dönüyor?",
                 cevap:
-                    "Hat üzerindeki bir tesiste, önceden belirlenmiş bir park alanında kalır — uzun bir programda üniteyi her akşam geri getirmek mümkün değildir. Park alanının düz, sert ve tesis içinde korunaklı olması gerekir; akülü ünite kalacaksa gece şarjı için erişilebilir bir enerji hattı isteriz. Kalış süresince makinenin muhafazası park alanını sağlayan işletmeye aittir; teslim ve iade anında mevcut durum fotoğrafla kayıt altına alınır.",
+                    "Hayır, dönmez. Birkaç adresi kapsayan bir programda makineyi her akşam geri getirmek hem gereksiz hem ekonomik değildir; bunun yerine hat üzerindeki bir tesiste düz ve korunaklı bir noktada bırakılır. Akülü bir ünite söz konusuysa gece şarj edebileceğimiz bir enerji noktası isteriz. Makinenin bu süre boyunca güvenliği, park alanını sağlayan işletmeyle birlikte ele alınır ve teslim-iade anında durumu fotoğraflarız.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-13. Konya'nın hazır giyim, örme-çorap ve halı ihracatıyla anılan büyük ölçekli tekstil sanayii merkezi olması kamuya açık genel bilgidir; il dışı program kurgusu, toz-yangın disiplini ve park-şarj düzeni firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-13. Konya'nın hazır giyim, örme-çorap ve halı ihracatıyla anılan büyük ölçekli tekstil sanayii merkezi olması kamuya açık genel bilgidir; sevkiyat birleştirme mantığı ve toz-yangın önlemi firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
 };

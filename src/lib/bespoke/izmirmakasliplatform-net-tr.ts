@@ -515,101 +515,101 @@ export const IZMIRMAKASLIPLATFORM_NET_TR: Record<string, BespokeIcerik> = {
     },
 
     "bolge:manisa-osb-cevre-ili": {
-        h1: "Manisa OSB ve Çevre İlçelerinde Üretim Tesisi İdare Binaları İçin Makaslı Platform Kiralama",
+        h1: "Manisa OSB Çevresinde Teknoloji Geliştirme Bölgesi ve Ar-Ge Merkezleri İçin Makaslı Platform Kiralama",
         giris:
-            "Manisa Organize Sanayi Bölgesi ve çevre ilçelerdeki üretim tesisleri, üretim hattı dışındaki idare binaları, sosyal tesisler ve depo alanlarında düzenli olarak iç mekân bakımı ihtiyacı üretir. Bu bölgedeki bakım işleri, kampüs binalarının akademik takvim disiplininden bağımsız, tamamen üretim vardiyası ve fabrika işleyişine göre şekillenen bir ritimle yürür. Bu sayfa, Manisa OSB ve çevresindeki fabrika idare binalarında ve sosyal tesislerde makaslı platform kullanımının planlama mantığını anlatır.",
+            "Manisa Organize Sanayi Bölgesi'nin çevresinde, üniversite-sanayi işbirliğinin somut ürünü olan teknoloji geliştirme bölgesi yapıları, Ar-Ge merkezleri ve OSB'ye bitişik kampüs birimleri, kampüs binası ile fabrika binası arasında kalan kendine özgü bir bakım profili taşır: bir yandan laboratuvar ve ofis ağırlıklı iç mekânlar, öte yandan sanayi kuruluşlarının katı üretim-teslim takvimine bağlı çalışan Ar-Ge ekipleri. Bu sayfa, OSB çevresindeki teknoloji geliştirme bölgesi binalarında ve üniversite-sanayi işbirliği kapsamındaki Ar-Ge tesislerinde makaslı platform kullanımının planlama mantığını anlatır — akademik kampüsün ders takvimi de, fabrikanın vardiya takvimi de burada tam olarak geçerli değildir; kendine has bir üçüncü ritim işler.",
         maddeler: [
             {
-                baslik: "İdare binalarında üretim vardiyasından bağımsız planlama",
+                baslik: "Ar-Ge merkezlerinde proje teslim takvimine bağlı çalışma",
                 metin:
-                    "Manisa OSB'deki fabrikaların idare binaları, üretim hattından fiziksel olarak ayrı yapılar olduğu için buradaki bakım işleri (ofis aydınlatması, asma tavan, toplantı salonu düzenlemesi) üretim vardiyasından tamamen bağımsız planlanabilir. Bu bağımsızlık, idare binası projelerini OSB'deki en esnek planlanabilen iş kalemi yapar ve mesai saatleri içinde veya dışında, fabrikanın tercihine göre kurgulanabilir.",
+                    "Teknoloji geliştirme bölgesindeki firmaların Ar-Ge ofisleri ve laboratuvarları, akademik dönem veya fabrika vardiyasından çok, kendi proje teslim tarihlerine göre çalışır — bir firmanın belirli bir günde tamamlaması gereken bir prototip teslimi varsa, o günlerde bina içinde herhangi bir bakım çalışması istenmez. Bakım planı bu yüzden önce ilgili firmalarla proje takvimi netleştirilerek kurulur; sabit bir haftalık veya dönemsel pencereden çok, o dönemki proje yoğunluğuna göre değişen bir program ortaya çıkar.",
             },
             {
-                baslik: "Yemekhane ve sosyal tesislerde vardiya uyumlu çalışma",
+                baslik: "Paylaşımlı laboratuvar ve ortak kullanım alanlarında koordinasyon",
                 metin:
-                    "Fabrika yemekhaneleri, öğün saatlerinde boşaltılamayacağı için bakım çalışması öğün aralarındaki boş saatlere planlanır; üç vardiyalı fabrikalarda bu pencere daha kısıtlıyken, tek vardiyalı fabrikalarda daha geniştir. Büyük kapsamlı bir yenileme gerekiyorsa, tesisin bir bölümü çalışılırken diğer bölüm hizmet vermeye devam edecek şekilde kademeli bir model kurulur.",
+                    "Teknoloji geliştirme bölgesi binalarının çoğunda, birden fazla firma veya araştırma grubu aynı binayı, hatta bazen aynı laboratuvarı paylaşımlı kullanır — bu, tek bir firmayla değil, bina yönetimi veya bölge müdürlüğüyle koordine edilen bir çalışma takvimi gerektirir. Ortak kullanım alanlarındaki (toplantı salonu, ortak laboratuvar, sunum salonu) bakım işleri, tüm kullanıcı firmaların onayladığı bir takvime yazılır ve bu koordinasyon süreci genellikle bölge yönetimi üzerinden yürütülür.",
             },
             {
-                baslik: "Depo ve ambar binalarında malzeme akışı dışı pencere",
+                baslik: "Hassas cihaz ve prototip koruma disiplini",
                 metin:
-                    "Üretim hattına malzeme besleyen depo binalarında raf sistemi bakımı ve aydınlatma değişimi, malzeme akışının en düşük olduğu saat dilimlerine planlanır. Depo sorumlusundan alınan vardiya ve malzeme akış takvimi, bu pencerenin doğru belirlenmesini sağlayan temel bilgidir.",
+                    "Ar-Ge laboratuvarlarında, üniversite laboratuvarlarına benzer şekilde hassas ölçüm cihazları bulunur ama ayrıca firmaların geliştirdiği prototip donanımlar da sahadadır — bu donanımların ticari gizlilik taşıyabilmesi, çalışma öncesi firmanın kendi güvenlik ve gizlilik onayının alınmasını gerektirir. Çalışma alanının prototip donanımdan güvenli mesafede tutulması ve gerekiyorsa geçici perdeleme yapılması, bu binalardaki standart uygulamadır.",
             },
             {
-                baslik: "OSB içi ardışık fabrika-fabrika geçişi",
+                baslik: "OSB ile teknoloji geliştirme bölgesi arası kısa geçiş",
                 metin:
-                    "Manisa OSB'nin yoğun fabrika yerleşimi, aynı dönemde benzer bakım ihtiyacı olan komşu fabrikaların taleplerini ardışık bir plana dizmeyi mümkün kılar — bir fabrikadaki idare binası işini tamamlayan makine, kısa bir mesafeyle komşu fabrikadaki işe geçebilir. Bu, OSB içi kısa mesafeler sayesinde nakliye maliyetini düşürür.",
+                    "Teknoloji geliştirme bölgesinin OSB'ye fiziksel yakınlığı, aynı dönemde her iki tarafta da iş çıkması durumunda makinenin kısa bir mesafeyle bölgeler arasında geçiş yapmasını mümkün kılar — bir Ar-Ge biriminin ofis aydınlatma işini bitiren makine, aynı gün yakındaki bir OSB fabrikasının benzer bir kalemine yönlendirilebilir. Bu geçiş, iki farklı işleyiş mantığına (proje takvimi ve üretim vardiyası) rağmen coğrafi yakınlık sayesinde mümkün olur.",
             },
             {
-                baslik: "Çevre ilçelerden erişim planlaması",
+                baslik: "Bölge müdürlüğü onay süreci",
                 metin:
-                    "Manisa merkez, Turgutlu, Salihli gibi OSB çevresindeki ilçelerde yer alan fabrikaların idare binası ve sosyal tesis projelerinde, keşif ve makine teslim süreci mesafeye göre planlanır. Çalışma yöntemi OSB içi fabrikalarla aynıdır; tek fark, sevkiyat takviminin mesafeye göre biraz daha erken kurulmasıdır.",
+                    "Teknoloji geliştirme bölgelerine makine girişi, genellikle bölge müdürlüğünün kendi güvenlik ve onay sürecine tabidir — bu süreç, kampüs giriş izninden farklı ama benzer bir mantıkla işler: araç ve personel bilgisi önceden bildirilir, çalışma kapsamı ve süresi bölge yönetimine iletilir. Bu onay süreci, çalışma tarihinden yeterince önce başlatıldığında sorunsuz ilerler.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Manisa OSB çevresinde tesis alanına göre çalışma penceresi",
+                baslik: "Teknoloji geliştirme bölgesinde alan tipine göre çalışma yaklaşımı",
                 paragraflar: [
-                    "Fabrika kompleksindeki farklı alanlarda çalışma penceresi aşağıdaki gibi belirlenir.",
+                    "Bölgedeki farklı alan tiplerinde çalışma penceresini belirleyen faktör aşağıdaki gibi değişir.",
                 ],
                 tablo: {
-                    basliklar: ["Alan tipi", "Belirleyici faktör", "Tahsis modeli", "Çalışma penceresi"],
+                    basliklar: ["Alan tipi", "Belirleyici faktör", "Onay mercii", "Çalışma penceresi"],
                     satirlar: [
-                        ["İdare binası ofis katları", "Üretimden bağımsız", "Sabit haftalık tahsis", "Mesai saatleri, esnek"],
-                        ["Yemekhane-sosyal tesis", "Vardiya-öğün takvimi", "Kademeli bölüm tahsisi", "Öğün aralığı"],
-                        ["Depo-ambar binaları", "Malzeme akışı", "Vardiya dışı tahsis", "Akış düşük saatler"],
-                        ["OSB içi çoklu fabrika", "Mesafe avantajı", "Ardışık geçişli tahsis", "Fabrika sırasına göre"],
-                        ["Çevre ilçe fabrikaları", "Mesafeye bağlı sevkiyat", "Sabit tahsis, erken planlama", "Mesai saatleri"],
+                        ["Firma Ar-Ge ofisleri", "Proje teslim takvimi", "İlgili firma", "Proje yoğunluğuna göre değişken"],
+                        ["Paylaşımlı laboratuvarlar", "Çoklu kullanıcı onayı", "Bina/bölge yönetimi", "Tüm kullanıcıların uygun olduğu saat"],
+                        ["Prototip içeren alanlar", "Gizlilik ve koruma", "İlgili firma", "Perdeleme sonrası, kısıtlı"],
+                        ["Ortak kullanım alanları", "Çoklu firma programı", "Bölge müdürlüğü", "Ortak boş saat"],
+                        ["Bölge idari binaları", "Mesai saatleri", "Bölge müdürlüğü", "Esnek"],
                     ],
                 },
             },
             {
-                baslik: "Vardiya takvimiyle kurulan sosyal tesis planı",
+                baslik: "Proje takvimi netleşmeden bakım planlanmaz",
                 paragraflar: [
-                    "Yemekhane ve sosyal tesis renovasyonunda en kritik bilgi, fabrikanın vardiya düzenidir. Proje başında vardiya takviminin ve öğün saatlerinin paylaşılması, çalışma programının doğru pencereye oturmasını sağlar; bu bilgi olmadan yapılan bir planlama, üretimi besleyen bir hizmeti aksatma riski taşır.",
-                    "Kademeli bölüm modeli, üç vardiyalı fabrikalarda özellikle değerlidir çünkü tesisin tamamen kapatılması gerekmez.",
+                    "Teknoloji geliştirme bölgesindeki en temel kural, ilgili firmanın proje takvimi netleşmeden bakım çalışmasının planlanmamasıdır — akademik kampüste ders programı, fabrikada vardiya takvimi ne kadar belirleyiciyse, burada da firmanın proje teslim tarihleri o kadar belirleyicidir. Firmalar genellikle kritik teslim dönemlerini önceden bilir; bu dönemleri bakım planından erkenden dışlamak, hem firmanın hem bizim işimizi kolaylaştırır.",
+                    "Kritik teslim tarihi olmayan sakin dönemlerde ise çalışma penceresi oldukça esnektir — bu farkı bilmek, doğru zamanlamayı bulmanın anahtarıdır.",
                 ],
             },
             {
-                baslik: "OSB içi ardışık planlamanın maliyet avantajı",
+                baslik: "İki dünya arası köprü: kampüs disiplini, sanayi hızı",
                 paragraflar: [
-                    "Manisa OSB'deki fabrikaların bakım ihtiyaçları genellikle birbirinden bağımsız ortaya çıkar; ancak bölgedeki fabrikalarla koordineli çalıştığımızda, benzer dönemde plan yapan komşu tesisleri ardışık bir takvime dizmek mümkün olur ve bu her iki tesis için nakliye maliyetini düşürür.",
-                    "Bir fabrika idare binası veya sosyal tesis projesi planlıyorsanız, bunu erkenden bildirmeniz, makine tahsisinin OSB içi ardışık düzene girme olasılığını artırır.",
+                    "Teknoloji geliştirme bölgesi binalarında çalışırken, hem akademik kampüsün titiz koruma disiplinini (hassas cihaz, gizlilik) hem de sanayi tesislerinin hızlı karar alma kültürünü aynı anda uygularız — bu ikisinin dengesi, bölgenin kendine özgü karakteridir. Bina yönetimiyle kurulan net bir iletişim hattı, bu dengeyi her proje için yeniden kurmaktan daha verimlidir.",
+                    "OSB ile bölge arası kısa mesafe avantajını kullanmak isteyen firmalara önerimiz, bakım ihtiyaçlarını mümkünse komşu OSB tesisleriyle aynı döneme denk getirmektir; bu koordinasyonu bizim üzerimizden kurabilirler.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "İdare binamızın ofis katlarını yenileyeceğiz, üretim durmadan yapılabilir mi?",
+                soru: "Firmamızın kritik bir prototip teslimi yaklaşıyor, bu dönemde bina içinde hiç çalışma yapılamaz mı?",
                 cevap:
-                    "Evet, idare binası genellikle üretim hattından fiziksel olarak ayrı bir yapıdır ve renovasyon projesi üretim takviminden bağımsız planlanır. Ofis katlarının boşaltma sırası ve mesai saatleri dışında çalışma tercihi gibi konular proje başında sizinle netleştirilir; üretim vardiyalarıyla bir bağlantı kurmanıza gerek yoktur.",
+                    "Kritik teslim dönemlerini bakım planından tamamen dışlarız — bu bilgiyi bize erkenden iletmeniz yeterli, o tarih aralığında hiçbir çalışma planlanmaz. Teslim sonrası sakin dönemde ise çalışma penceresi oldukça esnektir. Proje takviminizin kritik ve sakin dönemlerini bir kez paylaşırsanız, sonraki taleplerde bu bilgiyi tekrar sormamıza gerek kalmaz.",
             },
             {
-                soru: "Yemekhanemiz üç vardiya boyunca kesintisiz açık, renovasyon nasıl yapılır?",
+                soru: "Laboratuvarımızda ticari gizlilik taşıyan bir prototip var, çalışma ekibi bunu görebilir mi?",
                 cevap:
-                    "Kademeli bölüm modeliyle: yemekhanenin bir bölümü çalışılırken diğer bölüm hizmet vermeye devam eder, öğün kapasitesi korunur. Çalışma saatleri vardiyalar arası en sakin dilimlere yazılır ve vardiya takviminizi paylaştığınızda bu dilimleri birlikte netleştiririz.",
+                    "Görmemesi için önlem alırız — prototip donanımın bulunduğu alan çalışma öncesi firmanızın onayıyla perdelenir veya geçici olarak kapatılır, çalışma alanı bu bölgeden güvenli mesafede tutulur. Gizlilik önceliğiniz varsa bunu bize önceden bildirmeniz, uygun koruma önlemini baştan kurmamızı sağlar.",
             },
             {
-                soru: "Depomuzun raf sistemini yenileyeceğiz, malzeme akışını nasıl etkiler?",
+                soru: "Bina birden fazla firma tarafından paylaşımlı kullanılıyor, bakım takvimini kim onaylıyor?",
                 cevap:
-                    "Çalışma, malzeme akışının en düşük olduğu saat dilimine planlanır — depo sorumlunuzdan alınan vardiya ve akış takvimi bu pencereyi netleştirir. Büyük kapsamlı işlerde, raf bloğunun bir kısmının geçici olarak devre dışı bırakılması gerekebilir; bu, sizin operasyonel kapasitenize göre birlikte kararlaştırılır.",
+                    "Paylaşımlı alanlarda onay süreci genellikle bina veya bölge yönetimi üzerinden yürür — tüm kullanıcı firmaların uygun olduğu bir saat dilimi bölge yönetimiyle birlikte belirlenir. Tek bir firmanın talebiyle ortak alan çalışması planlanmaz; bu, diğer kullanıcıların işini aksatmamak için gereken bir disiplindir.",
             },
             {
-                soru: "OSB'de komşu fabrikayla aynı dönemde bakım planlıyoruz, birlikte plan yapabilir miyiz?",
+                soru: "Bölgeye makine girişi için ayrı bir onay süreci var mı?",
                 cevap:
-                    "Yapabiliriz — OSB içindeki kısa mesafeler, bir fabrikadaki işi tamamlayan makinenin kısa sürede komşu fabrikaya geçmesini mümkün kılar ve bu her iki tesis için nakliye maliyetini düşürür. İki tesisin proje takvimini bize erkenden bildirmesi ardışık planlama olasılığını artırır.",
+                    "Evet, teknoloji geliştirme bölgesine giriş genellikle bölge müdürlüğünün kendi güvenlik ve onay sürecine tabidir — araç ve personel bilgisi önceden bildirilir, çalışma kapsamı ve süresi bölge yönetimine iletilir. Bu süreç çalışma tarihinden yeterince önce başlatıldığında sorunsuz ilerler; son haftaya bırakılan başvurular gecikmeye yol açabilir.",
             },
             {
-                soru: "Manisa merkezdeyiz, OSB'ye göre biraz uzağız; bu planı etkiler mi?",
+                soru: "Yakınımızdaki bir OSB fabrikasıyla aynı dönemde bakım ihtiyacımız var, birlikte koordine edilebilir mi?",
                 cevap:
-                    "Çalışma yöntemini değiştirmez, yalnızca sevkiyat planını etkiler — çevre ilçe fabrikalarının idare binası projelerinde aynı iç mekân renovasyon mantığı uygulanır, tek fark makine teslim ve keşif sürecinin mesafeye göre biraz daha erken planlanmasıdır.",
+                    "Evet — bölgenin OSB'ye fiziksel yakınlığı, bir tarafta işi bitiren makinenin kısa mesafeyle diğer tarafa geçmesini mümkün kılar. Her iki tarafın proje/vardiya takvimi farklı mantıkla işlese de, bu koordinasyonu bizim üzerimizden kurmanız, nakliye maliyetini düşürür. İki tesisin talebini bize iletmeniz yeterli.",
             },
             {
-                soru: "Fabrikamızda ilk kez bu ölçekte bir iç mekân projesi yapıyoruz, nereden başlamalıyız?",
+                soru: "Firmamız bölgede yeni, ilk kez bakım talebinde bulunuyoruz, süreç nasıl işliyor?",
                 cevap:
-                    "İlk adım, hangi alanların (idare binası, yemekhane, depo) ve hangi kalemlerin kapsam dahilinde olduğunu kabaca listelemektir. Bu listeyle birlikte vardiya takviminizi paylaştığınızda, alan tipine göre tahsis modelini ve çalışma penceresini birlikte netleştiririz. Genellikle bir keşif ziyareti, planı büyük ölçüde netleştirir.",
+                    "İlk adım, hangi alanın (ofis, laboratuvar, ortak alan) ve hangi kalemin kapsam dahilinde olduğunu belirlemek, ardından proje takviminizdeki kritik ve sakin dönemleri paylaşmaktır. Ortak alan söz konusuysa bölge yönetimiyle onay sürecini birlikte başlatırız. Genellikle kısa bir görüşme, doğru çalışma penceresini ve onay adımlarını netleştirmeye yeterlidir.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Manisa OSB'nin fabrika yoğunluğu ve çevre ilçe konumu kamuya açık coğrafi bilgidir; vardiya uyumlu planlama ve OSB içi ardışık geçiş firma pratiğidir.",
+            "Elle yazıldı — 2026-08-12. Manisa OSB çevresindeki teknoloji geliştirme bölgesi ve üniversite-sanayi işbirliği yapıları kamuya açık bilgidir; proje takvimi öncelikli planlama yaklaşımı firma pratiğidir.",
     },
 };

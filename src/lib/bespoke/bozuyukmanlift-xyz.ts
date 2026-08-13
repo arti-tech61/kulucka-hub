@@ -418,199 +418,199 @@ export const BOZUYUKMANLIFT_XYZ: Record<string, BespokeIcerik> = {
     },
 
     "bolge:pazaryeri": {
-        h1: "Pazaryeri'nde Küçük Metal Atölyeleri ve Ara Depolara Manlift Kiralama",
+        h1: "Pazaryeri'nde Depo Yan Sanayisine Özel İmalat Atölyelerine Manlift",
         giris:
-            "Pazaryeri, Bilecik'in küçük ölçekli ilçelerinden biridir ve buradaki lojistik-metal bağlantılı iş, bölgedeki büyük tesislerin tedarik zincirinin en ucundan gelir — bir kesim-büküm parçası üreten tek kişilik bir atölye, bir hurda-hammadde ara deposu, birkaç kişilik bir montaj işletmesi. Bu ölçekte iş küçüktür ve genellikle tek bir kalemden ibarettir: bir aydınlatma değişimi, bir raf kontrolü, bir kaldırma sisteminin bakımı. Pazaryeri'ndeki asıl güçlük teknik değil ölçektir — iki saatlik bir iş için makine göndermek, taşımayı işin önüne geçirir. Bu yüzden buradaki düzenimiz, küçük işleri biriktirip bölge turuna eklemek üzerine kuruludur. Bu sayfa hem bu ölçekteki tipik üst kot kalemlerini hem de işi ekonomik kılan planlama biçimini anlatıyor.",
+            "Bir depo raf sistemi ya da bir yükleme rampası mekanizması her zaman fabrikadan çıktığı gibi kurulmaz — sahaya özgü bir ölçü, standart dışı bir açı ya da hasar görmüş bir parçanın yerine geçecek özel bir üretim gerekir ve bu ihtiyacı çoğu zaman TEM koridorundaki büyük depolara değil, Pazaryeri'ndeki küçük metal atölyelerine sorarlar. Buradaki işletmelerin bir kısmı, otoyol çıkışı çevresindeki depo ve metal işleme tesislerinin standart kataloğa girmeyen taleplerini karşılayan bir tür yedek üretim kapasitesi gibi çalışır: özel kesilmiş bir raf ayağı, kaynaklı bir rampa bariyeri, tek seferlik bir çelik çerçeve. Bu işlerin ölçeği küçüktür ama üst kot ihtiyacı gerçektir — kaldırma sistemi bakımı, tavan altı aydınlatma, sevkiyat öncesi kontrol. Bu sayfa, bu tedarik ilişkisinin Pazaryeri tarafındaki üst kot işlerini ve bunları ekonomik biçimde nasıl yürüttüğümüzü anlatıyor.",
         maddeler: [
             {
-                baslik: "Tek kişilik atölyelerde basit kaldırma sistemleri",
+                baslik: "Özel imalat siparişlerinde kaldırma sistemi güvenliği",
                 metin:
-                    "Pazaryeri'ndeki küçük metal atölyelerinin çoğu, büyük vinç sistemleri yerine tek bir zincirli vinç ya da elle çekilen palanga kullanır. Bu sistemlerin bakımı basittir ama ihmal edildiğinde risk büyüktür — küçük bir atölyede tek kaldırma noktasının arızası, o gün üretimi tamamen durdurur. Kontrol sepetten yapılır, askı noktası ve zincir durumu gözden geçirilir; bu iş genellikle bir saatten kısa sürer ama atölye için önemli bir güvence sağlar.",
+                    "Standart bir ürün yerine tek seferlik bir parça üreten atölyelerde kaldırma ekipmanı da genellikle sadedir — bir zincirli vinç ya da elle çekilen palanga, büyük tesislerdeki gibi yedekli bir sistem değildir. Bu, atölyenin üretim akışının tek bir noktaya bağlı olduğu anlamına gelir; o noktanın arızası, o günkü siparişi doğrudan geciktirir. Askı noktası ve zincir kontrolü sepetten yapılır ve bu kontrolü, atölyenin üretim takvimindeki boşluğa göre planlarız — bir teslim tarihinin hemen öncesine değil.",
             },
             {
-                baslik: "Hurda ve hammadde ara depolarında yüksek istif",
+                baslik: "Depo tedarikçisi atölyelerde malzeme stok yüksekliği",
                 metin:
-                    "Küçük ara depolarda hurda metal ve hammadde profiller, düzenli raf yerine bazen yüksek istif hâlinde tutulur. Bu istiflerin sağlamlığı, özellikle taban genişliği dar ve yükseklik fazla olduğunda risk taşır. Sepetten yapılan kontrol, istifin üst kısmının dengesini ve varsa bağlama malzemesinin durumunu değerlendirir; personel istife çıkmaz, yanından bakarak değerlendirir. Sorunlu istifler işaretlenir ve düzeltme için forklift ekibine bildirilir.",
+                    "Depo ve metal işleme tesislerine özel parça üreten atölyeler, hangi siparişin ne zaman geleceğini tam kestiremediği için çeşitli profil ve sac stoku bulundurur; bu stok genellikle raf yerine yüksek istif hâlinde tutulur çünkü çeşit fazla, miktar azdır. İstifin üst kısmının sağlamlığı, düzenli aralıklarla sepetten kontrol edilir; personel istife çıkmadan, yanından bakarak değerlendirme yapar. Devrilme riski taşıyan istifler işaretlenir ve düzeltmesi forklift ekibine bırakılır.",
             },
             {
-                baslik: "Küçük atölyelerde aydınlatma ve aspirasyon",
+                baslik: "Tezgâh üstü aydınlatmanın ölçü hassasiyetine etkisi",
                 metin:
-                    "Bölgedeki küçük metal atölyelerinde üst kot işleri çoğunlukla aydınlatma ve varsa basit bir aspirasyon başlığında yoğunlaşır. Bu yapılarda özel zorluk tavan yüksekliğinden çok zemindeki doluluktur — tezgâh ve malzeme arasında dar bir geçiş, makinenin manevra alanını sınırlar. Eklemli sınıf makineler bu doluluğun üzerinden aşarak çalışır; çalışma öncesi tek isteğimiz, makinenin gireceği güzergâhın temizlenmiş olmasıdır.",
+                    "Özel sipariş bir parçanın ölçüsü, standart üretimdeki gibi bir kez ayarlanıp tekrarlanmaz; her sipariş yeniden ölçülür ve bu, tezgâh üstü aydınlatmanın kalitesine standart üretimden daha bağımlı hâle gelir. Yetersiz ışıkta alınan yanlış bir ölçü, teslim edilen parçanın depoya ya da atölyeye uymaması demektir. Armatür bakımı ya da değişimi sırasında tezgâh kısa süreliğine durdurulur, sepet üstten değil kenardan yaklaşır.",
             },
             {
-                baslik: "Montaj işletmelerinde sevkiyat öncesi kontrol",
+                baslik: "Teslim öncesi son kontrol ve paketleme",
                 metin:
-                    "Küçük montaj işletmelerinde bitmiş ürün, sevkiyat öncesi genellikle atölyenin bir köşesinde yüksek istiflenir. İstif üst sıralarının kontrolü, sepetten yapılan kısa bir turla tamamlanır. Küçük ölçekte bu iş genellikle diğer kalemlerle (aydınlatma, kaldırma sistemi kontrolü) aynı ziyarette birleştirilir; makine zaten oradayken tüm listeyi bitirmek, ayrı ayrı çağrılardan hem ucuz hem hızlıdır.",
+                    "Özel imalat bir parça, teslime hazır hâle geldiğinde genellikle atölyenin bir köşesinde bekletilir ve büyük parçalarda bu bekleme alanı yükseğe uzanabilir. Teslim öncesi son kontrolde parçanın üst kısmının hasarsız olduğu ve varsa bağlama malzemesinin sağlam kaldığı sepetten doğrulanır. Bu kısa iş, genellikle aynı ziyarette diğer kalemlerle (kaldırma sistemi kontrolü, aydınlatma) birleştirilir.",
             },
             {
-                baslik: "Küçük işleri birleştiren gün planı",
+                baslik: "Sipariş temposuna göre esnek ziyaret sıklığı",
                 metin:
-                    "Bu ölçekte ekonomiyi belirleyen, makinenin bölgede geçirdiği günün ne kadarının işe dönüştüğüdür. Uygulamamız, ilçedeki talepleri toplayıp aynı güne dizmektir — sabah bir atölyede kaldırma sistemi kontrolü, öğleden sonra başka bir adreste aydınlatma değişimi. Bunun tek şartı tarih esnekliğidir; acil olmayan işletmeye bu düzeni öneririz, çünkü taşıma payı bölündüğünde birim maliyet belirgin biçimde düşer.",
+                    "Özel imalat atölyelerinin üst kot ihtiyacı, sipariş akışına bağlı olarak dalgalanır — yoğun bir dönemde birden fazla kalem birikirken, sakin bir dönemde aylarca hiçbir talep gelmeyebilir. Bu düzensizliği önceden bilmediğimiz için, atölyeyle sabit bir takvim yerine ihtiyaç oldukça haber verme düzeni kurarız; talep geldiğinde bölgedeki bir sonraki geçişimize ekleriz ya da yoğunluğa göre ayrı bir ziyaret planlarız.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Küçük ölçekli atölyelerde tipik kalem ve süre",
+                baslik: "Özel imalat atölyelerinde üst kot kalemleri",
                 paragraflar: [
-                    "İlçe ölçeğinde en sık talep edilen üst kot kalemleri ve tipik saha süreleri aşağıda toplanmıştır; gün planını kurarken bu çerçeveyi kullanırız.",
+                    "Pazaryeri'ndeki depo ve metal işleme yan sanayisi atölyelerinde en sık karşılaştığımız üst kot kalemleri aşağıda özetlenmiştir.",
                 ],
                 tablo: {
-                    basliklar: ["Kalem", "Tipik ölçek", "Belirleyici koşul", "Gün planındaki yeri"],
+                    basliklar: ["Kalem", "Tetikleyici", "Risk", "Zamanlama tercihi"],
                     satirlar: [
-                        ["Kaldırma sistemi kontrolü", "Bir saatten kısa", "Yedeksizlik", "Sabah ilk iş"],
-                        ["Hurda/hammadde istif kontrolü", "Birkaç saat", "İstif geometrisi", "Gün içinde esnek"],
-                        ["Aydınlatma-aspirasyon bakımı", "Yarım gün", "Zemin doluluğu", "Ara işlere uygun"],
-                        ["Sevkiyat istif kontrolü", "Birkaç saat", "Yükleme yoğunluğu", "Gün sonuna uygun"],
+                        ["Kaldırma sistemi kontrolü", "Yedeksiz sistem", "Üretim durması", "Sipariş boşluğunda"],
+                        ["Stok istif kontrolü", "Çeşitli profil-sac stoku", "Devrilme", "Düzenli aralıklarla"],
+                        ["Tezgâh aydınlatması", "Ölçü hassasiyeti", "Hatalı üretim", "Arıza bazlı, hızlı"],
+                        ["Teslim öncesi kontrol", "Sevkiyat tarihi", "Son an hasarı", "Diğer kalemlerle birleşik"],
                     ],
                 },
             },
             {
-                baslik: "Tek noktalı sistemlerin küçük atölyedeki gerçek riski",
+                baslik: "Yedek üretim kapasitesinin kendine özgü riski",
                 paragraflar: [
-                    "Pazaryeri'ndeki küçük atölyelerde tek bir zincirli vinç ya da tek bir kaldırma noktası, o atölyenin tüm ağır iş akışını taşır. Büyük bir tesiste benzer bir sistemin arızası başka bir istasyona yönlendirilerek tolere edilebilirken, burada alternatif yoktur — arıza doğrudan o günkü üretimin durması demektir. Bu yüzden küçük atölyelerde önleyici kontrolü, ölçeğin küçüklüğüne rağmen ciddiye alırız.",
-                    "Bu yaklaşımın maliyeti düşüktür çünkü kontrol edilecek sistem sayısı azdır — bir atölyede genellikle tek kaldırma noktası, birkaç armatür ve belki bir aspirasyon başlığı vardır. Kısa bir sepet turu, bu sınırlı ama kritik listeyi tamamen kapsar.",
+                    "Büyük bir depo ya da metal işleme tesisinde bir sistemin arızası, genellikle başka bir hatta ya da ekibe yönlendirilerek bir süre tolere edilebilir. Pazaryeri'ndeki özel imalat atölyelerinde ise iş zaten tek bir sipariş, tek bir tezgâh, tek bir kaldırma noktası etrafında döner — burada tolere edilebilecek bir yedek yoktur. Bu yüzden kısa süreli, sık aralıklı kontrolleri, büyük tesislerdeki yıllık kapsamlı turlara göre daha öncelikli tutarız.",
+                    "Bu yaklaşım, atölyenin kendi iş modelini de korur: bir depo tedarikçisi için teslim tarihini kaçırmak, büyük bir tesisin bir günlük gecikmesinden çok daha ağır bir itibar kaybı olabilir çünkü sipariş genellikle tek seferliktir ve ikinci bir şans azdır.",
                 ],
             },
             {
-                baslik: "Tekil talebi ekonomik hâle getirmenin yolları",
+                baslik: "Sabit takvim yerine talebe dayalı ziyaret",
                 paragraflar: [
-                    "Küçük ölçekli bir işletme için makine kiralamanın en can sıkıcı yanı, iki saatlik bir iş için bir günlük düzen kurmak zorunda kalmaktır. Bunu hafifletmenin iki yolu var: işleri biriktirmek — yıl içinde ortaya çıkan üst kot kalemlerini not edip tek güne toplamak; ve tarih esnekliği tanımak — esnek tarihli iş, bölgeye gelen bir başka işin gününe eklenir.",
-                    "Komşuluk da işe yarar: yakın konumdaki işletmelerin talepleri aynı güne dizildiğinde taşıma payı bölünür. İşletmeler arasında herhangi bir bağ kurmaya gerek yoktur; her biri kendi işinin teklifini alır, kendi raporunu alır. Ortak olan yalnızca gün planımızdır.",
+                    "Sipariş akışı düzensiz olduğu için, Pazaryeri'ndeki atölyelerle sabit aylık ya da üç aylık bir bakım takvimi kurmak yerine, ihtiyaç oldukça bildirim almayı tercih ederiz. Bu, atölyenin boşa bakım ücreti ödememesini sağlar; karşılığında biz de talebi aldığımızda bölgedeki bir sonraki geçişimize ekleyip ekleyemeyeceğimizi hızlıca değerlendiririz.",
+                    "Yoğun sipariş dönemlerinde bu talepler sıklaşır ve biz de o dönemde bölgeye daha sık uğrarız; sakin dönemde ise aylarca hiç çağrı gelmeyebilir. Bu dalgalanmayı önceden planlamak yerine takip etmeyi tercih ediyoruz — atölyenin gerçek ihtiyacı, bizim tahminimizden daha güvenilir bir gösterge.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Tek zincirli vincimiz arızalanırsa üretimimiz tamamen durur; bakımı nasıl planlıyorsunuz?",
+                soru: "Tek zincirli vincimiz arızalanırsa siparişimiz gecikir; kontrolü nasıl planlıyorsunuz?",
                 cevap:
-                    "Sizinle birlikte önleyici bir kontrol takvimi kurarız; sistem tek noktalı ve yedeksiz olduğu için arızayı beklemek yerine erken uyarı işaretlerini (zincir gevşemesi, askı noktasında aşınma) yakalamayı hedefleriz. Kontrol sepetten yapılır, genellikle bir saatten kısa sürer ve atölyenizin görece sakin olduğu bir saate planlanabilir. Sorunlu bir bulgu çıkarsa, değişim ya da onarımı planlı bir pencerede yapmanızı öneririz — beklenmedik bir arızadan çok daha ucuz ve daha az stresli bir seçenek.",
+                    "Kontrolü, teslim tarihinin hemen öncesine değil, üretim takviminizdeki boşluğa denk getirmeye çalışırız — bu, arıza çıkarsa müdahale için pay bırakır. Sepetten yapılan kontrolde askı noktası ve zincir gerginliği gözden geçirilir, erken uyarı işaretleri (gevşeme, aşınma) varsa size bildiririz. Sistem tek noktalı ve yedeksiz olduğu için, bulgu çıkan bir noktayı beklemeden değiştirmenizi öneririz; teslim tarihine yakın bir arıza, kontrol maliyetinden çok daha pahalıya patlar.",
             },
             {
-                soru: "Hurda-hammadde istiflerimiz düzensiz, kontrol sırasında ne yapıyorsunuz?",
+                soru: "Çeşitli profil ve sac stokumuz yüksek istifte duruyor; kontrol sırasında neye bakıyorsunuz?",
                 cevap:
-                    "Sepet istifin yanına konumlanır, personel istife çıkmadan üst kısmın dengesini ve bağlama malzemesinin (varsa) durumunu değerlendirir. Taban genişliği dar ve yükseklik fazla olan istifler, devrilme riski açısından öncelikli olarak işaretlenir. Ciddi risk gördüğümüz istiflerin düzeltmesini kendimiz yapmayız — bu forklift ekibinizin işidir, biz durumu tespit edip bildiririz. İki farklı ekipmanın aynı istife aynı anda müdahale etmesi ek risk yaratır, bu yüzden iş bölümünü net tutarız.",
+                    "İstifin üst kısmının dengesine ve varsa bağlama malzemesinin durumuna bakarız; personel istife çıkmaz, yanından değerlendirme yapar. Çeşit fazla miktar az olduğu için istifler düzenli değişir — bu yüzden kontrolü tek seferlik değil, düzenli aralıklarla tekrarlamayı öneririz. Devrilme riski gördüğümüz istifleri işaretleriz ama düzeltmesini kendimiz yapmayız; bu forklift ekibinizin işidir, biz durumu tespit edip bildiririz.",
             },
             {
-                soru: "Atölyemiz dar ve dolu; makine için yer açmamız gerekir mi?",
+                soru: "Atölyemiz dar ve malzeme dolu; makine için yer açmamız gerekir mi?",
                 cevap:
-                    "Tamamen boşaltmanız gerekmez, ama makinenin gireceği güzergâh ve park edeceği nokta temizlenmiş olmalı. Eklemli bom, hedefin tam altına girmek zorunda değildir — koridordan yükselip malzemenin üzerinden yatay uzanarak hedefe ulaşabilir. Kapı genişliğini ve iç yükseklik durumunu önceden bilmemiz önemlidir; dar girişlerde daha kompakt bir sınıf seçeriz. Kapının ölçüsünü ve içeriden çekilmiş bir fotoğrafı paylaşmanız yeterli.",
+                    "Tamamen boşaltmanız gerekmez, ama makinenin gireceği güzergâh ve park edeceği nokta temizlenmiş olmalı. Eklemli bom, hedefin tam altına girmek zorunda değildir — koridordan yükselip malzemenin üzerinden yatay uzanarak hedefe ulaşabilir. Kapı genişliğini ve iç yükseklik durumunu önceden bilmemiz önemlidir; dar girişlerde daha kompakt bir sınıf seçeriz.",
             },
             {
-                soru: "Sadece kaldırma sistemi kontrolü için makine tutmak pahalı olmaz mı?",
+                soru: "Sipariş akışımız düzensiz; sizinle sabit bir bakım anlaşması yapmalı mıyız?",
                 cevap:
-                    "Tek başına yaptırılırsa taşıma payı göze çarpar, doğru. Bunu düşürmenin iki yolu var: aynı turda yapılabilecek diğer kalemleri listeye eklemek — aydınlatma, aspirasyon, sevkiyat istifi kontrolü gibi işler aynı sepet turunda bitebilir; ve tarih esnekliği tanımak, böylece işiniz bölgeye gelen başka bir işin gününe eklenir ve taşıma bölünür. Küçük atölyenizde kontrol edilecek sistem sayısı zaten sınırlı olduğu için, kısa bir sepet turu genellikle tüm listeyi kapsar.",
+                    "Zorunlu değil, ve düzensiz sipariş akışı olan bir atölyede sabit takvim genellikle verimli olmuyor. Bunun yerine ihtiyaç oldukça bize haber vermenizi öneririz; talebiniz geldiğinde bölgeye planladığımız bir sonraki geçişe ekleriz ya da yoğunluğa göre ayrı bir ziyaret kurarız. Yoğun dönemlerinizde bu talepler sıklaşacağı için biz de bölgeye o dönemde daha sık uğrarız — takvimi sizin sipariş temponuz belirler, bizim tahminimiz değil.",
             },
             {
-                soru: "Sevkiyat öncesi istiflerimizi ne sıklıkla kontrol ettirmeliyiz?",
+                soru: "Özel sipariş bir parçayı teslim öncesi nasıl kontrol ediyorsunuz?",
                 cevap:
-                    "Sevkiyat yoğunluğuna bağlı; yoğun dönem öncesi bir kontrol, çoğu küçük atölye için yeterlidir. İstiflerin devrilme riski, özellikle üst üste hızla eklenen ürünlerde artar ve bu risk çoğunlukla yoğun sevkiyat dönemlerinde ortaya çıkar. Kontrolde personel istifin üzerine çıkmaz, sepetten yanaşarak üst sıraların sağlamlığını değerlendirir. Sorunlu istifler işaretlenir ve düzeltme için sizin ekibinize bildirilir.",
+                    "Sepetten yapılan kısa bir turla parçanın üst kısmının hasarsız olduğunu ve varsa bağlama malzemesinin sağlam kaldığını doğrularız; bu iş genellikle diğer kalemlerle (kaldırma sistemi kontrolü, aydınlatma) aynı ziyarette birleştirilir. Büyük parçalarda bekleme alanı yükseğe uzanabildiği için, üst sıraların kontrolü merdivenle değil sepetten yapılır — bu, hem daha hızlı hem parçaya temas riskini azaltan bir yöntemdir.",
             },
             {
-                soru: "İşimiz acil değil; ne zaman geleceğinizi nasıl bileceğiz?",
+                soru: "Sadece bir tezgâh aydınlatması değişimi için makine tutmak pahalı olmaz mı?",
                 cevap:
-                    "Esnek tarihli işlerde düzenimiz şudur: talebi listeye alır, bölgeye planlanan bir sonraki gün belli olduğunda size tarih teyidiyle döneriz. Yani belirsiz bir bekleyiş değil, netleşen bir tarih söz konusudur. Bu düzenin karşılığı daha uygun bir birim maliyettir, çünkü taşıma o günkü diğer işlerle bölünür. Tarihiniz sabitse ya da işiniz acilse tekil sevkiyat da yaparız; bu durumda taşıma tam bedelle fiyatlanır ve bunu baştan açıkça söyleriz.",
+                    "Tek başına yaptırılırsa taşıma payı göze çarpar, doğru. Bunu düşürmenin yolu, o sırada biriken diğer kalemleri (stok kontrolü, teslim öncesi kontrol) aynı listeye eklemek ya da talebinizi bölgedeki bir sonraki geçişimize yazdırmaktır. Ölçü hassasiyeti gerektiren bir iş olduğu için aydınlatma arızasını uzun süre ertelemenizi önermeyiz, ama arıza acil değilse birkaç günlük bir bekleme, taşıma maliyetini paylaştırmak için genellikle yeterli.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. İlçenin küçük ölçekli yapısı genel bilgidir; tek noktalı kaldırma sistemlerinin yedeksizlik riski ve önleyici kontrol yaklaşımı saha pratiğinden gelir. İşletme adı ve rakam verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. İlçenin TEM koridorundaki depo-metal sanayisine özel imalat yapan küçük atölyeler barındırması genel bilgidir; yedeksiz kaldırma sistemi riski ve talebe dayalı ziyaret yaklaşımı saha pratiğinden gelir. İşletme adı ve rakam verilmemiştir.",
     },
 
     "bolge:eskisehir-osb-cevre-ili": {
-        h1: "Eskişehir OSB'ye Bozüyük'ten Lojistik ve Metal İşleme Manlift Hizmeti",
+        h1: "Eskişehir OSB'de Makine İmalatı Tesislerine Bozüyük'ten Yüksek Erişim Hizmeti",
         giris:
-            "Eskişehir, Bozüyük'e karayoluyla ve TEM Otoyolu bağlantısıyla yakın komşu ildir ve organize sanayi bölgesindeki metal işleme ile lojistik tesisleri, otoyol koridorunun devamı niteliğinde çalışır — Bozüyük çıkışından yüklenen bir araç, kısa bir sürede Eskişehir OSB'deki bir tedarikçiye ya da dağıtım merkezine ulaşır. Bu yakınlık, iki bölge arasındaki tedarik ilişkisini güçlendiriyor: Bozüyük'teki metal işleme atölyelerinin bir kısmı Eskişehir'deki büyük ölçekli üretim tesislerine parça tedarik ediyor, Eskişehir'deki lojistik merkezleri ise Bozüyük hattından gelen malzemeyi dağıtım ağına aktarıyor. Bizim çevre il hizmetimiz bu karşılıklı bağı takip ediyor — makine bölgeye planlı bir programla gidiyor, işler tek dönemde toplanıyor ve iş bitene kadar sahada kalıyor. Bu sayfa, TEM koridorunun Eskişehir ucundaki lojistik ve metal işleme tesislerinde nasıl çalıştığımızı anlatıyor.",
+            "Bir makine imalatı tesisinde vinç rayının bir gün bile aksaması, o gün tezgâhtan tezgâha taşınamayan parçaların birikmesi demektir — ve Eskişehir OSB'deki büyük ölçekli üretim tesislerinin çoğu, tam da bu türden yedeksiz kritik sistemlere yaslanır. Bizim bu tesislerle ilişkimiz, TEM Otoyolu'nun Bozüyük çıkışından başlayan düzenli bir hat üzerinden yürüyor: makinemiz bölgeye vardığında, aylar öncesinden planlanmış bir vinç rayı bakımını mı yürütecek, yoksa yeni kurulan bir üretim hattının aydınlatma ve aspirasyon montajını mı tamamlayacak, bunu önceden bilerek gideriz. Eskişehir'deki tesislerin ölçeği, Bozüyük'teki küçük-orta atölyelerden genellikle daha büyüktür ve bu, hem makine seçimini hem koordinasyon biçimini değiştirir. Bu sayfa, ölçeği büyük tesislerde üst kot işlerini nasıl planladığımızı ve mesafeye rağmen aynı işçilik standardını nasıl koruduğumuzu anlatıyor.",
         maddeler: [
             {
-                baslik: "TEM koridorunun iki ucundaki tedarik ilişkisi",
+                baslik: "Geniş açıklıklı üretim hollerinde vinç rayı bakım koordinasyonu",
                 metin:
-                    "Bozüyük çıkışından yüklenen bir metal parça ya da yarı mamul, Eskişehir OSB'deki bir üretim tesisine genellikle aynı gün ulaşır ve bu hız, iki bölgedeki tesislerin üretim takvimlerini birbirine bağlar. Bir tarafta üretim gecikmesi, kısa sürede diğer tarafın üretim planını da etkiler. Bu bağı bildiğimiz için, Bozüyük'teki bir metal atölyesinin acil bir üst kot arızası, Eskişehir'deki bir müşterisinin de bizim programımızda öncelik kazanmasına yol açabilir — iki bölgedeki işleri tamamen ayrı görmeyiz.",
+                    "Makine imalatı tesislerinde birden fazla vinç hattı aynı hol içinde paralel çalışabilir ve bu, bakım sırasında hangi hattın hangi saatte boşa çıktığının net bilinmesini gerektirir. Çalışılacak hat, diğer hatlardan bağımsız olarak elektriksel kilitlemeye alınır; bu teyit tesisin üretim planlama biriminden alınmadan sepet raya yaklaştırılmaz. Ölçek büyüdükçe bu koordinasyonun yazılı hâle getirilmesi önem kazanır — sözlü bir teyit, vardiya değişiminde kaybolabilir.",
             },
             {
-                baslik: "Eskişehir OSB'deki metal işleme tesislerinde vinç ve aspirasyon",
+                baslik: "Ağır parça taşıyan raf sistemlerinde yük geçmişine göre kontrol",
                 metin:
-                    "Eskişehir'in büyük ölçekli metal işleme ve makine imalatı tesisleri, Bozüyük'teki küçük-orta ölçekli atölyelerden daha geniş açıklıklı ve daha yüksek kapasiteli vinç sistemlerine sahiptir. Bu tesislerde çalışırken vinç kilitleme kuralı aynı sıkılıkla uygulanır, ancak ölçek büyüdükçe koordinasyon daha fazla önem kazanır — hangi vinç hattının hangi saatte kullanılmadığı, tesisin üretim planlama biriminden teyit edilerek netleştirilir.",
+                    "Büyük ölçekli tesislerin ara mamul ve yedek parça depolarında raf gözleri, standart bir depo gibi tekdüze değil, taşıdıkları parçanın ağırlığına göre değişken bir yük geçmişine sahiptir — bazı gözler düzenli olarak ağır döküm parçaları taşırken bazıları hafif ama hacimli malzeme taşır. Raf travers kontrolü bu geçmişi hesaba katarak yapılır; hangi gözün hangi yük sınıfında çalıştığı bilgisi, kontrolü doğru noktalara yönlendirir ve standart bir kontrol listesinin gözden kaçırabileceği aşırı yüklü gözleri önceliklendirir.",
             },
             {
-                baslik: "Dağıtım merkezlerinde raf ve konveyör bakımı",
+                baslik: "Yeni hat kurulumlarında aydınlatma-aspirasyon montaj sırası",
                 metin:
-                    "Eskişehir OSB'deki dağıtım merkezleri, Bozüyük hattından gelen malzemenin yanı sıra bölgenin diğer üretim kollarından gelen ürünleri de karşılar ve bu çeşitlilik, raf sistemlerinin daha karma bir yük profiline sahip olmasına yol açar — bazı gözlerde ağır metal parça, bazı gözlerde hafif paketli ürün. Raf travers kontrolü bu karma yükü hesaba katarak yapılır; her göz kendi yük geçmişine göre değerlendirilir, standart bir kontrol listesi tüm raflara aynı şekilde uygulanmaz.",
+                    "Eskişehir'deki büyük tesislerde yeni bir üretim hattı kurulduğunda, aydınlatma ve aspirasyon sistemlerinin montajı genellikle tezgâh yerleşimi kesinleştikten sonraya bırakılır — erken monte edilen bir armatür ya da kanal, yerleşim değişirse yeniden işlenmek zorunda kalır. Bu tesislerde proje ekipleri büyük olduğu için, montaj sırasını netleştirmek daha fazla taraf arasında koordinasyon gerektirir; biz bu sırayı proje yöneticisiyle yazılı olarak netleştirir, hangi haftada hangi kalemin çalışılacağını önceden planlarız.",
             },
             {
-                baslik: "Çevre il turunun kurulma biçimi",
+                baslik: "Vardiyalı üretimde çalışma penceresinin daralması",
                 metin:
-                    "Bozüyük'ten Eskişehir hattına makine, biriken talep bir günü doldurduğunda ya da tek başına bir günü hak eden bir iş çıktığında yola çıkar. Tur gününde adresler mesafeye göre sıralanır, her tesiste yalnızca önceden onaylanmış liste çalışılır. İşletme açısından sonuç iki maddedir: gün baştan sabittir ve taşıma bedeli o günkü işler arasında bölünür. Acil ve tur dışı taleplerde tekil sevkiyat yapılır, bunu baştan söyleriz.",
+                    "Büyük ölçekli tesislerin çoğu üç vardiya çalışır ve bu, üst kot işleri için uygun boş pencerenin küçük-orta ölçekli bir atölyeye göre daha dar olması demektir — bir vinç hattının tamamen boşa çıktığı saat, haftanın yalnızca birkaç dilimine sığabilir. Bu darlığı önceden bilerek, işi tek bir uzun ziyarete değil, tesisin verdiği kısa pencerelere bölünmüş birkaç kısa bloğa yayarız; bu, toplam süreyi biraz uzatsa da üretim kaybını asgaride tutar.",
             },
             {
-                baslik: "Uzayan projelerde makinenin sahada kalması",
+                baslik: "Uzun süreli projelerde makinenin tesiste kalması",
                 metin:
-                    "Yeni bir depo ya da atölye kurulumu, kapsamlı bir vinç rayı yenilemesi gibi günlere yayılan işlerde tur düzeni yerini yerinde bulundurmaya bırakır: makine proje boyunca tesiste kalır, günlük taşıma maliyeti ortadan kalkar ve iş üretim penceresine göre esnek ilerler. Bu modelde tek beklentimiz, ünitenin mesai dışında kilitli ya da gözetimli bir alanda durabilmesidir.",
+                    "Kapsamlı bir vinç rayı yenilemesi ya da yeni bir hattın üst kot montajı gibi haftalara yayılan işlerde, makineyi her gün Bozüyük'e geri götürmek yerine proje süresince tesiste bırakırız. Bu, hem taşıma maliyetini tek sefere indirir hem de ertesi gün işe başlayacak ekibin makine beklemesini önler. Karşılığında bizden beklenen, ünitenin mesai dışında kilitli ya da gözetimli bir alanda durabilmesidir.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Eskişehir hattında iş tipine göre çalışma düzeni",
+                baslik: "Büyük ölçekli tesislerde iş tipine göre koordinasyon yükü",
                 paragraflar: [
-                    "TEM koridorunun Eskişehir ucundaki lojistik ve metal işleme işlerini, süre ve takvim bağına göre şu şekilde ayırırız.",
+                    "Eskişehir OSB'deki büyük ölçekli tesislerde iş tipine göre gereken koordinasyon düzeyi ve tipik süre aşağıda özetlenmiştir.",
                 ],
                 tablo: {
-                    basliklar: ["İş tipi", "Takvim bağı", "Önerilen düzen", "Makinenin sahada süresi"],
+                    basliklar: ["İş tipi", "Koordinasyon gereksinimi", "Tipik süre", "Makine yaklaşımı"],
                     satirlar: [
-                        ["Vinç rayı bakımı", "Üretim planına bağlı", "Tur gününe eklenir", "Yarım-bir gün"],
-                        ["Dağıtım merkezi raf kontrolü", "Esnek", "Tur gününe eklenir", "Bir gün"],
-                        ["Yeni kurulum/montaj projesi", "Bağımsız", "Yerinde bulundurma", "Proje boyunca"],
-                        ["Acil tedarik zinciri arızası", "Sabit, öncelikli", "Tekil sevkiyat", "Öncelikli müdahale"],
+                        ["Vinç rayı bakımı", "Yazılı hat kilitleme teyidi", "Yarım-bir gün", "Planlı ziyaret"],
+                        ["Yük geçmişli raf kontrolü", "Göz bazlı yük bilgisi", "Bir gün", "Planlı ziyaret"],
+                        ["Yeni hat aydınlatma-aspirasyon", "Proje ekibiyle yazılı sıra", "Haftalar", "Sahada bulundurma"],
+                        ["Vardiya arası kısa blok işler", "Pencere programı", "Günde birkaç saat", "Bölünmüş ziyaretler"],
                     ],
                 },
             },
             {
-                baslik: "Koridorun iki ucu birbirini nasıl etkiliyor",
+                baslik: "Büyüklüğün getirdiği koordinasyon farkı",
                 paragraflar: [
-                    "TEM Otoyolu'nun Bozüyük çıkışı ile Eskişehir OSB arasındaki bağlantı, yalnızca coğrafi bir yakınlık değil, üretimsel bir bağımlılık da yaratıyor. Bozüyük'teki bir metal atölyesinin üretimi durursa bu, kısa sürede Eskişehir'deki müşterisinin stoklarına yansır; tersi durumda Eskişehir'deki bir dağıtım merkezinin raf arızası, Bozüyük'ten gelen malzemenin depolanmasını aksatabilir. Bu karşılıklı bağı gördüğümüz için, iki bölgedeki müşterilerimizin programlarını mümkün olduğunca birbiriyle uyumlu tutmaya çalışırız.",
-                    "Pratikte bu, bazen bir bölgedeki acil işin diğer bölgedeki planlı bir işin önüne geçmesi anlamına gelebilir — ama bunu her zaman açıkça konuşur, hangi işin neden öncelik kazandığını ilgili müşteriye anlatırız.",
+                    "Bozüyük'teki küçük-orta ölçekli bir metal atölyesinde koordinasyon genellikle tek bir kişiyle, çoğu zaman telefonla yürür — atölye sahibi ya da usta, o gün hangi tezgâhın boşta olduğunu anında söyleyebilir. Eskişehir'deki büyük tesislerde bu bilgi birden fazla birimden (üretim planlama, bakım, vardiya amiri) geçerek bize ulaşır ve bu, sözlü teyidin yetersiz kaldığı bir ölçektir. Bu yüzden büyük tesislerle çalışırken koordinasyonu yazılı hâle getirmeyi ısrarla isteriz — bir e-posta ya da paylaşılan bir program, vardiya değişiminde kaybolan sözlü bir teyitten çok daha güvenilirdir.",
+                    "Bu fark, bizim keşif sürecimize de yansır: küçük atölyede keşif genellikle tek ziyarette biter, büyük tesiste ise ilgili birimlerin her birinden ayrı ayrı bilgi almamız gerekebilir. Süreyi bu gerçekliğe göre planlarız ve büyük tesis müşterilerimize bunu baştan söyleriz.",
                 ],
             },
             {
-                baslik: "Kalite standardının mesafeyle gevşememesi",
+                baslik: "İşçiliğin mesafeden bağımsız kalması",
                 paragraflar: [
-                    "Çevre il hizmetinde bilinen risk, merkezden uzaklaştıkça işçilik standardının gevşemesidir. Eskişehir hattına giden makine, Bozüyük'te teslim ettiğimizle aynı hazırlıktan geçer, aynı kontrol belgeleriyle çıkar ve aynı fotoğraflı raporlama biçimiyle döner. Vinç kilitleme kuralı ve raf yük değerlendirmesi gibi güvenlik kritik konularda mesafe hiçbir esneme gerekçesi sayılmaz.",
-                    "Bu yüzden Eskişehir programlarında her tesise ayrılan süreyi bilerek geniş tutarız. Yolda kaybedilen zaman sahada telafi edilemez; edilmeye çalışıldığında ortaya çıkan sonuç, bir sonraki dönemin şikâyet listesi olur. Program sıkışıyorsa iş sayısını azaltırız, süreyi değil.",
+                    "Bozüyük dışına çıkan bir ekibin en çok sorgulanan tarafı, işçilik standardının uzaklaştıkça gevşeyip gevşemediğidir. Bizim uyguladığımız kontrol listesi, ekipman hazırlığı ve fotoğraflı raporlama biçimi, Eskişehir'deki bir tesiste de Bozüyük'teki kadar eksiksiz uygulanır — vinç kilitleme teyidi ve yük geçmişi değerlendirmesi gibi güvenlik kritik adımlarda mesafe hiçbir esneme gerekçesi olmaz.",
+                    "Bunun pratik karşılığı, her tesise ayırdığımız sürenin bilerek geniş tutulmasıdır. Yolda kaybedilen zamanı sahada telafi etmeye çalışmak, işi baştan savma bitirmek anlamına gelir; biz bunun yerine, program sıkışıyorsa iş sayısını azaltmayı tercih ederiz.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Bozüyük'teki tedarikçimizle Eskişehir'deki bizim aramızdaki bağlantıyı programınıza nasıl yansıtıyorsunuz?",
+                soru: "Birden fazla vinç hattımız var; çalışma sırasında hangisinin durdurulacağını nasıl belirliyorsunuz?",
                 cevap:
-                    "TEM koridorunun iki ucundaki işleri tamamen ayrı görmüyoruz. Bozüyük'teki tedarikçinizde acil bir üst kot arızası çıkarsa, bunun sizin üretim planınızı da etkileyeceğini bildiğimiz için o işi önceliklendirebiliriz. Benzer şekilde, sizin tarafınızdaki planlı bir işi de tedarikçinizin üretim takvimiyle çakışmayacak şekilde kurmaya çalışırız. Bu koordinasyonu sağlamak için, aranızdaki tedarik ilişkisini bize baştan söylemeniz faydalı olur.",
+                    "Hangi hattın hangi saatte kullanılmadığını üretim planlama biriminizden yazılı olarak teyit ederiz; bu teyit olmadan sepet ilgili hatta yaklaştırılmaz. Büyük tesislerde birden fazla hat paralel çalışabildiği için, çalışılacak hattın diğerlerinden bağımsız olarak kilitlenebildiğinden emin oluruz — bu, üretimin geri kalanını durdurmadan çalışmamızı sağlar. Vardiya değişimi sırasında bu teyidin kaybolmaması için sözlü değil yazılı bir onay isteriz.",
             },
             {
-                soru: "Büyük vinç sistemimizde çalışırken hangi koordinasyonu istiyorsunuz?",
+                soru: "Depomuzdaki raf gözleri farklı ağırlıkta parça taşıyor; kontrolü nasıl önceliklendiriyorsunuz?",
                 cevap:
-                    "Hangi vinç hattının hangi saatte kullanılmadığını üretim planlama biriminizden teyit ederiz; bu teyit olmadan sepet vinç rayına yaklaştırılmaz. Büyük ölçekli tesislerde birden fazla vinç hattı olabileceği için, çalışılacak hattın diğer hatlardan bağımsız olarak kilitlenebildiğinden emin oluruz. Üretimi tümüyle durdurmak genellikle gerekmez; ilgili hattın kullanılmadığı pencereyi bulup çalışmayı oraya yazarız.",
+                    "Hangi gözün düzenli olarak ağır parça taşıdığını, hangisinin hafif malzeme taşıdığını önceden sizden öğreniriz ve kontrolü bu yük geçmişine göre önceliklendiririz. Ağır yük taşıyan gözlerin travers bağlantıları daha sık ve daha dikkatli kontrol edilir; standart bir kontrol listesi bu farkı yakalayamayacağı için tercih etmeyiz. Bu bilgi bize önceden ulaşırsa, sahada geçirdiğimiz süre daha verimli kullanılır ve en riskli gözler ilk sırada değerlendirilir.",
             },
             {
-                soru: "Dağıtım merkezimizin rafları karma yük taşıyor; kontrol standart mı yapılıyor?",
+                soru: "Yeni hattımızın aydınlatma ve aspirasyon montajını hangi sırayla planlıyorsunuz?",
                 cevap:
-                    "Hayır, karma yük profilini hesaba katarak yaparız. Ağır metal parça taşıyan gözler ile hafif paketli ürün taşıyan gözler farklı yük geçmişine sahiptir ve biz her gözü kendi geçmişine göre değerlendiririz — standart bir kontrol listesi tüm raflara aynı şekilde uygulanmaz. Hangi gözün hangi tür yükü taşıdığı bilgisini önceden isteriz; bu bilgi kontrolün doğru noktalara odaklanmasını sağlar ve süreyi kısaltır.",
+                    "Tezgâh yerleşim planınız kesinleşene kadar bu montajları erteleriz — erken monte edilen bir armatür ya da kanal, yerleşim değişirse yeniden işlenmek zorunda kalır. Proje ekibinizle (üretim planlama, bakım, montaj yüklenicisi) birlikte hangi haftada hangi kalemin çalışılacağını yazılı olarak netleştiririz; büyük projelerde birden fazla taraf olduğu için bu netliği sözlü değil yazılı tutmayı önemsiyoruz. Yerleşim planı geç netleşirse, ondan bağımsız işleri (vinç rayı gibi) öne alabiliriz.",
             },
             {
-                soru: "Bozüyük'ten geliyorsunuz; yerel bir firmadan ne farkınız var?",
+                soru: "Üç vardiya çalışıyoruz; üst kot işi için uygun bir pencere bulmak zor, nasıl planlıyorsunuz?",
                 cevap:
-                    "Bölgedeki bir firmanın yakınlık üstünlüğü tartışmasızdır; ani çıkan bir ihtiyaçta yol bizim aleyhimize işler ve bunu kabul ederiz. Öne çıkardığımız şey farklı: TEM koridorunun her iki ucundaki tedarik ilişkisini görüyor olmak. Bozüyük'teki tedarikçinizin üretim ritmini, sizin dağıtım merkezinizin karma raf yükünü ve ikisi arasındaki bağı bilerek geliyoruz. Bu, tarihe bağlı işlerde ve tedarik zincirinin bir ucunda çıkan sorunun diğer ucunu da etkilediği durumlarda fark yaratıyor.",
+                    "İşi tek uzun bir ziyarete sıkıştırmak yerine, tesisin verdiği kısa boş pencerelere bölünmüş birkaç kısa bloğa yayarız. Bu, toplam süreyi biraz uzatır ama üretim kaybını asgaride tutar ve size vardiya programınızı değiştirme zorunluluğu getirmez. Hangi vardiyanın hangi saatlerde görece boş olduğunu önceden sizden öğrenir, çalışma bloklarını bu bilgiye göre yerleştiririz; pencere daralırsa iş sayısını değil, süreyi ayarlarız.",
             },
             {
-                soru: "Yeni bir montaj projemiz var; makine ne kadar kalır?",
+                soru: "Bozüyük'ten geliyorsunuz; büyük tesisimizde yerel bir firmadan farkınız ne?",
                 cevap:
-                    "Bu büyüklükteki işlerde önerimiz üniteyi proje süresince tesisinizde bırakmaktır. Gerekçe basit: her gün yola çıkan bir makine hem tekrar tekrar taşıma bedeli doğurur hem de montajcıların sabah saatlerini bekleyerek geçirmesine yol açar. Makine sahada kaldığında iş, üretim penceresine göre esnek ilerler. Süreyi baştan tahmin eder, uzatım koşullarını da teklife yazarız; böylece proje ortasında yeniden fiyat konuşmak gerekmez.",
+                    "Bölgedeki bir firmanın yakınlık üstünlüğü tartışmasızdır ve ani çıkan bir ihtiyaçta bu bizim aleyhimize işler; bunu kabul ederiz. Öne çıkardığımız şey, büyük ölçekli tesislerde koordinasyonun birden fazla birimden geçtiğini bilerek gelmemiz — vinç kilitleme teyidini, yük geçmişi bilgisini ve montaj sırasını yazılı hâle getirme alışkanlığımız, ölçek büyüdükçe daha fazla fark yaratıyor. İşçilik standardımız Bozüyük'teki kadar eksiksiz uygulanır; mesafe bu standartta bir esneme gerekçesi sayılmaz.",
             },
             {
-                soru: "Birden fazla tesis aynı gün için talep etsek nasıl bir düzen kurulur?",
+                soru: "Haftalara yayılan bir vinç rayı yenileme projemiz var; makine her gün gidip gelecek mi?",
                 cevap:
-                    "Bu, çevre il için kurabileceğimiz en verimli düzendir. Her tesisin kalem listesi ayrı ayrı elimize ulaştığında günü iş yüküne göre böler, adresleri mesafeye göre sıralar ve saat aralıklarını önceden bildiririz. Yol bedeli, tesislerin o günkü çalışma sürelerine göre bölüştürülür; işçilik, malzeme ve rapor tesis bazında ayrı yürür. Sizden istediğimiz tek şey, her tesisin kendi tarafında tek bir muhatap belirlemesidir.",
+                    "Hayır, bu ölçekte makineyi proje süresince tesiste bırakırız. Her gün Bozüyük'e geri götürmek hem tekrar tekrar taşıma bedeli doğurur hem de ertesi gün işe başlayacak ekibin makine beklemesine yol açar. Taşıma tek sefere iner ve iş, üretim penceresine göre esnek ilerler. Karşılığında bizden beklenen, ünitenin mesai dışında kilitli ya da gözetimli bir alanda durabilmesidir; süreyi baştan tahmin eder, uzatım koşullarını teklife yazarız.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Eskişehir'in makine imalatı ve metal işleme ağırlıklı sanayi kimliği ile TEM Otoyolu üzerinden Bozüyük'e yakınlığı kamuya açık genel bilgidir; tedarik zinciri bağımlılığı gözlemi ve vinç koordinasyon yöntemi firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. Eskişehir OSB'nin makine imalatı ve büyük ölçekli metal işleme tesisleri barındırması genel bilgidir; vinç hattı kilitleme koordinasyonu ve vardiyalı üretimde çalışma penceresi daralması firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
     },
 
     "bolge:inegol-osb-bursa-cevre-ili": {
