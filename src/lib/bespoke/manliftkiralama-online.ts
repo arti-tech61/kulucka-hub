@@ -188,7 +188,7 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             {
                 soru: "Sitemizin bahçesinden makine geçebilir mi, çim ve kilit taşı zarar görür mü?",
                 cevap:
-                    "Geçebilir, ama bunu şansa bırakmıyoruz. Öncelikle makinenin toplam ağırlığı ve tekerlek başına düşen yük ile zeminin taşıma kapasitesi karşılaştırılır. Kilit taşı döşeli yürüyüş yollarında genellikle yük dağıtım plakası yeterlidir; çim ve peyzaj alanında ise geçiş güzergâhına kontrplak veya paletli koruma serilir. Riskli olan üçüncü durum, altında otopark, su deposu veya kanal bulunan döşemelerdir; buralarda yapı projesine bakılmadan makine sürülmez. Keşifte bu güzergâhı yönetimle birlikte yürüyor, geçilecek ve geçilmeyecek yerleri işaretliyoruz. İşe başlamadan önce mevcut durumun fotoğraflanması da her iki taraf için koruyucu bir alışkanlık.",
+                    "Geçebilir, ama bunu şansa bırakmıyoruz. Öncelikle makinenin ağırlığının zeminde nasıl dağıldığı, yani her tekerleğin bastığı noktadaki yük ile döşemenin taşıma sınırı karşılaştırılır. Kilit taşı döşeli yürüyüş yollarında genellikle yük dağıtım plakası yeterlidir; çim ve peyzaj alanında ise geçiş güzergâhına kontrplak veya paletli koruma serilir. Riskli olan üçüncü durum, altında otopark, su deposu veya kanal bulunan döşemelerdir; buralarda yapı projesine bakılmadan makine sürülmez. Keşifte bu güzergâhı yönetimle birlikte yürüyor, geçilecek ve geçilmeyecek yerleri işaretliyoruz. İşe başlamadan önce mevcut durumun fotoğraflanması da her iki taraf için koruyucu bir alışkanlık.",
             },
             {
                 soru: "Tabela montajı için belediyeden izin almak gerekiyor mu?",
@@ -608,6 +608,6 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Sivas ve çevresindeki sanayinin metal işleme, yapı malzemesi ve doğal taş kollarını içerdiği ile bölgenin kışının uzun olduğu kamuya açık genel bilgidir; il dışı kiralama düzeni, arıza ve bakım sorumluluğu firma uygulamasıdır. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Sivas ve çevresindeki sanayinin metal işleme, yapı malzemesi ve doğal taş kollarını içerdiği ile bölgenin kışının uzun olduğu kamuya açık genel bilgidir. İl dışı sevkiyat ve arıza yönetimi anlatımı, birikmiş saha deneyimine dayanır; hiçbir marka veya sayı paylaşılmamıştır.",
     },
 };

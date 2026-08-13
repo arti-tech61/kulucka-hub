@@ -114,7 +114,7 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Gaziantep'in makine halısı üretiminde dünya ölçeğinde bir merkez olduğu ve GAOSB'nin çok bölgeli yapısı kamuya açık genel bilgidir; çalışma düzeni ve makine eşleştirmesi firma pratiğidir. Tesis adı ve sayısal veri kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Gaziantep'in makine halısı üretiminde dünya ölçeğinde bir merkez olduğu ve GAOSB'nin çok bölgeli yapısı kamuya açık genel bilgidir. Bölge geçişlerine dair anlatılanlar sahadaki tekrarlı deneyimden gelir; hiçbir fabrika ismi verilmez.",
     },
 
     "bolge:sehitkamil": {
@@ -213,7 +213,7 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Şehitkamil'in Gaziantep'in gıda sanayisinde ağırlıklı bir ilçe olduğu ve şehrin tarihi merkeziyle sanayinin iç içe geçtiği kamuya açık genel bilgidir; hijyen ve izolasyon uygulamaları firma pratiğidir. Tesis adı ve sayısal veri kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Şehitkamil'in Gaziantep'in gıda sanayisinde ağırlıklı bir ilçe olduğu ve şehrin tarihi merkeziyle sanayinin iç içe geçtiği kamuya açık genel bilgidir. Hijyen ve izolasyon anlatımı, gıda tesislerindeki tekrarlı gözlemlere dayanır; imalathane adı geçmez.",
     },
 
     "bolge:sahinbey": {
@@ -312,7 +312,7 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Şahinbey'in Gaziantep'in tarihi çarşısını ve kent merkezi ticaretini barındıran ilçe olduğu kamuya açık bilgidir; mekân koordinasyonu ve zemin koruma uygulamaları firma pratiğidir. İşletme veya kurum adı verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. Şahinbey'in Gaziantep'in tarihi çarşısını ve kent merkezi ticaretini barındıran ilçe olduğu kamuya açık bilgidir. Mekân koordinasyonuna dair anlatılanlar tekrar eden saha pratiğinden çıkarılmıştır; mağaza veya otel adı verilmez.",
     },
 
     "bolge:nizip-osb": {
@@ -411,7 +411,7 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Nizip'in Gaziantep'in doğusunda tarım ve sanayi üretimini bir arada barındıran bir ilçe olduğu kamuya açık genel bilgidir; sezon planlaması ve mesafeye bağlı iş birleştirme uygulamaları firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Nizip'in Gaziantep'in doğusunda tarım ve sanayi üretimini bir arada barındıran bir ilçe olduğu kamuya açık genel bilgidir. Sezona bağlı bakım penceresi, hasat dönemini gözlemleyen saha tekrarından türetilmiştir; fabrika adı geçmez.",
     },
 
     "bolge:kahramanmaras-osb-cevre-ili": {
@@ -442,7 +442,7 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
             {
                 baslik: "Uzun süreli il dışı kiralamada makine ve ekip düzeni",
                 metin:
-                    "İl dışı işlerde makine genellikle günler veya haftalar boyunca sahada kalır; bu düzende günlük kontrolleri kullanan tarafın yapması, periyodik bakımı ise bizim üstlenmemiz standart uygulamadır. Kira başlangıcında makinenin durumu ayrıntılı tutanakla kayda geçirilir. Arıza durumunda önce telefonla yönlendirme denenir, çözülemeyen durumlarda teknik ekip yola çıkar ve bu süre kira takvimine yansıtılmaz.",
+                    "İl dışı işlerde makine genellikle günler veya haftalar boyunca sahada kalır; bu düzende günlük kontrolleri kullanan tarafın yapması, periyodik bakımı ise bizim üstlenmemiz standart uygulamadır. Teslim anında makinenin fotoğraflı durumu karşılıklı imzalanan bir belgeye işlenir, dönüşte aynı belge üzerinden karşılaştırılır. Arıza durumunda önce telefonla yönlendirme denenir, çözülemeyen durumlarda teknik ekip yola çıkar ve bu süre kira takvimine yansıtılmaz.",
             },
         ],
         ekBolumler: [
@@ -509,6 +509,6 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Kahramanmaraş'ın iplik-tekstil, çelik ve gıda sanayisine sahip olduğu ile Gaziantep'e coğrafi yakınlığı kamuya açık genel bilgidir; il dışı kiralama düzeni ve sıcaklık önlemleri firma uygulamasıdır. Tesis adı ve rakam kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Kahramanmaraş'ın iplik-tekstil, çelik ve gıda sanayisine sahip olduğu ile Gaziantep'e coğrafi yakınlığı kamuya açık genel bilgidir. Sıcak saatte program tersine çevirme, il dışı seferlerde tekrarlanan bir alışkanlıktır; işletme ismi kullanılmamıştır.",
     },
 };
