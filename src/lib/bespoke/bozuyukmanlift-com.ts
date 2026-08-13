@@ -714,4 +714,201 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Bu ilçenin mobilyacılıkla anılması ve ilçemize komşuluğu genel bilgidir; ahşap tozunun yanıcılığı, kıvılcımlı işlem izni ve solvent buharı önlemleri iş güvenliği mevzuatı ile sektör pratiğinden gelir. Tesis adı ve rakam verilmemiştir.",
     },
+    "bolge:bozuyuk-kucuk-sanayi-sitesi": {
+        h1: "Bozüyük Küçük Sanayi Sitesinde Seramik Yan Sanayi Çatı ve Cephe Bakımı",
+        giris:
+            "Bozüyük Küçük Sanayi Sitesinde bu sayfanın odağı yeni dükkân imalatı veya mobilya atölyesi iç mekânı değildir. Uygulama belgesinin verdiği mercek, seramik yan sanayi çevresinde çalışan atölyelerin faal yapı kabuğunda ortaya çıkan çatı ve cephe işlerine eklemli platformla erişimdir. Belirli bir dükkânın gerçekten hangi ürünü yaptığı, hangi prosesi kullandığı veya kapasitesi hakkında varsayım kurulmaz. Gerçek talepte doğrulanacak işler üzerinden ilerlenir: oluk ve yağmur inişi, panel eki, saçak altı, çatı ışıklığı çevresi, baca ya da havalandırma çıkışı, tabela, dış aydınlatma, cephe bağlantısı ve kapı üstü mekanizma. Küçük sanayi sitesinde bu hedeflerin altı genellikle park edilmiş araç, malzeme, sundurma veya komşu giriş nedeniyle boş değildir. Eklemli bom, uygun sert zeminden engelin üstüne kıvrılarak yaklaşabilir; fakat seçim yalnız yüksekliğe bakılarak yapılmaz. Park noktasından yatay mesafe, aşılacak engel, bom hareket zarfı, ortak yol ve zemin birlikte ölçülür. Platform çatıya çıkış köprüsü veya panel kaldırma vinci değildir; personeli sepette tutarak bakım noktasına ulaştırır. Amaç, faal atölyeyi gereksiz yere boşaltmadan bina dış kabuğunu güvenli hücreler hâlinde tamamlamaktır.",
+        maddeler: [
+            {
+                baslik: "Sundurma ve malzeme istifi üzerinden eklemli erişim",
+                metin:
+                    "Cephe ile çatı kenarı arasındaki hedefin önünde sundurma, araç veya geçici malzeme bulunabilir. Makine istife dayanmaz ve sepet malzemenin üstünden kontrolsüz geçirilmez. Park edilebilen sağlam yüzeyden hedef kotu, yatay uzaklık ve engel yüksekliği ölçülür; üreticinin erişim diyagramı üzerinden eklemli sınıf doğrulanır. Engel taşınabiliyorsa çalışma günü öncesinde işletme tarafından kaldırılır. Taşınamıyorsa güvenli yan yaklaşım aranır. Uzanma sınırı yetmiyorsa daha büyük sınıf veya farklı konum değerlendirilir, korkuluk üstüne çıkılmaz ve bom sınırı zorlanmaz.",
+            },
+            {
+                baslik: "Oluk, ışıklık ve panel eklerini aynı cephede toplamak",
+                metin:
+                    "Çatı kabuğundaki bakım kalemleri birbirine yakın olsa da farklı hazırlık ister. Olukta birikim temizlenir, iniş ağzı gözlenir; ışıklık çevresinde kırılgan yüzeye basılmaz; panel bağlantısında gevşek parça ve keskin kenar dikkate alınır. Platform sepetinden çatıya geçiş yapılmaz. Aynı park konumundan ulaşılabilen hedefler iş kartında gruplanır, gerekli malzeme önceden sepete uygun miktarda hazırlanır. Uzun panel, levha veya ağır parça sepetten kaldırılmaz. Her cephe tamamlandığında bağlantılar ve düşebilecek malzeme kontrol edilmeden ortak yol açılmaz.",
+            },
+            {
+                baslik: "Atölye faaliyetiyle dış bakım hücresini ayırmak",
+                metin:
+                    "Dükkân içinde kaynak, taşlama, boya veya parça taşıma sürerken dış cephede çalışmak her zaman bağımsız değildir. Egzoz çıkışı, kıvılcım yönü, kapıdan çıkan araç ve malzeme güzergâhı platform hücresiyle kesişebilir. İşletme, bakım süresince ilgili geçişi durdurur veya alternatif rota açar. Sepette sıcak iş yapılacaksa tesisin izin ve yangın önlemi uygulanır, alt alan boşaltılır. Boya ya da solvent etkisi varsa işletmenin risk değerlendirmesi esas alınır. Kısa dış iş, atölye içindeki faaliyeti görmezden gelme gerekçesi değildir.",
+            },
+            {
+                baslik: "Ortak site yolunda bom zarfını görünür kılmak",
+                metin:
+                    "Eklemli platformun şasisi dükkân önüne sığsa bile bom ve sepet ortak yolun üstüne çıkabilir. Bariyer yalnız teker çevresine değil bütün hareket zarfı ile düşebilecek parça alanına göre kurulur. Komşu dükkân girişleri ve yaya yolu önceden konuşulur; acil güzergâh kapatılmaz. Dar kesitte çalışma daha sakin saate alınır ve gerektiğinde yerden gözcü kullanılır. Sürücünün sepetteki kişiyi gördüğü varsayılmaz. Cephe işi bittiğinde bom tamamen toplanır, bağlantı kontrolü yapılır ve yol bundan sonra açılır.",
+            },
+            {
+                baslik: "Tozlu dış yüzeyden makine bakımına geçmek",
+                metin:
+                    "Seramik yan sanayi çevresindeki gerçek toz türü tesis tarafından bildirilir; platform ekibi ortam hakkında varsayım üretmez. Açık alandaki genel mineral veya yol tozu görüşü, zemin tutunmasını ve makinenin hareketli noktalarını etkileyebilir. Çalışma tabanı temizlenir, uzun kullanımda mafsal ve kumanda çevresi gözle kontrol edilir. Basınçlı havayla kiri gelişigüzel dağıtmak yerine işletmenin kabul ettiği yöntem uygulanır. İş sonunda teker, alt takım ve sepet temizlenir; makine aynı gün kapalı bir hacme girecekse yeni kabul yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "KSS çatı-cephe işi ve eklemli erişim tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli atölye envanteri değildir. Gerçek bir talepte hedef, engel ve ortak alan ilişkisini sınıflandırmak için kullanılan genel erişim çerçevesidir.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Öndeki engel", "Eklemli yaklaşım", "Saha hazırlığı"],
+                    satirlar: [
+                        ["Oluk ve saçak", "Sundurma veya park", "Engelin üstüne kıvrıl", "Alt alanı boşalt"],
+                        ["Çatı ışıklığı çevresi", "Çatı kenarı ve kırılgan yüzey", "Aşağıdan sepette kal", "Çatıya geçiş yapma"],
+                        ["Panel ve cephe eki", "Malzeme istifi", "Yandan güvenli uzan", "İstiften mesafe bırak"],
+                        ["Baca/havalandırma çıkışı", "Çatı geometrisi", "Uygun açıdan yaklaş", "Faaliyeti ve egzozu ayır"],
+                        ["Tabela/dış aydınlatma", "Ortak yol", "Kompakt bom zarfı", "Trafiği pencereye al"],
+                    ],
+                },
+            },
+            {
+                baslik: "Cephe çevresini park haritasına dönüştürmek",
+                paragraflar: [
+                    "Keşifte bina çevresi tek bir düz cephe gibi ele alınmaz. Her hedefin kotu, önündeki engel, kullanılabilir taban, ortak yola taşan bom zarfı ve komşu giriş ayrı işaretlenir. Makinenin taşıyıcıdan ineceği yer ile çalışma konumları farklı olabilir. Zemin kapağı, kanal, eğim ve yağışla yumuşayan dolgu kayda girer. Fotoğraflar yalnız hedefi değil park noktasından hedefe bakışı göstermelidir.",
+                    "Harita sayesinde aynı konumdan kapanabilen işler gruplanır ve makinenin bina çevresinde ileri geri dolaşması azalır. Hazır olmayan cephe atlanabilir, ancak güvenli sıranın dışındaki boşluğa rastgele sıkıştırılmaz. Yeni park noktası gerekiyorsa erişim diyagramı yeniden görülür. Önceden açık olan alanın çalışma günü de boş olacağı varsayılmaz; teslimde araç ve istif yerleşimi tekrar kontrol edilir.",
+                ],
+            },
+            {
+                baslik: "Hava penceresi ve atölye açılışını birlikte yönetmek",
+                paragraflar: [
+                    "Çatı-cephe işi rüzgâr, yağış ve yüzey durumuna bağlıdır; ortak yol ise atölyelerin açılış ve yükleme saatlerinden etkilenir. Program iki pencerenin kesişimine yerleştirilir. Hava uygun değilse sepet yükseltilmez. İçeride yapılabilecek güvenli bir bakım kalemi aynı sınıfa uygunsa yedek listede tutulabilir, fakat malzemesi veya izni hazır olmayan iş anlık çözüm sayılmaz.",
+                    "Kapanış saati yalnız son montajı değil alet-parça sayımı, bağlantı gözlemi, alan temizliği ve bomun toplanmasını kapsar. Komşu işletmeye verilen yol açılış sözü bu süreye göre yapılır. İş yetişmezse eksik kalem neden ve konumuyla kayda alınır. Hız baskısı altında sepette çatıya çıkmak, uzun malzeme kaldırmak veya üretici hava sınırını aşmak kabul edilmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sundurma veya park edilmiş araç varken çatı kenarına ulaşabilir misiniz?",
+                cevap:
+                    "Uygun sağlam park noktası ve erişim diyagramı varsa eklemli platform engelin üstüne kıvrılarak ulaşabilir. Hedef kotu, yatay mesafe ve engelin yüksekliği ölçülür; sepetin bütün hareket zarfı kontrol edilir. Araç taşınabiliyorsa çalışma öncesinde kaldırılması en güvenli çözümdür. Taşınamayan malzeme ya da istife sepet dayanmaz ve üzerinden kontrolsüz geçilmez. Model sınırı yetmiyorsa daha uygun sınıf veya başka konum gerekir; korkuluk üstüne çıkarak eksik erişim tamamlanmaz.",
+            },
+            {
+                soru: "Platform sepetinden çatıya çıkıp oluk boyunca yürüyebilir miyiz?",
+                cevap:
+                    "Hayır. Platform bir çatıya geçiş iskelesi olarak kullanılmaz; kişi sepette kalır ve makine çalışma noktaları boyunca yeniden konumlanır. Çatı kenarında düşme, kırılgan yüzey ve sepetle yapı arasındaki kontrolsüz açıklık riski vardır. Uzun süre çatı üzerinde yürümeyi gerektiren iş için uygun sabit erişim ve düşmeye karşı koruma yöntemi ayrıca planlanmalıdır. Platform, erişebildiği noktada bakım yapar; başka sistemin görevini üstlenmez.",
+            },
+            {
+                soru: "Cephe panelini veya uzun tabelayı sepette taşıyabilir miyiz?",
+                cevap:
+                    "Sepetin üretici yük sınırı içinde bile uzun ve dışarı taşan parça rüzgâr alanını, dengeyi ve korkuluk güvenliğini değiştirebilir. Platform vinç değildir. Panel, tabela veya ağır malzeme uygun kaldırma yöntemiyle ayrı konumlandırılır; sepette yalnız izin verilen el aletleri ve yönetilebilir küçük parçalar bulunur. İş planında personel erişimi ile malzeme kaldırma ayrı görevler olarak yazılır. Hazır malzeme hedefe güvenle ulaştırılmadan platform işi başlamaz.",
+            },
+            {
+                soru: "Site yolu tamamen kapanmadan dış cephe işi yapılabilir mi?",
+                cevap:
+                    "Bom zarfı, düşen parça alanı ve alternatif geçiş yeterliyse kontrollü tek şerit veya kısa hücreyle mümkün olabilir. Yalnız makine tabanına koni koyup sepeti aktif yolun üstüne uzatmayız. Komşu girişler bilgilendirilir, görünür bariyer ve gerekiyorsa gözcü kullanılır. Acil yol korunur. Dar alanda güvenli ayrım kurulamıyorsa çalışma daha sakin saate alınır veya ilgili kesit kısa süre kapatılır. Yol, bom toplanmadan açılmaz.",
+            },
+            {
+                soru: "Tozlu atölye çevresi makine için özel bakım gerektirir mi?",
+                cevap:
+                    "Gerçek toz ve saha koşulu önce işletme tarafından açıklanmalıdır. Çalışma tabanı temizlenir, görüş ve tutunma değerlendirilir; uzun kullanımda mafsal, kumanda ve hava açıklıkları gözle kontrol edilir. Tesisin kabul ettiği yöntemle ara temizlik yapılır. Kıvılcım çıkaran iş varsa ortam risk değerlendirmesi ve izin gerekir. Dış alandan temiz kapalı hacme geçişte teker, alt takım ve sepet yeniden temizlenir. Tozlu olduğu varsayılan her alana aynı reçete uygulanmaz.",
+            },
+            {
+                soru: "Birden fazla dükkânın çatı-cephesini aynı gün yapabilir misiniz?",
+                cevap:
+                    "Makine sınıfı, hava ve ortak yol programı uyuyorsa planlanabilir. Her dükkân hedef fotoğrafını, park alanını, malzemesini ve uygun saatini önceden bildirir. Sıra bina çevresindeki park haritasına göre kurulur; bir cephe teslim edilmeden diğerine geçilmez. Her işletmenin teklif ve sorumluluğu ayrıdır. Hazır olmayan iş tüm turu bekletmez. Ortak program sevkiyat ve geçişi verimli kılar, fakat bariyer, hava ve teslim kontrollerini azaltmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bozüyük Küçük Sanayi Sitesinin varlığı ve Bozüyük'ün seramik-cam sanayi ağırlığı uygulama belgesindeki kamuya açık genel çerçevedir. Belirli atölye, proses, ürün, kapasite ve rakam kullanılmamıştır; çatı-cephe park haritası, eklemli erişim ve ortak yol ayrımı sektör geneli saha pratiğidir.",
+    },
+
+    "bolge:kutahya-cevre-ili": {
+        h1: "Kütahya Seramik Ekseninde Mevsimlik Çatı Bakımı İçin Eklemli Manlift",
+        giris:
+            "Kütahya'nın seramik ve çini sanayi geleneği bu çevre il sayfasının yalnız bölgesel çapasıdır; belirli bir fabrikanın çatısı, fırını, üretim hattı veya kapasitesi hakkında iddia kurulmaz. B4'ün konusu A1'deki üretim hattı sevkiyat zinciri ya da A7'deki satın alma-kiralama kararı değildir. Burada bina kabuğunun yağış, rüzgâr ve sıcaklık döngüleri arasında gözden geçirilmesi; oluk, yağmur inişi, panel eki, çatı ışıklığı çevresi, baca ve havalandırma çıkışı, saçak altı ile yüksek cephe bağlantılarının uygun mevsim penceresinde eklemli manliftle dolaşılması anlatılır. Bakım sezonu takvimde sabit bir gün değil, hava koşulu, yüzey durumu ve tesisin dış alan kullanımının kesiştiği dönemdir. Eklemli platform binanın çevresindeki sağlam noktalardan çatı kenarı ve geri çekilmiş hedeflere yandan yaklaşır; sepetten çatıya geçiş yapılmaz. Her cephe ayrı park geometrisi, bom zarfı ve alt alan korumasıyla ele alınır. İş listesi sezon öncesi keşifle hazırlanır, hava elvermediğinde güvenli iç veya korunaklı kalemlere geçmek için yedek sıra kurulur. Böylece Kütahya yönündeki sevkiyatın amacı makineyi bir hatta bekletmek değil, dış kabuk turunu güvenli hava penceresinde eksiksiz kapatmaktır.",
+        maddeler: [
+            {
+                baslik: "Sezon öncesi çatı kabuğu taramasını zeminden yapmak",
+                metin:
+                    "İlk turda çatıya çıkmadan, bina çevresinden oluk taşması, panel kenarı, ışıklık çevresi, baca dibi, cephede akıntı izi ve gevşek dış eleman belirtileri kaydedilir. Tesisin mevcut bakım raporları ve iç taraftaki su izleri hedef listesini tamamlar. Her noktanın kotu, yatay geri çekilmesi ve önündeki engel fotoğraflanır. Görsel tarama teknik çatı muayenesinin yerine geçmez; platform programı için erişim haritası üretir. Acil güvenlik riski ile sezon içinde planlanabilir önleyici kalemler ayrı önceliklendirilir.",
+            },
+            {
+                baslik: "Oluk, panel ve ışıklık çevresini cephe turuna bağlamak",
+                metin:
+                    "Aynı park noktasından ulaşılabilen oluk, iniş ağzı, saçak altı, panel bağlantısı ve ışıklık çevresi birlikte planlanır. Kırılgan yüzeye basılmaz, sepetten çatıya geçilmez ve makine yapı elemanına dayanmaz. Uzun panel veya ağır parça platformla kaldırılmaz. İş öncesi gerekli küçük malzeme sepette güvenli yük sınırı içinde hazırlanır; el aletleri bağlanır. Her konum kapanınca sökülen parça sayılır ve gevşek eleman kalmadığı görülür. Bom toplanmadan bina çevresindeki trafik yeniden açılmaz.",
+            },
+            {
+                baslik: "Baca ve havalandırma çıkışında tesisle koordinasyon",
+                metin:
+                    "Baca ya da havalandırma çıkışı çevresindeki dış bakım, içerideki sistemin çalışmasından bağımsız sayılmaz. Tesis yetkilisi ilgili ekipmanın güvenli durumunu, sıcak yüzey veya hava akımı riskini ve gerekiyorsa izolasyonu belirler. Platform operatörü proses koşulu hakkında varsayım yapmaz. Çalışma hücresi emisyon, sıcaklık ve hareket etkisinden ayrılmadan sepet yaklaşmaz. Dış bağlantı tamamlandıktan sonra sistemi yeniden devreye alma kararı tesis sorumlusuna aittir. Bu iş çatı sezonunun parçası olabilir, fakat üretim hattı duruş anlatısına dönüştürülmez.",
+            },
+            {
+                baslik: "Eklemli platform için bina çevresi park halkası",
+                metin:
+                    "Çatı ve cephe turunda makine binanın çevresini tek bir yol gibi dolaşır. Her park noktasında zemin taşıması, eğim, kanal veya kapak, araç rotası ve hedefe yatay açıklık kontrol edilir. Sundurma, boru köprüsü, istif veya peyzaj engeli varsa bomun üstünden ya da yanından güvenli erişimi üretici diyagramıyla doğrulanır. Uygun olmayan noktada ek erişim elde etmek için destek yüzeyi doğaçlanmaz. Alternatif park yeri veya farklı sınıf seçilir. Park halkası önceden çizildiğinde sezon turu içinde gereksiz geri dönüş azalır.",
+            },
+            {
+                baslik: "Hava penceresini yedek iş listesiyle değerlendirmek",
+                metin:
+                    "Rüzgâr, yağış veya ıslak-yumuşamış zemin üretici ve saha sınırına uymuyorsa dış çalışma durur. Kiralama gününü tek hedefe bağlamamak için aynı makineyle güvenle yapılabilecek korunaklı cephe veya kapalı hacim işleri önceden hazırlanabilir. Bu kalemlerin malzemesi, erişim ölçüsü ve izinleri hazır olmalıdır; hava kapanınca rastgele iş aranmaz. Yağış bittikten sonra yalnız rüzgâr değil park zemini de yeniden doğrulanır. Yeni pencere, yüzey güvenli olmadan açılmış sayılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mevsimlik dış kabuk turu karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli bir Kütahya tesisinin çatısını tarif etmez. Seramik eksenindeki gerçek bir talepte dış kabuk kalemlerini hava, erişim ve tesis koordinasyonuna göre ayırmak için kullanılan genel çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Dış kabuk alanı", "Bakım kalemi", "Baskın koşul", "Eklemli yaklaşım"],
+                    satirlar: [
+                        ["Oluk ve saçak", "Temizlik, bağlantı, iniş", "Alt trafik ve kenar", "Aşağıdan yandan uzan"],
+                        ["Panel ve ışıklık çevresi", "Ek ve sızdırmazlık kontrolü", "Kırılgan yüzey", "Sepette kal, çatıya geçme"],
+                        ["Baca/havalandırma çıkışı", "Dış bağlantı", "Sıcaklık, akım, izolasyon", "Tesis teyidiyle yaklaş"],
+                        ["Yüksek cephe", "Bağlantı, kaplama, aydınlatma", "Sundurma ve istif", "Engel üstü eklemli erişim"],
+                        ["Bina çevresi", "Tur ve park", "Zemin, kanal, araç yolu", "Doğrulanmış park halkası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bakım sezonunu takvim ayı yerine koşullarla açmak",
+                paragraflar: [
+                    "Sezonun başlangıcı sabit tarih iddiasıyla belirlenmez. Tesis, geçmiş sızıntı ve dış kabuk kayıtlarını toplar; hava tahmini, çalışma günündeki rüzgâr ve yağış, zemin taşıması, üretim alanı çevresindeki araç trafiği ve bakım ekibinin hazırlığı birlikte değerlendirilir. Malzeme ile güvenli çalışma izni hazır olduğunda pencere açılır. Acil gevşek parça gibi riskler öncelikli, önleyici temizlik ve kontrol kalemleri sıradaki uygun bloğa yazılır.",
+                    "Pencere kapandığında bütün program iptal edilmez. Hava bağımsız kalemler ayrı tutulmuşsa ekip güvenli bölüme geçebilir. Dış tur yeni güne kaldığında park haritası güncel saha düzeniyle yeniden görülür. Mevsimlik planın değeri, havayı önceden bildiğini iddia etmek değil, koşul değiştiğinde hangi işin güvenle devam edeceğini önceden belirlemektir.",
+                ],
+            },
+            {
+                baslik: "Çatı turunu belgeleyip sonraki mevsime hazırlamak",
+                paragraflar: [
+                    "Her cephede yapılan, ertelenen ve erişilemeyen hedefler konumuyla kaydedilir. Erişilememe nedeni yatay mesafe, zemin, hava, hazır olmayan malzeme veya tesis izolasyonu olarak ayrılır. Fotoğraf tesisin izin verdiği ölçüde kullanılır; teknik muayene raporunun yerine geçmez. Kullanılan park noktası ve makine ailesi sonraki tur için referans oluşturur, fakat saha değişebileceği için otomatik model garantisi vermez.",
+                    "Kapanışta el aleti ile sökülen parça sayılır, cephe altı temizlenir ve bağlantıların görünür kontrolü yapılır. Açık kalem için gerekli hazırlık yazılır. Bir sonraki bakım döneminde eski kayıt güncel çatı ve zemin koşuluyla karşılaştırılır. Böylece sezonluk ziyaret, her defasında sıfırdan başlayan genel bir çatı çağrısı olmaktan çıkar; gerçek değişiklikleri izleyen erişim hafızasına dönüşür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kütahya'da çatı bakım sezonunu hangi aya göre planlıyorsunuz?",
+                cevap:
+                    "Tek bir ay söylemek doğru değildir. Rüzgâr, yağış, sıcaklık, zemin taşıması, tesis çevresindeki araç kullanımı ve malzeme hazırlığı birlikte uygun olduğunda pencere açılır. İşletmenin geçmiş sızıntı ve dış kabuk kayıtları hedefleri belirler. Acil güvenlik riski ayrı öncelik alır; önleyici kalemler uygun hava bloğuna yazılır. Programda yedek korunaklı işler varsa koşul değiştiğinde tüm gün kaybolmaz. Tarih yaklaştıkça gerçek saha ve hava durumu yeniden doğrulanır.",
+            },
+            {
+                soru: "Eklemli platformla çatıya çıkmak mümkün mü?",
+                cevap:
+                    "Platform sepeti bakım noktasına erişim sağlar, çatıya geçiş iskelesi değildir. Kişi sepette kalır; oluk, saçak, panel eki veya ışıklık çevresindeki erişilebilir işi buradan yapar. Sepetten çatıya adım atmak, korkuluk ile yapı arasındaki açıklık ve kırılgan yüzey nedeniyle kabul edilmez. Çatı üzerinde yürümeyi gerektiren kapsam için uygun sabit erişim ve düşmeye karşı koruma sistemi ayrıca planlanmalıdır. Makine görev sınırının dışında kullanılmaz.",
+            },
+            {
+                soru: "Sundurma veya boru köprüsü çatı kenarına erişimi engellerse ne yapılır?",
+                cevap:
+                    "Park edilebilen sağlam zeminden hedef kotu, yatay mesafe ve engel yüksekliği ölçülür. Eklemli bomun erişim diyagramı, engelin üstüne veya yanına güvenli yaklaşımı destekliyorsa uygun model seçilir. Sepet engelin üzerine dayanmaz ve bom sınırı zorlanmaz. Mevcut sınıf yetmiyorsa farklı park noktası, daha uygun model veya başka erişim yöntemi değerlendirilir. Keşif fotoğrafı hedefle birlikte park noktasını ve engelin bütününü göstermelidir.",
+            },
+            {
+                soru: "Baca çevresi bakımı üretim sürerken yapılabilir mi?",
+                cevap:
+                    "Bunu tesisin teknik yetkilisi belirler. Çıkışın sıcaklığı, hava veya gaz akımı, ilgili fan ve ekipmanın beklenmedik hareketi ile güvenli izolasyon ihtiyacı değerlendirilir. Platform operatörü proses hakkında tahmin yapmaz. Çalışma alanı güvenli teslim edilmeden sepet yaklaşmaz. Fiziksel ayrım ve güvenli koşul sağlanıyorsa tesisin izin verdiği kapsam yürütülebilir; sağlanamıyorsa ilgili sistem durdurulur veya bakım başka pencereye alınır. Yeniden devreye alma yetkisi tesistedir.",
+            },
+            {
+                soru: "Rüzgâr yükselirse içeride başka işe geçebilir miyiz?",
+                cevap:
+                    "Aynı makinenin kapı, zemin, egzoz ve erişim koşulları iç işe uygunsa; malzeme ile izin önceden hazırsa geçilebilir. Hava bozduğunda rastgele yeni hedef aranmaz. Arazi tipi büyük bir dış makine kapalı hacme uygun olmayabilir, bu durumda yedek plan işlemez ve çalışma güvenli koşula ertelenir. Rüzgâr sınırı üretici talimatına göre değerlendirilir. Yağış sonrası dışarıya dönmeden park zemini de yeniden kontrol edilir.",
+            },
+            {
+                soru: "Bu sayfa Kütahya'daki seramik tesislerinin çatı yapısını doğruluyor mu?",
+                cevap:
+                    "Hayır. Kamuya açık bağlam yalnız Kütahya'nın seramik ve çini sanayi geleneğidir. Belirli tesisin çatısı, fırını, hattı, malzemesi, kapasitesi veya bakım takvimi hakkında varsayım yapılmaz. Oluk, panel, ışıklık, baca ve cephe kalemleri gerçek talepte saha tarafından doğrulanırsa uygulanacak genel dış kabuk planını örnekler. Nihai makine, hava penceresi ve çalışma yöntemi güncel fotoğraf, ölçü, zemin ve tesisin teknik bilgisiyle belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Kütahya'nın seramik ve çini sanayi geleneği uygulama belgesindeki kamuya açık bölgesel çerçevedir. Özel tesis, çatı tipi, fırın, üretim hattı, kapasite, mesafe ve rakam kullanılmamıştır; mevsimlik dış kabuk taraması, park halkası, eklemli erişim ve hava yedeği koşullu sektör geneli bakım pratiğidir.",
+    },
 };

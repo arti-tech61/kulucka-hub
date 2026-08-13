@@ -710,4 +710,203 @@ export const BOZUYUKMANLIFT_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İnegöl'ün mobilya sanayisiyle anılması ve mobilyanın metal aksam kullanımı genel bilgidir; TEM Otoyolu bağlantısının hammadde tedarik ritmine etkisi ile küçük parça üretiminin aspirasyon-vinç ihtiyacına yansıması sektör pratiği ve firma saha gözleminden gelir. Tesis adı ve rakam verilmemiştir.",
     },
+    "bolge:sakarya-cevre-ili": {
+        h1: "Bozüyük’ten Sakarya’ya TEM Sevkiyat Penceresiyle Metal Tesis Manlifti",
+        giris:
+            "Sakarya çevre ili için bu sayfanın odağı bir terminale veya limana makine entegrasyonu değildir; forklift ile platformu paket halinde göndermek de değildir. Burada yalnız Bozüyük’ten TEM bağlantısı üzerinden metal işleme tesisindeki doğrulanmış bakım penceresine manlift ulaştırmayı ele alıyoruz. Çevre il sevkiyatında yolun açık olması tek başına yeterli olmaz. Tesisin araç kabul saati, taşıyıcının güvenli indirme alanı, manliftin hedefe giden iç rotası, metal atölyesindeki sıcak çalışma ve üretim ayrımı ile geri alma zamanı tek zincire bağlanmalıdır. Kaynak dumanı emişi, çatı altı kanal, vinç yolu çevresi, aydınlatma ve yüksek montaj noktaları gibi kalemler ancak işletmenin kendi risk değerlendirmesi ve enerji izolasyonu içinde çalışılır. Belirli tesis, sektör kapasitesi veya mesafe varsayılmaz. Program, bakım başlangıcından geriye doğru kurulur; makine iş penceresi açıldığında yolda veya giriş kuyruğunda değil, kabulü tamamlanmış ve güvenli parkında hazır olur.",
+        maddeler: [
+            {
+                baslik: "TEM çıkışını tesis kabul saatiyle eşleştirmek",
+                metin:
+                    "Taşıma planında yalnız hareket saati değil, tesisin ağır araç kabul penceresi ve indirme sorumlusu doğrulanır. Geç gelen taşıyıcı bakım slotunu tüketebilir; gereğinden erken gelen araç ise giriş veya park alanını gereksiz işgal eder. Yükleme öncesinde güzergâh, hava ve yol durumu kontrol edilir, alternatif karar noktası belirlenir. Varış bildirimi tesis sorumlusuna yapılır. İndirme alanı başka teslimatlardan ayrılmış, düz ve taşıma için uygun olmalıdır. Manlift taşıyıcıdan indikten sonra doğrudan üretim hücresine sürülmez; görünür kontrol yapılır ve iç rota saha ekibiyle yeniden yürünür. Böylece otoyol penceresi, tesis içindeki hazırlıksız beklemeye dönüşmez.",
+            },
+            {
+                baslik: "Metal atölyesinde sıcak ve soğuk işi ayırmak",
+                metin:
+                    "Kaynak, kesim veya taşlama yapılan bölgede manliftle yalnız erişim sağlanması, sepette yapılacak işin riskini ortadan kaldırmaz. İş listesi soğuk mekanik kontrol, elektrik işi ve sıcak çalışma olarak ayrılır. Kıvılcım üreten işlem için tesisin izin, yangın gözcüsü, çevre temizliği ve havalandırma koşulu uygulanır. Boya veya solvent bulunan alanda ortam uygunluğu ayrıca değerlendirilir. Sepet başka kaynak istasyonunun duman veya sıçrama alanına sokulmaz. Mümkünse üretim hücresi vardiya dışında hazırlanır; fiziksel ayrım varsa komşu bölüm çalışabilir. Manlift operatörü tesisin sıcak çalışma iznini vermez, yalnız makineyi üretici sınırında konumlandırır.",
+            },
+            {
+                baslik: "Vinç yolu ve ağır parça hareketinden ayrılmak",
+                metin:
+                    "Metal işleme holünde köprülü vinç, askılı yük ve uzun parçaların taşıma rotası üst kot bakımını doğrudan etkiler. Manliftin bom ve sepet zarfıyla kesişen vinç hareketi durdurulur; kumanda ve enerji tesis prosedürüne göre güvenli duruma alınır. Askılı yükün altında veya salınım yönünde çalışılmaz. Ağır parça kaldırma manliftin görevi değildir; platform personel ve izin verilen hafif alet erişimi sağlar. Çalışma hücresi yalnız zeminde koniyle değil üst hareket alanıyla birlikte ayrılır. Bir hücre tamamlanıp alet-parça sayımı ve teknik teslim yapılmadan vinç hareketi yeniden açılmaz. Sonraki hedef için yeni alan ve enerji kontrolü kurulur.",
+            },
+            {
+                baslik: "Aspirasyon ve çatı altı hattını tek pakette kapatmak",
+                metin:
+                    "Kaynak dumanı emiş kanalı, fan bağlantıları, kablo tavaları ve aydınlatma aynı çatı kotunda farklı ekiplerin listelerinde bulunabilir. Duruş penceresini verimli kullanmak için aynı park konumundan erişilen kalemler tek paket hâline getirilir. Her teknik işi kendi yetkili ekibi yapar; platform yalnız güvenli erişim sunar. Filtre veya kanalda birikmiş malzeme çalışma öncesinde işletmenin yöntemine göre kontrol edilir. Sepette taşınacak parça ve aletler üretici yük sınırı içinde sabitlenir. Eksik malzemeli hedef, bütün hattı geriye doğru tekrar dolaştırmak yerine açık kalem olarak sonraki uygun pakete yazılır. Paket sonunda üst kotta gevşek parça bırakılmaz.",
+            },
+            {
+                baslik: "Dönüş penceresini bakım kapanışına bağlamak",
+                metin:
+                    "Geri alma aracı, tahmini bitiş saatine kör biçimde çağrılmaz. Bakım paketleri tamamlanır, izolasyonların kaldırılması ve kontrollü devreye alma tesis sorumlusu tarafından yürütülür, manliftin tekrar erişim gerektirip gerektirmediği belirlenir. Kapanış onayı geldiğinde makine temizlenir, durum ve enerji seviyesi kaydedilir, güvenli yükleme alanı açılır. İş uzarsa yeni süre ve taşıma planı yazılı güncellenir; sonraki rezervasyona etkisi görülmeden otomatik uzatma yapılmaz. Erken bitişte taşıyıcı uygunluğu kontrol edilir. Dönüşün planlı olması, çevre il işini tek yönlü teslim değil başı ve sonu kapalı bir sevkiyat zinciri yapar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sakarya metal bakım sevkiyatının kapıları",
+                paragraflar: [
+                    "TEM sevkiyat penceresi, teknik iş ile taşımanın aynı takvimde bağlanmasını gerektirir. Tablo, her aşamanın başlaması için gerekli kanıtı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Ana karar", "Hazırlık", "Kapanış"],
+                    satirlar: [
+                        ["Teknik seçim", "Makine hedefe uygun mu", "Kot, engel, zemin, rota", "Sınıf doğrulandı"],
+                        ["Çıkış", "Hangi sevkiyat penceresi", "Yol ve kabul saati", "Varış bildirildi"],
+                        ["Saha kabulü", "İndirme ve iç rota açık mı", "Sorumlu, alan, durum kontrolü", "Makine güvenli parkta"],
+                        ["Metal bakım", "Hücre ve iş türü", "İzolasyon, sıcak iş ayrımı", "Paket teknik teslimde"],
+                        ["Test", "Yeniden erişim gerekli mi", "Kontrollü devreye alma", "Kapanış onayı"],
+                        ["Dönüş", "Taşıyıcı ne zaman gelir", "Yükleme ve iade kaydı", "Sevkiyat tamamlandı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Uzaktan keşif ve metal saha dosyası",
+                paragraflar: [
+                    "Tesis girişinden çalışma noktasına kadar kapı, dönüş, en dar koridor, kanal-ızgara, park yüzeyi ve üst engeller ardışık fotoğraflanır. Hedef kotu, yatay uzaklık ve aşılacak ekipman yüksekliği ölçülür. Metal atölyesinde köprülü vinç, askılı yük, kaynak veya boya bölgeleri, sıcak yüzey ve üretimin durabileceği hücre işaretlenir. Enerji izolasyonu yetkilisi, iş izin sorumlusu, malzeme ve vardiya bilgisi dosyaya eklenir. Belirsiz veya sınırdaki ölçüde fiziksel keşif tercih edilir.",
+                    "Dosya yalnız manlifti seçmez; sevkiyat saatini ve sahada kalış biçimini de belirler. Taşıyıcının gireceği kapı ile manliftin üretim holüne gireceği kapı farklı olabilir. Birkaç vardiya kullanımda düz park alanı, akülü sınıf için güvenli şarj ve yetkili kullanıcı planlanır. Bilgi değişirse eski fotoğrafa dayanılmaz. Yeni istif veya ekipman güzergâhı kapatmışsa rota ve sınıf tekrar değerlendirilir.",
+                ],
+            },
+            {
+                baslik: "Gecikme ve değişiklik yönetimi",
+                paragraflar: [
+                    "Yol, tesis kabulü veya bakım başlangıcı değiştiğinde yalnız bir saat kaydırılmaz; operatör vardiyası, saha izni, park, iş paketleri ve geri alma birlikte güncellenir. Makine henüz çıkmadıysa yeni pencere teyit edilir. Yoldaysa tesisle varış ve güvenli bekleme koşulu konuşulur. Sahaya ulaştıysa yetkisiz kullanım engellenir; üretim durmadan hazırlık adına riskli çalışma başlatılmaz. Değişikliğin süre ve maliyet etkisi yazılı paylaşılır.",
+                    "Son dakika yeni hedefi mevcut izin ve makine sınıfının otomatik parçası değildir. Geometri, enerji, iş türü ve kapanışa etkisi görülür. Aynı paket içinde güvenle kapanıyorsa sıra güncellenir; farklı ünite veya yeni duruş istiyorsa ayrı planlanır. Bu disiplin çevre il sevkiyatını görünmez biçimde uzatmaktan ve dönüş kapasitesini başka taahhütlerle çakıştırmaktan korur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sakarya’ya sevkiyat süresini kesin söyleyebilir misiniz?",
+                cevap:
+                    "Saha ve gün doğrulanmadan sabit süre taahhüt etmeyiz. Çıkış saati, yol ve hava koşulu, ağır araç kabul penceresi, indirme alanının hazır olması ve tesis giriş prosedürü birlikte değerlendirilir. Program, bakım başlangıcından geriye doğru kurulur ve makinenin çalışma penceresinden önce kabulünün tamamlanması hedeflenir. Yoldaki değişiklikte tesis sorumlusuna erken bilgi verilir. Belirli mesafe veya süre uydurmak yerine taşıma planında karar noktaları ve varış bildirimi kullanırız. Kritik saat varsa daha geniş hazırlık payı veya önceki gün güvenli teslim değerlendirilir.",
+            },
+            {
+                soru: "Bu hizmet terminal veya liman operasyonunu kapsıyor mu?",
+                cevap:
+                    "Hayır; bu kaydın kapsamı Bozüyük’ten TEM üzerinden Sakarya’daki metal işleme tesisinin bakım penceresine manlift sevkiyatıdır. Terminal, liman ve aktarma operasyonları farklı trafik, izin ve ekipman koordinasyonu ister ve burada anlatılan plana dahil değildir. Aynı şekilde forklift ile platformu paket halinde gönderme vaadi sunmuyoruz. Talep metal atölyesindeki aydınlatma, aspirasyon, vinç yolu çevresi veya yüksek montaj erişimiyse saha dosyası hazırlanır. Başka operasyon ihtiyacı varsa ayrı kapsam ve uygun ekipman değerlendirmesi yapılır; bu sayfanın sınırları genişletilmez.",
+            },
+            {
+                soru: "Kaynak devam ederken manliftle üst bakım yapılabilir mi?",
+                cevap:
+                    "Yalnız fiziksel olarak ayrılmış ve birbirini etkilemeyen hücrelerde diğer üretim sürebilir. Sepetin bulunduğu alanda kaynak sıçraması, duman, sıcak yüzey ve yangın yükü değerlendirilir. Sepette yapılacak iş sıcak çalışma içeriyorsa tesisin izin ve yangın önlemleri uygulanır; yalnız erişim aracı kullanılması bu izni gereksiz kılmaz. Askılı yük veya vinç hareketi aynı hücrede durur. Alan güvenle ayrılamıyorsa üretim kesilir veya bakım uygun vardiyaya taşınır. Operatör tesisin proses iznini vermez; kendisine teslim edilen güvenli bölgede makineyi yönetir.",
+            },
+            {
+                soru: "Makine birkaç vardiya Sakarya’da kalabilir mi?",
+                cevap:
+                    "Program ve sonraki rezervasyon uygunsa kalabilir. Tesis düz, taşıma gücü uygun, korunaklı ve yetkisiz erişime kapalı park alanı sağlar. Akülü ünitenin şarj noktası kuru ve havalandırılan yerde olur; kablo araç veya yaya yolunu kesmez. Yetkili kullanıcı her vardiya öncesi lastik, korkuluk, kumanda, acil indirme, alarm ve görünür sızıntıyı kontrol eder. Olağan dışı durumda kullanım durur ve servis aranır; yetkisiz müdahale yapılmaz. Park, şarj ve vardiya devri teslim tutanağında görünür olur.",
+            },
+            {
+                soru: "Bakım erken biterse dönüş aracını hemen çağırabilir misiniz?",
+                cevap:
+                    "Taşıyıcı uygunluğu ve tesisin güvenli yükleme alanı varsa erken geri alma planlanabilir, ancak anlık garanti verilmez. Önce bütün iş paketleri teknik sorumluya teslim edilir, açık izinler kapanır, alet-parça sayımı ve makine durum kontrolü tamamlanır. İşletme erken bitişi mümkün olduğunca önce bildirir. Yükleme alanı metal parça ve diğer araç hareketinden ayrılır. Sözleşmedeki süre ve taşıma koşulu açıkça uygulanır. Makine, yalnız bakım ekibi ayrıldı diye açık test veya teslim sorumluluğuyla sahadan çıkarılmaz.",
+            },
+            {
+                soru: "Doğru manlift için hangi bilgileri göndermeliyiz?",
+                cevap:
+                    "Girişten hedefe rota fotoğrafları, en dar kapı ve dönüş, hedef kotu, yatay engel, park tabanı, zemin ve üst ekipman gerekir. Kapalı-açık ortam, sepette taşınacak alet-malzemeler, köprülü vinç veya askılı yük kesişimi, sıcak çalışma ve enerji izolasyonu da bildirilir. Taşıyıcının indirme alanı, tesis kabul saati, vardiya, park ve şarj koşulu eklenir. Bu paket erişim diyagramı ve sevkiyat planıyla birlikte incelenir. Yalnız sektör adı veya en yüksek nokta bilgisi model seçmeye yetmez; sınırdaki koşulda keşif yapılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Sakarya’nın TEM bağlantılı çevre il konumu ve metal işleme bağlamı uygulama belgesindeki kamuya açık genel çerçevedir; sevkiyat-kabul penceresi, metal saha izolasyonu ve dönüş planı sektör geneli pratiktir. Terminal, liman ve forklift-platform paket teması, özel tesis, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:osmaneli-osb": {
+        h1: "TEM Aksındaki Osmaneli OSB Depolarına Manlift Sevkiyat ve Bakım Slotu",
+        giris:
+            "Osmaneli OSB için mevcut kardeş içeriklerden biri depo parsellerinin genel turunu, diğeri tek depo içindeki makaslı koridor geometrisini anlatır. Bu kayıt aynı cümleleri tekrar etmez; odağını TEM aksından gelen manliftin tesis kabul penceresiyle depo bakım slotunu eşleştirmesine koyar. Depo operasyonunda kapılar, araç gelişleri ve stok hareketi gün boyunca değişir. Makine yanlış saatte geldiğinde güvenli indirme alanı kapanabilir; doğru saatte gelip bakım hücresi hazırlanmamışsa kira süresi beklemeye dönüşür. Bu nedenle giriş, teknik teslim, çalışma slotu ve çıkış birbirine bağlı dört kapı olarak yönetilir. Hedefin kotu ve makine sınıfı elbette doğrulanır, fakat burada temel karar ‘hangi koridorda hangi makaslı’ değil, bakım ekibinin erişim ihtiyacını depo yönetiminin kabul-sevkiyat takvimine nasıl yerleştireceğimizdir. Her tesisin gerçek programı istenir; OSB profiline bakarak araç saati veya kapasite varsayılmaz.",
+        maddeler: [
+            {
+                baslik: "Taşıyıcı kabul penceresini ayrı planlamak",
+                metin:
+                    "Manliftin geliş aracı, deponun olağan yük trafiğine ek bir ağır araç hareketidir. Tesis hangi kapı veya açık alanın indirmeye ayrılacağını, saha sorumlusunu ve güvenli bekleme noktasını önceden bildirir. Varış, yoğun kabul veya sevkiyat hareketiyle çakıştırılmaz. İndirme sırasında alan yaya ve araç trafiğinden ayrılır; taşıyıcı düz ve yeterli zeminde konumlanır. Makine indikten sonra görünür durum kaydı alınır ve çalışma alanına giden rota güncel stok düzenine göre kontrol edilir. Kabul tamamlanmadan kiralama ekibi üretim veya depo hücresine yönlendirilmez. Böylece yolculuğun bitişi, kontrolsüz biçimde bakımın başlangıcı sayılmaz.",
+            },
+            {
+                baslik: "Depo bakım slotunu operasyon takvimine bağlamak",
+                metin:
+                    "Aydınlatma, algılama, yangın hattı çevresi, kapı üstü sistem veya çatı altı tesisat için erişim gereken bölüm depo yönetimi tarafından belirli süreliğine ayrılır. Slotta hangi alanın boş kalacağı, personel ve araç yönlendirmesi, enerji veya sistem yetkilisi ve kapanış koşulu yazılır. Bütün depoyu kapatmak yerine yalnız hazırlanmış hücre kullanılır. Ancak fiziksel ayrım sağlanamıyorsa bakım daha sakin saate taşınır. Ekip aynı konumdan erişilen hazır kalemleri tamamlar; eksik malzeme nedeniyle alanı gereksiz açık tutmaz. Slotun süresi yalnız tahmini işçilikten değil bariyer, izin, teknik teslim ve makine geçişinden oluşur.",
+            },
+            {
+                baslik: "Kapı cephesi işini araç gelişinden ayırmak",
+                metin:
+                    "Seksiyonel kapı motoru, fotosel, saçak, dış aydınlatma ve yönlendirme elemanları araç kabul cephesinde yoğunlaşır. Çalışılacak kapı sisteme kapalı olarak işaretlenir, yaklaşan taşıma planı başka göze yönlendirilir ve bomun hareket zarfı bariyerlenir. Rampa ekipmanı veya motor üzerinde iş varsa tesis yetkilisi sistemi güvenli duruma getirir. Komşu kapıların kullanılması ancak hareket rotası sepet alanıyla kesişmiyorsa mümkündür. Her kapı bakım ve işlev kontrolünden sonra sorumluya teslim edilir. Bütün cepheyi süresiz kapatmak yerine kapılar slotlar halinde ilerler; fakat kısa görünmesi güvenli teslim adımlarını azaltmaz.",
+            },
+            {
+                baslik: "İç ve dış hedefleri varış sırasına koymak",
+                metin:
+                    "Makinenin enerji türü ve temizlik durumu uygunsa program temiz kapalı hacimden dış sahaya doğru kurulabilir. Dışarıda kirlenen veya yağışa maruz kalan ünite hazırlıksız biçimde yeniden depo içine sokulmaz. Rüzgâr dış işi durdurursa, depo içinde izni ve malzemesi hazır bir yedek hücre bulunması kiralama gününü korur. Bunun için yedek slot depo yönetiminin takviminde önceden yer almalıdır; o an boş görünen alana rastgele girilmez. Akülü sınıf birkaç vardiya kalacaksa güvenli şarj ile park zamanı, araç kabulünün dışında planlanır. Kablo veya park edilen makine depo trafiğinin yeni engeli hâline getirilmez.",
+            },
+            {
+                baslik: "Çıkış slotu ve TEM hattına geri dönüş",
+                metin:
+                    "Teknik iş tamamlanınca açık hedefler, kullanılan alet ve parçalar, sistem teslimi ve makinenin görünür durumu kontrol edilir. İade için depo çıkışında düz yükleme alanı ve taşıyıcı kabulü yeniden planlanır; gelişte kullanılan alanın aynı saatte boş olacağı varsayılmaz. Makine bir sonraki OSB veya çevre il işine geçecekse teknik uygunluğu ve enerji durumu doğrulanır. Uzatma talebi, ardındaki rezervasyon görülerek yazılı karara bağlanır. Çıkış slotu hazırlanmadığı için ünitenin depo sahasında belirsiz beklemesi önlenir. Böylece TEM aksındaki program yalnız hızlı ulaşım vaadi değil, kabulden geri dönüşe kapalı bir operasyon olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Osmaneli OSB depo servisinin dört kapısı",
+                paragraflar: [
+                    "Bu yaklaşım parseller arası turu veya koridor içi makine tekniğini değil, depo takvimiyle sevkiyatın temas noktalarını yönetir.",
+                ],
+                tablo: {
+                    basliklar: ["Kapı", "Depo kararı", "Manlift hazırlığı", "Geçiş koşulu"],
+                    satirlar: [
+                        ["Giriş", "İndirme alanı ve saat", "Taşıma ve durum kontrolü", "Makine kabul edildi"],
+                        ["Teknik teslim", "Hedef ve yetkililer hazır", "Rota, sınıf, kullanıcı", "Çalışma izni açıldı"],
+                        ["Bakım slotu", "Hücre trafikten ayrıldı", "Bariyer ve iş paketi", "Alan teknik teslimde"],
+                        ["Yedek slot", "Alternatif hücre kullanılabilir", "Uygun makine ve malzeme", "Koşula göre geçiş"],
+                        ["Kapanış", "Sistem ve depo alanı açık", "Alet-parça ve durum kaydı", "İade onayı"],
+                        ["Çıkış", "Yükleme alanı ayrıldı", "Taşıyıcı ve sonraki plan", "Aksa geri dönüş"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bakım slotu talep formu",
+                paragraflar: [
+                    "Depo yönetimi hedef bölüm, iş türü, uygulanabilir saat, araç ve yaya hareketi, enerji veya sistem sorumlusu ve alanın ne zaman boşalacağını bildirir. Teknik ekip hedef kotu, yatay engel, giriş ölçüleri, zemin, sepetteki yük ve gerekli makine ailesini ekler. Lojistik ekip taşıyıcı girişini, indirme ve çıkış alanını planlar. Bu üç bilgi seti aynı formda birleşmeden kesin slot verilmez.",
+                    "Değişiklik olduğunda yalnız varış saati güncellenmez. Stok başka aksa taşınmış, kapı kullanımı değişmiş veya çalışma alanına yeni engel gelmişse rota ve sınıf yeniden görülür. Yeni hedef mevcut slotun otomatik parçası sayılmaz. Hazırlık eksikse sorumlusu ve kapanış zamanı kaydedilir. Makineyi erken getirip eksiğin sahada kapanmasını beklemek yerine giriş kapısı gerçek hazır oluşa bağlanır.",
+                ],
+            },
+            {
+                baslik: "Vardiya devri ve bekleme görünürlüğü",
+                paragraflar: [
+                    "Birden fazla vardiya süren işte park, şarj, günlük makine kontrolü, tamamlanan slotlar ve açık izinler yazılı devredilir. Önceki vardiyanın ayırdığı araç rotası yeni vardiyada otomatik güvenli sayılmaz; kabul ve sevkiyat planı değişebilir. Yetkili kullanıcı lastik, korkuluk, kumanda, acil indirme, alarm ve görünür sızıntıyı kontrol eder. Olağan dışı durumda kullanım durur, yetkisiz müdahale yapılmaz ve servis aranır.",
+                    "Bekleme nedeni de kayda girer: taşıyıcı kapısı, stok boşaltma, teknik yetkili, enerji izolasyonu, eksik malzeme veya hava. Bu ayrım sonraki teklif ve slot uzunluğunu düzeltir. Kullanılmayan pay azaltılır, sürekli geciken hazırlık daha erken başlatılır. Kayıt belirli bir depo veya kapasiteyi kamuya açıklamaz; yalnız aynı işletmenin sonraki bakım programını daha öngörülebilir yapar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "TEM aksına yakın olmak aynı gün kesin teslim anlamına gelir mi?",
+                cevap:
+                    "Hayır. Ulaşım bağlantısı planlama avantajı sağlar, fakat uygun makine, taşıyıcı, tesis kabul saati, indirme alanı ve teknik hazırlık doğrulanmadan kesin teslim sözü verilmez. Acil talepte mevcut kapasite ve saha paketi kontrol edilir; gerçekçi pencere paylaşılır. Planlı işte bakım başlangıcından geriye doğru varış ve kabul zamanı kurulur. Makinenin kapıda beklemesi teslim sayılmaz; görünür kontrol, iç rota ve sorumlu devri tamamlanmalıdır. Tutulamayacak hız vaadi yerine hangi kapının ne zaman hazır olacağını yazılı gösteririz.",
+            },
+            {
+                soru: "Bu sayfa depo koridoruna hangi makaslıyı seçtiğinizi anlatıyor mu?",
+                cevap:
+                    "Hayır; koridor geometrisi ve makaslı çalışma tekniği kardeş içerikte ayrıntılı ele alınır. Buradaki konu, teknik olarak doğrulanmış manliftin TEM aksından gelişini depo kabul ve bakım slotuna bağlamaktır. Elbette kot, kapı, zemin ve yatay engel ölçülür; yanlış sınıf gönderilmez. Fakat anlatının ana sorusu modelden çok zamanlamadır: indirme alanı ne zaman açık, hangi depo hücresi trafikten ayrılabilir, teknik yetkili ne zaman hazır ve makine ne zaman güvenli çıkabilir? Teklif bu dört kapıyı birlikte gösterir.",
+            },
+            {
+                soru: "Araç kabulü sürerken kapı üstü bakım yapılabilir mi?",
+                cevap:
+                    "Çalışılan kapıya araç yanaşması durmalı ve bom-sepet zarfıyla kesişen rota fiziksel olarak ayrılmalıdır. Depo yönetimi yaklaşan araçları başka göze yönlendirir. Rampa veya kapı mekanizması tesis yetkilisi tarafından güvenli duruma alınır. Komşu kapılar yalnız araç dönüşleri çalışma hücresine girmiyorsa açık kalabilir. Kısa iş olduğu için sepeti aktif kapının üzerine kaldırmayız. Bakım, işlev kontrolü ve alan teslimi tamamlandıktan sonra kapı yeniden kullanıma açılır; ekip sonraki slotta başka göze geçer.",
+            },
+            {
+                soru: "Makine erken gelirse depoda bekleyebilir mi?",
+                cevap:
+                    "Yalnız önceden ayrılmış düz, korunaklı ve operasyon trafiğinden uzak park alanı varsa bekleyebilir. Yetkisiz kullanım engellenir, akülü ünitede güvenli şarj planlanır ve bekleme koşulu sözleşmede görünür olur. Makineyi bakım hücresi hazır olmadan rastgele bir kapı veya araç yoluna bırakmayız. Erken teslimin gerçekten faydalı olup olmadığı, kabul alanı ve vardiya başlangıcına göre değerlendirilir. Bazen doğru çözüm, taşıyıcıyı daha uygun saate planlamaktır. Bekleme, eksik hazırlığın sürekli telafisi hâline getirilmez.",
+            },
+            {
+                soru: "Dış iş hava nedeniyle durursa depo içindeki başka alana geçebilir misiniz?",
+                cevap:
+                    "Önceden yedek bakım slotu hazırlanmış ve aynı makine teknik olarak uygunsa geçilebilir. Yedek hücrenin trafik ayrımı, enerji veya sistem yetkilisi, malzemesi ve giriş rotası hazır olmalıdır. O an boş görünen koridora plansız biçimde girilmez. Dışarıda kirlenen ünitenin iç hacme dönüşü temizlik ve zemin koruması açısından ayrıca değerlendirilir. Yedek slot yoksa üretici hava sınırı aşılırken dış çalışma yapılmaz; bekleme ve erteleme koşulu teklif planına göre uygulanır. Güvenlik, günü doldurmak için esnetilmez.",
+            },
+            {
+                soru: "İş uzarsa çıkış slotunu değiştirebilir miyiz?",
+                cevap:
+                    "Değiştirilebilir, fakat otomatik değildir. Açık işin nedeni ve yeni kapanış tahmini belirlenir; taşıyıcı, yükleme alanı, operatör vardiyası ve sonraki rezervasyon birlikte görülür. Uzatma yazılı onaylanır. Taşıyıcı gelmişse saha içinde kontrolsüz bekletilmez, yeni kabul düzeni kurulur. İş tamamlanınca teknik teslim, alet-parça ve makine durum kontrolü yine yapılır. Yalnız depo ekibinin işi uzadı diye manlift belirsiz süre tutulmaz; yeni slotun maliyet ve kapasite etkisi açıkça paylaşılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Osmaneli OSB’nin TEM aksındaki depo ve lojistik bağlamı uygulama belgesindeki kamuya açık genel bilgidir; taşıyıcı kabulü, bakım slotu, kapı cephesi ve çıkış senkronu sektör geneli saha pratiğidir. Parseller arası tur veya yalnız koridor-makaslı anlatısı tekrarlanmamış; özel tesis, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };
