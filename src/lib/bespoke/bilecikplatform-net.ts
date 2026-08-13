@@ -515,4 +515,203 @@ export const BILECIKPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Bozüyük OSB'nin seramik ve metal işleme ağırlıklı sanayi profili ile Osmaneli-Pazaryeri hattına yarım saatlik mesafedeki konumu kamuya açık genel bilgidir; üçlü tur kurgusu ve öncelik sıralaması firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+    "bolge:pazaryeri-osb": {
+        h1: "Pazaryeri OSB’de Tekil Tesise Özel Platform Programı",
+        giris:
+            "Pazaryeri ilçe genelinde karma küçük ve orta ölçekli işlerin aynı turda birleştirilmesi anlamlı olabilir; Pazaryeri OSB’deki tekil tesis talebi ise bunun tersine, parselin kendi üretim düzenine göre kapalı bir program ister. Aynı OSB sınırı içindeki iki yapı bile kapı, zemin, tavan, enerji, trafik ve vardiya açısından birbirine benzemeyebilir. Bu nedenle ilçe sayfasındaki genel profil veya Osmaneli ile karşılaştırmalı tur mantığı, belirli bir OSB parseline doğrudan kopyalanmaz. Önce iş listesini tesis bölümlerine ayırır, her hedef için erişim geometrisini ve çalışma penceresini doğrularız. Manlift başka işletmeye yetişmek için gün ortasında programdan çekilmez; teslimden kapanışa kadar sorumlu tek saha planı üzerinden ilerler. Bunun karşılığında tesis de hedefleri, malzemeyi, enerji izolasyonu yetkilisini ve çalışma koridorunu önceden hazırlar. Amaç en büyük makineyi göndermek değil, tekil tesisin bütün bakım listesini mümkün olan en az konum değişimi ve en açık sorumluluk devriyle kapatmaktır.",
+        maddeler: [
+            {
+                baslik: "Parsel girişinden hedefe ölçülü rota",
+                metin:
+                    "Teklif için yalnız tavan yüksekliği istenmez. Taşıyıcının veya kendinden yürür ünitenin giriş güzergâhı, en dar kapı, eşik, iç dönüş, kanal ve ızgara, makinenin duracağı taban ile hedefe yatay uzaklık birlikte kaydedilir. Üretim ekipmanı, istif veya geçici malzeme rotayı daraltıyorsa güncel fotoğraf kullanılır. Mimari plandaki açıklığın sahada boş olduğu varsayılmaz. Makine sınıfı üretici erişim diyagramıyla eşleştirilir; azami yükseklik tek karar değildir. Ölçü sınırdaysa keşif yapılır. Parsel içindeki her bölüme aynı ünitenin gireceği kabul edilmez; gerekiyorsa liste farklı sınıflara ayrılır ve bu ayrım teklif aşamasında görünür olur.",
+            },
+            {
+                baslik: "Tesis içi hücreleri üretimden ayırmak",
+                metin:
+                    "Çalışılacak alan, yalnız manlift tekerlerinin çevresi kadar değildir. Bom ve sepetin bütün hareket zarfı, alttaki düşme bölgesi ve komşu araç veya makine hareketi birlikte kapatılır. Askılı yük, forklift, vinç veya başka platform aynı hücreye girecekse işler sıraya konur. Üretimin tamamı durmak zorunda olmayabilir; fiziksel olarak ayrılmış bölümler çalışmaya devam edebilir. Ancak sepet altından personel veya malzeme geçirilmez. Her hücre için tesis sorumlusu, izin başlangıcı ve geri teslim koşulu belirlenir. Ekip o bölümdeki tüm hazır kalemleri tamamlar, alet-parça sayımı yapar ve alanı teknik sorumluya vermeden sonraki noktaya geçmez.",
+            },
+            {
+                baslik: "Enerji ve beklenmedik hareket kaynakları",
+                metin:
+                    "Aydınlatma, kapı motoru, havalandırma, kablo hattı veya üretim ekipmanı çevresindeki işte yalnız ana kumandanın kapalı görünmesi yeterli değildir. Tesis yetkilisi çalışılan sistemi tanımlar, enerji kaynaklarını kendi prosedürüne göre ayırır ve yeniden devreye girmeyi önleyen düzeni kurar. Pnömatik, hidrolik, mekanik veya depolanmış enerji de değerlendirilir. Platform operatörü tesis ekipmanının izolasyonunu üstlenmez; güvenli hücrenin teslimini alır. İş bitiminde koruyucu ve bağlantılar kontrol edilir, personel ile araç alanı terk eder ve sistemi yeniden çalıştırma kararı tesis sorumlusuna kalır. Son dakika hedefi yeni enerji değerlendirmesi olmadan mevcut izne eklenmez.",
+            },
+            {
+                baslik: "Tek makineyle bölüm sırasını kurmak",
+                metin:
+                    "Tesisin bakım listesi yüksekliğe göre değil, ortam ve geçiş sırasına göre dizilir. Temiz kapalı hacim varsa önce tamamlanır; dış saha, tozlu veya kirli bölüm daha sonra gelir. Aynı park konumundan erişilebilen hedefler bir paket yapılır. Rüzgâr dış işi durdurduğunda, izin ve malzemesi hazır kapalı hücreye geçilebilmesi için yedek sıra oluşturulur. Akülü sınıfın şarjı, vardiya molası ve gece parkı programda yer alır. İki sınıf gerekiyorsa birincinin işi teslim edilmeden ikincisi rastgele sahaya alınmaz; indirme, park ve trafik alanlarının çakışması önlenir. Sıralama, manliftin gereksiz geçişini ve üretim koridorunun tekrar tekrar kapanmasını azaltır.",
+            },
+            {
+                baslik: "Tekil programın kapanış ve iade kapısı",
+                metin:
+                    "Programın bittiği an, bakım ekibinin son hedefi terk ettiği an değildir. Açık iş izinleri, sökülmüş koruyucular, alet ve yedek parçalar, şarj veya yakıt durumu ve makinenin görünür hali kontrol edilir. Tamamlanmayan hedef güvenli durumu ve yeni gereksinimiyle yazılı kayda girer; sözlü olarak sonraki vardiyaya bırakılmaz. Tesis sorumlusu çalışma hücrelerinin yeniden açılmasını onaylar. Makine temizlenir, düz yükleme veya teslim alanına alınır ve iade fotoğrafları oluşturulur. Süre uzayacaksa karar, sonraki rezervasyon ve saha koşulu görülerek yazılı alınır; tekil tesis programı belirsiz biçimde açık tutulmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tekil tesis programının kontrol tablosu",
+                paragraflar: [
+                    "Pazaryeri OSB’de her parsel kendi koşuluyla ele alınır. Aşağıdaki tablo, programın bölüm bölüm hangi kanıtla ilerlediğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Temel soru", "Hazırlık", "Kapanış"],
+                    satirlar: [
+                        ["Keşif", "Makine hedefe nasıl ulaşır", "Rota, ölçü, zemin", "Sınıf doğrulandı"],
+                        ["Teslim", "Saha kullanıma hazır mı", "Giriş, park, kullanıcı", "Durum kaydı alındı"],
+                        ["Hücre açma", "Üretim güvenle ayrıldı mı", "Bariyer ve izolasyon", "İzin teslim edildi"],
+                        ["İş paketi", "Aynı konumda ne kapanır", "Malzeme ve ekip", "Alet-parça sayıldı"],
+                        ["Bölüm devri", "Alan yeniden açılabilir mi", "Teknik kontrol", "Sorumlu kabul etti"],
+                        ["İade", "Program gerçekten bitti mi", "Açık iş ve durum kaydı", "Makine serbest"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif dosyasında bulunması gerekenler",
+                paragraflar: [
+                    "İşletme, hedefleri bölüm ve iş türüyle listeler. Girişten her hedefe ardışık fotoğraf, kapı-koridor ölçüsü, hedef kotu, yatay engel, taban yüzeyi ve sepette taşınacak alet-malzemeler paylaşılır. Üretimin hangi zamanda durabileceği, enerji izolasyonunu kimin yapacağı, forklift veya vinç gibi kesişen hareketler ve açık alanın hava bağımlılığı yazılır. Makine birkaç vardiya kalacaksa park, şarj ve yetkili kullanıcı düzeni de dosyanın parçasıdır.",
+                    "Bu bilgilerle her hedef erişim diyagramına oturtulur ve bölüm sırası çıkarılır. Tek bir ünitenin bütün listeyi kapatamaması kusur değildir; bunu sahada öğrenmek kusurdur. Gerekli sınıflar, taşıma, kullanım süresi, operatör seçeneği ve bekleme koşulu teklif içinde ayrılır. Varsayımlar açık yazılır. Üretim yerleşimi veya hedef listesi değişirse etkisi yeniden değerlendirilir; eski teklif yeni saha düzenine otomatik uygulanmaz.",
+                ],
+            },
+            {
+                baslik: "Vardiya devri ve tesis hafızası",
+                paragraflar: [
+                    "Birden fazla vardiyada park alanı, şarj durumu, tamamlanan hücreler, açık izinler ve makinenin günlük kontrol sonucu yazılı devredilir. Önceki vardiyanın bariyeri veya güvenli koridoru yeni vardiyada otomatik geçerli sayılmaz; üretim ve istif düzeni değişmiş olabilir. Yetkili kullanıcı lastik, korkuluk, kumanda, acil indirme, alarm ve görünür sızıntıyı kontrol eder. Olağan dışı durumda makine kullanılmaz ve servis zinciri başlatılır; yetkisiz onarım yapılmaz.",
+                    "Kapanış kayıtları sonraki bakım programının başlangıç verisidir. Hangi park noktasının çalıştığı, hangi hedefin farklı sınıf istediği, hangi izin veya malzemenin gecikme yarattığı not edilir. Bu bilgi belirli modeli kalıcı garanti etmez; parsel düzeni değişebilir. Sonraki talepte güncel fotoğrafla karşılaştırılır ve yalnız koşullar aynıysa önceki eşleşme kullanılır. Tekil tesise özel program böylece her seferinde sıfırdan kurulan bir tahmin olmaktan çıkar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Pazaryeri ilçe sayfasındaki makine önerisi OSB tesisimiz için geçerli mi?",
+                cevap:
+                    "İlçe genelindeki profil yalnız başlangıç bağlamıdır; kesin sınıf oluşturmaz. OSB parselinizin kapısı, iç dönüşü, zemini, hedef kotu, yatay engelleri, üretim ekipmanı ve vardiya trafiği ayrı ölçülür. Aynı ilçedeki iki tesis bile farklı manevra ve enerji koşulu sunabilir. Bu yüzden fotoğraf ve ölçüleri erişim diyagramıyla karşılaştırırız. İlçe turunda kullanılan kompakt makine sizin bütün listenize yetmeyebilir; tersine büyük bir sınıf dar koridorda iş üretemeyebilir. Teklif, tekil tesisin doğrulanmış hedeflerine dayanır ve hangi varsayımın kullanıldığını açıkça gösterir.",
+            },
+            {
+                soru: "Makine gün içinde başka bir işletmeye gider mi?",
+                cevap:
+                    "Tekil tesis programı için ayrılan kullanım penceresinde, sözleşilmiş kapsam ve süre boyunca başka işletmeye rastgele kaydırılmaz. Bunun nedeni yalnız lojistik değildir; her çıkış ve dönüşte teslim, temizlik, güzergâh ve izin düzenini yeniden kurmak gerekir. Programınız erken biter ve teknik kapanış tamamlanırsa iade veya sonraki görev ayrı planlanabilir. Bekleme veya esnek kullanım koşulu varsa bu teklif aşamasında açıkça yazılır. İlçe genelindeki ortak tur modeliyle tekil OSB programını karıştırmayız; hangi modelin fiyatlandığı ve sorumluluğun ne zaman devredildiği belgede görünür.",
+            },
+            {
+                soru: "Üretimi tamamen durdurmadan çalışabilir misiniz?",
+                cevap:
+                    "Fiziksel ve enerjisel olarak ayrılabilen hücrelerde tesisin geri kalanı çalışabilir. Ancak manliftin bom-sepet zarfı, alt düşme bölgesi ve komşu araç hareketi kontrol altına alınmalıdır. Çalışılan ekipmanın enerji ve beklenmedik hareket kaynakları tesis yetkilisi tarafından izole edilir. Forklift, vinç, askılı yük veya personel aynı hücreye girmez. Alan güvenle ayrılamıyorsa ilgili bölüm durdurulur veya iş daha uygun vardiyaya taşınır. Birkaç koni koyup üretim trafiğinin sepet altından sürmesi kabul edilmez. Her hücre teknik teslimden sonra yeniden açılır.",
+            },
+            {
+                soru: "Son dakika çıkan işi aynı kiralamaya ekleyebilir miyiz?",
+                cevap:
+                    "Teknik olarak mümkünse eklenebilir, fakat mevcut iznin otomatik parçası değildir. Yeni hedefin erişim geometrisi, enerji kaynakları, alt alanı, malzemesi ve program kapanışına etkisi değerlendirilir. Aynı sınıf ve hazır hücreyle kapanıyorsa iş paketi güncellenir. Başka makine, uzun hazırlık veya yeni duruş gerektiriyorsa ayrı programa alınması daha doğru olabilir. Kritik listede bekleyen işleri riske atarak düşük öncelikli hedefe geçmeyiz. Değişiklik yazılı kayda girer; süre ve maliyet etkisi onaylanmadan program görünmez biçimde uzatılmaz.",
+            },
+            {
+                soru: "İki farklı manlift sınıfı gerekirse saha nasıl yönetilir?",
+                cevap:
+                    "Her ünitenin iş paketleri, giriş zamanı, park alanı ve çalışma hücresi ayrı planlanır. Aynı dar alanda bom zarfları veya taşıma araçları çakışıyorsa eş zamanlı giriş yapılmaz. Temiz kapalı hacim ve dış saha gibi ortamlar da sırayı etkiler. Birinci sınıf kendi paketlerini teslim eder, gerekiyorsa sahadan çıkar ve ikinci ünitenin rotası açılır. Her makine için yetkili kullanıcı, günlük kontrol ve şarj-yakıt düzeni belirlenir. Çoklu ekipman otomatik hız sağlamaz; hazırlık doğruysa paralel, kesişme varsa ardışık çalışma verimli olur.",
+            },
+            {
+                soru: "Program tamamlanınca makine ne zaman iade edilir?",
+                cevap:
+                    "Bütün hedeflerin teknik kabulü, alet-parça sayımı, açık izinlerin güvenli kapanışı ve makine durum kontrolü tamamlandığında iade kapısı açılır. Yarım iş varsa güvenli durumu ve yeni ihtiyacı yazılı kaydedilir; yalnız bakım ekibi sahadan ayrıldı diye ünite çekilmez. Tesis yükleme veya çıkış alanını diğer trafikten ayırır. Uzatma isteniyorsa sonraki rezervasyon ve teknik uygunluk görülerek yazılı karar alınır. İade anında fotoğraf, şarj veya yakıt ve görünür durum teslim kaydıyla karşılaştırılır. Böylece tekil programın sorumluluğu belirsiz biçimde açık kalmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Pazaryeri OSB’nin varlığı ve karma sanayi bağlamı uygulama belgesindeki kamuya açık genel çerçevedir; tekil tesis keşfi, hücre bazlı çalışma, vardiya devri ve kapanış kapısı sektör geneli saha pratiğidir. Özel tesis, firma, üretim kapasitesi, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:inhisar": {
+        h1: "Osmaneli Aksından İnhisar’a Planlı Platform Servisi",
+        giris:
+            "İnhisar’a platform servisini il merkezi üzerinden verilmiş genel bir erişim sözüyle değil, Osmaneli yönünde kurulu iş programının kuzey ilçelere uzatılmasıyla planlarız. Bu sayfa ilçenin nüfus ölçeğini veya ‘her koşulda erişim’ taahhüdünü anlatmaz; odağı, bir makinenin ana programdan ayrılıp İnhisar’daki doğrulanmış hedefe nasıl ulaşacağı, sahada hazırlıksız beklemeden işi nasıl kapatacağı ve tekrar aksa nasıl döneceğidir. Tekil bir aydınlatma, çatı, depo veya yapı bakım talebi kısa sürebilir, fakat rota, taşıma ve saha kurulumu aynı hazırlığı ister. Bu yüzden iş listesi, tarih aralığı, giriş güzergâhı, zemin, hedef ölçüsü ve yerel sorumlu önceden tek kartta toplanır. Osmaneli tarafındaki kesin tarihli iş önce sabitlenir; İnhisar servisi uygun makine ve gerçek çalışma süresi doğrulandığında güzergâha eklenir. Acil talep ayrı değerlendirilir ve tutulamayacak varış sözü verilmez. Planlı modelin avantajı, sevkiyat yükünü tek kısa işin üzerine bırakmadan kuzeye uzanan düzenli bir servis günü oluşturmaktır.",
+        maddeler: [
+            {
+                baslik: "Aks programına uygun tarih aralığı",
+                metin:
+                    "İnhisar’daki ertelenebilir iş için tek bir saat yerine uygulanabilir bir tarih aralığı alınır. Osmaneli yönündeki kesin duruş veya uzun depo işi önce takvime yerleşir; İnhisar hedefi aynı makinenin uygun olduğu günün başına ya da sonrasına bağlanır. Bu esneklik müşterinin habersiz beklemesi anlamına gelmez. Servis günü kesinleştiğinde varış penceresi, irtibat kişisi ve saha hazırlığı yazılı paylaşılır. Ana iş uzarsa yeni durum erken bildirilir; güvenli dönüş payını tüketmek için İnhisar çalışması geceye itilmez. Tarihi kesin olan bir arıza veya izin penceresi varsa ortak tur yerine ayrı sevkiyatın gerekip gerekmediği açıkça değerlendirilir.",
+            },
+            {
+                baslik: "Uzak doğrulama paketiyle yanlış çıkışı önlemek",
+                metin:
+                    "Ekip yola çıkmadan hedefin yakın görüntüsüyle yetinmez. Ana yoldan son yaklaşım, giriş kapısı, dönme ve indirme alanı, eğim, zemin, üst engeller ve makinenin hedefe kadar izleyeceği rota ardışık fotoğraflanır. Hedef kotu, yatay mesafe ve en dar açıklık ölçülür. Yapılacak iş, sepette taşınacak malzeme, enerji izolasyonu ve alanın hangi saatte boş kalacağı belirtilir. Bilgi sınırdaysa canlı görüntü veya ön keşif istenir. Aks üzerindeki makine yalnız boş göründüğü için yönlendirilmez; teknik sınıfın İnhisar kartına uygunluğu doğrulanır. Yanlış ünitenin geri dönmesi, baştaki ölçümden daha pahalı ve yavaştır.",
+            },
+            {
+                baslik: "Yerel sorumlu ve hazır saha kuralı",
+                metin:
+                    "Servis aracının varışında kapalı kapı, park edilmiş araç, eksik malzeme veya bulunamayan yetkili beklememesi gerekir. İşletme ya da işveren bir yerel sorumlu belirler; bu kişi giriş alanını açar, çalışma hücresini teslim eder ve gerekiyorsa enerji izolasyonu için yetkili ekibi hazır tutar. Makine zemini ve bom zarfı operatör tarafından ayrıca kontrol edilir. Fotoğraftan sonra yağış, istif veya trafik değişmişse eski plana dayanarak yükselme yapılmaz. Saha hazır değilse ekip rastgele başka işe başlamaz; kartın eksik maddesi kaydedilir ve rota üzerindeki hazır programa döner. Yeni servis tarihi gereken koşulla birlikte belirlenir.",
+            },
+            {
+                baslik: "Kısa işi tek seferde kapatacak bakım listesi",
+                metin:
+                    "Tek bir armatür veya oluk işi için gelen makinenin aynı yapıdaki ertelenmiş hedefleri de kapatabilmesi toplam verimi artırır. Çatı kenarı, cephe, tabela, aydınlatma, kapı üstü veya depo içi gibi kalemler önceden listelenir; hepsinin aynı sınıfa uygun olduğu ölçüyle doğrulanır. Sahada son dakika hedef aramak yerine malzemeler çalışma sırasına göre hazırlanır. Her hücre bariyer ve gerekliyse enerji izolasyonuyla açılır. İş tamamlanınca alet-parça sayımı ve sorumlu kabulü yapılır. Listeyi büyütmek uğruna farklı makine veya uzun izin gerektiren bir hedef programa sıkıştırılmaz; o kalem sonraki uygun servise bırakılır.",
+            },
+            {
+                baslik: "Kuzey servisinden ana aksa güvenli dönüş",
+                metin:
+                    "Günün son işi açılmadan kalan çalışma, hava ve dönüş koşulu birlikte değerlendirilir. Sepetin yükselmesi kısa sürse bile bariyer, enerji teslimi ve kapanış için yeterli zaman bırakılmalıdır. İş bittiğinde bom ve ayaklar toplanır, makinenin görünür durumu kontrol edilir, malzeme sayılır ve alan yerel sorumluya teslim edilir. Bir sonraki aks işi için yakıt veya şarj, kullanıcı ve park koşulu teyit edilir. Makine İnhisar’da kalacaksa düz, korunaklı ve yetkisiz erişime kapalı nokta önceden belirlenmiş olmalıdır; aksi halde ana programa geri döner. Dönüş, haritada görünen boş zamana değil güvenli kapanışa bağlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Osmaneli-İnhisar servis kartı",
+                paragraflar: [
+                    "Kuzeye uzanan servis, her aşaması doğrulanmış bir kartla yürür. Tablo, kısa işin aks programına hangi koşulla bağlandığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "İnhisar bilgisi", "Aks kontrolü", "Karar"],
+                    satirlar: [
+                        ["Talep", "İş listesi ve tarih aralığı", "Mevcut program", "Uygun gün adayı"],
+                        ["Teknik eşleşme", "Kot, rota, zemin", "Mevcut makine sınıfı", "Uygunluk doğrulandı"],
+                        ["Varış hazırlığı", "Yerel sorumlu ve açık saha", "Önceki iş kapanışı", "Çıkış onayı"],
+                        ["Çalışma", "Hücre ve enerji teslimi", "Güvenli süre payı", "Liste sırayla kapanır"],
+                        ["Teslim", "Alet-parça ve alan kontrolü", "Sonraki görev hazırlığı", "Kart kapalı"],
+                        ["Dönüş veya park", "Güvenli koşul", "Aks takvimi", "Yeni sorumluluk devri"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ortak servis ile tekil sevkiyat arasındaki karar",
+                paragraflar: [
+                    "Tarihi esnek, kısa ve aks üzerindeki makine sınıfına uygun iş ortak servis için iyi adaydır. Müşteri tarih aralığı verir, rota ve saha paketi önceden tamamlanır. Böylece ayrı taşıma düzeni kurulmadan makine doğrulanmış bir uzantıya gider. Ancak kesin saatli duruş, acil güvenlik sorunu, farklı ekipman sınıfı veya uzun çalışma süresi ortak turun sınırlarını aşabilir. Böyle bir talebi programa sığdırıyormuş gibi göstermek yerine tekil sevkiyat ve gerçek maliyet açıkça sunulur.",
+                    "Karar yalnız mesafeye bakılarak verilmez. Önceki işin kapanış belirsizliği, İnhisar’daki güvenli çalışma süresi, dönüş veya gece parkı, operatör vardiyası ve hava koşulu birlikte görülür. Ortak servis seçildiğinde her müşterinin teklifi ve teslim kaydı ayrı kalır; paylaşılan lojistik sorumlulukları karıştırmaz. Tekil sevkiyatta ise makine doğrudan hedef programa ayrılır ve başka aks işine yetişme varsayımı yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Servis tekrarını azaltan kapanış kaydı",
+                paragraflar: [
+                    "İş bitiminde tamamlanan hedefler, erişilemeyen noktalar, kullanılan park konumu, zemin ve varsa enerji izolasyonu kaydedilir. Eksik kalemin nedeni malzeme, makine sınıfı, hava veya saha hazırlığı olarak açık yazılır. Bu kayıt bir sonraki servis için doğru sınıf ve süreyi belirler. Belirli bir makinenin her zaman uygun olacağı garantisi değildir; yapı ve yol koşulu değişebilir. Yeni talepte güncel fotoğrafla karşılaştırma yapılır.",
+                    "Yerel sorumlu alanın güvenli teslimini onaylar. Makine üzerinde olağan dışı durum varsa ana aksa çalışmaya gönderilmez; kullanım durdurulur ve servis süreci başlatılır. Yakıt, şarj, temizlik ve sonraki işin malzemesi kontrol edilir. Bu disiplin, kuzey servisinin yalnız ‘uğranmış’ bir adres değil, kendi başlangıç ve bitiş kanıtı bulunan tamamlanmış iş olmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İnhisar talebimizi Osmaneli programına nasıl ekletebiliriz?",
+                cevap:
+                    "Önce iş listesini ve uygulanabilir tarih aralığını paylaşın. Hedef kotu, yatay engel, giriş güzergâhı, zemin ve çalışma alanı fotoğraflarıyla teknik kart hazırlanır. O dönemde Osmaneli aksında bulunan makinenin sınıfı ve boşluğu bu karta uygunsa servis günü önerilir. Tarih kesinleşince yerel sorumlu ve varış penceresi yazılı bildirilir. Programın önceki işi uzarsa durum erken paylaşılır; güvenli süre kalmıyorsa hedef geceye itilmez. Farklı sınıf veya kesin duruş saati gerekiyorsa ortak tur yerine tekil sevkiyat seçeneği sunulur.",
+            },
+            {
+                soru: "Kısa bir iş için kesin aynı gün hizmet garantisi veriyor musunuz?",
+                cevap:
+                    "Hazırlık ve kapasite doğrulanmadan böyle bir garanti vermeyiz. Planlı serviste belirlenen gün ve varış penceresine bağlı kalırız, fakat önceki işin güvenli kapanışı, hava, yol ve ekipman durumu gerçek koşullardır. Acil talepte müsait sınıf, operatör ve rota kontrol edilir; mümkün olan en gerçekçi zaman paylaşılır. Tutulamayacak bir söz vermek, yerel ekibi ve malzemeyi boş yere bekletir. Kesin saat zorunluysa makinenin yalnız sizin programa ayrıldığı tekil sevkiyat daha uygun olabilir. Karar ve maliyet etkisi baştan görünür olur.",
+            },
+            {
+                soru: "Saha fotoğrafları neden bu kadar ayrıntılı olmalı?",
+                cevap:
+                    "Hedefin yakın fotoğrafı yalnız yapılacak işi gösterir; makinenin oraya nasıl ulaşacağını göstermez. Ana yaklaşım, giriş, dönüş, en dar kapı, eğim, zemin, üst engel ve sert park noktası görülmelidir. Hedef kotu ile park yerinden yatay mesafe ölçülür. Aks üzerinde bulunan bir makine yükseklik olarak yeterli olsa da kapıdan geçmeyebilir veya engelin arkasına uzanamayabilir. Ayrıntılı paket yanlış çıkışı önler. Bilgi değişmişse saha günü operatör yeniden değerlendirir; fotoğraf güvenlik kontrolünün yerine değil, hazırlığına hizmet eder.",
+            },
+            {
+                soru: "Makine geldiğinde iş alanı hazır değilse ne olur?",
+                cevap:
+                    "Yerel sorumlu ile eksik koşul belirlenir. Park edilmiş araç, kapalı giriş, eksik izolasyon veya hazır olmayan malzeme kısa sürede güvenle çözülebiliyorsa programdaki pay içinde beklenebilir. Belirsiz gecikmede ekip ana aks üzerindeki hazır işine döner; sahada rastgele başka hedef açılmaz. İnhisar kartı, eksik maddesi ve yeni hazırlık koşuluyla yeniden planlanır. Ortak servisin verimi bütün müşterilerin söz verilen saatte hazır olmasına bağlıdır. Gecikmenin sözleşme ve yeni sevkiyat etkisi açıkça bildirilir; güvenlik adımı zaman kazanmak için atlanmaz.",
+            },
+            {
+                soru: "Aynı serviste birkaç yapımızdaki işleri birleştirebilir miyiz?",
+                cevap:
+                    "Birleştirmek çoğu zaman verimlidir, ancak her hedefin aynı makineye uygunluğu doğrulanmalıdır. Yapılar için ayrı rota, kapı, zemin, kot, yatay engel ve enerji bilgisi toplanır. Malzemeler durak sırasına göre hazırlanır. Aynı işletme sahasında bile temiz kapalı hacim ile dış veya kirli alanın sırası planlanır. Başka sınıf isteyen hedef sırf makine gelmişken zorlanmaz; sonraki uygun programa ayrılır. Her yapı tamamlandığında alet-parça sayımı ve sorumlu kabulü yapılır. Böylece liste büyürken teslim ve sorumluluk bulanıklaşmaz.",
+            },
+            {
+                soru: "İş uzarsa makine İnhisar’da kalabilir mi?",
+                cevap:
+                    "Yalnız sonraki rezervasyon uygun, uzatma yazılı onaylı ve güvenli park koşulu hazırsa kalabilir. Park alanı düz, taşıma gücü uygun, korunaklı ve yetkisiz erişime kapalı olmalıdır. Akülü ünitede kuru ve güvenli şarj düzeni gerekir; kablo araç veya yaya yoluna bırakılmaz. Yetkili kullanıcı ve vardiya başı kontrol sorumluluğu belirlenir. Bu koşullar yoksa makine ana programa geri döner ve kalan iş yeni servis gününe alınır. İşin uzaması otomatik olarak açık uçlu kiralama veya kontrolsüz gece parkı anlamına gelmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İnhisar’ın Bilecik’in kuzey ilçeleri arasında yer alması ve Osmaneli aksından servis yaklaşımı uygulama belgesindeki genel coğrafi çerçevedir; rota kartı, yerel sorumlu, ortak servis ve kapanış kaydı sektör geneli saha pratiğidir. İlçenin büyüklüğüne ilişkin iddia, koşulsuz erişim taahhüdü, özel tesis, mesafe, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

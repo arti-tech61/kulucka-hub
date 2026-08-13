@@ -712,4 +712,300 @@ export const BILECIKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İnegöl'ün mobilya ve ahşap işleme ağırlıklı sanayi kimliği ile Bilecik'e karayolu komşuluğu kamuya açık genel bilgidir; dönemsel program mantığı, koridor bazlı depo düzenleme ve toz-solvent ortamı çalışma koşulları firma saha pratiği ile tesislerin kendi izin sistemlerinden gelir. Tesis adı ve rakam verilmemiştir.",
     },
+    "bolge:bilecik-kucuk-sanayi-sitesi": {
+        h1: "Bilecik Küçük Sanayi Sitesinde Karma İşler İçin Platform Kiralama",
+        giris:
+            "Bilecik Küçük Sanayi Sitesinde platform talebi tek bir üretim hattına veya yeni dükkân imalatına indirgenemez. Aynı blokta araç ya da makine bakım atölyesi, metal işi yapan dükkân, küçük depo, yedek parça alanı ve ticari cephe bulunabilir; yüksekte kalan kalemler de tabela, oluk, çatı ışıklığı, aydınlatma, hava hattı, kapı motoru, raf üstü ve dış ünite çevresi gibi karma bir liste oluşturur. Bu sayfanın B10 ve B12 kardeşlerinden ayrımı tam olarak budur: OSB'den servis rotasını ya da yeni genişleme yapısını değil, faal KSS dükkânlarında farklı iş türlerini tek güvenli turda yönetmeyi anlatır. Makine sınıfı bütün site adına seçilmez. Her dükkânın kapısı, iç koridoru, hedefin altındaki tezgâh, ortak yol kullanımı, kıvılcım veya boya faaliyeti ve çalışma saati ayrı görülür. Kompakt akülü sınıf dar iç hacimde uygun olabilir; cephe ya da çatı kenarında yatay uzanma gereken iş farklı bom geometrisi isteyebilir. Ortak tur, tek makineyi her koşula zorlamak değil, uyumlu işleri birleştirip uyumsuzları açıkça ayırmaktır. Böylece kısa işler için taşıma payı azalırken her işletmenin izni, teslimi ve sorumluluğu kendi sınırında kalır.",
+        maddeler: [
+            {
+                baslik: "Dükkân içi aydınlatma ve tesisat erişimi",
+                metin:
+                    "Kapıdan hedefe rota, tavan yüksekliğinden önce ölçülür. Eşik, ilk dönüş, tezgâhlar arası koridor, zemindeki kanal ve platformun açılacağı taban fotoğraflanır. Aydınlatma, hava hattı veya kablo tavasının altında çalışan tezgâh varsa enerji ve hareket tesis yetkilisince güvenli duruma getirilir. Sepet tezgâha dayanmaz ve platform ağır parçayı kaldırmak için kullanılmaz. Kapalı hacimde egzoz üretmeyen kompakt sınıf değerlendirilir. Geçiş yaratmak için korkuluk veya güvenlik bileşeni rastgele sökülmez; ölçü yetmiyorsa başka sınıf ya da yöntem seçilir.",
+            },
+            {
+                baslik: "Kaynak, taşlama ve boya faaliyetinden alan ayırmak",
+                metin:
+                    "KSS içinde komşu veya aynı dükkânda sıcak iş, taşlama, boya ya da solvent kullanımı sürebilir. Platformun çalışma hücresi bu etkilerle kesişiyorsa ilgili faaliyet durdurulur veya bakım başka saate alınır. Birkaç koni fiziksel ayrım için yeterli olmayabilir; kıvılcım yönü, havalandırma ve yanıcı malzeme tesisin risk değerlendirmesiyle ele alınır. Sepette sıcak iş yapılacaksa alt alan boşaltılır ve iş izni uygulanır. Platform firması ortam sınıfı üretmez; işletmenin beyanı ve güvenli çalışma prosedürü olmadan riskli atmosferde çalışmaya başlamaz.",
+            },
+            {
+                baslik: "Ortak yolda cephe, tabela ve oluk işi",
+                metin:
+                    "Dükkân cephesindeki iş, komşu giriş ve site içi araç yolunu etkileyebilir. Bariyer yalnız makine tabanına değil sepetin hareket zarfı ve düşebilecek parça alanına göre kurulur. İş saati bloktaki işletmelerle önceden paylaşılır, alternatif geçiş belirlenir ve acil yol kapatılmaz. Sepetten uzun tabela, panel veya ağır dış ünite kaldırılmaz; malzeme uygun ekipmanla ayrı taşınır. Cephe tamamlanınca gevşek parça ve bağlantılar kontrol edilir, sepet tamamen toplanmadan yol açılmaz. Bir dükkândaki gecikme ortak yolu belirsiz süre kapatamaz.",
+            },
+            {
+                baslik: "Küçük depo ve raf üstü bakımını ayrı hücrelemek",
+                metin:
+                    "Atölye arkasındaki depoda istif, raf koridoru ve malzeme arabaları manevra alanını daraltabilir. Taşan koli veya gevşek parça işletme tarafından kaldırılır; rafın taşıyıcı elemanı platforma dayanak yapılmaz. Çalışılan koridorda yük ve yaya hareketi durur. Hedef doğrudan üstteyse kompakt makaslı, raf veya tezgâh arkasına uzanma varsa küçük eklemli seçenek ölçülür. Sepet ürün toplama aracı değildir. İş sonunda el aleti ve sökülen parça sayılır, raf çevresi depo sorumlusu görmeden yeniden kullanıma açılmaz.",
+            },
+            {
+                baslik: "Karma listeyi makine ailesi ve ortam sırasına göre dizmek",
+                metin:
+                    "Aynı gün birkaç dükkân dolaşılacaksa sıra yalnız adres numarasıyla kurulmaz. Temiz kapalı hacimler, tozlu veya yağlı atölyeler ve dış cephe işleri ayrı gruplara ayrılır. Aynı sınıfın güvenle yaptığı kalemler arka arkaya alınır; dışarıdan içeri dönüşte teker ve alt takım yeniden kontrol edilir. Her işletme malzemesini, teknik yetkilisini ve boş çalışma alanını kendi saatinden önce hazır eder. Hazır olmayan nokta bütün turu bekletmez. Atlanan iş rastgele saate sıkıştırılmaz; yeni, onaylı pencereye yazılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "KSS karma iş yükü ve erişim eşleştirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli dükkân envanteri değildir; Bilecik Küçük Sanayi Sitesinde gerçek talep geldiğinde karma iş listesini erişim ve saha hazırlığına göre ayırmak için kullanılan genel çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["İş alanı", "Yüksek kalem", "Ana kısıt", "Yaklaşım"],
+                    satirlar: [
+                        ["Dar atölye", "Aydınlatma ve hava hattı", "Kapı, tezgâh, enerji", "Kompakt akülü, hücre ayrımı"],
+                        ["Sıcak iş çevresi", "Emiş ve çatı altı", "Kıvılcım, boya, atmosfer", "Faaliyeti ayır, izin al"],
+                        ["Küçük depo", "Raf ve üst tesisat", "İstif, koridor", "Yük hareketini durdur"],
+                        ["Dükkân cephesi", "Tabela, oluk, kaplama", "Ortak yol", "Bom zarfını bariyerle"],
+                        ["Ortak açık alan", "Aydınlatma ve kamera", "Araç-yaya trafiği", "Site düzeniyle pencere aç"],
+                    ],
+                },
+            },
+            {
+                baslik: "Blok turu öncesi her dükkândan istenecek paket",
+                paragraflar: [
+                    "Her işletme giriş kapısını, hedefi ve aradaki rotayı geniş açıyla fotoğraflar; en dar açıklık, hedef kotu, yatay engel ve kullanılabilir taban ölçülür. Yapılacak iş, sepete çıkacak alet, enerji kesme yetkilisi, atölyenin hangi saat boşalacağı ve ortak yolun durumu bildirilir. Yalnız 'bir lamba değişecek' bilgisi sınıf seçimine yetmez. Aynı blokta olmak, kapı ve zeminlerin aynı olduğu anlamına gelmez.",
+                    "Toplanan kartlar makine ailesine ve ortam sırasına göre dizilir. Bir atölye sıcak işi durduramıyorsa temiz kapalı hacimle aynı saate alınmaz. Cephe işi için komşu giriş bilgisi ayrıca kontrol edilir. Tur başlamadan her adresin sorumlusu teyit edilir. Makine kapıda beklerken malzeme veya anahtar aramak kısa işin taşıma avantajını ortadan kaldırır.",
+                ],
+            },
+            {
+                baslik: "Ortak turda ayrı teslim ve maliyet şeffaflığı",
+                paragraflar: [
+                    "Makinenin aynı gün farklı işletmelerce kullanılması tek bir ortak sorumluluk doğurmaz. Her dükkân kendi çalışma alanını güvenli teslim eder, kendi iş emrini ve süre kaydını alır. Operatörlü modelde kullanıcı değişmez; operatörsüz modelde her işletmenin yetkili kullanıcısı ayrıca doğrulanmalıdır. Bir işletmenin malzemesi veya izni eksikse diğerinin zamanı otomatik olarak ona yazılmaz.",
+                    "Teklifte taşıma, operatör ve kullanım payının nasıl ayrıldığı görünür olur. Ortak turun avantajı sevkiyatın paylaşılması ve geçişlerin planlanmasıdır; güvenlik adımlarının azaltılması değildir. Gün sonunda tamamlanan ve açık kalan işler işletme bazında kapanır. Makine düz, korunaklı alanda iade için hazırlanır; ortak yol yükleme sırasında yeniden ayrılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "KSS'deki birkaç dükkân aynı platformu aynı gün kullanabilir mi?",
+                cevap:
+                    "Makine sınıfı, zemin ve tarihler uyuyorsa planlı bir blok turu kurulabilir. Her dükkân hedef fotoğrafını, ölçüsünü, malzemesini, enerji yetkilisini ve uygun saatini önceden bildirir. Sıra ortam ile makine ailesine göre kurulur; bir iş teslim edilmeden diğerine geçilmez. Her işletmenin teklif ve teslim kaydı ayrıdır. Hazır olmayan adres bütün programı bekletmez. Ortak kullanım, yetkisiz kişinin makineyi devralması veya çalışma alanlarının birbirine karışması anlamına gelmez.",
+            },
+            {
+                soru: "Atölye kapımız dar; sığacak makineyi nasıl belirliyorsunuz?",
+                cevap:
+                    "Kapının net eni ve yüksekliği başlangıçtır. Eşik, kapı kanadı, ilk dönüş, tezgâhlar arası koridor, üst engeller ve çalışma alanı da ölçülür. Makinenin taşıma konumu ile dönüş ihtiyacı teknik veriden kontrol edilir. Girişten hedefe ardışık fotoğraf gönderildiğinde kompakt seçenekler elenebilir. Korkuluk veya güvenlik parçası yalnız üreticinin izin verdiği düzende katlanabilir; rastgele sökülmez. Ölçü sınırdaysa fiziksel keşif yapılır veya başka erişim yöntemi önerilir.",
+            },
+            {
+                soru: "Kaynak ve taşlama sürerken tavan bakımı yapılabilir mi?",
+                cevap:
+                    "Aynı hücrede kıvılcım, sıcak parça veya duman platformu ve sepetteki kişiyi etkiliyorsa yapılmaz. İlgili sıcak iş durdurulur, fiziksel olarak ayrılır veya platform işi farklı saate alınır. Sepette sıcak iş yapılacaksa tesisin izin süreci, yangın önlemi ve alt alan boşaltması uygulanır. Boya veya solvent bulunan ortamda işletmenin risk değerlendirmesi gerekir. İşin kısa olması atmosfer ve enerji koşullarını önemsiz hâle getirmez. Güvenli ayrım yoksa faaliyetler aynı anda yürütülmez.",
+            },
+            {
+                soru: "Platformla raflara parça veya ürün yerleştirebilir miyiz?",
+                cevap:
+                    "Hayır. Yükseltilebilir çalışma platformu personel ve izin verilen el aletlerinin erişimi içindir; ürün toplama, raf besleme veya ağır parça kaldırma ekipmanı değildir. Sepete dışarı taşan yük bağlanmaz ve raf platforma dayanak yapılmaz. Raf bakımında koridor boşaltılır, yük hareketi durur ve yalnız bakım personeli yükselir. Ürün veya parça elleçleme uygun depo ya da kaldırma ekipmanıyla ayrı yürütülür. İki işi birleştirmek sepet dengesi ile istif güvenliğini belirsiz hâle getirir.",
+            },
+            {
+                soru: "Tek bir tabela işi için ayrı sevkiyat yapılır mı?",
+                cevap:
+                    "Yapılabilir, ancak taşıma payı teklifte açık görünür. Önce aynı dükkânda bekleyen oluk, aydınlatma, kapı motoru, iç tesisat veya raf bakımını toplamanızı öneririz. Tarih esnekse aynı blokta ölçüsü ve sınıfı uyumlu başka işler programa eklenebilir. Acil güvenlik riski tekil olarak ele alınır. Ekonomik model, fiyatı gizlemek değil tek iş ve ortak tur seçeneklerini kapsamlarıyla yan yana göstermektir.",
+            },
+            {
+                soru: "Ortak yolda çalışma sırasında komşu işletmeler açık kalabilir mi?",
+                cevap:
+                    "Sepet zarfı ve düşen parça alanı komşu girişten fiziksel olarak ayrılabiliyorsa bazı işletmeler açık kalabilir. Bariyer planı önceden paylaşılır, alternatif araç-yaya rotası belirlenir ve acil yol kapatılmaz. Dar alanda güvenli ayrım kurulamıyorsa ilgili bölüm kısa süre kapatılır veya iş daha sakin saate alınır. Yalnız makine tabanına koni koymak yeterli değildir. Yol, sepet tamamen toplanıp bağlantılar kontrol edilmeden yeniden açılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bilecik Küçük Sanayi Sitesinin varlığı uygulama belgesindeki kamuya açık genel bilgidir; belirli dükkân, işletme, üretim, kapasite ve doğrulanmamış rakam kullanılmamıştır. Karma iş turu, ortak yol, enerji ayrımı ve ayrı teslim düzeni sektör geneli saha pratiğidir.",
+    },
+
+    "bolge:golpazari": {
+        h1: "Gölpazarı'na Bilecik Merkez Üzerinden Planlı Platform Servisi",
+        giris:
+            "Gölpazarı için bu sayfanın odağı ilçenin sektör envanteri değil, Bilecik merkezde hazırlanan doğru platformun uzak ilçe işine tek seferde ulaştırılması ve güvenli biçimde geri alınmasıdır. Mevcut merkez sayfasındaki depo yatırımı, yerel filo veya hızlı proje desteği cümlelerini tekrar etmiyoruz. Buradaki servis zinciri talebin merkezde teknik olarak doğrulanmasıyla başlar: hedef kotu, yatay engel, kapı, zemin, indirme alanı, yapılacak iş, enerji yetkilisi ve ilçedeki çalışma penceresi tek dosyada toplanır. Uygun sınıf merkezde kontrol edilir, taşıyıcı rotası ile saha irtibatı kesinleştirilir ve makine ilçeye yalnız hazırlık kapısı kapandıktan sonra çıkar. İş birkaç vardiya sürecekse güvenli park ve şarj, tek günse gerçekçi dönüş zamanı planlanır. Belirli bir tesis, kamu kurumu ya da ekonomik faaliyet varsaymadan çelik çatılı yapı, depo, atölye, kamu veya ticari bina gibi talepte doğrulanabilecek farklı alanlara aynı lojistik çerçeve uygulanır. Uzak ilçe hizmetinin güvencesi hız iddiası değil, ikinci sevkiyatı gerektirecek eksikliği merkezden çıkmadan bulmaktır.",
+        maddeler: [
+            {
+                baslik: "Talebi Bilecik merkezde teknik karta dönüştürmek",
+                metin:
+                    "Telefonla yalnız yükseklik almak yeterli değildir. Girişten hedefe fotoğraflar, en dar geçiş, hedef kotu, yatay uzaklık, zemin, kanal veya rampa, taşıyıcı indirme alanı ve çalışma saatindeki trafik kayda alınır. Yapılacak işin malzemesi, enerji veya hareket izolasyonunu yapacak kişi ve alt alanın nasıl boşaltılacağı belirtilir. Bu kart, makine sınıfı ile servis planının ortak kaynağıdır. Bilgi çelişkiliyse canlı görüntü veya fiziksel keşif tercih edilir; ilçeye çıktıktan sonra tahminle sınıf değiştirilmez.",
+            },
+            {
+                baslik: "Taşıyıcı girişi ile platform rotasını ayırmak",
+                metin:
+                    "Makinenin çalışacağı alana kendi tahrikiyle ulaşabilmesi, taşıyıcı aracın aynı kapıdan girip dönebileceğini göstermez. Güvenli indirme noktası, yol genişliği, dönüş, eğim ve zemin ayrıca değerlendirilir. Platformun indirme noktasından hedefe ilerleyeceği rota yaya ve araç hareketinden ayrılır. Uzun veya kamu trafiğine açık yürüyüş otomatik kabul edilmez. Yağışla değişen dolgu yüzey teslim günü yeniden kontrol edilir. Taşıyıcı için uygun olmayan son kesit varsa daha küçük nakliye çözümü ya da başka indirme planı aranır.",
+            },
+            {
+                baslik: "İlçedeki farklı yapı işlerini tek bakım listesinde toplamak",
+                metin:
+                    "Aydınlatma, oluk, çatı ışıklığı, kapı üstü donanım, havalandırma ve cephe gibi yüksek işler aynı adreste bekliyor olabilir. Uygun sınıfla kapanan kalemler konum sırasına dizilir; dar iç mekân ile bozuk dış zemin aynı makineye uymuyorsa ayrım açıkça yapılır. Malzeme ve yetkili kişi platform gelmeden hazır olur. Yeni kalem sahada fark edilirse erişim, enerji ve süre açısından ayrıca değerlendirilir. Makine ilçede diye uygun olmayan hedefe zorlanmaz; açık kalem ve gerekli sınıf kayıtla sonraki plana bırakılır.",
+            },
+            {
+                baslik: "Sahada kalışta park, şarj ve günlük kontrol",
+                metin:
+                    "Birden fazla vardiyalık işte makinenin her akşam merkeze dönmesi gerekmez. İlçede düz, taşıma gücü uygun, araç trafiği ile yetkisiz erişimden ayrılmış park alanı belirlenir. Akülü model kuru ve havalandırılan noktada, kablosu yaya-araç yoluna taşmadan şarj edilir. Yetkilendirilmiş kullanıcı vardiya başında korkuluk, lastik, kumanda, görünür sızıntı ve alarm kontrolü yapar. Olağan dışı durumda kullanım durur, sahada yetkisiz onarım yapılmaz ve merkezdeki servis irtibatıyla karar verilir.",
+            },
+            {
+                baslik: "İş kapanışıyla dönüş aracını eşleştirmek",
+                metin:
+                    "Dönüş aracı tahmini bir bitişe göre kapıda bekletilmez, fakat son anda çağrılacak kadar belirsiz de bırakılmaz. Bakım sırası ve kapanış süresi üzerinden bir pencere planlanır. İş erken veya geç ilerliyorsa saha sorumlusu merkeze bilgi verir. Sepet boşaltılır, alet-parça sayılır, tamamlanan alan teknik sorumluya teslim edilir ve makinenin görünür durumu kaydedilir. Açık iş, dönüş saatini tutturmak için tamamlanmış gösterilmez. Yükleme alanı diğer trafikten ayrılıp makine güvenle bağlanınca servis zinciri kapanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gölpazarı servis zincirinin kontrol noktaları",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli tesis veya mesafe iddiası değildir; Bilecik merkezde başlayan bir Gölpazarı talebinin hazırlıktan iadeye kadar geçeceği genel kontrol noktalarını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Merkezde/sahada karar", "Gerekli veri", "Kapanış"],
+                    satirlar: [
+                        ["Talep doğrulama", "Makine ailesi", "Ölçü, fotoğraf, iş listesi", "Teknik kart onaylı"],
+                        ["Sevkiyat", "Taşıyıcı ve indirme", "Rota, zemin, irtibat", "Makine sahada kabulde"],
+                        ["Çalışma", "Hedef sırası", "Malzeme, izin, izolasyon", "Bölümler teslimde"],
+                        ["Sahada kalış", "Park ve şarj", "Yetkili kullanıcı, güvenli alan", "Günlük kontrol kaydı"],
+                        ["Dönüş", "İade ve yükleme", "Alet sayımı, açık iş", "İmzalı kapanış"],
+                    ],
+                },
+            },
+            {
+                baslik: "İkinci sevkiyatı önleyen hazırlık kapısı",
+                paragraflar: [
+                    "Makine ilçeye çıkmadan dört başlık kesin olmalıdır: erişim geometrisi, sahaya giriş rotası, işin hazır malzemesi ve güvenli çalışma izni. Bunlardan biri eksikse teslim tarihi yalnız takvimde görünür ama iş başlayamaz. Özellikle hedefin yatay uzaklığı ve taşıyıcının dönüş alanı yakın çekim fotoğraflarda kaybolur; geniş açı rota görüntüsü gerekir. Merkezde yapılan kontrol eksikse fiziksel keşif planlanır.",
+                    "Hazırlık kapısının amacı işi geciktirmek değil, uzak ilçede kapı önünde kalan makineyi önlemektir. Son değişiklik teslimden önce paylaşılır; yeni istif, kapalı kapı veya zemin değişikliği sınıfı etkiliyorsa plan güncellenir. Saha günü yine rota yürünür. Ön kabul, gerçek koşulun değişmeyeceğine dair garanti değil, bilinen sorunları yola çıkmadan kapatma yöntemidir.",
+                ],
+            },
+            {
+                baslik: "Tek gün ile çok vardiyalı modelin seçimi",
+                paragraflar: [
+                    "Hedefler az, malzeme hazır, izin penceresi kesintisiz ve rota netse tek günlük blok uygun olabilir. Yolculuk, saha kabulü, çalışma ve iade hazırlığı aynı güne sığacak gerçekçi sırada değerlendirilir; acele uğruna vardiya veya güvenlik sınırı uzatılmaz. Hava bağımlı dış iş, çok noktalı rota ya da belirsiz kurum erişimi varsa makinenin önce teslim edilmesi ve sahada kalması daha güvenli olabilir.",
+                    "Çok vardiyalı modelde gece parkı, şarj, anahtar muhafazası, kullanıcı devri ve merkez servis irtibatı yazılır. Hangi modelin ekonomik olduğu sabit süre iddiasıyla değil, doğrulanmış iş listesi ve taşıma planıyla gösterilir. İş erken biterse dönüş güncellenebilir; uzarsa otomatik devam varsayılmaz. Yeni süre ve sorumluluk yazılı olarak kararlaştırılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gölpazarı işi için mutlaka fiziksel keşif gerekir mi?",
+                cevap:
+                    "Her işte gerekmez. Girişten hedefe ardışık fotoğraflar, en dar geçiş, çalışma kotu, yatay uzaklık, zemin, indirme alanı ve iş listesi netse uzaktan ön seçim yapılabilir. Rota karmaşık, zemin belirsiz veya ölçü erişim diyagramının sınırındaysa fiziksel keşif gerekir. Yalnız arızalı noktanın yakın çekimi yeterli değildir. Teslim günü koşullar yeniden görülür; uzaktan keşif canlı saha kabulünün yerine geçmez. Ama doğru veri paketi gereksiz ön yolculuğu ve yanlış sınıf sevkiyatını azaltır.",
+            },
+            {
+                soru: "Makine Bilecik merkezden aynı gün gelip dönebilir mi?",
+                cevap:
+                    "İş listesi, taşıma penceresi, saha kabulü ve güvenli çalışma süresi uygunsa tek günlük model değerlendirilebilir; otomatik söz verilmez. Yol, indirme, izin, çalışma ve iade hazırlığı ayrı sürelerdir. İşin tamamı sıkışık bir vardiyaya zorlanmaz. Çok noktalı, hava bağımlı veya kesintili işte makinenin önce teslim edilmesi ve sahada kalması daha öngörülebilir olabilir. İki senaryo kapsam ve sorumluluklarıyla teklifte karşılaştırılır.",
+            },
+            {
+                soru: "Taşıyıcı parselimize giremezse platform kendi yürüyüşüyle ilerleyebilir mi?",
+                cevap:
+                    "Kısa, özel alan içinde kalan, yüzeyi ve trafiği doğrulanmış rotada mümkün olabilir. Mesafe, eğim, yol genişliği, makine üretici sınırı ve akü/yakıt etkisi değerlendirilir. Kamu yolu veya uzun belirsiz güzergâh otomatik kabul edilmez. Güvenli indirme noktası ile platform rotası ayrı planlanır. Uygun değilse daha küçük taşıma çözümü, farklı sınıf veya başka teslim noktası gerekir. Makinenin yürüyebilmesi, her rotanın yasal ve güvenli olduğu anlamına gelmez.",
+            },
+            {
+                soru: "Birkaç farklı binadaki işleri tek sevkiyatta bitirebilir miyiz?",
+                cevap:
+                    "Makine sınıfı, zemin ve tarih uyuyorsa mümkün olabilir. Her bina için hedef, giriş, yatay engel, enerji yetkilisi, malzeme ve saha sorumlusu önceden hazırlanır. Sıra en az geçişe göre kurulur. Dar iç hacim ile bozuk dış saha farklı sınıf istiyorsa tek makineyi zorlamayız; iki sınıf veya ayrı gün planlanır. Her adresin teslimi ve çalışma izni ayrıdır. Ortak sevkiyat, sorumlulukların birbirine devri anlamına gelmez.",
+            },
+            {
+                soru: "Makine ilçede gece kalırsa kim kontrol eder?",
+                cevap:
+                    "Tesis güvenli park, yetkisiz erişim önlemi ve gerekiyorsa uygun şarj noktası sağlar; kiralama tarafı teknik bakım ve arıza desteğini yürütür. Yetkilendirilmiş kullanıcı her vardiya öncesi görünür kontrol yapar. Korkuluk, lastik, kumanda, sızıntı veya alarmda olağan dışı durum varsa makine kullanılmaz. Anahtar ve kullanım yetkisi teslim kaydında belirlenir. Akülü ünitenin kablosu araç-yaya yolundan geçirilmez. Yeni vardiya, önceki günün güzergâh ve iznini otomatik kabul etmez.",
+            },
+            {
+                soru: "İş uzarsa veya erken biterse dönüş planı nasıl değişir?",
+                cevap:
+                    "Saha sorumlusu kapanış tahminindeki değişikliği merkeze mümkün olduğunca erken bildirir. Taşıyıcı uygunluğu kontrol edilir ve yeni pencere yazılı teyit edilir. Erken bitişte bile alet-parça sayımı, alan teslimi, makine kontrolü ve güvenli yükleme atlanmaz. Uzamada makinenin parkı, şarjı ve kullanıcı yetkisi sürdürülür; otomatik sınırsız uzatma kabul edilmez. Açık işlerin nedeni kaydedilir. Böylece bakım ekibi, taşıyıcı ve tesis aynı güncel plana göre hareket eder.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Gölpazarı'nın Bilecik ilçesi olması ve görevde uzak ilçeye il merkezi üzerinden servis çapası kamuya açık uygulama çerçevesidir. Belirli tesis, sektör, kurum, mesafe, süre, kapasite veya doğrulanmamış rakam kullanılmamıştır; teknik kart, sevkiyat, park ve iade zinciri sektör geneli planlama pratiğidir.",
+    },
+
+    "bolge:inhisar": {
+        h1: "İnhisar'a Ölçekten Bağımsız Platform Erişimi ve Servis Taahhüdü",
+        giris:
+            "İnhisar, uygulama belgesinde ilin en küçük ilçesi olarak tanımlanır ve bu sayfanın ana vaadi talep hacmi düşük diye bölgenin hizmet dışında bırakılmamasıdır. Bu taahhüt, her çağrıya aynı dakika teslim veya iş koşulları görülmeden sabit fiyat sözü anlamına gelmez. Anlamı şudur: güvenli ve teknik olarak uygun bir yüksek erişim ihtiyacı geldiğinde, hedef küçük bir kamu binası, işletme, depo, çelik çatı, ticari cephe veya kırsal yapı olsun, talep gerçek bir servis planına alınır; yalnız ilçenin ölçeği gerekçe gösterilerek reddedilmez. Küçük ilçede tek armatür ya da oluk işi taşıma payını büyütebilir. Bu nedenle tarih esnekliği, aynı adresteki kalemlerin toplanması ve yakın rota programıyla eşleştirme seçenekleri dürüstçe sunulur. Acil güvenlik riski varsa tekil sevkiyat da değerlendirilir. Makine seçimi nüfusa göre değil kapı, hedef, yatay engel, zemin ve çalışma alanına göre yapılır. Böylece İnhisar'a erişim taahhüdü pazarlama cümlesi olmaktan çıkıp talep alma, teknik doğrulama, gerçekçi zaman verme, güvenli teslim ve kapanış adımlarına bağlanır.",
+        maddeler: [
+            {
+                baslik: "Küçük talebi aynı ciddiyetle teknik olarak doğrulamak",
+                metin:
+                    "İş birkaç saatlik görünse de fotoğraf, ölçü ve saha koşulu atlanmaz. Hedef kotu, yatay engel, giriş, en dar rota, zemin, taşıyıcı indirme noktası ve çevre trafiği kayda alınır. İşin malzemesi ve enerji yetkilisi belirlenir. Uygun makine bulunmadığında sırf talep küçük diye eldeki farklı sınıf gönderilmez. Teknik kart tamamlanır ve gerçekçi servis seçeneği verilir. Bu yaklaşım ilçedeki müşteriyi belirsiz bekletmez; yapılabilir iş ile uygun olmayan koşul açıkça ayrılır.",
+            },
+            {
+                baslik: "Tek işi bakım listesine dönüştürmek",
+                metin:
+                    "Aynı yapıda bekleyen aydınlatma, oluk, havalandırma, kapı üstü, dış cephe, kamera veya çatı ışıklığı gibi kalemler bölüm sorumlularından toplanabilir. Hepsinin aynı makineye uygun olduğu varsayılmaz; erişim kartları karşılaştırılır. Uyumlu hedefler tek rota içinde kapanır, farklı zemin veya uzanma isteyenler ayrılır. Malzeme platform gelmeden hazır edilir. Böylece ilçeye yapılan sevkiyat tek arızaya değil, gerçek bakım ihtiyacına hizmet eder ve unutulan kalem için yeniden yolculuk ihtimali azalır.",
+            },
+            {
+                baslik: "Programlı rota ve tekil acil servis arasındaki fark",
+                metin:
+                    "Tarihi esnek, acil olmayan iş yakın bölgedeki uygun makine programına eklenebilir; taşıma payı ve bekleme buna göre dengelenir. Kesin gün isteyen veya güvenlik açısından bekleyemeyen arıza tekil servis olarak planlanabilir. İki modelin teslim zamanı, maliyet ve kapsam farkı açıkça gösterilir. Programlı rota garanti edilmeden müşteri bekletilmez; eşleşme yoksa alternatif tarih ya da tekil seçenek sunulur. Acil sözcüğü teknik uygunluk ve hava-zemin sınırlarını ortadan kaldırmaz.",
+            },
+            {
+                baslik: "Kırsal ve ilçe içi erişimi ayrı ölçmek",
+                metin:
+                    "İlçe merkezindeki bina işi dar sokak, yaya ve park düzeni isteyebilir; kırsal yapıda son yol, kapı, avlu zemini, eğim ve hava baskın olabilir. Aynı küçük ilçe etiketi iki sahayı aynı yapmaz. Taşıyıcının döneceği nokta ile platformun çalışma tabanı ayrı görülür. Yağış sonrası dolgu yüzey yeniden kontrol edilir. İç mekânda akülü kompakt sınıf, dış bozuk zeminde başka yürüyüş kabiliyeti gerekebilir. Tek makine hedefi güvenli sınırdan önce gelmez.",
+            },
+            {
+                baslik: "Servis taahhüdünü yazılı durum bilgisiyle sürdürmek",
+                metin:
+                    "Talep alındığında eksik bilgi, uygun sınıf, tahmini program ve sonraki karar müşteriye açıkça bildirilir. Makine hemen müsait değilse belirsiz 'bakacağız' cevabı yerine ilk gerçekçi pencere veya alternatif sunulur. Hava, zemin ya da izin nedeniyle tarih değişirse yeni durum yazılı paylaşılır. İş bitiminde tamamlanan ve açık kalan kalemler kaydedilir. Hizmet taahhüdü her koşulda işi yapmış görünmek değil; talebi kaybetmeden, güvenli biçimde sonuca veya gerekçeli alternatife ulaştırmaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İnhisar erişim taahhüdünün karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo ilçenin küçük ölçeğine rağmen bir talebin hangi yollarla gerçek servis planına dönüştürüldüğünü gösterir; belirli yapı veya işletme envanteri değildir.",
+                ],
+                tablo: {
+                    basliklar: ["Talep durumu", "Servis modeli", "Gerekli hazırlık", "Verilecek net cevap"],
+                    satirlar: [
+                        ["Esnek ve planlı iş", "Yakın rota programı", "Ölçü, fotoğraf, tarih aralığı", "Uygun eşleşme/tarih"],
+                        ["Tek adreste çok kalem", "Bakım turu", "Bölüm listesi ve malzeme", "Kapsayan makine sınıfı"],
+                        ["Kesin tarihli iş", "Tekil blok servis", "Saha ve izin hazır", "Teslim-kapanış penceresi"],
+                        ["Acil güvenlik arızası", "Öncelikli teknik değerlendirme", "Risk alanı ayrılmış", "En erken güvenli seçenek"],
+                        ["Uygun olmayan saha", "Alternatif yöntem/tarih", "Zemin veya rota düzeltmesi", "Gerekçeli çözüm"],
+                    ],
+                },
+            },
+            {
+                baslik: "Talep hacmi düşük bölgede kapasiteyi dürüst yönetmek",
+                paragraflar: [
+                    "Bir makineyi belirsiz süre boşta tutmak mümkün değildir, fakat bu gerçek küçük ilçeyi servis dışı bırakmayı gerektirmez. Talep teknik olarak doğrulandıktan sonra gerekli sınıfın bölgesel programı incelenir. Tarih esnekliği varsa uygun geçişe bağlanır; kesin gün gerekiyorsa tekil taşıma fiyatlanır. Eşleşme ihtimali düşükse müşteriye erken söylenir ve gerçekçi alternatif sunulur.",
+                    "Aynı adresteki bakım listesini büyütmek, taşımayı daha verimli kılar. Farklı müşterileri ortak programa almak mümkünse sözleşme ve sorumluluklar ayrı tutulur. Hiçbir müşteriye kesinleşmemiş rota garanti edilmez. Taahhüdün ölçüsü, talebin kayda alınması, durumun görünür tutulması ve uygun çözüm bulunana kadar gerekçeli seçenek sunulmasıdır.",
+                ],
+            },
+            {
+                baslik: "Uzak küçük işte kapanış ve sonraki ziyaret hafızası",
+                paragraflar: [
+                    "İlk ziyarette giriş rotası, uygun park konumu, zemin kısıtı, kullanılan makine ailesi ve tamamlanamayan hedefler kaydedilir. Bu veri sonraki talebi hızlandırır, fakat saha düzeninin değişmediği varsayılmaz. Yeni yapı, istif, yağış veya yol durumu güncel fotoğrafla kontrol edilir. Kullanılan model güçlü referanstır; otomatik garanti değildir.",
+                    "Kapanışta alet-parça sayımı, alan teslimi, makine durumu ve açık iş listesi yazılır. İade aracı güvenli yükleme alanına alınır. Açık kalemin nedeni malzeme, izin, erişim veya hava olarak belirtilir; yeni ziyaret buna göre hazırlanır. Böylece küçük talep bir kerelik unutulan çağrı değil, tekrar edildiğinde daha doğru planlanan servis geçmişine dönüşür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İnhisar küçük olduğu için platform hizmeti vermiyor musunuz?",
+                cevap:
+                    "Veriyoruz. İlçenin ölçeği tek başına ret nedeni değildir. Talep fotoğraf, ölçü, zemin, rota ve iş kapsamıyla teknik olarak değerlendirilir; uygun makine ve güvenli pencere bulunur. Tarih esnekse bölgesel programa ekleme, kesin veya acil işte tekil sevkiyat seçenekleri sunulur. Her talebe aynı dakika teslim garantisi vermeyiz, fakat belirsiz bırakmadan gerçekçi durum ve alternatif bildiririz. Teknik olarak güvenli olmayan koşulda ise ilçeden bağımsız olarak çalışma yapılmaz; gerekli düzeltme açıklanır.",
+            },
+            {
+                soru: "Tek bir küçük iş için servis almak çok mu pahalı olur?",
+                cevap:
+                    "Taşıma payı kısa işte görünür biçimde artabilir; bunu gizlemeyiz. Aynı yapıda bekleyen diğer yüksek erişim kalemlerini toplamak ilk çözümdür. Tarihiniz esnekse gerekli sınıfın yakın rota programıyla eşleşmesi kontrol edilir. Eşleşme yoksa tekil sevkiyatın gerçek kapsamı ve fiyatı sunulur. Acil güvenlik işi bekletilmez, ancak teknik hazırlık yine yapılır. Kararı tek iş, bakım turu ve programlı rota seçeneklerini karşılaştırarak verebilirsiniz.",
+            },
+            {
+                soru: "Talebimizin programa alındığını nasıl takip ederiz?",
+                cevap:
+                    "Teknik kart tamamlandığında gerekli makine sınıfı, eksik hazırlık, tercih edilen tarih aralığı ve servis modeli yazılı paylaşılır. Rota eşleşmesi bekleniyorsa bunun kesin rezervasyon olmadığı açıkça belirtilir ve karar tarihi verilir. Uygunluk oluştuğunda teslim penceresi teyit edilir. Değişiklikte yeni durum bildirilir. 'Müsait olunca geliriz' gibi belirsiz cevap servis taahhüdü sayılmaz; hangi koşulun beklendiğini ve sonraki adımı bilmeniz gerekir.",
+            },
+            {
+                soru: "Kırsal yapı için hangi fotoğrafları göndermeliyiz?",
+                cevap:
+                    "Ana yaklaşım yolunun son kesimini, taşıyıcının döneceği ve makinenin indirileceği yeri, parsel kapısını, avlu zeminini, hedefe kadar rotayı ve hedefin geniş açı görüntüsünü gönderin. Eğim, çukur, kanal, yumuşak dolgu ve yatay engeller görünmelidir. Hedef kotu ile park noktasından uzaklık ölçülür. Yalnız arızalı parçanın yakın çekimi sınıf seçimine yetmez. Yağış veya saha düzeni değişmişse teslimden önce güncel görüntü gerekir.",
+            },
+            {
+                soru: "Acil işte elinizdeki herhangi bir makineyi gönderebilir misiniz?",
+                cevap:
+                    "Hayır. Aciliyet uygun olmayan gövde, zemin sınıfı veya erişim diyagramıyla çalışma gerekçesi değildir. Önce hedef, yatay uzaklık, kapı, zemin ve çalışma alanı hızla doğrulanır. Uygun sınıfın en erken güvenli teslimi bulunur. Daha küçük makine erişemiyorsa veya büyük makine sahaya giremiyorsa gönderilmez. Bu sırada riskli alan işletme tarafından izole edilir. Dürüst taahhüt, herhangi bir araç çıkarma değil işi gerçekten yapabilecek aracı göndermektir.",
+            },
+            {
+                soru: "İlk ziyaretten sonraki talebimiz daha hızlı planlanır mı?",
+                cevap:
+                    "Giriş rotası, park noktası, zemin, kullanılan sınıf ve erişim hedefleri kayıtlıysa ön seçim hızlanır. Ancak bu bilgiler güncel fotoğrafla doğrulanır; yeni istif, yapı değişikliği veya hava zemini değiştirmiş olabilir. Önceki model otomatik garanti değildir. Değişiklik yoksa teklif ve sevkiyat daha kısa sürede kesinleşir. Açık kalan işin nedeni de kayıtlı olduğundan ikinci ziyarette aynı malzeme, izin veya sınıf hatası tekrarlanmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İnhisar'ın Bilecik'in en küçük ilçesi olduğu ve görevde erişim taahhüdü çapası uygulama belgesinde verilen kamuya açık çerçevedir. Belirli tesis, kurum, sektör, nüfus, mesafe, kapasite, süre veya doğrulanmamış rakam kullanılmamıştır; teknik doğrulama, programlı rota ve servis durumu yönetimi sektör geneli planlama pratiğidir.",
+    },
 };
