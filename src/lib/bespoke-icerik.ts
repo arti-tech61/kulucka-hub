@@ -86,6 +86,12 @@ import { BOZUYUKMANLIFT_NET } from "./bespoke/bozuyukmanlift-net";
 import { BOZUYUKPLATFORM_NET_TR } from "./bespoke/bozuyukplatform-net-tr";
 import { BOZUYUKPLATFORM_XYZ } from "./bespoke/bozuyukplatform-xyz";
 import { BOZUYUKPLATFORM_COM_TR } from "./bespoke/bozuyukplatform-com-tr";
+import { IKINCIELPLATFORM_NET } from "./bespoke/ikincielplatform-net";
+import { IKINCIELPLATFORM_XYZ } from "./bespoke/ikincielplatform-xyz";
+import { EKLEMLIPLATFORM_COM_TR } from "./bespoke/eklemliplatform-com-tr";
+import { YUKSEKTECALISMAREHBERI_COM } from "./bespoke/yuksektecalismarehberi-com";
+import { PLATFORMAKADEMISI_COM } from "./bespoke/platformakademisi-com";
+import { BOZUYUKPLATFORM_ORG } from "./bespoke/bozuyukplatform-org";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -218,6 +224,12 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "bozuyukplatform.net.tr": BOZUYUKPLATFORM_NET_TR,
     "bozuyukplatform.xyz": BOZUYUKPLATFORM_XYZ,
     "bozuyukplatform.com.tr": BOZUYUKPLATFORM_COM_TR,
+    "ikincielplatform.net": IKINCIELPLATFORM_NET,
+    "ikincielplatform.xyz": IKINCIELPLATFORM_XYZ,
+    "eklemliplatform.com.tr": EKLEMLIPLATFORM_COM_TR,
+    "yuksektecalismarehberi.com": YUKSEKTECALISMAREHBERI_COM,
+    "platformakademisi.com": PLATFORMAKADEMISI_COM,
+    "bozuyukplatform.org": BOZUYUKPLATFORM_ORG,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

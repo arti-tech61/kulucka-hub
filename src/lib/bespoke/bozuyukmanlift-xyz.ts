@@ -318,3 +318,4 @@ export const BOZUYUKMANLIFT_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Bilecik OSB'nin metal işleme atölyeleri barındırması genel bilgidir; vinç rayı hizalaması, kaynak dumanı tahliyesi ve elektriksel kilitleme kuralı sektör standardı teknik bilgi ile iş güvenliği mevzuatından gelir. Tesis adı ve rakam verilmemiştir.",
     },
+};

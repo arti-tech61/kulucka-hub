@@ -136,6 +136,12 @@
 | `bozuyukmanlift.net` | 7/7 | 0 | 0 | 🟡 2 sayfa düzeltiliyor — cam sanayi (%15-18 örtüşme) |
 | `bozuyukplatform.net.tr` | **7/7** | 0 | 0 | ✅ TAMAM — OSB yönetimi perspektifi |
 | `bozuyukplatform.xyz` | **7/7** | 0 | 0 | ✅ TAMAM — çelik konstrüksiyon montaj fazı |
+| `bozuyukplatform.org` | **7/7** | 0 | 0 | ✅ TAMAM — forklift+platform karma hizmet |
+| `ikincielplatform.net` | **2/2** | 0 | 0 | ✅ TAMAM — ikinci el satın alma riski |
+| `ikincielplatform.xyz` | **2/2** | 0 | 0 | ✅ TAMAM — forklift ikinci el riski |
+| `eklemliplatform.com.tr` | **1/1** | 0 | 0 | ✅ TAMAM — eklemli platform tanıtım sayfası |
+| `yuksektecalismarehberi.com` | **1/1** | 0 | 0 | ✅ TAMAM — bağımsız İSG rehberi |
+| `platformakademisi.com` | **1/1** | 0 | 0 | ✅ TAMAM — operatör eğitim akademisi |
 | `bozuyukplatform.com.tr` | **6/6** | 0 | 0 | ✅ TAMAM — üç sektörlü arıza müdahalesi |
 | `manliftkiralama.org.tr` | **5/5** | 0 | 0 | ✅ TAMAM — Gaziantep halı-gıda sanayisi (ilk Gaziantep) |
 | `manliftkirala.online` | **6/6** | 0 | 0 | ✅ TAMAM — Bursa otomotiv yan sanayi ritmi |
