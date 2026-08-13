@@ -607,4 +607,298 @@ export const MANLIFTKIRALA_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Uşak'ın Denizli'ye komşu il olması ve tekstil-battaniye üretiminde tanınması kamuya açık genel bilgidir; vardiya senkronizasyonu, tek muhatap modeli ve rota kurgusu kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
     },
+
+    "bolge:saraykoy": {
+        h1: "Sarayköy'de Santral Vardiyası ve Sera Takvimine Göre Manlift Kiralama",
+        giris:
+            "Sarayköy'de bir platform talebi aldığımızda karşımıza iki farklı iş gücü ritmi çıkar ve ikisi birbirine hiç benzemez. Jeotermal santral tarafı kesintisiz çalışır — kuyu başı, güç bloğu ve soğutma kulesi 24 saat vardiyalı bir ekiple işletilir, bakım penceresi vardiya çizelgesinin içinde aranır. Aynı ilçenin ikinci yüzü olan seracılıkta ise iş gücü tamamen farklı akar: çoğu sera birkaç kişilik aile işletmesidir, çalışma saatleri gün ışığına ve mevsime bağlıdır, gece vardiyası diye bir kavram yoktur. Bir talep geldiğinde ilk sorduğumuz şey bu yüzden kottan önce hangi dünyaya ait olduğudur — santral mi, sera mı — çünkü ikisinin randevu mantığı, yetkili kişi profili ve bakım penceresi baştan sona farklı kurulur. Bu sayfada, santralin 24 saatlik vardiya düzeninde bakım penceresinin nasıl bulunduğunu, seracılığın gündüze bağlı iş gücü takviminin platform kararını nasıl şekillendirdiğini ve iki farklı ritmi aynı ilçede nasıl yönettiğimizi anlattık.",
+        maddeler: [
+            {
+                baslik: "Santralin 24 saatlik vardiyasında bakım penceresi",
+                metin:
+                    "Jeotermal santral durmadan çalışır ama vardiya içinde küçük duraklamalar mutlaka vardır — parti geçişi değil, ama kontrol turu aralıkları, düşük kapasiteli gece saatleri, planlı bakım duruşları. Bakım ekibiyle konuştuğumuzda önce vardiya çizelgesini isteriz; üç vardiyanın hangisinde saha görece sakin, hangi saatte kuyu başı ekipleri boşta, bunu bilmeden verilen bir teklif sahada bekleyen bir makineyle sonuçlanır. Santral tarafında bakım penceresi genellikle gece üçüncü vardiyanın sakin saatlerinde ya da yıllık planlı duruşlarda açılır; ikisi de önceden bilinen, tesisin kendi takvimine yazılan pencerelerdir.",
+            },
+            {
+                baslik: "Seracılığın gün ışığına bağlı çalışma takvimi",
+                metin:
+                    "Sera işletmelerinde iş gücü, santralin tam tersi bir mantıkla hareket eder — çalışma saatleri gün ışığıyla sınırlıdır ve gece vardiyası neredeyse hiç görülmez. Örtü değişimi, havalandırma mekanizması bakımı ya da aydınlatma montajı gibi yükseğe çıkmayı gerektiren işler bu yüzden sabah erken ya da öğleden sonra geç saatlere değil, işletmecinin sahada olduğu gün içi saatlere yazılır. Sera işletmecisi çoğu zaman tek ya da iki kişidir ve o kişi başka bir işe gittiyse platform işi o gün yapılamaz; bu yüzden randevu, büyük tesislerdeki vardiya penceresi değil, doğrudan kişinin günlük programı üzerinden kurulur.",
+            },
+            {
+                baslik: "Santral bakım ekibiyle vardiya bazlı koordinasyon",
+                metin:
+                    "Santral tesislerinin kendi bakım-onarım kadrosu olduğu için bizim işimiz erişimi sağlamak, teknik kısmı çoğu zaman tesisin kendi ekibi yürütür. Bu iş bölümünün sağlıklı çalışması, hangi vardiyada hangi bakım sorumlusunun yetkili olduğunun baştan netleşmesine bağlıdır — vardiya değiştiğinde yetki de değişebilir, bu yüzden uzun süren işlerde her vardiyanın kendi muhatabını ve iletişim bilgisini alırız. Sıcak hatlara yakın çalışma söz konusu olduğunda bu netlik daha da kritik hâle gelir; hangi hattın basınç altında olduğunu teyit edecek kişi doğru bilinmezse iş başlatılmaz.",
+            },
+            {
+                baslik: "Sera işletmecisinin müsaitliğini kesinleştirmek",
+                metin:
+                    "Birkaç kişilik bir sera işletmesinde platform işi planlarken en kritik adım, tek yetkili kişinin o gün gerçekten sahada olacağından emin olmaktır. Büyük tesiste bir kişinin izinli olması işi aksatmaz, sera işletmesinde ise aksatır — yerine bakacak başka biri genellikle yoktur. Bu yüzden sera taleplerinde randevuyu birden fazla kez teyit ederiz: talep anında, sevkiyattan bir gün önce ve mümkünse sabahında kısa bir mesajla. Bu tekrarlı teyit, küçük ölçekli sahalarda en sık yaşanan aksamayı — unutulan ya da hatırlanmayan randevuyu — büyük ölçüde önler.",
+            },
+            {
+                baslik: "Santral ve sera işlerini aynı güne dizmek",
+                metin:
+                    "Sarayköy'e çıkan bir makinenin gününü verimli doldurmanın bir yolu, santral sahasındaki kısa bir kontrol işiyle yakındaki bir seranın bakım talebini aynı güne yazmaktır. Bunun şartı, santralin bakım penceresiyle sera işletmecisinin müsait olduğu saatin çakışmamasıdır — santral genellikle gece ya da erken sabah, sera ise gün içi çalıştığı için bu iki pencere doğal olarak birbirini tamamlar. İki farklı dünyanın takvimini aynı güne yerleştirmek, nakliye maliyetini ikiye bölerken hiçbir tarafın kendi ritmini bozmamasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre vardiya ve randevu mantığı",
+                paragraflar: [
+                    "Sarayköy'deki iki farklı saha tipinin randevu mantığını ve belirleyici takvimini aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Belirleyici takvim", "Doğal pencere", "Koordinasyon muhatabı"],
+                    satirlar: [
+                        ["Jeotermal santral", "3 vardiyalı çizelge", "Gece sakin saat, planlı duruş", "Bakım sorumlusu"],
+                        ["Kuyu başı tesisi", "Saha bakım turu", "Gündüz kontrol saatleri", "Saha ekibi"],
+                        ["Jeotermal sera", "İşletmecinin günlük programı", "Gün içi, mevsime bağlı", "İşletme sahibi"],
+                        ["Santral + sera birleşik gün", "İki takvimin kesişimi", "Gece santral, gündüz sera", "İkisi ayrı ayrı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sıcak hatta çalışırken yetki netliğinin önemi",
+                paragraflar: [
+                    "Santral sahasında sıcak hatlara yakın bir işte, hangi vardiyanın hangi sorumluyu görevlendirdiği net değilse iş başlamaz — bu, esneklik gösterilecek bir kural değildir. Hangi hattın basınç altında olduğu, hangi vananın kapalı olduğu, o vardiyanın yetkilisi tarafından yazılı teyit edilmeden sepet o kota çıkmaz.",
+                    "Bu yüzden uzun süreli santral işlerinde her vardiyanın kendi sorumlusunu ve iletişim numarasını baştan alırız; vardiya değiştiğinde yeni sorumluyla aynı teyit adımı tekrarlanır. Bu adım zaman alır gibi görünse de, yanlış vardiyada yanlış bilgiyle çalışmanın riskiyle kıyaslanamaz.",
+                ],
+            },
+            {
+                baslik: "Sera randevusunda tekrarlı teyidin gerekçesi",
+                paragraflar: [
+                    "Bir-iki kişilik sera işletmesinde randevu iptali ya da unutulması, büyük tesisteki gibi başka bir vardiyayla telafi edilemez — o gün kaybedilirse iş bir sonraki uygun tarihe kayar. Bu riski azaltmak için sera taleplerinde teyit adımını normalden sık tutarız.",
+                    "Mevsim değiştiğinde işletmecinin sahadaki günlük programı da değişebilir; hasat döneminde farklı, dinlenme döneminde farklı saatlerde sahada bulunabilir. Bu değişkenliği önceden sormak, randevu gününde boşa giden bir sevkiyatı engeller.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Santralimiz hiç durmuyor; bakım için hangi saat uygun olur?",
+                cevap:
+                    "Vardiya çizelgenizi görmeden net bir saat söyleyemeyiz ama genel eğilim gece üçüncü vardiyanın sakin saatleri ya da yıllık planlı duruş dönemidir. Bakım sorumlunuzdan haftalık vardiya programını istiyoruz; bu program elimizde olduğunda hangi saatin en az kayıpla çalışacağımız saat olduğunu biz belirleriz. Sıcak hatlara yakın bir iş söz konusuysa, hangi hattın basınç altında olduğunun o vardiyanın yetkilisi tarafından teyit edilmesi şarttır; bu teyit olmadan sepet kota çıkmaz.",
+            },
+            {
+                soru: "Seramızda ben ve eşim çalışıyoruz; randevu nasıl belirlenir?",
+                cevap:
+                    "Sizin müsait olduğunuz güne göre. Santraldeki vardiya çizelgesi mantığı burada geçerli değildir; belirleyici olan sizin ya da işi yönetecek kişinin o gün serada olacağı saattir. Bize sabah mı öğleden sonra mı uygun olduğunuzu söyleyin, makineyi ona göre planlayalım. Randevuyu birkaç kez teyit ederiz — talep anında, bir gün önce ve mümkünse sabahında — çünkü küçük işletmelerde en sık yaşanan aksama unutulan randevudur.",
+            },
+            {
+                soru: "Santral bakım ekibimizle iş bölümü nasıl kurulur?",
+                cevap:
+                    "Biz erişimi sağlarız, teknik işi büyük ölçüde sizin ekibiniz yapar — bu en yaygın çalıştığımız modeldir. Bakım sorumlunuz bize hangi vardiyada kimin sahada olacağını, hangi hattın kapalı olduğunu bildirir; biz makinenin o saatte hazır olmasını sağlarız. Vardiya değiştiğinde yetkili de değişebileceği için uzun süreli işlerde her vardiyanın kendi sorumlusunu ve iletişim bilgisini baştan alırız; bu netlik, vardiya geçişinde işin sahipsiz kalmasını önler.",
+            },
+            {
+                soru: "Sera işimiz mevsime göre değişiyor; siz bunu nasıl takip ediyorsunuz?",
+                cevap:
+                    "Sizden aktif olarak beklemeyiz, ama her talepte hangi dönemde olduğunuzu sorarız. Hasat döneminde işletmecinin sahadaki programı dinlenme dönemine göre farklı olabilir; bu değişkenliği bilmeden verilen bir randevu saati boşa gidebilir. Talep aldığımızda o haftaki durumunuzu teyit eder, makineyi ona göre planlarız. Sabit bir program varsaymak yerine her seferinde kısa bir teyit yapmak, bu tür sahalarda en güvenli yoldur.",
+            },
+            {
+                soru: "Aynı gün hem santralde hem yakındaki bir serada işimiz var; tek makineyle olur mu?",
+                cevap:
+                    "Genellikle olur ve iki iş birbirini iyi tamamlar — santralin doğal penceresi gece ya da erken sabah, seranın penceresi ise gün içi olduğu için çakışma az yaşanır. İki tarafın da ayrı ayrı müsaitliğini netleştirir, aralarına makul bir geçiş payı bırakarak tek günlük bir plan kurarız. Bu birleşim, her iki tarafın da nakliye maliyetini düşürür; tek şartı, her iki randevunun da kesin saatinin önceden bilinmesidir.",
+            },
+            {
+                soru: "Kuyu başı tesislerimiz birbirinden uzak; vardiya planına bu nasıl yansır?",
+                cevap:
+                    "Kuyu başı kontrolleri genellikle gündüz vardiyasının rutin bir parçasıdır ve saha ekibiyle birlikte yürür; makinenin noktalar arası geçiş süresi gün planına dahil edilir. Vardiya değişimine denk gelen bir kuyu başı işinde, hangi ekibin o saatte sahada olacağını önceden netleştiririz. Nokta listesini ve varsa öncelik sırasını paylaşırsanız, vardiya bilgisiyle birlikte en verimli güzergâhı biz çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Sarayköy'ün jeotermal enerji üretimi ve jeotermal ısıtmalı seracılıkla anılması kamuya açık bilgidir; santral vardiyası ile sera iş gücü takviminin birlikte planlanması kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:buldan": {
+        h1: "Buldan'da Atölye İş Gücüne Göre Manlift Randevusu",
+        giris:
+            "Buldan'daki dokuma atölyelerinde platform kiralama kararını belirleyen şey, kottan çok atölyenin iş gücü ölçeğidir. İlçedeki üretim yapısı Denizli'nin büyük tekstil holleri gibi çok vardiyalı değil, birkaç tezgâhlı aile işletmeleri şeklinde kuruludur ve çoğu tek vardiya, gündüz saatlerinde çalışır. Bu ölçekte vardiya çizelgesi aramak yanlış soru sormaktır — asıl soru, atölyeyi yöneten bir-iki kişinin hangi gün, hangi saat müsait olduğudur. Aynı ilçede satış mağazaları ve sergi alanları da farklı bir çalışma ritmine sahiptir: mesai saatleri müşteri trafiğine göre kurulur ve platform işi bu trafiğin dışına yazılır. Bu sayfada, küçük ölçekli atölyelerde tek kişinin takvimine göre randevu kurmanın nasıl işlediğini, satış mekânlarının müşteri saatine göre planlamayı nasıl şekillendirdiğini ve komşu işletmelerin iş gücü takvimlerini nasıl birleştirdiğimizi anlattık.",
+        maddeler: [
+            {
+                baslik: "Birkaç tezgâhlı atölyede tek kişinin takvimi",
+                metin:
+                    "Buldan'daki dokuma atölyelerinin çoğunda personel sayısı azdır, çoğu zaman atölye sahibi ve bir-iki çalışandan ibarettir. Bu ölçekte platform işi, büyük fabrikadaki vardiya penceresi mantığıyla değil, doğrudan atölye sahibinin günlük programına göre kurulur — o gün başka bir işe mi gidecek, tezgâh teslim tarihi mi yaklaşıyor, hangi saat boşta. Talep aldığımızda ilk sorduğumuz bu yüzden 'hangi saat size en uygun' sorusudur; büyük tesislerdeki gibi vardiya değişim saati aramayız, çünkü aranacak bir vardiya değişimi yoktur.",
+            },
+            {
+                baslik: "Mağaza ve sergi alanlarında müşteri saatinin dışına çıkmak",
+                metin:
+                    "Dokuma ürünlerinin satıldığı mağaza ve sergi mekânlarında iş gücü, müşteri trafiğine göre şekillenir — satış personeli açılıştan kapanışa kadar sahadadır ve bu saatler platform işi için en az uygun zaman dilimidir. Vitrin aydınlatması, tabela yenileme ya da cephe işleri bu yüzden kapanış sonrasına ya da açılıştan önceki erken saate yazılır. Mağaza müdürüyle koordinasyon kurarken sorduğumuz, kaç kişinin sahada çalıştığı değil, kapanış sonrası hangi saate kadar birinin orada kalabileceğidir — çünkü işin teslim alınması için en az bir yetkilinin işin başında ve sonunda bulunması gerekir.",
+            },
+            {
+                baslik: "Tarihi doku çevresinde randevunun izin sürecine bağlanması",
+                metin:
+                    "İlçenin geleneksel yapı dokusuna yakın işlerde, iş gücü takvimine bir katman daha eklenir: koruma statüsü taşıyan bir yapıda çalışılacaksa ilgili izin süreci onaylanmadan iş planlanamaz. Bu izin süreci genellikle yapı sahibinin ya da ilgili kurumun kendi çalışma saatine bağlıdır ve bizim randevu takvimimiz bu onayın çıkma süresine göre şekillenir. İzin süreci uzun sürebileceği için, bu tür taleplerde randevu tarihini kesinleştirmeden önce iznin ne aşamada olduğunu netleştiririz; onay çıkmadan sahaya makine göndermeyiz.",
+            },
+            {
+                baslik: "Dar sokakta komşu esnafla saat koordinasyonu",
+                metin:
+                    "İlçe merkezinin dar sokaklarında bir işe giderken, komşu işletmelerin de o saatte açık ve çalışır durumda olması makinenin manevra alanını doğrudan etkiler. Sokakta park hâlindeki araçlar ya da yoğun müşteri trafiği varsa, makinenin konumlanacağı an, komşu esnafın en sakin olduğu saate denk getirilir. Bu koordinasyon bazen tek bir işletmeyle değil, sokaktaki birkaç komşu esnafla birlikte kurulur — hangi saatte sokak nispeten boşalıyor, bunu genellikle mahalledeki işletmelerin kendisi bilir ve bize önceden bildirir.",
+            },
+            {
+                baslik: "Küçük işletmelerin iş gücü takvimini birleştirmek",
+                metin:
+                    "Buldan'daki işler tek tek küçük ölçekli olduğu için, tek bir atölye ya da mağaza için ayrı sevkiyat yapmak iş gücü açısından da verimsizdir — bir makine, bir günde tek bir kişinin takvimine göre çalışıp boş kalır. Bunun yerine, benzer çalışma saatine sahip birkaç işletmenin talebini aynı güne diziyoruz: sabah bir atölyede aydınlatma, öğleden sonra bir mağazada tabela. Her işletmenin kendi müsaitlik saatini önceden bildirmesi yeterlidir; sıralamayı ve geçiş sürelerini biz kurar, nakliye maliyetini paylaşanlar arasında bölünürüz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşletme tipine göre randevu belirleyicisi",
+                paragraflar: [
+                    "Buldan'daki işletme tiplerinin iş gücü ölçeği ve buna bağlı randevu mantığını aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme tipi", "Tipik iş gücü", "Randevu belirleyicisi", "Uygun saat aralığı"],
+                    satirlar: [
+                        ["Küçük dokuma atölyesi", "1-3 kişi", "Atölye sahibinin programı", "Gün içi esnek"],
+                        ["Satış / sergi mağazası", "1-2 kişi", "Müşteri trafiği", "Kapanış sonrası, açılış öncesi"],
+                        ["Tarihi doku çevresi yapı", "Değişken", "İzin sürecinin durumu", "Onay sonrası belirlenir"],
+                        ["Komşu esnaf grubu", "Benzer küçük ölçek", "Ortak sakin saat", "Sokak trafiğine göre"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek kişilik atölyede randevunun kesinliği",
+                paragraflar: [
+                    "Büyük fabrikada bir çalışanın o gün izinli olması işi aksatmaz, birkaç kişilik bir atölyede ise doğrudan aksatır — işi yönetecek başka biri genellikle yoktur. Bu yüzden Buldan'daki atölye taleplerinde randevuyu birden fazla kez teyit ederiz: talep anında, sevkiyattan bir gün önce ve mümkünse sabahında kısa bir mesajla.",
+                    "Bu tekrarlı teyit fazla temkinli görünebilir ama küçük ölçekli sahalarda en sık yaşanan aksama, unutulan ya da hatırlanmayan randevudur. Birkaç dakikalık bu alışkanlık, hem bizim hem atölyenin boşa geçen bir günü yaşamasını önler.",
+                ],
+            },
+            {
+                baslik: "Mağaza kapanış sonrası çalışmanın pratik sınırları",
+                paragraflar: [
+                    "Kapanış sonrası çalışmanın avantajı müşteri trafiğinin olmamasıdır ama sınırı da vardır — mağaza personelinin de bir mesai bitişi olur ve iş bu sürenin ötesine taşarsa fazladan bir kişinin orada kalması gerekir. Bu yüzden kapanış sonrası işlerde tahmini süreyi mümkün olduğunca net veririz ve personelin ne kadar bekleyebileceğini önceden sorarız.",
+                    "İş süre tahminini aşarsa, kalan kısmı ertesi açılıştan önceki erken saate bölmeyi öneririz; bu, personeli geç saatte tutmaktan daha pratik bir çözümdür ve iki kısa oturuma bölünen iş genellikle toplamda daha az yorucu geçer.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemiz küçük, sadece ben ve bir çırağım var; randevu size göre nasıl kurulur?",
+                cevap:
+                    "Sizin müsait olduğunuz güne ve saate göre kurulur. Büyük fabrikalardaki vardiya mantığı burada geçerli değildir; belirleyici olan tek yetkili kişinin — yani sizin — o gün atölyede olacağınız saattir. Sabah mı öğleden sonra mı uygun olduğunuzu bildirin, makineyi ona göre planlayalım. Randevuyu birkaç kez teyit ederiz çünkü küçük işletmelerde en sık yaşanan aksama unutulan randevudur; bunu önlemeye çalışırız.",
+            },
+            {
+                soru: "Mağazamızın tabela işini kapanıştan sonra yapabilir misiniz?",
+                cevap:
+                    "Evet, bu en sık tercih edilen düzendir. Kapanış sonrası müşteri trafiği olmadığı için iş hem daha hızlı hem daha rahat ilerler. Tek dikkat ettiğimiz, personelinizin ne kadar süre bekleyebileceğidir; iş tahmini süreyi aşarsa kalan kısmı açılıştan önceki erken saate bölmeyi öneririz. Kapanış saatinizi ve o gün orada kalabilecek bir yetkilinin olup olmadığını bize önceden bildirin, planı ona göre kuralım.",
+            },
+            {
+                soru: "Tarihi bir binanın yakınında çalışacağız; iznimiz yoksa ne olur?",
+                cevap:
+                    "İzin süreci onaylanmadan sahaya makine göndermeyiz. Yapı koruma kapsamındaysa, ilgili kurumdan iznin çıkması gerekir ve bizim randevu takvimimiz bu onayın süresine göre şekillenir. Talebinizi aldığımızda önce iznin hangi aşamada olduğunu sorarız; onay bekleniyorsa tarihi kesinleştirmek yerine tahmini bir aralık veririz, onay çıktığında hızlıca netleştiririz. Bu süreç uzayabilir, bu yüzden mümkünse izni erken başlatmanızı öneririz.",
+            },
+            {
+                soru: "Sokağımız dar ve komşu esnaf da yoğun; makine ne zaman gelmeli?",
+                cevap:
+                    "Sokaktaki komşu işletmelerin en sakin olduğu saati bulmak için genellikle sizden ya da komşularınızdan bilgi alırız — hangi saatte sokak nispeten boşalıyor, bunu en iyi orada çalışanlar bilir. Bu bilgiye göre makinenin konumlanacağı saati belirleriz. Gerekirse birkaç komşu esnafla birlikte kısa bir koordinasyon yaparız; bu, hem makinenin manevra alanı bulmasını kolaylaştırır hem komşularınızın işini aksatmaz.",
+            },
+            {
+                soru: "Tek bir aydınlatma işi için ayrı sevkiyat pahalı olmaz mı?",
+                cevap:
+                    "Evet, tek iş için ayrı sevkiyat en pahalı senaryodur çünkü maliyetin büyük kısmı makinenin gidip gelmesinden gelir. Bunun yerine, benzer çalışma saatine sahip komşu işletmelerin taleplerini aynı güne diziyoruz — sabah bir atölye, öğleden sonra bir mağaza gibi. Müsait olduğunuz saati bildirmeniz yeterli; sıralamayı biz kurarız, nakliye maliyeti paylaşanlar arasında bölünür ve tek başına ödeyeceğinizin altına iner.",
+            },
+            {
+                soru: "İşlerimiz mevsime ya da sipariş yoğunluğuna göre değişiyor; bunu nasıl takip ediyorsunuz?",
+                cevap:
+                    "Sizden aktif bir program beklemeyiz, her talepte o haftaki durumunuzu sorarız. Sipariş yoğunluğunun arttığı dönemlerde müsait olduğunuz saat değişebilir; bu değişkenliği bilmeden verilen bir randevu boşa gidebilir. Bu yüzden sabit bir saat varsaymak yerine, sevkiyattan hemen önce kısa bir teyit yaparız. Düzenli çalıştığımız atölyelerde bu teyit alışkanlığı zamanla otomatikleşir, her seferinde yeniden anlatmaya gerek kalmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Buldan'ın dokumacılık geleneği ve küçük ölçekli atölye yapısı kamuya açık genel bilgidir; tek kişilik işletme randevu düzeni ve komşu esnaf koordinasyonu kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "bolge:denizli-deri-ihtisas-osb": {
+        h1: "Denizli Deri İhtisas OSB'de Üretim Sürecine Göre Manlift Planlaması",
+        giris:
+            "Deri İhtisas OSB'deki tesislerde platform kiralama kararını belirleyen şey, klasik anlamda bir vardiya çizelgesinden çok üretim sürecinin kendi ritmidir. Deri işleme, tabaklamadan bitmiş ürüne kadar birbirini takip eden kimyasal ve mekanik aşamalardan oluşur ve her aşamanın kendi süresi, kendine özgü kokusu ve havalandırma ihtiyacı vardır. Bu, bakım işinin ne zaman yapılacağını üretim akışının neresinde durduğu belirler demektir — bir kurutma sürecinin ortasında hat üstüne çıkmak, o partiyi riske atabilir, ama parti geçişleri arasında kısa ama düzenli pencereler açılır. İhtisas OSB'nin bir başka özelliği, arıtma tesisi gibi ortak kullanılan altyapının kendi bağımsız çalışma takvimine sahip olmasıdır. Bu sayfada, deri üretim sürecinin aşamalarına göre bakım penceresinin nasıl bulunduğunu, tesis içindeki iş gücünün üretim akışına göre nasıl konumlandığını ve ortak altyapı tesislerindeki koordinasyonun nasıl kurulduğunu anlattık.",
+        maddeler: [
+            {
+                baslik: "Üretim aşamaları arasındaki geçiş pencereleri",
+                metin:
+                    "Deri işleme sürecinde her aşama — ıslatma, tabaklama, kurutma, bitirme — kendi süresini tamamladıktan sonra bir sonrakine geçer ve bu geçiş anları, bakım için doğal bir duraklamadır. Bir kurutma tamburunun ya da bitirme hattının üstünde çalışılacaksa, o ekipmanın partisinin bittiği ve bir sonrakinin henüz başlamadığı an aranır. Bu pencere, tekstildeki vardiya değişiminden farklıdır — saatlik değil süreç bazlıdır ve tesisin üretim planlamacısı olmadan bu pencereyi dışarıdan tahmin etmek mümkün değildir. Bu yüzden ilk adımımız her zaman üretim planlamacısıyla konuşup o haftaki parti akışını öğrenmektir.",
+            },
+            {
+                baslik: "Kimyasal süreçlerin havalandırma ve erişim kısıtı",
+                metin:
+                    "Tabaklama ve boyama gibi kimyasal yoğun aşamaların yürüdüğü bölümlerde, işlem devam ederken üst kotta çalışmak hem koku hem buhar nedeniyle önerilmez; bu bölümlerdeki bakım işleri, işlemin durduğu ya da havalandırmanın tam kapasiteyle çalıştığı saatlere yazılır. Bu kısıt, tesisin kendi iş güvenliği prosedürüyle örtüşür ve bizim tarafımızdan da aynen uygulanır — hangi kimyasalın hangi saatte kullanıldığı bilinmeden sepet o bölüme sokulmaz. Bu bilgiyi genellikle üretim sorumlusu ya da iş güvenliği uzmanı verir, biz de planı bu bilgiye göre kurarız.",
+            },
+            {
+                baslik: "Arıtma tesisinin bağımsız çalışma takvimi",
+                metin:
+                    "İhtisas OSB'nin ortak kullanılan atık su arıtma tesisi, üye fabrikaların üretim takviminden bağımsız kendi işletme düzenine sahiptir ve buradaki bakım işleri kendi vardiya ve iş gücü planına göre yürütülür. Arıtma tesisindeki bir platform talebi geldiğinde muhatabımız tek bir fabrika değil, OSB'nin ortak işletme kadrosudur; bu farklı bir koordinasyon kanalı gerektirir. Arıtma tesisinin kendi bakım ekibiyle çalışırken, hangi havuzun hangi saatte devrede olduğu ve hangi bölümde çalışma yapılabileceği bu ekipten alınır.",
+            },
+            {
+                baslik: "Tesis içi iş gücünün üretim akışına göre konumlanması",
+                metin:
+                    "Deri fabrikalarında personel, tekstildeki gibi sabit bir vardiya istasyonunda değil, üretim akışının neresinde iş varsa oraya göre hareket eder — bir parti kurutmaya girdiğinde o bölümdeki personel bir sonraki aşamaya kayabilir. Bu hareketlilik, platform işini planlarken çalışma noktasını gösterecek yetkilinin o saatte orada olup olmayacağını netleştirmemizi gerektirir. Talep alırken bu yüzden yalnızca hangi ekipmanda çalışılacağını değil, o bölümde o saatte kimin görevli olacağını da sorarız; üretim akışı değişkense bu bilgiyi sevkiyattan hemen önce teyit ederiz.",
+            },
+            {
+                baslik: "Parti teslim tarihinin bakım takvimine etkisi",
+                metin:
+                    "Deri üretiminde parti teslim tarihleri, bakım işinin ne zaman yapılabileceğini doğrudan sınırlar — teslim tarihi yaklaşan bir partinin üretildiği hat, o dönemde bakım için durdurulmaz. Bu yüzden uzun süreli ya da kapsamlı bakım işlerini, üretim planlamacısının teslim takviminde göreli boşluk gösterdiği dönemlere yazarız. Acil bir arıza durumunda bu kural esnetilir ama planlı işlerde teslim takvimini bilmeden verilen bir tarih, sahada 'bu hafta olmaz' cevabıyla karşılaşabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üretim aşamasına göre erişim penceresi",
+                paragraflar: [
+                    "Deri İhtisas OSB'deki tesislerde üretim aşamasına göre bakım penceresinin nasıl değiştiğini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Üretim aşaması", "Erişim kısıtı", "Doğal pencere", "Koordinasyon muhatabı"],
+                    satirlar: [
+                        ["Islatma / tabaklama", "Kimyasal buhar, koku", "İşlem arası, tam havalandırma", "Üretim sorumlusu"],
+                        ["Kurutma", "Sıcaklık, parti bütünlüğü", "Parti geçişi", "Hat sorumlusu"],
+                        ["Bitirme / boyama", "Kimyasal yoğunluk", "Vardiya sonu, işlem arası", "İş güvenliği uzmanı"],
+                        ["Ortak arıtma tesisi", "Havuz devri, OSB takvimi", "OSB'nin kendi planı", "OSB işletme kadrosu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üretim planlamacısıyla erken temas kurmanın getirisi",
+                paragraflar: [
+                    "Deri fabrikasında bakım penceresi saatlik değil süreç bazlı olduğu için, üretim planlamacısıyla erken temas kurmadan verilen bir tarih büyük olasılıkla değişir. Talep aldığımızda önce o haftaki parti akışını sorar, hangi ekipmanın hangi gün göreli boşta olacağını öğreniriz.",
+                    "Bu erken temas, hem bizim hem tesisin zamanını korur — planlamacı bize uygun günü gösterdiğinde, makineyi o güne göre ayarlarız ve sahada 'bu hafta olmaz' sürprizini yaşamayız. Düzenli çalıştığımız tesislerde bu iletişim zamanla haftalık bir rutine dönüşür.",
+                ],
+            },
+            {
+                baslik: "Arıtma tesisinde farklı muhatap, farklı süreç",
+                paragraflar: [
+                    "Ortak arıtma tesisindeki bir bakım talebi, tek bir fabrikanın üretim planlamacısıyla değil OSB'nin işletme kadrosuyla yürür ve bu, bazı müşterilerimiz için ilk seferde kafa karıştırıcı olabiliyor. Kendi fabrikanızın üretim takviminden bağımsız bir süreç olduğu için, arıtma tesisindeki işi kendi tesisinizin bakım planına yazamazsınız.",
+                    "Bu tür taleplerde doğrudan OSB'nin ortak işletme birimiyle iletişime geçmenizi ya da bize yönlendirmenizi öneririz; biz gerekli koordinasyonu kurar, hangi havuzun hangi saatte müsait olduğunu netleştiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim sürecimiz kesintisiz gibi görünüyor; bakım için nasıl bir pencere buluruz?",
+                cevap:
+                    "Süreç kesintisiz görünse de parti geçişleri arasında mutlaka kısa duraklamalar vardır. Bunun için önce üretim planlamacınızla konuşuruz — o haftaki parti akışını, hangi ekipmanın hangi gün göreli boşta olacağını sorarız. Bu bilgi elimizde olduğunda, en az kayıpla çalışacağımız günü ve saati size öneririz. Pencere gerçekten bulunamıyorsa, kapsamlı bakım işlerini teslim takviminizin görece boş olduğu döneme yazmayı öneririz.",
+            },
+            {
+                soru: "Kimyasal işlem devam ederken hat üstünde çalışabilir misiniz?",
+                cevap:
+                    "Hayır, kimyasal yoğun aşamalar sürerken üst kotta çalışmayız — bu, koku ve buhar riskine bağlı bir kısıttır ve tesisin kendi iş güvenliği prosedürüyle örtüşür. İşlemin durduğu ya da havalandırmanın tam kapasiteyle çalıştığı saatleri üretim sorumlunuzdan ya da iş güvenliği uzmanınızdan öğrenir, planı buna göre kurarız. Bu bilgi olmadan sepeti o bölüme sokmayız; bu, tartışılan değil uyulan bir kuraldır.",
+            },
+            {
+                soru: "Arıtma tesisinde bir işimiz var; kiminle görüşmeliyiz?",
+                cevap:
+                    "Kendi fabrikanızın üretim planlamacısıyla değil, OSB'nin ortak işletme kadrosuyla. Arıtma tesisi, üye fabrikaların üretim takviminden bağımsız kendi işletme düzenine sahiptir; bu yüzden farklı bir koordinasyon kanalı gerekir. Doğrudan OSB'nin ilgili birimiyle iletişime geçebilir ya da bize yönlendirebilirsiniz — biz gerekli koordinasyonu kurar, hangi havuzun hangi saatte müsait olduğunu netleştiririz.",
+            },
+            {
+                soru: "Çalışma noktasını gösterecek personel üretim akışına göre yer değiştiriyor; bu bir sorun mu?",
+                cevap:
+                    "Bilinmesi gereken bir bilgi ama engel değil. Talep alırken hangi ekipmanda çalışılacağı kadar, o bölümde o saatte kimin görevli olacağını da sorarız. Üretim akışınız değişkense bu bilgiyi sevkiyattan hemen önce teyit ederiz; böylece makine sahaya vardığında çalışma noktasını gösterecek kimse bulunmama riskini azaltırız. Personel rotasyonunuz sabit bir düzendeyse bunu bir kez öğrenip sonraki taleplerde tekrar sormayız.",
+            },
+            {
+                soru: "Teslim tarihi yaklaşan bir partimiz var; bakımı erteleyebilir miyiz?",
+                cevap:
+                    "Planlı işlerde evet, önerdiğimiz de budur. Teslim tarihi yaklaşan partinin üretildiği hattı o dönemde durdurmak istemeyiz; bunun yerine üretim planlamacınızın teslim takviminde göreli boşluk gösterdiği bir sonraki döneme yazarız. Acil bir arıza söz konusuysa bu kural esner ve gerekirse hemen müdahale ederiz; ama rutin bakım için teslim takvimini bilmek, ikinize de zaman kazandıran bir bilgidir.",
+            },
+            {
+                soru: "OSB içindeki farklı fabrikaların işlerini aynı güne toplayabilir misiniz?",
+                cevap:
+                    "Üretim süreçleri birbirine yeterince yakınsa evet. Her fabrikanın kendi üretim planlamacısından o haftaki müsaitlik bilgisini alır, birbirini bozmayacak bir sıra kurarız. Ancak deri üretiminde bakım penceresi saatlik değil süreç bazlı olduğu için, bu birleştirme tekstildeki kadar sık ve kolay kurulamayabilir — bazen bir fabrikanın penceresi bu hafta, diğerininki gelecek hafta çıkar. Mümkün olduğu her durumda birleştiririz, mümkün olmadığında bunu baştan açıkça söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Deri İhtisas OSB'nin kendi ortak atık su arıtma altyapısına sahip olması ve deri üretiminin ıslatma-tabaklama-kurutma-bitirme aşamalarından oluşması sektör geneli bilgidir; süreç bazlı bakım penceresi planlaması ve OSB koordinasyon kanalı kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };

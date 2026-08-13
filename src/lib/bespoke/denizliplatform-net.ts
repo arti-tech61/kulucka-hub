@@ -1006,4 +1006,393 @@ export const DENIZLIPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Uşak’ın Denizli’ye komşu il olması ve tekstil, deri işleme ile seramik üretimiyle anılması kamuya açık genel bilgidir; ortam-ekipman eşleşmeleri sektör geneli teknik bilgi, sevkiyat ve evrak düzeni firma pratiğidir.",
     },
+    "bolge:denizli-osb": {
+        h1: "Denizli Organize Sanayi Bölgesinde Fabrika İçi Yüksekte Çalışma Ekipmanı",
+        giris:
+            "Denizli Organize Sanayi Bölgesi, ilin tekstil ihracatının büyük bölümünü sırtlayan bir üretim yoğunluğuna sahiptir ve bu yoğunluk, bölgedeki parsellerin büyük kısmını dokuma, iplik, terbiye ve konfeksiyon tesislerine ayırır. Bir platform talebi bize bu bölgeden geldiğinde, işin yeri kadar tesisin hangi üretim aşamasında olduğu da belirleyicidir; çünkü aynı OSB içinde bir iplik fabrikasının tavanı ile bir terbiye-boyahane hattının tavanı, birbirinden tamamen farklı ortam koşulları taşır. İplik ve dokuma bölümlerinde ortam kuru ama toz yüklüdür, terbiye ve boyahane bölümlerinde ise nem ve buhar hâkimdir; makinenin elektrik aksamı, sepet malzemesi ve temizlik rutini bu ikisine göre ayrı ayrı belirlenir. Bu sayfada, OSB içindeki fabrika binalarının tipik iç mimarisini, tavan donanımının hangi katmanlarda toplandığını, geniş hollerde erişimin nasıl planlandığını ve üretim durdurulmadan çalışmanın hangi kurallara bağlı olduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İplik ve dokuma hollerinde açıklık ve erişim",
+                metin:
+                    "OSB’deki iplik ve dokuma tesislerinin çoğu, onlarca metre açıklıklı tek katlı hollerden oluşur; bu hollerde kolon aralığı geniştir ama tezgâh dizileri arasındaki koridor dardır. Makinenin sahaya girmesi yetmez, tezgâh sıraları arasından geçip çalışma noktasına ulaşabilmesi gerekir. Bu nedenle talep alırken önce koridor genişliğini ve tezgâh düzenini sorarız; sepet ölçüsü ve şase eni buna göre seçilir. Ölçü paylaşılmadan gönderilen bir makine, kapıdan girse bile hattın ortasında sıkışabilir.",
+            },
+            {
+                baslik: "Terbiye ve boyahane bölümünde nem ve buhar",
+                metin:
+                    "Terbiye ve boyahane hatları, OSB’deki tesislerin en zorlu iç ortamıdır: sürekli buhar, yüksek nem ve zaman zaman ıslak zemin bir arada bulunur. Bu ortamda çalışan makinenin elektrik aksamı ve kumanda paneli özel koruma ister; aksi hâlde nem, kısa sürede kontrol devrelerinde arızaya yol açar. Ayrıca zemin kayganlığı, makinenin stabilitesini etkileyen ayrı bir risktir. Bu bölümlerdeki işlerde makineyi vardiya sonunda bölüm dışına çekmek, hem ekipmanı korur hem de bir sonraki vardiyanın hat erişimini açık tutar.",
+            },
+            {
+                baslik: "Tavan katmanının yoğunluğu ve karışıklığı",
+                metin:
+                    "Fabrika tavanları, aydınlatma armatürü, havalandırma kanalı, sprinkler hattı ve bazı tesislerde ürün taşıyan monoray sistemiyle iç içe geçmiş bir katman oluşturur. Bu katmanda bakım yapılırken makinenin sepeti, bir donanımı diğerine değdirmeden manevra edebilmelidir; bu da operatörün sahayı önceden tanımasını gerektirir. Bu yüzden geniş hollerde ilk çalışma günü, işin kendisinden önce kısa bir yerinde tanıma turuyla başlar — bu, ilerideki saatleri kısaltan küçük bir yatırımdır.",
+            },
+            {
+                baslik: "Üretim durmadan çalışma disiplini",
+                metin:
+                    "OSB’deki büyük tesislerin çoğunda üretim, bakım işi için kolayca durdurulamaz; hat durursa kayıp, çalışmanın kendisinden daha maliyetli olabilir. Bu yüzden fabrika içi işlerimizin büyük kısmı, üretimin devam ettiği bölümlerde, hattın dışına taşan güvenlik şeridi ile sınırlı bir alanda yürütülür. Makinenin hareket alanı önceden işaretlenir, üretim personeli bu alandan uzak tutulur. Hattın tamamen durması gereken işler ise tesisin planlı duruş takvimine yazılır ve o pencereye göre planlanır.",
+            },
+            {
+                baslik: "OSB içi trafik ve saha giriş prosedürü",
+                metin:
+                    "Organize sanayi bölgesi içindeki yollar, ağır sanayi trafiğine göre tasarlanmıştır ama bazı parsellerin giriş kapıları dar ve manevra alanı kısıtlıdır. Sevkiyat aracının hangi kapıdan gireceği, önceden tesisle birlikte teyit edilir. OSB’nin kendi güvenlik prosedürü — giriş kartı, araç kaydı, bazı tesislerde ayrı bir güvenlik brifingi — her fabrika için ayrı işler; bu adımları sevkiyat programına baştan dahil ederiz ki makine kapıda beklemesin.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üretim bölümüne göre ortam ve ekipman notları",
+                paragraflar: [
+                    "Aynı fabrika binası içinde bile bölümden bölüme ortam koşulu değişir; aşağıdaki tablo OSB’deki tipik üretim bölümlerini ve bunlara göre uyguladığımız yaklaşımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölüm", "Ortam", "Ana risk", "Yaklaşımımız"],
+                    satirlar: [
+                        ["İplik / dokuma", "Kuru, tozlu, geniş hol", "Koridor darlığı", "Şase ölçüsü önceden alınır"],
+                        ["Terbiye / boyahane", "Nem, buhar, ıslak zemin", "Elektrik arızası, kayganlık", "Koruma seti, vardiya sonu dışarı çekme"],
+                        ["Konfeksiyon", "Kuru, orta yoğunluk toz", "Tavan donanım karışıklığı", "Yerinde tanıma turu"],
+                        ["Depo / sevkiyat", "Standart sanayi", "Forklift trafiği", "Şerit ile alan ayrımı"],
+                    ],
+                },
+            },
+            {
+                baslik: "OSB’nin ölçeğinin getirdiği avantaj",
+                paragraflar: [
+                    "Bölgenin büyüklüğü, bize hem avantaj hem sorumluluk getirir. Avantaj, sahadaki tesis çeşitliliğinin genişliğidir — iplikten konfeksiyona, terbiyeden depo-lojistiğe kadar hemen her üretim aşamasını burada görürüz ve bu deneyim her yeni talepte devreye girer. Sorumluluk ise, OSB içindeki her fabrikanın kendi işleyiş kuralına saygı göstermektir; bir tesiste geçerli olan giriş prosedürü diğerinde geçerli olmayabilir, bunu varsaymak yerine her seferinde teyit ederiz.",
+                    "Pratikte bu, talep alırken standart bir soru setini uygulamamız anlamına gelir: hangi bölüme gidiliyor, hat çalışıyor mu duruyor mu, tavan kotu ve koridor genişliği nedir, giriş prosedürü var mı. Bu sorular yanıtlandığında doğru makine ve doğru ekip planı büyük ölçüde netleşir.",
+                ],
+            },
+            {
+                baslik: "Fabrika içi işlerde zaman planlaması",
+                paragraflar: [
+                    "OSB içi işlerde en sık karşılaşılan planlama hatası, tesisin bakım penceresini çalışmanın süresiyle karıştırmaktır. Kısa bir aydınlatma değişimi birkaç saatte biter ama tesisin bunu hangi saatte, hangi bölümde yapmamıza izin verdiği ayrı bir değişkendir. Bu yüzden iş süresini değil, önce erişim penceresini öğreniriz; program buna göre kurulur.",
+                    "Birden fazla küçük işin aynı fabrikada birikmesi de sık görülür — birkaç armatür, bir kanal bakımı, bir tabela değişimi aynı ziyarette toplanabilir. Bu tür işleri tek seferde planlamak, hem tesis için hem bizim için sahaya çıkış sayısını azaltır ve maliyeti düşürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB’deki fabrikamızda üretim durmadan çalışabilir misiniz?",
+                cevap:
+                    "Çoğu zaman evet. İşin büyük kısmı, üretimin devam ettiği bölümlerde hattın dışına taşan bir güvenlik şeridiyle sınırlı alanda yürütülür; makinenin hareket alanı önceden işaretlenir ve üretim personeli bu alandan uzak tutulur. Ancak bazı işler — örneğin doğrudan hattın üstündeki bir donanıma müdahale — hattın durmasını gerektirir. Bu durumda işi tesisin planlı duruş takvimine yazarız ve o pencereye göre çalışırız. Hangi kategoriye girdiğinizi keşif aşamasında birlikte netleştiririz.",
+            },
+            {
+                soru: "Terbiye bölümündeki nem, makineye zarar verir mi?",
+                cevap:
+                    "Bu bölümde çalışan makinenin elektrik aksamı ve kumanda paneli için ek koruma uygularız, çünkü sürekli buhar ve nem, korumasız devrelerde kısa sürede arızaya yol açabilir. Ayrıca zemin kayganlığı nedeniyle makine konumlandırması muhafazakâr yapılır. İş bittiğinde makineyi bölüm dışına çekip kontrolden geçiririz; bu, hem makinenin ömrünü korur hem bir sonraki kullanıcıya temiz bir ekipman teslim etmemizi sağlar.",
+            },
+            {
+                soru: "Tezgâh dizileri arasından geçebilecek bir makine gerekiyor; nasıl seçiyorsunuz?",
+                cevap:
+                    "Öncelikle koridor genişliğini ve tezgâh aralığını sizden öğreniriz; bu ölçü, sepet ve şase eni seçimini doğrudan belirler. Standart eklemli veya dikey sınıf makineler, çoğu dokuma koridorunda rahat manevra eder, ama bazı eski tesislerde koridor daha da dardır ve daha kompakt bir model gerekir. Ölçü paylaşılmadan gönderilen makine sahada sıkışabilir; bu yüzden bu bilgiyi talep formunun ilk adımına koyduk.",
+            },
+            {
+                soru: "OSB’ye giriş için özel bir prosedür var mı?",
+                cevap:
+                    "Bölgenin kendi trafik düzeni dışında, her fabrikanın ayrı bir giriş prosedürü olabilir: araç kaydı, giriş kartı, bazı tesislerde kısa bir güvenlik brifingi. Sevkiyat aracının hangi kapıdan gireceğini ve hangi belgelerin isteneceğini önceden tesisle teyit ederiz, böylece makine kapıda vakit kaybetmez. Sizin tesisinizin standart dışı bir talebi varsa, bunu bize baştan bildirmeniz yeterli.",
+            },
+            {
+                soru: "Birden fazla küçük işimiz var; tek seferde mi planlarsınız?",
+                cevap:
+                    "Genellikle evet, önerdiğimiz de budur. Birkaç armatır değişimi, bir kanal bakımı ve bir tabela işi gibi küçük kalemler aynı fabrikada birikmişse, bunları tek bir ziyarette toplamak hem sahaya çıkış sayısını azaltır hem maliyeti düşürür. İşleri size sorup listeledikten sonra, hangilerinin aynı erişim penceresinde yapılabileceğini birlikte belirleriz.",
+            },
+            {
+                soru: "Fabrikayı ilk kez görecek bir ekip mi geliyor, yoksa saha tanıdık mı olur?",
+                cevap:
+                    "Geniş hollerde, işin kendisinden önce kısa bir yerinde tanıma turu yapmayı tercih ederiz; tavan donanımının nerede yoğunlaştığını, hangi koridorun hangi genişlikte olduğunu operatör gözüyle görmek, ilerideki saatleri kısaltır. Daha önce çalıştığımız tesislerde bu tur kısadır çünkü sahayı zaten tanırız; yeni bir tesiste ise bu adımı atlamayız, çünkü tavan katmanındaki bir sürprizle sahada karşılaşmak, planlı işi geciktirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Denizli Organize Sanayi Bölgesinin tekstil ağırlıklı üretim yapısı ve iplik, dokuma, terbiye-boyahane, konfeksiyon üretim aşamalarının varlığı kamuya açık genel bilgidir; bölüm bazlı ortam-ekipman eşleşmeleri ve saha prosedürleri firma pratiğidir.",
+    },
+    "bolge:cardak-osb": {
+        h1: "Çardak Organize Sanayi Bölgesine Sevkiyat Planlı Ekipman Kiralama",
+        giris:
+            "Çardak, Denizli’nin il merkezine göre belirgin biçimde uzak ilçelerinden biridir ve bu mesafe, bölgedeki organize sanayi bölgesine hizmet verme biçimimizi doğrudan şekillendirir. Merkeze yakın bir OSB’de aynı gün içinde iki-üç kez sahaya çıkmak mümkünken, Çardak’ta her sevkiyat bir günlük programın parçası olarak kurulur; makinenin eksiksiz, doğru donanımla ve tek seferde gitmesi burada bir tercih değil zorunluluktur. Bölgedeki üretim, merkeze göre daha küçük ölçekli ve dağınık parsellerden oluşur; bu da tek bir sevkiyatla birden fazla işi birleştirmenin ekonomik açıdan daha kritik olduğu anlamına gelir. Bu sayfada, Çardak’a giden bir işin nasıl planlandığını, tek seferlik sevkiyatla tur düzeni arasındaki farkı, kontrol listesinin neden burada daha kapsamlı tutulduğunu ve bölgedeki tesislerle iletişimin nasıl kurulduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Mesafenin sevkiyat kararına etkisi",
+                metin:
+                    "Çardak’a giden bir iş için önce süre değil, iş hacmi sorulur: yarım günlük bir iş mi, yoksa birkaç günü kapsayan bir çalışma mı? Birkaç günü aşan işlerde makinenin sahada kalması zaten ekonomiktir, sevkiyat maliyeti işin süresine yayılır. Yarım günlük tekil bir iş içinse durum farklıdır; bu tür talepleri, aynı haftaya denk gelen başka Çardak işleriyle birleştirip tek seferde göndermeyi öneririz. Hangisinin sizin için uygun olduğunu, iş kapsamını öğrendikten sonra netleştiririz.",
+            },
+            {
+                baslik: "Tek seferlik sevkiyatta eksiksizlik kontrolü",
+                metin:
+                    "Merkeze yakın bir sahada eksik çıkan bir aksesuar veya yedek parça aynı gün tamamlanabilir; Çardak’ta aynı eksik, işin yarım günlük gecikmesi demektir. Bu yüzden buraya giden sevkiyatlarda kontrol listesi standart işlerden daha kapsamlı uygulanır: makinenin durumu, aksesuar seti, yedek parça ve gerekli evrak, araç yola çıkmadan önce tek tek gözden geçirilir. Bu kontrolün amacı, sahada “şu parça eksik” diye ikinci bir sevkiyat gerektirmemektir.",
+            },
+            {
+                baslik: "Bölgedeki parsellerin dağınık yapısı",
+                metin:
+                    "Çardak OSB’deki parseller, merkezdeki büyük OSB’ye göre daha küçük ölçekli ve birbirinden ayrık yerleşimlere sahiptir. Bu, tek bir günde birden fazla tesise uğramayı planlarken güzergâhın önceden kurulmasını gerektirir; hangi tesise hangi sırayla gidileceği, günün başında değil, talepler toplandığında belirlenir. Aynı gün içinde iki ayrı tesise hizmet vermek istiyorsanız, bu talebi mümkün olduğunca erken bildirmeniz, güzergâhın verimli kurulmasını sağlar.",
+            },
+            {
+                baslik: "İletişim ve teyit sürecinin önemi",
+                metin:
+                    "Uzak sahada telefonla teyit edilmemiş bir detay, yerinde düzeltilmesi en zor sorun hâline gelir. Bu yüzden Çardak’a giden her iş için, sevkiyattan önce saha sorumlusuyla kısa bir telefon teyidi yaparız: makinenin gireceği kapı, zemin durumu, çalışma saatleri ve varsa özel bir kısıt. Bu teyit, on dakikayı geçmeyen bir görüşmedir ama sahada saatler kazandırır — özellikle daha önce hiç çalışmadığımız bir tesiste.",
+            },
+            {
+                baslik: "Bakım ve destek erişiminin planlanması",
+                metin:
+                    "Uzun süreli bir kiralamada, makinenin periyodik bakımı veya beklenmeyen bir arıza durumunda destek ekibinin sahaya ulaşma süresi merkeze göre uzundur. Bu nedenle Çardak’taki uzun süreli işlerde, ikame makine süresi ve müdahale süresi baştan sözleşmeye yazılır; müşteri neyi ne zaman bekleyebileceğini bilir. Kritik bir üretim penceresinde çalışıyorsanız, bu maddeyi özellikle netleştirmenizi öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çardak’a giden işlerde planlama farkı",
+                paragraflar: [
+                    "Aşağıdaki tablo, merkeze yakın bir OSB işiyle Çardak’a giden bir işin planlama farkını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Planlama kalemi", "Merkeze yakın saha", "Çardak OSB"],
+                    satirlar: [
+                        ["Eksik parça durumunda", "Aynı gün tamamlanır", "Yarım gün gecikme riski"],
+                        ["Kontrol listesi", "Standart", "Genişletilmiş"],
+                        ["Sevkiyat kararı", "Tek iş için de mantıklı", "Tur/birleştirme tercih edilir"],
+                        ["Saha teyidi", "Gerekirse yapılır", "Her işte zorunlu"],
+                        ["Destek erişim süresi", "Kısa", "Baştan sözleşmeye yazılır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Birden fazla işi tek turda birleştirme",
+                paragraflar: [
+                    "Çardak OSB’den gelen talepleri elimizde topluca değerlendiririz; aynı haftaya denk gelen işleri, mümkün olduğunca aynı sevkiyat turuna yazarız. Bu, hem müşteri için maliyeti düşürür hem bizim için sahaya çıkış verimliliğini artırır. Turun kurulabilmesi için talebin biraz önceden bilinmesi gerekir; bu yüzden Çardak’taki müşterilerimize, planlı bakım işlerini mümkünse birkaç gün önceden bildirmelerini öneririz.",
+                    "Acil bir ihtiyaç çıktığında da tur beklemeden tekil sevkiyat yaparız; bunun maliyeti daha yüksektir ama işin aciliyeti bunu gerektiriyorsa tercih ederiz. Karar, işin ne kadar bekleyebileceğine bağlıdır ve bu kararı sizinle birlikte veririz.",
+                ],
+            },
+            {
+                baslik: "Yeni bir tesiste ilk çalışma",
+                paragraflar: [
+                    "Daha önce hizmet vermediğimiz bir Çardak tesisinde ilk iş, standart bir işten biraz daha uzun sürebilir; çünkü giriş kapısı, zemin durumu ve çalışma alanı sınırları ilk kez yerinde görülür. Bu ilk ziyaretten sonra tesisle ilgili bilgiler kayıt altına alınır ve sonraki işler bu bilgiye dayanarak daha hızlı planlanır.",
+                    "Bu nedenle Çardak’taki ilk talebinizde, mümkünse birkaç fotoğraf veya saha krokisi paylaşmanız faydalı olur; bu, telefon teyidini daha verimli kılar ve olası bir sürprizi sahaya varmadan öngörmemizi sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çardak’a sevkiyat ne kadar sürer?",
+                cevap:
+                    "Süre, işin hacmine ve aracın uygunluğuna göre değişir; kesin bir rakam vermek yerine talebi aldığımızda gerçekçi bir program çıkarırız. Belirleyici olan yalnızca mesafe değil, aynı haftaya denk gelen başka işlerin olup olmadığıdır — tur düzeninde gönderim, tekil sevkiyattan daha ekonomik ama biraz daha az esnektir. Acil bir ihtiyaçta tekil sevkiyatı önceliklendiririz.",
+            },
+            {
+                soru: "Tek günlük küçük bir işimiz var, yine de gönderir misiniz?",
+                cevap:
+                    "Göndeririz, ama önce aynı haftaya denk gelen başka Çardak taleplerini kontrol ederiz; varsa işinizi aynı tura ekleyerek maliyeti düşürürüz. Yoksa tekil sevkiyat yaparız — küçük iş de olsa hizmeti erteleyecek bir alt sınırımız yoktur, sadece en ekonomik yolu birlikte belirleriz.",
+            },
+            {
+                soru: "Makinede sahada bir eksik çıkarsa ne olur?",
+                cevap:
+                    "Bunu önlemek için Çardak’a giden sevkiyatlarda kontrol listesini standart işlerden daha kapsamlı uygularız: makine durumu, aksesuar, yedek parça ve evrak, araç yola çıkmadan önce tek tek gözden geçirilir. Yine de bir eksik çıkarsa, en yakın çözüm yolunu birlikte değerlendiririz; bazı durumlarda parça aynı gün ayrı bir araçla gönderilebilir, bazı durumlarda bir sonraki güne planlanır.",
+            },
+            {
+                soru: "Tesisimizin giriş kuralları var, bunu nasıl biliyorsunuz?",
+                cevap:
+                    "Bilmiyorsak sorarız. Sevkiyattan önce saha sorumlunuzla kısa bir telefon teyidi yaparız: makinenin gireceği kapı, zemin durumu, çalışma saatleri ve varsa özel bir kısıt bu görüşmede netleşir. Daha önce çalıştığımız bir tesiste bu bilgi zaten kayıtlıdır, teyit daha kısa sürer. İlk kez çalışıyorsak bu adımı hiç atlamayız.",
+            },
+            {
+                soru: "Uzun süreli kiralamada arıza olursa destek ne kadar sürede gelir?",
+                cevap:
+                    "Merkeze göre biraz daha uzun sürer, bunu baştan gizlemeyiz. Bu yüzden Çardak’taki uzun süreli işlerde ikame makine süresi ve müdahale süresi sözleşmeye yazılır; kritik bir üretim penceresinde çalışıyorsanız bu maddeyi özellikle netleştirmenizi öneririz. Basit bakım işleri için kullanıcı personele gösterilebilecek küçük bir rutin de paylaşırız, bu bazı duruşları önler.",
+            },
+            {
+                soru: "Aynı gün içinde iki ayrı Çardak tesisine gelebilir misiniz?",
+                cevap:
+                    "Mümkündür ama güzergâhın önceden kurulması gerekir; bölgedeki parseller merkezdeki büyük OSB’ye göre daha dağınık yerleşimdedir. İki talebi de erkenden bize bildirirseniz, aynı gün içinde uygun sırayla planlarız. Talep günün ilerleyen saatinde gelirse, ikinci ziyaret bir sonraki güne kayabilir; bu yüzden birden fazla iş varsa erken haber vermenizi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Çardak’ın Denizli il merkezine göre uzak konumu ve bölgedeki organize sanayinin merkeze göre daha küçük ölçekli olması kamuya açık genel bilgidir; sevkiyat, kontrol listesi ve destek erişim süreleri firma pratiğidir.",
+    },
+    "bolge:tavas": {
+        h1: "Tavas’ta Tesis ve Bina İşleri İçin Yüksekte Çalışma Ekipmanı",
+        giris:
+            "Tavas, Denizli’nin daha kırsal karakterli ilçelerinden biridir ve buradaki iş talepleri, il merkezindeki büyük OSB işlerinden farklı bir profil çizer: küçük ölçekli üretim tesisleri, tarımsal ürün işleme birimleri, ticari binalar ve kamu-yerel yönetim yapıları burada daha sık karşımıza çıkar. Bu ölçek farkı, hizmet biçimimizi de değiştirir — Tavas’taki bir iş genellikle tek bir bina veya tek bir tesisi kapsar, büyük bir sanayi kompleksinin parçası değildir. Bu da işin planlamasını basitleştirir ama başka bir gerçeği öne çıkarır: ilçe ölçeğinde sahada bulunan makine ve ekip seçeneği il merkezine göre daha sınırlıdır, bu yüzden doğru makinenin ilk seferde gönderilmesi burada daha önemlidir. Bu sayfada, Tavas’taki tipik iş türlerini, bina ve tesis işlerinde erişim planlamasını, ilçe ölçeğinde sevkiyatın nasıl kurulduğunu ve tarımsal işleme tesislerinin kendine özgü ortam koşullarını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Tarımsal ürün işleme tesislerinde ortam",
+                metin:
+                    "Tavas ve çevresindeki tarımsal ürün işleme birimlerinde ortam, organik toz ve zaman zaman nem yükü taşır; kurutma ve depolama bölümlerinde bu yük daha da belirginleşir. Bu tür tesislerde çalışan makinenin filtre ve soğutma bölümleri standart sanayi tesisine göre daha sık kontrol edilir. Ayrıca bu tesislerin çoğu, hasat dönemine bağlı yoğun bir çalışma takvimine sahiptir; bakım ve onarım işlerini bu yoğun dönemin dışına planlamak, hem tesis hem bizim için daha verimlidir.",
+            },
+            {
+                baslik: "Küçük ölçekli üretim binalarında tek katlı erişim",
+                metin:
+                    "İlçedeki küçük ölçekli üretim tesislerinin çoğu tek katlı ve orta yükseklikte binalardır; bu, büyük OSB’deki geniş hollere göre daha basit bir erişim tablosu çıkarır ama binanın çevresi genellikle dar sokak veya avluya açılır. Makinenin bina içine değil çevresine — dış cephe, çatı kenarı, tabela — erişmesi gereken işlerde, önce bina çevresinin manevra alanı değerlendirilir. Dar bir avluya sığmayan bir makine yerine, kompakt sınıf bir model tercih edilir.",
+            },
+            {
+                baslik: "Ticari ve kamu binalarında cephe ve çatı işleri",
+                metin:
+                    "İlçe merkezindeki ticari binalar ve yerel yönetim yapılarında en sık talep edilen iş, dış cephe bakımı, çatı kenarı onarımı ve tabela-aydınlatma işleridir. Bu binalar genellikle orta yükseklikte olduğu için dikey veya eklemli sınıf bir makine yeterli olur; asıl kısıt, binanın önündeki caddenin trafiğidir. Yoğun bir caddeye bakan binalarda çalışma saatleri, trafiğin en sakin olduğu döneme göre planlanır.",
+            },
+            {
+                baslik: "İlçe ölçeğinde makine ve ekip planlaması",
+                metin:
+                    "İl merkezine göre Tavas’ta sahada bulunan makine çeşitliliği daha sınırlıdır; bu yüzden talebi aldığımızda işin tam kapsamını netleştirip doğru sınıf makineyi ilk seferde göndermeye özen gösteririz. Yanlış sınıf bir makine gönderildiğinde, ikinci bir sevkiyat gerekir ve bu, ilçe mesafesinde günlerce sürebilecek bir gecikme yaratır. Bu nedenle Tavas’taki taleplerde ölçü ve erişim bilgisini standarttan biraz daha ayrıntılı sorarız.",
+            },
+            {
+                baslik: "Mevsimsel talebin sevkiyata etkisi",
+                metin:
+                    "Tarımsal işleme tesislerinin yoğun olduğu ilçede, hasat ve işleme sezonu dışındaki aylar bakım işleri için en uygun dönemdir; bu dönemde tesisler üretimi durdurup ekipman ve bina bakımına ağırlık verir. Bu mevsimsel ritim, bizim de sevkiyat planımıza yansır — sezon dışı aylarda Tavas’tan gelen talepler yoğunlaşır ve bunları önceden bilmek, makine ve ekip ayırmamızı kolaylaştırır. Sezon öncesi bir planlama görüşmesi, işin zamanında bitmesini garanti altına almanın en pratik yoludur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tavas’taki tesis tipine göre iş özeti",
+                paragraflar: [
+                    "İlçedeki iş taleplerinin büyük kısmı birkaç ana kategoride toplanır; aşağıdaki tablo bunları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tipik iş", "Ortam notu", "Önerilen makine sınıfı"],
+                    satirlar: [
+                        ["Tarımsal işleme", "Kurutma/depo bakımı", "Organik toz, nem", "Filtre sık kontrol edilir"],
+                        ["Küçük üretim tesisi", "Çatı, dış cephe", "Dar avlu erişimi", "Kompakt eklemli"],
+                        ["Ticari bina", "Tabela, aydınlatma", "Cadde trafiği", "Dikey veya kompakt eklemli"],
+                        ["Kamu/yerel yönetim yapısı", "Cephe, çatı onarımı", "Orta yükseklik", "Standart eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Doğru makinenin ilk seferde gitmesi",
+                paragraflar: [
+                    "İlçe mesafesinde çalışırken en çok kaçınmak istediğimiz şey, yanlış sınıf makine göndermektir; bu hem müşteri için gecikme hem bizim için ekstra sevkiyat maliyeti demektir. Bunu önlemek için Tavas’taki her talepte birkaç ek soru sorarız: binanın yüksekliği, çevresindeki manevra alanı, zeminin sertliği ve varsa mevsimsel bir kısıt.",
+                    "Bu sorulara net cevap alabildiğimiz her işte, makine ilk seferde doğru gider ve iş planlanan sürede biter. Bilgi eksikse, kısa bir telefon görüşmesiyle ya da paylaşılan birkaç fotoğrafla bu boşluğu kapatırız.",
+                ],
+            },
+            {
+                baslik: "Sezon dışı bakım planlaması",
+                paragraflar: [
+                    "Tarımsal işleme tesisleri için sezon dışı aylar, hem bina hem ekipman bakımının en verimli yapıldığı dönemdir. Bu dönemde talep yoğunlaştığı için, planlı bakım işlerinizi mümkünse birkaç hafta önceden bize bildirmenizi öneririz; bu, hem sizin için tarih güvencesi hem bizim için verimli bir program anlamına gelir.",
+                    "Beklenmedik bir ihtiyaç sezon içinde de çıkabilir; bu durumda elimizdeki müsaitliğe göre en hızlı çözümü sunarız, ama planlı işleri sezon dışına almak genel olarak daha az maliyetli ve daha az riskli bir yoldur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tavas’a hangi makineleri gönderiyorsunuz?",
+                cevap:
+                    "İlçedeki işlerin çoğu tek katlı veya orta yükseklikte binaları kapsadığı için kompakt eklemli ve dikey sınıf makineler en sık tercih edilenlerdir. Ancak binanın çevresindeki manevra alanı ve zeminin sertliği belirleyici olduğu için, talep alırken bu bilgiyi mutlaka sorarız. İlçe ölçeğinde sahadaki makine çeşitliliği il merkezine göre daha sınırlı olduğundan, doğru sınıfı ilk seferde belirlemeye özellikle önem veririz.",
+            },
+            {
+                soru: "Tarımsal işleme tesisimizde toz çok fazla; makineye zarar verir mi?",
+                cevap:
+                    "Organik toz, standart sanayi tozundan farklı bir yapıya sahip olsa da makinenin filtre ve soğutma bölümlerini benzer biçimde etkiler. Bu tür tesislere giden makinelerde filtre kontrolünü normalden sık tutarız ve dönüşte ayrı bir temizlik uygularız. Hasat döneminin yoğunluğu nedeniyle mümkünse bakım işlerini bu dönemin dışına planlamanızı öneririz; bu hem tesisiniz hem makine için daha uygun bir zamanlama sağlar.",
+            },
+            {
+                soru: "Binamızın çevresi dar bir sokağa açılıyor, makine sığar mı?",
+                cevap:
+                    "Bunu önceden değerlendiririz. Dar bir sokak veya avluya sığmayan geniş şasili bir makine yerine, kompakt eklemli sınıf bir model öneririz; bu sınıf, standart makinelere göre çok daha az yer kaplar. Kesin karar için sokağın genişliğini ve varsa park kısıtını talep aşamasında sizden öğreniriz; birkaç fotoğraf paylaşmanız kararı hızlandırır.",
+            },
+            {
+                soru: "İşimiz küçük, yine de ilçeye kadar gelir misiniz?",
+                cevap:
+                    "Geliriz; ilçe ölçeğinde iş büyüklüğüne göre bir alt sınır uygulamayız. Küçük bir iş için de aynı özenle planlama yaparız — doğru makinenin ilk seferde gitmesi, iş küçük olduğunda bile önemlidir, çünkü ilçe mesafesinde bir ikinci sevkiyat, işin kendisinden daha uzun sürebilir.",
+            },
+            {
+                soru: "Hasat sezonunda acil bir arıza çıkarsa ne kadar sürede gelirsiniz?",
+                cevap:
+                    "Sezon içindeki müsaitliğimize göre en hızlı çözümü sunarız; kesin bir süre vermek yerine talebi aldığımızda elimizdeki durumu net biçimde bildiririz. Bu tür acil durumları azaltmak için sezon öncesi bir bakım turu önermemizin sebebi de budur — sezon içindeki riskleri, sezon dışında önceden gidermek çoğu zaman mümkündür.",
+            },
+            {
+                soru: "İlçe merkezindeki bir kamu binasında çalışma için özel bir izin gerekir mi?",
+                cevap:
+                    "Kamu binalarında genellikle idarenin kendi onay süreci vardır; bu süreç bina yönetimiyle veya ilgili kurumla önceden görüşülüp netleştirilir. Cadde üzerinde iş yapılacaksa, ilçe belediyesinin işgaliyet izni de gerekebilir. Bu izin süreçlerini iş planına baştan dahil ederiz ki çalışma günü izin beklenerek kaybedilmesin; hangi izinlerin gerektiğini keşif aşamasında birlikte tespit ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Tavas’ın Denizli’nin daha kırsal karakterli, tarımsal üretimin öne çıktığı bir ilçesi olması kamuya açık genel bilgidir; tesis tipi-ortam eşleşmeleri sektör geneli teknik bilgi, makine seçimi ve sevkiyat planlaması firma pratiğidir.",
+    },
+    "bolge:merkezefendi": {
+        h1: "Merkezefendi’de Küçük Sanayi Sitesi ve Ticari Cephe İşleri",
+        giris:
+            "Merkezefendi, Denizli’nin idari merkezini taşımasının yanında, şehrin en yoğun küçük sanayi sitesi kümesine de ev sahipliği yapar; oto tamirci, yedek parça, marangoz ve metal işleri gibi küçük ölçekli atölyeler burada yan yana sıralanır ve bu sitelerin fiziksel düzeni, büyük OSB’den tamamen farklıdır. Bloklar arası dar geçitler, düşük tavan yüksekliği ve her atölyenin kendi küçük cephesi, buradaki bir platform işini büyük bir fabrika hangarındaki işten ayırır. Bunun yanında ilçenin ticari omurgasını oluşturan cadde ve bulvarlardaki mağaza, iş hanı ve banka şubesi cepheleri, ayrı bir iş kategorisi oluşturur — burada kısıt yükseklik değil, kaldırım ve yaya trafiğidir. Bu sayfada, küçük sanayi sitesindeki dar geçit ve düşük tavan gerçeğini, ticari cephelerde kaldırım işgaliyle çalışmanın kurallarını ve bu iki farklı saha tipinin aynı ilçede nasıl bir arada hizmet aldığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Küçük sanayi sitesinde dar blok aralığı",
+                metin:
+                    "Merkezefendi’deki küçük sanayi siteleri, birbirine bitişik veya çok yakın bloklardan oluşur ve blok araları genellikle bir aracın zorlukla döneceği genişliktedir. Bu daraltılmış alanda geniş şasili bir makine kullanmak mümkün değildir; kompakt dikey veya dar gövdeli eklemli sınıf makineler burada standart seçimdir. Talep alırken blok aralığının genişliğini ve varsa park eden araçların oluşturduğu ek daralmayı sorar, makineyi buna göre seçeriz.",
+            },
+            {
+                baslik: "Atölye içi düşük tavan yüksekliği",
+                metin:
+                    "Sanayi sitesindeki atölyelerin çoğu, büyük fabrika hollerine göre çok daha düşük tavanlıdır; bu, yüksek erişim gerektiren bir işin nadiren bu atölyelerin içinde olduğu, daha çok dış cephede veya çatı düzeyinde yürütüldüğü anlamına gelir. İç mekân işleri genellikle aydınlatma değişimi veya kısa bir tavan onarımıyla sınırlı kalır ve bu işler için kompakt makul yükseklikte bir makine yeterlidir. Atölye içindeki malzeme yığınları ve makine düzeni, manevra alanını daha da daraltabileceği için bu bilgiyi de önceden sorarız.",
+            },
+            {
+                baslik: "Ticari cephelerde kaldırım ve yaya kısıtı",
+                metin:
+                    "İlçenin ana caddelerindeki mağaza, banka şubesi ve iş hanı cephelerinde çalışırken asıl kısıt yükseklik değil, kaldırımın dar olması ve gün boyu süren yaya trafiğidir. Bu noktalarda makine, tek bir yaya şeridini kapatacak şekilde konumlanır ve geçici bariyerle çevrilir; işgal alanı mümkün olduğunca dar tutulur. Yoğun saatlerde çalışmak yerine, mümkünse sabah erken veya trafiğin azaldığı saatler tercih edilir.",
+            },
+            {
+                baslik: "İşgaliyet ve belediye izin süreci",
+                metin:
+                    "Kaldırım veya yol kenarında makine konumlandırmak, çoğu zaman ilçe belediyesinden işgaliyet izni gerektirir; bu izin süreci, iş tarihinden önce başlatılmalıdır çünkü başvuru ve onay birkaç gün sürebilir. İş planına bu süreyi baştan dahil ederiz; müşterimizin cephesindeki bir işi son dakikaya bırakıp izin beklerken makineyi boşta tutmak istemeyiz. İzin başvurusunu kimin yapacağı — bina sahibi mi biz mi — her işte netleştirilir.",
+            },
+            {
+                baslik: "Aynı ilçede iki farklı saha kültürü",
+                metin:
+                    "Merkezefendi’ye giden ekip, aynı gün içinde sabah bir sanayi sitesindeki dar bir atölye cephesinde, öğleden sonra ana caddedeki bir mağaza tabelasında çalışabilir; bu iki iş, birbirinden tamamen farklı bir hazırlık gerektirir. Sanayi sitesinde öncelik makinenin dar geçitten geçebilmesidir, cadde üzerinde ise öncelik yaya güvenliği ve işgal süresinin kısa tutulmasıdır. Bu farkı gözeten bir program kurmak, ilçedeki günlük planlamamızın temelini oluşturur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Merkezefendi’deki iki saha tipi karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilçedeki iki farklı saha tipinin kısıtlarını ve buna göre uyguladığımız yaklaşımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Ana kısıt", "Tipik iş", "Makine/tercih"],
+                    satirlar: [
+                        ["Küçük sanayi sitesi", "Dar blok aralığı", "Çatı, cephe onarımı", "Kompakt dikey/eklemli"],
+                        ["Sanayi sitesi atölye içi", "Düşük tavan", "Aydınlatma, kısa onarım", "Makul yükseklikte kompakt"],
+                        ["Ticari cadde cephesi", "Kaldırım, yaya trafiği", "Tabela, cephe kaplama", "Dar işgalli konumlandırma"],
+                        ["İş hanı/banka şubesi", "İzin süreci", "Cephe, aydınlatma", "Belediye izniyle planlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sanayi sitesinde günlük program kurma",
+                paragraflar: [
+                    "Küçük sanayi sitelerinden gelen talepler genellikle küçük ölçekli ama sık tekrarlanan işlerdir — bir atölyenin çatı onarımı, komşu atölyenin tabela değişimi gibi. Bu talepleri, aynı bölgedeki başka işlerle birleştirip tek bir güne yazmak, hem müşteri hem bizim için sevkiyat verimliliğini artırır.",
+                    "Blok aralığının dar olması nedeniyle, sahaya varmadan önce park düzenini ve o günkü araç yoğunluğunu telefonla teyit etmeyi tercih ederiz; bu küçük adım, makinenin sahaya girememesi gibi bir sürprizi önler.",
+                ],
+            },
+            {
+                baslik: "Cadde üzerinde işi kısa sürede bitirme",
+                paragraflar: [
+                    "Ticari cephede geçirilen her ek dakika, hem yaya trafiğini hem mağaza işleyişini etkiler; bu yüzden cadde üzerindeki işlerde hazırlığı önceden tamamlamaya özel önem veririz. Malzeme, ekipman ve gerekli izin belgesi sahaya varmadan önce hazır olur; makine geldiğinde iş doğrudan başlar.",
+                    "Mümkün olduğunda işi sabah erken saatlere veya hafta sonuna planlamak, hem işgal süresini hem yaya etkisini azaltır. Bu tercih size uygunsa, talep formunda saat tercihinizi belirtmeniz planlamayı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sanayi sitemizdeki blok aralığı çok dar, makine girebilir mi?",
+                cevap:
+                    "Çoğu durumda evet, ama makine seçimi buna göre yapılır. Kompakt dikey veya dar gövdeli eklemli sınıf makineler, standart bir aracın zorlukla döneceği genişlikteki geçitlerden bile geçebilir. Kesin karar için blok aralığının genişliğini ve o gün beklenen araç yoğunluğunu önceden sorarız; gerekirse sahaya varmadan kısa bir telefon teyidi yaparız.",
+            },
+            {
+                soru: "Atölyemizin tavanı düşük, iç mekânda çalışabilir misiniz?",
+                cevap:
+                    "Evet, ama düşük tavan zaten çoğu zaman yüksek erişim gerektiren bir iş anlamına gelmez; bu tür atölyelerdeki işler genellikle kısa bir aydınlatma değişimi veya küçük bir tavan onarımıyla sınırlıdır ve makul yükseklikte kompakt bir makine bunun için yeterlidir. Atölye içindeki malzeme yığınları manevra alanını daraltabileceği için, iç düzeni önceden bilmemiz faydalı olur.",
+            },
+            {
+                soru: "Mağaza cephemizde çalışacaksınız, kaldırımı tamamen kapatır mısınız?",
+                cevap:
+                    "Hayır, işgal alanını mümkün olduğunca dar tutarız — genellikle tek bir yaya şeridi geçici bariyerle çevrilir, kaldırımın tamamı kapatılmaz. Yoğun saatlerde çalışmak yerine, mümkünse sabah erken veya trafiğin azaldığı saatleri tercih ederiz. Cephenizin önündeki trafik yoğunluğunu bilmemiz, en uygun saati belirlememizi kolaylaştırır.",
+            },
+            {
+                soru: "Kaldırımda çalışmak için izin gerekiyor mu, bunu siz mi alıyorsunuz?",
+                cevap:
+                    "Kaldırım veya yol kenarında makine konumlandırmak çoğu zaman ilçe belediyesinden işgaliyet izni gerektirir. Bu süreci kimin yürüteceğini — bina sahibi mi biz mi — her işte netleştiririz ve başvuru süresini iş planına baştan dahil ederiz, çünkü onay birkaç gün sürebilir. İzin olmadan makineyi kaldırıma konumlandırmayız.",
+            },
+            {
+                soru: "Aynı gün hem sanayi sitesinde hem cadde üzerinde işimiz var, tek ekip mi geliyor?",
+                cevap:
+                    "Genellikle evet, ama iki işin gerektirdiği hazırlık farklı olduğu için program buna göre kurulur — sanayi sitesindeki iş için dar geçit ölçüsü, cadde işi için izin belgesi ve işgal planı önceden hazırlanır. İki işi de erken bildirirseniz, aynı gün içinde verimli bir sırayla planlarız; geç gelen taleplerde ikinci iş bir sonraki güne kayabilir.",
+            },
+            {
+                soru: "Küçük bir atölye için de mi aynı özenle planlama yapıyorsunuz?",
+                cevap:
+                    "Evet, iş küçük olsa da planlama aynı titizlikte yapılır; çünkü dar bir blok aralığına yanlış ölçüde bir makine göndermek, işin büyüklüğünden bağımsız olarak sahada tıkanmaya yol açar. Küçük işler için de blok aralığı, tavan yüksekliği ve varsa cadde kısıtını sorar, ona göre makine seçeriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Merkezefendi’nin Denizli’nin idari merkezi olması ve ilçede küçük sanayi siteleri ile ticari cadde-bulvar dokusunun bir arada bulunması kamuya açık genel bilgidir; saha tipi-makine eşleşmeleri ve işgaliyet süreci firma pratiğidir.",
+    },
 };

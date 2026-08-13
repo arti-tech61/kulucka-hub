@@ -808,4 +808,301 @@ export const USAKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Manisa’nın dayanıklı tüketim ve elektronik üretimindeki ağırlığı kamuya açık genel bilgidir; çevre il uygunluk değerlendirmesi, sözleşme maddeleri ve evrak hazırlık düzeni firma pratiğidir. Tesis adı, filo sayısı ve rakam verilmemiştir.",
     },
+
+    "bolge:usak-deri-karma-osb": {
+        h1: "Uşak Deri Karma OSB’de Islak Proses Alanları İçin Platform Kiralama",
+        giris:
+            "Uşak Deri Karma OSB, ilin dokuma-ağırlıklı sanayi kimliğinden ayrı bir dünya kurar: burada üretimin merkezinde toz değil su ve kimyasal vardır. Tabaklama, boyama ve apre hatlarının işlediği hollerde zemin sürekli ıslaktır, hava nemli ve kimyasal buhar yüklüdür, metal her yüzeyde daha hızlı yorulur. Bu OSB’deki platform işi, dokuma holündeki lif temizliğinden veya tekstil boyahanesindeki kısa süreli nem sorunundan çok daha kapsamlıdır — çünkü burada nem ve kimyasal, ana üretim prosesinin kendisidir, arada bir karşılaşılan bir yan etki değil. Yükseklikte çalışacak bir makinenin bu ortamda güvenli, dayanıklı ve mevzuata uygun kalması, tesisin günlük işleyişi kadar bizim işimizin de merkezindedir. Uşak’ın yerlisi olarak deri sanayisiyle yıllardır iç içe çalışan ekibimiz, bu OSB’nin kendine özgü kurallarını dışarıdan öğrenmedi; sahada yaşayarak öğrendi.",
+        maddeler: [
+            {
+                baslik: "Islak proses hollerinde zemin ve kurulum koşulları",
+                metin:
+                    "Tabaklama ve yıkama bölümlerinde zemin çoğu zaman eğimlidir — su ve kimyasal atığın tahliye kanalına akması için bilinçli olarak öyle yapılmıştır. Bu eğim, platformun kurulumunu doğrudan etkiler: makine yatay bir referans noktasına göre konumlanmalı, tekerlek altına gerekiyorsa takoz veya plaka konmalıdır. Tahliye kanalı kapakları üstünden geçiş güzergâhı önceden işaretlenir, kapağın taşıma sınırı bilinmiyorsa güzergâh değiştirilir. Zemindeki kayganlık, ıslak deri parçaları veya köpük birikintisi nedeniyle görünenden fazla olabilir; operatörümüz her konumlamadan önce zemini kendi gözüyle kontrol eder, tahmine güvenmez.",
+            },
+            {
+                baslik: "Egzoz bacaları ve koku tahliye sisteminin bakımı",
+                metin:
+                    "Deri işlemede ortaya çıkan kimyasal buharın atılması, hem işçi sağlığı hem çevre mevzuatı açısından tesisin en kritik alt yapılarından biridir. Çatı üstü egzoz bacaları, filtre üniteleri ve kanal bağlantıları düzenli kontrol ister; tıkanan veya zayıflayan bir bağlantı, hem koku şikâyetine hem iç ortamda buhar birikmesine yol açar. Bu işler genellikle çatı kotunda ve bazen doğrudan baca gövdesinin üstünde yapılır; eklemli platform, bacanın etrafını saracak biçimde erişim sağlar. Kontrol turlarını, tesisin filtre değişim takvimiyle birlikte planlarız — böylece aynı seansta hem baca hem filtre kapağı açılır.",
+            },
+            {
+                baslik: "Metal aksamın korozyona karşı korunması",
+                metin:
+                    "Nemli ve kimyasal yüklü havada çelik konstrüksiyon, kablo tavası, aydınlatma armatürü gövdesi ve hatta çatı bağlantı elemanları, kuru bir üretim holündekinden belirgin biçimde daha hızlı paslanır. Bu OSB’deki bakım turlarının önemli bir kısmı, korozyonu erken yakalamaya yöneliktir — pas başlangıcı, gevşeyen cıvata, incelmiş sac kenarı gibi bulgular sepetten yakından görülür ve fotoğraflanır. Erken müdahale, birkaç yıl sonra büyük bir tadilata dönüşecek bir sorunu küçük bir onarımda durdurur. Bu turları tesisin yıllık bakım takvimine sabit bir kalem olarak eklemesini öneririz; deri OSB’sinde erteleme, dokuma holündekinden daha pahalıya patlar.",
+            },
+            {
+                baslik: "Arıtma tesisi ve kimyasal depolama alanlarında erişim",
+                metin:
+                    "Deri tesislerinin ayrılmaz parçası olan atık su arıtma üniteleri — havuzlar, tanklar, aeratör köprüleri — düzenli kontrol ve bazen onarım gerektirir. Bu alanlarda çalışma iki kuralla sınırlıdır: havuz kenarına yaklaşan her makine sabit bir mesafe payı bırakır ve kimyasal buharın yoğun olduğu noktalarda çalışma süresi kısa bloklara bölünür. Kimyasal depolama alanlarında ise makinenin kendisi de risk taşıyabilir — elektrikli aksamın kıvılcım riski, deponun sınıfına göre değerlendirilir ve tesisin kendi ex-proof kurallarına uyulur. Bu alanlara girmeden önce tesisin İSG sorumlusuyla birlikte kısa bir saha turu yaparız; kural dışına çıkan hiçbir talebi kabul etmeyiz.",
+            },
+            {
+                baslik: "Tabaklama ve kurutma hollerinde çatı ve tavan işleri",
+                metin:
+                    "Kurutma bölümlerinde sıcak ve nemli hava sürekli yukarı yükselir; bu da çatı iç yüzeyinde yoğuşma, tavan kaplamasında şişme ve zamanla sızdırmazlık kaybı olarak kendini gösterir. Çatı içeriden kontrol edilirken hem yalıtım malzemesinin durumu hem aydınlatma armatürlerinin nem hasarı birlikte değerlendirilir. Dışarıdan yapılan çatı işlerinde ise kaplama derzleri, oluk-dere sistemi ve baca geçiş detayları öncelik taşır — bu OSB’de çatı sızıntısı, altındaki kurutma ekipmanına doğrudan zarar verdiği için sıradan bir bina bakımı değil, üretim riski olarak ele alınır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Deri işleme bölümlerine göre makine ve koşul eşleşmesi",
+                paragraflar: [
+                    "Deri Karma OSB’deki tesislerin bölümleri, ortam koşulu ve erişim açısından belirgin farklılık gösterir. Aşağıdaki tablo, hangi bölümde hangi makine ve önlemle çalıştığımızı özetler; kesin seçim keşifte netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Bölüm", "Ortam kısıtı", "Makine", "Erişimi belirleyen"],
+                    satirlar: [
+                        ["Islak proses / tabaklama", "Eğimli, ıslak zemin", "Akülü makaslı, takozlu", "Tahliye kanalı, kayganlık"],
+                        ["Boyama-apre", "Nem, kimyasal buhar", "Akülü makaslı", "Çalışma süresi blokları"],
+                        ["Kurutma", "Sıcak-nemli hava, yoğuşma", "Makaslı / eklemli", "Yalıtım ve çatı durumu"],
+                        ["Arıtma tesisi", "Havuz kenarı, buhar", "Eklemli, mesafe paylı", "Havuz güvenlik payı"],
+                        ["Kimyasal depo çevresi", "Kıvılcım riski", "Değerlendirmeye bağlı", "Tesisin ex-proof kuralı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kimyasal maruziyet ve koruyucu donanım protokolü",
+                paragraflar: [
+                    "Deri OSB’sinde çalışan her operatörümüz, tesise girmeden önce o tesisin kendi kimyasal risk değerlendirmesini görür ve buna göre koruyucu donanım giyer — eldiven, gözlük, gerekiyorsa solunum koruma. Bu, bizim standart bir uygulamamız değil, tesisin talebinin doğrudan karşılığıdır; hangi tesiste hangi ekipmanın zorunlu olduğunu kendi prosedürünüz belirler, biz uyarız. Şartnamenizde karşılayamayacağımız bir madde varsa bunu teklif aşamasında açıkça söyleriz, sahada sürprize bırakmayız.",
+                    "Makine tarafında da benzer bir hazırlık yapılır: kimyasal sıçramaya dayanıklı olmayan elektrik bağlantıları kapatılır, hidrolik sistem kaçak kontrolünden geçirilir ve iş bitiminde makine yıkanıp durulanır. Bu yıkama, bir sonraki tesise kimyasal taşınmasını önlemek için zorunludur — deri OSB’sinden çıkan bir makine, dokuma holüne veya gıda tesisine kimyasal izle girmez.",
+                ],
+            },
+            {
+                baslik: "Koku ve emisyon yönetiminin bakım takvimine etkisi",
+                paragraflar: [
+                    "Deri işlemenin en görünür dışsallığı kokudur ve OSB’deki tesislerin çoğu, emisyon ve koku yönetimini yıllık denetim dosyasının en hassas kalemi olarak takip eder. Egzoz bacası ve filtre bakımının ertelenmesi, yalnızca iç ortam kalitesini değil, tesisin çevre mevzuatı karşısındaki durumunu da etkiler. Bu yüzden bu OSB’deki müşterilerimizden gelen taleplerin önemli bölümü, denetim öncesi hazırlık dönemine denk gelir — baca, filtre ve havalandırma kontrolü, denetim tarihinden haftalar önce tamamlanmak istenir.",
+                    "Bizim tarafımızdaki karşılığı, bu talepleri son haftaya sıkıştırmamaktır. Denetim takviminizi paylaşırsanız kontrol turunu önceden planlarız; son anda gelen taleplerde uygun makine bulma şansı düşer, çünkü aynı dönemde bölgedeki diğer tesisler de benzer hazırlığı yapar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Islak zeminde çalışan bir platform güvenli mi, kayma riski var mı?",
+                cevap:
+                    "Doğru hazırlıkla güvenlidir ama bu hazırlık atlanamaz. Konumlama öncesinde zemin operatörümüz tarafından kontrol edilir; eğimli veya kaygan noktalarda tekerlek altına takoz ya da yük dağıtıcı plaka konur, gerekirse konum kaydırılır. Tahliye kanalı kapakları üstünden geçiş, kapağın taşıma sınırı bilinmeden yapılmaz. Aşırı köpük veya taze kimyasal döküntüsü olan bir alanda çalışma, alan temizlenene kadar başlatılmaz — bu, tartışmaya açık olmayan bir kuraldır. Sahaya ilk giren makine değil operatördür; onun onayı olmadan sepet yükselmez.",
+            },
+            {
+                soru: "Kimyasal buharın yoğun olduğu bölümlerde elektrikli makine çalıştırmak riskli mi?",
+                cevap:
+                    "Bölümün sınıfına göre değişir ve bu değerlendirmeyi tesisin kendi risk dokümanına göre yaparız. Standart üretim ve boyama alanlarında akülü makaslı platformlar rutin biçimde çalışır. Kimyasal depolama gibi kıvılcım riski taşıyan özel alanlarda ise tesisin ex-proof kuralı geçerlidir ve bu kural bizim makine seçimimizi doğrudan belirler — gerekiyorsa çalışma farklı bir yöntemle veya tesisin kendi ekipmanıyla yürütülür. Hangi bölümün hangi sınıfa girdiğini önceden sormamızın nedeni budur; bu bilgi olmadan teklif vermeyiz.",
+            },
+            {
+                soru: "Arıtma tesisindeki havuz ve tank üstü işlerde nasıl bir güvenlik payı bırakıyorsunuz?",
+                cevap:
+                    "Havuz kenarına yaklaşan her makine, önceden belirlenmiş sabit bir mesafe payı bırakır; bu pay havuzun derinliğine ve kenar yapısına göre keşifte netleşir. Sepetten yapılan iş, havuzun üstüne doğrudan uzanmayı gerektiriyorsa bunu yalnızca kenar bariyeri veya benzer bir güvenlik önlemi mevcutken yaparız. Kimyasal buharın yoğun olduğu noktalarda çalışma süresi kısa bloklara bölünür ve operatör rotasyonu uygulanır. Tesisin arıtma birimi kendi giriş iznini gerektiriyorsa bu izin, çalışma başlamadan tamamlanmış olmalıdır — biz bu süreci hızlandırmayız, bekleriz.",
+            },
+            {
+                soru: "Makineniz bu ortamda hızlı mı yıpranıyor, arıza riski artıyor mu?",
+                cevap:
+                    "Artıyor, biz de bunu saklamıyoruz — nemli ve kimyasal yüklü hava, kuru bir dokuma holüne göre metal aksamı daha hızlı yorar. Bunun karşılığı bizim bakım takvimimizde: bu OSB’ye giden makinelerde korozyon kontrolü daha sık yapılır, hidrolik bağlantılar iş sonunda kontrol edilir ve makine her seferinde yıkanıp durulanarak geri alınır. Uzun süreli kiralamalarda ara bakım ziyareti takvime baştan yazılır. Kiracının bu yükü hissetmemesi gerekir; makinenin ortama dayanması bizim sorumluluğumuzdur.",
+            },
+            {
+                soru: "Denetim öncesi baca ve filtre kontrolünü ne kadar önceden planlamalıyız?",
+                cevap:
+                    "Mümkünse denetim tarihinden birkaç hafta önce. Bunun nedeni bölgesel yoğunluktur — OSB’deki tesislerin çoğu benzer denetim dönemlerine hazırlanır ve son haftada uygun makine bulmak zorlaşır. Erken planlanan bir turda baca, filtre ve havalandırma kanalları birlikte kontrol edilir; bulunan bir sorun düzeltilecek zaman payı bırakır. Son ana bırakılan bir talepte ise sorun bulunsa bile onarıma vakit kalmayabilir. Denetim takviminizi bize erken bildirmeniz, bu OSB’de en çok fark yaratan tek adımdır.",
+            },
+            {
+                soru: "Makineniz dokuma veya gıda tesisinden geliyorsa deri OSB’sine kimyasal bulaştırmadan girebilir mi?",
+                cevap:
+                    "Girer, çünkü tam tersi durumu da önlemek için aynı kuralı uyguluyoruz: her tesisten çıkan makine bir sonraki tesise gitmeden önce yıkanır ve durulanır, iz bırakan kalıntı kontrol edilir. Deri OSB’sine giden makinede ayrıca hidrolik kaçak kontrolü ve elektrik bağlantılarının nem sızdırmazlığı gözden geçirilir. Bu yıkama süreci teklife dahildir, ayrı bir kalem olarak faturalandırılmaz. Farklı sektörlerden gelen tesislerle çalışmanın getirdiği bu çapraz kirlenme riskini bilerek çalışıyoruz; her geçişte aynı temizlik adımını uyguluyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Uşak Deri Karma OSB’nin deri işleme ihtisas OSB’si olması ve tabaklama-boyama-apre süreçlerinin ıslak proses karakteri kamuya açık genel bilgidir; kimyasal protokol, korozyon kontrol sıklığı ve tesisler arası yıkama uygulaması firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "bolge:banaz-osb": {
+        h1: "Banaz OSB’de Sevkiyat Alanları ve Tesis İşleri İçin Platform Kiralama",
+        giris:
+            "Banaz Organize Sanayi Bölgesi, ilçenin karayolu aksına yakınlığından doğrudan beslenir ve bu yüzden buradaki tesislerin çoğunda üretim kadar sevkiyat da gündelik ritmi belirler. Rampa kapıları sabah erken açılır, tırlar sıraya girer, forkliftler avluda sürekli hareket eder — ve tam da bu hareketli düzenin ortasına bir yükseklik işi sığdırmak, il merkezindeki sakin bir dokuma holünden çok farklı bir planlama gerektirir. Bu OSB’deki kiralamalarımızın odağı budur: dok kapısı mekanizmaları, rampa üstü aydınlatma, sevkiyat holünün tavan hattı ve avlu manevrasının sevkiyat trafiğiyle çakışmadan yürütülmesi. Genel ilçe profilimizden farklı olarak burada mesele holün ne ürettiği değil, o holden neyin ne zaman çıktığıdır — ve makinemiz bu çıkışın önüne asla geçmez.",
+        maddeler: [
+            {
+                baslik: "Yükleme-boşaltma saatleriyle senkronize çalışma",
+                metin:
+                    "OSB’deki tesislerin sevkiyat yoğunluğu gün içinde düzenli bir dalga izler; sabah ve öğleden sonra belirli saatlerde rampa trafiği zirve yapar, öğle arası ve akşama yakın saatlerde düşer. Platform işini bu dalganın çukuruna yerleştirmek, hem makinenin bekleme yaşamamasını hem sevkiyatın hiç aksamamasını sağlar. Bu yüzden Banaz OSB’sindeki her teklifte ilk sorduğumuz şey haftalık sevkiyat yoğunluk tablosudur — hangi gün hangi saatte kaç araç giriyor. Bu tablo olmadan verilen bir çalışma saati, sahada ilk tırla birlikte bozulur.",
+            },
+            {
+                baslik: "Dok kapısı mekanizmaları ve rampa üstü aydınlatma",
+                metin:
+                    "Sevkiyat holünün en sık arızalanan noktası dok kapısı mekanizmasıdır — makara, kayış, fotosel ve acil durdurma sistemleri sürekli hareketten yorulur. Bu mekanizmaların bakımı ve rampa üstü aydınlatmanın yenilenmesi, kapının kapalı olduğu bir pencerede yapılmalıdır; çünkü çalışma sırasında kapı hareket ettirilemez. Kısa ama kesin bir pencere gerektiren bu işler, sevkiyat programının kendi boşluğuna değil, bizim önerdiğimiz sabit bir zaman dilimine yazılır — genellikle iki sevkiyat dalgası arasındaki en sakin saat.",
+            },
+            {
+                baslik: "Sevkiyat holü ile üretim holü arası geçiş bölgeleri",
+                metin:
+                    "Çoğu OSB tesisinde üretim ve sevkiyat, aynı bina içinde ama ayrı hollerde yürür; ikisini birbirine bağlayan geçiş bölgesi — konveyör köprüsü, paketleme hattı sonu, ara depo — kendine özgü bir tavan yoğunluğu taşır. Bu bölgede aydınlatma, yangın algılama ve havalandırma kalemleri iç içe geçtiği için tek bir turda birlikte ele alınır. Geçiş bölgesinin dar olması, çoğunlukla dar şasili bir makine gerektirir; forklift güzergâhıyla çakışmaması için konumlama, boş bir vardiya arasına denk getirilir.",
+            },
+            {
+                baslik: "Avlu manevrasında tır ve forklift trafiği",
+                metin:
+                    "OSB avlularında platformun en büyük rakibi yükseklik değil trafiktir: bekleyen tırlar, manevra yapan forkliftler ve sabit park eden araçlar, makinenin hem giriş güzergâhını hem çalışma alanını daraltır. Bu yüzden dış cephe ve çatı kenarı gibi avludan yapılan işlerde önce trafiğin en seyrek olduğu saat belirlenir, ardından o saat için geçici bir çalışma alanı ayrılması istenir. Komşu tesisle avlu paylaşımı varsa, çalışma öncesinde kısa bir haber turu yapılır — makinenin bomu, kimsenin haberi olmadan bir forklift güzergâhının üstüne uzanmaz.",
+            },
+            {
+                baslik: "OSB içi tesisler arası kısa taşımanın ekonomisi",
+                metin:
+                    "Banaz OSB’sinde birden fazla tesisi olan gruplar için makine, aynı gün içinde bir tesisten diğerine kısa bir nakille taşınabilir. Bu, günlük kiralamayı bölmeden, tek sevkiyat bedeliyle iki veya üç tesisin işini kapatmanın en pratik yoludur. Şartımız nettir: taşıma güzergâhı ve saati önceden bildirilir, makine kendi gücüyle OSB içi yola çıkmaz, taşıyıcıyla hareket ettirilir. Aynı grup bünyesindeki tesisler bu modeli düzenli kullandığında, aylık bakım maliyeti belirgin biçimde düşer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sevkiyat odaklı iş tipleri ve zamanlama",
+                paragraflar: [
+                    "Banaz OSB’sindeki tesislerden düzenli olarak gelen sevkiyat ve tesis kalemleri, tipik süreleri ve uygun zamanlamalarıyla aşağıda özetlenmiştir. Kesin saat, tesisin kendi sevkiyat tablosuna göre keşifte netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik süre", "Makine", "Uygun zaman"],
+                    satirlar: [
+                        ["Dok kapısı mekanizması bakımı", "2 – 3 saat", "Dar şasili makaslı", "Kapı kapalı pencere"],
+                        ["Rampa üstü aydınlatma", "3 – 4 saat", "Makaslı", "Sevkiyat dalgası arası"],
+                        ["Geçiş bölgesi tavan turu", "Yarım gün", "Dar şasili makaslı", "Vardiya arası"],
+                        ["Avlu cephe-çatı kenarı", "Yarım – 1 gün", "Eklemli", "Trafik seyrek saat"],
+                        ["Tesisler arası kısa taşıma", "—", "Taşıyıcıyla nakil", "Önceden bildirilen güzergâh"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevkiyat programıyla çakışmayı önlemek",
+                paragraflar: [
+                    "OSB’de en sık yaşanan aksaklık, makinenin kendisiyle değil zamanlamayla ilgilidir: platform doğru yerde ama yanlış saattedir ve bir tırın giriş güzergâhını kapatır. Bunu önlemenin tek yolu, çalışma saatini sevkiyat sorumlusuyla birlikte belirlemektir — bizim tercih ettiğimiz saat değil, tesisin en sakin penceresi esas alınır. Bu pencere sabit değildir; sezona, sipariş yoğunluğuna ve haftanın gününe göre değişir, bu yüzden her iş için yeniden sorarız.",
+                    "İkinci önlem, çalışma alanının fiziksel olarak işaretlenmesidir. Makinenin bomu ve dönüş yarıçapı, geçici koni veya bantla çevrilir; bu, hem forklift operatörlerine hem tır şoförlerine görünür bir sınır verir. İşaretleme olmadan başlayan bir çalışma, ilk manevra yapan araçla birlikte durdurulmak zorunda kalır — bu yüzden işaretleme, çalışmanın kendisinden önce gelen bir adımdır.",
+                ],
+            },
+            {
+                baslik: "OSB içi tesisler arası kısa taşımanın kurduğu düzen",
+                paragraflar: [
+                    "Aynı OSB içinde birden fazla tesisi olan bir grup için en ekonomik model, makineyi bir günde birkaç tesise uğratmaktır. Bu düzende nakliye bedeli tek sefere iner ve her tesis yalnızca kendi çalışma süresini öder. Kurulumu basittir: her tesisin işi önceden listelenir, gün içindeki sıralama tesisler arası mesafeye ve iş süresine göre belirlenir, taşıma saatleri her tesise bildirilir.",
+                    "Bu modelin tek koşulu, tesislerin birbirine yakın ve aynı OSB sınırları içinde olmasıdır — farklı ilçelere yayılan gruplarda ilçe turu modeli daha uygundur. Banaz OSB’sinde bu düzeni kullanan gruplar, yıllık bakım maliyetlerini tek tesisli kiralamaya göre belirgin biçimde düşürüyor; çünkü nakliye, tek bir kalem olmaktan çıkıp üç-dört tesise bölünen küçük bir gider hâline geliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Rampa çalışırken dok kapısı bakımı yapabilir misiniz, yoksa kapıyı durdurmamız mı gerekiyor?",
+                cevap:
+                    "Kapıyı durdurmanız gerekir — bu, esnetilemeyen bir kural. Dok kapısı mekanizmasında makara, kayış veya fotosel üzerinde çalışırken kapı hareket ettirilemez; hem operatörümüzün hem sepetin güvenliği bunu gerektirir. Bu yüzden bu işleri her zaman kapının kapalı olduğu ve o rampanın sevkiyat dışı bırakıldığı bir pencereye yazarız — genellikle iki sevkiyat dalgası arasındaki en sakin saat. Pencere ne kadar kısa olursa olsun, işi o pencerenin dışına taşırmayız; yarım kalan bir kapı bakımı, tam çalışan bir kapıdan daha risklidir.",
+            },
+            {
+                soru: "Sevkiyatımız gün boyu sürekli, hiç boş saatimiz yok. Yine de çalışabilir misiniz?",
+                cevap:
+                    "Çalışırız, ama önce gerçekten hiç boşluk olmadığını birlikte doğrularız — çoğu tesiste “sürekli” hissi, aslında öğle arası veya vardiya değişimi gibi kısa ama düzenli boşluklara sahiptir. Sevkiyat tablonuzu incelediğimizde genellikle otuz-kırk dakikalık bir pencere bulunur; kısa kalemler bu pencerelere sığdırılır. Gerçekten sürekli çalışan bir hatta ise tek seçenek mesai dışı saatlerdir — akşam veya gece vardiyası bitiminden sabah sevkiyatı başlamadan önceki dilim. Bu durumda operatör ücreti buna göre planlanır ve teklifte gösterilir.",
+            },
+            {
+                soru: "Komşu tesisle aynı avluyu paylaşıyoruz; makineniz iki tesise birden hizmet verebilir mi?",
+                cevap:
+                    "Verebilir ve OSB’de en ekonomik modellerden biri budur. İki tesisin işi aynı güne yazıldığında makine bir kez gelir, avlu içinde kısa bir taşımayla ikinci tesise geçer ve nakliye bedeli ikiye bölünür. Tek şartımız, iki tesisin de çalışma saatlerini önceden bildirmesi ve avlu kullanımı konusunda aralarında anlaşmasıdır — biz üçüncü taraf olarak bu koordinasyonu yürütmeyiz, yalnızca belirlenen plana göre çalışırız. Komşu tesisle birlikte talep gönderirseniz, gün planını sizin için birlikte çıkarırız.",
+            },
+            {
+                soru: "Forklift trafiğiyle çakışmayı nasıl önlüyorsunuz?",
+                cevap:
+                    "İki adımla: önce çalışma saatini forklift trafiğinin en seyrek olduğu dilime yerleştiriyoruz, sonra makinenin bomu ve dönüş yarıçapını geçici koni veya bantla fiziksel olarak işaretliyoruz. Bu işaretleme, forklift operatörlerine net bir sınır verir ve manevra sırasında tahmin yapmalarını gerektirmez. Yoğun bir avluda çalışırken bir gözlemci de bulundururuz — makinenin altına giren veya bom yarıçapına yaklaşan bir araç olursa çalışma anında durdurulur. Bu üç önlem birlikte, OSB’deki en sık kaza nedenini — beklenmedik yakınlaşmayı — ortadan kaldırır.",
+            },
+            {
+                soru: "Geceleri de sevkiyat yapıyoruz; gündüz vakti bize uygun mu?",
+                cevap:
+                    "Çoğu tesiste evet, çünkü gece sevkiyatı yapan tesislerin gündüz saatleri genellikle daha sakindir — bu tam tersi bir avantaj sağlar. Sevkiyat tablonuzda gece yoğunluğu, gündüz boşluğu varsa çalışmayı gündüze yazarız ve gece ekibiniz hiç etkilenmez. Tersi de mümkündür: gündüz yoğun, gece sakin bir tesiste operatörümüz gece vardiyasına göre planlanır. Belirleyici olan saat değil, sizin sevkiyat ritminizdeki boşluktur; bu ritmi bize aktarmanız, doğru saati bulmamızın tek yoludur.",
+            },
+            {
+                soru: "OSB içindeki başka tesisimize aynı gün geçiş yapabilir misiniz, ek ücret var mı?",
+                cevap:
+                    "Yapabiliriz ve bu OSB içi kısa taşıma modelidir. Ek ücret nakliye tarafında oluşur ama tek sevkiyat bedeli iki tesis arasında bölündüğü için toplam maliyet, ayrı ayrı sevkiyattan belirgin biçimde düşük çıkar. Taşıma güzergâhı ve saati önceden bildirilir, makine OSB içi yola kendi gücüyle çıkmaz, taşıyıcıyla hareket ettirilir. İki tesisin de kendi İSG evrak düzeni tamamlanmış olmalıdır — bu, geçiş süresini uzatmaz ama atlanmaz. Aylık düzenli bir ihtiyacınız varsa, iki tesisi kapsayan sabit bir program kurmayı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Banaz OSB’nin ilçenin karayolu aksına yakınlığı ve bunun sevkiyat-lojistik ağırlıklı tesis yapısına etkisi kamuya açık coğrafi bilgidir; sevkiyat senkronizasyonu, işaretleme uygulaması ve tesisler arası kısa taşıma modeli firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "bolge:sivasli": {
+        h1: "Sivaslı’da İşletme ve Bina İşleri İçin Platform Kiralama",
+        giris:
+            "Sivaslı, Uşak’ın küçük ölçekli ilçelerinden biridir ve buradaki platform ihtiyacı, büyük bir sanayi tesisinin değil, çok sayıda küçük işletmenin ve binanın gündelik bakım gerçeğinden doğar: bir esnafın dükkân cephesi, bir küçük atölyenin çatısı, bir kamu binasının dış yüzeyi, yeni açılan bir işletmenin ilk tabelası. Hiçbiri tek başına büyük bir iş değildir ve çoğu, ilçede kalıcı bir yükseklik ekipmanı bulundurmayı gerektirmeyecek kadar seyrek tekrarlanır. Bizim buradaki rolümüz, bu dağınık ve küçük ölçekli ihtiyacı, ilçeye düzenli olarak gönderdiğimiz bir makineyle karşılamaktır — işletme sahibinin “bu iş için ayrıca makine mi çağırayım” tereddüdünü, turun içine eklenen küçük bir kalem hâline getirerek çözeriz.",
+        maddeler: [
+            {
+                baslik: "Küçük işletme binalarında dış cephe ve çatı bakımı",
+                metin:
+                    "İlçedeki küçük işletmelerin bina stoku genellikle eskidir ve bakım, yıllar içinde ertelenerek birikmiştir: çatlamış sıva, akan oluk, paslanmış çatı sacı, kararmış cephe boyası. Bu kalemlerin her biri tek başına küçüktür ama bir araya geldiğinde yarım günlük bir işe dönüşür. Platformla yapılan bir cephe turunda sıva çatlağı işaretlenir, oluk temizlenir, gevşek sac kenarı sıkılır ve cephenin genel durumu fotoğraflanır — işletme sahibine hangi kalemin acil, hangisinin ertelenebilir olduğuna dair somut bir liste bırakılır.",
+            },
+            {
+                baslik: "Dış cephe yalıtımı ve boya işlerinde erişim",
+                metin:
+                    "Isı yalıtımı yaptıran veya cephesini yeniden boyatan işletmeler için platform, iskele kurmanın zaman ve maliyetine karşı hızlı bir alternatiftir — özellikle tek katlı veya iki katlı küçük binalarda iskele kurulum-söküm süresi, işin kendisinden uzun sürebilir. Kompakt eklemli makine, cepheye dik açıyla yaklaşır ve boyacı veya uygulamacı ustayla birlikte hareket eder; bu, iskeledeki sabit platformdan farklı olarak yüzey boyunca kesintisiz ilerleme sağlar. Malzeme taşıma kapasitesi ve rüzgâr sınırı, iş öncesinde ustayla birlikte netleştirilir.",
+            },
+            {
+                baslik: "Kamu binaları ve okul-belediye yapılarında bakım",
+                metin:
+                    "İlçedeki okul, sağlık birimi ve belediye binalarının çatı, saçak ve dış aydınlatma işleri, kullanım takvimine bağlı olarak planlanır. Okulda tatil dönemleri veya ders dışı saatler, belediye binasında mesai dışı zaman dilimleri tercih edilir. Bu yapılarda güvenlik şeridi ve yönlendirme, işin fiyatına değil yapılabilirliğine dahildir — kamuya açık bir alanda makinenin dönüş yarıçapı içinde kimsenin bulunmaması, iş başlamadan önce sağlanır.",
+            },
+            {
+                baslik: "Yeni açılan işletmelerde ilk kurulum dönemi",
+                metin:
+                    "İlçe merkezinde yeni açılan bir işletmenin ilk haftası genellikle sıkışıktır: tabela asılacak, dış aydınlatma bağlanacak, cephe son hâline getirilecektir — ve açılış tarihi çoğu zaman sabittir. Bu tip taleplerde zamanlama esnekliği düşüktür, bu yüzden onları normal tur planına değil, önceliklendirilmiş bir listeye alırız. Açılış tarihine yakın taleplerde, mümkünse ilçedeki bir sonraki turu o tarihe göre kaydırır veya gerekiyorsa tekil sevkiyatla geliriz; hangi yol izleneceğini talebi aldığımız anda netleştiririz.",
+            },
+            {
+                baslik: "Dağınık talepleri tek güne toplamak",
+                metin:
+                    "Sivaslı’daki işler coğrafi olarak dağınık değildir — ilçe merkezi kompakttır — ama zaman olarak dağınıktır: bir işletme bu ay, bir diğeri gelecek ay talep gönderir. Verim, bu zaman dağınıklığını bir güne toplamaktan gelir. Bekleyen talepleri bir listede tutar, listenin bir günü dolduracak büyüklüğe ulaştığı anda ilçeye tur planlarız. “Tarih esnek” notuyla gelen talepler bu listenin çekirdeğini oluşturur ve en avantajlı fiyatı alır; açılış gibi sabit tarihli talepler ise ayrı değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sivaslı’da tipik işler ve süreleri",
+                paragraflar: [
+                    "İlçede en sık karşılaştığımız işletme ve bina kalemleri, tipik süreleri ve makine tercihiyle birlikte aşağıda özetlenmiştir. Kesin süre, binanın durumuna göre keşifte netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik süre", "Makine", "Zamanlama"],
+                    satirlar: [
+                        ["Cephe-çatı bakım turu", "2 – 4 saat", "Kompakt eklemli", "Gündüz, sakin saat"],
+                        ["Dış cephe boya-yalıtım", "Yarım – 1 gün", "Eklemli", "Kuru ve rüzgârsız gün"],
+                        ["Okul-belediye çatı işi", "3 – 5 saat", "Eklemli", "Tatil / mesai dışı"],
+                        ["Yeni işletme tabela-aydınlatma", "2 – 4 saat", "Kompakt eklemli", "Açılış öncesi öncelikli"],
+                        ["Genel dükkân cephe kontrolü", "1 – 2 saat", "Kompakt eklemli", "Tur içinde ek kalem"],
+                    ],
+                },
+            },
+            {
+                baslik: "Küçük ilçede bina bakımını ertelemenin bedeli",
+                paragraflar: [
+                    "Küçük bir işletmede bina bakımı çoğu zaman öncelik listesinin en altına düşer — günlük işin baskısı, çatıdaki küçük bir sızıntıyı veya cephedeki bir çatlağı geri plana iter. Ancak erteleme sessizce büyür: küçük bir çatı sızıntısı bir kışta iç mekân hasarına dönüşür, gevşek bir cephe elemanı rüzgârlı bir günde güvenlik riskine dönüşür. Bunların hiçbiri ilk fark edildiğinde pahalı değildir; pahalı olan, fark edildikten sonra geçen zamandır.",
+                    "Tur modelimiz tam olarak bu ertelemeyi kırmak için kurulmuştur. İşletme sahibinden istediğimiz tek şey, yükseklik gerektiren ne varsa aklında tutmasıdır; tur geldiğinde bu liste birkaç saatte kapanır. Sivaslı’da düzenli tur alan işletmelerde, acil ve pahalı onarım ihtiyacı belirgin biçimde azalıyor — çünkü küçük sorunlar küçükken çözülüyor.",
+                ],
+            },
+            {
+                baslik: "Açılış tarihi sabit olan işlerde zaman baskısı",
+                paragraflar: [
+                    "Yeni açılan bir işletme için tabela ve aydınlatmanın açılış gününe yetişmesi, çoğu zaman pazarlığa kapalı bir hedeftir — davetiyeler gönderilmiş, tarih duyurulmuştur. Bu tip taleplerde standart tur mantığını uygulamayız; talebi aldığımız anda ilçedeki mevcut programa sığıp sığmadığına bakarız, sığmıyorsa tekil sevkiyat seçeneğini açıkça sunarız. Nakliye payının bu durumda ayrı bir kalem olacağını baştan söyleriz — sürpriz fatura, açılış gününün heyecanını gölgeleyecek en son şeydir.",
+                    "Zaman baskısı olan işlerde ikinci risk hava koşuludur; rüzgârlı veya yağışlı bir günde dış cephe işi ertelenebilir. Bu yüzden açılış tarihine yakın taleplerde bir yedek gün önerisi de sunarız — açılıştan birkaç gün önce, hava koşulu uygun olmadığında sıkışmadan tamamlanabilecek bir aralık.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Küçük bir dükkânız, tek işimiz tabela asmak. Bunun için Sivaslı’ya gelir misiniz?",
+                cevap:
+                    "Geliriz — en ekonomik yol, ilçeye planlanan bir tura eklenmenizdir. Talebinizi “tarih esnek” notuyla iletirseniz bekleyen listeye alınır ve tur planlandığında sizi ararız; bu düzende yalnızca kendi çalışma sürenizi ödersiniz. Tarihiniz sabitse (örneğin bir açılış gününe bağlıysa) bunu baştan belirtin, o zaman farklı bir planlama yaparız ve nakliye payını teklifte ayrı gösteririz. İki durumda da makine gelmeden önce kapı ölçüsü ve cephe yüksekliği gibi birkaç bilgiyi telefonda alırız.",
+            },
+            {
+                soru: "Cephe boyası için iskele mi platform mu daha uygun, maliyet farkı büyük mü?",
+                cevap:
+                    "Küçük ve orta ölçekli binalarda platform genellikle daha ekonomiktir, çünkü iskelenin kurulum-söküm süresi işin kendisinden uzun olabilir ve bu süre ayrıca faturalandırılır. Platformla usta, cepheye dik açıyla yaklaşır ve yüzey boyunca kesintisiz ilerler; malzeme sepetle birlikte taşınır. Rüzgârlı günlerde çalışma yüksekliği sınırlanır — bu, iskele için de geçerli bir kısıttır. Cephenizin ölçülerini ve boyanacak yüzey alanını paylaşırsanız, iki yöntemin maliyetini karşılaştırmalı olarak gösterebiliriz.",
+            },
+            {
+                soru: "Okul veya belediye binasında çalışacaksanız izin süreci nasıl işliyor?",
+                cevap:
+                    "İzin, yapının bağlı olduğu kurumun sorumluluğundadır; biz işi ancak yetkilinin yazılı onayı ve belirlediği çalışma penceresiyle üstleniriz. Pratikte zamanlama, yapının kullanım takvimine göre belirlenir — okulda tatil günleri ve ders dışı saatler, belediye binasında mesai dışı dilim tercih edilir. Çalışma sırasında güvenlik şeridi kurulur, yaya geçişi yönlendirilir ve makinenin dönüş yarıçapı içinde kimsenin bulunmaması sağlanır. Bu düzenlemeler işin fiyatına değil yapılabilirliğine dahildir ve atlanmaz.",
+            },
+            {
+                soru: "Yeni işletmemiz açılıyor, tabela son ana kaldı. Ne kadar hızlı gelebilirsiniz?",
+                cevap:
+                    "Açılış tarihine bağlı talepleri önceliklendirilmiş bir listede tutarız ve elimizdeki en yakın uygun tarihi hemen bildiririz. İlçedeki mevcut programa sığıyorsa ek maliyet çıkmaz; sığmıyorsa tekil sevkiyat seçeneğini sunarız ve nakliye payını teklifte açıkça gösteririz. Riski azaltmak için açılıştan birkaç gün önceye bir yedek tarih öneririz — böylece hava koşulu uygun olmadığında son ana sıkışmadan tamamlanır. Bize ne kadar erken haber verirseniz, seçeneğimiz o kadar geniş olur.",
+            },
+            {
+                soru: "Rüzgârlı veya yağışlı günlerde dış cephe işi yapılabilir mi?",
+                cevap:
+                    "Belirli bir rüzgâr hızının üzerinde ve yağışlı havada dış cephe ve çatı kenarı işlerini yapmayız — bu, devrilme ve kayma riskiyle ilgili net bir kural, esnetilmez. Hava durumu çalışma gününden önce kontrol edilir; uygun değilse iş ertelenir ve size önceden haber verilir, makine kapınıza gelip geri dönmez. Zaman baskısı olan işlerde bu yüzden bir yedek gün önerisi sunarız. İç mekân işleri (tavan, aydınlatma) hava koşulundan etkilenmez, bu yüzden dış hava elverişsizken planı iç mekân kalemlerine kaydırmak da bir seçenektir.",
+            },
+            {
+                soru: "İşimiz küçük, kiralama bedeli bize pahalı gelir mi?",
+                cevap:
+                    "Tek başına bakıldığında öyle görünebilir — bu yüzden size de aynı öneriyi veriyoruz: tek kalem için değil, biriken liste için planlayın. Cephe, çatı, tabela ve aydınlatmayı tek listede topladığınızda, tur içindeki bir güne eklenen bu iş, kalem başına düşen maliyeti belirgin biçimde düşürür. Gerçekten tek ve acil bir kalem söz konusuysa, o zaman da ilçeye o hafta içinde planlı bir turumuz var mı diye bakarız; varsa işiniz o tura eklenir ve tekil sevkiyat bedeli oluşmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Sivaslı’nın Uşak’ın küçük ölçekli ilçelerinden biri olması kamuya açık coğrafi/idari bilgidir; tur modeli, açılış önceliklendirmesi ve hava koşulu kuralı firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
 };
