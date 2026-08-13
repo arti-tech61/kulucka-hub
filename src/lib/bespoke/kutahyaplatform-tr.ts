@@ -517,101 +517,101 @@ export const KUTAHYAPLATFORM_TR: Record<string, BespokeIcerik> = {
     },
 
     "bolge:usak-osb-cevre-ili": {
-        h1: "Uşak ve Çevresinde Enerji Sektörü Destek Hizmeti",
+        h1: "Uşak OSB Tekstil Fabrikalarında Kazan Dairesi ve Enerji Ekipmanı Bakımı",
         giris:
-            "Uşak, tekstil ağırlıklı sanayi kimliğiyle bilinen bir komşu il olsa da, OSB'sinde ve çevresinde Tavşanlı havzasındaki maden-termik santral kuşağına dolaylı hizmet veren metal işleme ve nakliye destek işletmeleri de bulunur. Bu sayfa, Uşak'ın baskın tekstil kimliğini yok saymadan, enerji sektörüyle olan bu dolaylı bağlantıyı ve buradaki destek tesislerinin platform ihtiyacını, mesafe faktörünü de hesaba katarak anlatır.",
+            "Uşak'ın OSB'sinde boyama, apre ve terbiye hatları çalıştıran tekstil fabrikalarının büyük kısmı, üretimi sürdürebilmek için kendi buhar kazanı, kojenerasyon ünitesi veya yüksek kapasiteli elektrik dağıtım panosuna sahiptir. Bu, işletmenin sanayi sınıfının 'tekstil' olarak kalmasıyla çelişmez; sadece üretim sürecinin içinde ayrı bir enerji ekipmanı katmanı bulunur. Bu sayfa, Uşak'ın tekstil kimliğini değiştirmeden, o katmandaki kazan-buhar-elektrik bakımını nasıl planladığımızı; Tavşanlı havzasındaki termik santral kazan dairelerinde edindiğimiz tecrübenin burada nasıl işe yaradığını anlatır.",
         maddeler: [
             {
-                baslik: "OSB'deki metal işleme ve nakliye destek işletmeleri",
+                baslik: "Buhar kazanı ve hat basıncı bakımı",
                 metin:
-                    "Uşak OSB içindeki bazı metal işleme atölyeleri ve ağır nakliye firmaları, Tavşanlı havzasındaki maden-santral işletmelerine ekipman bakımı veya taşıma hizmeti sunar; bu işletmelerin çatı, aydınlatma ve garaj bakımı standart bir sanayi profilindedir, ancak enerji sektörünün sevkiyat yoğunluğu çalışma programını dolaylı etkiler.",
+                    "Boyama ve apre süreçleri kesintisiz buhar akışına dayanır; kazanın verimsiz çalışması ya da hat basıncındaki düşüş doğrudan üretim hızını etkiler. Kazan dairesindeki periyodik bakımı, üretim durmadan yapılabilecek şekilde vardiya aralarına planlarız.",
             },
             {
-                baslik: "Uzak mesafede sevkiyat planlaması",
+                baslik: "Kojenerasyon ve jeneratör bakım programı",
                 metin:
-                    "Uşak'ın hem merkeze hem Tavşanlı havzasına olan mesafesi, tekil işlerde nakliye maliyetinin payını belirgin şekilde artırır; bu yüzden bölgedeki işleri tarih esnekliğiyle birleştirmek, diğer komşu illere göre burada daha da önemlidir.",
+                    "Kendi elektriğini üreten bazı büyük tesislerde kojenerasyon ünitesi ve yedek jeneratör, hem ısı hem güç kaynağı olarak çalışır; bu ikili sistemin senkronizasyonu ve soğutma devresi, tek başına elektrik bakımından farklı bir uzmanlık gerektirir.",
             },
             {
-                baslik: "Tekstil sanayisiyle komşuluk, enerji sektörüyle ayrım",
+                baslik: "Yüksek güç tüketen makine panolarının izlenmesi",
                 metin:
-                    "OSB'nin baskın kimliği tekstildir ve bu, ilin genel ekonomik dokusunu oluşturur; enerji sektörüne bağlı işletmeler bu dokunun küçük bir parçasıdır. Talep aldığımızda işin hangi kategoriye ait olduğunu netleştiririz — bu ayrım, doğru önceliklendirme ve doğru zamanlama için gereklidir.",
+                    "Ram makinesi, kurutma silindiri gibi yüksek güç çeken ekipmanların bağlı olduğu panolarda ısınma ve gerilim dalgalanması riski standart tekstil holündekinden daha yüksektir; bu panoları ayrı bir izleme takvimine alırız.",
             },
             {
-                baslik: "Kritik tedarikte öncelik değerlendirmesi",
+                baslik: "Standart dokuma-iplik işleriyle ayrım",
                 metin:
-                    "Uşak'taki bir işletme, doğrudan Tavşanlı'daki bir santral veya ocak için kritik bir ekipman-parça sağlıyorsa, buradaki acil bir platform çağrısı üretim zincirindeki bağımlılık nedeniyle önceliklendirilebilir; bu, çağrı sırasında işletmenin bu bağlantısının açıkça belirtilmesine bağlıdır.",
+                    "OSB'deki dokuma ve iplik hollerinin çoğunda kazan veya kojenerasyon bulunmaz; buradaki iş aydınlatma, klima ve genel elektrik bakımından ibarettir. Talep aldığımızda tesiste kazan dairesi olup olmadığını netleştiririz, çünkü bu iki iş kolunun bakım takvimi ve ekip yapısı farklıdır.",
             },
             {
-                baslik: "Standart OSB işlerinde esnek planlama",
+                baslik: "Termik santral kazan tecrübesinin buraya taşınması",
                 metin:
-                    "Enerji sektörüyle bağlantısı olmayan standart OSB işleri (tekstil holü aydınlatması, cephe bakımı gibi) enerji hattı önceliğinden bağımsız olarak, kendi tarih esnekliğine göre planlanır ve mümkünse komşu işlerle birleştirilir.",
+                    "Tavşanlı havzasındaki santral kazan dairelerinde çalışan ekibimiz, büyük ölçekli buhar sistemlerinin arıza belirtilerini erken tanır; bu tecrübe, Uşak'taki tekstil kazanlarında da aynı arıza kalıplarını daha hızlı teşhis etmemizi sağlar.",
             },
         ],
         ekBolumler: [
             {
-                baslik: "Uşak'ta iş tipi ve enerji sektörü bağlantısı",
+                baslik: "Uşak OSB'de enerji ekipmanı türleri ve bakım profili",
                 paragraflar: [
-                    "Aşağıdaki tablo, bölgedeki iş tiplerinin enerji sektörüyle bağlantısını ve sevkiyat modelini özetler.",
+                    "Aşağıdaki tablo, OSB'deki tekstil tesislerinde karşılaştığımız enerji ekipmanı türlerini ve bakım yaklaşımını özetler.",
                 ],
                 tablo: {
-                    basliklar: ["İş tipi", "Enerji sektörü bağlantısı", "Öncelik", "Sevkiyat modeli"],
+                    basliklar: ["Ekipman türü", "Bulunduğu tesis profili", "Bakım sıklığı", "Öncelik"],
                     satirlar: [
-                        ["Maden/santral tedarikçisi atölye", "Doğrudan", "Yüksek (kritik parça)", "Öncelikli/tur içi"],
-                        ["Ağır nakliye garajı (enerji sektörü)", "Doğrudan", "Orta-yüksek", "Tur içi"],
-                        ["Genel tekstil OSB işi", "Yok", "Standart", "Tur içi, esnek"],
-                        ["Acil arıza (tedarikçi)", "Doğrudan", "Yüksek", "Hızlandırılmış"],
-                        ["Tekil özel iş", "Değişken", "Standart", "Ayrı sevkiyat, mesafeye göre fiyat"],
+                        ["Buhar kazanı", "Boyama/apre tesisi", "Periyodik + arıza bazlı", "Yüksek (üretim durur)"],
+                        ["Kojenerasyon ünitesi", "Büyük ölçekli tesis", "Aylık kontrol", "Yüksek"],
+                        ["Yedek jeneratör", "Kojenerasyonlu tesis", "Üç aylık test", "Orta-yüksek"],
+                        ["Ram/kurutma pano hattı", "Apre-terbiye hattı", "Periyodik izleme", "Orta"],
+                        ["Genel aydınlatma-klima", "Dokuma/iplik holü", "Standart takvim", "Standart"],
                     ],
                 },
             },
             {
-                baslik: "Mesafenin sevkiyat planlamasına etkisi",
+                baslik: "Kazan dairesi arızalarında müdahale sırası",
                 paragraflar: [
-                    "Uşak'ın merkeze ve Tavşanlı havzasına olan mesafesi, tekil bir işte nakliye maliyetinin payını belirgin şekilde artırır. Bu yüzden bölgedeki müşterilerimize işlerini tarih esnekliğiyle birleştirmelerini özellikle öneriyoruz; mümkünse gidiş-dönüş boş kalmayacak şekilde planlarız.",
-                    "Bu planlamanın kurulması için bölgedeki işlerinizi mümkün olduğunca erken bildirmeniz yeterli; erken bilgi, uygun bir tur eşleşmesi bulma şansını doğrudan artırır.",
+                    "Kazan veya kojenerasyon arızası üretim hattını doğrudan durdurabildiği için, bu tür çağrılar standart hol bakımına göre önceliklidir. Arıza bildirilirken kazanın basınç düşüşü mü, yakıt besleme sorunu mu, yoksa kontrol panosu arızası mı olduğunu belirtmeniz, doğru ekibin doğru ekipmanla gelmesini sağlar.",
+                    "Kojenerasyon senkronizasyon hatalarında elektrik ve mekanik ekiplerimiz birlikte gider; bu ikili müdahale, tek uzmanlık alanıyla çözülemeyecek karışık arızalarda süre kaybını azaltır.",
                 ],
             },
             {
-                baslik: "Tedarikçi işletmelerde öncelik uygulaması",
+                baslik: "Basınçlı kap mevzuatı ve periyodik kontrol takibi",
                 paragraflar: [
-                    "Uşak'taki bir işletmenin doğrudan Tavşanlı'daki bir santral veya ocak için kritik ekipman-parça sağladığı durumlarda, bu işletmedeki bir arıza geriye doğru üretim zincirini etkileyebilir. Bu bağımlılığı bildiğimiz için, bu tür işletmelerin acil çağrılarına standart işlere göre daha yüksek öncelik veriyoruz.",
-                    "Bu önceliklendirmenin doğru işlemesi için çağrı sırasında işletmenizin hangi tesise tedarik yaptığını belirtmeniz yeterlidir.",
+                    "Buhar kazanları basınçlı kap sınıfına girdiği için periyodik test ve işletme belgesi takibi işletmenin kendi sorumluluğundadır; biz bu takibi yapmayız ama periyodik testten önceki hazırlık bakımını (conta, valf, emniyet ventili kontrolü) planlayabiliriz.",
+                    "Test tarihinizi bildirirseniz, hazırlık bakımını o tarihten yeterince önce tamamlayacak şekilde takvime alırız.",
                 ],
             },
         ],
         sss: [
             {
-                soru: "Uşak'taki atölyemiz Tavşanlı'daki bir maden işletmesine parça sağlıyor, bu öncelik sağlar mı?",
+                soru: "Tesisimizde buhar kazanı var, bakımını siz mi yapıyorsunuz?",
                 cevap:
-                    "Sağlayabilir. Doğrudan santral veya ocak için kritik parça üreten işletmelerin acil çağrılarına, üretim zincirindeki bağımlılık nedeniyle standart işlere göre daha yüksek öncelik veriyoruz. Çağrı sırasında hangi tesise tedarik yaptığınızı belirtmeniz, bu önceliği doğru uygulamamızı sağlar.",
+                    "Kazan dairesindeki periyodik bakımı ve arıza müdahalesini yapıyoruz; basınçlı kap mevzuatı gereği periyodik test ve işletme belgesi süreci işletmenizin kendi sorumluluğunda kalıyor. Test öncesi hazırlık bakımını (conta, valf, emniyet ventili) test tarihinize göre planlayabiliriz.",
             },
             {
-                soru: "Mesafe uzun, nakliye maliyeti çok mu yüksek olur?",
+                soru: "Kojenerasyon ünitemizde senkronizasyon sorunu yaşıyoruz, kim ilgilenir?",
                 cevap:
-                    "Tekil bir işte mesafe payı gerçekten hissedilir; bu yüzden işlerinizi tarih esnekliğiyle birleştirmenizi öneriyoruz. Mümkünse gidiş-dönüş boş kalmayacak şekilde planlarız — aynı hafta içinde başka bir iş varsa toplam maliyet paylaşılır. Teklifte nakliye payını ayrı gösteririz.",
+                    "Kojenerasyon senkronizasyon arızalarında elektrik ve mekanik ekiplerimiz birlikte gelir; bu, hem güç hem ısı tarafını aynı anda değerlendirmemizi sağlar. Arıza bildirirken senkronizasyon hatasının ne zaman başladığını ve hangi uyarı kodunun göründüğünü belirtmeniz teşhisi hızlandırır.",
             },
             {
-                soru: "Tekstil ağırlıklı OSB'de enerji sektörüyle ilgisi olmayan standart bir işimiz var, nasıl planlanır?",
+                soru: "OSB'deki dokuma holümüzde kazan yok, standart aydınlatma bakımı istiyoruz, öncelik farkı olur mu?",
                 cevap:
-                    "Standart bir OSB işi olarak, enerji hattı önceliğinden bağımsız şekilde, kendi tarih esnekliğinize göre planlanır. Mümkünse komşu işlerle birleştirilir. Enerji sektörüyle bir bağlantınız olup olmadığını keşifte netleştiririz; bu, doğru zamanlamayı baştan belirler.",
+                    "Kazan dairesi olmayan standart hollerde iş, genel aydınlatma-klima bakım takvimine göre planlanır; kazanlı tesislerdeki üretim durdurma riski burada söz konusu olmadığı için önceliklendirme farklı işler. Talep alırken tesisinizde kazan veya kojenerasyon olup olmadığını sorarız, bu ayrım baştan netleşir.",
             },
             {
-                soru: "Acil bir arızamız var, Uşak'a ne kadar sürede ulaşırsınız?",
+                soru: "Ram makinesi panomuzda ısınma fark ettik, acil mi değerlendirilir?",
                 cevap:
-                    "Süre, işletmenizin enerji sektörüne olan bağlantısına ve o anki sevkiyat programımıza bağlıdır; mesafe nedeniyle Uşak'a müdahale süresi merkeze yakın ilçelere göre biraz daha uzun olabilir. Kritik tedarikçi işletmelerde öncelik uygulanır. Arızanın türünü ve işletmenizin niteliğini ilk çağrıda net verirseniz gerçekçi bir süre veririz.",
+                    "Yüksek güç çeken makine panolarındaki ısınma, gerilim dalgalanmasının erken belirtisi olabileceği için bunu öncelikli değerlendiriyoruz. Panonun hangi makineye bağlı olduğunu ve ısınmanın ne zaman fark edildiğini belirtirseniz, kontrolü mümkün olan en kısa sürede planlarız.",
             },
             {
-                soru: "Ağır nakliye garajımızın bakımını nasıl planlıyorsunuz?",
+                soru: "Termik santral bakım tecrübenizin tekstil kazanına ne katkısı oluyor?",
                 cevap:
-                    "Garaj bakımı, araç giriş-çıkış trafiğinin en az olduğu saatlere planlanır; enerji sektörüne hizmet veren nakliye firmalarında bu trafik genellikle sevkiyat programına bağlı olarak değişkendir. Trafiğinizin en yoğun olduğu saatleri bildirirseniz, planı doğrudan bu saatlerin dışına kurarız.",
+                    "Büyük ölçekli buhar sistemlerinde arıza kalıpları benzer şekilde ilerler; santral kazan dairelerinde gördüğümüz basınç düşüşü, yakıt besleme ve valf arızası belirtilerini tanımak, tekstil kazanlarındaki aynı belirtileri daha erken fark etmemizi sağlıyor. Ölçek farklı olsa da fiziksel ilkeler aynı kalıyor.",
             },
             {
-                soru: "Uşak'ın enerji sektörüyle ilgisi sınırlı görünüyor, bu sayfa neden var?",
+                soru: "Uşak tekstil ili olarak biliniyor, neden enerji ekipmanına odaklı bir sayfa var?",
                 cevap:
-                    "Çünkü OSB'de ve çevresinde Tavşanlı havzasına dolaylı hizmet veren metal işleme ve nakliye destek işletmeleri gerçekten bulunuyor; bu sayfa onlara odaklanıyor. Uşak'ın baskın kimliğinin tekstil olduğunu biliyoruz ve bunu göz ardı etmiyoruz — enerji sektörüyle bağlantısı olmayan standart OSB işleriniz için de aynı hizmeti sunuyoruz.",
+                    "Çünkü OSB'deki boyama ve apre tesislerinin önemli bir kısmı, üretim sürecinin gereği olarak kendi kazan, kojenerasyon veya yüksek kapasiteli elektrik altyapısına sahip; bu sayfa o özel ekipman katmanına odaklanıyor. Uşak'ın genel kimliğinin tekstil olduğunu biliyoruz — kazanı olmayan standart hollerde de aynı hizmeti sunuyoruz.",
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Uşak'ın tekstil ağırlıklı sanayi kimliği ve Tavşanlı havzasına mesafesi kamuya açık bölgesel bilgidir; işletme adı, kapasite ve rakam kullanılmamıştır. Tedarikçi önceliklendirmesi ve mesafe planlaması firma pratiğidir.",
+            "Elle yazıldı — 2026-08-13. Uşak OSB'de boyama-apre tesislerinin buhar/kojenerasyon kullanımı ve basınçlı kap mevzuatının işletme sorumluluğunda olduğu bilgisi kamuya açık genel sanayi bilgisidir; işletme adı, kapasite ve rakam kullanılmamıştır. Kazan dairesi önceliklendirmesi ve santral tecrübesi transferi firma pratiğidir.",
     },
 };
