@@ -234,4 +234,11 @@ partide tamamlandı. Eskişehir tarafında 19, Bilecik/Bozüyük tarafında 25 y
 elle yazılmış kayıt bulunur; tekrar eden OSB, KSS ve çevre il slugları belgede
 tanımlanan ayrı operasyon çapalarıyla yazıldı.
 
+## İç Anadolu + Güney genişlemesi — 2026-08-13
+
+`docs/GENISLEME-ICANADOLU-GUNEY.md` kapsamındaki Konya, Kayseri, Adana,
+Gaziantep, Samsun ve Amasya için 27 yeni elle yazılmış bölge sayfası üç
+partide tamamlandı. Çumra, Nizip ve Merzifon konu komşuları ayrı operasyon
+çapalarıyla yazıldı.
+
 Bir domain tamamlandığında bu tabloya satır ekleyin.
