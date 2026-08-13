@@ -506,4 +506,300 @@ export const ESKISEHIRPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Sivrihisar'ın Eskişehir'in havacılık-savunma tedarik zincirine dolaylı destek fonksiyonları (taşımacılık, ambalaj, geçici depolama) sağlayabilecek küçük ölçekli işletme yapısı genel bilgidir. Firma adı ve rakam kullanılmamıştır.",
     },
+    "bolge:osb-havacilik-kumesi": {
+        h1: "OSB Havacılık Kümesinde Temiz ve Elektrikli Platform Kiralama",
+        giris:
+            "Eskişehir OSB'deki havacılık kümesine yönelik bu sayfa, tedarikçi evrakını veya belirli bir tesisin üretim düzenini anlatmaz. Kamuya açık sınır yalnız kentte havacılık motor sanayisi çevresinde bir kümenin varlığıdır. Bunun ötesinde hangi tesiste hangi parçanın üretildiği, hangi temizlik sınıfının uygulandığı ya da içeride nasıl bir hat bulunduğu varsayılmaz. Buradaki karar çerçevesi fizikidir: kapalı ve hassas bir çalışma çevresine alınacak platformun egzoz üretmemesi, zeminde siyah iz bırakmaması, dışarıdan kir taşımaması, hidrolik sızıntı belirtisi göstermemesi ve dar güzergâhta çevredeki yüzeylere temas etmeden hareket edebilmesi. Akülü tahrik tek başına yeterli değildir; lastik bileşimi, teker ve şasi altı temizliği, gövdenin silinebilirliği, şarj alanı ve zemin taşıma koşulu birlikte doğrulanır. Platform üretim prosesinin parçası değildir, yalnız yetkili personeli bakım noktasına ulaştırır. İş başlamadan girişten hedefe rota yürünür, hassas yüzeyler korunur, makinenin hareket alanı ayrılır ve çalışma sonunda zemin ile makine gözle kontrol edilir. Böylece A3'teki belge–İSG izlenebilirliğinden ayrılan, doğrudan temiz ekipman kabulü ve yüzey korumasına odaklanan bir hizmet modeli kurulur.",
+        maddeler: [
+            {
+                baslik: "Akülü tahriki kapalı hacmin temel şartı saymak",
+                metin:
+                    "Kapalı çalışma alanında içten yanmalı motorun egzozu ve yakıt çevrimi kabul edilemez bir ek yük oluşturabilir. Bu nedenle uygun kapalı hacimde akülü sınıf değerlendirilir. Ancak akülü olması makinenin her alana otomatik uygun olduğu anlamına gelmez; üretici kullanım sınırları, havalandırma, zemin, şarj ve erişim geometrisi ayrıca kontrol edilir. Akü seviyesi iş penceresine göre hazırlanır, çalışma sırasında kontrolsüz uzatma kablosu kullanılmaz. Şarj kuru ve havalandırılan noktada, araç-yaya yolundan ayrılmış kablo düzeniyle yapılır. Olağan dışı ısınma veya koku görülürse işlem durdurulur.",
+            },
+            {
+                baslik: "İz bırakmayan lastik ve yüzey koruma rotası",
+                metin:
+                    "Hassas veya açık renkli zeminlerde standart koyu lastiğin sürtünme izi bırakma ihtimali seçim sırasında ele alınır. İz bırakmayan lastikli model tercih edilse bile yüzeyin taşıma gücü, birleşim yerleri, kanal kapakları ve dönüş alanları ayrıca görülür. Makine keskin dönüşle zemini zorlamak yerine önceden çizilen rota üzerinde düşük hızda ilerler. Gereken yerlerde işletmenin uygun gördüğü koruyucu yüzey kullanılır; rastgele örtü teker altında kayma riski yaratmamalıdır. İş bitiminde güzergâh kontrol edilir, iz veya yüzey hasarı fark edilirse alan teslim edilmeden kayıt altına alınır.",
+            },
+            {
+                baslik: "Teker, şasi altı ve sepet temizliğini girişten önce tamamlamak",
+                metin:
+                    "Dış saha ya da taşıma aracından gelen makinenin tekerlerinde çamur, metal kırıntısı veya genel yol kiri bulunabilir. Temiz alana girişten önce tekerler, şasi altı, sepet tabanı ve erişilebilir gövde yüzeyleri işletmenin kabul ettiği yöntemle temizlenir. Basınçlı havayla kiri çevreye yaymak varsayılan yöntem değildir. Sepette önceki işten ambalaj, bağ, sarf veya gevşek parça bırakılmaz. Makine dışarı çıkıp tekrar içeri girecekse ilk temizlik kalıcı kabul sayılmaz; yeniden kontrol edilir. Temizden kirliye doğru tek yönlü iş sırası mümkünse tercih edilir.",
+            },
+            {
+                baslik: "Hidrolik sızıntı belirtisini küçük görmemek",
+                metin:
+                    "Makine sevkiyat öncesinde hortum, bağlantı, silindir çevresi ve alt yüzeyde görünür sızıntı açısından kontrol edilir. Teslimde yeni bir damlama, yağlı yüzey veya olağan dışı koku görülürse platform çalışma alanına alınmaz; kaynak bulunur ve uygun servis kararı verilir. Zemine damlayan sıvıyı yalnız silip kullanıma devam etmek doğru yaklaşım değildir. İş sırasında alt yüzey periyodik gözlenir. Koruyucu tava kullanımı yalnız ek tedbirdir, arızalı sistemi meşrulaştırmaz. Bu disiplin hassas zemini koruduğu kadar makinenin güvenli çalışmasını da destekler.",
+            },
+            {
+                baslik: "Dar geçişte temas ve hava akımı riskini azaltmak",
+                metin:
+                    "Kapı, kolon, sabit ekipman ve üst tesisat çevresinden geçerken gövde ölçüsü kadar dönüş kuyruğu ve sepetin kapalı konumu önemlidir. Girişten hedefe en dar noktalar ölçülür, geçici malzeme kaldırılır ve gerektiğinde yerden bir yönlendirici kullanılır. Makine yüzeye dayanarak yön değiştirmez. Çalışma noktasında havalandırma akımı, asılı hafif malzeme veya çevredeki hareketli ekipman varsa saha yetkilisiyle ayrılır. Hedefe erişim, temiz makine şartı kadar önemlidir; uygun olmayan geometriyi daha hassas bir üniteyle zorlamak çözüm değildir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Temiz ekipman kabulünde fiziksel kontrol tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli bir tesisin iç koşulunu tarif etmez. Hassas bir kapalı alana platform alınacaksa doğrulanabilecek genel fiziksel özellikleri ve uygunsuzlukta verilecek kararı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol alanı", "Aranan durum", "Saha hazırlığı", "Uygun değilse"],
+                    satirlar: [
+                        ["Tahrik", "Kapalı alana uygun akülü sınıf", "Şarj penceresi hazır", "Başka sınıf seç"],
+                        ["Lastikler", "İz bırakmayan ve temiz", "Rota ile dönüşü ayır", "Giriş yapma"],
+                        ["Şasi ve sepet", "Kir ve gevşek parça yok", "Kabul edilen yöntemle temizle", "Yeniden kontrol et"],
+                        ["Hidrolik sistem", "Görünür sızıntı belirtisi yok", "Teslim öncesi gözlem", "Servis kararı ver"],
+                        ["Zemin ve geçiş", "Taşıma ile ölçü uygun", "Kapı, kanal, dönüşü doğrula", "Alternatif rota/model"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dış sahadan hassas alana tek yönlü geçiş planı",
+                paragraflar: [
+                    "İş listesinde dış cephe veya yükleme çevresi ile temiz kapalı alan birlikte bulunuyorsa sıra rastgele kurulmaz. Mümkün olduğunda kapalı ve temiz iş önce tamamlanır, makine sonra daha kirli dış bölüme geçer. Ters sıra zorunluysa dönüşte teker, alt takım, sepet ve aletler için yeniden temizleme-kabul zamanı ayrılır. Bu ara adım kiralama süresinin dışında varsayılmaz; günlük plana yazılır.",
+                    "Bölüm geçişinde zemin değişimi de kontrol edilir. Dışarıda eğim veya gevşek yüzey isteyen makine, içerideki dar ve hassas rotaya uygun olmayabilir. Tek ünitenin iki ortamı karşılayacağı varsayılmaz. İki sınıf gerekiyorsa işler ayrı bloklara alınır; temiz alana arazi tipi büyük bir modeli sokmak veya dış zeminde kompakt iç mekân makinesini zorlamak yerine güvenli sınırlar korunur.",
+                ],
+            },
+            {
+                baslik: "Çalışma sonunda yüzey ve makine kapanışı",
+                paragraflar: [
+                    "Sepet tamamen indirilip güvenli konuma gelmeden bariyer kaldırılmaz. Kullanılan rota, dönüş noktaları ve park alanı zeminde iz, sıvı, gevşek parça veya yüzey hasarı açısından işletme sorumlusuyla gözden geçirilir. Makinenin altı ile hidrolik bağlantılar yeniden kontrol edilir. Aletler ve sarflar sepetten çıkarılır. Temizlik gerekiyorsa tesisin yüzeye uygun yöntemini yetkili personel uygular; bilinmeyen kimyasal kullanılmaz.",
+                    "Makine başka bir temiz bölüme geçecekse kapanış aynı zamanda yeni giriş kontrolüdür. İade edilecekse dışarıdaki güvenli yükleme alanına yönlendirilir ve hassas rota boyunca yerden gözcü eşliği sürer. Görünür uygunsuzluk sözlü bırakılmaz. Bu fiziksel teslim, A3'teki tedarikçi evrak zincirinden farklı olarak doğrudan zemin, gövde ve sızıntı durumunu kapatır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Akülü olan her platform hassas kapalı alana girebilir mi?",
+                cevap:
+                    "Hayır. Akülü tahrik egzozu ortadan kaldırır, fakat lastik izi, dış kir, hidrolik sızıntı, gövde ölçüsü, zemin yükü ve şarj düzeni gibi diğer koşulları çözmez. Makinenin iz bırakmayan lastiği, temizlenebilir yüzeyi ve görünür sızıntısız durumu doğrulanır. Kapı, dönüş ve çalışma tabanı ölçülür. Tesisin kendi ekipman kabul kuralı varsa ayrıca uygulanır. Bu kontrollerden biri karşılanmıyorsa sırf akülü diye ünite içeri alınmaz; uygun model veya farklı erişim yöntemi seçilir.",
+            },
+            {
+                soru: "İz bırakmayan lastik zemini hiç bozmayacağını garanti eder mi?",
+                cevap:
+                    "Hayır; yalnız sürtünme kaynaklı koyu izi azaltır. Zeminin taşıma kapasitesi, birleşim yerleri, kapaklar, yüzey kaplamasının durumu ve dönüş hareketi ayrı risklerdir. Makinenin toplam yükü teknik birimce uygun bulunmalı, rota keskin manevrayı azaltacak biçimde çizilmelidir. Gerekli yüzey koruyucu ancak kayma yaratmayacak ve tesisçe kabul edilen tipte kullanılmalıdır. Teslim öncesi mevcut yüzey durumu görülür, iş sonunda rota tekrar kontrol edilir. Lastik seçimi bu planın tek parçasıdır, bütün garantisi değildir.",
+            },
+            {
+                soru: "Makine dışarıda çalıştıktan sonra aynı gün tekrar içeri girebilir mi?",
+                cevap:
+                    "Girebilir, ancak ilk girişteki temizlik kabulü artık geçerli sayılmaz. Tekerler, alt takım, sepet ve kullanılan aletler yeniden gözden geçirilir; dışarıdan taşınan çamur, metal kırıntısı veya genel kir tesisin kabul ettiği yöntemle uzaklaştırılır. Hidrolik sızıntı belirtisi tekrar kontrol edilir. Bu temizlik ve kabul süresi gün planına eklenmelidir. Mümkünse rota temiz iç bölümden dış bölüme tek yönlü kurulur; gereksiz geri dönüşler azaltılır.",
+            },
+            {
+                soru: "Hidrolik sistemin altına koruyucu tava koymak yeterli olur mu?",
+                cevap:
+                    "Tava yalnız ek bir koruma olabilir; görünür sızıntısı olan makinenin çalışmasını uygun hâle getirmez. Damlama, yağlı bağlantı veya olağan dışı koku fark edilirse kullanım başlamaz ya da durur. Kaynak servis tarafından değerlendirilir ve güvenli durum doğrulanır. Zemine ulaşan sıvı tesisin prosedürüne göre temizlenir, bilinmeyen ürün kullanılmaz. Koruyucu yüzey, sağlam ve sızıntısız makinenin beklenmedik küçük etkilerine karşı planlanabilir; arızayı örtmek için kullanılamaz.",
+            },
+            {
+                soru: "Dar kapı ve hassas ekipman arasından makine nasıl geçirilir?",
+                cevap:
+                    "Kapının net ölçüsü, eşik, ilk dönüş, üst engeller ve hedefe kadar en dar koridor birlikte alınır. Geçici stok kaldırılır, rota yaya ve araç hareketinden ayrılır, makine düşük hızda yetkili kullanıcı tarafından yürütülür. Görüşün sınırlı olduğu dönüşte yerden bir yönlendirici kullanılır. Güvenlik parçası rastgele sökülmez ve gövde yüzeye dayanarak çevrilmez. Ölçü sınırdaysa fiziksel keşif veya daha kompakt sınıf gerekir; temas riskini kabul ederek geçiş yapılmaz.",
+            },
+            {
+                soru: "Bu içerik havacılık kümesindeki tesislerin iç koşullarını doğruluyor mu?",
+                cevap:
+                    "Hayır. Doğrulanan kamuya açık çerçeve yalnız Eskişehir OSB'de havacılık motor sanayisi çevresinde bir kümenin varlığıdır. Belirli bir tesisin temiz oda, hassas hat, özel zemin veya üretim prosesi bulunduğu iddia edilmez. Temiz ve elektrikli makine yaklaşımı, böyle bir fiziksel kabul gereksinimi sahada gerçekten beyan edilirse uygulanacak genel yöntemdir. Nihai şartlar tesisin yetkili kişisinden ve gerçek saha ölçüsünden alınır; sektör adına varsayım üretilmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Eskişehir OSB içinde havacılık motor sanayisi çevresinde bir kümenin varlığı uygulama belgesindeki kamuya açık genel bilgidir. Belirli tesisin iç mekânı, prosesi, temizlik sınıfı, zemini, ürünü, kapasitesi veya güvenlik rejimi hakkında iddia kurulmamıştır; akülü tahrik, iz bırakmayan lastik, sızıntı ve yüzey koruma adımları koşullu sektör geneli ekipman pratiğidir.",
+    },
+
+    "bolge:beylikova": {
+        h1: "Beylikova'da Sanayi Yapısı ve Kamu Binası İçin Platform Kiralama",
+        giris:
+            "Beylikova ilçe sayfasının kapsamı, Beylikova OSB'deki hat kurulumu veya devreye alma pencereleri değildir. Burada ilçe ölçeğinde karşılaşılabilen sanayi yapısı, küçük atölye, depo, belediye ya da başka kamu kullanımındaki bina, ticari cephe ve ortak alan bakımını; belirli bir tesis veya kurum adı vermeden ele alıyoruz. Aynı ilçe içinde çelik çatılı bir işletme yapısının oluk ve aydınlatma ihtiyacıyla, vatandaş kullanımındaki bir binanın yüksek hol veya dış cephe işi farklı saat, zemin ve çevre güvenliği ister. Makine seçimi sektör varsayımıyla değil kapı, çalışma kotu, yatay engel, zemin, yaya-araç trafiği ve hizmetin durabileceği pencereyle yapılır. Sanayi yapısında üretim ya da yükleme hareketi ayrılır; kamu binasında kullanıcı geçişi, giriş kapısı ve hassas zemin korunur. Kısa işler tek bakım listesinde toplanabilir, fakat iki ortamın kuralları birbirine aktarılmaz. Böylece Beylikova OSB kayıtlarının tesis yaşam döngüsü ve lojistik anlatısından ayrılan, ilçe genelindeki farklı yapıların erişim gereksinimlerini dürüstçe sınıflandıran bir sayfa oluşur.",
+        maddeler: [
+            {
+                baslik: "Sanayi yapısında çatı altı ve kapı üstü bakım",
+                metin:
+                    "Küçük veya orta ölçekli sanayi yapısında aydınlatma, havalandırma, kablo hattı, seksiyonel kapı üstü ve çatı bağlantıları aynı listede bulunabilir. Hedefin altında tezgâh veya stok varsa yandan uzanma gereksinimi ölçülür. Kapı mekanizması ve hareketli ekipman tesis yetkilisince güvenli duruma getirilir. Platform yük veya parça kaldırmak için kullanılmaz. Kapalı hacimde egzoz üretmeyen sınıf değerlendirilir; dar koridor ile dönüş alanı girişten hedefe kadar görülür. İşler aynı konumdan kapanabilen gruplara ayrılarak gereksiz geçiş azaltılır.",
+            },
+            {
+                baslik: "Kamu binasında yaya rotasını hizmetten ayırmak",
+                metin:
+                    "Kamu kullanımındaki yapıda ziyaretçi ve personel hareketi çalışma alanının altından geçirilmez. Yüksek hol, cephe, giriş üstü, armatür veya oluk işi kullanımın daha seyrek olduğu pencereye alınır. Bariyer, makine tabanından daha geniş biçimde sepet hareketi ve düşebilecek parça alanını kapsar. Alternatif giriş ve erişilebilir rota tesis yönetimiyle belirlenir; acil çıkış kapatılmaz. İç mekânda akülü, kompakt ve zemine uygun lastikli model değerlendirilir. İş sonunda alan temizlenip bina sorumlusuna teslim edilmeden yaya rotası açılmaz.",
+            },
+            {
+                baslik: "Ticari cephe ve ilçe içi ortak alanda kısa çalışma",
+                metin:
+                    "Tabela, dış aydınlatma, klima dış ünitesi çevresi veya cephe bağlantısı gibi kısa işler yaya ve araç hareketi nedeniyle dikkatli saat planı ister. Makine kaldırıma veya ortak yola taşacaksa ilgili alanın kullanım koşulu yetkili tarafla netleştirilir. Sepet aktif trafiğin üstüne uzatılmaz. Uzun tabela ve panel sepetten kaldırılmaz; malzeme uygun yöntemle ayrı taşınır. Birkaç cephe işi aynı gün yapılacaksa her adresin park, bariyer ve sorumlusu önceden belirlenir. Ortak tur izinleri birleştirmez.",
+            },
+            {
+                baslik: "İlçe ölçeğinde teslim rotasını önceden görmek",
+                metin:
+                    "Ana yol uygun olsa bile son sokak, parsel kapısı, avlu dönüşü veya bina girişi taşıyıcı ile platform için dar olabilir. Talepte indirme noktası, en dar geçiş, zemin, rampa, kanal ve hedefe kadar rota fotoğraflanır. Kamu yapısında iç kapı ve zemin taşıması; sanayi parselinde araç trafiği ile dolgu yüzey ayrıca görülür. Teslim günü park etmiş araç veya yeni istif rotayı değiştirmişse eski plan zorlanmaz. Alternatif güvenli güzergâh onaylanır veya çalışma penceresi değiştirilir.",
+            },
+            {
+                baslik: "Kısa kalemleri ortak bakım gününe hazırlamak",
+                metin:
+                    "Tek armatür veya kısa oluk işi için taşıma payı yüksek kalabilir. Aynı işletme veya kurum, bekleyen aydınlatma, cephe, havalandırma, kapı ve çatı kalemlerini bölüm bölüm toplarsa tek sevkiyat daha verimli olur. Farklı adresler tarih ve makine sınıfı uyuyorsa sırayla planlanabilir; her adresin teklifi ve teslimi ayrıdır. Malzeme, erişim izni ve teknik yetkili platform gelmeden hazır bulunur. Hazır olmayan hedef uğruna bütün program bekletilmez, fakat sonradan eklenen iş de ölçüsüz biçimde araya alınmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Beylikova yapı türüne göre erişim tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli işletme veya kurumun varlığına ilişkin envanter değildir; ilçe ölçeğinde gerçek talep geldiğinde yapı koşulunu sınıflandırmak için kullanılan genel çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı/alan", "Yüksek iş", "Ana kısıt", "Hazırlık"],
+                    satirlar: [
+                        ["Sanayi yapısı", "Aydınlatma ve üst tesisat", "Tezgâh, üretim hareketi", "Hücreyi ayır ve izole et"],
+                        ["Depo", "Raf üstü ve çatı altı", "İstif, koridor", "Boş güzergâh oluştur"],
+                        ["Kamu binası içi", "Hol ve armatür", "Yaya kullanımı, zemin", "Kullanım dışı pencere"],
+                        ["Kamu/ticari cephe", "Tabela, oluk, dış ünite", "Giriş ve ortak alan", "Alternatif rota belirle"],
+                        ["Kırsal parsel yapısı", "Çatı ve dış aydınlatma", "Son giriş, zemin, hava", "Teslim günü doğrula"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sanayi ve kamu işlerini aynı makineyle yapma kararı",
+                paragraflar: [
+                    "İki yapıdaki hedef kotu benzer olsa bile uygun sınıf aynı olmayabilir. Sanayi yapısında tezgâh üstüne yatay uzanma, kamu binasında dar kapı ve hassas zemin baskın olabilir. Dış cephede ise rüzgâr, park alanı ve yaya trafiği devreye girer. Her iş ayrı erişim kartına yazılır; kapı, zemin, engel ve sepet yükü karşılaştırılır. Tek kompakt akülü sınıf hepsini güvenle kapsıyorsa ortak program kurulabilir.",
+                    "Dışarıda bozuk zemin veya uzun uzanma için daha büyük bir bom gerekirken iç yapı dar gövde istiyorsa iki sınıf ayrılır. Tek makine kullanma hedefi, uygun olmayan modeli binaya sokma gerekçesi değildir. Aynı taşıma programında iki ünitenin dağıtılması ya da işlerin ayrı günlere alınması toplam planla değerlendirilir. Karar gerekçesi teklifte açıkça yazılır.",
+                ],
+            },
+            {
+                baslik: "Mesai ve hizmet penceresini işi kapatacak biçimde kurmak",
+                paragraflar: [
+                    "Kamu binasında hizmetin seyreldiği, sanayi yapısında ilgili ekipmanın durabildiği, ticari cephede yaya-araç hareketinin azaldığı saatler birbirinden farklıdır. Program tek bir 'mesai dışı' varsayımına dayanmaz. Her adreste alanı teslim edecek yetkili, enerji kesme sorumlusu ve yeniden açılma saati belirlenir. Makine pencere başlamadan güvenli biçimde kabul edilmiş olmalıdır.",
+                    "Kapanış için alet-parça sayımı, bağlantı kontrolü, alan temizliği ve sorumlu kabulü zaman ayrılır. Hizmet saati geldi diye sepet açıkken bariyer kaldırılmaz. İş yetişmiyorsa açık kalan kalem yazılır ve yeni pencereye taşınır. Bu yaklaşım ilçe genelindeki kısa işleri hızlandırırken kamu kullanımı ile sanayi hareketini birbirine karıştırmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Beylikova ilçe sayfası Beylikova OSB hizmetinden nasıl ayrılıyor?",
+                cevap:
+                    "OSB kayıtları tesis içi kurulum, devreye alma, planlı bakım veya lojistik gibi organize sanayi pratiğine odaklanır. Bu sayfa ise ilçe ölçeğinde sanayi yapısı, depo, kamu kullanımlı bina, ticari cephe ve ortak alan gibi farklı yapıların erişim koşullarını ele alır. Belirli bir tesis veya kurum envanteri çıkarmıyoruz. Gerçek talepte yapı türü, kapı, zemin, hedef, yaya-araç trafiği ve hizmet penceresi doğrulanır. Aynı ilçe adı, içeriklerin aynı işi anlattığı anlamına gelmez.",
+            },
+            {
+                soru: "Kamu binasında hizmet sürerken platform kullanılabilir mi?",
+                cevap:
+                    "Fiziksel olarak ayrılmış ve alternatif yaya rotası bulunan bazı alanlarda mümkün olabilir, ancak sepet hareketi veya düşen parça alanı kullanıcılarla kesişmez. Yüksek hol ya da ana giriş gibi yoğun noktalar daha sakin saate alınır. Acil çıkış ve erişilebilir güzergâh kapatılmaz. Bariyer planı bina sorumlusuyla yapılır. Gürültü, zemin ve kapı koşuluna uygun akülü model seçilir. Güvenli ayrım kurulamıyorsa hizmet dışı pencere beklenir; işin kısa olması kullanıcı riskini kabul ettirmez.",
+            },
+            {
+                soru: "Sanayi yapısındaki tezgâh üstü noktaya nasıl erişirsiniz?",
+                cevap:
+                    "Tezgâhın yanındaki güvenli park alanından eklemli erişim değerlendirilebilir. Hedef kotu, tezgâh veya hattın yüksekliği ve yatay uzaklık ölçülür; modelin erişim diyagramıyla karşılaştırılır. Tezgâh enerji ve hareket açısından tesis yetkilisince güvenli duruma getirilir, alt hücre boşaltılır ve aletler bağlanır. Sepet tezgâha dayanmaz, platformdan ekipman üzerine geçilmez. Uzanma sınırı yetmiyorsa farklı model ya da park noktası seçilir; sabit ekipman rastgele sökülmez.",
+            },
+            {
+                soru: "İç mekân zemini hassassa hangi önlemler alınır?",
+                cevap:
+                    "Önce yapının teknik biriminden zemin taşıma uygunluğu alınır. İz bırakmayan lastikli, kompakt akülü sınıf değerlendirilir; kanal kapakları, birleşimler, rampa ve keskin dönüşler rota üzerinde işaretlenir. Tesisçe uygun bulunan koruyucu yüzey gerekiyorsa kayma yaratmayacak biçimde kullanılır. Makine düşük hızda ilerler ve dar dönüşte yerden yönlendirme yapılır. Teslim öncesi mevcut zemin durumu görülür, iş sonunda rota tekrar kontrol edilir. Lastik seçimi taşıma kapasitesinin yerine geçmez.",
+            },
+            {
+                soru: "Tek bir kısa cephe işi için ilçeye sevkiyat yapılır mı?",
+                cevap:
+                    "Yapılabilir, fakat taşıma kaleminin toplam içindeki etkisi açıkça gösterilir. Önce aynı adreste bekleyen oluk, aydınlatma, tabela, kapı ve dış ünite çevresi gibi diğer yüksek erişim ihtiyaçlarını toplamanızı öneririz. Tarih ve sınıf uyarsa başka hazır adreslerle bir ilçe turu kurulabilir; her müşterinin sözleşme ve teslimi ayrı kalır. Acil güvenlik işi bekletilmez. Ekonomik çözüm, kapsamı saklamak değil tekil ve birleşik seçenekleri karşılaştırmaktır.",
+            },
+            {
+                soru: "Tek makine hem kamu binası hem sanayi yapısı için yeterli olur mu?",
+                cevap:
+                    "Kapı, zemin, erişim geometrisi, egzoz kısıtı ve çalışma tabanı aynı sınıfla uyumluysa olabilir. Kompakt akülü eklemli model bazı karma listeleri kapatabilir. Fakat sanayi dış sahası bozuk zemin veya uzun uzanma, kamu binası ise dar geçiş ve hassas yüzey istiyorsa iki farklı sınıf gerekir. İşleri sırf tek sevkiyata sığdırmak için makine sınırı zorlanmaz. Fotoğraf ve ölçülerle kapsama haritası çıkarır, hangi hedeflerin ortak sınıfla kapanacağını teklifte gösteririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Beylikova'nın Eskişehir'in ilçesi olması ve görevde ilçe ölçeğinde sanayi-kamu binası çapası kamuya açık uygulama çerçevesidir. Belirli işletme, kurum, tesis, sektör, kapasite ve doğrulanmamış rakam kullanılmamıştır; erişim, yaya ayrımı, zemin ve bakım turu koşullu sektör geneli saha pratiğidir.",
+    },
+
+    "bolge:seyitgazi": {
+        h1: "Seyitgazi'de Seramik Hammadde Sahaları Çevresinde Platform Kiralama",
+        giris:
+            "Seyitgazi için bu sayfanın merceği enerji veya haberleşme direkleri değil; uygulama belgesinin verdiği seramik hammadde sahaları çevresindeki yardımcı yapı, bakım noktası ve tesis dış kabuğuna güvenli erişimdir. Belirli bir ocak, işletme, mineral, üretim kapasitesi ya da saha içi düzen hakkında varsayım yapılmaz. Hammadde çevresinde gerçek talep geldiğinde doğrulanacak koşullar üzerinden ilerleriz: stabilize veya gevşek yaklaşım yolu, tozlu açık yüzey, eğim, ağır araç hareketi, çelik çatılı yardımcı yapı, dış aydınlatma, sundurma, oluk ve kapı üstü bakım. Platform hammadde çıkarmak, yüklemek veya taşımak için kullanılmaz; personeli izin verilen bakım noktasına ulaştırır. Makinenin kendisinden önce taşıyıcının sahaya gireceği rota ve güvenli indirme yeri görülür. Çalışma alanı saha araçlarından ayrılır, rüzgâr ve zemin her vardiyada yeniden değerlendirilir, açık sahadan kapalı yardımcı hacme geçişte alt takım temizlenir. Böylece mevcut Seyitgazi direk-vinç anlatısından ayrılan, seramik hammadde çevresindeki toz, yüzey, araç trafiği ve yardımcı yapı bakımına odaklanan bir içerik oluşur.",
+        maddeler: [
+            {
+                baslik: "Taşıyıcı rotası ile çalışma rotasını ayrı değerlendirmek",
+                metin:
+                    "Platformun arazi üzerinde ilerleyebilmesi, onu getiren taşıyıcının aynı yere güvenle ulaşacağı anlamına gelmez. Yol genişliği, dönüş, eğim, yüzey taşıması ve indirme tabanı fotoğrafla görülür. Taşıyıcı için uygun sert nokta belirlenir; platformun oradan hedefe kendi yürüyüşüyle gideceği rota ayrıca değerlendirilir. Kamu yolunda veya uzun belirsiz güzergâhta otomatik yürütme kararı verilmez. Yağış sonrası yüzey eski keşifle aynı kabul edilmez. Teslim günü saha sorumlusuyla rota yürünür, çukur, gevşek dolgu ve aktif araç yolu yeniden işaretlenir.",
+            },
+            {
+                baslik: "Mineral tozu ve açık yüzeyde görüş-temizlik düzeni",
+                metin:
+                    "Hammadde çevresindeki tozun niteliği ve yoğunluğu tesis tarafından bildirilir; platform ekibi varsayımla ortam sınıflandırması yapmaz. Görüşü azaltan veya teker tutunmasını etkileyen birikim çalışma tabanından uzaklaştırılır. Makinenin hava açıklıkları, kumanda çevresi ve hareketli noktaları uzun kullanımda gözle kontrol edilir. Basınçlı havayla tozu gelişigüzel yaymak yerine işletmenin kabul ettiği temizlik yöntemi kullanılır. Açık alandan kapalı yardımcı yapıya girilecekse teker ve alt takım temizlenir. Kıvılcım çıkaran bakım, tesisin risk değerlendirmesi ve izni olmadan yürütülmez.",
+            },
+            {
+                baslik: "Ağır araç trafiğinden bağımsız çalışma hücresi",
+                metin:
+                    "Hammadde sahası çevresinde kamyon, yükleyici veya başka iş makineleri geniş dönüş ve sınırlı görüşle hareket edebilir. Platformun tabanına birkaç koni koymak yeterli değildir; bomun hareket zarfı ve düşen parça alanı araç rotasından ayrılır. Girişlerde görünür bariyer, gerektiğinde gözcü ve saha içi iletişim düzeni kullanılır. Araç sürücüsünün platformu gördüğü varsayılmaz. Çalışma hücresi açılmadan önce sepet toplanır ve makine güvenli konuma geçer. Acil yol, pano önü ve saha çıkışı kapatılmaz.",
+            },
+            {
+                baslik: "Yardımcı yapı ve dış kabuk işlerini toplamak",
+                metin:
+                    "Çelik çatılı depo veya bakım yapısı, sundurma, kapı üstü donanım, oluk, dış aydınlatma, kamera ve cephe bağlantıları tek saha ziyaretinde değerlendirilebilir. Her hedefin kotu, yatay engeli ve zemin noktası ayrı kaydedilir. Çatıya platform sepetinden geçilmez; uzun panel veya ağır parça sepetle kaldırılmaz. Kapalı yapıda egzozsuz sınıf gerekirken açık bozuk zeminde arazi kabiliyeti öne çıkabilir. Tek makinenin iki ortamı karşılamadığı durumda işleri sınıflara ayırmak, uygunsuz üniteyi zorlamaktan güvenlidir.",
+            },
+            {
+                baslik: "Rüzgâr ve yağış için yedek bakım listesi",
+                metin:
+                    "Açık sahada platformun üretici rüzgâr ve eğim sınırları değişmez. Koşul uygun değilse sepet yükseltilmez. Kiralama gününün tümünü tek dış hedefe bağlamamak için kapalı yardımcı hacimde veya daha korunaklı alanda güvenle yapılabilecek kalemler önceden hazırlanabilir. Yağış yüzeyi yumuşatmışsa yalnız rüzgârın dinmesi yetmez; duruş zemini yeniden teyit edilir. Yedek işin malzemesi, izni ve enerji yetkilisi hazır değilse rastgele başka işe başlanmaz. Bekleme ve yeni tarih koşulu teklif aşamasında açıklanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hammadde sahası çevresinde alan-risk eşleştirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli bir Seyitgazi tesisinin envanteri değildir. Seramik hammadde çevresinde gerçek bir talep geldiğinde çalışma alanını ve güvenli hazırlığı sınıflandırmak için genel bir başlangıç sunar.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Erişim işi", "Baskın koşul", "Hazırlık"],
+                    satirlar: [
+                        ["Açık saha", "Direk, kamera, dış aydınlatma", "Toz, araç trafiği", "Bağımsız hücre ayır"],
+                        ["Yardımcı yapı dışı", "Oluk, panel, cephe", "Rüzgâr ve yatay erişim", "Hava penceresi belirle"],
+                        ["Kapalı depo/bakım hacmi", "Aydınlatma ve üst tesisat", "Kapı, egzoz, koridor", "Akülü sınıfı ölç"],
+                        ["Sundurma ve kapı", "Bağlantı ve mekanizma", "Araç geçişi", "Hareketi durdur"],
+                        ["İndirme-parking alanı", "Teslim ve gece parkı", "Zemin, eğim, dolgu", "Taşıma yeterliliğini teyit et"],
+                    ],
+                },
+            },
+            {
+                baslik: "Fotoğraf ve ölçüyle açık saha keşfi",
+                paragraflar: [
+                    "Fotoğraf dizisi ana yaklaşım yolundan başlamalı, taşıyıcının döneceği ve platformun indirileceği alanı, sonra makinenin hedefe kadar izleyeceği yüzeyi göstermelidir. Eğim, çukur, kanal, gevşek dolgu, aktif araç rotası ve hedefin önündeki engel geniş açıyla kaydedilir. Çalışma kotu ile yatay uzaklık ölçülür. Yalnız yakın çekim bakım noktası doğru sınıfı belirlemez.",
+                    "Teslim günü hava ve üretim hareketi nedeniyle saha değişmiş olabilir. Rota saha sorumlusuyla yeniden yürünür; yeni malzeme yığını veya park edilmiş araç güvenli alanı daraltıyorsa alternatif konum ölçülür. Platformun erişim diyagramı yeni noktaya göre kontrol edilir. Ön keşif bu canlı kabulün yerine geçmez, fakat yanlış makinenin uzun bir güzergâha çıkarılmasını önler.",
+                ],
+            },
+            {
+                baslik: "Tozlu dış işten kapalı bakıma geçiş",
+                paragraflar: [
+                    "Aynı platform hem dış saha hem kapalı yardımcı yapı için uygunsa sıra temiz kapalı hacimden açık tozlu alana doğru kurulabilir. Ters geçiş zorunluysa teker, alt takım, sepet ve aletler işletmenin kabul ettiği yöntemle temizlenir; görünür sızıntı ve hasar kontrol edilir. Bu ara süre çalışma programına yazılır. Kirli makine yalnız kapıdan sığıyor diye içeri alınmaz.",
+                    "Dışarıdaki arazi tipi ünitenin gövdesi kapalı koridora uygun olmayabilir; içerideki kompakt akülü model de gevşek zeminde güvenli olmayabilir. İki koşulu tek sınıfta birleştirmek mümkün değilse ayrı makine veya ayrı gün planlanır. Amaç sevkiyat sayısını her ne pahasına olursa olsun azaltmak değil, her ortamı üretici sınırında kapatmaktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu sayfa Seyitgazi'de belirli bir maden veya tesis olduğunu iddia ediyor mu?",
+                cevap:
+                    "Hayır. Uygulama belgesinin verdiği kamuya açık çapa, ilçede seramik hammadde sahaları çevresi işleridir. Belirli ocak, firma, mineral, üretim biçimi, ekipman, kapasite veya saha düzeni belirtilmez. İçerik koşulludur: gerçek talep böyle bir çevreden gelirse yol, zemin, toz, araç trafiği, yardımcı yapı ve erişim hedefi sahada doğrulanarak plan yapılır. Platform ekibi proses hakkında varsayım üretmez; tesisin risk değerlendirmesi ve yetkili açıklaması esas alınır.",
+            },
+            {
+                soru: "Stabilize yoldan platform sahaya getirilebilir mi?",
+                cevap:
+                    "Yüzeyin taşıma durumu, yol genişliği, dönüş, eğim ve yağış koşulu uygunsa getirilebilir. Önce taşıyıcının güvenli indirme noktasına ulaşıp ulaşamayacağı değerlendirilir; sonra platformun hedefe kendi yürüyüşüyle gideceği rota ayrı ele alınır. Uzun veya kamu trafiğine açık güzergâh otomatik kabul edilmez. Fotoğraf ve ölçüyle ön plan yapılır, teslim günü yüzey yeniden görülür. Zemin yumuşamış veya rota kapanmışsa daha büyük makine göndermek çözüm değildir; yüzey hazırlanır ya da tarih değiştirilir.",
+            },
+            {
+                soru: "Tozlu açık sahada standart platform kullanılabilir mi?",
+                cevap:
+                    "Yalnız 'tozlu' tanımıyla kesin uygunluk verilemez. Tozun niteliği, ortam risk değerlendirmesi, görüş, zemin tutunması ve makine üretici sınırları tesis yetkilisiyle değerlendirilir. Çalışma tabanı temizlenir, hareketli noktalar uzun kullanımda gözlenir ve kabul edilen temizlik yöntemi uygulanır. Kıvılcım çıkaracak iş ayrıca izin ister. Ortam sınıflandırması bilinmiyorsa platform firması tahmin yapmaz; uygunluk netleşmeden makine çalıştırılmaz. Akülü olması bütün toz risklerini kendiliğinden çözmez.",
+            },
+            {
+                soru: "Saha araçları çalışırken dış aydınlatma bakımı yapılabilir mi?",
+                cevap:
+                    "Yalnız çalışma hücresi araç rotasından fiziksel ve operasyonel olarak ayrılabiliyorsa mümkündür. Bomun bütün hareket zarfı ile düşebilecek parça alanı bariyerlenir; girişlerde yönlendirme ve gerektiğinde gözcü bulunur. Sürücünün platformu gördüğü varsayılmaz. Hücreyi kesen kamyon veya yükleyici hareketi durur ya da başka rotaya alınır. Ayrım kurulamıyorsa bakım araç trafiğinin durduğu pencereye taşınır. Birkaç koni, geniş dönüşlü ağır araçlara karşı tek başına yeterli koruma değildir.",
+            },
+            {
+                soru: "Aynı makine açık saha ve kapalı yardımcı yapıda çalışabilir mi?",
+                cevap:
+                    "Kapı, dönüş, egzoz, lastik, zemin ve erişim geometrisi aynı sınıfla uyumluysa çalışabilir. İş sırası mümkünse temiz kapalı hacimden dış alana kurulur. Dışarıdan içeri dönüşte teker, alt takım, sepet ve aletler yeniden temizlenip kontrol edilir. Arazi tipi büyük makine içeri sığmıyor veya kompakt akülü ünite dış zeminde güvenli değilse iki sınıf gerekir. Tek makine hedefi, üretici sınırının ve ortam uygunluğunun önüne geçmez.",
+            },
+            {
+                soru: "Rüzgâr veya yağış işi durdurursa kiralama nasıl ilerler?",
+                cevap:
+                    "Makinenin üretici rüzgâr sınırı aşıldığında ya da zemin güvenli taşıma durumunu kaybettiğinde çalışma durur. Önceden hazırlanmış, aynı sınıfla güvenle yapılabilecek kapalı veya korunaklı iş varsa yedek listeye geçilebilir. Malzeme ve izin hazır değilse rastgele yeni kalem açılmaz. Bekleme, alternatif gün ve yeniden sevkiyat koşulları teklif aşamasında yazılır. Yağış bittikten sonra yalnız hava değil zemin de yeniden kontrol edilir; yüzey toparlanmadan sepet yükseltilmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Seyitgazi'de seramik hammadde sahaları çevresi işleri uygulama belgesinde verilen kamuya açık genel çapadır. Belirli ocak, mineral, firma, tesis, üretim, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır; zemin, toz, araç trafiği, yardımcı yapı ve temiz-kirli rota anlatımı koşullu sektör geneli saha pratiğidir.",
+    },
 };

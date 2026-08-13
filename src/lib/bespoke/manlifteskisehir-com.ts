@@ -921,4 +921,203 @@ export const MANLIFTESKISEHIR_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Polatlı'nın Ankara'nın batı ucunda ve iki şehri bağlayan karayolu hattı üzerinde bulunması ile tarımsal işleme ve depolama tesislerinin ilçedeki varlığı kamuya açık bilgidir; üç eksenli kapasite defteri, çakışma haftası yönetimi ve geçiş günü planlaması firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
     },
+    "bolge:kutahya-cevre-ili": {
+        h1: "Kütahya Seramik Ekseninde Planlı Duruş İçin Manlift Takvimi",
+        giris:
+            "Kütahya çevre ili için planlı duruş yönetiminde asıl sorun bir manliftin Eskişehir’den yola çıkması değil, seramik eksenindeki tesislerin benzer bakım dönemlerinde aynı erişim kapasitesini istemesidir. Kardeş sayfa taşıma zincirini, eklemli-teleskopik seçimi ve sahaya kabulü ayrıntılandırır; burada odağı takvim eşleştirmesine çeviriyoruz. Belirli bir tesisin fırını, hattı veya üretim kapasitesi hakkında varsayım yapmadan şu ortak gerçeği yönetiriz: sürekli çalışan üretim düzeninde normal zamanda açılamayan üst kot işleri, ilan edilen duruş penceresine yığılır. Makine adedi ve sınıfı, duruş haftası geldiğinde telefonda aranarak değil; kapsam dondurma, saha hazırlık kontrolü ve yeniden devreye alma sırası üzerinden önceden bağlanır. Aynı makineyi birbiriyle çakışan iki tesise vaat etmeyiz. Talep defterinde tarih kadar esneklik aralığı, kritik hedefler, yedek sınıf ve kapanış saati görünür. Böylece değerli duruş süresi teslim, ölçüm veya malzeme beklemekle tükenmez; Kütahya işi bölgesel kapasite havuzunun doğrulanmış bir slotu hâline gelir.",
+        maddeler: [
+            {
+                baslik: "Duruş niyetini rezervasyona çevirmek",
+                metin:
+                    "Takvimde yalnız ‘bakım yapılacak’ notu bulunması kapasite ayırmak için yeterli değildir. İşletme önce olası pencereyi, ihtiyaç duyulan makine ailelerini, vardiya biçimini ve kritik iş gruplarını bildirir. Bu kayıt geçici kapasite görünümü oluşturur. Tarih yaklaştığında kapsam, saha ölçüleri ve sorumlu ekipler doğrulanır; ardından rezervasyon kesinleşir. Belirsiz talebi kesin kabul edip makineyi başka işlerden çekmek de, hazırlığı tamamlanmış talebi son güne bırakmak da bölgesel havuzu bozar. Bu nedenle teyit eşiği sözleşme ve plan notunda görünür. Tarih kayarsa yalnız başlangıç değil, ardındaki diğer slotlar ve geri alma planı birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Seramik ekseninde çakışan duruş haftaları",
+                metin:
+                    "Bölgesel üretim yapısında benzer tatil, dönem kapanışı veya bakım tercihleri talebi aynı haftalara toplayabilir. Belirli tesis adına kapasite iddiası kurmadan, rezervasyon defterini bu çakışma üzerinden yönetiriz. Her talep için vazgeçilmez sınıf, kabul edilebilir yedek sınıf ve tarihin kayabileceği aralık ayrı tutulur. Esnek iş, kritik duruşun makinesini tüketmez; kritik iş de yalnız yüksekliği benziyor diye uygun olmayan üniteye aktarılmaz. Bir haftanın doluluk durumu müşteriye açıkça bildirilir. Kapasite kalmadığında gerçek dışı söz vermek yerine alternatif pencere veya doğrulanmış başka çözüm sunulur. Bu şeffaflık, duruş günü iki işletmenin aynı makineyi beklemesini önler.",
+            },
+            {
+                baslik: "Hazırlık kapısı geçilmeden slot başlatmamak",
+                metin:
+                    "Makine ayrılmış olsa bile saha hazır değilse duruş slotu üretken değildir. Başlangıçtan önce hedef listesi ve erişim ölçüleri dondurulur, giriş ile indirme alanı açılır, enerji izolasyonu sorumluları belirlenir, malzeme çalışma hücrelerine dağıtılır ve vardiya ekipleri atanır. Toz, sıcak yüzey veya başka proses koşulu varsa işletmenin risk değerlendirmesi üzerinden ek izinler tamamlanır; sektör adına ezber varsayım yapılmaz. Hazırlık kontrolündeki eksik, sorumlusu ve kapanış tarihiyle yazılır. Kritik eksik kapanmamışsa makineyi sahaya erken bırakmak çözüm değildir. Slotun başlaması, yalnız takvim saatine değil bu hazırlık kapısının yazılı kabulüne bağlanır.",
+            },
+            {
+                baslik: "Duruş içinde makine saatini iş paketlerine bölmek",
+                metin:
+                    "Duruş listesi bölüm adlarına göre değil, aynı konum ve aynı izolasyon altında kapanabilecek iş paketlerine ayrılır. Bir makine bir hücrede çalışırken sonraki hücrenin malzemesi, bariyeri ve yetkilisi hazır bekler. Paket tamamlanınca alet-parça sayımı yapılır, açık bağlantı bırakılmaz ve teknik sorumlu alanı teslim alır. Son dakika çıkan hedef mevcut iznin otomatik devamı sayılmaz; erişim ve süre etkisi görülür. Kritik yol üzerindeki kalemler önce, duruş dışında güvenle yapılabilecek işler sonra planlanır. Böylece makine, yüksek öncelikli işi beklerken düşük öncelikli bir hedefte kilitlenmez ve kapanış saati öngörülebilir kalır.",
+            },
+            {
+                baslik: "Yeniden devreye alma dalgasında kapasiteyi serbest bırakmak",
+                metin:
+                    "Bakım ekibinin son işi bitirmesi, manlift slotunun hemen kapandığı anlamına gelmez. Koruyucuların yerine takılması, alet ve malzemenin çıkarılması, izolasyonların yetkili kişi tarafından kaldırılması ve kontrollü test sırasında erişim ihtiyacı doğup doğmayacağı görülmelidir. Makine, üzerinde anlaşılmış test desteği penceresi tamamlanana kadar güvenli parkta tutulabilir; fakat belirsiz bir ihtimal için günlerce rezerve bırakılmaz. Kapanış kriteri önceden yazılır. Testte yeni sorun çıkarsa ek süre, ardındaki kapasite taahhütleri görülerek onaylanır. İade kararı verildiğinde durum kaydı ve yükleme alanı hazırlanır; ünite bölgesel havuza zamanında geri döner.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya duruş slotunun karar kapıları",
+                paragraflar: [
+                    "Duruş rezervasyonu tek tarih satırı değildir. Aşağıdaki tablo, kapasitenin hangi kanıtla bir sonraki aşamaya geçtiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Ana karar", "Gerekli kanıt", "Kapasite durumu"],
+                    satirlar: [
+                        ["Niyet kaydı", "Olası pencere ve sınıf", "İlk kapsam, esneklik", "Geçici görünüm"],
+                        ["Kapsam dondurma", "İş paketi ve ölçüler", "Hedef listesi, saha verisi", "Sınıf doğrulandı"],
+                        ["Hazırlık kapısı", "Saha başlayabilir mi", "İzin, malzeme, güzergâh", "Slot kesin"],
+                        ["Duruş yürütme", "Paket sırası", "Vardiya ve hücre kaydı", "Makine sahada"],
+                        ["Test desteği", "Erişim hâlâ gerekli mi", "Kontrollü devreye alma", "Kısa bekleme"],
+                        ["Kapanış", "Havuza dönüş", "Teknik teslim ve iade", "Kapasite serbest"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bölgesel kapasite defterinde esneklik",
+                paragraflar: [
+                    "Her tesisin talebini kesin tarih, kabul edilebilir tarih aralığı, vazgeçilmez makine özelliği ve yedek çözümle kaydederiz. Esneklik, hazırlıksız işi sürekli ertelemek değildir; teknik olarak aynı sonucu veren komşu pencereye geçebilme yeteneğidir. Duruşu başka üretim kararına bağlı olan işletme, kesinleşme tarihini baştan bildirir. Böylece bekleme durumundaki talep, kesinleşmiş bir slotu görünmez biçimde bloke etmez. Aynı dönemde Kütahya ve Eskişehir-Bozüyük hattındaki talepler tek havuzda görülür.",
+                    "Çakışma ortaya çıktığında önce kritik yol ve teknik uygunluk değerlendirilir. Yalnız günlük ücret veya arama sırası üzerinden karar verilmez. Belirli sınıfı zorunlu kılan erişim işi, daha geniş alternatif havuzu olan talepten ayrılır. Uygun müşteriye tarih kaydırma veya doğrulanmış yedek sınıf sunulur. Her değişiklik yazılı onaylanır; bir tesisten alınan makinenin diğerine yetişeceği varsayımı, kapanış ve taşıma payı görülmeden yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Duruş sonu öğrenimini sonraki takvime taşımak",
+                paragraflar: [
+                    "Program kapanınca yalnız kira süresi değil, hazırlık kalitesi de kaydedilir. Hangi paket zamanında açıldı, hangi izin veya malzeme bekletti, seçilen sınıf hangi hedeflerde yeterli kaldı ve test desteği gerçekten kullanıldı soruları yanıtlanır. Bu kayıt belirli tesis verisini kamuya taşımak için değil, aynı müşterinin sonraki planını daha doğru kurmak içindir. Tahmin ile gerçekleşen akış arasındaki fark, gelecek rezervasyonun teyit eşiğini ve slot uzunluğunu geliştirir.",
+                    "Bir sonraki dönemde eski kayıt başlangıç noktasıdır, değişmez gerçek değildir. Saha yerleşimi, üretim takvimi ve iş listesi yeniden doğrulanır. Tekrarlanan gecikme varsa sorumlu hazırlık kalemi daha erken tarihe çekilir; kullanılmayan bekleme payı azaltılır. Böylece her duruş, bölgesel yoğunluğu artıran belirsiz bir talep olmaktan çıkar ve kanıtı bulunan, ölçülü bir kapasite ihtiyacına dönüşür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kütahya’daki planlı duruş için ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Duruş niyeti ortaya çıktığında geçici kaydı açmak, tarih ve kapsam kesinleştiğinde rezervasyonu bağlamak gerekir. Özellikle bölgedeki işletmelerin benzer dönemleri tercih ettiği haftalarda son ana kalan talep uygun sınıf bulamayabilir. İlk görüşmede olası pencere, esneklik, kritik hedefler ve makine ailesi kaydedilir. Kesinleştirme için erişim ölçüleri, iş paketleri, saha hazırlığı ve sorumlu ekipler gerekir. Tarihin değişme ihtimali saklanmaz; teyit eşiği baştan yazılır. Böylece ne belirsiz bir talep kapasiteyi gereksiz bloke eder ne de hazırlığı tamamlanmış iş görünmez kalır.",
+            },
+            {
+                soru: "Seramik tesisi olduğumuzu söylemek doğru makineyi ayırmaya yeter mi?",
+                cevap:
+                    "Yeterli değildir. Bölgesel seramik bağlamı duruş takvimindeki yoğunluğu anlamaya yardım eder, fakat makine sınıfını belirlemez. Hedef kotu, yatay engel, park zemini, kapı-koridor, kapalı veya açık ortam, sepet yükü ve çalışma şekli gerekir. Isı, toz veya proses yakınlığı varsa işletmenin kendi risk değerlendirmesi paylaşılır; tesis düzeni varsayılmaz. Bu veriler erişim diyagramıyla karşılaştırılır. A7’nin görevi uygun kapasiteyi doğru haftaya ayırmaktır, ancak ayrılacak kapasite önce teknik olarak doğrulanmalıdır. Yanlış sınıfı erken rezerve etmek, doğru sınıfı geç aramak kadar zararlıdır.",
+            },
+            {
+                soru: "Duruş tarihi kayarsa ayırdığımız makineyi koruyabilir miyiz?",
+                cevap:
+                    "Yeni pencerenin kapasite defterindeki diğer kesin taahhütlerle çakışmaması halinde kaydırma yapılabilir; otomatik garanti verilmez. Değişiklik öğrenildiğinde başlangıç, sahada kalış, test desteği ve iade birlikte güncellenir. Makine henüz çıkmadıysa yeni slot aranır. Sahadaysa güvenli park ve bekleme koşulu yazılı ele alınır; yalnız rezervasyonu korumak için kullanılmayan ünite belirsiz süre tutulmaz. Tarih esnekliğinin ilk kayıtta belirtilmesi seçenekleri artırır. Son dakika değişikliğinde gerçek durumu açık söylemek, iki tesise aynı kapasiteyi vaat etmekten daha güvenlidir.",
+            },
+            {
+                soru: "Duruş sırasında yeni çıkan işleri aynı listeye ekleyebilir miyiz?",
+                cevap:
+                    "Eklenebilir, fakat önce kritik yol, erişim ve kapanış saatine etkisi değerlendirilir. Yeni hedef mevcut makineyle ve aynı izolasyon altında güvenle kapanabiliyorsa iş paketine yazılır. Başka sınıf, yeni izin veya uzun hazırlık istiyorsa mevcut slotu bozmak yerine ayrı programa alınabilir. Son dakika işi sırf makine sahada diye otomatik öncelik kazanmaz. Önceden dondurulmuş kritik paketler tamamlanmadan düşük öncelikli ek işe geçmeyiz. Değişiklik vardiya kaydına girer ve test ile iade planı yeniden görülür; sözlü eklemeler kapasite defterini görünmez biçimde uzatmaz.",
+            },
+            {
+                soru: "Test aşamasında makineyi ne kadar bekletmek gerekir?",
+                cevap:
+                    "Sabit süre söylemek yerine test planındaki gerçekten erişim gerektiren adımları belirleriz. Koruyucular kapandıktan ve hat kontrollü devreye alındıktan sonra üst kotta ayar veya doğrulama ihtimali bulunuyorsa kısa bir destek penceresi rezervasyona eklenir. Bu pencerenin kapanış kriteri ve yetkili karar kişisi önceden yazılır. Belirsiz ihtimal için üniteyi sınırsız tutmayız; yeni sorun çıkarsa ek süre, ardındaki taahhütlerle birlikte değerlendirilir. İhtiyaç kalmadığında teknik teslim ve iade hazırlığı hemen başlar, böylece makine bölgesel havuza zamanında döner.",
+            },
+            {
+                soru: "Aynı yoğun haftada birden fazla makine ayırabilir misiniz?",
+                cevap:
+                    "Teknik ihtiyaç ve kapasite yeterliyse mümkündür; ancak talep erken doğrulanmalıdır. Çoklu makine planında her ünitenin ayrı iş paketi, operatörü veya yetkili kullanıcısı, park-şarj alanı ve çalışma hücresi bulunur. Aynı tavan altında daha çok makine kullanmak otomatik hız kazandırmaz; hareket zarfları ve ekipler kesişiyorsa sıra gerekir. Rezervasyon defterinde vazgeçilmez ünite ile yedek seçenek ayrılır. Yoğun hafta dolduğunda gerçek dışı kapasite yaratmayız; alternatif pencere veya doğrulanmış çözüm sunarız. Kesin söz, yalnız saha hazırlığı ve kaynak planı birlikte kapandığında verilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Kütahya’nın seramik ve çini sanayi ekseni uygulama belgesinde verilen kamuya açık genel bağlamdır; duruş rezervasyonu, kapasite defteri, hazırlık kapısı, iş paketi ve yeniden devreye alma yönetimi sektör geneli planlama pratiğidir. Özel tesis, kapasite, hat düzeni, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:beylikova-osb": {
+        h1: "Beylikova OSB’de Yeni Tesis Devreye Alma Duruşları İçin Manlift",
+        giris:
+            "Beylikova OSB’de yeni tesis veya yeni hat devreye alma döneminde ‘duruş’ sözcüğü yalnız çalışan üretimin kapatılması anlamına gelmez. Montajın belirli bir aşamasında enerji verilir, test yapılır, eksikler görülür ve güvenli düzeltme için sistem yeniden durdurulur. Bu kısa ve tekrarlanan pencereler, klasik yıllık bakım duruşundan farklı kapasite yönetimi ister. Kardeş içerik hat kurulumu boyunca eklemli-teleskopik seçimi, çok ekipli çalışma ve zemin dönüşümünü anlatır. Burada ise manliftin test ile düzeltme çevrimleri arasında nasıl slotlandığına, ne zaman hazır bekleyeceğine ve hangi kabul kanıtıyla serbest bırakılacağına odaklanıyoruz. Belirli firma, sektör veya üretim kapasitesi varsayılmadan devreye alma kapıları kurulur: mekanik tamamlanma, enerjisiz kontrol, kontrollü enerji verme, deneme ve eksik kapatma. Her kapıda erişim listesi yeniden dondurulur. Son dakika çıkan iş yeni izinle değerlendirilir; makinenin sahada bulunması güvenli çalışma izni yerine geçmez.",
+        maddeler: [
+            {
+                baslik: "Mekanik tamamlanma öncesi erişim listesini dondurmak",
+                metin:
+                    "Devreye alma başlamadan kablo tavası, kanal, sensör, aydınlatma, boru askısı ve üst bağlantı gibi erişim isteyen hedefler sistem veya alan bazında listelenir. Hangi noktanın montaj işi, hangisinin testte açılabilecek düzeltme olduğu ayrılır. Zemin, giriş, engel ve çalışma kotu güncel yerleşime göre ölçülür; şantiye başındaki fotoğrafa güvenilmez. Manlift sınıfı ile sahaya giriş tarihi bu liste üzerinden kesinleşir. Tamamlanmamış temel iş için üniteyi günlerce bekletmek yerine teslim kapısı belirlenir. İlgili alan temizlenmiş, güzergâh açılmış, malzeme ve sorumlu ekip hazır olduğunda slot başlar. Eksik hedef yazılı biçimde sonraki çevrime taşınır.",
+            },
+            {
+                baslik: "Enerjisiz kontrol penceresinde toplu kapanış",
+                metin:
+                    "Sisteme enerji verilmeden önce üst kotta görsel bağlantı, kablo sabitleme, koruyucu, etiket ve erişilemeyen birleşim kontrolleri topluca yapılabilir. Bu pencere, sonradan enerji izolasyonu açıp kapatma tekrarını azaltır. Manlift aynı güvenli park konumundan ulaşabildiği hedefleri paket halinde kapatır; farklı ekipler alet ve malzemesini önceden hazırlar. Askılı yük veya başka platform aynı hücreye girmez. Her paket sonunda alet-parça sayımı ve sorumlu kabulü yapılır. Enerjisiz dönem aceleye getirilirse testte görülen eksikler daha pahalı duruşlar yaratır; buna karşılık kontrol listesini sınırsız büyütmek enerji verme takvimini gereksiz geciktirir.",
+            },
+            {
+                baslik: "Test sırasında hazır bekleme ile aktif kullanım ayrımı",
+                metin:
+                    "Kontrollü test sırasında manlift her an sepette personel taşımaz. Ünite belirlenmiş güvenli park noktasında hazır tutulabilir; test sonucu üst kotta ayar gerektirirse sistem tekrar güvenli duruma alınır ve yeni iş izni açılır. Üretim veya test hareketi sürerken sepete çıkıp hızlı düzeltme yapılmaz. Hazır bekleme süresi, aktif kullanım süresinden plan notunda ayrılır ve ne zaman sona ereceği tanımlanır. Test ekibi sorunları öncelik ve erişim türüne göre toplar; her küçük bulguda ayrı ayrı makine çağırmak yerine güvenli düzeltme penceresi açar. Böylece kapasite gerçekten gerektiği anda kullanılır.",
+            },
+            {
+                baslik: "Eksik kapatma duruşunda değişiklik kontrolü",
+                metin:
+                    "Test sonucu çıkan eksik, ilk montaj listesinin otomatik uzantısı değildir. Hedefin enerjisi, beklenmedik hareket kaynağı, alt çalışma alanı, erişim geometrisi ve gerekli malzeme tekrar değerlendirilir. Aynı sınıf yeterliyse iş yeni paket olarak slotlanır; başka makine gerekiyorsa kapasite defterinde ayrı talep açılır. Geçici çözüm kalıcı kabul maddesi gibi bırakılmaz. Değişiklik kaydı hangi çizim, etiket veya koruyucunun güncellendiğini sorumlu ekipte tutar. Manlift işi tamamlandıktan sonra alan test ekibine teslim edilir; yeniden enerji verme kararı platform operatörüne değil devreye alma yetkilisine aittir.",
+            },
+            {
+                baslik: "Kabul denemesi sonrasında kapasiteyi bırakmak",
+                metin:
+                    "Son denemede üst erişim ihtiyacının bittiği yazılı olarak doğrulanmadan makineyi erken çekmek, küçük bir tekrar için yeni sevkiyat doğurabilir. Buna karşılık belirsiz olasılık nedeniyle üniteyi sahada süresiz tutmak da sonraki taahhütleri bozar. Kapanış kapısı bu ikisini dengeler: açık eksik listesi gözden geçirilir, erişim isteyen maddeler kapanır veya sonraki programa aktarılır, alet-malzemeler çıkarılır ve makinenin durumu kaydedilir. Saha sorumlusu iade alanını açar. Öğrenilen park konumları ve erişim kısıtları gelecekteki planlı bakım hafızasına alınır, ancak tesis düzeni değişebileceği için otomatik model garantisi oluşturmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Devreye alma çevriminde manlift slotları",
+                paragraflar: [
+                    "Yeni tesislerde erişim talebi tek uzun kiralama olarak değil, kanıtla açılan aşamalar olarak yönetilir. Tablo her aşamanın başlangıç ve kapanış mantığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kapı", "Manlift görevi", "Başlama kanıtı", "Kapanış"],
+                    satirlar: [
+                        ["Mekanik tamamlanma", "Üst montaj hedefleri", "Güncel liste ve açık rota", "Paket teknik teslimde"],
+                        ["Enerjisiz kontrol", "Bağlantı ve koruyucu turu", "Sistem güvenli durumda", "Kontrol listesi kapalı"],
+                        ["Kontrollü enerji verme", "Güvenli parkta hazır bekleme", "Test planı ve sorumlu", "Bulgular toplandı"],
+                        ["Düzeltme duruşu", "Yeni hedefe erişim", "Yeni izolasyon ve izin", "Eksik kaydı kapalı"],
+                        ["Kabul denemesi", "Gerekirse son destek", "Öncelikli eksikler tamam", "Erişim ihtiyacı bitti"],
+                        ["İade", "Makineyi havuza bırakma", "Saha ve durum teslimi", "Slot serbest"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hazır bekleme kapasitesini sınırlandırmak",
+                paragraflar: [
+                    "Test programında erişim gerekip gerekmeyeceği tamamen belirsizse bütün süreyi aktif kiralama gibi planlamak kapasiteyi verimsiz bağlar. Önce hangi testlerin üst kotta ayar doğurabileceği belirlenir. Manliftin hazır bulunacağı pencere, park alanı, çağrı sorumlusu ve sisteme yeniden giriş koşulu yazılır. Pencere dışında çıkan bulgular bir sonraki düzeltme duruşuna toplanır. Kritik güvenlik sorunu elbette ayrı değerlendirilir; fakat her küçük gözlem anlık çalışma emrine çevrilmez.",
+                    "Hazır bekleyen makine yetkisiz kullanılmaz. Test alanındaki hareket, enerji ve malzeme akışı sepet çalışmasına uygun duruma dönmeden operatör çağrılmaz. Bekleme uzarsa ardındaki rezervasyonlar görülür ve yeni karar yazılı alınır. Gerekiyorsa kapasite başka üniteyle değiştirilir, ancak yeni sınıfın erişim ve zemin uygunluğu doğrulanır. Bu yöntem hem devreye alma ekibine gerçek destek sunar hem bölgesel havuzu belirsiz taleplerle kilitlemez.",
+                ],
+            },
+            {
+                baslik: "Devreye almadan bakım hafızasına geçiş",
+                paragraflar: [
+                    "Her düzeltme paketinde kullanılan park noktası, hedef geometrisi, enerji izolasyon sınırı, geçiş engeli ve uygun makine ailesi kaydedilir. Tekrarlanan erişim noktaları gelecekteki periyodik bakım listesine işlenir. Geçici iskele, açık şantiye zemini veya henüz kurulmamış ekipman sayesinde kullanılan bir rota kalıcı kabul edilmez. Tesis normal işletme düzenine geçtiğinde stok, koruyucu ve trafik koşulları değişebilir; bakım keşfi bu farkı kontrol eder.",
+                    "Kapanış toplantısında manliftin beklediği süre, aktif paketler, gecikme nedenleri ve yeniden çağrı gerektiren açık maddeler görülür. Bir sonraki devreye alma veya planlı duruş için kapsam dondurma tarihi buna göre ayarlanır. Kullanılmayan hazır bekleme azaltılır, geç hazırlanan izin daha erken açılır. Bu öğrenim belirli üretim kapasitesi varsaymadan süreci geliştirir ve yeni tesisin ilk bakım döngüsünü daha öngörülebilir hâle getirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Devreye alma boyunca manlift sürekli sahada kalmalı mı?",
+                cevap:
+                    "Her proje için zorunlu değildir. Üst kot düzeltmesinin yoğun olacağı belirli test pencerelerinde güvenli parkta hazır bekleme planlanabilir; diğer dönemlerde eksikler toplu düzeltme duruşuna alınabilir. Karar test adımlarına, erişim ihtimaline, yeniden sevkiyat etkisine ve bölgesel kapasite durumuna göre verilir. Hazır bekleme ile aktif kullanım ayrı kaydedilir ve kapanış ölçütü yazılır. Makinenin sahada olması, test sürerken izinsiz müdahale yapılabileceği anlamına gelmez. Sistem güvenli duruma alınır, yeni izolasyon ve çalışma izni açılır, ardından sepet yükselir.",
+            },
+            {
+                soru: "Test sırasında çıkan her eksik hemen düzeltilebilir mi?",
+                cevap:
+                    "Hayır. Önce bulgunun güvenlik ve devreye alma açısından önceliği belirlenir, sonra erişim ile enerji koşulu değerlendirilir. Test hareketi sürerken makine veya hat üstüne sepetle yaklaşılmaz. Eksikler uygun bir güvenli duruş penceresinde paketlenir; sistem izole edilir, alt alan ayrılır, malzeme hazırlanır ve yeni izin açılır. Aynı manlift yeterli değilse başka sınıf talebi doğar. Acil görünmesi üretici çalışma zarfını aşma veya geçici bağlantıyı kalıcı bırakma gerekçesi değildir. Yapılan düzeltme test ekibine kayıtla teslim edilir.",
+            },
+            {
+                soru: "Yeni tesis tamamlanmadan hangi ölçülere güvenebiliriz?",
+                cevap:
+                    "Güncel saha ölçüsü ve onaylı yerleşim birlikte kullanılmalıdır. Projedeki kapı, kot veya park alanı sahada geçici malzeme, yeni koruyucu veya tamamlanmamış zemin nedeniyle farklı olabilir. Her erişim paketi öncesinde girişten hedefe rota, en dar geçiş, yatay engel, hedef kotu, taban ve bom hareket alanı yeniden fotoğraflanır. Zemin tamamlanmadıysa taşıma uygunluğu yetkili saha değerlendirmesiyle doğrulanır. Önceki çevrimde kullanılan makine güçlü bir referanstır, fakat düzen değişmişse otomatik garanti değildir. Sınırdaki ölçüde yeniden keşif yapılır.",
+            },
+            {
+                soru: "Düzeltme duruşları için kapasiteyi nasıl rezerve ederiz?",
+                cevap:
+                    "Ana test takvimine olası düzeltme pencereleri eklenir, fakat kesin slot bulgu listesi ve hazırlık kapısıyla bağlanır. Gerekli makine ailesi, vardiya, erişim alanı ve tahmini paket kapsamı görünür tutulur. Bulgular beklenenden azsa kapasite erken serbest bırakılır; fazlaysa uzatma, ardındaki kesin rezervasyonlar görülerek değerlendirilir. Belirsizliği saklamak yerine olası aralığı baştan paylaşmak daha fazla seçenek sağlar. Son dakika sınıf değişikliği gerekiyorsa uygunluk yeniden doğrulanır. İki ayrı projeye aynı makineyi aynı pencere için kesin vaat etmeyiz.",
+            },
+            {
+                soru: "Enerjisiz kontrolde bütün üst işleri kapatmak neden önemli?",
+                cevap:
+                    "Enerji verilmeden yapılan erişim, beklenmedik hareket ve tekrar izolasyon yükünü azaltır. Bağlantı, sabitleme, etiket, koruyucu ve görsel kontrol gibi hazır işler aynı hücrelerde topluca kapanırsa testte küçük eksikler için sistemi tekrar tekrar durdurma ihtiyacı düşer. Bununla birlikte liste sınırsız büyütülmez; enerji verme için kritik olan kapsam dondurulur. Her paket sonunda alet-parça sayımı ve sorumlu kabulü yapılır. Enerjisiz olması zemini, başka ekipleri veya askılı yükü güvenli kılmaz; manlift çalışma zarfı yine fiziksel olarak ayrılır.",
+            },
+            {
+                soru: "Kabul denemesinden sonra makineyi ne zaman iade edersiniz?",
+                cevap:
+                    "Test sorumlusu üst erişim gerektiren açık maddelerin kapandığını veya ayrı programa aktarıldığını yazılı teyit ettiğinde kapanış başlar. Alet ve malzeme çıkarılır, çalışma izinleri kapatılır, makine temizlenir ve görünür durumu kaydedilir. İndirme ya da yükleme alanı diğer saha trafiğinden ayrılır. Belirsiz bir olasılık için ünite tutulmaz; fakat kabul planında tanımlı son destek adımı tamamlanmadan erken çekilmez. Yeni bulgu çıkarsa uzatma otomatik değildir, kapasite defteri ve teknik uygunlukla birlikte onaylanır. İade edilen ünite sonraki taahhüt için yeniden kontrol edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Beylikova OSB’nin gelişen organize sanayi alanı bağlamı uygulama belgesinde verilen kamuya açık genel bilgidir; mekanik tamamlanma, enerjisiz kontrol, test, düzeltme duruşu, kabul ve kapasite slotu yönetimi sektör geneli devreye alma pratiğidir. Özel firma, sektör, tesis, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

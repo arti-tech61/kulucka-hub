@@ -711,4 +711,300 @@ export const ESKISEHIRPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Polatlı'nın başkentin batı ucunda ve iki şehri bağlayan karayolu hattı üzerinde bulunması ve geniş kırsal dokusu kamuya açık bilgidir; güvenli yaklaşma mesafesi, enerji kesme-kilitleme, rüzgâr sınırı ve zemin taşıma kuralları mevzuat, üretici talimatları ve saha pratiğinden gelir. Firma adı ve rakam kullanılmamıştır.",
     },
+    "bolge:osb-havacilik-kumesi": {
+        h1: "OSB Havacılık Kümesinde Belgeli ve İzlenebilir Platform Kiralama",
+        giris:
+            "Eskişehir OSB içindeki havacılık kümesine yönelik platform hizmetinin bu sayfadaki merceği makinenin temizliği ya da belirli bir üretim prosesinin teknik ayrıntısı değildir; tedarikçi sahasına dış ekipman kabulünün baştan sona izlenebilir olmasıdır. Kamuya açık çerçeve yalnız Eskişehir OSB'de havacılık motor sanayisi çevresinde bir kümenin varlığıdır. Hangi tesiste hangi parçanın üretildiği, içeride hangi hattın bulunduğu veya özel bir güvenlik sınıfı olduğu varsayılmaz. Talep geldiğinde tesisin kendi yüklenici prosedürü alınır; sahaya girecek makine, taşıyıcı, sürücü, operatör, el aletleri ve iş kapsamı bu prosedüre göre önceden bildirilir. Periyodik kontrol, kullanıcı yeterliliği ve iş izinleri kapıda aranacak sürpriz evraklar değil, sevkiyat kararının ön koşuludur. Platformun hedefe erişimi ayrıca ölçülür, fakat doğru geometri belge onayı olmadan sahaya giriş sağlamaz. İş başladığında görev sınırı, enerji ve hareket izolasyonu, alt alan koruması, alet sayımı ve vardiya devri kayıtla yürür. Kapanışta hangi noktanın tamamlandığı, hangi malzemenin sahadan çıktığı ve makinenin teslim durumu iki tarafça teyit edilir. Bu düzen, havacılık kümesini genel Eskişehir OSB anlatısından ayırır: burada hizmetin değeri yalnız yükselmek değil, yapılan her adımın kim, ne zaman, hangi onayla sorularına cevap verebilmesidir.",
+        maddeler: [
+            {
+                baslik: "Yüklenici ön kabul dosyasını sevkiyattan önce kapatmak",
+                metin:
+                    "Tesisin istediği belge listesi teklif aşamasında alınır ve yalnız makine raporuyla sınırlı görülmez. Platformun tanım bilgisi, geçerli kontrol kaydı, kullanacak kişinin uygun yeterliliği, sahaya girecek personel bildirimi ve varsa işe özel değerlendirmeler tek dosyada sunulur. Taşıyıcı sürücünün yalnız teslim yapacağı mı yoksa saha sınırına gireceği mi ayrıca belirtilir. Belgenin gönderilmiş olması onaylandığı anlamına gelmez; tesis yetkilisinin kabul teyidi gelmeden araç yola çıkarılmaz. Son dakika makine değişikliği olursa yeni ünitenin bilgileri eski onayın yerine otomatik geçmez, dosya güncellenir.",
+            },
+            {
+                baslik: "İş kapsamını görev sınırına çevirmek",
+                metin:
+                    "Platform için açılan iş emri, 'tavan bakımı' gibi geniş bir ifadeyle bırakılmaz. Hedef bölge, erişilecek noktalar, makinenin kullanacağı güzergâh, alt alanın nasıl ayrılacağı, enerji veya hareket kontrolünü kimin teslim edeceği ve izin dışı kalan komşu bölümler yazılır. Sahada yeni bir kalem fark edilirse kısa sürmesi mevcut iznin kapsamını genişletmez. Yeni hedef için risk, geometri ve yetki yeniden görülür. Bu disiplin, bakım ekibinin iyi niyetle başladığı ek işin denetlenemez bir faaliyete dönüşmesini önler ve kapanış kaydını açık tutar.",
+            },
+            {
+                baslik: "Alet ve sarf hareketini giriş-çıkış kaydıyla izlemek",
+                metin:
+                    "Sepete alınacak aletler çalışma öncesinde listelenir, düşmeye karşı bağlanır ve küçük sarflar kapalı kutuda tutulur. İş boyunca ambalaj, kesilmiş bağ veya sökülen bağlantı gelişigüzel bırakılmaz. Vardiya sonunda alet-sarf ve sökülen parça sayımı tamamlanmadan hücre teslim edilmez. Tesis kendi formunu kullanıyorsa kayıt ona işlenir; ayrı bir paralel sistem dayatılmaz. Fotoğrafın kısıtlı olduğu sahada yazılı kabul ve iki taraflı imza kullanılır. Amaç tesis içine ilişkin görsel toplamak değil, sahaya giren her unsurun geri çıktığını kanıtlamaktır.",
+            },
+            {
+                baslik: "Yetki zincirinde enerji ve hareket teslimi",
+                metin:
+                    "Platform operatörü üretim ekipmanının güvenli duruma getirildiğine kendi başına karar vermez. Elektrik, basınç, vinç, otomatik hareket veya başka beklenmedik enerji kaynakları tesisin yetkili kişisince belirlenir, kontrol edilir ve iş iznine işlenir. Sepet hedefe yaklaşmadan önce alt alan boşaltılır ve hareket zarfı fiziksel olarak ayrılır. Bir vardiya değişiminde önceki kilit veya sözlü teyit yeni ekip için otomatik kabul sayılmaz. Sorumlular yeniden buluşur, açık izolasyonlar ve görev sınırı doğrulanır. İş sonu enerjinin geri verilmesi de tesis yetkisinde kalır.",
+            },
+            {
+                baslik: "Kapanış kaydını denetlenebilir teslim hâline getirmek",
+                metin:
+                    "Çalışma tamamlandığında yalnız makinenin sahadan çıkışı kaydedilmez. Yapılan hedefler, erişilemeyen noktalar, açık kalan iş izinleri, alet sayımı, alan temizliği ve görünür makine durumu birlikte kontrol edilir. Fotoğraf izni varsa yalnız prosedürün izin verdiği teslim görüntüleri alınır; cihaz kısıtında yazılı tutanak yeterlidir. Platform güvenli park noktasına çekilir, sepet boşaltılır ve taşıyıcıya teslim yetkisi belirlenir. Açık bir uygunsuzluk sözlü notla kapatılmaz. Böylece tedarikçi, kendi kalite veya İSG denetiminde dış hizmetin nasıl yürüdüğünü kanıtlayabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tedarikçi sahasında belge ve saha kapıları",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli bir tesis prosedürü iddiası değildir; havacılık tedarik zincirindeki dış ekipman işini denetlenebilir kılmak için kullanılan genel kontrol kapılarını gösterir. Tesisin kendi form ve yetkileri her zaman belirleyicidir.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol kapısı", "İstenen kanıt", "Onay sahibi", "Onay yoksa"],
+                    satirlar: [
+                        ["Makine kabulü", "Tanım ve geçerli kontrol kaydı", "Tesis yüklenici birimi", "Sevkiyat başlamaz"],
+                        ["Personel girişi", "Bildirim ve uygun yeterlilik", "Tesis güvenlik yetkilisi", "Personel sahaya girmez"],
+                        ["İş başlangıcı", "Görev sınırı ve iş izni", "Saha sorumlusu", "Sepet yükselmez"],
+                        ["Enerji teslimi", "İzolasyon teyidi", "Tesis teknik yetkilisi", "Hedefe yaklaşılmaz"],
+                        ["İş kapanışı", "Alet sayımı ve alan kabulü", "İş emri sahibi", "Hücre açılmaz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tekliften saha girişine belge akışı",
+                paragraflar: [
+                    "İlk adım, tesisin güncel yüklenici şartlarını istemektir. Eski bir işte kullanılan evrak listesinin hâlâ geçerli olduğu varsayılmaz. İş kapsamı ve hedef fotoğrafı, makine sınıfı ile personel modeli belirlendikten sonra dosya hazırlanır. Operatörlü ve operatörsüz seçeneklerde sahaya bildirilecek kişiler değişebilir. Belgeler tek paket hâlinde iletilir, eksik veya süresi uygun olmayan kayıt varsa sevkiyat öncesinde giderilir. Onay yanıtı ve geçerlilik penceresi plan dosyasında tutulur.",
+                    "Teslim günü makine veya personel değişmişse kapıda eski dosyaya dayanılmaz. Değişiklik tesis sorumlusuna bildirilir ve gerekli ek onay alınır. Güvenlik bilgilendirmesi, refakat ve cihaz kısıtı başlamadan önce teyit edilir. Taşıyıcı yalnız izin verilen alana girer. Bu akış bürokrasi üretmek için değil, uygun makinenin kapıda bekleyip bakım penceresini tüketmesini önlemek için kurulur.",
+                ],
+            },
+            {
+                baslik: "Vardiya devrinde izlenebilirliği kaybetmemek",
+                paragraflar: [
+                    "Birden fazla vardiyaya yayılan işte makinenin anahtarı veya sözlü talimatı devretmek yeterli değildir. Yeni ekip, tamamlanan hedefleri, açık izolasyonları, alet-sarf listesini, makinenin park ve şarj durumunu, sonraki çalışma hücresini yazılı teslim alır. Kullanıcı değişiyorsa yeterlilik ve yetkilendirme ayrıca doğrulanır. Önceki vardiyanın alan bariyerinin hâlâ doğru yerde olduğu varsayılmaz; üretim ve lojistik düzeni değişmiş olabilir.",
+                    "Son vardiya bütün ara kayıtları tek kapanış belgesinde birleştirir. Açık iş varsa nedeni ve yeni izne ihtiyaç durumu belirtilir. Tesisin kayıt saklama düzenine uygun kopya teslim edilir; kiralama tarafı da kendi makine teslim kaydını korur. Böylece bir denetimde hangi vardiyada kimin ne yaptığı tahmin edilmez, izin ve teslim zincirinden okunur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Havacılık kümesindeki her tesis aynı belgeyi mi ister?",
+                cevap:
+                    "Hayır; bu nedenle her talepte güncel yüklenici prosedürünü doğrudan ilgili tesisten isteriz. Periyodik kontrol ve kullanıcı yeterliliği gibi temel kayıtlar ortak olabilir, fakat personel bildirimi, giriş eğitimi, refakat, cihaz kısıtı, iş izni ve belge biçimi değişebilir. Önceki bir tesiste kabul edilen dosya başka tesise otomatik taşınmaz. İstenen kayıtları teklif aşamasında tek listede toplar, gönderimden sonra onay teyidi alırız. Onaylanmamış evrakla aracı yola çıkarmak, bakım penceresini kapıda tüketme riski taşır.",
+            },
+            {
+                soru: "Makine son anda değişirse eski giriş onayı geçerli olur mu?",
+                cevap:
+                    "Genellikle otomatik geçerli sayılmaz, çünkü onay belirli makinenin tanım ve kontrol bilgisine bağlanmış olabilir. İkame ünitenin tanım kaydı, geçerli kontrol belgesi ve işi etkileyen teknik farkları tesis yetkilisine iletilir. Operatör de değişiyorsa personel bildirimi ile yeterlilik kaydı güncellenir. Tesis ek onayı vermeden yeni makine giriş yapmaz. Acil durum, kayıt zincirini atlama gerekçesi değildir; doğru hazırlık, ikame dosyasını önceden hazır tutarak süreyi kısaltır.",
+            },
+            {
+                soru: "Fotoğraf çekmenin yasak olduğu alanda teslimi nasıl kanıtlarsınız?",
+                cevap:
+                    "Tesisin yazılı iş kabul formu veya iki taraflı tutanak kullanılır. Makinenin teslim durumu, iş başlangıç ve bitiş zamanı, görev kapsamı, tamamlanan noktalar, açık kalan işler, alet-sarf sayımı ve görünür hasar kaydı forma işlenir. Fotoğraf alınmadığı açıkça belirtilir. Cihaz yasağını delerek görsel üretmek izlenebilirlik sağlamaz, aksine prosedür ihlalidir. İmzalı kayıt hem tesisin kalite dosyasına hem kiralama teslimine kanıt olur. Hangi formun kullanılacağı sevkiyattan önce kesinleştirilir.",
+            },
+            {
+                soru: "Tesisimizde belgeli personel var; operatörsüz kiralama mümkün mü?",
+                cevap:
+                    "Makine ailesine uygun yeterlilik, tesisin kendi yetkilendirmesi ve kiralama koşulları karşılanıyorsa değerlendirilebilir. Belgenin bulunması tek başına yeterli değildir; kullanıcının iş iznine dâhil edilmesi, günlük kontrolü üstlenmesi ve görev sınırına uyması gerekir. Makaslı bir makine için alınan yeterliliğin bom tipi platformu kapsadığı varsayılmaz. Teslimde kumanda, acil indirme, üretici sınırları ve arıza bildirimi gösterilir. Yetkisiz başka personelin vardiya içinde makineyi devralmasına izin verilmez.",
+            },
+            {
+                soru: "İş sırasında ek bir yüksek nokta fark edersek hemen yapılabilir mi?",
+                cevap:
+                    "Ancak yeni nokta mevcut makine sınırı, enerji izolasyonu, alt alan ve tesis izni açısından ayrıca değerlendirilirse yapılabilir. Yakında bulunması veya birkaç dakika sürmesi onu otomatik olarak mevcut görevin parçası yapmaz. Hedef iş emrine eklenir, sorumlu onayı alınır, alet ve sarf listesi güncellenir. Mevcut platform erişemiyorsa korkuluk üstüne çıkma veya uzanma sınırını aşma yoluna gidilmez. Uygun değilse açık kalem olarak kaydedilir ve yeni plan hazırlanır.",
+            },
+            {
+                soru: "Bir denetim için iş sonunda hangi kayıtları alabiliriz?",
+                cevap:
+                    "Tesis prosedürüne göre makine kabulünün, kullanıcı yetkisinin, iş izninin, enerji tesliminin, vardiya devirlerinin ve iş kapanışının kanıtlarını bir araya getirebilirsiniz. Kiralama tarafı makinenin tanım ve kontrol kayıtlarını, teslim-iade durumunu sağlar; tesis görev sınırı ve teknik kabulü yönetir. Alet-sarf sayımı ile açık iş listesi kapanışa eklenir. Fotoğraf yalnız izin verilen alanda ve amaçla kullanılır. Bu kayıtlar belirli bir kalite standardına uygunluk iddiası değil, dış hizmetin izlenebilir yürütüldüğünün somut zinciridir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Eskişehir OSB içinde havacılık motor sanayisi çevresinde bir kümenin bulunması uygulama belgesinde verilen kamuya açık genel bilgidir. Tesis içi proses, firma, ürün, güvenlik sınıfı, kapasite ve rakam iddiası kullanılmamıştır; yüklenici kabulü, iş izni, yetki zinciri ve alet sayımı sektör geneli İSG ve tedarik pratiğidir.",
+    },
+
+    "bolge:sivrihisar-osb": {
+        h1: "Sivrihisar OSB'de Havacılık-Savunma Tedarik Disipliniyle Platform Kiralama",
+        giris:
+            "Sivrihisar OSB için bu içerik, ilçenin kırsal enerji sahalarını, tarımsal yapılarını veya OSB genelindeki bölüm bölüm bakım turunu tekrar etmez. A3 iş emrinin verdiği dar mercek, Eskişehir'in havacılık ve savunma tedarik kültürünün ilçe OSB'sindeki olası tedarik ilişkilerine hazırlanırken kullanılan yüklenici disiplinidir. Burada belirli bir fabrikanın bu sektörlere üretim yaptığı iddia edilmez; anlatım, böyle bir şartname veya müşteri beklentisiyle çalışan tesisin dış platform hizmetini nasıl denetlenebilir kılacağına odaklanır. Talep sahibi önce kendi müşteri ve tesis kurallarını bildirir. Makinenin kontrol dosyası, kullanıcının yeterliliği, görev kapsamı, sahaya girecek aletler ve personel listesi sevkiyat öncesinde onaylanır. İş emri yalnız yüksekliği değil, hangi alanın hangi yetkili tarafından güvenli teslim edileceğini ve hangi kaydın kapanışta bırakılacağını tanımlar. İlçe dışından gelen makinenin teslim zamanı, giriş onayı ve bakım penceresi aynı plana bağlanır. Böylece Sivrihisar OSB sayfasının ayrımı net kalır: sektör geneli bakım turu yerine, ana sanayi beklentisine cevap verebilen alt yüklenici evrakı, değişiklik kontrolü ve izlenebilir saha teslimi ele alınır.",
+        maddeler: [
+            {
+                baslik: "Müşteri şartını tesis prosedürüne çevirmek",
+                metin:
+                    "Bir tedarik ilişkisi varsa dış ekipman için istenen kurallar sözlü aktarımda bırakılmaz. Tesis, kendi müşteri beklentisini iş izni, ekipman kabulü, personel bildirimi, alet kontrolü ve kapanış formu gibi uygulanabilir adımlara dönüştürür. Platform firması doğrudan ana müşteri adına varsayım üretmez; yalnız tesisin yazılı prosedürüne uyar. Belge listesi güncel sürümüyle alınır ve sorumlu kişi belirlenir. Çelişkili talimat varsa saha başlamadan çözülür. Böylece operatör kapıda farklı, bakım alanında farklı beklentiyle karşılaşmaz.",
+            },
+            {
+                baslik: "Uzak sevkiyat öncesinde uygunluk dosyası",
+                metin:
+                    "Sivrihisar OSB'ye çıkacak makinenin tanım ve geçerli kontrol kayıtları, kullanacak kişinin yeterlilik bilgisi ve teslim ekibi önceden bildirilir. Fotoğraf, kimlik veya cihaz kısıtı varsa araç yola çıkmadan öğrenilir. Onay, yalnız dosyanın gönderilmesi değil tesisin kabul teyididir. Son anda başka makine ayrılırsa yeni ünitenin bilgileri güncellenmeden sevkiyat yapılmaz. İlçe yolunu kat ettikten sonra kapıda eksik belge görmek, yalnız nakliye kaybı değil bakım penceresinin kapanması anlamına gelebilir.",
+            },
+            {
+                baslik: "Değişiklik kontrolüyle ek işi yönetmek",
+                metin:
+                    "Bakım sırasında hedef, malzeme veya çalışma alanı değişebilir. Tedarik disiplininde bu değişiklikler 'hazır gelmişken yapalım' yaklaşımıyla yürütülmez. Yeni noktanın erişim geometrisi, enerji durumu, alt alanı, gerekli aleti ve sorumlu onayı kayda eklenir. Makine sınıfını etkileyen değişiklikte üretici erişim diyagramı yeniden kontrol edilir. İş, güvenli pencereye sığmıyorsa açık kalem olarak bırakılır. Bu uygulama esnekliği yok etmez; değişikliğin kim tarafından, neye dayanarak kabul edildiğini görünür kılar.",
+            },
+            {
+                baslik: "Parça ve alet sayımını hücre teslimine bağlamak",
+                metin:
+                    "Sepete giren el aletleri ve küçük sarflar listelenir, düşmeye karşı bağlanır ve kullanım sonunda yeniden sayılır. Sökülen bağlantılar ile ambalajlar kapalı kutuda tutulur. Çalışma altı bariyerlenir; üretim, stok veya personel bu hücreye girmez. Sayım tutmadan ve alan gözle kontrol edilmeden iş emri kapatılmaz. Fotoğraf izni yoksa teslim yazılı form ve iki taraflı imzayla yürür. Bu kayıt belirli bir üretim prosesine dair iddia değil, dış bakımın sahada yabancı unsur bırakmadığını kanıtlama yöntemidir.",
+            },
+            {
+                baslik: "Tedarikçi tesliminde açık kalemleri dürüstçe bırakmak",
+                metin:
+                    "Duruş süresine sığmayan, malzemesi hazır olmayan veya mevcut platformla güvenle erişilemeyen hedef tamamlanmış gibi işaretlenmez. Nedeni sınıflandırılır: izin, erişim, enerji, malzeme ya da zaman. Yeni ziyaret için gerekli makine ve hazırlık bu kayda göre kurulur. Tesis sorumlusu tamamlanan hücreleri ayrı ayrı kabul eder. Makine iade edilirken açık iş listesi hem bakım ekibine hem planlamaya teslim edilir. Bu dürüst kapanış, tedarik zincirinde yüzeysel bir tamamlama beyanından daha değerlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sivrihisar OSB tedarikçi işi kontrol matrisi",
+                paragraflar: [
+                    "Bu matris belirli bir tesiste havacılık üretimi bulunduğu iddiasını taşımaz; havacılık-savunma şartnamesine göre çalışan herhangi bir tedarikçinin dış platform işinde doğrulayabileceği genel kontrol alanlarını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol alanı", "Saha kanıtı", "Sorumlu", "Kapanış"],
+                    satirlar: [
+                        ["Ekipman uygunluğu", "Makine tanımı ve kontrol kaydı", "Tesis yüklenici kabulü", "Onaylı makine teslimde"],
+                        ["Kullanıcı yetkisi", "Uygun yeterlilik ve bildirim", "İSG sorumlusu", "Yetkisiz kullanım yok"],
+                        ["Görev kapsamı", "Hedef ve sınırlandırılmış alan", "Bakım iş emri sahibi", "Ek iş kayıtlı"],
+                        ["Alet hareketi", "Giriş-çıkış sayımı", "Saha ekibi", "Eksiksiz hücre teslimi"],
+                        ["Teknik kabul", "Tamamlanan ve açık kalem listesi", "Tesis teknik yetkilisi", "İmzalı kapanış"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlçe OSB'sine giriş gününü boşa çıkarmamak",
+                paragraflar: [
+                    "Teslim planı bakım başlangıcından geriye doğru kurulur. Önce hedef fotoğrafı ve ölçüyle makine sınıfı seçilir; sonra tesisin belge onay süresi, personel giriş adımı, güvenlik bilgilendirmesi, taşıyıcının indirme alanı ve iş izninin açılacağı saat yerleştirilir. Makine, izin açılırken henüz yolda olmamalı; aynı şekilde günlerce kontrolsüz bekleyecek kadar erken de gönderilmemelidir. Onay sahibi ve saha irtibatı teslim formunda bulunur.",
+                    "Tarih kayarsa yalnız kiralama başlangıcı değil, taşıma, personel bildirimi ve belge geçerliliği de yeniden değerlendirilir. Makine sahaya ulaştıysa güvenli park ve yetkisiz kullanım kontrolü sürer. Değişiklik yazılı teyit edilir. Bu hazırlık Sivrihisar OSB'yi genel kırsal sevkiyat anlatısından ayırır; yolun kendisinden çok, tedarikçi kabulüyle bakım penceresinin birbirine bağlanmasına odaklanır.",
+                ],
+            },
+            {
+                baslik: "Alt yüklenici kaydından tekrar edilebilir bakım düzeni",
+                paragraflar: [
+                    "İlk işte kullanılan makine sınıfı, park konumu, giriş rotası, kabul edilen evrak ve erişilemeyen hedefler sonraki bakım için kayıt oluşturur. Ancak saha değiştiğinde eski sonuç otomatik tekrarlanmaz. Yeni ekipman, istif veya yapı değişikliği fotoğrafla karşılaştırılır; güncel kontrol belgesi ve kullanıcı listesi yeniden sunulur. Tekrar edilebilirlik, aynı dosyayı kopyalamak değil, aynı kontrol kapılarını güncel kanıtla geçmektir.",
+                    "Sonraki çağrıda bu kayıtlar hazırlık süresini kısaltır ve eksik evrak riskini azaltır. Açık kalemin nedeni daha önce erişimse uygun sınıf baştan seçilir; malzemeyse tesis hazırlığı tamamlanmadan sevkiyat açılmaz. Tedarikçi işletme böylece platform kullanımını rastgele dış hizmetten, kendi kalite ve İSG sistemine bağlı izlenebilir bir bakım sürecine dönüştürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu sayfa Sivrihisar OSB'de havacılık tesisi bulunduğunu mu söylüyor?",
+                cevap:
+                    "Hayır. Kamuya açık ve belgeyle verilen gerçek, Eskişehir'de havacılık motor sanayisi çevresinde bir tedarik kültürünün bulunması ve Sivrihisar OSB'nin varlığıdır. Belirli bir OSB tesisinin hangi sektöre çalıştığı, hangi parçayı ürettiği veya özel bir müşteri şartına tabi olduğu varsayılmaz. Buradaki çerçeve koşulludur: tesis havacılık-savunma tedarik şartlarıyla çalışıyorsa dış platform hizmetini hangi evrak, izin ve kayıt disipliniyle yönetebileceğini anlatır. Gerçek kapsam her talepte tesisin yazılı beyanıyla doğrulanır.",
+            },
+            {
+                soru: "Tedarikçi kabul dosyasında hangi kayıtlar hazırlanır?",
+                cevap:
+                    "Tesisin güncel prosedürü belirleyicidir. Genel olarak makinenin tanımı ve geçerli kontrol kaydı, kullanacak kişinin makine ailesine uygun yeterliliği, sahaya girecek personel bildirimi, görev kapsamı ve işe özel izinler istenebilir. Alet-sarf listesi ile teslim formu da süreçte kullanılabilir. Dosyayı gönderip onay teyidi alırız; yalnız e-posta çıkışı yeterli sayılmaz. Tesis ek gizlilik, refakat veya cihaz kısıtı istiyorsa buna sevkiyattan önce uyarlanır. Belirli bir standarda otomatik uygunluk iddiası verilmez.",
+            },
+            {
+                soru: "Bakım sırasında kapsam değişirse iş tamamen durur mu?",
+                cevap:
+                    "Her değişiklik tüm işi durdurmaz; yalnız yeni hedef mevcut iznin içine kontrolsüz biçimde eklenmez. Erişim geometrisi, enerji ve hareket izolasyonu, alt alan, gerekli alet, süre ve yetkili onayı değerlendirilir. Güvenle aynı sınıf ve pencerede yapılabiliyorsa iş emri güncellenir. Uygun değilse mevcut kapsam devam eder, yeni hedef açık kalem olarak planlanır. Böylece değişiklik yönetilir fakat güvenlik veya izlenebilirlik adına gereksiz bir genel duruş yaratılmaz.",
+            },
+            {
+                soru: "Alet sayımında eksik çıkarsa ne yapılır?",
+                cevap:
+                    "İş hücresi açılmaz ve eksik unsur bulunmadan kapanış verilmez. Sepet, çalışma altı, kullanılan kutular ve güzergâh kontrollü biçimde aranır; tesisin olay ve uygunsuzluk prosedürü uygulanır. Eksik parçayı varsayımla kayıttan düşmeyiz. Başlangıçta aletlerin tanımlı listeyle ve mümkünse düzenli yerleşimle sayılması aramayı kolaylaştırır. Bulgu ve alınan düzeltici adım teslim formuna işlenir. Amaç yalnız bir eşyayı bulmak değil, yabancı unsurun sonraki sürece taşınmadığını kanıtlamaktır.",
+            },
+            {
+                soru: "İlçe dışından gelen operatörün tesis eğitimini ne zaman alması gerekir?",
+                cevap:
+                    "Tesisin belirlediği zaman ve biçimde, çalışmaya başlamadan önce tamamlamalıdır. Eğitim veya brifing için ayrılan saat taşıma planına eklenir; makine duruş başladığında kapıda eğitim beklemez. Önceden çevrim içi bölüm varsa tamamlanır, sahaya özel bilgilendirme teslim günü yapılır. Operatör değişirse önceki kişinin eğitimi yeni kişiye geçmez. Eğitim kaydı ve saha yetkisi alınmadan sepet yükseltilmez. Bu süreyi gizlemek yerine teklif ve gün planında görünür kılmak bakım penceresini korur.",
+            },
+            {
+                soru: "İş sonunda hangi açık kalemler ikinci ziyarete taşınır?",
+                cevap:
+                    "Mevcut platformun erişim diyagramı dışında kalan, enerji izolasyonu sağlanamayan, malzemesi hazır olmayan, izin penceresine sığmayan veya ortam koşulu uygun bulunmayan hedefler açık bırakılır. Her biri nedeni ve gereken hazırlıkla kaydedilir. İkinci ziyaret aynı belirsizlikle çağrılmaz; farklı sınıf, yetkili, malzeme ya da zaman penceresi önceden belirlenir. Tamamlanan işler ayrı teknik kabul alır. Açık kalan hedefi tamamlanmış gibi göstermek tedarik zinciri kaydını zayıflatır ve sonraki bakım riskini büyütür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Sivrihisar OSB'nin varlığı ile Eskişehir'in havacılık-savunma tedarik kültürü uygulama belgesindeki kamuya açık genel çerçevedir. Sivrihisar OSB içinde belirli bir havacılık tesisi, firma, proses, ürün, kapasite veya müşteri iddiası kurulmamıştır; içerik koşullu tedarikçi evrakı ve İSG pratiğini anlatır.",
+    },
+
+    "bolge:mihaliccik": {
+        h1: "Mihalıççık'a Planlı Platform Sevkiyatı ve Sahada Kalış Yönetimi",
+        giris:
+            "Mihalıççık için platform kiralamasının bu sayfadaki ana konusu belirli bir sektör veya tesis değildir; Eskişehir merkezden uzak ilçeye giden makine, taşıyıcı ve çalışma ekibinin tek ziyaret içinde işi tamamlayabilmesi için kurulan lojistik düzendir. İlçede hangi işletmenin, yapının veya prosesin bulunduğuna dair belge dışı iddia üretmeden depo, atölye, kamu yapısı, çelik çatı ya da dış bakım gibi gerçek talepte doğrulanabilecek iş türlerini ortak bir planlama çerçevesinde ele alırız. Uzak işte eksik kapı ölçüsü, hazır olmayan malzeme veya belirsiz enerji yetkilisi merkezdeki kısa bir gecikmeden daha ağır sonuç verir; yeni araç, yeni gün ve yeni saha kabulü gerekebilir. Bu nedenle hedef ve güzergâh fotoğrafları, zemin, en dar geçiş, yatay uzaklık, çalışma penceresi, makinenin gece parkı ve ekibin sahada kalış ihtiyacı araç çıkmadan kesinleştirilir. İş birden fazla vardiyaya uzanacaksa her gün merkeze dönüş varsayılmaz; güvenli konaklama ve vardiya başlangıç-bitiş saatleri personel planına dâhil edilir. Amaç uzaklığı dramatikleştirmek değil, yol, çalışma ve dinlenme sürelerini birbirine karıştırmadan güvenli bir program kurmaktır.",
+        maddeler: [
+            {
+                baslik: "Uzaktan ön keşfi güzergâh boyunca yapmak",
+                metin:
+                    "Yalnız arızalı noktanın yakın çekimi makine seçtirmez. Taşıyıcının yaklaşacağı yol, güvenli indirme alanı, parsel kapısı, dönüş, zemin, kapalı hacim girişi ve hedefe kadarki en dar rota ardışık fotoğraflanır. Hedef kotu, yatay engel ve kullanılabilir çalışma tabanı ölçülür. Kanal, rampa, eğim veya geçici istif ayrıca gösterilir. Bilgi çelişkiliyse canlı görüntüyle tekrar bakılır ya da fiziksel keşif planlanır. Uzak ilçeye yanlış sınıf göndermek yerine ölçüyü yeniden almak hem daha kısa hem daha güvenlidir.",
+            },
+            {
+                baslik: "Gidiş, çalışma ve dinlenme süresini ayırmak",
+                metin:
+                    "Taşıma ve personel yolculuğu bakım penceresinin görünmez parçası sayılmaz. Makine mümkünse çalışmadan önce teslim edilip kabul edilir; ekip işe dinlenmiş biçimde başlar. Uzun günün sonunda aynı personeli zorunlu dönüşe çıkarmak yerine işin süresi, hava ve yol koşuluna göre sahada konaklama değerlendirilir. Konaklama ticari bir ayrıntı değil, vardiya ve yorgunluk yönetimidir. Ertesi gün başlayacaksa kullanıcı yetkisi, makine kontrolü ve saha izni yeniden doğrulanır; önceki günün onayı otomatik uzamaz.",
+            },
+            {
+                baslik: "Bir sevkiyatta tüm hazır kalemleri toplamak",
+                metin:
+                    "İşletme veya kurum, aydınlatma, oluk, havalandırma, kapı üstü mekanizma, dış cephe ve benzeri yüksek erişim ihtiyaçlarını bölüm bölüm listeler. Aynı makineyle güvenle kapanabilen hedefler konum sırasına dizilir; farklı zemin ya da uzanma isteyen kalemler açıkça ayrılır. Her hedefin malzemesi, enerji izolasyonu ve yetkilisi hazır olmadan programa alınmaz. Hazır olmayan bir iş için bütün gün beklemek yerine onaylı sıradaki kaleme geçilir. Fakat yeni iş rastgele eklenmez; erişim ve izin kontrolünden geçer.",
+            },
+            {
+                baslik: "Sahada park, şarj ve arıza iletişimi",
+                metin:
+                    "Makine gece kalacaksa düz, taşıma gücü uygun, yetkisiz erişimden ve araç trafiğinden ayrılmış park noktası belirlenir. Akülü sınıfın şarj alanı kuru ve havalandırılan yerde olmalı, kablo yaya veya araç yolundan geçmemelidir. Yetkilendirilmiş kullanıcı her vardiya başında görünür kontrolleri yapar. Olağan dışı ses, sızıntı, alarm veya kumanda sorunu varsa kullanım durur ve servisle iletişim kurulur; sahadaki personele yetkisiz onarım yaptırılmaz. Müdahale ve gerekirse ikame düzeni teklif aşamasında konuşulur.",
+            },
+            {
+                baslik: "İade aracını iş kapanışına bağlamak",
+                metin:
+                    "Taşıyıcının dönüş zamanı tahmine göre değil, gerçekçi bakım sırasına göre rezerve edilir. İş erken veya geç biterse araç planı mümkün olduğunca önceden güncellenir. İadeden önce sepet boşaltılır, alet-parça sayılır, makine temizlenir, görünür durumu kaydedilir ve tamamlanan alanlar saha sorumlusuna teslim edilir. Açık kalem varsa nedeni yazılır; iade saatini tutturmak için tamamlanmış gösterilmez. Yükleme alanı diğer araçlardan ayrılır ve makine güvenli biçimde bağlandıktan sonra teslim kapanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mihalıççık uzak saha programının kontrol tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli bir işletmeye ilişkin iddia değil, uzak ilçe işinde yolculuktan iadeye kadar kapanması gereken genel kararları gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Ana soru", "Gerekli hazırlık", "Tamamlanma kanıtı"],
+                    satirlar: [
+                        ["Ön keşif", "Makine hedefe ulaşır mı?", "Rota, ölçü, zemin fotoğrafı", "Sınıf ve indirme onayı"],
+                        ["Gidiş", "Teslim ne zaman yapılır?", "Taşıyıcı, saha irtibatı", "Makine kabul edildi"],
+                        ["Çalışma", "Hangi sıra izlenir?", "Malzeme, izin, izolasyon", "Bölüm teslimleri"],
+                        ["Sahada kalış", "Park ve personel düzeni nedir?", "Şarj, konaklama, vardiya devri", "Günlük kontrol kaydı"],
+                        ["İade", "İş ve makine nasıl kapanır?", "Alet sayımı, yükleme alanı", "İmzalı teslim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek günlük ve çok vardiyalı seçenekleri dürüst karşılaştırmak",
+                paragraflar: [
+                    "Tek günlük model, hedeflerin az, malzemenin hazır, saha kabulünün hızlı ve çalışma penceresinin kesintisiz olduğu işlerde uygundur. Makine ile ekip aynı gün gidip dönecekse yol ve çalışma süresi birlikte değerlendirilir; sıkışık takvim uğruna güvenli vardiya uzatılmaz. Belirsiz izin, çok noktalı rota veya hava bağımlı dış iş varsa makinenin önce teslim edilmesi ve ekibin sahada kalması daha öngörülebilir olabilir.",
+                    "Çok vardiyalı modelde park, şarj, anahtar muhafazası, kullanıcı değişimi, personelin dinlenmesi ve iade zamanı ayrı kalemlerdir. Hangi seçeneğin uygun olduğu sabit bir gün sayısıyla değil, doğrulanmış iş listesiyle belirlenir. Teklif iki senaryonun kapsamını açıkça gösterir; konaklama veya bekleme sonradan saklı maliyet olarak çıkarılmaz.",
+                ],
+            },
+            {
+                baslik: "Uzak sahada değişiklik ve yedek plan",
+                paragraflar: [
+                    "Hava, zemin, kapalı güzergâh veya tesis programı değiştiğinde bütün planı körlemesine sürdürmeyiz. Dış iş yapılamıyorsa hazır ve güvenli iç kalemlere geçmek için yedek liste tutulabilir. Zemin yağışla yumuşamışsa daha büyük makine çözüm sayılmaz; yüzey hazırlanır veya iş ertelenir. Yeni istif rotayı kapattıysa saha sorumlusu alternatif güzergâhı onaylamadan makine hareket etmez.",
+                    "Arıza halinde belirtiler kaydedilir, kullanım durdurulur ve uzaktan teşhis yalnız güvenli kullanıcı kontrolleriyle sınırlı kalır. Servis veya ikame kararı, işin kalan süresi ile erişim sınıfına göre verilir. Erteleme gerekirse açık iş ve yeni hazırlık yazılı bırakılır. Uzaklık, güvenlik adımlarını atlama nedeni değil; yedek planı önceden kurma nedenidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mihalıççık işi için fiziksel keşif şart mı?",
+                cevap:
+                    "Her işte şart değildir. Girişten hedefe kadar ardışık fotoğraflar, kapı ve dönüş ölçüleri, hedef kotu, yatay uzaklık, zemin ile indirme alanı açıkça gösterilebiliyorsa uzaktan ön seçim yapılabilir. Bilgi sınırda, güzergâh karmaşık veya taşıma yüzeyi belirsizse fiziksel keşif gerekir. Yalnız hedefin yakın çekimi yeterli değildir. Teslim günü saha yine yürünür; uzaktan keşif güncel engel ve zemin kontrolünün yerine geçmez. Ama doğru paket, gereksiz ön yolculuğu ve yanlış makine sevkiyatını azaltır.",
+            },
+            {
+                soru: "Ekip neden bazen ilçede konaklamalıdır?",
+                cevap:
+                    "İş birden fazla vardiyaya uzanıyorsa veya yolculukla birleşen gün güvenli çalışma ve dinlenme süresini aşacaksa konaklama değerlendirilir. Amaç maliyet eklemek değil, operatörün uzun yol ardından yorgun biçimde platform kullanmasını ya da iş sonunda zorunlu dönüşe çıkmasını önlemektir. Makine sahada güvenli parkta kalır, ekip yeni vardiyaya dinlenmiş başlar. Konaklama ihtiyacı iş listesi ve zaman penceresine göre teklif öncesinde görünür kılınır; sahada sürpriz karar olarak bırakılmaz.",
+            },
+            {
+                soru: "Tek sevkiyatta farklı binalardaki işleri bitirebilir miyiz?",
+                cevap:
+                    "Makine sınıfı, zemin ve erişim geometrisi uyuyorsa mümkün olabilir. Her bina için rota, hedef, enerji izolasyonu, malzeme ve sorumlu kişi önceden hazırlanır. Sıra en az geçişe göre kurulur, fakat bir bölüm teslim edilmeden diğeri açılmaz. Kapalı dar hacim ile bozuk dış saha farklı sınıf istiyorsa tek makineyi zorlamayız. İki sınıfın aynı taşıma programında planlanması veya işleri ayrı günlere bölmek daha güvenli olabilir. Ortak sevkiyat sorumluluk ve izinleri birleştirmez.",
+            },
+            {
+                soru: "Hava nedeniyle dış iş durursa gün tamamen kaybolur mu?",
+                cevap:
+                    "Önceden hazırlanmış ve aynı makineyle güvenle yapılabilecek iç işler varsa yedek listeye geçilebilir. Bunun için malzeme, giriş izni ve enerji yetkilisi hazır olmalıdır. Yedek iş yoksa rüzgâr, yağış veya zemin üretici ve saha sınırlarına uymadığında çalışma yapılmaz. Bekleme, erteleme ve yeni sevkiyat koşulu sözleşmede önceden yazılır. Hava riskini yok edemeyiz; kalemleri bağımlılıklarına göre ayırarak bütün programın tek dış işe bağlanmasını önleyebiliriz.",
+            },
+            {
+                soru: "Makine gece sahada kalırsa güvenlik ve şarj kime aittir?",
+                cevap:
+                    "Tesis düz, korunaklı ve yetkisiz erişime kapalı park alanı ile uygun şarj noktasını sağlar; kiralama tarafı teknik bakım ve arıza desteğini yürütür. Akülü makinenin kablosu araç-yaya yolundan geçmez, şarj alanı kuru ve havalandırılan yerde olur. Yetkili kullanıcı vardiya başında görünür kontrol yapar. Anahtar ve kullanım yetkisi teslim formunda belirlenir. Olağan dışı durumda makine durdurulur ve servis aranır; sahada yetkisiz müdahale yapılmaz. İki tarafın sorumlulukları sözleşmede açıkça ayrılır.",
+            },
+            {
+                soru: "İş erken biter veya uzarsa dönüş aracı nasıl yönetilir?",
+                cevap:
+                    "Saha sorumlusu kapanış tahminini mümkün olduğunca erken planlamaya bildirir. Erken bitişte taşıyıcı uygunluğu kontrol edilir; geçişte ise mevcut rezervasyonun kaydırılması ve makinenin güvenli parkı kararlaştırılır. Araç gelsin diye tamamlanmamış iş kapanmış sayılmaz. İade öncesinde alet-parça sayımı, alan teslimi, makine temizliği ve görünür kontrol yapılır. Değişen taşıma ve kiralama süresi yazılı teyit edilir. Böylece iş ekibi, taşıyıcı ve tesis aynı kapanış saatine göre hareket eder.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Mihalıççık'ın Eskişehir'in ilçesi olması ve görevde uzak ilçeye planlı sevkiyat-konaklama çapası kamuya açık uygulama çerçevesidir. Belirli tesis, sektör, yol mesafesi, süre, kapasite veya doğrulanmamış rakam kullanılmamıştır; rota keşfi, yorgunluk, vardiya, park ve iade planı sektör geneli saha pratiğidir.",
+    },
 };
