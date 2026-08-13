@@ -906,4 +906,301 @@ export const BURSAMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Yalova-Altınova hattının tersane kuşağı, ilin sera-süs bitkisi üretimi ve Marmara kıyısının yağmurlu-nemli iklimi kamuya açık bilgidir; kurumayan detay yaklaşımı ve karma seans modeli firma pratiğidir.",
     },
+
+    "bolge:nosab": {
+        h1: "NOSAB'da Fabrika Çatı-Cephesi ve Hat Üstü Aydınlatma Erişimi",
+        giris:
+            "NOSAB, Nilüfer'in sanayi haritasında Bursa OSB'den ayrı, kendi kapısı ve parsel düzeniyle duran bir bölgedir; buradaki fabrikalarda erişim ihtiyacı çoğu zaman tek katmanlı değildir. Aynı ziyarette hem dış kabuk — çatı, saçak, cephe panel — hem de üretim salonunun içindeki hat üstü aydınlatma armatürleri gündeme gelir, çünkü ikisi de aynı yüksekliğe, aynı bomlu makineye ihtiyaç duyar. Dışarıda ışıklık şeridinin geçirdiği gün ışığı azaldıkça içeride armatürlerin yükü artar; biri ihmal edilince diğeri fatura öder. NOSAB'daki kiralamalarımız bu iki katmanı birlikte planlar: çatı-cephe periyodik turu ile hat üstü aydınlatma bakımı aynı keşifte değerlendirilir, aynı sepetten — önce dışarıdan çatı ve saçak taranır, sonra içeriden hat üstündeki armatür, kablo kanalı ve vinç rayı çevresi gezilir. Bu sayfa, iç ve dış erişimi tek bir plana nasıl bağladığımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Hat üstü aydınlatma armatürlerinin üretimi durdurmadan bakımı",
+                metin:
+                    "NOSAB fabrikalarının çoğunda üretim hattı, salonun ortasında uzun bir koridor gibi durur ve armatürler tam bu koridorun üstünde asılıdır — armatüre ulaşmak, hattın üstünde bir noktaya iniş yapmak demektir. Eklemli bom bu işe uygundur: sepet, hattın kenarından girip makine ve konveyör gövdelerinin arasından süzülerek armatürün hizasına oturur, hat çalışırken bile güvenli mesafe korunur. Toplu armatür değişiminde hat, koridor koridor bölünür; bir koridorda çalışılırken komşu koridor üretime devam eder ve iş, vardiya bitmeden dağınık biçimde tamamlanır.",
+            },
+            {
+                baslik: "Çatı ışıklığı ile iç aydınlatmayı birlikte değerlendirmek",
+                metin:
+                    "Çatıdaki ışıklık şeridi ile salon içindeki armatür bağımsız kalemler gibi görünse de aynı bütçenin iki ucudur — ışıklık matlaştıkça gün ışığı azalır, azalan gün ışığı armatür kullanım saatini uzatır ve elektrik faturasını büyütür. NOSAB turlarımızda bu yüzden ışıklık temizliği ile armatür değerlendirmesi tek raporda birleştirilir: hangi koridorun gün ışığı yetersiz, hangi armatür grubu bu yüzden gündüz de yanıyor, birlikte gösterilir. Karar tek kalemlik değil, aydınlatma bütçesinin tamamına bakan bir karardır.",
+            },
+            {
+                baslik: "Vinç rayı ve konveyör üstünde çalışma koordinasyonu",
+                metin:
+                    "Hat üstü armatürlerin bir kısmı vinç rayının hemen yanında veya konveyör hattının üstünde asılıdır ve buradaki çalışma, tesisin kaldırma-taşıma trafiğiyle koordine edilmeden başlamaz. Vinç operatörüyle önceden anlaşılan bir çalışma bloğunda ray o süre için askıya alınır, sepet rayın etki alanına yalnız bu blokta girer. Konveyör üstü armatürlerde ise bant kısa süreliğine durdurulur veya çalışılan bölüm geçici olarak boşaltılır. Bu koordinasyonu keşifte tesisin vardiya amiriyle birlikte planlarız; sahaya çıkan gün, kimin ne zaman durduracağı zaten bellidir.",
+            },
+            {
+                baslik: "Cephe giriş bandı ve tabela aydınlatmasının bakımı",
+                metin:
+                    "Fabrika girişlerindeki tabela-logo aydınlatması ve giriş cephesindeki bant lambaları, NOSAB'ın kurumsal görünüşe önem veren tesislerinde düzenli bakım isteyen bir kalemdir — lamba arızası, sönük harf, çatlamış difüzör görünüşü doğrudan bozar. Bu iş kompakt eklemli makineyle giriş cephesinden çalışılır, mesai dışı saatlere yazılır ki personel ve ziyaretçi trafiği kesilmesin. Aynı seansta cephe panel derzleri ve giriş saçağının kaplaması da gözden geçirilir; tek kurulumla iki görünürlük kalemi biter.",
+            },
+            {
+                baslik: "Çatı-cephe periyodik turunun standart kapsamı",
+                metin:
+                    "İç aydınlatma kalemi olmayan taleplerde de NOSAB'daki turumuz standart bir kapsam izler: sandviç panel derzlerinin sızdırmazlığı, ışıklık kenarlarının damlalık detayı, oluk-dere hattının kapasitesi ve saçak altı bağlantı noktaları. Bu tur, hat üstü aydınlatma değerlendirmesiyle aynı güne yazıldığında makine bir kez kurulur, iki katman aynı seansta biter ve nakliye-kurulum bedeli tek kalemde kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "NOSAB'da erişim kalemleri ve iç-dış ayrımı",
+                paragraflar: [
+                    "Fabrika içi ve fabrika dışı erişim kalemleri, aşağıdaki gibi ayrı fakat aynı seansta planlanır.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Konum", "Erişim yöntemi", "Not"],
+                    satirlar: [
+                        ["Hat üstü armatür bakımı", "İç, üretim koridoru", "Eklemli, koridor bazlı", "Vardiya amiriyle koordine"],
+                        ["Işıklık-armatür birlikte değerlendirme", "İç + dış", "Tek keşif raporu", "Aydınlatma bütçesi bütünsel"],
+                        ["Vinç rayı çevresi armatür", "İç, ray hattı", "Planlı ray askıya alma", "Operatör onaylı blok"],
+                        ["Giriş cephesi tabela-bant", "Dış, cephe", "Kompakt eklemli", "Mesai dışı tercih"],
+                        ["Çatı-panel-oluk turu", "Dış, kabuk", "Eklemli 16-20 m", "Standart periyodik kapsam"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki katmanlı fabrikada tek plan",
+                paragraflar: [
+                    "NOSAB'daki fabrikaları içeriden ve dışarıdan iki ayrı yapı gibi ele almak, aynı yüksekliğe iki kez makine göndermek demektir — hem maliyet hem koordinasyon açısından verimsizdir. Bizim kurduğumuz düzen tersine işler: keşif tek gezide hem çatı-cephe hem hat üstü aydınlatmayı kapsar, tek rapor iki katmanı da gösterir ve tek seans ikisini de kapatır. Fabrika yönetiminin gördüğü şey, ayrı ayrı gelen iki teklif değil, aydınlatma ve kabuk bakımını aynı çerçevede sunan tek bir plandır.",
+                    "Bu yaklaşımın pratik faydası bütçe planlamasındadır: yıllık bakım kalemi tek başlıkta toplanır, hangi yılda hangi katmanın öne çıkacağı (bu yıl ışıklık değişimi ağırlıklı, gelecek yıl armatür yenileme ağırlıklı gibi) önceden görülür ve sürpriz kalem çıkmaz.",
+                ],
+            },
+            {
+                baslik: "Üretim durmadan hat üstü çalışmanın sınırları",
+                paragraflar: [
+                    "Hat üstü çalışmanın üretimi durdurmadan yürümesi mümkündür ama sınırsız değildir — sepetin hattın üstünde durduğu her dakika, o koridordaki personel ve malzeme akışını sepetin gövdesi kadar daraltır. Bu yüzden koridor bazlı çalışma tek doğru yöntemdir: bir koridor kapatılır, iş bitirilir, sepet komşu koridora geçmeden önce ilk koridor tam olarak açılır. Aynı anda iki koridoru kapatmayız; bu, tesisin lojistiğini gereğinden fazla sıkıştırır.",
+                    "Gerçek duruş gerektiren istisnai kalemler — vinç rayı üstü uzun süreli işler, ana kablo kanalı değişimi gibi — keşifte ayrıca işaretlenir ve bu kalemler için planlı bir duruş penceresi (vardiya arası veya hafta sonu) önerilir; sahada sürpriz duruş talep etmeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hattımızın üstündeki armatürleri değiştirmek istiyoruz ama üretim durmadan olsun; mümkün mü?",
+                cevap:
+                    "Çoğu durumda mümkün — hat, koridor koridor ele alınır: bir koridorun altındaki alan kısa süreliğine boşaltılır, sepet o koridorun armatürlerini bitirir ve alan geri açılır, sonra sıradaki koridora geçilir. Aynı anda tüm hat kapatılmaz; bu yüzden üretim tamamen durmaz, yalnızca o an çalışılan dar bölge etkilenir. Vinç rayına çok yakın armatürlerde ekstra koordinasyon (rayın geçici askıya alınması) gerekebilir; bunu keşifte vardiya amirinizle birlikte netleştiririz.",
+            },
+            {
+                soru: "Çatı ışıklıklarımız matlaşmış, içeride de armatürler eski; ikisini ayrı ayrı mı değerlendirmeliyiz?",
+                cevap:
+                    "Ayırmanızı önermeyiz — ikisi aynı bütçenin iki ucudur. Matlaşmış ışıklık gün ışığını azaltır, azalan gün ışığı armatürlerin gündüz de yanmasına yol açar ve elektrik maliyeti büyür. Tek keşifte ikisini birlikte değerlendirdiğimizde rapor, hangi koridorun ışıklık temizliğiyle mi yoksa armatür yenilemesiyle mi rahatlayacağını gösterir; bazen ucuz olan çözüm ışıklık temizliğidir, armatür değişimi gerekmeyebilir. Bu karşılaştırma, ayrı tekliflerde çıkmaz.",
+            },
+            {
+                soru: "Vinç rayının hemen altındaki armatüre nasıl ulaşıyorsunuz; ray tehlike yaratmıyor mu?",
+                cevap:
+                    "Ray, planlı bir çalışma bloğunda askıya alınarak yönetilir — operatörünüzle önceden belirlenen bir süre için vinç o hat üzerinde çalıştırılmaz, sepet yalnız bu blokta rayın etki alanına girer. Blok dışında hiçbir zaman rayın altında çalışmayız. Bu koordinasyon keşifte kurulur; sahaya geldiğimiz gün kimin hangi saatte rayı durduracağı zaten netleşmiş olur, saha içinde ayrıca beklenmez.",
+            },
+            {
+                soru: "Giriş cephemizdeki tabela lambası sık arızalanıyor; sadece o mu değişir yoksa cephe geneli mi kontrol edilir?",
+                cevap:
+                    "İkisi birlikte yapılır — tek lambanın sık arızalanması genellikle kablo bağlantısı veya nem sorununa işaret eder, yalnız ampulü değiştirmek tekrarı önlemez. Sepetten tabela gövdesi açılır, bağlantı ve sızdırmazlık kontrol edilir; aynı seansta giriş cephesinin panel derzleri ve saçak kaplaması da gözden geçirilir. Kurumsal görünüşün öne çıktığı bu tür işleri mesai dışı saatlere yazarız ki giriş trafiği hiç etkilenmesin.",
+            },
+            {
+                soru: "Salon çok tozlu; hat üstü armatüre çıkan ekip için ek önlem alıyor musunuz?",
+                cevap:
+                    "Evet — tozlu üretim salonlarında armatür çalışması öncesi kısa bir hazırlık yapılır: sepet ve ekip, prosesin türüne göre uygun kişisel koruyucu donanımla çıkar, elektrik bağlantısı kesilmeden önce armatür grubunun izolasyonu tesisinizin elektrik sorumlusuyla teyit edilir. Kıvılcım üretebilecek işler (kesme, taşlama) tozlu ortamda yapılmaz; gerekiyorsa o bölgenin toz temizliği önce tamamlanır. Bu hazırlık, işin süresini biraz uzatır ama güvenliği pazarlık konusu yapmayız.",
+            },
+            {
+                soru: "NOSAB'daki bu iç-dış birleşik hizmeti başka bölgelerde de sunuyor musunuz?",
+                cevap:
+                    "Talebe göre değerlendiririz — NOSAB'da bu modeli öne çıkarmamızın nedeni, buradaki fabrikaların çoğunda hat üstü aydınlatma ve dış kabuk ihtiyacının aynı anda gündeme gelmesidir. Başka bölgede de hem iç aydınlatma hem çatı-cephe kaleminiz varsa aynı birleşik keşfi kurarız; yalnızca çatı-cephe ihtiyacınız varsa standart kabuk turumuzu uygularız. Hangi kalemlerin sizde gündemde olduğunu ilk aramada belirtmeniz, doğru teklifi ilk seferde çıkarmamızı sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. NOSAB'ın (Nilüfer Organize Sanayi Bölgesi) Nilüfer ilçesinde Bursa OSB'den ayrı bir sanayi bölgesi olduğu kamuya açık coğrafi bilgidir; iç-dış birleşik keşif modeli ve koridor bazlı çalışma yöntemi firma pratiğidir.",
+    },
+
+    "bolge:bursa-osb": {
+        h1: "Bursa OSB'de Yarım Asırlık Yapı Stoğunda Cephe-Çatı Erişimi",
+        giris:
+            "Bursa OSB, Türkiye'nin köklü organize sanayi bölgelerinden biri olarak yarım asra yaklaşan bir yapı stoğu taşır ve bu stok tek tip değildir — ilk kuruluş döneminin tekstil ağırlıklı parselleri ile sonraki genişlemelerin otomotiv yan sanayi tesisleri aynı sokaklarda yan yana durur. İki sektörün kabuk ihtiyacı örtüşmez: tekstil tarafında boyahane bacaları ve nemli proses havası kaplamayı içeriden yaşlandırırken, otomotiv tarafında pres-kaynak atölyelerinin toz ve kıvılcım riski çatı çalışmasına farklı bir disiplin dayatır. Bizim buradaki işimiz, tek bir standart tur değil, her parselin geçmişine ve sektörüne göre ayarlanmış bir yaklaşımdır. Bu sayfa Bursa OSB'nin kendine özgü tarafını anlatıyor: yapı yaşının erişim planına etkisi, iki sektörün aynı sokakta paylaştığı lojistik, kiracı devrinde kabuk devir teslimi ve OSB'nin merkezi konumunun getirdiği hız.",
+        maddeler: [
+            {
+                baslik: "Yapı yaşının erişim planına etkisi",
+                metin:
+                    "Bursa OSB'nin ilk parsellerinde saçak yükseklikleri düşük, çatı eğimleri belirgin ve malzeme standardı bugünkünden farklıdır; sonraki genişleme parsellerinde ise saçaklar yükselir, cepheler tek düzlem sandviç panel hâline gelir. Aynı sokakta yan yana duran iki fabrika, on-onbeş yıl arayla inşa edilmiş olabilir ve bu fark, makine sınıfını doğrudan belirler. Keşifte ilk sorduğumuz şey bu yüzden yapının yaklaşık inşa dönemidir — kaba bir tarih bile, saha eğim ölçümünden önce doğru makine sınıfını daraltmamıza yeter.",
+            },
+            {
+                baslik: "Tekstil ve otomotiv parsellerinin ortak sokağı",
+                metin:
+                    "OSB'nin eski dokusunda sokaklar, iki sektörün karışık trafiğine göre değil kendi döneminin araç ölçeğine göre çizilmiştir; bugün aynı dar sokakta tekstil tesisinin kumaş yüklü tırı ile otomotiv tedarikçisinin sevkiyat kamyonu aynı anda manevra yapabilir. Makine kurulumunda bu ortak sokağı hesaba katarız — kurulum saatini sokağın en az yoğun olduğu dilime, genellikle öğle arası veya vardiya değişimi öncesine yazarız ki hiçbir tesisin sevkiyatı gecikmesin.",
+            },
+            {
+                baslik: "Blok bazlı çoklu tesis turu",
+                metin:
+                    "Bursa OSB'nin sık parsel dokusu, aynı sokaktaki birkaç küçük-orta tesisin işlerini tek güne dizmeye elverişlidir; makine bir sokakta durur, sırayla birkaç tesisin çatı-cephe kalemini bitirir, sonraki sokağa geçer. Bu düzen, özellikle işi küçük olan eski kuşak tesisler için nakliye payını belirgin düşürür. Katılım için tek şart, tesislerin kendi kalem listesini önceden bildirmesidir — sıralama ve gün, listeler elimize geçtikten sonra kurulur.",
+            },
+            {
+                baslik: "Kiracı devrinde kabuk devir teslimi",
+                metin:
+                    "Bursa OSB'nin köklü parsellerinde kiracı değişimi sık görülen bir durumdur ve devir sırasında çatı-cephe durumu, hem çıkan hem giren tarafın çıkarına olan bir tespit konusudur — çıkan kiracı hasarsız teslim ettiğini belgeler, giren kiracı devraldığı kabuğun gerçek durumunu bilir. Bu tespit sepetten yapılan bir turla, fotoğraflı rapor hâlinde çıkar ve genellikle emlak sözleşmesinin ekine girer. Bursa OSB'de bu tür devir tespiti, diğer bölgelere göre daha sık karşılaştığımız bir taleptir; parsel geçmişi eski olduğu için kiracı sirkülasyonu da yüksektir.",
+            },
+            {
+                baslik: "Merkezi konumun lojistik avantajı",
+                metin:
+                    "Bursa OSB, şehrin sanayi ağının en eski ve en merkezi noktalarından biri olarak makine sevkiyatında kısa mesafe avantajı sunar; aynı güne birden fazla küçük işi sığdırmak, çevre OSB'lere göre burada daha kolaydır. Acil çağrılarda da bu yakınlık işe yarar — sarkan bir sac parçası veya açılan bir kaçak gibi güvenlik riski taşıyan durumlarda, merkezi konumdaki tesislere ulaşım süremiz kısadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Parsel geçmişi ve kontrol önceliği",
+                paragraflar: [
+                    "Bursa OSB'deki parsellerin geçmişine göre kontrol önceliği ve tipik erişim ihtiyacı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Parsel geçmişi", "Kiracı devir sıklığı", "Kontrol önceliği", "Erişim notu"],
+                    satirlar: [
+                        ["İlk kuruluş dönemi (tekstil ağırlıklı)", "Yüksek", "Devir tespiti + yaş kontrolü", "Alçak saçak, eklemli 16-20 m"],
+                        ["Orta dönem genişleme (karma)", "Orta", "Standart periyodik tur", "Sokak trafiğine göre saat"],
+                        ["Yeni parsel (otomotiv yan sanayi ağırlıklı)", "Düşük", "Yıllık sızdırmazlık turu", "Teleskopik/eklemli"],
+                        ["Kiracı değişimi bekleyen parsel", "Devir anı", "Fotoğraflı devir raporu", "Tek seans, hızlı dönüş"],
+                        ["Küçük-orta ölçekli komşu tesisler", "Değişken", "Blok bazlı toplu tur", "Sokak bazlı sıra"],
+                    ],
+                },
+            },
+            {
+                baslik: "Devir tespitinin iki tarafa da sağladığı fayda",
+                paragraflar: [
+                    "Kabuk devir tespiti, Bursa OSB'nin köklü dokusunda giderek daha çok talep edilen bir hizmettir çünkü kiracı değişikliği burada istisna değildir. Rapor, çıkış yapan tarafın teslim ettiği durumu belgelerken, giren tarafa da devraldığı çatı-cephenin gerçek yaşını ve varsa mevcut sorunlarını gösterir — sonradan 'bu hasar bizden önce mi vardı' tartışmasının önüne geçer. Rapor tek seansta, sepetten yapılan sistematik bir turla çıkar: çatı kaplaması, panel derzleri, oluk-dere hattı ve ışıklık durumu fotoğraflarla belgelenir.",
+                    "Bu raporun ikinci bir faydası vardır: yeni kiracı, devraldığı kabuğun hangi kalemlerinin öncelikli olduğunu ilk günden bilir ve bakım bütçesini tahmin değil veriyle kurar.",
+                ],
+            },
+            {
+                baslik: "Dar sokaklarda blok turunun kurulumu",
+                paragraflar: [
+                    "Bursa OSB'nin eski bölümlerindeki sokaklar, bugünün geniş OSB caddelerine göre dardır ve bu darlık, blok turunun sırasını da belirler — makine bir sokağa girdiğinde o sokaktaki bütün katılımcı tesisleri bitirmeden çıkmaz, aksi hâlde aynı dar sokağa iki kez giriş-çıkış gerekir. Tur planı bu yüzden coğrafi olarak kurulur: önce hangi sokak, o sokakta hangi sıra, ardından komşu sokak.",
+                    "Katılımcı tesislerin kendi kalem listesini önceden vermesi, bu sıralamayı büyük ölçüde kolaylaştırır; listesiz gelen talep, tur sırasında sahada değerlendirilir ve mümkünse aynı güne eklenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrikamız Bursa OSB'nin en eski bölümünde; yapının yaşını bilmiyoruz, bu sorun olur mu?",
+                cevap:
+                    "Sorun olmaz — kesin yaşı bilmeseniz de kaba bir dönem tarifi (örneğin 'OSB'nin ilk kuruluş yıllarından' ya da 'sonraki genişlemeden') bize makine sınıfı konusunda ilk fikri verir. Kesin ölçüm keşifte yapılır: saçak yüksekliği ve mahya kotu sahada alınır, makine seçimi buna göre kesinleşir. Yaşlı yapılarda ek olarak kaplama malzemesinin türünü de kontrol ederiz — bazı eski levha tipleri erişim yöntemini değiştirir.",
+            },
+            {
+                soru: "Kiracı olarak devraldığımız fabrikada çatı durumu belirsiz; bir kayıt tutmak mümkün mü?",
+                cevap:
+                    "Mümkün ve Bursa OSB'de sık talep ettiğimiz bir hizmettir — sepetten yapılan bir devir tespiti turunda çatı kaplaması, panel derzleri, oluk-dere hattı ve ışıklık durumu fotoğraflanır ve tarihli bir raporla belgelenir. Bu rapor, devraldığınız kabuğun o günkü hâlini kayıt altına alır; ileride çıkacak bir sorunun devirden önce mi sonra mı oluştuğu tartışmasını önler. Devir süreciniz kesinleştiğinde bize haber verirseniz, teslim tarihine yakın bir günde turu tamamlarız.",
+            },
+            {
+                soru: "Sokağımız çok dar, komşu tesisler de aynı sokakta; birlikte planlama mümkün mü?",
+                cevap:
+                    "Tam olarak önerdiğimiz düzen budur — dar sokaklarda makine bir kez girip sokaktaki bütün katılımcı tesisleri sırayla bitirir, tekrar giriş-çıkış yapmaz. Komşu tesislerle konuşup kalem listelerinizi topladığınızda, sokak bazlı bir tur günü kurarız ve nakliye-kurulum payı katılımcılar arasında bölünür. Tek koordinatör belirlemeniz, sıralamayı ve saat planını hızlandırır.",
+            },
+            {
+                soru: "Tekstil tesisiyiz ama komşumuz otomotiv yan sanayi; aynı günde iki farklı işi mi yaparsınız?",
+                cevap:
+                    "Evet, sıkça yaptığımız bir düzendir — aynı sokakta farklı sektörler olsa da erişim ihtiyacı (çatı, cephe, oluk) ortaktır; makine bir tesisten diğerine geçerken sektöre özgü detaylar (tekstil tarafında egzoz-baca çevresi, otomotiv tarafında toz-kıvılcım disiplini) ayrı ayrı gözetilir. İki farklı iş listesi, tek seansın içinde ayrı kalemler olarak fiyatlanır ve ayrı raporlanır.",
+            },
+            {
+                soru: "Bursa OSB'de acil bir çatı hasarı olursa ne kadar hızlı gelirsiniz?",
+                cevap:
+                    "OSB'nin merkezi konumu burada avantajımız — sarkan parça, açılan kaçak gibi güvenlik riski taşıyan durumlarda en yakın uygun makineyi öncelikli yönlendiririz ve ulaşım süremiz, çevre OSB'lere göre kısadır. Yine de kesin saat, o andaki program yoğunluğuna bağlıdır; gerçekçi olmayan bir söz vermek yerine aradığınızda size net bir zaman aralığı veririz. Acil çağrı sırasında telefonda geçici güvenlik önerileri de paylaşırız.",
+            },
+            {
+                soru: "Eski parselimizde çatı malzemesi standart dışı görünüyor; bu erişim yöntemini değiştirir mi?",
+                cevap:
+                    "Değiştirebilir — Bursa OSB'nin en eski parsellerinde günümüz panel standardından önceki kaplamalara (eski tip levha, ince sac) rastlanır ve bu malzemeler insan yükünü farklı taşır. Keşifte malzeme türü sorulur, mümkünse fotoğrafla teyit edilir; standart dışı kaplamada çalışma tamamen sepetten yürütülür, kaplamaya hiç basılmaz. Bu bilgi önceden geldiğinde doğru ekipmanla sahaya çıkarız, sahada sürpriz yaşanmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bursa OSB'nin Türkiye'nin köklü organize sanayi bölgelerinden biri olduğu ve karma tekstil-otomotiv parsel dokusu kamuya açık bilgidir; devir tespiti ve blok bazlı sokak turu firma pratiğidir.",
+    },
+
+    "bolge:besevler-kucuk-sanayi-sitesi": {
+        h1: "Beşevler Küçük Sanayi Sitesinde Atölye Cephe-Çatı İşleri",
+        giris:
+            "Beşevler, Bursa'da oto tamir, yedek parça ve bakım atölyelerinin yoğunlaştığı bilinen bir küçük sanayi sitesi kimliği taşır; site dokusu, büyük OSB parsellerinden farklı bir ölçekte çalışır — dükkan cepheleri yan yana sıralanır, saçaklar çoğu zaman ortak bir galeri hâlinde birleşir ve site içi yollar tek şeritten geniş değildir. Bu ölçek, çatı-cephe işini de kendine göre şekillendirir: iş büyük bir fabrika çatısı değil, tek dükkanlık bir sac saçak veya birkaç dükkanı kapsayan ortak bir galeridir; makine büyük değil, dar site yoluna sığan kompakt sınıftır. Kaynak-boya-lastik gibi atölye faaliyetlerinin çatıya yansıyan kendine özgü riskleri de listeye eklenir. Bu sayfa, KSS ölçeğinde çatı-cephe bakımını nasıl kurduğumuzu anlatıyor: dükkan bazlı onarım, ortak galeri saçağının bakımı, dar site yolunda manevra ve küçük işletme bütçesine uygun kademeli çözüm.",
+        maddeler: [
+            {
+                baslik: "Dükkan ölçeğinde çatı-saçak onarımı",
+                metin:
+                    "Beşevler'deki tipik dükkan, tek katlı, sac saçaklı ve dar cepheli bir yapıdır; çatı sorunları da bu ölçeğe uygun küçülür — tüm saçağın değişimi yerine akan bir noktanın yaması, gevşemiş bir sac levhanın sabitlenmesi, paslanmış bir mahya bandının değişimi gibi. Kompakt eklemli makine, dükkanın önündeki dar boşluktan kurulup saçağa kısa bomla ulaşır; iş genellikle bir-iki saat içinde biter ve dükkan kapanmadan tamamlanır.",
+            },
+            {
+                baslik: "Ortak galeri saçağının bakımı",
+                metin:
+                    "Sitedeki birçok blokta dükkanların önündeki galeri saçağı tek parça, birkaç dükkanı birden örten ortak bir yapıdır ve bir dükkanın önündeki tıkalı dere, komşu dükkanın önüne su taşırabilir. Galeri bakımında makine, saçak boyunca ilerleyerek dere hattını uçtan uca temizler, kaplama derzlerini kontrol eder ve gevşek bağlantıları sıkar. Bu iş tek dükkanın değil, galerinin bağlı olduğu bütün dükkanların ortak konusudur; site yönetimi veya dükkan sahiplerinin oluşturduğu bir temsilci üzerinden koordine edilir.",
+            },
+            {
+                baslik: "Dar site yollarında manevra ve park düzeni",
+                metin:
+                    "Beşevler'in site içi yolları, müşteri araçlarının bekleme, çekme ve teslim trafiğiyle sürekli doludur; makinenin kurulacağı boşluk, çoğu zaman iş gününün en kritik değişkenidir. Kompakt şasili modeller bu yüzden standart tercihtir — dar bir aralığa sığar, park hâlindeki araçların arasından geçebilir. Kurulum saatini, sitenin görece sakin olduğu dilime (öğleden önce erken saat gibi) yazmak, hem manevrayı kolaylaştırır hem esnaf trafiğini kesmez.",
+            },
+            {
+                baslik: "Atölye faaliyetinin çatıya yansıyan riskleri",
+                metin:
+                    "Oto tamir ve bakım atölyelerinin günlük faaliyeti çatıyı da etkiler: kaynak işleri sıçrayan kıvılcımla saçak altını yakabilir, boya kabini egzozu çatı yüzeyinde yağlı bir film bırakabilir, lastik istifleme alanlarının üstündeki oluk yaprak yerine kauçuk tozu biriktirebilir. Bu kalemler standart bir çatı turunda gözden kaçabilir; Beşevler'deki kontrollerimizde atölyenin faaliyet türü sorulur ve tura buna özgü maddeler eklenir — kaynak yapılan dükkanların saçak altı yanma izleri, boyahane komşusu çatıların yağ filmi kontrolü gibi.",
+            },
+            {
+                baslik: "Dükkan sahipleri arasında ortak bakım organizasyonu",
+                metin:
+                    "Tek dükkanın nakliye-kurulum bedelini tek başına karşılaması, küçük ölçekli bir işletme için oransız bir maliyettir. Beşevler'de en sık kurduğumuz düzen, aynı blok veya aynı galerideki dükkan sahiplerinin taleplerini birleştirmesidir — bir temsilci listeyi toplar, makine bloğa bir kez gelir, her dükkanın kendi kalemi sırayla biter ve ortak maliyet (nakliye, galeri dere hattı) dükkan sayısına bölünür. Bireysel kalemler ayrı fiyatlanır, ortak kalemler paylaşılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dükkan tipi ve tipik kabuk işi",
+                paragraflar: [
+                    "Beşevler'deki dükkan tiplerine göre en sık karşılaşılan çatı-cephe işleri ve erişim yöntemi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Dükkan/atölye tipi", "Tipik çatı-cephe sorunu", "Erişim yöntemi", "Not"],
+                    satirlar: [
+                        ["Tek dükkan, bağımsız saçak", "Nokta akıntı, gevşek sac", "Kompakt eklemli, kısa bom", "1-2 saatte biter"],
+                        ["Galeri altı sıra dükkan", "Ortak dere tıkanıklığı", "Saçak boyu ilerleyen tur", "Komşularla koordineli"],
+                        ["Kaynak/tamir atölyesi", "Saçak altı yanma izi", "Sepetten yakın inceleme", "Faaliyet türü keşifte sorulur"],
+                        ["Boya kabini komşusu", "Yağlı film, kaplama kararması", "Yıkama + kontrol", "Egzoz çıkışı ayrı incelenir"],
+                        ["Lastik-parça depolama üstü", "Kauçuk tozu birikintili oluk", "Kazıma + yıkama", "Normal yaprak temizliğinden farklı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Galeri saçağında ortak sorumluluk",
+                paragraflar: [
+                    "Ortak galeri saçağı, tek bir dükkanın mülkiyetinde değil bağlı olduğu bütün dükkanların paylaştığı bir yapı elemanıdır ve bu, bakım kararını da ortaklaştırır — bir dükkan sahibinin tek başına galerinin bir bölümünü onartması, geri kalan hattın durumunu değiştirmez. Beşevler'deki deneyimimiz, galeri bakımının en verimli yürüdüğü modelin, dükkan sahiplerinin yılda bir kez ortak bir tur için bir araya gelmesi olduğunu gösteriyor: dere hattı uçtan uca temizlenir, derzler kontrol edilir, gevşek noktalar sabitlenir ve maliyet dükkan sayısına bölünür.",
+                    "Bu modelin kurulması için tek ihtiyaç, bir temsilcinin talepleri toplaması ve bize iletmesidir; sıralamayı ve günü biz kurarız, rapor hem ortak hem bireysel kalemleri ayrı ayrı gösterir.",
+                ],
+            },
+            {
+                baslik: "Küçük bütçeye kademeli çözüm",
+                paragraflar: [
+                    "Beşevler'deki dükkan ölçeğinde bütçe, çoğu zaman büyük bir yenilemeyi değil, en acil noktanın kapatılmasını karşılar; biz bu gerçeği teklifimize yansıtırız. Sepet turunda hasar haritası çıkarılır ve iki katmanlı bir liste sunulur — bugün yapılmazsa büyüyecek zorunlu kalem, ve zamanla ele alınabilecek iyileştirme kalemi. Dükkan sahibi, bütçesine göre hangi katmanı şimdi karşılayacağına kendisi karar verir; zorunlu kalem atlanmaz ama iyileştirme kalemi ertelenebilir.",
+                    "Bu kademeli yaklaşımın amacı, küçük işletmenin çatı bakımını 'ya hep ya hiç' kararına zorlamadan, önceliğe göre adım adım ilerletmektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dükkanımızın önü çok dar, komşu dükkanlar da bitişik; makine nasıl kurulur?",
+                cevap:
+                    "Kompakt şasili eklemli modeller tam bu tür dar cepheler için tasarlanmıştır — dükkan önündeki dar aralığa sığar ve kısa bom kırılımıyla saçağa ulaşır. Park hâlindeki müşteri araçları varsa kurulumdan önce birkaç metrelik geçici boşluk istenir; bunu genellikle işin başlamadan hemen önce, kısa süreliğine ayarlarız. Sokağın en dar noktasının fotoğrafını önceden gönderirseniz, doğru makinenin girip girmeyeceğini telefonda söyleyebiliriz.",
+            },
+            {
+                soru: "Galerimizin altındaki beş dükkan da aynı derenin tıkanmasından şikayetçi; nasıl birlikte çözeriz?",
+                cevap:
+                    "Bir temsilci belirleyip beş dükkanın da onayını topladığınızda, galeri boyunca ilerleyen tek bir tur kurarız — makine saçak altında sırayla ilerler, dere hattı uçtan uca temizlenir ve ortak maliyet beşe bölünür. Bireysel bir dükkanın kendine özgü sorunu (örneğin yalnız o dükkanın saçağında sac değişimi) varsa, aynı seansta ayrı kalem olarak fiyatlanır ve raporlanır. İlk adım, talepleri tek listede toplayıp bize iletmenizdir.",
+            },
+            {
+                soru: "Atölyemizde sık kaynak yapıyoruz; saçak altında yanık izleri var, bu normal mi?",
+                cevap:
+                    "Sık görülen bir durum ama göz ardı edilmemeli — sıçrayan kıvılcım, saçak altındaki boya ve yalıtımı zamanla yakar, tekrarlayan ısı da sacın dayanımını düşürür. Kontrolde yanık bölgenin derinliği değerlendirilir; yüzeysel izler temizlenip korunur, saç incelmişse o bölüm yama sacıyla güçlendirilir. Uzun vadeli çözüm olarak kaynak istasyonunun hemen üstüne ısıya dayanıklı bir koruma paneli önerebiliriz — bu, tekrarlayan onarım masrafını azaltır.",
+            },
+            {
+                soru: "Boya kabinimizin yanındaki dükkanın çatısı bizden şikayetçi; egzozumuz mu sebep oluyor?",
+                cevap:
+                    "Mümkündür — boya kabini egzozu, rüzgâr yönüne göre komşu çatılara ince bir yağlı film taşıyabilir ve bu film zamanla kaplamayı kirletir, kayganlaştırır. Kontrolde önce egzoz çıkış yönü ve komşu çatının etkilenen bölgesi karşılaştırılır; film varsa uygun yöntemle yıkanır. Kalıcı çözüm için egzoz çıkışının yönü veya yüksekliği gözden geçirilebilir; bu, bizim değil tesisat tarafının kararıdır ama gözlemimizi raporda paylaşırız.",
+            },
+            {
+                soru: "Bütçemiz sınırlı, tüm saçağı birden yeniletemeyiz; ne öneriyorsunuz?",
+                cevap:
+                    "Her şeyi birden yapmanızı istemeyiz — sepet turuyla çıkardığımız hasar haritasında kalemler ikiye ayrılır: bugün ertelenirse büyüyecek zorunlu işler ve zamanla ele alınabilecek iyileştirmeler. Zorunlu kalemi öncelikli yaptırıp iyileştirmeyi ileri bir tarihe bırakmak, çoğu dükkan sahibinin tercih ettiği yoldur. Liste elinizde olduğunda, bir sonraki bütçe döneminde neyin geldiğini de bilirsiniz — sürpriz olmaz.",
+            },
+            {
+                soru: "Lastik istif alanımızın üstündeki oluk sürekli tıkanıyor, normal yaprak temizliği yetmiyor.",
+                cevap:
+                    "Lastik tozu ve kauçuk kırıntısı, yaprak birikintisinden farklı davranır — daha ağır çöker ve suyla birlikte yapışkan bir tabaka oluşturur; kürekle sıyırma bu tabakayı tam almaz. Bizim yöntemimiz kazıma ve ardından basınçlı yıkamayı birleştirir; iniş ağızları da bu birikintiye karşı ayrıca kontrol edilir. Birikinti hızı istif yoğunluğunuza bağlı olduğundan, ilk temizlikten çıkan malzemeye bakarak sizin için uygun temizlik sıklığını birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Beşevler'in Bursa'da oto tamir ve yedek parça atölyelerinin yoğunlaştığı bilinen bir küçük sanayi sitesi olduğu kamuya açık bilgidir; galeri bakım modeli ve kademeli bütçe yaklaşımı firma pratiğidir.",
+    },
 };

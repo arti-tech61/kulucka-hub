@@ -818,4 +818,301 @@ export const BANDIRMAMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Gemlik'in Marmara kıyısında liman ve depolama faaliyetiyle öne çıkan, zeytin ve gıda işleme geleneği bulunan bir ilçe olduğu kamuya açık genel bilgidir; proje evresi planlaması, çok makineli koordinasyon ve konaklama düzeni firma uygulamasıdır.",
     },
+
+    "bolge:bandirma-osb": {
+        h1: "Bandırma OSB'de Fabrika Bakım Duruşuna Manlift ve Forklift Kiralama",
+        giris:
+            "Bandırma OSB'yi kentin liman ve rıhtım hattından ayıran şey, işin kapıda başlamasıdır. Rıhtımda yük gemiden doğrudan sahaya iner ve trafik gümrük-tahliye ritmiyle akarken, OSB'de her araç önce bölge girişinde, sonra parselin kendi kapısında durur; ikisi de kayıt ister. Bu iki kademeli giriş, tesadüfen konan bir formalite değil, bölgenin trafik ve güvenlik düzeninin omurgasıdır — özellikle ağır tonajlı sevkiyat araçlarının günün belirli saatlerinde kantardan geçme zorunluluğu olan tesislerde bu sıra hiç bozulmaz. Manlift ve forklift de bu düzenin dışında kalmaz: sahaya girecek her ekipman, kendi aracı ve operatörü gibi kapı kaydına, çoğu zaman da kantar tartımına tabidir. İkinci belirleyici unsur ise fabrikaların kendi bakım takvimidir. OSB'deki üretim tesisleri limandan farklı olarak sürekli değil, planlı aralıklarla durur — yıllık bakım duruşu, hat revizyonu, ekipman değişimi gibi dönemlerde tesis günler veya haftalar boyunca kapasitesinin bir kısmını bakıma ayırır ve bu pencerede biriken onlarca kalem aynı anda sahaya çıkar. Bu sayfa, Bandırma OSB'nin kapı-kantar düzeni ile fabrika duruş takviminin kiralama planını nasıl şekillendirdiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Bölge kapısı ve parsel kapısı: iki ayrı kayıt",
+                metin:
+                    "Bandırma OSB'ye giren her ağır araç, önce bölge ana girişinde durur; burada araç plakası, sürücü kimliği ve varış parseli kayda geçer. Bu adım geçildikten sonra araç parsele yönelir ve orada tesisin kendi güvenlik noktasında ikinci bir kayıt yaşanır — bu kez ekipmanın periyodik kontrol belgesi, operatör yeterliliği ve iş emri sorulur. Manlift veya forklift sevkiyatında bu iki kaydı sevkiyat gününe bırakmayız; evrak seti bir gün önceden hem bölge güvenliğine hem parsel güvenliğine ayrı ayrı iletilir. Sevkiyat sabahı yaşanan gecikmelerin neredeyse tamamı, bu iki kaydın aynı anda ilk kez yapılmaya çalışılmasından doğar.",
+            },
+            {
+                baslik: "Kantar geçişi olan tesislerde ekipman tartımı",
+                metin:
+                    "Bölgedeki bazı tesisler, giren-çıkan her ağır aracı kantardan geçirir; bu uygulama malzeme sevkiyatı için kurulmuş olsa da iş makinesi taşıyan araç da aynı kurala tabi tutulur. Kantar sırası, tesisin kendi malzeme trafiğiyle paylaşılan bir kaynaktır ve sabah-akşam sevkiyat yoğunluğunda uzayabilir. Bu yüzden manlift ve forklift sevkiyatını mümkün olduğunca gün ortasına, kantarın en boş olduğu saate yazarız. Kantar fişi ayrıca giriş kaydının bir parçası olarak saklanır; bazı tesislerde bu fiş olmadan parsel içine geçiş verilmez.",
+            },
+            {
+                baslik: "Yıllık bakım duruşunda kalem yığılması",
+                metin:
+                    "OSB'deki üretim tesislerinin çoğu, yılda bir veya iki kez planlı bir bakım duruşu yapar ve bu pencerede normal zamanda aylara yayılacak kadar iş birkaç güne sıkışır: çatı ve cephe kontrolü, tavan tesisatı, vinç yolu bakımı, aydınlatma yenileme, boya ve kaplama işleri aynı anda gündeme gelir. Duruş takvimi netleştiği anda bize iletilmesini isteriz — bu bilgi ne kadar erken gelirse makine ve operatör o pencereye o kadar güvenli biçimde ayrılır. Duruş günü belirsiz kalan taleplerde ise bölgedeki diğer tesislerin de aynı haftalarda durma ihtimali olduğunu, dolayısıyla makine bulunabilirliğinin daralabileceğini baştan söyleriz.",
+            },
+            {
+                baslik: "Parsel içi geometri ve kapı ölçüsü uyumu",
+                metin:
+                    "OSB parselleri standart planlı yapılmış olsa da hol kapısı genişliği, kapı sonrası ilk dönüş alanı ve çatı makası altındaki net yükseklik tesisten tesise değişir. Bu üç ölçü sevkiyattan önce netleşmezse, makine parsel kapısına kadar gelip hol içine giremeyen bir durumla karşılaşabilir. Telefonda kapı genişliği, katlanmış makine yüksekliği ve iç manevra mesafesini sorarız; belirsizlik varsa keşifte bizzat ölçeriz. Bu kontrol, sevkiyat gününde yaşanacak bir geri dönüşten çok daha ucuza gelir.",
+            },
+            {
+                baslik: "Vardiya değişimi ve gece bekleme düzeni",
+                metin:
+                    "Sürekli üretim yapan bazı OSB tesislerinde vardiya değişim saatleri, kapı trafiğinin en yoğun olduğu andır; bu saatte hem personel hem malzeme aracı aynı kapıdan geçer. Manlift veya forklift sevkiyatını bu dar pencereye denk getirmemeye çalışırız, mümkünse vardiya arasındaki sakin saatlere yazarız. Duruşun birden fazla güne yayıldığı işlerde makine geceyi sahada geçirebilir; bu durumda konaklama noktası tesis güvenliğiyle birlikte belirlenir ve makinenin kilitli, bomu indirilmiş biçimde bırakılması standart kuraldır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bandırma OSB'de duruş evresine göre ekipman planı",
+                paragraflar: [
+                    "Fabrika bakım duruşunun tipik evreleri ve her evrede öne çıkan ekipman ihtiyacı aşağıdadır. Tablo, duruş programınızın hangi gününde hangi makineyi ayırmanız gerektiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Duruş evresi", "Tipik iş", "Ekipman sınıfı", "Kapı/kantar notu"],
+                    satirlar: [
+                        ["Duruş öncesi hazırlık", "Malzeme yerleşimi, iskele kontrolü", "Kompakt akülü", "Erken evrak seti şart"],
+                        ["Duruş başlangıcı", "Söküm, çatı-cephe kontrolü", "Teleskopik bomlu", "Kantar en yoğun saat"],
+                        ["Orta evre", "Tavan tesisatı, vinç yolu, boya", "Eklemli + makaslı", "En uzun ve yoğun evre"],
+                        ["Duruş sonu", "Devreye alma, son kontrol", "Kompakt akülü", "Vardiya dışı saat tercih"],
+                        ["Duruş dışı sevkiyat", "Depo takviyesi, istif", "Forklift", "Kantar fişi zorunlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Evrak seti bir gün önceden neden gitmeli",
+                paragraflar: [
+                    "OSB'deki iki kademeli kapı düzeninde her adım kendi evrakını ister ve bu evrakların ikisi de aynı anda sevkiyat sabahı hazırlanırsa gecikme neredeyse kaçınılmaz olur. Bizim uygulamamız, sipariş kesinleştiği anda evrak setini iki ayrı adrese göndermektir: bölge güvenliğine araç ve sürücü bilgisi, parsel güvenliğine ekipmanın periyodik kontrol raporu ve operatör yeterlilik belgesi. Bu iki gönderim ayrı sistemlere gittiği için birini yapıp diğerini atlamak sık görülen bir hatadır; kontrol listemizde ikisi de ayrı kalem olarak işaretlenir.",
+                    "Bazı parseller üçüncü bir adım daha ekler: ekipmanın kendisine ait bir saha oryantasyonu veya iş güvenliği brifingi. Bu adım genellikle kısa sürer ama takvimde bir yeri olmalıdır; ilk kez giren bir operatör için bu süreyi kiralama planına açık biçimde yazarız. Aksi hâlde duruşun ilk saatinde beklenen makine, oryantasyon kuyruğunda kaybedilen yarım saatle başlar.",
+                ],
+            },
+            {
+                baslik: "Kantar sırasını plana nasıl dahil ederiz",
+                paragraflar: [
+                    "Kantarlı tesislerde sevkiyat planı tek bir varış saatiyle değil, bir aralıkla kurulur. Sabah ve akşam sevkiyat yoğunluğunun dışına düşen bir gün ortası penceresi belirler, aracı o pencereye göre yola çıkarırız; kantarda beklenmedik bir sıra oluşursa bu pay gecikmeyi yutar. Kantar fişinin kaydı, hem tesisin hem bizim tarafımızın iş emrine eklenir — özellikle uzun süreli kiralamalarda makinenin giriş-çıkış tarihini belgeleyen tek resmi kayıt çoğu zaman bu fiş olur.",
+                    "İkinci husus tartım hassasiyetidir. Bazı kantarlar dingil bazında tartım yapar ve ağır bir platformun dingil dağılımı standart bir kamyondan farklıdır; bu durumda kantar operatörüyle önceden bir bilgi paylaşımı gerekebilir. Bu ayrıntı küçük görünse de ilk kez o kantardan geçen bir ekipman için sürprizleri önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bölge kapısında kayıt yaptırdık ama parsel kapısında tekrar bekledik; bunu tek seferde çözebilir miyiz?",
+                cevap:
+                    "Büyük ölçüde evet. İki kapı ayrı sistemlere bağlı olduğu için ikisinin de önceden bilgilendirilmesi gerekir — bölge kapısına araç ve sürücü bilgisi, parsel kapısına ekipman ve operatör evrakı ayrı ayrı gönderilmelidir. Bizim standart uygulamamız, sipariş kesinleştiği gün her iki adrese de evrakı aynı anda yollamaktır; bu yapıldığında sevkiyat sabahı her iki kapıda da sadece kimlik teyidi kalır, evrak tekrar sorulmaz. Gecikme genellikle iki adresten birinin atlanmasından doğar; kontrol listemizde bu ayrım net biçimde işaretlidir ve ikisi de tamamlanmadan sevkiyat planlanmaz.",
+            },
+            {
+                soru: "Tesisimiz kantardan geçiş istiyor; manlift veya forklift için de mi geçerli?",
+                cevap:
+                    "Çoğu zaman evet — kantar uygulaması malzeme sevkiyatı için kurulmuş olsa da parsele giren her ağır araç, dolayısıyla iş makinesi taşıyan araç da aynı kurala tabi tutulur. Bu bilgiyi keşifte veya sipariş aşamasında sorarız; kantar geçişi varsa sevkiyat saatini kantarın en boş olduğu gün ortasına yazarız ve kantar fişini giriş kaydının parçası sayarız. Kantar sırası tesisin kendi malzeme trafiğiyle paylaşıldığı için sabah-akşam saatlerinde uzayabilir; bu yüzden dar bir varış saatinden çok bir pencere üzerinden planlarız.",
+            },
+            {
+                soru: "Yıllık bakım duruşumuzun tarihi henüz kesinleşmedi; şimdiden makine ayırtabilir miyiz?",
+                cevap:
+                    "Ayırtabilirsiniz ve öneririz. Kesin tarih şart değildir — hedeflenen hafta bilgisi bile makinenin o döneme geçici olarak ayrılması için yeterlidir, tarih kesinleştikçe planı daraltırız. Bunu önermemizin nedeni basit: OSB'deki birçok tesis benzer dönemlerde yıllık duruşa girer, dolayısıyla o haftalarda bölgedeki toplam talep aynı anda yükselir. Erken bildirim yapan tesis istediği makine sınıfını ve tarihini büyük ölçüde garanti eder; duruş tarihi kesinleştiğinde bize haber vermeyi bekleyen tesis ise elde kalan seçeneklerle çalışmak durumunda kalabilir.",
+            },
+            {
+                soru: "Duruşumuzda onlarca kalem var ve süre kısa; nasıl bir sıralama öneriyorsunuz?",
+                cevap:
+                    "Kısa duruşta belirleyici olan kalem sayısı değil, hazırlıktır. Önerimiz üç adımlıdır: kalemleri gerektirdikleri ekipman sınıfına göre gruplamak — aynı sınıfın işleri art arda yapılınca makine değişimi için gün kaybedilmez; hangi kalemin hattın üzerine geldiğini, hangisinin geçilebilir bölgede olduğunu ayırmak; ve malzeme-el aleti hazırlığını duruş başlamadan tamamlamak. Bizim tarafımızda makine ve operatör duruş saatinden önce sahada, evrakı tamamlanmış olarak hazır bekler. Bu hazırlıkla kısa bir pencereye normalde sığmayacak sayıda kalem sığdırılabilir; hazırlıksız başlayan bir duruşta ise pencere işin ortasında kapanır.",
+            },
+            {
+                soru: "Operatörümüz bu parsele ilk kez girecek; oryantasyon süresi kiralama süresine dahil mi sayılır?",
+                cevap:
+                    "Hayır, ayrı sayılır ve takvimde açıkça belirtilir. Bazı tesisler ilk giren operatöre kısa bir saha oryantasyonu veya iş güvenliği brifingi uygular; bu süre genellikle yarım saat ile bir saat arasındadır. Kiracıya yansıyan kiralama süresi, makinenin fiilen çalıştığı süredir — oryantasyon bekleme süresi kira saatine yazılmaz. Bunu önceden bilmemizin faydası şudur: duruş programınızda o güne bir başlangıç payı bırakabilirsiniz, aksi hâlde duruşun ilk saatinin bir kısmı beklenmedik biçimde oryantasyonda geçebilir.",
+            },
+            {
+                soru: "Duruş birkaç gün sürecek; makine geceyi parselde geçirebilir mi?",
+                cevap:
+                    "Geçirebilir, bunun için ayrı bir sevkiyat-geri alım maliyeti ödemenize gerek kalmaz. Konaklama noktasını keşifte tesis güvenliğiyle birlikte belirleriz — trafikten uzak, zemini sağlam bir alan tercih edilir. Makine gece için kilitlenir, bomu indirilmiş konumda bırakılır ve sahanın gece güvenliği tesisin sorumluluğunda kalır. Akülü makinelerde şarj için uygun bir elektrik beslemesi gerekir; bu ihtiyacı önceden bildiririz ki duruş sabahı makine dolu bataryayla hazır olsun. Bu düzen, özellikle çok günlü duruşlarda günlük sevkiyat-geri alım trafiğini ortadan kaldırdığı için hem bölge kapısındaki yükü hem maliyeti azaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bandırma OSB'nin planlı parsel yerleşimi, iki kademeli giriş kontrolü (bölge ve parsel) ile bazı tesislerde kantar tartım uygulaması bulunduğu ve üretim tesislerinin yıllık planlı bakım duruşu yaptığı kamuya açık genel bilgidir; evrak akışı, kantar planlaması ve duruş kalem sıralaması firma pratiğidir.",
+    },
+
+    "bolge:bandirma-limani": {
+        h1: "Bandırma Limanı Sahasında Aydınlatma ve Üst Yapı İşlerine Manlift Kiralama",
+        giris:
+            "Liman sahasını diğer çalışma alanlarından ayıran şey, hiçbir noktasının durağan olmamasıdır. Rıhtım boyunca kepçeli yükleyiciler, damperli kamyonlar ve reachstacker sınıfı elleçleme ekipmanı sürekli hareket hâlindedir; bu trafiğin üzerine bir de rüzgârın kendi değişkenliği eklenir — Marmara'nın güney kıyısında öğleden sonra kuvvetlenen poyraz, açık sahada yükseğe çıkan her ekipman için ayrı bir hesap gerektirir. Bandırma limanının aydınlatma direkleri, vinç ve konveyör üst yapıları, çelik iskelet elemanları ve depolama hangarlarının çatı-cephe kesimleri bu iki değişkenin — araç trafiği ve rüzgâr — tam ortasında durur. Bu sayfa, OSB'deki fabrika bakımından veya ilçe merkezindeki genel sanayi işlerinden farklı olarak, doğrudan liman sahasının kendi çalışma düzenine odaklanır: araç trafiğinden fiziksel ayrışma, rüzgâr penceresine göre iş planlama ve gemi operasyonunun getirdiği zaman kısıtları. Bandırma limanında manlift ve platform kiralamayı bu üç eksen üzerinden kuruyoruz.",
+        maddeler: [
+            {
+                baslik: "Rıhtım aydınlatma direklerinde erişim",
+                metin:
+                    "Liman sahasının aydınlatma direkleri, gece operasyonunun güvenliğini doğrudan taşıyan elemanlardır ve arıza durumunda beklenmez — armatür değişimi, kablo onarımı veya direk gövde kontrolü çoğunlukla aynı gün planlanır. Bu işlerde makinenin duracağı nokta, direğin tabanına en yakın ama araç güzergâhının tamamen dışında kalan bir yer olmalıdır; rıhtımda sabit bir 'kenar şerit' yoktur, her direk kendi trafiğine göre değerlendirilir. Enerji kesme ve etiketleme, direk üzerinde çalışmaya başlamadan önce tesisin elektrik sorumlusundan yazılı teyitle alınır; bu adım rüzgârlı ve karanlık koşullarda daha da kritik hâle gelir.",
+            },
+            {
+                baslik: "Vinç ve konveyör üst yapılarında bakım",
+                metin:
+                    "Liman vinçlerinin ve dökme yük konveyörlerinin çelik üst yapısı — köprü kirişleri, ray bağlantıları, kablo taşıyıcı sistemler — düzenli kontrol ister ve bu kontrol genellikle vincin veya hattın operasyon dışı kaldığı dar bir pencerede yapılır. Platformun bu köprü ve ray hattına yaklaşırken iki şeye dikkat edilir: bomun hareketli parçalara temas etmemesi ve makinenin kendisinin, vincin hareket güzergâhı üzerinde durmaması. Vinç operatörüyle önceden kurulan bir iletişim — vinç kilitli mi, hangi bölüm hareketsiz — çalışmanın ön şartıdır; bu teyit alınmadan sepet yükseltilmez.",
+            },
+            {
+                baslik: "Depolama hangarlarında çatı ve cephe erişimi",
+                metin:
+                    "Liman arka sahasındaki kapalı stok hangarları ve depolama yapıları geniş açıklıklı çelik çatılıdır; çatı sacı onarımı, oluk temizliği ve cephe kaplama işleri bu yapılarda sık görülen kalemlerdir. Hangar çevresi genellikle iş makinesi park ve manevra alanı olarak da kullanıldığından, platformun konumlanacağı nokta hangar sorumlusuyla birlikte, mevcut yükleme-boşaltma trafiğinin dışında belirlenir. Rüzgârlı günlerde açık cephe tarafındaki çalışma, kapalı taraftaki çalışmadan önce durdurulur — hangarın kendisi rüzgârı bir yönde kesse de diğer yönde tam olarak açığa çıkarır.",
+            },
+            {
+                baslik: "Araç trafiğinden fiziksel ayrışma",
+                metin:
+                    "Rıhtım ve arka sahada iş makinesi trafiği hiç durmadığı için, platformun trafikle aynı şeride girmesi kabul edilmez; ayrışma öneri değil kuraldır. Çalışma alanı bariyer ve koniyle fiziksel olarak çevrilir, saha trafik amiriyle giriş-çıkış saati ve güzergâh önceden kararlaştırılır. Gemi tahliyesinin sürdüğü bir vardiyada erişim işi, tahliyenin durduğu veya ambarın değiştiği kısa aralığa yazılır; bu aralık genellikle önceden tam olarak bilinmez, bu yüzden saha trafik amiriyle sürekli iletişim hâlinde kalınır.",
+            },
+            {
+                baslik: "Rüzgâr penceresine göre günlük plan",
+                metin:
+                    "Liman sahası açık ve engelsiz olduğu için rüzgâr, iç sahalardaki eşdeğerinden daha erken ve daha sert hisseder. Üreticinin makine için tanımladığı azami rüzgâr hızının üzerinde sepet yükseltilmez; bu kural teknik değil kesindir. Bandırma'da poyraz genellikle öğleden sonra kuvvetlenir, bu yüzden yüksek kotlu kalemler sabaha, alçak kotlu ve rüzgâra daha az duyarlı kalemler öğleden sonraya yazılır. Rüzgâr aniden kuvvetlenirse iş yarıda kesilir ve sepet indirilir; bu durum planlama hatası değil, sahanın doğasıdır ve günlük programa yedek zaman olarak baştan eklenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Liman sahasında iş tipine göre ayrışma ve zamanlama",
+                paragraflar: [
+                    "Liman sahasındaki başlıca erişim işleri ve her birinde trafik-rüzgâr açısından dikkat edilen unsur aşağıdadır. Kritik veri sütunu, işi planlarken önce netleştirdiğimiz bilgidir.",
+                ],
+                tablo: {
+                    basliklar: ["İş alanı", "Ana risk", "Zamanlama tercihi", "Kritik veri"],
+                    satirlar: [
+                        ["Aydınlatma direği", "Araç trafiği, karanlık", "Trafiğin seyrek olduğu saat", "Enerji kesme teyidi"],
+                        ["Vinç/konveyör üst yapı", "Hareketli ekipman", "Operasyon dışı pencere", "Vinç kilitleme teyidi"],
+                        ["Depo hangar çatısı", "Rüzgâr, manevra sahası", "Sabah, rüzgâr öncesi", "Hangar trafik programı"],
+                        ["Rıhtım genel erişim", "Sürekli araç trafiği", "Tahliye arası boşluk", "Trafik amiri onayı"],
+                        ["Açık saha çelik konstrüksiyon", "Rüzgâr yükü", "Poyraz öncesi sabah", "Azami rüzgâr sınırı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gemi tahliyesi ile erişim işinin aynı sahayı paylaşması",
+                paragraflar: [
+                    "Liman sahasında erişim işi hiçbir zaman tek başına planlanmaz; her zaman o anki gemi operasyonunun gölgesinde kurulur. Bir geminin tahliyesi sürerken rıhtımın o kesimi kepçe, bant ve kamyon trafiğine kilitlenir; platformun aynı kesimde çalışması ne güvenli ne de pratiktir. Bu yüzden liman sahasındaki işler için tek bir kesin saat vermeyiz — tahliyenin durduğu, ambarın değiştiği veya vardiyanın kapandığı aralığı saha trafik amiriyle birlikte izleriz ve makineyi bu aralığa göre devreye alırız.",
+                    "Bu belirsizliğin karşılığında makineyi sahaya erken alır, çalışma noktasının güvenli bir mesafesinde bekletiriz; aralık açıldığında kurulum değil doğrudan iş başlar. Tahliye programının uzayacağı önceden belliyse bu bilgiyi bize iletmenizi isteriz — makineyi başka bir kısa işe kaydırıp aralık açıldığında geri getirebiliriz. Bilgi paylaşılmadığında ise makine sahada bekler ve bu bekleme her iki tarafın planına da yazılır.",
+                ],
+            },
+            {
+                baslik: "Poyraz ve tuzlu havanın açık sahadaki ekipmana etkisi",
+                paragraflar: [
+                    "Liman sahasında çalışan makine, kapalı bir hol içindeki eşdeğerinden çok daha ağır bir hava yüküyle karşılaşır: tuzlu rüzgâr metal yüzeylerde ve elektrik bağlantılarında hızlı iz bırakır, açık sahada biriken nem panolarda yoğuşma yapar. Liman işlerine ayrılan makinelerde silindir koruma yağlaması sıklaştırılır, pano contaları her sefer sonunda kontrol edilir ve iş dönüşü tatlı su yıkaması atlanmaz. Bu bakım yükü fiyatın içindedir ve ayrıca faturalandırılmaz.",
+                    "Rüzgâr tarafında ise uyguladığımız kural nettir: sabah saatlerinde ölçülen rüzgâr hızı güne göre değerlendirilir, öğleden sonra poyraz kuvvetlendiğinde yüksek kotlu iş kalemleri o gün için kapatılır. Bu, sahada tartışma konusu olmaz; ekip günün başında hangi kalemlerin hangi saate düştüğünü bilir ve rüzgâr sınırına ulaşıldığında sepeti indirmek otomatik bir adımdır, karar anında tartışılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aydınlatma direğimiz arızalandı ve gece operasyonu etkileniyor; ne kadar hızlı müdahale edebilirsiniz?",
+                cevap:
+                    "Liman sahasındaki aydınlatma arızalarını öncelikli değerlendiriyoruz, çünkü gece operasyon güvenliğini doğrudan etkiliyor. Aramadan önce üç bilgiyi hazırlamanız süreci hızlandırır: direğin sahadaki konumu ve araç trafiğine göre yeri, hedef yükseklik, enerji kesme işleminin daha önce yapılıp yapılmadığı. Makine sahaya ulaştığında ilk adım her zaman enerji kesme teyididir — bu teyit alınmadan direk üzerinde çalışılmaz, arızanın aciliyeti bu kuralı esnetmez. Trafik yoğun bir noktadaysa çalışma alanı hızla bariyerlenir ve saha trafik amiriyle koordinasyon eş zamanlı yürütülür.",
+            },
+            {
+                soru: "Vinç bakımı için platform istiyoruz ama vinç operatörü de sahada olacak; nasıl bir düzen kurulur?",
+                cevap:
+                    "Bu tip işlerde ilk adım, vincin kilitlenmesi veya çalışma bölgesinin dışına park ettirilmesi konusunda vinç operatörüyle yazılı bir teyit almaktır; bu teyit alınmadan platform vinç yapısına yaklaşmaz. Çalışma süresince iki taraf arasında sürekli görsel veya telsiz iletişimi kurulur — platform operatörü vinç tarafında beklenmedik bir hareket görürse işi anında durdurur. Askıdaki bir yükün altından geçmek veya vinç hareket hâlindeyken yapıya yaklaşmak kesinlikle yapılmaz; bu, operatörlerimizin hiçbir gerekçeyle esnetmediği bir kuraldır.",
+            },
+            {
+                soru: "Rüzgâr yüzünden işimiz yarıda kaldı; bu durumda ek ücret ödüyor muyuz?",
+                cevap:
+                    "Hayır. Rüzgâr nedeniyle durdurulan bir iş için ek bir kalem çıkmaz; bu, açık liman sahasında çalışmanın doğal bir parçasıdır ve planlamaya baştan dahil edilir. İşin devamı için ise iki yol izleriz: aynı gün içinde rüzgâr düşerse kaldığı yerden devam edilir, düşmezse ertesi güne yedek gün olarak taşınır. Liman işlerinde bu yüzden takvimi tek bir güne kilitlemeyiz — hedef gün ve onu izleyen bir yedek gün birlikte planlanır. Rüzgâr sınırını esnetip işi zorlamak bizim için bir seçenek değildir; bu sınır üreticinin makine için belirlediği teknik bir değerdir.",
+            },
+            {
+                soru: "Gemi tahliyesi ne zaman biteceği belli değil; sizi ne zaman çağıralım?",
+                cevap:
+                    "Kesin bitiş saatini beklemenize gerek yok — bize tahliyenin başladığı bilgiyi ve tahmini süreyi verin, makineyi sahaya yakın bir noktada erken konumlandırırız. Aralık açıldığında saha trafik amirinden gelen sinyalle makine hemen çalışma noktasına girer; bu şekilde tahliyenin tam bitişini beklemek yerine ambar değişimi veya vardiya arası gibi ara boşluklardan da yararlanabiliriz. Tahliyenin önemli ölçüde uzayacağı belli olursa bu bilgiyi bize iletmenizi rica ederiz; makineyi o aralıkta başka bir kısa işe yönlendirip geri getirebiliriz.",
+            },
+            {
+                soru: "Hangar çatısında iş var ama hangar çevresi sürekli forklift ve kamyon trafiğine açık; nasıl güvenli çalışılır?",
+                cevap:
+                    "Konumlanma noktasını hangar sorumlusuyla birlikte, mevcut yükleme-boşaltma güzergâhının tamamen dışında belirleriz. Çalışma alanı bariyer ve koniyle fiziksel olarak çevrilir, forklift ve kamyon operatörlerine bu alanın kapalı olduğu sabah brifinginde bildirilir. Trafiğin en yoğun olduğu saatler — genellikle sevkiyat başlangıcı ve sonu — mümkünse çalışma dışı bırakılır. Rüzgârlı taraftaki cephe işleri ayrıca ayrı değerlendirilir; hangar bir yönde rüzgârı kesse de karşı yönde tam açığa çıkarabilir, bu yüzden çalışılacak cephe rüzgâr yönüne göre seçilir.",
+            },
+            {
+                soru: "Liman sahasına giriş için özel bir izin süreci var mı, bu süre kiralama takvimine dahil mi?",
+                cevap:
+                    "Evet, liman kontrollü bir sahadır ve giriş için araç-sürücü bilgisi, operatör kimlik ve yeterlilik belgesi, ekipmanın periyodik kontrol raporu ve sigorta belgeleri istenir; bazı liman işletmeleri ayrıca kendi saha oryantasyonunu şart koşar. Bu süreç evrak önceden gönderildiğinde genellikle bir iş günü içinde tamamlanır. Süreç kiralama süresine dahil edilmez — kiracıya yansıyan süre makinenin fiilen çalıştığı süredir. Bunu önden bilmemizin faydası şudur: sipariş kesinleştiği gün evrak setini limanın güvenlik biriminize göndeririz ve sevkiyat günü kapıda beklenmeden içeri geçilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Bandırma'nın dökme yük limanı ile araç trafiği yoğun bir rıhtım-elleçleme sahasına sahip olduğu ve Marmara'nın güney kıyısında öğleden sonra kuvvetlenen poyraz rüzgârının bölgede bilinen bir iklim özelliği olduğu kamuya açık genel bilgidir; trafik ayrışması, rüzgâr penceresi planlaması ve gemi operasyonu koordinasyonu firma pratiğidir.",
+    },
+
+    "bolge:manyas": {
+        h1: "Manyas'a Bandırma-Gönen Hattından Bölgesel Sevkiyat ile Platform Kiralama",
+        giris:
+            "Manyas'a hizmet, Bandırma parkımızdan bakıldığında bir güzergâh problemidir: ilçe Bandırma ile Gönen arasındaki hattın ortasında kalır ve buraya çıkan her sefer, aslında bu iki nokta arasında zaten işleyen bir hattın uzantısıdır. Bu konum, kiralama maliyetini ve makine bulunabilirliğini doğrudan etkiler — Manyas'a tek başına çıkan bir sefer ile Bandırma-Gönen hattı üzerindeki bir sefere eklenen bir durak arasında nakliye payı bakımından ciddi fark vardır. Bu sayfa ilçenin kendi tesis dokusundan değil, sevkiyat ve lojistik ekseninden bakar: makinenin Manyas'a nasıl ulaştığı, hangi güzergâh seçeneklerinin var olduğu, teslim ve geri alım zamanlamasının hat üzerindeki diğer duraklarla nasıl birleştiği. Ekipmanın ilçe içinde hangi tesiste ne iş yaptığından çok, oraya ulaşmanın en verimli yolunu ve bu verimliliğin fiyata nasıl yansıdığını konu alıyoruz.",
+        maddeler: [
+            {
+                baslik: "Bandırma-Gönen hattı üzerinde bir durak olarak Manyas",
+                metin:
+                    "Bandırma ile Gönen arasındaki karayolu bağlantısı, bölgedeki sevkiyat planlamamızın omurgasıdır; Manyas bu hattın üzerinde, iki noktaya da yakın bir konumda durur. Sefer planlaması yaparken önce hattın o gün hangi yönde ve hangi sıklıkla işlediğine bakarız — Bandırma'dan Gönen'e giden veya dönen bir sevkiyat varsa, Manyas'a bir uğrak eklemek güzergâhı neredeyse hiç uzatmaz. Bu yüzden Manyas talebini, mümkün olduğunca mevcut hat trafiğine bağlamayı öncelik olarak görürüz.",
+            },
+            {
+                baslik: "Tek başına sefer ile hatta eklenen durak arasındaki fark",
+                metin:
+                    "Manyas'a özel olarak çıkan bir sefer, aracın gidiş-dönüş mesafesinin tamamını tek işe yükler. Aynı gün Bandırma-Gönen hattında zaten planlı bir sevkiyat varsa, Manyas durağı bu seferin güzergâhına eklenir ve nakliye maliyeti iki işe bölünür. Bu fark, özellikle kısa süreli veya tek günlük kiralamalarda toplam maliyetin önemli bir kısmını oluşturur. Talebinizi aldığımızda önce hat üzerinde o güne veya yakın güne denk gelen başka bir sefer olup olmadığına bakarız; varsa teklifi bu birleştirilmiş sefer üzerinden çıkarırız.",
+            },
+            {
+                baslik: "Teslim ve geri alım zamanlamasının hatla senkronu",
+                metin:
+                    "Makinenin Manyas'a ne zaman varacağı ve ne zaman geri alınacağı, hattın o günkü diğer duraklarına göre şekillenir. Sabah Bandırma'dan çıkan bir sevkiyat Manyas'a öğleden önce ulaşır ve devam ederek Gönen'deki durağını tamamlar; dönüş seferi ise ters sırayla işler. Bu düzende Manyas'taki teslim saati dakik bir randevudan çok bir aralık olarak verilir — hattaki önceki durağın süresi teslim saatini birkaç saat kaydırabilir. Kesin bir saat gerektiren işlerde bunu baştan belirtmenizi isteriz, o durumda hattı bu kesinliğe göre yeniden kurarız.",
+            },
+            {
+                baslik: "Geri dönüş yükü ve boş sefer maliyeti",
+                metin:
+                    "Nakliye maliyetinin bir bölümü, aracın Manyas'tan boş dönmesinden kaynaklanır. Aynı gün ilçede veya hat üzerinde geri dönüşte alınacak başka bir makine ya da tamamlanan bir kiralamanın iadesi varsa, araç boş dönmez ve bu doğrudan fiyata yansır. Bu yüzden Manyas'taki bir teslimatı planlarken, o civardaki diğer aktif kiralamalarımızın iade tarihlerini de kontrol eder, mümkünse aynı sefere bağlarız. Müşteriden beklediğimiz tek şey, tarihte bir-iki günlük esneklik verebilmesidir; bu esneklik sefer birleştirmenin en büyük belirleyicisidir.",
+            },
+            {
+                baslik: "Acil talep ile planlı talebin güzergâh üzerindeki farkı",
+                metin:
+                    "Planlı bir Manyas talebi hat trafiğine kolayca yedirilirken, aynı gün içinde çıkan acil bir talep bu avantajı her zaman bulamaz. Acil durumda öncelik hızdır ve gerekirse özel sefer düzenlenir; bu, standart hat birleştirmesine göre daha yüksek bir nakliye payı taşır ama bunu talep anında açıkça söyleriz, sürpriz bir kalem çıkmaz. Planlı işlerde ise bir-iki günlük esneklik tanınması, talebin hat trafiğine yedirilme ihtimalini büyük ölçüde artırır ve bu fark doğrudan teklife yansır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manyas sevkiyatında güzergâh senaryoları",
+                paragraflar: [
+                    "Manyas'a ulaşımın farklı senaryoları ve her birinin maliyet-zamanlama etkisi aşağıdadır. Hangi senaryonun geçerli olacağı, talebin geldiği güne ve hat üzerindeki mevcut trafiğe bağlıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Güzergâh", "Nakliye payı", "Zamanlama"],
+                    satirlar: [
+                        ["Hatta eklenen durak", "Bandırma → Manyas → Gönen (veya tersi)", "Paylaşılan, düşük", "Aralık üzerinden verilir"],
+                        ["Tek başına sefer", "Bandırma → Manyas → Bandırma", "Tam, tek işe yüklü", "Kesin saat mümkün"],
+                        ["Geri dönüş yüklü sefer", "Manyas'tan başka iş iadesiyle birleşik", "Paylaşılan, düşük", "İade tarihine bağlı"],
+                        ["Acil/plan dışı talep", "Doğrudan özel sefer", "Yüksek, tek işe yüklü", "En hızlı, ek payla"],
+                        ["Çok noktalı toplu talep", "Manyas köyleri arası rota", "Noktalar arası paylaşılan", "Gün içi sıralı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tarih esnekliği neden fiyatı doğrudan değiştirir",
+                paragraflar: [
+                    "Bandırma-Gönen hattı her gün aynı yoğunlukta işlemez; bazı günler hatta birden fazla sevkiyat varken bazı günler hiç sefer düzenlenmez. Manyas talebinizin tarihi kesin ve tek bir güne kilitliyse, o gün hatta uygun bir sefer olmama ihtimaline karşı özel sefer düzenlenmesi gerekebilir. Buna karşılık bir-iki günlük esneklik tanındığında, talebi hattaki en yakın uygun sefere bağlama ihtimalimiz belirgin biçimde artar ve bu doğrudan daha düşük bir nakliye payı olarak teklife yansır.",
+                    "Bu mantık iade tarafında da işler. Manyas'taki bir kiralamanın bitiş tarihi esnekse, geri alım seferini o civardaki başka bir iş için gidecek araca bağlarız; kesin bir bitiş tarihi gerekiyorsa bunu baştan bilmemiz yeterlidir, sadece sefer tek başına planlanır ve maliyet buna göre hesaplanır. İki durumda da şeffaflık esastır — hangi sefer türünün uygulandığını ve neden o maliyetin çıktığını teklifte açıkça belirtiriz.",
+                ],
+            },
+            {
+                baslik: "Manyas içinde çok noktalı talep için rota mantığı",
+                paragraflar: [
+                    "İlçe merkezi dışındaki köy ve mahallelerde birden fazla işletmenin aynı dönemde talebi olduğunda, bunları Bandırma-Gönen ana hattından ayrı, kendi içinde bir rotaya bağlarız. Araç ana hattaki durağını bıraktıktan sonra ilçe içinde talepleri coğrafi sıraya göre dolaşır; her nokta kendi payına düşen kısa bir süre alır ve nakliye maliyeti noktalar arasında bölünür. Bu düzenin işlemesi için gereken tek şey, taleplerin aynı haftaya toplanabilmesidir — birbirinden aylarca uzak tarihli talepler aynı rotaya bağlanamaz.",
+                    "Rota kurulumunda önceliği, bize önce ulaşan ve tarih esnekliği tanıyan talep alır; rotanın ortasına sonradan eklenen bir durak, güzergâhı uzatmadığı sürece kabul edilir. Bu yüzden komşu bir işletmenin de ihtiyacı olduğunu bilmeniz hâlinde bunu bize iletmeniz, hem sizin hem onun maliyetini düşürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manyas'a tek başına bir kiralama için sefer düzenletirsek maliyet ne kadar farklı olur?",
+                cevap:
+                    "Fark somut ve öngörülebilir: tek başına düzenlenen bir sefer, aracın gidiş-dönüş mesafesinin tamamını tek işe yükler, bu yüzden nakliye payı bir hatta eklenen duraktan belirgin biçimde yüksek çıkar. Kesin rakamı önceden vermemiz güçtür çünkü bu, o günkü hat trafiğine göre değişir; ama talebinizi aldığımızda önce Bandırma-Gönen hattında yakın bir tarihte planlı başka bir sefer olup olmadığına bakarız. Varsa, teklifi doğrudan bu birleştirilmiş sefer üzerinden çıkarırız ve fark size yansır. Tarihte bir-iki günlük esneklik tanımanız, bu birleştirme ihtimalini büyük ölçüde artırır.",
+            },
+            {
+                soru: "Kesin bir teslim saati istiyoruz; hat birleştirmesi bunu engeller mi?",
+                cevap:
+                    "Engellemez, ama ikisi arasında bir denge kurmamız gerekir. Hatta eklenen bir durakta teslim saati genellikle bir aralık olarak verilir, çünkü önceki durağın süresi saati birkaç saat kaydırabilir. Kesin bir saat şartınız varsa bunu baştan belirtmenizi isteriz; bu durumda ya hattı bu kesinliğe göre yeniden kurarız ya da işi tek başına bir sefere ayırırız. İkinci seçenek nakliye payını artırır ama saat garantisi verir. Hangi seçeneğin sizin için doğru olduğuna, işin ne kadar zaman-kritik olduğuna bakarak birlikte karar veririz.",
+            },
+            {
+                soru: "Manyas'taki iş bitince makine hemen mi alınır, yoksa bir sonraki sefere mi bırakılır?",
+                cevap:
+                    "Bu, iade tarihinizdeki esnekliğe bağlıdır. Kesin bir bitiş tarihi varsa, o tarihte tek başına bir geri alım seferi düzenleriz. Tarihte bir-iki günlük esneklik varsa, geri alımı o civardaki başka bir iş için zaten gidecek araca bağlarız — bu durumda makine bitiş gününden hemen sonra değil, en yakın uygun sefere göre alınır, ama nakliye payınız düşer. İki seçeneği de teklif aşamasında açıkça sunarız; hangisini seçtiğiniz size kalır, biz sadece maliyet farkını önceden görünür kılarız.",
+            },
+            {
+                soru: "Aynı köyde birkaç işletmenin talebi var; hepsini tek sefere nasıl bağlarız?",
+                cevap:
+                    "Bize sadece komşuda da talep olduğunu bildirmeniz yeterli; koordinasyonu biz kurarız. Araç ana Bandırma-Gönen hattındaki durağını bıraktıktan sonra ilçe içinde talepleri coğrafi sıraya göre dolaşır, her noktada gerektiği kadar kalır ve nakliye maliyeti noktalar arasında paylaşılır. Bu düzenin tek şartı, taleplerin birbirine yakın bir tarihte toplanabilmesidir; aylarca ayrı tarihli talepler aynı rotaya bağlanamaz. Rotayı kurarken önceliği erken bildiren ve tarih esnekliği tanıyan talep alır.",
+            },
+            {
+                soru: "Acil bir arızamız var, hemen Manyas'a makine gelebilir mi?",
+                cevap:
+                    "Gelir, ama bu durumda öncelik hız olduğu için standart hat birleştirmesini bekleyemeyiz; gerekirse özel bir sefer düzenlenir ve bu, planlı taleplere göre daha yüksek bir nakliye payı taşır. Bunu talep anında açıkça söyleriz, işin sonunda sürpriz bir kalem çıkmaz. Aramadan önce üç bilgiyi hazırlamanız süreci hızlandırır: hedef yükseklik veya taşınacak yük, makinenin çalışacağı alanın durumu ve işin ne kadar süreceği. Bu bilgilerle telefonda doğru makineyi seçer, boşuna sefer yapmayız.",
+            },
+            {
+                soru: "Manyas'a Bandırma'dan mı yoksa Gönen'den mi makine geliyor, bunu biz mi belirliyoruz?",
+                cevap:
+                    "Hayır, bunu biz belirleriz ve karar tamamen o günkü hat trafiğine göre şekillenir. İki park noktasından hangisi Manyas'a daha yakın bir sefer planlıyorsa veya hangisinde uygun makine boştaysa oradan çıkarız; sizin için önemli olan tek şey makinenin doğru zamanda ve doğru durumda sahanıza ulaşmasıdır, hangi yönden geldiği maliyeti veya işin kalitesini değiştirmez. Nadiren, her iki noktadan da o gün için uygun sefer yoksa bunu size baştan söyler, en yakın uygun tarihi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Manyas'ın Bandırma ile Gönen arasındaki karayolu hattı üzerinde yer aldığı kamuya açık genel bilgidir; sefer birleştirme, güzergâh planlama ve maliyet paylaşımı uygulamaları firma pratiğidir.",
+    },
 };

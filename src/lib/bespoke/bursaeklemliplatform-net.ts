@@ -511,4 +511,301 @@ export const BURSAEKLEMLIPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kestel ve Bursa çevre ilçelerinin gelişen yapı stoku kamuya açık coğrafi bilgidir; esnek tarih planlaması ve kamu binası idari süreç yaklaşımı firma pratiğidir.",
     },
+
+    "bolge:gorukle": {
+        h1: "Görükle'de Kampüs Çevresi Rezidans ve Yurt Cephesi İçin Eklemli Platform Kiralama",
+        giris:
+            "Görükle, Uludağ Üniversitesi'nin ana kampüsünü barındırması nedeniyle Nilüfer'in geri kalanından farklı bir yapı stoku üretmiştir: kampüs çevresine sıkışan öğrenci rezidansları, özel yurt binaları ve bunların arasına serpilmiş kafeterya-kırtasiye karakterli küçük ticari yapılar. Bu yapıların cephesi, tipik bir konut kulesinden farklı bir geometri taşır — sık aralıklı balkon parapetleri, her katta tekrar eden klima dış ünite sıraları ve öğrenci yoğunluğunun ürettiği bina girişi tabela-yönlendirme yükü. Eklemli platformun buradaki rolü, bu sık tekrarlı ve dar aralıklı cephe elemanlarına, öğrenci trafiğini kesintiye uğratmadan erişmektir. Bu sayfa, Görükle'deki kampüs çevresi rezidans ve yurt cephelerinde eklemli platform kullanımını, balkon-parapet erişim geometrisini ve öğrenci dönem takvimine uyumu anlatır.",
+        maddeler: [
+            {
+                baslik: "Balkon parapetinin eklemli bom için oluşturduğu engel",
+                metin:
+                    "Öğrenci rezidanslarının çoğunda balkonlar art arda, dar aralıklarla sıralanır ve her balkonun önündeki parapet duvarı, bir düz bomun cepheye yaklaşmasını fiziksel olarak keser — bom parapetin önünde durur, arkasındaki cephe yüzeyine ya da balkon tavanına ulaşamaz. Eklemli bom bu noktada parapetin üzerinden veya yan tarafından dirsek hareketiyle içeri girer ve balkon tavanı, üst kat balkon altı gibi noktalara asıl teleskopik erişimin başaramadığı açılardan ulaşır. Bu, kampüs çevresindeki rezidans cephe işlerinin eklemli sınıfla planlanmasının temel gerekçesidir.",
+            },
+            {
+                baslik: "Tekrarlayan klima dış ünite sırasının iş akışına etkisi",
+                metin:
+                    "Yurt ve rezidans binalarında her kat aynı hizada klima dış ünitesi taşır ve bu ünite sırası, bom rotasının kat kat tekrar eden bir örüntüyle ilerlemesini gerektirir — makine bir kata gelir, aynı yatay hizadaki tüm üniteleri sırayla bitirir, sonra üst kata geçer. Bu tekrarlı akış, tek seferlik dağınık bir cephe işine göre daha öngörülebilir bir zaman planı çıkarır; kaç ünite varsa iş süresi buna orantılı hesaplanır ve keşif aşamasında ünite sayısı sayılarak netleştirilir.",
+            },
+            {
+                baslik: "Öğrenci trafiğine göre çalışma penceresi",
+                metin:
+                    "Kampüs çevresindeki binalarda gündüz saatleri öğrenci giriş-çıkışının en yoğun olduğu dilimdir; bina girişine yakın cephe işleri (giriş saçağı, tabela, zemin kat pencereleri) bu yoğunluğun düştüğü ders saatleri arasına veya akşam üstüne planlanır. Balkon ve üst kat işleri ise günün her saatinde yürütülebilir çünkü zemin seviyesindeki yaya akışını doğrudan kesmez; asıl dikkat, makinenin bina girişini geçici olarak kapatmayacak şekilde konuşlanmasıdır.",
+            },
+            {
+                baslik: "Dönem takvimine göre iş yoğunluğu ve boşluk",
+                metin:
+                    "Üniversite dönem takvimi, Görükle'deki cephe işlerinin zamanlamasını doğrudan etkiler — yaz tatili ve dönem arası boşluk dönemleri, öğrenci yoğunluğunun düştüğü ve bina yönetimlerinin bakım işlerini toplu şekilde planladığı dönemlerdir. Bu dönemlerde birden fazla rezidans veya yurt binası aynı haftaya iş sıkıştırabilir; erken rezervasyon, dönem arası darboğazında makineye erişimi garantiler. Ders dönemi içinde ise iş hacmi daha seyrek ama süreklidir.",
+            },
+            {
+                baslik: "Dar bina aralarında şase genişliği kısıtı",
+                metin:
+                    "Kampüs çevresindeki bazı yurt ve rezidans binaları, birbirine yakın parsellerde inşa edilmiştir ve bina aralarındaki geçiş yolu dar kalabilir — bu durumda kompakt şaseli eklemli model tercih edilir, çünkü geniş şaseli bir makine bina arasına giremeyebilir. Şase genişliği ve bina arası mesafe, keşif aşamasında ölçülür; ölçü kritikse fotoğraf veya video ile önceden teyit istenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Görükle'de rezidans-yurt cephe elemanlarına göre erişim planı",
+                paragraflar: [
+                    "Kampüs çevresi yapı stokunda cephe elemanı tipine göre erişim planı aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Cephe elemanı", "Engel", "Yöntem", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Balkon parapeti-tavanı", "Parapet duvarı engeli", "Eklemli, dirsekle içeri giriş", "Gün içi, esnek"],
+                        ["Klima dış ünite sırası", "Kat tekrarı", "Sıralı kat kat ilerleme", "Gün içi, planlı"],
+                        ["Bina girişi-tabela", "Öğrenci yoğunluğu", "Standart eklemli", "Ders arası, akşam"],
+                        ["Dar bina arası geçiş", "Şase genişliği kısıtı", "Kompakt şase", "Keşifle teyitli"],
+                        ["Dönem arası toplu bakım", "Çoklu bina talebi", "Erken rezervasyon", "Yaz-dönem arası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Parapet arkasına erişimin mühendislik mantığı",
+                paragraflar: [
+                    "Bir parapet duvarı, düz bir bom için aşılmaz bir bariyer gibi davranır çünkü bom yalnızca ileri-geri ve yukarı-aşağı hareket eder; parapetin gerisine geçmek için binaya çok yakın ve dik bir açı gerekir ki bu, çoğu teleskopik modelin geometrisi dışındadır. Eklemli bom ise dirsekten kırılarak parapetin üzerinden aşabilir veya yan taraftan dolanarak balkon boşluğuna girebilir — bu, kampüs çevresindeki hemen her rezidans balkonunda tekrar eden bir manevradır.",
+                    "Bu yüzden Görükle'deki balkon işlerinde makine sınıfı neredeyse hep eklemliye çıkar; düz bomla denenip yetersiz kalan bir iş, gün kaybı yaratır. Keşif fotoğrafı bu riski baştan kapatır.",
+                ],
+            },
+            {
+                baslik: "Yurt yönetimiyle giriş-çıkış koordinasyonu",
+                paragraflar: [
+                    "Özel yurt binalarında güvenlik ve giriş kontrolü genellikle daha sıkıdır; makinenin bina bahçesine veya avlusuna girişi, yurt yönetiminin önceden bilgilendirilmesini ve bazen öğrenci kayıt sisteminden ayrı bir ziyaretçi-araç izni almasını gerektirir. Bu koordinasyon iş günü öncesinde tamamlanır ki sahaya varan makine kapıda beklemesin.",
+                    "Devlet yurtlarında ise süreç genellikle idari bir yazışma gerektirir ve bu, özel yurtlara göre birkaç gün daha uzun sürebilir; bu farkı proje başında netleştiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Rezidansımızın balkonlarının önünde parapet duvarı var, düz bomlu makine balkon tavanına ulaşabilir mi?",
+                cevap:
+                    "Çoğu durumda ulaşamaz — parapet duvarı, düz bomun binaya gerekli açıyla yaklaşmasını engeller ve balkon tavanı gibi geride kalan yüzeyler bu geometride erişilemez kalır. Eklemli bom, dirsekten kırılarak parapetin üzerinden veya yan taraftan içeri girer ve bu manevra kampüs çevresindeki hemen her balkon işinde tekrarlanır. Balkon düzeninizin birkaç fotoğrafını paylaştığınızda doğru makine sınıfını netleştiririz.",
+            },
+            {
+                soru: "Binamızda her katta aynı hizada klima ünitesi var, kaç günde bitirilir?",
+                cevap:
+                    "Süre, ünite sayısına ve kat yüksekliğine göre değişir — makine bir kata gelip aynı hizadaki tüm üniteleri sırayla bitirdiği için iş, tek seferlik dağınık bir cepheye göre daha öngörülebilir ilerler. Kaç ünite ve kaç kat olduğunu bildirdiğinizde, keşif sonrası tahmini süreyi netleştiririz.",
+            },
+            {
+                soru: "Öğrencilerin en yoğun olduğu saatlerde bina girişimiz kapanır mı?",
+                cevap:
+                    "Kapanmaz şekilde planlarız — bina girişine yakın işler (saçak, tabela, zemin kat) ders saatleri arasına veya akşam üstüne kaydırılır, makine girişi geçici olarak bloke etmeyecek şekilde konuşlanır. Balkon ve üst kat işleri zemin trafiğini kesmediği için günün her saatinde sürebilir. Öğrenci giriş-çıkış yoğunluk saatlerinizi bildirdiğinizde buna göre plan çıkarırız.",
+            },
+            {
+                soru: "Yaz tatilinde toplu bakım yaptırmak istiyoruz, sıra bulabilir miyiz?",
+                cevap:
+                    "Dönem arası ve yaz tatili, bölgedeki birçok rezidans ve yurdun aynı anda bakım planladığı bir dönem olduğu için talep yoğunlaşır. Erken rezervasyon bu darboğazda yer garantiler; tarihinizi mümkün olduğunca önceden bildirmenizi öneririz. Ders dönemi içinde talep daha seyrek olduğu için o dönemlerde daha esnek tarih bulunabilir.",
+            },
+            {
+                soru: "İki yurt binası birbirine çok yakın, aradaki dar yoldan makine geçebilir mi?",
+                cevap:
+                    "Bina arası mesafeye ve makinenin şase genişliğine bağlıdır — bu yüzden dar aralıklarda kompakt şaseli eklemli modeli öneririz. Mesafe kritikse keşif aşamasında ölçü alırız veya sizden fotoğraf-video isteriz; bu teyit, sahaya gelen makinenin geçemediği bir durumla karşılaşmayı önler.",
+            },
+            {
+                soru: "Özel yurdumuzun güvenlik girişi sıkı, makinenin bahçeye girişi nasıl planlanıyor?",
+                cevap:
+                    "Yurt yönetiminizle iş öncesinde koordinasyon kurarız — makinenin giriş saati, plaka bilgisi ve bazı yurtlarda ayrı bir ziyaretçi-araç izni önceden bildirilir ki sahaya varan makine kapıda beklemesin. Devlet yurtlarında bu süreç idari yazışma gerektirebilir ve özel yurtlara göre birkaç gün daha uzun sürebilir; bu farkı proje başında sizinle netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Görükle'nin Uludağ Üniversitesi kampüsü çevresindeki yoğun rezidans-yurt yapı stoku kamuya açık coğrafi bilgidir; parapet erişim geometrisi genel mühendislik bilgisi, dönem takvimi koordinasyonu ve yurt giriş protokolü firma pratiğidir.",
+    },
+
+    "bolge:mudanya": {
+        h1: "Mudanya'da Sahil Sitesi Dar Sokak ve Cephe Girintisi İçin Eklemli Platform Kiralama",
+        giris:
+            "Mudanya'nın sahil hattı boyunca sıralanan siteler, kıyı kasabası dokusunun tipik özelliğini taşır: bina araları dar, sokaklar eğik ve dönemeçli, cepheler ise deniz manzarası kazanmak için düzensiz çıkıntı ve girintilerle tasarlanmıştır. Bu doku, eklemli platformun iki ayrı yeteneğini aynı işte birleştirmesini gerektirir — dar sokaktan geçebilen kompakt bir şase ve cephenin girintili yüzeyine dirsek hareketiyle giren bir bom. Bu sayfa, Mudanya'daki sahil sitelerinde dar sokak erişimi ve cephe girintisi işlerinde eklemli platform kullanımını anlatır; site içi tersane veya bakım-onarım işleriyle karıştırılmamalıdır, konu tamamen cephe erişimi ve dar sokak geçişidir.",
+        maddeler: [
+            {
+                baslik: "Dar sokak genişliğinin makine sınıfını belirlemesi",
+                metin:
+                    "Sahil hattındaki eski yerleşim dokusunda sokak genişliği çoğu zaman standart bir kamyonun bile zorlandığı ölçülerdedir; bu sokaklardan geçmesi gereken platform, geniş şaseli bir modelle değil, kompakt şaseli eklemli modelle planlanır. Sokak genişliği, iki yanındaki araç park düzeni ve varsa sokak ortasındaki direk-tabela gibi engeller, keşif aşamasında ölçülür ve makine bu ölçüye göre seçilir — ölçü alınmadan sahaya gönderilen bir makine, sokağa giremeyip geri dönebilir.",
+            },
+            {
+                baslik: "Deniz manzaralı cephenin girintili geometrisi",
+                metin:
+                    "Sahil sitelerindeki daireler manzara kazanmak için genellikle köşeli, kırık hatlı cepheler taşır — bir dairenin balkonu öne çıkarken bitişiğindeki girintiye çekilir. Bu düzensiz profil, düz bir bomun her noktaya aynı açıyla ulaşamayacağı anlamına gelir; eklemli bom, girintiye dirsekten kırılarak girer, çıkıntının altına ise yandan yaklaşır. Cephenin çıkıntı-girinti haritası, teklif öncesi fotoğrafla çıkarılır ve bu harita makine rotasının planını belirler.",
+            },
+            {
+                baslik: "Dar sokaktan cepheye geçiş sırası",
+                metin:
+                    "Bir sahil sitesi işinde makine önce dar sokaktan geçip site girişine ulaşır, sonra cephe önünde konuşlanıp eklemli bom manevrasına geçer — bu iki aşama farklı disiplin gerektirir: sokak geçişinde düşük hız ve yayaya öncelik, cephe önünde ise girinti-çıkıntı profiline göre dirsek hareketi. Aynı makine iki aşamayı da yapabildiği için ayrı ekipman gerekmez, ama rota planı bu geçişi baştan hesaba katar.",
+            },
+            {
+                baslik: "Yaz sezonunda site içi araç ve yaya yoğunluğu",
+                metin:
+                    "Mudanya'nın sahil siteleri yaz aylarında hem sakin hem misafir yoğunluğuyla dolar ve bu dönemde dar sokaklardaki araç trafiği önemli ölçüde artar. Yaz sezonunda planlanan cephe işleri, mümkünse sabah erken saatlere veya hafta içi sakin günlere kaydırılır; site yönetimiyle önceden kurulan bir haberleşme, makinenin sokağa girdiği saatte araç trafiğinin en az olmasını sağlar.",
+            },
+            {
+                baslik: "Site yönetimiyle park alanı ve konuşlanma noktası",
+                metin:
+                    "Dar sokaklı sitelerde makinenin cephe önünde konuşlanacağı nokta genellikle sınırlıdır ve bu nokta çoğu zaman sakinlerin kullandığı bir park alanıyla çakışır. Site yönetimiyle önceden kurulan koordinasyon, çalışma günü için bu alanın geçici olarak boşaltılmasını sağlar; bu bildirim, genellikle iş tarihinden birkaç gün önce site duyuru panosu veya toplu mesajla yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mudanya sahil sitelerinde erişim koşuluna göre planlama",
+                paragraflar: [
+                    "Sahil hattındaki farklı erişim koşullarına göre planlama yaklaşımı aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Koşul", "Zorluk", "Yöntem", "Planlama notu"],
+                    satirlar: [
+                        ["Dar eski sokak", "Şase genişliği kısıtı", "Kompakt şase", "Keşifte ölçüm"],
+                        ["Girintili-çıkıntılı cephe", "Düz bom erişemez", "Eklemli dirsek manevrası", "Fotoğraflı harita"],
+                        ["Yaz sezonu trafiği", "Araç-yaya yoğunluğu", "Erken saat, sakin gün", "Site duyurusu"],
+                        ["Sınırlı konuşlanma alanı", "Park alanı çakışması", "Geçici boşaltma", "Önceden bildirim"],
+                        ["Sokak-cephe ikili geçiş", "İki farklı disiplin", "Tek makine, aşamalı rota", "Rota planında baştan hesap"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar sokak ölçümünün teklif öncesi zorunluluğu",
+                paragraflar: [
+                    "Mudanya'nın sahil dokusunda sokak genişliği tahmine bırakılacak bir veri değildir; ölçü hatası, sahaya gönderilen makinenin sokağa giremeyip geri dönmesi gibi tam bir gün kaybına yol açabilir. Bu yüzden dar sokak şüphesi olan her işte, teklif öncesi ya yerinde ölçüm yapılır ya da müşteriden sokağın birkaç açıdan fotoğrafı ve varsa yaklaşık genişlik bilgisi istenir.",
+                    "Bu ön kontrol adımı, kısa sürse de atlanmaz — sahil sitelerindeki işlerin büyük kısmında dar sokak bir istisna değil kuraldır.",
+                ],
+            },
+            {
+                baslik: "Girintili cephede fotoğraflı rota planlaması",
+                paragraflar: [
+                    "Cephenin çıkıntı ve girinti profili, bir kez fotoğrafla çıkarıldıktan sonra makine operatörüne rota planı olarak verilir — hangi balkonun önce, hangi girintinin sonra çalışılacağı bu plana göre sıralanır. Rastgele bir sıralama yerine planlı rota, dar bir cephe önünde makinenin gereksiz ileri-geri manevra yapmasını azaltır ve iş süresini kısaltır.",
+                    "Bu planlama, özellikle birden fazla dairenin aynı günde çalışıldığı sitelerde zaman kazandırır; komşu balkonlar art arda bitirilir, makine cephe boyunca tek yönde ilerler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sitemizin girişindeki sokak çok dar, standart bir makine geçebilir mi?",
+                cevap:
+                    "Standart geniş şaseli bir makine çoğu zaman geçemez; bu yüzden dar sokak şüphesi olan her işte önce ölçüm yaparız — ya yerinde keşifle ya da sizden istediğimiz sokak fotoğraflarıyla. Ölçü dar çıkarsa kompakt şaseli eklemli model planlanır; bu model çoğu eski yerleşim sokağından güvenle geçer. Ölçüm yapılmadan makine göndermeyiz çünkü sokağa giremeyip geri dönmek tam bir gün kaybı demektir.",
+            },
+            {
+                soru: "Dairemizin balkonu manzara için öne çıkıntılı, komşu daire ise girintili; ikisi aynı ziyarette çalışılabilir mi?",
+                cevap:
+                    "Evet, bu tür karışık profil Mudanya sahil sitelerinde yaygındır ve fotoğraflı rota planlamasıyla çözülür — cephenin çıkıntı-girinti haritası çıkarılır, operatör hangi balkona hangi açıyla yaklaşacağını bu plana göre bilir. Çıkıntılı balkona bomun yan tarafından, girintili balkona ise dirsekten kırılarak yaklaşılır. İki daireyi aynı ziyarette art arda bitirmek, planlı rotayla mümkündür.",
+            },
+            {
+                soru: "Yaz aylarında site çok kalabalık oluyor, cephe işi bu dönemde yapılabilir mi?",
+                cevap:
+                    "Yapılabilir ama planlama değişir — yaz sezonunda dar sokaklardaki araç-yaya trafiği arttığı için çalışmayı sabah erken saatlere veya hafta içi sakin günlere kaydırmayı öneririz. Site yönetiminizle önceden kurduğumuz haberleşme, hem sakinlerin hem misafirlerin en az etkileneceği saati belirlememizi sağlar. Sezon dışı bir tarih tercih ederseniz planlama daha esnek olur.",
+            },
+            {
+                soru: "Makinenin duracağı yer sakinlerin park alanıyla çakışıyor, bu nasıl çözülüyor?",
+                cevap:
+                    "Site yönetiminizle önceden koordine ederiz — çalışma günü için ilgili park alanının geçici olarak boşaltılması, genellikle site duyuru panosu veya toplu mesajla birkaç gün önceden sakinlere bildirilir. Bu bildirim yapılmadan çalışmaya başlamayız çünkü habersiz bir park iptali sakinlerle sürtüşme yaratır.",
+            },
+            {
+                soru: "Makine önce sokaktan geçip sonra cephede çalışacak, bu iki aşama için ayrı ekipman mı gerekiyor?",
+                cevap:
+                    "Hayır, tek makine iki aşamayı da yapar — kompakt şaseli eklemli model önce dar sokaktan düşük hızla geçer, site girişine ulaştığında cephe önünde konuşlanıp dirsek manevrasına geçer. Rota planı bu iki aşamayı baştan hesaba katarak kurulur; ayrı bir makine değişimi veya ek nakliye gerekmez.",
+            },
+            {
+                soru: "Cephemizin fotoğrafını çekip size gönderirsek keşif ihtiyacı ortadan kalkar mı?",
+                cevap:
+                    "Çoğu zaman büyük ölçüde azalır — cephenin çıkıntı-girinti profilini ve sokağın yaklaşık genişliğini gösteren fotoğraflar, doğru makine sınıfını ve rota planını önceden netleştirmemizi sağlar. Ancak sokak ölçüsü kritik bir sınırdaysa (örneğin çok dar bir geçiş), yerinde kısa bir ölçüm yine de önerilir — bu, sahaya yanlış makine gönderme riskini tamamen ortadan kaldırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Mudanya sahil hattının dar sokaklı yerleşim dokusu kamuya açık coğrafi bilgidir; dar sokak ölçüm süreci ve fotoğraflı rota planlaması firma pratiğidir.",
+    },
+
+    "bolge:gemlik": {
+        h1: "Gemlik'te Çok Katlı Konut ve İş Merkezi Cephesi İçin Eklemli Platform Kiralama",
+        giris:
+            "Gemlik'in liman ve serbest bölge kimliğinin yanında, ilçe merkezinde büyüyen bir konut-ticaret dokusu vardır: sahil şeridine paralel yükselen orta-yüksek konut blokları, merkez caddedeki iş merkezleri ve bunların arasına sıkışan karma kullanımlı binalar. Bu yapı stokunun cephe ihtiyacı, liman tarafındaki depo-antrepo işlerinden tamamen ayrı bir dünyadır — burada konu sac çatı veya yük rampası değil, balkonlu konut cephesi ve iş merkezi giriş-vitrin düzenidir. Bu sayfa, Gemlik'in liman dışındaki bu ikinci yüzünü, çok katlı konut ve iş merkezi cephe işlerinde eklemli platform kullanımını anlatır.",
+        maddeler: [
+            {
+                baslik: "Sahile paralel konut bloklarında balkon sırası erişimi",
+                metin:
+                    "Gemlik merkezindeki orta-yüksek konut blokları, deniz manzarası için sahile paralel konumlanır ve her katta tekrar eden balkon sırası, eklemli bomun kat kat ilerleyen bir rotayla çalışmasını gerektirir. Balkon altı boya tamiri, korkuluk kontrolü veya cephe yalıtım noktasal onarımı gibi işlerde bom, alt kattan üst kata doğru sırayla ilerler ve her katta aynı manevra tekrarlanır — bu düzenli tekrar, iş süresinin kat sayısına göre öngörülebilir hesaplanmasını sağlar.",
+            },
+            {
+                baslik: "Merkez caddedeki iş merkezi vitrin ve giriş cephesi",
+                metin:
+                    "Gemlik merkez caddesindeki iş merkezleri ve ticari binalar, zemin kat vitrin camı ile üst kat ofis-işyeri pencerelerinin bir arada bulunduğu karma bir cephe taşır. Vitrin seviyesindeki işlerde (tabela, saçak, dış aydınlatma) makinenin kaldırımda konuşlanması gerekebilir ve bu, yaya trafiğinin yoğun olduğu öğle saatlerinde dikkatli planlama ister; üst kat pencere işleri ise zemin trafiğinden bağımsız olarak günün her saatinde sürdürülebilir.",
+            },
+            {
+                baslik: "Karma kullanımlı binalarda işletme sürekliliği",
+                metin:
+                    "Merkezdeki bazı binalarda zemin kat işyeri, üst katlar konut olarak kullanılır ve cephe işi bu iki farklı kullanıcı grubunu aynı anda ilgilendirir — işyeri müşteri girişini etkilenmeden sürdürmek isterken, üst kat sakinleri balkonlarına yakın çalışmadan haberdar olmak ister. Bu ikili beklenti, çalışma saatinin işyerinin sakin dilimine (öğle arası veya kapanışa yakın) yazılması ve üst kat sakinlerine önceden bilgi verilmesiyle birlikte yönetilir.",
+            },
+            {
+                baslik: "Konut yönetimiyle ortak alan ve cephe onayı",
+                metin:
+                    "Çok katlı konut bloklarında cephe işleri genellikle bina yönetimi veya kat malikleri kurulu onayından geçer, çünkü iş dış cephenin ortak malı sayılan kısmını ilgilendirir. Bu onay süreci, iş tarihinden önce netleştirilmesi gereken bir adımdır; onay tamamlanmadan sahaya makine gönderilmez. Yönetimle kurulan bu iletişim aynı zamanda hangi kat sakinlerine bilgi verileceğini de netleştirir.",
+            },
+            {
+                baslik: "Sahil rüzgârının konut cephesi işlerine etkisi",
+                metin:
+                    "Gemlik'in sahil şeridine yakın konut bloklarında, denizden esen rüzgâr özellikle üst katlarda cephe işlerini etkileyen bir değişkendir — bu, liman tarafındaki büyük ölçekli vinç işlerinden farklı olarak, daha küçük ölçekli ama yine de dikkat gerektiren bir etkidir. Üst kat balkon işlerinde sepet rüzgâr ölçümü takip edilir ve rüzgârlı günlerde üst kat manevraları ertelenip alt katlara veya sakin bir güne kaydırılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gemlik merkez konut-iş merkezi cephesinde iş tipine göre yaklaşım",
+                paragraflar: [
+                    "Merkezdeki farklı yapı tiplerinde iş tipine göre yaklaşım aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Tipik iş", "Onay süreci", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Sahil paralel konut bloğu", "Balkon-cephe onarımı", "Bina yönetimi onayı", "Kat kat, gün içi"],
+                        ["Merkez cadde iş merkezi", "Vitrin, tabela, saçak", "Genellikle gerekmez", "Sakin yaya saatleri"],
+                        ["Karma kullanımlı bina", "Cephe geneli", "İşyeri + yönetim bilgilendirme", "Öğle arası, kapanış"],
+                        ["Üst kat balkon işleri", "Korkuluk, yalıtım noktası", "Sakin bildirimi", "Rüzgâr takipli"],
+                        ["Kat malikleri kurulu kararlı iş", "Kapsamlı cephe yenileme", "Kurul onayı zorunlu", "Onay sonrası planlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Liman işinden farkı: ölçek ve onay mekanizması",
+                paragraflar: [
+                    "Gemlik'in liman ve serbest bölge tarafındaki cephe-çatı işleri büyük ölçekli tesislerde, tek bir işletme kararıyla ilerler; merkezdeki konut-iş merkezi cephesi ise çok daha küçük ölçekli ama çok paydaşlı bir yapıdadır — bir konut bloğunda onlarca kat maliki, bir iş merkezinde birden fazla kiracı bulunur. Bu fark, iş öncesi onay ve bilgilendirme sürecinin merkezde daha fazla adım gerektirmesi anlamına gelir; ama iş büyüklüğü genellikle liman tarafındaki projelere göre çok daha küçüktür ve tamamlanma süresi kısadır.",
+                    "Bu ayrım, teklif hazırlarken baştan netleştirilir: konut cephesi işi mi, yoksa iş merkezi vitrin işi mi olduğu, hem onay sürecini hem çalışma planını belirler.",
+                ],
+            },
+            {
+                baslik: "Kat malikleri kurulu onayının pratik adımları",
+                paragraflar: [
+                    "Ortak cephe kararı gerektiren işlerde süreç genellikle şöyle işler: bina yönetimi veya kurul, cephe işinin kapsamını ve tahmini tarihini bize iletir, biz teklif ve iş planını hazırlarız, onay kurulda alındıktan sonra kesin tarih netleşir. Bu süreç, acil olmayan işlerde birkaç haftaya yayılabilir; acil bir durumsa (düşme riski taşıyan gevşek eleman gibi) hızlandırılmış bir yerinde değerlendirme önerilir.",
+                    "Yönetimle doğrudan çalıştığımız binalarda bu süreç tekrar eden işlerde hızlanır çünkü onay mekanizması ve iletişim hattı zaten kurulu kalır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Konut bloğumuzun balkon korkuluklarını kontrol ettirmek istiyoruz, her kat için ayrı mı planlanıyor?",
+                cevap:
+                    "Hayır, tek ziyarette kat kat ilerlenir — makine alt kattan başlar, aynı manevrayı her katta tekrarlayarak üst kata doğru sırayla ilerler. Bu düzenli tekrar sayesinde iş süresi kat sayınıza göre önceden tahmin edilebilir. Kaç kat ve kaç balkon olduğunu bildirdiğinizde net bir süre çıkarırız.",
+            },
+            {
+                soru: "İş merkezimizin vitrin tabelası değişecek, kaldırımda makine durması yaya trafiğini engeller mi?",
+                cevap:
+                    "Doğru saat seçimiyle en aza indirilir — vitrin seviyesi işleri, yaya trafiğinin en yoğun olduğu öğle saatleri dışına, sabah erken veya akşamüstüne planlanır. Caddenizin yoğunluk saatlerini bildiğinizde en uygun pencereyi teklif aşamasında öneririz.",
+            },
+            {
+                soru: "Binamızda hem işyeri hem konut sakinleri var, ikisine de haber vermek bize mi düşüyor?",
+                cevap:
+                    "Genellikle hayır — bina yönetimiyle kurduğumuz iletişim, hem işyerine hem üst kat sakinlerine bilgilendirmeyi kapsar. Çalışma saati işyerinin sakin dilimine (öğle arası, kapanışa yakın) yazılır, üst kat sakinlerine ise balkonlarına yakın çalışılacağı önceden bildirilir. Yönetiminizle bu koordinasyonu kurmamızı isterseniz süreci baştan biz yürütürüz.",
+            },
+            {
+                soru: "Cephe işimiz için kat malikleri kurulundan onay almamız gerekiyor mu?",
+                cevap:
+                    "Ortak cepheyi ilgilendiren işlerde genellikle evet — bu, dış cephenin ortak mülkiyet kapsamında sayılmasından kaynaklanır. Kapsamı ve tahmini tarihi bize ilettiğinizde teklif ve iş planını hazırlarız, kurul onayı alındıktan sonra kesin tarihi netleştiririz. Acil bir durum varsa (düşme riski taşıyan gevşek eleman gibi) hızlandırılmış bir yerinde değerlendirme öneririz.",
+            },
+            {
+                soru: "Sahile yakın üst kat balkonumuzda çalışma yapılacak, deniz rüzgârı işi etkiler mi?",
+                cevap:
+                    "Etkileyebilir, bu yüzden üst kat işlerinde sepet rüzgâr ölçümünü sürekli takip ederiz. Rüzgârlı bir günde üst kat manevraları ertelenip alt katlara veya daha sakin bir güne kaydırılır; bunu size önceden bildiririz. Sahil yakınlığı, liman tarafındaki büyük ölçekli işlere göre daha küçük ama yine dikkat gerektiren bir etkendir.",
+            },
+            {
+                soru: "İş merkezimiz ile yakındaki konut bloğunda aynı hafta iki ayrı işimiz var, birlikte mi planlanır?",
+                cevap:
+                    "Evet, merkez içindeki kısa mesafeler sayesinde iki işi aynı haftaya, hatta bazen aynı güne toplamak mümkündür — bu, nakliye ve keşif sürecini paylaştırır. İki işin kapsamını ve tercih ettiğiniz tarihleri birlikte ilettiğinizde, onay süreçlerini (iş merkezi ve kat malikleri kurulu ayrı ayrı) hesaba katan ortak bir plan çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Gemlik merkezinin liman dışındaki sahil paralel konut ve merkez cadde iş merkezi dokusu kamuya açık coğrafi bilgidir; kat malikleri kurulu onay süreci ve karma kullanım koordinasyonu firma pratiğidir.",
+    },
 };

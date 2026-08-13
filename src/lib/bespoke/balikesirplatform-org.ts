@@ -632,4 +632,400 @@ export const BALIKESIRPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Balıkesir’in doğu sınırının Bursa’ya komşu olduğu, Karacabey ve Mustafakemalpaşa hattının tarım, hayvancılık ve tarımsal işleme ile anıldığı ve bölgede kültür mantarı üretiminin bilinen bir faaliyet olduğu kamuya açık genel bilgidir; mesafe planlaması, faz kurgusu ve saha kaydı uygulamaları firmamızın kendi pratiğidir.",
     },
+
+    "bolge:gonen-osb": {
+        h1: "Gönen Organize Sanayi Bölgesi’nde Deri ve Gıda Fabrikalarına Platform Kiralama",
+        giris:
+            "Gönen Organize Sanayi Bölgesi’nin iç yol ağında yürüdüğünüzde, art arda gelen parsellerden birbirine hiç benzemeyen iki koku gelir: bir yanda deri işleme tesislerinin karakteristik kimyasal-nem kokusu, diğer yanda gıda üretim parsellerinin buhar ve pişirme kokusu. Bu iki komşuluk, OSB’nin en özgün planlama meselesini yaratır — aynı gün içinde bir deri fabrikasından çıkıp yan parseldeki gıda tesisine giren bir erişim makinesi, iki dünya arasında görünmez bir sınırı da taşımış olur. Bizim için bu sınır tek bir kelimeyle özetlenir: hazırlık. Makinenin tekerleği, sepeti ve gövdesi bir parselden diğerine geçmeden önce belirli bir düzenden geçmelidir; aksi hâlde deri tesisinin kimyasal izi gıda üretim salonuna, ya da gıda tesisinin nem izi deri kurutma katına taşınabilir. Bu sayfa, Gönen OSB’de platform ve forklift kiralamayı ilçenin genel tanıtımından değil, doğrudan OSB’nin parsel düzeninden ve iki farklı sanayi tipinin komşuluğundan bakarak anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Aynı gün iki farklı parsel tipine giren makinenin hazırlığı",
+                metin:
+                    "OSB içinde bir günde birden fazla parsele girmek olağan bir programdır; ama parsel tipi değiştiğinde makinenin durumu da değişmelidir. Deri işleme parselinden çıkan bir makine gıda parseline girmeden önce üç noktadan geçer: tekerlek yüzeyi yıkanır, sepet ve gövdede görünür kimyasal kalıntı olup olmadığı kontrol edilir, hidrolik sızıntı ihtimaline karşı alt gövde gözden geçirilir. Bu, ekstra bir hizmet değil, iki parsel arası geçişin standart parçasıdır ve programlamayı yaparken bu geçiş süresini takvime baştan ekleriz — bir gıda tesisinin randevusunu deri tesisi işinin hemen ardına koymayız.",
+            },
+            {
+                baslik: "Deri tesisinde kurutma katı ve nemli proses hacimlerinde erişim",
+                metin:
+                    "Deri parsellerinde erişim hedefleri iki farklı iklime dağılır: bir yanda ıslak proses hattının üzerindeki askı sistemleri ve havalandırma kanalları, diğer yanda kurutma katının üst raflarına yakın tavan tesisatı. Islak bölümde makine kimyasal buhara maruz kalır ve iş sonrası kontrol aralığı bizim tarafımızda kısaltılır; kurutma katında ise sıcaklık yüksektir ve elektrikli aksamın bu ortamda çalışması ayrıca değerlendirilir. Her iki bölümde de zemin kaygandır, konumlanma öncesi tekerlek tutuşu ayrıca test edilir.",
+            },
+            {
+                baslik: "Gıda parselinde toz ve koku kontrollü çalışma izni",
+                metin:
+                    "OSB’nin gıda üretim parsellerinde çalışma, tesisin kendi hijyen ve koku kontrol prosedürüne tabidir. Un, yem veya baharat işleyen parsellerde havada asılı organik toz vardır; bu ortamda dizel makine baştan devre dışıdır ve elektrikli sınıfın filtre-soğutma kontrolü iş dönüşünde sıkılaştırılır. Koku hassasiyeti yüksek gıda parsellerinde ise makinenin bir önceki işten kalan koku taşımaması ayrıca önemlidir — bu yüzden deri parselinden gelen bir makine aynı gün gıda parseline değil, aradan geçen bir temizlik ve havalandırma süresinden sonra girer.",
+            },
+            {
+                baslik: "OSB ortak altyapısında çatı, cephe ve yükleme rampası işleri",
+                metin:
+                    "Parsel içi proses ekipmanının dışında, OSB’deki fabrikaların ortak ihtiyaçları da vardır: çatı sacı ve oluk bakımı, cephe tabelası ve aydınlatması, yükleme rampası üstü saçak ve kamera montajı. Bu işler parsel tipinden bağımsızdır ve genellikle dış cepheden yapıldığı için üretim alanına giriş gerektirmez — dolayısıyla hazırlık süresi de aranmaz. OSB’nin düzenli iki kapılı giriş kontrolü nedeniyle bu tür işlerde araç giriş kaydı önceden fabrika ile koordine edilir; makinenin plakası ve iş saati OSB güvenliğine bildirilir.",
+            },
+            {
+                baslik: "Kampanya döneminde parsel bazlı öncelik sıralaması",
+                metin:
+                    "Zeytin ve tahıl kampanyası dönemlerinde OSB’deki gıda parsellerinin bakım talebi keskin biçimde artar; aynı haftalarda deri parsellerinin talebi ise değişmez seyreder. Bu asimetri bize bir öncelik kuralı verir: kampanya haftalarında gıda parsellerine ayrılan makine sayısını artırır, deri parsellerinin planlı bakımını mümkünse bu haftaların dışına öneririz. Fabrikalar tarihini erken bildirdiğinde bu ayrım sorunsuz işler; geç bildirilen taleplerde ise kampanya haftasında öncelik gıda üretimini durdurmayan işlere verilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Parsel tipine göre hazırlık ve erişim özeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, Gönen OSB’deki iki ana parsel tipinde erişim ekipmanının hangi hazırlıktan geçtiğini ve hangi kısıtla çalıştığını gösterir. Sağdaki sütun, parseller arası geçişte neden zaman payı bıraktığımızı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Parsel tipi", "Erişim hedefi", "Makine hazırlığı", "Geçiş kısıtı"],
+                    satirlar: [
+                        ["Deri işleme (ıslak)", "Askı sistemi, kanal", "Kimyasal kalıntı kontrolü", "Gıda parseline direkt giriş yok"],
+                        ["Deri kurutma katı", "Üst raf, tavan tesisatı", "Isı-elektrik uyumu kontrolü", "Zemin kayma testi"],
+                        ["Gıda üretim (toz)", "Aspirasyon, kanal", "Tekerlek yıkama, filtre kontrolü", "Dizel makine yasağı"],
+                        ["Gıda üretim (koku hassas)", "Hat üstü, aydınlatma", "Havalandırma bekleme süresi", "Aynı gün deri sonrası giriş yok"],
+                        ["Ortak altyapı / cephe", "Çatı, tabela, rampa", "Standart", "Araç giriş kaydı"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki sanayi tipinin komşuluğunda çapraz bulaşmayı önlemek",
+                paragraflar: [
+                    "OSB’de çapraz bulaşma riski, iki parsel arasında fiziksel bir sınır olmamasından değil, aynı ekipmanın her iki tarafta da kullanılabilmesinden doğar. Bizim çözümümüz makineyi ayırmak değil — bu, küçük ölçekli bir OSB’de ekonomik olarak sürdürülemez — geçiş anını disipline etmektir. Her makinede bir geçiş kaydı tutulur: son hangi parselde çalıştığı, hangi kontrolden geçtiği ve bir sonraki parsele ne zaman girdiği. Bu kayıt hem bizim hem fabrikaların talep ettiği bir şeffaflıktır ve hijyen denetimlerinde fabrikaya ibraz edilebilir bir belgeye dönüşür.",
+                    "İkinci katman planlamadır. Aynı gün içinde deri ve gıda parseli arasında geçiş yapan bir programı mümkün olduğunca kurmamaya çalışırız; bunun yerine günün ilk yarısını bir sanayi tipine, ikinci yarısını diğerine ayırırız. Bu, tek bir makineyle daha az iş yapmak anlamına gelse de, hazırlık süresinin sık sık tekrarlanmasından çok daha verimlidir. Fabrikalar bize randevu talep ederken hangi parsel tipinde olduklarını söylediklerinde, programı bu mantıkla kurarız.",
+                ],
+            },
+            {
+                baslik: "OSB giriş-çıkış prosedürü ve iş süresine etkisi",
+                paragraflar: [
+                    "Gönen OSB’nin iki kapılı giriş-çıkış düzeni, sanayi bölgesine giren her aracın kayıt altına alınmasını gerektirir. Bu, erişim makinesi için ek bir bekleme anlamına gelir ve iş süresini hesaplarken bu bekleme payını baştan koyarız — kapıda beklenen on-onbeş dakika, günün ilk işinde gecikme olarak görünmesin diye programın en başına eklenir. Fabrika değişikliği olduğunda ise araç OSB içinde kalsa bile yeni parsele giriş için ayrı bir kayıt gerekebilir; bunu ilgili fabrikaların güvenlik birimleriyle önceden teyit ederiz.",
+                    "Uzun dönem kiralamalarda bu prosedür bir kez kurulduktan sonra tekrar sorun çıkarmaz — makinenin OSB’ye kayıtlı girişi ve operatörün yetki belgesi bir kez sisteme işlendiğinde, sonraki günlerde geçiş hızlanır. Kısa süreli tekil işlerde ise ilk giriş biraz daha uzun sürer; bunu müşteriye teklif aşamasında söyleriz ki iş süresi tahmini gerçekçi kalsın.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Deri fabrikasında çalışan makine bizim gıda tesisimize aynı gün gelebilir mi?",
+                cevap:
+                    "Tercih etmeyiz ve mümkünse önermeyiz. Deri işleme parselinden çıkan bir makinede kimyasal kalıntı ve nem izi bulunma ihtimali vardır; bunu tam olarak sıfırlamak sahada birkaç dakikalık bir işlem değildir. Bu yüzden programımızda deri ve gıda parsellerini aynı güne değil, farklı günlere veya en azından günün farklı yarılarına ayırmayı tercih ederiz. Gerçekten aynı gün gerekiyorsa makine önce deri parselinde çalışır, ardından tekerlek yıkama, gövde kontrolü ve havalandırma bekleme süresinden geçer, sonra gıda parseline girer — bu süreç toplam işi belirgin biçimde uzatır. Tarihinizi bize erken bildirirseniz bu geçişi hiç yaşamadan, gıda parseline özgülenmiş bir makineyle çalışırız; bu her zaman daha hızlı ve daha güvenli sonuç verir.",
+            },
+            {
+                soru: "OSB güvenlik kapısında araç kaydı ne kadar sürüyor, bunu iş süresine nasıl yansıtıyorsunuz?",
+                cevap:
+                    "İlk girişte on-onbeş dakika civarında bir kayıt süresi olağandır; plaka, sürücü kimliği ve girilecek parsel bilgisi kapıda not edilir. Bu süreyi işin toplam süresine dahil ederiz ve teklif verirken saklamayız — günün ilk işi için randevu saatini bu payı da içerecek şekilde belirleriz. Düzenli çalıştığımız fabrikalarda ise OSB güvenliğiyle önceden bir tanışıklık oluşur ve sonraki girişler hızlanır. Aynı gün içinde parsel değiştirmemiz gerekiyorsa yeni parsele girişte tekrar bir kayıt işlemi olabilir; bunu da programa dahil ederiz, sürpriz bir gecikme yaşatmayız.",
+            },
+            {
+                soru: "Gıda parselimizde toz yoğun bir bölüm var; hangi makine sınıfı uygun?",
+                cevap:
+                    "Kapalı ve toz yoğun gıda bölümlerinde tek seçenek elektrikli sınıftır; dizel makine bu bölümlere zaten kabul edilmez. Toz yoğunluğu yüksek alanlarda çalışma öncesi tesisin kendi izin prosedürü işletilir ve makinenin bu bölgede yapabileceği hareketler önceden sınırlanır. Bizim tarafımızda ek bir önlem daha vardır: bu ortamdan dönen makinenin filtre ve soğutma kanalı kontrolü standart aralığın altına çekilir, çünkü organik toz hareketli aksamda birikir ve erken müdahale edilmezse arızaya dönüşür. Bu kontrol maliyeti kiracıya yansıtılmaz, bizim bakım rutinimizin parçasıdır.",
+            },
+            {
+                soru: "Deri kurutma katına erişim için özel bir makine sınıfı mı gerekiyor?",
+                cevap:
+                    "Kurutma katının kendine has iki özelliği var: yüksek sıcaklık ve dar hacim. Sıcaklık, elektrikli aksamın performansını etkileyebileceği için bu katlarda çalışacak makineyi seçerken ortam sıcaklığını önceden sorarız; aşırı yüksek sıcaklıkta uzun süreli çalışma önerilmez ve iş kısa bloklara bölünür. Dar hacim tarafında ise kat içi koridorlar standart bir platformu çoğu zaman almaz; bu yüzden dar gövdeli, düşük katlanma yüksekliğine sahip elektrikli sınıfı öneririz. Kata makine çıkarılamayan durumlarda dışarıdan bomla kat açıklığına uzanmak ikinci bir seçenektir; hangisinin uygun olduğunu kat krokisi ve kapı ölçüleriyle sahaya çıkmadan belirleriz.",
+            },
+            {
+                soru: "Kampanya döneminde OSB’deki gıda parsellerine öncelik mi veriyorsunuz?",
+                cevap:
+                    "Talep asimetrisi gerçek olduğu için pratikte öyle oluyor. Zeytin ve tahıl kampanyası haftalarında gıda parsellerindeki bakım talebi keskin biçimde artarken deri parsellerinin talebi değişmez seyrediyor; biz de o haftalarda makine tahsisini gıda tarafına kaydırıyoruz. Bu, deri parsellerini ihmal ettiğimiz anlamına gelmez — planlı bakımlarını mümkünse kampanya haftalarının dışına önceriz ve bu takvimi yıl başında birlikte kurarız. Acil bir arıza deri parselinde çıkarsa bu öncelik kuralı devre dışı kalır, acil müdahale her zaman öncelikli işlem görür.",
+            },
+            {
+                soru: "OSB dışındaki merkez fabrikamızla aynı sözleşmeden mi, ayrı mı kiralamalıyız?",
+                cevap:
+                    "Tek sözleşme altında toplamanızı öneririz. Her parsel veya fabrika için ayrı bir saha kaydı tutarız — giriş prosedürü, zemin durumu, hijyen kuralları, daha önce kullanılan makine sınıfı — ve yeni bir talep geldiğinde hangi lokasyon olduğunu söylemeniz yeterli olur. OSB içi ile merkezdeki fabrika arasında makine transferi gerekiyorsa bunu biz organize ederiz; taşıma ve yükleme ayrı bir uzmanlık gerektirir ve kendi imkânlarınızla yapmanızı önermeyiz. Faturalandırmayı lokasyon bazında ayrıştırmak istiyorsanız bu da mümkündür, tek sözleşme bunu engellemez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Gönen’de organize sanayi bölgesi bulunduğu ve bölgede deri işleme ile gıda sanayinin komşu parsellerde faaliyet gösterdiği kamuya açık genel bilgidir; parsel arası geçiş hazırlığı, öncelik sıralaması ve giriş-çıkış planlaması firmamızın kendi saha uygulamasıdır.",
+    },
+
+    "bolge:edremit": {
+        h1: "Edremit Körfezi’nde Zeytinyağı İşleme Tesislerine Platform Kiralama",
+        giris:
+            "Edremit Körfezi’nin adı, Türkiye’de zeytinyağıyla neredeyse eş anlamlı hâle gelmiştir ve bu ün, sahil şeridi boyunca dizilmiş onlarca kırma ve sıkım tesisinde somutlaşır. Körfezin Edremit tarafında sanayi kolu tek bir üründe yoğunlaşır; bu, erişim ekipmanı açısından hem bir kolaylık hem bir zorluktur. Kolaylık, tesislerin büyük bölümünün benzer bir proses mimarisi paylaşmasıdır — kabul, yıkama, kırma, malaksasyon, ayırma, depolama sırası neredeyse her tesiste tekrar eder. Zorluk ise hasat kampanyasının getirdiği takvim baskısıdır: Kasım’dan başlayıp kışa uzanan birkaç aylık dönemde bütün tesisler aynı anda tam kapasite çalışır ve bu pencerede planlı bakım neredeyse imkânsız hâle gelir. Edremit OSB’nin varlığı bu tabloya bir katman daha ekler — sahil kesimindeki geleneksel yağhanelerin yanına, organize sanayi bölgesinde kurulan daha büyük ölçekli işleme ve dolum tesisleri eklenmiştir. Bu sayfa, Edremit’teki zeytinyağı işleme tesislerine platform kiralamayı hasat takvimi ve bakım penceresi üzerinden anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kırma-malaksasyon hattında proses ekipmanı bakımı",
+                metin:
+                    "Zeytin kabul ünitesinden başlayan hat; yıkama, kırıcı, malaksör ve dekantöre kadar art arda dizilir ve her ünitenin üzerinde motor, redüktör, elektrik bağlantısı ve aspirasyon hattı bulunur. Bu hatta erişim çoğunlukla yandan uzanmayı gerektirir çünkü ekipmanın üstüne doğrudan çıkılmaz; zemin ise yağ ve karasu kalıntısı nedeniyle sürekli kaygandır. Kompakt eklemli sınıf, hem hattı tıkamadan hem dar geçitlerden geçerek çalışabildiği için bu tesislerde en sık tercih ettiğimiz sınıftır.",
+            },
+            {
+                baslik: "Depolama tank çiftliğinde üst kapak erişimi",
+                metin:
+                    "Sıkım sonrası yağın dinlendirildiği paslanmaz tanklar, çoğunlukla sıra hâlinde ve birbirine yakın dizilir. Üst bölümdeki kapak, menfez ve seviye göstergesine erişim, tank çapı ile sıra aralığına bağlıdır — bu iki ölçüyü önceden almadan sepetin gerçekten araya girip giremeyeceğini söylemeyiz. Tanklar kapalı bir depoda ise tavan altı net boşluk da üçüncü bir kısıt olarak devreye girer; sepet üstüne çıkan kişinin tavana değmeden çalışabilmesi gerekir.",
+            },
+            {
+                baslik: "Dolum ve şişeleme hattının üzerinde çalışma",
+                metin:
+                    "Edremit OSB’deki büyük ölçekli tesislerde yağın şişelendiği ve etiketlendiği hat, dar ve hassas bir bölgedir. Buradaki erişim kalemleri küçük ama sıktır — aydınlatma, fotosel, kodlama ünitesi. Hat çalışırken üzerinde iş yapılmaz; kalemler hattın durduğu temizlik veya ürün değişim aralıklarına toplanır. Cam şişe kullanılan hatlarda sepette gevşek parça bulundurulmaz ve çalışma noktasının altı örtülür — düşen bir parçanın üretim hattına vereceği zarar, kaybedilen birkaç dakikadan çok daha pahalıdır.",
+            },
+            {
+                baslik: "Hasat kampanyası öncesi hazırlık penceresi",
+                metin:
+                    "Kampanya başlamadan önceki birkaç hafta, körfez boyunca tesislerin tamamının aynı anda bakıma yöneldiği yoğun bir dönemdir: kırma hattının genel kontrolü, tank temizliği, dekantör bakımı, aspirasyon sisteminin gözden geçirilmesi. Bu pencere kısa ve rekabetlidir; erken rezervasyon yapan tesis makineyi bulur, geç kalan tesis kampanya başladıktan sonra beklemeye başlar. Düzenli çalıştığımız tesislerin hazırlık tarihlerini yaz aylarında kayda geçirir, park tahsisimizi bu takvime göre kurarız.",
+            },
+            {
+                baslik: "Kampanya döneminde hattı durdurmayan bakım kalemleri",
+                metin:
+                    "Kampanya başladıktan sonra tesisin kapısı planlı bakıma büyük ölçüde kapanır, ama hattın üzerine gelmeyen işler durmaz: dış cephe aydınlatması, çatı ve saçak, sevkiyat rampası, depo tarafı. Bu kalemler üretim sürerken de yapılabilir; keşifte tesis planı üzerinde bu ayrımı üretim sorumlusuyla birlikte işaretleriz. Hattın tam üzerindeki bir arıza ise istisnadır ve kampanya döneminde de öncelikli müdahale görür — üretimi durduran bir sorunu ertelemek kimsenin işine yaramaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zeytinyağı tesisinde bölüme göre erişim planı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Edremit’teki bir zeytinyağı işleme tesisinde erişim taleplerinin geldiği başlıca bölümleri ve her birinde makine seçimini belirleyen unsuru gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis bölümü", "Tipik iş", "Uygun sınıf", "Belirleyici unsur"],
+                    satirlar: [
+                        ["Kırma-malaksasyon hattı", "Motor, redüktör, aspirasyon", "Kompakt eklemli", "Islak-yağlı zemin"],
+                        ["Depolama tank çiftliği", "Kapak, menfez, seviye", "Elektrikli makaslı", "Tank çapı, sıra aralığı"],
+                        ["Dolum-şişeleme hattı", "Fotosel, kodlama, aydınlatma", "Kompakt makaslı", "Hat durdurma aralığı"],
+                        ["Depo ve sevkiyat", "Raf, çatı altı, istif", "Forklift + makaslı", "Kampanya stok hacmi"],
+                        ["Dış cephe ve çatı", "Saçak, oluk, tabela", "Bomlu", "Kampanya dışı öncelik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kampanya öncesi ve kampanya sonrası bakım farkı",
+                paragraflar: [
+                    "Edremit’teki tesislerin bakım ihtiyacı, takvimin neresinde olduğunuza göre tamamen farklı bir işe dönüşür. Kampanya öncesi hazırlık, hattın tamamının durduğu ve önceden planlanabilen bir dönemdir; burada amaç eksiksiz bir kontrol listesini sınırlı bir pencerede bitirmektir. Kampanya sonrası bakım ise farklı bir mantıkla işler — kampanya boyunca aralıksız çalışan ekipmanın yıpranması netleşmiştir ve bakım listesi artık tahmini değil, gözlemlenmiş arıza emarelerine dayanır. Bu iki dönemi karıştırmamak, doğru işi doğru zamana koymanın ilk şartıdır.",
+                    "Pratikte gördüğümüz en sık hata, kampanya sonrası bakımın ertelenmesidir — tesis bir sonraki kampanyaya kadar sekiz-dokuz ay vakti olduğunu düşünüp bakımı geciktirir, sonra hazırlık penceresi geldiğinde iş listesi birikmiş hâlde karşımıza çıkar. Kampanya biter bitmez yapılan kısa bir değerlendirme ve küçük onarımlar, hazırlık dönemindeki yükü belirgin biçimde azaltır ve o kısa pencereyi daha rahat kullanılabilir hâle getirir.",
+                ],
+            },
+            {
+                baslik: "Körfez hattında sevkiyatı birleştirmek",
+                paragraflar: [
+                    "Edremit Körfezi’nin sahil şeridi boyunca yakın aralıklarla dizilmiş çok sayıda tesis, bize günlük rota kurma imkânı verir. Aynı gün içinde birden fazla tesise uğrayan bir sevkiyat, taşıma yükünü paylaştırır ve tek başına duran kısa bir işi bile ekonomik hâle getirir. Bunun için istediğimiz tek şey birkaç günlük tarih esnekliğidir; kesin bir güne kilitlenmiş talepler ayrı organize edilir ve maliyet buna göre hesaplanır.",
+                    "Kampanya döneminde bu rota mantığı özellikle değerli hâle gelir çünkü aynı haftalarda körfez genelinde talep yoğunlaşır. Erken bildirim yapan tesisler rotanın başına yerleşir; geç kalan talepler ise mevcut rotaların arasına sıkıştırılmaya çalışılır ama bu her zaman mümkün olmaz. Bu yüzden kampanya öncesi hazırlık tarihini yaz sonunda netleştirmenizi öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kampanya başladıktan sonra planlı bakım için makine ayırabilir misiniz?",
+                cevap:
+                    "Zorlaşır ama imkânsız değildir. Kampanya döneminde körfez genelinde talep aynı haftalara yığıldığı için makine bulunabilirliği belirgin biçimde daralır; bu dönemde kabul ettiğimiz işler ağırlıklı olarak hattı durdurmayan kalemlerdir — dış cephe, çatı, depo tarafı, sevkiyat rampası. Hattın üzerine gelen bir bakım kalemi için kampanya ortasında yer açmak, hem tesisin üretimini hem bizim programımızı zorlar. Gerçek önerimiz şudur: hattı ilgilendiren kalemleri kampanya öncesindeki hazırlık penceresine, mümkünse yazın erken bir tarihte rezerve edin. Kampanya başladıktan sonraki tek istisna acil arızadır; üretimi durduran bir sorun geldiğinde önceliği değiştirir, en yakın makineyi yönlendiririz.",
+            },
+            {
+                soru: "Tank çiftliğimiz sık dizili, sepet aradan geçebilir mi?",
+                cevap:
+                    "Bu, körfez boyunca en sık aldığımız geometri sorusudur. Cevap üç ölçüye bağlıdır: tank çapı, iki tank arasındaki net boşluk ve hedef noktanın yüksekliği. Sepetin genişliği boşluğa sığsa bile bomun o boşluğa girerken çizeceği yay ayrıca hesaplanmalıdır — başarısız denemelerin çoğu sepetin değil bomun sığmamasından kaynaklanır. Ölçüleri önceden alır, gerekiyorsa daha ince gövdeli bir sınıfa geçer veya hedefe sıranın üstünden aşırtarak ulaşmayı planlarız. Boşluk gerçekten yetersizse dürüst cevabımız şudur: bu nokta sabit iskele ile çalışılmalıdır, sığmayacak bir makineyi sahaya göndermek kimseye yaramaz.",
+            },
+            {
+                soru: "Dolum hattımızın tam üstünde bir iş var, üretim dururken ne kadar sürer?",
+                cevap:
+                    "Tek bir armatür veya sensör için harcanan asıl süre değişimin kendisi değil hazırlıktır — hattın boşaltılması, alt bölgenin örtülmesi, makinenin konumlanması ve iş sonrası kontrol, tek başına değişimin birkaç katı zaman alır. Bu yüzden önerimiz her zaman aynıdır: tek kalem için duruş kullanmayın, aynı bölgede biriken tüm yüksek kotlu işleri bir duruşa toplayın. Süre tahminini keşif sonrası net veririz ve tahminimizi tesisin duruş penceresine göre değil işin gerçeğine göre söyleriz; şişeleme hattının üzerinde yarım kalan bir montaj, kampanya döneminde kabul edilebilir bir risk değildir.",
+            },
+            {
+                soru: "Edremit OSB’deki büyük tesisle sahil kesimindeki küçük yağhane aynı makineyle mi hizmet alıyor?",
+                cevap:
+                    "Evet, ekipman sınıfı ölçeğe göre seçilir ama filo aynıdır. OSB’deki büyük ölçekli işleme ve dolum tesislerinde geniş sepetli makaslı ve daha büyük bomlu sınıflar tercih edilirken, sahil kesimindeki daha kompakt yağhanelerde dar gövdeli eklemli sınıf öne çıkar — belirleyici olan tesisin büyüklüğü değil koridor genişliği ve ekipman arası boşluktur. İkisi arasında sözleşme veya prosedür farkı yoktur; hijyen kuralları, iz bırakmama disiplini ve zemin kontrolü her ölçekte aynı biçimde uygulanır.",
+            },
+            {
+                soru: "Kampanya sonrası bakımı ne zaman yapmalıyız, hemen mi yoksa bir sonraki kampanyaya kadar bekleyebilir mi?",
+                cevap:
+                    "Hemen yapmanızı öneririz, en azından bir değerlendirme için. Kampanya boyunca kesintisiz çalışan ekipmanın yıpranması taze bir hafızada iken tespit edilir — operatörler hangi ünitenin ses yaptığını, hangi contanın sızdırdığını hâlâ hatırlar. Bu değerlendirmeyi kampanya bitiminin hemen ardından yapıp küçük onarımları o dönemde tamamlarsanız, bir sonraki hazırlık penceresi çok daha hafif bir iş listesiyle karşılanır. Bekletilen bakım, hazırlık penceresinin kısa süresine sığmayan bir yük biriktirir ve bu, kampanya başlangıcını riske atar.",
+            },
+            {
+                soru: "Körfez boyunca birden fazla tesisimiz var, tek seferde hepsine uğrayabilir misiniz?",
+                cevap:
+                    "Uğrayabiliriz ve bunu zaten teşvik ediyoruz. Sahil şeridi boyunca dizili tesisler arasındaki mesafe kısa olduğu için günlük bir rota kurup birden fazla lokasyona aynı sevkiyatla gidebiliyoruz; bu hem taşıma maliyetini paylaştırır hem de tek tek küçük işler için ayrı ayrı gelmek zorunda kalmayı ortadan kaldırır. Tek şart, tesislerinizin tarih konusunda birkaç günlük esneklik tanımasıdır — her biri farklı bir güne kilitlenirse rota kurulamaz. İşleri toplarken sizden istediğimiz bilgi her lokasyonda ne yapılacağı ve hedef yüksekliğidir; bu bilgiyle günün gerçekçi programını çıkarır, hangi tesislerin aynı güne sığacağını önceden söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Edremit Körfezi’nin zeytinyağı üretimiyle anılan bir sahil hattı olduğu, bölgede Edremit OSB’nin bulunduğu ve zeytin hasat kampanyasının Kasım’dan itibaren birkaç ay sürdüğü kamuya açık genel bilgidir; hazırlık penceresi planlaması ve rota kurgusu firmamızın kendi saha uygulamasıdır.",
+    },
+
+    "bolge:burhaniye": {
+        h1: "Burhaniye’de Zeytinyağı Tesisleri ve Turizm Yapılarına Platform Kiralama",
+        giris:
+            "Burhaniye, Edremit Körfezi’nin ortasında, iki farklı talebin aynı sahil şeridinde iç içe geçtiği bir ilçedir: bir yanda köklü zeytinyağı üretim geleneği, diğer yanda yaz aylarında yoğunlaşan tatil beldesi kimliği. Bu ikilik erişim ekipmanı talebine de yansır — kışın ve hasat döneminde tesislerden gelen çağrılar üretim ekipmanı bakımına yönelikken, yaz aylarında sahildeki otel ve tatil sitelerinden gelen çağrılar cephe, çatı ve peyzaj işlerine döner. Aynı ilçeye hizmet verirken iki tür talebin birbirinden tamamen farklı bir takvimde geldiğini bilmek, doğru makineyi doğru zamanda sahada tutmanın anahtarıdır. Bu sayfa, Burhaniye’deki gıda ve zeytinyağı işleme tesisleriyle turizm yapılarındaki karma talebi birlikte ele alıyor — ikisinin ortak noktası aynı ilçede olmaları, farklı noktası ise erişim ekipmanından beklediklerinin neredeyse zıt olmasıdır.",
+        maddeler: [
+            {
+                baslik: "Zeytinyağı işleme tesislerinde proses hattı bakımı",
+                metin:
+                    "İlçedeki yağhaneler, kırma-malaksasyon-ayırma sırasını izleyen klasik bir hat mimarisine sahiptir. Erişim talepleri en çok kırıcı ve dekantör çevresinde, tepe temizleme hatlarında ve tank çiftliğinin üst bağlantılarında doğar. Zemin yağ ve karasu nedeniyle kaygandır; konumlanma öncesi tekerlek tutuşu ayrıca değerlendirilir. Bu tesislerde hasat kampanyası dönemi bakım penceresini daraltır — bakım işleri mümkün olduğunca kampanya öncesine sıkıştırılır.",
+            },
+            {
+                baslik: "Sahildeki otel ve tatil sitelerinde yaz öncesi hazırlık",
+                metin:
+                    "Turizm tesislerinde erişim talebi büyük ölçüde bahar aylarında yoğunlaşır: cephe boyası öncesi hazırlık, dış aydınlatma, tente ve gölgelik montajı, palmiye ve ağaç budaması, havuz çevresi işleri. Bu işlerin ortak özelliği, sezon başlamadan tamamlanması gerektiğidir — misafir geldikten sonra cephede çalışan bir makine, otelin imajı açısından istenmeyen bir görüntüdür. Bu yüzden turizm tesisi taleplerini Nisan-Mayıs aylarına yoğunlaştırır, bu dönemde ilçedeki park kapasitesini turizm tarafına ağırlıklı ayırırız.",
+            },
+            {
+                baslik: "Sezon içinde otel ve sitede gürültüsüz çalışma",
+                metin:
+                    "Sezon başladıktan sonra da bazı işler ertelenemez — bir klima arızası, bir aydınlatma sorunu, bir çatı kaçağı. Bu durumlarda çalışma saatini misafirin en az rahatsız olacağı dilime, genellikle sabah erken veya öğle sıcağının boşalttığı saatlere yazarız. Elektrikli sınıf motor sesi üretmediği için sezon içi işlerde varsayılan tercihimizdir; dizel makine yalnızca sahanın kesinlikle gerektirdiği açık alan işlerinde ve misafirden uzak bir noktada kullanılır.",
+            },
+            {
+                baslik: "Gıda ve konaklama tesislerinde ortak hijyen-güvenlik çizgisi",
+                metin:
+                    "Zeytinyağı tesisi ile otel mutfağı arasında beklenmedik bir ortak nokta vardır: her ikisi de gıda ile temas eden alanlardır ve erişim ekipmanının bu alanlara girişi benzer bir disiplinle yönetilir. Otel mutfağının havalandırma bacası veya soğuk oda üstü bir bakım gerektirdiğinde, makine tıpkı bir üretim tesisinde olduğu gibi temizlenmiş girer, çalışma noktasının altı örtülür ve sepette gevşek parça bulundurulmaz. Bu, turizm tesisi için beklenmedik bir titizlik gibi görünse de, mutfak denetimlerinde otelin de işine yarayan bir uygulamadır.",
+            },
+            {
+                baslik: "İki talep türü arasında makine tahsisi çakışması",
+                metin:
+                    "İlçedeki en hassas planlama meselesi, hasat kampanyası ile turizm sezon hazırlığının bazı yıllarda takvimsel olarak örtüşmemesi ama ikisinin de kısa ve yoğun pencereler olmasıdır. Kampanya Kasım-Aralık’ta, sezon hazırlığı Nisan-Mayıs’ta yoğunlaşır; aralarında görece sakin bir kış-erken bahar dönemi vardır. Bu sakin dönemi, her iki taraftan gelen ertelenebilir talepleri toplamak için kullanırız — hem yağhaneler hem oteller, acil olmayan işlerini bu pencereye yazarsa makine bulunabilirliği en yüksek düzeyde olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki talep türünün yıl içindeki dağılımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Burhaniye’deki iki ana talep kaynağının yıl içinde hangi dönemde yoğunlaştığını ve o dönemde makine seçimini belirleyen unsuru gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Talep kaynağı", "Tipik iş", "Belirleyici unsur"],
+                    satirlar: [
+                        ["Kasım-Aralık", "Zeytinyağı tesisi (kampanya)", "Hat üstü acil bakım", "Üretim durma penceresi"],
+                        ["Ocak-Mart", "Her iki taraf (sakin dönem)", "Ertelenmiş planlı bakım", "Erken rezervasyon"],
+                        ["Nisan-Mayıs", "Turizm tesisi (sezon hazırlık)", "Cephe, aydınlatma, peyzaj", "Sezon açılış tarihi"],
+                        ["Haziran-Eylül", "Turizm tesisi (sezon içi)", "Acil müdahale", "Misafir rahatsız etmeme"],
+                        ["Ekim", "Zeytinyağı tesisi (hazırlık)", "Hat kontrolü, tank temizliği", "Kampanya başlangıcı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sakin dönemi iki taraf için de değerlendirmek",
+                paragraflar: [
+                    "Ocak-Mart arasındaki görece sakin dönem, Burhaniye’de hem zeytinyağı tesislerinin hem turizm işletmelerinin bakım ihtiyacını rahat bir takvimde karşılayabildiğimiz tek pencere. Bu dönemde park kapasitemiz her iki tarafa da açık olduğu için makine bulunabilirliği yılın geri kalanına göre belirgin biçimde yüksektir ve fiyatlandırma da buna göre daha esnektir. Düzenli çalıştığımız işletmelere önerimiz, ertelenebilir kalemlerini bu pencereye toplamalarıdır — hem yağhanenin tank bakımı hem otelin çatı kontrolü bu dönemde daha rahat sıraya girer.",
+                    "Bu dönemin ikinci faydası, ekip ve operatör tanışıklığıdır. Sakin dönemde bir tesise giden operatör sahayı öğrenir; sezon veya kampanya yoğunluğu geldiğinde aynı operatörü aynı sahaya göndermek, hazırlık süresini kısaltır. Bu yüzden sakin dönemdeki işleri mümkün olduğunca aynı ekiple yürütmeye özen gösteririz.",
+                ],
+            },
+            {
+                baslik: "Sahil şeridinde sevkiyat ve erişim kısıtları",
+                paragraflar: [
+                    "Burhaniye’nin sahil şeridi, yaz aylarında yoğun araç trafiğine sahne olur ve bu, büyük ekipmanların sahile inmesini zorlaştırabilir. Sezon içi turizm işlerinde bu yüzden makinenin en dar sokaktan geçebilecek en kompakt sınıfını tercih eder, mümkünse işi trafiğin düşük olduğu erken saatlere planlarız. Zeytinyağı tesisleri genellikle sahil hattının biraz gerisinde, ana yola daha yakın konumlandığı için bu kısıt onlar için daha az belirleyicidir.",
+                    "İki talep türü arasında sevkiyatı birleştirme fırsatı da vardır: aynı gün içinde hem bir yağhaneye hem bir otele uğrayan bir program, taşıma yükünü paylaştırır. Bu, özellikle sakin dönemde ve sezon geçiş aylarında (Ekim, Mart) işe yarar; yaz ortasında ise turizm talebinin baskınlığı böyle bir birleşimi çoğu zaman zorlaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimiz sezon açılışına yetiştirmek istiyor, ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Mart ayı ortasına kadar tarih vermenizi öneririz. Nisan-Mayıs dönemi, ilçedeki bütün turizm tesislerinin aynı anda sezon hazırlığına giriştiği bir pencere ve bu dönemde makine bulunabilirliği hızla daralır — erken bildiren tesis makineyi bulur, geç kalan sıraya girer. Sizden istediğimiz ilk bilgi işin kapsamıdır: cephe mi, çatı mı, peyzaj mı, yoksa üçü birden mi. Kapsam netleştikçe hangi sınıfın ne kadar süreyle gerekeceğini hesaplar, park tahsisimizi buna göre ayırırız. Sezon açılış tarihiniz kesinse bu tarihi bize söylemeniz, işin geriye doğru hangi haftada başlaması gerektiğini bizim hesaplamamızı sağlar.",
+            },
+            {
+                soru: "Sezon içinde misafir varken acil bir çatı arızası çıkarsa nasıl çalışıyorsunuz?",
+                cevap:
+                    "Önceliğimiz misafiri en az rahatsız edecek zamanlama ve ekipmandır. Mümkünse elektrikli sınıf kullanırız, çünkü motor sesi üretmez; çalışma saatini sabah erken veya öğle sıcağının havuz-plaj kullanımını azalttığı dilime yazarız. İş alanının çevresi, misafirlerin geçtiği güzergâhtan fiziksel olarak ayrılır ve makine oradan kalktığı anda alan normale döner. Gerçekten acil ve büyük kapsamlı bir işse — örneğin çatının geniş bir bölümü — bunu otel yönetimiyle birlikte en sakin güne, genellikle hafta içi bir güne planlarız. Amacımız işin görünmez biçimde bitmesidir; bunun mümkün olmadığı nadir durumlarda da en azından en kısa sürede bitmesidir.",
+            },
+            {
+                soru: "Yağhanemizin kampanya öncesi bakımı ile otelin sezon hazırlığı aynı aya denk geliyor, bu bizi etkiler mi?",
+                cevap:
+                    "Doğrudan etkilemez çünkü bu iki talep genellikle farklı aylarda yoğunlaşır — kampanya hazırlığı Ekim-Kasım, turizm hazırlığı Nisan-Mayıs. Ender olarak takvim kayması yaşandığında bile, ikisi farklı makine sınıfı ve farklı ekip gerektirdiği için park kapasitemizde ayrı ayrı karşılanabilir; asıl kısıt tek bir sınıfın her iki tarafta da aynı anda talep edilmesidir, bu da nadiren gerçekleşir. Yine de her iki tarafa da erken tarih vermenizi öneririz, çünkü ilçe genelinde talep yoğunluğu yükseldiğinde makine seçeneği daralır.",
+            },
+            {
+                soru: "Otel mutfağımızın soğuk odasında bir bakım var, gıda tesisi kuralları burada da mı geçerli?",
+                cevap:
+                    "Evet, aynı disiplinle çalışırız. Mutfak ve soğuk oda, tıpkı bir üretim tesisi gibi gıda ile temas eden bir alandır; makine girmeden temizlenir, çalışma noktasının altı örtülür, sepette gevşek parça bulundurulmaz ve iş sonrası alan kontrol edilir. Bunu talep etmenize gerek yoktur, gıda alanına giren her işimizde standart uygulamamızdır. Otel açısından bunun ek bir faydası vardır: bu titizlik, mutfak denetimlerinde sorulan bir konudur ve bizim uyguladığımız prosedür bu denetime hazır bir kayıt oluşturur.",
+            },
+            {
+                soru: "Kışın sakin dönemde işlerimizi toplarsak fiyat avantajı oluyor mu?",
+                cevap:
+                    "Genellikle evet. Ocak-Mart arası hem zeytinyağı tesislerinin hem turizm işletmelerinin talebinin düştüğü bir dönem olduğu için park kapasitemiz bu aylarda daha rahattır ve fiyatlandırmamız da buna yansır. Ayrıca bu dönemde birden fazla kalemi tek bir ziyarette toplamak — örneğin hem tank bakımı hem çatı kontrolü — nakliye kalemini paylaştırır. Bu yüzden acil olmayan işlerinizi bu pencereye yazmanızı öneriyoruz; hem daha uygun fiyat hem daha esnek tarih seçeneği bulursunuz.",
+            },
+            {
+                soru: "Sahildeki dar sokaklara büyük makine giremezse ne yapıyorsunuz?",
+                cevap:
+                    "Sahil şeridindeki bazı sokaklar yaz trafiğinde özellikle daralır; bu durumlarda en kompakt sınıfı seçer, mümkünse işi trafiğin düştüğü erken saatlere planlarız. Sokağın gerçekten dar olduğu durumlarda makineyi ana yola yakın uygun bir noktada indirir, kalan kısa mesafeyi kendi gücüyle ve önünde bir refakatçiyle yürütürüz. Bu ilerleyiş öncesinde güzergâhı — kaldırım kesitleri, alçak tabela, ağaç dalları — önceden gözden geçiririz. Sipariş anında sokağın ve giriş noktasının birkaç fotoğrafını paylaşmanız, sevkiyat gününde yaşanabilecek sürprizleri büyük ölçüde ortadan kaldırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Burhaniye’nin Edremit Körfezi’nde zeytinyağı üretimi ve yaz turizmiyle anılan bir ilçe olduğu ve bu iki faaliyetin ilçede aynı sahil şeridinde bulunduğu kamuya açık genel bilgidir; talep takvimi ayrıştırması ve sezon planlaması firmamızın kendi saha uygulamasıdır.",
+    },
+
+    "bolge:ayvalik": {
+        h1: "Ayvalık’ta Zeytinyağı Dolum Tesislerine Hijyenik Platform Kiralama",
+        giris:
+            "Ayvalık, zeytinyağının yalnızca üretildiği değil aynı zamanda kavanoza ve şişeye dönüştüğü, ambalajlandığı ve büyük ölçüde ihraç edildiği bir merkezdir. Bu, ilçedeki tesislerin ağırlık noktasını sahil şeridindeki diğer zeytinyağı bölgelerinden biraz farklı bir yöne kaydırır: kırma ve sıkım kadar dolum, etiketleme, kalite kontrol ve sevkiyat hazırlığı da öne çıkar. Dolum hattı, bir üretim tesisinin en hassas bölümüdür — buraya giren her ekipmanın hijyen durumu, ürünün nihai ambalajıyla doğrudan ilişkilendirilir ve bir hatanın bedeli, üretim aşamasındaki bir hataya göre çok daha görünürdür, çünkü sonuç doğrudan tüketicinin eline gider. Buna liman kasabası olmanın getirdiği bir ikinci gerçek eklenir: ihracat sezonunda sevkiyat hazırlığı yoğunlaşır ve depo-yükleme tarafında forklift talebi artar. Bu sayfa, Ayvalık’taki zeytinyağı dolum ve paketleme tesislerine platform ve forklift kiralamayı hijyenik erişim disiplini ve sezonluk yoğunluk üzerinden anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Dolum hattının üzerinde hijyenik erişim disiplini",
+                metin:
+                    "Şişe veya kavanoz dolum hattı, tesisin en dar ve en hassas bölgesidir: dolum başlıkları, kapak sıkma ünitesi, etiketleme makinesi ve kodlama sistemi art arda dizilir. Bu hatta giren makine önce temizlenir, tekerlek yüzeyleri kontrol edilir ve sepette gevşek malzeme bulundurulmaz — el aletleri bağlı, küçük parçalar kapalı kutuda taşınır. Çalışma noktasının altına serilen koruyucu örtü hem damlama hem sökülen bir parçanın doğrudan hatta düşmemesi içindir. Bu kalemler ayrı bir ücret satırı değil, dolum hattında çalışmanın standart bir parçasıdır.",
+            },
+            {
+                baslik: "Kalite kontrol ve laboratuvar alanlarında sınırlı erişim",
+                metin:
+                    "İhraç edilen ürünün kalite kontrol ve numune alma bölümleri, tesisin en kontrollü alanlarından biridir; bu bölümlerde erişim işleri çoğunlukla aydınlatma, havalandırma ve tavan tesisatı ile sınırlıdır ve çalışma öncesi laboratuvar sorumlusunun onayı istenir. Bu alanlarda dizel makine zaten sözkonusu değildir; kompakt elektrikli sınıf, dar koridorlardan geçebildiği için tercih sebebidir. İş bitiminde alan, laboratuvar tarafından ayrıca kontrol edilir — bu, bizim değil tesisin kendi kalite prosedürüdür ve buna uyarız.",
+            },
+            {
+                baslik: "Depolama ve etiketli ürün rafında forklift kullanımı",
+                metin:
+                    "Dolumu tamamlanmış ürünün paletlendiği ve raflara yerleştirildiği depo bölümü, ilçede forklift talebinin ana kaynağıdır. Kırılabilir cam ambalaj taşındığı için yük dengesi ve kaldırma hızı standart bir palete göre daha dikkatli yönetilir; hızlı kalkış ve ani fren, kırılma riskini doğrudan artırır. Operatörlerimiz cam ürün taşırken hızı bilinçli olarak düşürür. Koridor genişliği ve raf yüksekliği önceden bilinmesi gereken iki veridir; dar koridorlu depolarda dar gövdeli elektrikli forklift tercih edilir.",
+            },
+            {
+                baslik: "İhracat sezonunda sevkiyat yoğunluğu ve liman takvimi",
+                metin:
+                    "Ayvalık’ın liman kasabası kimliği, ihracat sezonunda depo-sevkiyat tarafına ayrı bir yük bindirir: konteyner yükleme, palet hazırlığı ve son kalite kontrolü kısa bir pencerede tamamlanmalıdır çünkü sevkiyat tarihleri liman ve nakliye programına bağlıdır. Bu dönemde forklift talebi keskin biçimde artar ve tesisler kısa süreli takviye ister. Sevkiyat tarihi kesinleştiği andan itibaren bize haber verilmesi, makinenin o güne ayrılması için yeterlidir; liman programının ertelenemez olduğunu biliyoruz ve bu işlere öncelik veririz.",
+            },
+            {
+                baslik: "Kırma-sıkım hattı ile dolum hattı arasında makine geçişi",
+                metin:
+                    "Ayvalık’taki birçok tesis hem kırma-sıkım hem dolum hattını aynı çatı altında barındırır. Bu iki bölüm farklı hijyen seviyesi ister — sıkım hattı yağlı ve ıslak bir ortamken dolum hattı kuru ve temiz bir ortamdır. Aynı gün iki bölüme de girecek bir makine varsa, sıkım hattından çıkıp dolum hattına girmeden önce tekerlek yıkama ve gövde kontrolünden geçer; bu geçiş süresini programa baştan ekleriz. Mümkünse iki bölümün işini ayrı günlere ayırmayı tercih ederiz, çünkü tekrarlanan geçiş hazırlığı toplam süreyi uzatır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dolum tesisinde bölüme göre hijyen ve erişim gereksinimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Ayvalık’ta bir zeytinyağı dolum ve paketleme tesisinde bölüme göre erişim gereksinimini ve hijyen seviyesini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis bölümü", "Hijyen seviyesi", "Uygun sınıf", "Belirleyici unsur"],
+                    satirlar: [
+                        ["Kırma-sıkım hattı", "Yağlı-ıslak", "Kompakt eklemli", "Zemin kayganlığı"],
+                        ["Dolum-şişeleme hattı", "Kuru-yüksek hijyen", "Kompakt makaslı (temizlenmiş)", "Hat durdurma aralığı"],
+                        ["Kalite kontrol / laboratuvar", "Kontrollü giriş", "Dar gövdeli elektrikli", "Sorumlu onayı"],
+                        ["Depo / palet rafı", "Standart", "Elektrikli forklift", "Cam ürün yük dengesi"],
+                        ["Yükleme rampası / konteyner", "Açık alan", "LPG/dizel forklift", "Liman sevkiyat takvimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Cam ambalajlı ürünün forkliftle taşınmasında dikkat noktaları",
+                paragraflar: [
+                    "Cam şişe veya kavanoz içindeki zeytinyağının taşınması, standart bir kuru yük paletinden farklı bir yaklaşım gerektirir. Kırılma riski, hızlı kalkış ve ani frenle doğrudan ilişkilidir; bu yüzden dolu palet taşırken hızı düşük tutar, dönüşlerde geniş yarıçap kullanır ve yükü mümkün olduğunca zeminden az yükseklikte taşırız. Devrilme riskinin yüksek olduğu dar koridorlarda ise hızı daha da azaltır, gerekirse ikinci bir kişiyi yönlendirici olarak kullanırız.",
+                    "İkinci konu istifleme yüksekliğidir. Cam ambalajlı paletler, dolu ağırlığa göre belirli bir istif yüksekliğinin üzerine çıkarılmamalıdır; bu sınırı aşan bir istif, alt paletlerdeki ürünleri risk altına sokar. Bu sınırı tesisin kendi ürün yöneticisiyle birlikte netleştirir, forklift operatörümüze bu bilgiyi teslim öncesi açıkça iletiriz. Depoda istif kurallarına uyulmadığını gördüğümüzde bunu tesise bildirmekten çekinmeyiz — kırılan bir palet, hem ürün hem itibar kaybıdır.",
+                ],
+            },
+            {
+                baslik: "İhracat sezonunda erken rezervasyonun değeri",
+                paragraflar: [
+                    "Liman kasabası olmanın getirdiği ihracat ritmi, Ayvalık’taki forklift talebini yılın belirli dönemlerinde keskin biçimde yükseltir. Bu dönemlerde talep hem miktar hem aciliyet açısından farklıdır — sevkiyat tarihi liman programına bağlı olduğu için ertelenemez, ve birden fazla tesis aynı haftalarda aynı kaynağa başvurur. Erken rezervasyon burada lüks değil zorunluluktur; sevkiyat tarihini bildiğiniz andan itibaren bize haber vermeniz, makinenin size ayrılması için yeterlidir.",
+                    "Bu yoğun dönemlerde makineyi tek seferlik değil, sevkiyat penceresinin tamamı için tahsis etmeyi öneririz. Konteyner yükleme genellikle birkaç gün süren bir süreçtir ve makineyi her gün yeniden çağırmak yerine sahada tutmak hem daha ekonomiktir hem de son anda çıkan ek yükleme ihtiyacına anında cevap verir. Sezon dışında ise bu ihtiyaç düşer ve tek seferlik kısa kiralamalar yeterli olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dolum hattımıza kesinlikle dizel makine giremez, alternatifiniz nedir?",
+                cevap:
+                    "Zaten önermeyiz. Dolum ve şişeleme hattı, tesisin en yüksek hijyen beklentisine sahip bölümüdür ve buraya elektrikli sınıf dışında bir makine göndermeyiz. İki seçenek konuşuruz: iş hattın içinden yapılacaksa kompakt akülü makaslı veya dar gövdeli akülü eklemli sınıf; iş hattın kenarına yakınsa makineyi dışarıda konumlandırıp açıklıktan bomla uzanmak. İkinci yöntem hatta hiçbir tekerlek girmediği için tesis açısından en temiz çözümdür. Makine hatta girmeden önce temizlenir ve tekerlek yüzeyleri kontrol edilir; bu standart bir adımdır, ayrıca talep etmenize gerek yoktur.",
+            },
+            {
+                soru: "Cam kavanoz taşırken kırılma riskini nasıl azaltıyorsunuz?",
+                cevap:
+                    "Üç şeyle: hız, yükseklik ve dönüş yarıçapı. Dolu bir cam ürün paleti taşırken hızı standart bir kuru yükten belirgin biçimde düşük tutarız; ani kalkış ve fren kırılmanın en sık sebebidir. Yükü mümkün olduğunca zeminden az yükseklikte taşırız, çünkü yük ne kadar yüksekteyse devrilme anındaki darbe o kadar büyük olur. Dönüşlerde geniş yarıçap kullanır, dar koridorlarda gerekirse ikinci bir kişiyi yönlendirici olarak görevlendiririz. İstif yüksekliği konusunda da tesisin kendi sınırına uyarız; bu sınırı aşan bir talep gelirse bunu açıkça söyleriz, çünkü kırılan bir palet hem ürün hem itibar kaybı demektir.",
+            },
+            {
+                soru: "İhracat sevkiyatımız yaklaştı, forklift talebini son anda karşılayabilir misiniz?",
+                cevap:
+                    "Deneriz ama garanti veremeyiz, çünkü ihracat sezonunda ilçe genelinde talep aynı haftalara yığılır ve makine seçenekleri hızla daralır. Sevkiyat tarihinizi öğrendiğiniz andan itibaren bize haber vermenizi öneririz; liman programının ertelenemez olduğunu bildiğimiz için bu tür talepleri öncelikli olarak değerlendiririz. Son anda gelen bir talepte elimizde uygun makine varsa hemen yönlendiririz; yoksa dürüst cevabımız, o gün için başka bir çözüm aramanız gerektiğidir. Sezon içinde tekrar eden bir ihracat takviminiz varsa, bunu bize önceden bildirip sezon boyunca bir tahsis ayırmamızı isteyebilirsiniz; bu, son dakika belirsizliğini büyük ölçüde ortadan kaldırır.",
+            },
+            {
+                soru: "Aynı tesiste hem sıkım hem dolum hattı var; makineyi ikisinde de kullanabilir miyiz?",
+                cevap:
+                    "Kullanabilirsiniz ama iki bölüm arasındaki hijyen farkı nedeniyle bir geçiş hazırlığı gerekir. Sıkım hattı yağlı ve ıslak bir ortamken dolum hattı kuru ve yüksek hijyenli bir ortamdır; sıkım hattından çıkan bir makine dolum hattına girmeden önce tekerlek yıkama ve gövde kontrolünden geçer. Bu geçiş birkaç dakika sürer ama günün programına baştan eklenmesi gerekir. Mümkünse iki bölümün işini aynı güne değil ayrı günlere ayırmayı öneririz; bu, tekrarlanan geçiş hazırlığından kaynaklanan zaman kaybını ortadan kaldırır ve genellikle daha hızlı sonuç verir.",
+            },
+            {
+                soru: "Laboratuvar ve kalite kontrol bölümünde çalışmak için özel bir izin gerekiyor mu?",
+                cevap:
+                    "Evet, bu bölümlerde çalışma öncesi laboratuvar sorumlusunun onayını isteriz — bu bizim değil, tesisin kendi kalite prosedürüdür ve buna uyarız. Pratikte bu, işin planlanan gün ve saatini laboratuvar sorumlusuna önceden bildirmek ve onların uygun gördüğü bir dilimde çalışmak anlamına gelir. Makine tarafında ise dar koridorlardan geçebilen kompakt elektrikli sınıf tercih ederiz; dizel makine bu bölümlere zaten kabul edilmez. İş bitiminde alan laboratuvar tarafından ayrıca kontrol edilir; biz bu kontrolü kolaylaştırmak için çalışma alanını iş bitiminde standart hâlinden daha temiz bırakmaya özen gösteririz.",
+            },
+            {
+                soru: "Sezon dışında forklift ihtiyacımız az ama düzenli; nasıl bir kiralama öneriyorsunuz?",
+                cevap:
+                    "Sezon dışında ihtiyacınız düşük ve düzenliyse, tek seferlik kısa kiralamalar sizin için hem daha esnek hem daha ekonomiktir — makineyi sürekli sahada tutmak yerine ihtiyaç doğdukça çağırırsınız. Bunun işlemesi için tesis kaydınızı bir kez oluştururuz: depo ölçüleri, koridor genişliği, raf yüksekliği ve ürün tipi kayıtlıdır; yeni bir talep geldiğinde tekrar anlatmanıza gerek kalmaz. İhracat sezonu yaklaştığında ise bu düzeni değiştirip sezon boyunca bir tahsis ayırmanızı öneririz, çünkü o dönemde talep yoğunluğu tek seferlik çağrıların güvenilirliğini düşürür. İki dönem arasındaki geçişi sizinle birlikte, sezon başlamadan birkaç hafta önce netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Ayvalık’ın zeytinyağı üretiminin yanı sıra dolum, ambalajlama ve ihracatıyla bilinen bir liman kasabası olduğu kamuya açık genel bilgidir; hijyenik geçiş prosedürü, cam ürün taşıma önlemleri ve sezonluk tahsis uygulamaları firmamızın kendi saha uygulamasıdır.",
+    },
 };

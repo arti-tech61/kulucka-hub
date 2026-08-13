@@ -617,4 +617,301 @@ export const MANLIFTKIRALA_ONLINE: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Kestel'in doğu sanayi koridorundaki karma tedarikçi dokusu kamuya açık coğrafi bilgidir; bağımlılık derecesine göre planlama modeli ve koridor yoğunluğu yaklaşımı firma pratiğidir. Tesis ve marka adı verilmemiştir.",
     },
+
+    "bolge:teknosab": {
+        h1: "TEKNOSAB'de Kuruluş Dönemi İşletmelerine Vardiya Öncesi Manlift Kiralama",
+        giris:
+            "TEKNOSAB'deki işletmelerin büyük bölümü henüz kuruluş veya genişleme aşamasındadır ve bu, bölgeyi diğer Bursa sanayi bölgelerinden farklı bir talep profiline sokar — burada ağırlıklı ihtiyaç rutin bakım değil, hat kurulumu, montaj ve devreye alma dönemi işleridir. Yeni kurulan bir teknoloji üretim tesisinde çatı, tesisat, aydınlatma ve yükseklik gerektiren montaj kalemleri, üretim henüz başlamadan önceki dar bir zaman diliminde tamamlanmak zorundadır ve bu dilim genellikle bir açılış veya devreye alma tarihine kilitlenmiştir. Aynı zamanda bazı işletmeler kuruluşu tamamlayıp ilk vardiyalarına geçmiştir ve bu işletmelerde artık montaj değil, vardiya öncesi kısa teslimat penceresi öne çıkar. Bu sayfa, TEKNOSAB'in iki farklı döneminde — kuruluş ve ilk üretim — yükseğe erişim işlerinin nasıl planlandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kuruluş dönemi: sabit bir açılış tarihine bağlı iş listesi",
+                metin:
+                    "Yeni kurulan bir tesiste yükseğe erişim gerektiren işlerin çoğu, birbirinden bağımsız küçük kalemler değil, tek bir açılış veya devreye alma tarihine bağlı bir listenin parçalarıdır — çatı tesisatı, aydınlatma armatürü montajı, cephe işaretleme, vinç rayı kontrolü gibi kalemler aynı takvime yazılır. Bu durumda tek bir kalemin gecikmesi, listenin geri kalanını değil doğrudan açılış tarihini riske atar. TEKNOSAB'deki kuruluş dönemi taleplerinde bu yüzden önce açılış tarihini, sonra o tarihe geriye doğru sığması gereken iş listesini birlikte kurarız — hangi kalemin ne zaman bitmiş olması gerektiğini net biçimde sıralarız.",
+            },
+            {
+                baslik: "Montaj ekipleriyle aynı sahada çalışmak",
+                metin:
+                    "Kuruluş aşamasındaki bir tesiste sahada aynı anda birden fazla montaj ekibi bulunur — elektrik, mekanik tesisat, çelik konstrüksiyon, iç donanım — ve platform işi bu kalabalık sahanın bir parçası olarak planlanmalıdır. Burada asıl mesele erişim değil sıralamadır: bir alanın tavan tesisatı bitmeden aydınlatma montajı yapılamaz, aydınlatma bitmeden bazı işaretleme kalemleri tamamlanamaz. TEKNOSAB'deki montaj dönemi işlerinde diğer ekiplerin genel iş programını bilmek, platformun sahada doğru sırada ve boş çalışan alanlarda konumlanmasını sağlar; aksi hâlde makine, henüz hazır olmayan bir alanda beklemek zorunda kalabilir.",
+            },
+            {
+                baslik: "İlk vardiyaya geçiş: montajdan işletmeye dönüş",
+                metin:
+                    "Kuruluşunu tamamlayıp üretime başlayan bir TEKNOSAB işletmesinde ihtiyaç profili birdenbire değişir — artık geniş kapsamlı montaj değil, kısa ve hedefli teslimat söz konusudur. İlk vardiya planı netleştiğinde, geriye kalan küçük tamamlama işlerinin (bir armatürün değiştirilmesi, bir işaretlemenin düzeltilmesi, bir denetim bulgusunun kapatılması) üretim başlamadan önce, yani vardiya öncesi dar bir pencerede bitmesi gerekir. Bu geçiş döneminde işin aciliyeti, kapsamının küçüklüğüyle ters orantılıdır — küçük görünen bir kalem, vardiya başlama saatine yetişmezse üretim takvimini geciktirebilir.",
+            },
+            {
+                baslik: "Yeni OSB'de altyapı ve erişim belirsizliği",
+                metin:
+                    "TEKNOSAB henüz yeni gelişen bir bölge olduğu için bazı parsellerde iç yol, saha zemini veya çevre düzenlemesi tam oturmamış olabilir — bu, makinenin sahaya girişini ve konumlanmasını doğrudan etkileyen bir değişkendir. Kuruluş dönemindeki bir işletmenin sahasına ilk kez gittiğimizde, zeminin taşıma kapasitesini, geçici yol durumunu ve makine giriş noktasını keşifte netleştiririz; bu, oturmuş bir sanayi bölgesindeki standart keşiften daha dikkatli bir adımdır çünkü saha koşulları haftadan haftaya değişebilir.",
+            },
+            {
+                baslik: "Kuruluş takviminde erken bilgi paylaşımının değeri",
+                metin:
+                    "TEKNOSAB'deki kuruluş dönemi işlerinde en büyük risk, iş listesinin son anda, dar bir pencereye sıkışmış biçimde ortaya çıkmasıdır — inşaat ve montaj süreçleri kendi içinde gecikebilir ve bu gecikme, platform işinin de son güne kaymasına yol açar. Açılış tarihini ve kaba bir iş listesini erken paylaşmak, bu riski büyük ölçüde azaltır; makine ve ekip programımızı o tarihe göre önceden ayırabiliriz. Son ana kalan bir talepte de elimizden geleni yaparız, ama planlı bir kuruluş süreci her zaman daha güvenli sonuçlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kuruluş döneminden ilk üretime iş profili",
+                paragraflar: [
+                    "TEKNOSAB'deki bir işletmenin kuruluştan ilk üretime geçişinde platform ihtiyacının niteliği değişir. Aşağıdaki tablo bu değişimi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Tipik iş", "Zaman baskısı", "Uygun yaklaşım"],
+                    satirlar: [
+                        ["İnşaat/montaj başlangıcı", "Çatı-cephe tesisatı, çelik konstrüksiyon desteği", "Orta, program bağlı", "Diğer ekiplerle sıralı planlama"],
+                        ["Montaj ortası", "Aydınlatma, işaretleme, vinç rayı", "Yüksek, açılışa bağlı", "Geriye doğru takvim"],
+                        ["Açılış öncesi son hafta", "Tamamlama, düzeltme", "Çok yüksek", "Öncelikli, hazır malzeme"],
+                        ["İlk vardiya geçişi", "Küçük tamamlama, bulgu kapama", "Yüksek, vardiya öncesi", "Vardiya başlamadan biten dar pencere"],
+                        ["Yerleşik üretim", "Rutin bakım", "Düşük-orta", "Standart planlama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Geriye doğru takvim kurmak",
+                paragraflar: [
+                    "Sabit bir açılış tarihine bağlı iş listesinde en güvenilir yöntem, takvimi ileriye doğru değil geriye doğru kurmaktır: açılış tarihinden başlayarak, her kalemin bitmiş olması gereken tarih geriye doğru işaretlenir ve platform işi de bu sıraya yerleştirilir. Bu yöntem, hangi kalemin gerçekten kritik yolda olduğunu, hangisinin birkaç gün esneyebileceğini netleştirir — TEKNOSAB'deki kuruluş dönemi taleplerinde bu ayrımı yapmak, dar pencereyi doğru kalemlere ayırmamızı sağlar.",
+                    "Geriye doğru takvim kurulurken malzeme temin süresi de hesaba katılır; bazı armatür veya işaretleme malzemeleri kısa sürede temin edilemeyebilir ve bu, platform işinin tarihini değil malzemenin tarihini geciktirebilir. Bu yüzden malzeme durumu netleşmeden platform tarihini kesinleştirmiyoruz.",
+                ],
+            },
+            {
+                baslik: "Yeni saha koşullarında keşfin ağırlığı",
+                paragraflar: [
+                    "Henüz oturmamış bir OSB'de saha koşulları hızlı değişebileceği için, TEKNOSAB'deki kuruluş dönemi taleplerinde keşif adımına oturmuş bölgelere göre daha fazla ağırlık veriyoruz. Zemin taşıma durumu, geçici yol genişliği ve makine giriş-çıkış noktası, işin planlanan günde sorunsuz başlaması için önceden doğrulanması gereken üç unsurdur.",
+                    "İşletmenin inşaat veya proje ekibinden güncel bir saha planı veya en azından güncel fotoğraf almak, bu doğrulamayı hızlandırır. Saha koşulları önceki ziyaretten bu yana değiştiyse, bunu bildirmeniz keşfin tekrarlanma ihtiyacını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimizin açılış tarihi kesin, geciken bir kalem olursa ne yaparsınız?",
+                cevap:
+                    "Açılış tarihine bağlı listelerde takvimi geriye doğru kurarız ve hangi kalemin kritik yolda olduğunu baştan işaretleriz; bir kalem gecikirse önceliği artırıp mümkün olan en kısa sürede tamamlamaya odaklanırız. Kritik olmayan kalemler, açılıştan sonraki ilk uygun güne kaydırılabilir. Gecikme riskini en aza indirmenin yolu, malzeme ve diğer montaj ekiplerinin programını önceden bilmektir — bu bilgiyi paylaştığınızda platform işini gerçek kritik yola göre konumlandırırız.",
+            },
+            {
+                soru: "Sahada aynı anda birden fazla montaj ekibi çalışıyor; çakışma yaşar mıyız?",
+                cevap:
+                    "Bunu önlemenin yolu, diğer ekiplerin genel iş programını bilmemizdir — hangi alanın tesisatının ne zaman biteceğini bilirsek, platform işini o alan boşaldığında planlarız. Program paylaşılmazsa sahada gözlemleyerek ilerleriz, bu da mümkündür ama zaman kaybettirebilir. Genel bir montaj takvimi veya en azından haftalık bir öncelik listesi almamız, sahada doğru sırada ve boş çalışan alanlarda hızlı ilerlememizi sağlar.",
+            },
+            {
+                soru: "İlk vardiyamız başlamadan önce küçük bir düzeltme kalmış; vardiya öncesi yetişir mi?",
+                cevap:
+                    "Genellikle evet, çünkü küçük tamamlama işleri kısa sürer ve vardiya öncesi dar pencereye sığdırılabilir — yeter ki iş net tarif edilmiş ve malzemesi hazır olsun. Vardiya başlama saatinizi ve tam kapsamı bize ilettiğinizde, o saatten önce biten bir plan kurarız. Kapsam netleşmemişse ya da malzeme eksikse pencereye sığmama riski artar; bu yüzden küçük görünen kalemleri de erken bildirmenizi öneriyoruz.",
+            },
+            {
+                soru: "Sahamızın iç yolu ve zemini henüz tam oturmadı; makine girebilir mi?",
+                cevap:
+                    "Bunu keşifte netleştiririz. Yeni gelişen bir OSB'de zemin taşıma kapasitesi ve geçici yol durumu haftadan haftaya değişebileceği için, TEKNOSAB'deki taleplerde keşfe standart bir ziyaretten daha fazla önem veriyoruz. Güncel bir saha fotoğrafı veya kısa bir açıklama, hangi makine sınıfının uygun olduğunu önceden belirlememizi sağlar. Zemin veya yol koşulu değiştiyse bunu iş tarihine yakın tekrar bildirmeniz, sahaya uygun makinenin gitmesini garanti eder.",
+            },
+            {
+                soru: "Açılış tarihimiz henüz kesinleşmedi; şimdiden bir şey konuşabilir miyiz?",
+                cevap:
+                    "Evet, kaba bir tarih aralığı ve kaba bir iş listesiyle bile önden konuşmak faydalıdır — bu, program ve ekip ayırma açısından bize zaman kazandırır. Tarih kesinleştiğinde geriye doğru takvimi birlikte netleştiririz. Son ana kalan taleplerde de elimizden geleni yaparız, ama erken paylaşılan bir kaba plan, dar pencereye sıkışma riskini büyük ölçüde azaltır.",
+            },
+            {
+                soru: "Kuruluş dönemi bitti, artık rutin üretimdeyiz; talep süreci değişir mi?",
+                cevap:
+                    "Evet, olumlu yönde değişir. Yerleşik üretime geçen bir TEKNOSAB işletmesinde artık geniş kapsamlı montaj takvimi değil, standart bakım planlaması geçerlidir — vardiya saatlerinizi ve varsa periyodik bakım ihtiyaçlarınızı bildirmeniz yeterlidir. Kuruluş dönemindeki saha koşulu belirsizliği de büyük ölçüde ortadan kalkar çünkü yollar ve zemin artık oturmuştur; bu, keşif ve planlama sürecini de hızlandırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. TEKNOSAB'in yeni kurulan teknoloji OSB'si olma niteliği kamuya açık bilgidir; kuruluş dönemi geriye doğru takvim yaklaşımı ve vardiya öncesi teslimat yöntemi firma pratiğidir. Tesis ve marka adı verilmemiş, rakam uydurulmamıştır.",
+    },
+
+    "bolge:karacabey": {
+        h1: "Karacabey'de Gıda ve Tarıma Dayalı Sanayiye Üretim Akışını Kesmeyen Manlift Kiralama",
+        giris:
+            "Karacabey'in sanayi dokusu, Bursa merkezindeki otomotiv ağırlıklı yapıdan belirgin biçimde farklıdır — burada üretim, tarım ve hayvancılığa dayalı gıda işleme, süt ve et ürünleri, yem ve tarımsal girdi üretimi etrafında şekillenir. Bu fark, bakım ve kurulum işlerinin planlanma mantığını da değiştirir: gıda üretimi yapan bir tesiste bakım kararı yalnızca üretim programına değil, hijyen kurallarına ve gıda güvenliği denetimlerine de bağlıdır. Bir platformun üretim alanına girmesi, otomotiv fabrikasındaki gibi yalnızca erişim ve güvenlik meselesi değil, aynı zamanda temizlik ve kontaminasyon riski meselesidir. Bu sayfa, Karacabey'deki gıda ve tarıma dayalı sanayi tesislerinde yükseğe erişim gerektiren işlerin, üretim akışını ve hijyen kurallarını bozmadan nasıl planlandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Hijyen kuralları: platform işinin gıda üretiminde farkı",
+                metin:
+                    "Gıda işleme yapılan bir alanda çalışacak herhangi bir ekipman, önce hijyen kriterlerinden geçmelidir — makinenin temizliği, yağ sızıntısı riski, üretim alanına girerken uygulanacak dezenfeksiyon adımları gibi konular otomotiv veya tekstil sahalarında bu kadar öne çıkmaz. Karacabey'deki gıda tesislerinde platform işine başlamadan önce sorduğumuz sorular bu yüzden farklıdır: iş üretim alanının içinde mi yoksa dışında mı, üretim alanındaysa hangi hijyen protokolü uygulanacak, iş bitince alan nasıl teslim edilecek. Bu protokolü tesisin kendi kalite biriminden almak, işin baştan doğru kurulmasını sağlar.",
+            },
+            {
+                baslik: "Üretim akışını kesmeden bakım: soğuk zincir ve sürekli hat baskısı",
+                metin:
+                    "Süt, et veya hazır gıda işleyen tesislerde üretim hattı genellikle soğuk zincire bağlıdır ve bu zincirin kesilmesi hem ürün kaybı hem gıda güvenliği riski demektir — bu da bakım işlerinin, üretim durmadan yapılması gereken bir zorunluluk olarak öne çıkmasına yol açar. Bölge boşaltma yöntemi burada da geçerlidir: çalışılacak nokta çevresi geçici olarak izole edilir, hat çalışmaya devam eder. Ancak gıda tesisinde bu izolasyon, otomotiv hattındaki gibi yalnızca fiziksel güvenlik değil aynı zamanda hijyenik ayrım da gerektirir — açık gıda ürünlerinin bulunduğu bir hat üzerinde çalışma, ek örtü ve koruma önlemi ister.",
+            },
+            {
+                baslik: "Tarımsal sezonun üretim yoğunluğuna etkisi",
+                metin:
+                    "Karacabey'deki tarıma dayalı sanayi tesislerinin üretim yoğunluğu, otomotiv tedarikçisininki gibi sabit bir program yerine tarımsal sezona bağlı dalgalanır — hasat dönemi, süt verim sezonu veya belirli ürünlerin işlenme dönemi, tesisin en yoğun çalıştığı zamanlardır. Bu dönemlerde bakım penceresi daralır, sezon dışı dönemlerde ise genişler. Karacabey'deki tesislerle bakım takvimini kurarken bu sezonluk döngüyü göz önünde bulundurur, büyük kapsamlı işleri mümkün olduğunca sezon dışına, küçük ve zorunlu işleri ise sezon içinde dar pencerelere yayarız.",
+            },
+            {
+                baslik: "Gıda güvenliği denetimi öncesi hazırlık",
+                metin:
+                    "Gıda işleyen tesislerde yapılan denetimler — resmi gıda güvenliği denetimleri veya müşteri kaynaklı kalite denetimleri — aydınlatma yeterliliği, temizlenebilir yüzey standardı ve erişim güvenliği gibi kalemleri de kapsayabilir ve bu kalemlerin bir kısmı yükseğe erişim gerektirir. Denetim tarihi bilindiğinde, bu kalemlerin denetimden yeterince önce tamamlanmış ve alanın denetime hazır hâlde teslim edilmiş olması gerekir. Karacabey'deki tesislerden gelen taleplerin bir kısmı bu denetim takvimine bağlıdır; denetim tarihini erken paylaşmanız, işin doğru pencereye yerleşmesini sağlar.",
+            },
+            {
+                baslik: "Depolama ve soğuk hava deposu yapılarında bakım özellikleri",
+                metin:
+                    "Karacabey'deki gıda tesislerinin bir kısmında soğuk hava deposu veya kapalı depolama yapıları bulunur ve bu yapılarda çalışmak, sıcaklık farkı ve yoğuşma gibi standart üretim alanlarında karşılaşılmayan koşullar getirir. Soğuk depo içinde uzun süreli çalışma, hem ekipman hem ekip için farklı bir hazırlık ister; bu tür alanlarda iş öncesi sıcaklık ve çalışma süresi planlaması, işin güvenli ve verimli ilerlemesi için önceden netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gıda tesisinde iş tipine göre hijyen ve pencere gereksinimi",
+                paragraflar: [
+                    "Karacabey'deki gıda ve tarıma dayalı sanayi tesislerinde iş tipine göre hijyen gereksinimi ve uygun pencere değişir. Aşağıdaki tablo bu ayrımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Hijyen gereksinimi", "Uygun pencere", "Not"],
+                    satirlar: [
+                        ["Açık üretim hattı üzeri", "Yüksek, örtü/izolasyon gerekir", "Üretim durağı veya bölge boşaltma", "Kalite birimi onayı gerekir"],
+                        ["Kapalı ambalajlama alanı", "Orta", "Vardiya arası", "Standart temizlik yeterli"],
+                        ["Soğuk hava deposu içi", "Orta, sıcaklık planlaması ekli", "Planlı, süre sınırlı", "Ekip rotasyonu gerekebilir"],
+                        ["Depo/idari bina dışı", "Düşük", "Gün içi, herhangi saat", "Üretim alanından bağımsız"],
+                        ["Denetim öncesi hazırlık", "Yüksek, görünürlük odaklı", "Denetimden önceki hafta", "Aydınlatma, işaretleme öncelik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hijyen protokolünü baştan netleştirmek",
+                paragraflar: [
+                    "Gıda üretimi yapılan bir alanda çalışacak platformun hangi hijyen adımlarından geçeceği, tesisten tesise farklılık gösterebilir — bazı tesislerde makinenin dezenfekte edilmiş tekerlekle girmesi yeterliyken, bazılarında ek örtü veya belirli saatlerde çalışma zorunluluğu olabilir. Bu protokolü işin başında, tesisin kalite veya üretim biriminden net biçimde almak, sahada gecikmeye yol açacak sürprizleri önler.",
+                    "Protokol netleşmeden sahaya gitmek, bazen işin o gün yapılamaması ve ertelenmesi anlamına gelebilir — bu yüzden Karacabey'deki gıda tesisi taleplerinde hijyen protokolünü keşif aşamasının zorunlu bir parçası olarak ele alıyoruz.",
+                ],
+            },
+            {
+                baslik: "Sezonluk yoğunlukta bakım takvimini kurmak",
+                paragraflar: [
+                    "Tarımsal sezona bağlı üretim yoğunluğu, Karacabey'deki tesislerin bakım takviminde otomotiv tedarikçisininkinden farklı bir ritim yaratır — burada döngü haftalık vardiya değil yıllık sezondur. Hasat veya yoğun işleme dönemi öncesinde büyük kapsamlı bakım işlerini tamamlamak, sezon içinde beklenmedik arıza riskini azaltır ve sezon ortasında bakım için zaman ayırma zorunluluğunu ortadan kaldırır.",
+                    "Sezon takviminizi yaklaşık olarak paylaşırsanız, büyük kapsamlı işleri sezon öncesine, küçük ve zorunlu işleri ise sezon içindeki dar pencerelere göre planlarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Platform üretim alanımıza girecek; hijyen açısından nelere dikkat edersiniz?",
+                cevap:
+                    "Öncelikle tesisin kendi hijyen protokolünü sizden veya kalite biriminizden alırız — bazı tesislerde dezenfekte edilmiş tekerlekle giriş yeterli, bazılarında ek örtü veya belirli saatlerde çalışma şartı olabilir. Bu bilgi netleşmeden üretim alanına giriş planlamıyoruz çünkü sürpriz bir kural, işin o gün yapılamamasına yol açabilir. Protokolü baştan netleştirmeniz, işin ilk seferde ve doğru hazırlıkla yapılmasını sağlar.",
+            },
+            {
+                soru: "Soğuk zincirimiz kesintisiz çalışıyor; bakım işini nasıl yaparsınız?",
+                cevap:
+                    "Bölge boşaltma yöntemiyle — çalışılacak nokta çevresi geçici olarak izole edilir, hattın geri kalanı soğuk zincire dokunulmadan çalışmaya devam eder. Gıda tesisinde bu izolasyon fiziksel güvenliğin yanı sıra hijyenik ayrımı da içerir; açık ürünlerin bulunduğu alanlarda ek örtü kullanılır. Hattın doğrudan üzerinde veya kritik noktada kesişen kalemler için gerçek durağa ihtiyaç olabilir; bu ayrımı keşifte netleştiririz.",
+            },
+            {
+                soru: "Hasat sezonunda çok yoğunuz; bakım için sezon dışını mı beklemeliyiz?",
+                cevap:
+                    "Büyük kapsamlı işler için evet, sezon dışı dönem daha uygundur — üretim yoğunluğu düştüğünde bakım penceresi genişler ve iş üretime dokunmadan tamamlanabilir. Ancak zorunlu ve küçük kapsamlı işleri sezon içinde de dar pencerelere sığdırabiliriz; bunun için pencerenin net ve kısa tutulması gerekir. Sezon takviminizi yaklaşık paylaşırsanız, hangi işin hangi döneme gideceğini birlikte planlarız.",
+            },
+            {
+                soru: "Gıda güvenliği denetimimiz yaklaşıyor; aydınlatma ve erişim kalemleri ne zaman bitmeli?",
+                cevap:
+                    "Denetimden en az bir hafta önce tamamlanmış ve alan denetime hazır teslim edilmiş olmalı — son güne bırakılan işler hem aceleye gelir hem de beklenmedik bir gecikmede denetim tarihini riske atar. Denetim tarihinizi ve öncelikli kalemlerinizi (aydınlatma standardı, işaretleme, erişim güvenliği) paylaşın; işi geriye doğru planlayıp denetimden önce bitirelim.",
+            },
+            {
+                soru: "Soğuk hava deposunda çalışacaksınız; ekip ve makine için ek bir hazırlık gerekir mi?",
+                cevap:
+                    "Evet, soğuk depo içi çalışma standart üretim alanından farklı bir hazırlık ister — düşük sıcaklıkta çalışma süresi sınırlı tutulur ve gerekirse ekip rotasyonu yapılır, ayrıca sıcaklık farkından kaynaklanan yoğuşma ekipman açısından değerlendirilir. Depo sıcaklığını ve çalışılacak sürenin yaklaşık uzunluğunu bize önceden bildirmeniz, işi güvenli ve verimli biçimde planlamamızı sağlar.",
+            },
+            {
+                soru: "Karacabey'de gıda dışında tarımsal girdi (yem, gübre vb.) üreten bir tesisiz; farklı bir yaklaşım mı gerekir?",
+                cevap:
+                    "Temel yaklaşım benzer ama hijyen gereksinimi genellikle daha düşüktür çünkü açık gıda ürünü teması söz konusu değildir — bu, bazı kalemlerde daha esnek bir pencere anlamına gelebilir. Buna karşılık toz, granül madde gibi malzemelerin bulunduğu alanlarda ekipman koruma önlemleri farklı bir başlık olarak öne çıkar. Tesisinizin üretim tipini ve sezonluk yoğunluk döngüsünü paylaşırsanız, buna uygun bir plan kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Karacabey'in tarım ve hayvancılığa dayalı gıda sanayi ağırlıklı yapısı kamuya açık coğrafi bilgidir; hijyen protokolü yaklaşımı, sezonluk bakım takvimi ve soğuk depo çalışma hazırlığı firma pratiğidir. Tesis ve marka adı verilmemiş, rakam uydurulmamıştır.",
+    },
+
+    "bolge:mustafakemalpasa": {
+        h1: "Mustafakemalpaşa OSB'de Planlı Sevkiyatla Manlift Kiralama",
+        giris:
+            "Mustafakemalpaşa, Bursa merkezine belirli bir mesafede konumlanan bir ilçe sanayi bölgesidir ve bu mesafe, buradaki işletmelerin platform kiralama talebini merkezdeki bir sanayi bölgesinden farklı biçimde ele almasını gerektirir. Merkeze yakın bir OSB'de aynı gün içinde birkaç kez sevkiyat yapmak mümkünken, Mustafakemalpaşa'da her sevkiyat daha planlı bir organizasyon ister — makinenin gidiş-dönüş süresi, aynı güzergâhtaki başka taleplerle birleştirme imkânı ve işin toplam süresine göre kurulan bir program devreye girer. Bu, ilçedeki işletmeler için dezavantaj değil, doğru anlaşıldığında bir verimlilik fırsatıdır: planlı sevkiyat, aynı bölgedeki birden fazla talebi aynı güzergâhta birleştirerek hem bekleme süresini hem birim maliyeti düşürür. Bu sayfa, Mustafakemalpaşa OSB'deki işletmelere, mesafe gerçeğini hesaba katan bir planlama yaklaşımını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Mesafenin sevkiyat programına etkisi",
+                metin:
+                    "Bursa merkezinden Mustafakemalpaşa'ya yapılan bir sevkiyat, merkez içi bir sanayi bölgesine göre daha uzun sürer ve bu süre, tek bir talep için tek bir sevkiyat yapıldığında toplam iş süresine önemli bir pay olarak eklenir. Bu gerçeği gizlemek yerine baştan açıkça konuşuyoruz: Mustafakemalpaşa'daki bir talep için en verimli sonuç, işin tarihinin birkaç gün esnek tutulup bölgeye yapılacak sevkiyatla eşleştirilmesinden gelir. Kesin bir gün şart olan işlerde de hizmet veririz, ancak o durumda sevkiyat süresi işin toplam maliyetine ve zamanlamasına yansır.",
+            },
+            {
+                baslik: "Güzergâh birleştirmesi: mesafeyi avantaja çevirmek",
+                metin:
+                    "Mustafakemalpaşa OSB'deki birden fazla işletmenin taleplerini aynı güzergâha yerleştirmek, mesafenin getirdiği maliyeti doğrudan düşüren bir yöntemdir — makine bölgeye bir kez gelir, birkaç işletmede sırayla çalışır ve dönüş de tek seferde olur. Bu yöntemin işlemesi için talebin tarih esnekliğine ihtiyaç vardır; kesin bir güne kilitlenmiş talepler bu birleştirmeden faydalanamaz. İlçedeki sanayi dokusunu takip ederek, bölgeye yapılan sevkiyatları mümkün olduğunca birleştirmeye çalışıyoruz ve esnek tarihli taleplere bu birleşik güzergâhı öncelikli sunuyoruz.",
+            },
+            {
+                baslik: "Planlı duruş ve bakım bloklarını mesafeyle uyumlu kurmak",
+                metin:
+                    "Mustafakemalpaşa'daki işletmelerin yıllık toplu izin dönemi veya planlı bakım blokları gibi önceden bilinen duruş dönemleri varsa, bu tarihleri erken paylaşmak mesafe dezavantajını neredeyse tamamen ortadan kaldırır — erken bilinen bir tarihe göre sevkiyat programı rahatlıkla kurulabilir ve gerekirse aynı döneme başka bölge taleplerini de ekleyebiliriz. Son anda gelen ve kesin tarihli bir talepte ise mesafe, programımızın o anki yoğunluğuna göre bekleme süresini artırabilir; bu yüzden ilçedeki işletmelere planlı dönemlerini mümkün olduğunca erken bildirmelerini öneriyoruz.",
+            },
+            {
+                baslik: "İlçe OSB'sinde tesis çeşitliliği ve iş kapsamı",
+                metin:
+                    "Mustafakemalpaşa OSB'de tek bir sektör ağırlıklı değil, karma bir sanayi yapısı bulunur ve bu çeşitlilik, taleplerin kapsamını da çeşitlendirir — kimi işletme kısa bir aydınlatma bakımı isterken kimi işletme çok kalemli bir kurulum desteği talep edebilir. Talebin kapsamı ne olursa olsun, mesafe faktörü sevkiyat planlamasında sabit bir değişken olarak kalır; bu yüzden kapsamı ne kadar erken ve net paylaşırsanız, sevkiyatı o kadar verimli kurabiliriz — özellikle çok kalemli işlerde, tek seferde tüm listeyi tamamlamak, ek bir sevkiyat gereksinimini ortadan kaldırır.",
+            },
+            {
+                baslik: "Acil talepte mesafenin dürüst yönetimi",
+                metin:
+                    "Mustafakemalpaşa'dan gelen acil bir talepte, en yakın uygun makineyi yönlendiririz ama mesafe gerçeğini saklamayız — merkeze yakın bir bölgeden gelen acil talebe göre ulaşım süresi doğal olarak daha uzun olabilir. Tutulamayacak bir 'hemen geliriz' sözü vermek yerine, gerçekçi bir varış saatini baştan söylemeyi tercih ediyoruz. Acil durumun ne olduğunu ve işin kapsamını ilk aramada net iletmeniz, doğru makinenin ilk seferde ve mümkün olan en kısa sürede yola çıkmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Talep tipine göre mesafe-lojistik yaklaşımı",
+                paragraflar: [
+                    "Mustafakemalpaşa OSB'deki taleplerde mesafe faktörünün nasıl yönetildiği, talebin tarih esnekliğine göre değişir. Aşağıdaki tablo bu ayrımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep tipi", "Tarih esnekliği", "Yaklaşım", "Beklenen etki"],
+                    satirlar: [
+                        ["Esnek tarihli, tek kalem", "Yüksek", "Güzergâh birleştirmesine eklenir", "Düşük birim maliyet"],
+                        ["Kesin tarihli, planlı", "Orta (erken bildirilmiş)", "Tekil sevkiyat, programa erken yazılır", "Standart maliyet"],
+                        ["Çok kalemli kurulum işi", "Değişken", "Tek sevkiyatta tüm liste", "Ek sevkiyat önlenir"],
+                        ["Planlı duruş bloğu", "Erken bilinen", "Bölgesel programla eşleştirme", "Mesafe dezavantajı azalır"],
+                        ["Acil, program dışı", "Yok", "En yakın uygun makine", "Gerçekçi varış süresi bildirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tarih esnekliğinin mesafeye etkisi",
+                paragraflar: [
+                    "Mustafakemalpaşa'daki bir talebin 'tarih esnek' olarak iletilmesi, mesafenin getirdiği maliyeti düşürmenin en doğrudan yoludur. Esnek talep, bölgeye yapılacak bir sonraki sevkiyatla eşleştirilir ve bu eşleştirme sayesinde tekil sevkiyatın tüm maliyeti tek bir işletmeye değil, güzergâhtaki birkaç talebe paylaştırılır.",
+                    "Esnekliğin pratikte ne anlama geldiği nettir: talebinizi belirli bir güne değil birkaç günlük bir aralığa yaymanız yeterlidir. Bu aralık içindeki ilk uygun güzergâh eşleşmesinde işiniz planlanır ve size önceden haber verilir.",
+                ],
+            },
+            {
+                baslik: "Çok kalemli işlerde tek sevkiyat planlaması",
+                paragraflar: [
+                    "Mustafakemalpaşa gibi mesafeli bir bölgede, birden fazla kalemi olan bir işin tek sevkiyatta tamamlanması özellikle önemlidir — ikinci bir sevkiyat gerektiren eksik bir kapsam, mesafe maliyetini iki katına çıkarır. Bu yüzden çok kalemli taleplerde keşif aşamasında listeyi olabildiğince eksiksiz çıkarmaya özen gösteriyoruz; sahada karşımıza çıkan ek bir ihtiyaç, mümkünse aynı ziyarette değerlendirilir.",
+                    "İşletmenizin bildiği ama henüz bize iletmediği ek kalemler varsa, keşif öncesinde paylaşmanız, tek sevkiyatla tüm listenin kapanma ihtimalini artırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bursa merkezinden uzak olduğumuz için fiyatımız daha mı yüksek olur?",
+                cevap:
+                    "Mesafe, sevkiyat süresine yansıyan bir maliyet unsurudur ve bunu saklamıyoruz. Ancak talebinizi tarih esnek olarak iletirseniz, bölgeye yapılacak bir sonraki sevkiyatla eşleştirilir ve bu paylaşım sayesinde birim maliyet belirgin biçimde düşer. Kesin tarihli tekil bir talepte mesafe maliyeti tek başınıza taşınır. Hangi seçeneğin sizin için daha uygun olduğunu, talebinizi ilettiğinizde birlikte değerlendirebiliriz.",
+            },
+            {
+                soru: "Tarihimiz kesin olmak zorunda değil; bunu nasıl bildirmeliyiz?",
+                cevap:
+                    "Talebinizi 'tarih esnek, şu aralıkta uygun' notuyla iletmeniz yeterli — biz bunu bölgeye yapılacak bir sonraki güzergâhla eşleştiririz ve eşleşme netleştiğinde size önceden haber veririz. Aralık ne kadar geniş tutulursa, uygun bir eşleşme bulma ihtimali o kadar artar ve birim maliyetiniz o kadar düşer.",
+            },
+            {
+                soru: "Yıllık bakım dönemimiz belli; bunu ne zaman bildirmeliyiz?",
+                cevap:
+                    "Ne kadar erken bildirirseniz o kadar iyi. Planlı duruş bloğunuzu erken paylaştığınızda, sevkiyat programımızı bu tarihe göre önceden kurabilir, hatta mümkünse aynı döneme düşen başka bölge taleplerini de eşleştirebiliriz — bu, mesafe dezavantajını neredeyse tamamen ortadan kaldırır. Son anda gelen bir talepte ise mesafe, programımızın o anki yoğunluğuna göre bekleme süresini artırabilir.",
+            },
+            {
+                soru: "Birden fazla kalemimiz var; hepsini tek seferde yaptırabilir miyiz?",
+                cevap:
+                    "Bu, mesafeli bir bölgede en verimli yaklaşımdır ve biz de bunu öneririz. Keşif aşamasında iş listesini olabildiğince eksiksiz çıkarmaya çalışırız; elinizdeki tüm kalemleri o aşamada paylaşırsanız, tek sevkiyatta tamamlama ihtimali artar. Sahada ek bir ihtiyaç ortaya çıkarsa, mümkünse aynı ziyarette değerlendiririz; mümkün değilse ikinci sevkiyat için ayrı bir tarih planlarız.",
+            },
+            {
+                soru: "Acil bir arızamız var; Mustafakemalpaşa'ya ne kadar sürede ulaşırsınız?",
+                cevap:
+                    "En yakın uygun makineyi yönlendiririz, ama dürüst cevap, merkeze yakın bir bölgeye göre ulaşım süresinin doğal olarak daha uzun olabileceğidir. Tutulamayacak bir 'hemen geliriz' sözü vermek yerine gerçekçi bir varış saati söyleriz. İşin kapsamını ve aciliyetini ilk aramada net iletmeniz, doğru makinenin ilk seferde ve en kısa sürede yola çıkmasını sağlar.",
+            },
+            {
+                soru: "Bölgemizdeki başka işletmelerle sevkiyatı paylaşmak mümkün mü?",
+                cevap:
+                    "Evet, bu tam olarak önerdiğimiz yöntem. Mustafakemalpaşa OSB'deki birden fazla işletmenin tarih esnek taleplerini aynı güzergâha yerleştirdiğimizde, makine bölgeye bir kez gelir ve birkaç işletmede sırayla çalışır; bu, hem bekleme süresini hem birim maliyeti düşürür. Talebinizi ilettiğinizde, bölgenizdeki benzer esnek taleplerle eşleştirme imkânını değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Mustafakemalpaşa'nın Bursa merkezine olan mesafesi ve ilçe OSB niteliği kamuya açık coğrafi bilgidir; güzergâh birleştirmesi, tarih esnekliği ve tek sevkiyat planlaması firma pratiğidir. Tesis ve marka adı verilmemiş, rakam uydurulmamıştır.",
+    },
 };
