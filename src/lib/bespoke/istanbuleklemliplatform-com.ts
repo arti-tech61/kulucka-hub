@@ -524,4 +524,301 @@ export const ISTANBULEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Ataşehir'in Türkiye'nin resmi finans merkezi projesinin geliştirildiği bölge, Kadıköy-Haydarpaşa hattının tarihî liman kimliğine sahip bir kıyı şeridi ve Tuzla'nın ayrı bir tersane/gemi inşa bölgesi olduğu kamuya açık coğrafi/kentsel bilgidir; erişim, izin ve saha koordinasyon pratikleri firma deneyimidir.",
     },
+
+    "bolge:sisli": {
+        h1: "Şişli'de Plaza Cephesi ve Yoğun Cadde Trafiğinde Eklemli Platform Kiralama",
+        giris:
+            "Şişli, Levent-Maslak hattındaki saf finans kulesi dokusundan farklı olarak, eski yapı stoğu ile yeni plazaların iç içe geçtiği, ana caddesi gün boyu kesintisiz araç ve yaya akışına sahip bir merkez ilçedir; Mecidiyeköy kavşağı çevresinden Bomonti'ye uzanan hat boyunca ofis-plaza binaları, mağaza cepheli ticari yapılar ve konut blokları aynı sokakta yan yana durur. Bu doku, kule bölgelerindeki 'mesai dışına kaydır' mantığını tek başına yeterli kılmaz — Şişli'nin ana caddeleri akşam saatlerinde de, hafta sonu da yoğun kalabilir, çünkü trafik yükü yalnızca ofis mesaisine değil alışveriş ve toplu taşıma kullanımına bağlıdır. Eklemli platform burada iki ayrı problemi aynı anda çözer: bir yandan plaza cephesindeki cam, tabela ve klima işine bomun esnek geometrisiyle ulaşmak, öte yandan makinenin kendisini bu kesintisiz trafiğin içinde güvenli ve yasal bir kurulum alanına yerleştirmek. İkinci problem, Şişli'de çoğu zaman birincisinden daha fazla planlama gerektirir çünkü kurulum alanı seçimi tek başına bina yönetiminin değil, o caddenin trafik düzenini belirleyen yerel otoritenin de konusudur. Bu sayfa, Şişli'nin yoğun cadde dokusunda eklemli platform kiralamanın kurulum alanı ve zamanlama boyutunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Kesintisiz cadde trafiğinde kurulum alanı seçimi",
+                metin:
+                    "Şişli'nin ana caddelerinde trafik akışı kule bölgelerindeki gibi belirli saatlerde seyrelmez; bu yüzden makinenin kurulacağı nokta seçilirken yol kenarındaki mevcut bir cep, otobüs durağı arkası boşluk veya bina önü geri çekme alanı gibi trafiği kesmeyen bir yer öncelikli aranır. Böyle bir alan yoksa, tek şerit geçici olarak daraltılır ve bu daraltma, caddenin trafik yoğunluğuna göre günün en sakin saatine (genellikle öğle arası öncesi veya geç akşam) denk getirilir. Kurulum alanı belirlenmeden makine sahaya çağrılmaz, çünkü Şişli'de uygun boşluk bulmak kule bölgesindeki dar şerit sorunundan farklı, dinamik bir trafik problemidir.",
+            },
+            {
+                baslik: "Eski yapı stoğu ile yeni plaza cephesi arasındaki malzeme farkı",
+                metin:
+                    "Şişli'nin caddeleri boyunca yeni plazaların cam-alüminyum cephesiyle, daha eski yapıların sıva, taş kaplama veya eski tip doğrama cephesi yan yana bulunur. Bu iki yüzey farklı hassasiyet ister — eski sıva cephede sepet teması küçük bir çatlağa bile yol açabilir, yeni cam cephede ise risk kırılma ve leke bırakmadır. Operatör hangi cephede çalıştığını bilerek yaklaşma hızını ve sepet mesafesini ayarlar; aynı sokakta art arda iki farklı binada çalışılıyorsa, iki cephe için de ayrı bir yaklaşım planı keşifte not edilir.",
+            },
+            {
+                baslik: "Toplu taşıma hattına yakın çalışma koordinasyonu",
+                metin:
+                    "Şişli'nin büyük bölümü metro, metrobüs ve yoğun otobüs hattı güzergâhlarına yakındır; kurulum alanı bu hatlara denk geliyorsa makine ilgili toplu taşıma işletmesine veya trafik biriminin belirlediği kurala tabi olabilir. Durak önü veya toplu taşıma şeridine yakın bir kurulum söz konusuysa, iş öncesi bu güzergâhı yöneten birimin bilgilendirilmesi ve gerekiyorsa yönlendirme levhası konması standart adımdır; toplu taşıma aracının güzergâhını fiilen kapatan bir kurulum hiçbir koşulda yapılmaz.",
+            },
+            {
+                baslik: "Alışveriş ve gündüz yaya yoğunluğunun zamanlamaya etkisi",
+                metin:
+                    "Şişli caddelerinin çoğu gündüz boyunca mağaza, restoran ve ofis çıkışlarının karışık yaya trafiğine sahne olur; bu yoğunluk kule bölgesindeki gibi belirli bir giriş saatinde zirve yapmaz, gün boyu göreli yüksek kalır. Zemin kattaki mağaza cephesi veya tabela işlerinde bu yüzden akşam kapanış sonrası saatler tercih edilir, ama üst kat cephe işleri gündüz de yürütülebilir çünkü sepet zemin seviyesindeki yaya akışının üzerinde kalır. Hangi iş için hangi saatin uygun olduğu, binanın zemin kat kullanımına göre keşifte ayrı ayrı belirlenir.",
+            },
+            {
+                baslik: "Geçici trafik düzenlemesi ve izin süreci",
+                metin:
+                    "Kule bölgesinde işin izin süreci büyük ölçüde bina yönetiminden geçerken, Şişli'de kaldırım veya şerit kullanan bir kurulum genellikle ayrıca ilçe trafik biriminden geçici işgaliye veya trafik düzenleme izni gerektirir. Bu iki onay birbirinden bağımsızdır ve ikisi de ayrı ayrı alınmalıdır — bina yönetiminin izni olması, caddeye taşan bir kurulumu otomatik olarak yasal kılmaz. Bu ayrım keşif aşamasında netleştirilmezse, makine sahaya gelse dahi kurulum alanı yasal olmadığı için iş başlayamayabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Şişli'de kurulum alanı tipine göre trafik etkisi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Şişli'de sık karşılaşılan kurulum alanı tiplerini ve bunların trafiğe etkisini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kurulum alanı", "Trafik etkisi", "Gerekli izin", "Uygun zaman"],
+                    satirlar: [
+                        ["Bina önü geri çekme alanı", "Yok/minimal", "Bina yönetimi", "Gündüz mümkün"],
+                        ["Tek şerit daraltma", "Orta, akışı yavaşlatır", "Trafik birimi + bina yönetimi", "Öğle öncesi / geç akşam"],
+                        ["Otobüs durağı yakını", "Yüksek, hat koordinasyonu gerekir", "Toplu taşıma işletmesi", "Sefer arası pencere"],
+                        ["Kaldırım (yaya şeridi daralması)", "Orta, yaya yönlendirme gerekir", "İlçe/trafik birimi", "Yaya yoğunluğunun düştüğü saat"],
+                        ["Zemin altı otopark girişi önü", "Düşük, ama araç çıkışını etkiler", "Bina yönetimi", "Otopark trafiğinin az olduğu saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Cadde trafiğinde çok günlü işlerde makine bekletme",
+                paragraflar: [
+                    "Şişli'deki bir cephe işi birden fazla günü buluyorsa, makineyi her gün nakletmek yerine sahada güvenli bir noktada bekletmek hem daha ekonomik hem pratiktir; ama kule bölgesinden farklı olarak burada bekleme noktası caddeye açık bir alan olduğu için ek bir görünürlük ve güvenlik riski taşır. Bekleme noktası mümkünse bina önü geri çekme alanına, olmuyorsa trafik biriminin onayladığı bir cep alana yerleştirilir; anahtar kutusu kilitlenir ve gece boyunca aracın görünürlüğünü artıran reflektif işaretleme eklenir.",
+                    "Cadde üzerinde bekletilen bir makine, gece boyunca park denetimine de tabi olabileceği için, bu bekleme kararı yalnızca bina yönetimiyle değil gerekirse ilçe zabıta/trafik biriminin bilgisiyle de alınır; habersiz bırakılan bir makine, ertesi sabah işe başlamadan önce çekici sorunuyla karşılaşabilir.",
+                ],
+            },
+            {
+                baslik: "Eski bina cephelerinde ek yapısal kontrol ihtiyacı",
+                paragraflar: [
+                    "Şişli'deki eski yapı stoğunun bir kısmı, yeni plazalara göre daha zayıf balkon çıkması, korkuluk veya saçak gibi cepheye bitişik unsurlara sahip olabilir; sepet bu unsurlara yaklaşırken önce görsel bir kontrol yapılır ve unsurun sepet temasına dayanıklı olup olmadığı değerlendirilir. Dayanıklılığı belirsiz bir unsura yaslanılmaz, sepet ondan bağımsız bir mesafede tutularak iş bomun erişimiyle tamamlanır.",
+                    "Bu tip binalarda iş öncesi fotoğraflı durum tespiti, yeni plazalara göre daha sık uygulanır çünkü eski cephe malzemesindeki mevcut bir çatlak veya bozulma, işten kaynaklanmadığı hâlde işe mal edilebilir; belgeleme bu riski baştan azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Cadde üzerinde uygun bir cep veya boşluk yoksa makineyi nereye kuruyorsunuz?",
+                cevap:
+                    "Böyle durumlarda tek şeridin geçici olarak daraltılması gündeme gelir; bu, ilçe trafik biriminden geçici düzenleme izni gerektirir ve genellikle günün en sakin saatine (öğle arası öncesi veya geç akşam) planlanır. Daraltılan şerit yönlendirme konisi ve levhayla işaretlenir, gerekirse bir yönlendirme personeli görevlendirilir. İzin alınmadan şerit daraltması yapılmaz; bu hem yasal hem güvenlik riski taşır ve keşif aşamasında bu ihtimal öngörülüp izin süreci baştan başlatılır.",
+            },
+            {
+                soru: "Bina yönetimi izin verdi ama caddeye taşan kısım için ayrı izin gerekiyor mu?",
+                cevap:
+                    "Evet — bina yönetiminin izni yalnızca bina sınırları içindeki kullanım için geçerlidir; makinenin kaldırım veya yol şeridine taşan kısmı, ilçe trafik biriminin ayrı bir geçici işgaliye/düzenleme iznine tabidir. Bu iki onay birbirinin yerine geçmez ve ikisi de yazılı olarak alınmadan kurulum yapılmaz. Bu ayrımın gözden kaçması, Şişli'de en sık yaşanan gecikme nedenlerinden biridir; bu yüzden keşif sırasında hangi kısmın hangi otoriteye tabi olduğu net biçimde ayrıştırılır.",
+            },
+            {
+                soru: "Metrobüs veya otobüs durağına yakın bir cephede çalışacağız, hat kapanır mı?",
+                cevap:
+                    "Hat tamamen kapatılmaz; kurulum, güzergâhı fiilen kesmeyecek şekilde planlanır ve gerekiyorsa ilgili toplu taşıma işletmesine önceden bilgi verilir. Durağın hemen önünde bir kurulum gerekiyorsa, sefer aralıklarının en açık olduğu saat dilimi tercih edilir ve makine, aracın durağa yanaşma manevrasını engellemeyecek mesafede konumlandırılır. Güzergâhı doğrudan etkileyen bir durum varsa iş, ilgili işletmenin onayı olmadan başlatılmaz.",
+            },
+            {
+                soru: "Eski binada cephede zaten çatlak var, biz mi yaptık denirse ne yaparsınız?",
+                cevap:
+                    "Bu riski baştan azaltmak için eski yapı cephelerinde iş öncesi fotoğraflı durum tespiti standart uygulamamızdır; cephenin hangi noktasında hangi bozulma olduğu iş başlamadan belgelenir. İş sırasında ek bir hasar oluşmadıysa, önceden çekilen fotoğraflar mevcut durumu net biçimde gösterir ve ihtilafı baştan önler. Bu belgeleme talep üzerine değil, eski cephelerde otomatik olarak uygulanan bir adımdır.",
+            },
+            {
+                soru: "Gündüz mü gece mi çalışmalıyız, Şişli'de net bir kural var mı?",
+                cevap:
+                    "Tek bir kural yoktur çünkü Şişli caddeleri kule bölgesi gibi belirli saatlerde seyrelmez; karar, binanın zemin kat kullanımına ve caddenin o kesimindeki trafik yoğunluğuna göre değişir. Zemin kat mağaza/tabela işleri genellikle kapanış sonrasına, üst kat cephe işleri ise yaya akışının altında kaldığı için gündüz de yapılabilir. Kesin saat, keşifte binanın kullanım profili ve caddenin trafik gözlemiyle birlikte belirlenir.",
+            },
+            {
+                soru: "Çok günlü bir işte makineyi gece cadde üzerinde bırakabilir miyiz?",
+                cevap:
+                    "Mümkündür ama kule bölgesindeki bina içi bekleme noktasından farklı olarak, cadde üzerindeki bir bekleme hem görünürlük hem park denetimi riski taşır. Bekleme noktası öncelikle bina önü geri çekme alanına, mümkün değilse trafik biriminin onayladığı bir cep alana yerleştirilir; anahtar kutusu kilitlenir, reflektif işaretleme eklenir ve gerekiyorsa ilçe zabıta/trafik birimine bilgi verilir. Habersiz bırakılan bir makine, park denetimiyle karşılaşabileceği için bu adım atlanmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Şişli'nin eski yapı stoğu ile yeni plazaların iç içe bulunduğu, ana caddelerinin gün boyu yoğun toplu taşıma ve yaya trafiğine sahip merkezi bir ilçe olduğu kamuya açık kentsel bilgidir; kurulum alanı, izin ve saha koordinasyon pratikleri firma deneyimidir.",
+    },
+
+    "bolge:sariyer": {
+        h1: "Sarıyer'de Yamaç Arazi ve Ağaçlı Sahalarda Eklemli Platform Kiralama",
+        giris:
+            "Sarıyer denince akla ilk Maslak'ın kule kuşağı gelse de, ilçenin asıl coğrafi karakteri Boğaz yamaçlarına yayılan, eğimli sokaklarla örülü ve büyük ölçüde ağaçlık bir dokudur — Maslak aksının kuzeyinde kalan bu kesimde villa siteleri, müstakil konutlar ve düşük katlı ticari yapılar, düz bir cadde ızgarasından çok yamaç boyunca kıvrılan dar sokaklara yaslanır. Bu doku, kule bölgelerindeki 'dar servis şeridine sığmak' problemini değil, tamamen farklı bir problemi öne çıkarır: zeminin kendisi eğimlidir, sokak genellikle tek araçlık genişliktedir ve hedef cepheye giden yol çoğu zaman bir ağaç dalı, çıkma bir çatı saçağı veya bahçe duvarı gibi bir engelin arkasından dolanmayı gerektirir. Eklemli platformun asıl gücü tam olarak burada ortaya çıkar — bomun dirsekli yapısı, sepedi engelin üzerinden veya yanından dolaştırarak hedefe ulaştırabilir, teleskopik düz bir bom bu manevrayı çoğu zaman yapamaz. Sarıyer'in yamaç ve ağaçlı dokusunda iş, bu yüzden makine seçiminden çok bom geometrisinin doğru okunmasına dayanır. Bu sayfa, Maslak aksının dışındaki Sarıyer'de eklemli platformun eğim ve engel aşma senaryolarında nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Eğimli sokakta makine konumlandırma ve denge kontrolü",
+                metin:
+                    "Sarıyer'in yamaç sokaklarının çoğunda zemin, düz bir avludan farklı olarak belirgin bir eğime sahiptir; makine bu zemine yerleşmeden önce eğim açısı ölçülür ve makinenin teknik verisinde belirtilen maksimum eğim toleransı bu ölçüyle karşılaştırılır. Tolerans aşılıyorsa makine o noktaya konumlandırılmaz, daha düz bir kesim aranır veya bom açıklığı artırılarak hedefe uzaktan erişilir. Outrigger'lı modellerde eğim, destek ayaklarının farklı yükseklikte açılmasıyla bir ölçüde telafi edilebilir, ama bu telafi de üreticinin belirlediği sınırın içinde kalmak zorundadır.",
+            },
+            {
+                baslik: "Ağaç dallarının oluşturduğu engelde bom manevrası",
+                metin:
+                    "Sarıyer'in yeşil dokusu, cepheye giden görüş hattının çoğu zaman bir ağaç tarafından kısmen kapatıldığı anlamına gelir. Eklemli bomun dirsekli yapısı burada devreye girer — bom önce dalın altından veya yanından geçecek şekilde açılır, sonra hedefe doğru ikinci bir açıyla yükselir; bu, düz bir teleskopik bomun tek doğrultuda uzanan geometrisiyle mümkün olmayan bir manevradır. Operatör bu manevrayı yaparken dal ile sepet arasında güvenli bir mesafe bırakır, dalın hareketli olabileceğini (rüzgârda sallanma) hesaba katar ve hiçbir noktada dala fiziksel temas etmez; ağaç budama bizim işimiz değildir, biz yalnızca mevcut dokunun içinde güvenli bir geçiş güzergâhı buluruz.",
+            },
+            {
+                baslik: "Tek araçlık ve dönüşü zor sokaklarda erişim",
+                metin:
+                    "Villa siteleri ve müstakil konut dokusundaki sokaklar genellikle tek araç genişliğindedir ve büyük araçların dönüş yarıçapını zorlayan keskin virajlar içerir. Makinenin bu sokağa girip girmeyeceği, nakliye aracının değil doğrudan makinenin kendisinin manevra kabiliyetine bağlıdır; bu yüzden keşifte sokak genişliği ve viraj yarıçapı ayrı ayrı ölçülür. Sokak gerçekten yetersizse, makine sokağın girişindeki daha geniş bir noktada konumlandırılır ve bom açıklığı artırılarak hedefe o mesafeden ulaşılır.",
+            },
+            {
+                baslik: "Villa ve site cephelerinde bahçe duvarı ve parsel sınırı",
+                metin:
+                    "Sarıyer'deki villa ve sitelerin çoğu, komşu parselden yüksek bahçe duvarlarıyla ayrılır; bu duvarlar hem makinenin yaklaşım açısını kısıtlar hem de bomun komşu parsel üzerinden geçip geçmeyeceği sorusunu gündeme getirir. Bom komşu parselin hava sahasına girecekse, işe başlamadan önce o parselin sahibinden ya sözlü ya yazılı bir bilgilendirme/izin alınması istenir; bu adım atlanırsa iş günü ortasında komşu itirazıyla karşılaşılabilir. Duvarın kendisi de makinenin park noktasını daraltan bir engel olarak keşifte ayrıca ölçülür.",
+            },
+            {
+                baslik: "Mevsimsel yeşillik değişiminin güzergâh planına etkisi",
+                metin:
+                    "Sarıyer'in ağaç dokusu mevsime göre yoğunluk değiştirir; yaz aylarında yaprak dolu dallar görüş hattını ve geçiş güzergâhını kışa göre daha fazla daraltabilir. Aynı cephede yaz ve kış aylarında planlanan iki farklı iş, bu yüzden aynı bom güzergâhını kullanamayabilir — yaz işinde daha dolaylı bir yaklaşım gerekebilirken, kış işinde daha direkt bir hat mümkün olabilir. Bu fark, işin hangi mevsimde planlandığına bakılmaksızın keşifte güncel olarak değerlendirilir; geçen yılki güzergâh bilgisi bu yılki iş için otomatik olarak geçerli sayılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sarıyer'de arazi ve engel tipine göre erişim yaklaşımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Sarıyer'in yamaç ve ağaçlı dokusunda sık karşılaşılan arazi/engel tiplerini ve bunlara uygun erişim yaklaşımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Arazi/engel tipi", "Temel zorluk", "Eklemli platform avantajı", "Ek önlem"],
+                    satirlar: [
+                        ["Eğimli sokak", "Denge ve outrigger seviyeleme", "Bom açıklığıyla uzaktan erişim", "Eğim ölçümü zorunlu"],
+                        ["Ağaç dalı engeli", "Doğrudan görüş hattı yok", "Dirsekli bom dalın etrafından dolaşır", "Rüzgârda dal hareketi payı"],
+                        ["Tek araçlık sokak", "Manevra alanı dar", "Kompakt gövde + uzun bom erişimi", "Sokak girişinde ölçüm"],
+                        ["Yüksek bahçe duvarı", "Yaklaşım açısı kısıtlı", "Bom duvarın üzerinden geçebilir", "Komşu parsel bilgilendirmesi"],
+                        ["Yoğun mevsimsel yeşillik", "Güzergâh mevsime göre değişir", "Bom rotası anlık olarak ayarlanabilir", "Güncel keşif her işte tekrarlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eğim toleransı ve zemin kontrolünün adımları",
+                paragraflar: [
+                    "Sarıyer'in yamaç sokaklarında iş öncesi zemin kontrolü üç adımdan oluşur: önce eğim açısı bir eğim ölçer ile tespit edilir, ardından bu değer makinenin teknik verisindeki maksimum eğim toleransıyla karşılaştırılır, son olarak zeminin yüzey durumu (ıslak, kaygan, gevşek toprak) değerlendirilir. Bu üç kontrolden herhangi biri olumsuz çıkarsa makine o noktaya konumlandırılmaz; alternatif olarak daha düz bir kesimden bom açıklığı artırılarak çalışılır ya da zemin iyileştirmesi (örneğin geçici plaka döşenmesi) talep edilir.",
+                    "Yağışlı dönemlerde bu kontrol her iş günü tekrarlanır çünkü bir önceki gün güvenli olan bir zemin, gece yağan yağmurla ertesi sabah kaygan hâle gelmiş olabilir; Sarıyer'in yamaç dokusunda bu kontrolü atlamak, düz zeminli bir sahaya göre çok daha yüksek risk taşır.",
+                ],
+            },
+            {
+                baslik: "Ağaç dokusuyla iç içe cephelerde çalışma disiplini",
+                paragraflar: [
+                    "Ağaçların cepheye yakın olduğu sahalarda operatör, bom hareketini iki aşamalı planlar: önce dalların arasından güvenli bir geçiş noktası belirlenir, sonra bu noktadan hedefe düz bir yaklaşım kurulur. Bu planlama, tek seferde doğrudan hedefe gitmeye çalışmaktan daha yavaş ilerler ama dal teması riskini ortadan kaldırır. Rüzgârlı günlerde dalların beklenenden fazla hareket edebileceği göz önünde bulundurularak güvenlik mesafesi artırılır; rüzgâr belirli bir hızı geçtiğinde ağaçlara yakın çalışma tamamen durdurulur.",
+                    "Bazı işlerde dalın budanması cepheye erişimi kolaylaştırabilir, ama bu bizim kapsamımızda değildir — böyle bir ihtiyaç fark edildiğinde durum müşteriye bildirilir ve budama ayrı bir uzmanlık alanı olarak müşterinin kendi tedarikçisine yönlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Evimizin önündeki sokak çok dar ve eğimli, makine oraya girebilir mi?",
+                cevap:
+                    "Girip giremeyeceği, sokağın gerçek genişliği ve eğim açısı ölçülmeden söylenemez; bu yüzden Sarıyer'deki yamaç sokaklarda keşif, standart bir işten daha titiz yürütülür. Sokak makinenin manevra sınırlarını zorluyorsa, makine sokağın daha geniş bir girişinde konumlandırılır ve bom açıklığı artırılarak hedefe o mesafeden ulaşılır. Sokak hem dar hem eğimliyse, iki kısıt birlikte değerlendirilir ve gerekirse daha kompakt gövdeli bir model önerilir.",
+            },
+            {
+                soru: "Cephenin önünde büyük bir ağaç var, dalları kesmeden çalışabilir misiniz?",
+                cevap:
+                    "Çoğu durumda evet — eklemli bomun dirsekli yapısı, sepedi dalların altından veya yanından dolaştırarak hedefe ulaştırabilir; bu, düz bir teleskopik bomla mümkün olmayan bir manevradır. Ağaca fiziksel temas hiçbir koşulda yapılmaz, gerekli güvenlik mesafesi korunur. Ancak dallar cepheyi tamamen kapatacak kadar yoğunsa ve güvenli bir geçiş güzergâhı bulunamıyorsa, bu durumda budama ihtiyacı size bildirilir; budama işimizin kapsamında değildir.",
+            },
+            {
+                soru: "Bahçe duvarımız yüksek, makine bunun üzerinden geçebilir mi?",
+                cevap:
+                    "Bom, yeterli açıklık ve yükseklik varsa bahçe duvarının üzerinden geçerek cepheye ulaşabilir; bu, eklemli platformun makaslı sınıfa göre en belirgin avantajlarından biridir. Ancak bu geçiş komşu parselin hava sahasına giriyorsa, işe başlamadan önce o parsel sahibinden bilgilendirme veya izin alınması istenir. Bu adım atlanırsa, iş sırasında komşu itirazıyla karşılaşılabilir ve iş yarıda kesilebilir; bu yüzden keşifte parsel sınırları ve komşu iletişimi baştan netleştirilir.",
+            },
+            {
+                soru: "Yağmur sonrası zemin kaygan olabilir mi, işi ertelemeniz gerekir mi?",
+                cevap:
+                    "Sarıyer'in yamaç dokusunda bu risk gerçektir ve zemin kontrolü her iş günü yeniden yapılır; bir önceki gün güvenli olan bir nokta, gece yağan yağmurla kaygan hâle gelmiş olabilir. Zemin durumu olumsuzsa iş ya zeminin kuruduğu bir saate ertelenir ya da geçici zemin iyileştirmesi (plaka döşenmesi gibi) uygulanır. Bu kontrolü atlayıp riskli bir zeminde çalışmak, Sarıyer'in eğimli dokusunda düz bir sahaya göre çok daha ciddi bir denge riski doğurur.",
+            },
+            {
+                soru: "Yazın ağaçlar çok gür oluyor, kışın planlanan iş yazın da aynı şekilde yapılabilir mi?",
+                cevap:
+                    "Genellikle hayır, aynı güzergâh geçerli sayılmaz — yaz aylarında yaprak dolu dallar görüş hattını ve geçiş güzergâhını kışa göre daha fazla daraltabilir. Bu yüzden mevsim değiştiğinde iş yeniden değerlendirilir, güncel bir keşifle bom güzergâhı o günün yeşillik yoğunluğuna göre belirlenir. Geçen yıl veya geçen mevsim kullanılan güzergâh bilgisi, otomatik olarak bu işe uygulanmaz.",
+            },
+            {
+                soru: "Sitemizin ortak alanı dar, hem sitenin hem komşu parselin izni mi gerekiyor?",
+                cevap:
+                    "Duruma bağlıdır — makine yalnızca site sınırları içinde kalıyorsa site yönetiminin izni yeterlidir, ama bom hedefe ulaşmak için komşu parselin hava sahasına giriyorsa o parselden de ayrıca bilgilendirme veya izin istenir. Bu iki durumun hangisinin geçerli olduğu, bom güzergâhı planlanmadan net biçimde söylenemez; bu yüzden keşifte parsel sınırları ve bom açıklığı birlikte değerlendirilerek hangi iznin gerektiği belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Sarıyer'in Maslak aksı dışında kalan kesiminin Boğaz yamaçlarına yayılan, eğimli sokaklı ve ağaçlık bir doku taşıdığı kamuya açık coğrafi bilgidir; eğim, engel aşma ve saha koordinasyon pratikleri firma deneyimidir.",
+    },
+
+    "bolge:bakirkoy": {
+        h1: "Bakırköy'de AVM ve Yüksek Tavanlı Kapalı Alanlarda Eklemli Platform Kullanımı",
+        giris:
+            "Bakırköy, Avrupa yakasının sahil şeridindeki köklü ticaret merkezlerinden biridir ve bölgedeki iş talebinin önemli bir kısmı, açık cadde cephesinden çok alışveriş merkezlerinin ve yüksek tavanlı kapalı ortak alanların iç mekân bakımından gelir — atrium tavanı, sinema/etkinlik salonu lobisi, yürüyen merdiven boşluğu üzerindeki aydınlatma ve tavan elemanları gibi noktalar, dışarıdaki bir kule cephesinden tamamen farklı bir çalışma ortamı kurar. Kapalı alanda çalışmanın kendi kuralları vardır: dizel veya LPG'li makine egzoz gazı nedeniyle kapalı ortama sokulmaz, bu yüzden iş baştan akülü/elektrikli eklemli sınıfla planlanır; zemin çoğu zaman mermer, seramik veya hassas kaplamalı olduğu için tekerlek altına koruma konur; ve makinenin kendisi, dış mekândan farklı olarak servis asansörü veya yük koridorundan geçirilerek içeri taşınmak zorundadır. Eklemli platform bu ortamda tercih edilir çünkü bomun dirsekli geometrisi, yürüyen merdiven boşluğu veya asma tavan elemanı gibi engellerin etrafından dolaşarak hedefe ulaşabilir — kapalı alanın kısıtlı yüksekliği ve dar geçişleri, düz bir teleskopik bomdan çok bu esnekliği gerektirir. Bu sayfa, Bakırköy'ün AVM ve yüksek tavanlı kapalı ortak alanlarında eklemli platform kullanımının nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapalı alanda akülü/elektrikli sınıf zorunluluğu",
+                metin:
+                    "Kapalı bir AVM ortak alanında dizel veya LPG'li bir makine kesinlikle kullanılmaz; egzoz gazının kapalı havalandırma sistemine karışması hem sağlık hem yangın güvenliği açısından kabul edilemez bir risktir. Bu yüzden iç mekân işleri baştan akülü veya elektrikli eklemli sınıfla planlanır. Akü kapasitesi, işin süresine göre önceden hesaplanır ve iş uzun sürecekse, mekân yönetiminin izin verdiği bir noktada şarj imkânı keşifte netleştirilir; şarj noktası yoksa yedek akülü/ikinci makine seçeneği değerlendirilir.",
+            },
+            {
+                baslik: "Atrium ve yüksek tavanlı lobi işlerinde bom geometrisi",
+                metin:
+                    "AVM atriumları ve yüksek tavanlı lobiler, genellikle yürüyen merdiven boşluğu, asma tavan elemanı veya dekoratif asma obje gibi geçiş engelleriyle doludur. Eklemli bomun dirsekli yapısı, sepedi bu engellerin etrafından dolaştırarak tavan veya üst duvar hizasındaki hedefe ulaştırabilir; düz bir teleskopik bom bu manevrayı çoğu zaman yapamaz çünkü engelin doğrudan önünde kalır. Operatör bu tip alanlarda hız düşük tutar ve sepet ile engel arasındaki mesafeyi sürekli görsel kontrol eder.",
+            },
+            {
+                baslik: "Hassas zemin kaplamasının korunması",
+                metin:
+                    "AVM ortak alanlarının zemini genellikle mermer, cilalı seramik veya özel kaplama malzemesidir ve makinenin tekerleği bu zemine doğrudan basmaz; tekerlek altına koruyucu tabla veya yumuşak mat yerleştirilir. Makine hareket ederken ani dönüş veya sürtünme hareketinden kaçınılır çünkü bu, cilalı zeminde iz veya çizik bırakabilir. İş bitiminde zeminde herhangi bir iz kalıp kalmadığı mekân yönetimiyle birlikte kontrol edilir; bu kontrol, iş öncesi çekilen fotoğraflarla karşılaştırılarak yapılır.",
+            },
+            {
+                baslik: "AVM açılış-kapanış saatleri dışında çalışma penceresi",
+                metin:
+                    "Ortak alan işleri neredeyse istisnasız AVM'nin kapalı olduğu saatlere — genellikle gece kapanış sonrası ile ertesi sabah açılış öncesi arasındaki dar pencereye — sıkıştırılır çünkü ziyaretçi trafiğiyle aynı anda kapalı alanda erişim makinesi çalıştırmak güvenlik açısından uygun değildir. Bu pencere genellikle birkaç saatle sınırlıdır, bu yüzden iş kapsamı bu süreye sığacak şekilde önceden parçalanır; büyük bir işin tek gecede bitmeyeceği anlaşılırsa, iş birden fazla geceye bölünerek planlanır.",
+            },
+            {
+                baslik: "Servis koridoru ve asansör genişliğiyle makine taşınabilirliği",
+                metin:
+                    "Kapalı alana makine taşımak, dış mekândaki gibi doğrudan sürerek girmek değildir; çoğu AVM'de iç mekâna erişim servis koridoru veya yük asansörü üzerinden sağlanır ve bu geçişlerin genişlik-yükseklik sınırı vardır. Keşif aşamasında bu ölçüler önceden alınır ve makine seçimi bu ölçülere göre yapılır; standart bir model sığmıyorsa daha dar gövdeli kompakt akülü sınıfa geçilir. Bu ölçüm atlanırsa, makine sahaya gelse dahi içeri sokulamayabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bakırköy'de kapalı alan iş tipine göre makine seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Bakırköy'deki AVM ve kapalı ortak alan işlerinde sık karşılaşılan iş tiplerini ve uygun makine yaklaşımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Ortam özelliği", "Uygun makine sınıfı", "Zaman penceresi"],
+                    satirlar: [
+                        ["Atrium tavan aydınlatması", "Yüksek tavan, engelli geçiş", "Kompakt akülü eklemli", "Kapanış sonrası"],
+                        ["Sinema/etkinlik lobisi bakımı", "Dar geçiş, hassas zemin", "Dar gövdeli elektrikli", "Kapanış sonrası"],
+                        ["Yürüyen merdiven üstü tavan işi", "Engel yoğun, dar açı", "Dirsekli bom, düşük hız", "Gece penceresi"],
+                        ["Ortak alan tabela/yönlendirme", "Orta yükseklik, geniş alan", "Standart akülü eklemli", "Açılış öncesi sabah"],
+                        ["Acil aydınlatma arızası", "Kısa süreli, plansız", "Kompakt akülü, hızlı konum", "Talep anında (izinle)"],
+                    ],
+                },
+            },
+            {
+                baslik: "AVM yönetimi ve mağaza kiracılarıyla koordinasyon",
+                paragraflar: [
+                    "Bir AVM'nin ortak alanında çalışmak için önce mekân/merkez yönetiminden onay alınır; bu onay iş tanımı, makine tipi ve çalışma saatinin önceden bildirilmesini gerektirir. Ancak ortak alan işi, çoğu zaman zemin kattaki mağaza kiracılarının önünden geçtiği için, iş rotası mağaza kapanış saatleriyle de örtüşecek şekilde planlanır; bazı mağazaların kapanış saati merkez geneli kapanıştan farklı olabilir, bu farkı keşifte öğrenmek gerekir.",
+                    "Merkez yönetimi genellikle işin ortak alandaki güzergâhını, hangi mağaza önlerinden geçileceğini ve geçici olarak kapatılacak bölümleri önceden onaylar; bu onay olmadan güzergâh üzerinde değişiklik yapılmaz çünkü mağaza kiracılarının kendi çalışma saatleri ve teslimat programı da bu güzergâha bağlı olabilir.",
+                ],
+            },
+            {
+                baslik: "Zemin koruma ve iş sonrası temizlik protokolü",
+                paragraflar: [
+                    "Kapalı alan işlerinde zemin koruma iki aşamalıdır: iş öncesi tekerlek altına koruyucu tabla veya mat yerleştirilir, iş sonrası ise geçilen güzergâh boyunca zemin temizliği yapılır çünkü dışarıdan gelen bir makine, fark etmeden toz veya nem taşıyabilir. Bu temizlik, merkez yönetiminin kendi temizlik ekibiyle koordineli yürütülür; bazı merkezler kendi temizlik ekibini tercih ederken bazıları bizim ekibimizin temizliği üstlenmesini ister, bu tercih keşifte netleştirilir.",
+                    "İş öncesi ve sonrası zemin durumunun fotoğraflı karşılaştırması, eski yapı cephelerindeki durum tespitine benzer bir mantıkla burada da uygulanır; bu, işten kaynaklanmayan bir zemin sorununun sonradan işe mal edilmesine karşı hem merkezi hem bizi korur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dizel makineyle kapalı AVM ortamında çalışamıyor muyuz, alternatif ne?",
+                cevap:
+                    "Hayır, kapalı bir ortak alanda dizel veya LPG'li makine kullanılmaz; egzoz gazının kapalı havalandırmaya karışması kabul edilemez bir risktir. Alternatif, akülü veya elektrikli eklemli sınıftır; bu sınıf hem egzoz üretmez hem de dizel sınıfa göre daha sessiz çalışır, bu da gece penceresinde çalışmayı kolaylaştırır. Akü kapasitesi işin süresine göre önceden hesaplanır ve gerekirse şarj noktası veya yedek makine planı keşifte belirlenir.",
+            },
+            {
+                soru: "Atrium tavanındaki aydınlatmaya yürüyen merdiven boşluğunun üzerinden mi ulaşacaksınız?",
+                cevap:
+                    "Genellikle evet, ve bu tam olarak eklemli bomun avantajının devreye girdiği senaryodur; bom, yürüyen merdiven boşluğunun kenarından dirsekli bir hareketle yükselerek hedefe ulaşır, boşluğun tam ortasından geçmeye çalışmaz. Operatör bu manevrayı düşük hızda ve sürekli görsel kontrolle yapar. Boşluğun genişliği ve tavan yüksekliği yeterli açıklık sağlamıyorsa, alternatif bir yaklaşım noktası keşifte belirlenir.",
+            },
+            {
+                soru: "Mermer zeminde makine tekerleği iz bırakır mı?",
+                cevap:
+                    "Doğru önlem alınmazsa bırakabilir, bu yüzden tekerlek altına koruyucu tabla veya yumuşak mat yerleştirmek standart uygulamamızdır. Makine hareket ederken ani dönüş ve sürtünmeden kaçınılır çünkü bu tip hareketler cilalı zeminde çizik riski taşır. İş öncesi ve sonrası zemin durumu fotoğraflanır; bu karşılaştırma hem bizim hem merkez yönetiminin işin zemine zarar verip vermediğini net biçimde görmesini sağlar.",
+            },
+            {
+                soru: "Gece penceresi kısa, işimiz bir gecede bitmezse ne olur?",
+                cevap:
+                    "İş kapsamı, kapanış-açılış arasındaki pencereye sığacak şekilde önceden bölümlenir; bir gecede bitmeyecek büyüklükteki işler birden fazla geceye yayılarak planlanır. Bu, tek seferde acele bir tamamlama denemesinden daha güvenlidir çünkü kapalı alanda zaman baskısı, hem zemin koruma hem bom manevrası hassasiyetini olumsuz etkileyebilir. Kaç gece gerekeceği, keşifte iş kapsamına göre gerçekçi biçimde hesaplanır ve merkez yönetimine önceden bildirilir.",
+            },
+            {
+                soru: "Makine yük asansörüne sığmıyor, o zaman iş yapılamıyor mu?",
+                cevap:
+                    "Yapılabilir, ama makine seçimi asansör veya servis koridoru ölçülerine göre yeniden yapılır; standart eklemli model sığmıyorsa daha dar gövdeli kompakt akülü sınıfa geçilir. Bu ölçüm keşif aşamasının zorunlu bir parçasıdır çünkü asansör ölçüsü bilinmeden gönderilen bir makine, sahaya ulaşsa dahi içeri taşınamayabilir. Kompakt sınıfın erişim yüksekliği standart modele göre daha sınırlı olabileceği için, bu durumda hedefe hangi açıdan ulaşılacağı da ayrıca planlanır.",
+            },
+            {
+                soru: "Mağaza kiracıları işten rahatsız olur mu, onlarla ayrı mı konuşuyoruz?",
+                cevap:
+                    "Doğrudan mağaza kiracılarıyla değil, merkez/AVM yönetimiyle konuşulur; yönetim, iş güzergâhının hangi mağaza önlerinden geçeceğini bilir ve gerekiyorsa ilgili kiracıları kendi içinde bilgilendirir. Bazı mağazaların kapanış saati merkez geneli kapanıştan farklı olabileceği için bu bilgi keşifte merkez yönetiminden alınır ve iş rotası buna göre ayarlanır. Güzergâh üzerinde bir mağazanın özel bir hassasiyeti (örneğin gece teslimat programı) varsa, bu da merkez yönetimi üzerinden öğrenilip plana eklenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bakırköy'ün Avrupa yakası sahil şeridinde köklü bir ticaret merkezi olduğu ve bölgede alışveriş merkezi/yüksek tavanlı kapalı ortak alan yoğunluğu bulunduğu kamuya açık kentsel bilgidir; kapalı alan erişim, izin ve saha koordinasyon pratikleri firma deneyimidir.",
+    },
 };

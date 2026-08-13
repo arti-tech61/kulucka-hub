@@ -619,6 +619,399 @@ export const ISTANBULDAPLATFORM_COM: Record<string, BespokeIcerik> = {
             "Elle yazıldı — 2026-08-12. Tuzla'nın endüstriyel yatırım sahaları ve organize sanayi bölgeleri barındıran yapısı kamuya açık bilgidir; faz paketi, kesişim haritası ve senkron montaj düzeni firma pratiğidir.",
     },
 
+    "bolge:esenyurt": {
+        h1: "Esenyurt'ta Depo ve Üretim Projelerinde Maliyet Kalemi Planlaması",
+        giris:
+            "Bir proje bütçesi hazırlayan kişi için Esenyurt'un batı kesimi tek bir mesele sorar: bu ilçedeki depo ve üretim tesisi projelerinde ekipman kalemi, iş programının neresinde durur ve hangi büyüklükte olur? Yanıt, tekil bir kira rakamından değil, projenin fazlarına dağılmış bir maliyet iskeletinden gelir. Bölgenin depo ve orta ölçekli üretim parselleri, genelde tek seferlik değil birbirini izleyen proje dalgaları üretir: bir tesiste raf sistemi kurulurken komşu parselde çatı yenilenir, bir üretim hattı taşınırken başka bir binada asma kat inşa edilir. Bizim İkitelli merkezli ekibimiz bu projelere girdiğinde ilk iş kira teklifi vermek değil, keşif verisinden bir bütçe iskeleti çıkarmaktır — hangi faz kaç makine-gün gerektiriyor, hangi kalem sabit hangi kalem değişken, bütçenin hangi satırı sahada büyüme riski taşıyor. Bu sayfa, Esenyurt'un depo-üretim projelerinde bu iskeletin nasıl kurulduğunu ve proje sahibinin bütçesini nasıl kontrol altında tuttuğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Keşiften bütçe satırına: ilk haftanın çıktısı",
+                metin:
+                    "Proje bütçelemesi keşifle başlar ama bizim yaklaşımımızda keşfin çıktısı bir fiyat değil bir kalem listesidir: hangi alanda hangi erişim sınıfı gerekiyor, kaç konum değişikliği öngörülüyor, hangi fazda kaç makine paralel çalışacak. Bu liste proje sahibine ilk haftanın sonunda teslim edilir ve bütçenin iskeletini oluşturur — sonraki her revizyon bu iskelet üzerine yazılır, sıfırdan yeniden hesaplanmaz. Esenyurt'un depo-üretim karışık dokusunda bu iskeletin en kritik satırı erişim ölçüm verisidir; raf koridoru genişliği veya üretim hattının tavan kotu yanlış ölçülürse bütçenin tamamı revizyona girer.",
+            },
+            {
+                baslik: "Depo kurulum projelerinde kalem kalem bütçe mantığı",
+                metin:
+                    "Bir depo kurulum bütçesi bizde dört ana kaleme ayrılır: montaj fazının makine-gün maliyeti, konum değişikliklerinin operasyon maliyeti, nakliye ve mobilizasyonun tek kalemlik sabit maliyeti, ve olağan dışı durumlar için ayrılan öngörülemeyen pay. Dördüncü kalem çoğu proje sahibinin gözden kaçırdığı satırdır — raf montajının bir hafta gecikmesi, elektrik ekibinin bekleyen makine gününe dönüşür ve bu risk baştan bütçelenmezse proje sonunda sürpriz fatura üretir. Biz bu payı yüzde olarak değil, senaryo bazlı bir tampon olarak yazarız: 'gecikme X hafta olursa Y makine-gün eklenir' biçiminde, proje sahibinin kendi takvim riskini görebileceği şekilde.",
+            },
+            {
+                baslik: "Üretim hattı taşımalarında bütçenin gizli kalemi",
+                metin:
+                    "Üretim hattı taşıma ve yerleşim değişikliği projelerinde bütçenin en çok gözden kaçan kalemi, makinenin kendisi değil duruş süresidir: hat durduğu her gün, ekipman kirasından bağımsız bir üretim kaybı üretir ve bu kayıp genelde proje bütçesinin dışında, ayrı bir hesapta tutulur. Bizim önerdiğimiz kurgu, ekipman bütçesini üretim duruş takvimiyle aynı tabloya koymaktır — forkliftin ve platformun günlük maliyeti ile hattın durduğu gün sayısı yan yana yazıldığında, hangi ek makinenin duruşu kısaltıp toplamda tasarruf sağlayacağı görünür hâle gelir. Ucuz görünen tek makineli plan, üç gün uzayan duruşla pahalı çıkabilir.",
+            },
+            {
+                baslik: "Çok makineli proje planında bütçe senkronizasyonu",
+                metin:
+                    "Esenyurt'un depo-üretim projelerinde nadiren tek makine kullanılır; çoğu zaman forklift, telehandler ve makaslı aynı proje takviminde farklı fazlarda devreye girer. Bütçenin senkronize kalması için her makinenin giriş-çıkış tarihini iş programının kilometre taşlarına bağlarız — raf montajı bittiğinde forklift bütçeden düşer, elektrik montajı başladığında makaslı bütçeye eklenir. Bu senkronizasyon olmadan hazırlanan bütçe, ya erken giren makinenin boş günlerini ya da geç giren makinenin acil sevkiyat maliyetini görmez; ikisi de bütçe sapmasının en sık nedenidir.",
+            },
+            {
+                baslik: "Proje kapanışında bütçe karşılaştırması ve gelecek proje verisi",
+                metin:
+                    "Her projenin sonunda planlanan bütçe ile gerçekleşen maliyeti kalem kalem karşılaştıran bir kapanış raporu hazırlarız: hangi kalem tahminin üzerinde çıktı, hangi kalem altında kaldı, sapmanın gerekçesi ne. Bu rapor proje sahibine teslim edilir ve aynı zamanda bizim tarafımızda arşivlenir — Esenyurt'un depo-üretim dokusunda benzer bir sonraki proje geldiğinde, tahmin artık sıfırdan değil bu arşivden başlar. Tekrar eden müşterilerimizde bütçe tahmin isabeti, üçüncü projeden sonra belirgin biçimde iyileşir; bu iyileşme, veri birikiminin doğal sonucudur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo-üretim projesi fazlarına göre bütçe kalemi tablosu",
+                paragraflar: [
+                    "Esenyurt'taki tipik bir depo veya üretim projesinde fazlara göre bütçe kalemlerinin dağılımı aşağıdadır. Öngörülemeyen pay sütunu, projenin risk profiline göre her fazda ayrıca değerlendirilir.",
+                ],
+                tablo: {
+                    basliklar: ["Faz", "Ana bütçe kalemi", "Değişken risk", "Öngörülemeyen pay"],
+                    satirlar: [
+                        ["Söküm ve hazırlık", "Forklift + hafriyat destek makinesi", "Zemin durumu belirsizliği", "Orta"],
+                        ["Raf / hat montajı", "Telehandler + makaslı yoğun", "Montaj süresi sapması", "Yüksek"],
+                        ["Elektrik ve tesisat", "Akülü makaslı + dikey", "Koordinasyon gecikmesi", "Orta"],
+                        ["Nakliye ve mobilizasyon", "Sabit tek kalem", "Düşük — sözleşmede sabitlenir", "Düşük"],
+                        ["Test ve devreye alma", "Küçük çekirdek park", "Eksik liste sürprizleri", "Orta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bütçe onayından iş programına: kurumsal karar zinciri",
+                paragraflar: [
+                    "Esenyurt'ta çalıştığımız depo ve üretim işletmelerinin çoğunda ekipman bütçesi tek bir kişinin değil, bir onay zincirinin kararıdır: proje mühendisi kalem listesini hazırlar, satın alma bütçeyi karşılaştırır, işletme müdürü veya yönetim kurulu nihai onayı verir. Bu zincirin her halkası farklı bir belgeye ihtiyaç duyar — mühendis teknik gerekçe, satın alma karşılaştırılabilir döküm, yönetim toplam risk özeti ister. Bizim teklif formatımız bu üç ihtiyacı tek dosyada karşılayacak biçimde kurulmuştur; aynı dosya, üç farklı toplantıda üç farklı soruya cevap verir.",
+                    "Onay süreci uzadığında bütçenin güncelliğini kaybetmemesi için tekliflerimize geçerlilik süresi ve bu süre içinde sabit kalacak kalemler açıkça yazılır — onay üç hafta sürerse, üç hafta sonra hangi rakamın hâlâ geçerli olduğunu bilirsiniz.",
+                ],
+            },
+            {
+                baslik: "Bütçe sapmasının Esenyurt'taki en sık üç kaynağı",
+                paragraflar: [
+                    "Bölgedeki projelerde bütçe sapmasının kaynağını izlediğimizde üç tekrar eden neden öne çıkıyor: birincisi, keşif aşamasında ölçülmeyen bir erişim kısıtının sahada ortaya çıkması ve makine sınıfının büyümesi; ikincisi, komşu işletmelerin çalışma saatleriyle çakışan bir kısıtın (gürültü, malzeme trafiği) plana sonradan eklenmesi ve pencerelerin daralması; üçüncüsü, tedarik zincirindeki bir gecikmenin (raf parçası, hat ekipmanı) proje takvimini kaydırıp makine bekleme günü üretmesi. Bu üç kaynağın ortak paydası, hiçbirinin ekipman fiyatından kaynaklanmamasıdır — bütçe kontrolünün asıl işi, ekipman kalemini değil bu üç riski yönetmektir.",
+                    "Bütçe hazırlığında bu üç riski ayrı satırlarda görünür kılmak, sapma çıktığında 'nereden çıktı' tartışmasını önler; sapma zaten öngörülmüş bir senaryonun gerçekleşmesidir, sürpriz değildir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yönetim kuruluna sunacağımız proje bütçesinde ekipman kalemini nasıl savunulabilir hâle getiririz?",
+                cevap:
+                    "Savunulabilirlik, tek rakamdan değil gerekçeli kalem listesinden gelir: her makinenin hangi faza, hangi işe, kaç güne atandığını gösteren bir tablo hazırlarız — yönetim kurulu 'neden bu kadar' sorusuna kalem kalem cevap bulur, tek toplamı sorgulamak zorunda kalmaz. Buna ek olarak alternatif senaryo sunarız: bütçe kısılırsa hangi kalemin nasıl etkileneceği (örneğin faz süresinin uzaması) ayrı bir satırda gösterilir. Yönetim kurulları çoğunlukla rakamı değil, rakamın arkasındaki mantığı onaylar; mantık görünür olduğunda onay süreci de hızlanır.",
+            },
+            {
+                soru: "Proje bütçesini üç ay önce onaylattık ama iş programı kaydı; bütçe hâlâ geçerli mi?",
+                cevap:
+                    "Kısmen — bu yüzden bütçe iskeletini kalem bazlı hazırlamamızın nedeni tam olarak bu senaryodur. Sabit kalemler (nakliye, mobilizasyon) üç ay sonra da aynı kalır; süreye bağlı kalemler (makine-gün sayısı) ise programın kaymasıyla birlikte yeniden hesaplanır ve fark tek bir revizyon notunda gösterilir — bütçenin tamamı yeniden yazılmaz, yalnızca etkilenen satırlar güncellenir. Bu yüzden onay sürecinde bütçeyi 'kalemleriyle birlikte' saklamanızı öneririz; üç ay sonra yalnızca toplam rakamı elinizde varsa, hangi kalemin kaydığını görmek zorlaşır.",
+            },
+            {
+                soru: "Depo projemizde iki farklı yüklenici çalışıyor; ekipman bütçesini kimin dosyasına yazmalıyız?",
+                cevap:
+                    "İki yaklaşım da işler ama proje sahibinin bütçe kontrolü açısından güçlü olanı tek bir merkezi ekipman bütçesi kurmaktır: her yüklenicinin ekipman ihtiyacı aynı kalem listesine işlenir, kullanım yüklenici bazında raporlanır ama toplam bütçe tek dosyada izlenir. Bunun getirisi, iki yüklenicinin aynı makineyi ayrı ayrı kiralayıp mükerrer ödeme yapmasının önlenmesidir — dar sahalarda bu mükerrerlik sık görülür. Yüklenicilerin kendi bütçelerini ayrı tutmak istemesi de mümkündür; o durumda bizim rolümüz, iki dosyanın kalem tanımlarının eşleştiğinden emin olmak olur ki karşılaştırma anlamlı kalsın.",
+            },
+            {
+                soru: "Üretim hattımızı taşırken duruş süresini bütçeye nasıl yansıtırız? Bu bizim değil sizin kaleminiz değil mi?",
+                cevap:
+                    "Ekipman bütçesi bizim kalemimizdir ama ikisini ayrı tutmak yanlış karar aldırır; bu yüzden aynı tabloda yan yana göstermeyi öneririz. Yöntem şudur: her ekipman senaryosu için (tek makine, iki makine, üç makine paralel) beklenen duruş gün sayısını da tabloya ekleriz — sizin üretim kaybı verinizle bizim ekipman maliyetimiz çarpılıp toplam gerçek maliyet ortaya çıkar. Deneyimimizde bu karşılaştırma çoğu zaman ek makinenin ekonomik olduğunu gösterir; çünkü kısalan duruş, ek makinenin günlük bedelinden fazlasını geri kazandırır. Üretim kaybı rakamınızı paylaşırsanız bu tabloyu birlikte kurarız.",
+            },
+            {
+                soru: "Bütçemiz sınırlı; hangi kalemleri kısarsak riski en az artırırız?",
+                cevap:
+                    "Bu soruyu her zaman kalem kalem, tek bir 'şunu kısın' cevabıyla değil, senaryolarla yanıtlarız. Genel eğilim şöyledir: mobilizasyon ve nakliye kalemi sabit olduğu için kısılamaz; makine sınıfını küçültmek riskli bir kısıtlamadır çünkü yetmeyen makine ikinci sevkiyat doğurur; en güvenli kısıtlama alanı genelde öngörülemeyen pay ile faz süresidir — takvimi biraz esnetip paralel makine sayısını azaltmak, işi yavaşlatır ama bütçeyi düşürür ve büyük bir risk taşımaz. Hangi kısıtlamanın sizin projenizde işleyeceğini görmek için mevcut bütçe tablomuzu birlikte satır satır gözden geçirmemiz gerekir.",
+            },
+            {
+                soru: "Bir önceki depo projemizin bütçe kapanış raporunu görebilir miyiz? Yeni projemizi ona göre planlamak istiyoruz.",
+                cevap:
+                    "Elbette — kapanış raporları tam bu amaçla arşivlenir ve tekrar müşterilerimizle paylaşılır. Önceki projenizin hangi kalemde tahminin üzerinde, hangi kalemde altında kaldığını görmek, yeni bütçenizin en güvenilir başlangıç noktasıdır; biz de yeni teklifi sıfırdan değil bu geçmiş veriden kurarız. İki projeniz arasında saha veya kapsam farkı varsa bunu da raporda ayrıca işaretleriz ki karşılaştırma yanıltıcı olmasın. Arşivimizdeki kayıt sizin proje kodunuzla eşleşiyorsa talebinizden birkaç gün içinde raporu iletebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Esenyurt'un batı kesiminde depo ve üretim ağırlıklı sanayi parselleri barındırdığı kamuya açık bilgidir; bütçe iskeleti, kapanış raporu ve onay zinciri format tasarımı firma pratiğidir, gerçek proje veya rakam paylaşılmamıştır.",
+    },
+
+    "bolge:beylikduzu-osb": {
+        h1: "Beylikdüzü OSB'de Tesis Büyütme Projelerinde İş Planı ve Bütçe",
+        giris:
+            "Beylikdüzü Organize Sanayi Bölgesi içinde çalışan bir firmanın büyüme kararı, çoğu zaman tek bir yatırım değil bir dizi birbirine bağlı iş kalemidir: yeni bir depo hacminin kazanılması, mevcut üretim hattının yeniden yerleşimi, asma kat veya çelik konstrüksiyon ilavesiyle kapalı alanın büyütülmesi. OSB sınırları içinde çalışmanın kendine has bir disiplini vardır — parsel sınırları net çizilidir, ortak yollar ve altyapı komşu tesislerle paylaşılır, iş programı yalnızca kendi tesisinizin değil OSB içindeki komşu faaliyetlerin de ritmine uyar. Bu sayfa yalnızca Beylikdüzü OSB'nin kendi sınırları içindeki projeleri konu alır; ilçenin genelini değil, OSB parselindeki kurumsal iş planlama ve bütçeleme pratiğini anlatır. Bizim buradaki rolümüz, ekipman kiralamayı bir proje yönetimi disiplini olarak sunmaktır: tesis mühendisinin iş planına ekipman kalemini oturtmak, bütçeyi fazlara bölmek ve OSB içi koordinasyon kurallarını (ortak yol kullanımı, komşu parsel mesafeleri) plana baştan yazmak.",
+        maddeler: [
+            {
+                baslik: "OSB parselinde iş planının ekipman kalemiyle buluşması",
+                metin:
+                    "OSB içindeki bir tesis büyütme kararı genelde önce mühendislik iş planına, sonra bütçeye dönüşür ve ekipman kalemi bu zincirin ortasında yer alır: iş planı hangi imalatın hangi hafta yapılacağını söyler, biz bu haftalara makine tipi ve adedi atarız. Parsel sınırları içinde çalışmanın getirdiği kısıt burada devreye girer — makinenin çalışma alanı, komşu parselin sınırını geçemez ve bu sınır iş planına bir kısıt maddesi olarak yazılır. Tesis mühendisiyle ilk toplantımızda genelde bu sınırın çizilmesiyle başlarız; bütçenin gerçekçi olması, önce sahanın gerçekçi tanımlanmasına bağlıdır.",
+            },
+            {
+                baslik: "Ortak yol ve altyapı kullanımının bütçeye etkisi",
+                metin:
+                    "OSB içindeki iç yollar ve bazı altyapı hatları komşu tesislerle paylaşılır ve bu paylaşım, büyütme projesinin lojistik takvimini doğrudan etkiler: ağır ekipman taşıması, ortak yolun yoğun olmadığı saatlere denk getirilmelidir; bazı hatlarda geçici kısıtlama için OSB yönetimine bilgi verilmesi gerekebilir. Bütçeleme aşamasında bu koordinasyonun bir zaman maliyeti vardır ve biz bunu ayrı bir satır olarak yazarız — 'ortak yol koordinasyonu' kalemi, büyük tesislerde küçük görünse de takvim riskinin gerçek kaynaklarından biridir ve atlanırsa proje ortasında beklenmedik gecikme üretir.",
+            },
+            {
+                baslik: "Kapalı alan büyütmede fazlı bütçe kurgusu",
+                metin:
+                    "Asma kat veya çelik konstrüksiyon ilavesiyle kapalı alanı büyüten bir OSB tesisinde bütçe üç fazda kurulur: temel ve çelik montaj fazı (yüksek erişimli makine yoğunluğu), kapama ve cephe fazı (senkron çalışan makine ihtiyacı), tesisat ve devreye alma fazı (küçülen çekirdek park). Her fazın kendi bütçe bloğu vardır ve bloklar arası geçiş, önceki fazın kapanış tutanağına bağlanır — fazlar arası boşlukta makine sahada beklemez, çıkar ve bir sonraki fazda geri gelir. Bu kurgu, tek büyük bütçe rakamı yerine üç ayrı, denetlenebilir bloğu ortaya koyar.",
+            },
+            {
+                baslik: "Üretim sürerken büyütme: bütçenin pencere kalemi",
+                metin:
+                    "OSB içindeki çoğu büyütme projesi, tesisin üretimi durmadan yürür ve bu, bütçeye özel bir kalem ekler: çalışma pencereleri (gece, hafta sonu veya vardiya arası) standart mesai dışına taştığı için ek maliyet üretir ve bu maliyet iş planı hazırlanırken görülmelidir. Bizim bütçe şablonumuzda 'pencere farkı' ayrı bir satırdır ve hangi imalatın hangi pencerede yapılacağı üretim müdürüyle birlikte belirlenir. Üretimi hiç durdurmadan büyüyen bir tesiste bu satırın toplam bütçedeki payı küçük değildir; baştan görülmesi, sonradan tartışma konusu olmasından iyidir.",
+            },
+            {
+                baslik: "OSB içi referans projeler ve bütçe isabeti",
+                metin:
+                    "Beylikdüzü OSB içinde birden fazla tesiste büyütme projesi yürütmüş olmak, yeni bir projenin bütçesini kurarken elimizde somut bir referans bırakır: benzer ölçekte bir asma kat projesinin hangi fazda ne kadar makine-gün gerektirdiği, hangi kalemde sapma yaşandığı kayıtlıdır. Yeni tesise bu referansı birebir uygulamayız — her parselin erişim koşulu ve üretim düzeni farklıdır — ama başlangıç tahminini sıfırdan değil bu birikimden kurarız. Tesis mühendisine sunduğumuz ilk bütçe taslağı bu yüzden genelde ilk revizyonda büyük değişikliğe uğramaz; referans, tahmin isabetini yükseltir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB parselinde büyütme projesi bütçe blokları tablosu",
+                paragraflar: [
+                    "Beylikdüzü OSB içindeki tipik bir kapalı alan büyütme projesinde üç bütçe bloğunun içeriği ve geçiş koşulu aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Bütçe bloğu", "Ekipman ağırlığı", "Geçiş koşulu", "Ortak yol etkisi"],
+                    satirlar: [
+                        ["Temel ve çelik montaj", "Yüksek erişimli eklemli + telehandler", "Çelik teslim tutanağı", "Ağır taşıma koordinasyonu"],
+                        ["Kapama ve cephe", "Senkron 2 makine", "Kapama tamamlanması", "Düşük"],
+                        ["Tesisat ve devreye alma", "Küçük akülü çekirdek", "Test başlangıcı", "Yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "OSB yönetimiyle koordinasyonun bütçe tarafındaki karşılığı",
+                paragraflar: [
+                    "OSB içi projelerde bazı adımlar tesisin kendi kararı değildir — ortak alan kullanımı, geçici trafik düzenlemesi gibi konularda OSB yönetimine bilgi verilmesi veya onay alınması gerekebilir. Bu adımların bir süre maliyeti vardır ve biz bunu proje takviminin bir parçası olarak görürüz: bildirim veya onay süreci için gerçekçi bir zaman payı bütçeye ve programa baştan yazılır. Bu payı hiç anmayan bir ekipman planı, ya OSB içi çalışma deneyimsizdir ya da süreci 'iş sırasında hallederiz' diyerek geciktirmeyi göze almıştır — ikisi de tesis mühendisinin lehine değildir.",
+                    "Deneyimimizde bu koordinasyonun zaman maliyeti, erken planlanan projelerde neredeyse fark edilmez; son ana bırakılan projelerde ise takvimin en tıkanan noktası hâline gelir.",
+                ],
+            },
+            {
+                baslik: "Bütçe onayı öncesi tesis mühendisine üç soru",
+                paragraflar: [
+                    "OSB içindeki büyütme projelerinde bütçe taslağını tesis mühendisine sunmadan önce kendimize üç soru sorarız: parsel sınırı ve komşu mesafe kısıtı doğru mu ölçüldü, üretim durmadan mı duracak mı belirlendi mi, ortak yol kullanımı gerektiren bir kalem var mı ve varsa süresi bütçeye yazıldı mı. Bu üç soru cevapsız kaldığında bütçe rakamı doğru görünse bile sahada tutmaz; OSB içi projelerin bütçe sapmasının neredeyse tamamı bu üç sorudan birinin atlanmasından kaynaklanır.",
+                    "Tesis mühendisiyle ilk toplantıda bu üç soruyu birlikte cevaplamak, sonraki tüm bütçe revizyonlarının sayısını azaltan tek adımdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB içindeki parselimizde asma kat yapacağız ama komşu parsele mesafe sınırımız dar; bütçeyi nasıl etkiler?",
+                cevap:
+                    "Dar mesafe, makine seçimini ve dolayısıyla bütçeyi doğrudan değiştirir: geniş bom hareketi gerektiren büyük makineler yerine, sınırlı çalışma alanında verimli çalışan kompakt sınıf tercih edilir ve bu bazen faz süresini biraz uzatır — küçük makine aynı işi biraz daha yavaş yapar. Bütçe taslağımızda bu takas açıkça gösterilir: küçük makinenin düşük günlük bedeli ile uzayan faz süresinin toplam etkisi yan yana konur, hangi seçimin sizin projenizde daha ekonomik olduğu hesaplanır. Mesafe sınırınızın kesin ölçüsünü paylaşırsanız bu hesabı ilk toplantıda çıkarabiliriz.",
+            },
+            {
+                soru: "OSB yönetiminden ortak yol için onay almamız gerekiyormuş; bu süreç bütçemizi ne kadar etkiler?",
+                cevap:
+                    "Doğrudan parasal etkisi genelde küçüktür ama takvime etkisi göz ardı edilmemelidir; bu yüzden bütçemizde bu süreç için ayrı bir zaman payı tutarız, para değil gün cinsinden. Onay süreci uzarsa, o süre boyunca ilgili faz için planlanan makinenin mobilizasyon tarihi de kayar ve biz bu kaymayı önceden bütçeye yazılmış esneklik payıyla karşılarız — beklenmedik ek maliyet doğurmadan. Sürecin ne kadar süreceğini net bilmiyorsanız bile, bu kalemi görünür bir satır olarak bütçeye koymak, sonradan 'neden gecikti' sorusunun cevabını hazır tutar.",
+            },
+            {
+                soru: "Üretimimiz OSB parselinde sürüyor; büyütme projesi sırasında hangi bütçe kalemi en çok büyür?",
+                cevap:
+                    "Deneyimimizde en çok büyüyen kalem, mesai dışı pencere kullanımıdır: üretim durmadığı için gürültülü veya trafiği kısıtlayan imalatlar gece veya hafta sonuna kayar ve bu pencerelerin operatör ile lojistik maliyeti standart mesaiden yüksektir. İkinci sıradaki büyüme kaynağı, üretim hattının beklenmedik biçimde plan dışı bir alanı da kullanmasıdır — büyütme sahasının sınırı üretimle çakışınca makine planı yeniden çizilir. İlk toplantıda üretim müdürünüzle pencere haritasını netleştirmek, bu iki kalemin bütçedeki büyümesini önceden görmenizi sağlar.",
+            },
+            {
+                soru: "OSB içinde daha önce benzer bir proje yürüttünüz mü? Referans bütçe verisi paylaşabilir misiniz?",
+                cevap:
+                    "Beylikdüzü OSB içinde birden fazla büyütme projesi yürüttük ve kapanış verilerimiz arşivimizde tutuluyor; isim ve tesis bilgisi paylaşmadan, ölçek ve faz yapısı benzer bir projenin bütçe dağılımını referans olarak size gösterebiliriz. Bu referans birebir kopyalanmaz — her parselin erişim koşulu, üretim düzeni ve komşuluk kısıtı farklıdır — ama bütçe taslağının başlangıç noktasını gerçekçi kurmaya yarar. Projenizin ölçeği ve kapalı alan büyütme tipi netleştiğinde, en yakın referansı ilk toplantıya getiririz.",
+            },
+            {
+                soru: "Bütçemiz yönetim kurulundan onay bekliyor ama OSB içi bir imalat fırsatı şu an çıktı; bekleyelim mi, başlayalım mı?",
+                cevap:
+                    "Bu ikilemi çözmenin yolu bütçeyi fazlara bölmüş olmaktır: eğer ilk fazın (örneğin temel ve çelik) bütçesi ayrı onaylanabiliyorsa, o fazı başlatıp sonraki fazların onayını beklerken devam edebilirsiniz — proje tamamen durmaz, risk yalnızca ilk faza sınırlı kalır. Fazlı bütçe kurgusu tam da bu esnekliği sağlamak için tasarlanır. Tüm bütçenin tek seferde onaylanmasını bekleyen bir kurgu, fırsat kaybına daha açıktır; ilk toplantıda bütçeyi fazlara ayırarak kurmamızın nedenlerinden biri de budur.",
+            },
+            {
+                soru: "Proje bitince OSB içi tesisimizin bütçe kapanış raporunda hangi bilgiler olacak?",
+                cevap:
+                    "Kapanış raporumuzda üç ana bölüm bulunur: planlanan-gerçekleşen karşılaştırması (her bütçe bloğu için ayrı), sapma gerekçeleri (hangi kalem neden farklı çıktı — pencere kullanımı, ortak yol koordinasyonu, faz kayması gibi kategoriler halinde) ve gelecek proje için notlar (bu parselde bir daha büyütme yapılırsa hangi veri hazır beklenmeli). Rapor, tesis mühendisinize ve gerekiyorsa yönetim kurulunuza sunulabilecek biçimde hazırlanır. OSB içinde ilerleyen yıllarda yeni bir büyütme kararı alırsanız, bu rapor yeni bütçenin ilk sayfası olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Beylikdüzü OSB'nin varlığı ve organize sanayi bölgesi statüsü kamuya açık bilgidir; fazlı bütçe kurgusu, pencere kalemi ve kapanış raporu formatı firma pratiğidir, tesis adı veya rakam paylaşılmamıştır.",
+    },
+
+    "bolge:hadimkoy": {
+        h1: "Hadımköy Sanayi Aksında Çok Makineli Proje Kurgusu",
+        giris:
+            "Hadımköy aksını proje ofisinden okuyan bir kişi için ilçenin karakteristiği tek bir dev şantiye değil, aynı anda ilerleyen birden fazla orta ölçekli projedir: bir üretim tesisinin depo ilavesi, bir lojistik firmasının rampa genişletmesi, bir başka parselin çatı yenilemesi — hepsi aynı aks üzerinde, çoğu zaman aynı hafta içinde. Tek büyük yatırımın tüm ekipman kalemini tükettiği projelerden farklı olarak, buradaki asıl mesele birden fazla eşzamanlı proje arasında ortak bir makine filosunu doğru dağıtmaktır. Bir makinenin hangi gün hangi parselde olacağı, komşu projedeki başka bir makinenin programıyla çakışmamalı; aksın bir ucundaki acil ihtiyaç, öbür ucundaki planlı işin makinesini aksatmamalıdır. Bizim İkitelli merkezli konumumuz bu dağıtım işini kolaylaştırır — aks üzerindeki her nokta kısa mesafede kalır ve makine, bir projeden çıkıp aynı gün başka bir projeye girebilir. Bu sayfa, Hadımköy aksında birden fazla projeyi aynı anda ve tek bir ortak filo mantığıyla nasıl kurguladığımızı anlatır.",
+        maddeler: [
+            {
+                baslik: "Tek proje değil, portföy: aks üzerinde eşzamanlı planlama",
+                metin:
+                    "Hadımköy'deki müşterilerimizin çoğu tek seferlik büyük bir yatırım değil, yıl içine yayılmış birkaç orta ölçekli proje yürütür ve biz bu projeleri tek tek değil bir portföy olarak planlarız. Portföy planlamasının somut çıktısı, aylık bir aks haritasıdır — hangi parselde hangi hafta hangi makine çalışıyor, hangi projede boşluk var, hangi projede tepe talep bekleniyor. Bu harita sayesinde bir projede erken biten iş, aynı hafta başka bir projenin ihtiyacına kaydırılabilir; tek proje mantığıyla çalışan bir tedarikçi bu esnekliği göremez.",
+            },
+            {
+                baslik: "Ortak filonun günlük dağıtım mantığı",
+                metin:
+                    "Aynı aks üzerindeki birden fazla projeye hizmet veren bir filoda günlük dağıtım, tesadüfe bırakılamaz: her sabah hangi makinenin hangi parselde olacağı önceki günden belirlenir, parsel değişimleri aksın coğrafyasına göre rota optimizasyonuyla sıralanır ve bir projedeki gecikme diğerini geciktirmeyecek biçimde tampon süre bırakılır. Bu dağıtım disiplini olmadan ortak filo yönetmek, en çok bağıran projenin makineyi kapması anlamına gelir — sessiz ama zamanında ilerleyen proje, planlanmamış filoda kaybedendir.",
+            },
+            {
+                baslik: "Çok makineli proje paketinin aks içi kurgusu",
+                metin:
+                    "Tek bir orta ölçekli proje bile Hadımköy'de genelde birden fazla makine tipi ister: depo ilavesinde telehandler malzeme besler, forklift saha içi taşıma yapar, makaslı elektrik ve tesisat ekibine eşlik eder. Bu üçlünün senkron çalışması için proje başında ortak bir haftalık çizelge kurarız — hangi makine hangi gün hangi aktiviteye atanmış, devir saatleri net. Aksın diğer projeleriyle paylaşılan bir filoda bu iç senkronizasyon, dış (portföy düzeyi) senkronizasyonla iç içe kurulur; ikisi ayrı planlanırsa çakışma riski katlanır.",
+            },
+            {
+                baslik: "Tepe talep dönemlerinde aks içi öncelik kuralları",
+                metin:
+                    "Aynı aks üzerindeki birden fazla proje bazen aynı haftada tepe talebe girer — örneğin birkaç projede çatı fazı aynı ay yoğunlaşabilir. Bu durumda öncelik, kimin daha yüksek sesle istediğine değil, önceden belirlenmiş bir kurala göre verilir: sözleşmesinde önceden rezerve edilmiş makine önce sahada olur, plansız gelen talep aksın diğer parkından veya tedarik ağından takviye edilir. Bu kuralı proje başında müşteriye açıkça anlatırız — tepe dönemde 'neden bizim makinemiz gecikti' sorusunun cevabı, sözleşmedeki rezervasyon önceliğinde saklıdır, keyfi bir tercihte değil.",
+            },
+            {
+                baslik: "Aks üzerindeki proje geçmişinin yeni projeye katkısı",
+                metin:
+                    "Hadımköy aksında yıllar içinde biriken proje verisi, yeni bir müşteriyle çalışırken elimizde somut bir avantaj bırakır: aksın hangi kesiminde hangi zemin koşulu, hangi parselde hangi giriş kısıtı, hangi dönemde talebin tepe yaptığı kayıtlıdır. Yeni bir proje geldiğinde bu veriyle keşif hızlanır ve ilk makine planı, sıfırdan tahmin yerine aks geçmişinden beslenen bir tahminle kurulur. Bu birikim, aynı aksta çalışmayı sürdüren bir tedarikçinin tek somut rekabet avantajıdır; uzaktan gelen tek seferlik tedarikçi bu veriye sahip değildir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hadımköy aksında eşzamanlı proje-makine dağıtım tablosu",
+                paragraflar: [
+                    "Aks üzerinde tipik bir haftada birden fazla projenin makine ihtiyacının nasıl dağıtıldığına örnek aşağıdadır. Öncelik sütunu, rezervasyon zamanına göre belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Proje tipi", "Haftalık makine ihtiyacı", "Dağıtım önceliği", "Esneklik kaynağı"],
+                    satirlar: [
+                        ["Depo ilavesi (montaj fazı)", "Telehandler + 2 makaslı", "Rezervasyonlu, sabit", "Düşük — faz kritik"],
+                        ["Rampa/zemin genişletme", "Forklift + saha ekipmanı", "Hava koşuluna bağlı esnek", "Yüksek"],
+                        ["Çatı yenileme", "2 eklemli + telehandler", "Mevsimsel tepe dönem", "Orta"],
+                        ["Tesisat/elektrik revizyonu", "Akülü makaslı", "Diğer fazlara bağımlı", "Orta"],
+                        ["Acil küçük onarım", "Tek kompakt makine", "Aks içi takviyeyle karşılanır", "Yüksek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Portföy planlamasının müşteriye görünen yüzü",
+                paragraflar: [
+                    "Hadımköy'deki bir müşteri için portföy planlamasının somut karşılığı, öngörülebilirliktir: proje başında verdiğimiz makine takvimi, aksın diğer projelerinden etkilenmeden büyük ölçüde tutar, çünkü çakışmalar bizim tarafımızda önceden görülüp çözülmüştür. Müşteri aksın başka bir noktasında ne olduğunu bilmek zorunda değildir — bu koordinasyon yükünü biz taşırız. Görünen sonuç basittir: makine, sözü verilen gün sahadadır.",
+                    "Bu öngörülebilirliğin bedeli, planlama disiplinine ayrılan zamandır; her yeni proje aks haritasına eklenirken mevcut projelerin planı yeniden gözden geçirilir. Bu emek müşteriye fatura edilmez, hizmetin doğal parçası sayılır.",
+                ],
+            },
+            {
+                baslik: "Aks içi taşıma ile uzak sevkiyat arasındaki fark",
+                paragraflar: [
+                    "Hadımköy aksı içinde bir projeden diğerine makine kaydırmak, uzak bir sahadan yeni makine getirmekten yapısal olarak farklıdır: kaydırma birkaç saat içinde, çoğu zaman aynı gün tamamlanır ve iş programını kesintiye uğratmaz; uzak sevkiyat ise özel taşıma planlaması ve daha uzun bir bekleme süresi gerektirir. Bu fark, aks içi portföy planlamasının en somut faydasıdır — komşu projedeki bir makinenin erken bitmesi, sizin projenizin gecikmesini önleyen bir kaynağa dönüşebilir. Bunu görebilmek için aksın tamamına hakim bir planlama gerekir; tek proje ölçeğinde bakan bir tedarikçi bu fırsatı kaçırır.",
+                    "Aks içi taşımanın sınırı da nettir: bir makine aynı anda iki projede olamaz ve devir sırasında kısa bir bakım-kontrol molası gerekir. Bu molalar plana baştan yazılır, sahada sürpriz oluşturmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bizim projemiz küçük ölçekli; büyük projelerin arasında sıramız gelir mi?",
+                cevap:
+                    "Gelir, çünkü sıralama proje büyüklüğüne göre değil rezervasyon zamanına ve iş programınızın kesinliğine göre yapılır. Küçük bir proje, net bir tarih ve süre bilgisiyle erken rezervasyon yaptığında aks haritasında kendi yerini alır ve büyük bir projenin gölgesinde kalmaz. Riskli olan, net tarih vermeden 'bir ara ihtiyacımız olacak' diyerek planlamayı geciktirmektir — o durumda plansız talep, aksın esnek kapasitesine bağlı kalır ve tepe dönemde gecikme riski artar. Erken ve net rezervasyon, ölçekten bağımsız en güvenli yoldur.",
+            },
+            {
+                soru: "Aynı aksta başka bir projenizde makine varsa, bizim acil ihtiyacımızda oradan mı gönderiyorsunuz?",
+                cevap:
+                    "Mümkünse evet, ama sözleşmeli bir projenin rezerve makinesini izinsiz almayız — önce o projenin o günkü programında boşluk olup olmadığına bakılır, varsa kısa süreli devir için o projenin sorumlusundan onay alınır ve devir saatleri her iki tarafa da net bildirilir. Bu düzenin şeffaflığı önemlidir: 'komşu projeden ödünç' bir çözümdür, kalıcı bir vaat değildir. Gerçek anlamda acil ve komşu projede boşluk yoksa, aksın tedarik ağından en hızlı seçenek devreye girer; hangi yolun izlendiği size her zaman açıkça söylenir.",
+            },
+            {
+                soru: "Aks üzerinde bizimle aynı hafta üç proje daha yürüteceğinizi söylediniz; bu bizim maliyetimizi artırır mı?",
+                cevap:
+                    "Tam tersi, genelde düşürür: aynı hafta aynı akstaki birden fazla proje, nakliye ve konum değişikliği maliyetlerinin paylaşılmasını sağlar — bir aracın aynı gün birden fazla parsele uğraması, her projeye tek başına gelen araçtan daha ekonomiktir. Sizin maliyetinizi artıran tek senaryo, diğer projelerin sizinkiyle aynı makineyi aynı gün istemesidir; bunu önlemek için portföy planlamasını tam olarak bu yüzden yaparız. Rezervasyonunuz netse, aksın yoğunluğu sizin programınızı etkilemez, yalnızca bizim lojistik verimliliğimizi artırır.",
+            },
+            {
+                soru: "Projemizde üç farklı makine tipi aynı hafta gerekiyor; bunları ayrı ayrı mı planlıyorsunuz?",
+                cevap:
+                    "Hayır, tek bir haftalık çizelgede birlikte planlarız çünkü ayrı planlanan üç makine kolayca çakışır — biri geldiğinde diğerinin sahada olan makinesine yer kalmayabilir. Çizelgede her makinenin hangi gün hangi aktiviteye eşlik ettiği, aralarındaki devir noktaları ve gerekirse aynı anda çalışacakları saatler işaretlenir. Bu çizelge sizinle paylaşılır ve saha şefinizin onayından geçer; üç makinenin senkron çalışması, tek tek doğru gelmelerinden daha kritik bir başarı ölçütüdür.",
+            },
+            {
+                soru: "Projemiz altı ay sürecek ve aks üzerinde yeni projeler de başlayacakmış; bizim planımız bundan etkilenir mi?",
+                cevap:
+                    "Rezervasyonunuz sözleşmeyle sabitlendiği için hayır — yeni başlayan projeler sizin rezerve makinenizi etkilemez, aksın esnek kapasitesinden veya gerekiyorsa tedarik ağından beslenir. Etkilenebilecek tek şey, aks içi esnek takviye taleplerinizin (planda olmayan ek gün gibi) yoğun dönemlerde biraz daha önceden bildirilmesi gerekliliğidir. Altı aylık projenizin ilerleyişini aylık gözden geçirmeleriyle takip ederiz; aks üzerinde yeni projeler başladıkça bu gözden geçirmede size bilgi veririz, sizi habersiz bırakmayız.",
+            },
+            {
+                soru: "Aks üzerindeki geçmiş projelerinizden bizim projemize benzer bir örnek var mı, ilk planı ona göre mi kuruyorsunuz?",
+                cevap:
+                    "Genelde evet — aks üzerinde yürüttüğümüz projelerin verisi, benzer ölçek ve tipteki yeni bir proje için ilk tahminin başlangıç noktasıdır. İsim ve firma bilgisi paylaşmadan, benzer bir depo veya çatı projesinin makine kompozisyonunu ve süresini referans olarak gösterebiliriz. Bu referans birebir uygulanmaz çünkü her parselin erişimi ve iş programı farklıdır, ama ilk toplantıda sıfırdan tahmin yapmak yerine bu veriden başlamak, planın isabetini artırır. Projenizin tipini ve ölçeğini söylerseniz en yakın referansı ilk görüşmeye getiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Hadımköy'ün Avrupa yakasının sanayi ve depo aksı olduğu ve aks üzerinde çok sayıda orta ölçekli tesisin bulunduğu kamuya açık bilgidir; portföy dağıtım mantığı ve aks içi öncelik kuralları firma pratiğidir, tesis adı veya rakam paylaşılmamıştır.",
+    },
+
+    "bolge:kucukcekmece": {
+        h1: "Küçükçekmece'de Karma Dokuda Keşif ve Proje Maliyet Planlaması",
+        giris:
+            "Küçükçekmece'yi proje gözüyle okumak, tek bir doku değil iki dokunun aynı ilçe sınırları içinde iç içe geçtiğini görmek demektir: bir yanda yoğun konut ve site alanları, öte yanda aralarına serpilmiş küçük-orta ölçekli sanayi ve atölye parselleri. Bu karma yapı, proje maliyet planlamasını basit bir şablonla çözülemez hâle getirir — aynı hafta içinde bir sitenin ortak alan yenilemesi ile bir atölyenin makine değişimi projesi aynı ekiple yürütülebilir, ama ikisinin keşif verisi, erişim kısıtı ve bütçe kalemleri tamamen farklıdır. Bizim buradaki yaklaşımımız, projeye başlamadan önce sahayı doğru sınıflandırmaktır: konut dokusu mu, sanayi parseli mi, yoksa ikisinin sınırında mı — çünkü bu sınıflandırma, bütçenin hangi kalemlerden oluşacağını baştan belirler. Bu sayfa, Küçükçekmece'nin karma dokusunda keşiften bütçeye giden yolun nasıl kurulduğunu, iki farklı saha tipinin maliyet mantığının nerede ayrıştığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Karma dokuda keşfin ilk sorusu: hangi saha tipi?",
+                metin:
+                    "Küçükçekmece'de bir proje talebi geldiğinde keşif ekibimizin ilk işi, sahayı iki eksende sınıflandırmaktır: erişim tipi (site içi mi, sokak cepheli mi, sanayi parseli mi) ve çevresel hassasiyet (yaşam alanına yakınlık, gürültü-toz kısıtı var mı). Bu sınıflandırma bütçenin iskeletini belirler — konut dokusundaki bir iş, hazırlık ve pencere kısıtı kalemlerini ağırlıklı taşırken, sanayi parselindeki bir iş makine sınıfı ve erişim yüksekliği kalemlerini öne çıkarır. Karışık doku, tek bir şablonla keşif yapmayı riskli kılar; her sahaya kendi sınıfının kontrol listesiyle bakarız.",
+            },
+            {
+                baslik: "Site ve konut dokusunda bütçenin hazırlık kalemi",
+                metin:
+                    "İlçenin yoğun konut ve site alanlarındaki projelerde bütçenin görünmez ama büyük kalemi hazırlıktır: otopark boşaltma, sakin bilgilendirmesi, bina yönetimi onay süreci, çalışma saat kısıtları. Bu kalemler ekipmanın kendisinden bağımsızdır ama proje takvimini ve dolayısıyla toplam makine-gün sayısını doğrudan etkiler. Bütçe taslağımızda bu kalemi 'organizasyon payı' başlığıyla ayrı yazarız; site yönetimleri bu payı görmeden onay verdiğinde, iş sırasında ortaya çıkan gecikme bütçe dışı bir sürpriz gibi algılanır — oysa baştan öngörülebilir bir kalemdir.",
+            },
+            {
+                baslik: "Sanayi parselinde bütçenin erişim ve makine kalemi",
+                metin:
+                    "İlçe içindeki küçük-orta ölçekli sanayi parsellerinde ise bütçenin ağırlık merkezi farklıdır: parsel içi erişim genişliği, tavan kotu ve zemin taşıma kapasitesi, doğrudan makine sınıfını ve dolayısıyla günlük bedeli belirler. Bu sahalarda hazırlık kalemi görece küçüktür ama makine kalemi büyür — dar kapılı bir atölyede kompakt ama daha uzun süre çalışan bir makine mi, yoksa geniş girişli bir parselde standart ama kısa süreli bir makine mi sorusu, bütçenin en büyük değişkenidir. Keşifte bu ölçümü doğru yapmak, sanayi parseli bütçesinin isabetini belirleyen tek etken kadar önemlidir.",
+            },
+            {
+                baslik: "Karma iş listesinde ortak proje takvimi kurmak",
+                metin:
+                    "Aynı müşteri portföyünde hem site hem sanayi işi olduğunda — örneğin bir bina yönetim şirketi hem konut sitesi hem küçük iş merkezi yönetiyorsa — bu farklı saha tiplerinin işlerini tek bir proje takviminde birleştirmek mümkündür ve mantıklıdır: aynı hafta içindeki farklı saha ziyaretleri tek nakliye turuna bağlanabilir, keşif ekibi aynı günde birden fazla sahayı gezebilir. Bütçe tarafında bu birleşme, nakliye ve keşif kalemlerinin paylaşılmasıyla somut tasarruf üretir; ama her sahanın kendi bütçe kalemi (hazırlık veya erişim) ayrı satırda kalmaya devam eder — birleşme yalnızca lojistik kalemlerde işler.",
+            },
+            {
+                baslik: "Sınır bölgelerde: konut-sanayi geçiş sahalarının özel bütçesi",
+                metin:
+                    "İlçenin konut ve sanayi dokusunun birbirine en çok yaklaştığı geçiş bölgelerinde, bir projenin her iki dokunun kısıtını aynı anda taşıdığı durumlar olur — sanayi parseline yakın bir sitenin cephe işi, komşu atölyenin çalışma saatlerinden etkilenebilir; ya da konut alanına yakın bir atölyenin gürültülü imalatı, site sakinlerinin saatlerine göre planlanmalıdır. Bu sahalarda bütçeye üçüncü bir kalem eklenir: komşuluk koordinasyonu. Bu kalem küçük görünür ama atlanırsa iş sırasında şikayet-durdurma riskiyle karşılaşılır; keşifte komşu parsellerin kimliği ve hassasiyeti mutlaka not edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Küçükçekmece'de saha tipine göre bütçe kalemi tablosu",
+                paragraflar: [
+                    "İlçedeki karma dokuda üç saha tipinin bütçe kalemlerinin nasıl ayrıştığı aşağıdadır. Ağırlık sütunu, o kalemin toplam bütçedeki göreli payını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Ağırlıklı kalem", "İkincil kalem", "Bütçe riski"],
+                    satirlar: [
+                        ["Site / konut dokusu", "Hazırlık ve organizasyon payı", "Saat penceresi kısıtı", "Onay süreci gecikmesi"],
+                        ["Sanayi / atölye parseli", "Makine sınıfı ve erişim", "Zemin taşıma kapasitesi", "Yanlış ölçülen erişim"],
+                        ["Konut-sanayi geçiş sahası", "Komşuluk koordinasyonu", "Çift yönlü saat kısıtı", "Şikayet kaynaklı durdurma"],
+                        ["Karma portföy (çoklu saha)", "Lojistik paylaşım tasarrufu", "Keşif turlaşması", "Program çakışması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yanlış sınıflandırılan sahanın bütçeye maliyeti",
+                paragraflar: [
+                    "Karma dokuda en sık gördüğümüz bütçe hatası, sahanın yanlış sınıfla ele alınmasıdır: sanayi parseli gibi görünen ama aslında dar bir sokakta konut dokusuna komşu bir atölyenin, standart sanayi bütçesiyle planlanması gibi. Bu durumda makine büyüklüğü doğru seçilse bile hazırlık ve komşuluk kalemleri hiç bütçelenmemiş olur ve iş sırasında ortaya çıkar — genelde en kötü zamanda, iş yarıya gelmişken. Bu hatayı önlemenin yolu, keşif formunda her sahayı iki eksende (erişim tipi, çevresel hassasiyet) ayrı ayrı puanlamaktır; puanlama tek bakışta yapılmaz, sahanın çevresi de gezilerek doğrulanır.",
+                    "Yanlış sınıflandırmanın maliyeti çoğu zaman makine farkından değil, kayıp günden gelir: hazırlık için ayrılmamış zaman, iş başladıktan sonra sahada beklenmedik biçimde açılır ve o gün makine boşta durur. Doğru sınıflandırma, bu kayıp günü baştan bütçeye yazarak ortadan kaldırır.",
+                ],
+            },
+            {
+                baslik: "Karma portföy müşterileri için birleşik bütçe raporu",
+                paragraflar: [
+                    "Hem site hem sanayi parseli yöneten müşterilerimize, tek bir birleşik bütçe raporu sunarız: raporun üst kısmı toplam maliyeti ve lojistik paylaşımdan gelen tasarrufu gösterir, alt kısmı ise her sahayı kendi kalemleriyle ayrı ayrı listeler. Bu format, müşterinin hem genel bütçe kontrolünü hem saha bazlı hesap verebilirliğini aynı anda karşılamasını sağlar — yönetim kuruluna toplam rakamı sunarken, saha yöneticisine kendi binasının kalemini ayrıca gösterebilir. Karma dokuda çalışan bir portföy yöneticisi için bu ikili görünürlük, tek saha bazlı raporlamadan daha değerlidir.",
+                    "Rapor dönemsel olarak güncellenir ve yeni bir saha portföye eklendiğinde otomatik olarak aynı formata dahil edilir; portföy büyüdükçe raporlama yeniden kurulmaz, yalnızca genişler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bina yönetim şirketiyiz; hem sitelerimiz hem küçük bir sanayi parselimiz var. Tek teklif mi, ayrı ayrı mı isteyelim?",
+                cevap:
+                    "İkisini de talep edebilirsiniz ama önerimiz birleşik bir teklif istemenizdir: her saha kendi kalemleriyle ayrı ayrı görünür kalır, yalnızca ortak lojistik (nakliye turlaşması, keşif birleştirmesi) tek satırda paylaşılır ve bu size somut bir tasarruf olarak gösterilir. Ayrı ayrı teklif istediğinizde bu paylaşım fırsatını kaybedersiniz — iki ayrı nakliye, iki ayrı keşif ziyareti bütçelenir. Portföyünüzdeki saha listesini paylaşırsanız, birleşik teklifi hangi kalemlerin paylaşıldığını açıkça göstererek hazırlarız.",
+            },
+            {
+                soru: "Atölyemiz sanayi sitesinde değil, konut mahallesinin içinde kalan eski bir binada; bütçeyi nasıl etkiler?",
+                cevap:
+                    "Bu tam olarak konut-sanayi geçiş sahası tanımına giriyor ve bütçenizde iki kalem birden büyür: makine seçimi dar sokak ve komşu bina mesafesine göre kısıtlanır, aynı zamanda çevredeki konut sakinlerinin saatlerine uyacak bir çalışma penceresi gerekir. İkisi de standart bir sanayi parseli bütçesinde olmayan kalemlerdir. Keşif sırasında binanızın çevresini de gezip komşu yapıların kullanım saatlerini not ederiz; bu bilgi, bütçenin komşuluk koordinasyonu satırının büyüklüğünü belirler. Binanızın adresini ve çevresini paylaşırsanız, ilk tahmini bu iki kalemle birlikte çıkarabiliriz.",
+            },
+            {
+                soru: "Site yönetimiyiz, cephe yenileme bütçesi hazırlıyoruz ama hangi kalemlerin gerçekten gerekli olduğunu bilmiyoruz.",
+                cevap:
+                    "Site dokusundaki bir cephe projesinde beş kalemi standart olarak değerlendiririz: makine bedeli, nakliye, hazırlık-organizasyon payı (otopark, duyuru, bariyer), saat penceresi farkı (varsa) ve öngörülemeyen pay. İlk keşifte hangi kalemin sizin binanızda büyük hangisinin küçük çıkacağını (örneğin geniş bir sitede hazırlık payı küçük, dar bir avluda büyük olabilir) somut olarak gösteririz. Bütçe taslağını yönetim kuruluna sunmadan önce bu beş kalemin her birinin gerekçesini birlikte gözden geçirmenizi öneririz; gerekçesiz kalem, toplantıda en çok sorgulanan kalemdir.",
+            },
+            {
+                soru: "Sanayi parselimizdeki makine değişimi projesinde bütçe tahminimiz neden geçen yılki benzer işten yüksek çıktı?",
+                cevap:
+                    "Karma dokuda bu farkın en sık nedeni saha koşullarının değişmiş olmasıdır — çevredeki bir yapılaşma erişim yolunu daraltmış olabilir, ya da komşu bir sitenin çalışma saat kısıtı yeni eklenmiş olabilir. İkinci sık neden, geçen yılki referansın farklı bir saha tipinden (örneğin daha geniş girişli bir parselden) alınmış olmasıdır; karma dokuda iki sanayi parseli bile erişim açısından çok farklı olabilir. Bütçe farkının kaynağını görmek için iki teklifi kalem kalem yan yana koyarız — fark genelde tek bir satırda toplanır ve nedeni oradan netleşir.",
+            },
+            {
+                soru: "Projemiz hem sitenin ortak alanını hem bitişikteki küçük iş merkezini kapsıyor; tek bütçede mi ele alınmalı?",
+                cevap:
+                    "Fiziksel olarak bitişik ve aynı takvimde yürüyecekse evet, tek bütçede ele almak mantıklıdır — nakliye ve keşif paylaşılır, makine geçişleri iki saha arasında kısa mesürede yapılabilir. Ancak bütçe içinde iki sahanın kalemleri ayrı satırlarda kalmalıdır, çünkü onay mercileri farklı olabilir (site yönetimi ile iş merkezi yönetimi ayrı karar organlarıdır). Birleşik ama ayrıştırılmış bir bütçe formatı, hem lojistik tasarrufu yakalar hem de her tarafın kendi onay sürecinde kendi kalemini görmesini sağlar.",
+            },
+            {
+                soru: "Karma dokuda çalıştığınız için hangi tür hataları en çok gördünüz, biz nasıl kaçınabiliriz?",
+                cevap:
+                    "En sık gördüğümüz hata, sahayı tek bakışta sınıflandırıp detaylı keşfi atlamaktır — uzaktan sanayi parseli gibi görünen bir yer, yakından bakıldığında konut dokusuna çok yakın çıkabilir ve bütçelenmemiş bir komşuluk kalemiyle karşılaşılır. İkinci sık hata, birden fazla sahası olan müşterilerin her sahayı ayrı ayrı, birbirinden habersiz tedarikçilere teklif ettirmesidir; bu hem lojistik tasarrufu kaçırır hem de bütçe karşılaştırmasını zorlaştırır. Kaçınmanın yolu basittir: her sahayı fiziksel olarak gezen bir keşif ve tüm sahaların tek elden görüldüğü bir bütçe taslağı. İlk adım olarak sahalarınızın listesini ve kısa bir açıklamasını paylaşmanız yeterlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Küçükçekmece'nin yoğun konut dokusu ile aralarına serpilmiş küçük-orta ölçekli sanayi ve atölye parsellerini bir arada barındıran karma yapısı kamuya açık bilgidir; saha sınıflandırma yöntemi, birleşik bütçe raporu formatı ve komşuluk koordinasyonu kalemi firma pratiğidir, gerçek proje veya rakam paylaşılmamıştır.",
+    },
+
     "bolge:gebze-cevre-bolge": {
         h1: "Gebze ve Çevre Bölgede Proje Bazlı Ekipman Kiralama",
         giris:

@@ -813,4 +813,396 @@ export const ISTANBULPLATFORMKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Üsküdar'ın tarihi yapı dokusu, boğaz kıyısı konumu ve yamaç topografyası kamuya açık kent bilgisidir; platform eğim sınırı kavramı üretici standartlarına dayanır; eğim ölçüm ve bölgeleme düzeni firma pratiğidir.",
     },
+
+    "bolge:tuzla-tersaneler-bolgesi": {
+        h1: "Tuzla Tersaneler Bölgesi Giriş Prosedürüne Uygun Ekipman Kiralama",
+        giris:
+            "Tersane sahasına bir makinenin girmesi, bir kamyonun bir depoya girmesinden farklı bir olaydır. Tuzla Tersaneler Bölgesi'nin kendi giriş kapısı, kendi kayıt sistemi ve kendi kural seti vardır; sahaya alınacak her araç ve her ekipman, o kapıdan geçmeden önce belli bir evrak ve bilgi setini hazır tutmak zorundadır. Bu sayfa, ekipman kiralama sürecinin geminin kendisinden önceki adımına odaklanır: bölge kapısından geçiş, tuzlu deniz havasının makinede biriktirdiği yük ve tersanelerde alışıldık olmayan dar rıhtım kenarı zemininde çalışma. Bir manlift veya forkliftin sahaya inmesi, çalışmaya başlamasından çok önce, doğru kağıtla doğru kapıdan geçmesiyle başlar; bu sayfa o başlangıcı anlatır.",
+        maddeler: [
+            {
+                baslik: "Bölge kapısı için önceden bildirim seti",
+                metin:
+                    "Tersaneler Bölgesi'nin ana giriş kontrolü, araç plakası, sürücü kimliği ve ekipmanın hangi tersaneye gideceği bilgisini önceden ister. Bu bilgiyi sevkiyat gününe bırakmak, kapıda bekleyen ağır nakliye aracıyla sonuçlanır; biz bildirimi bir gün önceden tamamlarız ki makine kapıda değil işin başında zaman kaybetsin.",
+            },
+            {
+                baslik: "İkinci kapı: tersanenin kendi kayıt masası",
+                metin:
+                    "Bölge kapısından geçmek yeterli değildir; her tersanenin kendi güvenlik masası ayrıca ekipman evrakı ve operatör belgelerini kontrol eder. İki kapı arasındaki bilgi bazen örtüşmez — bölge kapısı araç odaklı çalışırken tersane masası ekipmanın periyodik kontrol raporunu ister. Bu farkı bilmeyen bir tedarikçi ikinci kapıda tıkanır; biz her iki kaydı da aynı dosyada taşırız.",
+            },
+            {
+                baslik: "Tuzlu deniz havasının ekipmana yükü",
+                metin:
+                    "Kıyı şeridine bu kadar yakın bir sahada çalışan hidrolik ekipmanın en sessiz düşmanı tuzdur; hava taşıdığı tuz zerreleri silindir yüzeyinde ve elektrik bağlantılarında birikir. Bölgeye giden makinelerde koruyucu yağlama aralığı kısaltılır, kontak noktaları düzenli açılıp kurulanır ve iade edilen makine bir sonraki işe tuzdan arındırılmadan verilmez.",
+            },
+            {
+                baslik: "Dar rıhtım kenarında zemin ve manevra",
+                metin:
+                    "Rıhtım kenarındaki şerit, sahanın en dar ve en yoğun geçilen bandıdır; bir tarafta su kenarı sınırı, diğer tarafta malzeme istifi vardır ve manevra alanı bu ikisinin arasına sıkışır. Makine bu şeride girmeden önce dönüş yarıçapı rıhtım genişliğiyle karşılaştırılır, su kenarına yaklaşma mesafesi işaretlenir ve destek ayağı basılacak noktalar zeminin taşıma gücüne göre seçilir.",
+            },
+            {
+                baslik: "Vardiya ve mesai dışı giriş kuralları",
+                metin:
+                    "Tersaneler Bölgesi'nde giriş saatleri tek bir mesai dilimine sıkışmaz; teslim takvimi sıkışan işlerde gece ve hafta sonu girişleri de olur. Mesai dışı girişte kapı personeli farklı, onay zinciri farklı işler; bu farkı önceden bilmeyen bir sevkiyat kapıda beklemeye mahkûm kalır. Biz mesai dışı işlerde giriş onayını gündüzden alır, kapıya varmadan geçişi netleştiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Giriş sürecinin adım adım karşılaştırması",
+                paragraflar: [
+                    "Bölge kapısından tersane sahasına kadar geçilen adımlar ve her adımda hazır olması gereken bilgi aşağıdaki tabloda özetlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Adım", "Kontrol noktası", "Gereken bilgi", "Zamanlama"],
+                    satirlar: [
+                        ["Bölge ana kapısı", "Plaka ve sürücü kaydı", "Araç-sürücü bilgisi", "1 gün önceden bildirim"],
+                        ["Tersane güvenlik masası", "Ekipman ve operatör kaydı", "Periyodik kontrol raporu, operatör belgesi", "Sevkiyat günü sabahı"],
+                        ["Saha yönlendirme", "Konum ve rıhtım şeridi ataması", "İş emri ve konum kroki", "Girişte teslim"],
+                        ["Mesai dışı geçiş", "Ayrı onay zinciri", "Önceden alınmış gece izni", "Gündüzden netleştirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bölge kapısında sık yaşanan gecikme nedenleri",
+                paragraflar: [
+                    "Kapıda geçirilen fazladan yarım saat, çoğunlukla aynı üç nedenden doğar: bildirimi sevkiyat gününe bırakmak, ekipman evrakının güncel olmayan bir tarihte kalması ve operatör belgesinin araçta değil ofiste unutulmuş olması. Üçü de önlenebilir hatalardır ve önlemin maliyeti sıfıra yakındır — sadece bir gün önceki kontrolü gerektirir.",
+                    "Bizim sevkiyat disiplinimiz bu üç noktayı ayrı ayrı kontrol listesine yazar: bildirim durumu, evrak tarihi, belge fiziksel konumu. Kapıda geçirilen zaman, tersanenin kaldırma programına veya işin başlama saatine bağlıysa, bu yarım saat işin tamamını geciktirebilir; bu yüzden listeyi şaka gibi görmeyiz.",
+                ],
+            },
+            {
+                baslik: "Rıhtım şeridinde makine seçim mantığı",
+                paragraflar: [
+                    "Rıhtım kenarındaki dar şeritte çalışacak makinenin seçimi, çalışma yüksekliğinden önce şase genişliğiyle başlar; genişçe bir gövde, şeride hiç girmeden reddedilir. İkinci kriter destek ayağı gerektirmeyen veya dar taban alanına sahip modellerdir — rıhtım zemininin taşıma sınırı, geniş açılı destek ayaklarını çoğu noktada imkânsız kılar.",
+                    "Bu iki kriteri geçen makineler arasından üçüncü eleme tuz direncine göre yapılır: rıhtıma en yakın işlerde koruma sınıfı yüksek pano ve conta setine sahip modeller öncelenir. Sonuç genellikle dar şaseli, düşük destek ayağı izli ve korozyona dayanıklı bir sınıfa iner; bu üçünü aynı anda karşılayan makine sayısı sınırlıdır ve bu yüzden rıhtım işleri erken rezervasyon ister.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bölge kapısından geçiş için hangi belgeler mutlaka fiziksel olarak araçta bulunmalı?",
+                cevap:
+                    "Üç belge asgari settir: ekipmanın güncel periyodik kontrol raporu, operatörün ilgili sınıf yeterlilik belgesi ve araç-sürücü bilgilerinin yer aldığı sevkiyat formu. Bu üçü dijital olarak önceden bildirilmiş olsa bile kapı görevlisi çoğu zaman fiziksel nüshayı da ister; biz her sevkiyatta kağıt kopyayı sürücüye ayrıca teslim ederiz ki dijital sistemde yaşanacak bir aksaklık kapıda beklemeye dönüşmesin.",
+            },
+            {
+                soru: "Mesai dışı bir işimiz var; gece bölgeye giriş mümkün mü?",
+                cevap:
+                    "Mümkündür ama ayrı bir onay zinciri gerektirir — gece vardiyasında kapı personeli ve onay mercii gündüzden farklıdır. Bu onayı biz gündüz saatlerinde, işin planlandığı geceden önce alırız; onay elimizde olmadan hiçbir sevkiyatı gece saatine planlamayız. Onaysız gece girişi denemek, hem makinenin kapıda beklemesine hem de tersanenin güvenlik kaydında sorun çıkmasına yol açar.",
+            },
+            {
+                soru: "Rıhtım kenarında çalışacağız; destek ayağı basacak yer bulamazsak ne olur?",
+                cevap:
+                    "Bu ihtimal keşifte önceden elenir — rıhtım şeridine göndereceğimiz makine, mümkünse destek ayağı gerektirmeyen veya minimum taban izine sahip sınıftan seçilir. Yine de sahada beklenmedik bir engelle karşılaşılırsa (kablo kanalı, ızgara, taze dökülmüş yüzey) operatör o noktaya basmaz, bir sonraki uygun noktaya kayar ve gerekirse iş için amirle birlikte alternatif konum belirlenir. Zemine güvenmeden ayak basmak, bizim eğitimimizde asla telafisi kabul edilen bir hata değildir.",
+            },
+            {
+                soru: "Makinemiz tuzlu havadan etkilenirse arıza masrafı bize mi yansır?",
+                cevap:
+                    "Hayır — tuzlu ortamın doğal etkisi bizim standart bakım protokolümüzün kapsamındadır ve bu maliyet kira fiyatına baştan dahildir. Ayrı fatura çıkan tek durum kullanım hatasıdır: örneğin makinenin yıkanmadan denize temas ettirilmesi veya koruma kapaklarının açık bırakılması gibi doğrudan ihmalden kaynaklanan durumlar. Bu ayrım sözleşmede açık yazılır ki tuzlu hava kaynaklı normal bakım ile ihmal arasında iş bitince tartışma çıkmasın.",
+            },
+            {
+                soru: "Bölge kapısındaki bildirim süresi ne kadar önceden yapılmalı?",
+                cevap:
+                    "Standart işlerde bir tam gün önceden bildirim yeterli olur; ancak yoğun sevkiyat günlerinde (birden fazla geminin aynı haftada teslim döneminde olması gibi) kapı trafiği artar ve bildirim iki güne çıkarılır. Biz bölgeye düzenli giriş yaptığımız için hangi haftaların yoğun geçtiğini önceden biliriz ve o haftalarda bildirimi otomatik olarak erkene çekeriz; müşterinin bunu ayrıca takip etmesi gerekmez.",
+            },
+            {
+                soru: "Operatörümüz bölgeye ilk kez giriyor; ekstra bir işlem gerekir mi?",
+                cevap:
+                    "Evet, ilk giriş yapan operatör için kimlik ve belge doğrulaması standart bildirime göre biraz daha uzun sürer ve bazı tersaneler kısa bir oryantasyon isteyebilir. Bu süreyi kiralama takvimine baştan ekleriz; ilk giriş gününü normal iş başlama saatiyle aynı ana denk getirmek, operatörün kapıda beklerken işin gecikmesine yol açar. Bölgeye daha önce girmiş bir operatör atanabiliyorsa bu süre ortadan kalkar; mümkünse tekrarlayan işlerde aynı operatörü tercih ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Tuzla Tersaneler Bölgesi'nin ayrı bir giriş kontrolüne sahip organize saha olduğu ve tersanelerin kendi güvenlik kayıt sistemini işlettiği kamuya açık bilgidir; bildirim süreleri ve rıhtım zemini değerlendirme yöntemi firma pratiğidir.",
+    },
+
+    "bolge:tuzla-kimya-sanayicileri-osb": {
+        h1: "Tuzla Kimya Sanayicileri OSB'de Ekipman Hazırlığı ve İSG",
+        giris:
+            "Bir kimya tesisine ekipman göndermek, bir imalat holüne göndermekten köklü biçimde farklı bir hazırlık ister. Tuzla Kimya Sanayicileri OSB'de üretim, hammadde ve ara ürün olarak sahada bulunan maddelerin kendisi risk taşır; bir makinenin motoru, elektrik aksamı veya sürtünme yüzeyi, doğru hazırlanmadan sahaya girdiğinde beklenmedik bir tutuşma kaynağına dönüşebilir. Bu sayfa, kimya sahasında ekipman kiralarken uygulanan hazırlık ve iş sağlığı-güvenliği disiplinini anlatır: makinenin kendisinin hazırlanması, sahaya giriş öncesi kontrol, genel tutuşma kaynağı önlemleri ve operatör davranış kuralları. Belirli bir tesis veya üretim hattı hakkında iddia içermez; anlattığımız, ihtisas OSB'sinde ekipman kiralarken standart olarak uygulanan genel güvenlik yaklaşımıdır.",
+        maddeler: [
+            {
+                baslik: "Sahaya girmeden önce ekipman ön kontrolü",
+                metin:
+                    "Kimya sahasına gidecek her makine, sevkiyattan önce ayrı bir kontrol listesinden geçer: yakıt ve hidrolik hat sızdırmazlığı, elektrik bağlantılarının izolasyon durumu, egzoz sisteminin kıvılcım tutucu kapasitesi. Bu kontrol, standart periyodik bakımın üzerine eklenen bir katmandır ve amacı basittir — sahaya girmeden önce riski makinenin kendisinde sıfırlamak.",
+            },
+            {
+                baslik: "Statik elektrik ve topraklama hazırlığı",
+                metin:
+                    "Kimyasal buhar veya toz taşıyabilecek alanlarda statik elektrik boşalması küçük ama gerçek bir tutuşma kaynağıdır. Bu tür sahalara giden makinelerde topraklama kablosu ve iletken lastik gibi standart önlemler kontrol edilir, sahaya giriş öncesi topraklama noktası tesis yetkilisiyle birlikte belirlenir. Bu, belirli bir üretim sürecine dair bir iddia değil, kimya sahalarında genel kabul görmüş bir hazırlık adımıdır.",
+            },
+            {
+                baslik: "Isı ve kıvılcım kaynaklarının izolasyonu",
+                metin:
+                    "Dizel motorlu bir makinenin egzoz yüzeyi, sıradan bir sahada göz ardı edilebilecek bir ısı kaynağıyken, kimya sahasında ayrı bir değerlendirme konusudur. Bu tip işlerde önceliğimiz mümkün olduğunda akülü veya elektrikli sınıfa yönelmektir; dizel makine zorunluysa egzoz kaynaklı ısı ve kıvılcım riskine karşı tesisin belirlediği güzergah ve bekleme noktaları dışına çıkılmaz.",
+            },
+            {
+                baslik: "Kişisel koruyucu donanım ve operatör hazırlığı",
+                metin:
+                    "Kimya sahasında çalışan operatör, standart baret ve emniyet kemerinin ötesinde tesisin talep ettiği ek donanımı (kimyasala dayanıklı eldiven, özel gözlük, gerektiğinde solunum koruması) taşımak zorundadır. Bu donanımın teslimi ve kullanım eğitimi işe başlamadan önce tamamlanır; eksik donanımla sahaya giriş, hangi iş olursa olsun bizim tarafımızdan başlatılmaz.",
+            },
+            {
+                baslik: "Acil durum ve tahliye bilgisinin operatöre aktarımı",
+                metin:
+                    "Kimya sahalarının kendine özgü alarm sinyalleri ve toplanma noktaları vardır; bu bilgi genel bir yangın tatbikatından farklıdır çünkü kimyasal sızıntı alarmı ile yangın alarmı farklı tepki gerektirebilir. Operatörümüz sahaya girmeden önce bu sinyalleri ve en yakın toplanma noktasını tesis yetkilisinden dinler; bu brifing atlanmadan iş başlamaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hazırlık adımları ve sorumluluk tablosu",
+                paragraflar: [
+                    "Kimya sahasına ekipman girişinde uygulanan hazırlık adımları ve kimin sorumlu olduğu aşağıda özetlenir. Bu tablo genel bir çerçevedir; her tesisin kendi ek şartı ayrıca uygulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Hazırlık adımı", "Uygulama zamanı", "Sorumlu taraf", "Amaç"],
+                    satirlar: [
+                        ["Ekipman ön kontrolü", "Sevkiyat öncesi", "Kiralama firması", "Sızdırmazlık ve izolasyon teyidi"],
+                        ["Topraklama noktası belirleme", "Sahaya giriş anında", "Tesis yetkilisi + operatör", "Statik boşalma riskini azaltmak"],
+                        ["KKD teslimi ve eğitimi", "İş başlamadan önce", "Kiralama firması", "Operatör koruma seviyesini sağlamak"],
+                        ["Alarm-tahliye brifingi", "Sahaya giriş anında", "Tesis yetkilisi", "Acil durumda doğru tepki"],
+                    ],
+                },
+            },
+            {
+                baslik: "Genel tutuşma kaynağı önlemi yaklaşımı",
+                paragraflar: [
+                    "Kimyasal madde bulunan sahalarda ekipmanın tutuşma kaynağı olma ihtimalini azaltmak sektörde genel kabul görmüş bir yaklaşımdır: motor ve elektrik aksamının sızdırmazlığı, yüzey sıcaklığının kontrolü, statik boşalmaya karşı topraklama. Bu yaklaşımı biz de standart hazırlık sürecimize dahil ederiz — hangi ekipmanın hangi bölgeye uygun olduğuna dair nihai karar her zaman tesisin proses güvenliği sorumlusuyla birlikte verilir.",
+                    "Önemle belirtmek isteriz: bu sayfa belirli bir tesisin iç düzenlemesi veya sınıflandırma haritası hakkında bilgi vermez, çünkü bu bilgi tesise özeldir ve kamuya açık değildir. Anlattığımız, ihtisas OSB'sinde kimya sahasına giden ekipmanın genel olarak nasıl hazırlandığıdır; sahaya özgü kesin kural her zaman o sahanın yetkilisinden alınır.",
+                ],
+            },
+            {
+                baslik: "Sahaya giriş sonrası günlük kontrol alışkanlığı",
+                paragraflar: [
+                    "Kimya sahasında çalışan ekipman, işe her başlamadan önce kısa bir günlük kontrolden geçer: sızıntı izi, kablo aşınması, lastik ve conta durumu gözle denetlenir ve bulgular güne ait forma işlenir. Bu kontrol standart günlük bakımın bir uzantısıdır ama kimya sahasında ayrı bir ciddiyetle uygulanır — küçük bir sızıntı, sıradan bir sahada bekletilebilecekken burada işin durdurulmasını gerektirebilir.",
+                    "Operatörlerimiz bu günlük kontrolü alışkanlık haline getirir ve şüpheli bir durumda makineyi kendi inisiyatifiyle durdurup tesis yetkilisine haber verir. Bu davranış bize maliyet gibi görünse de, kimya sahasında erken durdurmanın bedeli, geç fark edilen bir sorunun bedeliyle kıyaslanamayacak kadar küçüktür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kimya sahasına dizel makine göndermek mümkün mü, yoksa yasak mı?",
+                cevap:
+                    "Kesin yasak değildir ama tercih sırası nettir — mümkün olan her işte önce akülü veya elektrikli sınıf değerlendirilir; dizel makine ancak işin gücü veya süresi bunu zorunlu kılıyorsa ve tesisin proses güvenliği sorumlusu onay veriyorsa sahaya girer. Onay verildiğinde dizel makine, tesisin belirlediği güzergah ve bekleme noktaları dışına çıkmaz, egzoz kaynaklı ısı riskine karşı ek kontrol uygulanır. Karar tek taraflı değildir; biz önerimizi sunarız, nihai kararı tesisin güvenlik birimi verir.",
+            },
+            {
+                soru: "Operatörümüzün kimyasala dayanıklı eldiveni yok; siz mi sağlıyorsunuz?",
+                cevap:
+                    "Standart operatörlü kiralamada temel koruyucu donanım (baret, emniyet kemeri, uygun ayakkabı) bize aittir; kimya sahasına özgü ek donanım (kimyasala dayanıklı eldiven, özel gözlük gibi) genellikle tesisin kendi standardına göre belirlenir ve çoğu zaman tesis tarafından temin edilir. Hangi ek donanımın gerektiğini ve kimin sağlayacağını keşif aşamasında netleştiririz; bu netleşmeden operatör sahaya girmez.",
+            },
+            {
+                soru: "Makinemiz sahada arıza yaparsa acil müdahale nasıl olur?",
+                cevap:
+                    "Kimya sahasında arıza müdahalesi, sıradan bir sahadaki gibi anında yapılamayabilir çünkü müdahale ekibinin de sahaya giriş prosedürlerine tabi olması gerekir. Bu yüzden arıza senaryosunu keşif aşamasında konuşuruz: hangi arıza tipinde makinenin olduğu yerde bırakılıp güvenli hale getirileceği, hangi durumda tesis onayıyla hızlı müdahale ekibinin çağrılacağı önceden belirlenir. Beklenmedik gecikmeyi azaltan şey, bu senaryonun işe başlamadan önce yazılı olarak netleşmiş olmasıdır.",
+            },
+            {
+                soru: "Sahada hangi bölgelere makine girebileceğini kim belirliyor?",
+                cevap:
+                    "Bu karar tamamen tesisin proses güvenliği sorumlusuna aittir; biz sınıflandırma haritasını görmeyiz ve göremeyiz çünkü bu bilgi tesise özeldir. Bizim rolümüz, tesisin belirlediği sınırlar içinde hangi ekipmanın uygun olduğunu önermek ve o sınırlara harfiyen uymaktır. Bir bölgeye giriş konusunda belirsizlik varsa, iş asla 'muhtemelen sorun olmaz' varsayımıyla başlatılmaz; netleşene kadar bekler.",
+            },
+            {
+                soru: "Operatörümüz sahaya ilk kez giriyor; ekstra bir eğitim süresi gerekir mi?",
+                cevap:
+                    "Evet — ilk giriş yapan operatör için tesisin acil durum sinyalleri, toplanma noktaları ve saha içi hareket kuralları hakkında kısa bir brifing zorunludur ve bu süre kiralama takvimine baştan eklenir. Bu brifing genellikle yarım saatten az sürer ama atlanamaz; daha önce aynı sahaya girmiş bir operatör atanabiliyorsa bu süre kısalır, bu yüzden tekrarlayan işlerde mümkün olduğunda aynı operatörü öneririz.",
+            },
+            {
+                soru: "Kiralama fiyatına kimya sahasına özgü hazırlık maliyeti dahil mi?",
+                cevap:
+                    "Evet, standart ön kontrol, topraklama hazırlığı ve operatör brifingi teklif fiyatına dahildir ve ayrıca faturalandırılmaz. Sonradan fark çıkabilecek tek kalem, tesisin son anda talep ettiği ekstra bir donanım veya prosedürdür — böyle bir talep gelirse maliyeti işe başlamadan önce açıkça bildirir, onayınız olmadan uygulamaya geçmeyiz. Şeffaflık ilkemiz kimya sahasında da diğer tüm işlerimizle aynıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Tuzla Kimya Sanayicileri OSB'nin kimya sektörüne yönelik ihtisas OSB'si olduğu kamuya açık bilgidir; tutuşma kaynağı kontrolü ve topraklama gibi önlemler kimyasal madde bulunan sahalarda genel kabul görmüş İSG uygulamalarıdır ve belirli bir tesise dair iddia içermez; hazırlık süreci firma pratiğidir.",
+    },
+
+    "bolge:sancaktepe": {
+        h1: "Sancaktepe'de Manlift ve Forklift Kiralama",
+        giris:
+            "Sancaktepe, Anadolu yakasının son yirmi yılda hızla büyüyen ilçelerinden biri; toplu konut projeleri, yeni açılan sanayi parselleri ve genişleyen yol ağı bir arada ilerliyor. Bu büyüme, ekipman kiralama açısından tek tip bir talep üretmiyor — bir hafta bir inşaat sahasının çelik konstrüksiyon montajı, ertesi hafta yeni açılan bir imalathanenin çatı işi, sonrasında bir toplu konut sitesinin cephe bakımı gelebiliyor. Tuzla'daki tersane ve OSB hub'ımıza kısa mesafede olan Sancaktepe, bu çeşitliliğe hızlı cevap verebildiğimiz bölgelerden biri. Bu sayfa, hub'dan Sancaktepe'ye sevkiyat mantığını ve büyüyen bir ilçede saha disiplininin nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Tuzla hub'ından Sancaktepe'ye sevkiyat rotası",
+                metin:
+                    "Sancaktepe'ye giden sevkiyat, Tuzla'daki merkez parkımızdan TEM bağlantılı güzergahla ilerler ve bu rota günün saatine göre önemli ölçüde değişir. Sabah erken ve öğleden sonra geç saatlerdeki sevkiyatları önceliklendiririz çünkü trafik yoğunluğu, özellikle konut yoğun aksların kesiştiği noktalarda, teslim süresini iki katına çıkarabilir. Planlı bir sevkiyat, gecikmeli bir sevkiyattan hem daha ucuz hem daha öngörülebilirdir.",
+            },
+            {
+                baslik: "Yeni açılan sanayi parsellerinde ilk giriş",
+                metin:
+                    "İlçenin sanayi parselleri henüz olgunlaşma aşamasında; bazı sahalarda kalıcı elektrik hattı veya asfalt zemin henüz tamamlanmamış olabilir. Bu tür parsellere ilk kez giren makinede zemin taşıma kapasitesi görsel değerlendirmeyle değil, operatörün sahada yaptığı kontrolle belirlenir — toprak zeminde destek ayağı için taban plakası standart uygulamadır ve gevşek dolgu şüphesi varsa iş, zemin sıkıştırılana kadar ertelenir.",
+            },
+            {
+                baslik: "Toplu konut sitelerinde cephe ve ortak alan işleri",
+                metin:
+                    "Sancaktepe'nin konut stoku büyük ölçüde çok bloklu sitelerden oluşuyor ve bu sitelerde cephe bakımı, ortak alan aydınlatması gibi işler site yönetimiyle koordineli yürütülüyor. Blok girişleri ve yaya yoğunluğu göz önüne alınarak çalışma saatleri genellikle sakinlerin işe gidiş-dönüş yoğunluğunun dışına yazılır; makine park alanı site yönetimiyle önceden belirlenir ki araç trafiği engellenmesin.",
+            },
+            {
+                baslik: "Çelik konstrüksiyon montaj sahalarında vinç-manlift eşgüdümü",
+                metin:
+                    "İlçedeki yeni inşaat sahalarının bir kısmında çelik konstrüksiyon montajı vinç ve manliftin aynı anda çalıştığı bir düzen gerektirir. Vinç kaldırma yaptığı sürece manlift bomu o hat üzerinde tutulmaz; iki makinenin operatörü arasında telsiz koordinasyonu kurulur ve günlük kaldırma programı sabah paylaşılır. Bu koordinasyon eksikliği, ilçedeki hızlı büyümenin getirdiği yoğun şantiye trafiğinde en sık kazanın kaynağı olur.",
+            },
+            {
+                baslik: "Genişleyen yol ağında nakliye zamanlaması",
+                metin:
+                    "İlçenin yol ağı hâlâ genişliyor ve bazı güzergahlarda yol çalışması nedeniyle geçici kapanmalar oluyor. Düzenli sevkiyat yaptığımız için güncel kapanma noktalarını takip eder, rota planını sevkiyat gününden önce netleştiririz. Alternatif güzergah bilgisi olmadan yola çıkan bir sevkiyat, kapalı bir yolla karşılaştığında saatlerce gecikebilir; bu riski önceden haritalayarak sıfırlıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sancaktepe'de iş tipi ve makine eşleşmesi",
+                paragraflar: [
+                    "İlçeden en sık gelen iş tipleri ve önerilen makine sınıfı aşağıdaki tabloda özetlenmiştir. Zemin notu, sevkiyat öncesi netleştirilmesi gereken kritik bilgiyi gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Uygun makine", "Zemin notu", "Planlama önceliği"],
+                    satirlar: [
+                        ["Çelik konstrüksiyon montaj", "Dizel teleskopik + vinç eşgüdümü", "Şantiye zemini sıkıştırma durumu", "Kaldırma programıyla senkron"],
+                        ["Yeni parsel ilk hazırlık", "Dizel eklemli, taban plakalı", "Kalıcı zemin tamamlanmamış olabilir", "Sahada zemin kontrolü şart"],
+                        ["Site cephe bakımı", "Akülü veya dizel eklemli", "Sert zemin, park kısıtı", "Site yönetimi onayı"],
+                        ["İmalathane çatı işi", "Kompakt akülü makaslı", "Kapı ve iç yükseklik ölçüsü", "Dar geçit kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Büyüyen ilçede rezervasyon zamanlaması",
+                paragraflar: [
+                    "Hızlı büyüyen bir ilçede talep dalgalı ilerler — bir ay yeni açılan üç sanayi parseli birden makine ister, ertesi ay talep sakinleşir. Bu dalgalanmayı yönetmenin yolu erken bildirimdir: proje takviminiz netleştiği anda bize haber vermeniz, yoğun haftalarda makinenizin ayrılmasını sağlar. Son anda gelen talep, yoğun bir haftaya denk gelirse birkaç günlük bekleme yaşanabilir.",
+                    "Tuzla hub'ından kısa mesafede olmamız bu dalgalanmanın etkisini azaltır — park dolu olsa bile hub'daki dönüşüm hızı, Sancaktepe'ye günü birlik ek makine kaydırmayı mümkün kılar. Bu esneklik, ilçenin kendine özgü büyüme temposuna uyum sağlamamızın temel nedenidir.",
+                ],
+            },
+            {
+                baslik: "Site yönetimleriyle çalışma protokolü",
+                paragraflar: [
+                    "Toplu konut sitelerinde iş almak, bireysel bir müşteriyle çalışmaktan farklı bir protokol gerektirir: site yönetim planı, ortak alan kullanım kuralları ve sakinlere bildirim süreci ayrı ayrı yönetilir. Biz bu süreçte site yönetimiyle doğrudan iletişim kurar, çalışma tarihini ve makinenin park edeceği alanı yazılı olarak teyit ederiz.",
+                    "Sakinlere bildirim genellikle sitenin kendi duyuru kanalıyla yapılır ama biz de kendi tarafımızdan makinenin görünür bir uyarı işaretiyle çalıştığından emin oluruz. Bu çifte bildirim, iş sırasında sakinlerden gelebilecek beklenmedik itirazları büyük ölçüde önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni açılan sanayi parselimizde henüz asfalt yok; makine gelebilir mi?",
+                cevap:
+                    "Gelebilir ama zemin durumuna göre makine sınıfı ve destek düzeni değişir. Toprak veya sıkıştırılmamış dolgu zeminde dar taban izli, taban plakalı bir makine tercih edilir ve operatör sahaya girmeden önce zemin taşıma kapasitesini gözle ve deneyimle değerlendirir. Zemin belirgin biçimde gevşekse iş, sıkıştırma yapılana kadar ertelenir — bu, makinenin devrilme riskini baştan ortadan kaldıran tek güvenilir yöntemdir.",
+            },
+            {
+                soru: "Sitemizde cephe bakımı yapılacak; site yönetiminin onayını biz mi almalıyız yoksa siz mi?",
+                cevap:
+                    "Genellikle ikisi birlikte yürür — sözleşmeyi siz veya yönetiminiz yapar, ama makinenin park yeri ve çalışma saatleri konusunda biz de doğrudan site yönetimiyle iletişime geçeriz. Bu ikili iletişim, teknik detayların (makinenin ağırlığı, park alanının zemin uygunluğu gibi) doğru aktarılmasını sağlar. Onay süreci tamamlanmadan sevkiyat planlanmaz; son dakika onay beklemek işin başlangıcını geciktirir.",
+            },
+            {
+                soru: "Şantiyemizde hem vinç hem manlift çalışıyor; ikisi aynı anda güvenle çalışabilir mi?",
+                cevap:
+                    "Çalışabilir ama koordinasyonla — vinç kaldırma yaptığı sürece manlift bomu o hattın üzerinden çekilir ve iki operatör arasında telsiz iletişimi sürekli açık tutulur. Günlük kaldırma programı sabah paylaşılır ve manlift operatörü kaldırma saatlerini bilerek çalışma planını buna göre ayarlar. Bu koordinasyonu iş başlamadan önce yazılı brifing olarak veririz; sözlü anlaşmaya bırakılan koordinasyon sahada unutulmaya en açık noktadır.",
+            },
+            {
+                soru: "İlçede yol çalışması var, sevkiyat gecikir mi?",
+                cevap:
+                    "Güncel kapanma noktalarını takip ederiz ve rota planını sevkiyat gününden önce netleştiririz; bu yüzden bilinen bir yol çalışması genellikle gecikmeye yol açmaz. Anlık ve önceden bilinmeyen bir kapanma (acil bakım gibi) olursa alternatif güzergaha geçilir ve olası gecikme süresi size önceden bildirilir. Kritik bir başlangıç saatiniz varsa bunu bize belirtmeniz, rota seçiminde ek güvenlik payı bırakmamızı sağlar.",
+            },
+            {
+                soru: "Küçük bir imalathaneyiz, tek seferlik bir çatı işimiz var; süreç nasıl işler?",
+                cevap:
+                    "Tek seferlik işlerde süreç sadedir: telefonla iş tanımı ve saha ölçüleri alınır, uygun kompakt makine belirlenir ve sevkiyat tarihi netleştirilir. Ayrı bir çerçeve sözleşme veya uzun evrak süreci gerekmez; teslim tutanağı ve gerekiyorsa operatör belgesi kontrolüyle iş başlar. Sancaktepe'deki küçük ölçekli işlerin çoğu bu sade akışla, keşiften sevkiyata birkaç gün içinde tamamlanır.",
+            },
+            {
+                soru: "Sancaktepe'ye en yakın makine parkınız nerede, sevkiyat ne kadar sürer?",
+                cevap:
+                    "Ana parkımız Tuzla'daki tersane-OSB hub'ımızda konumlanır ve Sancaktepe'ye sevkiyat, trafik durumuna bağlı olarak değişen ama planlı sevkiyatlarda öngörülebilir bir sürede tamamlanır. Sabah erken veya öğleden sonra geç saatlerdeki sevkiyatları önceliklendiririz çünkü konut yoğun akslardaki trafik gün ortasında süreyi belirgin biçimde uzatabilir. Acil bir ihtiyacınız varsa bunu belirtmeniz, sevkiyatı gün içindeki en uygun pencereye kaydırmamızı sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Sancaktepe'nin Anadolu yakasında hızlı büyüyen, toplu konut ve yeni sanayi parseli karışımı bir ilçe olduğu kamuya açık bilgidir; Tuzla hub'ından sevkiyat rotası ve site yönetimi protokolü firma pratiğidir.",
+    },
+
+    "bolge:sultanbeyli": {
+        h1: "Sultanbeyli'de Platform ve Forklift Kiralama",
+        giris:
+            "Sultanbeyli, Anadolu yakasının küçük ve orta ölçekli sanayinin yoğunlaştığı ilçelerinden biri — mobilya atölyeleri, tekstil konfeksiyon işletmeleri, metal işleme atölyeleri dar sokaklarda ve küçük parsellerde iç içe çalışır. İlçenin sanayi dokusu, Tuzla'daki büyük ölçekli OSB'lerden farklı bir ölçekte işler: burada tek bir kurumsal tesisin OSB disiplini yerine, onlarca küçük işletmenin kendi sahasında benzer bir düzeni tutturması gerekir. Bu sayfa, ihtisas OSB'lerinde alışık olduğumuz sistemli yaklaşımı — önceden planlama, zemin kontrolü, evrak düzeni — küçük işletme ölçeğine nasıl taşıdığımızı anlatır. Tuzla hub'ımıza kısa mesafesi, ilçedeki küçük işlere de büyük saha disipliniyle hizmet vermemizi mümkün kılıyor.",
+        maddeler: [
+            {
+                baslik: "Küçük parselde OSB disiplinini uygulamak",
+                metin:
+                    "Büyük bir OSB'de zemin kontrolü, giriş kaydı ve iş planı standart prosedürle yürür; küçük bir atölye parselinde bu prosedürlerin resmi bir karşılığı yoktur ama riskleri aynen vardır. Biz Sultanbeyli'deki her işte aynı disiplini gönüllü olarak uygularız: sahaya girmeden önce zemin gözle ve deneyimle değerlendirilir, iş planı kısa da olsa yazılı hale getirilir ve teslim tutanağı imzalanır. Küçük ölçek, düşük standart anlamına gelmez.",
+            },
+            {
+                baslik: "Dar sokak ve komşu parsel gerçeği",
+                metin:
+                    "İlçenin atölye dokusu genellikle bitişik veya çok yakın parsellerden oluşur ve bir çatı ya da cephe işi neredeyse her zaman komşuyu ilgilendirir. Kurulum planında bomun süpürme alanı komşu parsel sınırıyla birlikte çizilir; düşme riskli kalemlerde komşu tarafın geçici olarak bilgilendirilmesi istenir. Bu adımı atlamak, işin ortasında komşu şikayetiyle durmasına yol açabilir.",
+            },
+            {
+                baslik: "Mobilya ve tekstil atölyelerinde yanıcı malzeme dikkati",
+                metin:
+                    "Mobilya imalathanelerinde ahşap talaşı ve vernik buharı, tekstil atölyelerinde ise kumaş tozu ve iplik artığı havada asılı kalabilen yanıcı malzemelerdir. Bu tip atölyelerde kaynak veya kesme gibi kıvılcım üreten işler için makine seçiminde önce akülü sınıf değerlendirilir; dizel makine gerekiyorsa çalışma alanı havalandırılır ve talaş-toz birikintisi işten önce temizlenir.",
+            },
+            {
+                baslik: "Metal işleme atölyelerinde zemin ve yük dağılımı",
+                metin:
+                    "Küçük metal atölyelerinin zemini genellikle sahanın kendi ihtiyacına göre dökülmüştür ve büyük ölçekli bir tesisin standardize edilmiş betonuyla aynı taşıma gücüne sahip olmayabilir. Forklift veya platform sahaya girmeden önce zeminin görünür çatlak, oyuk veya tamir izi taşıyıp taşımadığı kontrol edilir; şüpheli bölgelerde makine ağırlığı ve destek noktası atölye sahibiyle birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Küçük işletme için sadeleştirilmiş sevkiyat planı",
+                metin:
+                    "Sultanbeyli'deki çoğu iş tek günlük veya birkaç saatlik kısa kalemlerdir; bu ölçekte ağır bir sözleşme süreci hem gereksiz hem yavaşlatıcıdır. Sevkiyat planımızı buna göre sadeleştiririz — telefonla iş tanımı alınır, sahaya en yakın uygun makine hub'dan yönlendirilir ve teslimde kısa bir tutanakla iş başlar. Sadelik, disiplinden ödün vermek anlamına gelmez; sadece evrak hacmini işin ölçeğine uydurmaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Atölye tipine göre risk ve makine tablosu",
+                paragraflar: [
+                    "Sultanbeyli'deki başlıca atölye tiplerinde dikkat edilen risk noktası ve önerilen makine sınıfı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Atölye tipi", "Öne çıkan risk", "Önerilen makine", "Ön kontrol"],
+                    satirlar: [
+                        ["Mobilya imalathanesi", "Talaş ve vernik buharı", "Akülü makaslı", "Havalandırma ve temizlik"],
+                        ["Tekstil konfeksiyon", "Kumaş tozu birikintisi", "Akülü eklemli", "Toz temizliği, kıvılcımsız iş"],
+                        ["Metal işleme", "Zemin taşıma belirsizliği", "Dar taban forklift", "Zemin çatlak-oyuk kontrolü"],
+                        ["Küçük depo-sevkiyat", "Dar koridor, dönüş kısıtı", "Kompakt forklift", "Koridor genişliği ölçümü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Küçük işletme ölçeğinde OSB mantığını uygulamak",
+                paragraflar: [
+                    "Büyük bir OSB'nin sistemli yaklaşımının küçük atölyeye getirdiği en değerli şey öngörülebilirliktir: zemin bilinmeden, plan yapılmadan, evrak imzalanmadan işe başlamamak. Sultanbeyli'deki işlerimizde bu yaklaşımı resmi bir prosedür zorunluluğu değil, kendi standardımız olarak uygularız — çünkü küçük bir atölyede yaşanan bir kaza, büyük bir tesiste yaşanan kadar ciddi sonuç doğurabilir.",
+                    "Bu disiplinin pratik karşılığı basittir: her işte kısa bir saha kontrolü, yazılı iş tanımı ve teslim tutanağı. Üç adım da birkaç dakika sürer ama sahada karşılaşılabilecek belirsizliğin büyük kısmını baştan temizler.",
+                ],
+            },
+            {
+                baslik: "Komşu atölyelerle ortak sevkiyat fırsatı",
+                paragraflar: [
+                    "Sultanbeyli'nin sık dokusu bir avantaja da dönüşebilir: yakın parsellerdeki birden fazla atölyenin küçük işlerini aynı güne toplamak, nakliye maliyetini bölüştürür. Bir sokakta iki-üç atölyenin ayrı ayrı makine çağırması yerine, işleri aynı güne dizdiğimizde makine sabah birinde başlar, öğlen diğerine geçer ve nakliye tek seferde bölünür.",
+                    "Bu modeli kurmak için resmi bir organizasyon gerekmez — bize komşu atölyede de iş olduğunu bildirmeniz yeterlidir, koordinasyonu sevkiyat planımız üstlenir. Küçük işletmeler için bu, büyük tesislerin toplu sözleşme avantajına küçük ölçekte erişmenin bir yoludur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemiz küçük, resmi bir OSB'de değiliz; yine de zemin kontrolü yapılıyor mu?",
+                cevap:
+                    "Evet, ölçek fark etmeksizin her sahada aynı temel kontrolü uygularız — zemin gözle ve operatör deneyimiyle değerlendirilir, görünür çatlak veya tamir izi varsa makine ağırlığı ve destek noktası ayrıca konuşulur. Bu kontrol resmi bir OSB prosedürü olmasa da bizim kendi standardımızdır; küçük bir atölyede zemin sorununun sonucu büyük bir tesistekinden daha hafif değildir.",
+            },
+            {
+                soru: "Komşu atölyeyle aramızda anlaşmazlık var, çatı işimizi nasıl yaparız?",
+                cevap:
+                    "Bu durumda önce teknik netlik kurarız — bomun süpürme alanının kesinlikle kendi parsel sınırınız içinde kalıp kalmadığı ölçülür ve mümkünse iş bu sınır içinde tutulur. Sınırı aşmadan yapılamayacak bir kalem varsa, anlaşmazlığı büyütmemek için işi mümkün olan en dar zaman diliminde ve en az müdahaleyle tamamlamayı öneririz. Hukuki bir uyuşmazlık varsa taraflar arasında çözülmesi gerektiğini, bizim rolümüzün yalnızca teknik uygulama olduğunu baştan netleştiririz.",
+            },
+            {
+                soru: "Tekstil atölyemizde kumaş tozu her yerde; makineye zarar verir mi?",
+                cevap:
+                    "Uzun vadede evet, bu yüzden bu tip ortamlara giden makinelerde filtre ve soğutma kanalı kontrolü sık aralıklarla yapılır ve iş öncesi mümkünse çalışma alanındaki toz birikintisi temizlenir. Kısa süreli işlerde bu risk sınırlıdır ama uzun süreli kiralamalarda ek bakım aralığı uygularız; bu maliyet bizim standart protokolümüzün parçasıdır ve size ayrıca yansıtılmaz. Sizin tarafınızdan beklediğimiz tek şey, iş öncesi çalışma alanının makul ölçüde temizlenmesidir.",
+            },
+            {
+                soru: "Tek günlük küçük bir işimiz var, sözleşme imzalamak gerekiyor mu?",
+                cevap:
+                    "Ağır bir sözleşme süreci gerekmez — tek günlük işlerde teslim tutanağı ve gerekiyorsa operatör belgesi kontrolü yeterlidir. İş tanımı telefonda alınır, uygun makine hub'dan yönlendirilir ve sahada kısa bir imza ile teslim tamamlanır. Bu sadelik, herhangi bir anlaşmazlık durumunda dayanaksız kalmamak için gereken asgari kaydı yine de tutar; imzasız teslim etmeyiz.",
+            },
+            {
+                soru: "Sokağımız çok dar, büyük bir forklift giremez; alternatif var mı?",
+                cevap:
+                    "Dar sokak ve küçük parsel sınırlaması Sultanbeyli'de sık karşılaştığımız bir durum ve buna karşı kompakt sınıf makineler net bir çözümdür — dar şaseli forkliftler ve kompakt eklemli platformlar standart atölye kapılarından geçecek ölçüde üretilir. Kapı ölçüsü ve kapı sonrası ilk dönüş alanını paylaşmanız, hangi modelin hem girip hem çalışacağını sevkiyattan önce netleştirmemizi sağlar.",
+            },
+            {
+                soru: "Yakın parseldeki başka bir atölyenin de işi var; birlikte mi planlanır?",
+                cevap:
+                    "Planlanabilir ve önerimiz de budur — yakın parsellerdeki işleri aynı güne toplamak nakliye maliyetini bölüştürür ve her iki işletme için de tasarruf sağlar. Tek şart, iki işin tarihte bir-iki günlük esnekliğe sahip olmasıdır; tarih kesin sabitse ve ortak gün tutmuyorsa ayrı sevkiyat planlanır. Komşu atölyede de iş olduğunu bize bildirmeniz yeterlidir, koordinasyonu biz kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-12. Sultanbeyli'nin Anadolu yakasında küçük-orta ölçekli mobilya, tekstil ve metal işleme atölyelerinin yoğunlaştığı bir sanayi ilçesi olduğu kamuya açık bilgidir; küçük ölçekte uygulanan disiplin ve ortak sevkiyat modeli firma pratiğidir.",
+    },
 };

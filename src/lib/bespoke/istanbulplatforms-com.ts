@@ -421,4 +421,400 @@ export const ISTANBULPLATFORMS_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Marmara'nın çok illi sanayi yoğunluğu kamuya açık genel bilgidir; çok illi çerçeve sözleşme, bölgesel yedeklilik ve mobilizasyon kapsamı kavramları tedarik yönetiminde sektör standardı, tesis gruplama ve yenileme veri seti firma pratiğidir.",
     },
+
+    "bolge:dudullu-osb": {
+        h1: "Dudullu OSB'de Sürekli Filo Tahsisli Platform Tedariki",
+        giris:
+            "Dudullu Organize Sanayi Bölgesi, Ümraniye'nin İMES Sanayi Sitesi'ne komşu konumuyla Anadolu Yakası'nın en yoğun üretim ve imalat kümelerinden birini oluşturur; bölgedeki tesislerin büyük kısmı platform ihtiyacını mevsimsel bir olay değil, üretim takviminin sabit bir girdisi olarak yaşar. Bu tür bir ihtiyacı her seferinde tekil talep olarak karşılamak, hem tesis için hem tedarikçi için verimsizdir — talep her açıldığında yeniden makine bulmak, fiyat sormak ve müsaitlik kontrol etmek, sürekli ihtiyacı olan bir işletme için gereksiz bir sürtünmedir. Bizim Dudullu'daki çalışma biçimimiz, Tuzla'daki Anadolu Yakası operasyon merkezimizden bölgeye sürekli filo tahsisi kurmaktır: dönem başında tesisin kullanım profiline göre makine sınıfları ve adetleri belirlenir, bu kapasite dönem boyunca Dudullu hattına ayrılır ve tesis, her ihtiyaçta sıfırdan tedarikçi arayışına girmez. Bu sayfa, Dudullu OSB'deki bir tesisle sürekli filo tahsisinin nasıl kurulduğunu ve nasıl işletildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Dudullu'nun üretim yoğunluğu ve sürekli erişim ihtiyacı",
+                metin:
+                    "Dudullu OSB'deki tesislerin çoğu, İMES'e komşu bir üretim ve imalat ekosisteminin parçasıdır ve bu ekosistemde çatı, cephe, aydınlatma ve raf sistemleri üzerinde çalışma neredeyse hiç durmaz — bir hat yenilenirken diğer hat bakımdadır, bir bölümde tadilat sürerken başka bölümde periyodik kontrol yapılır. Bu sürekliliği tek seferlik kiralamalarla karşılamaya çalışan bir tesis, her talebinde makine müsaitliğine bağımlı kalır ve yoğun dönemde erişim riskiyle karşılaşır. Sürekli filo tahsisi bu riski ortadan kaldırır: tesisin ihtiyaç profiline göre ayrılan kapasite, başka müşteriye taahhüt edilmez ve tesis kendi üretim takvimini bu kapasiteye göre planlayabilir.",
+            },
+            {
+                baslik: "Tuzla merkezli Anadolu Yakası hub'ından tahsis mantığı",
+                metin:
+                    "Filo tahsisinin işleyebilmesi için kapasitenin talebin olduğu bölgeye yakın durması gerekir; bu yüzden Dudullu'ya ayrılan filo, Anadolu Yakası operasyon merkezimiz olan Tuzla'dan yönetilir. Bu, iki pratik sonuç doğurur: birincisi, talep açıldığında makine Avrupa Yakası'ndan köprü veya tünel geçişi beklemeden kısa sürede sahaya ulaşır; ikincisi, arıza veya ek talep durumunda ikame kapasitesi yine aynı yakadan, aynı gün içinde devreye girer. Anadolu Yakası'ndaki müşterilerimize Avrupa Yakası kapasitesinden hizmet vermeye çalışmak, sözleşmede yazılı bir süre taahhüdünü sahada anlamsız kılar; bu yüzden yaka ayrımını filo planlamasının başlangıç noktası sayarız.",
+            },
+            {
+                baslik: "Dönem başı filo planlaması: sınıf ve adet kararı",
+                metin:
+                    "Sözleşme kurulmadan önce tesisin geçmiş kullanım verisi — hangi ayda hangi sınıf makineye ne sıklıkta ihtiyaç duyulduğu — birlikte incelenir. Bu inceleme, dönem boyunca tahsis edilecek makine sınıflarını ve adetlerini belirler: kapalı hacimde çalışan akülü makaslı platformlar, dış cephe ve çatı işleri için eklemli platformlar, malzeme taşımada kullanılan forkliftler. Planlama, tesisin en yoğun dönemini esas alır; sakin dönemde fazla kapasite boşta kalmaz çünkü aynı filo, dönem içinde bölgedeki diğer tahsisli müşterilerle esnek biçimde paylaşılabilir hâle getirilir. Karar, tahmine değil geçmiş kullanım kaydına dayanır.",
+            },
+            {
+                baslik: "Vardiya düzenine göre teslim ve devir saatleri",
+                metin:
+                    "OSB içindeki üretim tesislerinin büyük kısmı vardiyalı çalışır ve makine ihtiyacı da bu ritme uyar — gündüz vardiyasının bakım penceresi ile gece vardiyasının üretim yoğunluğu aynı makineyi farklı saatlerde farklı amaçla kullanabilir. Sürekli filo tahsisinde teslim ve devir saatleri tesisin vardiya çizelgesine göre baştan tanımlanır: makine hangi vardiya değişiminde kime teslim edilir, günlük kontrol kaydı kim tarafından tutulur, mesai dışı acil talep hangi kanaldan açılır. Bu netlik olmadan vardiyalı bir tesiste makine, iki vardiya arasında kimsenin sorumluluğunda olmayan bir boşlukta kalabilir.",
+            },
+            {
+                baslik: "Yıl içi filo revizyonu",
+                metin:
+                    "Dudullu'daki bir tesisin ihtiyacı yıl boyunca sabit kalmaz — yeni bir hat devreye girer, bir bölüm kapasitesini büyütür veya bir proje geçici olarak ek makine gerektirir. Sürekli filo tahsisi bu değişime kapalı bir yapı değildir; dönem içinde tesisin talebiyle filo büyütülür veya küçültülür, değişiklik yazılı bir revizyonla sözleşmeye eklenir. Revizyon için sözleşmenin baştan iptal edilip yeniden kurulmasına gerek yoktur — mevcut ticari şartlar üzerinden ek veya eksiltme yapılır. Bu esneklik, sürekli tahsisin tek seferlik kiralamaya göre asıl avantajlarından biridir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dudullu'da filo tahsis modelleri",
+                paragraflar: [
+                    "Dudullu OSB'deki tesislerin kullanım profiline göre kurduğumuz filo tahsis modelleri ve her modelin uygun olduğu durum aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Tahsis modeli", "Uygun kullanım profili", "Kapasite konumu", "Revizyon esnekliği"],
+                    satirlar: [
+                        ["Sürekli sahada duran makine", "Günlük düzenli kullanım", "Tesiste konumlu", "Dönem sonunda gözden geçirme"],
+                        ["Rezerve kapasite", "Öngörülebilir ama aralıklı talep", "Tuzla hub'da hazır", "Aylık revizyon mümkün"],
+                        ["Çağrı bazlı takviye", "Ani ek ihtiyaç", "Bölge filosundan", "Talep anında"],
+                        ["Karma filo", "Hem sabit hem değişken ihtiyaç", "Kısmen tesiste, kısmen hub'da", "Dönemsel ayarlama"],
+                        ["Proje bazlı geçici artış", "Belirli süreli büyüme", "Hub'dan yönlendirme", "Proje sonunda otomatik düşüş"],
+                    ],
+                },
+            },
+            {
+                baslik: "İMES komşuluğunun tedarik zincirine etkisi",
+                paragraflar: [
+                    "Dudullu OSB'nin İMES Sanayi Sitesi'ne komşu olması, filo tahsisinin işleyişini dolaylı biçimde kolaylaştırır: bölgede yoğun bir yedek parça, servis ve tali sanayi ağı bulunduğu için sahadaki bir makinenin küçük bir arızasında bile dışarıdan parça beklemek yerine bölge içinden hızlı çözüm bulunabilir. Bu, tahsisli filonun kullanılabilirlik oranını dolaylı yoldan yükselten bir etkendir — arıza süresi, parçanın nereden geleceğine değil çoğu zaman bölge içi tedarik hızına bağlıdır. Filo planlamasında bu yerel ağı bilmek, hangi sınıf makinenin bölgede tutulacağı kararını da etkiler.",
+                    "Aynı yakınlık, tesisler arası makine geçişini de kolaylaştırır: Dudullu'daki bir tesiste iş biten makine, aynı bölgedeki başka bir tahsisli müşteriye uzun bir nakliye süreci olmadan yönlendirilebilir. Bu esneklik, dönem içi revizyonların hızını doğrudan artırır.",
+                ],
+            },
+            {
+                baslik: "Devreye alma: Dudullu'ya özgü adımlar",
+                paragraflar: [
+                    "Dudullu'daki bir sözleşmenin devreye alma döneminde önce tesisin OSB içi giriş prosedürü ve varsa kendi İSG oryantasyon süreci öğrenilir; bu prosedürler OSB yönetimine göre değil tesisin kendi güvenlik politikasına göre değişebildiği için genelleme yapılmaz, her tesis için ayrı kontrol edilir. Ardından tesisin çalışma alanları — kapalı üretim hattı, açık yükleme rampası, çatı erişim noktaları — gezilerek makine sınıfı kararları kesinleştirilir ve vardiya çizelgesine göre teslim-devir saatleri belirlenir.",
+                    "Bu hazırlık genellikle birkaç iş günü içinde tamamlanır ve sözleşmenin ilk ayı bu plana göre işletilir; ilk ay sonunda kullanım verisiyle plan gözden geçirilir, gerekiyorsa filo büyüklüğü ilk revizyonla ayarlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sürekli filo tahsisi ile normal kiralama arasındaki temel fark nedir?",
+                cevap:
+                    "Normal kiralamada her ihtiyaç ayrı bir talep, ayrı bir teklif ve ayrı bir müsaitlik kontrolüdür; sürekli filo tahsisinde ise dönem başında belirlenen kapasite tesise ayrılmış durumdadır ve tesis bu kapasiteyi ihtiyaç doğdukça kullanır. Bunun somut sonucu üçtür: erişilebilirlik artar çünkü ayrılan kapasite başka müşteriye taahhüt edilmez, süreç kısalır çünkü her seferinde yeniden teklif toplanmaz, ve fiyat öngörülebilir hâle gelir çünkü birim fiyatlar dönem başında sabitlenir. Dudullu gibi sürekli üretim yapan bir bölgede bu fark, yoğun dönemde makine bulamama riskinin tamamen ortadan kalkması anlamına gelir. Kullanım hacminiz düzenliyse tahsis modeli neredeyse her zaman avantajlıdır; hacim çok düşükse bunu size açıkça söyleriz.",
+            },
+            {
+                soru: "Tesisimiz Anadolu Yakası'nda, filo Avrupa Yakası'ndan mı geliyor?",
+                cevap:
+                    "Hayır, Dudullu'ya ayrılan filo Anadolu Yakası operasyon merkezimiz olan Tuzla'dan yönetilir. Bunun nedeni sadece coğrafi kolaylık değildir — köprü ve tünel geçişlerindeki trafik belirsizliği, sözleşmede yazılı bir müdahale süresini sahada anlamsız kılabilir. Anadolu Yakası'ndaki müşterilerimize Avrupa Yakası kapasitesinden hizmet vermeyi tercih etmeyiz, çünkü taahhüt ettiğimiz süreyi tutamama riskini bilerek almış oluruz. Dudullu'daki bir arızada ikame makine de aynı yakadaki kapasiteden gönderilir; bu, taahhüt edilen sürenin fiziksel bir karşılığı olması içindir.",
+            },
+            {
+                soru: "Filo büyüklüğünü nasıl belirliyorsunuz, yanlış hesaplarsak ne olur?",
+                cevap:
+                    "Karar, tahminle değil geçmiş kullanım verinizle başlar — hangi ayda hangi sınıf makineye ne sıklıkta ihtiyaç duyduğunuzu birlikte inceleriz ve dönem boyunca ayrılacak kapasiteyi buna göre kurarız. Elinizde geçmiş veri yoksa ilk dönemi temkinli bir tahsisle başlatır, ilk birkaç ayın gerçek kullanımını izler ve buna göre ayarlarız. Yanlış hesaplama telafisiz bir hata değildir: filo tahsisi baştan revizyona kapalı bir yapı olarak kurulmaz, dönem içinde tesisin gerçek ihtiyacına göre büyütülür veya küçültülür ve bu, mevcut ticari şartlar üzerinden yazılı bir ek olarak yapılır. Sözleşmenin yeniden kurulmasına gerek kalmaz.",
+            },
+            {
+                soru: "Vardiyalı çalışıyoruz, makine gece vardiyasında da kullanılabilir mi?",
+                cevap:
+                    "Evet, ve bunu sözleşmenin kurulma aşamasında tanımlarız. Teslim ve devir saatleri sizin vardiya çizelgenize göre yazılır: makine hangi vardiya değişiminde kime teslim edilir, günlük kontrol kaydını hangi vardiyanın sorumlusu tutar, mesai dışı bir acil talep hangi kanaldan açılır. Bu netlik olmadan vardiyalı bir tesiste makinenin iki vardiya arasında kimsenin sorumluluğunda olmadığı bir boşlukta kalması riski doğar — biz bunu devreye alma döneminde saha ziyaretiyle netleştirir, vardiya sorumlularının isimlerini ve iletişim kanallarını sözleşmeye ek olarak yazarız.",
+            },
+            {
+                soru: "Dudullu'daki bölge içi yedek parça ve servis ağı bize nasıl fayda sağlıyor?",
+                cevap:
+                    "Dudullu'nun İMES Sanayi Sitesi'ne komşu olması, bölgede yoğun bir yedek parça ve servis ekosistemi bulunması anlamına gelir; bu, tahsisli filonuzda küçük bir arıza çıktığında dışarıdan parça beklemek yerine bölge içinden hızlı çözüm bulunabilmesini sağlar. Kullanılabilirlik oranınızı doğrudan etkileyen bir faktördür — arıza süresi çoğu zaman parçanın nereden geleceğine değil bölge içi tedarik hızına bağlıdır. Aynı yakınlık, dönem içi revizyonlarda da işe yarar: bölgedeki başka bir tahsisli müşteride açığa çıkan kapasite, uzun bir nakliye süreci olmadan sizin ihtiyacınıza yönlendirilebilir.",
+            },
+            {
+                soru: "Sözleşme süresi boyunca fiyat sabit mi kalıyor?",
+                cevap:
+                    "Dönem başında belirlenen birim fiyatlar, sözleşmede yazılı bir taahhüt olarak dönem boyunca sabittir ve tek taraflı değiştirilemez. Filo revizyonu yapıldığında — yani makine sayısı arttırıldığında veya azaltıldığında — eklenen veya çıkarılan birimler için mevcut fiyat listesi esas alınır, yeniden pazarlık gerekmez. Çok yıllık sözleşmelerde ise fiyatın hangi tarihte ve hangi yönteme göre revize edileceği baştan yazılır; bu, keyfi bir zam değil önceden tanımlanmış bir mekanizmadır. Kapsam dışı bir kalemi sonradan fatura satırı hâline getirerek örtülü fiyat artışı yapmak bizim çalışma biçimimiz değildir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Dudullu OSB'nin İMES Sanayi Sitesi'ne komşuluğu ve bölgenin üretim yoğunluğu kamuya açık genel bilgidir; sürekli filo tahsisi, vardiya bazlı teslim düzeni ve dönem içi revizyon mekanizması firma pratiğidir.",
+    },
+
+    "bolge:silivri": {
+        h1: "Silivri'de Kontratlı Platform Tedarikinin Lojistik Avantajı",
+        giris:
+            "Silivri, İstanbul'un batı ucunda, kentin yoğun merkezinden belirgin bir mesafede yer alan bir ilçedir ve bu mesafe, erişim ekipmanı tedarikinde göz ardı edilemeyecek bir maliyet kalemi doğurur. Tek seferlik bir kiralamada makinenin gidiş ve dönüş nakliyesi sabit bir maliyettir; bu maliyet kısa süreli bir kullanıma yayıldığında toplam faturanın önemli bir payını oluşturur — üç günlük bir kiralamada nakliye bedeli, kullanım bedeliyle neredeyse yarışabilir. Uzun dönem kontratlı tedarik bu dengeyi tersine çevirir: makine bir kez bölgeye gelir ve sözleşme süresi boyunca bölgede kalır, nakliye maliyeti tek seferlik kalemden dönem boyunca amorti olan bir kaleme dönüşür. Avrupa Yakası operasyon merkezimiz olan İkitelli'den Silivri'ye kadar olan mesafe, tekil taleplerde bir dezavantaj gibi görünse de, kontratlı bir ilişkide bu dezavantaj bir kez ödenip kapatılan bir maliyete indirgenir. Bu sayfa, Silivri'de sürekli veya düzenli ihtiyacı olan bir işletme için kontratlı tedarikin lojistik mantığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Mesafenin tek seferlik kiralamada gerçek maliyeti",
+                metin:
+                    "İkitelli'deki operasyon merkezimizden Silivri'ye bir makinenin gidip gelmesi, kentin merkezi ilçelerine göre belirgin ölçüde daha uzun sürer ve daha yüksek nakliye maliyeti doğurur. Tek günlük veya birkaç günlük bir talepte bu maliyet, kullanım süresine oranla yüksek kalır — makine sahada bir gün çalışsa da nakliyesi aynı gidiş-dönüş mesafesini kat eder. Bu durum Silivri'ye özgü değildir, her uzak lokasyonun tek seferlik kiralamada karşılaştığı yapısal bir gerçektir; ama Silivri'nin merkeze uzaklığı bu etkiyi belirgin kılacak kadar büyüktür. Fiyat teklifimizde bu kalemi gizlemeyiz, ayrı bir satır olarak gösteririz.",
+            },
+            {
+                baslik: "Kontratlı modelde makinenin bölgede kalması",
+                metin:
+                    "Bir sözleşme kurulduğunda mantık değişir: makine bölgeye bir kez gelir, sözleşme süresi boyunca sahada veya bölge içinde konumlu kalır ve nakliye maliyeti dönem başına bir kez ödenir. Dönem içindeki her kullanım, ayrı bir nakliye gerektirmeden işletilir. Bu, kontratlı tedarikin Silivri gibi uzak bir bölgede tek seferlik kiralamaya göre en somut avantajıdır ve fiyat karşılaştırması yapılırken en çok gözden kaçan kalemdir — birim kira bedeli benzer görünse de, tek seferlik kiralamanın toplam maliyeti nakliye kalemiyle birlikte hesaplandığında kontratlı modelin lehine belirgin bir fark ortaya çıkar.",
+            },
+            {
+                baslik: "Silivri'deki tarım-gıda ve lojistik depolarının sürekli ihtiyacı",
+                metin:
+                    "Silivri, İstanbul'un tarım ve gıda üretimine yakın bölgelerinden biridir ve ilçede depolama ve lojistik amaçlı tesisler de bulunur; bu tür tesislerde raf sistemleri, çatı ve cephe bakımı, aydınlatma yenilemesi gibi işler düzenli aralıklarla tekrarlanan bir ihtiyaçtır. Böyle bir tesis için erişim ekipmanı, yılda bir kez değil düzenli aralıklarla gereken bir kaynaktır ve bu düzenlilik, kontratlı tedarikin ekonomik olduğu tam noktadır. Düzenli ama yoğun olmayan bir talep profili için tahsisli sürekli makine yerine, bölgede konumlu rezerve kapasiteyle çalışan bir çerçeve sözleşme genellikle daha uygun maliyetlidir.",
+            },
+            {
+                baslik: "Acil müdahalede mesafe riskinin azaltılması",
+                metin:
+                    "Sözleşmesiz bir müşterinin Silivri'de acil bir ihtiyacı doğduğunda, en yakın müsait makinenin nereden geleceği belirsizdir ve bu belirsizlik müdahale süresine doğrudan yansır. Kontratlı bir müşteri için durum farklıdır: sözleşme kurulduğunda bölgeye ayrılan kapasite zaten bölgede veya bölgeye yakın konumdadır, bu yüzden acil bir talepte beklenen süre, sözleşmede yazılı taahhüde göre şekillenir ve İkitelli'den her seferinde yeni bir sevkiyat planlanmasını beklemez. Mesafenin süre taahhüdünü zorlaştırdığı doğrudur; ama bu zorluk, kapasiteyi bölgeye önceden yaklaştırarak yönetilebilir hâle getirilir.",
+            },
+            {
+                baslik: "Dönem içi kullanım artışında nakliye avantajının büyümesi",
+                metin:
+                    "Kontratlı bir müşterinin dönem içindeki kullanım sıklığı arttıkça, başlangıçta ödenen tek seferlik nakliye maliyetinin kullanım başına düşen payı küçülür. Yılda birkaç kez ihtiyaç duyan bir tesis için bu avantaj sınırlıdır; ama düzenli aralıklarla veya sürekli ihtiyaç duyan bir tesis için nakliye maliyeti, dönem sonunda kullanım bedeli içinde neredeyse görünmez hâle gelir. Bu yüzden Silivri'deki bir tesisle sözleşme görüşmesine başlarken önce kullanım sıklığını birlikte değerlendiririz — sıklık düşükse kontrat avantajı sınırlı kalır, bunu açıkça söyleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kiralama modeline göre nakliye maliyetinin dağılımı",
+                paragraflar: [
+                    "Silivri gibi merkeze uzak bir bölgede, kiralama modeline göre nakliye maliyetinin toplam faturaya etkisi aşağıdaki tabloda karşılaştırılmıştır. Süre uzadıkça nakliyenin payı küçülür; kontratlı modelde bu düşüş en belirgin seviyeye ulaşır.",
+                ],
+                tablo: {
+                    basliklar: ["Model", "Nakliye ödeme sıklığı", "Kullanım süresine oranı", "Uygun kullanım profili"],
+                    satirlar: [
+                        ["Tek günlük kiralama", "Her talepte", "Çok yüksek", "Tek seferlik acil ihtiyaç"],
+                        ["Haftalık kiralama", "Her talepte", "Yüksek", "Kısa süreli proje"],
+                        ["Aylık kiralama", "Her talepte", "Orta", "Orta vadeli iş"],
+                        ["Rezerve kapasiteli çerçeve", "Dönem başında bir kez", "Düşük", "Düzenli aralıklı ihtiyaç"],
+                        ["Tahsisli sürekli makine", "Dönem başında bir kez", "En düşük", "Sürekli yüksek kullanım"],
+                    ],
+                },
+            },
+            {
+                baslik: "Silivri OSB ve depo bölgelerinin ihtiyaç profili",
+                paragraflar: [
+                    "Silivri'de sanayi ve depolama amaçlı kullanılan alanların ihtiyaç profili, kentin merkezi OSB'lerinden farklı bir ritimde işler: talep genellikle daha az sıklıkta ama her seferinde daha planlanabilir biçimde doğar — mevsimsel bakım dönemleri, depo genişletme çalışmaları, periyodik çatı ve raf kontrolleri gibi önceden bilinen ihtiyaçlar öne çıkar. Bu ritim, tesadüfi acil taleplere göre kurulan bir filo yerine, önceden planlanmış bir rezervasyon takvimiyle çalışan bir çerçeve sözleşmeye daha uygundur. Sözleşme görüşmesinde tesisin yıllık bakım takvimini birlikte çıkarmayı öneririz; bu takvim, hem bizim kapasite planlamamızı hem sizin bütçenizi kolaylaştırır.",
+                    "Planlanabilir talep, mesafe dezavantajını da telafi eder: bir bakım penceresi haftalar öncesinden bilindiğinde, makinenin bölgeye önceden konumlandırılması mümkün olur ve son dakika acil nakliyesine gerek kalmaz.",
+                ],
+            },
+            {
+                baslik: "Devreye alma: saha keşfi ve giriş prosedürleri",
+                paragraflar: [
+                    "Silivri'deki bir sözleşmenin ilk adımı, mesafe nedeniyle diğer bölgelere göre biraz daha kapsamlı planlanır: saha keşfi, tesisin erişim ihtiyaç envanterini çıkarmanın yanında, bölgeye en uygun makine konumlandırma noktasını da belirler. Tesisin giriş prosedürü, varsa özel güvenlik veya gıda-tarım tesislerine özgü hijyen kuralları öğrenilir ve personelimiz bu kurallara göre bilgilendirilir. Talep kanalı ve raporlama formatı bu dönemde netleştirilir; mesafe nedeniyle iletişimin gecikmeye tahammülü daha düşüktür, bu yüzden talep açma sürecinin baştan net olması burada özellikle önemlidir.",
+                    "Bu hazırlığın amacı, mesafenin getirdiği dezavantajı sözleşmenin başında bir kez çözüp dönem boyunca tekrar gündeme gelmesini önlemektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silivri'ye tek seferlik bir kiralama neden bu kadar pahalı çıkıyor?",
+                cevap:
+                    "Sebep birim kira bedeli değil nakliyedir. İkitelli'deki operasyon merkezimizden Silivri'ye bir makinenin gidip gelmesi, kentin merkezi bölgelerine göre belirgin ölçüde uzun bir mesafe kat eder ve bu mesafe sabit bir nakliye maliyeti doğurur. Kısa süreli bir kullanımda — örneğin birkaç günlük bir kiralamada — bu sabit maliyet, kullanım süresine oranla yüksek kalır çünkü nakliye bedeli kullanım gününe değil gidiş-dönüş mesafesine bağlıdır. Aynı makineyi bir ay kullansanız nakliye maliyeti değişmez ama kullanım süresine oranı belirgin biçimde küçülür. Fiyat teklifimizde nakliye kalemini ayrı gösteririz ki bu maliyetin nereden geldiği açık olsun.",
+            },
+            {
+                soru: "Kontrat yaparsak nakliye maliyetinden nasıl tasarruf ediyoruz?",
+                cevap:
+                    "Kontratlı modelde makine bölgeye bir kez gelir ve sözleşme süresi boyunca bölgede veya bölgeye yakın bir noktada konumlu kalır; dönem içindeki her kullanım için ayrı bir gidiş-dönüş nakliyesi gerekmez. Bu, tek seferlik kiralamaların toplamına göre belirgin bir fark yaratır — özellikle düzenli aralıklarla tekrarlayan bir ihtiyacınız varsa. Somut tasarruf, kullanım sıklığınızla doğru orantılıdır: yılda birkaç kez ihtiyacınız varsa fark sınırlı kalır, düzenli veya sürekli ihtiyacınız varsa nakliye maliyeti dönem sonunda kullanım bedeli içinde neredeyse görünmez hâle gelir. Kullanım sıklığınızı birlikte değerlendirip size dürüst bir karşılaştırma sunarız.",
+            },
+            {
+                soru: "Acil bir arıza veya ek ihtiyaç çıkarsa Silivri'ye ne kadar sürede ulaşırsınız?",
+                cevap:
+                    "Sözleşmesiz bir talepte bu süre, İkitelli'den yeni bir sevkiyat planlanmasına bağlı olduğu için belirsizlik taşır. Kontratlı bir müşteri için durum farklıdır: sözleşme kurulduğunda bölgeye ayrılan kapasite zaten bölgede veya bölgeye yakın bir noktada konumlandırılmıştır, bu yüzden acil bir talepte beklenen süre sözleşmede yazılı taahhüde göre şekillenir ve merkezden yeni bir sevkiyat beklemek zorunda kalmazsınız. Mesafenin süre taahhüdünü zorlaştırdığını gizlemiyoruz; bu zorluğu kapasiteyi önceden bölgeye yaklaştırarak yönetiyoruz ve taahhüt ettiğimiz süreyi buna göre belirliyoruz.",
+            },
+            {
+                soru: "Yılda sadece iki-üç kez ihtiyacımız oluyor, yine de kontrat mantıklı mı?",
+                cevap:
+                    "Dürüst cevap, her zaman evet değildir. Kontratlı modelin nakliye avantajı kullanım sıklığıyla doğru orantılıdır; yılda iki-üç kez gibi düşük bir sıklıkta, dönem başında ödenen sabit maliyetler ile tek seferlik kiralamaların toplam nakliye gideri arasındaki fark sınırlı kalabilir. Bu durumda size kontrat yerine, ihtiyaçlarınızı önceden bildirdiğiniz bir rezervasyonlu çağrı düzenini öneririz — sözleşme yükü olmadan, talebiniz açıldığında öncelikli işlenen bir ilişki. Kullanım sıklığınız artarsa kontrata geçişi her zaman değerlendirebiliriz; başlangıçta size uymayan bir modeli önermeyiz.",
+            },
+            {
+                soru: "Tesisimiz tarım-gıda üretimi yapıyor, özel hijyen kurallarımız var; buna uyum sağlıyor musunuz?",
+                cevap:
+                    "Evet, bu tür kurallar devreye alma döneminde saha keşfiyle birlikte öğrenilir ve personelimiz tesisinizin kurallarına göre bilgilendirilir. Gıda ve tarım tesislerinde sıkça karşılaştığımız gereksinimler arasında makinenin girişten önce temizlik veya dezenfeksiyon işlemine tabi tutulması, belirli alanlara erişimin kısıtlı olması ve personel için ayrı bir hijyen oryantasyonu bulunması yer alır. Bu kuralları genel bir prosedür olarak değil, sizin tesisinize özgü bir liste olarak kaydeder ve her sevkiyat öncesinde bu listeye göre hazırlık yaparız. Standart olmayan bir kuralınız varsa devreye alma döneminde bize bildirmeniz, sürecin ilk seferde doğru işlemesini sağlar.",
+            },
+            {
+                soru: "Silivri'deki bir depo genişletme projesi için geçici ek kapasite alabilir miyiz?",
+                cevap:
+                    "Evet, sürekli sözleşmeniz olsun olmasın, proje bazlı geçici kapasite artışı mümkündür. Mevcut kontratınız varsa, proje süresi için gerekli ek makine sınıfları ve adetleri mevcut ticari şartlar üzerinden bir ek olarak sözleşmeye eklenir ve proje bittiğinde filo otomatik olarak eski seviyesine iner. Sözleşmeniz yoksa, projenin süresini ve kapsamını görüp bölgeye özel bir teklif hazırlarız; proje birden fazla haftaya yayılıyorsa, tek seferlik günlük kiralamalar yerine proje süresine özel bir fiyatlandırma genellikle daha ekonomiktir çünkü nakliye maliyeti proje başına bir kez hesaplanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Silivri'nin İstanbul'un batı ucundaki konumu ve merkeze olan mesafesi kamuya açık genel bilgidir; nakliye maliyetinin kiralama süresine oranı ve kontratlı tedarikin lojistik mantığı firma pratiğidir.",
+    },
+
+    "bolge:ambarli-liman": {
+        h1: "Ambarlı Limanı Ardiye Operasyonlarına Dönemsel Platform Tahsisi",
+        giris:
+            "Ambarlı Limanı, İstanbul'un Avrupa Yakası'ndaki en yoğun konteyner ve ro-ro trafiğine sahip liman bölgelerinden biridir ve buna bağlı ardiye alanları — depolama sahaları, antrepo binaları, yükleme-boşaltma tesisleri — talep yoğunluğu sabit kalmayan bir işleyişe sahiptir. Gemi trafiğinin yoğunlaştığı dönemlerde ardiye sahalarındaki erişim ekipmanı ihtiyacı hızla artar; durgun dönemlerde ise aynı ihtiyaç belirgin biçimde geriler. Bu dalgalanmayı sabit bir filoyla veya tek seferlik kiralamalarla karşılamaya çalışmak iki ayrı sorun doğurur: sabit bir filo durgun dönemde atıl kapasite olarak maliyet üretir, tek seferlik kiralama ise yoğun dönemde makine bulma riskini artırır. Bizim Ambarlı bölgesindeki çalışma biçimimiz, Avrupa Yakası operasyon merkezimiz İkitelli'den yönetilen dönemsel tahsis modelidir: ardiye operasyonunun yıl içindeki yoğunluk döngüsüne göre kapasite önceden planlanır, yoğun döneme girmeden filo büyütülür, durgun dönemde ihtiyaç fazlası kapasite bölgedeki başka müşterilere yönlendirilir. Bu sayfa, liman ardiyesi operasyonlarına dönemsel tahsisin nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Liman trafiğinin ardiye ihtiyacına yansıması",
+                metin:
+                    "Ambarlı'daki ardiye sahalarının erişim ekipmanı ihtiyacı, doğrudan liman trafiğinin ritmiyle ilişkilidir: gemi sayısının arttığı dönemlerde depolama sahalarında yükleme-boşaltma yoğunlaşır, raf ve istifleme sistemlerinin bakımı sıklaşır, geçici depolama alanlarının aydınlatma ve işaretleme düzenlemeleri daha sık elden geçer. Bu dönemlerde erişim ekipmanına duyulan ihtiyaç, sabit bir aylık ortalamanın oldukça üzerine çıkabilir. Durgun dönemde ise aynı ihtiyaç normal seviyesine iner. Dönemsel tahsis modeli, bu dalgalanmayı önceden öngörülen bir plan olarak ele alır; sürpriz olarak değil.",
+            },
+            {
+                baslik: "Dönemsel tahsis modelinin işleyişi",
+                metin:
+                    "Sözleşme kurulduğunda tesisin yıl içindeki yoğunluk döngüsü birlikte incelenir ve buna göre iki seviyeli bir kapasite planı yapılır: normal dönemde sahada tutulan temel filo ve yoğun döneme girmeden önce devreye alınan ek kapasite. Ek kapasitenin ne zaman devreye gireceği, geçmiş dönem verisine veya tesisin kendi operasyonel öngörüsüne göre önceden tanımlanır; talep son anda açılmaz, planlanmış bir tarihte otomatik olarak büyür. Yoğun dönem sona erdiğinde ek kapasite bölgedeki başka tahsisli müşterilere yönlendirilir ve tesisin faturası normal seviyesine döner.",
+            },
+            {
+                baslik: "Liman sahası güvenlik ve giriş prosedürlerine uyum",
+                metin:
+                    "Liman sahalarında çalışan tesisler, genel sanayi tesislerinden farklı bir güvenlik rejimine tabidir; liman güvenlik düzenlemeleri kapsamında personel giriş kartı, araç ve ekipman kayıt süreci ve bazı bölgelerde ek güvenlik taraması uygulanabilir. Bu prosedürler kamuya açık genel liman güvenlik uygulamalarıdır ve tesise göre farklılık gösterebilir; bu yüzden her sözleşme öncesinde tesisin kendi güvenlik biriminden hangi belgelerin ve sürecin isteneceği netleştirilir. Operatörlerimizin liman sahasına giriş için gereken belgeleri süresi dolmadan yenilemesi, sözleşme boyunca bizim sorumluluğumuzdur.",
+            },
+            {
+                baslik: "Ardiye binalarında yükseklik ve erişim ihtiyacı",
+                metin:
+                    "Antrepo ve depolama binalarının yüksek raf sistemleri, çatı yapıları ve aydınlatma donanımı, düzenli aralıklarla erişim gerektiren unsurlardır. Bu tür binalarda çalışma alanı genellikle dar koridorlar ve yoğun istifleme arasında sıkışır, bu yüzden makine sınıfı seçimi zemin ve koridor genişliğine göre özenle yapılır. Kapalı antrepo hacimlerinde akülü ve düşük emisyonlu makineler tercih edilir; açık saha ve yükleme rampalarında ise dizel veya daha yüksek erişimli sınıflar devreye girer. Bu ayrımı sözleşme kurulurken saha tipine göre önceden tanımlarız.",
+            },
+            {
+                baslik: "Gemi bekleme sürelerine bağlı ani talep",
+                metin:
+                    "Liman operasyonlarının doğasında, gemi varış ve kalkış programlarına bağlı ani değişiklikler vardır; bir geminin beklenenden erken veya geç gelmesi, ardiye sahasındaki iş yoğunluğunu birkaç gün içinde değiştirebilir. Dönemsel tahsis planı bu tür kısa vadeli dalgalanmaları da hesaba katacak şekilde bir miktar esneklik payı içerir — planlı ek kapasitenin yanında, kısa süreli ani talepler için bölge filosundan hızlı takviye alınabilir. Bu esneklik, sözleşmede ayrı bir madde olarak tanımlanır ve dönemsel plana ek bir kalem olarak fiyatlandırılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yıl içi yoğunluk dönemlerine göre filo stratejisi",
+                paragraflar: [
+                    "Ambarlı bölgesindeki ardiye operasyonlarında yıl içi yoğunluk dönemine göre uyguladığımız filo stratejisi ve bu stratejiyi belirleyen etkenler aşağıdaki tabloda özetlenmiştir. Kesin dönemler her sözleşmede tesisin kendi trafik verisine göre yazılır.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem tipi", "Talep karakteri", "Filo stratejisi", "Planlama ufku"],
+                    satirlar: [
+                        ["Normal dönem", "Sabit temel ihtiyaç", "Temel filo sahada", "Sürekli"],
+                        ["Yoğun trafik dönemi", "Ani ve yüksek", "Planlı ek kapasite devreye girer", "Önceden belirlenmiş tarih"],
+                        ["Durgun dönem", "Düşük", "Fazla kapasite bölgeye yönlendirilir", "Dönem sonu değerlendirme"],
+                        ["Gemi gecikmesi kaynaklı ani talep", "Kısa süreli ve öngörülemez", "Bölge filosundan hızlı takviye", "Talep anında"],
+                        ["Antrepo bakım penceresi", "Planlanabilir", "Rezervasyonlu çağrı", "Haftalar öncesinden"],
+                    ],
+                },
+            },
+            {
+                baslik: "Liman güvenlik ve giriş uyumunun sözleşmeye yansıması",
+                paragraflar: [
+                    "Liman sahalarında çalışmanın idari yükü, genel sanayi tesislerine göre daha ağırdır: personel giriş kartlarının süresi takip edilmeli, araç ve ekipman kayıtları güncel tutulmalı, bazı bölgelerde ek güvenlik taraması süreçlerine uyulmalıdır. Bu yükü müşteriye değil kendimize alırız — operatörlerimizin giriş belgelerini kendi takvimimize göre yeniler, süresi dolmadan yenileme sürecini başlatırız. Sözleşme metninde de bu sorumluluk açıkça bizim üzerimize yazılır; tesisin, her sevkiyat öncesinde operatör belgelerini kontrol etmek zorunda kalmaması amaçlanır.",
+                    "Devreye alma döneminde tesisin kendi güvenlik biriminden hangi sürecin isteneceği netleştirilir ve bu süreç, sözleşme boyunca değişmediği sürece tekrar sorulmaz; liman idaresinin genel kurallarında bir değişiklik olursa bunu takip etmek de bizim sorumluluğumuzdadır.",
+                ],
+            },
+            {
+                baslik: "Dönemsel tahsisin ticari yapısı",
+                paragraflar: [
+                    "Dönemsel tahsis, sabit bir aylık bedelden farklı kurulur: temel filo için dönem boyunca sabit bir birim fiyat, planlı ek kapasite için önceden tanımlanmış bir devreye girme bedeli ve ani takviye için ayrı bir çağrı bazlı fiyat olmak üzere üç katmanlı bir yapı kullanılır. Bu yapının amacı, durgun dönemde atıl kapasite için ödeme yapmamanızı, yoğun döneme girerken ise kapasite bulamama riskiyle karşılaşmamanızı sağlamaktır. Dönem sonunda gerçekleşen kullanım verisiyle bir sonraki yılın yoğunluk tahmini birlikte gözden geçirilir ve plan buna göre ince ayar yapılır.",
+                    "Bu ticari yapı, ilk sözleşme döneminde tahmin üzerine kurulsa da, her dönem sonunda gerçek veriyle güncellenerek zamanla tesisin gerçek ihtiyacına daha yakın bir plana dönüşür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yoğun dönemde ek makineyi ne zaman devreye alıyorsunuz?",
+                cevap:
+                    "Ek kapasitenin devreye girme tarihi, sözleşme kurulurken tesisin geçmiş dönem verisine veya operasyonel öngörüsüne göre önceden tanımlanır — talep son anda açılmaz, planlanmış bir tarihte otomatik olarak büyür. Bu, hem bizim kapasiteyi önceden hazırlamamızı hem sizin bütçenizi önceden planlamanızı sağlar. Öngörülen tarihte gerçek trafik beklenenden farklı çıkarsa, planı birkaç gün önceden bildirimle esnetebiliriz; ama bu esneklik, sözleşmesiz bir müşterinin son anda kapasite aramasıyla aynı riski taşımaz çünkü zaten bölgeye ayrılmış bir temel kapasite üzerine ekleme yapılır.",
+            },
+            {
+                soru: "Durgun dönemde fazla kapasite için ödeme yapıyor muyuz?",
+                cevap:
+                    "Hayır, bu tam olarak dönemsel tahsisin çözdüğü sorundur. Yoğun dönem için planlanan ek kapasite, durgun döneme girildiğinde sizin filonuzdan çıkar ve bölgedeki başka tahsisli müşterilere yönlendirilir; siz sadece temel filo için sabit bedel ödemeye devam edersiniz. Bu esneklik sözleşmede yazılı bir mekanizmadır, bizim inisiyatifimize bırakılmaz — hangi tarihte ek kapasitenin düşeceği, temel filonun ne olduğu baştan tanımlıdır. Amacımız, sabit bir filo tutmanın atıl kapasite maliyetini size değil bölgesel kapasite planlamamıza yüklemektir.",
+            },
+            {
+                soru: "Liman sahasına giriş için özel bir güvenlik süreci var, sizin operatörleriniz buna hazır mı?",
+                cevap:
+                    "Evet, ve bu hazırlığı sözleşme öncesinde tamamlarız. Liman sahalarında yaygın olan personel giriş kartı, araç-ekipman kayıt süreci ve bazı bölgelerdeki ek güvenlik tarama uygulamaları, devreye alma döneminde tesisinizin güvenlik biriminden öğrenilir ve operatörlerimiz bu sürece göre hazırlanır. Belgelerin süresini takip etmek ve süresi dolmadan yenilemek bizim sorumluluğumuzdadır; sözleşme metninde bu açıkça yazılır. Böylece her sevkiyat öncesinde sizin operatör belgelerini kontrol etmek zorunda kalmanız beklenmez.",
+            },
+            {
+                soru: "Bir geminin gecikmesi yüzünden aniden ek makineye ihtiyacımız olursa ne yaparsınız?",
+                cevap:
+                    "Bu tür kısa süreli ani talepler için dönemsel plana ayrı bir esneklik payı ekleriz: planlı ek kapasitenin yanında, bölge filosundan hızlı bir takviye kanalı tanımlıdır. Bu takviye, ayrı ve çağrı bazlı bir fiyatla işletilir çünkü önceden planlanan kapasiteden farklı bir maliyet yapısı taşır; ama sözleşmeniz olduğu için önceliğiniz sözleşmesiz bir talebe göre daha yüksektir ve bölgede zaten konumlu kapasiteden hızlı biçimde karşılanır. Bu maddeyi sözleşme görüşmesinde ayrıca ele alır, sizin liman trafiğinizin ne kadar öngörülemez olduğuna göre esneklik payını birlikte belirleriz.",
+            },
+            {
+                soru: "Antrepo binalarımızda dar koridorlar var, hangi makine sınıfını öneriyorsunuz?",
+                cevap:
+                    "Antrepo ve depolama binalarındaki dar koridorlar ve yoğun istifleme, makine sınıfı seçimini doğrudan belirler; öncelik dar alanlarda manevra kabiliyeti yüksek, kapalı hacimde kullanıma uygun akülü ve düşük emisyonlu sınıflardır. Açık saha ve yükleme rampalarında ise daha yüksek erişimli veya dizel sınıflar daha uygun olabilir. Doğru kararı vermek için devreye alma döneminde antrepo binalarınızı gezer, koridor genişliği ve raf yüksekliğine göre sınıf listesini birlikte çıkarırız. Yanlış sınıf seçimi, sahada hem verimsizlik hem güvenlik riski yaratır; bu yüzden bu kararı ilk sözleşme görüşmesinde değil, saha ziyaretinden sonra kesinleştiririz.",
+            },
+            {
+                soru: "Dönemsel tahsis planını her yıl yeniden mi kuruyorsunuz?",
+                cevap:
+                    "İlk yıl, elinizdeki veriye göre bir tahminle kurulur; ama her dönem sonunda gerçekleşen kullanım verisiyle plan gözden geçirilir ve bir sonraki yılın yoğunluk tahmini bu veriye dayanarak güncellenir. Zamanla plan, sizin gerçek liman trafiğinize daha yakın hâle gelir — yoğun dönemin başlangıç tarihi, ek kapasitenin büyüklüğü ve durgun dönemin süresi, ilk yıldaki tahminden daha isabetli olur. Bu gözden geçirmeyi sözleşme yenileme görüşmesinden ayrı, dönem içinde de yaparız; liman trafiğinde yapısal bir değişiklik olduğunu fark ettiğimizde bunu size bildiririz, dönem sonunu beklemeyiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Ambarlı Limanı'nın Avrupa Yakası'ndaki konteyner ve ro-ro trafiği yoğunluğu ile liman sahalarında genel güvenlik/giriş uygulamaları kamuya açık bilgidir; dönemsel tahsis modeli ve üç katmanlı ticari yapı firma pratiğidir.",
+    },
+
+    "bolge:istanbul-deri-osb": {
+        h1: "İstanbul Deri OSB'de (Tuzla) Periyodik Bakım Kontratlı Platform Hizmeti",
+        giris:
+            "Tuzla'daki İstanbul Deri Organize Sanayi Bölgesi, adından da anlaşılacağı gibi tekstil ve deri sanayisine ihtisaslaşmış bir bölgedir ve bu ihtisas niteliği, bölgedeki tesislerin bakım ihtiyacını genel bir sanayi bölgesinden farklı kılar. Deri işleme ve konfeksiyon üretiminin yürütüldüğü kapalı hacimlerde çalışma ortamı, kimyasal kokusu ve nem gibi etkenler taşıyabilir; bu ortamda çalışacak ekipmanın seçimi ve bakım periyodunun düzenliliği, genel bir üretim tesisine göre daha dikkat ister. Bizim bu bölgedeki çalışma biçimimiz, tek seferlik çağrılara dayanmaz — tesisin çatı, cephe, aydınlatma ve havalandırma sistemlerine yönelik erişim ihtiyacını periyodik bakım kontratı olarak kurarız: önceden belirlenmiş tarihlerde, önceden tanımlanmış kapsamda, tekrar eden bir bakım takvimi. Operasyon merkezimiz Tuzla'da olduğu için bölgeye yakınlığımız, planlı bakım pencerelerinin sapmadan işlemesini kolaylaştırır. Bu sayfa, İstanbul Deri OSB'deki bir tesisle periyodik bakım kontratının nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "İhtisas OSB'sinin bakım ihtiyacına özgü niteliği",
+                metin:
+                    "İstanbul Deri OSB, genel sanayi bölgelerinden farklı olarak tek bir sektöre — deri ve tekstil üretimine — ihtisaslaşmış bir bölgedir ve bu, tesislerin bina yapısında ve bakım ihtiyacında ortak bir örüntü doğurur: kapalı ve geniş üretim hacimleri, yoğun aydınlatma ihtiyacı, havalandırma ve nem kontrol sistemlerinin sık kontrol gerektirmesi. Bu örüntü, bölgedeki farklı tesislerin benzer bakım takvimlerine ihtiyaç duyması anlamına gelir ve bu ortaklık, bölgesel bir bakım kontratı kurgusunu kolaylaştırır — aynı dönemde birden fazla tesise planlı bakım hizmeti verebiliriz.",
+            },
+            {
+                baslik: "Periyodik bakım kontratı: önceden belirlenmiş takvim",
+                metin:
+                    "Periyodik bakım kontratı, tek seferlik çağrıdan temel olarak farklıdır: dönem başında hangi ayda hangi bakım işinin yapılacağı — çatı kontrolü, aydınlatma armatürü değişimi, havalandırma kanalı erişimi, cephe temizliği — yazılı bir takvime bağlanır. Tesis, hangi ayda makinenin sahada olacağını önceden bilir ve üretim planını buna göre ayarlayabilir; biz de kapasitemizi bu takvime göre önceden ayırırız. Bu düzen, hem tesisin hem bizim tarafımızda beklenmedik bir talep gibi işlemez — planlı bir operasyon gibi işler.",
+            },
+            {
+                baslik: "Tuzla hub'a yakınlığın planlı bakıma etkisi",
+                metin:
+                    "Periyodik bakım kontratının en kritik özelliği, planlanan tarihte sapmadan gerçekleşmesidir; bir bakım penceresi ertelendiğinde, bir sonraki pencereye kadar geçen süre tesisin bakım açığını büyütür. Anadolu Yakası operasyon merkezimizin Tuzla'da, İstanbul Deri OSB'ye yakın bir konumda olması, planlanan tarihte makinenin sahada olmasını kolaylaştırır — uzun bir yol mesafesi veya köprü geçişi belirsizliği, planlı tarihi tehdit eden bir risk faktörü olmaktan çıkar. Bu yakınlık, sözleşmede yazılı bakım takviminin bir formalite değil gerçekten işleyen bir taahhüt olmasını sağlar.",
+            },
+            {
+                baslik: "Kapalı üretim hacimlerinde akülü makine tercihi",
+                metin:
+                    "Deri ve tekstil üretiminin yürütüldüğü kapalı hacimlerde egzoz emisyonu ve gürültü, üretim ortamını doğrudan etkileyen faktörlerdir; bu yüzden bu tür alanlarda çalışacak erişim ekipmanının akülü ve düşük gürültülü sınıflardan seçilmesi genel bir sektör pratiğidir. Bölgedeki tesislerle çalışırken bu tercihi baştan konuşuruz — hangi hacimde akülü makaslı platformun, hangi alanda ise dış cephe için dizel eklemli platformun uygun olduğunu saha ziyaretiyle belirleriz. Kapalı hacimde yanlış makine sınıfı seçmek, sadece verimsizlik değil üretim ortamının kalitesini etkileyen bir risktir.",
+            },
+            {
+                baslik: "OSB yönetimiyle koordineli yıllık bakım takvimi",
+                metin:
+                    "İstanbul Deri OSB gibi organize bir bölgede, tesislerin bakım çalışmaları çoğu zaman bölge yönetiminin genel takvimiyle de örtüşür — ortak alan çalışmaları, mevsimsel kontroller veya bölge geneli denetim dönemleri. Periyodik bakım kontratı kurarken tesisin kendi takvimini bu genel çerçeveyle çakıştırmamaya özen gösteririz; örneğin bölge genelinde yoğun bir dönemde birden fazla tesisin aynı haftada bakım talep etmesi olasıdır, bu yüzden takvimi mümkün olduğunca erken netleştirir ve kapasite çakışmasını önceden yönetiriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Periyodik bakım tipleri ve önerilen sıklık",
+                paragraflar: [
+                    "İstanbul Deri OSB'deki tesislerde en sık kurduğumuz periyodik bakım kontratı kalemleri, önerilen sıklıkları ve kullanılan makine sınıfları aşağıdaki tabloda özetlenmiştir. Kesin takvim, tesisin bina yapısına ve üretim yoğunluğuna göre birlikte belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Bakım kalemi", "Önerilen sıklık", "Uygun makine sınıfı", "Ortam duyarlılığı"],
+                    satirlar: [
+                        ["Çatı ve dış cephe kontrolü", "Yılda 2 kez", "Eklemli platform", "Açık alan, ortam duyarlılığı düşük"],
+                        ["İç mekân aydınlatma bakımı", "Yılda 2-4 kez", "Akülü makaslı platform", "Kapalı hacim, düşük emisyon şart"],
+                        ["Havalandırma kanalı erişimi", "Yılda 2 kez", "Akülü dikey platform", "Kapalı hacim, dar alan"],
+                        ["Depo raf sistemi kontrolü", "Yılda 1-2 kez", "Forklift + akülü platform", "Kapalı hacim"],
+                        ["Bölge genel denetim öncesi hazırlık", "Denetim takvimine göre", "Karma filo", "OSB takvimiyle koordineli"],
+                    ],
+                },
+            },
+            {
+                baslik: "İhtisas bölgesinin tedarikçi seçimine etkisi",
+                paragraflar: [
+                    "Tek bir sektöre ihtisaslaşmış bir OSB'de çalışmak, tedarikçiden farklı bir bilgi birikimi bekler: deri ve tekstil üretim ortamının kimyasal ve nem duyarlılığını bilmeyen bir tedarikçi, yanlış makine sınıfını önerebilir veya bakım periyodunu ortamın gerçek aşınma hızına göre değil genel bir sektör ortalamasına göre belirleyebilir. Bölgedeki tesislerle tekrar eden bir ilişki kurmak, bu bilgi birikimini zamanla derinleştirir — hangi bina tipinde hangi bakım kaleminin daha sık gerektiğini, hangi alanların ortam duyarlılığının yüksek olduğunu saha deneyimiyle öğreniriz.",
+                    "Bu birikimi yeni bir tesisle çalışmaya başlarken de kullanırız: bölgedeki benzer bina tiplerinden edindiğimiz genel bilgiyi, yeni tesisin kendi saha keşfiyle doğrulayıp bakım takvimini ona göre kurarız — genel bilgiyi doğrulanmamış varsayım olarak sunmayız.",
+                ],
+            },
+            {
+                baslik: "Tuzla hub'dan planlı bakım lojistiği",
+                paragraflar: [
+                    "Periyodik bakım kontratının lojistik tarafı, tek seferlik kiralamadan farklı planlanır: yıllık takvimde yer alan her bakım penceresi, Tuzla'daki operasyon merkezimizde önceden bir sevkiyat planına dönüştürülür ve o hafta hangi makinenin hangi tesise gideceği, önceki haftadan hazırlanır. Bu, son dakika planlama belirsizliğini ortadan kaldırır ve planlı tarihte sapma riskini düşürür. Bölgeye yakınlığımız sayesinde aynı hafta içinde birden fazla tesise planlı bakım hizmeti verebiliriz, bu da bölgesel kapasiteyi verimli kullanmamızı sağlar.",
+                    "Beklenmedik bir gecikme yaşandığında — örneğin bir önceki bakımın öngörülenden uzun sürmesi — bunu takip eden tesise önceden haber veririz; sessiz bir gecikme yerine, revize edilmiş bir tarih iletişimini tercih ederiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Periyodik bakım kontratı ile ihtiyaç oldukça çağırmak arasındaki fark nedir?",
+                cevap:
+                    "Periyodik bakım kontratında hangi ayda hangi bakım işinin yapılacağı dönem başında yazılı bir takvime bağlanır; siz üretim planınızı bu takvime göre kurarsınız, biz kapasitemizi buna göre ayırırız. İhtiyaç oldukça çağırmakta ise her talep ayrı bir süreçtir — makine müsaitliği, fiyat ve zamanlama her seferinde yeniden belirlenir. Bakım ihtiyacınız yılın belirli dönemlerinde tekrar eden bir örüntü gösteriyorsa — ki deri ve tekstil üretim tesislerinde genellikle gösterir — periyodik kontrat hem öngörülebilirlik hem de genellikle daha uygun bir toplam maliyet sağlar. İhtiyacınız gerçekten düzensizse bunu size açıkça söyleriz, kontratı zorlamayız.",
+            },
+            {
+                soru: "Kapalı üretim alanımızda kimyasal koku var, hangi makine sınıfını öneriyorsunuz?",
+                cevap:
+                    "Deri ve tekstil üretiminin yürütüldüğü kapalı hacimlerde egzoz emisyonu ve gürültü üretim ortamını doğrudan etkileyebileceği için, bu tür alanlarda akülü ve düşük gürültülü makine sınıfları tercih edilir — bu, sektörde yaygın bir genel pratiktir. Hangi model ve hangi sınıfın sizin hacminize uygun olduğu, saha ziyaretiyle belirlenir: tavan yüksekliği, zemin durumu ve havalandırma sisteminin kapasitesi karara girer. Dış cephe veya çatı gibi açık alanlarda ise ortam duyarlılığı düşük olduğu için dizel eklemli platformlar daha uygun olabilir. Bu ayrımı sözleşme kurulmadan önce netleştirir, yanlış sınıf seçiminin üretim ortamınızı etkilemesini önleriz.",
+            },
+            {
+                soru: "Tuzla'daki merkeziniz bize ne kadar avantaj sağlıyor?",
+                cevap:
+                    "Periyodik bakım kontratının en kritik özelliği, planlanan tarihte sapmadan gerçekleşmesidir; bir bakım penceresi ertelendiğinde bir sonraki pencereye kadar geçen süre bakım açığınızı büyütür. Operasyon merkezimizin Tuzla'da, İstanbul Deri OSB'ye yakın bir konumda olması, planlanan tarihte makinenin sahada olmasını kolaylaştırır — uzun bir yol mesafesi veya trafik belirsizliği, planlı tarihi tehdit eden bir risk olmaktan çıkar. Bu yakınlık ayrıca beklenmedik bir ek talep çıktığında da hızlı müdahaleyi kolaylaştırır; sözleşmede yazılı takvimin sadece kâğıt üzerinde değil sahada gerçekten işlemesini sağlayan asıl unsur budur.",
+            },
+            {
+                soru: "Bölge genelinde denetim dönemi geldiğinde bakım takvimimiz nasıl etkilenir?",
+                cevap:
+                    "İstanbul Deri OSB gibi organize bir bölgede, bölge geneli denetim dönemlerinde birden fazla tesisin aynı haftalarda bakım talep etmesi olasıdır; biz bu riski önceden yönetiriz. Sözleşme kurulurken tesisinizin bakım takvimini bölgenin genel döngüsüyle mümkün olduğunca çakışmayacak şekilde planlarız; eğer bölge genelinde yoğun bir dönem öngörüyorsak bunu size önceden bildirir, gerekirse takviminizi biraz öne veya arkaya çekmeyi öneririz. Denetim öncesi hazırlık talebiniz son dakika gelirse, mevcut takvimimizdeki müsaitliğe göre önceliklendirme yaparız ama bunun garantisini veremeyiz — bu yüzden erken planlamayı öneririz.",
+            },
+            {
+                soru: "Bakım takvimini yıl içinde değiştirebilir miyiz?",
+                cevap:
+                    "Evet, takvim baştan kesin bir taahhüt değil, gözden geçirilebilir bir plandır. Üretim yoğunluğunuz değişirse, yeni bir bina alanı devreye girerse veya bir bakım kaleminin sıklığının yetersiz kaldığını fark ederseniz, takvimi yazılı bir revizyonla güncelleriz. Değişiklik için sözleşmenin yeniden kurulmasına gerek yoktur, mevcut ticari şartlar üzerinden takvim satırları eklenir veya çıkarılır. Tek istediğimiz, değişikliği bir sonraki bakım penceresinden yeterince önce bildirmenizdir — bu, bizim kapasite planlamamızın da sağlıklı işlemesini sağlar.",
+            },
+            {
+                soru: "Periyodik bakım kontratının fiyatı sabit mi, yoksa her seferinde mi belirleniyor?",
+                cevap:
+                    "Dönem başında, yıllık bakım takviminde yer alan her kalem için birim fiyat belirlenir ve bu fiyatlar dönem boyunca sabittir; her bakım penceresinde yeniden fiyat görüşmesi yapılmaz. Takvim dışında çıkan beklenmedik bir ihtiyaç — örneğin öngörülmeyen bir arıza onarımı sonrası ek kontrol — ayrı bir kalem olarak, önceden belirlenmiş çağrı bazlı fiyatla işletilir. Bu ayrım sözleşmede net yazılır: hangi işler yıllık takvimin parçası, hangileri kapsam dışı ek talep. Kapsamı net tutmak, dönem sonunda beklenmedik bir fatura kalemiyle karşılaşmamanızı sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. İstanbul Deri OSB'nin Tuzla'daki konumu ve deri-tekstil sanayisine ihtisaslaşmış OSB niteliği kamuya açık genel bilgidir; kapalı hacimde akülü makine tercihi sektör standardı genel bilgidir, periyodik bakım takvimi kurgusu ve OSB takvimiyle koordinasyon firma pratiğidir.",
+    },
 };
