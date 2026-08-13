@@ -105,6 +105,7 @@ import { BOLUPLATFORM_XYZ } from "./bespoke/boluplatform-xyz";
 import { BOLUPLATFORM_COM_TR } from "./bespoke/boluplatform-com-tr";
 import { AFYONPLATFORM_COM } from "./bespoke/afyonplatform-com";
 import { BILECIKPLATFORM_NET } from "./bespoke/bilecikplatform-net";
+import { BILECIKPLATFORM_COM_TR } from "./bespoke/bilecikplatform-com-tr";
 import { ISTANBULEKLEMLIPLATFORM_COM } from "./bespoke/istanbuleklemliplatform-com";
 import { KUTAHYAPLATFORM_NET } from "./bespoke/kutahyaplatform-net";
 import { AFYONMANLIFTKIRALAMA_NET } from "./bespoke/afyonmanliftkiralama-net";
@@ -268,6 +269,7 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "boluplatform.com.tr": BOLUPLATFORM_COM_TR,
     "afyonplatform.com": AFYONPLATFORM_COM,
     "bilecikplatform.net": BILECIKPLATFORM_NET,
+    "bilecikplatform.com.tr": BILECIKPLATFORM_COM_TR,
     "istanbuleklemliplatform.com": ISTANBULEKLEMLIPLATFORM_COM,
     "kutahyaplatform.net": KUTAHYAPLATFORM_NET,
     "afyonmanliftkiralama.net": AFYONMANLIFTKIRALAMA_NET,
