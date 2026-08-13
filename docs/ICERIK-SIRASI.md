@@ -133,6 +133,8 @@
 | `balikesirplatform.org` | **6/6** | 0 | 0 | ✅ TAMAM — gıda-süt-zeytinyağı tesisleri |
 | `amasyaplatform.com` | **5/5** | 0 | 0 | ✅ TAMAM — meyve işleme/soğuk depo (ilk Amasya) |
 | `istanbulplatforms.com` | **4/4** | 0 | 0 | ✅ TAMAM — uzun dönem kontrat/SLA |
+| `manliftkirala.online` | **6/6** | 0 | 0 | ✅ TAMAM — Bursa otomotiv yan sanayi ritmi |
+| `manliftkirala.xyz` | **6/6** | 0 | 0 | ✅ TAMAM — Denizli vardiya/iş gücü planlaması |
 | `izmir-forklift.com` | **6/6** | 0 | 0 | ✅ TAMAM — liman/hava kargo elleçlemesi |
 | `manliftkiralama.xyz` | **5/5** | 0 | 0 | ✅ TAMAM — Adana sıcak iklim (ilk Adana) |
 | `manliftkirala.net` | **6/6** | 0 | 0 | ✅ TAMAM — Ankara atölye bakım rutini |

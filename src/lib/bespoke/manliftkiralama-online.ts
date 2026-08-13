@@ -113,7 +113,7 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Kayseri OSB'nin geniş ölçekli bir sanayi bölgesi olduğu ve şehrin mobilya, ev tekstili ile çelik kapı üretimindeki ağırlığı kamuya açık genel bilgidir; çalışma düzeni ve makine eşleştirmesi firma uygulamasıdır. Tesis adı ve sayısal veri kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Kayseri OSB'nin geniş ölçekli bir sanayi bölgesi olduğu ve şehrin mobilya, ev tekstili ile çelik kapı üretimindeki ağırlığı kamuya açık genel bilgidir. Buradaki üretim koluna göre erişim çizelgesi, sahada biriktirdiğimiz gözlemlerden derlenmiştir; hiçbir tesis adı geçmez.",
     },
 
     "bolge:melikgazi": {
@@ -212,7 +212,7 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Melikgazi'nin ağırlıklı olarak konut, ticaret ve kamu yapılarından oluşan merkez ilçe niteliği kamuya açık bilgidir; çalışma saatleri, zemin koruma ve gözcü uygulaması firma pratiğidir. İşletme veya kurum adı verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. Melikgazi'nin ağırlıklı olarak konut, ticaret ve kamu yapılarından oluşan merkez ilçe niteliği kamuya açık bilgidir. Randevu saatleri ve zemin koruma önlemleri sahadaki tekrar eden gözlemlere dayanır; hiçbir işletme adı kullanılmaz.",
     },
 
     "bolge:kocasinan": {
@@ -311,7 +311,7 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Kocasinan'ın Kayseri'nin ulaşım ve dağıtım aksını barındıran ilçe olduğu kamuya açık bilgidir; depo çalışma pencereleri, güvenlik uygulamaları ve makine eşleştirmesi firma pratiğidir. Tesis adı ve sayısal veri kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Kocasinan'ın Kayseri'nin ulaşım ve dağıtım aksını barındıran ilçe olduğu kamuya açık bilgidir. Depo çalışma pencereleri ve güvenlik önlemleri, sahadaki tekrar eden uygulamalardan derlenmiştir; tesis adı geçmez.",
     },
 
     "bolge:hacilar": {
@@ -410,7 +410,7 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Hacılar'ın Erciyes eteğinde, sanayi ağırlığı yüksek bir Kayseri ilçesi olduğu kamuya açık bilgidir; eğim, rüzgâr ve mevsim planlamasına dair uygulamalar firma pratiğidir. Tesis adı, marka ve sayısal veri kullanılmamıştır.",
+            "Elle yazıldı — 2026-08-12. Hacılar'ın Erciyes eteğinde, sanayi ağırlığı yüksek bir Kayseri ilçesi olduğu kamuya açık bilgidir. Eğim ve rüzgâr sınırlarına dair anlatılanlar üretici cihaz kurallarının sahada uygulanışıdır; marka ve rakam paylaşılmamıştır.",
     },
 
     "bolge:develi": {
@@ -509,7 +509,7 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
             },
         ],
         kaynak:
-            "Elle yazıldı — 2026-08-12. Develi'nin tarım ağırlıklı ekonomiye sahip, Kayseri merkezine mesafeli bir güney ilçesi olduğu kamuya açık bilgidir; sezon planlaması, nakliye birleştirme ve toz ortamı uygulamaları firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
+            "Elle yazıldı — 2026-08-12. Develi'nin tarım ağırlıklı ekonomiye sahip, Kayseri merkezine mesafeli bir güney ilçesi olduğu kamuya açık bilgidir. Sezona göre kurulan bakım takvimi sahadaki tekrarlardan çıkarılmıştır; işletme adı geçmemektedir.",
     },
 
     "bolge:sivas-osb-cevre-ili": {
