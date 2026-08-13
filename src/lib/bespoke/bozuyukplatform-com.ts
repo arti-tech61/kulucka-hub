@@ -510,4 +510,201 @@ export const BOZUYUKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Bozüyük'ün Eskişehir iline karayoluyla komşu konumu kamuya açık coğrafi bilgidir. Firma adı ve rakam kullanılmamıştır.",
     },
+    "bolge:sakarya-cevre-ili": {
+        h1: "Sakarya Terminal ve Liman Yönlü Nakliye Akışına Platform Entegrasyonu",
+        giris:
+            "Sakarya çevre ili için bu sayfanın konusu TEM üzerinden metal tesisine bakım makinesi yetiştirmek ya da forklift ile platformu tek pakette göndermek değildir. B7'nin dar merceği, terminal ve liman yönünde ilerleyen nakliye akışının içindeki yüksek erişim işini, yük kabul ve çıkış düzenini bozmadan planlamaktır. Belirli terminal, liman, işletme, yük türü, kapasite veya güzergâh süresi hakkında iddia kurulmaz. Gerçek talepte platformun çalışacağı yer doğrulanır: yükleme rampası sundurması, kapı üstü mekanizma, dış aydınlatma, kamera, tabela, çatı kenarı, kablo veya haberleşme bağlantısı gibi personel erişimi isteyen noktalar. Platform yük elleçlemez ve terminal aracının yerine geçmez. İş, randevulu araç kabulü, kapı tahsisi, geçici park, yaya rotası ve sepetin hareket zarfı ile aynı operasyon çizelgesine eklenir. Makine sahaya giriş yaptığında aktif yük koridoruna sürülmez; ayrılmış hücrede kabul edilir ve yalnız terminal sorumlusunun açtığı pencerede hareket eder. Böylece bakım faaliyeti nakliye akışına sonradan eklenen görünmez engel olmaz; giriş, çalışma, hücre teslimi ve çıkış olayları operasyonun kendi ritmine bağlanır.",
+        maddeler: [
+            {
+                baslik: "Kapı randevusuna bakım hücresi eklemek",
+                metin:
+                    "Terminalde her araç girişi aynı anda aynı kapıyı kullanamaz. Platform taşıyıcısı için kabul noktası, indirme alanı ve çalışma makinesinin içeri alınacağı saat operasyon sorumlusuyla belirlenir. Bakım yapılacak rampa veya sundurma kapısı o zaman diliminde yük kabulünden çıkarılır ya da fiziksel olarak ayrılmışsa komşu kapılar çalışmaya devam eder. Platformun geliş saati yük aracının randevusuyla çakışırsa rastgele kenarda bekletilmez. Hücrenin başlangıç ve kapanış saati çizelgede görünür olur; bakım bitip sepet toplanmadan kapı tekrar operasyona verilmez.",
+            },
+            {
+                baslik: "Rampa üstü donanımda araç hareketini kesmek",
+                metin:
+                    "Kapı motoru, rampa üstü aydınlatma, sundurma, kamera veya kablo hattı üzerinde çalışırken yanaşan araç hareketi durur. Teker takozu, kapı sinyali veya işletmenin kullandığı başka kontrol yöntemi terminal yetkilisince uygulanır. Platform operatörü aracın güvenli duruma geldiğine tek başına karar vermez. Sepet ile araç kasası, kapı kanadı veya hareketli körük aynı zarfı paylaşmaz. Alt alan bariyerlenir ve sürücünün kabine dönüp aracı hareket ettirmesini önleyecek iletişim kurulur. İş tamamlanınca mekanizma tesis sorumlusuna teslim edilir; yeniden kullanıma açma yetkisi operasyondadır.",
+            },
+            {
+                baslik: "Çapraz sevkiyat temposunda bakım noktasını ayırmak",
+                metin:
+                    "Yükün uzun süre beklemeden bir araçtan diğerine aktarıldığı yoğun akışlarda boş zemin hızla değişir. Platform için keşifte görülen park yeri çalışma saatinde palet, kasa veya araçla dolmuş olabilir. Bu yüzden geçici bakım hücresi operasyon planında rezerve edilir ve zemindeki sınırı görünür biçimde işaretlenir. Sepet aktif yükün üstüne uzatılmaz, düşen parça alanında açık yük bırakılmaz. Hücre başka iş için gerektiğinde platform aceleyle başka noktaya alınmaz; bom indirilir, güzergâh açılır ve yeni park konumu yeniden kontrol edilir.",
+            },
+            {
+                baslik: "Terminalden liman yönüne giden akışta çıkış sırası",
+                metin:
+                    "Nakliye zincirinde yük aracının sonraki randevusu olabilir; bakım ekibi bu operasyonun önceliklerini bilerek çalışır. Hangi kapının ne zaman tekrar açılması gerektiği, hangi dış aydınlatma ya da tabela işinin araç çıkışını etkilediği önceden sıralanır. Kritik geçiş önce tamamlanıp teknik kabul alınır, daha esnek cephe kalemleri sonraki hücreye bırakılabilir. Platform veya taşıyıcısı ana çıkış kuyruğunu kapatmaz. İşin bitişi yalnız son vidanın sıkılması değildir; bomun toplanması, alet-parça sayımı ve bariyerin güvenle kaldırılması operasyon devrinin parçasıdır.",
+            },
+            {
+                baslik: "Platformu yük ekipmanından kesin biçimde ayırmak",
+                metin:
+                    "Terminal ortamında farklı makineler yan yana görünse de platformun görevi yalnız personel erişimidir. Sepete palet, uzun yük veya terminal malzemesi bağlanmaz; korkuluk dışına parça uzatılmaz ve platform araç kasasına yük aktarmak için kullanılmaz. Yük elleçleme işletmenin uygun ekipman ve prosedürüyle ayrı yürür. Aynı alanda bu faaliyetler sırayla yapılır; hareket zarfları kesişmez. B11'in forklift-platform paket yaklaşımına girmeden, bu sayfa tek ekipmanın sınırını korur. Bakım listesinde erişim ve yük operasyonu ayrı sorumlularla yazılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Terminal akışında platform işi kontrol tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli terminal veya liman işletmesinin prosedürü değildir; gerçek talepte yüksek erişim işini randevulu nakliye akışına bağlamak için kullanılan genel hücre modelidir.",
+                ],
+                tablo: {
+                    basliklar: ["Operasyon alanı", "Yüksek erişim işi", "Çakışma", "Entegrasyon kararı"],
+                    satirlar: [
+                        ["Rampa kapısı", "Motor, körük, aydınlatma", "Yanaşan araç", "Kapıyı bakım hücresine al"],
+                        ["Sundurma", "Çatı altı ve kamera", "Yük kabulü", "Alt alanı boşalt"],
+                        ["Çapraz sevkiyat alanı", "Kablo ve işaretleme", "Hızlı değişen stok", "Park yerini rezerve et"],
+                        ["Dış saha", "Direk, tabela, cephe", "Çıkış kuyruğu", "Alternatif trafik rotası"],
+                        ["Makine kabul alanı", "İndirme ve iade", "Diğer teslimatlar", "Ayrı randevu penceresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operasyon çizelgesinden bakım sırası çıkarmak",
+                paragraflar: [
+                    "Terminal yetkilisi yoğun kapıları, daha sakin pencereleri, araç kabul ve çıkış dönemlerini bildirir. Bakım ekibi hedefleri bu akışa göre gruplar: önce operasyonu doğrudan durduran kapı üstü kalemler, sonra bağımsız sundurma ve dış saha işleri. Her hedefin erişim kotu, yatay engeli ve park tabanı ölçülür. Malzeme ile teknik yetkili pencere başlamadan hazır olur. Böylece kapı kapalıyken parça aranmaz.",
+                    "Akış beklenmedik biçimde değişirse platform sepet açıkken taşınmaz. İş güvenli ara noktada kapatılır, bom indirilir ve yeni hücre terminal sorumlusuyla kararlaştırılır. Bakım çizelgesindeki esneklik, operasyonun her talebine anında yer değiştirmek değildir; önceden onaylanmış alternatifler arasında kontrollü geçiştir.",
+                ],
+            },
+            {
+                baslik: "Hücre kapanışı ve operasyon devri",
+                paragraflar: [
+                    "Her kapı veya saha hücresi sonunda el aletleri ile sökülen parçalar sayılır, gevşek bağlantı kalmadığı gözlenir ve çalışma tabanı temizlenir. Kapı mekanizması veya elektrikli donanım yalnız tesis yetkilisinin kontrolüyle yeniden çalıştırılır. Platform güvenli sınırın dışına çıkmadan bariyer kaldırılmaz. Teknik kabul ile operasyonun kapıyı açması iki ayrı adımdır ve ikisi de tamamlanır.",
+                    "Son hücre kapandığında platform iade alanına alınır; taşıyıcının randevusu diğer terminal araçlarıyla çakışmayacak biçimde doğrulanır. Açık iş varsa kapı, neden ve gerekli yeni pencere kaydedilir. Çıkış kuyruğuna yetişmek için tamamlanmamış bakım kapatılmış gösterilmez. Bu teslim düzeni yüksek erişim işini terminal akışında iz bırakmadan sonlandırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Terminal çalışırken rampa üstü bakım yapılabilir mi?",
+                cevap:
+                    "Tüm terminalin durması gerekmeyebilir, ancak çalışılan rampa kapısı ile sepet zarfına giren araç hareketi durmalıdır. Kapı operasyon çizelgesinde bakım hücresine alınır, sürücü ve saha ekibi bilgilendirilir, alt alan bariyerlenir. Fiziksel ayrımı olan komşu kapılar çalışabilir. Yanaşan araç, hareketli körük veya kapı mekanizması tesis yetkilisince güvenli duruma getirilmeden sepet yaklaşmaz. İş bitince teknik kabul ve operasyon devri yapılır; bom toplanmadan kapı yeniden açılmaz.",
+            },
+            {
+                soru: "Platformla araç kasasına veya palete yük aktarabilir miyiz?",
+                cevap:
+                    "Hayır. Yükseltilebilir çalışma platformu personel ve izin verilen el aletleri içindir; terminal yük ekipmanı değildir. Sepete palet, uzun parça veya korkuluk dışına taşan yük bağlanmaz. Kasa ile platform arasında malzeme köprüsü kurulmaz. Yük elleçleme uygun ekipman ve işletme prosedürüyle ayrı yapılır. İki faaliyet aynı hücrede gerekiyorsa sıraya konur ve hareket zarfları birbirinden ayrılır. Platformun sahada bulunması başka ekipmanın görevini üstlenebileceği anlamına gelmez.",
+            },
+            {
+                soru: "Taşıyıcınız terminal kapı randevusuna nasıl uyum sağlar?",
+                cevap:
+                    "İndirme alanı, giriş irtibatı ve kabul penceresi platform sevkiyatından önce terminalle netleştirilir. Taşıyıcı randevu dışı gelişigüzel giriş yapmaz ve ana yük kuyruğunda bakım makinesi indirmez. Varış değişirse operasyon sorumlusuna erken bilgi verilir. Makine kabul alanında görünür kontrolden sonra iç rotaya alınır. Bu kayıt TEM yolculuk süresini anlatmaz; terminalin kendi kapı ve saha akışına doğru zamanda bağlanmayı amaçlar. Gerekli evrak ve giriş kuralı ilgili işletmeden güncel olarak alınır.",
+            },
+            {
+                soru: "Çapraz sevkiyat alanında boş park yeri sürekli değişiyorsa ne yaparsınız?",
+                cevap:
+                    "Çalışma tabanı operasyon çizelgesinde geçici bakım hücresi olarak rezerve edilir. Keşifte boş görünen yere güvenmeyiz. Hücrenin sınırı, bom hareket zarfı ve düşen parça alanıyla birlikte işaretlenir; bu alana yük veya araç alınmaz. Operasyon önceliği değişirse sepet indirilir ve iş güvenli ara kapanışa getirilir. Yeni park noktası zemin, yatay erişim ve trafik açısından yeniden kontrol edilmeden makine taşınmaz. Sürekli yer değiştirme baskısı güvenli çalışmayı bozuyorsa bakım daha sakin pencereye alınır.",
+            },
+            {
+                soru: "Liman yönüne çıkacak araçların programı bakımı yarıda keser mi?",
+                cevap:
+                    "Kritik çıkış kapıları ve saatleri önceden biliniyorsa bakım sırası buna göre kurulur. Operasyonu doğrudan etkileyen kapı üstü iş önce tamamlanıp teslim edilir; esnek cephe veya dış saha kalemi başka hücreye geçebilir. Ancak platform aktifken araç geçirmek için bariyer aniden kaldırılmaz. İş güvenli kapanışa getirilir, bom toplanır ve alan operasyon sorumlusuna devredilir. Planın amacı nakliye önceliğini tanımak, fakat bakım güvenliğini çıkış saatine feda etmemektir.",
+            },
+            {
+                soru: "Bu hizmet forklift ile platformun birlikte sevkini içeriyor mu?",
+                cevap:
+                    "Hayır. Bu sayfa platformun terminal-liman yönlü nakliye akışındaki yüksek erişim işine entegrasyonunu anlatır. Forklift veya başka yük ekipmanının kiralama ve sevkiyatı ayrı kapsamdır. Platform yük elleçlemez. Gerçek iş iki ekipman gerektiriyorsa görevler, operatörler, çalışma hücreleri ve zaman sırası ayrıca değerlendirilir; burada paket hizmet vaadi kurulmaz. Böylece B11 için ayrılmış forklift-platform temasıyla karışmadan, terminal operasyonu içindeki personel erişimi sınırında kalırız.",
+            },
+        ],
+        kaynak:
+            "Bu özgün metin 2026-08-13 tarihinde hazırlandı. Uygulama belgesi Sakarya için yalnız çevre il ile terminal-liman yönlü nakliye bağlantısını genel çapa olarak verir. Belirli terminal, liman, tesis, yük, kapasite, rota süresi ve rakam kullanılmamıştır; randevulu kapı, bakım hücresi ve operasyon devri koşullu lojistik saha pratiğidir. TEM metal bakım ve forklift-platform paket temaları kapsam dışıdır.",
+    },
+
+    "bolge:golpazari": {
+        h1: "Gölpazarı'nı Çevre İlçe Platform Rotasına Ara Durak Olarak Planlamak",
+        giris:
+            "Gölpazarı için bu sayfa Bilecik merkezden doğrudan servis zincirini veya ilçedeki tarımsal tesislerin mevsimsel bakımını yeniden anlatmaz. B7'nin merceği, Bozüyük çıkışlı ya da Bozüyük'e dönen çok duraklı çevre ilçe programında Gölpazarı'ndaki hazır bir işi ara durak olarak konumlandırmaktır. Belirli yol, mesafe, işletme, sektör veya süre iddiası kurulmaz. Ara durak modeli, sırf rota ilçeden geçiyor diye plansız iş kabul etmek değildir. Gölpazarı talebinin makine sınıfı, kapı ve zemin koşulu, hedefi, malzemesi, yetkilisi ve çalışma penceresi ana rota kesinleşmeden doğrulanır. Önceki duraktan çıkış bildirimi yapılır; ilçedeki saha sorumlusu çalışma alanını ve indirme/park noktasını hazırlar. Makine kısa blokta işini tamamlar, alan teknik olarak teslim edilir ve sonraki durağa ancak bom, alet ve izin kapanışı tamamlandıktan sonra hareket eder. Uygun sınıf veya güvenli zaman penceresi ana rotayla örtüşmüyorsa talep zorla eklenmez, ayrı programa alınır. Bu düzen, çevre ilçe seyahatindeki boş geçişi üretken kılarken bir duraktaki gecikmenin bütün zinciri görünmez biçimde bozmasını önler.",
+        maddeler: [
+            {
+                baslik: "Ara durak için hazır iş kapısı koymak",
+                metin:
+                    "Talep rota listesine girmeden hedef fotoğrafı, çalışma kotu, yatay engel, giriş, zemin, park alanı ve iş malzemesi doğrulanır. Enerji veya hareket izolasyonunu yapacak kişi ile sahanın boşaltılacağı saat belirlenir. Bu hazırlıklardan biri eksikse 'yoldayken uğrama' sözü verilmez. Ana programda yalnız teknik kartı kapanmış durak görünür. Son değişiklik, önceki duraktan makine çıkmadan bildirilmelidir. Böylece ilçeye varıldığında ölçü almak, anahtar veya malzeme beklemek yerine doğrudan güvenli saha kabulüne geçilir.",
+            },
+            {
+                baslik: "Önceki duraktan çıkış bildirimini saha kabulüne bağlamak",
+                metin:
+                    "Çevre ilçe rotasında kesin dakika iddiası trafik, iş kapanışı ve saha koşulu nedeniyle yanıltıcı olabilir. Bunun yerine olay bazlı iletişim kullanılır: önceki iş teknik olarak kapandığında Gölpazarı sorumlusuna çıkış bilgisi verilir; varışa yaklaşınca indirme veya park alanının hâlâ açık olduğu teyit edilir. Saha hazır değilse makine dar yol veya ortak alanda kontrolsüz bekletilmez. Alternatif güvenli bekleme veya sıra değişikliği plan sorumlusunca kararlaştırılır. Ara durak, rota aracını belirsiz süre rehin tutamaz.",
+            },
+            {
+                baslik: "Kısa iş paketini tek park konumunda kapatmak",
+                metin:
+                    "Ara durakta zaman kazanmanın yolu güvenlik adımını atlamak değil, hedefleri aynı konumdan erişilebilen bir paket hâlinde hazırlamaktır. Aydınlatma, oluk, kapı üstü, cephe veya benzeri doğrulanmış kalemlerden uygun olanlar önceden sıralanır. Platformun zarfı, alt alanı ve enerji kontrolü tek hücrede kurulur. Yeni bir hedef fark edilirse ana rota saati ve teknik uygunluk değerlendirilir. Ek iş pencereye sığmıyorsa açık kalem olarak bırakılır; sırf makine ilçedeyken tamamlanmış görünmek için bom sınırı veya kapanış süresi zorlanmaz.",
+            },
+            {
+                baslik: "Duraklar arası temizlik ve makine uygunluğu",
+                metin:
+                    "Önceki saha tozlu, çamurlu veya başka bir yüzey etkisine sahipse makine Gölpazarı'ndaki temiz kapalı alana doğrudan sokulmaz. Teker, alt takım, sepet ve aletler kontrol edilir; işletmenin kabul ettiği yöntemle gerekli temizlik yapılır. Görünür sızıntı veya hasarda kullanım durur. Aynı modelin iki durağa uygunluğu kapı, zemin, egzoz ve erişim geometrisiyle önceden karşılaştırılır. Ana rotadaki makine uygun değilse talebi eklemek ekonomik görünse bile yapılmaz; doğru sınıf ayrı planlanır.",
+            },
+            {
+                baslik: "Sonraki durağın saatini koruyan teknik kapanış",
+                metin:
+                    "Gölpazarı işi bitince sepet boşaltılır, el aleti ve sökülen parça sayılır, bağlantılar gözlenir ve alan saha sorumlusuna teslim edilir. Enerjiyi veya mekanizmayı yeniden açma kararı ilgili yetkilidedir. Makine temizlenir, bom taşıma konumuna alınır ve rota için görünür kontrol yapılır. Tamamlanmayan iş nedeni ile kayda geçer. Sonraki durağa yetişmek uğruna açık izin, dağınık parça veya teslim edilmemiş alan bırakılmaz. Çıkış bilgisi zincirdeki bir sonraki sorumluya ancak bu kapanıştan sonra verilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çevre ilçe rotasında Gölpazarı durak kartı",
+                paragraflar: [
+                    "Aşağıdaki tablo belirli güzergâh veya tesis iddiası değildir; Gölpazarı işinin çok duraklı bir programa alınabilmesi için her aşamada kapanması gereken genel koşulları gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Durak aşaması", "Ana karar", "Hazırlık", "Çıkış ölçütü"],
+                    satirlar: [
+                        ["Rota öncesi", "Makine uyumlu mu", "Ölçü, zemin, hedef kartı", "Teknik onay"],
+                        ["Yaklaşım", "Saha hazır mı", "Çıkış bildirimi, park teyidi", "Güvenli kabul"],
+                        ["Çalışma", "Paket pencereye sığar mı", "Malzeme, izin, hücre", "Hedef teslimi"],
+                        ["Geçiş hazırlığı", "Makine sonraki alana uygun mu", "Temizlik ve durum kontrolü", "Taşıma konumu"],
+                        ["Rota devamı", "Çıkış ne zaman verilir", "Açık iş ve imzalı kapanış", "Sonraki durak bilgilendi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ara durak ekleme ve çıkarma kararını yönetmek",
+                paragraflar: [
+                    "Gölpazarı işi ana rotaya ancak gerekli sınıf zaten o programdaysa, saha penceresiyle durak sırası uyuyorsa ve hazırlık kapısı tamamlandıysa eklenir. Yalnız coğrafi yakınlık yeterli değildir. Aynı gün farklı gövde veya dış zemin sınıfı gerekiyorsa ek sevkiyat avantajı kaybolur. Talep sahibine programlı rota ile ayrı blok seçeneği kapsamlarıyla anlatılır; kesinleşmemiş geçiş garanti edilmez.",
+                    "Hava, önceki işin uzaması veya Gölpazarı sahasının hazır olmaması halinde durak çıkarılabilir ya da sıra değişebilir. Karar mümkün olan en erken anda yazılı paylaşılır. Makine ilçeye ulaştıktan sonra uygunsuz zeminde veya izinsiz alanda bekletilmez. Yeni tarih ve hazırlık açıkça belirlenir. Esneklik, müşteriyi habersiz bırakmak değil, zinciri gerçek saha durumuna göre görünür biçimde güncellemektir.",
+                ],
+            },
+            {
+                baslik: "Kısa blokta kapsamı dondurmak",
+                paragraflar: [
+                    "Ara durak için iş listesi rotadan önce dondurulur. Her hedefin gerekli aleti ve küçük malzemesi hazırdır; teknik yetkili çalışma başlangıcında sahada olur. Hedefler öncelik sırasına dizilir: güvenlik veya işlevi etkileyen doğrulanmış kalemler önce, ertelenebilir işler sonra. Yeni kalem mevcut hücre, sınıf ve süreyle uyumluysa sorumlu onayıyla eklenebilir; aksi durumda açık listeye alınır.",
+                    "Bu disiplin, kısa pencereyi aceleye dönüştürmez. Bariyer, enerji kontrolü, alet bağlama ve teknik teslim tam uygulanır. İşin planlanan süreden erken bitmesi de kontrol adımlarını azaltmaz. Kapanış kaydı sonraki ziyaret için erişim hafızası oluşturur; fakat saha değişebileceği için önceki model ve park noktası otomatik garanti sayılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gölpazarı işi her çevre ilçe rotasına otomatik eklenir mi?",
+                cevap:
+                    "Hayır. Gerekli makine sınıfı, kapı ve zemin koşulu, iş penceresi, saha hazırlığı ve rotadaki toplam süre uyumlu olmalıdır. Coğrafi olarak yol üzerinde görünmesi teknik uygunluk anlamına gelmez. Fotoğraf ve ölçü kartı önceden tamamlanır. Ana programdaki model işe yetmiyorsa veya saha hazır değilse talep ayrı bloğa alınır. Programlı rota kesinleşmeden teslim sözü verilmez; uygunluk oluştuğunda durak sırası ve olay bazlı iletişim yöntemi yazılı paylaşılır.",
+            },
+            {
+                soru: "Makinenin varış saatini kesin olarak öğrenebilir miyiz?",
+                cevap:
+                    "Çok duraklı rotada önceki işin gerçek kapanışı belirleyici olduğu için gerçek dışı dakika garantisi vermeyiz. Planlanan bir pencere paylaşılır; önceki durak teknik olarak kapandığında çıkış bildirimi yapılır ve yaklaşırken park alanı tekrar teyit edilir. Gecikme veya sıra değişikliği erken haber verilir. Bu yöntem belirsizlik yaratmak yerine gerçekleşen olaya dayanır. Kesin saat zorunluysa ara durak modeli yerine ayrı blok sevkiyat değerlendirilmelidir.",
+            },
+            {
+                soru: "Hazır değilsek makine ilçede bizi bekleyebilir mi?",
+                cevap:
+                    "Kısa ve önceden tanımlı güvenli bekleme noktası varsa plan sorumlusu değerlendirebilir, fakat dar yol veya ortak alanda belirsiz bekleme yapılmaz. Malzeme, teknik yetkili, enerji kontrolü ve çalışma hücresi makine yaklaşmadan hazır olmalıdır. Hazırlık tamamlanmıyorsa rota sırası değişebilir veya durak yeni tarihe alınır. Beklemenin sonraki müşteriye etkisi ve sözleşme koşulu açıkça bildirilir. Ara durak modeli, hazırlıksız iş için ücretsiz zaman rezervasyonu değildir.",
+            },
+            {
+                soru: "Aynı ziyarette birkaç adrese uğrayabilir misiniz?",
+                cevap:
+                    "Adreslerin gerekli sınıfı, zemini ve penceresi uyuyorsa Gölpazarı durağı kendi içinde alt noktalara ayrılabilir. Her adresin hedef kartı, malzemesi, saha sorumlusu ve teslim kaydı ayrı hazırlanır. Geçiş süresi ana rota planına eklenir. Bir adres hazır değilse diğerinin çalışma alanına rastgele taşınmaz. Dar iç mekân ile bozuk dış saha farklı makine istiyorsa tek programda birleştirilmez. Ortak rota sorumlulukları ve iş izinlerini tekleştirmez.",
+            },
+            {
+                soru: "Önceki durak tozluysa makine kapalı binamıza girebilir mi?",
+                cevap:
+                    "Ancak teker, alt takım, sepet ve aletler kontrol edilip işletmenizin kabul ettiği yöntemle temizlendikten sonra; makinenin kapı, lastik, egzoz ve zemin koşulları uygunsa girebilir. Görünür sızıntı veya hasarda kullanım başlamaz. Temizlik süresi rota planına yazılır. Aynı model kapalı hacme uygun değilse sırf yakında olduğu için kullanılmaz. Doğru sınıf ayrı programa alınır. Önceki sahanın etkisini yeni alana taşımamak durak entegrasyonunun temel şartıdır.",
+            },
+            {
+                soru: "İşimiz pencereye sığmazsa yarım mı bırakılır?",
+                cevap:
+                    "Öncelikli ve güvenle tamamlanan hedefler teknik teslim alır; kalan kalemler nedenleriyle açık listeye yazılır. Pencere aşımı sonraki durakları ve kullanıcı vardiyasını etkiliyorsa otomatik uzatma yapılmaz. Yeni sürenin mümkün olup olmadığı plan sorumlusu ve saha yetkilisiyle değerlendirilir. Uygun değilse ikinci ziyaret gerekli sınıf, malzeme ve zamanla hazırlanır. Yetişmek için enerji, bariyer, alet sayımı veya makine sınırı atlanmaz. Tamamlanmamış iş tamamlanmış gibi işaretlenmez.",
+            },
+        ],
+        kaynak:
+            "Özgün içerik 2026-08-13 günü oluşturuldu. Bu kaydın dayanağı, Gölpazarı'nın Bilecik'e bağlı bir ilçe olduğu yönündeki genel coğrafya bilgisi ile görev belgesinin çevre ilçeler arasındaki sevkiyat rotasında ara durak yaklaşımıdır. Belirli rota, mesafe, işletme, sektör, süre, kapasite ve rakam kullanılmamıştır; durak kartı, olay bazlı bildirim, kısa blok ve rota kapanışı sektör geneli planlama pratiğidir. Merkezden servis ve tarımsal sezon temaları kapsam dışıdır.",
+    },
 };

@@ -705,4 +705,203 @@ export const BOZUYUKPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İnegöl OSB'nin mobilya ve metal sanayi ile anılması ve Bursa'nın Bilecik'e komşu il olması kamuya açık coğrafi/sektörel genel bilgidir; geniş açıklık montajı ve vinç köprüsü ray toleransı sektör standardı inşaat mühendisliği bilgisidir. Tesis adı ve rakam verilmemiştir.",
     },
+    "bolge:yenipazar": {
+        h1: "Bilecik Yenipazar’da Yeni Yapı ve Tesis Kurulumu İçin Platform",
+        giris:
+            "Bu sayfa Aydın’daki değil, Bilecik iline bağlı Yenipazar’daki yeni yapı ve tesis kurulumlarını ele alır. B10 kardeş kaydı mevcut yapılardaki kısa bakım işinin Bozüyük OSB servis programına nasıl bağlandığını anlatır; burada bakım, ortak servis ve geri dönüş slotu yoktur. Yeni proje için makine kendi şantiye takvimine ayrılır ve kaba zemin hazırlığından çelik iskelet, çatı-cephe kapama, iç tesisat ve devreye alma öncesi kontrole kadar değişen fazlara göre planlanır. Belirli bir yatırım, tesis kapasitesi veya proje ölçüsü varsayılmaz. Çelik elemanı vinç kaldırır; platform montaj personelini bağlantı noktasına taşır. İki ekipmanın hareket zarfı aynı anda kesişmez. Her faz geçişinde zemin, giriş, hedef geometrisi ve gerekli sınıf yeniden doğrulanır. Şantiyenin başında uygun olan arazi tipi bomlu, bina kapandıktan sonra iç hacme giremeyebilir; kompakt akülü sınıfın erken gelmesi de tamamlanmamış zeminde risk yaratabilir. B12 programı bu değişimi tek uzun kiralama varsayımıyla değil, teslim kanıtlarıyla açılan fazlar dizisi olarak yönetir.",
+        maddeler: [
+            {
+                baslik: "Kaba zeminde ilk erişim ve kurulum rotası",
+                metin:
+                    "Yeni yapı sahasında beton yollar ve son zemin henüz tamamlanmamış olabilir. Makinenin taşıyıcıdan indirileceği alan, giriş eğimi, dolgu, kazı, drenaj hattı ve geçici malzeme yolları şantiye sorumlusuyla görülür. Arazi kabiliyeti yüksek bir sınıf seçilse bile taşıma gücü belirsiz yüzeye girilmez. Destek ayağı kullanılacaksa her basma noktası ayrıca değerlendirilir. Yağış önceki keşfi geçersiz kılabilir; günlük kontrol tekrarlanır. Vinç, beton pompası ve malzeme araçlarının güzergâhı platform rotasıyla çakışıyorsa zaman dilimleri ayrılır. İlk fazda açılan rota, iskelet yükseldikçe aynı kalmayabilir; her büyük yerleşim değişikliği plan üzerine işlenir.",
+            },
+            {
+                baslik: "Çelik iskelette vinç-platform ardışıklığı",
+                metin:
+                    "Kolon, kiriş veya diğer ağır yapı elemanlarını kaldırma görevi vinç ve yetkili kaldırma ekibine aittir. Platform, eleman projedeki geçici veya kalıcı güvenli konumuna alındıktan sonra bağlantı personeline erişim sağlar. Askılı yükün altında, salınım yönünde ya da vincin bom zarfıyla kesişen bölgede sepet yükselmez. Kaldırma planı, işaretçi, iletişim yöntemi ve yasak alan şantiye koordinasyonunda belirlenir. Platform malzeme vinci olarak kullanılmaz; sepete yalnız üretici sınırındaki alet ve hafif bağlantı parçaları alınır. Bir aks tamamlanmadan sonraki kaldırma başlatılmaz. Bağlantı kabulü, vincin yükü bırakması ve platformun yeni konuma geçmesi ayrı adımlar olarak kaydedilir.",
+            },
+            {
+                baslik: "Çatı ve cephe kapamada hava penceresi",
+                metin:
+                    "İskelet güvenli biçimde tamamlandığında çatı ve cephe kuşakları, kaplama bağlantıları, oluk-saçak ve dış tesisat işleri açılır. Sepetten geniş panel kaldırılmaz; panel uygun kaldırma yöntemiyle taşınır, platform personelin bağlantı noktasına erişimini sağlar. Rüzgâr, geniş yüzeyli elemanlarla birlikte daha kritik hâle gelir ve makine üretici sınırı aşıldığında çalışma durur. Hava bağımsız yerde hazırlık işleri ayrı listede tutulur. Cephe boyunca zemin değişebilir; aynı kotta görünen her aks aynı park koşulunu sunmaz. Tamamlanan bölüm bağlantı ve gevşek parça kontrolünden sonra teslim edilir. Açık bırakılan kaplama, hava değişmeden güvenli geçici durumda sabitlenir.",
+            },
+            {
+                baslik: "Bina kapandığında iç sınıfa geçiş",
+                metin:
+                    "Dış kabuk kapandıkça elektrik, mekanik, havalandırma, yangın hattı ve aydınlatma ekipleri iç hacimde yoğunlaşır. Egzoz üreten dış saha sınıfı kapalı yapıya otomatik taşınmaz. Kapı yüksekliği ve eni, iç dönüş, tamamlanmış zemin, kanal ve yeni kurulan ekipman ölçülür; akülü makaslı veya eklemli seçenek değerlendirilir. Dışarıda çalışan ünitenin alt takım temizliği zemin ve iç ortam açısından kontrol edilir. Aynı anda farklı ekiplerin hareketi hücrelere ayrılır; askılı yük ve başka platform aynı zarfa girmez. Faz değişimi yalnız makine değişimi değil, kullanıcı, şarj, bariyer ve günlük kontrol düzeninin yeniden teslimidir.",
+            },
+            {
+                baslik: "Kurulum kapanışı ve devreye alma öncesi eksik turu",
+                metin:
+                    "Montaj sonunda üst kotta bağlantı, etiket, koruyucu, kablo sabitleme ve erişim gerektiren eksikler sistem bazında listelenir. Enerji verilmeden kapanabilecek işler aynı paketlerde tamamlanır. Son dakika hedefi mevcut iznin otomatik uzantısı sayılmaz; erişim ve alt alanı değerlendirilir. Platform işi bitince alet-parça sayımı yapılır, koruyucular ve çalışma alanı teknik sorumluya teslim edilir. Kontrollü test sırasında yeni erişim gerekirse sistem tekrar güvenli duruma alınır ve yeni izin açılır. Geçici şantiye çözümü kalıcı bakım yöntemi kabul edilmez. Kullanılan park noktaları gelecekteki bakım hafızasına yazılır, fakat işletme düzeni değişeceği için model garantisi oluşturmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yenipazar yeni proje fazları ve platform görevi",
+                paragraflar: [
+                    "Bilecik Yenipazar’daki proje, yapı türü varsayılmadan saha fazları üzerinden planlanır. Tablo her fazda değişen temel kısıtı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Faz", "Platform görevi", "Baskın kısıt", "Geçiş kanıtı"],
+                    satirlar: [
+                        ["Kaba saha", "İlk yüksek erişim", "Dolgu, kazı, araç rotası", "Zemin ve giriş kabulü"],
+                        ["Çelik iskelet", "Bağlantı noktasına personel", "Askılı yük ve vinç zarfı", "Eleman güvenli konumda"],
+                        ["Çatı-cephe", "Bağlantı ve kenar işleri", "Rüzgâr ve açık zemin", "Bölüm sabitlendi"],
+                        ["İç imalat", "Tesisat ve aydınlatma", "Kapı, egzoz, çok ekip", "İç rota teslimi"],
+                        ["Eksik turu", "Üst kot kapanış", "Değişen liste ve izin", "Teknik kabul"],
+                        ["İade", "Şantiye kapasitesini bırakma", "Temizlik ve yükleme", "Durum kaydı kapalı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Faz kapısı ve makine değişim kararı",
+                paragraflar: [
+                    "Her faz başlamadan hedef listesi, güncel yerleşim, zemin, giriş, diğer kaldırma operasyonları ve sorumlu ekip doğrulanır. Makinenin erken getirilmesi hazırlık açığını kapatmaz; güvenli park ve hasar riski yaratabilir. Faz kapısı yazılı kabul edildiğinde sevkiyat yapılır. Birkaç gün sahada kalacak ünitenin parkı, yakıt veya şarjı, kullanıcıları ve vardiya kontrolü belirlenir. Şantiye planı değişirse eski kabul yeni alana taşınmaz.",
+                    "Dış saha sınıfından iç mekân sınıfına geçiş, işin ilerlemesine bağlı teknik karardır. Kalan dış hedeflerin sayısı, kapalı hacmin ölçüsü, zemin koruması ve iki ünitenin sahada çakışma ihtiyacı görülür. Gerekirse kısa bir devir penceresinde iki makine bulunur, fakat çalışma zarfları ayrılır. Birinin teslimi ve durum kaydı tamamlanmadan sorumluluk diğerine belirsiz biçimde geçmez.",
+                ],
+            },
+            {
+                baslik: "Şantiye koordinasyonu ve değişiklik kaydı",
+                paragraflar: [
+                    "Günlük toplantıda vinç, platform, malzeme aracı, elektrik ve mekanik ekiplerin çalışma hücreleri işaretlenir. Platformun bom-sepet zarfı ile düşme alanı, yalnız taban çevresinden daha geniştir. Bir ekip gecikirse diğerinin hücresine izinsiz girilmez; hazır yedek iş paketi kullanılır. Rüzgâr veya zemin dış işi durdurursa yerde yapılabilecek malzeme hazırlığı, ölçü ve işaretleme devreye girer. Güvenli olmayan koşulda yüksek iş sürdürülmez.",
+                    "Proje değişikliği yeni bir bağlantı veya üst hedef doğurduğunda çizim, malzeme, erişim ve süre etkisi kaydedilir. Mevcut kiralamaya otomatik ekleme yapılmaz. Aynı sınıf ve hazır hücreyle kapanıyorsa sıra güncellenir; farklı ekipman ya da yeni faz istiyorsa ayrı kapasite açılır. Bu kayıt, montajın görünmez biçimde uzamasını ve bir sonraki şantiye taahhüdünün bozulmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu içerik hangi Yenipazar ilçesi içindir?",
+                cevap:
+                    "Yalnız Bilecik iline bağlı Yenipazar içindir; Aydın Yenipazar bu kapsamda değildir. Talep açılırken il, açık adres, harita konumu, yaklaşım yönü ve şantiye sorumlusu yazılı doğrulanır. Yeni projenin yerleşim krokisi ve giriş-indirme alanı bu kayda bağlanır. İlçe adı tek başına taşıma veya saha planı oluşturmak için kullanılmaz. Yanlış coğrafi kayıt, teknik olarak doğru seçilmiş makineyi bile yanlış rotaya gönderir. Adres teyidinden sonra zemin, faz ve erişim paketi değerlendirilir; her değişiklik güncel proje kaydına işlenir.",
+            },
+            {
+                soru: "B10’daki mevcut bakım servisiyle aynı teklif kullanılabilir mi?",
+                cevap:
+                    "Hayır. B10 kısa ve doğrulanmış mevcut bakım işini Bozüyük OSB servis slotuna bağlar. B12 yeni yapı veya tesis kurulumudur; fazlar değişir, zemin tamamlanmamış olabilir, vinç ve çoklu ekip koordinasyonu gerekir ve makine projeye daha uzun süre ayrılır. Aynı adreste bakım ile yeni kurulum bulunuyorsa kapsamlar ayrı teklif edilir. Servis için uygun kompakt ünitenin çelik iskelet aşamasına, arazi tipi dış sınıfın kapalı iç imalata uygun olduğu varsayılmaz. Doğru sözleşme taşıma, makine değişimi, park ve proje değişikliklerini baştan görünür kılar.",
+            },
+            {
+                soru: "Vinç yükü tutarken platform ekibi bağlantı yapabilir mi?",
+                cevap:
+                    "Kaldırma planı ve proje yöntemi elemanın geçici bağlantısını tarif eder; ancak personel askılı yükün altında veya olası salınım alanında çalışmaz. Vinç elemanı güvenli konuma getirir, yetkili montaj ekibi gerekli geçici sabitlemeyi yapar ve yükün durumu teyit edilir. Platform bundan sonra bağlantı noktasına yaklaşır. İki makinenin bom zarfları kesişmez ve iletişim belirlenmiş işaretçi üzerinden yürür. Sepet vinç yükünü yönlendiren dayanak veya malzeme kaldırma aracı olarak kullanılmaz. Acele, kaldırma ile personel erişimini aynı riskli anda birleştirme gerekçesi değildir.",
+            },
+            {
+                soru: "Tek platform bütün proje fazlarında kalabilir mi?",
+                cevap:
+                    "Bazı projelerde teknik olarak mümkün olabilir, fakat otomatik hedef değildir. Kaba zeminde arazi uyumu ve açık erişim öne çıkarken bina kapandığında kapı, iç dönüş, egzoz ve tamamlanmış zemin belirleyici olur. Her faz geçişinde kalan hedefler ve erişim diyagramı yeniden görülür. Tek ünitenin gereğinden büyük veya uygunsuz kaldığı noktada makine değişimi daha güvenli ve verimli olabilir. Devir penceresi, taşıma ve şarj-yakıt planı baştan hazırlanır. Sırf yeniden sevkiyat olmasın diye uygun olmayan sınıf kapalı hacme zorlanmaz.",
+            },
+            {
+                soru: "Rüzgâr çatı ve cephe programını durdurursa ne yapılır?",
+                cevap:
+                    "Makinenin üretici sınırı aşıldığında bom indirilir; geniş yüzeyli kaplama elemanında risk ayrıca değerlendirilir. Programda yerde yapılabilecek malzeme hazırlığı, bağlantı kontrolü, ölçü ve işaretleme gibi yedek işler tutulur. Kapalı hacim fazı güvenli biçimde açılmış ve uygun makine mevcutsa o pakete geçilebilir; hazır olmayan alana sırf günü doldurmak için girilmez. Açık kaplama güvenli geçici durumda sabitlenir. Hava beklemesinin süre ve maliyet karşılığı sözleşmede görünür olur. Güvenlik sınırı proje takvimine yetişmek adına esnetilmez.",
+            },
+            {
+                soru: "Kurulum sonunda platformu ne zaman iade edersiniz?",
+                cevap:
+                    "Üst kot eksik listesi teknik sorumlu tarafından kapatıldığında veya ayrı programa aktarıldığında, alet-parça sayımı ve alan teslimi yapılır. Kontrollü testte yeniden erişim gerekip gerekmediği görülür; tanımlı destek penceresi varsa o tamamlanır. Belirsiz ihtimal için makine süresiz tutulmaz, fakat açık güvenlik veya bağlantı maddesiyle erken çekilmez. Ünite temizlenir, görünür durumu ve enerji seviyesi kaydedilir, güvenli yükleme alanı açılır. Uzatma veya yeni faz talebi sonraki kapasite taahhütleriyle birlikte yazılı değerlendirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Yenipazar’ın Bilecik’e bağlı ilçe olması uygulama belgesindeki kamuya açık coğrafi bilgidir; yeni yapı fazları, vinç-platform ardışıklığı, saha geçişi ve eksik turu sektör geneli inşaat pratiğidir. Aydın Yenipazar, mevcut bakım servis teması, özel proje, tesis, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:bilecik-kucuk-sanayi-sitesi": {
+        h1: "Bilecik Küçük Sanayi Sitesinde Genişleme ve Yeni Dükkân İmalatı",
+        giris:
+            "Bilecik Küçük Sanayi Sitesindeki bu B12 kaydı faal dükkânların karma bakım işlerini veya Bozüyük OSB’den gelen kısa servis slotunu anlatmaz. Konu, mevcut site dokusu içinde yeni bir dükkân, ek atölye hacmi ya da genişleme bölümünün inşa ve montaj sürecidir. İşleyen komşu atölyelerle ortak yolun yanında çelik eleman, panel, tesisat ve platform hareketi aynı sınırlı sahaya girer. Bu nedenle boş bir sanayi parselindeki şantiyeden farklı olarak proje sınırı her gün görünür tutulur; komşu giriş, yaya-araç geçişi ve mevcut işletmenin üretimi yeni imalat alanından ayrılır. Vinç ağır elemanı kaldırır, platform bağlantı personeline erişim sağlar ve görevler birbirine karıştırılmaz. Kaba zemin, çelik iskelet, dış kabuk, iç tesisat ve teslim öncesi eksik turu kendi makine ve izin koşuluna sahiptir. Program yalnız yüksekliğe göre değil, ortak alanı ne zaman ve ne kadar süre kapatacağına göre kurulur.",
+        maddeler: [
+            {
+                baslik: "Mevcut site içinde şantiye sınırı kurmak",
+                metin:
+                    "Yeni dükkân veya genişleme alanı fiziksel bariyerle çevrilir; malzeme girişi, vinç kurulumu ve platform rotası komşu işletmelerin günlük geçişinden ayrılır. Acil yol, yangın erişimi ve ortak altyapı noktaları kapatılmaz. İş programı site yönetimi ve etkilenen dükkânlarla önceden paylaşılır. Bariyer yalnız zemin alanını değil kaldırma ve sepet hareket zarfını da dikkate alır. Şantiye malzemesi ortak yola taşarsa aynı vardiyada düzenlenir; geçici depolama kalıcı koridor engeline dönüşmez. Mevcut işletmenin üretimi güvenli ayrım kurulabiliyorsa sürebilir, fakat askılı yük veya düşme alanıyla kesişen hücrede eş zamanlı faaliyet yapılmaz.",
+            },
+            {
+                baslik: "Çelik taşıyıcı ve bağlantı montajı",
+                metin:
+                    "Kolon, kiriş, aşık veya diğer ağır elemanlar onaylı kaldırma yöntemiyle vinç tarafından yerleştirilir. Platform elemanı kaldırmaz; montaj personelini cıvata, kaynak veya bağlantı noktasına taşır. Askılı yük altında kişi bulunmaz, vinç ve platform zarfları aynı anda kesişmez. Geçici sabitleme tamamlanmadan yük bırakılmaz ve sepet sonraki aksa geçmez. Kaynak yapılacaksa sıcak çalışma izni, yangın önlemleri ve komşu işletmeye sıçrama-duman etkisi değerlendirilir. Bağlantı kabulü proje sorumlusu tarafından kaydedilir. Bir aksın tamamlanması, ortak yolun ve vinç alanının ne zaman yeniden açılacağını belirleyen kapanış noktasıdır.",
+            },
+            {
+                baslik: "Cephe ve çatı kapamada komşu girişleri korumak",
+                metin:
+                    "Panel, kaplama, oluk ve saçak montajı şantiye sınırının dışına uzanan bom hareketi veya malzeme düşme alanı oluşturabilir. Komşu dükkânın girişini habersiz kapatmayız; çalışma penceresi paylaşılır ve alternatif rota belirlenir. Geniş panel sepette kaldırılmaz, uygun kaldırma ekipmanıyla konumlandırılır. Rüzgâr üretici ve malzeme sınırına uygun değilse çalışma durur. Tamamlanmayan yüzey güvenli biçimde sabitlenir. Cephe aksı bitince bağlantı ve gevşek parça kontrolü yapılır, bom tamamen toplanır ve ancak bundan sonra ortak yol açılır. Kısa süre uğruna açık panel veya kontrolsüz geçiş bırakılmaz.",
+            },
+            {
+                baslik: "İç imalat başladığında kompakt sınıfa geçmek",
+                metin:
+                    "Kabuk kapandıktan sonra aydınlatma, kablo, hava hattı, havalandırma ve yangın tesisatı iç hacimde ilerler. Dış saha platformunun kapıdan geçeceği veya tamamlanmış zemine uygun olduğu varsayılmaz. Kapı, eşik, ilk dönüş, iç koridor, kanal ve hedef kotu ölçülür; egzoz üretmeyen akülü sınıf değerlendirilir. Yeni zemin kir ve lastik etkisine karşı korunur. Farklı teknik ekipler hücrelere ayrılır, sepet altında eş zamanlı iş yapılmaz. Şarj noktası kuru ve ortak yoldan uzakta seçilir. Dış ünite temizlenmeden içeri alınmaz; gerekiyorsa faz değişiminde farklı platform teslim edilir.",
+            },
+            {
+                baslik: "Yeni dükkân tesliminden önce erişim eksiklerini kapatmak",
+                metin:
+                    "Teslim öncesi armatür, yönlendirme, kapı motoru, üst tesisat etiketi, koruyucu ve bağlantı gibi yüksekte kalan eksikler tek listede toplanır. Her teknik ekip kendi malzemesini ve sorumlusunu hazırlar. Aynı konumdan erişilen kalemler paketlenir; son dakika yeni hedefi izin ve geometri görülmeden eklenmez. Enerji verilmeden yapılabilecek kontroller önce tamamlanır. İş sonunda alet-parça sayımı ve teknik kabul yapılır, geçici bariyer veya açık bağlantı bırakılmaz. Yeni hacmin işletmeye açılmasıyla bakım dönemi başlar; şantiye platformunun gelecekte her iş için uygun olacağı varsayılmaz. Kalıcı bakım rotası ayrıca kayda alınır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "KSS genişleme projesinde faz ve ortak alan kontrolü",
+                paragraflar: [
+                    "Yeni imalatın her fazı, faal site üzerindeki farklı bir etkiyi yönetir. Tablo makine görevini ve alanın yeniden açılma koşulunu gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Faz", "Platform işi", "Ortak alan riski", "Kapanış koşulu"],
+                    satirlar: [
+                        ["Saha hazırlığı", "İlk erişim ve işaretleme", "Malzeme ve araç rotası", "Şantiye sınırı kuruldu"],
+                        ["Çelik montaj", "Bağlantı personeli erişimi", "Vinç ve askılı yük", "Aks güvenli kabulde"],
+                        ["Çatı-cephe", "Panel bağlantısı ve kenar", "Komşu giriş, rüzgâr", "Yüzey sabitlendi"],
+                        ["İç tesisat", "Tavan ve hat montajı", "Dar kapı, yeni zemin", "Hücre teknik teslimde"],
+                        ["Eksik turu", "Üst kot kapanış", "Çoklu ekip ve enerji", "Açık liste kapandı"],
+                        ["İşletmeye teslim", "Platform çıkışı", "Ortak yol ve temizlik", "Yeni dükkân güvenli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Site yönetimiyle günlük koordinasyon",
+                paragraflar: [
+                    "Gün başlamadan vinç, platform, malzeme aracı ve teknik ekiplerin saatleri tek plan üzerinde görülür. Hangi ortak yolun ne zaman kısmen veya tamamen ayrılacağı, komşu girişlerin nasıl korunacağı ve acil erişimin nereden süreceği belirlenir. Kaldırma anında daha geniş yasak alan kurulur; yük sabitlenince sınır yeni çalışma hücresine daraltılır. Bir ekibin gecikmesi diğerlerinin alanına izinsiz girmesine yol açmaz.",
+                    "Gün sonunda tamamlanan akslar, açık yüzeyler, bariyerler ve ertesi günün malzemesi kontrol edilir. Ortak yol gereksiz kapalı bırakılmaz, fakat güvenli sabitlemesi tamamlanmayan bölüm trafiğe açılmaz. Hava veya teslimat değişikliği ertesi programı etkiliyorsa site yönetimine yazılı bildirilir. Bu koordinasyon B1’deki faal dükkân bakım turundan farklıdır; burada tek projenin geçici şantiye etkisi yönetilir.",
+                ],
+            },
+            {
+                baslik: "Proje değişikliği ve teslim hafızası",
+                paragraflar: [
+                    "Genişleme sırasında kapı, cephe, tesisat veya iç yerleşim değişirse platform sınıfı ve rota yeniden değerlendirilir. Yeni hedef mevcut kiralamanın otomatik parçası olmaz. Çizim, ölçü, malzeme, izin ve süre etkisi kaydedilir. Aynı sınıfla hazır hücrede kapanıyorsa sıra güncellenir; başka ekipman veya faz gerekiyorsa ayrı kapasite açılır. Bu değişiklik kontrolü, ortak site yolunun tahmin edilenden uzun kapanmasını önler.",
+                    "Teslimde kullanılan park noktaları, iç geçişler, yüksekteki periyodik bakım hedefleri ve enerji izolasyon sınırları kayda alınır. Şantiye engelleri kalkınca erişim geometrisi değişebilir; bu nedenle kayıt gelecekteki bakım için referanstır, otomatik garanti değildir. B10’daki OSB servis modeli ancak yapı işletmeye geçtikten ve gerçek bakım kartı oluştuğunda ayrıca değerlendirilebilir. Proje kapanışı iki hizmeti birbirine karıştırmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu sayfa faal KSS dükkânlarındaki bakım işleri için mi?",
+                cevap:
+                    "Hayır. Faal dükkânlardaki karma aydınlatma, tabela, raf ve atölye işleri B1’in konusudur; Bozüyük OSB’den kısa bakım servisi B10’da ele alınır. B12 yalnız yeni dükkân imalatı, ek atölye veya mevcut site içindeki genişleme projesine odaklanır. Çelik taşıyıcı, çatı-cephe kapama, iç tesisat ve teslim öncesi eksik turu fazlar halinde planlanır. Aynı adreste mevcut bakım ihtiyacı varsa proje kapsamından ayrılır. Şantiye makinesinin kısa bakım işi için otomatik kullanılacağı veya servis teklifinin yeni imalata uygulanacağı varsayılmaz.",
+            },
+            {
+                soru: "Komşu atölyeler çalışırken çelik montaj yapılabilir mi?",
+                cevap:
+                    "Yalnız kaldırma ve düşme alanı fiziksel olarak şantiye sınırı içinde tutulabiliyor, ortak yol ve komşu giriş güvenle ayrılabiliyorsa komşu faaliyet sürebilir. Vinçle askılı yük hareketinde daha geniş yasak alan kurulur; yük altında veya salınım yönünde kimse bulunmaz. Kaynak dumanı, kıvılcım ve gürültü etkisi de değerlendirilir. Ayrım mümkün değilse ilgili işletme ve site yönetimiyle kısa duruş penceresi planlanır. Üretimi sürdürmek adına bariyer daraltılmaz. Her aks güvenli kabul edilip vinç alanı boşalmadan yol yeniden açılmaz.",
+            },
+            {
+                soru: "Vinç yerine platformla çelik parça kaldırabilir miyiz?",
+                cevap:
+                    "Hayır. Yükseltilebilir platform personel ve üretici sınırındaki el aletlerine erişim sağlar; kolon, kiriş, panel veya ağır parça kaldırma vinci değildir. Ağır eleman onaylı kaldırma planı ve uygun ekipmanla taşınır. Platform ekibi, eleman güvenli konuma alınıp geçici sabitleme doğrulandıktan sonra bağlantı noktasına çıkar. Sepete dışarı taşan yük bağlanmaz, bom elemanı itmek veya hizalamak için dayanak yapılmaz. İki ekipmanın görevini ayırmak hem sepet dengesini hem askılı yük alanını kontrol edilebilir tutar.",
+            },
+            {
+                soru: "Aynı platform dış kabuk ve iç tesisatta kullanılabilir mi?",
+                cevap:
+                    "Teknik koşullar uygunsa olabilir, fakat faz geçişinde yeniden değerlendirme gerekir. Dışarıda zemin ve yatay erişim öne çıkarken içeride kapı, dönüş, egzoz, yeni zemin ve şarj belirleyicidir. Dış saha sınıfı kapalı hacme sığmayabilir veya enerji türü uygun olmayabilir. Dışarıda kirlenen ünite temizlenmeden yeni zemine alınmaz. Kalan hedeflerin erişim diyagramı karşılaştırılır. Farklı kompakt akülü sınıf daha uygunsa makine değişimi planlanır; yalnız tek taşıma yapmak için uygunsuz ünitede ısrar edilmez.",
+            },
+            {
+                soru: "Ortak yol ne kadar süre kapalı kalır?",
+                cevap:
+                    "Sabit süre vermek doğru değildir; kaldırma planı, eleman sayısı, bağlantı, rüzgâr, araç yerleşimi ve site düzeni belirleyicidir. Program, yolu bütün gün belirsiz kapatmak yerine aks ve kaldırma pencerelerine böler. Vinç kurulumu ve askılı yük sırasında gerekli alan ayrılır; eleman sabitlenip araçlar güvenli konuma geçtiğinde mümkün olan geçiş açılır. Cephe işinde bom zarfı ve düşme alanı korunur. Tahmini pencereler site yönetimine önceden bildirilir, değişiklik erken paylaşılır. Acil erişim rotası hiçbir zaman malzeme deposu olarak kullanılmaz.",
+            },
+            {
+                soru: "Yeni dükkân tesliminden sonra platformu bakım için bırakabilir miyiz?",
+                cevap:
+                    "Yalnız ayrı kullanım ihtiyacı, uygun sınıf, süre, kullanıcı, park ve şarj koşulu yeni sözleşmeyle doğrulanırsa değerlendirilebilir. Şantiye fazı bittiğinde dış engeller ve iç yerleşim değişir; kurulumda kullanılan model kalıcı bakım için uygun olmayabilir. Önce eksik listesi teknik olarak kapanır ve proje kiralaması iade kaydıyla tamamlanır. Sonraki bakım hedefleri yeni kartta ölçülür. B10 servis modeli veya tesiste kalış seçeneği bu gerçek ihtiyete göre ayrıca planlanır. Belirsiz olasılık için makine şantiyede süresiz tutulmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bilecik Küçük Sanayi Sitesinin varlığı uygulama belgesindeki kamuya açık genel bilgidir; mevcut site içinde yeni dükkân-genişleme fazları, vinç-platform ayrımı, ortak alan koordinasyonu ve teslim kaydı sektör geneli inşaat pratiğidir. Faal karma bakım, OSB servis teması, özel proje, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

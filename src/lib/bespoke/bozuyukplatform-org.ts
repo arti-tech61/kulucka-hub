@@ -714,4 +714,200 @@ export const BOZUYUKPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İnegöl'ün mobilya-ahşap işleme ağırlıklı sanayi kimliği ve mobilya ürünlerinin hacimli-hafif taşıma karakteri kamuya açık genel bilgidir; koridor bazlı forklift seçimi, boyahane çevre sınırlaması ve dönemsel düzenleme programı firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
     },
+    "bolge:bozuyuk-kucuk-sanayi-sitesi": {
+        h1: "Bozüyük Küçük Sanayi Sitesinde Yükleme, Boşaltma ve Raf İşleri İçin Karma Makine Planı",
+        giris:
+            "Bozüyük Küçük Sanayi Sitesi için bu kaydın dar konusu, dükkân kapısında mal kabulü ile içerideki raf erişimini aynı iş emri içinde fakat farklı makine görevleri olarak yönetmektir. Çatı, oluk ve dış cepheye eklemli erişim B4'ün; mobilya atölyesindeki temiz tavan aksına makaslı erişim ise B9'un konusudur ve burada tekrarlanmaz. Bu sayfada forklift paletli ya da uygun taşıma birimine alınmış malzemeyi araçtan güvenli kabul noktasına indirir, zeminde taşır ve yalnız yetkili raf operasyonunda yükü konumlandırır. Platform ise insanın raf etiketi, koruyucu, bağlantı, işaretleme veya raf üstündeki erişilebilir teknik noktaya ulaşmasını sağlar; yük kaldırma aracı olmaz. Belirli bir işletmenin raf yüksekliği, ürün çeşidi, kapasitesi veya günlük araç sayısı hakkında iddia kurulmaz. Gerçek talep öncesinde araç yanaşma alanı, kapı açıklığı, zemin, koridor, raf durumu, yük bilgisi ve yaya hareketi doğrulanır. İki makinenin tek pakette gelmesi aynı koridorda eşzamanlı çalışabilecekleri anlamına gelmez. İş, kabul hücresi, malzeme yerleştirme dilimi, personel erişimi ve saha teslimi olarak sıralanır. Böylece küçük sanayi sitesindeki kısa mal kabul penceresi aceleye dönüşmeden, yükün ve çalışanın görev sınırları görünür kalır.",
+        maddeler: [
+            {
+                baslik: "Araçtan indirmeyi tanımlı kabul hücresinde yapmak",
+                metin:
+                    "Taşıyıcı gelmeden önce yanaşma yönü, indirme tarafı ve geçici kabul alanı işletmeyle belirlenir. Ortak site yolu, komşu dükkân girişi veya acil geçiş forkliftin çalışma alanı sayılmaz. Araç sabitlenmeden, sürücüyle iletişim kurulmadan ve yükün ambalajı gözlenmeden çatallar yük altına girmez. Ağırlık merkezi, palet durumu ve kaldırma noktası yük sahibinden alınan bilgiyle değerlendirilir. Hasarlı ya da dengesiz birim sırf trafiği açmak için kaldırılmaz. İndirilen malzeme doğrudan bilinmeyen raf gözüne gönderilmez; önce ayrılmış kabul hücresinde sayım ve durum kontrolü yapılır. Platform bu sırada hücreye girmez, personel yük altında bulunmaz.",
+            },
+            {
+                baslik: "Forklift rotasını raf koridorundan önce doğrulamak",
+                metin:
+                    "Kapıdan hedef rafa uzanan rota genişlik, dönüş, tavan açıklığı, kolon, eşik, gider kapağı ve yaya geçişi bakımından yürünür. Forkliftin nominal kaldırma kabiliyeti tek seçim ölçütü değildir; gerçek yük merkezi, erişilecek seviye, ataşman, zemin ve üretici tablosu birlikte ele alınır. Koridor geçici stokla daralmışsa malzeme işletme tarafından kaldırılır; operatör paleti raf ya da duvar arasında sürükleyerek boşluk yaratmaz. Raf gözünün taşıma uygunluğu ve yerleştirme kararı işletmenin yetkili sorumlusundadır. Forklift yalnız açılmış rotada hareket eder, kör dönüşlerde saha iletişimi kullanılır ve park edildiğinde çatallar güvenli konuma indirilir.",
+            },
+            {
+                baslik: "Raf işi içinde yük ve insan görevini ayırmak",
+                metin:
+                    "Paletin rafa alınması forklift görevidir; travers bağlantısını, etiketi, koruyucuyu veya erişilebilir teknik ayrıntıyı kontrol etmek ise uygun platformla personel erişimi gerektirir. İnsan forklift çatalı, palet veya doğaçlama sepet üzerinde yükseltilmez. Platform korkuluğuna yük bağlanmaz ve sepet raf gözüne malzeme itmek için kullanılmaz. Önce forklift ilgili malzemeyi yerleştirip koridoru terk eder, ardından yük hareketi durdurulur ve platformun çalışma hücresi açılır. Personel kontrolü tamamladıktan, sepet indikten ve bariyer devredildikten sonra forklift yeni dilime döner. Bu sıra iki ekipmanın birbirinin görüş alanına girmesini önler.",
+            },
+            {
+                baslik: "KSS ortak yolunu kısa ve görünür pencerelerle korumak",
+                metin:
+                    "Dükkân önü alanı işletmenin özel avlusu gibi kabul edilmez; komşu araç, müşteri ve yaya akışı çalışma hücresine yaklaşabilir. Yükleme penceresi önceden duyurulur, koniler yalnız makinenin çevresine değil aracın kapladığı alan ile dönüş zarfına göre yerleştirilir. Geçiş bütünüyle ayrılamıyorsa işletme kontrollü duruş uygular veya işi daha uygun zamana alır. Forklift yük taşırken platform parkta ve enerjisi güvenli durumda kalır. Platform yükseldiğinde forklift anahtarıyla birlikte belirlenmiş bekleme noktasına çekilir. Hücreler arasında geçiş sözlü tahminle değil, sorumluların açık devriyle yapılır.",
+            },
+            {
+                baslik: "Paket sevkiyatı iki ayrı kabul kaydıyla kapatmak",
+                metin:
+                    "Forklift ile platform aynı programda gönderilse bile makine kabulü birleşik bir göz atma işlemi değildir. Her ünitenin görünür durumu, kumandası, güvenlik donanımı, lastiği, enerji veya yakıt koşulu ve kullanım sınırı ayrı kayda alınır. Operatör yetkileri de makine türüne göre doğrulanır. Gün sonunda forkliftin taşıdığı birimler işletme listesiyle, platformla tamamlanan erişim noktaları ise iş kartıyla karşılaştırılır. Açık kalan palet, hasarlı ambalaj ya da tamamlanmamış raf kontrolü kendi başlığında yazılır. İki ekipmanın aynı faturada bulunması sorumluluk ve teslim izlerini birbirine karıştırmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "KSS yükleme ve raf akışında görev matrisi",
+                paragraflar: [
+                    "Bu tablo belirli bir dükkânın envanteri değildir; saha doğrulamasında işi doğru makineye ve doğru sıraya bağlamak için kullanılan genel ayrımı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş adımı", "Forklift görevi", "Platform görevi", "Geçiş koşulu"],
+                    satirlar: [
+                        ["Araç kabulü", "Uygun yükü indirmek", "Yok", "Araç sabit ve alan ayrılmış"],
+                        ["Geçici istif", "Birimi kabul hücresine taşımak", "Yok", "Yük durumu kaydedilmiş"],
+                        ["Rafa yerleştirme", "Yetkili göze yük konumlamak", "Beklemede", "Koridor insansız"],
+                        ["Raf üstü kontrol", "Koridor dışında", "Personel erişimi", "Yük hareketi durmuş"],
+                        ["Alan teslimi", "Çatalları indirip çıkmak", "Sepeti indirip çıkmak", "İki kayıt kapanmış"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek saha krokisinde iki hareket zarfı çizmek",
+                paragraflar: [
+                    "Keşif krokisinde taşıyıcının yanaşması, forkliftin dönüşü, geçici kabul hücresi, hedef raf koridoru ve platformun park noktası ayrı renklerle işaretlenir. Rafın yalnız önden görünüşü yeterli değildir; zemindeki kapaklar, kolonlar, kapı kanadı ve yaya çıkışı da kayda girer. Forkliftin sürekli hareket eden zarfı ile platformun yükseldiğinde oluşan sabit çalışma hacmi üst üste düşüyorsa eşzamanlı plan iptal edilir.",
+                    "Kroki çalışma günü yeniden doğrulanır, çünkü dükkân önündeki araç ve geçici stok değişebilir. Yeni engel güvenli dönüşü bozuyorsa rota doğaçlama daraltılmaz. Malzeme kaldırılır, alternatif hücre açılır veya program sırası değiştirilir. Bu yöntem makineyi sahaya sığdırmaya değil, yük ile personelin birbirinden ayrıldığı uygulanabilir bir iş akışı kurmaya yarar.",
+                ],
+            },
+            {
+                baslik: "Dilimin kapanışı ve sonraki dükkâna geçiş",
+                paragraflar: [
+                    "Her raf diliminde önce yük yerleşiminin işletme sorumlusu tarafından kabulü alınır. Ardından gerekliyse platform hücresi açılır; bağlantı, etiket veya koruma kontrolü tamamlanır. Alet ve sökülen parça sayılır, platform indirilir, bariyer ancak alan güvenli biçimde boşaldığında kaldırılır. Açık konu varsa raf gözü ve sebebiyle yazılır; tamamlanmamış iş bitmiş gibi devredilmez.",
+                    "Aynı gün başka dükkâna geçilecekse makinelerin temizliği, görünür hasar kontrolü ve taşıma sabitlemesi yeniden yapılır. Önceki işletmenin yük bilgisi veya yerleşim kararı sonraki iş için varsayım oluşturmaz. Yeni adres kendi kapı, zemin ve raf dosyasıyla kabul edilir. Böylece ortak sevkiyat ekonomisi, birbirinden farklı KSS işlerini tek bir genel reçeteye dönüştürmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift ile platform raf koridorunda aynı anda çalışabilir mi?",
+                cevap:
+                    "Aynı koridorda ve kesişen hareket zarflarında çalıştırılmaz. Forklift yükü yetkili göze yerleştirir, çatallarını güvenli konuma indirir ve belirlenmiş bekleme alanına çıkar. Yük hareketi durduktan sonra platform hücresi devralır ve personel erişim işi başlar. Platform tamamen indikten, aletler sayıldıktan ve bariyer devredildikten sonra forklift yeniden girebilir. Fiziksel olarak bağımsız koridorlar varsa paralel çalışma tesis risk değerlendirmesiyle ayrıca ele alınır; yalnız zaman kazanmak için iki makine yan yana bırakılmaz.",
+            },
+            {
+                soru: "Platform sepetinden paleti rafa itebilir miyiz?",
+                cevap:
+                    "Hayır. Platform personel ile izin verilen küçük el aletlerini erişim noktasına taşır; palet yerleştirme veya yük elleçleme ekipmanı değildir. Sepete yük bağlamak, korkuluk dışına parça uzatmak ya da sepeti palete dayamak kabul edilmez. Paletli malzeme uygun forklift, yük bilgisi ve yetkili raf kararıyla konumlandırılır. Personelin üst bağlantı veya etiket işi varsa yük sabitlendikten ve forklift koridoru terk ettikten sonra ayrı platform diliminde tamamlanır.",
+            },
+            {
+                soru: "Dükkân önündeki ortak yol açıkken araç boşaltılabilir mi?",
+                cevap:
+                    "Yalnız taşıyıcının, forklift dönüş zarfının ve düşebilecek yük alanının trafikten fiziksel olarak ayrılabildiği koşulda kontrollü plan kurulabilir. Birkaç koni koymak yeterli değildir. Komşu girişleri, yaya çıkışları ve acil geçiş gözden geçirilir; işletmeler önceden bilgilendirilir. Ayrım kurulamıyorsa ilgili kesit kısa süre kontrollü kapatılır veya mal kabulü daha uygun pencereye taşınır. Araç sabitlenmeden ve sürücüyle açık iletişim kurulmadan indirme başlamaz.",
+            },
+            {
+                soru: "Hangi forkliftin uygun olduğuna nasıl karar veriyorsunuz?",
+                cevap:
+                    "Yükün doğrulanmış kütlesi, ağırlık merkezi, taşıma biriminin durumu, kaldırma seviyesi, ataşman, koridor genişliği, dönüş ve zemin birlikte incelenir. Yalnız en ağır görünen yüke veya katalogdaki tek kapasite değerine bakılmaz; üreticinin yük tablosu esas alınır. Kapı ve rota ölçüleri fotoğrafla desteklenir. Bilgi eksikse yük kaldırılmaz, işletmeden belge veya saha doğrulaması istenir. Rafın taşıma uygunluğunu ise makine sağlayıcısı değil işletmenin yetkili sorumlusu belirler.",
+            },
+            {
+                soru: "Bu hizmet çatı, cephe veya mobilya tavan bakımını da kapsıyor mu?",
+                cevap:
+                    "Bu kayıt onları kapsamaz. Buradaki kapsam araçtan mal kabulü, zeminde güvenli taşıma, yetkili raf gözüne yerleştirme ve raf çevresindeki personel erişimidir. Çatı ile dış cephe eklemli platform geometrisi ayrı B4 içeriğinde; mobilya atölyesinin düz iç tavan aksındaki makaslı kullanım ise B9 içeriğinde ele alınır. Gerçek talepte bu işlerden biri de varsa bağımsız hedef, makine sınıfı ve çalışma penceresi hazırlanır; yükleme-raf paketine sessizce eklenmez.",
+            },
+            {
+                soru: "İki makineyi birlikte istemek her işte daha ekonomik midir?",
+                cevap:
+                    "Hayır. İş listesi yalnız palet indirme ve zemin taşımadan oluşuyorsa platform göndermek; yalnız raf üstü personel erişimi varsa forklift göndermek gereksiz olabilir. Paket ancak iki ayrı görevin de doğrulandığı, saha sırasının kurulabildiği ve taşıma planının buna uygun olduğu durumda değerlendirilir. Teklifte her makinenin görevi, kullanım dönemi ve teslim koşulu ayrı görünür. Ekonomik karar yalnız sevkiyat sayısına değil, hazır işlerin güvenle kapanmasına ve bekleme riskine göre verilir.",
+            },
+        ],
+        kaynak:
+            "Özgün kayıt 2026-08-13 tarihinde hazırlandı. Bozüyük Küçük Sanayi Sitesi adı uygulama belgesinin genel coğrafi çapasıdır; belirli dükkân, raf sistemi, yük, kapasite, araç sayısı veya işletme verisi kullanılmamıştır. Yük kabul hücresi, forklift-platform görev ayrımı ve dilimli saha devri sektör geneli uygulama çerçevesidir. Çatı-cephe ile mobilya iç tavan temaları kapsam dışıdır.",
+    },
+    "bolge:sakarya-cevre-ili": {
+        h1: "Bozüyük'ten Sakarya Yönündeki Depolara Forklift ve Platform Paket Sevki",
+        giris:
+            "Sakarya çevre ili kaydında B11'in konusu otoyol üzerindeki metal işleme bakım penceresi veya terminal-liman akışına tek platform entegrasyonu değildir. Buradaki mercek, komşu il yönündeki doğrulanmış bir depo talebinde forklift ile personel yükseltme platformunun ortak sevkiyat dosyasında buluşmasıdır. Belirli depo, güzergâh, mesafe, liman, terminal, yük hacmi, araç sayısı veya kapasite hakkında iddia kurulmaz. Talep sahibi iki iş listesini ayrı verir: forkliftin yürüteceği palet kabulü, zemin taşıması ve uygun raf yerleştirmesi; platformun yürüteceği raf üstü işaretleme, aydınlatma, koruyucu veya teknik erişim kalemleri. Ortak paket, makinelerin birbirinin yerine kullanılması ya da aynı çalışma hücresine birlikte sokulması anlamına gelmez. Sevkiyat öncesinde her ünitenin taşıma biçimi, indirme alanı, operatörü, enerji gereksinimi ve geri alma koşulu ayrı doğrulanır. Depoya varışta da iki bağımsız kabul yapılır. Gün planı yük hareketi ile yüksek erişimi dilimlere ayırır, sahadaki tek koordinasyon çizelgesi bu iki görevin çakışmasını engeller. Böylece çevre ile yapılan paket sevk, yalnız nakliye kolaylığı değil, depo içinde görev sınırlarını koruyan ölçülebilir bir teslim modeli olur.",
+        maddeler: [
+            {
+                baslik: "İki makine için ayrı taşıma ve indirme dosyası kurmak",
+                metin:
+                    "Forklift ile platformun ölçüsü, kütlesi, sabitleme noktası ve taşıma gereksinimi aynı kabul edilmez. Nakliye düzeni uygun taşıyıcı kapasitesi ve üretici talimatıyla hazırlanır; tek araçta taşınabilecekleri peşinen varsayılmaz. Depodaki giriş kapısı, ağır araç dönüşü, indirme yüzeyi ve saha irtibatı iki ünite için kontrol edilir. Varış bildirimi ortak olabilir, ancak indirme sırayla ve ayrılmış alanda yapılır. Bir makine taşıyıcıdan alınırken diğeri sahada dolaştırılmaz. İndirme sonrasında görünür kontrol tamamlanır, hasar veya eksik varsa işe başlamadan kayda girer.",
+            },
+            {
+                baslik: "Depo talebini forklift ve platform listelerine bölmek",
+                metin:
+                    "İş emrindeki her kalem, yük mü yoksa insan erişimi mi gerektirdiğine göre sınıflandırılır. Palet indirme, zeminde taşıma ve raf yerleşimi uygun forklift görevidir. Raf etiketi, üst bağlantı gözlemi, armatür, kamera veya benzeri personel işi uygun platformla yürütülür. Forklift çatalında insan yükseltilmez; platform sepetinde palet taşınmaz. Bir kalem iki makineyi gerektiriyorsa sıra yazılır: malzeme konumlanır, forklift çıkar, yük güvenli hâle getirilir ve platform hücresi açılır. Belirsiz kalem keşfe bırakılır, sevkiyat günü operatöre doğaçlama görev verilmez.",
+            },
+            {
+                baslik: "Paket varışını depo kabul kapasitesine bağlamak",
+                metin:
+                    "İki ünitenin aynı dönemde gelmesi depo kapısında iki kat alan bulunacağı anlamına gelmez. İşletme kabul alanında hangi makinenin önce indirileceğini, diğerinin nerede güvenle bekleyeceğini ve yük araçlarının hangi rotayı kullanacağını belirler. Planlanmış hücre hazır değilse taşıyıcı rastgele rampaya alınmaz. Forklift, platform indirmesi için yük veya çekici taşımak amacıyla kullanılmaz; her boşaltma uygun yöntemle yapılır. Kabul tamamlanınca makineler görev alanlarına ayrı rotalardan ya da sırayla geçirilir. Bu disiplin ortak sevkiyatı depo girişinde yeni bir sıkışıklığa dönüştürmez.",
+            },
+            {
+                baslik: "Vardiya çizelgesinde kesişmeyen çalışma dilimleri açmak",
+                metin:
+                    "Forklift yoğun mal kabulü ve raf beslemesini yürütürken platformun bomu veya sepeti aynı koridora açılmaz. Depo planı koridor, saat ve sorumlu bilgisiyle dilimlenir. Fiziksel olarak ayrılmış hacimler varsa paralel iş ayrıca değerlendirilebilir; görüşün zayıf olduğu, yaya trafiğinin sürdüğü veya hareket zarflarının kesiştiği yerde sıra zorunludur. Dilim devrinde forklift park edilir, çatallar indirilir ve anahtar kontrolü sağlanır. Platform ancak bariyer ile alt alan teslim edildikten sonra yükselir. Değişiklik gerektiğinde iki operatör ve depo sorumlusu aynı çizelgeyi günceller.",
+            },
+            {
+                baslik: "Dönüşü tek çağrı değil iki kapanışla planlamak",
+                metin:
+                    "Forklift işi platformdan önce bitebilir veya yüksek erişim kalemleri malzeme hazırlığı nedeniyle ertelenebilir. Bu yüzden geri alma kararı yalnız ilk makinenin boş kalmasına bakılarak verilmez. Her ünitenin açık işi, temizlik durumu, şarj ya da yakıt koşulu, görünür hasarı ve yükleme alanı ayrı doğrulanır. Ortak taşıma uygulanacaksa ikisinin de kapanış saati ile taşıyıcı uygunluğu eşleştirilir; gereksiz bekleme oluşuyorsa ayrı dönüş seçeneği değerlendirilir. Makine, işletme teslimi tamamlanmadan yalnız nakliye fırsatı doğdu diye sahadan çıkarılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sakarya depo paketinde sevk ve görev tablosu",
+                paragraflar: [
+                    "Aşağıdaki çerçeve herhangi bir Sakarya deposuna ilişkin tesis verisi değildir; gerçek talepte iki makinenin ortak programını kurmak için genel karar noktalarını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Forklift dosyası", "Platform dosyası", "Ortak karar"],
+                    satirlar: [
+                        ["Sevk öncesi", "Yük ve ataşman", "Hedef ve erişim", "Taşıma düzeni"],
+                        ["Saha kabulü", "İndirme ve rota", "İndirme ve park", "Sıralı hücre"],
+                        ["Depo işi", "Palet hareketi", "Personel erişimi", "Kesişmeyen dilim"],
+                        ["Ara teslim", "Raf yerleşim kaydı", "Teknik nokta kaydı", "Sorumlu onayı"],
+                        ["Geri alma", "Ayrı durum kontrolü", "Ayrı durum kontrolü", "Taşıyıcı eşleşmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Paket teklifini sahadaki görev sınırına çevirmek",
+                paragraflar: [
+                    "Teklifte forklift ve platform ayrı satırlarda; makine sınıfı, görev, çalışma dönemi, operatör düzeni ve taşıma koşuluyla görünür. Paket ifadesi, her iki makinenin her işi yapacağı belirsiz bir hizmet başlığına dönüşmez. Depo yük listesini ve yüksek erişim hedeflerini fotoğraf, ölçü ve saha kuralıyla paylaşır. Eksik bilgi için koşullu seçenek yazılır, doğrulanmamış kapasite veya erişim sözü verilmez.",
+                    "Program değiştiğinde yeni iş doğru listeye eklenir. Yeni palet hareketi platform süresine, yeni tavan hedefi forklift süresine yazılmaz. İlave görev makine uygunluğunu veya dönüşü etkiliyorsa teklif ve çizelge güncellenir. Bu şeffaflık ortak sevkiyatın faydasını korurken kapsamın sahada sessizce büyümesini önler.",
+                ],
+            },
+            {
+                baslik: "Depoda ortak koordinasyon, bağımsız teknik teslim",
+                paragraflar: [
+                    "Günlük koordinasyon toplantısında aktif koridorlar, mal kabulü, platform hücreleri, yaya rotaları ve bekleme alanları tek plan üzerinde görülür. Buna karşılık teknik kontrol formları makineye özgüdür. Forklift operatörü yük ve hareket kaydını, platform operatörü erişim noktası ve alt alan kaydını kapatır. Depo sorumlusu her iki devri kendi yetkisi içinde onaylar.",
+                    "İş sonunda koridorlarda ambalaj, alet veya sökülen parça bırakılmaz. Makineler temiz ve güvenli park konumuna alınır; şarj bağlantısı ya da yakıt işlemi işletmenin belirlediği alanda yapılır. Taşıyıcı gelmeden sabitleme hazırlığı ve çıkış yolu kontrol edilir. Ortak çıkış yapılacaksa sıra önceden belirlenir, diğer depo araçlarının hareketiyle çakışan doğaçlama yükleme yapılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift ve platform mutlaka aynı taşıyıcıyla mı gönderilir?",
+                cevap:
+                    "Hayır. Her makinenin ölçüsü, kütlesi, sabitleme yöntemi ve yürürlükteki taşıma koşulları değerlendirilir. Uygun ve mevzuata uyumlu bir ortak taşıma düzeni kurulabiliyorsa seçenek olarak planlanabilir; aksi durumda ayrı araçlar aynı kabul programına bağlanır. Paket hizmetin özü tek taşıyıcı değil, görev ve saha koordinasyonudur. Depodaki indirme alanı da iki ünitenin sırayla güvenle kabul edilebilmesine uygun olmalıdır. Taşıma kararı doğrulanmış makine bilgisi olmadan verilmez.",
+            },
+            {
+                soru: "Paket hizmet terminal veya liman sahasında da geçerli mi?",
+                cevap:
+                    "Bu kayıt terminal ya da liman operasyonunu anlatmaz. B11'in sınırı, Sakarya yönündeki doğrulanmış depo talebine forklift ve platform görevlerini birlikte sevk etmektir. Terminal kapı randevusu, liman yönlü araç akışı ve aktarma hücresi B7'nin ayrı merceğidir. Gerçek adres bu tür özel bir saha ise işletmenin kuralları, trafik modeli ve gerekli ekipman baştan ayrıca değerlendirilir; depo paketi koşulları otomatik olarak taşınmaz.",
+            },
+            {
+                soru: "Bu sayfadaki sevkiyat TEM üzerindeki metal bakım penceresini kapsıyor mu?",
+                cevap:
+                    "Hayır. Otoyol penceresiyle metal işleme tesisine manlift yetiştirme, sıcak iş ve vinç yolu ayrımı B6'nın bağımsız konusudur. Burada belirli yol, süre veya metal tesisi varsayılmadan iki farklı makinenin depo görevlerine hazırlanması ele alınır. Güncel güzergâh ve yol koşulu taşıma sırasında elbette yetkili kaynaklardan kontrol edilir, fakat içerik bir TEM süresi ya da metal bakım vaadi kurmaz. Talep metal tesisi bakımıysa ayrı saha dosyası gerekir.",
+            },
+            {
+                soru: "Forklift operatörü platformu, platform operatörü forklifti kullanabilir mi?",
+                cevap:
+                    "Yalnız ilgili makine için gerekli yetkinliği, işletme kabulünü ve görevlendirmeyi ayrı ayrı taşıyan kişi o ünitenin operatörü olabilir. Bir makinede yetkili olmak diğerinde otomatik yetki sağlamaz. Paket programda operatör isimleri ve görevleri vardiya öncesinde doğrulanır. Devir gerekiyorsa sözlü rica yeterli değildir; yetkinlik ve saha prosedürü yeniden kontrol edilir. Makine anahtarları kontrol altında tutulur ve kullanım kayıtları birbirinden ayrı korunur.",
+            },
+            {
+                soru: "Depoda hangi işler iki makineyi birlikte gerektirir?",
+                cevap:
+                    "Örneğin uygun paletli malzemenin kabul edilip yetkili raf gözüne yerleştirilmesi forklift, ardından raf üstündeki etiket, koruyucu veya erişilebilir bağlantının personelce kontrolü platform gerektirebilir. Ancak bu örnek her depo için ihtiyaç iddiası değildir. İşletme gerçek listesini verir; yük, raf ve hedef geometrisi incelenir. Yalnız bir makineyle güvenle kapanan iş için gereksiz paket önerilmez. İki görev varsa bile aynı anda değil, hareket zarfları ayrılmış dilimlerle yürütülür.",
+            },
+            {
+                soru: "Makineler farklı günlerde biterse geri alma nasıl yapılır?",
+                cevap:
+                    "Her ünitenin açık işleri ve sonraki rezervasyonu ayrı izlenir. Erken biten makinenin güvenli park, enerji ve yetkisiz erişim koşulu uygunsa ortak dönüşü beklemesi değerlendirilebilir; bekleme işletmeye veya programa yük getiriyorsa ayrı taşıma planlanabilir. Karar sözleşmedeki koşul, taşıyıcı uygunluğu ve depo kabul-çıkış düzeniyle verilir. Her durumda durum kontrolü, temizlik, teknik teslim ve yükleme alanı hazırlığı tamamlanmadan geri alma başlamaz.",
+            },
+        ],
+        kaynak:
+            "Bu özgün içerik 2026-08-13 tarihinde oluşturuldu. Sakarya yalnız uygulama belgesindeki çevre il çapasıdır; belirli depo, terminal, liman, metal tesisi, güzergâh, mesafe, süre, yük, kapasite veya araç adedi ileri sürülmemiştir. Forklift-platform görev ayrımı, bağımsız kabul ve ortak depo çizelgesi sektör genelindeki planlama ilkeleridir. TEM-metal bakım ve terminal-liman temaları kapsam dışıdır.",
+    },
 };

@@ -715,4 +715,203 @@ export const BOZUYUKPLATFORM_NET_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. İnegöl OSB'nin mobilya-ahşap işleme ağırlıklı yapısı ve Bozüyük'e karayolu komşuluğu kamuya açık genel bilgidir; sefer içi tesis tipi sıralaması ve OSB ortak alanına yönlendirme yaklaşımı firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
     },
+    "bolge:bilecik-kucuk-sanayi-sitesi": {
+        h1: "Bozüyük OSB’den Bilecik Küçük Sanayi Sitesine Platform Servisi",
+        giris:
+            "Bilecik Küçük Sanayi Sitesine bu sayfadaki yaklaşım, dükkânların karma iş listesini yeniden anlatmak değildir. Kardeş kayıt faal atölyelerdeki aydınlatma, tabela, raf, sıcak iş ve ortak yol çeşitliliğini ayrıntılı biçimde ele alır. Burada yalnız Bozüyük OSB’de planlanmış platform kapasitesinin il merkezindeki KSS’ye kontrollü bir servis çıkışına nasıl dönüştüğünü anlatıyoruz. OSB programı kesin tarihli parsel ve ortak alan işlerinden oluşurken KSS talebi çoğu zaman daha kısa bir pencereye ihtiyaç duyar. İki programı birleştirmek için talebin ölçüsü, makine sınıfı, tarih esnekliği, saha sorumlusu ve dönüş saati önceden doğrulanır. Bozüyük’teki ana görev bitmeden ünite çekilmez; KSS’ye ulaştığında da yalnız kısa süreceği varsayımıyla hazırlık atlanmaz. Servis kartı girişten hedefe rotayı, çalışma hücresini ve kapanış kanıtını taşır. Böylece OSB’den çıkan makine günü doldurmak için rastgele dolaşmaz; doğrulanmış bir KSS hedefini tamamlayıp ana kapasite planına geri döner.",
+        maddeler: [
+            {
+                baslik: "OSB ana programından servis slotu açmak",
+                metin:
+                    "Bozüyük OSB’deki kesin tarihli iş, tahmini değil teknik teslimle kapanınca servis slotu açılır. KSS talebi için uygulanabilir saat aralığı, gereken sınıf ve çalışma süresi kapasite defterinde görünür. Ana işin uzama ihtimali varsa müşteriye tek bir kesin saat yerine gerçekçi varış penceresi verilir; değişiklik erken bildirilir. Makine bir sonraki OSB taahhüdünü riske atacak kadar uzun bir KSS listesine yönlendirilmez. Tarihi sabit veya acil iş ortak servise sığmıyorsa ayrı sevkiyat seçeneği sunulur. Bu karar yalnız mesafeye değil önceki kapanış, operatör vardiyası, hava, şarj veya yakıt ve güvenli dönüş payına dayanır.",
+            },
+            {
+                baslik: "Servis kartıyla teknik uygunluğu doğrulamak",
+                metin:
+                    "OSB’de bulunan herhangi bir platformun KSS işine uygun olduğu varsayılmaz. Giriş kapısı, iç dönüş, hedef kotu, yatay engel, zemin, çalışma ortamı ve sepetteki yük fotoğraf ve ölçüyle kaydedilir. Makinenin teknik verisi bu kartla eşleştirilir. Bozüyük’teki ünitenin sınıfı uygun değilse sırf yakın olduğu için gönderilmez; başka kapasite veya farklı tarih planlanır. Saha günü park edilmiş araç, malzeme veya değişen zemin eski rotayı kapatmışsa operatör yeniden değerlendirir. Ölçü sınırdaysa fiziksel keşif istenir. Yanlış üniteyle yapılan kısa çıkış, doğru hazırlıktan daha uzun ve maliyetli olur.",
+            },
+            {
+                baslik: "KSS varışında yerel sorumlu teslimi",
+                metin:
+                    "Servis aracı geldiğinde girişin açık, çalışma alanının boş ve gerekli malzeme ile teknik sorumlunun hazır olması gerekir. Her iş için tek bir yerel irtibat belirlenir. Bu kişi site içi araç-yaya düzenini ve ilgili dükkân erişimini hazırlar; operatör makine zemini ile hareket zarfını ayrıca kontrol eder. Enerji veya hareketli ekipman üzerinde iş varsa güvenli teslim işletmenin yetkili kişisinden alınır. Hazırlık eksikliği kısa sürede kapanmıyorsa servis bütün OSB programını bekletmez; eksik kart kayda alınır ve yeni pencereye taşınır. Güvenlik adımı, işin küçük olması gerekçesiyle azaltılmaz.",
+            },
+            {
+                baslik: "Kısa hizmeti kapalı bir iş paketine çevirmek",
+                metin:
+                    "KSS servisi açık uçlu ‘makine gelmişken bakarız’ listesi değildir. Önceden doğrulanmış hedefler park konumu ve izin gereksinimine göre sıralanır. Malzemeler varıştan önce hazırlanır. Aynı konumdan erişilen kalemler paket halinde tamamlanır; yeni hedef teknik ve zaman etkisi görülmeden eklenmez. Çalışma hücresi bom-sepet zarfı ve düşme alanıyla ayrılır. Paket sonunda alet-parça sayımı yapılır, açık bağlantı bırakılmaz ve sorumlu alanı teslim alır. Başka sınıf veya uzun hazırlık isteyen iş sonraki programa yazılır. Bu sınır, kısa servisin ana kapasite planını görünmez biçimde aşmasını önler.",
+            },
+            {
+                baslik: "Bozüyük OSB kapasitesine geri dönüş",
+                metin:
+                    "KSS işi bittiğinde sepet indirilir, makine temizlenir, görünür durum ile enerji seviyesi kaydedilir ve site içi yol güvenli biçimde açılır. Bir sonraki görev için arıza, sızıntı veya alarm belirtisi varsa ünite doğrudan OSB’ye çalışmaya gönderilmez; kullanım durdurulup servis zinciri başlatılır. Dönüş veya güvenli gece parkı, kapasite defterindeki sonraki slota göre belirlenir. İş uzatılacaksa karar tek taraflı verilmez. Yerel teslim, yeni süre ve OSB taahhütleri birlikte görülür. Kapanış kaydı, paylaşılan servisin hangi anda bittiğini ve makinenin hangi anda yeniden kullanılabilir olduğunu açık tutar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bozüyük OSB-KSS servis kapıları",
+                paragraflar: [
+                    "Bu tablo KSS’deki karma iş türlerini değil, OSB kapasitesinden doğrulanmış servis üretmenin aşamalarını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Kapı", "OSB tarafı", "KSS tarafı", "Geçiş koşulu"],
+                    satirlar: [
+                        ["Talep", "Kapasite görünümü", "İş ve tarih aralığı", "Aday slot açıldı"],
+                        ["Teknik eşleşme", "Mevcut makine sınıfı", "Ölçü, rota, zemin", "Uygunluk doğrulandı"],
+                        ["Çıkış", "Ana iş teknik teslimde", "Yerel sorumlu hazır", "Varış bildirildi"],
+                        ["Çalışma", "Dönüş payı korundu", "Hücre ve malzeme hazır", "Paket tamamlandı"],
+                        ["Kapanış", "Sonraki slot kontrolü", "Alan ve makine teslimi", "Servis kartı kapandı"],
+                        ["Geri dönüş", "Kapasite havuzu", "Yol tamamen açıldı", "Ünite yeniden planlandı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ortak servis ile ayrı sevkiyat kararı",
+                paragraflar: [
+                    "Tarihi esnek, kapsamı hazır ve OSB’deki mevcut makine sınıfına uygun kısa iş ortak servis için adaydır. Nakliye ve geçiş planı ana görevle birleşir, fakat her işletmenin teklifi, izni ve teslimi ayrı kalır. KSS müşterisi uygulanabilir tarih aralığı verir; servis günü kapasite kesinleştiğinde yazılı teyit alır. Bu model fiyatı gizlemek için değil, kullanılabilir bir geçişi verimli değerlendirmek için kurulur.",
+                    "Kesin saatli duruş, acil güvenlik riski, farklı sınıf, uzun iş veya ana OSB slotunu tehdit eden kapsam ayrı sevkiyat gerektirebilir. İki seçenek taşıma, kullanım, operatör ve bekleme koşullarıyla karşılaştırılır. Ortak servis adına iş geceye itilmez ya da eksik süreyle açılmaz. Ayrı sevkiyat seçildiğinde makine doğrudan KSS programına ayrılır ve başka parsel boşluğuna yetişeceği varsayılmaz.",
+                ],
+            },
+            {
+                baslik: "Tekrarlanan servis için performans kaydı",
+                paragraflar: [
+                    "Her servis sonunda planlanan ve gerçekleşen varış, aktif çalışma, hazırlık beklemesi, teknik sınıf ve kapanış nedeni kaydedilir. Gecikmenin OSB ana işinden mi, KSS hazırlığından mı, hava veya makine durumundan mı doğduğu ayrılır. Bu bilgi sonraki servis slotunun uzunluğunu düzeltir. Sürekli hazır olan iş daha güvenilir aralığa alınır; eksik ölçü veya malzeme tekrarlanıyorsa teyit kapısı daha erkene çekilir.",
+                    "Kullanılan giriş ve park noktası sonraki talep için referans olur, ancak güncel saha kontrolünün yerini tutmaz. Ortak yol, dükkân düzeni veya hedef değişmiş olabilir. Yeni fotoğraf eski kayıtla karşılaştırılır. Bu hafıza B1’deki karma iş içeriğini çoğaltmaz; yalnız Bozüyük OSB’den servis modelinin gerçekten sürdürülebilir olup olmadığını kanıtlayan işletme kaydı oluşturur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bozüyük OSB’deki makine KSS’ye ne zaman gelebilir?",
+                cevap:
+                    "Önce OSB’deki ana işin teknik kapanışı ve sonraki taahhüt görülür. KSS kartınızın makine sınıfı, rota, zemin, yerel sorumlu ve tarih aralığı doğrulanmışsa uygun servis penceresi önerilir. Kesin saat yerine gerçekçi varış aralığı paylaşılabilir; önceki iş uzarsa erken bilgi verilir. Güvenli çalışma ve dönüş için yeterli süre kalmıyorsa görev geceye itilmez, yeni slot açılır. Tarihiniz kesin ve bekleyemiyorsa ortak servis yerine ayrı sevkiyat değerlendirilir. Tutulamayacak hız sözü vermeyiz.",
+            },
+            {
+                soru: "KSS’deki iş türlerini neden bu sayfada ayrıntılandırmıyorsunuz?",
+                cevap:
+                    "Karma atölye, tabela, raf, sıcak iş ve ortak yol koşulları kardeş B1 kaydının ana konusudur. Bu sayfanın farklı görevi, teknik olarak tanımlanmış bir KSS talebine Bozüyük OSB kapasitesinden nasıl servis ayrıldığını açıklamaktır. Yine de her iş için gerçek ölçü, ortam, enerji ve çalışma hücresi değerlendirilir; hizmet yüzeysel değildir. İçeriği ayrıştırmak aynı slug’ın kopya metne dönüşmesini önler. B10’da belirleyici sorular makinenin ne zaman serbest olduğu, KSS kartıyla uyup uymadığı ve güvenli kapanıştan sonra OSB planına nasıl döneceğidir.",
+            },
+            {
+                soru: "Tek bir küçük iş için ortak servis ekonomik olur mu?",
+                cevap:
+                    "Teknik sınıf ve tarihler uyuyorsa ayrı taşıma ihtiyacını azaltabilir. Bunun karşılığında işinizin fotoğraf, ölçü, malzeme, sorumlu ve tarih aralığı önceden hazır olmalıdır. Teklifte kullanım ile taşıma kaleminin nasıl ele alındığı görünür olur. Ortak servis güvenlik veya teslim adımlarını azaltmaz; her müşteri kendi iş emrini alır. Kesin gün isteyen veya ana programla uyumsuz sınıf gerektiren işte ayrı sevkiyat daha doğru olabilir. Karar yalnız düşük bedel değil tamamlanabilir gerçek kapsam üzerinden verilir.",
+            },
+            {
+                soru: "Makine geldiğinde işimiz hazır değilse bekler mi?",
+                cevap:
+                    "Kısa ve güvenle kapatılabilecek bir eksikse servis payı içinde çözülebilir. Kapalı giriş, bulunamayan yetkili, eksik enerji teslimi veya hazır olmayan malzeme belirsiz bekleme yaratıyorsa ekip ana programa döner. Kart, eksik koşul ve yeni sorumluyla yeniden planlanır. Hazır olmayan noktada rastgele başka iş açılmaz. Ortak servis, farklı işletmelerin zamanını birbirine bağladığı için hazırlık disiplini özellikle önemlidir. Bekleme ve yeni sevkiyatın sözleşme etkisi açıkça paylaşılır; makine sahada diye güvenlik adımı atlanmaz.",
+            },
+            {
+                soru: "KSS işi uzarsa platformu gece bırakabilir miyiz?",
+                cevap:
+                    "Yalnız uzatma kapasite defterinde onaylanmış ve düz, korunaklı, yetkisiz erişime kapalı park alanı hazırsa mümkündür. Akülü ünitede güvenli şarj noktası gerekir; kablo araç-yaya yoluna serilmez. Yetkili kullanıcı ve vardiya başı kontrol sorumluluğu yazılır. Bu koşullar yoksa makine OSB programına geri döner, kalan iş yeni servis veya ayrı sevkiyata alınır. Bir işin uzaması otomatik olarak sonraki müşterinin rezervasyonunu iptal etmez. Yeni süre, maliyet ve sorumluluk yazılı karara bağlanır.",
+            },
+            {
+                soru: "Servis sonunda makinenin OSB’ye dönmeye hazır olduğuna kim karar verir?",
+                cevap:
+                    "KSS işinin teknik sorumlusu çalışma alanını ve yapılan işi teslim alır; operatör ise makinenin bom, ayak, kumanda, görünür sızıntı, alarm ve genel durumunu kontrol eder. Alet-parça sayımı ve yolun yeniden açılması tamamlanır. Olağan dışı belirti varsa ünite çalışmaya devam ettirilmez, servis zinciri başlatılır. Planlama ekibi sonraki OSB slotunu ve dönüş koşulunu doğrular. Bu üç ayrı kabul bir araya geldiğinde servis kartı kapanır. Yalnız işçilik bitti diye makine doğrudan yeni göreve gönderilmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Bilecik Küçük Sanayi Sitesinin varlığı ve Bozüyük OSB’den servis yaklaşımı uygulama belgesindeki kamuya açık genel çerçevedir; kapasite slotu, servis kartı, yerel teslim ve geri dönüş kaydı sektör geneli planlama pratiğidir. Karma iş yükü ve yeni imalat temaları tekrarlanmamış; özel işletme, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "bolge:yenipazar": {
+        h1: "Bozüyük OSB Programından Bilecik Yenipazar’a Platform Servisi",
+        giris:
+            "Bu kayıt Aydın’ın Yenipazar ilçesini değil, Bilecik’e bağlı Yenipazar’ı anlatır. Ayrıca yeni yapı, çelik konstrüksiyon veya tesis kurulum projesi bu sayfanın kapsamı değildir; o açı ayrı B12 kaydına aittir. Buradaki konu, Bozüyük OSB’nin çok sektörlü bakım programında bulunan uygun bir platformun Bilecik Yenipazar’daki mevcut yapı ve bakım hedeflerine planlı servis olarak uzatılmasıdır. Kardeş kayıt ilçenin küçük atölye, tarımsal çevre ve yapı türlerini anlatır. B10 ise hizmetin nasıl takvime girdiğine odaklanır: iş kartı uzaktan tamamlanır, mevcut makinenin teknik uyumu doğrulanır, yerel sorumlu sahayı hazırlar ve servis güvenli dönüş payıyla açılır. İlçe adı benzerliği yüzünden adres, il ve konum yazılı olarak teyit edilir. Makine yalnız aynı yönde göründüğü için yola çıkarılmaz; giriş, zemin, hedef kotu ve çalışma hücresi görülmeden kesin sınıf sözü verilmez.",
+        maddeler: [
+            {
+                baslik: "Adres ve il doğrulamasını ilk kapı yapmak",
+                metin:
+                    "Talep kaydında ilçe adıyla yetinmeyiz. İlin Bilecik olduğu, açık adres, harita konumu, yerel irtibat ve yaklaşım yönü yazılı teyit edilir. Böylece Aydın Yenipazar ile isim benzerliğinden kaynaklanan yanlış rota veya teklif riski baştan kapanır. Konum hedefi gösterse de taşıyıcı veya platformun son yaklaşımını göstermez; yol, dönüş ve sert park alanı ayrıca fotoğraflanır. Adres değişikliği olduğunda önceki teklif otomatik taşınmaz. Program ve taşıma bilgisi doğru coğrafi kayda bağlandıktan sonra teknik keşif başlar. Bu basit kapı, bütün sonraki planın yanlış ilçe üzerine kurulmasını önler.",
+            },
+            {
+                baslik: "Mevcut bakım hedefini kurulum işinden ayırmak",
+                metin:
+                    "İş kartına yapının mevcut ve kullanımda olduğu, yapılacak kalemin bakım-onarım niteliği açıkça yazılır. Aydınlatma, çatı kenarı, cephe, kapı üstü veya mevcut tesisat gibi erişimler değerlendirilir; yeni yapı kabuğu, çelik montaj, genişleme veya tesis devreye alma işi bu servise eklenmez. Çünkü yeni kurulum farklı zemin, uzun süre, kaldırma koordinasyonu ve makine kapasitesi isteyebilir. Aynı adreste iki tür ihtiyaç varsa kapsamlar ayrılır. B10 servisi hazır bakım paketini kapatır, proje işi ayrı keşif ve rezervasyona gider. Makinenin sahada olması, yeni imalat kapsamını kendiliğinden uygun hâle getirmez.",
+            },
+            {
+                baslik: "Bozüyük OSB kapasitesiyle teknik eşleşme",
+                metin:
+                    "Yenipazar kartındaki hedef kotu, yatay engel, en dar geçiş, zemin, kapalı-açık ortam ve sepette taşınacak yük, OSB programında serbest kalacak makinenin erişim diyagramıyla karşılaştırılır. Sınıf uygun değilse başka tarih veya ayrı sevkiyat gerekir. Fazla büyük ünite dar girişe veya zemine, küçük ünite engel arkasındaki hedefe uygun olmayabilir. Bir önceki ilçede çalışmış olması teknik doğrulamanın yerine geçmez. Makine dış veya kirli alandan geliyorsa kapalı hacme giriş için temizlik koşulu değerlendirilir. Uygunluk yazılı kapandığında servis adayı takvime girer.",
+            },
+            {
+                baslik: "Yerel hazırlık ve tek seferde kapanış",
+                metin:
+                    "Yenipazar’daki sorumlu giriş alanını, çalışma tabanını ve hedef çevresini servis saatinden önce hazırlar. Gerekli malzeme ile teknik yetkili sahada bulunur; enerji veya hareketli ekipman tesis prosedürüne göre güvenli duruma getirilir. İş listesi aynı park konumundan erişilen paketlere ayrılır. Açık uçlu keşif servis günü yapılmaz. Her paket tamamlanınca alet-parça sayımı, bağlantı kontrolü ve alan teslimi yapılır. Son dakika yeni yapı veya uzun montaj kalemi eklenmez. Hazırlığın amacı servis penceresini aceleye çevirmek değil, kısa çıkışın tek seferde gerçekten tamamlanmasını sağlamaktır.",
+            },
+            {
+                baslik: "Hava, yol ve güvenli dönüş kararı",
+                metin:
+                    "Servis günü yol ve zemin koşulu yeniden teyit edilir. Yağış veya değişen saha düzeni destek yüzeyini ya da geçişi etkiliyorsa eski fotoğrafla devam edilmez. Dış işte rüzgâr üretici sınırını aştığında çalışma durur; küçük iş olduğu için sınır esnetilmez. Günün son hedefi açılmadan bariyer, izin, işçilik, kapanış ve Bozüyük programına dönüş için yeterli süre bulunduğu görülür. Çok günlük kalış gerekiyorsa ayrı rezervasyon ve güvenli park gerekir. Geri dönüş kararı yalnız haritadaki süreye değil makine durumu, operatör vardiyası ve ertesi taahhüde dayanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bilecik Yenipazar servis doğrulama tablosu",
+                paragraflar: [
+                    "İsim benzerliği ve kapsam ayrımı nedeniyle bu serviste coğrafi ve teknik kapılar birlikte tutulur.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol", "Gerekli bilgi", "Reddedilen varsayım", "Çıktı"],
+                    satirlar: [
+                        ["Coğrafya", "Bilecik, açık adres, konum", "Aydın Yenipazar", "Doğru rota"],
+                        ["Kapsam", "Mevcut bakım kalemleri", "Yeni yapı veya tesis kurulumu", "B10 iş paketi"],
+                        ["Erişim", "Kot, engel, geçiş, zemin", "Her makine uygundur", "Sınıf eşleşmesi"],
+                        ["Takvim", "Tarih aralığı ve yerel sorumlu", "Boş görünürse gidilir", "Onaylı servis slotu"],
+                        ["Çalışma", "Hücre, izin, malzeme", "Sahada liste oluşturulur", "Kapalı paket"],
+                        ["Dönüş", "Durum ve sonraki taahhüt", "İş biter bitmez otomatik çıkış", "Güvenli kapanış"],
+                    ],
+                },
+            },
+            {
+                baslik: "Servis talebi için uzaktan keşif paketi",
+                paragraflar: [
+                    "Adres başlığında Bilecik ili açıkça yazılır. Ana yaklaşım yolu, son dönüş, giriş, sert park alanı ve hedef geniş açıyla fotoğraflanır. En dar açıklık, hedef kotu, yatay uzaklık ve eğim ölçülür; kanal, menfez, rögar, yumuşak yüzey ve üst hat işaretlenir. İşin mevcut bakım olduğu, kullanım saatleri, enerji sorumlusu ve sepetteki malzeme belirtilir. Yakın çekim arıza fotoğrafı bu paketin yalnız bir parçasıdır.",
+                    "Bilgi Bozüyük OSB’de kullanılabilir olacak makineyle karşılaştırılır. Sınırdaki ölçüde canlı görüntü veya fiziksel keşif yapılır. Yeni yapı veya uzun proje belirtisi görülürse B10 servis teklifi verilmez; kapsam doğru kayda yönlendirilir. Birkaç bakım hedefi varsa aynı sınıfa uygunlukları ayrı kontrol edilir. Bu yöntem yanlış ilçeye, yanlış sınıfa veya yanlış proje modeline çıkışı daha yola çıkmadan engeller.",
+                ],
+            },
+            {
+                baslik: "Servis sonrası tekrar planı",
+                paragraflar: [
+                    "Tamamlanan hedefler, kullanılan park noktası, erişim engelleri, zemin, hava etkisi ve bekleme nedenleri kaydedilir. Açık kalan bakım kalemi yeni gereksinimiyle görünür olur. Bu kayıt sonraki Yenipazar servisinde başlangıç verisidir, fakat saha değişebileceği için güncel fotoğraf yine istenir. Belirli modelin kalıcı garantisi veya koşulsuz erişim sözü oluşturmaz.",
+                    "Makine temizlenir, görünür durumu ve enerji seviyesi kontrol edilir. Alarm, sızıntı veya olağan dışı ses varsa Bozüyük OSB’deki sonraki göreve başlamaz; servis süreci açılır. Yerel sorumlu alanı teslim alır ve yol tamamen açılır. Planlama ekibi dönüş veya parkı kapasite defterine işler. Böylece Bilecik Yenipazar çıkışı, yalnız yapılmış bir ziyaret değil kanıtla kapanmış bir servis olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu sayfa Aydın Yenipazar için de geçerli mi?",
+                cevap:
+                    "Hayır. Bu kayıt yalnız Bilecik iline bağlı Yenipazar ilçesi içindir. Talep açılırken il, açık adres, harita konumu ve yerel irtibat yazılı doğrulanır. Aynı ilçe adının başka bir ilde bulunması nedeniyle yalnız ‘Yenipazar’ ifadesiyle taşıma veya fiyat planı oluşturmayız. Aydın’daki bir iş ayrı bölgesel rota ve kapasite değerlendirmesi gerektirir. Konum doğrulandıktan sonra yaklaşım yolu, zemin ve hedef ölçüleri incelenir. Coğrafi kayıt yanlışsa teknik olarak doğru makine seçilmiş olsa bile bütün sevkiyat planı yanlıştır; bu nedenle ilk kapı adres doğrulamasıdır.",
+            },
+            {
+                soru: "Yeni bir atölye veya tesis kurulumuna bu servisle gelebilir misiniz?",
+                cevap:
+                    "B10 servisinin kapsamı mevcut yapılardaki doğrulanmış bakım ve erişim kalemleridir. Yeni yapı kabuğu, çelik konstrüksiyon, tesis kurulumu veya genişleme projesi daha uzun süre, farklı zemin ve kaldırma koordinasyonu ister; B12’nin ayrı temasına girer. Aynı adreste bakım ve yeni kurulum birlikte bulunuyorsa listeler ayrılır. Mevcut bakım uygun makineyle kapanabilir, proje işi kendi keşif ve rezervasyonuyla planlanır. Makinenin sahada olması yeni montajı otomatik olarak güvenli veya kapsam içinde yapmaz. Doğru programı baştan seçmek sonradan sınıf ve süre değiştirmekten daha verimlidir.",
+            },
+            {
+                soru: "Bozüyük OSB’den gelen her platform Yenipazar işine uygun mudur?",
+                cevap:
+                    "Hayır. Hedef kotu, yatay engel, kapı ve dönüş, zemin, ortam, çalışma yükü ve üretici erişim diyagramı mevcut makineyle eşleştirilir. OSB’de geniş dış sahada çalışan bir sınıf dar kapalı hacme giremeyebilir; kompakt bir ünite uzak cephe hedefine yetişmeyebilir. Teknik uygunluk yoksa sırf aynı rota üzerinde diye makine gönderilmez. Başka kapasite veya tarih önerilir. Dışarıdan gelen ünitenin temizlik ve enerji türü de kapalı alan için değerlendirilir. Uygunluk, ilçe adına veya önceki göreve değil güncel saha verisine dayanır.",
+            },
+            {
+                soru: "Servis tarihini kesin bir güne sabitleyebilir miyiz?",
+                cevap:
+                    "Kesin gün zorunluysa kapasite buna göre ayrı değerlendirilir. Ortak servis modelinde birkaç günlük uygulanabilir aralık daha fazla seçenek sağlar; Bozüyük OSB’deki ana işin teknik kapanışı ve sonraki taahhütler görülerek slot seçilir. Gün kesinleştiğinde varış penceresi ve yerel hazırlık yazılı paylaşılır. Önceki iş, hava veya yol değişikliği erken bildirilir. Kritik bir kullanım saati veya izin penceresi bekleyemiyorsa ayrı sevkiyat daha doğru olabilir. Kesin tarih sözü yalnız uygun makine ve güvenli çalışma payı gerçekten ayrıldığında verilir.",
+            },
+            {
+                soru: "Yağış sonrası zemin uygun değilse ne yapılır?",
+                cevap:
+                    "Operatör saha günü park ve geçiş yüzeyini yeniden değerlendirir. Kuru görünen dolgu, menfez veya yol kenarı yağıştan sonra taşıma gücünü kaybetmiş olabilir. Güvenli sert alternatif konum varsa hedefe yatay erişim tekrar hesaplanır. Uygun değilse iş ertelenir; dört çeker veya daha ağır makine kullanmak zemin kontrolünü ortadan kaldırmaz. Ortak servis rotasındaki başka hazır iş varsa program ona dönebilir. Erteleme nedeni ve yeni koşul karta yazılır. Küçük bakım kalemi için saplanma veya dengesiz kurulum riski alınmaz.",
+            },
+            {
+                soru: "Birden fazla mevcut yapının bakımını aynı çıkışta yapabilir miyiz?",
+                cevap:
+                    "Yapılabilir, ancak her yapının adresi, yaklaşımı, zemin, kot, engel, çalışma hücresi ve malzemesi ayrı kartlanır. Aynı makine sınıfının hepsine gerçekten uygun olduğu doğrulanır. Duraklar güvenli rota ve ortam sırasına göre dizilir; bir yapı teslim edilmeden diğerine geçilmez. Yeni yapı veya uzun kurulum kalemi listeye karıştırılmaz. Hazır olmayan hedef bütün programı bekletmez, sonraki servise taşınır. Her alanın yerel sorumlusu ayrı kabul verir. Birleştirmenin amacı sevkiyatı verimli kullanmaktır, farklı adreslerin sorumluluklarını tek kayda karıştırmak değildir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-13. Yenipazar’ın Bilecik’e bağlı ilçe olduğu uygulama belgesindeki kamuya açık coğrafi bilgidir; Bozüyük OSB kapasitesinden servis kartı, adres doğrulama, uzaktan keşif ve kapanış kaydı sektör geneli planlama pratiğidir. Aydın Yenipazar, yeni yapı veya tesis kurulumu, özel işletme, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

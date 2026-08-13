@@ -227,4 +227,11 @@ Faz C karar sayfaları: `izmirmanliftkiralama.net`, `izmirplatformskiralama.com`
 `izmir-forklift.com`. Fiyat içerikleri sabit rakam yayınlamaz; teknik kapsam,
 süre, lojistik, operatör ve saha koşullarının yazılı teklife etkisini açıklar.
 
+## Eskişehir–Bilecik/Bozüyük genişlemesi — 2026-08-13
+
+`docs/GENISLEME-ESKISEHIR-BILECIK.md` kapsamındaki 44 bölge sayfası beş
+partide tamamlandı. Eskişehir tarafında 19, Bilecik/Bozüyük tarafında 25 yeni
+elle yazılmış kayıt bulunur; tekrar eden OSB, KSS ve çevre il slugları belgede
+tanımlanan ayrı operasyon çapalarıyla yazıldı.
+
 Bir domain tamamlandığında bu tabloya satır ekleyin.
