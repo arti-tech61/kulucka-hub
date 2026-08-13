@@ -82,6 +82,10 @@ import { MANLIFTKIRALAMA_XYZ } from "./bespoke/manliftkiralama-xyz";
 import { MANLIFTKIRALA_ONLINE } from "./bespoke/manliftkirala-online";
 import { MANLIFTKIRALA_XYZ } from "./bespoke/manliftkirala-xyz";
 import { MANLIFTKIRALAMA_ORG_TR } from "./bespoke/manliftkiralama-org-tr";
+import { BOZUYUKMANLIFT_NET } from "./bespoke/bozuyukmanlift-net";
+import { BOZUYUKPLATFORM_NET_TR } from "./bespoke/bozuyukplatform-net-tr";
+import { BOZUYUKPLATFORM_XYZ } from "./bespoke/bozuyukplatform-xyz";
+import { BOZUYUKPLATFORM_COM_TR } from "./bespoke/bozuyukplatform-com-tr";
 
 /** Elle yazılmış içerik — tüm alanlar opsiyonel (kısmi override). */
 export interface BespokeIcerik {
@@ -210,6 +214,10 @@ export const BESPOKE: Record<string, Record<string, BespokeIcerik>> = {
     "manliftkirala.online": MANLIFTKIRALA_ONLINE,
     "manliftkirala.xyz": MANLIFTKIRALA_XYZ,
     "manliftkiralama.org.tr": MANLIFTKIRALAMA_ORG_TR,
+    "bozuyukmanlift.net": BOZUYUKMANLIFT_NET,
+    "bozuyukplatform.net.tr": BOZUYUKPLATFORM_NET_TR,
+    "bozuyukplatform.xyz": BOZUYUKPLATFORM_XYZ,
+    "bozuyukplatform.com.tr": BOZUYUKPLATFORM_COM_TR,
 };
 
 /** Bir sayfa için elle yazılmış içerik var mı? */

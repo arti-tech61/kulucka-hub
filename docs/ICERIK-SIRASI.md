@@ -133,6 +133,10 @@
 | `balikesirplatform.org` | **6/6** | 0 | 0 | ✅ TAMAM — gıda-süt-zeytinyağı tesisleri |
 | `amasyaplatform.com` | **5/5** | 0 | 0 | ✅ TAMAM — meyve işleme/soğuk depo (ilk Amasya) |
 | `istanbulplatforms.com` | **4/4** | 0 | 0 | ✅ TAMAM — uzun dönem kontrat/SLA |
+| `bozuyukmanlift.net` | 7/7 | 0 | 0 | 🟡 2 sayfa düzeltiliyor — cam sanayi (%15-18 örtüşme) |
+| `bozuyukplatform.net.tr` | **7/7** | 0 | 0 | ✅ TAMAM — OSB yönetimi perspektifi |
+| `bozuyukplatform.xyz` | **7/7** | 0 | 0 | ✅ TAMAM — çelik konstrüksiyon montaj fazı |
+| `bozuyukplatform.com.tr` | **6/6** | 0 | 0 | ✅ TAMAM — üç sektörlü arıza müdahalesi |
 | `manliftkiralama.org.tr` | **5/5** | 0 | 0 | ✅ TAMAM — Gaziantep halı-gıda sanayisi (ilk Gaziantep) |
 | `manliftkirala.online` | **6/6** | 0 | 0 | ✅ TAMAM — Bursa otomotiv yan sanayi ritmi |
 | `manliftkirala.xyz` | **6/6** | 0 | 0 | ✅ TAMAM — Denizli vardiya/iş gücü planlaması |
