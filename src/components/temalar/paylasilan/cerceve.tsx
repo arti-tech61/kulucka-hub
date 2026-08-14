@@ -7,17 +7,7 @@ import type { PaylasilanTemaConfig } from "./renkler";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 import { PaylasilanTemaStil } from "./tema-css";
 import { MobilMenu } from "./mobil-menu";
-
-const nav: [string, string][] = [
-    ["/", "Ana Sayfa"],
-    ["/hakkimizda", "Hakkımızda"],
-    ["/urunler", "Ürünler"],
-    ["/markalar", "Markalar"],
-    ["/yukseklik", "Yüksekliğe Göre"],
-    ["/blog", "Blog"],
-    ["/sozluk", "Sözlük"],
-    ["/iletisim", "İletişim"],
-];
+import { navBaslik, navFooter, navOgeAktifMi } from "./nav";
 
 // Paylaşımlı tema ortak çerçevesi: header + footer + telefon FAB.
 // Component ağacı domain'ler arasında hiç değişmez; sadece `config` (renk/marka) değişir.
@@ -45,24 +35,60 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                                 <span className="font-display text-[20px] font-black tracking-tight text-primary">{config.markaAdi}</span>
                             )}
                         </a>
-                        <nav className="hidden items-center gap-2 lg:flex">
-                            {nav.map(([href, etiket]) => (
-                                <a
-                                    key={href}
-                                    href={href}
-                                    className={`rounded-[8px] px-3 py-2 font-semibold transition-colors ${
-                                        aktif === href ? "bg-elevated text-primary" : "text-muted hover:bg-elevated hover:text-fg"
-                                    }`}
-                                >
-                                    {etiket}
-                                </a>
-                            ))}
+                        <nav className="hidden items-center gap-1 lg:flex">
+                            {navBaslik.map((oge) => {
+                                const ogeAktif = navOgeAktifMi(oge, aktif);
+                                if (Array.isArray(oge)) {
+                                    const [href, etiket] = oge;
+                                    return (
+                                        <a
+                                            key={href}
+                                            href={href}
+                                            className={`rounded-[8px] px-3 py-2 font-semibold transition-colors ${
+                                                ogeAktif ? "bg-elevated text-primary" : "text-muted hover:bg-elevated hover:text-fg"
+                                            }`}
+                                        >
+                                            {etiket}
+                                        </a>
+                                    );
+                                }
+                                return (
+                                    <div key={oge.etiket} className="group relative">
+                                        <button
+                                            type="button"
+                                            className={`flex items-center gap-1 rounded-[8px] px-3 py-2 font-semibold transition-colors ${
+                                                ogeAktif ? "bg-elevated text-primary" : "text-muted hover:bg-elevated hover:text-fg"
+                                            }`}
+                                        >
+                                            {oge.etiket}
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 transition-transform group-hover:rotate-180 group-focus-within:rotate-180">
+                                                <path d="M6 9l6 6 6-6" />
+                                            </svg>
+                                        </button>
+                                        <div className="invisible absolute left-0 top-full z-10 pt-2 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                                            <div className="w-56 rounded-xl border border-border bg-bg p-1.5 shadow-lg">
+                                                {oge.ogeler.map(([href, etiket]) => (
+                                                    <a
+                                                        key={href}
+                                                        href={href}
+                                                        className={`block rounded-[8px] px-3 py-2 text-sm font-semibold transition-colors ${
+                                                            aktif === href ? "bg-elevated text-primary" : "text-muted hover:bg-elevated hover:text-fg"
+                                                        }`}
+                                                    >
+                                                        {etiket}
+                                                    </a>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </nav>
                         <div className="flex items-center gap-2">
                             <a href="/iletisim" className="rounded-[8px] bg-accent px-4 py-2.5 text-sm font-bold text-accent-fg transition-colors hover:bg-accent-hover md:px-5 md:py-3 md:text-base">
                                 Teklif Alın
                             </a>
-                            <MobilMenu nav={nav} aktif={aktif} />
+                            <MobilMenu nav={navBaslik} aktif={aktif} />
                         </div>
                     </div>
                 </header>
@@ -75,7 +101,7 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                             <h2 className="font-display text-[24px] font-bold text-bg">{config.markaAdi}</h2>
                             <p className="mt-4 leading-6 text-bg/80">{site.uzmanlik}</p>
                             <div className="mt-5 grid grid-cols-2 gap-3">
-                                {nav.slice(1).map(([href, etiket]) => (
+                                {navFooter.map(([href, etiket]) => (
                                     <a key={href} href={href} className="text-bg/80 hover:text-bg">
                                         {etiket}
                                     </a>
