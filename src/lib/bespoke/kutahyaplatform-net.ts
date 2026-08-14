@@ -718,4 +718,1069 @@ export const KUTAHYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Simav'daki jeotermal kaynağın sera ısıtmasında da kullanıldığı ve bölgedeki seraların genellikle aile işletmesi ölçeğinde olduğu kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Sektörler arası birleştirme ve yaz dönemi tur programı firma pratiğidir.",
     },
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Toplu Konut Şantiyesinde Blok İçi Dar Geçitlerde Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Kaba inşaatı tamamlanmış bir TOKİ veya toplu konut bloğunun içine girildiğinde, standart bir sanayi holünden çok farklı bir geometriyle karşılaşılır: merdiven boşluğu dar ve dönüşlüdür, kat yükseklikleri düşüktür, asansör kuyusu henüz kapalı değildir ve kalıp iskelesinin sökülmediği bölümlerde geçiş genişliği bir metrenin altına iner. Bu koşullarda büyük gövdeli bir makaslı veya eklemli platform bloğun içine giremez; giren tek makine sınıfı, katlanmış hâlde standart bir kapı boşluğundan geçebilen ve içeride ayaklarını açarak dengesini kuran sepetli örümcek platformdur. Kütahya'daki toplu konut şantiyelerinde bu ihtiyaç en çok üç noktada doğar: merdiven boşluğu tavanındaki sıva-boya bitişi, asansör kuyusu içindeki ray montaj kontrolü ve iç avlu cephesindeki mantolama detay işleri. Bu sayfa, örümcek platformun şantiye içindeki bu dar-geçit kullanımını anlatır; blokların dış cephesindeki geniş yüzey işleri ayrı bir hizmet sayfamızın konusudur çünkü orada farklı bir makine sınıfı daha verimli çalışır.",
+        maddeler: [
+            {
+                baslik: "Merdiven boşluğu ve asansör kuyusunda çalışma mantığı",
+                metin:
+                    "Bir toplu konut bloğunun merdiven boşluğu, inşaat aşamasında henüz korkuluksuz ve bazen aydınlatmasız bir dikey boşluktur; buraya sabit iskele kurmak hem yavaş hem her kat geçişinde sökülüp yeniden kurulması gereken bir işlemdir. Örümcek platform, gövdesini kat düzlemine sabitleyip bomunu boşluğa uzatarak bu işi tek seferde ve kat kat ilerleyerek çözer. Asansör kuyusunda ise iş biraz farklıdır: kuyu dikey ve dardır, makine genellikle kuyunun dibinden değil, en üst kattan veya ara bir kattan bomunu aşağı doğru uzatarak çalışır; bu, kuyu içi ray montajının kontrolü ve son rötuş işleri için standart yöntemdir.",
+            },
+            {
+                baslik: "Kalıp iskelesi sökülmemiş katlarda dar geçiş",
+                metin:
+                    "Kaba inşaatın hemen ardından gelen bitirme işlerinde, bazı katlarda kalıp iskelesi henüz tam sökülmemiş olabilir; bu durumda kat içindeki geçiş genişliği standart bir makaslı platformun şasisine göre daralmış olur. Örümcek platform katlanmış taşıma pozisyonunda bu daralmış geçitlerden manevra ederek geçebilir ve hedef noktada açılır; bu, iskele söküm takvimini beklemeden bitirme işlerinin başlamasını sağlar.",
+            },
+            {
+                baslik: "Zemin yükü ve döşeme dayanımı",
+                metin:
+                    "Toplu konut inşaatında kat döşemeleri, nihai kullanım yüküne göre projelendirilmiştir ama inşaat aşamasında henüz kür süresini tamamlamamış beton veya şap üzerinde ağır bir makine hareket ettirmek risklidir. Örümcek platformun paletli ve göreli hafif gövdesi, bu erken aşama döşemelerinde makaslı platforma göre daha güvenli bir seçenektir; yine de her katta döşeme yaşı ve kür durumu şantiye şefiyle birlikte teyit edilmeden çalışma başlatılmaz.",
+            },
+            {
+                baslik: "İç avlu ve ortak alan tavan işleri",
+                metin:
+                    "Toplu konut projelerinde blok arası iç avlu, genellikle son aşamada peyzaj ve ortak alan aydınlatması için açılır; bu avlunun çevresindeki düşük saçak ve pergola gibi elemanların altına giriş standart bir vinç veya büyük platform için dar kalır. Örümcek platform, avlu girişindeki dar kapıdan geçip içeride açılarak bu tip ortak alan tavan ve aydınlatma işlerini tamamlar.",
+            },
+            {
+                baslik: "Birden fazla blok arasında sıralı kullanım",
+                metin:
+                    "Bir toplu konut şantiyesinde genellikle birden fazla blok aynı anda veya art arda bitirme aşamasındadır; aynı örümcek platform, bir blokta işini bitirdikten sonra komşu bloğa taşınarak sıralı biçimde çalışabilir. Bu, her blok için ayrı makine kiralamak yerine tek bir makinenin şantiye içi rota ile ilerlemesini sağlar; rota planlaması şantiye şefinin blok teslim takvimine göre yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Toplu konut şantiyesinde örümcek platform kullanım noktaları",
+                paragraflar: [
+                    "Aşağıdaki tablo, blok içi ve çevresindeki tipik kullanım noktalarını ve bunların belirleyici koşulunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kullanım noktası", "Belirleyici koşul", "Erişim yönü", "Zamanlama"],
+                    satirlar: [
+                        ["Merdiven boşluğu tavanı", "Dar dönüşlü geçiş", "Kat kat yukarı", "Boya-sıva bitişi"],
+                        ["Asansör kuyusu içi", "Dikey dar boşluk", "Üst kattan aşağı", "Ray montaj sonrası"],
+                        ["Kalıp iskeleli kat", "Daralmış geçiş genişliği", "Katlanmış giriş", "İskele söküm öncesi"],
+                        ["İç avlu / ortak alan", "Düşük saçak, dar kapı", "İçeriden açılma", "Peyzaj öncesi"],
+                        ["Blok arası geçiş", "Şantiye içi mesafe", "Yürüyerek taşıma", "Blok teslim sırasına göre"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiye şefiyle koordinasyon: hangi bilgi önceden istenir",
+                paragraflar: [
+                    "Örümcek platformun bir toplu konut bloğuna doğru makineyle ve doğru katta çalışmaya başlaması için, şantiye şefinden üç bilgi önceden istenir: hangi katların döşemesi yeterince kürünü tamamlamış, kalıp iskelesinin hangi katlarda hâlâ ayakta olduğu ve merdiven-asansör boşluğunda geçici korkuluk veya bariyer olup olmadığı. Bu bilgi eksik geldiğinde, makine sahaya ulaştığında beklenmedik bir engelle karşılaşabilir ve iş günü kaybedilebilir; bu yüzden ilk keşif genellikle telefon veya saha planı üzerinden yapılır, makine ancak bu üç soru netleştikten sonra sevk edilir.",
+                    "Birden fazla blok söz konusu olduğunda, şantiye şefinin bloklar arası öncelik sırasını (hangi blok önce teslim edilecek) baştan bildirmesi, makinenin rota planını buna göre kurmamızı sağlar; öncelik sırası şantiye ilerledikçe değişebilir, bu durumda rota güncellenir.",
+                ],
+            },
+            {
+                baslik: "Operatör güvenliği ve şantiye iş güvenliği kurallarıyla uyum",
+                paragraflar: [
+                    "Toplu konut şantiyeleri genellikle kendi iş güvenliği talimatına ve giriş-çıkış kayıt sistemine sahiptir; operatörümüz sahaya girmeden önce şantiyenin oryantasyon eğitimini alır ve kişisel koruyucu donanımını (baret, emniyet kemeri, çelik burunlu ayakkabı) şantiye standardına göre tamamlar. Merdiven boşluğu ve asansör kuyusu gibi düşme riski yüksek alanlarda çalışırken, platformun kendi güvenlik sistemine ek olarak şantiyenin geçici korkuluk düzenine de uyulur; korkuluk henüz kurulmamışsa iş, korkuluk tamamlanana kadar ertelenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Merdiven boşluğumuz henüz korkuluksuz, yine de çalışabilir misiniz?",
+                cevap:
+                    "Korkuluksuz bir merdiven boşluğunda çalışmayız; bu hem operatörümüz hem sahadaki diğer işçiler için düşme riski taşır. Genellikle önerimiz, en azından geçici bir bariyer veya ip korkuluk kurulmasıdır — bu, çok kısa sürede ve düşük maliyetle yapılabilecek bir önlemdir. Korkuluk tamamlandığında haber verirseniz, işi hızlıca planlarız; korkuluksuz sahada çalışma talebini iş güvenliği gerekçesiyle geri çeviririz.",
+            },
+            {
+                soru: "Blok içindeki kat döşemesi daha yeni döküldü, makine üzerinde durabilir mi?",
+                cevap:
+                    "Bu, döşemenin kür yaşına ve şantiyenizin beton dayanım raporuna bağlıdır; genel kural olarak beton en az yaklaşık bir hafta kür süresini tamamlamadan üzerinde ağır bir makine hareket ettirmemenizi öneririz, kesin süre beton sınıfına ve hava koşuluna göre değişir. Şantiye şefinizin veya şantiye mühendisinizin döşeme için verdiği onay tarihini bize iletirseniz, çalışmayı o tarihten sonrasına planlarız; onay olmadan riskli bir dökümün üzerine makine çıkarmayız.",
+            },
+            {
+                soru: "Aynı anda üç blok bitirme aşamasında, tek makineyle hepsini yetiştirebilir miyiz?",
+                cevap:
+                    "Bu tamamen blok başına gereken iş süresine ve tesim takviminize bağlıdır; her blokta örümcek platformla yapılacak iş genellikle birkaç güne yayılır, üç blok art arda planlandığında toplam süre uzar ama tek makine nakliye maliyetini üçe bölmüş olursunuz. Teslim tarihleri sıkışıksa, ikinci bir makineyi paralel çalıştırmayı da değerlendirebiliriz; hangi seçeneğin daha ekonomik olduğunu blok sayısı ve iş yoğunluğuna göre birlikte hesaplarız.",
+            },
+            {
+                soru: "Asansör kuyusunda çalışırken kuyu dibi henüz açık, tehlike arz eder mi?",
+                cevap:
+                    "Evet, açık kuyu dibi ciddi bir düşme riskidir; bu yüzden asansör kuyusu içi çalışmalarda makinenin üst kattan aşağı doğru bom uzatma yöntemini tercih ederiz — operatör ve makine üst kat döşemesinde sabit kalır, kuyu dibine inmez. Kuyu dibinin açık olması, alttan yukarı çalışma planlanan istisnai durumlarda ayrı bir güvenlik önlemi (geçici kapak, bariyer) gerektirir; bu önlem alınmadan alttan çalışma yapılmaz.",
+            },
+            {
+                soru: "Kalıp iskelesi hâlâ ayaktayken makineniz kata sığar mı, önce iskelenin sökülmesini mi beklemeliyiz?",
+                cevap:
+                    "Örümcek platform katlanmış taşıma pozisyonunda dar geçitlerden geçebildiği için, çoğu durumda iskele tam sökülmeden de kata girebilir; ancak bu, iskelenin bıraktığı geçiş genişliğine bağlıdır ve kesin cevap sahayı görmeden verilemez. İlk keşifte katın fotoğrafını veya ölçüsünü paylaşmanız, iskele söküm takviminizi beklemeden çalışıp çalışamayacağımızı netleştirir.",
+            },
+            {
+                soru: "Şantiyemizin kendi iş güvenliği oryantasyonu var, operatörünüz bunu alabilir mi?",
+                cevap:
+                    "Evet, operatörümüz şantiyenizin oryantasyon eğitimini almaya ve giriş-çıkış kayıt prosedürünüze uymaya hazırdır; bu genellikle sahaya ilk giriş günü kısa bir süre alır. Oryantasyon içeriği ve süresi şantiyeden şantiyeye değişebileceği için, işe başlamadan önce bu sürecin ne kadar süreceğini bize bildirmeniz, iş takvimimizi buna göre ayarlamamızı sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Toplu konut/TOKİ şantiyelerinde blok içi merdiven boşluğu, asansör kuyusu ve kalıp iskelesi gibi inşaat aşamalarının genel akışı kamuya açık, sektörde bilinen inşaat pratiğidir; belirli bir şantiye adı veya rakam kullanılmamıştır. Operatör oryantasyonu ve rota planlaması firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Hazır Beton Santrali ve Şantiye Sahasına Platform-Forklift Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bir inşaat şantiyesine veya hazır beton santraline makine teslimatı, sabit bir sanayi tesisine yapılan teslimattan farklı bir planlama ister; çünkü şantiyenin kendisi zaman içinde değişir. Hafriyat aşamasındaki bir arsa, birkaç ay sonra kaba inşaatın başladığı bir şantiyeye, daha sonra da bitirme işlerinin yapıldığı bir bloklar dizisine dönüşür ve her aşamada makinenin ineceği nokta, giriş yolu ve zemin koşulu değişir. Hazır beton santralleri ise daha sabit bir düzene sahiptir ama silo ve konveyör hattı çevresindeki dar servis yolları, büyük araçların manevra alanını kısıtlar. Bu sayfa, nakliye-teslimat hizmetimizin şantiye ve santral tarafındaki bu iki farklı teslimat mantığını — değişken şantiye erişimi ile sabit ama dar santral erişimi — ayrı ayrı ele alır; makinenin sahadaki kullanımı diğer hizmet sayfalarımızın konusudur.",
+        maddeler: [
+            {
+                baslik: "Hafriyat aşamasında değişen giriş yolu",
+                metin:
+                    "Bir şantiyenin hafriyat aşamasında, arsaya giriş genellikle henüz sabit bir yol değil, hafriyat kamyonlarının açtığı geçici bir güzergâhtır; bu güzergâh yağış sonrası çamurlaşabilir veya hafriyat ilerledikçe konumu değişebilir. Nakliye aracımız bu aşamada şantiyeye girmeden önce güncel giriş noktasını ve zemin durumunu şantiye şefinden teyit eder; sabit bir adres bilgisi bu aşamada genellikle yetersiz kalır, güncel bir tarif veya konum paylaşımı istenir.",
+            },
+            {
+                baslik: "Kaba inşaat aşamasında vinç ve malzeme trafiğiyle paylaşım",
+                metin:
+                    "Kaba inşaat sürerken şantiye sahası kule vinç, malzeme kamyonları ve beton mikserleri gibi başka araçlarla da yoğun biçimde paylaşılır; platform veya forklift teslimatımızın bu trafiğe eklenmesi, şantiye şefinin belirlediği bir zaman penceresinde yapılır. Genellikle beton dökümü günlerinde teslimat yapılmaması istenir çünkü saha girişi mikser araçlarına ayrılır; bu yüzden teslimat tarihi, şantiyenin döküm takvimiyle çakışmayacak şekilde önceden planlanır.",
+            },
+            {
+                baslik: "Bitirme aşamasında blok bazlı indirme noktası",
+                metin:
+                    "Bitirme işleri başladığında şantiye artık tek bir geniş sahadan çok, birbirine yakın birden fazla blok girişinden oluşur; makinenin hangi blok girişine indirileceği, o gün hangi blokta çalışılacağına göre değişir. Bu aşamada teslimat notumuz yalnızca 'şantiye adresi' değil, 'X blok, Y girişi' gibi ayrıntılı bir konum içerir; bu bilgi eksik geldiğinde araç şantiye içinde doğru girişi ararken zaman kaybedebilir.",
+            },
+            {
+                baslik: "Hazır beton santralinde dar servis yolu ve manevra",
+                metin:
+                    "Hazır beton santrallerinin iç düzeni, silo, konveyör hattı ve mikser dolum istasyonları etrafında sıkışık bir yerleşime sahiptir; büyük bir nakliye aracının bu dar servis yollarında geri manevra yapması zaman alabilir. Santral tarafına teslimatlarda, aracımız santral yönetiminden hangi servis yolunun o gün açık olduğunu ve indirme noktasının neresi olacağını önceden öğrenir; bu, özellikle santralin üretim yaptığı saatlerde manevra çakışmasını önler.",
+            },
+            {
+                baslik: "Hafta sonu ve hava koşulu bağımlı planlama",
+                metin:
+                    "İnşaat şantiyeleri genellikle hafta sonu da çalışabildiği için teslimat talebi hafta içiyle sınırlı kalmaz; ancak yağışlı günlerde hafriyat ve kaba inşaat aşamasındaki sahalara giriş riskli hâle gelebileceğinden, bu tip günlerde teslimat tarihini hava durumuna göre bir gün ertelemeyi önerebiliriz. Bitirme aşamasındaki bloklara (kapalı, zemin döşeli) teslimat ise hava koşulundan bağımsız olarak daha az kısıtlıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İnşaat aşamasına göre teslimat koşulu",
+                paragraflar: [
+                    "Aşağıdaki tablo, şantiyenin farklı aşamalarında teslimatı belirleyen koşulu ve buna göre alınan önlemi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Belirleyici koşul", "Teslimat önlemi", "Zamanlama notu"],
+                    satirlar: [
+                        ["Hafriyat", "Geçici yol, zemin durumu", "Güncel konum teyidi", "Yağış sonrası ertelenebilir"],
+                        ["Kaba inşaat", "Vinç/mikser trafiği", "Zaman penceresi ayarlanır", "Döküm günü dışında"],
+                        ["Bitirme (blok)", "Çoklu giriş noktası", "Blok+giriş bazlı konum", "Günlük çalışma bloğuna göre"],
+                        ["Hazır beton santrali", "Dar servis yolu", "Açık yol önceden teyit", "Üretim saatleri dışı tercih"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiye trafiğiyle çakışmayı önlemenin yolu",
+                paragraflar: [
+                    "Bir şantiyede aynı gün içinde birden fazla tedarikçinin araç göndermesi sık rastlanan bir durumdur; hafriyat kamyonu, hazır beton mikseri, demir taşıyan tır ve bizim platform-forklift aracımız aynı giriş kapısını kullanabilir. Bu çakışmayı önlemek için, teslimat saatimizi mümkünse şantiye şefinin o günkü araç trafiği planına göre ayarlarız; bu bilgi genellikle sabah brifinginde netleşir, bu yüzden teslimat saatini gün öncesinden değil, mümkünse sabah erken saatte teyit etmeyi tercih ederiz.",
+                    "Hazır beton santrallerinde bu çakışma daha öngörülebilirdir çünkü santralin kendi üretim programı sabittir; santral yönetimiyle kurulan iletişim genellikle tek seferlik değil, düzenli teslimat yapılan santrallerde süreklidir.",
+                ],
+            },
+            {
+                baslik: "Teslim alma ve zemin uygunluğu kontrolü",
+                paragraflar: [
+                    "Makine şantiyeye ulaştığında, indirme noktasının zemin taşıma gücü aracımızın şoförü tarafından gözle kontrol edilir; özellikle hafriyat aşamasındaki yumuşak veya çamurlu bir zeminde ağır bir platformu doğrudan indirmek makinenin batmasına yol açabilir. Bu durumda ya indirme noktası şantiye şefiyle birlikte daha sağlam bir alana kaydırılır ya da geçici bir plaka döşeme önerilir. Bitirme aşamasındaki blok girişlerinde bu risk düşüktür çünkü zemin genellikle döşeli veya sıkıştırılmıştır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şantiyemiz henüz hafriyat aşamasında, sabit bir adres yok; nasıl teslimat yapıyorsunuz?",
+                cevap:
+                    "Bu aşamada sabit bir adres yerine, güncel bir konum paylaşımı (harita pini veya en yakın belirgin nokta tarifi) ve şantiyeye giriş için kullanılan geçici yolun tarifini isteriz. Aracımız şantiyeye yaklaşırken şantiye şefinizle telefon üzerinden son teyidi alır; bu, özellikle hafriyat ilerledikçe giriş noktası değiştiğinde aracın yanlış noktaya gitmesini önler.",
+            },
+            {
+                soru: "Beton döküm günü teslimat yapabilir misiniz, yoksa kesinlikle kaçınmamız mı gerekir?",
+                cevap:
+                    "Kesin bir yasak değildir ama önermeyiz; döküm günü şantiye girişi genellikle mikser araçlarının sırasına ayrılır ve bizim aracımız bu sıraya girerse hem kendi teslimatımız gecikir hem döküm trafiği aksayabilir. Mümkünse döküm gününden bir gün önce veya sonra planlamanızı öneririz; zorunlu bir durumda döküm saatleri dışında (örneğin döküm sabah ise öğleden sonra) bir pencere ayarlayabiliriz.",
+            },
+            {
+                soru: "Bitirme aşamasında birden fazla blokta aynı anda çalışıyoruz, makineyi hangi girişe göndereceksiniz?",
+                cevap:
+                    "Bu tamamen sizin bize ilettiğiniz bilgiye bağlıdır; 'şantiye adresi' yerine 'A blok, güney girişi' gibi net bir konum bildirirseniz aracımız doğrudan o noktaya gider. Bilgi belirsiz geldiğinde şoförümüz şantiye içinde doğru girişi ararken zaman kaybedebilir, bu yüzden bitirme aşamasındaki teslimatlarda blok ve giriş bilgisini teslimat talebinizle birlikte iletmenizi rica ederiz.",
+            },
+            {
+                soru: "Hazır beton santralimizde üretim saatleri boyunca dar yollar kamyonlarla dolu oluyor, ne zaman teslimat yapabilirsiniz?",
+                cevap:
+                    "Santral yönetiminizle üretim programınızı önceden konuşarak, kamyon trafiğinin göreli az olduğu bir saat aralığı belirlemeyi öneririz; genellikle vardiya değişim saatleri veya üretim programının ara verdiği dönemler bu amaca uygundur. Santralinizin kendi trafik yoğunluğu size bizden daha iyi bilindiği için, ilk teslimatta önerdiğiniz saat aralığını esas alırız ve gerekirse sonraki teslimatlar için bu saati sabitleriz.",
+            },
+            {
+                soru: "Yağmurlu bir günde hafriyat sahasına araç girebilir mi, makine batma riski var mı?",
+                cevap:
+                    "Yağış sonrası hafriyat sahasında zemin genellikle yumuşar ve ağır bir aracın veya makinenin batma riski artar; bu yüzden yağışlı günlerde, özellikle zemin killi ise, teslimatı bir gün ertelemenizi öneririz. Zorunlu bir teslimat söz konusuysa, şoförümüz sahaya varmadan önce zemin durumunu şantiye şefinizden sorar ve gerekirse indirme noktasına geçici plaka döşenmesini talep eder.",
+            },
+            {
+                soru: "Aynı gün hem hafriyat kamyonu hem sizin aracınız hem de demir taşıyan tır geliyor, çakışma olur mu?",
+                cevap:
+                    "Çakışma riski gerçek bir risktir, bu yüzden mümkünse teslimat saatimizi sabah brifinginde netleşen günlük araç trafiği planına göre ayarlamanızı öneririz. Şantiye şefinizin o gün için bize önerdiği bir saat aralığı varsa bunu esas alırız; net bir saat verilmezse, genellikle sabah erken bir saati tercih ederiz çünkü gün ilerledikçe şantiye trafiği yoğunlaşma eğilimindedir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnşaat şantiyelerinin hafriyat-kaba inşaat-bitirme aşamalarına göre erişim koşullarının değiştiği ve hazır beton santrallerinin silo/konveyör etrafında dar bir yerleşime sahip olduğu, inşaat sektöründe genel bilinen bir pratiktir; belirli bir şantiye veya santral adı kullanılmamıştır. Zaman penceresi planlaması firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Şantiye İnşaat Malzeme Deposunda Forklift ile İstifleme Kiralama",
+        giris:
+            "Bir toplu konut şantiyesinin malzeme deposu, tek bir yük tipiyle değil, birbirinden çok farklı ağırlık ve hassasiyette malzemelerle doludur: bir tarafta paletlenmiş tuğla ve gazbeton blok, diğer tarafta demetlenmiş inşaat demiri, bir başka köşede torbalanmış çimento ve harç, bir de kırılgan seramik-fayans paletleri ihracat gibi özenli bir istifleme ister. Bu malzemelerin her biri farklı bir forklift yaklaşımı gerektirir — demir demeti ağır ama esnek değildir, çimento torbası nem hassasiyetine sahiptir, fayans paleti darbeye karşı kırılgandır. Bu sayfa, forklift ve istifleme hizmetimizin şantiye malzeme deposundaki bu çeşitliliği nasıl karşıladığını anlatır; platformla yapılan yükseklik erişimi diğer hizmet sayfalarımızın konusudur.",
+        maddeler: [
+            {
+                baslik: "Blok ve tuğla paletlerinin istiflenmesi",
+                metin:
+                    "Gazbeton blok ve tuğla paletleri, göreli hafif ama hacimli yüklerdir; şantiye deposunda genellikle iki-üç kat üst üste istiflenir ve inşaat ilerledikçe en alttaki palet önce kullanılacak şekilde bir sıra düzeni gözetilir. Forklift operatörümüz bu istiflemede yalnızca yükü kaldırmakla kalmaz, hangi paletin önce tüketileceğini şantiye şefiyle konuşarak sıralamayı buna göre kurar; aksi hâlde yanlış sıralanmış bir istif, ihtiyaç anında altındaki paleti çıkarmak için tüm yığının yeniden düzenlenmesini gerektirebilir.",
+            },
+            {
+                baslik: "İnşaat demiri demetlerinin taşınması",
+                metin:
+                    "İnşaat demiri, uzun ve esnek bir yük olduğu için standart bir forklift çatalıyla taşınırken demet ortadan sarkabilir veya çatal üzerinde kayabilir; bu tip yükler için çatal genişliği ve demet bağlama noktası özel dikkat ister. Demir demetleri genellikle şantiyenin demirci atölyesine yakın bir noktada, boyuna göre ayrılmış sıralar hâlinde istiflenir; forklift operatörümüz demeti taşırken hem demetin kendi bütünlüğünü hem de geçtiği güzergâhtaki diğer malzeme ve işçi trafiğini gözetir.",
+            },
+            {
+                baslik: "Torbalanmış çimento ve harcın nem korumalı istiflenmesi",
+                metin:
+                    "Çimento ve hazır harç torbaları neme karşı hassastır; açık havada veya zemin nemi yüksek bir depoda doğrudan zemine istiflenirse alt sıra torbalar kısa sürede bozulabilir. Bu malzemeler mümkünse palet üzerine, kapalı veya en azından üzeri örtülü bir alanda istiflenir; forklift operatörümüz bu tip yükleri taşırken hem torbanın yırtılmaması için nazik bir kaldırma hem de istif yüksekliğinin torbanın kendi ağırlığıyla alt sıraları ezmeyecek bir sınırda kalmasını gözetir.",
+            },
+            {
+                baslik: "Kırılgan seramik-fayans ve tesisat malzemesi",
+                metin:
+                    "Bitirme aşamasında depoya giren fayans, seramik ve tesisat malzemesi kutuları, inşaat demirine göre çok daha kırılgan bir yük profilidir; bu malzemeler genellikle üretici paletlerinde gelir ve forklift bu paletleri değiştirmeden, orijinal paketleme bütünlüğünü bozmadan taşır. İstifleme yüksekliği, alt kutuların üst yükün ağırlığı altında kırılmasını önleyecek şekilde üretici etiketindeki sınırlara göre belirlenir.",
+            },
+            {
+                baslik: "Şantiye içi kısa mesafe taşıma ve kat çıkışları",
+                metin:
+                    "Malzeme deposundan bina girişine veya kat bazlı depolama noktasına kısa mesafeli taşıma, forklift hizmetimizin bir başka boyutudur; bodrum kat veya zemin kat gibi araç girişinin mümkün olduğu noktalara malzeme forkliftle taşınırken, üst katlara çıkış genellikle ayrı bir taşıma yöntemi (asansör, vinç) gerektirir. Forklift bu noktada malzemeyi bina girişine kadar getirir, üst kat taşıması şantiyenin kendi düşey taşıma sistemine devredilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Malzeme tipine göre forklift istifleme yaklaşımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, şantiye deposundaki başlıca malzeme tiplerini ve bunlara özgü istifleme dikkatini karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Malzeme tipi", "Temel risk", "İstifleme dikkati", "Depolama koşulu"],
+                    satirlar: [
+                        ["Gazbeton blok / tuğla", "Yanlış sıralama", "İlk giren ilk çıkar düzeni", "Açık saha uygun"],
+                        ["İnşaat demiri demeti", "Kayma, sarkma", "Uygun çatal genişliği", "Boya göre ayrım"],
+                        ["Torbalanmış çimento/harç", "Nem, ezilme", "Palet üzeri, örtülü alan", "Kapalı/örtülü tercih"],
+                        ["Fayans/seramik kutusu", "Kırılma", "Orijinal palet korunur", "Üretici sınırına göre yükseklik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiye deposunun günlük değişen düzeni",
+                paragraflar: [
+                    "Bir sanayi deposunun aksine, şantiye malzeme deposu inşaatın ilerlemesiyle birlikte sürekli değişir; bugün boş olan bir alan yarın yeni gelen bir malzeme partisiyle dolabilir, dün kullanılan bir sıra bugün tamamen boşalabilir. Forklift operatörümüz bu değişkenliğe alışkındır ve her gelişte depo düzenini şantiye şefiyle birlikte hızlıca gözden geçirir; sabit bir yerleşim planına güvenmek yerine, güncel durumu görerek çalışmak şantiye deposunda daha güvenilir bir yöntemdir.",
+                    "Malzeme partileri büyük hacimlerde ve genellikle önceden haber verilmeden geldiğinde, forklift talebimizin de aynı gün içinde artabileceğini göz önünde bulundurarak, mümkün olduğunca esnek bir kapasite ayırırız; yoğun teslimat dönemlerinde önceden haber verilmesi, bu esnekliği daha iyi planlamamızı sağlar.",
+                ],
+            },
+            {
+                baslik: "İş güvenliği: forklift ve yaya trafiğinin paylaşımı",
+                paragraflar: [
+                    "Şantiye malzeme deposu, forkliftin yanı sıra sürekli yaya işçi trafiğine de açıktır; bu, sanayi deposundan farklı bir risk taşır çünkü şantiye işçileri bazen forklift güzergâhını kesecek şekilde hareket edebilir. Operatörümüz bu riski azaltmak için düşük hızda ilerler, kör noktalarda kornaya basar ve mümkünse depo içindeki yaya-araç ayrımını şantiye şefiyle birlikte işaretlemeyi önerir; bu işaretleme yoksa, ilk günden itibaren geçici bir güzergâh çizgisi önerilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Demir demetlerini standart forklift çatalıyla taşımak güvenli mi, özel ekipman mı gerekir?",
+                cevap:
+                    "Kısa demetler ve düşük ağırlıklar için standart çatal genellikle yeterlidir, ancak uzun demetlerde demet ortadan sarkabilir; bu durumda çatal genişliğini demet uzunluğuna göre ayarlar ve gerekirse demeti bağlayan kayışların sağlam olduğunu kontrol ederiz. Demet çok uzun veya ağırsa, taşımayı iki aşamaya bölmeyi ya da farklı bir ekipmanla desteklemeyi önerebiliriz; bu karar demetin boyu ve ağırlığı görüldükten sonra netleşir.",
+            },
+            {
+                soru: "Çimento torbalarını açık sahaya istiflemek zorundayız, yağmurdan nasıl korunur?",
+                cevap:
+                    "Açık sahaya istiflemek zorunda kalırsanız, en azından paletin altına nem geçirmez bir tabaka ve üzerine su geçirmez bir örtü koymanızı öneririz; forklift operatörümüz istifi bu örtüye göre şekillendirebilir ama örtünün kendisi genellikle şantiyenin sorumluluğundadır. Mümkünse örtülü bir alan veya konteyner ayırmanız, uzun vadede malzeme kaybını belirgin biçimde azaltır.",
+            },
+            {
+                soru: "Fayans paletlerini üç kat üst üste istifleyebilir miyiz, yoksa kırılır mı?",
+                cevap:
+                    "Bu tamamen üretici etiketindeki istifleme sınırına bağlıdır; bazı paletler iki kata kadar güvenliyken bazıları üç kata izin verebilir. Operatörümüz palet üzerindeki etiketi kontrol eder ve etiket yoksa veya belirsizse, güvenli tarafta kalarak daha düşük bir istif yüksekliği önerir; kırılma riskini göze alıp etiket sınırının üzerine çıkmayız.",
+            },
+            {
+                soru: "Şantiye deposunda sabit bir yerleşim planımız yok, her gün değişiyor; bu sorun olur mu?",
+                cevap:
+                    "Sorun olmaz, aksine şantiye depolarının çoğu bu şekilde işler; operatörümüz her gelişte güncel durumu şantiye şefinizle birlikte hızlıca gözden geçirir ve ona göre çalışır. Sabit bir plana ihtiyacımız yok, ama o günkü öncelikli malzemenin ne olduğunu (hangi malzeme hemen kullanılacak) bilmemiz, istifleme sırasını daha isabetli kurmamızı sağlar.",
+            },
+            {
+                soru: "Büyük bir malzeme partisi aniden geldi, aynı gün forklift talebimizi artırabilir misiniz?",
+                cevap:
+                    "Mümkün olduğunca esnek davranmaya çalışırız ama aynı gün içinde ek kapasite garantisi veremeyiz; yoğun teslimat dönemlerinde bir-iki gün önceden haber verilmesi, ek forklift veya uzatılmış çalışma saati ayarlamamızı büyük ölçüde kolaylaştırır. Ani gelen bir parti için elimizdeki kapasiteyi önce mevcut işe göre değerlendirir, mümkünse aynı gün, değilse en kısa sürede planlarız.",
+            },
+            {
+                soru: "Forklift ile yaya işçi trafiği aynı depoda nasıl çakışmadan çalışır?",
+                cevap:
+                    "Operatörümüz düşük hızda ilerler ve kör noktalarda korna kullanır ama asıl güvenlik, depo içinde yaya ve araç güzergâhının ayrılmasından gelir; bu ayrım yoksa ilk günden itibaren geçici bir şerit veya işaretleme önermemiz standart pratiktir. Şantiyenizde zaten bir yaya-araç ayrımı varsa, operatörümüz bu düzene uyar; yoksa, işaretleme yapılana kadar ekstra dikkatli ve düşük hızda çalışırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnşaat malzemelerinin (tuğla, demir, çimento, fayans) genel ağırlık ve hassasiyet özellikleri kamuya açık, sektörde bilinen genel bilgidir; belirli bir şantiye veya tedarikçi adı kullanılmamıştır. İstifleme sıralaması ve yerleşim koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Toplu Konut Bloğu Dış Cephesinde Mantolama ve Sıva İşlerinde Eklemli Platform Kiralama",
+        giris:
+            "Toplu konut ve TOKİ projelerinde bloklar genellikle birbirine yakın, dar aralıklarla dizilir; bu yerleşim, dış cephe mantolama ve sıva işlerinde standart bir vinç veya sabit iskeleye göre farklı bir erişim sorunu yaratır. Blok cephesi ile komşu bloğun cephesi arasındaki mesafe bazen bir platformun düz uzanan bomunu rahatça kullanmasına izin vermeyecek kadar dar olabilir, bazen de bina girişindeki saçak veya pergola gibi çıkıntılar cepheye düz bir yaklaşımı engeller. Eklemli platform, birden fazla mafsallı kolu sayesinde önce yukarı sonra yatay uzanarak bu tip engelli hedeflere ulaşabildiği için, toplu konut cephe işlerinde tercih edilen makine sınıfıdır. Bu sayfa, eklemli platformun blok dış cephesi, saçak altı ve giriş kanopisi gibi engelli noktalardaki kullanımını anlatır; blok içindeki dar geçit işleri örümcek platform sayfamızın konusudur.",
+        maddeler: [
+            {
+                baslik: "Bloklar arası dar aralıkta manevra",
+                metin:
+                    "Toplu konut yerleşimlerinde bloklar arası mesafe genellikle standart bir yol genişliğiyle sınırlıdır ve bu mesafe, düz teleskopik bomlu bir platformun geniş açıyla çalışmasına izin vermeyebilir. Eklemli platform, gövdesini dar aralığa sığdırıp kolunu mafsallardan kırarak cepheye tırmanabilir; bu, aynı dar aralıkta teleskopik sınıfın erişemeyeceği noktalara ulaşmayı sağlar.",
+            },
+            {
+                baslik: "Giriş kanopisi ve saçak altı işleri",
+                metin:
+                    "Blok girişlerindeki kanopi veya saçak, cephenin düz bir yüzey olmadığı, çıkıntılı bir engel taşıdığı noktalardır; bu çıkıntının altına veya üstüne ulaşmak için kol önce yukarı, sonra çıkıntının üzerinden dolanarak yatay uzanmalıdır. Eklemli platformun çok noktalı mafsal yapısı tam olarak bu hareketi yapabilir; düz bomlu bir makine bu tip çıkıntılı hedeflerde genellikle yetersiz kalır.",
+            },
+            {
+                baslik: "Mantolama kalınlığına göre yaklaşma mesafesi",
+                metin:
+                    "Mantolama işinde platform sepetinin cepheye yaklaşma mesafesi, uygulanacak yalıtım levhası kalınlığına göre ayarlanır; kaba sıva aşamasında cepheye yakın çalışılırken, mantolama levhası ve son kat sıva eklendikçe sepet mesafesi bu kalınlığı hesaba katacak şekilde yeniden konumlandırılır. Bu, tek bir sabit mesafeyle değil, işin aşamasına göre değişen bir yaklaşımla yürütülür.",
+            },
+            {
+                baslik: "Çoklu blok arasında sıralı cephe programı",
+                metin:
+                    "Bir toplu konut projesinde genellikle birden fazla blok aynı dönemde cephe aşamasındadır; eklemli platform bir bloğun cephesini bitirdikten sonra komşu bloğa geçerek sıralı biçimde ilerler. Bu sıralama, hangi bloğun önce teslim edileceğine göre şantiye yönetimi tarafından belirlenir ve platform rotası buna göre kurulur; sıralama değiştiğinde rota da güncellenir.",
+            },
+            {
+                baslik: "Rüzgârlı günlerde yükseklik ve çalışma sınırı",
+                metin:
+                    "Toplu konut blokları genellikle çok katlı olduğu için, üst kat cephe işlerinde rüzgâr hızı belirleyici bir güvenlik faktörüdür; üretici tarafından belirlenen rüzgâr sınırının üzerinde çalışma durdurulur. Açık ve yüksek konumdaki bloklarda bu sınır daha sık devreye girebilir, bu yüzden rüzgârlı dönemlerde iş programı esnek tutulur ve alternatif olarak rüzgârdan daha korunaklı alt katlardaki işler öne alınabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Cephe noktası tipine göre eklemli platform kullanımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, toplu konut cephesindeki tipik engelli noktaları ve eklemli platformun buradaki rolünü özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Cephe noktası", "Engel tipi", "Kol hareketi", "İş aşaması"],
+                    satirlar: [
+                        ["Bloklar arası düz cephe", "Dar aralık", "Kısa gövde, dik uzanım", "Kaba/son sıva"],
+                        ["Giriş kanopisi altı", "Çıkıntılı saçak", "Yukarı sonra yatay dolanım", "Mantolama sonrası"],
+                        ["Pergola / balkon altı", "Kısmi kapalı hacim", "Çok noktalı mafsal", "Detay sıva"],
+                        ["Üst kat / çatı saçağı", "Rüzgâr etkisi", "Sınırlı yükseklikte dikey", "Rüzgârsız pencere"],
+                    ],
+                },
+            },
+            {
+                baslik: "Mantolama ekibiyle senkron çalışma",
+                paragraflar: [
+                    "Mantolama işi genellikle platform operatörünün tek başına değil, cephede çalışan bir uygulama ekibiyle birlikte yürüdüğü bir süreçtir; ekip levha yapıştırma, dübel çakma ve sıva uygulama gibi ardışık adımları takip ederken, platform bu adımların her birinde sepeti doğru yükseklik ve mesafeye taşır. Bu senkronu sağlamak için operatörümüz genellikle mantolama ekibinin ustabaşıyla doğrudan iletişim kurar ve günlük ilerleme hızına göre sepet konumunu ayarlar.",
+                    "Birden fazla katta aynı anda çalışan büyük bir mantolama ekibi söz konusuysa, tek platformun tüm katlara yetişmesi zaman alabilir; bu durumda ikinci bir makinenin paralel çalıştırılması değerlendirilir, karar ekip büyüklüğü ve teslim takvimine göre verilir.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr ve hava koşulu takibi",
+                paragraflar: [
+                    "Yüksek katlı blok cephelerinde çalışırken operatörümüz, üreticinin belirlediği rüzgâr hızı sınırını sahada anlık olarak takip eder; sınır aşıldığında iş derhal durdurulur ve sepet güvenli konuma indirilir. Bu, özellikle açık arazide veya rüzgâra maruz cephelerde daha sık gündeme gelebilir; bu tip günlerde iş programını esnek tutmak, bir günün tamamen kaybolmasını önler çünkü rüzgâr genellikle gün içinde değişkenlik gösterir ve sakin bir pencere bulunabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bloklar arası mesafe çok dar, platform gerçekten sığar mı?",
+                cevap:
+                    "Çoğu toplu konut yerleşiminde eklemli platformun kompakt gövdesi bu dar aralıklara sığar, ama kesin cevap aralığın ölçüsüne bağlıdır; ilk keşifte bloklar arası mesafeyi ölçüp uygun gövde genişliğindeki makineyi öneririz. Aralık gerçekten çok darsa, örümcek platform gibi daha küçük bir sınıfı da değerlendirebiliriz; karar sahayı gördükten sonra netleşir.",
+            },
+            {
+                soru: "Mantolama kalınlığı arttıkça sepet mesafesini siz mi ayarlıyorsunuz, yoksa biz mi bildirmeliyiz?",
+                cevap:
+                    "Operatörümüz sepeti cepheye yaklaştırırken genel bir mesafe tutar ama mantolama levhası kalınlığı işin ilerleyen aşamalarında değiştiğinde, bu değişikliği bize bildirmeniz mesafenin daha isabetli ayarlanmasını sağlar. Uygulama ekibinizin ustabaşısı ile doğrudan iletişimde olmamız, bu bilgi akışını genellikle otomatik hâle getirir.",
+            },
+            {
+                soru: "Rüzgârlı bir günde iş tamamen iptal mi olur, yoksa bekleyip devam edebilir miyiz?",
+                cevap:
+                    "Rüzgâr sınırı aşıldığında iş o an için durur ama gün boyunca rüzgâr genellikle sabit kalmaz; sakin bir pencere oluştuğunda operatörümüz işe devam eder. Tamamen iptal etmek yerine, o gün alt katlarda veya rüzgârdan korunaklı cephede çalışmaya geçmeyi öneririz; bu, günün tamamen boşa geçmesini önler.",
+            },
+            {
+                soru: "Aynı anda üç blokta mantolama sürüyor, tek platformla yetişir mi?",
+                cevap:
+                    "Blok başına gereken süreye ve ekiplerin hızına bağlıdır; tek platform bloklar arasında sıralı geçiş yaparak çalışabilir ama bu, toplam süreyi uzatır. Teslim tarihleriniz sıkışıksa ikinci bir makineyi paralel çalıştırmayı öneririz; hangi seçeneğin bütçenize daha uygun olduğunu, ekip sayınız ve blok büyüklüğünüze göre birlikte hesaplarız.",
+            },
+            {
+                soru: "Giriş kanopisinin altına platform sepeti girebilir mi, yoksa çarpma riski mi var?",
+                cevap:
+                    "Eklemli platformun mafsallı kolu, kanopinin altına önce yandan yaklaşıp sonra sepeti dikkatle içeri sokacak şekilde kullanılabilir, ama bu hassas bir manevradır ve operatörümüz kanopinin gerçek yüksekliğini ve derinliğini önceden ölçer. Ölçü belirsizse, ilk yaklaşımda düşük hızda ve mesafeli bir deneme yapılır; çarpma riski taşıyan bir durumda iş güvenli mesafeden yeniden planlanır.",
+            },
+            {
+                soru: "Şantiyemizde birden fazla eklemli platform ihtiyacımız olursa aynı anda temin edebilir misiniz?",
+                cevap:
+                    "Kapasitemize ve o dönemki diğer taahhütlerimize bağlı olarak birden fazla makineyi aynı anda sağlayabiliriz; büyük bir toplu konut projesinde bu talep sık karşımıza çıkar. Erken planlama (özellikle yoğun dönemlerde birkaç hafta öncesinden) birden fazla makinenin aynı anda ayrılmasını kolaylaştırır; son dakika talep edilen ikinci veya üçüncü makine, mevcut kapasiteye göre gecikebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Toplu konut/TOKİ projelerinde blokların birbirine yakın dizildiği ve dış cephe mantolama işinin katmanlı bir uygulama süreci olduğu, inşaat sektöründe genel bilinen bir pratiktir; belirli bir proje veya blok adı kullanılmamıştır. Rüzgâr sınırı takibi ve rota planlaması firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Hazır Beton Santrali Silo ve Konveyör Hattı İçinde Platform Kiralama",
+        giris:
+            "Bir hazır beton santralinin dış görünümü sade olsa da, iç yapısı — özellikle silo gövdesi, konveyör bant hattı ve karışım ünitesinin çevresi — dar, tozlu ve dikey bir erişim gerektiren bir düzene sahiptir. Silo içindeki agrega akış sensörünün kontrolü, konveyör bandının üstündeki bakım işleri veya karışım ünitesinin üzerindeki motor-redüktör bakımı gibi işler, santralin normal üretim akışını kesmeden ve genellikle çimento tozunun yoğun olduğu bir ortamda yapılır. Bu sayfa, iç mekân platform kiralamamızın hazır beton santralindeki bu özel kullanım alanını anlatır; santral dışındaki açık stok sahası ve şantiye teslimatı diğer hizmet sayfalarımızın konusudur.",
+        maddeler: [
+            {
+                baslik: "Silo gövdesi içi ve üstü erişim",
+                metin:
+                    "Agrega ve çimento siloları, dikey ve dar bir gövdeye sahiptir; silo üstündeki dolum ağzı, seviye sensörü veya filtre bakımı için genellikle sabit bir merdiven bulunur ama bu merdiven yalnızca ulaşım sağlar, çalışma alanı sunmaz. Platform, silo çevresindeki servis alanından bomunu dikey uzatarak bu üst noktalara güvenli bir çalışma sepeti sağlar; silo gövdesinin dar çapı nedeniyle genellikle kompakt gövdeli bir sınıf tercih edilir.",
+            },
+            {
+                baslik: "Konveyör bant hattı üstü bakım",
+                metin:
+                    "Konveyör bant hattı, santral içinde uzun ve genellikle eğimli bir güzergâh izler; bandın kendisi, ruloları veya üstündeki toz kapağı bakımı, bandın altından değil üstünden veya yanından erişimle yapılır. Platform, bant hattı boyunca ilerleyerek her bakım noktasına sırayla yaklaşır; bant çalışırken bu işlem yapılmaz, bakım genellikle üretim durduğunda planlanan bir pencerede gerçekleştirilir.",
+            },
+            {
+                baslik: "Çimento tozu yoğun ortamda çalışma önlemleri",
+                metin:
+                    "Santral içindeki toz yoğunluğu, özellikle dolum ve karıştırma noktalarında yüksektir; bu ortamda çalışan operatörümüz toz maskesi kullanır ve makinenin hareketli aksamının tozdan etkilenmemesi için çalışma sonrası temel bir temizlik uygulanır. Toz birikimi, platformun kumanda panelinde görünürlüğü de etkileyebileceği için, uzun süreli işlerde ara temizlik molaları planlanır.",
+            },
+            {
+                baslik: "Üretim durmadan yapılabilecek işler ile duruş gerektiren işler ayrımı",
+                metin:
+                    "Bazı bakım işleri (örneğin dış gövde temizliği veya aydınlatma değişimi) santral üretim yaparken de yapılabilirken, konveyör bandı veya silo içi işler genellikle bandın veya dolum hattının durdurulmasını gerektirir. Bu ayrım, iş talebi alındığında santral yetkilisiyle birlikte netleştirilir; hangi işin ne zaman yapılabileceği, santralin günlük üretim programına göre planlanır.",
+            },
+            {
+                baslik: "Karışım ünitesi üstü motor-redüktör erişimi",
+                metin:
+                    "Karışım ünitesinin üstünde bulunan motor ve redüktör grubu, santralin en yoğun titreşim ve ısı gören bileşenlerindendir; bu noktaya düzenli bakım için erişim, sabit bir platform veya merdiven yoksa hareketli bir makineyle sağlanır. Platform bu noktaya yaklaşırken, ünitenin çevresindeki dar boru ve kablo yoğunluğuna dikkat ederek konumlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Santral içi bakım noktaları ve erişim özeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, hazır beton santralindeki başlıca bakım noktalarını ve platformla erişim koşulunu karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Bakım noktası", "Ortam koşulu", "Erişim yönü", "Üretim durumu"],
+                    satirlar: [
+                        ["Silo üstü / dolum ağzı", "Dikey, dar çap", "Servis alanından yukarı", "Duruş gerekli"],
+                        ["Konveyör bant hattı", "Eğimli, uzun güzergâh", "Yandan/üstten ilerleyerek", "Duruş gerekli"],
+                        ["Karışım ünitesi üstü", "Dar boru-kablo yoğunluğu", "Kontrollü yaklaşma", "Duruş gerekli"],
+                        ["Dış gövde / aydınlatma", "Açık alan", "Standart dikey erişim", "Üretimle birlikte mümkün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Santral üretim takvimiyle koordinasyon",
+                paragraflar: [
+                    "Hazır beton santralleri, sipariş yoğunluğuna göre değişen ama genellikle önceden bilinen bir üretim programına sahiptir; bu program içinde bakım için ayrılan duruş pencereleri sınırlıdır ve genellikle sabah erken saat veya sipariş yoğunluğunun düştüğü dönemlere denk gelir. Platform hizmetimiz, bu pencereleri kaçırmamak için santral yetkilisiyle bakım tarihini önceden netleştirir; pencere dar olduğunda, iş listesi önceliklendirilir ve en kritik nokta önce ele alınır.",
+                    "Beklenmedik bir arıza (örneğin silo seviye sensörünün devre dışı kalması) söz konusu olduğunda, planlı pencereyi beklemeden acil bir müdahale de organize edilebilir; bu durumda üretim geçici olarak durdurulur ve iş en kısa sürede tamamlanır.",
+                ],
+            },
+            {
+                baslik: "Toz ve kimyasal katkı maddelerine karşı önlem",
+                paragraflar: [
+                    "Bazı hazır beton santrallerinde çimentoya ek olarak kimyasal katkı maddeleri de kullanılır; bu maddelerin depolandığı veya karıştırıldığı bölgelerde çalışırken operatörümüz santralin kendi güvenlik bilgi formlarını (varsa) dikkate alır ve gerekli kişisel koruyucu donanımı kullanır. Bu tip alanlarda çalışma öncesi santral yetkilisinden hangi maddelerin o bölgede bulunduğuna dair bilgi alınması standart bir güvenlik adımıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo üstündeki sensör bakımı için üretimi tamamen durdurmamız mı gerekiyor?",
+                cevap:
+                    "Genellikle evet, çünkü silo dolum hattı çalışırken üst noktaya güvenli erişim sağlamak risklidir; bu yüzden silo içi ve üstü işler için kısa bir duruş penceresi planlarız. Duruş süresi işin kapsamına göre değişir, genellikle birkaç saatlik bir pencere yeterli olur; bu süreyi santral yetkilinizle birlikte önceden netleştiririz.",
+            },
+            {
+                soru: "Konveyör bandı çalışırken yanından geçen bir platformla bakım yapılabilir mi?",
+                cevap:
+                    "Hayır, bant çalışırken üzerinde veya çok yakınında platformla çalışmak ciddi bir yakalanma ve düşme riski taşır; bu tür işler için bandın durdurulması standart güvenlik gereğidir. Bant durdurulmadan yapılabilecek tek iş, banttan güvenli mesafede kalan dış gözlem veya görsel kontroldür, bunun dışındaki tüm müdahaleler duruş gerektirir.",
+            },
+            {
+                soru: "Santralimiz sürekli sipariş alıyor, bakım için uygun bir pencere bulmak zor; ne öneriyorsunuz?",
+                cevap:
+                    "Sipariş yoğunluğunun görece düştüğü saatleri (genellikle sabah çok erken veya akşam geç) veya haftanın daha sakin bir gününü belirlemenizi öneririz; bu bilgiyi paylaştığınızda planımızı buna göre kurarız. Sürekli yoğun bir santralde bile genellikle kısa bir pencere bulunur, önemli olan bu pencereyi önceden belirleyip bize bildirmenizdir.",
+            },
+            {
+                soru: "Toz yoğun bir ortamda platformun elektronik aksamı zarar görür mü?",
+                cevap:
+                    "Kısa süreli çalışmalarda ciddi bir risk beklemeyiz ama uzun süreli veya sık tekrarlanan işlerde toz birikimi kumanda panelinin görünürlüğünü ve bazı hareketli aksamı etkileyebilir; bu yüzden uzun işlerde ara temizlik molaları planlarız. İş bitiminde makinenin temel bir temizliği yapılır; bu, hem makinenin ömrünü korur hem bir sonraki kullanıcıya temiz bir ekipman teslim etmemizi sağlar.",
+            },
+            {
+                soru: "Acil bir arıza oldu, planlı bakım penceresini beklemeden gelebilir misiniz?",
+                cevap:
+                    "Evet, acil arızalarda planlı pencereyi beklemeyiz; santralinizin o an üretimi geçici olarak durdurması gerekebilir ama biz mümkün olan en kısa sürede sahaya ulaşmaya çalışırız. Acil durumlarda önceliğimiz üretiminizin en kısa sürede yeniden başlayabilmesidir, bu yüzden bu tip taleplerde normal planlama sürecini kısaltırız.",
+            },
+            {
+                soru: "Kimyasal katkı maddesi depolanan bölgede çalışırken özel bir önlem alıyor musunuz?",
+                cevap:
+                    "Evet, bu tip bölgelerde çalışmadan önce santral yetkilinizden o bölgede hangi maddelerin bulunduğuna dair bilgi alırız ve operatörümüz buna uygun kişisel koruyucu donanımı kullanır. Santralinizin güvenlik bilgi formu (varsa) bize önceden paylaşılırsa, hazırlığımızı daha isabetli yaparız; paylaşılmazsa sahada yetkiliye sorarak öğreniriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hazır beton santrallerinin silo, konveyör bant hattı ve karışım ünitesi gibi bileşenlerden oluştuğu ve bu bileşenlerin dar/tozlu bir erişim gerektirdiği, sektörde genel bilinen teknik bir gerçektir; belirli bir santral adı veya rakam kullanılmamıştır. Duruş penceresi planlaması ve acil müdahale süreci firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Hazır Beton Santrali Genişletme ve Şantiye Şantiye Ofisi Çelik Yapı Montajında Platform Kiralama",
+        giris:
+            "Kütahya'daki hazır beton santrallerinin bir kısmı, artan sipariş hacmine karşılık ikinci bir silo grubu veya ek bir konveyör hattı ekleyerek kapasitesini büyütür; bu tip genişletme işleri, günlük üretim bakımından farklı olarak yeni çelik konstrüksiyonun kurulması, kiriş ve dikme montajı, bağlantı cıvatalarının sıkılması gibi inşaat aşaması işleri gerektirir. Benzer bir çelik montaj ihtiyacı, büyük şantiyelerin saha ofisi, malzeme deposu veya vardiya barınma birimleri gibi geçici çelik yapılarının kurulumunda da ortaya çıkar. Bu sayfa, çelik konstrüksiyon montaj platformu hizmetimizin bu iki senaryodaki — santral genişletme ve şantiye geçici yapıları — kullanımını anlatır; mevcut ve çalışır durumdaki santral içi bakım işleri iç mekân sayfamızın konusudur.",
+        maddeler: [
+            {
+                baslik: "Yeni silo grubu montajında dikey erişim",
+                metin:
+                    "Bir silo grubunun çelik iskeleti, temelden başlayarak kat kat yükselen dikmeler ve bunları birbirine bağlayan kirişlerden oluşur; montaj sırasında her kaynak veya cıvata noktasına erişim, iskelet henüz tamamlanmadığı için sabit bir merdivenle sağlanamaz. Platform, iskeletin yanında konumlanıp yükseklik arttıkça sepeti buna göre yükselterek montaj ekibine her seviyede erişim sağlar; iskelet tamamlandıkça platformun konumu da yeni eklenen üst seviyelere göre güncellenir.",
+            },
+            {
+                baslik: "Konveyör köprüsü ek hattı kaynak ve bağlantı kontrolü",
+                metin:
+                    "Mevcut santrale eklenen yeni bir konveyör köprüsü, genellikle mevcut hatla belirli bir açıda veya yükseklikte birleşir; bu birleşim noktasındaki kaynak ve cıvata bağlantılarının kontrolü, hem yeni hem eski yapının kesiştiği dar bir bölgede yapılır. Platform bu kesişim noktasına, mevcut ekipmana zarar vermeyecek bir açıdan yaklaşarak montaj ekibine çalışma alanı sağlar.",
+            },
+            {
+                baslik: "Şantiye saha ofisi ve geçici yapı kurulumu",
+                metin:
+                    "Büyük bir toplu konut şantiyesinin saha ofisi, malzeme deposu veya vardiya barınma birimleri genellikle hafif çelik konstrüksiyon üzerine kurulur; bu yapıların çatı kirişi montajı ve panel kaplaması, kalıcı bir bina kadar büyük olmasa da yükseklikte çalışma gerektirir. Platform, bu geçici yapıların montajında hızlı kurulum ve sökümle uyumlu, kısa süreli bir çözüm sunar.",
+            },
+            {
+                baslik: "Rüzgâr ve açık arazi koşulunda montaj güvenliği",
+                metin:
+                    "Hazır beton santralleri ve büyük şantiyeler genellikle şehir dışında, rüzgâra açık arazilerde konumlanır; bu koşul, yüksekte çelik montaj yaparken rüzgâr hızının daha sık takip edilmesini gerektirir. Üretici sınırının üzerinde rüzgâr ölçüldüğünde iş durdurulur; açık arazi koşulunda bu durum kapalı bir sanayi holüne göre daha sık gündeme gelebilir, bu yüzden montaj takvimi hava tahminine göre esnek tutulur.",
+            },
+            {
+                baslik: "Montaj ekibiyle kademeli yükseklik takibi",
+                metin:
+                    "Çelik montaj işi, tek bir sabit yükseklikte değil, iskelet yükseldikçe artan bir çalışma seviyesinde ilerler; platform operatörü montaj ekibinin ustabaşısıyla sürekli iletişimde kalarak, o gün hangi seviyede çalışılacağını takip eder ve sepeti buna göre konumlandırır. Bu kademeli takip, montaj hızının platform erişimiyle uyumlu ilerlemesini sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik montaj senaryosuna göre platform kullanımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, santral genişletme ve şantiye geçici yapı senaryolarında platformun kullanım özelliklerini karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Yapı tipi", "Erişim özelliği", "Süre"],
+                    satirlar: [
+                        ["Yeni silo grubu", "Kalıcı dikey iskelet", "Kademeli yükselen erişim", "Haftalar"],
+                        ["Konveyör köprüsü eki", "Kesişim bölgesi", "Dar açılı yaklaşım", "Günler"],
+                        ["Şantiye saha ofisi", "Hafif çelik geçici yapı", "Hızlı kurulum uyumlu", "Kısa süreli"],
+                        ["Vardiya barınma birimi", "Tek katlı çelik yapı", "Standart dikey erişim", "Kısa süreli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj ile mevcut üretim arasındaki sınır",
+                paragraflar: [
+                    "Santral genişletme çalışırken mevcut santral genellikle üretime devam eder; bu, yeni iskeletin montaj alanı ile mevcut üretim alanının net bir sınırla ayrılmasını gerektirir. Platform, bu sınırın içinde kalarak çalışır ve mevcut ekipmana (özellikle çalışan konveyör bant hattına) güvenli mesafeyi korur; sınır, montaj başlamadan önce santral yetkilisiyle birlikte fiziksel olarak işaretlenir.",
+                    "Bu ayrım, hem montaj ekibinin hem santral personelinin güvenliği için önemlidir; sınır ihlali riski taşıyan bir durumda (örneğin rüzgârla sepetin sınıra yaklaşması) iş geçici olarak durdurulur ve konum yeniden değerlendirilir.",
+                ],
+            },
+            {
+                baslik: "Açık arazide rüzgâr takibi ve montaj takvimi",
+                paragraflar: [
+                    "Şehir dışındaki santral ve büyük şantiye sahalarında rüzgâr, kapalı bir sanayi holüne göre daha değişken ve daha güçlü olabilir; bu yüzden çelik montaj takvimimiz genellikle hava tahminine göre esnek tutulur ve rüzgârlı günler için alternatif iş (örneğin zeminde hazırlanabilecek kaynak işleri) planlanır. Rüzgâr sınırı aşıldığında sepet güvenli konuma indirilir ve iş sakin bir pencerede devam eder; bu, montaj süresini bazen birkaç gün uzatabilir ama güvenlik açısından taviz verilmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo montajı sırasında iskelet henüz tamamlanmadı, platform buna göre nasıl konumlanıyor?",
+                cevap:
+                    "İskelet tamamlanmadığı için platform, iskeletin dışında kendi bağımsız zemininde durur ve bomunu iskelete doğru uzatır; iskeletin üzerine veya içine binmez. İskelet yükseldikçe platformun kendi konumu da (gerekirse) mesafe ve açı olarak yeniden ayarlanır; bu, montaj ekibinin ustabaşısıyla günlük koordinasyonla yapılır.",
+            },
+            {
+                soru: "Mevcut santral üretim yaparken yeni silo montajı güvenli mi?",
+                cevap:
+                    "Güvenli olması için montaj alanı ile üretim alanı arasında net bir fiziksel sınır kurulması şarttır; bu sınır montaj başlamadan önce santral yetkilinizle birlikte belirlenir ve platform bu sınırın dışına çıkmaz. Sınır belirlenmeden veya işaretlenmeden montaja başlamayız çünkü bu, hem montaj ekibi hem üretim personeli için risk taşır.",
+            },
+            {
+                soru: "Şantiye saha ofisimiz için çelik montaj çok kısa sürecek, yine de platform kiralamaya değer mi?",
+                cevap:
+                    "Kısa süreli bir montaj için bile sabit iskele kurup sökmek genellikle platform kiralamaktan daha yavaş ve emek yoğun olur; bu yüzden birkaç günlük geçici yapı montajlarında platform genellikle daha hızlı bir çözümdür. Kesin karar, yapının yüksekliği ve montaj kapsamına bağlıdır; küçük bir yapı için en uygun makine sınıfını ilk keşifte birlikte belirleriz.",
+            },
+            {
+                soru: "Açık arazide rüzgâr çok değişken, montaj takvimini nasıl planlıyorsunuz?",
+                cevap:
+                    "Hava tahminini takip ederek rüzgârlı günler için zeminde hazırlanabilecek alternatif işleri öne alırız, yüksekte çalışma gerektiren kısımları sakin günlere denk getirmeye çalışırız. Rüzgâr aniden arttığında iş anında durur ve sepet indirilir; bu, montaj süresini bazen birkaç gün uzatabilir ama güvenlik açısından bir istisna yapılmaz.",
+            },
+            {
+                soru: "Konveyör köprüsü eklerken mevcut banda zarar verme riski var mı?",
+                cevap:
+                    "Bu riski en aza indirmek için platform, mevcut banda güvenli mesafeyi koruyacak bir açıdan yaklaşır ve operatörümüz banda temas riski taşıyan hareketlerden kaçınır. Kesişim noktası dar olduğunda, mümkünse bandın kısa süreliğine durdurulması istenir; bu, hem montaj hassasiyetini artırır hem çarpma riskini ortadan kaldırır.",
+            },
+            {
+                soru: "Montaj ekibimiz büyük, birden fazla seviyede aynı anda çalışıyor; tek platform yeterli mi?",
+                cevap:
+                    "Tek platform, aynı anda yalnızca bir seviyeye erişim sağlayabildiği için, birden fazla seviyede paralel çalışan büyük bir ekip için ikinci bir makine gerekebilir. Ekip büyüklüğünüzü ve kaç seviyede aynı anda çalışıldığını paylaşırsanız, tek makinenin yeterli olup olmadığını veya ikinci bir makinenin gerekip gerekmediğini birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hazır beton santrallerinin silo/konveyör genişletmesi ve büyük şantiyelerin geçici çelik saha ofisi/barınma yapıları kurduğu, inşaat ve sanayi sektöründe genel bilinen bir pratiktir; belirli bir santral veya şantiye adı kullanılmamıştır. Sınır işaretleme ve kademeli yükseklik takibi firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Hazır Beton Santrali Agrega ve Kum-Çakıl Silosu Sahasında Platform Kiralama",
+        giris:
+            "Kütahya'da 'silo' denince akla ilk gelen genellikle tarımsal hububat deposu olsa da, hazır beton santrallerinin agrega, kum ve çakıl stoklamak için kullandığı silo ve bunker yapıları da ilin sanayi silosu profilinin önemli bir parçasıdır. Bu iki silo tipi farklı sektörlere ait olsa da, platform kiralama açısından benzer bir erişim sorunu paylaşır: dikey yapı, üst dolum ağzı ve besleme bandı bağlantısı gibi hedeflere düz uzanan bir bomla ulaşmak. Bu sayfa, hazır beton santrali agrega silosu ve açık stok sahasındaki platform kullanımını ele alır; santralin iç kısmındaki konveyör ve karışım ünitesi bakımı iç mekân sayfamızın konusudur, burada odak açık sahadaki silo ve stok yığınlarıdır.",
+        maddeler: [
+            {
+                baslik: "Agrega silosu üst dolum ağzı erişimi",
+                metin:
+                    "Kum ve çakıl silosunun üst dolum ağzı, malzemenin kamyon veya bantla üstten dökülmesi için açık bırakılan bir noktadır; bu noktanın çevresindeki metal koruma ızgarası veya seviye göstergesi zamanla aşınabilir ve kontrol gerektirir. Platform, silo çevresindeki açık sahadan bomunu dikey uzatarak bu üst noktaya erişim sağlar; silo tepesi genellikle dar bir çalışma alanı sunduğu için sepetin konumu dikkatle ayarlanır.",
+            },
+            {
+                baslik: "Açık stok yığını üzerindeki besleme bandı bakımı",
+                metin:
+                    "Bazı santrallerde agrega, kapalı bir silo yerine açık bir stok yığını hâlinde tutulur ve buradan bir besleme bandıyla karışım ünitesine taşınır; bu bandın yığın üzerindeki bölümü, zeminden değil yığının kendisinden erişilmesi gereken bir noktadır. Platform, yığının yanına konumlanıp bandın üstündeki bakım noktasına ulaşır; yığının kendisi düzensiz ve kaygan olabileceği için platform doğrudan yığının üzerine çıkmaz, yanından erişir.",
+            },
+            {
+                baslik: "Toz kontrolü ve rüzgârlı günlerde çalışma",
+                metin:
+                    "Açık agrega ve kum stok sahaları, rüzgârlı günlerde toz kaldırabilir; bu hem görüş mesafesini hem platform operatörünün çalışma konforunu etkiler. Yoğun tozlu günlerde iş mümkünse ertelenir veya rüzgârın göreli sakin olduğu saatlere kaydırılır; bu, hem operatör sağlığı hem iş kalitesi açısından tercih edilir.",
+            },
+            {
+                baslik: "Zemin taşıma gücü ve stok sahası düzensizliği",
+                metin:
+                    "Agrega stok sahasının zemini, sürekli kamyon ve yükleyici trafiğiyle düzensiz hâle gelebilir; tekerlekli veya paletli iz bırakan çukurlar, platformun düz durmasını zorlaştırabilir. Platform sahaya girmeden önce zemin genellikle gözle kontrol edilir, gerekirse daha düzgün bir noktaya konumlanır; ciddi çukurlu bir zeminde çalışma, santral yetkilisinden geçici düzeltme istenerek ertelenebilir.",
+            },
+            {
+                baslik: "Bunker altı besleme kapağı kontrolü",
+                metin:
+                    "Silonun alt kısmındaki besleme kapağı ve titreşimli besleyici, malzeminin bant hattına düzenli akmasını sağlayan kritik bir noktadır; bu nokta genellikle yerden erişilebilir ama üstündeki muayene kapağı veya sensör bazen daha yüksek bir konumda olabilir. Bu tip ara yükseklikteki noktalar için platform, tam silo tepesi kadar yüksek olmayan ama zeminden de erişilemeyen bir aralığı kapatır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Agrega silosu ve stok sahasında erişim noktaları",
+                paragraflar: [
+                    "Aşağıdaki tablo, hazır beton santrali agrega/kum-çakıl sahasındaki başlıca erişim noktalarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Yükseklik profili", "Zemin koşulu", "Hava hassasiyeti"],
+                    satirlar: [
+                        ["Silo üst dolum ağzı", "Tam yükseklik", "Sabit beton platform", "Rüzgâra orta hassas"],
+                        ["Açık yığın üstü bant", "Değişken (yığın boyuna göre)", "Düzensiz agrega yüzeyi", "Toza yüksek hassas"],
+                        ["Bunker altı kapak", "Orta yükseklik", "Sabit zemin", "Düşük hassasiyet"],
+                        ["Stok sahası genel", "Düşük-orta", "Kamyon iziyle düzensiz", "Rüzgârda toz riski"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tarımsal silo ile sanayi silosu farkı — karışıklığı önlemek",
+                paragraflar: [
+                    "Kütahya'da 'silo bakımı' talebi geldiğinde, önce tarımsal hububat silosu mu yoksa hazır beton santrali agrega silosu mu kastedildiğini netleştiririz çünkü bu iki yapı farklı ölçek, farklı zemin ve farklı erişim mantığına sahiptir. Tarımsal silo genellikle daha ince duvarlı ve tarım arazisi zemininde bulunurken, sanayi silosu daha ağır beton temelli ve santral iç trafiğine bitişiktir. Bu ayrım netleşmeden gönderilen bir makine, yanlış sınıfta veya yanlış zemin varsayımıyla sahaya ulaşabilir; bu yüzden ilk görüşmede hangi tip silodan bahsedildiği mutlaka teyit edilir.",
+                ],
+            },
+            {
+                baslik: "Santral üretim programıyla stok sahası erişiminin çakışması",
+                paragraflar: [
+                    "Agrega stok sahası, santralin üretim yaptığı saatlerde sürekli yükleyici ve kamyon trafiğine açıktır; platformun bu sahada çalışması, bu trafikle çakışmayacak bir zaman dilimine denk getirilir. Genellikle üretim programının göreli sakin olduğu saatler tercih edilir; bu saat santral yetkilisiyle birlikte belirlenir ve platform o pencerede sahaya girer, iş bitince alanı hızlıca boşaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bizim siloumuz tarım silosu değil, beton santrali agrega silosu; aynı hizmeti mi veriyorsunuz?",
+                cevap:
+                    "Evet, agrega silosu için de platform hizmeti veriyoruz ama bu, tarımsal silodan farklı bir erişim mantığı gerektirir; santral silosunun zemini genellikle beton, tarımsal silonunki ise toprak veya çakıl olabilir. İlk görüşmede hangi tip silodan bahsettiğinizi netleştirmemiz, doğru makine sınıfı ve doğru zemin varsayımıyla gelmemizi sağlar.",
+            },
+            {
+                soru: "Stok yığınının üzerine platform çıkabilir mi, yoksa sadece yanından mı çalışıyorsunuz?",
+                cevap:
+                    "Genellikle yığının üzerine çıkmayız çünkü agrega yüzeyi düzensiz ve kaygan olabilir, bu da platformun dengesini bozabilir; bunun yerine yığının yanına konumlanıp bomu üzerine doğru uzatırız. Yığının şekli ve besleme bandının konumu çok özel bir yaklaşım gerektiriyorsa, bunu ilk keşifte sahayı görerek değerlendiririz.",
+            },
+            {
+                soru: "Toz nedeniyle görüş kötüyse iş yine de yapılabilir mi?",
+                cevap:
+                    "Yoğun toz operatörün görüşünü ve iş kalitesini olumsuz etkileyebileceği için, mümkünse rüzgârın göreli sakin olduğu bir saate ertelemenizi öneririz. Ertelenemeyecek acil bir durum varsa, operatörümüz ek koruyucu ekipmanla ve daha yavaş bir tempoyla çalışmayı sürdürebilir, ancak bu ideal koşul değildir.",
+            },
+            {
+                soru: "Stok sahasının zemini kamyon izleriyle çukurlu, platform buraya girebilir mi?",
+                cevap:
+                    "Ciddi çukurlu bir zeminde platform dengesini kaybedebileceği için, önce zemini gözle kontrol ederiz ve gerekirse daha düzgün bir noktaya konumlanırız. Çukurlar çok yoğunsa, santral yetkilinizden geçici bir düzeltme (dolgu veya greyder geçişi) istenmesini öneririz; bu, hem güvenlik hem işin hızlı tamamlanması açısından faydalıdır.",
+            },
+            {
+                soru: "Silo üstü dolum ağzına ne sıklıkla bakım gerekir, siz bunu planlıyor musunuz?",
+                cevap:
+                    "Bakım sıklığı santralin kendi kullanım yoğunluğuna ve ekipman yaşına bağlıdır, bu konuda kesin bir program biz belirlemeyiz; santralinizin kendi bakım takvimine göre ihtiyaç duyduğunuzda bizi çağırırsınız. İsterseniz yıllık veya mevsimlik bir kontrol döngüsü kurmanızı önerebiliriz, bu düzenli bir hatırlatma ve planlama kolaylığı sağlar.",
+            },
+            {
+                soru: "Santral üretim yaparken stok sahasında platform çalıştırmak güvenli mi?",
+                cevap:
+                    "Üretim saatlerinde stok sahası yoğun kamyon ve yükleyici trafiğine açık olduğu için, bu trafikle çakışmayacak bir zaman dilimi seçilmesi güvenlik açısından önemlidir. Santral yetkilinizle üretim programının göreli sakin olduğu bir saati belirleyip o pencerede çalışırız; tamamen üretim dışı bir saat bulmak her zaman mümkün olmayabilir ama trafiğin en az olduğu dilim tercih edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hazır beton santrallerinin agrega/kum-çakıl stoklamak için silo ve açık stok sahası kullandığı, sektörde genel bilinen teknik bir gerçektir; belirli bir santral adı veya rakam kullanılmamıştır. Silo tipi teyidi ve üretim programıyla koordinasyon firma pratiğidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Şantiye Sahası, Agrega Tesisi ve Toplu Konut Ortak Alan Aydınlatma-Bakım Platformu",
+        giris:
+            "İnşaat sektöründe aydınlatma ve enerji hattı bakımı üç farklı yüz alır: büyük bir şantiyenin gece çalışması için kurulan direk aydınlatması, hazır beton santralinin agrega tesisi ve konveyör hattı çevresindeki üretim aydınlatması ve toplu konut projesinin teslim aşamasına yaklaşırken devreye giren ortak alan-peyzaj aydınlatması. Bu üç durumun ortak paydası, işin çoğunlukla değişken bir sahada ve bazen enerjili bir hat yakınında geçmesidir; ama her biri farklı bir zamanlama ve farklı bir öncelik taşır. Bu sayfa, enerji ve aydınlatma bakım hizmetimizin bu üç senaryoda nasıl uygulandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Şantiye direk aydınlatmasının kurulum ve bakımı",
+                metin:
+                    "Büyük şantiyelerde gece veya erken sabah çalışması gerektiğinde, saha genelinde geçici direk aydınlatması kurulur; bu direklerin armatür değişimi veya kablo bağlantı kontrolü, şantiyenin farklı noktalarına dağılmış çok sayıda direk olduğu için tek tek dolaşılarak yapılır. Platform, bir direkten diğerine ilerleyerek bu dolaşımı hızlandırır; direk sayısı fazlaysa iş birkaç güne yayılabilir.",
+            },
+            {
+                baslik: "Agrega tesisi ve konveyör hattı üretim aydınlatması",
+                metin:
+                    "Hazır beton santralinin agrega tesisi ve konveyör hattı çevresi, gece vardiyası çalışan santrallerde sürekli aydınlık tutulması gereken bir bölgedir; bu bölgedeki armatürler toz ve titreşime maruz kaldığı için standart bir sanayi aydınlatmasından daha sık arıza verebilir. Platform, konveyör hattı boyunca ilerleyerek her armatür noktasına erişir; bakım genellikle santralin bakım penceresine denk getirilir.",
+            },
+            {
+                baslik: "Toplu konut ortak alan ve peyzaj aydınlatması",
+                metin:
+                    "Toplu konut projesi teslim aşamasına yaklaştığında, blok arası yürüyüş yolu, otopark ve peyzaj alanlarındaki kalıcı aydınlatma direkleri devreye girer; bu direklerin montajı ve ilk kontrolü, projenin teslim öncesi son iş kalemlerinden biridir. Platform, bu direklerin üst kısmındaki armatür montajı ve kablo bağlantısı için kullanılır; iş genellikle teslim tarihine yakın yoğun bir programla ilerler.",
+            },
+            {
+                baslik: "Enerjili hat yakınında güvenlik protokolü",
+                metin:
+                    "Şantiye veya santral sahasında bazı aydınlatma-enerji hatları çalışır durumda tutulur; bu hatlara yakın çalışırken elektrik kesme prosedürü uygulanır — mümkünse hat geçici olarak kesilir, kesilemiyorsa güvenli mesafe korunur ve izole ekipman kullanılır. Bu protokol, iş başlamadan önce sahanın elektrik sorumlusuyla birlikte netleştirilir.",
+            },
+            {
+                baslik: "Mevsimsel ve teslim takvimine bağlı yoğunluk",
+                metin:
+                    "Toplu konut projelerinde aydınlatma işleri genellikle teslim tarihine yakın yoğunlaşırken, şantiye direk aydınlatması inşaatın başından itibaren sürekli bir ihtiyaçtır ve santral aydınlatması yıl boyunca dağılan bir bakım döngüsüne sahiptir. Bu üç farklı ritim, talep geldiğinde hangi senaryodan bahsedildiğinin netleşmesini ve buna göre bir zamanlama kurulmasını gerektirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Senaryoya göre aydınlatma-bakım işi karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç farklı senaryodaki aydınlatma-bakım işinin ortam ve zamanlama farkını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Ortam", "Belirleyici koşul", "Zamanlama"],
+                    satirlar: [
+                        ["Şantiye direk aydınlatması", "Değişken açık saha", "Direk sayısı, dağınıklık", "İnşaat boyunca sürekli"],
+                        ["Santral üretim aydınlatması", "Toz, titreşim", "Vardiya sürekliliği", "Bakım penceresine göre"],
+                        ["Toplu konut ortak alan", "Peyzaj, yürüyüş yolu", "Teslim yakınlığı", "Teslim öncesi yoğun"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik kesme-emniyet prosedürünün işleyişi",
+                paragraflar: [
+                    "Enerjili bir hat yakınında çalışırken, öncelikli tercih hattın geçici olarak kesilmesidir; bu kesme işlemi santral veya şantiyenin elektrik sorumlusu tarafından yapılır ve kesildiği operatörümüze açıkça teyit edilmeden çalışma başlamaz. Hat kesilemiyorsa (örneğin sürekli üretim gerektiren bir hat), güvenli mesafe korunur ve izole ekipman kullanılır; bu durumda iş normalden daha yavaş ve daha dikkatli ilerler.",
+                    "Bu prosedür, hem şantiye hem santral sahalarında aynı titizlikle uygulanır; farklılık yalnızca kimin elektrik sorumlusu olduğunda ve kesme yetkisinin kimde bulunduğundadır.",
+                ],
+            },
+            {
+                baslik: "Teslim öncesi yoğun dönemde planlama önerisi",
+                paragraflar: [
+                    "Toplu konut projelerinde ortak alan aydınlatması genellikle teslim tarihine yakın diğer birçok iş kalemiyle (peyzaj, asfalt, tabela) aynı döneme denk gelir; bu yoğunlukta platform talebini son haftaya bırakmak, kapasite bulma şansını azaltabilir. Mümkünse teslim tarihinden birkaç hafta önce aydınlatma direği montajının planlanmasını öneririz; bu, hem bizim tarafımızda hem şantiyenizin genel programında daha rahat bir sıralama sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şantiyemizde yirmiden fazla direk var, hepsini tek seferde mi kontrol ediyorsunuz?",
+                cevap:
+                    "Direk sayısı fazlaysa işi genellikle birkaç güne yayarız; platform bir direkten diğerine ilerleyerek dolaşır ve her direkte armatür ve bağlantı kontrolü yapılır. Direklerin şantiye içindeki dağılımını (yakın mı, birbirinden uzak mı) önceden bilmemiz, iş süresini daha isabetli tahmin etmemizi sağlar.",
+            },
+            {
+                soru: "Santralimizde gece vardiyası sürekli çalışıyor, aydınlatma bakımı için ne zaman uygun bir pencere buluruz?",
+                cevap:
+                    "Gece vardiyası sürekli olsa da genellikle vardiya değişim saatleri veya üretim programının göreli sakinleştiği bir dilim bulunabilir; bu saati santralinizin yetkilisiyle birlikte belirleriz. Tamamen kesintisiz bir üretim söz konusuysa, bakımı bölümler hâlinde (bir seferde birkaç armatür) planlayarak toplam kesintiyi en aza indiririz.",
+            },
+            {
+                soru: "Ortak alan aydınlatma direklerini teslim tarihine çok yakın bildirdik, yetişir mi?",
+                cevap:
+                    "Teslim tarihine çok yakın bildirilen işlerde kapasite bulma riski artar çünkü bu dönem genellikle birçok şantiyede aynı anda yoğunlaşır; yine de elimizdeki kapasiteye göre mümkün olan en hızlı planı yaparız. Bir dahaki sefere birkaç hafta önceden bildirmeniz, daha rahat bir sıralama ve daha düşük acil iş riski sağlar.",
+            },
+            {
+                soru: "Enerjili bir hattı kesmeden çalışabilir misiniz, yoksa mutlaka kesilmesi mi gerekiyor?",
+                cevap:
+                    "Mümkünse hattın kesilmesini tercih ederiz çünkü bu en güvenli yöntemdir; kesilemeyen sürekli üretim hatlarında güvenli mesafe koruyarak ve izole ekipman kullanarak çalışabiliriz, ancak bu durumda iş normalden daha yavaş ilerler ve ek dikkat gerektirir. Hangi yöntemin uygulanacağı, işe başlamadan önce sahanın elektrik sorumlusuyla birlikte netleştirilir.",
+            },
+            {
+                soru: "Şantiye direk aydınlatması ile santral aydınlatması aynı fiyata mı geliyor?",
+                cevap:
+                    "Fiyat, işin kapsamına (direk sayısı, mesafe, süre) göre değişir, sektöre göre sabit bir fiyat farkı yoktur. Şantiye direk dolaşımı genellikle daha fazla noktayı kapsadığı için toplam süre uzayabilirken, santral aydınlatması daha yoğun ama daha az noktalı olabilir; her iki durumda da teklif, sahayı ve iş kapsamını gördükten sonra netleşir.",
+            },
+            {
+                soru: "Peyzaj aydınlatma direklerinin montajını biz mi, siz mi yapıyorsunuz — sadece erişim mi sağlıyorsunuz?",
+                cevap:
+                    "Standart hizmetimiz platform ve operatör erişimidir; direğin elektrik bağlantısını genellikle şantiyenizin veya alt yüklenicinizin elektrik ekibi yapar, biz onlara yükseklikte güvenli bir çalışma alanı sağlarız. Talep edilirse, kendi ekibimizle birlikte montaj işini de üstlenebiliriz; bu durumda kapsamı teklif aşamasında netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Şantiyelerde geçici direk aydınlatması kurulduğu, hazır beton santrallerinde üretim aydınlatmasının toz-titreşime maruz kaldığı ve toplu konut projelerinde teslim öncesi ortak alan aydınlatmasının son iş kalemlerinden biri olduğu, inşaat sektöründe genel bilinen bir pratiktir; belirli bir şantiye veya santral adı kullanılmamıştır. Elektrik kesme-emniyet prosedürü ve teslim öncesi planlama önerisi firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Şantiye ve TOKİ İhalesi Şartnamesinde Operatörlü Platform Kiralama Zorunluluğu",
+        giris:
+            "Büyük ölçekli toplu konut ve TOKİ ihalelerinde, yükseklikte çalışma ekipmanı kiralaması genellikle şartname maddeleriyle sınırlandırılır; birçok ihale, platformun yalnızca sertifikalı ve yetkilendirilmiş bir operatör eşliğinde kullanılmasını zorunlu tutar. Bu zorunluluk, şantiyenin kendi iş güvenliği politikasından da kaynaklanabilir — bazı yükleniciler, kendi personelinin platform kullanmasına izin vermek yerine, her zaman dışarıdan sertifikalı bir operatör talep eder. Bu sayfa, operatörlü ve operatörsüz kiralama arasındaki farkı, şantiye ve ihale bağlamında hangi durumda hangisinin tercih edildiğini ve operatör sertifikasyonunun nasıl doğrulandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "İhale şartnamesinde operatörlü kiralama şartı",
+                metin:
+                    "Kamu ihaleli toplu konut projelerinde, teknik şartname genellikle yükseklikte çalışma ekipmanının 'operatörlü' temin edilmesini şart koşar; bu, hem iş güvenliği sorumluluğunu netleştirmek hem de kullanım hatasından kaynaklanan kaza riskini azaltmak içindir. Bu şart varsa, yüklenici firma kendi personeline platform kullandıramaz, bizim sertifikalı operatörümüz makineyi bizzat kullanır ve iş bu şekilde teslim edilir.",
+            },
+            {
+                baslik: "Operatör sertifikası ve yeterlilik belgesi doğrulaması",
+                metin:
+                    "Operatörümüzün platform kullanım sertifikası ve iş güvenliği eğitim belgesi, talep edildiğinde şantiye yönetimine veya ihale kontrol ekibine sunulur; bazı büyük şantiyelerde bu belge girişte fiziksel olarak kontrol edilir ve şantiyenin kendi kayıt sistemine işlenir. Belge güncelliği (süresi dolmamış olması) düzenli olarak takip edilir; bu, hem yasal uyum hem şantiyenin denetim süreçlerinde sorun yaşamaması için önemlidir.",
+            },
+            {
+                baslik: "Operatörsüz kiralamanın şantiyede sınırlı kullanımı",
+                metin:
+                    "Küçük ölçekli veya özel sektör şantiyelerinde, deneyimli bir ekip üyesi varsa operatörsüz kiralama da mümkündür; ancak bu durumda kullanıcının platform kullanım eğitimi aldığını gösteren bir belge genellikle istenir. Büyük ölçekli veya kamu ihaleli projelerde bu seçenek neredeyse hiç sunulmaz çünkü şartname buna izin vermez; bu yüzden proje tipi netleşmeden operatörlü mü operatörsüz mü sorusuna kesin cevap verilmez.",
+            },
+            {
+                baslik: "Vardiya süresi ve operatör değişimi",
+                metin:
+                    "Büyük şantiyelerde iş bazen tek vardiyayı aşan bir süreye yayılabilir; bu durumda operatör değişimi (vardiya sonunda bir operatörün diğerine devretmesi) önceden planlanır ve devir sırasında makinenin o ana kadarki durumu (yakıt/şarj, arıza varsa) yeni operatöre aktarılır. Bu, işin sürekliliğini bozmadan operatör yorgunluğunu da önlemiş olur.",
+            },
+            {
+                baslik: "Operatörün şantiye iş güvenliği kurallarına uyumu",
+                metin:
+                    "Sertifikalı olması, operatörün otomatik olarak her şantiyenin kendine özgü kuralına aşina olduğu anlamına gelmez; bu yüzden operatörümüz her yeni şantiyede kısa bir oryantasyon sürecinden geçer ve şantiyenin giriş-çıkış, kişisel koruyucu donanım ve acil durum prosedürlerini öğrenir. Bu oryantasyon genellikle ilk gün birkaç saat sürer ve şantiye yönetimi tarafından yürütülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje tipine göre operatör gereksinimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı proje tiplerinde operatörlü kiralamanın zorunlu mu tercihe bağlı mı olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Proje tipi", "Operatör şartı", "Belge kontrolü", "Tipik gerekçe"],
+                    satirlar: [
+                        ["Kamu ihaleli TOKİ projesi", "Genellikle zorunlu", "Şantiye girişinde", "Şartname maddesi"],
+                        ["Büyük özel şantiye", "Sıklıkla zorunlu", "Yüklenici talebiyle", "Kurumsal iş güvenliği politikası"],
+                        ["Küçük özel şantiye", "Tercihe bağlı", "İş bazında", "Maliyet-esneklik dengesi"],
+                        ["Hazır beton santrali (kendi bakımı)", "Tercihe bağlı", "İş bazında", "Deneyimli personel varsa"],
+                    ],
+                },
+            },
+            {
+                baslik: "İhale şartnamesinde operatörlü ibaresi geçtiğinde ne yapılır",
+                paragraflar: [
+                    "Şartnamede 'operatörlü' ibaresi geçen bir projede teklif verirken, bu şartı doğrudan fiyata ve sözleşmeye yansıtırız; operatörsüz bir teklif sunulmaz çünkü bu, ihale şartına aykırı olur ve şantiyenin denetim sürecinde sorun çıkarabilir. Şartnamenin tam metnini paylaşmanız, hangi belgelerin (sertifika, sigorta, sağlık raporu gibi) talep edildiğini netleştirmemizi ve bunları önceden hazırlamamızı sağlar.",
+                    "Bazı ihalelerde operatör belgelerinin ihale dosyasına eklenmesi de istenebilir; bu durumda belgeleri işe başlamadan önce, ihale sürecinin zamanlamasına uygun şekilde iletiriz.",
+                ],
+            },
+            {
+                baslik: "Operatör değişikliği ve süreklilik",
+                paragraflar: [
+                    "Uzun süreli bir şantiye işinde aynı operatörün sürekli görev yapması, hem şantiye ekibiyle kurulan iş birliğinin devamlılığı hem de sahaya aşinalık açısından tercih edilir; ancak izin, hastalık veya vardiya değişimi gibi durumlarda operatör değişikliği kaçınılmaz olabilir. Böyle bir durumda yeni operatör, devraldığı işin durumunu (hangi noktalar tamamlandı, hangi noktalar kaldı) önceki operatörden veya şantiye şefinden teslim alarak işe devam eder; bu geçiş genellikle iş akışını kesintiye uğratmayacak şekilde planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İhale şartnamemizde 'operatörlü platform' yazıyor, bu tam olarak ne anlama geliyor?",
+                cevap:
+                    "Bu ibare, platformun yalnızca bizim sertifikalı operatörümüz tarafından kullanılabileceği, şantiye personelinizin makineyi bizzat kullanamayacağı anlamına gelir. Operatörümüz işi baştan sona kendisi yürütür, sizin ekibiniz yalnızca hangi noktalara erişim gerektiğini yönlendirir. Bu, hem sorumluluğu netleştirir hem şartname uyumluluğunu sağlar.",
+            },
+            {
+                soru: "Operatörünüzün sertifikasını ihale dosyasına ekleyebilir miyiz?",
+                cevap:
+                    "Evet, operatör sertifikası ve iş güvenliği eğitim belgesini talep etmeniz hâlinde paylaşırız; ihale sürecinin zamanlamasına göre belgeleri erken iletmemiz gerekiyorsa, bu ihtiyacı önceden bildirmeniz belgelerin zamanında hazır olmasını sağlar. Belgelerin güncel (süresi dolmamış) olmasına dikkat ederiz.",
+            },
+            {
+                soru: "Küçük bir özel şantiyeyiz, kendi ekibimiz platformu kullanabilir mi?",
+                cevap:
+                    "Küçük özel şantiyelerde bu genellikle mümkündür, ancak kullanıcının platform kullanım eğitimi aldığını gösteren bir belge istenir ve şantiyenizin kendi iş güvenliği politikasının buna izin vermesi gerekir. Politikanız veya sigortanız operatörlü kiralamayı şart koşuyorsa, bu durumda operatörsüz seçenek sunulmaz; bu konuyu ilk görüşmede netleştirmenizi öneririz.",
+            },
+            {
+                soru: "İşimiz vardiyayı aşan bir süreye yayılırsa operatör değişir mi, iş yarıda mı kalır?",
+                cevap:
+                    "İş yarıda kalmaz; vardiya sonunda bir operatörümüz görevi diğerine devreder ve makinenin o ana kadarki durumu (tamamlanan noktalar, varsa küçük arıza notu) yeni operatöre aktarılır. Bu devir işlemi genellikle kısa sürer ve iş akışını kesintiye uğratmayacak şekilde planlanır; sizin tarafınızdan ek bir işlem gerekmez.",
+            },
+            {
+                soru: "Operatörünüz bizim şantiyenin özel kurallarını (örneğin belirli bir güzergâh yasağı) nasıl öğrenir?",
+                cevap:
+                    "Operatörümüz her yeni şantiyede kısa bir oryantasyon sürecinden geçer; bu süreçte şantiyenizin giriş-çıkış prosedürü, kişisel koruyucu donanım şartı ve varsa özel güzergâh kısıtlamaları öğrenilir. Bu oryantasyonu genellikle şantiye yönetiminiz yürütür, biz operatörümüzün bu sürece tam katılmasını sağlarız; özel bir kural varsa işe başlamadan önce bize de ayrıca bildirmeniz faydalı olur.",
+            },
+            {
+                soru: "Operatörlü kiralama operatörsüze göre ne kadar daha pahalıya geliyor?",
+                cevap:
+                    "Fark, operatörün çalışma süresine ve işin kapsamına göre değişir, sabit bir oran vermek doğru olmaz; ancak kamu ihaleli projelerde bu fark genellikle şartname zaten operatörlü kiralamayı zorunlu kıldığı için bir karşılaştırma konusu olmaktan çıkar. Özel sektör şantiyelerinde, operatörlü ve operatörsüz seçeneklerin maliyet farkını işin kapsamını gördükten sonra netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kamu ihaleli toplu konut/TOKİ projelerinde teknik şartnamelerin yükseklikte çalışma ekipmanı için genellikle operatörlü kiralama şartı koştuğu, inşaat ve kamu ihale sektöründe genel bilinen bir pratiktir; belirli bir ihale veya proje adı kullanılmamıştır. Belge doğrulama ve oryantasyon süreci firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Bloklu Toplu Konut Şantiyesinde Çok Noktalı Rota Bakım Platformu",
+        giris:
+            "Büyük bir toplu konut projesi, tek bir bina değil, genellikle onlarca bloktan oluşan geniş bir alana yayılır; bu bloklarda bitirme işleri aynı anda değil, kademeli bir teslim programına göre ilerler — bir grup blok bu ay teslim edilirken, başka bir grup henüz sıva aşamasındadır. Bu durum, tek bir platformun tek bir noktada değil, şantiye içindeki birden fazla blok arasında önceden planlanmış bir rotayla dolaşmasını gerektirir. Bu sayfa, çok noktalı rota bakım hizmetimizin toplu konut şantiyelerindeki bu kullanımını — rota sıralamasının nasıl kurulduğunu ve teslim programına göre nasıl güncellendiğini — anlatır.",
+        maddeler: [
+            {
+                baslik: "Blok teslim önceliğine göre rota sıralaması",
+                metin:
+                    "Bir toplu konut projesinde bloklar genellikle teslim sırasına göre gruplanır; ilk teslim edilecek bloklar cephe ve ortak alan işlerinde önceliklidir. Platform rotamız bu önceliğe göre kurulur — önce teslim tarihine en yakın bloklar dolaşılır, ardından daha geriden gelen bloklara geçilir. Bu sıralama, şantiye yönetiminin güncel teslim programına göre haftalık olarak yeniden değerlendirilir.",
+            },
+            {
+                baslik: "Blok arası taşıma süresi ve günlük iş kapasitesi",
+                metin:
+                    "Bloklar arası mesafe kısa olsa da, platformun bir bloktan diğerine taşınması (özellikle şantiye içi malzeme trafiğiyle paylaşılan dar yollarda) zaman alır; bu taşıma süresi, bir günde kaç blok ziyaret edilebileceğini doğrudan etkiler. Rota planlanırken, blok başına gereken iş süresi ile bloklar arası taşıma süresi birlikte hesaplanır; günlük kapasite bu iki değişkene göre belirlenir.",
+            },
+            {
+                baslik: "Aynı anda birden fazla makine ile paralel rota",
+                metin:
+                    "Şantiye çok büyükse veya teslim programı sıkışıksa, tek bir platformun tüm blokları tek başına dolaşması yetersiz kalabilir; bu durumda birden fazla makine, şantiyeyi bölgelere ayırarak paralel rotalar izler. Her makinenin kendi bölgesi ve kendi rota sırası olur; bu, toplam süreyi kısaltır ama koordinasyon ihtiyacını artırır.",
+            },
+            {
+                baslik: "Beklenmedik değişiklik: teslim tarihi öne alınan blok",
+                metin:
+                    "Şantiye planları sabit kalmaz; bazen bir blok, satış veya kurumsal nedenlerle beklenenden önce teslim edilmek istenebilir. Bu tip bir değişiklik bildirildiğinde, mevcut rota bu bloğu öne alacak şekilde yeniden düzenlenir; bu, planlanan diğer blokların sırasını kısmen kaydırabilir ama acil önceliğe göre esnetilir.",
+            },
+            {
+                baslik: "Rota sonunda toplu raporlama",
+                metin:
+                    "Çok noktalı bir rota tamamlandığında, hangi bloklarda hangi işlerin yapıldığı, hangi noktaların ek iş gerektirdiği toplu bir şekilde şantiye yönetimine iletilir; bu, tek tek blok raporları yerine bütün rotanın özetini tek seferde görmelerini sağlar. Bu raporlama, bir sonraki rota turunun planlanmasında da referans olarak kullanılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota planlamasında dikkate alınan değişkenler",
+                paragraflar: [
+                    "Aşağıdaki tablo, çok bloklu şantiyede rota planlamasını belirleyen değişkenleri özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Değişken", "Etkisi", "Güncelleme sıklığı", "Kim belirler"],
+                    satirlar: [
+                        ["Blok teslim önceliği", "Ziyaret sırası", "Haftalık", "Şantiye yönetimi"],
+                        ["Bloklar arası mesafe", "Taşıma süresi", "Sabit (şantiye düzenine göre)", "Saha planına göre"],
+                        ["Blok başına iş süresi", "Günlük kapasite", "İşe göre değişken", "Ortak değerlendirme"],
+                        ["Acil öncelik değişikliği", "Rota yeniden sıralama", "Anlık", "Şantiye yönetimi bildirir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Paralel rota koordinasyonu nasıl işler",
+                paragraflar: [
+                    "Birden fazla makine paralel çalıştığında, her makinenin operatörü kendi bölgesindeki blokları takip eder ama şantiye genelindeki koordinasyonu tek bir kişi (genellikle bizim saha sorumlumuz) üstlenir; bu kişi, hangi makinenin hangi blokta olduğunu ve rotalar arasında bir çakışma olup olmadığını takip eder. Şantiye trafiğinin yoğun olduğu saatlerde iki makinenin aynı dar yolu aynı anda kullanmaya çalışması gibi durumlar, bu koordinasyonla önceden önlenir.",
+                    "Şantiye yönetiminizin kendi saha koordinatörüyle bizim saha sorumlumuz arasında doğrudan bir iletişim hattı kurulması, özellikle büyük ve karmaşık projelerde rota değişikliklerinin hızlı iletilmesini sağlar.",
+                ],
+            },
+            {
+                baslik: "Rota dışı acil talep nasıl karşılanır",
+                paragraflar: [
+                    "Planlanan rota dışında beklenmedik bir ihtiyaç (örneğin bir blokta acil bir aydınlatma arızası) ortaya çıktığında, bu talebi mevcut rotanın en yakın uğrağına ekleyerek veya rotayı kısa süreliğine sapmaya yönlendirerek karşılarız. Bu, planlanan sırayı biraz geciktirebilir ama acil ihtiyacı beklemeden çözer; sık tekrarlanan acil talepler, bir sonraki rota planlamasında ayrı bir kalem olarak değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Projemizde otuza yakın blok var, tek platform hepsine yetişir mi?",
+                cevap:
+                    "Blok sayısı bu kadar yüksekse ve teslim programı sıkışıksa, tek platform muhtemelen yetersiz kalır; bu durumda birden fazla makineyi paralel rotalarla çalıştırmayı öneririz. Kesin sayı, blok başına gereken iş süresi ve teslim takviminize göre hesaplanır; ilk görüşmede bu hesabı birlikte yaparız.",
+            },
+            {
+                soru: "Bir blok beklenmedik şekilde öne alındı, rotayı nasıl güncelliyorsunuz?",
+                cevap:
+                    "Bu bilgiyi aldığımız an mevcut rotayı yeniden düzenleriz ve öne alınan bloğu önceliklendiririz; bu, planlanan diğer blokların sırasını kısmen kaydırabilir ama acil önceliğe göre esnetiriz. Bu tip değişiklikleri mümkün olduğunca erken bildirmeniz, rotayı daha az sarsıntıyla güncellememizi sağlar.",
+            },
+            {
+                soru: "İki makineyi paralel çalıştırırken aralarında çakışma olur mu?",
+                cevap:
+                    "Çakışma riskini azaltmak için, paralel çalışan makinelerin bölgelerini ve rotalarını bizim saha sorumlumuz merkezi olarak takip eder; dar bir yolun aynı anda iki makine tarafından kullanılması gibi durumlar bu koordinasyonla önceden planlanarak önlenir. Şantiyenizin kendi trafik yoğun saatlerini bize bildirmeniz, bu koordinasyonu daha isabetli kurmamızı sağlar.",
+            },
+            {
+                soru: "Rota sırasında bir blokta beklenmeyen ek iş çıkarsa, rota sonraki blokları kaçırır mı?",
+                cevap:
+                    "Bir blokta iş beklenenden uzun sürerse, sonraki blokların sırası biraz gecikebilir ama tamamen atlanmaz; günlük programı gerçekçi tutmak için genellikle blok başına bir miktar esneme payı bırakırız. Sık sık beklenmedik ek iş çıkıyorsa, bunu bir sonraki rota planlamasında blok başına ayrılan süreyi artırarak dikkate alırız.",
+            },
+            {
+                soru: "Rota tamamlandığında hangi blokta ne yapıldığını nasıl öğreniyoruz?",
+                cevap:
+                    "Rota sonunda hangi bloklarda hangi işlerin tamamlandığı ve hangi noktaların ek iş gerektirdiği toplu bir özet hâlinde şantiye yönetiminize iletilir; bu, tek tek blok raporlarını takip etmek yerine bütün turun sonucunu tek seferde görmenizi sağlar. İsterseniz bu özeti belirli bir formatta (örneğin blok listesi ve durum) hazırlamamızı da talep edebilirsiniz.",
+            },
+            {
+                soru: "Şantiyemizin kendi saha koordinatörü var, sizinle nasıl iletişime geçiyor?",
+                cevap:
+                    "Büyük projelerde saha koordinatörünüzle bizim saha sorumlumuz arasında doğrudan bir iletişim hattı kurulmasını öneririz; bu, rota değişikliklerinin ve acil taleplerin hızlı iletilmesini sağlar. Bu iletişim genellikle telefon veya mesaj üzerinden yürür, resmi bir sistem gerektirmez ama düzenli ve net olması önemlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Büyük toplu konut projelerinin çok sayıda bloktan oluştuğu ve tesliminin kademeli bir programa göre ilerlediği, inşaat sektöründe genel bilinen bir pratiktir; belirli bir proje veya blok sayısı uydurulmamıştır. Rota planlaması ve paralel makine koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Hafriyat ve Temel Aşamasındaki Şantiyede Zor Zemin Platform Kiralama",
+        giris:
+            "Bir inşaat şantiyesinin en zorlu zemin koşulu, genellikle işin en başında — hafriyat ve temel aşamasında — ortaya çıkar; bu dönemde arsa henüz sıkıştırılmış bir yol veya döşenmiş bir zemine sahip değildir, hafriyat fazlası toprak yığınları, kazı çukurları ve mevsime göre çamurlaşan geçici yollar sahayı kaplar. Standart tekerlekli bir platform bu koşullarda ya batar ya devrilme riski taşır; bu yüzden hafriyat-temel aşamasındaki erişim işleri, dört çeker tahrikli ve düzensiz zemine uygun arazi tipi makine sınıfını gerektirir. Bu sayfa, zor zemin platform kiralamamızın şantiyenin bu en kritik erken aşamasındaki kullanımını anlatır; şantiye ilerleyip zemin sabitlendiğinde diğer standart hizmet sayfalarımız devreye girer.",
+        maddeler: [
+            {
+                baslik: "Hafriyat çukuru çevresinde erişim",
+                metin:
+                    "Temel kazısı sürerken, kazı çukurunun çevresi genellikle çıkarılan toprakla yığılı ve düzensizdir; bu bölgede yapılacak bir iş (örneğin çukur kenarındaki geçici destek elemanının kontrolü) standart bir zeminde değil, eğimli ve gevşek toprak üzerinde erişim gerektirir. Arazi tipi platform, dört çeker tahriki ve geniş lastikleriyle bu gevşek zeminde diğer sınıflara göre daha güvenli ilerler; yine de her zeminde mutlak güvenlik garantisi verilmez, keşif şarttır.",
+            },
+            {
+                baslik: "Mevsime göre çamurlaşan geçici şantiye yolu",
+                metin:
+                    "Yağışlı dönemde, henüz sıkıştırılmamış bir hafriyat sahasının zemini hızla çamurlaşır ve standart tekerlekli araçların ilerlemesini zorlaştırır; bu koşulda makinenin sahaya girip giremeyeceği, zeminin o günkü durumuna bağlıdır. Aracımız sahaya yaklaşmadan önce zemin durumunu şantiye şefinden teyit eder; çok yumuşak bir zeminde iş, zemin biraz kuruyana veya geçici bir dolgu yapılana kadar ertelenebilir.",
+            },
+            {
+                baslik: "Eğimli arsa ve kademeli platform işi",
+                metin:
+                    "Bazı toplu konut arsaları düz değil, hafif eğimli bir topografyaya sahiptir; bu tip arsalarda platformun düz durabileceği bir konum bulmak, eğimin yönüne ve derecesine göre değişir. Arazi tipi platformun kendini düzeltme (self-leveling) veya geniş ayak açıklığı gibi özellikleri, orta dereceli eğimlerde çalışmayı mümkün kılar; aşırı eğimli noktalarda ise önce zeminin bir kısmının düzeltilmesi istenir.",
+            },
+            {
+                baslik: "Hafriyat makineleriyle aynı sahada güvenli mesafe",
+                metin:
+                    "Hafriyat aşamasında sahada ekskavatör, dozer ve kamyon gibi büyük hafriyat makineleri de çalışır; platformumuzun bu makinelerle aynı anda aynı bölgede bulunması, çarpışma ve devrilme riskini artırır. Bu yüzden platform işi, mümkünse hafriyat makinelerinin o bölgede aktif çalışmadığı bir zaman dilimine veya farklı bir bölgeye denk getirilir; bu koordinasyon şantiye şefiyle önceden kurulur.",
+            },
+            {
+                baslik: "Zeminin taşıma gücü belirsizken kademeli yaklaşım",
+                metin:
+                    "Zemin taşıma gücü net olarak bilinmiyorsa (örneğin yeni doldurulmuş bir alan), platform doğrudan tam yükle ilerlemek yerine önce kısa mesafelerde ve düşük hızda kademeli bir yaklaşım uygular; bu, zeminin ani bir şekilde çökmesi riskini erken fark etmeyi sağlar. Zemin güvenilir bulunmazsa iş durdurulur ve şantiye şefinden zemin iyileştirmesi istenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hafriyat-temel aşamasında zemin tipi ve makine kararı",
+                paragraflar: [
+                    "Aşağıdaki tablo, şantiyenin erken aşamasında karşılaşılan zemin tiplerini ve bunlara uygun yaklaşımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Risk", "Önerilen yaklaşım", "Zamanlama notu"],
+                    satirlar: [
+                        ["Kazı çukuru çevresi", "Gevşek, eğimli toprak", "Dört çeker arazi tipi", "Hafriyat makineleri dışı saat"],
+                        ["Çamurlaşan geçici yol", "Batma, kayma", "Zemin teyidi sonrası giriş", "Yağış sonrası ertelenebilir"],
+                        ["Eğimli arsa", "Devrilme riski", "Kendini düzeltme özellikli sınıf", "Eğim ölçümü sonrası"],
+                        ["Yeni doldurulmuş alan", "Belirsiz taşıma gücü", "Kademeli düşük hız yaklaşım", "Zemin testi öncelikli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hafriyat ekibiyle zaman ve alan koordinasyonu",
+                paragraflar: [
+                    "Hafriyat aşamasındaki bir şantiyede platform işimizin güvenli ilerlemesi, büyük ölçüde hafriyat ekibiyle kurulan koordinasyona bağlıdır; ekskavatör veya dozer aktif çalışırken aynı bölgede platform çalıştırmak yerine, ya farklı bir bölgeye ya da hafriyat makinelerinin ara verdiği bir zaman dilimine denk getiririz. Bu koordinasyon, iş başlamadan önce şantiye şefiyle günlük hafriyat programı üzerinden konuşularak kurulur.",
+                    "Hafriyat programı günden güne değişebileceği için, bu koordinasyonu tek seferlik değil, her ziyaret öncesi güncel olarak teyit edilen bir süreç olarak yürütürüz.",
+                ],
+            },
+            {
+                baslik: "Zemin iyileştirme önerisi ve şantiyenin rolü",
+                paragraflar: [
+                    "Zemin taşıma gücü yetersiz bulunduğunda, platformun kendisi bu sorunu çözemez; çözüm genellikle şantiyenin geçici bir dolgu, plaka döşeme veya sıkıştırma yapmasıdır. Bu tip bir iyileştirme önerildiğinde, hangi alanın iyileştirilmesi gerektiğini net biçimde işaretleriz ve iyileştirme tamamlandıktan sonra zemini yeniden değerlendiririz. Bu adım atlanıp doğrudan riskli zemine makine sokulmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hafriyat çukurunun hemen kenarında çalışmamız gerekiyor, güvenli mi?",
+                cevap:
+                    "Çukur kenarı, çıkarılan toprağın gevşekliği ve olası çökme riski nedeniyle dikkat gerektiren bir bölgedir; arazi tipi platformumuz bu tip zeminlerde standart sınıflara göre daha uygun olsa da, kesin güvenlik zeminin o günkü durumuna bağlıdır. Sahaya varmadan önce ve varır varmaz zemin gözle kontrol edilir; risk yüksek görülürse, çukurdan güvenli mesafede kalacak bir konum tercih edilir.",
+            },
+            {
+                soru: "Yağmur yağdı, şantiye sahası çamur içinde; makineniz gelebilir mi?",
+                cevap:
+                    "Bu, zeminin ne kadar yumuşadığına bağlıdır; çok yumuşak ve batma riski taşıyan bir zeminde makineyi sokmayız çünkü hem makinenin hem operatörün güvenliği risk altına girer. Zemin durumunu şantiye şefinizden teyit ederiz; gerekirse işi zemin biraz kuruyana kadar birkaç gün erteleriz veya geçici bir plaka döşenmesini öneririz.",
+            },
+            {
+                soru: "Arsamız hafif eğimli, platform bu eğimde düz durabilir mi?",
+                cevap:
+                    "Orta dereceli eğimlerde arazi tipi platformların kendini düzeltme özelliği genellikle yeterlidir, ama eğim derecesi ölçülmeden kesin bir cevap veremeyiz. İlk keşifte eğimi ölçer, uygun makine sınıfını buna göre öneririz; eğim çok dikse, önce zeminin bir kısmının düzeltilmesini önerebiliriz.",
+            },
+            {
+                soru: "Hafriyat makineleri sahada sürekli çalışıyor, platformumuz onlarla çarpışma riski taşır mı?",
+                cevap:
+                    "Aynı bölgede aynı anda çalışmak gerçek bir risk taşır, bu yüzden işimizi mümkünse hafriyat makinelerinin aktif olmadığı bir zaman dilimine veya farklı bir bölgeye denk getiririz. Bu koordinasyonu şantiye şefinizle günlük hafriyat programı üzerinden kurarız; program günden güne değişebileceği için her ziyaret öncesi güncel durumu teyit ederiz.",
+            },
+            {
+                soru: "Zeminin taşıma gücünden emin değiliz, nasıl test ediyorsunuz?",
+                cevap:
+                    "Biz resmi bir zemin testi yapmayız; bunun yerine platformu kademeli, düşük hızlı ve kısa mesafeli bir yaklaşımla ilerletip zeminin tepkisini gözlemleriz. Zemin şüpheli bulunursa iş durdurulur ve şantiyenizin geoteknik veya saha mühendisinin değerlendirmesini önereriz; resmi bir test raporu varsa, bunu bize önceden paylaşmanız işimizi hızlandırır.",
+            },
+            {
+                soru: "Zemin iyileştirme gerekiyorsa bunu siz mi yapıyorsunuz, biz mi?",
+                cevap:
+                    "Zemin iyileştirme (dolgu, plaka döşeme, sıkıştırma) genellikle şantiyenin kendi kapsamındadır, biz bu işi üstlenmeyiz; ancak hangi alanın iyileştirilmesi gerektiğini net biçimde işaretleyip önerimizi paylaşırız. İyileştirme tamamlandıktan sonra zemini yeniden değerlendirip işe başlarız; iyileştirme yapılmadan riskli zemine makine sokmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnşaat şantiyelerinin hafriyat ve temel aşamasında henüz sıkıştırılmamış, düzensiz ve mevsime göre çamurlaşan bir zemine sahip olduğu, inşaat sektöründe genel bilinen bir pratiktir; belirli bir şantiye veya arsa adı kullanılmamıştır. Zemin teyidi ve hafriyat ekibiyle koordinasyon firma pratiğidir.",
+    },
 };

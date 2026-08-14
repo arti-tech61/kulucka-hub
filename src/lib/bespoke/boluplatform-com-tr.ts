@@ -837,4 +837,1102 @@ export const BOLUPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Özgün içerik 2026-08-13 tarihinde hazırlandı. Dörtdivan'ın Köroğlu Dağları eteğindeki küçük ilçe niteliği ile dağ eteği tesis ve köy konağı işleri uygulama belgesindeki çapadır. Belirli tesis, köy, rakım, mesafe, kapasite, süre veya rakam kullanılmamıştır.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HİZMET SAYFALARI — açı: BOLU SU/İÇECEK ŞİŞELEME SANAYİ
+    // Mudurnu ve Bolu merkez çevresindeki kaynak suyu dolum tesisleri,
+    // dolum hattı üstü erişim, hijyen/temiz alan kısıtı, palet-depo
+    // lojistiği ve tanker/TIR yükleme rampası ekseninde yazıldı.
+    // Kardeş dosya boluplatform-net.ts genel Bolu + Kartalkaya kayak/otel
+    // eksenindedir; burada cümle/tablo/SSS tekrarı yoktur.
+    // ═══════════════════════════════════════════════════════════════════
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bolu'da Dolum Hattı İçi Dar Alanlar İçin Örümcek Platform Kiralama",
+        giris:
+            "Bir su dolum tesisinin iç mimarisi, boş bir depodan çok farklı çalışır: yıkama-durulama-dolum-kapama hattı, üstünde geçen boru ve konveyör köprüleri, arada kalan dar servis koridorları ve temiz alan bölmeleriyle örülüdür. Standart bir makaslı ya da eklemli platform bu hatların arasına giremez; şase genişliği yeterli olsa bile hat üstündeki boru köprüsü tavan yüksekliğini bloke eder. Örümcek platform burada devreye girer — makine parçalara ayrılıp hat kenarındaki kapıdan içeri taşınır, hattın hemen yanında monte edilir ve iş bittiğinde aynı şekilde sökülüp çıkarılır. Mudurnu ve Bolu merkez çevresindeki dolum tesislerinde bu ihtiyaç genellikle üç noktada ortaya çıkar: dolum hattı üstündeki aydınlatma ve sensör bakımı, boru köprüsü çevresindeki yalıtım kontrolü ve iki hat arasındaki dar servis koridorunda yapılan elektrik-otomasyon işleri. Bu sayfa, örümcek platformun dolum tesisi içinde hangi işlerde tercih edildiğini ve hijyen kısıtlı alanlarda nasıl hazırlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Hat üstü boru köprüsü ve aydınlatma bakımı",
+                metin:
+                    "Dolum hatlarının üzerinden geçen boru köprüleri ve kablo tavaları, tavan yüksekliğini standart bir platformun giremeyeceği kadar daraltır. Örümcek platform parçalı yapısı sayesinde bu dar aralığa sığar; hattın yanına kurulup boru köprüsü altındaki aydınlatma armatürüne, sensöre veya kablo bağlantısına erişir. Hat çalışırken değil, planlı duruş penceresinde kurulum yapılır çünkü makinenin ayak izi hat koridorunun bir kısmını geçici olarak kapatır.",
+            },
+            {
+                baslik: "Temiz alan girişinde ekipman hazırlığı",
+                metin:
+                    "Dolum salonunun temiz alan olarak ayrılan bölümüne giren her ekipman, tesisin hijyen protokolüne göre hazırlanır. Örümcek platformun parçaları temiz alana sokulmadan önce yağ sızıntısı, toz ve kir açısından kontrol edilir; gerekiyorsa yüzeyi silinir. Bu hazırlık, makinenin kendisinden çok tesisin ürün güvenliği kaydını korumak içindir — dolum hattına yakın bir alanda çalışan her ekipmanın geçmişi ve temizlik durumu tesis kayıtlarına geçer.",
+            },
+            {
+                baslik: "Dar servis koridorunda elektrik-otomasyon erişimi",
+                metin:
+                    "İki dolum hattı arasında kalan servis koridoru, genellikle bir kişinin geçebileceği genişliktedir ama otomasyon panoları ve kablo güzergâhları da bu koridordan geçer. Panoya veya üst noktadaki bir sensöre erişmek gerektiğinde örümcek platform, koridora parçalar hâlinde taşınıp orada kurulur. Elektrik işlerinde makine gövdesinin topraklama durumu ve yalıtım seviyesi, tesisin elektrik sorumlusuyla birlikte teyit edilir.",
+            },
+            {
+                baslik: "Kurulum süresi ile duruş penceresinin eşleşmesi",
+                metin:
+                    "Dolum hattının planlı duruş penceresi genellikle sınırlıdır; örümcek platformun kurulum ve söküm süresi bu pencereye sığmalıdır. Kurulum, tekerlekli bir platforma göre daha uzun sürdüğü için işi planlarken duruş süresini önceden netleştiririz — kısa bir duruşta örümcek platform yerine mevcut hat kenarındaki sabit erişim noktaları kullanılabilir, uzun bir duruşta örümcek platform tam kapsamlı bakımı mümkün kılar.",
+            },
+            {
+                baslik: "Palet ve ambalaj hattı çevresindeki dar aralıklar",
+                metin:
+                    "Şişeleme sonrası paketleme ve paletleme hattı, sarma makinesi ile konveyör arasında dar aralıklar bırakır. Bu aralıklarda üst nokta bakımı gerektiğinde örümcek platform, makinenin durduğu vardiya arası pencerede kurulur ve sarma makinesinin üst mekanizmasına veya konveyör üstü sensörlere erişim sağlar. Ambalaj tozu ve film artığı nedeniyle makine ayaklarının altına koruyucu örtü serilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dolum tesisinde dar alan tipi ve örümcek platform tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Bolu çevresindeki dolum tesislerinde en sık karşılaştığımız dar alan tiplerini ve yaklaşımımızı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Kısıt", "Hazırlık", "Zamanlama"],
+                    satirlar: [
+                        ["Hat üstü boru köprüsü", "Düşük tavan yüksekliği", "Parçalı taşıma", "Planlı hat duruşu"],
+                        ["Temiz alan girişi", "Hijyen protokolü", "Yüzey kontrolü/temizlik", "Tesis onayı sonrası"],
+                        ["İki hat arası koridor", "Dar geçiş genişliği", "Topraklama/yalıtım kontrolü", "Vardiya arası"],
+                        ["Paletleme-sarma hattı", "Toz, film artığı", "Ayak koruyucu örtü", "Hat durma penceresi"],
+                        ["Depo içi raf arası", "Sınırlı manevra alanı", "Zemin işaretleme", "Sevkiyat dışı saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hijyen kısıtlı alanda ekipman kabul süreci",
+                paragraflar: [
+                    "Gıda ve içecek üretimi yapan tesislerde, dışarıdan gelen her ekipman belirli bir kabul sürecinden geçer. Bu süreç tesisten tesise farklılık gösterir ama ortak nokta şudur: ekipmanın temizlik durumu, yağ ve gres kullanımı, olası sızıntı riski önceden değerlendirilir. Örümcek platformu temiz alana sokmadan önce tesisin kalite veya hijyen sorumlusuyla birlikte bu kontrolü yaparız; onay olmadan makineyi temiz alan sınırının içine geçirmeyiz.",
+                    "Bazı tesislerde makinenin sadece belirli bir bölümü temiz alan sınırındadır — örneğin sepet temiz alanda, şase koridorun dışındadır. Bu durumda makine üzerindeki hangi parçanın ek hijyen önlemi gerektirdiği net biçimde işaretlenir ve operatör buna göre hareket eder.",
+                ],
+            },
+            {
+                baslik: "Vardiya arası ve planlı duruş penceresinin kullanımı",
+                paragraflar: [
+                    "Dolum hattı sürekli çalıştığı için bakım işleri genellikle vardiya arası kısa pencerelere veya haftalık planlı duruşa sıkıştırılır. Bu pencerede birden fazla küçük iş varsa (aydınlatma, sensör, kablo kontrolü) hepsini aynı kurulumda toplamaya çalışırız; makineyi sökmeden önce iş listesinin tamamlandığından emin oluruz çünkü aynı gün ikinci bir kurulum genellikle mümkün olmaz.",
+                    "Planlı duruş tarihi değiştiğinde bize erken haber verilmesi, kurulum-söküm süresini doğru planlamamız için önemlidir. Son dakika duruş kısalması durumunda öncelik sırasına göre en kritik işi tamamlayıp geri kalanını bir sonraki pencereye erteleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform dolum hattının çalışmasını durdurur mu?",
+                cevap:
+                    "Kurulum ve söküm sırasında makinenin ayak izi kadar bir alan geçici olarak kapanır; bu genellikle hattın tamamını değil, çalışılan bölümü etkiler. Hat tamamen durdurulmadan çalışılabilecek işler varsa bunu önceden değerlendiririz, ama boru köprüsü veya üst nokta gibi hat üzerinde doğrudan çalışma gerektiren işlerde planlı duruş penceresi beklenir. İş kapsamını netleştirdiğinizde hattın ne kadar süre ve hangi ölçüde etkileneceğini önceden söyleyebiliriz.",
+            },
+            {
+                soru: "Temiz alana giren makine için ayrıca bir belge mi gerekiyor?",
+                cevap:
+                    "Çoğu tesiste kendi hijyen prosedürü vardır ve bu prosedür bize önceden iletildiğinde ona göre hazırlanırız. Genel yaklaşımımız, makinenin temizlik durumunu tesise girmeden önce kontrol etmek ve gerekiyorsa yüzeyini silmektir; bazı tesisler ayrıca yazılı bir ekipman kabul formu ister. Tesisinizin kendi prosedürü varsa bunu paylaşmanız, sahada gecikme yaşamadan hazırlanmamızı sağlar.",
+            },
+            {
+                soru: "Kurulum süresi dolum hattının duruş penceresine sığmazsa ne olur?",
+                cevap:
+                    "Bu durumda önceden değerlendirme yaparız. Duruş penceresi kısaysa, işin bir kısmını o pencerede tamamlayıp geri kalanını sonraki pencereye bırakabiliriz ya da örümcek platform yerine daha hızlı kurulan bir alternatif öneririz. Amacımız, hattın gereğinden uzun süre durmasına neden olmadan işi tamamlamaktır; bu yüzden iş planlamasını yaparken duruş süresini netleştirmenizi isteriz.",
+            },
+            {
+                soru: "Ambalaj tozu veya film artığı makineye zarar verir mi?",
+                cevap:
+                    "Doğrudan bir zarar riski düşüktür ama biriken toz zamanla hareketli aksamı etkileyebilir. Paletleme-sarma hattı çevresinde çalışırken makine ayaklarının altına koruyucu örtü seriyoruz ve iş bitiminde makineyi tesisten çıkarmadan önce yüzeyini temizliyoruz. Bu hem makinenin bir sonraki işte temiz gitmesini hem de tesisin diğer alanlarına toz taşınmamasını sağlıyor.",
+            },
+            {
+                soru: "Operatör tesisin gıda güvenliği kurallarını biliyor mu?",
+                cevap:
+                    "Operatörümüz genel hijyen kısıtlı alan çalışma kurallarına aşinadır ama her tesisin kendine özgü kuralları farklı olabilir. Sahaya gelmeden önce tesisin temiz alan sınırlarını, giriş-çıkış prosedürünü ve varsa özel giyim gereksinimini bize iletmenizi isteriz; bu bilgiyle operatörümüz sahada tesis kurallarına göre hareket eder. Belirsizlik varsa ilk ziyarette tesis sorumlusuyla birlikte kuralları netleştiririz.",
+            },
+            {
+                soru: "Dar koridorda makine devrilme riski var mı?",
+                cevap:
+                    "Örümcek platformun geniş açılabilen ayakları, dar bir koridorda bile geniş bir taban oturur; kurulum öncesi zemin düzlüğü ve yük taşıma kapasitesi kontrol edilir. Koridor genişliği makinenin ayaklarının tam açılmasına izin vermiyorsa, daralmış ayak açıklığına uygun yük sınırı kullanılır ve sepet kapasitesi buna göre düşürülür. Koridor ölçünüzü paylaşırsanız, ayak açıklığı ve yük sınırını önceden hesaplayıp size bildirebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu ve Mudurnu çevresinin kaynak suyu dolum tesisleriyle bilinen bir bölge olması, gıda/içecek üretiminde hijyen kısıtlı temiz alan uygulaması ve dolum hattı üstü boru-kablo köprüsü mimarisi kamuya açık genel bilgidir; örümcek platform kurulum yöntemi ve hijyen kabul süreci firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bolu'da Şişe Suyu Tesisleri İçin Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bir dolum tesisine platform teslimatı, sıradan bir şantiye teslimatından farklı işler: tesisin kendi TIR ve tanker trafiği zaten yoğundur, yükleme rampaları palet sevkiyatına ayrılmıştır ve platform taşıyan aracın bu trafiğe karışmadan içeri girip çıkması gerekir. Mudurnu ve Bolu merkez çevresindeki dolum tesislerinde sevkiyat programı genellikle güne yayılmış birden fazla TIR yükleme saatine göre kuruludur; bizim platform teslimatımız bu programı aksatmayacak bir saate yerleştirilir. Teslimat noktası da önemlidir — makine, sevkiyat rampasından değil, tesisin ayrı bir servis girişinden veya boş bir üretim alanı yakınından indirilir. Bu sayfa, dolum tesisine platform teslimatının nasıl planlandığını, tanker-TIR trafiğiyle çakışmayı önleme yöntemini ve tesis içi taşıma güzergâhının nasıl belirlendiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Sevkiyat rampasıyla çakışmayan teslimat saati",
+                metin:
+                    "Dolum tesislerinin yükleme rampaları, günün büyük bölümünde TIR ve tanker trafiğiyle doludur; platform taşıyan aracın bu rampalara yaklaşması hem trafiği yavaşlatır hem güvenlik riski oluşturur. Teslimat talebini aldığımızda tesisin sevkiyat yoğun saatlerini sorarız ve platformu bu saatlerin dışına, mümkünse sabah erken veya öğle arası gibi görece sakin bir dilime yerleştiririz.",
+            },
+            {
+                baslik: "Ayrı servis girişi ve iç güzergâh belirleme",
+                metin:
+                    "Çoğu dolum tesisinde ana sevkiyat kapısından ayrı bir servis veya personel girişi bulunur; platform teslimatını mümkün olduğunca bu girişten yaparız. Tesis içindeki taşıma güzergâhı — hangi yoldan geçileceği, hangi kapılardan girileceği — teslimattan önce tesis sorumlusuyla netleştirilir çünkü üretim alanına yakın güzergâhlarda hijyen ve güvenlik kısıtları farklıdır.",
+            },
+            {
+                baslik: "Palet istifleme alanı yakınında indirme",
+                metin:
+                    "Platform genellikle depo veya palet istifleme alanına yakın bir noktaya indirilir çünkü buradaki işler (raf üstü bakım, aydınlatma, çatı erişimi) bu bölgede yoğunlaşır. İndirme noktası seçilirken palet trafiğinin yoğun olduğu koridorlardan kaçınılır; forklift güzergâhıyla platform indirme alanı birbirinden ayrılır.",
+            },
+            {
+                baslik: "Mudurnu-Bolu merkez arası mesafe ve zamanlama",
+                metin:
+                    "Mudurnu çevresindeki tesislere teslimat, Bolu merkezdeki tesislere göre daha uzun bir yol süresi gerektirir; bu fark teslimat saatini planlarken hesaba katılır. Uzun mesafeli teslimatlarda özellikle kış aylarında yol ve hava koşulu önceden kontrol edilir, teslimat saati buna göre erkene alınabilir.",
+            },
+            {
+                baslik: "Tesis güvenlik ve giriş prosedürüne uyum",
+                metin:
+                    "Gıda üretimi yapan tesislerin çoğunda araç ve şoför girişi için ayrı bir güvenlik kaydı prosedürü vardır — plaka bildirimi, şoför kimlik kontrolü, bazen araç dezenfeksiyonu. Teslimat öncesi bu prosedürü tesis sorumlusundan öğreniriz ve şoförümüzü buna göre bilgilendiririz; sahada beklenmedik bir gecikme yaşanmaması için bu adım teslimat gününden önce tamamlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dolum tesisine teslimatta zaman dilimi ve öncelik",
+                paragraflar: [
+                    "Aşağıdaki tablo, tesis içi trafik yoğunluğuna göre önerdiğimiz teslimat zaman dilimlerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zaman dilimi", "Tesis trafiği", "Uygunluk", "Not"],
+                    satirlar: [
+                        ["Sabah erken (tanker öncesi)", "Düşük-orta", "Yüksek", "Vardiya başlamadan önce"],
+                        ["Öğle arası", "Değişken", "Orta", "Sevkiyat programına göre değişir"],
+                        ["TIR yükleme saatleri", "Yüksek", "Düşük", "Kaçınılır"],
+                        ["Akşam vardiya sonu", "Düşük", "Orta-yüksek", "Tesis kapanış prosedürüne bağlı"],
+                        ["Hafta sonu", "Düşük", "Yüksek", "Tesise göre değişir, önceden teyit"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teslimat öncesi bilgi alışverişi",
+                paragraflar: [
+                    "Teslimat planını netleştirmeden önce tesisten üç bilgiyi almaya çalışırız: sevkiyat programının yoğun olduğu saatler, kullanılacak servis girişi ve varsa araç giriş prosedürü. Bu bilgiler sağlanmadığında teslimat saatini genel bir tahminle planlarız ama bu, ana kapıda beklenmedik bir gecikme riskini artırır.",
+                    "Karşılığında biz de araç plakasını, şoför bilgisini ve tahmini varış saatini önceden tesise iletiriz. Bu karşılıklı bilgi paylaşımı, özellikle güvenlik kaydı prosedürü sıkı olan tesislerde teslimatın sorunsuz geçmesini sağlar.",
+                ],
+            },
+            {
+                baslik: "Uzun kiralama sürelerinde tekrarlanan teslimat-toplama",
+                paragraflar: [
+                    "Bazı işler tek seferlik değil, birkaç hafta süren bir kiralamadır; bu durumda ilk teslimatta belirlenen güzergâh ve zaman dilimi, makinenin geri alınacağı gün için de kullanılır. Aradaki sürede tesisin sevkiyat programı değişmişse, geri alma tarihinden önce güncel durumu teyit ederiz.",
+                    "Uzun süreli kiralamalarda makinenin tesis içinde kalacağı noktanın günlük operasyonu engellemediğinden emin oluruz; palet istifleme alanı genişlerse veya yeni bir sevkiyat rotası açılırsa makinenin konumu tesis sorumlusuyla birlikte yeniden değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Platform teslimatı tesisin TIR trafiğini etkiler mi?",
+                cevap:
+                    "Doğru planlandığında etkilemez. Teslimat saatini tesisin sevkiyat yoğun saatlerinin dışına yerleştiririz ve mümkün olduğunca ayrı bir servis girişini kullanırız. Sevkiyat programınızı önceden paylaşırsanız, en sakin dilimi birlikte seçebiliriz. Programınız günlük değişkense, teslimat gününden bir gün önce güncel durumu teyit ederiz.",
+            },
+            {
+                soru: "Tesisimizin güvenlik prosedürü sıkı, bu teslimatı geciktirir mi?",
+                cevap:
+                    "Prosedürü önceden bildiğimizde geciktirmez. Plaka bildirimi, şoför kimlik kontrolü veya araç girişine özel bir kural varsa bunu teslimat gününden önce öğrenip şoförümüzü hazırlarız. Sahada ilk kez karşılaşılan bir prosedür, beklenmedik gecikmenin en sık nedenidir; bu yüzden teklif aşamasında güvenlik prosedürünüzü sormamız standart bir adımdır.",
+            },
+            {
+                soru: "Mudurnu'daki tesisimize teslimat, merkeze göre daha mı uzun sürer?",
+                cevap:
+                    "Evet, yol mesafesi merkeze göre daha uzundur ve bu farkı teslimat saatini planlarken hesaba katarız. Kış aylarında yol ve hava koşulu ayrıca değerlendirilir; gerekirse teslimat saatini erkene alırız. Kesin süre, tesisinizin tam konumuna göre değişir; adres bilgisini paylaştığınızda size net bir zaman aralığı verebiliriz.",
+            },
+            {
+                soru: "Makineyi palet istifleme alanına yakın mı indirebilirsiniz?",
+                cevap:
+                    "Genellikle evet, çünkü çoğu iş bu bölgede yoğunlaşır. İndirme noktasını belirlerken forklift güzergâhından ayrı bir nokta seçeriz; palet trafiğinin yoğun olduğu koridorlarda indirme yapmayız. Tesisinizin depo yerleşimini önceden paylaşırsanız, en uygun indirme noktasını birlikte belirleyebiliriz.",
+            },
+            {
+                soru: "Uzun süreli kiralamada makine tesiste mi kalıyor, yoksa her seferinde mi getiriliyor?",
+                cevap:
+                    "İşin süresine ve niteliğine göre değişir. Birkaç hafta süren ve günlük kullanılan işlerde makine tesiste kalır; ara sıra kullanılan işlerde her seferinde getirip götürmek daha pratik olabilir. İlk görüşmede kullanım sıklığını paylaşırsanız, hangi yöntemin sizin için daha az maliyetli ve daha az operasyonel yük getireceğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Teslimat sırasında tesisin hijyen kurallarına uyulacak mı?",
+                cevap:
+                    "Evet, teslimat güzergâhı belirlenirken tesisin hijyen kısıtlı alanlarından mümkün olduğunca kaçınılır ve gerekiyorsa şoför ve teslimat ekibimiz tesisin giriş kurallarına göre hazırlanır. Üretim alanına yakın bir güzergâh kullanılması gerekiyorsa, bu konuda tesis sorumlusuyla önceden mutabık kalırız; kuralları bize iletmeniz, teslimatın sorunsuz geçmesini sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Mudurnu ve Bolu merkez çevresindeki dolum tesislerinin TIR/tanker sevkiyat trafiği ve gıda tesislerinde araç giriş güvenlik prosedürü kamuya açık genel bilgidir; teslimat zamanlama yöntemi ve güzergâh belirleme yaklaşımı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bolu'da Şişe ve Kasa Deposu İçin Forklift ve İstifleme Kiralama",
+        giris:
+            "Bir dolum tesisinin deposu, boş kasa, dolu şişe, PET preform ve palet arasında sürekli hareket eden bir alandır; forklift burada hem sevkiyat öncesi son istifleme hem de raf düzenleme için günlük kullanılan bir makinedir. Bolu ve Mudurnu çevresindeki şişeleme tesislerinde depo genellikle iki bölüme ayrılır: dolu ürün paletlerinin sevkiyat öncesi beklediği alan ve boş kasa-preform gibi ambalaj malzemesinin stoklandığı alan. Bu iki alanın raf yüksekliği, koridor genişliği ve yük tipi farklı olduğu için forklift seçimi de buna göre değişir. Mevsimlik talep artışında (özellikle yaz aylarında şişe suyu tüketiminin yükseldiği dönemde) depodaki palet trafiği yoğunlaşır ve ek forklift ihtiyacı doğar. Bu sayfa, dolum tesisi deposunda forklift ve istifleme makinesi seçiminin nasıl yapıldığını ve mevsimlik talep artışında kısa süreli kiralamanın nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Dolu ürün ile boş ambalaj alanının farklı forklift ihtiyacı",
+                metin:
+                    "Dolu şişe paletleri hem ağırlık hem hassasiyet açısından dikkatli taşıma gerektirir; devrilme veya sert manevra ürün kaybına yol açabilir. Boş kasa ve PET preform paletleri ise daha hafiftir ama hacimce daha fazla yer kaplar ve raf yüksekliği genellikle daha fazladır. İki alan için farklı kapasite ve kaldırma yüksekliğine sahip forklift önerebiliriz; talebinizi alırken hangi alanda kullanılacağını sormamızın nedeni budur.",
+            },
+            {
+                baslik: "Dar koridorlu raf sisteminde istifleme makinesi",
+                metin:
+                    "Depo alanı sınırlı olan tesislerde raflar arası koridor dar tutulur ve standart bir forklift bu koridorda manevra yapamaz. Bu durumda dar koridor istifleme makinesi (reach truck tipi) tercih edilir; bu makine koridor genişliğine göre özel bir manevra yeteneğine sahiptir. Koridor genişliğinizi ve raf yüksekliğinizi paylaştığınızda uygun makine tipini önerebiliriz.",
+            },
+            {
+                baslik: "Mevsimlik talep artışında kısa süreli ek forklift",
+                metin:
+                    "Şişe suyu ve içecek talebinin yükseldiği dönemlerde depo trafiği artar ve mevcut forklift filosu yetersiz kalabilir. Bu dönemlerde kısa süreli ek forklift kiralaması, tesisin kendi filosunu büyütmeden sezonluk artışı karşılamasını sağlar. Talebi mümkün olduğunca erken bildirmenizi öneririz çünkü yoğun dönemde makine bulunabilirliği sınırlı olabilir.",
+            },
+            {
+                baslik: "Sevkiyat rampasında forklift-TIR koordinasyonu",
+                metin:
+                    "Yükleme rampasında forklift, TIR'a palet yükleme işini yapar ve bu iş sırasında rampa çevresi diğer trafik için geçici olarak kısıtlanır. Yoğun sevkiyat saatlerinde birden fazla forklift aynı rampada çalışıyorsa, çarpışma riskini azaltmak için güzergâh ve öncelik sırası tesis sorumlusuyla birlikte netleştirilir.",
+            },
+            {
+                baslik: "Islak zeminde forklift kullanımı",
+                metin:
+                    "Yıkama ve durulama hattına yakın depo bölümlerinde zemin nemli olabilir; bu durumda forklift lastiklerinin kavrama durumu ve fren mesafesi normalden farklıdır. Islak zemin bölgelerinde hız sınırlaması ve ek dikkat gerektiğini operatöre önceden bildiririz; gerekirse bu bölgelerde daha düşük hızda çalışma talimatı veririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo bölümüne göre forklift/istifleme tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum tesisi deposundaki farklı alan tiplerine göre önerdiğimiz makine tipini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Depo bölümü", "Yük tipi", "Koridor genişliği", "Önerilen makine"],
+                    satirlar: [
+                        ["Dolu ürün sevkiyat alanı", "Ağır, hassas palet", "Standart", "Dizel/elektrikli forklift"],
+                        ["Boş kasa/preform stoku", "Hafif, hacimli", "Standart-dar", "Elektrikli forklift"],
+                        ["Yüksek raf sistemi", "Karışık", "Dar", "Dar koridor istifleme (reach)"],
+                        ["Yükleme rampası", "Sevkiyat paleti", "Geniş", "Forklift, çoklu koordinasyon"],
+                        ["Islak zemin bölgesi", "Karışık", "Standart", "Kavrama kontrollü lastik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Mevsimlik artışta filo planlaması",
+                paragraflar: [
+                    "İçecek tüketiminin arttığı dönemlerde depodaki palet hareketi normal döneme göre belirgin şekilde yükselir. Tesisler bu artışı genellikle iki şekilde karşılar: mevcut forkliftleri daha uzun vardiyada çalıştırmak ya da kısa süreli ek makine kiralamak. İkinci yöntem, mevcut ekipmanın aşırı yıpranmasını önlediği için orta ve uzun vadede daha sürdürülebilir olabilir.",
+                    "Ek forklift ihtiyacınızı mevsim başlamadan birkaç hafta önce bildirmeniz, hem makine hem operatör tahsisini önceden planlamamızı sağlar. Son dakika taleplerde, yoğun dönem nedeniyle istediğiniz tarihte uygun makine bulmak zorlaşabilir.",
+                ],
+            },
+            {
+                baslik: "Operatörlü kiralamada eğitim ve deneyim",
+                paragraflar: [
+                    "Dolum tesisi deposunda çalışacak operatörün, hem forklift kullanım belgesine hem de gıda tesisi ortamına aşinalığa sahip olması tercih sebebidir. Operatörlü kiralamada operatörümüz sahaya gelmeden önce tesisin özel kurallarını (hijyen kısıtı, ıslak zemin bölgeleri, sevkiyat rampası trafiği) bizden öğrenir.",
+                    "Tesisinizin kendine özgü bir kuralı varsa — örneğin belirli bir koridordan geçiş yasağı ya da özel bir hız sınırı — bunu ilk görüşmede paylaşmanızı isteriz; bu bilgi operatör brifingine dahil edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dolu ürün ile boş kasa alanı için aynı forklifti mi kullanmalıyız?",
+                cevap:
+                    "Mümkün ama ideal değil. Dolu ürün paletleri ağırlık ve hassasiyet açısından farklı bir yaklaşım gerektirirken, boş kasa ve preform paletleri hacimce daha fazla yer kaplar ve genellikle daha yüksek rafa istiflenir. İki alan için ayrı makine kullanmak hem verimliliği artırır hem ürün hasarı riskini azaltır. Tek makineyle çalışmak zorundaysanız, kapasitesi her iki iş için de yeterli bir model önerebiliriz.",
+            },
+            {
+                soru: "Dar koridorlu raf sistemimize hangi makine uygun?",
+                cevap:
+                    "Koridor genişliğine bağlı olarak dar koridor istifleme makinesi (reach truck tipi) genellikle en uygun çözümdür; bu makineler standart forklifte göre daha dar bir alanda dönüş yapabilir. Koridor genişliğinizi ve raf yüksekliğinizi paylaştığınızda size uygun modeli önerebiliriz; ölçü belirsizse kısa bir keşifle netleştirebiliriz.",
+            },
+            {
+                soru: "Yaz sezonunda ek forklift ihtiyacımızı ne zaman bildirmeliyiz?",
+                cevap:
+                    "Mümkünse sezon başlamadan birkaç hafta önce. Yoğun dönemde talep arttığı için makine ve operatör bulunabilirliği sınırlanabilir; erken bildirim, istediğiniz tarihte uygun makine ayırmamızı sağlar. Son dakika taleplerde elimizdeki uygunluğa göre en yakın alternatifi sunarız ama ideal tarih garantisi veremeyiz.",
+            },
+            {
+                soru: "Islak zeminde forklift kullanmak güvenli mi?",
+                cevap:
+                    "Uygun önlemle güvenlidir. Yıkama-durulama hattına yakın nemli bölgelerde operatörümüze hız sınırlaması ve ekstra dikkat talimatı veririz; lastiklerin kavrama durumu düzenli kontrol edilir. Zemin sürekli ıslaksa, bu bölgeye özel bir kavrama profiline sahip lastik önerebiliriz. Islak zemin bölgelerinizi bize önceden bildirirseniz, operatör brifingine dahil ederiz.",
+            },
+            {
+                soru: "Yükleme rampasında birden fazla forklift aynı anda çalışabilir mi?",
+                cevap:
+                    "Çalışabilir ama koordinasyon gerektirir. Aynı rampada birden fazla forklift varsa çarpışma riskini azaltmak için güzergâh ve öncelik sırası önceden netleştirilir; genellikle her makineye ayrı bir çalışma bölgesi veya sıra tahsis edilir. Rampanızın genişliğini ve aynı anda çalışacak makine sayısını paylaşırsanız, güvenli bir koordinasyon planı öneririz.",
+            },
+            {
+                soru: "Operatörlü mü operatörsüz mü kiralamalıyız?",
+                cevap:
+                    "Tesisinizde belgeli ve deneyimli forklift operatörünüz varsa operatörsüz kiralama uygun olabilir; ilk kez ek makine kiralıyorsanız veya sezonluk artış için geçici ekip kullanıyorsanız operatörlü kiralamayı öneririz. Operatörümüz sahaya gelmeden önce tesisinizin özel kurallarını bizden öğrenir ve buna göre çalışır. Karar vermeden önce ihtiyacınızı bize anlatırsanız, hangi seçeneğin sizin için daha uygun olduğunu birlikte değerlendirebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Şişe suyu/içecek tüketiminde yaz aylarında görülen mevsimlik artış ve dolum tesisi depolarının dolu ürün/boş ambalaj ayrımı kamuya açık genel bilgidir; makine seçim mantığı ve ıslak zemin yaklaşımı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bolu'da Dolum Hattı ve Tank Üstü Erişim İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Dolum tesislerindeki en yüksek noktalar genellikle tank, silo veya çatı üstü havalandırma sistemleridir; bu noktalara erişim, dar bir konveyör aralığından değil, geniş bir üretim salonunun tavanına doğru uzanan bir mesafeden yapılır. Eklemli platform (boom), bu tür geniş açıklı ve yüksek erişimlerde tercih edilir çünkü sepeti hem yukarı hem yana doğru hareket ettirebilir — bir tankın yan yüzeyine veya bir çatı kirişinin altına, dik değil açılı bir hareketle ulaşabilir. Mudurnu ve Bolu merkez çevresindeki dolum tesislerinde bu ihtiyaç genellikle su deposu/tank üstü kontrolü, üretim salonu çatı kirişi bakımı ve dış cephedeki büyük silo yapılarının kontrolünde ortaya çıkar. Bu sayfa, eklemli platformun dolum tesisindeki yüksek erişim işlerinde neden tercih edildiğini ve tank/silo çevresinde nasıl konumlandırıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Tank ve silo yan yüzeyine açılı erişim",
+                metin:
+                    "Su deposu ve dolum tankları genellikle silindirik gövdelidir; bu gövdenin üst kısmına veya yan yüzeyindeki bir vanaya erişmek dikey bir hareketle değil, açılı bir yaklaşımla mümkündür. Eklemli platformun kolu bu açılı hareketi sağlar; sepet tankın gövdesine paralel bir açıyla yaklaşır ve operatör vana veya bağlantı noktasına doğrudan müdahale edebilir.",
+            },
+            {
+                baslik: "Üretim salonu çatı kirişi ve havalandırma bakımı",
+                metin:
+                    "Dolum salonunun çatı kirişleri ve havalandırma sistemi, zeminden yüksekte ve genellikle üretim hattının üzerinde konumlanır. Eklemli platform, hat üzerinden geçmeden yan taraftan sepeti kirişin altına uzatarak bu bölgeye erişim sağlar; bu, hattı durdurmadan çalışabilme ihtimalini artırır ama kesin karar sahadaki mesafe ve güvenlik değerlendirmesine bağlıdır.",
+            },
+            {
+                baslik: "Dış cephedeki büyük silo yapılarının kontrolü",
+                metin:
+                    "Tesisin dışında bulunan büyük hammadde veya su depolama siloları, çatıya bitişik olmadığı için daha geniş bir çalışma alanı sunar. Bu tür açık alan işlerinde eklemli platform, silonun etrafında dönerek farklı yüksekliklerdeki kontrol noktalarına ulaşabilir; zemin düzse ve manevra alanı yeterliyse tek kurulumla silonun büyük bölümü kontrol edilebilir.",
+            },
+            {
+                baslik: "Hat üzerinden geçmeden yandan yaklaşım",
+                metin:
+                    "Dolum hattının üzerinden platform geçirmek çoğu tesiste hijyen ve güvenlik nedeniyle tercih edilmez. Eklemli platformun kolu, hattın yanından başlayıp havada bir yay çizerek hedefe ulaşabildiği için hattın üzerinden geçme ihtiyacını azaltır. Bu, örümcek platformun dar koridor avantajından farklı bir çözüm sunar — geniş açıklıklı ve yüksek hedeflerde boom daha uygundur.",
+            },
+            {
+                baslik: "Kapasite ve rüzgâr sınırının açık alan işlerinde önemi",
+                metin:
+                    "Dış cephedeki silo ve tank işlerinde, açık alanda çalışıldığı için rüzgâr hızı platformun çalışma sınırını doğrudan etkiler. Üreticinin belirlediği rüzgâr sınırı aşıldığında çalışma durdurulur; bu, özellikle Bolu'nun rüzgârlı geçebilen günlerinde iş planlamasını etkileyen bir faktördür. İş günü sabahı rüzgâr durumu kontrol edilir ve gerekirse çalışma ertelenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dolum tesisinde yüksek erişim noktası ve boom yapılandırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum tesisindeki tipik yüksek erişim noktalarını ve önerdiğimiz platform yaklaşımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Yaklaşım şekli", "Ortam", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Tank/silo yan yüzeyi", "Açılı yaklaşım", "İç/dış", "Gövde çapı, vana konumu"],
+                        ["Çatı kirişi/havalandırma", "Yandan uzatma", "İç mekân", "Hat duruşu, tavan yüksekliği"],
+                        ["Dış hammadde silosu", "360° dönüş", "Açık alan", "Zemin düzlüğü, rüzgâr"],
+                        ["Cephe üst kat pencere/menfez", "Dikey+açılı", "Dış cephe", "Bina yüksekliği"],
+                        ["Tanker dolum kolu üstü", "Kısa mesafe açılı", "Rampa", "Sevkiyat trafiği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Boom ile örümcek platform arasındaki seçim",
+                paragraflar: [
+                    "İki makine de yüksek erişim sağlar ama farklı senaryolar için uygundur. Eklemli platform geniş açıklıklı, manevra alanı yeterli ortamlarda hızlı kurulur ve büyük bir alanı tek kurulumla kapsayabilir. Örümcek platform ise dar kapı ve koridorlardan geçmesi gereken, manevra alanı kısıtlı işlerde tercih edilir. Dolum tesisinde her iki senaryo da görülebildiği için talebinizi alırken hedefin bulunduğu ortamı sorarız.",
+                    "Bazı işlerde iki makineye de ihtiyaç duyulabilir — örneğin dış silo kontrolü boom ile, iç hat koridoru bakımı örümcek platform ile yapılabilir. Bu durumda iki makineyi aynı gün planlayarak nakliye ve kurulum verimliliğini artırırız.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr ve hava koşulunda açık alan planlaması",
+                paragraflar: [
+                    "Dış cephe ve açık alan silolarındaki işlerde hava durumu, iç mekân işlerine göre çok daha belirleyicidir. Rüzgâr, yağış ve don riski iş gününden önce kontrol edilir; üreticinin belirlediği rüzgâr sınırı aşıldığında çalışma ertelenir. Bolu'nun yükseklik farkı olan coğrafyası nedeniyle rüzgâr koşulu gün içinde değişebilir, bu yüzden sabah kontrolü tek başına yeterli olmayabilir.",
+                    "Uzun süren bir açık alan işinde, hava koşulunun kötüleştiği anlarda çalışmayı geçici olarak durdurup uygun pencerede devam etme esnekliği bırakırız. Bu, iş süresini biraz uzatabilir ama güvenlik açısından taviz verilmeyen bir kuraldır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform tank üzerindeki bir vanaya nasıl erişiyor?",
+                cevap:
+                    "Platformun kolu, tankın gövdesine paralel bir açıyla yaklaşacak şekilde konumlandırılır; sepet doğrudan vananın veya bağlantı noktasının önüne getirilir. Bu, dikey bir platformun yapamayacağı bir hareket çünkü tankın silindirik yüzeyi düz bir dikey erişimle uyumlu değildir. Tankın çapı ve vananın konumu bilgisini paylaşırsanız, uygun kol uzunluğuna sahip modeli önerebiliriz.",
+            },
+            {
+                soru: "Dolum hattı çalışırken çatı kirişi bakımı yapılabilir mi?",
+                cevap:
+                    "Bazı durumlarda mümkün olabilir ama kesin karar sahadaki mesafe ve güvenlik değerlendirmesine bağlıdır. Eklemli platform hattın yanından yaklaştığı için hattın üzerinden geçme ihtiyacını azaltır, bu da hat çalışırken çalışma ihtimalini artırabilir. Ancak kesin değerlendirme için hattın konumu, kirişin yüksekliği ve tesisin güvenlik kuralları birlikte incelenir; öncesinde net bir garanti vermeyiz.",
+            },
+            {
+                soru: "Dış silo işinde rüzgâr yüzünden iş iptal olur mu?",
+                cevap:
+                    "Üreticinin belirlediği rüzgâr sınırı aşıldığında çalışma durdurulur, bu bir güvenlik kuralıdır ve esnetilmez. İş gününde rüzgâr sınırın üzerindeyse ya da gün içinde artıyorsa, çalışmayı uygun bir pencereye erteleriz. Uzun süreli bir işte hava tahminini önceden takip ederek en uygun günleri seçmeye çalışırız ama garantili bir tarih veremeyiz.",
+            },
+            {
+                soru: "Boom mu örümcek platform mu, hangisini seçmeliyiz?",
+                cevap:
+                    "Bu, hedefin bulunduğu ortama bağlıdır. Geniş açıklıklı ve manevra alanı yeterli yerlerde (dış silo, açık üretim salonu) boom daha hızlı ve pratiktir. Dar kapı ve koridorlardan geçmesi gereken işlerde örümcek platform gerekir. Hedefin fotoğrafını ve yaklaşık ölçülerini paylaşırsanız, hangi makinenin uygun olduğunu netleştirebiliriz.",
+            },
+            {
+                soru: "Silo etrafında zemin düzgün değilse ne olur?",
+                cevap:
+                    "Zemin düzensizliği makinenin denge sınırını etkiler; kurulum öncesi zemin kontrol edilir ve gerekiyorsa yük dağıtıcı plaka veya farklı bir konumlandırma noktası kullanılır. Zemin çok düzensizse ya da eğim üreticinin izin verdiği sınırı aşıyorsa, güvenli bir konumlandırma noktası bulunana kadar kurulum yapılmaz. Zeminin durumunu önceden fotoğrafla paylaşmanız, sahada zaman kaybını azaltır.",
+            },
+            {
+                soru: "Tanker dolum kolu üstündeki bir işte platform kullanılabilir mi?",
+                cevap:
+                    "Kullanılabilir ama rampa alanı genellikle sevkiyat trafiğiyle paylaşıldığı için zamanlama önemlidir. İşi tanker trafiğinin düşük olduğu bir saate planlarız ve platformun konumu rampa güzergâhını kapatmayacak şekilde seçilir. Rampanızın sevkiyat programını paylaşırsanız, en uygun çalışma saatini birlikte belirleyebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dolum tesislerinde su/hammadde tankı, silo ve üretim salonu çatı kirişi gibi yüksek yapıların varlığı ile açık alan işlerinde rüzgâr sınırının platform çalışmasını etkilemesi kamuya açık genel bilgidir; boom ile örümcek platform arasındaki seçim mantığı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bolu'da Dolum Salonu ve Depo İçi Platform Kiralama",
+        giris:
+            "Bir dolum salonunun iç mekân platform ihtiyacı, sıradan bir fabrika içi işten farklı bir kısıtla gelir: hijyen. Salonun büyük bölümü temiz alan olarak tanımlanır ve buraya giren her ekipmanın belirli bir hazırlıktan geçmesi beklenir. Bolu ve Mudurnu çevresindeki dolum tesislerinde iç mekân platform talebi genellikle üç noktada ortaya çıkar: dolum hattı üstü aydınlatma ve sensör bakımı, depo raf sisteminin üst katlarındaki kontrol işleri ve üretim salonunun tavan-havalandırma bölümündeki periyodik temizlik. Elektrikli, lastik tekerlekli ve zemine iz bırakmayan makineler bu ortamda tercih edilir çünkü hem hijyen hem gürültü açısından iç mekâna uygundur. Bu sayfa, dolum salonu ve depo içinde platform kullanımının hangi kurallara tabi olduğunu ve hijyen kısıtlı alanda nasıl hazırlık yapıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Elektrikli makine tercihi ve gürültü/emisyon kısıtı",
+                metin:
+                    "Dolum salonu kapalı bir ortam olduğu için içten yanmalı motorlu makineler tercih edilmez; egzoz emisyonu hem hava kalitesini hem ürün güvenliğini etkileyebilir. Bunun yerine elektrikli platform kullanılır — sessiz çalışır, emisyon üretmez ve akü kapasitesi bir vardiyalık iş için genellikle yeterlidir. Uzun süren işlerde akü şarj durumu önceden kontrol edilir.",
+            },
+            {
+                baslik: "Zemine iz bırakmayan lastik seçimi",
+                metin:
+                    "Dolum salonu zemini genellikle epoksi kaplı veya özel bir yüzeye sahiptir ve bu yüzeyde iz veya çizik bırakmamak önemlidir. Platformun tekerlekleri iz bırakmayan (non-marking) lastik tipinde olmalıdır; teslim öncesi bu özelliği kontrol eder, gerekirse uygun lastikli makineyi yönlendiririz.",
+            },
+            {
+                baslik: "Hat üstü aydınlatma ve sensör bakımının planlı duruşta yapılması",
+                metin:
+                    "Dolum salonundaki aydınlatma armatürleri ve otomasyon sensörleri, hattın hemen üzerinde veya yakınında konumlanır. Bu bölgede çalışmak, hattın planlı duruş penceresinde yapılır; hat çalışırken platform hattın üzerine yaklaştırılmaz. Duruş süresi ve iş listesi önceden netleştirilir.",
+            },
+            {
+                baslik: "Depo raf sisteminin üst katlarında kontrol",
+                metin:
+                    "Depo bölümündeki yüksek raf sistemleri, forkliftle erişilemeyen yapısal kontrol noktaları (raf bağlantı cıvataları, üst kat aydınlatma, yangın algılama sensörleri) içerir. Bu noktalara erişim için iç mekân platformu kullanılır; raf koridorunun genişliği makinenin manevra alanını belirler.",
+            },
+            {
+                baslik: "Tavan-havalandırma bölümünde periyodik temizlik erişimi",
+                metin:
+                    "Üretim salonunun tavanındaki havalandırma kanalları ve filtre sistemleri, düzenli temizlik gerektirir. Bu iş genellikle tesisin kendi hijyen ekibi tarafından yapılır ama erişim platformu bizim tarafımızdan sağlanır; makine, temizlik ekibinin çalışacağı yüksekliğe göre konumlandırılır ve iş süresi boyunca sahada bekletilebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dolum salonu içi iş tipi ve platform yapılandırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum salonu ve depo içindeki tipik işleri ve önerdiğimiz platform yapılandırmasını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Konum", "Lastik/güç tercihi", "Zamanlama"],
+                    satirlar: [
+                        ["Hat üstü aydınlatma/sensör", "Dolum hattı üzeri", "Elektrikli, iz bırakmaz", "Planlı hat duruşu"],
+                        ["Raf üst kat kontrolü", "Depo", "Elektrikli, dar koridor uyumlu", "Sevkiyat dışı saat"],
+                        ["Tavan havalandırma erişimi", "Üretim salonu tavanı", "Elektrikli, sessiz", "Temizlik ekibiyle koordineli"],
+                        ["Temiz alan girişi genel", "Dolum salonu", "Hijyen onaylı ekipman", "Tesis onayı sonrası"],
+                        ["Depo dışı ambalaj alanı", "Ambalaj bölümü", "Standart elektrikli", "Esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hijyen kısıtlı alanda ekipman hazırlığı",
+                paragraflar: [
+                    "Dolum salonuna giren her platform, tesise girmeden önce yağ sızıntısı, toz ve genel temizlik açısından kontrol edilir; gerekiyorsa yüzeyi silinir. Bazı tesisler ayrıca ekipmanın belirli bir bölümünün (örneğin tekerlek altı) ek dezenfeksiyon geçmesini isteyebilir; bu talep önceden bildirildiğinde uygularız.",
+                    "Makinenin akü veya hidrolik yağı sızıntı riski, hijyen kısıtlı alanda özellikle önemlidir çünkü küçük bir sızıntı bile ürün güvenliği açısından ciddi bir sorun oluşturabilir. Bu yüzden temiz alana giren makineler, sızıntı kontrolünden düzenli geçirilen makinelerden seçilir.",
+                ],
+            },
+            {
+                baslik: "Depo ve üretim salonu arasında geçiş kuralları",
+                paragraflar: [
+                    "Bazı tesislerde depo bölümü temiz alan sınırının dışındadır ama üretim salonuna geçişte ek bir hijyen kontrolü uygulanır. Bu durumda platform, işin bulunduğu bölgeye göre farklı hazırlık seviyesinde tutulur — depo içi işte standart temizlik, üretim salonu işinde ek kontrol uygulanır.",
+                    "Geçiş kuralları tesisten tesise farklılık gösterdiği için, ilk görüşmede tesisinizin sınır tanımını ve geçiş prosedürünü sormamız standart bir adımdır. Bu bilgi netleşmeden makinenin hangi bölgeye gireceğini kesinleştirmeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dolum salonunda içten yanmalı motorlu platform kullanılabilir mi?",
+                cevap:
+                    "Genellikle tercih edilmez; kapalı bir hijyen kısıtlı alanda egzoz emisyonu hem hava kalitesini hem ürün güvenliğini etkileyebilir. Bunun yerine elektrikli platform öneririz — sessiz çalışır ve emisyon üretmez. Tesisinizin özel bir kuralı varsa (örneğin belirli bir motor tipini tamamen yasaklamak), bunu bize iletmeniz makine seçimini netleştirir.",
+            },
+            {
+                soru: "Zeminimize iz bırakmayacağından nasıl emin oluruz?",
+                cevap:
+                    "Platformun tekerlek tipini teslim öncesi kontrol ederiz; iz bırakmayan (non-marking) lastik kullanılan makineleri yönlendiririz. Zeminimizin özellikle hassas bir yüzeye (örneğin özel epoksi kaplama) sahip olduğunu bildirirseniz, bu bilgiyi makine seçiminde önceliklendiririz. Şüpheli bir durumda küçük bir alanda test hareketi yaparak zemine etkiyi kontrol edebiliriz.",
+            },
+            {
+                soru: "Hat üstü aydınlatma bakımı hat çalışırken yapılabilir mi?",
+                cevap:
+                    "Genellikle yapılmaz; bu tür işler hattın planlı duruş penceresinde gerçekleştirilir çünkü platformun hattın üzerine yaklaşması hem hijyen hem güvenlik açısından risk oluşturabilir. Duruş süresi kısaysa işi öncelik sırasına göre planlarız; birden fazla küçük iş varsa hepsini aynı duruş penceresinde toplamaya çalışırız.",
+            },
+            {
+                soru: "Makine temiz alana girmeden önce nasıl bir kontrolden geçiyor?",
+                cevap:
+                    "Yağ sızıntısı, toz ve genel temizlik açısından kontrol ederiz ve gerekiyorsa yüzeyini sileriz. Bazı tesisler ek bir dezenfeksiyon veya belge talep edebilir; bu prosedürü önceden bildirirseniz makineyi ona göre hazırlarız. Kontrolden geçmeyen bir makineyi temiz alan sınırının içine geçirmeyiz.",
+            },
+            {
+                soru: "Depo raf koridorumuz dar, standart platform sığar mı?",
+                cevap:
+                    "Koridor genişliğine bağlıdır; dar koridorlar için özel olarak tasarlanmış kompakt elektrikli platform modelleri vardır. Koridor genişliğinizi ve raf yüksekliğinizi paylaştığınızda uygun modeli önerebiliriz. Koridor çok darsa, standart iç mekân platformu yerine örümcek platform gibi parçalı taşınabilen bir alternatif de değerlendirilebilir.",
+            },
+            {
+                soru: "Tavan havalandırma temizliğinde makineyi tüm gün sahada bekletebilir miyiz?",
+                cevap:
+                    "Evet, uzun süren temizlik işlerinde makineyi iş süresi boyunca sahada bırakabiliriz; bu, temizlik ekibinizin ihtiyaç duydukça makineyi kullanmasına imkân tanır. Bu tür kullanımda akü şarj durumu ve iş sonunda makinenin güvenli bir noktada park edilmesi önceden planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gıda/içecek üretim tesislerinde temiz alan uygulaması, elektrikli-emisyonsuz ekipman tercihi ve hassas zeminlerde iz bırakmayan lastik kullanımı kamuya açık genel bilgidir; hijyen kabul kontrolü ve geçiş kuralları firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bolu'da Dolum Tesisi Genişletme ve Yeni Hat Kurulumu İçin Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Bir dolum tesisinin kapasitesini artırması genellikle yeni bir üretim binası ya da mevcut binaya ek bir hol eklenmesiyle olur; bu inşaat sürecinde çelik konstrüksiyon montajı, çatı kaplama ve cephe kapatma işleri platform gerektiren en yoğun kalemlerdir. Bolu ve Mudurnu çevresinde yeni bir dolum hattı kurulumu ya da mevcut tesisin genişletilmesi söz konusu olduğunda, inşaat aşaması ile üretim aşaması aynı sahada zaman zaman iç içe geçebilir — bir tarafta çelik montaj devam ederken diğer tarafta mevcut hat çalışmaya devam edebilir. Bu durumda platform kullanımı, hem inşaat güvenlik kurallarına hem üretim tesisinin hijyen kısıtlarına aynı anda uyum sağlamalıdır. Bu sayfa, dolum tesisi genişletme projelerinde çelik konstrüksiyon montajının nasıl planlandığını ve inşaat-üretim alanlarının birbirinden nasıl ayrıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Yeni hol inşaatında çelik kiriş ve aşık montajı",
+                metin:
+                    "Yeni bir üretim holü inşa edilirken çelik kiriş ve aşık montajı, zeminden belirli bir yükseklikte ve genellikle geniş açıklıklı bir alanda yapılır. Bu iş için eklemli veya teleskopik platform tercih edilir; kolun uzunluğu, kirişin yerleştirileceği yüksekliğe ve açıklığa göre seçilir. Montaj sırasında vinç ile platform aynı sahada çalışabilir; iki ekipmanın çalışma alanları çakışmayacak şekilde önceden koordine edilir.",
+            },
+            {
+                baslik: "Çatı kaplama ve yalıtım işlerinde geniş alan erişimi",
+                metin:
+                    "Çelik konstrüksiyon tamamlandıktan sonra çatı kaplama ve yalıtım paneli montajı başlar; bu iş geniş bir çatı yüzeyinde tekrarlanan hareketler gerektirir. Platform, çatı kenarından belirli bir mesafede konumlanarak panel montaj ekibine erişim sağlar; panel taşıma ve yerleştirme sırasında rüzgâr koşulu özellikle dikkatle izlenir çünkü hafif paneller rüzgârdan etkilenir.",
+            },
+            {
+                baslik: "İnşaat ve üretim alanlarının fiziksel ayrımı",
+                metin:
+                    "Genişleme mevcut tesise bitişik yapılıyorsa, inşaat alanı ile çalışan üretim hattı arasında geçici ama sağlam bir bariyer kurulur. Platform inşaat tarafında çalışırken üretim tarafına toz, kaynak kıvılcımı veya malzeme düşmesi riski oluşmaması için bariyerin bütünlüğü düzenli kontrol edilir. Bu ayrım, hem iş güvenliği hem üretim tesisinin hijyen kaydı için gereklidir.",
+            },
+            {
+                baslik: "Cephe kaplama ve panel montajında hassas konumlandırma",
+                metin:
+                    "Cephe panelleri genellikle büyük ve ağır olduğundan platform üzerinden yapılan montaj, panelin doğru açıda ve doğru noktada tutulmasını gerektirir. Bu iş genellikle iki kişilik bir ekip ve platformun hassas hareket kontrolüyle yapılır; panel yerleştirilene kadar sepet konumu sabit tutulur ve montaj tamamlandıktan sonra bir sonraki panele geçilir.",
+            },
+            {
+                baslik: "İnşaat aşamasında sahaya birden fazla makine planlaması",
+                metin:
+                    "Büyük bir genişletme projesinde tek bir platform yeterli olmayabilir; çelik montaj, çatı işi ve cephe işi aynı anda farklı bölgelerde ilerliyorsa birden fazla makine aynı sahada çalışabilir. Bu durumda makinelerin çalışma alanları ve hareket güzergâhları çakışmayacak şekilde bir saha planı hazırlanır; bu plan inşaat yürütücüsüyle birlikte oluşturulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Genişletme projesinde iş kalemi ve platform ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum tesisi genişletme projelerinde sık karşılaşılan iş kalemlerini ve platform ihtiyacını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Yükseklik/açıklık", "Platform tipi", "Koordinasyon"],
+                    satirlar: [
+                        ["Çelik kiriş/aşık montajı", "Geniş açıklık, orta-yüksek", "Eklemli/teleskopik", "Vinç ile paylaşımlı saha"],
+                        ["Çatı kaplama/yalıtım", "Geniş yüzey", "Eklemli, rüzgâr takipli", "Panel teslim programı"],
+                        ["Cephe panel montajı", "Orta-yüksek, hassas konum", "Eklemli/makaslı", "İki kişilik ekip"],
+                        ["İnşaat-üretim sınırı işleri", "Değişken", "Bariyer koordinasyonlu", "Üretim hattı güvenliği"],
+                        ["İç mekân çelik detay", "Düşük-orta", "Makaslı/örümcek", "Dar alan"],
+                    ],
+                },
+            },
+            {
+                baslik: "Vinç ile platform aynı sahada nasıl koordine edilir",
+                paragraflar: [
+                    "Çelik montaj sahalarında vinç genellikle ağır parçaları taşırken platform montaj ekibini konumlandırır; iki ekipmanın çalışma alanları çakıştığında ciddi bir güvenlik riski doğar. Bu yüzden saha planında her ekipmana ayrı bir çalışma bölgesi ve zaman dilimi tahsis edilir; vinç hareket hâlindeyken platform o bölgeye yaklaşmaz.",
+                    "Koordinasyon toplantısı, işin başlamasından önce inşaat yürütücüsü, vinç operatörü ve platform operatörümüz arasında yapılır. Günlük iş programı değiştiğinde bu koordinasyon yeniden gözden geçirilir; sabit bir planın değişen koşullara göre güncellenmeden uygulanması risklidir.",
+                ],
+            },
+            {
+                baslik: "Üretim hattını etkilemeden genişletme yapmak",
+                paragraflar: [
+                    "Mevcut tesise bitişik bir genişletmede, üretim hattının kesintisiz çalışmaya devam etmesi genellikle önceliklidir. İnşaat tarafındaki gürültü, toz ve titreşim üretim tarafını etkilemeyecek şekilde sınırlanır; platform kullanımı da bu sınırlamaya dahildir — özellikle kaynak veya kesme işlemi yapılan bölümlerde geçici bariyer ve toz kontrolü uygulanır.",
+                    "Bu tür projelerde bizim tarafımızdaki hazırlık, işin hangi bölümünün üretim hattına yakın olduğunu önceden tespit etmek ve o bölgede ekstra dikkatle çalışmaktır. Üretim tesisinin hijyen sorumlusuyla inşaat aşamasında da iletişim halinde kalırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik montaj sırasında vinç ile platform çarpışma riski nasıl önleniyor?",
+                cevap:
+                    "Saha planında her ekipmana ayrı bir çalışma bölgesi ve zaman dilimi tahsis edilir; vinç hareket hâlindeyken platform o bölgeye yaklaşmaz. Bu koordinasyon işin başlamasından önce inşaat yürütücüsü, vinç operatörü ve bizim operatörümüz arasında netleştirilir ve günlük program değiştiğinde güncellenir. Sahada iki ekipman arasında sürekli görsel ve telsiz iletişimi sağlanır.",
+            },
+            {
+                soru: "Genişletme mevcut hattın hemen yanındaysa üretim etkilenir mi?",
+                cevap:
+                    "Doğru önlemle etkilenmeyebilir ama tamamen sıfır etki garantisi vermek doğru olmaz. İnşaat tarafı ile üretim tarafı arasına geçici bariyer kurulur; toz, kaynak kıvılcımı ve gürültü bu bariyerle sınırlanmaya çalışılır. Üretim hattına yakın bölümlerde çalışırken ekstra dikkatle hareket ederiz ve tesisin hijyen sorumlusuyla sürekli iletişim hâlinde kalırız.",
+            },
+            {
+                soru: "Çatı kaplama işinde rüzgâr ne zaman iş durdurur?",
+                cevap:
+                    "Panel taşıma ve yerleştirme, hafif malzemeler olduğu için rüzgârdan görece çabuk etkilenir; üreticinin belirlediği rüzgâr sınırı aşıldığında çalışma durdurulur. Bu, panelin kontrolsüz hareket etme riskini önlemek içindir. İş gününde rüzgâr sınıra yakınsa panel montajını erteler, platformla yapılabilecek diğer işleri (kontrol, ölçüm) önce tamamlarız.",
+            },
+            {
+                soru: "Genişletme projesinde kaç makine gerekebilir?",
+                cevap:
+                    "Projenin büyüklüğüne ve eş zamanlı yürüyen iş kalemi sayısına bağlıdır. Küçük bir ek yapı tek platformla tamamlanabilirken, geniş bir hol inşaatında çelik montaj, çatı işi ve cephe işi eş zamanlı ilerliyorsa birden fazla makine gerekebilir. Proje planınızı paylaştığınızda, iş kalemlerine göre kaç makinenin ve hangi tipin gerekeceğini netleştirebiliriz.",
+            },
+            {
+                soru: "Cephe panel montajında hassasiyet nasıl sağlanıyor?",
+                cevap:
+                    "Panel yerleştirme, platformun hassas hareket kontrolüyle ve genellikle iki kişilik bir ekiple yapılır; panel doğru açı ve noktada tutulurken sepet konumu sabit bırakılır. Operatörümüz montaj ekibinin talimatına göre küçük ayarlamalar yapar. Panel ağırlığı ve boyutu önceden bilindiğinde, buna uygun kapasiteli platform seçilir.",
+            },
+            {
+                soru: "İnşaat sahasında iş güvenliği kurallarına kim uyuyor?",
+                cevap:
+                    "Sahadaki genel iş güvenliği kuralları inşaat yürütücüsü tarafından belirlenir ve bizim operatörümüz de dahil sahadaki herkes bu kurallara uyar. Ek olarak platformun kendi güvenlik prosedürü (denge kontrolü, yük sınırı, rüzgâr sınırı) her zaman geçerlidir. İki kural seti çakıştığında daha katı olanı uygularız; bu konuda inşaat yürütücüsüyle iş başlamadan önce mutabık kalırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dolum tesislerinin kapasite artırımı için yeni üretim holü/hat inşaatı yapması ve inşaat-üretim alanlarının aynı sahada iç içe geçebilmesi kamuya açık genel bilgidir; vinç-platform koordinasyonu ve bariyer uygulaması firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bolu'da Kaynak Suyu Kaynağı Çevresi ve PET Hammadde Silosu İçin Platform Kiralama",
+        giris:
+            "Bir dolum tesisinin hammadde tarafı iki farklı sahayı kapsar: şişelemenin başladığı kaynak suyu alma noktası (genellikle kırsal, orman veya tarım arazisi çevresinde) ve PET preform ile kapak gibi ambalaj malzemesinin depolandığı silo yapıları. Bolu ve Mudurnu çevresi, doğal kaynak suyu kaynaklarıyla bilinen bir bölge olduğu için, kaynak alma noktasının çevresi genellikle kırsal bir arazi yapısına sahiptir — asfalt olmayan yol, eğimli zemin, mevsime göre değişen toprak durumu. PET hammadde siloları ise tesis içinde ya da tesise bitişik bir alanda, daha düzenli bir zeminde bulunur ama yükseklikleri standart bir platformun erişim sınırını zorlayabilir. Bu sayfa, kaynak suyu alma noktası çevresindeki kırsal zeminde platform kullanımını ve PET/ambalaj silosu üstü kontrol işlerini anlatır.",
+        maddeler: [
+            {
+                baslik: "Kaynak suyu alma noktası çevresinde kırsal zemin",
+                metin:
+                    "Kaynak suyu alma noktaları genellikle şehir merkezinden uzak, orman veya tarım arazisi sınırındaki bir konumda bulunur. Bu bölgeye erişim yolu asfalt olmayabilir ve mevsime göre (yağmur sonrası, kar erimesi döneminde) zemin yumuşayabilir. Platform gönderilmeden önce yol ve zemin durumu güncel olarak sorulur; gerekirse paletli veya arazi tipi makine tercih edilir.",
+            },
+            {
+                baslik: "PET preform silosu üst kontrol noktaları",
+                metin:
+                    "PET preform ve kapak siloları, standart depo rafından daha yüksek olabilir ve üst noktasında dolum seviyesi sensörü veya havalandırma menfezi bulunur. Bu noktalara erişim için platform kullanılır; silonun etrafında yeterli manevra alanı olup olmadığı, komşu ekipmanlarla mesafe önceden değerlendirilir.",
+            },
+            {
+                baslik: "Su alma tesisinin küçük yapılarında bakım işleri",
+                metin:
+                    "Kaynak suyu alma noktasında genellikle küçük bir pompa istasyonu veya koruma yapısı bulunur; bu yapının çatı, oluk veya dış cephe bakımı, kırsal bir arazide standart bir şehir binası bakımından farklı lojistik gerektirir. Erişim yolu dar veya eğimliyse, bu durum makine seçimini ve nakliye süresini doğrudan etkiler.",
+            },
+            {
+                baslik: "Mevsime bağlı zemin değişikliği",
+                metin:
+                    "Kırsal arazideki zemin, yaz ayında sert ve kuru olabilirken, yağışlı dönemde veya kar erimesi sonrasında yumuşayıp taşıma kapasitesini kaybedebilir. İş tarihinden önce zeminin güncel durumunu sorarız; özellikle son birkaç gündeki yağış durumu, o gün kullanılacak makinenin gövde tipini (lastikli/paletli) belirleyen en önemli faktördür.",
+            },
+            {
+                baslik: "Silo ve tesis arasındaki taşıma güzergâhının kontrolü",
+                metin:
+                    "PET silosu tesis içindeyse veya tesise bitişikse, platformun oraya ulaşması için depo ve üretim koridorlarından geçmesi gerekebilir. Bu güzergâh önceden belirlenir ve palet trafiğiyle çakışmayacak bir saat seçilir; silo dış alandaysa bu kısıt daha azdır ama zemin ve manevra alanı yine kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hammadde ve kaynak sahası tipi, platform yaklaşımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum tesisinin hammadde ve kaynak sahasındaki farklı alan tiplerini ve platform yaklaşımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Zemin/ortam", "Gövde tercihi", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Kaynak suyu alma noktası", "Kırsal, orman/tarım sınırı", "Paletli veya arazi tipi", "Yol/zemin durumu, mevsim"],
+                        ["PET preform silosu", "Tesis içi/bitişik, düzenli zemin", "Lastikli, standart", "Silo yüksekliği, manevra alanı"],
+                        ["Pompa istasyonu/koruma yapısı", "Kırsal, küçük yapı", "Kompakt, dar erişim uyumlu", "Erişim yolu genişliği"],
+                        ["Su hattı boru güzergâhı", "Kırsal/açık arazi", "Arazi tipi", "Eğim, bitki örtüsü"],
+                        ["Silo-tesis arası koridor", "İç mekân", "Standart elektrikli", "Palet trafiği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kırsal arazide zemin değerlendirmesi nasıl yapılır",
+                paragraflar: [
+                    "Kaynak suyu alma noktası çevresindeki bir işte, sahaya makine göndermeden önce güncel fotoğraf ve varsa video isteriz. Bu görüntüler yolun genişliğini, zeminin durumunu ve varsa eğimi göstermeye yeterlidir; net değilse kısa bir keşif yapılır. Son birkaç günün hava durumu da değerlendirmeye dahil edilir çünkü kırsal zemin yağıştan hızlı etkilenir.",
+                    "Zemin taşıma kapasitesi belirsizse, gövde tipi kararını sahada operatör verir; gerekirse yük dağıtıcı plaka kullanılır veya daha uygun bir konumlandırma noktası aranır. Bu değerlendirme, kısa süreli bir işte bile atlanmaz çünkü kırsal arazide devrilme riski şehir içi zemine göre daha yüksektir.",
+                ],
+            },
+            {
+                baslik: "Silo üstü kontrolde çalışma sıklığı ve planlama",
+                paragraflar: [
+                    "PET preform ve kapak siloları düzenli aralıklarla kontrol edilir; bu kontrol genellikle periyodik bakım programının bir parçasıdır. Tesisinizin bakım takvimine göre bu işi tekrarlayan bir kiralamaya bağlayabiliriz; bu, her seferinde yeniden teklif almak yerine önceden planlanmış bir program üzerinden ilerlemenizi sağlar.",
+                    "Silo dolum seviyesi mevsime göre değişebileceği için (yaz aylarında daha yoğun kullanım), kontrol sıklığını da bu değişkenliğe göre ayarlayabiliriz. Tesisinizin üretim programını paylaşırsanız, en uygun kontrol aralığını birlikte belirleyebiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kaynak suyu alma noktasına yol asfalt değilse platform gidebilir mi?",
+                cevap:
+                    "Genellikle gidebilir ama zemin durumuna göre gövde tipi değişir. Yol ve zemin durumunu güncel fotoğraf veya videoyla önceden değerlendiririz; kuru ve sert zeminde lastikli makine yeterli olabilirken, yumuşak veya eğimli zeminde paletli ya da arazi tipi makine tercih edilir. Son birkaç günün hava durumu da bu kararı etkiler, bu yüzden iş tarihine yakın bir teyit isteriz.",
+            },
+            {
+                soru: "PET silosunun üstüne standart platformla erişilebilir mi?",
+                cevap:
+                    "Silonun yüksekliğine ve etrafındaki manevra alanına bağlıdır. Çoğu PET preform silosu standart bir platformun erişim sınırları içindedir ama etrafındaki alan darsa kompakt bir model gerekebilir. Silonun yaklaşık yüksekliğini ve etrafındaki alanı paylaşırsanız, uygun kapasiteli platformu önerebiliriz.",
+            },
+            {
+                soru: "Yağmur sonrası kırsal zeminde çalışmak güvenli mi?",
+                cevap:
+                    "Zeminin taşıma kapasitesine bağlıdır; yağmur sonrası yumuşayan zeminde standart lastikli makine batabilir ve devrilme riski artar. Bu durumda paletli gövde tercih edilir veya zeminin kuruması beklenir. İş tarihi yağış sonrasına denk geliyorsa, sahaya gitmeden önce zemin durumunu operatörümüz kontrol eder; güvenli değilse alternatif tarih önerilir.",
+            },
+            {
+                soru: "Su alma tesisinin küçük yapısına platform nasıl ulaşıyor?",
+                cevap:
+                    "Erişim yolunun genişliği ve zemin durumu önceden değerlendirilir; dar bir erişim yoluysa kompakt bir makine, geniş ve düzse standart bir makine kullanılır. Bu tür kırsal noktalara teslimat, şehir içi teslimata göre daha fazla ön hazırlık gerektirir; bu yüzden talebinizi mümkün olduğunca erken bildirmenizi öneririz.",
+            },
+            {
+                soru: "Silo kontrolünü düzenli bir programa bağlayabilir miyiz?",
+                cevap:
+                    "Evet, periyodik bakım takviminize göre tekrarlayan bir kiralama programı kurabiliriz. Bu, her seferinde yeni teklif almak yerine önceden belirlenmiş aralıklarla makine ve operatör tahsisi yapmamızı sağlar. Bakım takviminizi paylaşırsanız, uygun bir program önerisi hazırlarız.",
+            },
+            {
+                soru: "Kırsal sahada operatör güvenliği için ek önlem alıyor musunuz?",
+                cevap:
+                    "Evet, kırsal ve açık arazi işlerinde standart iş güvenliği önlemlerine ek olarak zemin ve erişim yolu değerlendirmesi, iletişim imkânı (sinyal zayıf olabileceği için) ve hava koşulu takibi ayrıca yapılır. Operatörümüz sahaya gitmeden önce güzergâhı ve zemin durumunu bilir; belirsizlik varsa iş başlamadan önce sahada son bir kontrol yapılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu ve Mudurnu çevresinin doğal kaynak suyu kaynaklarıyla bilinen bir bölge olması ve dolum tesislerinin PET preform/kapak gibi ambalaj malzemesini silo yapılarında stoklaması kamuya açık genel bilgidir; kırsal zemin değerlendirme yöntemi ve silo kontrol programı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bolu'da Dolum Tesisi Aydınlatma ve Enerji Hattı Bakım Platformu",
+        giris:
+            "Bir dolum tesisinde aydınlatma, sıradan bir konfor unsuru değildir — hat üzerindeki görsel kontrol istasyonları, dolum kalitesi denetim noktaları ve gece vardiyasında çalışan üretim salonu, yeterli ve düzgün çalışan aydınlatmaya bağımlıdır. Bolu ve Mudurnu çevresindeki dolum tesislerinde aydınlatma bakımı genellikle üç katmanda ele alınır: üretim salonu içi tavan aydınlatması, dış saha ve yükleme rampası aydınlatması, ve tesis sınırındaki güvenlik/çevre aydınlatması. Bu üç katmanın erişim yüksekliği ve ortamı farklı olduğu için platform seçimi de farklılaşır. Enerji hattı tarafında ise tesisin trafo çevresi ve orta gerilim hatlarına yakın çalışma, ek güvenlik protokolü gerektirir. Bu sayfa, dolum tesisinde aydınlatma ve enerji hattı bakımının nasıl planlandığını ve elektrik riskine karşı hangi önlemlerin alındığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Üretim salonu tavan aydınlatmasının planlı bakımı",
+                metin:
+                    "Üretim salonunun tavan aydınlatması, hattın üzerinde veya yakınında konumlandığı için bakımı hattın planlı duruş penceresinde yapılır. Armatür değişimi veya temizliği sırasında hat üzerine düşebilecek parça riskine karşı alt bölge geçici olarak kapatılır. Aydınlatma seviyesinin dolum hattındaki görsel kontrol istasyonlarını etkilememesi için değişim sonrası ışık seviyesi kontrol edilir.",
+            },
+            {
+                baslik: "Yükleme rampası ve dış saha aydınlatması",
+                metin:
+                    "Yükleme rampası, gece saatlerinde de TIR trafiğine açık olabileceğinden aydınlatma sürekliliği önemlidir. Dış saha direklerinin bakımı, sevkiyat trafiğinin düşük olduğu bir saate planlanır; platform direğin yanına konumlanırken rampa güzergâhını geçici olarak kapatmayacak bir nokta seçilir.",
+            },
+            {
+                baslik: "Trafo çevresi ve orta gerilim hattına yakın çalışma",
+                metin:
+                    "Tesisin enerji dağıtım noktası olan trafo çevresinde çalışmak, standart aydınlatma bakımından farklı bir güvenlik seviyesi gerektirir. Bu bölgede platform kullanılmadan önce tesisin elektrik sorumlusuyla güvenli mesafe ve varsa enerji kesme prosedürü netleştirilir; operatörümüz orta gerilim hattına yaklaşım kurallarına göre hareket eder.",
+            },
+            {
+                baslik: "Tesis sınırı güvenlik ve çevre aydınlatması",
+                metin:
+                    "Tesis sınırındaki güvenlik aydınlatması ve kamera direkleri, genellikle çit hattı boyunca dizilidir; bu direklere erişim açık alanda yapılır ve zemin koşulu (çim, toprak, eğim) makinenin gövde tipini belirler. Bu iş, üretim alanından bağımsız olduğu için hat duruşuna bağlı kalmadan planlanabilir.",
+            },
+            {
+                baslik: "Aydınlatma arızasının hızlı müdahale ihtiyacı",
+                metin:
+                    "Bazı aydınlatma arızaları (örneğin bir hat bölümünün tamamen karanlıkta kalması) planlı bakımı beklemeden hızlı müdahale gerektirir. Bu tür acil taleplerde mümkün olan en kısa sürede uygun platform ve operatör yönlendiririz; ancak makine ve operatör uygunluğu o anki programımıza bağlı olduğu için kesin bir süre garantisi vermeyiz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma/enerji katmanı ve platform yaklaşımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum tesisindeki aydınlatma ve enerji bakım katmanlarını ve platform yaklaşımımızı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Katman", "Konum", "Risk", "Zamanlama"],
+                    satirlar: [
+                        ["Üretim salonu tavan aydınlatması", "Hat üzeri", "Düşen parça, hat kontrolü", "Planlı hat duruşu"],
+                        ["Yükleme rampası aydınlatması", "Dış saha", "Sevkiyat trafiği", "Trafik düşük saat"],
+                        ["Trafo çevresi/orta gerilim", "Enerji dağıtım noktası", "Elektrik riski", "Kesme prosedürü sonrası"],
+                        ["Tesis sınırı güvenlik aydınlatması", "Çit hattı", "Zemin/eğim", "Esnek"],
+                        ["Acil aydınlatma arızası", "Değişken", "Karanlık bölge", "En kısa sürede"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji hattına yakın çalışmada güvenli mesafe",
+                paragraflar: [
+                    "Orta gerilim hattı veya trafo çevresinde platform kullanmadan önce, tesisin elektrik sorumlusuyla güvenli mesafe netleştirilir. Bazı işlerde geçici enerji kesme prosedürü uygulanır; bu prosedür tesisin kendi elektrik ekibi tarafından yürütülür ve biz sadece kesme onayı alındıktan sonra çalışmaya başlarız.",
+                    "Enerji kesme mümkün değilse (örneğin sürekli çalışan bir hat), platform güvenli mesafeyi koruyacak şekilde konumlandırılır ve operatörümüz bu mesafeyi iş boyunca sabit tutar. Bu tür işlerde standart aydınlatma bakımına göre daha uzun bir hazırlık süresi gerekir.",
+                ],
+            },
+            {
+                baslik: "Gece vardiyası aydınlatma sürekliliği",
+                paragraflar: [
+                    "Gece vardiyası çalışan tesislerde aydınlatma sürekliliği üretim güvenliği açısından kritiktir. Bakım işlerini mümkün olduğunca gündüz vardiyasına planlarız ama bir bölümün gece de kullanılması gerekiyorsa, geçici aydınlatma çözümü (örneğin taşınabilir aydınlatma) devreye alınarak bakım süresince karanlık bölge bırakılmaması sağlanır.",
+                    "Tesisinizin vardiya programını paylaşırsanız, bakım işini üretim güvenliğini en az etkileyecek şekilde planlarız. Acil bir arıza gece saatinde ortaya çıkarsa, mümkün olan en kısa sürede müdahale için elimizdeki uygunluğa göre yönlendirme yaparız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hat üstü aydınlatma bakımı sırasında hat neden durdurulur?",
+                cevap:
+                    "Platform hattın üzerinde çalışırken düşebilecek küçük bir parça (vida, armatür bileşeni) ürün güvenliği açısından risk oluşturabilir; bu yüzden bu tür işler hattın planlı duruş penceresinde yapılır. Duruş süresi kısaysa işi öncelik sırasına göre planlarız ve birden fazla aydınlatma noktasını aynı duruşta toplamaya çalışırız.",
+            },
+            {
+                soru: "Trafo çevresinde çalışırken enerji kesiliyor mu?",
+                cevap:
+                    "Mümkün olduğunda evet; tesisin elektrik sorumlusuyla birlikte geçici enerji kesme prosedürü uygulanır ve biz sadece kesme onayı alındıktan sonra platformu bölgeye yaklaştırırız. Enerji kesme mümkün değilse, güvenli mesafe korunarak çalışılır ve bu mesafe operatörümüz tarafından iş boyunca sabit tutulur.",
+            },
+            {
+                soru: "Aydınlatma arızası acil ise ne kadar sürede müdahale edersiniz?",
+                cevap:
+                    "Mümkün olan en kısa sürede uygun platform ve operatör yönlendirmeye çalışırız ama kesin bir süre garantisi veremeyiz; bu, o anki program yoğunluğumuza bağlıdır. Arızanın konumunu ve niteliğini ilk aramada net bir şekilde iletmeniz, doğru makineyi hızlı seçmemize yardımcı olur.",
+            },
+            {
+                soru: "Yükleme rampasındaki direk bakımı sevkiyatı etkiler mi?",
+                cevap:
+                    "Doğru planlandığında etkilemez. Rampa aydınlatma bakımını sevkiyat trafiğinin düşük olduğu bir saate planlarız ve platformu rampa güzergâhını kapatmayacak bir noktaya konumlandırırız. Sevkiyat programınızı paylaşırsanız, en uygun saati birlikte belirleyebiliriz.",
+            },
+            {
+                soru: "Gece vardiyasında bir bölüm karanlıkta kalırsa ne yapılır?",
+                cevap:
+                    "Bakım süresince o bölgede taşınabilir geçici aydınlatma kullanarak karanlık bölge bırakmamaya çalışırız. Bakım işini mümkün olduğunca gündüz vardiyasına planlamayı tercih ederiz ama gece müdahale gerekiyorsa bu geçici çözümle üretim güvenliğinin sürmesini sağlarız.",
+            },
+            {
+                soru: "Tesis sınırındaki güvenlik aydınlatması için ayrı bir izin gerekir mi?",
+                cevap:
+                    "Tesis sınırındaki işler genellikle üretim alanından bağımsız olduğu için hat duruşuna bağlı kalmadan planlanabilir, ama tesisin güvenlik ekibine haber verilmesi gerekir çünkü kamera ve güvenlik sistemleri geçici olarak etkilenebilir. Bu bildirim genellikle tesis sorumlusu tarafından yapılır; iş programını netleştirirken bu adımı da hatırlatırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Üretim tesislerinde trafo/orta gerilim hattı çevresinde çalışmanın ek güvenlik protokolü gerektirmesi ve gece vardiyalı üretimde aydınlatma sürekliliğinin önemi kamuya açık genel bilgidir; enerji kesme koordinasyonu ve geçici aydınlatma uygulaması firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bolu'da Dolum Tesisleri İçin Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Hijyen kısıtlı bir dolum tesisinde platform kullanmak, standart bir şantiyeden farklı bir yetkinlik gerektirir: operatörün sadece platformu güvenli kullanması yetmez, aynı zamanda temiz alan kurallarına, tesis içi trafik düzenine ve gıda güvenliği hassasiyetine de uyum sağlaması gerekir. Bolu ve Mudurnu çevresindeki dolum tesislerinde operatörlü kiralama talebi, özellikle ilk kez çalışılan tesislerde veya hijyen kısıtı yüksek bölgelerde tercih edilir; tesisin kendi personeli deneyimliyse ve gerekli belgelere sahipse operatörsüz kiralama da mümkündür. Bu sayfa, dolum tesisinde operatörlü ve operatörsüz kiralama arasındaki farkı, operatörün hijyen kısıtlı alana nasıl hazırlandığını ve hangi durumda hangi seçimin daha uygun olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Operatörün hijyen kısıtlı alana hazırlığı",
+                metin:
+                    "Operatörümüz temiz alan sınırına girmeden önce tesisin giriş kurallarına göre hazırlanır — bu bazen özel bir kıyafet, bazen sadece ayakkabı değişimi veya el dezenfeksiyonu olabilir. Tesisin kendi prosedürü bize önceden bildirildiğinde operatörümüzü buna göre yönlendiririz; sahada ilk kez karşılaşılan bir kural, işin başlangıcını geciktirebilir.",
+            },
+            {
+                baslik: "Tesis içi trafik ve öncelik kurallarına uyum",
+                metin:
+                    "Dolum tesisinde forklift, palet taşıyıcı ve TIR trafiği belirli bir öncelik sırasına göre işler; platform operatörümüz bu sıraya uyar ve kendi hareketini tesisin trafik yoğun anlarına denk getirmemeye çalışır. Tesis sorumlusundan aldığımız trafik kuralları, operatör brifingine dahil edilir.",
+            },
+            {
+                baslik: "İlk çalışılan tesiste operatörlü kiralamanın avantajı",
+                metin:
+                    "Daha önce çalışmadığımız bir tesiste, sahanın hijyen kuralları, geçiş noktaları ve özel kısıtları net olmadığı için operatörlü kiralamayı öneririz. Deneyimli operatörümüz sahada karşılaştığı belirsizlikleri hızlı değerlendirir ve gerektiğinde tesis sorumlusuyla anında iletişime geçer; bu, ilk ziyarette olası bir hijyen ihlalini önler.",
+            },
+            {
+                baslik: "Belgeli tesis personeliyle operatörsüz kiralama",
+                metin:
+                    "Tesisinizin kendi personeli arasında geçerli platform kullanım belgesine sahip ve deneyimli bir operatör varsa, operatörsüz kiralama tercih edilebilir. Bu durumda makinenin teslim sırasında kullanım eğitimi ve güvenlik noktaları personelinizle birlikte gözden geçirilir; belge kontrolü teslim öncesi standart bir adımdır.",
+            },
+            {
+                baslik: "Uzun süreli kiralamada operatör devamlılığı",
+                metin:
+                    "Birkaç hafta süren bir işte, aynı operatörün sahada devam etmesi tesisin kurallarını her seferinde yeniden anlatma ihtiyacını ortadan kaldırır. Mümkün olduğunca aynı operatörü tahsis etmeye çalışırız; operatör değişikliği gerektiğinde yeni operatör, tesisin özel kurallarını önceki operatörden veya bizim kayıtlarımızdan devralır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, dolum tesisi ortamında operatörlü ve operatörsüz kiralama arasındaki farkı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Operatörlü", "Operatörsüz", "Not"],
+                    satirlar: [
+                        ["İlk kez çalışılan tesis", "Önerilir", "Riskli olabilir", "Hijyen kuralı bilinmiyor"],
+                        ["Belgeli tesis personeli", "İsteğe bağlı", "Uygun", "Belge kontrolü teslimde yapılır"],
+                        ["Hijyen kısıtı yüksek alan", "Önerilir", "Dikkatli değerlendirilmeli", "Tesis onayı gerekir"],
+                        ["Kısa süreli tek iş", "Pratik", "Uygun (belgeliyse)", "Süreye göre maliyet farkı"],
+                        ["Uzun süreli tekrarlı iş", "Devamlılık avantajı", "Uygun (eğitimliyse)", "Operatör tanışıklığı önemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör brifinginde tesis kurallarının aktarımı",
+                paragraflar: [
+                    "Operatörlü kiralamada sahaya gitmeden önce tesisten aldığımız bilgiyle bir brifing hazırlarız: hijyen giriş kuralları, temiz alan sınırları, trafik önceliği, acil durum prosedürü. Bu brifing operatörümüzle işin başında paylaşılır ve sahada bir belirsizlik çıkarsa operatörümüz doğrudan tesis sorumlusuna yönlendirilir.",
+                    "Tesisinizin kuralları zaman içinde değişebilir (örneğin yeni bir hijyen protokolü); bu değişiklikleri bize bildirmeniz, bir sonraki ziyarette operatörümüzün güncel kurallara göre hareket etmesini sağlar.",
+                ],
+            },
+            {
+                baslik: "Operatörsüz kiralamada belge ve eğitim kontrolü",
+                paragraflar: [
+                    "Operatörsüz kiralamada, makineyi kullanacak personelinizin geçerli kullanım belgesi teslim sırasında kontrol edilir. Belge yoksa veya süresi geçmişse operatörsüz teslim yapılmaz; bu durumda operatörlü kiralamaya geçiş önerilir. Belgeli personeliniz olsa bile, o makine modeline özgü kısa bir kullanım tanıtımı teslim sırasında yapılır.",
+                    "Operatörsüz kiralamada makinenin hijyen kısıtlı alana girişiyle ilgili sorumluluk tesise geçer; bu nedenle tesisinizin kendi hijyen prosedürünü personelinize önceden aktarmış olması beklenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İlk kez çalıştığımız bir tesiste operatörsüz kiralama önerir misiniz?",
+                cevap:
+                    "Genellikle önermeyiz. Sahanın hijyen kuralları, geçiş noktaları ve özel kısıtları net olmadığı için deneyimli bir operatörün ilk ziyarette sahada olması, olası bir hijyen ihlalini veya trafik hatasını önler. İlk çalışmadan sonra, ekibiniz sahaya aşina olduğunda operatörsüz kiralamaya geçmeyi değerlendirebiliriz.",
+            },
+            {
+                soru: "Operatörünüz bizim tesisimizin özel kurallarını nasıl öğreniyor?",
+                cevap:
+                    "İşin başında tesisinizden aldığımız bilgiyle bir brifing hazırlarız ve bunu operatörümüzle paylaşırız; hijyen giriş kuralları, temiz alan sınırları, trafik önceliği bu brifingde yer alır. Sahada bir belirsizlik çıkarsa operatörümüz doğrudan tesis sorumlunuza yönlenir. Kurallarınız değiştiğinde bize bildirmeniz, bir sonraki ziyarette güncel bilgiyle hareket etmemizi sağlar.",
+            },
+            {
+                soru: "Personelimizin belgesi varsa operatörsüz kiralayabilir miyiz?",
+                cevap:
+                    "Evet, geçerli platform kullanım belgesi olan personeliniz varsa operatörsüz kiralama mümkündür. Teslim sırasında belge kontrolü yapılır ve o makine modeline özgü kısa bir kullanım tanıtımı gerçekleştirilir. Belge yoksa veya süresi geçmişse operatörsüz teslim yapmayız; bu durumda operatörlü seçeneği öneririz.",
+            },
+            {
+                soru: "Uzun süreli işte hep aynı operatör mü geliyor?",
+                cevap:
+                    "Mümkün olduğunca evet; bu, tesisinizin kurallarını her seferinde yeniden anlatma ihtiyacını ortadan kaldırır ve iş verimliliğini artırır. Operatör değişikliği gerekirse (izin, hastalık gibi durumlarda), yeni operatör tesisin özel kurallarını bizim kayıtlarımızdan veya önceki operatörden devralır; sahada bir bilgi boşluğu bırakmamaya çalışırız.",
+            },
+            {
+                soru: "Operatörsüz kiralamada bir kaza olursa sorumluluk kimde?",
+                cevap:
+                    "Operatörsüz kiralamada makineyi kullanan personel ve tesisiniz, kullanım sırasındaki güvenlik ve hijyen kurallarına uyumdan sorumludur. Bizim sorumluluğumuz, makinenin teslim anında güvenli ve çalışır durumda olmasını sağlamak ve gerekli kullanım tanıtımını yapmaktır. Bu ayrım kiralama sözleşmesinde netleştirilir; belirsizlik varsa teslim öncesi birlikte gözden geçiririz.",
+            },
+            {
+                soru: "Hijyen kısıtı yüksek bir alanda mutlaka operatörlü mü olmalı?",
+                cevap:
+                    "Zorunlu değil ama önerimiz operatörlü yöndedir, özellikle tesis kurallarına aşina olmayan bir ekip söz konusuysa. Personeliniz hem platform kullanım belgesine hem tesisin hijyen prosedürüne aşinaysa operatörsüz de değerlendirilebilir. Kararı, tesisinizin risk toleransı ve personelinizin deneyimine göre birlikte alırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gıda/içecek üretim tesislerinde dışarıdan gelen ekipman operatörünün hijyen prosedürüne uyum göstermesi gerekliliği kamuya açık genel bilgidir; operatör brifingi ve belge kontrol süreci firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bolu'da Mudurnu-Merkez Hattında Çok Noktalı Dolum Tesisi Bakım Rotası",
+        giris:
+            "Bazı işletmelerin Bolu ilinde birden fazla noktası vardır: Mudurnu'daki kaynak suyu tesisi, Bolu merkezdeki depo veya ikinci bir üretim hattı, bazen de tesis dışındaki bir su alma noktası. Bu tür işletmeler için tek seferlik değil, birden fazla adresi kapsayan bir bakım rotası kurmak, her seferinde ayrı ayrı platform çağırmaktan daha verimlidir. Rota planlaması, adresler arası mesafeyi, her noktadaki işin süresini ve her tesisin kendi hijyen/güvenlik prosedürünü aynı anda hesaba katar. Bu sayfa, Bolu ilinde birden fazla dolum tesisi veya depo noktasına sahip işletmeler için çok noktalı bakım rotasının nasıl kurulduğunu ve her noktanın kendi kurallarının nasıl korunduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Mudurnu ve Bolu merkez arası rota mesafesi",
+                metin:
+                    "Mudurnu'daki tesis ile Bolu merkezdeki ikinci nokta arasındaki yol mesafesi, aynı gün içinde iki adresi kapsayan bir rota kurarken hesaba katılan ilk faktördür. Yol süresi, her adresteki işin planlanan süresiyle birlikte değerlendirilir; toplam süre bir iş gününü aşıyorsa rota iki güne bölünür.",
+            },
+            {
+                baslik: "Her tesisin kendi hijyen ve güvenlik kuralı",
+                metin:
+                    "Aynı işletmenin farklı noktaları bile birbirinden farklı hijyen ve güvenlik prosedürüne sahip olabilir — biri daha yeni kurulmuş ve daha sıkı bir temiz alan tanımına sahipken diğeri daha eski bir yerleşim planına sahip olabilir. Rota planlarken her adresin kendi kuralını ayrı ayrı not ederiz; bir noktadaki kuralı diğerine otomatik uygulamayız.",
+            },
+            {
+                baslik: "Tek makineyle mi, iki makineyle mi rota",
+                metin:
+                    "Bazı işlerde tek bir platform, gün içinde iki adresi sırayla dolaşabilir; bazı işlerde ise her iki noktada eş zamanlı iş olduğu için iki ayrı makine gerekir. Bu kararı, her adresteki iş kapsamı ve zaman kısıtına göre veririz; talebinizi alırken her noktadaki işin ne kadar süreceğini sormamızın nedeni budur.",
+            },
+            {
+                baslik: "Rota içinde nakliye ve kurulum süresinin toplam etkisi",
+                metin:
+                    "Çok noktalı bir rotada, her adresteki kurulum ve söküm süresi toplam iş süresine eklenir. Kısa işlerde bu ek süre orantısız büyüyebilir; bu yüzden rota planlarken her noktadaki net çalışma süresini ve kurulum-söküm süresini ayrı ayrı hesaplarız, toplam günün gerçekçi olup olmadığını kontrol ederiz.",
+            },
+            {
+                baslik: "Her adresin ayrı kaydı ve kapanış onayı",
+                metin:
+                    "Rotadaki her adres, bağımsız bir iş olarak kayıt altına alınır — fotoğraf, tamamlanan iş listesi, sahadaki sorumlu kişinin onayı. Bir adresteki işin sonucu diğerine karışmaz; her noktanın kendi kapanış kaydı, o tesisin sorumlusuyla ayrı ayrı teyit edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota planlama tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, Bolu ilinde birden fazla noktaya sahip işletmeler için rota planlamasında değerlendirdiğimiz temel unsurları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Unsur", "Değerlendirme", "Etki", "Karar"],
+                    satirlar: [
+                        ["Adresler arası mesafe", "Yol süresi", "Toplam gün süresi", "Tek/çift gün rota"],
+                        ["Her adresteki iş süresi", "Kurulum+çalışma+söküm", "Program yoğunluğu", "Makine sayısı"],
+                        ["Hijyen/güvenlik kuralı", "Tesise özel", "Hazırlık süresi", "Ayrı brifing"],
+                        ["Eş zamanlı iş ihtiyacı", "Her nokta bağımsız mı", "Tek/çift makine", "Kaynak tahsisi"],
+                        ["Kapanış kaydı", "Her adres ayrı", "Denetlenebilirlik", "Ayrı onay"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek gün içinde iki adresi kapsamak mümkün mü",
+                paragraflar: [
+                    "Mudurnu ile Bolu merkez arasındaki mesafe ve her adresteki işin süresi uygunsa, tek bir platform ve operatör ekibi gün içinde iki noktayı sırayla dolaşabilir. Bu, iki ayrı makine kiralamaya göre daha ekonomik olabilir ama her iki adresteki işin toplam süresinin bir iş gününe sığması gerekir.",
+                    "İlk adresteki iş beklenenden uzun sürerse, ikinci adresteki iş bir sonraki güne kayabilir; bu durumu önceden değerlendirip her iki tesise de olası bir gecikme ihtimalini bildiririz. Kesin zaman garantisi vermek yerine gerçekçi bir aralık paylaşmayı tercih ederiz.",
+                ],
+            },
+            {
+                baslik: "Tekrarlayan rota için periyodik program",
+                paragraflar: [
+                    "Birden fazla noktaya sahip işletmelerin bakım ihtiyacı genellikle periyodiktir — örneğin ayda bir aydınlatma kontrolü, üç ayda bir cephe/çatı kontrolü. Bu tür ihtiyaçlar için tek seferlik teklif yerine periyodik bir rota programı kurabiliriz; bu program her adresin kendi bakım takvimine göre ayarlanır.",
+                    "Periyodik programda bir adresin ihtiyacı değişirse (örneğin yeni bir hat eklenirse), programı o adrese özel güncelleriz; diğer adresler etkilenmez. Bu esneklik, işletmenizin büyümesiyle birlikte rota programının da uyum sağlamasını mümkün kılar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mudurnu ve Bolu merkezdeki iki tesisimizi aynı gün ziyaret edebilir misiniz?",
+                cevap:
+                    "Adresler arası mesafe ve her tesisteki işin süresi uygunsa mümkündür. Her iki adresteki iş kapsamını paylaştığınızda, toplam sürenin bir iş gününe sığıp sığmayacağını hesaplayıp size gerçekçi bir program öneririz. Sığmıyorsa iki günlük bir rota veya iki ayrı makine önerebiliriz.",
+            },
+            {
+                soru: "Her tesisimizin farklı hijyen kuralı var, bu karışıklık yaratır mı?",
+                cevap:
+                    "Yaratmaz, çünkü her adresin kuralını ayrı ayrı kaydeder ve operatörümüze adrese özel brifing veririz. Bir tesisteki kuralı diğerine otomatik uygulamayız; her noktanın kendi prosedürüne göre hazırlık yaparız. Kurallarınızı önceden net bir şekilde paylaşmanız, rota içinde karışıklık yaşanmamasını sağlar.",
+            },
+            {
+                soru: "Tek makine mi yoksa iki makine mi kullanmalıyız?",
+                cevap:
+                    "Bu, her adresteki işin eş zamanlı olup olmadığına bağlıdır. İki noktada aynı anda iş yapılması gerekiyorsa iki makine gerekir; işler sıralı yapılabiliyorsa tek makine gün içinde iki adresi dolaşabilir. Talebinizi alırken her noktadaki işin niteliğini ve zaman kısıtını sorarız, buna göre öneri sunarız.",
+            },
+            {
+                soru: "Bir adresteki iş uzarsa diğer adres ne olur?",
+                cevap:
+                    "İlk adresteki iş beklenenden uzarsa, ikinci adresteki işin bir sonraki güne kayması gerekebilir. Bu ihtimali rota planlanırken her iki tesise de önceden bildiririz; kesin zaman garantisi vermek yerine gerçekçi bir aralık paylaşırız. Gecikme durumunda her iki tesisle de erken iletişime geçeriz.",
+            },
+            {
+                soru: "Periyodik bir bakım programı kurabilir miyiz?",
+                cevap:
+                    "Evet, aylık veya üç aylık gibi düzenli aralıklarla tekrarlayan bir rota programı kurabiliriz. Bu program her adresin kendi bakım takvimine göre ayarlanır ve bir adresin ihtiyacı değiştiğinde sadece o adrese özel güncellenir. Bakım sıklığınızı ve önceliklerinizi paylaşırsanız, size uygun bir program önerisi hazırlarız.",
+            },
+            {
+                soru: "Rotadaki her adresin kaydı ayrı mı tutuluyor?",
+                cevap:
+                    "Evet, her adres bağımsız bir iş olarak kayıt altına alınır — fotoğraf, tamamlanan iş listesi ve o adresteki sorumlunun onayı ile. Bir adresteki işin sonucu diğerine karışmaz; her noktanın kapanışını o tesisin sorumlusuyla ayrı ayrı teyit ederiz. Bu, denetim ve raporlama açısından her adresin kendi geçmişinin net kalmasını sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu ilinde bazı işletmelerin Mudurnu ve merkez gibi birden fazla noktada tesis/depo bulundurması kamuya açık genel bilgidir; çok noktalı rota planlama yöntemi ve periyodik program kurma yaklaşımı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bolu'da Kaynak Suyu Tesisi Çevresi Zor Zemin ve Arazi Platform Kiralama",
+        giris:
+            "Kaynak suyu kaynaklarının bulunduğu araziler, dolum tesisinin kendi binasından farklı bir zemin yapısına sahiptir; çoğu zaman orman sınırında, eğimli veya hazırlıksız bir zeminde bulunur. Bolu ve Mudurnu çevresindeki kaynak suyu bölgelerinde platform gerektiren işler — su alma yapısının bakımı, boru hattı güzergâhı kontrolü, koruma çitinin veya küçük yapıların onarımı — standart bir tesis içi işten farklı bir zemin değerlendirmesi gerektirir. Zeminin eğimi, taşıma kapasitesi, bitki örtüsü ve mevsime bağlı nem durumu, hangi gövde tipinin (lastikli, paletli, arazi tipi) kullanılacağını belirler. Bu sayfa, kaynak suyu tesisi çevresindeki zor zemin ve arazi koşullarında platform kullanımının nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Orman sınırındaki zeminin taşıma kapasitesi",
+                metin:
+                    "Kaynak suyu alma noktaları genellikle orman arazisi sınırında bulunur; bu zeminlerde toprak yapısı, kök sistemi ve organik madde oranı şehir içi zeminden farklıdır ve taşıma kapasitesi değişkendir. Kurulum öncesi zemin gözle ve mümkünse basit bir kontrolle değerlendirilir; belirsizse paletli gövde tercih edilir çünkü yük dağıtımı daha geniş bir alana yayılır.",
+            },
+            {
+                baslik: "Eğimli arazide denge ve konumlandırma",
+                metin:
+                    "Su alma yapısının çevresi çoğu zaman düz değildir; hafif ya da belirgin bir eğim, makinenin izin verilen eğim sınırını zorlayabilir. Kurulum noktası seçilirken üreticinin belirlediği eğim sınırı esas alınır; sınırın üzerinde bir eğimde kurulum yapılmaz, bunun yerine daha düz bir nokta aranır veya zemin hazırlığı (dolgu, düzeltme) istenir.",
+            },
+            {
+                baslik: "Bitki örtüsü ve erişim yolunun daralması",
+                metin:
+                    "Orman sınırındaki bir yolun genişliği mevsime göre değişebilir; yaz aylarında büyüyen bitki örtüsü, kışın kar veya çamur birikmesiyle erişim daralabilir. Sahaya gitmeden önce güncel yol durumu sorulur; daralma varsa kompakt bir makine tercih edilir veya yol üzerindeki engel önceden temizlenmesi istenir.",
+            },
+            {
+                baslik: "Mevsime bağlı nem ve zemin yumuşaması",
+                metin:
+                    "Yağışlı dönemde veya kar erimesi sonrasında zemin yumuşayabilir ve taşıma kapasitesini kaybedebilir. Bu durumda lastikli bir makine batabilir ve devrilme riski oluşur; paletli gövde bu riski önemli ölçüde azaltır. İş tarihinden birkaç gün önceki hava durumu, gövde tipi kararında belirleyici faktördür.",
+            },
+            {
+                baslik: "Boru hattı güzergâhı boyunca noktasal erişim",
+                metin:
+                    "Su hattının güzergâhı boyunca birden fazla kontrol veya onarım noktası olabilir; bu noktalar birbirinden uzak ve farklı zemin koşullarına sahip olabilir. Her nokta ayrı değerlendirilir — bir noktada lastikli makine yeterliyken bir sonraki noktada paletli gövde gerekebilir. Güzergâh boyunca birden fazla nokta varsa, hepsini tek seferde planlayarak nakliye verimliliğini artırırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kaynak suyu arazisinde zemin tipi ve gövde tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, kaynak suyu tesisi çevresindeki tipik zemin durumlarını ve önerdiğimiz gövde tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Risk", "Gövde tercihi", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Orman sınırı, kuru toprak", "Orta", "Lastikli/paletli", "Kök sistemi, organik madde"],
+                        ["Eğimli arazi", "Yüksek", "Paletli, düşük ağırlık merkezi", "Üretici eğim sınırı"],
+                        ["Yağış sonrası yumuşak zemin", "Yüksek", "Paletli", "Son günlerin hava durumu"],
+                        ["Dar/daralmış erişim yolu", "Orta", "Kompakt gövde", "Bitki örtüsü, mevsim"],
+                        ["Boru hattı güzergâhı, çoklu nokta", "Değişken", "Noktaya göre karar", "Her nokta ayrı değerlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kurulum öncesi zemin değerlendirmesi nasıl yapılır",
+                paragraflar: [
+                    "Sahaya makine göndermeden önce mümkünse güncel fotoğraf veya video isteriz; bu görüntüler zeminin genel durumunu, eğimi ve bitki örtüsünü göstermeye yeterlidir. Belirsizlik yüksekse, özellikle daha önce çalışılmamış bir noktada, kısa bir keşif ziyareti öneririz. Bu keşif, yanlış gövde tipiyle sahaya gidip geri dönme riskini ortadan kaldırır.",
+                    "Değerlendirme sonucunda zemin güvenli bulunmazsa, alternatif bir kurulum noktası aranır ya da zemin hazırlığı (örneğin yük dağıtıcı plaka veya geçici dolgu) önerilir. Bu hazırlık işin süresine eklenir; iş planlarken bu ek süreyi de hesaba katarız.",
+                ],
+            },
+            {
+                baslik: "Arazi tipi makinenin sınırları",
+                paragraflar: [
+                    "Arazi tipi veya paletli gövde, standart bir lastikli platforma göre daha zorlu zeminlerde çalışabilir ama sınırsız değildir. Üreticinin belirlediği eğim, zemin yükü ve devrilme sınırları her koşulda geçerlidir; bu sınırların üzerinde bir zeminde arazi tipi makine bile kullanılmaz.",
+                    "Zeminin sınırları zorladığı durumlarda, platform yerine alternatif bir erişim yöntemi (örneğin geçici iskele veya farklı bir güzergâh) değerlendirilebilir. Bu kararı sahadaki operatörümüz ve tesisinizin yetkilisiyle birlikte veririz; güvenlik sınırında tavizli bir seçim yapmayız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Orman sınırındaki bir noktaya platform gönderebilir misiniz?",
+                cevap:
+                    "Genellikle gönderebiliriz ama zemin durumuna göre gövde tipi ve hazırlık değişir. Sahaya gitmeden önce güncel fotoğraf veya video ile zemini değerlendiririz; belirsizse kısa bir keşif öneririz. Kök sistemi ve organik madde oranı yüksek zeminlerde paletli gövde tercih edilir çünkü yük dağılımı daha güvenlidir.",
+            },
+            {
+                soru: "Eğimli arazide platform devrilme riski nasıl önleniyor?",
+                cevap:
+                    "Üreticinin belirlediği eğim sınırı esas alınır; bu sınırın üzerinde bir eğimde kurulum yapılmaz. Kurulum noktası seçilirken daha düz bir alan aranır veya zemin hazırlığı istenir. Operatörümüz sahada eğimi ölçüp sınır içinde olduğunu teyit etmeden makineyi konumlandırmaz; bu konuda taviz verilmez.",
+            },
+            {
+                soru: "Yağmurdan sonra hemen çalışabilir miyiz?",
+                cevap:
+                    "Zeminin kuruma durumuna bağlıdır. Yağış sonrası yumuşayan zeminde lastikli makine batma ve devrilme riski taşır; bu durumda paletli gövde kullanırız ya da zeminin kısmen kurumasını bekleriz. İş tarihi yağış sonrasına denk geliyorsa, sahaya gitmeden önce zemin durumunu güncel olarak kontrol ederiz.",
+            },
+            {
+                soru: "Erişim yolu dar ve bitki örtüsüyle kaplıysa ne yapılır?",
+                cevap:
+                    "Yol durumunu önceden sorarız; daralma varsa kompakt bir makine tercih edilir ya da yol üzerindeki engelin önceden temizlenmesini isteriz. Yolun genişliğini ve güncel durumunu fotoğrafla paylaşmanız, doğru makineyi seçmemizi ve sahada zaman kaybı yaşanmamasını sağlar.",
+            },
+            {
+                soru: "Boru hattı güzergâhı boyunca birden fazla noktada çalışabilir misiniz?",
+                cevap:
+                    "Evet, güzergâh boyunca birden fazla nokta varsa hepsini tek seferde planlayabiliriz. Her nokta kendi zemin koşuluna göre ayrı değerlendirilir; bir noktada lastikli makine yeterliyken bir sonrakinde paletli gövde gerekebilir. Güzergâhın tamamını ve her noktanın yaklaşık konumunu paylaşırsanız, en verimli sırayı ve gövde tipini birlikte planlarız.",
+            },
+            {
+                soru: "Zemin çok riskliyse alternatif bir çözümünüz var mı?",
+                cevap:
+                    "Zemin, arazi tipi makinenin bile güvenli çalışamayacağı kadar riskliyse, platform yerine geçici iskele veya farklı bir erişim güzergâhı gibi alternatifleri değerlendiririz. Bu kararı sahadaki operatörümüz ve tesisinizin yetkilisiyle birlikte veririz; güvenlik sınırında bir taviz vermeyiz, gerekirse işi zemin uygun hale gelene kadar erteleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu ve Mudurnu çevresindeki kaynak suyu kaynaklarının orman sınırı ve eğimli arazide bulunması kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve gövde tipi seçim mantığı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
 };

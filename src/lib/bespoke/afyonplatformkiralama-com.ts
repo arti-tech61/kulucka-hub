@@ -578,4 +578,545 @@ export const AFYONPLATFORMKIRALAMA_COM: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-13. Sultandağı’nın tarımsal üretim ve ürün işleme kimliği kamuya açık genel bilgidir; organik yan ürün, çatı enerjisi ve yardımcı tesislere ilişkin yaklaşım sektör geneli çerçevede ele alınmış, tesis veya kapasite varsayılmamıştır. Rota, temizlik ve izin sıralaması firma saha pratiğidir.",
     },
+
+    // ── HİZMET SAYFALARI (2026-08-14) ──────────────────────────────────────
+    // Mercek: Afyonkarahisar'ın sucuk-pastırma/kırmızı et gıda işleme
+    // tesisleri. afyonmanlift.com'daki genel tarım-gıda (mandıra, tahıl,
+    // meyve paketleme) anlatısından farklı olarak burada SPESİFİK et işleme
+    // zinciri (kurutma/olgunlaştırma odası, dondurulmuş ürün deposu,
+    // soğuk zincir sevkiyat, baharat-tuz girdi deposu) işlenir.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Afyonkarahisar Sucuk-Pastırma Tesislerinde Kurutma Odaları Arası Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Afyonkarahisar'ın sucuk ve pastırma üretiminde tanınan bir merkez olması, buradaki et işleme tesislerinin bir kısmının zaman içinde büyüyerek değil, mevcut binaya ek kurutma ve olgunlaştırma odaları eklenerek genişlediği anlamına gelir. Sonuç, koridorların dar, oda kapılarının standart bir makaslı platformu almayacak genişlikte, oda içindeki askı rayları ile tavan arası mesafenin ise sıkışık olduğu bir yerleşimdir. Aynı darlık paketleme hattının iki yanındaki servis geçitlerinde ve soğuk depo ile üretim alanı arasındaki bağlantı koridorlarında da karşımıza çıkar. Sepetli örümcek platform, gövdesini katlayarak dar bir kapıdan geçebilmesi, paletli veya küçük tekerlekli yürüyüş takımıyla ıslak beton üzerinde tutunması ve ayaklarını noktasal olarak açarak zemine yayılmasıyla bu tip alanlarda tercih edilir. Bu sayfada örümcek platformun kurutma odası tavanındaki askı sistemi bakımında, oda üstü aydınlatma ve nem sensörü değişiminde ne zaman gerçekten gerekli olduğunu, hangi ölçülerin (kapı genişliği, koridor dönüş yarıçapı, oda içi tavan yüksekliği) montaj kararını belirlediğini anlatıyoruz.",
+        maddeler: [
+            { baslik: "Kurutma odası kapı ve koridor ölçüsü", metin: "Sepetli örümcek platform seçiminde ilk soru makinenin katlanmış hâldeki genişliği ile en dar kapı arasındaki farktır. Afyonkarahisar'daki bazı sucuk-pastırma tesislerinde kurutma odaları sonradan eklendiği için kapı genişlikleri standart değildir; bir odanın kapısı diğerinden 15-20 santim dar olabilir. Bu nedenle sevkiyat öncesi en dar geçişin fotoğrafı ve santimetre cinsinden ölçüsü istenir; ölçü paylaşılmadan sadece 'dar kapı var' bilgisiyle makine gönderilmez." },
+            { baslik: "Askı rayı altında güvenli manevra", metin: "Kurutma ve olgunlaştırma odalarında ürün tavana yakın askı raylarına asılıdır. Platform bu raylar arasında hareket ederken hem sepetin hem şasenin ürüne temas etmemesi gerekir. Çalışma öncesi raydaki ürünün o gün üretimde olup olmadığı, boş rayların hangi kısımda bulunduğu tesis yetkilisiyle birlikte kontrol edilir. Ürünle dolu bir rayın altında yalnızca zorunlu ve önceden planlanmış işler yapılır; keşif yapılmadan bu alanlara girilmez." },
+            { baslik: "Nem ve sıcaklık kontrollü ortamda ekipman koşulu", metin: "Kurutma odaları belirli bir nem ve sıcaklık bandında tutulur; kapının uzun süre açık kalması odanın iklimini bozabilir. Bu nedenle platform odaya girmeden önce iş süresi ve kapının açık kalma planı tesis ile netleştirilir. Makinenin akü veya yakıt sistemi kapalı alan havalandırma kurallarına uygun seçilir; kapalı, göreceli dar hacimlerde akülü tip tercih edilir ve dizel/LPG tip için tesisin havalandırma onayı aranır." },
+            { baslik: "Hijyen bölgesine giriş öncesi temizlik", metin: "Sucuk-pastırma üretiminde kurutma ve olgunlaştırma odaları genellikle temiz üretim alanının bir parçası sayılır ve tesisin kendi hijyen prosedürüne tabidir. Platform bu alana girmeden önce tekerlek ve şase dış sahada temizlenir; tesisin istediği ek dezenfeksiyon adımı varsa bu adım atlanmadan uygulanır. Aynı gün önce dış saha veya depo işi yapılan bir makine, ara temizlik yapılmadan doğrudan kurutma odasına alınmaz." },
+            { baslik: "Dar alanda operatör görüş açısı ve yardımcı personel", metin: "Askı rayları arasındaki dar koridorda operatörün görüş açısı sınırlı olabilir; bu durumda yerde bir yardımcı personel bulundurulması hem manevra güvenliğini hem de rayla temas riskini azaltır. Sepetin yükselme ve dönüş hareketleri düşük hızda yapılır, ani manevra tercih edilmez. İş bitiminde platform odadan çıkarılmadan önce sepet tam iniş konumuna alınır ve geçiş güzergâhı tekrar kontrol edilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis bölümüne göre örümcek platform gereksinimi",
+                paragraflar: ["Sucuk-pastırma tesisinin farklı bölümlerinde geçiş genişliği, tavan yüksekliği ve hijyen sınıfı değişir. Aşağıdaki tablo, hangi bölümde hangi koşulun öne çıktığını özetler."],
+                tablo: {
+                    basliklar: ["Bölüm", "Öne çıkan kısıt", "Tipik geçiş genişliği", "Öncelikli önlem"],
+                    satirlar: [
+                        ["Kurutma odası", "Askı rayı ve dar kapı", "70-90 cm", "Ölçü teyidi, düşük hızlı manevra"],
+                        ["Olgunlaştırma odası", "Nem/sıcaklık kontrolü", "80-100 cm", "Kısa kapı açık kalma süresi"],
+                        ["Paketleme hattı yanı", "Bant ve personel trafiği", "90-120 cm", "Hat durduğunda çalışma"],
+                        ["Soğuk depo geçidi", "Düşük sıcaklık, ıslak zemin", "100-130 cm", "Paletli yürüyüş takımı"],
+                        ["İdari-üretim ara koridoru", "Çift yönlü trafik", "110-140 cm", "Refakatçi personel"],
+                    ],
+                },
+            },
+            {
+                baslik: "Katlı gövdeyle taşıma ve montaj sırası",
+                paragraflar: [
+                    "Örümcek platform, tesise ulaştığında genellikle katlanmış hâldedir ve hedef odaya en yakın noktada açılıp çalışma konumuna getirilir. Bu, makinenin bütün hâlde dar bir koridordan geçirilmeye çalışılmasından daha güvenli bir yöntemdir. Açma işlemi düz ve sağlam bir zeminde yapılır; kurutma odasının hemen önündeki geçit bu iş için uygun değilse en yakın uygun nokta tesisle birlikte belirlenir.",
+                    "Montaj sırasında ayakların açılma genişliği koridorun izin verdiği alanla sınırlıdır; bu nedenle bazı dar noktalarda tam açılım yerine kısıtlı bir açılım kullanılır ve buna göre maksimum yük ile erişim mesafesi düşer. Operatör bu sınırlamayı çalışma öncesi tesise bildirir; beklenenden düşük bir erişim mesafesi çıkması durumunda iş planı yeniden gözden geçirilir." ],
+            },
+            {
+                baslik: "Sezonluk üretim yoğunluğunda planlama",
+                paragraflar: [
+                    "Sucuk-pastırma üretiminde kurban bayramı öncesi ve kış aylarına denk gelen dönemlerde kurutma odası doluluğu artabilir; bu dönemlerde boş oda veya boş rayda çalışma penceresi daralır. Bakım ihtiyacı olan kalemler mümkünse doluluğun göreceli düştüğü dönemlere planlanır; acil bir arıza varsa dolu rayın etrafında sınırlı ve kısa süreli müdahale yapılır.",
+                    "Tesis yetkilisiyle önceden kurulan bir haftalık program, hangi odanın hangi gün boşalacağını, hangi rayın o hafta ürün almayacağını içerir. Bu bilgi paylaşıldığında platform ve operatör, ürünle temas riskini en aza indirecek günlerde sahaya yönlendirilir; program dışı ani talep gelirse önce boş oda kontrolü yapılır." ],
+            },
+        ],
+        sss: [
+            { soru: "Sepetli örümcek platform kurutma odasının kapısından geçmezse ne olur?", cevap: "Kapı ölçüsü sevkiyat öncesi paylaşılmadıysa ve sahada uyumsuzluk çıkarsa makine odaya sokulmaya zorlanmaz; kapı çevresindeki doğrama veya raftan güvenli mesafe kontrol edilir, gerekirse daha dar bir sınıf veya farklı bir erişim yöntemi (örneğin merdivenli platform ile parça parça çalışma) değerlendirilir. Bu yüzden ilk görüşmede en dar geçişin fotoğrafı ve ölçüsü istenir; tahmini bilgiyle sevkiyat yapılmaz." },
+            { soru: "Ürünle dolu askı rayının altında çalışma yapılır mı?", cevap: "Yalnızca zorunlu ve tesis yetkilisinin onayladığı işler için, sınırlı süreyle ve ürünle temasın engellendiği bir düzenle yapılır. Standart bakım kalemleri, mümkünse rayın boşaldığı veya o bölgeye o gün ürün asılmadığı zaman dilimine planlanır. Rutin bir işi 'dolu rayın altında da yaparız' diyerek üstlenmeyiz; bu hem ürün güvenliği hem iş güvenliği açısından risklidir." },
+            { soru: "Kurutma odasında akülü değil dizel platform kullanılabilir mi?", cevap: "Kapalı ve göreceli dar hacimli kurutma odalarında akülü tip tercih edilir; egzoz gazı ve ısı, odanın nem-sıcaklık dengesini bozabileceği gibi çalışan güvenliği açısından da uygun değildir. Dizel veya LPG tip, ancak tesisin havalandırma sistemi buna uygunsa ve tesis yetkilisi onay verirse, genellikle dış saha veya geniş hacimli bölümlerde kullanılır." },
+            { soru: "Platform hijyen bölgesine girmeden önce hangi hazırlık yapılır?", cevap: "Tekerlek ve alt şase dış sahada su ve gerekiyorsa tesisin belirlediği dezenfektanla temizlenir; aynı gün önce farklı bir alanda (özellikle dış saha veya yükleme rampası) çalışılmışsa bu temizlik atlanmadan tekrarlanır. Tesisin kendi hijyen prosedürü varsa (örneğin belirli bir giriş noktasından geçiş, ek kontrol) bu adımlara uyulur; prosedür tesisten tesise değişebileceği için önceden sorulur." },
+            { soru: "Dar koridorda operatör tek başına mı çalışır?", cevap: "Görüş açısının kısıtlı olduğu askı rayı aralarında yerde bir yardımcı personel bulunması önerilir; bu kişi geri manevra ve dönüşlerde operatöre yol gösterir. Tesisin kendi personelinden bir refakatçi görevlendirmesi de mümkündür, önemli olan iki tarafın da iletişim yöntemini (el işareti veya telsiz) çalışma öncesi netleştirmesidir." },
+            { soru: "Kurutma odaları arasında aynı platform birden fazla odada art arda çalışabilir mi?", cevap: "Çalışabilir, ancak odalar arası geçişte ara temizlik ve kısa bir zemin-koridor kontrolü yapılır; bir odada biriken nem veya ürün kalıntısı diğerine taşınmaz. Ayrıca her odanın kendi doluluk durumu ayrı ayrı kontrol edilir; bir odanın boş olması diğerinin de boş olduğu anlamına gelmez." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Afyonkarahisar'ın sucuk ve pastırma üretimindeki bilinirliği kamuya açık genel bilgidir; kurutma/olgunlaştırma odası mimarisi, askı rayı düzeni ve hijyen prosedürü sektör geneli bilgi çerçevesinde ele alınmış, belirli bir tesis adı veya kapasite varsayılmamıştır. Ölçü teyidi ve manevra sırası firma saha pratiğidir.",
+    },
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Afyonkarahisar Et İşleme ve Soğuk Zincir Tesislerine Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Sucuk-pastırma üreten bir tesise platform nakliyesi, sıradan bir sanayi binasına yapılan teslimattan birkaç noktada ayrılır. Tesisin yükleme rampası çoğu zaman aynı anda soğutulmuş kamyonların da kullandığı tek bir kapıdır; bu kapının belirli saatlerde sevkiyat trafiğiyle dolu olması, platform indirme işleminin ürün çıkışıyla çakışmaması için önceden koordine edilmesini gerektirir. Ayrıca çoğu tesiste hammadde kabul, üretim ve soğuk depo bölümleri fiziksel olarak ayrı binalarda veya aynı binanın farklı kanatlarında yer alır; nakliye aracı hangi kapıya, hangi saatte gireceğini bilmeden sahaya gönderilmez. Bunlara ek olarak, hijyen bölgesine giren her aracın ve ekipmanın tesisin giriş kontrolünden geçmesi beklenir; bu da teslimat süresini standart bir sanayi tesisine göre biraz uzatabilir. Bu sayfada Afyonkarahisar'daki et işleme tesislerine platform nakliyesini planlarken hangi bilgilerin önceden istendiğini, indirme noktası seçiminin nasıl yapıldığını ve sevkiyat-üretim trafiğinin nasıl ayrıştırıldığını anlatıyoruz.",
+        maddeler: [
+            { baslik: "Sevkiyat kapısı ile yükleme trafiğinin ayrıştırılması", metin: "Et işleme tesislerinde yükleme rampası genellikle günün belirli saatlerinde soğutulmuş araç trafiğiyle doludur; sabah erken saatler çoğunlukla hammadde kabulüne, öğleden sonra ise sevkiyata ayrılır. Platform nakliyesi bu iki yoğun aralığın dışında bir saate planlanır. Tesisin sevkiyat sorumlusuyla önceden kurulan kısa bir telefon görüşmesi, hangi saatin uygun olduğunu netleştirir; bu görüşme yapılmadan rastgele bir saatte sahaya gidilmez." },
+            { baslik: "Bina kanatları arası doğru kapı bilgisi", metin: "Üretim, kurutma-olgunlaştırma ve soğuk depo bölümleri farklı kapılara sahip olabilir. Nakliye aracının yanlış kapıya yönlendirilmesi, platformun bina içinden dar koridorlardan geçirilmesi gibi ek bir riski doğurur. Bu nedenle teslimat öncesi hangi kapının hedef bölüme en yakın olduğu, kapı önündeki manevra alanının genişliği ve varsa rampa eğimi sorulur; mümkünse fotoğraf istenir." },
+            { baslik: "Hijyen giriş kontrolünün süreye etkisi", metin: "Bazı tesislerde araç ve ekipman girişinde tekerlek dezenfeksiyonu, kayıt defteri imzası veya kısa bir görsel kontrol uygulanır. Bu adımlar teslimat süresine birkaç dakika ile yarım saat arasında ek süre katabilir. Sevkiyat planı yapılırken bu süre payı önceden hesaba katılır; tesisin kendi prosedürü aksatılmadan, ama gereksiz beklemeye de yol açmadan indirme işlemi tamamlanır." },
+            { baslik: "Dondurulmuş ve soğutulmuş alan yakınında indirme sırası", metin: "Platform indirme noktası soğuk depo kapısına yakınsa, kapının açık kalma süresi kısa tutulur; indirme işlemi kapı önünde uzun süre beklemeye neden olmayacak şekilde hızlı planlanır. Kamyon önce sağlam ve düz bir alana yönlendirilir, indirme rampadan uzakta tamamlanır ve platform kendi yürüyüşüyle hedef noktaya ilerler; böylece soğuk hava kaybı ve sevkiyat gecikmesi en aza indirilir." },
+            { baslik: "Geri alım ve tesisten çıkış planı", metin: "İş bittiğinde platformun tesisten çıkışı da aynı hassasiyetle planlanır; geri alım saati mümkünse teslimat saatiyle aynı sakin dilime denk getirilir. Makine tesisten çıkmadan önce varsa hijyen bölgesinden geçişte uygulanan temizlik adımı tekrarlanır. Ani bir sevkiyat yoğunluğu oluşursa geri alım aracı kısa süre bekletilebilir; bu durum önceden tesise bildirilir, sürpriz bir gecikme yaratılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis bölümüne göre teslimat noktası ve zamanlama",
+                paragraflar: ["Et işleme tesisinin farklı bölümlerine yapılan teslimatlarda uygun saat aralığı ve indirme noktası değişir. Aşağıdaki tablo tipik bir günün akışını özetler."],
+                tablo: {
+                    basliklar: ["Hedef bölüm", "Yoğun trafik saati", "Önerilen teslimat aralığı", "Dikkat noktası"],
+                    satirlar: [
+                        ["Hammadde kabul", "Sabah erken", "Öğleden sonra", "Kabul rampasından uzak dur"],
+                        ["Üretim/paketleme", "Gün içi vardiya", "Vardiya arası", "Hat trafiğiyle çakışmama"],
+                        ["Kurutma/olgunlaştırma", "Gün boyu değişken", "Tesisle teyitli saat", "Kapı açık kalma süresi kısa"],
+                        ["Soğuk depo", "Sevkiyat öncesi yoğun", "Sabah ilk saatler", "Kapı açık kalma süresi kısa"],
+                        ["Sevkiyat rampası", "Öğleden sonra", "Sabah erken", "Soğutulmuş araç trafiği önceliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bilgi paylaşımı teslimat hızını belirler",
+                paragraflar: [
+                    "Nakliye planlaması, tesisin kapı ölçüleri, rampa eğimi ve giriş prosedürü hakkında ne kadar erken bilgi verildiğine bağlı olarak hızlanır. Adres ve saatten ibaret bir talep, sahada beklenmedik bir dar geçiş veya kapalı kapıyla karşılaşma riskini taşır. Bunun yerine hedef bölümün fotoğrafı, kapı genişliği ve varsa asansör/rampa bilgisi paylaşıldığında araç ve platform kombinasyonu buna göre önceden seçilir.",
+                    "Özellikle kurutma odası gibi dar geçitli bölümlere teslimat yapılacaksa, büyük bir platformun bina dışında bırakılıp daha küçük bir sınıfın içeri alınması gerekebilir. Bu ayrım sahada değil, sevkiyat öncesi masabaşında yapılmalıdır; aksi hâlde araç sahaya ulaştığında iş gecikir." ],
+            },
+            {
+                baslik: "Bayram öncesi yoğun dönemde sevkiyat önceliği",
+                paragraflar: [
+                    "Kurban bayramı öncesi dönemde birçok et işleme tesisinde hem hammadde kabul hem ürün sevkiyatı yoğunlaşır; yükleme rampaları neredeyse tüm gün dolu olabilir. Bu dönemlerde platform teslimatı için sabah çok erken veya akşam geç bir saat tercih edilir, tesisin kendi trafiğine göre esnek bir pencere bırakılır.",
+                    "Yoğun dönemde ani bir bakım ihtiyacı doğarsa, aracın sahaya varmadan önce tesisle telefonla kısa bir koordinasyon yapılması beklemeyi azaltır. Sabit bir saat verip o saate körü körüne bağlı kalmak yerine, sahadaki fiili trafiğe göre 30-60 dakikalık bir esneklik payı bırakılması bu dönemde daha gerçekçi bir yaklaşımdır." ],
+            },
+        ],
+        sss: [
+            { soru: "Platform teslimatı sevkiyat kamyonlarının trafiğini etkiler mi?", cevap: "Etkilememesi için teslimat saati önceden tesisle koordine edilir ve mümkünse sevkiyat yoğunluğunun düşük olduğu bir dilime denk getirilir. Rampa aynı anda hem soğutulmuş araç hem platform aracı tarafından kullanılacaksa, hangi aracın önce gireceği tesis sevkiyat sorumlusunun kararına bırakılır; nakliye ekibimiz bu konuda tesisin önceliğini esas alır." },
+            { soru: "Soğuk depo kapısının uzun süre açık kalması sorun olur mu?", cevap: "Evet, bu nedenle soğuk depoya yakın indirme işlemlerinde kapı açık kalma süresi en aza indirilir; platform kapı dışında hazırlanır, kapı yalnızca geçiş anında açılır. Uzun bir hazırlık veya bekleme gerekiyorsa bu iş kapıdan uzak bir noktada, kapı kapalıyken tamamlanır." },
+            { soru: "Kapı ölçüsünü tam bilmiyorsak ne olur?", cevap: "Tahmini bilgiyle sevkiyat riskli olduğu için mümkünse fotoğraf ve yaklaşık ölçü istenir. Kesin ölçü yoksa daha küçük ve esnek bir sınıf tercih edilir; sahada uyumsuzluk çıkması hâlinde alternatif giriş noktası veya daha küçük makineyle devam etme seçenekleri birlikte değerlendirilir." },
+            { soru: "Hijyen giriş kontrolü ne kadar sürer?", cevap: "Tesisten tesise değişir; bazılarında birkaç dakikalık tekerlek dezenfeksiyonu ve kayıt yeterliyken bazılarında daha kapsamlı bir kontrol uygulanabilir. Bu süre sevkiyat planına önceden eklenir; net süreyi tesisin kendi prosedürü belirler, biz bunu tahmin etmek yerine önceden sorarız." },
+            { soru: "Bayram öncesi dönemde aynı gün teslimat mümkün mü?", cevap: "Yoğunluğa bağlıdır; rampa trafiği çok sıkışıksa aynı gün içinde uygun bir boşluk bulmak zorlaşabilir. Bu dönemlerde erken planlama ve esnek saat aralığı önerilir; son dakika talebi geldiğinde elimizden geleni yaparız ama net bir saat garantisi yerine gerçekçi bir pencere sunarız." },
+            { soru: "Aynı sevkiyatta birden fazla bölüme (kabul, üretim, depo) makine bırakılabilir mi?", cevap: "Bırakılabilir; bu durumda güzergâh, en yoğun bölümden en sakin bölüme doğru sıralanır ve her bölüm için ayrı bir teslimat penceresi belirlenir. Tek bir seferde tüm bölümlere aynı anda araç göndermek yerine, bölümler arası geçişte tesisin trafiğine göre kısa aralıklar bırakılır." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Et işleme tesislerinde soğuk zincir ve sevkiyat trafiğinin genel işleyişi kamuya açık sektör bilgisidir; belirli bir tesis adı, saat çizelgesi veya kapasite uydurulmamıştır. Teslimat koordinasyonu ve pencere belirleme firma saha pratiğidir.",
+    },
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Afyonkarahisar Dondurulmuş Ürün ve Soğuk Hava Depolarında Forklift ile İstifleme Kiralama",
+        giris:
+            "Sucuk-pastırma üretiminde nihai ürün, sevkiyata kadar genellikle dondurulmuş veya soğutulmuş bir depoda paletler hâlinde bekletilir. Bu depoların çalışma koşulları, standart bir kuru gıda deposundan belirgin şekilde farklıdır: sıcaklık eksi derecelere kadar inebilir, zemin zaman zaman buzlanabilir, koridorlar ürün akışına göre dar tutulmuştur ve forkliftin depoda geçirdiği süre soğuk hava kaybını artırmamak için sınırlı tutulmak istenir. Ayrıca dondurulmuş ürün paletleri, oda sıcaklığındaki paletlere göre daha ağır ve bazen daha kaygan yüzeyli olabilir; istifleme sırasında çatal açıklığı ve kaldırma yüksekliği buna göre seçilir. Bu sayfada Afyonkarahisar'daki et işleme tesislerinin soğuk hava deposu ve dondurulmuş ürün bölümlerinde forklift kiralarken hangi koşulların öne çıktığını, düşük sıcaklığın ekipman seçimini nasıl etkilediğini ve istifleme sırasının nasıl kurulduğunu anlatıyoruz.",
+        maddeler: [
+            { baslik: "Düşük sıcaklıkta ekipman ve operatör hazırlığı", metin: "Eksi derece ortamda çalışacak forkliftin akü ve hidrolik sistemi bu sıcaklığa uygun olmalıdır; her makine uzun süreli dondurucu ortam çalışmasına elverişli değildir. Sevkiyat öncesi hedef sıcaklık aralığı ve depoda geçirilecek yaklaşık süre paylaşılır. Operatör de soğuk ortamda görüş ve el hassasiyetinin azalabileceği bilinerek düşük hızda, kısa manevralarla çalışır." },
+            { baslik: "Buzlanan zeminde kaldırma ve fren mesafesi", metin: "Soğuk depo zemini, kapı önündeki nem girişi veya buzdolabı yoğuşması nedeniyle noktasal olarak kayganlaşabilir. Bu bölgelerde forklift hızı düşürülür, ani fren ve dönüş yapılmaz. Kayganlığın belirgin olduğu noktalar tesis ile birlikte işaretlenir; gerekirse bu noktalarda ek bir uyarı önlemi (koni, işaret) tesis tarafından konur." },
+            { baslik: "Dar koridorda palet yönlendirme", metin: "Dondurulmuş ürün depolarında raf aralıkları, depo hacminden en verimli şekilde faydalanmak için dar tutulur. Çatal açıklığı ve mast geriye eğim açısı bu koridorlara göre seçilir; standart geniş koridor forklifti buraya gönderilmez. Palet yerleştirme sırasında yan raflara temas riskini azaltmak için düşük hızda, gerektiğinde yardımcı personel yönlendirmesiyle ilerlenir." },
+            { baslik: "Kapı açık kalma süresini kısaltan istifleme sırası", metin: "Depo kapısının uzun süre açık kalması iç sıcaklığı etkiler. Bu nedenle istifleme işi, kapı önünde bekleme süresini azaltacak şekilde önceden planlanır: paletler kapı dışında sıraya dizilir, forklift depoya girip çıkışını art arda ve hızlı yapar, kapı yalnızca geçiş anında açık tutulur. Uzun süren tek seferlik büyük bir yükleme yerine, kısa ve art arda geçişler tercih edilir." },
+            { baslik: "Palet ağırlığı ve istif yüksekliği kontrolü", metin: "Dondurulmuş et ürünü paletleri, kuru gıda paletlerine göre genellikle daha ağırdır. İstif yüksekliği belirlenirken forkliftin kaldırma kapasitesi bu ağırlığa göre kontrol edilir; kapasiteyi zorlayan bir istif planı varsa önceden tesise bildirilir ve daha uygun bir kademeleme önerilir. Raf sisteminin kendi taşıma sınırı da bu hesaba dâhil edilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo tipine göre forklift seçim ölçütleri",
+                paragraflar: ["Et işleme tesisinin depo bölümleri farklı sıcaklık ve koridor koşullarına sahiptir. Aşağıdaki tablo forklift seçiminde öne çıkan ölçütleri özetler."],
+                tablo: {
+                    basliklar: ["Depo tipi", "Tipik sıcaklık", "Öne çıkan risk", "Ekipman notu"],
+                    satirlar: [
+                        ["Dondurulmuş ürün deposu", "Eksi derece", "Buzlanma, düşük görüş", "Soğuğa uygun akü/hidrolik"],
+                        ["Soğutulmuş ürün deposu", "0-4°C bandı", "Yoğuşma nemi", "Standart tip, düşük hız"],
+                        ["Ambalaj/malzeme deposu", "Oda sıcaklığı", "Dar koridor", "Dar koridor mastı"],
+                        ["Sevkiyat bekleme alanı", "Değişken", "Yoğun araç trafiği", "Görüş açısı geniş tip"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapı geçişini azaltan yükleme planı",
+                paragraflar: [
+                    "Dondurulmuş ürün deposuna yapılan her giriş-çıkış, kapının bir süre açık kalmasına neden olur. İstifleme işini tek bir uzun operasyon yerine, önceden sıraya dizilmiş paletlerle kısa ve art arda geçişlere bölmek, toplam açık kalma süresini azaltır. Bu planlama forklift operatörü ile depo sorumlusunun işe başlamadan önce birkaç dakikalık bir koordinasyonuyla kurulur.",
+                    "Yoğun sevkiyat günlerinde birden fazla forklift aynı depoda çalışacaksa, güzergâhlar çakışmayacak şekilde ayrılır; biri girişe yakın bölgede, diğeri depo içinde çalışır. Bu ayrım hem kapı önündeki trafik sıkışmasını hem de iki makinenin dar koridorda karşılaşma riskini azaltır." ],
+            },
+            {
+                baslik: "Sevkiyat yoğunluğunda ek forklift ihtiyacı",
+                paragraflar: [
+                    "Bayram öncesi veya yüksek talep dönemlerinde sevkiyat hacmi arttığında, tek forkliftin depo giriş-çıkışı ile sevkiyat rampasına taşıma arasında yetişmesi zorlaşabilir. Bu dönemlerde geçici olarak ikinci bir forklift kiralanması, depo içi istifleme ile rampaya taşımayı ayrı ekiplere bölerek toplam süreyi kısaltır.",
+                    "İkinci makinenin devreye girmesi tesisin mevcut trafik planına göre belirlenir; iki forkliftin aynı dar koridoru aynı anda kullanmaması için güzergâh önceden ayrılır. Talep normale döndüğünde ek makine sözleşme kapsamında iade edilir." ],
+            },
+        ],
+        sss: [
+            { soru: "Dondurulmuş ürün deposunda her forklift çalışabilir mi?", cevap: "Hayır, düşük sıcaklıkta uzun süre çalışacak makinenin akü ve hidrolik sistemi buna uygun olmalıdır. Standart bir forklift kısa süreli girişte sorun çıkarmayabilir ama sürekli eksi derece ortamda performans kaybı yaşayabilir. Bu nedenle depo sıcaklığı ve çalışma süresi önceden sorulur, buna göre uygun sınıf gönderilir." },
+            { soru: "Buzlanan zeminde forklift kayma riski nasıl azaltılır?", cevap: "Kayganlığın belirgin olduğu noktalar (genellikle kapı önü ve yoğuşma bölgeleri) tesisle birlikte tespit edilir, bu noktalarda hız düşürülür ve ani dönüşten kaçınılır. Zemin bakımı ve buz temizliği tesisin sorumluluğundadır; ciddi bir buzlanma varsa çalışma o nokta düzeltilene kadar ertelenir." },
+            { soru: "Dar koridorlu depoda hangi forklift tipi kullanılır?", cevap: "Koridor genişliğine göre dar koridor forklifti veya reach truck tipi ekipmanlar tercih edilebilir; çatal açıklığı ve mast geriye eğim açısı koridor genişliğine ve raf derinliğine göre seçilir. Koridor ölçüsü paylaşılmadan standart geniş tip gönderilmez." },
+            { soru: "Kapı açık kalma süresini kısaltmak için ne öneriyorsunuz?", cevap: "Paletlerin kapı dışında önceden sıraya dizilmesi ve giriş-çıkışların art arda kısa sürede yapılması en etkili yöntemdir. Tek seferde uzun süren bir yükleme yerine, birkaç dakikalık kısa geçişler tercih edilir; bu hem sıcaklık kaybını hem enerji maliyetini azaltır." },
+            { soru: "Dondurulmuş palet ağırlığı standart paletten farklı mı değerlendirilir?", cevap: "Evet, dondurulmuş et ürünü paletleri genellikle daha ağırdır; istif yüksekliği ve forkliftin kaldırma kapasitesi bu ağırlığa göre kontrol edilir. Kapasiteyi zorlayan bir istif planı varsa önceden bildirilir ve daha güvenli bir kademeleme önerilir." },
+            { soru: "Yoğun sevkiyat döneminde ikinci forklift ne zaman önerilir?", cevap: "Tek makinenin depo içi istifleme ile rampaya taşıma arasında sürekli beklemeye neden olduğu, sevkiyat süresinin uzadığı dönemlerde ikinci bir forklift geçici olarak devreye alınabilir. Bu ihtiyaç genellikle bayram öncesi veya kampanya dönemlerinde ortaya çıkar; talep normale döndüğünde makine iade edilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Dondurulmuş/soğutulmuş ürün depolarının genel çalışma koşulları (sıcaklık, yoğuşma, dar koridor) kamuya açık sektör bilgisidir; belirli bir tesis adı veya kapasite uydurulmamıştır. İstifleme sırası ve kapı geçiş planı firma saha pratiğidir.",
+    },
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Afyonkarahisar Et İşleme Tesislerinde Soğutma Kulesi ve Dış Cephe İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Sucuk-pastırma tesislerinin dış cephesinde yüksekte kalan işler çoğunlukla iki grupta toplanır: çatı üstündeki soğutma kuleleri, kondanser üniteleri ve havalandırma bacaları ile bina dış cephesindeki oluk, aydınlatma ve tabela bakımı. Bu ekipmanların çoğu binanın en yüksek noktasında, çatı kenarından belirli bir mesafede konumlanır ve düz bir merdivenle güvenli erişim sağlanamaz. Eklemli platform, kollarını hem yukarı hem yana doğru uzatabildiği için çatı kenarının ötesindeki bu noktalara zeminden güvenli biçimde ulaşabilir. Afyonkarahisar'daki et işleme tesislerinde bu tip işler genellikle üretim durdurulmadan, bina dış cephesinden yürütülür; ancak soğutma sisteminin kesintiye uğramaması kritik olduğu için çalışma öncesi tesisin soğutma ve enerji ekibinden onay alınması gerekir. Bu sayfada eklemli platformun soğutma kulesi bakımında, çatı üstü bacada ve dış cephe işlerinde nasıl konumlandığını, hangi zemin ve mesafe koşullarının erişim kararını belirlediğini anlatıyoruz.",
+        maddeler: [
+            { baslik: "Soğutma kulesi ve kondanser çevresinde erişim mesafesi", metin: "Soğutma kuleleri genellikle çatının belirli bir köşesinde, diğer ekipmanlardan ayrı konumlanır. Eklemli platformun kule etrafında güvenli çalışma yapabilmesi için zeminden kuleye olan yatay ve dikey mesafenin, kulenin diğer yapılarla arasındaki boşluğun önceden bilinmesi gerekir. Bu ölçüler paylaşılmadan sadece 'çatıda soğutma kulesi var' bilgisiyle makine sınıfı belirlenmez." },
+            { baslik: "Soğutma sistemi kesintisi olmadan çalışma planı", metin: "Soğutma sisteminin durması, kurutma odası ve soğuk depo sıcaklığını doğrudan etkileyebilir. Bu nedenle kule çevresindeki bakım işleri, sistemin devre dışı kalmasını gerektirmeyecek şekilde planlanır; sistemin kısa süreli durdurulması zorunluysa bu, tesisin soğutma ve üretim ekibinin ortak onayıyla, mümkünse düşük talep saatine denk getirilir." },
+            { baslik: "Çatı kenarı ve düşen cisim kontrolü", metin: "Platform kolu çatı kenarının üzerinden geçerken, alttaki üretim veya yükleme alanında personel ve araç trafiği varsa bu bölge geçici olarak sınırlandırılır. Alet ve küçük parçaların düşme riskine karşı bağlama ve toplama önlemleri alınır. Alt bölgenin sınırlandırılması mümkün değilse çalışma, o bölgenin trafiğinin durduğu bir saate ertelenir." },
+            { baslik: "Zemin sağlamlığı ve makine konumlanması", metin: "Eklemli platformun ağırlığı ve kol açıklığı, altındaki zeminin sağlam ve düz olmasını gerektirir. Bina çevresindeki servis yolu, yükleme rampası önü veya çim/toprak saha gibi farklı zemin tiplerinden hangisinin kullanılacağı önceden değerlendirilir; zemin taşıma gücünden şüphe varsa makine o noktaya konumlandırılmaz, alternatif bir erişim noktası aranır." },
+            { baslik: "Dış cephe aydınlatma ve tabela işlerinde ayrı planlama", metin: "Soğutma kulesi dışında bina cephesindeki aydınlatma, oluk ve tabela bakımı daha düşük risk taşır ancak yine de bina girişindeki araç ve personel trafiğiyle çakışmayacak şekilde planlanır. Bu işler genellikle soğutma kulesi bakımından ayrı bir günde veya günün farklı bir diliminde yapılır; ikisi aynı sevkiyata sığdırılmaya çalışılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dış cephe ve çatı üstü iş alanlarına göre erişim koşulu",
+                paragraflar: ["Et işleme tesisinin dış cephesindeki farklı iş alanları, farklı erişim mesafesi ve zemin koşulu gerektirir. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["Alan", "Erişim türü", "Baskın koşul", "Planlama önceliği"],
+                    satirlar: [
+                        ["Soğutma kulesi/kondanser", "Çatı üstü, kol uzatma", "Sistem kesintisi riski", "Soğutma ekibi onayı"],
+                        ["Çatı bacası/havalandırma", "Çatı kenarı ötesi", "Düşen cisim kontrolü", "Alt bölge sınırlama"],
+                        ["Dış cephe aydınlatma", "Duvar boyunca", "Giriş trafiği", "Sakin saat"],
+                        ["Yükleme rampası üstü tabela", "Rampa önü zemin", "Araç manevrası", "Rampa boşken çalışma"],
+                        ["Bina çevresi servis yolu", "Zemin sağlamlığı", "Yol taşıma gücü", "Sert zemin tercih"],
+                    ],
+                },
+            },
+            {
+                baslik: "Soğutma ekibiyle ortak keşif",
+                paragraflar: [
+                    "Soğutma kulesi çevresindeki bir bakım işine başlamadan önce tesisin soğutma veya bakım sorumlusuyla kısa bir saha keşfi yapılır. Bu keşifte kulenin çatıdaki tam konumu, çevresindeki diğer ekipmanla arasındaki mesafe ve sistemin hangi saatlerde göreceli düşük yükte çalıştığı konuşulur.",
+                    "Keşif sırasında ayrıca acil bir soğutma arızası çıkması ihtimaline karşı platformun hızlı biçimde alandan çekilip çekilemeyeceği de değerlendirilir; kulenin hemen yanında acil müdahale gerekebilecek bir ekipman varsa platform bu ekipmana erişimi engellemeyecek bir açıda konumlandırılır." ],
+            },
+            {
+                baslik: "Mevsimsel bakım penceresi",
+                paragraflar: [
+                    "Soğutma kulesi ve kondanser bakımı genellikle yaz aylarında sistemin en yoğun çalıştığı dönemde değil, ilkbahar veya sonbahar gibi göreceli düşük talep dönemlerinde planlanır. Bu, sistemin kısa süreli durdurulması gerektiğinde üretime etkisini azaltır.",
+                    "Acil bir arıza yaz ortasında çıkarsa, müdahale kapsamı yalnızca arızayı güvenli şekilde giderecek kalemle sınırlı tutulur; kapsamlı bir bakım işi (örneğin genel temizlik, boya) daha sakin bir mevsime bırakılır." ],
+            },
+        ],
+        sss: [
+            { soru: "Soğutma kulesi bakımı sırasında soğutma sistemi durur mu?", cevap: "Mümkün olduğunca durdurulmadan çalışılır; platform kulenin çevresinde erişim sağlarken sistemin kendisi genellikle çalışır durumda kalabilir. Sistemin kısa süreli durdurulması gerekiyorsa bu, tesisin soğutma ekibinin onayıyla ve düşük talep saatine denk getirilerek yapılır." },
+            { soru: "Çatı kenarının altında üretim veya yükleme devam ederken çalışılabilir mi?", cevap: "Düşen cisim riski nedeniyle alt bölgenin trafiği geçici olarak sınırlandırılır veya çalışma o bölgenin sakin olduğu saate ertelenir. Alt bölgeyi tamamen kapatmak mümkün değilse, kol hareketi o bölgenin üzerinden geçmeyecek şekilde sınırlandırılır." },
+            { soru: "Bina çevresindeki zemin platform için yeterince sağlam mı önceden nasıl anlaşılır?", cevap: "Servis yolu, rampa önü ve çevresindeki toprak/çim alan ayrı ayrı değerlendirilir; fotoğraf ve varsa zemin bilgisi (beton, asfalt, sıkıştırılmış toprak) önceden istenir. Şüpheli bir zemin varsa makine oraya konumlandırılmaz, daha sağlam bir noktadan uzanma tercih edilir." },
+            { soru: "Dış cephe aydınlatma bakımı soğutma kulesi işiyle aynı gün yapılabilir mi?", cevap: "Genellikle ayrı planlanır çünkü ikisi farklı ekiplerin onayını ve farklı erişim noktalarını gerektirir. Aynı sevkiyatta ikisi birleştirilmeye çalışılırsa iş süresi uzar ve öncelik karışabilir; bu nedenle ayrı gün veya günün ayrı diliminde ele alınması önerilir." },
+            { soru: "Acil bir soğutma arızasında hızlı erişim sağlanabilir mi?", cevap: "Evet, ancak acil durumda da zemin ve erişim güvenliği atlanmaz; platform mümkün olan en kısa sürede sahaya yönlendirilir ve yalnızca arızayı güvenli şekilde giderecek kapsamda çalışılır. Kapsamlı bir bakım işi acil müdahaleyle karıştırılmaz, ayrı bir zamana bırakılır." },
+            { soru: "Hangi mevsimde soğutma kulesi bakımı planlanmalı?", cevap: "Sistemin göreceli düşük yükte çalıştığı ilkbahar veya sonbahar dönemleri genellikle daha uygundur; bu dönemlerde kısa süreli bir durdurma gerekirse üretime etkisi azalır. Yaz aylarında yalnızca acil müdahaleler yapılır, kapsamlı bakım daha sakin bir mevsime bırakılır." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Et işleme tesislerinde çatı üstü soğutma ekipmanı ve dış cephe bakımının genel işleyişi kamuya açık sektör bilgisidir; belirli bir tesis adı veya sistem kapasitesi uydurulmamıştır. Erişim planlama ve soğutma ekibiyle koordinasyon firma saha pratiğidir.",
+    },
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Afyonkarahisar Sucuk-Pastırma Üretim Hollerinde İç Mekân Platform Kiralama",
+        giris:
+            "Et işleme tesisinin üretim holü, paketleme hattı ve hammadde depolama bölümü, dış cepheden farklı bir kurallar bütününe tabidir: zemin sık sık yıkanır, hava genellikle serin tutulur, üstte çoğunlukla paslanmaz çelik havalandırma kanalı, aydınlatma armatürü ve kablo taşıyıcı bulunur. Bu bölümlerde çalışacak platform, hem ürünle temas etmeyecek şekilde konumlanmalı hem de tesisin hijyen kurallarına (temiz tekerlek, uygun akülü tahrik, gıda alanına uygun yağlama) uygun olmalıdır. Standart bir sanayi holündeki iç mekân platform kiralamasından farkı, burada 'temiz alan' ile 'kirli alan' ayrımının çok daha katı tutulması ve bu ayrımın bakım programını doğrudan şekillendirmesidir. Bu sayfada üretim holü, paketleme hattı ve hammadde kabul bölümünde iç mekân platform kiralarken hangi hijyen ve zamanlama kurallarının öne çıktığını, tavan üstü sistemlere nasıl erişildiğini anlatıyoruz.",
+        maddeler: [
+            { baslik: "Üretim durduğunda çalışma esası", metin: "Paketleme hattı veya üretim bandı çalışırken üst kotta bakım yapılmaz; ilgili kesit vardiya arası veya planlı duruşta boşaltılır. Açık ürünün üstünde platform hareket etmez, alt bölge örtülüp sınırlandırılır. Acil bir arıza (örneğin aydınlatma kesintisi) varsa müdahale yalnızca arızayı giderecek kapsamla sınırlı tutulur, kapsamlı bir iş sezon dışı bir güne bırakılır." },
+            { baslik: "Gıda alanına uygun akü ve yağlama", metin: "Üretim holünde kullanılacak platformun akülü olması ve varsa hidrolik sistemde gıda alanına uygun yağlayıcı kullanılması beklenir; egzozlu ekipman kapalı üretim alanına sokulmaz. Tesisin kendi ekipman kabul kriterleri varsa (örneğin belirli bir temizlik sertifikası) bu kriterler sevkiyat öncesi netleştirilir." },
+            { baslik: "Havalandırma kanalı ve armatür altında konumlanma", metin: "Tavan altındaki paslanmaz kanal ve aydınlatma armatürlerine erişirken platform sepetinin kanal yüzeyine temas etmemesi gerekir; kanal iç yüzeyinin hijyeni bozulmamalıdır. Çalışma öncesi kanalın tam güzergâhı ve armatürün konumu tesisle birlikte kontrol edilir, gerektiğinde kanalın altına geçici bir koruma önlemi tesis tarafından konur." },
+            { baslik: "Temiz alandan kirli alana tek yönlü sıra", metin: "Aynı platform hem hammadde kabul hem paketleme bölümünde çalışacaksa, program temiz ürün alanından başlar ve hammadde/atık bölgesine doğru ilerler. Ters yönde bir geçiş gerekiyorsa araya tesisin hijyen prosedürüne uygun bir temizlik ve kontrol konur; bu süre plana önceden eklenir, atlanmaz." },
+            { baslik: "Zemin yıkama takvimiyle uyum", metin: "Üretim holü zemini gün içinde birkaç kez yıkanabilir; platform çalışması bu yıkama saatleriyle çakışmayacak şekilde planlanır. Islak zeminde makine hareketi düşük hızda yapılır, yıkama hemen bitmiş bir alanda kuruma süresi beklenir. Tesisin yıkama takvimi paylaşıldığında bakım programı buna göre kurulur." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üretim holü bölümlerine göre çalışma koşulu",
+                paragraflar: ["Üretim holünün farklı bölümleri farklı hijyen sınıfı ve zamanlama gerektirir. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["Bölüm", "Hijyen sınıfı", "Çalışma zamanı", "Öncelikli önlem"],
+                    satirlar: [
+                        ["Hammadde kabul", "Orta", "Kabul arası", "Alt bölge örtüsü"],
+                        ["Doğrama/kıyma hattı", "Yüksek", "Hat duruşunda", "Ürün üstünde çalışmama"],
+                        ["Paketleme hattı", "Yüksek", "Vardiya arası", "Kanal/armatür teması yok"],
+                        ["Kurutma/olgunlaştırma girişi", "Yüksek", "Tesisle teyitli", "Kısa kapı açık kalma"],
+                        ["Hammadde/malzeme deposu", "Orta", "Gün içi esnek", "Zemin yıkama uyumu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Vardiya arası bakım penceresi",
+                paragraflar: [
+                    "Üretim genellikle vardiyalar hâlinde işler ve vardiyalar arasında hattın kısa süre boşaldığı bir aralık bulunur. İç mekân platform işleri, mümkünse bu aralığa sığdırılır; büyük kapsamlı bir iş vardiya arasına sığmıyorsa haftalık planlı duruş günü tercih edilir.",
+                    "Vardiya arası pencere kısa olduğu için o sürede yapılacak işler önceden net bir listeye yazılır: hangi kalem, hangi kotta, ne kadar sürede tamamlanacak. Listesiz bir 'bakılsın' talebi bu dar pencerede tamamlanamayabilir; bu nedenle iş kapsamı önceden tesisle netleştirilir." ],
+            },
+            {
+                baslik: "Temiz-kirli alan geçişinde temizlik kaydı",
+                paragraflar: [
+                    "Platformun bir bölümden diğerine geçişinde uygulanan temizlik, sözlü bir güven meselesi olmaktan çıkarılıp tesisin kendi kayıt sistemine (varsa) işlenir. Bu kayıt hem tesisin denetim sürecine hem de bir sonraki bakımın planlanmasına yardımcı olur.",
+                    "Kayıt tutulmayan tesislerde bile, geçiş öncesi ve sonrası kısa bir kontrol (tekerlek, şase, sepet tabanı) yapılması ve bu kontrolün sonucu operatör tarafından not edilmesi önerilir; bu basit alışkanlık, hijyen sorununun kaynağının sonradan tespit edilmesini kolaylaştırır." ],
+            },
+        ],
+        sss: [
+            { soru: "Paketleme hattı çalışırken üst kotta bakım mümkün mü?", cevap: "Hayır, açık ürünün veya hareketli hattın üstünde planlı bakım yapılmaz. İlgili kesit vardiya arası veya planlı duruşta boşaltılır. Acil bir durum varsa müdahale yalnızca arızayı güvenli şekilde giderecek kapsamla sınırlı tutulur." },
+            { soru: "Dizel veya LPG platform üretim holüne alınabilir mi?", cevap: "Genellikle alınmaz; kapalı gıda üretim alanında egzozlu ekipman tercih edilmez. Akülü tip standart seçimdir. Tesisin özel bir izni ve havalandırma koşulu varsa istisnai bir değerlendirme yapılabilir, ancak bu önceden tesisle netleştirilir." },
+            { soru: "Havalandırma kanalına platform sepeti temas ederse ne olur?", cevap: "Kanal iç yüzeyinin hijyeni bozulabileceği için temas önlenmeye çalışılır; çalışma öncesi kanal güzergâhı ve sepet ölçüsü karşılaştırılır, dar noktalarda daha küçük bir sınıf tercih edilir. Kazara temas olursa durum tesise bildirilir, gerekiyorsa kanal tesisin kendi hijyen prosedürüne göre kontrol edilir." },
+            { soru: "Hammadde kabul bölümünden paketleme hattına aynı gün geçilebilir mi?", cevap: "Geçilebilir ancak program temiz alandan başlayıp kirli alana doğru ilerler; ters yönde bir geçiş gerekiyorsa araya temizlik ve kontrol konur. Bu sıralama, ürünle temas riskini azaltmak için önceden planlanır." },
+            { soru: "Zemin yıkanırken platform çalışabilir mi?", cevap: "Yıkama devam ederken çalışılmaz; yıkamanın bittiği ve zeminin kuruduğu bir zaman dilimi beklenir. Islak zeminde hareket gerekiyorsa hız düşürülür ve ani manevradan kaçınılır. Tesisin yıkama takvimi paylaşıldığında bakım programı bu takvime göre kurulur." },
+            { soru: "Vardiya arası pencere yeterli olmazsa ne yapılır?", cevap: "İş kapsamı vardiya arası dar pencereye sığmıyorsa haftalık planlı duruş gününe ertelenir. Kapsamı önceden netleştirmeden vardiya arasına sığdırmaya çalışmak, işin yarım kalmasına veya üretim başlama saatinin gecikmesine yol açabilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Et işleme üretim holünün hijyen ve vardiya düzeni genel sektör bilgisidir; belirli bir tesis adı veya kapasite uydurulmamıştır. Temiz-kirli alan sıralaması ve vardiya arası planlama firma saha pratiğidir.",
+    },
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Afyonkarahisar'da Et İşleme Tesisi Genişletme ve Soğuk Depo İnşaatında Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Afyonkarahisar'daki sucuk-pastırma üretiminin büyümesi, mevcut tesislerin zaman zaman yeni bir kurutma odası bloğu, ek soğuk hava deposu veya genişletilmiş paketleme holü inşa etmesiyle sonuçlanır. Bu tip genişletme projelerinde çelik konstrüksiyon montajı — çatı kirişi, cephe kaplaması, izolasyon panel montajı — genellikle mevcut üretim tesisinin hemen yanında, bazen ortak duvar veya ortak avluyu paylaşarak yürütülür. Bu, inşaat platformunun hem kendi montaj işini güvenli yapması hem de yan taraftaki çalışan üretimi (toz, gürültü, araç trafiği açısından) rahatsız etmemesi gerektiği anlamına gelir. Bu sayfada Afyonkarahisar'daki et işleme tesisi genişletme ve yeni soğuk depo inşaatlarında çelik konstrüksiyon montaj platformunun nasıl konumlandığını, mevcut üretimle sınırın nasıl çizildiğini ve inşaat aşamalarına göre platform ihtiyacının nasıl değiştiğini anlatıyoruz.",
+        maddeler: [
+            { baslik: "Mevcut üretim ile inşaat sahası arasında fiziksel sınır", metin: "Yeni bir kurutma odası bloğu veya depo eklenirken inşaat sahası, çalışan üretim alanından bariyer veya perde ile ayrılır. Platform bu sınırın inşaat tarafında kalır; kol hareketi üretim tarafına taşmayacak şekilde sınırlandırılır. Sınırın nerede çizileceği, projeye başlamadan tesis yönetimi ve inşaat sorumlusuyla birlikte belirlenir." },
+            { baslik: "Çatı kirişi ve panel montajında kademeli yükseklik", metin: "Çelik çatı kirişi montajı genellikle zeminden başlayıp kademeli olarak yükselir; platform her kademede farklı bir çalışma yüksekliğine göre konumlanır. Kiriş montajı ilerledikçe erişim noktaları değişir, bu nedenle sabit bir tek konum yerine haftalık bir yerleşim planı kullanılır." },
+            { baslik: "İzolasyon panel montajında hizalama hassasiyeti", metin: "Soğuk depo veya kurutma odası cephesindeki izolasyon panelleri, hizalama toleransı düşük bir işlemdir; platformun panel önünde sabit ve titremeden durması gerekir. Zemin düz değilse veya panelin bulunduğu yükseklik değişkense platform konumlaması buna göre ayarlanır, gerekirse takoz veya destekle ek sabitleme yapılır." },
+            { baslik: "Toz ve gürültünün üretim tarafına taşmaması", metin: "Kesme, kaynak veya panel kesim işlemlerinde oluşan toz ve gürültü, ortak duvar veya avluyu paylaşan üretim tarafını rahatsız etmemelidir. Bu tip işler mümkünse üretimin daha sakin olduğu saatlere planlanır; perde veya branda ile toz sınırlandırılır." },
+            { baslik: "İnşaat aşamasına göre platform sınıfı değişimi", metin: "Temel ve alt kat işlerinde makaslı platform yeterli olabilirken, çatı kirişi ve üst kat cephe işlerinde eklemli platform daha uygun erişim sağlar. İnşaat ilerledikçe hangi aşamada hangi sınıfın gerekeceği önceden bir takvime bağlanır; son anda 'bu iş için başka makine gerekiyor' sürprizinden kaçınılır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İnşaat aşamasına göre platform ihtiyacı",
+                paragraflar: ["Yeni bir üretim bloğu veya soğuk depo inşaatında aşamaya göre platform sınıfı ve konumlanma değişir. Aşağıdaki tablo bu ilerleyişi özetler."],
+                tablo: {
+                    basliklar: ["Aşama", "Tipik iş", "Uygun sınıf", "Öncelikli önlem"],
+                    satirlar: [
+                        ["Temel/alt kat çelik", "Kolon-kiriş montajı", "Makaslı platform", "Sert zemin"],
+                        ["Çatı kirişi", "Ana taşıyıcı montaj", "Eklemli platform", "Kademeli yükseklik planı"],
+                        ["Cephe izolasyon paneli", "Panel hizalama", "Eklemli/makaslı", "Titreşimsiz konum"],
+                        ["Çatı kaplama", "Son kat montaj", "Eklemli platform", "Düşen cisim kontrolü"],
+                        ["İç mekân tesisat", "Kanal/kablo montajı", "Makaslı platform", "Hijyen bölgesi geçişi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ortak avlu kullanımında araç trafiği koordinasyonu",
+                paragraflar: [
+                    "İnşaat malzemesi taşıyan araçlar ile üretim tesisinin kendi sevkiyat araçları aynı avluyu paylaşıyorsa, iki trafiğin çakışmaması için günlük bir giriş-çıkış çizelgesi kullanılır. Platform da bu çizelgeye dâhil edilir; özellikle büyük parça taşıyan araçların geldiği saatlerde platform manevrası geçici olarak durdurulabilir.",
+                    "Bu koordinasyon, inşaat sorumlusu ile üretim/sevkiyat sorumlusunun haftalık kısa bir toplantısıyla güncellenir. Değişen teslimat tarihleri veya üretim yoğunluğu bu toplantıda platform programına yansıtılır." ],
+            },
+            {
+                baslik: "Devreye alma öncesi son kontrol yüksekliği",
+                paragraflar: [
+                    "Yeni blok tamamlanmaya yaklaştığında, aydınlatma, havalandırma çıkışı ve çatı derzi gibi kalemlerin son kontrolü genellikle inşaat platformuyla değil, işletmeye alım öncesi ayrı bir kontrol turuyla yapılır. Bu tur sırasında platform, inşaat ekibinden ziyade tesisin bakım ekibiyle birlikte çalışabilir.",
+                    "Son kontrol turunun kapsamı önceden bir kontrol listesine yazılır; hangi kalemin hangi kotta, hangi yöntemle kontrol edileceği belirlenir. Bu liste, yeni bloğun işletmeye alınmasından sonraki ilk periyodik bakımın da temelini oluşturur." ],
+            },
+        ],
+        sss: [
+            { soru: "İnşaat platformu üretim alanına yakın çalışırken üretim durur mu?", cevap: "Gerekmez; inşaat ile üretim alanı fiziksel bir sınırla (bariyer veya perde) ayrılır ve platform bu sınırın inşaat tarafında kalır. Yalnızca ortak bir geçiş noktası veya avlu kullanımı varsa, o noktada geçici bir koordinasyon yapılır." },
+            { soru: "Çatı kirişi montajında platform her gün aynı yerde mi durur?", cevap: "Hayır, kiriş montajı ilerledikçe erişim noktası değişir; bu nedenle haftalık bir yerleşim planı kullanılır. Sabit bir tek konum yerine, montajın ilerleme hızına göre platform konumu güncellenir." },
+            { soru: "İzolasyon panel montajında zemin düzgün değilse ne yapılır?", cevap: "Zemin düzensizse platform konumlaması buna göre ayarlanır, gerekirse takoz veya ek destekle sabitleme yapılır; titreşimli veya eğik bir zeminde hassas hizalama gerektiren panel işi yapılmaz, önce zemin düzeltilir veya alternatif konum aranır." },
+            { soru: "Kaynak ve kesim işleminin tozu üretim tarafına geçer mi?", cevap: "Geçmemesi için mümkünse bu işler üretimin sakin olduğu saatlere planlanır ve perde veya branda ile toz sınırlandırılır. Rüzgar yönü ve ortak havalandırma bağlantısı varsa bu da önceden değerlendirilir." },
+            { soru: "İnşaat aşamasında hangi platform sınıfının gerekeceği nasıl belirlenir?", cevap: "Aşamaya göre değişir: temel ve alt kat işlerinde makaslı platform, çatı kirişi ve üst kat cephe işlerinde eklemli platform daha uygun erişim sağlar. İnşaat takvimi paylaşıldığında hangi aşamada hangi sınıfın gerekeceği önceden planlanır." },
+            { soru: "Yeni blok tamamlandıktan sonra platform ihtiyacı biter mi?", cevap: "İnşaat platformu işi biter ama devreye alma öncesi son kontrol turu ve sonraki periyodik bakımlar için platform ihtiyacı devam eder. Bu geçiş, inşaat ekibinden tesisin kendi bakım ekibine devredilen bir süreçtir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Et işleme tesislerinde genişletme/yeni blok inşaatının genel aşamaları kamuya açık sektör bilgisidir; belirli bir proje adı veya metraj uydurulmamıştır. Sınır çizimi ve aşama bazlı platform planlaması firma saha pratiğidir.",
+    },
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Afyonkarahisar Sucuk-Pastırma Üretiminde Baharat, Tuz ve Ambalaj Silo/Depo Sahalarında Platform Kiralama",
+        giris:
+            "Sucuk ve pastırma üretiminde et dışındaki en kritik girdiler baharat karışımları, tuz ve ambalaj malzemesidir; bu malzemeler genellikle üretim holünden ayrı bir silo, büyük konteyner veya raflı depo bölümünde tutulur. Bu bölümler tahıl silosu gibi büyük ölçekli değildir ama kendi içinde farklı bir erişim sorunu taşır: baharat siloları ve büyük karışım kazanları genellikle dar bir servis platformuna sahiptir, tuz deposu nem kontrolüne duyarlıdır, ambalaj malzemesi (film, kutu, etiket) raflı depoda yüksek istiflenir. Bu sayfada Afyonkarahisar'daki et işleme tesislerinin baharat/tuz silosu ve ambalaj malzemesi deposunda platform kiralarken hangi erişim ve nem kontrolü kurallarının öne çıktığını anlatıyoruz; burada tahıl veya tarımsal ürün silosu değil, üretim girdisi olan baharat-tuz-ambalaj zincirinin bakımı ele alınır.",
+        maddeler: [
+            { baslik: "Baharat karışım kazanı üstü servis erişimi", metin: "Baharat karışım kazanları genellikle kendi dar bir servis platformuna ve merdivenine sahiptir; ek bakım (motor, tahrik ünitesi, kapak contası) için bu sabit platformun üstüne değil, yanına ayrı bir mobil platform konumlandırılır. Kazanın çalışır durumda olup olmadığı ve o gün üretimde kullanılıp kullanılmayacağı önceden kontrol edilir." },
+            { baslik: "Tuz deposunda nem ve korozyon kontrolü", metin: "Tuz, nem ile temas ettiğinde hem kendi kalitesini hem çevresindeki metal yapıyı etkileyebilir. Bu depoda çalışacak platformun tekerlek ve şasesi nemli tuz tortusuna karşı çalışma sonunda temizlenir; platform depoya girmeden önce zemin nem durumu kontrol edilir, ıslak veya tuz birikintili noktalarda düşük hızla ilerlenir." },
+            { baslik: "Ambalaj malzemesi deposunda yüksek raf erişimi", metin: "Film, kutu ve etiket gibi ambalaj malzemeleri genellikle hafif ama hacimli olduğu için yüksek raflarda depolanır. Raf üstü aydınlatma veya havalandırma bakımı yapılırken malzeme paketlerinin istikrarına dikkat edilir; platform raf önünde dururken üstteki paketlerin düşme riski varsa bu bölge önce tesis tarafından kontrol edilir." },
+            { baslik: "Silo/kazan çevresinde toz ve statik elektrik önlemi", metin: "Baharat tozunun yoğun olduğu noktalarda statik elektrik birikimi bir risk taşıyabilir; bu nedenle elektriksel bakım işlerinde tesisin kendi elektrik güvenlik kuralları uygulanır. Toz birikimi görülen yüzeylerde çalışma öncesi kısa bir temizlik istenir; toz kaldırıcı işlemler platform çalışmasından ayrı ve önce yapılır." },
+            { baslik: "Dar servis alanında makine sınıfı seçimi", metin: "Baharat ve tuz depolama bölümü genellikle üretim holüne göre daha küçük bir alandır; buraya büyük bir makaslı platform yerine daha kompakt bir sınıf veya gerekirse örümcek platform yönlendirilir. Alan ölçüsü ve tavan yüksekliği paylaşılmadan sınıf seçimi yapılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Girdi deposu bölümlerine göre çalışma koşulu",
+                paragraflar: ["Baharat, tuz ve ambalaj malzemesi depolarının her biri farklı bir risk taşır. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["Bölüm", "Baskın risk", "Öncelikli önlem", "Tipik makine"],
+                    satirlar: [
+                        ["Baharat karışım kazanı", "Toz, statik elektrik", "Elektrik güvenlik kuralı", "Kompakt platform"],
+                        ["Tuz deposu", "Nem, korozyon", "Çalışma sonrası temizlik", "Kompakt platform"],
+                        ["Ambalaj malzemesi deposu", "Yüksek raf istifi", "Paket düşme kontrolü", "Makaslı platform"],
+                        ["Girdi kabul/tartı alanı", "Araç trafiği", "Kabul saatleri dışı", "Makaslı platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Baharat kazanı bakımında üretim koordinasyonu",
+                paragraflar: [
+                    "Baharat karışım kazanı üretim reçetesine göre günün belirli saatlerinde çalışır; bakım işi bu saatlerin dışına, kazanın boş ve soğuk olduğu bir zaman dilimine planlanır. Kazan üreticisinin kendi bakım talimatı varsa bu talimat platform çalışmasından önce tesis tarafından paylaşılır.",
+                    "Kazanın yakınındaki diğer ekipmanlarla (tartı, dozajlama ünitesi) olan mesafe de değerlendirilir; platform bu ekipmanlara temas etmeyecek şekilde konumlanır, gerekirse ekipman önü geçici olarak korumaya alınır." ],
+            },
+            {
+                baslik: "Nem kontrolüne duyarlı depoda kısa çalışma penceresi",
+                paragraflar: [
+                    "Tuz deposunun nem kontrolü genellikle kapının açık kalma süresine duyarlıdır; bu nedenle platform çalışması kapıyı gereksiz uzun süre açık tutmayacak şekilde kısa bloklara bölünür. Uzun bir işin tek seferde tamamlanması gerekiyorsa, tesisin nem kontrol sistemi bu süre için geçici olarak devreye alınabilir; bu karar tesis yetkilisine aittir.",
+                    "Çalışma sonunda platformun tekerlek ve alt kısmındaki tuz tortusu temizlenmeden başka bir bölüme (özellikle hijyen bölgesine) geçilmez; bu, sadece ekipman bakımı değil aynı zamanda tesisin genel hijyen zincirinin bir parçasıdır." ],
+            },
+        ],
+        sss: [
+            { soru: "Baharat karışım kazanının üstüne platformla çıkılabilir mi?", cevap: "Kazanın kendi sabit servis platformu varsa mobil platform onun üstüne değil yanına konumlanır ve oradan erişim sağlanır. Kazanın çalışır ve dolu olup olmadığı önceden kontrol edilir; dolu ve sıcak bir kazanın üstünde çalışma yapılmaz." },
+            { soru: "Tuz deposunda platform korozyona uğrar mı?", cevap: "Kısa süreli çalışmada risk düşüktür ama uzun süre nemli tuz tortusuyla temas hâlinde metal yüzeylerde korozyon başlayabilir. Bu nedenle çalışma sonunda tekerlek ve alt şase temizlenir; sık kullanılan bir depo ise bu temizlik her seferinde standart adım olarak uygulanır." },
+            { soru: "Ambalaj malzemesi deposunda raf üstü paketler düşer mi?", cevap: "Doğru istiflenmiş bir rafta risk düşüktür ama platform raf önünde çalışırken üstteki paketlerin istikrarı görsel olarak kontrol edilir. Şüpheli bir istif varsa önce tesisin depo sorumlusu bilgilendirilir, gerekirse paket önce indirilir sonra bakım yapılır." },
+            { soru: "Baharat tozu yoğun ortamda elektrikli bakım yapılabilir mi?", cevap: "Yapılabilir ancak tesisin elektrik güvenlik kuralları ve varsa statik elektrik önlemleri uygulanır. Yoğun toz birikimi varsa çalışma öncesi kısa bir temizlik istenir; toz kaldırma işlemi platform çalışmasından ayrı ve önce yapılır." },
+            { soru: "Dar baharat-tuz deposuna hangi platform sınıfı uygundur?", cevap: "Alan küçük ve tavan alçaksa kompakt bir makaslı platform veya örümcek platform tercih edilir. Alan ölçüsü ve tavan yüksekliği paylaşılmadan büyük bir sınıf gönderilmez; sahada uyumsuzluk çıkması riskini önceden azaltmak amaçlanır." },
+            { soru: "Tuz deposu kapısı bakım sırasında ne kadar açık kalabilir?", cevap: "Sabit bir süre yoktur; tesisin nem kontrol sistemi ve o günkü hava koşuluna göre değişir. Çalışma kısa bloklara bölünerek kapının gereksiz uzun açık kalması önlenir; uzun bir iş tek seferde tamamlanacaksa nem kontrol sisteminin geçici ayarı tesis yetkilisince değerlendirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Et işleme tesislerinde baharat, tuz ve ambalaj malzemesi depolama pratiğinin genel işleyişi kamuya açık sektör bilgisidir; belirli bir tesis adı, reçete veya kapasite uydurulmamıştır. Nem kontrolü ve dar alan makine seçimi firma saha pratiğidir.",
+    },
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Afyonkarahisar Et İşleme Tesislerinde Soğuk Zincir Enerji Hattı ve Aydınlatma Bakım Platformu",
+        giris:
+            "Sucuk-pastırma tesislerinde enerji sürekliliği, standart bir sanayi binasına göre daha kritik bir konudur; çünkü kesinti, yalnızca üretimi değil soğuk depodaki ve kurutma odasındaki sıcaklık kontrolünü de doğrudan etkiler. Bu nedenle tesis içindeki elektrik pano hattı, kompresör dairesi bağlantıları ve üretim holü aydınlatması, planlı bakımı en dikkatli yürütülmesi gereken kalemlerdendir. Aydınlatma armatürleri genellikle tavan yüksekliğinde, kablo taşıyıcı hatları ise havalandırma kanalıyla iç içe geçmiş biçimde bulunur; bu ikisine erişim, hem elektrik güvenliği hem hijyen kuralları aynı anda gözetilerek yapılır. Bu sayfada Afyonkarahisar'daki et işleme tesislerinde enerji hattı ve aydınlatma bakımı için platform kiralarken hangi elektrik güvenlik onayının arandığını, soğutma sistemine bağlı panoların bakımının nasıl planlandığını anlatıyoruz.",
+        maddeler: [
+            { baslik: "Elektriksel yaklaşma öncesi yetkili teyidi", metin: "Pano ve enerji hattı çevresinde çalışmadan önce ilgili devrenin durumu (enerjili mi, izole mi) tesisin elektrik yetkilisi tarafından teyit edilir. Bu teyit alınmadan platform pano önüne yaklaştırılmaz. Teyit sözlü değil, tesisin kendi iş izin prosedürüne göre belgelenir." },
+            { baslik: "Kompresör dairesi ve soğutma panosu önceliği", metin: "Soğutma sistemini besleyen kompresör dairesindeki pano ve kablo hatları, kesintiye en duyarlı noktalardır. Bu bölgedeki bakım, sistemin yedekli çalıştığı veya göreceli düşük yükte olduğu bir saate planlanır; tek hatlı ve yedeksiz bir sistemde kesinti riski taşıyan işler tesisin özel onayı olmadan yapılmaz." },
+            { baslik: "Üretim holü aydınlatmasında hat bazlı sıralama", metin: "Aydınlatma armatürü değişimi, tüm holü aynı anda karartmak yerine hat bazlı sırayla yapılır; bir hat değiştirilirken diğer hatlar aydınlık kalır ve üretim etkilenmez. Bu sıralama, hattın hangi bölümü aydınlattığı önceden bilindiğinde mümkündür; tesisin aydınlatma planı paylaşıldığında sıra buna göre kurulur." },
+            { baslik: "Kablo taşıyıcı ile havalandırma kanalı ayrımı", metin: "Kablo taşıyıcı hatları çoğu zaman havalandırma kanalının hemen yanında veya altında seyreder; platform bu iki sistemi ayırt ederek çalışır, kanal yüzeyine temas etmeden kabloya erişir. Hangi hattın hangi sisteme ait olduğu belirsizse çalışma öncesi tesis elektrik yetkilisinden teyit alınır." },
+            { baslik: "Acil aydınlatma arızasında sınırlı kapsam", metin: "Acil bir aydınlatma kesintisi üretim güvenliğini etkiliyorsa müdahale önceliklidir, ancak kapsam yalnızca arızayı güvenli şekilde giderecek kalemle sınırlı tutulur. Kapsamlı bir aydınlatma yenileme projesi, elektriksel teyit ve hat sıralaması gerektirdiği için planlı bir güne bırakılır, acil müdahaleyle karıştırılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Enerji-aydınlatma kalemlerine göre planlama önceliği",
+                paragraflar: ["Tesis içindeki farklı enerji ve aydınlatma kalemleri, farklı kesinti hassasiyeti taşır. Aşağıdaki tablo bu önceliklendirmeyi özetler."],
+                tablo: {
+                    basliklar: ["Kalem", "Kesinti hassasiyeti", "Bakım zamanı", "Onay gerekliliği"],
+                    satirlar: [
+                        ["Kompresör dairesi panosu", "Çok yüksek", "Yedekli/düşük yük saati", "Elektrik yetkilisi onayı"],
+                        ["Soğuk depo aydınlatması", "Yüksek", "Sevkiyat dışı saat", "Kısa kapı açık kalma"],
+                        ["Üretim holü aydınlatması", "Orta", "Vardiya arası", "Hat bazlı sıralama"],
+                        ["İdari/ofis aydınlatması", "Düşük", "Gün içi esnek", "Standart iş izni"],
+                        ["Dış saha/rampa aydınlatması", "Düşük", "Sevkiyat dışı saat", "Standart iş izni"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yedekli sistemlerde bakım penceresi",
+                paragraflar: [
+                    "Soğutma sistemi yedekli çalışıyorsa (birden fazla kompresör veya devre varsa), bir hattın bakımı diğer hat üretimi/soğutmayı sürdürürken yapılabilir. Bu durumda platform yalnızca bakımdaki hattın çevresinde çalışır, aktif hatta yaklaşmaz.",
+                    "Yedeksiz veya tek hatlı bir sistemde bakım, planlı bir kısa duruşla yapılır; bu duruşun süresi ve zamanı tesisin üretim takvimine göre önceden belirlenir, sürpriz bir kesinti yaratılmaz." ],
+            },
+            {
+                baslik: "Hat bazlı aydınlatma sıralamasının faydası",
+                paragraflar: [
+                    "Üretim holü aydınlatmasını hat bazlı sıralı değiştirmek, hem üretimin aydınlık kalmasını sağlar hem de her hat için ayrı bir elektriksel teyit alınmasına imkân verir. Bu yöntem, tüm holü aynı anda karartıp tek seferde bitirmeye çalışmaktan daha yavaş görünse de, üretim kaybını neredeyse sıfıra indirir.",
+                    "Sıralama tesisin aydınlatma planı (hangi hat hangi bölümü besliyor) paylaşıldığında en verimli şekilde kurulur; plan yoksa saha keşfinde bu bilgi birlikte çıkarılır ve bir sonraki bakım için kayıt altına alınır." ],
+            },
+        ],
+        sss: [
+            { soru: "Elektrik pano bakımı için tesisten hangi teyit istenir?", cevap: "İlgili devrenin enerjili mi izole mi olduğuna dair yazılı veya tesisin kendi iş izin sistemine kayıtlı bir teyit istenir. Bu teyit tesisin elektrik yetkilisi tarafından verilir; sözlü bir 'sorun yok' bilgisiyle pano önüne yaklaşılmaz." },
+            { soru: "Kompresör dairesindeki bakım soğutmayı durdurur mu?", cevap: "Sistem yedekliyse durdurmaz; bakımdaki hat devre dışı bırakılırken diğer hat çalışmaya devam eder. Yedeksiz sistemde kısa bir planlı duruş gerekebilir, bu durum önceden tesisle netleştirilir ve üretim takvimine göre zamanlanır." },
+            { soru: "Aydınlatma değişimi sırasında üretim holü tamamen karanlıkta kalır mı?", cevap: "Kalmaz; değişim hat bazlı sıralı yapılır, bir hat değiştirilirken diğer hatlar aydınlık kalır. Bu, tesisin aydınlatma planının önceden bilinmesiyle mümkün olur; plan yoksa ilk keşifte bu bilgi çıkarılır." },
+            { soru: "Kablo taşıyıcı ile havalandırma kanalı karışırsa ne olur?", cevap: "Karışıklık riski varsa çalışma öncesi tesis elektrik yetkilisinden hangi hattın hangi sisteme ait olduğu teyit edilir. Belirsizlik giderilmeden kanal yüzeyine yakın bir müdahale yapılmaz." },
+            { soru: "Acil aydınlatma arızası ne kadar sürede giderilir?", cevap: "Süre arızanın türüne ve erişim koşuluna göre değişir; öncelik güvenli ve hızlı müdahaledir, kapsam yalnızca arızayı giderecek kalemle sınırlı tutulur. Kapsamlı bir yenileme işi bu acil müdahaleden ayrı, planlı bir güne bırakılır." },
+            { soru: "Dış saha ve rampa aydınlatması ne zaman bakıma alınır?", cevap: "Genellikle sevkiyat trafiğinin düşük olduğu saatlere planlanır; bu alanların kesinti hassasiyeti üretim ve soğutma hatlarına göre daha düşüktür, bu nedenle bakım programında daha esnek bir zaman dilimine yerleştirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Et işleme tesislerinde soğutma sistemi ve enerji sürekliliğinin genel önemi kamuya açık sektör bilgisidir; belirli bir tesisin elektrik altyapısı veya kapasitesi uydurulmamıştır. Hat sıralaması ve yetkili teyit süreci firma saha pratiğidir.",
+    },
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Afyonkarahisar Et İşleme Tesislerinde Hijyen Bölgesine Uygun Operatörlü Platform Kiralama",
+        giris:
+            "Bir sucuk-pastırma tesisinde operatörlü platform kiralamak, sadece makineyi kullanacak yetkin bir kişi göndermekten ibaret değildir; operatörün de tesisin hijyen ve giriş prosedürüne uyması gerekir. Kurutma odası, paketleme hattı veya hammadde kabul gibi temiz üretim alanlarına giren her kişi, tesisin istediği koruyucu kıyafeti giyer, varsa el dezenfeksiyonu ve kayıt adımlarını tamamlar. Bu, operatörlü kiralamayı standart bir sanayi tesisindekinden biraz daha planlı hâle getirir: operatörün hangi bölüme gireceği, o bölümün hijyen sınıfı ve giriş prosedürü önceden bilinmelidir. Bu sayfada Afyonkarahisar'daki et işleme tesislerinde operatörlü platform kiralarken operatör yeterliliğinin nasıl doğrulandığını, hijyen bölgesine giriş kurallarının nasıl uygulandığını ve operatörsüz kiralamanın hangi durumlarda tercih edilebileceğini anlatıyoruz.",
+        maddeler: [
+            { baslik: "Operatör yeterlilik belgesinin doğrulanması", metin: "Operatörlü kiralamada, operatörün ilgili platform sınıfı için geçerli yeterlilik belgesi sevkiyat öncesi tesise iletilir. Tesisin kendi ziyaretçi/yüklenici kayıt sistemi varsa bu belge o sisteme önceden yüklenir; sahada belge kontrolü son adım olarak tekrarlanır, eksik belgeyle çalışmaya başlanmaz." },
+            { baslik: "Hijyen bölgesine giriş için koruyucu ekipman", metin: "Operatör, kurutma odası veya paketleme hattı gibi temiz alanlara girerken tesisin istediği bone, önlük, galoş veya benzeri koruyucu ekipmanı kullanır. Bu ekipmanın kimin tarafından sağlanacağı (tesis mi, kiralayan firma mı) sevkiyat öncesi netleştirilir; sahada belirsizlik yaşanmaması için bu detay teklif aşamasında konuşulur." },
+            { baslik: "Bölüm bazlı görevlendirme ve iş talimatı", metin: "Operatör, tesise geldiğinde önce o gün çalışacağı bölümün hijyen sınıfı ve o bölüme özel kısıtlar konusunda tesis yetkilisinden kısa bir bilgilendirme alır. Bu bilgilendirme, örneğin kurutma odasında hangi rayların dolu olduğunu veya paketleme hattında hangi saatlerde çalışılamayacağını içerir." },
+            { baslik: "Operatörsüz kiralamanın uygun olduğu durumlar", metin: "Tesisin kendi bünyesinde yeterlilik belgeli personeli varsa ve bu personel hijyen prosedürlerine zaten aşinaysa operatörsüz kiralama tercih edilebilir. Bu durumda makine teslim edilirken tesisin kendi operatörüne kısa bir cihaz tanıtımı yapılır; makinenin sınırları ve bakım durumu yazılı olarak paylaşılır." },
+            { baslik: "Vardiya değişiminde görev devri", metin: "İş birden fazla vardiyaya yayılıyorsa, bir operatörden diğerine görev devri yapılırken o güne kadar tamamlanan ve kalan işler, varsa özel bir kısıt (örneğin bir rayın o gün ürün alacağı bilgisi) yazılı olarak aktarılır. Sözlü aktarım tek başına yeterli görülmez." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama karşılaştırması",
+                paragraflar: ["Hangi seçeneğin uygun olduğu tesisin kendi personel durumuna ve işin niteliğine göre değişir. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen seçenek", "Gerekli belge", "Not"],
+                    satirlar: [
+                        ["Tesiste yetkin personel yok", "Operatörlü", "Operatör yeterlilik belgesi", "Hijyen prosedürü sahada anlatılır"],
+                        ["Tesiste yetkin personel var", "Operatörsüz", "Personel yeterlilik belgesi", "Kısa cihaz tanıtımı yapılır"],
+                        ["Tek seferlik kısa iş", "Operatörlü", "Operatör yeterlilik belgesi", "Hızlı devreye alma"],
+                        ["Uzun süreli/sürekli iş", "Operatörsüz", "Personel yeterlilik belgesi", "Maliyet avantajı olabilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hijyen bölgesi giriş prosedürünün önceden paylaşılması",
+                paragraflar: [
+                    "Her tesisin hijyen giriş prosedürü aynı değildir; bazı tesislerde yalnızca bone ve galoş yeterliyken bazılarında ek bir el dezenfeksiyonu veya kayıt adımı istenir. Bu fark operatör açısından önemlidir çünkü prosedür sahada öğrenilirse iş başlama saati gecikebilir.",
+                    "Bu nedenle teklif aşamasında tesisten hijyen giriş prosedürünün kısa bir özeti istenir; operatör bu bilgiyle sahaya gelir ve giriş süreci ilk seferden sorunsuz tamamlanır." ],
+            },
+            {
+                baslik: "Operatör değişikliğinde süreklilik",
+                paragraflar: [
+                    "Uzun süreli bir işte operatör izin veya rotasyon nedeniyle değişebilir; bu durumda yeni operatörün de aynı yeterlilik belgesine ve hijyen giriş kaydına sahip olması gerekir. Değişiklik mümkünse en az bir gün önceden tesise bildirilir, sahada sürpriz bir yeni yüz ile karşılaşılmaz.",
+                    "Devir sırasında önceki operatörün not ettiği saha bilgileri (dar geçitler, dolu raylar, dikkat edilmesi gereken noktalar) yeni operatöre yazılı olarak aktarılır; bu, işin kalitesinin operatör değişse bile korunmasını sağlar." ],
+            },
+        ],
+        sss: [
+            { soru: "Operatörün yeterlilik belgesi olmadan çalışmaya başlanır mı?", cevap: "Hayır, belge sevkiyat öncesi tesise iletilir ve sahada tekrar kontrol edilir. Eksik belgeyle çalışmaya başlanmaz; bu hem yasal hem tesis güvenliği açısından geçilemez bir kuraldır." },
+            { soru: "Koruyucu ekipmanı biz mi sağlıyoruz yoksa tesis mi?", cevap: "Bu, teklif aşamasında netleştirilir; bazı tesisler kendi koruyucu ekipmanını sağlarken bazıları operatörün kendi ekipmanıyla gelmesini bekler. Belirsizlik sahada yaşanmaması için bu detay önceden konuşulur." },
+            { soru: "Operatörsüz kiralamada makinenin sınırları nasıl aktarılır?", cevap: "Teslim sırasında tesisin kendi operatörüne kısa bir cihaz tanıtımı yapılır; makinenin kapasite sınırları, bakım durumu ve varsa özel kullanım notu yazılı olarak paylaşılır. Bu aktarım sözlü değil, imzalı bir teslim tutanağıyla desteklenir." },
+            { soru: "Vardiya değişiminde iş nasıl devredilir?", cevap: "Tamamlanan ve kalan işler ile varsa özel bir kısıt (örneğin bir rayın o gün dolu olacağı bilgisi) yazılı olarak bir sonraki operatöre aktarılır. Sözlü aktarım tek başına yeterli görülmez, önemli bilgiler kaybolmasın diye not edilir." },
+            { soru: "Operatör tesise ilk kez geliyorsa hijyen prosedürünü nasıl öğrenir?", cevap: "Teklif aşamasında tesisten hijyen giriş prosedürünün özeti istenir, operatör bu bilgiyle sahaya gelir. Sahada da tesis yetkilisi kısa bir bilgilendirme yapar; prosedür ilk kez sahada öğrenilmeye çalışılmaz." },
+            { soru: "Uzun süreli işte operatör değişirse iş kalitesi düşer mi?", cevap: "Düşmemesi için devir sırasında saha bilgileri (dar geçitler, dikkat noktaları) yazılı olarak yeni operatöre aktarılır ve yeni operatörün de aynı yeterlilik ve hijyen kaydına sahip olması sağlanır. Değişiklik mümkünse önceden tesise bildirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Gıda üretim tesislerinde hijyen giriş prosedürü ve operatör yeterlilik uygulamasının genel çerçevesi kamuya açık sektör bilgisidir; belirli bir tesisin prosedürü uydurulmamıştır. Belge doğrulama ve görev devri firma saha pratiğidir.",
+    },
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Afyonkarahisar'daki Birden Fazla Sucuk-Pastırma Tesisi ve Şarküteri Deposu İçin Çok Noktalı Rota Bakım Platformu",
+        giris:
+            "Afyonkarahisar merkezde ve çevre ilçelerde birden fazla et işleme tesisi, soğuk depo veya şarküteri toptan deposu bulunabilir; bu işletmelerin bir kısmı aynı OSB içinde, bir kısmı merkeze yakın farklı sanayi bölgelerinde yer alır. Bu tesislerin ortak bir özelliği, benzer erişim ihtiyaçları (kurutma odası bakımı, soğuk depo forklift işi, aydınlatma) taşımasıdır; bu da tek bir haftalık rotayla birden fazla adresi kapsayan bir bakım programını mantıklı kılar. Ancak her tesisin kendi hijyen kabulü, teslim kaydı ve giriş prosedürü ayrı yürütülür — ortak olan yalnızca güzergâh ve zamanlamadır. Bu sayfada Afyonkarahisar ve çevresindeki birden fazla et işleme/depolama noktasına çok noktalı rota bakımının nasıl kurulduğunu, hijyen bölgesi olan ve olmayan tesislerin rotada nasıl sıralandığını anlatıyoruz.",
+        maddeler: [
+            { baslik: "Rota sırasının hijyen sınıfına göre kurulması", metin: "Birden fazla tesis aynı günde ziyaret edilecekse, hijyen sınıfı en yüksek olan (örneğin kurutma odası veya paketleme hattı bulunan) tesis güne genellikle önce, daha genel amaçlı depo veya dış saha işleri sonra planlanır. Bu sıralama, bir tesisteki kirliliğin diğerine taşınmasını önler." },
+            { baslik: "Her tesis için ayrı teslim ve kabul kaydı", metin: "Ortak olan yalnızca güzergâh ve araç programıdır; her tesis kendi teslim tesellüm belgesini, kendi giriş kaydını ve varsa kendi hijyen onayını ayrı ayrı tutar. Bir tesisteki onay diğerine devredilmez; her durak kendi prosedürüyle ele alınır." },
+            { baslik: "Adresler arası mesafe ve trafik penceresi", metin: "Afyonkarahisar merkez ile çevre ilçelerdeki tesisler arasındaki mesafe, günlük rotanın kaç durağı kapsayabileceğini belirler. Bu hesap yapılırken yalnızca yol süresi değil, her duraktaki hijyen giriş süresi ve iş süresi de toplanır; gerçekçi olmayan bir günlük programa yer verilmez." },
+            { baslik: "Ortak makine sınıfı ile farklı ortam ihtiyacı", metin: "Rotadaki tesislerin çoğu benzer bir platform sınıfına ihtiyaç duysa bile, aralarında kurutma odası gibi dar alanlı bir tesis varsa o durak için ayrı bir kompakt makine planlanır. Tek bir makine sınıfının tüm rotaya uyacağı varsayılmaz; her durağın kendi ölçüsü teyit edilir." },
+            { baslik: "Bir duraktaki gecikmenin diğerine etkisi", metin: "Bir tesiste beklenmedik bir gecikme (örneğin hijyen kontrolünün uzaması) yaşanırsa, bu durum sonraki duraklara önceden bildirilir. Rotadaki tesisler, bir günlük programın parçası olduklarını bilir ve makul bir gecikme payını kabul eder; ancak bu pay önceden konuşulmadan varsayılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota durağı tipine göre planlama önceliği",
+                paragraflar: ["Çok noktalı rotadaki her durak, hijyen sınıfı ve erişim ihtiyacına göre farklı bir sırada ve şekilde ele alınır. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["Durak tipi", "Hijyen sınıfı", "Rotadaki sıra", "Öncelikli önlem"],
+                    satirlar: [
+                        ["Üretim/kurutma odası olan tesis", "Yüksek", "Gün başı", "Temiz makineyle giriş"],
+                        ["Soğuk depo/dağıtım merkezi", "Orta-yüksek", "Gün ortası", "Kapı açık kalma süresi"],
+                        ["Şarküteri toptan deposu", "Orta", "Gün ortası-sonu", "Standart hijyen kaydı"],
+                        ["Dış saha/idari bina bakımı", "Düşük", "Gün sonu", "Esnek zamanlama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Haftalık rota ile acil taleplerin dengelenmesi",
+                paragraflar: [
+                    "Sabit bir haftalık rota, planlı bakım kalemlerini önceden belirlenmiş bir sırayla kapsar. Ancak rotadaki tesislerden biri acil bir arıza bildirirse, bu talep haftalık programın dışında değerlendirilir ve mümkün olan en kısa sürede, diğer duraklara olan etkisi hesaplanarak devreye alınır.",
+                    "Acil taleplerin sık tekrarlandığı bir tesis varsa, bu durum bir sonraki haftalık program gözden geçirilirken dikkate alınır; o tesisin rotadaki sırası veya ziyaret sıklığı artırılabilir." ],
+            },
+            {
+                baslik: "Bayram öncesi rota yoğunluğu",
+                paragraflar: [
+                    "Kurban bayramı öncesi dönemde rotadaki neredeyse tüm tesislerde üretim ve sevkiyat yoğunluğu aynı anda artar; bu da her duraktaki bekleme ve giriş süresini normalden uzatabilir. Bu dönemde günlük rota daha az durak içerecek şekilde daraltılır, aksi hâlde program gerçekçi olmaktan çıkar.",
+                    "Yoğun dönem öncesi tesislerle yapılan kısa bir ön görüşme, hangi tesisin o hafta daha öncelikli olduğunu netleştirir; bu bilgi rota sırasına yansıtılır." ],
+            },
+        ],
+        sss: [
+            { soru: "Aynı günde birden fazla et işleme tesisi ziyaret edilebilir mi?", cevap: "Edilebilir, ancak mesafe, her duraktaki hijyen giriş süresi ve iş süresi birlikte hesaplanarak gerçekçi bir günlük program kurulur. Rotaya kaç durak sığacağı önceden değil, bu hesap yapıldıktan sonra belirlenir." },
+            { soru: "Bir tesisteki hijyen onayı diğer tesise geçerli olur mu?", cevap: "Olmaz, her tesis kendi giriş prosedürünü ve teslim kaydını ayrı tutar. Ortak olan yalnızca araç ve makine programıdır; hijyen onayı her durakta yeniden alınır." },
+            { soru: "Rotadaki bir tesiste gecikme olursa diğerleri ne olur?", cevap: "Gecikme sonraki duraklara önceden bildirilir; rotadaki tesisler günlük programın parçası olduklarını bilerek makul bir gecikmeyi kabul edebilir. Ancak bu pay keyfi değildir, gerçek zamanlı bilgilendirmeyle yönetilir." },
+            { soru: "Rotadaki tüm tesislere aynı platform sınıfı mı gönderilir?", cevap: "Genellikle benzer sınıflar kullanılsa da, dar alanlı bir kurutma odası bulunan tesis için ayrı bir kompakt makine planlanır. Her durağın ölçüsü ayrı teyit edilir, tek bir sınıfın tüm rotaya uyacağı varsayılmaz." },
+            { soru: "Acil bir arıza haftalık rotayı bozar mı?", cevap: "O günkü sıra bir miktar etkilenebilir ama acil talep, diğer duraklara olan etkisi hesaplanarak mümkün olan en kısa sürede devreye alınır. Sık tekrarlanan acil talepler bir sonraki haftalık programda dikkate alınır." },
+            { soru: "Bayram öncesi rotaya daha fazla mı durak eklenir?", cevap: "Tam tersi; yoğunluk arttığı için günlük rota genellikle daha az durak içerecek şekilde daraltılır, aksi hâlde program gerçekçi olmaktan çıkar. Hangi tesisin öncelikli olduğu önceden kısa bir görüşmeyle netleştirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Afyonkarahisar merkez ve çevresinde birden fazla et işleme/depolama noktasının varlığı kamuya açık genel bilgidir; belirli tesis adları veya adresler uydurulmamıştır. Rota sıralaması ve hijyen ayrımı firma saha pratiğidir.",
+    },
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Afyonkarahisar Et İşleme Tesisi Dış Sahasında ve Yükleme Rampasında Zor Zemin Platform Kiralama",
+        giris:
+            "Et işleme tesisinin bina içi tamamen beton ve düzgün olsa bile, dış saha genellikle aynı özene sahip değildir: yükleme rampası önü sık sık kamyon manevrasıyla aşınır, bahçe veya çevre yolu yağış sonrası çamurlaşabilir, hammadde kabul alanının kenarındaki servis yolu düzensiz sıkıştırılmış toprak olabilir. Bu koşullarda standart bir sert zemin makaslı platformu göndermek yerine, zorlu zemine uygun paletli veya büyük tekerlekli bir sınıf tercih edilir. Afyonkarahisar'daki et işleme tesislerinde bu ihtiyaç en çok dış cephe aydınlatması, yükleme rampası üstü tente/gölgelik bakımı ve bina çevresi servis yolu üzerindeki kamera-aydınlatma direği bakımında ortaya çıkar. Bu sayfada dış saha ve yükleme rampası çevresinde zor zemin koşullarında platform kiralarken hangi zemin bilgilerinin önceden istendiğini, kuru güzergâh seçiminin nasıl yapıldığını anlatıyoruz.",
+        maddeler: [
+            { baslik: "Yükleme rampası önü zemin aşınması", metin: "Sürekli kamyon manevrası gören rampa önü zamanla oyuklaşabilir veya zeminde çukur oluşabilir. Bu bölgede çalışacak platform öncesinde zemin görsel olarak kontrol edilir; belirgin çukur veya çamur birikintisi varsa makine oraya değil, en yakın sağlam noktaya konumlandırılır ve oradan uzanılır." },
+            { baslik: "Yağış sonrası bahçe ve servis yolu durumu", metin: "Bina çevresindeki servis yolu veya bahçe bağlantılı alan, yağış sonrası taşıma gücünü kaybedebilir. Yüzey kuru görünse bile alt katman ıslak kalabilir. Son yağış bilgisi ve zemin fotoğrafı sevkiyat öncesi istenir; şüpheli bir zemine deneme amacıyla girilmez, alternatif rota veya daha kuru bir tarih tercih edilir." },
+            { baslik: "Sıkıştırılmış toprak alanda paletli tercih", metin: "Hammadde kabul kenarındaki servis yolu genellikle sıkıştırılmış toprak veya ince stabilize kaplamadır; standart dört tekerlekli bir platform burada batabilir veya kayabilir. Bu tip zeminlerde paletli yürüyüş takımına sahip bir sınıf tercih edilir; zemin tipi net değilse fotoğraf istenir." },
+            { baslik: "Ağır taşıma aracı ile platformun ayrı rotası", metin: "Platformu taşıyan çekici, zeminden şüphe varsa sert ve sağlam alanda kalır; makine kendi yürüyüşüyle, uygun koşullar varsa hedef noktaya ilerler. İkisi için aynı rota otomatik olarak varsayılmaz; ağır aracın geçemeyeceği bir noktaya platformun kendi başına gitmesi planlanabilir." },
+            { baslik: "Dış saha aydınlatma direği ve kamera bakımında konumlanma", metin: "Direk ve kamera direkleri genellikle rampa kenarında veya bahçe girişinde bulunur; bu noktalara erişim, hem zemin durumu hem araç manevra alanı birlikte değerlendirilerek planlanır. Direğin tam konumu ve çevresindeki zemin tipi sevkiyat öncesi paylaşıldığında doğru sınıf ilk seferde gönderilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dış saha bölgelerine göre zemin durumu",
+                paragraflar: ["Et işleme tesisinin dış saha bölgeleri farklı zemin tipi ve risk taşır. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["Bölge", "Tipik zemin", "Baskın risk", "Önerilen yaklaşım"],
+                    satirlar: [
+                        ["Yükleme rampası önü", "Beton, aşınmış", "Çukur, kamyon trafiği", "Sağlam nokta seçimi"],
+                        ["Hammadde kabul kenarı", "Sıkıştırılmış toprak", "Batma, kayma", "Paletli yürüyüş takımı"],
+                        ["Bahçe/servis yolu", "Toprak/stabilize", "Yağış sonrası zayıflama", "Kuru güzergâh, fotoğraf teyidi"],
+                        ["Bina çevresi asfalt/beton", "Sert zemin", "Düşük risk", "Standart tekerlekli tip"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kuru pencere seçiminde bilgi akışı",
+                paragraflar: [
+                    "Dış saha çalışmalarında en büyük risk, zeminin yüzeyde kuru görünüp altta hâlâ ıslak olmasıdır. Bu nedenle son yağış tarihi, zeminin gölgede kalıp kalmadığı ve drenaj durumu sevkiyat öncesi sorulur; sabit bir 'iki gün sonra kurur' kuralı verilmez, çünkü zemin yapısı ve mevsim bu süreyi değiştirir.",
+                    "Şüpheli bir durumda sahaya gidip zemini yerinde kontrol etmek, telefonla tahmin yürütmekten daha güvenilirdir; mümkünse kısa bir ön keşif planlanır, özellikle ilk kez çalışılan bir tesiste bu adım atlanmaz." ],
+            },
+            {
+                baslik: "Ağır aracın giremediği noktalarda alternatif erişim",
+                paragraflar: [
+                    "Bazı dış saha noktalarına ağır taşıma aracı hiç giremeyebilir; bu durumda platform, sert bir noktada indirilip kendi yürüyüşüyle hedefe ilerler veya erişim tamamen farklı bir sınıfla (örneğin daha küçük ve manevra kabiliyeti yüksek bir makine) sağlanır.",
+                    "Bu alternatif planlama, sahaya gidildiğinde değil, sevkiyat öncesi zemin ve mesafe bilgisi paylaşıldığında yapılır; böylece aracın sahada geri dönmek zorunda kalması gibi bir gecikme yaşanmaz." ],
+            },
+        ],
+        sss: [
+            { soru: "Yükleme rampası önündeki çukurlu zeminde platform çalışabilir mi?", cevap: "Çalışabilir ancak makine doğrudan çukurlu noktaya değil, en yakın sağlam alana konumlandırılır ve oradan uzanılır. Çukur belirginse ve sağlam nokta bulunamıyorsa, tesisin zemini düzeltmesi beklenir veya alternatif bir erişim açısı aranır." },
+            { soru: "Yağıştan sonra ne kadar süre beklenmeli?", cevap: "Sabit bir süre verilmez; toprağın yapısı, drenajı ve gölgede kalması sonucu değiştirir. Son yağış bilgisi ve zemin fotoğrafı istenir, şüpheli durumda sahada yerinde kontrol tercih edilir." },
+            { soru: "Sıkıştırılmış toprak zeminde standart dört tekerlekli platform kullanılabilir mi?", cevap: "Risklidir; bu tip zeminlerde batma veya kayma ihtimali standart tekerlekli makinede daha yüksektir. Paletli yürüyüş takımına sahip bir sınıf tercih edilir; zemin tipi net değilse önceden fotoğraf istenir." },
+            { soru: "Ağır taşıma aracı dış sahaya giremezse ne olur?", cevap: "Platform sert bir noktada indirilip kendi yürüyüşüyle hedefe ilerleyebilir veya erişim tamamen farklı, daha küçük bir sınıfla sağlanır. Bu alternatif, sahada değil sevkiyat öncesi zemin bilgisi paylaşıldığında planlanır." },
+            { soru: "Dış saha aydınlatma direğine erişim için hangi bilgi istenir?", cevap: "Direğin tam konumu, çevresindeki zemin tipi ve araç manevra alanının genişliği istenir. Bu bilgiler paylaşıldığında doğru platform sınıfı ilk seferde gönderilir, sahada uyumsuzluk riski azalır." },
+            { soru: "Zemin şüpheliyse denenip görülür mü?", cevap: "Hayır, şüpheli zemine deneme amacıyla girilmez. Taşıma gücünden emin olunmadığı sürece makine oraya konumlandırılmaz; sağlam bir noktadan uzanma, farklı rota veya daha kuru bir tarih tercih edilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Sanayi tesislerinin dış saha ve yükleme rampası zemin koşullarının genel işleyişi kamuya açık sektör bilgisidir; belirli bir tesisin zemin durumu veya ölçüsü uydurulmamıştır. Kuru güzergâh seçimi ve alternatif erişim planlaması firma saha pratiğidir.",
+    },
 };
