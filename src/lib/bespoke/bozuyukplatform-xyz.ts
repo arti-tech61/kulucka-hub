@@ -904,4 +904,1082 @@ export const BOZUYUKPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Bilecik Küçük Sanayi Sitesinin varlığı uygulama belgesindeki kamuya açık genel bilgidir; mevcut site içinde yeni dükkân-genişleme fazları, vinç-platform ayrımı, ortak alan koordinasyonu ve teslim kaydı sektör geneli inşaat pratiğidir. Faal karma bakım, OSB servis teması, özel proje, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bozüyük Demiryolu Hattı Kenarı Depolarda Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Bozüyük, TCDD'nin Ankara-İstanbul hattı üzerinde tarihi bir istasyon ve kavşak noktasıdır ve bu konum, yıllar içinde hat kenarında art arda dizilmiş depo ve antrepo yapılarının kurulmasına zemin hazırlamıştır. Bu yapıların büyük kısmı, raylı taşımacılığın avantajını kullanmak için hat hattına mümkün olduğunca yakın, dar parsellerde inşa edilmiştir; bu da bina aralarındaki geçişlerin, yükleme rampalarının üstündeki çatı boşluklarının ve depo cephesindeki dar servis koridorlarının çoğu zaman standart bir makaslı platformun sığamayacağı kadar sıkışık olması demektir. Örümcek (tırtıl tip) platform, tam olarak bu darlığa cevap verir — parçalara ayrılarak taşınabilir, kapı genişliği veya rampa eşiği gibi engellerden geçebilir ve bir kez içeride kurulduğunda uzun kollarıyla çatı kirişine, aydınlatma hattına veya cephe üst noktasına ulaşır. Hat kenarındaki depo işletmeleri için bizim önerdiğimiz yaklaşım, önce erişim güzergâhını (kapı, rampa, koridor genişliği) ölçmek, sonra o güzergâha sığacak örümcek modelini seçmektir; aksi hâlde makine sahaya girmeden önce sökülüp yeniden monte edilmek zorunda kalır ve bu da işi geciktirir.",
+        maddeler: [
+            {
+                baslik: "Yükleme rampası üstü çatı boşluğuna erişim",
+                metin:
+                    "Hat kenarı depolarda vagon veya kamyon yükleme rampasının üzerindeki çatı açıklığı, hem saçak hem de aydınlatma armatürü bakımı için sık erişim gerektiren bir bölgedir; ancak rampa döşemesi genellikle standart bir makaslı platformun ağırlığını her noktada taşıyacak şekilde tasarlanmamıştır. Örümcek platform, düşük nokta yüküyle rampa üzerinde ilerleyebilir ve kollarını rampa üstünden çatı boşluğuna uzatarak, altındaki yükleme trafiğini kesintiye uğratmadan çalışabilir.",
+            },
+            {
+                baslik: "Dar servis koridorundan parça parça taşıma",
+                metin:
+                    "Hat kenarına yakın parsellerde bina aralarındaki servis koridorları, arazi darlığı yüzünden genellikle bir aracın zar zor döneceği genişliktedir. Örümcek platform, gövde ve kol grubu ayrı ayrı taşınıp koridor içinde yeniden birleştirilebildiği için bu tür geçitlerden sığabilir; biz sahaya gitmeden önce koridor genişliğini ve varsa alçak boru/kablo geçişini sorarak modelin geçip geçemeyeceğini önceden netleştiririz.",
+            },
+            {
+                baslik: "Depo cephesinde aydınlatma ve tabela bakımı",
+                metin:
+                    "Hat kenarındaki depo binalarının cephesinde yer alan aydınlatma armatürleri ve firma tabelaları, genellikle zemin seviyesinden erişilemeyecek yükseklikte, dar bir cephe önü şeridinde bulunur. Örümcek platform, bu dar şeritte dönerek konumlanabilir ve kolun uzun erişimi sayesinde cepheden birkaç metre geride durarak yine de üst noktaya ulaşabilir; bu, cephe önündeki trafik akışının tamamen kapatılmasını gerektirmez.",
+            },
+            {
+                baslik: "Zemin taşıma sınırlı alanlarda ağırlık dağılımı",
+                metin:
+                    "Eski hat kenarı yapılarının bir kısmında zemin, günümüz yükleme standartlarına göre daha zayıf kalabilir — özellikle eski beton döşeme veya kısmi dolgu üzerine oturan bölümlerde. Örümcek platformun her ayağının ayrı ayrı konumlandırılabilmesi, ağırlığın tek bir hatta değil birden fazla noktaya dağıtılmasını sağlar; zemin durumu belirsizse sahaya girmeden önce ayakların oturacağı noktaları birlikte değerlendiririz.",
+            },
+            {
+                baslik: "Yükleme trafiği devam ederken çalışma",
+                metin:
+                    "Hat kenarı depolarda yükleme-boşaltma trafiği genellikle günün büyük bölümünde sürer ve bakım işinin bu trafiği durdurmadan yapılması istenir. Örümcek platformun dar taban izi, forklift ve yük araçlarının geçtiği koridorun bir kenarına sığarak trafiği kesmeden çalışmaya izin verir; ekip, platformun konumlandığı süre boyunca o şeridi kısa süreli olarak işaretler, tüm koridoru kapatmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hat kenarı erişim engeline göre model seçimi",
+                paragraflar: [
+                    "Hangi örümcek platform modelinin hangi engeli aşabildiğini, sahaya gitmeden önce netleştirmek için aşağıdaki tabloyu kullanıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim engeli", "Tipik ölçü sorunu", "Uygun çözüm", "Dikkat noktası"],
+                    satirlar: [
+                        ["Standart kapı genişliği", "Gövde geçemiyor", "Parçalı taşıma + içeride montaj", "Montaj süresi programa eklenir"],
+                        ["Rampa eşiği/basamağı", "Tekerlek takılıyor", "Rampa üstü sabit konumlandırma", "Eşik öncesi ölçüm şart"],
+                        ["Zayıf/eski döşeme", "Nokta yükü riski", "Ayak dağılımı geniş tutulan model", "Zemin durumu önceden sorulur"],
+                        ["Dar servis koridoru", "Dönüş yarıçapı yetmiyor", "Kompakt taban izli model", "Koridor genişliği ölçülür"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sahaya girmeden önce ölçüm neden zorunlu",
+                paragraflar: [
+                    "Örümcek platformun asıl avantajı dar geçitlerden geçebilmesidir, ama bu avantaj yalnızca doğru model seçildiğinde işe yarar; kapı genişliği, rampa eşiği yüksekliği ve koridor dönüş yarıçapı gibi ölçüler önceden bilinmezse sahaya getirilen makine kapıdan giremeyebilir. Bu yüzden hat kenarı depo talep sahiplerinden, mümkünse birkaç fotoğraf ve temel ölçü isteriz; bu bilgi sahaya çıkmadan doğru modeli belirlememizi sağlar.",
+                    "Ölçüm bilgisi eksik geldiğinde bile sahaya bir ön keşifle gideriz, ancak bu durumda makinenin kendisi değil sadece ölçüm yapılır; asıl iş günü, doğru model netleştikten sonra ayrıca planlanır.",
+                ],
+            },
+            {
+                baslik: "Yükleme rampası altında çalışan personelle koordinasyon",
+                paragraflar: [
+                    "Rampa üstünde çatı bakımı yapılırken, rampanın altında forklift veya el arabasıyla yük taşıyan personel bulunabilir; bu durumda platform ekibiyle rampa personeli arasında sürekli görüş teması kurulması gerekir, çünkü yukarıdan düşebilecek küçük bir parça bile aşağıdaki personel için risk oluşturur.",
+                    "Biz bu tür işlerde rampa sorumlusuyla önce kısa bir brifing yapar, çalışma süresince rampanın o bölümünün geçici olarak yük taşımaya kapatılmasını öneririz; tam kapatma mümkün değilse, çalışma alanının doğrudan altındaki şerit en azından boşaltılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform standart bir kapıdan geçebiliyor mu?",
+                cevap:
+                    "Çoğu model gövde ve kol grubu ayrı ayrı taşınabildiği için standart bir depo kapısından geçebilir, ancak kesin cevap kapı genişliğine ve modelin katlanmış hâldeki ölçüsüne bağlıdır. Sahaya gitmeden önce kapı ölçüsünü isteriz; ölçü sınırdaysa alternatif bir giriş noktası veya farklı bir model önerebiliriz.",
+            },
+            {
+                soru: "Yükleme rampası üstünde çalışırken rampa kullanılabilir mi kalıyor?",
+                cevap:
+                    "Genellikle rampanın tamamı değil, platformun konumlandığı şerit geçici olarak ayrılır; rampanın geri kalan kısmı yükleme trafiğine açık kalabilir. Rampa sorumlusuyla önceden koordinasyon yapılır ve çalışma süresi, trafiğin en az olduğu saatlere denk getirilmeye çalışılır.",
+            },
+            {
+                soru: "Eski beton döşemeli bir depoda platform güvenle durabilir mi?",
+                cevap:
+                    "Zemin durumu belirsizse önce görsel bir değerlendirme yaparız ve gerekirse ayakların oturacağı noktaları döşemenin daha sağlam bölümlerine yönlendiririz. Örümcek platformun ayaklarının ayrı ayrı konumlanabilmesi, ağırlığın tek hat yerine birden fazla noktaya dağılmasını sağladığı için zayıf zeminlerde standart bir platforma göre daha esnek bir seçenektir.",
+            },
+            {
+                soru: "Dar servis koridorunda platform dönebiliyor mu?",
+                cevap:
+                    "Kompakt taban izli modeller dar koridorlarda dönebilir, ancak dönüş yarıçapı modelden modele değişir. Koridor genişliğini ve varsa dönüş noktasındaki engelleri önceden sorarız; sınırda kalan durumlarda sahaya bir ön keşifle gidip ölçümü yerinde doğrularız.",
+            },
+            {
+                soru: "Cephe bakımı için tüm cephe önü trafiği kapatılıyor mu?",
+                cevap:
+                    "Hayır, genellikle sadece platformun konumlandığı dar şerit kısa süreli işaretlenir; cephenin geri kalanındaki geçiş açık tutulur. Cephe önü çok dar ve trafiği yoğunsa, çalışmayı trafiğin azaldığı saat dilimine planlamayı öneririz.",
+            },
+            {
+                soru: "Rampa altında çalışan personel için ek önlem alınıyor mu?",
+                cevap:
+                    "Evet, çalışma alanının doğrudan altındaki şerit mümkünse boşaltılır ve platform ekibiyle rampa personeli arasında sürekli görüş teması kurulur. Küçük bir parçanın bile yukarıdan düşme riski olduğu için bu koordinasyon, işe başlamadan önce kısa bir brifingle netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük'ün TCDD Ankara-İstanbul hattı üzerinde tarihi bir istasyon/kavşak noktası olması ve bu hat kenarında depo-antrepo yapılarının bulunması kamuya açık genel coğrafi bilgidir; örümcek platformun dar geçit ve düşük zemin yükü avantajı, rampa-koridor erişimi ve ağırlık dağılımı ekipman literatüründeki genel teknik bilgidir. Tesis adı, marka ve rakam verilmemiştir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bozüyük Demiryolu Hattı Kenarındaki Tesislere Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bozüyük'te TCDD hattının kavşak konumu, hat kenarındaki depo ve antrepo tesislerine ulaşımı kendine özgü kısıtlarla şekillendirir: bazı parseller hemzemin geçitlerin arkasında kalır, bazılarının servis yolu hat paralelinde uzun bir mesafe kat eder ve tren geçiş saatlerinde bu geçitler geçici olarak kapanabilir. Bir platformu böyle bir tesise zamanında teslim etmek, sadece kamyonu yola çıkarmak değil, güzergâhı önceden bilmek demektir — hangi hemzemin geçidin hangi saatlerde daha yoğun olduğunu, hangi servis yolunun düşük tonajlı taşıtlara kapalı olduğunu ve tesisin kendi giriş-çıkış kuralını bilmeden planlanan bir teslimat, sahaya varıldığında beklenmedik bir gecikmeyle karşılaşabilir. Bu sayfada, hat kenarındaki tesislere platform nakliyesini nasıl planladığımızı ve teslimat sırasında karşılaşılan tipik kısıtları nasıl yönettiğimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Hemzemin geçit saatlerine göre güzergâh planı",
+                metin:
+                    "Hat kenarındaki bazı tesislere ulaşmak için hemzemin bir geçitten geçmek gerekir ve tren geçişleri sırasında bu geçitler kısa süreliğine kapanır. Ağır bir platform yüklü tır için birkaç dakikalık bir bekleme önemli görünmeyebilir, ama teslimat saatinin tren tarifesiyle çakışmaması, özellikle sık trafiğin olduğu saatlerde toplam süreyi kısaltır. Güzergâhı planlarken, mümkün olduğunda geçidin daha az kullanıldığı saat dilimini tercih ederiz.",
+            },
+            {
+                baslik: "Servis yolu tonaj ve genişlik kısıtı",
+                metin:
+                    "Hat paralelinde uzanan bazı servis yolları, ağır tonajlı araç trafiği için tasarlanmamış olabilir veya genişliği bir platform taşıyan düşük yükleme kasalı tırın rahatça dönmesine yetmeyebilir. Bu tür bir kısıt önceden bilinmezse, teslimat aracı yolun ortasında dönüş yapamayan bir noktada kalabilir. Yeni bir tesise ilk teslimat öncesi, mümkünse güzergâhı harita üzerinden veya kısa bir ön kontrolle doğrularız.",
+            },
+            {
+                baslik: "Tesis giriş-çıkış kuralına uygun zamanlama",
+                metin:
+                    "Hat kenarındaki bazı depo ve antrepo tesisleri, kendi yükleme-boşaltma trafiğini yönetmek için araç giriş saatlerine kısıt koyar; bir platform teslimatının bu kısıtın dışında bir saatte gelmesi, aracın kapıda beklemesine yol açabilir. Teslimat tarihini netleştirirken tesisin giriş kuralını da sorar, mümkünse yükleme-boşaltma yoğunluğunun düşük olduğu bir saat dilimini tercih ederiz.",
+            },
+            {
+                baslik: "Rampa önünde indirme ve makine iniş sırası",
+                metin:
+                    "Bir platformun tır üzerinden indirilmesi, özellikle rampa önü gibi dar bir alanda yapılacaksa, aracın doğru açıyla park edilmesini ve indirme rampasının sağlam bir zemine oturmasını gerektirir. Rampa önü zaten yükleme trafiğine ayrılmış bir alan olduğu için, indirme işlemini genellikle trafiğin en az olduğu bir ara döneme denk getiririz ve tesis sorumlusuyla indirme noktasını önceden netleştiririz.",
+            },
+            {
+                baslik: "Birden fazla hat kenarı tesise aynı gün teslimat",
+                metin:
+                    "Hat boyunca art arda dizilmiş birkaç tesise aynı gün teslimat yapılması gerektiğinde, güzergâh sırası önemlidir — aynı hemzemin geçidi birden fazla kez geçmek yerine, tesisleri hat üzerindeki konumlarına göre sıralı bir rotaya oturturuz. Bu, hem yakıt hem de zaman açısından daha verimlidir ve geçit bekleme sayısını azaltır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslimat öncesi doğrulanan bilgiler",
+                paragraflar: [
+                    "Hat kenarı bir tesise ilk teslimat öncesi netleştirdiğimiz temel bilgileri aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Doğrulanan bilgi", "Neden önemli", "Kim bildirir", "Ne zaman sorulur"],
+                    satirlar: [
+                        ["Hemzemin geçit güzergâhı", "Bekleme süresi/alternatif yol", "Müşteri veya harita ön kontrolü", "Randevu netleşince"],
+                        ["Servis yolu tonaj/genişlik", "Araç dönebilir mi", "Tesis yetkilisi", "İlk teslimattan önce"],
+                        ["Tesis giriş saati kuralı", "Kapıda bekleme riski", "Tesis güvenlik/lojistik birimi", "Teslimat tarihi belirlenince"],
+                        ["İndirme noktası ve zemin", "Rampa sağlam oturur mu", "Saha ziyareti veya fotoğraf", "Teslimattan önce"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tren geçiş saatleriyle çakışmayı azaltmak",
+                paragraflar: [
+                    "Hat kenarındaki hemzemin geçitler, tren tarifesine göre günün belirli saatlerinde daha sık kapanır; biz kesin tren saatlerini takip etmesek de, tesis çalışanlarından veya tekrarlanan teslimat deneyimimizden hangi saatlerin daha yoğun geçtiğini öğrenip güzergâh planını buna göre ayarlarız.",
+                    "Acil bir teslimat söz konusu olduğunda ve geçit kapanma riski varsa, alternatif bir güzergâh (varsa) değerlendirilir; alternatif yoksa müşteriye olası bekleme süresi önceden bildirilir.",
+                ],
+            },
+            {
+                baslik: "Birden fazla tesise sıralı rota kurgusu",
+                paragraflar: [
+                    "Hat boyunca yakın konumlanmış birden fazla tesise aynı gün teslimat yapılacaksa, rota tesislerin hat üzerindeki sırasına göre kurgulanır; bu, aynı hemzemin geçidin birden fazla kez geçilmesini önler ve toplam teslimat süresini kısaltır.",
+                    "Rota planlaması için tesislerin teslimat taleplerini mümkün olduğunca erken almayı tercih ederiz; son anda eklenen bir durak, önceden kurgulanmış sırayı bozabilir ve toplam süreyi uzatabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hemzemin geçit kapandığında teslimat ne kadar gecikir?",
+                cevap:
+                    "Genellikle birkaç dakikalık bir bekleme söz konusudur ve bu, toplam teslimat süresini önemli ölçüde etkilemez; ancak sık trafiğin olduğu saatlerde art arda birkaç kapanma yaşanabilir. Güzergâhı planlarken bu riski azaltmak için mümkün olduğunda daha az yoğun saatleri tercih ederiz.",
+            },
+            {
+                soru: "Servis yolu dar olan bir tesise nasıl teslimat yapıyorsunuz?",
+                cevap:
+                    "İlk teslimattan önce yol genişliğini ve dönüş noktalarını mümkünse harita üzerinden veya tesis yetkilisinden sorarak doğrularız. Yol gerçekten dar ve dönüşe uygun değilse, daha küçük bir taşıma aracı veya alternatif bir indirme noktası değerlendiririz.",
+            },
+            {
+                soru: "Tesisin kendi giriş saatine uymazsak ne olur?",
+                cevap:
+                    "Araç kapıda beklemek zorunda kalabilir, bu da hem bizim hem tesisin zamanını kaybettirir. Bu yüzden teslimat tarihini netleştirirken tesisin giriş kuralını mutlaka sorar ve teslimat saatini buna göre planlarız.",
+            },
+            {
+                soru: "Rampa önünde indirme yapılırken yükleme trafiği durur mu?",
+                cevap:
+                    "Tamamen durmak zorunda değildir, ama indirme işlemi genellikle trafiğin en az olduğu bir ara döneme denk getirilir ve indirme noktası tesis sorumlusuyla önceden netleştirilir; bu, hem güvenlik hem de akışın bozulmaması için gereklidir.",
+            },
+            {
+                soru: "Aynı gün birden fazla hat kenarı tesise teslimat yapabiliyor musunuz?",
+                cevap:
+                    "Evet, tesisler hat üzerinde birbirine yakınsa rota bu sıraya göre kurgulanır ve aynı geçidin tekrar tekrar geçilmesi önlenir. Bunun için tesislerin teslimat taleplerini mümkün olduğunca erken almayı tercih ederiz.",
+            },
+            {
+                soru: "Acil bir teslimat talebinde geçit kapanma riski nasıl yönetiliyor?",
+                cevap:
+                    "Varsa alternatif bir güzergâh değerlendirilir; alternatif yoksa olası bekleme süresi müşteriye önceden bildirilir ki teslimat saati buna göre planlanabilsin. Acil durumlarda güzergâh netliği, aracı yola çıkarmadan önce netleştirdiğimiz ilk konudur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük'te TCDD hattının hemzemin geçitler ve hat paralelinde servis yolları içermesi kamuya açık genel coğrafi bilgidir; teslimat güzergâhı planlaması ve tesis giriş kuralına uyum lojistik sektörünün genel pratiğidir. Tren tarife saatleri, tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bozüyük Yük Aktarma Rampasında Forklift ve İstifleme Kiralama",
+        giris:
+            "Bozüyük'ün TCDD hattı kenarındaki depo ve antrepo tesislerinde, malın vagon ile kamyon arasında el değiştirdiği yükleme rampası, günün büyük bölümünde en yoğun hareketin yaşandığı noktadır; bu aktarma sırasında hem yatay taşıma hem de istifleme aynı anda ihtiyaç duyulur. Forklift, paletlenmiş malı rampa üzerinde hızla taşıyıp depo içindeki raf sistemine istifler; ancak rampanın kendisi genellikle sabit bir yükseklikte kalırken vagon kapısı ile kamyon kasası farklı seviyelerde olabilir, bu da forkliftin çalışacağı zeminin her zaman düz ve tek seviyeli olmadığı anlamına gelir. Bizim bu bölgedeki rolümüz, aktarma yoğunluğuna göre doğru kapasitede forklift sağlamak ve rampa-depo arasındaki seviye farkını güvenli biçimde yönetmektir; sepetli platform ile forklift genellikle aynı sahada ama farklı işler için birlikte kullanılır, bu yüzden ikisinin iş bölümünü net tutmak önemlidir.",
+        maddeler: [
+            {
+                baslik: "Vagon-kamyon seviye farkında güvenli yükleme",
+                metin:
+                    "Vagon kapısı ile kamyon kasası tabanı çoğu zaman aynı yükseklikte değildir; bu fark, forkliftin çatalını manevra ederken dikkatli bir açı ayarı yapmasını gerektirir. Seviye farkı büyükse ara bir rampa veya platform kullanılır, forklift bu ara yüzeyin üzerinden değil, ona uygun bir yaklaşım açısıyla geçiş yapar. Bu tür bir aktarmada operatör deneyimi, standart bir düz zemin yüklemesinden daha belirleyicidir.",
+            },
+            {
+                baslik: "Rampa üzerinde palet istifleme sırası",
+                metin:
+                    "Aktarma rampasına biriken paletlerin depo içine istiflenmesi, genellikle vagon boşaltımıyla eş zamanlı yürür; forklift bir yandan yeni gelen paleti alır, bir yandan öncekini raf sistemine yerleştirir. Bu tempoyu bozmamak için istifleme sırası önceden belirlenir — hangi ürün grubunun hangi raf koridoruna gideceği net değilse, forklift rampada geçici olarak yığılmış paletlerle karşılaşabilir ve bu da aktarmayı yavaşlatır.",
+            },
+            {
+                baslik: "Forklift ve platformun aynı sahada iş bölümü",
+                metin:
+                    "Yük aktarma rampasında forklift yatay taşıma ve istifleme yaparken, aynı bölgede çatı veya cephe bakımı için sepetli platform da çalışıyor olabilir. İkisinin aynı anda aynı koridoru kullanması güvenlik riski oluşturur; bu yüzden forkliftin çalıştığı zemin şeridi ile platformun konumlandığı alan net biçimde ayrılır ve iki ekip arasında sürekli görüş teması kurulur.",
+            },
+            {
+                baslik: "Yoğun aktarma saatlerinde kapasite planlaması",
+                metin:
+                    "Tren varış saatine yakın dönemlerde rampadaki yük hacmi kısa sürede artabilir; bu yoğunluğu tek bir forkliftle karşılamak istifleme hızını düşürür ve rampada birikme yaratır. Talep sahibinin aktarma hacmini ve sıklığını bize önceden bildirmesi, o dönem için ek forklift veya daha yüksek kapasiteli bir modelin planlanmasını sağlar.",
+            },
+            {
+                baslik: "Dar koridorlu depo içinde dönüş manevrası",
+                metin:
+                    "Hat kenarındaki eski depo yapılarının bir kısmında raf koridorları, günümüz standartlarına göre dar tutulmuştur; büyük kapasiteli bir forklift bu koridorlarda dönüş yapmakta zorlanabilir. Böyle bir durumda daha kompakt bir model tercih edilir; koridor genişliği belirsizse, sahaya forklift göndermeden önce ölçüyü sorarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aktarma hacmine göre forklift kapasitesi",
+                paragraflar: [
+                    "Rampadaki aktarma hacmine göre önerdiğimiz forklift kapasitesini ve dikkat noktasını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Aktarma hacmi", "Önerilen kapasite", "Koridor uygunluğu", "Dikkat noktası"],
+                    satirlar: [
+                        ["Düşük/düzensiz", "Standart kapasiteli tek forklift", "Çoğu koridora uygun", "Seviye farkına dikkat"],
+                        ["Orta/günlük düzenli", "Standart + yedek model", "Koridor genişliği ölçülür", "İstifleme sırası netleştirilir"],
+                        ["Yüksek/tren varışına bağlı yoğun", "İki forklift eş zamanlı", "Geniş koridor gerekir", "Platform ile alan ayrımı şart"],
+                        ["Dar/eski depo koridoru", "Kompakt model", "Dönüş yarıçapı sınırlı", "Ölçüm önceden istenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Seviye farkı olan yükleme noktalarında ekipman seçimi",
+                paragraflar: [
+                    "Vagon ile kamyon arasındaki seviye farkı büyükse, forkliftin doğrudan bu farkı aşması güvenli değildir; ara bir rampa veya sabit platform kullanılması gerekir. Bu durumu önceden bilmek, doğru ekipman kombinasyonunu (forklift + sabit rampa veya forklift + hareketli platform) sahaya götürmemizi sağlar.",
+                    "Seviye farkı bilgisi eksikse, ilk aktarmadan önce sahaya kısa bir ön kontrolle gideriz; bu, aktarma günü beklenmedik bir gecikme yaşanmasını önler.",
+                ],
+            },
+            {
+                baslik: "Aynı sahada birden fazla ekipmanın koordinasyonu",
+                paragraflar: [
+                    "Rampa aktarması sırasında forklift, sepetli platform ve bazen bir de vinç aynı sahada bulunabilir; bu ekipmanların güzergâhlarının kesişmemesi için sahaya girmeden önce kısa bir koordinasyon görüşmesi yapılır ve her ekipmanın çalışacağı bölge net biçimde ayrılır.",
+                    "Bu ayrım özellikle yoğun aktarma dönemlerinde önemlidir; tek bir koridoru birden fazla ekipmanın paylaşması, hem verimliliği düşürür hem de çarpışma riskini artırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Vagon ile kamyon arasındaki seviye farkı forkliftle nasıl aşılıyor?",
+                cevap:
+                    "Fark büyükse forklift doğrudan bu farkı aşmaz; ara bir rampa veya sabit platform kullanılır ve forklift bu yüzeye uygun bir açıyla yaklaşır. Seviye farkını önceden bilmek, doğru ekipman kombinasyonunu sahaya götürmemizi sağlar.",
+            },
+            {
+                soru: "Tren varışına yakın saatlerde tek forklift yetersiz kalırsa ne yapılıyor?",
+                cevap:
+                    "Aktarma hacmi ve sıklığı önceden bildirildiğinde, yoğun dönem için ek forklift veya daha yüksek kapasiteli bir model planlarız. Bilgi son anda gelirse, mevcut kapasiteyle çalışılır ama rampada geçici birikme olasılığı artar.",
+            },
+            {
+                soru: "Eski depo koridorlarında büyük forklift dönemiyorsa alternatif nedir?",
+                cevap:
+                    "Koridor genişliği sınırlıysa daha kompakt bir model öneririz. Sahaya forklift göndermeden önce koridor ölçüsünü sorarız; ölçü bilgisi yoksa ilk seferde bir ön kontrol yapıp doğru modeli ikinci seferde götürebiliriz.",
+            },
+            {
+                soru: "Forklift ve sepetli platform aynı rampada aynı anda çalışabiliyor mu?",
+                cevap:
+                    "Çalışabilir, ama ikisinin güzergâhı net biçimde ayrılmalıdır; forkliftin taşıma şeridi ile platformun konumlandığı alan sahaya girmeden önce belirlenir ve iki ekip arasında sürekli görüş teması kurulur.",
+            },
+            {
+                soru: "Palet istifleme sırası önceden belirlenmezse ne olur?",
+                cevap:
+                    "Hangi ürün grubunun hangi raf koridoruna gideceği net değilse, forklift rampada geçici olarak yığılmış paletlerle karşılaşabilir ve aktarma yavaşlar. Bu yüzden istifleme sırasını mümkünse aktarma başlamadan önce netleştiririz.",
+            },
+            {
+                soru: "Düzensiz/az yoğun aktarma için de forklift kiralanabiliyor mu?",
+                cevap:
+                    "Evet, düşük veya düzensiz hacimli aktarmalarda standart kapasiteli tek bir forklift genellikle yeterlidir. Hacim arttıkça veya koridor darsa, ihtiyaca göre kapasiteyi veya model tipini yeniden değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük'teki hat kenarı depo tesislerinde vagon-kamyon arası yük aktarmasının rampa üzerinden yapılması ve seviye farkı riski, lojistik/depo işletmeciliğinin genel teknik bilgisidir. Tesis adı, hacim ve rakam verilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bozüyük Hat Kenarı Depo Cephesi ve Yükleme Kapısı Üstü İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Hat kenarındaki depo binalarının çoğu, yükleme rampasının üzerine düşen geniş bir kapı ve bu kapının üstünde uzanan bir saçak veya cephe şeridiyle inşa edilmiştir; bu şeridin bakımı — aydınlatma, tabela, çatı oluğu veya cephe kaplaması — genellikle zeminden erişilemeyecek bir yükseklikte ve rampanın hemen üzerinde kalır. Eklemli platform (boom), kolunun hem yukarı hem yana doğru bükülebilmesi sayesinde, rampanın önünde durup kapı üstündeki şeride ulaşabilir; bu, rampayı bloke etmeden çalışmayı mümkün kılar çünkü makinenin kendisi rampa girişinin biraz uzağında konumlanabilir. Bizim buradaki yaklaşımımız, önce rampa önü zeminin taşıma kapasitesini ve manevra alanını değerlendirmek, sonra kolun erişim açısına uygun boom modelini seçmektir; zira her boom aynı yatay-dikey erişim kombinasyonunu sunmaz ve yanlış model seçimi, kapı üstüne ulaşmakta zorluk yaratabilir.",
+        maddeler: [
+            {
+                baslik: "Rampayı bloke etmeden kapı üstü erişimi",
+                metin:
+                    "Boom, kolunu yukarı ve yana doğru uzatabildiği için, makinenin kendisi rampa girişinin tam önünde değil biraz kenarında durabilir ve yine de kapı üstündeki şeride ulaşabilir. Bu, rampanın yükleme trafiğine açık kalmasını sağlar; sadece boom'un konumlandığı dar bir alan geçici olarak ayrılır, rampanın tamamı kapatılmaz.",
+            },
+            {
+                baslik: "Saçak ve oluk bakımında kol açısı",
+                metin:
+                    "Depo saçağının alt yüzeyi ve oluk hattı, genellikle cepheden biraz içeri girintili durur; bu açıyı yakalamak için boom kolunun hem yükseğe çıkması hem de içe doğru bükülmesi gerekir. Eklemli boom bu iki hareketi birleştirebildiği için, teleskopik bir bomun düz hattına göre saçak altına daha rahat ulaşır.",
+            },
+            {
+                baslik: "Cephe tabelası ve aydınlatma değişiminde konumlanma",
+                metin:
+                    "Depo cephesindeki firma tabelası veya aydınlatma armatürü değişimi, genellikle kısa süreli ama hassas bir konumlanma ister; boom sepeti tabelanın hemen önünde sabit tutulur ve ekip çalışma süresince aynı noktada kalır. Rüzgârlı günlerde sepet hareketinin en aza indirilmesi için, mümkünse rüzgârın daha az etkili olduğu saat dilimleri tercih edilir.",
+            },
+            {
+                baslik: "Rampa önü zeminin taşıma kapasitesi",
+                metin:
+                    "Rampa önü zemin, sürekli ağır araç trafiğine maruz kaldığı için görünüşte sağlam olsa da, zaman içinde çökme veya oyuk oluşabilir; boom'un ayakları bu tür bir zayıf noktaya denk gelirse stabilite riski doğar. Sahaya gitmeden önce rampa önü zeminin genel durumunu sorar, belirgin bir sorun varsa yerinde kontrol ederiz.",
+            },
+            {
+                baslik: "Yükleme trafiğiyle eş zamanlı planlama",
+                metin:
+                    "Rampa önü aynı zamanda kamyonların manevra yaptığı alan olduğu için, boom'un konumlanacağı saat dilimi mümkünse yükleme trafiğinin en az olduğu ara döneme denk getirilir. Trafiğin tamamen durdurulması gerekmez, ama boom'un bulunduğu köşede geçici bir manevra kısıtı oluşacağı tesis yetkilisine önceden bildirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapı üstü erişim türüne göre boom seçimi",
+                paragraflar: [
+                    "Depo cephesindeki farklı erişim ihtiyaçlarına göre önerdiğimiz boom tipini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim ihtiyacı", "Erişim şekli", "Uygun boom tipi", "Dikkat noktası"],
+                    satirlar: [
+                        ["Kapı üstü düz yükseklik", "Dikey erişim ağırlıklı", "Teleskopik veya eklemli", "Rampa önü alan yeterli mi"],
+                        ["Saçak altı girintili nokta", "Yukarı + içe bükülme", "Eklemli boom", "Kol açısı önceden hesaplanır"],
+                        ["Cephe tabela/aydınlatma", "Sabit nokta konumlanma", "Eklemli boom, kompakt sepet", "Rüzgârlı saatlerden kaçınma"],
+                        ["Rampa önü zayıf zemin", "Ayak stabilitesi kritik", "Geniş ayak izli model", "Zemin önceden kontrol edilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rampa trafiğiyle çalışma alanının ayrılması",
+                paragraflar: [
+                    "Boom rampa önünde çalışırken, rampanın geri kalanının yükleme trafiğine açık kalması hedeflenir; bunun için boom'un konumlandığı köşe geçici olarak işaretlenir ve kamyon manevrası bu köşeden uzak tutulur.",
+                    "Yoğun trafik saatlerinde bu ayrımı sağlamak zorlaşabileceği için, mümkünse çalışmayı trafiğin azaldığı bir saat dilimine planlarız; tesis yetkilisiyle bu saat dilimini önceden netleştiririz.",
+                ],
+            },
+            {
+                baslik: "Rüzgârlı günlerde cephe çalışmasının ertelenmesi",
+                paragraflar: [
+                    "Cephe üst noktasında, özellikle sepetin uzun süre sabit tutulması gereken tabela veya aydınlatma değişimlerinde, rüzgâr sepetin hareketini artırarak hem hassas işi zorlaştırır hem de güvenlik riski oluşturur.",
+                    "Rüzgâr belirgin biçimde arttığında çalışmayı geçici olarak durdurur, hava sakinleştiğinde devam ederiz; bu erteleme müşteriye önceden bildirilir ve program buna göre esnetilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Boom rampanın tamamını kapatmadan kapı üstünde çalışabiliyor mu?",
+                cevap:
+                    "Evet, boom'un kolu yukarı ve yana doğru uzanabildiği için makine rampa girişinin biraz kenarında durup yine de kapı üstüne ulaşabilir. Rampanın tamamı değil, sadece boom'un konumlandığı dar köşe geçici olarak ayrılır.",
+            },
+            {
+                soru: "Saçak altındaki girintili bölgeye nasıl ulaşılıyor?",
+                cevap:
+                    "Bu tür bir erişim, kolun hem yükseğe çıkmasını hem de içe doğru bükülmesini gerektirir; eklemli boom bu iki hareketi birleştirebildiği için düz hatlı bir teleskopik boma göre saçak altına daha rahat ulaşır.",
+            },
+            {
+                soru: "Rampa önü zemin araç trafiğinden yıpranmışsa boom güvenle durabilir mi?",
+                cevap:
+                    "Zemin görünüşte sağlam olsa da zamanla çökme veya oyuk oluşabileceği için, sahaya gitmeden önce zeminin genel durumunu sorarız; belirgin bir sorun varsa yerinde kontrol eder, gerekirse geniş ayak izli bir model tercih ederiz.",
+            },
+            {
+                soru: "Cephe tabelası değişimi rüzgârlı bir günde yapılabilir mi?",
+                cevap:
+                    "Rüzgâr belirgin biçimde arttığında sepetin hareketi artacağı için çalışmayı geçici olarak durdururuz. Mümkünse çalışmayı rüzgârın daha az etkili olduğu saat dilimine planlamayı öneririz.",
+            },
+            {
+                soru: "Boom çalışırken kamyon manevrası rampaya yaklaşabilir mi?",
+                cevap:
+                    "Boom'un konumlandığı köşeye yaklaşılmaması için bu alan geçici olarak işaretlenir; rampanın geri kalanı yükleme trafiğine açık kalır. Yoğun saatlerde bu ayrımı netleştirmek için tesis yetkilisiyle önceden koordinasyon kurarız.",
+            },
+            {
+                soru: "Her boom modeli aynı erişim açısını sunuyor mu?",
+                cevap:
+                    "Hayır, teleskopik ve eklemli boom modelleri farklı erişim kombinasyonları sunar; düz yükseklik için teleskopik yeterli olabilirken, girintili veya açılı noktalar için eklemli boom daha uygundur. Erişim ihtiyacına göre modeli birlikte netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük hat kenarı depo binalarının yükleme kapısı üstünde saçak/cephe şeridi bulunması genel yapı bilgisidir; eklemli boom'un dikey+yatay erişim avantajı ekipman literatüründeki genel teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bozüyük Hat Kenarı Antrepo İç Hacminde Depo İçi Platform Kiralama",
+        giris:
+            "Hat kenarındaki antrepo ve depo binalarının iç hacmi, genellikle raf sistemleriyle bölünmüş uzun koridorlardan oluşur ve bu koridorların tavanına yakın kısmında aydınlatma armatürleri, havalandırma kanalları ve bazen kablo tavası bulunur; bu unsurların bakımı, rafların arasından geçebilen ve tavana kadar ulaşan bir platform gerektirir. Depo içi çalışmanın açık saha çalışmasından farkı, zeminin genellikle düzgün beton olması ama alanın raf, palet ve forklift trafiğiyle sürekli meşgul olmasıdır; bu yüzden platform seçimi kadar, hangi koridorun ne zaman boşaltılacağı da işin zamanlamasını belirler. Bizim yaklaşımımız, koridor genişliğine uygun akülü ve emisyonsuz bir platform seçmek — kapalı hacimde egzoz gazı biriktirmemesi için — ve depo yönetimiyle birlikte hangi koridorun hangi saatte müsait olduğunu netleştirmektir.",
+        maddeler: [
+            {
+                baslik: "Raf koridorları arasında dar geçiş",
+                metin:
+                    "Depo raf koridorları, forklift geçişine göre tasarlandığı için genellikle standart bir platformun sığabileceği genişliktedir, ama koridorun her iki yanındaki raf yüksekliği, platformun dönüş manevrasını sınırlayabilir. Koridor genişliği ölçülmeden gönderilen bir platform, dönüş noktalarında raf kenarına yaklaşmak zorunda kalabilir; bu yüzden ilk seferde koridor ölçüsünü sorarız.",
+            },
+            {
+                baslik: "Kapalı hacimde emisyonsuz makine tercihi",
+                metin:
+                    "Depo içi kapalı bir hacim olduğu için, içten yanmalı bir makinenin egzoz gazı zamanla havalandırma yetersizse birikebilir; bu yüzden iç mekân işlerinde akülü platform tercih edilir. Uzun süreli bir çalışma planlanıyorsa, akü şarj döngüsünü işin süresine göre ayarlar, gerekirse yedek akülü bir ünite bulundururuz.",
+            },
+            {
+                baslik: "Tavan aydınlatma ve havalandırma kanalı bakımı",
+                metin:
+                    "Depo tavanındaki aydınlatma armatürleri ve havalandırma kanalları, genellikle raf üstü seviyede bulunur ve bu seviyeye ulaşmak için platformun raf yüksekliğini aşan bir çalışma yüksekliğine sahip olması gerekir. Armatür değişimi veya kanal kontrolü sırasında platform, raf üstündeki dar boşlukta hassas biçimde konumlanır; bu iş genellikle depo trafiğinin en az olduğu saatlere planlanır.",
+            },
+            {
+                baslik: "Forklift trafiğiyle aynı koridorda çalışma",
+                metin:
+                    "Platform bir koridorda çalışırken forklift trafiği genellikle o koridoru kullanmaya devam edemez; bu yüzden depo yönetimiyle önceden anlaşılarak ilgili koridor geçici olarak forklift trafiğine kapatılır. Koridor tamamen kapatılamıyorsa, platform işini forklift trafiğinin en az olduğu bir saat dilimine denk getiririz.",
+            },
+            {
+                baslik: "Palet istifleme yüksekliğiyle çakışmama",
+                metin:
+                    "Bazı koridorlarda paletler raf üst katına kadar istiflenmiş olabilir; bu durumda platformun tavana ulaşırken palet üstündeki boşluğu doğru değerlendirmesi gerekir. Yüksek istiflenmiş bir koridorda çalışma planlanıyorsa, mümkünse o koridordaki üst raf geçici olarak boşaltılır veya çalışma başka bir koridordan başlatılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Koridor tipine göre platform seçimi",
+                paragraflar: [
+                    "Depo içi farklı koridor tiplerine göre önerdiğimiz platform sınıfını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Koridor tipi", "Zemin/genişlik", "Önerilen sınıf", "Dikkat noktası"],
+                    satirlar: [
+                        ["Standart raf koridoru", "Düz beton, orta genişlik", "Akülü makaslı", "Dönüş yarıçapı kontrol edilir"],
+                        ["Dar/eski depo koridoru", "Sınırlı genişlik", "Kompakt akülü model", "Ölçüm önceden istenir"],
+                        ["Yüksek raf üstü tavan", "Yüksek çalışma noktası", "Yüksek çıkışlı akülü boom", "Palet istif yüksekliği kontrol edilir"],
+                        ["Yoğun forklift trafiği koridoru", "Sürekli hareketli alan", "Zaman dilimine göre planlanan model", "Koridor geçici kapatma gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Depo trafiğiyle çalışma saatinin senkronizasyonu",
+                paragraflar: [
+                    "Depo içi platform çalışması, forklift ve palet trafiğiyle aynı koridoru paylaştığı için, işin verimli ilerlemesi büyük ölçüde doğru saat diliminin seçilmesine bağlıdır; bu yüzden depo yönetimiyle çalışma öncesi hangi koridorun hangi saatte daha sakin olduğunu netleştiririz.",
+                    "Acil bir bakım gerektiğinde bile, mümkünse trafiğin en az olduğu kısa bir pencere bulunur; koridorun tamamen durdurulması yerine kısmi ve zamanlanmış bir erişim tercih edilir.",
+                ],
+            },
+            {
+                baslik: "Akü şarj planlaması ve yedek ünite",
+                paragraflar: [
+                    "Uzun süreli iç mekân işlerinde akü şarj döngüsü işin süresine göre planlanır; tek şarjla tamamlanamayacak bir iş için, çalışma molalarında şarj yapılabilecek bir nokta belirlenir veya yedek akülü bir ünite bulundurulur.",
+                    "Depo içinde şarj istasyonu yoksa, bu ihtiyacı önceden netleştirir ve gerekirse taşınabilir bir şarj çözümü planlarız; şarj eksikliği yüzünden işin yarım kalması istenmeyen bir durumdur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depo içinde neden akülü platform tercih ediliyor?",
+                cevap:
+                    "Depo içi kapalı bir hacim olduğu için içten yanmalı bir makinenin egzoz gazı havalandırma yetersizse birikebilir; bu risk yüzünden iç mekân işlerinde akülü ve emisyonsuz platform tercih edilir.",
+            },
+            {
+                soru: "Raf koridoru dar olan bir depoda platform dönebilir mi?",
+                cevap:
+                    "Koridor genişliğine bağlıdır; standart koridorlarda çoğu akülü makaslı model dönebilir, ama eski ve dar koridorlarda daha kompakt bir model gerekebilir. İlk seferde koridor ölçüsünü sorarak doğru modeli seçeriz.",
+            },
+            {
+                soru: "Platform çalışırken forklift trafiği tamamen durdurulmalı mı?",
+                cevap:
+                    "İdeal olan, platformun çalıştığı koridorun geçici olarak forklift trafiğine kapatılmasıdır; bu mümkün değilse çalışmayı trafiğin en az olduğu saat dilimine planlarız. Depo yönetimiyle bu koordinasyon önceden yapılır.",
+            },
+            {
+                soru: "Paletler tavana yakın istiflenmişse platform tavana nasıl ulaşıyor?",
+                cevap:
+                    "Yüksek istiflenmiş bir koridorda çalışma öncesi, mümkünse üst raf geçici olarak boşaltılır veya çalışma başka bir koridordan başlatılır; palet üstündeki boşluk platformun güvenli erişimine yetmiyorsa bu netleştirilmeden işe başlanmaz.",
+            },
+            {
+                soru: "Uzun süren bir iç mekân işinde akü yetmezse ne yapılıyor?",
+                cevap:
+                    "İşin süresine göre şarj döngüsü önceden planlanır; tek şarjla tamamlanamayacak işlerde mola sırasında şarj yapılabilecek bir nokta belirlenir veya yedek akülü bir ünite bulundurulur.",
+            },
+            {
+                soru: "Havalandırma kanalı kontrolü için platform ne kadar süre bir noktada kalıyor?",
+                cevap:
+                    "Süre kanalın uzunluğuna ve kontrol kapsamına göre değişir; platform genellikle kanal boyunca kısa aralıklarla ilerler, tek bir noktada uzun süre sabit kalmaz. Çalışma süresi, depo trafiğinin en az olduğu saat dilimine göre önceden planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo/antrepo iç hacimlerinde raf koridoru, tavan aydınlatma ve forklift trafiği ile birlikte çalışmanın gerekliliği depo işletmeciliğinin genel bilgisidir; kapalı hacimde akülü/emisyonsuz makine tercihi ekipman literatüründeki genel teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bozüyük Hat Kenarı Depo Genişletmesinde Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Hat kenarındaki bir depo işletmesi kapasitesini artırmak istediğinde, en sık başvurduğu yol mevcut binaya bitişik yeni bir hangar bölümü veya ek bir yükleme rampası eklemektir; ancak bu genişleme, parselin hat tarafında ve genellikle dar bir arazi şeridinde yapılmak zorundadır, çünkü raylı erişimin avantajından vazgeçilmez. Dar bir şeride sığdırılan çelik konstrüksiyon montajı, açık bir sahadaki yeni inşaata göre farklı bir erişim düzeni gerektirir — kolonlar arası mesafe daha kısıtlıdır, mevcut binanın duvarına yakın çalışılır ve montaj sırasında hâlâ faal olan yükleme rampasının trafiği kesilmeden ilerlemesi beklenir. Bizim buradaki rolümüz, dar şeride uygun kompakt platform sınıfını seçmek ve montaj sırasını mevcut tesisin operasyonuyla çakışmayacak şekilde planlamaktır; bu sayfada hat kenarı depo genişletmelerinde çelik konstrüksiyon montajına platformu nasıl entegre ettiğimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Mevcut bina duvarına yakın kolon dikimi",
+                metin:
+                    "Genişleme bölümü mevcut depo duvarına bitişik inşa edildiğinde, yeni kolonların birleşim noktaları eski duvara çok yakın kalabilir; bu dar aralıkta platformun manevra alanı sınırlıdır. Kompakt taban izli bir model, dar aralığa girip kolon başlığına ulaşabilir; aralık gerçekten dar ise sahaya gitmeden önce mesafeyi ölçüp uygun modeli belirleriz.",
+            },
+            {
+                baslik: "Yeni rampa ekinde çelik kiriş montajı",
+                metin:
+                    "Kapasite artışının bir parçası olarak yeni bir yükleme rampası eklendiğinde, rampa üstünü örten çelik kiriş ve saçak montajı, altında hâlâ mevcut rampanın çalıştığı bir dönemde yapılabilir; bu durumda platform, faal rampanın trafiğine girmeden, yeni inşaat alanının sınırları içinde kalarak çalışır.",
+            },
+            {
+                baslik: "Dar arazi şeridinde vinç-platform koordinasyonu",
+                metin:
+                    "Hat kenarındaki dar parsellerde vinç için manevra alanı da sınırlıdır; bu yüzden vinç ve platformun aynı anda çalışması, açık bir şantiyeye göre daha sıkı bir koordinasyon gerektirir. Sabah kısa bir görüşmeyle o günün kaldırma sırası ve platformun konumlanacağı nokta netleştirilir, ikisinin güzergâhı çakışmayacak şekilde ayrılır.",
+            },
+            {
+                baslik: "Mevcut tesis operasyonuyla eş zamanlı montaj",
+                metin:
+                    "Genişleme inşaatı sürerken mevcut depo genellikle faaliyetine devam eder; bu yüzden montaj programı, tesisin yoğun yükleme saatlerini dikkate alarak kurulur. Platformun mevcut rampaya veya kapı önüne yakın çalışması gereken günlerde, iş mümkünse tesisin daha sakin olduğu saat dilimine planlanır.",
+            },
+            {
+                baslik: "Zayıf/dolgu zeminde yeni ek yapı temeli çevresi",
+                metin:
+                    "Hat kenarındaki bazı genişleme parselleri, eskiden boş arazi veya kısmi dolgu üzerinde bulunur; yeni temel dökülmeden önceki dönemde platformun bu tür bir zeminde çalışması gerekebilir. Zemin taşıma kapasitesi netleşene kadar, paletli veya geniş ayak izli sınıflar tercih edilir; zemin durumu belirsizse sahaya gitmeden önce sorarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Genişleme fazına göre platform ihtiyacı",
+                paragraflar: [
+                    "Hat kenarı depo genişletmesinin farklı aşamalarında ihtiyaç duyulan platform sınıfını aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Genişleme fazı", "Alan kısıtı", "Önerilen sınıf", "Öncelikli koordinasyon"],
+                    satirlar: [
+                        ["Temel öncesi zemin/dolgu", "Zayıf zemin", "Paletli/geniş ayak izli", "Zemin durumu önceden sorulur"],
+                        ["Kolon dikimi — duvar yakını", "Dar aralık", "Kompakt taban izli", "Mesafe önceden ölçülür"],
+                        ["Yeni rampa üstü kiriş montajı", "Faal rampa yakını", "Standart eklemli/teleskopik", "Rampa trafiğiyle alan ayrımı"],
+                        ["Vinç ile eş zamanlı kaldırma", "Sınırlı manevra alanı", "İhtiyaca göre", "Sabah koordinasyon görüşmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar parselde vinç ve platform güzergâhının ayrılması",
+                paragraflar: [
+                    "Hat kenarındaki dar parsellerde vinç kancasının hareket yarıçapı, açık bir şantiyeye göre daha kısıtlı bir alanda sıkışır; bu da platformun güzergâhıyla çakışma riskini artırır. Her sabah o günün kaldırma sırası ve platformun konumlanacağı nokta birlikte netleştirilir.",
+                    "Yük hattının platform üzerinden geçmesi gereken bir an varsa, platform önce boşaltılır ve geçiş tamamlanana kadar bölgeden uzak tutulur; bu kural dar parsellerde açık şantiyeye göre daha titiz uygulanır çünkü kaçacak alan azdır.",
+                ],
+            },
+            {
+                baslik: "Mevcut operasyonu aksatmayan montaj takvimi",
+                paragraflar: [
+                    "Genişleme inşaatı sürerken mevcut depo faaliyetine devam ettiği için, montaj takvimi tesisin yükleme-boşaltma yoğunluğuyla çakışmayacak şekilde kurulur; özellikle mevcut rampaya yakın çalışılan günlerde bu senkronizasyon önemlidir.",
+                    "Tesis yetkilisiyle haftalık bazda kısa bir takvim güncellemesi yaparız; tesisin operasyonel yoğunluğu değişirse montaj programı da buna göre esnetilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni kolonlar mevcut duvara çok yakınsa platform o aralığa girebiliyor mu?",
+                cevap:
+                    "Aralık gerçekten dar ise kompakt taban izli bir model tercih ederiz; girebilirlik mesafeye bağlı olduğu için sahaya gitmeden önce aralığı ölçüp uygun modeli belirleriz.",
+            },
+            {
+                soru: "Yeni rampa üstü montaj yapılırken mevcut rampa kapanıyor mu?",
+                cevap:
+                    "Hayır, genellikle kapanmaz; platform yeni inşaat alanının sınırları içinde kalarak çalışır ve mevcut rampanın trafiğine girmez. Rampa trafiğiyle çakışma riski varsa, çalışma trafiğin az olduğu saatlere kaydırılır.",
+            },
+            {
+                soru: "Dar parselde vinç ve platform aynı anda güvenle çalışabiliyor mu?",
+                cevap:
+                    "Çalışabilir ama koordinasyon açık şantiyeye göre daha titiz olmalıdır; her sabah kaldırma sırası ve platform konumu netleştirilir, yük hattı platform üzerinden geçecekse platform önce boşaltılır.",
+            },
+            {
+                soru: "Genişleme inşaatı sürerken mevcut depo çalışmaya devam edebiliyor mu?",
+                cevap:
+                    "Genellikle evet; montaj takvimi tesisin yükleme-boşaltma yoğunluğunu dikkate alarak kurulur ve özellikle mevcut rampaya yakın işler tesisin daha sakin olduğu saatlere planlanır.",
+            },
+            {
+                soru: "Genişleme parseli dolgu zeminse platform güvenle çalışabiliyor mu?",
+                cevap:
+                    "Zemin taşıma kapasitesi netleşene kadar paletli veya geniş ayak izli sınıflar tercih edilir; zemin durumu belirsizse sahaya gitmeden önce sorar, gerekirse yerinde kontrol ederiz.",
+            },
+            {
+                soru: "Genişleme fazları arasında aynı platformu kullanmaya devam edebilir miyiz?",
+                cevap:
+                    "Her faz farklı alan ve zemin kısıtı getirdiği için genellikle hayır; temel öncesi dönemde paletli sınıf uygunken, kolon dikiminde kompakt taban izli, rampa üstü montajda standart bir model daha uygun olabilir. Faz geçişlerinde sınıfı birlikte yeniden değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hat kenarı depo işletmelerinin kapasite artışı için mevcut binaya bitişik genişleme yapması ve bu genişlemenin dar arazi şeridinde ilerlemesi genel lojistik/inşaat pratiğidir; vinç-platform koordinasyonu ve zemin durumuna göre sınıf seçimi sektör geneli teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bozüyük Hat Kenarı Tahıl Aktarma ve Silo Tesislerinde Platform Kiralama",
+        giris:
+            "Bozüyük çevresindeki tarım bölgesinin ürünü, hasat döneminde hat kenarındaki tahıl aktarma noktalarına taşınır ve buradan vagonlarla uzak pazarlara sevk edilir; bu aktarma noktalarının merkezinde genellikle bir veya birkaç silo yapısı, bunlara bağlı yükleme bandı ve vagon dolum ağzı bulunur. Silo yapılarının bakımı — dış gövde kontrolü, dolum ağzı çevresindeki mekanizma bakımı, aydınlatma ve merdiven-platform erişimi — çoğunlukla hasat sezonu dışındaki sakin dönemlere denk getirilir, çünkü sezon içinde silo sürekli dolum-boşaltım trafiğiyle meşguldür. Bizim buradaki rolümüz, silo gövdesinin dairesel yapısına uygun erişim planı kurmak ve vagon dolum hattının bulunduğu bölgede çalışırken hat trafiğiyle çakışmamaktır; sezon dışı bakım pencerelerinde bu işi verimli tamamlamak için önceden planlama önemlidir.",
+        maddeler: [
+            {
+                baslik: "Silo dış gövdesinde dairesel erişim",
+                metin:
+                    "Silo yapıları genellikle dairesel bir gövdeye sahiptir ve dış yüzey kontrolü veya boya bakımı için platformun gövde etrafında sürekli bir yay çizerek ilerlemesi gerekir. Bu tür bir hareket, düz bir cephede çalışmaktan farklıdır — platform her noktada gövdeye aynı mesafede kalacak şekilde konumlanır ve dönüş sırasında ayaklarının bastığı zemin de gövde çevresinde değişebilir.",
+            },
+            {
+                baslik: "Vagon dolum ağzı çevresinde mekanizma bakımı",
+                metin:
+                    "Silonun vagon dolum ağzı, genellikle hat üzerindeki bir dolum hattının hemen yanında yer alır ve bu bölgedeki mekanizma bakımı (kepenk, sensör, aydınlatma) hat trafiğine yakın çalışmayı gerektirir. Bakım sırasında platform, aktif dolum hattının güzergâhına girmeyecek şekilde konumlanır; dolum hattı o an kullanımdaysa bakım, hattın boş olduğu bir zaman dilimine ertelenir.",
+            },
+            {
+                baslik: "Sezon dışı bakım penceresinin planlanması",
+                metin:
+                    "Hasat sezonu dışında silo tesisi görece sakin bir döneme girer ve bu dönem, dış gövde ve mekanizma bakımının yapılması için en uygun zamandır. Sezon başlamadan önce bakımı tamamlamak, hasat yoğunluğu sırasında beklenmedik bir arızayla karşılaşma riskini azaltır; bu yüzden bakım talebini sezon öncesi erken almayı öneririz.",
+            },
+            {
+                baslik: "Yükleme bandı üstü aydınlatma ve kontrol",
+                metin:
+                    "Silodan vagona uzanan yükleme bandının üstünde yer alan aydınlatma armatürleri ve bant hattı kontrol noktaları, bandın kendisi çalışırken erişilemez; bakım için bandın durdurulduğu bir zaman dilimi gerekir. Bu durdurma, tesis operasyon ekibiyle önceden koordine edilir ve platform, bant durduktan sonra hattın üstüne güvenle konumlanır.",
+            },
+            {
+                baslik: "Kırsal erişim yolunda zemin durumu",
+                metin:
+                    "Silo tesisine ulaşan yol, çoğunlukla kırsal bir bağlantı yoludur ve yağışlı dönemlerde zemin yumuşayabilir; bu durum hem platformun tesise ulaşımını hem de saha içinde manevrasını etkiler. Yağışlı bir dönemde bakım planlanıyorsa, yol ve saha zemininin durumunu önceden sorar, gerekirse çalışmayı kuru bir döneme erteleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo bölgesindeki erişim noktasına göre planlama",
+                paragraflar: [
+                    "Silo tesisindeki farklı erişim noktalarına göre bakım zamanlaması ve dikkat edilmesi gereken noktaları aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "En uygun zaman", "Öncelikli koordinasyon", "Dikkat noktası"],
+                    satirlar: [
+                        ["Silo dış gövdesi", "Sezon dışı sakin dönem", "Tesis operasyon takvimi", "Dairesel hareket planı"],
+                        ["Vagon dolum ağzı", "Dolum hattı boşken", "Hat/dolum trafiği", "Aktif hatta girilmez"],
+                        ["Yükleme bandı üstü", "Bant durdurulduğunda", "Operasyon ekibi onayı", "Bant durmadan çalışılmaz"],
+                        ["Kırsal erişim yolu", "Kuru dönem", "Yol/zemin durumu", "Yağışlı dönemde risk artar"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat sezonu öncesi bakımın önceliklendirilmesi",
+                paragraflar: [
+                    "Hasat sezonu başladığında silo tesisi sürekli dolum-boşaltım trafiğiyle meşgul olur ve bu dönemde bakım için ayrılabilecek zaman ciddi biçimde daralır; bu yüzden dış gövde ve mekanizma bakımını sezon öncesine yerleştirmek en verimli yaklaşımdır.",
+                    "Sezon öncesi talep gelen tesislere, hasat başlamadan tamamlanacak şekilde bir takvim öneririz; son anda gelen talepler, sezon içindeki kısa boşluklara sığdırılmaya çalışılır ama bu, işin bölünerek yapılmasını gerektirebilir.",
+                ],
+            },
+            {
+                baslik: "Dolum hattı durdurma koordinasyonu",
+                paragraflar: [
+                    "Vagon dolum ağzı veya yükleme bandı üzerinde çalışma yapılacaksa, ilgili hattın operasyon ekibi tarafından geçici olarak durdurulması gerekir; bu durdurma bizim değil tesis operasyon ekibinin kararıdır ve biz bu kararı bekleyerek çalışmaya başlarız.",
+                    "Durdurma süresi net değilse, çalışmayı kısa modüllere bölerek hattın en kısa sürede tekrar devreye alınmasını sağlamaya çalışırız; bu, tesisin operasyonel kaybını en aza indirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo dış gövdesinde platform nasıl hareket ediyor?",
+                cevap:
+                    "Gövde dairesel olduğu için platform, gövdeye sabit bir mesafede kalacak şekilde bir yay çizerek ilerler; dönüş sırasında ayakların bastığı zemin de gövde çevresinde değişebileceği için zemin durumu güzergâh boyunca kontrol edilir.",
+            },
+            {
+                soru: "Vagon dolum ağzında bakım yapılırken hat trafiği durur mu?",
+                cevap:
+                    "Dolum hattı o an kullanımdaysa bakım, hattın boş olduğu bir zaman dilimine ertelenir; platform aktif dolum hattının güzergâhına girmez. Bu koordinasyon tesis operasyon ekibiyle önceden netleştirilir.",
+            },
+            {
+                soru: "Hasat sezonu içinde bakım yapılabiliyor mu?",
+                cevap:
+                    "Yapılabilir ama sezon içinde tesis sürekli dolum-boşaltım trafiğiyle meşgul olduğu için bakım için ayrılabilecek zaman dardır; bu yüzden dış gövde ve mekanizma bakımını sezon öncesine yerleştirmeyi öneririz.",
+            },
+            {
+                soru: "Yükleme bandı çalışırken üstündeki aydınlatmaya erişilebiliyor mu?",
+                cevap:
+                    "Hayır, bant çalışırken üstüne güvenle erişilemez; bakım için bandın tesis operasyon ekibi tarafından durdurulması gerekir. Platform, bant durduktan sonra hattın üstüne konumlanır.",
+            },
+            {
+                soru: "Yağışlı dönemde silo tesisine ulaşım sorun oluyor mu?",
+                cevap:
+                    "Kırsal bağlantı yolu yağışlı dönemde yumuşayabilir ve bu hem ulaşımı hem saha içi manevrayı etkileyebilir. Yağışlı bir dönemde bakım planlanıyorsa yol ve zemin durumunu önceden sorar, gerekirse kuru bir döneme erteleriz.",
+            },
+            {
+                soru: "Dolum hattı ne kadar süre durdurulacak, kesin bir süre verebiliyor musunuz?",
+                cevap:
+                    "Kesin süre tesis operasyon ekibinin kararına bağlıdır, biz bu kararı bekleyerek çalışmaya başlarız. Süre net değilse çalışmayı kısa modüllere bölüp hattın en kısa sürede tekrar devreye alınmasını sağlamaya çalışırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük çevresinin tarım bölgesi olması ve hat kenarında tahıl aktarma/silo tesislerinin bulunması genel coğrafi bilgidir; silo dış gövdesi dairesel erişim ihtiyacı ve dolum hattı durdurma koordinasyonu sektör geneli teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bozüyük İstasyon ve Hat Kenarı Aydınlatma Bakım Platformu",
+        giris:
+            "Bozüyük istasyonu çevresi ve hat boyunca uzanan peron, rampa ve depo sahaları, genellikle direk üstü armatürler veya bina cephesine monte edilmiş projektörlerle aydınlatılır; bu armatürlerin bakımı, hem direğin bulunduğu zeminin hem de hat güvenlik mesafesinin dikkate alınmasını gerektirir. İstasyon çevresindeki aydınlatma direkleri, açık bir cadde direğinden farklı olarak, çoğu zaman hat hattına yakın bir şeritte durur ve platformun bu şeride yaklaşırken hat güvenlik kuralına uyması beklenir; bu kural gereği, hatta yakın çalışmalarda genellikle ilgili birimden izin ve varsa gözetim istenir. Bizim buradaki rolümüz, direk konumuna göre platformu güvenli mesafeden konumlandırmak ve hat yakınlığı olan noktalarda gerekli koordinasyonu önceden sağlamaktır; bu sayfada istasyon ve hat kenarı aydınlatma bakımına yaklaşımımızı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Hat güvenlik mesafesine uygun konumlanma",
+                metin:
+                    "Hatta yakın bir aydınlatma direğinin bakımı, platformun hat güvenlik mesafesinin dışında kalacak şekilde konumlanmasını gerektirir; bu mesafe direğin tam konumuna göre değişir. Direk hatta çok yakınsa, çalışma öncesi ilgili birimden izin ve gerekiyorsa bir gözetim talebinde bulunuruz; izin olmadan hat yakınına platform yaklaştırılmaz.",
+            },
+            {
+                baslik: "Peron ve rampa aydınlatmasında dar şerit erişimi",
+                metin:
+                    "Peron veya yükleme rampası kenarındaki aydınlatma direkleri, genellikle dar bir şeritte, yaya veya yük trafiğinin geçtiği bir hattın hemen yanında bulunur. Platform bu dar şeride sığacak kompakt bir taban iziyle konumlanır ve çalışma süresince şeridin bir kısmı geçici olarak işaretlenir; şeridin tamamı kapatılmaz.",
+            },
+            {
+                baslik: "Depo cephesi projektör ve tabela aydınlatması",
+                metin:
+                    "Hat kenarı depo binalarının cephesine monte edilmiş projektörler ve tabela aydınlatması, genellikle zeminden erişilemeyecek yükseklikte bulunur; bu tür bir bakım, cephe önü trafiğin en az olduğu bir saat dilimine planlanır ve platform cephe önünde kısa süreli sabit konumlanarak armatür değişimini tamamlar.",
+            },
+            {
+                baslik: "Gece çalışması gereken aydınlatma testleri",
+                metin:
+                    "Bir armatürün değişim sonrası doğru çalışıp çalışmadığı ancak gece koşullarında görülebilir; bu yüzden bazı aydınlatma bakımları gündüz değişim, gece test olmak üzere iki aşamalı planlanır. Gece test aşamasında platform genellikle sahada bulunmaz, sadece görsel kontrol yapılır; armatürde ek bir müdahale gerekiyorsa bu bir sonraki gündüz penceresine ertelenir.",
+            },
+            {
+                baslik: "Birden fazla direk için sıralı bakım rotası",
+                metin:
+                    "Hat boyunca art arda dizilmiş birden fazla aydınlatma direği bakım gerektirdiğinde, platform direkleri hat üzerindeki sırasına göre sırayla dolaşır; bu, hem zaman hem de güvenlik açısından her direkte ayrı ayrı hat mesafesi kontrolü yapmaktan daha verimlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma noktasına göre bakım yaklaşımı",
+                paragraflar: [
+                    "İstasyon ve hat kenarındaki farklı aydınlatma noktalarına göre yaklaşımımızı aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Aydınlatma noktası", "Hat yakınlığı", "Önerilen zaman", "Öncelikli koordinasyon"],
+                    satirlar: [
+                        ["Hatta yakın direk", "Yüksek", "İzin sonrası, gündüz", "İlgili birimden izin/gözetim"],
+                        ["Peron/rampa şeridi", "Orta", "Trafiğin az olduğu saat", "Şerit kısmi işaretleme"],
+                        ["Depo cephesi projektör", "Düşük", "Cephe önü trafik azken", "Tesis yetkilisiyle saat netleştirme"],
+                        ["Gece test gereken armatür", "Değişken", "Gündüz değişim + gece test", "İki aşamalı program"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hatta yakın çalışmalarda izin süreci",
+                paragraflar: [
+                    "Hat güvenlik mesafesi içine giren bir aydınlatma bakımı için, çalışmadan önce ilgili birimden izin alınması gerekir; bu izin süreci bazen bir gözetim görevlisinin sahada bulunmasını da içerebilir. İzin süreci tamamlanmadan platform hat yakınına yaklaştırılmaz.",
+                    "İzin süreci genellikle birkaç gün önceden başvuru gerektirir; bu yüzden hatta yakın bir direk bakımı planlanıyorsa, talebi mümkün olduğunca erken iletmenizi öneririz.",
+                ],
+            },
+            {
+                baslik: "Gündüz-gece iki aşamalı bakım programı",
+                paragraflar: [
+                    "Armatür değişiminin doğru çalıştığını görmek için gece testi gerektiğinde, bakım gündüz değişim ve gece test olmak üzere iki ayrı ziyarete bölünür; bu, hem gündüz çalışma güvenliğini hem de gece test sonucunun net görülmesini sağlar.",
+                    "Gece test sırasında bir sorun tespit edilirse, ek müdahale bir sonraki gündüz penceresine planlanır; gece koşullarında platformla ek bir çalışma yapılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hatta yakın bir aydınlatma direği için özel izin gerekiyor mu?",
+                cevap:
+                    "Evet, hat güvenlik mesafesi içine giren çalışmalar için ilgili birimden izin ve bazen gözetim istenir; izin süreci tamamlanmadan platform hat yakınına yaklaştırılmaz. Bu talebi mümkün olduğunca erken iletmenizi öneririz.",
+            },
+            {
+                soru: "Peron kenarındaki aydınlatma bakımı sırasında peron tamamen kapatılıyor mu?",
+                cevap:
+                    "Hayır, genellikle sadece platformun konumlandığı dar şerit geçici olarak işaretlenir; peronun geri kalanı kullanıma açık kalır. Çalışma mümkünse trafiğin az olduğu bir saat dilimine planlanır.",
+            },
+            {
+                soru: "Armatür değişiminin doğru çalıştığı nasıl kontrol ediliyor?",
+                cevap:
+                    "Gece koşullarında görsel bir kontrolle doğrulanır; bu yüzden bazı bakımlar gündüz değişim, gece test olmak üzere iki aşamalı planlanır. Gece testinde platform genellikle sahada bulunmaz, sadece kontrol yapılır.",
+            },
+            {
+                soru: "Gece testte sorun bulunursa hemen müdahale ediliyor mu?",
+                cevap:
+                    "Hayır, gece koşullarında platformla ek bir müdahale yapılmaz; tespit edilen sorun bir sonraki gündüz penceresine ertelenir ve o zaman çözülür.",
+            },
+            {
+                soru: "Depo cephesindeki projektör bakımı için cephe önü trafiği durduruluyor mu?",
+                cevap:
+                    "Tamamen durdurulmaz, ama çalışma mümkünse cephe önü trafiğin en az olduğu bir saat dilimine planlanır ve platform bu süre boyunca kısa süreli sabit konumlanır.",
+            },
+            {
+                soru: "Hat boyunca birden fazla direk bakımı aynı ziyarette yapılabiliyor mu?",
+                cevap:
+                    "Evet, direkler hat üzerindeki sırasına göre sırayla dolaşılır; bu, her direkte ayrı ayrı hat mesafesi kontrolü yapmaktan daha verimlidir ve tek bir ziyarette birden fazla direk tamamlanabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstasyon ve hat kenarı sahalarda aydınlatma direklerinin hat güvenlik mesafesi kuralına tabi olması genel demiryolu güvenlik pratiğidir; gündüz-gece iki aşamalı bakım yaklaşımı aydınlatma bakımının genel teknik pratiğidir. Tesis adı, izin süreci detayı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bozüyük Hat Kenarı Tesislerde Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Hat kenarındaki bir tesiste platform kiralarken karşılaşılan ilk soru, makinenin kendi operatörümüzle mi yoksa firmanın operatörüyle mi kullanılacağıdır ve bu tercih, tesisin hat güvenlik kurallarına ne kadar aşina olunduğuna göre değişir. Hatta yakın çalışan bir tesiste, platform operatörünün sadece makineyi kullanmayı değil, hat güvenlik mesafesini ve varsa hemzemin geçit kısıtını da bilmesi gerekir; deneyimsiz bir operatör bu kuralları bilmiyorsa, hem işin verimliliği düşer hem de güvenlik riski artar. Bizim yaklaşımımız, hat yakınlığı olan işlerde operatörlü kiralamayı önermek, hat mesafesinden uzak iç mekân veya depo içi işlerde ise talep sahibinin kendi eğitimli operatörüyle operatörsüz kiralamayı da desteklemektir.",
+        maddeler: [
+            {
+                baslik: "Hat yakınlığı olan işlerde operatörlü tercih",
+                metin:
+                    "Hat güvenlik mesafesi içinde veya ona yakın bir noktada çalışma yapılacaksa, operatörümüzün bu bölgenin kurallarına aşina olması işin güvenli ilerlemesi için önemlidir; bu yüzden hatta yakın işlerde operatörlü kiralamayı öncelikli olarak öneririz. Talep sahibi kendi operatörüyle çalışmak isterse, operatörün hat güvenlik kuralları konusunda bilgilendirilmesini bekleriz.",
+            },
+            {
+                baslik: "Depo içi işlerde operatörsüz esneklik",
+                metin:
+                    "Hat mesafesinden uzak, depo içi veya iç mekân işlerinde risk profili farklıdır; tesisin kendi eğitimli personeli varsa, platformu operatörsüz kiralayıp kendi ekibiyle çalıştırmak mümkündür. Bu durumda makinenin teslimi sırasında kısa bir kullanım bilgilendirmesi yapılır ve operatörün sertifikası/deneyimi teyit edilir.",
+            },
+            {
+                baslik: "Yoğun aktarma dönemlerinde operatör sürekliliği",
+                metin:
+                    "Tren varış saatlerine yakın yoğun aktarma dönemlerinde, platform operatörünün sahada sürekli bulunması ve tempoyu bozmadan çalışması beklenir; bu tür dönemlerde bizim kendi operatörümüzü göndermek, tesisin kendi personelinin aktarma işine odaklanmasını sağlar ve iki işin birbirine karışmasını önler.",
+            },
+            {
+                baslik: "Vardiya değişiminde operatör devir teslimi",
+                metin:
+                    "Uzun süreli bir kiralamada, özellikle vardiyalı çalışan tesislerde, operatör değişimi gerektiğinde işin nerede kaldığı ve o an dikkat edilmesi gereken noktalar bir sonraki operatöre net biçimde aktarılır; bu devir teslim, özellikle hat yakınlığı olan işlerde kritik önemdedir çünkü güvenlik bilgisinin sürekliliği bozulmamalıdır.",
+            },
+            {
+                baslik: "Sertifika ve eğitim belgesi kontrolü",
+                metin:
+                    "Operatörsüz kiralamada, tesisin kendi personelinin platform kullanım sertifikası ve deneyimi teslim öncesi teyit edilir; bu belge eksikse operatörsüz kiralama yapılmaz ve firmamızın operatörüyle devam edilmesi önerilir. Bu kontrol, hem güvenlik hem de sorumluluk açısından atlanmayan bir adımdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre operatör tercihi",
+                paragraflar: [
+                    "Hat kenarı tesislerdeki farklı iş tiplerine göre önerdiğimiz operatör tercihini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Hat yakınlığı", "Önerilen tercih", "Ek koşul"],
+                    satirlar: [
+                        ["Hat kenarı direk/rampa bakımı", "Yüksek", "Operatörlü", "Hat güvenlik kuralı bilgisi şart"],
+                        ["Depo içi tesisat/aydınlatma", "Yok/düşük", "Operatörsüz mümkün", "Sertifika kontrolü yapılır"],
+                        ["Yoğun aktarma dönemi işi", "Orta-yüksek", "Operatörlü", "Sürekli tempo takibi"],
+                        ["Uzun süreli vardiyalı iş", "Değişken", "Operatörlü önerilir", "Devir teslim disiplini"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörsüz kiralamada sorumluluk sınırı",
+                paragraflar: [
+                    "Operatörsüz kiralamada makinenin teknik durumu ve teslim öncesi kontrolü bize aittir, ancak sahadaki kullanım ve hat güvenlik kurallarına uyum operatörü sağlayan tarafın sorumluluğundadır; bu ayrım kiralama öncesi net biçimde konuşulur.",
+                    "Hat yakınlığı olan bir işte operatörsüz kiralama talep edilirse, önce operatörün hat güvenlik bilgisi teyit edilir; bu bilgi yoksa operatörlü seçeneği öneririz, ısrar edilirse riskin talep sahibinde kaldığı açıkça belirtilir.",
+                ],
+            },
+            {
+                baslik: "Vardiya devir tesliminde bilgi sürekliliği",
+                paragraflar: [
+                    "Vardiyalı çalışan tesislerde operatör değişimi sırasında, işin o ana kadarki durumu ve dikkat edilmesi gereken noktalar bir kısa notla bir sonraki operatöre aktarılır; bu not özellikle hat yakınlığı veya aktif trafik gibi riskli koşulları içerir.",
+                    "Devir teslim eksik yapılırsa, yeni operatör sahanın güncel durumunu bilmeden çalışmaya başlayabilir; bu yüzden devir teslim bizim için atlanmayan bir adımdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hat yakınında çalışacak işlerde operatörsüz kiralama mümkün mü?",
+                cevap:
+                    "Mümkündür ama önce operatörün hat güvenlik kuralları konusunda bilgili olduğu teyit edilir; bu bilgi yoksa operatörlü seçeneği öneririz çünkü hat yakınlığı riskin arttığı bir bölgedir.",
+            },
+            {
+                soru: "Depo içi işlerde kendi personelimizle çalışabiliyor muyuz?",
+                cevap:
+                    "Evet, hat mesafesinden uzak depo içi işlerde tesisin kendi eğitimli personeli platformu operatörsüz kullanabilir; teslim öncesi sertifika ve deneyim kontrolü yapılır.",
+            },
+            {
+                soru: "Yoğun aktarma döneminde neden operatörlü kiralama öneriliyor?",
+                cevap:
+                    "Bu dönemlerde tesisin kendi personeli genellikle aktarma işine odaklanmak zorunda kalır; bizim operatörümüzü göndermek, iki işin birbirine karışmasını önler ve platformun tempoyu bozmadan çalışmasını sağlar.",
+            },
+            {
+                soru: "Uzun süreli kiralamada vardiya değişince bilgi kaybı yaşanır mı?",
+                cevap:
+                    "Yaşanmaması için işin durumu ve dikkat edilmesi gereken noktalar bir sonraki operatöre kısa bir notla aktarılır; bu devir teslim özellikle hat yakınlığı olan işlerde atlanmaz.",
+            },
+            {
+                soru: "Operatörsüz kiralamada sertifika olmadan da çalışılabiliyor mu?",
+                cevap:
+                    "Hayır, sertifika ve deneyim teslim öncesi teyit edilir; belge eksikse operatörsüz kiralama yapılmaz ve firmamızın operatörüyle devam edilmesi önerilir.",
+            },
+            {
+                soru: "Operatörlü ve operatörsüz kiralama arasında sorumluluk nasıl bölünüyor?",
+                cevap:
+                    "Makinenin teknik durumu ve teslim öncesi kontrolü bize aittir; sahadaki kullanım ve hat güvenlik kurallarına uyum, operatörü sağlayan tarafın sorumluluğundadır. Bu ayrım kiralama öncesi net biçimde konuşulur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hat kenarı sahalarda çalışırken hat güvenlik mesafesi kuralına uyulması genel demiryolu güvenlik pratiğidir; operatörlü/operatörsüz kiralama modeli ve sertifika kontrolü ekipman kiralama sektörünün genel pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bozüyük İstasyon, Aktarma Terminali ve Depo Noktaları Arasında Çok Noktalı Rota Bakım Platformu",
+        giris:
+            "Bozüyük'ün demiryolu kavşağı konumu, hat kenarında birbirinden farklı işlevlere sahip birkaç noktayı bir arada barındırır — istasyon binası ve peron çevresi, yük aktarma terminali, buna bağlı bir veya birkaç depo/antrepo yapısı ve bazen ayrı bir tahıl aktarma noktası. Bu noktalar birbirine yakın ama farklı erişim ihtiyaçlarına sahiptir; bir günde istasyon çevresindeki bir aydınlatma direğinin bakımı, aktarma terminalindeki bir rampa kontrolü ve bir depo binasındaki tavan aydınlatması aynı rotaya sığdırılabilir. Bizim buradaki yaklaşımımız, bu noktaları tek bir güzergâhta, her noktanın kendi trafik yoğunluğuna göre sıralayarak birleştirmektir; bu, hem nakliye maliyetini hem de toplam bakım süresini tek tek ziyaretlere göre azaltır.",
+        maddeler: [
+            {
+                baslik: "İstasyon, terminal ve depo arasında rota sıralaması",
+                metin:
+                    "Çok noktalı bir bakım rotası kurarken, noktaların hat üzerindeki fiziksel konumu kadar, her noktanın günün hangi saatinde daha az trafiğe sahip olduğu da dikkate alınır; örneğin istasyon çevresi sabah erken saatte daha sakinken, depo bölgesi öğleden sonra daha uygun olabilir. Rota bu bilgiye göre kurgulanır ve gün içinde noktalar arası geçiş minimum yeniden konumlanmayla tamamlanır.",
+            },
+            {
+                baslik: "Her noktada farklı erişim ekipmanı ihtiyacı",
+                metin:
+                    "İstasyon çevresindeki bir direk bakımı, aktarma terminalindeki bir rampa kontrolü ve depo içindeki bir tavan aydınlatması, genellikle farklı platform sınıfları gerektirir; bu yüzden çok noktalı bir rotada bazen tek bir makine yeterli olurken, bazen aynı gün içinde iki farklı sınıfın art arda kullanılması gerekir. Rota planlanırken hangi noktanın hangi makineyi gerektirdiği önceden netleştirilir.",
+            },
+            {
+                baslik: "Noktalar arası kısa mesafede nakliye verimliliği",
+                metin:
+                    "Hat kenarındaki noktalar birbirine genellikle kısa mesafede olduğu için, aynı platformu bir noktadan diğerine taşımak, ayrı ayrı sevkiyat yapmaktan çok daha verimlidir. Bu verimlilik, özellikle küçük ölçekli ama sık tekrarlanan bakım ihtiyaçlarında (aydınlatma kontrolü, küçük mekanizma bakımı) fark yaratır.",
+            },
+            {
+                baslik: "Her nokta sahibiyle ayrı koordinasyon",
+                metin:
+                    "İstasyon, terminal ve depo genellikle farklı işletme sorumluluğuna sahip olabilir; bu yüzden çok noktalı bir rota kurarken her noktanın kendi yetkilisiyle ayrı ayrı koordinasyon kurmak gerekir. Bir noktadaki gecikme, rotanın geri kalanını etkileyebileceği için, her nokta için gerçekçi bir zaman penceresi ayrılır ve olası gecikme payı hesaba katılır.",
+            },
+            {
+                baslik: "Tek seferlik değil düzenli tekrarlanan rota",
+                metin:
+                    "Aydınlatma kontrolü veya küçük mekanizma bakımı gibi ihtiyaçlar genellikle tek seferlik değil, belirli aralıklarla tekrarlanan bir işe dönüşür; bu durumda çok noktalı rotayı düzenli bir program hâline getirmek, her seferinde yeniden planlama yapmaktan daha verimlidir. Talep sahipleriyle bu tür bir düzenli rota anlaşması yapılabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota noktalarına göre planlama unsurları",
+                paragraflar: [
+                    "Çok noktalı bir rotada her durağın planlamasını etkileyen unsurları aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Rota noktası", "En uygun zaman", "Gerekli ekipman", "Koordinasyon sahibi"],
+                    satirlar: [
+                        ["İstasyon/peron çevresi", "Sabah erken/sakin saat", "Kompakt platform", "İstasyon yetkilisi/ilgili birim"],
+                        ["Aktarma terminali/rampa", "Aktarma trafiği azken", "Sepetli/örümcek platform", "Terminal operasyon ekibi"],
+                        ["Depo/antrepo iç mekân", "Forklift trafiği azken", "Akülü makaslı", "Depo yönetimi"],
+                        ["Tahıl aktarma/silo (varsa)", "Sezon dışı dönem", "Standart platform", "Tesis operasyon ekibi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bir noktadaki gecikmenin rotaya etkisi",
+                paragraflar: [
+                    "Çok noktalı bir rotada bir durağın beklenenden uzun sürmesi, sonraki durakların zamanlamasını kaydırabilir; bu riski azaltmak için her nokta için gerçekçi bir süre tahmini yapılır ve rotaya makul bir esneme payı eklenir.",
+                    "Gecikme büyükse, rotanın son durağı bir sonraki güne kaydırılabilir; bu durum ilgili nokta sahibine mümkün olan en kısa sürede bildirilir ki kendi planlarını buna göre ayarlayabilsinler.",
+                ],
+            },
+            {
+                baslik: "Düzenli tekrarlanan rota anlaşması",
+                paragraflar: [
+                    "Aydınlatma kontrolü gibi tekrarlanan küçük bakım ihtiyaçları için, tek tek talep almak yerine belirli bir aralıkla (örneğin belirli haftalarda) tekrarlanan bir rota anlaşması kurulabilir; bu, hem talep sahiplerinin hem bizim planlamamızı kolaylaştırır.",
+                    "Düzenli rota, sabit değildir — noktalardan biri o dönem bakıma ihtiyaç duymuyorsa rotadan çıkarılır, yeni bir ihtiyaç ortaya çıkarsa rotaya eklenir; esneklik korunur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı günde istasyon, terminal ve depoya sırayla bakım yapılabiliyor mu?",
+                cevap:
+                    "Evet, noktalar hat üzerinde birbirine yakınsa bu mümkündür; rota, her noktanın günün hangi saatinde daha sakin olduğuna göre sıralanır ve geçişler minimum yeniden konumlanmayla tamamlanır.",
+            },
+            {
+                soru: "Her nokta için farklı platform mu gerekiyor?",
+                cevap:
+                    "Genellikle evet, çünkü istasyon çevresi, aktarma terminali ve depo içi farklı erişim koşulları sunar; bazen tek bir makine yeterli olurken bazen aynı gün içinde iki farklı sınıfın art arda kullanılması gerekebilir.",
+            },
+            {
+                soru: "Bir noktada iş uzarsa rotanın geri kalanı ne oluyor?",
+                cevap:
+                    "Rotaya baştan makul bir esneme payı eklenir; gecikme büyükse son durak bir sonraki güne kaydırılabilir ve bu durum ilgili nokta sahibine mümkün olan en kısa sürede bildirilir.",
+            },
+            {
+                soru: "İstasyon, terminal ve depo farklı yetkililere bağlıysa koordinasyon nasıl yapılıyor?",
+                cevap:
+                    "Her nokta için ayrı ayrı ilgili yetkiliyle koordinasyon kurulur; bir noktadaki karar diğerini otomatik bağlamaz, bu yüzden rota planlanırken her nokta için gerçekçi bir zaman penceresi ayrı ayrı netleştirilir.",
+            },
+            {
+                soru: "Tekrarlanan küçük bakımlar için düzenli bir program kurulabiliyor mu?",
+                cevap:
+                    "Evet, aydınlatma kontrolü gibi tekrarlanan ihtiyaçlar için belirli aralıklarla tekrarlanan bir rota anlaşması kurulabilir; bu program esnektir, ihtiyaç değiştikçe noktalar eklenip çıkarılabilir.",
+            },
+            {
+                soru: "Çok noktalı rota tek tek talep almaktan neden daha verimli?",
+                cevap:
+                    "Noktalar birbirine kısa mesafede olduğu için aynı platformu bir noktadan diğerine taşımak, ayrı ayrı sevkiyat yapmaktan daha az zaman ve nakliye maliyeti gerektirir; bu fark özellikle küçük ama sık tekrarlanan bakımlarda belirginleşir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük'ün demiryolu kavşağı konumunda istasyon, aktarma terminali ve depo gibi birbirine yakın farklı işlev noktalarının bulunması kamuya açık genel coğrafi bilgidir; çok noktalı bakım rotası planlaması sektör geneli lojistik/bakım pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bozüyük Hat Kenarı Boş Arazi ve Dolgu Sahalarında Zor Zemin Platform Kiralama",
+        giris:
+            "Hat kenarındaki bazı parseller, henüz bir tesis inşa edilmemiş boş arazi veya geçmişte kısmi dolgu yapılmış ama hiç sıkıştırılmamış bir zemin hâlinde durur; bu tür alanlarda bir yatırımcı yeni bir depo veya rampa yapımına başlamadan önce, bazen alan çevresinde ölçüm, işaretleme veya ön hazırlık amaçlı yüksek erişim ihtiyacı doğar. Zor zemin, standart lastik tekerlekli bir platformun batma veya devrilme riskiyle karşılaştığı zemindir — dolgu toprağı henüz oturmamış, hafriyat sonrası düzensiz, ya da yağış sonrası yumuşamış olabilir. Bizim yaklaşımımız, bu tür bir alana girmeden önce zeminin genel durumunu sorgulamak ve paletli veya geniş lastik izli sınıfları öncelikli olarak önermektir; zemin durumu netleşmeden standart bir platform sahaya gönderilmez.",
+        maddeler: [
+            {
+                baslik: "Dolgu toprağında oturmamış zemin riski",
+                metin:
+                    "Hat kenarındaki bazı parseller, yıllar önce kısmi olarak dolgu yapılmış ama hiç sıkıştırılmamış hâlde kalmıştır; bu tür bir zeminde standart lastik tekerlekli bir platform, ağırlık altında beklenmedik biçimde batabilir. Paletli sınıflar, ağırlığı geniş bir alana yaydığı için bu tür zeminlerde daha güvenli bir seçenektir; zemin durumu belirsizse öncelikle paletli bir model öneririz.",
+            },
+            {
+                baslik: "Hafriyat sonrası düzensiz yüzeyde manevra",
+                metin:
+                    "Bir parselde ön hazırlık amaçlı hafriyat yapılmışsa, zemin yüzeyi düzensiz tümsek ve çukurlarla dolu olabilir; bu tür bir yüzeyde platformun dengesi, düz bir zemine göre daha hassas bir konudur. Sahaya girmeden önce yüzeyin genel durumunu sorar, mümkünse fotoğrafla değerlendiririz; belirgin bir düzensizlik varsa çalışma öncesi kaba bir düzeltme önerebiliriz.",
+            },
+            {
+                baslik: "Yağış sonrası yumuşayan zeminde bekleme kararı",
+                metin:
+                    "Boş arazi niteliğindeki parseller, yağış sonrası birkaç gün boyunca yumuşak kalabilir ve bu dönemde ağır bir platformun sahaya girmesi hem makine hem de zemin için risklidir. Yağış sonrası bir çalışma planlanıyorsa, zeminin kuruma süresini bekleriz; acil bir ihtiyaç varsa, zeminin daha sağlam kaldığı bir güzergâh belirleyip oradan erişim sağlamayı değerlendiririz.",
+            },
+            {
+                baslik: "Yeni bağlantı yolu/rampa öncesi ölçüm erişimi",
+                metin:
+                    "Bir yatırımcı hat kenarındaki boş bir parsele yeni bir bağlantı yolu veya rampa planlıyorsa, inşaat başlamadan önce alan üzerinde ölçüm veya işaretleme amaçlı yüksek erişim gerekebilir; bu aşamada zemin henüz hiçbir iyileştirme görmemiş hâldedir ve platform seçimi tamamen mevcut doğal zemine göre yapılır.",
+            },
+            {
+                baslik: "Zemin iyileştikçe platform sınıfının değişmesi",
+                metin:
+                    "Bir parselde inşaat ilerledikçe zemin de değişir — dolgu sıkıştırılır, kısmi beton dökülür, sonunda saha betonu tamamlanır. Her aşamada zemin taşıma kapasitesi farklılaştığı için, platform sınıfını sabit tutmak yerine aşamaya göre yeniden değerlendiririz; başlangıçta paletli bir sınıfla başlayıp, zemin iyileştikçe daha geniş bir seçenek yelpazesine geçmek yaygın bir yaklaşımdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre platform sınıfı",
+                paragraflar: [
+                    "Hat kenarı boş arazi ve dolgu sahalarındaki farklı zemin durumlarına göre önerdiğimiz sınıfı aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Risk", "Önerilen sınıf", "Ek önlem"],
+                    satirlar: [
+                        ["Oturmamış dolgu toprak", "Batma riski", "Paletli", "Zemin önceden sorgulanır"],
+                        ["Hafriyat sonrası düzensiz yüzey", "Dengesizlik", "Geniş ayak izli/paletli", "Kaba düzeltme önerilebilir"],
+                        ["Yağış sonrası yumuşamış zemin", "Batma/kayma", "Bekleme veya alternatif güzergâh", "Kuruma süresi beklenir"],
+                        ["Kısmi beton döküm sonrası", "Azalan risk", "Daha geniş seçenek", "Yine de kontrol edilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sahaya girmeden önce zemin sorgulaması",
+                paragraflar: [
+                    "Zor zemin ihtimali olan bir alana platform göndermeden önce, zeminin genel durumunu talep sahibinden sorgularız — dolgu mu, hafriyat mı, son yağıştan bu yana ne kadar süre geçti gibi sorularla; bu bilgi net değilse mümkünse fotoğraf isteriz veya kısa bir ön keşif yaparız.",
+                    "Zemin durumu hâlâ belirsizse, ilk seferde daha temkinli bir sınıf (paletli) göndermeyi tercih ederiz; sahada zeminin beklenenden sağlam olduğu görülürse, sonraki ziyarette daha geniş bir seçenek değerlendirilebilir.",
+                ],
+            },
+            {
+                baslik: "İnşaat ilerledikçe sınıf geçişi",
+                paragraflar: [
+                    "Bir parselde inşaat süreci ilerledikçe zemin iyileşir ve bu iyileşmeye paralel olarak platform sınıfını da güncelleriz; başlangıç aşamasında paletli bir sınıfla çalışılırken, saha betonu tamamlandıktan sonra daha geniş bir makine yelpazesi kullanılabilir hâle gelir.",
+                    "Bu geçişin ne zaman yapılacağına dair kararı tek taraflı vermeyiz; zemin durumunu talep sahibiyle birlikte değerlendirir, geçişi ortak kararla yaparız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dolgu toprağı üzerinde standart lastik tekerlekli platform kullanılabilir mi?",
+                cevap:
+                    "Oturmamış bir dolguda önerilmez, çünkü batma riski taşır; bunun yerine ağırlığı geniş bir alana yayan paletli bir sınıf öneririz. Zemin durumu belirsizse sahaya girmeden önce sorgularız.",
+            },
+            {
+                soru: "Hafriyat sonrası düzensiz bir yüzeyde platform devrilme riski var mı?",
+                cevap:
+                    "Düz olmayan bir yüzeyde denge riski artar; bu yüzden sahaya girmeden önce yüzeyin genel durumunu sorar, belirgin bir düzensizlik varsa çalışma öncesi kaba bir düzeltme önerebiliriz.",
+            },
+            {
+                soru: "Yağıştan hemen sonra sahaya girmek zorunda mıyız?",
+                cevap:
+                    "Hayır, mümkünse zeminin kuruma süresini bekleriz; acil bir ihtiyaç varsa zeminin daha sağlam kaldığı alternatif bir güzergâh belirleyip oradan erişim sağlamayı değerlendiririz.",
+            },
+            {
+                soru: "İnşaat başlamadan önce boş bir parselde ölçüm için platform gerekiyor mu?",
+                cevap:
+                    "Bazı durumlarda evet — yeni bir bağlantı yolu veya rampa planlanırken alan üzerinde ölçüm veya işaretleme amaçlı yüksek erişim gerekebilir; bu aşamada zemin henüz doğal hâlindedir ve platform seçimi buna göre yapılır.",
+            },
+            {
+                soru: "İnşaat ilerledikçe platform sınıfını değiştirmek gerekiyor mu?",
+                cevap:
+                    "Genellikle evet, çünkü zemin taşıma kapasitesi aşamadan aşamaya değişir; başlangıçta paletli bir sınıfla çalışılırken, saha betonu tamamlandıktan sonra daha geniş bir seçenek yelpazesi kullanılabilir hâle gelir.",
+            },
+            {
+                soru: "Zemin durumu net değilse nasıl karar veriyorsunuz?",
+                cevap:
+                    "Belirsizlik varsa ilk seferde daha temkinli bir sınıf (paletli) göndermeyi tercih ederiz; sahada zeminin beklenenden sağlam olduğu görülürse sonraki ziyarette daha geniş bir seçenek değerlendirilebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hat kenarındaki boş/dolgu arazilerin zemin taşıma kapasitesinin inşaat aşamasına göre değiştiği genel inşaat/zemin bilgisidir; paletli sınıfın zayıf zeminde ağırlık dağıtma avantajı ekipman literatüründeki genel teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
 };

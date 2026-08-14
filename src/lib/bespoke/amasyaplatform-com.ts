@@ -638,4 +638,592 @@ export const AMASYAPLATFORM_COM: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-13. Gümüşhacıköy için küçük ilçe ölçeğinde planlı temin açısı devir belgesine dayanır; stok, süre, mesafe, tesis veya kapasite iddiası eklenmemiştir. Teknik kart, rota ve saha teslimi anlatımı operasyon pratiğidir.",
     },
+
+    // ── HİZMET SAYFALARI (2026-08-14) ───────────────────────────────────
+    // Amasya'nın meyve işleme/konserve/soğuk hava deposu sanayi kimliği ve
+    // OSB'deki metal işleme-ambalaj fabrikaları ekseninde, 11 sabit hizmet
+    // konusunun her biri kendi teknik gerekçesiyle yazılmıştır.
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Amasya'da Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Örümcek platform, Amasya'daki meyve işleme ve OSB tesislerinde diğer makinelerin giremediği ya da girse bile zemine yükünü taşıyamadığı noktalar için tercih edilir. Paletli ayakları ve dışa açılan istinat kollarıyla ağırlığını geniş bir tabana yayar; bu sayede asma katlı ambar zeminlerinde, hafif çelik konstrüksiyon üzerinde veya soğuk hava deposunun üst katmanında, tekerlekli bir makaslı platformun taşıyamayacağı yükü güvenle taşır. Kolu daraltıp katlayarak metre altına inebilen modeller, dar bir kapıdan geçip iç mekânda tekrar açılabilir — meyve tasnif hattının iki sırası arasına, ya da OSB fabrikasının ara katına bu şekilde girilir. Uzun ve dönebilen kolu sayesinde düz altına gelmeden yandaki bir çatı saçağına, boru geçişinin arkasına veya silonun yan yüzeyine erişebilir; bu, dikey mast ya da makaslı platformun yapamadığı bir manevradır. Bu sayfada örümcek platformun Amasya'daki tipik kullanım alanlarını, taşıma-giriş kısıtlarını ve hangi işte hangi modelin tercih edildiğini anlatıyoruz.",
+        maddeler: [
+            { baslik: "Zemin taşıma sınırı düşük mezanin ve çatı arası katlar", metin: "Meyve işleme tesislerinde depolama kapasitesini artırmak için sonradan eklenen asma katlar, genellikle hafif çelik profille yapılır ve nokta yükü sınırlıdır. Tekerlekli makaslı platform bu zeminde iz bırakır ya da taşıma sınırını aşar; örümcek platformun geniş taban alanına yayılan ayak baskısı bu riski azaltır. Kat taşıma etiketi yoksa iş öncesi tesis mühendisiyle birlikte kontrol edilir." },
+            { baslik: "Dar kapıdan girip iç mekânda açılan kol geometrisi", metin: "OSB'deki ambalaj ve metal işleme fabrikalarının bazı bölümlerine standart yük kapısından değil, insan geçiş kapısından girmek gerekir. Katlanabilir kollu örümcek modelleri bu genişliğe sığacak ölçüde daralır, içeri girdikten sonra kol yeniden açılır ve tam erişim menzili geri kazanılır. Bu manevra öncesi kapı ölçüsü ve iç koridorun dönüş yarıçapı mutlaka netleştirilir." },
+            { baslik: "Yanal ve alt-üstten erişim gerektiren noktalar", metin: "Çatı saçağının altı, konveyör bandının arkası ya da bir boru hattının gölgesinde kalan aydınlatma armatürü gibi noktalara düz altından değil yandan yaklaşmak gerekir. Örümcek platformun çok eklemli kolu bu tür engelli geometrilerde makaslı platformdan daha esnektir; kol önce yukarı, sonra yana, gerekirse aşağı doğru bükülerek hedefe ulaşır." },
+            { baslik: "Elektrikli ve dizel model seçiminin gıda hacmine etkisi", metin: "Meyve tasnif ve paketleme salonlarında ürün açıkta olduğu için elektrikli örümcek platform tercih edilir; egzoz gazı ve yakıt kokusu riski taşımaz. Açık sahada, OSB'nin dış cephe ya da çatı işlerinde ise dizel model daha uzun çalışma süresi sunar. Hangi modelin kullanılacağı, işin iç mi dış mekânda mı olduğuna göre önceden belirlenir." },
+            { baslik: "Kurulum öncesi zemin ve istinat kolu payı kontrolü", metin: "İstinat kolları açıldığında makinenin kapladığı alan, taban ölçüsünün oldukça üzerine çıkar; bu pay hesaplanmadan sahaya gönderilen makine bazen açılamaz. Kurulum öncesi zeminin düzlüğü, eğim açısı ve istinat kollarının basacağı noktaların taşıma gücü kontrol edilir; gerekirse takoz veya plaka ile destek sağlanır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Örümcek platform ile makaslı/eklemli platform karşılaştırması",
+                paragraflar: [
+                    "Amasya'daki üç sınıfın hangi işte öne çıktığı, sık sorulan bir tercih sorusudur. Aşağıdaki tablo temel farkları özetler; kesin seçim sahanın zemin ve erişim koşuluna göre yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Örümcek platform", "Makaslı platform", "Eklemli (boom) platform"],
+                    satirlar: [
+                        ["Zemin yükü", "Düşük, geniş tabana yayılı", "Orta-yüksek, tekerlek noktası", "Yüksek, dengeleme gerekir"],
+                        ["Dar kapıdan geçiş", "Katlanarak mümkün", "Şasi genişliğine bağlı", "Genelde mümkün değil"],
+                        ["Yanal/engelli erişim", "Çok eklemli, esnek", "Yalnızca dikey", "İyi, ama zemin ister"],
+                        ["Uygun mekân", "İç mekân, hassas zemin", "İç mekân, düz zemin", "Dış mekân, geniş alan"],
+                    ],
+                },
+            },
+            {
+                baslik: "Meyve tasnif hattında örümcek platformun tipik kullanım anı",
+                paragraflar: [
+                    "Tasnif hattının üstündeki kamera grubuna ya da hattın arkasındaki bir aydınlatma armatürüne erişmek gerektiğinde, hattın iki yanı dar ve dolu olduğu için standart bir makaslı platform giremez. Örümcek platform katlı hâlde araya girer, kol açılıp hedefe ulaşır ve iş bitince tekrar katlanarak dışarı çıkar. Bu manevra hat tamamen durmadan, yalnızca ilgili bölüm bariyerlenerek yapılabilir.",
+                    "OSB'deki metal işleme atölyelerinde de benzer bir durum vardır: pres hatlarının veya kaynak istasyonlarının arasında kalan dar geçitlerde çatı aydınlatması bakımı için aynı manevra kullanılır. Buradaki fark, iç mekân gıda kısıtının olmaması; dizel model bile kısa süreli kullanılabilir, ancak havalandırma yeterliyse.",
+                ],
+            },
+            {
+                baslik: "Kiralama öncesi paylaşılması gereken ölçüler",
+                paragraflar: [
+                    "Doğru modelin ilk seferde gitmesi için kapı genişliği-yüksekliği, iç koridorun dönüş yarıçapı, zeminin taşıma etiketi (varsa), hedefin yerden yüksekliği ve yatay uzaklığı, istinat kollarının basacağı alanın engelsiz olup olmadığı paylaşılmalıdır. Bu bilgi eksik geldiğinde makine sahada açılamayabilir ve iş ertelenir; telefonla alınan bu bilgiler saha ekibiyle teyit edilerek sevkiyat planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Örümcek platform ile makaslı platform arasındaki temel fark nedir, hangisini seçmeliyiz?", cevap: "Temel fark zemine bindirilen yük ve erişim biçimidir. Makaslı platform tekerlekleriyle noktasal yük bindirir ve yalnızca dikey yükselir; örümcek platform ise açılan istinat kollarıyla yükü geniş bir alana yayar ve çok eklemli koluyla yana-aşağıya da erişebilir. Zemininiz hassas veya taşıma sınırı belirsizse, ya da hedef düz üstte değil yan tarafta ise örümcek platform daha uygundur. Zemin sağlam ve hedef doğrudan üstteyse makaslı platform hem daha ekonomik hem daha hızlı kurulur. Kesin karar için hedefin konumu ve zemin bilgisini paylaşmanız yeterlidir." },
+            { soru: "Örümcek platform dar bir kapıdan gerçekten geçebiliyor mu?", cevap: "Katlanabilir kollu modellerde evet, ancak kapı ölçüsü modelin katlı hâldeki genişliğine uygun olmalıdır. Kol içeri girmeden önce tamamen katlanır, makine dar geçişten geçer, iç mekânda tekrar açılır. Bu işlem için hem kapı genişliği hem de içeride kolun açılacağı boş alan gereklidir — sadece kapıdan geçmek yetmez, açılma manevrası için de yer olmalıdır. Kapı ölçüsünü ve iç mekân planını önceden paylaşırsanız, geçip geçemeyeceğini kesin olarak söyleriz." },
+            { soru: "Soğuk hava deposunun asma katına örümcek platform çıkarabilir miyiz?", cevap: "Asma kat taşıma etiketi varsa ve bu değer örümcek platformun toplam ağırlığını (istinat kollarıyla birlikte) karşılıyorsa mümkündür. Etiket yoksa ya da eski bir yapıysa, tesis mühendisiyle birlikte taşıma kapasitesi teyit edilmeden makine çıkarılmaz — bu, hem makine hem yapı güvenliği açısından atlanamayacak bir adımdır. Taşıma onayı alındıktan sonra istinat kollarının basacağı dört noktanın da yapısal olarak uygun olması ayrıca kontrol edilir." },
+            { soru: "İç mekânda çalışırken egzoz gazı sorunu yaşar mıyız?", cevap: "Gıda üretim ve depolama hacimlerinde her zaman elektrikli örümcek platform kullanılır; egzoz emisyonu olmadığı için ürüne veya havaya karışma riski taşımaz. Dizel model yalnızca dış mekân işlerinde ya da havalandırması yeterli, gıda dışı endüstriyel hacimlerde tercih edilir. Hangi modelin geleceği, işin iç mi dış mı olduğu bilgisine göre kiralama öncesinde netleştirilir; bu konuda tesise danışılmadan dizel makine gıda hacmine gönderilmez." },
+            { soru: "Örümcek platformun ulaşamayacağı bir durum var mı?", cevap: "Evet. Zemin çok yumuşak veya eğimliyse, istinat kollarının basabileceği sağlam nokta yoksa makine güvenli açılamaz; bu durumda takoz-plaka desteği ya da farklı bir sınıf gerekir. Ayrıca kolun menzili sınırlıdır — çok yüksek bir noktaya, yatayda uzak bir mesafeden erişmek isteniyorsa daha büyük bir eklemli platform gerekebilir. Sahanın fotoğrafını ve yaklaşık ölçüleri paylaştığınızda uygun sınıfı netleştiririz." },
+            { soru: "Operatörsüz kullanabilir miyiz, yoksa operatör şart mı mı?", cevap: "Örümcek platform, çok eklemli kolu ve istinat kolu açma-kapama mantığı nedeniyle diğer platform sınıflarına göre daha fazla teknik bilgi gerektirir; kendi ekibiniz kullanacaksa mutlaka önceki deneyimi olmalı ve teslimde saha eğitimi alınmalıdır. İlk kez bu sınıfla çalışan tesislere operatörlü kiralamayı öneriyoruz — istinat kolu yerleşimi ve kol açılım sırası hatalı yapıldığında makine dengesizleşebilir, bu riski deneyimli operatör önler." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'nın meyve işleme ve OSB metal-ambalaj sanayi kimliği kamuya açık genel bilgidir; örümcek platformun teknik özellikleri (istinat kolu, katlanabilir kol, zemin yükü dağılımı) sektör geneli ekipman bilgisidir, kullanım senaryoları firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Amasya'da Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Amasya'da bir platformun sahaya varması, il merkezinin dar ve tarihi dokulu sokaklarından Merzifon'un geniş sanayi kuşağına, Suluova'nın besicilik-et tesislerinden Taşova ve Gümüşhacıköy'ün kırsal arazisine kadar farklı lojistik gerçeklerle karşılaşır. Yeşilırmak vadisinin dar geçitli bazı yol kesimleri büyük araçlı taşımayı zorlaştırırken, Merzifon'daki havalimanı kuşağı ve ana karayolu bağlantısı OSB'ye teslimatı nispeten hızlandırır. Hasat sezonunda meyve nakliyesiyle aynı yolları paylaşan platform sevkiyatı, o dönemde trafik yoğunluğunu hesaba katarak planlanmalıdır; sezon dışı aylarda ise teslimat penceresi çok daha esnektir. Düşük yükseklikli bir makaslı platform standart bir kamyonetle taşınabilirken, büyük eklemli platformlar low-bed römork ve daha geniş manevra alanı ister — bu ayrım, teslimat süresini ve maliyetini doğrudan etkiler. Bu sayfa, Amasya genelinde platform nakliyesinin nasıl planlandığını, hangi ilçede hangi kısıtın öne çıktığını ve teslimat öncesi hangi bilginin istendiğini anlatır.",
+        maddeler: [
+            { baslik: "Merkezin dar sokak ve tarihi doku kısıtı", metin: "Amasya merkezdeki bazı mahalleler, Yeşilırmak kıyısındaki tarihi yapı dokusu nedeniyle dar ve dönüşü kısıtlı sokaklara sahiptir. Büyük bir nakliye aracının bu sokaklara girmesi mümkün olmayabilir; bu durumda makine ana yola kadar taşınır, oradan küçük tekerlekli veya kendinden hareketli modelle son metrelerde sahaya ilerlenir. Sokak genişliği ve araç giriş noktası teslimattan önce mutlaka netleştirilir." },
+            { baslik: "OSB'ye planlı teslimat ve fabrika giriş prosedürü", metin: "Amasya OSB ile Merzifon OSB'deki fabrikalar genellikle araç giriş kayıt sistemi işletir; nakliye aracının plaka ve sürücü bilgisi önceden bildirilmezse kapıda bekleme yaşanabilir. Planlı teslimatta bu bilgi randevu saatiyle birlikte tesise iletilir, araç güvenlik kontrolünden hızlıca geçer ve makine doğrudan çalışma noktasına yönlendirilir." },
+            { baslik: "Hasat sezonunda yol yoğunluğunun teslimat süresine etkisi", metin: "Meyve alım döneminde Amasya-Merzifon-Suluova hattındaki yollar, tarım ürünü taşıyan kamyon trafiğiyle dolar. Bu dönemde platform sevkiyatını planlarken normal saatler yerine sabah erken ya da öğle sonrası daha az yoğun saatler tercih edilir; acil bir talep varsa alternatif güzergâh değerlendirilir. Sezon dışı aylarda bu kısıt ortadan kalkar ve teslimat penceresi genişler." },
+            { baslik: "Makine sınıfına göre araç ve römork seçimi", metin: "Küçük bir makaslı ya da dikey mast platform standart kapalı kasa kamyonetle taşınabilirken, büyük eklemli platform veya örümcek platform low-bed römork ve daha uzun bir yükleme-bağlama süresi gerektirir. Hangi aracın kullanılacağı, makinenin ağırlığı ve boyutuna göre önceden belirlenir; yanlış araçla yola çıkan makine sahada geri döner." },
+            { baslik: "Kırsal ve arazi bölgelerinde son kilometre erişimi", metin: "Taşova ve Gümüşhacıköy gibi ilçelerin kırsal kesimlerinde bazı saha yolları toprak veya stabilize zeminlidir; yağışlı dönemde bu yollar ağır araç taşımasına uygun olmayabilir. Bu bölgelere teslimat öncesi yol durumu telefonla teyit edilir, gerekirse alternatif güzergâh veya daha küçük bir taşıma aracı planlanır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Amasya'da bölgeye göre nakliye kısıtı özeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, Amasya genelindeki başlıca bölgelerin nakliye açısından öne çıkan kısıtını ve buna uygun yaklaşımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "Öne çıkan kısıt", "Yaklaşım"],
+                    satirlar: [
+                        ["Amasya merkez", "Dar sokak, tarihi doku", "Ana yoldan son metre erişim"],
+                        ["Amasya OSB / Merzifon OSB", "Giriş kayıt prosedürü", "Randevulu, plaka bildirimli teslimat"],
+                        ["Suluova", "Besicilik tesis trafiği", "Vardiya dışı saat tercihi"],
+                        ["Taşova / Gümüşhacıköy kırsalı", "Stabilize/toprak yol", "Yol durumu ön teyidi"],
+                        ["Merzifon-Amasya hattı (hasat sezonu)", "Tarım ürünü trafiği", "Erken sabah/öğle sonrası sevkiyat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yükleme-bağlama süresinin teklife etkisi",
+                paragraflar: [
+                    "Bir platformun kiralama süresi genelde çalışma saatiyle anılır, ancak nakliye tarafında yükleme, bağlama, yol ve boşaltma ayrı bir zaman dilimidir. Büyük bir eklemli platformun low-bed'e yüklenip bağlanması, küçük bir makaslı platformun kapalı kasaya girmesinden çok daha uzun sürer; bu fark teklif hazırlanırken hesaba katılır ve müşteriye ayrı kalem olarak gösterilir.",
+                    "Aynı gün birden fazla adrese teslimat planlanıyorsa, her adresteki boşaltma ve bağlama süresi rotaya eklenir. Rota gerçekçi kurulmazsa son adrese gecikmeli ulaşılır; bu yüzden çok adresli teslimatlarda adresler ve makine tipleri önceden netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi paylaşılması gereken bilgiler",
+                paragraflar: [
+                    "Sağlıklı bir teslimat planı için adres ve varsa fabrika giriş prosedürü, sahaya giden yolun genişlik ve zemin durumu, tercih edilen teslimat saat aralığı, sahada makineyi karşılayacak yetkili kişinin iletişim bilgisi istenir. Kırsal bölgelerde ayrıca yol durumu güncel olarak teyit edilir; hasat sezonunda ise alternatif saat aralığı sorulur. Bu bilgiler eksik geldiğinde araç sahaya vardığında bekleme veya geri dönüş riski oluşur.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Amasya merkezdeki dar bir sokağa platform teslim edebilir misiniz?", cevap: "Sokağın genişliğine bağlıdır. Büyük nakliye aracı dar sokağa giremiyorsa makine ana yola kadar taşınır, oradan küçük tekerlekli platform kendi gücüyle veya elle itilerek son metrelerde sahaya ulaştırılır. Bazı çok dar geçitlerde bu da mümkün olmayabilir; bu durumda alternatif giriş noktası veya farklı bir model önerilir. Teslimattan önce sokak genişliğini ve varsa araç giriş kısıtını bildirmeniz, doğru planı yapmamızı sağlar." },
+            { soru: "OSB'deki fabrikaya teslimat için önceden randevu almamız gerekiyor mu?", cevap: "Çoğu OSB fabrikası araç giriş kaydı işlettiği için evet, gerekir. Nakliye aracının plaka bilgisi ve tahmini varış saati fabrika güvenlik birimine önceden iletilmelidir; aksi hâlde araç kapıda bekleyebilir. Bu bilgiyi sizinle birlikte teyit eder, randevu saatini fabrikanın onayına göre netleştiririz." },
+            { soru: "Hasat sezonunda teslimat süresi uzuyor mu?", cevap: "Yoğun tarım trafiğinin olduğu saatlerde evet, gecikme riski artar. Bu dönemde sevkiyatı sabah erken veya öğle sonrası daha az yoğun saatlere planlamayı öneririz; acil bir ihtiyaçta alternatif güzergâh değerlendirilir. Sezon dışı aylarda bu kısıt ortadan kalktığı için teslimat penceresi çok daha geniştir — mümkünse planlı işleri bu döneme almanızı öneririz." },
+            { soru: "Kırsal bir arazi veya bahçeye teslimat yapabilir misiniz?", cevap: "Yol durumu uygunsa evet. Taşova ve Gümüşhacıköy gibi ilçelerin kırsal kesimlerinde bazı yollar stabilize veya toprak zeminlidir; yağışlı dönemde ağır araç taşımasına uygun olmayabilir. Teslimattan önce yol durumunu telefonla teyit ediyoruz; uygun değilse daha küçük bir taşıma aracı veya alternatif güzergâh planlanır. Yolun son hâlini bildiğiniz kadarıyla paylaşmanız planlamayı hızlandırır." },
+            { soru: "Küçük bir makaslı platform ile büyük bir eklemli platformun nakliye süresi aynı mı?", cevap: "Hayır. Küçük makaslı platform standart kapalı kasa araçla nispeten hızlı yüklenip taşınırken, büyük eklemli platform low-bed römork gerektirir ve yükleme-bağlama süresi belirgin daha uzundur. Teklif hazırlanırken bu fark hesaba katılır ve nakliye süresi makine sınıfına göre ayrı belirtilir." },
+            { soru: "Aynı gün birden fazla adrese teslimat yaptırabilir miyiz?", cevap: "Adresler ve makine tipleri uygun olduğunda mümkündür. Her adresteki boşaltma-bağlama süresi rotaya eklenir ve gerçekçi bir sıralama yapılır; aksi hâlde son adrese gecikmeli ulaşılır. Adres listesini ve her noktadaki makine ihtiyacını önceden paylaşırsanız, rotayı uygulanabilir biçimde kurar ve size tahmini saatleri bildiririz." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya merkezin tarihi doku/dar sokak yapısı, OSB'lerin varlığı ve hasat sezonu tarım trafiği kamuya açık genel bilgidir; nakliye planlama yaklaşımı firma pratiğidir, özel güzergâh veya mesafe iddiası içermez.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Amasya'da Forklift ve İstifleme Kiralama",
+        giris:
+            "Amasya'daki meyve işleme ve soğuk hava deposu tesislerinde forklift, platformun tamamlayıcısıdır: platform yükseklikte bakım ve erişim yaparken, forklift zemin seviyesinde palet taşıma, kasa istifleme ve yükleme-boşaltma işini üstlenir. Hasat sezonunda kasa trafiği en yoğun döneme girer — meyve kabul noktasından soğuk depoya, oradan tasnif hattına kadar sürekli palet hareketi olur ve bu dönemde forklift talebi platform talebinden bile daha erken başlar. OSB'deki metal işleme ve ambalaj fabrikalarında ise forklift, hem hammadde-ürün taşımada hem de platformun giremediği ağır malzemenin sahaya taşınmasında kullanılır. Dar koridorlu soğuk hava depolarında standart forklift yerine dar şasili ya da reach truck tipi modeller tercih edilir; bu seçim, raf koridor genişliğine ve yükseklik ihtiyacına göre yapılır. Bu sayfa Amasya genelinde forklift kiralamanın hangi işte, hangi model ve hangi sezon yoğunluğuyla planlandığını anlatır.",
+        maddeler: [
+            { baslik: "Hasat sezonunda kasa ve palet trafiği yoğunluğu", metin: "Meyve alım döneminde tesise giren ham madde, kısa sürede kasalara doldurulup soğuk depoya veya tasnif hattına taşınır. Bu trafik günün her saatinde sürebilir ve tek forklift yetersiz kalabilir; sezon başında ek forklift ihtiyacı platform ihtiyacından önce ortaya çıkar. Sezonluk yoğunluğu önceden bildiren tesislere, sezon başlangıcından itibaren ek makine ayırma imkânı sunuyoruz." },
+            { baslik: "Soğuk hava deposunda dar koridor forklift seçimi", metin: "Yüksek raflı soğuk depolarda koridor genişliği standart forklift dönüş yarıçapına göre daraltılmıştır. Bu koşulda dar şasili forklift ya da reach truck tipi model tercih edilir; bunlar dar koridorda dönmeden ilerleyip yükü doğrudan rafa kaldırabilir. Koridor genişliği ve raf yüksekliği bilinmeden gönderilen standart forklift depoya giremeyebilir." },
+            { baslik: "OSB fabrikasında ağır malzeme ve platform destek taşıması", metin: "Metal işleme ve ambalaj fabrikalarında forklift, hem üretim malzemesini taşır hem de platformla yapılan bir bakım işinde gerekli ağır parçayı çalışma noktasına kadar getirir. Bu iki iş genelde aynı vardiyada koordine edilir; forklift ve platform aynı sahada çalışırken güvenlik mesafesi ve manevra alanı önceden ayrılır." },
+            { baslik: "Operatörlü ve operatörsüz forklift kiralama farkı", metin: "Kendi ekibinizde sertifikalı forklift operatörü varsa makineyi operatörsüz kiralayabilirsiniz; yoksa operatörlü kiralama önerilir. Özellikle sezon yoğunluğunda geçici olarak devreye alınan personelin forklift deneyimi sınırlıysa, kısa süreli işlerde operatörlü model kazalara karşı daha güvenlidir." },
+            { baslik: "Zemin ve yük kapasitesi uyumunun kontrolü", metin: "Meyve kasası taşımada yük hafif ama hacimlidir; OSB'deki metal malzeme taşımada ise yük ağır ve noktasal olabilir. Bu iki durum farklı forklift kapasitesi gerektirir. Zeminin epoksi mi beton mu olduğu, rampa eğimi ve yük ağırlığı önceden bildirildiğinde doğru kapasiteli makine ilk seferde gönderilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşe göre forklift sınıfı eşleşmesi",
+                paragraflar: [
+                    "Amasya'daki tesislerde en sık karşılaştığımız iş tipleri ve bunlara uygun forklift sınıfı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Öne çıkan kısıt", "Uygun sınıf"],
+                    satirlar: [
+                        ["Meyve kasası istifleme (açık saha)", "Hafif-hacimli yük, sık hareket", "Standart dizel/LPG forklift"],
+                        ["Soğuk depo raf yükleme", "Dar koridor, düşük sıcaklık", "Dar şasili elektrikli / reach truck"],
+                        ["OSB metal malzeme taşıma", "Ağır, noktasal yük", "Orta-yüksek kapasiteli dizel"],
+                        ["Ambalaj deposu palet çekme", "Yüksek raf, hafif yük", "Elektrikli reach truck"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon başında ek forklift planlaması",
+                paragraflar: [
+                    "Meyve alım sezonu, tesisin yıl içindeki en yoğun palet trafiğini yaratır ve bu yoğunluk genellikle mevcut forklift filosunun kapasitesini aşar. Sezon takvimini önceden paylaşan tesislerle, alım başlangıcından itibaren geçerli olacak ek forklift kiralamasını erken planlıyoruz; bu, sezon ortasında aniden makine arayışına girmekten çok daha verimlidir.",
+                    "Sezon sonunda ek makinenin ne zaman geri alınacağı da baştan netleştirilir; böylece hem tesis hem biz, kiralama süresini net bir takvime bağlarız ve belirsiz uzatma pazarlığı yaşanmaz.",
+                ],
+            },
+            {
+                baslik: "Forklift ve platformun aynı sahada birlikte çalışması",
+                paragraflar: [
+                    "Bir bakım işinde forklift, platformun ulaştığı noktaya gerekli parçayı veya malzemeyi taşırken, platform da yükseklikteki işi yapar. Bu iki makinenin aynı anda aynı sahada bulunması, manevra alanının ve güvenlik mesafesinin önceden planlanmasını gerektirir; aksi hâlde çakışma riski oluşur. Vardiya planında iki makinenin hangi sırayla ve hangi noktada çalışacağı belirtilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Hasat sezonu için ne zaman forklift talebi vermeliyiz?", cevap: "Mümkünse sezon başlamadan birkaç hafta önce. Alım döneminde palet ve kasa trafiği aniden yükselir ve bu dönemde forklift talebi platform talebinden bile önce yoğunlaşır; erken bildirilen sezon takvimiyle ek makineyi baştan ayırabiliriz. Sezon ortasında ani talep geldiğinde uygun makine bulunabilir ama planlı ayırma kadar garanti değildir." },
+            { soru: "Soğuk hava deposuna hangi forklift girer?", cevap: "Koridor genişliği ve raf yüksekliğine bağlıdır. Standart forklift dar koridorda dönemeyebilir; bu durumda dar şasili elektrikli forklift veya reach truck tipi model tercih edilir. Ayrıca düşük sıcaklıkta elektrikli makinenin akü performansı düşer, bu yüzden uzun işlerde şarj planı yapılır. Koridor ölçüsünü ve raf üst kotunu paylaşırsanız uygun sınıfı netleştiririz." },
+            { soru: "Operatörsüz forklift kiralayabilir miyiz?", cevap: "Evet, kendi ekibinizde sertifikalı ve deneyimli forklift operatörü varsa mümkündür. Teslimde makinenin kumanda düzeni ve güvenlik donanımı için kısa bir saha bilgilendirmesi yapılır. Sezon yoğunluğunda geçici personel kullanılacaksa, deneyim sınırlıysa operatörlü kiralamayı öneririz; kasa trafiğinin yoğun olduğu saatlerde deneyimsiz kullanım kaza riskini artırır." },
+            { soru: "Forklift ile platform aynı anda aynı alanda çalışabilir mi?", cevap: "Çalışabilir, ancak manevra alanı ve güvenlik mesafesi önceden planlanmalıdır. İki makinenin aynı koridor veya salonda çakışmaması için vardiya planında kimin hangi noktada, hangi sırayla çalışacağı belirtilir. Özellikle dar alanlarda bu koordinasyon atlanırsa çarpışma riski oluşur; bu yüzden birlikte çalışma taleplerinde önceden bilgi almayı isteriz." },
+            { soru: "OSB'deki metal işleme fabrikasına hangi kapasitede forklift önerirsiniz?", cevap: "Taşınacak malzemenin ağırlığı ve boyutuna bağlıdır; metal profil ve sac gibi yükler genelde ağır ve noktasal olduğu için orta-yüksek kapasiteli dizel forklift tercih edilir. Zemin cinsi (beton, epoksi) ve rampa varsa eğim açısı da kapasite seçimini etkiler. Taşınacak malzemenin ağırlığını ve zemin bilgisini paylaşırsanız uygun kapasiteyi netleştiririz." },
+            { soru: "Kiralama süresi ne kadar esnek, sezon ortasında uzatabilir miyiz?", cevap: "Evet, mümkündür; ancak makinenin başka bir işe ayrılmış olabileceği ihtimaline karşı uzatma talebini mümkün olduğunca erken bildirmenizi öneririz. Sezon başında ek forklift planlarken bitiş tarihini net olarak konuşmak, hem sizin hem bizim programı önceden görmemizi sağlar; uzatma ihtiyacı doğduğunda bu netlik sayesinde hızlı karar verilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'nın meyve işleme ve OSB metal sanayi kimliği ile hasat sezonu palet trafiği kamuya açık genel bilgidir; forklift sınıf seçimi ve soğuk depo dar koridor uygulaması sektör geneli teknik bilgidir, sezon planlama yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Amasya'da Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platform, Amasya'da makaslı ya da örümcek platformun ulaşamadığı, hem yükseklik hem yatay uzaklık gerektiren dış mekân işlerinde devreye girer. Meyve işleme tesisinin dış cephesindeki bir kanopi, soğuk hava deposunun çatı kenarındaki oluk sistemi, ya da OSB'deki metal işleme fabrikasının yüksek çelik konstrüksiyon cephesi — bu tür hedeflere düz altından değil, engelin üzerinden dolanarak ulaşmak gerekir. Eklemli kolun iki veya üç mafsallı yapısı, makinenin bir engeli aşıp arkasındaki noktaya erişmesini sağlar; bu, tek yönde yükselen makaslı platformun yapamadığı bir hareket. Amasya OSB'deki çelik konstrüksiyonlu sanayi holleri ve tarımsal silo yapıları, dış cephe ve çatı işlerinde eklemli platformun en sık kullanıldığı hedeflerdir. Dizel modeller açık sahada uzun çalışma süresi sunarken, elektrikli eklemli platformlar daha sessiz çalışması gereken yerleşim yakını sahalarda tercih edilir. Bu sayfa eklemli platformun Amasya'daki tipik kullanım alanlarını ve model seçim mantığını anlatır.",
+        maddeler: [
+            { baslik: "Engelin üzerinden dolanarak hedefe ulaşma", metin: "Bir çatı saçağının altındaki, ya da bir boru hattının arkasındaki noktaya düz altından erişilemiyorsa, eklemli kol önce yukarı kalkar, sonra öne doğru uzanır ve gerekirse aşağı bükülerek hedefe iner. Bu üç eksenli hareket, makaslı platformun sabit dikey ekseninden farklıdır ve engelli geometrili dış cephe işlerinde belirleyicidir." },
+            { baslik: "Sanayi holü ve çelik konstrüksiyon cephe erişimi", metin: "OSB'deki yüksek tavanlı sanayi hollerinde çelik konstrüksiyonun dış cephesi, kolon aralıkları ve çapraz bağlantılar, eklemli platformun kol menzili ile sistemli biçimde taranır. Kolon aralığı ve tavan yüksekliği önceden bilindiğinde, makinenin duracağı nokta ve kol açısı planlanarak tek kurulumda birden fazla nokta kapatılabilir." },
+            { baslik: "Zemin dengesi ve destek ayağı gereksinimi", metin: "Eklemli platformlar, kol tam açıldığında ağırlık merkezinin kaydığı anlarda dengelerini destek ayaklarıyla korur. Zeminin düz ve sağlam olması, ayakların tam temas etmesi için şarttır; eğimli veya boşluklu zeminde makine güvenli açılamaz. Kurulum öncesi zemin kontrolü ve gerekirse takoz desteği standart uygulamamızdır." },
+            { baslik: "Dizel ve elektrikli model arasındaki seçim ölçütü", metin: "Açık OSB sahasında, çalışma süresi uzun ve mesafe fazla olduğunda dizel eklemli platform tercih edilir; sessiz çalışma gereken yerleşim yakını veya kısmen kapalı hacimlerde ise elektrikli model daha uygundur. Hangi modelin geleceği, sahanın açık-kapalı niteliği ve çalışma süresine göre belirlenir." },
+            { baslik: "Rüzgâr ve hava koşulunun çalışmaya etkisi", metin: "Yüksekte açık kolla çalışırken rüzgâr hızı, makinenin güvenli kullanım sınırını belirleyen kritik bir faktördür. Belirli bir rüzgâr hızının üzerinde kol açık tutulmaz, iş ertelenir. Amasya'nın vadi coğrafyasında rüzgâr koşulları noktadan noktaya değişebildiği için, iş günü sabahında sahada anlık ölçüm yapılarak karar verilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli platform sınıflarının Amasya'daki kullanım karşılığı",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı eklemli platform sınıflarının Amasya'daki tipik hedef ve yakıt tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Tipik hedef", "Yakıt tercihi", "Zemin ihtiyacı"],
+                    satirlar: [
+                        ["Küçük elektrikli eklemli", "Kapalı/yarı açık cephe, orta yükseklik", "Elektrikli", "Düz, sert zemin"],
+                        ["Orta dizel eklemli", "OSB sanayi holü cephesi", "Dizel", "Düz zemin, hafif eğim toleranslı"],
+                        ["Büyük dizel eklemli", "Silo/çatı üst kotu, uzun yatay erişim", "Dizel", "Geniş, sağlam açık alan"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tarımsal silo ve depolama yapılarında eklemli platform kullanımı",
+                paragraflar: [
+                    "Amasya'nın kırsal kesimindeki tarımsal silo ve büyük depolama yapılarının dış yüzeyi, merdivenle güvenli erişilemeyecek kadar yüksek ve eğimli olabilir. Silonun üst kapağı, havalandırma bacası veya dış yüzeydeki bir arıza noktası için eklemli platform, kolun uzun menzili sayesinde silonun tabanına yakın durup üst noktalara ulaşabilir.",
+                    "Bu tür sahalarda zemin genellikle toprak veya stabilizedir; makinenin ağırlığına göre zemin taşıma kapasitesi önceden kontrol edilir, gerekirse plaka desteğiyle zemin güçlendirilir."
+                ],
+            },
+            {
+                baslik: "Kurulum öncesi paylaşılması gereken saha bilgisi",
+                paragraflar: [
+                    "Doğru sınıfın ilk seferde gitmesi için hedefin yerden yüksekliği, makinenin duracağı noktadan hedefe olan yatay mesafe, aradaki engel varsa türü, zeminin cinsi ve eğimi, sahanın açık mı kapalı mı olduğu paylaşılmalıdır. Bu bilgiler eksik geldiğinde makine sahada menzil yetersizliğiyle karşılaşabilir; bu yüzden mümkünse fotoğraf ve yaklaşık ölçü ile birlikte talep iletilmesini öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Eklemli platform ile makaslı platform arasında ne zaman eklemli tercih edilmeli?", cevap: "Hedefe düz altından değil, bir engelin üzerinden dolanarak ya da yandan yaklaşmak gerekiyorsa eklemli platform tercih edilir. Makaslı platform yalnızca dikey yükselir; eklemli platformun çok eksenli kolu hem yukarı hem öne hem gerekirse aşağı hareket edebildiği için çatı saçağı altı, boru arkası gibi engelli hedeflerde daha uygundur. Hedef doğrudan üstteyse ve engel yoksa makaslı platform daha ekonomik ve hızlı kurulur." },
+            { soru: "OSB'deki sanayi holünün çelik konstrüksiyon cephesine erişebilir misiniz?", cevap: "Evet, kolon aralığı ve tavan yüksekliği bilgisiyle uygun sınıf belirlenir. Yüksek tavanlı hollerde büyük dizel eklemli platform tercih edilir; kolun menzili, makinenin duracağı nokta önceden planlanarak birden fazla kolon aralığını tek kurulumda kapsayacak şekilde kullanılır. Zeminin düz ve sağlam olması, destek ayaklarının tam temas etmesi için gereklidir." },
+            { soru: "Rüzgârlı havada çalışmaya devam edebiliyor musunuz?", cevap: "Belirli bir rüzgâr hızının üzerinde kol açık tutulmaz ve iş güvenlik gerekçesiyle ertelenir. Amasya'nın vadi coğrafyasında rüzgâr koşulu noktadan noktaya değişebildiği için, iş günü sabahında sahada anlık ölçüm yapılır ve karar buna göre verilir. Rüzgârlı dönemde planlanan işlerde esnek bir tarih aralığı bırakmanızı öneririz." },
+            { soru: "Silo veya tarımsal depolama yapısının dış yüzeyine ulaşabilir miyiz?", cevap: "Ulaşılabilir; kolun uzun menzili sayesinde makine silonun tabanına yakın bir noktada durup üst kapak veya havalandırma bacası gibi yüksek noktalara erişebilir. Kırsal sahalarda zemin genellikle toprak veya stabilize olduğu için, makinenin ağırlığına göre zemin kontrolü önceden yapılır; gerekirse plaka desteğiyle zemin güçlendirilir." },
+            { soru: "Dizel mi elektrikli mi tercih etmeliyiz?", cevap: "Açık OSB sahasında uzun süreli ve uzak mesafeli işlerde dizel model daha uygun; sessiz çalışma gereken yerleşim yakını veya kısmen kapalı hacimlerde elektrikli model tercih edilir. Kesin karar sahanın açık-kapalı niteliğine ve iş süresine göre verilir; işin niteliğini paylaştığınızda size uygun modeli öneririz." },
+            { soru: "Zemin eğimli olursa eklemli platform kurulabilir mi?", cevap: "Hafif eğimler bazı modellerde destek ayaklarıyla telafi edilebilir, ancak belirli bir eğim sınırının üzerinde makine güvenli açılamaz. Kurulum öncesi zeminin eğim açısı ve sağlamlığı kontrol edilir; sınır aşılıyorsa zemin düzeltmesi ya da farklı bir sınıf değerlendirilir. Zeminin fotoğrafını ve varsa eğim bilgisini paylaşmanız, doğru kararı önceden vermemizi sağlar." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya OSB'deki çelik konstrüksiyonlu sanayi holleri ve kırsal tarımsal silo yapılarının varlığı kamuya açık genel bilgidir; eklemli platformun kol geometrisi ve rüzgâr/zemin kısıtları sektör geneli teknik bilgidir, model seçim yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Amasya'da İç Mekân ve Depo İçi Platform Kiralama",
+        giris:
+            "Amasya'daki iç mekân platform ihtiyacının büyük kısmı, meyve işleme tesislerinin soğuk hava depoları, tasnif-paketleme salonları ve OSB'deki ambalaj-metal işleme fabrikalarının depo alanlarından gelir. Bu hacimlerin ortak özelliği, dar koridor, düşük tavan boşluğu veya hassas zemin gibi bir kısıtın makine seçimini baştan sınırlamasıdır. Egzoz gazı üretmeyen akülü makaslı platform, gıda hacimlerinde standart tercih olsa da, bazı depoların raf koridoru bu sınıfın dönüş yarıçapına yetmez; bu durumda dar şasili model ya da dikey mast platform devreye girer. OSB'deki metal işleme fabrikalarının iç mekânlarında ise gıda hijyeni kısıtı olmasa da, üretim hattı çalışırken oluşan toz ve kıvılcım riskine karşı makinenin yakınında bulunması gereken önlemler farklıdır. İç mekân işlerinin çoğu, tesis üretimi sürerken planlanan kısa duruş pencerelerine sıkışır; bu yüzden kurulum hızı ve manevra kabiliyeti, açık saha işlerine göre çok daha belirleyicidir. Bu sayfa Amasya genelinde iç mekân ve depo içi platform seçiminin nasıl yapıldığını anlatır.",
+        maddeler: [
+            { baslik: "Raf koridoru genişliğine göre şasi seçimi", metin: "Yüksek raflı depolarda koridor genişliği, standart makaslı platformun dönüş yarıçapına göre daraltılmış olabilir. Bu durumda dar şasili makaslı model ya da tek kişilik dikey mast platform tercih edilir; ikincisi çok daha küçük alanda çalışır ama erişim yüksekliği ve taşıma kapasitesi sınırlıdır. Koridor genişliği ve raf üst kotu önceden bilinmeden gönderilen makine sahada geri dönebilir." },
+            { baslik: "Kısa duruş penceresinde hızlı kurulum ihtiyacı", metin: "Üretim hattının üstünde çalışmak gerektiğinde duruş süresi genelde kısa ve vardiya sonuna sıkışmış olur. Akülü makaslı platform, iskele kurmaya göre çok daha hızlı devreye girer ve iş bitince hattı hızla boşaltır; bu yüzden kısa pencereli işlerde neredeyse tek uygulanabilir seçenektir." },
+            { baslik: "Zemin hassasiyeti ve iz bırakmama gerekliliği", metin: "Epoksi kaplı ya da hassas kaplamalı zeminlerde tekerlek izi bırakmayan lastik seçimi önemlidir. Meyve işleme salonlarında ve OSB ambalaj depolarında bu tür zeminler yaygındır; makine kiralanırken lastik tipi ve zemine etkisi konusu önceden netleştirilir." },
+            { baslik: "Toz ve kıvılcım riski taşıyan üretim alanlarında elektrikli tercih", metin: "OSB'deki bazı metal işleme atölyelerinde kesme-taşlama işlemleri sırasında toz ve kıvılcım oluşur. Bu alanlarda kullanılacak platform, kıvılcımla tutuşabilecek yakıt sistemine sahip olmamalıdır; akülü elektrikli model bu risk açısından daha güvenlidir. Sahanın toz/kıvılcım profili önceden bildirildiğinde uygun model belirlenir." },
+            { baslik: "Tavan boşluğu ve sprinkler hattı gibi üst engellerin planlanması", metin: "Bazı depo hacimlerinde tavana yakın sprinkler hattı, kablo tavası veya havalandırma kanalı bulunur; makinenin sepet üst noktası bu engellerle çakışmamalıdır. Tavan boşluğu ölçüsü önceden alınmadan gönderilen makine, hedefe yaklaşırken üst engelle karşılaşabilir; bu yüzden tavan yüksekliği ve engel konumu keşif aşamasında netleştirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân hacim tipine göre platform eşleşmesi",
+                paragraflar: [
+                    "Amasya'daki iç mekân işlerinde en sık karşılaşılan hacim tipleri ve buna uygun sınıf aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Belirleyici kısıt", "Uygun sınıf"],
+                    satirlar: [
+                        ["Soğuk hava deposu raf koridoru", "Dar koridor, düşük sıcaklık", "Dar şasili akülü makaslı"],
+                        ["Tasnif-paketleme salonu", "Hat üstü, kısa duruş", "Standart akülü makaslı"],
+                        ["OSB ambalaj deposu", "Yüksek raf, dar dönüş", "Dikey mast platform"],
+                        ["Metal işleme atölyesi", "Toz/kıvılcım riski", "Akülü elektrikli, kıvılcım güvenli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dikey mast platform ile makaslı platform arasındaki fark",
+                paragraflar: [
+                    "Dikey mast platform, tek kişilik sepeti ve çok dar taban ölçüsüyle makaslı platformun giremediği koridorlarda çalışabilir; buna karşılık taşıma kapasitesi düşüktür ve genelde tek operatör + hafif malzeme taşır. Makaslı platform daha geniş sepet ve daha yüksek taşıma kapasitesi sunar ama koridor genişliği yetersizse giremez.",
+                    "Amasya'daki depo işlerinde hangi sınıfın kullanılacağı, koridor ölçüsü ile taşınacak malzeme ağırlığının birlikte değerlendirilmesiyle belirlenir; ikisi arasında kesin bir üstünlük yoktur, sahanın kısıtına göre değişir.",
+                ],
+            },
+            {
+                baslik: "İç mekân işine özgü keşif ve teyit adımları",
+                paragraflar: [
+                    "İç mekân işine gönderilecek makinenin sahaya uygunluğu, telefonla alınan bilgiyle büyük ölçüde belirlenebilir; ancak ilk kez çalışılan tesislerde kısa bir ön ziyaret öneririz. Bu ziyarette kapı ölçüsü, koridor genişliği, tavan boşluğu ve zemin cinsi yerinde doğrulanır. Ön ziyaret ücretsizdir; amaç, makinenin sahaya ilk seferde uygun gitmesini garanti altına almaktır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Depomuzun koridoru dar, hangi platform girer?", cevap: "Koridor genişliği ve raf üst kotuna göre değişir. Dar şasili makaslı platform çoğu depoda çalışır; koridor daha da darsa dikey mast platform tercih edilir, bu sınıf çok daha küçük alanda dönebilir ama taşıma kapasitesi sınırlıdır. Koridor ölçüsünü ve taşınacak malzemenin ağırlığını paylaşırsanız uygun sınıfı doğrudan söyleriz." },
+            { soru: "İç mekânda dizel makine kullanılabilir mi?", cevap: "Kapalı hacimlerde, özellikle gıda üretim alanlarında dizel makine kullanılmaz; egzoz gazı riski nedeniyle akülü elektrikli platform standart tercihtir. OSB'deki bazı büyük ve iyi havalandırılan endüstriyel hacimlerde istisnai olarak değerlendirilebilir, ancak bu durum önceden tesisle birlikte netleştirilir." },
+            { soru: "Zeminde iz bırakmayacağını nasıl garanti ediyorsunuz?", cevap: "Hassas zeminlerde iz bırakmayan (non-marking) lastikli makine kullanılır; bu lastikler standart lastiklerden farklı bir bileşime sahiptir ve epoksi kaplama üzerinde kalıcı iz oluşturmaz. Zemin tipini önceden bildirdiğinizde, uygun lastikli makinenin gönderilmesini teyit ederiz." },
+            { soru: "Üretim hattımız açıkken makine sokabilir misiniz?", cevap: "Hattın tam üstünde çalışmak için genelde kısa bir duruş gerekir; hattın yanındaki işler ise alan bariyerlenerek üretim sürerken yapılabilir. Kısa duruş penceresi için akülü makaslı platform, hızlı kurulumu sayesinde en uygun seçenektir. Duruş saatini önceden bildirirseniz, makine ve ekip o pencereye hazır bekler." },
+            { soru: "Tavanımızda sprinkler hattı var, makine buna çarpar mı?", cevap: "Çarpmaması için tavan boşluğu ve engel konumunun önceden ölçülmesi gerekir. Sepet üst noktası hesaplanırken sprinkler hattı, kablo tavası gibi engeller referans alınır ve makinenin menzili buna göre sınırlandırılır. Bu ölçüler bilinmiyorsa ilk ziyarette birlikte tespit ederiz; tahminle çalışılmaz." },
+            { soru: "OSB'deki metal işleme atölyemizde toz ve kıvılcım var, hangi makine güvenli?", cevap: "Kıvılcımla tutuşma riski taşıyan alanlarda akülü elektrikli platform tercih edilir; yakıt sistemi olmadığı için bu risk açısından daha güvenlidir. Atölyenizin toz-kıvılcım yoğunluğunu ve çalışma alanının havalandırma durumunu paylaşırsanız, en uygun modeli ve varsa ek güvenlik önlemini birlikte netleştiririz." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'nın soğuk hava deposu ve OSB metal-ambalaj tesisi kimliği kamuya açık genel bilgidir; dar koridor, iz bırakmama ve kıvılcım güvenliği gibi teknik ölçütler sektör geneli ekipman bilgisidir, saha uygulama yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Amasya'da Çelik Konstrüksiyon Montaj Platformu Kiralama",
+        giris:
+            "Amasya OSB ve Merzifon OSB'deki metal işleme fabrikalarının sanayi holleri, çelik konstrüksiyon üzerine kurulur; bu yapıların montaj, tadilat ve çatı-cephe bakım işleri, yerden birkaç metre ile on metrenin üzerine kadar değişen bir yükseklik bandında yürür. Yeni bir hol inşasında çelik kolon ve kiriş montajı, cıvata sıkma ve kaynak kontrol noktaları yerden yüksekte olduğu için platform gerektirir; mevcut bir holün çatı kaplama tamiri veya cephe panel değişimi de aynı erişim ihtiyacını taşır. Meyve işleme tesislerinin depolama ve üretim binaları da benzer çelik konstrüksiyon karakterine sahiptir; bu yapıların çatı aşığı, oluk sistemi ve cephe kaplaması, sanayi holleriyle aynı mantıkla platform gerektirir. Montaj işlerinde platform genellikle demirci ve kaynakçı ekibiyle birlikte, günlerce süren bir programda çalışır; bu, kısa süreli bakım işinden farklı bir planlama ister. Bu sayfa Amasya'daki çelik konstrüksiyon montaj ve bakım işlerinde platformun nasıl konumlandığını anlatır.",
+        maddeler: [
+            { baslik: "Kolon-kiriş montajında platformun kaynakçı ekibiyle koordinasyonu", metin: "Yeni bir sanayi holünün çelik iskeleti kurulurken, kaynak ve cıvata sıkma işlemleri kolon-kiriş birleşim noktalarında yerden yüksekte yapılır. Platform bu noktalara kaynakçıyı taşır ve iş bitene kadar sabit durur; kaynak sırasında oluşan kıvılcım ve ısı, makinenin lastik ve hidrolik hatlarının bu noktalardan uzak tutulmasını gerektirir. İş programı, montaj ekibinin günlük ilerleme hızına göre birlikte planlanır." },
+            { baslik: "Çatı kaplama ve aşık seviyesinde bakım işleri", metin: "Sanayi holünün çatı kaplaması zamanla delinme, korozyon veya sızdırmazlık kaybı yaşayabilir; bu tür tamirler çatı aşığı seviyesinde çalışmayı gerektirir. Eklemli platform, çatı altına kol uzatarak hem alttan kontrol hem müdahale imkânı sunar; büyük hollerde tek kurulumda birden fazla aşık aralığı taranır." },
+            { baslik: "Cephe paneli montaj ve değişim işleri", metin: "Sanayi holünün dış cephe panelleri, hava koşullarından etkilenerek zamanla değişim gerektirebilir. Panel sökme-takma işi, panelin ağırlığına göre platform sepetinde iki kişilik çalışma alanı ve yeterli taşıma kapasitesi ister; bu iş genelde forkliftle malzeme taşıma ile eş zamanlı yürür." },
+            { baslik: "Yüksek tavanlı hollerde makine sınıfı ve kol menzili planı", metin: "On metrenin üzerindeki hollerde büyük dizel eklemli platform gerekir; kol menzili, kolon aralığı ve tavan yüksekliğine göre önceden hesaplanır. Makinenin duracağı nokta ile hedef arasındaki mesafe planlanmadan gönderilen makine, menzil yetersizliğiyle karşılaşabilir." },
+            { baslik: "Montaj süresince güvenlik alanı ve malzeme akışının planlanması", metin: "Çelik montaj işleri günlerce sürdüğü için, platformun çalıştığı alan diğer inşaat trafiğinden ayrılmalıdır; düşen malzeme riski ve vinç-forklift hareketiyle çakışma ihtimali önceden değerlendirilir. Günlük iş başlangıcında alan kontrolü yapılır, malzeme akışı platformun çalışma saatiyle çakışmayacak şekilde programlanır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon işlerinde yükseklik bandına göre sınıf",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı yükseklik bantlarındaki çelik konstrüksiyon işleri için tercih edilen platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yükseklik bandı", "Tipik iş", "Uygun sınıf"],
+                    satirlar: [
+                        ["0-6 m", "Cephe paneli, alt aşık kontrolü", "Makaslı platform"],
+                        ["6-12 m", "Kolon-kiriş montajı, çatı aşığı", "Orta dizel eklemli"],
+                        ["12 m ve üzeri", "Büyük hol çatı üst kotu", "Büyük dizel eklemli"],
+                        ["Engelli/dar geçişli hedef", "Kolon arası dar boşluk", "Örümcek platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yeni inşa ile mevcut yapı bakımının planlama farkı",
+                paragraflar: [
+                    "Yeni bir hol inşasında platform, montaj ekibinin ilerleme takvimine bağlı olarak günlerce sahada kalır; bu süre boyunca makine tesise tahsis edilir ve program montaj hızına göre güncellenir. Mevcut bir yapının bakım işinde ise genelde daha kısa, tanımlı bir kapsam vardır — belirli sayıda aşık veya panel noktası kontrol edilir ve iş biter.",
+                    "Bu iki senaryo farklı fiyatlandırma ve planlama mantığı gerektirir; yeni inşa işlerinde günlük/haftalık kiralama, bakım işlerinde ise iş kapsamına göre kısa süreli kiralama daha uygun olur.",
+                ],
+            },
+            {
+                baslik: "Montaj öncesi paylaşılması gereken teknik bilgiler",
+                paragraflar: [
+                    "Doğru sınıfın planlanması için hol yüksekliği, kolon aralığı, çatı eğim açısı, zemin cinsi (dökülmüş beton mü, henüz kaplanmamış mı) ve montaj programının süresi paylaşılmalıdır. Yeni inşa sahalarında zemin bazen henüz nihai hâlini almamış olabilir; bu durumda makinenin geçici zeminde güvenli çalışıp çalışamayacağı ayrıca değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Yeni bir sanayi holü inşasında platform ne kadar süreyle sahada kalır?", cevap: "Bu, montaj ekibinin ilerleme hızına bağlıdır; kolon-kiriş montajı ve çatı kaplama işleri günlerce, bazen haftalarca sürebilir. Bu tür işlerde makine genelde günlük veya haftalık kiralama ile tesise tahsis edilir ve program montaj hızına göre güncellenir. Kesin süre için montaj programınızı paylaşmanız, doğru kiralama modelini önermemizi sağlar." },
+            { soru: "Çatı kaplama tamiri için hangi sınıf platform gerekir?", cevap: "Hol yüksekliği ve çatı eğimine bağlıdır; genelde eklemli platform tercih edilir çünkü kol çatı altına uzanarak hem alttan kontrol hem müdahale imkânı sunar. On iki metrenin üzerindeki büyük hollerde büyük dizel eklemli model gerekirken, daha alçak yapılarda orta sınıf yeterli olabilir. Hol yüksekliğini ve çatı eğim açısını paylaşırsanız uygun sınıfı netleştiririz." },
+            { soru: "Zemin henüz dökülmemiş inşaat sahasında platform çalışabilir mi?", cevap: "Zeminin geçici durumuna bağlıdır; sıkıştırılmış stabilize zemin üzerinde çalışılabilir ama zemin yumuşak veya düzensizse önce zemin iyileştirmesi ya da plaka desteği gerekir. İnşaat aşamasındaki sahalarda zemin durumu her zaman iş öncesi yerinde kontrol edilir; telefonla verilen bilgiyle kesin karar verilmez." },
+            { soru: "Kaynak işlemi sırasında platform kullanmak güvenli mi?", cevap: "Evet, ancak kıvılcım ve ısıya karşı önlem alınır; makinenin lastik ve hidrolik hatları kaynak noktasından uzak tutulur, gerekirse yanmaz örtü kullanılır. Kaynakçı ekibiyle koordinasyon, hangi noktada ne kadar süre kalınacağını netleştirir; bu koordinasyon olmadan kaynak işlemine platformla yaklaşılmaz." },
+            { soru: "Cephe paneli değişiminde forklift de gerekiyor mu?", cevap: "Panelin ağırlığına bağlı olarak genelde evet; platform sepette çalışan ekibi taşırken, forklift yeni paneli çalışma noktasına kadar getirir ya da sökülen eski paneli uzaklaştırır. İki makinenin aynı sahada koordineli çalışması için önceden bir sıralama ve güvenlik mesafesi planlanır." },
+            { soru: "Montaj işi için haftalık mı yoksa günlük kiralama mı daha uygun?", cevap: "Bu, montaj programınızın süresine bağlıdır. Kısa, tanımlı kapsamlı bakım işlerinde günlük kiralama; günlerce süren yeni inşa montajında ise haftalık kiralama genelde daha ekonomiktir. Montaj programınızı paylaştığınızda, toplam maliyeti daha düşük çıkaracak modeli sizinle birlikte hesaplarız." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya OSB ve Merzifon OSB'deki çelik konstrüksiyonlu sanayi holü varlığı kamuya açık genel bilgidir; montaj-bakım süreç anlatımı ve platform-forklift-kaynakçı koordinasyonu sektör geneli uygulama bilgisidir, özel proje veya firma iddiası içermez.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Amasya'da Tarım ve Silo Sahası Platform Kiralama",
+        giris:
+            "Amasya'nın kırsal kesimi, meyve bahçeleri, tarım arazileri ve bu üretimi destekleyen silo-depolama yapılarıyla çevrilidir; bu yapıların bakım ve erişim ihtiyacı, sanayi tesisinden farklı bir zemin ve mevsim gerçeğiyle karşılaşır. Tahıl veya meyve deposu olarak kullanılan silo yapılarının dış yüzeyi, üst kapağı ve havalandırma bacaları yerden on metreye kadar yükselebilir ve bu noktalara merdivenle güvenli erişim mümkün değildir. Kırsal sahaların zemini genellikle toprak, çim veya stabilizedir; bu, sert beton zemine göre tasarlanmış standart platformların bazılarının burada güvenle çalışamayacağı anlamına gelir — geniş lastikli ve düşük zemin baskılı modeller tercih edilir. Hasat sezonu, hem tarımsal üretimin hem de silo doluluk oranının en yüksek olduğu dönemdir; bu dönemde silo bakımı için erişim penceresi daralır ve iş genelde sezon öncesi veya sonrasına planlanır. Bu sayfa Amasya kırsalındaki tarımsal ve silo sahalarında platform kullanımının hangi kısıtlarla şekillendiğini anlatır.",
+        maddeler: [
+            { baslik: "Toprak ve stabilize zeminde makine seçimi", metin: "Kırsal sahalarda zemin genellikle sıkıştırılmamış toprak veya stabilizedir ve yağış sonrası yumuşayabilir. Bu zeminde geniş lastikli, düşük zemin baskılı dizel eklemli platform tercih edilir; standart dar tekerlekli makaslı platform bu zeminde saplanabilir. Zemin durumu, iş gününden önce mutlaka telefonla teyit edilir." },
+            { baslik: "Silo üst kapağı ve havalandırma bacası erişimi", metin: "Tahıl veya meyve silosunun üst kapağı ve havalandırma bacası, silonun en yüksek noktasındadır ve dış yüzeyden merdivenle erişim güvenli değildir. Eklemli platformun uzun kol menzili, makinenin silo tabanına yakın bir noktada durup üst kapağa ulaşmasını sağlar; bu, silonun etrafında iskele kurmaktan çok daha hızlı bir çözümdür." },
+            { baslik: "Hasat sezonu öncesi ve sonrası bakım penceresi", metin: "Hasat sezonunda silo dolu ve tarım trafiği yoğun olduğu için bakım işi için uygun pencere daralır. Sezon öncesi, silo henüz boşken yapılan kontrol ve bakım, sezon içindeki arıza riskini büyük ölçüde azaltır; sezon sonrası ise hasarların tespit edildiği ve onarımların planlandığı dönemdir." },
+            { baslik: "Meyve bahçesi ve tarla kenarındaki yapıların bakımı", metin: "Bahçe kenarındaki sulama kulesi, ilaçlama deposu veya paketleme barakası gibi yapılar da yükseklik erişimi gerektirebilir. Bu tür sahalarda genellikle küçük ölçekli ve dar geçişli erişim söz konusudur; sahanın yol durumu ve makinenin geçebileceği güzergâh önceden değerlendirilir." },
+            { baslik: "Kırsal sahada nakliye ve zemin taşıma süresi", metin: "Kırsal bir sahaya makine ulaştırmak, OSB'ye teslimattan farklı bir süre alabilir; yol durumu, mesafe ve zemin geçişi hesaba katılır. Yağışlı dönemde bazı toprak yollar ağır araç taşımaya uygun olmayabilir; bu durumda alternatif güzergâh veya bekleme süresi önceden değerlendirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım ve silo sahalarında yapı tipine göre platform eşleşmesi",
+                paragraflar: [
+                    "Kırsal kesimdeki başlıca yapı tipleri ve bunlara uygun platform sınıfı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Belirleyici kısıt", "Uygun sınıf"],
+                    satirlar: [
+                        ["Tahıl/meyve silosu (dış yüzey)", "Yükseklik, toprak zemin", "Geniş lastikli dizel eklemli"],
+                        ["Bahçe kenarı sulama kulesi", "Dar erişim, düşük yükseklik", "Küçük eklemli/makaslı"],
+                        ["Paketleme barakası çatısı", "Hafif yapı, sınırlı zemin", "Hafif dizel eklemli"],
+                        ["Silo grubu arası dar geçit", "Engelli, dar alan", "Örümcek platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon öncesi toplu bakım listesi mantığı",
+                paragraflar: [
+                    "Silo ve tarımsal yapı bakımını tek tek değil, sezon öncesi tek bir listede toplamak hem nakliye maliyetini hem toplam süreyi düşürür. Bir çiftlik veya kooperatif sahasındaki birden fazla silo, aynı ziyarette sırayla kontrol edilebilir; bu, her biri için ayrı sevkiyat yapmaktan çok daha verimlidir.",
+                    "Liste hazırlanırken her yapının erişim yüksekliği, zemin durumu ve öncelik sırası not edilir; iş günü bu sıraya göre ilerlenir ve gün sonunda tamamlanan-ertelenen kalemler ayrı gösterilir.",
+                ],
+            },
+            {
+                baslik: "Kırsal sahaya sevkiyat öncesi paylaşılması gereken bilgiler",
+                paragraflar: [
+                    "Doğru makinenin ilk seferde ulaşması için sahanın yol durumu, zemin cinsi, silonun veya yapının yüksekliği, işin yapılacağı mevsim ve varsa sulama-tarım faaliyetiyle çakışma riski paylaşılmalıdır. Yağışlı dönemde planlanan işlerde yol durumu iş gününe yakın tekrar teyit edilir; kesin olmayan bir yol bilgisiyle makine yola çıkarılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Toprak zeminde platform çalışabilir mi, saplanma riski var mı?", cevap: "Zemin kuru ve sıkıysa geniş lastikli dizel eklemli platform genelde sorunsuz çalışır; ancak yağış sonrası yumuşamış toprakta saplanma riski artar. Bu yüzden iş gününe yakın zemin durumu telefonla teyit edilir, gerekirse iş ertelenir veya plaka desteğiyle zemin güçlendirilir. Standart dar tekerlekli makaslı platform kırsal toprak zeminde tercih edilmez." },
+            { soru: "Silonun üst kapağına nasıl erişiyorsunuz, iskele mi kuruyorsunuz?", cevap: "İskele yerine eklemli platform kullanıyoruz; kolun uzun menzili sayesinde makine silonun tabanına yakın bir noktada durup üst kapağa veya havalandırma bacasına ulaşabilir. Bu yöntem iskele kurmaktan çok daha hızlıdır ve silonun etrafında sabit yapı bırakmaz. Silonun yüksekliği ve çevresindeki zemin durumu önceden bilinmesi gereken iki temel bilgidir." },
+            { soru: "Hasat sezonunda silo bakımı yaptırabilir miyiz?", cevap: "Mümkün olabilir ama önerilmez; sezonda silo genelde dolu ve tarım trafiği yoğun olduğu için erişim penceresi daralır. Sezon öncesi, silo boşken yapılan bakım hem daha güvenli hem daha hızlıdır. Acil bir arıza durumunda sezon içinde de müdahale ederiz, ancak planlı bakımı sezon dışına almanızı öneririz." },
+            { soru: "Birden fazla silomuz var, hepsini tek seferde kontrol ettirebilir miyiz?", cevap: "Evet, bu en verimli yöntemdir. Sahadaki tüm silo ve yapıların listesi çıkarılır, her biri için erişim yüksekliği ve öncelik notu alınır; makine tek ziyarette sırayla tüm listeyi tamamlar. Bu, her yapı için ayrı sevkiyat yapmaya göre hem nakliye maliyetini hem toplam süreyi belirgin düşürür." },
+            { soru: "Kırsal sahaya makine ulaştırmak ne kadar sürer?", cevap: "Mesafe ve yol durumuna bağlı olarak OSB'ye teslimattan daha uzun sürebilir. Toprak veya stabilize yollar, özellikle yağışlı dönemde ağır araç taşımaya uygun olmayabilir; bu durumda alternatif güzergâh ya da bekleme süresi devreye girer. Sahanızın yol durumunu önceden paylaşırsanız gerçekçi bir teslimat süresi bildiririz." },
+            { soru: "Bahçe kenarındaki küçük bir yapı için de platform kiralanır mı?", cevap: "Evet, sulama kulesi veya paketleme barakası gibi küçük ölçekli yapılar için de küçük eklemli veya makaslı platform kiralanabilir. Bu tür işlerde genelde dar erişim ve düşük yükseklik söz konusudur; sahanın yol durumu ve makinenin geçebileceği güzergâh önceden değerlendirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya kırsalının meyve bahçeciliği ve tarımsal depolama/silo yapıları kamuya açık genel bilgidir; zemin-yakıt seçimi ve sezon planlaması sektör geneli teknik bilgi ile firma pratiğine dayanır, özel işletme veya kapasite iddiası içermez.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Amasya'da Enerji ve Aydınlatma Bakım Platformu Kiralama",
+        giris:
+            "Amasya OSB ve Merzifon OSB'deki metal işleme ve ambalaj fabrikalarının yüksek tavanlı sanayi hollerinde aydınlatma armatürleri, genellikle çatı aşığına asılı ya da yüksek duvar konsoluna monteli olarak çalışır; bu armatürlerin lamba değişimi, kablo kontrolü ve periyodik temizliği merdivenle güvenle yapılamaz. Meyve işleme tesislerinin soğuk hava depolarındaki aydınlatma ise düşük sıcaklıkta çalışan özel armatürlerdir ve bakım sıklığı, standart bir depo aydınlatmasından farklıdır. OSB içi ve tesis çevresindeki tabela, direk ve dış aydınlatma hatları da benzer bir erişim ihtiyacı taşır; bu noktalar genelde açık sahada, farklı yükseklik ve konumlarda dağılmıştır. Elektrik hattı ve trafo çevresi gibi enerji altyapısına yakın çalışmalarda, platformun iletken olmayan bileşenleri ve güvenli yaklaşma mesafesi ayrıca önem kazanır. Bu sayfa Amasya genelinde enerji ve aydınlatma bakım işlerinde platformun nasıl planlandığını, hangi sınıfın hangi noktada kullanıldığını anlatır.",
+        maddeler: [
+            { baslik: "Sanayi holü çatı aşığı aydınlatma bakımı", metin: "Yüksek tavanlı sanayi hollerinde armatürler çatı aşığına asılıdır ve yerden on metreye kadar yükseklikte olabilir. Eklemli platform, kolonlar arasında manevra ederek armatür sırasını takip eder; büyük hollerde tek kurulumda birden fazla armatür kontrol edilir, bu da toplam iş süresini kısaltır." },
+            { baslik: "Soğuk hava deposu aydınlatma ve düşük sıcaklık etkisi", metin: "Soğuk depo aydınlatması, düşük sıcaklıkta çalışmaya uygun özel armatürlerle yapılır ve bu armatürlerin arıza sıklığı standart depodan farklıdır. Bakım için kullanılan platform da akülü elektrikli olmalıdır; düşük sıcaklıkta akü performansı düştüğü için uzun işlerde şarj planı önceden yapılır." },
+            { baslik: "OSB içi ve tesis çevresi direk-tabela aydınlatması", metin: "OSB'nin ana yollarındaki aydınlatma direkleri ve tesis giriş tabelaları, açık sahada dağınık konumdadır; bu işler genelde tek bir platformla birden fazla noktanın sırayla dolaşıldığı bir rota şeklinde planlanır. Direk aralıkları ve yol genişliği, makinenin duracağı noktaları belirler." },
+            { baslik: "Elektrik hattı ve trafo yakınında güvenli çalışma mesafesi", metin: "Enerji hattına veya trafoya yakın bir noktada çalışmak gerektiğinde, platformun hatta güvenli yaklaşma mesafesi önceden belirlenir ve bu mesafe iş boyunca korunur. Gerekirse ilgili hattın geçici olarak enerjisiz alınması işletmeyle koordine edilir; bu koordinasyon olmadan hat yakınında çalışma başlatılmaz." },
+            { baslik: "Periyodik bakım takviminin toplu planlanması", metin: "Aydınlatma bakımı genelde tek seferlik değil, periyodik bir ihtiyaçtır. Tesisin yıllık bakım takvimine göre önceden planlanan ziyaretler, hem arıza öncesi önleyici bakımı sağlar hem de her seferinde ayrı acil talep yerine öngörülebilir bir program sunar." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma-enerji işlerinde noktaya göre platform eşleşmesi",
+                paragraflar: [
+                    "Amasya'daki aydınlatma ve enerji bakım işlerinde en sık karşılaşılan nokta tipleri ve uygun sınıf aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Belirleyici kısıt", "Uygun sınıf"],
+                    satirlar: [
+                        ["Sanayi holü çatı aşığı armatürü", "Yüksek tavan, kolon arası", "Orta-büyük dizel eklemli"],
+                        ["Soğuk depo tavan aydınlatması", "Düşük sıcaklık, dar koridor", "Akülü makaslı"],
+                        ["OSB direk/tabela aydınlatması", "Açık saha, dağınık nokta", "Dizel eklemli, rota bazlı"],
+                        ["Trafo/hat yakını nokta", "Güvenli mesafe kısıtı", "Koordinasyonlu eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota bazlı aydınlatma bakımının verimliliği",
+                paragraflar: [
+                    "OSB içindeki birden fazla direk veya tesis çevresindeki dağınık aydınlatma noktası, tek tek değil bir rota planıyla dolaşıldığında hem nakliye hem kurulum süresi tasarrufu sağlar. Rota, direk aralıkları ve yol genişliğine göre önceden kurulur; makine her durakta minimum kurulum süresiyle bir sonraki noktaya geçer.",
+                    "Bu yöntem özellikle periyodik bakım turlarında etkilidir; aynı rota her bakım döneminde tekrarlanarak süre tahmini giderek netleşir.",
+                ],
+            },
+            {
+                baslik: "Enerji hattı yakınında çalışma öncesi koordinasyon",
+                paragraflar: [
+                    "Trafo veya orta gerilim hattına yakın bir noktada çalışma planlanıyorsa, işletmenin elektrik biriminden önceden bilgi alınır; gerekirse ilgili hat geçici olarak devre dışı bırakılır ya da güvenli mesafe işaretlenir. Bu koordinasyon adımı atlanmadan hat yakınında platform çalışması başlatılmaz; enerji hatları çevresindeki riskler diğer bakım işlerinden farklı ve daha yüksektir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Sanayi holümüzdeki tüm çatı aydınlatmasını tek seferde kontrol ettirebilir miyiz?", cevap: "Evet, bu en verimli yöntemdir. Holün kolon aralığı ve armatür sayısı önceden bilindiğinde, makine tek kurulumda kolonlar arasında ilerleyerek tüm armatürleri sırayla kontrol eder. Bu, her armatür için ayrı bir ziyaret yapmaya göre hem süre hem maliyet açısından daha avantajlıdır." },
+            { soru: "Soğuk depo aydınlatması için özel bir makine mi gerekiyor?", cevap: "Standart akülü makaslı platform kullanılır, ancak düşük sıcaklıkta akü performansı düştüğü için uzun işlerde şarj planı önceden yapılır. Ayrıca depo ile sıcak ortam arasında sık giriş-çıkış yoğuşmaya yol açabileceği için işi mümkün olduğunca tek seferde bitirmeyi öneririz." },
+            { soru: "OSB'deki aydınlatma direklerini nasıl planlıyorsunuz, her biri ayrı iş mi?", cevap: "Hayır, direkler bir rota planıyla tek seferde dolaşılır. Direk aralıkları ve yol genişliği önceden bilinir, makine her durakta kısa kurulum yapıp bir sonraki direğe geçer. Bu yöntem periyodik bakım turlarında özellikle verimlidir ve rota her dönemde benzer sürede tamamlanır." },
+            { soru: "Trafo yakınında çalışmak güvenli mi, ne gibi önlem alıyorsunuz?", cevap: "Trafo veya enerji hattına yakın çalışmadan önce işletmenin elektrik birimiyle koordinasyon yapılır; gerekirse hat geçici olarak enerjisiz alınır veya güvenli yaklaşma mesafesi işaretlenir. Bu koordinasyon tamamlanmadan hat yakınında platform çalışması başlatılmaz; bu, standart aydınlatma bakımından daha sıkı bir güvenlik protokolüdür." },
+            { soru: "Periyodik bakım anlaşması yapabiliyor muyuz, yoksa her seferinde mi talep vermemiz gerekiyor?", cevap: "Periyodik bakım takvimi önceden planlanabilir. Tesisin yıllık bakım programına göre belirlenen tarihlerde düzenli ziyaret ayarlanır; bu, hem arıza öncesi önleyici bakımı sağlar hem de her seferinde ayrı acil talep yerine öngörülebilir bir program sunar. Takvim değişikliği olduğunda önceden bildirmeniz yeterlidir." },
+            { soru: "Açık sahadaki tabela aydınlatması için hangi mevsim uygun?", cevap: "Açık saha işleri için özel bir mevsim kısıtı yoktur, ancak kuru ve rüzgârsız havalar tercih edilir; yağışlı veya rüzgârlı dönemde kol açık kalması güvenlik açısından sınırlanabilir. Hava koşuluna bağlı erteleme ihtimaline karşı planlı işlerde birkaç günlük esnek bir tarih aralığı bırakmanızı öneririz." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya OSB ve Merzifon OSB'deki sanayi holü ve soğuk hava deposu tesis varlığı kamuya açık genel bilgidir; aydınlatma bakım rotası ve enerji hattı koordinasyonu sektör geneli teknik bilgi ile firma pratiğine dayanır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Amasya'da Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Amasya'daki müşterilerimizin operatörlü mü yoksa operatörsüz mü kiralama yapacağı sorusu, çoğunlukla tesisin daha önce platformla ne kadar çalıştığına ve işin ne kadar teknik olduğuna bağlı olarak cevaplanır. Meyve işleme tesisine ilk kez platform sokulacaksa, gıda hijyeni prosedürü ve soğuk depo koşulları gibi ek kurallar da devreye girdiği için operatörlü kiralamayı öneririz; prosedürün nasıl işlediği bir kez birlikte görülür, sonraki işler tesisin kendi ekibiyle rahat yürür. OSB'deki metal işleme fabrikalarında, kendi bünyesinde deneyimli forklift ve platform kullanıcısı bulunan işletmeler genelde operatörsüz tercih eder; bu, hem maliyeti düşürür hem işin tesisin kendi programına göre esnek yürütülmesini sağlar. Örümcek platform gibi çok eklemli ve teknik bilgi gerektiren sınıflarda ise deneyim seviyesi ne olursa olsun operatörlü kiralama önerilir, çünkü istinat kolu yerleşimi hatalı yapıldığında makine dengesizleşebilir. Bu sayfa iki kiralama modelinin Amasya'daki hangi işte, hangi gerekçeyle tercih edildiğini anlatır.",
+        maddeler: [
+            { baslik: "İlk kez platform kullanan gıda tesisi için operatörlü öneri", metin: "Meyve işleme veya soğuk depo tesisine ilk kez platform giriyorsa, gıda hijyeni prosedürü, hidrolik sızıntı kontrolü ve dar koridor manevrası gibi konularda deneyimsiz bir kullanıcı hata yapabilir. Operatörlü kiralamada bu prosedürler bizim personelimiz tarafından uygulanır; tesis ekibi süreci gözlemleyerek öğrenir ve sonraki işlerde kendi ekibiyle operatörsüz devam edebilir." },
+            { baslik: "Deneyimli OSB işletmesi için operatörsüz esneklik", metin: "Kendi bünyesinde sertifikalı ve deneyimli platform kullanıcısı bulunan metal işleme veya ambalaj fabrikaları, operatörsüz kiralamayı tercih eder. Bu modelde makine, tesisin kendi üretim programına göre istenilen saatte kullanılabilir; biz yalnızca teslim ve teknik bilgilendirmeyi üstleniriz." },
+            { baslik: "Teknik sınıflarda (örümcek, büyük eklemli) operatörlü zorunluluğu", metin: "İstinat kollu örümcek platform veya büyük dizel eklemli platform gibi sınıflar, kol açılım sırası ve denge hesabı gerektiren daha karmaşık makinelerdir. Bu sınıflarda deneyim seviyesi ne olursa olsun operatörlü kiralamayı öneririz; hatalı bir kol açılımı makinenin dengesini bozabilir ve ciddi bir güvenlik riski oluşturur." },
+            { baslik: "Teslimde yapılan saha eğitimi ve teslim tutanağı", metin: "Operatörsüz kiralamada, makineyi kullanacak personelin yüksekte çalışma yeterliliği doğrulanır ve teslimde kumanda düzeni, güvenlik donanımı, acil indirme prosedürü ve modele özgü kısıtlar için saha eğitimi verilir; bu eğitim teslim tutanağına işlenir. Eğitim atlanmadan hiçbir makine operatörsüz teslim edilmez." },
+            { baslik: "Karma model: kısa iş operatörlü, uzun iş operatörsüz", metin: "Bazı tesisler, kısa ve teknik bir işi operatörlü, ardından gelen uzun süreli genel bakım işini kendi ekibiyle operatörsüz yürütmeyi tercih eder. Bu karma model, işin niteliğine göre esnek biçimde kurulabilir; hangi bölümün operatörlü hangi bölümün operatörsüz olacağı iş planlamasında baştan netleştirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama karşılaştırması",
+                paragraflar: [
+                    "İki modelin temel farkları aşağıdaki tabloda özetlenmiştir; hangi modelin uygun olduğu işin tekniği ve tesisin deneyimine göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Operatörlü", "Operatörsüz"],
+                    satirlar: [
+                        ["Uygun tesis profili", "İlk kez çalışan / deneyimsiz ekip", "Deneyimli, sertifikalı kullanıcı"],
+                        ["Program esnekliği", "Bizim vardiya planımıza bağlı", "Tesisin kendi programına bağlı"],
+                        ["Teknik sınıf uygunluğu", "Tüm sınıflarda mümkün", "Basit sınıflarda önerilir"],
+                        ["Maliyet", "Operatör bedeli dahil", "Yalnızca makine bedeli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörsüz kiralamada yeterlilik kontrolü",
+                paragraflar: [
+                    "Operatörsüz kiralama öncesinde, makineyi kullanacak personelin yüksekte çalışma ve platform kullanım deneyimi sorulur; resmi bir sertifika şart koşulmasa da temel kullanım bilgisi ve önceki deneyim teyit edilir. Deneyimsiz bir kullanıcı operatörsüz talep ederse, ilk iş için operatörlü modeli öneririz — bu, tesisin güvenliği kadar makinenin sağlığı için de önemlidir.",
+                    "Teslimde verilen saha eğitimi, sertifika yerine geçmez ama o modele özgü kısıtları ve acil durum prosedürünü kapsar; bu eğitim her operatörsüz teslimde standart uygulamamızdır.",
+                ],
+            },
+            {
+                baslik: "Gıda hacminde operatörlü kiralamanın ek faydası",
+                paragraflar: [
+                    "Meyve işleme ve soğuk depo gibi gıda hacimlerinde operatörlü kiralama, yalnızca makine kullanımı değil aynı zamanda hijyen prosedürünün doğru uygulanması anlamına gelir. Bizim personelimiz, hacme giriş öncesi temizlik, küçük parça sayımı ve sızıntı kontrolü gibi adımları rutin olarak uygular; bu, tesisin kalite biriminin her seferinde hatırlatmasına gerek bırakmaz.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Hangi durumda operatörlü, hangi durumda operatörsüz kiralamalıyız?", cevap: "Tesisiniz platformla ilk kez çalışıyorsa veya iş teknik bir sınıf (örümcek platform, büyük eklemli) gerektiriyorsa operatörlü kiralamayı öneririz. Kendi bünyenizde deneyimli ve sertifikalı kullanıcı varsa, basit sınıflarda operatörsüz kiralama hem maliyeti düşürür hem programı sizin kontrolünüze bırakır. Kesin öneri, işin tekniği ve ekibinizin deneyimi birlikte değerlendirilerek verilir." },
+            { soru: "Operatörsüz kiralamada bir sertifika istiyor musunuz?", cevap: "Resmi bir sertifika şart koşmuyoruz ama makineyi kullanacak personelin yüksekte çalışma ve platform kullanım deneyimini soruyoruz. Deneyim yetersizse ilk iş için operatörlü modeli öneririz. Teslimde ayrıca kumanda düzeni, güvenlik donanımı ve acil indirme prosedürü için saha eğitimi veririz; bu eğitim teslim tutanağına işlenir." },
+            { soru: "Örümcek platformu kendi ekibimiz kullanabilir mi?", cevap: "Teknik olarak mümkün olsa da önermiyoruz. İstinat kolu açılım sırası ve denge hesabı, diğer platform sınıflarına göre daha fazla bilgi gerektirir; hatalı bir açılım makinenin dengesizleşmesine yol açabilir. Bu sınıfta deneyim seviyeniz ne olursa olsun operatörlü kiralamayı öneriyoruz." },
+            { soru: "Operatörlü kiralamada işi kim yönetiyor, siz mi biz mi?", cevap: "Makineyi kullanan bizim personelimiz olur, ancak yapılacak işin ne olduğunu ve önceliklerini sizin ekibiniz belirler. Bakım veya montaj işini yapan kişi sizin teknik ekibiniz olabilir, o sepette veya alanda çalışırken makineyi bizim operatörümüz yönetir. Bu düzen, teknik bilginin sizde, makine güvenliğinin bizde kalmasını sağlar." },
+            { soru: "Aynı iş içinde hem operatörlü hem operatörsüz kısım olabilir mi?", cevap: "Evet, mümkündür. Örneğin kısa ve teknik bir kurulum işini operatörlü yaptırıp, ardından gelen uzun süreli genel bakım kısmını kendi ekibinizle operatörsüz sürdürebilirsiniz. Hangi bölümün hangi model olacağı iş planlamasında baştan netleştirilir ve teklife buna göre yansıtılır." },
+            { soru: "Operatörlü kiralamada gıda tesisi hijyen kuralları nasıl uygulanıyor?", cevap: "Operatörümüz, hacme giriş öncesi dış temizlik, tekerlek yüzeyi silme, küçük parça sayımı ve hidrolik sızıntı kontrolü gibi adımları rutin olarak uygular; bu adımlar tesisin kalite biriminin hatırlatmasını beklemeden yapılır. Tesisinizin kendi prosedürü daha kapsamlıysa ona uyarız; kalite biriminizin talimatı bizim standart listemizin üstündedir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'daki gıda tesisi ve OSB metal işletmesi profil farkı kamuya açık genel bilgidir; operatörlü/operatörsüz kiralama kriterleri ve saha eğitimi uygulaması firma pratiğidir, özel sertifika veya yetkilendirme iddiası içermez.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Amasya'da Çok Noktalı Rota Bakım Platformu Kiralama",
+        giris:
+            "Amasya'da tek bir müşterinin farklı türde birden fazla sahası olabilir: bir meyve işleme tesisinin hem üretim binası hem soğuk hava deposu hem de idari binası; ya da OSB'de birbirine yakın konumlanmış birkaç metal işleme fabrikası. Bu tür durumlarda her sahayı ayrı ayrı sevkiyatla ziyaret etmek yerine, tek bir günde sırayla dolaşılan bir rota kurmak hem nakliye maliyetini hem toplam süreyi düşürür. Rota bazlı bakımın verimli çalışması için her noktanın erişim gereksinimi (yükseklik, zemin, iç mi dış mı) önceden bilinmelidir; farklı gereksinimli noktalar aynı makineyle karşılanamayabilir ve bu durumda rota iki makineye bölünür. Meyve işleme tesisi ile OSB metal fabrikasının aynı gün rotaya alınması, gıda hacmi hijyen kısıtı ile metal atölyesinin farklı güvenlik gerekliliklerinin aynı günde yönetilmesini gerektirir. Bu sayfa Amasya'da çok noktalı rota bakımının nasıl planlandığını, hangi durumda tek makineyle hangi durumda birden fazla makineyle çözüldüğünü anlatır.",
+        maddeler: [
+            { baslik: "Aynı tesis bünyesindeki farklı bina tiplerinin rotaya alınması", metin: "Bir meyve işleme kompleksinde üretim binası, soğuk depo ve idari bina farklı erişim kısıtlarına sahip olabilir; üretim binasında hat üstü kısa duruş, soğuk depoda düşük sıcaklık, idari binada ise dış cephe işi söz konusu olabilir. Bu üç alan, gün içinde sırayla planlanan tek bir rotada birleştirilebilir; her biri için ayrı sevkiyat gerekmez." },
+            { baslik: "Yakın konumlu OSB fabrikalarının ortak rotaya alınması", metin: "Birbirine yakın konumlanmış farklı işletmelerin aynı gün rotaya alınması, ticari ve güvenlik sorumlulukları ayrı tutulmak kaydıyla değerlendirilebilir. Bir sahadaki gecikme diğerine habersizce yansıtılmaz; her işletmeyle ayrı teyit yapılır ve rota, gerçekçi bir zaman payıyla kurulur." },
+            { baslik: "Farklı erişim gereksinimli noktaların iki makineye bölünmesi", metin: "Bir nokta iç mekân gıda hacmi, diğeri açık sahada yüksek çelik konstrüksiyon gerektiriyorsa, tek bir makine her ikisini de karşılamayabilir. Bu durumda rota, uygun sınıfların her biri için ayrı makineyle ama aynı gün içinde koordineli olarak kurulur; bu, tek makineyle uğraşmaktan daha hızlı ve daha az riskli olabilir." },
+            { baslik: "Rota içinde öncelik sıralaması ve zaman payı", metin: "Rotadaki her nokta için tahmini kurulum ve iş süresi önceden hesaplanır; ilk noktanın uzaması sonraki noktaları geciktirebileceği için gerçekçi bir zaman payı bırakılır. Kritik veya acil bir nokta varsa rota bu noktayı önce kapsayacak şekilde sıralanır." },
+            { baslik: "Rota tamamlanamazsa ertesi güne devam planı", metin: "Beklenmedik bir gecikme ya da hava koşulu nedeniyle rota tek günde tamamlanamayabilir; bu durumda kalan noktalar önceliklendirilerek ertesi güne aktarılır. Tamamlanan ve ertelenen kalemler gün sonunda net biçimde raporlanır, böylece hangi noktanın hâlâ bekleyen olduğu belirsiz kalmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota planlamasında nokta tipine göre karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı nokta tiplerinin rota içinde nasıl değerlendirildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Erişim gereksinimi", "Rota kararı"],
+                    satirlar: [
+                        ["Üretim hattı üstü (gıda)", "Kısa duruş, akülü makine", "Vardiya arası pencereye yerleştirilir"],
+                        ["Soğuk depo tavan/raf", "Düşük sıcaklık, akü planı", "Ayrı zaman dilimi ayrılır"],
+                        ["OSB çelik konstrüksiyon cephesi", "Açık saha, büyük eklemli", "Ayrı makineyle paralel yürütülür"],
+                        ["İdari bina dış cephe", "Standart erişim", "Rotanın son durağı olabilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çok noktalı rotanın maliyet avantajı",
+                paragraflar: [
+                    "Her noktayı ayrı sevkiyatla ziyaret etmek yerine tek rotada birleştirmek, nakliye kalemini önemli ölçüde düşürür; makine bir sahadan diğerine kısa mesafede hareket ettiği için ayrı yükleme-boşaltma tekrarlanmaz. Bu avantaj özellikle Amasya OSB gibi birbirine yakın tesislerin bulunduğu bölgelerde belirgindir.",
+                    "Rotanın verimli kurulması için müşterinin tüm noktaları tek seferde bildirmesi önemlidir; sonradan eklenen bir nokta, rotayı yeniden planlamayı gerektirebilir ve bu ek maliyete yol açabilir.",
+                ],
+            },
+            {
+                baslik: "Rota planlaması için paylaşılması gereken bilgiler",
+                paragraflar: [
+                    "Rotanın gerçekçi kurulabilmesi için her noktanın adresi, erişim yüksekliği, iç mi dış mı olduğu, zemin durumu ve tercih edilen sıralama paylaşılmalıdır. Noktalar arası mesafe ve trafik yoğunluğu da hesaba katılır; hasat sezonunda Amasya-Merzifon hattındaki yoğun tarım trafiği rotanın zamanlamasını etkileyebilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Farklı türde birden fazla sahamızı tek günde nasıl planlıyorsunuz?", cevap: "Her sahanın erişim gereksinimini (yükseklik, iç-dış mekân, zemin) önceden alıyoruz ve bunlara göre bir sıralama kuruyoruz. Aynı makineyle karşılanabilecek noktalar birleştirilir; farklı gereksinimli noktalar için ikinci bir makine aynı gün içinde koordineli çalıştırılabilir. Rotanın gerçekçi kurulması için tüm noktaların baştan bildirilmesi önemlidir." },
+            { soru: "Rota sırasında bir nokta beklenenden uzun sürerse ne olur?", cevap: "Her nokta için önceden tahmini süre hesaplanır ve rotaya bir zaman payı bırakılır; yine de gecikme olursa sonraki noktalar etkilenebilir. Bu durumda kritik olmayan noktalar ertesi güne aktarılır, tamamlanan ve ertelenen kalemler gün sonunda ayrı raporlanır. Kritik bir nokta varsa rota bu noktayı öne alacak şekilde baştan kurulur." },
+            { soru: "Farklı işletmelerin sahalarını aynı rotaya dahil edebilir misiniz?", cevap: "Yakın konumlu farklı işletmelerin aynı gün rotaya alınması değerlendirilebilir, ancak ticari ve güvenlik sorumlulukları ayrı tutulur. Bir sahadaki gecikme diğer işletmeye habersizce yansıtılmaz; her işletmeyle ayrı teyit yapılır ve rota gerçekçi bir zaman payıyla kurulur." },
+            { soru: "Gıda tesisi ile OSB metal fabrikasını aynı gün rotaya koyabilir miyiz?", cevap: "Evet, ancak iki sahanın farklı gereksinimleri nedeniyle genelde iki ayrı makine kullanılır — gıda hacminde akülü elektrikli, OSB'deki çelik konstrüksiyon işinde dizel eklemli gibi. İki makine aynı gün paralel çalıştırılarak toplam süre kısaltılır; tek makineyle her ikisini karşılamak çoğu zaman mümkün olmaz." },
+            { soru: "Sonradan yeni bir nokta eklemek istersek rota bozulur mu?", cevap: "Mümkünse rota yeniden planlanır, ancak son anda eklenen bir nokta zaman payını daraltabilir ve diğer noktaları geciktirebilir. Bu yüzden tüm noktaları mümkün olduğunca baştan bildirmenizi öneririz; sonradan eklenen nokta için ek ücret veya farklı bir gün gerekebilir." },
+            { soru: "Hasat sezonunda rota süresi uzuyor mu?", cevap: "Evet, Amasya-Merzifon hattındaki yoğun tarım trafiği noktalar arası geçiş süresini uzatabilir. Bu dönemde rotayı planlarken yol yoğunluğunu hesaba katıyor, mümkünse sabah erken saatleri tercih ediyoruz. Sezon dışı aylarda rota süresi daha öngörülebilir olur." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'daki meyve işleme tesisi kompleksleri ve OSB'nin yakın konumlu fabrika yapısı kamuya açık genel bilgidir; rota planlama mantığı ve maliyet avantajı firma pratiğidir, özel müşteri veya mesafe iddiası içermez.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Amasya'da Zor Zemin / Arazi Platform Kiralama",
+        giris:
+            "Amasya'nın Yeşilırmak vadisi çevresindeki kırsal arazisi, meyve bahçeleri ve tarım arazileriyle kaplıdır; bu sahaların zemini standart bir sanayi tesisi zemininden büyük farklılık gösterir. Toprak, çim, stabilize veya hafif eğimli araziler, düz beton zemine göre tasarlanmış platformların bir kısmı için uygun değildir; geniş lastikli ve düşük zemin baskılı modeller bu koşullarda tercih edilir. Yağışlı dönemde toprak zemin yumuşayarak taşıma kapasitesini kaybedebilir, bu da iş gününe yakın zemin kontrolünü zorunlu kılar. Amasya OSB'nin inşaat aşamasındaki bölümlerinde de benzer bir durum yaşanır: zemin henüz nihai kaplamasını almamışsa, sıkıştırılmamış dolgu üzerinde çalışmak ek önlem gerektirir. Engebeli arazide platformun dengesini koruması için istinat ayakları ve zemin sensörleri devreye girer; bu sensörler, güvensiz bir eğimde makinenin otomatik olarak durmasını sağlar. Bu sayfa Amasya'daki zor zemin ve arazi koşullarında platform seçiminin nasıl yapıldığını anlatır.",
+        maddeler: [
+            { baslik: "Toprak ve çim zeminde geniş lastik ve düşük baskı gerekliliği", metin: "Meyve bahçesi kenarı veya tarla içindeki bir yapıya erişmek için kullanılan platform, standart dar tekerlekli modelden farklı olarak geniş lastikli ve düşük zemin baskılı olmalıdır. Bu tür lastikler zemine daha az nokta yükü bindirir ve yumuşak toprakta saplanma riskini azaltır; yine de zemin çok yumuşaksa hiçbir lastik tipi güvenli çalışmayı garanti etmez." },
+            { baslik: "Eğimli arazide denge sensörü ve otomatik durdurma", metin: "Engebeli bir arazide makine belirli bir eğim açısını aştığında, üzerindeki zemin sensörü otomatik olarak hareketi durdurur ve kolun daha fazla açılmasını engeller. Bu, operatörün fark etmediği bir dengesizliği önceden yakalayan bir güvenlik katmanıdır; sensörün devre dışı bırakılması hiçbir koşulda kabul edilmez." },
+            { baslik: "Yağış sonrası zemin taşıma kapasitesinin yeniden değerlendirilmesi", metin: "Kuru havada sağlam görünen bir toprak zemin, yağış sonrası birkaç gün içinde taşıma kapasitesini önemli ölçüde kaybedebilir. İş günü yağıştan hemen sonraysa, zemin iş sabahı yeniden değerlendirilir; gerekirse iş ertelenir ya da geçici plaka döşemesiyle zemin güçlendirilir." },
+            { baslik: "İnşaat aşamasındaki OSB parsellerinde sıkıştırılmamış dolgu riski", metin: "Amasya OSB'nin yeni açılan bölümlerinde bazı parseller henüz nihai zemin kaplamasını almamış, sıkıştırılmamış dolgu üzerindedir. Bu tür zeminlerde makinenin ağırlığı altında oturma riski vardır; iş öncesi zeminin sıkıştırma durumu tesis mühendisiyle teyit edilir." },
+            { baslik: "Arazi koşullarına uygun makine sınıfının önceden belirlenmesi", metin: "Zor zeminde hangi sınıfın kullanılacağı, zeminin türü, eğim açısı ve nem durumuna göre önceden belirlenir; bu bilgi olmadan sahaya gönderilen makine geri dönebilir ya da güvensiz koşulda çalıştırılmak zorunda kalınabilir — ikisi de istenmeyen sonuçlardır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin koşuluna göre platform sınıfı eşleşmesi",
+                paragraflar: [
+                    "Amasya'daki zor zemin işlerinde en sık karşılaşılan zemin tipleri ve uygun sınıf aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Belirleyici kısıt", "Uygun sınıf"],
+                    satirlar: [
+                        ["Kuru sıkı toprak", "Orta taşıma kapasitesi", "Geniş lastikli dizel eklemli"],
+                        ["Yağış sonrası yumuşak toprak", "Düşük taşıma kapasitesi", "Plaka desteğiyle veya ertelenir"],
+                        ["Hafif eğimli arazi", "Denge riski", "Zemin sensörlü model, düşük hızda kurulum"],
+                        ["Sıkıştırılmamış dolgu (inşaat parseli)", "Oturma riski", "Mühendis onayı sonrası kısıtlı çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zor zeminde iş öncesi kontrol adımları",
+                paragraflar: [
+                    "Zor zemin işlerinde standart bir keşif yeterli olmayabilir; zeminin nem durumu, eğim açısı ve varsa gizli boşluk veya yumuşak nokta yerinde kontrol edilir. Operatör, istinat ayaklarını açmadan önce zemine kısa bir yük testi uygular ve güvensiz bulduğu noktada çalışmaya başlamaz.",
+                    "Bu kontrol adımları, iş süresine birkaç dakika eklese de, makinenin devrilme veya saplanma riskini önemli ölçüde azaltır; zor zeminde bu adımların atlanması hiçbir koşulda kabul edilmez.",
+                ],
+            },
+            {
+                baslik: "Zemin güçlendirme ve geçici plaka döşemesi",
+                paragraflar: [
+                    "Zemin yumuşak ama iş ertelenemeyecek kadar aciliyse, istinat ayaklarının basacağı noktalara geçici çelik veya kompozit plaka döşenerek yük daha geniş bir alana yayılabilir. Bu çözüm her zemin için uygun değildir; çok yumuşak veya sulu zeminlerde plaka bile yeterli olmayabilir ve iş ertelenmesi gerekir. Karar, sahadaki operatörün yerinde değerlendirmesiyle verilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Toprak arazide platform kullanmak güvenli mi?", cevap: "Zemin kuru ve sıkıysa, geniş lastikli dizel eklemli platformla genelde güvenli çalışılır. Ancak zemin yumuşak veya nemliyse taşıma kapasitesi düşer ve saplanma-devrilme riski artar; bu durumda iş ya ertelenir ya da geçici plaka desteğiyle zemin güçlendirilir. İş günü sabahında zemin operatör tarafından yeniden değerlendirilir." },
+            { soru: "Yağıştan sonra hemen çalışabilir miyiz?", cevap: "Genelde önermiyoruz; toprak zemin yağış sonrası birkaç gün taşıma kapasitesini kaybedebilir. İş acilse zemin iş sabahı yerinde kontrol edilir ve operatör güvenli bulmadığı noktada çalışmaya başlamaz. Mümkünse yağış sonrası birkaç günlük kuruma süresi bırakmanızı öneririz." },
+            { soru: "Eğimli bir arazide makine devrilme riski var mı?", cevap: "Makinede belirli bir eğim açısını aştığında hareketi otomatik durduran bir zemin sensörü bulunur; bu sensör devrilme riskini önceden yakalar. Yine de operatör, istinat ayaklarını açmadan önce zemini görsel ve fiziksel olarak kontrol eder. Sensörün devre dışı bırakılması hiçbir koşulda kabul edilmez; bu, arazi işlerindeki temel güvenlik kuralımızdır." },
+            { soru: "İnşaat aşamasındaki OSB parselimize makine gönderebilir misiniz?", cevap: "Zeminin sıkıştırma durumuna bağlıdır. Henüz nihai kaplamasını almamış dolgu zeminlerde oturma riski olabileceği için, iş öncesi tesis mühendisiyle zemin durumu teyit edilir. Sıkıştırma yeterliyse çalışılabilir; değilse zemin iyileştirmesi ya da farklı bir yaklaşım değerlendirilir." },
+            { soru: "Zemin yumuşaksa iş tamamen iptal mi oluyor, alternatif yok mu?", cevap: "Her zaman iptal gerekmez. İstinat ayaklarının basacağı noktalara geçici plaka döşenerek yük daha geniş alana yayılabilir; bu çözüm orta derece yumuşak zeminlerde işe yarar. Ancak çok yumuşak veya sulu zeminlerde plaka da yeterli olmayabilir ve bu durumda iş ertelenir — karar sahadaki operatörün yerinde değerlendirmesiyle verilir." },
+            { soru: "Bahçe veya tarla içindeki bir yapıya erişim için hangi bilgiyi önceden paylaşmalıyız?", cevap: "Zeminin cinsi (toprak, çim, stabilize), yakın zamanda yağış olup olmadığı, arazinin eğim durumu, hedefin yerden yüksekliği ve sahaya giden yolun genişliği paylaşanmalıdır. Mümkünse birkaç fotoğraf da eklerseniz, zemin ve erişim durumunu önceden değerlendirip uygun sınıfı netleştiririz." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'nın Yeşilırmak vadisi kırsal arazi yapısı ve OSB'nin genişleyen parselleri kamuya açık genel bilgidir; zemin güvenliği ve makine sensör mekanizması sektör geneli teknik bilgidir, saha kontrol adımları firma pratiğidir.",
+    },
 };

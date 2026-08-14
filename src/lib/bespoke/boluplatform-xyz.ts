@@ -738,4 +738,488 @@ export const BOLUPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Metin 13 Ağustos 2026 tarihinde Seben'in dağlık ve ormanlık çevresinde orman yolu koşuluna göre arazi tipi platform seçimi için özgün yazıldı. Belirli köy, orman sahası, işletme, tesis, yol, rakım, mesafe veya başka sayısal veri kullanılmamıştır; kesit analizi genel saha yaklaşımıdır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bolu'da Kereste Kurutma Fırını ve Üretim Hattı Üstü Dar Alanlarda Örümcek Platform Kiralama",
+        giris:
+            "Bir kereste ve mobilya tesisinde arıza çağrısı geldiğinde ilk soru genelde makine sınıfı değil, makinenin oraya nasıl ulaşacağıdır. Bolu'daki kurutma fırını sıraları, hat üstü konveyör galerileri ve zamanla eklenmiş bölme duvarları, saha planını ilk kurulum çizimine göre değil yıllar içinde eklenen ihtiyaca göre şekillendirmiştir; bu da geçiş ölçülerini önceden tahmin edilemez kılar. Telefonda 'dar bir yerde çalışacağız' denildiğinde bizim için asıl belirleyici üç rakamdır: en dar geçidin eni, tavanın en alçak noktası ve hedefe kadar olan yatay mesafe. Bu üç rakam netleşmeden hangi platform sınıfının gideceğine karar vermeyiz — çünkü örümcek platformu göndermek, ölçü uymuyorsa gereksiz bir montaj-söküm maliyeti; standart makaslı göndermek, geçit dar çıkarsa boşa giden bir sevkiyat demektir. Bu sayfada saha ölçüsü telefonda nasıl toplanır, hangi eşik değerlerde karar değişir ve kurutma fırını/hat üstü/talaş ortamı gibi tekrar eden senaryolarda bu üç rakam neye karşılık gelir, bunu anlatıyoruz. Belirli bir fabrika adı, kapasite veya sayısal iddia içermez; anlatılan yaklaşım genel saha pratiğidir.",
+        maddeler: [
+            { baslik: "Telefonda sorduğumuz üç ölçü", metin: "Saha ziyareti öncesinde geçidin eni, tavanın en alçak noktası ve hedef noktaya kadar yatay mesafe sorulur. Bu üç değer, örümcek platform mu yoksa standart bir sınıf mı gönderileceğini büyük ölçüde belirler. Ölçü net değilse bir cetvel veya şerit metreyle hızlı bir kontrol istenir; tahminî rakamla makine yola çıkarılmaz, çünkü yanlış sınıfın sahaya varıp geri dönmesi hem zaman hem maliyet kaybıdır." },
+            { baslik: "Kurutma fırını sırasında karar eşiği", metin: "Fırınlar art arda dizildiğinde aralarında kalan servis şeridi genellikle bir kişinin geçebileceği genişliktedir. Bu şerit standart bir makaslının şase enini geçmiyorsa örümcek platform tek seçenek hâline gelir; geçiyorsa montaj-söküm süresi gereksiz bir kalemdir. Karar, şeridin en dar noktasında ölçülen rakama göre verilir, tahmine göre değil." },
+            { baslik: "Hat üstü galeri ve konveyör altı boşluk", metin: "Talaş taşıma konveyörü ile aspirasyon galerisi genellikle tavana yakın, sabit bir yürüme yolu olmayan bir yükseklikte seyreder. Buradaki karar eşiği hat altı geçiş yüksekliğidir: ayakların açılabileceği taban genişliği yeterliyse örümcek platform hattın altına girip sepet konveyör hizasına yükselir; yetersizse alternatif erişim yöntemi (sabit iskele, hattın kısmi sökümü) saha yetkilisiyle konuşulur." },
+            { baslik: "Sonradan açılmış bölme kapıları", metin: "Genişleyen atölyelerde bölme kapıları çoğunlukla sonradan, mevcut ekipmanın ölçüsüne göre değil anlık ihtiyaca göre açılmıştır. Bu kapılar standart bir platformun şasesinden dar çıkabilir. Örümcek platform katlanarak bu kapıdan geçirilebilir, ama montaj alanının tavan yüksekliği de ayrıca ölçülmelidir — kapı geçse bile tavan yetmezse makine hedef noktada yeniden açılamaz." },
+            { baslik: "Talaş ortamında ek hazırlık adımı", metin: "Havada asılı talaş tozu, mafsallı ekipmanın hareketli parçalarına standart makinelere göre daha kolay nüfuz eder. Bu yüzden örümcek platform üretim alanına girmeden önce mafsal ve palet araları kontrol edilir, statik elektrik riski taşıyan bölgelerde topraklama durumu saha yönetimiyle netleştirilir. Bu hazırlık, ölçü kararından sonraki ikinci adımdır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ölçü eşiğine göre makine kararı",
+                paragraflar: ["Tablo belirli bir tesisi anlatmaz; telefonda toplanan üç ölçünün hangi eşikte hangi kararı doğurduğunu özetler."],
+                tablo: { basliklar: ["Ölçülen değer", "Eşik altında", "Eşik üstünde", "Sonuç"], satirlar: [["Geçit eni", "Standart şase enini geçmiyor", "Standart şase enini geçiyor", "Örümcek platform / standart makaslı"], ["Tavan kotu", "Montaj alanı yeterli değil", "Montaj alanı yeterli", "Alternatif erişim / doğrudan montaj"], ["Hat altı geçiş yüksekliği", "Ayak açıklığına yetmiyor", "Ayak açıklığına yetiyor", "Sabit iskele / örümcek platform"], ["Yatay mesafe", "Uzun, montaj süresi artar", "Kısa, montaj süresi sınırlı", "Süre-maliyet karşılaştırması yeniden yapılır"]] },
+            },
+            {
+                baslik: "Ölçü toplama telefonda mı sahada mı yapılır",
+                paragraflar: [
+                    "Çoğu karar telefonda paylaşılan üç ölçüyle verilebilir; belirsizlik varsa bir fotoğraf veya kısa video istenir. Rakamlar net değilse makine tahmine göre yola çıkarılmaz — yanlış sınıfın sahaya gidip geri dönmesi hem zaman hem nakliye maliyeti demektir.",
+                    "Büyük ölçekli veya çok noktalı işlerde (birden fazla fırın sırası, birden fazla hat) kısa bir yerinde ön kontrol önerilir; bu durumda ölçü toplama işin başlangıcına, teklif öncesine yerleştirilir.",
+                ],
+            },
+            {
+                baslik: "Enerji kesme ve iş izni sırası",
+                paragraflar: [
+                    "Hat üstü veya fırın yakını bir çalışma planlandığında, ilgili ekipmanın enerjisinin kesildiği ve yeniden çalıştırılmayacağı saha yetkilisince teyit edilmeden sepet hedef yüksekliğe kaldırılmaz.",
+                    "Bu teyit, montaj sırasının bir parçası değil, ilk adımıdır: ölçü netleşir, makine sınıfına karar verilir, saha teslim alınır, sonra enerji kesme teyidi ile çalışma başlar.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Hangi ölçüleri telefonda paylaşmam gerekiyor?", cevap: "En dar geçidin eni, en alçak tavan noktası ve hedefe kadar yatay mesafe yeterli bir ilk değerlendirme sağlar. Bu üç rakam net olduğunda hangi makine sınıfının uygun olduğunu büyük ölçüde söyleyebiliriz; belirsizse bir fotoğraf isteriz." },
+            { soru: "Ölçüyü yanlış verirsem ne olur?", cevap: "Yanlış ölçüyle yola çıkan makine sahada geçemezse geri dönmek zorunda kalır, bu hem zaman hem nakliye maliyeti demektir. Bu yüzden emin olmadığınız bir ölçüyü tahmini olarak değil, gerçekten ölçüp paylaşmanızı isteriz." },
+            { soru: "Standart makaslı ile örümcek platform arasındaki karar nasıl veriliyor?", cevap: "Geçit eni standart makinenin şasesini geçiyorsa standart makaslıyı öneririz; geçmiyorsa örümcek platform tek seçenek olur. Bu net bir eşik meselesidir, tercih değil." },
+            { soru: "Kurutma fırınları çalışırken makine yanında çalışabilir mi?", cevap: "Fırının o sırada çalışır durumda olup olmadığı ve güvenli mesafe işten önce netleştirilir; gerekirse çalışma fırının durdurulduğu bir pencereye kaydırılır." },
+            { soru: "Talaş yoğun ortamda ek bir ücret çıkar mı?", cevap: "Hayır, ama ek bir hazırlık süresi olur: mafsal ve palet araları girişten önce kontrol edilir, topraklama durumu netleştirilir. Bu adım güvenlik için gereklidir, ekstra ücretlendirme değildir." },
+            { soru: "Birden fazla fırın sırasını aynı günde gezebilir miyiz?", cevap: "Evet, ölçüler ve enerji kesme teyidi her sıra için ayrı ayrı netleştirilirse aynı gün içinde birden fazla noktaya sırayla geçilebilir; sıralama saha yetkilinizle birlikte planlanır." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun ormancılık, kereste ve mobilya sanayisiyle bilinmesi kamuya açık genel bilgidir; ölçü-eşik karar mantığı ve enerji kesme sırası firma saha pratiğidir. Tesis adı, kapasite ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bolu'da Kereste ve Mobilya Fabrikalarına Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bolu'da kereste, orman ürünleri ve mobilya üretimi yapan işletmeler genellikle şehir merkezinden uzak, orman yolu veya ara yol üzerindeki sanayi bölgelerinde yer alır; bazıları ana karayoluna yakın küçük bir sanayi sitesindedir, bazıları ormana daha yakın bir üretim sahasında konuşlanmıştır. Bu çeşitlilik, platform ve vinç nakliyesini tek tip bir sevkiyat değil, her seferinde ayrıca planlanması gereken bir güzergâh problemine dönüştürür: fabrika girişinin genişliği, avlu içindeki tomruk veya kütük yığınlarının bıraktığı boşluk, kepçe ve forklift trafiğinin yoğun olduğu saatler, teslim noktasının zemin taşıma kapasitesi. Nakliye ve teslimat hizmeti, platformun doğru araçla, doğru güzergâhtan, üretim akışını kesintiye uğratmadan sahaya ulaştırılmasını kapsar. Kamyon veya çekicinin fabrika avlusunda dönebileceği alan, rampa açma noktası ve boşaltma sırasında güvenli bir çevre oluşturulması önceden konuşulur. Bu sayfada Bolu'daki kereste ve mobilya tesislerine platform teslimatının hangi adımlardan oluştuğunu, hangi bilgilerin teklif öncesinde gerekli olduğunu ve avlu içi trafiğin nasıl yönetildiğini anlatıyoruz. Belirli bir fabrika adı veya mesafe iddiası içermez.",
+        maddeler: [
+            { baslik: "Fabrika avlusunda boşaltma alanının önceden belirlenmesi", metin: "Kereste ve mobilya fabrikalarının avlusu çoğunlukla tomruk yığını, kesilmiş kereste istifi veya bitmiş ürün paletiyle doludur; boş görünen bir alan bile forklift geçiş güzergâhı olabilir. Teslimat öncesinde platformun indirileceği nokta, kamyonun dönüş yarıçapı ve rampa açma mesafesi saha yetkilisiyle birlikte netleştirilir. Belirsiz bir avluda kamyon rastgele bir noktaya yönlendirilmez; gerekirse fotoğraf üzerinden ön değerlendirme yapılır." },
+            { baslik: "Orman yolu ve ara yol bağlantılı tesislere erişim", metin: "Bazı kereste işleme tesisleri ana karayolundan ayrılan, dar ve virajlı bir ara yolla erişilir. Bu güzergâhta ağaç dallarının yol üstüne sarkması, dar köprü geçişi veya mevsimsel yüzey bozulması taşıma aracının sınıfını etkiler. Güzergâh, teslimattan önce mevcut bilgi ve gerekiyorsa güncel görüntüyle değerlendirilir; büyük araç geçemiyorsa daha küçük taşıyıcı veya alternatif indirme noktası planlanır." },
+            { baslik: "Üretim saatleri ile teslimat saatinin çakışmaması", metin: "Kereste kesim hattı veya mobilya montaj hattının en yoğun çalıştığı saatlerde ağır bir teslimat aracının avluya girmesi forklift ve iç trafik akışını kesintiye uğratabilir. Teslimat saati, mümkün olduğunda üretim programınızın görece sakin olduğu bir pencereye denk getirilir. Vardiya değişimi veya mola saatleri gibi bilgi paylaşılırsa planlama buna göre yapılır." },
+            { baslik: "Tomruk ve kereste istifi çevresinde güvenli mesafe", metin: "İstiflenmiş tomruk veya kereste yığınları zamanla kayabilir; teslimat sırasında bu yığınların yakınında personel bulundurulmaz ve kamyonun manevra hattı yığınlardan güvenli mesafede tutulur. İstif düzeninde belirgin bir dengesizlik görülürse teslimat ekibi bunu saha yetkilisine bildirir ve boşaltma güvenli bir noktaya kaydırılır." },
+            { baslik: "Teslim sonrası konumlandırma ve montaj hazırlığı", metin: "Platform avluya indirildikten sonra çalışacağı noktaya kendi gücüyle mi yoksa ayrıca taşınarak mı ulaşacağı önceden planlanır. Zemin taşıma kapasitesi, talaş veya kabuk artığı birikintisi ve olası çukur-eşik durumu teslimat öncesinde sorulur. Uygun zemin bilgisi verilmezse makine varsayılan bir güzergâhla değil, teyit edilen bir güzergâhla yönlendirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslimat öncesi bilgi kontrol tablosu",
+                paragraflar: ["Tablo belirli bir tesisi anlatmaz; kereste ve mobilya fabrikalarına teslimat öncesinde sorulan genel bilgi kalemlerini özetler."],
+                tablo: { basliklar: ["Kalem", "Neden sorulur", "Belirsizse ne olur", "Sağlandığında sonuç"], satirlar: [["Avlu boşaltma noktası", "Manevra ve rampa alanı", "Fotoğrafla ön değerlendirme", "Doğrudan planlı boşaltma"], ["Ara yol/orman yolu durumu", "Araç sınıfı seçimi", "Güncel görüntü istenir", "Uygun taşıyıcı atanır"], ["Üretim yoğun saatleri", "Trafik çakışması riski", "Genel bir saat varsayılmaz", "Sakin pencereye planlama"], ["İstif ve yığın konumu", "Personel güvenliği", "Güzergâh yeniden çizilir", "Güvenli mesafeli manevra"], ["Zemin taşıma durumu", "Konumlandırma güvenliği", "Teyit istenir", "Uygun güzergâhla ilerleme"]] },
+            },
+            {
+                baslik: "Güzergâh bilgisini teklif öncesinde toplama",
+                paragraflar: [
+                    "Bolu'daki kereste ve mobilya tesislerinin bir kısmı ana yol kenarındaki sanayi sitesinde, bir kısmı ormana daha yakın ara yol üzerindedir. Teklif öncesinde hangi gruba girdiğiniz, avlu genişliği ve varsa dar geçiş noktaları sorulur; bu bilgi taşıyıcı sınıfını ve süreyi belirler.",
+                    "Belirsiz bir güzergâh için varsayılan bir araç gönderilmez. Bilgi yetersizse önce fotoğraf, gerekirse yerinde ön kontrol istenir; böylece teslimat günü sahada beklenmedik bir dar noktayla karşılaşılmaz.",
+                ],
+            },
+            {
+                baslik: "Avlu içi trafik ile teslimat aracının koordinasyonu",
+                paragraflar: [
+                    "Kereste ve mobilya fabrikalarının avlusunda forklift, kepçe ve iç nakliye aracı sürekli hareket hâlindedir. Teslimat aracı avluya girmeden önce saha yetkilisiyle kısa bir koordinasyon yapılır; hangi güzergâhın boş tutulacağı ve hangi noktanın geçici olarak kapatılacağı netleştirilir.",
+                    "Koordinasyon sağlanmadan büyük araç avluya yönlendirilmez. Amaç yalnızca platformu teslim etmek değil, teslimat sırasında üretim ve iç trafik akışını mümkün olduğunca kesintisiz tutmaktır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Fabrikamız orman yoluna yakın; büyük kamyon girebilir mi?", cevap: "Her zaman değil. Ara yolun genişliği, viraj yarıçapı ve yüzey durumu güncel bilgi veya görüntüyle değerlendirilir. Büyük araç geçemiyorsa daha küçük bir taşıyıcı veya farklı bir indirme noktası planlanır. Güzergâh bilgisini teslimattan önce netleştirmeniz süreci hızlandırır." },
+            { soru: "Avlumuz tomruk yığınıyla dolu; boşaltma nereye yapılır?", cevap: "Boşaltma noktası önceden saha yetkilinizle birlikte belirlenir; boş görünen bir alan bile forklift güzergâhı olabilir. İstenirse fotoğraf üzerinden ön değerlendirme yapılır ve kamyonun dönüş yarıçapı ile rampa alanı buna göre planlanır." },
+            { soru: "Üretim saatlerinde teslimat yapılabilir mi?", cevap: "Yapılabilir, ancak yoğun saatte forklift ve iç trafik akışı kesintiye uğrayabilir. Mümkünse teslimat saatini üretim programınızın görece sakin olduğu bir pencereye denk getirmenizi öneririz; vardiya bilgisini paylaşırsanız planı ona göre kurarız." },
+            { soru: "İstiflenmiş kereste yığınları teslimat sırasında risk oluşturur mu?", cevap: "Dengesiz görünen bir istif riskli kabul edilir; kamyonun manevra hattı bu yığınlardan güvenli mesafede tutulur ve yakınında personel bulundurulmaz. Belirgin bir dengesizlik görülürse boşaltma noktası saha yetkilinizle birlikte değiştirilir." },
+            { soru: "Zemin taşıma kapasitesini nasıl belirliyorsunuz?", cevap: "Zemin bilgisi teslimat öncesinde sizden sorulur; talaş veya kabuk artığı birikintisi ile olası çukur-eşik durumu netleştirilir. Bilgi verilmezse varsayılan bir güzergâh kullanılmaz; teyit edilene kadar konumlandırma bekletilir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Fabrika girişinin ve avlunun genişliğini, varsa dar ara yol veya orman yolu bağlantısını, üretim yoğun saatlerinizi ve istif/yığın konumunu paylaşın. Belirli bir tesis adı veya mesafe varsaymayız; sağladığınız bilgiyle güzergâh ve araç sınıfı netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'daki kereste ve mobilya tesislerinin şehir merkezi dışında, orman yolu veya ara yol bağlantılı sanayi bölgelerinde yer alması kamuya açık genel bilgidir; avlu koordinasyonu ve güzergâh değerlendirmesi firma saha pratiğidir. Tesis adı ve mesafe iddiası içermez.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bolu'da Kereste ve Tomruk Deposu İçin Forklift ve İstifleme Kiralama",
+        giris:
+            "Kereste ve orman ürünleri işletmelerinde malzeme akışı, tomruğun sahaya girişinden kesilmiş kerestenin istiflenmesine, kurutulmuş malzemenin üretim hattına taşınmasına kadar sürekli bir yük hareketi gerektirir. Bu hareket standart bir palet forkliftiyle her zaman güvenli biçimde yönetilemez; tomruk çapı ve uzunluğu düzensizdir, kereste istifleri zamanla yükselir, kabuk ve talaş artığı zemin yüzeyini değiştirir. Forklift ve istifleme kiralama hizmeti, malzemenin türüne ve depolama biçimine uygun kapasite ve ataşmanla donatılmış makinenin doğru bir istifleme planıyla sahaya konumlandırılmasını kapsar. Tomruk yükleme için uzun çatal veya kütük kıskacı, kesilmiş kereste paketleri için standart çatal genişliği, yükseklik ve istif sırası önceden değerlendirilir. Bu sayfada Bolu'daki kereste ve tomruk depolarında forklift seçiminin hangi kriterlere göre yapıldığını, istif güvenliğinin nasıl sağlandığını ve zemin koşullarının kararı nasıl etkilediğini anlatıyoruz. Belirli bir tesis adı veya kapasite rakamı içermez.",
+        maddeler: [
+            { baslik: "Tomruk yükleme için ataşman seçimi", metin: "Standart çatallı bir forklift, düzensiz çaplı ve uzun tomrukları güvenli biçimde taşımak için genellikle yetersizdir. Kütük kıskacı veya uzatılmış çatal gibi ataşmanlar tomruğun kayma riskini azaltır. Ataşman seçimi tomruğun ortalama uzunluğu, çap aralığı ve yükleme yönü bilgisiyle yapılır; bu bilgi verilmeden standart bir makine varsayılmaz." },
+            { baslik: "Kereste paketlerinin istif yüksekliği ve dengesi", metin: "Kesilmiş ve paketlenmiş kereste istifleri zamanla yükselir; üst sıralara çıkıldıkça forkliftin görüş açısı ve denge payı azalır. İstif yüksekliği makinenin kaldırma sınırının içinde tutulur, üst sıraya erişim gerekiyorsa forkliftin görüş açısını destekleyecek gözcü veya ayna düzeni değerlendirilir. Paketler arasında düzensiz bir sarkma veya kayma görülürse istif önce düzeltilir, sonra üstüne yeni yük eklenmez." },
+            { baslik: "Talaş ve kabuk artığı ile zemin durumu", metin: "Tomruk ve kereste depolarının zemini, kabuk soyma ve kesim artıklarıyla zamanla değişken bir yüzeye dönüşebilir; gevşek kabuk birikintisi tekerlek tutunmasını azaltabilir. Yoğun birikinti görülen alanlarda forklift güzergâhı değiştirilir veya alan önceden temizlenir. Islak havada kabuk artığı ayrıca kayganlaşabileceğinden bu bölgelerde hız ve manevra sınırlandırılır." },
+            { baslik: "Kurutma öncesi ve sonrası malzeme ayrımı", metin: "Kurutulmamış tomruk ile kurutma fırınından çıkmış kereste genellikle farklı ağırlık ve nem oranına sahiptir; aynı istif planında karıştırılmaları hem forklift kapasite hesabını hem de istif dengesini etkiler. İki grup ayrı alanlarda depolanır ve forklift operatörüne hangi grubun taşınacağı önceden bildirilir." },
+            { baslik: "Standart palet forkliftine göre karar noktası", metin: "Her kereste deposu özel ataşman gerektirmez; malzeme standart palet veya küçük kesme parçalarından oluşuyorsa standart bir forklift yeterli olabilir. Karar noktası nettir: tomruk veya düzensiz uzun malzeme varsa özel ataşman değerlendirilir; standart paletli yük ağırlıklıysa gereksiz maliyetten kaçınılır. Depo içeriği teklif öncesinde sorulur." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kereste ve tomruk deposu forklift karar tablosu",
+                paragraflar: ["Tablo belirli bir depoyu anlatmaz; malzeme türüne göre genel ataşman ve dikkat noktalarını özetler."],
+                tablo: { basliklar: ["Malzeme türü", "Risk noktası", "Önerilen yaklaşım", "Dikkat edilecek durum"], satirlar: [["Uzun tomruk", "Kayma, düzensiz çap", "Kütük kıskacı/uzun çatal", "Yükleme yönü teyidi"], ["Kesilmiş kereste paketi", "Üst sırada denge", "Standart çatal, yükseklik sınırı", "İstif düzensizliği"], ["Talaş/kabuk zemin", "Tutunma kaybı", "Güzergâh değişimi", "Islak hava koşulu"], ["Karma nem oranı", "Ağırlık hesabı sapması", "Ayrı depolama alanı", "Operatöre önceden bildirim"], ["Standart palet yük", "Gereksiz ataşman maliyeti", "Standart forklift", "Depo içeriği teyidi"]] },
+            },
+            {
+                baslik: "İstif planını depo düzenine göre kurmak",
+                paragraflar: [
+                    "Kereste deposunda istif sırası genellikle malzeme boyutuna, kurutma durumuna ve sevkiyat sırasına göre planlanır. Forklift güzergâhı bu plana uyacak biçimde önceden çizilir; her istif arasında forkliftin dönebileceği bir boşluk bırakılır.",
+                    "Depo düzeni sahada zamanla değişebilir; yeni gelen tomruk veya kesim artığı güzergâhı daraltabilir. Operatör güzergâhta beklenmedik bir engel gördüğünde önce durur, güzergâhı yeniden değerlendirir; engeli aşmaya çalışmaz.",
+                ],
+            },
+            {
+                baslik: "Kabuk ve talaş artığının düzenli temizliği",
+                paragraflar: [
+                    "Forklift güzergâhında biriken kabuk ve talaş artığı yalnız tutunmayı değil, yükün görünürlüğünü de etkileyebilir. Yoğun kullanılan güzergâhların düzenli aralıklarla temizlenmesi önerilir; bu, saha yönetiminizin kendi bakım programının parçasıdır.",
+                    "Temizlik programı yoksa ve birikinti yoğunsa forklift o bölgede geçici olarak farklı bir güzergâh kullanır. Güvenli tutunma teyit edilmeden yüklü hâlde riskli bölgeden geçilmez.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Tomruklarımız düzensiz çapta; standart çatal yeterli olur mu?", cevap: "Genellikle yeterli olmaz. Düzensiz çaplı ve uzun tomruklar kütük kıskacı veya uzatılmış çatal gibi ataşmanla daha güvenli taşınır. Ortalama uzunluk, çap aralığı ve yükleme yönünü bildirirseniz uygun ataşmanı öneririz." },
+            { soru: "Kereste istifimiz yükseldikçe forklift görüşü yeterli oluyor mu?", cevap: "Üst sıralara çıkıldıkça görüş açısı ve denge payı azalır; istif yüksekliği makinenin kaldırma sınırı içinde tutulur. Üst sıraya düzenli erişim gerekiyorsa gözcü veya ayna desteği değerlendirilir; düzensiz sarkma gösteren bir istifin üstüne yeni yük eklenmez." },
+            { soru: "Depo zeminimizde kabuk ve talaş birikintisi var; sorun olur mu?", cevap: "Yoğun birikinti tekerlek tutunmasını azaltabilir, ıslak havada daha da kayganlaşabilir. Bu bölgelerde güzergâh değiştirilir veya önceden temizlenmesi istenir; birikinti durumunu teklif öncesinde paylaşmanız planlamayı kolaylaştırır." },
+            { soru: "Kurutulmuş ve kurutulmamış malzemeyi aynı forkliftle mi taşıyorsunuz?", cevap: "Aynı makine kullanılabilir ama iki grup ayrı alanlarda depolanmalı ve operatöre hangi grubun taşınacağı önceden bildirilmelidir; çünkü ağırlık ve nem farkı kapasite hesabını ve istif dengesini etkiler." },
+            { soru: "Her depo için özel ataşman gerekir mi?", cevap: "Hayır. Malzemeniz standart palet veya küçük kesme parçalarından oluşuyorsa standart bir forklift yeterli olabilir. Özel ataşman yalnızca uzun tomruk veya düzensiz malzeme varsa değerlendirilir; depo içeriğinizi paylaşırsanız gereksiz maliyetten kaçınırız." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Malzeme türünü (tomruk/kereste paketi), ortalama boyut ve ağırlık aralığını, istif yüksekliğini, zemin durumunu ve kurutulmuş-kurutulmamış ayrımı olup olmadığını paylaşın. Belirli bir depo veya kapasite varsaymayız; sağladığınız bilgiyle ataşman ve makine sınıfı netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun kereste ve orman ürünleri sanayisiyle bilinmesi kamuya açık genel bilgidir; ataşman seçimi, istif dengesi ve zemin değerlendirmesi firma saha pratiğidir. Tesis adı ve kapasite rakamı içermez.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bolu'da Mobilya Lojistik Deposu Yüksek Raf ve Çatı Hattı İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Bolu'daki mobilya üreticilerinin lojistik depoları, bitmiş ürünün sevkiyata hazırlanana kadar yüksek raf sistemlerinde bekletildiği geniş hacimli alanlardır. Bu depolarda çatı çelik konstrüksiyonu, üst raf aydınlatması, yangın algılama hattı ve çatı aspirasyon bacası gibi unsurlar zemin seviyesinden erişilemeyecek yükseklikte kalır; raf koridorları ise dar ve dolu olduğundan makaslı bir platform her zaman istenen noktaya kadar ilerleyemez. Eklemli platform (boom), mafsallı kolu sayesinde raf üstünden aşarak veya yan taraftan dolanarak hedefe ulaşabilir; bu, hem raf düzenini bozmadan hem de doğrudan dikey bir erişimin mümkün olmadığı noktalarda çalışmayı sağlar. Bu sayfada Bolu'daki mobilya lojistik depolarında boom platformun hangi durumlarda tercih edildiğini, raf koridoru ve çatı hattı çalışmalarında nelere dikkat edildiğini anlatıyoruz. Belirli bir depo adı veya raf kapasitesi iddiası içermez; anlatılan yaklaşım genel saha pratiğidir.",
+        maddeler: [
+            { baslik: "Raf üstünden aşarak erişim", metin: "Yüksek raf sistemlerinin üst kademesindeki aydınlatma veya sensör bakımı, raf önünden dikey bir makaslı platformla değil, mafsallı kolun raf üstünden aşarak hedefe ulaşmasıyla yapılabilir. Bu durumda raf üstündeki ürünlerin konumu ve yüksekliği önceden bilinmelidir; kolun geçiş güzergâhında ürüne temas riski varsa güzergâh değiştirilir veya ilgili raf bölümü geçici olarak boşaltılır." },
+            { baslik: "Dar raf koridorunda dönüş ve konumlandırma", metin: "Mobilya deposu raf koridorları genellikle forklift genişliğine göre tasarlanmıştır; boom platformun taban ölçüsü ve dönüş yarıçapı bu koridora göre değerlendirilir. Koridor boyunca istiflenmiş palet veya bekleyen ürün varsa güzergâh önceden netleştirilir; belirsiz bir koridorda makine rastgele ilerletilmez." },
+            { baslik: "Çatı çelik konstrüksiyonu ve aspirasyon bacası bakımı", metin: "Depo çatısındaki çelik kiriş bağlantı noktaları, aspirasyon bacası veya yangın algılama hattı bakımı, zemin seviyesinden ulaşılamayacak yükseklikte kalır. Boom platform, bu noktalara raf ve ekipman engellerini aşarak ulaşabilir; erişim zarfı, çatı yüksekliği ve yatay uzanım bilgisiyle önceden hesaplanır." },
+            { baslik: "Yangın algılama ve sprinkler hattı üstü çalışma", metin: "Depoların üst kısmındaki sprinkler ve yangın algılama hattı üzerinde çalışma yapılacaksa ilgili hattın devre dışı bırakılıp bırakılmayacağı, güvenlik ekibinin bilgilendirilip bilgilendirilmediği önceden netleştirilir. Sepet hat üzerine dayanmaz, bağlantı elemanlarına doğrudan yaslanılmaz." },
+            { baslik: "Standart makaslıya göre karar noktası", metin: "Boom platform her yükseklik işinin otomatik cevabı değildir. Erişim noktası doğrudan dikey bir yolla ulaşılabiliyorsa standart makaslı platform daha hızlı ve ekonomik olabilir. Karar noktası nettir: raf veya ekipman engeli erişimi dikey olmaktan çıkarıyorsa boom platform değerlendirilir; engel yoksa gereksiz maliyetten kaçınılır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mobilya lojistik deposu erişim senaryoları",
+                paragraflar: ["Tablo belirli bir depoyu anlatmaz; yüksek raf ve çatı hattı çalışmalarında tekrar eden erişim türlerini özetler."],
+                tablo: { basliklar: ["Senaryo", "Erişim engeli", "Kritik ölçü", "Alternatif"], satirlar: [["Raf üstü aydınlatma", "Doğrudan dikey erişim yok", "Raf yüksekliği, yatay uzanım", "Raf bölümünün boşaltılması"], ["Dar raf koridoru", "Taban ölçüsü/dönüş kısıtı", "Koridor genişliği", "Koridor dışından erişim"], ["Çatı çelik/baca bakımı", "Zeminden ulaşılamaz yükseklik", "Çatı yüksekliği, erişim zarfı", "Sabit iskele"], ["Sprinkler hattı üstü iş", "Enerji/hat devre dışı bırakma", "Hat konumu, güvenlik onayı", "Vardiya dışı çalışma"], ["Doğrudan dikey nokta", "Engel yok", "Standart yükseklik", "Standart makaslı platform"]] },
+            },
+            {
+                baslik: "Raf düzenini bozmadan çalışma planı",
+                paragraflar: [
+                    "Mobilya lojistik depolarında raf düzeninin geçici olarak bozulması sevkiyat programını etkileyebilir. Bu nedenle boom platformun güzergâhı, mümkün olduğunca raf içeriğine dokunmadan planlanır; yalnızca kolun geçiş hattında gerçek bir temas riski varsa ilgili bölüm geçici olarak boşaltılır.",
+                    "Raf içeriği ve güzergâh bilgisi netleşmeden çalışma başlamaz; belirsiz bir koridorda deneme amaçlı ilerleme yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Çatı hattı çalışmalarında güvenlik koordinasyonu",
+                paragraflar: [
+                    "Çatı çelik konstrüksiyonu veya aspirasyon bacası üzerinde çalışma yapılacaksa saha güvenlik ekibiyle önceden koordinasyon kurulur; hangi hatların devre dışı kalacağı ve sepetin hangi noktalara yaklaşabileceği netleştirilir.",
+                    "Yangın algılama veya sprinkler hattı üzerinde çalışma planlanıyorsa bu hattın durumu güvenlik ekibince teyit edilmeden sepet o bölgeye yönlendirilmez.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Yüksek rafımızın üstündeki aydınlatmaya nasıl erişilir?", cevap: "Boom platformun mafsallı kolu raf üstünden aşarak hedefe ulaşabilir. Bunun için raf üstündeki ürünlerin konumu ve yüksekliği önceden bilinmelidir; temas riski varsa ilgili bölüm geçici olarak boşaltılır veya güzergâh değiştirilir." },
+            { soru: "Raf koridorumuz dar; boom platform dönebilir mi?", cevap: "Taban ölçüsü ve dönüş yarıçapı koridor genişliğine göre değerlendirilir. Koridor boyunca istiflenmiş palet veya ürün varsa güzergâh önceden netleştirilir; belirsiz bir koridorda makine rastgele ilerletilmez." },
+            { soru: "Çatı çelik bağlantılarına nasıl ulaşıyorsunuz?", cevap: "Zemin seviyesinden ulaşılamayan çatı yüksekliğine boom platformun yatay ve dikey erişim zarfıyla ulaşılır. Çatı yüksekliği ve engel durumu önceden hesaplanır; erişim zarfı yetersizse farklı bir konumlandırma noktası değerlendirilir." },
+            { soru: "Sprinkler hattı üzerinde çalışma yapılırken hat kapatılıyor mu?", cevap: "Bu, saha güvenlik ekibinizle önceden netleştirilen bir karardır. İlgili hattın devre dışı bırakılıp bırakılmayacağı teyit edilmeden sepet o bölgeye yönlendirilmez; sepet hat üzerine dayanmaz." },
+            { soru: "Her yükseklik işi için boom platform mu gerekir?", cevap: "Hayır. Erişim noktası doğrudan dikey bir yolla ulaşılabiliyorsa standart makaslı platform daha hızlı ve ekonomik olabilir. Boom platform yalnızca raf veya ekipman engeli erişimi dikey olmaktan çıkarıyorsa değerlendirilir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Raf yüksekliğini, koridor genişliğini, hedefe olan yatay-dikey mesafeyi, çatı veya hat üstü çalışmaysa ilgili sistemin devre dışı bırakılıp bırakılamayacağını paylaşın. Belirli bir depo adı veya kapasite varsaymayız; sağladığınız bilgiyle erişim planı netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun mobilya sanayisiyle bilinmesi kamuya açık genel bilgidir; raf üstü erişim planı ve çatı hattı güvenlik koordinasyonu firma saha pratiğidir. Tesis adı, raf kapasitesi ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bolu'da Mobilya Atölyesi ve Kereste Deposu İç Mekân Platform Kiralama",
+        giris:
+            "Bolu'daki mobilya atölyeleri ve kereste depoları, üretim süreci boyunca genişleyerek büyümüş, kapalı hacimli yapılardır; boyahane, montaj hattı, cila bölümü ve kereste stok alanı genellikle aynı çatı altında ama farklı yükseklik ve düzenlerde yer alır. İç mekân platform kiralama, bu kapalı hacimlerde tavan aydınlatması, boya kabini havalandırma hattı, montaj hattı üstü aski sistemi veya depo raf üstü bakım gibi işler için doğru sınıfta bir platformun güvenli biçimde konumlandırılmasını kapsar. Kapalı bir mobilya atölyesinde toz, boya buharı ve talaş aynı anda bulunabileceğinden hem ekipman hazırlığı hem de havalandırma durumu ayrıca değerlendirilir. Bu sayfada Bolu'daki mobilya ve kereste tesislerinde iç mekân platform kullanımının hangi koşullara bağlı olduğunu, boya kabini ve montaj hattı gibi özel alanlarda nelere dikkat edildiğini anlatıyoruz. Belirli bir atölye adı veya rakamsal iddia içermez.",
+        maddeler: [
+            { baslik: "Boya kabini ve cila bölümü havalandırma hattı bakımı", metin: "Mobilya boyahanelerinde tavan havalandırma hattı ve filtre sistemi düzenli bakım gerektirir; bu alanlarda yanıcı boya buharı bulunabileceğinden platform girişi öncesinde havalandırmanın açık olduğu ve ortamın havalandırıldığı teyit edilir. Kıvılcım oluşturabilecek işlem, aksi belirtilmedikçe yapılmaz." },
+            { baslik: "Montaj hattı üstü aski ve konveyör bakımı", metin: "Mobilya montaj hattında parça taşıma askisi veya üstten hareket eden konveyör sistemi, hat çalışırken erişilemeyecek yükseklikte kalır. Bakım için hattın durdurulduğu ve enerjisinin kesildiği saha yetkilisince teyit edilir; sepet hat elemanlarına doğrudan yaslanmaz." },
+            { baslik: "Kereste deposu raf ve istif üstü erişim", metin: "Kapalı kereste depolarında raf sistemleri veya yüksek istifler arasında dar bir servis alanı bulunur. Platform bu alana girmeden önce istif yüksekliği ve düzeni kontrol edilir; dengesiz görünen bir istifin yakınında çalışma yapılmaz, önce istif düzeltilir." },
+            { baslik: "Tavan aydınlatması ve çatı iç yüzeyi bakımı", metin: "Atölye tavanındaki aydınlatma armatürü veya çatı iç yüzeyindeki yalıtım kontrolü, salon içindeki makine ve iş istasyonu düzenine göre planlanır. Makinelerin arasından geçecek güzergâh önceden belirlenir; iş istasyonları çalışır durumdaysa geçiş saatleri saha yönetimiyle koordine edilir." },
+            { baslik: "Toz ve boya buharı ortamında ekipman hazırlığı", metin: "Talaş tozu ve boya buharının aynı hacimde bulunabildiği atölyelerde platform, üretim alanına girmeden önce hareketli aksamı temizlenir ve topraklama koşulu değerlendirilir. Ortam havalandırma durumu yetersizse çalışma, havalandırmanın sağlandığı bir zamana ertelenir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mobilya ve kereste tesisi iç mekân erişim tablosu",
+                paragraflar: ["Tablo belirli bir tesisi anlatmaz; boyahane, montaj hattı ve depo gibi bölümlerde tekrar eden erişim türlerini özetler."],
+                tablo: { basliklar: ["Bölüm", "Erişim ihtiyacı", "Ön koşul", "Dikkat noktası"], satirlar: [["Boya kabini/cila", "Havalandırma hattı bakımı", "Havalandırma açık ve teyitli", "Kıvılcımsız çalışma"], ["Montaj hattı üstü", "Aski/konveyör bakımı", "Hat durdurma ve enerji kesme", "Hat elemanına yaslanmama"], ["Kereste raf/istif", "Raf üstü erişim", "İstif düzeni kontrolü", "Dengesiz istife yaklaşmama"], ["Tavan/çatı iç yüzeyi", "Aydınlatma, yalıtım kontrolü", "Makine arası güzergâh", "İş istasyonu koordinasyonu"], ["Genel üretim alanı", "Toz/buhar ortamı", "Ekipman temizliği, topraklama", "Havalandırma yeterliliği"]] },
+            },
+            {
+                baslik: "Havalandırma ve tutuşma riski değerlendirmesi",
+                paragraflar: [
+                    "Boya buharı bulunan bölümlerde çalışma öncesinde havalandırma sisteminin çalışır durumda olduğu ve ortamın yeterince havalandırıldığı teyit edilir. Bu teyit alınmadan platform boya kabini içine yönlendirilmez.",
+                    "Talaş tozu yoğun alanlarda ise statik elektrik birikimi ayrıca değerlendirilir; gerekli topraklama koşulu sağlanmadan kıvılcım oluşturabilecek herhangi bir işlem yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Üretim durdurmadan planlama yaklaşımı",
+                paragraflar: [
+                    "Mobilya atölyesinde her bakım işi üretimi tamamen durdurmayı gerektirmez; montaj hattının bir bölümü çalışırken diğer bölümünde platform çalışması planlanabilir. Bu ayrım, hangi hattın hangi saatte devre dışı kalacağının saha yönetiminizle netleştirilmesine bağlıdır.",
+                    "Belirsiz bir üretim programında platform hat çalışırken hat elemanlarına yaklaştırılmaz; önce ilgili bölümün durumu teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Boya kabini içinde platformla çalışmak güvenli mi?", cevap: "Havalandırma sisteminin çalışır durumda olduğu ve ortamın yeterince havalandırıldığı teyit edilmeden platform kabin içine yönlendirilmez. Kıvılcım oluşturabilecek işlem, aksi belirtilmedikçe yapılmaz. Kabin kullanım programınızı paylaşırsanız uygun bir çalışma penceresi belirleriz." },
+            { soru: "Montaj hattımız çalışırken üstündeki askiye bakım yapılabilir mi?", cevap: "Hattın durdurulduğu ve enerjisinin kesildiği saha yetkilinizce teyit edilmeden sepet hat elemanlarına yaklaştırılmaz. Hattın bir bölümü çalışırken diğer bölümünde çalışma planlanabilir; bu ayrımı sizinle birlikte netleştiririz." },
+            { soru: "Kereste deposundaki istifler arasında platform çalışabilir mi?", cevap: "Çalışabilir, ancak önce istif yüksekliği ve düzeni kontrol edilir. Dengesiz görünen bir istifin yakınında çalışma yapılmaz; önce istif düzeltilir, sonra platform o alana yönlendirilir." },
+            { soru: "Atölye tavanındaki aydınlatmaya nasıl erişiliyorsunuz?", cevap: "Salon içindeki makine ve iş istasyonu düzenine göre bir güzergâh belirlenir. İş istasyonları çalışır durumdaysa geçiş saatleri saha yönetiminizle koordine edilir; belirsiz bir güzergâhta makine rastgele ilerletilmez." },
+            { soru: "Talaş tozu yoğun atölyede platform kullanmak risk mi?", cevap: "Ek hazırlıkla kullanılabilir. Platform üretim alanına girmeden önce hareketli aksamı temizlenir, topraklama koşulu değerlendirilir. Havalandırma yetersizse çalışma, havalandırmanın sağlandığı bir zamana ertelenir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Çalışılacak bölümü (boyahane, montaj hattı, depo, tavan), tavan yüksekliğini, hattın durdurulup durdurulamayacağını ve ortamda toz/buhar bulunup bulunmadığını paylaşın. Belirli bir atölye adı veya kapasite varsaymayız; sağladığınız bilgiyle uygun sınıf ve çalışma penceresi netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun mobilya ve kereste sanayisiyle bilinmesi kamuya açık genel bilgidir; havalandırma teyidi, hat enerji kesme ve istif kontrolü firma saha pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bolu'da Kereste ve Mobilya Üretim Holü Genişletme İçin Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Bolu'daki kereste ve mobilya işletmeleri büyüdükçe mevcut atölyeye ek bir üretim holü, yeni bir kurutma fırını bölümü veya genişletilmiş bir depo hacmi inşa etme ihtiyacı doğar. Bu tür yeni yapıların çelik konstrüksiyon montajı — kiriş birleşimi, aşık bağlantısı, cephe kaplama ve çatı örtüsü işleri — genellikle mevcut üretim durmadan, hattın hemen yanı başında yürütülür. Çelik konstrüksiyon montaj platformu, bu işlerde kaynakçı ve montaj ekibinin güvenli, dengeli ve tekrar eden bir yükseklikte çalışmasını sağlar; sepet konumu kiriş hattı boyunca adım adım ilerletilir. Yeni yapı ile mevcut üretim alanı arasındaki sınırın net çizilmesi, hem inşaat güvenliği hem de üretim sürekliliği için belirleyicidir. Bu sayfada Bolu'daki kereste ve mobilya tesislerinde yeni hol veya genişletme montajında platform kullanımının hangi adımlardan oluştuğunu, mevcut üretimin nasıl korunduğunu anlatıyoruz. Belirli bir proje adı veya metrekare iddiası içermez.",
+        maddeler: [
+            { baslik: "Kiriş ve aşık hattı boyunca sıralı çalışma", metin: "Çelik konstrüksiyon montajında kiriş ve aşık bağlantıları belirli bir sıra ile ilerler; platform bu sıraya paralel olarak konumlandırılır. Her bağlantı noktası için sepetin ulaşacağı yükseklik ve yatay mesafe önceden planlanır; henüz sabitlenmemiş bir elemana sepet veya personel ağırlığı aktarılmaz." },
+            { baslik: "Mevcut üretim alanı ile inşaat sınırının ayrılması", metin: "Yeni hol mevcut atölyenin hemen yanında inşa ediliyorsa iki alan arasında geçici bir güvenlik sınırı oluşturulur. Platform güzergâhı bu sınırın inşaat tarafında kalır; mevcut üretim hattı çalışır durumdayken platform ve malzeme geçişi üretim alanına sarkmaz." },
+            { baslik: "Çatı örtüsü ve cephe kaplama montajı", metin: "Çelik iskelet tamamlandıktan sonra çatı paneli ve cephe kaplama montajı platform üzerinden yürütülür. Panel taşıma sırasında rüzgâr etkisi ve sepet dengesi ayrıca değerlendirilir; belirlenen rüzgâr sınırının üzerinde panel taşıma işi durdurulur." },
+            { baslik: "Yeni kurutma fırını veya depo bölümü temel-iskelet geçişi", metin: "Yeni bir kurutma fırını bölümü veya depo hacmi ekleniyorsa temel tamamlandıktan sonra iskelet montajı öncesinde zemin taşıma kapasitesi ve platform konumlandırma noktaları kontrol edilir. Beton henüz yeterli mukavemete ulaşmamışsa platform o bölgeye yönlendirilmez." },
+            { baslik: "Kaynak ve bağlantı işlerinde sepet konumu", metin: "Kaynak işlemi sırasında sepet, kaynak noktasına sabit ve dengeli bir açıyla yaklaştırılır; kaynakçının kendi ağırlığını sepet korkuluğuna aşırı yüklemesi önlenir. Kaynak sıçraması riski taşıyan bölgelerde yanıcı malzeme uzaklaştırılır ve gerekli yangın önlemi alınır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yeni hol montaj aşaması ve platform kullanım tablosu",
+                paragraflar: ["Tablo belirli bir projeyi anlatmaz; kereste ve mobilya tesislerinde yeni hol montajında tekrar eden aşamaları özetler."],
+                tablo: { basliklar: ["Aşama", "Platform kullanımı", "Ön koşul", "Durdurma nedeni"], satirlar: [["Kiriş/aşık montajı", "Sıralı yükseklik erişimi", "Bağlantı sırası netliği", "Sabitlenmemiş eleman"], ["İnşaat-üretim sınırı", "Sınır içi güzergâh", "Geçici güvenlik sınırı", "Sınır ihlali riski"], ["Çatı/cephe kaplama", "Panel taşıma erişimi", "Rüzgâr sınırı kontrolü", "Sınır üstü rüzgâr"], ["Yeni fırın/depo temeli", "İskelet montaj erişimi", "Beton mukavemet teyidi", "Yetersiz mukavemet"], ["Kaynak/bağlantı işi", "Sabit açı erişimi", "Yangın önlemi", "Sıçrama riski"]] },
+            },
+            {
+                baslik: "İnşaat ile üretimin aynı sahada birlikte yürümesi",
+                paragraflar: [
+                    "Yeni hol inşaatı sürerken mevcut üretim genellikle durmaz; bu durumda geçici bir sınır, malzeme geçiş güzergâhı ve gürültü-toz kontrolü saha yönetiminizle birlikte planlanır.",
+                    "Platform ve malzeme taşıma güzergâhı bu sınırın dışına çıkmaz; üretim tarafında beklenmedik bir geçiş ihtiyacı doğarsa önce saha yetkilisiyle koordine edilir.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr ve hava koşulu sınırları",
+                paragraflar: [
+                    "Açık alanda yürütülen çatı ve cephe montajında rüzgâr hızı düzenli izlenir; platform üreticisinin belirlediği sınırın üzerinde panel taşıma veya yüksek sepet konumlandırma işi durdurulur.",
+                    "Yağış veya don koşulunda çelik yüzeyler kayganlaşabilir; bu durumda kaynak ve bağlantı işleri, yüzey kuru ve güvenli hâle gelene kadar ertelenir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Yeni hol inşaatı sırasında mevcut üretim durmak zorunda mı?", cevap: "Genellikle hayır. Geçici bir güvenlik sınırı oluşturulur ve platform güzergâhı bu sınırın inşaat tarafında tutulur; mevcut üretim hattı sınırın diğer tarafında çalışmaya devam edebilir. Sınırın nereden geçeceğini saha yönetiminizle birlikte belirleriz." },
+            { soru: "Kiriş ve aşık montajında sepet hangi sırayla ilerler?", cevap: "Bağlantı sırasına paralel olarak; her nokta için sepetin ulaşacağı yükseklik ve yatay mesafe önceden planlanır. Henüz sabitlenmemiş bir kiriş veya aşığa sepet ya da personel ağırlığı aktarılmaz." },
+            { soru: "Çatı panel montajında rüzgâr bir sorun oluşturur mu?", cevap: "Evet, açık alanda panel taşıma rüzgâr etkisine duyarlıdır. Rüzgâr hızı düzenli izlenir; üreticinin belirlediği sınırın üzerinde panel taşıma işi durdurulur ve hava koşulu uygun hâle gelene kadar beklenir." },
+            { soru: "Yeni kurutma fırını temeli üzerinde ne zaman çalışabiliriz?", cevap: "Beton yeterli mukavemete ulaşmadan platform o bölgeye yönlendirilmez. Temel tamamlandıktan ve mukavemet teyit edildikten sonra zemin taşıma kapasitesi kontrol edilir, ardından iskelet montajına geçilir." },
+            { soru: "Kaynak işlerinde yangın riski nasıl yönetiliyor?", cevap: "Kaynak sıçraması riski taşıyan bölgelerde yanıcı malzeme önceden uzaklaştırılır ve gerekli yangın önlemi alınır. Sepet kaynak noktasına sabit ve dengeli bir açıyla yaklaştırılır; korkuluğa aşırı yük bindirilmez." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Yeni yapının mevcut üretime yakınlığını, çelik iskeletin yaklaşık yüksekliğini, montaj sırasının netliğini ve açık alanda mı kapalı alanda mı çalışılacağını paylaşın. Belirli bir proje adı veya metrekare varsaymayız; sağladığınız bilgiyle platform sınıfı ve güvenlik sınırı netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'daki kereste ve mobilya işletmelerinin büyüyerek yeni üretim holü inşa etmesi kamuya açık genel bilgidir; inşaat-üretim sınırı ayrımı ve rüzgâr sınırı uygulaması firma saha pratiğidir. Proje adı ve metrekare iddiası içermez.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bolu'da Orman Ürünleri Talaş ve Yonga Silosu Platform Kiralama",
+        giris:
+            "Kereste ve mobilya üretiminin yan ürünü olan talaş, yonga ve kabuk artıkları Bolu'daki tesislerde çoğunlukla dikey silolarda toplanır; bu siloların üst kapağı, dolum ağzı ve seviye sensörü bakımı zemin seviyesinden erişilemeyecek yükseklikte kalır. Silo platform kiralama hizmeti, bu dikey yapıların çevresinde ve üstünde güvenli bakım erişimi sağlar. Talaş silosu çevresi genellikle toz birikimine açık, bazen dar bir servis alanına sahiptir; silo gövdesine yakın çalışmada düşen malzeme, statik elektrik ve sınırlı görüş gibi unsurlar ayrıca değerlendirilir. Bu sayfada Bolu'daki orman ürünleri tesislerinde talaş ve yonga silosu bakımında platform kullanımının hangi koşullara bağlı olduğunu, toz ortamı hazırlığının nasıl yapıldığını anlatıyoruz. Belirli bir tesis adı veya silo kapasitesi iddiası içermez.",
+        maddeler: [
+            { baslik: "Silo üst kapağı ve dolum ağzı erişimi", metin: "Talaş ve yonga silosunun üst kapağı ile dolum ağzı, silo yüksekliğine bağlı olarak zemin seviyesinden ulaşılamayacak noktada kalır. Platform bu noktaya güvenli bir açıyla yaklaştırılır; dolum işlemi devam ediyorsa çalışma, dolumun durduğu bir pencereye kaydırılır." },
+            { baslik: "Seviye sensörü ve alarm sistemi bakımı", metin: "Silo dolum seviyesini izleyen sensörler genellikle silo gövdesinin üst kısmında yer alır. Bakım öncesinde sensörün besleme hattının kesildiği teyit edilir; sepet sensöre doğrudan yaslanmadan, güvenli mesafeden erişim sağlar." },
+            { baslik: "Silo çevresinde dar servis alanı", metin: "Bazı tesislerde silolar art arda veya birbirine yakın dizilmiştir; aradaki servis alanı standart bir platformun rahat dönemeyeceği kadar dar olabilir. Bu durumda platform sınıfı, servis alanının genişliği ve komşu silonun konumu bilgisiyle seçilir." },
+            { baslik: "Toz birikimi ve statik elektrik riski", metin: "Talaş ve yonga tozu, silo çevresinde ince bir tabaka hâlinde birikebilir; bu ortamda statik elektrik birikimi riski değerlendirilir. Gerekli topraklama koşulu sağlanmadan kıvılcım oluşturabilecek işlem yapılmaz; platform üretim alanına girmeden önce hareketli aksamı temizlenir." },
+            { baslik: "Düşen malzeme ve görüş kısıtı altında çalışma", metin: "Silo dolum veya boşaltım sırasında havada asılı kalan ince malzeme görüşü azaltabilir. Aktif dolum-boşaltım sırasında sepet silo ağzına yaklaştırılmaz; çalışma, sistemin durduğu ve görüşün netleştiği bir zamana planlanır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Talaş ve yonga silosu bakım erişim tablosu",
+                paragraflar: ["Tablo belirli bir siloyu anlatmaz; orman ürünleri tesislerinde tekrar eden silo bakım senaryolarını özetler."],
+                tablo: { basliklar: ["Senaryo", "Erişim ihtiyacı", "Ön koşul", "Durdurma nedeni"], satirlar: [["Üst kapak/dolum ağzı", "Dikey erişim", "Dolumun durması", "Aktif dolum"], ["Seviye sensörü", "Gövde üstü erişim", "Besleme hattı kesme teyidi", "Enerji teyidi yok"], ["Silolar arası dar alan", "Yatay konumlandırma", "Servis alanı genişliği bilgisi", "Belirsiz komşu silo"], ["Toz birikimi bölgesi", "Topraklama", "Ekipman temizliği", "Kıvılcım riski"], ["Dolum/boşaltım anı", "Görüş netliği", "Sistem durdurma", "Görüş kısıtı"]] },
+            },
+            {
+                baslik: "Dolum programıyla bakım penceresini eşleştirmek",
+                paragraflar: [
+                    "Silo bakımı, dolum ve boşaltım programının en sakin olduğu bir pencerede planlanır. Tesisinizin dolum takvimini paylaşırsanız çalışma bu takvime göre önerilir; aktif dolum sırasında sepet silo ağzına yaklaştırılmaz.",
+                    "Belirsiz bir dolum programında varsayılan bir saat kullanılmaz; önce saha yetkilinizle o günkü program teyit edilir.",
+                ],
+            },
+            {
+                baslik: "Toz ortamına özgü ekipman hazırlığı",
+                paragraflar: [
+                    "Silo çevresinde biriken ince talaş ve yonga tozu, platformun mafsallı ve paletli aksamına diğer ortamlara göre daha kolay nüfuz eder. Çalışma öncesinde bu aksam temizlenir ve kontrol edilir.",
+                    "Statik elektrik birikimi riski taşıyan bölgelerde topraklama koşulu sağlanmadan kıvılcım oluşturabilecek herhangi bir işlem yapılmaz; bu koşul saha yönetiminizle birlikte netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Silo üst kapağına bakım için nasıl erişiyorsunuz?", cevap: "Platform silo yüksekliğine uygun bir sınıfla üst kapağa güvenli bir açıyla yaklaştırılır. Dolum işlemi devam ediyorsa çalışma dolumun durduğu bir pencereye kaydırılır; aktif dolum sırasında sepet silo ağzına yaklaştırılmaz." },
+            { soru: "Seviye sensörü bakımında enerji kesiliyor mu?", cevap: "Bakım öncesinde sensörün besleme hattının kesildiği saha yetkilinizce teyit edilir. Bu teyit alınmadan sepet sensöre doğrudan yaslanmaz; güvenli mesafeden erişim planlanır." },
+            { soru: "Silolarımız birbirine yakın; platform aralarına girebilir mi?", cevap: "Servis alanının genişliği ve komşu silonun konumu bilgisiyle uygun platform sınıfı belirlenir. Bu bilgi verilmeden standart bir makine varsayılmaz; dar alanlarda gerekirse daha kompakt bir sınıf önerilir." },
+            { soru: "Talaş tozu yoğun silo çevresinde çalışmak risk mi?", cevap: "Ek hazırlıkla çalışılabilir. Platform üretim alanına girmeden önce hareketli aksamı temizlenir, topraklama koşulu değerlendirilir. Koşul sağlanmadan kıvılcım oluşturabilecek işlem yapılmaz." },
+            { soru: "Dolum veya boşaltım sırasında bakım yapılabilir mi?", cevap: "Hayır, aktif dolum-boşaltım sırasında havada asılı malzeme görüşü azaltabileceğinden sepet silo ağzına yaklaştırılmaz. Çalışma, sistemin durduğu ve görüşün netleştiği bir zamana planlanır." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Silo yüksekliğini, çevresindeki servis alanı genişliğini, dolum programınızı ve toz yoğunluğu durumunu paylaşın. Belirli bir tesis adı veya kapasite varsaymayız; sağladığınız bilgiyle uygun platform sınıfı ve çalışma penceresi netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'daki orman ürünleri tesislerinde talaş ve yonga silolarının bulunması kamuya açık genel bilgidir; dolum programı koordinasyonu ve toz ortamı hazırlığı firma saha pratiğidir. Tesis adı ve silo kapasitesi iddiası içermez.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bolu'da Mobilya Montaj Hattı Aydınlatma ve Enerji Bakım Platformu Kiralama",
+        giris:
+            "Mobilya montaj hatlarında iş kalitesi büyük ölçüde aydınlatmaya bağlıdır; renk kontrolü, cila kalitesi ve montaj hassasiyeti yeterli ışık olmadan doğru değerlendirilemez. Bolu'daki mobilya tesislerinde hat üstü aydınlatma armatürleri, enerji dağıtım hattı ve pano bağlantıları genellikle hattın hemen üstünde, sabit bir yürüme platformu olmayan bir yükseklikte konumlanır. Enerji ve aydınlatma bakım platformu, bu armatür ve hat elemanlarına hat durdurulup enerjisi kesildikten sonra güvenli erişim sağlar. Montaj hattının kesintisiz çalışma baskısı nedeniyle bakım genellikle planlı bir duruş penceresinde, önceden belirlenen bir sırayla yürütülür. Bu sayfada Bolu'daki mobilya montaj tesislerinde aydınlatma ve enerji hattı bakımının hangi adımlardan oluştuğunu, enerji kesme disiplininin nasıl uygulandığını anlatıyoruz. Belirli bir tesis adı veya armatür sayısı iddiası içermez.",
+        maddeler: [
+            { baslik: "Hat üstü armatür değişimi ve temizliği", metin: "Montaj hattı üzerindeki aydınlatma armatürleri zamanla toz ve talaş birikintisiyle ışık verimini kaybedebilir. Değişim veya temizlik öncesinde ilgili hattın enerjisinin kesildiği teyit edilir; sepet armatüre doğrudan yaslanmadan güvenli mesafeden erişim sağlar." },
+            { baslik: "Enerji dağıtım hattı ve pano bağlantı kontrolü", metin: "Hat üstünde seyreden enerji dağıtım kablosu ve ara pano bağlantıları düzenli görsel kontrol gerektirir. Bu kontrol sırasında ilgili devrenin etiketlenmiş ve kilitlenmiş olduğu (kilitle-etiketle uygulaması) saha elektrik sorumlusunca teyit edilir; teyit alınmadan bağlantıya dokunulmaz." },
+            { baslik: "Planlı duruş penceresinde sıralı bakım", metin: "Montaj hattının planlı duruş saatleri genellikle sınırlıdır; bu pencerede birden fazla armatür veya hat noktası sıralı biçimde ele alınır. Sıra, hattın en kritik noktasından başlayarak önceden belirlenir; pencere kapanmadan tamamlanamayan işler bir sonraki plana ertelenir, acele ile enerjili çalışmaya geçilmez." },
+            { baslik: "Hat elemanlarına yaslanmadan çalışma", metin: "Sepet, aydınlatma rayı veya kablo kanalı gibi hat elemanlarına ağırlık aktarmadan kendi dengesiyle konumlanır. Hat elemanının taşıma kapasitesi bilinmeden üzerine yük bindirilmez; gerekiyorsa erişim açısı değiştirilerek hedefe farklı bir yönden yaklaşılır." },
+            { baslik: "Standart yükseklikte iş için karar noktası", metin: "Her aydınlatma bakımı özel bir platform gerektirmez; hat yüksekliği düşükse ve engelsiz bir erişim varsa daha küçük ve hızlı bir sınıf yeterli olabilir. Karar noktası hattın yüksekliği, engel durumu ve planlı duruş penceresinin süresine göre netleştirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj hattı aydınlatma ve enerji bakım tablosu",
+                paragraflar: ["Tablo belirli bir hattı anlatmaz; mobilya montaj hatlarında tekrar eden aydınlatma ve enerji bakım senaryolarını özetler."],
+                tablo: { basliklar: ["İş türü", "Ön koşul", "Erişim yaklaşımı", "Durdurma nedeni"], satirlar: [["Armatür değişimi/temizlik", "Hat enerjisi kesme teyidi", "Güvenli mesafeden erişim", "Enerji teyidi yok"], ["Pano/kablo kontrolü", "Kilitle-etiketle uygulaması", "Dokunmadan görsel kontrol", "Teyit eksikliği"], ["Planlı duruş bakımı", "Sıra önceden belirlenmiş", "Kritik noktadan başlama", "Pencere kapanması"], ["Hat elemanı yakını iş", "Taşıma kapasitesi bilgisi", "Dengeli, yaslanmadan erişim", "Kapasite belirsizliği"], ["Düşük yükseklik işi", "Engelsiz erişim", "Küçük/hızlı sınıf", "Engel varlığı"]] },
+            },
+            {
+                baslik: "Kilitle-etiketle uygulamasının çalışma öncesi teyidi",
+                paragraflar: [
+                    "Enerji hattı üzerinde veya yakınında yapılacak her işte ilgili devrenin kilitlenip etiketlendiği saha elektrik sorumlusunca teyit edilir. Bu teyit sözlü değil, saha prosedürünüze uygun yazılı veya sistematik bir onay biçiminde alınır.",
+                    "Teyit alınmadan hiçbir bağlantıya dokunulmaz, sepet devre elemanına yaklaştırılmaz. Teyit sürecinde gecikme olursa çalışma ertelenir; enerjili varsayımla ilerlenmez.",
+                ],
+            },
+            {
+                baslik: "Planlı duruş penceresini verimli kullanmak",
+                paragraflar: [
+                    "Montaj hattının duruş penceresi genellikle sınırlıdır; bu pencerede yapılacak işler önceden bir sıraya konur ve en kritik nokta ilk ele alınır. Pencere süresi ve iş listesi saha yönetiminizle birlikte netleştirilir.",
+                    "Pencere kapanmadan tamamlanamayan bir iş varsa, hat yeniden çalıştırılmadan önce güvenli bir noktada bırakılır ve bir sonraki plana ertelenir; hattı geciktirmek pahasına acele ile enerjili çalışmaya geçilmez.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Hat üstü armatür değişimi sırasında hat durur mu?", cevap: "İlgili hattın enerjisinin kesildiği teyit edilmeden armatüre erişim sağlanmaz. Genellikle planlı bir duruş penceresinde yapılır; hat çalışırken armatüre müdahale edilmez." },
+            { soru: "Pano ve kablo kontrolünde nasıl bir güvenlik prosedürü izleniyor?", cevap: "İlgili devrenin kilitlenip etiketlendiği saha elektrik sorumlunuzca teyit edilir; bu teyit alınmadan bağlantıya dokunulmaz. Kontrol genellikle dokunmadan görsel olarak yapılır." },
+            { soru: "Planlı duruş penceresi kısa; tüm armatürleri bu sürede bitirebilir misiniz?", cevap: "Pencere süresine göre bir sıra önceden belirlenir ve en kritik nokta ilk ele alınır. Pencere kapanmadan tamamlanamayan işler güvenli bir noktada bırakılıp bir sonraki plana ertelenir; acele ile enerjili çalışmaya geçilmez." },
+            { soru: "Sepet aydınlatma rayına yaslanabilir mi?", cevap: "Hayır. Hat elemanının taşıma kapasitesi bilinmeden üzerine yük bindirilmez; sepet kendi dengesiyle konumlanır. Gerekirse erişim açısı değiştirilerek hedefe farklı yönden yaklaşılır." },
+            { soru: "Düşük yükseklikteki aydınlatma için büyük platform mu gerekir?", cevap: "Hayır. Hat yüksekliği düşük ve engelsiz bir erişim varsa daha küçük ve hızlı bir sınıf yeterli olabilir. Karar, hattın yüksekliği, engel durumu ve duruş penceresi süresine göre netleştirilir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Hattın yüksekliğini, planlı duruş penceresinin süresini, kilitle-etiketle prosedürünüzün olup olmadığını ve armatür/hat noktası sayısını paylaşın. Belirli bir tesis adı veya sayısal iddia varsaymayız; sağladığınız bilgiyle uygun sınıf ve sıra netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'daki mobilya montaj hatlarının aydınlatma ve enerji bakımı gerektirmesi genel bir üretim gerçeğidir; kilitle-etiketle teyidi ve planlı duruş penceresi yaklaşımı firma saha pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bolu'da Orman Ürünleri Sanayisinde Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Bolu'daki kereste, orman ürünleri ve mobilya işletmelerinde platform ihtiyacı, işin süresine, tekrarına ve sahanın karmaşıklığına göre değişir; kimi zaman tek seferlik ve kısa bir bakım işi için operatörsüz kiralama yeterliyken, kimi zaman kurutma fırını çevresi veya yüksek raf sistemi gibi karmaşık bir ortamda deneyimli bir operatörün makineyi yönetmesi daha güvenli olur. Operatörlü / operatörsüz platform kiralama hizmeti, bu iki seçenek arasındaki kararı işin niteliğine göre netleştirmeyi amaçlar. Operatörsüz kiralamada işletmenin kendi personeli, gerekli eğitim ve belgeye sahipse makineyi kullanır; operatörlü kiralamada ise deneyimli bir operatör hem makineyi yönetir hem de sahaya özgü riskleri (toz ortamı, dar geçiş, enerji hattı yakınlığı) değerlendirir. Bu sayfada Bolu'daki orman ürünleri sanayisinde bu kararın hangi kriterlere göre verildiğini anlatıyoruz. Belirli bir tesis adı veya operatör sayısı iddiası içermez.",
+        maddeler: [
+            { baslik: "İşin süresi ve tekrarına göre karar", metin: "Tek seferlik, kısa süreli ve standart bir ortamda yapılacak iş için operatörsüz kiralama genellikle yeterlidir; işletmenin kendi eğitimli personeli makineyi kullanabilir. Uzun süreli, tekrar eden veya vardiya boyunca sürecek bir iş için operatörlü kiralama, sürekli değişen saha koşullarına daha hızlı uyum sağlar." },
+            { baslik: "Toz ve talaş ortamına özgü değerlendirme", metin: "Kereste ve mobilya tesislerinde talaş tozu, statik elektrik riski ve topraklama koşulu, deneyimsiz bir kullanıcı için ek bir karar yükü oluşturabilir. Bu tür ortamlarda operatörlü kiralama, riskin sahada anlık değerlendirilmesini kolaylaştırır." },
+            { baslik: "Dar geçiş ve karmaşık güzergâhlarda operatör deneyimi", metin: "Kurutma fırınları arası dar şerit, raf koridoru veya orman yolu bağlantılı bir sahada güzergâh kararı sürekli değişebilir. Operatörlü kiralamada bu kararlar deneyimli bir kişi tarafından anlık verilir; operatörsüz kiralamada ise işletmenin personeli güzergâh değişikliklerini kendi değerlendirmesiyle yönetir." },
+            { baslik: "Enerji hattı ve kilitle-etiketle prosedürüne aşinalık", metin: "Aydınlatma veya enerji hattı yakınında çalışma yapılacaksa kilitle-etiketle prosedürüne aşina bir operatör, teyit sürecini daha hızlı ve güvenli yönetebilir. İşletmenin kendi personeli bu prosedüre yeterince aşina değilse operatörlü kiralama önerilir." },
+            { baslik: "Belgeli kullanıcı ve eğitim koşulu", metin: "Operatörsüz kiralamada makineyi kullanacak personelin geçerli eğitim belgesine sahip olması ön koşuldur; bu belge teyit edilmeden makine operatörsüz teslim edilmez. Belge durumu belirsizse operatörlü kiralama önerilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü / operatörsüz karar tablosu",
+                paragraflar: ["Tablo belirli bir tesisi anlatmaz; orman ürünleri sanayisinde tekrar eden karar kriterlerini özetler."],
+                tablo: { basliklar: ["Kriter", "Operatörsüz uygun", "Operatörlü önerilir", "Belirleyici bilgi"], satirlar: [["İş süresi", "Kısa/tek seferlik", "Uzun/vardiya boyu", "Planlanan süre"], ["Ortam", "Standart, düşük risk", "Toz/statik riski yüksek", "Ortam tanımı"], ["Güzergâh", "Sabit, basit", "Dar/karmaşık, değişken", "Saha planı"], ["Enerji hattı yakınlığı", "Yok/uzak", "Var, kilitle-etiketle gerekli", "Hat konumu"], ["Personel belgesi", "Geçerli belge mevcut", "Belge belirsiz/yok", "Belge teyidi"]] },
+            },
+            {
+                baslik: "Belge teyidi ve sorumluluk sınırı",
+                paragraflar: [
+                    "Operatörsüz kiralamada makineyi kullanacak personelin eğitim belgesi teklif aşamasında sorulur; belge teyit edilmeden makine operatörsüz teslim edilmez. Bu, hem işletmenin hem de ekibin güvenliği için ilk koşuldur.",
+                    "Belge mevcut olsa da saha koşulları karmaşıksa (dar geçiş, enerji hattı yakınlığı, toz ortamı) operatörlü seçenek yine de önerilebilir; nihai karar sahanın gerçek koşuluna göre birlikte netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Vardiya boyunca süren işlerde operatör sürekliliği",
+                paragraflar: [
+                    "Uzun süreli bir bakım programında aynı operatörün sahayı tanıması, her gün yeniden risk değerlendirmesi yapmaktan daha verimlidir. Operatörlü kiralamada mümkün olduğunda aynı operatör program boyunca sahada tutulur.",
+                    "Operatör değişimi gerekiyorsa yeni operatöre saha bilgisi ve önceki gün tespit edilen riskler devredilir; sıfırdan bir değerlendirmeyle değil, birikmiş bilgiyle çalışmaya devam edilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Kısa süreli bir bakım işi için operatörsüz kiralama yeterli mi?", cevap: "Genellikle evet, iş standart bir ortamda ve kısa süreliyse. İşletmenizin personeli geçerli eğitim belgesine sahipse operatörsüz kiralama uygundur; belge teyit edilmeden makine operatörsüz teslim edilmez." },
+            { soru: "Toz yoğun bir ortamda operatörlü kiralama şart mı?", cevap: "Zorunlu değil ama önerilir. Talaş tozu, statik elektrik riski ve topraklama koşulu deneyimsiz bir kullanıcı için ek karar yükü oluşturabilir; deneyimli bir operatör bu riski sahada daha hızlı değerlendirir." },
+            { soru: "Kurutma fırınları arasındaki dar güzergâhta kim karar veriyor?", cevap: "Operatörlü kiralamada güzergâh kararını deneyimli operatör anlık verir. Operatörsüz kiralamada bu karar işletmenizin personeline aittir; güzergâh karmaşıksa operatörlü seçenek önerilir." },
+            { soru: "Enerji hattı yakınında çalışacaksak hangi seçenek daha uygun?", cevap: "Kilitle-etiketle prosedürüne aşina bir operatör teyit sürecini daha hızlı yönetir. Personeliniz bu prosedüre yeterince aşina değilse operatörlü kiralamayı öneririz." },
+            { soru: "Operatörsüz kiralamada belge kontrolü nasıl yapılıyor?", cevap: "Makineyi kullanacak personelin geçerli eğitim belgesi teklif aşamasında sorulur ve teyit edilir. Belge teyit edilmeden makine operatörsüz teslim edilmez; belge durumu belirsizse operatörlü kiralama önerilir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "İşin süresini, ortam koşulunu (toz, enerji hattı yakınlığı), güzergâhın karmaşıklığını ve personelinizin belge durumunu paylaşın. Belirli bir tesis adı veya operatör sayısı varsaymayız; sağladığınız bilgiyle operatörlü/operatörsüz karar birlikte netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun orman ürünleri ve mobilya sanayisiyle bilinmesi kamuya açık genel bilgidir; operatörlü/operatörsüz karar kriterleri ve belge teyidi firma saha pratiğidir. Tesis adı ve operatör sayısı iddiası içermez.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bolu'da Orman Ürünleri OSB Çok Noktalı Rota Bakım Platformu Hizmeti",
+        giris:
+            "Bolu'nun orman ürünleri, kereste ve mobilya sanayisine ayrılmış organize sanayi bölgesinde birden fazla işletme aynı bölgede, birbirine yakın parsellerde faaliyet gösterir. Bu işletmelerden her biri kendi bakım ihtiyacını ayrı ayrı planladığında, aynı bölgeye tek tek platform göndermek hem maliyet hem de zaman açısından verimsiz olur. Çok noktalı rota bakım platformu hizmeti, aynı OSB içindeki birden fazla işletmenin aydınlatma, çatı, cephe veya hat üstü bakım ihtiyacını tek bir güzergâh planında birleştirir; platform bir parselden diğerine geçerken günlük bir rota izler. Bu sayede her işletme ayrı bir teslimat ve montaj süresi ödemek yerine, ortak bir rota içindeki payına düşen süreyi öder. Bu sayfada Bolu OSB'sindeki orman ürünleri işletmelerinde çok noktalı rota planlamasının nasıl kurulduğunu, sıra ve zamanlamanın nasıl belirlendiğini anlatıyoruz. Belirli bir OSB adı, işletme sayısı veya güzergâh mesafesi iddiası içermez.",
+        maddeler: [
+            { baslik: "Bölgedeki işletmelerin ortak rotada birleştirilmesi", metin: "Aynı sanayi bölgesinde yer alan birden fazla kereste, mobilya veya orman ürünleri işletmesinin bakım ihtiyacı, coğrafi yakınlığa göre tek bir günlük rotada birleştirilir. Her işletmenin iş kapsamı önceden ayrı ayrı netleştirilir; rota sırası parsel konumuna ve iş süresine göre planlanır." },
+            { baslik: "Parseller arası geçiş süresinin rotaya dahil edilmesi", metin: "OSB içindeki parseller arası mesafe kısa olsa da geçiş için gereken süre, günlük rota planına dahil edilir. Bir parseldeki iş beklenenden uzun sürerse sonraki işletmelere bu gecikme önceden bildirilir; rota katı bir saatle değil, gerçekçi bir aralıkla planlanır." },
+            { baslik: "Her işletmenin kendi giriş ve güvenlik kuralı", metin: "OSB içindeki her işletmenin kendi giriş prosedürü, güvenlik ekipmanı zorunluluğu veya ziyaretçi kaydı olabilir. Rota planlanırken her durak için bu kurallar önceden sorulur; belirsiz bir kural varsayılmaz, sahaya varmadan teyit edilir." },
+            { baslik: "Ortak rotanın maliyet ve zaman avantajı", metin: "Platformun bir kereste fabrikasından komşu mobilya atölyesine geçmesi, ayrı ayrı teslimat ve montaj sürecinden daha kısa sürer. Bu fark, aynı gün içinde birden fazla işletmenin bakımını birleştirdiğinde her işletmenin ödeyeceği süreye yansır." },
+            { baslik: "Tek işletmelik iş için rota dışı planlama", metin: "Her iş çok noktalı rotaya uygun değildir; bölgede tek başına ihtiyaç varsa veya komşu işletmelerin programı uyuşmuyorsa standart tekli kiralama daha uygun olabilir. Karar, bölgedeki diğer işletmelerin o günkü talebine bağlıdır; talep yoksa rota zorlanmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB çok noktalı rota planlama tablosu",
+                paragraflar: ["Tablo belirli bir OSB'yi anlatmaz; orman ürünleri sanayi bölgesinde tekrar eden rota planlama unsurlarını özetler."],
+                tablo: { basliklar: ["Unsur", "Neden önemli", "Belirsizse ne olur", "Netleştiğinde sonuç"], satirlar: [["İşletme sayısı ve iş kapsamı", "Rota sırası ve süresi", "Tekli plan yapılır", "Ortak rota kurulur"], ["Parseller arası geçiş süresi", "Gerçekçi zamanlama", "Katı saat varsayılmaz", "Esnek aralık planı"], ["Giriş/güvenlik kuralı", "Duraklarda gecikme riski", "Sahada teyit beklenir", "Sorunsuz geçiş"], ["Program uyumu", "Rota verimliliği", "Rota dışı planlama", "Maliyet-zaman avantajı"], ["Tek işletme talebi", "Rota gerekliliği", "Standart tekli kiralama", "Gereksiz rota zorlaması yok"]] },
+            },
+            {
+                baslik: "Komşu işletmelerle program koordinasyonu",
+                paragraflar: [
+                    "Çok noktalı rota, aynı bölgedeki komşu işletmelerin bakım programlarının benzer bir zaman dilimine denk gelmesiyle anlamlı hâle gelir. Bu koordinasyon, işletmelerin kendi aralarında değil, hizmeti veren tarafın günlük rota planlamasıyla sağlanır.",
+                    "Bir işletmenin programı diğerleriyle uyuşmuyorsa o işletme için ayrı bir tarih planlanır; rota zorla oluşturulmaz, her işletmenin kendi ihtiyacı önceliklidir.",
+                ],
+            },
+            {
+                baslik: "Rota içinde gecikme yönetimi",
+                paragraflar: [
+                    "Bir duraktaki iş beklenenden uzun sürebilir; bu durumda sonraki duraktaki işletmeye gecikme önceden bildirilir ve yeni bir tahmini saat paylaşılır. Amaç, her işletmenin kendi üretim planını buna göre ayarlayabilmesidir.",
+                    "Gecikme birikirse günün rotası yeniden değerlendirilir; bazı duraklar bir sonraki güne ertelenebilir. Bu karar ilgili işletmelerle birlikte, sahada değil önceden konuşularak alınır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Çok noktalı rota nasıl kuruluyor?", cevap: "Aynı sanayi bölgesindeki birden fazla işletmenin bakım ihtiyacı, coğrafi yakınlık ve iş süresine göre tek bir günlük rotada birleştirilir. Her işletmenin iş kapsamı önceden ayrı ayrı netleştirilir; rota sırası buna göre planlanır." },
+            { soru: "Parseller arası geçiş süresi rotayı etkiler mi?", cevap: "Evet, bu süre günlük rota planına dahil edilir. Bir parseldeki iş uzarsa sonraki işletmelere gecikme önceden bildirilir; rota katı bir saatle değil, gerçekçi bir aralıkla planlanır." },
+            { soru: "Her işletmenin farklı giriş kuralı varsa rota aksar mı?", cevap: "Aksamaması için her durak için giriş prosedürü, güvenlik ekipmanı ve ziyaretçi kaydı önceden sorulur ve sahaya varmadan teyit edilir. Belirsiz bir kural varsayılmaz." },
+            { soru: "Ortak rota bize gerçekten maliyet avantajı sağlar mı?", cevap: "Genellikle evet; platformun komşu işletmeye geçmesi ayrı ayrı teslimat ve montaj sürecinden daha kısa sürer. Bu fark, aynı gün birden fazla işletmenin bakımı birleştiğinde her işletmenin ödeyeceği süreye yansır." },
+            { soru: "Bölgede tek başımıza ihtiyacımız varsa rotaya dahil edilir miyiz?", cevap: "Komşu işletmelerin programı uyuşmuyorsa veya talep yoksa standart tekli kiralama önerilir; rota zorla oluşturulmaz. Talebinizi paylaşırsanız o gün için uygun bir komşu işletme olup olmadığına bakarız." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "İşletmenizin bulunduğu sanayi bölgesini, iş kapsamını ve tercih ettiğiniz tarih aralığını paylaşın. Belirli bir OSB adı veya işletme sayısı varsaymayız; sağladığınız bilgiyle o bölgede ortak rota kurulup kurulamayacağı netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun orman ürünleri, kereste ve mobilya sanayisine ayrılmış organize sanayi bölgesinin varlığı kamuya açık genel bilgidir; çok noktalı rota planlama ve gecikme yönetimi firma saha pratiğidir. OSB adı, işletme sayısı ve mesafe iddiası içermez.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bolu'da Orman İçi Kesim Sahası ve Tomruk Çıkarma Yolunda Zor Zemin Platform Kiralama",
+        giris:
+            "Bolu'nun orman varlığına dayanan kereste sanayisinde bazı bakım ve kurulum işleri fabrika sınırlarının dışında, doğrudan orman içi kesim sahasına veya tomruk çıkarma yoluna yakın noktalarda yapılır — geçici bir vinç kurulumu, saha aydınlatması veya nakliye hattı üstü bir kontrol gibi. Bu alanların zemini fabrika avlusundan farklıdır: toprak yüzey, kesim artığı, kütük parçaları, mevsimsel yağış ve orman yolunun taşıma kapasitesi belirsizliği bir arada bulunur. Zor zemin ve arazi koşullarında platform kiralama hizmeti, bu tür sahalarda güvenli konumlandırma için zemin değerlendirmesinden makine sınıfı seçimine kadar olan süreci kapsar. Standart lastikli bir platform, kesim sahasının gevşek toprağında veya yağış sonrası yumuşayan zeminde güvenli biçimde çalışamayabilir; bu durumda arazi tipi sınıf, yüzey hazırlığı veya farklı bir konumlandırma noktası değerlendirilir. Bu sayfada Bolu'daki orman içi kesim sahalarında zor zemin kararının nasıl verildiğini anlatıyoruz. Belirli bir orman sahası, işletme veya rakım iddiası içermez.",
+        maddeler: [
+            { baslik: "Kesim sahası zemininin önceden değerlendirilmesi", metin: "Orman içi kesim sahasının zemini toprak yapısına, eğime ve güncel yağış durumuna göre değişir; bu bilgi sahaya makine gönderilmeden önce görüntü veya saha sorumlusundan alınan bilgiyle değerlendirilir. Zemin taşıma kapasitesi belirsizse standart bir makine varsayılmaz." },
+            { baslik: "Kesim artığı ve kütük parçalarının güzergâhı etkilemesi", metin: "Kesim sonrası sahada dal, kabuk ve küçük kütük parçaları dağınık biçimde kalabilir; bu artıklar platformun güzergâhını hem fiziksel hem de zemin görünürlüğü açısından etkiler. Yoğun artık bulunan bölgede güzergâh temizlenir veya alternatif bir yol belirlenir." },
+            { baslik: "Tomruk çıkarma yolunun taşıma kapasitesi", metin: "Tomruk çıkarma için kullanılan orman yolu, ağır araç trafiğiyle zamanla iz bırakabilir veya yumuşayabilir; bu yolun platform taşıyıcısını güvenle taşıyıp taşımayacağı önceden değerlendirilir. Belirsizlik varsa yerinde ön kontrol yapılır, deneme sürüşüyle geçiş denenmez." },
+            { baslik: "Arazi tipi sınıfın gerçek gerekliliği", metin: "Dört çeker veya paletli bir sınıf çekiş sağlar ama her zorlu zemini otomatik olarak güvenli hâle getirmez. Zeminin derinliği, alt taşıması ve yana eğimi üretici verisiyle karşılaştırılır; arazi tipi sınıf yalnızca bu karşılaştırma sonucunda gerekli görülürse önerilir." },
+            { baslik: "Mevsimsel yağış ve geri dönüş güvencesi", metin: "Yağış sonrası orman zemini hızla yumuşayabilir; bu durumda giriş sırasında uygun görünen bir güzergâh çıkışta aynı ölçüde uygun kalmayabilir. Çalışma boyunca zemin durumu yeniden değerlendirilir; koşul kötüleşirse makine güvenli çıkış planına göre hareket ettirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Orman içi saha zor zemin karar tablosu",
+                paragraflar: ["Tablo belirli bir orman sahasını anlatmaz; kesim sahası ve tomruk çıkarma yolunda genel bir kontrol aracıdır."],
+                tablo: { basliklar: ["Kesit", "Kontrol", "Olası karar", "Durdurma nedeni"], satirlar: [["Kesim sahası zemini", "Toprak yapısı, eğim", "Arazi tipi inceleme", "Taşıma belirsiz"], ["Kesim artığı bölgesi", "Dal/kütük yoğunluğu", "Güzergâh temizliği", "Görünürlük kaybı"], ["Tomruk çıkarma yolu", "İz derinliği, yumuşama", "Yerinde ön kontrol", "Kapasite belirsiz"], ["Yağış sonrası zemin", "Nem, kayganlık", "Çalışma erteleme", "Geri dönüş riski"], ["Konumlandırma noktası", "Denge, yatay ölçü", "Kurulum onayı", "Yüzey uygun değil"]] },
+            },
+            {
+                baslik: "Görüntülü ön keşif ve yerinde karar",
+                paragraflar: [
+                    "Kesim sahasına veya tomruk çıkarma yoluna makine gönderilmeden önce güncel görüntü istenir; yalnızca en sorunlu noktanın değil, güzergâhın tamamının yakın çekimi değerlendirilir. Eski görüntüler güncel yağış etkisini yansıtmaz.",
+                    "Görüntüyle kesin karar verilemiyorsa yerinde kontrol yapılır. Sahada operatör farklı bir koşul görürse ön kararı uygulamak zorunda değildir; güvenli noktada durup yeni değerlendirme ister.",
+                ],
+            },
+            {
+                baslik: "Çıkış güvencesi ve saha iletişimi",
+                paragraflar: [
+                    "Orman içi bir sahada çalışma başlamadan önce platformun hangi yönden çıkacağı ve yol koşulunun kim tarafından izleneceği belirlenir. İletişim kapsaması sınırlı olabileceğinden alternatif bir haberleşme yöntemi de değerlendirilir.",
+                    "Zemin hareketi, yağış başlangıcı veya başka bir araç geçişi güzergâhı kapatırsa makine güvenli bir noktada durdurulur; koşul netleşmeden ilerlemeye devam edilmez.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Orman içi kesim sahasında standart platform kullanılabilir mi?", cevap: "Zemin taşıma kapasitesi ve güncel yağış durumu bilinmeden kullanılmaz. Toprak yapısı, eğim ve artık yoğunluğu önceden değerlendirilir; sonuç belirsizse arazi tipi sınıf veya yerinde ön kontrol önerilir." },
+            { soru: "Tomruk çıkarma yolu her mevsim aynı taşıma kapasitesine sahip mi?", cevap: "Hayır. Ağır araç trafiği ve yağış zamanla yolu yumuşatabilir veya iz bırakabilir. Bu nedenle yolun güncel durumu her seferinde ayrıca değerlendirilir; belirsizlik varsa yerinde ön kontrol yapılır." },
+            { soru: "Kesim artıkları platformun güzergâhını etkiler mi?", cevap: "Evet, dal ve kütük parçaları hem fiziksel engel hem de zemin görünürlüğünü azaltan bir unsur olabilir. Yoğun artık bulunan bölgede güzergâh temizlenir veya alternatif bir yol belirlenir." },
+            { soru: "Arazi tipi platform her zorlu zemini geçer mi?", cevap: "Hayır. Çekiş sağlasa da zeminin derinliği, alt taşıması ve yana eğimi üretici verisiyle karşılaştırılmadan güvenli kabul edilmez. Bu karşılaştırma sonucunda gerekli görülürse arazi tipi sınıf önerilir." },
+            { soru: "Yağış sonrası zeminde çalışmaya devam edilir mi?", cevap: "Zemin durumu çalışma boyunca yeniden değerlendirilir; koşul kötüleşirse makine son ana kadar bekletilmez, güvenli çıkış planına göre hareket ettirilir. Giriş anında uygun olan bir güzergâhın çıkışta da uygun kalacağı varsayılmaz." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Kesim sahasına veya tomruk çıkarma yoluna ait güncel görüntüleri, zeminin güncel yağış durumunu ve taşıma amacınızı paylaşın. Belirli bir orman sahası veya rakım varsaymayız; bilgi yetersizse yerinde ön kontrol önerilir, ardından uygun sınıf netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun orman varlığına dayanan kereste sanayisinde kesim sahası ve tomruk çıkarma yollarının bulunması kamuya açık genel bilgidir; zemin değerlendirmesi ve çıkış güvencesi yaklaşımı firma saha pratiğidir. Orman sahası adı, işletme ve rakım iddiası içermez.",
+    },
 };

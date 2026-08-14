@@ -639,4 +639,1093 @@ export const CANAKKALEPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Metin 13 Ağustos 2026 tarihinde Çan Termik Santral Bölgesi için özgün olarak yazıldı. Enerji sahasında toz, ısı ve izinli çalışma disiplini görev çapasıdır. Belirli santral, ünite, üretim kolu, kapasite, makine markası, sıcaklık, yükseklik veya başka sayısal saha verisi kullanılmamıştır; izin kapıları genel operasyon standardıdır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Çanakkale'de Gemi Bordası ve Tekne Dış Cephesi İçin Sepetli/Örümcek Platform",
+        giris:
+            "Tersanede inşa hâlindeki bir geminin bordasına kaynak dikişi kontrolü, pas önleyici astar veya son kat boya öncesi erişmek, kızaktaki küçük tekne bakımından farklı bir ölçek sorunu getirir: gövde çok daha yüksek ve uzundur, kaynak sırasını takip eden ekip aynı hatta günlerce ilerler, üstelik dok destekleri (payanda, takoz sırası) bordayla makine arasına dar bir şerit bırakır. Standart eklemli platformun geniş şasesi bu şeride çoğu zaman sığmaz; sepetli-örümcek sınıfın dar tekerlek izi ve kompakt gövdesi, destek sırasının arasından geçip bordanın istenen kotuna kadar ilerleyebilir. Bunun karşılığında bu sınıfın taşıma kapasitesi sınırlıdır, dolayısıyla kaynak ekipmanı ve boya tabancası gibi hafif yükler için uygundur; ağır kumlama ekipmanı taşınacaksa geniş şaseli bir alternatif konuşulur. Hangi kaynak bloğunun hangi sınıfla ilerleyeceği, dok yerleşimi ve destek aralığı görülerek keşifte netleştirilir; bu, gemi inşa hattında günlük ilerlemeyi doğrudan etkileyen bir karardır.",
+        maddeler: [
+            {
+                baslik: "Dok destekleri arasında dar geçiş",
+                metin:
+                    "Kızakta veya dokta duran geminin bordasıyla zemin arasına yerleştirilen payanda ve takoz sırası, makinenin geçebileceği koridoru daraltır; bu koridor genellikle standart eklemli platformun şase genişliğinden dardır. Sepetli-örümcek sınıf, katlanmış hâlde bu koridordan girip destek sırasının arasında konumlanabilir. Destek aralığının ölçüsü keşifte alınır; ölçü sınırdaysa makine gövde genişliğine göre önceden test edilir.",
+            },
+            {
+                baslik: "Kaynak sırasını takip eden kademeli ilerleme",
+                metin:
+                    "Borda kaynağı, tek bir noktada değil hat boyunca kademeli ilerler; platform da kaynak ekibiyle birlikte metre metre kayar. Sepetli-örümcek sınıfın hızlı ve hassas konumlanma kabiliyeti, sabit iskeleye göre bu kademeli ilerlemeyi belirgin şekilde hızlandırır — iskele her seferinde sökülüp taşınmaz, makine bir sonraki bloğa kendi kendine ilerler.",
+            },
+            {
+                baslik: "Astar ve son kat boyada erişim kotu",
+                metin:
+                    "Pas önleyici astar ve son kat boya işleri, bordanın farklı yüksekliklerinde sürekli kot değişimi ister; sepetli sınıfın dikey ve yatay ayar hassasiyeti, boyacının aynı noktada uzun süre beklemeden yüzeyi kademeli işlemesini sağlar. Boyanın kuruma süresi ve rüzgâr yönü, hangi borda tarafının önce işleneceğini belirler; bu sıralama keşifte saha ekibiyle birlikte kurulur.",
+            },
+            {
+                baslik: "Kompakt gövdenin kapasite sınırı",
+                metin:
+                    "Dar destek koridoruna uyan gövde, taşıma kapasitesinden ödün verir; kaynak makinesi ve boya tabancası gibi hafif ekipman bu sınıfa uygundur ama kumlama kompresörü gibi ağır ekipman taşınacaksa yetersiz kalır. Talep alırken hem koridor genişliğini hem taşınacak ekipmanın ağırlığını birlikte sorarız; koridor dar ama yük hafifse sepetli-örümcek doğru seçimdir.",
+            },
+            {
+                baslik: "Deniz kenarı neminin mekanik aksama etkisi",
+                metin:
+                    "Dok ve kızak alanında konaklayan makineler, deniz kenarının tuzlu nemine ve kaynak sırasında ortaya çıkan metal tozuna maruz kalır; bu sınıfın dar tekerlek ve kısa dingil yapısı bu koşullardan kent içi geniş makinelere göre daha çabuk etkilenir. İade öncesi tuz durulaması ve dingil kontrolü standart prosedürümüzdür; hat üzerinde uzun süre kalan makinelerde bu kontrol sıklaştırılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Borda işi tipi ve makine eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, gemi bordası üzerindeki tipik iş kalemlerini ve makine seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Kısıtlayan unsur", "Uygun sınıf", "Planlama notu"],
+                    satirlar: [
+                        ["Kaynak dikişi kontrolü", "Destek koridoru genişliği", "Sepetli-örümcek", "Kademeli ilerleme"],
+                        ["Astar/boya uygulaması", "Kot değişimi sıklığı", "Sepetli-örümcek", "Rüzgâr yönü takibi"],
+                        ["Kumlama hazırlığı", "Ekipman ağırlığı", "Geniş şaseli eklemli", "Koridor genişletme"],
+                        ["Alt borda erişimi", "Dok destek dizilimi", "Sepetli-örümcek", "Destek ölçümü"],
+                        ["Üst güverte kenarı", "Erişim açısı", "Teleskopik/eklemli", "Zarf hesabı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Destek koridorunu keşifte doğru ölçmek",
+                paragraflar: [
+                    "Dok destekleri arasındaki geçiş santimetre hassasiyetiyle ölçülmeden makine gönderilmez; şase sığmazsa kaynak hattı üzerinde iş yeniden planlamayla kaybolur. Keşifte fotoğrafla birlikte en dar noktanın ölçüsü, zemin eğimi ve yakındaki sabit engeller (payanda ayağı, kablo tavası) not edilir.",
+                    "Aynı gemi hattında tekrarlanan işlerde bu ölçü bir kez alınır; kaynak ekibi ilerledikçe destek dizilimi değişse de genel koridor mantığı korunur ve yeni blok için hızlı teyitle devam edilir.",
+                ],
+            },
+            {
+                baslik: "Kaynak ekibiyle eş zamanlı çalışma düzeni",
+                paragraflar: [
+                    "Kaynak hattı üzerinde platform, kaynakçı ekibinin ilerleme hızına göre konumlanır; iş sırası önceden kaynak ustabaşıyla paylaşılır ki makine bir sonraki bloğa geçerken kaynak ekibi beklemesin. Kıvılcım sıçraması olan bölümlerde makine ve sepet, kaynak koruma perdesinin dışında tutulur veya uygun mesafe bırakılır.",
+                    "Boya uygulaması kaynaktan sonraki aşamada geldiği için iki ekip aynı bloğu aynı anda paylaşmaz; sıralama saha şefiyle günlük olarak teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dok destekleri arasından makineniz gerçekten geçebiliyor mu?",
+                cevap:
+                    "Çoğu dok yerleşiminde evet; sepetli-örümcek sınıfın dar tekerlek izi tam bu tür koridorlar için tasarlanmıştır. Kesin karar, gönderdiğiniz fotoğraf ve en dar noktanın ölçüsüyle verilir. Ölçü sınırdaysa iki seçeneği (dar sınıf ile daha uzun süren kademeli iş, geniş sınıf ile destek düzeninin geçici değiştirilmesi) yan yana koyup siz karar verirsiniz.",
+            },
+            {
+                soru: "Kaynak hattı ilerledikçe makineyi her seferinde yeniden mi kuruyorsunuz?",
+                cevap:
+                    "Hayır, bu sınıfın avantajı tam olarak burada; sabit iskele gibi sökülüp taşınmaz, kendi tekerlekleriyle bir sonraki bloğa ilerler. Kaynak ekibinin günlük ilerleme hızını bilirsek, makinenin ne zaman bir sonraki konuma geçeceğini önceden planlarız ve kaynakçı ekibinin beklemesini önleriz.",
+            },
+            {
+                soru: "Boya tabancası ve kaynak makinesi dışında ağırlık taşıyabilir mi?",
+                cevap:
+                    "Sınırlı ölçüde; bu sınıf hafif ekipman için tasarlanmıştır. Kumlama kompresörü gibi ağır ekipman taşınacaksa önce ölçüyü netleştirmemiz gerekir — dar gövde ile yüksek taşıma kapasitesi bir arada gelmez. Gerekirse destek koridorunun geçici genişletilip genişletilemeyeceğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Kaynak kıvılcımı makineye zarar verir mi?",
+                cevap:
+                    "Doğrudan sıçrama riski varsa makineyi ve sepeti koruma perdesinin dışında tutuyoruz veya uygun mesafeyi koruyoruz; bu, kaynak ustabaşıyla günlük olarak teyit ettiğimiz bir konudur. Uzun süreli kaynak hattı işlerinde makinenin dış yüzeyi de düzenli kontrol edilir.",
+            },
+            {
+                soru: "Makine dokta günlerce kalacak, deniz kenarı nemi zarar verir mi?",
+                cevap:
+                    "Bu sınıfın dar mekanik aksamı deniz kenarı nemine ve metal tozuna kent içi makinelerden daha hassastır; bu yüzden hat üzerinde uzun kalan makinelerde günlük görsel kontrol ve iade öncesi tuz durulaması standart prosedürümüzdür. Sizden istediğimiz tek katkı, mümkünse makinenin gece için rüzgâra kapalı bir noktaya çekilmesine izin vermenizdir.",
+            },
+            {
+                soru: "Astar ve son kat boya için hangi sırayla çalışırsınız?",
+                cevap:
+                    "Sıralamayı rüzgâr yönü ve boyanın kuruma süresine göre kurarız; genelde rüzgâr altı taraf önce işlenir. Kaynak henüz bitmemiş bir bölümde boyaya başlamayız, iki ekibin sırası saha şefiyle günlük teyit edilir. Bordanın hangi tarafının önce hazır olacağını bilirseniz, iş planını buna göre önceden kurabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale'de tersane ve gemi inşa/bakım tesislerinin varlığı kamuya açık bilgidir; kaynak-boya sıralaması ve dok destek koridoru anlatımı genel gemi inşa pratiğine dayanır. Tesis adı, gemi tipi ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Çanakkale'de Tersane Sahasına Ekipman ve Malzeme Nakliyesi",
+        giris:
+            "Tersane sahasına yapılan teslimat, standart bir şantiye teslimatından iki noktada ayrılır: giriş genellikle tek bir kontrollü kapıdan geçer ve kapı içindeki yerleşim (kaynak atölyesi, çelik plaka deposu, boya kabini, kızak alanı) günlük değişebilir. Bu yüzden nakliye planı, sadece adresi değil kapı içindeki teslim noktasını da önceden netleştirmeyi gerektirir. Ekipmanımızı tersaneye götürürken hem makinenin kendisini hem beraberindeki aksesuarı (sepet aparatı, kablo, uzatma bomu) tek seferde teslim ederiz; sahada arızalı bir makinenin yerine ikame gönderildiğinde de aynı disiplin uygulanır — tersanede duran bir iş, bekleyen kaynak veya boya ekibi anlamına geldiği için teslim süresi kritik önemdedir. Bu sayfa, tersane sahasına yapılan teslimatların hangi adımlardan geçtiğini ve kapı kontrolünün nakliye süresine nasıl yansıdığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kontrollü kapı ve giriş prosedürü",
+                metin:
+                    "Tersaneler genellikle tek bir ana kapıdan araç ve malzeme kabul eder; bu kapıda araç plakası, sürücü kimliği ve taşınan ekipmanın listesi kayda geçer. Teslimat saatini önceden bildirmek, kapıda beklemeyi kısaltır. Bazı tersanelerde ayrıca iş güvenliği oryantasyonu istenir; bu süre nakliye planına dahil edilir.",
+            },
+            {
+                baslik: "Sahada değişken teslim noktası",
+                metin:
+                    "Kaynak atölyesi, çelik plaka deposu ve kızak alanı arasındaki iç yollar, o günkü iş yoğunluğuna göre değişebilir; bazı günler bir yol vinç veya malzeme aktarımı nedeniyle kapalı olabilir. Sevkiyat öncesi saha yetkilisiyle güncel teslim noktası teyit edilir; bu, aracın kapıda gereksiz beklemesini önler.",
+            },
+            {
+                baslik: "Aksesuarların eksiksiz sevkiyatı",
+                metin:
+                    "Makinenin kendisi kadar sepet aparatı, uzatma bomu ve güç kablosu da işin gerçekleşmesi için gereklidir; eksik bir aksesuar, tersanedeki kaynak veya boya ekibinin beklemesine yol açar. Sevkiyat listesi araç yüklenmeden önce iki kez kontrol edilir ve teslim sırasında saha yetkilisiyle birlikte sayılır.",
+            },
+            {
+                baslik: "Arıza durumunda hızlı ikame teslimatı",
+                metin:
+                    "Tersanede duran bir makine, kaynak veya boya hattının o bloğu için işin durması anlamına gelir; bu yüzden arızalı makine bildirildiğinde ikame makine öncelikli olarak yönlendirilir. İkame teslimatında da aynı giriş prosedürü uygulanır ama saha yetkilisiyle önceden koordine edilerek kapıda bekleme en aza indirilir.",
+            },
+            {
+                baslik: "Denize yakın park ve indirme güvenliği",
+                metin:
+                    "Kızak ve dok alanına yakın teslim noktalarında zemin ıslak veya kaygan olabilir; indirme sırasında araç ve makine için düz, sağlam bir nokta seçilir. Rıhtım kenarına yakın teslimlerde ayrıca düşme riski değerlendirilir ve gerekirse teslim noktası birkaç metre içeri kaydırılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslimat adımları ve süre etkisi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tersane teslimatının adımlarını ve her adımın süreye etkisini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Adım", "Tipik süre etkisi", "Kısaltma yolu", "Sorumlu"],
+                    satirlar: [
+                        ["Kapı kaydı", "5-15 dk", "Önceden saat bildirimi", "Sürücü + kapı görevlisi"],
+                        ["Oryantasyon (varsa)", "10-20 dk", "Önceki oryantasyonun geçerliliği", "Tersane İSG"],
+                        ["Teslim noktasına ilerleme", "Değişken", "Güncel yol teyidi", "Saha yetkilisi"],
+                        ["Aksesuar sayımı", "5-10 dk", "Önceden hazırlanmış liste", "Sürücü + saha ekibi"],
+                        ["İndirme ve konumlama", "10-20 dk", "Uygun zemin seçimi", "Operatör"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapı kaydının nakliye planına etkisi",
+                paragraflar: [
+                    "Kapıda araç ve ekipman kaydı, tersanenin kendi güvenlik prosedürüne bağlıdır ve bu süre önceden bilinmezse teslimat saatinde sapma olur. Düzenli çalıştığımız tersanelerde giriş prosedürü kayıtlıdır ve yeni sevkiyatta bu bilgi doğrudan kullanılır.",
+                    "İlk kez teslimat yapılan bir tersanede, kapı prosedürünü önceden telefonla teyit ederek sürprizi önlüyoruz; bu, özellikle acil ikame teslimatlarında zaman kazandırır.",
+                ],
+            },
+            {
+                baslik: "Acil ikame teslimatında öncelik sırası",
+                paragraflar: [
+                    "Tersanede bir makinenin arızalanması, o bloktaki kaynak veya boya işinin durması demektir; bu yüzden arıza bildirimi geldiğinde ikame makine, o anki sevkiyat programımızda öncelik kazanır. Hangi makinenin en yakın konumda olduğu belirlenir ve saha yetkilisiyle kapı prosedürü kısaltılarak koordine edilir.",
+                    "Arızanın türünü ve makinenin son konumunu ilk çağrıda net verirseniz, ikame kararını daha hızlı veririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tersane kapısında sürücünüz için ayrıca belge mi hazırlamamız gerekiyor?",
+                cevap:
+                    "Genellikle sürücünün kimliği ve araç plakası, kapı kaydı için yeterlidir; tersanenizin ek bir oryantasyon veya form istediği durumlarda bunu önceden bildirirseniz sürücümüzü buna göre hazırlarız. Bu bilgiyi ilk sevkiyattan önce teyit etmek, kapıda beklemeyi büyük ölçüde azaltır.",
+            },
+            {
+                soru: "Sahadaki teslim noktası her gün değişebiliyor mu?",
+                cevap:
+                    "Evet, özellikle kaynak veya vinç faaliyeti yoğun günlerde iç yollar geçici kapanabilir. Bu yüzden sevkiyat öncesi saha yetkilisiyle güncel teslim noktasını teyit ediyoruz; bu adım atlanırsa araç kapıda gereksiz bekleyebilir.",
+            },
+            {
+                soru: "Makine arızalanırsa ikame ne kadar sürede gelir?",
+                cevap:
+                    "Süre, o anki sevkiyat programımıza ve en yakın uygun makinenin konumuna bağlıdır; tersanede duran bir işin öncelik taşıdığını biliyoruz, bu yüzden ikame talepleri programda öne alınır. Arızanın türünü ve makinenin son konumunu ilk çağrıda net verirseniz, size net bir süre söyleyebiliriz.",
+            },
+            {
+                soru: "Sepet aparatı veya kablo eksik gelirse ne oluyor?",
+                cevap:
+                    "Bu, sevkiyat listesinin araç yüklenmeden önce iki kez kontrol edilmesiyle önlenmeye çalışılan bir durumdur; yine de eksik tespit edilirse en yakın depomuzdan tamamlayıcı parça hızlıca gönderilir. Teslim sırasında saha yetkilisiyle birlikte sayım yapmamız, eksikliğin sahada değil kapıda fark edilmesini sağlar.",
+            },
+            {
+                soru: "Rıhtım kenarına yakın bir noktaya teslimat yapabiliyor musunuz?",
+                cevap:
+                    "Yapabiliriz, ancak zemin ıslak veya kaygan olabileceğinden indirme noktası için düz ve sağlam bir yer seçilir; düşme riski varsa teslim noktasını birkaç metre içeri kaydırmayı öneririz. Bu değerlendirmeyi operatörümüz sahada, saha yetkilisiyle birlikte yapar.",
+            },
+            {
+                soru: "İlk kez çalışacağımız için tersanenin giriş prosedürünü bilmiyoruz, ne yapmalıyız?",
+                cevap:
+                    "Sizinle birlikte tersane yönetimini arayıp giriş prosedürünü önceden teyit ediyoruz; bu, ilk sevkiyatta sürpriz yaşanmasını önler. Düzenli çalıştığımız tersanelerde bu bilgi zaten kayıtlıdır, yeni bir tersanede ise bu adımı sevkiyat tarihinden birkaç gün önce tamamlamayı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersane sahalarının kontrollü kapı ve iç yol yapısı genel tesis işletmeciliği bilgisidir; tesis adı ve rakam kullanılmamıştır. Sevkiyat ve ikame önceliklendirme yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Çanakkale'de Gemi Parça Deposunda Forklift ve İstifleme Kiralama",
+        giris:
+            "Tersanenin çelik plaka, boru, profil ve valf gibi parçalarını barındıran depo, standart bir sanayi deposundan farklı bir istifleme mantığı gerektirir: plakalar ağır ve uzun olduğu için raf yerine genellikle zemine yatık ve numaralı sıralarla istiflenir, borular çapına göre ayrı bölümlerde tutulur, küçük valf ve bağlantı elemanları ise kaynak hattına yakın seyyar sehpalarda bekler. Forklift burada hem plaka istifleme hem de kaynak hattına parça besleme rolünü üstlenir; bir plaka sırasından belirli bir parçayı çekip kaynak istasyonuna taşımak, deponun günlük en sık tekrarlanan işlemidir. Bu depoların bir diğer özelliği, gemi inşa takvimine göre içeriğinin hızla değişmesidir — bir hafta önce dolu olan bir sıra, bloğun kaynağa gitmesiyle boşalır ve yeni malzeme gelir. Bu değişkenlik, forklift kiralamasında sabit bir düzenden çok esnek bir çalışma temposu gerektirir.",
+        maddeler: [
+            {
+                baslik: "Ağır çelik plaka istifleme",
+                metin:
+                    "Çelik plakalar, ağırlıkları ve düz yüzeyleri nedeniyle raf yerine zemine yatık sıralar hâlinde istiflenir; forklift bu sıraları oluştururken hem plakanın ağırlığına uygun kapasiteye hem de zemin dengesine dikkat eder. Sıra numaralaması, hangi plakanın hangi gemi bloğuna ayrıldığını gösterir ve forklift operatörü bu numaralamayı takip ederek karışıklığı önler.",
+            },
+            {
+                baslik: "Boru ve profil bölümünde çap bazlı ayrım",
+                metin:
+                    "Farklı çaplardaki borular ve profiller, karışmaması için ayrı bölümlerde tutulur; forklift ataşmanı (boru sepeti veya çatal genişliği) bu bölümdeki malzemenin şekline göre değişebilir. Uzun boru ve profillerin taşınmasında dönüş yarıçapı önem kazanır, bu yüzden depo içi yollar bu tür malzemeye göre önceden planlanır.",
+            },
+            {
+                baslik: "Kaynak hattına parça besleme",
+                metin:
+                    "Kaynak istasyonları, günlük iş programına göre belirli parçaları depodan talep eder; forklift bu talebi karşılamak için depo ile kaynak hattı arasında sürekli mekik dokur. İstasyonun beklemesini önlemek için, günün hangi saatinde hangi parçaların talep edileceği mümkünse önceden bilinir ve buna göre öncelik sırası kurulur.",
+            },
+            {
+                baslik: "Gemi inşa takvimine göre değişen doluluk",
+                metin:
+                    "Bir blok kaynağa gittiğinde o bloğa ayrılan malzeme sırası boşalır ve yeni gelen malzeme için yer açılır; bu değişkenlik, deponun sabit bir raf düzeninden çok esnek bir alan yönetimi gerektirdiği anlamına gelir. Forklift operatörü, hangi sıranın yakında boşalacağını saha şefinden alarak yeni malzeme gelişini buna göre planlar.",
+            },
+            {
+                baslik: "Küçük parça ve valf sehpalarında hassas taşıma",
+                metin:
+                    "Valf ve bağlantı elemanları gibi küçük ama kırılgan parçalar, kaynak hattına yakın seyyar sehpalarda tutulur; bu sehpaların taşınması forklift ile yapılırken standart çatal yerine daha hassas bir konumlandırma ve düşük hız tercih edilir. Sehpa üzerindeki parçaların düşme riski, taşıma öncesi görsel kontrolle azaltılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo bölümü ve forklift ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki tablo, gemi parça deposundaki bölümlere göre forklift kullanımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölüm", "Malzeme tipi", "Taşıma zorluğu", "Ataşman notu"],
+                    satirlar: [
+                        ["Plaka sırası", "Ağır çelik plaka", "Ağırlık + zemin dengesi", "Standart çatal, yüksek kapasite"],
+                        ["Boru/profil bölümü", "Uzun silindirik/profil", "Dönüş yarıçapı", "Boru sepeti"],
+                        ["Kaynak hattı besleme", "Karma parça", "Zaman baskısı", "Hızlı mekik"],
+                        ["Valf/küçük parça sehpası", "Kırılgan küçük parça", "Düşme riski", "Düşük hız, hassas konumlama"],
+                        ["Boşalan/yeni gelen sıra", "Değişken", "Alan planlama", "Günlük saha şefi koordinasyonu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sıra numaralamasının karışıklığı önlemesi",
+                paragraflar: [
+                    "Her plaka veya profil sırası, hangi gemi bloğuna ayrıldığını gösteren bir numarayla işaretlenir; forklift operatörü bu numaralamayı takip ederek yanlış parçanın kaynak hattına gitmesini önler. Numaralama sistemi tersanenin kendi düzenidir, biz operatörümüzü bu düzene göre bilgilendiririz.",
+                    "Yeni bir depo düzeninde çalışmaya başlarken ilk gün numaralama sistemi saha şefiyle birlikte gözden geçirilir; bu, sonraki günlerdeki hataları önemli ölçüde azaltır.",
+                ],
+            },
+            {
+                baslik: "Kaynak hattının beklemesini önlemek",
+                paragraflar: [
+                    "Kaynak istasyonunun malzeme beklemesi, doğrudan üretim kaybı demektir; bu yüzden forklift operatörü günün iş programını mümkün olduğunca önceden bilir ve hangi parçanın ne zaman isteneceğini tahmin ederek harekete geçer. Beklenmedik bir talep geldiğinde de öncelik sırası hızlı değiştirilebilir.",
+                    "Yoğun kaynak günlerinde birden fazla istasyon aynı anda parça talep edebilir; bu durumda hangi istasyonun daha kritik olduğu saha şefiyle anlık koordine edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ağır çelik plakaları istiflerken zemin dayanımını nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Plaka sırası oluşturulmadan önce zeminin düz ve sağlam olduğu görsel olarak kontrol edilir; forklift kapasitesi de taşınacak plaka ağırlığına göre seçilir. Zeminde çökme veya eğim şüphesi varsa sıra başka bir noktaya kaydırılır. Bu kontrol, özellikle yeni bir depo alanında çalışmaya başlarken standart adımımızdır.",
+            },
+            {
+                soru: "Kaynak hattı aynı anda birkaç parça isterse ne yapıyorsunuz?",
+                cevap:
+                    "Öncelik sırasını saha şefiyle anlık koordine ederek belirliyoruz; hangi istasyonun beklemesi üretimi daha çok etkiliyorsa o öncelik kazanır. Yoğun günlerde ikinci bir forklift talebi de değerlendirilebilir, bu durumu önceden bildirirseniz programımıza ekleriz.",
+            },
+            {
+                soru: "Boru ve profilleri taşırken standart çatal yeterli mi?",
+                cevap:
+                    "Genellikle boru sepeti gibi bir ataşman tercih ederiz çünkü standart çatal uzun silindirik malzemede kayma riski taşır. Malzemenin çapını ve uzunluğunu önceden bilirsek doğru ataşmanla makineyi hazırlarız; sahada ataşman değişikliği gerekirse ek süre gerekebilir.",
+            },
+            {
+                soru: "Bir blok kaynağa gidince boşalan sırayı hemen kullanabiliyor musunuz?",
+                cevap:
+                    "Evet, bu bizim için deponun günlük rutinidir; saha şefinden hangi sıranın boşalacağını öğrenip yeni malzeme gelişini buna göre planlarız. Bu koordinasyon önceden kurulmazsa yeni malzeme geçici olarak depo dışında bekletilebilir, bu yüzden günlük bilgi akışını önemsiyoruz.",
+            },
+            {
+                soru: "Valf ve küçük parçalar forkliftle taşınırken zarar görme riski var mı?",
+                cevap:
+                    "Standart çatal hızıyla taşınırsa evet, bu yüzden bu tür sehpalarda düşük hız ve hassas konumlama uyguluyoruz; taşıma öncesi sehpa üzerindeki parçaların sabitliği görsel olarak kontrol edilir. Özellikle kırılgan veya hassas yüzeyli parçalarda bu kontrolü atlamıyoruz.",
+            },
+            {
+                soru: "Operatörünüz depo numaralama sistemimizi nasıl öğreniyor?",
+                cevap:
+                    "Çalışmaya başladığımız ilk gün saha şefinizle birlikte numaralama sistemini gözden geçiriyoruz; bu, hangi parçanın hangi gemi bloğuna ait olduğunu operatörümüzün doğru takip etmesini sağlar. Düzenli çalıştığımız tersanelerde bu bilgi operatör ekibimizde zaten kayıtlıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gemi inşa tersanelerinde çelik plaka/boru/parça deposu işleyişi genel tersane pratiğine dayanan bilgidir; tesis adı ve rakam kullanılmamıştır. İstifleme ve önceliklendirme yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Çanakkale'de Tersane Vinç ve Çelik Konstrüksiyon Montajında Eklemli Platform",
+        giris:
+            "Tersanede bir portal vinç kirişinin veya kızak üstü çelik konstrüksiyonun montajı, hem yüksekte hem sabit tesisatın arkasında kalan noktalara erişim gerektirir; kaynakçının vinç raylı kirişin alt yüzeyine ulaşması, montaj ekibinin cıvata sıkma kontrolünü kiriş üzerinden yapması gibi işler, sabit iskeleyle günler süren bir kurulum gerektirirken eklemli platformla saatler içinde tamamlanabilir. Bu sınıfın asıl avantajı, bom açısının hem yukarı hem yana doğru çalışma zarfı sunması — vinç kirişinin altına yandan yaklaşıp sepeti yukarı doğru açarak kirişin alt yüzeyine ulaşmak, düz bir eklemli bomla mümkündür ama makasli bir platformla mümkün değildir. Montaj sahasında birden fazla ekibin (kaynak, elektrik, mekanik) aynı anda çalıştığı günlerde, platformun hangi noktada ne kadar süre kalacağı diğer ekiplerin çalışma alanını doğrudan etkiler; bu yüzden bom kiralaması, montaj programıyla birlikte planlanır.",
+        maddeler: [
+            {
+                baslik: "Vinç kirişi alt yüzeyine yandan erişim",
+                metin:
+                    "Portal vinç kirişinin alt yüzeyi, doğrudan altından değil genellikle yandan bir açıyla erişilebilir hâldedir; kirişin altında kalan raylı taşıyıcı sistem düz bir dikey erişimi engeller. Eklemli bomun açılı çalışma zarfı, sepeti yandan sokup kirişin altına doğru açarak bu erişimi sağlar. Kirişin tam konumu ve raylı sistemin engel oluşturduğu noktalar keşifte fotoğrafla belirlenir.",
+            },
+            {
+                baslik: "Cıvata ve kaynak kontrolünde sabit duruş",
+                metin:
+                    "Montaj sonrası cıvata sıkma torku kontrolü ve kaynak dikişi muayenesi, sepetin belirli bir noktada uzun süre sabit durmasını gerektirir; eklemli platformun sepet stabilitesi bu tür işlerde makasliye göre daha esnek konumlanma imkânı sunar çünkü sepet açı değiştirerek kontrol noktasına daha rahat hizalanır.",
+            },
+            {
+                baslik: "Çoklu ekip programında zaman paylaşımı",
+                metin:
+                    "Montaj sahasında kaynak, elektrik ve mekanik ekipleri aynı gün farklı noktalarda çalışabilir; platformun hangi saatte hangi bölgede olacağı, diğer ekiplerin kendi işlerini planlamasını doğrudan etkiler. Bu yüzden bom kiralaması öncesi montaj şefiyle günlük program paylaşılır ve platform bu programa göre bölgeler arasında yönlendirilir.",
+            },
+            {
+                baslik: "Kızak üstü çelik konstrüksiyonda zemin sınırı",
+                metin:
+                    "Kızak üstündeki çelik konstrüksiyon montajı sırasında zemin genellikle geçici platform veya iskele döşemesidir; bu zeminin taşıma kapasitesi standart beton zeminden farklıdır. Makine yerleşimi öncesi zeminin taşıma kapasitesi montaj şefinden teyit edilir; gerekirse makine daha uzak bir sabit noktadan bom açısıyla çalışır.",
+            },
+            {
+                baslik: "Rüzgârlı günlerde bom açısı kısıtı",
+                metin:
+                    "Tersane sahası açık deniz kenarında olduğu için rüzgâr, özellikle uzatılmış bom açılarında sepet stabilitesini etkiler; rüzgâr hızı belirli bir eşiği geçtiğinde bom açısı sınırlandırılır veya iş ertelenir. Bu karar operatörün sahadaki anlık değerlendirmesine bağlıdır ve montaj programına önceden bir esneklik payı olarak eklenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj işi ve bom sınıfı eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tersane vinç ve çelik konstrüksiyon montajındaki tipik işleri özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Erişim yönü", "Zemin", "Makine notu"],
+                    satirlar: [
+                        ["Vinç kirişi alt yüzeyi", "Yandan açılı", "Sabit beton", "Eklemli bom"],
+                        ["Cıvata/kaynak kontrolü", "Sabit nokta", "Değişken", "Esnek sepet hizalama"],
+                        ["Kızak üstü konstrüksiyon", "Yukarı + yana", "Geçici döşeme", "Zemin taşıma teyidi"],
+                        ["Elektrik/kablo tavası montajı", "Yatay hat boyunca", "Sabit", "Kademeli ilerleme"],
+                        ["Rüzgârlı gün üst kat işi", "Sınırlı açı", "Açık saha", "Rüzgâr eşiği kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj şefiyle günlük program paylaşımı",
+                paragraflar: [
+                    "Çoklu ekip çalışan bir montaj sahasında platformun programı, o günkü öncelikli işe göre şekillenir; sabah montaj şefiyle kısa bir koordinasyonla hangi bölgeye önce gidileceği netleşir. Bu koordinasyon atlanırsa platform boşta bekleyebilir veya iki ekip aynı bölgeyi aynı anda talep edebilir.",
+                    "Düzenli çalıştığımız tersanelerde bu koordinasyon zamanla rutine döner ve günlük planlama süresi kısalır.",
+                ],
+            },
+            {
+                baslik: "Geçici zeminde makine yerleşimi",
+                paragraflar: [
+                    "Kızak üstü çelik konstrüksiyon montajında zemin çoğu zaman kalıcı beton değil geçici bir platform veya iskele döşemesidir; bu zeminin taşıma kapasitesi montaj şefinden teyit edilmeden makine yerleştirilmez. Kapasite yetersizse makine daha uzak bir sabit noktadan bom açısıyla çalışır, bu da erişim mesafesini kısıtlayabilir.",
+                    "Zemin belirsizse önce görsel keşif yapılır ve gerekirse montaj ekibiyle birlikte alternatif bir konumlama noktası belirlenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Vinç kirişinin altına gerçekten yandan mı erişiyorsunuz, üstten değil mi?",
+                cevap:
+                    "Genellikle yandan; kirişin altındaki raylı taşıyıcı sistem düz bir dikey erişimi engellediği için eklemli bomun açılı çalışma zarfını kullanıp sepeti yandan sokarak kirişin altına doğru açıyoruz. Kirişin tam konumunu ve raylı sistemin engel oluşturduğu noktaları keşifte fotoğrafla netleştiriyoruz.",
+            },
+            {
+                soru: "Aynı gün başka ekipler de sahada çalışıyor, platform onların işini etkiler mi?",
+                cevap:
+                    "Etkilememesi için sabah montaj şefiyle kısa bir koordinasyon yapıyoruz ve platformun hangi bölgeye önce gideceğini netleştiriyoruz. Bu adım atlanırsa iki ekip aynı bölgeyi aynı anda isteyebilir; düzenli çalıştığımız sahalarda bu koordinasyon zamanla rutine dönüyor.",
+            },
+            {
+                soru: "Kızak üstündeki geçici döşemede makineniz güvenle durabiliyor mu?",
+                cevap:
+                    "Döşemenin taşıma kapasitesini montaj şefinden teyit etmeden makineyi yerleştirmiyoruz; kapasite yetersizse daha uzak bir sabit noktadan bom açısıyla çalışıyoruz. Bu, erişim mesafesini kısıtlayabilir ama güvenlik açısından pazarlık konusu değildir.",
+            },
+            {
+                soru: "Rüzgârlı günlerde iş tamamen durur mu?",
+                cevap:
+                    "Her zaman değil; rüzgâr hızı belirli bir eşiği geçtiğinde bom açısı sınırlandırılır, tamamen durdurmak son çaredir. Bu karar operatörün sahadaki anlık değerlendirmesine bağlıdır. Montaj programına önceden esneklik payı eklemenizi öneririz çünkü kıyı şeridinde rüzgâr günden güne değişebilir.",
+            },
+            {
+                soru: "Cıvata torku kontrolü için sepetin uzun süre sabit durması gerekiyor, bu mümkün mü?",
+                cevap:
+                    "Mümkün; eklemli platformun açı esnekliği, sepeti kontrol noktasına rahatça hizalayıp orada sabit tutmayı kolaylaştırır. Kontrol süresi uzunsa bunu önceden bildirirseniz, o bölgedeki diğer işleri bu süreye göre programlarız.",
+            },
+            {
+                soru: "Kablo tavası montajı gibi yatay hat işlerinde nasıl ilerliyorsunuz?",
+                cevap:
+                    "Hat boyunca kademeli ilerleyerek çalışıyoruz; her segment tamamlandığında makine bir sonraki noktaya kayar. Bu, sabit iskeleye göre çok daha hızlı bir yöntemdir çünkü iskele her seferinde sökülüp yeniden kurulmaz. Hattın toplam uzunluğunu bilirsek, günlük ilerleme hızını önceden tahmin edebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersanelerde vinç kirişi ve çelik konstrüksiyon montajı genel gemi inşa/ağır sanayi pratiğidir; tesis adı ve rakam kullanılmamıştır. Program koordinasyonu ve zemin teyidi yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Çanakkale'de Tersane Kapalı Kaynak Atölyesi ve Depo İçi Platform Kiralama",
+        giris:
+            "Tersanenin kapalı kaynak-kesim atölyesi, açık kızak sahasından farklı bir erişim ortamı sunar: tavan vinç rayı, aydınlatma armatürü ve havalandırma menfezi gibi hedefler atölyenin üst kotunda sabit dururken, zemin genellikle düz betondur ve rüzgâr etkisi yoktur — bu da akülü, egzozsuz makaslı platformu birçok işte doğal seçim yapar. Atölye içindeki asıl kısıt yükseklik değil, kaynak dumanı ve metal tozudur; uzun süreli iç mekan çalışmalarında makinenin elektronik aksamı ve filtre sistemi bu ortamdan etkilenebilir. Ayrıca atölye, üretim durmadan çalıştığı için platform, kesim tezgahı ve kaynak istasyonlarının arasında dar ama düzenli koridorlarda hareket eder; bu koridorların günlük malzeme akışına göre değişebileceği unutulmamalıdır. Bu sayfa, tersanenin kapalı atölye ve depo alanlarında platformun nasıl kullanıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Tavan vinç rayı ve üst kot tesisat bakımı",
+                metin:
+                    "Atölye tavanındaki vinç rayı, aydınlatma hattı ve havalandırma kanalı, düzenli bakım gerektiren sabit tesisattır; bu hedeflere düz beton zeminde makaslı platformla hızlı ve güvenli erişim sağlanır. Vinç rayının bakımı sırasında rayın o an kullanımda olup olmadığı üretim programından teyit edilir, çünkü aynı anda vinç hareketiyle platform çalışması aynı hatta örtüşmemelidir.",
+            },
+            {
+                baslik: "Kaynak dumanı ve metal tozunun makineye etkisi",
+                metin:
+                    "Kesim ve kaynak istasyonlarının yoğun olduğu atölyelerde havada asılı metal tozu ve kaynak dumanı, makinenin filtre ve elektronik aksamını normalden hızlı yorar; uzun süreli iç mekan kiralamalarında filtre kontrolü sıklaştırılır. Atölyenin kendi havalandırma sistemi çalışıyorsa bu etki azalır, çalışmıyorsa makine bakım aralığı buna göre kısaltılır.",
+            },
+            {
+                baslik: "Üretim durmadan koridor içi hareket",
+                metin:
+                    "Atölye üretimi genellikle durmaz; platform, kesim tezgahları ve kaynak istasyonları arasındaki koridorlarda hareket ederken malzeme akışını kesmemeye dikkat eder. Koridor genişliği ve o günkü malzeme yerleşimi günlük değişebileceği için, sabah vardiyasında saha şefiyle güncel yerleşim kısaca teyit edilir.",
+            },
+            {
+                baslik: "Kompakt makaslı ile dar geçiş",
+                metin:
+                    "Atölye içindeki kapı genişlikleri ve tezgahlar arası mesafe, standart bir makaslı platformun geçişini sınırlayabilir; bu durumda dar gövdeli kompakt makaslı sınıf tercih edilir. Kapı ölçüsü ve tezgah aralığı keşifte fotoğrafla netleştirilir, özellikle çift kanatlı olmayan tek kapılardan geçişte bu ölçü belirleyicidir.",
+            },
+            {
+                baslik: "Aydınlatma ve havalandırma menfezi değişimi",
+                metin:
+                    "Atölye tavanındaki aydınlatma armatürleri ve havalandırma menfezleri, düzenli değişim gerektiren parçalardır; bu işler genellikle üretim programının en az yoğun olduğu saatlere (vardiya arası veya mesai sonu) planlanır. Değişim listesi önceden hazırlanırsa, tek bir platform kiralamasıyla birden fazla nokta aynı seferde tamamlanabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Atölye içi iş tipi ve makine eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, kapalı kaynak atölyesi ve depo içindeki tipik iş kalemlerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Ortam etkeni", "Uygun sınıf", "Bakım notu"],
+                    satirlar: [
+                        ["Tavan vinç rayı", "Vinç kullanım programı", "Makaslı (akülü)", "Ray boşta iken çalışma"],
+                        ["Aydınlatma armatürü", "Düşük yoğunluk saatleri", "Kompakt makaslı", "Vardiya arası planlama"],
+                        ["Havalandırma menfezi", "Metal tozu birikimi", "Makaslı (akülü)", "Filtre kontrolü sık"],
+                        ["Dar kapı/tezgah arası", "Geçiş genişliği", "Kompakt dar gövde", "Ölçü teyidi"],
+                        ["Kaynak istasyonu yakını", "Duman/kıvılcım", "Kıvılcımsız elektrikli", "Mesafe kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üretim programıyla eş zamanlı çalışma",
+                paragraflar: [
+                    "Atölye üretimi durmadığı için platform çalışması, üretim programının en az yoğun olduğu dilimlere yerleştirilir; bu dilim genellikle vardiya arası veya mesai sonudur. Sabah vardiyasında saha şefiyle kısa bir koordinasyonla o günün en uygun çalışma penceresi belirlenir.",
+                    "Tavan vinç rayı bakımı gibi işlerde, rayın o an kullanımda olup olmadığı ayrıca teyit edilir; ray meşgulken platform o hatta çalışmaz.",
+                ],
+            },
+            {
+                baslik: "Toz ve duman yoğun ortamda bakım sıklığı",
+                paragraflar: [
+                    "Kesim ve kaynak istasyonlarının yoğun olduğu atölyelerde makinenin filtre ve elektronik aksamı normalden hızlı yorulur; uzun süreli kiralamalarda bu bakım sıklığı standart iç mekan kiralamasına göre artırılır. Atölyenin kendi havalandırma sistemi çalışıyorsa bu etki azalır.",
+                    "İade öncesi makine, metal tozu birikimi açısından kontrol edilir ve gerekirse ek temizlik uygulanır; bu, hem makinenin ömrünü korur hem sonraki kiralamada sorun çıkmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tavan vinç rayının bakımını yaparken vinç kullanımda olursa ne oluyor?",
+                cevap:
+                    "Ray meşgulken o hatta çalışmıyoruz; bakım öncesi rayın o an kullanımda olup olmadığını üretim programından teyit ediyoruz. Rayın boşta olduğu bir dilim belirlenip iş buna göre planlanır. Vinç kullanım programınızı önceden paylaşırsanız, en uygun pencereyi birlikte buluruz.",
+            },
+            {
+                soru: "Kaynak dumanı ve metal tozu makinemize zarar verir mi?",
+                cevap:
+                    "Uzun vadede filtre ve elektronik aksamı normalden hızlı yorabilir, bu yüzden bu tür ortamlarda çalışan makinelerde filtre kontrolünü sıklaştırıyoruz. Atölyenizin havalandırma sistemi çalışıyorsa etki azalır; çalışmıyorsa bunu bize bildirin, bakım aralığını buna göre kısaltırız.",
+            },
+            {
+                soru: "Atölyedeki dar kapılardan makine geçebiliyor mu?",
+                cevap:
+                    "Standart makaslı geçemeyebilir, bu durumda dar gövdeli kompakt sınıfı öneririz. Kapı genişliğini ve tezgahlar arası mesafeyi keşifte fotoğrafla netleştiririz; ölçü sınırdaysa sahaya gelmeden doğru sınıfı belirleyebiliriz.",
+            },
+            {
+                soru: "Üretim durmadan atölyede çalışabiliyor musunuz?",
+                cevap:
+                    "Evet, çoğu zaman üretim programının en az yoğun olduğu dilime (vardiya arası, mesai sonu) yerleşerek çalışırız. Sabah vardiyasında saha şefinizle kısa bir koordinasyon yaparak o günün en uygun penceresini belirleriz; bu koordinasyon atlanırsa malzeme akışıyla çakışma riski artar.",
+            },
+            {
+                soru: "Birden fazla aydınlatma armatürünü tek seferde değiştirebilir misiniz?",
+                cevap:
+                    "Evet, değişim listesini önceden hazırlarsanız tek bir platform kiralamasıyla birden fazla noktayı aynı seferde tamamlarız; bu, ayrı ayrı çağrı yapmaya göre hem daha ekonomik hem daha az kesinti anlamına gelir. Listeyi keşif sırasında veya öncesinde bize iletmeniz yeterlidir.",
+            },
+            {
+                soru: "Kaynak istasyonuna çok yakın çalışmamız gerekiyor, güvenli mi?",
+                cevap:
+                    "Kıvılcım riski varsa kıvılcımsız elektrikli ekipman kullanıyoruz ve uygun mesafeyi koruyoruz; bu, kapalı atölyelerde standart uygulamamızdır. Kaynak istasyonunun o sırada aktif olup olmadığını saha ekibinizle teyit ederek çalışma sırasını buna göre kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersane kapalı kaynak-kesim atölyelerinin genel işleyişi (tavan vinç, toz/duman ortamı) sektörel bilgidir; tesis adı ve rakam kullanılmamıştır. Bakım sıklığı ve koordinasyon yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çanakkale'de Tersane Kızak Rayı ve Vinç Kulesi Çelik Konstrüksiyon Montajı",
+        giris:
+            "Tersanenin çelik konstrüksiyon montaj işleri, sanayi holündeki standart çatı-cephe montajından farklı iki unsur taşır: kızak rayı gibi bazı yapılar zeminle iç içe ve gemi ağırlığını taşıyan kritik bir sistemdir, vinç kulesi gibi diğerleri ise açık deniz kenarında yüksek rüzgâr yüküne maruz kalır. Platform bu montajlarda çelik elemanı taşımaz — taşıma vinçle yapılır — ama elemanın kaynaklanması, cıvatalanması ve kontrolü için erişim sağlar; bu ayrım, iş güvenliği ve iş bölümü açısından baştan netleştirilir. Vinç kulesi gibi yüksek yapılarda platform, kule iskeleti tamamlanana kadar aşamalı olarak farklı kotlarda çalışır; kızak rayı gibi zemine yakın ama uzun hatlı yapılarda ise platform, yatay hat boyunca kademeli ilerler. Bu sayfa, tersanedeki çelik konstrüksiyon montaj işlerinde platformun rolünü ve sınırlarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kızak rayı montajında yatay hat ilerlemesi",
+                metin:
+                    "Kızak rayı, gemiyi taşıyan arabaların üzerinde hareket ettiği uzun ve düz bir çelik hattır; montaj ve kaynak kontrolü bu hat boyunca metre metre ilerler. Platform, ray hattı boyunca kademeli olarak konumlanır ve her segment tamamlandığında bir sonrakine geçer; rayın gemi ağırlığını taşıyacak kritik bir sistem olması nedeniyle kaynak kalitesi kontrolü özellikle titizdir.",
+            },
+            {
+                baslik: "Vinç kulesi montajında kademeli kot artışı",
+                metin:
+                    "Vinç kulesi gibi yüksek çelik yapılar, iskelet aşağıdan yukarıya tamamlandıkça platform da aynı sırayla farklı kotlarda çalışır; bir kat tamamlanmadan üst kata geçilmez. Bu aşamalı çalışma, montaj programıyla birlikte planlanır ve platform kule iskeletinin o anki durumuna göre erişim noktası değiştirir.",
+            },
+            {
+                baslik: "Deniz kenarı rüzgâr yükünün etkisi",
+                metin:
+                    "Vinç kulesi gibi yüksek yapılarda çalışma, açık deniz kenarının rüzgâr etkisine doğrudan maruz kalır; belirli bir rüzgâr hızının üzerinde yüksek kotlardaki iş sınırlandırılır veya ertelenir. Bu karar operatörün sahadaki anlık değerlendirmesine bağlıdır ve montaj programına önceden esneklik payı olarak eklenir.",
+            },
+            {
+                baslik: "Taşıma ile erişimin iş bölümü",
+                metin:
+                    "Çelik elemanın kaldırılması ve konumlanması vinçle yapılır; platform yalnızca elemanın kaynaklanması, cıvatalanması veya kontrolü için erişim sağlar. Bu iş bölümü, sahada aynı anda çalışan vinç ve platform ekiplerinin birbirine karışmaması için baştan netleştirilir; vinç hareket hâlindeyken platform o bölgede beklemeye alınır.",
+            },
+            {
+                baslik: "Kaynak kalite kontrolünde sabit duruş süresi",
+                metin:
+                    "Kritik taşıyıcı sistemlerde (kızak rayı, vinç kulesi bağlantı noktaları) kaynak kalite kontrolü, sepetin belirli bir noktada uzun süre sabit durmasını gerektirebilir; bu süre önceden bilinirse, platformun o bölgede ne kadar kalacağı montaj programına dahil edilir ve diğer ekiplerin beklemesi önlenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon tipi ve montaj erişimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tersanedeki çelik konstrüksiyon montaj işlerinin erişim özelliklerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı", "Erişim tipi", "Kısıt", "Makine notu"],
+                    satirlar: [
+                        ["Kızak rayı", "Yatay hat, kademeli", "Kritik taşıyıcı sistem", "Titiz kaynak kontrolü"],
+                        ["Vinç kulesi iskeleti", "Dikey, kademeli kot", "Montaj sırası", "Aşama aşama erişim"],
+                        ["Vinç kulesi üst kısım", "Yüksek kot", "Rüzgâr yükü", "Eşik üstü iş durur"],
+                        ["Kaynak/cıvata kontrolü", "Sabit nokta", "Kontrol süresi", "Program içi zaman payı"],
+                        ["Vinç ile eş zamanlı alan", "Bölgesel", "İş bölümü ayrımı", "Vinç hareketinde bekleme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj sırasının platform programına yansıması",
+                paragraflar: [
+                    "Vinç kulesi gibi çok aşamalı yapılarda platform, iskeletin o anki durumuna göre erişim noktası değiştirir; bir kat tamamlanmadan üst kata geçilmez, bu yüzden platform programı montaj programının bir parçası olarak kurulur, ayrı bir program değildir.",
+                    "Montaj şefiyle günlük veya haftalık ilerleme paylaşıldığında, platformun bir sonraki hafta hangi kotta çalışacağı önceden planlanabilir; bu, son dakika taleplerini azaltır.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr eşiğinin montaj takvimine etkisi",
+                paragraflar: [
+                    "Vinç kulesi gibi yüksek yapılarda rüzgâr, özellikle üst kotlarda belirleyici bir faktördür; belirli bir hızın üzerinde iş sınırlandırılır veya ertelenir. Bu, montaj takviminde önceden hesaba katılması gereken bir değişkendir — kıyı şeridinde rüzgârlı günler mevsime göre sıklaşabilir.",
+                    "Rüzgârlı bir dönemde montajın gecikmemesi için, uygun olmayan günlerde alt kotlardaki (zemine yakın, rüzgârdan az etkilenen) işler öne çekilerek program dengelenebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kızak rayı gibi kritik bir sistemde kaynak kontrolü ne kadar hassas yapılıyor?",
+                cevap:
+                    "Rayın gemi ağırlığını taşıyacak kritik bir sistem olması nedeniyle kaynak kalite kontrolü özellikle titiz yürütülür; platform, kontrol ekibinin ihtiyaç duyduğu süre boyunca sabit ve stabil bir erişim sağlar. Kontrol süresi uzun olabileceği için bunu önceden montaj programına dahil ediyoruz.",
+            },
+            {
+                soru: "Vinç kulesi montajında platform hangi sırayla çalışıyor?",
+                cevap:
+                    "İskeletin tamamlanma sırasını takip ediyoruz; bir kat bitmeden üst kata geçmiyoruz. Montaj şefiyle ilerleme paylaşıldığında, platformun bir sonraki hafta hangi kotta çalışacağını önceden planlayabiliyoruz. Bu, son dakika taleplerini azaltıyor ve montaj programıyla uyumlu kalmamızı sağlıyor.",
+            },
+            {
+                soru: "Rüzgârlı günlerde vinç kulesi işi tamamen durur mu?",
+                cevap:
+                    "Her zaman değil; belirli bir rüzgâr hızının üzerinde özellikle üst kotlardaki iş sınırlandırılır, tamamen durdurmak son çaredir. Bu kararı operatörümüz sahada anlık değerlendirir. Rüzgârlı dönemlerde alt kotlardaki işleri öne çekerek programı dengelemeyi öneriyoruz.",
+            },
+            {
+                soru: "Platform çelik elemanı da taşıyabiliyor mu, yoksa sadece erişim mi sağlıyor?",
+                cevap:
+                    "Yalnızca erişim sağlıyor; elemanın kaldırılması ve konumlanması vinçle yapılır. Bu iş bölümünü baştan netleştiriyoruz çünkü aynı anda çalışan vinç ve platform ekiplerinin karışmaması gerekiyor. Vinç hareket hâlindeyken platform o bölgede beklemeye alınır.",
+            },
+            {
+                soru: "Montaj programımız değişirse platform programını hızlı güncelleyebilir misiniz?",
+                cevap:
+                    "Genellikle evet, özellikle önceden bize haber verilirse; ani değişikliklerde en yakın uygun makineyi yönlendirerek gecikmeyi en aza indiririz. Montaj şefinizle düzenli iletişim kurduğumuz sahalarda bu güncellemeler daha hızlı yapılabiliyor.",
+            },
+            {
+                soru: "Kızak rayı hattı çok uzun, tek seferde mi bitiriyorsunuz?",
+                cevap:
+                    "Hattın uzunluğuna ve günlük kaynak ilerleme hızına bağlı olarak birkaç güne yayılabilir; platform, hat boyunca kademeli olarak segment segment ilerler. Hattın toplam uzunluğunu ve günlük hedef ilerlemeyi bilirsek, kaç günlük bir kiralama gerekeceğini önceden tahmin edebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersanelerde kızak rayı ve vinç kulesi gibi çelik konstrüksiyonların montaj süreci genel gemi inşa/ağır sanayi bilgisidir; tesis adı ve rakam kullanılmamıştır. Program koordinasyonu ve iş bölümü yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Çanakkale'de Gelibolu Yarımadası Tarım Alanlarında Platform Kiralama",
+        giris:
+            "Tersane sahasının çevresindeki Gelibolu yarımadası, aynı zamanda zeytinlik ve tahıl tarımının yoğun olduğu bir bölgedir; tersane sezonu (karaya çekme, bakım yoğunluğu) ile tarım sezonu (hasat, silo doldurma) çoğu zaman farklı takvimlere denk gelir ve bu fark, aynı makine parkının iki farklı sektöre sırayla hizmet vermesini mümkün kılar. Tarım tarafında platform, silo yapılarının üst kotundaki bakım işlerinde, zeytinyağı işleme tesislerinin çatı ve tesisat bakımında, kurutma tesislerinin havalandırma bakımında kullanılır. Bu sahaların ortak özelliği, tersane sahasına göre daha açık ve zemin koşulu daha değişken olmasıdır — bazı tarım yolları toprak veya çakıl, bazı silo çevreleri ise beton platform üzerindedir. Bu sayfa, tersane merkezli filomuzun tarım sahalarında nasıl kullanıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Silo üst kotu bakım ve muayene",
+                metin:
+                    "Tahıl siloları, üst kapak, havalandırma bacası ve seviye sensörü gibi bakım noktalarını genellikle silonun en üst kotunda barındırır; bu noktalara sabit merdivenle erişim yavaş ve yorucudur, platform ise doğrudan hedefe yaklaşarak hem süreyi kısaltır hem iş güvenliğini artırır. Silo çevresindeki zeminin taşıma kapasitesi ve eğimi, makine yerleşimi öncesi kontrol edilir.",
+            },
+            {
+                baslik: "Zeytinyağı işleme tesisinde çatı ve tesisat",
+                metin:
+                    "Bölgedeki zeytinyağı işleme tesislerinin çatı bakımı ve tesisat hattı işleri, hasat sezonu dışında planlanan düzenli bakım kalemleridir; hasat sezonunda tesis yoğun çalıştığı için platform işleri genellikle sezon arasına kaydırılır. Bu zamanlama, tesis yönetimiyle önceden koordine edilir.",
+            },
+            {
+                baslik: "Kurutma tesisi havalandırma bakımı",
+                metin:
+                    "Tahıl kurutma tesislerinin havalandırma sistemi, hasat sonrası yoğun kullanımdan dolayı düzenli bakım gerektirir; bu bakım genellikle hasat biter bitmez, bir sonraki sezona hazırlık olarak planlanır. Platform, kurutma ünitesinin üst kısmındaki fan ve kanal bakımına doğrudan erişim sağlar.",
+            },
+            {
+                baslik: "Toprak ve çakıl yollarda zemin değerlendirmesi",
+                metin:
+                    "Tarım sahalarına giden yolların bir kısmı toprak veya çakıldır; yağışlı dönemde bu yollar makinenin geçişini zorlaştırabilir. Sevkiyat öncesi hava durumu ve yol koşulu değerlendirilir, gerekirse daha uygun bir güne ertelenir veya farklı bir güzergah kullanılır.",
+            },
+            {
+                baslik: "Tersane-tarım sezon dengesinin sevkiyat avantajı",
+                metin:
+                    "Tersanenin karaya çekme sezonu ile tarımın hasat sezonu genellikle farklı aylara denk gelir; bu, aynı makinenin bir dönem tersaneye, diğer dönem tarım sahalarına yönlendirilmesini mümkün kılar. Bu denge, her iki sektörde de makine bulunurluğunu yıl boyunca daha dengeli tutar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım sahası iş tipi ve makine notu",
+                paragraflar: [
+                    "Aşağıdaki tablo, Gelibolu yarımadası tarım sahalarındaki tipik platform işlerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis", "İş kalemi", "Zamanlama", "Zemin notu"],
+                    satirlar: [
+                        ["Tahıl silosu", "Üst kapak, sensör", "Yıl boyunca", "Beton platform"],
+                        ["Zeytinyağı işleme tesisi", "Çatı, tesisat", "Hasat sezonu dışı", "Beton/asfalt"],
+                        ["Kurutma tesisi", "Havalandırma, fan", "Hasat sonrası", "Beton"],
+                        ["Sahaya giden yol", "Sevkiyat", "Yağışa duyarlı", "Toprak/çakıl"],
+                        ["Sezon geçiş dönemi", "Esnek talep", "Tersane-tarım arası", "Değişken"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat sezonuyla çakışmayan planlama",
+                paragraflar: [
+                    "Hasat sezonunda tesisler yoğun çalıştığı için bakım işleri genellikle bu döneme denk getirilmez; sezon arası veya hasat sonrası dönem, hem tesis için hem bizim için daha uygun bir çalışma penceresidir. Tesis yönetimiyle sezon takvimi önceden paylaşıldığında, bakım planı buna göre kurulur.",
+                    "Acil bir arıza hasat sezonunda ortaya çıkarsa, tesisin üretimini aksatmayacak şekilde en kısa pencereye (gece veya vardiya arası) iş yerleştirilir.",
+                ],
+            },
+            {
+                baslik: "Yol koşulunun sevkiyat kararına etkisi",
+                paragraflar: [
+                    "Toprak veya çakıl yolların yağışlı dönemde geçişi zorlaşabileceği için, sevkiyat öncesi hava durumu ve yol koşulu değerlendirilir; riskli görülen günlerde iş bir sonraki uygun güne ertelenir. Bu değerlendirme, özellikle kış aylarında planlı bakımların zamanlamasını etkiler.",
+                    "Düzenli çalıştığımız tarım tesislerinde yol koşulu ve alternatif güzergahlar zaten bilinir; yeni bir sahada ise ilk sevkiyat öncesi yol durumu telefonla teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo üst kotuna erişim için hangi makine sınıfı kullanılıyor?",
+                cevap:
+                    "Silo çevresindeki zeminin taşıma kapasitesine ve eğimine göre değişir; beton platform üzerindeyse standart makaslı veya eklemli yeterli olabilir, zemin daha değişkense arazi tipi bir sınıf tercih edilir. Silo çevresinin fotoğrafını paylaşırsanız, doğru sınıfı keşifte netleştiririz.",
+            },
+            {
+                soru: "Hasat sezonunda bakım yaptırabilir miyiz, yoksa beklememiz mi gerekiyor?",
+                cevap:
+                    "Mümkünse hasat sezonu dışına planlamanızı öneririz çünkü tesis o dönemde yoğun çalışır ve bakım işi üretimi aksatabilir. Acil bir arıza varsa üretimi aksatmayacak bir pencereye (gece, vardiya arası) yerleştiririz; planlı bakımlar için ise sezon öncesi veya sonrası daha uygundur.",
+            },
+            {
+                soru: "Yağmurlu havada toprak yoldan geçebiliyor musunuz?",
+                cevap:
+                    "Bazen zorlanabiliriz; sevkiyat öncesi hava durumu ve yol koşulunu değerlendiririz, riskli görülürse bir sonraki uygun güne erteleriz. Düzenli çalıştığımız sahalarda alternatif güzergahları biliyoruz, yeni bir sahada ilk sevkiyat öncesi yol durumunu telefonla teyit ederiz.",
+            },
+            {
+                soru: "Tersane işleriniz varken tarım sahasına makine ayırabiliyor musunuz?",
+                cevap:
+                    "Genellikle evet, çünkü tersanenin karaya çekme sezonu ile tarımın hasat sezonu farklı aylara denk gelir; bu fark, aynı filonun iki sektöre sırayla hizmet vermesini mümkün kılar. Nadir bir çakışma olursa öncelik, önceden rezervasyon yapan müşteriye verilir.",
+            },
+            {
+                soru: "Kurutma tesisinin fan bakımını hasat bitince mi yapıyorsunuz?",
+                cevap:
+                    "Genellikle evet, çünkü fan ve kanal sistemi hasat sonrası yoğun kullanımdan yorulmuş olur ve bir sonraki sezona hazırlık için bu dönemde bakım en mantıklısıdır. Hasat bitiş tarihinizi bize bildirirseniz, bakımı bu takvime göre planlarız.",
+            },
+            {
+                soru: "Zeytinyağı işleme tesisinin çatısında kaç günde bitirebilirsiniz?",
+                cevap:
+                    "Süre, çatının büyüklüğüne ve yapılacak işin kapsamına (tek nokta muayene mi, genel bakım mı) bağlıdır. Hasat sezonu dışında planlarsanız tesis yoğunluğu düşük olduğu için çalışma temposu daha rahat ilerler. Çatının fotoğrafını ve iş listesini paylaşırsanız, keşifte süre tahmini veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gelibolu yarımadasının zeytinlik/tahıl tarımı kamuya açık bölgesel bilgidir; tesis adı ve rakam kullanılmamıştır. Sezon dengesi ve sevkiyat koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Çanakkale'de Tersane Sahası Aydınlatma Direği Bakımı",
+        giris:
+            "Tersane sahası, gece vardiyasının sürdüğü bir ortamdır; kızak alanı, dok çevresi ve açık malzeme deposu üzerindeki aydınlatma direkleri, hem güvenlik hem üretim devamlılığı için düzenli bakım gerektirir. Bu direkler genellikle standart sokak aydınlatmasından daha yüksek ve daha güçlü armatürlere sahiptir çünkü geniş bir sahayı aydınlatmaları gerekir; armatür değişimi veya kablo bağlantı kontrolü, platformla doğrudan direğin tepesine çıkılarak yapılır. Sahanın açık deniz kenarında olması, hem rüzgârı hem tuzlu nemi bakım sıklığına dahil eden iki faktördür — armatür bağlantı noktaları tuzlu havada standart bir sanayi sahasına göre daha hızlı korozyona uğrar. Bu sayfa, tersane sahasındaki aydınlatma direği bakımının nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Gece vardiyası öncesi armatür kontrolü",
+                metin:
+                    "Gece vardiyasının güvenli sürmesi için aydınlatma direklerinin bakımı, mümkünse gündüz saatlerinde ve vardiya başlamadan tamamlanır; bir armatürün sönük kaldığı fark edildiğinde bu bilgi mümkün olan en kısa sürede iletilir çünkü gece boyunca o bölge karanlıkta kalabilir. Acil armatür değişimi, gündüz bakımından ayrı bir öncelik sırasında değerlendirilir.",
+            },
+            {
+                baslik: "Yüksek direk ve güçlü armatür erişimi",
+                metin:
+                    "Tersane sahası direkleri, geniş bir alanı aydınlatmak için standart sokak direğinden daha yüksek olabilir; bu direklerin tepesine erişim için bom uzanımı yeterli bir eklemli platform gerekir. Direğin tam yüksekliği ve armatür tipi keşifte belirlenir, çünkü bazı armatürler ağır ve değişimi iki kişilik ekip gerektirebilir.",
+            },
+            {
+                baslik: "Tuzlu hava korozyonunun bağlantı noktalarına etkisi",
+                metin:
+                    "Deniz kenarındaki direk ve armatür bağlantı noktaları, tuzlu havanın etkisiyle standart bir sanayi sahasına göre daha hızlı korozyona uğrar; bu yüzden bakım sırasında sadece armatür değil bağlantı vidaları ve kablo geçiş noktaları da kontrol edilir. Korozyon tespit edilirse, armatür değişimiyle birlikte bağlantı elemanı da yenilenir.",
+            },
+            {
+                baslik: "Açık sahada rüzgâr etkisiyle çalışma penceresi",
+                metin:
+                    "Yüksek direk tepesindeki çalışma, açık deniz kenarının rüzgârından doğrudan etkilenir; belirli bir rüzgâr hızının üzerinde bom uzanımı sınırlandırılır. Rüzgârın günün belirli saatlerinde daha sakin olduğu bilgisi varsa, bakım bu saatlere planlanır.",
+            },
+            {
+                baslik: "Çok sayıda direkte rota planlaması",
+                metin:
+                    "Kızak, dok ve depo çevresindeki onlarca aydınlatma direğinin tamamını tek tek çağırmak yerine, yıllık veya sezonluk bir bakım rotası çıkarmak hem maliyet hem zaman açısından daha verimlidir; hangi direklerin öncelikli olduğu (arızalı, karanlık bölge) saha ekibiyle birlikte belirlenir ve rota buna göre sıralanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma direği bakım tipi ve planlama",
+                paragraflar: [
+                    "Aşağıdaki tablo, tersane sahası aydınlatma direği bakımındaki tipik durumları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Zamanlama", "Risk unsuru", "Makine notu"],
+                    satirlar: [
+                        ["Rutin armatür kontrolü", "Gündüz, vardiya öncesi", "—", "Standart eklemli"],
+                        ["Acil sönük armatür", "Öncelikli", "Gece güvenliği", "Hızlı yönlendirme"],
+                        ["Korozyonlu bağlantı", "Rutin bakımla birlikte", "Tuzlu hava", "Bağlantı yenileme"],
+                        ["Yüksek direk tepesi", "Planlı", "Bom uzanımı yeterliliği", "Uygun bom sınıfı"],
+                        ["Rüzgârlı gün", "Ertelenebilir", "Bom stabilitesi", "Sakin saat tercihi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yıllık bakım rotasının avantajı",
+                paragraflar: [
+                    "Sahadaki tüm direkleri kapsayan bir yıllık rota, hem her direk için ayrı çağrı maliyetini önler hem de korozyon veya arıza gibi sorunları erken tespit etme imkânı verir; rota, hangi direklerin daha önce sorun yaşadığı bilgisiyle önceliklendirilir.",
+                    "Bu rotayı bir kez kurduğumuz sahalarda, yıl içindeki acil çağrı sayısı belirgin şekilde azalıyor çünkü çoğu sorun rutin bakımda erken yakalanıyor.",
+                ],
+            },
+            {
+                baslik: "Gece güvenliği ile bakım önceliği ilişkisi",
+                paragraflar: [
+                    "Sönük kalan bir armatür, gece vardiyasında o bölgenin karanlıkta kalması demektir; bu yüzden armatür arızası bildirildiğinde rutin bakım sırasından bağımsız olarak öncelik kazanır. Hangi bölgenin gece vardiyası için kritik olduğu saha yetkilisiyle önceden belirlenir.",
+                    "Kritik bölgelerdeki direkler, yıllık rotada da öncelikli sıraya alınır; böylece arıza olasılığı en aza indirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gece vardiyası sürerken direk bakımı yapabiliyor musunuz?",
+                cevap:
+                    "Mümkünse gündüz saatlerinde, vardiya başlamadan yapmayı tercih ederiz; bu, gece boyunca o bölgenin karanlıkta kalma riskini önler. Acil bir durumda gece de müdahale edebiliriz ama rutin bakım için gündüz penceresi hem daha güvenli hem daha verimlidir.",
+            },
+            {
+                soru: "Bir armatür sönük kaldığında ne kadar sürede müdahale edersiniz?",
+                cevap:
+                    "Sönük armatür bildirildiğinde bu, rutin bakım sırasından bağımsız olarak öncelik kazanır; süre, o anki makine bulunurluğuna ve sahaya uzaklığa bağlıdır. Hangi direğin ve bölgenin etkilendiğini ilk çağrıda net verirseniz, en hızlı şekilde yönlendiririz.",
+            },
+            {
+                soru: "Tuzlu hava direklerin bağlantı noktalarına ne kadar zarar veriyor?",
+                cevap:
+                    "Deniz kenarındaki bağlantı vidaları ve kablo geçiş noktaları, standart bir sanayi sahasına göre daha hızlı korozyona uğrar; bu yüzden rutin bakımda sadece armatürü değil bağlantı elemanlarını da kontrol ediyoruz. Korozyon tespit edilirse, armatürle birlikte bağlantı elemanı da yenilenir.",
+            },
+            {
+                soru: "Sahamızda onlarca direk var, hepsini tek tek mi çağırmamız gerekiyor?",
+                cevap:
+                    "Gerekmiyor; yıllık veya sezonluk bir bakım rotası çıkarmanızı öneririz. Hangi direklerin öncelikli olduğunu (arızalı, karanlık bölge, daha önce sorun yaşamış) birlikte belirleriz ve tek bir rotayla tüm direkleri kapsarız; bu hem maliyet hem zaman açısından daha verimlidir.",
+            },
+            {
+                soru: "Rüzgârlı günlerde direk tepesindeki iş ertelenir mi?",
+                cevap:
+                    "Belirli bir rüzgâr hızının üzerinde bom uzanımı sınırlandığı için evet, gerekirse ertelenir. Rüzgârın günün belirli saatlerinde daha sakin olduğu biliniyorsa, bakımı o saatlere planlarız; bu bilgiyi paylaşırsanız programı buna göre kurarız.",
+            },
+            {
+                soru: "Direk armatürü çok ağırsa değişimi nasıl yapıyorsunuz?",
+                cevap:
+                    "Ağır armatürlerde iki kişilik bir ekiple çalışırız; biri sepette değişimi yapar, diğeri yerden yönlendirme ve malzeme desteği sağlar. Armatürün tipini ve tahmini ağırlığını keşifte belirleriz, bu bilgi doğru ekip ve makine planlamasına yardımcı olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersane sahalarında gece vardiyası ve deniz kenarı korozyonu genel tesis işletmeciliği bilgisidir; tesis adı ve rakam kullanılmamıştır. Rota planlaması ve öncelik sıralaması firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Çanakkale'de Tersane Sahasında Operatörlü Platform Kiralama",
+        giris:
+            "Tersane sahasında operatörlü kiralama tercihi, sahanın kendi iş güvenliği kültüründen doğrudan etkilenir: kaynak, boya ve vinç faaliyetinin aynı anda sürdüğü bir ortamda platform kullanan kişinin sadece makineyi değil, çevresindeki riskleri (kıvılcım, askılı yük, dar geçiş) de tanıması beklenir. Bu yüzden tersanede operatörsüz kiralama, ancak müşterinin kendi personeli sahaya ve o günkü risklere aşina ise ve gerekli sertifikasyona sahipse değerlendirilir; yeni bir sahada veya karmaşık bir montaj işinde operatörlü seçenek varsayılan tercihtir. Operatörümüz sahaya geldiğinde, o günkü kaynak/boya/vinç programını saha yetkilisinden alır ve platform çalışmasını bu programa göre kurar — bu koordinasyon, operatörsüz bir kiralamada müşterinin kendi sorumluluğuna kalır.",
+        maddeler: [
+            {
+                baslik: "Çok riskli sahada operatörlü tercih",
+                metin:
+                    "Kaynak kıvılcımı, boya buharı ve vinç hareketi gibi birden fazla riskin aynı anda bulunduğu tersane bölümlerinde, operatörümüzün bu riskleri tanıması ve günlük saha programını takip etmesi önemli bir avantajdır; bu yüzden özellikle yeni çalıştığımız veya karmaşık montaj süren sahalarda operatörlü kiralamayı öneririz.",
+            },
+            {
+                baslik: "Operatörsüz kiralamada sertifikasyon şartı",
+                metin:
+                    "Müşterinin kendi personeli platformu kullanacaksa, ilgili makine sınıfı için geçerli operatör sertifikası ve tersanenin kendi iş güvenliği oryantasyonunu tamamlamış olması gerekir; bu belgeler kiralama öncesi kontrol edilir. Sertifikasyon eksikse operatörlü seçenek zorunlu hâle gelir.",
+            },
+            {
+                baslik: "Günlük saha programına uyum",
+                metin:
+                    "Operatörümüz sahaya geldiğinde, o günkü kaynak, boya ve vinç faaliyeti programını saha yetkilisinden alır; platform çalışması bu programa göre kurulur ve çakışan bir faaliyet varsa operatörümüz işi erteleyip yetkiliye danışır. Operatörsüz kiralamada bu koordinasyon müşteri personelinin sorumluluğundadır.",
+            },
+            {
+                baslik: "Uzun süreli tersane işlerinde operatör devamlılığı",
+                metin:
+                    "Bir gemi inşa bloğu üzerinde haftalarca süren işlerde, aynı operatörün sürekliliği sahanın kendine özgü kısıtlarını (destek koridoru, kaynak programı, rüzgâr eşiği) öğrenmesini sağlar ve iş temposu zamanla hızlanır; bu yüzden uzun süreli kiralamalarda mümkünse aynı operatör atanır.",
+            },
+            {
+                baslik: "Operatör değişikliğinde bilgi aktarımı",
+                metin:
+                    "Operatör değişmesi gerektiğinde (izin, rotasyon), yeni operatöre sahanın o güne kadar öğrenilen kısıtları ve saha yetkilisinin iletişim bilgisi aktarılır; bu geçiş, iş kalitesinde kesinti yaşanmaması için önceden planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, tersane sahasında hangi durumda hangi seçeneğin uygun olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen seçenek", "Şart", "Not"],
+                    satirlar: [
+                        ["Yeni saha, ilk çalışma", "Operatörlü", "—", "Saha riskleri bilinmiyor"],
+                        ["Çok riskli bölüm (kaynak+vinç)", "Operatörlü", "—", "Eş zamanlı risk yönetimi"],
+                        ["Müşterinin sertifikalı personeli", "Operatörsüz", "Geçerli sertifika + oryantasyon", "Belgeler önceden kontrol"],
+                        ["Uzun süreli tek blok işi", "Operatörlü (sabit kişi)", "—", "Saha bilgisi birikir"],
+                        ["Kısa süreli basit erişim", "Operatörsüz mümkün", "Sertifika şartı", "Düşük risk bölümü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sertifikasyon kontrolünün adımları",
+                paragraflar: [
+                    "Operatörsüz kiralama talebinde, ilgili makine sınıfı için geçerli bir operatör sertifikası ve tersanenin kendi iş güvenliği oryantasyon kaydı istenir; bu belgeler kiralama öncesi kontrol edilir ve kayıt altına alınır.",
+                    "Belge eksikse veya süresi geçmişse, operatörlü seçenek önerilir ya da müşteri personelinin sertifikasyonu tamamlanana kadar kiralama ertelenir; bu, sahadaki güvenlik standardından ödün vermemek içindir.",
+                ],
+            },
+            {
+                baslik: "Saha bilgisinin operatör devamlılığıyla korunması",
+                paragraflar: [
+                    "Bir tersane sahasında haftalarca süren işlerde operatörümüz, destek koridoru ölçüsü, kaynak programı saatleri ve rüzgâr eşiği gibi sahaya özgü bilgiyi zamanla öğrenir; aynı operatörün devam etmesi bu bilgiyi korur ve iş temposunu hızlandırır.",
+                    "Operatör değişmesi zorunlu olduğunda, bu bilgi yeni operatöre önceden aktarılır ve mümkünse ilk gün eski operatörle birlikte çalışılarak geçiş yumuşatılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tersanede operatörsüz kiralama hiç mümkün değil mi?",
+                cevap:
+                    "Mümkün, ancak müşterinin personeli ilgili makine sınıfı için geçerli operatör sertifikasına ve tersanenin kendi iş güvenliği oryantasyonuna sahip olmalı. Bu belgeler kiralama öncesi kontrol edilir. Çok riskli veya yeni bir sahada operatörlü seçeneği öneririz çünkü saha kısıtları önceden bilinmiyor olabilir.",
+            },
+            {
+                soru: "Operatörünüz günlük kaynak/vinç programını nereden öğreniyor?",
+                cevap:
+                    "Sahaya geldiğinde saha yetkilisinden o günkü faaliyet programını alır; platform çalışmasını bu programa göre kurar. Çakışan bir faaliyet varsa işi erteleyip yetkiliye danışır. Operatörsüz kiralamada bu koordinasyonu müşteri personeli kendisi yürütmelidir.",
+            },
+            {
+                soru: "Aynı operatörün uzun süre çalışmasının bize faydası ne?",
+                cevap:
+                    "Operatör, sahanın destek koridoru ölçüsü, kaynak programı saatleri ve rüzgâr eşiği gibi kısıtlarını zamanla öğrenir; bu bilgi birikimi iş temposunu hızlandırır. Bu yüzden haftalarca süren işlerde mümkünse aynı operatörü atarız.",
+            },
+            {
+                soru: "Operatör izne çıkarsa iş aksar mı?",
+                cevap:
+                    "Aksamaması için yeni operatöre sahanın o güne kadar öğrenilen kısıtları ve saha yetkilisinin iletişim bilgisi önceden aktarılır; mümkünse geçiş günü eski operatörle birlikte çalışılır. Bu planlama, izin veya rotasyon öncesinde bize bildirilirse daha sorunsuz yürür.",
+            },
+            {
+                soru: "Sertifikamız var ama tersanenin oryantasyonunu almadık, ne yapmalıyız?",
+                cevap:
+                    "Oryantasyon eksikse operatörsüz kiralama önerilmez; ya operatörlü seçeneğe geçilir ya da müşteri personeli tersanenin oryantasyonunu tamamlayana kadar kiralama ertelenir. Bu, sahadaki güvenlik standardından ödün vermemek için önceliğimizdir.",
+            },
+            {
+                soru: "Düşük riskli kısa bir iş için operatörsüz kiralayabilir miyiz?",
+                cevap:
+                    "Evet, sertifikasyon şartı sağlanıyorsa ve iş kaynak/vinç gibi eş zamanlı riskli faaliyetlerden uzak bir bölümdeyse operatörsüz kiralama mümkündür. İşin niteliğini ve konumunu paylaşırsanız, operatörlü mü operatörsüz mü uygun olduğunu birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersane sahalarında iş güvenliği ve eş zamanlı faaliyet riski (kaynak, boya, vinç) genel sektörel bilgidir; tesis adı ve rakam kullanılmamıştır. Sertifikasyon kontrolü ve operatör devamlılığı yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çanakkale'de Tersane, Fırın Atölyesi ve Tarım Sahası Arasında Çok Noktalı Bakım Rotası",
+        giris:
+            "Merkezdeki depomuz, tek bir sektöre değil üç farklı sahaya hizmet verir: Gelibolu tersaneleri, Çan'daki seramik fırın yan sanayisi ve Gelibolu yarımadasının tarım tesisleri. Bu üç saha genellikle farklı takvimlerde yoğunlaşır, dolayısıyla bir müşterinin birden fazla noktada (örneğin tersanedeki depo aydınlatması ile aynı hafta tarım silosundaki sensör bakımı) ihtiyacı varsa, tek bir rotayla iki işi art arda planlamak hem sevkiyat maliyetini hem toplam süreyi azaltır. Çok noktalı rota, özellikle aynı müşterinin farklı sahalarda tesisi olduğu veya bir tedarik zincirinin (örneğin tersaneye malzeme sağlayan bir atölyenin) birden fazla noktasında düzenli bakım ihtiyacı bulunduğu durumlarda değer üretir. Bu sayfa, çok noktalı rota planlamasının nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Farklı sektörlerin takvim farkından yararlanma",
+                metin:
+                    "Tersane, fırın atölyesi ve tarım sahası, yoğun dönemlerini genellikle farklı aylarda yaşar; bir rota planlarken bu takvim farkı kullanılarak, bir sahada düşük yoğunluk varken diğerinde yüksek olabileceği öngörülür ve makine buna göre yönlendirilir. Bu, tek bir sektöre bağımlı kalmadan filo kullanımını dengeler.",
+            },
+            {
+                baslik: "Aynı hafta birden fazla nokta talebi",
+                metin:
+                    "Bir müşterinin veya bağlantılı işletmelerin aynı hafta içinde iki farklı sahada (örneğin tersanedeki depo ile tarım silosundaki) ihtiyacı varsa, bu iki iş art arda tek bir rotaya yerleştirilir; makine bir sahadan diğerine taşınırken sevkiyat tekrarlanmaz, bu da toplam maliyeti düşürür.",
+            },
+            {
+                baslik: "Rota sıralamasının coğrafi mantığı",
+                metin:
+                    "Merkezdeki depo, Çan ve Gelibolu yönlerine farklı mesafelerde olduğu için rota sıralaması coğrafi olarak da kurulur; aynı güzergah üzerindeki işler art arda yapılır, ters yönlere gidiş-geliş tekrarı önlenir. Bu planlama, sevkiyat öncesi tüm taleplerin toplu değerlendirilmesiyle yapılır.",
+            },
+            {
+                baslik: "Tedarik zincirindeki bağlantılı sahalar",
+                metin:
+                    "Tersaneye malzeme sağlayan bir atölye veya tarım tesisine hizmet veren bir kooperatif gibi bağlantılı işletmelerin birden fazla noktasında düzenli bakım ihtiyacı olabilir; bu durumda tek bir yıllık rota, tüm noktaları kapsayacak şekilde önceden kurulur ve her nokta kendi periyoduna göre ziyaret edilir.",
+            },
+            {
+                baslik: "Acil talebin rotaya eklenmesi",
+                metin:
+                    "Planlı rota sürerken bir noktada acil bir ihtiyaç doğarsa, bu talep mevcut rotaya mümkünse eklenir; rota üzerindeki en yakın makine yönlendirilir. Acil talep rotanın tamamen dışındaysa, ayrı bir sevkiyat değerlendirilir ve bu durumun ek maliyeti önceden bildirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota noktası tipi ve planlama mantığı",
+                paragraflar: [
+                    "Aşağıdaki tablo, çok noktalı rotadaki tipik saha kombinasyonlarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta kombinasyonu", "Takvim ilişkisi", "Rota mantığı", "Avantaj"],
+                    satirlar: [
+                        ["Tersane + tarım silosu", "Farklı sezon", "Sezon dengeleme", "Filo bulunurluğu"],
+                        ["Tersane + fırın atölyesi", "Farklı sezon", "Sezon dengeleme", "Filo bulunurluğu"],
+                        ["Aynı hafta iki nokta", "Bağımsız", "Coğrafi sıralama", "Tek sevkiyat"],
+                        ["Tedarik zinciri (çok nokta)", "Periyodik", "Yıllık rota", "Toplu planlama"],
+                        ["Acil + mevcut rota", "Anlık", "Rotaya ekleme", "Hızlı yönlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yıllık rota kurulumunun avantajı",
+                paragraflar: [
+                    "Birden fazla noktası olan bir müşteri veya tedarik zinciri için yıllık bir bakım rotası önceden kurulduğunda, her nokta kendi periyoduna göre ziyaret edilir ve ayrı ayrı çağrı yapma ihtiyacı azalır; bu hem maliyet hem zaman açısından avantaj sağlar.",
+                    "Rota kurulurken her noktanın kendine özgü kısıtları (tersanenin kapı prosedürü, tarım sahasının yol koşulu, fırın atölyesinin toz ortamı) da dikkate alınır; bu bilgi rotaya not olarak eklenir.",
+                ],
+            },
+            {
+                baslik: "Acil taleplerin planlı rotaya etkisi",
+                paragraflar: [
+                    "Planlı bir rota sürerken beklenmedik bir acil talep geldiğinde, rota üzerindeki en yakın makine önce değerlendirilir; bu, ek bir sevkiyat gerektirmeden acil ihtiyacı karşılayabilir. Rota tamamen dışındaki bir talep için ise ayrı sevkiyat ve bunun ek maliyeti önceden müşteriye bildirilir.",
+                    "Sık acil talep alan noktalar, bir sonraki yıllık rota planlamasında daha sık ziyaret edilecek şekilde güncellenir; bu, aynı acil durumun tekrar etmesini azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Farklı sektörlerdeki iki sahamızı tek rotaya nasıl yerleştiriyorsunuz?",
+                cevap:
+                    "Her iki sahanın takvimini ve öncelik sırasını sizinle birlikte belirleriz; tersane ve tarım gibi farklı sezon yoğunluğu taşıyan sahalarda genellikle bir çakışma olmaz, bu yüzden tek bir makineyle iki sahaya sırayla hizmet verebiliriz. Coğrafi olarak da yakın noktaları art arda planlarız.",
+            },
+            {
+                soru: "Aynı hafta iki farklı yerde işimiz var, tek sevkiyatla olur mu?",
+                cevap:
+                    "Genellikle olur; iki işi art arda tek bir rotaya yerleştiririz, makine bir sahadan diğerine taşınırken sevkiyat tekrarlanmaz. Bu, toplam maliyeti ve süreyi düşürür. İki sahanın konumunu ve tarih tercihinizi bildirirseniz, en verimli sıralamayı çıkarırız.",
+            },
+            {
+                soru: "Yıllık rota kurulduktan sonra değiştirebiliyor muyuz?",
+                cevap:
+                    "Evet, rota sabit bir taahhüt değildir; ihtiyaçlarınız değiştiğinde güncelleyebiliriz. Sık değişen taleplerde rotayı daha esnek, düzenli tekrarlanan taleplerde ise daha sabit bir yapıda kurarız. Değişikliği önceden bildirmeniz, planlamayı kolaylaştırır.",
+            },
+            {
+                soru: "Rota dışında acil bir talebimiz olursa ek ücret mi ödüyoruz?",
+                cevap:
+                    "Rota üzerindeki en yakın makine değerlendirilebiliyorsa ek maliyet genellikle oluşmaz; rota tamamen dışındaysa ayrı bir sevkiyat gerekir ve bu durumun maliyeti önceden size bildirilir. Sık acil talep alan noktaları bir sonraki rota planlamasında daha sık ziyaret edilecek şekilde güncelleriz.",
+            },
+            {
+                soru: "Tedarik zincirimizdeki birden fazla tedarikçiyi tek rotaya dahil edebilir misiniz?",
+                cevap:
+                    "Edebiliriz; her tedarikçinin bakım periyodunu ve konumunu öğrenip yıllık bir rota kurarız. Bu, sizin için tek bir koordinasyon noktası (bizimle) üzerinden tüm tedarik zincirinin bakımını takip etme imkânı sağlar.",
+            },
+            {
+                soru: "Rota sıralamasını neye göre belirliyorsunuz?",
+                cevap:
+                    "Hem coğrafi konuma (aynı güzergah üzerindeki işleri art arda yapma) hem sektörel takvime (hangi sahanın o dönem daha yoğun olduğu) göre belirliyoruz. Amaç, gidiş-geliş tekrarını azaltmak ve her sahanın kendi yoğun dönemiyle çakışmamak.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Merkez depodan Çan, Gelibolu tersane ve tarım sahalarına sevkiyat mesafeleri kamuya açık coğrafi bilgidir; tesis adı ve rakam kullanılmamıştır. Rota planlama ve sezon dengeleme yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Çanakkale'de Tersane Dok ve Kızak Alanı Zor Zemin Platform Kiralama",
+        giris:
+            "Tersanenin dok ve kızak alanı, standart bir sanayi zemininden farklı bir zemin profili sunar: kızak rayları arasında çamurlu veya ıslak dolgu zemin bulunabilir, dok kenarında beton bir kısım varken gerisi sıkıştırılmış toprak veya çakıl olabilir, gelgit ve deniz suyu sıçraması bazı bölgeleri sürekli nemli tutar. Standart tekerlekli bir platform bu değişken zeminde takılabilir veya dengesizleşebilir; zor zemin/arazi sınıfı, daha geniş tekerlek tabanı ve arazi tipi tahrik sistemiyle bu koşullara uyum sağlar. Bu sınıfın seçimi, sadece zeminin o anki durumuna değil hava koşuluna da bağlıdır — yağış sonrası aynı zemin farklı bir zorluk seviyesine geçebilir. Bu sayfa, tersane sahasındaki zor zemin koşullarında platform seçiminin nasıl yapıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kızak rayları arasındaki dolgu zemin",
+                metin:
+                    "Kızak raylarının arasında kalan zemin, genellikle sıkıştırılmış dolgu malzemesidir ve deniz suyu sızıntısı veya yağış sonrası çamurlaşabilir; standart tekerlekli platform bu zeminde takılma riski taşır. Arazi tipi sınıf, geniş tekerlek tabanıyla bu zeminde daha dengeli ilerler; yine de zeminin o günkü durumu keşifte veya sevkiyat öncesi değerlendirilir.",
+            },
+            {
+                baslik: "Dok kenarında karma zemin geçişi",
+                metin:
+                    "Dok kenarının bir kısmı beton, gerisi sıkıştırılmış toprak veya çakıl olabilir; platform bu iki zemin arasında geçiş yaparken ani sertlik farkı dengesizliğe yol açabilir. Geçiş noktaları keşifte belirlenir ve gerekirse geçici bir düzleştirme (plaka, dolgu) önerilir.",
+            },
+            {
+                baslik: "Gelgit ve deniz suyu sıçramasının nem etkisi",
+                metin:
+                    "Deniz kenarına yakın bölgelerde gelgit veya dalga sıçraması bazı zemin noktalarını sürekli nemli tutar; bu nem hem zemin tutuşunu hem makinenin fren ve tahrik performansını etkileyebilir. Bu tür noktalarda çalışma öncesi zemin tutuşu görsel olarak kontrol edilir, gerekirse alternatif bir yaklaşım açısı denenir.",
+            },
+            {
+                baslik: "Yağış sonrası zorluk seviyesinin değişmesi",
+                metin:
+                    "Aynı zemin, kuru havada standart bir platformla geçilebilirken yağış sonrası çamurlaşarak arazi tipi sınıfı gerektirebilir; bu yüzden hava durumu, özellikle yağışlı dönemde sevkiyat kararına dahil edilir. Yağış sonrası ilk günlerde zemin kuruyana kadar bekleme önerilebilir veya arazi tipi sınıfa geçilir.",
+            },
+            {
+                baslik: "Malzeme yığınları ve geçici engellerin zemine etkisi",
+                metin:
+                    "Dok ve kızak alanında geçici olarak bırakılan malzeme yığınları, kablo tavaları veya iskele parçaları, düz görünen zeminde beklenmedik engeller oluşturabilir; sevkiyat öncesi güncel saha fotoğrafı istenir ve bu engellerin güzergah üzerinde olup olmadığı değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumu ve makine sınıfı eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tersane dok ve kızak alanındaki zemin durumlarına göre makine seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Risk", "Uygun sınıf", "Ek önlem"],
+                    satirlar: [
+                        ["Kızak arası dolgu (kuru)", "Hafif düzensizlik", "Standart eklemli", "Görsel kontrol"],
+                        ["Kızak arası dolgu (ıslak)", "Çamurlaşma", "Arazi tipi", "Yağış sonrası bekleme"],
+                        ["Dok kenarı karma zemin", "Sertlik farkı geçişi", "Arazi tipi", "Geçiş noktası tespiti"],
+                        ["Gelgit etkili nemli bölge", "Tutuş kaybı", "Arazi tipi", "Alternatif açı denemesi"],
+                        ["Malzeme yığını çevresi", "Gizli engel", "Duruma göre", "Güncel foto ile keşif"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevkiyat öncesi zemin değerlendirmesi",
+                paragraflar: [
+                    "Zor zemin taşıyan bir tersane sahasına makine göndermeden önce, güncel saha fotoğrafı ve varsa son yağış bilgisi istenir; bu, doğru makine sınıfının önceden belirlenmesini sağlar ve sahada uygunsuz makineyle karşılaşma riskini azaltır.",
+                    "Düzenli çalıştığımız tersanelerde zemin profili zaten bilinir ve mevsimsel değişim (yağışlı dönem, kuru dönem) göz önünde bulundurularak makine önceden ayarlanır.",
+                ],
+            },
+            {
+                baslik: "Zemin tutuşu ile operatör kararı",
+                paragraflar: [
+                    "Sahada zemin tutuşu beklenenden düşük çıkarsa, operatör alternatif bir yaklaşım açısı dener veya gerekirse çalışmayı zemin kuruyana kadar erteler; bu karar, iş güvenliği açısından programdan önceliklidir.",
+                    "Zemin nedeniyle erteleme gerektiğinde, bu durum saha yetkilisine hemen bildirilir ve yeni bir tarih birlikte belirlenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kızak rayları arasındaki zemin her zaman zor mu?",
+                cevap:
+                    "Hayır, kuru havada genellikle standart bir platform yeterlidir; zorluk, yağış sonrası çamurlaşan dolgu zemininde ortaya çıkar. Sevkiyat öncesi güncel saha fotoğrafı ve son yağış bilgisini isteriz, bu bilgiyle doğru sınıfı önceden belirleriz.",
+            },
+            {
+                soru: "Dok kenarında beton ve toprak zemin arasında geçiş yaparken sorun yaşar mısınız?",
+                cevap:
+                    "Ani sertlik farkı dengesizliğe yol açabileceği için bu geçiş noktalarını keşifte önceden belirleriz; gerekirse geçici bir düzleştirme (plaka veya dolgu) öneririz. Arazi tipi sınıf bu tür karma zeminlerde standart sınıfa göre daha güvenli ilerler.",
+            },
+            {
+                soru: "Gelgit etkisi olan bölgede çalışabiliyor musunuz?",
+                cevap:
+                    "Çalışabiliriz ama zemin tutuşunu önce görsel olarak kontrol ederiz; nem yüksekse alternatif bir yaklaşım açısı deneriz. Gelgit saatlerini biliyorsanız, çalışmayı zeminin daha kuru olduğu saatlere planlamamız mümkündür.",
+            },
+            {
+                soru: "Yağmurdan sonra hemen çalışmaya başlayabilir misiniz?",
+                cevap:
+                    "Zemine bağlı olarak bazen hemen, bazen zemin kuruyana kadar beklememiz gerekebilir; ıslak dolgu zeminde arazi tipi sınıfa geçilse bile aşırı çamurda çalışma güvenli olmayabilir. Bu kararı operatörümüz sahada zemin tutuşuna bakarak verir, programdan önceliklidir.",
+            },
+            {
+                soru: "Sahada malzeme yığınları var, bunlar makinenin geçişini engeller mi?",
+                cevap:
+                    "Engelleyebilir, bu yüzden sevkiyat öncesi güncel saha fotoğrafı isteriz ve güzergah üzerinde yığın olup olmadığını değerlendiririz. Yığın kalıcıysa alternatif bir güzergah belirlenir; geçiciyse mümkünse çalışma öncesi kaldırılması istenir.",
+            },
+            {
+                soru: "Arazi tipi sınıf standart sınıftan daha mı pahalı?",
+                cevap:
+                    "Genellikle biraz daha yüksek bir kiralama bedeli olur çünkü bu sınıf özel tahrik ve tekerlek yapısı taşır. Ancak zor zeminde standart sınıfla çalışmaya çalışmak takılma veya dengesizlik riski taşıdığı için, zemin durumu belirsizse doğru sınıfı önceden netleştirmenizi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tersane dok ve kızak alanlarının karma zemin yapısı ve deniz kenarı nem etkisi genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Sevkiyat öncesi zemin değerlendirmesi firma pratiğidir.",
+    },
 };

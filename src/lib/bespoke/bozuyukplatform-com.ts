@@ -707,4 +707,1096 @@ export const BOZUYUKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Özgün içerik 2026-08-13 günü oluşturuldu. Bu kaydın dayanağı, Gölpazarı'nın Bilecik'e bağlı bir ilçe olduğu yönündeki genel coğrafya bilgisi ile görev belgesinin çevre ilçeler arasındaki sevkiyat rotasında ara durak yaklaşımıdır. Belirli rota, mesafe, işletme, sektör, süre, kapasite ve rakam kullanılmamıştır; durak kartı, olay bazlı bildirim, kısa blok ve rota kapanışı sektör geneli planlama pratiğidir. Merkezden servis ve tarımsal sezon temaları kapsam dışıdır.",
     },
+
+    // ─────────────────────────────────────────────────────────────────────
+    // HİZMET SAYFALARI — açı: Bilecik ve Bozüyük'ün tarihten gelen tekstil/
+    // dokuma sanayii geleneği. Kardeş domainlerin açıları (seramik üretim
+    // hattı, cam/VitrA, OSB genel yönetimi, üç sektörlü arıza müdahale) ile
+    // örtüşme kurulmamıştır; buradaki mercek dokuma hattı, iplik/kumaş
+    // deposu, boyahane-apre tesisi ve tekstil OSB'sidir.
+    // Yazım: 2026-08-14. Firma adı ve rakam uydurulmadı.
+    // ─────────────────────────────────────────────────────────────────────
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bozüyük'te Dokuma Hattı Sıraları Arasında Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Bilecik ve özellikle Bozüyük, Osmanlı'dan bu yana süregelen bir dokumacılık geleneğine sahip bir bölge; bugün bu geleneğin devamı sayılabilecek dokuma ve iplik işletmeleri hâlâ ilçede üretim yapıyor. Bu tesislerin salon düzeni, seramik ya da metal işleme hatlarından farklı bir sıkışıklık yaratır: dokuma tezgahları art arda, aralarında ancak bir işçinin geçebileceği kadar boşlukla dizilir, tezgah üstündeki çözgü çerçevesi ve ışık rayı bu dar aralığın hemen üzerinde kalır. Standart bir makaslı platform bu sıraya giremez, girse bile yan tezgahlara temas riski taşır. Sepetli örümcek platformun paletli ve dar gövdeli yapısı, tam bu tezgah sırası boşluğuna oturur; ayakların bağımsız açılabilmesi de salon zemini genelde düz olsa bile tezgah kaidesi çevresindeki küçük seviye farklarında dengeyi korumayı mümkün kılar. Bozüyük'teki dokuma tesislerinden gelen taleplerin çoğu bu nedenle üretim durdurulmadan, tezgah sırası içinden yapılan aydınlatma ve ray bakımı işleridir.",
+        maddeler: [
+            {
+                baslik: "Tezgah sırası aralığının dar geçişi",
+                metin:
+                    "Dokuma salonlarında tezgahlar arası mesafe, üretim düzenine göre sabitlenmiştir ve bu mesafe bir bakım makinesini değil bir işçinin geçişini esas alır. Sepetli örümcek platformun paletli gövdesi, katlandığında bu dar aralığa sığacak genişliğe iner; ayaklar tezgah kaidesine değmeyecek şekilde asimetrik açılabilir. Hedefin tam olarak hangi tezgah üzerinde olduğu ve iki yanındaki boşluk önceden fotoğrafla teyit edilir; komşu tezgaha temas riski varsa geçici bir koruma önlemi birlikte kararlaştırılır.",
+            },
+            {
+                baslik: "Çözgü çerçevesi ve ışık rayı seviyesinde çalışma",
+                metin:
+                    "Tezgah üstündeki çözgü çerçevesi ve aydınlatma rayı, salonun genel tavan yüksekliğinden daha alçak bir bantta bulunur; bu da aslında çoğu zaman yüksek çalışma yüksekliği değil, dar ve hassas bir erişim gerektirir. Örümcek platformun sepeti bu bandı hedefleyecek şekilde konumlanır, tezgah kanadı veya iplik gergisine temas etmeyecek mesafe önceden ölçülür. Çalışma sırasında tezgahın hareketli parçaları (varsa) durdurulmuş olmalıdır; bu koordinasyon tesis vardiya sorumlusuyla önceden netleştirilir.",
+            },
+            {
+                baslik: "Toz ve iplik lifi birikiminin makineye etkisi",
+                metin:
+                    "Dokuma ve iplik salonlarında havada asılı kalan lif ve toz, hem zeminde ince bir tabaka oluşturur hem de hareketli parçalara yapışabilir. Bu ortamda kullanılacak makinenin teker ve palet temizliği, salona girmeden önce ve çıkarken kontrol edilir; salon içinde kalan toz birikintisi makinenin fren ve manevra performansını etkileyebileceği için düşük hızda ve kısa mesafelerde manevra yapılır. Statik elektrik riski olan bölümlerde ek önlem tesisin kendi prosedürüne göre uygulanır.",
+            },
+            {
+                baslik: "Kısa üretim molasına sığan çalışma",
+                metin:
+                    "Dokuma hatları genelde vardiya değişimi veya kısa bakım molası dışında durdurulmaz; bu yüzden tezgah sırası içindeki bir bakım işi çoğunlukla dar bir zaman penceresine sıkışır. Örümcek platformun hızlı kurulumu, bu kısa pencerede işe başlamayı kolaylaştırır ama pencerenin süresini önceden bilmemiz gerekir. Kapsam, pencere süresine göre önceliklendirilir; yetişmeyen kalemler ertelenir, yarım bırakılmış gibi gösterilmez.",
+            },
+            {
+                baslik: "Salon dışına çıkış ve iç kapı geçişi",
+                metin:
+                    "Dokuma salonundan çıkıp başka bir bölüme (örneğin iplik deposuna) geçiş gerektiğinde, makinenin katlanmış gövde genişliği iç kapı ölçüsüyle karşılaştırılır. Salon kapıları genelde malzeme arabası genişliğine göre yapıldığı için çoğu geçişe uyar, ancak kapı üstü alçak kiriş veya boru hattı varsa yükseklik de teyit edilir. Ölçü netleşmeden güzergah üzerinden geçiş vaadi verilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dokuma salonu içi erişimde sınıf karşılaştırması",
+                paragraflar: [
+                    "Bozüyük'teki dokuma ve iplik tesislerinde tezgah sırası içi erişim için hangi makine sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Koşul", "Örümcek platform", "Standart makaslı", "Standart eklemli"],
+                    satirlar: [
+                        ["Tezgah sırası aralığı (dar)", "Uygun, paletli geçiş", "Genelde sığmaz", "Sığmaz"],
+                        ["Çözgü/ray seviyesi hassas hedef", "Sepetle yakın konumlama", "Kaba konumlama", "Kaba konumlama"],
+                        ["Kısa üretim molası", "Hızlı kurulum", "Ayak hizalama süresi ister", "Konumlama süresi ister"],
+                        ["Toz/lif yoğun ortam", "Düşük hızda manevra ile uygun", "Uygun, geniş alan gerektirir", "Uygun, geniş alan gerektirir"],
+                        ["İç kapıdan geçiş", "Katlanmış gövdeyle mümkün", "Genişlik yetmeyebilir", "Genişlik yetmeyebilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu sınıf tezgah sırasında tercih ediliyor",
+                paragraflar: [
+                    "Dokuma salonlarının düzeni, tezgah sayısını artırmak üzere kurulduğu için aralardaki boşluk bakım makinesi değil, işçi geçişi düşünülerek bırakılmıştır. Bu yüzden salon içi bir arıza ya da periyodik bakım ihtiyacı doğduğunda, sığacak bir makine bulmak işin kendisi kadar zaman alabilir. Örümcek platformun paletli ve katlanabilir gövdesi, tam olarak bu dar sıralar için uygundur ve tezgah taşınmadan, üretim düzeni bozulmadan erişim sağlar.",
+                    "Ayrıca paletli sistem, tekerlekli bir platforma göre birim alana daha az nokta yükü aktarır. Dokuma salonlarının zemini genelde düz beton olsa da, tezgah kaidesi çevresindeki kanal kapakları veya kablo geçiş noktaları ağır nokta yüküne karşı hassas olabilir; paletli dağılım bu noktalarda avantaj sağlar.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz ölçüler",
+                paragraflar: [
+                    "Doğru modeli önerebilmek için tezgah sırasının en dar noktasının genişliğini, hedefin (çözgü çerçevesi, ışık rayı, tesisat) yerden yüksekliğini ve salon zemininde varsa kanal kapağı ya da kot farkını önceden bilmemiz gerekiyor. Bu ölçüler fotoğraf veya kısa bir kroki ile paylaşıldığında, hangi model gövde genişliğinin sıraya sığacağını aynı gün teyit edebiliyoruz.",
+                    "Ölçü belirsizse önce keşif yapılır; salona giren ama sıraya sığmayan bir makineyi geri çıkarmak, üretim akışını keşiften çok daha fazla etkiler. Bu yüzden ölçü teyidi, teklif aşamasının değil, planlamanın ilk adımıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dokuma tezgahlarımız çok sık dizilmiş, aralarına platform gerçekten girebilir mi?",
+                cevap:
+                    "Çoğu dokuma salonunda evet, ama kesin cevap için tezgah sırasının en dar noktasının ölçüsünü bilmemiz gerekiyor — bu ölçüye çözgü çerçevesi çıkıntısı ve varsa tezgah kenarındaki iplik gergisi de dahil edilmeli. Katlanmış gövde genişliği modelden modele değişir, bu yüzden tek rakam vermek yerine sıranın fotoğrafını isteriz. Sığmayan bir durumda, tezgahın bir ucundan sepetle uzanarak erişim ya da kısa süreli tezgah kaydırma seçeneklerini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Salon içinde toz ve iplik lifi çok, makine bundan etkilenir mi?",
+                cevap:
+                    "Toz ve lif birikimi zeminde ince bir tabaka oluşturabildiği için manevrayı düşük hızda ve kısa mesafelerde yaparız; bu, fren ve yön kontrolünü daha güvenli tutar. Makinenin teker ve palet kısmı salona girmeden önce ve çıkarken kontrol edilip gerekirse temizlenir. Statik elektrik riski olan bölümler varsa tesisin kendi prosedürüne uyarız; bu bilgiyi çalışma öncesi sizden alırız.",
+            },
+            {
+                soru: "Üretim durmadan, sadece kısa bir molada çalışabilir misiniz?",
+                cevap:
+                    "Evet, dokuma hatlarının çoğunda uzun duruş mümkün olmadığı için işi kısa mola veya vardiya arası pencereye göre planlarız. Örümcek platformun kurulumu destek ayağı tek tek hizalanan bir makaslıya göre daha hızlı olduğu için bu dar pencereye daha kolay sığar. Pencerenin süresini önceden bilmemiz, kapsamı önceliklendirmemiz için gerekli; yetişmeyen kalemler nedenleriyle açık listeye yazılır, yarım bırakılmış gibi gösterilmez.",
+            },
+            {
+                soru: "Makineyi tezgah sırasından çıkarıp iplik deposuna geçirebilir miyiz?",
+                cevap:
+                    "Katlanmış gövde genişliği standart iç kapı ölçülerinin çoğuna uyduğu için genelde mümkün. Ama her salonun kapı ölçüsü ve varsa kapı üstü boru/kablo hattı yüksekliği farklı; kesin cevap için bu ölçüleri bilmemiz gerekiyor. Ölçüler teyit edildiğinde güzergahı önceden planlar, hangi kapılardan geçileceğini net söyleriz.",
+            },
+            {
+                soru: "Tezgah kaidesinin çevresinde küçük bir kot farkı var, makine dengesini kaybeder mi?",
+                cevap:
+                    "Örümcek platformun ayakları bağımsız açılıp farklı yüksekliklere basabildiği için hafif kot farklarında gövde yatay kalmaya devam eder. Ancak üreticinin belirttiği azami eğim ve yükseklik farkı sınırı vardır; bu sınırın üzerindeki bir kademede makine geçirilmez. Kot farkını ölçüp sınırla karşılaştırırız; uygun değilse alternatif erişim noktası birlikte belirlenir.",
+            },
+            {
+                soru: "Operatörsüz mü çalıştırılıyor, yoksa bizim personelimiz mi kullanıyor?",
+                cevap:
+                    "İki seçenek de mevcut. Dar tezgah sırası gibi manevra hassasiyeti yüksek ortamlarda, özellikle ilk kullanımda operatörlü seçeneği öneriyoruz; operatörümüz salon düzenine ve tezgah aralığına aşina olmadığı için önce ölçü ve fotoğraf üzerinden hazırlık yapar. Tesisin kendi personeli sertifikalıysa operatörsüz düzen de mümkündür, kararı sahanın hassasiyetine göre birlikte veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik ve Bozüyük'ün tarihten gelen dokumacılık geleneği ile bölgede günümüzde dokuma/iplik tesislerinin faaliyet gösterdiği genel bilgidir; tezgah sırası düzeni ve örümcek platformun paletli/bağımsız ayaklı yapısı sektör geneli bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bozüyük Tekstil Tesislerine Platform ve Forklift Nakliye-Teslimat Hizmeti",
+        giris:
+            "Bozüyük'teki dokuma ve iplik tesislerine yapılan teslimat, çoğu sanayi tesisinden farklı bir hassasiyet ister; çünkü indirme noktası genelde iplik ya da kumaş top deposunun hemen yanındadır ve buradaki zemin, ağır bir sevkiyat aracının değil bir istif makinesinin geçişine göre düzenlenmiştir. Bir diğer fark, tesisin iç trafiğinin sürekliliğidir: hammadde balyaları ve mamul kumaş topları gün boyu forkliftle taşındığı için, sevkiyat aracının indirme için bu güzergahı kısa süreliğine paylaşması gerekir. Ayrıca boyahane veya apre bölümüne yakın noktalarda nem ve buhar oranı yüksek olabilir; bu bölümlere elektrikli ekipman indirirken zemin ıslaklığı ve havalandırma durumu ayrıca gözden geçirilir. Bu sayfa, Bozüyük'teki tekstil tesislerine sevkiyat sürecimizi ve hangi bilgiyi neden önceden istediğimizi anlatıyor; sahaya göre değişen bu ayrıntılar, teslimatın ilk seferde ve kesintisiz tamamlanmasını sağlıyor.",
+        maddeler: [
+            {
+                baslik: "İplik/kumaş top deposu önündeki indirme noktası",
+                metin:
+                    "Depo önündeki indirme alanı, genelde raf sırasına paralel dar bir şerittir ve bu şeridin bir kısmı sürekli forklift trafiğine ayrılmıştır. Sevkiyat aracının bu şeritte manevra yapabilmesi için raf ucundaki dönüş boşluğunu önceden bilmemiz gerekir; dar bir dönüş varsa aracı depo girişine yakın bir noktada durdurup makineyi kendi tekerlek ya da palet sistemiyle kısa mesafede yürütmek daha pratik olabilir.",
+            },
+            {
+                baslik: "Boyahane-apre bölümüne yakın teslimatta nem kontrolü",
+                metin:
+                    "Boyahane ve apre tesislerinin çevresinde nem ve buhar yoğunluğu diğer bölümlere göre daha yüksektir; bu durum hem zeminin kayganlığını hem elektrikli ekipmanın indirilme koşullarını etkiler. Teslimat öncesi bu bölüme yakın bir noktaya indirme yapılacaksa zemin durumu ve havalandırma sorulur; nem yüksekse indirme noktası biraz daha uzağa, kuru bir alana kaydırılır ve makine oradan yürütülür.",
+            },
+            {
+                baslik: "Hammadde ve mamul trafiğiyle eşzamanlı boşaltma",
+                metin:
+                    "Tekstil tesislerinde forklift trafiği hammadde girişinden mamul çıkışına kadar sürekli akar; sevkiyat aracının indirme için bu akışı kısa süreliğine kesmesi gerekebilir. Kesintiyi en aza indirmek için indirme saatini tesisin trafik yoğunluğunun düştüğü bir dilime denk getirmeye çalışırız. Saha içi öncelik kuralları varsa şoförümüz bunlara uyar; kurallar teslimattan önce tesisten alınır.",
+            },
+            {
+                baslik: "Teslimat sonrası ilk çalıştırma kontrolü",
+                metin:
+                    "Makine indirildikten sonra çalışma başlamadan önce hidrolik seviyeleri, lastik/palet durumu ve acil durdurma sistemi kısa bir kontrolden geçirilir. Bu kontrol, taşıma sırasında oluşabilecek bir sorunun çalışma başlamadan fark edilmesini sağlar. Operatörsüz teslimatlarda kontrol tesisin görevlendirdiği kişiyle birlikte yapılır, sonuç kısa bir teslim tutanağına geçirilir.",
+            },
+            {
+                baslik: "Çok bölümlü tesiste sıralı teslimat",
+                metin:
+                    "Bir tesisin hem dokuma salonuna hem depo veya boyahane bölümüne aynı gün teslimat gerekiyorsa güzergahı önceden sıralarız; en dar erişimli ya da en hassas bölüm gün içinde erken saate, kolay erişimli noktalar sona bırakılır. Bu sıralama, aracın gün boyunca gereksiz manevra yapmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslimat öncesi bizden istenen bilgiler",
+                paragraflar: [
+                    "Bir tekstil tesisine sevkiyatı sorunsuz planlayabilmemiz için aşağıdaki bilgilerin teslimat talebiyle birlikte gelmesini isteriz.",
+                ],
+                tablo: {
+                    basliklar: ["Bilgi", "Neden isteniyor", "Kim sağlıyor", "Eksikse ne olur"],
+                    satirlar: [
+                        ["İndirme noktasının bölümü (depo/boyahane/salon)", "Zemin ve nem koşulu farklı", "Tesis", "Genel giriş noktasına göre planlanır"],
+                        ["Depo raf ucu dönüş boşluğu", "Araç manevra uygunluğu", "Tesis", "Küçük araçla parça taşıma"],
+                        ["Forklift trafiğinin yoğun olduğu saatler", "Üretim trafiğiyle çakışmama", "Tesis", "Genel mesai saatine göre planlanır"],
+                        ["Boyahane yakınında nem/buhar durumu", "Ekipman indirme güvenliği", "Tesis", "İndirme noktası kuru alana kaydırılır"],
+                        ["Yetkili irtibat kişisi", "Sahada anlık koordinasyon", "Tesis", "Sevkiyat gecikebilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bozüyük'teki tekstil tesislerinin dağılımının sevkiyata etkisi",
+                paragraflar: [
+                    "Bilecik'in dokumacılık geleneğinin sürdüğü Bozüyük'te tekstil tesisleri genelde aynı sanayi bölgesi içinde kümelenir; bu kümelenme, aynı gün içinde birden fazla tesise teslimat yapabilmemizi ve yol payını paylaştırabilmemizi kolaylaştırır. Komşu tesislerin talepleri aynı güne toplandığında hem bizim hem işletmenin lehine bir düzenleme oluyor.",
+                    "Bunun karşılığında tarih esnekliği isteriz: belirli bir güne kilitli olmayan teslimatları aynı bölgedeki başka bir talebin gününe ekleyebiliyoruz. Acil ihtiyaçlarda tekil sevkiyat da yapılır, bu durumda yol bedeli teklifte ayrı bir kalem olarak görünür.",
+                ],
+            },
+            {
+                baslik: "Geri alma (toplama) sevkiyatının planlaması",
+                paragraflar: [
+                    "Kiralama süresi dolduğunda makinenin geri alınması da aynı titizlikle planlanır. Kullanım süresince makine depo içinden salona ya da boyahane çevresine taşınmış olabilir; toplama öncesinde güncel konumunu ve çıkış güzergahını teyit ederiz.",
+                    "Toplama öncesinde kısa bir iade kontrolü yapılır: görünür hasar, yakıt/şarj durumu ve iplik lifi birikiminin ekipmana etkisi birlikte tutanağa geçirilir. Bu, teslimat sürecinin şeffaf kapanmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İplik deposu önündeki alan dar, sevkiyat aracı buraya girebilir mi?",
+                cevap:
+                    "Depo önü alanların çoğu forklift trafiğine göre daraltılmış olduğu için önce raf ucundaki dönüş boşluğunu bilmemiz gerekir. Dar bir alan söz konusuysa aracı depo girişine yakın bir noktada durdurup makineyi kendi tekerlek ya da palet sistemiyle kısa mesafede yürütmek en pratik çözümdür; bu, büyük aracın dar alana girmesini gereksiz kılar.",
+            },
+            {
+                soru: "Boyahane bölümüne yakın bir yere teslimat istiyoruz, nem ekipmana zarar verir mi?",
+                cevap:
+                    "Boyahane ve apre çevresinde nem ve buhar diğer bölümlere göre yüksek olabildiği için indirme noktasını mümkün olduğunca kuru bir alana kaydırırız ve makineyi oradan yürütürüz. Nem oranı ve havalandırma durumu teslimattan önce sorulur; riskli görünüyorsa indirme noktası tesisle birlikte yeniden belirlenir.",
+            },
+            {
+                soru: "Forklift trafiğimiz çok yoğun, sevkiyat bu trafiği kesintiye uğratır mı?",
+                cevap:
+                    "Amacımız bunu en aza indirmek. İndirme saatini tesisin trafik yoğunluğunun düşük olduğu bir dilime denk getirmeye çalışırız; saha içi öncelik kurallarınız varsa önceden bize iletildiğinde şoförümüz bunlara uyar. Yine de indirme sırasında güzergahın birkaç dakikalığına kısıtlanması gerekebilir; bu süreyi en kısa tutar, önceden haber veririz.",
+            },
+            {
+                soru: "Operatörsüz kiralıyoruz, teslimat sırasında makinenin sağlam geldiğini nasıl teyit ediyoruz?",
+                cevap:
+                    "Teslimat ekibimiz makine indirildikten sonra çalışma başlamadan kısa bir kontrol yapar — hidrolik seviyesi, lastik/palet durumu, acil durdurma sistemi gözden geçirilir. Bu kontrolü tesisin görevlendirdiği kişiyle birlikte yaparız, sonucu kısa bir teslim tutanağına yazarız; tutanak iki tarafça imzalanır.",
+            },
+            {
+                soru: "Aynı gün hem dokuma salonuna hem depoya teslimat yapılabilir mi?",
+                cevap:
+                    "Evet, bölümlerin adresini aldıktan sonra güzergahı sıralarız — en hassas ya da erişimi en dar noktayı gün içinde erken saate, kolay erişimli noktaları sona bırakırız. Bu sıralama toplam teslimat süresini kısaltır ve gereksiz geri dönüşü önler.",
+            },
+            {
+                soru: "Kiralama bitince makineyi biz mi getirmeliyiz, siz mi alıyorsunuz?",
+                cevap:
+                    "Toplama sevkiyatını biz üstleniriz. Kullanım süresince makinenin sahadaki konumu değişmiş olabileceği için toplama öncesi güncel konumunu ve çıkış güzergahını sizden teyit alırız. Alım sırasında kısa bir iade kontrolü yapılır ve sonucu size de iletiriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in dokumacılık geleneği ve bölgedeki tekstil tesislerinin depo/boyahane/salon ayrımı genel sektörel bilgidir; sevkiyat güzergahı ve zemin koordinasyonu firma teslimat pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bozüyük'te İplik ve Kumaş Top Deposunda Forklift ile İstifleme",
+        giris:
+            "Bilecik'in dokumacılık geleneğini sürdüren Bozüyük'teki tekstil tesislerinde en yoğun forklift kullanımı, iplik bobini ve kumaş topu deposunda görülür. Bu depoların rafları, standart palet depolarından farklı bir düzenle kurulur: iplik bobinleri dik veya yatık istiflenir, kumaş topları ise genelde uzun ve ağır silindirler hâlinde raf gözlerine yerleştirilir. Bu yükün şekli, forklift çatalının açısını ve istifleme hızını doğrudan etkiler — çatalın hafif yanlış açısı bir kumaş topunu deforme edebilir ya da bobin sarımını gevşetebilir. Bozüyük'teki taleplerimizin bir kısmı bu nedenle sadece yük taşıma değil, hassas istifleme deneyimi ister; deponun raf yüksekliği, koridor genişliği ve yükün kırılganlığı birlikte değerlendirilerek doğru forklift sınıfı ve operatör deneyimi önerilir. Bu sayfa, Bozüyük'teki iplik ve kumaş depolarında forklift kiralama sürecimizi anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İplik bobini istiflemede çatal açısı hassasiyeti",
+                metin:
+                    "İplik bobinleri, sarımın gevşememesi için genelde belirli bir eksende (dik ya da yatık) istiflenir. Çatalın yanlış açıyla girmesi bobin merkezindeki mili zorlayabilir ya da dış sarımı kaydırabilir. Deneyimli operatörlerimiz, bobin tipine göre çatal açısını ve kaldırma hızını buna göre ayarlar; ilk teslimatta depo sorumlusuyla birlikte örnek bir istifleme yapılarak yöntem netleştirilir.",
+            },
+            {
+                baslik: "Kumaş topu taşımada silindir dengesi",
+                metin:
+                    "Kumaş topları uzun silindir şeklinde ve ağırlık merkezi topun ortasına yakın olduğu için çatal üzerinde dengesi hassastır; hızlı fren veya keskin dönüş topun yuvarlanarak düşmesine yol açabilir. Bu nedenle kumaş topu taşımada hız düşük tutulur, dönüşler geniş yarıçapla yapılır. Topun raf gözüne yerleştirilirken de gözün derinliği ve top uzunluğu önceden karşılaştırılır.",
+            },
+            {
+                baslik: "Dar raf koridorunda manevra",
+                metin:
+                    "İplik ve kumaş depolarının koridor genişliği, genelde standart palet depolarına göre daha dardır çünkü raf yoğunluğu tesis içinde yer kazanmak için artırılmıştır. Bu koridorlarda dar gövdeli ya da dar koridor forklift sınıfı tercih edilir; koridor genişliği ve raf yüksekliği önceden ölçülüp uygun model belirlenir.",
+            },
+            {
+                baslik: "Toz ve lif birikiminin forklift bakımına etkisi",
+                metin:
+                    "İplik ve kumaş depolarında havada asılı lif, forkliftin motor filtresi ve hareketli aksamına birikebilir; bu birikim uzun vadede performansı etkiler. Uzun süreli kiralamalarda periyodik filtre kontrolü planımıza dahildir; kısa süreli kiralamalarda ise teslimat öncesi ve sonrası kontrol yeterli olur.",
+            },
+            {
+                baslik: "Yükleme rampası ile depo arasında geçiş",
+                metin:
+                    "Mamul kumaş topları depodan yükleme rampasına taşınırken, rampa eğimi ve zemin geçişi (beton-metal plaka birleşimi gibi) forkliftin denge kaybetmesine yol açabilir. Bu geçiş noktaları önceden gözden geçirilir, gerekirse geçici bir rampa desteği önerilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yük tipine göre forklift sınıfı karşılaştırması",
+                paragraflar: [
+                    "Bozüyük'teki tekstil depolarında yük tipine göre hangi forklift sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Yük tipi", "Önerilen sınıf", "Kritik nokta", "Operatör deneyimi"],
+                    satirlar: [
+                        ["İplik bobini (dik istif)", "Standart çatallı, dar gövde", "Çatal açısı hassasiyeti", "Önerilir"],
+                        ["Kumaş topu (silindir)", "Standart çatallı, düşük hız profili", "Dönüşte denge", "Önerilir"],
+                        ["Dar koridor raf sistemi", "Dar koridor forklift", "Koridor genişliği ölçümü", "Şart"],
+                        ["Yükleme rampası geçişi", "Standart çatallı", "Rampa eğimi/zemin birleşimi", "Önerilir"],
+                        ["Hammadde balyası (ağır)", "Yüksek kapasiteli standart", "Ağırlık merkezinin konumu", "Önerilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden operatör deneyimi bu depolarda öncelikli",
+                paragraflar: [
+                    "Standart palet taşımada forklift operasyonu görece basittir çünkü palet şekli ve ağırlık dağılımı öngörülebilir. İplik bobini ve kumaş topu gibi düzensiz veya kırılgan yüklerde ise operatörün yük tipine özgü tecrübesi doğrudan hasar riskini azaltır. Bu yüzden Bozüyük'teki tekstil deposu taleplerinde operatörlü kiralamayı öncelikli olarak öneriyoruz.",
+                    "Operatörsüz kiralama da mümkündür, ancak bu durumda tesisin kendi personelinin yük tipine aşina ve sertifikalı olması beklenir; ilk kullanımda kısa bir bilgilendirme (çatal açısı, hız sınırı, dönüş yarıçapı) birlikte yapılır.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz bilgiler",
+                paragraflar: [
+                    "Doğru forklift sınıfını önerebilmek için depo koridor genişliğini, raf yüksekliğini, yük tipini (bobin/top/balya) ve varsa rampa eğimini önceden bilmemiz gerekiyor. Bu bilgiler fotoğraf veya kısa ölçümle paylaşıldığında hangi modelin uygun olduğunu aynı gün teyit edebiliyoruz.",
+                    "Yük tipi belirsizse ya da karışık bir depo söz konusuysa önce keşif yapılır; yanlış sınıf forklift göndermek, hem zaman kaybı hem hasar riski oluşturur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İplik bobinlerimiz hassas, forklift çatalı bunlara zarar verir mi?",
+                cevap:
+                    "Doğru çatal açısı ve düşük kaldırma hızıyla zarar riski düşüktür, ama bu deneyime bağlıdır. Operatörlü kiralamada operatörümüz bobin tipine göre çatal açısını ayarlar; ilk teslimatta depo sorumlusuyla birlikte örnek bir istifleme yaparak yöntemi netleştiririz. Operatörsüz kiralamada ise personelinize kısa bir bilgilendirme yaparız.",
+            },
+            {
+                soru: "Kumaş topları çok uzun, raf gözüne sığdırmak zor oluyor, yardımcı olabilir misiniz?",
+                cevap:
+                    "Evet, ama önce raf gözünün derinliğini ve topun uzunluğunu karşılaştırmamız gerekiyor. Top raf derinliğine tam sığmıyorsa ya farklı bir göz önerilir ya da topun rafın önünde kısmen çıkıntılı bırakılabileceği depo kurallarınıza göre değerlendirilir. Ölçüleri önceden paylaştığınızda doğru istifleme planını birlikte çıkarırız.",
+            },
+            {
+                soru: "Depo koridorumuz dar, standart forklift dönemeyebilir mi?",
+                cevap:
+                    "Koridor genişliğini önceden ölçüp dar koridor sınıfı gerekip gerekmediğine karar veririz. Dar koridor forkliftleri daha küçük dönüş yarıçapına sahiptir ve raf sırasında yan yatarak ilerleyebilir. Koridor ölçüsü net değilse fotoğraf isteriz; yanlış sınıf gönderip depoda manevra sorunu yaşamak istemeyiz.",
+            },
+            {
+                soru: "Depoda çok fazla toz ve iplik lifi var, forklift bundan etkilenir mi?",
+                cevap:
+                    "Uzun süre kullanımda lif birikimi filtre ve hareketli aksamı etkileyebilir; bu yüzden uzun süreli kiralamalarda periyodik kontrol planımıza dahildir. Kısa süreli kiralamada teslimat öncesi ve sonrası kontrol yeterli oluyor. Depodaki toz yoğunluğu çok yüksekse bunu önceden bildirdiğinizde kontrol sıklığını artırırız.",
+            },
+            {
+                soru: "Yükleme rampasından depoya geçişte forklift dengesini kaybeder mi?",
+                cevap:
+                    "Rampa eğimi ve zemin birleşim noktası (beton-metal plaka gibi) önceden gözden geçirilmediğinde risk oluşabilir. Bu noktaları teslimat öncesi kontrol eder, gerekiyorsa geçici bir rampa desteği öneririz. Eğim üreticinin belirttiği sınırın üzerindeyse geçiş noktası ayrıca değerlendirilir.",
+            },
+            {
+                soru: "Operatörlü mü yoksa kendi personelimizle mi çalıştırmalıyız?",
+                cevap:
+                    "İplik ve kumaş gibi kırılgan yüklerde operatör deneyimi hasar riskini azalttığı için operatörlü seçeneği öncelikli öneriyoruz. Kendi personeliniz sertifikalı ve yük tipine aşina ise operatörsüz kiralama da mümkün; bu durumda ilk kullanımda çatal açısı ve hız sınırı konusunda kısa bir bilgilendirme yaparız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in dokumacılık geleneği ve bölgedeki tekstil tesislerinde iplik/kumaş deposu bulunması genel sektörel bilgidir; bobin ve kumaş topu istiflemesinin çatal açısı ve denge hassasiyeti ekipman kullanımı genel bilgisidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bozüyük'te Dokuma Hattı Üstü Aydınlatma ve Tesisat İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Dokuma salonlarının tavan yüksekliği, çoğu üretim tesisinden farklı bir düzenle kurulur: tavan genelde yüksektir ama altında asılı aydınlatma rayı, havalandırma kanalı ve bazen ikinci bir servis platformu bulunur; bu katmanlı yapı, tavana dik bir makaslı platformla değil, hem yükselen hem yatay uzanabilen bir eklemli platformla erişilebilir. Bozüyük'teki dokuma hattı üstü aydınlatma ve tesisat bakım taleplerimizin çoğu bu nedenle boom sınıfı platform ister: tezgah sırasının dışından, sıraya girmeden hedefe erişebilme kabiliyeti, üretim durdurulmadan çalışmayı mümkün kılar. Eklemli kolun 'omuz üstünden' geçme özelliği, aradaki bir engeli (örneğin havalandırma kanalı) dolaşarak hedefe ulaşmayı sağlar; bu, dokuma hattı üstündeki dar ve engebeli erişim koşulunda düz kollu bir teleskopik bomdan daha pratik sonuç verir. Bu sayfa, Bozüyük'teki dokuma salonlarında eklemli platform kullanımını ve dikkat ettiğimiz noktaları anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Tezgah sırasının dışından erişim",
+                metin:
+                    "Eklemli platform, tezgah sırasının kenarında (ana koridorda) konumlanıp kolunu tezgahların üzerinden uzatarak hedefe ulaşabilir; bu, makinenin sıraya girmesini gereksiz kılar. Kolun ulaşım mesafesi ve açısı, tezgah yüksekliği ve sıra derinliğine göre önceden hesaplanır; hedefin sıranın kaçıncı tezgahında olduğu belirleyici bir veridir.",
+            },
+            {
+                baslik: "Havalandırma kanalını dolaşarak geçiş",
+                metin:
+                    "Dokuma salonlarında aydınlatma rayının üzerinde çoğu zaman bir havalandırma kanalı bulunur; düz kollu bir platform bu kanalı aşamaz ama eklemli kol 'omuz' noktasından bükülerek kanalın altından veya yanından dolaşabilir. Kanal konumu ve yüksekliği önceden fotoğrafla teyit edilir, kolun bu geçişi güvenle yapabileceği model seçilir.",
+            },
+            {
+                baslik: "Üretim durdurulmadan sepet konumlaması",
+                metin:
+                    "Sepetin tezgah üzerinde asılı kalması gerektiğinde, altındaki tezgahın çalışıp çalışmadığı belirleyicidir; hareketli çözgü ya da mekik varsa sepet güvenli mesafede tutulur. Tezgah durdurulmadan çalışılabilecek noktalar önceden tesisle birlikte belirlenir, gerekiyorsa ilgili tezgah kısa süreliğine durdurulur.",
+            },
+            {
+                baslik: "Salon içi zemin ve tekerlek izi",
+                metin:
+                    "Boom sınıfı platformlar genelde tekerlekli ve ağırlığı örümcek platforma göre daha fazladır; salon zemininde hassas döşeme veya taze boyalı yüzey varsa tekerlek izi bırakma riski değerlendirilir. Gerekirse tekerlek altına koruyucu bir yüzey serilir.",
+            },
+            {
+                baslik: "Kısa bakım penceresinde çoklu hedef",
+                metin:
+                    "Bir vardiya arasında birden fazla aydınlatma armatürüne erişmek gerekiyorsa, hedefler önceden sıralanır ve kolun bir konumdan diğerine geçiş süresi plana dahil edilir. Bu, pencerenin sonuna doğru acele etmeden, öncelikli hedeflerin tamamlanmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dokuma hattı üstü erişimde platform sınıfı karşılaştırması",
+                paragraflar: [
+                    "Dokuma salonlarında tavan altı aydınlatma ve tesisat erişimi için hangi sınıfın uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Koşul", "Eklemli platform (boom)", "Standart makaslı", "Sepetli örümcek"],
+                    satirlar: [
+                        ["Tezgah sırasının dışından erişim", "Uygun, kol uzanır", "Uygun değil, dik erişim ister", "Uygun değil, sıraya girer"],
+                        ["Kanal/engel dolaşma", "Uygun, eklemli kol", "Uygun değil", "Sınırlı"],
+                        ["Salon genel aydınlatma bakımı", "Uygun, geniş erişim alanı", "Uygun, düz tavan altı", "Sınırlı, dar hedef"],
+                        ["Ağır tekerlek yükü hassasiyeti", "Dikkat gerekir", "Dikkat gerekir", "Daha hafif, avantajlı"],
+                        ["Kısa vardiya molası", "Orta kurulum süresi", "Ayak hizalama süresi ister", "Hızlı kurulum"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden eklemli sınıf bu erişimde öne çıkıyor",
+                paragraflar: [
+                    "Dokuma salonlarının tavan altı katmanlı yapısı (aydınlatma rayı + havalandırma kanalı + varsa ikinci servis düzeneği) düz bir dikey erişimle değil, engelleri dolaşabilen bir kolla daha güvenli aşılır. Eklemli platformun 'omuz' eklemi, kolun yatay uzanırken bile dikey ayarlanabilmesini sağlar; bu da tezgah sırasının dışından, hedefe tam isabetle ulaşmayı mümkün kılar.",
+                    "Bir diğer avantaj, makinenin ana koridorda sabit kalarak çalışabilmesidir; bu, tezgah sırasına girmeden üretim akışını kesintiye uğratmadan bakım yapmayı mümkün kılar — dokuma salonlarında koridor genelde tek geniş alan olduğu için makine burada rahatça konumlanabilir.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz bilgiler",
+                paragraflar: [
+                    "Doğru modeli önerebilmek için hedefin salon içindeki konumunu (kaçıncı tezgah sırası, koridora uzaklığı), tavan altı yüksekliğini ve varsa havalandırma kanalının konumunu önceden bilmemiz gerekiyor. Bu bilgiler fotoğraf veya kroki ile paylaşıldığında kol uzunluğu ve açısı uygun modeli aynı gün belirleyebiliyoruz.",
+                    "Bilgi eksikse önce keşif yapılır; kolun menzili yetmeyen bir makineyi sahaya göndermek, işi tamamlamadan geri çağırmak anlamına gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tezgah sırasının ortasındaki bir armatüre koridordan erişebilir misiniz?",
+                cevap:
+                    "Çoğu durumda evet, ama kolun menzili sıra derinliği ve tezgah yüksekliğine bağlı. Hedefin koridora olan mesafesini ve sırada kaçıncı tezgahta olduğunu bilmemiz gerekiyor. Menzil yetmiyorsa daha uzun kollu bir model ya da tezgah sırasına örümcek platformla girme seçeneğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Aydınlatma rayının üstünde havalandırma kanalı var, kol buraya takılır mı?",
+                cevap:
+                    "Eklemli kol, düz kollu bir bomdan farklı olarak 'omuz' noktasından bükülüp kanalı dolaşabilir. Ancak kanalın konumunu ve yüksekliğini önceden bilmemiz gerekiyor; fotoğrafla teyit ettiğimizde kolun bu geçişi güvenle yapıp yapamayacağını söyleriz. Geçiş riskliyse alternatif bir erişim açısı planlanır.",
+            },
+            {
+                soru: "Tezgahlar çalışırken sepeti üstlerinde tutabilir miyiz?",
+                cevap:
+                    "Bu, tezgahın hareketli parçalarının (çözgü, mekik) sepete olan mesafesine bağlı; güvenli mesafe sağlanabiliyorsa mümkün, sağlanamıyorsa ilgili tezgahın kısa süreliğine durdurulması istenir. Bu kararı tesisin vardiya sorumlusuyla birlikte, çalışma başlamadan önce netleştiririz.",
+            },
+            {
+                soru: "Salon zeminimiz hassas, tekerlek izi bırakır mı?",
+                cevap:
+                    "Boom sınıfı platformlar örümcek platforma göre daha ağır olduğu için hassas veya yeni boyalı zeminlerde iz bırakma riski değerlendirilir. Riskli görünen zeminlerde tekerlek altına koruyucu yüzey seriyoruz; zemin türünü önceden bildirdiğinizde bu malzemeyi hazır getiririz.",
+            },
+            {
+                soru: "Bir vardiya arasında birkaç armatüre birden bakabilir miyiz?",
+                cevap:
+                    "Evet, hedefleri önceden sıralar ve kolun bir konumdan diğerine geçiş süresini plana dahil ederiz. Bu, pencerenin sonuna doğru acele etmeden öncelikli hedeflerin güvenle tamamlanmasını sağlar; yetişmeyen kalemler bir sonraki pencereye aktarılır.",
+            },
+            {
+                soru: "Operatörlü mü kiralanıyor, yoksa kendi personelimiz mi kullanabilir?",
+                cevap:
+                    "İki seçenek de mevcut. Dar salon içi engel dolaşma gerektiren erişimlerde, özellikle ilk kullanımda operatörlü seçeneği öneriyoruz; operatörümüz kol açısını salon düzenine göre önceden planlar. Sertifikalı personeliniz varsa operatörsüz kiralama da mümkündür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in dokumacılık geleneği ve dokuma salonlarının tavan altı aydınlatma/havalandırma katmanlı düzeni genel sektörel bilgidir; eklemli platformun kol geometrisi ekipman kategorisi genel özelliğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bozüyük'te İplik ve Kumaş Top Deposunda İç Mekân Platform Kiralama",
+        giris:
+            "Bozüyük'teki tekstil tesislerinin iplik ve kumaş top depoları, standart palet depolarından farklı bir yükseklik ve raf düzenine sahiptir; raflar genelde bobin ya da top boyutuna göre özel aralıklı kurulur ve tavan aydınlatması bu rafların üstünden geçen dar bir hatta yerleşir. Bu depolarda yapılan iç mekân bakım işleri (aydınlatma değişimi, yangın algılama sensörü kontrolü, sprinkler hattı bakımı) hem raf sırası içinden hem de raf üstü koridordan erişim gerektirebilir. Akülü makaslı platform, iç mekânda egzoz gazı bırakmaması ve sessiz çalışması nedeniyle bu depolarda tercih edilen sınıftır; ancak raf aralığı dar olduğunda gövde genişliği kritik hâle gelir. Bozüyük'teki taleplerimizin çoğu bu nedenle önce raf aralığının ölçülmesiyle başlar, ardından depo yüksekliğine uygun model belirlenir. Bu sayfa, Bozüyük'teki iplik ve kumaş depolarında iç mekân platform kullanımını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Raf aralığına uygun gövde genişliği",
+                metin:
+                    "İplik ve kumaş depolarının raf aralığı, bobin çapı veya top uzunluğuna göre belirlendiği için standart palet raf aralığından farklı olabilir. Platformun gövde genişliği bu aralığa göre seçilir; dar aralıklarda kompakt gövdeli akülü makaslı, geniş koridorlarda standart model tercih edilir.",
+            },
+            {
+                baslik: "Raf üstü aydınlatma hattına erişim",
+                metin:
+                    "Depo aydınlatması genelde raf sıralarının üstünden geçen bir hat şeklindedir; bu hatta erişim için platform raf koridorunda ilerleyip hedefin tam altında durur. Raf üstündeki malzeme yüksekliği (istiflenmiş bobin/top) ile tavan arasındaki boşluk önceden ölçülür, sepetin bu boşluğa sığıp sığmadığı teyit edilir.",
+            },
+            {
+                baslik: "Yangın algılama ve sprinkler hattı bakımı",
+                metin:
+                    "Tekstil depoları yanıcı malzeme yoğunluğu nedeniyle yangın algılama ve sprinkler sistemine önem verir; bu sistemlerin periyodik kontrolü de raf üstü erişim gerektirir. Kontrol sırasında sistemin devre dışı bırakılması gerekiyorsa bu, tesisin güvenlik prosedürüne göre önceden planlanır.",
+            },
+            {
+                baslik: "Toz ve lif birikiminin platform tekerine etkisi",
+                metin:
+                    "Depo zemininde biriken iplik lifi, tekerlek tutunmasını zaman zaman etkileyebilir; bu nedenle raf koridorunda manevra düşük hızda yapılır. Teslimat öncesi ve sonrası teker kontrolü standart prosedürümüzdür.",
+            },
+            {
+                baslik: "Depo içi kısa mesafeli taşınma",
+                metin:
+                    "Bir depo içinde birden fazla raf koridorunda çalışma gerekiyorsa platform kendi tekerlekleriyle koridorlar arası kısa mesafede taşınır; bu taşınma sırasında forklift trafiğiyle çakışmaması için güzergah önceden tesisle koordine edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo yüksekliğine göre platform sınıfı karşılaştırması",
+                paragraflar: [
+                    "Bozüyük'teki iplik ve kumaş depolarında raf yüksekliğine göre hangi platform sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Depo yüksekliği", "Önerilen sınıf", "Raf aralığı hassasiyeti", "Kurulum hızı"],
+                    satirlar: [
+                        ["4-6 metre", "Kompakt akülü makaslı", "Dar aralığa uygun", "Hızlı"],
+                        ["6-9 metre", "Standart akülü makaslı", "Orta aralık", "Orta"],
+                        ["9-12 metre", "Geniş şaseli makaslı veya eklemli", "Geniş koridor gerekir", "Orta-yavaş"],
+                        ["Raf sırası içi dar nokta", "Sepetli örümcek platform", "En dar aralığa uygun", "Hızlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden akülü makaslı bu depolarda öncelikli",
+                paragraflar: [
+                    "İplik ve kumaş depoları genelde kapalı ve havalandırması sınırlı alanlardır; egzoz gazlı bir makine burada kullanılmaz. Akülü makaslı platform hem sessiz hem emisyonsuz çalıştığı için bu tip kapalı depolarda tercih edilen sınıftır. Ayrıca lastik izi bırakmayan tekerlek seçenekleri, depo zemininin hassas kaplamalı olduğu durumlarda ek avantaj sağlar.",
+                    "Raf aralığı dar olduğunda gövde genişliği belirleyici hâle gelir; bu yüzden depo taleplerinde önce raf aralığı ölçülür, sonra model önerilir. Yanlış geniş bir model önerilirse raf koridoruna giremez.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz ölçüler",
+                paragraflar: [
+                    "Doğru modeli belirlemek için raf koridoru genişliğini, raf yüksekliğini, hedefin (aydınlatma/sensör) yerden yüksekliğini ve depo zemininin türünü (beton, epoksi kaplama vb.) önceden bilmemiz gerekiyor. Bu ölçüler fotoğraf veya kroki ile paylaşıldığında hangi model raf aralığına sığacağını aynı gün teyit edebiliyoruz.",
+                    "Ölçü belirsizse önce keşif yapılır; raf aralığına sığmayan bir platformu depoya sokup çıkarmak, hem zaman kaybı hem raf hasarı riski taşır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Raflarımız arası çok dar, standart makaslı platform sığar mı?",
+                cevap:
+                    "Bu, raf koridoru genişliğine bağlı; iplik/kumaş depolarında koridor bazen standart palet deposundan daha dardır. Koridor ölçüsünü önceden bilmemiz gerekiyor, sığmıyorsa kompakt gövdeli bir akülü makaslı ya da sepetli örümcek platform öneririz. Ölçü net değilse fotoğraf isteriz.",
+            },
+            {
+                soru: "Depo kapalı ve havalandırması sınırlı, hangi makine uygun?",
+                cevap:
+                    "Kapalı ve sınırlı havalandırmalı depolarda akülü makaslı platform tercih edilir; egzoz gazlı bir makine burada kullanılmaz. Akülü modeller hem sessiz hem emisyonsuz çalıştığı için depo içi çalışma koşullarına uygundur.",
+            },
+            {
+                soru: "Sprinkler sistemini kontrol ederken sistemi kapatmak gerekiyor mu?",
+                cevap:
+                    "Bu, tesisin güvenlik prosedürüne bağlı; bazı kontroller sistemi devre dışı bırakmadan yapılabilirken bazıları için kısa süreli kapatma gerekebilir. Bu kararı önceden tesisin ilgili sorumlusuyla netleştiririz, kapatma gerekiyorsa süresini en kısa tutarız.",
+            },
+            {
+                soru: "Depo zeminimiz epoksi kaplı, platform tekerleği iz bırakır mı?",
+                cevap:
+                    "İz bırakmayan lastik izi olmayan teker seçenekleri mevcuttur; hassas kaplamalı zeminlerde bu seçeneği öneririz. Zemin türünü önceden bildirdiğinizde uygun teker tipiyle geliriz.",
+            },
+            {
+                soru: "Aynı ziyarette birden fazla raf koridorunda çalışabilir misiniz?",
+                cevap:
+                    "Evet, platform kendi tekerlekleriyle koridorlar arası kısa mesafede taşınabilir. Bu taşınma sırasında forklift trafiğiyle çakışmaması için güzergahı önceden tesisle koordine ederiz; birden fazla koridor için hedef sırası da önceden planlanır.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyorsunuz, yoksa kendi personelimiz mi kullanabilir?",
+                cevap:
+                    "İki seçenek de mevcut. Dar raf koridoru gibi manevra hassasiyeti yüksek alanlarda operatörlü seçeneği öneriyoruz; sertifikalı personeliniz varsa operatörsüz kiralama da mümkündür. Kararı raf aralığının darlığına göre birlikte veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in dokumacılık geleneği ve bölgedeki tekstil tesislerinin iplik/kumaş depolarının raf düzeni genel sektörel bilgidir; akülü makaslı platformun kapalı mekân avantajı ekipman kategorisi genel özelliğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bozüyük'te Yeni Dokuma Hattı Çelik Konstrüksiyon Montajı İçin Platform Kiralama",
+        giris:
+            "Bir tekstil tesisinin kapasite artırımı ya da yeni bir dokuma hattı eklemesi, genelde mevcut salona bitişik yeni bir çelik konstrüksiyon bölümü inşasıyla başlar; bu bölüm hem çatı kirişleri hem de yeni hattın aydınlatma-havalandırma altyapısını taşıyacak çelik iskeleti içerir. Bozüyük'teki taleplerimizin bir kısmı bu tip genişleme projelerinden gelir: çelik kolon dikimi tamamlandıktan sonra kiriş bağlantı noktalarının cıvatalanması, çatı aşık montajı ve bu aşıklara asılacak aydınlatma-havalandırma hattının ön kablolaması. Bu iş, mevcut üretim hattından ayrı ama bitişik bir sahada yürüdüğü için hem inşaat trafiği hem de yakındaki çalışan üretim biriminin güvenliği birlikte gözetilir. Standart bir vinç ya da sabit iskele yerine eklemli veya teleskopik platform tercih edilmesinin nedeni, montaj ilerledikçe erişim noktasının sürekli değişmesi ve sahanın henüz düzenli bir zemine kavuşmamış olmasıdır. Bu sayfa, Bozüyük'te yeni dokuma hattı çelik konstrüksiyon montajında platform kullanımını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kolon dikimi sonrası kiriş bağlantı montajı",
+                metin:
+                    "Kolonlar dikildikten sonra kirişlerin bağlantı noktalarındaki cıvatalama işi, her bağlantı noktasında ayrı bir erişim gerektirir. Platform, kolon sırası boyunca ilerleyerek her bağlantıya sırayla yaklaşır; bağlantı yüksekliği ve kolon aralığı önceden bilinerek doğru sepet yüksekliği ve gövde genişliği belirlenir.",
+            },
+            {
+                baslik: "Çatı aşık montajında yatay hareket",
+                metin:
+                    "Aşık montajı, çatı düzleminde yatay yönde ilerleyen bir iştir; bu nedenle tek noktada sabit kalan bir vinç yerine, yatay ve dikey hareketi birlikte sağlayan eklemli platform daha verimli çalışır. Aşık aralıkları ve çatı eğimi önceden bilinerek kolun bu eğimde güvenle çalışabileceği açı belirlenir.",
+            },
+            {
+                baslik: "Aydınlatma-havalandırma ön kablolaması",
+                metin:
+                    "Çatı iskeleti tamamlandıktan sonra, gelecekteki aydınlatma ve havalandırma hattının kablo taşıyıcıları bu aşamada monte edilir. Bu iş, kiriş ve aşık montajından daha hassas bir konumlama ister; sepetin taşıyıcı hattı boyunca yavaş ve kontrollü ilerlemesi gerekir.",
+            },
+            {
+                baslik: "Düzensiz inşaat sahası zemini",
+                metin:
+                    "Yeni bölümün zemini, üretim salonunun aksine henüz düzgün bir beton döşemeye kavuşmamış olabilir; dökülmüş dolgu, henüz sıkıştırılmamış toprak veya geçici platform yolu bulunabilir. Bu zeminde platformun destek ayaklarının veya paletli sisteminin taşıma kapasitesi önceden değerlendirilir, gerekirse takoz veya plaka desteği kullanılır.",
+            },
+            {
+                baslik: "Mevcut üretim birimine yakınlık güvenliği",
+                metin:
+                    "İnşaat sahası genelde çalışan üretim salonuna bitişiktir; bu nedenle platformun çalışma alanı ile üretim salonu arasındaki sınır (bariyer, uyarı şeridi) net çizilir. Malzeme düşürme riski olan işlerde üretim tarafındaki geçişler geçici olarak kısıtlanabilir; bu kısıtlama tesisle önceden koordine edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre platform sınıfı karşılaştırması",
+                paragraflar: [
+                    "Yeni dokuma hattı çelik konstrüksiyon montajının farklı aşamalarında hangi platform sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj aşaması", "Önerilen sınıf", "Kritik nokta", "Zemin gereksinimi"],
+                    satirlar: [
+                        ["Kiriş bağlantı cıvatalama", "Eklemli platform (boom)", "Nokta erişim hassasiyeti", "Orta sertlikte zemin"],
+                        ["Çatı aşık montajı", "Teleskopik/eklemli platform", "Yatay+dikey hareket", "Düz veya hafif eğimli"],
+                        ["Kablo taşıyıcı montajı", "Eklemli platform, düşük hız", "Konumlama hassasiyeti", "Sabit zemin"],
+                        ["Düzensiz dolgu zemin geçişi", "Paletli sepetli platform", "Ayak/palet dengesi", "Takviyeli olabilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu iş erken planlama gerektiriyor",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajı, tek bir sabit noktada değil kolon sırası ve çatı düzlemi boyunca ilerleyen bir iştir; bu yüzden platformun erişim planı, montaj sırasına paralel olarak önceden hazırlanır. Erişim planı olmadan sahaya gelen bir makine, her bağlantı noktasında yeniden konumlanmak zorunda kalır ve bu da işi yavaşlatır.",
+                    "Ayrıca inşaat sahasının zemini üretim sahasından farklı olduğu için, zemin taşıma değerlendirmesi montaj başlamadan yapılır. Bu değerlendirme, ilerleyen haftalarda zemin sertleştikçe (beton dökümü tamamlandıkça) güncellenir.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz bilgiler",
+                paragraflar: [
+                    "Doğru modeli önerebilmek için kolon aralığını, çatı yüksekliğini ve eğimini, aşık aralıklarını ve inşaat sahası zemininin o anki durumunu (dolgu, sıkıştırılmış, beton) önceden bilmemiz gerekiyor. Bu bilgiler proje çizimi veya fotoğrafla paylaşıldığında hangi model ve kol uzunluğunun uygun olduğunu değerlendirebiliyoruz.",
+                    "Montaj birden fazla haftaya yayılıyorsa, zemin durumu değiştikçe (örneğin beton döküldükten sonra) platform ihtiyacını yeniden gözden geçiririz; ilk haftanın planı son haftaya otomatik uygulanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni bölümün zemini henüz betonlanmadı, platform bu zeminde çalışabilir mi?",
+                cevap:
+                    "Zeminin o anki durumuna bağlı; sıkıştırılmış dolgu üzerinde paletli veya geniş tabanlı platformlar çalışabilir, ancak henüz gevşek toprak varsa taşıma kapasitesi yetersiz kalabilir. Zemin durumunu önceden değerlendirir, gerekiyorsa takoz veya plaka desteği kullanırız; riskli görünen bir zeminde çalışma ertelenir.",
+            },
+            {
+                soru: "Kolonlar dikildi ama kiriş bağlantı noktaları farklı yüksekliklerde, tek makine yeter mi?",
+                cevap:
+                    "Bağlantı yüksekliklerinin aralığını önceden bilmemiz gerekiyor; fark büyükse tek bir modelin çalışma yüksekliği yetmeyebilir. Bu durumda ya daha yüksek kapasiteli bir model önerilir ya da iş iki aşamaya bölünerek farklı modellerle tamamlanır. Kesin cevap için kolon ve kiriş yükseklik ölçülerini paylaşmanız gerekir.",
+            },
+            {
+                soru: "Çatı eğimli, platform bu eğimde güvenle çalışabilir mi?",
+                cevap:
+                    "Eğim derecesine bağlı; üreticinin belirttiği azami eğim sınırının altındaki çatılarda eklemli platform kolu güvenle çalışabilir. Eğimi ölçüp bu sınırla karşılaştırırız; sınırın üzerindeyse alternatif erişim yöntemi (örneğin sabit iskele desteği) birlikte değerlendirilir.",
+            },
+            {
+                soru: "İnşaat sahası üretim salonuna bitişik, üretimi etkiler mi?",
+                cevap:
+                    "Çalışma alanı ile üretim salonu arasına net bir sınır (bariyer, uyarı şeridi) çekeriz; malzeme düşürme riski olan işlerde üretim tarafındaki geçişleri geçici olarak kısıtlarız. Bu kısıtlamanın zamanlamasını ve süresini tesisle önceden koordine ederiz, üretimi habersiz etkilemeyiz.",
+            },
+            {
+                soru: "Montaj birkaç hafta sürecek, aynı makineyi mi kiralıyoruz?",
+                cevap:
+                    "Genelde evet, ama zemin durumu değiştikçe (örneğin beton döküldükten sonra) ihtiyacı yeniden değerlendiririz. İlk haftalarda paletli bir model gerekebilirken, zemin sertleştikten sonra tekerlekli bir modele geçiş daha verimli olabilir. Bu değişimi süreç içinde birlikte planlarız.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyorsunuz, yoksa şantiye ekibimiz mi kullanabilir?",
+                cevap:
+                    "İki seçenek de mevcut. İnşaat sahasının değişken zemin ve erişim koşulları nedeniyle operatörlü seçeneği öncelikli öneriyoruz; operatörümüz zemin ve kolon düzenine göre günlük konumlama yapar. Sertifikalı şantiye personeliniz varsa operatörsüz kiralama da mümkündür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tekstil tesislerinde kapasite artırımı amacıyla yeni hat/bölüm eklenmesi ve bunun çelik konstrüksiyon montajı gerektirmesi sektör geneli bilgidir; kolon-kiriş-aşık montaj sırası inşaat pratiği genel bilgisidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bozüyük'te İplik Fabrikası Hammadde (Pamuk Balyası) Depolama Alanında Platform Kiralama",
+        giris:
+            "İplik üretiminin ilk aşaması, pamuk balyalarının fabrikaya girişi ve hammadde deposunda istiflenmesidir; bu depolar genelde fabrikanın ana üretim binasından ayrı, açık veya yarı kapalı bir alanda kurulur ve balyaların üst üste yüksek istiflenmesi nedeniyle depo çatısı ve aydınlatma sistemi standart bir üretim salonundan farklı bir yükseklik-erişim ihtiyacı doğurur. Bozüyük'teki dokumacılık geleneğinin devamı olan iplik tesislerinde bu hammadde deposu çevresinde yaptığımız işler; çatı altı aydınlatma bakımı, yangın algılama sensörü kontrolü ve depo giriş kapısı üzerindeki yükleme rampası aydınlatmasıdır. Bu alanların zemini genelde beton olsa da açık hava koşullarına maruz kaldığı için zaman zaman düzensizlik gösterebilir; bu yüzden makine seçiminde hem çalışma yüksekliği hem zemin taşıması birlikte değerlendirilir. Bu sayfa, Bozüyük'teki iplik fabrikalarının hammadde depolama alanında platform kullanımını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yüksek balya istifinin üstündeki çatı erişimi",
+                metin:
+                    "Pamuk balyaları depo içinde birkaç kat yüksekliğinde istiflenebilir; bu istifin üstündeki çatı altı aydınlatma veya havalandırma noktasına erişim, istif yüksekliğinin üzerine çıkabilen bir çalışma yüksekliği gerektirir. İstifin o anki yüksekliği değişken olduğu için, çalışma öncesi güncel istif durumu fotoğrafla teyit edilir.",
+            },
+            {
+                baslik: "Açık veya yarı kapalı alan hava koşulu",
+                metin:
+                    "Hammadde deposu tam kapalı bir salon olmayabilir; rüzgar ve yağış maruziyeti olduğunda platformun dış mekân kullanım koşullarına uygun olması gerekir. Rüzgar hızı sınırı aşıldığında yüksek irtifada çalışma ertelenir, bu karar sahada anlık olarak verilir.",
+            },
+            {
+                baslik: "Yangın algılama sisteminin öncelikli kontrolü",
+                metin:
+                    "Pamuk gibi yanıcı hammadde depoları için yangın algılama sisteminin periyodik kontrolü kritik önemdedir; bu kontrol genelde depo tavanındaki sensör noktalarına erişim ister. Sensör konumları önceden bilinerek platform güzergahı buna göre planlanır.",
+            },
+            {
+                baslik: "Yükleme rampası üstü aydınlatma",
+                metin:
+                    "Balya girişinin yapıldığı yükleme rampası üzerindeki aydınlatma, hem gece teslimatları hem forklift güvenliği için önemlidir. Bu noktaya erişim sırasında rampa üzerindeki araç trafiği geçici olarak durdurulur.",
+            },
+            {
+                baslik: "Zeminin açık hava koşullarından etkilenmesi",
+                metin:
+                    "Açık depolama alanının zemini yağış sonrası ıslanabilir veya zamanla çatlaklar oluşabilir; bu durum platformun ayak veya tekerlek taşıma güvenliğini etkiler. Çalışma öncesi zemin görsel olarak kontrol edilir, riskli bölgelerde takoz desteği kullanılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hammadde deposu koşullarına göre platform karşılaştırması",
+                paragraflar: [
+                    "Bozüyük'teki iplik fabrikalarının hammadde depolama alanında hangi platform sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Koşul", "Önerilen sınıf", "Kritik nokta", "Hava koşulu uygunluğu"],
+                    satirlar: [
+                        ["Yüksek balya istifi üstü erişim", "Eklemli/teleskopik platform", "Çalışma yüksekliği yeterliliği", "Dış mekân uygun model"],
+                        ["Açık alan rüzgar maruziyeti", "Ağır dizel/hibrit platform", "Rüzgar sınırı takibi", "Şart"],
+                        ["Yükleme rampası üstü nokta erişim", "Eklemli platform", "Trafik koordinasyonu", "Dış mekân uygun model"],
+                        ["Düzensiz açık zemin", "Geniş tabanlı, dört tekerlek tahrikli", "Zemin taşıma kontrolü", "Şart"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu alan ayrı bir değerlendirme gerektiriyor",
+                paragraflar: [
+                    "Hammadde depolama alanı, üretim salonunun kapalı ve kontrollü ortamından farklı olarak açık hava koşullarına maruz kalabilir; bu, hem makinenin dış mekân kullanıma uygun olmasını hem de rüzgar/yağış gibi değişken koşulların anlık takip edilmesini gerektirir. Ayrıca yüksek balya istifi, sabit bir çalışma yüksekliği varsayımını geçersiz kılar — istif azaldıkça ya da arttıkça gerekli çalışma yüksekliği değişir.",
+                    "Bu nedenle her ziyaret öncesi güncel istif durumu ve hava koşulu tekrar teyit edilir; geçen ay uygun olan model bu ay otomatik olarak uygun sayılmaz.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz bilgiler",
+                paragraflar: [
+                    "Doğru modeli önerebilmek için depo alanının açık mı yarı kapalı mı olduğunu, güncel balya istif yüksekliğini, sensör/aydınlatma hedeflerinin konumunu ve zemin türünü önceden bilmemiz gerekiyor. Bu bilgiler fotoğrafla paylaşıldığında uygun modeli aynı gün belirleyebiliyoruz.",
+                    "İstif yüksekliği sık değişiyorsa, çalışma tarihine yakın bir güncel fotoğraf isteriz; eski bir fotoğrafa göre planlanan model, güncel istifle uyuşmayabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Balya istifimiz çok yüksek, standart platform buna yetişir mi?",
+                cevap:
+                    "İstifin güncel yüksekliğini bilmemiz gerekiyor çünkü istif yüksekliği zamanla değişir. Güncel bir fotoğraf paylaştığınızda, çalışma yüksekliği yeterli modeli önerebiliyoruz; istif çok yüksekse teleskopik veya eklemli sınıf gerekebilir. Eski bir ölçüye göre model önermeyiz, her çalışma öncesi güncel durumu teyit ederiz.",
+            },
+            {
+                soru: "Deponuz açık alan, rüzgarlı günlerde çalışma yapılabilir mi?",
+                cevap:
+                    "Üreticinin belirttiği rüzgar hızı sınırının üzerinde yüksek irtifada çalışma yapılmaz; bu karar sahada anlık ölçümle verilir. Rüzgarlı bir günde planlanan çalışma ertelenebilir, bu durumda yeni tarih en kısa sürede belirlenir. Güvenlik, program aksaması pahasına önceliklidir.",
+            },
+            {
+                soru: "Yangın algılama sensörlerinin konumunu bilmiyoruz, siz bulabilir misiniz?",
+                cevap:
+                    "Sensör konumlarını genelde tesisin yangın güvenlik sorumlusu veya proje çizimlerinden netleştiriyoruz; bu bilgi bizde yoksa çalışma öncesi sizinle birlikte sahada tespit ederiz. Konumlar netleştikten sonra platform güzergahı buna göre planlanır.",
+            },
+            {
+                soru: "Yükleme rampasındaki aydınlatmaya çalışırken araç trafiği durur mu?",
+                cevap:
+                    "Evet, çalışma süresince rampa üzerindeki araç trafiği geçici olarak durdurulur; bu süreyi mümkün olduğunca kısa tutmaya çalışırız. Rampanın yoğun kullanıldığı saatler varsa bunu önceden bildirdiğinizde çalışmayı sakin bir saate planlarız.",
+            },
+            {
+                soru: "Zeminimiz açık alanda, yağış sonrası çamurlaşıyor. Yine de çalışabilir miyiz?",
+                cevap:
+                    "Zeminin o anki durumuna bağlı; ıslak ve yumuşamış zeminde geniş tabanlı ve dört tekerlek tahrikli bir model daha güvenlidir, riskli görünen noktalarda takoz desteği kullanırız. Son yağıştan bu yana geçen süreyi ve zeminin görünür durumunu çalışma öncesi sorarız.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyorsunuz, yoksa personelimiz mi kullanabilir?",
+                cevap:
+                    "İki seçenek de mevcut. Açık alan ve değişken hava koşulu nedeniyle operatörlü seçeneği öncelikli öneriyoruz; operatörümüz rüzgar ve zemin durumunu sahada değerlendirip karar verir. Sertifikalı personeliniz varsa operatörsüz kiralama da mümkündür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İplik üretiminde pamuk balyası hammadde deposunun ayrı ve yüksek istifli bir alan olması, tekstil sektörü üretim süreci genel bilgisidir. Belirli tesis, rakam ve istif ölçüsü verilmemiştir; istif yüksekliğinin değişken olduğu ve her ziyarette güncel teyit gerektiği vurgulanmıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bozüyük'te Dokuma Hattı Üstü Enerji ve Aydınlatma Bakım Platformu Kiralama",
+        giris:
+            "Dokuma salonlarının aydınlatması, standart bir sanayi tesisinden farklı bir hassasiyet gerektirir; çünkü tezgah üzerindeki iplik renginin ve dokuma hatasının doğru görülebilmesi belirli bir aydınlatma şiddeti ve açısı ister. Bu yüzden dokuma salonlarında armatür yoğunluğu genelde yüksektir ve her armatürün periyodik bakımı, tek tek tezgah sıraları arasında dolaşarak yapılır. Bozüyük'teki iplik ve dokuma tesislerinden gelen enerji-aydınlatma bakım taleplerimiz, bu yoğun armatür düzenine ek olarak elektrik pano ve kablo tavası bakımını da kapsar; kablo tavaları genelde tezgah sıralarının üstünden geçtiği için erişim, hem tezgaha temas etmeden hem de enerjili hat güvenliği gözetilerek yapılır. Bu sayfa, Bozüyük'teki dokuma ve iplik tesislerinde enerji-aydınlatma bakım sürecimizi ve platform kullanımını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yoğun armatür düzeninde sıralı bakım",
+                metin:
+                    "Dokuma salonunda çok sayıda armatür kısa aralıklarla dizildiği için, bir bakım turu genelde tek seferde birkaç armatürü kapsar. Armatürler önceden numaralandırılıp bir güzergah planı çıkarılır; platform bu güzergah boyunca ilerleyerek her armatüre sırayla yaklaşır, gereksiz geri dönüş yapılmaz.",
+            },
+            {
+                baslik: "Enerjili kablo tavası yakınında güvenli mesafe",
+                metin:
+                    "Kablo tavaları tezgah sıralarının üstünden geçtiği için, bakım sırasında sepetin bu hatta güvenli mesafede kalması gerekir. Enerjili hat yakınında çalışırken izole ekipman ve güvenli mesafe kuralı uygulanır; hat üzerinde çalışma gerekiyorsa ilgili hattın enerjisi tesisin elektrik sorumlusuyla koordineli kesilir.",
+            },
+            {
+                baslik: "Elektrik panosu çevresinde erişim",
+                metin:
+                    "Salon içi elektrik panoları genelde duvara veya kolona monte edilir; panonun üst kısmındaki bağlantı veya soğutma fanı bakımı platform erişimi gerektirebilir. Pano önünde güvenli çalışma alanı bırakılması, elektrik güvenlik kuralı gereği önceden netleştirilir.",
+            },
+            {
+                baslik: "Vardiya arası kısa bakım penceresi",
+                metin:
+                    "Aydınlatma bakımı genelde üretim durmadan, vardiya arası kısa bir pencerede yapılır. Bu pencerede kaç armatürün tamamlanabileceği önceden hesaplanır; yetişmeyen armatürler bir sonraki pencereye planlanır, acele ile enerji güvenlik adımları atlanmaz.",
+            },
+            {
+                baslik: "Aydınlatma şiddeti ölçümü ve raporlama",
+                metin:
+                    "Bakım sonrası, dokuma kalitesi için kritik olan aydınlatma şiddeti bazı tesislerde ölçülüp kayıt altına alınır. Bu ölçüm talep edilirse bakım sırasında yapılır ve sonuç kısa bir raporla tesise iletilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bakım kapsamına göre platform sınıfı karşılaştırması",
+                paragraflar: [
+                    "Dokuma salonu enerji-aydınlatma bakımında hangi platform sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Bakım kapsamı", "Önerilen sınıf", "Kritik nokta", "Kurulum hızı"],
+                    satirlar: [
+                        ["Tek tezgah sırası armatür bakımı", "Sepetli örümcek platform", "Dar koridor geçişi", "Hızlı"],
+                        ["Genel salon aydınlatma turu", "Standart akülü makaslı", "Sıralı güzergah", "Orta"],
+                        ["Kablo tavası/enerjili hat yakını", "Eklemli platform", "Güvenli mesafe kontrolü", "Orta"],
+                        ["Yüksek tavan pano bakımı", "Eklemli/teleskopik platform", "Enerji kesme koordinasyonu", "Orta-yavaş"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu bakım sıralı güzergah gerektiriyor",
+                paragraflar: [
+                    "Dokuma salonundaki armatür sayısının fazlalığı, bakımı tek bir noktada değil bir güzergah boyunca yapılan bir iş hâline getirir. Güzergah önceden planlanmazsa platform aynı bölgeye tekrar tekrar dönmek zorunda kalır, bu da vardiya arası kısa pencereyi verimsiz kullanır.",
+                    "Ayrıca enerjili hatlara yakın çalışma, her armatürde ayrı bir güvenlik değerlendirmesi gerektirir; bu değerlendirme güzergah planına dahil edilerek, hangi noktada enerji kesintisi gerektiği önceden belirlenir.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz bilgiler",
+                paragraflar: [
+                    "Doğru planı çıkarabilmek için armatür sayısını ve salon içindeki dağılımını, kablo tavası ve pano konumlarını, vardiya arası pencere süresini önceden bilmemiz gerekiyor. Bu bilgiler bir kroki ile paylaşıldığında güzergahı ve gereken makine sayısını önceden belirleyebiliyoruz.",
+                    "Armatür sayısı çoksa iş birkaç pencereye bölünebilir; tek seferde bitirme baskısı enerji güvenlik adımlarının atlanmasına yol açmamalıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Salonumuzda çok sayıda armatür var, hepsine tek seferde bakabilir misiniz?",
+                cevap:
+                    "Armatür sayısına ve vardiya arası pencerenin süresine bağlı. Önceden hazırlanan bir güzergah planıyla mümkün olduğunca çoğunu tek seferde kapsamaya çalışırız, ama pencere yetmiyorsa iş birkaç ziyarete bölünür. Acele ile enerji güvenlik adımları atlanmaz; yetişmeyen armatürler bir sonraki pencereye planlanır.",
+            },
+            {
+                soru: "Kablo tavası enerjili, platform buraya çok yaklaşırsa risk oluşur mu?",
+                cevap:
+                    "Evet, bu yüzden sepedin enerjili hatta güvenli mesafede kalmasına dikkat ederiz. Hat üzerinde doğrudan çalışma gerekiyorsa, ilgili hattın enerjisini tesisin elektrik sorumlusuyla koordineli olarak keseriz; enerji kesilmeden hat üzerinde çalışma yapılmaz.",
+            },
+            {
+                soru: "Elektrik panosunun önünde çalışma alanı dar, platform buraya sığar mı?",
+                cevap:
+                    "Pano önündeki güvenli çalışma alanı elektrik güvenlik kuralı gereği zaten belirli bir genişlikte olmalıdır; bu alan platform için de yeterli olabilir. Alan darsa daha kompakt gövdeli bir model öneririz. Pano önü ölçüsünü önceden bilmemiz, doğru modeli seçmemiz için gerekir.",
+            },
+            {
+                soru: "Bakımı üretim durmadan yapabilir misiniz?",
+                cevap:
+                    "Genelde evet, vardiya arası kısa pencerede çalışırız. Ancak enerjili hat üzerinde doğrudan müdahale gerekiyorsa, o bölümün kısa süreliğine durdurulması gerekebilir. Bu durumu önceden tesisin ilgili sorumlusuyla netleştirir, süreyi mümkün olan en kısa tutarız.",
+            },
+            {
+                soru: "Aydınlatma şiddetini ölçüp bize rapor verebilir misiniz?",
+                cevap:
+                    "Talep edilirse bakım sırasında ölçüm yapıp kısa bir rapor hazırlarız. Bu ölçüm özellikle dokuma kalite kontrolü için aydınlatma şiddetinin belirli bir standartta tutulması gereken tesislerde faydalı oluyor; ölçüm ihtiyacınızı önceden belirtmeniz yeterli.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyorsunuz, yoksa kendi elektrik ekibimiz mi kullanabilir?",
+                cevap:
+                    "İki seçenek de mevcut. Enerjili hat yakınında çalışma riski nedeniyle operatörlü seçeneği öncelikli öneriyoruz; operatörümüz güvenli mesafe ve güzergah planını uygular. Sertifikalı elektrik personeliniz varsa operatörsüz kiralama da mümkündür, bu durumda güvenlik koordinasyonu birlikte yapılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dokuma salonlarında aydınlatma yoğunluğunun ürün kalite kontrolü için önemli olduğu ve armatür sayısının fazla olduğu genel sektörel bilgidir; enerjili hat yakınında güvenli mesafe kuralı elektrik iş güvenliği genel bilgisidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bozüyük'te Boyahane ve Apre Tesisinde Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Bir tekstil tesisinde operatörlü mü yoksa operatörsüz mü platform kiralanması gerektiği sorusu, salonun türüne göre farklı cevap bulur. Dokuma salonunda tezgah sırası içinde manevra ustalık isterken, boyahane ve apre bölümünde asıl belirleyici faktör ortamın kendisidir: yüksek nem, buhar ve zaman zaman kimyasal madde varlığı, hem makinenin hem operatörün bu koşullara aşina olmasını gerektirir. Bozüyük'teki tekstil tesislerinden gelen taleplerde bu nedenle boyahane-apre bölümü için genelde operatörlü kiralamayı öneriyoruz; operatörümüz nem ve buhar yoğunluğunun makinenin elektrik aksamına ve zemin tutunmasına etkisini bilerek çalışır. Kuru ve düz zeminli salon veya depo bölümlerinde ise sertifikalı personeliniz varsa operatörsüz seçenek de rahatlıkla tercih edilebilir. Bu sayfa, Bozüyük'teki tekstil tesislerinde operatörlü/operatörsüz kararını nasıl verdiğimizi anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Boyahane-apre bölümünde nem ve buhar riski",
+                metin:
+                    "Boyahane ve apre bölümlerinde nem oranı ve zaman zaman buhar yoğunluğu diğer bölümlere göre belirgin şekilde yüksektir. Bu koşullarda çalışacak operatörün, zemin kayganlığını ve elektrikli aksamın nem etkisini bilerek hız ve manevra kararı vermesi gerekir; bu nedenle bu bölümlerde operatörlü kiralamayı öncelikli öneririz.",
+            },
+            {
+                baslik: "Kimyasal madde bulunan alanlarda ek dikkat",
+                metin:
+                    "Boyahane bölümünde boya ve yardımcı kimyasal maddeler bulunabilir; bu maddelerin döküntü veya buharına maruz kalma riski olan noktalarda operatörümüz tesisin kimyasal güvenlik prosedürüne göre hareket eder. Hangi alanların bu riski taşıdığı çalışma öncesi tesisten öğrenilir.",
+            },
+            {
+                baslik: "Kuru salon ve depo bölümünde operatörsüz seçenek",
+                metin:
+                    "Dokuma salonu koridoru veya iplik deposu gibi kuru ve düz zeminli bölümlerde, sertifikalı personeliniz varsa operatörsüz kiralama pratik bir seçenektir. Bu durumda ilk kullanımda makinenin kontrol paneli ve güvenlik özellikleri hakkında kısa bir bilgilendirme yapılır.",
+            },
+            {
+                baslik: "Vardiya süresince sürekli operatör ihtiyacı",
+                metin:
+                    "Uzun süreli bakım işlerinde, özellikle nemli bölümlerde, operatörün vardiya boyunca sahada kalması güvenlik açısından tercih edilir. Kısa süreli tek noktalı işlerde ise operatör teslim sonrası ayrılıp, iş bitince tekrar gelerek makineyi toplayabilir; bu tercih iş süresine göre önceden konuşulur.",
+            },
+            {
+                baslik: "Karma bölüm geçişlerinde tek operatörle devamlılık",
+                metin:
+                    "Bir çalışma hem kuru salon hem nemli boyahane bölümünü kapsıyorsa, tek bir operatörlü makine ile iki bölümü de geçmek, ortadan operatör değiştirmekten daha pratiktir. Operatörümüz bölüm geçişinde ortam koşuluna göre hız ve manevrasını ayarlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölüme göre operatörlü/operatörsüz karşılaştırması",
+                paragraflar: [
+                    "Bozüyük'teki tekstil tesislerinin farklı bölümlerinde operatörlü ya da operatörsüz kararını aşağıdaki gibi veriyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Bölüm", "Önerilen seçenek", "Gerekçe", "Sertifika gereksinimi"],
+                    satirlar: [
+                        ["Boyahane/apre (nemli)", "Operatörlü", "Nem/buhar risk yönetimi", "Tesis personeli için de şart"],
+                        ["Kimyasal madde alanı", "Operatörlü", "Güvenlik prosedürü bilgisi", "Ek eğitim gerekebilir"],
+                        ["Dokuma salonu koridoru (kuru)", "Operatörsüz mümkün", "Düz zemin, düşük risk", "Standart sertifika yeterli"],
+                        ["İplik/kumaş deposu (kuru)", "Operatörsüz mümkün", "Düz zemin, düşük risk", "Standart sertifika yeterli"],
+                        ["Karma bölüm geçişi", "Operatörlü", "Tek operatörle devamlılık", "-"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörlü seçimin boyahanede önceliklendirilme nedeni",
+                paragraflar: [
+                    "Boyahane ve apre bölümlerinin ortam koşulu, standart bir sanayi salonundan farklıdır; nem, buhar ve zemin kayganlığı birlikte değerlendirilmesi gereken faktörlerdir. Deneyimsiz bir kullanıcının bu koşullarda hız veya manevra hatası yapma riski, kuru bir salona göre daha yüksektir. Operatörümüz bu ortamlara aşina olduğu için riski önceden öngörüp buna göre hareket eder.",
+                    "Ayrıca boyahanede kimyasal madde bulunması, operatörün sadece makine kullanımını değil, tesisin kimyasal güvenlik prosedürünü de bilmesini gerektirir. Bu bilgi genelde tesisten alınıp operatörümüze aktarılır.",
+                ],
+            },
+            {
+                baslik: "Operatörsüz kiralamada beklediğimiz koşullar",
+                paragraflar: [
+                    "Operatörsüz kiralama için personelinizin ilgili makine sınıfı için geçerli sertifikaya sahip olması ve çalışılacak alanın kuru, düz zeminli olması beklenir. İlk kullanımda kısa bir bilgilendirme (kontrol paneli, acil durdurma, hız sınırları) yaparız.",
+                    "Nemli veya kimyasal madde bulunan bir bölümde operatörsüz kiralama talep edilirse, önce riski birlikte değerlendiririz; koşullar uygun değilse operatörlü seçeneği öneririz, bu bir dayatma değil güvenlik değerlendirmesidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Boyahane bölümünde neden operatörsüz kiralama önermiyorsunuz?",
+                cevap:
+                    "Boyahane ve apre bölümlerinde nem, buhar ve zaman zaman kimyasal madde varlığı, deneyimsiz kullanımda hız ve manevra hatası riskini artırır. Operatörümüz bu koşullara aşina olduğu için riski önceden öngörür. Personeliniz bu ortamda deneyimliyse ve tesisin kimyasal güvenlik prosedürünü biliyorsa operatörsüz seçeneği yine de değerlendirebiliriz; kararı birlikte veririz.",
+            },
+            {
+                soru: "İplik deposunda kendi personelimiz kullanabilir mi?",
+                cevap:
+                    "Evet, iplik deposu genelde kuru ve düz zeminli olduğu için, sertifikalı personeliniz varsa operatörsüz kiralama pratik bir seçenektir. İlk kullanımda kontrol paneli ve güvenlik özellikleri hakkında kısa bir bilgilendirme yaparız.",
+            },
+            {
+                soru: "Aynı çalışma hem kuru salon hem nemli boyahane bölümünü kapsıyor, iki operatör mü gerekiyor?",
+                cevap:
+                    "Hayır, tek bir operatörlü makine ile iki bölümü de geçmek daha pratik. Operatörümüz bölüm geçişinde ortam koşuluna göre hız ve manevrasını kendisi ayarlar; bu, ortada operatör değiştirmekten daha az kesinti yaratır.",
+            },
+            {
+                soru: "Kimyasal madde alanında çalışırken operatörünüz ek önlem alıyor mu?",
+                cevap:
+                    "Evet, tesisin kimyasal güvenlik prosedürünü çalışma öncesi öğreniriz ve operatörümüz buna göre hareket eder; hangi alanların döküntü veya buhar riski taşıdığı önceden tesisten sorulur. Gerekirse tesisin kendi güvenlik ekibiyle koordineli çalışılır.",
+            },
+            {
+                soru: "Kısa süreli bir iş için operatörün tüm gün sahada kalması gerekiyor mu?",
+                cevap:
+                    "Hayır, kısa süreli tek noktalı işlerde operatör teslim sonrası ayrılıp iş bitince tekrar gelerek makineyi toplayabilir. Bu tercih iş süresine göre önceden konuşulur; nemli bölümlerde uzun süreli işlerde ise operatörün vardiya boyunca sahada kalması güvenlik açısından tercih edilir.",
+            },
+            {
+                soru: "Operatörsüz kiralama için personelimizde hangi belge aranıyor?",
+                cevap:
+                    "Kiralanan makine sınıfına uygun, geçerli bir operatör sertifikası beklenir. Bu belge olmadan operatörsüz kiralama yapılmaz. Belge mevcutsa ve çalışılacak alan kuru/düz zeminliyse operatörsüz seçenek uygulanır; nemli veya riskli alanlar için ayrıca değerlendirme yaparız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tekstil tesislerinde boyahane/apre bölümünün nem-buhar yoğunluğu ve dokuma/depo bölümlerinin kuru zemin özelliği sektör geneli bilgidir; operatörlü/operatörsüz kiralama kararı firma güvenlik pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bozüyük Tekstil OSB'sinde Çok Noktalı Rota Bakım Platformu Kiralama",
+        giris:
+            "Bilecik'in dokumacılık geleneği, günümüzde Bozüyük'teki organize sanayi bölgesinde kümelenen birden fazla tekstil ve dokuma tesisi olarak sürüyor; bu kümelenme, tek bir günde birden fazla tesise uğrayan bir bakım rotasını mantıklı kılıyor. Farklı tesislerin ihtiyacı da birbirinden farklı olabiliyor — biri dokuma salonu aydınlatma bakımı isterken diğeri depo raf üstü kontrolü, üçüncüsü boyahane çevresi bir işi bekliyor olabilir. Bu farklılık, tek bir makine sınıfının rotanın tamamına uymayabileceği anlamına gelir; bu yüzden rota planlanırken her durağın gerekli makine sınıfı, saha penceresi ve hazırlık durumu ayrı ayrı değerlendirilir. Bozüyük OSB'deki taleplerimizin bir kısmı bu şekilde, aynı güne toplanmış çok noktalı bir rota olarak yürüyor; bu hem işletmelerin yol payını paylaşmasını sağlıyor hem de bizim aynı bölgede günü daha verimli kullanmamızı mümkün kılıyor. Bu sayfa, Bozüyük OSB'de çok noktalı rota planlama yaklaşımımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Her durağın makine sınıfı uyumunun teyidi",
+                metin:
+                    "Bir tesisin dokuma salonu için sepetli örümcek platform gerekirken, komşu tesisin depo bakımı için standart akülü makaslı yeterli olabilir. Rotaya eklenecek her durak için gerekli sınıf, ana programdaki makinelerle uyumlu olmalıdır; uymuyorsa durak ayrı bir sevkiyata alınır, coğrafi yakınlık tek başına yeterli sayılmaz.",
+            },
+            {
+                baslik: "Saha penceresi ve hazırlık durumu",
+                metin:
+                    "Her tesisin bakım için ayırdığı zaman penceresi farklıdır; biri vardiya arasını, diğeri hafta sonu tam gün penceresini tercih edebilir. Rota, bu pencerelerin çakışmayacağı ya da yol süresiyle uyumlu olacağı şekilde sıralanır. Hazırlık (erişim izni, saha temizliği) tamamlanmamış bir durak, rotanın diğer duraklarını geciktirmemesi için sona alınabilir.",
+            },
+            {
+                baslik: "OSB içi kısa mesafeli geçişler",
+                metin:
+                    "Tesisler arası mesafenin kısa olması, makineyi kendi hızıyla değil taşıma aracıyla geçirmeyi genelde daha hızlı kılar; ancak bazı komşu tesislerde makinenin kendi tekerlek/palet sistemiyle kısa mesafede yürütülmesi de değerlendirilir. Karar, güzergahtaki trafik ve yol koşuluna göre verilir.",
+            },
+            {
+                baslik: "Ortak rota sorumluluklarının netleştirilmesi",
+                metin:
+                    "Çok noktalı rotada her durağın kendi teslim tutanağı, kendi hedef listesi ve kendi saha sorumlusu vardır; bir tesisin gecikmesi diğerinin sorumluluğuna yansıtılmaz. Rota planı, her durağın bağımsız değerlendirildiğini işletmelere önceden açıkça belirtir.",
+            },
+            {
+                baslik: "Rota değişikliğinin şeffaf iletişimi",
+                metin:
+                    "Hava koşulu, önceki durağın uzaması veya bir tesisin hazır olmaması rotanın sırasını değiştirebilir. Bu değişiklik mümkün olan en erken anda ilgili işletmelere iletilir; makine bir tesise ulaştıktan sonra habersiz beklemez, yeni tarih ve saat açıkça paylaşılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB içi çok noktalı rotada tesis tipine göre örnek eşleştirme",
+                paragraflar: [
+                    "Bozüyük OSB'deki tekstil tesislerinin farklı bölüm ihtiyaçlarına göre rota içinde nasıl eşleştirme yaptığımızı aşağıdaki gibi özetliyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis bölümü", "Tipik ihtiyaç", "Önerilen sınıf", "Rota uyumu"],
+                    satirlar: [
+                        ["Dokuma salonu", "Tezgah sırası aydınlatma/tesisat", "Sepetli örümcek platform", "Ayrı sınıf, ayrı blok gerekebilir"],
+                        ["İplik/kumaş deposu", "Raf üstü aydınlatma/sensör", "Akülü makaslı platform", "Ana rotaya uyumlu"],
+                        ["Boyahane/apre çevresi", "Nemli ortam bakımı", "Operatörlü platform", "Ayrı değerlendirme gerekir"],
+                        ["Hammadde deposu", "Yüksek istif üstü erişim", "Eklemli/teleskopik platform", "Ayrı sınıf, ayrı blok gerekebilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rotaya ekleme kararını nasıl veriyoruz",
+                paragraflar: [
+                    "Bir tesisin talebi ana rotaya ancak gerekli sınıf zaten programdaysa, saha penceresi rota sırasıyla uyuyorsa ve hazırlık tamamlanmışsa eklenir. Coğrafi yakınlık tek başına yeterli değildir; farklı sınıf gerektiren bir talep, ek sevkiyat avantajını ortadan kaldırabilir. Bu durumda talep sahibine ayrı blok seçeneği açıkça anlatılır.",
+                    "OSB'deki tesislerin çoğu benzer bölüm yapısına sahip olsa da (dokuma salonu, depo, boyahane) her tesisin bakım önceliği farklı olabilir; bu yüzden eşleştirme her seferinde güncel taleple yeniden yapılır, geçmiş rota otomatik tekrarlanmaz.",
+                ],
+            },
+            {
+                baslik: "Kısa blokta kapsamı dondurmak",
+                paragraflar: [
+                    "Rotadaki her durak için iş listesi ziyaretten önce dondurulur; gerekli alet ve malzeme hazırdır, tesis yetkilisi çalışma başlangıcında sahada olur. Yeni bir kalem, mevcut hücre ve sınıfla uyumluysa sorumlu onayıyla eklenebilir, aksi durumda açık listeye alınır.",
+                    "Bu disiplin, kısa pencereyi aceleye dönüştürmez; enerji kontrolü, bariyer ve teknik teslim adımları tam uygulanır. Kapanış kaydı bir sonraki ziyaret için referans oluşturur, ancak saha koşulları değişebileceği için önceki plan otomatik garanti sayılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'deki komşu tesise de aynı gün uğrayabilir misiniz?",
+                cevap:
+                    "Genellikle evet, ama gerekli makine sınıfı ana rotadaki ile uyumlu olmalı ve saha penceresi çakışmamalı. Komşu tesisin talebi farklı sınıf gerektiriyorsa (örneğin dokuma salonu için örümcek platform, komşu için standart makaslı yetiyorsa) ikisi de rotaya sığabilir; aynı sınıf gerekiyorsa sıralama kolaylaşır. Kesin cevap için her iki tesisin ihtiyacını netleştirmemiz gerekir.",
+            },
+            {
+                soru: "Bizim tesisimiz boyahane bölümü, rotaya otomatik girer mi?",
+                cevap:
+                    "Boyahane bölümü nem ve güvenlik nedeniyle genelde operatörlü ve ayrı bir değerlendirme gerektirdiği için, kuru bölüm bakımlarının olduğu bir rotaya otomatik eklenmeyebilir. Talebinizi aldığımızda gerekli sınıf ve operatör ihtiyacını değerlendirir, uygun bir rotaya ya da ayrı bloğa yerleştiririz.",
+            },
+            {
+                soru: "Rota sırası bize göre değişebilir mi, yoksa sabit mi?",
+                cevap:
+                    "Hava koşulu, önceki durağın uzaması veya bir tesisin hazır olmaması rotanın sırasını değiştirebilir. Bu değişikliği mümkün olan en erken anda size iletiriz; makine sahaya ulaştıktan sonra habersiz beklemez. Esneklik, sizi habersiz bırakmak değil, gerçek saha durumuna göre görünür güncelleme yapmaktır.",
+            },
+            {
+                soru: "Bizim hazırlığımız gecikirse rotadaki diğer tesisleri etkiler mi?",
+                cevap:
+                    "Hazırlık tamamlanmıyorsa durağınız rota sırasında sona alınabilir veya yeni tarihe kaydırılabilir; bu, diğer tesislerin bekletilmesini önlemek için yapılır. Her durağın kendi sorumluluğu ayrıdır, bir tesisin gecikmesi diğerinin planına yansıtılmaz.",
+            },
+            {
+                soru: "Aynı ziyarette hem depo hem dokuma salonumuza bakabilir misiniz?",
+                cevap:
+                    "İkisinin gerekli sınıfı uyumluysa evet, tek ziyarette iki bölüme de bakılabilir. Ancak dokuma salonu genelde farklı bir sınıf (sepetli örümcek platform) gerektirdiği için, depo bakımıyla aynı makineyle yapılamayabilir; bu durumda iki bölüm ayrı makinelerle ama aynı gün planlanır.",
+            },
+            {
+                soru: "İşimiz pencereye sığmazsa yarım mı bırakılır?",
+                cevap:
+                    "Öncelikli ve güvenle tamamlanabilecek hedefler teslim alınır; kalan kalemler nedenleriyle açık listeye yazılır. Pencere aşımı rotadaki diğer durakları etkiliyorsa otomatik uzatma yapılmaz; yeni sürenin mümkün olup olmadığı sizinle birlikte değerlendirilir. Yetişmek için güvenlik adımları atlanmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük'te tekstil/dokuma tesislerinin organize sanayi bölgesinde kümelenmesi genel sektörel bilgidir; çok noktalı rota planlama, sınıf uyumu ve durak sıralaması firma planlama pratiğidir. Belirli tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bozüyük'te Yeni Tekstil Tesisi İnşaat Sahasında Zor Zemin / Arazi Platform Kiralama",
+        giris:
+            "Bozüyük'teki tekstil tesislerinin bir kısmı, mevcut üretim alanına ek bina yaparak ya da OSB içinde yeni bir arsa üzerine kurularak büyür; bu genişleme sürecinin ilk aylarında saha, henüz sıkıştırılmış toprak, kısmi dolgu veya toz-çamur karışımı gibi düzensiz bir zemin durumundadır. Standart bir platformun dört ayağı ya da tekerleği bu tip düzensiz zeminde eşit taşıma bulamayabilir; bu da hem makine dengesi hem operatör güvenliği açısından risk oluşturur. Bozüyük'teki yeni tesis inşaat sahalarından gelen taleplerimizde bu nedenle önce zeminin o anki durumu (sıkıştırma seviyesi, nem, dolgu varlığı) değerlendirilir, ardından geniş tabanlı, dört tekerlek tahrikli ya da paletli bir model önerilir. Bu sayfa, Bozüyük'te yeni tekstil tesisi inşaat sahasında zor zemin koşullarında platform kullanımını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Sıkıştırılmamış dolgu üzerinde ayak taşıması",
+                metin:
+                    "İnşaat sahasının zemini henüz nihai sıkıştırmayı görmemişse, standart bir platformun destek ayağı bu zeminde batabilir veya eğik oturabilir. Zeminin sıkıştırma seviyesi önceden sorulur; belirsizse geniş taban plakası ile ek destek kullanılır.",
+            },
+            {
+                baslik: "Yağış sonrası çamurlaşan geçici yol",
+                metin:
+                    "İnşaat sahasına giden geçici yol, yağış sonrası çamurlaşabilir; bu durumda tekerlekli bir platform yerine paletli ya da dört tekerlek tahrikli model tercih edilir. Son yağıştan bu yana geçen süre ve yolun görünür durumu çalışma öncesi değerlendirilir.",
+            },
+            {
+                baslik: "Düzensiz eğim ve kot farkı",
+                metin:
+                    "Yeni saha genelde tesviye edilmemiş olduğu için farklı noktalarda kot farkı bulunabilir. Bağımsız ayak açma kabiliyeti olan modeller bu farkı telafi edebilir; fark üreticinin belirttiği sınırın üzerindeyse geçiş noktası değiştirilir veya geçici dolgu önerilir.",
+            },
+            {
+                baslik: "İnşaat malzemesi ve ekipman yoğunluğu arasında manevra",
+                metin:
+                    "Saha üzerinde inşaat malzemesi yığınları, diğer ekipmanlar ve geçici depolar bulunabilir; bu, platformun güzergahını daraltır. Çalışma öncesi güzergah üzerindeki engeller fotoğrafla teyit edilir, gerekiyorsa geçici olarak kaldırılması istenir.",
+            },
+            {
+                baslik: "Zemin durumunun zamanla değişmesi",
+                metin:
+                    "İnşaat ilerledikçe zemin (dolgu tamamlanması, beton dökümü) değişir; bu yüzden bir hafta önce uygun olan model bir sonraki hafta farklı olabilir. Her ziyaret öncesi zemin durumu yeniden teyit edilir, geçmiş ziyarete göre otomatik model tekrarlanmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre platform sınıfı karşılaştırması",
+                paragraflar: [
+                    "İnşaat sahasındaki zemin durumuna göre hangi platform sınıfının uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Önerilen sınıf", "Kritik nokta", "Ek destek ihtiyacı"],
+                    satirlar: [
+                        ["Sıkıştırılmamış dolgu", "Geniş taban plakalı model", "Ayak batma riski", "Takoz/plaka önerilir"],
+                        ["Yağış sonrası çamur", "Paletli veya dört tekerlek tahrikli", "Tutunma kaybı", "Genelde gerekmez"],
+                        ["Düzensiz kot farkı", "Bağımsız ayaklı model", "Denge kaybı", "Eğim sınırı kontrolü"],
+                        ["Sıkıştırılmış/beton döşeli", "Standart tekerlekli model", "Düşük risk", "Gerekmez"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden zemin değerlendirmesi her ziyarette tekrarlanıyor",
+                paragraflar: [
+                    "İnşaat sahaları statik değildir; dolgu tamamlanır, beton dökülür, geçici yollar değişir. Bir ay önce paletli model gerektiren bir alan, beton döküldükten sonra standart tekerlekli modele geçebilir. Bu yüzden zemin değerlendirmesini her ziyaret öncesi güncel fotoğraf veya sahadan gelen bilgiyle tekrar yaparız; eski değerlendirmeye göre model göndermeyiz.",
+                    "Bu yaklaşım, yanlış modelin sahaya gönderilip geri döndürülmesini önler — inşaat sahasında bu tip bir geri dönüş, düzenli bir salondakinden daha fazla zaman ve manevra kaybına yol açar.",
+                ],
+            },
+            {
+                baslik: "Teslimat öncesi netleştirdiğimiz bilgiler",
+                paragraflar: [
+                    "Doğru modeli önerebilmek için zeminin güncel durumunu (sıkıştırma, nem, dolgu), hedefin sahadaki konumunu ve güzergah üzerindeki engelleri önceden bilmemiz gerekiyor. Bu bilgiler güncel fotoğrafla paylaşıldığında uygun modeli aynı gün belirleyebiliyoruz.",
+                    "Zemin durumu hızlı değişiyorsa (örneğin yağış beklentisi varsa), çalışma tarihine yakın bir teyit isteriz; günler öncesinden verilen bir zemin bilgisi çalışma gününde geçerliliğini yitirmiş olabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sahamız henüz tesviye edilmedi, platform buraya girebilir mi?",
+                cevap:
+                    "Zeminin sıkıştırma seviyesine bağlı; tamamen gevşek toprak üzerinde standart bir platform güvenli çalışamaz. Zemin durumunu önceden sorar, gerekirse geniş taban plakalı model ve ek destek kullanırız. Zemin çok riskliyse önce kısmi sıkıştırma veya geçici plaka döşeme önerilir.",
+            },
+            {
+                soru: "Yağış sonrası saha çamurlaşıyor, çalışma iptal mi olur?",
+                cevap:
+                    "Mutlaka iptal olmaz; paletli veya dört tekerlek tahrikli model çamurlu zeminde daha güvenli çalışabilir. Son yağıştan bu yana geçen süreyi ve zeminin görünür durumunu çalışma öncesi sorarız; çok riskli görünüyorsa çalışma birkaç gün ertelenip zeminin kurumasını bekleriz.",
+            },
+            {
+                soru: "Saha üzerinde kot farkları var, makine dengesini kaybeder mi?",
+                cevap:
+                    "Bağımsız ayak açma kabiliyeti olan modeller belirli bir kot farkına kadar dengeyi korur; ancak üreticinin belirttiği azami eğim sınırı vardır. Kot farkını ölçüp bu sınırla karşılaştırırız; sınırın üzerindeyse geçici dolgu ya da alternatif erişim noktası birlikte değerlendirilir.",
+            },
+            {
+                soru: "İnşaat malzemeleri sahayı dolduruyor, platform manevra alanı bulabilir mi?",
+                cevap:
+                    "Güzergah üzerindeki malzeme yığınlarını ve diğer ekipmanları çalışma öncesi fotoğrafla teyit ederiz; dar bir güzergah varsa geçici olarak kaldırılmasını isteriz. Güzergah netleşmeden sahaya makine göndermeyiz, bu gereksiz manevra kaybını önler.",
+            },
+            {
+                soru: "Geçen ay gönderdiğiniz model bu ay da uygun mu?",
+                cevap:
+                    "Otomatik olarak değil; inşaat sahaları hızla değişir, bir aylık sürede dolgu tamamlanmış ya da beton dökülmüş olabilir. Her ziyaret öncesi zemin durumunu güncel fotoğrafla yeniden teyit ederiz ve modeli buna göre güncelleriz.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyorsunuz, yoksa şantiye personelimiz mi kullanabilir?",
+                cevap:
+                    "İnşaat sahasının değişken zemin koşulu nedeniyle operatörlü seçeneği öncelikli öneriyoruz; operatörümüz zemin durumuna göre günlük hız ve manevra kararı verir. Sertifikalı şantiye personeliniz varsa operatörsüz kiralama da mümkündür, bu durumda zemin bilgisi önceden aktarılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yeni tekstil tesisi/ek bina inşaat sahalarının henüz tesviye edilmemiş zemin özelliği inşaat sektörü genel bilgisidir; zemin değerlendirmesinin ziyaretten ziyarete güncellenmesi firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
 };

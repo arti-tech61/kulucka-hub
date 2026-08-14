@@ -909,4 +909,1082 @@ export const BOZUYUKMANLIFT_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Osmaneli OSB’nin TEM aksındaki depo ve lojistik bağlamı uygulama belgesindeki kamuya açık genel bilgidir; taşıyıcı kabulü, bakım slotu, kapı cephesi ve çıkış senkronu sektör geneli saha pratiğidir. Parseller arası tur veya yalnız koridor-makaslı anlatısı tekrarlanmamış; özel tesis, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bozüyük Otomotiv Yan Sanayi Hatlarında Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Bozüyük'te Bosch'un burada bir üretim tesisi bulunduğu kamuya açık bilgidir ve bu tesisin çevresinde yıllar içinde bir tedarikçi ağı oluşmuştur — enjeksiyon kalıp atölyeleri, elektronik parça montaj hatları ve hat üstü test-kalite kontrol istasyonları üreten firmalar bu ağın bir parçasıdır. Otomotiv parça üretim hatlarının en belirgin özelliği, alanın robot kolları, konveyör köprüleri ve test istasyonları arasında paylaşılmış olmasıdır; bir bakım noktasına ulaşmak için genellikle iki robot hücresi arasından ya da bir konveyör altından geçmek gerekir. Sepetli örümcek platform, paletli hareket sistemi ve ayrı ayrı açılabilen ayaklarıyla tam bu tip dar aralıklara giriyor; gövde genişliği bir robot hücresinin bakım kapısından geçebiliyor, ayaklar hattın kenarındaki düz olmayan zeminde bile denge kurabiliyor. Bozüyük'teki otomotiv yan sanayi tesislerinde aldığımız taleplerin çoğu bu nedenle hat üstü aydınlatma değişimi, konveyör köprüsü bakımı ya da robot hücresi çevresindeki kablo tavası kontrolü gibi işlerden geliyor; makinenin kompakt olması, hattı durdurmadan ya da en az durdurarak işi bitirmeyi mümkün kılıyor.",
+        maddeler: [
+            {
+                baslik: "Robot hücreleri arasındaki dar aralıklarda erişim",
+                metin:
+                    "Otomotiv parça üretim hatlarında robot kolları genellikle art arda dizilir ve aralarındaki servis koridoru, bir bakım aracının rahatça sığması için tasarlanmamıştır. Sepetli örümcek platform, paletli tabanı ve dar gövdesiyle bu koridorlardan geçebiliyor; ayaklar açılırken komşu hücrenin güvenlik bariyerine temas etmeyecek şekilde konumlandırılıyor. Hücre içine girmeden önce ilgili robotun güvenlik moduna alınmış olması standart ön koşulumuz; enerjili bir hücrenin içinde sepetten çalışılmaz.",
+            },
+            {
+                baslik: "Konveyör köprüsü ve üst kot bakımı",
+                metin:
+                    "Parça taşıma konveyörleri, hattın üzerinden köprü şeklinde geçtiği noktalarda zemin seviyesinden erişilemeyecek yükseklikte kalır. Bu köprülerin ray, motor ve sensör bakımı için platform, konveyörün altındaki dar boşluğa paletli tabanla girip sepeti üst kottaki bakım noktasına yaklaştırıyor. Konveyör çalışır durumdayken bu bölgede iş yapılmaz; hat durdurulup kilitlendikten sonra çalışmaya başlanır.",
+            },
+            {
+                baslik: "Hat üstü test ve kalite kontrol istasyonu aydınlatması",
+                metin:
+                    "Hat üstü test ve kalite kontrol istasyonlarında parça yüzeyinin doğru değerlendirilebilmesi için aydınlatmanın belirli bir açı ve şiddette olması gerekir; bu armatürler genellikle istasyonun hemen üzerinde, dar bir alanda konumlanır. Armatür değişimi ya da açı ayarı için sepetli örümcek platform, istasyonun yanındaki dar aralığa girip sepeti doğrudan armatür hizasına getiriyor; geniş şaseli bir makine bu aralığa sığmadığı için bu işler daha önce erişim sorunu yaşatıyordu.",
+            },
+            {
+                baslik: "Enjeksiyon kalıp atölyelerinde tavan vinç rayı kontrolü",
+                metin:
+                    "Enjeksiyon kalıp üreten atölyelerde kalıpların taşınması için tavan vinç sistemleri kullanılır ve bu sistemlerin ray, halat ve fren mekanizması periyodik kontrol ister. Atölye içindeki pres tezgâhları arasındaki dar geçitlerden sepetli örümcek platformla ray hizasına ulaşılıyor; presler çalışır durumdayken ray üzerinde iş yapılmaz, kontrol öncesi ilgili pres hattının o bölümü durdurulur.",
+            },
+            {
+                baslik: "Elektronik parça montaj hattında statik hassasiyet",
+                metin:
+                    "Elektronik parça montajı yapılan hatlarda ortamın statik elektrik ve toz kontrolü hassastır; platform bu alana girmeden önce tesisin ESD (elektrostatik boşalma) kurallarına uygun önlem alınıp alınmayacağı sorulur. Gerekli görülürse tekerlek ve gövde temizliği yapılır, sepete girecek personel tesisin öngördüğü koruyucu ekipmanı kullanır. Bu tip hatlarda iş süresi, tesisin kendi temizlik ve giriş prosedürüne göre uzayabilir; bu süre teklife dahil edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Otomotiv yan sanayi hattında sık erişim noktaları",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv parça tedarikçilerinde sepetli örümcek platformla en sık ulaştığımız noktaları ve bu noktalardaki tipik kısıtı aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Tipik kısıt", "Ön koşul", "Makine yaklaşımı"],
+                    satirlar: [
+                        ["Robot hücresi arası koridor", "Dar geçit, güvenlik bariyeri", "Hücre güvenlik modunda", "Paletli, dar gövde"],
+                        ["Konveyör köprüsü altı", "Düşük tavan boşluğu", "Hat durdurulmuş", "Kompakt ayak açıklığı"],
+                        ["Test/kalite istasyonu üstü", "Hassas açı ayarı", "İstasyon boşta", "Hassas konumlandırma"],
+                        ["Kalıp atölyesi vinç rayı", "Pres tezgâhları arası dar geçit", "Pres hattı durdurulmuş", "Paletli, düşük profil"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bosch tedarik ağının Bozüyük'teki genel çerçevesi",
+                paragraflar: [
+                    "Bosch'un Bozüyük'te bir üretim tesisi bulunduğu kamuya açık bir bilgidir ve büyük otomotiv üreticilerinin çevresinde zamanla bir tedarikçi kümesi oluşması, sektörün genel bir yerleşim eğilimidir. Bu kümede yer alan firmalar genellikle enjeksiyon kalıp, elektronik parça ya da hat üstü test-kalite kontrol ekipmanı üretir ve bu üretim hatlarının fiziksel düzeni birbirine benzer bir sıkışıklık taşır: robot, konveyör ve test istasyonu aynı hacmi paylaşır.",
+                    "Biz bu ağdaki tesislere hizmet verirken iç detaylara ya da kapasiteye dair bilgi paylaşmayız, çünkü bu bilgiler bize ait değildir ve doğrulanabilir bir kaynağımız yoktur; anlattığımız yalnızca kendi saha tecrübemiz ve genel olarak bu tip hatlarda karşılaştığımız erişim zorluklarıdır.",
+                ],
+            },
+            {
+                baslik: "Hattı durdurmadan çalışma planlaması",
+                paragraflar: [
+                    "Otomotiv parça üretim hatlarında planlı duruş genellikle sınırlı bir pencerede tutulur ve bu pencere dışında hattı durdurmak üretim kaybına yol açar. Bu yüzden bir bakım işine başlamadan önce tesisin planlı duruş takvimini sorar, işimizi bu pencereye sığdırmaya çalışırız; sığmayan işler için hattın hangi bölümünün ne kadar süreyle durdurulabileceği önceden netleştirilir.",
+                    "Bazı işler hat tamamen durmadan, yalnızca ilgili hücrenin güvenlik moduna alınmasıyla yapılabilir; bu, komşu hücrelerin üretime devam etmesini sağlar. Hangi yöntemin uygun olduğuna, işin niteliği ve tesisin güvenlik prosedürüne göre birlikte karar veririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Robot hücresi çevresinde çalışırken güvenlik sorumluluğu kimde olur?",
+                cevap:
+                    "Robot hücresinin enerji kesme, kilitleme ve güvenlik moduna alma işlemi tesisin kendi elektrik-otomasyon ekibinin sorumluluğundadır; biz bu işlem tamamlanmadan hücre içine ya da yakınına girmeyiz. Platform operatörümüz, hücrenin güvenli moda alındığını tesisin yetkilisinden yazılı ya da sözlü teyit almadan çalışmaya başlamaz. Kendi tarafımızda ise sepet içi çalışma güvenliği (kemer, ayak sabitleme, alan işaretleme) bizim sorumluluğumuzdadır. İki taraf da kendi alanından sorumlu olur, iş bu ayrımla ilerler.",
+            },
+            {
+                soru: "Konveyör köprüsü altındaki boşluk çok düşükse platform sığar mı?",
+                cevap:
+                    "Sepetli örümcek platformun taşınabilir gövde yüksekliği düşüktür ve çoğu konveyör köprüsü altına sığar, ama her tesisin köprü yüksekliği farklıdır. Kesin sığma durumu için keşif sırasında boşluk ölçülür; ölçü net değilse önceden fotoğraf ya da video istenir. Sığmayan durumlarda alternatif olarak köprünün yan tarafından erişim değerlendirilir ya da makine daha düşük profilli bir modelle değiştirilir.",
+            },
+            {
+                soru: "Elektronik parça montaj hattına girerken özel bir izin gerekiyor mu?",
+                cevap:
+                    "Çoğu elektronik montaj hattı, statik elektrik ve kontaminasyon riskine karşı kendi giriş prosedürünü uygular; bu prosedür tesisten tesise değişir. Biz keşif aşamasında bu prosedürü sorar, gerekiyorsa koruyucu giysi, ayakkabı kaplaması ya da özel temizlik uygularız. Bu hazırlık süresi iş süresine dahil edilir ve teklife yansıtılır; sürpriz bir gecikme yaşanmaması için bu adım atlanmaz.",
+            },
+            {
+                soru: "Hattı hiç durdurmadan bakım yapabilir misiniz?",
+                cevap:
+                    "Bazı işlerde mümkündür — özellikle işlenen bölüm komşu hücrelerden bağımsızsa, yalnızca o hücre güvenlik moduna alınarak diğer hücreler üretime devam edebilir. Ancak konveyör köprüsü gibi tüm hattı besleyen bir bileşende çalışılıyorsa, o segmentin durdurulması kaçınılmaz olur. Hangi senaryonun geçerli olduğunu tesisin üretim ve otomasyon ekibiyle birlikte değerlendirir, mümkün olan en dar duruşu hedefleriz.",
+            },
+            {
+                soru: "Bosch'un tesisine ya da tedarikçilerine doğrudan hizmet veriyor musunuz?",
+                cevap:
+                    "Bozüyük'te Bosch'un bir üretim tesisi bulunduğu kamuya açık bilgidir ve bu tesisin çevresinde oluşan tedarikçi ağındaki firmalara platform kiralama hizmeti veriyoruz. Ancak büyük OEM tesislerinin kendi tedarikçi ve yüklenici onay süreçleri olabilir; bu süreç varsa gerekli belge ve prosedürleri tamamlarız. Tesis içi kapasite, departman ya da üretim detaylarına dair bilgimiz yoktur ve bu tip bilgileri paylaşmayız; anlatabileceğimiz yalnızca kendi saha hizmetimizdir.",
+            },
+            {
+                soru: "Pres tezgâhları arasındaki dar geçitte makine hasar verir mi?",
+                cevap:
+                    "Paletli tabanın zemine bindirdiği basınç, tekerlekli sistemlere göre daha düşük ve daha yayılı olduğu için hassas zeminlerde hasar riski azalır, ama yine de sıfır değildir. Dar geçitte ilerlerken operatörümüz hızı düşürür, komşu tezgâhlarla mesafeyi sürekli kontrol eder ve gerekirse bir yardımcı personel yönlendirme yapar. Zemin özellikle hassas bir kaplamaya sahipse (örneğin özel epoksi), önceden tesisten bilgi alınır ve gerekirse koruyucu örtü kullanılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve bu tür OEM tesislerinin çevresinde tedarikçi ağı oluşması sektörün genel bir eğilimi olduğu kamuya açık genel bilgidir; robot hücresi, konveyör köprüsü ve test istasyonu erişim pratiği firma saha tecrübesidir. Tesis içi kapasite, departman adı ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bozüyük Otomotiv Tedarikçi Ağına Platform ve Forklift Nakliye-Teslimat Hizmeti",
+        giris:
+            "Bozüyük'te Bosch'un bir üretim tesisi bulunduğu kamuya açık bilgidir ve bu tesisin çevresinde büyüyen tedarikçi ağı, standart bir sanayi bölgesinden farklı bir teslimat düzeni gerektiriyor: birçok otomotiv yan sanayi tesisi, ziyaretçi ve yüklenici araçları için kendi güvenlik ve kayıt prosedürünü uyguluyor, bazılarında araç plakası ve sürücü kimliği önceden bildirilmek zorunda kalıyor, bazılarında ise yükleme rampası belirli saatlerde başka araçlarla paylaşılıyor. Bu ortamda bir platform ya da forkliftin doğru zamanda, doğru kapıdan ve tesisin prosedürüne uygun biçimde teslim edilmesi, işin başlangıcını doğrudan etkiliyor — kapıda beklenmeyen bir evrak eksikliği, planlanan bakım penceresinin bir bölümünü tüketebiliyor. Bizim yaklaşımımız, teslimat öncesi tesisin giriş prosedürünü netleştirmek, sürücü ve araç bilgisini önceden iletmek ve mümkünse teslimatı tesisin en az yoğun olduğu saate denk getirmektir. Bu sayfada Bozüyük'teki otomotiv yan sanayi tesislerine nakliye-teslimat hizmetimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Tesis güvenlik prosedürüne önceden uyum",
+                metin:
+                    "Otomotiv yan sanayi tesislerinin çoğu, OEM standartlarına yakın bir güvenlik kültürü uygular; araç plakası, sürücü kimliği ve bazen yük listesi önceden bildirilmek zorunda kalınabilir. Teslimat öncesi tesisin bu gereksinimlerini sorar, gerekli bilgileri sürücümüze önceden iletiriz. Bu adım atlandığında kapıda yaşanan gecikme, planlanan iş penceresinin bir kısmını tüketebiliyor; bu yüzden bu bilgiyi teklif aşamasında topluyoruz.",
+            },
+            {
+                baslik: "Yükleme rampası paylaşımı ve saat koordinasyonu",
+                metin:
+                    "Birçok tedarikçi tesisinde yükleme rampası, gelen hammadde ve giden mamul araçlarıyla paylaşılır ve bu trafiğin en yoğun olduğu saatlerde ek bir aracın (platform taşıyıcısı gibi) rampaya alınması zorlaşabilir. Teslimat saatini tesisin lojistik ekibiyle önceden netleştirir, mümkünse trafiğin göreli sakin olduğu bir dilime denk getiririz. Bu koordinasyon, hem bizim hem tesisin operasyonunu aksatmaz.",
+            },
+            {
+                baslik: "Hat içi teslim gereken durumlarda ek koordinasyon",
+                metin:
+                    "Bazı işlerde platform, dış rampadan değil doğrudan üretim hattının bulunduğu iç alana teslim edilmek zorundadır; bu durumda tesisin iç trafik kuralları, forklift geçiş güzergâhı ve varsa taşıma yüksekliği kısıtı önceden öğrenilir. İç alana giriş genellikle ayrı bir refakat ya da rehberlik gerektirir; bu ihtiyaç varsa teslimat planına dahil edilir.",
+            },
+            {
+                baslik: "Birden fazla tedarikçiye aynı gün teslimat",
+                metin:
+                    "Bozüyük'teki tedarikçi ağının coğrafi yakınlığı, aynı gün içinde birden fazla tesise art arda teslimat yapmamıza imkân veriyor. Bu durumda her tesisin kendi kapı prosedürü ve saat kısıtı ayrı ayrı planlanır; bir tesiste yaşanan beklenmedik bir gecikme, sonraki teslimatı geciktirmesin diye rota planına tampon süre eklenir.",
+            },
+            {
+                baslik: "Geri alım ve iş bitiminde teslim teyidi",
+                metin:
+                    "İş tamamlandığında makinenin tesisten geri alınması da aynı özenle planlanır; makinenin durumu, varsa hasar ya da eksik parça, teslim tutanağına tesisin yetkilisiyle birlikte yazılır. Bu kayıt, hem bizim hem tesisin ileride ortaya çıkabilecek bir anlaşmazlıkta referans aldığı belgedir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslimat türüne göre tipik gereksinim",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv yan sanayi tesislerine yaptığımız teslimat türlerini ve bu türlerde tipik olarak karşılaştığımız gereksinimleri aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Teslimat türü", "Tipik gereksinim", "Zaman kısıtı", "Koordinasyon"],
+                    satirlar: [
+                        ["Dış rampa teslimi", "Plaka/kimlik ön bildirim", "Rampa paylaşım saatleri", "Lojistik ekibiyle"],
+                        ["Hat içi iç alan teslimi", "Refakat, geçiş yüksekliği", "Vardiya boşluğu", "Otomasyon/üretim ekibiyle"],
+                        ["Aynı gün çoklu tesis", "Sıra ve tampon süre", "Her tesise özel", "Rota planıyla"],
+                        ["İş bitiminde geri alım", "Durum tutanağı", "İş tamamlanınca", "Tesis yetkilisiyle"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv tedarik zincirinde zamanında teslimin önemi",
+                paragraflar: [
+                    "Otomotiv üretim zincirinde zamanlama hassasiyeti, tedarikçi tesislerine de yansır; bir bakım ya da montaj işinin planlanan pencereden taşması, o tesisin kendi teslim taahhüdünü etkileyebilir. Bu yüzden platform ya da forkliftin işe başlama saatinde sahada hazır olması, sıradan bir sanayi tesisine göre daha kritik bir gerekliliktir.",
+                    "Biz teslimat saatini bir tahmin olarak değil bir taahhüt olarak ele alırız; trafik, hava koşulu ya da araç arızası gibi olası gecikme risklerini önceden değerlendirir, gerekirse yedek araç ya da alternatif güzergâh planlarız.",
+                ],
+            },
+            {
+                baslik: "Yeni tedarikçi tesisleriyle ilk teslimat deneyimi",
+                paragraflar: [
+                    "Bölgeye yeni yerleşen ya da bizimle ilk kez çalışan bir tedarikçi tesisiyle ilk teslimat, genellikle karşılıklı öğrenme sürecidir; tesisin kapı prosedürünü, biz de tesisin saha düzenini ilk seferde tam bilmeyebiliriz. Bu yüzden ilk teslimatı, mümkünse standart bir iş gününün en sakin saatine planlar, sürücümüze ekstra zaman payı tanırız.",
+                    "İlk teslimatta edinilen bilgiyi (kapı prosedürü, iç güzergâh, yetkili kişi) kayıt altına alır, sonraki teslimatlarda bu bilgiyi tekrar sormadan kullanırız; bu, tesisle olan ilişkiyi zamanla hızlandırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisin kapı güvenliği plaka ve kimlik istiyor, bu bilgiyi ne zaman iletmeliyiz?",
+                cevap:
+                    "Bu bilgiyi teklif ya da sözleşme aşamasında bizden isteyin; sürücü ve araç bilgisini kendi tarafımızdan tesise iletiriz ya da sizin iletmeniz gerekiyorsa bilgiyi size zamanında göndeririz. Bazı tesislerde bu bildirim 24-48 saat önceden yapılmak zorundadır; bu süreyi bilmiyorsanız keşif görüşmesinde birlikte netleştiririz. Son dakika bir teslimat planlanıyorsa, bu kısıtın aşılıp aşılamayacağını tesisle birlikte kontrol ederiz.",
+            },
+            {
+                soru: "Yükleme rampamız gün boyu dolu, ne zaman teslimat yapabilirsiniz?",
+                cevap:
+                    "Rampanızın en az yoğun olduğu saat dilimini sorar, teslimatı o dilime göre planlarız. Genellikle vardiya başı ve öğle arası gibi geçiş saatleri daha yoğun olur; bu saatlerin dışında bir pencere varsa onu tercih ederiz. Rampa gerçekten tüm gün doluysa, iç alana alternatif bir giriş noktası olup olmadığını birlikte değerlendiririz.",
+            },
+            {
+                soru: "Makine doğrudan üretim hattının içine mi teslim edilecek?",
+                cevap:
+                    "Bazı işlerde evet, çünkü çalışma noktası dış rampadan uzak bir iç bölümde olabilir. Bu durumda tesisin iç trafik kuralları, geçiş yüksekliği ve varsa refakat gerekliliği önceden öğrenilir; bu bilgi olmadan içeri giriş yapılmaz. İç teslim genellikle dış rampaya göre daha fazla koordinasyon ister, bu yüzden bu tip işlerde teslimat saatini biraz daha erken planlarız.",
+            },
+            {
+                soru: "Aynı gün birden fazla tedarikçi tesisine teslimat yapabilir misiniz?",
+                cevap:
+                    "Yapabiliriz, bölgedeki tedarikçi tesislerinin coğrafi yakınlığı buna imkân veriyor. Her tesisin kendi kapı prosedürü ve saat kısıtı ayrı ayrı planlanır, aralarına tampon süre eklenir ki bir tesisteki gecikme diğerini etkilemesin. Talebiniz varsa, komşu tesislerle aynı gün planlama yapıp yapamayacağımızı önceden değerlendiririz.",
+            },
+            {
+                soru: "Bosch'un tedarikçisiyiz, tesisimize teslimat yapabilir misiniz?",
+                cevap:
+                    "Evet, Bozüyük'teki otomotiv yan sanayi tesislerine düzenli teslimat yapıyoruz. Bosch'un burada bir üretim tesisi bulunduğu kamuya açık bir bilgi; bu tesisin çevresindeki tedarikçi ağına dair iç detaylara ya da başka firmaların bilgisine erişimimiz yoktur, sizinle çalışırken yalnızca kendi tesisinizin prosedürüne göre planlama yaparız. Tesisinizin özel bir yüklenici onay süreci varsa, bu süreci teslimattan önce tamamlarız.",
+            },
+            {
+                soru: "Makine iş bitince nasıl geri alınıyor, bir hasar kaydı tutuluyor mu?",
+                cevap:
+                    "Evet, iş tamamlandığında makinenin durumu tesisin yetkilisiyle birlikte gözden geçirilir ve varsa hasar, eksik parça ya da kirlenme bir tutanağa yazılır. Bu tutanak hem bizim hem sizin ileride referans alacağınız belgedir. Geri alım saati de teslimat gibi önceden planlanır; tesisin kapı ve rampa müsaitliğine göre en uygun saat birlikte belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve otomotiv OEM tesislerinin genellikle sıkı kapı/güvenlik prosedürü uyguladığı kamuya açık genel bilgidir; teslimat koordinasyon pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bozüyük Otomotiv Parça Depolarında Forklift ile İstifleme Kiralama",
+        giris:
+            "Bozüyük'teki otomotiv yan sanayi tesislerinin depo düzeni, çoğu zaman standart bir lojistik depodan farklı bir istifleme mantığı gerektiriyor: gelen hammadde (çelik sac, plastik granül, elektronik bileşen) büyük paletlerde depolanırken, giden mamul parçalar küçük, çok sayıda ve sık rotasyonlu kutu ya da sepetlerde tutulabiliyor. Bosch'un burada bir üretim tesisi bulunduğu kamuya açık bilgidir ve bu tür büyük OEM tesislerine tedarik yapan firmalar, genellikle tam zamanında (JIT'e yakın) teslimat baskısı altında çalışır; bu da parça deposunun sık, küçük hacimli ama zamanlaması sıkı forklift hareketi gerektirdiği anlamına gelir. Bizim buradaki yaklaşımımız, tesisin depo düzenine (raf yüksekliği, koridor genişliği, palet tipi) uygun forklift sınıfını seçmek ve özellikle sevkiyat öncesi yoğun saatlerde ek kapasite sağlamaktır. Bu sayfada Bozüyük'teki otomotiv parça depolarında forklift istifleme hizmetimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Hammadde ve mamul parça için farklı istifleme düzeni",
+                metin:
+                    "Gelen hammadde genellikle büyük ve ağır paletlerde, çıkan mamul parça ise küçük ve çok sayıda kutuda depolanır; bu iki akış farklı forklift kullanım biçimi ister. Hammadde tarafında daha yüksek kaldırma kapasiteli, mamul tarafında ise daha hızlı manevra kabiliyetine sahip bir forklift tercih edilir. Tesisin hangi bölümünde hangi akışın baskın olduğunu keşifte belirler, buna göre makine önerisi yaparız.",
+            },
+            {
+                baslik: "Dar koridorlu yüksek raf sistemlerinde manevra",
+                metin:
+                    "Parça çeşidinin fazla olduğu depolarda raf sayısı artırılırken koridor genişliği genellikle daraltılır; bu, standart forkliftlerin dönüş yarıçapıyla uyuşmayabilir. Böyle depolarda dar koridor forklifti (reach truck tipi) öneriyoruz; bu tip makineler koridor içinde dönmeden, yanal hareketle raf önüne yanaşabiliyor. Koridor genişliği ve raf yüksekliği keşifte ölçülür, buna uygun sınıf belirlenir.",
+            },
+            {
+                baslik: "Sevkiyat öncesi yoğun saatlerde ek kapasite",
+                metin:
+                    "Tam zamanında teslimat baskısı altında çalışan tedarikçi tesislerinde, sevkiyat aracının kalkış saatine yakın dönemde forklift trafiği aniden yoğunlaşabilir. Bu dönemlerde tesisin kendi forklift filosu yetersiz kalırsa, kısa süreli ek forklift ve operatör desteği sağlıyoruz; bu destek genellikle birkaç saatlik bir pencereye planlanır, sevkiyat tamamlanınca sonlandırılır.",
+            },
+            {
+                baslik: "Elektronik parça kutularının hassas taşınması",
+                metin:
+                    "Elektronik bileşen içeren kutular, sarsıntıya ve statik elektriğe karşı hassas olabilir; bu tip yüklerde forklift operatörü daha yavaş hız ve daha kontrollü kaldırma-indirme hareketi uygular. Tesisin ESD ya da darbe hassasiyeti kuralları varsa keşifte sorulur, operatörümüz bu kurala göre çalışır.",
+            },
+            {
+                baslik: "Vardiya değişiminde forklift devir teslimi",
+                metin:
+                    "Çok vardiyalı çalışan tedarikçi tesislerinde forklift, vardiya değişiminde bir operatörden diğerine devredilir; bu devirde makinenin durumu (yakıt/şarj, hasar, bakım ihtiyacı) kısaca kontrol edilir ve kayıt altına alınır. Uzun süreli kiralamalarda bu devir düzenini tesisin kendi vardiya programına göre kurarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo bölümüne göre forklift yaklaşımı",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv parça depolarında bölüme göre uyguladığımız forklift yaklaşımını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Depo bölümü", "Tipik yük", "Koridor/raf durumu", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Hammadde deposu", "Büyük ağır palet", "Geniş koridor", "Yüksek kapasiteli standart forklift"],
+                        ["Mamul parça deposu", "Küçük çok sayıda kutu", "Dar koridor, yüksek raf", "Dar koridor / reach truck"],
+                        ["Sevkiyat öncesi alan", "Karma yük, hızlı rotasyon", "Değişken yoğunluk", "Ek kapasite, kısa süreli"],
+                        ["Elektronik parça bölümü", "Hassas, ESD riskli kutu", "Değişken", "Yavaş, kontrollü operatör"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tam zamanında teslimat baskısının depo işleyişine etkisi",
+                paragraflar: [
+                    "Büyük bir OEM tesisine tedarik yapan firmalar için teslim saatine uyum, ticari ilişkinin sürekliliğini doğrudan etkileyen bir kriterdir; bu baskı, tedarikçinin kendi deposundaki forklift kapasitesini de zorlar, çünkü sevkiyat aracının kalkış saatine yakın dönemde çok sayıda kutu kısa sürede araca yüklenmek zorundadır.",
+                    "Bu dönemlerde tesisin kendi forkliftleri yetmezse, bizim sağladığımız kısa süreli ek kapasite, sevkiyatın zamanında tamamlanmasına yardımcı olur; bu desteği düzenli bir ihtiyaç olarak değil, ihtiyaç duyulan güne özel bir hizmet olarak sunuyoruz.",
+                ],
+            },
+            {
+                baslik: "Forklift operatörünün tesise özel eğitimi",
+                paragraflar: [
+                    "Her tedarikçi tesisinin kendi yerleşim düzeni, raf kodlama sistemi ve güvenlik kuralı farklıdır; bir forklift operatörünün tesise ilk gelişinde bu düzeni tanıması zaman alır. Uzun süreli kiralamalarda aynı operatörü sabit tutmayı öneriyoruz, çünkü tesis düzenine aşina bir operatör hem daha hızlı hem daha güvenli çalışır.",
+                    "Kısa süreli ek kapasite taleplerinde ise operatörümüze tesise girmeden önce temel bir bilgilendirme (raf düzeni, kritik geçiş noktaları, güvenlik kuralı) yapılmasını tesisten talep ederiz; bu bilgilendirme genellikle on-on beş dakika sürer ama sonraki hataları azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dar koridorlu deponuza standart forklift sığar mı?",
+                cevap:
+                    "Standart forkliftlerin dönüş yarıçapı, dar koridorlu yüksek raf sistemlerine genellikle uymaz. Bu tür depolarda dar koridor forklifti (reach truck tipi) öneriyoruz; bu makineler koridor içinde dönmeden yanal hareketle rafa yanaşabiliyor. Koridor genişliğinizi ve raf yüksekliğinizi keşifte ölçer, size uygun sınıfı netleştiririz.",
+            },
+            {
+                soru: "Sevkiyat saatine yakın ani forklift ihtiyacımız oluyor, kısa süreli destek verebilir misiniz?",
+                cevap:
+                    "Evet, sevkiyat öncesi yoğun saatlere özel kısa süreli ek forklift ve operatör desteği sağlıyoruz. Bu desteği genellikle birkaç saatlik bir pencereye planlarız; talebinizi mümkünse bir gün önceden iletirseniz, doğru sınıf ve operatörü hazır bulundururuz. Aynı gün taleplerde de elimizden geleni yaparız ama müsaitlik garanti edilemez.",
+            },
+            {
+                soru: "Elektronik parça kutularımız hassas, forklift operatörü buna dikkat ediyor mu?",
+                cevap:
+                    "Evet, hassas yük taşırken operatörümüz daha yavaş hız ve kontrollü kaldırma-indirme uygular. Tesisinizin ESD ya da darbe hassasiyeti kuralı varsa keşifte bunu bize iletin, operatörümüz bu kurala göre çalışır. Özellikle statik elektrik hassasiyeti olan alanlarda, gerekirse forkliftin tekerlek ve gövde temizliğini de önceden yaparız.",
+            },
+            {
+                soru: "Çok vardiyalı çalışıyoruz, forklift her vardiyada aynı operatörle mi geliyor?",
+                cevap:
+                    "Uzun süreli kiralamalarda mümkün olduğunca aynı operatörü sabit tutmayı tercih ederiz, çünkü tesis düzenine aşina bir operatör daha hızlı ve güvenli çalışır. Operatör değişikliği gerektiğinde vardiya devrinde makinenin durumu ve varsa açık işler kısaca kayıt altına alınır, yeni operatöre aktarılır.",
+            },
+            {
+                soru: "Bosch'a tedarik yapan bir firmayız, deponuzdan forklift kiralarken özel bir süreç var mı?",
+                cevap:
+                    "Standart kiralama sürecimiz sizin tesisinize de uygulanır; tek fark, tam zamanında teslimat baskısı olan tesislerde sevkiyat öncesi yoğun saatlerin daha dikkatli planlanmasıdır. Bosch'un Bozüyük'te bir tesisi bulunduğu kamuya açık bilgi olsa da, sizin tesisinizin iç detaylarına ya da diğer tedarikçilerin bilgisine erişimimiz yoktur; sizinle yalnızca kendi deponuzun düzenine göre çalışırız.",
+            },
+            {
+                soru: "Forklift kiralarken operatörü siz mi sağlıyorsunuz, biz mi?",
+                cevap:
+                    "İkisi de mümkün. Tesisinizin kendi sertifikalı operatörü varsa operatörsüz kiralama, yoksa ya da ek kapasiteye ihtiyacınız varsa operatörlü kiralama sunuyoruz. Operatörsüz kiralamada sertifikanın makine sınıfına uygunluğunu teslim öncesi kontrol ederiz; uygun değilse operatörlü seçeneğe geçilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve otomotiv tedarik zincirinde tam zamanında teslimat baskısının genel bir sektör pratiği olduğu kamuya açık genel bilgidir; depo istifleme yaklaşımı firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bozüyük'te Otomotiv Yan Sanayi Hat Genişletmede Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Otomotiv yan sanayi tesislerinde üretim hacmi arttıkça, mevcut hat genellikle yeni bir bölümle genişletilir — ek bir robot hücresi, yeni bir konveyör kolu ya da ek bir test istasyonu mevcut hattın yanına eklenir. Bu genişletme çalışması, tavan yüksekliğinde kablo tavası, aydınlatma ve HVAC kanalı taşıma gibi işleri de beraberinde getirir ve bu işler genellikle mevcut hattın bir kısmı çalışır durumdayken yürütülür. Eklemli platform (boom), hem yatayda hem düşeyde erişim sağlayan kollu yapısıyla bu tip karma işlere uyuyor; bom, mevcut ekipmanın üzerinden aşarak sepeti hedef noktaya yaklaştırabiliyor, bu da yeni bölümle eski hat arasında fiziksel bir engel olduğunda önemli bir avantaj sağlıyor. Bozüyük'teki otomotiv yan sanayi tesislerinde aldığımız boom taleplerinin çoğu bu tip hat genişletme projelerinden, yani mevcut üretimi aksatmadan yeni bölümü tavan altyapısına bağlama işinden geliyor.",
+        maddeler: [
+            {
+                baslik: "Mevcut hattın üzerinden aşarak yeni bölüme erişim",
+                metin:
+                    "Yeni eklenen bir hat bölümü, çoğu zaman mevcut hattın hemen yanında ama aralarında konveyör ya da güvenlik bariyeri gibi bir engel bulunur. Eklemli platformun bom yapısı, bu engelin üzerinden aşarak sepeti hedef noktaya yaklaştırabiliyor; bu, mevcut hattı durdurmadan ya da yalnızca kısa süreliğine durdurarak çalışmayı mümkün kılıyor. Bom hareketinin güzergâhı, mevcut ekipmana temas etmeyecek şekilde önceden planlanır.",
+            },
+            {
+                baslik: "Kablo tavası ve aydınlatma taşıma bağlantısı",
+                metin:
+                    "Yeni hat bölümünün elektrik ve aydınlatma altyapısı, genellikle mevcut hattın tavan kablo tavasına bağlanır; bu bağlantı işi tavan boyunca ilerleyen bir çalışma gerektirir. Boom, sepeti tavan hizasında yatay olarak kaydırarak bu tip uzun mesafeli tavan işlerinde tek konumdan geniş bir alanı kapsayabiliyor; bu, sık sık makineyi yeniden konumlandırmaktan daha verimli oluyor.",
+            },
+            {
+                baslik: "HVAC kanalı ve havalandırma taşıma",
+                metin:
+                    "Yeni hat bölümüne havalandırma sağlanırken mevcut HVAC kanalından bir kol ayrılıp yeni bölüme taşınır; bu kanal montajı genellikle tavan altında, kablo tavasıyla aynı yükseklikte ilerler. Kanal parçalarının ağırlığı sepetten kaldırılabilecek sınırın üzerindeyse, ayrı bir vinç ya da yardımcı ekipmanla birlikte çalışılır; bu ihtiyaç önceden değerlendirilir.",
+            },
+            {
+                baslik: "Kısmi hat duruşunda çalışma penceresi",
+                metin:
+                    "Genişletme çalışması sırasında mevcut hattın bir kısmı üretime devam ederken, yeni bölümün bağlandığı sınır hattı genellikle kısa süreli durdurulur. Bu duruş penceresi tesisin üretim planına göre belirlenir ve genellikle dar tutulur; biz bu pencereye sığacak şekilde işi fazlara ayırır, önceliği sınır hattındaki kritik bağlantılara veririz.",
+            },
+            {
+                baslik: "Yeni bölümün devreye alma öncesi son kontrolü",
+                metin:
+                    "Yeni hat bölümü tamamlandığında, tavan altyapısının (aydınlatma, kablo tavası, HVAC) doğru çalıştığı devreye alma öncesi son kez kontrol edilir. Bu kontrol genellikle tesisin otomasyon ve tesis yönetimi ekibiyle birlikte yapılır; eksik ya da hatalı bir bağlantı bu aşamada düzeltilir, devreye alma sonrasına bırakılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hat genişletme aşamalarına göre boom kullanımı",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv yan sanayi hat genişletme projelerinde aşamalara göre boom kullanımını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Tipik iş", "Hat durumu", "Boom yaklaşımı"],
+                    satirlar: [
+                        ["Tavan altyapı bağlantısı", "Kablo tavası, aydınlatma", "Mevcut hat kısmen çalışır", "Bom ile üzerinden aşma"],
+                        ["HVAC kanal taşıma", "Kanal montajı", "Genellikle durdurulmuş", "Yatay uzun erişim"],
+                        ["Sınır hattı bağlantısı", "Kritik elektrik bağlantısı", "Kısa süreli tam duruş", "Dar pencerede öncelikli iş"],
+                        ["Devreye alma öncesi kontrol", "Son kontrol, düzeltme", "Test modunda", "Nokta erişim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv tedarikçilerinde hat genişletmenin sık nedeni",
+                paragraflar: [
+                    "Otomotiv üretim hacmindeki dalgalanmalar, tedarikçi tesislerinin kendi hat kapasitesini zaman zaman genişletmesine yol açar; bu genişletme, yeni bir müşteri projesi ya da mevcut bir parçanın hacim artışı gibi nedenlerle tetiklenebilir. Bozüyük'teki otomotiv yan sanayi tesislerinde bu genişletme genellikle mevcut hat yanına ek bir bölüm eklenmesi şeklinde ilerler, tesisin tamamen yeniden kurulması nadirdir.",
+                    "Bu tip kademeli genişletmelerde mevcut üretimin aksamaması önceliklidir; bizim rolümüz, yeni bölümün tavan altyapısını mevcut hattı en az etkileyecek şekilde bağlamaktır.",
+                ],
+            },
+            {
+                baslik: "Boom ile sepetli örümcek platform arasında seçim",
+                paragraflar: [
+                    "Hat genişletme işlerinde bazen boom yerine sepetli örümcek platform da düşünülebilir; seçim, erişilecek noktanın konumuna ve aradaki engelin türüne bağlıdır. Engel düşükse ve zemin dar geçitlerden oluşuyorsa örümcek platform, engel yüksekse ve üzerinden aşmak gerekiyorsa boom daha uygun olur.",
+                    "Bazı projelerde ikisi birlikte kullanılır — örümcek platform dar geçitlerdeki noktalara, boom ise geniş açıklıklı tavan işlerine ayrılır. Hangi kombinasyonun uygun olduğunu keşifte birlikte belirleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni hat bölümü ile mevcut hat arasında konveyör var, boom bunun üzerinden geçebilir mi?",
+                cevap:
+                    "Genellikle evet, bomun kolu bu tip engellerin üzerinden aşarak sepeti hedef noktaya yaklaştırabiliyor. Ancak konveyörün yüksekliği ve boom'un erişim mesafesi keşifte ölçülür, güzergâh mevcut ekipmana temas etmeyecek şekilde önceden planlanır. Konveyör çalışır durumdaysa, üzerinden geçiş sırasında ek güvenlik önlemi (durdurma, işaretleme) uygulanır.",
+            },
+            {
+                soru: "HVAC kanalını taşırken ağırlık sepetten kaldırılabilir mi?",
+                cevap:
+                    "Kanal parçasının ağırlığına bağlı; hafif parçalar sepetten doğrudan taşınabilir, ağır parçalar için ayrı bir vinç ya da yardımcı kaldırma ekipmanı gerekir. Bu ihtiyacı keşifte kanal parçalarının ağırlığına göre değerlendiririz; sınırın üzerindeyse boom yalnızca montaj noktasına erişim sağlar, kaldırma işini ayrı ekipman üstlenir.",
+            },
+            {
+                soru: "Sınır hattı ne kadar süre durdurulmak zorunda kalır?",
+                cevap:
+                    "Bu, bağlantının niteliğine ve tesisin üretim planına göre değişir; genellikle dar bir pencerede tutulmaya çalışılır. Biz işi fazlara ayırıp önceliği kritik bağlantılara vererek bu pencereyi mümkün olduğunca kısaltmaya çalışırız. Kesin süre için işin kapsamını görüp tesisin üretim ekibiyle birlikte bir takvim çıkarırız.",
+            },
+            {
+                soru: "Devreye alma öncesi kontrolde bir eksik çıkarsa ne oluyor?",
+                cevap:
+                    "Eksik ya da hatalı bir bağlantı bu aşamada tespit edilirse, devreye almadan önce düzeltilir; sorunu devreye alma sonrasına bırakmayız çünkü üretim başladıktan sonra tavan altyapısına müdahale etmek daha zor ve maliyetli olur. Kontrol genellikle tesisin otomasyon ve tesis yönetimi ekibiyle birlikte yapılır, bulgular ortak bir listede tutulur.",
+            },
+            {
+                soru: "Boom mu, sepetli örümcek platform mu bize daha uygun, nasıl karar veriyorsunuz?",
+                cevap:
+                    "Karar, erişilecek noktanın konumuna ve aradaki engelin türüne göre verilir. Engel yüksekse ve üzerinden aşmak gerekiyorsa boom, zemin dar geçitlerden oluşuyorsa örümcek platform daha uygun olur. Keşif sırasında sahayı birlikte gezip hangi noktada hangi makinenin gerektiğini netleştiririz; bazı projelerde ikisi birlikte kullanılır.",
+            },
+            {
+                soru: "Bosch'un tedarikçisi olarak hat genişletme projemizde referans alabileceğimiz bir örnek var mı?",
+                cevap:
+                    "Bosch'un Bozüyük'te bir tesisi bulunduğu kamuya açık bir bilgi olsa da, o tesisin ya da başka firmaların iç projelerine dair bilgimiz yoktur ve bu tip bilgileri paylaşamayız. Ancak genel olarak otomotiv yan sanayi tesislerinde hat genişletme projelerinde izlediğimiz yöntemi (fazlı çalışma, dar duruş penceresi, devreye alma öncesi kontrol) sizinle paylaşabilir, kendi projenize nasıl uyarlanacağını birlikte planlayabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve otomotiv tedarikçi tesislerinde hat genişletmenin sektör geneli bir uygulama olduğu kamuya açık genel bilgidir; boom kullanım pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bozüyük Otomotiv Parça Depolarında İç Mekân Platform Kiralama",
+        giris:
+            "Otomotiv yan sanayi tesislerinin parça depoları, üretim hattından farklı bir yükseklik ve düzen mantığı taşır: raf sistemleri genellikle sıkça değişen parça çeşitliliğine göre yeniden düzenlenir, üst kot aydınlatma ve yangın algılama sistemleri raf gruplarının arasından geçer, bazı depolarda ise elektronik bileşenlerin nem ve statik kontrolü için ayrı bir bölüm bulunur. Bu tip depolarda platforma en sık ihtiyaç duyduğumuz işler, üst raf grubu değişikliği sırasında raf üstü aydınlatma ya da sensör taşınması, yeni bir raf hattı eklenirken tavan bağlantısı ve periyodik yangın algılama-sprinkler kontrolüdür. Bozüyük'teki otomotiv parça depolarında iç mekân platform kiralarken önceliğimiz, raf aralarındaki dar koridora sığan kompakt bir makine seçmek ve depo trafiğini (forklift, personel) aksatmadan çalışmaktır. Bu sayfada bu hizmetimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Raf grubu değişikliğinde üst kot işleri",
+                metin:
+                    "Parça çeşitliliği değiştikçe raf grupları zaman zaman yeniden düzenlenir; bu düzenleme sırasında raf üstündeki aydınlatma armatürü ya da sensörün de yeni konuma taşınması gerekebilir. Bu işler için dar koridora sığan kompakt bir platform kullanıyoruz; makinenin raf koridorunda forklift trafiğiyle çakışmaması için çalışma saatleri depo yönetimiyle önceden koordine edilir.",
+            },
+            {
+                baslik: "Yeni raf hattı eklenirken tavan bağlantısı",
+                metin:
+                    "Depo kapasitesi artırılırken yeni bir raf hattı eklendiğinde, bu hattın üstündeki aydınlatma ve varsa sprinkler hattının mevcut tavan altyapısına bağlanması gerekir. Bu bağlantı, yeni hattın kurulumu tamamlandıktan ama parça yerleştirilmeden önceki dönemde yapılır; bu dönem, platform için en rahat erişim penceresidir çünkü raf henüz boştur.",
+            },
+            {
+                baslik: "Yangın algılama ve sprinkler periyodik kontrolü",
+                metin:
+                    "Parça depolarında yangın algılama ve sprinkler sistemi, raf gruplarının arasından geçtiği için düzenli kontrolü raf düzenine göre planlanmalıdır; dolu bir raf grubunun üstüne erişim, boş bir gruba göre daha dikkatli manevra ister. Kontrol öncesi hangi raf gruplarının dolu olduğu depo yönetiminden öğrenilir, güzergâh buna göre kurulur.",
+            },
+            {
+                baslik: "Elektronik bileşen bölümünde nem ve statik kontrolü",
+                metin:
+                    "Bazı depolarda elektronik bileşenler ayrı, nem ve statik kontrollü bir bölümde tutulur; bu bölümde çalışırken platform ve operatör tesisin ESD kurallarına uygun hazırlık yapar. Bölümün nem ve sıcaklık sınırları aşılmayacak şekilde kapı açık kalma süresi de sınırlı tutulur; bu süre önceden depo yönetimiyle netleştirilir.",
+            },
+            {
+                baslik: "Depo trafiğiyle çakışmayı önleme",
+                metin:
+                    "Parça depoları genellikle sürekli forklift ve personel trafiğine sahiptir; platform çalışması bu trafiği kesmeden ilerlemelidir. Çalışma alanı geçici olarak işaretlenir, forklift güzergâhı varsa alternatif bir yol gösterilir. Mümkünse çalışma, depo trafiğinin görece azaldığı saatlere planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo bölümüne göre platform ihtiyacı",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv parça depolarında bölüme göre platform ihtiyacını ve yaklaşımımızı aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Depo bölümü", "Tipik iş", "Kısıt", "Zaman penceresi"],
+                    satirlar: [
+                        ["Mevcut raf grubu", "Aydınlatma/sensör taşıma", "Forklift trafiği", "Trafiğin azaldığı saat"],
+                        ["Yeni raf hattı", "Tavan bağlantısı", "Raf henüz boş", "Kurulum sonrası, dolum öncesi"],
+                        ["Genel depo", "Yangın algılama/sprinkler kontrolü", "Dolu raf grupları", "Raf durumuna göre güzergâh"],
+                        ["Elektronik bileşen bölümü", "ESD hassas erişim", "Nem/sıcaklık sınırı", "Kapı açık kalma süresi sınırlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv parça deposunda sık raf değişimi",
+                paragraflar: [
+                    "Otomotiv tedarikçi tesislerinde parça çeşitliliği, müşteri projelerine bağlı olarak zamanla değişir; bu değişim, deponun raf düzeninin de zaman zaman yeniden kurgulanmasını gerektirir. Bozüyük'teki tesislerde bu düzenleme, standart bir lojistik depoya göre daha sık yaşanan bir ihtiyaç olarak karşımıza çıkıyor.",
+                    "Bu sıklık, bizim açımızdan depo platform hizmetini tek seferlik değil dönemsel bir ihtiyaç olarak ele almamızı gerektiriyor; bazı tesislerle yıl içinde birkaç kez tekrarlayan bir çalışma ilişkisi kuruyoruz.",
+                ],
+            },
+            {
+                baslik: "Depo yönetimiyle önceden koordinasyon",
+                paragraflar: [
+                    "Depo içi bir platform çalışmasına başlamadan önce depo yönetimiyle üç konuyu netleştiririz: hangi raf gruplarının o gün dolu olduğu, forklift trafiğinin en az olduğu saat dilimi ve varsa nem/statik hassasiyeti olan bölümlerin sınırları.",
+                    "Bu üç bilgi netleştiğinde çalışma güzergâhı ve zamanlaması önceden kurulur, sahada sürpriz bir çakışma yaşanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Raf koridorumuz dar, standart bir platform sığar mı?",
+                cevap:
+                    "Çoğu parça deposunun raf koridoru, kompakt gövdeli bir iç mekân platformuna göre tasarlanmamış olsa da, dar gövdeli modeller genellikle sığıyor. Koridor genişliğini keşifte ölçer, size uygun sınıfı öneririz. Çok dar koridorlarda gerekirse daha küçük bir makax tipi platform tercih edilir.",
+            },
+            {
+                soru: "Çalışma sırasında forklift trafiğimiz durmak zorunda mı?",
+                cevap:
+                    "Tamamen durmasına gerek yok; çalışma alanını geçici olarak işaretler, forklift için alternatif bir güzergâh gösteririz. Mümkünse çalışmayı trafiğin göreli azaldığı saatlere planlarız. Koridor çok darsa ve alternatif güzergâh yoksa, o koridordaki forklift trafiği çalışma süresince kısa bir süreliğine durdurulabilir; bu, önceden depo yönetimiyle netleştirilir.",
+            },
+            {
+                soru: "Elektronik bileşen bölümüne girerken özel bir hazırlık gerekiyor mu?",
+                cevap:
+                    "Bu bölümlerde genellikle nem ve statik elektrik kontrolü uygulanır; platform ve operatör tesisin ESD kurallarına göre hazırlanır, kapı açık kalma süresi sınırlı tutulur. Bu kuralları keşifte sorar, çalışma planını buna göre kısaltır ya da fazlara ayırırız.",
+            },
+            {
+                soru: "Yeni raf hattı eklerken tavan bağlantısını ne zaman yapmalıyız?",
+                cevap:
+                    "En rahat zamanlama, yeni hattın fiziksel kurulumu tamamlandıktan ama parça yerleştirilmeden önceki dönemdir; bu dönemde raf boş olduğu için erişim en kolay olur. Parça yerleştirildikten sonra aynı işi yapmak, hem daha yavaş hem daha dikkat gerektiren bir çalışma hâline gelir.",
+            },
+            {
+                soru: "Yangın algılama kontrolü sırasında dolu raf gruplarına nasıl erişiyorsunuz?",
+                cevap:
+                    "Dolu bir raf grubunun üstüne erişirken daha dikkatli manevra ve daha yavaş hız uygularız; hangi grupların dolu olduğunu kontrol öncesi depo yönetiminden öğrenir, güzergâhı buna göre kurarız. Raf içeriğine temas riski varsa, o noktada alternatif bir yaklaşım açısı denenir.",
+            },
+            {
+                soru: "Depomuz sık sık yeniden düzenleniyor, sizinle düzenli bir çalışma ilişkisi kurabilir miyiz?",
+                cevap:
+                    "Evet, otomotiv parça depolarında bu tip sık raf değişimi yaygın bir ihtiyaç; bazı tesislerle yıl içinde birkaç kez tekrarlayan bir çalışma ilişkisi kuruyoruz. Bu ilişkide her seferinde sıfırdan başlamak yerine deponun genel düzenini ve önceki çalışmalardan edindiğimiz bilgiyi kayıt altında tutar, sonraki taleplerde daha hızlı yanıt veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otomotiv yan sanayi tesislerinde parça çeşitliliğinin sık değiştiği ve buna bağlı raf düzenlemesi yapıldığı sektör geneli kamuya açık genel bilgidir; depo içi platform çalışma pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bozüyük Otomotiv Yan Sanayi Tesislerinde Çelik Konstrüksiyon Montaj Platformu Kiralama",
+        giris:
+            "Bozüyük'teki otomotiv yan sanayi tesislerinde hat genişletme ya da yeni bir bölüm eklenmesi kararı verildiğinde, işin fiziksel başlangıç noktası genellikle çelik konstrüksiyon montajıdır — yeni hol iskeleti, ara kat platformu ya da mevcut hole eklenen bir çelik köprü. Bu montaj, sahada henüz üretim ekipmanı kurulmadan, çıplak çelik gövde üzerinde ilerler; bu da erişim koşullarını üretim hattı içindeki çalışmadan farklı kılar — sabit raf ya da makine engeli yoktur ama zemin genellikle düzensiz, malzeme istifi sahaya dağılmış ve iskele kurulumu henüz tamamlanmamış olabilir. Bu aşamada eklemli platform ya da makaslı platform, kaynak, cıvatalama ve boya işlerinde iskele kurmadan hızlı erişim sağlıyor. Bozüyük'teki otomotiv yan sanayi genişleme projelerinde çelik konstrüksiyon montaj platformu hizmetimizi bu sayfada anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Çelik gövde üzerinde kaynak ve cıvatalama erişimi",
+                metin:
+                    "Yeni bir çelik hol iskeleti kurulurken kolon-kiriş birleşim noktalarında kaynak ya da yüksek mukavemetli cıvata montajı yapılır; bu noktalar genellikle 6-12 metre aralığında farklı yüksekliklerde dağılır. Platform, her birleşim noktasına sırayla yaklaşarak kaynakçı ya da montaj ekibine sabit bir çalışma platformu sağlıyor; kaynak işlerinde sepette yanıcı malzeme bulundurulmaz, kaynak kıvılcımı riski göz önünde tutularak konumlandırma yapılır.",
+            },
+            {
+                baslik: "Ara kat platformu montajı",
+                metin:
+                    "Bazı hol genişletmelerinde üretim hattının üzerine bir ara kat (mezanin) platformu eklenir; bu platformun taşıyıcı kirişleri ve döşeme montajı, alttaki zemin henüz tamamlanmamışken yapılabilir. Bu durumda platform, düzensiz ya da kısmen tamamlanmış zeminde çalışmak zorunda kalır; zemin durumu her çalışma öncesi kontrol edilir, riskli görülen bölümlerde geçici takviye istenir.",
+            },
+            {
+                baslik: "Malzeme istifinin sahada bıraktığı dar geçitler",
+                metin:
+                    "İnşaat aşamasındaki bir çelik konstrüksiyon sahasında profil, sac ve bağlantı elemanı istifleri geçici olarak sahaya dağılmış olabilir; bu istifler platformun güzergâhını daraltır. Çalışma öncesi saha turu yapılır, güzergâh güncel istif durumuna göre belirlenir; istif her ziyarette değişebileceği için sabit bir güzergâh varsayılmaz.",
+            },
+            {
+                baslik: "Boya ve kaplama işlerinde uzun süreli sabit konum",
+                metin:
+                    "Çelik gövdenin korozyon koruması için boya ya da kaplama işi, kaynak ve cıvatalamadan sonra gelir ve genellikle geniş bir yüzeyde uzun süre aynı bölgede kalmayı gerektirir. Bu işlerde platform, boyacının belirli bir yüzey bölümünü bitirene kadar sabit kalır, sonra bir sonraki bölüme kayar; boya buharının biriktiği kapalı alanlarda havalandırma durumu ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "İskele ile platform arasında seçim",
+                metin:
+                    "Kısa süreli ve noktasal işlerde platform, sabit iskeleye göre kurulum süresi gerektirmediği için daha hızlı bir çözüm sunar; ancak aynı bölgede uzun süreli ve çok kişili bir ekip çalışacaksa sabit iskele daha ekonomik olabilir. Hangi yöntemin uygun olduğuna işin süresi ve ekip büyüklüğüne göre birlikte karar veririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon montaj aşamalarına göre platform kullanımı",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv yan sanayi çelik konstrüksiyon projelerinde aşamalara göre platform kullanımını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Tipik iş", "Zemin/saha durumu", "Platform yaklaşımı"],
+                    satirlar: [
+                        ["Gövde montajı", "Kaynak, cıvatalama", "Çıplak çelik, düzensiz zemin", "Nokta erişim, sık konum değişimi"],
+                        ["Ara kat platformu", "Kiriş/döşeme montajı", "Kısmen tamamlanmış zemin", "Dikkatli konumlandırma"],
+                        ["Malzeme istifi dönemi", "Genel montaj", "Dar geçitler", "Güncel güzergâh, saha turu"],
+                        ["Boya/kaplama", "Yüzey işlemi", "Tamamlanmış gövde", "Uzun süreli sabit konum"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv tesislerinde genişleme projelerinin çelik aşaması",
+                paragraflar: [
+                    "Otomotiv yan sanayi tesislerinde hat genişletme kararı verildiğinde, projenin ilk fiziksel adımı genellikle çelik konstrüksiyon montajıdır; bu aşama, sonraki elektrik, mekanik ve ekipman kurulumunun üzerine oturacağı iskeleti oluşturur. Bozüyük'teki tesislerde bu aşama, üretim henüz başlamadığı için çalışma saatleri konusunda üretim hattı içi işlere göre daha esnek olabiliyor.",
+                    "Bu esneklik, bizim açımızdan çalışma programını tesisin genel inşaat takvimine göre kurmamızı kolaylaştırıyor; asıl kısıt, malzeme sevkiyatı ve diğer yüklenicilerin (kaynakçı, elektrikçi) sahadaki eş zamanlı çalışmasıdır.",
+                ],
+            },
+            {
+                baslik: "Diğer yüklenicilerle saha koordinasyonu",
+                paragraflar: [
+                    "Çelik konstrüksiyon sahasında genellikle birden fazla yüklenici (çelik montaj, kaynak, boya, elektrik) aynı anda çalışır; platformun güzergâhı bu yüklenicilerin çalışma alanlarıyla çakışmamalıdır. Çalışmaya başlamadan önce sahadaki diğer ekiplerin o günkü konumu öğrenilir, güzergâh buna göre planlanır.",
+                    "Kaynak işleri sürüyorsa, platform kaynak kıvılcımı menzilinin dışında tutulur ya da kaynak işi geçici olarak durdurulur. Bu koordinasyonu genellikle sahadaki genel yüklenici ya da proje sorumlusuyla birlikte kurarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sahada henüz zemin tamamlanmamış, platform bu koşulda çalışabilir mi?",
+                cevap:
+                    "Kısmen tamamlanmış ya da düzensiz zeminde çalışma mümkün olabilir, ama önce zeminin taşıma kapasitesi ve stabilitesi değerlendirilir. Riskli görülen bölümlerde geçici takviye ya da alternatif bir güzergâh önerilir. Zemin durumu her çalışma öncesi yeniden kontrol edilir çünkü inşaat ilerledikçe durum değişir.",
+            },
+            {
+                soru: "Kaynak işleri sürerken platform aynı bölgede çalışabilir mi?",
+                cevap:
+                    "Kaynak kıvılcımı menzili içinde platform çalıştırılmaz; ya kaynak işi geçici olarak durdurulur ya da platform başka bir bölgeye yönlendirilir. Sepette yanıcı malzeme bulundurulmaz ve kaynak dumanının yoğun olduğu kapalı alanlarda havalandırma durumu ayrıca değerlendirilir. Bu koordinasyonu sahadaki genel yüklenici ile birlikte kurarız.",
+            },
+            {
+                soru: "Malzeme istifleri sahayı sık sık değiştiriyor, güzergâh nasıl belirleniyor?",
+                cevap:
+                    "Sabit bir güzergâh varsaymayız; her çalışma öncesi kısa bir saha turu yapıp güncel istif durumunu görürüz, güzergâhı buna göre kurarız. İstif sahibi yüklenici ya da proje sorumlusuyla önceden iletişime geçilir, planlanan güzergâhta o gün bir değişiklik olup olmayacağı sorulur.",
+            },
+            {
+                soru: "Ara kat platformu montajında düşme riski nasıl yönetiliyor?",
+                cevap:
+                    "Ara kat henüz tam kapatılmamışsa, kenar boşlukları ve açık noktalar platform operatörü ve montaj ekibi için ayrıca işaretlenir. Sepet, açık kenarlara güvenli mesafede konumlandırılır ve montaj ekibinin kendi düşme önleme ekipmanı (emniyet kemeri, bağlantı hattı) kullanımı tesisin iş güvenliği kurallarına göre ayrıca sağlanır; bu bizim değil montaj yüklenicisinin sorumluluğundadır.",
+            },
+            {
+                soru: "İskele kurmak yerine platform kullanmak bize zaman kazandırır mı?",
+                cevap:
+                    "Kısa süreli ve noktasal işlerde genellikle evet, çünkü iskele kurulum-söküm süresi gerektirmez, platform doğrudan konumlanıp çalışmaya başlar. Ancak aynı bölgede uzun süreli ve çok kişili bir ekip (örneğin geniş bir boya yüzeyinde birden fazla boyacı) çalışacaksa, sabit iskele daha ekonomik olabilir. İşin süresini ve ekip büyüklüğünü paylaşırsanız, hangi yöntemin daha uygun olduğunu birlikte değerlendiririz.",
+            },
+            {
+                soru: "Boya işleri sırasında platform boya buharından etkilenir mi?",
+                cevap:
+                    "Platformun kendisi doğrudan etkilenmez ama kapalı alanda biriken boya buharı hem operatör sağlığı hem yanıcılık açısından risk taşır; bu tip işlerde havalandırma durumu önceden değerlendirilir, gerekirse ek havalandırma istenir. Operatörümüz uzun süreli boya buharı maruziyetinde tesisin öngördüğü koruyucu ekipmanı kullanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otomotiv yan sanayi tesislerinde hat genişletmenin çoğunlukla çelik konstrüksiyon montajıyla başladığı sektör geneli kamuya açık genel bilgidir; kaynak/cıvatalama erişimi ve saha koordinasyon pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bozüyük Otomotiv Koridoru Çevresindeki Tarım İşletmeleri ve Silo Tesislerinde Platform Kiralama",
+        giris:
+            "Bozüyük ilçesi otomotiv yan sanayisiyle öne çıksa da, ilçenin çevresindeki kırsal kesimde tarımsal üretim ve buna bağlı depolama tesisleri de sürüyor; tahıl silosu, yem üretim tesisi ve kurutma tesisi gibi yapılar bu kesimde hâlâ görülüyor. Bu tesislerin bir kısmı, otomotiv yan sanayi tesislerine tarım makineleri için plastik ya da metal parça tedarik eden küçük atölyelerle aynı köy ya da mahalle sınırında yer alabiliyor — yani sanayi ve tarım aynı coğrafyada iç içe geçmiş durumda. Bizim bu tesislere yaklaşımımız, otomotiv yan sanayi hattındaki hassas erişim mantığından farklı: silo ve tarım tesislerinde asıl zorluk toprak zeminde makine tutunması, gövdenin yüksekliği ve tesisin hasat döneminde neredeyse hiç bakım penceresi bırakmamasıdır. Bu sayfada Bozüyük çevresindeki tarım ve silo tesislerinde platform kullanımımızı, otomotiv sanayi tesislerinden farklı yönleriyle anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Toprak zeminde arazi tipi platform tercihi",
+                metin:
+                    "Tarım ve silo tesislerinin çevresi çoğunlukla asfalt değil toprak ya da stabilize zemindir; bu zemin yağıştan sonra taşıma kapasitesini hızla kaybedebilir. Bu koşullarda dar lastikli standart bir platform yerine geniş lastikli arazi tipi platform tercih ediyoruz; zeminin son durumu ve varsa yakın zamandaki yağış geçmişi çalışma öncesi tesisten sorulur.",
+            },
+            {
+                baslik: "Silo gövdesinin yüksek ve dar yapısında kademeli erişim",
+                metin:
+                    "Tahıl silolarının gövdesi dar ve yüksektir; merdiven, denetim kapağı ve seviye sensörü gibi elemanlara erişim, gövdenin çevresinde kademeli biçimde dolaşarak sağlanır. Sepet her kotta durup o kottaki işi tamamlar, sonra bir üst kota geçer; silonun içinde ürün varsa çalışma öncesi seviye ve gaz birikimi durumu tesisten teyit edilir.",
+            },
+            {
+                baslik: "Hasat döneminin bakım takvimine etkisi",
+                metin:
+                    "Hasat döneminde silo ve kurutma tesisleri neredeyse kesintisiz çalışır, bu dönemde planlı bakım için ayrılacak zaman çok sınırlıdır. Periyodik bakım kalemlerini hasat öncesi ya da sonrası dönemlere planlamayı öneriyoruz; hasat içinde yalnızca acil arızalar için sahaya çıkarız ve kapsamı olabildiğince dar tutarız.",
+            },
+            {
+                baslik: "Yem üretim tesislerinde toz birikimi ve elektrik önlemi",
+                metin:
+                    "Yem üretim hatlarında karıştırıcı ve pelet presi üniteleri üzerinde yüksekte bakım noktaları bulunur; yem tozu belirli koşullarda yanıcı özellik taşıyabilir. Bu tip tesislerde elektrikli ekipman kullanımı öncesi tesisin toz sınıflandırması sorulur, statik elektrik önlemleri gözden geçirilir.",
+            },
+            {
+                baslik: "Sanayi ve tarım tesislerinin aynı coğrafyada iç içe geçmesi",
+                metin:
+                    "Bozüyük çevresinde bazı köylerde, otomotiv yan sanayi tesislerine küçük ölçekli parça tedarik eden atölyeler ile tarım işletmeleri aynı yol üzerinde yer alabiliyor. Bu yakınlık, aynı gün içinde bir sanayi tesisi ile bir tarım tesisine art arda hizmet vermemizi kolaylaştırıyor, ama iki tesisin makine ihtiyacı (arazi tipi vs. dar gövdeli) birbirinden farklı kaldığı için her tesise ayrı makine planlaması yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım ve silo tesislerinde bakım kalemine göre yaklaşım",
+                paragraflar: [
+                    "Bozüyük çevresindeki tarım ve silo tesislerinde sık karşılaştığımız bakım kalemlerini ve yaklaşımımızı aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Baskın risk", "Erişim biçimi", "Zaman penceresi"],
+                    satirlar: [
+                        ["Silo gövde çevresi", "Yükseklik, dar gövde", "Kademeli kot dolaşımı", "Hasat dışı dönem"],
+                        ["Kurutma/elevatör hattı", "Toz, dönen ekipman", "Durdurulmuş hatta erişim", "Planlı bakım penceresi"],
+                        ["Yem üretim hattı", "Yanıcı toz", "Hat kenarından bom erişimi", "İnceleme + acil"],
+                        ["Toprak saha erişimi", "Zemin taşıma kaybı", "Arazi tipi platform", "Kuru dönem tercih"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv sanayi ile tarım tesisleri arasındaki fark",
+                paragraflar: [
+                    "Otomotiv yan sanayi tesislerinde erişim zorluğu genellikle ekipman yoğunluğundan (robot, konveyör, test istasyonu) kaynaklanırken, tarım ve silo tesislerinde zorluk zemin ve yükseklikten kaynaklanır. Bu iki tesis tipi arasında makine seçimi de farklılaşır — sanayi tesisinde kompakt, paletli bir platform tercih edilirken tarım tesisinde geniş lastikli arazi tipi bir platform daha uygun olur.",
+                    "Bozüyük çevresinde her iki tesis tipine de hizmet verdiğimiz için, bir günde hem bir otomotiv yan sanayi tesisine hem bir tarım tesisine gidebiliyoruz; ancak makine parkımızı bu iki farklı ihtiyaca göre ayrı tutarız, aynı makineyi ikisine de uygun saymayız.",
+                ],
+            },
+            {
+                baslik: "Hasat dönemi dışında planlama",
+                paragraflar: [
+                    "Tarım ve silo tesisleriyle çalışırken yıllık bakım takvimini genellikle hasat döneminin dışına, ilkbahar ya da erken sonbahar gibi görece sakin dönemlere yerleştiririz. Bu, hem tesisin üretim akışını korur hem bakımın acele yapılmasını önler.",
+                    "Hasat döneminde ancak acil arızalar için sahaya çıkarız; bu durumda kapsamı dar tutup asıl kapsamlı bakımı uygun döneme erteleriz. Bu planlama tesisle her yıl yeniden gözden geçirilir çünkü hasat takvimi mahsule göre değişebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silonun içinde ürün varken çevresinde çalışabilir misiniz?",
+                cevap:
+                    "Ürün seviyesi ve varsa gaz birikimi durumu çalışma öncesi tesisten teyit edilir; bu bilgi netleşmeden silo çevresine yaklaşılmaz. Gövde dışından yapılan işlerde (merdiven, denetim kapağı çevresi) ürünün kendisine temas edilmez, ama silonun iç durumu hakkında bilgi almadan iş başlatılmaz.",
+            },
+            {
+                soru: "Hasat döneminde acil bir arıza çıkarsa ne kadar sürede gelebilirsiniz?",
+                cevap:
+                    "Hasat döneminde acil arızalara öncelik veririz, ama süre bölgedeki o anki program yoğunluğuna bağlıdır. Kesin bir süre taahhüt etmek yerine, arıza bildirildiğinde elimizdeki en yakın makineyi ve rotayı değerlendirip size gerçekçi bir süre bildiririz. Acil işlerde kapsamı dar tutar, kapsamlı bakımı hasat sonrasına erteleriz.",
+            },
+            {
+                soru: "Toprak zeminde makine batma riski var mı?",
+                cevap:
+                    "Standart dar lastikli platformlarda bu risk vardır, bu yüzden toprak ya da stabilize zeminde geniş lastikli arazi tipi platform kullanıyoruz. Yakın zamanda yağış olduysa, zeminin kuruma süresi geçmeden çalışmaya başlamayız; riskli görünen bir zeminde çalışma ertelenir ya da geçici sağlamlaştırma önerilir.",
+            },
+            {
+                soru: "Yem üretim tesisimizde toz birikimi var, elektrikli ekipman güvenli mi?",
+                cevap:
+                    "Toz sınıflandırması ve yanıcılık durumu tesisten önceden sorulur; gerekli görülürse statik elektrik önlemleri ve ekipman seçimi buna göre yapılır. Toz birikiminin yoğun olduğu bölümlerde çalışma öncesi tesisin kendi toz temizliği prosedürünün uygulanması istenebilir.",
+            },
+            {
+                soru: "Aynı gün hem bir otomotiv tedarikçisine hem bize (tarım tesisi) gelebilir misiniz?",
+                cevap:
+                    "Bozüyük çevresinde bu iki tesis tipine de hizmet verdiğimiz için coğrafi olarak mümkün olabilir, ama makine ihtiyacınız farklı olduğu için (arazi tipi vs. kompakt) genellikle ayrı makinelerle geliriz. Aynı gün planlama talep ederseniz, rota ve makine uygunluğuna göre değerlendirir, mümkünse birleştiririz.",
+            },
+            {
+                soru: "Kurutma tesisimizin elevatör hattı çalışırken bakım yapılabilir mi?",
+                cevap:
+                    "Hayır, dönen elevatör kovaları ya da bant yanında sepetten çalışılmaz; bakım öncesi tesisin ilgili hattı durdurup elektriksel olarak kilitlemesi standart ön koşulumuzdur. Toz birikiminin yanıcı olabileceği bölümlerde ayrıca statik elektrik önlemleri gözden geçirilir, bu kontrol tamamlanmadan çalışma başlamaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük çevresinde tarımsal üretim ve depolama tesislerinin sürdüğü, otomotiv yan sanayi ile aynı coğrafyada yer alabildiği kamuya açık genel bilgidir; zemin ve silo erişim pratiği firma saha tecrübesidir. Tesis adı, kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bozüyük Otomotiv Yan Sanayi Tesislerinde Kalite Kontrol İstasyonu Aydınlatması ve Enerji Bakımı",
+        giris:
+            "Otomotiv parça üretiminde kalite kontrol istasyonlarının aydınlatması, sıradan bir hol aydınlatmasından farklı bir hassasiyet taşır: parça yüzeyindeki mikron seviyeli kusurların (çizik, gözenek, renk farkı) görülebilmesi için ışığın açısı, şiddeti ve renk sıcaklığı belirli bir standarda uygun olmalıdır. Bu armatürler genellikle istasyonun hemen üzerinde, dar bir alanda konumlanır ve değişim ya da açı ayarı sırasında hem yükseklik hem hassasiyet aynı anda yönetilmek zorundadır. Bunun yanında üretim hattı boyunca dizilen motor kontrol merkezleri, dağıtım panoları ve dış saha aydınlatması da düzenli bakım ister; bu enerji altyapısının büyük kısmı yerden erişilemeyecek yükseklikte kurulmuştur. Bozüyük'teki otomotiv yan sanayi tesislerinde enerji ve aydınlatma bakımı için platform kiralarken önceliğimiz, kalite kontrol istasyonlarının hassasiyetini bozmadan, elektrik güvenliğini elektrik ekibiyle birlikte yöneterek çalışmaktır.",
+        maddeler: [
+            {
+                baslik: "Kalite kontrol istasyonu aydınlatmasında hassas açı ayarı",
+                metin:
+                    "Kalite kontrol istasyonunun aydınlatma armatürü, parça yüzeyine belirli bir açıdan ışık düşürecek şekilde konumlanır; bu açı değişirse kusur tespiti güvenilirliği etkilenebilir. Armatür değişimi ya da bakımı sonrası açının orijinal konuma göre doğru kurulduğu, mümkünse tesisin kalite ekibiyle birlikte test parçası üzerinden kontrol edilir.",
+            },
+            {
+                baslik: "Motor kontrol merkezi ve pano üstü bağlantılar",
+                metin:
+                    "Üretim hattı boyunca dizilen motor kontrol merkezlerinin üst kısmındaki kablo giriş-çıkış bağlantıları zamanla gevşeme ya da toz birikimi yaşayabilir. Bu noktalara erişim için pano önündeki servis alanına sepetten yaklaşılır; panonun kapağı açılmadan önce tesisin elektrik ekibinin izolasyon ve kilitleme prosedürünü tamamlamış olması istenir.",
+            },
+            {
+                baslik: "Robot hücresi çevresi aydınlatma bakımı",
+                metin:
+                    "Robot hücrelerinin çevresindeki aydınlatma, hem operatör güvenliği hem kamera tabanlı kalite kontrol sistemleri için önemlidir; bu armatürlerin bakımı sırasında ilgili hücrenin güvenlik moduna alınmış olması standart ön koşulumuzdur. Enerjili bir hücrenin yakınında sepetten çalışılmaz.",
+            },
+            {
+                baslik: "Dış saha aydınlatma direkleri",
+                metin:
+                    "Tesisin dış sahası, yükleme-boşaltma alanı ve otopark gibi bölümlerde direk üstü armatürlerle aydınlatılır. Bu direklere erişim, direğin çevresinde konumlanıp sepeti armatür hizasına getirerek yapılır; dış saha işlerinde rüzgâr durumu ayrı bir kısıt oluşturur, çalışma bu sınıra göre planlanır.",
+            },
+            {
+                baslik: "Periyodik termal kamera taramasına eşlik",
+                metin:
+                    "Bazı tesisler, pano ve bağlantı noktalarının ısınma durumunu düzenli termal kamera taramasıyla izler; platform bu taramada operatöre sabit ve güvenli bir konum sağlar. Tarama sırasında panonun kapakları kapalı kalır, doğrudan temas gerekmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Enerji-aydınlatma bakım noktasına göre yaklaşım",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv yan sanayi tesislerinde enerji ve aydınlatma bakımı için sık ziyaret ettiğimiz noktaları ve yaklaşımımızı aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta", "Hassasiyet", "Ön koşul", "Platform yaklaşımı"],
+                    satirlar: [
+                        ["Kalite kontrol istasyonu", "Işık açısı/şiddeti", "Kalite ekibiyle test", "Hassas konumlandırma"],
+                        ["Motor kontrol merkezi", "Elektrik izolasyonu", "Kilitleme tamamlanmış", "Servis alanına yaklaşım"],
+                        ["Robot hücresi çevresi", "Güvenlik modu", "Hücre devre dışı", "Enerjili hücreye yaklaşılmaz"],
+                        ["Dış saha direkleri", "Rüzgâr sınırı", "Hava durumu kontrolü", "Direk çevresi konumlandırma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kalite kontrol aydınlatmasının üretim kalitesine etkisi",
+                paragraflar: [
+                    "Otomotiv parça üretiminde kalite kontrol istasyonundaki aydınlatmanın doğruluğu, hatalı parçanın müşteriye gitmeden yakalanmasını doğrudan etkiler; bu yüzden bu istasyonlardaki bakım işini sıradan bir armatür değişiminden farklı bir özenle ele alıyoruz.",
+                    "Armatür değişimi sonrası, mümkünse tesisin kalite ekibiyle birlikte bilinen bir test parçası üzerinden ışığın doğru çalıştığını kontrol ederiz; bu adım, bakımın kalite sürecine olumsuz bir etki bırakmadığını teyit eder.",
+                ],
+            },
+            {
+                baslik: "Elektrik ekibiyle iş bölümü",
+                paragraflar: [
+                    "Enerji ve aydınlatma bakımında elektrik güvenliği, panonun ve devrenin kesilmesi-kilitlenmesi tesisin kendi elektrik ekibinin sorumluluğundadır; biz bu işlem tamamlanmadan enerjili bir noktaya sepetten yaklaşmayız.",
+                    "Bizim sorumluluğumuz, izolasyon tamamlandıktan sonra güvenli ve doğru konumda erişim sağlamak, sepet içi çalışma güvenliğini yönetmektir. İki taraf da kendi alanından sorumlu olur, iş bu net ayrımla ilerler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kalite kontrol istasyonundaki armatürü değiştirdikten sonra ışık açısının doğru olduğunu nasıl anlıyorsunuz?",
+                cevap:
+                    "Mümkünse tesisin kalite ekibiyle birlikte, bilinen bir test parçası üzerinden ışığın kusur tespitini doğru şekilde sağladığını kontrol ederiz. Bu kontrol yapılamıyorsa, armatürün orijinal montaj açısını değişim öncesi ölçer, yeni armatürü aynı açıya göre kurarız. Işık standardına dair tesisin kendi teknik dokümanı varsa, onu referans alırız.",
+            },
+            {
+                soru: "Motor kontrol merkezine erişirken elektrik kesintisi kim tarafından yapılıyor?",
+                cevap:
+                    "İlgili devrenin kesilmesi ve kilitlenmesi tesisin kendi elektrik ekibinin sorumluluğundadır; biz bu işlem tamamlanmadan panoya ya da servis alanına yaklaşmayız. Kilitleme tamamlandığına dair teyit alınmadan çalışma başlamaz.",
+            },
+            {
+                soru: "Robot hücresi çevresindeki aydınlatma bakımı sırasında robot durur mu?",
+                cevap:
+                    "Evet, ilgili hücrenin güvenlik moduna alınmış olması standart ön koşulumuzdur; bu, tesisin otomasyon ekibinin sorumluluğundadır. Enerjili bir hücrenin yakınında sepetten çalışılmaz, bu kural istisnasızdır.",
+            },
+            {
+                soru: "Dış saha aydınlatma direklerinde rüzgâr sınırı nedir?",
+                cevap:
+                    "Kesin sınır kullanılan platform modelinin üretici verisine göre değişir; genel olarak açık alanda rüzgâr hızı bina içine göre daha yüksek olduğu için bu sınıra daha dikkatli uyulur. Rüzgâr tahmini sınıra yakınsa çalışma ertelenir, hava durumu iyileştiğinde yeniden planlanır.",
+            },
+            {
+                soru: "Termal kamera taramasında platform ne işe yarıyor?",
+                cevap:
+                    "Termal kamera operatörüne, yüksekteki pano ve bağlantı noktalarını yerden değil yakın mesafeden, sabit ve güvenli bir konumdan görüntüleme imkânı sağlıyoruz. Tarama sırasında panonun kapakları kapalı kalır, doğrudan temas gerekmez; bu, taramayı hem daha güvenli hem daha net kılar.",
+            },
+            {
+                soru: "Kalite kontrol ve genel enerji bakımını aynı ziyarette yapabilir misiniz?",
+                cevap:
+                    "Genellikle evet, ikisi de yükseklik erişimi gerektirdiği için aynı ziyarette planlanabilir. Ancak kalite kontrol istasyonundaki iş, hassasiyeti nedeniyle ayrı bir dikkat ve zaman ister; bu yüzden bir ziyaret içinde önce kalite kontrol işini, sonra genel enerji bakımını sıraya koyarız, birbirine karıştırmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otomotiv parça üretiminde kalite kontrol istasyonu aydınlatmasının kusur tespiti için hassas bir standart gerektirdiği sektör geneli kamuya açık genel bilgidir; erişim ve elektrik iş bölümü pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bozüyük Otomotiv Yan Sanayi Tesislerinde Vardiya Düzenine Uygun Operatörlü Platform Kiralama",
+        giris:
+            "Otomotiv yan sanayi tesislerinin çoğu, büyük OEM tedarik takvimine uyum sağlamak için 2 ya da 3 vardiyalı çalışır; bu, platform kiralarken operatörlü mü operatörsüz mü seçileceği kararını sıradan bir sanayi holünden farklı bir açıdan etkiler. Gece vardiyasında çalışan bir tesiste, o saatte platform kullanımı için sertifikalı personel bulunmayabilir ya da mevcut personelin üretim dışı bir göreve ayrılması operasyonel olarak zor olabilir; bu durumda operatörlü kiralama daha pratik bir çözümdür. Gündüz vardiyasında, tesisin kendi yetkilendirilmiş personeli varsa operatörsüz kiralama maliyeti düşürür. Bozüyük'teki otomotiv yan sanayi tesislerinde bu kararı verirken ayrıca üretim hattının o an çalışır ya da durmuş olmasını, çünkü hat çalışırken yapılan işlerde deneyimli bir operatörün güvenlik prosedürüne aşinalığı özellikle önem kazanıyor.",
+        maddeler: [
+            {
+                baslik: "Vardiya saatine göre operatör kararı",
+                metin:
+                    "Gece vardiyasında personel sayısı gündüze göre azdır ve mevcut personelin platform kullanımı için ayrıca sertifikalandırılması her zaman mümkün olmaz. Bu saatlerde operatörlü kiralama, hem güvenlik hem operasyonel süreklilik açısından daha uygun bir seçenektir. Gündüz vardiyasında tesisin kendi yetkilendirilmiş operatörü varsa operatörsüz kiralama tercih edilebilir.",
+            },
+            {
+                baslik: "Hat çalışırken güvenlik prosedürüne aşinalık",
+                metin:
+                    "Üretim hattı çalışır durumdayken yapılan bakım işlerinde (örneğin robot hücresi çevresi ya da konveyör köprüsü), operatörün tesisin güvenlik prosedürünü (kilitleme-etiketleme, güvenlik modu teyidi) doğru sırayla uygulaması kritik önemdedir. Deneyimli operatörlerimiz bu tip işlerde tesisin elektrik ve otomasyon ekibiyle koordineli çalışır, prosedür tamamlanmadan enerjili bölgeye yaklaşmaz.",
+            },
+            {
+                baslik: "Yetkinlik belgesinin doğrulanması",
+                metin:
+                    "Operatörsüz kiralamada, platformu kullanacak kişinin geçerli bir yetkinlik belgesi olması ve bu belgenin makine sınıfına uygun olması gerekir. Teslim öncesi bu belge kontrol edilir; belge yoksa ya da sınıfa uygun değilse operatörlü kiralamaya geçilir.",
+            },
+            {
+                baslik: "Vardiya devrinde iş takibi",
+                metin:
+                    "İş birden fazla vardiyaya yayılıyorsa, operatörlü kiralamada vardiya değişiminde görev devri yapılır; hangi noktaların tamamlandığı, hangilerinin bekletildiği kayıt altına alınır. Bu, gece vardiyasında başlayan bir işin gündüz vardiyasında kaldığı yerden sürdürülmesini sağlar.",
+            },
+            {
+                baslik: "Sürekli üretim baskısı altında operatör esnekliği",
+                metin:
+                    "Tam zamanında teslimat baskısı altında çalışan tesislerde, planlanmış bir bakım işi bazen üretim önceliğine göre ertelenebilir ya da öne alınabilir. Operatörlü kiralamada bu esnekliği yönetmek daha kolaydır, çünkü operatörümüz tesisin değişen programına göre kendi çalışma saatini ayarlayabilir; operatörsüz kiralamada bu esneklik tesisin kendi personel programına bağlı kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Vardiya ve hat durumuna göre operatör önerisi",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv yan sanayi tesislerinde vardiya ve hat durumuna göre operatör önerimizi aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Tipik ihtiyaç", "Önerilen kiralama", "Ek koşul"],
+                    satirlar: [
+                        ["Gece vardiyası", "Sınırlı sertifikalı personel", "Operatörlü", "Vardiya devir kaydı"],
+                        ["Hat çalışırken bakım", "Güvenlik prosedürü aşinalığı", "Operatörlü (deneyimli)", "Elektrik/otomasyon koordinasyonu"],
+                        ["Gündüz, tesis personeli mevcut", "Maliyet verimliliği", "Operatörsüz", "Belge doğrulama"],
+                        ["Değişken üretim programı", "Esnek zamanlama", "Operatörlü", "Program güncellemesi takibi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv tedarik takviminin vardiya düzenine etkisi",
+                paragraflar: [
+                    "Büyük OEM tesislerine tedarik yapan firmalar, genellikle müşterinin üretim takvimine göre kendi vardiya düzenini kurar; bu, gece vardiyasının otomotiv yan sanayinde sıradan bir tesise göre daha yaygın olmasına yol açar. Bozüyük'teki tesislerde bu durum, bizim operatörlü kiralama talebimizin önemli bir kısmının gece vardiyasından gelmesine neden oluyor.",
+                    "Bu talebi karşılamak için gece vardiyasına uygun operatör kadromuzu ayrı planlıyoruz; gündüz ve gece operatörleri arasında iş devrinin sorunsuz ilerlemesi için standart bir devir formatı kullanıyoruz.",
+                ],
+            },
+            {
+                baslik: "Operatörün tesise özel bilgilendirilmesi",
+                paragraflar: [
+                    "Her otomotiv yan sanayi tesisinin kendi güvenlik prosedürü, hat düzeni ve erişim kısıtı farklıdır; operatörümüzün tesise ilk girişinde bu düzeni tanıması zaman alır. Uzun süreli kiralamalarda aynı operatörü sabit tutmayı öneriyoruz, çünkü tesis düzenine aşina bir operatör hem daha hızlı hem daha güvenli çalışır.",
+                    "Operatör değişikliği gerektiğinde, önceki operatörün tesise dair edindiği bilgiyi (kritik noktalar, prosedür özellikleri) yeni operatöre aktarırız; bu, tesisle olan ilişkinin sürekliliğini korur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gece vardiyasında çalışan tesisimize operatörlü platform gönderebilir misiniz?",
+                cevap:
+                    "Evet, gece vardiyasına uygun operatör kadromuz var. Gece vardiyasında personel sayısının sınırlı olduğu ve platform kullanımı için sertifikalı personel bulunmayabileceği bilindiğinden, bu saatlerde operatörlü kiralamayı öneriyoruz. Talebinizi mümkünse önceden iletirseniz, gece vardiyasına uygun operatörü hazır bulundururuz.",
+            },
+            {
+                soru: "Hat çalışırken bakım yapacak operatörün deneyimi neden önemli?",
+                cevap:
+                    "Hat çalışırken yapılan bakım işlerinde, operatörün tesisin güvenlik prosedürünü (kilitleme-etiketleme, güvenlik modu teyidi) doğru sırayla uygulaması kritik önemdedir; yanlış sıralama hem operatör hem üretim güvenliğini riske atabilir. Deneyimli operatörlerimiz bu tip işlerde tesisin elektrik ve otomasyon ekibiyle koordineli çalışır, prosedür tamamlanmadan enerjili bölgeye yaklaşmaz.",
+            },
+            {
+                soru: "Operatörsüz kiralamada belge kontrolü nasıl yapılıyor?",
+                cevap:
+                    "Teslim öncesi platformu kullanacak kişinin yetkinlik belgesi kontrol edilir; belgenin geçerli olması ve kiralanan makine sınıfına uygun olması gerekir. Belge yoksa ya da sınıfa uygun değilse, operatörlü kiralamaya geçilir ya da tesisin ilgili personeli için eğitim süreci değerlendirilir.",
+            },
+            {
+                soru: "Vardiya değişiminde işin nerede kaldığını nasıl takip ediyorsunuz?",
+                cevap:
+                    "Operatörlü kiralamada vardiya değişiminde görev devri yapılır; hangi noktaların tamamlandığı, hangilerinin bekletildiği kayıt altına alınır. Bu kayıt, gece vardiyasında başlayan bir işin gündüz vardiyasında kaldığı yerden sürdürülmesini sağlar, işin tekrar baştan değerlendirilmesine gerek kalmaz.",
+            },
+            {
+                soru: "Üretim programımız sık değişiyor, operatörlü kiralama bu değişime uyum sağlar mı?",
+                cevap:
+                    "Evet, operatörlü kiralamada operatörümüz tesisin değişen programına göre kendi çalışma saatini ayarlayabilir; bu esneklik operatörsüz kiralamaya göre daha kolay yönetilir çünkü tesisin kendi personel programına bağlı kalmaz. Program değişikliklerini mümkün olduğunca önceden bize iletmenizi rica ederiz, ani değişikliklerde de elimizden geleni yaparız.",
+            },
+            {
+                soru: "Uzun süreli kiralamada hep aynı operatör mü geliyor?",
+                cevap:
+                    "Mümkün olduğunca aynı operatörü sabit tutmayı tercih ederiz, çünkü tesis düzenine aşina bir operatör daha hızlı ve güvenli çalışır. Operatör değişikliği gerektiğinde önceki operatörün edindiği bilgi yeni operatöre aktarılır; tesisle olan ilişkinin sürekliliği bu şekilde korunur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otomotiv yan sanayi tesislerinin genellikle çok vardiyalı çalıştığı sektör geneli kamuya açık genel bilgidir; operatörlü kiralama ve vardiya devir pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bozüyük Otomotiv Tedarikçi Ağında Çok Noktalı Bakım Rotası Kiralama",
+        giris:
+            "Bosch'un Bozüyük'te bir üretim tesisi bulunduğu kamuya açık bilgidir ve bu tesisin çevresinde oluşan tedarikçi ağı, birbirine coğrafi olarak yakın birden fazla firmayı aynı bölgede topluyor; bu yakınlık, tek bir güzergâh üzerinde art arda birden fazla tedarikçi tesisine bakım yapma imkânı doğuruyor. Ancak otomotiv tedarikçi ağında rota planlaması, sıradan bir sanayi bölgesinden farklı bir zorluk taşır — her tedarikçinin kendi üretim vardiyası ve tam zamanında teslimat baskısı farklı saatlerde yoğunlaşır, bu yüzden rotayı yalnızca coğrafi yakınlığa göre değil, her tesisin kendi üretim ritmine göre kurmak gerekir. Bir tesiste yaşanan gecikme, sonraki tesisin kendi teslim penceresini kaçırmasına yol açabilir. Bu sayfada Bozüyük'teki otomotiv tedarikçi ağında aynı gün birden fazla tesise bakım yaparken rotayı nasıl kurduğumuzu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Rota sırasının üretim vardiyasına göre belirlenmesi",
+                metin:
+                    "Bir günlük rotada hangi tesisin önce, hangisinin sonra ziyaret edileceği, her tesisin kendi vardiya ve sevkiyat yoğunluğuna göre belirlenir; sevkiyat öncesi yoğun saatte olan bir tesise o pencerede bakım için girmeyiz, çünkü hem bizim işimiz hem tesisin sevkiyatı aksar. Bu bilgi, rota kurulmadan önce her tesisten ayrı ayrı alınır.",
+            },
+            {
+                baslik: "Tesisler arası geçiş süresinin tamponlanması",
+                metin:
+                    "Bölgedeki tedarikçi tesisleri arası geçiş genellikle hızlıdır, ama her tesisin kendi içindeki iş süresi (özellikle hat çalışırken yapılan işlerde güvenlik prosedürü) tahminden uzun sürebilir. Rota planlanırken her durak arasına bir tampon süre bırakılır; bu tampon, bir tesisteki beklenmedik bir gecikmenin sonraki randevuyu geciktirmemesini sağlar.",
+            },
+            {
+                baslik: "Ortak bakım kalemlerinin gruplanması",
+                metin:
+                    "Aynı rotadaki farklı tedarikçi tesislerinde benzer bakım kalemleri varsa (örneğin kalite kontrol istasyonu aydınlatması ya da robot hücresi çevresi kontrolü), bu kalemleri aynı ekip ve ekipmanla art arda yapmak, her tesis için ayrı planlama yapmaktan daha verimlidir. Rota öncesi hangi tesiste hangi kalemin bekleneceği önceden listelenir.",
+            },
+            {
+                baslik: "Rota içinde acil bir talebin araya girmesi",
+                metin:
+                    "Planlanmış bir rota sırasında, güzergâh üzerindeki başka bir tedarikçi tesisinden acil bir talep gelirse, bu talebin rotaya araya girip giremeyeceği mevcut randevuların gecikip gecikmeyeceğine göre değerlendirilir. Mevcut müşterilerin randevusunu aksatmadan araya sığdırılabiliyorsa eklenir, sığmıyorsa bir sonraki rotaya planlanır.",
+            },
+            {
+                baslik: "Her tesis için ayrı kayıt, ortak rota",
+                metin:
+                    "Aynı rotada birden fazla tedarikçi tesisi ziyaret edilse de, her tesisin kendi teklifi, kendi çalışma raporu ve kendi teslim kaydı ayrı tutulur; tesisler arasında maliyet ya da bilgi paylaşımı yapılmaz. Rota yalnızca sevkiyat ve zaman verimliliği için ortaktır, hizmetin kendisi her tesise özeldir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tedarikçi ağı rota planlamasında dikkat edilen kriterler",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv tedarikçi ağında rota planlarken dikkate aldığımız kriterleri aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Neden önemli", "Bilgi kaynağı", "Planlama etkisi"],
+                    satirlar: [
+                        ["Sevkiyat penceresi", "Bakım bu saatte tesisi aksatır", "Tesisin lojistik ekibi", "Rota dışına yerleştirilir"],
+                        ["Vardiya yoğunluğu", "Personel/erişim kısıtı", "Tesisin üretim ekibi", "Uygun vardiyaya planlanır"],
+                        ["Tesisler arası mesafe", "Geçiş süresi", "Rota haritası", "Sıra ve tampon süre"],
+                        ["Ortak bakım kalemi", "Verimlilik", "Önceki ziyaret kayıtları", "Aynı ekiple gruplama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tedarikçi ağının Bozüyük'teki coğrafi yakınlığı",
+                paragraflar: [
+                    "Bosch'un Bozüyük'te bir üretim tesisi bulunduğu kamuya açık bir bilgi ve büyük OEM tesislerinin çevresinde tedarikçi kümesi oluşması sektörün genel bir eğilimidir; bu kümelenme, aynı gün içinde birden fazla tesise hizmet vermemizi coğrafi olarak kolaylaştırıyor.",
+                    "Ancak coğrafi yakınlık tek başına yeterli değil — her tesisin kendi üretim ritmi farklı olduğu için rota, mesafeden çok zamanlamaya göre kurulmak zorunda. Bu, bizim rota planlama sürecimizin en çok emek verdiğimiz kısmı.",
+                ],
+            },
+            {
+                baslik: "Rota koordinasyonunda tesisler arası bilgi ayrımı",
+                paragraflar: [
+                    "Aynı rotada birden fazla tedarikçi tesisine hizmet verirken, hiçbir tesisin bilgisini (iş kapsamı, fiyat, program) diğerine aktarmayız; her tesis kendi verisinin gizliliğine güvenmelidir. Rota planlaması yalnızca bizim iç lojistiğimizde kullanılan bir araçtır.",
+                    "Bir tesis, komşu bir tedarikçiyle ortak bir randevu ya da bilgi paylaşımı talep ederse, bu yalnızca iki tesisin kendi aralarında anlaşıp bize birlikte iletmesiyle mümkün olur; biz kendiliğimizden bu bağlantıyı kurmayız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Rotanızda bizim tesisimiz hangi sıraya konuyor, biz seçebiliyor muyuz?",
+                cevap:
+                    "Sırayı belirlerken önceliğimiz sizin sevkiyat ve vardiya yoğunluk saatlerinizdir; bu bilgiyi bize iletirseniz, rotanızı bu pencerelerin dışına yerleştiririz. Kesin bir saat talebiniz varsa, bunu diğer tesislerin programıyla çakışmadığı sürece karşılamaya çalışırız; çakışma varsa alternatif bir saat öneririz.",
+            },
+            {
+                soru: "Rotadaki bir tesiste gecikme olursa bizim randevumuz etkilenir mi?",
+                cevap:
+                    "Rota planlanırken her durak arasına bir tampon süre bırakılır, bu yüzden küçük gecikmeler genellikle sonraki randevuyu etkilemez. Ancak beklenmedik büyük bir gecikme olursa, sizinle önceden iletişime geçer, randevu saatinizi güncelleriz; sessizce geç kalmayız.",
+            },
+            {
+                soru: "Aynı rotadaki komşu tedarikçiyle bilgimiz paylaşılıyor mu?",
+                cevap:
+                    "Hayır, hiçbir tesisin bilgisini (iş kapsamı, fiyat, program) diğer bir tesise aktarmayız; her tesis kendi teklifini, raporunu ve kaydını ayrı tutar. Rota yalnızca bizim iç lojistiğimizde kullanılan bir planlama aracıdır, tesisler arası bir bağ oluşturmaz.",
+            },
+            {
+                soru: "Acil bir arızamız var, planlı rotanıza sığdırabilir misiniz?",
+                cevap:
+                    "Mevcut randevuları aksatmadan sığdırılabiliyorsa evet, aynı gün rotasına ekleriz. Sığmıyorsa, en yakın uygun zamanı ya da ayrı bir acil müdahale planlarız. Acil durumun niteliğini bildirirseniz, hangi seçeneğin mümkün olduğunu hızlıca değerlendiririz.",
+            },
+            {
+                soru: "Rotanızda kaç tesise hizmet veriyorsunuz, bizim tesisimiz de eklenebilir mi?",
+                cevap:
+                    "Rotadaki tesis sayısı, o günkü program ve coğrafi dağılıma göre değişir; sabit bir sayı vermeyiz. Yeni bir tesis olarak eklenmek isterseniz, konumunuzu ve tipik bakım ihtiyacınızı bize iletin, mevcut rotalarımızdan hangisine uygun düştüğünüzü değerlendirir, size bir program öneririz.",
+            },
+            {
+                soru: "Ortak bakım kalemi nedir, bizim tesisimizde de var mı?",
+                cevap:
+                    "Ortak bakım kalemi, birden fazla tesiste benzer şekilde karşılaştığımız işleri (örneğin kalite kontrol istasyonu aydınlatması) ifade eder; bu kalemleri aynı ziyarette aynı ekiple gruplayarak verimlilik sağlarız. Sizin tesisinizde hangi kalemlerin bu gruba girdiğini ilk ziyarette birlikte belirleriz, sonraki rotalarda bu bilgiyi kullanırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve OEM tesislerinin çevresinde tedarikçi kümesi oluşmasının sektörün genel bir eğilimi olduğu kamuya açık genel bilgidir; rota planlama pratiği firma saha tecrübesidir. Tesis içi kapasite ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bozüyük Otomotiv Tedarikçi Ağında Yeni Tesis Genişleme Sahalarında Zor Zemin Platform Kiralama",
+        giris:
+            "Bosch'un Bozüyük'te bir üretim tesisi bulunduğu kamuya açık bilgidir ve büyük OEM tesislerinin çevresinde büyüyen tedarikçi ağı, zaman zaman yeni tesis inşaatı ya da mevcut tesisin dış saha genişletmesi şeklinde kendini gösteriyor; bu genişleme sahaları, tamamlanmış bir üretim holünün düzgün betonundan çok farklı bir zemin karakteri taşır — sıkıştırılmamış dolgu toprak, geçici drenaj kanalları, henüz asfaltlanmamış saha içi yollar ve malzeme istifi. Standart lastik tekerlekli bir platform bu tür bir zeminde tutunma kaybedebilir ya da iz bırakarak zemini bozabilir; bu yüzden yeni tesis genişleme sahalarında arazi tipi (4x4 tahrikli) platform tercih edilir. Bu sayfada Bozüyük'teki otomotiv tedarikçi ağında yeni tesis inşaatı ve dış saha genişletme sahalarında zemin değerlendirmesini nasıl yaptığımızı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Sıkıştırılmamış dolgu toprakta tutunma",
+                metin:
+                    "Yeni bir tesis inşaatının başlangıç aşamasında zemin genellikle sıkıştırılmamış dolgu topraktır; bu zemin ağırlık dağılımına duyarlıdır ve standart tekerlekli bir makine batabilir ya da eğimde kayabilir. Arazi tipi platformun geniş tekerlekleri ve 4x4 tahrik sistemi bu zeminde daha güvenilir bir tutunma sağlar. Çalışmadan önce zeminin sıkıştırma durumu sorulur, bilgi yoksa görsel değerlendirme yapılır.",
+            },
+            {
+                baslik: "Mevcut tesisin dış saha genişletmesinde geçiş bölgesi",
+                metin:
+                    "Bazı genişleme projeleri, mevcut tesisin bitişiğinde yeni bir bina ekler; bu durumda mevcut tesisin düzgün betonu ile yeni inşaat sahasının toprak zemini arasında bir geçiş bölgesi oluşur. Bu geçiş bölgesinde makine hem düzgün hem düzensiz zeminde çalışmak zorunda kalabilir; geçiş noktasında hız düşürülür, zemin değişimi operatör tarafından önceden fark edilir.",
+            },
+            {
+                baslik: "Mevsimsel yağışın zemin sertliğine etkisi",
+                metin:
+                    "Aynı inşaat sahası, kuru bir günde sağlam görünse de yağış sonrası önemli ölçüde yumuşayabilir, özellikle kil ağırlıklı zeminlerde bu belirgindir. Son yağıştan bu yana geçen süre ve o günkü hava tahmini çalışma kararını doğrudan etkiler; yeterli kuruma süresi geçmediyse çalışma ertelenir ya da daha hafif bir sınıf tercih edilir.",
+            },
+            {
+                baslik: "Geçici drenaj kanalı ve malzeme istifi",
+                metin:
+                    "İnşaat sahalarında geçici drenaj kanalları ve malzeme yığınları sabit bir güzergâh planlamasını zorlaştırır; bu engellerin güncel konumu her ziyarette yeniden kontrol edilir çünkü inşaat ilerledikçe saha düzeni değişir. Güzergâh sabit değil, o günkü saha durumuna göre belirlenir.",
+            },
+            {
+                baslik: "Sahanın ilerleyen fazlarında zemin iyileşmesi",
+                metin:
+                    "İnşaat ilerledikçe saha içi yollar sıkıştırılır, kısmen ya da tamamen betonlanır; bu aşamada arazi tipi platform ihtiyacı azalabilir ve daha standart, daha ekonomik sınıflar değerlendirilebilir. Her ziyaret öncesi güncel zemin durumunu sorarız, sahanın ilerleme durumuna göre önerilen sınıf değişebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İnşaat fazına göre zemin ve makine yaklaşımı",
+                paragraflar: [
+                    "Bozüyük'teki otomotiv tedarikçi ağında yeni tesis genişleme sahalarında inşaat fazına göre zemin ve makine yaklaşımımızı aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["İnşaat fazı", "Zemin durumu", "Risk", "Makine yaklaşımı"],
+                    satirlar: [
+                        ["Başlangıç/hafriyat", "Sıkıştırılmamış dolgu", "Batma, kayma", "Arazi tipi 4x4"],
+                        ["Yapı yükselme", "Kısmi sıkıştırma, malzeme istifi", "Değişken güzergâh", "Güncel saha turu"],
+                        ["Geçiş bölgesi (mevcut-yeni)", "Beton-toprak sınırı", "Ani zemin değişimi", "Yavaşlatılmış geçiş"],
+                        ["Saha tamamlanma", "Sıkıştırılmış/betonlanmış yol", "Düşük", "Standart sınıf değerlendirmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Otomotiv tedarik ağında yeni tesis yatırımı",
+                paragraflar: [
+                    "Otomotiv üretim hacmindeki artış, tedarikçi ağındaki bazı firmaların yeni tesis kurmasına ya da mevcut tesisini genişletmesine yol açabilir; bu tip yatırımlar Bosch'un burada bir tesisi bulunduğu bilinen genel bağlamda, bölgenin sanayi çekiciliğini yansıtan bir gelişmedir.",
+                    "Bu yeni tesis inşaatlarının başlangıç dönemi, sahanın henüz düzgün bir zemine kavuşmadığı için standart platform hizmetlerinden farklı bir makine ve yaklaşım gerektirir; bu sayfa özellikle bu erken dönemi anlatıyor.",
+                ],
+            },
+            {
+                baslik: "Yeni yatırımcıyla zemin değerlendirmesi süreci",
+                paragraflar: [
+                    "Yeni bir genişleme sahasına ilk gittiğimizde, zemin durumunu göz kararıyla değil mümkünse tesisin saha mühendisiyle birlikte değerlendiririz; varsa zemin etüt raporu ya da sıkıştırma test verisi bu değerlendirmeye dahil edilir.",
+                    "Bu ilk değerlendirme, hangi makine sınıfının uygun olduğunu ve çalışma güzergâhının nasıl kurulacağını belirler; saha ilerledikçe bu değerlendirme periyodik olarak tekrarlanır çünkü zemin durumu zamanla değişir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni tesis sahamızda henüz zemin etüt raporu yok, yine de çalışabilir misiniz?",
+                cevap:
+                    "Evet, rapor yoksa görsel değerlendirme yaparız; zeminin görünür sertliği, varsa yakın zamandaki yağış geçmişi ve tekerlek izi durumu gibi göstergelere bakarız. Riskli görünen bir zeminde daha temkinli bir yaklaşım (daha geniş lastik, daha düşük hız) uygularız. Rapor varsa değerlendirmeyi hızlandırır ve daha kesin bir sınıf önerisi yapmamızı sağlar.",
+            },
+            {
+                soru: "Mevcut tesisimizin bitişiğinde inşaat sürüyor, makineniz beton ile toprak arasında geçiş yapabilir mi?",
+                cevap:
+                    "Yapabilir, ama bu geçiş bölgesinde hız düşürülür ve operatör zemin değişimini önceden fark ederek konumlandırma yapar. Beton ile toprak arasındaki sınırın ani bir seviye farkı oluşturup oluşturmadığı önceden kontrol edilir; fark varsa geçiş için ek önlem (rampa, takviye) değerlendirilir.",
+            },
+            {
+                soru: "Yağış sonrası ne kadar süre çalışmayı erteliyorsunuz?",
+                cevap:
+                    "Kesin bir süre vermek yerine zeminin görünür kuruma durumuna bakarız; kil ağırlıklı zeminlerde bu süre kum ağırlıklı zeminlere göre daha uzun olabilir. Zemin hâlâ yumuşak görünüyorsa çalışmayı ertelemeyi öneririz; acil bir iş varsa daha hafif bir makine ya da geçici zemin takviyesiyle riski azaltmayı değerlendiririz.",
+            },
+            {
+                soru: "Saha içindeki malzeme istifleri her ziyarette yer değiştiriyor, güzergâh nasıl belirleniyor?",
+                cevap:
+                    "Sabit bir güzergâh varsaymayız; her çalışma öncesi kısa bir saha turu yaparız, güncel istif ve engel durumunu görürüz, güzergâhı buna göre kurarız. Saha sorumlusuyla önceden iletişime geçilir, planlanan güzergâhta o gün bir değişiklik olup olmayacağı sorulur.",
+            },
+            {
+                soru: "İnşaat ilerledikçe hâlâ arazi tipi platforma mı ihtiyacımız olacak?",
+                cevap:
+                    "Her zaman değil; saha içi yollar sıkıştırılıp kısmen ya da tamamen betonlandıkça standart, daha ekonomik sınıflara geçilebilir. Her ziyaret öncesi güncel zemin durumunu sorarız, sahanın ilerleme durumuna göre önerdiğimiz sınıf değişebilir; gereksiz yere pahalı bir sınıfı sürdürmeyiz.",
+            },
+            {
+                soru: "Bosch'un tesisine yakın bir sahada inşaat yapıyoruz, bu bize özel bir kısıt getiriyor mu?",
+                cevap:
+                    "Bosch'un Bozüyük'te bir tesisi bulunduğu kamuya açık bir bilgi; eğer sahanız bu tesise fiziksel olarak yakınsa, komşu tesisin kendi güvenlik ya da trafik kuralları sizin inşaat sahanızın erişimini dolaylı etkileyebilir. Bu tip bir kısıt varsa, keşif sırasında sizinle birlikte netleştirir, güzergâh ve zamanlama planımızı buna göre uyarlarız. Komşu tesise dair iç bilgimiz yoktur, yalnızca sizin sahanızdaki erişim kısıtına göre çalışırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve otomotiv tedarik ağında yeni tesis yatırımlarının sektörün genel bir eğilimi olduğu kamuya açık genel bilgidir; zemin değerlendirme pratiği firma saha tecrübesidir. Tesis içi kapasite, mesafe ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
 };
