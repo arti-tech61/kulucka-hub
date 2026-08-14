@@ -2392,4 +2392,202 @@ export const ANKARAMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Zemin taşıma kapasitesi ve mevsimsel davranış genel saha mühendisliği bilgisidir; yayılım plakası kullanımı ve dürüst erteleme kararı firma pratiğidir.",
     },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Ankara Batı Hattında Depo ve Açık Saha İçin Manlift Kiralama",
+        giris:
+            "Manlift talebi bize genellikle iki adresten gelir: fabrika-dağıtım deposunun içi ve tesisin dış stok sahası. İçeride iş yüksek raf sisteminin tepesinde toplanır — aydınlatma armatürü, sprinkler branşmanı, kablo tavası, rampa kapısı motoru; dışarıda ise stok direkleri, çevre aydınlatması, tente iskeletleri ve saha kamerası gibi kalemler öne çıkar. İki ortamın da makine talebi farklıdır: koridor genişliği ve raf yüksekliği depo içinde akülü dar şaseli manlifti zorunlu kılarken, açık sahanın düzensiz zemini ve daha yüksek erişim ihtiyacı dizel arazi tipi manlifti öne çıkarır. Batı hattındaki depo yoğun bölgede (Sincan, İvedik, Ostim çevresi) yıllardır aynı ritmi görüyoruz — mal kabul ve sevkiyat dalgaları arasına sıkışan çalışma pencereleri, sigorta denetimine bağlı sprinkler takvimleri, sezon öncesi toplu bakım talepleri. Bu sayfa, manlift kiralamada depo içi ve açık saha ayrımını, makine seçimini ve çalışma pencerelerini nasıl kurduğumuzu anlatır; raf içindeki dar koridor işleri için ayrıca makaslı platform seçeneğini de değerlendiriyoruz — o karşılaştırma ayrı sayfamızda.",
+        maddeler: [
+            {
+                baslik: "Depo içi mi, açık saha mı — makine seçimini belirleyen ilk soru",
+                metin:
+                    "Keşifte sorduğumuz ilk soru işin nerede geçeceğidir, çünkü cevap makine sınıfını doğrudan belirler. Depo içi işler (raf üstü aydınlatma, tavan sprinkler hattı, kablo tavası) kapalı alan ve koridor genişliğine bağlı olduğundan akülü dar şaseli manlift ister — egzoz emisyonu yoktur, zemin beton üzerinde iz bırakmaz. Açık saha işleri (stok direği, çevre aydınlatması, çatı-sundurma onarımı) ise düzensiz zemin ve daha uzun erişim mesafesi gerektirdiğinden dizel arazi tipi manlift ister. İki ortam aynı tesiste yan yana olsa da makine seçimi asla karışmaz.",
+            },
+            {
+                baslik: "Raf hattının tepesinde çalışma disiplini",
+                metin:
+                    "Yüksek raf sistemlerinin üstünde çalışırken üç sınır aynı anda geçerlidir: koridor genişliği, raf kollarının taşma payı ve en alçak engel kotu (sprinkler borusu, kablo tavası). Bu ölçüler alınmadan makine sahaya girmez — sepetin yükselme hattı raf kollarına sürtünmeyecek şekilde konum baştan belirlenir. Dolu raf gözlerinin yanında çalışırken düşen bir alet, alttaki stoğu doğrudan tehdit eder; bu yüzden çalışma karesinin altındaki gözler boşaltılır ve sepete çıkan her alet listeye bağlanır.",
+            },
+            {
+                baslik: "Sprinkler ve yangın hattı denetim takvimine göre planlama",
+                metin:
+                    "Depolarda en düzenli tekrarlanan tavan işi yangın korunum hattıdır ve bu iş sigorta-denetim takvimine bağlı geldiğinden tarih esnek değildir. Manlift ile bu işe bölge bölge ilerlenir: deponun bir zonu kısa süreli boşaltılır, o zonun sprinkler-dedektör kalemleri bitirilir ve stok akşam yerine döner. Denetim tarihi bildirildiğinde plan geriye doğru kurulur — zon sayısı ve günlük kapasite hesaplanıp başlangıç günü buna göre belirlenir.",
+            },
+            {
+                baslik: "Açık stok sahasında dizel manliftin işleri",
+                metin:
+                    "Batı hattındaki tesislerin açık stok sahaları — profil-boru dizileri, palet yığınları, konteyner sıraları — genellikle parke taşı, beton veya sıkıştırılmış dolgu zemindir; bu zeminlerde dizel arazi tipi manlift standart makinedir. Tipik kalemler saha aydınlatma direkleri, çevre güvenlik kamerası montajı, sundurma çatı iskeleti ve stok tentelerinin onarımıdır. Stok dizileri arasındaki makine güzergâhı, malzeme kaydırılmadan önce net şekilde planlanır; yağış sonrası yumuşayan dolgu kesimlerinde çalışma noktası ertelenir veya yayılım plakasıyla desteklenir.",
+            },
+            {
+                baslik: "Fabrika deposu ile dağıtım deposunun farklı pencereleri",
+                metin:
+                    "Aynı hatta iki depo tipi iki ayrı manlift planı ister. Fabrika deposu üretim takvimine bağlıdır — duruş günleri ve planlı bakım vardiyaları çalışma için doğal penceredir. Dağıtım deposu ise durmaz; pencere gün içindeki mal kabul-sevkiyat dalgalarının arası ve gece vardiyasının hafif saatleridir, akülü makinenin düşük gürültüsü bu saatlerde çalışmayı mümkün kılar. Keşifte ilk sorduğumuz deponun tipidir çünkü cevap planın iskeletini baştan kurar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo içi ve açık saha manlift işleri karşılaştırması",
+                paragraflar: [
+                    "İki ortamın iş kalemi, makine sınıfı ve çalışma penceresi net şekilde ayrışır; keşifte önce ortam belirlenir, makine seçimi ondan sonra gelir.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Tipik iş kalemi", "Makine sınıfı", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Depo içi raf üstü", "Aydınlatma, sprinkler branşmanı", "Akülü dar şase", "Dalga arası / gece"],
+                        ["Depo içi tavan hattı", "Yangın-dedektör bakımı", "Akülü, zon bazlı", "Denetim takvimine göre"],
+                        ["Açık saha stok alanı", "Direk aydınlatma, kamera", "Dizel arazi tipi", "Gündüz, hava koşullu"],
+                        ["Açık saha çatı-sundurma", "İskelet onarım, tente", "Dizel arazi tipi", "Kuru zemin şartlı"],
+                        ["Rampa-kapı üstü", "Motor, sensör, körük bakımı", "Akülü dar şase", "Kullanılmayan kapı tarafı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör ve sepet güvenliği: depo ile açık saha farkı",
+                paragraflar: [
+                    "Depo içinde önceliğimiz stok bütünlüğüdür — düşen bir cisim veya devrilen palet doğrudan mali kayıp demektir; bu yüzden çalışma karesinin altı ve koridor boyu bariyerlenir, sepete çıkan alet listeye bağlanır. Açık sahada öncelik sırası değişir: rüzgâr ve zemin durumu ön plana çıkar, sepet çalışması belirli rüzgâr hızının üzerinde durdurulur ve zemin ıslaksa veya yumuşaksa makine sahaya girmez.",
+                    "İki ortamda da operatör belgesi ve makine bakım kaydı kontrol edilir; fark, risk önceliğinin nereye kurulduğudur — depoda stok ve trafik, açık sahada hava ve zemin.",
+                ],
+            },
+            {
+                baslik: "Sezon ve denetim öncesi toplu manlift planlaması",
+                paragraflar: [
+                    "Depoların yılı düz akmaz: bayram öncesi yükleme yoğunluğu, yıl sonu sayım dönemleri ve sigorta-yangın denetim takvimleri hem alan doluluğunu hem tarih baskısını artırır. Doğru model, yoğunluk gelmeden dört-altı hafta önce açılan hazırlık penceresidir — aydınlatma, sprinkler ve rampa bakım kalemleri bu pencerede topluca bitirilir.",
+                    "Açık saha tarafında ise kış öncesi hazırlık kritik olur: tente-sundurma iskeletleri ve saha aydınlatması, yağışlı sezon başlamadan kontrol edilip onarılır. İki hazırlık paketi ayrı takvimlerde ama aynı hazırlık mantığıyla planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı tesiste hem depo içi hem açık saha işimiz var; tek keşifte mi planlanır?",
+                cevap:
+                    "Evet — tek keşifte iki ortam ayrı ayrı değerlendirilir ve iki makine sınıfı önerilir. Depo içi için akülü dar şaseli manlift, açık saha için dizel arazi tipi manlift ayrı günlerde veya aynı gün art arda planlanabilir. Tesis planınızı ve öncelikli kalemleri paylaşın, tek ziyarette iki ortamın da ölçüsünü çıkaralım.",
+            },
+            {
+                soru: "Depo içinde egzozlu makine kullanmamıza izin verilmiyor; alternatif ne?",
+                cevap:
+                    "Bu, kapalı depoların standart kuralıdır ve çözümü akülü manlifttir — egzoz emisyonu yoktur, gürültüsü düşüktür, zemin beton üzerinde iz bırakmaz. Koridor genişliği ve raf yüksekliği ölçülerek uygun akülü dar şase modeli belirlenir. Koridor ölçünüzü ve en alçak engel kotunu paylaşın, uygun modeli netleştirelim.",
+            },
+            {
+                soru: "Açık stok sahamızda zemin düzensiz; her manlift girebilir mi?",
+                cevap:
+                    "Hayır — düzensiz ve dolgu zeminlerde dizel arazi tipi manlift tercih edilir, standart lastik tekerlekli sınıf bu zeminde güvenli çalışmaz. Yağış sonrası yumuşayan kesimlerde çalışma noktası ertelenir veya yayılım plakasıyla desteklenir. Saha zemininin güncel fotoğrafını paylaşın, uygun makine sınıfını ve gerekirse plaka ihtiyacını önceden söyleyelim.",
+            },
+            {
+                soru: "Sigorta denetimi için sprinkler kontrolü şart; depo boşaltılmadan yapılabilir mi?",
+                cevap:
+                    "Evet — bölge bölge ilerleme yöntemiyle deponun tamamı değil, o an çalışılan zon kısa süreli boşaltılır. Zon sayısı ve günlük kapasite hesaplanır, denetim tarihinden geriye doğru bir takvim kurulur ve başlangıç günü buna göre belirlenir. Denetim yazınızdaki tarihle birlikte dönün, kaç günlük çalışma gerektiğini zon sayınıza göre netleştirelim.",
+            },
+            {
+                soru: "Rampa kapımızın motoru arızalandı, kapı sürekli kullanımda; nasıl planlanır?",
+                cevap:
+                    "Rampa üstü işler, kapının o gün kullanılmayan tarafına veya vardiya devir saatlerine kaydırılır — tüm rampanın kapatılması gerekmez. Depo şefinizle kurulan saatlik plan, forklift rotalarıyla makine konumunun çakışmamasını da netleştirir. Kapı sayınızı ve günlük kullanım yoğunluğunu paylaşın, en az kesintili saati birlikte belirleyelim.",
+            },
+            {
+                soru: "Kış öncesi açık sahadaki tente ve aydınlatma direklerini kontrol ettirmek istiyoruz; ne zaman planlanmalı?",
+                cevap:
+                    "Yağışlı sezon başlamadan dört-altı hafta önceki hazırlık penceresi idealdir — bu dönemde tente-sundurma iskeletleri ve saha aydınlatma direkleri topluca kontrol edilip onarılır. Sezon ortasında arıza kaynaklı kesinti yaşamamak için hazırlık paketini takvime bağlamanızı öneririz. Saha büyüklüğünüzü ve kalem sayınızı paylaşın, hazırlık penceresi için gün sayısını önceden söyleyelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo içi/açık saha makine ayrımı, zon bazlı sprinkler planı ve mevsimsel hazırlık penceresi firma pratiğidir; zemin taşıma davranışı genel saha mühendisliği bilgisidir.",
+    },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Depo Koridorunda Raf Erişimi İçin Makaslı Platform Kiralama",
+        giris:
+            "Manlift ihtiyacımızın çoğu depo içi raf hattından gelirken, aynı koridorda bazen manlift yerine makaslı platform daha uygun çıkar — özellikle iş tek bir raf gözünde veya kısa bir koridor bandında yoğunlaşıyorsa. Makaslı platformun farkı geniş ve düz bir sepet tabanı sunmasıdır: birden fazla kişi ve malzeme aynı anda sepette durabilir, bu da tek seferde birden fazla kalemin (aydınlatma değişimi ile sprinkler kontrolü gibi) art arda yapılmasını kolaylaştırır. Batı hattındaki depo ve fabrika sahalarında koridor genişliği yeterliyse, akülü makaslı platform hem sessiz hem zeminde iz bırakmayan bir seçenektir; koridor dar veya raf arası engebeliyse dar şaseli manlift veya eklemli platform daha doğru olur. Bu sayfa, makaslı platformun depo içindeki yerini, hangi işlerde manlifte tercih edildiğini ve koridor-alan uyumunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Makaslı platform ne zaman manlifte tercih edilir",
+                metin:
+                    "İş tek noktada değil, bir koridor bandı veya geniş bir tavan alanı boyunca sürüyorsa makaslı platform avantajlıdır — geniş sepet tabanı birden fazla kişinin ve malzemenin aynı anda taşınmasını sağlar, bu da tekrarlayan kalemlerde (raf boyu aydınlatma değişimi gibi) duraklama sayısını azaltır. Buna karşılık tek bir yüksek noktaya erişim veya raf arasında dar bir geçiş gerekiyorsa dar şaseli manlift daha hızlı çözüm olur. Keşifte iş kalemi sayısı ve yayılımına bakılarak ikisi arasında seçim yapılır.",
+            },
+            {
+                baslik: "Koridor genişliği ve şase ölçüsü uyumu",
+                metin:
+                    "Makaslı platformun şasesi dar şaseli manlifte göre daha geniştir, bu yüzden koridor genişliği burada belirleyici sınırdır. Çalışmadan önce en dar koridorun net ölçüsü alınır ve makaslı platformun geçiş genişliğiyle karşılaştırılır; ölçü yetmiyorsa dar şaseli manlift veya eklemli platform önerilir. Koridorun tamamen boş olması şart değildir — yalnız çalışma karesinin altındaki raf gözleri boşaltılır, komşu gözler yerinde kalabilir.",
+            },
+            {
+                baslik: "Geniş sepet tabanının pratik faydası: çoklu iş kalemi",
+                metin:
+                    "Makaslı platformun sepeti, dar şaseli manlifte göre daha fazla malzeme ve daha fazla kişi taşıyabilir. Bu, raf hattı boyunca aydınlatma armatürü değişimi ile sprinkler başlık kontrolünün aynı sepet çıkışında art arda yapılmasını mümkün kılar — iki ayrı iş için iki ayrı makine çağrısı yerine tek geçişte iki kalem biter. Malzeme listesi keşifte netleştirilir ve sepete alınacak parça sayısı önceden planlanır.",
+            },
+            {
+                baslik: "Tavan altyapısı işlerinde zon bazlı ilerleme",
+                metin:
+                    "Geniş tavan alanlarında (havalandırma kanalı bağlantıları, geniş sprinkler branşmanı, çatı altı kablo tavası) makaslı platformun düz ve stabil tabanı avantaj sağlar. Deponun tamamını kapatmak yerine bölge bölge ilerlenir: bir zon kısa süreli boşaltılır, o zonun tavan kalemleri bitirilir ve stok yerine döner. Denetim tarihli işlerde zon sayısı ve günlük kapasite hesaplanarak plan geriye doğru kurulur.",
+            },
+            {
+                baslik: "Akülü seçim ve depo trafiğiyle uyum",
+                metin:
+                    "Kapalı depo ve fabrika içi kullanımda akülü makaslı platform standarttır — egzoz emisyonu yoktur, gürültüsü düşüktür ve beton zeminde iz bırakmaz. Şasenin geniş olması, forklift trafiğinin yoğun olduğu ana koridorlarda geçici bir engel oluşturabileceğinden, çalışma karesi ve makine güzergâhı depo şefiyle önceden netleştirilir; mal kabul-sevkiyat dalgalarının durgun bantlarına veya vardiya devir saatlerine yerleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform ile manlift arasındaki seçim tablosu",
+                paragraflar: [
+                    "Depo içi işlerde iki makine sınıfı arasındaki seçim, iş kalemi tipine ve koridor ölçüsüne göre aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen makine", "Neden"],
+                    satirlar: [
+                        ["Koridor boyu tekrarlayan iş (aydınlatma değişimi)", "Akülü makaslı platform", "Geniş sepet, çoklu kalem tek geçişte"],
+                        ["Tek nokta, dar geçiş", "Akülü dar şase manlift", "Dar koridora sığar, hızlı erişim"],
+                        ["Raf arası engebeli/dar açıklık", "Eklemli platform", "Bom ile engel etrafından erişim"],
+                        ["Geniş tavan alanı, zon bazlı iş", "Akülü makaslı platform", "Stabil geniş taban, çoklu kişi"],
+                        ["Açık stok sahası, düzensiz zemin", "Dizel arazi tipi manlift", "Zemine uygun tekerlek/şase"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sepet yükü ve malzeme planlaması",
+                paragraflar: [
+                    "Makaslı platformun geniş tabanı, birden fazla kalemin tek çıkışta bitirilmesini mümkün kılsa da sepet kapasitesi sınırsız değildir — taşınacak malzeme ve kişi sayısı keşifte netleştirilir, aşırı yükleme yapılmaz. Aydınlatma armatürü, sprinkler parçası, el aleti gibi malzemeler önceden listelenir ve sepete çıkmadan kontrol edilir.",
+                    "Bu disiplin, sepetin ikinci bir inişe gerek kalmadan işi bitirmesini sağlar ve depo trafiğindeki makine bekleme süresini kısaltır.",
+                ],
+            },
+            {
+                baslik: "Sezon öncesi toplu bakımda makaslı platformun rolü",
+                paragraflar: [
+                    "Bayram öncesi yükleme yoğunluğu veya yıl sonu sayım dönemi öncesinde açılan dört-altı haftalık hazırlık penceresinde, makaslı platform koridor boyu tekrarlayan kalemler için tercih edilir — aydınlatma, sprinkler ve raf ankraj görsel kontrolü aynı geçişte toplu olarak bitirilir.",
+                    "Hazırlık paketini takvime bağlayan depolar, sezon ortasında arıza kaynaklı koridor kaybı yaşamaz; makaslı platformun çoklu kalem avantajı bu toplu bakım modelinde en çok fark yaratır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform mu, manlift mi bize daha uygun; nasıl karar veriyorsunuz?",
+                cevap:
+                    "Karar iş kaleminin yayılımına bakılarak verilir — koridor boyu tekrarlayan bir iş (örneğin raf hattı aydınlatma değişimi) makaslı platforma, tek bir noktaya hızlı erişim ise dar şaseli manlifte işaret eder. Koridor genişliği de belirleyicidir: makaslı platformun şasesi daha geniştir ve dar koridora sığmayabilir. İş kalemi listenizi ve koridor ölçünüzü paylaşın, keşifte netleştirelim.",
+            },
+            {
+                soru: "Koridorumuz dar, makaslı platform geçer mi?",
+                cevap:
+                    "Geçmeyebilir — makaslı platformun şasesi dar şaseli manlifte göre daha geniştir, bu yüzden en dar koridorun net ölçüsü önce alınır. Ölçü yetmiyorsa dar şaseli manlift veya raf arası engebeli noktalarda eklemli platform önerilir. Koridor genişliğinizi ve en dar noktanın ölçüsünü paylaşın, uygun makineyi netleştirelim.",
+            },
+            {
+                soru: "Tek seferde hem aydınlatma değişimi hem sprinkler kontrolü yaptırmak istiyoruz; mümkün mü?",
+                cevap:
+                    "Evet, bu makaslı platformun tam olarak avantaj sağladığı durumdur — geniş sepet tabanı birden fazla malzeme ve kişiyi aynı anda taşıyabildiğinden, iki kalem art arda aynı sepet çıkışında bitirilebilir. Malzeme listesi keşifte netleştirilir ki sepete çıkmadan önce her şey hazır olsun. İki iş kaleminizi ve tahmini süresini paylaşın, tek geçişte plan çıkaralım.",
+            },
+            {
+                soru: "Depo trafiğimiz yoğun; geniş şase forklift yoluna engel olur mu?",
+                cevap:
+                    "Bu riski azaltmak için çalışma karesi ve makine güzergâhı depo şefiyle önceden netleştirilir, forklift rotası o bölge için geçici olarak yeniden çizilir. Çalışma, mal kabul-sevkiyat dalgalarının durgun bantlarına veya vardiya devir saatlerine yerleştirilir. Depo trafik yoğunluğunuzun hangi saatlerde düştüğünü paylaşın, en az çakışmalı pencereyi belirleyelim.",
+            },
+            {
+                soru: "Tavan alanımız geniş, tüm zonu tek günde bitirebilir miyiz?",
+                cevap:
+                    "Genellikle hayır — deponun tamamını aynı gün boşaltmak operasyonu durdurur, bu yüzden zon bazlı ilerleme önerilir: bir zon kısa süreli boşaltılır, o zonun tavan kalemleri bitirilir ve stok yerine döner. Toplam zon sayısına göre kaç günlük çalışma gerektiği hesaplanır. Tavan alanınızın ölçüsünü paylaşın, zon planını ve gün sayısını netleştirelim.",
+            },
+            {
+                soru: "Sezon öncesi toplu bakım için makaslı platform mu daha ekonomik?",
+                cevap:
+                    "Koridor boyu tekrarlayan çok sayıda kalem varsa evet — tek geçişte birden fazla iş bitirildiği için makine kullanım süresi ve toplam gün sayısı azalır. Kalemler tek noktalarda dağınıksa ayrı ayrı manlift erişimi daha hızlı olabilir. Hazırlık listenizdeki kalem sayısını ve koridor yerleşimini paylaşın, hangi modelin daha az günde biteceğini hesaplayalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform-manlift seçim mantığı, sepet yükü planlaması ve zon bazlı tavan çalışması firma pratiğidir; koridor-şase ölçü uyumu genel ekipman özellik bilgisidir.",
+    },
 };

@@ -2454,4 +2454,197 @@ export const PLATFORMISTANBUL_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. İstanbul'un ağırlıklı sabit zeminli sanayi-kentsel dokusu ve zor zemin ihtiyacının sınırlı olduğu Tuzla geri saha/kırsal ilçe örnekleri kamuya açık coğrafi bilgidir; bu alandaki sınırlı hacim dürüstçe belirtilmiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama — İki Yaka Hub Stratejisiyle İstanbul Geneli",
+        giris:
+            "Makaslı platform, sepetin dikey ve düz bir hatta yükselmesiyle çalışan, eklemli veya teleskopik bomun aksine yatay uzanım yerine geniş taban alanı ve yüksek taşıma kapasitesi sunan sınıftır — bu yüzden aydınlatma, tesisat, boya ve tavan işleri gibi hedefin doğrudan üzerinde durulan çalışmaların standart tercihidir. İstanbul'da bu sınıfın talebi şehrin kendi coğrafyasıyla iç içe geçer: Boğaz'ın iki yakası, tek bir depodan yönetilemeyecek kadar geniş bir alanı kapsar ve köprü-tünel geçişleri günün belirli saatlerinde ciddi zaman kaybına dönüşür. Bu yüzden makaslı platform filomuzu iki yaka mantığıyla konumlandırdık: Avrupa yakasını İkitelli hub'ı, Anadolu yakasını Tuzla ve Gebze hub'ları karşılar. Talebiniz hangi yakadaysa, makine o yakanın hub'ından çıkar ve köprüden veya tünelden geçmeden sahaya ulaşır — bu, hem teslim süresini kısaltır hem trafik dalgalanmasının teslim saatini oynatma riskini düşürür. Makaslı platform, filomuzun en yüksek hacimli sınıfı olduğu için bu iki yaka dağılımının faydası da burada en çok hissedilir: günlük, haftalık ve rutin bakım sözleşmeli kiralamaların büyük kısmı bu sınıfta yürür.",
+        maddeler: [
+            {
+                baslik: "Düz dikey erişimin uygun olduğu iş tipi",
+                metin:
+                    "Makaslı platform, sepeti tam olarak altındaki noktanın üzerine taşır; bu yüzden hedef, makinenin durduğu noktanın doğrudan üzerinde veya çok yakınındaysa en hızlı ve en ekonomik çözümdür. Asma tavan, aydınlatma armatürü, boru hattı, boya-badana ve iç mekân elektrik işleri bu tanıma girer. Hedefle makine arasında bir engel varsa (korkuluk, boru, çıkma cephe elemanı) yatayda uzanabilen eklemli sınıf daha uygun olur; bu ayrım keşifte netleştirilir.",
+            },
+            {
+                baslik: "Arazi tipi (RT) ve elektrikli akülü ayrımı",
+                metin:
+                    "Dış sahada, düz olmayan veya asfalt/beton dışı zeminde arazi tipi (RT) dizel makaslı, dört teker çekişi ve daha yüksek yük kapasitesiyle çalışır. Kapalı mekânda veya cilalı-hassas iç zeminlerde ise elektrikli akülü makaslı standarttır — sessiz çalışır, emisyon üretmez ve iz bırakmayan lastik seçeneğiyle zemine zarar vermez. İki sınıf da her iki hub grubunun parkında bulunur; hangisinin gönderileceği zemin türü ve iç-dış mekân bilgisine göre belirlenir.",
+            },
+            {
+                baslik: "İki yaka hub dağılımı — İkitelli, Tuzla, Gebze",
+                metin:
+                    "Avrupa yakasındaki talepler İkitelli hub'ından, Anadolu yakasındaki talepler ise Tuzla ve Gebze hub'larından karşılanır. Bu ayrım rastgele değil, şehrin fiziksel gerçeğine dayanır: İkitelli'den Anadolu yakasına bir makine göndermek, aynı işi Anadolu yakasındaki bir hub'dan yönetmekten çoğu zaman daha uzun sürer çünkü araç önce köprü veya tünel geçişini tamamlamak zorundadır. Talebiniz hangi yakadaysa, size en yakın hub önceliklidir; yalnızca o hub'ın parkında uygun model yoksa köprü/tünel geçişli destek devreye girer ve bu süre farkı talep alınırken açıkça bildirilir.",
+            },
+            {
+                baslik: "Yüksek hacim ve rutin kiralama ekonomisi",
+                metin:
+                    "Makaslı platform, filomuzun en kalabalık sınıfıdır ve bu derinlik, hem anlık taleplerde hem uzun süreli sözleşmelerde esneklik sağlar. Fabrika bakım departmanları, AVM operasyon ekipleri ve inşaat yüklenicileri gibi düzenli kullanıcılar için aylık veya proje süreli sözleşme modeli kurulabilir; bu modelde makine sahada sabit kalır veya belirli bir çevrimle değişir. Tek seferlik kısa işlerde ise bölge turlarına dizilme imkânı, nakliye maliyetini paylaştırır.",
+            },
+            {
+                baslik: "İki yaka arası acil talep akışı",
+                metin:
+                    "Bir yakadaki hub'ın parkı doluysa veya işiniz özel bir model gerektiriyorsa, karşı yakadaki hub'dan destek sağlanır. Bu durumda araç, gün içindeki trafik yoğunluğuna göre FSM Köprüsü, 15 Temmuz Şehitler Köprüsü veya Avrasya Tüneli güzergâhlarından en uygun olanını kullanır; sabah ve akşam yoğun saatlerinde bu geçiş süresi uzayabileceği için acil talep alındığında güzergâh ve tahmini süre birlikte bildirilir. Tarihi esnek işlerde ise talep, önce kendi yakanızdaki hub'ın uygun bir zaman dilimine yerleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yaka, hub ve geçiş güzergâhı tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, İstanbul'un iki yakasındaki tipik makaslı platform talebinin hangi hub'dan karşılandığını ve karşı yaka desteğinde kullanılan güzergâhı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep bölgesi", "Öncelikli hub", "Karşı yaka desteğinde güzergâh", "Tipik zemin"],
+                    satirlar: [
+                        ["Avrupa yakası (İkitelli ve çevresi)", "İkitelli", "FSM Köprüsü / Avrasya Tüneli", "Beton, epoksi, asfalt"],
+                        ["Anadolu yakası (Tuzla ve çevresi)", "Tuzla", "FSM Köprüsü / 15 Temmuz Şehitler Köprüsü", "Tersane sahası, beton"],
+                        ["Anadolu yakası (Gebze kuşağı)", "Gebze", "Kendi bölgesi — köprü gerekmez", "Depo/fabrika betonu"],
+                        ["İki yaka sınırındaki karma projeler", "En yakın hub, ardından destek", "İşin ilerleyişine göre değişir", "Proje bazlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "RT ve elektrikli arasında karar kriterleri",
+                paragraflar: [
+                    "Zemin sertliği, iç-dış mekân ayrımı ve emisyon kısıtı, RT-elektrikli kararının üç temel girdisidir. Açık sahada, toprak veya stabilize zeminde RT dizel gerekliyken, aynı işin kapalı bir hangar içinde devam eden kısmı elektrikliye geçebilir — büyük projelerde bu geçiş keşifte önceden planlanır ve iki farklı makine art arda veya paralel kullanılabilir. Yük kapasitesi de ayrı bir kriterdir: ağır malzeme taşınacaksa (kanal, boru, panel), RT sınıfının genelde daha yüksek kapasiteli modelleri tercih edilir.",
+                ],
+            },
+            {
+                baslik: "Uzun süreli sözleşmede makine rotasyonu",
+                paragraflar: [
+                    "Aylık veya proje süreli sözleşmelerde makine, periyodik bakım için belirli aralıklarla değiştirilir; bu rotasyon, sahadaki işin durmaması için önceden planlanan bir takvime bağlıdır. İki yaka hub yapısı burada da avantaj sağlar — rotasyon makinesi, aynı yakadaki hub'dan geldiği için değişim süresi kısa tutulur ve saha boşta kalmaz. Sözleşme süresince aynı operatör devam ediyorsa, bu da ayrıca planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Avrupa yakasındayız, İkitelli hub'ından mı hizmet alacağız her zaman?",
+                cevap:
+                    "Genel kural budur — Avrupa yakasındaki talepler öncelikle İkitelli hub'ından karşılanır çünkü bu, en kısa mesafe ve en düşük nakliye maliyeti anlamına gelir. İkitelli hub'ının parkında ihtiyacınız olan model o an müsait değilse, Anadolu yakasındaki hub'lardan köprü veya tünel geçişli destek sağlanır; bu durumda ek süre, talep alınırken açıkça bildirilir ve sizden onay alınmadan işlem yapılmaz.",
+            },
+            {
+                soru: "Dış sahada düz olmayan bir arazimiz var, RT mi elektrikli mi seçmeliyiz?",
+                cevap:
+                    "Zemin engebeliyse RT (arazi tipi) dizel makaslı önerilir çünkü dört teker çekişi düzensiz zeminde daha güvenli ilerler ve genelde daha yüksek yük kapasitesi taşır. Zemin düz beton veya asfaltsa ve emisyon kısıtı yoksa elektrikli de değerlendirilebilir, ancak açık sahada akü ömrü ve şarj planlaması ek bir değişkendir. Zemin fotoğrafı paylaşılırsa doğru sınıf keşifte netleştirilir.",
+            },
+            {
+                soru: "Makine köprüden mi tünelden mi geçiyor, bu süreyi ne kadar etkiler?",
+                cevap:
+                    "İki yaka arası destek gerektiğinde araç, o günün trafik durumuna göre FSM Köprüsü, 15 Temmuz Şehitler Köprüsü veya Avrasya Tüneli güzergâhlarından uygun olanı kullanır. Sabah 07:00-10:00 ve akşam 17:00-20:00 bandında bu geçişler genelde en yavaş seyreder; bu saatlere denk gelen acil taleplerde tahmini süre dürüstçe paylaşılır ve mümkünse geçiş öncesi veya sonrası bir zaman dilimine kaydırılması önerilir.",
+            },
+            {
+                soru: "Fabrikamızda düzenli bakım işi var, aylık sözleşmeyle kiralarsak avantajı ne olur?",
+                cevap:
+                    "Aylık veya proje süreli sözleşmede birim maliyet, tekil kısa süreli kiralamaya göre genelde daha uygun bir seviyeye oturur çünkü hem lojistik hem operatör planlaması tek seferde kurulur. Ayrıca periyodik bakım için makine değişimi önceden planlanan bir takvime bağlanır, saha boşta kalmaz. Bu modelin size uygun olup olmadığı, işin sıklığı ve süresi paylaşıldığında netleşir.",
+            },
+            {
+                soru: "İşimiz Avrupa yakasında ama uygun model sadece Anadolu yakasındaki hub'da varsa ne oluyor?",
+                cevap:
+                    "Bu durumda karşı yaka desteği devreye girer — makine, ilgili köprü veya tünel güzergâhından gönderilir ve bu ek süre size önceden bildirilir. Kararı siz verirsiniz: bekleyip kendi yakanızdaki hub'da model boşalmasını mı, yoksa ek süreyle karşı yakadan gelen makineyi mi tercih edeceğiniz teklif aşamasında netleştirilir. Hiçbir ek süre veya maliyet, onayınız alınmadan uygulanmaz.",
+            },
+            {
+                soru: "Makaslı platform en çok hangi işlerde kullanılıyor, standart bir sınıf mı?",
+                cevap:
+                    "Evet, filomuzun en yüksek hacimli sınıfıdır — aydınlatma değişimi, tavan-tesisat bakımı, boya-badana ve iç mekân elektrik işleri gibi hedefin doğrudan üzerinde çalışılan işlerin büyük kısmı bu sınıfla yürür. Hedefle aranızda bir engel varsa (korkuluk, boru hattı, eğrisel yüzey) eklemli platform daha uygun olabilir; hangi sınıfın işinize uyduğu, iş tarifiniz paylaşıldığında keşifte netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstanbul'un iki yaka coğrafyası, FSM Köprüsü / 15 Temmuz Şehitler Köprüsü / Avrasya Tüneli geçişleri ve İkitelli-Tuzla-Gebze hub konumları kamuya açık coğrafi bilgidir; hub-yaka eşleşmesi, RT-elektrikli seçim mantığı ve rutin kiralama ekonomisi firma pratiğidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama İstanbul — İki Yaka Hub Ağından Doğru Makine Seçimi",
+        giris:
+            "\"Manlift\" kelimesi Türkiye'de günlük kullanımda şemsiye bir terime dönüşmüş durumda — arayan kişi bazen makaslı platformu, bazen eklemli bomu, bazen forklift veya örümcek platformu kastediyor, çoğu zaman da hangisine ihtiyacı olduğunu tam bilmiyor. Bu sayfa tam olarak o noktadan başlıyor: doğru makineyi seçmek için önce işin ne olduğunu birlikte netleştiriyoruz. İstanbul'un ölçeği bu netleştirmeyi daha da önemli kılıyor çünkü şehir tek bir merkezden yönetilemeyecek kadar büyük ve iki yakaya bölünmüş durumda. Bu yüzden manlift talebini üç hub üzerinden karşılıyoruz: Avrupa yakasını İkitelli, Anadolu yakasını Tuzla ve Gebze hub'ları kapsıyor. Hangi yakadan aradığınız, hangi hub'ın devreye gireceğini belirleyen ilk veri; ikinci veri ise işin kendisi — yükseklik, zemin, iç-dış mekân ve varsa engel durumu. Bu iki bilgi netleştiğinde, doğru makine sınıfı ve en yakın hub'dan sevkiyat planı birlikte kurulur.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" terimi ne anlama geliyor, biz nasıl anlıyoruz",
+                metin:
+                    "Sektörde teknik karşılığı olmayan ama pazarda yaygın kullanılan bir terim olduğu için \"manlift kiralama\" araması, aslında makaslı platform, eklemli platform, teleskopik bom veya örümcek platform ihtiyaçlarının hepsini kapsayabiliyor. Telefonda veya formda ilk sorduğumuz şey bu yüzden marka veya model adı değil, işin kendisi: ne yüksekliğe çıkılacak, hedefle aranızda bir engel var mı, zemin nasıl, iç mi dış mekân mı. Bu dört cevap, doğru sınıfı büyük oranda belirler.",
+            },
+            {
+                baslik: "Doğru tipi belirleyen dört soru",
+                metin:
+                    "Yükseklik, işin gerektirdiği minimum çalışma yüksekliğini belirler ve sepetin hedefin biraz altında kalacağı unutulmamalıdır. Engel durumu, düz erişimin mi (makaslı) yoksa yatayda kırılımlı erişimin mi (eklemli) gerektiğini gösterir. Zemin türü, tekerlekli mi paletli mi, dizel mi akülü mü sorularının cevabını verir. İç-dış mekân ayrımı ise emisyon ve gürültü kısıtını belirler. Bu dört veri toplandığında, önerilen sınıf genelde tek bir doğru cevaba iner.",
+            },
+            {
+                baslik: "İki yaka, üç hub — genel kapsama mantığı",
+                metin:
+                    "İkitelli hub'ı Avrupa yakasının tamamına, Tuzla hub'ı Anadolu yakasının güney-doğu kesimine (tersane ve OSB yoğun bölge), Gebze hub'ı ise Anadolu yakasının doğu kuşağına (lojistik depo ve fabrika yoğun bölge) hizmet verir. Bu üçlü yapı, şehrin farklı sanayi dokularını ayrı ayrı tanıyan bir model kurar — İkitelli'nin sanayi sitesi dar sokakları, Tuzla'nın tersane sahaları ve Gebze'nin geniş depo kompleksleri, aynı makine karmasını aynı oranda talep etmez.",
+            },
+            {
+                baslik: "Acil ve aynı gün talep akışı",
+                metin:
+                    "Aynı gün teslim istendiğinde önce talebin bulunduğu yakanın hub'ı kontrol edilir; uygun model varsa mesafe kısa olduğu için genelde aynı gün içinde sahaya ulaşır. Uygun model o hub'da yoksa karşı yakadan destek değerlendirilir ve bu durumda köprü veya tünel geçiş süresi hesaba katılarak gerçekçi bir teslim penceresi verilir — \"bir şekilde yetiştiririz\" yerine, trafik durumuna göre dürüst bir tahmin paylaşılır.",
+            },
+            {
+                baslik: "Çok şubeli ve kurumsal firmalar için tek noktadan koordinasyon",
+                metin:
+                    "Hem Avrupa hem Anadolu yakasında şantiyesi veya tesisi olan kurumsal firmalar için talep, tek bir irtibat noktasından yönetilebilir; hangi işin hangi yaka hub'ından karşılanacağı arka planda planlanır, firmanın muhatap olduğu süreç ise tek ve sürekli kalır. Fatura ve sözleşme düzeni de bu tek nokta üzerinden kurulabilir, farklı şantiyeler için ayrı ayrı süreç yürütülmesine gerek kalmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İhtiyaç tarifinden makine sınıfına geçiş tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, sık karşılaşılan iş tariflerini olası doğru sınıfla eşleştirir; kesin karar her zaman keşifte iş detayına göre verilir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tarifi", "Muhtemel doğru sınıf", "Belirleyici kriter"],
+                    satirlar: [
+                        ["Tavanın hemen altında, engelsiz hedef", "Makaslı platform", "Düz dikey erişim yeterli mi"],
+                        ["Hedefle aramda korkuluk/boru var", "Eklemli platform (boom)", "Yatay kırılımlı erişim gerekli mi"],
+                        ["Dar kapı/merdivenden geçip iç mekânda açılmalı", "Sepetli/örümcek platform", "Geçit ölçüsü hedef ölçüden dar mı"],
+                        ["Malzeme istifleme, kısa mesafe taşıma", "Forklift / telehandler", "Yük ağırlığı ve zemin türü"],
+                        ["Ne istediğimi tam bilmiyorum", "Telefonda birlikte netleştirilir", "Yükseklik + engel + zemin + iç/dış"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda ve keşifte triage süreci",
+                paragraflar: [
+                    "İlk aramada teknik terim bilmeniz beklenmez — işi kendi cümlelerinizle anlatmanız yeterlidir. Sorularımız işin fotoğrafını zihinde netleştirmeye yöneliktir: hedef ne kadar yüksekte, aradaki mesafe boş mu dolu mu, zemin sert mi yumuşak mı, kapalı bir alan mı açık saha mı. Belirsiz kalan noktalar için fotoğraf istenir; büyük veya karmaşık işlerde yerinde keşif önerilir. Bu süreç, yanlış makine gönderilip sahada iş durmasını önlemek içindir.",
+                ],
+            },
+            {
+                baslik: "İki yakalı şehrin lojistik gerçeği ve firma stratejimiz",
+                paragraflar: [
+                    "İstanbul'un iki yakaya bölünmüş oluşu, tek merkezli bir kiralama firması için gerçek bir dezavantajdır — karşı yakadan gelen her makine, köprü veya tünel geçişinin süresini ve riskini taşır. Üç hub'lı yapımız bu dezavantajı tersine çevirmek için kuruldu: talebin büyük kısmı, kendi yakasındaki hub'dan, şehir içi köprü-tünel trafiğine hiç girmeden karşılanır. Karşı yaka desteği yalnızca istisnai durumlarda ve her zaman şeffaf bir süre bildirimiyle devreye girer.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift\" ile \"platform\" aynı şey mi?",
+                cevap:
+                    "Günlük kullanımda evet, birbirinin yerine kullanılıyor; ama teknik olarak \"manlift\" tek bir makine tipini değil, yükseğe erişim sağlayan tüm sınıfları (makaslı, eklemli, teleskopik, örümcek) kapsayan genel bir isimdir. Biz de bu yüzden \"manlift istiyorum\" diyen bir aramada önce işin kendisini soruyoruz; hangi teknik sınıfın uygun olduğu, iş tarifinden çıkar.",
+            },
+            {
+                soru: "Hangi tipi seçeceğimi bilmiyorum, nasıl karar veriyorsunuz?",
+                cevap:
+                    "Dört temel soruyla: hedef ne yükseklikte, aranızda bir engel var mı, zemin nasıl, iç mi dış mekân mı. Bu dört cevap çoğu işte tek bir doğru sınıfa işaret eder. Belirsiz kalan durumlarda fotoğraf istenir veya yerinde keşif önerilir; yanlış makine gönderip sahada iş durdurmaktansa, birkaç dakika ek soru sormayı tercih ederiz.",
+            },
+            {
+                soru: "Boğaz'ın iki yakasında da hub'ınız var mı yoksa tek merkezden mi yönetiyorsunuz?",
+                cevap:
+                    "Üç ayrı hub'ımız var: İkitelli Avrupa yakasını, Tuzla ve Gebze Anadolu yakasının farklı kesimlerini karşılar. Bu, tek merkezli bir yapının aksine, talebin büyük kısmının şehir içi köprü-tünel trafiğine hiç girmeden karşılanması anlamına gelir. Hangi hub'ın devreye gireceği, işin bulunduğu yakaya göre otomatik olarak belirlenir.",
+            },
+            {
+                soru: "Acil aradık, aynı gün İstanbul'un öbür yakasına makine gelir mi?",
+                cevap:
+                    "Genelde gelir ama süre, o günün trafik durumuna ve hangi köprü-tünel güzergâhının kullanılacağına bağlıdır; bu yüzden \"aynı gün\" derken saat aralığını da netleştiririz. Öncelik her zaman talebin bulunduğu yakadaki hub'dır — orada uygun model varsa süre zaten kısadır. Karşı yaka desteği gerekiyorsa bu, teklif aşamasında açıkça belirtilir.",
+            },
+            {
+                soru: "Kurumsal firmayız, hem Avrupa hem Anadolu yakasında şantiyemiz var, tek sözleşmeyle yönetilir mi?",
+                cevap:
+                    "Evet — tek bir irtibat noktası ve tek bir sözleşme/fatura düzeni üzerinden, farklı yakalardaki şantiyelerinizin talebi arka planda ilgili hub'a yönlendirilerek yürütülür. Sizin tarafınızdan görülen süreç tek ve sürekli kalır; hangi işin hangi hub'dan çıktığı operasyonel bir detaydır, firmanıza ayrı ayrı yansıtılmaz.",
+            },
+            {
+                soru: "Manlift kiralarken en çok yapılan hata nedir?",
+                cevap:
+                    "En sık karşılaştığımız hata, yükseklik veya zemin bilgisi netleşmeden makine talep edilmesi — bu durumda sahaya giden makine ya yetersiz kalır ya da gereğinden büyük ve pahalı olur. İkinci sık hata, engel durumunun (korkuluk, boru hattı, eğrisel yüzey) atlanıp düz erişimli makaslı istenmesi, oysa iş yatay uzanım gerektirir. Bu yüzden ilk görüşmede birkaç dakika ek soru sormayı, sahada yaşanacak gecikmeye tercih ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. \"Manlift\" teriminin Türkiye pazarında şemsiye kullanımı ve İstanbul'un iki yaka coğrafyası ile köprü-tünel geçişleri kamuya açık bilgidir; hub-yaka eşleşmesi ve triage süreci firma pratiğidir.",
+    },
 };

@@ -1269,4 +1269,101 @@ export const IZMIRMAKASLIPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'ın beton/asfalt ağırlıklı kentsel zemin dokusu kamuya açık genel bilgidir; bu domainde zor zemin/arazi tipi talep sıklığının düşük olduğu ve makine parkının şehir merkezi profiline göre kurulu olduğu dürüstçe belirtilmiştir. Sahte kapasite veya hazır bulunurluk iddia edilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama — Konak-Alsancak Otel ve AVM Cephesi İçin Proje Ölçeği",
+        giris:
+            "Makaslı platform kiralama konusunda bu domainin uzmanlığı, Konak-Alsancak şehir merkezindeki otel yenileme ve AVM cephesi işlerinin proje ölçeğinde çalışmasıdır — yani tek bir seferlik dar cephe boyaması değil, birden fazla katı ve haftalarca süren bir yenileme takvimini kapsayan işler. Bir otel binasının dış cephesi yenilenirken veya bir AVM'nin giriş cephesi ile yürüyen merdiven boşluğu elden geçirilirken, iş genellikle tek bir makine değil, art arda veya paralel çalışan birkaç makaslı platformu ve haftalar süren bir kiralama süresini gerektirir. Bu ölçekte çalışmanın kendine has zorlukları vardır: otel müşteri girişi kapatılamadığı için çalışma saatleri gece veya erken sabaha kayabilir, AVM'de ziyaretçi güvenliği için çalışma alanı bariyerle çevrilmeli ve platform her gün aynı noktaya geri taşınmalıdır. Bu sayfa, makaslı platformun proje ölçeğinde nasıl planlandığını, kaç makine gerektiğini, teslimat ve rotasyon mantığını ve otel/AVM işletmesiyle koordinasyonun nasıl yürüdüğünü ayrıntılı biçimde anlatır. Manlift (eklemli/teleskopik bum) ihtiyacı için ayrı bir sayfamız var; bu sayfa özellikle düz, dikey erişimli cephe ve iç mekân işlerinde tercih edilen makaslı platform kiralamasına odaklanır.",
+        maddeler: [
+            { baslik: "Proje ölçeğini net tanımlamak", metin: "Tek günlük bir iş ile haftalar süren bir otel/AVM yenilemesi farklı planlama gerektirir. İlk görüşmede işin toplam süresi, kaç cephe/kat kapsandığı ve günlük çalışma penceresi (gece mi, gündüz mü) netleştirilir; bu bilgiye göre makine sayısı ve rotasyon takvimi çıkarılır." },
+            { baslik: "Otel/AVM işletmesiyle çalışma saati koordinasyonu", metin: "Otel lobisi veya AVM giriş cephesi gündüz kapatılamadığından, makaslı platform çoğunlukla gece veya erken sabah saatlerinde çalışır. Bu, işletmenin güvenlik ve resepsiyon ekibiyle önceden koordine edilen bir giriş-çıkış planı gerektirir; platformun bina içine alınma ve çıkarılma saatleri net olmalıdır." },
+            { baslik: "Kat ve cephe rotasyonuna göre makine sayısını belirlemek", metin: "Çok katlı bir otel cephesinde tek makaslı platform yeterli olmayabilir; iş takvimine göre 2-3 makine paralel çalıştırılabilir veya tek makine belirli bir rotasyon programıyla cepheler arasında taşınır. Rotasyon planı, boyacı/badana ekibinin ilerleme hızına göre haftalık olarak güncellenir." },
+            { baslik: "AVM ziyaretçi güvenliği için çalışma alanı sınırlama", metin: "AVM içinde veya girişinde çalışılan bölüm mutlaka bariyer/şerit ile ayrılır ve platform hareket alanı ziyaretçi yürüyüş güzergâhından uzak tutulur. Yoğun saatlerde (öğleden sonra, hafta sonu) çalışma durdurulabilir; bu program işletmeyle önceden belirlenir." },
+            { baslik: "Uzun süreli kiralamada bakım ve yedek makine planı", metin: "Haftalar süren bir projede platformun periyodik bakımı veya arıza ihtimaline karşı yedek makine erişimi önemlidir. Uzun süreli kiralamalarda, işin aksamaması için bölgede yedek bir makaslı platform bulundurma veya hızlı değişim garantisi konuşulur." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje ölçeğine göre makine ve süre tablosu",
+                paragraflar: ["Aşağıdaki tablo, otel/AVM cephesi işlerinde iş büyüklüğüne göre tipik makaslı platform ihtiyacını gösterir; kesin sayı sahada görülerek netleştirilir."],
+                tablo: {
+                    basliklar: ["İş büyüklüğü", "Tipik süre", "Makine sayısı", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Tek cephe, 3-4 kat", "1-2 hafta", "1 makaslı platform", "Gece veya erken sabah"],
+                        ["Otel tam cephe yenileme", "3-6 hafta", "1-2 makine, rotasyonlu", "Gece ağırlıklı"],
+                        ["AVM giriş cephesi + iç galeri", "2-4 hafta", "1 makine, bariyerli alan", "Gece/erken saat"],
+                        ["Çok bloklu otel kompleksi", "6+ hafta", "2-3 makine, paralel", "Gece + hafta sonu esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gece çalışmasının pratik gerçekleri",
+                paragraflar: [
+                    "Otel ve AVM cephesi işlerinde gece çalışması sık tercih edilir çünkü gündüz müşteri/ziyaretçi trafiği kesintisiz sürer. Gece çalışmasında ek aydınlatma, gürültü kısıtı (özellikle otel konaklama katlarına yakınsa) ve platformun sabah saatlerinde görünmeyecek şekilde park edilmesi gibi pratik detaylar öne çıkar.",
+                    "Operatör ekibinin gece vardiyası, işletmenin gece güvenlik ekibiyle koordine edilir; giriş-çıkış saatleri ve bina anahtar/kart erişimi önceden netleştirilir." ],
+            },
+            {
+                baslik: "Rotasyon planı nasıl kurulur",
+                paragraflar: [
+                    "Çok katlı veya çok cepheli bir işte, boyama/badana ekibinin günlük ilerleme hızı takip edilir ve platform bir sonraki bölüme göre haftalık rotasyon takvimiyle taşınır. Bu, tek makineyle büyük bir işi yönetmenin maliyet açısından en verimli yoludur.",
+                    "Rotasyon gecikirse (örneğin hava koşulları nedeniyle boyama ertelenirse) kiralama süresi de buna göre esnetilir; proje ölçeğindeki kiralamalarda haftalık yeniden değerlendirme standarttır." ],
+            },
+        ],
+        sss: [
+            { soru: "Otel cephesi yenilemesi için kaç makaslı platform gerekir?", cevap: "Bu, cephenin büyüklüğüne ve iş takvimine bağlıdır. Tek cepheli, 3-4 katlı bir otel için genellikle 1 makine rotasyonla yeterli olurken, çok bloklu bir kompleks için 2-3 makine paralel çalıştırılabilir. Sahada görülmeden kesin sayı verilmez; ilk görüşmede işin kapsamı ve süresi netleştirilir." },
+            { soru: "AVM cephesi işi için gece çalışma zorunlu mu?", cevap: "Zorunlu değil ama pratikte tercih edilir, çünkü AVM gündüz ziyaretçi trafiğine kapatılamaz. Giriş cephesi veya iç galeri gibi ziyaretçi yoğun alanlarda gece/erken sabah çalışması önerilir; daha az yoğun bölümlerde gündüz bariyerli çalışma da mümkündür." },
+            { soru: "Haftalar süren bir kiralamada fiyat nasıl belirlenir?", cevap: "Proje ölçeğindeki kiralamalarda genellikle haftalık veya aylık bir kira bedeli üzerinden anlaşılır; günlük fiyatlandırmaya göre daha avantajlıdır. Kesin bedel, makine sayısı, süre ve operatörlü/operatörsüz tercihine göre teklif aşamasında netleştirilir." },
+            { soru: "Rotasyon planı işin ortasında değişirse ne olur?", cevap: "Boyama/badana ekibinin ilerleme hızına göre rotasyon takvimi haftalık olarak yeniden değerlendirilir. Hava koşulları veya iş sırası değişirse, platformun hangi cepheye ne zaman taşınacağı işletmeyle birlikte güncellenir; bu esneklik proje ölçeğindeki kiralamanın standart bir parçasıdır." },
+            { soru: "Otel müşterileri platformdan rahatsız olur mu, önlem alıyor musunuz?", cevap: "Gece çalışması tercih edilerek gündüz müşteri trafiğiyle çakışma en aza indirilir; konaklama katlarına yakın çalışmada gürültü kısıtına dikkat edilir. Ayrıca çalışma alanı görsel olarak düzenli tutulur ve platform sabah saatlerinde göze çarpmayacak bir noktaya park edilir." },
+            { soru: "Uzun süreli kiralamada makine arızalanırsa ne olur?", cevap: "Haftalar süren projelerde arıza ihtimaline karşı bölgede yedek makine erişimi veya hızlı değişim garantisi konuşulur; işin aksamaması hedeflenir. Bu detay, uzun süreli kiralama teklifinin bir parçası olarak baştan netleştirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Otel/AVM cephe yenilemelerinde gece çalışması, ziyaretçi güvenliği ve rotasyon planlaması ihtiyacı, bu tür projelerin genel işleyişine dayanan bilinen pratiklerdir. Domaine özgü sahte proje sayısı, müşteri adı veya rakam uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama — Konak-Alsancak Otel ve AVM Cephesinde Eklemli/Teleskopik Erişim",
+        giris:
+            "Manlift kiralama, bu domainin ana uzmanlığı olan makaslı platformdan farklı bir erişim ihtiyacına cevap verir: düz, dikey yüzeyler yerine çıkıntılı, girintili veya yatayda uzanan bir erişim gerektiğinde devreye girer. Konak-Alsancak'taki otel ve AVM cephelerinde bu ihtiyaç genellikle şu durumlarda ortaya çıkar — bir otelin cephesinde balkon çıkıntıları veya tabela/yapı elemanı üzerinden çalışma gerekiyorsa, bir AVM'nin giriş saçağı veya tente üstü bakım gerektiriyorsa, ya da bina cephesinin önünde bir engel (ağaç, direk, başka bir yapı) varsa, makaslı platformun dikey-doğrusal hareketi yetersiz kalır ve eklemli veya teleskopik bum'a sahip bir manlift'in yatay/açılı erişimi gerekir. Bu sayfa, aynı otel/AVM bağlamında ne zaman makaslı platform yerine manlift tercih edilmesi gerektiğini, hangi manlift tipinin (eklemli mi teleskopik mi) hangi engel türüne uygun olduğunu ve şehir merkezi trafiğinde bu tip makinenin sevkiyat/konumlandırma gerçeklerini anlatır. Amaç, iki makine tipi arasındaki farkı net göstermek ve doğru makineyi doğru işe yönlendirmektir.",
+        maddeler: [
+            { baslik: "Ne zaman makaslı platform yerine manlift gerekir", metin: "Cephe düz ve engelsizse makaslı platform yeterlidir ve genellikle daha ekonomiktir. Ancak cephede çıkıntı (balkon, saçak, tabela), yatay uzanım gerektiren bir nokta (bina önündeki bir ağaç veya direğin arkasına erişim) varsa, eklemli bum'un 'yukarı-yana-öne' hareketi gerekir; bu ayrım ilk sahada değerlendirilir." },
+            { baslik: "Eklemli mi teleskopik mi — engel türüne göre seçim", metin: "Eklemli bum, dirsek benzeri hareketiyle bir engelin üzerinden veya arkasından dolaşarak erişim sağlar (örneğin bir saçağın altına girip üstüne çıkmak). Teleskopik bum ise düz bir doğrultuda daha uzağa ve yükseğe ulaşır, engelsiz ama geniş bir cephe için daha uygundur. Doğru tip, engelin şekline göre seçilir." },
+            { baslik: "AVM saçağı/tente üstü bakım özel durumu", metin: "AVM giriş saçağı veya tente üstü bir aydınlatma/tabela bakımı, saçağın altından geçip üstüne erişim gerektirebilir; bu tipik bir eklemli bum işidir. Saçak altındaki yaya trafiği nedeniyle çalışma saatleri ve bariyer planı burada da geçerlidir." },
+            { baslik: "Şehir merkezi trafiğinde manlift sevkiyat ve konumlandırma", metin: "Manlift'ler (özellikle teleskopik olanlar) makaslı platforma göre daha büyük taban alanı ve dönüş yarıçapı gerektirebilir. Konak-Alsancak'ın dar sokaklarında konumlandırma öncesi yol genişliği ve park/duraklama izni kontrol edilir; bazı noktalarda gece geç saat sevkiyatı tercih edilir." },
+            { baslik: "Otel bahçesi veya AVM dış alanındaki ağaç/direk engeli", metin: "Bina önündeki bir ağaç, aydınlatma direği veya tabela, düz bir makaslı platformun cepheye dik erişimini engelleyebilir. Bu durumda eklemli bum, engelin yanından dolaşarak cepheye ulaşabilir; bu tip engellerin varlığı ilk keşifte fotoğrafla değerlendirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform ile manlift karşılaştırma tablosu",
+                paragraflar: ["Aşağıdaki tablo, aynı otel/AVM bağlamında iki makine tipi arasındaki temel farkı gösterir."],
+                tablo: {
+                    basliklar: ["Özellik", "Makaslı platform", "Manlift (eklemli/teleskopik)"],
+                    satirlar: [
+                        ["Hareket yönü", "Dikey (yukarı-aşağı)", "Yukarı + yana/açılı erişim"],
+                        ["Engelli cephe (çıkıntı, saçak)", "Uygun değil", "Eklemli bum ile uygun"],
+                        ["Taban alanı ihtiyacı", "Dar, sabit", "Genellikle daha geniş"],
+                        ["Tipik otel/AVM kullanımı", "Düz cephe boyama/yenileme", "Saçak altı, çıkıntı, engel arkası bakım"],
+                        ["Şehir merkezi sevkiyatı", "Nispeten kolay", "Dar sokakta ek planlama gerekebilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hangi durumda ikisi birlikte kullanılır",
+                paragraflar: [
+                    "Bazı otel/AVM projelerinde cephenin büyük kısmı düz olduğu için makaslı platform, saçak altı veya çıkıntılı küçük bir bölüm için ise manlift kullanılır. Bu iki makinenin aynı proje içinde farklı günlerde veya farklı ekiplerle paralel çalıştığı durumlar olabilir.",
+                    "Bu tip karma ihtiyaçta, önce cephenin tamamı fotoğraflarla değerlendirilir ve hangi bölümün hangi makineyle yapılacağı net bir plana bağlanır; gereksiz yere daha pahalı manlift kiralamaktan kaçınılır." ],
+            },
+            {
+                baslik: "Şehir merkezinde manlift konumlandırma öncesi kontrol listesi",
+                paragraflar: [
+                    "Sevkiyat öncesi yol genişliği, kaldırım engelleri (ağaç, direk, tabela) ve olası park/duraklama izni ihtiyacı değerlendirilir. Dar bir sokakta teleskopik bum yerine daha kompakt bir eklemli model tercih edilebilir.",
+                    "Gece geç saat sevkiyatı, gündüz trafiğinin yoğun olduğu Konak-Alsancak güzergâhlarında hem daha hızlı hem daha az dikkat çekici bir seçenektir; bu, otel/AVM işletmesiyle önceden planlanır." ],
+            },
+        ],
+        sss: [
+            { soru: "Otel cephemde balkon çıkıntıları var, makaslı platform yeterli mi?", cevap: "Genellikle yeterli olmaz; balkon çıkıntısının altına girip üstüne çıkmak için eklemli bum'lu bir manlift gerekir. Cephenin fotoğraflarını paylaşırsanız, hangi bölümde makaslı platform hangi bölümde manlift gerektiğini netleştirebiliriz." },
+            { soru: "AVM saçağının üstündeki tabelaya nasıl erişilir?", cevap: "Saçak altından geçip üstüne çıkan bir hareket gerektiği için tipik olarak eklemli bum'lu manlift kullanılır. Saçak altındaki yaya trafiği nedeniyle bu iş genellikle gece veya erken sabah saatlerinde, bariyerli bir alanda yapılır." },
+            { soru: "Eklemli ile teleskopik manlift arasındaki fark nedir?", cevap: "Eklemli bum dirsek gibi hareket ederek bir engelin üzerinden veya arkasından dolaşabilir; teleskopik bum ise düz bir doğrultuda daha uzağa ve yükseğe uzanır. Engelin şekline göre (dolaşma mı gerekiyor, düz uzanım mı yeterli) doğru tip seçilir." },
+            { soru: "Dar bir sokakta manlift konumlandırmak mümkün mü?", cevap: "Yol genişliği ve kaldırım engelleri önceden kontrol edilir; dar bir sokakta teleskopik yerine daha kompakt bir eklemli model tercih edilebilir. Bazı durumlarda gece geç saat sevkiyatı, gündüz trafiğinden kaçınmak için tercih edilir." },
+            { soru: "Aynı projede hem makaslı platform hem manlift kullanabilir miyiz?", cevap: "Evet, cephenin düz kısmı için makaslı platform, saçak altı veya çıkıntılı bölüm için manlift kullanılan karma projeler mümkündür. Önce cephenin tamamı değerlendirilir, hangi bölümün hangi makineyle yapılacağı plana bağlanır." },
+            { soru: "Manlift kiralaması makaslı platformdan daha mı pahalıdır?", cevap: "Genellikle evet, çünkü manlift'in eklemli/teleskopik mekanizması ve daha geniş taban alanı ihtiyacı maliyeti artırır. Bu yüzden yalnızca gerçekten gerekli olan bölümlerde manlift, düz cephede ise daha ekonomik makaslı platform önerilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Eklemli/teleskopik manlift ile makaslı platform arasındaki hareket ve kullanım farkı, ekipman türünün genel bilinen teknik özelliğidir; Konak-Alsancak'ın dar sokak/trafik gerçeği kamuya açık genel bilgidir. Domaine özgü sahte proje, müşteri adı veya rakam uydurulmamıştır.",
+    },
 };

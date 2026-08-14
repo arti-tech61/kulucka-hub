@@ -1656,4 +1656,178 @@ export const IZMIR_FORKLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Dolgu/havalı lastik ayrımının zemin tipine göre yapılması, ağır tonajlı makinede zemin taşıma kapasitesi riski ve İzmir'in yağışlı dönem koşulları sektör standardı ve kamuya açık iklim bilgisidir. Mevsimsel lastik/makine gözden geçirmesi ve yağışlı dönem çalışma programı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama: Gümrüklü Antrepo ve Hava Kargo Deposunda İç Mekân Yükseklik Erişimi",
+        giris:
+            "Liman geri sahası, gümrüklü antrepo ve hava kargo terminalinde çalışan filomuz uzun süredir yalnız yük elleçleme üzerine kuruluydu; ama aynı depoların içinde forkliftin çözemediği farklı bir ihtiyaç sürekli tekrarlanıyordu — raf üstü envanter kontrolü, çatı altı aydınlatma bakımı, sprinkler ve yangın hattı denetimi, kamera veya anten montajı gibi personelin bizzat yükseğe çıkması gereken işler. Forklift bu işler için uygun bir makine değildir; çatalları üzerinde yük taşımak üzere tasarlanmıştır ve personeli güvenle sabit bir noktaya çıkarmaz. Bu ihtiyacı fark ettikten sonra filomuza makaslı platform ekledik — aynı liman ve hava kargo müşteri tabanına, aynı sahalarda, tamamlayıcı bir hizmet olarak sunuyoruz. Makaslı platform, sepetini dikey olarak yukarı kaldırır ve geniş, düz bir çalışma tabanı sağlar; bu özellik onu antrepo içindeki raf üstü ve tavan altı işler için forkliftten çok daha uygun kılar. Bu sayfa, gümrüklü depo ve hava kargo tesisinde makaslı platformun hangi işlerde kullanıldığını, tavan yüksekliğine göre sınıf seçimini, zemin tipinin lastik kararını nasıl etkilediğini ve aynı sahada forklift operasyonuyla nasıl çakışmadan yürütüldüğünü anlatır.",
+        maddeler: [
+            {
+                baslik: "Forklift yük taşır, makaslı platform personeli yükseğe çıkarır — iş bölümü net",
+                metin: "Forklift, çatalları üzerindeki paleti veya konteyner içeriğini kaldırıp taşımak için tasarlanmıştır; dengesini karşı ağırlıkla kurar ve sepetine personel bindirilmesi mevzuata aykırıdır. Makaslı platform ise tam tersi bir görevi yerine getirir: sepetinde bir veya birkaç kişiyi güvenle, düz bir çalışma tabanında yukarı taşır. Aynı antrepoda her iki ihtiyaç da varsa — örneğin bir palet rafa kaldırılırken aynı gün rafın üst gözündeki bir ürün sayılacaksa — iki makine ayrı görevlerle birlikte çalışır, biri diğerinin yerine geçmez.",
+            },
+            {
+                baslik: "Tavan yüksekliği, platform sınıfını belirleyen ilk veridir",
+                metin: "Gümrüklü depo ve hava kargo hangarlarının tavan yüksekliği genellikle sabit bir bantta durur ve bu ölçü, hangi makaslı platform sınıfının işi güvenle görebileceğini belirler. Çalışma yüksekliği hesaplanırken yalnızca sepet tabanının kotu değil, üzerine çıkan kişinin boyu ve elini uzattığı mesafe de payına eklenir; bu pay hesaba katılmadan seçilen bir makine, hedef noktaya birkaç santim yetişemeyebilir. Bu yüzden platform sınıfı, sahaya gitmeden önce gerçek tavan ölçüsü paylaşılarak netleştirilir.",
+            },
+            {
+                baslik: "Antrepo zemini, lastik tipini forklift sahasından farklı bir mantıkla belirler",
+                metin: "Gümrüklü depo ve hava kargo tesislerinin çoğu epoksi kaplı veya perdahlı beton zemine sahiptir; bu yüzeylerde standart siyah lastik iz bırakabilir ve bu iz hem görsel hem de bazı sertifikalı depo standartlarında kabul edilmez bir durumdur. Bu nedenle iç mekân makaslı platformlarında iz bırakmayan (beyaz dolgu) lastik tercih edilir. Yükleme kapısı çevresindeki kot farkları veya rampa geçişleri varsa, bu noktalar platform teslim edilmeden önce ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Akülü tahrik, kapalı alan ve gece operasyonu için varsayılan tercihtir",
+                metin: "Antrepo ve hava kargo hangarı gibi kapalı alanlarda egzoz gazı çıkarmayan akülü makaslı platform tercih edilir; bu hem havalandırma yükünü azaltır hem de ses seviyesini düşük tutar. Hava kargo terminalinin gece vardiyasında sessiz çalışma özellikle önemlidir, çünkü aynı hangarda o saatte başka operasyonlar da sürebilir. Şarj döngüsü, vardiya uzunluğuna göre önceden planlanır; tam vardiya boyunca kesintisiz kullanım öngörülüyorsa yedek batarya veya rotasyonlu şarj değerlendirilir.",
+            },
+            {
+                baslik: "Dar koridor ve raf arası geçiş, saha planı paylaşılmadan varsayılmaz",
+                metin: "Gümrüklü depoların raf koridor genişliği sabit bir standarda göre kurulur ve bu ölçü, hangi makaslı platform şasesinin koridora sığacağını belirler. Geniş tabanlı bir platform dar bir koridora giremez, aşırı dar bir şase ise stabilite payını düşürür. Bu yüzden koridor genişliği ve raf düzeni, makine gönderilmeden önce netleştirilir; sahada tahminle karar verilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân yükseklik erişim senaryosuna göre platform sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, gümrüklü antrepo ve hava kargo tesisinde en sık karşılaşılan dört makaslı platform senaryosunu ve her birinde öncelikli kontrol noktasını özetler. Kesin sınıf, gerçek tavan yüksekliği ve koridor ölçüsüyle doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Öncelikli hedef", "Tipik sınıf", "Kritik nokta"],
+                    satirlar: [
+                        ["Raf üstü envanter kontrolü", "Dar koridora uygunluk", "Kompakt, dar şase", "Koridor genişliği"],
+                        ["Çatı altı aydınlatma bakımı", "Erişim yüksekliği", "Orta-yüksek sınıf, geniş sepet", "Tavan kotu"],
+                        ["Sprinkler / yangın hattı denetimi", "Sabit nokta hassasiyeti", "Dar şase, hassas kumanda", "Sepet konumlama"],
+                        ["Kamera / anten iç mekân montajı", "Uzun süreli sabit duruş", "Akülü, sessiz sınıf", "Şarj döngüsü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çalışma yüksekliği hesabı: tavan kotu, kişi boyu ve uzanım payı birlikte düşünülür",
+                paragraflar: [
+                    "Makaslı platform seçiminde en sık yapılan hata, yalnızca tavan yüksekliğine bakıp sepet tabanının o kotu karşılayacağını varsaymaktır. Gerçek hesap üç bileşenden oluşur: sepet tabanının kotu, üzerinde duran kişinin boyu ve elini kaldırarak uzanabildiği mesafe. Bu üçü toplandığında ulaşılabilir gerçek yükseklik ortaya çıkar; hedef nokta bu toplamın biraz altında kalacak şekilde makine sınıfı seçilir, tam sınırda bırakılmaz.",
+                    "Bu hesap bir kere doğru kurulduğunda, aynı bina tipindeki tekrarlayan bakım turlarında yeniden yapılmaz; saha ekibi aynı sınıfı talep eder. Bina değiştiğinde veya tavan üzerinde yeni bir engel (kanal, boru hattı) eklendiğinde hesap yeniden gözden geçirilir.",
+                ],
+            },
+            {
+                baslik: "Aynı sahada forklift ve makaslı platformun eşzamanlı koordinasyonu",
+                paragraflar: [
+                    "Gümrüklü antrepo veya hava kargo hangarında forklift ve makaslı platform aynı gün, hatta aynı koridorda çalışabilir. Bu durumda ikisinin rotası çakışmayacak şekilde önceden ayrılır: forklift palet taşıma güzergâhını kullanırken, platform sabit bir noktada durur ve çevresi geçici olarak işaretlenir. Bu ayrım sahada doğaçlama yapılmaz; iş programı hazırlanırken hangi saatte hangi makinenin hangi bölgede olacağı belirlenir.",
+                    "Kısa süreli işlerde (örneğin tek bir aydınlatma armatürü değişimi) platform genellikle birkaç saatliğine sahaya girer ve forklift operasyonunu durdurmadan tamamlanır; uzun süreli raf üstü sayım gibi işlerde ise günlük çalışma penceresi forklift trafiğinin en düşük olduğu saatlere denk getirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift filonuz varken neden makaslı platform da kiralıyorsunuz?",
+                cevap: "Çünkü ikisi farklı işleri görür. Forklift yük taşır, makaslı platform ise personeli güvenle sabit bir noktaya çıkarır; forkliflere personel sepeti bağlamak mevzuata aykırıdır ve güvenlik riski taşır. Liman ve hava kargo müşterilerimizde raf üstü kontrol, çatı altı aydınlatma bakımı gibi ihtiyaçlar sürekli tekrarlandığı için filomuza bu makineyi ayrıca ekledik; aynı sahaya, aynı ekiple hizmet veriyoruz.",
+            },
+            {
+                soru: "Antrepomuzun tavan yüksekliği ne kadar olursa hangi sınıf gerekir?",
+                cevap: "Tek bir sabit cevap yoktur; çalışma yüksekliği tavan kotu, çalışan kişinin boyu ve elini uzattığı mesafenin toplamıyla hesaplanır. Gerçek tavan ölçünüzü ve hedef noktanın konumunu paylaşırsanız uygun sınıfı birlikte netleştiririz; tahminle sınıf önerilmez.",
+            },
+            {
+                soru: "Antrepo zeminimiz epoksi kaplı, lastik iz bırakır mı?",
+                cevap: "Standart siyah lastik epoksi veya perdahlı beton zeminde iz bırakabilir; bu yüzden iç mekân makaslı platformlarında iz bırakmayan (beyaz dolgu) lastik kullanırız. Zemin tipinizi ve varsa depo standardınızdaki lastik şartını paylaşırsanız uygun donanımı önceden ayarlarız.",
+            },
+            {
+                soru: "Hava kargo hangarında gece vardiyasında platform çalıştırabilir miyiz?",
+                cevap: "Evet, bu durumlar için akülü ve sessiz çalışan sınıfları tercih ederiz; egzoz gazı çıkarmadıkları için kapalı alanda ve gece vardiyasında rahatlıkla kullanılabilirler. Vardiya uzunluğuna göre şarj döngüsünü önceden planlarız; tam vardiya kesintisiz kullanım gerekiyorsa yedek batarya seçeneğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Raf koridorumuz dar, her makaslı platform sığar mı?",
+                cevap: "Hayır, şase genişliği koridor ölçüsünden geniş olan bir platform koridora giremez. Bu yüzden koridor genişliğini ve raf düzenini sahaya makine gönderilmeden önce isteriz; ölçü paylaşıldığında uygun dar şaseli sınıfı öneririz.",
+            },
+            {
+                soru: "Forklift çalışırken aynı anda makaslı platform da sahada olabilir mi?",
+                cevap: "Olabilir, ancak rotalar önceden ayrılır. Forklift palet güzergâhını kullanırken platform sabit bir noktada durur ve çevresi geçici olarak işaretlenir; hangi saatte hangi makinenin hangi bölgede çalışacağı iş programında netleştirilir. Kısa süreli işlerde bu koordinasyon genellikle forklift operasyonunu hiç durdurmadan tamamlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çalışma yüksekliği hesabının tavan kotu + kişi boyu + uzanım payından oluşması, epoksi/perdahlı beton zeminde iz bırakmayan lastik gerekliliği, kapalı alanda akülü tercih edilmesi sektör standardı ve doğrulanabilir teknik bilgilerdir. Forklift-platform sahada eşzamanlı koordinasyon planlaması firma pratiğimizdir. Tesis adı, kapasite veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: Liman ve Hava Kargo Sahasında Konteyner Üstü, Çatı ve Aydınlatma Direği Erişimi",
+        giris:
+            "Liman geri sahası ve hava kargo terminalinde yükseklik erişimi ihtiyacı, antrepo içindeki dikey işlerden farklı bir karakter taşır: hedef nokta çoğunlukla açık havada, bir engelin arkasında veya üzerinde bulunur. Konteyner istifleri arasında etiket kontrolü gereken bir konteyner üstü, saha aydınlatma direğinin lambası, depo çatısının dış yüzeyi veya bir kamera direğinin tepesi gibi noktalara düz bir platformla ulaşmak çoğu zaman mümkün değildir — makinenin hem yukarı çıkması hem de yatay bir mesafe kadar öne uzanması gerekir. İşte forklift filomuza manlift eklememizin sebebi tam olarak bu: eklemli veya teleskopik bombasıyla manlift, sepetini hem yukarı hem de öne doğru hareket ettirerek engelin arkasındaki veya üzerindeki noktaya ulaşır; makaslı platformun aksine yalnız dikey değil, menzilli bir erişim sağlar. Aynı liman ve hava kargo müşteri tabanına, aynı sahalarda hizmet veriyoruz. Bu sayfa, konteyner üstü erişimde manlift kullanımını, saha aydınlatma direği ve çatı dış yüzeyi bakımında sınıf seçimini, açık saha zemin ve tahrik tipini ve gümrüklü/petrokimya yakını sahalarda ek güvenlik protokolünü anlatır.",
+        maddeler: [
+            {
+                baslik: "Bombanın yatay menzili, manlifti konteyner üstü erişimde forkliften ve platformdan ayırır",
+                metin: "Bir konteynerin üst yüzeyinde etiket kontrolü, mühür değişimi veya hasar tespiti gerektiğinde, makinenin konteyner yığınının kenarından değil üzerinden erişmesi gerekir. Eklemli veya teleskopik bombalı manlift, sepetini yukarı kaldırırken aynı zamanda öne doğru uzatabildiği için, altındaki konteyner sırasına veya başka bir engele takılmadan hedef yüzeye ulaşır. Makaslı platform bu hareketi yapamaz çünkü sepeti yalnız dikey eksende hareket eder; bu yüzden konteyner üstü işlerde varsayılan tercih manlifttir.",
+            },
+            {
+                baslik: "Saha aydınlatma direği ve kulesi bakımı, direğin yüksekliğine göre sınıflandırılır",
+                metin: "Liman geri sahası ve hava kargo apron çevresindeki aydınlatma direkleri farklı yükseklik bantlarında bulunur; kısa saha direkleri ile yüksek aydınlatma kuleleri aynı manlift sınıfıyla karşılanmaz. Direğin gerçek yüksekliği ve armatürün direk üzerindeki konumu paylaşıldığında, bombanın hem dikey hem yatay erişim payını karşılayan sınıf belirlenir. Rüzgârlı günlerde yüksek sınıf makinelerin çalışma sınırı üretici tarafından belirlenmiştir; bu sınır sahada aşılmaz.",
+            },
+            {
+                baslik: "Depo ve antrepo çatısının dış yüzeyi, iç mekân işlerinden ayrı bir erişim gerektirir",
+                metin: "Çatının dış yüzeyindeki su yalıtımı kontrolü, oluk temizliği veya güneş paneli bakımı, binanın dışından yapılan bir iştir ve içeriden makaslı platformla ulaşılamaz. Manlift, bina çevresinde uygun bir konumlanma noktasından bombasını çatı kenarına veya üzerine uzatarak bu erişimi sağlar. Konumlanma noktasının zemin sağlamlığı ve bina cephesine mesafesi, iş başlamadan önce sahada değerlendirilir.",
+            },
+            {
+                baslik: "Açık sahada zemin tipi, tahrik ve yakıt seçimini belirler",
+                metin: "Liman geri sahası ve hava kargo apron çevresi genellikle sert zeminli olsa da, saha kenarındaki toprak veya çakıl bölümlerde standart tahrikli manlift yetersiz kalabilir; bu noktalarda dört tekerlekten çekişli (4x4) ve dizel veya hibrit tahrikli sınıflar tercih edilir. Kapalı hangar yakınında veya apron üzerinde çalışılacaksa, egzoz kısıtı olan alanlarda akülü ya da hibrit sessiz mod özelliğine bakılır. Zemin tipini ve çalışma noktasının hangara olan mesafesini paylaşmak, doğru tahrik seçimini hızlandırır.",
+            },
+            {
+                baslik: "Gümrüklü ve petrokimya yakını sahalarda ek güvenlik protokolü uygulanır",
+                metin: "Liman çevresindeki bazı sahalar gümrük denetimine veya petrokimya tesislerine yakın bölgelerde bulunur; bu tür alanlarda çalışan personel ve makine giriş-çıkışı ayrı bir izin ve güvenlik protokolüne tabidir. Manlift operatörünün yeterlilik belgesi ve makinenin varsa ilgili sertifikaları, saha girişinden önce ibraz edilir. Bu protokol saha yönetiminin kuralına göre şekillenir; biz kendi tarafımızdan gereken belgeleri eksiksiz hazır tutarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Erişim senaryosuna göre manlift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, liman ve hava kargo sahasında en sık karşılaşılan dört manlift erişim senaryosunu ve her birinde öncelikli kontrol noktasını özetler. Kesin sınıf, gerçek yükseklik ve konumlanma mesafesiyle doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Öncelikli hedef", "Tipik sınıf", "Kritik nokta"],
+                    satirlar: [
+                        ["Konteyner üstü kontrol / etiket", "Yatay menzil", "Eklemli bombalı, orta sınıf", "Engel aşma mesafesi"],
+                        ["Saha aydınlatma direği bakımı", "Dikey + yatay erişim payı", "Teleskopik, yüksek sınıf", "Direk yüksekliği"],
+                        ["Depo çatısı dış yüzey bakımı", "Konumlanma güvenliği", "Eklemli, geniş menzil", "Zemin sağlamlığı"],
+                        ["Anten / kamera dış cephe kurulumu", "Sabit nokta hassasiyeti", "Teleskopik, hassas kumanda", "Rüzgâr sınırı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Menzil hesabı: dikey yükseklik, yatay uzanım ve engel aşma payı birlikte hesaplanır",
+                paragraflar: [
+                    "Manlift seçiminde tek başına 'kaç metreye çıkıyor' sorusu yeterli değildir; hedef nokta bir engelin arkasındaysa bombanın yatay uzanımı da hesaba katılmalıdır. Doğru yöntem, hedef noktanın yerden yüksekliğini, makinenin duracağı konumdan hedefe olan yatay mesafeyi ve aradaki engelin (konteyner sırası, bina çıkıntısı) yüksekliğini birlikte değerlendirmektir. Bu üç veri toplandığında, bombanın hem dikeyde hem yatayda yeterli payı olan sınıf belirlenir.",
+                    "Bu hesap özellikle konteyner üstü işlerde kritiktir çünkü konteyner sırası günden güne değişebilir; sabit bir sınıf her zaman aynı sırayı aşamayabilir. Bu yüzden tekrarlayan konteyner üstü işlerde güncel istif düzeni her seferinde teyit edilir.",
+                ],
+            },
+            {
+                baslik: "Açık saha zemin ve hava koşulu, çalışma penceresini belirler",
+                paragraflar: [
+                    "Liman ve hava kargo sahasının açık bölümlerinde zemin sertliği ve hava koşulu, dikey işlerden farklı olarak makinenin duruş stabilitesini doğrudan etkiler. Yağış sonrası yumuşamış zeminde yüksek sınıf bir manlift konumlanma noktasında saplanma riskiyle karşılaşabilir; bu risk, konumlanma noktası sahada önceden değerlendirilerek azaltılır.",
+                    "Rüzgâr, yüksek sınıf manliftlerde üretici tarafından belirlenen bir çalışma sınırına tabidir; bu sınır aşıldığında iş ertelenir. Saha aydınlatma direği veya çatı işleri gibi ertelenebilir bakım kalemlerinde bu sınır her zaman gözetilir, sabit bir program için sınır zorlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Konteyner üstünde kontrol yapacağız, forklift sepeti yeterli olur mu?",
+                cevap: "Hayır, forklife personel sepeti bağlamak mevzuata aykırıdır ve güvenlik riski taşır. Konteyner üstü erişim için eklemli veya teleskopik bombalı manlift kullanırız; bomba hem yukarı çıkar hem öne uzanır, böylece konteyner sırasının üzerinden hedef yüzeye güvenle ulaşılır.",
+            },
+            {
+                soru: "Saha aydınlatma direğimiz yüksek, hangi manlift sınıfı gerekir?",
+                cevap: "Direğin gerçek yüksekliği ve armatürün direk üzerindeki konumu bilinmeden kesin sınıf söylenemez; bu ikisi birlikte bombanın gereken dikey ve yatay erişim payını belirler. Direk yüksekliğinizi paylaşırsanız uygun teleskopik sınıfı birlikte netleştiririz.",
+            },
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark tam olarak nedir?",
+                cevap: "Makaslı platform sepetini yalnız dikey eksende yukarı kaldırır ve geniş, düz bir tabanla iç mekân işleri için uygundur. Manlift ise eklemli veya teleskopik bombasıyla hem yukarı hem öne uzanabilir; bu yüzden bir engelin arkasındaki veya üzerindeki noktaya (konteyner üstü, çatı kenarı gibi) ulaşmak gerektiğinde tercih edilir. İç mekân raf üstü işlerde platform, açık sahada engel arkası erişimde manlift kullanılır.",
+            },
+            {
+                soru: "Rüzgârlı günlerde manlift çalışabilir mi?",
+                cevap: "Yüksek sınıf manliftlerin rüzgâr için üretici tarafından belirlenmiş bir çalışma sınırı vardır ve bu sınır sahada aşılmaz. Ertelenebilir bakım işlerinde (aydınlatma direği, çatı kontrolü gibi) rüzgâr sınırı aşıldığında işi erteleriz; acil olmayan işlerde sabit bir programı zorlamayız.",
+            },
+            {
+                soru: "Gümrük bölgesine yakın sahada manlift çalıştırmak için ek izin gerekiyor mu?",
+                cevap: "Bazı liman çevresi sahalar gümrük denetimine veya petrokimya tesislerine yakın bölgelerde bulunur ve bu alanlarda saha yönetiminin kendi giriş-çıkış ve güvenlik protokolü uygulanır. Operatör yeterlilik belgesi ve gerekli makine sertifikaları tarafımızdan eksiksiz hazır tutulur; sahanızın özel bir protokolü varsa önceden bildirin, buna göre hazırlanırız.",
+            },
+            {
+                soru: "Açık sahada toprak veya çakıl zeminde manlift kullanılabilir mi?",
+                cevap: "Evet, ancak bu tür zeminlerde standart tahrikli makine yerine dört tekerlekten çekişli (4x4) sınıf tercih edilir. Yağış sonrası yumuşamış zeminde konumlanma noktası ayrıca değerlendirilir; gerekirse geçici plaka veya alternatif konumlanma noktası önerilir. Zemin tipinizi paylaşırsanız uygun tahrik sınıfını önceden belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli/teleskopik bombalı manliftin dikey+yatay erişim sağlaması, makaslı platformdan farkı, rüzgâr sınırının üretici tarafından belirlenmesi ve zemin tipine göre tahrik seçimi sektör standardı ve doğrulanabilir teknik bilgilerdir. Gümrük/petrokimya yakını saha protokolü ve konteyner üstü erişim uygulaması firma pratiğimizdir. Tesis adı, kapasite veya rakam uydurulmamıştır.",
+    },
 };

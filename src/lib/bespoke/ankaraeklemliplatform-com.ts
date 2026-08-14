@@ -2489,4 +2489,202 @@ export const ANKARAEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Şasi dengeleme, eğim sınırı ve yük dağıtım plakası uygulaması EN 280 ve üretici teknik standartlarıdır; Ankara OSB dış saha zemin çeşitliliği kamuya açık saha bilgisidir.",
     },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Ankara OSB'de Dar Alan ve Engebeli Zeminde Manlift Kiralama",
+        giris:
+            "Ankara sanayi bölgelerinde 'manlift' kelimesi çoğu firma için tek bir görüntüyü çağırır: sepetli bir platformun düz bir zeminde dikey çıktığı klasik senaryo. Ama OSTİM'den Sincan'a, İvedik'ten Başkent OSB'ye kadar sahaların büyük bölümü bu klasik senaryoya uymaz — parseller dar, giriş yolları dönüşlü, zemin kısmen sıkıştırılmış toprak veya henüz kaplanmamış dolgu, hedef ise bir engelin (sundurma, kat çıkması, boru hattı) arkasında. Bu koşullarda dikey mast tipi bir manlift işe yaramaz; gereken, dar bir noktaya park edip bomunu kırarak hem engebeli zeminde durabilen hem engelin üzerinden geçebilen bir makinedir. Filomuzun manlift hizmeti bu yüzden tek tip makine üzerine değil, sahanın iki değişkenine — zemin karakteri ve erişim geometrisi — göre kurulmuş bir seçim mantığı üzerine kuruludur. Bu sayfada 'manlift' talebinin Ankara OSB gerçeğinde nasıl doğru makineye dönüştüğünü, dar alan ile engebeli zeminin birlikte nasıl değerlendirildiğini ve hangi durumlarda standart mast tipi yerine eklemli/teleskopik dizel 4x4'ün tercih edildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "'Manlift' talebi geldiğinde ilk sorduğumuz iki soru",
+                metin:
+                    "Telefonda 'manlift lazım' denildiğinde ilk sorduğumuz şey model adı değil, sahanın iki özelliğidir: zemin ne — beton mu, sıkıştırılmış toprak mı, henüz asfaltlanmamış dolgu mu — ve makine hedefe düz bir hatla mı ulaşacak yoksa aradan bir engel mi geçecek. Bu iki cevap, önerilen makineyi büyük ölçüde belirler. Düz beton + engelsiz erişim; akülü dikey/makaslı bir sınıf yeterlidir. Engebeli zemin veya engelli erişimden biri varsa; dizel 4x4 tahrikli, bomu kırılabilen bir sınıfa geçilir. Bu yüzden 'manlift kiralama' aslında OSB'de tek bir ürün değil, saha koşuluna göre değişen bir karar ağacıdır.",
+            },
+            {
+                baslik: "Dar OSB parselinde park boşluğu, hedeften önemlidir",
+                metin:
+                    "Ankara OSB'lerinin çoğunda parsel arası mesafe dardır ve makinenin park edeceği boşluk, hedefin kendisinden daha belirleyici bir kısıttır. Dönüş yarıçapı geniş bir makine dar bir sokağa hiç giremez; keşifte bu yüzden önce park noktasının genişliği ve giriş açısı ölçülür, hedef ikinci sırada gelir. Kompakt şaseli, dar tekerlek izli modeller bu doku için özellikle tercih edilir — geniş gövdeli bir mast tipi manlift bazı parsellere fiziksel olarak sığmaz ve bu, işe başlamadan önce netleştirilmesi gereken bir kısıttır.",
+            },
+            {
+                baslik: "Engebeli/toprak zeminde tahrik kararı: neden dizel 4x4",
+                metin:
+                    "OSB dış sahalarında, henüz kaplanmamış parsellerde veya inşaat aşamasındaki tesislerde zemin sıkıştırılmış toprak, kırma taş dolgu veya kısmen çamurlu olabilir. Akülü tahrikli manlift modelleri bu zeminlerde ya hiç ilerleyemez ya da tekerlek batması riskiyle karşılaşır. Bu tip sahalarda arazi lastikli, dizel tahrikli 4x4 model standart tercihtir; şasi dengeleme sistemi zeminin eğimini algılar ve üreticinin tanımladığı sınırın dışında çalışmayı otomatik olarak kilitler. Zemin şüpheliyse keşifte fiziksel kontrol yapılır — 'muhtemelen taşır' diyerek makine gönderilmez.",
+            },
+            {
+                baslik: "Engel aşma: sundurma, kat çıkması, boru hattı önünde manlift",
+                metin:
+                    "Klasik dikey manlift, tam altına park edilebilen bir hedefte işe yarar; ama Ankara sanayi yapılarının çoğunda hedefin önünde bir engel vardır — zemin kat sundurması, yükleme rampası, üst kata ait çıkma, yer üstü boru hattı. Bu durumda gereken, bomun kırılarak engelin üzerinden geçebildiği eklemli veya teleskopik-eklemli bir sınıftır. Çalışma zarfı (working envelope) diyagramı, park noktasından hedefe hangi bom hareketiyle ulaşılacağını önceden gösterir; bu, 'gidip bakalım' değil hesaplanmış bir erişim planıdır.",
+            },
+            {
+                baslik: "Yanlış manlift seçiminin somut maliyeti",
+                metin:
+                    "Sahaya zemine veya erişime uygun olmayan bir makine gönderildiğinde sonuç genellikle iş kaybı değil, doğrudan geri dönüştür: dar sokağa girmeyen makine, kaymalı zeminde ilerlemeyen tahrik veya engelin önünde tıkanan dikey mast. Bu senaryoların hepsi, telefonda sorulan iki soruyla (zemin, erişim engeli) önceden önlenebilir. Bu yüzden ekibimiz 'hangi model' sorusunu sahadan gelen bilgiyle cevaplar, ürün kataloğundan değil müşteri tercihinden başlamaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Saha koşuluna göre manlift sınıfı seçimi",
+                paragraflar: [
+                    "OSB sahasının iki değişkenine (zemin, erişim) göre önerilen manlift sınıfı aşağıdaki gibi değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin", "Erişim", "Önerilen sınıf", "Tahrik"],
+                    satirlar: [
+                        ["Düz beton/asfalt", "Engelsiz, doğrudan", "Dikey mast / makaslı", "Akülü"],
+                        ["Düz beton/asfalt", "Engel var (sundurma vb.)", "Eklemli/teleskopik-eklemli", "Akülü veya dizel"],
+                        ["Sıkıştırılmış toprak/dolgu", "Engelsiz", "Dizel 4x4 dikey/teleskopik", "Dizel arazi lastiği"],
+                        ["Sıkıştırılmış toprak/dolgu", "Engel var", "Dizel 4x4 eklemli", "Dizel arazi lastiği"],
+                        ["Çamur/bataklık kıvamı", "Fark etmez", "Uygun değil", "İş ertelenir/zemin düzeltilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift keşfinde sorulan somut sorular",
+                paragraflar: [
+                    "Telefonda veya sahada verilen bilgiler netse teklif hızlanır. Standart olarak şu bilgiler istenir: hedefin yüksekliği ve makineden uzaklığı, park edilecek boşluğun genişliği ve giriş açısı, zeminin türü (beton mu, toprak mu, dolgu mu) ve varsa önündeki engelin yüksekliği-derinliği.",
+                    "Bu dört bilgi, telefon görüşmesinde bile doğru sınıfı büyük ölçüde belirler; saha fotoğrafı paylaşıldığında karar netleşir ve gereksiz bir makinenin sahaya gidip geri dönmesi önlenir.",
+                ],
+            },
+            {
+                baslik: "Operatörlü mü, operatörsüz mü manlift kiralama",
+                paragraflar: [
+                    "Manlift kiralamada iki seçenek sunulur: müşterinin kendi personeli ile operatörsüz kiralama (kullanıcının EN 280 kapsamında sepetli platform eğitim belgesi olması şarttır) veya bizim sertifikalı operatörümüzle birlikte kiralama. Dar alan ve engebeli zemin işlerinde, park pozisyonu ve bom hareketinin hassasiyeti nedeniyle operatörlü kiralama genellikle önerilir — ama karar tamamen müşteriye bırakılır.",
+                    "Operatörsüz kiralamada, teslim anında kısa bir saha bilgilendirmesi (zemin sınırı, park noktası, varsa engel uyarısı) her zaman yapılır; bu, standart teslim protokolümüzün bir parçasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "'Manlift' dediğimizde siz hangi makineyi anlıyorsunuz, hep aynı model mi geliyor?",
+                cevap:
+                    "Hayır — 'manlift' bizde tek bir model değil, sahanın zemin ve erişim koşuluna göre değişen bir sınıf seçimidir. Düz beton ve engelsiz erişimde akülü dikey/makaslı bir model yeterliyken, engebeli zeminde veya bir engelin arkasındaki hedefte dizel 4x4 eklemli bir model gerekir. Telefonda zemin ve erişim hakkında iki soru sorarız, doğru sınıfı ona göre öneririz.",
+            },
+            {
+                soru: "Sahamız henüz asfaltlanmamış, toprak zemin; manlift buraya girebilir mi?",
+                cevap:
+                    "Zeminin sıkıştırma kalitesine bağlı — iyi sıkıştırılmış bir dolguda arazi lastikli dizel 4x4 model güvenle çalışabilir, ama gevşek veya ıslak toprakta risklidir. Keşifte zemini fiziksel olarak kontrol ederiz; şüpheli noktalarda yük dağıtım plakası kullanılır, zemin çok yumuşaksa iş ertelenir veya geçici sağlamlaştırma önerilir. Akülü model bu tip zeminde önerilmez.",
+            },
+            {
+                soru: "Hedefimizin önünde bir sundurma var, dikey manlift altına giremiyor; alternatif ne?",
+                cevap:
+                    "Bu durumda gereken dikey mast tipi değil, bomu kırılabilen eklemli veya teleskopik-eklemli bir manliftir. Makine sundurmanın önüne park edilir, bom yukarı çıkar ve engelin üzerinden kırılarak hedefe uzanır. Bu erişim, çalışma zarfı diyagramıyla önceden hesaplanır — park noktasından hedefe hangi hareketle ulaşılacağı keşifte netleştirilir.",
+            },
+            {
+                soru: "Parselimizin girişi dar, büyük bir makine giremez; küçük manlift var mı?",
+                cevap:
+                    "Evet, kompakt şaseli ve dar tekerlek izli modeller tam bu tip dar giriş ve dar park boşlukları için tercih edilir. Keşifte önce park edilecek boşluğun genişliği ve giriş açısı ölçülür — dönüş yarıçapı geniş bir makine dar bir sokağa hiç sığmayabilir, bu yüzden hedeften önce park geometrisi netleştirilir.",
+            },
+            {
+                soru: "Manlifti kendi operatörümüzle mi kullanmalıyız, sizin operatörünüzle mi?",
+                cevap:
+                    "İkisi de mümkün. Kendi personelinizle çalışacaksanız EN 280 kapsamında geçerli sepetli platform eğitim belgesi gerekir. Dar alan veya engebeli zemin işlerinde, park pozisyonu ve bom hareketinin hassasiyeti nedeniyle sertifikalı operatörümüzle kiralamayı öneririz, ama son karar sizindir. Operatörsüz teslimde de kısa bir saha bilgilendirmesi standart olarak yapılır.",
+            },
+            {
+                soru: "Zemin ve erişim durumunu görmeden telefonla doğru manlift önerebilir misiniz?",
+                cevap:
+                    "Kabaca evet, ama kesinleştirmek için saha fotoğrafı isteriz. Telefonda hedefin yüksekliği, zeminin türü, park boşluğunun yaklaşık genişliği ve varsa önündeki engel sorulur; bu bilgilerle sınıf büyük ölçüde belirlenir. Ancak zemin veya engel konusunda belirsizlik varsa, yanlış makinenin sahaya gidip geri dönmesini önlemek için fotoğraf veya kısa bir keşif turu tercih edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift sınıflandırması (dikey mast, makaslı, eklemli/teleskopik), tahrik tipleri ve EN 280 operatör belgesi zorunluluğu üretici teknik standartları ve mevzuata dayanır; Ankara OSB saha tipolojisi dosya içindeki diğer sayfalarla tutarlı, kamuya açık bilgidir.",
+    },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Ankara OSB'de Makaslı Platform Kiralama: Düz Zeminde Doğru Tercih",
+        giris:
+            "Eklemli platform odaklı bir filo işletmemize rağmen, Ankara OSB'lerindeki her iş eklemli makine gerektirmez — üretim holü içi, beton zeminli, tavanı düz ve engelsiz sahalarda makaslı platform hem daha ekonomik hem daha stabil bir seçimdir. Makaslı platformun avantajı basittir: geniş ve düz sepet tabanı, yüksek yük kapasitesi ve dikey doğru çıkışta yüksek stabilite sunar — ama bu avantaj, sahanın düz ve engelsiz olması şartına bağlıdır. Bu sayfa iki şeyi dürüstçe anlatıyor: Ankara OSB'lerinin hangi bölümlerinde (üretim holleri, depo içi, kapalı montaj alanları) makaslı platformun doğru tercih olduğunu, ve aynı sahanın dar/engebeli kısımlarına (dış avlu, dar geçit, kot farkı olan alan) neden makaslı platformun giremediğini ve o durumda neyin devreye girdiğini. Amaç, her talebe aynı makineyi önermek değil, sahanın hangi bölümünün hangi makineyi gerektirdiğini baştan netleştirmektir.",
+        maddeler: [
+            {
+                baslik: "Makaslı platform ne zaman doğru tercih: düz zemin, dikey erişim",
+                metin:
+                    "Makaslı platform, sepedin doğrudan yukarı-aşağı hareket ettiği bir mekanizmaya sahiptir; bom kırılması yoktur, bu yüzden yanal erişim sınırlıdır ama dikey stabilite ve yük kapasitesi yüksektir. Üretim holü içinde tavan bakımı, aydınlatma değişimi, boru-kablo tesisatı gibi 'hedefin tam altına park edilebildiği' işlerde ideal makinedir. Geniş sepet tabanı, aynı anda iki-üç kişinin ve malzemenin taşınmasına izin verir — bu, tekli operatör + malzeme taşıyan eklemli sepete göre önemli bir verim farkıdır.",
+            },
+            {
+                baslik: "Neden dar/engebeli alanda yetersiz kalır: bom kırılmasının yokluğu",
+                metin:
+                    "Makaslı platformun temel kısıtı, tasarımından gelir: sepet yalnız düşey eksende hareket eder, bom kırılıp bir engelin üzerinden uzanamaz. Bu yüzden hedefin önünde bir sundurma, kat çıkması veya boru hattı varsa, makaslı platform o hedefe ulaşamaz — makine engelin önünde durur ve sepet yukarı çıktığında engele çarpar veya hiç geçemez. Ankara OSB'lerinin dış cephe ve girift saha kısımlarında bu senaryo sıkça yaşanır; bu durumda çözüm makaslı platform değil, bomu kırılabilen eklemli sınıftır.",
+            },
+            {
+                baslik: "Şase genişliği: dar kapıdan geçemeyen makaslı platform",
+                metin:
+                    "Makaslı platformun geniş sepet tabanı, aynı zamanda geniş bir şase demektir; standart bir makaslı model, dar bir atölye kapısından veya bitişik nizam parsel arasındaki dar geçitten çoğu zaman geçemez. Bu, OSTİM-tipi dar dokuda sık karşılaşılan bir sınırdır. Dar geçişli sahalarda önce şase genişliği ile kapı/geçit ölçüsü karşılaştırılır; sığmıyorsa dar şaseli kompakt eklemli bir modele geçilir — bu karar keşifte, makine sahaya gitmeden önce netleştirilir.",
+            },
+            {
+                baslik: "Kot farkı ve eğimli zeminde makaslı platformun sınırı",
+                metin:
+                    "Makaslı platformlar, dikey stabiliteleri düz zemine dayandığı için eğim toleransları görece düşüktür; üreticinin tanımladığı yan eğim sınırının dışında dengeleme sistemi çalışmayı kilitler. OSB'lerin dış saha, henüz kaplanmamış parsel veya kot geçişli alanlarında bu sınır çabuk aşılır. Bu tip zeminlerde, daha yüksek eğim toleransına ve arazi lastiğine sahip dizel 4x4 eklemli/teleskopik modeller tercih edilir; makaslı platform, sahanın yalnızca düz-sabit kısımlarında kullanılır.",
+            },
+            {
+                baslik: "Aynı sahada iki makinenin birlikte planlanması",
+                metin:
+                    "Büyük bir OSB tesisinde tek bir iş emri içinde hem düz üretim holü hem dar/engebeli dış saha görevleri olabilir. Bu durumda tek makineye zorlamak yerine, holü makaslı platformla, dış/dar bölümü eklemli platformla kapsayacak bir plan çıkarılır — bu, tek eklemli makineyle her yeri idare etmeye çalışmaktan hem daha hızlı hem daha ekonomik olabilir, çünkü makaslı platformun verim ve yük avantajı düz zeminde tam kullanılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform mu, eklemli platform mu: saha karşılaştırması",
+                paragraflar: [
+                    "Aynı OSB tesisi içinde bile saha bölümüne göre doğru makine değişebilir. Aşağıdaki tablo, tipik saha koşullarına göre tercih edilen sınıfı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha özelliği", "Erişim tipi", "Tercih edilen sınıf", "Neden"],
+                    satirlar: [
+                        ["Üretim holü, düz beton", "Hedefin tam altına park", "Makaslı platform", "Geniş sepet, yüksek yük, düşük maliyet"],
+                        ["Depo içi, geniş koridor", "Doğrudan dikey erişim", "Makaslı platform", "Stabilite ve kapasite avantajı"],
+                        ["Dış cephe, sundurma önü", "Engelin arkasında hedef", "Eklemli platform", "Bom kırılarak engel aşımı"],
+                        ["Dar atölye kapısı/geçit", "Şase dar geçitten geçmeli", "Kompakt eklemli platform", "Makaslı şase sığmaz"],
+                        ["Kot geçişli/eğimli dış saha", "Zemin eğim sınırını zorluyor", "Dizel 4x4 eklemli", "Daha yüksek eğim toleransı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı platformun yük ve verim avantajı ne zaman öne çıkar",
+                paragraflar: [
+                    "Aynı anda iki-üç kişi ve malzeme taşınması gereken tavan bakımı, kablo döşeme veya çok noktalı montaj işlerinde makaslı platformun geniş sepet tabanı ve yüksek yük kapasitesi belirgin bir verim farkı yaratır — operatör inip binmeden, malzeme sepette taşınarak birden fazla nokta arka arkaya tamamlanabilir.",
+                    "Bu avantaj yalnızca düz ve engelsiz zeminde tam kullanılır; aynı işi dar veya engebeli bir sahada eklemli platformla yapmak mümkündür ama sepet kapasitesi ve manevra hızı makaslıya göre daha düşüktür.",
+                ],
+            },
+            {
+                baslik: "Doğru sınıfı belirlerken sorduğumuz sorular",
+                paragraflar: [
+                    "Talep geldiğinde önce sahanın tipini sorarız: kapalı üretim holü mü, açık dış saha mı; zemin düz beton mu, toprak/dolgu mu; hedefin önünde bir engel var mı; makinenin geçeceği en dar kapı/geçit kaç metre.",
+                    "Bu sorulara net cevap alındığında, makaslı platformun mu yoksa eklemli platformun mu doğru tercih olduğu genellikle telefonda netleşir; belirsiz kalan noktalarda saha fotoğrafı istenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sizin filonuz eklemli platform odaklı, makaslı platform da kiralıyor musunuz?",
+                cevap:
+                    "Evet. Filomuzun ağırlığı Ankara OSB'lerinin dar ve engebeli saha karakterine göre eklemli sınıfta olsa da, düz zeminli üretim holü ve depo içi işler için makaslı platform da filoda bulunur ve bu tip sahalarda dürüstçe makaslı öneririz — çünkü geniş sepet ve yüksek yük kapasitesi avantajı, düz zeminde eklemliden daha verimlidir.",
+            },
+            {
+                soru: "Üretim holümüz düz beton, neden eklemli değil makaslı platform öneriyorsunuz?",
+                cevap:
+                    "Çünkü hedefiniz muhtemelen tam üstüne park edilebilecek bir noktada ve önünde bir engel yok. Bu koşulda makaslı platformun geniş sepet tabanı, yüksek yük kapasitesi ve düşük kiralama maliyeti eklemli platforma göre daha avantajlıdır. Eklemli platformun bom kırma kabiliyeti burada kullanılmaz, bu yüzden gereksiz bir maliyet olur.",
+            },
+            {
+                soru: "Makaslı platform istedik ama hedefimizin önünde bir sundurma var, sorun olur mu?",
+                cevap:
+                    "Evet, ciddi bir sorun olur — makaslı platform yalnız dikey hareket eder, bom kırıp sundurmanın üzerinden geçemez. Bu durumda makaslı platform hedefe ulaşamadan durur. Doğru çözüm, bomu kırılabilen eklemli veya teleskopik-eklemli bir platformdur; keşifte engel bilgisini aldığımızda bu ayrımı önceden yaparız, sahaya yanlış makine gitmesini önleriz.",
+            },
+            {
+                soru: "Makaslı platformun şasesi atölye kapımızdan geçer mi, nasıl anlarız?",
+                cevap:
+                    "Standart makaslı modellerin şase genişliği, kompakt eklemli modellere göre daha fazladır ve dar bir atölye kapısından veya bitişik parsel arası dar geçitten geçemeyebilir. Kapı/geçit genişliğini santimetre cinsinden paylaşırsanız, filo listesindeki model şase ölçüleriyle karşılaştırıp net cevap veririz — sığmıyorsa dar şaseli kompakt eklemli bir model öneririz.",
+            },
+            {
+                soru: "Dış sahamız hafif eğimli, makaslı platform burada çalışır mı?",
+                cevap:
+                    "Eğime bağlı — makaslı platformların yan eğim toleransı, dizel 4x4 eklemli modellere göre daha düşüktür ve üreticinin tanımladığı sınırın dışında dengeleme sistemi çalışmayı kilitler. Hafif ve düzenli bir eğimde bazı makaslı modeller çalışabilir, ama kot geçişli veya belirgin eğimli sahalarda daha yüksek eğim toleransına sahip dizel 4x4 eklemli model öneririz. Keşifte eğim ölçümüyle netleştiririz.",
+            },
+            {
+                soru: "Aynı tesiste hem hol içi hem dar dış saha işimiz var, tek makine mi iki makine mi kiralamalıyız?",
+                cevap:
+                    "Genellikle iki makineyi ayrı planlamak daha verimli ve ekonomik olur: hol içini makaslı platformla (yüksek yük, geniş sepet), dar/engebeli dış saha kısmını eklemli platformla kapsarız. Tek bir eklemli makineyle her yeri idare etmek mümkün ama hol içindeki verim ve kapasite avantajından vazgeçmiş olursunuz. İş kapsamını paylaşırsanız iki makineli planın maliyetini net gösteririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform mekanizması (yalnız dikey hareket, bom kırma kabiliyetinin yokluğu), şase genişliği kısıtı ve eğim toleransı farkı üretici teknik standartlarına dayanır; Ankara OSB saha tipolojisi bu dosyadaki diğer kayıtlarla tutarlıdır.",
+    },
 };

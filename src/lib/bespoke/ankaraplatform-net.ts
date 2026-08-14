@@ -2485,4 +2485,196 @@ export const ANKARAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bu sayfa hizmetin filomuzun ana odağı olmadığını ve kapsam sınırlarını (eğim, açık şantiye) dürüstçe belirtir; akülü platform stabilite/eğim sınırı üretici genel teknik bilgisidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama — Ankara Ofis, AVM ve Fabrika İç Mekânları İçin",
+        giris:
+            "Makaslı platform, iç mekân egzozsuz filomuzun tam merkezinde duran bir ekipman tipidir — düz zeminde dikey doğrultuda yükselen platformu, geniş çalışma tablası ve akülü tahrik sistemiyle Ankara'nın ofis kulelerinde tavan işlerine, AVM'lerin yüksek tavanlı ortak alanlarında aydınlatma ve tabela bakımına, fabrika hallerinde ise vinç ray bakımı ve tesisat çalışmalarına doğrudan cevap verir. Bu makinenin bizim için 'ana ürün' olmasının nedeni basit: hiç egzoz gazı çıkarmaz, düz beton veya seramik zeminde iz bırakmadan ilerler ve geniş platform alanı sayesinde bir operatör iki-üç kişilik bir ekiple aynı anda çalışabilir — dar boom platformlarında bu mümkün değildir. Kapalı bir ofis katında sabah mesai saatlerinde çalışanlar masalarında otururken tavan armatürü değiştirmek, bir AVM'nin gece kapanış sonrası hızlı aydınlatma turunu tamamlamak, ya da bir üretim hattının üstündeki kablo tavasını monte etmek — bunların hepsi makaslı platformun asıl çalışma alanıdır. Ankara'daki filomuzda farklı yükseklik sınıflarında (iç mekân tavan yüksekliğine göre 6-14 metre bandında) makaslı platform bulunur; hangi modelin uygun olduğu, kapı genişliği, asansör ölçüsü ve zemin taşıma kapasitesi gibi somut verilerle keşifte netleştirilir. Operatörlü veya sertifikalı operatörünüzle kiralama seçeneklerinin ikisi de sunulur; iç mekân çalışmalarında genellikle bina yönetimiyle koordinasyon (çalışma saati, güvenlik hattı, zemin koruma) gerektiği için bu koordinasyonu biz üstleniriz.",
+        maddeler: [
+            {
+                baslik: "Neden makaslı platform iç mekân işine bu kadar uygun",
+                metin:
+                    "Makaslı platformun tabanı dikdörtgen ve geniştir; bu da ofis koridorunda, AVM atriyumunda veya fabrika hattında düz bir zeminde dengeyi kolayca korumasını sağlar. Akülü tahrik sistemi sıfır egzoz emisyonu demektir — kapalı ortamda havalandırma kısıtlı olsa bile hava kalitesi sorunu yaşanmaz, bu da özellikle mesai saatleri içinde çalışan ofislerde kritik bir avantajdır.",
+            },
+            {
+                baslik: "Geniş platform tablası: ekip halinde çalışma imkânı",
+                metin:
+                    "Boom platformların aksine makaslı platformun çalışma tablası genellikle 1,5-3 metre uzunluğunda olabilir; bu da bir elektrikçi ile bir asistanının, ya da bir aydınlatma teknisyeni ile malzeme taşıyıcısının aynı platformda birlikte çalışabilmesi anlamına gelir. Ofis tavan tadilatı gibi işlerde bu, iş süresini belirgin şekilde kısaltır.",
+            },
+            {
+                baslik: "Kapı ve asansör ölçüsüne uygun dar gövde modelleri",
+                metin:
+                    "Ankara'daki ofis binalarının çoğunda standart çift kanat kapı genişliği vardır; filomuzdaki dar gövdeli makaslı platform modelleri bu kapılardan ve yük asansörlerinden geçebilecek ölçüdedir. Keşifte kapı ve asansör ölçüsü fotoğrafla veya metre ile teyit edilir, doğru model buna göre seçilir.",
+            },
+            {
+                baslik: "Zemin koruma ve iz bırakmama",
+                metin:
+                    "Poliüretan tekerlekli makaslı platform modelleri, cilalı zemin, laminat parke veya seramik üzerinde iz bırakmadan hareket eder — AVM ve ofis yönetimlerinin en sık sorduğu soru budur ve bu konuda net cevap verebiliyoruz. Hassas zeminlerde ek olarak zemin koruma plakası da talep üzerine sağlanır.",
+            },
+            {
+                baslik: "Mesai saatleri içinde ve dışında çalışma esnekliği",
+                metin:
+                    "Elektrikli motor neredeyse sessiz çalıştığı için makaslı platform, ofis çalışanları masalarındayken bile rahatsızlık vermeden kullanılabilir — bu, dizel ekipmanla mümkün olmayan bir esnekliktir. AVM'lerde gece kapanış sonrası veya erken sabah saatlerinde de aynı sessizlik avantajı geçerlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform yükseklik sınıfları ve tipik kullanım alanı",
+                paragraflar: [
+                    "Aşağıdaki tablo, filomuzdaki makaslı platform yükseklik sınıflarını ve Ankara'daki iç mekân projelerinde en sık karşılaştığımız kullanım örneklerini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Yükseklik sınıfı", "Tipik iç mekân kullanımı", "Platform genişliği"],
+                    satirlar: [
+                        ["6-8 metre", "Ofis kat tavanı, mağaza aydınlatması", "Standart/dar gövde"],
+                        ["8-10 metre", "AVM ortak alan tavanı, fabrika ofis bloğu", "Standart gövde"],
+                        ["10-12 metre", "Yüksek tavanlı fabrika hattı, depo ofisi", "Geniş gövde"],
+                        ["12-14 metre", "AVM atriyum, fuaye, yüksek tavanlı lobi", "Geniş gövde"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörlü mü, kendi operatörünüzle mi",
+                paragraflar: [
+                    "Makaslı platform kullanımı boom platforma göre görece daha basittir çünkü hareket düz dikey eksende gerçekleşir, ama yine de yük dengesi ve zemin taşıma kapasitesi bilgisi gerektirir. Bu yüzden hem sertifikalı operatörümüzle hem de kendi ekibinizin sertifikalı operatörüyle kiralama seçeneklerinin ikisini de sunuyoruz.",
+                    "Kendi operatörünüzle kiralamada, operatörün geçerli iş makinesi operatörlüğü belgesi keşif aşamasında kontrol edilir; bu adım atlanmaz çünkü iç mekân çalışmasında güvenlik önceliği aynı şekilde geçerlidir.",
+                ],
+            },
+            {
+                baslik: "Ankara'daki iç mekân projelerinde lojistik",
+                paragraflar: [
+                    "Ofis kulelerinde ve AVM'lerde bina yönetimiyle önceden koordinasyon (asansör rezervasyonu, güvenlik giriş izni, çalışma saati kısıtı) gerekir; bu koordinasyonu proje başlamadan önce biz üstleniriz. Fabrika hallerinde ise üretim hattının durup durmayacağı, vardiya planına göre çalışma penceresi netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ofis binamızda çalışanlar masasındayken makaslı platform çalışabilir mi?",
+                cevap:
+                    "Evet, bu makaslı platformun en güçlü yanlarından biri — akülü tahrik sistemi sessiz çalışır ve egzoz gazı çıkarmaz, bu yüzden ofis mesai saatleri içinde çalışanlar rahatsız olmadan tavan işleri yapılabilir. Buna rağmen gürültüye hassas toplantı odalarının yakınında çalışma varsa, bunu keşifte belirtmeniz zamanlamayı daha rahat planlamamızı sağlar.",
+            },
+            {
+                soru: "AVM'mizin cilalı zemininde iz bırakır mı?",
+                cevap:
+                    "Poliüretan tekerlekli modellerimiz cilalı zemin, seramik veya laminat üzerinde standart kullanımda iz bırakmaz; bu, AVM yönetimlerinin en sık sorduğu sorulardan biri ve deneyimimizle net cevap verebiliyoruz. Özellikle hassas veya yeni cilalanmış zeminlerde ek önlem olarak zemin koruma plakası talep üzerine sağlanır.",
+            },
+            {
+                soru: "Makaslı platform ofis kapısından ve asansörden geçer mi?",
+                cevap:
+                    "Filomuzda dar gövdeli makaslı platform modelleri bulunur ve bunlar standart çift kanat ofis kapılarından ve çoğu yük asansöründen geçebilecek ölçüdedir. Ama kesin ölçü uyumu keşifte kapı genişliği ve asansör iç ölçüsü fotoğrafla veya metre ile teyit edildikten sonra netleşir; bu adım işi kabul etmeden önce mutlaka yapılır.",
+            },
+            {
+                soru: "Fabrika hattımızın üstünde vinç rayı bakımı için kaç metre yükseklik gerekir?",
+                cevap:
+                    "Bu, hattın tavan yüksekliğine bağlı — genellikle 10-12 metre sınıfı makaslı platform fabrika hallerinde vinç ray ve kablo tavası bakımı için yeterli olur, ama bazı yüksek tavanlı hallerde 12-14 metre sınıfı gerekebilir. Keşifte tavan yüksekliği ölçülür ve doğru model buna göre önerilir; yanlış yükseklikte makine göndermek hem zaman kaybı hem gereksiz maliyettir.",
+            },
+            {
+                soru: "Operatörlü mü yoksa kendi operatörümüzle mi kiralayabiliriz?",
+                cevap:
+                    "İkisi de mümkün. Sertifikalı operatörümüzle kiralayabilir veya kendi ekibinizde sertifikalı bir operatör varsa onunla çalışabilirsiniz — ikinci seçenekte operatörün geçerli iş makinesi operatörlüğü belgesi keşif aşamasında kontrol edilir. Ofis ve AVM gibi hassas ortamlarda deneyimli operatörümüzle çalışmak genellikle daha az sürtüşme yaratır çünkü bina kurallarına aşinayız.",
+            },
+            {
+                soru: "AVM'de gece kapanış sonrası çalışma planlıyoruz, bu mümkün mü?",
+                cevap:
+                    "Evet, akülü makaslı platformun sessiz çalışması tam olarak bu tip gece/erken sabah pencerelerine uygun — dizel ekipmanla bu genellikle bina yönetimi tarafından kısıtlanır ama akülü platformda böyle bir kısıt olmaz. Gece çalışma planlıyorsanız, bina güvenlik ve asansör erişim koordinasyonunu önceden netleştirmemiz gerekir; bu koordinasyonu biz üstleniriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, domainin mevcut iç mekân/egzozsuz platform kimliğine dayanır; makaslı platform teknik özellikleri (tabla genişliği, tahrik sistemi, poliüretan tekerlek) üretici genel teknik bilgisidir, Ankara'ya özgü rakam veya referans içermez.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama — Ankara'da İç Mekân Egzozsuz Filomuzla",
+        giris:
+            "\"Manlift\" günlük dilde çoğunlukla yükseğe çıkan tüm platform tiplerini kapsayan genel bir terim olarak kullanılır — bazı müşterilerimiz bize \"manlift lazım\" diye ulaştığında kastettikleri şey aslında makaslı platform, bazen eklemli boom, bazen de teleskopik boom olabiliyor. Biz Ankara'da ofis, AVM ve fabrika iç mekânlarına odaklanan egzozsuz (akülü) bir filo işlettiğimiz için, \"manlift\" talebiyle bize ulaşan her müşteriyle önce hangi makine tipinin işine yaradığını netleştiriyoruz: düz zeminde dikey yükseklik gerekiyorsa makaslı platform, engel etrafından dolaşma veya yatay erişim gerekiyorsa eklemli boom öneriyoruz. Bu sayfanın amacı, \"manlift kiralama\" arayan bir ziyaretçiye önce doğru terimi netleştirmek, sonra bizim iç mekân egzozsuz filomuzun bu talebe nasıl cevap verdiğini somut şekilde anlatmaktır. Kapalı bir ortamda çalışacaksanız — havalandırması sınırlı bir depo, aktif kullanımdaki bir ofis katı, ürün rafları arasında dar geçitli bir AVM deposu — akülü manlift filomuz sıfır emisyon ve düşük gürültü avantajıyla dizel alternatiflere göre net bir fark yaratır. Açık saha, geniş şantiye veya uzun mesafeli lojistik depo gibi kullanım senaryoları ise bizim ana odağımızın dışındadır; bu tip talepleri dürüstçe belirtip, uygun olduğumuz iç mekân senaryosuna odaklanıyoruz.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" derken hangi makineyi kastediyorsunuz?",
+                metin:
+                    "İlk telefon görüşmesinde netleştirdiğimiz soru budur: yükselme yönü sadece dikey mi (makaslı platform), yoksa yatay uzanım veya engel aşma da gerekiyor mu (eklemli/teleskopik boom)? Bu ayrım, doğru makinenin gönderilmesi ve gereksiz maliyetten kaçınılması için kritik.",
+            },
+            {
+                baslik: "İç mekânda manlift: egzozsuz filo avantajı",
+                metin:
+                    "Kapalı bir alanda dizel bir manlift çalıştırmak, havalandırma yetersizse ciddi bir hava kalitesi riski taşır — bu yüzden ofis, AVM ve fabrika iç mekânı taleplerinde akülü filomuzu öneriyoruz. Sıfır egzoz emisyonu ve düşük gürültü seviyesi, aktif kullanımdaki kapalı ortamlarda çalışmayı mümkün kılan iki temel özelliktir.",
+            },
+            {
+                baslik: "Dar geçit ve düz zeminde manlift kullanımı",
+                metin:
+                    "AVM depo koridorları, ofis kat planları ve fabrika üretim hatları arasındaki geçitler genellikle dardır; filomuzdaki dar gövdeli manlift modelleri bu geçitlerden manevra yapabilecek ölçüdedir. Zemin düz ve sertse akülü tahrik sistemi güvenle çalışır; bu iki koşul (dar geçit + düz zemin) bizim ideal senaryomuzdur.",
+            },
+            {
+                baslik: "Manlift talebinizin bizim kapsamımızın dışında kaldığı durumlar",
+                metin:
+                    "Açık şantiye sahası, geniş açık depo veya uzun mesafeli açık saha lojistiği için \"manlift\" arayan müşterilere dürüstçe söylüyoruz: bu, akülü iç mekân filomuzun tasarım amacının dışında ve dizel 4x4 açık saha ekipmanı gerektirir. Bu durumda doğru tedarikçiye yönlendirme yapmayı tercih ediyoruz.",
+            },
+            {
+                baslik: "Kiralama süresi ve teslimat esnekliği",
+                metin:
+                    "Manlift talebi genellikle kısa süreli (bir günlük bakım işi) veya orta vadeli (haftalarca süren tadilat projesi) olabilir; Ankara içi teslimat ve kurulum genellikle aynı gün veya ertesi gün içinde planlanabilir. Kesin teslimat penceresi, bina erişim koşulları netleştikten sonra belirlenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "\"Manlift\" terimi altında hangi makine tipleri var",
+                paragraflar: [
+                    "Aşağıdaki tablo, \"manlift\" olarak anılan makine tiplerini ve bizim iç mekân filomuzdaki karşılığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Günlük terim", "Gerçek makine tipi", "Bizim filomuzdaki karşılığı"],
+                    satirlar: [
+                        ["Manlift (dikey)", "Makaslı platform", "Akülü, iç mekân — ana odağımız"],
+                        ["Manlift (döner kollu)", "Eklemli/teleskopik boom", "Sınırlı sayıda akülü model"],
+                        ["Manlift (açık saha)", "Dizel 4x4 boom/makas", "Filomuzun dışında, yönlendirme yapılır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda ilk soru: kapalı mı açık mı çalışacaksınız",
+                paragraflar: [
+                    "\"Manlift lazım\" diyen bir müşteriye sorduğumuz ilk soru genellikle çalışma alanının kapalı mı açık mı olduğudur, çünkü bu tek soru bizim uygun olup olmadığımızı büyük ölçüde belirler. Kapalıysa ikinci soru zemin ve geçit genişliğidir; açıksa dürüstçe kapsamımızın dışında olduğumuzu söyleyip yönlendirme yaparız.",
+                ],
+            },
+            {
+                baslik: "Ankara'da manlift teslimat süreci",
+                paragraflar: [
+                    "Talep netleştikten sonra, bina erişim koşulları (kapı/asansör ölçüsü, güvenlik izni, çalışma saati) keşifte veya telefon görüşmesinde teyit edilir. Teslimat, uygun makine belirlendikten sonra genellikle 24-48 saat içinde planlanır; acil talepler için aynı gün teslimat da değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform aynı şey mi?",
+                cevap:
+                    "Günlük dilde \"manlift\" çoğu zaman makaslı platformu kastetmek için kullanılır ama teknik olarak eklemli veya teleskopik boom platformları da bazen aynı isimle anılır. Biz talebinizi aldığımızda hangi makineye ihtiyacınız olduğunu (dikey mi, yatay uzanımlı mı) netleştiririz ki doğru ekipmanı gönderelim.",
+            },
+            {
+                soru: "İç mekânda dizel manlift yerine neden akülü öneriyorsunuz?",
+                cevap:
+                    "Kapalı bir ortamda dizel motor egzoz gazı biriktirir ve havalandırma yetersizse bu ciddi bir sağlık riskine dönüşebilir; akülü manlift sıfır emisyonla bu riski tamamen ortadan kaldırır. Ayrıca akülü motor çok daha sessiz çalıştığı için aktif kullanımdaki ofis veya AVM'de rahatsızlık yaratmaz — bu iki neden bizim iç mekân filomuzu akülü tutmamızın temel gerekçesidir.",
+            },
+            {
+                soru: "Açık şantiyemiz için manlift kiralayabilir miyiz?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse açık şantiye sahaları bizim ana odağımızın dışındadır — akülü iç mekân filomuz düz ve sert zemin varsayımıyla tasarlanmıştır, açık şantiyenin engebeli ve değişken zemini dizel 4x4 açık saha ekipmanı gerektirir. Bu tip bir talep için açık saha ekipmanına odaklı bir tedarikçiyi önermemiz daha doğru olur.",
+            },
+            {
+                soru: "Manlift dar bir depo koridorundan geçebilir mi?",
+                cevap:
+                    "Filomuzdaki dar gövdeli modeller çoğu standart depo ve AVM koridorundan geçebilecek ölçüdedir, ama kesin geçiş genişliği koridorun en dar noktasına bağlıdır. Keşifte veya telefon görüşmesinde koridor genişliğini fotoğraf veya ölçüyle paylaşmanız, doğru model seçimini hızlandırır.",
+            },
+            {
+                soru: "Manlift kiralama süresi nasıl belirleniyor, günlük mü haftalık mı?",
+                cevap:
+                    "İkisi de mümkün — bir günlük bakım işi için günlük kiralama, haftalarca süren tadilat projesi için haftalık veya aylık kiralama seçeneği sunuyoruz. Süre uzadıkça birim maliyet genellikle düşer; projenizin tahmini süresini paylaştığınızda size en uygun kiralama planını öneririz.",
+            },
+            {
+                soru: "Manlift operatörü sizden mi geliyor, yoksa biz mi sağlıyoruz?",
+                cevap:
+                    "İkisi de mümkün. Sertifikalı operatörümüzle birlikte kiralayabilir veya kendi ekibinizde sertifikalı operatör varsa makineyi operatörsüz teslim alabilirsiniz — ikinci durumda operatörün geçerli belgesi teslimattan önce kontrol edilir. İç mekân projelerinde, bina kurallarına aşina olduğumuz için kendi operatörümüzle çalışmak genellikle süreci hızlandırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, \"manlift\" teriminin günlük kullanımdaki belirsizliğini ve domainin mevcut iç mekân/egzozsuz odağını temel alır; makine tipi ayrımları (makaslı/eklemli/teleskopik) genel iş makinesi terminolojisidir, uydurma rakam veya yerel referans içermez.",
+    },
 };

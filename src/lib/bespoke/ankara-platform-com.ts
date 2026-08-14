@@ -2579,4 +2579,195 @@ export const ANKARA_PLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Platform üreticilerinin zemin sertliği ve eğim toleransı sınırları, yük dağıtım plakası kullanımı sektör genelinde bilinen teknik gerçeklerdir; zemin değerlendirme yöntemi ve dürüst yönlendirme ilkesi firma pratiğidir.",
     },
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: OSTİM-İvedik-Sincan Hattında Hangi Tip, Hangi Sınıf",
+        giris:
+            "'Manlift' kelimesi sahada tek bir makineyi değil, insan yükseltme amaçlı çalışan geniş bir aile içindeki birkaç farklı sınıfı işaret eder — arayan işletmenin çoğu zaman kastettiği şey aslında eklemli bir bom, dikey bir direk platformu veya klasik bir makaslı platform olabilir, ve bu üçü birbirinin yerine geçmez. OSTİM-İvedik-Sincan hattındaki taleplerin önemli kısmı telefonda 'bir manlift lazım' diye başlar ve ardından iki-üç soruyla hangi sınıfın gerektiği netleşir: hedef düz bir tavan mı yoksa engel arkasında mı, zemin sabit mi hareketli mi, alan dar mı geniş mi. Genel amaçlı filomuzun bu terim karmaşasındaki rolü, müşteriyi katalog isimleriyle uğraştırmadan doğru makineye yönlendirmektir — 'manlift' dediğinizde hangi ihtiyacı kastettiğinizi birlikte çözer, gereksiz büyük veya yetersiz küçük bir makineyle sahaya gitmenizi önleriz. Bu sayfa, manlift ailesinin alt tiplerini ve OSTİM-İvedik-Sincan hattındaki tipik kullanım senaryolarını sınıf sınıf açıklıyor; amacı, terimi netleştirip doğru seçimi hızlandırmaktır.",
+        maddeler: [
+            {
+                baslik: "'Manlift' bir marka değil, bir kullanım amacı tanımıdır",
+                metin:
+                    "Sahada 'manlift' kelimesi, insan taşıyıp yükseltmek için tasarlanmış tüm makineler için şemsiye terim olarak kullanılır — bu yüzden bir müşteri 'manlift' dediğinde kastı eklemli bom, teleskopik bom, dikey direk platformu veya makaslı platform olabilir. Doğru sınıfı bulmanın ilk adımı bu belirsizliği çözmektir: hedefe düz mü yoksa engelli bir rotayla mı ulaşılıyor sorusu, bomlu bir çözümü mü yoksa dikey/makaslı bir çözümü mü gerektirdiğinizi hemen ayırt eder. Telefonda bu ayrımı netleştirmeden gönderilen bir makine, sahada 'bu değildi' hayal kırıklığına yol açar.",
+            },
+            {
+                baslik: "Eklemli ve teleskopik bom: engelin arkasına ulaşmak",
+                metin:
+                    "Hedef ile makine arasında bir engel (boru hattı, çatı çıkması, ekipman yığını) varsa, bomlu manlift gerekir — eklemli bom, kollarını kırarak engelin üzerinden veya yanından dolanıp hedefe ulaşır; teleskopik bom ise daha uzun düz erişim ve daha yüksek yük kapasitesi sunar ama kırılma esnekliği azdır. OSTİM-İvedik-Sincan hattında bu sınıf en çok çelik konstrüksiyon montajı, boru hattı bakımı ve çatı altı ekipman kurulumunda talep edilir — hedefin altı boşsa (engelsizse) bu sınıfa gerek yoktur, makaslı platform hem daha ekonomik hem daha geniş sepetlidir.",
+            },
+            {
+                baslik: "Dikey (direk) manlift: dar koridorda hızlı, düşük yükseklikte iş",
+                metin:
+                    "Dikey manlift, tek bir mast üzerinde dikey olarak yükselen, geniş sepeti olmayan kompakt bir sınıftır — tipik çalışma yüksekliği 8-12 metre bandında kalır ve en büyük avantajı dar koridorlarda (raf arası, kapı genişliği kısıtlı iç mekân) makaslı platformdan daha rahat manevra etmesidir. Ancak sepet küçüktür (genelde tek kişi + sınırlı malzeme) ve yatay hareket kabiliyeti yoktur — makine tam olarak dikeyde çalışır, yanal erişim gerekiyorsa uygun değildir. Kısa süreli, tek noktalı iç mekân işlerinde (raf üstü etiketleme, kısa aydınlatma bakımı) pratik bir tercihtir.",
+            },
+            {
+                baslik: "Kapalı-açık ayrımı: dizel mi elektrik mi",
+                metin:
+                    "Manlift sınıfı belirlendikten sonra ikinci karar güç kaynağıdır ve bu karar zemin ile ortamdan bağımsız değildir: kapalı, düz zeminli atölye ve depo işlerinde akülü/elektrikli modeller egzozsuz ve sessiz çalıştığı için standart tercih, açık saha ve düzensiz zeminde ise dizel 4x4 modeller gereken çekiş gücü ve dayanıklılığı sağlar. OSTİM-İvedik-Sincan hattında sanayi dokusunun karışık olması (bazı işler kapalı atölyede, bazıları açık sahada) nedeniyle bu ayrımı telefonda netleştirmek, yanlış güç kaynaklı makinenin sahaya gönderilmesini önler — açık sahaya akülü bir makine gitmesi, bataryanın günü çıkarmaması riskini taşır.",
+            },
+            {
+                baslik: "OSTİM-İvedik-Sincan hattında hangi manlift tipi ne sıklıkla istenir",
+                metin:
+                    "Hattın karma sanayi yapısı (küçük atölye, orta ölçekli imalathane, açık saha depolama) nedeniyle manlift talebi tek bir sınıfa yoğunlaşmaz: atölye içi bakım işleri çoğunlukla makaslı veya dikey sınıfa, çelik konstrüksiyon ve dış cephe işleri bomlu sınıfa, açık saha aydınlatma ve bakım işleri dizel bomlu modellere düşer. Genel amaçlı filomuzun avantajı tam olarak burada devreye girer — tek bir sınıfa özelleşmiş bir filo yerine, hattın karma talebine uygun karma bir envanter sunarız ve işin tarifine göre doğru sınıfı öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift ailesi: tip karşılaştırma tablosu",
+                paragraflar: [
+                    "'Manlift' şemsiye teriminin altındaki dört ana tipin tipik özellikleri aşağıdadır. Kesin seçim, hedefin konumu ve zemin bilgisiyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Tip", "En uygun kullanım", "Zemin/alan gereksinimi", "Tipik yükseklik"],
+                    satirlar: [
+                        ["Eklemli bom", "Engel arkasına erişim, kırılımlı rota", "Orta-geniş alan", "12-25 m"],
+                        ["Teleskopik bom", "Uzun düz erişim, yüksek kapasite", "Geniş açık alan", "16-30 m"],
+                        ["Dikey (direk) manlift", "Dar koridor, tek noktalı iç mekân işi", "Dar-orta alan, düz zemin", "8-12 m"],
+                        ["Makaslı platform", "Düz tavan altı, geniş sepet ihtiyacı", "Düz zemin, orta-geniş alan", "6-16 m"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda doğru sınıfa nasıl ulaşılır",
+                paragraflar: [
+                    "Bir müşteri 'manlift lazım' dediğinde sorduğumuz sıralı sorular şunlardır: hedefin altı boş mu yoksa bir engel mi var (bomlu-bomsuz ayrımı), alan dar mı geniş mi (dikey-makaslı-bom ayrımı), zemin kapalı-düz mü açık-düzensiz mi (elektrik-dizel ayrımı). Bu üç soru genelde iki dakikada cevaplanır ve doğru sınıf, katalog isimleriyle uğraşmadan netleşir.",
+                    "Fotoğraf paylaşımı bu süreci hızlandırır — hedefin ve varsa engelin fotoğrafı, telefon tarifinden çok daha net bir sınıf kararı verdirir.",
+                ],
+            },
+            {
+                baslik: "Yanlış sınıf seçiminin bedeli",
+                paragraflar: [
+                    "Manlift ailesindeki yanlış sınıf seçimi, çoğunlukla iki yönde hata olarak ortaya çıkar: dar koridora geniş sepetli bir makine göndermek (makine kapıdan geçmez veya manevra edemez) ya da engelin arkasına makaslı platform göndermek (sepet engelin önünde durur, hedefe ulaşamaz). Her iki hata da makinenin sahada değiştirilmesi anlamına gelir ve bu, hem zaman hem nakliye maliyeti demektir. Telefonda hedefin konumunu ve alanın ölçüsünü netleştirmek, bu hataların neredeyse tamamını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "'Manlift' ile 'platform' aynı şey mi?",
+                cevap:
+                    "Günlük kullanımda ikisi çoğu zaman birbirinin yerine kullanılır, ama teknik olarak 'manlift' insan yükseltme amaçlı makinelerin tamamını (bomlu, dikey, makaslı) kapsayan şemsiye bir terimdir; 'platform' ise bu ailenin belirli bir alt sınıfını (genelde makaslı platformu) işaret edebilir. Bizimle konuştuğunuzda hangisini kastettiğiniz önemli değildir — hedefinizi ve alanınızı tarif ettiğinizde doğru sınıfı biz netleştiririz.",
+            },
+            {
+                soru: "Hangi manlift tipini seçeceğimi bilmiyorum, nasıl karar veririm?",
+                cevap:
+                    "Üç bilgi yeterlidir: hedefin altı boş mu yoksa bir engel mi var (boşsa makaslı/dikey, doluysa bomlu gerekir), alanınız dar mı geniş mi (dar koridorda dikey manlift veya kompakt makaslı, geniş alanda bom rahat çalışır), zemininiz kapalı-düz mü açık-düzensiz mi (elektrik-dizel ayrımı). Bu üç bilgiyi paylaştığınızda telefonda birkaç dakikada doğru sınıfı önerebiliriz; şüpheli durumlarda fotoğraf paylaşımı kararı netleştirir.",
+            },
+            {
+                soru: "Dikey manlift ile makaslı platform arasındaki fark nedir?",
+                cevap:
+                    "Dikey manlift tek bir mast üzerinde saf dikey hareket eder, sepeti küçüktür ve genelde tek kişilik iş için uygundur; en büyük avantajı dar koridor ve kapı genişliğinde makaslı platformdan daha rahat manevra etmesidir. Makaslı platform ise daha geniş sepete, daha fazla malzeme taşıma kapasitesine ve genelde daha yüksek çalışma sınırına sahiptir ama daha fazla alan ister. Dar bir koridorda kısa süreli tek noktalı işse dikey manlift, geniş bir alanda birden fazla kişi ve malzemeyle çalışılacaksa makaslı platform tercih edilir.",
+            },
+            {
+                soru: "Eklemli bom mu teleskopik bom mu, ikisi arasındaki fark ne?",
+                cevap:
+                    "Eklemli bom, kollarını kırarak (dirsek gibi) engelin üzerinden veya yanından dolanabilir — bu yüzden karmaşık, engelli rotalarda tercih edilir. Teleskopik bom ise tek parça uzayan bir kol yapısındadır, daha uzun düz erişim ve genelde daha yüksek yük kapasitesi sunar ama kırılma esnekliği yoktur. Hedefe düz bir hatla ulaşılabiliyorsa teleskopik, engelin arkasına dolanmak gerekiyorsa eklemli bom uygundur — bu ayrımı hedefin fotoğrafıyla birlikte netleştiririz.",
+            },
+            {
+                soru: "OSTİM-İvedik-Sincan hattında en çok hangi manlift tipi kiralanıyor?",
+                cevap:
+                    "Hattın karma sanayi yapısı nedeniyle tek bir tip baskın değildir: atölye içi bakım ve montaj işleri ağırlıkla makaslı veya dikey sınıfa, çelik konstrüksiyon ve cephe işleri bomlu sınıfa, açık saha aydınlatma-bakım işleri dizel bomlu modellere yönelir. Genel amaçlı filomuz bu karma talebe göre kurulmuştur; işinizi tarif ettiğinizde hangi sınıfın sizin için tipik olduğunu söyleyebiliriz.",
+            },
+            {
+                soru: "Manlift kullanmak için özel bir belge gerekir mi?",
+                cevap:
+                    "Evet — manlift ailesindeki her sınıf (bomlu, dikey, makaslı) için MYK yeterlilik belgesi şarttır ve belge, kullanılan makine tipine göre değişir; bir sınıfın belgesi diğerini otomatik kapsamaz. Belgeli personeliniz yoksa operatörlü kiralama pratik çözümdür — operatör makineyle birlikte gelir, ekibiniz sepette işini yürütür. Tekrarlayan ihtiyacınız varsa personele belge aldırmak, uzun vadede daha ekonomik bir yoldur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift ailesindeki bom/dikey/makaslı ayrımı, güç kaynağı (elektrik/dizel) seçim mantığı ve MYK yeterlilik belgesi zorunluluğu sektör genelinde bilinen teknik gerçeklerdir; OSTİM-İvedik-Sincan hattındaki talep dağılımı firma sahadaki gözlemine dayanır.",
+    },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "İlk Kez Makaslı Platform Kiralayacaklar İçin Rehber: OSTİM-İvedik-Sincan",
+        giris:
+            "Makaslı platform, isim olarak diğer yükseltme makinelerinden daha tanıdık gelir ama ilk kez kiralayacak bir işletme için asıl zorluk makinenin ne olduğunu bilmek değil, kiralama sürecinin adımlarını ve nelere dikkat edileceğini bilmemektir — hangi ölçü sorulur, ne zaman teslim edilir, sahada kontrol edilmesi gereken neler vardır. OSTİM-İvedik-Sincan hattındaki küçük ve orta ölçekli işletmelerin çoğu yılda bir-iki kez makaslı platform kiralar ve bu düşük sıklık, her seferinde süreci yeniden öğrenmek anlamına gelir. Genel amaçlı filomuzun ilk kez kiralayan işletmeye yaklaşımı, kataloğu değil süreci anlatmaktır: hangi bilgiyi paylaşmanız gerektiği, teslimat gününde ne göreceğiniz, sahada neyi kontrol etmeniz gerektiği ve en sık yapılan hataların neler olduğu. Makaslı platform, düz zeminli kapalı veya açık alanlarda geniş sepet gerektiren işler için en ekonomik ve en yaygın erişim çözümüdür — ama bu ekonomikliğin gerçekleşmesi doğru ölçü ve doğru süreçle mümkündür. Bu sayfa, ilk kiralamanızı sorunsuz geçirmeniz için adım adım rehber sunuyor.",
+        maddeler: [
+            {
+                baslik: "Makaslı platform ne zaman doğru seçimdir",
+                metin:
+                    "Makaslı platform, hedefe düz bir tavan altından ulaşılan ve sepette birden fazla kişi veya malzemeyle çalışılması gereken işlerde en pratik çözümdür — dikey manlift veya bom gibi engel arkasına dolanma kabiliyeti yoktur ama buna karşılık çok daha geniş bir sepet ve genelde daha yüksek yük kapasitesi sunar. Atölye tavan aydınlatması, vinç rayı bakımı, tesisat döşemesi, boyama işleri gibi düz-altı-boş hedeflerde ilk tercih makaslı platformdur; hedefin önünde bir boru hattı veya ekipman yığını varsa bu sınıf uygun değildir ve bomlu bir çözüm gerekir.",
+            },
+            {
+                baslik: "İlk kiralamada paylaşmanız gereken bilgiler",
+                metin:
+                    "Süreci hızlandıran dört bilgi vardır: hedefin gerçek yüksekliği (tahmin değil, ölçülmüş), çalışma alanının genişliği ve varsa kapı/koridor ölçüsü, zeminin türü (beton, epoksi, açık saha) ve işin süresi (gün mü hafta mı). Bu dört bilgiyi telefonda paylaştığınızda, hangi metraj ve genişlik sınıfının size uygun olduğu birkaç dakikada netleşir — ilk kez kiralayan işletmelerin en sık yaptığı hata bu bilgileri 'yaklaşık' vermek, sahada makinenin sığmaması veya yetmemesiyle sonuçlanır.",
+            },
+            {
+                baslik: "Ölçü ve kapasite: dar koridor geçişi kritik detaydır",
+                metin:
+                    "Makaslı platformlar şase genişliğine göre standart ve dar gövde olmak üzere iki ana gruba ayrılır — standart modeller genellikle 1,15-1,20 metre genişliğindedir, dar gövdeli modeller ise 0,76-0,81 metre bandına iner ve tek kişilik kapı veya raf aralarından geçebilir. İlk kez kiralayan bir işletme genelde bu ayrımı bilmez ve 'kapıdan geçer mi' sorusunu atlar; kapı ve koridor genişliğinizi santimetre cinsinden paylaşmanız, doğru gövde sınıfının seçilmesini sağlar ve sahada 'makine sığmadı' hayal kırıklığını önler.",
+            },
+            {
+                baslik: "Elektrikli mi dizel mi: ortamınız kararı verir",
+                metin:
+                    "İlk kez kiralayanların sıkça karıştırdığı bir başka nokta güç kaynağı seçimidir: kapalı, düz zeminli atölye ve depo içi işlerde akülü/elektrikli makaslı platform standart tercihtir çünkü egzozsuz ve sessiz çalışır, iç mekân havasını kirletmez. Açık saha veya düzensiz zeminde ise dizel modeller gerekli çekiş gücünü sağlar. İşin nerede yapılacağını (kapalı mı açık mı) net söylemek, sahaya yanlış güç kaynaklı makinenin gitmesini önler — bu, ilk kiralamada en çok karışan ikinci noktadır.",
+            },
+            {
+                baslik: "Teslimat günü: sahada kontrol edilecekler",
+                metin:
+                    "Makine sahaya geldiğinde ilk kez kiralayan bir işletmenin yapması gereken üç basit kontrol vardır: makinenin sözleşmede belirtilen model ve ölçüyle uyuşup uyuşmadığını doğrulamak, teslimat formunda mevcut hasarların (varsa) not edilmiş olduğunu görmek ve kısa bir çalıştırma denemesiyle temel fonksiyonların (yükselme, hareket, acil durdurma) çalıştığını teyit etmek. Bu üç kontrol beş dakikadan az sürer ve kiralama süresi boyunca yaşanabilecek anlaşmazlıkları büyük ölçüde önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform kapasite ve genişlik tablosu",
+                paragraflar: [
+                    "İlk kez kiralayacak işletmelerin en çok karıştırdığı ölçü-kapasite eşleşmesi aşağıdadır. Kesin seçim, hedef yüksekliği ve kapı/koridor ölçüsüyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Şase genişliği", "Tipik kullanım", "Sepet kapasitesi"],
+                    satirlar: [
+                        ["Dar gövde (kompakt)", "0,76 – 0,81 m", "Tek kişilik kapı/koridor geçişi", "1-2 kişi"],
+                        ["Standart gövde", "1,15 – 1,20 m", "Geniş atölye/depo içi iş", "2-3 kişi"],
+                        ["Geniş sepet", "1,20 m ve üzeri", "Ekip halinde çalışma, malzeme taşıma", "3+ kişi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralama sürecinde adım adım ne olur",
+                paragraflar: [
+                    "Süreç genelde dört adımda ilerler: önce telefonda hedef yükseklik, alan ölçüsü, zemin ve süre bilgisi paylaşılır ve buna göre sınıf önerilir; ardından fiyat ve teslimat tarihi netleşir; teslimat gününde makine sahaya gelir ve yukarıdaki üç kontrol yapılır; iş bitiminde makine yerinde teslim alınır ve teslimat formu kapatılır.",
+                    "İlk kez kiralayan işletmeler için bu sürecin en önemli adımı birincisidir — telefonda paylaşılan bilgi ne kadar net ve ölçülmüşse, sonraki adımlarda sürpriz o kadar az olur.",
+                ],
+            },
+            {
+                baslik: "Sık yapılan ilk kiralama hataları",
+                paragraflar: [
+                    "İlk kez kiralayan işletmelerde en sık görülen üç hata şunlardır: kapı/koridor ölçüsünü 'yaklaşık' vermek (makine sığmaz), hedef yüksekliğini gözle tahmin etmek (makine yetmez veya gereksiz büyük gelir) ve güç kaynağı ihtiyacını belirtmemek (kapalı alana dizel makine gitmesi ya da tam tersi). Bu üç hatanın ortak çözümü aynıdır: kiralama öncesi üç ölçüyü (kapı, yükseklik, zemin türü) şeritmetreyle veya en azından net bir tahminle paylaşmak.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İlk kez kiralıyorum, ne bilgi vermem gerekiyor?",
+                cevap:
+                    "Dört bilgi yeterli: hedefin gerçek yüksekliği (mümkünse ölçülmüş), çalışma alanının ve varsa kapı/koridorun genişliği, zeminin türü (kapalı-düz mü açık-düzensiz mi) ve işin süresi. Bu bilgilerle telefonda birkaç dakikada size uygun sınıfı ve genişliği önerebiliriz. Ölçüyü tam bilmiyorsanız fotoğraf paylaşmanız da yeterli bir başlangıç noktasıdır.",
+            },
+            {
+                soru: "Makine kapıdan geçer mi, nasıl anlarım?",
+                cevap:
+                    "Standart makaslı platformlar genelde 1,15-1,20 metre genişliğindedir, dar gövdeli modeller ise 0,76-0,81 metre bandına iner. Kapı veya koridor genişliğinizi santimetre cinsinden ölçüp paylaştığınızda, hangi gövde sınıfının geçeceğini kesin olarak söyleyebiliriz — 'yaklaşık geçer' tahminiyle makine göndermeyiz, çünkü sahada sığmama riski hem zaman hem nakliye kaybı demektir.",
+            },
+            {
+                soru: "Elektrikli mi dizel mi almalıyım, farkı ne?",
+                cevap:
+                    "İş kapalı, düz zeminli bir atölye veya depo içindeyse elektrikli/akülü model standart tercihtir çünkü egzozsuz ve sessiz çalışır. İş açık sahada veya zemin düzensizse dizel model gereken çekiş gücünü sağlar. İşin nerede yapılacağını net söylerseniz doğru güç kaynağını biz öneririz; bu ayrımı atlamak, ilk kiralamada en sık karşılaşılan karışıklıktır.",
+            },
+            {
+                soru: "Teslimat gününde nelere dikkat etmeliyim?",
+                cevap:
+                    "Üç basit kontrol yeterlidir: makinenin sözleşmede belirtilen model ve ölçüyle uyuştuğunu doğrulayın, teslimat formunda varsa mevcut hasarların not edildiğini görün ve kısa bir deneme çalıştırmasıyla yükselme, hareket ve acil durdurma fonksiyonlarının çalıştığını teyit edin. Bu kontroller beş dakikadan az sürer ve kiralama süresince yaşanabilecek anlaşmazlıkları önler.",
+            },
+            {
+                soru: "Operatör de gerekiyor mu, yoksa kendimiz mi kullanırız?",
+                cevap:
+                    "Makaslı platform kullanmak için MYK yeterlilik belgesi şarttır. Ekibinizde belgeli personel varsa kendiniz kullanabilirsiniz; yoksa operatörlü kiralama pratik çözümdür — operatör makineyle birlikte gelir, ekibiniz sepette işini yürütür. İlk kez kiralayan işletmelerin çoğu operatörlü seçeneği tercih eder çünkü belge süreci zaman alır; tekrarlayan ihtiyacınız varsa personele belge aldırmak uzun vadede daha ekonomiktir.",
+            },
+            {
+                soru: "Ne kadar süreliğine kiralamalıyım, gün mü hafta mı?",
+                cevap:
+                    "İşiniz 1-2 gün sürecekse günlük tarife doğaldır; 3 günü aşıyorsa haftalık paket genelde daha ekonomiktir çünkü nakliye ve kurulum maliyeti güne değil haftaya bölünür. Süre konusunda emin değilseniz kısa başlayıp gerekirse uzatmak, baştan uzun süre alıp erken iade etmekten daha esnek bir yaklaşımdır — ilk kiralamada bu esnekliği kullanmanızı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform şase genişliği bantları (standart/dar gövde), güç kaynağı seçim mantığı ve MYK yeterlilik belgesi zorunluluğu sektör genelinde bilinen teknik gerçeklerdir; ilk kiralama süreci adımları ve sık hatalar firma sahadaki gözlemine dayanır.",
+    },
 };
