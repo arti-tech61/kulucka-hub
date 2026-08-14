@@ -2205,4 +2205,202 @@ export const BANDIRMAMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Liman ve tersane açık sahalarının genellikle dolgu, çakıl veya sıkıştırılmamış zeminden oluştuğu ve kıyı şeridinin yağış sonrası su tutma eğilimi kamuya açık genel bilgidir; zemin değerlendirme adımları, plaka kullanımı ve saha kararları firma pratiğidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bandırma'da Makaslı Platform Kiralama",
+        giris:
+            "Bandırma limanının rıhtım gerisindeki antrepo önleri ve kimya-gübre tesislerinin tank sahası çevresindeki beton veya asfalt kaplı düz alanlar, makaslı platformun en verimli çalıştığı zemin tipidir. Eklemli bomlu platformun aksine makaslı platform yalnızca dikey yükselir; bu sınırlama, düz ve geniş bir sahada aslında bir dezavantaj değil, tam tersine bir avantaja dönüşür — çünkü geniş ve stabil bir çalışma deck'i sunar, bu deck üzerine birden fazla personel ve ağır malzeme (boru parçası, kaynak makinesi, boya ekipmanı) birlikte çıkabilir. Rıhtım gerisi antrepo cephelerinde boya-bakım işleri, tank çevresi beton sahalarda dış cidar muayenesi, yükleme rampası kanopilerinin çelik kiriş montajı gibi işlerde hedef genellikle düz bir yüzeydir ve engeli aşmak değil, o yüzeye geniş bir ekip ve malzemeyle konumlanmak öncelik taşır. Bu sayfa, Bandırma'nın liman ve sanayi sahalarındaki hangi açık alan işlerinde makaslı platformun doğru seçim olduğunu, deck kapasitesi planlamasını ve zemin düzlüğü kontrolünü anlatır.",
+        maddeler: [
+            {
+                baslik: "Rıhtım gerisi ve antrepo önü sahalarda düz zemin avantajı",
+                metin:
+                    "Liman apronu ve antrepo önü sahalar genellikle beton veya sıkıştırılmış asfalt kaplamalıdır; bu düzlük, makaslı platformun teker izi bırakmadan ve devrilme riski taşımadan güvenle çalışmasını sağlar. Zemin eğimi belirli bir sınırı aşıyorsa (rampa girişleri gibi) bu noktalar önceden işaretlenir ve makine o bölgede kullanılmaz; düzlük kontrolü teklif öncesi sorduğumuz ilk sorulardan biridir.",
+            },
+            {
+                baslik: "Geniş deck: birden fazla personel ve ağır malzemeyi birlikte taşıma",
+                metin:
+                    "Makaslı platformun geniş ve dikdörtgen deck yapısı, iki-üç kişilik bir ekibin kaynak makinesi, boya tabancası veya boru parçası gibi ağır malzemeyle birlikte yükselmesine izin verir. Dar sepetli eklemli bom veya örümcek platformda bu kapasite genellikle yoktur; malzeme ayrıca bir vinç veya halatla yukarı taşınması gerekir. Bu yüzden ekip+malzeme birlikte hareket etmesi gereken işlerde makaslı platform zaman kazandırır.",
+            },
+            {
+                baslik: "Tank çevresi beton sahalarda dış cidar muayene ve bakım",
+                metin:
+                    "Kimya-gübre tesislerindeki depolama tanklarının çevresi çoğunlukla düz betondur ve tankın dış cidarına dikey biçimde yaklaşmak yeterlidir; burada engel aşma değil, geniş bir yüzey boyunca sabit ve stabil durabilme önemlidir. Tank çevresinde birden fazla nokta kontrol edilecekse, makine tankın etrafında sırayla konumlandırılır; her konumlanmada zemin tekrar gözle kontrol edilir.",
+            },
+            {
+                baslik: "Yükleme rampası kanopisi ve çelik kiriş montajında düz altta çalışma",
+                metin:
+                    "Antrepo yükleme rampalarının üzerindeki kanopi (saçak) yapılarının çelik kiriş montajı veya bakımı, genellikle rampanın hemen altındaki düz zeminden yapılır; kirişin tamamı boyunca ekip ve malzeme birlikte hareket eder. Bu tip işlerde makaslı platform, kirişin altında yatay olarak kaydırılarak farklı noktalara taşınabilir; tek bir konumlanmayla tüm kirişin taranması nadiren mümkündür, bu yüzden iş planı kiriş boyunca birkaç duraktan oluşur.",
+            },
+            {
+                baslik: "Açık sahada dizel, kapalı geçişte akülü model seçimi",
+                metin:
+                    "Rıhtım gerisi ve tank sahası gibi tamamen açık alanlarda dizel veya iki yakıtlı makaslı platform modelleri tercih edilir; bu modeller daha yüksek tekerlek çekiş gücüne ve dış hava koşullarına dayanıklı yapıya sahiptir. İş sırasında bir antrepo kapısından içeri girilmesi gerekiyorsa, o bölüm için akülü bir modele geçilir veya iş baştan akülü modelle planlanır; iki sınıf arasında geçiş, güzergah netleştikten sonra teklif aşamasında kararlaştırılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi açık saha işinde makaslı platform doğru seçim",
+                paragraflar: [
+                    "Bandırma'daki tipik açık saha işlerini ve makaslı platformun bu işlerdeki uygunluğunu aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Zemin", "Uygunluk", "Not"],
+                    satirlar: [
+                        ["Antrepo cephe boya/bakım", "Düz beton", "Yüksek", "Geniş deck avantajı"],
+                        ["Tank dış cidar muayenesi", "Düz beton saha", "Yüksek", "Sıralı konumlanma gerekir"],
+                        ["Kanopi çelik kiriş montajı", "Düz beton, rampa altı", "Yüksek", "Kiriş boyunca birkaç durak"],
+                        ["Konveyör köprüsü altı/üstü", "Düz ama engelli", "Düşük", "Eklemli bom önerilir"],
+                        ["Rampa girişi eğimli bölge", "Eğimli", "Uygun değil", "Bölge işaretlenip dışlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Deck kapasitesi ve malzeme taşıma planlaması",
+                paragraflar: [
+                    "Makaslı platformun deck kapasitesi, üzerine çıkacak kişi sayısına ve taşınacak malzemenin toplam ağırlığına göre önceden hesaplanır; bu hesap, kapasite sınırının aşılmadığından emin olmak için iş başlamadan önce yapılır ve gerekirse daha yüksek kapasiteli bir model önerilir.",
+                    "Ağır ve hacimli malzemenin (örneğin uzun bir boru segmenti) deck üzerine nasıl yerleştirileceği de önceden planlanır; dengesiz yerleştirme, platformun yükselme sırasında sallanmasına yol açabileceğinden bu konuda ekip iş başında kısaca yönlendirilir.",
+                ],
+            },
+            {
+                baslik: "Zemin düzlüğü kontrolü ve teker izi",
+                paragraflar: [
+                    "İş öncesi kısa bir zemin taraması yapılır; kaplamada çatlak, çukur veya rögar kapağı gibi düzensizlikler varsa bu noktalar makinenin güzergahından çıkarılır. Beton veya asfalt kaplı sahalarda teker izi riski düşüktür, ancak sıcak havada yumuşayan asfalt üzerinde uzun süre sabit durulması gereken işlerde iz oluşumu ihtimali göz önünde bulundurulur ve gerekirse teker altına dağıtıcı plaka konur.",
+                    "Zemin tesise ait değilse (örneğin kiralık bir saha ise) kaplamaya olabilecek etkiler iş öncesi saha sahibine bildirilir; bu, sonradan çıkabilecek bir anlaşmazlığı baştan önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Deck'e aynı anda kaç kişi ve ne kadar malzeme çıkabilir?",
+                cevap:
+                    "Bu, seçilen modelin kapasite sınıfına göre değişir; standart bir makaslı platformda genellikle iki-üç kişi ve orta ağırlıkta malzeme birlikte taşınabilir. İşin gerektirdiği kişi sayısı ve malzeme ağırlığını önceden bildirdiğinizde, bu yükü güvenle taşıyacak kapasitede bir model öneririz; kapasite sınırı iş sırasında asla aşılmaz, aşan bir talep gelirse daha büyük modele geçilir.",
+            },
+            {
+                soru: "Hafif eğimli bir beton sahada makaslı platform kullanılabilir mi?",
+                cevap:
+                    "Üreticinin belirlediği eğim sınırı içinde kalan hafif eğimlerde çoğu model çalışabilir, ancak bu sınır makineye göre değişir ve iş öncesi ölçülür. Sınırı aşan bir eğim varsa o bölgede makine kullanılmaz; bu bölümler iskele veya başka bir yöntemle tamamlanır. Eğim ölçümü, teklif öncesi saha fotoğrafı veya kısa bir keşifle netleştirilir.",
+            },
+            {
+                soru: "Rıhtım gerisi açık sahada rüzgâr için bir sınır var mı?",
+                cevap:
+                    "Evet, tüm yükseltilmiş platformlar gibi makaslı platformlar da üreticinin belirlediği bir rüzgâr hızı sınırına sahiptir ve kıyı şeridi genellikle iç kesimlere göre daha yüksek rüzgâr alır. Rüzgâr tahmini kritik günlerde iş planlaması buna göre yapılır; sınır aşıldığında iş güvenlik gereği durdurulur ve rüzgâr düştüğünde devam edilir.",
+            },
+            {
+                soru: "Tank çevresinde kimyasal buhar riski varsa akülü model mi tercih edilmeli?",
+                cevap:
+                    "Buhar riski tesisin kendi risk değerlendirmesine göre belirlenir; kıvılcım riski taşımayan bir atmosfer gerekiyorsa akülü ve uygun koruma sınıfına sahip model kullanılır. Bu karar tek başımıza verilmez, tesisin İSG sorumlusuyla birlikte netleştirilir ve risk bildirimi belirsizse güvenli tarafta kalınarak akülü sınıf tercih edilir.",
+            },
+            {
+                soru: "İş bitiminde beton veya asfalt sahada iz veya hasar kalır mı?",
+                cevap:
+                    "Sağlam beton veya asfalt kaplamada normal kullanımda kalıcı iz beklenmez. Sıcak havada yumuşamış asfalt üzerinde uzun süre sabit durulan işlerde hafif bir teker izi oluşabilir; bu ihtimal önceden bilindiğinde teker altına dağıtıcı plaka konularak önlenir. Kaplamada önceden var olan bir hasar varsa iş öncesi birlikte tespit edilir ve kayıt altına alınır.",
+            },
+            {
+                soru: "Makaslı platform ile eklemli bom (manlift) arasındaki temel fark ne, hangisini seçmeliyiz?",
+                cevap:
+                    "Makaslı platform yalnızca dikey yükselir ve düz-geniş bir alanda geniş deck kapasitesiyle avantaj sağlar; eklemli bom ise kolunu yana ve yukarı-aşağı katlayarak bir engelin altından geçip üstüne çıkabilir veya bir yapının üzerinden aşabilir. Hedefiniz düz bir zeminden dikey erişimse ve ekip+malzeme birlikte taşınacaksa makaslı platform, hedef bir engelin arkasında veya üzerindeyse eklemli bom daha uygun seçimdir. Karar, hedefin geometrisine göre teklif aşamasında netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Liman apronu ve antrepo önü sahaların beton/asfalt kaplı düz yapısı ile kimya-gübre tesislerindeki tank sahalarının benzer zemin karakteri kamuya açık genel bilgidir; deck kapasitesi hesabı, model seçimi ve saha kararları firma pratiğidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bandırma'da Manlift Kiralama — Teleskopik Düz Erişim",
+        giris:
+            "\"Manlift\" günlük dilde personel yükseltme platformlarının tamamı için kullanılan yaygın bir terimdir, ama teknik olarak iki ayrı hareket sınıfını kapsar: kolunu yukarı-aşağı ve yana katlayarak bir engeli aşan eklemli bom, ve kolunu düz bir çizgide uzatan teleskopik bom. Bu sayfa, Bandırma'nın liman ve sanayi sahasında ikinci sınıfın — teleskopik, düz hat üzerinde çalışan manlift'in — ne zaman doğru seçim olduğunu anlatır. Tank ve silo dış cidarında boya-kaynak-muayene işleri, rıhtım aydınlatma direği veya reklam panosu gibi tekil yüksek noktalar, depo dış cephesi ve parapet kenarı gibi hedefler genellikle önünde bir engel barındırmaz; buraya en hızlı ve en uzun düz hatla ulaşan makine teleskopik bomdur. Kolun katlanarak bir yapının üzerinden aşması gerekmiyorsa, teleskopik model hem daha hızlı yükselir hem de aynı sınıfta genellikle daha uzun düz menzil sunar. Bu sayfa, hangi hedeflerde teleskopik manlift'in öne çıktığını, rüzgâr ve açık saha koşullarındaki sınırlarını ve eklemli bomdan farkını anlatır.",
+        maddeler: [
+            {
+                baslik: "Tank ve silo dış cidarında düz teleskopik erişim",
+                metin:
+                    "Bir depolama tankının veya silonun dış cidarına dikey bir hatta yaklaşmak gerektiğinde — örneğin cidar kaynağı muayenesi veya dış yüzey boyası için — kolun bir engeli aşmasına gerek yoktur, sadece hızlı ve dengeli biçimde hedef yüksekliğe çıkması gerekir. Teleskopik bom bu hareketi eklemli bomdan daha hızlı yapar; birden fazla nokta kontrol edilecekse makine tankın çevresinde sırayla konumlandırılır.",
+            },
+            {
+                baslik: "Rıhtım aydınlatma direği ve reklam panosu gibi tekil yüksek noktalar",
+                metin:
+                    "Liman sahasındaki aydınlatma direkleri, bayrak direkleri veya tabela panoları genellikle çevresinde başka bir yapı barındırmayan tekil noktalardır. Bu tip hedeflerde kolun sadece dikey ve hafif yatay bir hatla hedefe ulaşması yeterlidir; teleskopik bom, tek bir konumlanmadan sonra doğrudan hedefe kilitlenir ve iş süresi kısalır.",
+            },
+            {
+                baslik: "Depo dış cephesi ve parapet kenarında hızlı düz yükseliş",
+                metin:
+                    "Antrepo veya üretim binasının dış cephe onarımı, oluk temizliği veya parapet kenarı işlerinde hedef genellikle binanın düz bir yüzeyidir. Teleskopik bom, bu tip ardışık noktalarda makineyi bir konumdan diğerine kaydırıp her seferinde hızlıca düz bir hatla yükselterek ilerlemeyi sağlar; bu, aynı işi eklemli bomla yapmaya göre genellikle daha az sayıda yeniden konumlanma gerektirir.",
+            },
+            {
+                baslik: "Geniş açık sahada tek noktadan uzak hedefe erişim",
+                metin:
+                    "Teleskopik bom sınıfı, aynı yükseklik değerinde çoğunlukla eklemli bomdan daha uzun düz yatay menzil sunar; bu, geniş ve açık bir sahada (örneğin büyük bir depolama alanı) makinenin bir kez konumlanıp uzaktaki bir hedefe kolu düz biçimde uzatarak ulaşmasını sağlar. Bu avantaj yalnızca hedefle makine arasında engel yoksa geçerlidir; araya bir yapı girerse teleskopik kol o yapıyı aşamaz.",
+            },
+            {
+                baslik: "Terminoloji notu: manlift, teleskopik ve eklemli ayrımı",
+                metin:
+                    "Teklif isterken \"manlift\" dendiğinde, işin gerçekte hangi hareket sınıfını gerektirdiğini biz sizinle birlikte netleştiririz — hedefin önünde bir engel var mı, yoksa düz bir hatla mı ulaşılıyor. Bu netleştirme, doğru makinenin ilk seferde sahaya gitmesini sağlar; yanlış sınıf seçimi hem zaman kaybettirir hem de bazı işlerde işi tamamlanamaz hâle getirebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hedef tipine göre teleskopik mi eklemli mi",
+                paragraflar: [
+                    "Bandırma'da sık talep edilen manlift işlerini ve uygun bom sınıfını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Engel durumu", "Önerilen sınıf", "Not"],
+                    satirlar: [
+                        ["Tank/silo dış cidarı", "Engelsiz düz yüzey", "Teleskopik", "Hızlı dikey yükseliş"],
+                        ["Aydınlatma direği/tabela", "Tekil, engelsiz nokta", "Teleskopik", "Tek konumlanmadan erişim"],
+                        ["Depo dış cephe/parapet", "Düz yüzey, ardışık nokta", "Teleskopik", "Az yeniden konumlanma"],
+                        ["Konveyör köprüsü/estakad", "Engel var", "Eklemli bom", "Ayrı sayfada anlatılır"],
+                        ["Silo/kule geniş çevre taraması", "Engelsiz ama dönüşlü", "Duruma göre değişir", "Ölçüyle netleşir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teleskopik bomun hız avantajı",
+                paragraflar: [
+                    "Teleskopik kol, eklemli bomdaki gibi birden fazla eklemin sırayla açılmasını gerektirmediği için, aynı yüksekliğe genellikle daha kısa sürede ulaşır. Bu fark, günde çok sayıda ayrı noktanın kontrol edildiği işlerde (örneğin bir dizi aydınlatma direğinin sırayla kontrolü) toplamda belirgin bir zaman kazancına dönüşür.",
+                    "Hız avantajı yalnızca hedef önünde engel yokken geçerlidir; engelli bir hedefte teleskopik kol dolaşamayacağından bu avantaj ortadan kalkar ve eklemli bom tercih edilir.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr ve açık saha koşullarında teleskopik kullanım sınırları",
+                paragraflar: [
+                    "Teleskopik bom, uzun ve ince bir kol yapısına sahip olduğundan, tam uzatılmış konumdayken rüzgârdan eklemli bomdan biraz daha fazla etkilenebilir; bu yüzden kıyı şeridindeki rüzgârlı günlerde tam menzilde çalışma öncesi rüzgâr hızı kontrol edilir. Üreticinin belirlediği rüzgâr sınırı aşıldığında iş durdurulur, rüzgâr düştüğünde devam edilir.",
+                    "Açık sahada uzun süre tam menzilde sabit kalınan işlerde (örneğin uzun bir cephe boyunca ilerleyen boya işi), rüzgâr durumu periyodik olarak yeniden kontrol edilir; tek seferlik bir kontrol yeterli görülmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile eklemli bom (boom) arasındaki fark tam olarak ne?",
+                cevap:
+                    "Manlift, günlük dilde tüm personel yükseltme platformları için kullanılan genel bir terimdir; bu terimin altında iki farklı hareket sınıfı vardır. Teleskopik sınıf kolunu düz bir çizgide uzatır ve engelsiz hedeflerde hızlıdır. Eklemli sınıf ise kolunu katlayarak bir engelin altından geçip üstüne çıkabilir. Teklif alırken hangi sınıfın işinize uygun olduğunu hedefin önünde engel olup olmadığına göre birlikte belirleriz.",
+            },
+            {
+                soru: "Teleskopik bom engelli bir yapıda (örneğin boru hattı üzerinde) kullanılabilir mi?",
+                cevap:
+                    "Hayır, teleskopik kol düz bir çizgide hareket ettiği için bir engelin üzerinden aşarak diğer tarafa geçemez. Hedefin önünde boru hattı, konveyör köprüsü gibi bir engel varsa eklemli bomlu model gerekir; bu durumda teleskopik model yerine ayrı sayfada anlattığımız eklemli platform önerilir.",
+            },
+            {
+                soru: "Rıhtımda açık deniz rüzgârında yükseklik sınırı var mı?",
+                cevap:
+                    "Kesin bir sayı vermek modele göre değişir, ancak kıyı şeridi iç kesimlere göre genellikle daha yüksek ve daha değişken rüzgâr alır; bu yüzden tam menzilde çalışma öncesi güncel rüzgâr hızını kontrol ederiz. Üreticinin belirlediği sınır aşıldığında iş durdurulur; bu, sabit bir kural olarak uygulanır ve saha koşuluna göre esnetilmez.",
+            },
+            {
+                soru: "Tank dış cidarında kaynak/boya işi için hangi sepet ölçüsü gerekir?",
+                cevap:
+                    "Sepet ölçüsü, işin gerektirdiği ekipmana (kaynak makinesi, boya tabancası, malzeme) ve sepette aynı anda kaç kişinin çalışacağına göre belirlenir. Standart bir sepet tek kişi ve orta büyüklükte ekipman için yeterlidir; iki kişi veya hacimli ekipman gerekiyorsa daha geniş sepetli bir model önerilir. Bu ölçüyü teklif öncesi netleştiririz.",
+            },
+            {
+                soru: "Kısa süreli, tek nokta işlerde (örneğin bir direğin kontrolü) manlift kiralamak mantıklı mı?",
+                cevap:
+                    "Evet, tekil ve engelsiz bir hedefte teleskopik manlift kısa süreli işler için verimlidir çünkü kurulum ve konumlanma hızlıdır. Birkaç saatlik veya tek günlük işlerde bu hız avantajı, toplam maliyeti de olumlu etkiler; ancak günlük minimum kiralama süresi olabileceğinden kesin süre ve ücreti teklif aşamasında netleştiririz.",
+            },
+            {
+                soru: "Manlift kiralamada operatör zorunlu mu?",
+                cevap:
+                    "Zorunluluk sahaya göre değişir; liman ve kimya-gübre tesisi gibi kontrollü sahalarda genellikle tesisin kendi kuralı gereği yeterlilik belgeli operatör istenir, tesis dışı küçük işlerde kendi eğitimli personelinizle operatörsüz kiralama da mümkündür. Hangi seçeneğin sahanız için geçerli olduğunu iş planlama aşamasında birlikte netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Teleskopik bomun düz hatta hızlı ve uzun menzilli erişim sunduğu, eklemli bomun ise engel aşabildiği ekipman sektöründe genel bilinen teknik ayrımdır; Bandırma'daki tank/silo/rıhtım uygulamalarına dair detaylar ve saha kararları firma pratiğidir.",
+    },
 };

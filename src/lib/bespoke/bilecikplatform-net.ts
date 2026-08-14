@@ -1812,4 +1812,200 @@ export const BILECIKPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bilecik ilinin traverten/mermer ocaklarında kesim artığı taş yüzeyi, yamaç eğimi ve pasa sahası gibi zor zemin koşullarının doğal olarak bulunması sektörün genel işleyişine dair kamuya açık bilgidir; eğim sınırı uygulaması, zemin yeniden değerlendirmesi ve gövde seçimi firma saha pratiğidir. Tesis adı ve rakamsal iddia kullanılmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Osmaneli ve Pazaryeri'de Makaslı Platform Kiralama: İki OSB, İki Farklı İç Mekân",
+        giris:
+            "Makaslı platformun en belirgin özelliği, sepetin yalnızca dikey doğrultuda yükselmesidir — boom'lu bir platform gibi yana açılmaz, bunun yerine dar bir taban izi üzerinde dümdüz yükselir. Bu basit hareket, aslında iki farklı iç mekân tipinde iki farklı avantaja dönüşür. Osmaneli OSB'nin depo ve dağıtım hacimlerinde koridor genişliği sabit bir ölçüdür; raf aralıkları genellikle standart forklift geçişine göre tasarlanmıştır ve buraya giren bir makinenin taban izi bu koridoru daraltmaması gerekir. Makaslı platformun dar gövdesi tam da bu koridora sığar, raf üstü aydınlatma veya sprinkler işini forklift trafiğini durdurmadan yürütmeyi mümkün kılar. Pazaryeri OSB'de durum farklıdır: burada koridor genişliği değil, atölye içindeki tezgâh ve makine dizilimi belirleyicidir; bir metal atölyesinin iki tezgâh arasındaki boşluk, bir depo koridorundan çok daha dar ve düzensiz olabilir. Bu yüzden Pazaryeri'ne giden bir makaslı platform talebinde, önce atölyenin iç düzenini ve geçiş genişliğini netleştiririz — Osmaneli'de bu bilgi büyük ölçüde tekrar ederken, Pazaryeri'nde her atölye kendi ölçüsünü taşır. Bu sayfa, aynı makine sınıfının iki komşu ilçede neden farklı bir keşif ve kurulum mantığı gerektirdiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Osmaneli'deki raf koridorunda dar taban izinin önemi",
+                metin:
+                    "Depo ve dağıtım tesislerinde raf aralıkları, forklift dönüş yarıçapına göre belirlenmiş sabit bir ölçüdür ve bu ölçü genellikle koridor boyunca değişmez. Makaslı platformun dar taban izi, bu koridora girip raf üstü aydınlatma veya sprinkler hattı üzerinde çalışırken forklift geçişini kapatmadan konumlanabilir. Koridor genişliği keşifte ölçülür; standartın altında bir koridorda daha dar gövdeli bir sınıf önerilir.",
+            },
+            {
+                baslik: "Pazaryeri'deki atölye içinde düzensiz geçiş genişliği",
+                metin:
+                    "Bir metal işleme veya montaj atölyesinin iç düzeni, depo koridorlarından farklı olarak zaman içinde tezgâh eklenmesi veya taşınmasıyla değişebilir. Bu yüzden telefon görüşmesinde verilen genel bir koridor bilgisiyle sınıf belirlemeyiz; birkaç fotoğraf veya kısa bir keşif isteriz. Dar bir geçişte standart gövde sığmıyorsa, daha kompakt bir makaslı sınıf veya tezgâhın geçici olarak kaydırılması değerlendirilir.",
+            },
+            {
+                baslik: "Düz beton zemin avantajının iki ilçede farklı geçerliliği",
+                metin:
+                    "Makaslı platformlar düz ve sağlam bir zeminde en verimli çalışır; Osmaneli'nin depo hacimlerinin büyük bölümü sanayi tipi düz beton zemine sahiptir ve bu, makinenin neredeyse her noktada aynı verimlilikle çalışmasını sağlar. Pazaryeri'ndeki bazı eski atölyelerde zemin daha eskidir, yer yer çatlak veya kot farkı bulunabilir; bu noktalar keşifte işaretlenir ve gerekirse geçici bir takoz veya plaka ile desteklenir.",
+            },
+            {
+                baslik: "Raf üstü işlerde yatay uzanmaya ihtiyaç olmaması",
+                metin:
+                    "Osmaneli'deki depo işlerinin çoğu, raf üstü aydınlatma değişimi, kablo döşemesi veya sprinkler başlığı bakımı gibi doğrudan tepe noktasına erişim gerektiren işlerdir; bu işlerde yana uzanan bir boom'a ihtiyaç yoktur, dikey yükselme yeterlidir. Makaslı platform bu iş tipinde hem daha hızlı kurulur hem de sepet genişliği sayesinde birden fazla kişi ve malzeme aynı anda taşınabilir.",
+            },
+            {
+                baslik: "İki ilçe arasında aynı gün planlama",
+                metin:
+                    "Osmaneli ile Pazaryeri arasındaki kısa mesafe, aynı makaslı platformu bir günde iki farklı iç mekân tipinde kullanmayı pratik kılar. Genellikle Osmaneli'deki depo işi günün büyük bölümünü alır, Pazaryeri'ndeki atölye işi ise daha kısa sürdüğü için günün kalan dilimine yerleştirilir. Bu planın işlemesi için tarihlerin önceden bildirilmesi yeterlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Osmaneli ve Pazaryeri'de makaslı platform kullanım profili",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki OSB'deki tipik iç mekân koşulunu ve buna uygun makaslı platform yaklaşımını karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Osmaneli OSB", "Pazaryeri OSB", "Sonuç"],
+                    satirlar: [
+                        ["Zemin", "Sanayi tipi düz beton", "Değişken, yer yer eski", "Pazaryeri'nde zemin keşfi öncelikli"],
+                        ["Geçiş genişliği", "Standart raf koridoru", "Tezgâh dizilimine bağlı, düzensiz", "Osmaneli'de telefonla ön netleşme mümkün"],
+                        ["Tipik iş", "Raf üstü aydınlatma, sprinkler", "Çatı altı bakım, montaj hattı üstü", "İkisinde de dikey erişim yeterli"],
+                        ["Trafik", "Forklift geçişi devam eder", "Genellikle düşük", "Osmaneli'de güzergâh ayrımı şart"],
+                        ["Keşif ihtiyacı", "Genelde düşük (tekrarlayan profil)", "Genelde yüksek (her atölye farklı)", "Pazaryeri'nde fotoğraf/keşif istenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden boom'lu değil makaslı platform tercih edilir",
+                paragraflar: [
+                    "Hem Osmaneli'deki raf üstü işler hem Pazaryeri'ndeki çatı altı veya montaj hattı üstü işler, genellikle doğrudan tepe noktasına erişim gerektirir — yana veya öne doğru bir engeli aşma ihtiyacı azdır. Bu durumda boom'lu bir platformun sağladığı yatay uzanma avantajı gereksiz kalır; makaslı platformun geniş sepeti ve düşük kurulum süresi daha verimli sonuç verir.",
+                    "Bir işte hem raf arası dar geçiş hem de rafın arkasındaki bir noktaya yana uzanma ihtiyacı varsa, bu durum keşifte ayrıca değerlendirilir ve gerekirse iki farklı makine sınıfı önerilir; tek bir sınıfın her ihtiyacı karşılayacağı varsayılmaz.",
+                ],
+            },
+            {
+                baslik: "Kısa iş süresinde makine tekrar kullanımı",
+                paragraflar: [
+                    "Pazaryeri'ndeki atölye işlerinin çoğu, Osmaneli'deki depo işlerinden daha kısa sürer. Aynı gün içinde birden fazla küçük işletmenin talebini art arda karşılamak, tek bir sevkiyatın maliyetini paylaştırdığı için ekonomiktir. Bu model, Osmaneli'deki tek bir büyük depo işiyle aynı güne kolayca yerleştirilebilir çünkü iki ilçe arası mesafe kısadır.",
+                    "Programın işlemesi için gereken tek şey, her işletmenin tarihini önceden bildirmesidir; son anda gelen bir talep o günün sırasına sığmayabilir ve ayrı bir güne yazılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Osmaneli'deki depomuzun raf koridorunda hangi makaslı sınıf çalışır?",
+                cevap:
+                    "Koridor genişliği ve raf yüksekliği belirleyicidir; standart forklift koridorunda dar taban izli makaslı sınıflar rahatça çalışır. Bu ölçüleri genellikle telefon görüşmesinde netleştirebiliriz çünkü Osmaneli'deki depo hacimleri benzer bir profil paylaşır. Standart dışı bir koridor genişliğiniz varsa, kesin sınıfı belirlemeden önce ölçüyü teyit ederiz.",
+            },
+            {
+                soru: "Pazaryeri'ndeki atölyemizde neden telefonla kesin bir makine sınıfı söylemiyorsunuz?",
+                cevap:
+                    "Çünkü Pazaryeri'ndeki atölyelerin iç düzeni birbirinden belirgin biçimde farklıdır; bir atölyenin tezgâh arası geçişi geniş olabilirken, komşusununki dar ve düzensiz olabilir. Bu farkı telefonla tahmin etmek, sahada makine değiştirme riski doğurur. Birkaç fotoğraf veya kısa bir keşif istememiz, doğru sınıfı ilk seferde göndermek içindir.",
+            },
+            {
+                soru: "Makaslı platform forklift trafiğinin devam ettiği bir koridorda çalışabilir mi?",
+                cevap:
+                    "Çalışabilir; makine forklift güzergâhından ayrı bir hatta konumlandırılır ve depo yönetimiyle birlikte bir sıralama kurulur. Osmaneli'deki depo işlerinde bu durum sık karşılaşılan bir senaryodur ve trafiği durdurmadan çalışmayı standart bir uygulama hâline getirdik. Koridor çok darsa, iş belirli saatlerde trafiğin azaldığı dilimlere kaydırılabilir.",
+            },
+            {
+                soru: "Pazaryeri'ndeki zemin sorunları makaslı platform kullanımını engeller mi?",
+                cevap:
+                    "Engellemez ama çalışma planını etkiler; eski bir atölyenin çatlak veya kot farklı zemininde makine konumlandırmadan önce bu noktalar işaretlenir. Gerekirse geçici bir takoz veya plaka ile destek sağlanır. Riskli görülen bir noktada çalışma ertelenir ve alternatif bir yaklaşım değerlendirilir.",
+            },
+            {
+                soru: "Osmaneli ve Pazaryeri'deki işlerimizi aynı güne yerleştirebilir misiniz?",
+                cevap:
+                    "Genellikle evet; iki ilçe arası mesafe kısa olduğu için Osmaneli'deki depo işini günün büyük bölümüne, Pazaryeri'ndeki atölye işini kalan dilime yerleştiririz. Bu planın çalışması için her iki tarafın tarihini önceden bildirmesi gerekir; son anda gelen talep o günün sırasına sığmayabilir.",
+            },
+            {
+                soru: "Raf arkasına yana uzanmam gerekiyorsa makaslı platform yeterli mi?",
+                cevap:
+                    "Genellikle yeterli değildir; makaslı platform dikey yükselir, yana doğru uzanmaz. Rafın arkasındaki bir noktaya erişim gerekiyorsa bu ihtiyacı keşifte ayrıca değerlendirir, gerekirse boom'lu bir sınıfı öneririz. İki ihtiyaç bir arada varsa, işin bölümlerine göre iki farklı makine sınıfı önerilebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Osmaneli OSB'nin depo-lojistik ağırlıklı, Pazaryeri OSB'nin karma küçük-orta ölçekli sanayi profili kamuya açık genel bilgidir; koridor/atölye ölçüsü karşılaştırması ve keşif yaklaşımı firma saha pratiğidir. Tesis adı ve rakamsal iddia kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Osmaneli ve Pazaryeri'de Manlift Kiralama: Yükleme Rampasından Atölye Çatısına",
+        giris:
+            "Manlift, boom'unun yana ve yukarı doğru uzanabilmesi sayesinde makaslı bir platformun ulaşamadığı noktalara erişir — bir engelin arkasına, bir cephenin köşesine veya bir çatı saçağının altına. Bu esneklik, Osmaneli ile Pazaryeri OSB'lerinde birbirinden farklı iki iş tipini karşılar. Osmaneli'deki depo ve dağıtım tesislerinde manlift talebi genellikle bina dışında doğar: geniş yükleme rampalarının üstündeki tente veya kanopi bakımı, dış cephe aydınlatması, çatı kenarındaki oluk ve yağmur suyu sistemleri gibi işler, zemin seviyesinden doğrudan erişilemeyen ama bir engelin de arkasında olabilen noktalardır. Pazaryeri'nde ise iş genellikle atölye içi değil dışıdır — karma sanayi dokusundaki küçük ve orta ölçekli işletmelerin çatı altı çelik konstrüksiyon bakımı, dış cephe tabela ve aydınlatma işleri, komşu parsellerin farklı bina yükseklikleri nedeniyle her seferinde ayrı bir erişim planı gerektirir. İki ilçe arasındaki kısa mesafe, aynı manliftin bir günde Osmaneli'deki bir depo rampası işiyle başlayıp Pazaryeri'ndeki bir atölye cephesi işiyle devam etmesini pratik kılar. Bu sayfa, manliftin yatay uzanma özelliğinin iki komşu OSB'de nasıl farklı iş tiplerine hizmet ettiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Osmaneli'deki yükleme rampası ve kanopi işleri",
+                metin:
+                    "Depo ve dağıtım tesislerinin yükleme rampaları genellikle bir kanopi veya tente ile örtülüdür; bu yapının bakımı, tentenin altına zeminden değil yandan yaklaşarak yapılır çünkü rampanın kendisi araç trafiğine açık kalabilir. Manliftin boom'u, rampa kenarından tenteye yana doğru uzanarak araç trafiğini kesmeden erişim sağlar; bu, dikey yükselen bir makaslı platformun karşılayamayacağı bir ihtiyaçtır.",
+            },
+            {
+                baslik: "Pazaryeri'ndeki çatı altı çelik konstrüksiyon bakımı",
+                metin:
+                    "Karma sanayi yapısındaki atölyelerin çatı altı çelik konstrüksiyonu, bina yüksekliğine ve çatı eğimine göre farklı bir erişim açısı gerektirir. Bir atölyenin çatı kirişine ulaşmak için makine bina dışından yana doğru uzanabilirken, komşu atölyede bina daha alçak olduğu için farklı bir açı kullanılabilir. Bu farklılık nedeniyle Pazaryeri'ndeki her talep, bina yüksekliği ve yaklaşım noktası açısından ayrı değerlendirilir.",
+            },
+            {
+                baslik: "Dış cephe ve tabela işlerinde engel aşma",
+                metin:
+                    "Hem Osmaneli hem Pazaryeri'nde dış cephe aydınlatması veya tabela değişimi gibi işlerde, zemin seviyesinde bir engel (bordür, peyzaj, park edilmiş araç, boru hattı) makinenin doğrudan cephe önüne konumlanmasını engelleyebilir. Manliftin boom'u bu engelin üzerinden veya yanından geçerek cepheye ulaşabilir; bu, işin başında engelin türü ve konumu sorularak planlanır.",
+            },
+            {
+                baslik: "Osmaneli'de çatı kenarı oluk ve yağmur suyu bakımı",
+                metin:
+                    "Depo binalarının geniş çatı alanı, kenar boyunca uzanan oluk ve yağmur suyu sistemine sahiptir; bu sistemin bakımı çatı kenarı boyunca ilerleyen bir çalışmadır ve manliftin yana uzanan boom'u, makineyi bir noktada sabit tutup geniş bir kenar şeridine erişmeyi mümkün kılar. Bu, tek bir kurulumla birden fazla noktanın kontrol edilebilmesi anlamına gelir.",
+            },
+            {
+                baslik: "İki ilçe arasında dış mekân işlerinin aynı güne yerleştirilmesi",
+                metin:
+                    "Osmaneli'deki bir rampa-kanopi işi ile Pazaryeri'ndeki bir çatı altı veya cephe işi, ikisi de dış mekân çalışması olduğu için aynı manliftle aynı gün planlanabilir. Osmaneli'deki iş genellikle daha büyük bir alanı kapsadığı için günün ilk bölümüne, Pazaryeri'ndeki daha küçük ölçekli iş ise kalan dilime yerleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Osmaneli ve Pazaryeri'de manlift kullanım profili",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki OSB'deki tipik dış mekân işini ve manliftin bu işteki rolünü karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Osmaneli OSB", "Pazaryeri OSB", "Sonuç"],
+                    satirlar: [
+                        ["Tipik iş", "Rampa/kanopi, çatı kenarı oluk", "Çatı altı konstrüksiyon, cephe/tabela", "İkisinde de yana uzanma gerekir"],
+                        ["Bina profili", "Tekrar eden, yüksek tavanlı", "Parselden parsele değişen yükseklik", "Pazaryeri'nde açı keşifte belirlenir"],
+                        ["Engel türü", "Araç trafiği, rampa kenarı", "Bordür, komşu yapı, tabela direği", "Boom uzanma mesafesi keşifte netleşir"],
+                        ["Zemin", "Rampa önü sert zemin", "Değişken, bazen dar avlu", "Konumlandırma noktası önceden belirlenir"],
+                        ["Keşif ihtiyacı", "Orta (tekrarlayan profil, farklı ölçek)", "Yüksek (her bina farklı)", "Pazaryeri'nde fotoğraf/keşif önceliklidir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Boom uzanma mesafesinin doğru sınıf seçimindeki rolü",
+                paragraflar: [
+                    "Manlift sınıfları arasındaki en belirgin fark, boom'un ne kadar yatay uzanabildiğidir. Osmaneli'deki geniş rampa önlerinde makineyi engelden uzak bir noktaya konumlandırıp uzun bir boom ile çalışmak mümkünken, Pazaryeri'ndeki dar avlu veya sokak cephelerinde makineyi bina yakınına konumlandırıp daha kısa ama daha dik açılı bir uzanma tercih edilebilir.",
+                    "Bu yüzden telefonla verilen 'cepheye ulaşmam lazım' bilgisi tek başına yeterli değildir; makinenin nereye konumlanabileceği ve hedef noktaya kaç metre yatay mesafe olduğu keşifte veya paylaşılan fotoğraflarla netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Elektrik hattı ve diğer üst yapılarla mesafe",
+                paragraflar: [
+                    "Hem Osmaneli'deki depo binalarının çevresinde hem Pazaryeri'ndeki atölye sokaklarında havai elektrik hattı veya benzeri bir üst yapı bulunabilir. Manlift boom'u yükselirken bu hatlara güvenli mesafeyi korumak zorunludur; iş öncesinde bu tür bir hat olup olmadığı sorulur ve varsa güvenli çalışma mesafesi operatör tarafından belirlenir.",
+                    "Bu kontrol, iş büyük ölçekli bir depo cephesinde de küçük bir atölye tabelasında da aynı titizlikte yapılır; ölçek küçük diye adım atlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Osmaneli'deki depomuzun yükleme rampasındaki kanopiye araç trafiğini durdurmadan ulaşabilir misiniz?",
+                cevap:
+                    "Genellikle evet; manliftin boom'u rampa kenarından yana doğru uzanarak tenteye erişebilir, bu sırada rampa araç trafiğine açık kalabilir. Konumlandırma noktası keşifte veya paylaşılan fotoğraflarla belirlenir; rampa trafiği yoğunsa çalışma belirli bir saat dilimine kaydırılabilir.",
+            },
+            {
+                soru: "Pazaryeri'ndeki atölyemizin çatı altı çelik konstrüksiyonuna hangi açıdan yaklaşılır?",
+                cevap:
+                    "Bu, bina yüksekliğine ve çatı eğimine göre değişir; her atölyenin profili farklı olduğu için tek bir standart açı önermeyiz. Birkaç fotoğraf veya kısa bir keşifle yaklaşım noktasını ve gereken boom uzanma mesafesini netleştiririz, sonra buna uygun manlift sınıfını öneririz.",
+            },
+            {
+                soru: "Cephe önünde park edilmiş araçlar varsa çalışma iptal mi olur?",
+                cevap:
+                    "Genellikle iptal olmaz; manliftin boom'u bu tür bir engelin üzerinden veya yanından geçerek hedefe ulaşabilir. İş öncesinde engelin türü ve konumu sorulur, makinenin nereye konumlanabileceği buna göre planlanır. Engel çok büyükse alternatif bir konumlandırma noktası önerilir.",
+            },
+            {
+                soru: "Osmaneli ve Pazaryeri'deki dış cephe işlerimizi aynı güne alabilir misiniz?",
+                cevap:
+                    "Genellikle alabiliriz; iki ilçe arası mesafe kısa olduğu için Osmaneli'deki daha büyük ölçekli işi günün ilk bölümüne, Pazaryeri'ndeki daha küçük ölçekli işi kalan dilime yerleştiririz. Bu planın çalışması için tarihlerin önceden bildirilmesi gerekir.",
+            },
+            {
+                soru: "Havai elektrik hattına yakın bir çatıda çalışabilir misiniz?",
+                cevap:
+                    "Güvenli mesafe korunduğu sürece çalışabiliriz; iş öncesinde hattın varlığı ve konumu sorulur, operatör güvenli çalışma mesafesini sahada belirler. Mesafe güvenli değilse çalışma başlatılmaz veya alternatif bir yaklaşım noktası değerlendirilir; bu kural işin ölçeğinden bağımsız uygulanır.",
+            },
+            {
+                soru: "Makaslı platform yerine neden manlift öneriyorsunuz?",
+                cevap:
+                    "Hedef noktaya zeminden dikey değil, yandan veya bir engelin arkasından erişmeniz gerekiyorsa manlift gerekir; makaslı platform yalnızca dikey yükselir. Rampa kanopisi, çatı kenarı veya cephe gibi yatay uzanma gerektiren işlerde manlift önerilir. İhtiyaç yalnızca dikey erişimse, daha ekonomik olan makaslı sınıfı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Osmaneli OSB'nin depo-lojistik ağırlıklı, Pazaryeri OSB'nin karma küçük-orta ölçekli sanayi profili kamuya açık genel bilgidir; boom uzanma mesafesi değerlendirmesi ve engel/elektrik hattı yaklaşımı firma saha pratiğidir. Tesis adı ve rakamsal iddia kullanılmamıştır.",
+    },
 };

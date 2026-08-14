@@ -2096,4 +2096,200 @@ export const BILECIKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bilecik'teki Osmaneli saha alanları, kırsal kesim toprak yolları ve OSB inşaat aşaması kaba dolgu zeminleri önceki bölge sayfalarında (bolge:osmaneli, bolge:bozuyuk-osb) ve tarım/silo hizmet sayfasında belgelenen kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve rüzgâr-zemin karar kuralı firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bilecik'te Depo ve Lojistik Yatırımlarına Makaslı Platform Kiralama",
+        giris:
+            "Bilecik'in İstanbul-Ankara-Bursa-Eskişehir dörtgeninin tam ortasındaki konumu, son yıllarda ilin manzarasını değiştiren bir sonuç doğurdu: yol kenarındaki boş parseller sırayla depo ve antrepo kabuklarına dönüşüyor. Bu kabukların içi, makaslı platformun en doğal çalışma alanı. Düz beton zemin, yüksek ve dikdörtgen bir hacim, tavana kadar dolu raf koridorları — makaslı sınıfın güçlü olduğu üç koşul da depoda bir arada bulunuyor. Biz de filomuzu buna göre kurduk: geniş sepetli, çift kişilik çalışmaya uygun ve raf aralarına giren dar gövdeli makaslı üniteleri Bilecik'te hazır tutuyoruz. Bir depo projesinde makaslı platformun rolü tek bir işle sınırlı değil — kabuk kapandıktan sonra askı çeliği ve konsol montajından başlar, raf sisteminin üst traversleriyle devam eder, sprinkler ve kablo tavası döşemesinde sürer, aydınlatma armatürleriyle biter. Aynı makine, projenin farklı fazlarında farklı ekiplere hizmet eder; bu yüzden kiralama süresini doğru kurgulamak, hangi fazda kaç ünitenin sahada bulunması gerektiğini önceden planlamaktan geçiyor. Bu sayfada makaslı platformun depo ve lojistik projelerindeki kullanım alanlarını, zemin ve kot şartlarını, hangi durumlarda yetersiz kaldığını ve kiralama modelini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Düz beton zeminde en verimli sınıf",
+                metin:
+                    "Makaslı platform, dikey ve düz bir hareket eksenine sahip olduğu için düzgün, sağlam beton zeminde en hızlı ve en ekonomik çözümdür. Depo içi zemin genellikle bu tarife tam uyar; taze dökülmüş beton mukavemet kazandıktan sonra makaslı ünite geniş sepetiyle uzun süre tek noktada durabilir, bu da raf üst travers montajı ve tesisat işlerinde ciddi zaman kazandırır. Zeminde epoksi kaplama varsa lastik izi bırakmama şartı öne çıkar; bu durumda iz bırakmayan lastik donanımlı üniteyi tercih ederiz.",
+            },
+            {
+                baslik: "Raf koridorunda gövde genişliği hesabı",
+                metin:
+                    "Bir depoda raf koridor genişliği netleşmeden makaslı ünite seçimi yapılmaz; koridor daraldıkça standart gövdeli makine geçemez hâle gelir. Bilecik'teki depo projelerinde koridor genişliğini raf firmasının yerleşim planından alır, dar koridorlarda dar gövdeli makaslı sınıfı öneririz. Raf montajı ilerledikçe koridor daha da daralabileceği için, işin başında geniş gövdeyle girip sonradan dar gövdeye geçmek yerine baştan doğru sınıfı seçmek, sahada makine değiştirme kaybını önler.",
+            },
+            {
+                baslik: "Çok kişilik sepet, çok kişilik iş",
+                metin:
+                    "Depo tavan altı işleri çoğu zaman birden fazla disiplini aynı anda gerektirir — örneğin sprinkler branşmanı döşenirken aynı noktada kablo tavası da bağlanabilir. Makaslı platformun geniş sepeti bu tür iki-üç kişilik çalışmaya izin verir; ekip sepette birlikte hareket eder ve aynı çıkışta iki işi birden bitirir. Dar eklemli makinede bu mümkün değildir, tek kişilik çalışma zorunludur. Sahada hangi işin kaç kişilik ekip gerektirdiğini önceden bilmek, doğru sınıfı seçmenin ilk adımıdır.",
+            },
+            {
+                baslik: "Yükseklik sınırı ve ikinci kat asma katlar",
+                metin:
+                    "Standart depo tavan yüksekliği makaslı platformun rahatlıkla eriştiği bir aralıkta kalır, ama bazı antrepo projelerinde ikinci kat asma kat veya çok yüksek raf sistemleri bu sınırı zorlar. Bu durumda önce net tavan kotu ölçülür — kaplama altından mı çelik alt başlığından mı ölçüldüğü karıştırılmamalıdır — ve gereken erişim yüksekliğine uygun makaslı sınıf seçilir. Sınırın üzerine çıkan projelerde makaslı yerine farklı bir erişim sınıfı gerekebilir; bu kararı keşifte netleştiririz.",
+            },
+            {
+                baslik: "Kavşak konumunun kiralama takvimine etkisi",
+                metin:
+                    "Bilecik'teki depo projeleri genellikle belirli bir sevkiyat sezonuna yetişmek için hızlandırılmış bir takvimle yürür ve kabuk bittikten sonra makaslı platform talebi aniden yükselir. İlin dört büyük merkezin ortasında olması bizim için avantaj: makineyi il dışından getirmek yerine yerel filodan aynı gün sahaya çıkarabiliyoruz. Bu, özellikle kabuk bitiş tarihinin son anda netleştiği projelerde, sahanın bir hafta boş beklemesini önlüyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo fazına göre makaslı platform seçimi",
+                paragraflar: [
+                    "Bilecik'teki depo ve antrepo projelerinde fazlara göre tercih ettiğimiz makaslı sınıfı ve gövde genişliği aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Proje fazı", "Baskın iş", "Gövde tercihi", "Sepet kapasitesi"],
+                    satirlar: [
+                        ["Raf üst travers", "Çapraz bağlantı, sabitleme", "Standart/dar gövde", "İki kişilik"],
+                        ["Tesisat katmanı", "Sprinkler, kablo tavası", "Geniş gövde", "İki-üç kişilik"],
+                        ["Aydınlatma", "Yüksek tavan armatürü", "Standart gövde", "Tek-iki kişilik"],
+                        ["Dar koridor işleri", "Duvar dibi, kolon çevresi", "Dar gövde", "Tek kişilik"],
+                        ["Epoksi zeminli alan", "İz bırakmama şartı", "İz bırakmaz lastik", "Standart"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin ve kot verisi olmadan teklif vermeyiz",
+                paragraflar: [
+                    "Makaslı platform teklifi vermeden önce üç veriyi mutlaka isteriz: net tavan kotunun nereden ölçüldüğü, zeminin mukavemet ve kaplama durumu, ve raf koridoru genişliğinin son hâli. Bu üçü keşifte netleşmezse, sahada makine değiştirme riski doğar — bu da hem zaman hem maliyet kaybı demektir. Depo projelerinde raf yerleşim planı genellikle inşaat aşamasında birkaç kez revize edilir; bu yüzden koridor genişliğini teklif anındaki değil, montaj başlangıcındaki son plandan alırız.",
+                    "Zemin mukavemeti konusunda da benzer bir dikkat gösteririz: taze dökülmüş betonun yük taşımaya hazır olduğu tarihi, betonu döken firmadan yazılı olarak isteriz; kendi başımıza tahmin yürütmeyiz.",
+                ],
+            },
+            {
+                baslik: "Lojistik kavşağın getirdiği talep yoğunluğu",
+                paragraflar: [
+                    "İlin dört büyük merkezin ortasında olması, buradaki depo projelerine belirgin bir hız baskısı getiriyor. Bir bölge deposu ya da üçüncü parti lojistik antreposu genellikle belirli bir sevkiyat sezonuna yetişmek için inşa ediliyor ve kabuk bittikten sonra makaslı platform talebi kısa sürede tavan yapıyor. Bu dönemde birden fazla proje aynı haftada makaslı ünite talep edebiliyor; erken rezervasyon burada belirleyici oluyor.",
+                    "Yerel filomuzu bu talep dalgasına göre planlıyoruz — özellikle raf montaj sezonunda birden fazla üniteyi aynı anda sahada tutabilecek kapasiteyi elde tutmaya çalışıyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni deponun raf sistemi henüz kurulmadı, makaslı platformu ne zaman çağırmalıyız?",
+                cevap:
+                    "Raf ayak ve alt travers montajı genellikle alçak kotta ve raf firmasının kendi ekipmanıyla yapılır; makaslı platform ihtiyacı üst travers ve çapraz bağlantı aşamasında başlar. Bu aşamayı raf firmasının yerleşim takviminden önceden öğrenip üniteyi o güne göre planlarız. Erken çağırmak hacmin henüz boş olduğu, dolayısıyla makinenin en rahat hareket ettiği dönemi kaçırmamak anlamına gelir; geç çağırmak ise koridorların daralmasından sonra dar gövdeye mecbur kalmak demektir.",
+            },
+            {
+                soru: "Depo zeminimiz epoksi kaplı, standart lastikli makine iz bırakır mı?",
+                cevap:
+                    "Standart dolgu lastikler sert epoksi yüzeyde genellikle iz bırakmaz, ama zemin rengi açık veya parlak kaplamalıysa görsel iz riski artabilir. Bu durumda iz bırakmayan (non-marking) lastik donanımlı makaslı üniteyi öneririz; talep ederseniz teklif aşamasında bu seçeneği ayrıca belirtiriz. Zeminin kaplama tipini ve rengini keşifte sorarız, sahada sürpriz yaşanmasını istemeyiz.",
+            },
+            {
+                soru: "Raf koridoru çok dar, standart gövdeli makaslı platform geçebilir mi?",
+                cevap:
+                    "Koridor genişliği belirleyicidir; standart gövdeli makaslı ünite genellikle belirli bir minimum koridor genişliği ister. Bu genişliğin altındaki koridorlarda dar gövdeli makaslı sınıfı ya da koridorun tamamen kapandığı noktalarda eklemli platform devreye girer. Raf firmasının kesinleşmiş yerleşim planını görmeden koridor genişliği hakkında kesin bir cevap vermeyiz; plan elimize geçtiğinde hangi sınıfın geçtiğini net söyleyebiliriz.",
+            },
+            {
+                soru: "İki kişi aynı sepette çalışabilir mi, yoksa tek operatör mü zorunlu?",
+                cevap:
+                    "Geniş sepetli makaslı üniteler, sepet kapasitesi dahilinde iki hatta üç kişinin birlikte çalışmasına izin verir; bu, sprinkler ve kablo tavası gibi iki disiplinin aynı noktada aynı anda çalıştığı işlerde zaman kazandırır. Sepet kapasitesi ve kişi sayısı üreticinin belirlediği bir sınırdır, aşılmaz. Dar gövdeli makaslı ünitelerde sepet daha küçük olduğu için genellikle tek kişilik çalışma önerilir; bunu teslim sırasında makineye özel olarak bildiririz.",
+            },
+            {
+                soru: "Antrepomuzda ikinci kat asma kat var, makaslı platform buraya yetişir mi?",
+                cevap:
+                    "Bağlıdır; net tavan kotunun nereden ölçüldüğünü ve asma katın gerçek yüksekliğini bilmemiz gerekir. Standart depo yüksekliği makaslı sınıfın rahatça eriştiği bir aralıkta kalır, ama bazı yüksek antrepo projelerinde bu sınır zorlanır. Keşifte kotu doğru ölçüp, gereken erişim yüksekliğine uygun sınıfı öneririz; sınırın üzerine çıkan bir yükseklikte makaslı yerine farklı bir erişim sınıfını konuşuruz.",
+            },
+            {
+                soru: "Sevkiyat sezonuna yetişmemiz gerekiyor, makine bulma konusunda sorun yaşar mıyız?",
+                cevap:
+                    "Bilecik'in dört büyük merkezin ortasındaki konumu, bu tür bölge depolarının burada yoğunlaşmasına yol açıyor ve raf montaj sezonunda talep aynı anda birden fazla projede yükselebiliyor. Bu yüzden kabuk bitiş tarihiniz netleştiği anda bize bildirmenizi öneririz; ünite o tarihe göre ayrılır. Son anda gelen taleplerde elimizdeki kapasiteye göre yerleştirme yaparız, bu da bazen istenen tarihte değil en yakın uygun tarihte teslim anlamına gelebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in İstanbul-Ankara-Bursa-Eskişehir dörtgeni içindeki coğrafi konumu ve buna bağlı depo/antrepo yatırım yoğunluğu, dosyanın bolge:bilecik girdisinde belgelenen kamuya açık genel bilgidir; makaslı platform sınıf seçimi, sepet kapasitesi kuralları ve zemin/kot değerlendirme yöntemi firma saha pratiğidir. Tesis adı ve fiyat rakamı verilmemiştir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Bilecik'te Depo ve Sanayi Yatırımlarına Manlift Kiralama",
+        giris:
+            "Manlift, Bilecik'teki depo ve sanayi projelerinde makaslı platformun giremediği yerlerin makinesi. İstanbul-Ankara-Bursa-Eskişehir dörtgeninin ortasındaki bu ilde yükselen depo kabuklarının çoğunda, tavan altı işlerin bir kısmı raf koridorlarının dışında kalır — kolon çevresi, duvar dibi, cephe kaplaması, dış cephedeki yükleme rampası üstü, ya da içeride raf yerleşimi henüz netleşmemiş açık alanlar. Bu noktalarda dar gövdeli ve tek yönde değil çapraz da hareket edebilen eklemli manlift devreye girer; kol, engellerin arasından dönerek sepeti hedef noktaya taşır ve makaslının düz-dikey erişimiyle ulaşılamayan açıları kapatır. Bilecik'te manlift talebi iki ana kaynaktan geliyor: birincisi depo dış cephesi ve çelik konstrüksiyon montajı, ikincisi ilin ikinci sanayi katmanı olan Bozüyük seramik hattı ve metal işleme atölyelerindeki bakım-onarım işleri. İkisi de farklı bir manlift profili istiyor — cephe işi büyük erişim mesafesi ve rüzgâr direnci ister, atölye içi bakım ise dar geçiş ve elektrik/dizel seçimi. Bu sayfada manlift sınıflarını, hangi işte hangi kolun tercih edildiğini ve dış-iç mekan farkını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Eklemli kol: makaslının giremediği yerin çözümü",
+                metin:
+                    "Eklemli manlift, dar gövdesi ve çok eklemli kol yapısı sayesinde makaslı platformun ulaşamadığı köşeleri, kolon aralarını ve engellerin arkasını kapatır. Kol yukarı çıkarken aynı zamanda yana da uzanabildiği için, sepetin altındaki zemin tamamen boş olmasa bile hedefe erişilebilir. Depo raf sistemi henüz kurulmamışken açık hacimde makaslı tercih edilse de, raf montajı ilerledikçe kolonların ve son raf sıralarının arkasında kalan noktalar için eklemli kol devreye girer.",
+            },
+            {
+                baslik: "Çelik konstrüksiyon montajında geniş erişim mesafesi",
+                metin:
+                    "Depo çatı ve cephe çeliğinin montajında manlift, zemin seviyesinden çelik konstrüksiyonun üst noktalarına tek bir konumdan geniş bir alanı tarayabilir. Bu, sık sık makine kaydırmak yerine bir noktada durup kolun ulaştığı tüm bağlantı noktalarını bitirmek anlamına gelir — montaj hızını doğrudan etkileyen bir fark. Çelik montaj ekipleri için erişim mesafesi kritik veridir; kolun ulaşabildiği yatay ve dikey mesafe, keşifte projedeki çelik açıklığına göre hesaplanır.",
+            },
+            {
+                baslik: "Depo dış cephesi ve yükleme rampası üstü",
+                metin:
+                    "Depo dış cephesindeki panel montajı, yalıtım işleri ve yükleme rampalarının üstündeki tente-gölgelik uygulamaları açık havada yapılır; burada rüzgâr, manlift seçiminin belirleyici faktörüdür. Kolun ulaştığı yükseklik arttıkça rüzgârın etkisi katlanır ve üreticinin belirlediği rüzgâr sınırı aşıldığında iş durur. Dış cephe işlerinde bu yüzden hava tahminini önceden değerlendirir, riskli günleri baştan planlamayız.",
+            },
+            {
+                baslik: "Bozüyük atölyelerinde dar geçiş ve elektrik tercihi",
+                metin:
+                    "Bozüyük'teki seramik hattı ve metal işleme atölyelerinde manlift, çalışan bir hattın üstüne bakım için girer; bu ortamda dar geçiş ve düşük gürültü öncelik kazanır. Kapalı atölyede akülü-elektrikli manlift tercih ederiz; hem egzoz gazı riski olmaz hem de hat çalışırken makinenin sesi rahatsızlık yaratmaz. Dizel sınıf manlift yalnızca açık saha veya iyi havalandırılan geniş hacimlerde değerlendirilir.",
+            },
+            {
+                baslik: "Kavşak konumunun manlift lojistiğine katkısı",
+                metin:
+                    "Bilecik'in dört büyük merkezin ortasında olması, manlift kiralamada da hız avantajı sağlıyor — çelik montaj takvimi genellikle sıkı ilerlediği için, kol kırılması veya ek ünite ihtiyacı doğduğunda makineyi il dışından getirmek yerine yerel filodan aynı gün sahaya çıkarabiliyoruz. Bu, özellikle hava koşullarına bağlı olarak sık değişen dış cephe iş takvimlerinde belirleyici oluyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşe göre manlift kol tipi ve ortam seçimi",
+                paragraflar: [
+                    "Bilecik'teki depo ve sanayi projelerinde işin türüne göre tercih ettiğimiz manlift kol tipi ve enerji seçimi aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş türü", "Ortam", "Kol tipi", "Enerji tercihi"],
+                    satirlar: [
+                        ["Çelik konstrüksiyon montajı", "Açık/kabuk öncesi", "Geniş erişimli eklemli", "Dizel"],
+                        ["Dış cephe panel/yalıtım", "Açık", "Eklemli, rüzgâr direnci yüksek", "Dizel"],
+                        ["Raf arası kolon çevresi", "Kapalı depo", "Dar gövdeli eklemli", "Akülü-elektrikli"],
+                        ["Atölye bakım-onarım", "Kapalı, çalışan hat", "Dar gövdeli, sessiz", "Akülü-elektrikli"],
+                        ["Yükleme rampası üstü", "Yarı açık", "Orta erişimli eklemli", "Dizel/akülü (havaya göre)"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki farklı talep, iki farklı keşif sorusu",
+                paragraflar: [
+                    "Manlift teklifi hazırlarken sorduğumuz ilk soru işin dış mekanda mı yoksa kapalı hacimde mi olduğudur; bu tek soru enerji tipini, rüzgâr faktörünün geçerli olup olmadığını ve gürültü kısıtını büyük ölçüde belirler. İkinci soru erişim mesafesidir — kolun yatayda ve dikeyde ne kadar uzanması gerektiği, çelik açıklığı veya cephe yüksekliğinden hesaplanır. Bu iki soruya net cevap alamadan verdiğimiz teklif, sahada yanlış kol tipiyle karşılaşma riski taşır.",
+                    "Bozüyük'teki atölye işlerinde üçüncü bir soru daha eklenir: hattın bakım penceresi ne zaman açık. Bu bilgi olmadan manlift sahada boşuna bekler.",
+                ],
+            },
+            {
+                baslik: "Lojistik kavşağın çelik montaj takvimine etkisi",
+                paragraflar: [
+                    "Bilecik'teki depo projelerinin çoğu belirli bir sevkiyat sezonuna yetişmek için hızlandırılmış inşa edilir ve çelik konstrüksiyon montajı bu takvimin en kritik halkasıdır — çatı ve cephe çeliği bitmeden içeride hiçbir iş başlayamaz. Bu yüzden çelik montaj döneminde manlift talebi keskin biçimde yükselir. İlin dört merkezin ortasındaki konumu, bu yoğun dönemde ek ünite ihtiyacı doğduğunda hızlı müdahale imkânı veriyor.",
+                    "Bozüyük atölyelerindeki talep ise mevsimsellikten çok bakım takvimine bağlı; bu iki talep türünü aynı filodan ama farklı önceliklendirmeyle karşılıyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik konstrüksiyon montajında hangi manlift kolu yeterli olur?",
+                cevap:
+                    "Bu, projedeki çelik açıklığına ve montaj yapılacak yüksekliğe göre değişir; genel bir sınıf önermek yerine keşifte kolun ulaşması gereken yatay ve dikey mesafeyi ölçeriz. Geniş erişimli eklemli manlift, zemin seviyesinden tek bir konumdan geniş bir alanı tarayabildiği için çoğu çelik montaj işinde tercih sebebidir; bu, makineyi sık sık kaydırmak yerine bir noktada durup birden fazla bağlantı noktasını bitirmek anlamına gelir. Çelik açıklık planınızı paylaşırsanız, hangi erişim mesafesinin gerektiğini önceden hesaplayabiliriz.",
+            },
+            {
+                soru: "Bozüyük'teki atölyemizde hat çalışırken manlift kullanabilir miyiz?",
+                cevap:
+                    "Evet, ama enerji seçimi önemli. Kapalı atölyede akülü-elektrikli manlift tercih ederiz; egzoz gazı riski taşımaz ve dizele göre çok daha sessizdir, hat çalışırken çevresindeki personeli rahatsız etmez. Dizel manlift yalnızca açık saha ya da iyi havalandırılan geniş hacimlerde değerlendirilir. Bakım penceresinin ne zaman açıldığını önceden bildirirseniz, makineyi pencere açılmadan önce sahaya indirip ekip yukarı çıktığında hazır olmasını sağlarız.",
+            },
+            {
+                soru: "Depo dış cephesinde rüzgâr yüzünden iş durur mu?",
+                cevap:
+                    "Evet, makinenin üzerinde yazan rüzgâr sınırı aşıldığında iş tartışmasız durur; bu, program baskısıyla değiştirilebilecek bir karar değildir. Kolun ulaştığı yükseklik arttıkça rüzgârın etkisi katlanarak artar, bu yüzden dış cephe işlerinde hava tahminini önceden değerlendirip riskli günleri baştan planlamayı tercih ederiz. Erteleme kararını mümkün olduğunca erken vermeye çalışırız ki hem bizim hem sizin planlamanız son anda bozulmasın.",
+            },
+            {
+                soru: "Raf sistemi henüz kurulmadı ama kolonların arkasına erişmemiz gerekiyor, makaslı mı manlift mi?",
+                cevap:
+                    "Hacim tamamen boşsa ve zemin düzse makaslı platform genellikle daha hızlı ve ekonomiktir. Ama kolon çevresi, duvar dibi gibi makaslının düz-dikey erişiminin yetmediği noktalarda dar gövdeli eklemli manlift devreye girer; kol yana uzanarak engelin arkasına ulaşır. Sahada genellikle ikisini bir arada kullanırız — açık alanda makaslı, engellerin çevresinde manlift. Raf yerleşim planınızı görürsek hangi bölgede hangi makinenin daha verimli olacağını netleştirebiliriz.",
+            },
+            {
+                soru: "Manlift operatörü sizden mi olmalı?",
+                cevap:
+                    "İki model de mümkün. Kısa süreli çelik montaj veya cephe işlerinde operatörlü model genelde daha hızlıdır; makineyi tanıyan biri kol açısını denemeden bulur. Uzun süreli projelerde ise sahadaki montaj ekibinin makineyi kendi kullanması yaygındır — bu durumda kullanacak personelin yetki belgesini görmek ve teslimde makineye özel kullanım eğitimi vermek bizim şartımızdır. Belgesiz personelin manlift kullandığı bir sahada sözleşmemizi sürdürmeyiz.",
+            },
+            {
+                soru: "Bilecik dışından bir manlift getirmemiz gerekir mi, yoksa yerel filo yeterli mi?",
+                cevap:
+                    "Çoğu iş için yerel filomuz yeterli; dört büyük merkezin ortasındaki konumumuz sayesinde talep yoğunlaştığında da genellikle aynı gün içinde ek ünite sağlayabiliyoruz. Özellikle geniş erişimli çelik montaj işlerinde belirli tipte kol talebi artabiliyor; bu tür özel ihtiyaçları erken bildirirseniz makineyi projenize göre ayırırız. Standart dışı, çok özel bir erişim mesafesi gerektiren bir iş varsa bunu keşifte netleştirip mümkün olan en uygun çözümü önceden konuşuruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in İstanbul-Ankara-Bursa-Eskişehir dörtgeni içindeki coğrafi konumu ve ilin Bozüyük seramik-metal işleme sanayi kimliği, dosyanın bolge:bilecik girdisinde belgelenen kamuya açık genel bilgidir; manlift kol tipi seçimi, enerji tercihi ve dış-iç mekan ayrımı firma saha pratiğidir. Tesis adı ve fiyat rakamı verilmemiştir.",
+    },
 };

@@ -1935,4 +1935,202 @@ export const BOLUPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bolu ve Mudurnu çevresindeki kaynak suyu kaynaklarının orman sınırı ve eğimli arazide bulunması kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve gövde tipi seçim mantığı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Abant-Kartalkaya Otel ve Tesislerinde Sezonluk Bakım İçin Makaslı Platform Kiralama",
+        giris:
+            "Abant ve Kartalkaya çevresindeki otel, pansiyon ve tesis işletmeleri için yılın belirli dönemleri her şeyden önemlidir: kayak sezonu öncesi Kasım-Aralık ayları ve yaz turizmi öncesi Nisan-Mayıs ayları, tesisin dış cephesinin, çatı saçaklarının ve giriş tavanının bir sonraki misafir dalgasına hazır olması gereken dar zaman pencereleridir. Makaslı platform bu iki dönemde en sık talep ettiğimiz makine tipidir çünkü düz zeminli otel önü meydanlarda, otopark alanlarında ve cephe boyunca geniş bir çalışma sepetiyle istikrarlı biçimde yükselir; dar bir bahçe yolunda değil ama tesisin ana giriş cephesinde, lobi tavanında ve düz otopark zemininde iş görür. Kartalkaya'daki otellerin çoğu kayak mevsimi bitiminde kar yükünün çatı saçağında ve iniş oluklarında bıraktığı hasarı kontrol ettirir; Abant çevresindeki tesisler ise yaz sezonu öncesi cephe boyasının, tabela aydınlatmasının ve giriş kapısı üstü camekânın bakımını makaslı platformla yaptırır. Sezon geçişlerindeki bu dar pencerede, tesis kapalıyken veya düşük doluluktayken makineyi bir günde kurup işi bitirmek, bir sonraki rezervasyon dalgası başlamadan önce tesisin hazır olmasını sağlar. Bu sayfa, makaslı platformun otel ve tesis dış cephesinde hangi işlerde tercih edildiğini, kar mevsimi sonrası hasar kontrolünün nasıl planlandığını ve düz zeminli otel önü alanlarda kurulumun nasıl işlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Kayak sezonu sonrası çatı saçağı ve oluk kontrolü",
+                metin:
+                    "Kartalkaya'da kayak mevsimi boyunca çatıda biriken kar ve buz, saçak kenarında ve yağmur oluğunda baskı yapar; sezon bitiminde bu bölgelerde çatlak, ayrılma veya oluk deformasyonu sık görülür. Makaslı platform, otelin cephe boyunca düz zeminde ilerleyerek saçak hattı boyunca kontrol yapılmasını sağlar. Kontrol genellikle kar erimesinin tamamlandığı ama yaz rezervasyonlarının henüz yoğunlaşmadığı Nisan ayında yapılır.",
+            },
+            {
+                baslik: "Otel giriş cephesi ve tabela aydınlatma bakımı",
+                metin:
+                    "Tesisin ana giriş cephesi, misafirin ilk gördüğü yer olduğu için sezon öncesi en öncelikli bakım noktasıdır. Tabela aydınlatması, giriş kapısı üstü camekân ve cephe boyası, makaslı platformun geniş sepetiyle tek kurulumda kontrol edilir. Abant çevresindeki tesislerde bu iş genellikle yaz sezonu öncesi Nisan-Mayıs döneminde, giriş meydanının düz ve boş olduğu saatlerde planlanır.",
+            },
+            {
+                baslik: "Otopark ve meydan aydınlatma direği bakımı",
+                metin:
+                    "Otel otoparkı ve giriş meydanındaki aydınlatma direkleri, kış boyunca kar küreme araçlarının ve tuzlamanın etkisiyle yıpranabilir. Makaslı platform bu düz zeminli alanda hızlı hareket ederek birden fazla direği aynı gün içinde kontrol edebilir. Zemin donmuşsa veya buzluysa çalışma ertelenir; donma riski geçtikten sonra planlama yapılır.",
+            },
+            {
+                baslik: "Balkon ve teras üstü cephe kontrolü",
+                metin:
+                    "Dağ oteli mimarisinde sık görülen balkon ve teras çıkıntıları, çatıdan düşen kar ve buzun doğrudan temas ettiği noktalardır. Makaslı platform, balkon hattı boyunca cepheye paralel ilerleyerek her katın dış yüzeyini kontrol eder. Bu iş, tesisin dolu olduğu dönemlerde değil, sezon geçişindeki düşük doluluk penceresinde yapılır çünkü platform balkonların önünde bir süre sabit durur.",
+            },
+            {
+                baslik: "Sezon açılışı öncesi son kontrol ve acil müdahale",
+                metin:
+                    "Sezon açılışına yakın bir tarihte, önceki kontrolde tespit edilen ama henüz giderilmemiş bir sorun varsa (gevşek tabela bağlantısı, çatlamış oluk parçası) hızlı bir ikinci ziyaretle müdahale edilir. Bu tür son dakika işlerde makine ve operatör uygunluğunu önceden teyit etmek, sezon açılışına yetiştirmek için önemlidir; tesisin açılış tarihini ne kadar erken paylaşırsa planlama o kadar rahat yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sezon geçişinde makaslı platform işi ve zamanlama",
+                paragraflar: [
+                    "Aşağıdaki tablo, Abant-Kartalkaya çevresindeki otel ve tesislerde sezon geçişlerinde en sık yaptığımız makaslı platform işlerini ve tercih ettiğimiz zamanlamayı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Dönem", "Zemin", "Öncelik nedeni"],
+                    satirlar: [
+                        ["Çatı saçağı/oluk kontrolü", "Nisan (kar erimesi sonrası)", "Otel çevresi düz beton", "Kar hasarı yaz öncesi giderilmeli"],
+                        ["Giriş cephesi/tabela", "Nisan-Mayıs", "Giriş meydanı", "İlk izlenim, misafir karşılama"],
+                        ["Otopark aydınlatma direği", "Nisan-Mayıs", "Otopark asfalt/beton", "Kış tuzlama hasarı"],
+                        ["Balkon/teras cephe kontrolü", "Düşük doluluk penceresi", "Bina cephesi önü düz alan", "Kar-buz teması riski"],
+                        ["Sezon öncesi son kontrol", "Açılıştan 1-2 hafta önce", "Değişken", "Açılışa yetiştirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Düz zeminli otel önü alanlarda kurulum mantığı",
+                paragraflar: [
+                    "Makaslı platform, adından da anlaşılacağı gibi düz ve sert zeminde en verimli çalışan makine tipidir. Abant-Kartalkaya çevresindeki otellerin çoğunun giriş meydanı, otoparkı ve cephe önü beton veya asfalt kaplıdır — bu da makaslı platformu doğal bir tercih hâline getirir. Zemin eğimliyse veya çakıl/toprak kaplıysa, makinenin üretici tarafından belirlenen eğim ve zemin sınırları önceden kontrol edilir; sınır aşılıyorsa eklemli platform gibi bir alternatif değerlendirilir.",
+                    "Kış aylarında zemin donmuş veya karla kaplıysa makaslı platform kurulmaz; bu durumda kar erimesi ve zeminin tamamen açılması beklenir. Bu nedenle Kartalkaya'daki işlerin çoğu Nisan ayı ve sonrasına planlanır, kış ortasında değil.",
+                ],
+            },
+            {
+                baslik: "Sezon takvimine göre önceden planlama",
+                paragraflar: [
+                    "Otel ve tesis işletmeleri için sezon geçişi dar bir pencere olduğundan, iş talebini mümkünse üç-dört hafta önceden bildirmek makine ve operatör uygunluğunu garantilemenin en güvenilir yoludur. Kayak sezonu bitimi ve yaz sezonu başlangıcı gibi dönemlerde bölgedeki tüm tesisler benzer zamanlarda bakım talep eder; bu yüzden erken planlama sırası kaçırmamak için önemlidir.",
+                    "Tesisin kapalı olduğu veya doluluğun düşük olduğu günler varsa bu bilgiyi paylaşmanız, çalışmayı misafir trafiğini rahatsız etmeden tamamlamamızı sağlar. Doluluk yüksekse iş, sabah erken saatlere veya check-out/check-in arası boşluğa planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kayak sezonu bitince ne kadar sürede çatı kontrolüne gelebilirsiniz?",
+                cevap:
+                    "Kar erimesinin tamamlanma zamanı yıldan yıla değişir; genellikle Mart sonu-Nisan başı gibi bir pencerede zemin ve çatı görünür hâle gelir. Bu dönemde talep yoğunlaştığı için tarih önerinizi mümkün olduğunca erken paylaşmanızı öneririz. Zeminin hâlâ ıslak veya kısmen donmuş olduğu erken tarihlerde çalışma güvenli olmayabilir; bu durumda birkaç gün ertelemeyi önerebiliriz.",
+            },
+            {
+                soru: "Otel dolu iken misafirleri rahatsız etmeden çalışabilir misiniz?",
+                cevap:
+                    "Mümkün olduğunca evet. Giriş meydanı veya otopark gibi alanlarda çalışırken makinenin sesi ve varlığı bir miktar dikkat çeker, bu yüzden yoğun check-in/check-out saatlerinden kaçınıp sabah erken veya öğleden sonra düşük trafikli saatleri tercih ederiz. Tesisinizin günlük yoğunluk saatlerini paylaşırsanız, buna göre bir program öneririz.",
+            },
+            {
+                soru: "Balkon önünde çalışırken düşen malzeme misafir güvenliğini tehlikeye atar mı?",
+                cevap:
+                    "Çalışma alanının altı ve çevresi bariyer ile işaretlenir, malzeme düşme riski olan işlerde yaya geçişi geçici olarak yönlendirilir. Balkon/teras cephesi gibi bina yakınında yapılan işlerde bu önlem standarttır; tesis yönetimiyle birlikte hangi geçişin ne kadar süre kapatılacağını önceden netleştiririz.",
+            },
+            {
+                soru: "Zemin eğimli veya çakıllıysa makaslı platform yine de çalışır mı?",
+                cevap:
+                    "Makaslı platformun eğim ve zemin toleransı sınırlıdır; üreticinin belirlediği sınırın üzerinde bir eğimde veya gevşek zeminde çalıştırılmaz. Bu durumda ya zemin hazırlığı (düzeltme, sıkıştırma) istenir ya da eklemli platform gibi daha esnek bir makine önerilir. Kurulum noktasının zemin durumunu fotoğrafla paylaşmanız, doğru makineyi önceden belirlememizi sağlar.",
+            },
+            {
+                soru: "Kar erimesinden sonra zemin hâlâ yumuşaksa ne olur?",
+                cevap:
+                    "Yumuşak veya çamurlu zeminde makaslı platformun lastikleri batabilir, bu da hem makineyi hem de zemin kaplamasını riske atar. Böyle bir durumda zeminin tamamen kuruyup sertleşmesini bekleriz ya da geçici plaka/tahta serilerek zemin desteklenir. Sahaya gitmeden önce güncel zemin fotoğrafı istememiz bu yüzdendir.",
+            },
+            {
+                soru: "Sezon açılışına az kaldıysa acil randevu alabilir miyiz?",
+                cevap:
+                    "Uygunluğa bağlı olarak mümkün olur ama sezon geçiş dönemlerinde bölgedeki talep yoğunlaştığı için garanti veremeyiz. Açılış tarihini ne kadar erken bildirirseniz makine ve operatör ayırma ihtimalimiz o kadar yüksek olur; son dakika taleplerinde önceliği en kritik işe (örneğin güvenlik riski taşıyan bir tabela veya oluk sorununa) veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Abant ve Kartalkaya çevresinin kayak ve yaz turizmi sezonlarına göre iki ayrı yoğun dönem yaşaması, kar erimesi sonrası çatı-oluk hasarı riski ve otel önü alanların düz beton/asfalt zeminli olması kamuya açık genel bilgidir; sezon geçiş planlaması ve zemin değerlendirme yöntemi firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Abant-Kartalkaya Dağ Tesislerinde Yüksek Nokta Bakımı İçin Manlift Kiralama",
+        giris:
+            "Dağ turizmi tesislerinde bazı bakım noktaları, makaslı platformun ulaşamayacağı kadar yüksekte veya cepheden uzakta kalır: telesiyej direği çevresindeki aydınlatma, çok katlı otel binasının çatı hattına yakın bir nokta, ya da eğimli arazide cepheden geriye çekilmiş bir bina cephesi. Manlift, uzatılabilir kolu sayesinde bu tür noktalara makinenin gövdesini taşımadan, sadece kolu uzatarak erişir — bu da Kartalkaya'daki eğimli otel arazilerinde ve Abant çevresindeki ormana yakın tesislerde makaslı platformun yetersiz kaldığı durumlarda devreye girer. Kayak pistine yakın tesislerde telesiyej hattı ve piste bakan aydınlatma direkleri, sezon öncesi kontrol edilmesi gereken ama makinenin doğrudan altına girip dik yükselemeyeceği noktalardır; manlift kolu bu noktalara yandan veya aşağıdan yaklaşarak erişim sağlar. Yaz aylarında ise orman sınırındaki tesislerin ağaçlarla çevrili cephe noktalarına, dik açıyla değil, kolun yatay uzanımıyla ulaşılır. Bu sayfa, manliftin dağ tesisi bakımında hangi işlerde makaslı platforma tercih edildiğini, eğimli arazide kurulumun nasıl planlandığını ve telesiyej çevresi gibi hassas alanlarda çalışma kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Telesiyej direği ve piste bakan aydınlatma erişimi",
+                metin:
+                    "Telesiyej hattının çevresi, kayak pisti işletmesinin kendi güvenlik kurallarına tabi olduğu için doğrudan direğin altına makine sokulmaz. Manlift, hattan güvenli mesafede konumlanıp kolunu uzatarak direk çevresindeki aydınlatma armatürüne veya kablo bağlantısına erişir. Bu iş her zaman pist işletmecisinin bilgisi ve varsa refakatçi eşliğinde yapılır; hat aktifken çalışma yapılmaz.",
+            },
+            {
+                baslik: "Eğimli otel arazisinde cepheden geri çekilmiş nokta erişimi",
+                metin:
+                    "Kartalkaya'daki bazı oteller, eğimli arazi nedeniyle binanın bir kısmı yol seviyesinden yüksekte veya geride konumlanır. Bu durumda makinenin gövdesi düz bir noktaya yerleştirilir, kol ise eğimin üzerinden uzanarak cepheye ulaşır. Kolun erişim mesafesi ve açısı, aracın modeline göre değişir; bu yüzden arazi eğimi ve mesafe bilgisi önceden değerlendirilip uygun model seçilir.",
+            },
+            {
+                baslik: "Orman sınırındaki cephe noktalarına yatay erişim",
+                metin:
+                    "Abant çevresindeki bazı tesisler doğrudan orman sınırına yakın konumlanır; bu tesislerin bir cephesi ağaçlara yakın kalabilir ve dik bir platform bu noktaya sığmaz. Manlift kolunun yatay uzanım kabiliyeti, ağaçların arasından değil, açık bir noktadan yana doğru uzanarak cepheye erişmeyi mümkün kılar. Dal ve yaprak yoğunluğu fazlaysa, kolun güvenli hareket alanı önceden değerlendirilir.",
+            },
+            {
+                baslik: "Çok katlı bina üst kat pencere ve dış aydınlatma bakımı",
+                metin:
+                    "Bölgedeki büyük otel yapılarının üst katlarındaki pencere çerçevesi, dış aydınlatma veya tente bakımı gibi işlerde manlift, zeminden tek bir noktada durup kolunu farklı katlara doğru yönlendirerek birden fazla noktayı aynı kurulumda kontrol eder. Bu, her kat için ayrı bir kurulum gerektiren yöntemlere kıyasla zaman kazandırır, özellikle sezon geçişindeki dar bakım penceresinde önemlidir.",
+            },
+            {
+                baslik: "Rüzgârlı ve soğuk hava koşullarında çalışma sınırı",
+                metin:
+                    "Dağ tesislerinde rüzgâr, özellikle yükseklik arttıkça belirgin bir risk oluşturur. Manlift, üreticinin belirlediği rüzgâr hızı sınırının üzerinde çalıştırılmaz; kol ne kadar uzarsa rüzgârın etkisi o kadar artar. Kartalkaya ve Abant çevresinde hava durumu ani değişebildiği için, iş günü sabahında güncel rüzgâr durumu kontrol edilip gerekirse çalışma ertelenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dağ tesisinde manlift erişim senaryosu ve yaklaşım",
+                paragraflar: [
+                    "Aşağıdaki tablo, Abant-Kartalkaya çevresindeki dağ tesislerinde manliftin tercih edildiği erişim senaryolarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Erişim şekli", "Kısıt", "Zamanlama"],
+                    satirlar: [
+                        ["Telesiyej direği/aydınlatma", "Yandan kol uzatma", "Pist güvenlik kuralları", "Hat pasifken"],
+                        ["Eğimli araziden cephe", "Eğim üzerinden uzanma", "Kol erişim mesafesi sınırı", "Sezon geçişi"],
+                        ["Orman sınırı cephesi", "Yatay uzanım", "Dal/yaprak yoğunluğu", "Sezon geçişi"],
+                        ["Çok katlı üst kat bakımı", "Tek noktadan çok kat", "Rüzgâr sınırı", "Sakin hava günü"],
+                        ["Otopark üstü tente/tabela", "Dikey+yatay kombinasyon", "Zemin sertliği", "Düşük doluluk"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eğimli arazide manlift konumlandırma mantığı",
+                paragraflar: [
+                    "Manliftin gövdesi her zaman düz ve sağlam bir noktaya yerleştirilir; eğimli veya gevşek zeminde makinenin kendisi konumlandırılmaz, kol bu noktadan hedefe doğru uzatılır. Kartalkaya'daki eğimli otel arazilerinde bu yüzden önce yol kenarında veya otopark gibi düz bir nokta belirlenir, ardından kolun hedef noktaya olan mesafesi ve açısı hesaplanır.",
+                    "Kolun maksimum yatay erişimi model bazında farklılık gösterir; bu yüzden arazinin eğim derecesini ve hedef noktanın konumlandırma noktasına uzaklığını önceden bilmek, doğru model seçimi için gereklidir. Mesafe kolun sınırını aşıyorsa, konumlandırma noktası değiştirilir veya farklı bir erişim güzergâhı aranır.",
+                ],
+            },
+            {
+                baslik: "Telesiyej ve pist işletmesiyle koordinasyon",
+                paragraflar: [
+                    "Telesiyej hattı çevresinde yapılan her iş, pist işletmesinin kendi güvenlik prosedürüne tabidir; hat aktifken veya pist açıkken bu bölgede çalışma yapılmaz. İş genellikle pistin kapalı olduğu saatlerde veya sezon dışı dönemde planlanır ve pist işletmesinin onayı olmadan hat çevresine yaklaşılmaz.",
+                    "Bu koordinasyon süreci, iş tarihini erken bildirmenizle daha rahat işler; pist işletmesiyle görüşme ve onay süreci birkaç gün alabileceğinden, telesiyej çevresi işlerini son dakikaya bırakmamanızı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasında bu bölgede nasıl seçim yapıyorsunuz?",
+                cevap:
+                    "Zeminin düz olup olmadığına ve hedef noktanın makinenin dik altına gelip gelmediğine bakarız. Otel önü meydan gibi düz ve hedefin doğrudan üstünde olduğu durumlarda makaslı platform yeterli ve daha hızlı kurulur; hedef nokta eğimli arazinin gerisinde, telesiyej gibi yaklaşılamayan bir hattın yanında veya ağaçlarla çevriliyse manlift kolunun yatay erişimi gerekir. Kesin karar için hedef noktanın fotoğrafını ve yaklaşık mesafesini isteriz.",
+            },
+            {
+                soru: "Telesiyej hattına ne kadar yakın çalışabilirsiniz?",
+                cevap:
+                    "Bu tamamen pist işletmesinin belirlediği güvenlik mesafesine bağlıdır; kendi başımıza bir mesafe belirlemeyiz. İş öncesi pist işletmesiyle koordinasyon kurup onların belirlediği güvenli mesafeyi ve çalışma saatini netleştiririz. Hat aktifken hiçbir koşulda hattın yakınında çalışma yapılmaz.",
+            },
+            {
+                soru: "Rüzgârlı bir günde iş planlandıysa ne olur?",
+                cevap:
+                    "İş gününün sabahında güncel rüzgâr durumunu kontrol ederiz; üreticinin belirlediği sınırın üzerindeyse çalışma o gün yapılmaz. Dağ tesislerinde hava koşulları hızlı değişebildiği için, planlama yaparken bir-iki günlük esneklik bırakmanızı öneririz. Rüzgâr sınır altına düştüğünde iş en kısa sürede yeniden planlanır.",
+            },
+            {
+                soru: "Kolun erişim mesafesi yetmezse alternatif var mı?",
+                cevap:
+                    "Konumlandırma noktasını değiştirip mesafeyi kısaltmaya çalışırız; bu mümkün değilse daha uzun kollu bir model önerebiliriz ya da erişim için farklı bir güzergâh ararız. Bazı durumlarda hedef noktaya araçla değil, geçici bir platform veya iskeleyle erişmek daha pratik olabilir; bu kararı sahadaki değerlendirmeye göre birlikte veririz.",
+            },
+            {
+                soru: "Eğimli arazide manliftin gövdesi kayar mı?",
+                cevap:
+                    "Gövde her zaman düz ve sağlam bir zemine yerleştirilir, eğimli yüzeye konumlandırılmaz; bu yüzden kurulum noktası seçimi kritik bir adımdır. Ayrıca makinenin dengeleme ayakları (istabilizatör) zemine oturtulup seviye kontrolü yapılmadan kol uzatılmaz. Zemin sağlamlığından şüphe varsa önceden bir keşif yaparız.",
+            },
+            {
+                soru: "Sezon dışı dönemde de manlift kiralayabilir miyiz?",
+                cevap:
+                    "Evet, sezon dışı dönem genellikle en rahat çalışma penceresidir çünkü tesis doluluğu düşük ve telesiyej gibi hatlar daha kolay koordine edilir. Kayak sezonu ile yaz sezonu arasındaki boşluk, kapsamlı bakım işleri için en uygun zamandır; bu dönemde talep de nispeten daha az yoğun olduğundan planlama daha esnek yapılabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kartalkaya'nın kayak merkezi olarak telesiyej altyapısına sahip olması, Abant çevresinin orman sınırına yakın tesis yerleşimi ve bölgenin eğimli dağ arazisi kamuya açık genel bilgidir; kol erişim mantığı, pist koordinasyonu ve rüzgâr sınırı değerlendirmesi firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
 };

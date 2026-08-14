@@ -2124,4 +2124,202 @@ export const BALIKESIRPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Balıkesir’in zeytinlik, tarla ve silo sahalarının çoğunlukla toprak veya çakıl zeminli olduğu ve yağış sonrası taşıma kapasitesinin değişebileceği kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve güvenli konumlanma kararı firmamızın kendi saha pratiğidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Balıkesir’in Revizyon Döneminde Geniş Sepetli Makaslı Platform Kiralama",
+        giris:
+            "Balıkesir’deki süt, zeytinyağı ve tahıl işleme tesislerinde yılın belirli dönemleri — kampanya arası bakım penceresi, planlı revizyon duruşu veya sezon öncesi hazırlık — tek bir kalemin değil, onlarca kalemin aynı anda yapıldığı yoğun günlerdir. Bu günlerde ihtiyaç genellikle tek bir noktaya hızlı erişim değil, geniş bir zeminde birden fazla ekibin aynı anda, güvenle ve yeterli malzemeyle çalışabilmesidir. Makaslı platform, tam da bu ihtiyaca göre şekillenmiş bir sınıftır: dikey olarak düz yukarı çıkar, sepeti eklemli platforma göre belirgin ölçüde daha geniştir ve iki kişiyle birlikte alet çantası, yedek conta, kablo makarası gibi malzemeyi taşıyabilir. Bunun karşılığında yatay uzanımı yoktur — makine nereye park edilirse sepet oradan dikey olarak yükselir, bu yüzden tank kenarına veya kazan bacasına eğik yaklaşım gerektiren işler için uygun sınıf değildir. Bu sayfada, Balıkesir genelindeki gıda ve tarım tesislerinde makaslı platformun revizyon dönemlerinde, dolum-paketleme hattı üzerindeki geniş montaj işlerinde ve depo rampalarında nasıl kullanıldığını, kapasite avantajının nerede işe yaradığını ve yükseklik-yatay sınırının nerede yetersiz kaldığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Planlı revizyon duruşunda çok ekipli, geniş sepetli çalışma",
+                metin:
+                    "Bir tesis planlı bakım için üretimi durdurduğunda, biriken kalemler günün belirli saatlerine sıkıştırılır ve genellikle birden fazla ekip aynı bölgede paralel çalışır. Makaslı platformun geniş sepeti, iki kişinin yan yana durup birlikte bir boru bağlantısını sökebilmesine veya bir aydınlatma hattını değiştirebilmesine imkân verir; eklemli platformun daha dar sepetinde bu ikili çalışma zorlaşır. Revizyon takviminde kaç kişinin aynı anda sepette olacağını önceden sorarız, çünkü kapasiteyi belirleyen kişi sayısı ve taşınacak malzeme ağırlığıdır.",
+            },
+            {
+                baslik: "Dolum-paketleme hattı üstü uzun süreli sabit nokta işleri",
+                metin:
+                    "Dolum ve paketleme hattının üzerinde bir kablo tavası yenileme veya konveyör üstü koruma bariyeri montajı gibi işler, çoğu zaman aynı noktada saatlerce sürer ve sepette birikmiş malzemeyle çalışılır. Makaslı platform bu tip sabit nokta işlerinde, sepetin genişliği sayesinde malzemeyi tekrar tekrar yukarı taşımadan tek seferde yerleştirmeye imkân tanır. Hattın boşaltılacağı pencere önceden netleşmeden bu işler programa yazılmaz, çünkü platform hattın tam üzerine geldiğinde üretim orada durmuş olmalıdır.",
+            },
+            {
+                baslik: "Depo rampası ve yükleme köprüsünde geniş düz zemin avantajı",
+                metin:
+                    "Depo rampaları ve yükleme köprüsü çevresi, genellikle geniş ve düz betonla kaplı alanlardır; buradaki raf üstü aydınlatma, tavan vinç ray bakımı veya söndürme başlığı değişimi gibi işler yatay uzanım gerektirmez, dikey erişim yeterlidir. Bu tür geniş düz zeminlerde makaslı platform hem daha hızlı konumlanır hem de eklemli sınıfa göre daha ekonomik bir seçenektir. Zeminin düzlüğü ve eğim durumu kiralama öncesi netleştirilir, çünkü makaslı platformun tekerlek tabanı belirli bir eğim sınırının üzerinde güvenli çalışmaz.",
+            },
+            {
+                baslik: "Yükseklik ve yatay sınır: ne zaman yetersiz kalır",
+                metin:
+                    "Makaslı platform yalnızca durduğu noktadan dikey olarak yükselir; hedef nokta binadan veya ekipmandan yatay olarak kaymışsa — örneğin tank tepe kapağının makine yaklaşamadığı bir kenarda olması gibi — bu sınıf hedefe ulaşamaz. Böyle durumlarda yatay uzanımlı eklemli platforma geçilir; bu ayrımı keşifte veya paylaşılan fotoğrafla netleştirir, sepetin dikey mi yoksa açılı mı yaklaşması gerektiğini önceden söyleriz.",
+            },
+            {
+                baslik: "Kapasite hesabı: kişi sayısı ve malzeme ağırlığı",
+                metin:
+                    "Makaslı platformun sepet kapasitesi model büyüklüğüne göre değişir ve bu kapasite operatör dahil kişi sayısıyla taşınan malzemenin toplam ağırlığını birlikte kapsar. Revizyon döneminde iki kişi ve ağır bir alet çantasıyla çalışılacaksa bu bilgiyi baştan alırız, çünkü kapasiteyi aşan bir yüklemeyle çalışmak makinenin kendisinden çok operatörün güvenliğini tehlikeye atar. Kapasite sınırına yakın işlerde daha büyük gövdeli bir model önerilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Geniş zeminli çalışma türüne göre kapasite ihtiyacı",
+                paragraflar: [
+                    "Balıkesir’deki gıda ve tarım tesislerinde makaslı platform gerektiren başlıca geniş zeminli iş türlerini ve belirleyici kapasite ölçüsünü aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İş türü", "Ekip büyüklüğü", "Belirleyici ölçü", "Zemin şartı"],
+                    satirlar: [
+                        ["Revizyon duruşu boru/hat işi", "2 kişi + malzeme", "Sepet kapasitesi", "Düz, sağlam beton"],
+                        ["Dolum hattı üstü kablo tavası", "1-2 kişi, sabit nokta", "Hat boşaltma penceresi", "Hat kenarı geniş koridor"],
+                        ["Depo rafı aydınlatma", "1 kişi, kısa süreli", "Dikey yükseklik", "Düz depo zemini"],
+                        ["Yükleme köprüsü tavan vinç", "1-2 kişi", "Yükseklik + kapasite", "Rampa eğim sınırı"],
+                        ["Tank çiftliği üstü koridor", "2 kişi, geniş sepet", "Koridor genişliği", "Sıra arası düz geçiş"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı mı eklemli mi: karar önce keşifte verilir",
+                paragraflar: [
+                    "Bir işletme genellikle iki sınıf arasındaki farkı bilmeden 'platform' talep eder; bizim ilk işimiz hedefin dikey mi yoksa yatay uzanımlı mı erişim gerektirdiğini netleştirmektir. Hedef, makinenin duracağı noktanın tam üzerindeyse ve geniş, düz bir zemin varsa makaslı platform hem daha hızlı kurulur hem daha ekonomiktir. Hedef bir yatay engelin arkasındaysa veya eğik bir yaklaşım gerekiyorsa eklemli platforma geçilir.",
+                    "Bu kararı yanlış vermenin bedeli sahada ortaya çıkar: makaslı platform hedefe yatay olarak ulaşamadığında iş durur ve makine değişimi gerekir. Bu yüzden telefon görüşmesinde veya keşifte hedefin konumunu — tam üstünde mi, kenarda mı — mutlaka sorarız.",
+                ],
+            },
+            {
+                baslik: "Revizyon döneminde birden fazla makinenin koordinasyonu",
+                paragraflar: [
+                    "Planlı duruş dönemlerinde aynı tesise birden fazla makaslı platform aynı anda çıkabilir; bu durumda makinelerin çalışma bölgeleri önceden ayrılır ve her ekibin hangi hatta, hangi saatte çalışacağı bir program üzerinde netleştirilir. Aksi hâlde iki makine aynı koridoru paylaşmaya çalışır ve verim düşer.",
+                    "Revizyon takvimi genellikle tesisin kendi bakım planına bağlı olarak birkaç hafta öncesinden bellidir; bu süre bize tanındığında hem makine sayısını hem de sırasını önceden ayarlayıp, duruş penceresinin dışına taşan bir iş bırakmamaya çalışırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Revizyon döneminde aynı anda kaç makaslı platform kiralayabiliriz?",
+                cevap:
+                    "İhtiyacınıza göre birden fazla makine aynı tesise çıkabilir; asıl belirleyici, aynı anda kaç farklı bölgede çalışma yapılacağıdır. Revizyon takviminizi bize erken paylaşırsanız hem makine sayısını hem de hangi ekibin hangi saatte hangi bölgede çalışacağını önceden netleştirir, koridor çakışmasını önleriz.",
+            },
+            {
+                soru: "İki kişi ve ağır bir alet çantasıyla sepete çıkacağız; hangi model yeterli?",
+                cevap:
+                    "Bu, toplam ağırlığa bağlıdır — operatör dahil kişi sayısı ve taşınan malzemenin ağırlığı birlikte hesaplanır. Kapasite sınırına yakın işlerde daha büyük gövdeli bir model öneririz; sınırın üzerinde yüklemeyle çalışmak operatör güvenliğini tehlikeye atar. Sepete çıkacak kişi sayısını ve taşınacak malzemenin yaklaşık ağırlığını önceden belirtirseniz doğru modeli baştan öneririz.",
+            },
+            {
+                soru: "Tankın tepe kapağı makinenin duracağı noktanın biraz kenarında; makaslı platform yeterli mi?",
+                cevap:
+                    "Muhtemelen değil. Makaslı platform yalnızca durduğu noktadan dikey yükselir, yatay uzanımı yoktur; hedef bir kenarda kalıyorsa sepet oraya ulaşamaz. Bu durumda yatay uzanımlı eklemli platform önerilir. Hedefin makinenin tam üzerinde mi yoksa kenarda mı olduğunu keşifte veya fotoğrafla netleştiririz, yanlış sınıfla sahaya çıkmayız.",
+            },
+            {
+                soru: "Depo rampamızın hafif eğimi var; makaslı platform orada çalışabilir mi?",
+                cevap:
+                    "Eğime bağlıdır; makaslı platformların tekerlek tabanı belirli bir eğim sınırının üzerinde güvenli çalışmaz. Rampanın eğim derecesini önceden sorar, sınırın içinde kalıp kalmadığını değerlendiririz. Eğim sınırı aşılıyorsa ya farklı bir zemin noktası bulunur ya da eğimli zeminde çalışabilen bir sınıfa geçilir.",
+            },
+            {
+                soru: "Dolum hattının üzerinde saatlerce sürecek bir montaj var; hat ne kadar süre kapalı kalmalı?",
+                cevap:
+                    "Bu, işin kapsamına göre değişir ve keşifte netleştirilir. Bildiğimiz şey, sepetin hattın tam üzerine geldiği süre boyunca üretimin orada durmuş olması gerektiğidir. Mümkünse malzemeyi tek seferde sepete yükleyip tekrar iniş-çıkış yapmadan işi bitirmeyi hedefleriz, çünkü her iniş-çıkış hattın kapalı kaldığı süreyi uzatır.",
+            },
+            {
+                soru: "Makaslı platform ile eklemli platform arasındaki fiyat farkı nedir?",
+                cevap:
+                    "Genel eğilim olarak makaslı platform, aynı yükseklik sınıfında eklemli platforma göre daha ekonomiktir; bunun nedeni mekanik olarak daha basit bir yapıya sahip olması ve daha hızlı kurulmasıdır. Ancak asıl karar fiyat değil erişim ihtiyacıdır — hedef yatay uzanım gerektiriyorsa daha ucuz diye makaslı platform önerilmez, çünkü işi bitiremez. Doğru sınıf belirlendikten sonra fiyat teklifi netleşir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Balıkesir’in gıda ve tarım işleme tesislerinde planlı bakım/revizyon dönemlerinin belirli takvim pencerelerinde yoğunlaştığı kamuya açık genel bilgidir; sepet kapasitesi hesabı, revizyon koordinasyonu ve zemin eğim değerlendirmesi firmamızın kendi saha pratiğidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Balıkesir’de İlk Kez Manlift Kiralayan Gıda Tesisleri İçin Karar Rehberi",
+        giris:
+            "Telefonla gelen çağrıların büyük bölümünde işletme 'bize bir manlift lazım' der, ama bu tek cümle aslında üç farklı makine sınıfından birini işaret edebilir — düz yukarı çıkan makaslı platform, yatay uzanımlı eklemli platform veya dar aralıklara giren örümcek platform. Balıkesir’in süt, zeytinyağı ve tahıl işleme tesislerinde bu belirsizlik özellikle ani arızalarda ortaya çıkar: dolum hattı üzerindeki bir sensör bozulmuştur, kazan dairesindeki bir vana sızdırmaktadır, silo üstü bir motor durmuştur ve işletme daha önce hiç platform kiralamamış olabilir. Bu sayfa, 'manlift' terimini genel arama alışkanlığıyla kullanan ama hangi sınıfa ihtiyacı olduğunu bilmeyen tesisler için bir karar rehberidir: telefonda sorduğumuz üç temel soru, acil çağrılarda hızlı tip belirleme süreci ve sahaya girmeden önce hangi evrakın hazır olması gerektiği. Amacımız, ilk kez arayan bir işletmenin yanlış sınıfla sahaya çıkan bir makine yüzünden işini tekrar ertelememesidir.",
+        maddeler: [
+            {
+                baslik: "Telefonda 'manlift' derken aslında hangi sınıf kastediliyor",
+                metin:
+                    "Çoğu arayan makine sınıflarının adını bilmez, bu normaldir. Bu yüzden telefonda ilk sorduğumuz şey marka veya model değil, hedefin nerede olduğudur: hedef makinenin duracağı noktanın tam üzerinde mi, yoksa bir engelin arkasında mı? Zemin düz ve geniş mi, yoksa dar bir koridor mu? Bu iki soru çoğu zaman makaslı, eklemli veya örümcek platform arasındaki seçimi belirlemeye yeter; kalan detaylar sahada netleşir.",
+            },
+            {
+                baslik: "Ani arıza çağrılarında fotoğrafla hızlı tip belirleme",
+                metin:
+                    "Dolum hattı üstü bir sensör veya kazan dairesindeki bir vana gibi beklenmedik arızalarda işletmenin zamanı kısıtlıdır. Bu durumlarda arayan kişiden hedefin ve çevresinin bir fotoğrafını istemek, telefonda tarif etmekten çok daha hızlı ve güvenilir sonuç verir. Fotoğrafta yatay engel, zemin durumu ve yaklaşık yükseklik referansı (bir kapı, bir insan boyu) görülebiliyorsa, sınıf kararını sahaya çıkmadan verebiliriz.",
+            },
+            {
+                baslik: "İlk kez kiralayan işletmeler için sahaya giriş öncesi hazırlık",
+                metin:
+                    "Daha önce hiç platform kiralamamış bir işletme genellikle makinenin ne zaman geleceğini bilir ama sahaya giriş için hangi evrakın istendiğini bilmez. Gıda üretim tesislerinin çoğunda ziyaretçi ve yüklenici kaydı, hijyen brifingi ve bazen tesisin kendi iş güvenliği formu zorunludur. Bu evrak listesini randevu netleşmeden önce sorarız, çünkü sahaya giriş kapıda takılırsa makine tesisin önünde beklerken zaman kaybedilir.",
+            },
+            {
+                baslik: "Operatör kararı: telefonda kısa, sahada net",
+                metin:
+                    "İlk kez arayan işletmelerin çoğu 'operatörlü mü kiralanır' diye sorar. Kısa cevap: ikisi de mümkündür, ama gıda üretim tesislerinde proses ekipmanına yakın çalışıldığı için operatörlü seçenek genellikle daha güvenli ve daha hızlı başlar, çünkü sahayı ilk kez gören bir kişi yerine bu tür ortamlara alışkın bir operatör makineyi kullanır. Operatörsüz seçeneğin şartları ve belgeleri ayrı bir konudur; bu detayları talep ederseniz ayrıca anlatırız.",
+            },
+            {
+                baslik: "Tek seferlik acil talep mi, tekrarlayan ihtiyaç mı",
+                metin:
+                    "Bazı işletmeler bir kerelik bir arıza için arar, bazıları ise arıza sonrası benzer ihtiyaçların düzenli aralıklarla tekrarlayacağını fark eder. İkinci durumda, tesisin hangi bölgelerinde ne sıklıkla erişim ihtiyacı çıktığını konuşup önceden bir plan çıkarmak, her seferinde sıfırdan tip belirleme sürecini kısaltır. İlk çağrıda bu ihtiyacı fark ettiğimizde işletmeye belirtiriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Talep türüne göre hızlı tip belirleme tablosu",
+                paragraflar: [
+                    "Balıkesir’deki gıda ve tarım tesislerinden gelen tipik 'manlift lazım' çağrılarını ve bunları hangi soruyla sınıfa çevirdiğimizi aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Çağrı türü", "İlk sorduğumuz şey", "Muhtemel sınıf", "Belirleyici detay"],
+                    satirlar: [
+                        ["Dolum hattı üstü sensör arızası", "Hat tam üstünde mi, kenarda mı", "Makaslı veya kompakt eklemli", "Hat boşaltma imkanı"],
+                        ["Kazan dairesi vana sızıntısı", "Zemin dar mı, ekipman kalabalık mı", "Örümcek platform", "Sıcak/enerjili hat izni"],
+                        ["Silo üstü motor arızası", "Zemin kotu, yatay mesafe", "Eklemli (boom)", "Yatay uzanım"],
+                        ["Depo rafı aydınlatma", "Zemin düz mü, geniş mi", "Makaslı platform", "Forklift trafiği"],
+                        ["Tank çiftliği arası dar nokta", "Sıra aralığı ne kadar", "Örümcek platform", "Montaj süresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada sık karşılaşılan yanlış varsayımlar",
+                paragraflar: [
+                    "İlk kez arayan işletmelerin bazıları 'manlift' derken tüm sınıfların aynı işi yapacağını varsayar; oysa yanlış sınıfla sahaya çıkan bir makine hedefe ulaşamayınca hem zaman hem maliyet kaybı olur. En sık yaşanan yanlış varsayım, hedefin yatay olarak kaydığını fark etmeden düz yukarı çıkan bir sınıf istemektir — bu durumda makine sahada dururken hedefe erişemez ve değişim gerekir.",
+                    "Bir diğer sık yanlış varsayım, dar bir proses salonuna standart gövdeli bir makinenin gireceğini düşünmektir. Bu yüzden telefonda zemin genişliğini ve varsa kapı/koridor ölçüsünü mutlaka sorarız; net bir rakam yoksa fotoğraf isteriz.",
+                ],
+            },
+            {
+                baslik: "Sahaya giriş için istenen tipik evrak",
+                paragraflar: [
+                    "Gıda üretim tesislerinin çoğunda yüklenici aracı ve operatörü için asgari birkaç belge istenir: araç ve operatör bilgileri, iş güvenliği taahhüdü ve bazı tesislerde hijyen brifingi katılım kaydı. Bu evrakları randevu netleşmeden önce isteriz, çünkü kapıda eksik evrak yüzünden bekleme, hem işletmenin hem bizim zamanımızı boşa harcar.",
+                    "Bazı OSB’lerde veya büyük tesislerde ayrıca giriş kartı veya araç plaka bildirimi istenebilir; bu tür ek şartlar tesise özgü olduğu için ilk aramada işletmeden bu bilgiyi de sorarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hangi tip manlifte ihtiyacımız olduğunu bilmiyoruz, nasıl karar veriyorsunuz?",
+                cevap:
+                    "Telefonda iki soru sorarız: hedef, makinenin duracağı noktanın tam üzerinde mi yoksa bir engelin arkasında mı; zemin düz ve geniş mi yoksa dar bir koridor mu? Bu iki cevap çoğu zaman doğru sınıfı belirlemeye yeter. Emin olamadığımız durumlarda bir fotoğraf isteriz, çünkü görsel bilgi telefonda tarif etmekten daha güvenilirdir.",
+            },
+            {
+                soru: "Daha önce hiç platform kiralamadık, sahaya giriş için ne hazırlamalıyız?",
+                cevap:
+                    "Çoğu gıda üretim tesisi yüklenici aracı ve operatörü için asgari bilgi ve bir iş güvenliği taahhüdü ister; bazılarında hijyen brifingi de eklenir. Randevu netleşmeden önce bu listeyi tesisinizden öğrenip size iletiriz, böylece makine kapıda beklemez.",
+            },
+            {
+                soru: "Fotoğraf gönderirsek telefondan kesin karar verebilir misiniz?",
+                cevap:
+                    "Çoğu zaman evet, en azından ilk sınıf önerisini fotoğrafla verebiliriz. Ancak kesin karar bazı durumlarda sahada teyit ister — özellikle zemin sağlamlığı veya ölçülemeyen bir mesafe söz konusuysa. Fotoğraf bize ilk yönü verir, sahadaki operatör son teyidi yapar.",
+            },
+            {
+                soru: "Operatörlü mü operatörsüz mü almalıyız, ilk kez kiralayan biri için hangisi mantıklı?",
+                cevap:
+                    "İlk kez kiralayan işletmeler için genellikle operatörlü seçenek daha hızlı ve güvenli başlar, çünkü sahayı ve proses ekipmanını ilk kez gören bir kişi yerine bu tür ortamlara alışkın bir operatör makineyi kullanır. Operatörsüz seçeneğin kendi şartları ve belgeleri vardır; talep ederseniz bu detayları ayrıca anlatırız.",
+            },
+            {
+                soru: "Arızamız acil, ne kadar sürede tip belirleyip sahaya çıkabilirsiniz?",
+                cevap:
+                    "Tip belirleme kısmı genellikle birkaç dakikalık bir telefon görüşmesi veya fotoğraf paylaşımıyla tamamlanır; asıl süreyi belirleyen uygun makinenin müsaitliği ve sahaya olan mesafedir. Aciliyeti belirttiğinizde önceliklendirme yaparız, ancak sahaya giriş evrakı eksikse bu süreyi uzatabileceğini baştan söylemek isteriz.",
+            },
+            {
+                soru: "Bu tür arızalar bizde sık tekrarlıyor, her seferinde baştan mı anlatmalıyız?",
+                cevap:
+                    "Hayır, gerekmez. İlk birkaç çağrıdan sonra tesisinizin hangi bölgelerinde hangi tip erişim ihtiyacının sık çıktığını fark ederiz ve bunu kayıt altına alırız; sonraki aramalarda süreç kısalır. Tekrarlayan bir ihtiyaç fark ettiğimizde bunu size de belirtir, isterseniz önceden bir plan çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Balıkesir’in gıda ve tarım işleme tesislerinde ani arıza kaynaklı erişim taleplerinin sık görüldüğü ve gıda üretim alanlarında yüklenici girişi için hijyen/iş güvenliği evrakının tipik olarak istendiği kamuya açık genel bilgidir; telefon triyaj süreci ve evrak listesi firmamızın kendi operasyon pratiğidir.",
+    },
 };

@@ -2029,4 +2029,200 @@ export const BOLUPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bolu'nun orman, dağlık ve kırsal tarım arazisi ağırlıklı coğrafyası kamuya açık genel bilgidir; zemin tipine göre gövde seçimi, keşif ziyareti önerisi ve mevsimsel zemin değerlendirmesi firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bolu'da TEM Hattı Dinlenme ve Lojistik Tesislerinde Makaslı Platform Kiralama",
+        giris:
+            "Bolu, İstanbul-Ankara aksının tam ortasında oturur ve bu konum, TEM otoyolu üzerindeki dinlenme tesisleri, akaryakıt istasyonları ile lojistik depolarının burada yoğunlaşmasının başlıca sebebidir. Bu tesislerin platform ihtiyacı çoğunlukla dışarıdan görünmeyen bakım işleridir: dinlenme tesisinin market ve restoran bölümündeki tavan aydınlatması, depo raf sistemlerinin üst katmanları, kapalı otopark bölümünün havalandırma kanalları. Bu tip kapalı ve yarı kapalı alanlarda çalışmanın doğru aracı makaslı platformdur — dar koridorlarda manevra kabiliyeti yüksektir, akülü modelleri egzoz gazı bırakmaz ve sepet genişliği raf arası malzeme taşımaya uygundur. Ancak Bolu'nun kışı bu resmi karmaşıklaştırır: Bolu Dağı geçişindeki yoğun kar ve zaman zaman uygulanan trafik kısıtlamaları, otoyol hattındaki tesislere planlanan sevkiyatın gecikme riskini artırır. Bu yüzden TEM hattı üzerindeki bir tesise makaslı platform planlarken iki soruyu birlikte cevaplarız — hangi makine sınıfı bu tavan yüksekliğine ve kapı ölçüsüne uyar, hangi tarihte otoyol geçişi güvenilir. Bu sayfa, TEM hattı üzerindeki dinlenme ve lojistik tesislerinde tipik makine seçimini ve kış sevkiyat planlamasını anlatır.",
+        maddeler: [
+            {
+                baslik: "Dinlenme tesisi kapalı alanlarında akülü tercih",
+                metin:
+                    "Dinlenme tesislerinin market, restoran ve tuvalet bloklarındaki tavan aydınlatma değişimi veya kanal bakımı, müşteri trafiğinin sürdüğü saatlerde de yapılabilmelidir. Bu ortamda içten yanmalı bir makine hem egzoz kokusu hem gürültü nedeniyle tercih edilmez; akülü makaslı platform, sessiz çalışması ve emisyon bırakmaması sayesinde işletme açık kalırken bile kullanılabilir. Sepetin dar koridorlarda dönebilmesi için şase genişliği önceden ölçülür.",
+            },
+            {
+                baslik: "Lojistik depo raf koridorlarında dar şase gereksinimi",
+                metin:
+                    "TEM hattı üzerindeki lojistik depoların raf koridorları genellikle standart bir forkliftin geçebileceği genişlikte tasarlanmıştır; bu da makaslı platformun şase genişliğini kritik hâle getirir. Koridor genişliği 90-100 santimetre bandındaysa dar gövdeli model şarttır, aksi hâlde platform raf aralığına giremez. Depo yöneticisinden koridor ölçüsünü almadan makine göndermeyiz çünkü sahada ölçü uymayan bir makineyi geri çevirmek, planlı işin tamamını geciktirir.",
+            },
+            {
+                baslik: "Akaryakıt istasyonu kanopisi altında sınırlı yükseklik",
+                metin:
+                    "TEM üzerindeki akaryakıt istasyonlarının pompa kanopisi altı, genellikle 5-6 metre bandında ve üstü kapalıdır; bu bölgedeki aydınlatma armatürü veya kanopi iç yüzey bakımı için düşük-orta sınıf makaslı platform yeterlidir. Kanopi altında çalışırken pompa adalarına ve araç geçiş şeridine mesafe bırakılır; istasyon açık kalarak çalışma yapılacaksa trafik akışı platformun konumlandığı taraftan geçici olarak kesilir.",
+            },
+            {
+                baslik: "Kış aylarında Bolu Dağı geçişinin sevkiyata etkisi",
+                metin:
+                    "Bolu Dağı'ndaki geçiş, yoğun kar yağışı ve tipi koşullarında zaman zaman ağır araç trafiğine kapatılabilir veya yavaşlatılabilir; bu durum TEM hattındaki bir tesise planlanan makine teslimatını doğrudan etkiler. Kış aylarında bu hatta iş planlarken, teslimat tarihine bir günlük tampon payı öneririz ve teslimattan önceki gün geçiş durumunu teyit ederiz. Acil bir bakım ihtiyacında ise en yakın uygun makine, geçişin açık olduğu güzergâhtan yönlendirilir.",
+            },
+            {
+                baslik: "Depo kapı ve rampa ölçülerinin önceden alınması",
+                metin:
+                    "Lojistik depoların yükleme kapıları ve rampaları, farklı yükseklik ve genişliklerde inşa edilir; bir makaslı platformun depo içine girebilmesi için kapı yüksekliğinin makinenin taşınma yüksekliğinden fazla olması gerekir. Bu ölçü, teslimat günü sahada değil, planlama aşamasında telefonla veya fotoğrafla teyit edilir. Ölçüsü uymayan bir kapı tespit edilirse, makine sökülmeden geçebileceği alternatif bir giriş veya daha küçük sınıf bir model önerilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "TEM hattı tesis tipine göre makaslı platform seçimi",
+                paragraflar: [
+                    "Tablo, TEM hattı üzerindeki tesis tiplerini, tipik tavan/kanopi yüksekliğini ve önerilen makaslı platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tipik yükseklik", "Önerilen sınıf", "Özel not"],
+                    satirlar: [
+                        ["Dinlenme tesisi iç mekân", "4-6 m", "Akülü, dar gövde", "Müşteri saatlerinde sessiz çalışma"],
+                        ["Lojistik depo raf koridoru", "6-9 m", "Dar şase makaslı", "Koridor genişliği önceden ölçülmeli"],
+                        ["Akaryakıt istasyonu kanopisi", "5-6 m", "Düşük-orta sınıf", "Pompa adasına mesafe"],
+                        ["Depo yükleme rampası çevresi", "6-8 m", "Standart makaslı", "Kapı yüksekliği teyidi"],
+                        ["Kapalı otopark/aktarma alanı", "4-5 m", "Akülü, kompakt", "Araç trafiğiyle eşzamanlı çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kış sevkiyat takvimi neden esnek tutulmalı",
+                paragraflar: [
+                    "TEM hattı üzerindeki bir tesise kış ayında planlanan makine teslimatı, otoyolun geri kalanından farklı bir risk taşır çünkü güzergâh Bolu Dağı geçişinden geçer. Yoğun kar yağışı sırasında ağır araç trafiğine getirilen geçici kısıtlamalar, önceden belirlenen teslim saatini birkaç saat kaydırabilir. Bu yüzden kış aylarında TEM hattındaki bir işi planlarken, teslimat tarihini tek bir güne değil bir güne artı bir tampon güne yayarız.",
+                    "Rutin bakım işlerinde bu tampon payı planlamayı zorlaştırmaz; ama acil bir arıza bakımında zaman kısıtlıysa, geçişin o anki durumunu teyit ettikten sonra en gerçekçi teslim saatini paylaşırız. Böylece tesis yönetimi, işin başlama saatini net bir bilgiyle planlayabilir.",
+                ],
+            },
+            {
+                baslik: "Dar koridor ve kapı ölçüsü planlaması",
+                paragraflar: [
+                    "Bir makaslı platformun depo içine girip raf koridorunda çalışabilmesi, sahaya varmadan önce iki ölçünün doğru alınmasına bağlıdır: yükleme kapısının yüksekliği ve koridorun en dar noktasının genişliği. Bu ölçüleri, teslimattan önce fotoğraf veya basit bir cetvel ölçümüyle almanızı isteriz; tahmini bir rakam yerine gerçek ölçü, sahada makinenin geri çevrilmesi riskini ortadan kaldırır.",
+                    "Bazı depolarda koridor genişliği raf düzenine göre bölüm bölüm değişir; böyle durumlarda en dar noktanın ölçüsü esas alınır, çünkü makine o noktadan geçemezse koridorun geri kalanı geniş olsa da işe yaramaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dinlenme tesisi açıkken bakım yapılabilir mi?",
+                cevap:
+                    "Evet, akülü makaslı platform tercih edildiğinde egzoz kokusu ve yüksek gürültü olmadığı için işletme açıkken de çalışma yapılabilir. Platformun konumlandığı bölge geçici olarak bantla ayrılır, müşteri akışı diğer taraftan devam eder. Yoğun saatlerde çalışmak istemiyorsanız, düşük trafikli saat dilimini birlikte belirleyebiliriz.",
+            },
+            {
+                soru: "Depo raf koridorumuz dar, hangi makine geçer?",
+                cevap:
+                    "Koridor genişliğini santimetre cinsinden paylaşırsanız, şase genişliği o ölçüye uyan dar gövdeli bir makaslı platform öneririz. 90-100 santimetre bandındaki koridorlarda özel dar gövde modelleri kullanılır; bu ölçü teyit edilmeden standart genişlikte bir makine gönderilmez çünkü sahada geri çevrilme riski yüksektir.",
+            },
+            {
+                soru: "Kış aylarında Bolu Dağı kapanırsa teslimatımız ne olur?",
+                cevap:
+                    "Geçiş kısıtlaması genellikle geçicidir ve kar temizliği tamamlandığında açılır; biz teslimat tarihine kış aylarında bir tampon gün payı ekleriz ve teslimattan önceki gün geçiş durumunu teyit ederiz. Acil bir ihtiyaç varsa, geçişin açık olduğu bir saat diliminde teslimatı yeniden planlarız ve size güncel bilgiyi paylaşırız.",
+            },
+            {
+                soru: "Akaryakıt istasyonu kanopisi altında çalışırken araç trafiği kesiliyor mu?",
+                cevap:
+                    "Tamamen değil; platformun konumlandığı pompa adası ve şerit geçici olarak trafiğe kapatılır, diğer adalar normal çalışmaya devam eder. Bu, istasyonun tamamen kapanmasını gerektirmez. Hangi adanın hangi saatte kullanılamayacağını, çalışma öncesi istasyon yönetimiyle birlikte planlarız.",
+            },
+            {
+                soru: "Depo kapımızın yüksekliğini bilmiyoruz, nasıl teyit ederiz?",
+                cevap:
+                    "En pratik yol, kapı çerçevesinin bir cetvel veya şerit metreyle ölçülmesi ve fotoğrafla paylaşılmasıdır. Ölçü net değilse, teslimat günü sahada makinenin geri çevrilmesi riskini almamak için önce küçük bir keşif ziyareti önerebiliriz. Bu adım, özellikle daha önce hiç büyük ekipman girmemiş depolar için önemlidir.",
+            },
+            {
+                soru: "TEM hattındaki tesisimize düzenli bakım için sabit bir makine mi ayırıyorsunuz?",
+                cevap:
+                    "Düzenli bakım anlaşması olan tesislerde, tesisin tipik ihtiyacına uygun sınıf önceden belirlenir ve her seferinde aynı değerlendirmeyi tekrarlamak yerine bu sınıf esas alınır. Ancak mevsim değiştiğinde — özellikle kışa girerken — sevkiyat takvimini yeniden gözden geçiririz çünkü Bolu Dağı geçişinin durumu yaz planlamasından farklıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM otoyolunun İstanbul-Ankara aksındaki konumu, Bolu Dağı geçişinin kış aylarında kar nedeniyle geçici trafik kısıtlamasına konu olabilmesi kamuya açık genel bilgidir. Tesis içi bakım pratiği, kapı/koridor ölçüsü teyidi ve kış sevkiyat tamponu firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Bolu'da TEM Hattı Boyunca Dış Cephe ve Yüksek Yapı Bakımında Manlift Kiralama",
+        giris:
+            "TEM otoyolunun Bolu'dan geçen kesimi boyunca, dinlenme tesislerinin dışında da yüksek ve dış saha yapıları bulunur: otoyol kenarındaki reklam panoları, sanayi tesislerinin çatısına kurulmuş güneş enerjisi panelleri, saha aydınlatma direkleri ve yakındaki telekom kulelerine hizmet veren teknik binalar. Bu yapıların bakımı, makaslı platformun düz zemin ve kapalı alan avantajından farklı bir makine ister — eklemli veya teleskopik bomlu manlift, çünkü hedefe dik değil açılı ve engel aşarak ulaşmak gerekir. Otoyol kenarındaki bir reklam panosuna erişmek için bariyer, refüj veya dolu bir kamyon park alanı aşılmalı; sanayi çatısındaki güneş paneline erişmek için çatı kenarından değil zeminden bom uzatılarak çalışılmalıdır. Bolu'nun kışı bu işi ayrıca zorlaştırır: dış sahada çalışan bir manliftin rüzgar hız limiti aşıldığında sepeti kapatması gerekir ve otoyol kenarındaki açık alanlar, kapalı bir sanayi avlusuna göre rüzgara daha maruzdur. Bu sayfa, TEM hattı boyunca tipik dış yapı bakım senaryolarını ve kış koşullarının manlift planlamasına etkisini anlatır.",
+        maddeler: [
+            {
+                baslik: "Otoyol kenarı reklam panosu bakımında engel aşma",
+                metin:
+                    "TEM hattı üzerindeki reklam panoları genellikle yol kenarındaki refüj veya bariyerin arkasına kurulur; manlift bu engeli aşarak panoya ulaşmalıdır. Bu iş için eklemli bomlu manlift tercih edilir çünkü bom hem yukarı hem yatay yönde hareket ederek engelin üzerinden dolanabilir. Makinenin konumlandığı zemin, otoyol trafiğine yeterli mesafede ve güvenlik şeridi içinde olacak şekilde önceden belirlenir.",
+            },
+            {
+                baslik: "Sanayi çatısı güneş paneli bakımında zeminden erişim",
+                metin:
+                    "TEM hattı yakınındaki sanayi tesislerinin çatısına kurulan güneş enerjisi panelleri, çatı üzerinde yürüyerek değil zeminden bom uzatılarak temizlenir veya bakımı yapılır çünkü panel yüzeyine basmak hem panele zarar verir hem düşme riski taşır. Bu iş için teleskopik bomlu manlift, çatı kenarına yatay erişim sağladığı için tercih edilir. Panel dizilerinin arasındaki erişim koridoru dar ise, bom açısı buna göre planlanır.",
+            },
+            {
+                baslik: "Saha aydınlatma direği ve teknik yapı bakımı",
+                metin:
+                    "Lojistik depo avlularındaki ve tesis çevresindeki yüksek aydınlatma direkleri, yıl içinde armatür değişimi veya kablo kontrolü gerektirir; bu direkler genellikle sabit bir platformdan değil manliftin sepetinden erişilebilecek yükseklik ve konumdadır. Direk çevresindeki zemin, genellikle asfalt veya sıkıştırılmış zemin olduğundan standart lastikli manlift yeterlidir; ancak direk park alanının ortasındaysa, çalışma sırasında o bölüm geçici olarak trafiğe kapatılır.",
+            },
+            {
+                baslik: "Kış aylarında rüzgar limiti ve dış saha kısıtı",
+                metin:
+                    "Bolu'nun açık ve rakımlı arazisi, TEM hattı boyunca rüzgarı kapalı sanayi avlularına göre daha güçlü hissettirir. Her manlift modelinin üretici tarafından belirlenmiş bir maksimum rüzgar hızı sınırı vardır; bu sınır aşıldığında sepet çalışması güvenli değildir ve iş ertelenir. Kış aylarında dış saha bir işi planlarken hava durumu tahminini önceden kontrol eder, rüzgarın yüksek olduğu günlerde alternatif bir tarih öneririz.",
+            },
+            {
+                baslik: "Tuzlama kaynaklı korozyon bakımı",
+                metin:
+                    "TEM hattında kış boyunca uygulanan tuzlama, sadece yol yüzeyini değil yakınındaki metal yapıları da etkiler — reklam pano iskeletleri, aydınlatma direkleri ve çelik cephe elemanları zamanla korozyona uğrayabilir. Bu tür yapılarda ilkbahar başında yapılan koruyucu boya veya kaynak bakımı, kışın verdiği zararı erken tespit etmek için önemlidir. Bu bakım genellikle dış sahada, standart bom uzunluğuna sahip bir manliftle yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "TEM hattı yapı tipine göre manlift seçimi",
+                paragraflar: [
+                    "Tablo, TEM hattı boyunca karşılaşılan dış yapı tiplerini, tipik yükseklik ve engel durumunu, önerilen bom tipini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Tipik yükseklik", "Engel durumu", "Önerilen bom tipi"],
+                    satirlar: [
+                        ["Otoyol kenarı reklam panosu", "8-14 m", "Bariyer/refüj", "Eklemli bom"],
+                        ["Sanayi çatısı güneş paneli", "6-12 m", "Panel dizisi arası dar koridor", "Teleskopik bom"],
+                        ["Saha aydınlatma direği", "10-15 m", "Genellikle düşük", "Teleskopik/eklemli"],
+                        ["Telekom teknik bina çevresi", "8-12 m", "Kablo/dolap yoğunluğu", "Eklemli bom"],
+                        ["Çelik cephe/iskelet bakımı", "6-10 m", "Dar erişim aralığı", "Eklemli bom"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rüzgar ve hava durumu neden erteleme sebebi",
+                paragraflar: [
+                    "Dış sahada çalışan bir manliftin sepeti, bom tam açıldığında rüzgara karşı bir yelken gibi davranır; bu yüzden üretici, her model için bir maksimum rüzgar hızı sınırı belirler. Bolu'nun TEM hattı boyunca açık arazisi, bu sınırın kapalı bir sanayi avlusuna göre daha sık aşılmasına yol açabilir, özellikle sonbahar ve kış geçişlerinde.",
+                    "Bu yüzden dış saha bir manlift işini planlarken, çalışma gününden bir gün önce güncel rüzgar tahminini kontrol eder ve sınırın aşılacağı öngörülüyorsa işi bir sonraki uygun güne öneririz. Bu, sahaya varan makinenin çalışamadan geri dönmesini önleyen bir adımdır.",
+                ],
+            },
+            {
+                baslik: "Dış saha konumlandırma ve zemin değerlendirmesi",
+                paragraflar: [
+                    "TEM hattı yakınındaki dış saha bir manlift işi için makinenin konumlandığı zemin, hem düz hem yeterince sağlam olmalıdır; asfalt veya sıkıştırılmış toprak genellikle standart lastikli manlift için yeterlidir. Otoyol güvenlik şeridine yakın çalışmalarda, makinenin ve operatörün trafik tarafına mesafesi güvenlik önceliğiyle belirlenir.",
+                    "Kış aylarında zemin donmuş veya buzlu olabileceğinden, dış saha bir işe başlamadan önce zeminin güncel durumu teyit edilir; gerekirse çalışma, zeminin çözüldüğü ve daha güvenli hâle geldiği bir saate ertelenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otoyol kenarındaki reklam panomuza manlift ulaşabilir mi?",
+                cevap:
+                    "Genellikle evet; bariyer veya refüj gibi engeller eklemli bomlu manliftin açılı erişimiyle aşılabilir. Panonun tam konumunu ve yol kenarındaki mesafeyi paylaşırsanız, uygun bom uzunluğunu ve konumlandırma noktasını önceden belirleriz. Güvenlik şeridine yakın çalışmalarda trafik tarafına ek mesafe bırakılır.",
+            },
+            {
+                soru: "Çatımızdaki güneş panellerine çatıya çıkmadan bakım yapılabilir mi?",
+                cevap:
+                    "Evet, bu tercih edilen yöntemdir; panel yüzeyine basmak hem panele zarar verebilir hem düşme riski taşır. Teleskopik bomlu manlift zeminden panele yatay erişim sağlar. Panel dizileri arası koridor darsa, bu ölçüyü önceden paylaşırsanız bom açısını buna göre planlarız.",
+            },
+            {
+                soru: "Kışın rüzgar yüzünden işimiz iptal olabilir mi?",
+                cevap:
+                    "Rüzgar hızı, makinenin üretici tarafından belirlenmiş sınırını aşarsa sepet çalışması güvenli olmadığından iş ertelenir. Bu durumu önceden öngörmek için çalışma gününden bir gün önce hava tahminini kontrol eder, riskli görünüyorsa size alternatif bir tarih öneririz. İptal, sahaya vardıktan sonra değil, önceden planlanır.",
+            },
+            {
+                soru: "Aydınlatma direğimiz park alanının ortasında, çalışma sırasında trafik nasıl yönetiliyor?",
+                cevap:
+                    "Direğin çevresindeki park alanı bölümü, çalışma süresince geçici olarak kapatılır ve diğer bölümler normal kullanımına devam eder. Hangi bölümün ne kadar süre kapatılacağını, çalışma öncesi tesis yönetimiyle birlikte planlarız ki günlük operasyon en az etkilensin.",
+            },
+            {
+                soru: "Kış tuzlamasının metal yapılarımıza etkisini nasıl anlarız?",
+                cevap:
+                    "Korozyon genellikle ilk bakışta fark edilmez; yüzeydeki boya tabakasının altında paslanma başlamış olabilir. İlkbahar başında yapılan bir kontrol bakımı, kışın verdiği zararı erken tespit etmenin en pratik yoludur. Bu kontrolü, düzenli bakım anlaşması olan tesislerde otomatik olarak takvime ekleriz.",
+            },
+            {
+                soru: "Dış sahamızın zemini kış aylarında donuyor, manlift çalışabilir mi?",
+                cevap:
+                    "Donmuş zemin genellikle sağlamdır ve standart lastikli manlift için sorun oluşturmaz; asıl risk zeminin gündüz kısmen çözülüp gece tekrar donduğu geçiş dönemlerindeki kaygan yüzeydir. Çalışma öncesi zeminin güncel durumunu teyit ederiz; kaygan görünüyorsa, zeminin çözüldüğü bir saate erteleme öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM otoyolunun Bolu'dan geçen açık ve rakımlı arazi yapısı ile kış aylarında yol tuzlaması kamuya açık genel bilgidir. Dış saha manlift konumlandırma, rüzgar limiti planlaması ve korozyon bakım pratiği firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
 };

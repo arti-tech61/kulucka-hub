@@ -1926,4 +1926,198 @@ export const BILECIKPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Soğuk depo rampasında kış buzlanması ve kırsal Söğüt çevresinde toprak yol erişiminin varlığı genel coğrafi/mevsimsel bilgidir; zemin değerlendirme yöntemi ve erteleme kararı firma saha pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bilecik'te Soğuk Depo ve Atölye İçi Makaslı Platform Kiralama",
+        giris:
+            "Osmaneli'deki soğuk hava depolarının iç mekanında ve Söğüt çevresindeki kereste-mobilya atölyelerinde yükseklik ihtiyacı, açık sahadakinden farklı bir makine profili gerektiriyor. Depo koridorları arasında raf aralığı dar, tavan yüksekliği sınırlı ve zemin düz betondur; bu ortamda dar gövdeli, elektrikli tahrikli bir makaslı platform hem manevra kolaylığı hem de emisyonsuz çalışma açısından daha uygun bir çözüm oluyor. Evaporatör bakımı, tavan aydınlatma değişimi ya da üst raf seviyesindeki paletli yük kontrolü gibi işler, dikey ve stabil bir çalışma platformu istiyor — bu da makaslı platformun güçlü olduğu bir kullanım alanı. Söğüt'teki kereste kurutma atölyelerinde ise durum benzer: kurutma fırınının üst kısmına ya da toz emiş hattının çatı bağlantılarına erişim, dar atölye içinde dönebilen bir makine gerektiriyor. Bu sayfa, iki farklı tesis tipinde makaslı platformun nerede ve nasıl kullanıldığını, periyodik bakım sözleşmesi kapsamında nasıl planlandığını ve arıza durumunda müdahale süresi taahhüdümüzü anlatıyor. Sabit bir kiralama süreci tarif etmiyoruz; her iki tesis tipinin kendine özgü erişim ve ortam koşulunu esas alıyoruz.",
+        maddeler: [
+            {
+                baslik: "Soğuk depo koridorlarında dar gövde ihtiyacı",
+                metin:
+                    "Soğuk depo raf aralıkları, forklift geçişine göre tasarlandığı için genellikle dardır ve makaslı platformun bu aralıklarda dönüş yapabilmesi için gövde genişliğinin önceden bilinmesi gerekir. Talep alırken koridor genişliğini sorarız; standart bir makaslı platform sığmıyorsa dar gövdeli bir model önerir, hâlâ yetmiyorsa alternatif bir erişim yöntemi üzerine konuşuruz.",
+            },
+            {
+                baslik: "Evaporatör ve tavan ünitesi bakımında iç mekan kullanımı",
+                metin:
+                    "Soğuk depo tavanındaki evaporatör üniteleri ve aydınlatma armatürleri, düzenli bakım gerektiren ve genellikle dikey erişimle ulaşılan noktalar. Makaslı platform bu tür işlerde sabit ve geniş bir çalışma sepeti sunduğu için, teknisyenin aynı noktada uzun süre güvenle çalışmasına imkan tanıyor; bu da bom tipi makinelere göre bu işte tercih edilme nedeni.",
+            },
+            {
+                baslik: "Söğüt atölyesinde kurutma fırını ve toz emiş hattı üstü erişim",
+                metin:
+                    "Kereste kurutma atölyelerinde fırının üst yapısı ve toz emiş hattının çatıya yakın bağlantı noktaları, düzenli temizlik ve kontrol gerektiriyor. Atölye içi alan genellikle dar olduğu için, buraya uygun boyutta bir makaslı platform seçilmesi, hem malzeme istiflerine hem de üretim hattına zarar vermeden çalışabilmek açısından önemli.",
+            },
+            {
+                baslik: "Elektrikli tahrik tercihi ve kapalı mekan gerekçesi",
+                metin:
+                    "Soğuk depo ve kapalı atölye gibi havalandırması sınırlı ortamlarda dizel ya da LPG tahrikli bir makineyi tercih etmeyiz; egzoz gazının kapalı hacimde birikmesi hem gıda ürünleri için hem de çalışan sağlığı için risk oluşturur. Bu yüzden iç mekan taleplerinde varsayılan olarak elektrikli/akülü tahrikli makaslı platform öneririz.",
+            },
+            {
+                baslik: "Periyodik bakım sözleşmesi kapsamında planlama",
+                metin:
+                    "Hem soğuk depo hem de atölye tarafında, tekil kiralama yerine periyodik bakım sözleşmesi kapsamında düzenli makaslı platform kullanımı planlayan işletmeler var. Bu sözleşmede bakım takvimi önceden belirlenir, makine o tarihlerde otomatik olarak planlanır ve işletmenin her seferinde ayrı talep açması gerekmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki tesis tipinde makaslı platform kullanım alanları",
+                paragraflar: [
+                    "Soğuk depo ve kereste atölyesinde makaslı platformun kullanıldığı tipik işler ve tercih nedeni aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Kullanım alanı", "Tercih nedeni", "Tahrik"],
+                    satirlar: [
+                        ["Soğuk depo (Osmaneli)", "Evaporatör/tavan ünitesi bakımı", "Sabit geniş sepet, dikey erişim", "Elektrikli"],
+                        ["Soğuk depo (Osmaneli)", "Üst raf paletli yük kontrolü", "Dar koridorda manevra", "Elektrikli"],
+                        ["Kereste atölyesi (Söğüt)", "Kurutma fırını üst yapı kontrolü", "Dar atölye içi dönüş", "Elektrikli/akülü"],
+                        ["Kereste atölyesi (Söğüt)", "Toz emiş hattı çatı bağlantısı", "Sabit çalışma platformu", "Elektrikli/akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bom tipi makine yerine neden makaslı platform",
+                paragraflar: [
+                    "İç mekanda dikey ve nispeten sabit bir noktaya erişim gerektiğinde, eklemli ya da teleskopik bom yerine makaslı platform tercih ediyoruz; çünkü makaslı platform daha geniş ve stabil bir çalışma sepeti sunuyor, teknisyen sepeti içinde rahatça hareket edip malzeme taşıyabiliyor. Bom tipi makineler ise yatay uzanım gerektiren, tek noktadan erişilemeyen işlerde daha uygun.",
+                    "Bu ayrımı talep aşamasında netleştiriyoruz: işin dikey mi yoksa yatay uzanımlı mı olduğunu sorarak doğru makine sınıfını öneriyoruz, aksi hâlde sahada yanlış makineyle karşılaşma riski oluşabiliyor.",
+                ],
+            },
+            {
+                baslik: "Arıza müdahale süresi taahhüdü",
+                paragraflar: [
+                    "Periyodik bakım sözleşmesi kapsamındaki işletmelere, makaslı platformda arıza ya da beklenmedik bir aksaklık durumunda belirli bir müdahale süresi taahhüdü veriyoruz. Bu taahhüt, özellikle soğuk depo gibi bakımın ertelenmesinin ürün kaybına yol açabileceği tesislerde önem taşıyor; atölye tarafında ise üretim hattının duraklamaması için benzer bir öncelik uyguluyoruz.",
+                    "Taahhüt süresi, sözleşme kapsamına ve tesisin konumuna göre değişebilir; kesin süre, sözleşme görüşmesinde netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk depo içinde makaslı platform kullanmak güvenli mi?",
+                cevap:
+                    "Evet, ancak düşük sıcaklık makine performansını etkileyebileceği için özellikle akü kapasitesi konusunda dikkatli oluyoruz; uzun süreli soğuk ortam kullanımı planlanan işlerde akü durumunu önceden kontrol eder, gerekirse yedek makine bulundururuz. Zemin düz beton olduğu için stabilite açısından ayrıca bir risk oluşmuyor.",
+            },
+            {
+                soru: "Söğüt'teki atölyeler için dar gövdeli makine şart mı?",
+                cevap:
+                    "Atölyenin iç düzenine bağlı; malzeme istifleri arasında dar geçişler varsa dar gövdeli bir model gerekiyor, daha açık bir atölyede standart boy yeterli olabiliyor. Talep alırken atölye içi geçiş genişliğini sorar, gerekirse fotoğraf isteriz.",
+            },
+            {
+                soru: "Elektrikli makaslı platform yerine dizel model istenebilir mi?",
+                cevap:
+                    "Kapalı mekan taleplerinde dizel/LPG tahrikli makineyi önermiyoruz çünkü egzoz gazı birikimi hem gıda ürünleri hem çalışan sağlığı için risk oluşturuyor. Açık sahada ya da iyi havalandırılan geniş bir alanda dizel model değerlendirilebilir, ama soğuk depo ve kapalı atölye için varsayılan önerimiz elektrikli/akülüdür.",
+            },
+            {
+                soru: "Periyodik bakım sözleşmesi olmadan tekil kiralama yapılabilir mi?",
+                cevap:
+                    "Evet, periyodik sözleşme bir seçenek olup zorunlu değildir; tek seferlik bir bakım ya da arıza kontrolü için de makaslı platform kiralanabilir. Ancak düzenli bakım ihtiyacı olan tesislerde sözleşme kapsamı, planlama ve müdahale süresi açısından avantaj sağlıyor.",
+            },
+            {
+                soru: "Arıza müdahale süresi taahhüdü tüm müşteriler için mi geçerli?",
+                cevap:
+                    "Taahhüt öncelikli olarak periyodik bakım sözleşmesi kapsamındaki işletmeler için tanımlanır; tekil kiralamalarda da makul bir sürede müdahale ederiz ama sözleşme kapsamındaki önceliklendirme farklı olabilir. Kesin şartlar görüşme aşamasında netleştirilir.",
+            },
+            {
+                soru: "Makaslı platform mu yoksa manlift mi tercih edilmeli?",
+                cevap:
+                    "İşin dikey ve nispeten sabit bir noktaya erişim gerektirdiği durumlarda (evaporatör bakımı, tavan ünitesi gibi) makaslı platform daha uygun; yatay uzanım ya da engebeli/dış mekan erişimi gerektiren işlerde manlift daha doğru seçim olabiliyor. Talep aşamasında işin niteliğini sorarak doğru makineyi öneriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depo iç mekan koşulları (dar koridor, düz beton zemin, tavan ünitesi bakım ihtiyacı) ve Söğüt kereste atölyelerinin dar iç düzeni genel sektörel bilgidir; makine seçim mantığı, periyodik sözleşme kapsamı ve arıza müdahale taahhüdü firma saha pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Bilecik'te Soğuk Depo Dış Cephesi ve Orman Ürünleri Tesisinde Manlift Kiralama",
+        giris:
+            "Osmaneli'deki soğuk hava depolarının dış cephesi ve Söğüt çevresindeki kereste-mobilya tesislerinin çatı/yükleme rampası üstü işleri, iç mekandakinden farklı bir makine profili gerektiriyor: uzun erişimli, yatay uzanım yapabilen bir manlift. Soğuk depo dış cephesindeki izolasyon panelinin kontrolü, çatı üzerindeki soğutma ünitesi bağlantıları ya da dış aydınlatma direğinin bakımı gibi işler, tek bir noktadan değil farklı açılardan erişim istiyor; bu da eklemli ya da teleskopik manlifti makaslı platforma göre daha uygun kılıyor. Söğüt'teki büyük kereste depolarında da benzer bir ihtiyaç var: dış cephe çatı hattı, yükleme rampası üstü kiriş sistemi ya da depo dışına monte edilmiş toz emiş bacası, açık sahada uzun erişim gerektiren noktalar. Bu iki tesis tipinde manlift kullanımını, hem tekil arıza müdahalesi hem de periyodik bakım sözleşmesi kapsamında nasıl planladığımızı bu sayfada anlatıyoruz. Dış mekan koşulları (rüzgar, mevsimsel hava durumu) makine seçimini ve çalışma takvimini doğrudan etkiliyor; bu nedenle sabit bir kiralama süreci değil, tesise ve mevsime göre değişen bir değerlendirme uyguluyoruz.",
+        maddeler: [
+            {
+                baslik: "Soğuk depo dış cephesinde izolasyon paneli kontrolü",
+                metin:
+                    "Soğuk depo dış cephesindeki yalıtım panelleri, zamanla hasar görebilir ya da bağlantı noktalarında sızdırmazlık kaybı yaşanabilir; bu tür kontroller genellikle cephenin farklı yüksekliklerinde ve farklı açılardan yapılıyor. Eklemli manlift, sepeti panel yüzeyine paralel şekilde konumlandırabildiği için bu işte teknisyene daha rahat bir çalışma açısı sağlıyor.",
+            },
+            {
+                baslik: "Çatı üstü soğutma ünitesi ve aydınlatma direği erişimi",
+                metin:
+                    "Soğuk depo çatısındaki soğutma ünitesi bağlantıları ve dış aydınlatma direkleri, düzenli kontrol gerektiren noktalar. Bu tür işlerde teleskopik manlift, doğrudan dikey ve uzun erişim sağladığı için tercih ediliyor; çatı kenarına ya da direk tepesine sepeti hassas şekilde yaklaştırabiliyoruz.",
+            },
+            {
+                baslik: "Söğüt'te kereste deposu çatı hattı ve yükleme rampası üstü",
+                metin:
+                    "Büyük kereste depolarının çatı hattı ve yükleme rampası üstündeki kiriş sistemi, açık sahada uzun erişim gerektiren tipik noktalardır. Bu tesislerde saha genellikle geniş olduğu için, teleskopik manlift hem yüksekliğe hem de yatay mesafeye aynı anda erişim sağlayarak zaman kazandırıyor.",
+            },
+            {
+                baslik: "Dış mekan hava koşullarının çalışma takvimine etkisi",
+                metin:
+                    "Açık sahada çalışan bir manlift için rüzgar hızı ve yağış, üretici tarafından belirlenen güvenlik sınırlarını aşarsa işi erteleriz; bu, özellikle sonbahar ve kış aylarında Bilecik'te sık karşılaştığımız bir durum. Randevu öncesi hava durumu tahminini kontrol eder, sınır değerlere yakın günlerde müşteriyle alternatif tarih üzerine konuşuruz.",
+            },
+            {
+                baslik: "Dış cephe bakımında periyodik sözleşme ve arıza müdahale süresi",
+                metin:
+                    "Soğuk depo dış cephesi ve kereste deposu çatı hattı gibi düzenli kontrol gerektiren alanlarda, periyodik bakım sözleşmesi kapsamında manlift kullanımı planlayan işletmeler var. Bu sözleşme kapsamındaki müşterilere, dış mekan arızalarında da belirli bir müdahale süresi taahhüdü sunuyoruz; taahhüt süresi hava koşuluna bağlı olarak makul ölçüde esnetilebilir, ama önceliklendirme sözleşmeli müşteriler için geçerlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki tesis tipinde manlift kullanım alanları",
+                paragraflar: [
+                    "Soğuk depo dış cephesi ve kereste deposu dış alanında manliftin kullanıldığı tipik işler ve tercih edilen makine tipi aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Kullanım alanı", "Erişim türü", "Tercih edilen manlift"],
+                    satirlar: [
+                        ["Soğuk depo (Osmaneli)", "İzolasyon paneli kontrolü", "Farklı açılardan cephe erişimi", "Eklemli"],
+                        ["Soğuk depo (Osmaneli)", "Çatı soğutma ünitesi/aydınlatma direği", "Dikey uzun erişim", "Teleskopik"],
+                        ["Kereste deposu (Söğüt)", "Çatı hattı kontrolü", "Yatay + dikey geniş erişim", "Teleskopik"],
+                        ["Kereste deposu (Söğüt)", "Yükleme rampası üstü kiriş sistemi", "Uzun yatay uzanım", "Teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli ile teleskopik manlift arasındaki seçim",
+                paragraflar: [
+                    "Eklemli manlift, engel etrafından dolanarak erişim gerektiren ya da farklı açılardan yaklaşım gereken işlerde (örneğin cephe paneli, boru hattı çevresi) daha esnek bir çözüm sunuyor. Teleskopik manlift ise düz bir hatta uzun mesafeye hızlı erişim gerektiğinde (çatı hattı, yükleme rampası üstü) daha verimli çalışıyor.",
+                    "Talep alırken erişilecek noktanın çevresinde engel olup olmadığını, erişim açısının sabit mi değişken mi olduğunu sorarız; bu bilgiye göre eklemli ya da teleskopik model önerisi yaparız.",
+                ],
+            },
+            {
+                baslik: "Kış aylarında dış mekan manlift kullanımı",
+                paragraflar: [
+                    "Bilecik'te kış ayları, açık sahada manlift kullanımını doğrudan etkileyen bir dönem. Düşük sıcaklık, hidrolik sistem performansını değiştirebiliyor; bu nedenle kış aylarındaki taleplerde makineyi önceden kontrol eder, gerekiyorsa ısınma süresi tanırız.",
+                    "Kar ya da buzlanma varsa, dış cephe/çatı çalışması güvenlik gerekçesiyle ertelenebilir; bu kararı, sözleşme kapsamındaki müşterilerle birlikte değerlendirir, alternatif bir tarih üzerine anlaşırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk depo dış cephesinde hangi tip manlift kullanılıyor?",
+                cevap:
+                    "Cephenin farklı açılardan kontrolü gerektiği durumlarda eklemli manlift tercih ediyoruz; çatı üstü soğutma ünitesi ya da aydınlatma direği gibi dikey erişim ağırlıklı işlerde ise teleskopik model daha uygun oluyor. Kesin seçim, işin niteliğine göre talep aşamasında netleştiriliyor.",
+            },
+            {
+                soru: "Kereste deposu çatı hattında manlift ile çalışmak ne kadar sürüyor?",
+                cevap:
+                    "Bu, çatı hattının uzunluğuna ve kontrol edilecek nokta sayısına bağlı değişir; kesin bir süre vermek yerine, işin kapsamını öğrendikten sonra sahaya uygun bir zaman planı sunuyoruz. Genel bir rakam vermemizin gerçekçi olmayacağını düşünüyoruz.",
+            },
+            {
+                soru: "Rüzgarlı havada manlift çalışması nasıl değerlendiriliyor?",
+                cevap:
+                    "Rüzgar hızı, üreticinin belirlediği güvenlik sınırını aşarsa dış mekan çalışmasını ertelenir; bu konuda esnek davranmayız çünkü yükseklikte rüzgar riski ciddi bir güvenlik sorunu oluşturur. Randevu öncesi hava durumu tahminini kontrol eder, sınır değerlere yakın günlerde müşteriyle önceden iletişime geçeriz.",
+            },
+            {
+                soru: "Kış aylarında dış cephe manlift işleri yapılabiliyor mu?",
+                cevap:
+                    "Evet, ancak düşük sıcaklık ve olası buzlanma koşulları göz önünde bulundurulur; makineyi önceden kontrol eder, gerekiyorsa ısınma süresi tanırız. Kar/buzlanma varsa güvenlik gerekçesiyle işi erteleyebiliriz ve müşteriyle alternatif tarih üzerine anlaşırız.",
+            },
+            {
+                soru: "Periyodik bakım sözleşmesi olmadan tekil manlift kiralama yapılabilir mi?",
+                cevap:
+                    "Evet, tekil kiralama mümkündür; periyodik sözleşme, düzenli dış cephe/çatı bakımı ihtiyacı olan işletmeler için planlama ve müdahale süresi açısından ek avantaj sağlıyor ama zorunlu değildir.",
+            },
+            {
+                soru: "Manlift mi yoksa makaslı platform mu tercih edilmeli?",
+                cevap:
+                    "Dış mekanda geniş bir alana yayılan ya da farklı açılardan erişim gerektiren işlerde (çatı hattı, cephe paneli) manlift daha uygun; iç mekanda sabit ve dikey bir noktaya erişim gerektiğinde (evaporatör bakımı gibi) makaslı platform daha doğru seçim olabiliyor. Talep aşamasında işin yerini ve niteliğini sorarak doğru makineyi öneriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depo dış cephe/çatı unsurları ve Söğüt kereste depolarının açık saha yapısı genel sektörel bilgidir; makine tipi seçimi (eklemli/teleskopik), hava koşulu erteleme kararı ve periyodik sözleşme kapsamı firma saha pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
+    },
 };

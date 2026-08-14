@@ -1147,4 +1147,110 @@ export const BOLUPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. TEM Otoyolu ve D-100 hattı boyunca yeni antrepo/depo yapılaşmasının sürmesi ve inşaat aşamasındaki sahaların zemin koşullarının değişkenliği kamuya açık genel bilgidir; gövde seçimi ve güzergâh koordinasyonu firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bolu Şantiyelerinde Makaslı Platform Kiralama: Düz Zeminde Yüksek Kapasiteli Çalışma",
+        giris:
+            "Bolu genelindeki inşaat sahalarında iç mekân duvar işleri, tavan tesisatı, cephe kaplaması veya montaj hattı gibi düz ve sağlam zeminde yürütülen işler için makaslı platform, forklife ve eklemli platforma göre daha geniş sepet alanı ve daha yüksek taşıma kapasitesi sunar. Şantiyede aynı anda birden fazla işçinin ve malzemenin yükseğe çıkması gerektiğinde makaslı platformun dikey hareket eden geniş sepeti, işçilerin rahat hareket etmesine ve malzemeyi yanlarında taşımasına imkân verir. Bolu'da hem şehir merkezindeki bina inşaatlarında hem de sanayi tesislerinin iç mekân montaj işlerinde bu makine tercih edilir; ancak makaslı platformun tekerlek düzeni ve dikey hareket mekanizması, düzensiz veya eğimli zeminde forklift ya da eklemli platform kadar esnek değildir, bu yüzden zemin sağlamlığı ve düzlüğü kiralama öncesi mutlaka değerlendirilir. Şantiyenin genel amaçlı ihtiyaçlarında forklift ile yatay yük taşıma, makaslı platform ile dikey ve geniş sepetli erişim birbirini tamamlayan iki farklı çözüm olarak değerlendirilir; hangi işin hangi makineyle daha verimli yapılacağı, iş tanımına göre birlikte netleştirilir. Bu sayfa, Bolu'daki inşaat sahalarında makaslı platformun hangi işlerde avantajlı olduğunu, zemin ve kapasite gereksinimlerini ve kiralama sürecinde dikkat edilmesi gereken noktaları anlatır.",
+        maddeler: [
+            { baslik: "Geniş sepet ile çoklu işçi ve malzeme taşıma", metin: "Makaslı platformun sepeti, eklemli platform veya forklife platformuna göre genellikle daha geniştir; bu, aynı anda iki veya üç işçinin malzemeleriyle birlikte çalışabilmesini sağlar. Tavan tesisatı, boru döşeme veya iç cephe kaplaması gibi ekip hâlinde yürütülen işlerde bu genişlik zaman kazandırır." },
+            { baslik: "Düz ve sağlam zeminde en verimli çalışma", metin: "Makaslı platform dikey olarak yükselir ve tekerlek düzeni düz zeminde en stabil şekilde çalışır; eğimli, çukurlu veya moloz dolu bir zeminde stabilitesi ve manevra kabiliyeti düşer. Şantiye içindeki beton dökülmüş veya sıkıştırılmış zeminlerde tercih edilir; hafriyat aşamasındaki düzensiz alanlarda önerilmez." },
+            { baslik: "Yüksek taşıma kapasitesi gerektiren işler", metin: "Bazı iç mekân montaj işlerinde işçilerle birlikte ağır ekipman veya çok sayıda malzeme paketi yukarı taşınması gerekir; makaslı platformun taşıma kapasitesi bu tür işler için genellikle eklemli platformdan daha yüksektir. İş tanımınızdaki toplam yük miktarını paylaşırsanız uygun kapasiteyi birlikte belirleriz." },
+            { baslik: "Dar koridor ve iç mekân montaj hatlarında kullanım", metin: "Fabrika veya depo iç mekânlarındaki montaj hatlarında, raf aralarında ya da koridorlarda çalışılacaksa makinenin genişliği ve dönüş yarıçapı önceden değerlendirilir; dar modeller bu tür alanlar için seçilir. Sahanın koridor genişliğini ve tavan yüksekliğini paylaşmanızı rica ederiz." },
+            { baslik: "Elektrikli ve dizel model seçimi", metin: "Kapalı mekânlarda genellikle elektrikli makaslı platform tercih edilir çünkü egzoz gazı üretmez ve daha sessiz çalışır; açık şantiye alanlarında ise dizel model daha uzun çalışma süresi ve daha yüksek güç sunabilir. Çalışma ortamınızı (kapalı/açık) belirtirseniz uygun modeli öneririz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform ile diğer platform tiplerinin karşılaştırması",
+                paragraflar: ["Tablo, şantiyede sık karşılaşılan iş tiplerine göre makaslı platformun ne zaman öne çıktığını özetler."],
+                tablo: {
+                    basliklar: ["İş tipi", "Zemin durumu", "Önerilen gövde", "Gerekçe"],
+                    satirlar: [
+                        ["İç mekân tavan/duvar işi", "Düz, sağlam", "Makaslı platform", "Geniş sepet, yüksek kapasite"],
+                        ["Cephe kaplama (bina dışı)", "Düz zemin, sabit konum", "Makaslı platform", "Çoklu işçi + malzeme"],
+                        ["Hafriyat sahası erişimi", "Düzensiz, eğimli", "Eklemli veya arazi tipi platform", "Manevra ve stabilite"],
+                        ["Yük istifleme/taşıma", "Değişken", "Forklift", "Yatay taşıma kapasitesi"],
+                        ["Dar koridor iç montaj", "Düz, sınırlı genişlik", "Dar gövdeli makaslı platform", "Geçiş genişliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin değerlendirmesi ve kiralama öncesi kontrol",
+                paragraflar: [
+                    "Makaslı platform talebi geldiğinde önce çalışma alanının zemin tipi sorulur: beton mu, sıkıştırılmış toprak mı, yoksa henüz düzenlenmemiş bir alan mı? Zemin düz ve sağlamsa makaslı platform sorunsuz çalışır; zeminde belirgin eğim veya düzensizlik varsa alternatif gövde önerilir.",
+                    "Şantiyenin hangi aşamasında olduğu da bu değerlendirmeye dahil edilir — kaba inşaat aşamasında zemin henüz oturmamış olabilir, ince işler aşamasında ise genellikle düzdür.",
+                ],
+            },
+            {
+                baslik: "Ekip çalışması için sepet düzeni ve güvenlik",
+                paragraflar: [
+                    "Birden fazla işçinin aynı sepette çalıştığı durumlarda, sepet içi düzen ve malzeme yerleşimi önceden planlanır; bu hem güvenliği artırır hem de işçilerin birbirinin hareketini engellememesini sağlar.",
+                    "Yükseklik ve rüzgâr koşulları, özellikle açık alan cephe işlerinde göz önünde bulundurulur; hava durumu uygun olmadığında çalışma ertelenebilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Makaslı platform ile eklemli platform arasındaki temel fark nedir?", cevap: "Makaslı platform yalnızca dikey olarak yükselir ve genellikle daha geniş bir sepete sahiptir; eklemli platform ise kollarını yatay ve açılı olarak da hareket ettirebilir, bu da engellerin üzerinden veya yan tarafından erişim gerektiğinde avantaj sağlar. Düz zeminde çoklu işçi ve malzeme taşınacaksa makaslı platform, engelli veya erişimi zor noktalarda eklemli platform tercih edilir." },
+            { soru: "Şantiyemizin zemini kısmen düzensiz, yine de makaslı platform kullanabilir miyiz?", cevap: "Zeminin düzensizlik derecesine bağlıdır; hafif düzensizlikler bazı arazi tipi makaslı platform modelleriyle aşılabilir ama belirgin eğim veya çukur varsa stabilite riski oluşur ve eklemli veya arazi tipi platform önerilir. Zemin fotoğrafı veya kısa bir açıklama paylaşırsanız uygun makineyi birlikte belirleriz." },
+            { soru: "Aynı anda kaç işçi sepette çalışabilir?", cevap: "Bu, makinenin taşıma kapasitesine ve sepet boyutuna göre değişir; genel olarak makaslı platformlar forklift veya eklemli platforma göre daha fazla işçiyi ve malzemeyi aynı anda taşıyabilir. Ekip büyüklüğünüzü ve taşınacak malzeme ağırlığını paylaşırsanız uygun kapasiteli modeli öneririz." },
+            { soru: "Kapalı mekânda elektrikli model şart mı?", cevap: "Zorunlu değildir ama kapalı mekânlarda egzoz gazı üretmemesi ve daha sessiz çalışması nedeniyle elektrikli model genellikle tercih edilir. Açık şantiye alanlarında ise dizel model daha uzun çalışma süresi sunabilir. Çalışma ortamınızı belirtirseniz uygun modeli öneririz." },
+            { soru: "Dar koridorlarda ve raf aralarında makaslı platform geçebilir mi?", cevap: "Dar gövdeli modeller bu tür alanlar için üretilmiştir ve koridor genişliğine göre seçilir. Sahanızın koridor genişliğini ve varsa tavan yüksekliğini paylaşırsanız geçiş yapabilecek modeli birlikte belirleriz; ölçü paylaşılmadan kesin bir garanti veremeyiz." },
+            { soru: "Kiralama süresi ve teslimat nasıl işliyor?", cevap: "Kiralama süresi iş programınıza göre günlük, haftalık veya aylık olarak belirlenebilir; makine, şantiye adresinize planlanan tarihte teslim edilir. Teslimat öncesi zemin ve erişim koşullarının netleşmiş olması, hem teslimatın hem de çalışmanın sorunsuz başlamasını sağlar." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun dikey hareket mekanizması, geniş sepet yapısı ve düz zeminde stabil çalışma özelliği makine üreticilerinin genel teknik tanımlarına dayanan kamuya açık genel bilgidir; Bolu şantiyelerindeki kullanım örnekleri ve kiralama süreci firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bolu'da Manlift Kiralama: İnşaat ve Bakım İşleri İçin Tek Kişilik Yükseklik Erişimi",
+        giris:
+            "Manlift, tek bir operatörün hızlı ve bağımsız şekilde yükseğe çıkmasını sağlayan, genellikle dar ve dikey erişim gerektiren işler için kullanılan bir platform tipidir. Bolu'daki inşaat sahalarında elektrik tesisatı çekimi, aydınlatma montajı, boya-badana kontrolü veya tek noktalı küçük onarım işleri gibi geniş bir ekip yerine tek bir kişinin kısa sürede yükseğe erişmesi gereken durumlarda manlift, makaslı platform veya eklemli platforma göre daha hızlı kurulur ve daha dar alanlarda manevra yapabilir. Şantiyede zaman zaman birden fazla noktada kısa süreli tek kişilik iş çıkar — bir aydınlatma armatürünün değişimi, bir kablo kanalının kontrolü, bir noktadaki küçük bir sıva onarımı gibi; bu tür işlerde geniş sepetli ve ağır bir platform yerine, hafif ve hızlı konumlanabilen manlift tercih edilir. Genel amaçlı kiralama filomuzda forklift yatay yük taşımayı, manlift ise tek kişilik hızlı ve nokta erişimini karşılar; şantiyenizde hangi işin hangi makineyle daha hızlı ve ekonomik tamamlanacağını iş tanımınıza göre birlikte değerlendiririz. Bu sayfa, Bolu'daki şantiyelerde manliftin hangi işlerde öne çıktığını, zemin ve erişim gereksinimlerini ve diğer platform tiplerinden farkını anlatır.",
+        maddeler: [
+            { baslik: "Tek operatörle hızlı yükseklik erişimi", metin: "Manlift, genellikle tek bir kişinin kullanımı için tasarlanmıştır ve sepeti veya platformu diğer makinelere göre daha küçüktür; bu da makinenin daha hafif olmasını ve daha hızlı konumlanmasını sağlar. Kısa süreli, tek noktalı işlerde ekip beklemeden hızlı başlangıç yapılabilir." },
+            { baslik: "Dar ve sınırlı alanlarda manevra", metin: "Koridor arası, raf arası veya iki yapı arasındaki dar boşluklar gibi geniş platformların giremediği alanlarda manlift genellikle daha küçük gövdesiyle erişim sağlayabilir. Sahanın en dar geçiş noktasının genişliğini paylaşmanız, uygun model seçimini hızlandırır." },
+            { baslik: "Kısa süreli tek noktalı bakım ve montaj işleri", metin: "Aydınlatma armatürü değişimi, kablo kanalı kontrolü, küçük boya onarımı gibi işler genellikle tek kişi tarafından kısa sürede tamamlanır; bu işler için geniş sepetli ve ağır bir makine yerine manlift, hem kurulum hem de nakliye açısından daha pratiktir." },
+            { baslik: "Zemin ve stabilite gereksinimleri", metin: "Manliftin dar taban alanı, düz ve sağlam zeminde en stabil şekilde çalışır; eğimli veya yumuşak zeminde devrilme riski standart makaslı platforma göre daha hassas değerlendirilir. Kullanılacak zeminin durumu kiralama öncesi netleştirilir." },
+            { baslik: "Elektrikli ve manuel itme modelleri arasında seçim", metin: "Bazı manlift modelleri elektrikli tahrikle kendi kendine hareket ederken, bazı hafif modeller manuel olarak itilerek konumlandırılır; iş sahasının zemin eğimi ve mesafesi bu seçimi etkiler. Sahanızın düzlüğünü ve makinenin taşınacağı mesafeyi paylaşırsanız uygun modeli öneririz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift ile diğer platform tiplerinin iş bazlı karşılaştırması",
+                paragraflar: ["Tablo, tek kişilik kısa süreli işlerde manliftin ne zaman diğer gövdelere göre öne çıktığını özetler."],
+                tablo: {
+                    basliklar: ["İş tipi", "Ekip büyüklüğü", "Önerilen gövde", "Gerekçe"],
+                    satirlar: [
+                        ["Aydınlatma armatürü değişimi", "Tek kişi", "Manlift", "Hızlı kurulum, dar erişim"],
+                        ["Kablo kanalı kontrolü", "Tek kişi", "Manlift", "Kısa süreli, nokta erişim"],
+                        ["Cephe kaplama (geniş alan)", "Çoklu ekip", "Makaslı platform", "Geniş sepet kapasitesi"],
+                        ["Tavan tesisatı (ekip işi)", "Çoklu ekip", "Makaslı platform", "Malzeme + işçi taşıma"],
+                        ["Dar koridor tek nokta onarım", "Tek kişi", "Manlift", "Gövde genişliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin ve erişim değerlendirmesi",
+                paragraflar: [
+                    "Manlift talebi geldiğinde önce erişim noktasının genişliği ve zeminin düzlüğü sorulur; dar ama düz bir geçitte manlift sorunsuz ilerler, ancak zemin eğimliyse veya yumuşaksa stabilite açısından ek değerlendirme yapılır.",
+                    "İş noktasının şantiye içindeki konumu ve makinenin oraya ulaşmak için geçeceği güzergâh önceden netleştirilir; bu, teslimat ve kurulum süresini kısaltır.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli işlerde nakliye ve zaman verimliliği",
+                paragraflar: [
+                    "Manliftin daha küçük ve hafif olması, hem şantiye içi taşınmasını hem de araçla nakliyesini kolaylaştırır; bu da özellikle tek günlük veya birkaç saatlik işlerde toplam maliyeti ve süreyi düşürür.",
+                    "Aynı gün içinde birden fazla küçük iş varsa, manlift bir noktadan diğerine göreli olarak hızlı taşınabilir; bu tür çoklu küçük iş taleplerini önceden bildirmeniz planlamayı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Manlift ile makaslı platform arasındaki temel fark nedir?", cevap: "Manlift genellikle tek kişilik kullanım için tasarlanmış, daha küçük ve hafif bir gövdeye sahiptir; makaslı platform ise daha geniş sepetiyle birden fazla işçi ve malzemeyi aynı anda taşıyabilir. Tek noktalı kısa süreli işlerde manlift, ekip hâlinde yürütülen geniş kapsamlı işlerde makaslı platform tercih edilir." },
+            { soru: "Manlift dar bir koridordan geçebilir mi?", cevap: "Çoğu manlift modeli dar gövdesiyle standart platformlara göre daha rahat geçiş yapabilir, ancak kesin geçiş için koridorun net genişliğinin bilinmesi gerekir. En dar geçiş noktasının ölçüsünü paylaşırsanız uygun modeli birlikte belirleriz." },
+            { soru: "Tek günlük küçük bir iş için manlift kiralamak mantıklı mı?", cevap: "Evet, manliftin küçük ve hafif yapısı özellikle kısa süreli tek noktalı işlerde nakliye ve kurulum açısından avantaj sağlar; geniş sepetli bir makine kiralamaya göre hem daha hızlı hem de genellikle daha ekonomik olabilir. İş tanımınızı paylaşırsanız uygunluğunu değerlendiririz." },
+            { soru: "Zeminimiz hafif eğimli, manlift yine de kullanılabilir mi?", cevap: "Manliftin dar taban alanı eğimli zemine standart makaslı platforma göre daha hassastır; hafif eğim bazı modellerle aşılabilir ama belirgin eğimde stabilite riski artar. Zeminin eğim durumunu paylaşırsanız uygun modeli veya alternatif gövdeyi öneririz." },
+            { soru: "Aynı gün içinde birkaç farklı noktada manlift kullanabilir miyiz?", cevap: "Evet, manliftin görece hafif ve taşınabilir yapısı, aynı şantiye içinde bir noktadan diğerine geçişi kolaylaştırır. Çoklu küçük iş taleplerinizi önceden bildirirseniz, günü buna göre planlarız ve gereksiz bekleme süresini azaltırız." },
+            { soru: "Manlift kiralama süresi nasıl belirleniyor?", cevap: "İş tanımınıza göre saatlik, günlük veya haftalık kiralama seçenekleri sunulur; kısa süreli tek noktalı işler genellikle günlük veya saatlik olarak planlanır. Şantiye adresinizi ve iş tanımınızı paylaşırsanız size uygun süre ve modeli öneririz." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manliftin tek operatör kullanımı, dar gövde yapısı ve dikey erişim özelliği makine üreticilerinin genel teknik tanımlarına dayanan kamuya açık genel bilgidir; Bolu şantiyelerindeki kullanım örnekleri ve kiralama süreci firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
 };
