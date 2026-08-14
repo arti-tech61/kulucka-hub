@@ -1395,4 +1395,1089 @@ export const DENIZLIPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Merkezefendi’nin Denizli’nin idari merkezi olması ve ilçede küçük sanayi siteleri ile ticari cadde-bulvar dokusunun bir arada bulunması kamuya açık genel bilgidir; saha tipi-makine eşleşmeleri ve işgaliyet süreci firma pratiğidir.",
     },
+
+    // ── HİZMET SAYFALARI (11) ────────────────────────────────────────────
+    // Denizli'nin üç sektörlü kimliğine (tekstil, mermer, termal turizm)
+    // göre anchor'landı. Çelik konstrüksiyon montajı ve zor zemin/arazi
+    // (mermer ocağı erişimi bağlamında) ana konu olarak en detaylı yazıldı.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Denizli'de Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Sepetli platform, Denizli'de en çok tek bir soruyla anılır: 'tezgâhların arasından geçebilir mi?' Ev tekstili üreten dokuma ve konfeksiyon salonlarının tipik düzeni budur — onlarca metre uzunluğunda tezgâh sıraları, aralarında dar bir servis koridoru ve tepede aydınlatma, havalandırma kanalı, sprinkler hattı gibi sürekli bakım isteyen bir donanım katmanı. Standart genişlikte bir makaslı platform bu koridora sığmaz; bu yüzden Denizli'deki filomuzda dar şaseli, akülü ve iz bırakmayan modeller ağırlıklıdır. Aynı sepetli platform sınıfı, mermer işleme fabrikalarının kesim hattı üstü servis noktalarında da kullanılır, ama orada koşul tam tersine döner — zemin ıslak ve düzensiz, koridor değil açık saha söz konusudur, bu yüzden aynı iş adı iki bambaşka makine kararına çıkabilir. Termal otel bakımlarında ise üçüncü bir profil devreye girer: dar koridor kısıtı yine vardır ama zemin kuru ve düzdür, öncelik gürültüsüz ve hızlı konumlanan bir makinedir. Bu sayfada sepetli platformun üç sektördeki farklı kullanım biçimini ve doğru sınıfın nasıl belirlendiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Dokuma ve konfeksiyon koridorunda şase genişliği",
+                metin:
+                    "Tekstil salonlarında tezgâh aralığı genellikle sabittir ve bu ölçü, hangi sepetli platformun sahaya girebileceğini doğrudan belirler. Standart makaslı modelin şasesi bu aralığa göre geniş kalabilir; bu durumda dar gövdeli veya dikey sınıf tercih edilir. Talep alırken tezgâh aralığını santimetre cinsinden sormamızın nedeni budur — tahmini bir ölçüyle gelen makine, kapıdan girse bile çalışma noktasına ulaşamayabilir.",
+            },
+            {
+                baslik: "Mermer fabrikasında ıslak zeminde sepetli erişim",
+                metin:
+                    "Kesim hattı üstündeki servis noktalarına sepetli platformla ulaşmak, tekstildeki koridor sorunundan farklı bir denklem kurar: zemin su devirdaimi nedeniyle sürekli ıslaktır ve düzensizdir. Bu sahalarda standart iç mekân sepetlisi yerine arazi tipi (dört tekerden çekişli) sepetli platform kullanılır; ayak basıncı ve devrilme güvenliği önceden değerlendirilir. Hat çalışırken sepetten müdahale edilmez, servis penceresi hattın durduğu zamana denk getirilir.",
+            },
+            {
+                baslik: "Akülü modelin kapalı alan zorunluluğu",
+                metin:
+                    "Dokuma salonu, boyahane veya otel iç mekânı gibi kapalı alanlarda egzoz gazı nedeniyle dizel makine kullanılmaz; akülü sepetli platform bu ortamların standart çözümüdür. Akülü modelin şarj noktası, çalışma alanının dışında ve elektrik güvenliği sağlanmış bir yerde önceden belirlenir. Uzun süreli işlerde vardiya sonunda şarja alınacak zaman payı, iş planına baştan eklenir.",
+            },
+            {
+                baslik: "Tavan donanımına doğru yükseklikte durma",
+                metin:
+                    "Sepetli platformun asıl avantajı, hedefe dik değil yanından yaklaşabilmesidir — bu, aydınlatma armatürü değişimi veya kanal contası onarımı gibi hassas işlerde önemlidir. Çalışma yüksekliği, hedefin bulunduğu kottan hesaplanır; sepet tabanı bu kotun yaklaşık iki metre altında kalır. Yanlış hesaplanan yükseklik, makinenin sahaya gelip işe yaramaması anlamına gelir, bu yüzden kot bilgisini talep aşamasında netleştiririz.",
+            },
+            {
+                baslik: "Toz ve nemin makineye dönüş kontrolü",
+                metin:
+                    "Tekstil salonundan elyaf tozuyla, mermer fabrikasından taş tozu ve nemle dönen sepetli platform, bir sonraki sahaya aynı yükle gitmemelidir. Bu nedenle her dönüşte filtre, mafsal ve hidrolik bağlantı çevresi kontrol edilir; gerekiyorsa temizlik yapılır. Bu adım atlanırsa, bir sahanın kirliliği bir sonraki müşterinin sahasına taşınmış olur — bunu kabul etmiyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sektöre göre sepetli platform seçimi",
+                paragraflar: [
+                    "Aynı 'sepetli platform' talebi, gideceği sahaya göre bambaşka bir makineye karşılık gelir. Aşağıdaki tablo bu ayrımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Ana kısıt", "Zemin", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Dokuma/konfeksiyon salonu", "Dar tezgâh koridoru", "Beton, elyaf tozu", "Dar gövdeli akülü"],
+                        ["Boyahane bölümü", "Nem, buhar", "Beton, kaygan olabilir", "Akülü, korumalı elektrik"],
+                        ["Mermer kesim hattı", "Islak ve düzensiz zemin", "Su devirdaim, çamur", "Arazi tipi sepetli"],
+                        ["Termal otel iç mekân", "Misafir trafiği, dar geçit", "Kuru, düz", "Kompakt akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yanlış ölçüyle gelen makine neye mal olur",
+                paragraflar: [
+                    "Sepetli platform talebinde en sık karşılaştığımız aksaklık, tezgâh aralığı veya kapı ölçüsünün tahmini verilmesidir. Makine sahaya vardığında dar bir noktadan geçemediğinde, iş o gün yapılamaz ve doğru ölçüde ikinci bir makinenin gönderilmesi gerekir — bu hem zaman hem nakliye kaybı demektir.",
+                    "Bu riski sıfırlamak için talep formunda üç ölçüyü standart olarak isteriz: kapı/geçiş eni, koridor genişliği ve tavan kotu. Bu üçü net geldiğinde, sepetli platform ilk seferde doğru sınıfta sahaya çıkar.",
+                ],
+            },
+            {
+                baslik: "Operatör eğitimi ve teslim süreci",
+                paragraflar: [
+                    "Sepetli platform, sepet içinden kumanda edilen bir makine olduğu için kullanıcı eğitimi teslimde mutlaka verilir — kumanda paneli, acil indirme sistemi ve emniyet kemeri kullanımı birlikte gözden geçirilir. Kendi personeliniz kullanacaksa, ilgili ekipman sınıfı için geçerli yeterlilik belgesinin bulunması gerekir.",
+                    "İlk kez çalışılan veya zemin koşulu belirsiz sahalarda (özellikle mermer fabrikaları) operatörlü kiralamayı öneririz; bu, hem güvenlik hem de makinenin sahaya uygun şekilde konumlandırılması açısından daha az risk taşır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dokuma salonumuzda tezgâhlar çok sık dizili, hangi sepetli platform sığar?",
+                cevap:
+                    "Tezgâh aralığı dar salonlarda dar gövdeli akülü sepetli veya dikey sınıf makineler kullanılır; bu modeller standart makaslıya göre belirgin biçimde daha az yer kaplar. Kesin karar için tezgâhlar arası en dar noktayı santimetre cinsinden bilmemiz gerekir — bu ölçü, kapı genişliğinden bile daha belirleyici olabilir çünkü makine kapıdan girse de koridorda ilerleyemeyebilir. Fotoğraf veya kısa bir video paylaşmanız, doğru sınıfı hızlıca netleştirmemizi sağlar.",
+            },
+            {
+                soru: "Mermer fabrikamızda kesim hattı üstünde arıza var, sepetli platform ıslak zeminde çalışır mı?",
+                cevap:
+                    "Standart iç mekân sepetli platformu bu zemin için tasarlanmamıştır; kesim hattı çevresindeki ıslak ve düzensiz zeminlerde arazi tipi, dört tekerden çekişli sepetli platform kullanılır. Hattın çalışır durumda olup olmadığını da önceden sorarız — su devirdaimi sürerken sepetten müdahale güvenli değildir, bu yüzden mümkünse hattın kısa süreliğine durdurulduğu bir pencere planlanır. Zeminin taşıma gücü belirsizse, çalışma noktasının altına plaka serilir.",
+            },
+            {
+                soru: "Otelimizin lobisinde tavan aydınlatması değişecek, gürültü misafiri rahatsız eder mi?",
+                cevap:
+                    "Akülü sepetli platform, dizel modele göre belirgin ölçüde daha sessiz çalışır ve egzoz üretmez; bu yüzden dolu bir otel iç mekânında standart tercihimiz akülüdür. Yine de hareket ve kumanda sesini tamamen sıfırlamak mümkün değildir, bu nedenle işi mümkünse düşük doluluk saatlerine (gece geç saat veya erken sabah) planlamanızı öneririz. Zemin kaplamasının makine tekerleğinden etkilenip etkilenmeyeceğini de teslimde birlikte kontrol ederiz.",
+            },
+            {
+                soru: "Sepetli platformu kendi personelimiz kullanabilir mi?",
+                cevap:
+                    "Evet, kullanıcı personelin ilgili ekipman sınıfı için geçerli bir yeterlilik belgesi olması ve makinenin teslim anında saha eğitimini alması şartıyla mümkündür. Eğitimde kumanda paneli, acil indirme sistemi ve emniyet kemeri kullanımı birlikte gözden geçirilir. İlk kez çalışılan sahalarda, özellikle mermer fabrikası gibi zemin riski taşıyan yerlerde operatörlü kiralamayı öneririz; bu, işin ilk gününde yaşanabilecek belirsizlikleri ortadan kaldırır.",
+            },
+            {
+                soru: "Boyahane bölümünde nem yüksek, elektrikli makine sorun çıkarır mı?",
+                cevap:
+                    "Nemli ve buharlı ortamda akülü makine kullanmak yaygın ve doğru bir tercihtir; zaten kapalı alanda dizel kullanılmaz. Dikkat edilmesi gereken nokta, kumanda panelinin ve şarj bağlantısının su almamasıdır — şarj işlemi bölüm dışında kuru bir noktada yapılır. Vardiya sonunda makineyi buhar hattından uzak bir alana çekmenizi öneririz; bu küçük alışkanlık, elektrik aksamının ömrünü uzatır.",
+            },
+            {
+                soru: "Bir günlük iş için sepetli platform kiralamak mantıklı mı?",
+                cevap:
+                    "Maliyetin büyük kısmı nakliyeden geldiği için tek günlük işlerde günlük fiyatla haftalık fiyat arasındaki fark çoğu zaman düşündüğünüzden küçüktür. Elinizde birden fazla küçük iş varsa — aydınlatma, kanal kontrolü, armatür değişimi gibi — bunları aynı periyoda toplamak en ekonomik yoldur. Tarih esnekliğiniz varsa, aynı bölgeye giden başka bir sevkiyatla birleştirebildiğimizde nakliye payı da düşer.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin ev tekstili ve mermer işleme sanayii kamuya açık genel bilgidir; makine sınıfı eşleşmeleri ve teslim süreci firma pratiğidir. Tesis adı veya rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Denizli'de Platform ve Ekipman Nakliye-Teslimat Hizmeti",
+        giris:
+            "Denizli'de nakliye planlaması, üç farklı coğrafyaya aynı anda hizmet vermek anlamına gelir: şehir merkezindeki organize sanayi bölgeleri ve tekstil holleri, çevre ilçelerdeki mermer ocakları ile işleme fabrikaları, ve Pamukkale-Karahayıt hattındaki termal oteller. Bu üç hedefin yol yapısı, park koşulu ve indirme gereksinimi birbirinden farklıdır — sanayi sahasında geniş bir yükleme rampası ve düz zemin bulunurken, mermer ocağı çevresinde stabilize veya toprak yol, otel bölgesinde ise dar sokak ve misafir trafiği söz konusudur. Nakliye aracımız bu üç ortamı da kaldırabilecek şekilde donatılmıştır, ama asıl belirleyici olan sahaya varmadan önce doğru bilgiyi almaktır: indirme noktasının zemin türü, araç için yeterli dönüş alanı olup olmadığı ve varsa saatlik erişim kısıtı. Bu sayfada nakliye sürecinin nasıl planlandığını, hangi sahada hangi ek önlemin alındığını ve teslim-iade akışının nasıl işlediğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Sanayi bölgesine planlı teslimat",
+                metin:
+                    "OSB içindeki fabrikalara yapılan teslimatlarda yol ve rampa standardı genellikle sorunsuzdur; asıl kısıt fabrika içi trafik ve vardiya saatidir. Forklift ve transpalet hareketinin yoğun olduğu saatlerde indirme yapılması, hem nakliye aracının hem saha trafiğinin işini yavaşlatır. Bu nedenle OSB teslimatlarını mümkünse sabah erken veya vardiya değişim aralarına planlarız; fabrikanın kendi giriş prosedürü varsa (araç kaydı, güvenlik onayı) bunu sevkiyattan önce netleştiririz.",
+            },
+            {
+                baslik: "Mermer ocağı ve fabrikasına stabilize yolda ulaşım",
+                metin:
+                    "Ocak çevresindeki yollar çoğunlukla stabilizedir ve yağışla birlikte hızla bozulur; ağır nakliye aracının bu yollarda ilerleyebilmesi zeminin kuruluğuna bağlıdır. Yağışlı dönemde planlanan bir teslimatta, yol durumunu sevkiyattan önce telefonla teyit ederiz — gerekirse teslimat, zeminin toparlandığı bir sonraki güne kaydırılır. Blok stok sahası gibi geniş açık alanlarda indirme noktası, araç dönüş yarıçapına göre önceden belirlenir.",
+            },
+            {
+                baslik: "Termal otel bölgesinde dar sokak ve saat kısıtı",
+                metin:
+                    "Pamukkale-Karahayıt hattındaki otellere yapılan teslimatlarda asıl kısıt yoldan çok saattir: misafir giriş-çıkış yoğunluğunun düştüğü saatler tercih edilir ve büyük nakliye aracının otel önünde uzun süre beklemesi istenmez. Bu yüzden bu bölgeye giden sevkiyatlar, makinenin indirilmesiyle aynı anda hızlıca tamamlanacak şekilde planlanır; aracın bekleme süresi en aza indirilir.",
+            },
+            {
+                baslik: "Aynı bölgeye giden sevkiyatların birleştirilmesi",
+                metin:
+                    "Denizli'nin ilçeleri arasındaki mesafe, nakliye maliyetinin önemli bir bileşenidir. Aynı gün veya aynı hafta içinde aynı bölgeye (örneğin Honaz OSB veya Sarayköy hattı) giden birden fazla talep olduğunda, bunları tek sevkiyatta birleştirmeye çalışırız. Tarih esnekliği olan müşterilere bu birleştirme fırsatını önceden bildiririz; bu, nakliye payının bölünmesi anlamına gelir.",
+            },
+            {
+                baslik: "İade sürecinde kontrol ve temizlik",
+                metin:
+                    "Makine sahadan alınırken, teslim anındaki durumla karşılaştırmalı bir kontrol yapılır — bu, hasar tartışmasının önüne geçer. Tozlu veya ıslak sahadan (tekstil holü, mermer fabrikası) dönen makineler, bir sonraki sahaya gitmeden önce temizlik ve filtre kontrolünden geçirilir. Bu adım nakliye takvimine dahildir ve atlanmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölgeye göre nakliye koşulları",
+                paragraflar: [
+                    "Denizli'deki üç ana hedef bölgenin nakliye açısından farklı gereksinimlerini aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "Yol/zemin", "Ana kısıt", "Planlama notu"],
+                    satirlar: [
+                        ["OSB / sanayi sahası", "Asfalt, düz zemin", "Fabrika içi trafik", "Vardiya dışı saat tercih edilir"],
+                        ["Mermer ocağı/fabrikası", "Stabilize, açık saha", "Yağışta bozulma", "Yol durumu teyit edilir"],
+                        ["Termal otel bölgesi", "Dar sokak, misafir trafiği", "Bekleme süresi", "Hızlı indirme planı"],
+                        ["Şehir merkezi cephe", "Kaldırım, dar sokak", "İşgaliyet izni", "İzin önceden alınır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nakliye bedelinin gerçek belirleyicisi",
+                paragraflar: [
+                    "Kiralama süresinden bağımsız olarak nakliye, makinenin sahaya indirilip alınmasına karşılık gelen sabit bir maliyettir. Bu nedenle tek günlük bir iş için ayrı bir sevkiyat, aynı bölgeye giden başka bir teslimatla birleştirilebildiğinde belirgin biçimde daha ekonomik hâle gelir.",
+                    "Müşterilerimize önerimiz nettir: tarihiniz esnekse bunu talep sırasında belirtin. Aynı haftada aynı bölgeye giden başka bir iş varsa, ikisini birleştirip size daha uygun bir teklif çıkarabiliriz.",
+                ],
+            },
+            {
+                baslik: "Yol durumu belirsizse ne yaparız",
+                paragraflar: [
+                    "Özellikle ocak çevresi ve açık saha teslimatlarında yol durumu, son yağıştan etkilenmiş olabilir. Belirsiz durumlarda sevkiyattan bir gün önce telefonla teyit ederiz; gerekirse müşteriden güncel bir fotoğraf isteriz.",
+                    "Yol geçici olarak uygun değilse, teslimat zeminin toparlanacağı en yakın güne kaydırılır ve bu değişiklik önceden bildirilir — sürpriz bir gecikme yaşatmamak önceliğimizdir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mermer ocağımıza giden yol toprak, nakliye aracı çıkabilir mi?",
+                cevap:
+                    "Çoğunlukla evet, ama zeminin kuruluğuna bağlıdır. Stabilize veya toprak yollar yağışla birlikte hızla bozulabildiği için, sevkiyattan önce yol durumunu telefonla teyit ederiz; belirsizse güncel bir fotoğraf isteriz. Yol geçici olarak uygun değilse, teslimatı zeminin toparlandığı bir sonraki güne kaydırırız — bu, aracın sahada saplanma riskini almaktan çok daha güvenli bir yoldur.",
+            },
+            {
+                soru: "OSB'deki fabrikamıza hangi saatte teslimat yapıyorsunuz?",
+                cevap:
+                    "Mümkünse sabah erken saatleri veya vardiya değişim aralarını tercih ederiz, çünkü bu saatlerde forklift ve transpalet trafiği daha düşüktür ve indirme işlemi hızlanır. Fabrikanızın kendi giriş prosedürü (araç kaydı, güvenlik onayı) varsa, bunu sevkiyattan önce netleştirmemiz gerekir; aksi hâlde araç kapıda beklerken zaman kaybedilir.",
+            },
+            {
+                soru: "Otelimizin önünde nakliye aracı ne kadar bekler?",
+                cevap:
+                    "Bekleme süresini en aza indirmeyi hedefleriz — indirme işlemi genellikle kısa sürede tamamlanır ve araç ayrılır. Misafir yoğunluğunun düştüğü saatleri tercih ederiz; bu saati sizinle önceden netleştiririz. Otelinizin araç için ayrılmış bir servis girişi varsa, bu bilgiyi paylaşmanız süreci hızlandırır.",
+            },
+            {
+                soru: "Birden fazla küçük işimiz var, tek seferde mi getirebilirsiniz?",
+                cevap:
+                    "Evet, aynı bölgeye giden birden fazla talep varsa bunları tek sevkiyatta birleştirmeye çalışırız; bu, nakliye bedelinin bölünmesi anlamına gelir. Tarihiniz esnekse bunu talep sırasında belirtin — aynı hafta içinde aynı bölgeye giden başka bir iş varsa size daha uygun bir teklif çıkarabiliriz.",
+            },
+            {
+                soru: "Makine iade edilirken hasar kontrolü nasıl yapılır?",
+                cevap:
+                    "Teslim anında makinenin mevcut durumu kaydedilir; iade sırasında aynı kayıt üzerinden karşılaştırma yapılır. Bu, kullanıcı hatasından doğan hasar ile normal kullanım izinin ayrılmasını sağlar ve sonradan tartışma yaşanmasını önler. Tozlu veya ıslak sahadan dönen makineler ayrıca temizlik ve filtre kontrolünden geçirilir; bu adım iade sürecinin standart bir parçasıdır.",
+            },
+            {
+                soru: "Nakliye ücreti mesafeye göre mi hesaplanıyor?",
+                cevap:
+                    "Nakliye bedelinin ana bileşeni, makinenin sahaya indirilip alınmasına karşılık gelen sabit bir maliyettir; mesafe bunun üzerine eklenen değişken bir kalemdir. Bu yüzden tek başına uzak bir bölge olması, teklifi orantısız yükseltmez — asıl fark yaratan, aynı sevkiyatın başka bir işle birleştirilip birleştirilemediğidir. Tam teklif için adresinizi ve tercih ettiğiniz tarihi paylaşmanız yeterlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin OSB, mermer ocağı ve termal otel coğrafyasının farklı yol/erişim koşulları kamuya açık genel bilgidir; nakliye planlama pratiği firma sürecidir. Mesafe veya süre rakamı iddia edilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Denizli'de Forklift ve İstifleme Ekipmanı Kiralama",
+        giris:
+            "Denizli'de forklift talebi iki farklı yükten doğar: tekstil depolarındaki hafif ama hacimli ürün paletleri (top kumaş, kartonlanmış havlu-bornoz ürünleri) ve mermer fabrikalarındaki ağır blok ile plaka yükleri. Bu iki yük tipi, forklift seçimini kökten değiştirir — depo tarafında dar koridorda manevra kabiliyeti ve raf yüksekliğine erişim öncelikliyken, mermer tarafında kaldırma kapasitesi ve zemin sağlamlığı belirleyicidir. Ayrıca mermer sahalarında blok ve plakaların düzensiz şekli, standart çatal yerine özel ataşman gerektirebilir. Denizli'deki forklift filomuz bu iki uçtaki ihtiyacı da karşılayacak şekilde çeşitlendirilmiştir; talebi aldığımızda önce yükün türünü, ağırlığını ve istif yüksekliğini sorarız, çünkü yanlış kapasitede forklift göndermek hem verimsiz hem güvenlik açısından risklidir.",
+        maddeler: [
+            {
+                baslik: "Tekstil deposunda dar koridor ve raf yüksekliği",
+                metin:
+                    "Ev tekstili ürünleri genellikle hafif ama hacimlidir; bu ürünlerin istiflendiği depolarda raf aralığı dar tutulur çünkü zemin alanı değerli bir kaynaktır. Bu koridorlarda çalışacak forklift, dar gövdeli ve yüksek kaldırma kapasiteli (reach truck sınıfı) olmalıdır. Koridor genişliği ve raf yüksekliği bilgisi talep aşamasında sorulur; standart forklift bu koridorlarda dönemeyebilir.",
+            },
+            {
+                baslik: "Mermer blok ve plaka taşımada kapasite ve ataşman",
+                metin:
+                    "Mermer blokları ve kesilmiş plakalar, hacmine göre orantısız ağırdır ve standart çatal düzeniyle güvenli taşınamayabilir. Bu yük tipi için yüksek kapasiteli forklift ve gerektiğinde plaka taşıma ataşmanı (klemp) kullanılır. Blok ve plaka boyutu ile tahmini ağırlık önceden bilinmeden doğru kapasite belirlenemez; bu bilgi talep formunda standart olarak istenir.",
+            },
+            {
+                baslik: "Açık sahada ve stok alanında zemin durumu",
+                metin:
+                    "Mermer stok sahaları genellikle açık alandır ve zemin sıkıştırılmış toprak veya kısmen çakıllıdır; yağışlı dönemde bu zemin yumuşayabilir. Ağır yük taşıyan forkliftin bu zeminde güvenle çalışabilmesi için zemin taşıma gücü önceden değerlendirilir, gerekirse dört tekerden çekişli arazi tipi forklift tercih edilir.",
+            },
+            {
+                baslik: "İstifleme yüksekliği ve devrilme güvenliği",
+                metin:
+                    "Yüksek istifleme, özellikle depo raflarında ve blok stoklarında devrilme riskini artırır; forkliftin yük merkezi ve kaldırma yüksekliği, yükün ağırlık merkeziyle birlikte değerlendirilir. Blok istifinde her sıranın stabilitesi görsel olarak kontrol edilir; dengesiz görünen bir istifin üstüne yeni yük eklenmez, önce düzeltilir.",
+            },
+            {
+                baslik: "Kısa süreli ve dönemsel kiralama ihtiyacı",
+                metin:
+                    "Sezonluk sipariş artışı (tekstilde belirli dönemler, mermerde ihracat yoğunluğu) forklift ihtiyacını dönemsel olarak yükseltir. Bu dönemlerde kısa süreli ek forklift kiralamak, sabit yatırım yapmadan kapasiteyi geçici olarak artırmanın pratik yoludur. Yoğun döneme denk gelen taleplerde önceden rezervasyon önerilir; talep dönemi öncesinde bildirilirse uygun kapasitede makine ayrılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yük tipine göre forklift seçimi",
+                paragraflar: [
+                    "Denizli'deki iki ana yük profili ve bunlara uygun forklift sınıflarını aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yük tipi", "Ortam", "Ana kısıt", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Tekstil paleti", "Depo, dar koridor", "Raf yüksekliği", "Dar gövdeli reach truck"],
+                        ["Mermer bloğu", "Açık stok sahası", "Ağırlık, zemin", "Yüksek kapasiteli, arazi tipi"],
+                        ["Mermer plakası", "Kapalı/yarı açık atölye", "Düzensiz şekil", "Klemp ataşmanlı"],
+                        ["Karışık palet/koli", "Genel depo", "Standart koşul", "Standart dizel/LPG forklift"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapasite hesabında yaygın hata",
+                paragraflar: [
+                    "Forklift talebinde en sık yapılan hata, yükün ağırlığını tahminle bildirmektir. Mermer blokları özellikle boyuta göre orantısız ağır olabilir; görünüşte orta boy bir blok, standart forkliftin kapasitesini aşabilir.",
+                    "Bu riski önlemek için yük ağırlığını, mümkünse fatura veya sevk irsaliyesindeki gerçek değerle bildirmenizi öneririz. Kesin ağırlık bilinmiyorsa, boyut ve malzeme türünden yaklaşık hesap yapıp güvenlik payı bırakarak kapasite seçeriz.",
+                ],
+            },
+            {
+                baslik: "Operatörlü forklift tercih nedenleri",
+                paragraflar: [
+                    "Mermer sahalarında ve yüksek istifleme gerektiren depolarda operatörlü forklift kiralamayı öneririz; zira bu ortamlarda zemin ve yük dengesi deneyim gerektirir. Operatörümüz, sahanın zemin ve yük özelliklerine göre günlük çalışma hızını ayarlar.",
+                    "Kendi personeliniz forklift kullanacaksa, geçerli bir forklift operatörlüğü yeterlilik belgesi bulunması ve makinenin teslim anında saha eğitimini alması gerekir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mermer bloklarımızı taşıyacağız, hangi kapasitede forklift gerekir?",
+                cevap:
+                    "Kapasite, bloğun gerçek ağırlığına göre belirlenir; boyuttan tahmin etmek yanıltıcı olabilir çünkü mermer yoğunluğu hacme göre orantısız ağırdır. Mümkünse sevk irsaliyesindeki veya fatura üzerindeki ağırlık bilgisini paylaşın; bu yoksa boyut ve malzeme türünden güvenlik payı bırakarak hesap yaparız. Blok ve plaka taşımada standart çatal yeterli olmayabilir, bu durumda klemp ataşmanlı forklift öneririz.",
+            },
+            {
+                soru: "Depomuzdaki koridorlar dar, standart forklift dönebilir mi?",
+                cevap:
+                    "Koridor genişliğine bağlı; dar koridorlu depolarda standart forklift yerine dar gövdeli reach truck sınıfı tercih edilir, bu sınıf aynı raf yüksekliğine çok daha az yer kaplayarak ulaşır. Koridor genişliğini ve raf yüksekliğini santimetre cinsinden bilmemiz, doğru sınıfı ilk seferde belirlememizi sağlar.",
+            },
+            {
+                soru: "Stok sahamız açık ve zemin toprak, forklift saplanır mı?",
+                cevap:
+                    "Kuru ve sıkışmış toprakta standart forklift genellikle çalışır, ama yağışlı dönemde zemin yumuşayabilir ve ağır yüklü forklift gömülme riski taşıyabilir. Bu durumda dört tekerden çekişli arazi tipi forklift tercih edilir veya çalışma noktasına geçici plaka serilir. Son yağış durumunu ve zeminin genel karakterini önceden sormamız bu riski azaltır.",
+            },
+            {
+                soru: "Sezon yoğunluğunda ek forklift kısa süreliğine kiralanabilir mi?",
+                cevap:
+                    "Evet, bu tam olarak kısa süreli kiralamanın amaçlandığı senaryodur. Sabit bir yatırım yapmadan, yoğun dönemde kapasiteyi geçici olarak artırmak mümkündür. Yoğun döneme denk gelen talepleri mümkünse birkaç hafta önceden bildirmenizi öneririz; aksi hâlde aynı dönemde başka işletmelerin de benzer talebi olabileceğinden makine bulmak zorlaşabilir.",
+            },
+            {
+                soru: "Forkliftı kendi personelimiz kullanabilir mi?",
+                cevap:
+                    "Evet, personelinizin geçerli bir forklift operatörlüğü yeterlilik belgesi bulunması ve makinenin teslim anında saha eğitimini alması şartıyla mümkündür. Mermer sahaları gibi zemin ve yük riski taşıyan ortamlarda operatörlü kiralamayı öneririz; bu, özellikle ilk kez çalışılan sahalarda güvenlik açısından daha az risklidir.",
+            },
+            {
+                soru: "Plakaları düzensiz şekilli, standart çatalla taşınabilir mi?",
+                cevap:
+                    "Düzensiz veya geniş yüzeyli plakalarda standart çatal kayma riski taşıyabilir; bu durumlarda klemp (sıkıştırmalı) ataşman kullanılır, bu ataşman plakayı yanlardan kavrayarak taşır. Plakanın kalınlığını ve yüzey durumunu önceden bildirirseniz, uygun ataşmanlı forkliftin sahada hazır olmasını sağlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin ev tekstili depolama ve mermer blok/plaka işleme sanayii kamuya açık genel bilgidir; kapasite ve ataşman seçimi sektör geneli teknik bilgidir. Rakam veya tesis adı iddia edilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Denizli'de Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platformun asıl gücü, engelin üstünden aşarak veya yanından dolanarak hedefe ulaşabilmesidir — bu, Denizli'nin üç sektöründe de farklı bir engelle karşılaşır. Mermer fabrikalarında bu engel kesim hattının kendisidir: makine hattı durdurmadan, hattın dışından bom uzatarak servis noktasına ulaşır. Tekstil hollerinde engel, tavan altındaki kablo tavası ve kanal sıralarıdır; bom, bu engellerin arasından geçip hedefe yandan yaklaşabilir. Termal otel ve ticari cephelerde ise engel genellikle bina girintileri, tabela çıkıntıları veya saçaklardır — dikey bir makaslı bu çıkıntıların gerisine ulaşamazken eklemli bom rahatça arkasına geçer. Denizli'deki eklemli platform filomuz, hem elektrikli iç mekân modellerini hem dizel arazi tipi modelleri kapsar; hangisinin gideceği, sahanın kapalı mı açık mı olduğuna ve zemin türüne göre belirlenir.",
+        maddeler: [
+            {
+                baslik: "Mermer kesim hattının üstünden veya yanından erişim",
+                metin:
+                    "Kesim hattı çalışırken hattın üzerine fiziksel olarak konumlanmak güvenli değildir; eklemli bomlu makine, hattın dışına park edilip sepeti servis noktasına uzatarak bu sorunu çözer. Bu, hem hattı durdurmadan çalışmayı mümkün kılar hem de operatörü hareketli parçalardan uzak tutar. Uzanma mesafesi, hattın genişliğine göre önceden hesaplanır; yetersiz uzanma mesafesiyle gelen makine, hedefe ulaşamaz.",
+            },
+            {
+                baslik: "Tekstil holünde kablo tavası ve kanal engelleri arasında geçiş",
+                metin:
+                    "Dokuma ve konfeksiyon hollerinin tavan altı, birden fazla donanımın (kablo tavası, havalandırma kanalı, sprinkler borusu) iç içe geçtiği bir katmandır. Bu katmanda dikey bir makaslı platform doğrudan yukarı çıktığında bir engele takılabilir; eklemli bom ise önce yana, sonra yukarı hareket ederek bu engellerin arasından geçebilir. Bu esneklik, dar ve karmaşık tavan düzenlerinde eklemli sınıfı öne çıkarır.",
+            },
+            {
+                baslik: "Bina girinti ve çıkıntılarının arkasına ulaşma",
+                metin:
+                    "Otel cepheleri ve ticari binalarda sıkça görülen saçak, balkon çıkıntısı veya tabela gövdesi, dikey erişimi engeller. Eklemli bom, sepeti önce dışa sonra yukarı-içe hareket ettirerek bu çıkıntının arkasındaki yüzeye ulaşabilir. Bu tür işlerde çalışma noktasının tam konumu ve çıkıntının derinliği önceden bilinmesi, doğru uzanma mesafesine sahip modelin seçilmesini sağlar.",
+            },
+            {
+                baslik: "Açık saha ve stok sahasında dizel arazi tipi seçim",
+                metin:
+                    "Mermer ocağı çevresi ve blok stok sahaları gibi açık ve düzensiz zeminlerde elektrikli iç mekân modeli yeterli olmaz; bu sahalara dizel, dört tekerden çekişli eklemli bom gönderilir. Bu sınıf hem daha yüksek yer tutma kapasitesine hem daha güçlü tırmanma performansına sahiptir. Zemin eğimi, üretici tarafından belirlenen sınırla karşılaştırılır ve sınıra yakın durumlarda konumlandırma değiştirilir.",
+            },
+            {
+                baslik: "360 derece dönüş ile tek konumdan çoklu erişim",
+                metin:
+                    "Eklemli platformun sepeti genellikle 360 derece dönebilir; bu, makineyi tekrar tekrar konumlandırmadan aynı noktadan birden fazla yüzeye ulaşmayı mümkün kılar. Özellikle mermer fabrikasında hat boyunca dizilmiş birden fazla servis noktası varsa, bu özellik hem zaman kazandırır hem makinenin sahada gereksiz hareketini azaltır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre eklemli platform sınıfı",
+                paragraflar: [
+                    "Denizli'deki üç ana saha tipinde eklemli platform seçimini aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Engel tipi", "Zemin", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Mermer kesim hattı", "Hareketli ekipman", "Islak, düzensiz", "Dizel arazi tipi eklemli"],
+                        ["Tekstil holü tavanı", "Kanal, kablo tavası", "Beton, kuru", "Elektrikli iç mekân eklemli"],
+                        ["Otel/ticari cephe", "Saçak, tabela çıkıntısı", "Kaldırım, dar sokak", "Kompakt elektrikli eklemli"],
+                        ["Mermer ocak/stok sahası", "Blok istifi, eğim", "Toprak, çakıllı", "Dizel arazi tipi, geniş uzanma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Uzanma mesafesinin doğru hesaplanması",
+                paragraflar: [
+                    "Eklemli platform talebinde en kritik veri, yatay ve dikey uzanma mesafesidir — bu ikisi birlikte, makinenin bulunduğu noktadan hedefe ulaşıp ulaşamayacağını belirler. Yalnızca 'yükseklik' bilgisi vermek yeterli değildir; hedefin makineye olan yatay mesafesi de gereklidir.",
+                    "Bu bilgi net değilse, sahanın fotoğrafını ölçekli bir referansla (örneğin bilinen bir kapı yüksekliğiyle) birlikte paylaşmanız, uzaktan tahmini bir değerlendirme yapmamıza yardımcı olur; kesinleşmiş bir teklif için genellikle kısa bir keşif önerilir.",
+                ],
+            },
+            {
+                baslik: "Dizel ve elektrikli arasındaki seçim mantığı",
+                paragraflar: [
+                    "Kapalı alanlarda (tekstil holü, otel iç mekânı) egzoz gazı nedeniyle dizel makine kullanılmaz; elektrikli model zorunludur. Açık sahalarda (mermer ocağı, stok alanı) ise elektrikli modelin şarj süresi ve arazi kabiliyeti yetersiz kalabilir; dizel model burada standart tercihtir.",
+                    "Karma sahalarda — örneğin kapalı bir atölyeden açık bir stok alanına geçiş gerektiren işlerde — hangi bölümde ne kadar süre çalışılacağı önceden belirlenip buna göre karar verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mermer kesim hattımız çalışırken servis yapılabilir mi?",
+                cevap:
+                    "Güvenlik açısından önermediğimiz bir senaryo budur; hat çalışırken sepetten müdahale, hareketli parçalara yakınlık nedeniyle risklidir. Eklemli bomlu makine hattın dışına konumlanıp sepeti servis noktasına uzatabilir, ama bu da hattın en azından o segmentte durdurulmasını gerektirir. Kesin planlama için hattın hangi bölümünün ne zaman durdurulabileceğini üretim ekibinizle birlikte netleştiririz.",
+            },
+            {
+                soru: "Tavanımızda çok fazla kanal ve kablo var, makaslı yerine eklemli mi tercih etmeliyiz?",
+                cevap:
+                    "Genellikle evet. Dikey bir makaslı platform doğrudan yukarı çıktığı için karmaşık tavan düzeninde bir engele takılabilir; eklemli bom ise önce yana sonra yukarı hareket ederek bu engellerin arasından geçebilir. Tavan altındaki donanımın yoğunluğunu ve hedefin tam konumunu bildirirseniz, hangi sınıfın daha uygun olduğunu netleştiririz.",
+            },
+            {
+                soru: "Otelimizin saçağının arkasındaki yüzeye nasıl ulaşılır?",
+                cevap:
+                    "Eklemli bom, sepeti önce dışa sonra yukarı-içe hareket ettirerek çıkıntının arkasına ulaşabilir; dikey makaslı bu manevrayı yapamaz. Çıkıntının derinliğini ve hedefin yüksekliğini bilmemiz, doğru uzanma mesafesine sahip modelin seçilmesini sağlar. Kaldırım veya sokak genişliği de makinenin konumlanacağı noktayı etkiler, bu bilgiyi de talep aşamasında sorarız.",
+            },
+            {
+                soru: "Ocak çevresindeki açık sahada elektrikli makine kullanılabilir mi?",
+                cevap:
+                    "Kullanılabilir ama genellikle önermeyiz; açık ve geniş sahalarda elektrikli modelin şarj süresi ve arazi kabiliyeti dizel modele göre daha sınırlıdır. Bu sahalarda standart tercihimiz dizel, dört tekerden çekişli eklemli platformdur. Sahanız kapalı bir atölye ile açık bir alan arasında geçiş gerektiriyorsa, bu durumu önceden bildirin, karma bir plan çıkaralım.",
+            },
+            {
+                soru: "Aynı noktadan birden fazla yüzeye ulaşmamız gerekiyor, makineyi sürekli taşımak mı gerekir?",
+                cevap:
+                    "Hayır, eklemli platformun sepeti genellikle 360 derece dönebildiği için tek bir konumdan birden fazla yüzeye ulaşmak mümkündür. Bu, özellikle mermer fabrikasında hat boyunca dizilmiş birden fazla servis noktası olduğunda zaman kazandırır. Çalışma noktalarının konumunu önceden paylaşırsanız, makinenin en az hareketle en çok noktaya ulaşacağı bir sıralama öneririz.",
+            },
+            {
+                soru: "Eklemli platform ile makaslı platform arasındaki fark nedir, hangisini seçmeliyiz?",
+                cevap:
+                    "Makaslı platform yalnızca dikey hareket eder ve genellikle daha geniş bir sepet sunar; eklemli platform ise yatay ve dikey hareketi birleştirir, engellerin üstünden veya yanından dolanabilir. Hedefe doğrudan altından ulaşabiliyorsanız makaslı yeterlidir; hedef bir engelin arkasında veya yanındaysa eklemli gerekir. Çalışma noktasının konumunu tarif ederseniz, hangisinin uygun olduğunu birlikte netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin mermer işleme ve tekstil sanayii kamuya açık genel bilgidir; makine sınıfı ve uzanma mesafesi değerlendirmesi sektör geneli teknik bilgidir. Rakam veya tesis adı iddia edilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Denizli'de İç Mekân ve Depo İçi Platform Kiralama",
+        giris:
+            "Denizli'nin iç mekân platform talepleri üç ayrı bina tipinden gelir ve her biri farklı bir öncelik taşır. Tekstil depolarında öncelik dar koridorda manevra ve raf üstü erişimdir; buradaki zemin genellikle düz betondur ama koridor genişliği dardır. Termal otellerin iç mekânlarında öncelik sessizlik ve iz bırakmamaktır — halı, mermer veya parke zeminde tekerlek izi kabul edilmez ve misafir trafiğinin kesilmemesi beklenir. Mermer fabrikalarının kapalı bölümlerinde (örneğin cilalama veya paketleme atölyeleri) öncelik ise toz kontrolüdür; hassas yüzeylere toz bulaşmaması için makine önceden temizlenmiş olmalıdır. Bu üç öncelik birbirinden farklı olsa da ortak bir teknik zorunluluk paylaşırlar: kapalı alanda egzoz gazı üretilemeyeceği için üçünde de akülü, elektrikli makine kullanılır.",
+        maddeler: [
+            {
+                baslik: "Tekstil deposunda raf üstü ve koridor erişimi",
+                metin:
+                    "Depo raflarının üst katmanlarında yapılan sayım, etiketleme veya aydınlatma işlerinde, makinenin raf koridoruna sığması ve raf yüksekliğine ulaşması birlikte değerlendirilir. Standart makaslı platform dar koridorlarda dönemeyebilir; bu durumda dar gövdeli veya dikey sınıf tercih edilir. Koridor genişliği ve raf yüksekliği talep aşamasında santimetre cinsinden sorulur.",
+            },
+            {
+                baslik: "Otel iç mekânında iz bırakmama zorunluluğu",
+                metin:
+                    "Otel lobisi, restoran veya koridorlarında çalışan platformun tekerlekleri, zemin kaplamasına (mermer, parke, halı) zarar vermemelidir; bu nedenle bu sahalara giden makinelerde iz bırakmayan (non-marking) tekerlek zorunludur. Ayrıca makinenin geçiş güzergâhı, misafir trafiğinin en az olduğu saatlere ve rotalara göre önceden planlanır.",
+            },
+            {
+                baslik: "Mermer fabrikasının hassas bölümlerinde toz kontrolü",
+                metin:
+                    "Cilalama ve paketleme gibi bölümlerde yüzey hassasiyeti yüksektir; dışarıdan toz veya çamur taşıyan bir makine bu bölüme zarar verebilir. Bu sahalara gönderilen platformlar önceden temizlenir ve tekerlek yüzeyleri girişte kontrol edilir. Çalışma sırasında da alan mümkünse geçici örtüyle korunur.",
+            },
+            {
+                baslik: "Akülü modelin şarj planlaması",
+                metin:
+                    "Kapalı alanlarda dizel kullanılamayacağı için akülü platform standarttır; uzun süreli işlerde şarj noktası ve zamanı önceden planlanır. Otel gibi misafir trafiği olan sahalarda şarj işlemi, mümkünse görünmeyen bir noktada ve düşük yoğunluklu saatte yapılır.",
+            },
+            {
+                baslik: "Çalışma sırasında üretim veya işletmenin durmadan devam etmesi",
+                metin:
+                    "Depo, otel veya atölye — hiçbiri platform çalışması nedeniyle tamamen durmak istemez. Çalışma alanı bariyerle ayrılır, geçiş güzergâhları önceden belirlenir ve makine, ana trafiği kesmeyecek şekilde konumlandırılır. Kıvılcım veya toz üreten işler bu kuralın istisnasıdır ve bunlar ayrı bir pencereye planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bina tipine göre iç mekân platform önceliği",
+                paragraflar: [
+                    "Üç bina tipinin iç mekân platform talebindeki öncelik farkını aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bina tipi", "Öncelik", "Zemin", "Ek önlem"],
+                    satirlar: [
+                        ["Tekstil deposu", "Koridor/raf erişimi", "Beton", "Dar gövdeli sınıf"],
+                        ["Termal otel", "İz bırakmama, sessizlik", "Mermer/parke/halı", "Non-marking tekerlek"],
+                        ["Mermer atölyesi (cilalama vb.)", "Toz kontrolü", "Beton, hassas yüzey", "Ön temizlik, örtü"],
+                        ["Ticari iş hanı", "Dar geçiş, gün içi trafik", "Karışık", "Saat kısıtlı çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Non-marking tekerleğin önemi",
+                paragraflar: [
+                    "Standart tekerlek, özellikle koyu renkli lastik kullanan modellerde açık renkli zeminlerde iz bırakabilir. Otel ve benzeri hassas iç mekânlarda bu, görünür bir hasar olarak kabul edilir ve müşteri memnuniyetsizliğine yol açar.",
+                    "Bu nedenle iç mekân sınıfı platformlarımızda standart olarak iz bırakmayan tekerlek bulunur; yine de teslimattan önce zemin tipini bilmemiz, doğru modelin gönderilmesini garanti eder.",
+                ],
+            },
+            {
+                baslik: "Şarj planlamasının iş süresine etkisi",
+                paragraflar: [
+                    "Akülü platformun çalışma süresi, kapasitesine ve iş yüküne göre değişir; tam gün süren işlerde ara şarj gerekebilir. Bu ihtiyacı önceden planlamak, işin ortasında beklenmedik bir duraksamayı önler.",
+                    "Otel gibi misafir trafiği olan sahalarda şarj noktasını görünmeyen bir alanda (personel koridoru, teknik oda yakını) belirlemek, hem estetik hem operasyonel açıdan daha uygun bir çözümdür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzdaki raflar çok dar aralıklı, hangi platform önerirsiniz?",
+                cevap:
+                    "Dar koridorlu depolarda dar gövdeli veya dikey sınıf akülü platform tercih edilir; bu sınıf standart makaslıya göre belirgin ölçüde daha az yer kaplayarak koridorlarda rahat manevra yapar. Koridor genişliği ve raf yüksekliğini santimetre cinsinden bildirmeniz, doğru sınıfı ilk seferde belirlememizi sağlar.",
+            },
+            {
+                soru: "Otelimizin mermer zemininde tekerlek izi kalır mı?",
+                cevap:
+                    "Standart olarak iç mekân sınıfı platformlarımızda iz bırakmayan (non-marking) tekerlek kullanılır, bu yüzden doğru zemin bilgisiyle gönderilen makine mermer veya parke zeminde iz bırakmaz. Yine de zemin tipini (mermer, parke, halı) önceden bildirmeniz, doğru tekerlek özelliğine sahip modelin sahaya gitmesini garanti eder.",
+            },
+            {
+                soru: "Cilalama atölyemizde toz çok kritik, makine bulaşma riski taşır mı?",
+                cevap:
+                    "Bu tür hassas bölümlere gönderdiğimiz makineler sevkiyat öncesi ayrıca temizlenir ve tekerlek yüzeyleri girişte kontrol edilir; dışarıdan gelen toz veya çamur üretim alanına taşınmaz. Çalışma sırasında alanı mümkünse geçici örtüyle koruruz. Bölümünüzün hijyen/hassasiyet gereksinimini önceden bildirirseniz, buna uygun ek önlemleri planımıza ekleriz.",
+            },
+            {
+                soru: "İşimiz tam gün sürecek, akü yetmezse ne olur?",
+                cevap:
+                    "Uzun süreli işlerde şarj ihtiyacını önceden planlarız; kapasiteye göre gerekiyorsa ara şarj için uygun bir zaman dilimi ayrılır veya yedek akülü model tercih edilir. Otel gibi misafir trafiği olan sahalarda şarj noktasını görünmeyen bir alanda belirleriz, böylece iş akışı ve estetik birlikte korunur.",
+            },
+            {
+                soru: "Çalışma sırasında işletmemiz durmadan devam edebilir mi?",
+                cevap:
+                    "Çoğu iç mekân işinde evet. Çalışma alanı bariyerle ayrılır, geçiş güzergâhları önceden belirlenir ve makine ana trafiği kesmeyecek şekilde konumlandırılır. Kıvılcım veya toz üreten işler istisnadır ve bunlar ayrı bir pencereye planlanır; hangi kalemin hangi koşulda yapılacağını keşifte netleştiririz.",
+            },
+            {
+                soru: "Makineyi hangi saatlerde çalıştırmalıyız, gündüz mü gece mi?",
+                cevap:
+                    "Bu, bina tipine göre değişir. Depo işlerinde genellikle mesai saatleri uygundur; otel gibi misafir trafiği olan sahalarda ise düşük doluluk saatleri (gece geç veya erken sabah) tercih edilir. Sizin işletme ritminize göre en az kesintiyle tamamlanacak saat aralığını birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin tekstil deposu, termal otel ve mermer atölyesi çeşitliliği kamuya açık genel bilgidir; iç mekân ekipman seçimi sektör geneli teknik bilgidir. Tesis adı veya rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Denizli'de Çelik Konstrüksiyon Montaj Platformu Kiralama",
+        giris:
+            "Çelik konstrüksiyon montajı, Denizli'nin sanayi büyümesinin en görünür işidir — yeni bir tekstil fabrikası, mermer işleme atölyesi veya lojistik depo inşa edilirken, çatı aşıkları, cephe kirişleri ve panel montajı haftalarca süren bir yükseklik işi yaratır. Bu iş türü, tek seferlik bakımdan farklı bir planlama ister: makine haftalarca-aylarca sahada kalır, montaj ekibiyle birlikte hareket eder ve inşaatın ilerleme hızına göre konum değiştirir. Denizli'deki OSB'lerin (Honaz, Denizli merkez, çevre il OSB'leri) yeni yatırım parsellerinde bu tür montaj işleri düzenli olarak devam eder; iskelet dikimi tamamlandıktan sonra devreye giren cephe paneli, çatı ışıklığı ve iç tesisat askı sistemleri, farklı yükseklik ve erişim gereksinimleri taşıyan ayrı iş kalemleridir. Bu sayfada çelik konstrüksiyon montajının hangi aşamasında hangi makinenin kullanıldığını, uzun süreli şantiye kiralamasının nasıl kurulduğunu ve montaj sahasına özgü güvenlik önceliklerini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İskelet üzerinde kaynak ve bulon sıkma işleri",
+                metin:
+                    "Çelik iskeletin ana taşıyıcı elemanları dikildikten sonra, birleşim noktalarındaki kaynak dikişleri ve bulon bağlantıları kontrol ve sıkım gerektirir. Bu iş, sabit bir noktada uzun süre kalmayı ve hassas konumlandırma gerektirdiği için eklemli bomlu platform tercih edilir — sepet, kirişin altından veya yanından yaklaşarak kaynakçının rahat çalışmasını sağlar. Şantiye zemini henüz düzenlenmemiş olabileceği için makine dizel, arazi tipi sınıftan seçilir.",
+            },
+            {
+                baslik: "Cephe paneli montajında yatay hareket ve destek",
+                metin:
+                    "Cephe kaplama panelleri, genellikle yerden yukarı doğru sıra sıra monte edilir ve her panel sırası için makinenin yatay olarak kaydırılması gerekir. Bu aşamada platform hem panel montaj ekibine fiziksel destek sağlar hem de panelin geçici olarak tutulmasına yardımcı olabilir. Rüzgârlı günlerde geniş yüzeyli panel taşıma işlemi durdurulur; bu, üretici tarafından belirlenen rüzgâr sınırının bir sonucudur.",
+            },
+            {
+                baslik: "Çatı ışıklığı ve aşık montajında yüksek erişim",
+                metin:
+                    "Çatı düzlemindeki ışıklık pencereleri ve aşık bağlantıları, binanın en yüksek noktasında yer alır ve bu noktaya ulaşım genellikle geniş açıklıklı bir hol içinden yapılır. Çalışma yüksekliği ve makinenin gireceği açıklık (henüz duvar örülmemiş bir yapıdaysa bu daha esnektir, kapalı bir yapıdaysa kapı ölçüsü kısıt olur) önceden netleştirilir.",
+            },
+            {
+                baslik: "İç tesisat askı sistemlerinin kurulumu",
+                metin:
+                    "Yapı kapalı hâle geldiğinde, iç mekân üzerinde elektrik kablo tavası, havalandırma kanalı ve sprinkler hattı gibi askı sistemlerinin montajı başlar. Bu aşamada dış cephe için kullanılan dizel makineden farklı olarak, kapalı alan için akülü elektrikli platform devreye girer. Montaj sırası genellikle dıştan içe doğru ilerlediği için makine sınıfı da bu sırayla değişir.",
+            },
+            {
+                baslik: "Uzun süreli şantiye kiralamasında bakım ve ikame planı",
+                metin:
+                    "Haftalarca süren montaj projelerinde makine sürekli sahada kalır; bu süre boyunca periyodik bakım, yağ-filtre kontrolü ve gerektiğinde ikame makine planı sözleşmeye baştan yazılır. Şantiyede duran bir makine, montaj takviminin tamamını geciktirebileceği için arıza durumunda ikame süresi net olarak tanımlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre makine ve ölçüm tablosu",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajının farklı aşamalarında kullanılan makine sınıfını ve dikkat edilecek noktaları aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj aşaması", "Tipik iş", "Zemin/ortam", "Önerilen sınıf"],
+                    satirlar: [
+                        ["İskelet birleşimi", "Kaynak, bulon sıkma", "Düzenlenmemiş şantiye zemini", "Dizel arazi tipi eklemli"],
+                        ["Cephe paneli", "Panel montaj desteği", "Açık saha, rüzgâr etkisi", "Dizel eklemli, geniş uzanma"],
+                        ["Çatı ışıklığı/aşık", "Yüksek nokta montajı", "Geniş açıklıklı hol", "Dizel veya elektrikli eklemli"],
+                        ["İç tesisat askı sistemi", "Kablo tavası, kanal", "Kapalı, tamamlanmış zemin", "Akülü makaslı/eklemli"],
+                        ["Kabul ve eksik listesi", "Detay kontrol turu", "Karışık", "Kompakt eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiye zemininin montaj boyunca değişmesi",
+                paragraflar: [
+                    "İnşaat sahasının zemini, projenin ilerleme aşamasına göre değişir — başlangıçta düzensiz ve toprak olan zemin, montaj ilerledikçe kısmen düzenlenir ve sonunda beton döşenir. Bu değişim, makine sınıfının da zamanla değişebileceği anlamına gelir: erken aşamada arazi tipi dizel makine gerekirken, geç aşamada standart elektrikli makine yeterli olabilir.",
+                    "Uzun süreli şantiye sözleşmelerinde bu geçişi önceden konuşuruz; zemin beton döşendiğinde makine değişimi, ek bir sevkiyat maliyeti doğurmadan planlanan bir aşama olarak yürütülür.",
+                ],
+            },
+            {
+                baslik: "Yüklenici ile tek elden koordinasyon",
+                paragraflar: [
+                    "Montaj takvimi projeler boyunca sıkça kayar — malzeme teslim gecikmesi, hava koşulu veya önceki aşamanın uzaması gibi nedenlerle. Bu değişkenlik, tek bir muhatapla (genellikle yüklenici firma) çalışmayı avantajlı kılar; süre uzatma-kısaltma taleplerini hızlı yönetebiliriz.",
+                    "Uzun süreli montaj kiralamalarında haftalık kullanım raporu sunarız: hangi makine hangi cephede kaç gün çalıştı. Montaj bitiminde aynı ekipmanla kabul turu yapılır; cephe derzleri, oluk hatları ve ışıklık detayları sepetten kontrol edilip varsa eksik listesi çıkarılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni fabrika inşaatımızın çelik iskeleti dikildi, hangi makineyle devam edilir?",
+                cevap:
+                    "Kaynak ve bulon sıkma gibi iskelet birleşim işlerinde eklemli bomlu platform tercih edilir; sepet, kirişin altından veya yanından yaklaşarak hassas konumlandırma sağlar. Şantiye zemini henüz düzenlenmemişse dizel, arazi tipi sınıf gerekir. İskeletin toplam yüksekliğini ve zemin durumunu bildirirseniz, uygun uzanma mesafesine sahip modeli öneririz.",
+            },
+            {
+                soru: "Cephe panellerini monte ederken rüzgâr işi durdurur mu?",
+                cevap:
+                    "Evet, bomlu makinelerin üretici tarafından belirlenmiş rüzgâr sınırları vardır ve özellikle geniş yüzeyli panel taşınırken bu sınır daha erken devreye girer. Açık sahada çalışırken rüzgâr, gün içinde artabileceği için işleri mümkünse sabah saatlerine yoğunlaştırmayı öneririz. Rüzgâr nedeniyle duran bir iş, takvime önceden eklenen bir hava payıyla telafi edilir.",
+            },
+            {
+                soru: "Montaj haftalarca sürecek, makineyi sürekli kiralık mı tutmalıyız?",
+                cevap:
+                    "Uzun süreli montaj projelerinde bu en pratik yoldur; makine sahada sürekli kalır ve periyodik bakım, yağ-filtre kontrolü sözleşmeye baştan yazılır. Arıza durumunda ikame makine süresi net tanımlanır — şantiyede duran makine, montaj takviminin tamamını geciktirebileceği için bu maddeyi özellikle önemsiyoruz.",
+            },
+            {
+                soru: "Şantiye zemini montaj ilerledikçe değişiyor, makine de değişir mi?",
+                cevap:
+                    "Evet, zemin beton döşendiğinde erken aşamada kullanılan arazi tipi dizel makineden standart elektrikli makineye geçiş yapılabilir. Bu geçişi sözleşme başında konuşuruz; zemin durumu değiştiğinde makine değişimi, ek sevkiyat maliyeti doğurmadan planlanan bir aşama olarak yürütülür.",
+            },
+            {
+                soru: "Yüklenici firma bizim adımıza mı kiralayacak, yoksa biz mi doğrudan anlaşmalıyız?",
+                cevap:
+                    "İki model de mümkün ama tek elden kiralamayı öneririz; montaj takvimi kaydığında makine ihtiyacı da kayar ve tek muhatap bu esnekliği sorunsuz yönetir. Yükleniciyle doğrudan çalıştığımız işlerde, işveren adına haftalık kullanım raporu veririz — hangi makine hangi cephede kaç gün çalıştı, bu şekilde şeffaf takip sağlanır.",
+            },
+            {
+                soru: "Montaj bittiğinde kontrol nasıl yapılır?",
+                cevap:
+                    "Montaj bitiminde aynı ekipmanla bir kabul turu yaparız; cephe derzleri, oluk hatları ve çatı ışıklığı detayları sepetten kontrol edilir ve varsa eksik listesi çıkarılır. Bu tur, yüklenici veya işveren temsilcisiyle birlikte planlanır ki tespit edilen eksikler üzerinde ortak bir kayıt oluşsun.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli OSB'lerinde sanayi yatırımlarının sürmesi ve çelik konstrüksiyon montajının bu yatırımların standart inşa yöntemi olması kamuya açık genel bilgidir; aşama bazlı makine seçimi ve sözleşme düzeni firma pratiğidir. Tesis adı veya rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Denizli'de Tarım ve Silo Sahası Platform Kiralama",
+        giris:
+            "Denizli'nin tarımsal üretimi, Çivril ve çevresindeki ovada yoğunlaşır ve buradaki yüksekte çalışma talepleri, sanayi hollerinden bambaşka bir dünyadan gelir: tahıl silolarının dikey gövdeleri, soğuk hava depolarının panel ve ünite bakımı, açık arazideki sulama-enerji hatları. Bu yapıların ortak özelliği mevsimselliktir — hasat öncesi hazırlık ve hasat sonrası temizlik dönemlerinde talep belirgin biçimde yükselir, iki dönem arasında düşer. İkinci ortak özellik ise açık saha veya yarı açık yapı olmalarıdır; silo çevresi ve arazi hatları, sanayi holündeki gibi kontrollü bir ortam sunmaz, zemin toprak veya çakıllıdır ve hava koşulu doğrudan iş planını etkiler. Bu sayfada silo, soğuk hava deposu ve açık arazi hatlarında platform kiralamanın nasıl planlandığını, hangi ekipmanın hangi yapıya gittiğini ve hasat takviminin kiralama sırasına nasıl yansıdığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Silo gövdesinde dikey erişim ve dizilim kısıtı",
+                metin:
+                    "Silo gövdeleri, dar taban alanına oturan yüksek ve dairesel bir yüzey sunar; üst kapak mekanizmaları, seviye sensörleri ve kaynak dikişleri düzenli kontrol ister. Silolar birbirine yakın dizildiğinde aralarındaki boşluk makineye yer bırakmaz; bu durumda uzanma mesafesi yüksek eklemli bomlu makine, dizinin dışına konumlanarak sepeti yandan uzatır. Silo çevresindeki zemin genellikle betondur ama tahıl tozu birikimi kaygan bir yüzey oluşturabilir.",
+            },
+            {
+                baslik: "Soğuk hava deposunda düşük sıcaklık koşulu",
+                metin:
+                    "Depo içindeki panel derzleri ve tavan üstü evaporatör üniteleri düzenli bakım ister; ancak düşük sıcaklık, ekipmanı da etkiler — akü kapasitesi soğukta belirgin biçimde düşer ve hidrolik yağ koyulaşır. Bu nedenle depo işlerini, ünite kapatıldıktan sonra sıcaklığın kabul edilebilir seviyeye geldiği pencerede yapmayı öneririz; uzun süreli işlerde yedek akü veya ara şarj planı kurulur.",
+            },
+            {
+                baslik: "Açık arazi hattında zemin ve ürün hasarı riski",
+                metin:
+                    "Sulama ve enerji hatlarının bakımı, çoğu zaman tarla içinden geçilerek yapılır; sulanmış toprakta standart makine ilerleyemez ve gömülme riski taşır. Kuru dönem tercih edilir, zorunlu hâllerde geçiş plakası kullanılır. Ekim yapılmış alanlarda güzergâh, ürün hasarını en aza indirecek şekilde arazi sahibiyle birlikte belirlenir.",
+            },
+            {
+                baslik: "Hasat takvimine bağlı talep yoğunluğu",
+                metin:
+                    "Tarımsal ilçelerde ekipman talebi düz bir çizgi izlemez; hasat öncesi hazırlık döneminde depo ve silo bakımları yığılır, hasat sonrasında temizlik ve onarım işleri gelir. Bu iki tepe arasında talep gözle görülür şekilde düşer. Bakım işini sakin döneme çekebilen işletmeler, hem daha geniş makine seçeneği hem daha rahat bir takvim bulur.",
+            },
+            {
+                baslik: "Paketleme ve işleme hatlarında hijyen kısıtı",
+                metin:
+                    "Tarımsal ürünlerin işlendiği paketleme hatlarında, bandın üstünde çalışırken düşen parça veya toz kabul edilemez. Bu işlerde koruyucu örtü serilir, sepet altına damlama önleyici tabla konur ve mümkün olduğunda çalışma üretim durduğunda yapılır. Bu düzeni işletmenin talep etmesini beklemeyiz, standart olarak uygularız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarımsal yapı tipine göre platform seçimi",
+                paragraflar: [
+                    "Denizli'nin tarımsal bölgesindeki yapı tiplerini ve buna uygun platform sınıfını aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı", "Ana kısıt", "Zemin/ortam", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Tahıl silosu", "Dar taban, dairesel yüzey", "Beton, tahıl tozu", "Uzanmalı eklemli"],
+                        ["Soğuk hava deposu", "Düşük sıcaklık", "Kapalı, beton", "Akülü, ara şarj planlı"],
+                        ["Açık arazi hattı (sulama/enerji)", "Toprak zemin, ürün hasarı", "Değişken", "Arazi tipi, kuru dönem"],
+                        ["Paketleme hattı", "Hijyen kuralları", "Kapalı, hassas", "Damlama önleyici zorunlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat penceresinde erken rezervasyonun önemi",
+                paragraflar: [
+                    "Hasat öncesi ve sonrası dönemler, bölgedeki birçok işletmenin aynı haftalarda benzer bakım ihtiyacı duyduğu zamanlardır. Bu yoğunlukta makine bulmak zorlaşabilir; bu yüzden hasat penceresine denk gelen işleri en az birkaç hafta önceden ayırtmanızı öneririz.",
+                    "Alternatif ve genellikle daha ekonomik olan yol, planlı bakım işlerini sakin döneme çekmektir — hem makine seçeneği geniştir hem iş acele ettirilmeden yapılır. Yıllık bakım planınızı paylaşırsanız, uygun makineyi tarihe göre önceden rezerve ederiz.",
+                ],
+            },
+            {
+                baslik: "Soğukta akü ve hidrolik performansı",
+                paragraflar: [
+                    "Düşük sıcaklıkta akü kapasitesi belirgin biçimde azalır; normal koşulda tam gün süren bir iş, soğukta çok daha erken şarj isteyebilir. Hidrolik yağ da soğukta koyulaşır, hareketler yavaşlar ve makine ilk çalışmada ısınma süresi ister.",
+                    "Bu iki gerçek iş planını doğrudan etkiler; pratik çözümümüz işi ünite kapatıldıktan sonraki uygun sıcaklık penceresinde yapmak ve makineyi mola aralarında dışarı çekmektir. Uzun süreli depo işlerinde yedek akü seti bu riski ortadan kaldırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silolarımız yan yana dizili, aralarında makineye yer yok; nasıl çalışılır?",
+                cevap:
+                    "Bu geometride çözüm aradan girmek değil dışarıdan uzanmaktır; yatay uzanma mesafesi yüksek eklemli bomlu makine, silo dizisinin dışına konumlanır ve sepet gövde yüzeyine yandan ulaşır. Gerekli uzanma mesafesini belirlemek için silo çapını, dizideki sıra sayısını ve çalışılacak kotu bilmemiz gerekir. Bu bilgilerle sınıf seçimi tek turda netleşir.",
+            },
+            {
+                soru: "Soğuk hava deposunun içinde çalışacağız, makine soğukta sorun çıkarır mı?",
+                cevap:
+                    "Çıkabilir ama planlamayla önlenir; düşük sıcaklıkta akü kapasitesi düşer ve hidrolik hareketler yavaşlar. Depo işlerini, ünite kapatıldıktan sonra sıcaklığın yükseldiği pencerede yapmayı öneririz. Uzun süreli işlerde ara şarj veya yedek akü planı kurarız — deponuzun çalışma sıcaklığını ve tahmini iş süresini bildirirseniz, uygun kapasiteli makineyi birlikte belirleriz.",
+            },
+            {
+                soru: "Tarla içindeki sulama hattına ulaşmamız gerekiyor, makine araziye girebilir mi?",
+                cevap:
+                    "Zemin durumuna bağlı; kuru ve sıkışmış toprakta arazi tipi makineler rahat ilerler, sulanmış veya yeni sürülmüş toprakta gömülme riski yüksektir ve bu koşulda giriş yapılmaz. Ekili alanlarda güzergâh, ürün kaybını en aza indirecek şekilde arazi sahibiyle birlikte belirlenir. Zemin fotoğrafı ve son yağış bilgisiyle gelen taleplerde, sahaya çıkmadan önce net cevap verebiliriz.",
+            },
+            {
+                soru: "Hasat döneminde makine bulmak zor mu?",
+                cevap:
+                    "Talep o dönemde belirgin biçimde yükselir; depo ve silo bakımları hasat öncesine yığıldığı için aynı haftalarda birden çok işletme benzer sınıf makine ister. Bu yüzden hasat penceresine denk gelen işleri en az birkaç hafta önceden ayırtmanızı öneririz. Alternatif olarak bakım kalemlerini sakin döneme çekmek, hem geniş makine seçeneği hem rahat bir takvim sağlar.",
+            },
+            {
+                soru: "Paketleme hattımızın üstünde çalışacaksınız, hijyen nasıl korunuyor?",
+                cevap:
+                    "Hattın üstünde hiçbir şey serbest bırakılmaz; el aletleri bağlanır, küçük parçalar kapalı kapta taşınır, sepet altına damlama önleyici tabla konur. Mümkün olan her durumda bu işler üretim durduğunda yapılır. Planlı temizlik duruşunuz varsa bu tür işleri o pencereye yazmak en verimli yoldur; hat zaten boştur ve iş ek bir duruş maliyeti üretmez.",
+            },
+            {
+                soru: "Küçük bir çiftlik işletmesiyiz, tek bir iş için kiralama pahalı olmaz mı?",
+                cevap:
+                    "Maliyetin büyük kısmı nakliyeden gelir, bu yüzden tek küçük iş için ayrı sevkiyat en pahalı senaryodur. İşlerinizi biriktirip tek periyotta yapmak (depo bakımı, silo kontrolü, aydınlatma gibi) toplam maliyeti belirgin düşürür. Tarih esnekliğiniz varsa, aynı bölgeye giden başka bir sevkiyata eklenebildiğimizde nakliye payı da bölünür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin Çivril ve çevresindeki tarımsal üretim yoğunluğu kamuya açık genel bilgidir; silo/depo bakım pratiği ve mevsimsel talep gözlemi sektör geneli teknik bilgidir. Rakam veya tesis adı iddia edilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Denizli'de Enerji ve Aydınlatma Bakım Platformu Kiralama",
+        giris:
+            "Denizli'de enerji ve aydınlatma bakımı üç farklı sahadan talep görür: OSB'lerdeki fabrika içi ve dış aydınlatma direkleri, Sarayköy hattındaki jeotermal santrallerin elektrik altyapısı, ve şehir merkezi ile ilçelerdeki ticari cephe-tabela aydınlatmaları. Bu üç sahanın ortak paydası, çalışmanın genellikle elektrik hattına yakın yapılmasıdır — bu da standart yükseklik işinden farklı bir güvenlik katmanı ekler: hangi hattın enerjili olduğu, hangi devrenin izole edildiği önceden teyit edilmeden sepet o kota çıkmaz. Sahalar arasındaki fark ise ortamdadır: OSB'de zemin düzdür ve iş genellikle planlı, jeotermal sahada zemin düzensiz ve sıcaklık/nem etkisi vardır, ticari cephede ise dar sokak ve gün içi trafik kısıtı öne çıkar. Bu sayfada enerji ve aydınlatma bakımının bu üç sahadaki farklı görünümünü ve ortak güvenlik kurallarını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB içi ve dış aydınlatma direklerinde planlı bakım",
+                metin:
+                    "Fabrika sahalarındaki aydınlatma direkleri ve dış cephe armatürleri, düzenli değişim ve temizlik ister; bu işler genellikle planlı bir bakım takvimine bağlıdır. Direk yüksekliği ve saha içi ulaşım (forklift trafiği, iç yol genişliği) önceden bilindiğinde, uygun sınıf makine hızlıca belirlenir. Enerjili hatlara yakın çalışmalarda ilgili devrenin izole edildiği yazılı olarak teyit edilir.",
+            },
+            {
+                baslik: "Jeotermal sahada elektrik altyapısı bakımı",
+                metin:
+                    "Santral ve kuyu başı tesislerindeki elektrik pano ve hat bakımları, hem elektrik riski hem saha koşulu (nem, mineral birikimi, düzensiz zemin) açısından ek dikkat ister. Bu sahalarda çalışma izni süreci, tesisin kendi prosedürüne göre işletilir; hangi hattın enerjili olduğu teyit edilmeden çalışma başlamaz. Makine, kaçış yolu açık kalacak şekilde konumlandırılır.",
+            },
+            {
+                baslik: "Ticari cephe ve tabela aydınlatmasında dar sokak kısıtı",
+                metin:
+                    "Şehir merkezi ve ilçe caddelerindeki tabela ve cephe aydınlatması işlerinde asıl kısıt, elektrik riskinden çok dar sokak ve gün içi yaya-araç trafiğidir. Bu noktalarda kompakt sınıf makineler tek şerit işgaliyle konumlanır; işgal izni gereken caddelerde belediye süreci iş planına baştan yazılır.",
+            },
+            {
+                baslik: "Enerjili hatta yakın çalışmanın teyit süreci",
+                metin:
+                    "Elektrik hattına yakın her işte, hangi hattın enerjili olduğu ve hangi devrenin kapatıldığı, ilgili sorumluyla (fabrika elektrik ekibi, santral operasyon ekibi veya belediye) önceden yazılı olarak teyit edilir. Bu teyit gelmeden sepet o kota çıkmaz; bu, tartışmaya açık olmayan tek kuraldır.",
+            },
+            {
+                baslik: "Aydınlatma armatürü değişiminde tip ve montaj uyumu",
+                metin:
+                    "Armatür değişimi, çoğunlukla eski model bir armatürün yerine LED veya yeni nesil bir modelin takılmasıdır; montaj noktasının mevcut kablo ve braket yapısıyla uyumlu olup olmadığı önceden kontrol edilir. Bu bilgi belirsizse, ilk ziyarette bir keşif yapılıp ikinci ziyarette montaj tamamlanır; bu iki aşamalı yaklaşım, sahada gereksiz bekleme süresini önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre enerji-aydınlatma bakım koşulları",
+                paragraflar: [
+                    "Üç ana sahadaki enerji ve aydınlatma bakım işlerinin farkını aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Tipik iş", "Ana risk", "Ek önlem"],
+                    satirlar: [
+                        ["OSB / fabrika sahası", "Direk, armatür değişimi", "Enerjili hat", "Devre izolasyon teyidi"],
+                        ["Jeotermal santral/kuyu başı", "Pano, hat bakımı", "Nem, düzensiz zemin", "Kaçış yolu açık tutulur"],
+                        ["Ticari cadde/tabela", "Aydınlatma, tabela", "Yaya/araç trafiği", "İşgaliyet izni önceden alınır"],
+                        ["Şehir merkezi cephe", "Dekoratif aydınlatma", "Dar sokak", "Kompakt sınıf tercih edilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerjili hat teyidi olmadan çalışma başlamaz",
+                paragraflar: [
+                    "Elektrik hattına yakın her işte teyit süreci, iş planının ilk adımıdır. Hangi hattın enerjili olduğunu ve hangi devrenin kapalı olduğunu yazılı olarak alırız; bu belge sahada operatörle birlikte bulunur.",
+                    "Teyit gelmeden veya belirsizlik varken sepet o kota çıkarılmaz — bu kuralın istisnası yoktur, çünkü elektrik riski diğer sahra risklerinden farklı olarak anlık ve geri dönüşsüz sonuç doğurabilir.",
+                ],
+            },
+            {
+                baslik: "Cadde üzerinde işi hızlı bitirme",
+                paragraflar: [
+                    "Ticari cadde üzerindeki her ek dakika, hem yaya trafiğini hem mağaza işleyişini etkiler; bu yüzden hazırlığı önceden tamamlamaya özel önem veririz. Malzeme, ekipman ve gerekli izin belgesi sahaya varmadan önce hazır olur; makine geldiğinde iş doğrudan başlar.",
+                    "Mümkün olduğunda işi sabah erken saatlere veya hafta sonuna planlamak, hem işgal süresini hem yaya etkisini azaltır. Bu tercih size uygunsa, talep formunda saat tercihinizi belirtmeniz planlamayı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrikamızın dış aydınlatma direklerini değiştireceğiz, elektrik kesintisi gerekir mi?",
+                cevap:
+                    "Genellikle evet, en azından ilgili devrenin kısa süreliğine izole edilmesi gerekir; bu, hem operatör hem armatürü değiştiren ekip için güvenlik şartıdır. Hangi devrenin ne zaman kapatılabileceğini elektrik ekibinizle birlikte netleştiririz ve bu teyit yazılı olarak alınmadan çalışma başlamaz. Direk sayısını ve yerleşimini bildirirseniz, tek seferde tamamlanacak bir iş planı çıkarırız.",
+            },
+            {
+                soru: "Santral sahasındaki pano bakımı için hangi belgeler istenir?",
+                cevap:
+                    "Genellikle makinenin periyodik kontrol raporu, operatörün yeterlilik belgesi ve ekibin iş güvenliği eğitim kayıtları istenir. Buna ek olarak tesisin kendi saha giriş prosedürü (güvenlik brifingi, giriş kartı) uygulanır. Bu belgeleri sevkiyattan önce paylaşırız ki giriş kapısında zaman kaybı olmasın.",
+            },
+            {
+                soru: "Cadde üzerindeki tabelamızı aydınlatacağız, kaldırımı kapatmanız gerekir mi?",
+                cevap:
+                    "İşgal alanını mümkün olduğunca dar tutarız — genellikle tek bir yaya şeridi geçici bariyerle çevrilir, kaldırımın tamamı kapatılmaz. İşgaliyet izni belediyeden alınır ve bu süreç iş planına baştan dahil edilir; onay birkaç gün sürebileceği için erken başvuru öneririz. Trafiğin en sakin olduğu saati birlikte belirleriz.",
+            },
+            {
+                soru: "Jeotermal sahada çalışırken hangi güvenlik önlemleri alınır?",
+                cevap:
+                    "Önce yazılı teyit: hangi hattın enerjili veya basınç altında olduğu tesis tarafından onaylanır. Ardından makine konumu, kaçış yönü açık kalacak şekilde belirlenir. Ekip, sahaya uygun koruyucu donanımla çalışır; herhangi bir anormallikte çalışma durdurulur ve sepet indirilir — bu karar operatörde olup tartışmaya açılmaz.",
+            },
+            {
+                soru: "Armatür tipini değiştirmek istiyoruz ama mevcut braket uyumlu mu bilmiyoruz, ne yapmalıyız?",
+                cevap:
+                    "Bu durumda iki aşamalı bir yaklaşım öneririz: ilk ziyarette mevcut braket ve kablo yapısını kontrol eder, yeni armatürle uyumunu değerlendiririz; ikinci ziyarette montaj tamamlanır. Bu, sahada gereksiz bekleme süresini önler ve montaj gününde ek malzeme ihtiyacı çıkma riskini azaltır.",
+            },
+            {
+                soru: "Birden fazla direk veya armatürü aynı günde değiştirebilir misiniz?",
+                cevap:
+                    "Evet, direk veya armatür sayısını ve yerleşimini önceden bilirsek, makinenin sahada en az hareketle en çok noktayı kapsayacağı bir sıralama çıkarırız. Bu, hem işi hızlandırır hem nakliye ve kiralama süresini tek bir periyotta toplayarak maliyeti düşürür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli OSB'lerinin ve Sarayköy jeotermal sahalarının varlığı kamuya açık genel bilgidir; enerjili hat teyit süreci ve saha güvenlik pratiği firma sürecidir. Rakam veya tesis adı iddia edilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Denizli'de Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Operatörlü mü operatörsüz mü sorusu, Denizli'de sahaya göre farklı bir cevap üretir. Tekstil holündeki basit bir aydınlatma değişiminde, yeterlilik belgesi olan bir personel makineyi kendisi kullanabilir; ama mermer fabrikasının ıslak ve düzensiz zemininde, ya da jeotermal sahanın enerjili hat çevresinde, operatörlü kiralama riski belirgin biçimde azaltır. Bu farkın nedeni basittir: operatörümüz, o saha tipinde daha önce defalarca çalışmıştır ve zemin okuma, devrilme riski değerlendirme, enerjili hatta mesafe koruma gibi refleksleri sahaya özgü deneyimle gelişmiştir. Aynı zamanda operatörlü kiralama, kısa süreli ve tek seferlik işlerde toplamda daha ekonomik olabilir — çünkü personel eğitimi ve yeterlilik belgesi süreciyle uğraşmak gerekmez. Bu sayfada hangi sahada hangi seçeneğin önerildiğini ve iki modelin sorumluluk paylaşımını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Operatörsüz kiralamada yeterlilik belgesi zorunluluğu",
+                metin:
+                    "Kendi personeliniz makineyi kullanacaksa, o kişinin ilgili ekipman sınıfı için geçerli bir yeterlilik belgesi bulunması ve makinenin teslim anında saha eğitimini alması gerekir. Teslimde kumanda, acil indirme ve emniyet donanımı birlikte gözden geçirilir. Belge veya eğitim eksikse, makineyi operatörsüz teslim etmeyiz — bu, hem yasal hem güvenlik gereğidir.",
+            },
+            {
+                baslik: "Mermer fabrikasında operatörlü tercih nedeni",
+                metin:
+                    "Islak, düzensiz ve bazen çamurlu zeminde çalışırken, zemin taşıma gücünü ve makine ayak basıncını doğru okumak deneyim ister. Operatörümüz bu sahalarda düzenli çalıştığı için, riskli görünen bir noktayı önceden fark edip konumlandırmayı buna göre ayarlar. İlk kez çalışılan mermer sahalarında operatörlü kiralamayı özellikle öneririz.",
+            },
+            {
+                baslik: "Jeotermal ve enerji hattı yakınında operatörlü zorunluluğu",
+                metin:
+                    "Enerjili hatta veya basınçlı buhar hattına yakın çalışmalarda, operatörün sahaya özgü güvenlik prosedürünü bilmesi kritik önemdedir. Bu sahalarda operatörlü kiralama standart tercihimizdir; operatörümüz, tesisin kendi giriş ve çalışma izni sürecine de aşinadır, bu da işin başlangıcını hızlandırır.",
+            },
+            {
+                baslik: "Tekstil holünde operatörsüz kullanımın uygunluğu",
+                metin:
+                    "Düz beton zeminli, kapalı ve nispeten kontrollü bir ortam olan tekstil holünde, basit aydınlatma veya kanal bakımı işlerinde operatörsüz kullanım yaygındır. Kullanıcı personelin ilgili ekipman sınıfı için yeterlilik belgesi olması yeterlidir; sahanın kendine özgü ek bir riski (örneğin dar koridor) varsa bu, teslimde ayrıca gösterilir.",
+            },
+            {
+                baslik: "Uzun süreli işlerde operatör sürekliliği",
+                metin:
+                    "Haftalarca süren montaj veya bakım işlerinde aynı operatörün sahada kalması, hem güvenlik hem verimlilik açısından avantajlıdır — operatör sahayı, riskli noktaları ve iş akışını zamanla öğrenir. Bu tür işlerde operatör değişikliği gerekiyorsa, yeni operatöre saha bilgisi devir teslimle aktarılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre operatörlü/operatörsüz önerisi",
+                paragraflar: [
+                    "Denizli'deki farklı saha tiplerinde önerdiğimiz modeli aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Ana risk", "Önerilen model", "Gerekçe"],
+                    satirlar: [
+                        ["Tekstil holü", "Dar koridor", "Operatörsüz uygun", "Kontrollü, düz zemin"],
+                        ["Mermer fabrikası/ocağı", "Islak, düzensiz zemin", "Operatörlü önerilir", "Zemin okuma deneyimi"],
+                        ["Jeotermal saha", "Enerjili/basınçlı hat", "Operatörlü zorunlu tercih", "Sahaya özgü güvenlik prosedürü"],
+                        ["Termal otel iç mekân", "Misafir trafiği", "Operatörsüz uygun", "Kontrollü ortam"],
+                        ["Şantiye/montaj sahası", "Değişken zemin, uzun süre", "Operatörlü önerilir", "Süreklilik ve deneyim"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki modelin sorumluluk paylaşımı",
+                paragraflar: [
+                    "Operatörsüz kiralamada makinenin mekanik bakımı bizde kalır, kullanım güvenliği ve doğru işletim ise kullanıcı personelde ve onun yeterlilik belgesindedir. Operatörlü kiralamada bu ikinci sorumluluk da bize geçer; operatörümüz hem makineyi kullanır hem sahadaki riskleri değerlendirir.",
+                    "Hangi modeli seçerseniz seçin, teslim tutanağında makinenin mevcut durumu kaydedilir ve iade sırasında bu kayıtla karşılaştırılır — bu, sorumluluk sınırının net kalmasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Maliyet karşılaştırması ne zaman operatörlü lehine döner",
+                paragraflar: [
+                    "Kısa süreli, tek seferlik işlerde operatörlü kiralama genellikle toplamda daha ekonomiktir; çünkü personel eğitimi ve belge sürecine ayrı zaman ve maliyet harcanmaz. Uzun süreli ve düzenli tekrarlanan işlerde ise kendi personelinizi yetkilendirmek, uzun vadede daha esnek bir çözüm olabilir.",
+                    "Kesin kararı işin süresine, tekrarlanma sıklığına ve sahanın risk seviyesine göre birlikte değerlendiririz; talep aşamasında bu üç bilgiyi sorarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makineyi biz kullanabilir miyiz, yoksa operatör şart mı?",
+                cevap:
+                    "İki seçenek de mümkündür. Kendi personeliniz kullanacaksa, o kişinin ilgili ekipman sınıfı için geçerli bir yeterlilik belgesi bulunması ve makinenin teslim anında saha eğitimini alması gerekir. Operatörlü kiralamada bu sorumluluk bizde kalır; özellikle mermer fabrikası veya jeotermal saha gibi ilk kez çalışılan, zemin veya enerji riski taşıyan yerlerde operatörlü modeli öneririz.",
+            },
+            {
+                soru: "Mermer ocağında ilk kez çalışacağız, operatörlü mü almalıyız?",
+                cevap:
+                    "Evet, öneririz. Islak ve düzensiz zeminde zemin taşıma gücünü doğru okumak deneyim gerektirir; operatörümüz bu tür sahalarda düzenli çalıştığı için riskli noktaları önceden fark edip konumlandırmayı buna göre ayarlar. İlk çalışmadan sonra saha koşullarını birlikte değerlendirip, sonraki işlerde operatörsüz seçeneğin uygun olup olmadığına karar verebiliriz.",
+            },
+            {
+                soru: "Jeotermal sahada operatörsüz kiralama mümkün mü?",
+                cevap:
+                    "Teknik olarak mümkün olsa da, enerjili veya basınçlı hatlara yakın çalışmalarda operatörlü kiralama standart tercihimizdir; operatörümüz tesisin kendi güvenlik prosedürüne aşinadır ve bu, işin başlangıcını da hızlandırır. Tesisinizin özel bir izin süreci varsa, bunu operatörümüzle birlikte önceden netleştiririz.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatörün yol ve konaklama masrafı var mı?",
+                cevap:
+                    "Operatörlü kiralama bedeli, operatörün sahada geçirdiği süreyi kapsar; günübirlik işlerde ek bir konaklama maliyeti genellikle çıkmaz. Denizli dışına veya uzun süreli bir işe gidiliyorsa, bu detayı teklif aşamasında ayrıca netleştiririz — sürpriz bir ek kalem çıkmaz.",
+            },
+            {
+                soru: "Kısa süreli bir iş için operatörlü mü operatörsüz mü daha ekonomik?",
+                cevap:
+                    "Genellikle operatörlü, çünkü personel eğitimi ve yeterlilik belgesi sürecine ayrı zaman harcanmaz; tek seferlik işlerde bu süreç maliyeti orantısız yükseltebilir. Düzenli tekrarlanan işlerde ise kendi personelinizi yetkilendirmek uzun vadede daha esnek olabilir. İşin süresini ve tekrarlanma sıklığını bildirirseniz, hangi modelin sizin için daha ekonomik olduğunu birlikte hesaplarız.",
+            },
+            {
+                soru: "Operatör değişirse iş yarıda kalır mı?",
+                cevap:
+                    "Hayır, uzun süreli işlerde operatör değişikliği gerekiyorsa yeni operatöre saha bilgisi devir teslimle aktarılır — riskli noktalar, iş akışı ve o güne kadarki ilerleme birlikte gözden geçirilir. Bu geçiş, işin sürekliliğini bozmayacak şekilde planlanır ve mümkünse eski-yeni operatör bir gün birlikte sahada bulunur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin mermer, jeotermal ve tekstil sahalarının farklı risk profilleri kamuya açık genel bilgidir; operatörlü/operatörsüz karar süreci firma pratiğidir. Rakam veya tesis adı iddia edilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Denizli'de Çok Noktalı Rota Bakım Platformu Kiralama",
+        giris:
+            "Denizli'de tek bir işletmenin birden fazla bakım noktası olması sık karşılaşılan bir durumdur — bir OSB'deki fabrikanın hem iç aydınlatması hem dış cephesi, bir mermer fabrikasının hem kesim hattı hem stok sahası, bir otel zincirinin Pamukkale-Karahayıt hattındaki birden fazla tesisi. Bu tür işlerde tek bir makine ve tek bir sevkiyatla birden fazla noktayı kapsamak, hem maliyet hem zaman açısından anlamlı bir fark yaratır. Rota planlaması burada devreye girer: noktaların coğrafi sırası, her noktada geçirilecek tahmini süre ve varsa erişim kısıtı (dar koridor, zemin türü) önceden değerlendirilerek, makinenin gün içinde en az geçiş süresiyle en çok noktayı tamamlayacağı bir sıra çıkarılır. Bu sayfada çok noktalı rota planlamasının nasıl kurulduğunu ve hangi tür işletmelerin bu modelden en çok fayda gördüğünü anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Aynı OSB içinde birden fazla nokta",
+                metin:
+                    "Bir fabrikanın farklı bölümlerinde (ambar, üretim salonu, idari bina) günün farklı saatlerinde bakım gerekebilir; bu durumda makine tek sevkiyatla sahaya girer ve gün içinde bölümden bölüme kendi gücüyle hareket eder. Bu, her bölüm için ayrı bir sevkiyat düzenlemekten belirgin ölçüde daha ekonomiktir. Bölümlerin sırasını, iş yoğunluğuna ve geçiş süresine göre önceden planlarız.",
+            },
+            {
+                baslik: "Mermer fabrikasında hat ve stok sahası arasında geçiş",
+                metin:
+                    "Kesim hattı üstü bir servis işiyle, blok stok sahasındaki bir istif kontrolü aynı günde planlanabilir; ancak bu iki nokta farklı zemin ve makine gereksinimine sahip olabilir. Aynı makine her ikisini de kapsayabiliyorsa (örneğin arazi tipi eklemli platform) tek sevkiyatla iki iş tamamlanır; farklı sınıf gerekiyorsa bu, planlamada önceden netleştirilir.",
+            },
+            {
+                baslik: "Otel zincirinin birden fazla tesisinde bakım turu",
+                metin:
+                    "Pamukkale-Karahayıt hattındaki birden fazla otel, sezon dışı bakım döneminde benzer işleri (cephe, aydınlatma, klima dış ünite) aynı hafta içinde talep edebilir. Bu durumda makine, tesisten tesise geçerek bir bakım turu şeklinde çalışır; her tesisteki iş süresi önceden netleştirilirse, tur bir haftaya net şekilde sığdırılabilir.",
+            },
+            {
+                baslik: "Coğrafi sıralamanın geçiş süresine etkisi",
+                metin:
+                    "Noktalar arası mesafe, çalışma süresinden düşen bir zaman dilimidir; bu yüzden işleri coğrafi sıraya göre dizmek, ham iş listesini rastgele sıralamaktan daha verimlidir. Nokta listesini önceden paylaşırsanız, en az geçiş süreli sıralamayı biz çıkarırız.",
+            },
+            {
+                baslik: "Her noktanın erişim kısıtının önceden bilinmesi",
+                metin:
+                    "Rota üzerindeki her nokta farklı bir erişim kısıtına sahip olabilir — biri dar koridor, biri açık saha, biri dar sokak. Bu kısıtlar önceden bilinmezse, makinenin bir noktaya uygun olup diğerine uygun olmadığı sahada anlaşılır ve bu, turun aksamasına yol açar. Her nokta için kısa bir açıklama (bina tipi, yaklaşık ölçü, zemin) talep formunda istenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota planlama örnekleri",
+                paragraflar: [
+                    "Denizli'de sık karşılaştığımız çok noktalı rota senaryolarını ve planlama mantığını aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Nokta sayısı örneği", "Ana değişken", "Planlama notu"],
+                    satirlar: [
+                        ["Tek fabrika, çok bölüm", "2-4 bölüm", "İş yoğunluğu, saat", "Aynı gün, tek sevkiyat"],
+                        ["Mermer hat + stok sahası", "2 nokta", "Zemin/makine uyumu", "Tek makineyle mümkünse birleştirilir"],
+                        ["Otel zinciri bakım turu", "3+ tesis", "Coğrafi mesafe", "Haftalık tur planı"],
+                        ["OSB içi çoklu fabrika", "2-5 fabrika", "Farklı erişim kısıtı", "Her nokta için ön bilgi istenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planlamasının maliyete etkisi",
+                paragraflar: [
+                    "Nakliyenin sabit bir maliyet kalemi olduğunu düşünürsek, birden fazla noktayı tek sevkiyatla kapsamak bu sabit maliyeti noktalar arasında böler. Bu, özellikle küçük ölçekli ama sık tekrarlanan bakım işleri olan işletmeler için belirgin bir tasarruf sağlar.",
+                    "Rota planlamasının verimli çalışması için tek şart, nokta listesinin ve her noktadaki iş kapsamının önceden net olmasıdır; eksik bilgiyle çıkarılan bir rota, sahada revize edilmek zorunda kalabilir.",
+                ],
+            },
+            {
+                baslik: "Tur sırasında beklenmedik bir gecikme olursa",
+                paragraflar: [
+                    "Bir noktadaki iş beklenenden uzun sürerse, bu durum sonraki noktaların programını etkileyebilir. Bu riski azaltmak için her noktaya bir zaman payı ekleriz ve mümkünse en belirsiz işi turun başına değil, esnek bir noktasına yerleştiririz.",
+                    "Gecikme kaçınılmaz olursa, sonraki noktalarla önceden iletişime geçip yeni tahmini saati bildiririz; sürpriz bir gecikme yaşatmamak önceliğimizdir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrikamızın birden fazla bölümünde iş var, tek makine hepsini kapsayabilir mi?",
+                cevap:
+                    "Çoğunlukla evet; makine tek sevkiyatla sahaya girer ve gün içinde bölümden bölüme kendi gücüyle hareket eder. Bölümlerin hangi sırayla ziyaret edileceğini, iş yoğunluğuna ve geçiş süresine göre önceden planlarız. Her bölümdeki işin tahmini süresini bildirirseniz, gün içinde tamamlanabilecek gerçekçi bir program çıkarırız.",
+            },
+            {
+                soru: "Otel zincirimizin farklı tesislerinde aynı hafta bakım yapabilir misiniz?",
+                cevap:
+                    "Evet, bu tam olarak çok noktalı rota planlamasının amaçlandığı senaryodur. Tesislerin coğrafi sırasına göre bir bakım turu kurarız; her tesisteki iş süresi önceden netleştirilirse tur bir haftaya net şekilde sığdırılabilir. Tesis listesini ve her birindeki iş kapsamını paylaşmanız, planlamayı hızlandırır.",
+            },
+            {
+                soru: "Mermer fabrikamızda hem hat üstü hem stok sahasında iş var, aynı makine mi gelir?",
+                cevap:
+                    "Mümkünse evet; arazi tipi eklemli platform gibi her iki ortama da uygun bir makine, tek sevkiyatla iki işi de kapsayabilir. İki nokta farklı sınıf makine gerektiriyorsa, bunu planlamada önceden netleştirir ve gerekirse iki ayrı makineyi aynı gün art arda planlarız.",
+            },
+            {
+                soru: "Rota sırasında bir noktadaki iş uzarsa sonraki noktalar aksar mı?",
+                cevap:
+                    "Bu riski azaltmak için her noktaya bir zaman payı ekleriz ve en belirsiz işi mümkünse turun esnek bir noktasına yerleştiririz. Gecikme kaçınılmaz olursa, sonraki noktalarla önceden iletişime geçip yeni tahmini saati bildiririz; bu, sizin de kendi planınızı buna göre ayarlamanızı sağlar.",
+            },
+            {
+                soru: "Nokta sayısı arttıkça maliyet nasıl değişir?",
+                cevap:
+                    "Nakliye sabit bir maliyet kalemidir ve birden fazla noktayı tek sevkiyatla kapsamak bu maliyeti noktalar arasında böler; bu yüzden nokta sayısı arttıkça nokta başına düşen maliyet genellikle azalır. Kesin bir teklif için nokta listesini ve her birindeki iş kapsamını paylaşmanız gerekir.",
+            },
+            {
+                soru: "Rota planlaması için hangi bilgileri önceden vermeliyiz?",
+                cevap:
+                    "Her nokta için bina/tesis tipi, yaklaşık ölçü (yükseklik, koridor genişliği gibi), zemin türü ve tahmini iş süresini isteriz. Bu bilgiler eksik geldiğinde, makinenin bir noktaya uygun olup diğerine uygun olmadığı sahada anlaşılabilir ve bu, turun aksamasına yol açabilir; bu yüzden eksiksiz bilgiyi baştan almaya özen gösteririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'deki OSB, mermer fabrikası ve termal otel çeşitliliğinin çok noktalı bakım ihtiyacı doğurması genel gözlemdir; rota planlama yöntemi firma pratiğidir. Rakam veya tesis adı iddia edilmemiştir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Denizli'de Zor Zemin ve Arazi Platform Kiralama",
+        giris:
+            "Denizli'de zor zemin talebinin en belirgin kaynağı mermer ocaklarıdır — çevredeki ocak sahalarına ve bunlara bağlı erişim yollarına giden güzergâh, standart bir platformun tasarım varsayımının (düz, sabit, beton) tamamen dışındadır. Ocak erişim yolları genellikle stabilize veya doğal zemindir, kaya parçaları ve düzensiz eğim barındırır; ocak içindeki çalışma sahaları ise blok kesim noktaları ve stok alanlarıyla ağır, tozlu ve bazen ıslak bir zemin sunar. Bu koşullar, standart iç mekân makaslı platformun değil, dizel dört tekerden çekişli arazi tipi makinenin konusudur. Aynı zor zemin kategorisi, tarımsal arazideki sulama-enerji hattı bakımlarında ve henüz düzenlenmemiş şantiye zeminlerinde de karşımıza çıkar, ama mermer ocağı bu kategorinin en zorlu ve en sık tekrarlanan örneğidir. Bu sayfada zor zemin değerlendirmesinin nasıl yapıldığını, hangi zeminde hangi tahrik-lastik kombinasyonunun seçildiğini ve ocak sahasına özgü güvenlik önceliklerini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Ocak erişim yolunun zemin değerlendirmesi",
+                metin:
+                    "Ocak sahasına giden yol, genellikle stabilize veya sıkıştırılmış doğal zemindir ve yağışla birlikte hızla bozulabilir. Bu yolun ağır bir platform aracını taşıyıp taşıyamayacağı, son yağış durumu ve yolun genel karakteri (eğim, kaya parçası yoğunluğu) değerlendirilerek belirlenir. Belirsiz durumlarda, sevkiyattan önce güncel bir fotoğraf istenir veya kısa bir keşif yapılır.",
+            },
+            {
+                baslik: "Blok kesim ve stok sahasında zemin taşıma gücü",
+                metin:
+                    "Ocak içindeki çalışma noktaları — blok kesim hattı çevresi, stok alanı — genellikle sıkıştırılmış toprak veya kayalık bir zemindir ve zaman zaman su ile ıslanır. Bu zeminde makinenin ayak basıncı ve devrilme güvenliği önceden değerlendirilir; taşıma gücü belirsizse çalışma noktasının altına yük dağıtma plakası serilir.",
+            },
+            {
+                baslik: "Eğimli ocak sahasında dengeleme sistemi sınırı",
+                metin:
+                    "Ocak sahaları doğaları gereği düz değildir; kademeli kesim yapısı, farklı seviyelerde çalışma noktaları ve eğimli geçişler yaratır. Makinenin şase dengeleme sistemi için üretici tarafından belirlenen eğim sınırı, keşifte ölçülür ve bu sınırla karşılaştırılır. Sınıra yakın durumlarda, makinenin konumlandırılacağı nokta değiştirilerek daha düz bir yaklaşım açısı aranır.",
+            },
+            {
+                baslik: "Lastik ve tahrik seçiminin zemine göre belirlenmesi",
+                metin:
+                    "Kuru ve sert zeminde standart dolgu lastikli dizel dört tekerden çekişli makine genellikle yeterlidir; ıslak veya gevşek zeminde ise daha geniş taban alanlı lastikler tercih edilir, çünkü bu birim alandaki basıncı azaltarak batma riskini düşürür. Ocak tozu ve kaya parçalarının lastik üzerindeki aşındırıcı etkisi de göz önünde bulundurulur; bu sahalardan dönen makinelerde lastik ve mafsal kontrolü standarttan sık yapılır.",
+            },
+            {
+                baslik: "Açık sahada hava koşulunun izlenmesi",
+                metin:
+                    "Ocak sahaları korunaksız, açık alanlardır; rüzgâr ve yağış, zeminden bağımsız ikinci bir kısıt olarak devreye girer. Yüksek kotlu bir eklemli platform işinde rüzgâr hızı üretici sınırına göre gün içinde izlenir; zemin uygun olsa bile rüzgâr sınırı aşıldığında iş durdurulur. Yağış öncesi veya sonrası dönemde zemin durumu yeniden değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zor zemin karar tablosu",
+                paragraflar: [
+                    "Denizli'deki zor zemin senaryolarını, zemin durumuna göre önerilen tahrik ve önlemi aşağıdaki tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Tipik saha", "Önerilen tahrik/lastik", "Ek önlem"],
+                    satirlar: [
+                        ["Kuru stabilize yol", "Ocak erişim yolu", "Dizel 4x4, standart dolgu lastik", "Standart kontrol"],
+                        ["Islak/gevşek toprak", "Ocak içi, stok sahası", "Geniş taban lastik", "Yük dağıtma plakası"],
+                        ["Kademeli/eğimli saha", "Ocak kesim basamakları", "Dengeleme sistemi kontrolü", "Eğim ölçümü, üretici sınırı"],
+                        ["Sulanmış tarım arazisi", "Açık arazi hattı", "Kuru dönem tercih edilir", "Ekili şeritten kaçınma"],
+                        ["Düzenlenmemiş şantiye zemini", "Yeni yatırım parseli", "Dizel 4x4 arazi tipi", "Zemin ilerledikçe yeniden değerlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin belirsizliğinde keşif önceliği",
+                paragraflar: [
+                    "Fotoğraf ve tarif çoğu zaman zemin kararı için yeterli olsa da, belirsiz veya riskli görünen ocak sahalarında yerinde keşif öneririz — özellikle daha önce ağır araç geçmemiş bir güzergâhta bu, sürpriz bir batma veya kayma riskini önceden ortadan kaldırır. Keşif sırasında zeminin farklı noktalarından fiziksel kontrol yapılır ve güzergâh en sağlam hat üzerinden çizilir.",
+                    "Keşif mümkün değilse, ocak işletmesinin kendi bilgisi (geçmiş araç trafiği, bilinen sorunlu noktalar) talep alınırken ayrıntılı sorulur; bu bilgi, fotoğrafın gösteremediği geçmiş deneyimi tamamlar.",
+                ],
+            },
+            {
+                baslik: "Mevsimsel değişimin ocak sahasına etkisi",
+                paragraflar: [
+                    "Ocak erişim yolları ve açık stok sahaları, kuru dönemde belirgin biçimde daha taşıyıcı bir zemin sunar; yağışlı dönemde aynı güzergâh çamurlaşabilir ve makine batma riski taşıyabilir. Aynı ocak sahası, yılın farklı dönemlerinde tamamen farklı bir zemin kararı gerektirebilir.",
+                    "Bu nedenle iş talebi geldiğinde mevsim ve son yağış bilgisi mutlaka sorulur; belirsizse zemin durumu fotoğraf veya keşifle doğrulanır. Planlı bakım işlerini kuru döneme çekebilen ocak işletmeleri, hem daha geniş makine seçeneği hem daha az risk taşıyan bir çalışma bulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ocağımıza giden yol toprak ve düzensiz, platform bu yolda ilerleyebilir mi?",
+                cevap:
+                    "Genellikle evet, dizel dört tekerden çekişli arazi tipi makinelerle; ama yolun son durumu (yağış, eğim, kaya parçası yoğunluğu) belirleyicidir. Belirsiz durumlarda sevkiyattan önce güncel bir fotoğraf isteriz veya kısa bir keşif yaparız. Yol geçici olarak uygun değilse, teslimatı zeminin toparlandığı bir sonraki güne kaydırırız — bu, aracın veya makinenin sahada saplanma riskini almaktan çok daha güvenlidir.",
+            },
+            {
+                soru: "Blok stok sahamızın zemini bazen ıslak oluyor, makine oraya girebilir mi?",
+                cevap:
+                    "Standart iç mekân makaslı platformu bu zemin için tasarlanmamıştır; ıslak ve düzensiz stok sahalarında dizel arazi tipi makine, geniş taban lastikle kullanılır. Kritik nokta zeminin taşıma gücüdür — su almış sıkıştırılmış toprakta ayak veya tekerlek yükü gömülmeye yol açabilir. Çalışma noktasının altına plaka serilmesi çoğu durumda çözer; zemin durumunu keşifte veya fotoğrafla değerlendiririz.",
+            },
+            {
+                soru: "Ocak sahamız kademeli, farklı seviyelerde çalışacağız, eğim sorun olur mu?",
+                cevap:
+                    "Eğim üretici sınırı içindeyse sorun olmaz; eğim keşifte ölçülür ve üretici sınırıyla karşılaştırılır. Sınıra yakın durumlarda makinenin konumlandırılacağı nokta değiştirilerek daha düz bir yaklaşım açısı aranır. Ocak sahanızın kademeli yapısını ve çalışılacak seviyeleri önceden bildirirseniz, en uygun konumlandırma planını birlikte çıkarırız.",
+            },
+            {
+                soru: "Ocakta rüzgâr zeminden bağımsız bir risk mi?",
+                cevap:
+                    "Evet, iki koşul birbirinden bağımsız değerlendirilir — zemin uygun olsa bile rüzgâr sınırı aşıldığında iş durdurulur. Ocak sahaları korunaksız açık alanlar olduğu için, özellikle yüksek kotlu eklemli platform işlerinde rüzgâr hızı gün içinde sürekli izlenir. Çalışma alanınızın açıklığını paylaşırsanız, gerçekçi bir çalışma penceresi öneririz.",
+            },
+            {
+                soru: "Daha önce hiç ağır araç girmemiş bir ocak güzergâhında risk nasıl değerlendirilir?",
+                cevap:
+                    "Bu durumda yerinde keşif öneririz; düz görünen bir zeminin altında yumuşak bir tabaka veya gizli bir çukur bulunabilir, bu görsel kontrolle her zaman anlaşılmaz. Keşif mümkün değilse, ocak işletmesinin bildiği geçmiş bilgiyi (benzer araçların geçip geçmediği, bilinen sorunlu noktalar) ayrıntılı sorarız; bu bilgi, fotoğrafın gösteremediği deneyimi tamamlar.",
+            },
+            {
+                soru: "Yağışlı dönemde ocak işini tamamen erteliyor musunuz?",
+                cevap:
+                    "Zorunlu değil ama öneririz; yağışlı dönemde zemin taşıma gücü düştüğü için batma ve kayma riski artar. Acil bir iş değilse, planlı bakımları kuru döneme çekmenizi öneririz — bu hem daha geniş makine seçeneği hem daha az risk taşıyan bir çalışma sağlar. Acil bir durum varsa, zemin durumunu değerlendirip ek önlemlerle (plaka, arazi tipi lastik) çalışmayı mümkün kılmaya çalışırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin mermer ocakları ve bunların stabilize/doğal erişim yollarına sahip olması kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve lastik-tahrik seçimi sektör geneli teknik bilgidir. Belirli ocak adı veya rakam iddia edilmemiştir.",
+    },
 };

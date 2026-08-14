@@ -821,4 +821,1086 @@ export const ISTANBULEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Bakırköy'ün Avrupa yakası sahil şeridinde köklü bir ticaret merkezi olduğu ve bölgede alışveriş merkezi/yüksek tavanlı kapalı ortak alan yoğunluğu bulunduğu kamuya açık kentsel bilgidir; kapalı alan erişim, izin ve saha koordinasyon pratikleri firma deneyimidir.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HİZMET SAYFALARI — 11 sabit slug, domain açısı: GÖKDELEN (Levent-
+    // Maslak-Ataşehir kule cephesi) + LİMAN TESİSİ (konteyner terminali,
+    // ardiye/depolama sahası) ikilisi. Ankara/OSTİM dosyasındaki
+    // 'dar alan/engebeli zemin, OSB montaj' açısından bilinçli olarak
+    // uzak durulmuştur; burada eksen kentsel yükseklik + liman genişliği.
+    // Yazım: 2026-08-14.
+    // ═══════════════════════════════════════════════════════════════════
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Kule Girişi ve Liman Ofis Binalarında Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Sepetli/örümcek platform (paletli veya tekerlekli, katlanabilir kollu küçük yapı), İstanbul'un kule ve liman ikilisinde iki farklı dar geçit sorununu çözer. Kule tarafında bu makine, ana lobi girişindeki döner kapıdan veya yük asansöründen geçip iç avluya, atrium tavanına ya da resepsiyon üstü asma tavana ulaşmak için kullanılır — standart eklemli platformun şasesi çoğu zaman bu geçitlere sığmaz, örümcek platformun katlanmış hâli ise dar bir koridordan rahatça geçer. Liman tarafında ise aynı makine, terminal idare binası veya ardiye ofis biriminin iç mekân işlerinde, kapı ve koridor genişliğinin kısıtlı olduğu noktalarda devreye girer; saha genelinde geniş açık alan hâkim olsa da, ofis/idare yapılarının içi kule lobisinden farksız dar bir geometri sunar. Bu sayfa, iki farklı sahada aynı makinenin neden ve nasıl tercih edildiğini anlatır — örümcek platform burada ana iş makinesi değil, diğer sınıfların giremediği dar geçitlerin çözümüdür.",
+        maddeler: [
+            {
+                baslik: "Kule lobisinde döner kapı ve asansör ölçüsü",
+                metin:
+                    "Levent-Maslak-Ataşehir kulelerinin çoğunda ana giriş döner kapı, yan girişler ise standart kanat kapı genişliğindedir; örümcek platformun katlanmış gövde ölçüsü keşifte bu kapı ölçüsüyle karşılaştırılır. Yük asansörü kullanılacaksa asansör kabin ölçüsü ve taşıma kapasitesi ayrıca bina yönetiminden teyit edilir — asansörle taşıma yalnızca bina yönetiminin belirlediği saatlerde ve genellikle bir teknik personel eşliğinde yapılır.",
+            },
+            {
+                baslik: "Atrium ve asma tavan işlerinde paletli sabitlik",
+                metin:
+                    "Kule lobilerindeki atrium boşlukları ve mermer/parke kaplı zeminler, paletli örümcek platformun ayak açıklığını geniş tutarak stabilize edildiği tipik alanlardır; ayaklar hassas zemine temas ederken koruyucu tabla kullanılır. Elektrikli tahrik, kapalı lobide egzozsuz ve sessiz çalıştığı için gündüz saatlerinde bile ziyaretçi trafiğini büyük ölçüde rahatsız etmez.",
+            },
+            {
+                baslik: "Liman idare binası ve ardiye ofisinde dar koridor erişimi",
+                metin:
+                    "Terminal idare binası ve ardiye ofis yapıları, geniş saha görünümünün aksine içeride standart bir bina koridor genişliğine sahiptir; tavan aydınlatma değişimi, kablo kanalı bakımı gibi işlerde örümcek platform, dış sahadaki teleskopik/eklemli sınıfın yerini alır. Terminal giriş prosedürü — plaka ve personel bildirimi — bu küçük makine için de aynı şekilde işler; ölçek küçük olsa da saha giriş kuralı değişmez.",
+            },
+            {
+                baslik: "Bina yönetimi ve terminal onayının küçük makinede de geçerliliği",
+                metin:
+                    "Makinenin küçük ve hafif olması, onay sürecini kısaltmaz; kule tarafında bina yönetimi onayı, liman tarafında terminal giriş bildirimi, örümcek platform için de standart iş akışının parçasıdır. Tek fark, bu makinenin genellikle daha kısa süreli ve nokta işler için istenmesi — bu yüzden onay süreci mümkün olduğunca erken başlatılır ki kısa iş, uzun bir bekleme sürecine takılmasın.",
+            },
+            {
+                baslik: "Kule ile liman arasında farklı tercih nedeni",
+                metin:
+                    "Kule tarafında örümcek platform tercih nedeni neredeyse tamamen geçit ölçüsüdür; liman tarafında ise hem geçit ölçüsü hem de idare binası içindeki zeminin (genellikle hassas kaplamalı, düşük hacimli ofis alanı) ağır makineye uygun olmamasıdır. İki sahada da makine, ana işin değil ana işin çevresindeki dar noktaların çözümü olarak konumlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman idare binasında geçit ölçüsü karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki farklı saha tipinde örümcek platformun tipik kullanım noktalarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Geçit/kısıt", "Tipik iş", "Onay mercii"],
+                    satirlar: [
+                        ["Kule lobisi", "Döner kapı / yük asansörü", "Atrium tavan aydınlatması", "Bina yönetimi"],
+                        ["Kule ofis katı", "Standart koridor kapısı", "Asma tavan bakımı", "Bina yönetimi / kiracı"],
+                        ["Liman idare binası", "Ofis koridor genişliği", "Tavan aydınlatma, kablo kanalı", "Terminal işletmesi"],
+                        ["Ardiye ofis bölümü", "Dar iç bölme", "Klima/havalandırma bakımı", "Terminal işletmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ölçü paylaşımı: sahaya gitmeden karar",
+                paragraflar: [
+                    "Örümcek platform kiralamada en pratik adım, kapı ve koridor genişliğini, varsa asansör kabin ölçüsünü fotoğrafla birlikte önceden paylaşmaktır; bu bilgi olmadan gönderilen bir makine, sahaya ulaşsa dahi hedef noktaya kadar taşınamayabilir. Kule ve liman idare binalarının iç mimarisi birbirinden farklı olduğu için, her keşifte bu ölçüm ayrı ayrı yapılır — bir kulede işe yarayan geçiş planı diğerine otomatik uygulanmaz.",
+                    "Ölçü belirsizse, ilk ziyarette yalnızca ölçüm için kısa bir keşif turu planlanır; bu tur işin fiyatına değil, doğru makine seçimine hizmet eder.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli iş, uzun onay süreci riski",
+                paragraflar: [
+                    "Örümcek platform işleri genellikle birkaç saatlik nokta müdahalelerdir, ama onay süreci (özellikle finans kulesi veya terminal güvenlik onayı gerektiren sahalarda) günlerle ölçülebilir. Bu asimetri, kısa işin planlamayı erken başlatmama riskini taşımasına yol açar — bu yüzden nokta işlerde bile onay sürecini iş tarihinden günler önce başlatmayı öneririz, özellikle ilk kez çalışılan bir bina veya terminalde.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform kule lobisindeki döner kapıdan geçer mi?",
+                cevap:
+                    "Çoğu zaman geçmez; döner kapılar sabit ve dar bir geçiş kesiti sunar. Bu durumda yan giriş veya yük asansörü alternatif olarak değerlendirilir — bina yönetiminden hangi girişin ekipman taşımaya uygun olduğu keşifte öğrenilir. Katlanmış gövde ölçüsü ile giriş ölçüsü karşılaştırılmadan makine sahaya yönlendirilmez; bu, gereksiz bir sevkiyatı önlemenin en pratik yoludur.",
+            },
+            {
+                soru: "Yük asansörüyle taşıma bina yönetimi tarafından hangi şartlarla izin veriliyor?",
+                cevap:
+                    "Genellikle belirli saatlerde (mesai dışı veya düşük yoğunluklu saat) ve çoğu zaman bina teknik personeli eşliğinde. Asansör kabin ölçüsü ve azami yük kapasitesi önceden teyit edilir; makine ağırlığı ve gövde ölçüsü bu sınırları aşıyorsa asansör kullanılamaz ve alternatif taşıma yolu (örneğin merdiven yoluyla parça parça taşıma, mümkünse) değerlendirilir. Bu detaylar bina yönetimiyle iş öncesi netleştirilir.",
+            },
+            {
+                soru: "Liman idare binasındaki ofis zemini hassas, makine iz bırakır mı?",
+                cevap:
+                    "Doğru önlem alınmazsa bırakabilir; bu yüzden zemin tipi (laminat, seramik, halı) keşifte öğrenilir ve tekerlek/palet altına koruyucu tabla yerleştirilir. Ofis içi hareket düşük hızda ve ani dönüşten kaçınılarak yapılır. İş öncesi ve sonrası zemin durumu fotoğraflanarak kayıt altına alınır, bu hem terminal işletmesi hem bizim için ihtilafsız bir referans oluşturur.",
+            },
+            {
+                soru: "Kısa bir iş için neden günler önceden onay başlatmamız gerekiyor?",
+                cevap:
+                    "Çünkü onay süreci iş süresinden bağımsızdır — bina güvenliği veya terminal işletmesi, bir saatlik iş için de aynı bildirim ve onay adımlarını uygular. İlk kez çalışılan bir binada bu süreç birkaç günü bulabilir; erken başlatılmazsa makine sahaya hazır olsa dahi kapıdan içeri giremez. Sürekli çalıştığımız bina ve terminallerde bu süreç zamanla kısalır.",
+            },
+            {
+                soru: "Örümcek platform ana işimiz için yeterli mi, yoksa sadece tamamlayıcı mı?",
+                cevap:
+                    "Genellikle tamamlayıcıdır — geniş cephe veya saha işlerinde ana makine eklemli/teleskopik sınıf olur, örümcek platform bu ana işin çevresindeki dar geçitli noktaları (lobi, koridor, dar ofis) tamamlar. İşin tamamı dar iç mekânda geçiyorsa (örneğin küçük bir idare ofisinin tavan bakımı) örümcek platform tek başına yeterli olabilir; bu ayrım iş tanımına göre keşifte netleştirilir.",
+            },
+            {
+                soru: "Kule ile liman idare binası arasında aynı makineyi kullanabilir misiniz?",
+                cevap:
+                    "Teknik olarak evet, model aynı sınıftan seçilebilir, ama iki sahanın onay süreci ve zemin hassasiyeti farklı olduğu için her iş kendi keşfiyle planlanır. Aynı hafta içinde iki sahada da kısa örümcek platform işiniz varsa, tek makinenin dönüşümlü kullanılması mümkündür; bu, günlük iş listesi net paylaşıldığında verimli bir planlamadır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kule lobilerinin döner kapı/yük asansörü ile sınırlı geçiş ölçüsüne sahip olduğu ve liman idare/ardiye ofis yapılarının standart bina iç mimarisi taşıdığı genel bina bilgisidir; ölçüm, onay ve zemin koruma pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Kule Servis Şeridi ve Liman Terminaline Nakliye-Teslimat Hizmeti",
+        giris:
+            "İstanbul'un kule ve liman ikilisinde nakliye planı, iki farklı trafik mantığına göre kurulur. Levent-Maslak-Ataşehir hattındaki kulelere teslimat, gündüz yoğun trafiği ve dar servis şeridi/kaldırım kısıtı nedeniyle çoğunlukla erken sabah veya gece saatine kaydırılır; büyük bir aracın gündüz trafiğinde kuleye ulaşması hem süre hem risk açısından verimsizdir. Ambarlı çevresindeki liman ve ardiye tesislerine teslimat ise farklı bir ritimle çalışır — saha operasyonu genellikle 7/24 sürdüğü için teslimat saati trafikten çok terminalin kendi giriş prosedürüne ve vardiya programına bağlıdır, ama sahaya girişten sonra iç mesafe (bazı terminallerde kilometrelerle ölçülen) ayrı bir zaman kalemi olarak plana eklenir. Bu sayfa, iki farklı sahaya nakliye-teslimat hizmetinin nasıl planlandığını, hangi zaman penceresinin hangi sahada geçerli olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule bölgesinde gece/erken sabah teslimat penceresi",
+                metin:
+                    "Levent ve Maslak'ta gündüz trafiği, büyük araçların kuleye yaklaşmasını hem yavaşlatır hem riske sokar; bu yüzden makine teslimatı genellikle sabah erken (trafik yoğunluğu başlamadan) veya akşam sonrası saatlere planlanır. Bu saat tercihi bir maliyet kalemidir ama gözden kaçırılırsa daha büyük bir maliyete dönüşür — gündüz trafiğinde saatlerce bekleyen bir aracın süresi de faturaya yansır. Bina yönetiminin kendi teslimat saati kısıtı varsa (örneğin sabah 07.00 öncesi yasak) bu kısıt nakliye planına önceden eklenir.",
+            },
+            {
+                baslik: "Dar servis şeridine araç boyutu uyumu",
+                metin:
+                    "Kule servis şeritleri genellikle standart bir kamyonu değil, daha küçük gövdeli bir aracı kabul eder; büyük makinenin taşınacağı araç, şeridin genişliğine göre keşifte belirlenir. Şeride sığmayan bir araçla gelinmesi, teslimatın en yakın alternatif noktada (örneğin bina arka cephesi veya otopark rampası) yapılmasını gerektirebilir — bu alternatif nokta önceden bina yönetimiyle netleştirilir.",
+            },
+            {
+                baslik: "Liman terminaline giriş ve iç saha mesafesi",
+                metin:
+                    "Konteyner terminali ve ardiye tesislerine teslimat, önce terminal giriş kapısında kimlik-plaka kontrolünden geçer, sonra iç sahada hedef noktaya ulaşana kadar ayrı bir mesafe kat edilir — bazı büyük terminallerde bu iç mesafe kilometrelerle ölçülür. Bu süre, kapıdan girişle işe başlama arasındaki farkı oluşturur ve nakliye planına ayrı bir kalem olarak eklenir; eklenmezse 'sahaya girdik ama teslimat gecikti' türünden bir zaman kaybı yaşanır.",
+            },
+            {
+                baslik: "Liman sahasında 7/24 operasyon ile teslimat saati uyumu",
+                metin:
+                    "Terminal operasyonu genellikle kesintisiz sürdüğü için teslimat saati, trafikten çok terminalin kendi vardiya yoğunluğuna göre belirlenir; bazı vardiya arası pencereler (örneğin vardiya değişim saati öncesi-sonrası sakin dönem) teslimat için daha uygun olabilir. Bu pencere, her terminalin kendi operasyon yoğunluğuna göre değiştiği için sabit bir kural yerine keşifte terminal işletmesiyle birlikte belirlenir.",
+            },
+            {
+                baslik: "Kule ile liman arasında haftalık nakliye rotası birleştirme",
+                metin:
+                    "Aynı hafta içinde hem kule hem liman bölgesinde iş varsa, iki sahanın nakliye rotası tek bir haftalık takvimde birleştirilerek boş sefer sayısı azaltılır; mesafe ve iş tipi farkı nedeniyle aynı gün aynı araçla iki sahaya gidip gelmek genellikle verimli değildir, ama haftalık planlamada rota optimizasyonu maliyet avantajı sağlar. Bu birleştirme, özellikle her iki bölgede de düzenli iş alan işletmeler için önerilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki bölgede teslimat penceresi karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, kule bölgesi ile liman bölgesindeki teslimat pratiğini karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Kule bölgesi (Levent-Maslak-Ataşehir)", "Liman bölgesi (Ambarlı çevresi)"],
+                    satirlar: [
+                        ["Kısıtlayıcı etken", "Gündüz trafiği, dar servis şeridi", "Terminal giriş prosedürü, iç saha mesafesi"],
+                        ["Tercih edilen saat", "Erken sabah / gece", "Vardiya arası sakin pencere"],
+                        ["Onay gereksinimi", "Bina yönetimi teslimat izni", "Terminal plaka-kimlik listesi"],
+                        ["Araç tipi kısıtı", "Kompakt gövdeli araç", "Standart ağır nakliye aracı"],
+                        ["Ek süre kalemi", "Trafik bekleme", "İç saha ulaşım mesafesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nakliye planında gözden kaçan iki zaman kalemi",
+                paragraflar: [
+                    "Kule bölgesinde en sık gözden kaçan kalem, bina yönetiminin teslimat onay süresidir — makine hazır olsa dahi onay gelmeden servis şeridine giremez. Liman bölgesinde ise en sık gözden kaçan kalem, terminal giriş kapısından iç sahaya ulaşım mesafesidir; bu mesafe bazı büyük terminallerde önemli bir süre alabilir ve kapıdan girişle işe başlama aynı an sanılmamalıdır.",
+                    "Her iki kalem de nakliye planına somut süre olarak eklenir; eklenmediğinde teslimat saati sahada beklenmedik gecikmeyle karşılaşır ve bu gecikme sonraki işin takvimine de sarkabilir.",
+                ],
+            },
+            {
+                baslik: "Çok günlü işlerde sahada bekletme seçeneği",
+                paragraflar: [
+                    "Kule tarafında çok günlü bir cephe işinde, her gün nakliye yerine makinenin bina yönetiminin onayıyla sahada güvenli bir noktada bekletilmesi hem daha ekonomik hem daha pratiktir; anahtar kutusu kilitlenir ve bekleme yeri bina güvenliğine bildirilir. Liman tarafında ise terminal işletmesinin kendi ekipman bekletme alanı varsa, benzer bir mantıkla makine orada günler boyu tutulabilir — bu, her terminalin kendi kuralına bağlıdır ve keşifte sorulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kuleye teslimat neden gece veya erken sabah yapılıyor, gündüz olmuyor mu?",
+                cevap:
+                    "Gündüz de teknik olarak mümkündür ama Levent-Maslak-Ataşehir gibi yoğun trafikli bölgelerde büyük bir aracın gündüz saatlerinde kuleye ulaşması hem daha uzun sürer hem risk taşır — bu süre ve risk faturaya yansır. Bu yüzden standart uygulamamız erken sabah veya gece teslimattır; bina yönetiminin kendi saat kısıtı varsa (örneğin belirli saatlerden sonra teslimat yasak) bu kısıt nakliye planına baştan eklenir.",
+            },
+            {
+                soru: "Liman terminaline giriş yaptıktan sonra makine hemen çalışmaya başlayabiliyor mu?",
+                cevap:
+                    "Bazı terminallerde evet, ama büyük sahalarda giriş kapısından hedef noktaya ulaşım ayrı bir süre gerektirir — bu iç mesafe kilometrelerle ölçülebilir. Bu süre nakliye planına ayrı bir kalem olarak eklenir; eklenmezse 'kapıdan girdik ama işe başlayamadık' türünden bir gecikme yaşanır. Terminalin iç saha büyüklüğü keşifte öğrenilir ve plana yansıtılır.",
+            },
+            {
+                soru: "Dar servis şeridine standart nakliye aracı sığmıyor, ne yapıyorsunuz?",
+                cevap:
+                    "Bu durumda daha kompakt gövdeli bir araç kullanılır veya teslimat, bina yönetiminin izin verdiği en yakın alternatif noktadan (arka cephe, otopark rampası gibi) yapılır. Şerit genişliği keşifte santimetre hassasiyetinde ölçülmeden araç tipi kesinleştirilmez; bu, sahada araç-yer uyumsuzluğu nedeniyle yaşanacak bir gecikmeyi baştan önler.",
+            },
+            {
+                soru: "Aynı hafta hem bir kulede hem liman tesisinde işimiz var, nakliyeyi nasıl planlıyorsunuz?",
+                cevap:
+                    "İki sahanın nakliye rotası tek bir haftalık takvimde birleştirilir; bu, boş sefer sayısını azaltarak maliyet avantajı sağlar. Aynı gün aynı araçla iki sahaya gidip gelmek mesafe ve iş tipi farkı nedeniyle genellikle verimli değildir, bu yüzden her sahaya ayrı bir gün/araç ayrılır ama haftalık rota optimize edilir. Haftalık iş listesini erken paylaşmanız, bu optimizasyonun kalitesini doğrudan artırır.",
+            },
+            {
+                soru: "Terminal vardiya değişim saatinde teslimat yapmak sorun olur mu?",
+                cevap:
+                    "Genellikle önerilmez — vardiya değişim saati, sahadaki araç ve personel trafiğinin en yoğun olduğu andır. Bunun yerine vardiya arası sakin pencere tercih edilir; bu pencere terminalin kendi operasyon yoğunluğuna göre değişir ve keşifte terminal işletmesiyle birlikte belirlenir. Sabit bir saat kuralı yoktur, her terminalin kendi ritmi ayrı ayrı öğrenilir.",
+            },
+            {
+                soru: "Çok günlü bir işte makineyi her gün geri götürüp getirmek yerine sahada bırakabilir misiniz?",
+                cevap:
+                    "Bina yönetimi veya terminal işletmesinin onayıyla mümkündür ve genellikle hem daha ekonomik hem daha pratiktir. Kule tarafında bekleme noktası bina güvenliğine bildirilir ve makine kilitlenir; liman tarafında ise terminalin kendi ekipman bekletme alanı varsa oradan yararlanılır. Bu seçenek her sahada standart olarak sunulmaz, keşifte ilgili yönetimden teyit edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Levent-Maslak-Ataşehir hattının yoğun gündüz trafiğine sahip olduğu ve Ambarlı çevresindeki liman tesislerinin genellikle kesintisiz operasyonla çalıştığı kamuya açık kentsel/lojistik bilgidir; teslimat penceresi ve saha koordinasyon pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Liman Ardiyesinde Forklift ile İstifleme — Kule Tarafında Kapsam Sınırı",
+        giris:
+            "Bu domain esas olarak yüksekte erişim ekipmanı (eklemli/teleskopik platform, örümcek platform) üzerine kuruludur ve forklift-istifleme hizmeti, kule cephesi tarafında değil, liman ve ardiye tesisleri tarafında anlam kazanır. Levent-Maslak-Ataşehir kulelerinde zaten yatay yük taşıma-istifleme ihtiyacı neredeyse yoktur — kule işleri dikey erişim gerektirir, forklift benzeri bir ekipmana kule cephesinde iş düşmez. Ambarlı çevresindeki konteyner terminali ve ardiye sahalarında ise durum farklıdır: palet, malzeme ve ekipman istiflemesi sahanın gündelik operasyonunun parçasıdır ve bu iş bazen platform kiralama ile birlikte, bazen ayrı bir talep olarak gelir. Bu sayfa, forklift-istifleme hizmetinin bu domainde nerede anlamlı olduğunu dürüstçe sınırlandırarak anlatır — kule tarafında bu hizmeti önermiyoruz, liman/ardiye tarafında ise platform işiyle birlikte planlanabilecek tamamlayıcı bir hizmet olarak sunuyoruz.",
+        maddeler: [
+            {
+                baslik: "Kule tarafında forklift ihtiyacının neredeyse hiç olmaması",
+                metin:
+                    "Kule cephesi, lobi veya ofis kat işlerinde malzeme taşıma ihtiyacı varsa bu genellikle küçük hacimli parçalardır (cam paneli, tabela elemanı, aydınlatma armatürü) ve bunlar platform sepediyle veya el taşımasıyla çözülür; forklift benzeri bir istifleme makinesine kule sahasında pratik bir iş düşmez. Dar servis şeritleri ve kaldırım kısıtları da zaten bir forklift operasyonuna uygun değildir. Bu yüzden kule tarafındaki müşterilere bu hizmeti önermiyoruz.",
+            },
+            {
+                baslik: "Liman ardiyesinde palet ve malzeme istifleme",
+                metin:
+                    "Ardiye ve depolama sahalarında forklift, palet istifleme, malzeme yerleştirme ve platform işine eşlik eden yük taşıma gibi işlerde kullanılır. Bu talep genellikle platform kiralamayla birlikte gelir — örneğin bir depo çatısı bakımı sırasında zemin seviyesinde malzeme taşıma forklift ile, yüksek noktadaki iş platform ile yürütülür; iki ekipman aynı sahada farklı işlevlerle koordineli çalışır.",
+            },
+            {
+                baslik: "Zemin ve saha uygunluğu",
+                metin:
+                    "Ardiye zeminleri genellikle forklift operasyonuna uygun düz betondur; bu, liman sahasını kule sahasından ayıran bir diğer pratik farktır. Kapasite ve lastik tipi (iç mekân/dış saha) zemin ve yük ağırlığına göre keşifte belirlenir; ıslak veya düzensiz zemin varsa iş öncesi zemin durumu kontrol edilir.",
+            },
+            {
+                baslik: "Terminal giriş prosedürünün forklift için de geçerliliği",
+                metin:
+                    "Forklift de terminal sahasına giren bir ekipman olduğu için, platform işlerinde uygulanan aynı giriş prosedürü (plaka-personel bildirimi, saha güvenlik brifingi) forklift için de geçerlidir. Ayrı bir ekipman olarak geldiğinde ayrı bir bildirim gerekir; platform işiyle birlikte gelecekse tek bildirimde ikisi birlikte listelenebilir.",
+            },
+            {
+                baslik: "Bu hizmeti neden dürüstçe sınırlı tutuyoruz",
+                metin:
+                    "Forklift-istifleme, bu domainin uzmanlık ekseni olan yüksekte erişim işinin dışında kalan bir hizmettir; kule tarafında talep gelirse gerçekçi olarak önermiyoruz çünkü sahanın kendisi buna uygun değil. Liman/ardiye tarafında ise platform işiyle birlikte anlamlı bir tamamlayıcı hizmet olduğu için sunuyoruz, ama bunu ana uzmanlık alanımız gibi göstermiyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift hizmetinin iki sahadaki uygulanabilirliği",
+                paragraflar: [
+                    "Aşağıdaki tablo, forklift-istifleme hizmetinin kule ve liman sahalarındaki gerçekçi karşılığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Forklift ihtiyacı", "Tipik kullanım", "Önerimiz"],
+                    satirlar: [
+                        ["Kule cephesi/lobisi", "Neredeyse yok", "—", "Önerilmez"],
+                        ["Kule ofis kat içi", "Çok düşük", "Küçük parça taşıma (elle/platform sepeti yeterli)", "Önerilmez"],
+                        ["Liman ardiye/depo", "Yüksek", "Palet istifleme, malzeme yerleştirme", "Platform işiyle birlikte sunulur"],
+                        ["Konteyner saha çevresi", "Orta-yüksek (özel ekipman gerekebilir)", "Sınırlı istifleme desteği", "Kapsam ve ekipman keşifte netleştirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Platform işiyle forklift işinin birlikte planlanması",
+                paragraflar: [
+                    "Liman ardiyesinde çatı, raf üstü veya aydınlatma bakımı gibi bir platform işi varsa ve aynı sahada zemin seviyesinde malzeme taşıma ihtiyacı da varsa, iki ekipman tek bir saha planında koordine edilir — platform yüksek noktada çalışırken forklift zemin seviyesinde malzeme hazırlar, iki ekip birbirinin çalışma alanına girmeyecek şekilde günlük plana yerleştirilir.",
+                    "Bu koordinasyon, iki ayrı tedarikçiyle çalışmaktan daha az idari yük getirir ve terminal giriş bildirimi tek seferde iki ekipman için yapılabilir.",
+                ],
+            },
+            {
+                baslik: "Kule müşterisine dürüst yönlendirme",
+                paragraflar: [
+                    "Kule bölgesinden forklift talebi geldiğinde önce iş tanımını netleştiriyoruz — çoğu zaman gerçek ihtiyaç yük taşıma değil, küçük parça montajı veya erişimdir ve bu, zaten kiralanan platformun sepediyle çözülür. Gerçekten ağır yatay yük taşıma ihtiyacı varsa (nadir bir senaryo, örneğin büyük bir ekipman değişimi), bu iş genel yük taşıma/vinç hizmeti kapsamına girer ve bu konuda müşteriyi doğru kaynağa yönlendiririz; kendimiz bu hizmeti kule sahasında sunmuyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kule cephesinde forklift kiralayabilir miyiz?",
+                cevap:
+                    "Gerçekçi olarak önermiyoruz — kule servis şeritleri ve kaldırım kısıtları forklift operasyonuna uygun değildir ve kule işlerinde yatay yük taşıma ihtiyacı neredeyse hiç oluşmaz. İhtiyacınız küçük parça taşımaysa (cam paneli, tabela elemanı gibi) bu zaten kiraladığınız platformun sepediyle çözülür. Gerçekten farklı bir yük taşıma ihtiyacınız varsa, bunu keşifte konuşup doğru çözüme yönlendiririz.",
+            },
+            {
+                soru: "Liman ardiyesinde platform işiyle birlikte forklift de kiralayabilir miyiz?",
+                cevap:
+                    "Evet, bu bizim için anlamlı bir kombinasyon — depo çatısı veya raf üstü bir platform işi sırasında zemin seviyesinde malzeme taşıma ihtiyacı varsa forklift, aynı saha planına dahil edilir. İki ekipman koordineli çalışır, terminal giriş bildirimi tek seferde iki ekipman için yapılabilir. Bu talep genellikle platform işiyle birlikte geldiğinde en verimli sonucu verir.",
+            },
+            {
+                soru: "Forklift terminale girerken ayrı bir onay mı gerekiyor?",
+                cevap:
+                    "Platform işinden bağımsız geldiğinde evet, ayrı bir plaka-personel bildirimi gerekir. Ama platform işiyle birlikte planlanıyorsa, iki ekipman aynı bildirimde listelenebilir — terminal işletmesine tek seferde iki araç ve iki personel bilgisi iletilir. Bu, ayrı ayrı bildirim yapmaktan daha az idari yük getirir.",
+            },
+            {
+                soru: "Sadece forklift-istifleme hizmeti alabilir miyiz, platform işi olmadan?",
+                cevap:
+                    "Liman/ardiye sahasında evet, mümkündür — forklift işi platform işine bağımlı değildir, birlikte de tek başına da talep edilebilir. Kule tarafında ise bu hizmeti sunmuyoruz çünkü sahanın kendisi buna uygun değil; kule bölgesindeki tek yatay taşıma ihtiyacı genellikle platform sepediyle veya el taşımasıyla zaten çözülür.",
+            },
+            {
+                soru: "Ardiye zemini forklift için uygun mu, nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Ardiye zeminleri genellikle düz beton olduğu için uygundur, ama yük ağırlığı ve lastik tipi (iç mekân/dış saha) keşifte zemine göre belirlenir. Islak veya düzensiz bir zemin durumu varsa iş öncesi kontrol edilir ve gerekirse önlem alınır. Bu kontrol, platform işinde uyguladığımız zemin değerlendirmesinin aynısıdır.",
+            },
+            {
+                soru: "Neden bu hizmeti sitenizde ana hizmet gibi göstermiyorsunuz?",
+                cevap:
+                    "Çünkü ana uzmanlığımız yüksekte erişim ekipmanı kiralamadır ve forklift-istifleme bu eksenin dışında kalan, yalnızca liman/ardiye sahasında anlamlı bir tamamlayıcı hizmettir. Kule tarafında bu hizmete gerçek bir ihtiyaç olmadığını bilerek 'her şeyi yaparız' demek yerine, nerede anlamlı olduğunu dürüstçe belirtmeyi tercih ediyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kule servis şeritlerinin dar/kısıtlı olduğu ve liman ardiye sahalarının düz beton zeminli, forklift operasyonuna uygun genel bir yapı sunduğu kamuya açık saha bilgisidir; kapsam sınırı ve koordinasyon pratiği firma deneyimidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Kule Cephesinden Liman Sahasına: Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platformun (boom) bom yapısı, birden fazla eklemden bağımsız kırılabilir — bu geometri, İstanbul'un iki farklı sahasında iki farklı nedenle vazgeçilmez hâle gelir. Levent-Maslak-Ataşehir kulelerinde bom, dar servis şeridinden kuleye doğru istenen açıyla, yaya geçişini ve taksi cebini kapatmadan yaklaşır; kırılma kabiliyeti, sepedi kule cephesinin altına değil önüne, hassas bir açıyla konumlandırmayı mümkün kılar. Ambarlı çevresindeki liman ve ardiye sahalarında ise aynı bom, farklı bir problemi çözer — konteyner istifleri, saha vinci rayları ve depo çatı kirişleri gibi engellerin arasından dolaşarak yüksek noktaya, düz bir teleskopik çıkışın erişemediği açıdan ulaşır. İki sahanın ortak paydası, hedefin altının 'dolu' olması — kulede yaya/servis şeridi kısıtı, limanda geniş ama engelli bir saha dokusu — ve bu doluluğun düz çıkışı değil kırılan bir kolu gerektirmesidir. Bu sayfa, ana hizmetimiz olan eklemli platform kiralamanın iki sahadaki farklı mantığını, model sınıflarını ve karar sürecini baştan sona anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule cephesinde bom geometrisi: yaklaşma açısı ve hassasiyet",
+                metin:
+                    "Kule cephesindeki iş (cam panel değişimi, tabela montajı, menfez bakımı), sepedin cepheye son metrede süzülerek yaklaşmasını gerektirir — bomun kırılabilir yapısı, dar servis şeridinden makineyi hareket ettirmeden, sepedi istenen açıya getirir. Sepet kenarına yumuşak tampon takılır, rüzgâr belli bir hızı geçtiğinde cepheye yakın çalışma durdurulur çünkü yüksek kattaki rüzgâr yükü sepedi beklenenden fazla sallayabilir. Bu hassasiyet, liman sahasındaki geniş açıklıklı işten kökten farklı bir operatör disiplini gerektirir.",
+            },
+            {
+                baslik: "Liman sahasında bom geometrisi: engelin ötesine erişim",
+                metin:
+                    "Liman ve ardiye sahalarında hedef genellikle depo çatısı, saha aydınlatma direği veya raf sistemi üst katıdır ve makine, konteyner istifi veya sabit ekipmanın çevresinden dolaşarak bu hedefe ulaşır. Burada hassasiyet cepheye temas değil, sahadaki ağır araç trafiğiyle bomun görüş hattı ve öncelik çakışmasıdır — bom, konteyner taşıyıcı aracın geçiş güzergâhına asla uzatılmaz, telsiz koordinasyonu sürekli açık tutulur.",
+            },
+            {
+                baslik: "Model sınıfı: kompakt elektrikli mi, teleskopik bomlu mu",
+                metin:
+                    "Kule tarafında dar servis şeridi genellikle kompakt gövdeli elektrikli/hibrit eklemli sınıfı zorunlu kılar — standart dizel eklemli çoğu zaman şeride sığmaz ve gündüz kullanımında gürültü/egzoz kısıtı da bu tercihi pekiştirir. Liman tarafında ise açık saha ve yüksek erişim ihtiyacı nedeniyle teleskopik bomlu, dizel tahrikli büyük sınıf öne çıkar; sahanın rüzgâra açık olması nedeniyle rüzgâr sınırına kule bölgesinden daha sık bakılır. Doğru sınıf, hedefin geometrisi ve saha tipi keşifte netleştirilmeden kesinleştirilmez.",
+            },
+            {
+                baslik: "Onay süreci: bina yönetimi ile terminal giriş prosedürünün farkı",
+                metin:
+                    "Kule tarafında iş, bina yönetiminin onay sürecine (zemin yükü, çalışma saati, güvenlik eskortu) tabidir ve bu süreç bina büyüklüğüne göre günler sürebilir. Liman tarafında ise terminal işletmesinin kendi giriş prosedürü (plaka-personel bildirimi, saha güvenlik brifingi) geçerlidir ve buna ek olarak iç saha ulaşım mesafesi de plana eklenir. İki onay mercii farklı olsa da, ortak nokta aynıdır: keşifte öğrenilen kurallara göre iş planlanır, kural atlanmaz.",
+            },
+            {
+                baslik: "Çalışma saati penceresi: gece kule, vardiya arası liman",
+                metin:
+                    "Kule cephesindeki görünür işler (ana giriş, cephe) genellikle gece veya mesai dışı pencerede yapılır çünkü yaya trafiği azalır ve bina yönetimi bu saatleri tercih eder. Liman sahasında operasyon 7/24 sürebildiği için çalışma saati, terminalin kendi vardiya yoğunluğuna göre belirlenir — bazen vardiya arasındaki sakin pencere gündüzden daha uygun olabilir. Kesin saat her iki sahada da keşifte yerel yönetimle netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman sahasında eklemli platform senaryoları",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki sahadaki tipik eklemli platform senaryolarını ve önerilen model sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Saha tipi", "Erişim zorluğu", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Kule cam panel değişimi", "Dar servis şeridi", "Hassas temas, dar park", "Kompakt elektrikli/hibrit eklemli"],
+                        ["Kule tabela/logo montajı", "Yüksek cephe, görünür", "Yüksek kat, gece pencere", "Teleskopik bomlu (dar gövde)"],
+                        ["Depo çatısı bakımı", "Liman/ardiye açık saha", "Geniş açıklık, rüzgâr", "Dizel teleskopik bomlu"],
+                        ["Saha aydınlatma direği", "Liman/ardiye açık saha", "Yüksek erişim, ağır araç trafiği", "Dizel teleskopik/eklemli"],
+                        ["Raf sistemi üst kat bakımı", "Liman ardiye iç/yarı açık", "Dar koridor arası erişim", "Kompakt eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zarf hesabı: kulede metre, limanda güzergah",
+                paragraflar: [
+                    "Kule tarafında bom seçimi, servis şeridinin genişliği ile hedefin yatay-düşey mesafesinin karşılaştırılmasıyla yapılır — bu ölçüm santimetre hassasiyetinde keşifte netleştirilir, aksi hâlde standart bir eklemli dar şeride sığmayabilir. Liman tarafında ise ölçüm daha çok bir güzergah hesabıdır: makinenin park edeceği nokta ile hedef arasındaki konteyner istifi veya sabit ekipman engelinin yüksekliği ve derinliği, bomun hangi açıyla dolaşacağını belirler.",
+                    "İki hesap da aynı mantığa dayanır — 'kaç metre' rakamı tek başına yeterli değildir, hedefe hangi güzergahtan ve hangi açıyla ulaşılacağı bilinmeden makine seçimi tamamlanmaz.",
+                ],
+            },
+            {
+                baslik: "Aynı hafta iki sahada iş: makine ve operatör planlaması",
+                paragraflar: [
+                    "Bir işletmenin aynı hafta içinde hem bir kulede hem liman tesisinde eklemli platform ihtiyacı varsa, iki iş tipik olarak farklı model sınıfı gerektirdiği için ayrı makine planlanır — kompakt elektrikli kule tarafında, teleskopik dizel liman tarafında. Operatör ataması da benzer şekilde ayrılır çünkü iki saha farklı disiplin ister: kulede hassas cephe yaklaşımı, limanda ağır araç trafiğiyle koordinasyon. Nakliye rotası ise haftalık planda ortak takvimde birleştirilerek verimlilik sağlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kule cephesinde eklemli platform yerine makaslı kullanılamaz mı, neden eklemli tercih ediliyor?",
+                cevap:
+                    "Makaslı düz yukarı çıkar; kule cephesinde ise sepedin dar servis şeridinden kuleye doğru belirli bir açıyla yaklaşması gerekir ve bu yalnızca kırılabilir bom yapısıyla mümkündür. Hedefin altı boş ve düz çıkış yetiyorsa (örneğin geniş bir meydan kenarındaki alçak katlı iş) makaslı da değerlendirilir, ama kule cephesi işlerinin büyük kısmında bom gerekliliği geometriden gelir, tercihten değil.",
+            },
+            {
+                soru: "Liman sahasında konteyner istifleri arasından nasıl erişim sağlanıyor?",
+                cevap:
+                    "Makine, istiflerin dışına park edilir ve bom, hedefin (çatı, direk, raf üstü) üzerine, istiflerin çevresinden dolaşarak eklemlerinden kırılarak uzanır. Bu güzergah, keşifte hedefin ve engelin ölçüsü belirlenerek önceden hesaplanır; sahaya çıkıp deneme yapılmaz. Konteyner düzeni değişkense (dönemsel yeniden istifleme gibi) güncel saha durumu iş gününe yakın tekrar teyit edilir.",
+            },
+            {
+                soru: "Rüzgâr her iki sahada da işi aynı şekilde mi etkiliyor?",
+                cevap:
+                    "Hayır, farklı şekillerde — kule tarafında rüzgâr esas olarak yüksek kattaki sepet sallanmasını ve cepheye teması etkiler, belli bir hız eşiğinde cepheye yakın çalışma durdurulur. Liman tarafında ise açık deniz kenarı konumu nedeniyle rüzgâr limiti bazen terminalin kendi operasyon kuralına bağlı olarak bizim makine limitimizden önce devreye girer; terminal operasyonu durursa bizim işimiz de otomatik olarak durur.",
+            },
+            {
+                soru: "Kule tarafında dizel eklemli kullanabilir miyiz, daha büyük ve güçlü diye?",
+                cevap:
+                    "Genellikle önermiyoruz — dizel eklemli hem gürültü/egzoz nedeniyle gündüz kullanımında kısıtlanır hem de gövde genişliği dar servis şeridine çoğu zaman sığmaz. Kompakt elektrikli/hibrit sınıf, daha az yer kaplarken bom erişimi büyük sınıfa yakın kalabilir. Yükseklik veya erişim mesafesi kompakt sınıfı gerçekten aşıyorsa, o zaman istisnai olarak büyük sınıf değerlendirilir ama bu durum dar şeride sığma keşfiyle birlikte netleştirilir.",
+            },
+            {
+                soru: "Liman tarafında saha vinciyle aynı anda çalışmak güvenli mi?",
+                cevap:
+                    "Güvenli hâle getirilir, kendiliğinden güvenli değildir. Operatör, saha vinci ve konteyner taşıyıcı araçlarla görüş hattı kurar, telsiz kanalı üzerinden koordinasyon sağlanır ve bom, ağır aracın geçiş güzergâhına asla uzatılmaz. Terminal işletmesinin kendi trafik kuralları (belirli şeritlerin öncelikli olması gibi) varsa, bu kurallar bizim çalışma planımızın da temelini oluşturur.",
+            },
+            {
+                soru: "İki sahada da düzenli işimiz olacak, yıllık bir eklemli platform anlaşması yapabilir miyiz?",
+                cevap:
+                    "Evet, bu model özellikle her iki bölgede de düzenli bakım ihtiyacı olan kurumsal müşteriler için pratiktir. Tek bir çerçeve anlaşma altında iki saha için ayrı model sınıfı, ayrı onay süreci ve ortak bir nakliye takvimi tanımlanır; bu, hem idari yükü azaltır hem nakliye rotası optimizasyonuyla maliyet avantajı sağlar. Yıllık iş hacminizi paylaşırsanız, iki sahayı kapsayan planı birlikte kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Levent-Maslak-Ataşehir kule bölgesinin dar servis şeridi/yoğun yaya trafiği ve Ambarlı çevresindeki liman/ardiye sahasının geniş, ağır araç trafikli açık saha dokusu kamuya açık kentsel/lojistik bilgidir; bom geometrisi mantığı genel EN 280 kapsamındaki eklemli platform çalışma prensibine, saha koordinasyon pratikleri firma deneyimine dayanır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Kule Ofis Katı ve Liman Ardiyesinde İç Mekân Platform Kiralama",
+        giris:
+            "İç mekân platform ihtiyacı, İstanbul'un kule ve liman ikilisinde iki farklı iç mekân tipini kapsar. Kule tarafında bu, ofis katı asma tavanı, atrium boşluğu, teknik galeri ve otopark rampası gibi binanın kendi iç hacimlerindeki işlerdir — zemin genellikle beton veya mermer, tavan yüksekliği standart kat yüksekliğidir ve egzoz emisyonu nedeniyle akülü/elektrikli makine zorunludur. Liman tarafında ise iç mekân, ardiye ve depolama hangarlarının kapalı hacmidir — burada tavan yüksekliği çok daha fazla olabilir, zemin genellikle sade beton, ama saha içi forklift/araç trafiği kule ofisinden farklı bir koordinasyon gerektirir. İki sahanın ortak paydası kapalı hacimde çalışmanın getirdiği kısıtlardır: egzozsuz tahrik, zemin koruma ve komşu faaliyetle çakışmama. Bu sayfa, iki farklı iç mekân tipinde platform kiralamanın nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule ofis katında asma tavan ve teknik galeri",
+                metin:
+                    "Ofis katlarındaki asma tavan bakımı, sprinkler/havalandırma hattı kontrolü gibi işler, standart kat yüksekliğinde (genellikle 2,5-4 metre net yükseklik) kompakt makaslı veya küçük eklemli sınıfla yürütülür. Kiracının çalışma saatleri dışında (akşam sonrası veya hafta sonu) planlanması tercih edilir çünkü ofis kat içinde gündüz çalışan personel varsa makine hareketi iş akışını böler. Zemin genellikle halı kaplı veya laminat olduğu için tekerlek koruma standarttır.",
+            },
+            {
+                baslik: "Kule atrium ve lobi boşluğunda dikkatli manevra",
+                metin:
+                    "Atrium gibi çok katlı açık boşluklarda makine, yürüyen merdiven veya asma katın kenarından dirsekli bir hareketle yükselerek hedefe ulaşır, boşluğun ortasından geçmeye çalışmaz. Mermer zeminde ani dönüş ve sürtünmeden kaçınılır, iş öncesi-sonrası zemin fotoğrafla belgelenir. Bu işler genellikle merkez/bina yönetiminin belirlediği kapanış-açılış arası dar bir pencerede yürütülür.",
+            },
+            {
+                baslik: "Liman ardiyesinde yüksek tavan ve raf sistemi erişimi",
+                metin:
+                    "Depolama hangarlarının iç yüksekliği kule ofis katından belirgin şekilde fazladır ve raf sistemi üst kat bakımı, çatı altı aydınlatma, sprinkler hattı gibi işler bu yüksekliğe uygun akülü makaslı veya kompakt eklemli sınıfla yürütülür. Zemin genellikle sade beton olduğu için tekerlek koruma kule kadar hassas değildir, ama forklift trafiği varsa çalışma alanı bariyerle ayrılır.",
+            },
+            {
+                baslik: "Kapalı alanda güç tipi zorunluluğu (her iki sahada ortak)",
+                metin:
+                    "Hem kule iç mekânında hem liman ardiyesinde egzoz emisyonu nedeniyle dizel/LPG makine kullanılamaz; akülü veya elektrikli sınıf zorunludur. Vardiya boyunca kesintisiz çalışma gerekiyorsa akü kapasitesi ve şarj noktası teslimat öncesi planlanır — bu planlama iki sahada da aynı mantıkla yapılır, farkı yalnızca ihtiyaç duyulan tavan yüksekliği ve zaman penceresidir.",
+            },
+            {
+                baslik: "Onay süreci: bina yönetimi ile terminal işletmesinin farkı",
+                metin:
+                    "Kule iç mekân işleri bina yönetiminin çalışma saati ve güvenlik onayına tabidir; liman ardiye işleri ise terminal işletmesinin giriş prosedürüne ve varsa depo işletmecisinin kendi güvenlik kuralına tabidir. İki onay mercii farklı olsa da her ikisinde de iş, keşifte öğrenilen kurallara göre planlanır ve zamanlaması bu onay sürecine göre kesinleşir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman iç mekânında tipik iş karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki farklı iç mekân tipinde tipik işleri ve önerilen makine yaklaşımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İç mekân tipi", "Tavan yüksekliği", "Tipik iş", "Zaman penceresi"],
+                    satirlar: [
+                        ["Kule ofis katı", "Standart kat yüksekliği", "Asma tavan, sprinkler bakımı", "Mesai dışı"],
+                        ["Kule atrium/lobi", "Çok katlı boşluk", "Aydınlatma, cephe iç yüzü", "Kapanış-açılış arası"],
+                        ["Liman ardiye hangarı", "Yüksek (hangar tipi)", "Raf üstü, çatı altı bakım", "Vardiya arası"],
+                        ["Liman idare/ofis içi", "Standart kat yüksekliği", "Tavan, kablo kanalı", "İş yoğunluğuna göre"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin koruma: mermer lobi ile ardiye betonu farkı",
+                paragraflar: [
+                    "Kule lobisinde mermer veya parke zemin, en ufak bir çizik veya iz bırakma riskine karşı yumuşak mat ve koruyucu tabla ile çalışılır; hareket düşük hızda ve ani dönüşten kaçınılarak yapılır. Liman ardiyesinde ise zemin genellikle sade endüstriyel beton olduğu için bu hassasiyet düzeyi aranmaz, ama forklift ve araç trafiğinin geçtiği güzergahlarda makine konumlandırması yine de dikkatli planlanır.",
+                    "İki sahada da iş öncesi-sonrası zemin durumu fotoğraflanır; bu, olası bir ihtilafta hem bizim hem müşterinin elinde net bir referans bırakır.",
+                ],
+            },
+            {
+                baslik: "Akü planlaması: kısa kule penceresi, uzun liman vardiyası",
+                paragraflar: [
+                    "Kule iç mekân işleri genellikle birkaç saatlik dar bir pencereye sığdırılır, bu yüzden akü kapasitesi kısa yoğun kullanım için planlanır. Liman ardiyesindeki işler ise daha uzun sürebilir ve vardiya boyunca kesintisiz çalışma gerekebilir; bu durumda akü kapasitesi ve gerekirse şarj noktası veya yedek makine planı teslimat öncesi netleştirilir. İki senaryo da akü ihtiyacını farklı büyüklükte ele alır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kule ofisimizde asma tavan bakımı için hangi makine sınıfı uygun?",
+                cevap:
+                    "Standart kat yüksekliğinde (genellikle 2,5-4 metre net) kompakt akülü makaslı veya küçük eklemli sınıf yeterlidir. Zemin halı/laminat kaplıysa tekerlek koruma standart uygulamamızdır. İş genellikle mesai dışı saatlere planlanır çünkü gündüz ofis içi personel trafiği varken makine hareketi iş akışını böler; kesin saat bina yönetimi ve kiracıyla birlikte netleştirilir.",
+            },
+            {
+                soru: "Liman ardiyesindeki hangarın tavanı çok yüksek, standart makaslı yeter mi?",
+                cevap:
+                    "Hangar yüksekliği kule ofis katından belirgin fazla olduğu için, önce tavan/hedef yüksekliği net ölçülür — yeterli çalışma yüksekliğine sahip akülü makaslı veya kompakt eklemli sınıf seçilir. Yetersiz metrajlı bir makine gönderilirse hedefe ulaşılamaz, bu yüzden yükseklik bilgisi keşifte kesinleştirilmeden makine tipi belirlenmez.",
+            },
+            {
+                soru: "Kapalı alanda dizel makine kullanamıyor muyuz, alternatif ne?",
+                cevap:
+                    "Hayır, kapalı bir iç mekânda (kule ofisi de liman ardiyesi de) dizel/LPG makine kullanılmaz; egzoz gazının kapalı havalandırmaya karışması kabul edilemez bir risktir. Alternatif akülü/elektrikli sınıftır; bu sınıf hem egzoz üretmez hem daha sessiz çalışır. Akü kapasitesi işin süresine göre önceden hesaplanır, uzun vardiyalarda şarj noktası veya yedek makine planı yapılır.",
+            },
+            {
+                soru: "Atrium boşluğunun ortasından geçerek mi yükseliyorsunuz?",
+                cevap:
+                    "Hayır, bom (varsa) veya makine konumu, boşluğun kenarından dirsekli bir hareketle hedefe ulaşacak şekilde planlanır; boşluğun tam ortasından geçmeye çalışılmaz. Operatör bu manevrayı düşük hızda ve sürekli görsel kontrolle yapar. Boşluğun genişliği yeterli açıklık sağlamıyorsa alternatif bir yaklaşım noktası keşifte belirlenir.",
+            },
+            {
+                soru: "Liman ardiyesinde forklift trafiği varken platform güvenli çalışabilir mi?",
+                cevap:
+                    "Evet, ama çalışma alanı bariyerle ayrılır ve platform ile forklift güzergahları çakışmayacak şekilde günlük plana yerleştirilir. Operatörümüz saha içi araç trafiğiyle görüş hattı kurar; forklift ile platformun aynı koridoru aynı anda kullanması engellenir. Bu koordinasyon, sahadaki depo işletmecisiyle birlikte iş öncesi netleştirilir.",
+            },
+            {
+                soru: "Kule ile liman ardiyesi arasında iç mekân işini aynı hafta planlayabilir miyiz?",
+                cevap:
+                    "Evet, iki iş farklı model sınıfı ve zaman penceresi gerektirse de haftalık bir plan altında birlikte yürütülebilir. Kule tarafı genellikle mesai dışı dar bir pencereye, liman ardiyesi ise vardiya programına göre daha esnek bir pencereye sığar. Haftalık iş listesini paylaşırsanız, iki iç mekân işini de tek bir nakliye ve operatör planında birleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kule ofis katlarının standart kat yüksekliğine sahip olduğu ve liman ardiye/depolama hangarlarının genellikle daha yüksek tavanlı endüstriyel iç mekân sunduğu genel bina bilgisidir; zemin koruma, akü planlama ve saha koordinasyon pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Liman Hangarı ve Kule İnşaat Bitişiğinde Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Çelik konstrüksiyon montajı, İstanbul'un kule ve liman ikilisinde iki farklı bağlamda karşımıza çıkar. Liman ve ardiye tesislerinde bu, büyük depolama hangarlarının çelik iskelet montajı, çatı kirişi ve aşık montajı, cephe/çatı kaplama işleridir — geniş açık sahada vinç ile platformun birlikte çalıştığı, montaj sırasına bağlı bir süreçtir. Kule bölgesinde ise çelik konstrüksiyon montajı, Maslak gibi hâlâ inşaat hâlindeki parsellerin mevcut binaya bitişik yeni yapım işlerinde veya kule eklentisi/ek yapım projelerinde görülür — burada saha, liman hangarı kadar geniş değildir ve montaj, komşu binaya bitişik dar bir şeritte, bina yönetimi ile şantiye şefliğinin ortak onayıyla ilerler. İki bağlamın ortak paydası, montajın belirli bir sırayla (kolon-kiriş-çapraz-kaplama) ilerlemesi ve platformun bu sıraya göre güncellenen bir park/erişim planına ihtiyaç duymasıdır. Bu sayfa, iki farklı ölçekteki çelik montaj sahasında platformun rolünü, montaj sırasıyla ilişkisini ve vinç koordinasyonunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Liman hangarında geniş açık saha montaj sırası",
+                metin:
+                    "Depolama hangarı veya ardiye çatısının çelik iskelet montajı, önce kolonlar, sonra ana kirişler, sonra aşık ve çaprazlarla ilerler; sahanın geniş olması makine park planını kule tarafına göre daha esnek kılar ama saha içi ağır araç ve vinç trafiği ayrı bir koordinasyon katmanı ekler. Platform, kolon-kiriş birleşim noktalarına dışarıdan park edip bomu kırarak ulaşır; aynı anda vinç çelik eleman taşıyorsa, platform o bölgenin dışında beklenir.",
+            },
+            {
+                baslik: "Kule bitişiğinde dar parsel montaj kısıtı",
+                metin:
+                    "Maslak gibi bazı bölgelerde yeni inşaat, mevcut kullanımdaki bir kuleye bitişik ilerler; bu durumda montaj sahası hem dar hem de iki farklı otoriteye (mevcut bina yönetimi ve şantiye şefliği) tabidir. Platform bu dar şeritte çalışırken, mevcut binanın cephesine veya yaya trafiğine müdahale etmeyecek şekilde konumlandırılır; iki tarafın da onayı olmadan iş planlanmaz.",
+            },
+            {
+                baslik: "Askıda yük hattı altında çalışma yasağı (her iki sahada ortak)",
+                metin:
+                    "Hem liman hangarında hem kule bitişiği inşaat sahasında, vinç çelik elemanları havada taşırken bu hat platformun bom rotasıyla asla kesişmemelidir. Vinç operatörüyle telsiz koordinasyonu sürekli açık tutulur; platform bir bölgede çalışırken vinç o bölgeye yük taşımaz. Bu kural saha büyüklüğünden bağımsız olarak, çelik montajının olduğu her yerde aynı şekilde uygulanır.",
+            },
+            {
+                baslik: "Cephe/çatı kaplamada seri ilerleme ve rüzgâr etkisi",
+                metin:
+                    "İskelet tamamlandıktan sonra cephe kaplama (liman hangarında trapez sac/sandviç panel, kule bitişiğinde cam-alüminyum cephe elemanı) hat boyunca seri ilerler; platform panel hattını izleyerek kademeli konum değiştirir. Liman sahasının açık ve rüzgâra maruz konumu nedeniyle geniş panel yüzeyinin yelken etkisi burada daha belirgindir ve rüzgârlı günlerde panel taşıma durdurulur; kule cephesinde ise cam panelin hassasiyeti öne çıkar, rüzgâr sınırı yine aranır ama risk teması odaklıdır.",
+            },
+            {
+                baslik: "Montaj ekibiyle günlük saha koordinasyonu",
+                metin:
+                    "Her iki sahada da platform operatörü montaj ekibinin bir parçası gibi çalışır; her sabah kısa bir saha toplantısında o günün montaj sırası, hangi noktalarda platform gerektiği ve vinç rotası netleştirilir. Kule bitişiğinde bu toplantıya bina yönetimi temsilcisi de dahil edilir çünkü mevcut binanın kullanım saatleri montaj planını da etkiler; liman hangarında ise toplantı daha çok montaj ve vinç ekibi arasında yürür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre platform rolü — iki saha karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, çelik konstrüksiyon montajının aşamalarına göre platformun rolünü liman hangarı ve kule bitişiği için karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Liman hangarı", "Kule bitişiği", "Kritik risk"],
+                    satirlar: [
+                        ["Kolon dikme", "Vinç ağırlıklı, geniş saha erişimi", "Vinç ağırlıklı, dar parsel erişimi", "Askıda yük hattı"],
+                        ["Kiriş-aşık montajı", "Bom ile birleşim noktası erişimi", "Bom ile dar açıdan erişim", "Vinç rota çakışması"],
+                        ["Çapraz bağlantı", "Geniş manevra alanı", "Kuyruk taşması riski yüksek", "Dönüş bariyeri"],
+                        ["Cephe/çatı kaplama", "Trapez sac, geniş rüzgâr etkisi", "Cam-alüminyum, temas hassasiyeti", "Rüzgâr/panel yelken etkisi"],
+                        ["Son kontrol-detay", "Nokta bazlı, esnek", "Bina yönetimi onaylı pencere", "Zaman kısıtı"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki otoriteli sahada onay sırası",
+                paragraflar: [
+                    "Kule bitişiğindeki montaj sahasında iş planı, hem mevcut bina yönetiminin hem şantiye şefliğinin ortak onayıyla kurulur; bu iki tarafın ayrı ayrı görüşülmesi, çelişen talimatlarla sonuçlanabileceği için mümkünse keşif toplantısına her iki temsilcinin birlikte katılması istenir. Liman hangarında ise tek otorite genellikle şantiye/montaj yükleniciliğidir, terminal işletmesinin giriş prosedürü buna ek bir katman olarak eklenir.",
+                    "Bu fark, kule bitişiği projelerinde planlama süresinin liman hangarına göre biraz daha uzun tutulmasını gerektirir.",
+                ],
+            },
+            {
+                baslik: "İskele ile platform karşılaştırması",
+                paragraflar: [
+                    "Liman hangarının geniş sahasında, büyük ve sabit bir cephe/çatı yüzeyinin toptan kaplanacağı işlerde iskele bazen daha ekonomik olabilir; platformun avantajı ise gün içinde hızlı konum değiştirebilmesi ve kurulum-söküm zamanı gerektirmemesidir. Kule bitişiğinin dar parselinde ise iskele kurmak için de yeterli boşluk genellikle yoktur, bu da platformu çoğu zaman tek pratik seçenek hâline getirir.",
+                    "Karar, işin süresine, hareketliliğine ve saha genişliğine göre keşifte birlikte verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Liman hangarındaki çelik montajda platform mu vinç mi öncelikli?",
+                cevap:
+                    "İkisi farklı işlevlerdir, birbirinin yerine geçmez — vinç ağır elemanları taşır ve konumlandırır, platform ise cıvatalama, kaynak ve detay işlerinde erişim sağlar. Aynı anda çalışırlarsa askıda yük hattı platformun bom rotasıyla kesişmemelidir; telsiz koordinasyonu sürekli açık tutulur. Hangi aşamada hangi ekipmanın öncelikli olduğu montaj takvimine göre günlük planla belirlenir.",
+            },
+            {
+                soru: "Maslak'ta yeni inşaat mevcut kuleye bitişik, iki taraf ayrı mı onay veriyor?",
+                cevap:
+                    "Evet — mevcut bina yönetimi ve şantiye şefliği ayrı otoritelerdir ve iş planı ikisinin de onayıyla kurulur. Bomun mevcut binanın sınırına yakın çalıştığı işlerde bu iki onay eş zamanlı alınır; biri gecikirse iş başlayamaz. Keşif toplantısına her iki tarafın temsilcisinin birlikte katılması, çelişen talimat riskini azaltır ve bizim önerdiğimiz standart yaklaşımdır.",
+            },
+            {
+                soru: "Rüzgârlı günlerde cephe kaplama işi ne kadar etkileniyor?",
+                cevap:
+                    "Ciddi etkilenir — geniş panel yüzeyi rüzgârda yelken gibi davranır ve belli bir rüzgâr hızından sonra panel taşıma durdurulur; bu güvenlik kuralımızdır. Liman hangarının açık ve rüzgâra maruz konumu nedeniyle bu kısıt orada daha sık devreye girer; kule bitişiğinde ise cam panel temas hassasiyeti öne çıkar. Rüzgârlı bir dönemde panel işleri süresi uzayabilir, bu ihtimal takvime baştan işlenir.",
+            },
+            {
+                soru: "Dar parselde platform park edecek yer kalmazsa ne oluyor?",
+                cevap:
+                    "Bu, kule bitişiği montajlarında sık karşılaşılan bir durumdur ve montaj takvimine göre güncellenen bir park planıyla önlenir — her aşama için ayrı park noktası önceden çizilir, iskelet büyüdükçe daralan alanlar plana işlenir. Şantiye ekibiyle birlikte kolon-kiriş-çapraz sırası görülüp hangi aşamada makinenin nereden çalışacağı belirlenir; bu plan olmadan iş başlatılmaz.",
+            },
+            {
+                soru: "Liman hangarında iskele mi kursak platform mu kiralasak, hangisi daha ekonomik?",
+                cevap:
+                    "İşin süresine ve hareketliliğine bağlı — kısa süreli, sahanın farklı noktalarında hareketli çalışma gerektiren montaj işlerinde platform daha ekonomiktir; büyük ve sabit bir yüzeyin toptan kaplanacağı uzun süreli işlerde iskele daha uygun olabilir. Geniş liman hangarında bazı projelerde ikisi farklı aşamalarda birlikte kullanılır. Montaj planınızı paylaşın, maliyet karşılaştırmasını keşifte çıkaralım.",
+            },
+            {
+                soru: "Kule bitişiğinde montaj sırasında mevcut binanın yaya trafiği nasıl korunuyor?",
+                cevap:
+                    "Şantiye sınırı geçici bariyerle çizilir ve platformun bomu bu sınırı aşacaksa mevcut bina yönetiminin onayıyla, yaya trafiğinin en az olduğu saatte çalışılır. Mevcut binanın giriş-çıkışları ve acil çıkış kapıları hiçbir aşamada kapatılmaz; gerekiyorsa yönlendirme levhası ve geçici güvenlik önlemi eklenir. Bu koordinasyon, iş planının bina yönetimiyle birlikte kurulan standart bir parçasıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Askıda yük hattı ve vinç koordinasyon kuralları EN 280 ve iş güvenliği mevzuatı çerçevesindedir; Ambarlı çevresindeki liman hangarlarının geniş açık saha, Maslak gibi bölgelerdeki bazı parsellerin ise mevcut binaya bitişik yeni inşaat dokusu taşıdığı kamuya açık saha bilgisidir; montaj koordinasyon pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Sahası Platform Kiralama — Bu Domainde Kapsam Dışı",
+        giris:
+            "Bu sayfa, dürüstlük ilkesiyle açıkça belirtmek zorunda olduğumuz bir kapsam sınırını anlatır: istanbuleklemliplatform.com, Levent-Maslak-Ataşehir hattındaki gökdelen/kule cephesi ve Ambarlı çevresindeki liman/ardiye tesisleri üzerine kurulu bir uzmanlık hattıdır; tarım sahaları, silo tesisleri ve kırsal/çiftlik yapıları bu uzmanlığın tamamen dışındadır. İstanbul'un kentsel ve liman odaklı coğrafyası, geniş tarım arazisi veya silo tesisi yoğunluğu barındırmaz — bu tip işler genellikle şehrin kırsal çeperlerinde veya farklı illerde yoğunlaşır. Bu sayfayı jenerik bir 'her işi yaparız' cümlesiyle doldurmak yerine, gerçek uzmanlık alanımızı ve bu talebin bize neden gelirse ne önereceğimizi açıkça yazıyoruz.",
+        maddeler: [
+            {
+                baslik: "İstanbul'un kentsel-liman dokusu, tarım/silo yoğunluğu değil",
+                metin:
+                    "Bu domainin hizmet verdiği coğrafya kule bölgesi ve liman tesisleridir; her ikisi de yoğun kentsel veya endüstriyel-lojistik bir dokudur. Tarım arazisi ve silo tesisi gibi kırsal yapılar, bu coğrafyanın karakterinde değildir — dolayısıyla bu alanda saha deneyimimiz ve filomuzun bu işe özel bir konfigürasyonu yoktur.",
+            },
+            {
+                baslik: "Silo yapılarının farklı erişim geometrisi",
+                metin:
+                    "Silo tesisleri, dairesel gövde ve genellikle dar bir zirve erişim noktası gerektirir; bu geometri, kule cephesi veya liman hangarı çatısından farklı bir makine yaklaşımı ister. Bu tip işlerde uzman olan ekipler, silo çapına özel bom açısı ve arazi tipi tahrik konusunda deneyimli olmalıdır — biz bu deneyimi iddia etmiyoruz.",
+            },
+            {
+                baslik: "Kırsal/engebeli zeminde farklı tahrik ihtiyacı",
+                metin:
+                    "Tarım sahalarındaki zemin genellikle toprak, stabilize veya engebeli arazi türündendir ve bu, kule/liman sahalarındaki beton zeminden köklü biçimde farklıdır. Bu zeminlerde çalışacak makinenin arazi tipi tahrik, geniş lastik ve farklı denge sertifikasına sahip olması gerekir; filomuz öncelikli olarak kentsel beton zemin ve liman sahası için yapılandırılmıştır.",
+            },
+            {
+                baslik: "Talep gelirse ne öneriyoruz",
+                metin:
+                    "Tarım veya silo sahası talebi gelirse, önce iş tanımını netleştiriyoruz — bazen talep aslında bir depo/ardiye yapısına yakınsa (örneğin tarımsal ürün depolama hangarı, silo değil), bu bizim liman/ardiye tarafındaki iç mekân deneyimimize yakınsayabilir ve o durumda dürüstçe değerlendiririz. Gerçek bir kırsal arazi/silo işiyse, bu konuda uzman bir tedarikçiye yönlendirmeyi tercih ederiz; yanlış makineyle sahaya gidip iş yapamamak, hem müşteriye hem bize zarar verir.",
+            },
+            {
+                baslik: "Neden bu sayfayı jenerik doldurmuyoruz",
+                metin:
+                    "Bu domainin diğer 10 hizmet sayfası, gerçek uzmanlığımızı (kule cephesi + liman tesisi) yansıtır; tarım-silo sayfasını aynı iddiayla doldurmak, hem okuyucuyu yanıltır hem de arama motorlarının kopya/doorway içerik olarak değerlendirebileceği bir jenerik metin üretir. Bunun yerine kapsam dışı olduğunu açıkça yazmak, hem daha dürüst hem daha az riskli bir yaklaşımdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bu domainin uzmanlığı ile tarım/silo işinin farkı",
+                paragraflar: [
+                    "Aşağıdaki tablo, bu domainin gerçek uzmanlık alanı ile tarım/silo sahası işinin temel farklarını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Bu domainin uzmanlığı", "Tarım/silo sahası"],
+                    satirlar: [
+                        ["Saha tipi", "Kule cephesi / liman-ardiye", "Kırsal arazi / silo tesisi"],
+                        ["Zemin", "Beton, kaldırım, kaplama", "Toprak, stabilize, engebeli"],
+                        ["Erişim geometrisi", "Dar servis şeridi / geniş liman koridoru", "Dairesel silo gövdesi, açık arazi"],
+                        ["Bizim deneyimimiz", "Yoğun (bu domainin çekirdek işi)", "Yok / sınırlı"],
+                        ["Önerimiz", "Doğrudan hizmet veririz", "Uzman tedarikçiye yönlendiririz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yakın ama farklı: liman ardiyesindeki tarımsal ürün deposu",
+                paragraflar: [
+                    "Bazı liman ve lojistik ardiye tesislerinde tarımsal ürün (tahıl, yem gibi) depolanabilir; bu durumda söz konusu olan bir silo değil, standart bir depolama hangarıdır ve bizim liman/ardiye iç mekân deneyimimize girer. Bu ayrımı netleştirmek için iş tanımını (silo mu, depo hangarı mı) keşifte mutlaka soruyoruz — ikisi çok farklı makine ve erişim planı gerektirir.",
+                ],
+            },
+            {
+                baslik: "Dürüst yönlendirmenin uzun vadeli faydası",
+                paragraflar: [
+                    "Bir işi yapamayacağımızı baştan söylemek, kısa vadede bir talebi kaybetmek gibi görünse de, uzun vadede güven inşa eder — yanlış makineyle sahaya gidip işi tamamlayamamak, hem zaman hem itibar kaybettirir. Bu yüzden kapsam dışı taleplerde, elimizden geldiğince doğru yöne (uzman bir silo/tarım ekipmanı tedarikçisi) yönlendirmeyi tercih ediyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo bakımı için platform kiralayabilir miyiz?",
+                cevap:
+                    "Bu konuda uzman değiliz — silo yapıları dairesel gövde ve özel bir zirve erişim geometrisi gerektirir, bizim filomuz ve deneyimimiz kule cephesi ve liman/ardiye sahasına göre yapılandırılmıştır. Silo işiniz varsa, bu konuda deneyimli bir tedarikçiye yönlenmenizi öneririz; yanlış makineyle gelip işi yapamamak sizin için de bizim için de kötü bir sonuç olur.",
+            },
+            {
+                soru: "Tarım arazimizde çelik konstrüksiyon (sera, ahır) montajı için hizmet veriyor musunuz?",
+                cevap:
+                    "Kırsal/engebeli arazide çalışacak arazi tipi tahrik ve zemin uzmanlığımız sınırlı olduğu için bu işi doğrudan önermiyoruz. Çelik konstrüksiyon montaj deneyimimiz liman hangarı ve kule bitişiği gibi kentsel/endüstriyel sahalara dayanır; kırsal arazi koşulları (toprak zemin, engebe) farklı bir makine ve denge sertifikası gerektirir.",
+            },
+            {
+                soru: "Ardiyemizde tahıl/yem depoluyoruz, bu silo sayılır mı?",
+                cevap:
+                    "Hayır, eğer söz konusu olan standart bir depolama hangarıysa (silo gövdeli özel bir yapı değilse) bu bizim liman/ardiye iç mekân deneyimimize girer ve hizmet verebiliriz. Silo mu depo hangarı mı olduğunu netleştirmek için iş tanımını ve fotoğrafını keşifte isteriz — ikisi çok farklı erişim planı gerektirir.",
+            },
+            {
+                soru: "Neden bu hizmeti sunmuyorsunuz, filo eksikliği mi?",
+                cevap:
+                    "Kısmen evet — filomuz öncelikli olarak kentsel beton zemin ve liman sahası için akülü/dizel model karışımıyla yapılandırılmıştır; kırsal engebeli arazide gereken geniş lastikli, yüksek tırmanma kabiliyetli modeller bizim standart filomuzun parçası değildir. Bu iş için doğru ekipmana sahip olmayan bir filoyla sahaya gitmek, hem güvenli değil hem verimsizdir.",
+            },
+            {
+                soru: "Yine de bir teklif alabilir miyiz, belki uygun bir çözüm bulursunuz?",
+                cevap:
+                    "İş tanımını paylaşırsanız değerlendiririz — bazen 'tarım/silo' olarak tanımlanan bir iş aslında bizim kapsamımıza giren bir depo/hangar işi olabilir. Gerçekten kırsal arazi veya silo gövdesi işiyse, dürüstçe kapsam dışı olduğumuzu söyler ve mümkünse bu konuda uzman bir tedarikçi önerisinde bulunuruz.",
+            },
+            {
+                soru: "İstanbul'da tarım/silo işine bakan bir kardeş firmanız var mı?",
+                cevap:
+                    "Belirli bir kardeş firma önerisi sitede yer almıyor çünkü bu, güncel ve doğrulanmış bir yönlendirme olmadan yapılırsa yanıltıcı olur. Talebiniz geldiğinde, o an güncel bilgimize göre uygun bir yönlendirme yapmaya çalışırız; ama bu bir garanti değil, elimizden gelen bir kolaylık sağlama çabasıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstanbul'un kentsel/liman ağırlıklı coğrafyasının geniş tarım arazisi/silo tesisi yoğunluğu barındırmadığı kamuya açık coğrafi bilgidir; kapsam dışı olduğu dürüstçe belirtilmiş, filo ve deneyim sınırı firma kendi değerlendirmesidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Kule Aydınlatması ve Liman Saha Direklerinde Enerji-Aydınlatma Bakım Platformu",
+        giris:
+            "Enerji ve aydınlatma bakımı, İstanbul'un kule ve liman ikilisinde iki farklı ölçekte karşımıza çıkar. Kule tarafında bu, cephe aydınlatma armatürleri, tabela/logo iç aydınlatması, ofis kat elektrik tesisatı ve kule tepesindeki uçak ikaz ışığı gibi noktasal ama yüksekte konumlu işlerdir; erişim, dar servis şeridinden veya bina içi teknik galeriden yapılır. Liman tarafında ise saha aydınlatma direkleri, konteyner terminali güvenlik aydınlatması ve enerji dağıtım hattı çevresi bakımı söz konusudur — burada makine, geniş açık sahada direk tepesine veya hat çevresine, ağır araç trafiğiyle koordineli biçimde ulaşır. İki sahanın ortak paydası elektrik hattına güvenli mesafe kuralıdır: bom iletken gövdeye sahiptir ve bu kural saha büyüklüğünden bağımsız olarak aynı titizlikte uygulanır. Bu sayfa, iki farklı ölçekteki enerji-aydınlatma bakım işinde platform kullanımını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule cephesinde aydınlatma armatürü ve tabela bakımı",
+                metin:
+                    "Kule cephesindeki aydınlatma armatürleri ve logo/tabela iç aydınlatması, genellikle yüksek katlarda ve görünür noktalarda konumlanır; bakım işleri bu görünürlük nedeniyle çoğunlukla gece pencerelerinde yapılır. Sepede taşınabilir aydınlatma eklenir, elektrik kesintisi gerektiren işlerde bina yönetiminin elektrik ekibiyle koordinasyon sağlanır — kesinti zamanlaması diğer kat kullanıcılarını etkilemeyecek şekilde planlanır.",
+            },
+            {
+                baslik: "Kule tepesinde uçak ikaz ışığı ve teknik galeri elektrik hattı",
+                metin:
+                    "Bazı yüksek kulelerde çatı seviyesinde uçak ikaz ışığı bulunur; bu armatürün bakımı, kulenin en üst erişim noktasını gerektirir ve bina yönetiminin çatı erişim protokolüne (genellikle ayrı bir güvenlik onayı) tabidir. Kule eteğindeki teknik galerideki elektrik dağıtım panosu ve kablo kanalı bakımı ise daha sık tekrarlanan, kısa süreli bir iş kalemidir ve bina yönetiminin belirlediği sabit bir bekleme noktasından yürütülür.",
+            },
+            {
+                baslik: "Liman sahasında aydınlatma direği ve güvenlik aydınlatması",
+                metin:
+                    "Konteyner terminali ve ardiye sahalarındaki yüksek aydınlatma direkleri, sahanın genel güvenliği için kritik olduğundan bakım genellikle terminalin belirlediği düşük operasyon yoğunluklu bir vardiya penceresinde yapılır. Makine, direk tabanına park edilir ve bom, direk tepesine düz veya hafif açılı bir erişimle ulaşır; sahanın açık ve rüzgâra maruz olması nedeniyle rüzgâr sınırına dikkat edilir.",
+            },
+            {
+                baslik: "Enerji dağıtım hattı çevresinde güvenli mesafe",
+                metin:
+                    "Hem kule hem liman sahasında enerji hattına yakın çalışma, bom gövdesinin iletken olması nedeniyle güvenli mesafe kuralına tabidir. Hat enerjisiz kılınabiliyorsa (ilgili kurumun süreciyle) iş rahat planlanır; kılınamıyorsa gerilim sınıfına göre tanımlı mesafe korunacak şekilde erişim geometrisi çizilir. Mesafenin sağlanamadığı işler alınmaz; bu, saha büyüklüğünden bağımsız sabit bir güvenlik kuralıdır.",
+            },
+            {
+                baslik: "Acil aydınlatma arızasında hızlı müdahale",
+                metin:
+                    "Kule tarafında acil bir aydınlatma arızası (örneğin ana giriş tabelası veya güvenlik aydınlatması), bina yönetiminin önceden tanımlanmış 'acil erişim' prosedürüyle aynı gün çözülebilir; bu prosedür bilinen operatör ve önceden onaylı çalışma saati aralığı gerektirir. Liman tarafında ise acil müdahale, terminal güvenlik aydınlatmasının kritikliği nedeniyle terminalin kendi acil bakım protokolüne bağlı olarak hızlandırılabilir; her iki durumda da önceden kurulmuş bir hızlı erişim anlaşması, ilk kez gelen bir talepten daha hızlı sonuç verir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman aydınlatma-enerji işleri karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki sahadaki tipik enerji-aydınlatma bakım işlerini karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Saha", "Zaman penceresi", "Kritik nokta"],
+                    satirlar: [
+                        ["Cephe armatürü/tabela", "Kule", "Gece", "Elektrik kesinti koordinasyonu"],
+                        ["Uçak ikaz ışığı (çatı)", "Kule", "Bina yönetimi onaylı pencere", "Çatı erişim protokolü"],
+                        ["Teknik galeri elektrik panosu", "Kule eteği", "Gündüz (yan cephe)", "Sabit bekleme noktası"],
+                        ["Saha aydınlatma direği", "Liman/ardiye", "Vardiya arası sakin pencere", "Rüzgâr sınırı"],
+                        ["Enerji hattı çevresi", "Her iki saha", "Hat kesinti durumu bilinerek", "Güvenli mesafe"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik ekibiyle koordinasyon: kule ile liman farkı",
+                paragraflar: [
+                    "Kule tarafında elektrik kesintisi gerektiren işlerde bina yönetiminin kendi elektrik/teknik ekibiyle koordinasyon kurulur; kesinti, diğer kat kullanıcılarını en az etkileyecek saatte (genellikle gece) yapılır. Liman tarafında ise enerji hattı çevresindeki işler, terminalin kendi elektrik/altyapı biriminin bilgisi dahilinde planlanır ve hat kesintisi gerekiyorsa bu, terminalin operasyon programına göre zamanlanır.",
+                    "Her iki sahada da hattın gerçekten enerjisiz kılınıp kılınmadığı, iş başlamadan önce yazılı veya sözlü teyitle doğrulanır; teyit olmadan hatta yakın çalışma başlatılmaz.",
+                ],
+            },
+            {
+                baslik: "Önceden kurulmuş acil erişim anlaşmasının değeri",
+                paragraflar: [
+                    "Sürekli hizmet aldığımız kule ve liman tesislerinde, acil aydınlatma/enerji arızaları için önceden tanımlanmış bir hızlı erişim prosedürü kurarız — bilinen operatör, bilinen güvenlik iletişim hattı ve önceden onaylı çalışma saati aralığı. Bu altyapı olmadan gelen ilk kez talep, onay süreci nedeniyle aynı gün yetişmeyebilir; bu yüzden düzenli bakım ihtiyacı olan müşterilere bu anlaşmayı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kule tepesindeki uçak ikaz ışığı bakımı için özel bir izin mi gerekiyor?",
+                cevap:
+                    "Evet, genellikle çatı seviyesine erişim bina yönetiminin ayrı bir güvenlik onayına tabidir; bu, kule cephesindeki standart bakım onayından farklı, daha sıkı bir prosedür olabilir. Çatı erişim protokolü ve varsa ek güvenlik ekipmanı gerekliliği keşifte bina yönetiminden öğrenilir; bu bilgi olmadan çatı işi planlanmaz.",
+            },
+            {
+                soru: "Liman sahasındaki aydınlatma direği bakımı gündüz mü yapılıyor?",
+                cevap:
+                    "Genellikle terminalin belirlediği vardiya arası sakin pencerede yapılır; bu pencere gündüz veya gece olabilir, terminalin operasyon yoğunluğuna bağlıdır. Direk tabanına park edip bomla tepeye ulaşma işlemi kendisi gündüz-gece farkı gözetmez, ama sahadaki araç trafiğinin en az olduğu an tercih edilir.",
+            },
+            {
+                soru: "Elektrik hattı kesilmeden yakınında çalışabilir misiniz?",
+                cevap:
+                    "Gerilim sınıfına göre tanımlı güvenli mesafe korunabiliyorsa evet, çalışabiliriz; mesafe sağlanamıyorsa hattın enerjisiz kılınması istenir ve bu olmadan iş yapılmaz. Bom iletken gövdeye sahip olduğu için bu kural pazarlık konusu değildir. Hat konumunu fotoğrafta işaretlerseniz, geometri kontrolünü keşifte yaparız.",
+            },
+            {
+                soru: "Kule ana giriş tabelası bozuldu, aynı gün müdahale mümkün mü?",
+                cevap:
+                    "Kompakt sınıf makineler için genellikle mümkündür çünkü bu tip acil işlerde hızlı konumlandırılabilen kompakt eklemli veya makaslı yeterlidir. Aynı gün müdahalede zaman kaybettiren adım nakliye değil bina yönetiminin acil giriş onayıdır; sürekli hizmet aldığımız kulelerde önceden tanımlanmış bir acil erişim prosedürü bu süreyi kısaltır.",
+            },
+            {
+                soru: "Liman terminalindeki güvenlik aydınlatması acil arıza sayılır mı?",
+                cevap:
+                    "Genellikle evet, çünkü saha güvenlik aydınlatması terminalin genel operasyon güvenliğini ilgilendirir; bu tip arızalarda terminal işletmesi kendi acil bakım protokolünü devreye alabilir ve bizim müdahalemiz bu protokole göre hızlandırılır. Sürekli çalıştığımız terminallerde bu süreç önceden tanımlanmış olduğu için daha hızlı işler.",
+            },
+            {
+                soru: "Teknik galerideki elektrik panosu bakımı ne sıklıkla yapılmalı?",
+                cevap:
+                    "Sıklık, panonun yaşına ve bina yönetiminin bakım programına bağlıdır; biz bir bakım takvimi önermek yerine bina yönetiminin kendi teknik ekibinin veya elektrik mühendisinin belirlediği periyoda göre hizmet veririz. Düzenli tekrarlanan bir iş kalemiyse, sabit bir bekleme noktasından günlük iş listesine göre hareket edilmesi, her seferinde yeniden konumlandırmadan daha verimlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yüksek kulelerde çatı seviyesinde uçak ikaz ışığı bulunabilmesi ve liman sahalarının güvenlik aydınlatma direklerine sahip olması genel bina/saha bilgisidir; güvenli mesafe kuralı EN 280 ve elektrik güvenliği mevzuatına, koordinasyon pratikleri firma deneyimine dayanır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Güvenlik Onaylı Kule ve Terminal Sahalarında Operatörlü Platform Kiralama",
+        giris:
+            "İstanbul'un kule ve liman ikilisinde operatörlü kiralama, çoğu zaman bir tercih değil bir zorunluluktur. Ataşehir'deki finans kurumu binalarında operatör kimliği, güvenlik biriminin onayından geçmeden sahaya giremez; Levent-Maslak kulelerinde bina yönetimi, dışarıdan gelen her operatörün kimlik ve yeterlilik bilgisini önceden ister. Liman ve ardiye tesislerinde ise terminal işletmesinin giriş prosedürü, operatör kimliğinin plaka ve makine seri numarasıyla birlikte önceden bildirilmesini şart koşar. Bu ortamların yüksek güvenlik/erişim standardı, operatörsüz (sadece makine) kiralamayı pratikte neredeyse imkânsız kılar — çünkü sahaya giren kişinin kimliği, yeterliliği ve sigortası önceden bilinmelidir. Bu sayfa, iki sahada operatörlü kiralamanın neden standart hâle geldiğini ve süreçlerin nasıl işlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Finans kurumu binalarında operatör kimlik onayı",
+                metin:
+                    "Ataşehir'deki banka ve finans kurumu genel merkezlerinde çalışacak her operatör, kurumun kendi güvenlik biriminden onay alır; bu onay operatör kimlik bilgisi, yeterlilik belgesi ve iş tanımının önceden bildirilmesini gerektirir. Bu süreç, operatörsüz bir kiralamada müşterinin kendi personeliyle de aynı şekilde işler ama bizim operatörümüzle çalışıldığında evrak seti önceden hazır ve standart olduğu için süreç daha hızlı ilerler.",
+            },
+            {
+                baslik: "Bina yönetiminin dışarıdan gelen operatöre bakışı",
+                metin:
+                    "Levent-Maslak kulelerinde bina yönetimi, dışarıdan gelen her ekip için operatör kimliği, sigorta bilgisi ve makine periyodik kontrol raporunu talep eder; bu evrak seti önceden hazırlanmazsa makine sahaya girse dahi işe başlanamaz. Operatörlü kiralamada bu evrak bizim tarafımızdan standart olarak hazır tutulur ve teklif aşamasında paylaşılır; operatörsüz kiralamada bu sorumluluk müşteriye geçer.",
+            },
+            {
+                baslik: "Liman terminalinde operatör-plaka-makine üçlüsü bildirimi",
+                metin:
+                    "Terminal işletmeleri, sahaya giren her ekipman için operatör kimliği, araç plakası ve makine seri numarasını önceden ister; bu üçlü bilgi olmadan giriş kapısından içeri geçilmez. Operatörlü kiralamada bu bilgi bizim tarafımızdan hazırlanır ve iş tekrarlandıkça (aynı operatör, aynı terminal) süreç zamanla hızlanır çünkü terminal, bizi ve standart evrak setimizi tanır hâle gelir.",
+            },
+            {
+                baslik: "Operatörsüz kiralamanın gerçekçi olduğu durumlar",
+                metin:
+                    "Operatörsüz kiralama, müşterinin kendi yeterlilik belgeli personeli varsa ve saha erişim onayı bu personel adına ayrıca alınabiliyorsa mümkündür; bu genellikle uzun süreli, düzenli iç mekân işlerinde (örneğin bir kulenin kendi teknik ekibi) görülür. Ancak güvenlik onayı yoğun sahalarda (finans kurumu, terminal) operatörsüz kiralama, sürecin karmaşıklığını müşteriye devretmiş olur — bu yüzden bu sahalarda dürüstçe operatörlü seçeneği öneririz.",
+            },
+            {
+                baslik: "Operatör sürekliliğinin sahaya faydası",
+                metin:
+                    "Aynı kule veya terminalde tekrarlanan işlerde aynı operatörün atanması, hem güvenlik onay sürecini hızlandırır (kurum operatörü tanır) hem de operatörün sahanın kendine özgü kurallarını (asansör saatleri, vardiya penceresi, park noktası) bilmesini sağlar. Bu süreklilik, özellikle düzenli bakım sözleşmesi olan müşterilerde bilinçli olarak tercih edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman sahasında operatörlü/operatörsüz karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki sahada operatörlü ve operatörsüz kiralamanın gerçekçi uygulanabilirliğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Operatörlü", "Operatörsüz", "Onay yükü"],
+                    satirlar: [
+                        ["Finans kurumu kulesi (Ataşehir)", "Standart tercih", "Nadiren, kurumun ayrı onayıyla", "Yüksek"],
+                        ["Ofis/plaza kulesi (Levent-Maslak)", "Yaygın tercih", "Mümkün, uzun süreli iç iş için", "Orta-yüksek"],
+                        ["Liman terminali", "Standart tercih", "Nadiren, terminalin ayrı onayıyla", "Yüksek"],
+                        ["Liman ardiyesi (idare ofis içi)", "Tercih edilir", "Kısmen mümkün", "Orta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Evrak setinin önceden hazır olmasının değeri",
+                paragraflar: [
+                    "Operatörlü kiralamada operatör yeterlilik belgesi, sigorta bilgisi ve makine periyodik kontrol raporu her zaman güncel ve hazır tutulur; bu, teklif aşamasında bina yönetimine veya terminal işletmesine iletilebilecek standart bir pakettir. Bu hazırlık, güvenlik onay sürecinin en çok zaman alan kısmını (evrak eksikliği nedeniyle ek soru-cevap turu) baştan önler.",
+                    "Operatörsüz kiralamada bu paketin hazırlanması müşteriye kalır; bu, mümkün olsa da ek bir idari yük anlamına gelir ve süreç genellikle daha uzun sürer.",
+                ],
+            },
+            {
+                baslik: "Aynı operatörün iki sahada dönüşümlü çalışması",
+                paragraflar: [
+                    "Bazı işletmeler hem kule hem liman tarafında düzenli iş aldığından, aynı operatörün her iki sahada da çalışması istenebilir; bu mümkündür ama operatörün her iki sahanın güvenlik onayından ayrı ayrı geçmesi gerekir çünkü onaylar sahaya özeldir, taşınabilir değildir. Böyle bir düzenli ihtiyaçta, operatörün iki sahanın da onay sürecini önceden tamamlamış olması, günlük planlamayı büyük ölçüde kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ataşehir'deki bankada operatörsüz kiralama hiç mümkün değil mi?",
+                cevap:
+                    "Tamamen imkânsız değil ama pratikte nadir — kurumun kendi güvenlik onayı, sahaya giren kişinin kimliğini önceden bilmek ister ve bu genellikle bizim operatörümüz üzerinden daha hızlı ilerler. Kendi personelinizle operatörsüz çalışmak istiyorsanız, personelinizin yeterlilik belgesi ve kimlik bilgisinin kurumun güvenlik onayından geçmesi gerekir; bu süreç bizim standart evrak paketimizden daha uzun sürebilir.",
+            },
+            {
+                soru: "Liman terminaline operatör değişikliği olursa ne yapılır?",
+                cevap:
+                    "Terminal işletmesine yeni operatörün kimlik bilgisi önceden bildirilir ve terminalin kendi onay sürecinden geçmesi beklenir; önceden onaylı bir operatör listesi varsa bu listeye ekleme süreci, ilk kez bildirimden genellikle daha hızlıdır. Operatör değişikliğini mümkün olduğunca erken bildirmek, iş gününde kapıda beklemeyi önler.",
+            },
+            {
+                soru: "Aynı operatör hem Levent'teki kule işimizde hem Ambarlı'daki liman işimizde çalışabilir mi?",
+                cevap:
+                    "Evet, teknik olarak mümkündür ama operatörün her iki sahanın da kendi güvenlik onayından ayrı ayrı geçmesi gerekir; bir sahadaki onay diğerine otomatik geçmez. Düzenli ihtiyacınız varsa, operatörün iki sahanın da onayını önceden tamamlamasını öneririz; bu, günlük planlamayı büyük ölçüde kolaylaştırır.",
+            },
+            {
+                soru: "Operatörlü kiralamada evrak hazırlığını kim yapıyor?",
+                cevap:
+                    "Operatör yeterlilik belgesi, sigorta bilgisi ve makine periyodik kontrol raporu bizim tarafımızdan her zaman güncel tutulur ve teklif aşamasında bina yönetimine veya terminal işletmesine iletilir. Bu, operatörlü kiralamanın en büyük pratik avantajlarından biridir — evrak eksikliği nedeniyle yaşanacak gecikmeyi büyük ölçüde önler.",
+            },
+            {
+                soru: "Uzun süreli bir kule projesinde kendi operatörümüzle operatörsüz kiralama yapabilir miyiz?",
+                cevap:
+                    "Uzun süreli ve düzenli iç mekân işlerinde bu mümkündür; kendi personelinizin yeterlilik belgesi bina yönetiminin güvenlik onayından geçmesi şartıyla operatörsüz kiralama değerlendirilebilir. Bu, özellikle bir kulenin kendi teknik ekibinin sürekli kullandığı bir makine senaryosunda tercih edilir. Kısa süreli veya yüksek güvenlikli sahalarda (finans kurumu gibi) ise operatörlü seçeneği öneririz.",
+            },
+            {
+                soru: "Operatör sürekliliği fiyatı etkiler mi?",
+                cevap:
+                    "Doğrudan bir fiyat farkı yaratmaz ama dolaylı bir verimlilik sağlar — aynı operatörün sahayı ve kuralları bilmesi, iş süresini kısaltabilir ve onay sürecini hızlandırabilir. Düzenli bakım sözleşmesi olan müşterilerde bu sürekliliği bilinçli olarak öneririz çünkü uzun vadede hem operasyonel hem zaman açısından fayda sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Finans kurumu binalarının ve liman terminallerinin yüksek güvenlik/erişim standardına sahip olduğu genel kurumsal güvenlik bilgisidir; operatör onay süreci ve evrak hazırlığı pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Levent-Maslak-Ataşehir Kule Rotası ve Liman Sahası İçi Çok Noktalı Bakım Platformu",
+        giris:
+            "Çok noktalı rota bakımı, İstanbul'un kule ve liman ikilisinde iki farklı ölçekte anlam kazanır. Kule tarafında bu, aynı işletmenin Levent, Maslak ve Ataşehir'deki birden fazla kule/ofis biriminde (örneğin bir bankanın farklı şubeleri veya bir şirketler grubunun farklı genel merkez katları) tekrarlanan bakım rotasıdır — her durak farklı bina yönetiminin onay sürecine tabidir ve rota, bu onayların zamanlamasına göre kurulur. Liman tarafında ise çok noktalı rota, aynı terminal veya ardiye sahası içindeki birden fazla bakım noktasını (birkaç depo çatısı, birkaç aydınlatma direği, birkaç raf bloğu) tek bir günlük veya haftalık planda birleştirmeyi ifade eder — burada sınır bina değil, terminalin kendi iç sahasıdır. Bu sayfa, iki farklı ölçekteki çok noktalı rotanın nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule rotasında farklı bina onaylarının senkronizasyonu",
+                metin:
+                    "Aynı işletmenin Levent, Maslak ve Ataşehir'de farklı kulelerde birimi varsa, her kulenin kendi bina yönetimi onay süreci ayrı ayrı işler — bir kulenin onayı diğerine geçmez. Rota planlaması, her durağın onay süresini ayrı ayrı hesaba katarak kurulur; bir durakta onay gecikirse, günlük rota o durak atlanarak yeniden sıralanır, tüm rota durmaz.",
+            },
+            {
+                baslik: "Kuleler arası mesafe ve trafik penceresi",
+                metin:
+                    "Levent-Maslak-Ataşehir arası mesafe, Boğaz geçişini de içerebileceği için (Avrupa-Anadolu yakası arası günler varsa), rota planlamasında trafik yoğun saatlerinden kaçınılır; aynı yaka içindeki duraklar (örneğin Levent-Maslak) tek günde, farklı yakadaki durak ayrı bir güne planlanır. Bu ayrım, hem nakliye süresini hem operatör yorgunluğunu makul seviyede tutar.",
+            },
+            {
+                baslik: "Liman sahası içi çoklu bakım noktası sıralaması",
+                metin:
+                    "Aynı terminal veya ardiye sahası içinde birden fazla bakım noktası varsa (örneğin üç ayrı depo çatısı ve iki aydınlatma direği), makine sahaya bir kez giriş yapar ve iç sahada noktadan noktaya hareket eder; bu, her nokta için ayrı bir giriş-çıkış prosedürüne göre çok daha verimlidir. Rota sırası, sahadaki ağır araç trafiğinin en az olduğu güzergahlar önceliklendirilerek kurulur.",
+            },
+            {
+                baslik: "Kule ile liman rotasının farklı optimizasyon mantığı",
+                metin:
+                    "Kule rotasında optimizasyon, her bina için ayrı onay süresini minimize etmeye odaklanır; liman rotasında ise optimizasyon, tek giriş sonrası iç saha güzergahını en kısa yoldan geçmeye odaklanır. İki mantık farklı olduğu için aynı haftaki kule ve liman rotaları ayrı ayrı planlanır, ama nakliye takvimi ortak bir çerçevede birleştirilebilir.",
+            },
+            {
+                baslik: "Rota kesintisinde yedek planlama",
+                metin:
+                    "Çok noktalı bir rotada bir durakta beklenmedik bir gecikme (onay sorunu, hava koşulu) yaşanırsa, kalan duraklar öncelik sırasına göre yeniden düzenlenir; en kritik/acil durak öne alınır, daha esnek olan durak bir sonraki güne kaydırılabilir. Bu esneklik, rota planının baştan tek bir sıkı sıraya değil, öncelik sırasına göre kurulmasıyla mümkün olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule rotası ile liman sahası içi rota karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki farklı ölçekteki çok noktalı rota mantığını karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Kule rotası (Levent-Maslak-Ataşehir)", "Liman sahası içi rota"],
+                    satirlar: [
+                        ["Durak sayısı sınırı", "Genellikle 2-4 bina/gün", "Sahaya bağlı, tek girişte çoklu nokta"],
+                        ["Onay tipi", "Her bina ayrı bina yönetimi onayı", "Tek terminal giriş prosedürü"],
+                        ["Optimizasyon odağı", "Onay süresi + trafik penceresi", "İç saha güzergah kısalığı"],
+                        ["Esneklik", "Durak bazlı erteleme mümkün", "Aynı gün içinde sıra değişimi mümkün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Haftalık planlamanın avantajı",
+                paragraflar: [
+                    "Günlük değil haftalık planlama, hem kule hem liman rotalarında nakliye tekrarını azaltır — bir haftalık iş listesi baştan paylaşıldığında, hangi günün hangi bölgeye ayrılacağı, hangi duraklarda aynı makinenin kullanılabileceği önceden netleşir. Bu, özellikle birden fazla kulede veya birden fazla liman noktasında düzenli iş alan işletmeler için önemli bir verimlilik kaynağıdır.",
+                    "Haftalık plan, aynı zamanda bina/terminal onay sürelerinin erkenden başlatılmasını da sağlar; son dakika eklenen bir durak, o haftanın planına genellikle sığmaz.",
+                ],
+            },
+            {
+                baslik: "Tek operatörle çok noktalı rota mı, birden fazla ekip mi",
+                paragraflar: [
+                    "Kule rotasında iş süreleri kısa ve zaman pencereleri netse tek operatör-makine ikilisi birden fazla durağı gün içinde dönüşümlü gezebilir; işler paralel ilerlemesi gerekiyorsa (aynı gün birden fazla binada eş zamanlı iş) birden fazla ekip planlanır. Liman sahası içi rotada ise tek makine genellikle yeterlidir çünkü tüm noktalar aynı saha sınırları içindedir ve giriş-çıkış tekrarı gerekmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı hafta üç farklı kulede işimiz var, hepsini tek makineyle mi yürütüyorsunuz?",
+                cevap:
+                    "Süreler kısa ve zaman pencereleri netse mümkündür — tek makine gün içinde veya hafta boyunca duraklar arasında dönüşümlü çalışır. Ama her kulenin kendi bina yönetimi onay süreci ayrı işlediği için, üç kulenin de onayı önceden tamamlanmadan rota kesinleşmez. İşler paralel ilerlemesi gerekiyorsa (aynı gün üç kulede eş zamanlı iş) birden fazla makine planlanır.",
+            },
+            {
+                soru: "Liman sahasında birden fazla depo çatısı bakımı tek girişte mi yapılıyor?",
+                cevap:
+                    "Evet, bu liman sahası içi rotanın temel avantajıdır — makine sahaya bir kez giriş yapar, iç sahada noktadan noktaya hareket eder. Bu, her depo için ayrı giriş-çıkış prosedürüne göre çok daha verimlidir. Rota sırası, sahadaki araç trafiğinin en az olduğu güzergahlar önceliklendirilerek kurulur.",
+            },
+            {
+                soru: "Bir kuledeki onay gecikirse tüm rota mı erteleniyor?",
+                cevap:
+                    "Hayır, yalnızca o durak ertelenir veya sıradan çıkarılır; kalan duraklar öncelik sırasına göre yeniden düzenlenir. Rota planı baştan bu esnekliği hesaba katacak şekilde kurulur — tek bir sıkı sıraya değil, öncelik sırasına dayanır. Bu sayede bir binadaki gecikme, diğer duraklardaki işin tamamen durmasına yol açmaz.",
+            },
+            {
+                soru: "Levent ile Ataşehir arasında aynı gün rota yapılabilir mi, Boğaz geçişi sorun olur mu?",
+                cevap:
+                    "Teorik olarak mümkündür ama pratikte önerilmez — Boğaz geçişi trafiği, özellikle yoğun saatlerde ciddi zaman kaybına yol açabilir. Bu yüzden genel yaklaşımımız, aynı yakadaki durakları (Levent-Maslak gibi) aynı güne, farklı yakadaki durağı (Ataşehir gibi) ayrı bir güne planlamaktır. Bu ayrım hem nakliye süresini hem operatör yorgunluğunu makul seviyede tutar.",
+            },
+            {
+                soru: "Haftalık rota planı ne kadar önceden hazırlanmalı?",
+                cevap:
+                    "Mümkünse en az bir hafta önceden — bu süre, her durağın (özellikle kule tarafındaki) bina yönetimi onay sürecinin zamanında tamamlanmasını sağlar. Son dakika eklenen bir durak, o haftanın planına genellikle sığmaz çünkü onay süreci ayrı işler. Düzenli çok noktalı ihtiyacı olan müşterilere aylık bir çerçeve plan da önerebiliriz.",
+            },
+            {
+                soru: "Çok noktalı rotada operatör yorgunluğu nasıl yönetiliyor?",
+                cevap:
+                    "Günlük durak sayısı ve mesafe, operatörün güvenli çalışma saatini aşmayacak şekilde sınırlandırılır; uzun mesafeli veya çok sayıda duraklı günlerde ikinci bir operatör devreye alınabilir. Bu, özellikle Boğaz geçişi gibi uzun nakliye süresi gerektiren rotalarda dikkat ettiğimiz bir noktadır — yorgun bir operatörle hassas kule cephesi işine girmeyiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Levent-Maslak-Ataşehir arası mesafenin Boğaz geçişini içerebileceği kamuya açık coğrafi bilgidir; rota optimizasyonu ve onay senkronizasyonu pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin / Arazi Platform Kiralama — Bu Domainde Sınırlı Kapsam",
+        giris:
+            "Bu domainin uzmanlığı kentsel kule cephesi ve liman/ardiye tesisi olduğu için, zemin koşulları da bu iki sahanın karakteriyle sınırlıdır: kule tarafında beton kaldırım ve servis şeridi, liman tarafında endüstriyel beton veya sıkıştırılmış stabilize saha. Kırsal toprak arazi, engebeli/dağlık zemin veya tarım sahası gibi klasik 'zor zemin' senaryoları bu domainin kapsamı dışındadır — İstanbul'un kentsel ve liman odaklı coğrafyası bu tip arazilere yoğun olarak sahip değildir. Bununla birlikte, liman sahasının bazı bölümlerinde (rıhtım kenarı, henüz asfaltlanmamış yeni geliştirme alanı) hafif düzensiz veya sıkıştırılmamış zemin görülebilir ve bu, klasik kırsal arazi kadar olmasa da standart beton zeminden farklı bir değerlendirme gerektirir. Bu sayfa, hem kapsam sınırını hem de liman sahasındaki bu sınırlı istisnayı dürüstçe anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule tarafında zemin neredeyse her zaman beton/kaldırım",
+                metin:
+                    "Levent-Maslak-Ataşehir kulelerinin servis şeritleri, kaldırımları ve otopark rampaları standart beton veya asfalt yüzeydir; burada 'zor zemin' anlamında bir kısıt yoktur, kısıt daha çok şerit genişliği ve zemin altı boşluğun taşıma kapasitesidir (teknik galeri, otopark üstü gibi). Bu, klasik arazi tipi zorluktan farklı bir mühendislik sorunudur ve zaten diğer hizmet sayfalarımızda (özellikle eklemli platform sayfası) ele alınır.",
+            },
+            {
+                baslik: "Liman sahasının çoğu endüstriyel beton veya sıkıştırılmış stabilize",
+                metin:
+                    "Konteyner terminali ve ardiye sahalarının büyük kısmı, ağır araç trafiğini taşıyacak şekilde endüstriyel beton veya iyi sıkıştırılmış stabilize zemindir; bu, standart makine lastikleri ve dengeleme sistemleriyle sorunsuz çalışılan bir yüzeydir. Klasik anlamda 'zor zemin' (yumuşak toprak, çamur, engebeli arazi) bu sahaların tipik karakterinde değildir.",
+            },
+            {
+                baslik: "İstisna: rıhtım kenarı ve yeni geliştirme alanları",
+                metin:
+                    "Bazı liman sahalarının rıhtım kenarına yakın bölümlerinde veya henüz tamamen geliştirilmemiş yeni alanlarında, zemin standart beton kadar düzgün olmayabilir — hafif düzensiz, kısmen sıkıştırılmamış veya nemli olabilir. Bu durumda makinenin denge ve taşıma sınırları normalden daha dikkatli kontrol edilir; şüpheli bir zemin varsa iş öncesi bir zemin değerlendirmesi (görsel kontrol, gerekirse taşıma testi) istenir.",
+            },
+            {
+                baslik: "Gerçek bir kırsal/arazi işi gelirse",
+                metin:
+                    "Eğer talep gerçekten kırsal toprak arazi veya dağlık/engebeli bir zeminse (bu domainin kapsamındaki kule/liman sahalarının dışında bir yerdeyse), bu iş için filomuz ve deneyimimiz standart olarak yapılandırılmamıştır; arazi tipi tahrik ve geniş lastikli özel modeller gerektiren bu işlerde dürüstçe kapsam dışı olduğumuzu belirtir, mümkünse uzman bir tedarikçiye yönlendiririz.",
+            },
+            {
+                baslik: "Neden bu ayrımı net yapıyoruz",
+                metin:
+                    "Zemin uygunluğunu abartarak her işi kabul etmek, sahada makinenin denge sınırını zorlayan veya hiç çalışamayan bir senaryoya yol açabilir — bu hem güvenlik hem itibar riskidir. Bu yüzden zemin durumunu keşifte dürüstçe değerlendiriyor, standart beton/stabilize sahalarda güvenle çalışıyor, gerçek anlamda zor arazi işlerinde ise kapsam dışı olduğumuzu açıkça söylüyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bu domainin zemin profili",
+                paragraflar: [
+                    "Aşağıdaki tablo, bu domainin hizmet verdiği sahalardaki tipik zemin durumunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Tipik zemin", "Zorluk seviyesi", "Kapsam"],
+                    satirlar: [
+                        ["Kule servis şeridi/kaldırım", "Beton/asfalt", "Düşük (genişlik kısıtı var)", "Standart hizmet"],
+                        ["Liman ana saha (konteyner alanı)", "Endüstriyel beton", "Düşük", "Standart hizmet"],
+                        ["Liman ardiye iç mekân", "Beton", "Düşük", "Standart hizmet"],
+                        ["Rıhtım kenarı / yeni geliştirme", "Kısmen düzensiz/stabilize", "Orta (değerlendirme gerekir)", "Dikkatli değerlendirmeyle hizmet"],
+                        ["Kırsal toprak arazi / engebeli zemin", "Toprak/dağlık", "Yüksek", "Kapsam dışı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rıhtım kenarında zemin değerlendirmesi nasıl yapılır",
+                paragraflar: [
+                    "Rıhtım kenarına yakın bir işte, önce zeminin görsel durumu (çatlak, çökme, nem) kontrol edilir; şüpheli bir görüntü varsa terminal işletmesinden zeminin taşıma kapasitesi hakkında bilgi istenir. Makinenin ayak/lastik basıncı, zeminin taşıyabileceği yükle karşılaştırılır — bu karşılaştırma net değilse, iş daha güvenli bir noktadan (rıhtım kenarından biraz içeride) planlanır.",
+                    "Bu değerlendirme, standart beton sahadaki işlerden daha fazla zaman alır ama denge kaybı riskini almaktan çok daha ucuzdur.",
+                ],
+            },
+            {
+                baslik: "Kapsam dışı bir talep geldiğinde izlenen yol",
+                paragraflar: [
+                    "Kırsal arazi veya engebeli zemin talebi geldiğinde önce iş tanımını ve konumu netleştiririz — bazen talep aslında liman sahası çevresindeki bir alanla karıştırılmış olabilir ve bizim kapsamımıza girebilir. Gerçekten kapsam dışıysa, bu konuda deneyimli olduğunu bildiğimiz bir tedarikçiye yönlendirmeyi tercih ederiz; bu, hem müşteri için daha hızlı bir çözüm hem bizim için doğru bir sınır çizmektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Liman sahasındaki rıhtım kenarında çalışabilir misiniz?",
+                cevap:
+                    "Genellikle evet, ama önce zemin durumu değerlendirilir — rıhtım kenarına yakın bölümler standart beton kadar düzgün olmayabilir. Görsel kontrol ve gerekirse terminal işletmesinden taşıma kapasitesi bilgisi alındıktan sonra, makinenin güvenle çalışabileceği bir konum belirlenir. Zemin şüpheliyse iş, rıhtım kenarından biraz içeride, daha güvenli bir noktadan planlanır.",
+            },
+            {
+                soru: "Kırsal bir arazide silo veya ahır çevresinde çalışma yapıyor musunuz?",
+                cevap:
+                    "Hayır, bu domainin uzmanlığı kentsel kule cephesi ve liman/ardiye tesisidir; kırsal toprak arazi veya engebeli zemin için filomuz ve deneyimimiz standart olarak yapılandırılmamıştır. Böyle bir talebiniz varsa dürüstçe kapsam dışı olduğumuzu söyler, mümkünse bu konuda uzman bir tedarikçiye yönlendiririz.",
+            },
+            {
+                soru: "Liman sahasının yeni geliştirilen bölümünde zemin henüz asfaltlanmamış, sorun olur mu?",
+                cevap:
+                    "Sorun olabilir, bu yüzden önce zemin sıkıştırma durumu kontrol edilir; yeterince sıkıştırılmış stabilize zeminde standart makine çalışabilir, ama gevşek veya nemli bir zeminde denge riski artar. Şüpheli durumlarda iş öncesi bir saha ziyaretiyle zemin değerlendirilir; gerekirse geçici bir zemin takviyesi (plaka, tabla) önerilir.",
+            },
+            {
+                soru: "Kule servis şeridindeki zemin altı boşluk 'zor zemin' sayılır mı?",
+                cevap:
+                    "Hayır, bu farklı bir mühendislik sorunudur — servis şeridinin kendisi beton ve düzgündür, asıl kısıt zemin altındaki otopark veya teknik galeri boşluğunun taşıma kapasitesidir. Bu konu, bu sayfada değil eklemli platform ve bölge sayfalarımızda ele alınır; oradaki 'zemin yükü kontrolü' bu domainde asıl karşılaşılan kısıttır, klasik arazi zorluğu değildir.",
+            },
+            {
+                soru: "Zor zemin işini kabul etmemeniz bir güvenlik önlemi mi, kapasite eksikliği mi?",
+                cevap:
+                    "İkisinin birleşimi — filomuz standart olarak kentsel beton ve liman stabilize zemin için yapılandırılmıştır, gerçek kırsal arazi için gereken arazi tipi tahrik ve geniş lastikli modeller standart filomuzun parçası değildir. Bu ekipmana sahip olmadan bir işi 'olur' diyerek kabul etmek güvenlik riski taşır; bu yüzden dürüstçe kapsam dışı olduğumuzu belirtiyoruz.",
+            },
+            {
+                soru: "Zemin değerlendirmesi ek ücret gerektiriyor mu?",
+                cevap:
+                    "Standart keşif sürecinin bir parçasıdır, ayrı bir ücret kalemi değildir. Rıhtım kenarı gibi şüpheli zeminlerde bu değerlendirme biraz daha zaman alabilir ama bu, işin güvenli ilerlemesi için gereken normal bir adımdır; ek maliyet yalnızca zemin takviyesi (plaka, tabla, geçici düzeltme) gerekiyorsa ve bu takviye önceden konuşulup onaylanarak uygulanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kule servis şeritlerinin beton/asfalt, liman ana sahalarının endüstriyel beton/stabilize zeminli olduğu kamuya açık saha bilgisidir; rıhtım kenarı zemin değerlendirmesi ve kapsam dışı yönlendirme pratikleri firma deneyimidir.",
+    },
 };

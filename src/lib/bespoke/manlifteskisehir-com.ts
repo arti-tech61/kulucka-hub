@@ -1120,4 +1120,1089 @@ export const MANLIFTESKISEHIR_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Beylikova OSB’nin gelişen organize sanayi alanı bağlamı uygulama belgesinde verilen kamuya açık genel bilgidir; mekanik tamamlanma, enerjisiz kontrol, test, düzeltme duruşu, kabul ve kapasite slotu yönetimi sektör geneli devreye alma pratiğidir. Özel firma, sektör, tesis, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    // ── HİZMET SAYFALARI (2026-08-14) ────────────────────────────────────
+    // Merceğin sabiti: PLANLI DURUŞ DÖNEMİ ve bölgesel kapasite yönetimi.
+    // İki sayfa bilinçli olarak en detaylı yazıldı — operatörlü-platform-
+    // kiralama ve çok-noktalı-rota-bakım-platformu — çünkü ikisi de duruş
+    // takvimine göre çoklu fabrika/rota planlamasının doğrudan karşılığı.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Duruş Penceresinde Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Bir duruş listesinin çoğu kalemi standart makaslı ya da eklemli platformla çözülür, ama her listede birkaç nokta bu iki sınıfa da uymaz: iki boru hattı arasındaki dar aralık, bir kazanın gövdesiyle duvar arasında kalan dar şerit, sahanlığın altına sarkan bir vana grubu. Duruş penceresi zaten kısa olduğu için bu tip noktalara ikinci bir sevkiyatla, ikinci bir makineyle gitmek pencereyi gereksiz uzatır. Sepetli örümcek platform bu listeler için ayrı bir kalem olarak duruyor — katlanır ayak düzeni dar geçitten geçer, hedefte açılıp standart makinenin giremediği açıyı yakalar. Bölgedeki duruş dönemlerinde bu sınıfı çoğunlukla tek başına değil, ana filoyla birlikte planlıyoruz: geniş alan standart platformla, listenin dar-kalan birkaç kalemi örümcek platformla aynı pencere içinde bitiriliyor. İki makineyi ayrı günlere yaymak yerine aynı duruş haftasında art arda çalıştırmak, pencerenin toplam süresini kısaltan asıl fark oluyor.",
+        maddeler: [
+            {
+                baslik: "Duruş listesinin 'sığmayan' kalemleri",
+                metin:
+                    "Bir bakım listesi hazırlanırken çoğu kalem hangi makineyle yapılacağı belli olacak şekilde yazılır, ama listenin sonunda genellikle birkaç satır 'erişim zor' notuyla kalır. Bunlar genellikle boru arası, ekipman gövdesi ile duvar arasındaki şerit ya da sahanlık altı gibi noktalardır. Duruş takvimini hazırlarken bu satırları ayrı işaretliyor ve baştan örümcek platforma ayırıyoruz; pencere açıldığında bu kalemler için ayrıca makine aranmıyor, ana filoyla birlikte sahada hazır bulunuyor.",
+            },
+            {
+                baslik: "Aynı pencerede iki sınıfın art arda çalışması",
+                metin:
+                    "Standart makaslı platform geniş ve açık alanları tararken örümcek platform aynı gün içinde dar noktaları tamamlar. İki makineyi aynı duruş penceresine, farklı ekiplere paylaştırarak veriyoruz — biri açık alanda ilerlerken diğeri dar geçitte çalışıyor ve pencere sonunda iki iş de bitmiş oluyor. Ayrı günlere yayılan bir plana kıyasla bu, duruş süresinin kısalması demek; bölgedeki duruş haftalarının kısıtlı olduğu düşünüldüğünde bu fark bazen tek başına ikinci bir makineyi haklı çıkarıyor.",
+            },
+            {
+                baslik: "Zemin ve ayak yayılımı duruş sahasında",
+                metin:
+                    "Fabrika içi duruş sahaları genellikle beton zeminlidir ama duruş döneminde zemin üstünde geçici malzeme, hortum ve kablo yığını da bulunur. Örümcek platformun dört ayağı, tekerlekli makinenin aksine yükü noktasal dağıtır; bu yüzden ayak açılacak noktanın duruş öncesinde temizlenmesi gerekiyor. Duruş planına bu temizliği bir hazırlık kalemi olarak yazıyoruz, çünkü pencere içinde malzeme kaldırmakla uğraşmak zaman kaybettiriyor.",
+            },
+            {
+                baslik: "Enerjisiz bölgede dar geçiş",
+                metin:
+                    "Duruş penceresinde enerjisi kesilen ekipman grupları arasında kalan dar şeritler, örümcek platformun en sık kullanıldığı noktalardır. Enerji kesintisi başladığı andan itibaren bu şeritlere erişim güvenli hâle gelir ve makine hazır beklediği için kayıpsız devreye giriyor. İzolasyon durumu değişmeden önce sepetin nerede duracağını önceden işaretliyoruz, böylece pencere açılır açılmaz makine hedefe yönleniyor.",
+            },
+            {
+                baslik: "Duruş sonrası tekil çağrı ihtiyacı",
+                metin:
+                    "Devreye alma sırasında bazen listede olmayan tek bir dar nokta gündeme gelir — bir sızdırma, bir hizalama kontrolü. Bu tip tekil çağrılarda örümcek platformu ayrıca bölgeden çağırmak yerine, duruş penceresinde kullanılan makineyi kısa bir süre daha sahada tutmayı öneriyoruz; tek noktalık bir iş için ikinci bir sevkiyat açmak orantısız bir maliyet doğuruyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Duruş sahasında sınıf seçimi",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, duruş listesindeki bir kalemin hangi sınıfa düşeceğini hızlı değerlendirmek için kullandığımız kabaca kural setidir.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Önerilen sınıf", "Duruş penceresindeki konum", "Tipik hazırlık"],
+                    satirlar: [
+                        ["Açık, geniş alan", "Standart makaslı", "Pencerenin genelinde", "Zemin temizliği"],
+                        ["Boru/ekipman arası dar şerit", "Sepetli örümcek", "Enerjisiz bölge açılınca", "Ayak noktası temizliği"],
+                        ["Sahanlık altı, gövde yanı", "Sepetli örümcek", "Devreye alma öncesi", "Yakın çevre boşaltma"],
+                        ["Cephe/dış saçak", "Sepetli örümcek", "Pencere sonu", "Zemin türü kontrolü"],
+                        ["Tek noktalık tekil çağrı", "Aynı gün ek süre", "Devreye alma sonrası", "Bekletme onayı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Filonun geri kalanıyla eşgüdüm",
+                paragraflar: [
+                    "Duruş penceresinde birden fazla makine sahada olduğunda asıl risk makinelerin birbirinin rotasına girmesidir. Örümcek platform genellikle dar bir şeritte sabit kalırken standart makaslı platform geniş alanda dolaşır; ikisinin güzergâhı çakışmasın diye duruş planına iki ayrı hat çiziyoruz. Bu ayrım özellikle aynı gün içinde çalışan iki ekip varsa önem kazanıyor, çünkü sahada iki büyük makinenin aynı koridoru paylaşması hem yavaşlatıyor hem risk yaratıyor.",
+                    "Bölgedeki duruş dönemlerinde bir tesiste hem geniş alan hem dar nokta ihtiyacı aynı hafta çıkabiliyor; bu durumda iki makineyi aynı sevkiyatla göndermek, ayrı günlere yaymaktan hem zaman hem nakliye bedeli açısından daha ekonomik oluyor.",
+                ],
+            },
+            {
+                baslik: "Duruş dışı kullanımla farkı",
+                paragraflar: [
+                    "Duruş dışı dönemlerde örümcek platform genellikle tek bir nokta için, tek başına çağrılır ve süre kısa tutulur. Duruş penceresinde ise durum farklı işliyor: makine ana filonun bir parçası olarak plana giriyor, birden fazla dar nokta art arda taranıyor ve pencere kapanmadan tüm liste bitiriliyor. Bu fark, fiyatlamaya da yansıyor — duruş penceresinde ayrılan örümcek platform, ayrı bir sevkiyat değil ortak planın bir kalemi olarak hesaplanıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Duruş listemizde birkaç kalem 'erişim zor' diye işaretli; bunlar için ayrı mı planlama yapmalıyız?",
+                cevap:
+                    "Ayrı planlamayı biz yapıyoruz, sizin yapmanız gereken bu kalemleri erken işaretlemek. Duruş takvimi hazırlanırken listeyi görürsek dar noktaları baştan örümcek platforma ayırır, ana filoyla aynı pencereye yerleştiririz. Liste pencere açıldıktan sonra gelirse aynı çözümü kurarız ama makine o gün için ayrıca çağrılması gerekebilir ve bu, hazır bekleyen bir plana göre daha yavaş işler. Liste ne kadar erken paylaşılırsa dar nokta kalemleri o kadar sorunsuz ana plana oturuyor.",
+            },
+            {
+                soru: "Aynı duruş penceresinde hem standart platform hem örümcek platform olması pencereyi uzatır mı?",
+                cevap:
+                    "Tam tersi — ikisini aynı pencereye, iki ayrı hat üzerinde çalışacak şekilde yerleştirmek pencereyi kısaltıyor. Standart makaslı platform geniş alanı tararken örümcek platform dar noktaları paralel olarak bitiriyor; iki iş art arda değil eş zamanlı ilerliyor. Tek riski iki makinenin güzergâhının çakışmasıdır, bunu duruş planına iki ayrı hat çizerek önlüyoruz. Sonuçta aynı pencerede iki sınıf çalıştırmak, aynı listeyi tek makineyle sırayla bitirmekten daha kısa sürüyor.",
+            },
+            {
+                soru: "Zeminde duruş döneminde geçici malzeme ve hortum yığını oluyor; ayaklar sorun çıkarır mı?",
+                cevap:
+                    "Ayak açılacak nokta temizlenmemişse evet, gecikme yaşanır. Bu yüzden duruş planına bir hazırlık kalemi olarak zemin temizliğini yazıyoruz — ayakların açılacağı birkaç metrekarelik alanın malzeme ve hortumdan arındırılması, pencere açıldığında zaman kaybettirmeyen ilk adım oluyor. Zemin türü çatlak beton ya da ızgara üstüyse ayak altına takoz veya plaka koyuyoruz; bunu keşif fotoğrafıyla önceden değerlendiriyoruz.",
+            },
+            {
+                soru: "Enerji kesintisi başlamadan makine sahada bekleyebilir mi?",
+                cevap:
+                    "Evet ve genellikle öneriyoruz. Enerjisiz bölgeye erişim ancak izolasyon tamamlandıktan sonra güvenli hâle geldiği için, makineyi kesinti başlamadan sahada hazır tutup izolasyon tamamlanır tamamlanmaz sepeti hedefe yönlendirmek zaman kazandırıyor. Bekleme süresi duruş planına ayrı bir satır olarak yazılır, böylece hem görünür oluyor hem sonradan tartışma konusu olmuyor.",
+            },
+            {
+                soru: "Devreye alma sırasında listede olmayan tek bir dar nokta çıktı; ayrıca makine çağırmamız mı gerekiyor?",
+                cevap:
+                    "Duruş penceresinde kullanılan makine hâlâ sahadaysa genellikle hayır — kısa bir süre daha tutup tekil noktayı da bitiriyoruz. Makine pencere kapanışıyla birlikte çekildiyse ayrı bir çağrı gerekiyor ve bu, tek nokta için orantısız bir maliyet doğurabiliyor. Bu yüzden devreye alma günlerinde makineyi hemen çekmek yerine kısa bir kuyruk süresi bırakmayı öneriyoruz; tek noktalık sürprizlerin büyük bölümü bu kuyrukta karşılanıyor.",
+            },
+            {
+                soru: "Örümcek platform ile standart makaslı platform arasındaki fiyat farkı duruş penceresinde nasıl hesaplanıyor?",
+                cevap:
+                    "Duruş dışı kullanımda örümcek platform ayrı bir sevkiyat olarak fiyatlanır; duruş penceresinde ise ana filonun parçası olduğu için ortak nakliye ve ortak hazırlık üzerinden hesaplanıyor, bu da birim maliyeti düşürüyor. Kesin fark, dar nokta sayısına ve bunların pencere içindeki süresine bağlı; listeyi paylaştığınızda hem standart hem örümcek platform için ayrı ayrı süre tahmini çıkarıp toplam teklifi tek kalemde sunuyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sepetli örümcek platformun ayak-menzil mekaniği üretici teknik özellikleridir; duruş penceresinde ortak filo planlaması ve zemin hazırlığı firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Duruş Takvimine Bağlı Nakliye ve Teslimat Planlaması",
+        giris:
+            "Duruş penceresinde bir makinenin sahada olması yetmez; doğru saatte, doğru sırayla ve pencere kapanmadan bir sonraki adrese geçebilecek şekilde orada olması gerekir. Bölgedeki duruş dönemlerinde birden fazla tesisin aynı haftaya denk gelen talebi, nakliye tarafında bir sıralama problemine dönüşüyor: bir makine sabah bir tesiste başlarken akşam başka bir tesise geçmesi gerekebiliyor, bir diğeri ise pencere kapanana kadar tek adreste kalıyor. Bu sayfada anlattığımız, tekil bir kamyon seferi değil, duruş takvimine göre kurulan sevkiyat sırasıdır: hangi makinenin hangi saatte yüklendiği, hangi adrese hangi sırayla gidildiği, gece transferlerinin nasıl planlandığı ve pencere kapanmadan geri alımın nasıl kurgulandığı. Nakliye burada bir destek kalemi değil, duruş planının kendisinin bir parçası; teslim saati kaydığında pencere içindeki iş de kayıyor.",
+        maddeler: [
+            {
+                baslik: "Duruş takvimine göre sevkiyat sırası",
+                metin:
+                    "Aynı hafta birden fazla tesisin duruşu varsa, hangi makinenin hangi adrese önce gideceğini rastgele değil pencerelerin açılış saatine göre belirliyoruz. Sabah erken açılan pencereler önce yüklenir, öğleden sonra açılanlar sıraya göre planlanır. Bu sıralama duruş takvimi netleştiği anda kurulur; son dakikada değişen bir sıralama, bir tesisin pencere başında makinesiz kalması riskini doğuruyor.",
+            },
+            {
+                baslik: "Gece transferi ve sabah hazır olma",
+                metin:
+                    "Duruş pencereleri çoğunlukla sabah başlar ve o saatte makinenin yolda olması kabul edilmez. Bölge içi mesafenin kısalığından yararlanarak transferleri bir önceki işin bitiminden sonraya, akşam ve gece saatlerine planlıyoruz; makine gece hattı kullanır ve sabah pencere açıldığında şarj edilmiş hâlde bekler. Teslim saatini pencerenin başlangıcına göre değil, en az bir vardiya öncesine yazıyoruz.",
+            },
+            {
+                baslik: "Pencere kapanmadan geri alım",
+                metin:
+                    "Duruş penceresinin kapanış saati sabitse, geri alım aracı da o saate göre önceden planlanır; aksi hâlde makine pencere kapandıktan sonra saatlerce boşta bekler ve bu bekleme bir sonraki tesisin sırasını geciktirir. Kapanış saatinden makul bir süre önce sökümün başlayabilmesi için bakım şefiyle birlikte bir çekiliş saati belirliyoruz; bu saat duruş planına ayrı bir kalem olarak yazılıyor.",
+            },
+            {
+                baslik: "Ardışık iki pencere arasında makinenin bırakılması",
+                metin:
+                    "Bir tesisteki iş bittiğinde, birkaç gün içinde açılacak başka bir pencere varsa makineyi geri çekmek yerine yerinde bırakmayı değerlendiriyoruz — böylece hem iki sevkiyat bedeli doğmaz hem ikinci tesis beklemez. Bu kararı duruş takvimindeki doluluğa göre veriyor, hangi adrese hangi tarihte geçileceğini ilgili tesislere açıkça bildiriyoruz.",
+            },
+            {
+                baslik: "Yükleme noktası ve saha erişimi",
+                metin:
+                    "Sevkiyat gecikmelerinin bir bölümü yolda değil, yükleme ve boşaltma noktasında yaşanır: dar bir kapı, kapalı bir bariyer, geç açılan bir güvenlik kontrolü. Duruş takvimine sevkiyat eklerken saha erişim bilgisini de topluyoruz — hangi kapıdan girileceği, kimin karşılayacağı, bariyer saatinin ne olduğu. Bu bilgi eksikse teslim saati kâğıt üzerinde tutarlı görünse de sahada kayıyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Duruş haftasında sevkiyat türleri",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, duruş takvimine göre kurulan sevkiyat türlerini ve her birinde önceliğin ne olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Sevkiyat türü", "Zamanlama", "Öncelik", "Tesisten beklenen"],
+                    satirlar: [
+                        ["İlk teslim", "Pencere açılışından önce", "Sabah hazır olma", "Yükleme noktası bilgisi"],
+                        ["Ardışık tesis geçişi", "İş biter bitmez", "Bir sonraki pencereye yetişme", "Bitiş saatinin bildirimi"],
+                        ["Gece transferi", "Mesai sonrası", "Sabah şarjlı bekleme", "Gece park noktası"],
+                        ["Pencere kapanışı geri alımı", "Kapanıştan önce", "Bekleme süresini azaltma", "Çekiliş saati onayı"],
+                        ["Ardışık pencere kalışı", "Duruşlar arasında", "İkinci sevkiyatı önleme", "Yer tahsisi"],
+                        ["Plansız arıza sevkiyatı", "Anlık", "En yakın uygun makine", "Konum bilgisi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Birden fazla tesisin aynı haftada olması",
+                paragraflar: [
+                    "Bölgedeki duruş haftaları öngörülebilir olduğu için, aynı hafta içinde birden fazla tesisin talebi geldiğinde sevkiyat sırasını erken kuruyoruz. Sıralama ilkesi basit: pencere hangi saatte açılıyorsa yükleme de o saate göre önce planlanır. İki tesisin pencereleri çakışıyorsa, iki ayrı makine ve iki ayrı sevkiyat hattı kuruyoruz; tek makineyle ikisine birden yetişmeyi vaat etmiyoruz, çünkü bu tip vaatler sahada bozulduğunda telafisi zor gecikmeler doğuruyor.",
+                    "Sevkiyat sırası bir kez kurulduktan sonra değiştirmek, zincirdeki diğer tesisleri de etkiliyor; bu yüzden değişiklik talebi geldiğinde etkilenen tüm adresleri güncelliyor, yeni sırayı yazılı olarak paylaşıyoruz.",
+                ],
+            },
+            {
+                baslik: "Teslim saatinin garanti edilebildiği ve edilemediği durumlar",
+                paragraflar: [
+                    "Planlı duruş kapsamındaki sevkiyatlarda teslim saati büyük ölçüde garanti edilebilir, çünkü tarih ve saat önceden bilinir ve rota buna göre kurulur. Plansız arıza sevkiyatlarında ise durum farklıdır — makine nerede boşsa oradan gelir ve süre bölge içi mesafeye bağlıdır; burada dakika bazlı bir söz vermiyoruz.",
+                    "Bu ayrımı baştan netleştirmemizin nedeni, planlı ve plansız talebin aynı beklentiyle karşılanamamasıdır. Duruş takviminizi ne kadar erken paylaşırsanız sevkiyat tarafındaki garanti o kadar güçlü oluyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Duruş penceremiz sabah erken saatte başlıyor; makine gerçekten o saatte hazır olur mu?",
+                cevap:
+                    "Olur, çünkü teslim saatini pencerenin başlangıcına göre değil en az bir vardiya öncesine yazıyoruz. Transferi bir önceki işin bitiminden sonraya, akşam veya gece saatlerine planlıyor; makine gece hattı kullanıp sabah sizde şarj edilmiş hâlde bekliyor. Sizden istediğimiz tek şey, makinenin gece bırakılabileceği kapalı ya da gözetimli bir park noktası göstermeniz — bu bilgi olmadan gece transferi planlanamıyor.",
+            },
+            {
+                soru: "Aynı hafta iki tesisimizin duruşu var; tek makineyle ikisine de yetişebilir misiniz?",
+                cevap:
+                    "Pencereler çakışmıyorsa evet, tek makine sırayla ikisine de gidebilir; sıralamayı pencerelerin açılış saatine göre kuruyoruz. Pencereler çakışıyorsa dürüstçe söylüyoruz: tek makineyle ikisine birden aynı anda yetişmek mümkün değil, iki ayrı makine ve iki ayrı sevkiyat hattı gerekiyor. Bu durumu erken görmek için duruş takviminizi mümkün olduğunca erken paylaşmanızı öneriyoruz; son dakikada çakışma fark edilirse ikinci makineyi bulma şansımız daralıyor.",
+            },
+            {
+                soru: "Duruş penceremiz kapandığında makine hemen mi çekiliyor, yoksa bekleme mi oluyor?",
+                cevap:
+                    "Kapanış saatinden önce bakım şefiyle birlikte bir çekiliş saati belirliyoruz ve geri alım aracını o saate göre planlıyoruz; amaç makinenin pencere kapandıktan sonra saatlerce boşta beklememesi, çünkü bu bekleme bir sonraki tesisin sırasını da geciktiriyor. Çekiliş saati duruş planına ayrı bir kalem olarak yazılır. Devreye alma nedeniyle makinenin biraz daha sahada kalması gerekiyorsa bunu önceden söylemeniz yeterli; plan buna göre yeniden kurulur.",
+            },
+            {
+                soru: "Bir tesisteki işimiz bitince makine hemen mi ayrılıyor, yoksa bekletebilir misiniz?",
+                cevap:
+                    "Duruş takvimindeki dolulukla ilgili — birkaç gün içinde açılacak başka bir pencereniz varsa makineyi yerinde bırakmayı değerlendiriyoruz, böylece hem ikinci bir sevkiyat bedeli doğmuyor hem ikinci pencere beklemiyor. Bu kararı sizinle birlikte veriyor, makinenin ne zaman hangi adrese geçeceğini açıkça bildiriyoruz. Yakın bir ikinci pencereniz yoksa makine planlanan bir sonraki adrese geçiyor; bu bilgiyi rezervasyon aşamasında paylaşıyoruz ki sürpriz olmasın.",
+            },
+            {
+                soru: "Sahamıza girişte özel bir güvenlik prosedürü var; bu teslim saatini etkiler mi?",
+                cevap:
+                    "Etkileyebilir, bu yüzden sevkiyatı planlarken saha erişim bilgisini de ayrıca topluyoruz — hangi kapıdan girileceği, kimin karşılayacağı, bariyer veya güvenlik kontrolünün saatleri. Bu bilgi eksik kaldığında teslim saati kâğıt üzerinde tutarlı görünse de sahada gecikebiliyor. Güvenlik prosedürünüzü rezervasyon sırasında paylaşırsanız sevkiyat rotasına bu süreyi baştan ekliyoruz, böylece pencere açılışında gerçek bir gecikme yaşanmıyor.",
+            },
+            {
+                soru: "Plansız bir arıza duruşunda ne kadar sürede makine gelir?",
+                cevap:
+                    "Bunu net bir dakika sözüyle vermiyoruz, çünkü planlı sevkiyattan farklı olarak makine nerede boşsa oradan gelir ve süre bölge içi mesafeye bağlıdır. Planlı duruş kapsamındaki sevkiyatlarda tarih ve saat önceden bilindiği için rota baştan kurulur ve teslim saati büyük ölçüde garanti edilir; plansız durumda ise elimizdeki en yakın uygun makineyi yönlendiriyor, gerçekçi bir süre tahmini veriyoruz. İki durumu aynı beklentiyle karşılamak yanıltıcı olur, bu yüzden farkı baştan söylüyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eskişehir-Bozüyük hattı içi karayolu mesafesinin kısalığı kamuya açık coğrafi gerçektir; duruş takvimine göre sevkiyat sıralaması ve gece transferi firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Duruş Öncesi Malzeme Hazırlığında Forklift ve İstifleme Kiralama",
+        giris:
+            "Bir duruş penceresinin gerçek süresi, pencere içinde ne kadar iş çıktığından çok, pencereden önce ne kadar hazırlık yapıldığından belirlenir. Malzeme ve yedek parçanın nokta bazında ayrılması, paletlerin çalışma alanına yakın bir noktada istiflenmesi, pencere içinde tekrar tekrar depo-saha arası taşıma yapılmaması — bunların hepsi forklift ve istifleme ekipmanının işidir ve manlift kadar kritik olduğu hâlde çoğu duruş planında ikinci planda kalır. Bölgedeki tesislerde bu tarafı ayrı bir kalem olarak ele alıyoruz: duruş öncesi malzeme çekme, pencere içi hızlı taşıma ve devreye alma sonrası boş palet-ambalaj toplama aynı planın parçası. Manlift yukarıda çalışırken forklift aşağıda malzeme akışını sürdürdüğünde, pencere içindeki gerçek çalışma süresi belirgin uzuyor; aksi hâlde manlift bazen malzeme beklerken boşta duruyor.",
+        maddeler: [
+            {
+                baslik: "Duruş öncesi malzeme ayrımı",
+                metin:
+                    "Pencere açılmadan önce malzeme ve yedek parçanın nokta bazında ayrılması, duruş içindeki en çok zaman kazandıran hazırlık kalemlerinden biridir. Forklift bu ayrımı depo içinde yapar, paletleri çalışma noktasına en yakın alana taşır. Bu adım tamamlandığında pencere içinde 'malzeme nerede' sorusu sorulmuyor; ekip doğrudan işe başlıyor.",
+            },
+            {
+                baslik: "Manlift ile forkliftin paralel çalışması",
+                metin:
+                    "Yukarıda manlift çalışırken aşağıda forklift malzeme taşımaya devam ettiğinde iki iş birbirini beklemiyor. Bunu sağlamak için duruş planına iki ayrı hat çiziyoruz — manliftin çalışma güzergâhı ile forkliftin taşıma güzergâhı çakışmayacak şekilde ayrılıyor. Aynı koridoru paylaşmaları gerektiğinde ise sıra önceden belirleniyor, sahada anlık trafik yönetimine bırakılmıyor.",
+            },
+            {
+                baslik: "Ağır parça istifleme ve geçici depolama",
+                metin:
+                    "Duruş sırasında sökülen büyük parçaların geçici olarak istiflenmesi gerekiyor; bu hem yer açar hem parçanın hasar görmesini önler. İstifleme ekipmanını duruş planına dahil ederken parçanın ağırlık ve boyutuna uygun sınıfı önceden belirliyoruz, çünkü pencere içinde uygunsuz ekipmanla denenen bir kaldırma hem zaman kaybettiriyor hem risk yaratıyor.",
+            },
+            {
+                baslik: "Devreye alma sonrası ambalaj ve atık toplama",
+                metin:
+                    "Devreye alma bittiğinde sahada boş palet, ambalaj ve atık malzeme birikir; bunun toplanması genelde son sırada kalır ve tesisin normal işletmeye dönüşünü geciktirir. Forklifti duruş planının sonuna, toplama görevi için ayrıca planlıyoruz — malzeme akışının başında kullanılan makine, işin sonunda da sahayı boşaltmak için kullanılabiliyor ve bu, ayrı bir ekipman talebini önlüyor.",
+            },
+            {
+                baslik: "Dar koridor ve raf arası erişim",
+                metin:
+                    "Bazı tesislerde depo koridorları dardır ve standart forklift bu koridorlara giremez; bu durumda dar koridor sınıfı ekipman gerekiyor. Duruş öncesi keşifte koridor ölçüsünü kontrol ediyor, uygun sınıfı baştan planlıyoruz. Ölçü uymuyorsa alternatif bir taşıma rotası ya da malzemenin koridor dışına önceden çıkarılması öneriliyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Duruş aşamalarına göre forklift ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, duruş sürecinin hangi aşamasında forklift ve istifleme ekipmanının hangi rolde kullanıldığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Görev", "Ekipman sınıfı", "Manlift ile ilişki"],
+                    satirlar: [
+                        ["Duruş öncesi hazırlık", "Malzeme ayrımı ve taşıma", "Standart/dar koridor forklift", "Bağımsız çalışır"],
+                        ["Duruş penceresi", "Sahaya sürekli malzeme akışı", "Standart forklift", "Paralel, ayrı güzergâh"],
+                        ["Sökülen parça yönetimi", "İstifleme, geçici depolama", "Ağır sınıf istifleyici", "Manlift indirdikten sonra devralır"],
+                        ["Devreye alma", "İnce ayar malzemesi taşıma", "Standart forklift", "Manlift ile aynı bölgede, sıralı"],
+                        ["Kapanış", "Ambalaj ve atık toplama", "Standart forklift", "Manlift çekildikten sonra"],
+                    ],
+                },
+            },
+            {
+                baslik: "Malzeme akışı kesildiğinde ortaya çıkan gizli bekleme",
+                paragraflar: [
+                    "Duruş planlarında en çok gözden kaçan gecikme kaynağı, manliftin veya ekibin malzeme beklemesidir. Bu bekleme genellikle raporlanmaz çünkü kimse 'makine boştaydı' demek istemez, ama pencere süresinin önemli bir kısmını yiyebilir. Forklifti duruş planına baştan dahil etmek, bu görünmez bekleme süresini ölçülebilir hâle getiriyor — malzeme akışı ayrı bir kalem olduğunda pencere içindeki gerçek çalışma süresi de netleşiyor.",
+                    "Bölgedeki tesislerde bu ayrımı yaptığımızda, aynı işin daha kısa pencerede bitirilebildiğini gördük; bunun nedeni makinelerin daha hızlı çalışması değil, aralarındaki bekleme sürelerinin ortadan kalkmasıdır.",
+                ],
+            },
+            {
+                baslik: "Dar depo koridorlarında planlama",
+                paragraflar: [
+                    "Depo koridoru dar olduğunda standart forklift giremez ve malzeme taşıma başka bir yoldan yapılmak zorunda kalır. Bu durumu duruş öncesi keşifte tespit ediyor, dar koridor sınıfı ekipmanı ya da alternatif bir rotayı baştan planlıyoruz. Koridor ölçüsü belirsizse en dar noktanın fotoğrafını ve ölçüsünü istiyoruz; bu bilgi olmadan sahada uygunsuz ekipmanla denemek zaman kaybettiriyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Duruş penceremiz kısa; forklifti ayrıca planlamak gerçekten fark yaratır mı?",
+                cevap:
+                    "Kısa pencerelerde en çok fark yaratan kalemlerden biri budur. Malzeme akışı ayrı planlanmadığında manlift veya ekip malzeme beklerken pencere süresinin bir kısmı sessizce kayboluyor; bu bekleme genellikle raporlanmıyor ama toplamda önemli bir zaman tutuyor. Forklifti duruş öncesi hazırlık ve pencere içi taşıma için ayrı bir kalem olarak planladığımızda, aynı işin daha kısa sürede bittiğini görüyoruz. Kısa pencerelerde bu fark orantılı olarak daha büyük çıkıyor.",
+            },
+            {
+                soru: "Manlift ve forklift aynı alanda çalışırken çarpışma riski olur mu?",
+                cevap:
+                    "Bunu önlemek için iki makinenin güzergâhını duruş planına ayrı hatlar olarak çiziyoruz — manliftin çalışma bölgesi ile forkliftin taşıma rotası çakışmıyor. Aynı koridoru paylaşmaları gerektiği durumlarda sıra önceden belirleniyor ve sahada anlık trafik yönetimine bırakılmıyor. Bu planlama duruş öncesinde, keşif sırasında yapılıyor; pencere açıldıktan sonra rota değiştirmek hem gecikme hem risk yaratıyor.",
+            },
+            {
+                soru: "Sökülen ağır parçaları nereye koyacağız, forklift bunu taşıyabilir mi?",
+                cevap:
+                    "Parçanın ağırlık ve boyutuna göre değişir; standart forklift belirli bir ağırlığın üzerindeki parçalar için yeterli olmayabilir, bu durumda ağır sınıf istifleyici planlıyoruz. Duruş öncesi keşifte sökülecek parçaların yaklaşık ağırlığını ve boyutunu sorup uygun ekipmanı baştan belirliyoruz. Geçici depolama alanının da önceden ayrılması gerekiyor; alan belirlenmemişse parça sahada rastgele bırakılıyor ve bu hem güvenlik hem düzen sorunu yaratıyor.",
+            },
+            {
+                soru: "Devreye alma bittikten sonra sahadaki ambalaj ve atığı kim topluyor?",
+                cevap:
+                    "Bunu duruş planının son kalemi olarak forklifte ayırıyoruz. Malzeme akışının başında kullanılan aynı ekipman, işin sonunda sahayı boşaltmak için de kullanılabiliyor; bu, ayrı bir ekipman talebi açmadan kapanışı hızlandırıyor. Toplama görevini planın sonuna yazmazsanız bu iş genellikle son sırada kalıyor ve tesisin normal işletmeye dönüşünü geciktiriyor. Erken planlarsak kapanış günü sahayı temiz teslim ediyoruz.",
+            },
+            {
+                soru: "Depo koridorumuz dar; standart forklift giremiyorsa ne yapıyorsunuz?",
+                cevap:
+                    "Duruş öncesi keşifte koridor ölçüsünü kontrol ediyor, dar koridor sınıfı ekipmanı baştan planlıyoruz. Ölçü belirsizse en dar noktanın fotoğrafını ve santimetre cinsinden ölçüsünü istiyoruz. Dar koridor ekipmanı da yetmiyorsa malzemeyi koridor dışına önceden çıkarmayı ya da alternatif bir taşıma rotası kurmayı öneriyoruz. Bu değerlendirmeyi pencere açılmadan önce yapmak, sahada uygunsuz ekipmanla vakit kaybetmeyi önlüyor.",
+            },
+            {
+                soru: "Forklifti sadece duruş günü için mi kiralayabiliriz, yoksa hazırlık günlerini de mi kapsamalı?",
+                cevap:
+                    "Hazırlık günlerini de kapsamasını öneriyoruz, çünkü asıl zaman kazancı pencereden önceki malzeme ayrımından geliyor. Sadece duruş günü için forklift kiralandığında malzeme ayrımı ya yapılmamış oluyor ya da pencere içinde yapılmaya çalışılıyor; ikisi de pencerenin etkin süresini kısaltıyor. Hazırlık gününü de plana dahil ettiğinizde forklift pencere açılmadan malzemeyi hazırlar, pencere içinde ise sadece akışı sürdürür — bu ayrım kısa pencerelerde belirgin fark yaratıyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Duruş öncesi malzeme hazırlığının pencere süresine etkisi ve forklift-manlift paralel çalışma düzeni firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Duruş Penceresinde Eklemli Platform (Boom) ile Geniş Kapsam Erişimi",
+        giris:
+            "Duruş listesinin bazı kalemleri tek bir noktada değil, geniş bir hat boyunca dağılır: bir boru güzergâhının baştan sona kontrolü, bir çatı arasının tamamının taranması, birbirinden birkaç metre uzaktaki birden fazla vana grubunun sırayla kontrolü. Bu tip işlerde makineyi her nokta için ayrı ayrı yeniden konumlandırmak pencerenin büyük bölümünü yer; eklemli platform ise tek bir kurulum noktasından bomunu farklı açılara döndürerek birden fazla hedefe ulaşabilir. Bölgedeki duruş dönemlerinde bu sınıfı özellikle geniş kapsamlı, tek bir hat üzerinde yayılan kalemlerde tercih ediyoruz — makine bir kez konumlanır, bom hedefler arasında hareket eder ve pencere içinde tekrar tekrar taşınma ihtiyacı ortadan kalkar. Erişim yüksekliği kadar önemli olan diğer unsur, bomun yatay ve dikey menzilinin duruş sahasındaki engellerin (boru rafı, kablo kanalı, ekipman gövdesi) üzerinden dolaşabilmesidir.",
+        maddeler: [
+            {
+                baslik: "Tek kurulumdan çoklu hedef",
+                metin:
+                    "Bir boru hattı ya da çatı arası gibi geniş kapsamlı işlerde eklemli platform bir kez konumlanır ve bomunu farklı hedeflere doğru hareket ettirir. Bu, her hedef için makineyi yeniden taşımaktan kaynaklanan zaman kaybını ortadan kaldırır. Duruş planında bu tip kalemleri belirlerken hedeflerin birbirine göre konumunu haritalıyor, tek kurulum noktasından kaç hedefe ulaşılabileceğini önceden hesaplıyoruz.",
+            },
+            {
+                baslik: "Engel üzerinden erişim",
+                metin:
+                    "Fabrika içi duruş sahalarında boru rafı, kablo kanalı ya da ekipman gövdesi gibi engeller hedefle makine arasına girer. Eklemli platformun bomu dikey yükselip yatayda uzayabildiği için bu tip engellerin üzerinden dolaşarak hedefe ulaşabilir; dizel arazi tipinin düz bom hattı bu manevrayı genellikle veremiyor. Duruş öncesi keşifte engellerin konumunu ve yüksekliğini not ediyor, bomun buna yetip yetmediğini önceden kontrol ediyoruz.",
+            },
+            {
+                baslik: "Enerjisiz bölgede geniş taramanın süresi",
+                metin:
+                    "Enerji kesintisi kapsamındaki geniş bir hat taramasında zaman en kritik kaynaktır; kesinti süresi sabit olduğu için tarama hızı doğrudan sonuca yansır. Eklemli platform tek kurulumdan çoklu hedef ulaşabildiği için, aynı süre içinde tekerlekli platformdan daha fazla nokta kontrol edilebiliyor. Bu farkı duruş planına yansıtırken hedef sayısını ve aralarındaki mesafeyi baştan hesaba katıyoruz.",
+            },
+            {
+                baslik: "Dar kurulum alanında geniş menzil",
+                metin:
+                    "Bazı duruş sahalarında makinenin kurulabileceği düz ve boş alan sınırlıdır ama hedefler geniş bir alana yayılmıştır. Eklemli platform, dar bir kurulum noktasından bomunu geniş bir yaya açarak bu ihtiyacı karşılayabiliyor. Kurulum alanının ölçüsünü ve zeminin taşıma kapasitesini duruş öncesi keşifte kontrol ediyor, bomun menzilinin hedeflere yetip yetmediğini hesaplıyoruz.",
+            },
+            {
+                baslik: "Birden fazla ekibin sıralı kullanımı",
+                metin:
+                    "Geniş kapsamlı bir hat işinde birden fazla ekip farklı hedeflerde çalışmak isteyebilir. Eklemli platform tek makine olduğu için aynı anda iki yerde olamaz; bu durumda ekiplerin hangi hedefte hangi saatte çalışacağını duruş planına yazıyor, makineyi sıraya göre yönlendiriyoruz. Bu sıralama yapılmadığında iki ekip aynı makineyi bekleyerek zaman kaybediyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli platform ile diğer sınıfların kıyası",
+                paragraflar: [
+                    "Geniş kapsamlı duruş işlerinde hangi sınıfın ne zaman avantajlı olduğu aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Eklemli platform", "Standart makaslı", "Dizel arazi tipi"],
+                    satirlar: [
+                        ["Tek hat üzerinde çoklu hedef", "Uygun, tek kurulum", "Sınırlı, sık taşınma gerekir", "Uygun, geniş alanda"],
+                        ["Engel üzerinden erişim", "Uygun, bom manevrası", "Sınırlı", "Sınırlı"],
+                        ["Dar kurulum alanı", "Uygun, geniş menzil telafi eder", "Uygun düz alanda", "Geniş alan gerekir"],
+                        ["Kapalı alan, düşük tavan", "Sınırlı", "Uygun", "Uygun değil"],
+                        ["Açık saha, uzun mesafe", "Orta", "Sınırlı", "Uygun"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kurulum noktası seçimi ve keşif",
+                paragraflar: [
+                    "Eklemli platformun asıl avantajı doğru kurulum noktası seçildiğinde ortaya çıkar; yanlış noktadan konumlanmış bir makine, bomun menzili yeterli olsa bile bazı hedeflere ulaşamayabilir. Bu yüzden geniş kapsamlı işlerde duruş öncesi keşfi ayrıntılı yapıyoruz — hedeflerin haritasını çıkarıyor, olası kurulum noktalarını değerlendiriyor ve en az taşınmayla en çok hedefe ulaşılan noktayı seçiyoruz.",
+                    "Keşif sırasında zemin taşıma kapasitesi de kontrol ediliyor, çünkü eklemli platformun ağırlığı ve bom açıldığında oluşan moment, kurulum noktasındaki zemine göre değerlendirilmesi gereken bir kriter.",
+                ],
+            },
+            {
+                baslik: "Devreye alma sırasında tekrarlanan erişim",
+                paragraflar: [
+                    "Devreye alma sırasında bir hat üzerinde birden fazla nokta tekrar tekrar kontrol edilmek zorunda kalabilir; eklemli platformun tek kurulumdan çoklu hedefe ulaşma özelliği burada da işe yarıyor. Kullanılan kurulum noktaları ve bomun ulaştığı hedefler kayıt altına alınıyor; bu kayıt, bir sonraki periyodik bakımda aynı hattın daha hızlı planlanmasını sağlıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Boru hattımız uzun ve birden fazla nokta kontrol edilecek; makineyi her seferinde taşımak mı gerekiyor?",
+                cevap:
+                    "Genellikle hayır. Eklemli platform tek bir kurulum noktasından bomunu farklı hedeflere doğru hareket ettirebiliyor; hattın haritasını çıkarıp en az taşınmayla en çok hedefe ulaşılan kurulum noktasını önceden seçiyoruz. Hattın uzunluğu ve hedefler arası mesafe belirli bir sınırı aşarsa birden fazla kurulum noktası gerekebiliyor, bunu keşifte netleştiriyoruz. Hedeflerin listesini ve yaklaşık aralarındaki mesafeyi paylaşırsanız kurulum planını önceden çıkarabiliriz.",
+            },
+            {
+                soru: "Hedefle makine arasında boru rafı gibi bir engel var; erişim mümkün mü?",
+                cevap:
+                    "Çoğunlukla mümkün — eklemli platformun bomu dikey yükselip yatayda uzayabildiği için bu tip engellerin üzerinden dolaşarak hedefe ulaşabiliyor. Engelin yüksekliğini ve hedefle olan konumunu keşifte ölçüyor, bomun menzilinin yetip yetmediğini önceden hesaplıyoruz. Engel çok yakın ve dar bir aralık bırakıyorsa sepetli örümcek platform gibi alternatif bir sınıfı da değerlendiriyoruz; hangisinin uygun olduğuna saha fotoğrafına bakarak karar veriyoruz.",
+            },
+            {
+                soru: "Enerji kesintisi süremiz kısa; eklemli platform bu sürede kaç noktayı kontrol edebilir?",
+                cevap:
+                    "Bu, hedef sayısına ve aralarındaki mesafeye bağlı; net bir sayı vermeden önce hedeflerin listesini ve konumlarını görmek istiyoruz. Genel eğilim şu: tek kurulumdan çoklu hedefe ulaşabildiği için, aynı kesinti süresinde tekerlekli platforma göre daha fazla nokta taranabiliyor. Duruş planına bu hesabı önceden yazıyor, kesinti süresine göre gerçekçi bir hedef sayısı belirliyoruz; iyimser bir sayı verip sahada yetişememek en kötü senaryo.",
+            },
+            {
+                soru: "Makinenin kurulacağı alan dar; bom geniş bir alana ulaşabilir mi?",
+                cevap:
+                    "Zemin uygunsa evet — eklemli platform dar bir kurulum noktasından bomunu geniş bir yaya açarak çalışabiliyor. Kurulum alanının ölçüsünü ve zemin taşıma kapasitesini keşifte kontrol ediyoruz, çünkü bom açıldığında oluşan momentin zemine göre değerlendirilmesi gerekiyor. Alan gerçekten çok kısıtlıysa ya da zemin yetersizse alternatif kurulum noktası veya farklı sınıf öneriyoruz; bunu sahada denemeden önce keşifte netleştirmek daha güvenli.",
+            },
+            {
+                soru: "Aynı hat üzerinde iki ekip farklı noktalarda aynı anda çalışmak istiyor; bu mümkün mü?",
+                cevap:
+                    "Tek makineyle aynı anda iki farklı yerde olmak mümkün değil, bu yüzden ekiplerin hangi hedefte hangi saatte çalışacağını duruş planına baştan yazıyoruz. Bu sıralama yapılmazsa iki ekip aynı makineyi beklerken zaman kaybediyor. İki ekibin gerçekten eş zamanlı çalışması zorunluysa ikinci bir makine değerlendiriyoruz; hedef sayısı ve pencere süresine göre bunun gerekip gerekmediğini birlikte hesaplıyoruz.",
+            },
+            {
+                soru: "Devreye alma sırasında aynı hattı tekrar tekrar kontrol etmemiz gerekebilir; her seferinde yeni keşif mi yapılıyor?",
+                cevap:
+                    "Hayır, ilk keşifte kullandığımız kurulum noktalarını ve bomun ulaştığı hedefleri kayıt altına alıyoruz; devreye alma sırasında aynı hat tekrar açılırsa bu kayıt üzerinden ilerliyor, sıfırdan keşif gerekmiyor. Bu kayıt, bir sonraki periyodik bakım döneminde de kullanılabiliyor ve hattın planlanmasını hızlandırıyor. Düzen sahada değiştiyse (yeni ekipman, kaldırılan boru rafı gibi) kaydı güncelliyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun bom menzil mekaniği üretici teknik özellikleridir; duruş penceresinde tek kurulumdan çoklu hedef planlaması firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Duruş Döneminde İç Mekân ve Depo İçi Platform Kiralama",
+        giris:
+            "Duruş listesinin büyük bölümü aslında dış saha değil, hattın kendi içidir: tavan aydınlatması, sprinkler hattı, kablo kanalı, raf üstü depolama alanı, üretim hattı üzerindeki askılı ekipman. Bu tip işlerde makine seçimini belirleyen ilk kriter erişim yüksekliği değil, kapı genişliği ve tavan yüksekliğidir — dış sahada rahatlıkla kullanılan bir sınıf, iç mekâna giremeyebilir. Bölgedeki duruş dönemlerinde iç mekân kalemleri genellikle dış saha kalemleriyle aynı pencereye yerleştirilir ve bu, makine geçişini planlamayı gerektirir: aynı gün içinde hem dışarıda hem içeride çalışabilecek akülü bir sınıf mı, yoksa iki ayrı makine mi. Bu sayfada anlattığımız, iç mekân işlerinin duruş takvimine nasıl oturtulduğu, kapı ve tavan ölçülerinin nasıl kontrol edildiği ve üretim hattının durduğu dar pencerede zeminin nasıl korunduğudur.",
+        maddeler: [
+            {
+                baslik: "Kapı genişliği ve tavan yüksekliği kontrolü",
+                metin:
+                    "İç mekâna girecek makinenin ilk sınırı kapı genişliği, ikinci sınırı ise tavan yüksekliğidir. Duruş öncesi keşifte her iki ölçüyü de santimetre hassasiyetinde alıyor, uygun sınıfı buna göre belirliyoruz. Ölçü sınırdaysa alternatif bir giriş noktası ya da daha dar bir sınıf öneriyoruz; sahada denenip geri çevrilen bir makine hem zaman hem güven kaybettiriyor.",
+            },
+            {
+                baslik: "Akülü sınıfın iç mekân tercihi",
+                metin:
+                    "Kapalı alanda egzoz gazı çıkarmaması gereken bir ortamda akülü makaslı platform standart tercih. Duruş penceresinde iç mekân kalemleri toplandığında akülü sınıfı önceden ayırıyor, şarj durumunu pencere başlamadan kontrol ediyoruz — pencere ortasında şarj bitmesi, ikinci bir makine ya da sarj molası gerektiriyor ve bu, planı bozan bir kalem oluyor.",
+            },
+            {
+                baslik: "Raf arası ve dar koridor erişimi",
+                metin:
+                    "Depo içi raf sistemleri arasındaki koridorlar genellikle dar, standart forklift koridoru genişliğine göre kurulmuştur. Manlift bu koridora girecekse şase genişliğinin koridor ölçüsüyle uyumlu olması gerekir; uymuyorsa dar şase sınıfı ya da örümcek platform değerlendiriliyor. Bu kontrolü duruş öncesi keşifte yapıyoruz.",
+            },
+            {
+                baslik: "Üretim hattı durduğunda zemin koruması",
+                metin:
+                    "Üretim hattının durduğu dar pencerede zemin genellikle hassas kaplamalı ya da özel yüzeyli olabiliyor. Makinenin tekerlek izinin zarar vermemesi için lastik türü ve zemin koruma önlemleri duruş planına önceden yazılıyor — dolgu lastikli ya da iz bırakmayan tekerlek seçimi, kaplamalı zeminlerde standart hâle getirilmiş bir uygulama.",
+            },
+            {
+                baslik: "İç-dış geçişli işlerde tek makine kullanımı",
+                metin:
+                    "Bazı duruş kalemleri iç mekânda başlayıp dış cepheye çıkan bir hat üzerinde ilerler; kapı genişliğine sığan bir sınıf seçildiğinde aynı makine hem içeride hem dışarıda kullanılabiliyor. Bu, iki ayrı makine kiralama ihtiyacını ortadan kaldırıp duruş penceresi içinde tek günde tamamlanan bir iş listesi çıkarıyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân duruş kalemlerinde sınıf seçimi",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, iç mekân duruş kalemlerinde hangi ölçütün hangi sınıfı işaret ettiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçüt", "Kapı/koridor durumu", "Önerilen sınıf", "Duruş planındaki yeri"],
+                    satirlar: [
+                        ["Geniş kapı, düz zemin", "Standart", "Akülü makaslı", "Tavan/hat üstü işler"],
+                        ["Dar kapı, dar koridor", "Sınırlı", "Dar şase akülü", "Raf arası erişim"],
+                        ["Kapı içinden dışarı geçiş", "Standart-orta", "Kapı ölçüsüne uygun akülü", "İç-dış birleşik kalemler"],
+                        ["Hassas kaplamalı zemin", "Değişken", "İz bırakmayan lastik", "Üretim hattı içi"],
+                        ["Egzozsuz ortam zorunluluğu", "Kapalı alan", "Akülü, dizel değil", "Tüm iç mekân kalemleri"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şarj planlaması ve pencere süresi",
+                paragraflar: [
+                    "Akülü makinenin şarj durumu, duruş penceresinin uzunluğuna göre önceden kontrol edilmesi gereken bir kalem. Pencere kısa ve tek vardiyaysa genellikle tek şarjla yeterli oluyor; pencere birden fazla vardiyaya yayılıyorsa şarj molası ya da ikinci makine değerlendiriliyor. Bu hesabı duruş takvimi netleştiğinde yapıyor, planı buna göre kuruyoruz.",
+                    "Şarj noktasının makineye yakın ve erişilebilir olması da önemli; pencere içinde şarj noktası aramak zaman kaybettiriyor, bu yüzden park ve şarj noktasını keşif sırasında birlikte belirliyoruz.",
+                ],
+            },
+            {
+                baslik: "Hassas zeminde iz ve leke önleme",
+                paragraflar: [
+                    "Bazı üretim alanlarında zemin kaplaması hem pahalı hem hassastır; standart lastik izi bırakabilir ya da leke oluşturabilir. Bu tip alanlarda iz bırakmayan (non-marking) lastikli makineyi tercih ediyor, gerekirse tekerlek altına geçici koruma bandı seriyoruz. Bu önlem duruş planına baştan yazılmazsa sahada son anda çözüm aranıyor ve bu, pencere süresinden zaman çalıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kapımızın genişliğini tam bilmiyoruz; makinenin girip girmeyeceğini nasıl anlarız?",
+                cevap:
+                    "Duruş öncesi keşifte kapı genişliğini ve tavan yüksekliğini santimetre hassasiyetinde ölçüyoruz; bu ölçüm olmadan sınıf önerisi vermiyoruz, çünkü sahada denenip geri çevrilen bir makine hem zaman hem güven kaybettiriyor. Kapı ölçüsü sınırdaysa alternatif bir giriş noktasını ya da daha dar şaseli bir sınıfı değerlendiriyoruz. Kapı fotoğrafını ve kaba ölçüsünü önceden paylaşırsanız uygun sınıfı keşiften önce ön görebiliyoruz.",
+            },
+            {
+                soru: "Kapalı alanda dizel makine kullanmak mümkün mü?",
+                cevap:
+                    "Öneriyoruz ki kullanılmasın — kapalı alanda egzoz gazı birikimi ciddi bir güvenlik riski oluşturuyor. İç mekân kalemlerinde standart tercihimiz akülü makaslı platform; bu sınıf hem egzozsuz çalışıyor hem de kapı ve koridor ölçülerine daha kolay uyuyor. Havalandırması güçlü ve büyük bir kapalı alanda istisnai durumlar değerlendirilebilir ama bunu önceden, saha koşullarına bakarak karar veriyoruz, varsayılan olarak önermiyoruz.",
+            },
+            {
+                soru: "Depo raf aralarımız çok dar; standart makaslı platform sığmıyorsa alternatif nedir?",
+                cevap:
+                    "Dar şase sınıfı akülü makaslı platform ya da sepetli örümcek platform değerlendiriyoruz. Koridor genişliğini keşifte ölçüyor, hangi sınıfın sığdığını önceden belirliyoruz. Koridor gerçekten çok darsa (standart dar şase sınıfının bile sığmadığı durumlar) örümcek platformun katlanır ayak düzeni son çare olarak devreye giriyor. Koridor fotoğrafını ve en dar noktanın ölçüsünü paylaşmanız, doğru sınıfı önceden belirlememizi kolaylaştırıyor.",
+            },
+            {
+                soru: "Duruş penceremiz iki vardiyayı kapsıyor; akülü makine bu süre boyunca yeter mi?",
+                cevap:
+                    "Tek şarjla genellikle tek vardiyayı rahatlıkla karşılıyor; iki vardiyalık bir pencerede şarj molası ya da ikinci makine planlıyoruz. Bu hesabı duruş takvimi netleştiğinde yapıyoruz — pencere süresini ve tahmini kullanım yoğunluğunu öğrendiğimizde şarj planını buna göre kuruyoruz. Şarj molası planlanmışsa noktasını ve süresini önceden belirtiyor, pencere içinde beklenmedik bir duraklama yaşanmamasını sağlıyoruz.",
+            },
+            {
+                soru: "Zeminimiz hassas kaplamalı; makine iz bırakır mı?",
+                cevap:
+                    "Standart lastikle iz bırakma riski var, bu yüzden hassas kaplamalı zeminlerde iz bırakmayan (non-marking) lastikli makineyi tercih ediyoruz. Gerekirse tekerlek altına geçici koruma bandı da seriyoruz. Bu önlemi duruş planına baştan yazmamızın nedeni, pencere içinde son anda çözüm aramanın hem zaman kaybettirmesi hem de riski artırmasıdır. Zemin türünü keşif öncesinde bildirirseniz uygun lastik seçimini önceden hazırlarız.",
+            },
+            {
+                soru: "İşimiz iç mekânda başlayıp dışarıya çıkıyor; iki makine mi gerekiyor?",
+                cevap:
+                    "Genellikle hayır — kapı genişliğine sığan bir sınıf seçildiğinde aynı makine hem içeride hem dışarıda kullanılabiliyor; makine kapıdan geçip dışarıda çalışmasına devam ediyor. Bu, iki ayrı makine kiralama ihtiyacını ortadan kaldırıyor ve duruş penceresi içinde tek günde tamamlanan bir iş listesi çıkarıyor. Kapı ölçüsü uygun değilse ya da dış sahadaki iş çok farklı bir sınıf gerektiriyorsa (örneğin geniş arazi tipi) iki makineyi ayrı planlıyoruz; bunu keşifte netleştiriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Akülü platformun kapalı alan tercihi ve iz bırakmayan lastik uygulaması üretici teknik özellikleri ve sektör geneli saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Duruş Penceresine Sığdırılan Çelik Konstrüksiyon Montaj İşleri",
+        giris:
+            "Bir üretim hattına yeni bir ekipman eklemek, mevcut bir çelik konstrüksiyonu değiştirmek ya da yeni bir kablo köprüsü kurmak gibi montaj işleri, hat çalışırken yapılamayacağı için genellikle planlı duruş penceresine sıkıştırılır. Bu tip işler bakım kaleminden farklıdır — kontrol değil inşa yapılır, süre daha uzun ve makine kullanımı daha yoğundur. Bölgedeki duruş dönemlerinde montaj kalemleri geldiğinde önce şunu soruyoruz: bu iş gerçekten duruş penceresine mi sığar, yoksa ayrı bir proje takvimi mi gerektirir? Bazı montaj işleri duruş penceresinin dışında, hat çalışırken bile güvenli biçimde yürütülebilir; bazıları ise mutlaka enerjisiz ve durmuş bir hat gerektirir. Bu ayrımı doğru yapmak, hem duruş penceresinin gereksiz uzamasını hem de montaj işinin yarım kalmasını önlüyor.",
+        maddeler: [
+            {
+                baslik: "Montajın duruş penceresine gerçekten ihtiyacı var mı",
+                metin:
+                    "Her çelik konstrüksiyon montajı hattın durmasını gerektirmez; hattan uzak bir noktada, mevcut trafiği etkilemeyen bir montaj işi genellikle hat çalışırken de yapılabilir. Duruş penceresine gerçekten ihtiyaç duyan işler, hat üzerine ya da hattın hemen yakınına inen, güvenlik açısından enerjisiz ortam gerektiren kalemlerdir. Bu ayrımı montaj listesine bakarak baştan yapıyoruz ve gereksiz yere pencereye yazılan kalemleri ayırıyoruz.",
+            },
+            {
+                baslik: "Uzun süreli makine kullanımı ve vardiya planı",
+                metin:
+                    "Montaj işleri bakım kontrolünden daha uzun sürdüğü için makine genellikle tüm pencere boyunca, birden fazla vardiyada kullanılır. Bu, tek bir makinenin sürekli meşgul olması demektir; aynı pencerede başka bir bakım kalemi varsa ikinci makine gerekebilir. Vardiya planını duruş takvimi netleştiğinde çıkarıyor, montaj ve bakım kalemlerinin aynı makineyi paylaşıp paylaşmayacağını önceden hesaplıyoruz.",
+            },
+            {
+                baslik: "Ağır parça kaldırma ile montaj erişiminin ayrımı",
+                metin:
+                    "Çelik konstrüksiyon montajında iki farklı ihtiyaç var: ağır parçanın kaldırılıp yerine konması (vinç işi) ve montaj sırasında kaynak, cıvatalama gibi işlerin yapılabileceği erişim (platform işi). Bu ikisini karıştırmıyoruz — manlift erişim sağlar, ağır kaldırma ayrı bir ekipman gerektirir. Montaj listesini incelerken hangi kalemin hangi ekipmanı gerektirdiğini ayırıyor, ikisini aynı pencereye koordine ediyoruz.",
+            },
+            {
+                baslik: "Kaynak ve kesim işlerinde güvenlik mesafesi",
+                metin:
+                    "Montaj sırasında kaynak ya da kesim yapılıyorsa, platform üzerindeki ekip ile çevresindeki diğer çalışmalar arasında güvenli mesafe ve yangın önlemi gerekiyor. Duruş planına bu güvenlik çerçevesini yazıyor, kaynak alanının etrafını diğer ekiplerin rotasından ayırıyoruz. Bu, aynı pencerede birden fazla ekibin çalıştığı durumlarda özellikle önem kazanıyor.",
+            },
+            {
+                baslik: "Montaj sonrası kontrol ve teslim",
+                metin:
+                    "Montaj tamamlandığında platform üzerinden yapılan görsel kontrol ve bağlantı sıkılığı teyidi, işin tesise teslim edilmeden önceki son adımıdır. Bu kontrolü montaj listesine ayrı bir kalem olarak yazıyor, makinenin montaj bitince hemen çekilmemesini, kontrol tamamlanana kadar sahada kalmasını planlıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj kaleminin duruş penceresiyle ilişkisi",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, montaj kaleminin duruş penceresine ihtiyaç duyup duymadığını ve makine kullanım yoğunluğunu değerlendirmek için kullandığımız kabaca kural setidir.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj tipi", "Duruş penceresi gerekli mi", "Makine kullanım yoğunluğu", "Ek ekipman ihtiyacı"],
+                    satirlar: [
+                        ["Hattan uzak, bağımsız yapı", "Hayır, hat çalışırken yapılır", "Değişken, esnek planlama", "Genellikle sadece platform"],
+                        ["Hat üstü kablo köprüsü", "Evet, enerjisiz ortam", "Yüksek, çok vardiyalı", "Vinç + platform"],
+                        ["Ekipman gövdesine ek yapı", "Evet", "Orta-yüksek", "Platform + kaldırma"],
+                        ["Mevcut konstrüksiyon tadilatı", "Evet, kesim/kaynak varsa", "Yüksek", "Platform + güvenlik ekibi"],
+                        ["Görsel kontrol/teslim", "Kısmen", "Düşük, kısa süreli", "Sadece platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Platform ile ağır kaldırma ekipmanının koordinasyonu",
+                paragraflar: [
+                    "Montaj işlerinde en sık karşılaşılan koordinasyon sorunu, platform ve vinç gibi ağır kaldırma ekipmanının aynı sahada aynı anda çalışması gerektiğinde ortaya çıkıyor. İkisinin güzergâhı ve çalışma alanı çakıştığında hem verim düşüyor hem risk artıyor. Duruş planına bu iki ekipmanın hangi sırayla, hangi bölgede çalışacağını yazıyoruz — genellikle önce ağır parça vinçle yerine konur, ardından platform devreye girip bağlantı ve ince ayar işlerini üstlenir.",
+                    "Bu sıralama montaj listesinin doğasına göre değişebilir; bazı işlerde platform önce erişim sağlar, parça sonradan indirilir. Hangi sıranın doğru olduğunu montaj mühendisliğiyle birlikte belirliyoruz.",
+                ],
+            },
+            {
+                baslik: "Duruş penceresi dışında yapılabilecek hazırlık",
+                paragraflar: [
+                    "Montaj işinin bir bölümü — malzeme ön montajı, kaynak öncesi hazırlık, ölçüm ve işaretleme — pencere açılmadan tamamlanabilir. Bu hazırlığın önceden bitirilmesi, pencere içindeki makine kullanım süresini kısaltıyor. Duruş öncesi hazırlığı planlarken hangi kalemin pencere dışında yapılabileceğini montaj ekibiyle birlikte belirliyor, sadece pencere gerektiren kalemleri takvime yazıyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Montaj işimiz duruş penceresine mutlaka mı sığdırılmalı, yoksa hat çalışırken de yapılabilir mi?",
+                cevap:
+                    "Bu, montajın hatta ne kadar yakın olduğuna bağlı. Hattan uzak, mevcut üretim trafiğini etkilemeyen bir montaj işi genellikle hat çalışırken de güvenle yapılabiliyor ve bunu duruş penceresine sıkıştırmanıza gerek kalmıyor. Hat üzerine ya da hemen yakınına inen, enerjisiz ortam gerektiren kalemler ise mutlaka duruş penceresinde yapılmalı. Montaj listesini paylaştığınızda hangi kalemin pencere gerektirdiğini, hangisinin bağımsız planlanabileceğini ayırıp size gösteriyoruz.",
+            },
+            {
+                soru: "Montaj işimiz birkaç gün sürecek; makine tüm süre boyunca sahada mı kalıyor?",
+                cevap:
+                    "Genellikle evet, çünkü montaj işleri bakım kontrolünden daha uzun sürüyor ve makine birden fazla vardiyada kullanılıyor. Bu süreyi duruş takvimi netleştiğinde hesaplıyor, aynı pencerede başka bir bakım kalemi varsa ikinci makinenin gerekip gerekmediğini önceden değerlendiriyoruz. Süre tahminini gerçekçi tutmanızı öneriyoruz; iyimser bir tahminle planlanan bir montaj işi, sürenin uzaması durumunda bir sonraki tesisin sırasını da etkileyebiliyor.",
+            },
+            {
+                soru: "Hem ağır parça kaldıracağız hem de kaynak yapacağız; tek makine yeter mi?",
+                cevap:
+                    "Hayır, bu ikisi farklı ekipman gerektiriyor — manlift erişim sağlar, ağır parçanın kaldırılıp yerine konması ayrı bir kaldırma ekipmanı ister. İkisini karıştırmadan, montaj listesini inceleyip hangi kalemin hangi ekipmanı gerektirdiğini ayırıyoruz. Genellikle önce ağır parça yerine konur, ardından platform devreye girip bağlantı ve kaynak işlerini üstlenir; bu sıralamayı montaj mühendisliğiyle birlikte belirliyoruz.",
+            },
+            {
+                soru: "Kaynak yaparken platformdaki ekip için özel bir güvenlik önlemi gerekiyor mu?",
+                cevap:
+                    "Evet, kaynak ve kesim işlerinde platform üzerindeki ekiple çevredeki diğer çalışmalar arasında güvenli mesafe ve yangın önlemi gerekiyor. Bu çerçeveyi duruş planına yazıyor, kaynak alanının etrafını diğer ekiplerin rotasından ayırıyoruz. Aynı pencerede birden fazla ekip çalışıyorsa bu ayrım özellikle önem kazanıyor; kaynak kıvılcımının başka bir çalışma alanına ulaşmaması için mesafe ve bariyer önceden planlanıyor.",
+            },
+            {
+                soru: "Montajın bir kısmını duruş penceresi açılmadan önce hazırlayabilir miyiz?",
+                cevap:
+                    "Evet ve önermemiz de bu yönde. Malzeme ön montajı, kaynak öncesi hazırlık, ölçüm ve işaretleme gibi kalemler pencere açılmadan tamamlanabilir; bu hazırlığın önceden bitirilmesi pencere içindeki makine kullanım süresini kısaltıyor. Duruş öncesi hazırlığı montaj ekibinizle birlikte planlıyor, hangi kalemin pencere dışında yapılabileceğini belirleyip sadece pencere gerektiren işleri takvime yazıyoruz.",
+            },
+            {
+                soru: "Montaj bittikten sonra platform hemen mi çekiliyor, yoksa kontrol için bekliyor mu?",
+                cevap:
+                    "Hemen çekilmiyor — montaj tamamlandığında platform üzerinden yapılan görsel kontrol ve bağlantı sıkılığı teyidi, işin teslim edilmeden önceki son adımı. Bu kontrolü montaj listesine ayrı bir kalem olarak yazıyor, makinenin kontrol tamamlanana kadar sahada kalmasını planlıyoruz. Kontrolde bir eksik çıkarsa aynı makineyle hemen düzeltiliyor; makine erken çekildiğinde bu, ikinci bir sevkiyat anlamına gelir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Duruş penceresine giren-girmeyen montaj kalemlerinin ayrımı ve platform-vinç koordinasyonu firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Tesislerinde Mevsimsel Duruş Dönemine Platform Kiralama",
+        giris:
+            "Eskişehir-Bozüyük hattındaki sanayi tesislerinin duruşları tatil ve dönem sonu takvimine bağlıyken, bölgedeki tarım ve silo tesislerinin duruş dönemi tamamen farklı bir takvime bağlıdır: hasat sonrası boşalan depolama kapasitesi, ekim öncesi bakım penceresi. Bu iki takvimin örtüşmemesi bizim için aslında bir avantajdır — sanayi tesislerinin yoğun olduğu haftalarda tarım tesisleri genellikle sakin, tarım tesislerinin yoğun olduğu dönemde ise sanayi tarafı görece rahat oluyor. Bu sayfada dürüstçe belirtmemiz gereken bir sınır var: ana uzmanlığımız sanayi tesisi bakım-devreye alma ve duruş dönemi kapasite yönetimi; tarım ve silo yapılarının kendine özgü teknik detaylarında (tahıl tozu patlama riski, silo iç yüzey özellikleri gibi) derinlemesine uzman değiliz. Buna karşılık silo dış yapısı, çelik konstrüksiyon bakımı ve genel erişim ihtiyaçlarında standart platform hizmetimizi aynı güvenilirlikle sunuyoruz.",
+        maddeler: [
+            {
+                baslik: "Hasat sonrası boşalan pencere",
+                metin:
+                    "Silo ve depolama tesislerinde hasat dönemi biterken depolama kapasitesinin bir kısmı boşalır ve bu, bakım için doğal bir pencere açar. Bu pencere sanayi tesislerinin yoğun duruş haftalarıyla genellikle çakışmaz; bu yüzden tarım tesislerinden gelen talepleri, sanayi tarafının sakin olduğu haftalara kolaylıkla yerleştirebiliyoruz. Tarih netleştiğinde erken bağlamayı öneriyoruz, çünkü bu dönem kısa ve mevsime bağlı.",
+            },
+            {
+                baslik: "Silo dış yapısı ve çelik konstrüksiyon erişimi",
+                metin:
+                    "Silo gövdesinin dış yüzeyi, merdiven ve platform bağlantıları, çatı üstü ekipman erişimi gibi kalemler standart platform hizmetimizin kapsamındadır. Bu tip işlerde dizel arazi tipi platform, açık ve genellikle stabilize zeminli silo çevresinde rahat çalışıyor. Erişim yüksekliği ve zemin durumu keşifte kontrol ediliyor.",
+            },
+            {
+                baslik: "Açık arazi zemininde erişim koşulları",
+                metin:
+                    "Tarım tesislerinin çevresi genellikle asfalt değil stabilize ya da toprak zemindir ve mevsime göre (yağmur sonrası) zemin sertliği değişir. Bu koşullarda arazi tipi lastikli platform öneriyoruz; zemin çok yumuşaksa erişim öncesi zemin kontrolü yapıyor, gerekirse geçici plaka döşemeyi değerlendiriyoruz.",
+            },
+            {
+                baslik: "İç mekân ve tahıl tozu ortamında sınırımız",
+                metin:
+                    "Silo iç mekânında tahıl tozu birikimi, patlama riski açısından özel ekipman ve prosedür gerektirebilen bir konu. Bu alanda ana uzmanlığımız yok ve dürüstçe söylüyoruz: ATEX sertifikalı özel ekipman gerektiren iç mekân işlerinde bu konuda uzmanlaşmış bir tedarikçiyle çalışmanızı öneririz. Silo dışındaki standart erişim işlerinde ise hizmet veriyoruz.",
+            },
+            {
+                baslik: "Ekim öncesi kısa bakım penceresi",
+                metin:
+                    "Ekim öncesi dönemde bazı tesisler kısa bir bakım penceresi açar; bu pencere genellikle hasat sonrasından daha kısadır. Kısa pencerede makinenin pencere açılmadan sahada hazır olması önem kazanıyor; teslim saatini pencere başlangıcına göre değil biraz önceye planlıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapsamımız içinde ve dışında kalan işler",
+                paragraflar: [
+                    "Dürüstlük ilkesiyle, tarım ve silo tesislerinde hangi işlerin standart platform hizmetimizle karşılandığını, hangilerinin özel uzmanlık gerektirdiğini aşağıda ayırdık.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Kapsam", "Önerilen yaklaşım", "Mevsimsel pencere"],
+                    satirlar: [
+                        ["Silo dış gövde/merdiven bakımı", "Kapsamımızda", "Standart arazi tipi platform", "Hasat sonrası"],
+                        ["Çatı üstü ekipman erişimi", "Kapsamımızda", "Standart platform", "Hasat sonrası / ekim öncesi"],
+                        ["Silo iç mekân, tozlu ortam", "Kapsam dışı", "ATEX uzmanı tedarikçi önerilir", "—"],
+                        ["Çevre çelik konstrüksiyon", "Kapsamımızda", "Standart platform", "Esnek"],
+                        ["Açık arazi aydınlatma direği", "Kapsamımızda", "Arazi tipi platform", "Esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki takvimin birbirini tamamlaması",
+                paragraflar: [
+                    "Sanayi tesislerinin duruş takvimi ile tarım tesislerinin mevsimsel penceresi genellikle farklı haftalara düşer; bu bizim için kapasite planlamasında bir avantaj. Sanayi tarafının yoğun olduğu tatil bloklarında tarım tesisi talebi görece azdır, tarım tarafının yoğun olduğu hasat sonrası dönemde ise sanayi tarafı görece sakindir. Bu ayrışma, aynı filo ile iki farklı talep dalgasının makul ölçüde karşılanabilmesini sağlıyor.",
+                    "Bu örtüşmezlik garanti değildir; bazı yıllarda hasat takvimi kayabilir ve sanayi duruşlarıyla çakışabilir. Böyle bir durumda önceliği erken bağlayan tarafa veriyoruz ve bunu açıkça söylüyoruz.",
+                ],
+            },
+            {
+                baslik: "Zemin ve mevsim etkisi",
+                paragraflar: [
+                    "Tarım tesislerinin çevresindeki zemin, mevsime göre belirgin şekilde değişir; kuru dönemde sağlam olan stabilize zemin, yağmur sonrası yumuşayabilir. Bu değişkenliği keşifte dikkate alıyor, arazi tipi platform tercih ediyor ve gerekirse geçici plaka döşemeyi öneriyoruz. Zemin durumu hakkında güncel bilgi vermeniz (son yağış, zemin sertliği izlenimi), doğru makine sınıfını önceden belirlememizi kolaylaştırıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo tesisimizde hasat sonrası kısa bir bakım penceremiz var; bu dönemde makine bulmakta zorlanır mıyız?",
+                cevap:
+                    "Genellikle hayır, çünkü bu dönem sanayi tesislerinin yoğun duruş takvimiyle örtüşmüyor ve bu bize kapasite açısından esneklik sağlıyor. Tarih netleştiğinde erken bağlamanızı öneriyoruz, çünkü pencere kısa ve mevsime bağlı; bazı yıllarda hasat takvimi kayıp sanayi duruşlarıyla çakışabiliyor, böyle bir durumda önceliği erken bağlayan alıyor. Genel kural olarak tarım tesislerinden gelen talepleri sakin haftalara kolaylıkla yerleştirebiliyoruz.",
+            },
+            {
+                soru: "Silo içindeki tahıl tozu ortamında çalışabilir misiniz?",
+                cevap:
+                    "Bunu dürüstçe sınırlıyoruz — silo iç mekânında tahıl tozu birikiminin patlama riski açısından özel ATEX sertifikalı ekipman ve prosedür gerektirdiği durumlarda ana uzmanlığımız yok. Bu tip iç mekân işlerinde bu konuda uzmanlaşmış bir tedarikçiyle çalışmanızı öneririz. Silo dışındaki gövde, merdiven ve çatı üstü erişim gibi standart işlerde ise hizmet veriyoruz ve bu konuda deneyimliyiz.",
+            },
+            {
+                soru: "Tesisimizin çevresi stabilize zemin, yağmur sonrası yumuşuyor; makine batar mı?",
+                cevap:
+                    "Mevsime göre bu riski dikkate alıyoruz. Kuru dönemde sağlam olan stabilize zemin yağmur sonrası yumuşayabiliyor; bu durumda arazi tipi lastikli platform tercih ediyor, zemin çok yumuşaksa geçici plaka döşemeyi değerlendiriyoruz. Son yağış durumu ve zeminin genel sertlik izlenimini paylaşırsanız, doğru makine sınıfını ve gerekirse zemin desteğini önceden hazırlarız.",
+            },
+            {
+                soru: "Silo gövdesinin dışındaki merdiven ve platform bağlantılarını kontrol ettirmek istiyoruz; bu sizin işiniz mi?",
+                cevap:
+                    "Evet, bu standart platform hizmetimizin kapsamında. Silo gövdesinin dış yüzeyi, merdiven ve platform bağlantıları, çatı üstü ekipman erişimi gibi işlerde dizel arazi tipi platform kullanıyor, açık ve genellikle stabilize zeminli silo çevresinde rahat çalışıyoruz. Erişim yüksekliğini ve zemin durumunu keşifte kontrol edip uygun makineyi öneriyoruz.",
+            },
+            {
+                soru: "Ekim öncesi çok kısa bir pencerede çalışmamız gerekiyor; teslim saati garanti edilebilir mi?",
+                cevap:
+                    "Kısa pencerelerde teslim saatinin tutması özellikle önemli; bu yüzden makinenin pencere başlangıcına göre değil biraz önce sahada olacak şekilde teslim saatini planlıyoruz. Tarih ve saat ne kadar erken bildirilirse rota o kadar sağlam kurulur. Pencere gerçekten dar bir zaman dilimindeyse (birkaç saat gibi) bunu bize önceden söylemeniz, hazırlığı buna göre önceliklendirmemizi sağlıyor.",
+            },
+            {
+                soru: "Hem silo dışı bakım hem de içeride tahıl tozu ortamı işi var; ikisini birlikte mi planlıyorsunuz?",
+                cevap:
+                    "İkisini ayırıyoruz — dış gövde, merdiven ve çatı üstü erişim gibi standart işleri kendimiz üstleniyoruz; tahıl tozu ortamındaki iç mekân işi için ATEX uzmanı bir tedarikçi önermemiz gerekiyor. İki işi aynı pencereye koordine etmek isterseniz, kendi kapsamımızdaki kısmı sizin belirlediğiniz uzman tedarikçiyle aynı takvime yerleştirebiliriz; ancak iç mekân tarafındaki teknik sorumluluğu üstlenmiyoruz. Bunu baştan netleştirmek, iki tarafın da beklentisini doğru kuruyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hasat sonrası ve ekim öncesi mevsimsel bakım pencereleri tarım sektöründe kamuya açık genel bilgidir; silo iç mekân ATEX kapsam dışı sınırı firma dürüstlük ilkesidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerjisiz Duruş Penceresinde Aydınlatma ve Enerji Hattı Bakımı",
+        giris:
+            "Bölgedeki duruş dönemlerinin bir bölümü doğrudan enerji kesintisiyle tanımlanır: bir üretim hattının enerjisi kesilmeden yapılamayacak elektrik panosu bakımı, aydınlatma direği değişimi, kablo kanalı kontrolü. Bu tip işlerin ortak özelliği, kesinti süresinin sabit ve genellikle kısa olmasıdır — enerji ne kadar erken geri verilirse üretim de o kadar erken başlar, bu yüzden kesinti penceresi asla gereksiz uzatılmaz. Bölgedeki tesislerle çalışırken enerji bakım kalemlerini duruş takviminin en sıkı kısıtlı bölümü olarak ele alıyoruz: makine kesinti başlamadan hazır bekler, kesinti başladığı an sepet hedefe yönelir ve kesinti bitmeden iş tamamlanır. Bu sayfada anlattığımız, enerjisiz pencerenin nasıl kullanıldığı, birden fazla enerji hattının aynı pencereye nasıl sığdırıldığı ve kesinti dışı aydınlatma bakımının nasıl farklı planlandığıdır.",
+        maddeler: [
+            {
+                baslik: "Kesinti başlamadan hazır bekleme",
+                metin:
+                    "Enerji kesintisi belirli bir saatte başlıyorsa, makinenin o saatten önce sahada ve hedefe yakın konumda hazır olması gerekiyor. Kesinti başladıktan sonra makine getirilirse kesinti süresinin bir bölümü boşa gidiyor. Bu yüzden enerji bakım kalemlerinde teslim saatini kesinti başlangıcından biraz önceye yazıyoruz; sepet, izin verildiği an hedefe hareket ediyor.",
+            },
+            {
+                baslik: "Birden fazla enerji hattının sıralanması",
+                metin:
+                    "Bazı duruşlarda birden fazla enerji hattı ya da pano grubu aynı kesinti penceresinde bakıma alınır. Bu durumda hangi hattın önce, hangisinin sonra kontrol edileceğini önceden sıralıyoruz — kritik olan ya da en uzun süren hat genellikle önce ele alınır, kısa kontroller arta kalan süreye yerleştirilir. Bu sıralama kesinti süresinin sonuna kadar tüm hatların bitirilmesini sağlıyor.",
+            },
+            {
+                baslik: "Aydınlatma direği bakımının kesinti dışı planlanması",
+                metin:
+                    "Aydınlatma direği bakımının her zaman enerji kesintisi gerektirmediği durumlar var — direk gövdesi ve armatür değişimi, ilgili hat izole edilerek kesinti dışında da yapılabiliyor. Bu tip işleri gereksiz yere duruş penceresine sıkıştırmıyoruz, ayrı bir gün için planlıyoruz; bu, hem duruş penceresini rahatlatıyor hem aydınlatma bakımını daha esnek bir takvime yerleştiriyor.",
+            },
+            {
+                baslik: "Kablo kanalı ve pano üstü erişim",
+                metin:
+                    "Kablo kanalı ve pano üstü kontrol işleri genellikle dar ve enerji hattına yakın noktalardır; bu yüzden hem erişim hem güvenlik mesafesi keşifte önceden değerlendiriliyor. Makine sınıfı, hedefin dar bir aralıkta olup olmadığına göre standart makaslı platform ya da örümcek platform arasında seçiliyor.",
+            },
+            {
+                baslik: "Kesinti süresinin aşılma riski ve yedek plan",
+                metin:
+                    "Enerji kesintisi süresi bazen beklenmedik bir bulguyla uzayabilir. Bu ihtimale karşı duruş planına bir yedek zaman dilimi ekliyor, makinenin kesinti bitene kadar sahada kalmasını sağlıyoruz. Süre planlanandan da fazla uzarsa bunu tesis yetkilisiyle birlikte anlık değerlendiriyoruz; makinenin bir sonraki taahhüdü varsa bu durumu açıkça bildiriyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kesinti gerektiren ve gerektirmeyen enerji-aydınlatma işleri",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, hangi enerji ve aydınlatma işinin kesinti penceresine mutlaka girmesi gerektiğini, hangisinin ayrı planlanabileceğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Kesinti gerekli mi", "Planlama", "Öncelik sırası"],
+                    satirlar: [
+                        ["Enerjili pano bakımı", "Evet, zorunlu", "Duruş penceresi", "Yüksek"],
+                        ["Kablo kanalı kontrolü (hat üstü)", "Evet", "Duruş penceresi", "Orta-yüksek"],
+                        ["Aydınlatma direği/armatür değişimi", "Genellikle hayır (lokal izolasyon yeterli)", "Ayrı gün", "Esnek"],
+                        ["Açık saha enerji hattı görsel kontrolü", "Hayır", "Ayrı gün", "Esnek"],
+                        ["Santral/trafo çevresi erişim", "Evet", "Duruş penceresi", "Yüksek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kesinti süresini verimli kullanmak",
+                paragraflar: [
+                    "Enerji kesintisi penceresi genellikle diğer duruş kalemlerinden daha kısa ve daha sıkı tutulur, çünkü üretimin yeniden başlaması doğrudan bu pencereye bağlıdır. Bu yüzden kesinti kapsamındaki her kalemi, makinenin hedefe ulaşma sırası dahil önceden planlıyoruz; sahada anlık karar vermeyi minimuma indiriyoruz. Kesinti başladığı an hangi hedefe önce gidileceği, hangi ekibin hangi noktada bekleyeceği yazılı olarak belli.",
+                    "Bu titiz planlamanın nedeni basit: kesinti süresi dakika bazında hesaplanan bir kaynak ve her boşta geçen dakika üretimin gecikmesi anlamına geliyor.",
+                ],
+            },
+            {
+                baslik: "Aydınlatma bakımının duruş dışına taşınmasının faydası",
+                paragraflar: [
+                    "Aydınlatma direği ve armatür bakımı kesinti gerektirmediğinde bunu duruş penceresinden ayrı bir güne taşımak iki fayda sağlıyor: duruş penceresi daha kritik enerji kalemlerine ayrılıyor, aydınlatma bakımı ise daha esnek, hava koşuluna göre seçilebilen bir güne kayabiliyor. Bu ayrım özellikle birden fazla direk ya da armatürün değişeceği geniş kapsamlı işlerde zaman kazandırıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Enerji kesintimiz sadece kırk-elli dakika sürecek; bu sürede iş bitirilebilir mi?",
+                cevap:
+                    "Hazırlık doğru yapılmışsa evet. Makinenin kesinti başlamadan önce sahada, hedefe yakın konumda hazır beklemesi belirleyici — kesinti başladıktan sonra makine getirilirse sürenin önemli bir kısmı boşa gidiyor. Birden fazla hedef varsa hangisinin önce, hangisinin sonra ele alınacağını önceden sıralıyoruz. Kesinti süresini ve hedef sayısını paylaşırsanız gerçekçi bir plan çıkarır, sığmayacak kalemleri önceden söyleriz.",
+            },
+            {
+                soru: "Aynı kesinti penceresinde birden fazla pano grubu kontrol edilecek; sırayı siz mi belirliyorsunuz?",
+                cevap:
+                    "Sırayı birlikte belirliyoruz ama önerimiz kritik olan ya da en uzun süren hattın önce ele alınması yönünde; kısa kontroller arta kalan süreye yerleştiriliyor. Bu sıralama, kesinti süresinin sonuna kadar tüm hatların bitirilmesini hedefliyor. Hangi hattın kritik olduğuna dair teknik önceliği tesis ekibiniz belirliyor, biz bu önceliğe göre makine ve ekip rotasını kuruyoruz.",
+            },
+            {
+                soru: "Aydınlatma direğimizi değiştirmek istiyoruz; enerji kesintisi gerekiyor mu?",
+                cevap:
+                    "Çoğu durumda hayır — direk gövdesi ve armatür değişimi, ilgili hat lokal olarak izole edilerek kesinti dışında da yapılabiliyor. Bu tip işleri gereksiz yere duruş penceresine sıkıştırmıyor, ayrı bir gün için planlıyoruz; bu hem duruş penceresini rahatlatıyor hem aydınlatma bakımını daha esnek bir takvime, örneğin hava koşulunun uygun olduğu bir güne yerleştirmemizi sağlıyor. Hattın izolasyon durumu belirsizse elektrik ekibinizle birlikte netleştiriyoruz.",
+            },
+            {
+                soru: "Kesinti süresi beklenmedik bir bulguyla uzarsa ne oluyor?",
+                cevap:
+                    "Bu ihtimale karşı duruş planına bir yedek zaman dilimi ekliyoruz; makine kesinti bitene kadar sahada kalıyor. Süre planlanandan da fazla uzarsa durumu tesis yetkilisiyle birlikte anlık değerlendiriyoruz — makinenin bir sonraki taahhüdü varsa bunu açıkça bildiriyor, mümkünse süreyi uzatıyoruz. Sık karşılaşılan bir durum değil ama planlamada bu payı bırakmamız, beklenmedik bir bulgunun tüm günü bozmasını önlüyor.",
+            },
+            {
+                soru: "Pano üstüne erişim çok dar bir aralıkta; standart platform sığar mı?",
+                cevap:
+                    "Aralığın genişliğine bağlı; keşifte bu ölçüyü kontrol ediyor, standart makaslı platform sığmıyorsa sepetli örümcek platform gibi dar geçişe uygun bir sınıf öneriyoruz. Enerji hattına yakınlık nedeniyle güvenlik mesafesini de bu değerlendirmeye dahil ediyoruz. Aralığın fotoğrafını ve yaklaşık ölçüsünü paylaşırsanız uygun sınıfı kesinti penceresi başlamadan önce belirleyebiliriz.",
+            },
+            {
+                soru: "Enerji kesintisi dışındaki açık saha enerji hattı işlerini de siz mi yapıyorsunuz?",
+                cevap:
+                    "Erişim tarafını evet — açık saha enerji hattı ve direklerinde görsel kontrol, boya, mekanik bağlantı gibi platform erişimi gerektiren işlerde hizmet veriyoruz. Bu tip işler genellikle kesinti gerektirmiyor ve daha esnek bir güne planlanabiliyor. Enerji hattının kendi elektriksel bakımı (izolasyon testi, koruma rölesi ayarı gibi) elektrik mühendisliği kapsamında kalıyor; biz bu kısımda erişimi sağlıyoruz, teknik işlemi tesisin elektrik ekibi ya da yetkili tedarikçisi yürütüyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Enerjisiz çalışma zorunluluğu ve kesinti penceresi sıralaması sektör geneli elektrik bakım güvenlik pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü Platform Kiralama: Duruş Takvimine Göre Çoklu Fabrika Rotası",
+        giris:
+            "Bölgedeki duruş döneminin en somut karşılığı operatör tarafında ortaya çıkar. Aynı hafta içinde birden fazla tesisin duruşu varsa, her tesisin kendi operatörünü ayrı ayrı bulması hem pahalı hem verimsizdir — bir operatör bir tesiste günde birkaç saat çalışırken kalan zamanı boşta geçirebilir. Bizim kurduğumuz düzen bunun tersi: operatörlü makineyi duruş takvimine göre bir rotaya yerleştiriyoruz, aynı operatör-makine ekibi bir günde birden fazla tesisin kısa pencerelerini karşılayabiliyor, uzun pencereli tesislerde ise tüm günü tek adrese ayırıyor. Bu, sadece bir lojistik kolaylık değil; operatörün aynı hafta içinde farklı sahalarda çalışması, saha koşullarına (zemin, erişim, güvenlik prosedürü) hızlı adapte olabilen deneyimli bir ekip gerektiriyor. Bu sayfada operatörlü kiralamanın duruş takvimine nasıl bağlandığını, vardiya ve rota planının nasıl kurulduğunu, operatör yeterliliğinin nasıl doğrulandığını ve birden fazla tesisin aynı operatörü paylaşırken neye dikkat ettiğimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Operatörlü vs operatörsüz: duruş penceresinde karar",
+                metin:
+                    "Duruş penceresinde tesis kendi personelini eğitip makineyi kendisi kullanabilir (operatörsüz) ya da bizim operatörümüzle çalışabilir (operatörlü). Kısa ve yoğun bir pencerede, birden fazla nokta hızlı sırayla tarandığında operatörlü kiralama neredeyse her zaman daha hızlı sonuç veriyor — operatör makineyi ve saha güvenlik prosedürünü tanıdığı için ayrı bir eğitim veya alışma süresi gerekmiyor. Uzun süreli, tek noktada yoğunlaşan işlerde ise tesis personeli operatörsüz kiralamayı tercih edebiliyor. Kararı işin doğasına göre birlikte veriyoruz.",
+            },
+            {
+                baslik: "Aynı günde birden fazla tesisin kısa pencerelerini karşılamak",
+                metin:
+                    "Bölgede birden fazla tesisin aynı gün kısa (birkaç saatlik) duruş penceresi açtığı durumlar sık görülüyor. Bu durumda tek bir operatörlü makineyi bir rotaya yerleştiriyoruz: sabah bir tesiste başlıyor, pencere kapanınca bir sonraki adrese geçiyor, günün sonuna kadar üç-dört kısa pencere art arda karşılanabiliyor. Bu rotanın işlemesi için her tesisin pencere saatinin kesin ve teyitli olması gerekiyor; belirsiz bir saat, rotanın tamamını geciktirebiliyor.",
+            },
+            {
+                baslik: "Uzun pencereli tesiste tüm gün tek adres",
+                metin:
+                    "Bir tesisin duruş penceresi gün boyu sürüyorsa, operatörlü makineyi o gün için tamamen o adrese ayırıyoruz; rotaya başka bir durak eklemiyoruz. Bu karar duruş takvimi netleştiğinde veriliyor — pencerenin uzunluğu, operatörün o gün başka bir yere gidip gidemeyeceğini belirleyen ilk kriter.",
+            },
+            {
+                baslik: "Vardiya ve dinlenme süresi planlaması",
+                metin:
+                    "Operatörün yasal çalışma ve dinlenme süreleri, rota planının bir parçası olarak hesaplanıyor. Bir günde birden fazla tesise gidilen rotalarda toplam çalışma süresinin sınırı aşmaması, iki tesis arasındaki geçiş süresinin de bu hesaba dahil edilmesi gerekiyor. Duruş takvimi çok yoğun bir haftaya denk geldiğinde, tek operatörün üstlenebileceği rota sayısı sınırlı kalıyor; bu durumda ikinci bir operatörlü makine planlanıyor.",
+            },
+            {
+                baslik: "Operatör yeterlilik belgesi ve saha oryantasyonu",
+                metin:
+                    "Operatörlerimizin yeterlilik belgeleri güncel tutuluyor ve talep hâlinde tesise önceden iletiliyor. Her tesisin kendi giriş ve güvenlik prosedürü farklı olabildiği için, yeni bir tesise giden operatör için kısa bir saha oryantasyonu (giriş noktası, acil durum prosedürü, iletişim kişisi) rota planına ekleniyor; bu, ilk günkü gecikmeleri azaltıyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Duruş penceresi tipine göre operatörlü rota kurulumu",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, duruş penceresinin uzunluğuna ve tesis sayısına göre operatörlü makinenin nasıl planlandığını gösterir. Bu, bölgedeki en sık karşılaştığımız dört senaryo.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Pencere uzunluğu", "Rota planı", "Operatör sayısı"],
+                    satirlar: [
+                        ["Tek tesis, tam gün", "Gün boyu", "Tek adres, tüm gün", "1"],
+                        ["İki-üç tesis, kısa pencereler", "Birkaç saat/tesis", "Sıralı rota, aynı gün", "1"],
+                        ["Aynı hafta birden fazla tam gün duruş", "Gün boyu × birden fazla gün", "Ayrı günlere dağıtılmış rota", "1-2"],
+                        ["Zirve hafta, çok sayıda talep", "Değişken", "Havuzdan ek operatör", "2+"],
+                        ["Devreye alma sonrası tekil çağrı", "Kısa, belirsiz saat", "Yakın rotadaki operatör yönlendirilir", "1"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planının kırılma noktaları",
+                paragraflar: [
+                    "Sıralı rota planı, her bir tesisin pencere saatinin kesin olmasına dayanır; bir tesisteki pencere beklenenden uzun sürerse rotadaki sonraki tesis gecikir. Bu riski azaltmak için rota planına her durak arasına kısa bir tampon süre ekliyoruz; tampon yeterli gelmezse sıradaki tesise durumu erken bildiriyoruz. Erken bildirim, tesisin kendi iç planını (örneğin ekiplerin ne zaman sahaya çıkacağı) buna göre ayarlamasına imkân veriyor.",
+                    "Rotanın kırılmasını tamamen önleyemesek de, hangi tesisin rotanın başında hangisinin sonunda olduğunu belirlerken kritik ya da güvenlik açısından ertelenemez işleri önceliklendiriyoruz; esnek olabilecek kalemleri rotanın sonuna yerleştiriyoruz.",
+                ],
+            },
+            {
+                baslik: "Zirve haftada operatör kapasitesi",
+                paragraflar: [
+                    "Bölgedeki duruşların aynı haftalara toplandığı dönemlerde operatör kapasitesi de makine kapasitesi kadar kritik hâle geliyor — makine bulunsa bile yeterlilik belgeli operatör bulunamazsa iş yapılamıyor. Bu yüzden zirve hafta planlamasında operatör sayısını da ayrı bir kalem olarak takip ediyor, gerektiğinde bölgedeki havuzdan ek operatör görevlendiriyoruz. Bu görevlendirme, tesisin duruş tarihini ne kadar erken bildirdiğine doğrudan bağlı; son dakika talepte operatör bulma şansı daralıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü mü operatörsüz mü kiralamalıyız; duruş penceremize göre nasıl karar veriyorsunuz?",
+                cevap:
+                    "Pencerenin uzunluğuna ve nokta sayısına bakıyoruz. Kısa ve yoğun bir pencerede, birden fazla nokta hızlı sırayla taranacaksa operatörlü kiralama neredeyse her zaman daha hızlı sonuç veriyor — operatörümüz makineyi ve saha güvenlik prosedürünü tanıdığı için ayrı bir alışma süresi gerekmiyor. Uzun süreli, tek noktada yoğunlaşan işlerde tesis personeliniz operatörsüz kiralamayı tercih edebilir; bu durumda yeterlilik belgesi ve kısa bir kullanım eğitimi düzenliyoruz. Pencere planınızı paylaşırsanız hangisinin daha uygun olduğunu birlikte değerlendiririz.",
+            },
+            {
+                soru: "Aynı gün üç farklı tesisimizin kısa duruş penceresi var; tek operatörlü makineyle hepsine yetişebilir misiniz?",
+                cevap:
+                    "Pencere saatleri kesin ve birbirini izleyecek şekilde diziliyorsa evet, tek operatörlü makineyi bir rotaya yerleştirip sabahtan akşama üç adresi sırayla karşılayabiliyoruz. Bunun işlemesi için her tesisin pencere saatinin teyitli olması şart; belirsiz bir saat rotanın tamamını geciktirebiliyor. Ayrıca operatörün yasal çalışma-dinlenme süresini de hesaba katıyoruz; üç durak bu süreyi aşıyorsa ikinci bir operatörlü makine öneriyoruz. Üç tesisin pencere saatlerini paylaşırsanız rotanın gerçekçi olup olmadığını hemen görebiliriz.",
+            },
+            {
+                soru: "Bir tesisteki iş beklenenden uzun sürerse rotadaki diğer tesisler ne olur?",
+                cevap:
+                    "Rota planına her durak arasına kısa bir tampon süre ekliyoruz, bu ilk savunma hattı. Tampon yeterli gelmezse sıradaki tesise durumu erken bildiriyoruz, böylece tesis kendi iç planını (ekiplerin ne zaman sahaya çıkacağı gibi) buna göre ayarlayabiliyor. Rotanın tamamen kırılmaması için önceliği kritik ya da ertelenemez işlere veriyor, esnek kalemleri rotanın sonuna yerleştiriyoruz. Süre tahmininizi mümkün olduğunca gerçekçi paylaşmanız, tampon süreyi doğru hesaplamamızı sağlıyor.",
+            },
+            {
+                soru: "Operatörünüzün yeterlilik belgesini görebilir miyiz?",
+                cevap:
+                    "Evet, operatörlerimizin yeterlilik belgeleri güncel tutuluyor ve talep hâlinde saha girişinden önce tesise iletiliyor. Bazı tesislerin kendi iç prosedürü gereği belgenin önceden ibraz edilmesi gerekiyor; bu durumu rezervasyon aşamasında belirtirseniz belgeyi zamanında ulaştırırız. Yeni bir tesise ilk kez giden operatör için ayrıca kısa bir saha oryantasyonu (giriş noktası, acil durum prosedürü, iletişim kişisi) planlıyoruz; bu, ilk günkü gecikmeleri azaltıyor.",
+            },
+            {
+                soru: "Zirve duruş haftasında operatörlü makine bulmakta zorlanır mıyız?",
+                cevap:
+                    "Zirve haftalarda operatör kapasitesi de makine kapasitesi kadar kritik hâle geliyor — makine bulunsa bile yeterlilik belgeli operatör bulunamazsa iş yapılamıyor. Bu haftalarda gerektiğinde bölgedeki havuzdan ek operatör görevlendiriyoruz, ama bu görevlendirme tesisin duruş tarihini ne kadar erken bildirdiğine doğrudan bağlı. Son dakika talepte operatör bulma şansı belirgin daralıyor; bu yüzden zirve hafta için tarihinizi mümkün olduğunca erken paylaşmanızı öneriyoruz.",
+            },
+            {
+                soru: "Bir haftada birden fazla tam günlük duruşumuz var; aynı operatör hepsine gidebilir mi?",
+                cevap:
+                    "Duruşlar farklı günlere dağılıyorsa evet, aynı operatör-makine ekibi hafta boyunca farklı tesislere sırayla gidebiliyor; bu, tesisin her seferinde yeni bir operatörle çalışmak zorunda kalmaması anlamına geliyor ve saha oryantasyonu ilk günden sonra daha hızlı geçiyor. Duruşlar aynı güne denk geliyorsa (iki tesis aynı gün tam gün duruş istiyorsa) tek operatörle karşılamak mümkün değil, ikinci bir operatörlü makine planlıyoruz. Haftalık duruş takviminizi paylaşırsanız hangi günlerde tek, hangi günlerde iki operatör gerektiğini önceden hesaplarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatör yeterlilik belgesi ve çalışma-dinlenme süresi düzenlemesi sektör geneli iş güvenliği mevzuatı kapsamıdır; duruş takvimine göre çoklu tesis rota planlaması firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota Bakım Platformu: Duruş Takvimine Göre Fabrika Rotası",
+        giris:
+            "Bölgedeki en karmaşık planlama sorunu tek bir tesisin ihtiyacından değil, birden fazla tesisin aynı hafta ya da aynı ay içinde farklı günlerde açılan duruş pencerelerinden doğuyor. Bir hafta içinde beş-altı tesisin kısa ya da uzun pencereleri varsa, bunları rastgele sırayla karşılamak yerine coğrafi konum, pencere uzunluğu ve önceliğe göre kurulmuş bir rota gerekiyor. Bu sayfada anlattığımız tam olarak bu: Eskişehir-Bozüyük hattı boyunca birden fazla tesisin duruş takvimini tek bir haritaya yerleştirip, hangi makinenin hangi gün hangi sırayla hangi adrese gideceğini önceden kuran bir planlama yöntemi. Rota, tek bir makinenin günü boşa geçirmemesi kadar, hiçbir tesisin kendi penceresinde makinesiz kalmaması için de kuruluyor — ikisi aynı anda sağlanmadığında rota işe yaramıyor. Bu, bölgedeki duruş dönemini yöneten sitenin en çok emek verdiği planlama katmanı.",
+        maddeler: [
+            {
+                baslik: "Haftalık duruş haritasının çıkarılması",
+                metin:
+                    "Hafta başlamadan önce, o hafta duruşu olan tüm tesislerin pencere tarihini, saatini ve tahmini süresini tek bir haritaya yerleştiriyoruz. Bu harita, hangi günün yoğun hangi günün sakin olduğunu, hangi tesislerin coğrafi olarak birbirine yakın düştüğünü gösteriyor. Harita çıkmadan rota kurulamıyor; bu yüzden tesislerden duruş tarihini mümkün olduğunca erken almaya çalışıyoruz.",
+            },
+            {
+                baslik: "Coğrafi kümeleme ile rota verimliliği",
+                metin:
+                    "Aynı gün birden fazla tesisin penceresi varsa, coğrafi olarak birbirine yakın olanları aynı rotaya, uzak olanları ayrı rotalara ya da ayrı makinelere yerleştiriyoruz. Bu kümeleme, iki tesis arasındaki geçiş süresini minimuma indiriyor ve rotadaki toplam durak sayısını artırıyor. Coğrafi mesafe bölgede kısa olduğu için, doğru kümelemeyle bir günde üç-dört durağa kadar çıkılabiliyor; kümeleme yanlış yapıldığında ise aynı sayıda durak günü zorlukla tamamlıyor.",
+            },
+            {
+                baslik: "Öncelik sıralaması: kritik iş önce",
+                metin:
+                    "Rotadaki durakların sırası sadece coğrafyaya göre değil, işin kritikliğine göre de belirleniyor. Güvenlik açısından ertelenemez bir kontrol, esnek bir görsel kontrolden önce sıralanıyor; bir tesisin penceresi kısa ve sabitse rotanın başına, esnek bir tesis ise sonuna yerleştiriliyor. Bu sıralama, rotanın herhangi bir noktada gecikmesi durumunda en kritik işlerin zaten tamamlanmış olmasını sağlıyor.",
+            },
+            {
+                baslik: "Rota kırıldığında yeniden planlama",
+                metin:
+                    "Bir duraktaki iş beklenenden uzarsa ya da beklenmedik bir arıza rotayı bozarsa, geri kalan durakları anlık olarak yeniden değerlendiriyoruz — hangi tesisin ertelenebileceği, hangisinin bölgedeki başka bir makineye devredilebileceği gibi. Bu yeniden planlama, önceden hazırlanmış bir yedek makine havuzu olmadan mümkün değil; bu yüzden yoğun haftalarda bölgedeki filoyu tek başına duraklara değil, olası kırılmalara karşı bir miktar esneklikle planlıyoruz.",
+            },
+            {
+                baslik: "Rota planının tesislere şeffaf paylaşılması",
+                metin:
+                    "Rotadaki her tesise, makinenin kendilerine hangi saat aralığında ulaşacağını ve rotada kaçıncı sırada olduklarını önceden bildiriyoruz. Bu şeffaflık, tesisin kendi iç hazırlığını (ekiplerin ne zaman sahaya çıkacağı, izinlerin ne zaman açılacağı) rotaya göre ayarlamasını sağlıyor. Rotada bir değişiklik olduğunda bu bilgiyi güncelleyip yeniden paylaşıyoruz; sessiz kalan bir gecikme, tesisin kendi planını da bozuyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Haftalık rota örneği ve karar kriterleri",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, bir hafta içinde birden fazla tesisin duruşu olduğunda rotayı nasıl kurduğumuzu gösteren genel bir yapıdır; gerçek rota her hafta o haftanın duruş haritasına göre yeniden çıkarılır.",
+                ],
+                tablo: {
+                    basliklar: ["Gün", "Durak sayısı", "Kümeleme kriteri", "Öncelik"],
+                    satirlar: [
+                        ["Pazartesi", "1-2, uzun pencere", "Tam gün tek adres öncelikli", "Kritik/güvenlik işleri"],
+                        ["Salı-Çarşamba", "2-3, orta pencere", "Coğrafi yakınlık", "Sabit saatli tesisler önce"],
+                        ["Perşembe", "3-4, kısa pencere", "Sıkı rota, tampon süreli", "Esnek tesisler sona"],
+                        ["Cuma", "1-2, esnek", "Haftanın taşan işleri", "Devreye alma kuyruğu"],
+                        ["Zirve hafta geneli", "Değişken, yüksek", "Kaydırma + ek makine", "Erken bağlayan önce"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kaç durak bir günde gerçekçi",
+                paragraflar: [
+                    "Bir günde kaç tesise uğranabileceği sorusuna sabit bir sayı vermiyoruz, çünkü cevap tamamen o günkü pencerelerin uzunluğuna ve coğrafi dağılımına bağlı. Kısa pencereli ve birbirine yakın üç-dört tesis bir günde rahatlıkla karşılanabilirken, uzun pencereli tek bir tesis günün tamamını alabiliyor. Rota planlamasının değeri tam olarak burada — durak sayısını tahmin etmek yerine, o haftanın gerçek duruş haritasına bakarak hesaplıyoruz.",
+                    "Yanlış iyimser bir durak sayısıyla kurulan rota, ilk durakta yaşanan küçük bir gecikmeyle tamamen bozuluyor ve son duraktaki tesis makinesiz kalıyor. Bu yüzden rota planına her zaman gerçekçi bir tampon süresi ekliyoruz; bu, kâğıt üzerinde daha az iddialı görünse de sahada daha güvenilir sonuç veriyor.",
+                ],
+            },
+            {
+                baslik: "Bölgesel havuzla rota esnekliği",
+                paragraflar: [
+                    "Eskişehir ve Bozüyük hattı arasındaki kısa mesafe, rota planlamasına bir esneklik katmanı daha ekliyor: bir rotadaki makine beklenmedik biçimde gecikirse, hattın diğer ucundaki bir makineyi devreye sokmak mümkün olabiliyor. Bu devreye sokma her zaman garanti değil — o gün diğer uçtaki makine de meşgulse elimizde başka seçenek kalmıyor ve bunu açıkça söylüyoruz. Ama bölgesel havuzun varlığı, tek bir rotanın kırılmasının zincirleme bir felakete dönüşme ihtimalini belirgin azaltıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Beş tesisimizin duruşu aynı haftaya denk geldi; hepsine tek makineyle mi hizmet veriyorsunuz?",
+                cevap:
+                    "Bu, pencerelerin uzunluğuna ve coğrafi dağılımına bağlı; sabit bir cevap vermek yerine önce haftalık duruş haritasını çıkarıyoruz. Kısa pencereli ve birbirine yakın tesisler tek makinenin rotasına sığabilirken, uzun pencereli ya da birbirinden uzak tesisler ayrı makine gerektiriyor. Beş tesisin tarihini, saatini ve tahmini süresini paylaşırsanız, kaç makineyle ve hangi sırayla karşılanabileceğini size somut bir rota planı olarak sunarız.",
+            },
+            {
+                soru: "Rotadaki bir tesiste iş beklenenden uzarsa bizim penceremiz kaçar mı?",
+                cevap:
+                    "Bu riski tamamen ortadan kaldıramıyoruz ama iki şekilde azaltıyoruz: her durak arasına gerçekçi bir tampon süresi ekliyoruz ve bir gecikme oluştuğunda sıradaki tesise durumu erken bildiriyoruz. Rota planlanırken öncelik sıralaması da yapılıyor — kritik ve sabit saatli tesisler rotanın başına, esnek olanlar sonuna yerleştiriliyor. Gecikme yine de büyükse, bölgedeki diğer bir makineyi devreye sokmayı deniyoruz; bu her zaman mümkün olmasa da mümkün olduğunda rotayı kurtarıyor.",
+            },
+            {
+                soru: "Bir günde gerçekten kaç tesise uğrayabiliyorsunuz?",
+                cevap:
+                    "Sabit bir sayı vermiyoruz, çünkü bu tamamen o günkü pencerelerin uzunluğuna ve tesislerin birbirine coğrafi yakınlığına bağlı. Kısa pencereli ve yakın üç-dört tesis bir günde rahatlıkla karşılanabilirken, uzun pencereli tek bir tesis günün tamamını alabiliyor. Haftalık duruş haritanızı paylaştığınızda o haftaya özel gerçekçi bir durak sayısı ve rota çıkarıyoruz; iyimser bir sayı verip sahada bozulmasını istemiyoruz.",
+            },
+            {
+                soru: "Rotadaki sıramızı ve saatimizi önceden bilebilir miyiz?",
+                cevap:
+                    "Evet, rotayı kurduktan sonra her tesise makinenin kendilerine hangi saat aralığında ulaşacağını ve rotada kaçıncı sırada olduklarını bildiriyoruz. Bu bilgi, sizin kendi iç hazırlığınızı (ekiplerin ne zaman sahaya çıkacağı, izinlerin ne zaman açılacağı) buna göre ayarlamanızı sağlıyor. Rotada bir değişiklik olursa bu bilgiyi güncelleyip yeniden paylaşıyoruz; sessiz kalan bir gecikme sizin planınızı da bozar, bu yüzden iletişimi kesmiyoruz.",
+            },
+            {
+                soru: "Bizim tesisimiz rotanın sonunda mı olacak; bu bize dezavantaj mı?",
+                cevap:
+                    "Rotadaki sıra rastgele değil, işin kritikliğine ve pencerenin esnekliğine göre belirleniyor — sabit saatli ve ertelenemez işler başa, esnek olanlar sona yerleştiriliyor. Sonda olmak her zaman dezavantaj değil; esnek bir pencereniz varsa sondaki konum, rotanın erken kısımlarında yaşanabilecek küçük gecikmelerin size yansımasını da minimuma indiriyor. Sıralamanın gerekçesini talep ederseniz açıkça paylaşırız; sizin işiniz aslında daha kritikse bunu bildirdiğinizde sırayı yeniden değerlendiririz.",
+            },
+            {
+                soru: "İki hattın (Eskişehir-Bozüyük) arasında makine kaydırarak rota kurtarabiliyor musunuz?",
+                cevap:
+                    "Bazen evet — hattın kısa mesafesi, bir rotadaki makine gecikirse diğer uçtaki bir makineyi devreye sokmayı mümkün kılıyor. Ama bu her zaman garanti değil; o gün diğer uçtaki makine de meşgulse elimizde başka seçenek kalmıyor ve bunu açıkça söylüyoruz. Bölgesel havuzun asıl faydası, tek bir rotanın kırılmasının zincirleme bir soruna dönüşme ihtimalini azaltması; mucizevi bir çözüm değil, ek bir esneklik katmanı olarak düşünmenizi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eskişehir-Bozüyük hattı içi kısa karayolu mesafesi kamuya açık coğrafi gerçektir; haftalık duruş haritası çıkarma, coğrafi kümeleme ve rota önceliklendirme firma saha pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Duruş Döneminde Zor Zemin ve Açık Arazi Platform Kiralama",
+        giris:
+            "Duruş listesinin bir kısmı fabrika binasının içinde değil, açık sahada geçer: dış depolama alanındaki çelik konstrüksiyon, saha sınırındaki aydınlatma direği, henüz asfaltlanmamış genişleme alanındaki ekipman. Bu tip işlerde zemin, kapı ölçüsünden daha belirleyici bir kriter hâline gelir — stabilize, toprak ya da düzensiz zemin, standart lastikli tekerlekli makinenin hareketini kısıtlayabilir ya da makineyi güvensiz kılabilir. Bölgedeki duruş dönemlerinde açık saha kalemleri genellikle iç mekân kalemleriyle aynı pencereye giriyor ve bu, iki farklı makine sınıfının aynı gün planlanmasını gerektiriyor. Bu sayfada anlattığımız, zemin tipine göre doğru makine sınıfının nasıl seçildiği, mevsime bağlı zemin değişiminin nasıl değerlendirildiği ve düzensiz arazide erişimin nasıl güvenli hâle getirildiğidir.",
+        maddeler: [
+            {
+                baslik: "Zemin tipine göre makine sınıfı",
+                metin:
+                    "Stabilize ya da sıkıştırılmış toprak zeminde dizel arazi tipi platform standart tercih; büyük lastikleri ve yüksek yer tutma gücüyle bu tip zeminlerde güvenle ilerliyor. Zemin çok yumuşak ya da düzensizse arazi tipinin de sınırları var; böyle durumlarda geçici plaka döşeme ya da alternatif bir güzergâh değerlendiriliyor. Zemin tipini duruş öncesi keşifte kontrol edip uygun sınıfı belirliyoruz.",
+            },
+            {
+                baslik: "Mevsime bağlı zemin sertliği değişimi",
+                metin:
+                    "Açık saha zemini mevsime göre belirgin değişir; kuru dönemde sağlam olan bir zemin, yağış sonrası yumuşayıp makinenin batma riskini artırabilir. Duruş tarihi netleştiğinde, o dönemin hava koşulunu ve zeminin güncel durumunu tesisle birlikte değerlendiriyoruz; riskli görünen bir zeminde geçici takviye ya da erişim rotası değişikliği öneriyoruz.",
+            },
+            {
+                baslik: "Eğimli ve düzensiz arazide güvenli çalışma açısı",
+                metin:
+                    "Saha sınırındaki bazı noktalar düz değil, hafif eğimli ya da düzensiz zeminde bulunur. Arazi tipi platformların çoğu belirli bir eğim açısına kadar güvenle çalışabiliyor; bu sınırı aşan bir eğimde makine kullanılmıyor, alternatif erişim yöntemi (örneğin zemin düzeltme ya da farklı bir yaklaşım noktası) değerlendiriliyor. Eğim açısını keşifte ölçüyor, sınırın aşılıp aşılmadığını önceden belirliyoruz.",
+            },
+            {
+                baslik: "İç mekân ve açık saha kalemlerinin aynı günde koordinasyonu",
+                metin:
+                    "Bazı duruş günlerinde hem iç mekân hem açık saha kalemi olabiliyor; bu iki iş farklı makine sınıfı gerektirdiği için genellikle iki ayrı makine planlanıyor. İki makinenin aynı gün, farklı bölgelerde çalışması güzergâh çakışmasını önlemek için duruş planına ayrı hatlar olarak yazılıyor.",
+            },
+            {
+                baslik: "Açık sahada güvenlik çevresi ve rüzgâr etkisi",
+                metin:
+                    "Açık sahada çalışırken rüzgâr, kapalı alandakinden farklı bir risk faktörü olarak devreye giriyor; belirli bir rüzgâr hızının üzerinde yüksekte çalışma durduruluyor. Duruş planına bu limiti yazıyor, rüzgârlı günlerde iş programını esnek tutmayı öneriyoruz. Ayrıca açık sahada makine çevresine güvenlik bandı ve işaretleme koyuyoruz, çünkü açık alan trafiğe daha açık.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipine göre sınıf seçim çerçevesi",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, açık saha duruş kalemlerinde zemin tipine göre hangi makine sınıfının önerildiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Önerilen sınıf", "Mevsim riski", "Ek önlem"],
+                    satirlar: [
+                        ["Sıkıştırılmış stabilize", "Dizel arazi tipi", "Düşük", "Genellikle gerekmez"],
+                        ["Toprak, kuru dönem", "Dizel arazi tipi", "Orta (yağış sonrası)", "Zemin gözlemi"],
+                        ["Toprak, yağış sonrası", "Sınırlı/riskli", "Yüksek", "Plaka döşeme veya erteleme"],
+                        ["Hafif eğimli açık alan", "Arazi tipi, açı sınırında", "Değişken", "Eğim ölçümü"],
+                        ["Düz beton saha çevresi", "Standart makaslı da uygun", "Düşük", "Gerekmez"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yağış sonrası erteleme kararı",
+                paragraflar: [
+                    "Duruş tarihi kesinleşmiş olsa bile, açık saha kaleminin hemen öncesinde yağış olduysa zemin durumunu yeniden değerlendiriyoruz. Bazı durumlarda kısa bir kuruma süresi beklemek, makineyi riskli bir zeminde zorlamaktan daha güvenli ve sonuçta daha hızlı oluyor. Bu kararı tesisle birlikte, o günkü saha gözlemine göre veriyoruz; duruş penceresinin geri kalanı iç mekân kalemleriyle doldurulup açık saha kalemi zeminin izin verdiği ilk uygun ana kaydırılabiliyor.",
+                    "Bu esneklik ancak duruş planında açık saha kalemleri için bir yedek gün ya da saat dilimi ayrıldığında işliyor; plan bunu içermiyorsa erteleme, bir sonraki duruş penceresine kadar beklemek anlamına gelebiliyor.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr limiti ve açık saha güvenliği",
+                paragraflar: [
+                    "Yüksekte çalışma için üretici tarafından belirlenen rüzgâr hızı limitleri, açık sahada kapalı alana göre çok daha sık devreye giriyor; kapalı alan rüzgârdan büyük ölçüde korunurken açık saha doğrudan etkileniyor. Duruş planına bu limiti baştan yazıyor, rüzgârlı bir günde iş programını mümkünse esnek tutmayı, mümkün değilse rüzgârın düştüğü saat dilimine kaydırmayı öneriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sahamızın bir kısmı henüz asfaltlanmamış toprak zemin; platform buraya girebilir mi?",
+                cevap:
+                    "Zeminin kuruluğuna ve sıkışıklığına bağlı; kuru ve sıkıştırılmış toprak zeminde dizel arazi tipi platform genellikle güvenle çalışabiliyor. Zemin yumuşak ya da düzensizse riski keşifte değerlendiriyor, gerekirse geçici plaka döşeme öneriyoruz ya da erişim rotasını değiştiriyoruz. Zeminin güncel durumu hakkında fotoğraf ve son yağış bilgisini paylaşırsanız, duruş tarihinden önce uygun sınıfı ve gerekli önlemleri netleştirebiliriz.",
+            },
+            {
+                soru: "Duruş tarihimizden birkaç gün önce yağmur yağarsa açık saha kalemi ertelenir mi?",
+                cevap:
+                    "Gerekebilir, ve bunu dürüstçe söylüyoruz — yağış sonrası zemin durumunu yeniden değerlendiriyor, riskli görünüyorsa kısa bir kuruma süresi beklemeyi öneriyoruz. Bu esnekliğin işlemesi için duruş planında açık saha kalemlerine bir yedek gün ya da saat dilimi ayrılmış olması gerekiyor; bu payı önceden konuşursak pencerenin geri kalanını iç mekân kalemleriyle doldurup açık saha işini zeminin izin verdiği ilk uygun ana kaydırabiliyoruz.",
+            },
+            {
+                soru: "Saha sınırımızdaki nokta hafif eğimli bir tepede; makine oraya çıkabilir mi?",
+                cevap:
+                    "Eğim açısına bağlı; arazi tipi platformların çoğu belirli bir açıya kadar güvenle çalışabiliyor, bu sınırı aşan bir eğimde makineyi kullanmıyoruz. Eğimi keşifte ölçüyor, sınırın aşılıp aşılmadığını önceden belirliyoruz. Eğim sınırı aşılıyorsa alternatif bir yaklaşım noktası ya da zemin düzeltmesi gibi seçenekleri değerlendiriyoruz; bunu sahada denemeden önce netleştirmek daha güvenli.",
+            },
+            {
+                soru: "Aynı gün hem içeride hem dışarıda işimiz var; iki farklı makine mi gerekiyor?",
+                cevap:
+                    "Genellikle evet, çünkü iç mekân ve açık saha farklı makine sınıfı gerektiriyor — iç mekânda akülü, dışarıda arazi tipi. İki makineyi aynı gün, farklı bölgelerde çalışacak şekilde planlıyor, güzergâh çakışmasını önlemek için duruş planına ayrı hatlar çiziyoruz. Bazı sınırlı durumlarda (kapı ölçüsü uygunsa ve dış saha zemini sertse) tek makine her iki işi de karşılayabiliyor; bunu keşifte değerlendiriyoruz.",
+            },
+            {
+                soru: "Rüzgârlı bir günde açık sahada çalışma planlıyoruz; bu bir risk mi?",
+                cevap:
+                    "Evet, belirli bir rüzgâr hızının üzerinde yüksekte çalışma durduruluyor; bu limit açık sahada kapalı alana göre çok daha sık devreye giriyor çünkü açık alan rüzgârdan doğrudan etkileniyor. Duruş planına bu limiti baştan yazıyor, rüzgârlı bir günde iş programını mümkünse esnek tutmayı öneriyoruz. Rüzgâr tahmini kritikse duruş tarihini planlarken bu bilgiyi de değerlendirmenizi öneririz; sahada makineyi zorlamak yerine kısa bir bekleme çoğu zaman daha güvenli çıkıyor.",
+            },
+            {
+                soru: "Açık saha zemininin taşıma kapasitesini nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Duruş öncesi keşifte zeminin görsel durumunu (çatlak, çökme, yumuşama belirtisi) kontrol ediyor, gerekirse basit bir sertlik testi yapıyoruz. Şüpheli bir zeminde ayak ya da tekerlek altına geçici plaka veya takoz koyuyoruz. Kesin bir zemin taşıma raporu gerekiyorsa (örneğin çok ağır bir makine sınıfı planlanıyorsa) bunu tesisin kendi zemin etüdüyle birlikte değerlendiriyoruz; bu konuda geoteknik uzmanlığımız sınırlı, ciddi şüphe durumunda uzman görüşü öneriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Arazi tipi platformların zemin ve eğim sınırları üretici teknik özellikleridir; mevsime bağlı zemin değerlendirmesi ve rüzgâr limiti sektör geneli saha güvenlik pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };

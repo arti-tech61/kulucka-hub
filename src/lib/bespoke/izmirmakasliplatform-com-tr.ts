@@ -712,4 +712,561 @@ export const IZMIRMAKASLIPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Manisa OSB'nin fabrika yoğunluğu ve çevre ilçe konumu kamuya açık coğrafi bilgidir; kademeli bölüm modeli ve OSB içi ardışık planlama firma pratiğidir.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HİZMET SAYFALARI — Konak/Alsancak şehir merkezi, otel ve AVM cephesi
+    // odağı korunur. sepetli-orumcek-platform-kiralama ve
+    // ic-mekan-depo-platform-kiralama ANA KONU olarak en detaylı yazıldı.
+    // tarim-silo ve zor-zemin-arazi bu domainin uzmanlık alanı dışındadır,
+    // dürüstçe kısa ve kapsam sınırı belirtilerek yazıldı.
+    // Yazım: 2026-08-14. Yalnızca doğrulanabilir bilgi.
+    // ═══════════════════════════════════════════════════════════════════
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Otel ve AVM Cephesinde Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Konak ve Alsancak'taki bir otelin veya alışveriş merkezinin cephesinde iç yüzey yenilemesi, tabela sökümü ya da atrium camlı tavanının bakımı gündeme geldiğinde, çoğu zaman standart makaslı platformun geçemeyeceği bir darboğazla karşılaşılır: dönel kapı, dar servis girişi, kaldırım genişliği trafik levhasıyla sınırlanmış bir sokak veya galeri boşluğunun kenarındaki dar bir geçit. Sepetli örümcek platform tam bu boşluğu doldurur — paletli tabanı katlanmış hâliyle standart bir kapıdan geçebilir, kollarını açıp hedefin altına konumlanır ve düz beton veya mermer kaplı zeminde noktasal ayaklarıyla dengelenir. Şehir merkezindeki otel lobisi ve AVM galerisinde bu makinenin tercih edilme nedeni neredeyse hep aynıdır: hedef, tekerlekli bir platformun ulaşamayacağı kadar dar bir koridorun arkasında ya da atriumun camlı tavanına yakın, geniş sepetli bir makinenin sığamayacağı bir köşede kalmıştır. Kararın merkezinde iki soru vardır — geçilecek kapı ve koridorun gerçek ölçüsü, ve makinenin ayaklarını basacağı zeminin (mermer, epoksi, eski parke) noktasal yükü taşıyıp taşımayacağı. Bu sayfa, otel ve AVM cephesi/atrium işlerinde örümcek platformun ne zaman doğru seçim olduğunu, hangi ölçümlerin önceden yapıldığını ve işletme açıkken çalışmanın nasıl kurulduğunu anlatır.",
+        maddeler: [
+            { baslik: "Kapı ve koridor ölçüsünü katalog değil saha verisiyle doğrulamak", metin: "Örümcek platformun daraltılmış hâli çoğu servis kapısından geçer, ancak kapı kasası çıkıntısı, tokmak pervazı ve eşik yüksekliği katalogdaki genel ölçüyle birebir örtüşmeyebilir. Talep alındığında kapı ve koridorun fotoğrafı ile gerçek net genişliği istenir; sahada ilk kez ölçmek, teslimat günü makinenin geri gönderilmesi riskini taşır. Dönel kapılı otel girişlerinde yan servis kapısı kullanılır; ana giriş sadece kapı kanadı sabitlenip açık tutulabiliyorsa değerlendirilir." },
+            { baslik: "Mermer, epoksi ve eski parke zeminde noktasal yükü hesaba katmak", metin: "Makaslı platformun yükü dört geniş teker üzerinde dağılırken, örümcek platformun ayakları noktasal baskı yapar. Otel lobisindeki mermer kaplama veya AVM galerisindeki cilalı zemin görsel olarak sağlam görünse de altındaki şap ve döşeme kalınlığı bu noktasal yükü her zaman karşılamaz. Zemin türü ve varsa yakın tarihli tadilat bilgisi bina yönetiminden istenir; hassas yüzeyde ayak altına yük dağıtıcı takoz ve koruma plakası konur, gerekirse daha hafif sınıf makine tercih edilir." },
+            { baslik: "Atrium ve galeri boşluğunda camlı tavana güvenli yaklaşım", metin: "AVM'lerin çoğunda galeri boşluğunun üstünü kapatan camlı tavan veya ışık bacası bulunur; bu tavanın bakım, temizlik veya conta yenileme işi doğrudan altından değil, genellikle kenar boşluğundan veya ara kattan yapılır. Örümcek platformun kollarının açılma yarıçapı ve maksimum yatay uzanımı, hedefin tam altına düz zeminden ulaşılamadığı bu tip işlerde belirleyicidir. Cam üstüne veya sabit olmayan bir strüktüre doğrudan yaslanma yapılmaz; yaklaşım açısı önceden teknik ekiple netleştirilir." },
+            { baslik: "İşletme açıkken ziyaretçi ve misafir güzergâhından ayrı çalışma alanı kurmak", metin: "Otel lobisi veya AVM galerisi tamamen kapatılmadan çalışılacaksa, makinenin hareket ve kurulum alanı geçici bariyerle fiziksel olarak ayrılır; düşen cisim riski taşıyan bölge misafir/ziyaretçi geçişinden çıkarılır. Sepet indirilmeden ortak alan geçilmez. İşletmenin en sakin saati (genellikle geç gece veya sabah erken) tercih edilir, ancak bu, gündüz çalışmayı otomatik dışlamaz — bariyer ve gözcü varsa gündüz de yürütülebilir. Operatör misafir yönlendirmez; bu görev otel veya AVM operasyon ekibine aittir." },
+            { baslik: "Servis asansörü ve yükleme rampasından sahaya indirme", metin: "Örümcek platform genellikle katlanmış hâlde araçla getirilir ve bina içine kapıdan veya rampadan kendi paletli tabanıyla girer; büyük sepetli modeller standart yük asansörüne sığmayabilir, bu nedenle asansör kabin ölçüsü ve kapı genişliği erken keşifte kontrol edilir. Zemin kat çalışmalarında doğrudan servis kapısından giriş yeterlidir. Üst kat veya bodrumdaki bir hedef için asansör uygun değilse, alternatif olarak makinenin daha küçük sınıfı ya da farklı erişim yöntemi değerlendirilir; sahada zorlama yapılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Otel ve AVM ortamında örümcek platform karar tablosu",
+                paragraflar: ["Tablo, şehir merkezindeki otel ve AVM hedeflerinde örümcek platformun ne zaman doğru seçim olduğunu ve hangi kontrolün önce yapıldığını gösterir."],
+                tablo: {
+                    basliklar: ["Hedef", "Darboğaz türü", "Ana kontrol", "Alternatif değilse"],
+                    satirlar: [
+                        ["Dar servis koridoru", "Kapı/eşik genişliği", "Gerçek net ölçü + fotoğraf", "Standart makaslı geçmez"],
+                        ["Mermer/epoksi lobi zemini", "Noktasal ayak yükü", "Zemin şap kalınlığı teyidi", "Yük dağıtım plakası"],
+                        ["Atrium camlı tavan kenarı", "Yatay uzanım/açı", "Kol açılma yarıçapı", "Ara kattan erişim"],
+                        ["Üst kat/bodrum hedef", "Servis asansörü ölçüsü", "Kabin genişliği-yüksekliği", "Daha küçük sınıf"],
+                        ["Açık işletme saatinde çalışma", "Ziyaretçi/misafir güzergâhı", "Bariyer + gözcü planı", "Kapalı saate erteleme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Talep sırasında istenen bilgiler",
+                paragraflar: [
+                    "Kapı ve koridor için net genişlik ile eşik yüksekliği, zemin kaplama türü ve varsa yakın tarihli tadilat bilgisi, hedefin yerden yüksekliği ve yatay mesafesi talep aşamasında istenir. Fotoğraf veya kısa bir video, sahada ilk defa ölçmekten çok daha güvenilir bir başlangıç noktasıdır.",
+                    "Otel veya AVM tarafında bina yönetimiyle veya teknik sorumluyla önceden görüşülüp görüşülmediği de sorulur; zemin yük kapasitesi ve çalışma saatleri genellikle bu kişiden netleşir. Bu bilgiler eksikse ilk aşamada bir ön keşif önerilir." ],
+            },
+            {
+                baslik: "Operatörlü kullanım ve güvenlik sorumluluğu",
+                paragraflar: [
+                    "Halka açık bir otel lobisi veya AVM galerisinde çalışma, boş bir depo koridorundan farklı bir dikkat gerektirir; bu nedenle bu tür işlerde operatörlü kullanım varsayılan tercih olarak önerilir. Operatör hem makinenin ayak basma noktalarını hem de geçici bariyerin doğru kurulduğunu kontrol eder.",
+                    "Zemin gözcüsü, otel/AVM tarafının atadığı bir teknik veya güvenlik görevlisiyle birlikte çalışır; ikisi arasındaki iletişim, ortak geçiş gereken anlarda sepetin indirilmesini ve alanın geçici olarak açılmasını koordine eder." ],
+            },
+        ],
+        sss: [
+            { soru: "Otel lobimizdeki mermer zemin örümcek platformun ağırlığını taşır mı?", cevap: "Görsel olarak sağlam bir mermer kaplama, altındaki şap ve döşeme kalınlığı hakkında tek başına bilgi vermez; örümcek platformun ayakları noktasal yük bindirdiği için bu, makaslı platformdan farklı bir risktir. Otel yönetiminden veya bina teknik sorumlusundan zemin yapısı hakkında bilgi istenir, belirsizlik varsa ayak altına yük dağıtıcı takoz konur ya da daha hafif sınıf makine tercih edilir. Deneme amaçlı zemine yük bindirilmez." },
+            { soru: "AVM'nin camlı atrium tavanına bu makineyle ulaşılabilir mi?", cevap: "Genellikle doğrudan camın altına değil, kenar boşluğu veya ara kattan yatay uzanımla yaklaşılır; bu, makinenin kol açılma yarıçapı ve maksimum yatay mesafesiyle sınırlıdır. Cam yüzeye veya sabit olmayan bir strüktüre yaslanma yapılmaz. Talep alındığında atriumun kesit ölçüsü ve yaklaşım noktası teknik ekiple birlikte netleştirilir; bazı camlı tavan tiplerinde farklı bir erişim yöntemi daha uygun olabilir." },
+            { soru: "AVM açıkken ziyaretçi güvenliği nasıl sağlanıyor?", cevap: "Çalışma alanı geçici bariyerle fiziksel olarak ayrılır ve düşen cisim riski taşıyan bölge ziyaretçi geçişinden çıkarılır. Ortak bir geçiş gerektiğinde sepet indirilir ve alan kısa süreliğine kontrollü açılır. Genellikle işletmenin daha sakin saatleri tercih edilir, ancak bariyer ve gözcü düzeni sağlamsa gündüz saatlerinde de çalışılabilir. Operatör ziyaretçi yönlendirmesi yapmaz; bu, AVM operasyon ekibinin görevidir." },
+            { soru: "Servis kapımız dar, makine gerçekten sığar mı?", cevap: "Katalogdaki daraltılmış ölçü bir başlangıç referansıdır ama kapı kasası çıkıntısı, tokmak pervazı ve eşik yüksekliği gerçek geçişi belirler. Talep sırasında kapının fotoğrafı ve net ölçüsü istenir; sahada ilk kez ölçmek yerine bu bilgi önceden doğrulanır. Geçmiyorsa dönel kapı yerine yan servis girişi veya farklı bir makine sınıfı değerlendirilir." },
+            { soru: "Üst kattaki bir hedefe asansörle mi çıkarılıyor?", cevap: "Küçük sınıf örümcek platformlar çoğu servis asansörüne sığar, ancak büyük sepetli modeller standart kabine sığmayabilir. Asansör kabin genişliği, derinliği ve kapı ölçüsü erken keşifte kontrol edilir. Sığmıyorsa daha küçük sınıf makine veya farklı bir erişim planı (örneğin merdiven boşluğundan taşıma) değerlendirilir; zorlama yapılmaz." },
+            { soru: "Operatörlü mü çalışıyorsunuz, yoksa biz de kullanabilir miyiz?", cevap: "Halka açık otel ve AVM ortamında operatörlü kullanım varsayılan tercihtir; bu, hem ayak basma noktalarının hem de geçici bariyerin doğru yönetilmesini sağlar. Kapalı bir teknik alanda ve yetkinliği belgeli bir kullanıcı varsa operatörsüz seçenek de değerlendirilebilir, ancak bina yönetiminin onayı ve zemin gözcüsü düzeni yine gerekir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'ın otel ve AVM yoğun şehir merkezi niteliği kamuya açık coğrafi bilgidir; kapı/koridor ölçüm süreci, noktasal zemin yükü kontrolü ve atrium yaklaşım yöntemi genel saha pratiğidir. Tesis adı, gerçek mesafe veya kapasite rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Konak-Alsancak Şehir Merkezine Makine Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bir makaslı platformu Konak veya Alsancak'taki bir otele ya da AVM'ye ulaştırmak, banliyö bir sanayi sitesine teslimattan farklı bir dizi kısıt taşır: tek yönlü sokaklar, yaya bölgesi düzenlemesi, kaldırım genişliğine göre belirlenmiş yükleme-boşaltma saatleri ve bazı caddelerde ağır vasıta giriş yasağı. Nakliye planı bu yüzden yalnızca 'araç ne zaman kalkar' sorusuyla değil, 'araç hangi saatte, hangi güzergâhtan, hangi noktadan indirme yapabilir' sorusuyla başlar. Şehir merkezindeki bir otelin veya AVM'nin servis girişi genellikle dar bir sokağa açılır ve bu sokakta günün belirli saatlerinde ticari araç trafiği kısıtlanmış olabilir; bazı caddelerde ise yalnızca gece belirli saatlerde yük araçlarına izin verilir. Teslimat planı bu yüzden işin başında, hedefin tam adresi ve varsa bina yönetiminin bildirdiği yükleme-boşaltma kuralıyla birlikte kurulur. Bu sayfa, şehir merkezindeki otel ve AVM teslimatlarında nakliye planının nasıl oluşturulduğunu, hangi bilgilerin önceden istendiğini ve teslim sonrası makinenin park/şarj düzeninin nasıl kurulduğunu anlatır.",
+        maddeler: [
+            { baslik: "Servis sokağının trafik ve saat kısıtını önceden öğrenmek", metin: "Konak ve Alsancak'ın bazı cadde ve sokaklarında ticari araç girişi belirli saatlerle sınırlıdır veya yaya bölgesi düzenlemesi geçerlidir. Teslimat planı kurulmadan önce hedef adresin bulunduğu sokağın güncel trafik düzenlemesi ve varsa bina yönetiminin bildirdiği yükleme-boşaltma penceresi öğrenilir. Bu bilgi net değilse, ilçe belediyesinin ilgili trafik biriminden veya bina yönetiminden teyit istenir; tahmine dayalı bir saat planlanmaz." },
+            { baslik: "Servis girişinin kapı ve rampa ölçüsünü araç seçiminden önce ölçmek", metin: "Şehir merkezindeki eski yapı stoku, servis girişi ve rampa açısı bakımından geniş çeşitlilik gösterir; bazı binalarda dar bir rampa veya alçak bir tavan, standart taşıma aracının indirme yapmasını zorlaştırabilir. Araç ve makine sınıfı seçilmeden önce servis girişinin genişliği, rampa açısı ve varsa tavan yüksekliği talep aşamasında istenir. Belirsizlikte küçük araçla parça parça teslimat veya farklı bir indirme noktası değerlendirilir." },
+            { baslik: "Gece veya erken saat teslimatını işletmeyle birlikte planlamak", metin: "Otel ve AVM işletmeleri genellikle gündüz saatlerinde yoğun ziyaretçi/misafir trafiği yaşadığı için ağır araç teslimatı gece veya erken sabah saatlerine kaydırılır. Bu, hem şehir merkezi trafik kısıtına hem de işletmenin kendi tercihine uyar. Gece teslimatında bina güvenlik ve teknik ekibiyle önceden iletişim kurulur; kapı açma, geçici park izni ve varsa asansör kullanım saatleri bu iletişimle netleşir." },
+            { baslik: "İndirme sonrası ilk hareket noktasını (kapı-koridor) planlamaya dahil etmek", metin: "Araçtan indirilen makinenin bina içine ilk giriş noktası — servis kapısı, rampa veya yük asansörü — nakliye planının ayrılmaz parçasıdır; sadece aracın sokakta durabilmesi yetmez, makinenin oradan hedefe kadar geçeceği güzergâhın da net olması gerekir. Bu güzergâh önceden ölçülmemişse indirme günü beklenmedik bir darboğazla karşılaşılabilir. Güzergâh, ilgili hizmet sayfalarındaki (iç mekân, örümcek platform) kapı ve zemin kontrolleriyle birlikte planlanır." },
+            { baslik: "Teslim sonrası park ve şarj noktasını bina yönetimiyle netleştirmek", metin: "Akülü makinelerin şarj için elektrik bağlantısına ihtiyacı vardır; bu bağlantının nereden sağlanacağı ve şarj kablosunun geçiş yoluna serilmeyecek şekilde nasıl döşeneceği teslimattan önce bina teknik ekibiyle konuşulur. Park noktası yangın yolu, servis geçişi veya acil çıkışı kapatmayacak şekilde belirlenir. Proje bittiğinde geri alım için de aynı saat ve güzergâh kısıtları geçerlidir; iade planı teslimatla aynı titizlikte kurulur." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Şehir merkezi teslimat kontrol tablosu",
+                paragraflar: ["Tablo, Konak-Alsancak'taki bir otel veya AVM teslimatı öncesi netleştirilmesi gereken temel noktaları özetler."],
+                tablo: {
+                    basliklar: ["Konu", "Neden önemli", "Kimden bilgi istenir", "Belirsizse ne yapılır"],
+                    satirlar: [
+                        ["Sokak trafik/saat kısıtı", "Ağır araç girişi sınırlı olabilir", "İlçe trafik birimi / bina yönetimi", "Alternatif saat veya güzergâh"],
+                        ["Servis rampa/kapı ölçüsü", "Standart araç sığmayabilir", "Bina teknik sorumlusu", "Küçük araçla parça teslimat"],
+                        ["Çalışma/teslimat saati tercihi", "Ziyaretçi/misafir yoğunluğu", "Otel/AVM operasyon ekibi", "Gece/erken sabah planı"],
+                        ["Şarj noktası ve kablo güzergâhı", "Geçiş yolunu kapatmamalı", "Bina teknik ekibi", "Alternatif priz veya jeneratör"],
+                        ["Park alanı ve yangın yolu", "Acil çıkış engellenemez", "Bina güvenlik/yönetim", "Belirlenen park cebi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teslimat öncesi istenen bilgiler",
+                paragraflar: [
+                    "Hedef adresin tam konumu, servis girişinin bulunduğu sokak, bina yönetiminin bildirdiği varsa yükleme-boşaltma saati ve makinenin bina içinde geçeceği güzergâh talep aşamasında istenir. Bu bilgiler net değilse kısa bir ön keşif önerilir; sahada ilk kez karşılaşılan bir kısıt, planlanan teslimat saatini geciktirebilir.",
+                    "İade tarihi ve saatiyle ilgili beklenti de baştan konuşulur; proje süresi uzarsa geri alım planı aynı trafik ve saat kısıtlarına göre yeniden kurulur." ],
+            },
+            {
+                baslik: "Bina yönetimi ile nakliye ekibi arasında tek muhatap düzeni",
+                paragraflar: [
+                    "Otel veya AVM tarafında genellikle bir teknik veya operasyon sorumlusu, servis girişi ve saat konularında tek muhatap olarak belirlenir; bu, iletişimi sadeleştirir ve son dakika karışıklığını azaltır.",
+                    "Teslimat günü, aracın varış saatinden önce bu muhataba kısa bir bilgilendirme yapılır; kapı açma, güvenlik yönlendirmesi ve varsa asansör rezervasyonu bu bilgilendirmeyle koordine edilir." ],
+            },
+        ],
+        sss: [
+            { soru: "Alsancak'taki bir sokakta ağır araç giriş yasağı varsa ne yapılır?", cevap: "Öncelikle ilçe trafik düzenlemesi ve varsa bina yönetiminin bildirdiği izinli saat aralığı öğrenilir. Yasak tüm gün geçerliyse teslimat gece veya izinli bir pencereye kaydırılır; bazı durumlarda daha küçük bir araçla yakın bir noktaya indirip son mesafeyi kısa taşımayla tamamlamak gerekebilir. Güzergâh planı bu bilgi netleşmeden kesinleştirilmez." },
+            { soru: "Otelimizin servis kapısı dar, standart taşıma aracı sığar mı?", cevap: "Kapı ve rampa ölçüsü araç seçiminden önce talep aşamasında istenir; fotoğraf veya net ölçü sahadaki ilk denemeden çok daha güvenilirdir. Sığmıyorsa küçük araçla parça parça teslimat veya farklı bir indirme noktası (örneğin başka bir servis girişi) değerlendirilir. Bu kontrol atlanırsa teslimat günü aracın geri dönmesi riski doğar." },
+            { soru: "Gece teslimatında bina güvenliğiyle nasıl koordine ediliyorsunuz?", cevap: "Teslimat saatinden önce bina güvenlik veya teknik ekibiyle iletişime geçilir; kapı açma, geçici park izni ve varsa asansör kullanımı bu iletişimle netleşir. Gece teslimatı genellikle işletmenin kendi tercihidir çünkü gündüz misafir/ziyaretçi trafiğini kesmez. Bilgilendirme yapılmadan habersiz gece teslimatı yapılmaz." },
+            { soru: "Makinenin şarj kablosu yaya geçişine mi serilecek?", cevap: "Hayır, şarj noktası ve kablo güzergâhı teslimattan önce bina teknik ekibiyle konuşulur; kablo geçiş yolunu kapatmayacak şekilde döşenir veya kablo kanalı/koruma kullanılır. Uygun bir priz noktası yoksa alternatif çözüm (farklı bir teknik oda, gerekiyorsa jeneratör) önceden planlanır." },
+            { soru: "Proje uzarsa makinenin iadesi de aynı kısıtlara mı tabi?", cevap: "Evet, geri alım da aynı sokak trafik kısıtına ve varsa saat penceresine tabidir; bu nedenle iade planı teslimatla aynı titizlikte, proje süresi netleştikçe güncellenir. Proje beklenenden uzarsa yeni iade tarihi ve saati bina yönetimiyle birlikte yeniden konuşulur; habersiz bir tarihte araç gönderilmez." },
+            { soru: "Teslimat için hangi bilgileri önceden vermeliyiz?", cevap: "Hedef adresin tam konumu, servis girişinin bulunduğu sokak, bina yönetiminin bildirdiği yükleme-boşaltma saati (varsa), makinenin bina içindeki geçeceği kapı/koridor ölçüsü ve şarj noktası bilgisi talep aşamasında yeterlidir. Bu bilgiler eksikse kısa bir ön keşif önerilir; böylece teslimat günü sürpriz bir kısıtla karşılaşılmaz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'ın yaya bölgesi düzenlemeleri ve trafik kısıtlı sokakları kamuya açık kentsel bilgidir; teslimat saat/güzergâh planlama süreci genel saha pratiğidir. Gerçek sokak adı, saat kısıtı rakamı veya mesafe uydurulmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Otel ve AVM Servis Deposunda Forklift ve İstifleme Kiralama",
+        giris:
+            "Konak-Alsancak'taki bir otelin veya AVM'nin servis deposu, sanayi tipi bir lojistik depodan farklı bir ölçekte çalışır: genellikle daha küçük bir alan, dar bir yükleme rampası ve mobilya, mutfak ekipmanı, tabela veya sezonluk malzeme gibi karışık yük tipleri barındırır. Bu ortamda forklift ihtiyacı, sürekli bir depo operasyonundan çok proje bazlı ortaya çıkar — bir renovasyon başlarken malzeme paletlerinin depoya alınması, bir mağaza açılışında raf ve vitrin ekipmanının indirilmesi, ya da bir etkinlik sonrası büyük hacimli malzemenin toplanması gibi. Şehir merkezindeki servis deposunun dar rampası ve alçak tavanı, forklift sınıfını sanayi tipi büyük modellerden çok kompakt ve dar koridor sınıfına yönlendirir. Bu sayfa, otel ve AVM servis deposu bağlamında forklift ve istifleme ihtiyacının nasıl değerlendirildiğini, hangi ölçümlerin önce yapıldığını ve makaslı platformla birlikte nasıl kullanılabildiğini anlatır.",
+        maddeler: [
+            { baslik: "Servis rampasının eğimi ve genişliğini forklift sınıfından önce ölçmek", metin: "Otel ve AVM servis rampaları genellikle bina mimarisine göre kısıtlı bir eğim ve genişlikte tasarlanmıştır; standart sanayi tipi forklift bu rampaya her zaman uygun olmayabilir. Rampa eğimi, genişliği ve varsa alçak tavan yüksekliği talep aşamasında istenir. Uygun değilse dar koridor tipi veya elektrikli kompakt forklift değerlendirilir; sahada deneme yapılmadan büyük sınıf makine rampaya sürülmez." },
+            { baslik: "Depo içi dar koridorda kapalı alan çalışma tipini seçmek", metin: "Servis deposu genellikle raf aralığı dar ve tavan alçak bir kapalı alandır; bu ortamda dizel forklift yerine akülü/elektrikli model tercih edilir çünkü kapalı hacimde egzoz emisyonu kabul edilebilir değildir. Depo yüksekliği ve raf aralığı ölçüsü makine sınıfını belirler. Havalandırma yetersizse kapalı alan çalışma kuralı daha da katı uygulanır." },
+            { baslik: "Proje bazlı kısa süreli kullanım için doğru kiralama modelini kurmak", metin: "Otel/AVM tarafındaki forklift ihtiyacı genellikle bir renovasyon veya açılış projesinin belirli günlerine denk gelir, sürekli bir depo operasyonu değildir. Bu nedenle kısa süreli, proje bazlı kiralama modeli genellikle daha uygundur; makine yalnızca malzeme indirme/istifleme günlerinde tahsis edilir. Kullanım sıklığı artarsa haftalık tahsis değerlendirilir." },
+            { baslik: "Yükleme saatini otel/AVM operasyon takvimiyle uyumlamak", metin: "Servis rampasındaki yükleme-boşaltma trafiği, otel ve AVM'nin kendi teslimat takvimiyle (gıda tedarikçisi, temizlik malzemesi, mağaza sevkiyatı) çakışabilir. Forklift çalışma saati, bu mevcut trafikle çakışmayacak şekilde bina operasyon ekibiyle önceden planlanır. Ortak rampa kullanımında öncelik sırası ve bekleme noktası netleştirilir." },
+            { baslik: "Makaslı platform ile forklift işini birlikte planlamak", metin: "Bazı renovasyon projelerinde forklift malzemeyi depodan çalışma alanına taşırken makaslı platform aynı malzemeyi tavan veya yüksek raf seviyesine yerleştirir; bu iki makinenin aynı gün, aynı dar alanda çalışması trafik ve güvenlik açısından ayrıca koordine edilir. Hangi makinenin hangi saatte hangi koridoru kullanacağı proje yöneticisiyle birlikte belirlenir; ikisi aynı anda aynı dar geçitte bulunmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Servis deposu forklift karar tablosu",
+                paragraflar: ["Tablo, otel/AVM servis deposunda forklift sınıfı seçimini belirleyen temel kriterleri gösterir."],
+                tablo: {
+                    basliklar: ["Kriter", "Sanayi depo ortalaması", "Şehir merkezi servis deposu", "Sonuç"],
+                    satirlar: [
+                        ["Rampa genişliği", "Geniş, standart", "Dar, bina mimarisine bağlı", "Kompakt/dar koridor sınıfı"],
+                        ["Tavan yüksekliği", "Yüksek, esnek", "Alçak olabilir", "Düşük profilli makine"],
+                        ["Güç tipi", "Dizel yaygın", "Kapalı hacim, dizel uygun değil", "Akülü/elektrikli"],
+                        ["Kullanım sıklığı", "Sürekli operasyon", "Proje bazlı, günlük/haftalık", "Kısa süreli tahsis"],
+                        ["Ortak rampa trafiği", "Genellikle tek kullanıcı", "Otel/AVM teslimat takvimiyle paylaşımlı", "Saat koordinasyonu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Talep sırasında istenen bilgiler",
+                paragraflar: [
+                    "Servis rampasının eğimi ve genişliği, depo tavan yüksekliği, taşınacak malzemenin tipi ve ağırlığı, ve ihtiyaç duyulan gün/saat aralığı talep aşamasında istenir. Bu bilgiler netleşmeden forklift sınıfı önerilmez.",
+                    "Malzemenin niteliği (mobilya, mutfak ekipmanı, tabela, inşaat malzemesi) de forklift tipini ve varsa özel aparat (çatal genişliği, kaydırmalı taşıyıcı) ihtiyacını belirler." ],
+            },
+            {
+                baslik: "Otel/AVM operasyonu ile ortak rampa kullanımı",
+                paragraflar: [
+                    "Servis rampası genellikle otel veya AVM'nin kendi tedarik zincirinin de kullandığı ortak bir alandır; forklift çalışma saati bu mevcut trafikle çakışmayacak şekilde bina operasyon ekibiyle önceden koordine edilir.",
+                    "Yoğun teslimat saatlerinde (örneğin sabah erken gıda tedarik saatleri) forklift çalışması ertelenir veya farklı bir zaman dilimine kaydırılır; bu koordinasyon proje başında netleştirilir." ],
+            },
+        ],
+        sss: [
+            { soru: "AVM'nin dar servis rampasına forklift sığar mı?", cevap: "Sanayi tipi standart forklift her zaman uygun olmayabilir; rampa eğimi ve genişliği talep aşamasında ölçülür, gerekirse kompakt veya dar koridor tipi model önerilir. Sahada ilk kez denemek yerine bu ölçü önceden netleştirilir. Rampa aşırı dar veya dik ise malzeme daha küçük partiler hâlinde ya da farklı bir giriş noktasından taşınır." },
+            { soru: "Kapalı depoda dizel forklift kullanılabilir mi?", cevap: "Kapalı hacimde egzoz emisyonu kabul edilebilir olmadığı için akülü/elektrikli model tercih edilir. Depo havalandırması yeterli olsa bile şehir merkezindeki küçük servis depolarında bu kural katı uygulanır. Dizel yalnızca açık alan yükleme noktasında ve kısa süreli kullanımda değerlendirilebilir." },
+            { soru: "Bir günlüğüne forklift kiralayabilir miyiz?", cevap: "Evet, otel/AVM tarafındaki ihtiyaç genellikle proje bazlı ve kısa süreli olduğu için günlük veya birkaç günlük tahsis yaygın bir modeldir. Kullanım sıklığı artarsa haftalık tahsis daha uygun olabilir. Süre ve gün, malzeme teslim takvimine göre birlikte belirlenir." },
+            { soru: "Forklift ile makaslı platform aynı anda çalışabilir mi?", cevap: "Aynı dar koridorda aynı anda çalışmaları önerilmez; iki makinenin hangi saatte hangi alanı kullanacağı proje yöneticisiyle önceden planlanır. Trafik ve düşen cisim riski ayrı ayrı değerlendirilir. Genellikle forklift malzemeyi indirirken, platform farklı bir bölümde veya farklı bir saatte çalışır." },
+            { soru: "Servis rampasını otel/AVM'nin kendi teslimatlarıyla paylaşmak zorunda mıyız?", cevap: "Çoğunlukla evet, rampa ortak kullanımdadır; forklift çalışma saati bina operasyon ekibinin mevcut teslimat takvimiyle çakışmayacak şekilde koordine edilir. Yoğun tedarik saatlerinde çalışma ertelenebilir. Bu koordinasyon proje başında netleştirilir, sahada anlık çakışmayla karşılaşılmaz." },
+            { soru: "Hangi bilgileri önceden paylaşmalıyız?", cevap: "Rampa eğimi ve genişliği, depo tavan yüksekliği, taşınacak malzemenin tipi ve yaklaşık ağırlığı, ihtiyaç duyulan gün/saat aralığı yeterli bir başlangıçtır. Bu bilgilerle uygun forklift sınıfı ve varsa özel aparat ihtiyacı netleştirilir; belirsizlikte kısa bir ön keşif önerilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki otel/AVM servis depolarının kısıtlı rampa ve kapalı alan niteliği genel bilgidir; forklift sınıf seçimi ve ortak rampa koordinasyonu genel saha pratiğidir. Gerçek tesis adı veya kapasite rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Otel ve AVM Dış Cephesinde Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Makaslı platform yalnızca dikey ve düz bir hattan yükselirken, eklemli platform kollarını yatayda uzatıp bir engelin üzerinden veya arkasından geçerek hedefe ulaşabilir; bu fark, Konak-Alsancak'taki otel ve AVM cephelerinde sıkça karşılaşılan bir ihtiyacı karşılar — saçak, tente, cephe çıkıntısı, tabela konsolu veya cadde ağacı gibi bir engelin arkasında kalan bir noktaya erişim. Şehir merkezindeki bina cepheleri genellikle kaldırıma bitişik veya çok dar bir önyüzey payına sahiptir; bu da makinenin duracağı zeminin kaldırım mı yoksa kısıtlı bir servis şeridi mi olduğunu, ve dönüş yarıçapının dar sokakta yeterli olup olmadığını proje başında netleştirmeyi gerektirir. Eklemli platformun avantajı yatay erişimken, dezavantajı ise sepet kapasitesinin makaslı platforma göre genellikle daha sınırlı olmasıdır; bu nedenle seçim, hedefin yalnızca yüksekliğine değil, engelin arkasına ne kadar yatay mesafe ve hangi açıyla ulaşılması gerektiğine bakılarak yapılır. Bu sayfa, otel ve AVM cephesindeki tente, saçak ve konsol altı işlerinde eklemli platformun ne zaman doğru seçim olduğunu ve kaldırım/sokak kısıtlarının nasıl yönetildiğini anlatır.",
+        maddeler: [
+            { baslik: "Saçak, tente ve konsol altı gibi 'engel arkası' hedefleri tanımlamak", metin: "Otel giriş saçağı, AVM tente sistemi veya cephedeki dekoratif konsol, doğrudan altına düz zeminden yaklaşmayı engelleyen tipik örneklerdir. Bu tip hedeflerde makaslı platform yatay erişim sağlayamaz; eklemli platformun kolu engelin kenarından geçip arkasındaki noktaya ulaşır. Hedefin engelin ne kadar arkasında ve hangi açıda olduğu talep aşamasında netleştirilir; bu bilgi olmadan sepet kapasitesi ve kol uzanımı doğru seçilemez." },
+            { baslik: "Kaldırım ve dar sokakta makinenin duracağı zemini belirlemek", metin: "Şehir merkezindeki bina cepheleri çoğunlukla kaldırıma bitişiktir; makine kaldırımda duracaksa taşıma kapasitesi ve yaya geçişine bırakılacak boşluk önceden hesaplanır, kaldırım altyapısının (kaldırım altı boşluk, ıslak zemin döşemesi) ağırlığı taşıyıp taşımadığı bina/belediye teknik bilgisiyle doğrulanır. Sokak dar ve tek yönlüyse makinenin dönüş yarıçapı ve park süresi ayrıca planlanır; belediye trafik izni gerekiyorsa bu süreç işin başında yürütülür." },
+            { baslik: "Yaya trafiğini kesmeden çalışma alanı kurmak", metin: "Cadde üzerinde çalışırken yaya kaldırımının bir kısmı geçici olarak kapatılabilir; bu durumda alternatif yaya güzergâhı ve uyarı işaretlemesi zorunludur. Düşen cisim riski taşıyan alan bariyerle çevrilir, gerekiyorsa zemin gözcüsü yaya trafiğini yönlendirir (operatör bu görevi üstlenmez). Çalışma saatleri, cadde üzerindeki yaya ve araç trafiğinin en yoğun olduğu saatlerin dışına, mümkünse çekilir." },
+            { baslik: "Sepet kapasitesini hedef malzemesine göre önceden kontrol etmek", metin: "Eklemli platformların sepet kapasitesi genellikle makaslı platforma göre daha sınırlıdır; tente değişimi, tabela sökümü veya cephe aydınlatma bakımı gibi işlerde taşınacak malzeme ve kişi sayısı önceden hesaplanır. Ağır bir tente kumaşı veya büyük bir tabela parçası taşınacaksa, kapasitesi yeterli bir sınıf seçilir; kapasiteyi zorlayan bir yükleme yapılmaz." },
+            { baslik: "Rüzgâr ve hava koşulunu dış cephe işinde ayrıca değerlendirmek", metin: "Dış cephede çalışan eklemli platform, üreticinin belirlediği rüzgâr hızı sınırının üzerinde kullanılmaz; şehir merkezindeki yüksek binalar arasında rüzgâr yönlendirme etkisi yaratabileceğinden, görünürde sakin bir günde bile cephe seviyesinde rüzgâr farklı olabilir. Çalışma günü hava durumu ve varsa bina cephesindeki rüzgâr koridoru etkisi göz önünde bulundurulur; sınır aşıldığında iş ertelenir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Cephe hedefi türüne göre erişim kararı",
+                paragraflar: ["Tablo, otel/AVM cephesindeki tipik hedeflerde eklemli platformun ne zaman tercih edildiğini gösterir."],
+                tablo: {
+                    basliklar: ["Hedef", "Engel türü", "Erişim ihtiyacı", "Makine kararı"],
+                    satirlar: [
+                        ["Giriş saçağı altı", "Yatay çıkıntı", "Kenar dolanma", "Eklemli platform"],
+                        ["Tente/gölgelik sistemi", "Yatay çıkıntı + açı", "Kol uzanımı", "Eklemli platform"],
+                        ["Düz cephe iç yüzü", "Engel yok", "Dikey erişim", "Makaslı platform"],
+                        ["Cephe konsolu arkası", "Derin yatay boşluk", "Uzun kol uzanımı", "Eklemli platform, kapasite kontrolü"],
+                        ["Dar sokak kaldırımı", "Zemin/dönüş kısıtı", "Kompakt duruş alanı", "Küçük sınıf + izin süreci"],
+                    ],
+                },
+            },
+            {
+                baslik: "Belediye ve trafik izni gereken durumlar",
+                paragraflar: [
+                    "Cadde üzerinde kaldırımın bir kısmını kapatan veya yaya/araç trafiğini geçici olarak etkileyen çalışmalarda ilçe belediyesinden izin gerekebilir; bu süreç iş takvimine göre önceden başlatılır çünkü izin süresi birkaç gün alabilir.",
+                    "İzin başvurusu genellikle otel veya AVM'nin ilgili teknik/hukuk birimiyle birlikte yürütülür; bu koordinasyonu proje başında netleştirmek, çalışma gününde beklenmedik bir gecikmeyi önler." ],
+            },
+            {
+                baslik: "Operatörlü kullanım ve zemin gözcüsü rolü",
+                paragraflar: [
+                    "Cadde üzerinde ve halka açık cephede çalışma, operatörlü kullanımı ve ayrıca bir zemin gözcüsünü gerektirir; gözcü hem yaya trafiğini hem de malzeme indirme anını koordine eder.",
+                    "Rüzgâr, ıslak zemin veya beklenmedik bir trafik yoğunluğu gözcü tarafından operatöre iletilir; bu durumlarda iş operatörün kararıyla geçici olarak durdurulabilir." ],
+            },
+        ],
+        sss: [
+            { soru: "Saçağın altına makaslı platform mu, eklemli platform mu gerekir?", cevap: "Hedefin doğrudan altına düz zeminden ulaşılabiliyorsa makaslı platform yeterlidir; ancak saçak gibi bir çıkıntının arkasına veya altına yandan dolanarak ulaşmak gerekiyorsa eklemli platformun yatay kol uzanımı gerekir. Karar, hedefin engelin ne kadar arkasında olduğuna ve hangi açıyla erişileceğine bakılarak verilir; bu bilgi talep aşamasında netleştirilir." },
+            { soru: "Kaldırımda makine durabilir mi, yaya geçişi engellenir mi?", cevap: "Kaldırım altyapısının makinenin ağırlığını taşıyıp taşımadığı önceden kontrol edilir; taşıyorsa makine kaldırımda durabilir ama yayalar için mutlaka alternatif ve güvenli bir geçiş bırakılır. Kaldırım dar veya altyapı belirsizse makine yol kenarına, gerekirse belediye izniyle geçici olarak konumlandırılır." },
+            { soru: "Cadde üzerinde çalışmak için belediye izni gerekiyor mu?", cevap: "Kaldırımın bir kısmını kapatan veya trafik akışını etkileyen çalışmalarda genellikle ilçe belediyesinden izin gerekir. Bu süreç günler alabileceği için iş takvimine göre önceden başlatılır. İzin başvurusu genellikle otel/AVM'nin ilgili birimiyle koordineli yürütülür." },
+            { soru: "Rüzgârlı bir günde dış cephede çalışılabilir mi?", cevap: "Üreticinin belirlediği rüzgâr hızı sınırının üzerinde çalışılmaz. Şehir merkezinde yüksek binalar arasında rüzgâr yönlendirme etkisi oluşabileceğinden, zemin seviyesinde sakin görünen bir gün cephe seviyesinde farklı olabilir. Sınır aşılırsa iş ertelenir; bu karar operatör ve saha sorumlusu tarafından birlikte verilir." },
+            { soru: "Ağır bir tente kumaşını bu makineyle taşıyabilir miyiz?", cevap: "Eklemli platformların sepet kapasitesi makaslı platforma göre genellikle daha sınırlıdır; taşınacak malzemenin ağırlığı ve kişi sayısı önceden hesaplanır. Kapasiteyi zorlayan bir yükleme yapılmaz; ağır malzeme için daha yüksek kapasiteli bir sınıf veya farklı bir taşıma yöntemi (örneğin ayrı bir vinç) değerlendirilir." },
+            { soru: "Operatörsüz kullanabilir miyiz?", cevap: "Cadde üzerinde ve halka açık cephede çalışma operatörlü kullanım ve bir zemin gözcüsü gerektirir; bu, hem yaya güvenliği hem de rüzgâr/trafik gibi değişken koşulların anlık takibi için gereklidir. Kapalı bir avlu veya özel mülkte, yetkinliği belgeli bir kullanıcı varsa operatörsüz seçenek ayrıca değerlendirilebilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki dar sokak ve kaldırıma bitişik cephe dokusu kamuya açık kentsel bilgidir; belediye izin süreci ve rüzgâr sınırı genel saha pratiğidir. Gerçek cadde adı, izin süresi veya rüzgâr rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Otel Lobisi ve AVM Galerisinde İç Mekân Platform Kiralama",
+        giris:
+            "Bu domainin ağırlık merkezi, Konak-Alsancak'taki otel ve AVM yapılarının iç mekânıdır — lobi, galeri, restoran salonu, toplantı/balo salonu, koridor ve asma tavan boşluğu gibi kapalı, düz zeminli ve genellikle işletme faaliyeti sürerken çalışılması gereken alanlar. 'Depo içi' terimi burada sanayi tipi bir lojistik depoyu değil, otel ve AVM'nin kendi teknik/servis alanlarını ve büyük iç mekân salonlarını kapsar; iş tipi de buna göre şekillenir: tavan aydınlatma değişimi, asma tavan kaplaması, mekanik/elektrik tesisat revizyonu, dekorasyon ve konsept yenileme, tabela/yönlendirme sistemi kurulumu. Bu alanların ortak özelliği düz ve genellikle taşıyıcı bir zemine sahip olmasıdır, bu da akülü makaslı platformu neredeyse her işin doğal aracı hâline getirir — kapalı hacimde dizel makine kullanılmaz, egzoz ve gürültü kısıtı bunu engeller. Ancak zemin düzlüğü tek başına yeterli değildir: mermer, parke veya halı kaplı bir salonda tekerlek izi bırakmama, hassas zemin koruma yöntemi ve işletme açıkken ziyaretçi/misafir güzergâhından ayrı çalışma alanı kurma, bu işlerin belirleyici unsurlarıdır. Bu sayfa, otel ve AVM iç mekânındaki dört ana iş türünü — tavan/aydınlatma işleri, salon dekorasyonu, teknik tesisat revizyonu ve genel bakım turu — ve bunların zemin, saat ve erişim açısından nasıl planlandığını anlatır.",
+        maddeler: [
+            { baslik: "Mermer, parke ve halı kaplı zeminde koruma yöntemini önceden seçmek", metin: "Otel lobisi genellikle mermer veya parlak taş kaplama, AVM galerisi ise sık sık geniş seramik veya epoksi zemine sahiptir; toplantı salonlarında ise halı kaplama yaygındır. Her yüzey farklı bir tekerlek tipi veya koruma yöntemi ister — iz bırakmayan (mark-free) lastik, koruma örtüsü veya kaymayan bir taşıyıcı plaka. Zemin türü ve varsa yakın tarihli yenileme bilgisi işin başında istenir; uygun koruma yöntemi belirlenmeden makine salona alınmaz." },
+            { baslik: "Asma tavan ve galeri boşluğunun döşeme yükünü doğrulamak", metin: "Bazı otel/AVM salonlarının altında teknik hacim, bodrum otopark veya farklı bir taşıyıcı sistem bulunabilir; geniş ve parlak görünen bir zemin, ağır bir makaslı platform için otomatik olarak uygun değildir. Makinenin toplam ağırlığı ve teker yükü, yetkili yapı bilgisiyle karşılaştırılır. Belirsiz döşemede deneme sürüşü yapılmaz; daha hafif sınıf makine veya yük dağıtım plakası değerlendirilir." },
+            { baslik: "İşletme açıkken çalışma saatini salon programıyla uyumlamak", metin: "Otel toplantı salonu ve AVM galerisi genellikle kendi rezervasyon veya etkinlik takvimine sahiptir; bu takvim merkezi bir program değil, salonun kendi ajandasıdır ve iş planı buna göre kurulur. Restoran ve lobi gibi sürekli kullanılan alanlarda ise çalışma, işletmenin en sakin saatine (genellikle geç gece veya erken sabah) kaydırılır. Çalışma alanı fiziksel bariyerle ayrılır, ortak geçişte sepet indirilir, operatör misafir/ziyaretçi yönlendirmesi yapmaz." },
+            { baslik: "Servis kapısı ve yük asansörü ölçüsünü erken keşifte netleştirmek", metin: "Salona giriş genellikle servis kapısından veya yük asansöründen yapılır; kapı genişliği, dönüş açısı ve asansör kabin ölçüsü makine sınıfını sınırlar. Bu ölçüler, ilgili bölgesel içeriklerde de anlatıldığı gibi (Mavişehir, İnciraltı, Balçova gibi proje ölçekli renovasyonlarda) erken keşifte netleştirilir; büyük sepetli bir makine dar bir asansöre sığmıyorsa daha küçük sınıf veya kısmen sökülmüş taşıma değerlendirilir." },
+            { baslik: "Tavan/aydınlatma, dekorasyon, tesisat ve genel bakım işini ayrı planlamak", metin: "Bu dört iş türü farklı süre ve ekip yoğunluğu taşır: tavan/aydınlatma değişimi genellikle en yoğun makine kullanımını gerektirir, salon dekorasyonu kısa süreli ama hassas zemin koruması ister, teknik tesisat revizyonu farklı taşeronlarla koordinasyon gerektirir, genel bakım turu ise dağınık noktalarda kısa süreli tahsislerden oluşur. Talep alındığında hangi iş türüne girdiği netleştirilir; bu, doğru makine sınıfını ve çalışma saatini belirler." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Otel/AVM iç mekân alan-iş eşleştirme tablosu",
+                paragraflar: ["Tablo, otel ve AVM iç mekânındaki tipik alanları iş türü, zemin ve çalışma penceresiyle eşleştirir."],
+                tablo: {
+                    basliklar: ["Alan", "Tipik iş", "Zemin/koruma", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Otel lobisi", "Tavan/aydınlatma, dekorasyon", "Mermer, iz bırakmayan lastik", "Gece/erken sabah"],
+                        ["AVM galerisi", "Tavan/aydınlatma, tabela", "Seramik/epoksi, koruma örtüsü", "Kapanış sonrası gece"],
+                        ["Toplantı/balo salonu", "Dekorasyon, tesisat", "Halı, kaydırmaz plaka", "Salon rezervasyon dışı gün"],
+                        ["Restoran salonu", "Aydınlatma, tavan bakımı", "Karma zemin, koruma örtüsü", "Servis dışı saat"],
+                        ["Genel bakım turu", "Dağınık nokta düzeltme", "Alan bazlı kontrol", "Esnek, işletmeyle uyumlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin koruma ve iz bırakmama yaklaşımı",
+                paragraflar: [
+                    "Hassas kaplamalı salonlarda kullanılan makinenin lastiği, iz bırakmayan (mark-free/non-marking) tipte olmalıdır; standart lastik parlak zeminde kalıcı iz bırakabilir. Talep alındığında zeminin türü sorulur ve buna göre lastik tipi veya ek koruma örtüsü belirlenir.",
+                    "Halı kaplı salonlarda ayrıca kaydırmaz taşıyıcı plaka kullanılır; bu, hem zemini korur hem de makinenin dönüş sırasında halıyı buruşturmasını önler. Koruma malzemesi işin başında planlanır, sahada anlık improvizasyon yapılmaz." ],
+            },
+            {
+                baslik: "İşletme ekibi ile teknik ekip arasında günlük devir",
+                paragraflar: [
+                    "Otel/AVM operasyon ekibi salon programını ve misafir/ziyaretçi rotasını, teknik ekip zemin ve enerji bilgisini yönetir; her çalışma gününde alan teslim ve kapanış kaydıyla devredilir.",
+                    "Salon bir sonraki etkinliğe hazırlanmadan önce teknik ve temizlik kabulü yapılır; bu kabul olmadan salon işletmeye geri açılmaz. Operatör, salon programına veya misafir yönlendirmesine tek başına karar vermez." ],
+            },
+        ],
+        sss: [
+            { soru: "Otel lobimizin mermer zemininde makine iz bırakır mı?", cevap: "Standart lastik parlak mermer zeminde iz bırakabilir; bu nedenle iz bırakmayan (mark-free) lastik tipi ve gerekirse ek koruma örtüsü kullanılır. Zemin türü talep aşamasında sorulur, koruma yöntemi işin başında belirlenir. Uygun koruma olmadan makine salona alınmaz." },
+            { soru: "AVM galerisi açıkken çalışma yapılabilir mi?", cevap: "Çalışma alanı fiziksel bariyerle ziyaretçi güzergâhından ayrılır ve genellikle kapanış sonrası gece saatlerine planlanır; gündüz çalışma yalnızca güvenli bir ayrım kurulabiliyorsa değerlendirilir. Her gece tamamlanan bölüm ertesi sabah ziyaretçiye açılır, makine bir sonraki bölüme geçer." },
+            { soru: "Toplantı salonumuzun rezervasyon takvimiyle nasıl uyumlanıyor?", cevap: "Salonun kendi rezervasyon/etkinlik takvimi merkezi bir programdan bağımsız yürüdüğü için iş planı bu takvime göre kurulur; boş günler veya saatler salon yönetiminden alınır. Rezervasyonlu bir güne denk gelme riski varsa alternatif tarih önceden netleştirilir." },
+            { soru: "Salonun altında otopark var, zemin makinenin ağırlığını taşır mı?", cevap: "Bu, işin başında mutlaka netleştirilmesi gereken bir konudur; yapının statik projesi veya yetkili bir teknik görüşle zemin yük kapasitesi teyit edilir. Belirsizlikte daha hafif sınıf makine veya yük dağıtım plakası kullanılır. Bu adım atlanmaz çünkü zeminde çökme riski taşır." },
+            { soru: "Halı kaplı salonda makine kullanılabilir mi?", cevap: "Evet, ancak kaydırmaz taşıyıcı plaka gibi ek koruma yöntemiyle; bu hem halıyı korur hem makinenin dönüşünü güvenli hale getirir. Zemin tipi ve halı kalınlığı önceden bilinirse koruma malzemesi ona göre hazırlanır." },
+            { soru: "Hangi iş türü için bu sayfa geçerli, hangisi için ayrı sayfa bakmalıyız?", cevap: "Bu sayfa otel/AVM iç mekânındaki genel tavan, aydınlatma, dekorasyon, tesisat ve bakım turu işlerini kapsar. Daha spesifik ihtiyaçlar için — örneğin dar bir koridordan geçiş gerekiyorsa sepetli örümcek platform, cephedeki bir çıkıntının arkası için eklemli platform — ilgili özel hizmet sayfalarımıza bakmanızı öneririz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki otel ve AVM iç mekân yapıları (lobi, galeri, salon) kamuya açık genel bilgidir; zemin koruma yöntemi, salon programı uyumu ve teslim-kabul süreci genel saha pratiğidir. Gerçek tesis adı veya kapasite rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Otel ve AVM Ek Yapı/Teknik Mahal İşlerinde Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Konak-Alsancak'taki otel ve AVM binaları büyük çoğunlukla tamamlanmış yapılardır; bu nedenle çelik konstrüksiyon montaj ihtiyacı, sanayi holündeki gibi büyük çaplı bir çatı iskeleti kurulumu şeklinde değil, daha sınırlı ve nokta bazlı ortaya çıkar — çatı üstü teknik mahal (asansör makine dairesi, HVAC ünitesi platformu) ek yapısı, otoparkın üstüne eklenen bir çelik gölgelik, bir AVM'nin yeni bir kat veya ek bina bağlantısı gibi. Bu tip işlerde makaslı platform, çelik profillerin cıvatalanması, kaynak öncesi hizalama ve montaj sonrası kontrol turlarında kullanılır; büyük çaplı vinç işinin yerini almaz, montaj ekibinin erişim aracıdır. Şehir merkezinde bu tür işler genellikle bina çatısında veya sınırlı bir dış alanda yürütüldüğü için, çalışma alanının kaldırım veya komşu binaya olan mesafesi, vinç ile platform işinin aynı sahada nasıl koordine edileceği baştan netleştirilir. Bu sayfa, otel/AVM'nin sınırlı ölçekli çelik montaj işlerinde platformun rolünü ve bu tür projelerde nelerin önceden konuşulması gerektiğini anlatır.",
+        maddeler: [
+            { baslik: "İşin kapsamını 'büyük hol inşası' değil 'nokta montaj' olarak tanımlamak", metin: "Bu domainin uzmanlığı otel/AVM iç mekân ve cephesidir; sanayi holü gibi geniş çaplı yeni çelik iskelet kurulumu bu profilin dışındadır. Talep genellikle çatı üstü teknik ünite platformu, küçük bir gölgelik veya mevcut yapıya eklenen sınırlı bir çelik parça montajıdır. Kapsam netleşmeden makine sınıfı önerilmez; büyük ölçekli bir inşaat söz konusuysa bu, ayrı bir proje değerlendirmesi gerektirir." },
+            { baslik: "Vinç ile platformun aynı sahada koordinasyonunu kurmak", metin: "Ağır çelik profilin kaldırılması genellikle vinçle yapılır; makaslı veya eklemli platform bu profilin cıvatalanması, kaynak hizalaması veya son kontrolü için kullanılır. İki makinenin aynı anda aynı dar alanda çalışması güvenlik açısından ayrıca koordine edilir — hangi makine hangi saatte hangi bölgeyi kullanacağı proje yöneticisiyle netleştirilir, ikisi çakışmaz." },
+            { baslik: "Çatı üstü çalışmada rüzgâr ve kenar güvenliğini ayrıca değerlendirmek", metin: "Çatı üstü teknik mahal işlerinde platform genellikle çatı yüzeyinin kendisinde veya kenarına yakın çalışır; bu, rüzgâr sınırının ve kenar korkuluğunun standart iç mekân işinden daha sıkı uygulanmasını gerektirir. Üreticinin rüzgâr hızı sınırı aşıldığında iş durur. Çatı taşıma kapasitesi ve makinenin duracağı nokta önceden yapısal olarak doğrulanır." },
+            { baslik: "Montaj sonrası kontrol turunu tek seferde planlamak", metin: "Çelik montaj tamamlandığında kaynak/cıvata kontrolü, boya rötuşu ve varsa yalıtım kontrolü gibi kalemler genellikle aynı erişim aracını gerektirir. Bu kontroller dağınık günlere yayılmak yerine tek bir toplu turda planlanır; böylece makine tekrar tekrar aynı noktaya çağrılmaz." },
+            { baslik: "İşletmeyi kesintiye uğratmadan çatı/teknik mahal erişimini kurmak", metin: "Çatı üstü çalışma genellikle misafir/ziyaretçi alanından uzak olsa da, kullanılan asansör veya merdiven boşluğu ortak olabilir; bu güzergâh işletme trafiğinden ayrı bir saate veya rotaya alınır. Malzeme taşıma ve makine hareketi, otel/AVM'nin bilgisi dışında yapılmaz; teknik ekip her aşamada bilgilendirilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Nokta montaj işi türüne göre yaklaşım",
+                paragraflar: ["Tablo, otel/AVM'de karşılaşılan sınırlı ölçekli çelik montaj işlerinde platformun rolünü gösterir."],
+                tablo: {
+                    basliklar: ["İş türü", "Ana ekipman", "Platform rolü", "Ek koordinasyon"],
+                    satirlar: [
+                        ["Çatı üstü teknik ünite platformu", "Vinç + montaj ekibi", "Cıvata/hizalama erişimi", "Rüzgâr sınırı, kenar güvenliği"],
+                        ["Otopark üstü çelik gölgelik", "Vinç", "Montaj ve kontrol erişimi", "Vinç-platform saat koordinasyonu"],
+                        ["Ek bina/kat bağlantısı", "Vinç + inşaat ekibi", "Kaynak öncesi hizalama", "Proje yönetimiyle faz planı"],
+                        ["Montaj sonrası kontrol turu", "—", "Kontrol/rötuş erişimi", "Toplu tur planlaması"],
+                        ["Büyük çaplı yeni iskelet (kapsam dışı)", "Ayrı değerlendirme", "—", "Bu domainin uzmanlığı dışında"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bu domainin kapsam sınırı",
+                paragraflar: [
+                    "Açık söylemek gerekirse, bu domainin ağırlıklı uzmanlığı otel ve AVM'nin iç mekân ve cephe işleridir; geniş çaplı yeni çelik iskelet inşası (bir sanayi holü ölçeğinde) bu profilin merkezinde değildir. Talep gelirse değerlendirilir, ancak bu tür büyük ölçekli işlerde daha uygun bir ekip veya makine parkına yönlendirme yapılabilir.",
+                    "Sınırlı ölçekli nokta montaj (çatı üstü teknik ünite, küçük gölgelik, kontrol turu) ise düzenli karşılaşılan ve deneyimli olunan bir iş türüdür." ],
+            },
+            {
+                baslik: "Proje yöneticisi ve inşaat ekibiyle rol ayrımı",
+                paragraflar: [
+                    "Montaj işini yürüten inşaat/taşeron ekibi kaynak ve cıvata işini, kiralama tarafı uygun makineyi ve operatör modelini sağlar; vinç operasyonu ayrı bir sorumluluk zincirindedir ve platform bu zincire müdahale etmez.",
+                    "Her çalışma günü, çatı/teknik mahal erişimi için anahtar ve günlük kontrol devri yapılır; malzeme ve ekip değişse de bu devir aynı titizlikte tekrarlanır." ],
+            },
+        ],
+        sss: [
+            { soru: "Çatımıza küçük bir teknik ünite platformu ekleteceğiz, makine bu işe uygun mu?", cevap: "Evet, bu tip nokta montaj işleri düzenli karşılaşılan bir iş türüdür. Ağır çelik profilin kaldırılması vinçle yapılır, platform cıvatalama/hizalama ve kontrol erişimini sağlar. Çatı taşıma kapasitesi ve rüzgâr sınırı işin başında değerlendirilir." },
+            { soru: "Büyük bir sanayi holü gibi geniş çelik iskelet kurulumu yapabilir misiniz?", cevap: "Açıkçası bu, bu domainin ağırlıklı uzmanlığı değil; odağımız otel/AVM iç mekân ve cephe işleridir. Talebiniz gelirse değerlendiririz, ancak büyük ölçekli bir çelik iskelet projesi için daha uygun bir ekip veya makine parkına yönlendirme öneririz. Dürüst bir başlangıç noktası, gerçek kapsamı görüşmekle olur." },
+            { soru: "Vinç ile platform aynı anda mı çalışıyor?", cevap: "Genellikle hayır, aynı dar alanda aynı anda çalışmaları önerilmez; hangi makinenin hangi saatte çalışacağı proje yöneticisiyle önceden koordine edilir. Vinç ağır kaldırma yaparken platform genellikle farklı bir noktada veya farklı bir zaman diliminde kullanılır." },
+            { soru: "Çatı üstü çalışmada rüzgâr sınırı nasıl uygulanıyor?", cevap: "Üreticinin belirlediği rüzgâr hızı sınırı standart iç mekân işinden daha sıkı uygulanır çünkü çatı yüzeyi rüzgâra daha açıktır. Sınır aşıldığında iş durdurulur; bu karar operatör ve saha sorumlusu tarafından birlikte verilir, program baskısıyla göz ardı edilmez." },
+            { soru: "Montaj bittikten sonra kontrol için tekrar tekrar makine çağırmamız mı gerekiyor?", cevap: "Hayır, kaynak/cıvata kontrolü, boya rötuşu ve varsa yalıtım kontrolü gibi kalemler genellikle tek bir toplu turda planlanır. Açık kalemler bir listede toplanır, hazır olduğunda tek seferde tamamlanır; bu, tekrar tekrar aynı noktaya makine çağırma ihtiyacını azaltır." },
+            { soru: "Çatıya çıkış için otel/AVM'nin asansörünü mü kullanıyorsunuz?", cevap: "Genellikle evet, ortak servis asansörü veya merdiven boşluğu kullanılır; bu güzergâh işletme trafiğinden ayrı bir saate veya rotaya alınır. Malzeme taşıma ve makine hareketi otel/AVM teknik ekibinin bilgisi dahilinde, önceden planlanmış bir pencerede yapılır." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki otel/AVM yapılarının tamamlanmış bina stoku kamuya açık genel bilgidir; nokta montaj kapsamı ve vinç-platform koordinasyonu genel saha pratiğidir. Gerçek proje veya bina adı uydurulmamıştır; büyük çaplı çelik iskelet işi bu domainin uzmanlık alanı dışında olduğu açıkça belirtilmiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Tesisleri İçin Platform Kiralama — Kapsam Dışı Bölge Notu",
+        giris:
+            "Bu konuda dürüst olmak gerekiyor: bu domainin hizmet alanı Konak ve Alsancak'ın şehir merkezi otel ve AVM dokusudur; tarımsal üretim tesisi, tahıl silosu veya kırsal işleme tesisi bu bölgede pratikte bulunmaz. Şehir merkezinin arazi kullanımı konut, ticaret ve turizm ağırlıklıdır; tarım veya silo tipi bir hedef bu profilin tamamen dışındadır. Bu sayfa, ağımızın kırsal veya sanayi bölgesi ağırlıklı diğer domainlerindeki gibi bir tarım/silo uzmanlığı iddia etmiyor — böyle bir iddia, gerçek olmayan bir yoğunluk göstermek anlamına gelir ve bu, sitenin diğer sayfalarındaki dürüstlük ilkesiyle çelişir. Eğer İzmir'in kırsal veya sanayi bölgesindeki bir tarım/silo tesisi için platform arıyorsanız, ağımızdaki bölgeye özel diğer domainlerimizden birine yönlenmenizi öneririz; onlar bu tür işlerde saha deneyimine sahiptir. Bu sayfa yalnızca, olası bir istisnai talebin (örneğin şehir sınırına yakın bir depo-işleme tesisi) nasıl değerlendirileceğini kısaca anlatır.",
+        maddeler: [
+            { baslik: "Bölgenin arazi kullanımı tarımsal değil kentsel-ticaridir", metin: "Konak-Alsancak, otel, AVM, ofis ve konut yoğunluklu bir şehir merkezidir; tarımsal üretim alanı veya silo tipi yapı bu bölgede fiilen bulunmaz. Bu, coğrafi bir gerçektir ve talebin neredeyse hiç gelmediği anlamına gelir. Sayfanın var olma nedeni, arama yapan kullanıcıyı doğru bilgilendirmek ve gerekirse doğru domaine yönlendirmektir." },
+            { baslik: "İstisnai bir talep gelirse önce kapsamı netleştirmek", metin: "Şehir sınırına yakın, olağandışı bir tarımsal depo veya işleme tesisi talebi gelirse, önce bunun bu domainin makine parkı ve deneyimiyle uyumlu olup olmadığı değerlendirilir. Silo yapıları dairesel gövde, dar merdiven erişimi ve tarımsal ürün tozu gibi kendine özgü riskler taşır; bu risklerin doğru yönetimi deneyim gerektirir." },
+            { baslik: "Uygun değilse doğru yönlendirmeyi yapmak", metin: "Değerlendirme sonucunda bu iş için uygun makine veya deneyime sahip olmadığımız görülürse, ağımızdaki tarım/kırsal bölge odaklı diğer domainlere yönlendirme yapılır. Bu, hem müşteri için daha güvenli bir çözüm hem de bizim açımızdan dürüst bir yaklaşımdır." },
+            { baslik: "Şehir merkezi uzmanlığımızın nerede devam ettiğini hatırlatmak", metin: "Otel, AVM ve şehir merkezi ticari yapılardaki iç mekân, cephe ve teknik erişim ihtiyaçlarınız için ana hizmet sayfalarımız (sepetli örümcek platform, iç mekân platform, eklemli platform) geçerlidir. Tarım/silo dışındaki her türlü şehir merkezi ihtiyacında deneyimimiz ve makine parkımız buradadır." },
+            { baslik: "Talep formunda dürüst bilgi paylaşımının önemi", metin: "Talep formunuzda gerçek hedefi (tesis tipi, konum) net yazmanız, doğru değerlendirmeyi hızlandırır. Şehir merkezi dışı bir konum veya tarımsal bir yapı söz konusuysa bunu baştan belirtmeniz, hem sizin hem bizim zaman kaybetmemizi önler." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapsam durumu tablosu",
+                paragraflar: ["Tablo, bu domainin tarım/silo talepleri karşısındaki gerçek konumunu gösterir."],
+                tablo: {
+                    basliklar: ["Durum", "Bu domainde sıklık", "Yaklaşım", "Öneri"],
+                    satirlar: [
+                        ["Şehir merkezi otel/AVM işi", "Yoğun, ana uzmanlık", "Doğrudan hizmet verilir", "İlgili hizmet sayfasına bakın"],
+                        ["Şehir sınırı yakını istisnai tesis", "Nadir", "Kapsam değerlendirmesi yapılır", "Talep formunda konum belirtin"],
+                        ["Kırsal/tarımsal bölge tesisi", "Pratikte yok", "Uzmanlık alanı dışı", "Bölgeye özel domainlere yönlendirme"],
+                        ["Silo/tahıl tesisi", "Pratikte yok", "Deneyim sınırlı", "Silo deneyimli ekibe yönlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden dürüstçe kapsam dışı diyoruz",
+                paragraflar: [
+                    "Sahte bir uzmanlık iddiası, hem arama sonuçlarında yanlış beklenti yaratır hem de gerçek bir talep geldiğinde uygun olmayan bir ekiple karşılaşma riski taşır. Bu sayfanın amacı arama trafiğini yapay olarak büyütmek değil, doğru kullanıcıyı doğru yere yönlendirmektir.",
+                    "Ağımızdaki diğer domainler, kendi bölgelerindeki gerçek tarım/kırsal yoğunluğa göre bu konuda deneyim biriktirmiştir; bu deneyim burada iddia edilmez." ],
+            },
+            {
+                baslik: "Doğru domaine yönlendirme süreci",
+                paragraflar: [
+                    "Talep formunuzda konum ve tesis tipini belirttiğinizde, uygun değilse size ağımızdaki ilgili domainin iletişim bilgisi veya yönlendirmesi yapılır; bu süreç ek bir ücret veya karmaşık bir prosedür gerektirmez.",
+                    "Amacımız, hangi domainden geldiğinizden bağımsız olarak gerçek ihtiyacınıza en uygun ekibe ulaşmanızı sağlamaktır." ],
+            },
+        ],
+        sss: [
+            { soru: "Konak'ta tarımsal bir tesis için platform kiralayabilir miyiz?", cevap: "Şehir merkezinin arazi kullanımı tarımsal değildir; bu tür bir tesis pratikte bu bölgede bulunmaz. Eğer İzmir genelinde tarımsal veya kırsal bir bölgede tesisiniz varsa, ağımızdaki bölgeye özel domainlerimizden birine yönlendirilmenizi öneririz; onlar bu iş türünde deneyimlidir." },
+            { soru: "Silo bakımı için deneyiminiz var mı?", cevap: "Bu domain üzerinden silo bakımı konusunda geniş bir saha deneyimimiz yok, çünkü hizmet bölgemizde bu tip yapılar bulunmuyor. Silo yapıları dairesel gövde ve tozlu ortam gibi kendine özgü riskler taşıdığı için, bu konuda deneyimli bir ekiple çalışmanızı öneririz." },
+            { soru: "Şehir sınırına yakın bir depo-işleme tesisimiz var, değerlendirir misiniz?", cevap: "Evet, istisnai bir talep olarak değerlendiririz; önce tesis tipi ve konum netleştirilir, uygun makine ve deneyime sahip olup olmadığımız görülür. Uygun değilse doğru yönlendirmeyi yaparız. Talep formunda gerçek konumu belirtmeniz değerlendirmeyi hızlandırır." },
+            { soru: "Bu sayfanın var olma amacı ne?", cevap: "Amacımız arama yapan kullanıcıyı doğru bilgilendirmek; sahte bir tarım/silo uzmanlığı iddia etmek yerine, bu domainin gerçek uzmanlığının şehir merkezi otel/AVM işleri olduğunu ve tarımsal talep için doğru yönlendirmenin nereden geleceğini açıkça belirtmektir." },
+            { soru: "Şehir merkezinde başka hangi hizmetleri sunuyorsunuz?", cevap: "Otel ve AVM iç mekânı, cephesi ve teknik erişim ihtiyaçlarına yönelik sepetli örümcek platform, iç mekân platform, eklemli platform ve ilgili destek hizmetlerimiz (nakliye, forklift, operatörlü kullanım) ana uzmanlık alanımızdır. İlgili hizmet sayfalarımızdan detay bulabilirsiniz." },
+            { soru: "Yanlışlıkla bu sayfaya geldim, doğru domaini nasıl bulurum?", cevap: "Talep formunda konum ve tesis tipini belirtmeniz yeterli; değerlendirme sonucunda uygun değilse ağımızdaki ilgili bölgeye özel domainin iletişim bilgisine yönlendirilirsiniz. Bu süreç ek ücret veya karmaşık bir işlem gerektirmez." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'ın konut/ticaret/turizm ağırlıklı arazi kullanımı kamuya açık coğrafi bilgidir; bu domainde tarım/silo tesisi yoğunluğu bulunmadığı dürüstçe belirtilmiştir. Sahte tesis adı veya talep sıklığı uydurulmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Otel ve AVM Cephe/İç Aydınlatma Bakımı İçin Platform Kiralama",
+        giris:
+            "Konak-Alsancak'taki bir otelin tabelası, AVM'nin cephe aydınlatma şeridi veya lobi/galerideki dekoratif ışık sistemi, kentsel görünürlük açısından işletmenin en görünür yüzlerinden biridir ve bu yüzden düzenli bakım ihtiyacı doğar — ampul/LED modülü değişimi, kablo/bağlantı kontrolü, mevsimsel süsleme aydınlatması kurulumu veya arıza tespiti. Bu işlerin ortak özelliği, genellikle tek bir büyük proje değil, dağınık noktalarda kısa süreli müdahaleler olmasıdır: cephedeki bir tabela harfi, galerideki bir avize grubu, lobideki bir spot hattı. Şehir merkezinde bu tür bakım işleri hem iç mekân (lobi, galeri, salon) hem dış cephe (tabela, cephe aydınlatma şeridi) olmak üzere iki farklı erişim türü gerektirir; iç mekân genellikle makaslı platformla, dar veya yüksek dış cephe noktaları ise eklemli ya da örümcek platformla çözülür. Bu sayfa, otel/AVM aydınlatma bakımında hangi makinenin hangi hedefe uygun olduğunu ve dağınık bakım noktalarının nasıl tek bir ziyarette toplandığını anlatır.",
+        maddeler: [
+            { baslik: "İç mekân aydınlatma bakımını dış cephe tabeladan ayırmak", metin: "Lobi avizesi, galeri spot hattı veya toplantı salonu aydınlatması makaslı platformun düz zemininde verimle çalışılır; dış cephedeki tabela harfi veya cephe aydınlatma şeridi ise genellikle bir çıkıntının arkasında veya yüksek bir noktada olabilir ve eklemli ya da örümcek platform gerektirebilir. Talep alındığında hedefin iç mi dış mı, düz zeminden mi engel arkasından mı erişileceği netleştirilir; bu, doğru makine sınıfını belirler." },
+            { baslik: "Dağınık bakım noktalarını tek bir ziyaret listesine toplamak", metin: "Aydınlatma bakımı genellikle birkaç farklı noktada (birkaç tabela harfi, birkaç spot grubu) aynı anda ihtiyaç duyulan bir iştir. Her nokta için ayrı makine çağırmak yerine, bilinen tüm bakım noktaları önceden listelenir ve tek bir ziyarette, aynı makineyle sırayla tamamlanır. Bu, hem maliyeti hem işletme kesintisini azaltır." },
+            { baslik: "Enerji kesintisi gereken işlerde teknik ekiple koordinasyon kurmak", metin: "Bazı aydınlatma müdahaleleri (kablo değişimi, pano bağlantısı) ilgili hattın enerjisinin kesilmesini gerektirir; bu kesinti otel/AVM'nin teknik ekibiyle önceden koordine edilir çünkü aynı hat başka alanları da besliyor olabilir. Kesinti süresi ve etkilenecek alan işletmeyle netleştirilmeden çalışma başlamaz. Operatör enerji kesme/açma işlemini kendi başına yapmaz." },
+            { baslik: "Mevsimsel süsleme aydınlatmasını takvime göre planlamak", metin: "Yılbaşı veya özel dönem süsleme aydınlatması, hem kurulum hem söküm için belirli bir takvime bağlıdır ve genellikle işletmenin kendi açılış/kapanış tarihiyle uyumlu planlanır. Bu tür işler önceden (birkaç hafta öncesinden) planlanır çünkü aynı dönemde birçok işletme benzer talebi aynı anda yapar; son dakika talep, uygun makine/operatör bulmayı zorlaştırabilir." },
+            { baslik: "Cephe aydınlatma şeridinin yüksekliğine göre makine sınıfını seçmek", metin: "Cephedeki aydınlatma şeridinin yerden yüksekliği ve varsa yatay uzanımı, makaslı, eklemli veya örümcek platform arasındaki seçimi belirler. Yüksekliği ve erişim açısını doğru ölçmeden bir sınıf önerilmez; kaldırım/sokak kısıtları da (bkz. ilgili nakliye ve eklemli platform sayfaları) bu seçime dahil edilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma bakım noktası-makine eşleştirme tablosu",
+                paragraflar: ["Tablo, otel/AVM'de tipik aydınlatma bakım noktalarını erişim türüne göre eşleştirir."],
+                tablo: {
+                    basliklar: ["Nokta", "Erişim türü", "Önerilen makine", "Ek not"],
+                    satirlar: [
+                        ["Lobi avizesi/spot hattı", "İç, düz zemin", "Makaslı platform", "Zemin koruması gerekebilir"],
+                        ["Galeri tavan aydınlatması", "İç, geniş sepet", "Makaslı platform", "Yüksek tavan sınıfı"],
+                        ["Cephe tabela harfi", "Dış, engel arkası olabilir", "Eklemli/örümcek platform", "Kaldırım/rüzgâr kontrolü"],
+                        ["Cephe aydınlatma şeridi", "Dış, yatay uzun hat", "Eklemli platform", "Çok noktalı rota olabilir"],
+                        ["Mevsimsel süsleme aydınlatması", "İç/dış karma", "Takvime göre değişken", "Erken planlama gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji kesintisi gereken işlerde süreç",
+                paragraflar: [
+                    "Kablo veya pano bağlantısı değişimi gerektiren işlerde ilgili hattın enerjisi kesilir; bu kesinti hangi alanları etkileyeceği önceden teknik ekiple netleştirilir ve mümkünse işletmenin sakin saatine planlanır.",
+                    "Kesinti süresi kısa tutulmaya çalışılır ve iş bitiminde hat tekrar teknik ekip onayıyla devreye alınır; operatör bu adımı kendi başına yapmaz." ],
+            },
+            {
+                baslik: "Çok noktalı bakım için planlama önerisi",
+                paragraflar: [
+                    "Bilinen bakım ihtiyaçlarının (sönen LED, arızalı tabela harfi, gevşek bağlantı) düzenli olarak bir listede toplanması, tek seferlik acil çağrılar yerine planlı ve daha ekonomik bir bakım ritmi kurar.",
+                    "Bu liste yaklaşımı, çok noktalı rota bakım hizmetimizle de örtüşür; birden fazla küçük iş aynı ziyarette birleştirilebilir." ],
+            },
+        ],
+        sss: [
+            { soru: "Cephedeki tabela harfimiz için hangi makine gerekir?", cevap: "Harfin yerden yüksekliği ve bir çıkıntının arkasında olup olmadığına bağlıdır; düz cephede doğrudan altına ulaşılabiliyorsa makaslı veya eklemli platform, dar bir noktaya erişim gerekiyorsa örümcek platform değerlendirilir. Ölçüm talep aşamasında netleştirilir." },
+            { soru: "Birden fazla aydınlatma noktamız var, hepsini aynı gün mü tamamlıyorsunuz?", cevap: "Mümkün olduğunca evet; bilinen tüm bakım noktaları önceden listelenir ve tek bir ziyarette sırayla tamamlanır. Bu hem maliyeti hem işletme kesintisini azaltır. Liste eksikse, sonradan fark edilen noktalar için ek ziyaret gerekebilir." },
+            { soru: "Kablo değişimi için elektriği kesmemiz gerekiyor mu?", cevap: "Evet, ilgili hattın enerjisi kesilir; bu kesinti otel/AVM teknik ekibiyle önceden koordine edilir çünkü aynı hat başka alanları da besliyor olabilir. Kesinti süresi ve etkilenecek alan işin başında netleştirilir." },
+            { soru: "Yılbaşı süsleme aydınlatmasını ne zaman planlamalıyız?", cevap: "Mümkünse birkaç hafta önceden; bu dönemde birçok işletme benzer talebi aynı anda yaptığı için uygun makine ve operatör bulma zorlaşabilir. Erken planlama hem kurulum hem söküm tarihini işletmenin açılış/kapanış takvimiyle sorunsuz uyumlar." },
+            { soru: "Galeri tavanındaki aydınlatma için özel bir zemin koruması gerekiyor mu?", cevap: "Genellikle evet, zemin türüne (mermer, seramik) göre iz bırakmayan lastik veya koruma örtüsü kullanılır. Bu, iç mekân platform hizmetimizdeki genel zemin koruma yaklaşımıyla aynıdır; talep aşamasında zemin bilgisi istenir." },
+            { soru: "Dış cephedeki aydınlatma şeridi çok uzun, tek seferde mi bitiyor?", cevap: "Şeridin uzunluğuna ve makinenin bir kurulumda kapsayabileceği alana bağlıdır; uzun hatlarda makine bölüm bölüm ilerler, bu da çok noktalı rota bakım yaklaşımına benzer bir planlama gerektirir. Süre, hat uzunluğu netleştikçe daha net verilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki otel/AVM tabela ve cephe aydınlatmasının kentsel görünürlüğü genel bilgidir; enerji kesinti koordinasyonu ve çok noktalı ziyaret planlaması genel saha pratiğidir. Gerçek tesis adı veya arıza kaydı uydurulmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Otel ve AVM Ortamında Operatörlü Platform Kiralama",
+        giris:
+            "Halka açık bir otel lobisi veya AVM galerisinde platform kullanmak, kapalı bir teknik alandaki kullanımdan farklı bir sorumluluk taşır: misafir ve ziyaretçi trafiği, hassas zemin, dar geçişler ve işletmenin kendi güvenlik prosedürleri aynı anda yönetilmelidir. Bu nedenle şehir merkezindeki otel/AVM işlerinde operatörlü kullanım varsayılan tercih olarak önerilir — sertifikalı bir operatör hem makinenin teknik kullanımını hem de saha koşullarının (zemin, bariyer, ziyaretçi geçişi) anlık değerlendirmesini birlikte yürütür. Operatörsüz (kendi kullanıcınızla) kiralama tamamen dışlanmaz, ancak bu seçenek genellikle kapalı bir teknik alan, düşük ziyaretçi trafiği ve belgeli bir kullanıcının varlığı gibi koşullara bağlıdır. Bu sayfa, hangi durumda operatörlü hangi durumda operatörsüz kullanımın uygun olduğunu, sertifikasyon ve sigorta konularının nasıl netleştirildiğini anlatır.",
+        maddeler: [
+            { baslik: "Halka açık alanda operatörlü kullanımı varsayılan yapmak", metin: "Otel lobisi, AVM galerisi veya cadde üzerindeki cephe işi gibi ziyaretçi/yaya trafiğinin olduğu alanlarda operatörlü kullanım standart tercih olarak önerilir. Operatör hem makinenin teknik kullanımını hem de bariyer, zemin gözcüsü ve acil durdurma gibi güvenlik unsurlarını birlikte yönetir. Bu, işletmenin kendi güvenlik prosedürüyle de genellikle uyumludur." },
+            { baslik: "Operatörsüz seçeneğin geçerli olduğu koşulları netleştirmek", metin: "Kapalı bir teknik mahal, düşük ziyaretçi trafiği olan bir servis alanı ve yeterlilik belgesine sahip bir kullanıcı varsa operatörsüz kiralama değerlendirilebilir. Kullanıcının belgesi ve deneyimi teslim öncesi kontrol edilir, kısa bir teslim eğitimi verilir. Halka açık salon veya cadde üzerinde bu seçenek önerilmez." },
+            { baslik: "Sertifikasyon ve sigorta konularını teslimattan önce netleştirmek", metin: "Operatörlü kullanımda operatörün sertifikası ve sigorta kapsamı kiralama tarafından sağlanır. Operatörsüz kullanımda ise kullanıcının kendi yeterlilik belgesi ve varsa işletmenin talep ettiği ek sigorta şartı önceden konuşulur; bazı otel/AVM işletmeleri kendi tesislerinde çalışacak her ekipman ve kullanıcı için kendi sigorta/yeterlilik şartını da isteyebilir." },
+            { baslik: "Vardiya ve çalışma saatine göre operatör planlamasını kurmak", metin: "Gece veya erken saat çalışmalarında operatörün bu saatlere uygun olması ve gerekiyorsa birden fazla vardiya için planlama yapılması gerekir. Uzun süreli bir proje boyunca aynı operatörün devam etmesi, sahadaki bilgi sürekliliği açısından tercih edilir; operatör değişikliğinde teslim eğitimi ve devir kaydı yenilenir." },
+            { baslik: "Otel/AVM güvenlik ekibiyle günlük koordinasyonu kurmak", metin: "Operatör, günlük çalışmaya başlamadan önce bina güvenlik veya teknik sorumlusundan alan tesliminde bulunur; gün sonunda da alan kapanış kaydıyla devredilir. Bu günlük devir, hem makinenin hem çalışma alanının durumu hakkında karşılıklı kayıt oluşturur ve sorumluluk sınırını netleştirir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü / operatörsüz karar tablosu",
+                paragraflar: ["Tablo, otel/AVM ortamında operatörlü ve operatörsüz kullanımın hangi koşulda uygun olduğunu gösterir."],
+                tablo: {
+                    basliklar: ["Ortam", "Ziyaretçi trafiği", "Önerilen model", "Ek şart"],
+                    satirlar: [
+                        ["Otel lobisi/AVM galerisi", "Yüksek", "Operatörlü", "Bariyer + zemin gözcüsü"],
+                        ["Cadde üzerinde cephe işi", "Yüksek (yaya)", "Operatörlü", "Zemin gözcüsü + belediye izni olabilir"],
+                        ["Kapalı teknik mahal/servis alanı", "Düşük", "Operatörlü veya operatörsüz", "Belgeli kullanıcı gerekir"],
+                        ["Kapalı toplantı salonu (kapalı gün)", "Yok", "Operatörsüz değerlendirilebilir", "Teslim eğitimi + belge kontrolü"],
+                        ["Gece/erken saat çalışması", "Düşük ama değişken", "Operatörlü tercih edilir", "Vardiya planlaması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör seçimi ve sürekliliği",
+                paragraflar: [
+                    "Uzun süreli bir proje boyunca aynı operatörün devam etmesi tercih edilir; bu, sahadaki zemin, bariyer ve işletme prosedürü bilgisinin operatörde birikmesini sağlar ve her gün yeniden anlatma ihtiyacını azaltır.",
+                    "Operatör değişikliği kaçınılmazsa (izin, vardiya rotasyonu), yeni operatöre teslim eğitimi ve saha bilgisi devri yapılmadan kumanda devredilmez." ],
+            },
+            {
+                baslik: "İşletme güvenlik prosedürüyle uyum",
+                paragraflar: [
+                    "Bazı otel/AVM işletmelerinin kendi güvenlik/yüklenici prosedürü vardır (giriş kartı, güvenlik brifingi, belirli ekipman listesi); operatör bu prosedüre proje başında dahil edilir.",
+                    "Bu uyum, işin sorunsuz ilerlemesi kadar sorumluluk sınırlarının da netleşmesi açısından önemlidir; her iki tarafın rolü baştan yazılı hâle getirilir." ],
+            },
+        ],
+        sss: [
+            { soru: "AVM'de kendi personelimizle makineyi kullanabilir miyiz?", cevap: "Halka açık galeri veya lobide bu önerilmez; operatörlü kullanım standart tercihtir çünkü ziyaretçi trafiği ve bariyer yönetimi ek bir dikkat gerektirir. Kapalı bir teknik mahalde ve personelinizin yeterlilik belgesi varsa operatörsüz seçenek değerlendirilebilir." },
+            { soru: "Operatörün sertifikası ve sigortası kim tarafından sağlanıyor?", cevap: "Operatörlü kullanımda operatörün sertifikası ve sigorta kapsamı kiralama tarafından sağlanır. Operatörsüz kullanımda kullanıcının kendi belgesi kontrol edilir; bazı işletmeler ek sigorta şartı da isteyebilir, bu önceden netleştirilir." },
+            { soru: "Proje boyunca aynı operatör mü çalışıyor?", cevap: "Mümkün olduğunca evet, bu tercih edilir çünkü operatörde biriken saha bilgisi (zemin, bariyer, işletme prosedürü) günlük tekrar anlatma ihtiyacını azaltır. Değişiklik gerekirse yeni operatöre teslim eğitimi ve devir kaydı yapılır." },
+            { soru: "Gece çalışmasında operatör bulmak zor mu?", cevap: "Gece veya erken saat çalışmaları önceden planlandığında operatör vardiyası buna göre kurulur; bu nedenle çalışma saatlerinin erkenden netleşmesi operatör planlamasını kolaylaştırır. Son dakika gece talebi, uygun operatör bulmayı zorlaştırabilir." },
+            { soru: "Otelimizin kendi güvenlik prosedürü var, operatör buna uyar mı?", cevap: "Evet, işletmenin güvenlik/yüklenici prosedürü (giriş kartı, brifing, ekipman listesi) proje başında operatöre iletilir ve operatör bu prosedüre uyar. Bu uyum, hem işin akışı hem sorumluluk sınırlarının netliği için önceden konuşulur." },
+            { soru: "Operatörsüz kiralamada eğitim veriyor musunuz?", cevap: "Evet, operatörsüz teslimde kullanıcıya kısa bir teslim eğitimi verilir ve yeterlilik belgesi kontrol edilir. Bu eğitim, makinenin temel kontrolleri ve acil durdurma dahil güvenlik unsurlarını kapsar; belgesiz veya deneyimsiz kullanıcıya operatörsüz teslim yapılmaz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki otel/AVM ortamlarının halka açık niteliği genel bilgidir; operatörlü/operatörsüz karar kriterleri ve sertifikasyon süreci genel saha pratiğidir. Gerçek işletme adı veya sözleşme detayı uydurulmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Konak-Alsancak'ta Çok Noktalı Otel/AVM Rota Bakım Hizmeti",
+        giris:
+            "Bir işletme zincirinin veya bina yönetim şirketinin Konak-Alsancak genelinde birden fazla otel ya da AVM noktasını yönetmesi, bakım ihtiyacını da dağınık bir hâle getirir — bir otelde tabela lambası değişimi, başka bir noktada lobi aydınlatma kontrolü, bir üçüncüsünde galeri tavanında küçük bir rötuş. Her nokta için ayrı ayrı makine ve operatör çağırmak yerine, bu noktaları tek bir rota planına toplamak hem maliyeti hem koordinasyon yükünü azaltır. Şehir merkezindeki mesafeler görece kısa olduğu için (bir noktadan diğerine genellikle birkaç kilometre), aynı gün içinde iki veya üç noktayı sırayla dolaşmak mümkündür; ancak her noktanın kendi trafik saati, çalışma penceresi ve zemin/erişim özelliği farklı olabileceğinden, rota planı bu farklılıkları göz önünde bulundurarak kurulur. Bu sayfa, birden fazla otel/AVM noktasını yöneten müşteriler için çok noktalı rota bakım hizmetinin nasıl planlandığını anlatır.",
+        maddeler: [
+            { baslik: "Dağınık bakım taleplerini tek bir listede toplamak", metin: "Farklı noktalardan gelen küçük bakım talepleri (aydınlatma, tabela, küçük tavan rötuşu) tek tek acil çağrı olarak değil, düzenli aralıklarla toplanan bir listede birleştirilir. Bu liste, hangi noktada hangi işin bekliyor olduğunu gösterir ve rota planlamasının temelini oluşturur. Liste güncel tutulmazsa rota verimsiz kurulur." },
+            { baslik: "Rota sırasını trafik ve çalışma penceresine göre kurmak", metin: "Şehir merkezindeki trafik yoğunluğu gün içinde değişir; rota sırası, her noktanın çalışma penceresi (bazı noktalar yalnızca gece, bazıları gündüz uygun olabilir) ve iki nokta arası gerçekçi ulaşım süresi dikkate alınarak kurulur. Bir noktadaki gecikme, sonraki noktanın saatini etkileyebileceği için rota belirli bir esneklik payıyla planlanır." },
+            { baslik: "Her noktanın kendi zemin ve erişim özelliğini ayrı kaydetmek", metin: "Bir otel lobisindeki mermer zemin ile başka bir AVM'nin galeri zemini farklı koruma yöntemi isteyebilir; bir noktada dar bir servis kapısı, diğerinde geniş bir yükleme rampası olabilir. Her nokta için bu bilgiler bir kez kaydedilir ve sonraki ziyaretlerde tekrar sorulmasına gerek kalmaz; bu, rota bakımının tekrarlayan verimliliğidir." },
+            { baslik: "Aynı makineyi birden fazla noktada kullanmanın sınırını bilmek", metin: "Bazı işler için aynı makine bir noktadan diğerine taşınarak kullanılabilir, ancak her nokta arası taşıma bir süre ve maliyet gerektirir; bu nedenle günlük rota, gerçekçi bir taşıma süresiyle sınırlı sayıda nokta içerir. Çok fazla noktayı tek güne sıkıştırmak, her noktada yetersiz süre kalmasına yol açar; rota bu dengeyi gözeterek kurulur." },
+            { baslik: "Tek muhatap ile rota takvimini düzenli güncellemek", metin: "Birden fazla noktayı yöneten müşteri tarafında genellikle tek bir teknik/operasyon sorumlusu bu rotanın muhatabı olur; yeni talepler bu kişi üzerinden iletilir ve rota takvimi düzenli aralıklarla (örneğin aylık) güncellenir. Bu, dağınık iletişimi tek bir kanala toplayarak rota planlamasını basitleştirir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota planlama tablosu",
+                paragraflar: ["Tablo, birden fazla otel/AVM noktasını kapsayan rota bakımının kuruluş adımlarını gösterir."],
+                tablo: {
+                    basliklar: ["Adım", "İçerik", "Sıklık", "Sorumlu"],
+                    satirlar: [
+                        ["Talep toplama", "Her noktadan gelen küçük bakım ihtiyacı", "Sürekli/haftalık", "Nokta bazlı teknik sorumlu"],
+                        ["Liste birleştirme", "Tüm noktaların açık işleri tek listede", "Aylık gözden geçirme", "Merkezi operasyon sorumlusu"],
+                        ["Rota sıralama", "Trafik + çalışma penceresi + mesafe", "Her ziyaret öncesi", "Rota planlayıcı"],
+                        ["Nokta bazlı zemin/erişim kaydı", "Zemin türü, kapı ölçüsü, rampa", "Bir kez, güncellenir", "Saha ekibi"],
+                        ["Rota sonrası kapanış", "Tamamlanan işler + kalan liste", "Her ziyaret sonrası", "Rota planlayıcı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota sıklığı ve sözleşme modeli",
+                paragraflar: [
+                    "Rota sıklığı, noktaların bakım ihtiyacının yoğunluğuna göre belirlenir; bazı işletmelerde aylık bir rota yeterliyken, daha büyük bina portföylerinde haftalık bir rota daha uygun olabilir. Sıklık, gerçek talep hacmiyle birlikte gözden geçirilir.",
+                    "Sabit bir sözleşme modeli, tek tek acil çağrılara göre genellikle hem maliyet hem planlama açısından daha öngörülebilir bir yapı sunar; ancak bu tercih, müşterinin gerçek talep yoğunluğuna göre değerlendirilir." ],
+            },
+            {
+                baslik: "Acil talep ile rota dışı çağrı arasındaki fark",
+                paragraflar: [
+                    "Rota, planlanabilir küçük bakım işleri içindir; ancak acil bir arıza (örneğin bir güvenlik aydınlatmasının tamamen sönmesi) rota beklenmeden ayrı bir çağrı olarak değerlendirilir.",
+                    "Rota dışı acil çağrılar, düzenli rotanın verimliliğini bozmaması için ayrı bir süreçle yönetilir; hangi durumun acil sayılacağı müşteriyle baştan netleştirilir." ],
+            },
+        ],
+        sss: [
+            { soru: "Üç farklı otel noktamız var, hepsini aynı gün mü ziyaret ediyorsunuz?", cevap: "Mümkünse evet, ancak her noktanın çalışma penceresi ve aradaki gerçekçi ulaşım süresi rota planına dahil edilir; bazı noktalar yalnızca gece uygun olabileceğinden aynı güne sığmayabilir. Rota, her noktada yeterli çalışma süresi kalacak şekilde kurulur, aceleyle sıkıştırılmaz." },
+            { soru: "Her nokta için ayrı ayrı talep mi oluşturmalıyız?", cevap: "Hayır, tercihen tek bir merkezi listeye toplanır; birden fazla noktayı yöneten teknik/operasyon sorumlunuz bu listeyi düzenli aralıklarla bize iletir, biz de rotayı buna göre güncelleriz. Tek tek acil çağrı yerine bu liste yaklaşımı hem maliyeti hem koordinasyon yükünü azaltır." },
+            { soru: "Acil bir arıza çıkarsa rotayı beklemek zorunda mıyız?", cevap: "Hayır, acil arızalar rota dışı ayrı bir çağrı olarak değerlendirilir ve rota takvimi beklenmeden müdahale edilir. Hangi durumların acil sayılacağı baştan sizinle netleştirilir; bu ayrım rotanın verimliliğini bozmadan acil ihtiyacı karşılar." },
+            { soru: "Her noktanın zemin bilgisini her seferinde yeniden mi vermeliyiz?", cevap: "Hayır, her nokta için zemin türü, kapı ölçüsü, rampa gibi bilgiler bir kez kaydedilir ve sonraki ziyaretlerde tekrar sorulmaz. Bir değişiklik (tadilat, zemin yenileme) olursa bu bilginin güncellenmesi yeterlidir." },
+            { soru: "Rota sıklığını nasıl belirliyoruz?", cevap: "Noktalarınızın gerçek bakım ihtiyacı yoğunluğuna göre; bazı portföylerde aylık bir rota yeterliyken daha büyük veya daha eski bina stokunda haftalık rota daha uygun olabilir. Başlangıçta bir sıklık önerilir, gerçekleşen talep hacmiyle birlikte gözden geçirilir." },
+            { soru: "Tek muhatap kurmak zorunlu mu?", cevap: "Zorunlu değil ama önerilir; birden fazla noktadan farklı kişilerin doğrudan talep göndermesi rota planlamasını karmaşıklaştırabilir. Tek bir teknik/operasyon sorumlusunun taleplerinizi bize iletmesi, rota takviminin daha düzenli ilerlemesini sağlar." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'taki otel/AVM noktaları arası kısa şehir içi mesafeler kamuya açık coğrafi bilgidir; rota planlama süreci ve liste birleştirme yaklaşımı genel saha pratiğidir. Gerçek işletme adı, nokta sayısı veya mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Tipi Platform Kiralama — Şehir Merkezi Kapsam Notu",
+        giris:
+            "Dürüstçe belirtmek gerekir: bu domainin uzmanlığı Konak-Alsancak'ın düz, kentsel dokulu otel ve AVM zeminleridir; kırmataş, stabilize dolgu, çamurlu hafriyat sahası veya engebeli arazi gibi zor zemin koşulları, şehir merkezindeki bu profilin neredeyse hiç karşılaşmadığı bir durumdur. Kaldırım, cadde, bina içi ve otopark zeminleri genellikle beton veya asfalt kaplı, düz ve standart akülü platformun rahatça çalışabileceği yüzeylerdir. Zor zemin ihtiyacı ancak çok istisnai bir durumda ortaya çıkabilir — örneğin şehir merkezinde nadir görülen bir inşaat/hafriyat aşamasındaki bir parsel veya bina dışı bir bahçe/peyzaj alanının henüz düzenlenmemiş kısmı. Bu sayfa, bu domainin böyle bir talebi karşısındaki gerçek kapsamını açıkça ortaya koyar ve istisnai bir durumda sürecin nasıl işlediğini anlatır; büyük ölçekli arazi tipi makine ihtiyaçları için ağımızdaki inşaat/OSB odaklı diğer domainlere yönlendirme daha uygun olabilir.",
+        maddeler: [
+            { baslik: "Şehir merkezi zemininin standart profilini tanımlamak", metin: "Konak-Alsancak'taki otel/AVM zeminleri (lobi, galeri, kaldırım, otopark) neredeyse tamamen beton, asfalt veya kaplamalı düz yüzeylerdir. Standart akülü makaslı veya eklemli platform bu zeminlerde sorunsuz çalışır. Zor zemin ekipmanına (4x4 dizel arazi tipi) ihtiyaç duyulan bir durum, bu profilin dışında kalan istisnai bir vakadır." },
+            { baslik: "İstisnai bir talep gelirse zeminin gerçek durumunu değerlendirmek", metin: "Nadiren, bir bina dışı bahçe/peyzaj alanının henüz tamamlanmamış kısmı veya küçük bir inşaat aşaması hafriyat sahası gibi bir durum ortaya çıkabilir. Böyle bir talep gelirse önce zeminin gerçek türü (stabilize, kırmataş, çamur) ve eğimi değerlendirilir; bu bilgi olmadan makine sınıfı önerilmez." },
+            { baslik: "Elimizde hazır olmayabilecek makine sınıfını dürüstçe belirtmek", metin: "Arazi tipi platform sınıfı (kaba tekerlekli, dört tekerlek tahrikli, dizel) standart şehir merkezi makine parkımızdan farklıdır ve her zaman elimizde hazır olmayabilir. Böyle bir durumda tedarik süresi netleştirilir veya ağımızdaki inşaat/OSB odaklı bir domaine yönlendirme yapılır; müşteriye yanlış bir hazır bulunurluk izlenimi verilmez." },
+            { baslik: "Kapalı hacimde dizel arazi tipi makine kullanılmadığını hatırlatmak", metin: "Arazi tipi makineler genellikle dizel güç kaynağı kullanır; bu, kapalı otel/AVM iç mekânında egzoz kısıtı nedeniyle uygun değildir. Zor zemin ihtiyacı yalnızca açık dış alanlarda değerlendirilir, iç mekân işlerinde her zaman akülü/elektrikli standart makine kullanılır." },
+            { baslik: "Doğru domaine yönlendirmeyi kolaylaştırmak", metin: "Değerlendirme sonucunda bu iş için uygun makine parkına sahip olmadığımız görülürse, ağımızdaki inşaat sahası veya OSB odaklı domainlerden birine yönlendirme yapılır; bu domainler zor zemin ve arazi tipi işlerde daha geniş bir makine parkına ve deneyime sahiptir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin türüne göre kapsam tablosu",
+                paragraflar: ["Tablo, bu domainin farklı zemin türleri karşısındaki gerçek kapsamını gösterir."],
+                tablo: {
+                    basliklar: ["Zemin türü", "Şehir merkezinde sıklık", "Bu domainde makine hazırlığı", "Yaklaşım"],
+                    satirlar: [
+                        ["Beton/asfalt (kaldırım, otopark)", "Yaygın", "Standart makine hazır", "Doğrudan hizmet"],
+                        ["Mermer/seramik iç mekân", "Yaygın", "Standart makine + koruma", "Doğrudan hizmet"],
+                        ["Kaba bahçe/peyzaj alanı", "Nadir", "Kısmen değerlendirilir", "Zemin kontrolü sonrası karar"],
+                        ["Hafriyat/inşaat aşaması saha", "Çok nadir", "Genellikle hazır değil", "Yönlendirme değerlendirilir"],
+                        ["Kırmataş/stabilize dolgu", "Neredeyse yok", "Hazır değil", "İnşaat/OSB odaklı domaine yönlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu konuda temkinli konuşuyoruz",
+                paragraflar: [
+                    "Zor zemin işi, yanlış makine sınıfıyla girişildiğinde güvenlik riski taşır; devrilme veya saplanma gibi sonuçlar standart bir kentsel zemin hatasından çok daha ciddi olabilir. Bu nedenle 'her zemine uygun makine var' gibi bir izlenim vermek yerine gerçek kapsamı baştan netleştiriyoruz.",
+                    "Ağımızdaki inşaat sahası ve OSB odaklı domainler, bu tip zeminlerde düzenli çalıştığı için daha geniş bir arazi tipi makine parkına sahiptir." ],
+            },
+            {
+                baslik: "İstisnai talep sürecinde adımlar",
+                paragraflar: [
+                    "Talep formunda zeminin gerçek durumu (fotoğraf, kısa açıklama) istenir; bu bilgiyle önce bu domainin uygun olup olmadığı değerlendirilir.",
+                    "Uygunsa makine tedarik süresi netleştirilir, uygun değilse ağımızdaki ilgili domaine yönlendirme yapılır; bu süreç ek bir ücret gerektirmez." ],
+            },
+        ],
+        sss: [
+            { soru: "Otelimizin arka bahçesinde henüz düzenlenmemiş bir alan var, platform çalışabilir mi?", cevap: "Öncelikle zeminin gerçek durumu (kaba toprak mı, kısmen düzenlenmiş mi) değerlendirilir; bu bilgi olmadan makine sınıfı önerilmez. Zemin standart akülü makinenin çalışabileceği kadar sağlamsa doğrudan hizmet verilir, değilse istisnai bir değerlendirme yapılır ve gerekirse yönlendirme önerilir." },
+            { soru: "Arazi tipi dizel makineniz var mı?", cevap: "Standart makine parkımız şehir merkezi zeminlerine göre kurulu olduğu için arazi tipi dizel makine her zaman elimizde hazır olmayabilir. Böyle bir talep gelirse tedarik süresi netleştirilir veya ağımızdaki inşaat/OSB odaklı bir domaine yönlendirme yapılır; yanlış bir hazır bulunurluk izlenimi vermeyiz." },
+            { soru: "İç mekânda arazi tipi dizel makine kullanabilir misiniz?", cevap: "Hayır, dizel güç kaynağı kapalı hacimde egzoz kısıtı nedeniyle kullanılmaz. Zor zemin ihtiyacı yalnızca açık dış alanlarda değerlendirilir; iç mekân işlerinde her zaman akülü/elektrikli standart makine kullanılır." },
+            { soru: "Bu iş için başka bir domaininizi mi önerirsiniz?", cevap: "Zemin gerçekten zorsa (kırmataş, stabilize dolgu, hafriyat aşaması) evet, ağımızdaki inşaat sahası veya OSB odaklı domainler bu tür zeminlerde daha geniş bir makine parkına ve deneyime sahiptir. Değerlendirme sonrası bu yönlendirmeyi açıkça yaparız." },
+            { soru: "Neden 'her zemine uygunuz' demiyorsunuz?", cevap: "Çünkü bu doğru değil ve güvenlik riski taşıyabilir; yanlış makine sınıfıyla zor zeminde çalışmak devrilme veya saplanma riski doğurabilir. Gerçek kapsamımızı (düz kentsel zemin) baştan netleştirmek, hem güvenlik hem doğru beklenti açısından daha sağlıklıdır." },
+            { soru: "İstisnai bir talep için hangi bilgiyi vermeliyiz?", cevap: "Zeminin fotoğrafı ve kısa bir açıklama (ne kadar düz/eğimli, kaplama var mı, ıslak mı) yeterli bir başlangıçtır. Bu bilgiyle önce bu domainin uygun olup olmadığı değerlendirilir, sonrasında tedarik süresi veya yönlendirme netleştirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Konak-Alsancak'ın beton/asfalt ağırlıklı kentsel zemin dokusu kamuya açık genel bilgidir; bu domainde zor zemin/arazi tipi talep sıklığının düşük olduğu ve makine parkının şehir merkezi profiline göre kurulu olduğu dürüstçe belirtilmiştir. Sahte kapasite veya hazır bulunurluk iddia edilmemiştir.",
+    },
 };

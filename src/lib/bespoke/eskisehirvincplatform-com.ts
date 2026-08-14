@@ -1310,4 +1310,1091 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Günyüzü’nün uzak kırsal hat bağlamı görev belgesindeki genel çerçevedir; yakıt-servis öz yeterliği, günlük kontrol, elektriksel teslim, park ve rota kaydı sektör geneli saha uygulamasıdır. Özel tesis, mesafe, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Direk Üstü İşler için Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Kırsal bir enerji ya da aydınlatma hattında sepetli platformun görevi neredeyse hep aynıdır: bir direğin tepesine, bir konsola ya da bir izolatöre çıkmak ve orada elini kullanabilecek kadar sabit durmak. Bunun için gerekli olan şey büyük bir sepet değil, doğru konumlanabilen bir sepettir. Araç üstü sepetli platform, hat boyunca kendi tekerlekleriyle ilerleyip direğin dibine yanaşan ve destek ayaklarını açarak dengesini kuran ana ekipmanımızdır; ilçe ve köy yollarında, banket kenarında, tarla girişinde günün büyük bölümü bu makineyle geçer. Ancak her direk yol kenarında durmaz. Avlu içine sıkışmış bir trafo, dar bir bahçe kapısından geçilmesi gereken bir bina girişi aydınlatması ya da araç sokamayacağımız bir köy içi geçit için katlanır gövdeli, kompakt bir örümcek platform devreye girer. İki makine de aynı işi yapar — personeli direğin tepesine güvenli biçimde ulaştırır — ama erişim biçimleri taban tabana zıttır. Bu sayfa, kırsal hat işlerinde hangi durumda hangisinin seçildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Araç üstü sepet ile örümcek arasındaki gerçek fark",
+                metin:
+                    "Araç üstü sepetli platform, bir taşıt şasesi üzerine kurulmuştur ve hat boyu hız onun en büyük gücüdür; bir direkten ötekine dakikalar içinde geçer. Örümcek platform ise katlanır kollarla çalışan, kendi paletiyle ya da elle taşınabilen kompakt bir sistemdir; hız değil, dar yere sığmak için tasarlanmıştır. Kırsal hatlarda ikisi rakip değil, tamamlayıcıdır: güzergâhın açık kesimlerinde araç üstü platform gider, avlu içi trafo ya da bina girişi gibi dar noktalarda örümcek devreye girer. Bir güzergâh programında ikisinin birlikte planlandığı günler nadir değildir.",
+            },
+            {
+                baslik: "Avlu içi trafo ve kapalı alan girişleri",
+                metin:
+                    "Köy içindeki bir trafo binası ya da dar bir avluya sıkışmış bir dağıtım panosu, araç üstü platformun destek ayaklarını açacak boşluğu vermez. Bu noktalarda örümcek platform katlı hâlde kapıdan ya da dar geçitten içeri alınır, hedefin yakınında yeniden açılır. Trafo çevresinde çalışırken yaklaşma mesafesi kuralı aynı sıkılıkla uygulanır; makinenin küçük olması enerjili bölüme yaklaşma sınırını değiştirmez.",
+            },
+            {
+                baslik: "Köy içi dar sokak ve bahçe geçitleri",
+                metin:
+                    "Bazı köy içi aydınlatma direkleri, aracın giremeyeceği kadar dar bir sokakta ya da bir bahçe duvarının arkasında durur. Bu durumda iki seçenek değerlendirilir: aracı sokağın girişine park edip bomun yatay uzanmasıyla hedefe ulaşmak, ya da mesafe yetmiyorsa örümcek platformu elle taşıyıp içeri sokmak. Karar, sahadaki ölçüme bağlıdır; sokağın genişliği ve direğe olan mesafe önceden bilinirse doğru makine baştan belirlenir.",
+            },
+            {
+                baslik: "Sepet kapasitesi ve hat malzemesi taşıma sınırı",
+                metin:
+                    "Örümcek platformun sepet kapasitesi, araç üstü platforma göre daha düşüktür; bu, katlanır tasarımın doğal sonucudur. Konsol, izolatör ya da armatür gibi hafif hat malzemeleri sepette taşınabilir, ancak ağır bir traversa ya da kablo makarası söz konusuysa bu malzeme ayrı bir yöntemle sahaya alınır ve örümcek yalnızca personelin erişimini sağlar. Bu ayrımı iş kapsamı netleşmeden söylemeyiz; keşifte malzemenin ağırlığı sorulur.",
+            },
+            {
+                baslik: "İki makineyi aynı güne yerleştirmek",
+                metin:
+                    "Bir güzergâh programında hem açık hat kesimleri hem dar avlu girişleri varsa, iki makineyi aynı güne, aynı ekiple planlıyoruz. Araç üstü platform güzergâhın büyük bölümünü kapatırken, örümcek dar noktalar için araçta hazır taşınır. Bu, ayrı bir sevkiyat gerektirmeden iki erişim tipini tek programda birleştirir ve özellikle köy içi işlerin yoğun olduğu günlerde zaman kazandırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi noktada hangi makine",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal hat ve aydınlatma işlerinde iki makine arasındaki seçimi hangi ölçütlerin belirlediğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçüt", "Araç üstü sepetli platform", "Örümcek platform"],
+                    satirlar: [
+                        ["Erişim biçimi", "Kendi tekerleğiyle hat boyu ilerler", "Katlanır, elle/paletle taşınır"],
+                        ["Tipik hedef", "Yol/banket kenarı direk", "Avlu içi trafo, dar sokak, bina girişi"],
+                        ["Hız", "Direkler arası hızlı geçiş", "Kurulum-açılış zaman alır"],
+                        ["Sepet kapasitesi", "Hat malzemesi taşımaya elverir", "Nokta iş için sınırlı"],
+                        ["Zemin", "Destek ayağı için sağlam zemin ister", "Paletli modelde düzensiz zeminde de ilerler"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte sorduğumuz ölçüler",
+                paragraflar: [
+                    "Bir hedefin araç üstü platformla mı yoksa örümcekle mi ele alınacağını sahaya gitmeden belirlemek için üç bilgi yeterli olur: hedefin yol kenarına mı yoksa avlu/bahçe içine mi düştüğü, aracın park edebileceği en yakın noktadan hedefe olan mesafe ve varsa geçitin genişliği. Bu üçü fotoğrafla paylaşıldığında, güzergâh programına doğru makineyle çıkıyoruz.",
+                    "Belirsiz kalan noktalar için güzergâh üzerinde kısa bir ön geçiş yapılabilir; bu, özellikle ilk kez çalışılan bir köy ya da hat kolunda programın gün içinde aksamasını önler.",
+                ],
+            },
+            {
+                baslik: "Taşıma ve kurulum sırasında güvenlik",
+                paragraflar: [
+                    "Örümcek platform dar bir geçitten elle taşınırken makinenin ağırlık merkezi ve taşıyan personelin duruşu önceden değerlendirilir. Kurulum sırasında kolların açılma yarıçapı boş tutulur ve bu alanda kimse beklemez. Trafo ya da pano yakınında çalışılıyorsa, makinenin küçüklüğü yaklaşma mesafesi kuralını değiştirmez; enerjili bölüme uzaklık aynı titizlikle korunur.",
+                    "Araç üstü platformda ise destek ayaklarının bastığı zemin her kurulumda yeniden değerlendirilir; iki makine arasında geçiş yapılan günlerde bu kontrol atlanmadan tekrarlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Köy içindeki trafo binamıza araç üstü platform sığmıyor, ne yapıyorsunuz?",
+                cevap:
+                    "Bu durumda örümcek platform devreye girer. Katlı hâldeyken dar bir kapı ya da avlu girişinden geçirilir, trafonun yakınında yeniden açılır. Karar vermeden önce kapı-geçit genişliğini ve trafodan geçite olan mesafeyi soruyoruz; bu iki ölçü, doğru makinenin sahaya gelmeden belirlenmesini sağlıyor. Trafo çevresinde çalışırken yaklaşma mesafesi kuralı, makinenin küçük olmasına bakılmaksızın aynı şekilde uygulanıyor; enerjili bölüme yaklaşım hattan sorumlu personelin onayı olmadan yapılmıyor.",
+            },
+            {
+                soru: "Örümcek platform güzergâh boyu iş için de kullanılabilir mi?",
+                cevap:
+                    "Teknik olarak kullanılabilir ama önerimiz değil. Örümceğin gücü dar bir noktaya sığmakta, araç üstü platformun gücü ise direkten direğe hızla geçmekte. Uzun bir güzergâhı örümcekle kat etmeye çalışmak, her durakta katlama-açma süresi eklediği için günü ciddi ölçüde uzatır. Bu yüzden güzergâh programlarında örümceği yalnızca aracın giremediği tekil noktalar için ayırıyor, geri kalanını araç üstü platforma bırakıyoruz. İkisi aynı gün, aynı ekiple sahada olabilir.",
+            },
+            {
+                soru: "Örümcek platformla direk üstü konsol ya da izolatör taşınabilir mi?",
+                cevap:
+                    "Hafif malzemede evet, ağır malzemede sınırlı. Sepet kapasitesi araç üstü platforma göre daha düşük olduğu için bir izolatör ya da küçük konsol sepette taşınabilir; ağır bir traversa ya da kablo makarası söz konusuysa bu malzemenin ayrı bir yöntemle sahaya alınması gerekir ve örümcek yalnızca personelin direğe erişimini sağlar. Malzemenin ağırlığını keşif aşamasında sorup bu ayrımı baştan netleştiriyoruz; sahada sürpriz yaşanmasını istemiyoruz.",
+            },
+            {
+                soru: "İki makineyi de aynı gün getirtmek ek maliyet doğurur mu?",
+                cevap:
+                    "Genellikle hayır, çünkü ikisi zaten aynı güzergâh programına yerleştiriliyor ve tek sevkiyatla sahaya geliyor. Araç üstü platform güzergâhın açık kesimlerini kapatırken örümcek dar noktalar için araçta hazır taşınıyor. Ayrı bir gün ya da ayrı bir nakliye gerekmediği için, iki makineyi birlikte planlamak tek makineyle iki kez sahaya gelmekten daha ekonomik çıkıyor. Programı hazırlarken hangi noktaların dar olduğunu önceden bilmemiz, bu birleşik planı kurmamızı sağlıyor.",
+            },
+            {
+                soru: "Örümcek platform toprak ya da moloz zeminde çalışır mı?",
+                cevap:
+                    "Paletli modellerde evet. Palet, tekerleğin batabileceği yumuşak ya da düzensiz zeminde yüzey basıncını dağıtarak ilerler; bu, köy içi toprak avlularda ya da inşaat kalıntısı bulunan sahalarda fark yaratır. Zeminin çok yumuşak ya da bataklık kıvamında olduğu nadir durumlarda platform dışı bir yöntem konuşulur; bunu keşifte dürüstçe söylüyoruz. Zemin fotoğrafı paylaşıldığında uygunluğu sahaya gitmeden değerlendirebiliyoruz.",
+            },
+            {
+                soru: "Hangi makinenin geleceğine kim karar veriyor?",
+                cevap:
+                    "Karar, sahanın fiziksel ölçüsüne göre birlikte veriliyor. Bize hedefin yol kenarında mı yoksa avlu/bahçe içinde mi olduğunu, varsa geçit genişliğini ve aracın park edebileceği en yakın noktadan hedefe mesafeyi söylemeniz yeterli. Bu bilgiler net değilse ya da ilk kez çalışılan bir köyse, güzergâh üzerinde kısa bir ön değerlendirme yapılması önerilir. Amacımız sahaya yanlış makineyle gidip günü kaybetmemek; bu yüzden ölçüm aşamasını atlamıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Araç üstü sepetli platform ile örümcek/eklemli platform arasındaki erişim, kapasite ve zemin farkları EN 280 kapsamındaki genel makine tanımlarına dayanır; kırsal hat ve köy içi erişim senaryoları saha pratiğinden alınmıştır. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Kırsal Hatlara Sepetli Platform ve Vinç Nakliyesi",
+        giris:
+            "Kırsal bir enerji ya da aydınlatma işinde nakliye, işin bir yan kalemi değil, programın kendisidir. Şehir içi bir şantiyeye makine göndermek ile bir hat güzergâhının ortasındaki bir direğe makine ulaştırmak aynı mesele değildir; ikincisinde varış noktası sabit bir adres değil, yol üzerindeki bir koordinattır ve o koordinata giden yolun durumu çoğu zaman önceden tam bilinmez. Bu yüzden nakliye planlamasını iş listesinden ayrı ele almıyoruz — güzergâhı, hangi kesimlerin asfalt hangi kesimlerin toprak yol olduğunu, tarlaya sapılan noktaları ve varsa vinç gerektiren ağır kalemleri birlikte değerlendirip tek bir sevkiyat programına oturtuyoruz. Araç üstü sepetli platform kendi tekerlekleriyle güzergâhı kat ettiği için ayrı bir taşıyıcıya ihtiyaç duymaz; buna karşılık vinç gibi daha büyük ekipmanın sahaya girişi, yükleme noktası ve zemin taşıma gücü önceden konuşulması gereken ayrı bir konudur. Bu sayfa, kırsal hat işlerinde teslimatı hızlı ve güvenli tutan pratik kuralları anlatır.",
+        maddeler: [
+            {
+                baslik: "Araç üstü platformun kendi kendine ulaşım avantajı",
+                metin:
+                    "Sepetli platformun taşıt şasesi üzerine kurulu olması, ayrı bir taşıyıcı gerektirmeden doğrudan sahaya sürülebilmesi anlamına gelir. Bu, kırsal hatlarda büyük bir zaman kazancıdır: bir direkten ötekine geçiş de, üsten sahaya ulaşım da aynı araçla yapılır. Buna karşılık bu avantaj yol yüzeyine bağlıdır; asfalt ve sıkışmış stabilize üzerinde sorunsuz ilerlerken ıslak toprak ya da derin çamurda aracın kendi gücüyle ilerlemesi güçleşir. Güzergâh planlanırken bu nedenle hangi kesimlerin kuru, hangilerinin riskli olduğu önceden soruluyor.",
+            },
+            {
+                baslik: "Vinç için yükleme noktası ve zemin taşıma gücü",
+                metin:
+                    "Vinç gerektiren bir direk dikimi ya da ağır malzeme taşıma işinde, aracın sahaya girip çalışacağı nokta ile o noktanın taşıma gücü teslimattan önce netleşmelidir. Bir tarla kenarına ya da banket üzerine konumlanacak vinç için zemin yumuşaksa yük dağıtıcı takoz kullanılır; bu takozun taşınması ve yerleştirilmesi teslimat programının bir parçasıdır. Yükleme noktasının önceden bilinmemesi, sahada makul olmayan bir sürede konum arayışına ve programın gecikmesine yol açar.",
+            },
+            {
+                baslik: "Toprak yol ve tarla erişiminde teslimat zamanlaması",
+                metin:
+                    "Kırsal güzergâhların önemli bir bölümü toprak yol ya da tarla kenarından geçer ve bu yüzeylerin durumu mevsime göre değişir. Yağış sonrası yumuşamış bir geçit, teslimatı erteletebilecek en yaygın nedendir. Programı kurarken güzergâhı kuru kesimlerden başlatıp riskli bölümleri günün ya da haftanın uygun bir zamanına bırakıyoruz; acil olmayan işlerde bu esneklik, gecikmeyi baştan önlüyor.",
+            },
+            {
+                baslik: "Malzeme ve ekip koordinasyonu",
+                metin:
+                    "Hat üzerindeki bir çalışmada değişecek malzeme (armatür, izolatör, konsol) genellikle işi yaptıran tarafça sahaya getirilir ya da bizim aracımızla birlikte taşınır. Hangi tarafın hangi malzemeyi getireceği teslimattan önce netleşmezse, araç direğin dibine vardığında malzeme beklemesi başlar ve bu, günün en çok zaman kaybettiren anıdır. Bu yüzden teslimat planında malzeme sorumluluğu ayrı bir madde olarak yer alır.",
+            },
+            {
+                baslik: "Çoklu köy ve tekil sevkiyatın birleştirilmesi",
+                metin:
+                    "Birden çok köyde dağınık iş kalemleri varsa, bunları tek bir sevkiyat programına toplamak nakliye maliyetini belirgin düşürür. Araç zaten bölgede olduğu için, aynı güne yerleştirilen ek bir iş için ayrı bir teslimat gerekmez. Bu birleştirme, özellikle küçük ölçekli işlerde tek başına sevkiyat yaptırmanın oransal olarak pahalı kaldığı durumlarda tercih ediliyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ekipman tipine göre teslimat şekli",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal hat işlerinde kullanılan ekipmanın sahaya nasıl ulaştığını ve teslimat öncesi hangi bilginin gerektiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ekipman", "Ulaşım şekli", "Öncesinde gereken bilgi", "Tipik kısıt"],
+                    satirlar: [
+                        ["Araç üstü sepetli platform", "Kendi tekerleğiyle güzergâh boyu", "Yol yüzeyi durumu", "Islak toprak, derin çamur"],
+                        ["Vinç", "Kendi gücüyle veya taşıyıcıyla", "Yükleme noktası ve zemin taşıma gücü", "Yumuşak zemin, dar giriş"],
+                        ["Örümcek/kompakt platform", "Elle veya küçük araçla taşınır", "Geçit genişliği", "Taşıma mesafesi"],
+                        ["Hat malzemesi", "İşi yaptıran taraf ya da bizim araçla", "Sorumluluk paylaşımı", "Teslimat zamanlaması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teslimat öncesi paylaşılması gereken üç bilgi",
+                paragraflar: [
+                    "Bir hat işine teslimat planlarken üç bilgiyi netleştirmeye çalışıyoruz: güzergâhın hangi kesimlerinin asfalt, hangilerinin toprak yol olduğu; vinç gerekiyorsa yükleme noktasının zemin durumu; ve değişecek malzemenin kim tarafından sahaya getirileceği. Bu üçü teslimattan önce bilinirse, araç sahaya vardığında bekleme olmadan işe başlanır.",
+                    "Bu bilgilerin eksik geldiği durumlarda dahi teslimatı reddetmiyoruz; ancak sahada geçen ilk süre bu belirsizliklerin çözümüne gidiyor ve bu, günlük hedefi düşürüyor. Bu yüzden mümkün olduğunca fotoğraf ve kısa bir güzergâh tarifiyle önceden paylaşılmasını öneriyoruz.",
+                ],
+            },
+            {
+                baslik: "Hava koşulu ve alternatif gün planı",
+                paragraflar: [
+                    "Kırsal teslimatlarda hava koşulu, şehir içi işlere göre çok daha belirleyicidir. Yoğun yağış sonrası bir toprak yolun kaç gün içinde tekrar geçilebilir hâle geleceği kesin söylenemez; bu yüzden riskli güzergâhlarda program esnek tutulur ve gerekirse alternatif bir gün belirlenir. Makine sahaya ulaşmadan önce iptal edilen bir sevkiyat, yarım kalmış bir işten çok daha az maliyetlidir.",
+                    "Uzun süren saha işlerinde ekipman genellikle bölgede kalır ve yalnızca kullanım süresi işler; bu, hava koşulu nedeniyle oluşan gecikmelerde ikinci bir sevkiyat bedelinin doğmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Toprak yoldan geçen bir hatta teslimat yapabiliyor musunuz?",
+                cevap:
+                    "Yapabiliyoruz, ancak yolun anlık durumuna bağlı. Kuru ve sıkışmış toprak yolda araç üstü platform sorunsuz ilerler; yağış sonrası yumuşamış geçitlerde ise batma ve kayma riski doğar. Teslimattan önce güzergâhın son durumunu soruyoruz ve riskli görünen kesimler için ya alternatif bir park noktası ya da farklı bir gün öneriyoruz. Sahaya vardıktan sonra yolun geçilemez olduğunu fark etmek, hem zaman hem güvenlik açısından en kötü senaryo; bu yüzden önden bilgi almayı önemsiyoruz.",
+            },
+            {
+                soru: "Vinç için yükleme noktasını biz mi belirliyoruz, siz mi?",
+                cevap:
+                    "Bu, birlikte yapılan bir değerlendirme. Sizden hedefin nerede olduğunu ve o noktaya en yakın erişimin nereden sağlanabildiğini öğreniyoruz; biz de o noktanın vincin destek ayaklarını taşıyacak sağlamlıkta olup olmadığını değerlendiriyoruz. Zemin yumuşaksa yük dağıtıcı takoz kullanılır ya da park noktası kaydırılır. Bu değerlendirmeyi mümkünse sahaya gitmeden fotoğraf üzerinden, gerekirse kısa bir ön ziyaretle yapıyoruz; teslimat günü bu konuşmanın sahada baştan yapılmasını istemiyoruz.",
+            },
+            {
+                soru: "Malzemeyi biz mi getireceğiz, siz mi taşıyacaksınız?",
+                cevap:
+                    "İkisi de mümkün, ama önceden netleşmesi gereken bir konu. Küçük hacimli malzeme (izolatör, konsol, armatür) genellikle bizim aracımızla birlikte taşınabilir; büyük hacimli ya da özel tedarik gerektiren malzeme çoğunlukla işi yaptıran tarafça sahaya getirilir. Hangi seçeneğin uygulanacağını teslimat programı hazırlanırken konuşuyoruz, çünkü bu bilgi eksik kaldığında araç direğin dibinde malzeme beklerken program aksıyor. Net bir sorumluluk paylaşımı, günün en çok zaman kazandıran adımı.",
+            },
+            {
+                soru: "Birden çok köyde dağınık işlerimiz var; tek seferde hepsini kapatabilir misiniz?",
+                cevap:
+                    "Çoğunlukla evet, bu bizim de tercih ettiğimiz yöntem. Dağınık işleri tek bir güzergâh programına topladığımızda araç zaten bölgede olduğu için ek bir sevkiyat gerekmiyor; köyler arasında geri dönüş gerektirmeyecek bir sırayla ilerliyoruz. Listenizi köy ve iş tipi bilgisiyle paylaşırsanız gerçekçi bir gün sayısı çıkarıyoruz. Sığmayacağını görürsek bunu baştan söylüyoruz; yarım kalan bir program yeni bir sevkiyat demek, bu da hem sizin hem bizim için ekonomik değil.",
+            },
+            {
+                soru: "Hava durumu nedeniyle teslimat ertelenirse ek ücret çıkar mı?",
+                cevap:
+                    "Sahaya çıkılmadan önce alınan bir erteleme kararında ek maliyet doğmuyor; asıl amacımız makineyi geçilemez bir yola göndermemek. Buna karşılık makine sahaya ulaştıktan sonra hava koşulu nedeniyle iş yarım kalırsa, kalan kısım için ikinci bir sevkiyat gerekebilir. Bu farkı baştan netleştirmek için riskli görünen güzergâhlarda teslimat gününü mümkün olan en güncel hava bilgisiyle birlikte belirliyoruz ve gerektiğinde alternatif bir gün öneriyoruz.",
+            },
+            {
+                soru: "Aynı gün içinde farklı köylere uğrayabiliyor musunuz?",
+                cevap:
+                    "Uğrayabiliyoruz ve bu, kırsal programların standart işleyişi. Araç üstü platform kendi tekerlekleriyle noktadan noktaya geçtiği için, aynı gün içinde birden fazla köyde iş yapmak ek nakliye doğurmuyor. Sıralamayı güzergâhın coğrafyasına göre biz kuruyoruz; geri dönüş gerektirmeyen bir halka çizmek, günün verimini doğrudan artırıyor. Sizden istediğimiz tek şey, hangi köylerde ne tür işler olduğunu ve varsa aciliyet sırasını önceden bildirmeniz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kırsal güzergâhlarda yol yüzeyi, mevsim ve zemin taşıma gücüne bağlı teslimat kısıtları saha pratiğinden gelir; vinç yükleme noktası değerlendirmesi genel iş güvenliği pratiğidir. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Hat Malzemesi ve Direk Taşımada Forklift Desteği",
+        giris:
+            "Kırsal enerji ve aydınlatma işlerinde ana ekipman sepetli platform ve vinç olsa da, sahada bunlardan önce çözülmesi gereken bir mesele vardır: malzemenin depodan çıkıp güzergâh üzerindeki doğru noktaya, doğru sırayla ulaşması. Direkler, konsollar, izolatörler ve kablo makaraları genellikle bir yükleme alanında toplu hâlde bekler ve buradan araçlara aktarılması, elle kaldırılamayacak ağırlıktaki parçalar söz konusu olduğunda forklift gerektirir. İkinci kullanım alanı, güzergâh üzerindeki geçici depolama noktalarıdır — bir güzergâh birkaç gün sürecekse, o günün malzemesi sahada bir noktada istiflenir ve ihtiyaç oldukça alınır. Forkliftin kırsal hat işindeki rolü bu nedenle vinç ya da sepetli platformla rekabet etmez; onların işini besleyen bir hazırlık makinesidir. Bu sayfa, forkliftin hangi aşamada devreye girdiğini ve zemin koşullarına göre nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Yükleme alanından güzergâha malzeme aktarımı",
+                metin:
+                    "Bir güzergâh işine başlamadan önce direk, konsol, izolatör ve kablo gibi malzemeler genellikle tek bir noktada toplanır. Bu noktadan araçlara yükleme, forkliftin en sık kullanıldığı aşamadır; özellikle betonarme direk gibi ağır ve hacimli parçalarda elle taşıma söz konusu bile değildir. Yükleme sırasının güzergâh sırasıyla eşleşmesi önemlidir — ilk kullanılacak malzeme en erişilebilir noktaya konur, böylece sahada arama kaybı yaşanmaz.",
+            },
+            {
+                baslik: "Güzergâh üzerinde geçici istifleme",
+                metin:
+                    "Birkaç gün sürecek bir hat programında, o günün malzemesi güzergâh üzerindeki uygun bir noktada geçici olarak istiflenir. Bu istifleme sırasında forklift, malzemeyi aracın erişim alanına yakın ama çalışma bölgesinin dışında bir düzende bırakır. Düzenin amacı, hem trafik akışını engellememek hem de sepetli platform ya da vinç çalışırken malzeme yığınının güvenli mesafede kalmasını sağlamaktır.",
+            },
+            {
+                baslik: "Zemin taşıma gücü ve forkliftin sınırı",
+                metin:
+                    "Forklift, sepetli platform gibi destek ayaklarıyla değil doğrudan tekerlekleriyle yük taşır ve bu, zemine olan hassasiyetini artırır. Yumuşak toprak, çamur ya da düzensiz stabilize yüzeyde forklift hem batma hem devrilme riskiyle karşı karşıya kalır. Bu yüzden forklift kullanılacak alanlar önceden değerlendirilir; sert ve düzgün olmayan bir zeminde ya araç sabit bir noktaya yaklaştırılır ya da malzeme daha kısa mesafelerde elle yönlendirilir.",
+            },
+            {
+                baslik: "Direk taşıma ve devirme öncesi konumlandırma",
+                metin:
+                    "Yeni bir direk dikilecekse, direğin vinçle kaldırılmadan önce doğru konuma getirilmesi gerekir; bu ön konumlandırma çoğunlukla forkliftle yapılır. Direk, vincin kaldırma yarıçapı içinde ve doğru yönde bırakılır, böylece vinç devreye girdiğinde ek bir manevra kaybı yaşanmaz. Bu iki makinenin sırayla, aynı sahada çalışması, dikim gününün akışını doğrudan hızlandırır.",
+            },
+            {
+                baslik: "Küçük ölçekli işlerde forkliftin gerekliliği",
+                metin:
+                    "Her hat işi forklift gerektirmez; tek bir armatür değişimi ya da bir konsol onarımı gibi hafif malzemeli işlerde forklift sahaya çağrılmaz, malzeme elle taşınır. Forkliftin devreye girmesi genellikle direk dikimi, direk değişimi ya da toplu malzeme sevkiyatı gibi hacimli işlerde söz konusu olur. Bu ayrımı iş kapsamı netleşmeden yapmıyoruz; keşifte malzeme miktarı ve ağırlığı sorulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre forklift ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal hat işlerinde forkliftin hangi aşamada gerekli olduğunu ve hangi işlerde gerekmediğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Forklift gerekir mi", "Rolü", "Zemin şartı"],
+                    satirlar: [
+                        ["Yeni direk dikimi", "Evet", "Direği vinç öncesi konumlandırma", "Sert, düz zemin"],
+                        ["Toplu malzeme sevkiyatı", "Evet", "Yükleme alanından araca aktarım", "Yükleme alanı zemini"],
+                        ["Armatür/konsol değişimi", "Hayır", "—", "—"],
+                        ["Çok günlük güzergâh programı", "Duruma göre", "Geçici istifleme", "Güzergâh üzeri düz nokta"],
+                        ["Acil tekil arıza", "Hayır", "—", "—"],
+                    ],
+                },
+            },
+            {
+                baslik: "Malzeme sırasını güzergâh sırasıyla eşlemek",
+                paragraflar: [
+                    "Bir çok günlük güzergâh programında malzeme yükleme sırası, güzergâhın gidiş sırasıyla eşleşmezse, sahada gereksiz arama ve yeniden düzenleme kaybı yaşanır. Bu yüzden yükleme öncesi güzergâh listesini forklift operatörüyle paylaşıyor, ilk kullanılacak malzemeyi en erişilebilir noktaya koyduruyoruz.",
+                    "Bu küçük planlama adımı, özellikle çok sayıda direk ve farklı malzeme tipi içeren programlarda günün akışını belirgin şekilde hızlandırıyor; malzeme aramak için harcanan süre, işin kendisinden uzun sürebiliyor.",
+                ],
+            },
+            {
+                baslik: "Forklift ve vinç/sepetli platformun sahada birlikte çalışması",
+                paragraflar: [
+                    "Direk dikimi gibi işlerde forklift, vinç ve sepetli platform aynı sahada, farklı zamanlarda devreye girer. Forklift direği konumlandırır, vinç kaldırıp diker, sepetli platform tepe donanımını bağlar. Bu sıralama sırasında her makinenin çalışma alanı net tutulur; forklift manevra yaparken vinç ve sepetin çalışma alanına girmez, aynı şekilde vinç yük kaldırırken forklift sahada beklemez.",
+                    "Bu üç makinenin koordinasyonu, iş öncesi kısa bir saha görüşmesiyle netleştirilir; kimin ne zaman hangi alanda olacağı önceden belirlenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tek bir direk dikimi için forklift gerekir mi?",
+                cevap:
+                    "Genellikle evet, çünkü betonarme ya da ağır direk elle konumlandırılamaz. Forklift, direği vincin kaldırma yarıçapı içine doğru yönde taşır; bu ön adım olmadan vinç sahaya vardığında ek bir manevra kaybı yaşanır. Direğin ağırlığı ve sahadaki mesafe küçükse bazen bu adım vinç tarafından da yapılabilir, ancak bu genellikle daha yavaş bir yöntemdir. Kararı, direğin ağırlığı ve saha düzenine göre keşifte veriyoruz.",
+            },
+            {
+                soru: "Toprak zeminde forklift çalışabilir mi?",
+                cevap:
+                    "Kuru ve sıkışmış zeminde çalışabilir, ancak yumuşak toprak ya da çamurda hem batma hem devrilme riski doğar. Forklift, sepetli platformun aksine destek ayaklarıyla değil doğrudan tekerlekleriyle yük taşıdığı için zemine daha hassastır. Riskli bir zeminde forklift kullanılacak alan önceden değerlendirilir; gerekirse malzeme daha kısa mesafede ve elle yönlendirilir ya da forklift sabit, sert bir noktaya konumlandırılıp malzeme oradan taşınır.",
+            },
+            {
+                soru: "Çok günlük bir güzergâh programında malzeme nasıl istifleniyor?",
+                cevap:
+                    "Günlük ihtiyaç kadar malzeme, güzergâh üzerindeki uygun bir noktada geçici olarak istiflenir ve forklift bu istiflemeyi düzenli bir sırada yapar. Amaç hem trafik akışını hem de sepetli platform ya da vinç çalışırken güvenli mesafeyi korumaktır. Malzeme sırasını güzergâh gidiş sırasıyla eşlediğimizde, sahada arama kaybı yaşanmıyor ve gün daha verimli geçiyor.",
+            },
+            {
+                soru: "Küçük bir armatür değişimi için de forklift çağırmalı mıyız?",
+                cevap:
+                    "Hayır, gerekmiyor. Armatür, konsol onarımı gibi hafif malzemeli işlerde malzeme elle taşınır ve forklift sahaya çağrılmaz. Forklift genellikle direk dikimi, direk değişimi ya da toplu malzeme sevkiyatı gibi hacimli işlerde devreye giriyor. İşin kapsamını keşifte netleştirip yalnızca gerçekten ihtiyaç olan makineyi planlıyoruz; gereksiz ekipman sahaya göndermek maliyeti artırır.",
+            },
+            {
+                soru: "Forklift, vinç ve sepetli platform aynı gün sahada olabilir mi?",
+                cevap:
+                    "Olabilir ve direk dikimi gibi işlerde bu zaten standart kurgu. Forklift direği konumlandırır, vinç kaldırıp diker, sepetli platform tepe donanımını bağlar; üçü farklı zamanlarda devreye girer ve çalışma alanları birbirine karışmaz. Bu koordinasyonu iş öncesi kısa bir saha görüşmesiyle netleştiriyoruz; hangi makinenin ne zaman hangi bölgede olacağı önceden belirleniyor, böylece sahada bekleme ya da çakışma yaşanmıyor.",
+            },
+            {
+                soru: "Forklift operatörü bizim ekipten mi olmalı?",
+                cevap:
+                    "Hayır, forklift operatörümüz kendi ekibimizden gelir ve makinenin güvenli kullanımından o sorumludur. Sizden beklediğimiz, malzeme listesini ve güzergâh sırasını önceden paylaşmanızdır; bu bilgi, yükleme sırasının doğru kurulmasını sağlar. Elektriksel işe dair kararlar yine hattan sorumlu kendi ekibinizde kalır, forklift bu kararların dışında yalnızca malzeme lojistiğiyle ilgilenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forkliftin hat malzemesi lojistiğindeki rolü ve zemin taşıma gücüne bağlı kısıtlar sektör geneli saha pratiğidir. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Yandan Erişim Gereken Direk ve Konsol İşlerinde Eklemli Platform",
+        giris:
+            "Araç üstü sepetli platform çoğu direk işini dikey yaklaşımla çözer: aracı direğin dibine yanaştırır, bomu düz yukarı kaldırır. Ama kırsalda her direk bu kadar kolay değildir. Bir menfezin, bir hendeğin ya da bir tarla setinin arkasındaki direğe dibine kadar araçla gidilemiyorsa, gereken şey dikey değil yatay ve eğik erişimdir — eklemli bom bu durumun cevabıdır. Eklemli platform, düz bir bom yerine art arda dönebilen kollarla çalışır; bir engelin üzerinden geçip aşağıya, yanına ya da geriye doğru uzanabilir. Kırsal hatlarda bu özellik, aracın park edebileceği en yakın sağlam noktadan hedefe bir 'yol' çizmek gibi düşünülebilir — düz bir çizgi değil, engebeyi dolanan bir eğri. Bu sayfa, eklemli bomun kırsal hat işlerinde ne zaman devreye girdiğini ve düz teleskopik bomdan farkını anlatır.",
+        maddeler: [
+            {
+                baslik: "Engel üzerinden erişim: hendek, set, menfez",
+                metin:
+                    "Bir direğin dibi ile aracın park edebileceği en yakın sağlam nokta arasında bir hendek, bir set ya da bir menfez varsa, düz bir bom bu engeli aşamaz; kolun mutlaka önce yukarı, sonra engelin üzerinden aşağı ya da yana dönmesi gerekir. Eklemli platform tam bu hareketi yapar. Kırsal güzergâhlarda hendek kenarındaki direkler ve tarla girişine yakın setler, eklemli bomun en sık kullanıldığı senaryolardır.",
+            },
+            {
+                baslik: "Ağaç ve dal engeli olan direklerde manevra",
+                metin:
+                    "Köy içi ya da yol kenarı direklerin çevresinde ağaç dalları sık karşılaşılan bir engeldir. Düz bir bomla dalların arasından geçip direğin tepesine ulaşmak zor ya da imkânsız olabilir; eklemli bom, kolları art arda kırarak dalların arasından dolanabilir. Bu manevra öncesinde bomun yörüngesindeki dalların durumu değerlendirilir; kesilmesi gereken dal varsa bu, işi yaptıran tarafın önceden hazırlığıdır.",
+            },
+            {
+                baslik: "Aracın park edemediği yamaç ve şev kenarında yatay erişim",
+                metin:
+                    "Bazı direkler, aracın güvenle park edebileceği düz zeminden birkaç metre aşağıda ya da yukarıda, bir şev üzerinde durur. Bu durumda araç şevin üstündeki ya da altındaki sağlam noktaya park edilir, eklemli bom kollarını kırarak hedefe yatay ya da eğik biçimde uzanır. Bu, düz teleskopik bomun tek başına çözemeyeceği bir konfigürasyondur; kol açısının değişebilmesi burada belirleyici olur.",
+            },
+            {
+                baslik: "Eklemli bomun yükseklik ve yatay erişim dengesi",
+                metin:
+                    "Eklemli bomlarda azami yükseklik ile azami yatay erişim aynı anda kullanılamaz; kollar açıldıkça biri artarken diğeri sınırlanır. Bu yüzden bir hedefin hem yüksekte hem uzakta olduğu durumlarda, önce hangi ölçünün öncelikli olduğu belirlenir. Kırsal hat işlerinde genellikle yatay erişim önceliklidir, çünkü direk yükseklikleri sınırlı bir bantta değişirken engel aşma mesafesi değişkendir.",
+            },
+            {
+                baslik: "Düz bom ile eklemli bom arasında seçim",
+                metin:
+                    "Aracın direğin dibine kadar sorunsuz gidebildiği, aradaki zeminin sağlam ve engelsiz olduğu işlerde düz teleskopik bom hem daha hızlı hem daha yüksek kapasitelidir; eklemli bom yalnızca engel aşma ya da yandan yaklaşma gerektiğinde tercih edilir. Bu ayrımı keşifte netleştiriyoruz — gereksiz yere daha karmaşık makine göndermek maliyeti artırır, oysa çoğu direk işi düz bomla çözülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi engelde hangi bom",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal hat işlerinde karşılaşılan tipik engel türlerine göre bom seçimini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha durumu", "Uygun bom tipi", "Neden"],
+                    satirlar: [
+                        ["Direğin dibine doğrudan erişim", "Düz teleskopik bom", "Daha hızlı, daha yüksek kapasite"],
+                        ["Hendek, set, menfez engeli", "Eklemli bom", "Kol engelin üzerinden dönebilir"],
+                        ["Ağaç dalları arası geçiş", "Eklemli bom", "Kollar dalların arasından dolanır"],
+                        ["Şev üzerindeki direk", "Eklemli bom", "Yatay/eğik erişim gerekir"],
+                        ["Açık, düz güzergâh", "Düz teleskopik bom", "Engelsiz zeminde en verimli seçenek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte engel değerlendirmesi",
+                paragraflar: [
+                    "Bir direğin çevresinde engel şüphesi varsa, aracın park edebileceği en yakın nokta ile direk arasındaki mesafe, kot farkı ve varsa hendek/set genişliği önceden değerlendirilir. Bu üç ölçü, düz bomun mu yoksa eklemli bomun mu gerektiğini sahaya gitmeden büyük ölçüde netleştirir.",
+                    "Fotoğraf üzerinden yapılan bu değerlendirme kesin değilse, güzergâh programına her iki bom tipinin de değerlendirileceği bir not düşülür ve sahada son karar operatör tarafından verilir.",
+                ],
+            },
+            {
+                baslik: "Eklemli bomla çalışırken yaklaşma mesafesi",
+                paragraflar: [
+                    "Eklemli bomun kollarını kırarak enerjili bir iletkene yandan ya da alttan yaklaşması, düz bomdan farklı bir mesafe hissi yaratır; operatör kolun her segmentinin iletkene olan uzaklığını ayrı ayrı takip eder. Bu nedenle enerjili hatta yakın çalışmalarda eklemli bom kullanımı, hat ayırma zincirinin tamamlanmasından sonra ve hattan sorumlu personelin gözetiminde yürütülür.",
+                    "Kol segmentlerinin her biri ayrı bir yaklaşma riski taşıdığından, bu tip işlerde bom hareketi kademeli ve yavaş tutulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Direğimizin önünde bir hendek var, araç geçemiyor; çözüm var mı?",
+                cevap:
+                    "Büyük olasılıkla evet. Bu tip durumlarda araç hendeğin öbür tarafındaki sağlam bir noktaya park edilir ve eklemli bom, kollarını kırarak hendeğin üzerinden hedefe uzanır. Bunun mümkün olup olmadığını netleştirmek için hendeğin genişliğini ve aracın park edebileceği en yakın noktadan direğe olan mesafeyi bilmemiz gerekiyor. Bu ölçüler fotoğrafla paylaşılırsa, doğru bom tipini sahaya gitmeden belirleyebiliyoruz.",
+            },
+            {
+                soru: "Eklemli bom düz bomdan daha mı yavaş çalışır?",
+                cevap:
+                    "Genel olarak evet, çünkü kolların art arda açılıp kapanması düz bomun tek hareketine göre daha fazla adım gerektirir. Bu yüzden aracın direğin dibine sorunsuz gidebildiği işlerde düz bomu tercih ediyoruz; eklemli bomu yalnızca gerçekten engel aşma ya da yandan yaklaşma gereken noktalara ayırıyoruz. Bir güzergâh programında bazı direkler düz bomla, bazıları eklemliyle çalışılabilir; ikisi aynı gün, aynı ekiple sahada olabilir.",
+            },
+            {
+                soru: "Ağaç dalları arasından geçmemiz gerekiyor, dalları kesmemiz gerekir mi?",
+                cevap:
+                    "Bomun geçeceği yörüngedeki dallar, çalışma güvenliği açısından önceden değerlendirilmelidir; kolun manevra alanını daraltan veya operatörün görüşünü kapatan dallar varsa budanması gerekir. Bu hazırlık, işi yaptıran tarafın sorumluluğundadır ve genellikle teslimattan önce yapılması gereken bir adımdır. Keşifte dalların durumu değerlendirilir ve budama gerekiyorsa bu açıkça belirtilir; sahaya vardığımızda bu konunun çözülmemiş olması günü geciktirir.",
+            },
+            {
+                soru: "Şev üzerindeki bir direğe eklemli bomla ulaşılabilir mi?",
+                cevap:
+                    "Çoğunlukla evet. Araç, şevin üstündeki ya da altındaki sağlam ve düz bir noktaya park edilir; eklemli bomun kolları kırılarak hedefe yatay ya da eğik biçimde uzanır. Bu, düz teleskopik bomun tek başına yapamayacağı bir hareket. Kot farkının büyüklüğü, gereken makine sınıfını etkiler; şev ne kadar dikse ve kot farkı ne kadar büyükse, o kadar geniş erişimli bir eklemli bom gerekir. Bu değerlendirmeyi keşifte yapıyoruz.",
+            },
+            {
+                soru: "Eklemli bom enerjili hatta ne kadar yaklaşabilir?",
+                cevap:
+                    "Yaklaşma mesafesi kuralı, bomun tipi ne olursa olsun aynıdır; eklemli bomun kollu yapısı bu mesafeyi değiştirmez, yalnızca mesafenin nasıl korunacağını daha karmaşık hâle getirir. Kolun her segmenti iletkene ayrı bir uzaklıkta olabileceği için operatör hareketi kademeli yapar. Mesafenin korunamayacağı işlerde hat ayrılır, ayırıcı kilitlenip etiketlenir, gerilim yokluğu doğrulanır ve topraklama takılır; bu zincir tamamlanmadan bom yükseltilmez.",
+            },
+            {
+                soru: "Her direk işi için eklemli bom mu istemeliyiz?",
+                cevap:
+                    "Hayır, önerimiz bu değil. Aracın direğin dibine sorunsuz gidebildiği ve aradaki zeminin engelsiz olduğu çoğu işte düz teleskopik bom hem daha hızlı hem daha yüksek kapasitelidir; eklemli bom yalnızca gerçek bir engel ya da yandan yaklaşma ihtiyacı olduğunda avantaj sağlar. Hangi bom tipinin gerektiğini keşifte, direğin çevresini değerlendirerek belirliyoruz; gereksiz yere daha karmaşık makine önermek işin maliyetini artırır ve buna dikkat ediyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli ve teleskopik bom arasındaki yükseklik-yatay erişim dengesi EN 280 kapsamındaki genel makine tanımlarına dayanır; kırsal hat engelleri (hendek, set, şev, ağaç dalı) saha pratiğinden alınmıştır. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Trafo Binası ve Şalt Sahası İçi Erişim için Platform Kiralama",
+        giris:
+            "Kırsal hat işlerimizin çoğu açık havada, direk üstünde geçse de, güzergâh üzerindeki bazı hedefler kapalı bir hacmin içindedir: bir trafo binasının içi, bir şalt sahasının kumanda odası, bir dağıtım merkezinin çatı arası. Bu noktalarda araç üstü sepetli platform işe yaramaz — kapı genişliği, tavan yüksekliği ve zemin türü, açık havadakinden tamamen farklı bir ekipman gerektirir. Kapalı hacim içi işlerde akülü, egzozsuz ve dar geçitlerden sığabilen bir platform tercih edilir; bu, hem iç mekân havasını korur hem de dar kapı ve koridorlardan geçebilecek kompakt bir gövde sağlar. Bu sayfa, trafo binası, şalt sahası ve benzeri kapalı yapı içi erişimde hangi ekipmanın seçildiğini ve dış mekân işlerinden nasıl ayrıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapalı hacimde egzozsuz çalışma zorunluluğu",
+                metin:
+                    "Trafo binası ya da kumanda odası gibi kapalı bir hacimde dizel ya da benzinli bir makine çalıştırmak, egzoz gazının birikmesi nedeniyle kabul edilemez. Bu yüzden iç mekân işlerinde akülü platform kullanılır. Akü kapasitesi, işin süresine göre önceden değerlendirilir; uzun süren işlerde şarj noktasının nerede olduğu ve şarj sırasında makinenin çalışma alanını kapatmayacağı netleştirilir.",
+            },
+            {
+                baslik: "Kapı genişliği ve tavan yüksekliği ölçümü",
+                metin:
+                    "Trafo binalarının ve şalt sahalarının kapı ve koridor ölçüleri standart değildir; bazıları geniş bir servis kapısına, bazıları dar bir personel girişine sahiptir. Platformun içeri girip giremeyeceği, kapı genişliği ve tavan yüksekliğiyle doğrudan ilgilidir. Bu ölçüleri keşifte ya da fotoğrafla önceden alıyoruz; sahaya vardığımızda makinenin kapıdan geçmediğini fark etmek, günün tamamen kaybedilmesi demektir.",
+            },
+            {
+                baslik: "Beton zeminde iz bırakmama",
+                metin:
+                    "Trafo binası ve şalt sahası zeminleri genellikle beton ya da epoksi kaplıdır ve standart siyah lastikler bu yüzeylerde iz bırakabilir. İç mekân işlerinde iz bırakmayan lastikli modeller tercih edilir; bu, özellikle yeni yapılmış ya da temiz tutulması gereken tesislerde önemli bir ayrıntıdır ve teslimat öncesi netleştirilir.",
+            },
+            {
+                baslik: "Enerjili panolara yaklaşma mesafesi kapalı hacimde de geçerli",
+                metin:
+                    "Kapalı bir hacimde çalışmak, açık havadaki yaklaşma mesafesi kuralını değiştirmez; aksine dar alanda mesafe kontrolü daha da dikkat ister, çünkü kapalı hacimde geri çekilecek boşluk sınırlıdır. Şalt sahası içindeki bir çatı işi ya da kablo kanalı bakımı, komşu panoların enerjili olup olmadığı netleştirilmeden başlatılmaz. Bu değerlendirme hattan sorumlu personelle birlikte yapılır.",
+            },
+            {
+                baslik: "Dar hacimde manevra ve çalışma alanı planı",
+                metin:
+                    "Kapalı bir hacimde platformun dönüş yarıçapı, sabit ekipman (trafo gövdesi, pano dizisi, kablo kanalı) arasında sınırlı kalabilir. Bu yüzden hacme girmeden önce çalışma sırası planlanır — makine önce hangi noktaya gidecek, sonra nereye dönecek. Plansız bir giriş, dar hacimde makinenin geri manevra yapamayıp sıkışmasına yol açabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân ve dış mekân işlerinin karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, trafo/şalt binası içi işler ile açık hat işleri arasındaki temel farkları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Trafo/şalt binası içi", "Açık hat/direk"],
+                    satirlar: [
+                        ["Güç tipi", "Akülü, egzozsuz zorunlu", "Dizel veya akülü, ikisi de mümkün"],
+                        ["Erişim", "Kapı ve koridor ölçüsüne bağlı", "Aracın park edebileceği zemine bağlı"],
+                        ["Zemin", "Beton/epoksi, iz bırakmama önemli", "Toprak, banket, stabilize"],
+                        ["Yaklaşma mesafesi", "Dar hacimde daha kritik takip", "Açık alanda standart takip"],
+                        ["Tipik ekipman", "Akülü makaslı veya kompakt eklemli", "Araç üstü sepetli platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte alınan ölçüler",
+                paragraflar: [
+                    "İç mekân işlerinde teslimat öncesi dört ölçü isteniyor: kapı genişliği ve yüksekliği, tavan yüksekliği, zemin türü ve akü şarjı için uygun bir noktanın bulunup bulunmadığı. Bu dört bilgi, doğru makinenin sahaya gitmeden belirlenmesini sağlıyor.",
+                    "Trafo binası ya da şalt sahası daha önce hiç çalışılmamış bir tesisse, mümkünse kısa bir ön ziyaret öneriyoruz; bu, özellikle dar koridorlu eski yapılarda sahada sürpriz yaşanmasını önlüyor.",
+                ],
+            },
+            {
+                baslik: "Trafo ve pano çevresinde çalışma güvenliği",
+                paragraflar: [
+                    "Trafo binası içinde çalışırken enerjili bölümlerin işaretlenmesi ya da perdelenmesi, çalışmaya başlamadan önce tamamlanır. Makine, işaretlenen sınırın dışında konumlandırılır ve operatör bu sınırı bilerek hareket eder. Kapalı hacimde acil durumda geri çekilecek alanın az olması nedeniyle, bu sınırlar açık havadakinden daha titiz uygulanır.",
+                    "Şarj sırasında makinenin çalışma alanını kapatmaması için şarj noktası, iş öncesi belirlenen çalışma sırasına göre seçilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Trafo binamızın kapısı dar, platform sığar mı?",
+                cevap:
+                    "Bunu kesinleştirmek için kapı genişliği ve yüksekliği ölçüsüne ihtiyacımız var. Standart akülü makaslı platformlar belli bir gövde genişliğinin altına inmez; kapı bu ölçünün altındaysa daha kompakt bir model ya da katlanır gövdeli bir sistem değerlendirilir. Ölçüyü fotoğrafla ya da şerit metreyle paylaşırsanız, doğru makineyi sahaya gitmeden belirleyebiliyoruz. Ölçülmeden gönderilen bir makinenin kapıdan geçmemesi, günün tamamen kaybedilmesi anlamına gelir; bu yüzden bu adımı atlamıyoruz.",
+            },
+            {
+                soru: "İç mekânda dizel makine kullanılabilir mi?",
+                cevap:
+                    "Hayır, kapalı bir hacimde dizel ya da benzinli makine egzoz birikimi nedeniyle kullanılamaz. Trafo binası, kumanda odası ya da benzeri kapalı bir yapıda yalnızca akülü platform çalıştırıyoruz. Akü kapasitesi işin süresine göre önceden değerlendirilir; uzun süren işlerde şarj noktasının nerede olacağı ve şarj sırasında çalışma alanını kapatmayacağı netleştirilir.",
+            },
+            {
+                soru: "Beton zeminde platform iz bırakır mı?",
+                cevap:
+                    "Standart siyah lastikli modeller beton ya da epoksi zeminde iz bırakabilir. Bu yüzden trafo binası ve şalt sahası gibi temiz tutulması gereken tesislerde iz bırakmayan (beyaz dolgu) lastikli modeller tercih ediyoruz. Zeminin türünü ve hassasiyetini teslimat öncesi soruyoruz; özellikle yeni döşenmiş beton zeminlerde bu konu önceden netleşmezse sahada ek önlem almak gerekebilir.",
+            },
+            {
+                soru: "Kapalı hacimde enerjili panolara ne kadar yaklaşılabilir?",
+                cevap:
+                    "Yaklaşma mesafesi kuralı kapalı hacimde de aynı şekilde geçerlidir; hatta dar alanda geri çekilecek boşluk az olduğu için daha dikkatli uygulanır. Çalışmaya başlamadan önce enerjili bölümler işaretlenir ya da perdelenir ve makine bu sınırın dışında konumlandırılır. Komşu panoların durumu hattan sorumlu personelle birlikte değerlendirilir; bu değerlendirme yapılmadan çalışma başlatılmaz.",
+            },
+            {
+                soru: "Şalt sahası çatı arasında çalışabiliyor musunuz?",
+                cevap:
+                    "Çatı arası gibi dar ve düşük tavanlı hacimlerde çalışma mümkün, ancak makine seçimi tavan yüksekliğine ve erişim yoluna bağlı. Bu tip hacimlerde bazen standart platform yerine daha kompakt, katlanır gövdeli bir sistem gerekebilir. Tavan yüksekliğini, erişim yolunun genişliğini ve varsa merdiven/asansör durumunu keşifte netleştiriyoruz; bu bilgiler olmadan doğru makineyi belirlemek mümkün değil.",
+            },
+            {
+                soru: "İç mekân işi için operatör sizden mi geliyor?",
+                cevap:
+                    "Makineyi kullanan ve konumlandıran operatör bizim ekibimizden gelir; elektriksel işi yapan personel ise genellikle tesisin kendi teknik ekibinden olur. Bu ayrım kapalı hacimde de aynı şekilde geçerlidir — biz makinenin güvenli kullanımından, siz hattın ayrılması ve elektriksel işin doğruluğundan sorumlusunuz. İş öncesi kısa bir görüşmeyle bu sınır yazılı hâle getirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı hacimde egzozsuz çalışma zorunluluğu ve iz bırakmayan lastik uygulaması iş sağlığı-güvenliği ve tesis bakım pratiğinin genel kurallarıdır; trafo/şalt binası erişim senaryoları saha pratiğinden alınmıştır. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Direk Portalı ve Şalt Sahası Çelik Konstrüksiyon İşlerinde Platform Desteği",
+        giris:
+            "Kırsal enerji altyapısında çelik konstrüksiyon, çoğu zaman tek direk değil, birden çok direğin bağlandığı bir portal ya da bir şalt sahasının çelik iskelet yapısı biçiminde karşımıza çıkar. Bu tip yapılarda çalışma, tek bir noktaya değil bir hacme yayılır — üst kirişler, çapraz bağlantılar, birden fazla seviye. Sepetli platform burada da temel erişim aracıdır, ama tek direk işinden farklı olarak sabit bir konumdan değil, yapının farklı noktalarına art arda yaklaşarak çalışır. Vinç ise çoğunlukla montaj aşamasında, ağır çelik parçaların kaldırılıp yerine oturtulmasında devreye girer. Bu sayfa, direk portalı ve şalt sahası gibi çok parçalı çelik yapılarda platform ve vincin nasıl birlikte kullanıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Portal yapılarında birden fazla erişim noktası",
+                metin:
+                    "Bir direk portalı, tek bir direkten farklı olarak birden fazla dikey elemanı ve bunları birbirine bağlayan yatay-çapraz kirişleri içerir. Bu yapıda çalışma, tek bir sabit konumdan değil, platformun sırayla farklı kirişlere ve bağlantı noktalarına yaklaşmasıyla ilerler. Güzergâh planlaması burada direk sırası değil, yapının kendi geometrisine göre yapılır; hangi kirişin önce, hangisinin sonra ele alınacağı sahada belirlenir.",
+            },
+            {
+                baslik: "Ağır çelik parçanın vinçle kaldırılması",
+                metin:
+                    "Portal ya da şalt sahası montajında kullanılan çelik parçalar (ana kiriş, çapraz bağlantı, taşıyıcı ayak) genellikle insan gücüyle kaldırılamayacak ağırlıktadır. Vinç bu parçaları yerdeki konumundan kaldırıp montaj noktasına taşır; parça yerine oturtulduktan sonra bağlantı işi (cıvatalama, kaynak kontrolü) sepetli platformla yapılır. İki makinenin bu ardışık kullanımı, direk dikiminde olduğu gibi burada da temel çalışma düzenidir.",
+            },
+            {
+                baslik: "Şalt sahası içinde enerjili bölümlerin işaretlenmesi",
+                metin:
+                    "Bir şalt sahasında çelik konstrüksiyon işi yapılırken, sahanın bir bölümü enerjili kalmaya devam edebilir; çalışılan kısım ile enerjili kısım arasındaki sınırın net olması gerekir. Bu sınır, çalışmaya başlamadan önce hattan sorumlu personel tarafından belirlenir ve fiziksel olarak işaretlenir. Platform ve vinç, bu işaretli sınırın dışında kalacak şekilde konumlandırılır ve yük yörüngesi enerjili bölüme yaklaşmayacak biçimde planlanır.",
+            },
+            {
+                baslik: "Yüksekte bağlantı kontrolü ve kalite doğrulama",
+                metin:
+                    "Çelik konstrüksiyon montajında kaldırma işlemi tamamlandıktan sonra, bağlantı noktalarının doğru sıkıldığı ve kaynakların uygun olduğu kontrol edilmelidir. Bu kontrol, platformdan sabit bir konumda çalışılarak yapılır; her bağlantı noktasına platform ayrı ayrı yaklaşır. Portal genişse bu, tek bir kurulumla değil birden fazla konum değişikliğiyle tamamlanır.",
+            },
+            {
+                baslik: "Montaj sırası ve makine programının uyumu",
+                metin:
+                    "Portal ya da şalt sahası montajında iş sırası (önce hangi parçanın kaldırılacağı, hangi bağlantının önce yapılacağı) genellikle projeyi yürüten mühendislik tarafından belirlenir. Bizim tarafımızdan beklenen, bu sırayla uyumlu bir makine programı kurmaktır — vinç ne zaman, sepetli platform ne zaman devreye girecek. Bu programı, montaj planı elimize geçtiğinde birlikte oluşturuyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre makine kullanımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, bir portal ya da şalt sahası çelik konstrüksiyon montajının tipik aşamalarını ve hangi makinenin hangi aşamada devreye girdiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Vinç görevi", "Platform görevi", "Belirleyici hazırlık"],
+                    satirlar: [
+                        ["Ana ayak/direk dikimi", "Kaldırma ve oturtma", "—", "Temel ve kuyu hazırlığı"],
+                        ["Kiriş ve çapraz montajı", "Kaldırma ve konumlandırma", "Bağlantı yapılması", "Yük yörüngesi ve sınır işareti"],
+                        ["Bağlantı kontrolü", "Gerekmez", "Her noktaya ayrı yaklaşım", "Montaj planı sırası"],
+                        ["Şalt sahası içi işler", "Gerekirse ağır parça taşıma", "Enerjili bölüm dışı çalışma", "Ayırma ve işaretleme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Portal genişliğine göre program uzunluğu",
+                paragraflar: [
+                    "Bir portal yapısının montaj süresi, kiriş sayısı ve bağlantı noktası sayısına göre değişir. Programı hazırlarken önce yapının kaç ana elemandan oluştuğunu, sonra her elemanın kaç bağlantı noktası içerdiğini öğreniyoruz. Bu bilgi, günlük gerçekçi bir hedef çıkarmamızı sağlıyor.",
+                    "Geniş bir şalt sahası montajında iş birkaç güne yayılabilir; bu durumda vinç ve platform aynı sahada farklı günlerde farklı yoğunlukta kullanılır — kaldırma yoğun günlerde vinç öne çıkar, bağlantı kontrolü yoğun günlerde platform öne çıkar.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr ve hava koşulunun montaj programına etkisi",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajı, özellikle vinçle ağır parça kaldırma aşamasında rüzgâra karşı sepetli platform işlerinden daha hassastır; büyük yüzeyli bir kiriş rüzgârda sallanabilir. Bu yüzden kaldırma işlemleri rüzgârın sakin olduğu saatlere planlanır. Bağlantı kontrolü gibi platform işleri ise rüzgâr penceresi biraz daha esnek olsa da, sepetin izin verilen sınırını aşan koşullarda durdurulur.",
+                    "Uzun süren montaj programlarında alternatif gün belirlemek, rüzgârlı bir günün tüm programı bozmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Portal yapısında kaç makine aynı anda çalışıyor?",
+                cevap:
+                    "Genellikle vinç ve sepetli platform aynı sahada, ancak farklı zamanlarda çalışır. Vinç ağır parçayı kaldırıp montaj noktasına taşırken platform o sırada başka bir noktada bağlantı kontrolü yapabilir; ikisi aynı anda aynı bölgede çalışmaz, çünkü yük yörüngesi altında kimsenin bulunmaması gerekir. Bu koordinasyon, montaj planına göre önceden kurgulanır ve sahada bu sıraya uyulur.",
+            },
+            {
+                soru: "Şalt sahasının bir bölümü enerjili kalırken diğer bölümde çalışabiliyor musunuz?",
+                cevap:
+                    "Evet, bu kırsal şalt sahası işlerinde sık karşılaşılan bir durum. Çalışılan bölüm ile enerjili kalan bölüm arasındaki sınır, hattan sorumlu personel tarafından önceden belirlenir ve fiziksel olarak işaretlenir. Platform ve vinç, bu işaretli sınırın dışında konumlandırılır ve yük yörüngesi enerjili bölüme yaklaşmayacak şekilde planlanır. Bu sınırın netliği, çalışmanın başlama koşuludur.",
+            },
+            {
+                soru: "Bağlantı kontrolü için platform her noktaya ayrı ayrı mı yaklaşıyor?",
+                cevap:
+                    "Evet, geniş bir portal ya da şalt sahasında tüm bağlantı noktalarını tek bir platform konumundan görmek mümkün değildir. Platform, montaj planındaki sırayla her bağlantı noktasına ayrı ayrı yaklaşır ve kontrolü tamamlar. Bu, tek direk işine göre daha fazla konum değişikliği gerektirir; program hazırlarken bağlantı noktası sayısını bu yüzden önceden öğreniyoruz.",
+            },
+            {
+                soru: "Montaj sırasını siz mi belirliyorsunuz, biz mi?",
+                cevap:
+                    "Montaj sırası genellikle projeyi yürüten mühendislik tarafından belirlenir; bizim rolümüz bu sırayla uyumlu bir makine programı kurmaktır. Hangi parçanın önce kaldırılacağını, hangi bağlantının önce yapılacağını bize montaj planıyla birlikte iletirseniz, vinç ve platformun ne zaman devreye gireceğini buna göre kurgularız. Plan elimizde değilse, sahada birlikte bir sıra belirleriz, ancak bu genellikle daha yavaş ilerler.",
+            },
+            {
+                soru: "Rüzgârlı havada montaj tamamen durur mu?",
+                cevap:
+                    "Vinçle ağır parça kaldırma işlemleri, büyük yüzeyli kirişlerin rüzgârda sallanması riski nedeniyle sepetli platform işlerinden daha erken durur. Bağlantı kontrolü gibi platform işleri biraz daha esnek olsa da, sepetin izin verilen rüzgâr sınırı aşıldığında bu da durur. Programı iki katmanlı kuruyoruz — kaldırma gerektiren kalemler ile bağlantı kontrolü gibi daha esnek kalemler ayrı listelerde tutuluyor; rüzgâr arttığında ekip ikinci listeye geçiyor.",
+            },
+            {
+                soru: "Küçük bir çelik konstrüksiyon işi için de vinç gerekir mi?",
+                cevap:
+                    "Her zaman değil. Tek bir küçük parçanın eklenmesi ya da bağlantı onarımı gibi işlerde, parça insan gücüyle taşınabiliyorsa yalnızca sepetli platform yeterli olur. Vinç, gerçekten ağır ve hacimli parçaların kaldırılması gerektiğinde devreye girer. İşin kapsamını ve parça ağırlığını keşifte netleştirip yalnızca gerekli makineyi planlıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Direk portalı ve şalt sahası çelik konstrüksiyon montajında vinç-platform ardışık kullanımı ve enerjili bölüm ayrımı elektrik işlerinde geçerli genel güvenlik pratiğidir. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarımsal Tesis ve Silo Çevresinde Aydınlatma ve Bakım Platformu",
+        giris:
+            "Kırsal hat işlerimizin önemli bir bölümü, tarımsal üretimin kendisiyle iç içedir: bir silo tesisinin çevre aydınlatması, bir kurutma tesisinin besleme hattı, bir depo binasının avlu direkleri. Bu yapılar şebeke hattından ayrı, işletmenin kendi mülkiyetinde ve kendi sorumluluğunda olduğu için talep genellikle doğrudan işletme sahibinden gelir ve şebeke bakım takvimini beklemez. İkinci belirleyici gerçek mevsimdir — hasat döneminde tesisin kesintisiz çalışması beklenir, bu yüzden ertelenebilir bakım işleri hasat öncesi ya da sonrası pencerelere sıkışır. Silo çevresinde çalışmanın kendine özgü bir riski de vardır: tahıl tozu, belirli yoğunluklarda patlayıcı ortam oluşturabilir ve bu, ekipman seçimini ve çalışma yöntemini doğrudan etkiler. Bu sayfa, tarımsal tesis ve silo çevresinde platform kullanımının hangi kurallara tabi olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Silo çevresinde tahıl tozu riski ve ekipman seçimi",
+                metin:
+                    "Silo ve kurutma tesislerinin çevresinde, özellikle dolum ve boşaltım sırasında havada tahıl tozu birikebilir ve bu, belirli yoğunluklarda tutuşabilir bir ortam oluşturabilir. Bu risk bölgelerinde çalışma öncesi tesisin kendi risk değerlendirmesi ve varsa bölgeleme (zon) bilgisi istenir; ekipman seçimi bu bilgiye göre yapılır. Standart bir platformun bu tip bir bölgede kullanılıp kullanılamayacağı, tesisin risk değerlendirmesine bağlıdır ve bu konuda tesis yetkilisiyle birlikte karar verilir.",
+            },
+            {
+                baslik: "Hasat sezonu öncesi ve sonrası bakım pencereleri",
+                metin:
+                    "Hasat sezonu içinde bir silo ya da kurutma tesisinin durması, doğrudan ürün kaybı riski doğurur; bu yüzden sezon içinde yalnızca gerçek arızalara müdahale edilir. Ertelenebilir bakım işleri — aydınlatma kontrolü, konsol sıkma, armatür değişimi — hasat öncesi ya da sonrası pencerelere yerleştirilir. Bu iki pencere herkes için aynı haftalara denk geldiğinden talep yığılır; programını erken kuran işletmeler daha rahat bir gün buluyor.",
+            },
+            {
+                baslik: "Avlu ve tesis girişi aydınlatması",
+                metin:
+                    "Tarımsal tesislerin avlu aydınlatması, şebeke direklerinden farklı olarak genellikle daha yüksek direkler ve daha güçlü armatürlerle kurulur; araç trafiğinin ve yükleme alanının aydınlatılması amaçlanır. Bu direklerin bakımı, tesisin kendi besleme ve pano düzeniyle koordine edilir; ayırma işlemi tesisin kendi yetkilisi tarafından yapılır ve bu netleşmeden çalışma başlamaz.",
+            },
+            {
+                baslik: "Toz ve kir birikimi nedeniyle temizlik gereken armatürler",
+                metin:
+                    "Tarımsal tesis çevresindeki armatürler, tahıl tozu ve toprak nedeniyle şehir içi armatürlere göre daha hızlı kirlenir; bu, aydınlatma verimini düşürür. Bakım programında yalnızca arıza değil, periyodik temizlik de değerlendirilebilir. Bu tip işler genellikle kesinti gerektirmez ve tek başına kısa sürer; bölgeye gelen bir programa eklendiğinde ek nakliye maliyeti doğurmaz.",
+            },
+            {
+                baslik: "Ağır ekipman erişiminde tesis içi trafik",
+                metin:
+                    "Tarımsal tesislerde kamyon ve traktör trafiği yoğun olabilir; sepetli platform ya da vincin sahaya girişi bu trafikle çakışmayacak şekilde planlanır. Tesis yetkilisiyle çalışma saatleri önceden konuşulur, özellikle dolum-boşaltım yoğunluğunun düşük olduğu saatler tercih edilir. Bu koordinasyon, hem güvenlik hem verim açısından işin bir parçasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarımsal tesis işlerinde mevsime göre planlama",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, tarımsal tesis çevresindeki aydınlatma ve bakım işlerinin hangi dönemde yapılmasının uygun olduğunu gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Tesis durumu", "Uygun iş", "Not"],
+                    satirlar: [
+                        ["Hasat öncesi", "Boş, düşük trafik", "Kontrol ve küçük onarım", "Tercih edilen pencere"],
+                        ["Hasat sezonu", "Yoğun dolum-boşaltım", "Yalnızca arıza", "Kesinti minimumda tutulur"],
+                        ["Hasat sonrası", "Trafik azalır", "Kapsamlı bakım, değişim", "İkinci uygun pencere"],
+                        ["Kış", "Düşük aktivite", "Ertelenmiş kalemler", "Gün ışığı kısıtı devrede"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tozlu ortamda çalışma öncesi hazırlık",
+                paragraflar: [
+                    "Silo çevresinde çalışmaya başlamadan önce tesisin risk değerlendirmesini ve varsa bölgeleme bilgisini talep ediyoruz; bu bilgi olmadan tozlu ortamda hangi ekipmanın güvenle kullanılabileceğine karar veremeyiz. Dolum-boşaltım sırasında toz yoğunluğu arttığı için, mümkünse çalışma bu faaliyetlerin durduğu saatlere planlanır.",
+                    "Tesis yetkilisiyle yapılan bu ön görüşme, hem ekipman seçimini hem çalışma saatini netleştirir ve sahada gereksiz bir bekleme ya da erteleme yaşanmasını önler.",
+                ],
+            },
+            {
+                baslik: "İşletmenin kendi sorumluluğundaki hatlar",
+                paragraflar: [
+                    "Tarımsal tesisin kendi parseli içindeki direk, besleme hattı ve avlu aydınlatması, şebekenin bakım kapsamına girmez ve sahibinin sorumluluğundadır. Bu işlerde talep doğrudan işletmeden gelir ve şebeke programını beklemesi gerekmez. Bizden beklenen tek ön koşul, ayırmayı yapacak yetkili bir kişinin sahada bulunmasıdır.",
+                    "Bu tip işler genellikle birkaç saatte tamamlanır; bölgede yürüyen bir hat programına eklendiğinde ayrı bir sevkiyat maliyeti doğurmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo çevresinde tahıl tozu varken platform çalışabiliyor mu?",
+                cevap:
+                    "Çalışabiliyor, ancak tesisin risk değerlendirmesine ve varsa bölgeleme bilgisine göre. Tahıl tozu belirli yoğunluklarda tutuşabilir bir ortam oluşturabildiği için, standart bir platformun o bölgede kullanılıp kullanılamayacağı önceden netleşmelidir. Bu değerlendirmeyi tesis yetkilisiyle birlikte yapıyoruz; dolum-boşaltım sırasında toz yoğunluğu arttığından, mümkünse çalışmayı bu faaliyetlerin durduğu saatlere planlıyoruz.",
+            },
+            {
+                soru: "Hasat sezonunda tesisimize gelebilir misiniz?",
+                cevap:
+                    "Sınırlı ölçüde — hasat sezonunda tesisin durması ürün kaybı riski taşıdığı için sezon içinde yalnızca gerçek arızalara müdahale ediyoruz. Ertelenebilir bakım işlerini hasat öncesi ya da sonrası pencerelere almanızı öneriyoruz. Sezon içinde acil bir durum çıkarsa, tesis trafiğinin en düşük olduğu saatte, mümkün olan en kısa sürede sahaya geliyoruz.",
+            },
+            {
+                soru: "Avlu aydınlatmamız için ayrıca sevkiyat mı çağırmalıyız?",
+                cevap:
+                    "Gerekmiyor, önerimiz de bu değil. Avlu direği ve tesis girişi aydınlatması genellikle tek başına birkaç saat sürer; bölgede yürüyen bir hat programına eklendiğinde ayrı bir nakliye maliyeti doğurmaz. Bölgeye bir program geliyorsa işinizi o güne ekliyoruz; acil bir durumsa tek başına da geliyoruz ama bu durumda nakliye ayrı kalem olarak çıkıyor, bunu baştan söylüyoruz.",
+            },
+            {
+                soru: "Tesis içi kamyon trafiği varken çalışabiliyor musunuz?",
+                cevap:
+                    "Çalışabiliyoruz, ancak trafik yoğunluğunu tesis yetkilisiyle önceden konuşuyoruz. Sepetli platform ya da vincin sahaya girişini, dolum-boşaltım yoğunluğunun düşük olduğu saatlere denk getirmeye çalışıyoruz; bu hem güvenlik hem verim açısından önemli. Tesisin günlük yoğun saatlerini bilmiyorsak sahaya vardığımızda trafikle çakışma riski doğar, bu yüzden bu bilgiyi teslimattan önce istiyoruz.",
+            },
+            {
+                soru: "Armatürlerimiz toz nedeniyle kararmış, temizlik hizmeti de veriyor musunuz?",
+                cevap:
+                    "Evet, tarımsal tesis çevresindeki armatürler tahıl tozu ve toprak nedeniyle hızlı kirlenir ve bu aydınlatma verimini düşürür. Bu tip periyodik temizlik işleri genellikle kesinti gerektirmez ve kısa sürer. Bölgeye gelen bir programa eklendiğinde ek maliyet doğurmaz; birkaç armatürü aynı ziyarette temizletmek isterseniz listeyi önceden paylaşmanız yeterli.",
+            },
+            {
+                soru: "Tesisimizin kendi direği için elektrik ekibi bizden mi olmalı?",
+                cevap:
+                    "Evet, tesisin kendi parseli içindeki direk ve besleme hattı sizin sorumluluğunuzdadır ve ayırmayı yapacak, gerilim yokluğunu doğrulayacak yetkili kişinin sizin ekibinizden olması gerekir. Biz makineyi konumlandırır ve sepeti yönetiriz; elektriksel işi yapacak usta sizde yoksa bunu baştan söylemeniz gerekir, çünkü bu durumda işin kurgusu değişir. İş öncesi kısa bir görüşmeyle bu sorumluluk sınırı netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tahıl tozunun patlayıcı ortam riski ve tesis içi risk değerlendirmesi zorunluluğu iş sağlığı-güvenliği mevzuatının genel çerçevesidir; hasat sezonu takvimi ve tesis trafiği saha pratiğinden alınmıştır. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji Direği ve Aydınlatma Altyapısı Bakımı için Sepetli Platform ve Vinç",
+        giris:
+            "Bu, işimizin merkezinde duran hizmettir. Kırsal bir enerji ya da aydınlatma hattının bakımı, tek bir işlem değil, birbirine bağlı bir dizi karardan oluşur: hangi direğe önce gidilecek, hangi işlerin hattı kesmeden yapılabileceği, hangilerinin ayırma gerektirdiği, hangi malzemenin ne zaman sahada olacağı. Araç üstü sepetli platform bu işlerin büyük çoğunluğunu tek başına çözer — konsol sıkma, izolatör değişimi, armatür yenileme, kablo ve klemens bakımı, tümü sepetten yapılan işlerdir. Yeni direk dikimi, direk değişimi ya da ağır malzeme taşıma gerektiğinde vinç aynı programa eklenir. Ama bu ekipman denklemini doğru kurmaktan daha kritik olan şey, her işin başında sorulması gereken tek bir sorudur: bu direk ya da hat kolu şu anda enerjili mi, değilse ayırma ve doğrulama zinciri nasıl işleyecek? Bu sayfa, kırsal enerji ve aydınlatma bakımının gerçek işleyişini — kesinti kararından çalışmanın kapanışına kadar — ayrıntılı olarak anlatır.",
+        maddeler: [
+            {
+                baslik: "Enerjili çalışma ile ayırmalı çalışma arasındaki ayrım",
+                metin:
+                    "Bir bakım işinin hattı kesmeden mi yoksa ayırma ile mi yapılacağı, tek bir kritere bağlıdır: sepetin ve içindeki personelin, gerilim seviyesine göre tanımlanmış yaklaşma mesafesini koruyup koruyamayacağı. Alçak gerilimli bir sokak aydınlatmasında, armatürün kendi beslemesi ayrılarak komşu iletkenlerden güvenli mesafede çalışılabilir. Orta ve yüksek gerilimli hat elemanlarında ise bu mesafeyi korumak çoğu zaman fiziksel olarak mümkün olmaz; bu durumda ayırma zorunludur. Kararı biz vermeyiz — hattan sorumlu teknik personel verir — ama saha uygulamasında bu kararı doğru bilgiyle destekleriz: sepetin ne kadar yaklaşabileceğini, hangi açıdan çalışılacağını operatör bilir.",
+            },
+            {
+                baslik: "Beş adımlık ayırma zinciri ve neden kısaltılamaz",
+                metin:
+                    "Ayırma gereken her işte aynı zincir uygulanır: besleme kesilir, ayırıcı kilitlenip etiketlenir, çalışılacak bölümde gerilim yokluğu ölçüm aletiyle doğrulanır, topraklama ve kısa devre bağlantısı takılır, komşu enerjili bölümler işaretlenir ya da perdelenir. Bu adımlardan hiçbiri işin küçüklüğüne ya da aciliyetine göre atlanmaz — bir armatür değişimi de, bir direk değişimi de aynı zinciri gerektirir. Zincirin tamamlandığını hattan sorumlu personel teyit etmeden sepet yükseltilmez. Bu, sahada tartışmaya açık bir adım değildir.",
+            },
+            {
+                baslik: "Vinç ve sepetin ardışık kullanımı: dikim ve tepe donanımı",
+                metin:
+                    "Yeni bir direğin dikilmesi ile tepesinin donatılması iki ayrı iş ve aynı makineyle yapılmaz. Vinç direği kaldırıp kuyunun üzerine oturtur; bu sırada altındaki alan tümüyle boş tutulur. Direk sabitlenip yük alındıktan sonra sepetli platform yanaşır ve konsol, izolatör, armatür ya da traversa bağlantısı yapılır. İki adım arasındaki bekleme, direğin gerçekten yük taşıyacak duruma gelmesi içindir ve atlanamaz. Direk değişiminde bu sıra tekrarlanır; eski direk sökülüp alınırken iletkenler önce güvenli bir şekilde yönetilmelidir.",
+            },
+            {
+                baslik: "Periyodik kontrolle arıza bakımının farkı",
+                metin:
+                    "Bir hat kolunda yapılan bakım iki farklı mantıkla yürür: periyodik kontrol, önceden planlanmış bir program dahilinde gevşemiş bağlantı, hasarlı izolatör ya da eğilmiş direk gibi sorunları erken yakalamayı amaçlar; arıza bakımı ise beklenmedik bir kesintiye anlık müdahaledir. İkisinin saha organizasyonu farklıdır — periyodik kontrolde güzergâh önceden planlanır ve malzeme hazırlanır, arıza bakımında ise en hızlı ulaşım ve doğru teşhis öncelik kazanır. Programımızı bu ikisini birbirine karıştırmadan kuruyoruz.",
+            },
+            {
+                baslik: "Kesinti kapsamını daraltma ve tek pencereye toplama",
+                metin:
+                    "Kırsal kollarda bir ayırma işlemi, çalışılan tek noktadan çok daha geniş bir bölümü etkileyebilir. Bu gerçeği kabul edip bundan verim çıkarmanın yolu, aynı kol üzerindeki tüm kesinti gerektiren kalemleri tek bir pencereye toplamaktır — bir kez kesinti yapılır, o kolun bütün işleri kapanır. Programı bu mantıkla kuruyoruz ve müşteriden istediğimiz tek şey, ertelenebilir kalemlerin bu pencereye eklenmek üzere önceden bildirilmesidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre ayırma ihtiyacı ve makine ikilisi",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal enerji ve aydınlatma bakımında karşılaşılan tipik iş kalemlerini, ayırma gerektirip gerektirmediğini ve hangi makinenin devreye girdiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Ayırma gerekir mi", "Makine", "Belirleyici hazırlık"],
+                    satirlar: [
+                        ["Sokak armatürü değişimi", "Genellikle bölümsel", "Sepetli platform", "Yerel besleme ayrımı"],
+                        ["Konsol/izolatör bakımı", "Çoğunlukla evet", "Sepetli platform", "Ayırma-kilitleme-doğrulama"],
+                        ["Direk değişimi", "Evet", "Vinç + sepetli platform", "İletken yönetimi"],
+                        ["Yeni direk dikimi", "Duruma göre", "Vinç + sepetli platform", "Temel bekleme süresi"],
+                        ["Kablo/klemens kontrolü", "Genellikle evet", "Sepetli platform", "Gerilim yokluğu doğrulama"],
+                        ["Periyodik görsel kontrol", "Hayır", "Sepetli platform", "Güzergâh planı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kesinti maliyetini gerçekten belirleyen şey",
+                paragraflar: [
+                    "Bir hat bakımında asıl maliyet kalemi ekipman değil, hattın kapalı kaldığı süredir. Bu süreyi kısaltmanın yolu sahada hazır olmaktan geçer: değişecek malzeme direğin dibinde beklemeli, ayırma noktası önceden belirlenmeli, topraklama seti hazır olmalı ve araç ilk denemede doğru noktaya park edebilmelidir. Bu hazırlık eksikse kesinti süresinin önemli bölümü hazırlıkla geçer.",
+                    "İkinci pratik yöntem, aynı besleme kolu üzerindeki tüm işleri tek kesintiye toplamaktır. Bir kolu kapatmak için katlanılan hazırlığın maliyeti, o kolda beş iş de yapılsa bir iş de yapılsa hemen hemen aynıdır — bu yüzden kesinti planlanırken kolun tamamı gözden geçirilir.",
+                ],
+            },
+            {
+                baslik: "Sorumluluk sınırı: makine güvenliği ile elektriksel iş",
+                paragraflar: [
+                    "Bir bakım işinde iki ayrı yetkinlik iş başındadır. Aracı ve bomu kullanan kişi ayrı bir yetkinliktir; hat üzerinde elektriksel işi yapan kişi ayrıdır. Elektrik işini yapan personel neredeyse her zaman hattan sorumlu tarafın kendi ekibinden gelir, çünkü hattın şemasını ve ayırma noktalarını bilen taraf odur. Bizim tarafımızdan gelen kişi ise makineyi konumlandırır, destek ayaklarını kurar ve sepeti yönetir.",
+                    "Bu ayrım yapıldığında sorumluluk sınırı netleşir: makinenin uygunluğu, periyodik kontrolü ve güvenli kullanımı bizde; hattın ayrılması, topraklanması ve elektriksel işin doğruluğu hattan sorumlu tarafta kalır. İş öncesi kısa bir görüşmeyle bu sınır yazılı hâle getirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Her bakım işi hattı kesmeyi gerektiriyor mu?",
+                cevap:
+                    "Hayır, gerektirmiyor. Belirleyici olan, sepetin ve içindeki personelin gerilim seviyesine göre tanımlanmış yaklaşma mesafesini koruyup koruyamayacağıdır. Alçak gerilimli bir sokak aydınlatmasında armatürün kendi beslemesi ayrılarak, komşu iletkenlerden güvenli mesafede çalışılabilir. Orta ve yüksek gerilimli hat elemanlarında ise bu mesafeyi korumak genellikle mümkün olmaz ve ayırma gerekir. Bu kararı hattan sorumlu teknik personel verir; bizim rolümüz sahada bu kararı doğru uygulamaktır.",
+            },
+            {
+                soru: "Ayırma zinciri neden her seferinde baştan uygulanıyor, önceki direkte alınan izin yeterli değil mi?",
+                cevap:
+                    "Yeterli değil, çünkü kırsal bir hat farklı besleme kollarına ve ayırma bölgelerine ayrılabilir; önceki direkte alınan izin sonraki hedefin güvenli olduğunu göstermez. Bu yüzden her yeni hedefte zincir yeniden uygulanır: besleme kesilir, ayırıcı kilitlenip etiketlenir, gerilim yokluğu ölçülerek doğrulanır, topraklama takılır, komşu enerjili bölümler işaretlenir. Bu, işin küçüklüğüne göre kısaltılan bir adım değil, her hedefin kendi güvenlik koşuludur.",
+            },
+            {
+                soru: "Direk dikimi ile tepe donanımı neden aynı makineyle yapılamıyor?",
+                cevap:
+                    "Çünkü ikisi farklı yük durumları gerektirir. Vinç direği kaldırıp kuyunun üzerine oturtur ve bu sırada altındaki alan tümüyle boş olmalıdır — bu yüzden aynı anda orada bir sepet bulunamaz. Direk sabitlenip yükü aldıktan sonra sıra tepe donanımına gelir ve bu, personelin güvenli biçimde konumlanmasını gerektirdiği için sepetli platformla yapılır. İki makineyi aynı ekiple ardışık kullanıyoruz; bu sıralama, ikisinin de boş beklediği süreyi en aza indiriyor.",
+            },
+            {
+                soru: "Periyodik kontrol ile arıza bakımını aynı programda birleştirebilir misiniz?",
+                cevap:
+                    "Kısmen. Periyodik kontrol önceden planlanmış bir güzergâh programı içinde yürür ve malzeme baştan hazırlanır; arıza bakımı ise beklenmedik bir kesintiye hızlı müdahaledir ve programın önüne geçer. Bir güzergâh üzerindeyken beklenmedik bir arıza bildirilirse, güvenli ve mantıklıysa programa eklenir; değilse ayrı bir sevkiyat olarak ele alınır. Bu kararı, arızanın aciliyetine ve mevcut programın durumuna göre sahada veriyoruz.",
+            },
+            {
+                soru: "Bir kolu kapatmadan önce tüm bekleyen işleri o pencereye eklemek zorunlu mu?",
+                cevap:
+                    "Zorunlu değil ama şiddetle öneriyoruz. Bir kolu kapatmak için katlanılan hazırlığın maliyeti — ayırma, kilitleme, gerilim doğrulama, topraklama — o kolda beş iş de yapılsa bir iş de yapılsa hemen hemen aynıdır. Bu yüzden kesinti planlanmadan önce kolun tamamını gözden geçirip ertelenebilir kalemleri de aynı pencereye çekmenizi öneriyoruz. Bu, hem toplam kesinti sayısını hem toplam maliyeti düşüren en pratik yöntemdir.",
+            },
+            {
+                soru: "Elektriksel işi yapacak personel bizim ekipten olmak zorunda mı?",
+                cevap:
+                    "Evet, neredeyse her zaman. Hattın şemasını, ayırma noktalarını ve gerilim özelliklerini bilen taraf hattan sorumlu ekiptir; bu bilgiye biz sahip değiliz ve ayırma, kilitleme, gerilim yokluğu doğrulama gibi elektriksel işlemleri kendi ekibinizin yapması gerekir. Bizim tarafımızdan gelen personel makineyi konumlandırır ve sepeti yönetir. Bu ayrım, iş öncesi kısa bir görüşmeyle yazılı hâle getirilir ve sorumluluk sınırını netleştirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Ayırma-kilitleme-gerilim yokluğu doğrulama-topraklama zinciri ve yaklaşma mesafesi kuralları elektrik işlerinde geçerli genel güvenlik mevzuatı ve sektör uygulamasıdır; vinç-sepetli platform ardışık kullanım mantığı saha pratiğinden alınmıştır. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Enerjili Hat Yakınında Operatörlü Sepetli Platform ve Vinç Kiralama",
+        giris:
+            "Kırsal enerji hattı işlerinde operatörsüz kiralama, şehir içi bir şantiyedeki kadar sık tercih edilen bir seçenek değildir; bunun nedeni ekonomik değil tekniktir. Bir direğin dibinde destek ayaklarını doğru noktaya oturtmak, zemin taşıma gücünü değerlendirmek, enerjili bir iletkene yaklaşırken mesafe hissini korumak — bunların hepsi tekrarlı saha deneyimi gerektirir ve bu deneyim, hattın kendisini bilmekten ayrı bir uzmanlıktır. Bu yüzden kırsal hat işlerinde varsayılan seçenek operatörlü kiralamadır; operatörümüz makineyi konumlandırır, zemin ve rüzgâr koşullarını değerlendirir ve hattan sorumlu personelle koordineli çalışır. Operatörsüz seçenek yalnızca belirli koşullarda ve net bir sorumluluk ayrımıyla sunulur. Bu sayfa, iki seçenek arasındaki farkı ve hangi durumda hangisinin uygun olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Operatörlü kiralamanın kırsal hatta öncelikli olma nedeni",
+                metin:
+                    "Şehir içi düz bir zeminde makine kullanmakla, kırsal bir hat güzergâhında değişken zemin ve enerjili iletken yakınında çalışmak aynı deneyimi gerektirmez. Operatörümüz, her direkte yeniden zemin değerlendirmesi yapar, destek ayaklarının bastığı noktanın taşıma gücünü kontrol eder ve rüzgâr koşullarına göre bomu yönetir. Bu deneyim, kırsal işlerde kaza riskini doğrudan azaltan bir unsurdur; bu yüzden varsayılan önerimiz operatörlü kiralamadır.",
+            },
+            {
+                baslik: "Operatörsüz seçeneğin sınırları",
+                metin:
+                    "Operatörsüz kiralama, yalnızca belirli koşullarda değerlendirilir: kısa süreli, düşük riskli, deneyimli bir kullanıcının bulunduğu ve zeminin sabit ve öngörülebilir olduğu işlerde. Enerjili hatta yaklaşma gerektiren, zemin değişkenliği olan ya da vinç gerektiren işlerde operatörsüz seçenek sunulmaz. Bu sınırı sahada değil, talep aşamasında netleştiriyoruz; işin niteliği operatörsüze uygun değilse bunu baştan söylüyoruz.",
+            },
+            {
+                baslik: "Makinenin güvenliği ile hattın güvenliği ayrımı",
+                metin:
+                    "Operatörlü kiralamada bile sorumluluk tek elde toplanmaz. Operatörümüz makinenin güvenli kullanımından, zemin değerlendirmesinden ve konumlandırmadan sorumludur; hattın ayrılması, topraklanması ve elektriksel işin doğruluğu ise hattan sorumlu personelde kalır. Bu ayrım, iş başlamadan önce sözlü ve gerektiğinde yazılı olarak netleştirilir; iki taraf da kendi sorumluluk alanını bilerek çalışır.",
+            },
+            {
+                baslik: "Vinç operatörlüğünde ek uzmanlık gereksinimi",
+                metin:
+                    "Vinç kullanımı, sepetli platforma göre daha fazla uzmanlık gerektirir; yük hesabı, sapan bağlantısı ve kaldırma yörüngesi değerlendirmesi deneyimsiz bir kullanıcının güvenle yapabileceği işler değildir. Bu nedenle vinç her zaman operatörlü kiralanır; operatörsüz vinç kiralaması kırsal hat işlerinde sunulmaz. Bu, tartışmaya açık bir tercih değil, işin doğası gereği zorunlu bir kuraldır.",
+            },
+            {
+                baslik: "Operatörün hattan sorumlu personelle koordinasyonu",
+                metin:
+                    "Bir hat işinde operatörümüz, hattan sorumlu personelin verdiği ayırma ve gerilim yokluğu doğrulaması olmadan sepeti yükseltmez. Bu koordinasyon, işin her aşamasında sürer — operatör bomu hareket ettirmeden önce çalışma bölgesinin teslim alındığından emin olur. Bu, operatörlü kiralamanın sağladığı ek bir güvenlik katmanıdır; operatörsüz bir çalışmada bu koordinasyonun aynı titizlikte yürüdüğünü garanti etmek zordur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz seçeneğin karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal hat işlerinde iki seçenek arasındaki farkı ve hangi durumda hangisinin uygun olduğunu gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Operatörlü", "Operatörsüz"],
+                    satirlar: [
+                        ["Enerjili hatta yaklaşma", "Uygundur, deneyimli değerlendirme", "Önerilmez"],
+                        ["Değişken zemin", "Operatör her direkte yeniden değerlendirir", "Riskli, sınırlı uygulanır"],
+                        ["Vinç kullanımı", "Zorunlu", "Sunulmaz"],
+                        ["Kısa süreli, sabit zeminli iş", "Uygundur", "Değerlendirilebilir"],
+                        ["Hattan sorumlu personelle koordinasyon", "Operatör tarafından yürütülür", "Talep eden tarafın sorumluluğunda"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörsüz talep geldiğinde sorduğumuz sorular",
+                paragraflar: [
+                    "Operatörsüz bir talep geldiğinde önce işin niteliğini soruyoruz: enerjili hatta yaklaşma var mı, zemin sabit mi, vinç gerekiyor mu, kullanıcının bu tip makinede deneyimi var mı. Bu dört sorunun cevabı, operatörsüz seçeneğin uygun olup olmadığını büyük ölçüde belirliyor.",
+                    "Cevaplardan biri bile olumsuzsa operatörlü kiralamayı öneriyoruz ve nedenini açıkça söylüyoruz. Bu, satışı kaybetmek pahasına da olsa, sahada yaşanabilecek bir kazadan çok daha tercih edilir bir sonuç.",
+                ],
+            },
+            {
+                baslik: "Operatörlü kiralamada teslimat ve eğitim",
+                paragraflar: [
+                    "Operatörlü kiralamada, operatörümüz sahaya makineyle birlikte gelir ve iş boyunca sahada kalır. Hattan sorumlu personelle ilk temas, çalışma başlamadan önceki kısa bir görüşmedir; bu görüşmede ayırma durumu, çalışma bölgesi ve gün planı netleştirilir.",
+                    "İş bitiminde makine, destek ayakları toplanmış ve güvenli konumda bırakılır; operatör bir sonraki hedefe geçmeden önce sahayı kontrol eder ve varsa geride kalan malzeme ya da ekipmanı bildirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Enerjili hat yakınında operatörsüz platform kiralayabilir miyiz?",
+                cevap:
+                    "Önerimiz değil ve çoğu durumda sunmuyoruz. Enerjili bir iletkene yaklaşırken mesafe hissini korumak, tekrarlı saha deneyimi gerektiren bir beceridir; bu deneyime sahip olmayan bir kullanıcı için risk yüksektir. Bu tip işlerde operatörlü kiralama zorunlu tutuyoruz; operatörümüz hem zemin hem mesafe değerlendirmesini yapar ve hattan sorumlu personelle koordineli çalışır. İşin niteliğini talep aşamasında netleştirip bunu baştan söylüyoruz.",
+            },
+            {
+                soru: "Vinç operatörsüz kiralanabilir mi?",
+                cevap:
+                    "Hayır, kırsal hat işlerinde vinç her zaman operatörlü kiralanır. Yük hesabı, sapan bağlantısı ve kaldırma yörüngesi değerlendirmesi, deneyimsiz bir kullanıcının güvenle üstlenebileceği işler değildir. Bu, tartışmaya açık bir tercih değil, işin doğası gereği zorunlu bir kural; operatörsüz vinç talebi geldiğinde bunu netlikle açıklıyoruz ve alternatif sunmuyoruz.",
+            },
+            {
+                soru: "Deneyimli bir operatörümüz var, kendi ekibimizle çalışabilir miyiz?",
+                cevap:
+                    "Belirli koşullarda evet — kısa süreli, düşük riskli, zeminin sabit ve öngörülebilir olduğu, enerjili hatta yaklaşma gerektirmeyen işlerde operatörsüz seçenek değerlendirilebilir. Bu durumda kullanıcının bu tip makinede deneyimi olduğunu ve işin niteliğini talep aşamasında netleştiriyoruz. Enerjili hatta yaklaşma ya da vinç gerektiren işlerde bu seçenek sunulmuyor, deneyim ne kadar yüksek olursa olsun.",
+            },
+            {
+                soru: "Operatörünüz hattan sorumlu ekiple nasıl koordine oluyor?",
+                cevap:
+                    "Çalışma başlamadan önce operatörümüz, hattan sorumlu personelle kısa bir görüşme yapar ve çalışma bölgesinin ayrılıp ayrılmadığını, gerilim yokluğunun doğrulanıp doğrulanmadığını teyit eder. Bu teyit alınmadan sepet yükseltilmez. İş boyunca bu koordinasyon sürer — her yeni hedefte aynı teyit tekrarlanır, çünkü önceki direkte alınan izin sonraki hedef için geçerli değildir.",
+            },
+            {
+                soru: "Operatörlü kiralamada ek bir maliyet mi çıkıyor?",
+                cevap:
+                    "Operatörlü kiralama günlük bedele dahil edilir ve ayrı bir kalem olarak sunulmaz. Kırsal hat işlerinde operatörlü kiralamayı varsayılan seçenek olarak konumlandırmamızın nedeni ekonomik değil güvenlik gereksinimidir; bu yüzden fiyatlandırmayı da bu varsayım üzerine kuruyoruz. Operatörsüz seçeneğin uygun olduğu nadir durumlarda fiyat farkını talep aşamasında açıkça belirtiyoruz.",
+            },
+            {
+                soru: "Operatör değişikliği ya da vardiya sırasında güvenlik nasıl korunuyor?",
+                cevap:
+                    "Uzun süren bir güzergâh programında operatör değişimi gerekiyorsa, devir sırasında o ana kadar hangi hedeflerin hangi izinle tamamlandığı ve hangi hedeflerin beklediği kayıt altında yeni operatöre aktarılır. Sözlü varsayımlara güvenilmez; her yeni hedefte ayırma ve doğrulama zinciri, yeni operatör tarafından da baştan teyit edilir. Bu, vardiya değişiminde sürekliliği bozmadan güvenliği koruyan standart uygulamamızdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama ayrımı ve vinç operatörlüğünün zorunluluğu iş makinesi kullanımına dair genel güvenlik pratiğidir; enerjili hat yakınında operatör deneyiminin önemi elektrik işlerinde geçerli genel sektör uygulamasıdır. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Dağınık Direk ve Aydınlatma Noktalarında Çok Noktalı Rota Bakımı",
+        giris:
+            "Kırsal bir enerji ya da aydınlatma bakımı, hemen hiç zaman tek bir noktada başlayıp bitmez; bir güzergâh üzerinde dağılmış onlarca küçük iş kaleminden oluşur — bir köyde beş armatür, ötekinde bir direk, üçüncüsünde bir konsol bağlantısı. Bu dağınıklık, tek tek ele alındığında ekonomik olmayan ama tek bir programda toplandığında hızla kapanan bir iş kümesi üretir. Bizim için bu tip işlerin verimini belirleyen şey, her bir kalemin zorluğu değil, kalemler arasındaki mesafe ve bunların doğru sırayla ziyaret edilmesidir. Araç üstü sepetli platform, kendi tekerlekleriyle noktadan noktaya geçtiği için bu iş tipine tam olarak uygundur; ancak asıl fark, makinenin kendisinde değil, güzergâhın nasıl kurgulandığındadır. Bu sayfa, çok noktalı bir rota programının nasıl planlandığını ve hangi kararların günün verimini belirlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Dağınık işi tek güzergâhta toplamak",
+                metin:
+                    "Çok noktalı bir programda verimi belirleyen şey iş kaleminin zorluğu değil, kalemler arasındaki mesafedir. Program yapmak, bir harita üzerinde noktaları sıraya dizmekle başlar: aynı yönde ilerleyen, geri dönüş gerektirmeyen bir halka çizilir ve iş listesi bu halkanın üzerine dağıtılır. Beklenmedik bir kalem çıktığında halka bozulmaz, o kalem bir sonraki geçişe yazılır. Bu disiplin sayesinde bir günde kapanan nokta sayısı, aynı işlerin tek tek ele alındığı bir programa göre kat kat yüksek çıkıyor.",
+            },
+            {
+                baslik: "Kesinti gerektiren kalemleri aynı kolda toplamak",
+                metin:
+                    "Bir rotada bazı noktalar hattı kesmeden yapılabilirken bazıları ayırma gerektirir. Aynı besleme kolu üzerindeki tüm ayırma gerektiren kalemleri tek bir kesinti penceresine toplamak, hazırlık maliyetinin tekrarını önler; ayırma, kilitleme, gerilim doğrulama ve topraklama adımları her kesinti için ayrı ayrı tekrarlanır ve bunlar işin kendisinden uzun sürebilir. Bu yüzden rota planlanırken hangi noktaların aynı kolda olduğu önceden belirlenir.",
+            },
+            {
+                baslik: "Nokta tipine göre süre tahmini",
+                metin:
+                    "Bir günlük programın kaç noktayı kapatabileceğini tahmin etmek, her nokta tipinin ne kadar süreceğini bilmekle mümkündür. Bir armatür değişimi dakikalar sürerken bir konsol onarımı ayırma ve topraklama süresini de içerir; bir direk değişimi ise vinç gerektirdiği için çok daha uzundur. Program hazırlanırken listedeki her kalemin tipi önceden sınıflandırılır ve buna göre gerçekçi bir günlük hedef çıkarılır.",
+            },
+            {
+                baslik: "Malzeme ve erişim engellerinin önceden gözden geçirilmesi",
+                metin:
+                    "Sahada karşılaşılan gecikmelerin çoğu teknik değil fiziksel engellerden kaynaklanır: dalları uzamış bir ağaç, direğin dibine çekilmiş bir araç, kapalı bir avlu kapısı. Bunların hepsi birkaç dakikada çözülebilecek durumlar, ama araç oradayken çözülmeye çalışıldığında günün programını bozar. Bu yüzden geçilecek noktaların bir gün önceden gözden geçirilmesini ve varsa engellerin kaldırılmasını öneriyoruz.",
+            },
+            {
+                baslik: "Vinç gerektiren kalemlerin rotaya yerleştirilmesi",
+                metin:
+                    "Bir rotada tek bir direk dikimi ya da değişimi varsa bile, bunu mümkünse aynı bölgedeki başka bir vinç işiyle eşleştirmeye çalışıyoruz — vincin gün içindeki kullanım oranı, toplam maliyeti doğrudan belirliyor. Rotadaki diğer noktalar sepetli platformla, vinç gerektiren nokta ise iki makinenin birlikte olduğu bir zaman diliminde ele alınır; bu, vincin sahada boş beklemesini önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota planlarken sorduğumuz beş şey",
+                paragraflar: [
+                    "Aşağıdaki tablo, çok noktalı bir program hazırlarken netleştirdiğimiz temel bilgileri ve bunların programı nasıl etkilediğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bilgi", "Neden önemli", "Etkilediği karar"],
+                    satirlar: [
+                        ["Nokta sayısı ve konumu", "Güzergâh sırasını belirler", "Günlük hedef ve rota"],
+                        ["Kesinti gerektiren kalem sayısı", "Hazırlık tekrarını belirler", "Kesinti penceresi planı"],
+                        ["Erişim engeli (ağaç, araç, kapı)", "Sahada zaman kaybını belirler", "Ön hazırlık talebi"],
+                        ["Malzeme sorumluluğu", "Bekleme süresini belirler", "Teslimat sırası"],
+                        ["Vinç gerektiren kalem", "Ek makine ihtiyacını belirler", "İki makineli program"],
+                    ],
+                },
+            },
+            {
+                baslik: "Halka mantığıyla güzergâh kurma",
+                paragraflar: [
+                    "Bir rota planlarken noktaları geri dönüş gerektirmeyecek bir sırayla, tek yönlü bir halka üzerine diziyoruz. Bu, aradaki ölü zamanı en aza indiren en pratik yöntem; aksi hâlde araç aynı yoldan birkaç kez geçmek zorunda kalır ve bu, kullanılabilir çalışma süresini düşürür.",
+                    "Beklenmedik bir kalem sahada ortaya çıktığında halka bozulmaz; bu kalem bir sonraki geçişe not edilir ve program devam eder. Bu disiplin, günün ortasında oluşan gecikmenin tüm programı etkilemesini önler.",
+                ],
+            },
+            {
+                baslik: "Programın gerçekçi hedefe oturtulması",
+                paragraflar: [
+                    "Bir müşteriden gelen liste, gerçekçi bir günlük hedefe oturtulmadan taahhüt edilmez. Listeyi aldığımızda nokta tiplerine, kesinti gereksinimine ve konumlara göre bir tahmin çıkarır, sığmayacağını gördüğümüzde bunu baştan söyleriz. Yarım kalan bir program ikinci bir sevkiyat demektir ve bu, hem müşteri hem bizim için ekonomik değildir.",
+                    "Bu tahmin süreci, listenin ayrıntılı paylaşılmasıyla hızlanır; nokta tipi, kesinti durumu ve konum bilgisi ne kadar netse, program o kadar isabetli çıkar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dağınık on kadar noktamız var; hepsi tek günde biter mi?",
+                cevap:
+                    "Nokta tiplerine ve aralarındaki mesafeye bağlı, ama bu ölçekteki listeler genellikle tek güne sığar. Belirleyici olan iki şey var: kesinti gerektiren kalem sayısı (ayırma-kilitleme-doğrulama-topraklama adımları her kesinti için tekrarlanır) ve güzergâh sırası (noktaları geri dönüş gerektirmeyecek şekilde dizmek ölü zamanı azaltır). Listenizi konum ve nokta tipi bilgisiyle paylaşırsanız gerçekçi bir gün sayısı çıkarırız; sığmayacağını görürsek bunu baştan söyleriz.",
+            },
+            {
+                soru: "Rotayı siz mi planlıyorsunuz, biz mi belirliyoruz?",
+                cevap:
+                    "Rotayı biz planlıyoruz, ancak temel girdi sizden gelir: hangi noktalarda ne tür işler var, kesinti gerektiren kalem sayısı ve varsa öncelik sırası. Bu bilgilerle noktaları coğrafi olarak sıraya diziyor, geri dönüş gerektirmeyen bir güzergâh kuruyoruz. Özel bir öncelik sıranız varsa (örneğin bir köyün acil ihtiyacı) bunu bildirdiğinizde rotayı buna göre ayarlıyoruz.",
+            },
+            {
+                soru: "Sahada beklenmedik bir kalem çıkarsa program bozulur mu?",
+                cevap:
+                    "Genellikle bozulmaz. Beklenmedik bir kalem çıktığında, güvenli ve mantıklıysa güzergâhın bir sonraki uygun noktasına eklenir; değilse ayrı bir ziyarete not edilir ve mevcut halka bozulmadan devam edilir. Bu disiplin, günün ortasında oluşan bir sapmanın tüm programı etkilemesini önlüyor. Beklenmedik kalemin büyüklüğüne göre bazen bu, aynı gün içinde çözülebilir, bazen ertesi güne yazılır.",
+            },
+            {
+                soru: "Bazı noktalarımız kesinti gerektiriyor, bazıları gerektirmiyor; nasıl planlıyorsunuz?",
+                cevap:
+                    "Kesinti gerektiren kalemleri, aynı besleme kolu üzerindeyse tek bir pencerede topluyoruz; bu, hazırlık maliyetinin tekrarını önlüyor. Kesinti gerektirmeyen kalemler ise güzergâhın geri kalanına, coğrafi sıraya göre dağıtılıyor. Bu ayrımı listeyi aldığımızda yapıyoruz ve hangi noktaların hangi pencerede ele alınacağını programla birlikte paylaşıyoruz.",
+            },
+            {
+                soru: "Vinç gerektiren tek bir noktamız var, sırf onun için mi geliyorsunuz?",
+                cevap:
+                    "Mümkünse hayır — tek bir vinç işi için ayrı sevkiyat oransal olarak pahalıdır. Bu tip durumlarda, aynı bölgede başka bir vinç işi olup olmadığını kontrol ediyor, varsa iki işi aynı güne eşliyoruz. Yoksa bile, rotadaki diğer noktaları sepetli platformla ayrıca kapatıp vinç gününü ayrı planlıyoruz; bu, vincin gün içindeki kullanım oranını yükseltip maliyeti düşürüyor.",
+            },
+            {
+                soru: "Erişim engeli olan noktaları önceden bildirmek işe yarıyor mu?",
+                cevap:
+                    "Çok yarıyor. Sahada karşılaşılan gecikmelerin büyük bölümü teknik değil fiziksel engellerden kaynaklanıyor — dalları uzamış bir ağaç, direğin dibine çekilmiş bir araç, kapalı bir kapı. Bunlar önceden bilinirse ya rota planına dahil edilir ya da işi yaptıran taraftan giderilmesi istenir. Araç sahaya vardığında bu engellerle karşılaşmak, günün programını doğrudan bozuyor; bu yüzden bir gün önceden kısa bir kontrolü öneriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok noktalı rota planlaması, kesinti penceresi birleştirme ve güzergâh halkası mantığı saha pratiğinden alınmıştır; ayırma-kilitleme-doğrulama-topraklama adımları elektrik işlerinde geçerli genel güvenlik pratiğidir. Firma adı, tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Kırsal Arazi Koşullarında Platform ve Vinç Erişimi",
+        giris:
+            "Bir kırsal hat direğine ulaşmanın en büyük engeli, çoğu zaman direğin kendisi değil, ona giden yoldur. Asfalt olmayan bir yol, tarla kenarına açılmış stabilize bir geçit, yağış sonrası yumuşayan bir banket, bir hendek ya da menfezle kesilen bir güzergâh — bunların hepsi, sepetli platformun ya da vincin sahaya güvenle ulaşıp ulaşamayacağını belirleyen gerçek değişkenlerdir. Bu, ikinci sırada gelen bir ayrıntı değil, kırsal hat işlerinin en belirleyici planlama sorunudur; çünkü ekipmanın kapasitesi ne olursa olsun, zemine güvenle basamıyorsa iş yapılamaz. Bu yüzden bizim için her hat işi, makine seçiminden önce bir erişim değerlendirmesiyle başlar: aracın gidebileceği en yakın nokta neresi, oradan hedefe mesafe ve kot farkı ne kadar, zemin taşıma gücü destek ayaklarını kaldıracak mı. Bu sayfa, zor zemin ve arazi koşullarında bu değerlendirmenin nasıl yapıldığını ve hangi kararların sahada verildiğini ayrıntılı olarak anlatır.",
+        maddeler: [
+            {
+                baslik: "Destek ayağı ve zemin taşıma gücü değerlendirmesi",
+                metin:
+                    "Sepetli araç, gövdesini tekerleklerinden değil açılan destek ayaklarından dengeler ve bu ayakların bastığı noktanın taşıma gücü, çalışmanın tamamını belirler. Kırsal güzergâhlar çoğunlukla tarla kenarı, banket ve stabilize yol üzerinden geçer; buralarda zemin bir noktada sağlam, birkaç metre ötede yumuşak olabilir. Uygulamamız, her kurulumda ayakların altına yük dağıtıcı plaka koymak ve bomu kaldırmadan önce oturma olup olmadığını gözle kontrol etmektir. Hendek, menfez ve yol şevine yakın park noktalarında ayak, kenardan güvenli mesafede bırakılır; kenar boşluğu yetmiyorsa araç konum değiştirir.",
+            },
+            {
+                baslik: "Eğimli zeminde çalışmanın kesin sınırı",
+                metin:
+                    "Sepetli araçların ve vinçlerin çalışabileceği azami zemin eğimi üretici tarafından tanımlanmıştır ve bu sınır aşıldığında makine ya uyarı verir ya da hareketi kısıtlar. Yamaç üzerindeki bir direğe yanaşırken en tehlikeli konfigürasyon, aracın sığdığı ama zeminin yanlamasına eğimli olduğu durumdur; çünkü bom açıldığında ağırlık merkezi eğim yönüne kayar. Uygulamamız, destek ayaklarıyla aracı yatay konuma getirmek ve seviye göstergesi kabul edilebilir aralığa girmeden bomu kaldırmamaktır. Ayaklarla düzeltilemeyen eğimde park noktası değişir; bu, tartışma konusu olmayan bir sınırdır.",
+            },
+            {
+                baslik: "Yola uzak direklerde bomun yatay uzanması",
+                metin:
+                    "Direklerin bir bölümüne araçla dibine kadar gidilemez; yamaç, tarla sınırı ya da dere yatağı araya girer. Bu durumda çözüm, aracı ulaşılabilen en yakın sağlam zemine park edip hedefe yandan uzanmaktır. Bom tipi makinelerde azami yükseklik ile azami yatay erişim aynı anda kullanılamaz; biri arttıkça diğeri düşer. Dolayısıyla makine sınıfı seçilirken tek bir yükseklik rakamına değil, park noktasından hedefe olan mesafe ile hedefin kotunun oluşturduğu ikiliye bakılır. Kot farkı yukarı yönlüyse gereken sınıf hızla büyür.",
+            },
+            {
+                baslik: "Toprak yolda mevsime bağlı geçilebilirlik",
+                metin:
+                    "Kuru ve sıkışmış toprak yolda araç sorunsuz ilerler; ancak yağış sonrası yumuşamış geçitlerde hem batma hem kayma riski doğar. Uygulamada güzergâhı kuru bölümlerden kuracak şekilde sıralıyor, ıslak kesimleri programın sonuna ya da alternatif bir güne bırakıyoruz. Zeminin geçilebilirliği kesin belirsizse, kısa bir ön geçiş yaparak sahaya vardığımızda sürpriz yaşanmasını önlüyoruz; bu, özellikle daha önce hiç çalışılmamış güzergâhlarda önemli bir adımdır.",
+            },
+            {
+                baslik: "Zorlu erişimde makine sınıfı değişimi",
+                metin:
+                    "Bazı hedeflerde standart araç üstü platformun erişim kabiliyeti yetersiz kalabilir; bu durumda arazi kabiliyeti daha yüksek bir makine sınıfına geçilir. Bu geçiş, hat boyu hız avantajının bir bölümünden vazgeçmek anlamına gelir, ancak sahaya güvenle ulaşmanın tek yolu buysa tercih budur. Hangi sınıfın gerektiğini, zemin fotoğrafları ve mesafe bilgisiyle mümkünse sahaya gitmeden, gerekirse kısa bir ön ziyaretle belirliyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin ve erişim durumuna göre karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal arazi koşullarında karşılaşılan tipik erişim senaryolarını ve bunlara verdiğimiz standart yanıtı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha durumu", "Risk", "Uygulama", "Sonuç"],
+                    satirlar: [
+                        ["Kuru, sıkışmış toprak yol", "Düşük", "Standart kurulum, plaka opsiyonel", "Sorunsuz erişim"],
+                        ["Islak/yumuşak geçit", "Batma, kayma", "Alternatif güzergâh veya gün", "Erteleme ya da rota değişikliği"],
+                        ["Yanlamasına eğimli zemin", "Devrilme", "Ayaklarla yatay konuma getirme", "Sınır aşılırsa park değişir"],
+                        ["Hendek/menfez engeli", "Erişim engeli", "Bomun yatay uzanmasıyla erişim", "Makine sınıfı büyüyebilir"],
+                        ["Çok yumuşak/bataklık zemin", "Yüksek", "Standart makine kullanılmaz", "Alternatif yöntem konuşulur"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sahaya gitmeden erişim değerlendirmesi",
+                paragraflar: [
+                    "Bir hedefin erişilebilir olup olmadığını sahaya gitmeden büyük ölçüde belirlemek için üç bilgi istiyoruz: aracın park edebileceği en yakın sağlam noktadan hedefe olan mesafe, varsa kot farkı ve zeminin genel türü (asfalt, stabilize, toprak, tarla). Bu üç bilgi fotoğrafla desteklendiğinde, doğru makine sınıfını ve gerekiyorsa alternatif bir tarih önerisini önceden verebiliyoruz.",
+                    "Belirsizlik yüksekse, özellikle daha önce hiç çalışılmamış bir güzergâhta, kısa bir ön keşif öneriyoruz. Bu, sahada yanlış makineyle gidip geri dönmek zorunda kalmaktan çok daha ekonomiktir.",
+                ],
+            },
+            {
+                baslik: "Dürüst sınır: her zeminde çalışılamaz",
+                paragraflar: [
+                    "Bazı zeminler — çok yumuşak, bataklık kıvamında ya da aşırı dik — standart bir sepetli platform ya da vinç için güvenle çalışılabilir değildir. Bu durumlarda makineyi zorlamak yerine durumu açıkça söylüyor ve alternatif bir yöntem ya da zamanlama konuşuyoruz. Bu dürüstlük, kısa vadede işi kaybettirse bile, uzun vadede hem makinenin hem personelin güvenliğini koruyan tek doğru yaklaşımdır.",
+                    "Mevsimsel değişim burada önemli bir faktördür; bugün geçilemez görünen bir zemin, kuruma sonrası birkaç hafta içinde geçilebilir hâle gelebilir. Bu yüzden acil olmayan işlerde zamanlamayı zeminin durumuna göre esnetmeyi öneriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aracınız her toprak yolda ilerleyebiliyor mu?",
+                cevap:
+                    "Kuru ve sıkışmış yüzeyde ilerler; asıl risk yağış sonrası yumuşamış geçitlerde ortaya çıkar. Araç üstü platformlar yol tipi araçlar üzerine kurulur ve arazi kabiliyetleri sınırlıdır; çamurda çekilmek zorunda kalmak bir günü tümüyle bitirebilir. Güzergâhı planlarken hangi kesimlerin ıslak olduğunu soruyor, programı kuru bölümlerden başlatıyoruz. Erişimi kritik noktalarda arazi kabiliyeti yüksek bir makine sınıfına geçmeyi de değerlendiriyoruz, ancak bu durumda hat boyu hız avantajının bir kısmından vazgeçilir.",
+            },
+            {
+                soru: "Direğimiz bir hendeğin öte tarafında, araç oraya gidemiyor; ne yapıyorsunuz?",
+                cevap:
+                    "Aracı hendeğin bu tarafındaki sağlam bir noktaya park edip, bomun yatay uzanmasıyla hedefe ulaşmayı deniyoruz. Bunun mümkün olup olmadığını netleştirmek için hendeğin genişliğini ve park noktasından direğe olan mesafeyi bilmemiz gerekiyor. Mesafe büyükse daha geniş erişimli bir makine sınıfına geçilir. Bu ölçüleri fotoğrafla paylaşırsanız, sahaya gitmeden doğru makineyi büyük ölçüde belirleyebiliyoruz.",
+            },
+            {
+                soru: "Zemin eğimli görünüyor, makineniz orada çalışabilir mi?",
+                cevap:
+                    "Duruma bağlı ve bu konuda net bir teknik sınır var. Sepetli araçların ve vinçlerin çalışabileceği azami zemin eğimi üretici tarafından tanımlanmıştır; bu sınır aşıldığında makine hareketi kısıtlar. Destek ayaklarıyla aracı yatay konuma getirmeye çalışıyoruz, ama ayaklarla düzeltilemeyen bir eğimde park noktası değiştirilir. Bu, sahada tartışmaya açık bir karar değil; seviye göstergesi kabul edilebilir aralığa girmeden bom kaldırılmıyor.",
+            },
+            {
+                soru: "Zeminin taşıma gücünden emin değiliz, önceden test edebiliyor musunuz?",
+                cevap:
+                    "Kesin bir zemin testi sahada yapılmadan verilmez, ancak fotoğraf üzerinden büyük ölçüde ön değerlendirme yapabiliyoruz. Zeminin toprak mı, stabilize mi, tarla mı olduğunu ve son yağıştan bu yana ne kadar süre geçtiğini bilmek, riskin büyüklüğü hakkında iyi bir fikir veriyor. Sahada ise her kurulumda destek ayaklarının altına yük dağıtıcı plaka koyuyor ve bomu kaldırmadan önce oturma olup olmadığını gözle kontrol ediyoruz. Belirsizlik yüksekse kısa bir ön keşif öneriyoruz.",
+            },
+            {
+                soru: "Her zemin için uygun makineniz var mı, yoksa bazı yerlerde çalışamıyor musunuz?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse, hayır — bazı zeminler çok yumuşak, bataklık kıvamında ya da aşırı dik olduğu için standart bir sepetli platform ya da vinç için güvenle çalışılabilir değildir. Bu durumlarda makineyi zorlamak yerine durumu açıkça söylüyor ve alternatif bir yöntem ya da zamanlama konuşuyoruz. Bu, kısa vadede işi kaybettirse bile hem makinenin hem personelin güvenliğini koruyan tek doğru yaklaşım; mevsimsel kuruma sonrası aynı zeminin geçilebilir hâle gelmesi de sık karşılaştığımız bir durum.",
+            },
+            {
+                soru: "Arazi kabiliyeti yüksek makineye geçmek fiyatı değiştirir mi?",
+                cevap:
+                    "Genellikle evet, çünkü bu makine sınıfı standart araç üstü platforma göre hem daha az yaygın hem de hat boyu hızı daha düşük. Bu geçişi yalnızca zeminin gerçekten gerektirdiği durumlarda öneriyoruz; standart makinenin yeterli olduğu bir işte gereksiz yere daha pahalı bir sınıfa geçmiyoruz. Hangi sınıfın gerektiğini zemin fotoğrafları ve mesafe bilgisiyle keşifte netleştirip fiyat farkını baştan söylüyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Destek ayağı zemin taşıma gücü, azami çalışma eğimi ve bom yatay erişim sınırları EN 280 kapsamındaki genel makine tanımlarına ve üretici teknik verilerine dayanır; kırsal arazi erişim senaryoları saha pratiğinden alınmıştır. Firma adı, tesis adı, mesafe ve kapasite rakamı kullanılmamıştır.",
+    },
 };

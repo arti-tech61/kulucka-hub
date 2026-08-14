@@ -691,4 +691,969 @@ export const IZMIR_FORKLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Menemen ve çevresinin tarım-gıda ağırlıklı sanayi dokusu ile İzmir'in liman-hava kargo altyapısına yakınlığı kamuya açık bilgidir; konteyner iç ölçü kısıtı, dorse dingil yükü dengesi ve hava kargoda hacimsel ağırlık uygulaması sektör standardı bilgilerdir; kademeli kiralama modeli ve geriye doğru sevkiyat planlaması firma pratiğimizdir. Tesis adı ve sayısal iddia kullanılmamıştır.",
     },
+
+    // ── HİZMET SAYFALARI (11 sabit slug, src/lib/hizmet-konulari.ts) ────
+    // Yazım: 2026-08-14. Domain açısı korunmuştur: liman geri sahası, gümrüklü
+    // antrepo, hava kargo terminali. forklift-istifleme-kiralama ve
+    // nakliye-teslimat-hizmeti en detaylı işlenen iki sayfadır — domainin
+    // çekirdek işi. Kişi taşıma platformu gerektiren hizmetlerde (sepetli-
+    // örümcek, eklemli-platform-boom, enerji-aydınlatma bakımı) kapsam dışı
+    // olduğu dürüstçe belirtilmiştir; forklift filosunun malzeme taşıma rolüyle
+    // kesiştiği ölçüde (çelik konstrüksiyon, tarım-silo) kısmi/yönlendirmeli
+    // içerik yazılmıştır.
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Forklift Teslimatı: Liman Kapısı, Gümrüklü Saha ve Hava Kargo Terminali Erişimi",
+        giris:
+            "İzmir'in liman ve hava kargo çevresinde forklift teslimatının asıl zorluğu yol üzerinde değil, teslim noktasının kendisindedir — çünkü hedef nokta çoğunlukla açık bir depo avlusu değil, kendi giriş kuralı olan kontrollü bir sahadır. Liman geri sahasına giren her taşıyıcı önce kapı kaydından geçer; gümrüklü antrepoya veya serbest bölgeye makine sokmak, malın kendisi değilse de sahanın güvenlik ve kayıt disiplinine tabidir; hava kargo terminalinde ise apron ile terminal içi arasındaki sınır kesin ve makinenin bu sınırı hiçbir koşulda geçmemesi gerekir. Bu üç ortamın ortak noktası, teslimatın taşıyıcı seçimiyle bitmediğidir — asıl iş, makinenin doğru kapıdan, doğru izinle ve sahanın kendi trafiğini bozmadan içeri girmesini planlamaktır. Bu sayfa, forkliftin İzmir'deki liman, gümrük ve hava kargo sahalarına nasıl teslim edildiğini, hangi sahada hangi erişim kısıtının geçerli olduğunu ve teslim anında hangi kayıtların tutulduğunu anlatır; nakliye burada bağımsız bir lojistik değil, doğru makinenin kontrollü bir sahaya güvenle girmesinin son adımıdır.",
+        maddeler: [
+            {
+                baslik: "Liman geri sahasına giriş, kendi kapı kaydından geçer",
+                metin: "Liman geri sahasına giren her ağır taşıyıcı, sahanın kendi güvenlik ve giriş kayıt sürecine tabidir; plaka, sürücü ve yük bilgisinin önceden bildirilmemesi kapıda beklenmedik bir gecikmeye yol açar. Forklift teslimatını planlarken bu kaydı bağımsız bir adım olarak ele alır, taşıyıcı bilgisini sahanın kural setine göre önceden iletiriz. Kapı yoğunluğunun tahmin edilebilir olduğu saatler (vardiya değişimi, gemi yanaşma sonrası) teslimat penceresinden bilinçli olarak dışarıda tutulur.",
+            },
+            {
+                baslik: "Gümrüklü antrepo ve serbest bölgeye makine sokmak ayrı bir konudur",
+                metin: "Forklift, gümrüklü sahaya giren bir mal değildir; ancak sahanın fiziksel güvenlik ve kayıt kuralı makineler için de geçerlidir — özellikle serbest bölge girişlerinde araç ve ekipman kaydı, malzeme kaydından ayrı işletilir. Teslimat öncesi bu ayrımı netleştirir, makinenin hangi kayıt altında sahaya alınacağını sahanın yetkilisiyle teyit ederiz. Bu adım atlanırsa makine kapıda beklerken sahanın kendi malzeme kabul kuyruğu da gecikir.",
+            },
+            {
+                baslik: "Hava kargo terminalinde apron sınırı kesindir",
+                metin: "Hava kargo terminaline teslim edilen forklift, terminal içi ve rampa çevresiyle sınırlıdır; uçağın bulunduğu apron alanına giriş ayrı bir yetki ve eğitim gerektirir ve bu sayfanın kapsamı dışındadır. Teslimat planlarken makinenin çalışacağı alanın apron sınırının hangi tarafında kaldığı önceden netleştirilir; sınırın belirsiz olduğu durumlarda terminal yetkilisinin onayı olmadan teslimat tamamlanmaz.",
+            },
+            {
+                baslik: "Saha içi erişim: dar geçit, rampa ve kontrol noktaları",
+                metin: "Liman geri sahası ve gümrüklü antrepolar genellikle birden fazla iç kontrol noktasından oluşur — geri saha girişi, antrepo kapısı, tartı noktası gibi. Taşıyıcının bu noktaların her birinden geçebilecek boyutta olması, teslimat rotası çizilirken kontrol edilir. Rampa eğimi ve zemin taşıma kapasitesi, özellikle ağır tonajlı makinelerin gümrüklü saha içine indirilmesinde ayrıca doğrulanır; sahaya özgü bir kısıt varsa taşıyıcı ona göre değiştirilir.",
+            },
+            {
+                baslik: "Teslim anında kontrol, saha kaydıyla birlikte tutulur",
+                metin: "Forklift sahaya ulaştığında yakıt veya enerji seviyesi, görünür hasar, takılı ataşman ve saat sayacı birlikte kontrol edilir; gümrüklü veya liman sahalarında bu kayıt, sahanın kendi giriş kaydıyla da eşleştirilir — böylece makinenin hangi tarihte, hangi izinle sahaya girdiği hem bizim hem sahanın kayıtlarında aynı anda görünür. Kontrol tamamlanmadan makine teslim edilmiş sayılmaz; eksik veya hasar tespit edilirse sahaya girmeden çözülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslim noktası tipine göre erişim şartı ve kritik kontrol",
+                paragraflar: [
+                    "Aşağıdaki tablo, İzmir'in liman ve hava kargo çevresindeki dört farklı teslim noktası tipini ve her birinde teslimattan önce netleştirilmesi gereken erişim şartını özetler. Sahaya özgü kesin kural, ilgili işletmenin güvenlik biriminden ayrıca teyit edilir.",
+                ],
+                tablo: {
+                    basliklar: ["Teslim noktası", "Erişim şartı", "Kritik kontrol", "Sık yapılan hata"],
+                    satirlar: [
+                        ["Liman geri sahası", "Kapı kaydı, plaka bildirimi", "Vardiya/gemi yanaşma yoğunluğu", "Bildirimsiz taşıyıcı gönderme"],
+                        ["Gümrüklü antrepo", "Saha güvenlik kaydı", "Malzeme kabul kuyruğuyla çakışma", "Araç ile mal kaydının karıştırılması"],
+                        ["Serbest bölge", "Araç/ekipman girişi ayrı kayıt", "Giriş-çıkış belgesinin eksiksizliği", "Malzeme kaydıyla aynı işlem sanılması"],
+                        ["Hava kargo terminali (iç)", "Terminal içi erişim, apron dışı", "Apron sınırının netliği", "Sınırın teyit edilmeden varsayılması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gümrüklü sahada teslim saati, muayene ve işlem takvimine göre kurulur",
+                paragraflar: [
+                    "Gümrüklü bir antrepoya veya serbest bölgeye forklift teslim ederken, sahanın kendi muayene ve işlem takvimi teslim saatini belirleyen asıl değişkendir. Muayene randevusuna denk gelen bir teslimat, hem makinenin girişini hem de sahanın o anki işlemini yavaşlatabilir; bu yüzden teslim penceresi sahanın günlük işlem yoğunluğu düşükken planlanır.",
+                    "Yeni makinenin ilk saatinden itibaren kullanılabilir olması için rota ve görev ataması teslimattan önce netleştirilir; aksi hâlde makine sahaya girse bile ilk saatlerini bekleyerek geçirir. Bu hazırlık, özellikle sahanın kendi güvenlik brifingi (yaya yolu, kontrol noktası, acil durum prosedürü) verilene kadar tamamlanmış sayılmaz.",
+                ],
+            },
+            {
+                baslik: "İade süreci aynı erişim disipliniyle tersine işletilir",
+                paragraflar: [
+                    "Kiralama süresi bitince makinenin sahadan çıkışı, girişteki kaydın simetriğidir: liman veya gümrüklü sahanın çıkış kaydı, taşıyıcı temini ve çıkış rotası yeniden doğrulanır. Makinenin son durumu (yakıt/enerji, hasar, sayaç) teslim anındaki kayıtla karşılaştırılır; fark varsa sahanın yetkilisi ile birlikte belgelenir.",
+                    "Birden fazla sahaya (liman geri sahası, antrepo, terminal) hizmet veren bir işletmenin aynı gün birden fazla makineyi iade etmesi gerekiyorsa, çıkışlar her sahanın kendi trafik ve işlem yoğunluğuna göre sıraya konur; tek bir sahanın çıkış kuralı diğerine uygulanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Liman geri sahasına makine gönderdiğimizde kapıda ne kadar bekleniyor?",
+                cevap: "Sabit bir bekleme süresi yoktur; bekleme, sahanın o anki kapı yoğunluğuna ve bildirim zamanlamasına bağlıdır. Gecikme riskini azaltmak için plaka, sürücü ve yük bilgisini sahanın kural setine göre önceden bildiririz; buna rağmen gemi yanaşma sonrası veya vardiya değişimi gibi yoğun saatlere denk gelen teslimatlarda bekleme uzayabilir. Bu yüzden mümkün olduğunda teslim penceresini bu yoğun saatlerin dışına planlarız; sahanızın tipik yoğunluk saatlerini paylaşırsanız planı ona göre kurarız.",
+            },
+            {
+                soru: "Forklift apron alanına girebiliyor mu?",
+                cevap: "Hayır. Bu domainin kapsamı terminal içi ve rampa çevresiyle sınırlıdır; uçağın bulunduğu apron alanına giriş ayrı bir yetki, eğitim ve güvenlik izni gerektirir ve standart forklift teslimatının kapsamı dışındadır. Teslimat öncesi makinenin çalışacağı alanın apron sınırının hangi tarafında kaldığı netleştirilir; belirsizlik varsa terminal yetkilisinin onayı alınmadan teslimat tamamlanmaz.",
+            },
+            {
+                soru: "Gümrüklü antrepoya makine sokmak için ayrı bir evrak mı gerekiyor?",
+                cevap: "Forklift malın kendisi değildir, ancak sahanın fiziksel güvenlik ve araç-ekipman kaydı buna rağmen işletilir; bu kayıt malzeme kabul kaydından ayrıdır ve sahanın kendi kuralına göre yürütülür. Hangi kaydın gerekli olduğunu teslimattan önce sahanın yetkilisiyle teyit eder, taşıyıcı bilgisini buna göre iletiriz. Bu adım atlanırsa makine kapıda beklerken sahanın malzeme kabul kuyruğu da etkilenebilir.",
+            },
+            {
+                soru: "Teslimat hangi saatlerde yapılıyor?",
+                cevap: "Sabit bir saat dilimi yoktur; sahanızın türüne göre belirleyici değişken farklıdır — liman geri sahasında gemi yanaşma programı, gümrüklü antrepoda muayene ve işlem takvimi, hava kargo terminalinde uçuş yoğunluğu. Teslim saati bu değişkenler görüşülerek belirlenir ve mümkün olduğunda sahanın en sakin penceresine yerleştirilir. Sahanıza habersiz araç gönderilmez, saat önceden netleştirilir.",
+            },
+            {
+                soru: "Makine arızalanırsa gümrüklü sahaya ikame gönderme süreci nasıl işliyor?",
+                cevap: "İkame makinenin sahaya girişi de aynı kapı ve kayıt disiplinine tabidir; bu yüzden gümrüklü veya liman bağlantılı kiralamalarda ikame süresi sözleşmede yazılı olarak tanımlanır ve ikame aracın giriş kaydı önceden hazırlanır. Arıza anında beklenmedik bir kapı gecikmesi yaşanmaması için ikame taşıyıcının bilgileri, mümkünse orijinal teslimatla birlikte sahaya önceden bildirilir.",
+            },
+            {
+                soru: "Aynı gün liman, antrepo ve terminale ayrı ayrı teslimat yapabilir misiniz?",
+                cevap: "Yapabiliriz; her sahanın kendi giriş kuralı, kayıt süreci ve trafik yoğunluğu farklı olduğu için her teslimat ayrı planlanır ve tek bir gün planı içinde sıralanır. Sahalar arası mesafe ve her birinin tipik yoğunluk saati önceden çıkarılır, teslimatlar bu sıraya göre planlanır; böylece bir sahadaki gecikme diğerine yansımaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Liman geri sahasının kapı/güvenlik kaydı, gümrüklü antrepo ve serbest bölgede araç-ekipman girişinin malzeme kaydından ayrı işletilmesi, hava kargo terminalinde apron erişiminin ayrı yetki gerektirmesi kamuya açık, sektör standardı bilgilerdir. Teslim anı kontrol kaydı ve ikame makine taahhüdü firma pratiğimizdir. Tesis adı, süre veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Forklift İstifleme Kiralama: Gümrüklü Antrepoda Adresli İstif ve Konteyner Yükleme Deseni",
+        giris:
+            "İzmir'in liman ve gümrük çevresinde forklift istiflemesi iki farklı hedefe aynı anda hizmet eder ve bu ikisi genellikle karıştırılır. Birincisi, gümrüklü antrepo veya serbest bölge deposu içindeki klasik raf istiflemesidir — burada asıl mesele kapasite değil izlenebilirliktir, çünkü her palet belirli bir adrese kaydedilmek zorundadır ve adressiz istiflenen bir yük sayım gününde fiilen kayıptır. İkincisi ise ihracata hazırlanan yükün konteynerin iç ölçüsüne göre paletlenmesi ve istiflenmesidir — burada mesele adres değil geometridir, çünkü depoda kurulan istif deseni konteynerin kapı yüksekliğine ve iç genişliğine oturmuyorsa saha da bu hata fark edilir ve ya yeniden paletleme yapılır ya da konteyner eksik doldurulmuş gönderilir. Bu sayfa istifleme forkliftini bu iki hedef üzerinden ele alır: raf koridorunda hangi makine sınıfının çalışacağı, konteyner yükleme öncesi istif yüksekliğinin nasıl hesaplandığı, gemi veya uçuş programına göre istifleme kapasitesinin nasıl planlandığı ve hasarlı ya da etiketsiz yükün istif akışından nasıl ayrıldığı.",
+        maddeler: [
+            {
+                baslik: "Adresli istif: gümrüklü depoda hız değil izlenebilirlik önceliklidir",
+                metin: "Gümrüklü antrepo ve serbest bölge depolarında forkliftin görevi, paleti sadece rafa kaldırmak değil, kaldırdığı yeri kayda geçirmektir. Depo bloklara ayrılır, her blok fiziken işaretlenir ve her kaldırma hareketi adresle birlikte kaydedilir. Operatör hangi paleti nereye kaldıracağını görünür bir liste veya sistem üzerinden alır, sahada tahminle adres belirlemez. Bu disiplin, sayım günü aranan bir palet yerine anında bulunan bir palet farkı yaratır; istifleme kiralama kararı bu yüzden yalnız makinenin kapasitesine değil, adresli çalışma alışkanlığına da bakılarak verilir.",
+            },
+            {
+                baslik: "Konteyner yükleme öncesi istif yüksekliği, kapı ölçüsünden geriye hesaplanır",
+                metin: "Bir yük konteynerle limana gidecekse, depodaki istif deseni konteynerin iç ölçüsüne göre önceden kurulmalıdır. Standart bir konteynerin iç yüksekliği, kapı açıklığı ve genişliği sabit bantlardadır; palet istifinin toplam yüksekliği bu iç yüksekliğe güvenli bir boşluk payı bırakılarak hesaplanır, aksi hâlde yükleme sırasında son sıra paletler kapıya sığmaz veya tavana sürtünür. Bu hesap, konteyner sahaya gelmeden, depo içinde forklift tarafından paletleme yapılırken tamamlanır — konteyner kapıda beklerken yeniden paletleme yapmak hem zaman hem palet bütünlüğü kaybıdır.",
+            },
+            {
+                baslik: "Raf kotu ve koridor genişliği, makine ailesini belirler",
+                metin: "Antrepo içindeki raf kotu ne kadar yüksekse ve koridor ne kadar darsa, standart karşı ağırlıklı forkliftin yerini kompakt bir sınıf almak zorunda kalır; bu ayrım depo planı çıkarılırken netleştirilir, sahada makine değiştirilerek çözülmez. Gümrüklü depoların çoğunda koridor genişliği sabit bir standarda göre kurulduğu için makine seçimi de bu sabit ölçüye göre yapılır; ölçü paylaşılmadan sınıf önerilmez.",
+            },
+            {
+                baslik: "Sevkiyat dalgasına göre ek istifleme kapasitesi",
+                metin: "Gemi yanaşma programı veya uçuş yoğunluğu, istifleme yükünü düz bir çizgide değil dalga hâlinde getirir; yanaşma öncesi birkaç gün boyunca depoya yük yığılır, ardından tempo düşer. Bu dalgayı sabit bir filo ile karşılamak, sakin günlerde atıl makine kirası ödemek anlamına gelir; taban güne göre boyutlamak ise yoğun günde depoyu kilitler. Doğru kurgu, sürekli işi karşılayan çekirdek makineleri sabit tutup yoğunluk günlerini kısa süreli ek makineyle karşılamaktır — bu ek kapasite, program belli olduğunda önceden bağlanır.",
+            },
+            {
+                baslik: "Hasarlı veya etiketsiz yükün istif akışından ayrılması",
+                metin: "Yırtık ambalaj, kırık palet veya sistemle uyuşmayan etiket taşıyan yük, adresli istif akışına dâhil edilmez; işaretli karantina alanına alınır ve depo sorumlusunun kararına bırakılır. Operatör böyle bir yükü kendi kararıyla normal rafa kaldırmaz, çünkü hem sayım kaydını hem de olası ihracat evrakını bozar. Sorun çözüldüğünde yük yeni etiket ve adresle sisteme yeniden girer; bu ayrım, tek bir sorunlu paletin bütün istif planını yavaşlatmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İstifleme senaryosuna göre makine sınıfı ve kritik nokta",
+                paragraflar: [
+                    "Aşağıdaki tablo, liman ve gümrük çevresindeki dört yaygın istifleme senaryosunu ve her birinde öncelikli kontrol noktasını özetler. Kesin makine sınıfı gerçek raf kotu, koridor ölçüsü ve yük tipiyle doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Öncelikli hedef", "Tipik sınıf", "Kritik nokta"],
+                    satirlar: [
+                        ["Gümrüklü depo raf istifi", "İzlenebilirlik", "Koridor ölçüsüne göre kompakt/standart", "Adresli kaldırma kaydı"],
+                        ["Konteyner yükleme paletleme", "Geometri (kapı/iç ölçü)", "Standart karşı ağırlıklı", "İstif yüksekliği payı"],
+                        ["Açık saha stok istifi", "Dayanıklılık", "Havalı lastikli, orta-ağır tonaj", "Zemin ve hava koşulu"],
+                        ["Hava kargo iç mekân hazırlığı", "Hacim disiplini", "Akülü, kompakt", "Paletleme sıkılığı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Konteyner paletleme matematiği: iç ölçü, palet ölçüsü, boşluk payı",
+                paragraflar: [
+                    "Konteynere yönelik istifleme, üç ölçünün birlikte düşünülmesini gerektirir: konteynerin iç yüksekliği ve genişliği, kullanılan palet tabanının ölçüsü ve istif sırasında bırakılan güvenlik payı. Bu üçü depoda önceden hesaplanmazsa saha kendini konteyner kapısında gösterir — ya son sıra sığmaz ya da genişlik kullanılmadan boşluk kalır. Doğru yöntem, istif yüksekliğini konteynerin iç yüksekliğinden pay bırakarak sabitlemek ve palet tabanını konteynerin genişliğine göre kurmaktır.",
+                    "Bu hesap bir kere doğru kurulduğunda, aynı konteyner tipine giden tekrarlayan sevkiyatlarda yeniden hesaplanmaz; depo ekibi aynı istif desenini tekrar kullanır. Konteyner tipiniz değiştiğinde (örneğin standart yükseklikten yüksek gövdeye geçildiğinde) desenin yeniden kontrol edilmesi gerekir.",
+                ],
+            },
+            {
+                baslik: "Gemi ve uçuş programına göre istifleme kapasitesini önceden bağlamak",
+                paragraflar: [
+                    "İstifleme yükü liman ve hava kargo çevresinde düz bir tempoda gelmez; gemi yanaşma ve uçuş yoğunluğu belli günlere veya saatlere yığılır. Bu yığılmayı öngörmeden filo boyutlandırmak iki uçtan birine düşer: ya sakin günlerde atıl makine kirası ödenir ya da yoğun günde depo kilitlenir. Programın önceden bilindiği durumlarda ek istifleme makinesi, yoğunluk gününden önce rezerve edilir; bu, aynı programı izleyen komşu sahaların aynı güne talep yığdığı gerçeği karşısında tek güvenilir yöntemdir.",
+                    "Ek makine planında sıkça atlanan kalem operatördür; yoğunluk günü sahaya inen makine, operatörü olmadan sadece park etmiş bir ekipmandır. Kısa süreli istifleme takviyelerinde operatörlü kiralama, personel bulma telaşını baştan ortadan kaldırdığı için tercih edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gümrüklü depoda hangi forklift sınıfı istifleme için uygundur?",
+                cevap: "Tek bir cevap yoktur; raf kotu, koridor genişliği ve tipik yük ölçüsü birlikte değerlendirilir. Dar koridor ve yüksek raf kompakt bir sınıfı gerektirirken, geniş koridor ve orta yükseklik standart karşı ağırlıklı makineyle rahatça karşılanır. Adresli çalışma disiplini her iki sınıfta da aynı şekilde uygulanır — makine sınıfından bağımsız olarak operatör her kaldırmayı kayıtlı adrese göre yapar. Depo planınızı ve raf kotunuzu paylaşırsanız uygun sınıfı birlikte belirleriz.",
+            },
+            {
+                soru: "İstiflediğimiz paletler konteynere yüklerken bazen sığmıyor, sorun nerede olabilir?",
+                cevap: "Sorun neredeyse her zaman istif deseninin, konteyner sahaya gelmeden önce kutunun iç ölçüsüne göre kurulmamasındandır. İstif yüksekliği ve palet tabanı konteynerin iç yüksekliği ve genişliğine göre depo içinde önceden hesaplanmalıdır; bu hesap yapılmazsa saha konteyner kapısında fark edilir. Kullandığınız konteyner tipini ve tipik palet ölçülerinizi paylaşın; istif desenini konteynere gitmeden önce birlikte netleştirelim.",
+            },
+            {
+                soru: "Adresli istif sistemi için özel bir yazılım mı gerekiyor?",
+                cevap: "Hayır, pahalı bir sistem şart değildir. Sahada kurduğumuz düzen basittir: depo bloklara ayrılır, bloklar fiziken işaretlenir, her kaldırma hareketi adresle kaydedilir ve sevkiyat listeleri adresle birlikte yazılır. Bu yazılı veya basit dijital kayıt, sayım gününde paletin yerini bulmak için yeterlidir; asıl kural adressiz istif yapılmamasıdır.",
+            },
+            {
+                soru: "Yoğun sevkiyat haftası için ikinci istifleme forklifti kiralayabilir miyiz?",
+                cevap: "Gemi yanaşma veya uçuş programı önceden biliniyorsa evet, ek makineyi bu programa göre bağlarız. Programın önceden bilinmediği ani yoğunluklarda da kısa süreli takviye değerlendirilebilir, ancak aynı dönemde komşu sahaların da benzer talep yaratabileceği unutulmamalıdır. Tipik yoğunluk günlerinizi ve tahmini palet hacminizi paylaşırsanız ek makine penceresini önceden planlarız.",
+            },
+            {
+                soru: "Hasarlı bir palet fark edilirse istif planını nasıl etkiler?",
+                cevap: "Hasarlı veya etiketi uyuşmayan palet normal adresli istif akışına dâhil edilmez; işaretli karantina alanına alınır ve depo sorumlusunun kararı beklenir. Operatör bu paleti kendi kararıyla rafa kaldırmaz, çünkü hem sayım kaydını hem de ihracat evrakını etkileyebilir. Diğer paletler plan izin verdiği sürece akışa devam eder; sorunlu palet ayrı bir kayıtla sonraki adıma alınır.",
+            },
+            {
+                soru: "Reach truck mı yoksa standart forklift mi istifleme için daha uygun?",
+                cevap: "Bu, koridor genişliği ve raf kotuna bağlıdır: dar koridor ve yüksek raf kompakt bir sınıfı öne çıkarır, ancak bu sınıf genellikle düzgün beton zemin ve kapalı alan ister. Açık sahada veya konteyner yükleme rampasında standart karşı ağırlıklı forklift gereklidir. Gümrüklü depoların çoğunda doğru çözüm karma kullanımdır — raf koridorunda kompakt sınıf, rampa ve açık alanda standart sınıf.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Adresli istif ve blok-adres sistemi, konteyner iç ölçüsüne göre paletleme hesabı, koridor genişliğinin makine sınıfını belirlemesi sektör standardı, doğrulanabilir teknik bilgilerdir. Gemi/uçuş programına göre ek kapasite planlaması firma pratiğimizdir. Tesis adı, kapasite veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli / Örümcek Platform Kiralama — Bu Domainde Sunulmayan Bir Hizmet",
+        giris:
+            "İzmir-forklift.com'un filosu, liman geri sahası, gümrüklü antrepo ve hava kargo terminalinde yük elleçlemesi için kurulmuştur; sepetli veya örümcek platform ise tamamen farklı bir amaca hizmet eder — cephe, çatı veya dar erişimli noktalarda personeli güvenle yükseğe taşımak. İki makine sınıfı arasındaki fark isimden ibaret değildir: forklift çatalları üzerinde yük taşır ve dengesini karşı ağırlıkla sağlar, sepetli platform ise sepetinde insan taşır ve dengesini kendi ayak açıklığı veya araç üzeri montajıyla kurar. Bu farkı gizlemeden söylüyoruz çünkü forklift filomuza sepet takıp personel yükseltmek hem mevzuata aykırıdır hem de güvenlik riski taşır. Liman ve gümrük sahalarında zaman zaman bu tür bir talep bize ulaşıyor — örneğin bir antrepo çatısındaki bir noktaya erişim ya da bir aydınlatma direğinin bakımı gibi. Bu sayfa, bu talebi neden karşılamadığımızı ve doğru çözüm için nereye yönlenilmesi gerektiğini dürüstçe anlatır.",
+        maddeler: [
+            {
+                baslik: "Forklift ile sepetli platform farklı makine aileleridir",
+                metin: "Forklift, çatalları üzerindeki yükü karşı ağırlıkla dengeleyerek taşır; sepetli veya örümcek platform ise sepetindeki personeli kendi şasesi, ayak açıklığı veya araç üzeri montaj sistemiyle dengeler. Bu iki denge mantığı birbirinin yerine geçmez; forklife personel sepeti bağlamak üretici onayı ve mevzuat açısından kabul edilmez, güvenlik riskini doğrudan artırır.",
+            },
+            {
+                baslik: "Neden bu hizmeti filoya eklemedik",
+                metin: "Sepetli ve örümcek platform operasyonu, forklift işimizden farklı bir teknik derinlik (dengeleme sistemi, ayak açıklığı hesabı, rüzgar sınırı) ve farklı bir bakım-sertifikasyon süreci gerektirir. Bu alanı ana iş kolumuz gibi sunmak yanıltıcı olur; filomuzu ve uzmanlığımızı yük elleçleme üzerinde yoğunlaştırdık.",
+            },
+            {
+                baslik: "Liman ve gümrük sahasında bu talep nasıl ortaya çıkıyor",
+                metin: "Forklift kiraladığımız bir antrepo veya terminal sahasında, aynı proje kapsamında bir çatı noktasına veya yüksek bir aydınlatma direğine erişim ihtiyacı doğabiliyor. Bu, forkliftin doğrudan karşılayabileceği bir iş değildir; personel taşıma amaçlı ayrı bir makine sınıfı gerektirir.",
+            },
+            {
+                baslik: "Doğru yönlendirme",
+                metin: "Böyle bir talep geldiğinde, erişilmesi gereken nokta ve çalışma yüksekliği hakkında elimizdeki bilgiyi paylaşarak sizi sepetli veya örümcek platform konusunda esas uzmanlığa sahip bir kiralama firmasına yönlendiriyoruz. Amacımız, kapasitemiz dışındaki bir işi üstlenip sahada güvenlik açığı yaratmak değil, doğru makineye doğru hızlı ulaşmanızı sağlamaktır.",
+            },
+            {
+                baslik: "Dürüst kapsam sınırı",
+                metin: "Bu domainde sepetli ve örümcek platform kiralama hizmeti sunmuyoruz ve bunu gizlemiyoruz. Forklift ihtiyacınızla birlikte bu tür bir erişim talebiniz varsa, ikisini ayrı iki tedarikçiyle, ayrı iki güvenlik protokolüyle planlamanızı öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift ile sepetli/örümcek platform karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo iki makine sınıfının temel farkını özetler; kesin ihtiyaç saha ölçümüyle netleşir ve bu domain yalnız sol sütunu kapsar.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Forklift (bu domain)", "Sepetli / örümcek platform"],
+                    satirlar: [
+                        ["Ana görevi", "Yük taşıma, istifleme", "Personel yükseltme"],
+                        ["Dengeleme", "Karşı ağırlık", "Ayak açıklığı / araç montajı"],
+                        ["Bu domaindeki rolü", "Ana hizmet", "Sunulmuyor"],
+                        ["Yönlendirme", "—", "Uzman platform firmasına"],
+                    ],
+                },
+            },
+            {
+                baslik: "Liman/gümrük sahasında karışan iki ihtiyaç",
+                paragraflar: [
+                    "Bir antrepo veya terminal sahasında forklift ile yük taşınırken, aynı sahada bir çatı noktasına, dış cepheye veya yüksek bir direğe erişim ihtiyacı ayrı bir proje olarak ortaya çıkabilir. Bu iki iş aynı sahada, aynı gün planlanabilir ama aynı makineyle karşılanamaz.",
+                    "Sahanızda her iki ihtiyaç birden varsa, forklift tarafını biz planlarız; erişim/yükseltme tarafını uzman bir platform firmasıyla koordine etmenizi öneririz — böylece iki iş birbirinin trafiğini bozmadan ilerler.",
+                ],
+            },
+            {
+                baslik: "Mevzuat ve güvenlik açısından neden karışmaması gerekiyor",
+                paragraflar: [
+                    "Forklife sepet bağlayarak personel yükseltmek, üretici onayı dışında bir kullanım şeklidir ve iş güvenliği mevzuatına aykırıdır; bu uygulama hem denetimlerde hem gerçek bir kaza senaryosunda ciddi risk taşır. Bu nedenle bu talebi hiçbir koşulda karşılamıyoruz.",
+                    "Doğru çözüm, personel yükseltme için tasarlanmış ve bu amaçla sertifikalandırılmış bir makine kullanmaktır. Bu makineyi filomuzda tutmadığımız için, ihtiyacınızı esas uzmanlığa sahip bir firmaya yönlendiriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forkliftinize sepet takıp personel taşıyabilir misiniz?",
+                cevap: "Hayır. Forklift yük taşımak için tasarlanmıştır ve dengesini karşı ağırlıkla sağlar; personel sepeti bağlayıp yükseltme yapmak üretici onayı dışındadır ve mevzuata aykırıdır. Bu talebi hiçbir koşulda karşılamıyoruz; personel erişimi için sepetli veya örümcek platform konusunda uzman bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                soru: "Sepetli platformu forklift ile birlikte aynı firmadan kiralayabilir miyiz?",
+                cevap: "Bu domainin filosu forklift ile sınırlıdır; sepetli veya örümcek platform hizmeti sunmuyoruz. Sahanızda her iki ihtiyaç birden varsa forklift tarafını biz planlarız, erişim/yükseltme tarafı için sizi uzman bir platform firmasına yönlendiririz.",
+            },
+            {
+                soru: "Neden bu hizmeti filonuza eklemiyorsunuz?",
+                cevap: "Sepetli ve örümcek platform operasyonu farklı bir teknik derinlik ve sertifikasyon gerektirir; bunu ana iş kolumuz gibi sunmak yanıltıcı olur. Uzmanlığımızı liman ve gümrük çevresinde yük elleçlemesi üzerinde yoğunlaştırdık.",
+            },
+            {
+                soru: "Hangi firmayı önerirsiniz?",
+                cevap: "Belirli bir firma adı vermiyoruz; bölgenizde sepetli veya örümcek platform konusunda esas uzmanlığa sahip bir kiralama firmasıyla doğrudan çalışmanızı öneririz. Erişilmesi gereken nokta ve çalışma yüksekliği hakkında elimizdeki saha bilgisini paylaşarak sürecinizi hızlandırabiliriz.",
+            },
+            {
+                soru: "Talebimiz küçük ve tek seferlik olsa da karşılamıyor musunuz?",
+                cevap: "Hayır, ölçek fark etmiyor. Forklife personel sepeti bağlamak tek seferlik dahi olsa mevzuata aykırıdır ve güvenlik riskini ortadan kaldırmaz. Küçük veya büyük her erişim talebi için doğru makine sınıfını kullanan bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                soru: "Forklift ile personel taşımanın riski tam olarak nedir?",
+                cevap: "Forkliftin dengeleme sistemi yük taşımaya göre hesaplanmıştır; sepet bağlandığında yükün konumu, ağırlık merkezi ve hareket dinamiği personel için tasarlanan makinelerdekinden farklıdır. Bu fark, ani bir hareket veya zemin dengesizliğinde devrilme riskini artırır. Bu yüzden personel yükseltme, yalnız bu amaçla üretilmiş ve sertifikalandırılmış makinelerle yapılmalıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift ile sepetli/örümcek platformun ayrı dengeleme mantığına sahip farklı makine sınıfları olduğu ve forklife personel sepeti bağlamanın mevzuata aykırı olduğu sektör standardı bilgidir. Bu domainin forklift ile sınırlı olduğu ve bu hizmeti sunmadığı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Boom Lift Talebi Geldiğinde: izmir-forklift.com'un Yönlendirme Süreci",
+        giris:
+            "Filomuzda tek bir ekipman ailesi var: yük elleçleme forklifti. Bu yüzden 'boom lift lazım' diye başlayan her aramayı doğrudan reddetmek yerine önce ne istendiğini dinliyoruz, çünkü çoğu zaman arayan kişi aslında farklı bir çözümle de işini bitirebiliyor. Liman geri sahasında bir çatı altına, bir gümrük deposu cephesinin arkasına ya da bir boru köprüsünün üstüne erişmek gerektiğinde akla ilk gelen isim boom lift oluyor, ama bizim tarafımızdan verilecek doğru cevap bu makineyi kendi filomuzda tutmadığımızdır. Aşağıda bu telefon görüşmesinin nasıl işlediğini ve sizi nereye yönlendirdiğimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İlk soru: gerçekten kol mu lazım, yoksa forklift mi yeter",
+                metin: "Bir 'boom lift' talebinin arkasında bazen aslında bir forklift ataşmanıyla (platform sepeti değil, malzeme taşıma amaçlı) çözülebilecek bir iş çıkabiliyor — örneğin raf üstüne malzeme koymak forklift işidir, kişi çıkarmak değildir. Telefonda ilk yaptığımız ayrım budur: yük mü taşınacak, insan mı yükseltilecek? Cevap ikincisiyse, bu bizim filomuzun sınırının dışındadır ve bunu hemen söyleriz.",
+            },
+            {
+                baslik: "Neden filomuza katmıyoruz",
+                metin: "Boom lift'in kendi bakım takvimi, kendi sertifikasyon zinciri ve kendi operatör eğitimi vardır; bunları forklift filosunun yanına yarım yamalak eklemek, ikisinde de vasat kalmak anlamına gelir. izmir-forklift.com'un iddiası liman ve gümrük sahasında yük elleçlemede derinlik kurmaktır — bu iddiayı korumak, kapsam dışı bir makineyi 'de sunuyoruz' diye eklememeyi gerektiriyor.",
+            },
+            {
+                baslik: "Yönlendirme nasıl işliyor",
+                metin: "Erişilmesi gereken nokta, yükseklik ve varsa engelin niteliği hakkında elimizdeki bilgiyi not alıp, bu iş için gerçekten uzmanlaşmış bir platform tedarikçisine yönlendiriyoruz. Aynı sahada bizim forkliftimiz de çalışıyorsa iki ekibin aynı gün, çakışmadan girip çıkmasını koordine ediyoruz — bu bizim üstlenebileceğimiz tek pratik katkı.",
+            },
+            {
+                baslik: "Sahada iki ekip aynı anda olursa",
+                metin: "Bir antrepo veya geri saha projesinde hem forklift hem boom lift aynı gün çalışacaksa, saha giriş sırası ve park alanı paylaşımı önceden netleştirilmezse birbirinin önünü keser. Biz kendi forklift programımızı, diğer tedarikçinin giriş saatiyle çakışmayacak şekilde ayarlıyoruz; bu koordinasyonu talep eden müşteriye ayrıca bir bedel yansıtmıyoruz.",
+            },
+            {
+                baslik: "Bu sayfanın amacı ne",
+                metin: "Arama motorunda 'boom lift kiralama' aratıp bu sayfaya gelen birinin zamanını almadan doğru yöne yönlendirmek — sayfa bunun için var. Burada bir hizmet satmıyoruz; hangi ihtiyacın bizim işimiz olmadığını ve kimin işi olduğunu açıkça yazıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Telefonda sorduğumuz üç soru",
+                paragraflar: [
+                    "Boom lift talebiyle gelen her aramada aynı üç soruyu sorarız; cevaplar hem sizin hem bizim doğru kararı hızlı vermemizi sağlar.",
+                ],
+                tablo: {
+                    basliklar: ["Soru", "Neden soruyoruz", "Cevaba göre yönlendirme"],
+                    satirlar: [
+                        ["Taşınacak şey yük mü, insan mı?", "Yük ise forklift çözebilir, insan ise boom lift gerekir", "Yük → kendi filomuz; insan → uzman firma"],
+                        ["Erişim noktası kapalı mı açık mı?", "Kapalı hacimde farklı bir makine sınıfı gerekebilir", "Bilgiyi yönlendirdiğimiz firmaya iletiriz"],
+                        ["Aynı sahada forklift işimiz var mı?", "İki ekibin giriş-çıkışını çakıştırmamak için", "Varsa koordinasyonu biz üstleniriz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Liman ve gümrük sahasında bu talebin sık geldiği yerler",
+                paragraflar: [
+                    "En sık karşılaştığımız senaryo, bir antrepo çatısının alt kirişine, bir yükleme rampasının üst kısmına veya bir cephe aydınlatmasının arkasına erişim ihtiyacıdır. Bunların hiçbiri forkliftle çözülecek işler değildir; hepsi kol hareketiyle engel arkasına dolanmayı gerektirir.",
+                    "Bu tip taleplerde saha zaten bize forklift işi için açık olduğundan, ikinci bir tedarikçinin girişini organize etmek bizim için yeni değildir — sahanın giriş prosedürünü zaten biliyoruz, bu bilgiyi yeni gelen ekiple paylaşırız.",
+                ],
+            },
+            {
+                baslik: "Ne zaman kendimiz üstlenmeyi bile düşünmüyoruz",
+                paragraflar: [
+                    "Kol menzili uzun, rüzgara duyarlı veya dış destek ayağı kurulumu gerektiren hiçbir işte 'biz de hallederiz' demiyoruz — bunu söylemek güvenlik açığı yaratır. Tek yaptığımız, doğru numarayı elinize ulaştırmaktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "izmir-forklift.com boom lift de kiralıyor mu?",
+                cevap: "Hayır, filomuz sadece yük elleçleme forkliftinden oluşuyor. Boom lift talebiyle ararsanız ihtiyacınızı dinler, gerçekten forkliftle çözülebilecek bir iş olup olmadığına bakar, değilse sizi bu konuda uzmanlaşmış bir tedarikçiye yönlendiririz.",
+            },
+            {
+                soru: "Forkliftinize platform sepeti taktırıp insan çıkarabilir miyiz?",
+                cevap: "Hayır, bu mevzuata aykırıdır ve önermiyoruz. Forklift karşı ağırlıkla dengelenir, sepetli erişim makineleri ise kendi şase/destek sistemleriyle farklı bir denge mantığı taşır. İnsan yükseltme ihtiyacınız varsa bunun için üretilmiş bir makine kullanılmalı.",
+            },
+            {
+                soru: "Aynı sahada hem forklift hem boom lift lazım, ikisini ayrı ayrı mı ayarlamalıyız?",
+                cevap: "Forklift tarafını biz üstleniriz, boom lift için sizi yönlendirdiğimiz firmayla siz anlaşırsınız — ama iki ekibin sahaya giriş saatini çakışmayacak şekilde biz koordine ederiz, bu ek bir ücret gerektirmez.",
+            },
+            {
+                soru: "Hangi firmaya yönlendiriyorsunuz, sabit bir isim mi var?",
+                cevap: "Sabit bir ortaklık ilan etmiyoruz; sahanızın konumuna ve iş büyüklüğüne göre o an uygun, gerçekten bu işte uzmanlaşmış bir tedarikçiyi önermeye çalışırız. Kararı siz verirsiniz, biz bir yönlendirme noktasıyız.",
+            },
+            {
+                soru: "Talebimiz küçükse (bir günlük, tek nokta) yine de kendi filonuzla bakar mısınız?",
+                cevap: "Hayır, iş büyüklüğü fark etmez — bu makine sınıfı filomuzda yok. Küçük tek günlük işler için de aynı yönlendirmeyi yaparız, çünkü kapasite sorunu değil ekipman sınıfı sorunudur.",
+            },
+            {
+                soru: "Neden bu sayfayı hâlâ tutuyorsunuz, hizmet vermiyorsanız?",
+                cevap: "Çünkü bu arama bize düzenli geliyor ve insanların doğru yere yönlenmesi bizim için de değerli — yanlış beklentiyle arayan birini boşa çevirmek yerine, en azından doğru soruyu sorup doğru yöne işaret ediyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift ile boom lift'in ayrı ekipman sınıfları olduğu ve forklife personel sepeti bağlamanın mevzuata aykırı olduğu sektör standardı bilgidir. Telefon yönlendirme süreci ve saha koordinasyonu firma pratiğimizdir. Tesis adı, tedarikçi adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Gümrüklü Antrepo ve Kapalı Depo İçi Forklift Kiralama",
+        giris:
+            "Gümrüklü antrepo, serbest bölge deposu veya kapalı sanayi holü içinde çalışan forklift, açık sahadaki kardeşinden üç noktada ayrışır: güç tipi, lastik yapısı ve manevra alanı. Kapalı hacim, egzozlu bir makineyi kabul edilebilir kılmaz — antrepo içi işlerde akülü güç tipi standarttır. Zemin tarafında da beklenti nettir: antrepo zeminleri genellikle perdahlı betondur ve standart siyah lastik burada iz bırakır; iz bırakmayan lastikli modeller bu yüzden kapalı depo işlerinde tercih edilir. Üçüncü ayrışma noktası ise manevra alanıdır — raf koridoru, malzeme kabul bandı ve personel yürüyüş yolu aynı kapalı hacmi paylaştığı için makinenin görüş açısı ve dönüş yarıçapı, açık sahadakinden daha sıkı bir sınırla çalışır. Bu sayfa, gümrüklü ve kapalı depo içi forklift kararının bu üç eksende nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapalı hacimde güç tipi tartışmasızdır",
+                metin: "Gümrüklü antrepo, serbest bölge deposu veya kapalı sanayi holünde egzoz emisyonu nedeniyle dizel makine kullanılamaz; akülü modeller zorunludur. Vardiya boyunca kesintisiz çalışma gerekiyorsa akü kapasitesi ve şarj noktası teslimat öncesi planlanır; tek vardiyalık işlerde gece şarjı yeterliyken, çok vardiyalı sahalarda değişim akülü çözüm veya hızlı şarj istasyonu değerlendirilir.",
+            },
+            {
+                baslik: "Zemin, lastik tipini belirler",
+                metin: "Antrepo ve depo zeminleri çoğunlukla epoksi kaplı veya perdahlı betondur. Bu yüzeylerde standart siyah lastik iz bırakır; iz bırakmayan (beyaz dolgu) lastikli modeller, özellikle ihracat malının depolandığı temiz alanlarda tercih edilir. Yükleme rampası çevresindeki kot farkları için de çukur önleme sisteminin devrede olması istenir.",
+            },
+            {
+                baslik: "Raf koridoru ve malzeme bandı aynı hacmi paylaşır",
+                metin: "Kapalı depo içinde raf koridoru, malzeme kabul-çıkış bandı ve personel yürüyüş yolu genellikle iç içedir; bu yüzden makinenin dönüş yarıçapı ve görüş açısı açık sahadakinden daha kısıtlı bir alanda test edilir. Koridor genişliği raf planından önce ölçülür ve makine sınıfı buna göre belirlenir; sahada deneme yanılmayla makine değiştirmek üretim veya sevkiyat akışını kesintiye uğratır.",
+            },
+            {
+                baslik: "Malzeme kabul-çıkış bandıyla forklift trafiğinin ayrılması",
+                metin: "Kapalı antrepolarda malzeme kabul bandı ile forklift güzergahı kesişiyorsa bu kesişim noktası işaretlenir ve öncelik kuralı tanımlanır; aksi hâlde bant çalışırken forklift geçişi kesintiye uğrar veya güvenlik riski doğar. Bu ayrım, depo planı çıkarılırken raf yerleşimiyle birlikte netleştirilir.",
+            },
+            {
+                baslik: "Aydınlatma ve görüş koşulları",
+                metin: "Kapalı depo içi aydınlatma, açık sahaya göre daha kontrollü ama bazen daha zayıf olabilir; yüksek raf istiflemesinde makinenin kendi aydınlatması ve operatörün görüş açısı bu koşula göre değerlendirilir. Gece vardiyası çalışan antrepolarda bu kontrol ayrıca yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapalı depo işlerinde güç tipi ve lastik seçim tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, gümrüklü antrepo ve kapalı depo içi yaygın senaryolarda hangi güç tipi ve lastiğin tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Güç tipi", "Lastik", "Kritik kontrol"],
+                    satirlar: [
+                        ["Gümrüklü antrepo, tek vardiya", "Akülü", "İz bırakmayan (beyaz dolgu)", "Gece şarj planı"],
+                        ["Çok vardiyalı depo", "Akülü (değişim akü)", "İz bırakmayan", "Şarj/değişim düzeni"],
+                        ["Serbest bölge, temiz alan", "Akülü", "İz bırakmayan", "Zemin temizliği"],
+                        ["Rampa ile içi karma iş", "Akülü + dizel görev ayrımı", "Ayrı görev, ayrı lastik", "İç-dış makine sınırı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çok vardiyalı antrepoda akü ve şarj planlaması",
+                paragraflar: [
+                    "Gümrüklü antrepolarda tek vardiyalı işlerde makine gece boyunca şarj olur ve ertesi gün tam kapasiteyle başlar. Çok vardiyalı sahalarda ise akü, vardiya arasında yeterli şarj süresi bulamayabilir; bu durumda değişim akülü sistem veya hızlı şarj istasyonu değerlendirilir.",
+                    "Şarj noktasının konumu, forklift güzergahının bir parçası olarak planlanır; şarj için makinenin depo dışına veya uzak bir noktaya taşınması gerekiyorsa bu ek süre, günlük çevrim hesabına dahil edilir.",
+                ],
+            },
+            {
+                baslik: "Rampa ile depo içi arasında görev ayrımı",
+                paragraflar: [
+                    "Bazı antrepolarda hem açık rampa boşaltması hem kapalı depo içi istifleme aynı gün yapılır. Bu iki iş için tek makine kullanmak, dizel makinenin depo içine girmesine ya da akülü makinenin rampa dışına çıkmasına yol açabilir; ikisi de önerilmez.",
+                    "Doğru düzen, iki işi ayrı makinelerle karşılamak veya tampon alanda yükü aktarmaktır — dış makine yükü kapı önündeki tampon alana bırakır, iç makine oradan devralır. Bu ayrım depo planı çıkarılırken netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Antrepomuzda dizel forklift kullanabilir miyiz?",
+                cevap: "Kapalı hacimde egzoz emisyonu nedeniyle dizel makine kullanılamaz; akülü modeller zorunludur. Dizel sınıf yalnız açık rampa veya dış saha işlerinde tercih edilir. İki işi de yapmanız gerekiyorsa görev ayrımı yapılır: dış makine yükü tampon alana bırakır, iç makine akülü olarak devralır.",
+            },
+            {
+                soru: "İz bırakmayan lastik neden gerekiyor?",
+                cevap: "Antrepo zeminleri genellikle perdahlı veya epoksi kaplı betondur ve standart siyah lastik bu yüzeyde iz bırakır. İz bırakmayan (beyaz dolgu) lastik, özellikle ihracat malının depolandığı temiz alanlarda tercih edilir; bu, hem görüntü hem zemin bakım maliyeti açısından önemlidir.",
+            },
+            {
+                soru: "Çok vardiyalı çalışıyoruz, akü yetmiyor; ne öneriyorsunuz?",
+                cevap: "Vardiyalar arasında yeterli şarj süresi yoksa değişim akülü sistem veya hızlı şarj istasyonu değerlendirilir. Şarj noktasının konumu forklift güzergahının bir parçası olarak planlanır; vardiya düzeninizi paylaşırsanız uygun akü modelini birlikte belirleriz.",
+            },
+            {
+                soru: "Malzeme kabul bandı ile forklift güzergahımız kesişiyor, risk oluşturur mu?",
+                cevap: "Kesişim noktası işaretlenip öncelik kuralı tanımlanmazsa evet risk oluşturur. Bu kesişim, depo planı çıkarılırken raf yerleşimiyle birlikte netleştirilir ve forklift operatörüne görünür biçimde bildirilir; bandın çalıştığı saatlerde geçiş önceliği tanımlı kurala göre işler.",
+            },
+            {
+                soru: "Dar koridorumuzda standart forklift çalışır mı?",
+                cevap: "Koridorun net genişliği görülmeden kesin cevap verilemez; kapalı depo içinde dönüş yarıçapı açık sahadan daha sıkı bir sınırla test edilir. Koridor dar ise kompakt bir sınıf değerlendirilir. Raf planınızı ve koridor ölçünüzü paylaşırsanız uygun makineyi netleştiririz.",
+            },
+            {
+                soru: "Gece vardiyasında aydınlatma yeterli değilse ne yapılır?",
+                cevap: "Yüksek raf istiflemesinde makinenin kendi aydınlatması ve operatörün görüş açısı gece koşuluna göre ayrıca değerlendirilir. Aydınlatma yetersizse iş güvenliği açısından ek aydınlatma veya çalışma saatinin yeniden planlanması önerilir; bu kontrol teslimat öncesi saha ziyaretinde netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı alanda dizel emisyon kısıtı, antrepo zemininde iz bırakmayan lastik tercihi ve koridor genişliğinin makine sınıfını belirlemesi sektör standardı bilgilerdir. Vardiya bazlı akü/şarj planlaması ve rampa-depo görev ayrımı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Sahasında Forklift Rolü — Montaj Erişimi Değil, Malzeme Besleme",
+        giris:
+            "Çelik konstrüksiyon montaj platformu genellikle bir personel yükseltme hizmetini akla getirir — kirişe, kolona veya çatı aşığına erişip kaynak ya da bulon işi yapmak. İzmir-forklift.com bu erişim hizmetini sunmaz; filomuzun rolü, aynı sahada farklı ama tamamlayıcı bir iştir: profil, kiriş, sac paketi ve bağlantı elemanlarını sahaya taşımak, doğru sıraya dizmek ve montaj ekibinin çalıştığı noktaya en yakın erişilebilir konumda hazır tutmak. Bu ayrımı net tutuyoruz çünkü aksi hâlde müşteri, forklift kiraladığında montaj erişiminin de dahil olduğunu düşünebilir. Bu sayfa, liman ve sanayi bölgesindeki çelik konstrüksiyon sahalarında forkliftin gerçek rolünü ve montaj erişimi için nereye yönlendirdiğimizi anlatır.",
+        maddeler: [
+            {
+                baslik: "Forkliftin sahadaki gerçek görevi: malzeme besleme",
+                metin: "Çelik konstrüksiyon sahasında forklift, profil demeti, kiriş paketi veya sac yığınını depodan veya tırdan alıp montaj noktasına en yakın erişilebilir alana taşır. Bu iş, Aliağa ve liman çevresindeki ağır sanayi sahalarında sıkça karşılaştığımız uzun ve ağır yük taşımacılığıyla aynı mantıkla yürür; yük boyu ve ağırlık merkezi öncelikle değerlendirilir.",
+            },
+            {
+                baslik: "Montaj erişimi (kaynak, bulon, kiriş üstü çalışma) bu domainin kapsamı dışındadır",
+                metin: "Kirişe, kolona veya çatı aşığına çıkıp personel eliyle yapılan montaj işleri, forkliftin karşılayamayacağı bir erişim türüdür; bu iş için tasarlanmış personel yükseltme platformu gerekir. Bu domainde bu hizmeti sunmuyoruz; sahanızda montaj erişimi gerekiyorsa uzman bir platform firmasıyla ayrıca çalışmanızı öneririz.",
+            },
+            {
+                baslik: "Malzeme sırasının montaj programıyla eşleşmesi",
+                metin: "Çelik montaj işlerinde malzemenin sahaya geliş sırası, montaj ekibinin çalışma sırasıyla uyumlu olmalıdır; yanlış sırayla gelen bir kiriş, montaj ekibini bekletir veya sahada geçici depolama sorunu yaratır. Forklift operatörü, malzemeyi montaj programına göre belirlenen sıraya göre yerleştirir; sıralamayı kendi kararıyla değiştirmez.",
+            },
+            {
+                baslik: "Ağır ve uzun profilin taşınmasında dikkat edilen noktalar",
+                metin: "Uzun profil ve kiriş demetleri, standart forkliftle taşındığında dönüşte kendi boyu kadar alan süpürür; dar sahalarda bu, hem yükü hem çevredeki ekibi riske atar. Yük boyu ve saha manevra alanı birlikte değerlendirilir; gerekiyorsa yük şasi boyunca yanlamasına taşınan bir makine sınıfı önerilir.",
+            },
+            {
+                baslik: "Forklift ile montaj ekibinin saha koordinasyonu",
+                metin: "Forklift, montaj ekibinin çalıştığı bölgeye yaklaşırken görüş açısı ve yük yüksekliği özellikle kontrol edilir; kirişin altında veya yakınında çalışan personel varsa forklift o bölgeye yaklaşmadan önce saha koordinatörünün onayı beklenir. Bu koordinasyon, montaj erişimini biz sağlamasak da malzeme besleme sırasında güvenliği korumak için gereklidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon sahasında görev ayrımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, çelik konstrüksiyon sahasındaki iki farklı ihtiyacı ve bu domainin hangisini karşıladığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İhtiyaç", "Bu domainin rolü", "Gereken makine", "Kim sağlar"],
+                    satirlar: [
+                        ["Profil/kiriş/sac taşıma", "Ana hizmet", "Forklift (uzun yük donanımlı)", "İzmir-forklift.com"],
+                        ["Kiriş üstü kaynak/bulon erişimi", "Sunulmuyor", "Personel yükseltme platformu", "Uzman platform firması"],
+                        ["Malzeme sıralama, montaj programına göre", "Ana hizmet", "Forklift + saha koordinasyonu", "İzmir-forklift.com"],
+                        ["Cephe/çatı montaj erişimi", "Sunulmuyor", "Eklemli/makaslı platform", "Uzman platform firması"],
+                    ],
+                },
+            },
+            {
+                baslik: "Liman ve sanayi bölgesinde çelik konstrüksiyon malzeme akışı",
+                paragraflar: [
+                    "Liman ve sanayi bölgesindeki çelik konstrüksiyon projelerinde malzeme genellikle tırla veya konteynerle sahaya gelir; forklift bu malzemeyi araçtan alıp montaj noktasına en yakın erişilebilir alanda hazır tutar. Bu akış, montaj programındaki her aşamanın malzeme gecikmesi yaşamadan ilerlemesini sağlar.",
+                    "Malzeme teslim sırası önceden bilindiğinde forklift planı da buna göre kurulur; aksi hâlde sahada geçici depolama alanı büyür ve montaj ekibi doğru parçayı bulmak için zaman kaybeder.",
+                ],
+            },
+            {
+                baslik: "Montaj erişimi için doğru yönlendirme süreci",
+                paragraflar: [
+                    "Sahanızda hem malzeme besleme hem montaj erişimi ihtiyacı varsa, biz malzeme tarafını üstleniriz ve montaj erişimi için elimizdeki saha bilgisini (yükseklik, engel durumu, zemin) paylaşarak sizi uzman bir platform firmasına yönlendiririz.",
+                    "İki hizmetin aynı sahada, aynı gün koordine edilmesi gerekiyorsa forklift trafiği ile personel yükseltme platformunun çalışma alanını çakışmayacak şekilde ayırırız; bu koordinasyon saha güvenliği açısından önemlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forkliftinizle kirişin üstüne çıkıp montaj yapabilir miyiz?",
+                cevap: "Hayır. Forklift yük taşımak için tasarlanmıştır, personel yükseltme için değildir. Kiriş üstü kaynak veya bulon işi gibi montaj erişimleri için bu amaçla tasarlanmış bir personel yükseltme platformu gerekir; bu domainde bu hizmeti sunmuyoruz.",
+            },
+            {
+                soru: "Çelik konstrüksiyon sahasında forkliftiniz tam olarak ne yapıyor?",
+                cevap: "Profil demeti, kiriş paketi ve sac yığınını depodan veya tırdan alıp montaj noktasına en yakın erişilebilir alana taşır ve montaj programına göre belirlenen sırayla yerleştirir. Kiriş üstü veya cephe montaj erişimi bu hizmetin kapsamında değildir.",
+            },
+            {
+                soru: "Malzeme besleme ile montaj erişimini aynı gün koordine edebilir misiniz?",
+                cevap: "Evet, forklift trafiği ile personel yükseltme platformunun çalışma alanını çakışmayacak şekilde ayırarak koordine edebiliriz; ancak montaj erişimini biz sağlamıyoruz, bu tarafı uzman bir platform firmasıyla birlikte planlarız.",
+            },
+            {
+                soru: "Uzun profil demetlerini dar sahada nasıl taşıyorsunuz?",
+                cevap: "Standart forkliftle taşınan uzun yük dönüşte kendi boyu kadar alan süpürür; dar sahalarda bu riski azaltmak için yük boyu ve manevra alanı birlikte değerlendirilir, gerekiyorsa yükü şasi boyunca yanlamasına taşıyan bir makine sınıfı önerilir.",
+            },
+            {
+                soru: "Montaj erişimi için hangi firmayı önerirsiniz?",
+                cevap: "Belirli bir firma adı vermiyoruz; kiriş üstü veya cephe montaj erişimi konusunda esas uzmanlığa sahip bir platform kiralama firmasıyla doğrudan çalışmanızı öneririz. Erişim noktası ve yükseklik hakkında elimizdeki saha bilgisini paylaşarak sürecinizi hızlandırabiliriz.",
+            },
+            {
+                soru: "Malzeme sırası montaj programıyla uyuşmazsa ne olur?",
+                cevap: "Yanlış sırayla gelen malzeme montaj ekibini bekletir veya sahada geçici depolama sorunu yaratır. Bu yüzden forklift operatörü malzemeyi montaj programına göre belirlenen sıraya göre yerleştirir; sıralamayı kendi kararıyla değiştirmez, değişiklik saha koordinatöründen gelir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon sahasında malzeme besleme (forklift) ile montaj erişiminin (personel yükseltme platformu) ayrı iş ve makine sınıfları olduğu sektör standardı bilgidir. Bu domainin yalnız malzeme besleme tarafını sunduğu ve montaj erişimi için yönlendirme yaptığı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım Ürünü İhracatında Forklift Rolü — Çuval, Big-Bag ve Palet Taşıma",
+        giris:
+            "Tarım ve silo platform kiralama başlığı genellikle silo üstü bakım veya erişim platformunu akla getirir; izmir-forklift.com bu hizmeti sunmaz. Ancak filomuzun bu alanla gerçek bir kesişimi var: İzmir'in liman ve serbest bölge altyapısından ihraç edilen tarım ürünleri — kuru meyve, bakliyat, tütün, yağlı tohum gibi — genellikle çuval, big-bag veya palet üzerinde sahaya gelir ve buradan konteynere ya da depoya taşınır. Bu taşımada forkliftin görevi silonun kendisiyle değil, ürünün ambalaj biriminin ağırlığı, istifleme deseni ve konteyner ölçüsüyle ilgilidir. Bu sayfa, tarım ürünü ihracatına bağlı forklift taşımacılığını ve silo üstü erişim gibi kapsam dışı taleplerde nasıl yönlendirme yaptığımızı anlatır.",
+        maddeler: [
+            {
+                baslik: "Silo üstü erişim ve bakım bu domainin kapsamı dışındadır",
+                metin: "Silonun kendisine (üst platform, merdiven, bakım noktası) erişim gerektiren işler personel yükseltme veya sabit erişim ekipmanı gerektirir; forklift bu işi karşılamaz. Böyle bir talep geldiğinde bunu net biçimde belirtir ve uzman bir firmaya yönlendiririz.",
+            },
+            {
+                baslik: "Forkliftin gerçek rolü: çuval, big-bag ve palet taşıma",
+                metin: "Tarım ürünü ihracatında forklift, dolum tesisinden veya depodan çıkan çuval ya da big-bag yükünü palet üzerinde taşır ve sevkiyat noktasına dizer. Big-bag'lerin ağırlık merkezi standart palet yüklerinden farklı davranabilir; bu yüzden yük diyagramı ve ataşman (varsa big-bag askı çubuğu) uyumu her seferinde kontrol edilir.",
+            },
+            {
+                baslik: "Konteyner iç ölçüsüne göre istif deseni",
+                metin: "Tarım ürünü çoğunlukla konteynerle ihraç edildiği için, çuval veya big-bag istifleme deseni konteynerin iç yüksekliği ve genişliğine göre depoda önceden kurulur. Ürün nemine ve ambalaj tipine göre istif yüksekliği ayrıca sınırlandırılabilir; bu sınır depo yönetimiyle birlikte belirlenir.",
+            },
+            {
+                baslik: "Mevsimsel yoğunluk ve kısa dönem kiralama",
+                metin: "Tarım ürünü ihracatı hasat dönemine göre belirgin bir mevsimsellik gösterir; yoğun dönemde ek forklift kısa süreli kiralamayla karşılanır, sakin dönemde filo küçültülür. Bu esneklik, sabit bir makine yatırımına bağlanmadan mevsimsel talebi karşılamanın pratik yoludur.",
+            },
+            {
+                baslik: "Ürün hassasiyeti ve dikkatli elleçleme",
+                metin: "Bazı tarım ürünleri (kuru meyve, bakliyat) ambalaj hasarına veya nem almaya karşı hassastır; forklift operatörü çatal ucunun ambalajı delmemesi ve yükün aşırı sallanmadan taşınması konusunda özellikle dikkatli çalışır. Hasarlı ambalaj tespit edilirse yük normal akıştan ayrılır ve depo sorumlusuna bildirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım ürünü ihracatında forklift görev tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, tarım ürünü ihracatına bağlı sahalarda forkliftin karşıladığı ve karşılamadığı işleri özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Bu domainin rolü", "Kritik nokta"],
+                    satirlar: [
+                        ["Çuval/big-bag palet taşıma", "Ana hizmet", "Yük diyagramı, ataşman uyumu"],
+                        ["Konteynere istif ve yükleme", "Ana hizmet", "İç ölçüye göre istif deseni"],
+                        ["Silo üstü bakım/erişim", "Sunulmuyor", "Uzman firmaya yönlendirme"],
+                        ["Sera/kırsal saha zor zemin taşıma", "Kısmi (zemin uygunsa)", "Zemin ve lastik uyumu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Big-bag taşımada dikkat edilen ağırlık merkezi",
+                paragraflar: [
+                    "Big-bag yükler, standart palet yüklerine göre daha yüksek ve ağırlık merkezi daha değişken olabilir; dolu bir big-bag'in askı noktalarından düzgün asılmaması yükün taşıma sırasında sallanmasına yol açar. Bu yüzden big-bag taşımada uygun ataşman (askı çubuğu) kullanımı ve yükün dengeli asılması özellikle kontrol edilir.",
+                    "Big-bag'lerin istiflenmesi de standart palet istiflemesinden farklı bir kararlılık gerektirir; alt sıradaki torbaların üst yükü güvenle taşıyıp taşımadığı depo yönetimiyle birlikte değerlendirilir.",
+                ],
+            },
+            {
+                baslik: "Silo üstü erişim talebi geldiğinde yönlendirme",
+                paragraflar: [
+                    "Silonun kendisine bakım veya erişim ihtiyacı bildirildiğinde, bu talebin forklift kapsamı dışında olduğunu net biçimde belirtiriz ve erişim türüne (sabit merdiven, personel yükseltme platformu) uygun bir uzman firmaya yönlendiririz.",
+                    "Aynı sahada hem ürün taşıma hem silo erişimi ihtiyacı varsa, ürün taşıma tarafını biz üstleniriz; silo erişimi için elimizdeki saha bilgisini paylaşarak süreci hızlandırırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silonun üstüne çıkıp bakım yapabilir misiniz?",
+                cevap: "Hayır, bu domain forklift ile sınırlıdır ve silo üstü erişim veya bakım hizmeti sunmuyoruz. Bu tür bir ihtiyacınız varsa sabit erişim ekipmanı veya personel yükseltme platformu konusunda uzman bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                soru: "Big-bag taşımak için özel bir ataşman mı gerekiyor?",
+                cevap: "Genellikle evet; big-bag'in askı noktalarından düzgün asılması için uygun bir askı çubuğu ataşmanı kullanılır. Bu ataşman takıldığında forkliftin net kapasitesi değişebilir; yükünüzün ağırlığını ve big-bag tipini paylaşırsanız uygun ataşman ve kapasiteyi birlikte netleştiririz.",
+            },
+            {
+                soru: "Hasat döneminde kısa süreli ek forklift kiralayabilir miyiz?",
+                cevap: "Evet, tarım ürünü ihracatındaki mevsimsel yoğunluk için kısa süreli ek makine yaygın bir çözümdür. Tipik hasat döneminizi ve tahmini yük hacminizi paylaşırsanız ek kapasiteyi önceden planlarız; sakin dönemde filo aynı esneklikle küçültülür.",
+            },
+            {
+                soru: "Çuvalları konteynere yüklerken hangi ölçüler önemli?",
+                cevap: "İstif yüksekliği ve genişliği, konteynerin iç ölçüsüne göre depoda önceden hesaplanır; bu hesap yapılmazsa saha konteyner kapısında fark edilir. Ürün nemine ve ambalaj tipine göre istif yüksekliği ayrıca sınırlandırılabilir; bu sınırı depo yönetiminizle birlikte netleştiririz.",
+            },
+            {
+                soru: "Ambalajı hassas ürünlerde forklift nasıl çalışıyor?",
+                cevap: "Operatör çatal ucunun ambalajı delmemesine ve yükün aşırı sallanmadan taşınmasına özellikle dikkat eder. Hasarlı ambalaj tespit edilirse yük normal akıştan ayrılır, depo sorumlusuna bildirilir ve karar bekletmeden yeni talimatla devam edilir.",
+            },
+            {
+                soru: "Kırsal veya sera sahasında zemin bozuksa forklift çalışabilir mi?",
+                cevap: "Zemin durumuna bağlıdır; düzensiz veya sıkışmamış zeminde uygun lastik tipi (havalı/pnömatik) ve gerekiyorsa daha kompakt olmayan, dengeli bir makine sınıfı değerlendirilir. Saha fotoğrafı veya krokinizi paylaşırsanız zemine uygun makineyi birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tarım ürünü ihracatında çuval/big-bag taşımacılığı, konteyner iç ölçüsüne göre istifleme ve mevsimsel talep dalgalanması sektör standardı bilgilerdir. Silo üstü erişimin bu domainin kapsamı dışında olduğu ve yönlendirme yapıldığı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji ve Aydınlatma Bakım Platformu — Bu Domainde Sunulmayan Bir Hizmet",
+        giris:
+            "Saha aydınlatma direği, elektrik hattı veya trafo bakımı gibi işler, yüksekte çalışma gerektiren ve bu amaçla tasarlanmış bir erişim platformu isteyen işlerdir; izmir-forklift.com'un filosu bu hizmeti karşılamaz. Liman geri sahası ve gümrüklü antrepo çevresinde çalıştığımız sahalarda zaman zaman bir aydınlatma direğinin veya elektrik panosunun bakımı için talep geliyor; bu talebi gizlemeden karşılamadığımızı belirtiyoruz çünkü forklift, bu tür bir bakım erişimi için tasarlanmamış bir makinedir. Bu sayfa, bu talebin neden kapsam dışı olduğunu ve doğru yönlendirmeyi anlatır.",
+        maddeler: [
+            {
+                baslik: "Forklift bu iş için tasarlanmamıştır",
+                metin: "Aydınlatma direği veya elektrik hattı bakımı, elektrik kesintisi prosedürü, izolasyon ve yüksekte çalışma sertifikası gerektiren ayrı bir uzmanlık alanıdır; forklift ne bu erişimi ne bu güvenlik prosedürünü karşılar.",
+            },
+            {
+                baslik: "Bu talep sahalarımızda nasıl ortaya çıkıyor",
+                metin: "Forklift kiraladığımız bir liman geri sahası veya antrepoda, aynı proje kapsamında bir aydınlatma direğinin lambası değişecek veya bir enerji panosu bakımı yapılacak olabilir. Bu, forkliftin karşılayabileceği bir iş değildir; enerji ve aydınlatma bakımı için tasarlanmış ayrı bir erişim ekipmanı ve sertifikalı ekip gerekir.",
+            },
+            {
+                baslik: "Yönlendirme süreci",
+                metin: "Böyle bir talep geldiğinde, direğin veya panonun yüksekliği ve konumu hakkında elimizdeki bilgiyi paylaşarak sizi enerji ve aydınlatma bakımı konusunda uzman bir firmaya yönlendiriyoruz.",
+            },
+            {
+                baslik: "Aynı sahada koordinasyon",
+                metin: "Forklift işimizle aynı sahada, aynı gün bir aydınlatma bakımı planlanıyorsa, forklift trafiğinin bakım ekibinin çalışma alanına girmemesi için saha koordinasyonunu birlikte sağlarız.",
+            },
+            {
+                baslik: "Dürüst kapsam sınırı",
+                metin: "Enerji ve aydınlatma bakım platformu hizmetini bu domainde sunmuyoruz. Sahanızda böyle bir ihtiyaç varsa, bu konuda uzman bir firmayla ayrı bir sözleşme kurmanızı öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift ile enerji/aydınlatma bakım platformu karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, bu domainin kapsamı ile enerji-aydınlatma bakımının gerektirdiği hizmeti karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Forklift (bu domain)", "Enerji/aydınlatma bakım platformu"],
+                    satirlar: [
+                        ["Ana görevi", "Yük taşıma, istifleme", "Elektrik hattı/direk bakım erişimi"],
+                        ["Gerekli sertifika", "Forklift operatör belgesi", "Elektrik ve yüksekte çalışma sertifikası"],
+                        ["Bu domaindeki rolü", "Ana hizmet", "Sunulmuyor"],
+                        ["Yönlendirme", "—", "Uzman bakım firmasına"],
+                    ],
+                },
+            },
+            {
+                baslik: "Liman ve antrepo sahasında bu talebin ortaya çıktığı durumlar",
+                paragraflar: [
+                    "Geri saha aydınlatma direkleri veya antrepo çatısındaki enerji hattı zamanla bakım gerektirir; bu ihtiyaç genellikle forklift kiraladığımız aynı sahada, ayrı bir proje olarak ortaya çıkar.",
+                    "Bu iki iş aynı sahada, aynı gün planlanabilir ama aynı ekipmanla karşılanamaz; forklift malzeme ve genel saha işlerini yürütürken, enerji bakımı sertifikalı bir ekip ve uygun erişim platformu gerektirir.",
+                ],
+            },
+            {
+                baslik: "Neden bu riski almıyoruz",
+                paragraflar: [
+                    "Elektrik hattı veya enerji panosuna yakın çalışmak, izolasyon ve kesinti prosedürü bilmeyen bir ekip için ciddi risk taşır. Forklift operatörümüz bu prosedürler konusunda eğitimli değildir ve makinemiz bu erişim için tasarlanmamıştır.",
+                    "Bu nedenle enerji ve aydınlatma bakımı talebini her koşulda uzman bir firmaya yönlendiriyoruz; kendi kapasitemizin dışındaki bir işi üstlenip saha güvenliğini riske atmıyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aydınlatma direğinin lambasını değiştirebilir misiniz?",
+                cevap: "Hayır, bu domain forklift ile sınırlıdır ve enerji-aydınlatma bakım hizmeti sunmuyoruz. Bu iş için yüksekte çalışma ve elektrik güvenliği konusunda uzman bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                soru: "Forkliftinizle direğe erişip bakım yapılabilir mi?",
+                cevap: "Hayır, forklift bu tür bir erişim için tasarlanmamıştır ve elektrik kesinti/izolasyon prosedürleri konusunda operatörümüz eğitimli değildir. Bu riski almıyoruz; sahanızda böyle bir ihtiyaç varsa uzman bir bakım firmasına yönlendiririz.",
+            },
+            {
+                soru: "Forklift işimizle aynı gün enerji bakımı da planlanabilir mi?",
+                cevap: "Koordinasyon açısından evet; forklift trafiğinin bakım ekibinin çalışma alanına girmemesi için saha planını birlikte yaparız. Ancak bakım işinin kendisini biz gerçekleştirmiyoruz, bunun için uzman bir firmayla ayrıca çalışmanız gerekir.",
+            },
+            {
+                soru: "Hangi firmayı önerirsiniz?",
+                cevap: "Belirli bir firma adı vermiyoruz; enerji ve aydınlatma bakımı konusunda uzman, gerekli sertifikalara sahip bir firmayla çalışmanızı öneririz. Direğin veya panonun konumu hakkında elimizdeki saha bilgisini paylaşarak sürecinizi hızlandırabiliriz.",
+            },
+            {
+                soru: "Bu hizmeti neden filonuza eklemiyorsunuz?",
+                cevap: "Elektrik ve yüksekte çalışma, forklift operatörlüğünden tamamen farklı bir sertifikasyon ve güvenlik prosedürü gerektirir. Bunu ana iş kolumuz gibi sunmak hem yanıltıcı olur hem de saha güvenliğini riske atar.",
+            },
+            {
+                soru: "Küçük bir bakım işi için de mi yönlendiriyorsunuz?",
+                cevap: "Evet, işin büyüklüğü fark etmez. Elektrik hattına veya enerji panosuna yakın her çalışma, uygun sertifika ve prosedür gerektirir; küçük görünen bir iş bile bu riski taşır. Bu yüzden her ölçekte uzman bir firmaya yönlendiriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Elektrik hattı ve enerji ekipmanı bakımının izolasyon/kesinti prosedürü ile sertifikalı erişim gerektirdiği sektör standardı bilgidir. Bu domainin forklift ile sınırlı olduğu ve enerji-aydınlatma bakımı sunmadığı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü / Operatörsüz Forklift Kiralama: Liman ve Gümrüklü Saha Giriş Yetkisi",
+        giris:
+            "Liman geri sahası, gümrüklü antrepo veya hava kargo terminalinde operatörlü mü yoksa operatörsüz mü forklift kiralanacağı sorusu, çoğu sahada beklenenden farklı bir yerden cevaplanır: makinenin kapasitesinden değil, sahaya giriş yetkisinden. Bu tür kontrollü alanlara giren her personelin kendi güvenlik kaydı, bazen özel bir giriş kartı ve saha oryantasyonu olması gerekir; işletmenin kendi personeli için bu süreci yürütmesi zaman alabilir, özellikle kısa süreli veya proje bazlı ihtiyaçlarda. Operatörlü kiralama, bu süreci baştan basitleştirir çünkü operatör bizim tarafımızdan sağlanır ve saha giriş prosedürüne önceden hazırlanır. Bu sayfa, operatörlü ve operatörsüz modelin liman ve gümrük çevresinde nasıl işlediğini, hangi durumda hangisinin tercih edildiğini ve saha giriş yetkisinin bu kararı nasıl etkilediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Saha giriş yetkisi, operatör kararının ilk belirleyicisidir",
+                metin: "Liman geri sahası, gümrüklü antrepo ve hava kargo terminali gibi kontrollü alanlara giren her personel için sahanın kendi güvenlik ve giriş prosedürü geçerlidir; bazı sahalarda bu, önceden başvurulan bir giriş kartı, bazılarında ise günlük ziyaretçi kaydı şeklindedir. İşletmenin kendi operatörü bu sahaya daha önce girmemişse, kayıt sürecinin tamamlanması zaman alabilir; operatörlü kiralamada bu süreç bizim tarafımızdan önceden yürütülür.",
+            },
+            {
+                baslik: "Operatörlü model: belgeli personel ve saha oryantasyonu birlikte gelir",
+                metin: "Operatörlü kiralamada makineyle birlikte MYK veya MEB onaylı yeterlilik belgesine sahip bir operatör sağlanır; bu operatör, teslimat öncesi sahanın giriş prosedürüne göre kayıt altına alınır ve saha oryantasyonunu (yaya yolu, kontrol noktası, acil durum prosedürü) alarak işe başlar. Kısa süreli veya tek seferlik liman/gümrük işlerinde bu model, işletmenin kendi personeli için giriş kartı çıkarma sürecini beklemeden işe başlamayı sağlar.",
+            },
+            {
+                baslik: "Operatörsüz model: işletmenin kendi belgeli personeli sahaya zaten girebiliyorsa",
+                metin: "İşletmenin kendi forklift operatörü sahaya zaten kayıtlı ve düzenli giriyorsa, operatörsüz kiralama (yalnız makine) daha esnektir; işletme kendi vardiya düzenine göre makineyi kullanır. Bu modelde operatörün geçerli yeterlilik belgesine sahip olması ve sahanın güvenlik kuralına uyması sözleşme öncesi teyit edilir.",
+            },
+            {
+                baslik: "Proje bazlı ve dönemsel ihtiyaçlarda model değişebilir",
+                metin: "Uzun süreli, düzenli bir sevkiyat işinde işletme genellikle kendi personelini sahaya kayıtlı hâle getirir ve operatörsüz modele geçer; kısa süreli, tek seferlik veya beklenmedik bir yoğunluk işinde ise operatörlü model, giriş kaydı beklemeden hızlı başlamayı sağladığı için tercih edilir. Bu geçiş, sabit bir kural değil, işin süresine ve mevcut personel durumuna göre birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Belgesiz kullanım hem yasal hem fiili risktir",
+                metin: "Hangi model seçilirse seçilsin, forklift kullanan personelin geçerli operatör yeterlilik belgesine sahip olması zorunludur; belgesiz kullanım hem denetimde hem sahada ciddi risk taşır. Operatörlü modelde bu belge bizim tarafımızdan garanti edilir; operatörsüz modelde işletmenin kendi personelinin belgesi teslimat öncesi kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre operatörlü/operatörsüz model tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı saha ve iş sürelerinde hangi modelin genellikle daha pratik olduğunu özetler. Kesin karar sahanızın giriş kuralı ve personel durumuyla birlikte verilir.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen model", "Neden", "Kritik kontrol"],
+                    satirlar: [
+                        ["Kısa süreli/tek seferlik liman işi", "Operatörlü", "Giriş kaydı beklemeden başlama", "Operatör saha oryantasyonu"],
+                        ["Uzun süreli, düzenli sevkiyat", "Operatörsüz", "İşletme kendi vardiyasını yönetir", "Personel belgesi ve saha kaydı"],
+                        ["Beklenmedik yoğunluk (ek makine)", "Operatörlü", "Hızlı devreye alma", "Operatör mevcudiyeti"],
+                        ["Gümrüklü antrepo, sabit personel", "Operatörsüz", "Personel zaten sahaya kayıtlı", "Belge güncelliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Saha giriş kaydı ile operatör ataması aynı anda planlanır",
+                paragraflar: [
+                    "Operatörlü kiralamada, operatörün sahaya giriş kaydı ile makinenin teslimatı aynı zaman çizelgesinde planlanır; operatör kayıtsız sahaya girmeye çalışmaz, kayıt tamamlanmadan işe başlamaz. Bu, özellikle ilk kez çalıştığımız gümrüklü sahalarda ekstra bir gün gerektirebilir; bu süre teklif aşamasında müşteriye açıkça bildirilir.",
+                    "Sahanın kendi güvenlik biriminden önceden bilgi almak, hem operatörün hem taşıyıcının kapıda beklenmedik bir gecikme yaşamasını önler; bu adım, teslimat planının ayrılmaz bir parçasıdır.",
+                ],
+            },
+            {
+                baslik: "Operatör değişikliği ve vardiya devri",
+                paragraflar: [
+                    "Operatörlü kiralamada, operatör değişikliği gerekirse (hastalık, izin gibi) yeni operatörün de aynı saha giriş kaydından geçmesi gerekir; bu süreç mümkün olduğunca önceden planlanır ki sahada operatörsüz makine beklemesi yaşanmasın.",
+                    "Vardiya devrinde yeni operatör günlük makine kontrolünü tekrarlar ve sahanın güncel kurallarını (varsa değişen trafik düzeni) brifingle alır; bu devir hem güvenliği hem sahadaki sürekliliği korur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kısa süreli bir liman işi için operatörlü mü operatörsüz mü tercih etmeliyiz?",
+                cevap: "Kısa süreli veya tek seferlik işlerde operatörlü model genellikle daha pratiktir çünkü operatörün saha giriş kaydı bizim tarafımızdan önceden hazırlanır ve işletmenizin kendi personeli için giriş kartı çıkarma sürecini beklemeden işe başlanır. İşin süresi uzarsa veya tekrarlanırsa operatörsüz modele geçiş değerlendirilebilir.",
+            },
+            {
+                soru: "Operatörümüz sahaya daha önce hiç girmedi, operatörsüz kiralama yapabilir miyiz?",
+                cevap: "Yapılabilir, ancak operatörünüzün sahanın giriş prosedüründen geçmesi gerekir ve bu süreç ilk seferde zaman alabilir. Bu süreyi işin başlangıcına dahil etmenizi öneririz; alternatif olarak ilk teslimatı operatörlü modelle başlatıp, personeliniz kayıtlı hâle geldikten sonra operatörsüz modele geçmek de değerlendirilebilir.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatör sahanın güvenlik kurallarını biliyor mu?",
+                cevap: "Operatör, teslimat öncesi sahanın giriş prosedürüne göre kayıt altına alınır ve saha oryantasyonunu (yaya yolu, kontrol noktası, acil durum prosedürü) alarak işe başlar. İlk kez çalıştığımız bir sahada bu oryantasyon süreci teslimat planına dahil edilir.",
+            },
+            {
+                soru: "Gümrüklü antrepoda operatörsüz kiralama için hangi belgeler gerekiyor?",
+                cevap: "İşletmenizin kendi personelinin geçerli operatör yeterlilik belgesine (MYK veya MEB onaylı) sahip olması ve sahanın güvenlik kuralına uygun kayıtlı olması gerekir. Bu belgeler sözleşme öncesi kontrol edilir; belgesiz kullanım hem yasal hem fiili risk taşıdığı için kiralama bu kontrol tamamlanmadan başlamaz.",
+            },
+            {
+                soru: "Operatör değişmesi gerekirse (izin, hastalık) süreç nasıl işliyor?",
+                cevap: "Yeni operatörün de aynı saha giriş kaydından geçmesi gerekir; bu süreç mümkün olduğunca önceden planlanır ki sahada operatörsüz makine beklemesi yaşanmasın. Ani bir değişiklik gerekirse sahanın güvenlik birimiyle hızlı kayıt imkânı olup olmadığı kontrol edilir.",
+            },
+            {
+                soru: "Uzun süreli sevkiyat işinde operatörlü modelden operatörsüz modele geçebilir miyiz?",
+                cevap: "Evet, işletmenizin kendi personeli sahaya kayıtlı hâle geldiğinde ve gerekli belgeye sahip olduğunda operatörsüz modele geçiş yapılabilir. Bu geçiş, sözleşme koşulları ve kalan süre birlikte değerlendirilerek planlanır; ani bir kesinti yaşanmaması için geçiş tarihi önceden netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kontrollü alanlara (liman, gümrüklü antrepo, hava kargo terminali) giriş için ayrı güvenlik kaydı gerekmesi ve MYK/MEB operatör yeterlilik belgesi mevzuat ve sektör standardı bilgisidir. Operatörlü/operatörsüz model tercihinin saha giriş yetkisine göre yapılması firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Filo Yönetimi: Liman Geri Sahası, Gümrüklü Antrepo ve Hava Kargo Terminali Arasında Forklift Planlaması",
+        giris:
+            "İzmir'in liman ve hava kargo altyapısına bağlı çalışan bazı işletmelerin forklift ihtiyacı tek bir sahada değil, birden fazla noktada aynı anda ortaya çıkar — liman geri sahasındaki bir antrepo, gümrüklü bir depo ve hava kargo terminali çevresindeki bir tesis aynı işletmeye ait olabilir. Bu durumda forklift kiralama kararı, tek bir makinenin kapasitesinden çok, hangi sahada hangi makinenin ne zaman gerektiğinin doğru sıralanmasıdır. Her sahanın kendi giriş kuralı, trafik yoğunluğu ve iş temposu farklı olduğu için, çok noktalı bir filo planı tek bir şablonla kurulamaz. Bu sayfa, birden fazla liman/gümrük/terminal sahasına hizmet veren işletmeler için forklift filosunun nasıl planlandığını, hangi sahanın hangi önceliğe sahip olduğunu ve bir sahadaki aksamanın diğerine nasıl yansımaması gerektiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Her sahanın kendi giriş kuralı, filo çizelgesinin ilk girdisidir",
+                metin: "Liman geri sahası, gümrüklü antrepo ve hava kargo terminali, birbirinden farklı giriş kayıt süreçlerine sahiptir. Birden fazla sahaya hizmet veren bir filo planlanırken, her sahanın kendi giriş süresi ve kısıtı ayrı ayrı hesaba katılır; bir sahadaki hızlı giriş süreci diğerine genellenmez.",
+            },
+            {
+                baslik: "Sahalar arası makine transferi, boş sürüş kaybı yaratabilir",
+                metin: "Bir makineyi bir sahadan diğerine taşımak, o sürede her iki sahanın da makinesiz kalması demektir; bu transfer süresi görünmez bir kayıptır ve filo planında ayrı bir kalem olarak hesaplanmalıdır. Sık transfer gerektiren bir düzen yerine, her sahada asgari bir çekirdek makine bulundurmak, transfer kaybını azaltır.",
+            },
+            {
+                baslik: "Sahaların iş temposu farklıysa öncelik sırası önceden belirlenir",
+                metin: "Liman geri sahası gemi yanaşma programına, hava kargo terminali uçuş yoğunluğuna, gümrüklü antrepo ise muayene takvimine göre iş temposunu değiştirir. Bu üç ritim aynı anda yoğunlaştığında hangi sahanın önceliğe sahip olduğu önceden netleştirilir; sahada anlık karar verilmez.",
+            },
+            {
+                baslik: "Ortak operatör havuzu, sahalar arası esneklik sağlar",
+                metin: "Birden fazla sahaya hizmet veren bir işletme, her sahada sabit bir operatör yerine, saha giriş yetkisine sahip ortak bir operatör havuzu kurabilir; bu, bir sahadaki beklenmedik yoğunlukta diğer sahadan operatör kaydırmayı mümkün kılar. Bu esneklik ancak operatörlerin ilgili sahaların giriş kaydından geçmiş olmasıyla çalışır.",
+            },
+            {
+                baslik: "Sahalar arası kayıt ve devir tek bir sistemde tutulur",
+                metin: "Her sahadaki makinenin durumu (yakıt/enerji, hasar, sayaç) ayrı ayrı kaydedilse de, filo genelinde tek bir devir kaydı sistemi kullanılması, hangi makinenin hangi sahada, ne zamandır çalıştığını görünür kılar. Bu görünürlük, bakım ve iade planlamasını sahalar arası tutarlı hâle getirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı filo planlamasında saha tipi ve öncelik",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç farklı saha tipinin iş temposunu belirleyen değişkeni ve filo planında bu sahanın nasıl ele alındığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Temponun belirleyicisi", "Filo yaklaşımı", "Kritik risk"],
+                    satirlar: [
+                        ["Liman geri sahası", "Gemi yanaşma programı", "Çekirdek + dönemsel ek makine", "Yığılma günü makinesiz kalma"],
+                        ["Gümrüklü antrepo", "Muayene/işlem takvimi", "Sabit çekirdek makine", "Arızada randevu kaçırma"],
+                        ["Hava kargo terminali", "Uçuş yoğunluğu", "Akülü, kompakt, çekirdek", "Şarj/enerji beklemesi"],
+                        ["Sahalar arası transfer", "İşletmenin kendi programı", "Asgari transfer, ortak operatör havuzu", "Görünmez boş sürüş kaybı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üç sahanın aynı anda yoğunlaşması senaryosu",
+                paragraflar: [
+                    "Gemi yanaşması, uçuş yoğunluğu ve gümrük muayene takvimi bazen aynı haftaya, hatta aynı güne denk gelebilir. Bu durumda tek bir ortak filo havuzundan üç sahayı aynı anda karşılamak mümkün olmayabilir; öncelik sırası, her sahanın kaçırdığı pencerenin bedeline göre önceden belirlenir — örneğin kaçan bir gemi randevusu genellikle gün(ler) süren bir bekleme yaratırken, terminaldeki bir gecikme daha kısa sürede telafi edilebilir.",
+                    "Bu öncelik sırası bir kere kurulduğunda, benzer yoğunluk tekrarlandığında yeniden tartışılmaz; işletme ve bizim aramızda önceden anlaşılmış bir kural olarak uygulanır.",
+                ],
+            },
+            {
+                baslik: "Sahalar arası ortak devir kaydının faydası",
+                paragraflar: [
+                    "Her sahada ayrı ayrı tutulan devir kayıtları, bir işletmenin filo genelindeki toplam kullanım ve bekleme oranını görmesini zorlaştırır. Sahalar arası tek bir devir kaydı sistemi kullanıldığında, hangi sahanın makineyi daha yoğun kullandığı, hangi sahada bekleme fazla olduğu karşılaştırılabilir hâle gelir.",
+                    "Bu karşılaştırma, bir sonraki dönem filo boyutlandırmasında hangi sahaya ek makine, hangi sahaya daha az makine ayrılacağı kararını doğrulanmış veriyle destekler; tahmine dayalı genelleme yapılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Liman, antrepo ve terminal sahalarımız için tek bir filo mu, yoksa ayrı ayrı mı planlıyorsunuz?",
+                cevap: "Her sahanın kendi giriş kuralı ve iş temposu olduğu için filo tek bir şablonla kurulmaz; her saha için ayrı çekirdek makine sayısı belirlenir, ancak operatör havuzu ve devir kayıt sistemi ortak tutulur. Bu, hem saha bazlı özelleşmeyi hem filo genelinde görünürlüğü sağlar.",
+            },
+            {
+                soru: "Bir sahadaki makineyi diğerine transfer etmek mantıklı mı?",
+                cevap: "Sık transfer, her iki sahanın da geçici olarak makinesiz kalmasına yol açtığı için genellikle tercih edilmez; her sahada asgari bir çekirdek makine bulundurmak daha güvenilirdir. Transfer yalnız beklenmedik ve kısa süreli bir yoğunlukta, transfer süresi filo planına dahil edilerek değerlendirilir.",
+            },
+            {
+                soru: "Üç sahamız aynı hafta yoğunlaşırsa hangisine öncelik veriyorsunuz?",
+                cevap: "Öncelik sırası önceden, her sahanın kaçırdığı pencerenin bedeline göre belirlenir — örneğin kaçan bir gemi randevusu genellikle günler süren bir bekleme yaratırken, terminaldeki bir gecikme daha kısa sürede telafi edilebilir. Bu sıralama işletmenizle önceden netleştirilir, yoğunluk anında tartışılmaz.",
+            },
+            {
+                soru: "Ortak operatör havuzu nasıl çalışıyor?",
+                cevap: "Operatörler, hizmet verdiğimiz sahaların giriş kaydından geçmiş olarak bir havuzda tutulur; bir sahada beklenmedik yoğunluk olduğunda, ilgili sahaya kayıtlı bir operatör diğer sahadan kaydırılabilir. Bu esneklik ancak operatörün o sahanın giriş yetkisine sahip olmasıyla mümkündür; yetkisiz operatör hiçbir sahaya kaydırılmaz.",
+            },
+            {
+                soru: "Sahalar arası devir kaydını nasıl tutuyorsunuz?",
+                cevap: "Her sahadaki makinenin durumu ayrı ayrı kaydedilir, ancak tüm kayıtlar filo genelinde tek bir sistemde toplanır; bu, hangi makinenin hangi sahada ne zamandır çalıştığını ve kullanım/bekleme oranını görünür kılar. Bu görünürlük bakım ve iade planlamasını sahalar arası tutarlı hâle getirir.",
+            },
+            {
+                soru: "Yeni bir saha eklemek istiyoruz, mevcut filo planını nasıl güncelliyorsunuz?",
+                cevap: "Yeni sahanın giriş kuralı, iş temposunu belirleyen değişken ve tipik yoğunluk saatleri önce netleştirilir; ardından bu saha mevcut filo planına, öncelik sırası ve operatör havuzu güncellenerek dahil edilir. Mevcut sahaların hizmet düzeyi, yeni saha eklenirken bozulmayacak şekilde planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Liman, gümrüklü antrepo ve hava kargo terminalinin farklı giriş kuralları ve iş temposu değişkenleri (gemi yanaşma, uçuş yoğunluğu, muayene takvimi) kamuya açık, sektör standardı bilgilerdir. Çok sahalı öncelik sıralaması, ortak operatör havuzu ve tek devir kaydı sistemi firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Açık Saha Forklift Kiralama: Liman Geri Sahasında Zemin ve Hava Koşulu",
+        giris:
+            "Liman geri sahasının açık stok alanları, depo içindeki düzgün betondan farklı bir zemin gerçeğiyle çalışır: sıkıştırılmış çakıl, kısmen asfaltlı ama zamanla bozulmuş yüzeyler, yağış sonrası su tutan çukurlar ve mevsime göre değişen zemin sertliği. Bu koşullarda forklift seçimi, tonaj kadar lastik tipi, zemin taşıma kapasitesi ve hava koşuluna dayanıklılık üzerinden yapılır. Depo içi işlerde standart olan dolgu (solid) lastik, açık ve düzensiz sahada erken aşınır veya yeterli tutunmayı sağlamaz; bu sahalarda havalı (pnömatik) lastik ve daha sağlam süspansiyon tercih edilir. Bu sayfa, liman geri sahası ve benzer açık stok alanlarındaki zor zemin koşullarının forklift kararını nasıl şekillendirdiğini, yağışlı dönemde ve gece çalışmada nelere dikkat edildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Açık sahada lastik tipi, depo içinden farklı bir mantıkla seçilir",
+                metin: "Depo içi düz betonda dolgu (solid) lastik dayanıklılık ve kesin manevra sağlarken, açık ve düzensiz zeminde bu lastik erken aşınır ve sürüş konforu düşer. Liman geri sahası gibi açık stok alanlarında havalı (pnömatik) lastik, düzensiz yüzeyde daha iyi tutunma ve amortisman sağlar; ancak havalı lastik patlama riskine karşı da ayrıca değerlendirilmelidir, özellikle sahada keskin döküntü veya hurda malzeme varsa.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi, ağır tonajlı makinede öncelikli kontrol noktasıdır",
+                metin: "Ağır tonajlı bir forklift veya reach stacker sınıfı makinenin aks yükü, sıkıştırılmamış veya yağış sonrası yumuşamış bir zeminde saplanma riskine yol açabilir. Bu risk, özellikle yeni açılan veya geçici stok alanlarında önceden değerlendirilir; gerekiyorsa geçici plaka veya zemin güçlendirme önerilir.",
+            },
+            {
+                baslik: "Yağışlı dönemde drenaj ve çalışma programı birlikte planlanır",
+                metin: "İzmir'in yağışlı aylarında açık saha zemini su tutabilir; bu dönemde çalışma programı, zeminin en kuru olduğu saatlere göre ayarlanabilir veya drenajı iyi olan bölümler öncelikli kullanılır. Su birikintisi olan bölgelerde makine geçişi, zemin altının görünmeyen yumuşaklığı nedeniyle ayrıca dikkat gerektirir.",
+            },
+            {
+                baslik: "Gece çalışmasında aydınlatma ve görüş koşulu",
+                metin: "Açık sahada gece çalışması, sahanın kendi aydınlatmasına ve makinenin üzerindeki aydınlatma donanımına bağlıdır; liman geri sahalarının çoğunda genel saha aydınlatması bulunur ama makine çevresindeki yakın görüş operatörün kendi değerlendirmesine kalır. Bu koşul, gece vardiyası çalışan sahalarda teslimat öncesi ayrıca kontrol edilir.",
+            },
+            {
+                baslik: "Mevsime göre zemin sertliği değişebilir, sabit bir makine sınıfı garanti edilmez",
+                metin: "Yaz aylarında sert ve kuru olan bir zemin, kış aylarında yağışla birlikte tamamen farklı bir taşıma kapasitesine dönüşebilir. Uzun süreli kiralamalarda bu mevsimsel değişim önceden konuşulur; gerekiyorsa kış döneminde lastik tipi veya makine sınıfı gözden geçirilir, yaz koşulundaki makine kışın aynı sahada değişmeden kullanılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Açık saha zemin tipine göre lastik ve makine yönelimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, liman geri sahası ve benzer açık stok alanlarında yaygın zemin tiplerini ve bunlara uygun lastik/makine yönelimini özetler. Kesin seçim gerçek zemin durumu ve yük tipiyle doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Önerilen lastik", "Risk", "Kritik kontrol"],
+                    satirlar: [
+                        ["Sıkıştırılmış çakıl, kuru", "Havalı (pnömatik)", "Orta düzensizlik", "Zemin sertliği"],
+                        ["Bozuk asfalt/beton", "Havalı, sağlam süspansiyon", "Çukur, kot farkı", "Görünmeyen çukur"],
+                        ["Yağış sonrası yumuşamış", "Havalı, geniş taban", "Saplanma", "Zemin altı yumuşaklığı"],
+                        ["Döküntü/hurda içeren saha", "Havalı, patlamaya dayanıklı seçenek", "Delinme", "Rota temizliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yağışlı dönemde açık saha çalışma disiplini",
+                paragraflar: [
+                    "İzmir'in yağışlı aylarında liman geri sahasının açık stok alanlarında zemin, görünürde kuru olsa bile altta yumuşamış olabilir; bu durum özellikle ağır tonajlı makinelerde saplanma riskini artırır. Bu dönemde çalışma programı, mümkünse zeminin en kuru olduğu saatlere göre ayarlanır veya drenajı iyi olan bölümler öncelikli kullanılır.",
+                    "Su birikintisi olan noktalarda makine geçişinden önce zeminin görsel kontrolü yapılır; sürekli su tutan bir bölge varsa, o bölge geçici olarak stok alanı dışına alınır ve alternatif bir alan kullanılır.",
+                ],
+            },
+            {
+                baslik: "Mevsimsel lastik ve makine gözden geçirmesi",
+                paragraflar: [
+                    "Uzun süreli açık saha kiralamalarında, yaz ve kış koşulları arasındaki zemin farkı sözleşme başında konuşulur. Yaz aylarında sert zeminde iyi çalışan bir lastik tipi, kış yağışlarıyla birlikte yetersiz kalabilir; bu durumda lastik değişimi veya makine sınıfı gözden geçirmesi önceden planlanır.",
+                    "Bu gözden geçirme, sahanın geçmiş yıllardaki yağış deseni ve zemin davranışı biliniyorsa daha isabetli yapılır; işletmenin kendi gözlemleri bu planlamaya dahil edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Liman geri sahamızda zemin bozuk, hangi lastik tipini önerirsiniz?",
+                cevap: "Açık ve düzensiz zeminde havalı (pnömatik) lastik, depo içi standardı olan dolgu lastikten daha iyi tutunma ve amortisman sağlar. Sahada döküntü veya hurda malzeme varsa patlamaya karşı daha dayanıklı seçenekler değerlendirilir. Zemin fotoğrafı veya krokinizi paylaşırsanız uygun lastik tipini birlikte netleştiririz.",
+            },
+            {
+                soru: "Yağışlı dönemde ağır tonajlı makine sahaya saplanır mı?",
+                cevap: "Risk vardır ve bu, zeminin yağış sonrası ne kadar yumuşadığına bağlıdır. Bu dönemde çalışma programını zeminin en kuru olduğu saatlere göre ayarlamayı veya drenajı iyi olan bölümleri öncelikli kullanmayı öneririz; gerekiyorsa geçici plaka veya zemin güçlendirme değerlendirilir.",
+            },
+            {
+                soru: "Yaz aylarında kullandığımız makine kışın da aynı şekilde çalışır mı?",
+                cevap: "Her zaman değil; yaz aylarında sert olan bir zemin kışın yağışla birlikte farklı bir taşıma kapasitesine dönüşebilir. Uzun süreli kiralamalarda bu mevsimsel değişimi önceden konuşuruz; gerekirse kış döneminde lastik tipi veya makine sınıfı gözden geçirilir.",
+            },
+            {
+                soru: "Gece vardiyasında açık sahada çalışma güvenli mi?",
+                cevap: "Sahanın genel aydınlatması ve makinenin kendi aydınlatma donanımı birlikte değerlendirilir. Liman geri sahalarının çoğunda genel saha aydınlatması bulunur, ancak makine çevresindeki yakın görüş ayrıca kontrol edilir; bu kontrol gece vardiyası çalışan sahalarda teslimat öncesi yapılır.",
+            },
+            {
+                soru: "Sahada su birikintisi var, makine oradan geçebilir mi?",
+                cevap: "Su birikintisi altındaki zemin görünenden daha yumuşak olabilir; bu yüzden geçişten önce görsel kontrol yapılır. Sürekli su tutan bir bölge varsa, o bölgeyi geçici olarak stok alanı dışına almanızı ve alternatif bir alan kullanmanızı öneririz.",
+            },
+            {
+                soru: "Zor zeminde çalışacak makine ile depo içi makine aynı olabilir mi?",
+                cevap: "Genellikle önerilmez; depo içi standardı olan dolgu lastik açık ve düzensiz zeminde erken aşınır, açık saha standardı olan havalı lastik ise düz betonda gereksiz yumuşaklık yaratabilir. İki ortam için görev ayrımı yapılması, hem makine ömrü hem performans açısından daha uygundur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dolgu/havalı lastik ayrımının zemin tipine göre yapılması, ağır tonajlı makinede zemin taşıma kapasitesi riski ve İzmir'in yağışlı dönem koşulları sektör standardı ve kamuya açık iklim bilgisidir. Mevsimsel lastik/makine gözden geçirmesi ve yağışlı dönem çalışma programı firma pratiğimizdir. Tesis adı veya rakam uydurulmamıştır.",
+    },
 };

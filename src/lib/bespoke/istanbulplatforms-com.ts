@@ -817,4 +817,1084 @@ export const ISTANBULPLATFORMS_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. İstanbul Deri OSB'nin Tuzla'daki konumu ve deri-tekstil sanayisine ihtisaslaşmış OSB niteliği kamuya açık genel bilgidir; kapalı hacimde akülü makine tercihi sektör standardı genel bilgidir, periyodik bakım takvimi kurgusu ve OSB takvimiyle koordinasyon firma pratiğidir.",
     },
+
+    // ─────────────────────────────────────────────────────────────────────
+    // HİZMET SAYFALARI — aynı TEDARİK KONTRATI açısı korunur, her sınıf
+    // kontrat mimarisinin farklı bir maddesini/riskini konu edinir.
+    // Yazım: 2026-08-14.
+    // ─────────────────────────────────────────────────────────────────────
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Çerçeve Sözleşmede Sepetli / Örümcek Platform Kalemi",
+        giris:
+            "Bir çerçeve sözleşmenin fiyat listesi hazırlanırken en çok tartışılan satırlardan biri sepetli örümcek platformdur — çünkü bu sınıf, diğer makine sınıfları gibi düzenli ve öngörülebilir bir talep üretmez. Bir tesiste yılda birkaç kez, genellikle dar bir kapıdan geçmesi gereken, hassas bir zeminde çalışması gereken veya vinç erişimi olmayan bir noktaya ulaşması gereken özel bir iş çıktığında devreye girer. Satın alma tarafında bu durum bir soruyu doğurur: yıllık kullanım hacmi düşük ve düzensiz bir sınıfı, düzenli kullanılan sınıflarla aynı sözleşme mantığıyla mı fiyatlandırmalı? Bizim kurumsal müşterilerle kurduğumuz çerçevelerde cevap nettir — sepetli örümcek platform, fiyat listesinde ayrı bir kalem olarak durur, çağrı bazlı çalışır ve asgari kullanım taahhüdüne dahil edilmez; çünkü bu sınıfı taahhüde bağlamak, gerçekleşmeyecek bir hacmi sözleşmeye yazmak anlamına gelir. Bu sayfa, bu özel sınıfın bir kurumsal tedarik sözleşmesinde nasıl konumlandığını, hangi kapsam maddelerinin bu sınıfa özgü yazıldığını ve fiyat listesindeki yerinin neden farklı kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapsam maddesinde 'özel erişim sınıfı' tanımı",
+                metin:
+                    "Sözleşme metninde sepetli örümcek platform, standart makaslı veya eklemli sınıflardan ayrı bir başlık altında, 'özel erişim sınıfı' olarak tanımlanır ve bu tanımın altına hangi koşulların bu sınıfı tetiklediği yazılır: kapı veya koridor genişliği belirli bir eşiğin altında olan geçişler, hassas iç mekân zeminleri, vinç veya araç erişimi bulunmayan iç avlu ve atrium işleri. Bu tanımın amacı, talep açıldığında hangi sınıfın devreye gireceği konusunda saha ile satın alma arasında yorum farkı bırakmamaktır — 'dar bir yerde çalışacağız' ifadesi tek başına yeterli değildir, kapsam maddesi somut eşikler ister.",
+            },
+            {
+                baslik: "Çağrı bazlı fiyatlama, taahhütsüz kapasite",
+                metin:
+                    "Düzenli kullanılan sınıflarda dönem fiyatı sabitlenir ve kullanım hacmi tahmin edilerek kapasite ayrılır; sepetli örümcek platformda bu mantık işlemez çünkü talep önceden kestirilemez. Bunun yerine birim fiyat dönem başında sabitlenir ama kullanım taahhüdü aranmaz — müşteri sadece gerçekten ihtiyaç duyduğu dönemde talep açar ve o dönemin fiyatı zaten sözleşmede yazılıdır. Bu yapı iki tarafı da korur: müşteri kullanmadığı bir kapasite için bedel ödemez, biz de düzensiz talebi zorla düzenli taahhüde bağlamaya çalışmayız.",
+            },
+            {
+                baslik: "Karşılama süresi neden farklı yazılır",
+                metin:
+                    "Sürekli tahsisli bir makine sahada dururken karşılama süresi dakikalarla ölçülebilir; sepetli örümcek platform çağrı bazlı çalıştığı için karşılama süresi sözleşmede ayrı ve daha gerçekçi bir pencereyle tanımlanır. Bu farkı gizlemeyiz — düzenli sınıflarla aynı hızlı karşılama vaadini bu sınıfa yazmak, tutmayacağımız bir taahhüt vermek olurdu. Bunun yerine, iş programınızda bu tür bir ihtiyacı önceden görebiliyorsanız (örneğin planlı bir tesisat işi), talebi birkaç gün önceden açmanızı öneririz; bu, karşılama süresini fiilen sıfıra indiren en pratik yöntemdir.",
+            },
+            {
+                baslik: "Zemin ve geçiş bilgisinin sözleşme öncesi paylaşılması",
+                metin:
+                    "Bu sınıfın seçilme nedeni neredeyse her zaman bir fiziksel kısıttır — kapı genişliği, kat yüksekliği, zemin hassasiyeti veya erişim yolu. Devreye alma döneminde tesisin saha dosyasına bu ölçüleri özellikle işleriz, çünkü sepetli örümcek platform talebi geldiğinde doğru modelin ilk seferde gönderilmesi bu bilgiye bağlıdır. Ölçü paylaşılmadan açılan bir talep, sahada ikinci bir keşif gerektirebilir ve bu, karşılama süresini uzatan en yaygın nedendir.",
+            },
+            {
+                baslik: "Diğer sınıflarla birlikte kullanılan işlerde kapsam çakışması",
+                metin:
+                    "Bazı işlerde sepetli örümcek platform tek başına değil, örneğin bir çelik konstrüksiyon montajının dar bir bölümünde eklemli platformla birlikte kullanılır. Böyle durumlarda kapsam maddesinde hangi işin hangi sınıfla yürütüleceği net yazılır, aksi hâlde fatura satırında hangi kalemin hangi işe karşılık geldiği tartışma konusu olur. Karma iş taleplerinde bu ayrımı teklif aşamasında birlikte çıkarırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Fiyat listesindeki konumu: düzenli sınıflarla karşılaştırma",
+                paragraflar: [
+                    "Çerçeve sözleşmenin fiyat listesinde sınıfların taahhüt ve fiyatlama mantığı birbirinden farklıdır. Aşağıdaki tablo, sepetli örümcek platformun bu listedeki yerini düzenli kullanılan sınıflarla karşılaştırır.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Kullanım düzeni", "Taahhüt", "Karşılama süresi mantığı"],
+                    satirlar: [
+                        ["Sepetli örümcek platform", "Düzensiz, özel iş", "Taahhütsüz, çağrı bazlı", "Standart pencere, erken bildirimle kısalır"],
+                        ["Makaslı platform", "Düzenli, tekrarlayan", "Asgari taahhüt önerilir", "Kısa, tahsisli kapasiteye bağlı"],
+                        ["Eklemli platform (boom)", "Düzenli, proje bazlı olabilir", "Değişken, işe göre", "Orta, proje takvimine göre planlanır"],
+                        ["Tahsisli makine (herhangi sınıf)", "Sürekli", "Yüksek taahhüt", "Sahada zaten mevcut, süre neredeyse yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sözleşme görüşmesinde bu kalemi nasıl ele alırız",
+                paragraflar: [
+                    "Devreye alma döneminde müşteriye doğrudan sorduğumuz bir soru vardır: geçmiş bir-iki yılda kaç kez dar geçit, hassas zemin veya vinç erişimi olmayan bir noktaya erişim ihtiyacınız oldu? Cevap 'hiç hatırlamıyorum' ise bu kalemi fiyat listesine yazarız ama üzerinde durmayız — gerçek ihtiyaç doğduğunda zaten oradadır. Cevap somut ve tekrarlayan bir örüntü gösteriyorsa (örneğin belirli bir bina bloğunun periyodik tesisat bakımı), bu kalemi ayrı bir alt-takvime bağlayıp öngörülebilir hâle getirmeyi öneririz.",
+                    "Bu yaklaşımın nedeni basittir: bir müşteriye ihtiyacından fazla taahhüt sattığımızda, ilk yenileme döneminde bu fazlalık fark edilir ve güven kaybına dönüşür. Sepetli örümcek platform gibi düzensiz bir sınıfı zorla düzenli bir kaleme dönüştürmek, kısa vadede ciro gibi görünse de uzun vadede sözleşme ilişkisine zarar verir.",
+                ],
+            },
+            {
+                baslik: "Personel yeterliliği ve sözleşme eki",
+                paragraflar: [
+                    "Sepetli örümcek platform, uzaktan kumandalı ve kompakt yapısı nedeniyle operatör yeterliliği açısından da ayrı bir madde gerektirir; standart makaslı platform eğitimi bu sınıf için otomatik olarak yeterli sayılmaz. Sözleşme ekinde, bu sınıfın operatörlü mü yoksa müşteri personeliyle mi kullanılacağı ve ikinci durumda hangi yeterlilik belgesinin arandığı yazılır. Kurumsal müşterilerin İSG departmanı bu maddeyi genellikle dikkatle inceler; biz de belgeyi talep etmeden önce kendi tarafımızdaki standart seti paylaşırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sepetli örümcek platformu asgari kullanım taahhüdüne dahil etmemizi ister misiniz?",
+                cevap:
+                    "Genellikle önermeyiz. Bu sınıfın kullanım örüntüsü düzensiz olduğu için taahhüt yazmak, ya müşteriyi kullanmayacağı bir hacme bağlar ya da bizi karşılayamayacağımız bir kapasite ayırmaya zorlar. İstisna, geçmiş verinizde gerçekten tekrarlayan bir ihtiyaç görüyorsak — örneğin belirli bir bina bloğunun periyodik iç tesisat bakımı bu sınıfı düzenli olarak gerektiriyorsa, o zaman bu alt-kalemi ayrı bir taahhütle sözleşmeye yazarız. Genel kuralımız, taahhüdü gerçek veriye dayandırmak, varsayıma dayandırmamaktır.",
+            },
+            {
+                soru: "Bu sınıfın karşılama süresi diğer sınıflardan neden daha uzun yazılıyor?",
+                cevap:
+                    "Çünkü bu sınıf için sahada sürekli tahsisli kapasite tutmuyoruz — talep düzensiz olduğu için bu ekonomik olmazdı. Düzenli sınıflarda kısa karşılama süresi, o sınıfın zaten belirli bir kapasitede hazır tutulmasından gelir; sepetli örümcek platformda ise talep geldiğinde uygun modelin müsaitliği kontrol edilip yönlendirilir. Bu farkı sözleşmede gizlemek yerine açıkça yazarız, çünkü tutmayacağımız bir süre taahhüdü vermek güveni zedeler. Planlı bir iş için birkaç gün önceden bildirim yaparsanız, fiilen bu süreyi ortadan kaldırabiliriz.",
+            },
+            {
+                soru: "Aynı fatura döneminde hem eklemli platform hem sepetli örümcek platform kullandık; kalemler nasıl ayrışıyor?",
+                cevap:
+                    "Fiyat listesinde her sınıfın kendi birim fiyatı ve fiyatlama mantığı ayrı yazılıdır, bu yüzden karışık bir iş yapıldığında da fatura satır bazında ayrışır — hangi tarihte, hangi sınıf, hangi süre kullanıldığı ayrı ayrı görünür. Karma bir işte hangi bölümün hangi sınıfla yürütüleceğini teklif aşamasında netleştiririz, böylece fatura döneminde sürpriz bir kalem çıkmaz. Belirsiz kalan tek nokta, işin sahada beklenenden farklı ilerlemesi hâlinde sınıf değişikliği olursa; bu durumda değişikliği önceden bildiririz, faturaya geriye dönük bir kalem eklemeyiz.",
+            },
+            {
+                soru: "Bu makineyi kendi personelimiz kullanabilir mi, yoksa operatör şart mı?",
+                cevap:
+                    "İkisi de mümkündür ama sözleşme ekinde hangi seçeneğin uygulanacağı yazılmalıdır. Kendi personelinizin kullanması durumunda, bu sınıfa özgü yeterlilik belgesinin geçerli olması istenir — standart makaslı platform sertifikası bu sınıf için otomatik yeterli sayılmaz, çünkü kumanda ve hareket mantığı farklıdır. Belgeniz yoksa operatörlü kullanım önerilir ve bu, ayrı bir fiyat kalemi olarak sözleşmeye yazılır. Devreye alma döneminde personelinizin mevcut yeterliliğini birlikte gözden geçirir, gerekiyorsa saha içi bilgilendirme yaparız.",
+            },
+            {
+                soru: "Sık kullanmadığımız bu sınıfı fiyat listesine yazmanın bize bir maliyeti var mı?",
+                cevap:
+                    "Hayır. Fiyat listesine bir sınıfın yazılması, o sınıfı kullanmaya mecbur bırakmaz veya sabit bir bedel doğurmaz — sadece ihtiyaç doğduğunda hangi fiyatla karşılaşacağınızı önceden bilmenizi sağlar. Asıl amaç, ihtiyaç çıktığında yeniden teklif toplama sürecine girmemenizdir; fiyat zaten sözleşmede yazılıdır, talebi açtığınız an işleme girer. Kullanmadığınız dönemler için herhangi bir bedel tahakkuk etmez.",
+            },
+            {
+                soru: "Dar bir geçitten geçemeyen bir işimiz çıkarsa ve elinizde uygun model yoksa ne olur?",
+                cevap:
+                    "Bu ihtimali sözleşme görüşmesinde açıkça konuşuruz çünkü bu sınıfın modelleri arasında şase genişliği ve uzanma mesafesi bakımından fark vardır ve her ölçüye her zaman uygun model bulunmayabilir. Devreye alma döneminde tesisinizin tipik geçiş ölçülerini önceden alır, bu ölçülere uygun modelin filo içinde ve ihtiyaç anında müsait olup olmadığını değerlendiririz. Eğer belirli bir ölçü bizim mevcut model setimizin dışındaysa bunu baştan söyleriz; taahhüt edemeyeceğimiz bir işi sözleşmeye yazıp sonra karşılayamamak, hem sizin hem bizim için daha kötü bir sonuçtur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sepetli örümcek platformun paletli/uzaktan kumandalı yapısı ve dar geçit erişimi sektör standardı genel bilgidir; bu sınıfın çerçeve sözleşmede taahhütsüz/çağrı bazlı ele alınması, karşılama süresi farkı ve fiyat listesi konumu firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Kontrat Kapsamında Nakliye ve Teslimat Maddesi",
+        giris:
+            "Kurumsal bir tedarik sözleşmesinde nakliye, çoğu zaman hafife alınan ama fiyat tartışmasının en sık çıktığı maddedir. Sorun basittir: bir teklifte 'nakliye dahildir' yazması, tek başına yeterli bir kapsam tanımı değildir — hangi mesafeye kadar dahil olduğu, mesai dışı teslimatın ayrı ücretlendirilip ücretlendirilmediği, birden fazla lokasyona aynı gün teslimat yapılıyorsa bunun nasıl fiyatlandığı, teslimat gecikmesinin hizmet seviyesi taahhüdünü nasıl etkilediği yazılmadığı sürece, dönem içinde mutlaka bir anlaşmazlık üretir. Bizim çerçeve sözleşmelerimizde nakliye ayrı bir madde olarak, kendi kapsam sınırları ve kendi hizmet seviyesiyle yazılır — çünkü nakliye, makinenin kendisi kadar sözleşmenin işleyişini belirleyen bir unsurdur. Bir makine ne kadar uygun olursa olsun, teslimat süresi karşılama süresi taahhüdünün bir parçasıdır ve bu ikisini ayrı düşünmek mümkün değildir. Bu sayfa, nakliye ve teslimat maddesinin bir kurumsal sözleşmede nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapsam sınırının coğrafi ve saatlik tanımı",
+                metin:
+                    "Sözleşmede nakliye kapsamı iki eksende tanımlanır: coğrafi sınır (hangi bölge veya mesafe standart kapsamda, hangisi ek ücretli) ve zaman sınırı (mesai saatleri içi standart, mesai dışı ve resmî tatil ayrı kalem). Bu iki eksen yazılmadan verilen 'nakliye dahildir' ifadesi, dönem içinde en sık tartışılan maddeye dönüşür. Devreye alma döneminde müşterinin lokasyon listesini alır, her lokasyonu bu iki eksene göre sözleşme ekine işleriz.",
+            },
+            {
+                baslik: "Karşılama süresi taahhüdüyle bağlantısı",
+                metin:
+                    "Hizmet seviyesi maddesinde tanımlanan karşılama süresi, makinenin depoda hazır olmasından değil, sahaya fiilen ulaşmasından itibaren ölçülür — bu yüzden nakliye kapasitemiz, verdiğimiz süre taahhüdünün altında yatan gerçek kısıttır. Bir bölgeye taahhüt ettiğimiz süre, o bölgeye ayırdığımız nakliye kapasitesiyle desteklenmelidir; aksi hâlde kâğıt üzerinde iyi görünen bir taahhüt, ilk yoğun günde tutmaz. Bu nedenle nakliye planlaması, sözleşme fiyatlandırmasından önce değil, fiyatlandırmayla birlikte yapılır.",
+            },
+            {
+                baslik: "Çok lokasyonlu teslimatlarda önceliklendirme",
+                metin:
+                    "Aynı gün birden fazla lokasyona teslimat gerektiğinde, hangi teslimatın önce yapılacağı sözleşmede tanımlı bir mantığa göre belirlenir — öncelik sınıfına göre mi (acil talep önce), yoksa rota mantığına göre mi (coğrafi olarak sıralı teslimat). Karma bir düzen de mümkündür: acil talepler önceliklendirilir, geri kalan teslimatlar rota verimliliğine göre sıralanır. Bu mantığı sözleşme görüşmesinde konuşuruz, çünkü aksi takdirde 'bizim teslimatımız neden ikinci sıraya kaldı' sorusu her seferinde yeniden tartışılır.",
+            },
+            {
+                baslik: "Teslim alma prosedürü ve tutanak",
+                metin:
+                    "Nakliye maddesinin görünmeyen ama önemli bir parçası, teslim alma prosedürüdür. Makine sahaya ulaştığında kim imza atacak, hasar kontrolü kim tarafından yapılacak, kullanım öncesi kısa kontrol listesi kimin sorumluluğunda — bu adımlar sözleşme ekinde tanımlanır. Bu prosedür yazılı olmadığında, dönem sonunda bir hasar veya eksiklik iddiası ortaya çıktığında hangi tarafın ne zaman teslim aldığı belirsiz kalır ve anlaşmazlık büyür.",
+            },
+            {
+                baslik: "İade ve geri alım süreci",
+                metin:
+                    "Teslimat maddesinin ayna görüntüsü geri alımdır ve genellikle daha az dikkat çeker ama aynı derecede önemlidir: kullanım süresi dolduğunda geri alım talebi ne kadar sürede karşılanır, sahada geciken bir geri alım hangi tarafa ek maliyet yükler. Sözleşmemizde geri alım da bir hizmet seviyesi maddesi olarak yazılır, sadece teslimat değil.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Nakliye kapsamı: standart ve ek ücretli durumlar",
+                paragraflar: [
+                    "Nakliye maddesinin sözleşmede nasıl ayrıştığını, hangi durumun standart kapsamda hangisinin ek kalem olduğunu aşağıdaki tabloda özetledik. Sözleşme görüşmesinde bu tabloyu birlikte doldurup lokasyon listenize uyarlarız.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Kapsam", "Fiyatlama mantığı", "Sözleşmede tanımlanan nokta"],
+                    satirlar: [
+                        ["Mesai içi standart teslimat", "Standart kapsam", "Birim fiyata dahil", "Kapsam bölgesi sınırı"],
+                        ["Mesai dışı / tatil teslimatı", "Ek kalem", "Ayrı çağrı bazlı fiyat", "Hangi saatlerin mesai dışı sayıldığı"],
+                        ["Aynı gün çoklu lokasyon", "Standart, önceliklendirilir", "Rota mantığına göre sıralanır", "Öncelik kriteri"],
+                        ["Kapsam dışı mesafe", "Ek kalem", "Mesafe bazlı ek ücret", "Kapsam sınırının kendisi"],
+                        ["Geciken geri alım", "Hizmet seviyesi maddesi", "Taahhüde bağlı", "Geri alım karşılama süresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nakliye kapasitesinin kontrat taahhüdünü nasıl belirlediği",
+                paragraflar: [
+                    "Bir hizmet seviyesi taahhüdü verirken, altında somut bir kaynak durmalıdır ve nakliye tarafında bu kaynak araç ve şoför kapasitesidir. Bir bölgeye kısa karşılama süresi taahhüt ediyorsak, bu taahhüdün arkasında o bölgeye ayrılmış düzenli bir nakliye kapasitesi vardır; taahhüt ile kapasite arasında bu bağ kurulmadan verilen sürelerin ilk yoğun dönemde tutmadığını biliriz. Bu yüzden sözleşme öncesinde, taahhüt edeceğimiz bölgelerin nakliye kapasitesini kendi içimizde kontrol ederiz.",
+                    "Bu yaklaşımın müşteri için pratik bir sonucu vardır: bir bölgeye verdiğimiz süre taahhüdü, o bölgede gerçekten karşılanabilir bir sayıdır, pazarlık masasında iyi görünsün diye yazılmış bir rakam değildir. Karşılanamayacağını bildiğimiz bir süreyi yazmayız.",
+                ],
+            },
+            {
+                baslik: "Teslimat verisinin raporlanması",
+                paragraflar: [
+                    "Dönem raporunda teslimat performansı ayrı bir başlık olarak yer alır: talep açılış zamanı, teslimat zamanı, hedef süreyle karşılaştırma ve varsa gecikme nedeni. Bu veri, sadece bizim performansımızı değil, sizin talep açma alışkanlığınızı da gösterir — örneğin bazı lokasyonların talebi son dakika açtığı görülebilir, bu da teslimat süresini fiilen daraltan bir davranıştır. Bu raporu birlikte incelemek, dönem içinde her iki tarafın da davranışını iyileştirmesine yardımcı olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Nakliye ücreti fiyata dahil mi, ayrı mı faturalanıyor?",
+                cevap:
+                    "Bu, sözleşmede tanımlanan kapsam bölgesine bağlıdır. Belirlenen standart kapsam alanı içindeki mesai içi teslimatlar birim fiyata dahildir ve ayrıca faturalanmaz. Kapsam dışı mesafeler, mesai dışı veya resmî tatil teslimatları ise ayrı kalem olarak, önceden belirlenmiş birim fiyatla faturalanır. Bu ayrımı sözleşme ekinde net yazarız, böylece dönem sonunda 'bu neden ek ücretli çıktı' sorusu gelmez — kapsam ve istisnalar baştan bellidir.",
+            },
+            {
+                soru: "Aynı gün üç farklı lokasyona teslimat istersek hangisi önce gelir?",
+                cevap:
+                    "Sözleşmede tanımlanan önceliklendirme mantığına göre belirlenir. Eğer taleplerden biri acil sınıfa giriyorsa (üretimi durduran bir arıza gibi) o önce karşılanır; kalan teslimatlar rota verimliliğine göre sıralanır, yani coğrafi olarak birbirine yakın olanlar aynı tur içinde art arda yapılır. Bu mantığı devreye alma döneminde sizinle konuşur, lokasyonlarınızın kendi içindeki öncelik sıralamasını da (varsa) sözleşmeye yazarız. Belirsiz bir önceliklendirme, en çok şikayet üreten noktalardan biridir; bu yüzden bunu tesadüfe bırakmayız.",
+            },
+            {
+                soru: "Makine teslim alınırken hasar tespiti yapılmazsa ne olur?",
+                cevap:
+                    "Sözleşme ekinde tanımlanan teslim alma prosedürü tam olarak bu riski önlemek için vardır: makine sahaya ulaştığında kısa bir kontrol listesi üzerinden hasar ve eksiklik kontrolü yapılır ve karşılıklı imzalanır. Bu adım atlanırsa, dönem sonunda bir hasar iddiası çıktığında hasarın teslimattan önce mi sonra mı oluştuğu belirsiz kalır ve bu, iki taraf için de tatsız bir tartışmaya dönüşür. Bu yüzden teslim alma prosedürünü sözleşmenin isteğe bağlı değil zorunlu bir maddesi olarak yazarız.",
+            },
+            {
+                soru: "Kullanım süresi bitince makineyi hemen mi geri alıyorsunuz?",
+                cevap:
+                    "Geri alım talebi açıldığında, sözleşmede tanımlanan geri alım hedef süresi içinde makineyi çekeriz; bu süre genellikle teslimat süresinden farklı ve biraz daha esnek yazılır çünkü aciliyeti farklıdır. Geri alımın gecikmesi hâlinde ek kullanım bedeli kimin sorumluluğunda olduğu sözleşmede tanımlanır — eğer gecikme bizim tarafımızdaki bir planlama sorunundan kaynaklanıyorsa ek bedel talep etmeyiz; makinenin sahada tutulması sizin talebinizden kaynaklanıyorsa (örneğin işin uzaması) bu durum ayrıca fiyatlanır.",
+            },
+            {
+                soru: "Kapsam dışı bir mesafeye teslimat gerekirse fiyatı önceden mi öğreniyoruz?",
+                cevap:
+                    "Evet. Kapsam sınırının dışında kalan mesafeler için mesafe bazlı ek ücret sözleşme ekinde önceden yazılıdır, talep anında yeniden pazarlık yapılmaz. Bu, hem sizin bütçe planlamanız hem bizim operasyon planlamamız için önemlidir — kapsam dışı bir talep geldiğinde ne kadar ek maliyet doğacağını her iki taraf da önceden bilir. Kapsam sınırının kendisi de dönemsel gözden geçirmede yeniden değerlendirilebilir; lokasyon profiliniz değişirse sınırı birlikte güncelleriz.",
+            },
+            {
+                soru: "Teslimat performansımızı nasıl takip edebiliyoruz?",
+                cevap:
+                    "Dönem raporunda teslimat performansı ayrı bir başlık olarak yer alır: her talebin açılış zamanı, gerçekleşen teslimat zamanı, hedef süreyle karşılaştırma ve varsa gecikme nedeni listelenir. Bu raporu istediğiniz sıklıkta (aylık özet, dönemsel ayrıntılı) alabilirsiniz. Rapor size sadece bizim performansımızı değil, kendi talep açma alışkanlığınızı da gösterir — bazı ekiplerin talebi son dakikada açtığı görülebilir, bu da fiilen karşılama süresini daraltan bir davranıştır ve raporda bu örüntü ortaya çıkar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Nakliye kapsamının mesai içi/dışı ve mesafe bazlı ayrımı sektör standardı genel bilgidir; teslim alma prosedürü, önceliklendirme mantığı ve geri alım maddesi kurgusu firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Karma Filo Sözleşmesinde Forklift Kalemi",
+        giris:
+            "Kurumsal bir tesisin erişim ekipmanı ihtiyacı nadiren tek bir makine sınıfıyla sınırlıdır — bir depo veya üretim tesisinde yüksekte çalışma platformu kadar, palet taşıma ve istifleme için forklift de düzenli bir ihtiyaçtır. Bu iki ihtiyacı ayrı tedarikçilerle, ayrı sözleşmelerle karşılamak, satın alma tarafında gereksiz bir tedarikçi çoğalmasına yol açar; oysa aynı çerçeve sözleşme altında karma bir fiyat listesiyle her iki sınıf da yönetilebilir. Bizim yaklaşımımız budur: forklift, çerçeve sözleşmenin fiyat listesinde platform sınıflarıyla yan yana, kendi birim fiyatı ve kendi hizmet seviyesiyle yer alır. Bu, müşteriye tek sözleşme, tek muhatap ve tek fatura düzeni sağlarken, her sınıfın kendine özgü kullanım mantığını (forkliftte kapasite ve ataşman, platformda erişim yüksekliği) de korur. Bu sayfa, forklift kaleminin bir kurumsal tedarik sözleşmesinde nasıl tanımlandığını ve hangi maddelerin bu sınıfa özgü yazıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapasite ve ataşman listesinin sözleşme ekine yazılması",
+                metin:
+                    "Platform sınıflarında belirleyici ölçüt erişim yüksekliğiyken, forklift sınıfında belirleyici ölçüt kaldırma kapasitesi ve ataşman tipidir. Sözleşme ekinde, tesisinizin tipik yük profiline göre hangi kapasite sınıflarının kapsamda olduğu ve hangi ataşmanların (standart çatal, yan kaydırmalı, döner kafa gibi) fiyat listesine dahil edildiği yazılır. Bu liste, ihtiyaç çıktığında yeniden teklif almadan hangi ekipmanın hangi fiyatla geleceğini önceden bilmenizi sağlar.",
+            },
+            {
+                baslik: "İç mekân ve dış saha ayrımı",
+                metin:
+                    "Forklift kaleminde en sık karışan nokta, iç mekân (depo içi, kapalı hacim) ile dış saha kullanımının aynı makineyle karşılanamamasıdır — kapalı hacimde egzoz emisyonu ve gürültü kısıtı vardır, dış sahada ise zemin ve hava koşulu farklı bir lastik ve tahrik tercihini gerektirir. Sözleşmede bu iki kullanım tipi ayrı kalem olarak yazılır ve hangi lokasyonun hangi tipe girdiği baştan netleştirilir; aksi hâlde yanlış makine sınıfının gönderilmesi hem verimsizlik hem güvenlik riski yaratır.",
+            },
+            {
+                baslik: "Operatör yeterliliği ve mevzuat kaydı",
+                metin:
+                    "Forklift operatörlüğü, platform operatörlüğünden farklı bir mevzuat çerçevesine tabidir ve bu fark sözleşme ekinde ayrıca yazılır. Kendi personelinizle çalışacaksanız operatör belgelerinin sözleşme dosyasında güncel tutulması istenir; operatörlü kullanım tercih edilirse bu ayrı bir fiyat kalemidir. Personel devrinin yüksek olduğu depo operasyonlarında, belge takibinin sözleşme kapsamına dahil edilmesi (kimin hangi belgeyi ne zaman yenilediğinin izlenmesi) pratikte büyük fayda sağlar.",
+            },
+            {
+                baslik: "Yoğun dönem kapasite planlaması",
+                metin:
+                    "Depo ve lojistik operasyonlarında forklift talebi genellikle mevsimsel veya kampanya bazlı dalgalanır — yılsonu, kampanya dönemi veya stok sayımı gibi dönemlerde talep aniden artar. Sözleşmede bu tür öngörülebilir yoğun dönemler için önceden bildirim yükümlülüğü ve buna karşılık ek kapasite rezervasyonu maddesi yazılır. Öngörülemeyen ani bir talep artışında ise elimizdeki genel kapasiteye göre karşılama yapılır, ancak bunun garantisi taahhüt edilmez — bu farkı sözleşmede açıkça belirtiriz.",
+            },
+            {
+                baslik: "Periyodik bakım ve iş güvenliği kontrolü",
+                metin:
+                    "Forklift, sürekli yük altında çalışan bir ekipman olduğu için periyodik kontrol takvimi platform sınıflarına göre daha sık işletilir. Sözleşmede bu takvim ve kontrol raporlarının hangi sıklıkla müşteriyle paylaşılacağı yazılır; kurumsal tesislerin İSG denetimlerinde bu raporlar sıklıkla istenir, bu yüzden güncel tutulmaları sadece bizim değil sizin de yükümlülüğünüzü kolaylaştırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift sınıflarının karma filo listesindeki yeri",
+                paragraflar: [
+                    "Bir kurumsal fiyat listesinde forklift sınıflarının tipik kullanım profili ve dikkat edilmesi gereken sözleşme maddesi aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Tipik kullanım", "Belirleyici özellik", "Sözleşmede dikkat edilecek madde"],
+                    satirlar: [
+                        ["Dizel forklift", "Dış saha, ağır yük", "Kapasite, zemin uygunluğu", "İç mekân kullanımı hariç tutulmalı"],
+                        ["Elektrikli/akülü forklift", "Kapalı depo içi", "Emisyonsuz, düşük gürültü", "Şarj altyapısı sorumluluğu"],
+                        ["Yan kaydırmalı ataşman", "Dar koridorlu depo", "Koridor genişliği uyumu", "Ataşman listesine ek fiyat"],
+                        ["Reach truck / yüksek istifleme", "Yüksek raf sistemleri", "Raf yüksekliği", "Zemin düzlüğü koşulu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Depo operasyonlarında karma talebin yönetimi",
+                paragraflar: [
+                    "Depo ve lojistik tesislerinde forklift talebi genellikle platform talebinden bağımsız hareket eder — biri stok hareketiyle, diğeri bakım ve tesisat işiyle ilgilidir. Ama aynı sözleşme altında yönetildiğinde satın alma tarafında tek bir dönem raporu, tek bir tedarikçi değerlendirmesi ve tek bir yenileme görüşmesi yeterli olur. Bu, özellikle çok lokasyonlu depo ağlarında satın alma biriminin idari yükünü belirgin şekilde azaltır.",
+                    "Uygulamada karma filo sözleşmelerinin en sık sorduğumuz sorusu şudur: forklift ve platform ihtiyacınız aynı ekip tarafından mı yönetiliyor, yoksa depo operasyon ekibi ile bakım ekibi ayrı mı çalışıyor? Cevaba göre talep açma yetkisini ve raporlama formatını farklı kurarız; tek bir formatı iki farklı ekibe zorlamak, pratikte kullanılmayan bir sisteme dönüşür.",
+                ],
+            },
+            {
+                baslik: "Yoğun dönem rezervasyonunun işleyişi",
+                paragraflar: [
+                    "Öngörülebilir yoğun dönemler (yılsonu, kampanya, stok sayımı) için rezervasyon maddesi şöyle işler: müşteri, dönem başında bilinen yoğun tarihleri bize bildirir, biz bu tarihler için ek kapasiteyi önceden ayırırız. Bildirim ne kadar erken yapılırsa, o kadar geniş bir kapasite havuzundan ayırma şansımız olur. Son dakika gelen bir yoğun dönem talebinde ise elimizdeki serbest kapasiteye göre karşılarız, ancak bunu bir taahhüt olarak değil, iyi niyet çabası olarak sunarız — bu farkı sözleşmede net yazmak, dönem sonunda beklenti uyumsuzluğunu önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift ve platform ihtiyacımızı tek sözleşmede birleştirmenin somut faydası ne?",
+                cevap:
+                    "Üç somut fayda var. Birincisi idari: tek tedarikçi onay süreci, tek fatura düzeni, tek yenileme görüşmesi — ayrı sözleşmelerle çalışmanın idari yükü ortadan kalkar. İkincisi raporlama: dönem raporunda tüm erişim ve taşıma ekipmanı harcamanızı tek yerde görürsünüz, bu bütçe planlamasını kolaylaştırır. Üçüncüsü pazarlık gücü: toplam hacim tek sözleşmede birleştiğinde, birim fiyatlar genellikle ayrı sözleşmelere göre daha avantajlı kurulabilir. Buna karşılık her sınıfın kendi hizmet seviyesi ve fiyat mantığı korunur — birleştirme, sınıflar arası farkı gizlemez.",
+            },
+            {
+                soru: "Depo içinde dizel forklift kullanabilir miyiz, yoksa zorunlu olarak elektrikli mi olmalı?",
+                cevap:
+                    "Kapalı hacimlerde egzoz emisyonu ve gürültü nedeniyle elektrikli veya akülü forklift standart tercihtir ve sözleşme ekinde iç mekân kullanımı için bu sınıf tanımlanır. Dizel forklift, havalandırması yeterli olmayan kapalı alanlarda çalışma güvenliği açısından uygun değildir; bu konuda esneklik göstermeyiz. Kapalı hacminizin havalandırma kapasitesi ve tavan yüksekliği hakkında belirsizlik varsa, bunu devreye alma döneminde birlikte değerlendirir, uygun sınıfı netleştiririz.",
+            },
+            {
+                soru: "Yılsonu stok sayımı gibi yoğun dönemlerde ek forklift garantisi veriyor musunuz?",
+                cevap:
+                    "Garanti, bildirim süresine bağlıdır. Dönem başında bilinen yoğun tarihleri bize bildirirseniz, o tarihler için ek kapasiteyi önceden rezerve ederiz ve bu bir taahhüttür. Son dakika gelen, önceden bildirilmemiş bir yoğun talep için ise elimizdeki serbest kapasiteye göre karşılamaya çalışırız ama bunu taahhüt olarak sunmayız — çünkü o tarihte başka müşterilerin de benzer ihtiyacı olabilir. Yılsonu gibi öngörülebilir dönemleri erken bildirmenizi bu yüzden özellikle öneririz.",
+            },
+            {
+                soru: "Operatör belgelerimizin süresi dolarsa bunu takip ediyor musunuz?",
+                cevap:
+                    "Sözleşme ekinde bu takibi isteğe bağlı olarak dahil edebiliriz — personelinizin forklift operatör belgelerinin geçerlilik tarihlerini kendi takvimimize alır, süresi yaklaşanlar için sizi önceden uyarırız. Bu, özellikle personel devrinin yüksek olduğu depo operasyonlarında pratik bir fayda sağlar; belge süresi dolmuş bir personelin makineyi kullanması hem mevzuata hem sigortaya aykırı bir risktir ve bunu fark etmeden yaşamak istemezsiniz. Bu maddeyi dahil etmek isteyip istemediğinizi sözleşme görüşmesinde sorarız.",
+            },
+            {
+                soru: "Dar koridorlu rafımıza uygun forklift bulamazsak ne oluyor?",
+                cevap:
+                    "Devreye alma döneminde raf koridor genişliğinizi ve raf yüksekliğinizi ölçtürür, bu ölçülere uygun sınıfı (yan kaydırmalı ataşman, reach truck gibi) fiyat listesine ayrı kalem olarak ekleriz. Eğer koridor genişliğiniz bizim mevcut model setimizin dışındaysa bunu baştan söyleriz; taahhüt edemeyeceğimiz bir kapasiteyi sözleşmeye yazıp sonra karşılayamamak, ikimiz için de kötü bir sonuçtur. Bu tip özel raf sistemlerinde ölçü paylaşımı, sözleşme kurulmadan önceki en kritik adımdır.",
+            },
+            {
+                soru: "Forklift periyodik kontrol raporlarını denetim öncesi bizden mi istiyorsunuz, siz mi hazır tutuyorsunuz?",
+                cevap:
+                    "Biz hazır tutarız ve talep etmeden paylaşırız. Periyodik kontrol takvimi bizim sorumluluğumuzdadır, raporlar güncel tutulur ve sözleşmede belirlenen sıklıkta (genellikle aylık veya dönemsel) sizinle paylaşılır. Bir İSG denetimi öngörüyorsanız, denetim tarihinden önce ek bir talep göndermeniz yeterlidir, güncel setin tamamını hızlıca iletiriz. Bu düzenin amacı, denetim hazırlığının son dakika bir evrak arayışına dönüşmemesidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift kapasite/ataşman ayrımı ve iç mekân/dış saha emisyon kısıtı sektör standardı genel bilgidir; karma filo fiyat listesi kurgusu, yoğun dönem rezervasyon maddesi ve belge takip hizmeti firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom) — Kontratın Ana Kalemi",
+        giris:
+            "Kurumsal tedarik sözleşmelerimizin fiyat listesinde eklemli platform, çoğu tesiste hem en yüksek kullanım hacmine hem de en fazla hizmet seviyesi maddesine sahip sınıftır — çünkü bu sınıf hem yatay uzanım gerektiren cephe ve çatı işlerinde hem de düzensiz geometrili sanayi hollerinde en esnek erişim çözümünü sunar ve bu esneklik onu tesisin günlük operasyonuna en sık giren makine hâline getirir. Bir çerçeve sözleşmesi kurulurken eklemli platform kalemi, diğer sınıflara göre daha ayrıntılı ele alınır: kullanılabilirlik oranı hedefi genellikle bu sınıf üzerinden ölçülür, tahsisli makine modeli en çok bu sınıfta tercih edilir ve ikame garantisi maddesi en sık bu sınıfta devreye girer. Bu sayfa, eklemli platformun bir kurumsal sözleşmede neden bu kadar merkezi bir yer tuttuğunu ve bu merkeziliğin sözleşme maddelerine nasıl yansıdığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Alt sınıf ayrımı: dizel, elektrikli, kompakt",
+                metin:
+                    "Eklemli platform tek bir ürün değildir; dış sahada büyük yatay uzanımlı dizel modeller, kapalı hacimde egzozsuz elektrikli modeller ve dar alanlarda kullanılan kompakt modeller birbirinden farklı iş için tercih edilir. Fiyat listesinde bu alt sınıflar ayrı satırlar olarak yer alır ve hangi lokasyonun hangi alt sınıfa ihtiyaç duyduğu devreye alma döneminde tesis bazında belirlenir. Bu ayrım yapılmadan tek bir 'eklemli platform' fiyatı vermek, kapalı hacim ile açık saha ihtiyacını aynı kefeye koymak anlamına gelir ve bu, ilk talepte yanlış makinenin gönderilmesine yol açar.",
+            },
+            {
+                baslik: "Kullanılabilirlik oranı hedefinin bu sınıfta ölçülmesi",
+                metin:
+                    "Tahsisli eklemli platform bulunan sözleşmelerde, hizmet seviyesi maddesinin merkezinde kullanılabilirlik oranı yer alır — çünkü bu sınıf genellikle tesisin günlük bakım operasyonunun bel kemiğidir ve arıza duruşu doğrudan iş programını etkiler. Planlı bakım penceresinin kullanılabilirlik hesabına dahil edilip edilmediği, arıza duruşunda parça bekleme süresinin sayılıp sayılmadığı gibi ayrıntılar bu sınıf için özellikle titiz yazılır, çünkü bu sınıftaki bir hesaplama belirsizliği en büyük anlaşmazlığı üretir.",
+            },
+            {
+                baslik: "İkame garantisinin en sık işlediği sınıf",
+                metin:
+                    "Eklemli platform, filo içindeki en yüksek kullanım hacmine sahip sınıflardan biri olduğu için ikame garantisi maddesi de en sık burada devreye girer. Sözleşmede bu sınıf için tanımlanan eşdeğerlik listesi (uzanım, yükseklik, tahrik tipi, zemin uygunluğu) özellikle ayrıntılı tutulur — bir dizel modelin yerine akülü bir model göndermek, sayfada aynı yüksekliğe çıksa bile kapalı hacim işinde eşdeğer sayılmaz. Bu listeyi devreye alma döneminde tesisinizin tipik kullanım profiline göre birlikte netleştiririz.",
+            },
+            {
+                baslik: "Tahsisli makine ekonomisi",
+                metin:
+                    "Eklemli platformun yıllık kullanım saati belirli bir eşiğin üzerine çıktığında, tahsisli makine modeli çağrı bazlı çalışmaya göre daha ekonomik hâle gelir. Bu eşiği net bir hesapla gösteririz: geçmiş kullanım verinizi (varsa) veya tahmini kullanım profilinizi çağrı bazlı birim fiyatla çarpar, tahsisli model bedeliyle karşılaştırırız. Bu hesap olmadan tahsisli model önermeyiz — ihtiyacınızın altında bir kullanım için tahsisli makine önermek, size gereksiz bir sabit maliyet yüklemek olur.",
+            },
+            {
+                baslik: "Yatay uzanım ve zemin yükü hesabının sözleşmeye etkisi",
+                metin:
+                    "Eklemli platformun geniş yatay uzanım kabiliyeti, aynı zamanda zemine bindirdiği yükün de değişken olmasına yol açar — makinenin uzanım açısına göre destek ayaklarındaki nokta yükü değişir. Hassas zeminli veya taşıma kapasitesi sınırlı alanlarda bu bilgi, hangi alt sınıfın kullanılabileceğini doğrudan belirler ve sözleşme ekindeki saha dosyasına işlenir. Bu bilgi paylaşılmadan açılan bir talep, sahada zemin uygunsuzluğu nedeniyle iptal riski taşır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Alt sınıfların kullanım profili ve fiyat listesindeki yeri",
+                paragraflar: [
+                    "Eklemli platformun alt sınıfları, tipik kullanım alanı ve sözleşmede dikkat edilecek nokta açısından aşağıdaki tabloda karşılaştırılmıştır.",
+                ],
+                tablo: {
+                    basliklar: ["Alt sınıf", "Tipik kullanım", "Avantajı", "Sözleşmede dikkat edilecek madde"],
+                    satirlar: [
+                        ["Dizel eklemli (büyük uzanım)", "Açık saha, cephe, çatı", "Uzun yatay/dikey erişim", "Zemin yükü ve dış hava koşulu"],
+                        ["Elektrikli eklemli (iç mekân)", "Kapalı hacim, hassas zemin", "Emisyonsuz, düşük gürültü", "Şarj altyapısı, tavan yüksekliği"],
+                        ["Kompakt eklemli", "Dar koridor, düşük tavan", "Küçük ayak izi", "Geçiş genişliği eşiği"],
+                        ["Tahsisli eklemli (herhangi alt sınıf)", "Yüksek yıllık kullanım", "Sahada hazır, düşük karşılama süresi", "Kullanılabilirlik ölçüm yöntemi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu sınıf sözleşmenin ağırlık merkezi",
+                paragraflar: [
+                    "Kurumsal tesislerin çoğunda düzenli tekrarlayan bakım ve erişim ihtiyacının büyük bölümü eklemli platformla karşılanır — bu, sınıfın hem yatay hem dikey erişim sunması ve düzensiz geometrili sanayi ortamlarına en kolay uyum sağlayan sınıf olmasından kaynaklanır. Bu yüzden sözleşme görüşmesinde zamanın büyük kısmı bu sınıfın kapsam, fiyat ve hizmet seviyesi maddelerine ayrılır; diğer sınıflar genellikle daha kısa ve standart maddelerle geçilir.",
+                    "Bu ağırlık, müşteri için de bir sinyal niteliğindedir: sözleşme görüşmesinde eklemli platform maddelerine yeterince zaman ayrılmıyorsa, o sözleşmenin günlük operasyonda sorun çıkarma ihtimali yüksektir. Bizim tarafımızda bu maddenin ayrıntılı yazılması, kısa vadede görüşmeyi uzatsa da, dönem boyunca en çok kullanılan sınıfta anlaşmazlık riskini düşürür.",
+                ],
+            },
+            {
+                baslik: "Devreye alma döneminde eklemli platform envanteri",
+                paragraflar: [
+                    "İlk otuz günlük devreye alma döneminde tesisinizin erişim ihtiyaç envanteri çıkarılırken eklemli platform için özel bir çalışma yaparız: hangi hacimlerde hangi uzanım ve yükseklik gerektiği, hangi bölümlerin kapalı/açık olduğu, zemin taşıma kapasitesinin bilinip bilinmediği. Bu envanter, dönem boyunca hangi alt sınıfın ne sıklıkla talep edileceğini önceden tahmin etmemizi sağlar ve tahsisli model ekonomisinin hesaplanmasında temel veri olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform için hangi alt sınıfı seçeceğimize nasıl karar veriyoruz?",
+                cevap:
+                    "Karar üç veriye dayanır: çalışma alanı kapalı mı açık mı (emisyon ve gürültü kısıtı belirler), zemin taşıma kapasitesi ne durumda (destek ayağı yükünü belirler) ve gereken yatay/dikey uzanım ne kadar. Devreye alma döneminde bu üç veriyi tesisinizin farklı bölümleri için ayrı ayrı çıkarır, sözleşme ekindeki saha dosyasına işleriz. Yeni bir talep geldiğinde bu dosyaya bakarak doğru alt sınıfı ilk seferde göndeririz; veri paylaşılmadan açılan talepte ise sahada ikinci bir keşif gerekebilir.",
+            },
+            {
+                soru: "Kullanılabilirlik oranını hesaplarken parça bekleme süresi dahil mi?",
+                cevap:
+                    "Evet, dahildir. Arıza duruşu, bildirim anından makinenin tekrar çalışır hâle geldiği ana kadar sayılır ve bu süreye parça bekleme dahildir — bu, tedarikçinin parça tedarikini geciktirip göstergeyi süslemesini engelleyen bir tanımdır. Planlı bakım ise sizinle mutabık kalınan bir pencerede yapıldığı sürece bu hesabın dışında tutulur. Ölçüm yöntemi ve dönem sözleşmenin ekinde yazılıdır; eklemli platform gibi yüksek kullanımlı bir sınıfta bu tanımın net olması özellikle önemlidir çünkü belirsizlik burada en büyük tartışmayı üretir.",
+            },
+            {
+                soru: "Dizel eklemli platform yerine ikame olarak elektrikli model gönderilebilir mi?",
+                cevap:
+                    "Genel kural olarak hayır, çünkü kapalı hacimde çalışıyorsanız zaten elektrikli/akülü model kullanıyorsunuzdur ve dizel bir ikame kapalı alanda emisyon riski taşır; açık sahada dizel çalışıyorsanız elektrikli bir ikame menzil ve şarj süresi açısından yetersiz kalabilir. Sözleşme ekindeki eşdeğerlik listesi, bu tür yanlış ikameleri önlemek için tahrik tipini kritik özellik olarak tanımlar. İkame gerektiğinde önce aynı tahrik tipinde eşdeğer bir model aranır; gerçekten bulunamıyorsa alternatif, sizinle konuşularak ve işinize uygunluğu teyit edilerek gönderilir.",
+            },
+            {
+                soru: "Yıllık kullanım saatimiz tahsisli modeli haklı çıkarıyor mu, nasıl anlarız?",
+                cevap:
+                    "Geçmiş kullanım verinizi (varsa fatura geçmişi, yoksa tahmini iş programı) alır, bunu mevcut çağrı bazlı birim fiyatla çarparak yıllık maliyeti hesaplarız; bu rakamı tahsisli model bedeliyle karşılaştırır, hangisinin daha ekonomik olduğunu somut sayılarla gösteririz. Genel eğilim şudur: kullanım belirli bir eşiğin üzerindeyse tahsisli model avantajlıdır, altındaysa çağrı bazlı çalışmak daha uygundur. Bu eşiğin tam olarak nerede olduğu sizin birim fiyatınıza ve kullanım yoğunluğunuza göre değişir; hesabı sözleşme görüşmesinde birlikte yaparız, tek taraflı bir öneri sunmayız.",
+            },
+            {
+                soru: "Zemin taşıma kapasitesini bilmiyoruz, bu bir sorun mu?",
+                cevap:
+                    "Sorun değil ama devreye alma döneminde birlikte netleştirilmesi gereken bir nokta. Zemin bilgisi net değilse, ilk talep için ihtiyatlı bir sınıf seçeriz (daha düşük nokta yükü üreten model) ve sahada gözlemle birlikte netleştiririz. Kritik veya tekrarlayan bir kullanım söz konusuysa, zemin taşıma kapasitesinin bir mühendislik değerlendirmesiyle netleştirilmesini öneririz — bu bizim hizmetimizin kapsamı dışındadır ama süreçte hangi bilginin gerekli olduğunu size gösteririz.",
+            },
+            {
+                soru: "Eklemli platform için ikame süresini neden diğer sınıflardan daha kısa tutuyorsunuz?",
+                cevap:
+                    "Çünkü bu sınıf genellikle tesisin günlük bakım operasyonunun bel kemiğidir ve arıza duruşu doğrudan iş programını etkiler; bu yüzden bu sınıfta yedek kapasiteyi diğer sınıflara göre daha geniş tutarız. Taahhüt edilen ikame süresinin arkasında somut bir yedek havuzu durur — bunu sözleşme öncesinde sorabilirsiniz, cevabımız her zaman somuttur. Daha az kullanılan sınıflarda aynı geniş yedekliliği tutmak ekonomik olmadığı için o sınıflarda süre biraz daha geniş yazılır; bu farkı gizlemeyiz, aksine sözleşmede açıkça belirtiriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun yatay uzanım özelliği ve dizel/elektrikli/kompakt alt sınıf ayrımı sektör standardı genel bilgidir; bu sınıfın sözleşmede kullanılabilirlik/ikame maddelerinin merkezi olması ve tahsisli model eşik hesabı firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekân ve Depo İçi Kullanım İçin Sözleşme Şartı",
+        giris:
+            "Kapalı bir hacimde çalışan bir kurumsal tesis için — depo, üretim tesisi, AVM, hastane veya plaza içi — platform kiralaması, açık saha kiralamasından farklı bir sözleşme mantığı gerektirir; çünkü kapalı hacim kendine özgü kısıtlar getirir: egzozsuz çalışma zorunluluğu, düşük gürültü, tavan yüksekliği sınırı, hassas zemin (parke, seramik, epoksi kaplama) ve çoğu zaman tesisin kendi çalışma izni sistemine uyum. Bir çerçeve sözleşmesinde bu kısıtlar tek bir cümleyle 'iç mekân uygun makine' diye geçiştirilemez — her biri ayrı bir kapsam maddesi olarak yazılır, çünkü bunlardan herhangi biri atlandığında yanlış makine sahaya gönderilir ve bu, sadece verimsizlik değil güvenlik ve zemin hasarı riski de üretir. Bu sayfa, iç mekân ve depo içi kullanım için kurduğumuz sözleşme şartlarını ve bunların neden bu kadar ayrıntılı yazıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Egzozsuz makine zorunluluğunun sözleşmeye yazılması",
+                metin:
+                    "Kapalı hacimde çalışacak sınıflar sözleşmede açıkça elektrikli veya akülü olarak tanımlanır ve dizel makine gönderimi bu kapsam için hariç tutulur. Bu, sadece bir tercih değil bir zorunluluktur — kapalı hacimde egzoz emisyonu birikir ve havalandırma yetersizse ciddi bir sağlık riski oluşturur. Sözleşme kapsamında hangi lokasyonların kapalı hacim sayıldığı ve bu lokasyonlara hangi sınıfların tahsis edileceği baştan yazılır, talep anında yeniden tartışılmaz.",
+            },
+            {
+                baslik: "Zemin koruma ve nokta yükü sınırı",
+                metin:
+                    "Parke, seramik veya cilalı zeminlerde çalışan makinelerin nokta yükü, zeminin taşıma kapasitesini aşmamalıdır; bu yüzden sözleşme ekinde tesisin hassas zemin bölümleri işaretlenir ve bu bölümlere hangi alt sınıfların (düşük nokta yükü üreten, geniş lastik veya palet tabanlı modeller) uygun olduğu tanımlanır. Gerekli durumlarda zemin koruma plakası kullanımı da kapsam maddesine eklenir; bu ek hizmetin ayrı bir kalem olup olmadığı sözleşmede yazılır.",
+            },
+            {
+                baslik: "Tesisin kendi çalışma izni ve oryantasyon sistemine uyum",
+                metin:
+                    "Kurumsal iç mekân tesislerinin büyük çoğunluğunda kendi çalışma izni (work permit) sistemi ve İSG oryantasyonu vardır; personelimizin bu sisteme uyması sözleşmenin bir parçasıdır. Devreye alma döneminde personelimiz tesisin oryantasyonundan geçirilir ve bu kayıt sözleşme dosyasında tutulur. Bu adım atlandığında, sahaya giriş anında beklenmedik bir gecikme yaşanır ve bu gecikme, taahhüt edilen karşılama süresinin dışında kalan ama gerçekte hizmeti geciktiren bir unsura dönüşür — bu yüzden oryantasyon süreci sözleşmenin kendisine dahil edilir, ayrı bir formalite olarak görülmez.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve dar geçiş envanteri",
+                metin:
+                    "İç mekân işlerinde makinenin tesise sığması, çalışma yüksekliğine ulaşabilmesi kadar önemlidir — kapı genişliği, asansör ölçüsü, tavan yüksekliği gibi fiziksel sınırlar makine seçimini doğrudan belirler. Bu ölçüler sözleşme ekindeki saha dosyasına, tesisin farklı bölümleri için ayrı ayrı işlenir. Bu envanter olmadan açılan bir talep, sahada makinenin sığmaması gibi bir sorunla karşılaşabilir; bu da hem zaman kaybı hem de güven kaybı üretir.",
+            },
+            {
+                baslik: "Gürültü ve mesai saati kısıtları",
+                metin:
+                    "Hastane, AVM veya ofis binası gibi kullanıcı yoğunluğu yüksek iç mekânlarda çalışma saatleri genellikle kısıtlıdır — gündüz mesai içi çalışma mümkün olmayabilir, gece veya erken saat çalışması gerekebilir. Bu kısıt sözleşmede tanımlanır ve mesai dışı çalışmanın ayrı bir fiyat kalemi olup olmadığı netleştirilir. Bu tür kısıtlı saatli işlerde planlama, standart bir depo veya fabrika işine göre daha önceden yapılmalıdır; bunu müşteriye baştan söyleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân lokasyon tiplerine göre kapsam farkları",
+                paragraflar: [
+                    "Farklı iç mekân lokasyon tiplerinde uyguladığımız kapsam ve kısıtları aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Lokasyon tipi", "Ana kısıt", "Tercih edilen sınıf", "Çalışma saati düzeni"],
+                    satirlar: [
+                        ["Depo / üretim tesisi", "Zemin ve raf koridoru", "Elektrikli, ataşman seçenekli", "Genellikle mesai içi"],
+                        ["AVM", "Kullanıcı yoğunluğu, gürültü", "Sessiz elektrikli/akülü", "Genellikle gece/kapanış sonrası"],
+                        ["Hastane", "Steril alan, gürültü, titreşim", "Kompakt akülü", "Sıkı programlı, sınırlı pencere"],
+                        ["Plaza / ofis katı", "Hassas zemin, asansör ölçüsü", "Kompakt, zemin koruma plakalı", "Genellikle mesai dışı"],
+                        ["Fabrika içi (kapalı hol)", "Tavan yüksekliği, üretim hattı yakınlığı", "Elektrikli eklemli/makaslı", "Üretim programına bağlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Saha dosyasının devreye alma döneminde çıkarılması",
+                paragraflar: [
+                    "İç mekân sözleşmelerinde saha dosyası, açık saha sözleşmelerine göre daha ayrıntılı hazırlanır çünkü kısıt sayısı fazladır. Devreye alma döneminde tesisin her bölümü için ayrı ayrı ölçüm ve kısıt kaydı çıkarılır: kapı ve koridor genişlikleri, tavan yüksekliği, zemin tipi ve hassasiyeti, mevcut havalandırma durumu, çalışma izni prosedürü ve varsa saat kısıtı. Bu dosya, dönem boyunca her yeni talepte referans alınır ve talep açan kişinin her seferinde bu bilgileri yeniden anlatmasına gerek kalmaz.",
+                    "Bu dosyanın kalitesi, dönem boyunca yaşanacak aksaklık sayısını doğrudan belirler. Eksik veya güncel olmayan bir saha dosyası, yanlış makine sınıfının gönderilmesine ve bunun sahada fark edilip geri çevrilmesine yol açar — bu da hem zaman hem itibar kaybı üretir. Bu yüzden saha dosyasının güncelliğini periyodik olarak (özellikle tesiste bir tadilat veya düzen değişikliği olduğunda) müşteriyle birlikte gözden geçiririz.",
+                ],
+            },
+            {
+                baslik: "Mesai dışı çalışmanın fiyat ve operasyon etkisi",
+                paragraflar: [
+                    "AVM, hastane veya plaza gibi kullanıcı yoğun lokasyonlarda mesai dışı çalışma zorunluluğu, hem fiyat hem operasyon planlaması açısından ayrı ele alınır. Fiyat tarafında mesai dışı birim fiyat sözleşmede tanımlıdır; operasyon tarafında ise gece veya erken saat vardiyası için personel planlaması önceden yapılmalıdır — bu, standart mesai içi taleple aynı hızda karşılanamayacak bir çalışma biçimidir. Bu tip lokasyonlarda talebi mümkün olduğunca erken açmanızı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dizel makine hiçbir koşulda kapalı hacme giremez mi?",
+                cevap:
+                    "Kural olarak hayır. Kapalı hacimde egzoz emisyonu birikir ve havalandırma yetersizse ciddi bir sağlık riski oluşturur; bu yüzden sözleşmede kapalı hacim lokasyonları için elektrikli veya akülü sınıf tanımlanır, dizel makine bu kapsamdan hariç tutulur. Çok büyük hacimli ve endüstriyel havalandırması güçlü bazı sanayi hollerinde istisnai bir değerlendirme yapılabilir ama bu, sahada havalandırma kapasitesinin ölçülmesini gerektiren özel bir karardır ve standart uygulama değildir. Bu konuda esneklik göstermeyiz çünkü risk personelinize aittir.",
+            },
+            {
+                soru: "Zeminimiz hassas, makine iz bırakır mı?",
+                cevap:
+                    "Doğru sınıf seçildiğinde ve gerekiyorsa zemin koruma önlemi alındığında risk büyük ölçüde kontrol altına alınır. Devreye alma döneminde zemininizin tipini ve hassasiyet düzeyini kaydeder, buna uygun düşük nokta yükü üreten bir alt sınıf öneririz; kritik alanlarda zemin koruma plakası kullanımı sözleşme kapsamına eklenir. Ek koruma önlemi ayrı bir kalem olarak fiyatlandırılabilir, bunu sözleşme görüşmesinde netleştiririz. Zemin tipini önceden bildirmezseniz ve sahada beklenmedik bir hassasiyetle karşılaşırsak, işi durdurup uygun ekipmanı getirmemiz gerekebilir — bu yüzden bu bilgiyi baştan almayı önemseriz.",
+            },
+            {
+                soru: "Personeliniz bizim güvenlik oryantasyonumuzdan geçmek zorunda mı?",
+                cevap:
+                    "Evet, tesisinizin kendi çalışma izni ve İSG oryantasyon sistemi varsa personelimiz bundan geçer ve bu, sözleşmenin bir parçası olarak devreye alma döneminde planlanır. Bu adımı atlamayız çünkü hem sizin mevzuat yükümlülüğünüz hem de sahadaki güvenliğin bir gereğidir. Pratik tarafı da vardır: oryantasyon önceden tamamlandığında, dönem içindeki her yeni talepte personelimiz sahaya doğrudan girebilir; oryantasyon her seferinde yeniden yapılmaz, bir kez tamamlanır ve kayıt altında tutulur.",
+            },
+            {
+                soru: "Gece çalışması gerekiyorsa fiyat nasıl değişiyor?",
+                cevap:
+                    "Mesai dışı ve gece çalışması sözleşmede ayrı bir birim fiyatla tanımlanır ve bu fiyat dönem başında bellidir, talep anında pazarlık edilmez. Operasyon tarafında ise gece vardiyası için personel planlamasının önceden yapılması gerektiğini baştan söyleriz — bu, mesai içi bir talep kadar hızlı karşılanamayabilir. AVM veya hastane gibi düzenli gece çalışması gerektiren lokasyonlarda, dönem başında bir gece vardiyası takvimi oluşturmayı öneririz; bu, hem fiyat öngörülebilirliği hem operasyonel hazırlık açısından size fayda sağlar.",
+            },
+            {
+                soru: "Tesisimizde tadilat oldu, saha dosyası hâlâ geçerli mi?",
+                cevap:
+                    "Muhtemelen değil ve bunu fark ettiğinizde bize bildirmenizi rica ederiz. Kapı ölçüsü değişmiş, yeni bir bölüm açılmış veya zemin kaplaması yenilenmiş olabilir — bu tür değişiklikler saha dosyasının güncelliğini doğrudan etkiler. Güncel olmayan bir dosyaya göre gönderilen makine, sahada uygunsuzlukla karşılaşabilir. Periyodik gözden geçirme toplantılarında saha dosyasını sizinle birlikte kontrol ederiz, ama büyük bir değişiklik olduğunda beklemeden bildirmeniz süreci hızlandırır.",
+            },
+            {
+                soru: "AVM'de kapanış sonrası kısa bir pencerede çalışmamız gerekiyor, bu mümkün mü?",
+                cevap:
+                    "Mümkündür ama bu tip dar zaman pencereli işlerde planlama, standart bir mesai içi talepten çok daha önceden yapılmalıdır — personel ve ekipmanın kapanış saatinde hazır olması, o saatte başka bir işe tahsis edilmemiş olmasını gerektirir. Bu tür lokasyonlar için sözleşme kurulurken düzenli bir çalışma takvimi (örneğin haftanın belirli gecesi) oluşturmayı öneririz; düzenli bir pencere tanımlandığında karşılama neredeyse garantili hâle gelir, ad hoc taleplerde ise müsaitliğe bağlıdır ve bunu size açıkça söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı hacimde egzozsuz makine zorunluluğu ve zemin nokta yükü kavramı sektör standardı genel bilgidir; saha dosyası kapsamı, oryantasyon sürecinin sözleşmeye dahil edilmesi ve mesai dışı çalışma takvimi kurgusu firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Proje Bazlı Montaj İşinin Çerçeve Sözleşmeye Uyarlanması",
+        giris:
+            "Çelik konstrüksiyon montajı, kurumsal tedarik sözleşmelerimizin çoğu maddesiyle doğal olarak uyuşmayan bir iş türüdür — çünkü bir montaj işi düzenli ve tekrarlayan değil, başlangıcı ve bitişi belli, yoğun ve kısa süreli bir projedir. Bir çerçeve sözleşme genellikle dönem boyunca sabit birim fiyat ve öngörülebilir kullanım varsayar; bir montaj projesi ise birkaç hafta içinde yoğun bir makine talebi üretip sonra tamamen düşer. Bizim yaklaşımımız, montaj projelerini çerçeve sözleşmenin dışına atmak değil, sözleşmeye 'proje eki' (zeyilname) olarak entegre etmektir — ticari şartlar ve tedarikçi ilişkisi zaten kurulu olduğu için, yeni bir proje çıktığında sıfırdan teklif toplama sürecine girmeden, mevcut çerçevenin altında hızlı bir proje eki hazırlanır. Bu sayfa, bir çelik konstrüksiyon montaj projesinin mevcut çerçeve sözleşmeye nasıl bağlandığını ve bu tür projelere özgü hangi maddelerin ayrıca yazıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Proje eki (zeyilname) mantığı",
+                metin:
+                    "Mevcut çerçeve sözleşmesi olan bir müşteride yeni bir montaj projesi çıktığında, sıfırdan sözleşme kurmak yerine proje ekiyle ilerleriz: proje süresi, tahmini makine ihtiyacı (sınıf ve adet), proje takvimine göre teslimat planı ve proje özel fiyatlandırma bu ekte yazılır, ticari genel şartlar (ödeme, sigorta, sorumluluk) ana sözleşmeden devralınır. Bu yapı, tekrar eden idari süreci ortadan kaldırır ve projenin başlamasını hızlandırır.",
+            },
+            {
+                baslik: "Yoğun kısa süreli talep için kapasite planlaması",
+                metin:
+                    "Montaj projeleri, çerçeve sözleşmenin normal kapasite planlamasının dışında bir talep dalgası yaratır — bir proje için aynı anda birden fazla eklemli platform veya vinç destekli sepetli platform gerekebilir. Bu tür yoğun talepler için proje ekinde ayrı bir kapasite rezervasyonu yapılır; standart çağrı bazlı kapasiteye güvenilmez, çünkü proje takviminin aksaması doğrudan iş programını etkiler. Proje başlamadan makul bir süre önce bildirilmesi, bu rezervasyonun sağlıklı kurulmasının ön şartıdır.",
+            },
+            {
+                baslik: "İş programına bağlı teslimat ve devir",
+                metin:
+                    "Montaj projelerinde makine ihtiyacı sabit değildir — proje ilerledikçe farklı fazlarda farklı sınıflar devreye girer (temel ve alt yapı fazında farklı, çelik yükseltme fazında farklı, kaplama ve son iş fazında farklı). Proje ekinde bu fazlara göre bir teslimat takvimi oluşturulur ve bu takvim, projenin gerçek ilerlemesine göre revize edilebilir. İş programının kaymasından kaynaklanan takvim değişikliklerinde makinenin sahada beklemesi veya erken çekilmesi durumları, proje ekinde ayrıca fiyatlandırılır.",
+            },
+            {
+                baslik: "Şantiye özel iş güvenliği ve sorumluluk maddeleri",
+                metin:
+                    "Montaj sahaları, standart tesis içi çalışmadan farklı bir risk profiline sahiptir — yükseklikte çalışan birden fazla ekip, vinç operasyonları, geçici altyapı. Proje ekinde bu şantiyeye özgü iş güvenliği koordinasyonu ve sorumluluk sınırları ayrıca tanımlanır; genel çerçeve sözleşmedeki standart sorumluluk maddeleri, şantiye ortamının riskini tam karşılamayabilir. Bu farkı proje başlamadan önce netleştiririz.",
+            },
+            {
+                baslik: "Proje sonu kapanış ve makine iadesi",
+                metin:
+                    "Montaj projesi tamamlandığında, proje ekindeki tüm makinelerin toplu iadesi standart tek makine iadesinden farklı bir lojistik gerektirir — birden fazla makinenin aynı dönemde sahadan çekilmesi planlanmalıdır. Proje ekinde kapanış prosedürü (hangi tarihte hangi makinenin çekileceği, hasar kontrolünün nasıl yapılacağı) yazılır; bu, projenin sonunda beklenmedik bir gecikme veya ek maliyet çıkmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj fazlarına göre tipik makine ihtiyacı",
+                paragraflar: [
+                    "Bir çelik konstrüksiyon montaj projesinin farklı fazlarında tipik olarak hangi sınıfların devreye girdiğini aşağıdaki tabloda özetledik. Gerçek ihtiyaç projeye göre değişir, bu tablo genel bir çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Faz", "Tipik ihtiyaç", "Yoğunluk", "Proje ekinde dikkat edilecek nokta"],
+                    satirlar: [
+                        ["Temel ve alt yapı", "Sınırlı, forklift ağırlıklı", "Düşük", "Zemin durumu, geçici yol"],
+                        ["Çelik yükseltme", "Eklemli/teleskopik platform", "Yüksek, kısa süreli", "Vinç koordinasyonu, kapasite rezervasyonu"],
+                        ["Cephe ve kaplama", "Makaslı/eklemli, geniş yatay uzanım", "Orta-yüksek", "Dış hava koşulu, rüzgar kısıtı"],
+                        ["Son iş ve tesisat", "Kompakt/sepetli, iç mekân", "Değişken", "Diğer ekiplerle alan paylaşımı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zaten sözleşmeli bir müşterinin proje avantajı",
+                paragraflar: [
+                    "Mevcut çerçeve sözleşmesi olan bir müşteri için yeni bir montaj projesi çıktığında en büyük fark hızdır — ticari genel şartlar, sigorta bilgileri ve tedarikçi onay dosyası zaten yerinde olduğu için proje eki hazırlanması ve onaylanması günler değil, çoğu zaman saatler alır. Sözleşmesi olmayan bir müşteri için ise aynı süreç sıfırdan tedarikçi onayı ve ticari şartların görüşülmesini gerektirir ve bu, proje takviminde ciddi bir gecikme riski oluşturabilir.",
+                    "Bu yüzden, düzenli montaj projesi üreten bir taahhüt veya mühendislik firmasına önerimiz her zaman şudur: ilk proje için tekil bir teklif almak yerine, uzun vadeli bir çerçeve sözleşme kurun; sonraki her proje bu çerçevenin altında ek olarak hızlıca yürütülür ve her seferinde yeniden pazarlık masasına oturmazsınız.",
+                ],
+            },
+            {
+                baslik: "Proje takvimindeki sapmaların fiyat etkisi",
+                paragraflar: [
+                    "Montaj projelerinde takvim sapması yaygındır ve proje ekinde bu ihtimal baştan ele alınır. Eğer proje bizim tarafımızdaki bir gecikmeden dolayı yavaşlarsa (örneğin taahhüt edilen makinenin geç gelmesi), bu bizim sorumluluğumuzdadır ve ek maliyet talep etmeyiz. Proje sizin tarafınızdaki bir nedenden gecikirse (örneğin önceki fazın tamamlanmaması, ruhsat gecikmesi) ve makine sahada beklerse, bu bekleme süresi proje ekinde tanımlanan bekleme bedeliyle fiyatlandırılır. Bu ayrımı önceden yazmak, projenin ortasında gecikmenin kimin sorumluluğunda olduğu tartışmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mevcut çerçeve sözleşmemiz varken yeni bir montaj projesi için yeniden mi sözleşme imzalamamız gerekiyor?",
+                cevap:
+                    "Hayır, gerekmez. Mevcut çerçevenin ticari genel şartları (ödeme koşulları, sigorta, sorumluluk sınırları) korunur; yeni proje için sadece bir proje eki (zeyilname) hazırlanır. Bu ekte projeye özgü bilgiler yer alır: proje süresi, tahmini makine ihtiyacı, teslimat takvimi ve proje özel fiyatlandırma. Bu yapı sayesinde sıfırdan tedarikçi onayı veya ticari şart görüşmesi yapmanıza gerek kalmaz; süreç günler değil genellikle saatler içinde tamamlanır.",
+            },
+            {
+                soru: "Proje için birden fazla makineye aynı anda ihtiyacımız olacak, bunu garanti edebiliyor musunuz?",
+                cevap:
+                    "Proje başlamadan makul bir süre önce bildirdiğiniz takdirde evet — proje ekinde bu ihtiyaç için ayrı bir kapasite rezervasyonu yaparız, standart çağrı bazlı kapasiteye güvenmeyiz. Bildirim ne kadar erken yapılırsa, ihtiyaç duyduğunuz sınıfların ve adedin sahada hazır bulunma garantisi o kadar sağlam olur. Son dakika gelen büyük hacimli bir talep için aynı garantiyi veremeyiz; bu yüzden montaj projelerinde erken bildirimi özellikle önemsiyoruz.",
+            },
+            {
+                soru: "Projemiz gecikirse makine bedelini kim öder?",
+                cevap:
+                    "Bu, gecikmenin nereden kaynaklandığına bağlıdır ve proje ekinde bu ayrım baştan yazılır. Gecikme bizim tarafımızdaki bir nedenden (örneğin taahhüt edilen makinenin geç ulaşması) kaynaklanıyorsa, bu bizim sorumluluğumuzdadır ve ek bedel talep etmeyiz. Gecikme sizin tarafınızdaki bir nedenden (önceki fazın tamamlanmaması, ruhsat veya izin gecikmesi gibi) kaynaklanıyorsa ve makine sahada bekliyorsa, bu bekleme süresi proje ekinde tanımlanan bekleme bedeliyle fiyatlandırılır. Bu ayrımı proje başlamadan önce netleştirmek, ortasında yaşanacak bir anlaşmazlığı önler.",
+            },
+            {
+                soru: "Proje bitince tüm makineleri aynı anda mı geri alıyorsunuz?",
+                cevap:
+                    "Genellikle hayır — proje ekinde kapanış prosedürü, hangi makinenin hangi tarihte, hangi fazın tamamlanmasıyla çekileceği şeklinde planlanır. Bazı makineler işin erken tamamlanan bölümünden hemen çekilirken, son iş fazında kullanılanlar en sona kadar sahada kalabilir. Bu kademeli kapanış, hem sizin sahanızın gereksiz makine yoğunluğundan kurtulmasını hem bizim filo planlamamızın sağlıklı işlemesini sağlar. Toplu iade gerekiyorsa bunu da önceden planlarız, sadece lojistik olarak daha yoğun bir günü gerektirir.",
+            },
+            {
+                soru: "Şantiyede vinç ve diğer ekiplerle aynı anda çalışacağız, koordinasyonu kim sağlıyor?",
+                cevap:
+                    "Sahadaki genel iş güvenliği koordinasyonu ve farklı ekiplerin eş zamanlı çalışma planı genellikle şantiye yönetiminin (ana yüklenici veya proje yönetimi) sorumluluğundadır; biz bu plana kendi ekibimizi ve makinemizi uydururuz. Proje ekinde, bizim ekibimizin hangi koordinasyon toplantılarına katılacağı ve hangi iş güvenliği prosedürüne uyacağı tanımlanır. Vinç operasyonlarıyla aynı alanda çalışma gerektiren işlerde, çalışma saatlerinin ve alanların net ayrıştırılması özellikle önemlidir; bunu proje başında şantiye yönetimiyle birlikte netleştiririz.",
+            },
+            {
+                soru: "Küçük bir montaj işimiz var, bunun için de proje eki gerekli mi yoksa standart çağrı yeterli mi?",
+                cevap:
+                    "Küçük ölçekli, tek sınıf ve kısa süreli bir montaj desteği için proje eki hazırlamak gereksiz bir formaliteye dönüşebilir — bu durumda standart çerçeve sözleşme kapsamında normal bir çağrı olarak işleriz. Proje eki asıl değeri, birden fazla sınıfın koordineli teslim edilmesi gerektiği, takvime bağlı fazların olduğu veya toplam süresi birkaç haftayı aşan işlerde ortaya çıkar. Hangi yolun sizin işiniz için daha uygun olduğunu, işin kapsamını öğrendiğimizde birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj projelerinin faz bazlı ekipman ihtiyacı sektör standardı genel bilgidir; proje eki (zeyilname) mekanizması, bekleme bedeli ayrımı ve kademeli kapanış prosedürü firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo İşleri: Kontrat Modelimizin Dışında Kalan Bir Segment",
+        giris:
+            "Dürüst olmak gerekirse, tarım ve silo tesisleri bizim kurumsal tedarik kontratı modelimizin merkezinde değildir — bu model, sanayi bölgeleri ve kentsel kurumsal tesislerdeki düzenli, tekrarlayan ve öngörülebilir talep üzerine kuruludur; tarım ve silo sahaları ise genellikle kırsal bir coğrafyada, mevsimsel bir takvimle ve çoğu zaman OSB kuşağının dışında yer alır. Çerçeve sözleşme mantığımızın temel varsayımlarından biri — yıl boyunca öngörülebilir kullanım hacmine dayalı fiyat ve kapasite planlaması — bu segmentte genellikle geçerli olmaz, çünkü tarımsal işletmelerin platform ihtiyacı hasat öncesi veya sonrası dar bir pencereye sıkışır ve yıl içinde uzun süre hiç talep gelmeyebilir. Bunu gizlemek yerine baştan söylemeyi tercih ediyoruz: eğer İstanbul veya Marmara çevresinde bir tarım tesisi veya silo yapısında düzenli, sürekli bir bakım kontratı arıyorsanız, bu bizim güçlü olduğumuz bir alan değildir. Ama tek seferlik veya düzensiz bir ihtiyacınız varsa, elimizdeki genel kentsel-sanayi filosunu bu işe uygun olduğu ölçüde sunabiliriz — bu sayfa o sınırı ve o desteği anlatır.",
+        maddeler: [
+            {
+                baslik: "Neden çerçeve sözleşme mantığımız bu segmentte zorlanır",
+                metin:
+                    "Kontrat modelimizin değer önerisi, düzenli kullanıma karşılık öngörülebilir fiyat ve öncelikli kapasitedir. Tarım ve silo işlerinde talep mevsimsel ve seyrek olduğu için, bir asgari kullanım taahhüdü ya da tahsisli makine modeli genellikle ekonomik olmaz — sizin için gereksiz bir sabit maliyet, bizim için de kullanılmayan bir kapasite taahhüdü doğurur. Bu yüzden bu segmentte standart çerçevemizi zorla uygulamak yerine, tek seferlik ve çağrı bazlı bir çalışma biçimini öneririz.",
+            },
+            {
+                baslik: "Açık saha ve zemin koşulunun bizim filomuza uygunluğu",
+                metin:
+                    "Filomuzun ağırlığı, kentsel ve sanayi tesislerinin zemin koşullarına (beton, asfalt, düzgün toprak) göre kuruludur. Tarım sahalarının bazı bölümleri (işlenmemiş toprak, çamurlu veya engebeli arazi) bu filo için uygun olmayabilir; bu durumda dürüstçe söyleriz ve bölgeye özel ağır arazi ekipmanına sahip bir tedarikçiyi önerebiliriz. Silo yapılarının kendisi genellikle beton veya sert zeminli bir alanda olduğu için, asıl kısıt genellikle silo çevresindeki açık toprak alanlarda ortaya çıkar.",
+            },
+            {
+                baslik: "Silo yüksekliği ve dikey erişim değerlendirmesi",
+                metin:
+                    "Silo gövdesinin dış cephesindeki bakım veya boya işleri, standart eklemli veya teleskopik platform sınıflarımızla genellikle karşılanabilir — silo yüksekliği makul bir aralıktaysa. Çok yüksek silo bataryaları veya özel elevatör kuleleri gibi işler, filomuzdaki en üst sınıfların erişim yüksekliğini aşabilir; bu durumda talebinizi aldığımızda önce silo yüksekliğini ve erişim noktasını netleştirir, filomuzun yeterli olup olmadığını dürüstçe değerlendiririz.",
+            },
+            {
+                baslik: "Mevsimsel talep için önceden planlama önerisi",
+                metin:
+                    "Hasat öncesi bakım penceresi gibi öngörülebilir bir ihtiyacınız varsa, bunu bize mümkün olduğunca erken bildirmenizi öneririz — bu segmentte önceliğimiz kurumsal sözleşmeli müşterilerimiz olduğu için, yoğun sanayi dönemleriyle çakışan bir talep geldiğinde kapasitemiz sınırlı olabilir. Erken bildirim, elimizdeki müsaitliğe göre planlama yapmamızı ve size gerçekçi bir teslimat tarihi vermemizi sağlar.",
+            },
+            {
+                baslik: "Kapalı hacim silo/depo içi işlerde egzozsuz makine avantajı",
+                metin:
+                    "Silo veya tahıl deposunun kapalı iç hacminde yapılan tesisat veya bakım işlerinde, filomuzun egzozsuz elektrikli/akülü model ağırlığı burada gerçek bir avantaja dönüşür — toz ortamında ve kapalı hacimde emisyonsuz çalışma zaten bizim standart pratiğimizdir. Bu tür kapalı hacim işlerinde, açık saha işlerine göre daha rahat destek verebiliriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bu segmentte nerede destek olabiliriz, nerede olamayız",
+                paragraflar: [
+                    "Tarım ve silo işlerinde hangi durumda uygun bir çözüm sunabildiğimizi, hangi durumda dürüstçe yönlendirme yaptığımızı aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Uygunluğumuz", "Neden", "Alternatif öneri"],
+                    satirlar: [
+                        ["Silo dış cephe bakımı (makul yükseklik)", "Uygun", "Standart eklemli/teleskopik sınıf yeterli", "—"],
+                        ["Silo/tahıl deposu iç hacim işi", "Uygun, hatta avantajlı", "Egzozsuz filo toz/kapalı ortama uygun", "—"],
+                        ["Çok yüksek silo bataryası", "Sınırlı", "Filomuzun üst sınıf erişimini aşabilir", "Özel yüksek erişim tedarikçisi"],
+                        ["Çamurlu/engebeli açık arazi", "Uygun değil", "Zemin taşıma gücü ve lastik tipi uyumsuz", "Bölgeye özel ağır arazi ekipmanı tedarikçisi"],
+                        ["Düzenli, yıl boyu bakım kontratı", "Zayıf", "Model, mevsimsel/seyrek talebe uygun değil", "Bölgeye yerleşik yerel tedarikçi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu dürüstlüğü tercih ediyoruz",
+                paragraflar: [
+                    "Kurumsal tedarik sözleşmesi kurduğumuz her müşteriye verdiğimiz temel söz, taahhüt ettiğimiz her şeyin arkasında durabilmemizdir. Tarım ve silo segmentinde güçlü bir uzmanlık iddiasında bulunup sonra bunu karşılayamamak, hem o müşteriyle hem de bizi bu alanda güçlü sanıp yönlendiren diğer müşterilerle olan güveni zedeler. Bu yüzden bu sayfada abartılı bir kapsam iddiası kurmuyoruz; elimizdeki gerçek kapasiteyi ve bu kapasitenin nerede işe yarayıp nerede yaramayacağını açık yazıyoruz.",
+                    "Bu yaklaşımın pratik bir faydası da vardır: bize gelen bir talebi doğru değerlendirdiğimizde, sizin de zaman kaybetmeden doğru tedarikçiye yönelmenizi sağlarız. Uygun olmayan bir işi kabul edip sahada karşılayamamak, hem sizin işinizi geciktirir hem bizim itibarımızı zedeler — bunun yerine baştan dürüst bir değerlendirme yapmayı tercih ediyoruz.",
+                ],
+            },
+            {
+                baslik: "Talep değerlendirme süreci",
+                paragraflar: [
+                    "Bir tarım veya silo işi talebi geldiğinde önce birkaç temel soruyla işin bizim filomuza uygun olup olmadığını değerlendiririz: erişim yüksekliği ne kadar, zemin tipi nasıl (beton/toprak/engebeli), iş açık sahada mı kapalı hacimde mi geçecek, talep tek seferlik mi yoksa tekrarlayan mı. Bu bilgiler ışığında ya uygun bir çözüm sunarız ya da dürüstçe uygun olmadığımızı söyleriz. Sınırda kalan durumlarda, kısıtlı bir kapsamda ('şu bölüm için uygunuz, şu bölüm için değiliz' gibi) net bir cevap veririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo tesisimiz için düzenli bir bakım kontratı kurabilir miyiz?",
+                cevap:
+                    "Kurabiliriz ama önce dürüstçe söylememiz gereken bir şey var: bu segmentte düzenli kontrat modelimiz, kentsel ve sanayi tesislerindeki kadar olgun değil çünkü talebiniz muhtemelen mevsimsel ve seyrek olacaktır. Yıl boyu sabit bir taahhüt yerine, hasat öncesi ve sonrası dönemler için ayrı ayrı planlanan, çağrı bazlı bir düzen önereceğiz. Eğer gerçekten yıl boyu düzenli bir ihtiyacınız varsa (örneğin sürekli işleyen bir yem fabrikası gibi), bu durumda standart çerçevemizi uygulayabiliriz — ama bunu geçmiş kullanım verinizle birlikte değerlendirmemiz gerekir.",
+            },
+            {
+                soru: "Silo dış cephesindeki bakım işi için yüksekliğiniz yetiyor mu?",
+                cevap:
+                    "Çoğu standart silo yüksekliği için evet, filomuzdaki eklemli ve teleskopik sınıflar bu işi karşılar. Ancak çok yüksek silo bataryaları veya özel elevatör kuleleri gibi yapılar filomuzun üst sınırını aşabilir. Talebinizi aldığımızda ilk sorduğumuz şey tam olarak silo yüksekliği ve erişim noktasıdır; bu bilgiyle filomuzun yeterli olup olmadığını hemen söyleyebiliriz. Yetersizse, bunu söylemek yerine 'idare eder' diyerek yanlış bir makine göndermeyiz.",
+            },
+            {
+                soru: "Açık tarım arazisinde çalışabiliyor musunuz?",
+                cevap:
+                    "Zemin durumuna bağlı. Sert, düzgün ve kuru zeminlerde filomuz genellikle çalışabilir; ama çamurlu, engebeli veya işlenmemiş toprak arazide bizim standart lastik ve tahrik konfigürasyonumuz yetersiz kalabilir ve makinenin saplanma riski oluşur. Bu tür zeminler için özel arazi tipi ekipmana sahip bölgesel bir tedarikçiyi önermeyi tercih ederiz — yanlış makineyle girip sahada sıkışmak, hem işinizi geciktirir hem ek bir kurtarma maliyeti doğurur.",
+            },
+            {
+                soru: "Tahıl deposu içindeki tesisat işimiz için uygun musunuz?",
+                cevap:
+                    "Bu, aslında bu segmentte en rahat destek olabildiğimiz iş tipidir. Kapalı iç hacimde, toz ortamında çalışacak egzozsuz elektrikli/akülü platform filomuz zaten bu tür işlere uygun kurulmuştur — silo veya tahıl deposunun iç mekân bakım, tesisat veya aydınlatma işlerinde standart bir kentsel depo işinden farklı bir yaklaşım gerekmez. Zemin ve kapı ölçülerini paylaşırsanız uygun sınıfı hızlıca öneririz.",
+            },
+            {
+                soru: "Talebimiz hasat döneminde gelirse öncelik alabilir miyiz?",
+                cevap:
+                    "Önceliğimiz kurumsal çerçeve sözleşmeli müşterilerimizdir ve hasat dönemi genellikle sanayi tesislerinin de yoğun bakım dönemleriyle çakışabilir; bu yüzden bu segmentte kesin bir öncelik garantisi veremeyiz. Ama erken bildirim büyük fark yaratır — talebinizi hasat takviminden haftalar önce bildirirseniz, elimizdeki müsaitliğe göre planlama yapar ve size gerçekçi bir tarih veririz. Son dakika gelen bir talepte ise o anki serbest kapasiteye bağlı kalırız ve bunu size açıkça söyleriz.",
+            },
+            {
+                soru: "Bize uygun olmadığınızı söylerseniz başka kimi önerirsiniz?",
+                cevap:
+                    "Belirli bir tedarikçi ismi vermek yerine, aramanız gereken profili tarif ederiz: bölgenizde tarım ve arazi tipi işlere özel ekipmana (geniş lastikli, düşük zemin basıncı üreten, gerekirse paletli) sahip, mevsimsel talebe alışkın yerel bir tedarikçi. Bu tür tedarikçiler genellikle bizim gibi kentsel-sanayi ağırlıklı firmalardan farklı bir filo ve fiyatlama mantığıyla çalışır. Uygun olmadığımız bir işi üstlenip kötü bir deneyim yaşatmak yerine, doğru profili tarif ederek zaman kaybınızı önlemeyi tercih ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tarım ve silo işlerinin mevsimsel talep yapısı ve açık arazi zemin koşulları sektör standardı genel bilgidir; kontrat modelimizin bu segmentteki sınırı ve talep değerlendirme yaklaşımımız firma pratiğidir; hiçbir tesis adı veya kapasite rakamı belirtilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji ve Aydınlatma Bakımı İçin Periyodik Kontrat Modeli",
+        giris:
+            "Enerji ve aydınlatma bakımı, çerçeve sözleşme mantığımızın en doğal uyduğu iş türlerinden biridir — çünkü bu iş kendiliğinden periyodik bir yapıya sahiptir: aydınlatma armatürlerinin, direklerin, tabela ve reklam panolarının, elektrik hatlarının belirli aralıklarla kontrolü ve bakımı düzenli bir takvime bağlıdır ve bu düzenlilik tam olarak bir yıllık çerçeve sözleşmenin varsayımıyla örtüşür. Bir tesisin veya bina yönetiminin aydınlatma bakım ihtiyacı, tek seferlik bir arıza müdahalesinden ibaret değildir; yılın belirli dönemlerinde tekrarlayan bir kontrol turu, arıza bildirimi geldiğinde hızlı müdahale ve dönem sonunda bir bakım raporu gerektirir. Bizim bu alandaki sözleşme modelimiz, bu periyodik yapıyı doğrudan sözleşme maddesine dönüştürür: yıllık bakım takvimi, öncelik sınıflandırması (planlı kontrol/acil arıza) ve dönemsel raporlama. Bu sayfa, enerji ve aydınlatma bakımının bir kurumsal sözleşmede nasıl periyodik bir düzene oturduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Yıllık bakım takviminin oluşturulması",
+                metin:
+                    "Sözleşme kurulurken, tesisin veya kurumun aydınlatma ve enerji altyapısının hangi bölümlerinin ne sıklıkta kontrol edileceği bir takvime dökülür — örneğin yüksek direk armatürleri yılda iki kez, tabela ve reklam panoları çeyrek dönemde bir, çatı üstü aydınlatma ekipmanı yıllık bir kez gibi. Bu takvim sözleşmenin ekinde yer alır ve her kalem için birim fiyat dönem başında sabitlenir; dönem içinde yeniden fiyat görüşmesi yapılmaz.",
+            },
+            {
+                baslik: "Planlı kontrol ile acil arıza ayrımı",
+                metin:
+                    "Bir aydınlatma direğinin rutin yıllık kontrolü ile bir hattın gece aydınlatmasını tamamen kesen bir arıza, aynı öncelik sınıfında değerlendirilmez. Sözleşmede bu iki talep tipi ayrı öncelik sınıflarına ayrılır ve her sınıfın kendi hedef karşılama süresi vardır — acil arıza için kısa bir pencere, planlı kontrol için daha geniş ve önceden mutabık kalınan bir tarih aralığı. Bu ayrım, kaynakların doğru dağılmasını sağlar ve her talebin acil işaretlenmesiyle sistemin tıkanmasını önler.",
+            },
+            {
+                baslik: "Yüksekte elektrik işine özgü güvenlik protokolü",
+                metin:
+                    "Enerji hattı veya aydınlatma direği üzerinde çalışma, standart bir bakım işinden farklı bir güvenlik protokolü gerektirir — enerji kesintisi koordinasyonu, izolasyon kontrolü ve elektrik çarpması riskine karşı ek önlemler. Sözleşme ekinde bu protokol tanımlanır ve hangi işlerde enerji kesintisi gerektiği, kesinti koordinasyonunun kiminle yapılacağı yazılır. Bu koordinasyon genellikle tesisin kendi elektrik birimi veya dağıtım şirketiyle önceden planlanmalıdır; bu yüzden bu tür işlerde talep açma süresi diğer bakım işlerine göre biraz daha uzun tutulur.",
+            },
+            {
+                baslik: "Bölge geneli aydınlatma ağının rota bazlı planlanması",
+                metin:
+                    "Bir kurumun aydınlatma altyapısı tek bir noktada değil, otopark, çevre yolu, tesis dışı reklam panosu gibi dağınık noktalarda yer alıyorsa, bakım turu tek tek talep açmak yerine rota bazlı planlanır — aynı bölgedeki noktalar tek bir tur içinde birleştirilir. Bu, hem maliyet hem süre açısından daha verimlidir ve sözleşmede bu rota mantığı bakım takvimine dahil edilir.",
+            },
+            {
+                baslik: "Dönem sonu bakım raporu ve enerji verimliliği notları",
+                metin:
+                    "Yıllık bakım kontratının sonunda, sadece hangi kontrolün yapıldığını değil, sahada gözlemlenen genel durumu da içeren bir rapor sunarız — hangi armatürlerin ömrünü tamamladığı, hangi hatların yenilenmeye ihtiyaç duyduğu gibi gözlemsel notlar. Bu, sözleşme kapsamının dışında bir danışmanlık hizmeti değil, bakım turunun doğal bir çıktısıdır ve bir sonraki dönem bütçesinin planlanmasına yardımcı olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bakım takvimi kalemleri ve tipik sıklık",
+                paragraflar: [
+                    "Enerji ve aydınlatma bakım kontratlarında sık kullanılan kalemler ve tipik kontrol sıklıkları aşağıdaki tabloda özetlenmiştir. Gerçek takvim, tesisinizin altyapısına göre birlikte belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Tipik sıklık", "Öncelik sınıfı", "Dikkat edilecek nokta"],
+                    satirlar: [
+                        ["Yüksek direk armatürü", "Yılda 1-2 kez", "Planlı", "Enerji kesintisi koordinasyonu"],
+                        ["Tabela / reklam panosu", "Çeyrek dönemde bir", "Planlı", "Bina/işletme sahibiyle erişim izni"],
+                        ["Çatı üstü aydınlatma", "Yıllık", "Planlı", "Çatı erişim ve zemin güvenliği"],
+                        ["Otopark / çevre yolu aydınlatması", "Rota bazlı, dönemsel", "Planlı, rota mantığı", "Coğrafi kümeleme"],
+                        ["Ani aydınlatma kesintisi", "Talep anında", "Acil", "Kısa karşılama süresi hedefi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji kesintisi koordinasyonunun sözleşmedeki yeri",
+                paragraflar: [
+                    "Enerji hattı üzerinde çalışma gerektiren bakım işlerinde, işin güvenle yapılabilmesi için ilgili hattın veya devrenin kesilmesi gerekebilir. Bu koordinasyon bizim değil, genellikle tesisin kendi elektrik biriminin veya bina yönetiminin sorumluluğundadır; sözleşmede bu sorumluluk sınırı net yazılır. Bizim tarafımızdaki yükümlülük, kesinti gerektiren işleri önceden bildirmek ve kesinti penceresi belirlendiğinde o pencereye uymaktır.",
+                    "Bu koordinasyonun önceden planlanmadığı durumlarda saha ekibimiz işi başlatamaz ve bu, taahhüt edilen karşılama süresinin dışında kalan ama gerçekte gecikmeye yol açan bir unsura dönüşür. Bu yüzden enerji kesintisi gerektiren kalemler bakım takviminde ayrıca işaretlenir ve bu kalemler için talep açma süresi diğer kalemlere göre daha geniş tutulur.",
+                ],
+            },
+            {
+                baslik: "Dönem sonu raporunun bütçe planlamasına katkısı",
+                paragraflar: [
+                    "Yıllık bakım kontratının en somut çıktılarından biri, dönem sonu raporundaki gözlemsel notlardır. Sahada gördüğümüz genel durumu — hangi ekipmanın yenilenmeye yaklaştığı, hangi hattın tekrarlayan arıza ürettiği — bu raporda paylaşırız. Bu bilgi, bir sonraki dönemin bakım bütçesinin ve varsa yenileme yatırımının planlanmasında kurumun kendi mühendislik veya tesis yönetimi ekibine somut bir girdi sağlar; biz bu notları teknik bir yorum olarak sunarız, kesin bir mühendislik değerlendirmesi olarak değil.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yıllık bakım takviminde hangi kalemlerin olacağına nasıl karar veriyoruz?",
+                cevap:
+                    "Devreye alma döneminde tesisinizin aydınlatma ve enerji altyapısının envanterini birlikte çıkarırız — hangi noktada hangi tip armatür, direk veya pano olduğu, bunların erişim zorluğu ve mevcut kontrol geçmişi (varsa). Bu envanterden yola çıkarak her kalem için makul bir kontrol sıklığı öneririz; kesin sıklığı sizin iç standartlarınız veya mevzuat gereksinimleriniz varsa onlara göre ayarlarız. Takvim, sözleşme dönemi başında yazılır ama yıl içinde ihtiyaç değişirse revize edilebilir.",
+            },
+            {
+                soru: "Gece aniden aydınlatma kesilirse ne kadar sürede müdahale ediyorsunuz?",
+                cevap:
+                    "Bu, sözleşmede acil öncelik sınıfına girer ve hedef süre, planlı kontrol talebinden belirgin şekilde daha kısadır. Sürenin tam rakamı, tesisinizin lokasyonu ve bizim o bölgedeki nakliye kapasitemize göre sözleşme görüşmesinde netleştirilir. Eğer arıza enerji hattı kaynaklıysa ve kesinti koordinasyonu gerektiriyorsa, bu koordinasyonun kendisi bir zaman unsuru ekler — bu durumda süre, sizin elektrik biriminizle koordinasyonun ne kadar hızlı kurulduğuna da bağlıdır.",
+            },
+            {
+                soru: "Enerji kesintisi koordinasyonunu siz mi yoksa biz mi yapıyoruz?",
+                cevap:
+                    "Genel kural, bu koordinasyonun sizin (veya bina yönetiminizin, dağıtım şirketinizin) sorumluluğunda olmasıdır; biz kesinti gerektiren işleri önceden bildirir, siz kesinti penceresini ayarlarsınız, biz o pencereye göre işi planlarız. Sözleşme ekinde bu sorumluluk sınırı yazılı olarak netleştirilir, çünkü bu konuda belirsizlik en çok gecikmeye yol açan noktadır. Bazı büyük kurumsal tesislerde kendi elektrik ekibi bu koordinasyonu bizimle doğrudan yürütür, bu durumda muhatap netleşir ve süreç hızlanır.",
+            },
+            {
+                soru: "Otoparkımız ve çevre yolumuz farklı noktalarda, hepsini tek turda mı kontrol ediyorsunuz?",
+                cevap:
+                    "Evet, dağınık aydınlatma noktalarını coğrafi olarak kümeleyip rota bazlı bir tur planlarız — bu hem sizin için daha düşük maliyetli hem bizim için daha verimlidir. Bakım takviminde bu rota, hangi noktaların aynı turda birleştirileceği şeklinde tanımlanır. Bir noktada beklenmedik bir arıza çıkarsa ve bu acil sınıftaysa, rotayı beklemeden ayrı bir müdahale planlarız; rutin kontroller ise rota takvimine göre yürür.",
+            },
+            {
+                soru: "Dönem sonu raporunda hangi ekipmanın değişmesi gerektiğini de söylüyor musunuz?",
+                cevap:
+                    "Evet, sahada gözlemlediğimiz genel durumu rapora dahil ederiz — örneğin bir armatürün ömrünü tamamladığını veya bir hattın tekrarlayan arıza ürettiğini not ederiz. Bunu kesin bir mühendislik değerlendirmesi olarak değil, bakım turunun doğal bir gözlemi olarak sunarız; kurumunuzun kendi teknik ekibi bu notları kendi değerlendirmesine girdi olarak kullanabilir. Detaylı bir mühendislik raporu veya ömür analizi gerekiyorsa, bu bizim hizmet kapsamımızın dışındadır ve bunu size açıkça söyleriz.",
+            },
+            {
+                soru: "Bakım takvimindeki bir kalemi yıl ortasında iptal edebilir miyiz?",
+                cevap:
+                    "Evet, takvim baştan kesin bir taahhüt değil gözden geçirilebilir bir plandır. Bir kalemin artık gerekmediğini (örneğin ilgili tabela kaldırıldıysa) fark ederseniz, yazılı bir bildirimle takvimden çıkarılır ve fiyat buna göre güncellenir. Aynı şekilde yeni bir kalem eklenmesi de mümkündür. Tek istediğimiz, değişikliğin bir sonraki planlı tur öncesinde bize bildirilmesidir; bu, kapasite planlamamızın sağlıklı işlemesini sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Aydınlatma/enerji bakımının periyodik yapısı ve enerji kesintisi koordinasyonu gerekliliği sektör standardı genel bilgidir; bakım takvimi kurgusu, rota bazlı planlama ve dönem sonu gözlemsel rapor pratiği firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Sözleşmede Operatörlü / Operatörsüz Ayrımının Fiyat ve Sorumluluk Etkisi",
+        giris:
+            "Bir çerçeve sözleşmenin fiyat listesinde operatörlü ve operatörsüz kiralama, aynı makine sınıfı için iki farklı satır olarak yer alır ve bu ikisi arasındaki fark yalnızca bir hizmet ekleme meselesi değildir — sorumluluk, sigorta kapsamı ve iş güvenliği yükümlülüğü açısından da farklı bir çerçeve doğurur. Operatörsüz kiralamada makineyi kullanan kişi müşterinin personelidir ve bu personelin yeterlilik belgesi bir sözleşme şartıdır; operatörlü kiralamada ise makineyi kullanan kişi bizim personelimizdir ve iş güvenliği sorumluluğunun bir kısmı bize geçer. Kurumsal müşterilerin bu ayrımı net yazılı görmek istemesinin nedeni budur — bir kaza veya olay durumunda hangi tarafın hangi yükümlülüğü taşıdığı, sözleşmede önceden tanımlanmış olmalıdır. Bu sayfa, operatörlü ve operatörsüz kiralamanın bir kurumsal sözleşmede nasıl ayrı maddeler olarak kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Fiyat listesinde ayrı satır olarak yer alması",
+                metin:
+                    "Fiyat listesinde her makine sınıfı için operatörlü ve operatörsüz seçenek ayrı birim fiyatla yazılır; bu, dönem içinde ihtiyaç değiştiğinde (örneğin personel yetersizliği nedeniyle bir dönem operatörlü çalışmaya geçmek gerektiğinde) yeniden fiyat görüşmesi yapılmadan seçim değiştirilebilmesini sağlar. İki seçenek arasındaki fark, sadece personel maliyeti değil, aynı zamanda üstlenilen sorumluluğun kapsamıdır.",
+            },
+            {
+                baslik: "Operatörsüz kiralamada yeterlilik belgesi şartı",
+                metin:
+                    "Operatörsüz kiralamada, makineyi kullanacak personelin sınıfa uygun yeterlilik belgesine sahip olması sözleşme şartıdır; bu belge sözleşme dosyasında kayıt altına alınır ve süresi takip edilir. Belgesi olmayan personelin makineyi kullanması hem mevzuata hem sigorta şartlarına aykırıdır ve bu durumda sorumluluk büyük ölçüde müşteri tarafına geçer. Bu yüzden operatörsüz kiralama öncesi belge kontrolü atlanmaz.",
+            },
+            {
+                baslik: "Operatörlü kiralamada sorumluluk paylaşımı",
+                metin:
+                    "Operatörlü kiralamada makineyi bizim personelimiz kullandığı için, makinenin doğru ve güvenli kullanımından kaynaklanan sorumluluğun bir kısmı bize geçer; ancak sahadaki genel iş güvenliği koşulları (örneğin çalışma alanının güvenli hâle getirilmesi, diğer ekiplerle koordinasyon) yine tesisin sorumluluğundadır. Sözleşmede bu sorumluluk sınırı net çizilir — operatörlü kiralama, tesisin tüm iş güvenliği yükünü bizim üzerimize almaz, sadece makinenin operasyonel kullanımını kapsar.",
+            },
+            {
+                baslik: "Karma kullanım: bazı sınıflar operatörlü, bazıları değil",
+                metin:
+                    "Bazı kurumsal müşteriler, kendi personelinin belgeli olduğu sınıflarda operatörsüz, belgesiz olduğu sınıflarda operatörlü çalışmayı tercih eder. Fiyat listesi bu karma kullanıma izin verecek şekilde kurulur — her sınıf için ayrı ayrı seçim yapılabilir, tüm filo için tek bir kural dayatılmaz. Bu esneklik, personel yeterliliğinizin zaman içinde değişmesine (yeni eğitim, personel devri) sözleşmeyi yeniden kurmadan uyum sağlamanızı mümkün kılar.",
+            },
+            {
+                baslik: "Operatör personelin tesise özgü oryantasyonu",
+                metin:
+                    "Operatörlü kiralamada bizim personelimiz sahaya geldiğinde, tesisin kendi çalışma izni ve İSG prosedürüne uyması gerekir — bu, operatörsüz kiralamadan farklı bir madde değildir ama operatörlü kiralamada bizim sorumluluğumuz altında yönetilir. Devreye alma döneminde düzenli çalışacak operatör personelimiz oryantasyondan geçirilir ve bu kayıt tutulur, böylece her talepte yeniden oryantasyon süreci yaşanmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz karşılaştırması",
+                paragraflar: [
+                    "İki seçeneğin sorumluluk, fiyat ve şart açısından farkları aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Boyut", "Operatörsüz", "Operatörlü", "Sözleşmede tanımlanan nokta"],
+                    satirlar: [
+                        ["Makineyi kullanan", "Müşteri personeli", "Bizim personelimiz", "Yetkili kişi listesi"],
+                        ["Yeterlilik şartı", "Sınıfa uygun belge zorunlu", "Bizim tarafımızda karşılanır", "Belge kayıt ve süre takibi"],
+                        ["Operasyonel sorumluluk", "Büyük ölçüde müşteride", "Kısmen bize geçer", "Sorumluluk sınırı maddesi"],
+                        ["Fiyat", "Daha düşük birim fiyat", "Personel maliyeti dahil", "Ayrı fiyat listesi satırı"],
+                        ["Esneklik", "Sınıf bazında seçilebilir", "Sınıf bazında seçilebilir", "Karma kullanım maddesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hangi durumda operatörlü çalışmayı öneriyoruz",
+                paragraflar: [
+                    "Operatörlü kiralamayı özellikle şu durumlarda öneririz: personelinizin ilgili sınıfta yeterlilik belgesi yoksa veya belge süresi dolmuşsa, işin karmaşıklığı (dar alan, hassas zemin, yüksek uzanım) deneyimli bir kullanım gerektiriyorsa, veya kısa süreli ve tek seferlik bir iş için personel eğitimi yatırımı mantıklı değilse. Sürekli ve yüksek kullanımlı sınıflarda ise operatörsüz çalışma genellikle daha ekonomiktir, çünkü personel maliyeti dönem boyunca tekrarlanmaz.",
+                    "Bu öneriyi tek taraflı dayatmayız — sözleşme görüşmesinde her sınıf için ayrı ayrı hangi seçeneğin sizin durumunuza uygun olduğunu birlikte değerlendiririz. Bazı müşteriler bilinçli olarak tüm filoyu operatörlü tutmayı tercih eder çünkü kendi personelini bu işe ayırmak istemez; bazıları ise maliyet avantajı için mümkün olan her sınıfta kendi personelini eğitmeyi tercih eder. İkisi de geçerli bir tercihtir.",
+                ],
+            },
+            {
+                baslik: "Belge takibinin sözleşme kapsamına dahil edilmesi",
+                paragraflar: [
+                    "Operatörsüz kiralamada personel yeterlilik belgelerinin takibini isteğe bağlı olarak sözleşme kapsamına dahil edebiliriz — hangi personelin hangi sınıfta belgesinin olduğunu ve süresinin ne zaman dolacağını kendi takvimimize alır, süre yaklaştığında sizi uyarırız. Bu, özellikle personel devrinin yüksek olduğu operasyonlarda pratik bir fayda sağlar; belgesi geçersiz bir personelin makineyi kullanması hem mevzuata hem sigortaya aykırı bir risktir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı sözleşme içinde bazı makineleri operatörlü, bazılarını operatörsüz kiralayabilir miyiz?",
+                cevap:
+                    "Evet, bu tercih sınıf bazında yapılır ve fiyat listesi buna göre kurulur. Personelinizin belgeli olduğu sınıflarda operatörsüz, belgesiz olduğu veya işin karmaşıklığının deneyimli kullanım gerektirdiği sınıflarda operatörlü çalışabilirsiniz. Bu seçim dönem içinde de değişebilir — örneğin personeliniz yeni bir belge alırsa, o sınıfı operatörsüz kullanmaya geçebilirsiniz; bunun için sözleşmeyi yeniden kurmanız gerekmez, yazılı bir bildirim yeterlidir.",
+            },
+            {
+                soru: "Operatörlü kiralamada bir kaza olursa sorumluluk kimde?",
+                cevap:
+                    "Sözleşmede bu sorumluluk sınırı net çizilir: makinenin operasyonel kullanımından (doğru teknikle çalıştırılması, güvenli manevra) kaynaklanan bir olayda sorumluluk büyük ölçüde bize aittir çünkü makineyi kullanan bizim personelimizdir. Ancak sahadaki genel iş güvenliği koşulları — örneğin çalışma alanının güvenli hâle getirilmesi, başka bir ekibin güvensiz bir müdahalesi — tesisin sorumluluğunda kalmaya devam eder. Bu sınırı sözleşme görüşmesinde birlikte netleştirir, genel çerçeve sözleşmemizdeki sorumluluk maddesiyle uyumlu hâle getiririz.",
+            },
+            {
+                soru: "Personelimizin belgesi operatörsüz kiralama için yeterli mi, nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Sözleşme kurulmadan önce, kullanılacak her sınıf için hangi yeterlilik belgesinin arandığını yazılı olarak paylaşırız ve personelinizin mevcut belgelerini bu listeyle karşılaştırırız. Eksik veya süresi dolmuş bir belge varsa, o sınıf için operatörlü çalışmayı öneririz ya da personelinizin belge sürecini tamamlamasını bekleriz — belgesiz kullanım riskini göze almayız. İsterseniz belge takibini sözleşme kapsamına dahil ederiz, böylece süre dolmadan önce sizi uyarırız.",
+            },
+            {
+                soru: "Operatörlü kiralama fiyatı ne kadar farklı, hesap nasıl yapılıyor?",
+                cevap:
+                    "Fark, operatör personelin çalışma süresi boyunca maliyetini yansıtır ve fiyat listesinde ayrı bir satır olarak önceden bellidir — talep anında pazarlık edilmez. Kısa süreli veya tek seferlik işlerde operatörlü seçenek genellikle toplam maliyeti daha öngörülebilir kılar çünkü personel eğitimi veya belge yatırımı gerekmez; uzun süreli ve yüksek kullanımlı işlerde ise operatörsüz seçenek genellikle daha ekonomiktir. Hangisinin sizin durumunuz için daha avantajlı olduğunu, kullanım süresi ve sıklığınıza göre birlikte hesaplarız.",
+            },
+            {
+                soru: "Operatör personeliniz bizim tesisimizin güvenlik kurallarına uyuyor mu?",
+                cevap:
+                    "Evet, düzenli çalışacak operatör personelimiz devreye alma döneminde tesisinizin çalışma izni ve İSG oryantasyonundan geçirilir ve bu kayıt sözleşme dosyasında tutulur. Bu, operatörlü kiralamanın standart bir parçasıdır; personelimizin sizin kurallarınıza uyması bizim sorumluluğumuzdadır. Yeni bir personel göreve başladığında da aynı oryantasyon süreci tekrarlanır, bunu sizden habersiz atlamayız.",
+            },
+            {
+                soru: "Operatörsüz başladık ama personelimiz ayrıldı, hemen operatörlü geçiş yapabilir miyiz?",
+                cevap:
+                    "Evet, bu senaryo tam olarak fiyat listesinin karma kullanıma izin verecek şekilde kurulmasının nedenidir. Personel değişikliği veya belge eksikliği yaşandığında yazılı bir bildirimle o sınıf için operatörlü çalışmaya geçebilirsiniz; sözleşmeyi yeniden kurmanız gerekmez, sadece o dönem için hangi fiyat satırının uygulanacağı değişir. Bu esneklik, personel devrinin kaçınılmaz olduğu operasyonlarda sözleşmenin sürekli işlemesini sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama ayrımı ve yeterlilik belgesi gerekliliği sektör standardı genel bilgidir; fiyat listesi ayrımı, sorumluluk sınırı maddesi ve karma kullanım esnekliği firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota Bakımının Çerçeve Sözleşmeye Bağlanması",
+        giris:
+            "Bir kurumun tek bir tesisi değil de birbirinden coğrafi olarak ayrık birden fazla küçük lokasyonu (şube ağı, dağıtım noktaları, tabela ve reklam panosu ağı, aydınlatma direği hattı gibi) varsa, bakım ihtiyacı tek büyük bir talep değil, çok sayıda küçük ve dağınık taleptir. Bu tip talebi standart bir çağrı bazlı düzenle karşılamaya çalışmak, her nokta için ayrı bir talep açma, ayrı bir teslimat ve ayrı bir faturalama anlamına gelir — bu, hem satın alma hem operasyon tarafında orantısız bir idari yük üretir. Bizim çok lokasyonlu çerçeve sözleşme modelimizin bir alt uygulaması olarak kurduğumuz rota bakım düzeni, bu dağınık talebi tek bir planlanmış tura dönüştürür: coğrafi olarak yakın noktalar aynı tur içinde birleştirilir, tek bir sefer içinde birden fazla nokta ziyaret edilir ve tek bir rapor üretilir. Bu sayfa, çok noktalı rota bakımının bir kurumsal sözleşmede nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Nokta listesinin ve rota gruplarının oluşturulması",
+                metin:
+                    "Sözleşme kurulurken, bakım gerektiren tüm noktaların listesi çıkarılır ve bu noktalar coğrafi yakınlığa göre rota gruplarına ayrılır — aynı ilçe veya aynı güzergah üzerindeki noktalar tek bir grupta toplanır. Bu gruplama, hem maliyet verimliliği hem planlama kolaylığı sağlar. Nokta listesi sözleşmenin ekinde yer alır ve yeni bir nokta eklenmesi veya çıkarılması yazılı bildirimle yapılır, sözleşme yeniden kurulmaz.",
+            },
+            {
+                baslik: "Tur sıklığının ve rotanın planlanması",
+                metin:
+                    "Her rota grubu için bir tur sıklığı belirlenir — bazı gruplar aylık, bazıları çeyrek dönemde bir ziyaret edilebilir; sıklık, noktaların bakım ihtiyacına göre değişir. Tur sırası da genellikle sabit bir güzergah mantığıyla kurulur, böylece her tur öngörülebilir bir sürede tamamlanır. Bu planlama, hem bizim operasyon açımızdan verimliliği hem sizin bütçe öngörülebilirliğinizi artırır.",
+            },
+            {
+                baslik: "Tur dışı acil talep işleyişi",
+                metin:
+                    "Rota bazlı planlı turların dışında, belirli bir noktada beklenmedik bir arıza çıkarsa bu, rota takviminin dışında ayrı bir acil talep olarak işlenir — bir sonraki planlı tura kadar beklenmez. Sözleşmede bu iki talep tipi (rota bazlı planlı, tur dışı acil) ayrı maddeler olarak tanımlanır ve her birinin kendi hedef karşılama süresi vardır.",
+            },
+            {
+                baslik: "Tek rapor, çok nokta",
+                metin:
+                    "Her tur tamamlandığında, o turdaki tüm noktaların durumu tek bir raporda birleştirilir — hangi noktada ne kontrol edildi, hangi noktada bir sorun tespit edildi, hangi noktanın bir sonraki tura kadar beklemesi uygun. Bu, sizin tarafınızda her nokta için ayrı ayrı rapor takip etmek yerine, tek bir belgeden bölge genelindeki durumu görmenizi sağlar.",
+            },
+            {
+                baslik: "Yeni nokta eklenmesinin rotaya entegrasyonu",
+                metin:
+                    "Şube ağınız büyüdükçe veya yeni bir lokasyon açıldıkça, yeni noktalar mevcut rota gruplarından birine coğrafi yakınlığına göre eklenir; bu, yeni bir sözleşme veya ayrı bir fiyat görüşmesi gerektirmez. Eğer yeni nokta mevcut rota gruplarının hiçbirine coğrafi olarak yakın değilse, bunu size söyleriz ve ya yeni bir rota grubu açarız ya da o nokta için ayrı bir çağrı bazlı düzen öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota bazlı ile tekil talep karşılaştırması",
+                paragraflar: [
+                    "Çok noktalı bir ağda rota bazlı planlama ile her noktayı ayrı ayrı tekil talep olarak yönetmenin farkı aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Boyut", "Tekil talep (nokta başına)", "Rota bazlı planlama", "Fark"],
+                    satirlar: [
+                        ["Maliyet", "Her seferde ayrı nakliye maliyeti", "Paylaşılan tur maliyeti", "Rota bazlı daha düşük"],
+                        ["Planlama", "Talep geldikçe reaktif", "Önceden belirlenmiş takvim", "Rota bazlı öngörülebilir"],
+                        ["Raporlama", "Nokta başına ayrı rapor", "Tur bazlı tek rapor", "Rota bazlı daha az idari yük"],
+                        ["Acil müdahale", "Aynı hızda", "Rota dışı ayrı süreçle", "Her ikisinde de acil öncelik korunur"],
+                        ["Yeni nokta ekleme", "Yeni sözleşme gerekebilir", "Mevcut rotaya entegrasyon", "Rota bazlı daha esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota gruplarının nasıl kurulduğu",
+                paragraflar: [
+                    "Bir rota grubu oluştururken sadece coğrafi yakınlığa değil, aynı zamanda erişim koşullarına da bakarız — örneğin bir grup içindeki tüm noktalar açık saha erişimliyse bir makine yeterli olabilir, bazı noktalar kapalı hacim gerektiriyorsa farklı bir ekipman kombinasyonu planlanır. Bu ayrıntı, tur planlamasının teorik bir harita çiziminden öteye, gerçekten uygulanabilir bir operasyona dönüşmesini sağlar.",
+                    "Devreye alma döneminde nokta listesini birlikte gözden geçirir, her noktanın kısa bir profilini (erişim tipi, bakım ihtiyacı, varsa özel kısıt) çıkarırız. Bu profil, ilk turdan itibaren doğru ekipmanla gitmemizi sağlar; profil eksik olduğunda ilk tur bir keşif turuna dönüşebilir ve bu, planlanan verimliliği düşürür.",
+                ],
+            },
+            {
+                baslik: "Bütçe öngörülebilirliği açısından katkısı",
+                paragraflar: [
+                    "Rota bazlı planlamanın satın alma tarafındaki en somut faydası bütçe öngörülebilirliğidir: her rota grubunun tur sıklığı ve birim fiyatı dönem başında bellidir, bu yüzden yıllık bakım bütçesi tekil taleplerin toplamı gibi belirsiz değil, sabit bir kalem olarak planlanabilir. Tur dışı acil taleplerin payı da geçmiş dönem verisine dayanarak tahmin edilebilir, böylece bütçenin tamamı öngörülebilir hâle gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kaç noktamız olursa rota bazlı planlama mantıklı olur?",
+                cevap:
+                    "Kesin bir eşik yoktur ama genel eğilim şudur: birbirine coğrafi olarak yakın en az birkaç noktanız varsa ve bu noktaların bakım ihtiyacı benzer bir sıklıkta tekrarlıyorsa, rota bazlı planlama tekil taleplere göre neredeyse her zaman daha verimlidir. Az sayıda ve birbirinden uzak noktalarınız varsa, rota mantığı fazla fayda sağlamayabilir ve standart çağrı bazlı düzen daha uygun olabilir. Nokta listenizi paylaştığınızda, rota gruplaması yapmanın sizin için avantajlı olup olmadığını somut olarak gösteririz.",
+            },
+            {
+                soru: "Rota turunun arasında bir noktada acil arıza çıkarsa bir sonraki tura kadar mı bekliyoruz?",
+                cevap:
+                    "Hayır. Tur dışı acil talep, rota takviminden bağımsız ayrı bir süreçle işlenir ve kendi hedef karşılama süresi vardır — bu süre, planlı rota turundan daha kısadır çünkü aciliyeti farklıdır. Rota bazlı planlama, sadece rutin ve öngörülebilir bakımı bir araya toplar; beklenmedik bir arıza her zaman kendi önceliğinde ele alınır. Bu ayrımı sözleşmede net yazarız, böylece rota bazlı çalışmanın acil müdahaleyi geciktireceği yanlış anlaşılmasının önüne geçeriz.",
+            },
+            {
+                soru: "Yeni bir şube açtığımızda rotaya nasıl ekleniyor?",
+                cevap:
+                    "Yeni noktayı bize bildirdiğinizde, coğrafi konumuna göre mevcut rota gruplarından birine eklenir ve o gruptaki bir sonraki turda kapsam altına alınır; bunun için sözleşmeyi yeniden kurmanıza gerek yoktur. Eğer yeni nokta mevcut rota gruplarının hiçbirine yakın değilse, bunu size söyler ve ya yeni bir rota grubu açarız ya da o nokta için ayrı bir çağrı bazlı düzen öneririz — her iki durumda da net bir plan sunarız, belirsiz bırakmayız.",
+            },
+            {
+                soru: "Rota raporunu hangi formatta alıyoruz?",
+                cevap:
+                    "Her tur tamamlandığında, o turdaki tüm noktaların durumunu tek bir raporda birleştiririz: hangi noktada ne kontrol edildi, hangi noktada bir sorun tespit edildi, gerekiyorsa ek bir müdahale önerisi. Formatı, sizin iç raporlama sisteminize uyacak şekilde devreye alma döneminde birlikte belirleriz. Bu tek rapor, çok sayıda ayrı belge takip etmek yerine bölge genelindeki durumu bir bakışta görmenizi sağlar.",
+            },
+            {
+                soru: "Rota bazlı çalışmanın bize maliyet avantajı olduğunu nasıl gösterebilirsiniz?",
+                cevap:
+                    "Nokta listenizi ve tahmini bakım sıklığınızı aldığımızda, aynı ihtiyacı tekil talep olarak (her nokta için ayrı nakliye ve planlama) karşılamanın maliyetiyle, rota bazlı gruplandığında oluşacak maliyeti yan yana hesaplarız. Fark genellikle nakliye ve planlama verimliliğinden kaynaklanır — aynı tur içinde birden fazla nokta ziyaret edildiğinde, nakliye maliyeti noktalar arasında paylaşılır. Bu hesabı sözleşme görüşmesinde somut rakamlarla gösteririz, soyut bir vaat olarak bırakmayız.",
+            },
+            {
+                soru: "Rota gruplarının sıklığını dönem içinde değiştirebilir miyiz?",
+                cevap:
+                    "Evet, tur sıklığı baştan kesin bir taahhüt değil, gözden geçirilebilir bir plandır. Bir rota grubundaki noktaların bakım ihtiyacı beklenenden daha sık veya daha seyrek çıkarsa (dönem raporundaki bulgulara dayanarak), sıklığı yazılı bir revizyonla güncelleriz. Bu değişiklik için sözleşmenin yeniden kurulmasına gerek yoktur, mevcut çerçeve içinde takvim satırı güncellenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Coğrafi kümeleme ile rota bazlı bakım planlaması sektör standardı genel bir lojistik yaklaşımdır; rota grubu kurgusu, tur dışı acil talep ayrımı ve tek rapor formatı firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi İşleri: Kontrat Kapsamımızın Sınırı",
+        giris:
+            "Kurumsal tedarik kontratı modelimiz, büyük ölçüde OSB'lerin, sanayi sitelerinin ve kurumsal tesislerin sert ve düzgün zeminleri (beton, asfalt, sıkıştırılmış zemin) üzerine kuruludur — filomuzun ağırlığı da bu zemin tipine uygun lastik ve tahrik konfigürasyonuna sahiptir. Hazırlıksız, engebeli veya yumuşak arazi koşulları, farklı bir makine sınıfı (geniş lastikli, düşük zemin basıncı üreten veya paletli özel arazi tipi ekipman) gerektirir ve bu, bizim standart filomuzun doğal güçlü olduğu alan değildir. Bunu dürüstçe söylemeyi tercih ediyoruz: eğer düzenli olarak zorlu arazi koşullarında çalışan bir işiniz varsa, bu alana özel ekipmana sahip bir tedarikçiyle çalışmanız muhtemelen daha uygun olacaktır. Buna karşılık, standart bir kurumsal tesisin çevresinde ara sıra çıkan, sınırlı ölçekli zor zemin ihtiyaçlarında elimizdeki filoyu değerlendirebiliriz ve nerede sınırımızın bittiğini net söyleriz. Bu sayfa, bu sınırı ve sınırın içinde kaldığımız durumlarda nasıl bir yaklaşım izlediğimizi anlatır.",
+        maddeler: [
+            {
+                baslik: "Filomuzun zemin varsayımı",
+                metin:
+                    "Kurumsal fiyat listemizdeki makine sınıfları, OSB ve sanayi tesisi zemin koşullarına göre seçilmiştir — genellikle standart lastik konfigürasyonu ve sert-orta zemin taşıma varsayımı. Yumuşak toprak, çamur, kum veya belirgin eğimli arazide bu konfigürasyon yetersiz kalabilir ve makinenin saplanma veya devrilme riski oluşturur. Bu riski göze alarak uygun olmayan bir işi kabul etmeyiz; bunun yerine sahanın zemin durumunu önceden sorar, uygun olup olmadığımızı dürüstçe değerlendiririz.",
+            },
+            {
+                baslik: "Sınırda kalan durumlar: değerlendirme kriterleri",
+                metin:
+                    "Bazı işler tam olarak 'uygun' veya 'uygun değil' kategorisine kolayca girmez — örneğin hafif engebeli ama kuru ve sıkışmış bir zemin, standart filomuzla dikkatli bir değerlendirmeyle karşılanabilir. Bu tür sınırda kalan durumlarda saha koşullarını (zemin nemi, eğim derecesi, taşıma geçmişi varsa) sorar, mümkünse kısa bir saha ziyaretiyle netleştiririz. Net bir cevap veremediğimiz durumda, riski müşteriye üstü kapalı geçirmek yerine 'bu konuda emin değiliz, saha ziyareti gerekir' deriz.",
+            },
+            {
+                baslik: "Kurumsal tesis çevresindeki sınırlı arazi işleri",
+                metin:
+                    "OSB veya sanayi tesisi çevresinde, tesisin kendi arazisinin bir bölümünde (örneğin bahçe düzenlemesi öncesi hazırlık alanı, henüz asfaltlanmamış bir genişleme sahası) sınırlı ölçekli bir zor zemin ihtiyacı çıkabilir. Bu tür işlerde, işin ölçeği ve süresi küçük olduğu için filomuzdaki uygun bir alt sınıfla (geniş lastikli, düşük zemin basıncı) destek olabiliriz; büyük ölçekli ve sürekli arazi işleri için bu geçerli değildir.",
+            },
+            {
+                baslik: "Hava koşulunun zemin durumuna etkisi",
+                metin:
+                    "Yağışlı dönemlerde daha önce uygun değerlendirdiğimiz bir zemin bile geçici olarak yumuşayabilir; bu yüzden zor zemin sınırındaki işlerde talep açıldığı andaki hava ve zemin durumunu ayrıca sorarız. Kuru dönemde uygun olan bir saha, yağış sonrası aynı gün uygun olmayabilir — bu değişkenliği önceden söyleriz, sabit bir 'uygun' cevabı vermeyiz.",
+            },
+            {
+                baslik: "Uygun olmadığımız durumda yönlendirme",
+                metin:
+                    "İşin bizim filomuzun kapasitesini aştığını değerlendirdiğimizde, bunu geciktirmeden söyleriz ve aramanız gereken ekipman profilini (paletli, geniş lastikli, düşük zemin basıncı üreten arazi tipi platform) tarif ederiz. Yanlış bir makineyle sahaya girip işi yarıda bırakmak, hem sizin işinizi geciktirir hem güvenlik riski oluşturur — bu yüzden baştan doğru değerlendirme yapmayı, sonradan sahada geri çekilmeye tercih ederiz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipine göre uygunluk değerlendirmesi",
+                paragraflar: [
+                    "Farklı zemin ve arazi koşullarında filomuzun uygunluk durumunu aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Uygunluğumuz", "Neden", "Öneri"],
+                    satirlar: [
+                        ["Beton / asfalt", "Uygun", "Standart filo konfigürasyonu", "—"],
+                        ["Sıkıştırılmış, kuru toprak", "Uygun", "Yeterli taşıma kapasitesi", "—"],
+                        ["Hafif engebeli, kuru zemin", "Sınırda, değerlendirme gerekir", "Eğim ve zemin sertliğine bağlı", "Saha bilgisi/ziyareti ile netleştirilir"],
+                        ["Yumuşak toprak, çamur", "Uygun değil", "Saplanma riski", "Arazi tipi özel ekipman tedarikçisi"],
+                        ["Belirgin eğimli arazi", "Uygun değil", "Devrilme riski", "Arazi tipi özel ekipman tedarikçisi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu sınırı net çiziyoruz",
+                paragraflar: [
+                    "Kurumsal tedarik ilişkisinin temeli, taahhüt ettiğimiz her şeyin arkasında durabilmemizdir. Zor zemin ve arazi işlerinde güçlü olduğumuzu iddia edip sonra sahada makinenin saplandığını görmek, hem o işi hem de bizimle kurulu genel çerçeve sözleşmeye olan güveni zedeler. Bu yüzden bu segmentte net bir sınır çiziyoruz: standart kurumsal tesis zemini bizim güçlü olduğumuz alandır, gerçek arazi koşulları değildir.",
+                    "Bu netlik, aslında sözleşmeli müşterilerimiz için de bir güvence niteliği taşır — bir tedarikçinin nerede güçlü nerede zayıf olduğunu bilmeniz, sözleşme kapsamınızı doğru kurmanızı sağlar. Kapsamınızda hem kurumsal tesis hem zorlu arazi işi varsa, ikisi için iki ayrı tedarikçiyle çalışmanızı, bu ikisini tek çerçeveye zorlamamanızı öneririz.",
+                ],
+            },
+            {
+                baslik: "Saha değerlendirmesinin nasıl yapıldığı",
+                paragraflar: [
+                    "Sınırda kalan bir talep geldiğinde, önce telefonda birkaç temel soruyla (zemin tipi, nem durumu, eğim, önceki ağır ekipman geçiş geçmişi) ön değerlendirme yaparız. Belirsizlik devam ediyorsa, kısa bir saha ziyaretiyle zemin durumunu yerinde görürüz — bu ziyaret genellikle ücretsizdir ve amacı, hem sizin hem bizim için doğru bir karar vermektir. Saha ziyareti sonrası ya uygun bir çözüm sunarız ya da dürüstçe uygun olmadığımızı söyleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimizin arka bahçesinde toprak bir alanda kısa bir iş var, uygun musunuz?",
+                cevap:
+                    "Zemin durumuna bağlı — sıkıştırılmış ve kuru bir toprak zeminse, filomuzdaki uygun bir alt sınıfla muhtemelen destek olabiliriz. Zemin yumuşak, çamurlu veya belirgin eğimliyse uygun değiliz ve bunu söyleriz. Talebinizi aldığımızda zemin nemi, sertliği ve eğim durumu hakkında birkaç soru sorarız; net değilse kısa bir saha ziyaretiyle görmeyi öneririz. Bu değerlendirmeyi atlayıp tahminle ilerlemeyiz, çünkü yanlış tahminin bedeli sahada makinenin saplanması olabilir.",
+            },
+            {
+                soru: "Yağmur sonrası aynı sahaya gidebilir misiniz?",
+                cevap:
+                    "Daha önce uygun bulduğumuz bir saha, yağış sonrası geçici olarak yumuşayabilir — bu yüzden zemin sınırındaki işlerde talep açıldığı andaki güncel durumu ayrıca sorarız. Yağış sonrası birkaç gün beklemek, zeminin toparlanması için genellikle yeterlidir; acil bir ihtiyaç varsa sahayı tekrar değerlendirir, gerekirse geçici bir zemin desteği (plaka gibi) önerisinde bulunuruz. Riski görmezden gelip yine de gitmeyi tercih etmeyiz.",
+            },
+            {
+                soru: "Bize uygun değilsiniz derseniz, nasıl bir tedarikçi aramalıyız?",
+                cevap:
+                    "Belirli bir isim vermek yerine aranması gereken profili tarif ederiz: geniş lastikli veya paletli, düşük zemin basıncı üreten, arazi tipi işlere alışkın bir tedarikçi. Bu tür firmalar genellikle bizim gibi OSB/kurumsal tesis ağırlıklı çalışan firmalardan farklı bir filo ve fiyatlama mantığıyla çalışır. Yanlış bir makineyle işinizi denemek yerine, doğru profildeki bir tedarikçiye yönlenmeniz, hem zaman hem güvenlik açısından daha iyi bir sonuç verir.",
+            },
+            {
+                soru: "Saha ziyareti ücretli mi?",
+                cevap:
+                    "Genellikle hayır — sınırda kalan bir talep için yaptığımız kısa saha değerlendirmesi, doğru bir karar vermek amacıyla yapılan bir ön adımdır ve standart olarak ücretsizdir. İstisnası, sahanın çok uzak bir mesafede olduğu veya değerlendirmenin ayrıntılı bir ekipman testi gerektirdiği durumlardır; böyle bir istisna söz konusuysa bunu önceden söyleriz, sürpriz bir ücret çıkarmayız.",
+            },
+            {
+                soru: "Bizim gibi hem kurumsal tesisi hem çevresinde arazi işi olan bir müşteri için tek sözleşme mi öneriyorsunuz?",
+                cevap:
+                    "Kurumsal tesis kısmı için evet, çerçeve sözleşmemiz altında güçlü bir hizmet sunarız. Ama gerçek arazi işi kısmı için, sizi tek bir tedarikçiye zorlamak yerine, o kısım için arazi tipi ekipmana sahip ayrı bir tedarikçiyle çalışmanızı öneririz — çünkü bu segmentte bizim taahhüt edebileceğimiz seviye, o alana özel bir firmanın taahhüt edebileceği seviyeden düşüktür. Amacımız sözleşme hacmini büyütmek değil, her iş için doğru çözümü göstermektir.",
+            },
+            {
+                soru: "Hafif engebeli bir saha için 'sınırda' derseniz, kararı kim veriyor?",
+                cevap:
+                    "Kararı birlikte veririz — biz saha bilgisini (zemin sertliği, eğim derecesi, nem durumu) topluyoruz ve teknik değerlendirmemizi paylaşıyoruz; nihai kararda sizin de bilgi sahibi olmanızı isteriz, özellikle riski üstlenecek taraf olarak. Belirsizlik yüksekse saha ziyaretini öneririz, çünkü telefon üzerinden verilen bir tahmin, gerçek zemin gözlemi kadar güvenilir olmaz. Amacımız, hem sizin hem bizim için sürpriz olmayan bir karara varmaktır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Zor zemin/arazi koşullarında ekipman uygunluğu (lastik tipi, zemin basıncı) sektör standardı genel bilgidir; filomuzun bu segmentteki sınırı ve saha değerlendirme süreci firma pratiğidir; hiçbir tesis adı veya kapasite rakamı belirtilmemiştir.",
+    },
 };
