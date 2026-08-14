@@ -1996,4 +1996,200 @@ export const PLATFORMMANISA_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Manisa OSB'nin gelişmekte olan parsel yapısı ve ova tabanının nem tutma eğilimi önceki bölge sayfalarımızdaki firma gözleminin devamıdır; zemin değerlendirme yöntemi ve plaka hazırlığı firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Manisa'da Makaslı Platform Kiralama — Tesis İçi Bakım Trafiğine Göre Kurulu",
+        giris:
+            "Makaslı platform, Manisa OSB'deki üretim tesislerinin gündelik bakım trafiğinin omurgasıdır — çatı aydınlatma hattında ampul değişimi, vinç rayı kontrolü, havalandırma kanalı temizliği, sprinkler başlığı testi gibi tekrar eden işlerin neredeyse tamamı düz, sert zeminli bir hat üzerinde dikey yükselme ister, eğik erişim değil. Biz bu makineyi tek seferlik bir kiralama kalemi olarak değil, tesisin yıllık bakım takviminin bir parçası olarak konumlandırıyoruz: bakım şefiyle yıl başında oturulur, hangi ayda hangi hattın durduğu, hangi çeyrekte çatı ve aydınlatma elden geçtiği netleşir, makine tipi ve zemin özellikleri baştan kayıt altına alınır. Elektronik montaj hatlarında statik hassasiyeti, beyaz eşya üretiminde boyalı gövde komşuluğu gibi sahaya özgü kısıtlar operatöre işbaşı öncesi aktarılır; iz bırakmayan lastik ve sızdırmazlığı kontrol edilmiş hidrolik sistem bu sahalarda standarttır. Amacımız her aramada sıfırdan başlayan bir teklif süreci değil, tesisin bakım takvimine önceden yerleşmiş, arıza gününde de aynı gün sahaya çıkabilen bir yerli tedarik düzenidir. Bu sayfa, makaslı platformun Manisa OSB'deki tesis içi bakım operasyonlarında nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Düz zeminde dikey erişimin doğru aracı",
+                metin:
+                    "Makaslı platform, sepetin doğrudan yukarı-aşağı hareket ettiği, yanal erişim gerektirmeyen işler için tasarlanmıştır — tavan aydınlatması, kablo tavası, klima kanalı gibi hedefler genelde operatörün tam altında değil, üstünde durur. Tesis içi beton veya epoksi kaplı zeminlerde bu makine, eklemli veya teleskopik modellere göre hem daha kararlı hem daha geniş sepet alanı sunar; iki kişi ve malzeme aynı anda taşınabilir. Zemin sert ve düzse, makaslı platform çoğu bakım işinde ilk tercihtir.",
+            },
+            {
+                baslik: "Yıllık bakım takvimine göre önceden atama",
+                metin:
+                    "Büyük tesislerin bakım bölümleri yılı önceden planlar; biz bu planın karşısına her seferinde yeni bir teklif koymak yerine, yıl başında hangi ayda hangi hat için makaslı platform gerekeceğini bakım şefiyle birlikte netleştiririz. Bu önceden atama, hem tesisin bütçe planlamasını kolaylaştırır hem de bizim o tarihte doğru kapasitedeki makineyi hazır tutmamızı sağlar. Plan dışı bir ihtiyaç çıktığında da aynı iletişim hattı üzerinden, bekleme olmadan devreye giririz.",
+            },
+            {
+                baslik: "Hassas üretim alanlarında sepet ve lastik seçimi",
+                metin:
+                    "Elektronik montaj hatlarında statik yük birikimi, beyaz eşya boyahanelerinde boyalı yüzey teması gibi riskler standart bir makineyle değil, sahaya göre seçilmiş ekipmanla yönetilir. İz bırakmayan lastikli makaslı platformlarımız bu tür alanlara girmeden önce hidrolik sızdırmazlık kontrolünden geçirilir; operatör, tesise özel yürüyüş güzergâhı ve yasaklı bölge bilgisini bakım sorumlusundan işbaşı öncesi alır. Bu ön kontrol, hem üretim hattının kesintisiz kalmasını hem de makinenin sahada güvenle çalışmasını sağlar.",
+            },
+            {
+                baslik: "Arıza gününde il içi hızlı devreye alma",
+                metin:
+                    "Planlı bakım takvimi ne kadar sağlam kurulursa kurulsun, gece vardiyasında kopan bir askı veya sabah fark edilen bir aydınlatma arızası kendi gününü seçer. İl içinden çalışmanın somut karşılığı bu anlarda ortaya çıkar — telefonda tarif edilen işe uygun makaslı platform aynı gün içinde, gerekirse operatörüyle birlikte sahaya ulaşır. Şehir dışından tedarikçinin nakliye planı kurduğu saatlerde bizim makinemiz zaten sahada çalışıyor olur.",
+            },
+            {
+                baslik: "Yükseklik ve sepet kapasitesine göre model ayrımı",
+                metin:
+                    "Tesis içi bakım işleri genelde 8-14 metre çalışma yüksekliği aralığında toplanır, ama her hat aynı yüksekliğe sahip değildir — depo rafı üstü ile ana üretim hattı tavanı farklı model gerektirebilir. Sepet kapasitesi de önemlidir; tek kişilik hafif iş ile iki kişi ve boru/kablo malzemesi taşınan iş aynı makineyle yapılmaz. Bu yüzden yıllık plan yapılırken her hat için ayrı model ataması yapılır, tek bir 'standart makine' herkese uydurulmaya çalışılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis içi iş tipine göre makaslı platform seçimi",
+                paragraflar: [
+                    "Manisa OSB'deki tesislerde en sık karşılaşılan bakım işi tiplerine göre model ve sepet kapasitesi önerisi aşağıdadır. Kesin seçim sahadaki tavan yüksekliği ve zemin ölçümüyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Tipik yükseklik", "Sepet ihtiyacı", "Önerilen model"],
+                    satirlar: [
+                        ["Aydınlatma/ampul değişimi", "8-10 m", "Tek kişi, hafif malzeme", "Standart elektrikli makaslı"],
+                        ["Havalandırma kanalı temizliği", "10-12 m", "İki kişi, ekipman", "Geniş sepetli makaslı"],
+                        ["Vinç rayı kontrolü", "12-14 m", "Tek-iki kişi, ölçüm aleti", "Yüksek kapasiteli makaslı"],
+                        ["Sprinkler/yangın sistemi testi", "8-11 m", "Tek kişi, test cihazı", "Standart elektrikli makaslı"],
+                        ["Depo raf üstü kontrol", "6-9 m", "Tek kişi, hafif malzeme", "Dar gövdeli makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrikli mi, dizel mi",
+                paragraflar: [
+                    "Tesis içi kapalı alan işlerinde neredeyse istisnasız elektrikli/akülü makaslı platform tercih edilir — egzoz gazı çıkarmaması ve daha sessiz çalışması üretim hattının yanında güvenli bir kullanım sağlar. Dizel modeller ancak açık avlu veya yarı kapalı depo alanlarında, uzun süreli kesintisiz çalışma gerektiğinde gündeme gelir.",
+                    "Akünün şarj durumu, uzun vardiyalı işlerde önceden planlanır; tesise giriş öncesi tam şarjlı makine teslim edilir, gerekirse yedek akü veya şarj molası saha programına dahil edilir.",
+                ],
+            },
+            {
+                baslik: "Operatörlü mü, operatörsüz mü",
+                paragraflar: [
+                    "Tesis içi bakım işlerinde çoğu firma kendi teknik personelini kullanmayı tercih eder; bu durumda makine operatörsüz teslim edilir, ancak kullanım öncesi kısa bir tesise özel bilgilendirme (yürüyüş güzergâhı, yasaklı bölge, acil durdurma) yapılır. Operatör talep edildiğinde, yeterlilik belgesi olan ve o tesisin hassasiyetlerine önceden aşina personel görevlendirilir.",
+                    "Yeni başlayan bir bakım ekibiyle çalışırken ilk birkaç seferde operatörlü tercih edilmesini öneririz; tesisin kendi ekibi sahayı tanıdıkça operatörsüz kullanıma geçilebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile eklemli platform arasında tesis içi işler için hangisini önerirsiniz?",
+                cevap:
+                    "Tesis içi bakım işlerinin büyük çoğunluğu düz zeminde dikey erişim gerektirir — tavan aydınlatması, kanal, vinç rayı gibi hedefler operatörün tam üstündedir. Bu tür işlerde makaslı platform hem daha geniş sepet hem daha yüksek kararlılık sunar. Eklemli platform ancak hedefe engelin arkasından, yandan veya çaprazdan ulaşmak gerektiğinde devreye girer; iki makine arasındaki fark saha ölçümüyle netleşir, biz kararı sahayı görmeden vermeyiz.",
+            },
+            {
+                soru: "Bizim tesiste birden fazla hat aynı ay bakıma giriyor, tek makineyle mi idare ederiz?",
+                cevap:
+                    "Bu durumda önceden planlama daha da kritik hale gelir — yıl başı görüşmesinde hangi hatların hangi hafta çakıştığını görürüz ve o dönem için birden fazla makaslı platformu aynı anda ayırırız. Son dakikaya bırakılan çakışmalarda kapasitemiz o gün için dolu olabilir, bu yüzden bakım takviminizi mümkün olduğunca erken paylaşmanızı öneririz.",
+            },
+            {
+                soru: "Elektronik montaj hattında statik hassasiyeti olan bir alana makine sokabilir miyiz?",
+                cevap:
+                    "Evet, ama standart bir makineyle değil. Bu tür alanlara girecek makaslı platformlar iz bırakmayan lastikli, hidrolik sızdırmazlığı kontrol edilmiş modellerden seçilir ve operatör tesisin statik kontrol kurallarını işbaşı öncesi bakım sorumlusundan dinler. Tesisinizin özel bir statik önlem prosedürü varsa, önceden bize iletmeniz makineyi ona göre hazırlamamızı sağlar.",
+            },
+            {
+                soru: "Gece vardiyasında acil bir arıza çıktı, sabaha kadar makine bulabilir miyiz?",
+                cevap:
+                    "İl içi olmamızın en somut faydası tam bu durumdadır. Telefonda işin niteliğini (yükseklik, zemin, erişilecek nokta) aktarırsanız, uygun makaslı platformu aynı gün, gerekirse operatörüyle birlikte sahanıza ulaştırırız. Şehir dışından gelen bir tedarikçinin nakliye süresini beklemek zorunda kalmazsınız.",
+            },
+            {
+                soru: "Yıllık bakım takvimine ortak olmak ne anlama geliyor, nasıl işliyor?",
+                cevap:
+                    "Yıl başında bakım planlama ekibinizle bir araya gelip hangi ay hangi hattın duracağını, hangi çeyrekte çatı/aydınlatma bakımının yapılacağını birlikte gözden geçiririz. Her kalem için önceden makine tipi ve tahmini süre ataması yapılır; böylece yıl içinde her iş için ayrı arayış yaşamazsınız, takvim döndükçe makine zaten planlanmış olarak gelir. Plan dışı ek ihtiyaçlar da aynı iletişim kanalından hızla çözülür.",
+            },
+            {
+                soru: "Sepette iki kişi ve malzeme taşımamız gerekiyor, her makaslı platform buna uygun mu?",
+                cevap:
+                    "Hayır, sepet kapasitesi modelden modele değişir; standart dar gövdeli makineler genelde tek kişi ve hafif malzemeye uygundur. İki kişi ve boru/kablo gibi hacimli malzeme taşınacaksa geniş sepetli, yüksek kapasiteli model seçilmesi gerekir. Bu ayrım yıllık plan yapılırken her hat için ayrı ayrı değerlendirilir, iş tanımınızı bize aktardığınızda doğru modeli önceden ayırırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa OSB'deki tesis içi bakım takvimi ve hassas üretim alanı hazırlığı önceki bölge/hizmet sayfalarımızdaki firma gözleminin devamıdır; model ve sepet kapasitesi ayrımı firma pratiğidir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Manisa'da Manlift Kiralama — Bina Dışı Bakım ve Çatı İşleri İçin Erişim",
+        giris:
+            "Manlift, Manisa OSB'deki tesislerin bina dışına taşan bakım işlerinin çözümüdür — çatı oluğu temizliği, dış cephe aydınlatma direği bakımı, yükleme rampası üstü tente onarımı, bina dışındaki trafo ve enerji hattı kontrolü gibi işler düz bir zeminde değil, çoğu zaman eğimli avlu, park alanı kenarı veya bina cephesine yakın dar bir şeritte yapılır. Bu farklı zemin ve erişim koşulu, makaslı platformdan farklı bir makine ve farklı bir planlama gerektirir: eklemli veya teleskopik bommlu manlift, engelin üstünden veya yanından dönerek hedefe ulaşabilir, dört teker çekişli modeller düzensiz avlu zemininde çalışabilir. Biz bu ihtiyacı da tesisin yıllık bakım takviminin bir parçası olarak ele alıyoruz — çatı ve dış cephe bakımı genelde belirli mevsimlerde (yağış öncesi, kış hazırlığı) yoğunlaşır, bu dönemleri bakım şefiyle önceden netleştirip makineyi ona göre hazır tutuyoruz. İl içinden çalışmanın avantajı burada da geçerlidir: dış mekân işlerinde hava koşulu değiştiğinde plan aynı gün içinde revize edilebilir, makine bekletilmeden doğru güne kaydırılabilir. Bu sayfa, manliftin Manisa OSB'deki bina dışı bakım operasyonlarında nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Engelin üstünden veya yanından erişim",
+                metin:
+                    "Manliftin makaslı platformdan temel farkı, sepetin sadece dikey değil, boom kolu sayesinde yatay ve çapraz yönde de hareket edebilmesidir. Bina cephesine yakın bir çatı olluğuna, park halindeki bir aracın veya yükleme rampasının üstünden geçerek ulaşmak gerektiğinde bu özellik zorunlu hale gelir. Manisa OSB'deki tesislerin çoğunda bina çevresi dolu (araç, malzeme yığını, alçak yapı) olduğu için, manlift talebi genelde bu tür bir 'engelin arkasına ulaşma' ihtiyacından doğar.",
+            },
+            {
+                baslik: "Avlu ve dış zeminde makine seçimi",
+                metin:
+                    "Bina dışı alanlar, tesis içi beton zeminin aksine eğimli, çakıllı veya kısmen toprak olabilir. Bu tür zeminlerde dört teker çekişli, geniş lastikli manlift modelleri tercih edilir; bağımsız ayak dengeleme sistemi sepeti eğimli zeminde de yatay tutar. Zemin çok yumuşak veya eğim güvenlik sınırının üzerindeyse, makine o noktaya çıkarılmaz, alternatif güzergâh veya farklı bir yöntem önerilir.",
+            },
+            {
+                baslik: "Mevsimsel bakım dönemlerine göre önceden planlama",
+                metin:
+                    "Çatı, oluk ve dış cephe bakımı genelde yağış öncesi sonbahar ve kış hazırlığı dönemlerinde yoğunlaşır; bu dönemlerde talep artışını önceden görüp bakım şefiyle birlikte takvim üzerinde makine ayırırız. Yıl başında yapılan bu planlama, tesisin en yoğun dönemde makine bulamama riskini ortadan kaldırır ve bizim de o dönemde doğru sayıda manliftı hazır tutmamızı sağlar.",
+            },
+            {
+                baslik: "Hava koşuluna göre esnek program",
+                metin:
+                    "Dış mekân işleri rüzgâr ve yağıştan doğrudan etkilenir; belirli bir rüzgâr hızının üzerinde veya ıslak zeminde yüksekte çalışma güvenli değildir. Bu yüzden manlift işlerini planlarken kesin bir tarih değil, esnek bir pencere öneririz — hava uygun değilse iş bir gün ertelenir, uygun olduğunda makine zaten sahada hazır beklemektedir. Bu esneklik, işi riske atmadan zamanında bitirmenin tek yoludur.",
+            },
+            {
+                baslik: "Enerji hattı ve trafo yakınında güvenlik mesafesi",
+                metin:
+                    "Bina dışındaki enerji hattı, trafo veya aydınlatma direği çevresinde çalışırken elektrik çarpması riski ciddi bir güvenlik meselesidir. Manlift bu tür bir alana girmeden önce hat geriliminin ve güvenli yaklaşım mesafesinin ne olduğu tesisin elektrik sorumlusundan öğrenilir; operatör bu mesafeyi aşmayacak şekilde çalışır. Bilgi netleşmeden bu tür işlere başlanmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bina dışı iş tipine göre manlift seçimi",
+                paragraflar: [
+                    "Manisa OSB'deki tesislerin bina dışı bakım işlerinde en sık karşılaşılan iş tiplerine göre model önerisi aşağıdadır. Kesin seçim sahadaki zemin ve engel durumuna göre netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Erişim şekli", "Zemin", "Önerilen model"],
+                    satirlar: [
+                        ["Çatı oluğu temizliği", "Yukarı + yanal", "Beton/avlu", "Eklemli boom"],
+                        ["Dış cephe aydınlatma bakımı", "Yukarı + çapraz", "Asfalt/beton", "Teleskopik boom"],
+                        ["Yükleme rampası üstü tente onarımı", "Engelin üstünden", "Beton", "Eklemli boom"],
+                        ["Trafo/enerji hattı çevresi kontrolü", "Mesafeli yaklaşım", "Değişken", "İzole hidrolikli boom"],
+                        ["Eğimli/düzensiz avlu erişimi", "Yukarı + yatay", "Eğimli/çakıllı", "Dört teker çekişli boom"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli mi, teleskopik mi",
+                paragraflar: [
+                    "Eklemli boom, kolun birden fazla eklem noktasından bükülebilmesi sayesinde dar aralıklardan geçip engelin arkasına 'sarılarak' ulaşabilir — bina köşesi, park halindeki araç veya alçak bir yapı arkasındaki hedeflerde tercih edilir. Teleskopik boom ise düz bir hatta daha uzun mesafeye, daha yüksek kaldırma kapasitesiyle ulaşır; açık avluda uzak bir noktaya erişim gerektiğinde daha uygundur.",
+                    "Hangi modelin gerektiği, hedefe giden yolda kaç engel olduğu ve mesafenin ne kadar uzun olduğuyla belirlenir; bu değerlendirme telefonla değil sahaya bakılarak yapılır.",
+                ],
+            },
+            {
+                baslik: "Yıl içi mevsimsel talep ve kapasite ayırma",
+                paragraflar: [
+                    "Sonbahar ve kış hazırlığı döneminde manlift talebi bölgede belirgin şekilde artar; bu dönemde son dakika arayan tesisler bazen kapasite darlığıyla karşılaşabilir. Yıl başında yapılan bakım takvimi görüşmesinde bu dönem için önceden makine ayırmak, hem tesis hem bizim için en güvenilir yoldur.",
+                    "Plan dışı acil bir ihtiyaç çıkarsa, il içi olmamız sayesinde aynı gün içinde uygun modeli bulup sahaya yönlendirebiliriz; ama yoğun dönemde bu her zaman garanti edilemez, bu yüzden önceden planlamayı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki temel fark ne, hangi işimizde hangisini istemeliyiz?",
+                cevap:
+                    "Makaslı platform sadece dikey hareket eder, düz zeminde tavan üstü işler için idealdir. Manlift ise boom kolu sayesinde yatay ve çapraz da hareket edebilir, bu yüzden bina dışında bir engelin üstünden veya yanından hedefe ulaşmak gerektiğinde (çatı oluğu, dış cephe, yükleme rampası üstü gibi) tercih edilir. İş tanımınızı paylaştığınızda hangisinin uygun olduğunu sahayı görmeden de büyük ölçüde söyleyebiliriz, kesin karar zemin ve engel durumuna göre netleşir.",
+            },
+            {
+                soru: "Rüzgârlı bir günde çatı bakımı planladık, iş iptal mi olur?",
+                cevap:
+                    "Belirli bir rüzgâr hızının üzerinde yüksekte çalışmak güvenli değildir, bu sınırı aşan bir günde işi ertelememiz gerekir. Ama bu genelde tam iptal değil, esnek bir pencere içinde erteleme anlamına gelir — makineyi sahada veya yakınında hazır tutar, hava uygun olduğu an işi tamamlarız. Kesin bir tarih vermek yerine size birkaç günlük bir pencere önermemiz bu yüzdendir.",
+            },
+            {
+                soru: "Tesisimizin avlusu eğimli ve kısmen çakıllı, manlift buraya girebilir mi?",
+                cevap:
+                    "Çoğu durumda evet, ama standart bir modelle değil. Bu tür zeminlerde dört teker çekişli, geniş lastikli manlift tercih edilir; bağımsız ayak dengeleme sistemi eğimli zeminde de sepeti yatay tutar. Eğim belirli bir güvenlik sınırını aşıyorsa o noktada çalışmayız, alternatif bir güzergâh veya farklı bir yöntem öneririz. Kesin karar sahada yapılan bir keşifle verilir.",
+            },
+            {
+                soru: "Trafo yakınında çalışacağız, elektrik çarpması riski nasıl yönetiliyor?",
+                cevap:
+                    "Enerji hattı veya trafo çevresinde çalışmadan önce hat geriliminin ve güvenli yaklaşım mesafesinin ne olduğunu tesisinizin elektrik sorumlusundan mutlaka öğreniriz; bu bilgi netleşmeden işe başlamayız. Gerekirse izole hidrolikli bir boom modeli tercih edilir ve operatör bu güvenlik mesafesini aşmayacak şekilde çalışır. Bu konuda esneklik göstermeyiz çünkü risk hayati boyuttadır.",
+            },
+            {
+                soru: "Kış hazırlığı döneminde çok fazla tesis aynı anda talep ediyor mu, sıramız gecikir mi?",
+                cevap:
+                    "Sonbahar ve kış hazırlığı döneminde bölgede manlift talebi gerçekten artıyor, bu yüzden yıl başı görüşmesinde bu dönem için önceden kapasite ayırmayı öneririz. Önceden planlanan işler için gecikme riski çok düşüktür; ama son dakika, plan dışı taleplerde yoğun dönemde bekleme süresi olabilir. Mevcut bakım takviminizi bize erken paylaşmanız bu riski en aza indirir.",
+            },
+            {
+                soru: "Eklemli boom mu teleskopik boom mu kiralamalıyız, kararı siz mi veriyorsunuz?",
+                cevap:
+                    "Kararı birlikte veririz ama teknik değerlendirmeyi biz yaparız. Hedefe giden yolda bina köşesi, araç veya alçak yapı gibi engeller varsa eklemli boom önerilir çünkü kol bükülerek engelin arkasına ulaşabilir. Açık ve engelsiz bir mesafede uzak bir noktaya erişim gerekiyorsa teleskopik boom daha uygun olur. Bu değerlendirme iş tanımınız ve mümkünse saha fotoğrafı üzerinden yapılır, telefon görüşmesiyle net cevap vermeye çalışırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa OSB'deki bina dışı bakım işlerinin mevsimsel yoğunluğu ve avlu zemin çeşitliliği önceki bölge/hizmet sayfalarımızdaki firma gözleminin devamıdır; boom tipi ayrımı ve güvenlik mesafesi uygulaması firma pratiğidir.",
+    },
 };

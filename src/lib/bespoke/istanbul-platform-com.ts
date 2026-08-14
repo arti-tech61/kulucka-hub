@@ -2297,4 +2297,197 @@ export const ISTANBUL_PLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Platformların eğim ve zemin sınırları üretici güvenlik standartlarına dayanan genel bilgidir; bu iş türünün ana profilimiz olmadığı ve kapsam sınırları dürüstçe belirtilmiştir, TL tutarı verilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama — Fiyatı Belirleyen Kalemler",
+        giris:
+            "Makaslı platform, İstanbul'un iki yakasındaki sanayi sitesi ve kapalı depo işlerinde en sık talep edilen makine sınıfıdır; sebebi basittir — dikey yükseldiği için taşıdığı platform geniştir, iki kişi ve malzeme aynı anda çalışabilir, ve düz zeminde diğer sınıflara göre daha kararlıdır. Ama tam da bu yaygınlık yüzünden fiyat teklifleri en çok karışan alandır: bir tedarikçi 'makaslı platform' derken 6 metrelik dar şaseli bir iç mekan modelini kastederken, bir başkası 12 metrelik geniş şaseli dış mekan modelini kastedebilir ve ikisinin kira bedeli birbirine hiç benzemez. Bu sayfanın amacı, makaslı platform kiralamasında fiyatı gerçekten belirleyen dört kalemi — kapasite sınıfı, şase genişliği, zemin/lastik tipi ve süre tanımı — açık biçimde ayırmak ve bir teklifi değerlendirirken hangi satırın neyi temsil ettiğini göstermektir. Somut bir rakam vermiyoruz; çünkü doğru rakam sahanın koşuluna göre değişir ve rakamsız bir sayfa, karşılaştırma yönteminden daha kalıcı bir fayda sağlar. Okuduktan sonra elinizdeki iki teklifi yan yana koyup hangi kalemin gerçekten farklı, hangisinin sadece isim farkı olduğunu ayırt edebilmeniz hedeflenir.",
+        maddeler: [
+            {
+                baslik: "Kapasite sınıfı ilk ayrım noktasıdır",
+                metin:
+                    "Makaslı platformlar, taşıyabildiği kişi ve yük ağırlığına göre sınıflandırılır; tek kişilik hafif bir bakım işiyle iki kişi ve malzeme paletiyle çalışılan bir montaj işi aynı kapasite sınıfını gerektirmez. Teklifte 'makaslı platform' yazıp kapasiteyi belirtmeyen bir satır, aslında en önemli fiyat değişkenini gizliyor demektir — çünkü kapasite arttıkça hem makinenin gövdesi hem stabilizasyon sistemi büyür ve kira bedeli buna orantılı yükselir. İşinize gerçekte kaç kişi ve kaç kilogram malzeme çıkacağını netleştirmek, teklif almadan önce atılacak ilk adımdır.",
+            },
+            {
+                baslik: "Şase genişliği, girebileceğiniz yeri de fiyatı da belirler",
+                metin:
+                    "Dar şaseli modeller kapı ve koridor genişliğine göre tasarlanmıştır ve bu daralma, taşıma kapasitesinden fedakârlık gerektirir; bu yüzden dar şaseli bir makaslı platform, aynı yükseklikteki geniş şaseli bir modelden genellikle daha yüksek birim fiyatla kiralanır — 'daha küçük' göründüğü için daha ucuz olacağını varsaymak yanlış bir beklentidir. Sahanızın giriş genişliğini ve iç koridor ölçüsünü önceden vermek, hem doğru modelin önerilmesini hem de fiyatın neden o seviyede olduğunun anlaşılmasını sağlar.",
+            },
+            {
+                baslik: "İç mekan ve dış mekan lastiği aynı makine değildir",
+                metin:
+                    "Makaslı platformların bir kısmı iz bırakmayan poliüretan tekerlekle iç mekan zeminleri için, bir kısmı ise dolgu veya havalı lastikle dış mekan ve düzensiz zemin için üretilir; bu ikisi farklı envanter kalemidir ve fiyatları da farklıdır. Kapalı bir üretim salonunda dış mekan lastikli bir makine hem zemine zarar verir hem gereksiz yere pahalıya gelir; açık sahada iç mekan lastikli bir makine ise stabilite riski taşır. Teklif isterken zemin tipini (epoksi kaplı beton, asfalt, düzensiz toprak) belirtmek, doğru lastik tipinin ve dolayısıyla doğru fiyatın verilmesini sağlar.",
+            },
+            {
+                baslik: "Süre tanımı, gün başı fiyatı gizli şekilde değiştirir",
+                metin:
+                    "Makaslı platform kiralamalarında 'gün' bazen 8 saatlik mesai, bazen 24 saatlik takvim günü, bazen de teslim-iade arası geçen süre olarak tanımlanır; bu tanım farkı, aynı görünen iki teklifin gerçek maliyetini birbirinden ayırabilir. Kısa süreli (yarım gün, tek vardiya) işlerde bazı tedarikçiler minimum kiralama süresi uygular ve bu, düşük görünen günlük rakamı yükseltebilir. Teklifte süre tanımının açıkça yazılı olması, iki teklifi adil biçimde karşılaştırmanın ön koşuludur.",
+            },
+            {
+                baslik: "Nakliye, makaslı platformda genelde ayrı kalemdir",
+                metin:
+                    "Makaslı platformlar ağırlık ve boyut olarak taşıması nispeten kolay makinelerdir, ama yine de özel araç ve indirme-bindirme gerektirir; bu kalem çoğu zaman kira bedelinden ayrı yazılır ve mesafeye göre değişir. İstanbul'un iki yakası arasında geçiş gerektiren bir teslimat, aynı yaka içi bir teslimattan farklı bir nakliye kalemi doğurur — bu farkı 'gizli maliyet' olarak değil, teklifin ayrı ve görünür bir satırı olarak görmenizi öneririz; teklifte bu satır yoksa, nereden geldiği sonradan sorulmalıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform teklifini okurken kontrol listesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, bir makaslı platform teklifinde hangi bilginin hangi fiyat kalemini belirlediğini özetler; teklifte bu satırlardan biri eksikse, tedarikçiden netleştirmesini istemek makul bir adımdır.",
+                ],
+                tablo: {
+                    basliklar: ["Teklif satırı", "Neyi belirler", "Eksikse ne sorulmalı"],
+                    satirlar: [
+                        ["Kapasite (kişi+kg)", "Gövde ve stabilizasyon büyüklüğü", "Kaç kişi, ne kadar malzeme çıkacak"],
+                        ["Şase genişliği", "Girilebilecek alan ve birim fiyat", "Kapı/koridor ölçüsü paylaşıldı mı"],
+                        ["Lastik tipi", "İç/dış mekan uygunluğu", "Zemin tipi belirtildi mi"],
+                        ["Süre tanımı", "Gün başı fiyatın kapsamı", "8 saat mi 24 saat mi"],
+                        ["Nakliye", "Toplam maliyete eklenen sabit gider", "Mesafeye göre mi sabit mi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı yükseklikte farklı fiyat neden görülür",
+                paragraflar: [
+                    "Aynı erişim yüksekliğine sahip iki makaslı platform, kapasite ve şase genişliği farklı olduğunda birbirinden belirgin şekilde farklı fiyatlanabilir; bu durum çoğu zaman 'bir tedarikçi pahalı, diğeri ucuz' değil, iki farklı makine sınıfının karşılaştırılması anlamına gelir. Teklifleri karşılaştırırken sadece yükseklik sütununa bakmak yanıltıcıdır — kapasite ve şase genişliği aynıysa fiyat farkı gerçek bir farktır, değilse elma ile armut kıyaslanıyor demektir.",
+                    "Bu yüzden birden fazla teklif topluyorsanız, her tedarikçiden aynı üç bilgiyi (kapasite, şase genişliği, lastik tipi) istemenizi öneririz; bu üçü eşitlendiğinde geri kalan fiyat farkı, gerçekten karşılaştırılabilir bir farktır.",
+                ],
+            },
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama fiyata nasıl yansır",
+                paragraflar: [
+                    "Makaslı platformlar görece basit kumandaya sahip olduğu için çoğu işletme operatörsüz (kendi personeliyle) kiralamayı tercih eder; bu durumda kullanıcının temel eğitim belgesine sahip olması beklenir ve kira bedeline operatör kalemi eklenmez. Operatörlü kiralama istendiğinde ise bu, ayrı bir hizmet kalemi olarak teklife girer ve süreye bağlı hesaplanır. Hangi seçeneği istediğinizi teklif talebinde belirtmek, iki farklı fiyat yapısının karışmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile eklemli/teleskopik platform arasında fiyat açısından fark var mı?",
+                cevap:
+                    "Evet, bu iki sınıf farklı mekanik yapıya sahiptir ve genelde farklı fiyat bandındadır. Makaslı platform dikey yükselir ve düz zeminde geniş bir çalışma alanı sunar; eklemli veya teleskopik modeller ise yatay erişim (çıkıntı, engel aşma) gerektiren işler için tasarlanmıştır ve daha karmaşık bir mekanizmaya sahiptir. İşinizde sadece dikey yükseklik yeterliyse makaslı platform genelde daha uygun bir seçenektir; yatay erişim gerekiyorsa doğru sınıf farklıdır ve fiyat karşılaştırması da buna göre yapılmalıdır.",
+            },
+            {
+                soru: "Dar şaseli model daha küçük olduğu için daha mı ucuz olur?",
+                cevap:
+                    "Genelde hayır, çoğu zaman tam tersi geçerlidir. Dar şase, kapı ve koridor genişliğine sığmak için tasarlanmıştır ve bu daralmayı sağlayan mühendislik, standart genişlikteki bir modelden daha maliyetlidir; bu yüzden dar şaseli makaslı platformlar birim fiyat olarak genellikle standart modellerden daha yüksek kiralanır. 'Küçük = ucuz' varsayımıyla teklif istemek yerine, girmeniz gereken alanın gerçek ölçüsünü paylaşıp doğru modelin fiyatını sormak daha güvenilir bir yoldur.",
+            },
+            {
+                soru: "İç mekanda dış mekan lastikli makine kullanılabilir mi, fiyatı değişir mi?",
+                cevap:
+                    "Teknik olarak çoğu zaman mümkündür ama önerilmez; havalı veya dolgu lastikli bir makine kapalı mekan zeminlerinde iz bırakabilir ve bazı tesisler bunu kabul etmez. Fiyat açısından da iki lastik tipi farklı envanter kalemidir, dolayısıyla birbirinin yerine geçtiğinde otomatik bir tasarruf sağlamaz. Doğru yaklaşım, zemin tipini baştan belirtip o zemine uygun lastikli makinenin fiyatını almaktır.",
+            },
+            {
+                soru: "Yarım günlük bir iş için tam gün ücreti mi ödenir?",
+                cevap:
+                    "Bu, tedarikçinin minimum kiralama süresi politikasına bağlıdır ve teklif isterken netleştirilmesi gereken bir konudur. Bazı tedarikçiler yarım gün için ayrı bir tarife uygularken, bazıları belirli bir süre altını tam gün olarak fiyatlandırır. İşin süresi kısa ve netse, teklif talebinde bunu açıkça belirtip yarım gün tarifesi olup olmadığını sormak, sürprizle karşılaşmamanın en basit yoludur.",
+            },
+            {
+                soru: "Kapasite belirtmeden teklif istersem ne olur?",
+                cevap:
+                    "Tedarikçi genelde ortalama bir kapasite varsayarak teklif verir ve bu, sahada işe yetmeyen bir makine ile karşılaşma riskini taşır; yetmediğinde ikinci bir sevkiyat veya daha büyük makineye geçiş gerekir, bu da ilk teklifte görünmeyen bir ek maliyet doğurur. Bu riski önlemek için, teklif istemeden önce kaç kişinin ve ne kadar malzemenin platforma çıkacağını netleştirmenizi öneririz — bu bilgi, doğru kapasite sınıfının ve dolayısıyla doğru fiyatın belirlenmesini sağlar.",
+            },
+            {
+                soru: "İki teklif geldi, ikisi de 'makaslı platform' yazıyor ama fiyatlar çok farklı, neden olabilir?",
+                cevap:
+                    "Bu genelde kapasite, şase genişliği veya lastik tipinden en az birinin farklı olduğu anlamına gelir; 'makaslı platform' genel bir isimdir ve bu isim altında onlarca farklı model bulunur. İki teklifi karşılaştırmadan önce her ikisinden de kapasite, şase genişliği ve lastik tipi bilgisini istemenizi öneririz — bu üç bilgi eşitlendiğinde fiyat farkı ya kaybolur ya da gerçek bir fark olarak ortaya çıkar; ikisi de mümkündür ve ancak bu bilgilerle ayırt edilebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform sınıflandırması (kapasite, şase genişliği, lastik tipi) genel makine kiralama pratiğine dayanan bilgidir; TL tutarı verilmemiştir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama — Teklifleri Karşılaştırmanın Doğru Yolu",
+        giris:
+            "'Manlift' kelimesi İstanbul'da günlük dilde tüm yükseklikte çalışma platformlarını kapsayan bir şemsiye terim hâline gelmiştir — arayan kişi bazen makaslı, bazen eklemli, bazen teleskopik, bazen de sepetli örümcek bir modeli kastediyor olabilir, ama hepsine 'manlift' diyor. Bu genel kullanım, teklif toplama aşamasında ciddi bir karışıklığa yol açar: aynı 'manlift kiralama' aramasına cevap veren üç tedarikçi, birbirinden tamamen farklı makine sınıflarının fiyatını verebilir ve arayan kişi bu farkın nereden geldiğini anlayamaz. Bu sayfa, manlift arayışında olan bir işletmenin önce hangi sınıfa ihtiyacı olduğunu netleştirmesine, sonra da eline gelen teklifleri gerçekten karşılaştırılabilir hâle getirmesine yardımcı olmak için yazıldı. Somut bir kiralama rakamı vermiyoruz; bunun yerine fiyatı oluşturan yapı taşlarını (sınıf seçimi, erişim tipi, süre, nakliye, operatör) tek tek açıp, iki farklı tedarikçiden gelen teklifi yan yana koyduğunuzda hangi satırın gerçekten farklı olduğunu görebilmenizi hedefliyoruz.",
+        maddeler: [
+            {
+                baslik: "Önce sınıf, sonra fiyat sorusu gelir",
+                metin:
+                    "Manlift arayışının en sık yapılan hatası, sınıfı netleştirmeden doğrudan fiyat sormaktır; oysa dikey yükselme yeterliyse makaslı, engel aşma veya yatay erişim gerekiyorsa eklemli/teleskopik, dar ve engebeli alanda hareket gerekiyorsa sepetli örümcek modeli devreye girer ve bu dört sınıfın fiyat bandı birbirinden belirgin şekilde ayrılır. İşin ne gerektirdiğini (yükseklik, yatay erişim mesafesi, zemin durumu) tarif ettiğinizde, doğru sınıf önerilir ve fiyat sorusu ancak bundan sonra anlamlı hâle gelir.",
+            },
+            {
+                baslik: "Erişim tipi teklifte açıkça yazmalı",
+                metin:
+                    "Düzgün bir manlift teklifinde makinenin sadece markası veya erişim yüksekliği değil, erişim tipi de (dikey/makaslı, eklemli-boom, teleskopik, sepetli örümcek) belirtilir; çünkü aynı yükseklikteki iki farklı erişim tipi çok farklı fiyatlanır. Teklifte sadece '18 metre manlift' yazıp erişim tipini belirtmeyen bir satır, karşılaştırma yaparken sizi yanıltabilir — 18 metrelik bir teleskopik model ile 18 metrelik bir makaslı model aynı işi görmez ve aynı fiyata da gelmez.",
+            },
+            {
+                baslik: "Süre ve minimum kiralama tanımı teklifler arası en sık kayan kalem",
+                metin:
+                    "Manlift kiralamalarında bazı tedarikçiler günlük, bazıları haftalık minimum uygular; bazıları hafta sonu teslim-iadesini ekstra gün sayar, bazıları saymaz. Bu tanım farkları, görünürdeki günlük rakamdan bağımsız olarak toplam maliyeti değiştirir. İki teklifi karşılaştırırken sadece 'günlük X TL' satırına değil, minimum süre ve hafta sonu/tatil günü tanımına da bakmak, gerçek toplam maliyeti görmenin tek yoludur.",
+            },
+            {
+                baslik: "Nakliye, İstanbul'un iki yaka gerçeğinde ayrı bir kalem olarak okunmalı",
+                metin:
+                    "Büyük ve ağır manlift sınıflarında (yüksek teleskopik veya geniş şaseli eklemli modeller) nakliye özel araç ve bazen refakat gerektirir; bu kalem kira bedelinden bağımsızdır ve mesafeye göre değişir. Aynı ilçe içi bir teslimatla yaka değiştiren bir teslimatın nakliye kalemi birbirine eşit olmaz — bu farkı teklifte ayrı bir satır olarak görmek, toplam maliyeti önceden kestirebilmenin ön koşuludur.",
+            },
+            {
+                baslik: "Operatör kalemi, sınıfa göre zorunlu ya da opsiyonel olabilir",
+                metin:
+                    "Bazı büyük ve karmaşık manlift sınıflarında operatörlü kiralama fiilen zorunlu hâle gelir (makinenin güvenli kullanımı özel eğitim gerektirir), bazı basit sınıflarda ise müşteri kendi eğitimli personeliyle çalışabilir. Bu ayrım teklife yansımalıdır — operatör kalemi bazen kira bedeline gömülüdür, bazen ayrı yazılır. Hangisi olduğunu sormak, iki teklifi adil karşılaştırmanın gerekli bir adımıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift sınıflarını hızlı ayırt etme tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, 'manlift' şemsiyesi altındaki dört ana sınıfı hangi iş ihtiyacına göre seçmeniz gerektiğini özetler; doğru sınıfı belirledikten sonra fiyat teklifi istemek, karşılaştırmayı çok daha net hâle getirir.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "En uygun olduğu iş", "Fiyatı etkileyen ek kalem"],
+                    satirlar: [
+                        ["Makaslı (dikey)", "Düz zeminde geniş platform gerektiren iç işler", "Kapasite, şase genişliği"],
+                        ["Eklemli (boom)", "Engel aşma, yatay+dikey erişim", "Erişim mesafesi, açı kapasitesi"],
+                        ["Teleskopik", "Uzun mesafeli düz erişim, yüksek işler", "Maksimum yatay uzanım"],
+                        ["Sepetli örümcek", "Dar geçit, hassas/kapalı alan", "Taşınabilirlik, kurulum süresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı isimle gelen tekliflerin fiyatı neden farklı çıkar",
+                paragraflar: [
+                    "İki tedarikçiden 'manlift' başlığıyla gelen teklifler, sınıf ve erişim tipi netleşmeden karşılaştırıldığında yanıltıcı olur; biri makaslı bir modelin fiyatını verirken diğeri teleskopik bir modelin fiyatını vermiş olabilir ve ikisi arasındaki fark bir 'pahalılık' değil, bir 'farklı ürün' meselesidir. Bu yüzden teklif isterken 'manlift' yerine ihtiyacınızı (yükseklik, yatay erişim, zemin durumu) tarif etmeniz, hem doğru sınıfın önerilmesini hem de gelen tekliflerin gerçekten kıyaslanabilir olmasını sağlar.",
+                    "Kıyaslama yaparken önerimiz şudur: her iki teklifte de sınıf, erişim yüksekliği, yatay erişim mesafesi ve süre tanımı aynıysa, geri kalan fiyat farkı gerçek bir farktır ve bu noktada tercih nakliye süresi, hizmet geçmişi veya müsaitlik gibi diğer kriterlere göre yapılabilir.",
+                ],
+            },
+            {
+                baslik: "Teklif talebinde paylaşılması gereken minimum bilgi seti",
+                paragraflar: [
+                    "Doğru ve karşılaştırılabilir bir manlift teklifi almak için paylaşılması gereken temel bilgiler şunlardır: ulaşılması gereken yükseklik, varsa yatay erişim mesafesi, çalışma alanının zemin tipi ve genişliği, işin süresi ve tercih edilen operatör düzeni (operatörlü/operatörsüz). Bu bilgiler eksik paylaşıldığında tedarikçi varsayımla teklif verir ve bu varsayım sahada tutmayabilir; tam bilgiyle istenen bir teklif, hem daha isabetli hem de daha az sürprizli olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "'Manlift' kelimesi tam olarak neyi kapsıyor, sadece belirli bir makine tipi mi?",
+                cevap:
+                    "Hayır, günlük kullanımda 'manlift' genelde tüm yükseklikte çalışma platformlarını (makaslı, eklemli-boom, teleskopik, sepetli örümcek) kapsayan genel bir isim olarak kullanılır; teknik olarak bu dört sınıf birbirinden farklı mekanizmalara ve fiyat bantlarına sahiptir. Bu yüzden 'manlift kiralamak istiyorum' derken aslında hangi sınıfa ihtiyacınız olduğunu netleştirmek, hem doğru makinenin gelmesini hem de fiyatın işinize uygun olmasını sağlar.",
+            },
+            {
+                soru: "Hangi manlift sınıfının bana uygun olduğunu nasıl anlarım?",
+                cevap:
+                    "Belirleyici üç soru vardır: sadece dikey yükseklik mi yeterli, yoksa bir engelin üzerinden veya yanından yatay olarak da erişmeniz mi gerekiyor; çalışma alanı düz mü yoksa engebeli/dar mı; ve zemin ne kadar sağlam. Sadece dikey yükseklik yeterliyse makaslı, yatay erişim gerekiyorsa eklemli veya teleskopik, dar ve hassas bir alan söz konusuysa sepetli örümcek model genelde en uygun seçenektir. Bu üç soruyu netleştirip paylaştığınızda size doğru sınıf önerilir.",
+            },
+            {
+                soru: "Fiyat almadan önce sınıf belirlemek neden bu kadar önemli?",
+                cevap:
+                    "Çünkü manlift sınıfları arasındaki fiyat farkı, aynı sınıf içindeki tedarikçiler arasındaki fiyat farkından çoğu zaman daha büyüktür. Sınıf belirlemeden alınan bir teklif, aslında yanlış bir ürünle karşılaştırma yapmanıza yol açabilir — örneğin bir teleskopik model teklifini bir makaslı model teklifiyle kıyaslayıp 'pahalı' demek, aslında iki farklı ürünü kıyaslamak anlamına gelir. Önce sınıf, sonra fiyat sırası, doğru karşılaştırmanın ön şartıdır.",
+            },
+            {
+                soru: "Operatörlü kiralama her manlift sınıfında zorunlu mu?",
+                cevap:
+                    "Hayır, sınıfa ve makinenin karmaşıklığına göre değişir. Görece basit kumandalı sınıflarda (bazı makaslı modeller gibi) müşteri kendi eğitimli personeliyle operatörsüz çalışabilir; daha karmaşık ve büyük sınıflarda ise güvenli kullanım için operatörlü kiralama fiilen gerekli hâle gelebilir. Hangi durumun sizin için geçerli olduğunu, ihtiyacınızı tarif ettiğinizde netleştiririz; bu bilgi teklife de yansır.",
+            },
+            {
+                soru: "Aynı yükseklikte iki farklı sınıf teklif edildi, hangisini seçmeliyim?",
+                cevap:
+                    "Bu durumda karar yükseklikten değil, yatay erişim ihtiyacından ve zemin koşulundan çıkmalıdır. Yalnızca dikey yükseklik yeterliyse ve zemin düzse, genelde daha ekonomik olan makaslı sınıf tercih edilebilir; bir engelin üzerinden veya yanından erişim gerekiyorsa, yükseklik aynı olsa da eklemli veya teleskopik sınıf tek işlevsel seçenek olabilir. Fiyat farkı burada bir tercih meselesi değil, işlevsellik meselesidir.",
+            },
+            {
+                soru: "Teklif isterken 'manlift lazım' demek yeterli mi, yoksa daha fazla bilgi mi vermeliyim?",
+                cevap:
+                    "Sadece 'manlift lazım' demek, size varsayıma dayalı ve muhtemelen isabetsiz bir teklif getirir. Ulaşılması gereken yükseklik, varsa yatay erişim mesafesi, zeminin durumu, işin süresi ve operatör tercihinizi paylaştığınızda, hem doğru sınıf önerilir hem de aldığınız teklif sahada gerçekten karşılığını bulur. Bu detayları önceden vermek, sonradan 'bu makine yetmedi' diye ikinci bir sevkiyat yapma riskini de azaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift sınıflandırması (makaslı, eklemli, teleskopik, sepetli örümcek) genel yükseklik platformu kiralama pratiğine dayanan bilgidir; TL tutarı verilmemiştir.",
+    },
 };

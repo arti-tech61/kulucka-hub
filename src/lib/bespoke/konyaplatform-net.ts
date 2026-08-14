@@ -2193,4 +2193,202 @@ export const KONYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Konya ovasının karasal iklimi ve mevsimsel toprak nem değişimi kamuya açık coğrafi bilgidir; zemin değerlendirme yöntemi ve lastik-tahrik seçimi firma pratiğidir. Belirli arazi veya rakam iddia edilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama: Konya Tarım Makineleri Sanayinde Doğru Model Seçimi",
+        giris:
+            "Makaslı platform, dikey doğrultuda düz yukarı çıkan, geniş sepet tabanıyla hem operatör hem malzeme taşıyabilen ve tek bir dikey erişim hattı yeterli olduğunda en verimli çözümü sunan platform sınıfıdır. Konya'nın tarım makineleri sanayi dokusunda bu sınıf, tek bir iş tanımına sığmaz — aynı hafta içinde bir imalat holünün 6 metrelik aydınlatma bakımı, bir idari binanın asma tavan işi, bir bayilik showroom'unun vitrin tavanı ve açık bir depo sahasının yükleme kapısı üstü tamiratı aynı talep havuzuna düşebilir. Bu çeşitlilik, tek bir 'standart makaslı' cevabını yetersiz kılar; doğru seçim dört eksenle belirlenir: güç kaynağı (elektrikli mi, dizel/LPG mi), şase genişliği (standart mı, dar mı), tahrik düzeni (2 tekerlek mi, 4 tekerlek mi) ve taşıma kapasitesi (kaç kişi, ne kadar malzeme). Bu sayfa, Konya OSB ve çevresindeki tarım makinesi ekosisteminde bu dört eksenin nasıl değerlendirildiğini, hangi iş tipinin hangi kombinasyonu gerektirdiğini ve teslimat sürecinin nasıl işlediğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Elektrikli mi, dizel/LPG mi: ortamın belirlediği seçim",
+                metin:
+                    "Kapalı imalat holü, depo veya showroom gibi egzozun kabul edilemeyeceği ortamlarda elektrikli (akülü) makaslı standarttır — sessiz çalışır, egzoz üretmez ve tekerlek izi bırakma riski düşüktür. Açık sahada, dış cephe işlerinde veya toprak-çakıl zeminde ise dizel ya da LPG'li modeller tercih edilir; bunlar daha uzun çalışma süresi ve zemin dengesizliğine karşı daha güçlü tahrik sunar. Bir işin hem iç hem dış kısmı varsa, iki ayrı makine mi yoksa tek bir modelin her iki ortamda da çalışıp çalışamayacağı, işin kapalı-açık dağılımına göre teklif aşamasında netleştirilir.",
+            },
+            {
+                baslik: "Standart şase mi, dar şase mi: kapı ve koridor genişliği",
+                metin:
+                    "İmalat holündeki bir çelik kapı, bir depo koridoru veya bir showroom'un giriş kapısı, standart şaseli bir makaslının geçemeyeceği kadar dar olabilir; bu durumda dar şaseli elektrikli model tek çözümdür. Kapı ve koridor genişliği ölçülürken yalnızca net geçiş genişliği değil, kapı kasası çıkıntısı ve zemindeki eşik yüksekliği de dikkate alınır — bir kapı 'geçer gibi' görünüp eşikte takılabilir. Konya'daki fabrika ve depo binalarının çoğu farklı dönemlerde inşa edildiği için kapı ölçüleri standardize değildir; bu yüzden her keşifte kapı genişliği ayrıca doğrulanır.",
+            },
+            {
+                baslik: "Taşıma kapasitesi: kaç kişi, ne kadar malzeme",
+                metin:
+                    "Tek operatörün elinde bir aletle çalıştığı bir aydınlatma değişiminde standart kapasite yeterlidir; ama iki kişinin birlikte çalıştığı bir çelik konstrüksiyon montaj işinde veya sepete boru, kablo tamburu gibi ağır malzeme çıkarılan bir tesisatta, sepet yük kapasitesi işin gerçek ağırlığına göre hesaplanır. Kapasiteyi aşan bir yükleme, platformun stabilitesini ve garanti şartlarını doğrudan etkiler; bu yüzden sepete çıkacak toplam ağırlık (kişi + malzeme + alet) iş tanımıyla birlikte önceden sorulur ve buna göre sınıf belirlenir.",
+            },
+            {
+                baslik: "2 tekerlek mi, 4 tekerlek tahrikli mi: zemin farkı",
+                metin:
+                    "Düz ve sağlam beton zeminde (imalat holü, depo, showroom) standart 2 tekerlek tahrikli makaslı yeterlidir ve maliyet açısından daha uygundur. Açık sahada, hafif eğimli veya gevşek zeminde ise 4 tekerlek tahrikli modeller tercih edilir; bu, hem tırmanma gücü hem de zemin tutuşu açısından fark yaratır. Konya OSB çevresindeki bazı tesislerin açık depolama alanları henüz tam asfaltlanmamış olabilir — bu tür sahalarda zemin fotoğrafı istenir ve tahrik kararı buna göre verilir.",
+            },
+            {
+                baslik: "Operatör sertifikası ve teslim-kurulum süreci",
+                metin:
+                    "Makaslı platform operatörünün geçerli bir platform kullanım belgesine sahip olması beklenir; belge kontrolü teslimat anında yapılır ve belgesiz kullanım için operatörlü kiralama seçeneği sunulur. Teslimat, makinenin TIR veya kamyonet üzerinde sahaya ulaştırılması, indirme rampasının uygunluğunun kontrolü ve kısa bir kullanım-güvenlik brifingiyle tamamlanır; bu brifing özellikle ilk kez kiralayan işletmeler için önemlidir çünkü acil durdurma ve sepet limit uyarılarının yeri sahada gösterilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş ortamına göre makaslı platform sınıfı eşleme tablosu",
+                paragraflar: [
+                    "Konya tarım makineleri sanayi bölgesinde sık karşılaştığımız iş ortamlarını, önerilen makas sınıfıyla birlikte listeledik. Tablo, talep telefonunda hızlı bir ön fikir vermek içindir; kesin sınıf keşifte netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş ortamı", "Önerilen sınıf", "Güç kaynağı", "Tahrik"],
+                    satirlar: [
+                        ["İmalat holü (dar kapı)", "Dar şase makaslı", "Elektrikli", "2 tekerlek"],
+                        ["İmalat holü (geniş kapı)", "Standart makaslı", "Elektrikli", "2 tekerlek"],
+                        ["Depo/showroom", "Dar veya standart şase", "Elektrikli", "2 tekerlek"],
+                        ["Açık saha, düz beton", "Standart makaslı", "Dizel/LPG", "2 tekerlek"],
+                        ["Açık saha, eğimli/gevşek zemin", "Standart makaslı", "Dizel", "4 tekerlek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yükseklik bandı ile platform boyu ilişkisi",
+                paragraflar: [
+                    "Makaslı platform seçiminde yalnızca maksimum çalışma yüksekliğine bakmak yeterli değildir; platformun kapalı hâldeki boyu ve genişliği de işin gerçekleştiği alanla uyumlu olmalıdır. Örneğin 10 metre çalışma yüksekliğine ulaşan bir makaslı, 6 metreye ulaşan bir modelden daha uzun ve daha geniş bir şaseye sahiptir; bu fark, dar bir imalat holünde manevra alanını doğrudan etkiler.",
+                    "Bu yüzden keşifte hem hedef kotu hem de makinenin manevra yapacağı zeminin gerçek boyutları birlikte değerlendirilir — yüksekliği tutan ama manevra edemeyen bir makine, işi çözmez.",
+                ],
+            },
+            {
+                baslik: "Kiralama süresi ve lojistik planlaması",
+                paragraflar: [
+                    "Kısa süreli (1-3 günlük) işlerde makine genellikle aynı gün veya ertesi gün sahaya ulaştırılır; uzun süreli kiralamalarda (haftalık-aylık) teslimat programı işletmenin kendi takvimine göre esnetilebilir. Nakliye, makinenin boyutuna göre kamyonet veya TIR ile yapılır; sahaya iniş rampasının eğimi ve genişliği, özellikle büyük makaslı modellerinde önceden kontrol edilir.",
+                    "Konya OSB içindeki fabrikalar arası mesafeler genellikle kısa olduğu için aynı gün içinde birden fazla sahaya sevkiyat mümkündür; birden fazla lokasyonunuz varsa bunu talep sırasında belirtmeniz, sevkiyat sırasını optimize etmemizi sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Elektrikli mi dizel mi kiralamalıyız, ikisi arasındaki fark ne?",
+                cevap:
+                    "Kapalı bir imalat holü, depo veya showroom içindeyseniz elektrikli model standarttır — sessiz çalışır ve egzoz üretmez. Açık sahada veya toprak-çakıl zeminde ise dizel/LPG modeller daha uzun çalışma süresi ve daha güçlü tahrik sunar. İşinizin kapalı mı açık mı olduğunu belirtin, doğru güç kaynağını birlikte netleştirelim.",
+            },
+            {
+                soru: "Dar şaseli makaslı ne zaman gerekir?",
+                cevap:
+                    "Kapı, koridor veya raf aralığınızın net genişliği standart şaseden dar ise dar şaseli elektrikli model gerekir. Ölçüm yaparken yalnızca kapı genişliğine değil, kapı kasası çıkıntısına ve zemindeki eşik yüksekliğine de dikkat edin — bir kapı görünüşte geçer gibi dursa da eşikte takılabilir. Net genişliği ve eşik durumunu fotoğrafla paylaşın, uygun şaseyi netleştirelim.",
+            },
+            {
+                soru: "Sepete iki kişi ve malzeme çıkaracağız, standart kapasite yeterli mi?",
+                cevap:
+                    "Bu, sepete çıkacak toplam ağırlığa bağlıdır — kişi sayısı, malzeme ve alet ağırlığı birlikte hesaplanır. Kapasiteyi aşan bir yükleme platformun stabilitesini ve garanti şartlarını etkiler, bu yüzden varsayımla ilerlemeyiz. İşinizin gerektirdiği toplam yükü paylaşın, buna uygun kapasitedeki sınıfı önerelim.",
+            },
+            {
+                soru: "Açık sahamız tam asfalt değil, 4 tekerlek tahrikli mi gerekir?",
+                cevap:
+                    "Eğimli veya gevşek zeminlerde 4 tekerlek tahrikli model, hem tırmanma gücü hem zemin tutuşu açısından standart 2 tekerlek tahrikliden daha güvenlidir. Sahanızın zemin durumunu (toprak, çakıl, hafif eğim) fotoğrafla paylaşın; düz ve sağlam bir zeminse standart tahrik yeterli olabilir, aksi halde 4 tekerlek tahrikli öneririz.",
+            },
+            {
+                soru: "Operatörümüzün platform belgesi yok, operatörlü kiralama yapabilir misiniz?",
+                cevap:
+                    "Evet, operatörlü kiralama seçeneğimiz var; bu durumda belgeli bir operatör makineyle birlikte gönderilir. Kendi operatörünüzü kullanmak istiyorsanız, geçerli platform kullanım belgesinin teslimat anında kontrol edileceğini belirtelim. Hangi seçeneği tercih ettiğinizi belirtin, ona göre planlayalım.",
+            },
+            {
+                soru: "Konya OSB içinde aynı gün birden fazla sahaya makine gönderebilir misiniz?",
+                cevap:
+                    "Evet, OSB içindeki fabrikalar arası mesafeler genellikle kısa olduğu için aynı gün birden fazla lokasyona sevkiyat mümkündür. Tüm sahalarınızın adreslerini ve tercih ettiğiniz sırayı paylaşın, sevkiyat programını buna göre optimize edelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform sınıflandırması (güç kaynağı, şase genişliği, tahrik tipi, kapasite) sektör geneli teknik bilgidir; Konya OSB'deki kullanım dağılımı ve lojistik pratiği firma tecrübesidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: Konya Tarım Makineleri Sanayinde Yükseklik ve Erişim Sınıfı Seçimi",
+        giris:
+            "Manlift, halk arasında sepetli yükseklik platformlarının genel adı olarak kullanılır ama bu genel adın altında birbirinden oldukça farklı üç makine ailesi durur: teleskopik (düz) bom, eklemli bom ve dikey direkli personel lift; bunlara saha koşuluna göre örümcek (mini paletli) manlift de eklenir. Konya'nın tarım makineleri sanayi bölgesinde manlift talebi genellikle 'yüksek bir yere çıkmamız gerekiyor' cümlesiyle başlar, ama doğru makine bu cümlenin arkasındaki geometriye bağlıdır — hedef dikey mi yatay mı, aradan bir engel geçiliyor mu, zemin düz mü yoksa düzensiz mi, çevrede enerji hattı var mı. Çelik konstrüksiyon çatı mahyaları, silobas dış cepheleri, elevatör kuleleri ve fabrika dış aydınlatma direkleri gibi hedeflerin her biri farklı bir erişim geometrisi ister. Bu sayfa, dört manlift ailesinin birbirinden farkını, hangi hedefin hangi aileyi gerektirdiğini ve enerji hattı yakınında çalışmanın getirdiği ek kuralı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Teleskopik (düz) bom: uzak ve yüksek hedefler",
+                metin:
+                    "Teleskopik bom, kollarını doğrusal olarak dışarı uzatır ve bu sayede hem en yüksek çalışma noktalarına hem de park noktasından en uzak hedeflere ulaşır. Çelik konstrüksiyon çatı mahyası, yüksek bir silobas'ın tepe noktası veya geniş bir açık sahanın ortasındaki tek bir direk gibi 'engelsiz ama uzak' hedeflerde bu aile öne çıkar. Dezavantajı, kollarının doğrusal hareketi nedeniyle eğri veya dolanık bir güzergâh gerektiren hedeflerde eklemli boma göre daha az esnek olmasıdır.",
+            },
+            {
+                baslik: "Eklemli bom: engelin arkasındaki veya üstündeki hedefler",
+                metin:
+                    "Eklemli bomun art arda gelen kollarıyla yukarı çıkıp yatay uzanma yeteneği, hedefin önünde bir boru hattı, bir çatı çıkıntısı veya sabit bir ekipman gövdesi olduğunda devreye girer — makine engelin üstünden veya yanından dolanarak hedefe ulaşır. Fabrika dış cephesindeki bir çıkma, bir saçak altı aydınlatma noktası veya bir yapı elemanının arkasında kalan bir tesisat, düz bomun ulaşamayacağı ama eklemli bomun rahatça çözdüğü tipik hedeflerdir.",
+            },
+            {
+                baslik: "Dikey direkli personel lift: dar iç mekân ve alçak tavan",
+                metin:
+                    "Dikey direkli personel lift, yalnızca dikey doğrultuda hareket eder ve hem boyut olarak hem de manevra ihtiyacı olarak bom ailelerinden çok daha kompakttır; dar bir ofis koridorunda, alçak tavanlı bir asma kat altında veya standart bir kapıdan geçmesi gereken iç mekân işlerinde tercih edilir. Yatay erişimi olmadığı için hedefin tam altına veya çok yakınına park edilebilmesi şarttır — bu makine, engelli veya uzak hedefler için değil, tam anlamıyla dikey ve erişilebilir hedefler için tasarlanmıştır.",
+            },
+            {
+                baslik: "Örümcek (mini paletli) manlift: düzensiz zemin ve dar geçiş",
+                metin:
+                    "Örümcek manlift, paletli tabanı ve katlanabilir ayaklarıyla hem düzensiz-eğimli zeminde denge kurabilir hem de standart bir kapı genişliğinden geçip iç mekâna taşınabilir; bu iki özelliği bir arada sunan tek aile budur. Fabrika içinde başlayıp dışarıdaki düzensiz bir sahaya devam eden bir iş, ya da bahçe/depo arası engebeli bir güzergâh üzerindeki bir hedef, bu ailenin tipik kullanım alanıdır. Kapasitesi büyük bomlara göre daha sınırlıdır; bu yüzden ağır malzeme taşıma gereken işlerde ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Enerji hattı yakınında güvenlik mesafesi",
+                metin:
+                    "Konya OSB ve çevresindeki fabrikaların çoğunda dış saha ve çatı çevresinde orta-yüksek gerilim hatları geçer; bom veya sepetin bu hatlara olan mesafesi, çalışma öncesi işletmenin elektrik sorumlusuyla birlikte netleştirilir ve mesafe hiçbir zaman tahminle geçilmez. Hat aktif olduğu sürece güvenli mesafe korunur; hattın geçici olarak enerjisiz alınması mümkünse bu, işletmeyle birlikte planlanır. Bu konuda varsayım yapılmaz — hat konumu ve gerilim seviyesi bilinmeden teklif verilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hedefe göre manlift ailesi eşleme tablosu",
+                paragraflar: [
+                    "Konya tarım makineleri sanayi bölgesinde sık karşılaştığımız yükseklik hedeflerini, önerilen manlift ailesiyle birlikte listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Erişim ihtiyacı", "Önerilen aile", "Tipik yükseklik bandı"],
+                    satirlar: [
+                        ["Çelik konstrüksiyon çatı mahyası", "Uzak, engelsiz", "Teleskopik (düz) bom", "18-32 m"],
+                        ["Silobas tepe noktası", "Uzak, engelsiz", "Teleskopik (düz) bom", "18-24 m"],
+                        ["Çatı altı saçak/tesisat", "Engelin arkası", "Eklemli bom", "12-24 m"],
+                        ["Ofis/idari bina iç tavanı", "Dar koridor, alçak tavan", "Dikey direkli personel lift", "6-12 m"],
+                        ["Engebeli açık saha, dar kapı geçişli", "Düzensiz zemin", "Örümcek (mini) manlift", "12-20 m"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yatay ve dikey erişim hesabının birlikte değerlendirilmesi",
+                paragraflar: [
+                    "Manlift seçiminde en sık yapılan hata, yalnız maksimum dikey çalışma yüksekliğine bakmaktır; oysa park noktası ile hedef arasındaki yatay mesafe çoğu zaman en az dikey mesafe kadar belirleyicidir. Bir hedefe park noktasından birkaç metre yatay uzaklıktan ulaşmak gerekiyorsa, dikey yüksekliği yeterli ama yatay menzili kısıtlı bir model işi çözmez.",
+                    "Bu yüzden keşifte hedef kotu, park noktasına olan yatay mesafe ve varsa aradaki engelin konumu birlikte ölçülür; bu üç ölçü üretici çalışma diyagramıyla karşılaştırılarak aile ve model birlikte belirlenir.",
+                ],
+            },
+            {
+                baslik: "Büyük bom nakliyesi ve saha hazırlığı",
+                paragraflar: [
+                    "Teleskopik ve eklemli bomların büyük modelleri, özel platformlu TIR ile taşınır ve sahaya iniş için düz, sağlam bir zemin ile yeterli manevra alanı gerekir; alçak bir kapı veya dar bir giriş yolu varsa bu, nakliye planlamasından önce bildirilmelidir. Küçük ölçekli örümcek manlift ise daha küçük araçlarla taşınabildiği için dar giriş yollu sahalarda lojistik açıdan daha esnektir.",
+                    "Saha hazırlığında ayrıca düşük gerilim hatları, ağaç dalları veya sabit tesisat gibi TIR'ın veya bomun geçiş güzergâhını kısıtlayabilecek unsurlar önceden sorulur; bu bilgi eksikse sahaya varış anında gecikme yaşanabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Teleskopik bom mu eklemli bom mu, ikisi arasındaki fark tam olarak ne?",
+                cevap:
+                    "Teleskopik bom kollarını doğrusal uzatır ve en yüksek ve en uzak hedeflere ulaşır; eklemli bom ise art arda gelen kollarıyla yukarı çıkıp yatay uzanarak bir engelin üstünden veya yanından hedefe ulaşabilir. Hedefiniz açık ve önünde engel yoksa teleskopik, hedefinizin önünde bir yapı elemanı veya boru hattı gibi bir engel varsa eklemli bom öneririz. Hedefin fotoğrafını ve çevresindeki engelleri paylaşın, doğru aileyi netleştirelim.",
+            },
+            {
+                soru: "Dar bir ofis koridorunda çalışacağız, hangi manlift sığar?",
+                cevap:
+                    "Dar iç mekân ve alçak tavanlı işlerde dikey direkli personel lift genellikle en uygun çözümdür — boyut olarak kompakttır ve standart bir kapıdan geçebilir. Yatay erişimi olmadığı için hedefin tam altına veya çok yakınına park edilebilmesi gerekir. Koridor genişliğini ve hedef kotunu paylaşın, uygun modeli netleştirelim.",
+            },
+            {
+                soru: "Sahamız düz değil, hem içeride hem dışarıda engebeli bir güzergâh var; ne önerirsiniz?",
+                cevap:
+                    "Bu tanım örümcek (mini paletli) manliftin tipik kullanım alanıdır — paletli tabanı düzensiz-eğimli zeminde denge kurar, katlanabilir ayakları sayesinde standart bir kapı genişliğinden de geçebilir. Kapasitesi büyük bomlara göre sınırlı olduğu için ağır malzeme taşıma ihtiyacınız varsa bunu ayrıca belirtin. Güzergâhın fotoğrafını paylaşın, uygunluğunu birlikte değerlendirelim.",
+            },
+            {
+                soru: "Çatımızın yakınında elektrik hattı var, çalışabilir miyiz?",
+                cevap:
+                    "Hattın konumu ve gerilim seviyesi bilinmeden bu sorunun cevabını veremeyiz — güvenli mesafe, işletmenizin elektrik sorumlusuyla birlikte netleştirilir ve tahminle geçilmez. Hattın geçici olarak enerjisiz alınması mümkünse bu ayrıca planlanır. Hattın konumunu ve varsa gerilim bilgisini paylaşın, önce bu netliği sağlayalım.",
+            },
+            {
+                soru: "Hedefimize park noktasından birkaç metre yatay uzaklıktan ulaşmamız gerekiyor, yükseklik yeterli olur mu?",
+                cevap:
+                    "Tek başına yeterli olmayabilir — yatay mesafe, dikey yükseklik kadar belirleyicidir ve iki ölçü birlikte üretici çalışma diyagramıyla karşılaştırılır. Hedef kotunu, park noktasına olan yatay mesafeyi ve varsa aradaki engeli paylaşın, buna uygun aile ve modeli birlikte belirleyelim.",
+            },
+            {
+                soru: "Büyük bir bom sahaya nasıl ulaştırılıyor, giriş yolumuz dar olabilir mi engel olur mu?",
+                cevap:
+                    "Büyük teleskopik ve eklemli bomlar özel platformlu TIR ile taşınır ve sahaya iniş için düz, sağlam zemin ile yeterli manevra alanı gerekir; giriş yolunuz darsa veya alçak bir kapı varsa bunu nakliye planlamasından önce bildirmeniz gecikmeyi önler. Dar giriş yollu sahalarda örümcek manlift gibi daha küçük araçlarla taşınabilen alternatifler de değerlendirilebilir. Giriş yolunuzun genişlik ve yükseklik bilgisini paylaşın, uygun lojistiği netleştirelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift ailelerinin (teleskopik bom, eklemli bom, dikey direkli, örümcek) erişim geometrisi farkı sektör geneli teknik bilgidir; Konya OSB'deki hedef dağılımı ve enerji hattı güvenlik pratiği firma tecrübesidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
 };

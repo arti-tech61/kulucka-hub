@@ -2292,4 +2292,202 @@ export const ISTANBULPLATFORMKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Rıhtım ve tersane sahalarının ıslak/düzensiz zemin karakteri ile kızak rayı ve blok sahası yapısı sektör standardı genel bilgidir; zemin kontrol ve müdahale prosedürleri firma pratiğidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Tersane Atölye ve İdari Bina İç Mekanlarında Makaslı Platform Kiralama",
+        giris:
+            "Tersane sahasının kızak ve rıhtım kısmı ne kadar açık ve rüzgârlıysa, arkasındaki atölye ve idari bina kuşağı o kadar kapalı ve sınırlıdır — çelik atölyesinin çatı makası altı, boya-kumlama atölyesinin havalandırma bacası, idari binanın asma tavanı, elektrik trafo odasının üst rafı. Bu iç mekanlarda erişim ihtiyacı dışarıdaki gibi geniş bom açıklığı değil, dar kapıdan geçebilen, egzozsuz çalışan ve dikey olarak istikrarlı yükselen bir makinedir; makaslı platform tam bu tanıma oturur. Ancak “iç mekan” tek bir kategori değildir: çelik atölyesinin yüksek çatısı ile idari binanın alçak asma tavanı aynı makineyi istemez, boya atölyesinin solvent buharlı ortamı ile trafo odasının dar kapısı ayrı ayrı çözülmesi gereken kısıtlar getirir. Tuzla tersane kuşağında makaslı platform verirken işimiz, geminin değil binanın iç geometrisini okumaktır — tavan yüksekliği, kapı ölçüsü, zemin döşemesi ve o mekâna özgü atmosfer riski. Bu sayfa, tersane atölye ve idari bina iç mekanlarında makaslı platform kiralamanın nasıl kurgulandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Çelik atölyesi çatı makası ve aydınlatma erişimi",
+                metin:
+                    "Atölye holünün çatı makası, aydınlatma armatürleri ve havalandırma fanları genellikle bina yüksekliğinin üst üçte birinde toplanır ve bu bölgeye günlük üretim durmadan erişilmesi istenir. Makaslı platform, atölye zemininde belirlenen dar bir şeritte ilerleyerek bu yüksekliğe dikey ve titremesiz çıkar; altındaki üretim hattı veya çelik işleme tezgâhı çalışırken makine, o hattın güvenlik şeridi dışından geçecek güzergâhla konumlandırılır. Vardiya amiriyle günlük üretim planı paylaşılmadan atölye içine makine sokulmaz.",
+            },
+            {
+                baslik: "İdari bina ofis katlarında asma tavan ve klima kanalı bakımı",
+                metin:
+                    "Tersanenin idari binası, atölyeden farklı bir iç mekan sorunu getirir: koridor ve merdiven boşlukları dardır, tavan yüksekliği düşüktür, zemin ise halı veya laminat gibi hassas kaplamalarla kaplıdır. Buraya giren makine düşük şaseli ve dar gövdeli bir modelden seçilir; tekerlek altına koruyucu örtü serilir ve asansör boşluğu veya çift kanatlı kapıdan geçiş önceden ölçülür. Asma tavan panelleri sökülürken düşen toz ve parça için sepet altına koruma bezi gerilir.",
+            },
+            {
+                baslik: "Boya-kumlama atölyesinde solvent buharı ve kıvılcımsız ekipman",
+                metin:
+                    "Boya ve kumlama atölyesi, havada asılı kalan solvent buharı ve boya tozu nedeniyle diğer atölyelerden ayrı bir dikkat ister; bu ortamda kıvılcım üretme ihtimali olan hiçbir ekipman çalıştırılamaz. Akülü makaslı platformlar bu şart için uygundur, ancak atölyenin havalandırma sistemi çalışır durumda ve buhar yoğunluğu tesisin belirlediği güvenli sınırın altında olmadan içeri makine sokulmaz. Bu onay, tersanenin iş güvenliği biriminden alınır ve iş bitene kadar geçerliliği korunur.",
+            },
+            {
+                baslik: "Trafo ve elektrik pano odasında dar kapı ve parçalı taşıma",
+                metin:
+                    "Trafo binası ve elektrik pano odalarının kapı ölçüleri, bina projelendirilirken büyük ekipman geçişi düşünülmeden belirlenmiş olabilir; bu yüzden bazı odalara standart makaslı platform bütün hâlinde giremez. Böyle durumlarda daha dar gövdeli bir model seçilir veya makine, üreticinin öngördüğü sökme noktalarından ayrılarak parça parça içeri alınıp yeniden monte edilir. Hangi yöntemin uygulanacağı, kapı ve koridor ölçüleri kiralama öncesi paylaşıldığında netleşir.",
+            },
+            {
+                baslik: "Kapalı alanda egzoz kısıtı ve havalandırma koordinasyonu",
+                metin:
+                    "Tersanenin hiçbir kapalı atölye veya bina bölümüne egzozlu dizel makine sokulmaz; bu, iç mekan çalışmasının değişmez kuralıdır. Akülü makaslı platform bu kısıtı doğal olarak karşılar, ama mekânın kendi havalandırması da göz ardı edilmez — özellikle uzun süreli işlerde bina havalandırma fanlarının çalışır durumda tutulması, hem operatör hem çevredeki personel için konfor ve güvenlik sağlar. Havalandırma arızalıysa iş, tamir edilene kadar ertelenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tersane iç mekan bina tiplerine göre makine seçimi",
+                paragraflar: [
+                    "Tersane kuşağındaki kapalı bina tipleri ve bu tiplere uygun makaslı platform özellikleri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Bina tipi", "Tipik kısıt", "Önerilen özellik", "Özel not"],
+                    satirlar: [
+                        ["Çelik atölyesi", "Yüksek çatı, üretim trafiği", "Geniş yükseklikli akülü makaslı", "Vardiya planına göre güzergâh"],
+                        ["İdari bina/ofis", "Dar koridor, hassas zemin", "Düşük şase, dar gövde", "Asansör boşluğu ölçüsü"],
+                        ["Boya-kumlama atölyesi", "Solvent buharı, toz", "Kıvılcımsız akülü sınıf", "Havalandırma onayı şart"],
+                        ["Trafo/pano odası", "Dar kapı, düşük tavan", "Kompakt/parçalı taşınabilir", "Kapı ölçüsü önceden alınır"],
+                        ["Depo-arşiv katı", "Raf/döşeme yükü sınırlı", "Hafif gövdeli akülü", "Zemin taşıma teyidi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar kapı ve asansör boşluğu ölçü planlaması",
+                paragraflar: [
+                    "İç mekan işlerinde en sık yaşanan gecikme, sahaya varan makinenin kapı veya koridordan geçememesidir. Bu riski önlemek için kiralama öncesi kapı genişliği, yüksekliği ve varsa asansör kabin ölçüsü istenir; bazı idari bina bölümlerinde tek geçiş noktası olduğundan bu ölçü makine seçiminin belirleyici verisidir.",
+                    "Ölçü paylaşılmadan sahaya gönderilen makine, kapıda geri çevrilirse hem zaman kaybına hem ek nakliye maliyetine yol açar. Bu yüzden idari bina ve dar koridorlu iç mekan taleplerinde ölçü teyidi, kiralama onayının bir parçası olarak istenir.",
+                ],
+            },
+            {
+                baslik: "Kapalı alan iş izni ve havalandırma koordinasyonu",
+                paragraflar: [
+                    "Tersanenin kapalı atölye ve bina bölümlerinde çalışacak her makine için, o bölümün sorumlusundan kapalı alan çalışma izni alınır; bu izin, havalandırma durumunu, üretim trafiğini ve varsa özel atmosfer riskini (boya buharı gibi) kapsar. İzin belgesi olmadan makine iç mekana sokulmaz.",
+                    "İş sırasında havalandırma koşulları değişirse (fan arızası, kapı kapanması, buhar yoğunluğu artışı) çalışma derhal durdurulur ve durum tesisin iş güvenliği birimine bildirilir. Bu durdurma yetkisi hem operatörde hem sahadaki tesis personelindedir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölye çatısı çok yüksek, standart makaslı platform yeter mi?",
+                cevap:
+                    "Çelik atölyelerinin çatı yüksekliği bina tipine göre değişir ve bazı hollerde standart makaslı sınıfın üzerine çıkmak gerekebilir; bu durumda geniş yükseklikli akülü makaslı model veya gerekiyorsa akülü eklemli sınıf önerilir. Kesin cevap, atölyenin çatı yüksekliği ve zemin ölçüsü paylaşıldığında verilir; tahmini rakamla makine göndermek yerine keşif veya net ölçü bilgisiyle ilerlemeyi tercih ederiz.",
+            },
+            {
+                soru: "İdari binadaki asansör dar, makine nasıl üst kata çıkacak?",
+                cevap:
+                    "Asansör kabini makinenin bütün hâline yetmiyorsa iki yol izlenir: ya asansöre sığan daha kompakt bir model seçilir ya da makine üreticinin öngördüğü sökme noktalarından ayrılarak kat içine parça parça taşınıp yeniden monte edilir. Hangi yöntemin uygun olduğu, asansör kabin ölçüsü ve kat koridorunun genişliği bilgisiyle netleşir; bu ölçüleri kiralama öncesi paylaşmanız süreci hızlandırır.",
+            },
+            {
+                soru: "Boya atölyesinde akülü makine kıvılcım riski taşımaz mı?",
+                cevap:
+                    "Doğru seçilmiş akülü makaslı platform, standart dizel makineye göre kıvılcım riskini önemli ölçüde azaltır, ama sıfır risk garantisi hiçbir ekipman için verilmez. Bu yüzden boya-kumlama atölyesine giriş, atölyenin havalandırma sistemi çalışır durumda ve solvent buharı yoğunluğu tesisin belirlediği güvenli sınırın altındayken yapılır; bu onay tersanenin iş güvenliği biriminden alınır ve iş boyunca geçerliliği kontrol edilir.",
+            },
+            {
+                soru: "Ofis zeminine tekerlek izi bırakır mı, koruma alıyor musunuz?",
+                cevap:
+                    "Hassas zeminli ofis katlarında standart uygulamamız, makine tekerleklerinin altına koruyucu örtü veya kauçuk şerit sermektir; bu, hem iz bırakmayı hem zeminin küçük çiziklerden etkilenmesini önler. Uzun süreli işlerde güzergâh boyunca sürekli koruma şeridi döşenir, kısa işlerde ise makinenin duracağı ve ilerleyeceği noktalarda punktual koruma yeterli olur. Zemin tipi (laminat, halı, seramik) önceden bilinirse koruma yöntemi ona göre belirlenir.",
+            },
+            {
+                soru: "Trafo odasına makine giremiyor, alternatif ne?",
+                cevap:
+                    "Kapı ölçüsü kesinlikle yetersizse iki seçenek değerlendirilir: daha dar gövdeli bir makaslı model bulmak ya da mevcut makineyi üreticinin izin verdiği noktalardan sökerek içeri taşımak ve odada yeniden kurmak. İkinci yöntem daha fazla zaman gerektirir ve yalnızca üretici talimatına uygun sökme-montaj deneyimi olan ekiple yapılır; rastgele parçalama kesinlikle yapılmaz. Kapı ölçüsünü kiralama öncesi paylaşmanız, hangi yolun izleneceğini baştan netleştirir.",
+            },
+            {
+                soru: "Kapalı alanda uzun süre çalışacağız, havalandırma sürekli açık kalmak zorunda mı?",
+                cevap:
+                    "Egzozsuz akülü makine kullanıldığı için havalandırma zorunluluğu dizel makineye göre daha düşüktür, ama tamamen gereksiz değildir — özellikle boya-kumlama gibi atmosfer riski taşıyan bölümlerde havalandırmanın sürekli çalışır durumda olması standart şarttır. Diğer atölye ve ofis bölümlerinde ise havalandırma, operatör ve çevredeki personelin konforu için önerilir ama işin durmasını gerektiren bir zorunluluk değildir. Bölüme özgü kural, kapalı alan iznini veren tesis birimi tarafından belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı alanda egzozsuz ekipman zorunluluğu ve solvent buharlı ortamda kıvılcımsız ekipman ihtiyacı sektör standardı genel bilgidir; bina bazlı ölçü ve izin süreçleri firma pratiğidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Gemi Gövdesi Dış Cephesi ve Portal Vinç Ray Sistemi Bakımında Manlift Kiralama",
+        giris:
+            "Tersane sahasının dışarıda kalan kısmı, atölyenin sabit tavanından çok farklı bir yükseklik dünyasıdır: kızakta yükselen gemi gövdesinin bacası ve direği, rıhtım boyunca uzanan portal vinç kirişleri, açık havada rüzgâra ve tuzlu neme maruz kalan bütün üst yapı. Buraya erişim, dar bir koridoru değil geniş ve değişken bir açık sahayı kapsar; dizel teleskopik veya eklemli manlift, bu açıklıkta hem yükseklik hem yatay erişim mesafesi sunar. Tuzla tersane kuşağında manlift verirken karşılaştığımız iki büyük konu birbirinden ayrı ama aynı sahada iç içedir: geminin en üst noktalarına (baca, direk, radar donanımı) ulaşmak bir yandan, portal vinçlerin ray ve tekerlek sistemini mekanik olarak bakımda tutmak diğer yandan. İkisi de büyük yükseklik, açık hava koşulları ve sıkı bir operasyonel koordinasyon gerektirir — vinç kirişi üzerinde çalışırken vinç kesinlikle devrede olmaz, gemi bacası üzerinde çalışırken rüzgâr hızı sürekli izlenir. Bu sayfa, gemi gövdesi dış cephesi ve portal vinç ray sistemi bakımında manlift kiralamanın nasıl kurgulandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Gemi bacası ve direk yapılarında büyük yükseklik erişimi",
+                metin:
+                    "Bir geminin bacası ve direk donanımı, kızaktaki gövdenin en yüksek noktalarıdır ve inşa ilerledikçe bu noktalara erişim ihtiyacı da artar — boyama, radar/anten montajı, son kontrol. Standart makaslı platformun yükseklik sınırının ötesinde kalan bu işlerde dizel teleskopik veya eklemli manlift devreye girer; bomun hem dikey hem yatay uzanabilmesi, bacanın veya direğin farklı yüzlerine tek konumdan ulaşmayı mümkün kılar. Yerleşim noktası, geminin o anki inşa aşamasına ve çevresindeki iskele-vinç trafiğine göre günlük belirlenir.",
+            },
+            {
+                baslik: "Portal vinç ray hattı ve tekerlek sisteminin mekanik bakımı",
+                metin:
+                    "Rıhtım boyunca uzanan portal vinç raylarının hizası, tekerlek aşınması ve sınır anahtarlarının doğru çalışması, vincin güvenli hareketi için düzenli kontrol ister. Bu kontrol aydınlatma bakımından farklıdır — burada mekanik ölçüm (ray genişliği, tekerlek flanş aşınması, sınır anahtarı temas noktası) esastır ve manlift, vinç kirişinin altına veya yanına yaklaşarak teknisyene bu ölçümü yapacak sabit bir platform sağlar. Ray hattı boyunca ilerleyen kontrolde makine, vincin hareket güzergâhını bloke etmeyecek şekilde konumlanır.",
+            },
+            {
+                baslik: "Açık sahada rüzgâr ve tuzlu hava korozyon etkisi",
+                metin:
+                    "Rıhtım ve kızak sahası, atölyenin aksine tamamen açık hava koşullarına maruzdur; belirli rüzgâr hızının üzerinde bom uzatılmış hâlde çalışmak sallanma ve denge riskini artırdığından iş ertelenir. Tuzlu deniz havası ayrıca makinenin kendisini de etkiler — hidrolik bağlantı noktaları, elektrik kontakları ve şase üzerindeki metal aksam standart karadaki kullanıma göre daha sık korozyon kontrolünden geçirilir. Bu kontrol, sahaya her çıkışta operatörün günlük bakım listesinin bir parçasıdır.",
+            },
+            {
+                baslik: "Vinç kirişinde çalışırken vinç operasyonunun tamamen durdurulması",
+                metin:
+                    "Portal vinç kirişi veya ray hattı üzerinde manlift ile çalışma yapılacaksa, o vincin operasyonu iş boyunca tamamen durdurulur ve kumanda kabini kilitlenir — bu, aydınlatma bakımındaki geçici koordinasyondan farklı, kesin bir durdurma kuralıdır çünkü kiriş üzerindeki personel ile hareket eden vinç aynı anda var olamaz. Durdurma ve kilitleme, tersanenin vinç operasyon biriminin yazılı onayıyla yapılır; onay olmadan manlift kirişe yaklaştırılmaz.",
+            },
+            {
+                baslik: "Rıhtım ve kızak açık sahasında geniş ayak açıklığı gereksinimi",
+                metin:
+                    "Dizel manlift, yüksekliği ve bom uzunluğu arttıkça devrilme momentini dengelemek için geniş bir taban açıklığına ihtiyaç duyar; bu açıklık rıhtım kenarındaki halat, kablo tavası ve drenaj hatlarıyla çakışmayacak şekilde önceden planlanır. Zemin, kızak rayı yakınında olduğu gibi düzensizse geniş taban plakası kullanılır ve makine, taşıma kapasitesi doğrulanmış noktalara yerleştirilir. Açık sahada bu planlama, dar iç mekan işlerine göre daha fazla yer gerektirir ama daha az geçiş kısıtı taşır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yükseklik bandına göre manlift sınıfı seçimi",
+                paragraflar: [
+                    "Gemi gövdesi ve portal vinç sahasındaki tipik iş türleri ile önerilen manlift sınıfı aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş türü", "Yükseklik bandı", "Önerilen sınıf", "Özel koşul"],
+                    satirlar: [
+                        ["Gemi bacası/direk boyama", "Yüksek bant", "Dizel teleskopik/eklemli bom", "Rüzgâr hızı takibi"],
+                        ["Radar/anten montaj-kontrolü", "Yüksek bant", "Dizel eklemli bom", "Vinç trafiğiyle koordinasyon"],
+                        ["Vinç ray hattı ölçümü", "Orta-yüksek bant", "Teleskopik bom", "Vinç kilitleme onayı"],
+                        ["Vinç kirişi üstü tekerlek kontrolü", "Yüksek bant", "Eklemli bom, yandan yaklaşım", "Vinç tamamen durdurulur"],
+                        ["Rıhtım direği/aydınlatma kulesi", "Orta bant", "Teleskopik bom", "Geniş taban açıklığı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Portal vinç ray sistemi bakım koordinasyonu",
+                paragraflar: [
+                    "Vinç ray ve kiriş bakımı, tek başına planlanan bir iş değildir — tersanenin vinç operasyon takvimiyle birebir örtüşür. İş talebi geldiğinde önce o vincin hangi tarihlerde kullanım dışı bırakılabileceği vinç operasyon biriminden öğrenilir; manlift kiralaması bu pencereye göre ayarlanır.",
+                    "İş günü geldiğinde vincin kumanda kabini kilitlenir, anahtar teslim tutanağa bağlanır ve kilitleme onayı olmadan manlift kirişe yaklaştırılmaz. İş bitiminde kilit açılmadan önce kiriş üzerinde kimsenin kalmadığı iki kişi tarafından teyit edilir.",
+                ],
+            },
+            {
+                baslik: "Deniz kenarı korozyon ve bakım periyodu etkisi",
+                paragraflar: [
+                    "Rıhtım ve kızak sahasında sürekli çalışan makineler, karadaki inşaat sahalarına göre daha sık korozyon ve tuz birikimi kontrolünden geçirilir; özellikle hidrolik hortum bağlantıları, elektrik kontakları ve şase alt kısmı bu kontrolün odağıdır. Bu, makinenin arızalanma riskini düşürür ve uzun süreli tersane kiralamalarında bakım periyodu standart karadaki periyottan daha sık tutulur.",
+                    "Uzun süreli kiralamalarda bu ek bakım periyodu kiralama planına baştan dahil edilir; müşteriden ayrıca bir talep beklenmez, sahadaki koşul kendiliğinden bu sıklığı belirler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gemi bacasına ne kadar yükseklikte manlift ulaşabilir?",
+                cevap:
+                    "Kesin yükseklik, geminin o anki inşa aşamasına ve bacanın kızak üzerindeki konumuna göre değişir; genel bir rakam vermek yerine her işte gövdenin güncel yüksekliği ve makinenin duracağı zemin noktası birlikte değerlendirilir. Standart makaslı platformun sınırını aşan işlerde dizel teleskopik veya eklemli bom sınıfı önerilir; bu sınıfın yatay uzanma kabiliyeti, bacanın farklı yüzlerine tek konumdan ulaşmayı da kolaylaştırır.",
+            },
+            {
+                soru: "Vinç kirişinde çalışırken vinç gerçekten tamamen mi durur, kısmi hareket olamaz mı?",
+                cevap:
+                    "Tamamen durur — kısmi veya yavaş hareket dahi kiriş üzerindeki personel için kabul edilebilir risk değildir. Vincin kumanda kabini kilitlenir ve anahtar, iş süresince operasyon biriminde tutulur. Bu kural, kirişin uzunluğu veya işin süresi ne olursa olsun değişmez; iş bitip kiriş üzerinde kimse kalmadığı teyit edilmeden vinç tekrar devreye alınmaz.",
+            },
+            {
+                soru: "Rüzgârlı günlerde bom açık sahada çalışabilir mi?",
+                cevap:
+                    "Belirli bir rüzgâr hızının üzerinde bom uzatılmış hâlde açık sahada çalışmak ertelenir; bu sınır, üreticinin makine için belirlediği işletim koşullarına göre değerlendirilir. Rıhtım ve kızak sahası deniz kenarında olduğundan rüzgâr karadaki sahalara göre daha değişken seyredebilir; operatör vardiya boyunca hava durumunu takip eder ve rüzgâr sınırı aşıldığında bom indirilip makine güvenli konuma çekilir.",
+            },
+            {
+                soru: "Tuzlu hava makineye zarar veriyorsa bakım maliyeti bize mi yansır?",
+                cevap:
+                    "Hayır — deniz kenarı korozyon kontrolü ve buna bağlı ek bakım, kiralama hizmetimizin standart bir parçasıdır ve tersane sahasındaki uzun süreli kiralamalarda bu periyot baştan plana dahil edilir. Müşteriden ayrı bir bakım talebi veya ek ücret beklenmez; makinenin sahadaki koşullara uygun durumda kalması bizim sorumluluğumuzdadır.",
+            },
+            {
+                soru: "Vinç ray ölçümü için ne kadar önceden randevu almalıyız?",
+                cevap:
+                    "Bu iş, tersanenin vinç kullanım takvimine bağlı olduğu için mümkün olduğunca erken planlama öneririz; vinç operasyon biriminin hangi tarihlerde vinci kullanım dışı bırakabileceği netleşmeden manlift kiralamasını kesinleştirmiyoruz. Acil bir arıza durumunda ise öncelik değerlendirmesi tersane ile birlikte yapılır ve mümkünse en yakın uygun pencereye iş sıkıştırılır.",
+            },
+            {
+                soru: "Radar veya anten montajında elektronik hassasiyet nedeniyle ekstra önlem alıyor musunuz?",
+                cevap:
+                    "Evet — bu tip donanımlar hem darbeye hem statik elektriğe karşı hassas olabileceğinden, sepetten yapılan montaj işlerinde teknisyenin talimatına uyularak sepet hareketleri yavaş ve kontrollü tutulur, ani duruş veya sarsıntıdan kaçınılır. Donanımın taşınması gerekiyorsa bu, tersanenin veya donanım tedarikçisinin belirlediği taşıma talimatına göre yapılır; biz yalnızca erişim platformunu güvenli ve stabil şekilde sağlarız, donanıma dokunma yetkisi ilgili teknisyene aittir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Portal vinç kilitleme (kumanda kabini kilidi) prosedürü ve açık sahada rüzgâr sınırına bağlı çalışma kısıtı sektör standardı genel bilgidir; koordinasyon takvimi ve bakım periyodu detayları firma pratiğidir.",
+    },
 };

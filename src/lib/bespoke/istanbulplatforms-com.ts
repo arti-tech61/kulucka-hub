@@ -1897,4 +1897,198 @@ export const ISTANBULPLATFORMS_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Zor zemin/arazi koşullarında ekipman uygunluğu (lastik tipi, zemin basıncı) sektör standardı genel bilgidir; filomuzun bu segmentteki sınırı ve saha değerlendirme süreci firma pratiğidir; hiçbir tesis adı veya kapasite rakamı belirtilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform: Çok Tesisli Sözleşmede Standart Filo Kalemi",
+        giris:
+            "Marmara genelinde birden fazla lokasyonu olan kurumsal bir müşteriyle çerçeve sözleşme kurulduğunda, makaslı platform genellikle listenin en sık tekrarlayan ve en kolay standartlaştırılabilen kalemidir — çünkü bu sınıfın kullanım biçimi tesisten tesise büyük farklılık göstermez: dikey erişim, sabit bir çalışma alanı, önceden bilinen bir yükseklik aralığı. Bu öngörülebilirlik, sözleşme tarafında bir fırsata dönüşür: aynı model ailesini birden fazla lokasyonda standart tutmak, hem personel eğitimini (tek kontrol paneli, tek kullanım alışkanlığı) hem bakım takvimini (tek parça envanteri, tek periyodik kontrol takvimi) basitleştirir. Bizim bu sınıftaki yaklaşımımız, tekil bir kiralama işlemi değil, çok lokasyonlu bir filo yönetimi sözleşmesi kurmaktır — hangi model ailesinin kaç lokasyonda kaç adet bulunacağı, ne sıklıkla rotasyona gireceği ve kullanım verisinin nasıl raporlanacağı baştan yazılı hâle getirilir. Bu sayfa, makaslı platformun kurumsal sözleşmede ayrı bir kalem olarak nasıl yönetildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Model ailesi standardizasyonu",
+                metin:
+                    "Birden fazla lokasyonu olan bir müşteride farklı tesislerde farklı marka veya model makaslı platform kullanılması, hem operatör eğitimini hem yedek parça yönetimini karmaşıklaştırır. Sözleşme kurulurken, müşterinin tipik çalışma yüksekliği aralığına uygun bir veya iki model ailesi belirlenir ve mümkün olduğunca tüm lokasyonlarda bu ailenin kullanılması hedeflenir. Bu standardizasyon, yeni bir lokasyon sözleşmeye eklendiğinde de aynı model ailesiyle devam edilmesini sağlar — operatör, hangi tesise giderse gitsin aynı kontrol düzenini görür.",
+            },
+            {
+                baslik: "Kontrat dönemi içinde makine rotasyonu",
+                metin:
+                    "Tahsisli bir makaslı platform belirli bir yaşa veya kullanım saatine ulaştığında, arıza riski ve bakım maliyeti artmaya başlar; bu yüzden sözleşmede bir rotasyon eşiği tanımlanır. Eşiğe ulaşan makine, dönem içinde bizim tarafımızdan daha genç bir makineyle değiştirilir ve bu değişim müşteriye ek maliyet çıkarmadan, sözleşme kapsamındaki standart hizmetin bir parçası olarak yapılır. Rotasyon takvimi, bakım planımızın bir çıktısıdır; müşterinin bunu takip etmesi beklenmez.",
+            },
+            {
+                baslik: "Çoklu lokasyon talep önceliklendirmesi",
+                metin:
+                    "Aynı sözleşme altında beş, on veya daha fazla lokasyon varsa, dönemsel yoğunluk (örneğin yıl sonu sayım hazırlığı, planlı bakım durgunluğu) birden fazla lokasyonda aynı anda makaslı platform talebi doğurabilir. Sözleşmede bu senaryo için bir önceliklendirme mantığı yazılır — hangi lokasyonun kritik iş programına göre önce karşılanacağı, talep açıldığı andaki aciliyete göre değil, sözleşme başında birlikte belirlenen bir sıraya göre işler. Bu, talep anında pazarlık yapılmasını önler.",
+            },
+            {
+                baslik: "Kullanım verisinin dönemsel raporlanması",
+                metin:
+                    "Çok lokasyonlu sözleşmelerde her makinenin hangi tesiste, ne kadar süre ve hangi yoğunlukta kullanıldığı düzenli olarak raporlanır. Bu rapor, müşterinin satın alma ve bakım departmanlarına lokasyon bazlı maliyet dağılımı sağlar ve bir sonraki dönem sözleşme yenilemesinde hangi lokasyonun tahsisli makineye ihtiyacı olduğunu, hangisinin çağrı bazlı yeterli olduğunu somut veriyle gösterir. Raporlama sıklığı ve formatı sözleşme ekinde tanımlanır; bu bizim inisiyatifimize bırakılmaz.",
+            },
+            {
+                baslik: "Periyodik kontrol belgelerinin merkezi takibi",
+                metin:
+                    "Makaslı platform sınıfının periyodik kontrol (muayene) belgeleri, çok lokasyonlu bir filoda dağınık kalırsa denetim anında ciddi bir zaman kaybına yol açar. Sözleşme kapsamında bu belgeler merkezi bir dosyada tutulur ve hangi makinenin hangi lokasyonda, kontrol tarihi ne zaman dolacak bilgisiyle listelenir. Bir denetim öncesi müşteri bizden tek bir talep göndererek ilgili lokasyonun tüm belge setini alabilir; belgeleri tek tek lokasyon yöneticilerinden toplamak zorunda kalmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform sınıfları ve çok lokasyonlu kullanım profili",
+                paragraflar: [
+                    "Sözleşme kapsamındaki makaslı platform sınıflarını, tipik kullanım profili ve çok lokasyonlu yönetimdeki yeri açısından aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Çalışma yüksekliği aralığı", "Tipik kullanım", "Rotasyon önceliği"],
+                    satirlar: [
+                        ["Kompakt elektrikli", "6-8 m", "Dar koridor, iç mekân bakım", "Yüksek kullanım, kısa rotasyon"],
+                        ["Standart elektrikli", "8-12 m", "Depo, üretim hattı üstü", "Orta kullanım, standart rotasyon"],
+                        ["Geniş platform / büyük kapasiteli", "10-14 m", "Çok kişili ekip, malzeme taşıma", "Düşük kullanım, uzun rotasyon"],
+                        ["Dizel/arazi tipi makaslı", "10-16 m", "Açık saha, sert zemin", "Lokasyona özel, ayrı değerlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden makaslı platformu ayrı bir filo kalemi olarak yönetiyoruz",
+                paragraflar: [
+                    "Çok lokasyonlu bir sözleşmede her makine sınıfını aynı yoğunlukta yönetmek gerekmez — bazı sınıflar lokasyona özgü kalırken, makaslı platform gibi tekrarlayan ve standartlaştırılabilir sınıflar merkezi bir filo mantığıyla yönetilmeye daha uygundur. Bu ayrımı sözleşme kurulurken yaparız: hangi sınıfların merkezi filo mantığıyla (standart model, rotasyon takvimi, merkezi raporlama), hangilerinin lokasyon bazlı ayrı değerlendirmeyle yönetileceği baştan tanımlanır.",
+                    "Bu yaklaşımın müşteriye somut faydası, dönem sonunda tek bir konsolide rapor görebilmesidir — hangi lokasyonda kaç makaslı platform kullanıldığı, toplam maliyetin nasıl dağıldığı, hangi lokasyonların gelecek dönemde tahsisli makineye geçmesi gerektiği. Bu bilgi, lokasyon bazlı dağınık faturalarla değil, tek bir filo yönetimi raporuyla sunulur.",
+                ],
+            },
+            {
+                baslik: "Yeni lokasyon eklendiğinde devreye alma",
+                paragraflar: [
+                    "Mevcut sözleşmeye yeni bir lokasyon eklendiğinde, o lokasyon için ayrı bir sözleşme kurmak yerine mevcut çerçeveye bir ek (ek protokol) yapılır. Yeni lokasyonun tipik çalışma yüksekliği ve kullanım profili değerlendirilir, mümkünse mevcut model ailesiyle uyumlu bir makine tahsis edilir. Bu, yeni lokasyonun operatör eğitimini ve bakım sürecini sıfırdan kurmak yerine mevcut standarda dahil etmesini sağlar; devreye alma süresi de bu sayede kısalır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Beş farklı lokasyonumuz var, hepsinde aynı model makaslı platform mu kullanmalıyız?",
+                cevap:
+                    "Zorunlu değil ama önerimiz bu yöndedir, çünkü tipik çalışma yükseklikleriniz birbirine yakınsa aynı model ailesi hem operatör eğitimini hem bakım takibini basitleştirir. Lokasyonlarınızdan biri belirgin şekilde farklı bir yükseklik veya zemin koşuluna sahipse, o lokasyon için ayrı bir sınıf tanımlarız — standardizasyonu zorlama amacıyla yanlış makineyi göndermeyiz. Devreye alma döneminde her lokasyonun profilini çıkarır, mümkün olan en fazla ortak noktayı buluruz.",
+            },
+            {
+                soru: "Rotasyon eşiğine ulaşan makine değiştirildiğinde ek ücret çıkar mı?",
+                cevap:
+                    "Hayır, rotasyon standart hizmetin bir parçasıdır ve sözleşme bedeline dahildir; bu, bizim kendi bakım planımızın bir çıktısıdır, müşteriden ek bir talep beklemeyiz. Rotasyon eşiği (yaş veya kullanım saati) sözleşmede yazılıdır ve bu eşiğe yaklaşan makineler için değişim, o lokasyonun iş programını en az etkileyecek şekilde önceden planlanır — beklenmedik bir anda makine değişimi yapıp işinizi durdurmayız.",
+            },
+            {
+                soru: "Yıl sonu sayım döneminde tüm lokasyonlarımız aynı anda makaslı platform istiyor, hepsini karşılayabilir misiniz?",
+                cevap:
+                    "Bu tam olarak sözleşmede önceden tanımladığımız önceliklendirme senaryosudur. Yıl sonu gibi dönemsel yoğunluk beklenen dönemler için sözleşme başında sizinle birlikte bir kapasite planı yaparız — hangi lokasyonun ne zaman ihtiyaç duyacağı önceden bildirilirse, o dönem için makine ayırırız. Önceden bildirilmeyen ani bir yoğunlukta ise mevcut filo kapasitesine göre önceliklendirme yaparız; bu öncelik sırası, talep anında değil sözleşme kurulurken birlikte belirlenir.",
+            },
+            {
+                soru: "Periyodik kontrol belgesi süresi dolan bir makine varsa bunu biz mi takip etmeliyiz?",
+                cevap:
+                    "Hayır, bu takip sözleşme kapsamında bizim tarafımızdan merkezi olarak yapılır. Her makinenin periyodik kontrol tarihi bir dosyada lokasyon bilgisiyle birlikte tutulur ve süre dolmadan önce makine, kontrolü tamamlanmış bir başka makineyle değiştirilir — sizin bu süreci takip etmenize gerek kalmaz. Bir denetim öncesi ilgili lokasyonun güncel belge setini istediğinizde, tek bir talep göndermeniz yeterlidir.",
+            },
+            {
+                soru: "Konsolide rapor ne sıklıkla geliyor ve içinde ne var?",
+                cevap:
+                    "Raporlama sıklığı sözleşme ekinde tanımlanır, genellikle aylık veya üç aylık dönemlerde sunulur. Rapor, her lokasyonda hangi makinenin ne kadar süre kullanıldığını, toplam maliyet dağılımını ve varsa rotasyon veya kontrol belgesi durumunu içerir. Bu rapor, bir sonraki dönem sözleşme yenilemesinde hangi lokasyonun tahsisli makineye geçmesi gerektiğini veya hangi lokasyonun ihtiyacının azaldığını somut veriyle göstermenizi sağlar.",
+            },
+            {
+                soru: "Yeni açtığımız bir tesisi mevcut sözleşmeye nasıl ekliyoruz?",
+                cevap:
+                    "Yeni lokasyon için sıfırdan bir sözleşme kurmak yerine mevcut çerçeve sözleşmenize bir ek protokol yaparız — bu, hem hızlıdır hem de mevcut fiyat ve hizmet seviyesi şartlarınızın yeni lokasyonda da geçerli olmasını sağlar. Yeni lokasyonun çalışma yüksekliği ve kullanım profilini değerlendirir, mümkünse mevcut model ailenizle uyumlu bir makine tahsis ederiz; böylece yeni tesisiniz sıfırdan bir standart kurmak yerine mevcut filo yönetiminize dahil olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun sınıf/yükseklik aralığı ve periyodik kontrol gerekliliği sektör standardı genel bilgidir; çok lokasyonlu model standardizasyonu, rotasyon eşiği mantığı ve konsolide raporlama düzeni firma pratiğidir; hiçbir müşteri adı veya rakam belirtilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Sevkiyatı: Marmara Genelinde Çok Lokasyonlu Müdahale Taahhüdü",
+        giris:
+            "Makaslı platformun aksine manlift talebi çoğu kurumsal müşteride düzenli ve öngörülebilir değildir — bir cephe onarımı, ani bir çatı arızası, mevsimsel bir aydınlatma bakımı gibi değişken ve genellikle planlanmamış işler manlift talebini tetikler. Marmara genelinde birden fazla lokasyonu olan bir müşteri için bu değişkenlik, sözleşmede farklı bir madde grubu gerektirir: sabit bir tahsis değil, hangi lokasyondan talep gelirse gelsin belirli bir süre içinde makinenin sahada olacağını taahhüt eden bir müdahale maddesi. Bizim bu sınıftaki sözleşme yaklaşımımız, tek bir merkezden değil bölgedeki birden fazla noktadan sevkiyat yapabilecek bir dağıtım mantığına dayanır — hangi lokasyona hangi noktadan, ne sürede ulaşılacağı sözleşme ekinde lokasyon bazlı yazılır. Bu sayfa, manlift sınıfının çok lokasyonlu bir çerçeve sözleşmede müdahale taahhüdü, operatör sertifikasyonu ve sorumluluk açısından nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Lokasyon bazlı müdahale süresi taahhüdü",
+                metin:
+                    "Manlift talebinin ani karakteri nedeniyle sözleşmede tek bir genel müdahale süresi yazmak yerine, her lokasyon için ayrı bir süre taahhüdü tanımlarız — çünkü lokasyonun sevkiyat noktasına uzaklığı doğrudan bu süreyi belirler. Marmara genelinde yayılan bir müşteri filosunda İstanbul içi bir lokasyonla Kocaeli veya Tekirdağ'daki bir lokasyonun müdahale süresi aynı olamaz; bu farkı gizlemek yerine her lokasyon için gerçekçi bir süre yazarız ve bu süreye sadık kalırız.",
+            },
+            {
+                baslik: "Çoklu sevkiyat noktası mantığı",
+                metin:
+                    "Tek bir merkezden tüm Marmara'ya sevkiyat yapmak yerine, filoyu bölgedeki birden fazla noktaya dağıtılmış şekilde tutarız ve bir talep geldiğinde en yakın uygun noktadan sevkiyat yaparız. Bu, sözleşmedeki müdahale süresi taahhütlerinin gerçekçi kalmasını sağlayan yapısal bir tercihtir — tek merkezli bir dağıtım modeliyle uzak lokasyonlara verilen süre taahhüdü, trafik veya mesafe nedeniyle sık sık tutturulamaz hâle gelir.",
+            },
+            {
+                baslik: "Operatör sertifikasyon kaydının kontrat kapsamında tutulması",
+                metin:
+                    "Operatörlü manlift talebinde, görevlendirilecek personelin sınıfa uygun yeterlilik belgesi ve yüksekte çalışma sertifikası sözleşme dosyasında kayıt altındadır; hangi personelin hangi lokasyonda görevlendirilebileceği bu kayda göre belirlenir. Sertifika süresi dolmak üzere olan personel, süre dolmadan önce yenileme sürecine alınır ve bu takip bizim tarafımızdan yürütülür — müşterinin hangi operatörün sertifikasının güncel olduğunu ayrıca sorması gerekmez.",
+            },
+            {
+                baslik: "Hava koşulu kaynaklı gecikme bildirimi",
+                metin:
+                    "Manlift, açık sahada ve genellikle yükseklikte çalışan bir sınıf olduğu için rüzgâr hızı gibi hava koşulları güvenli çalışma sınırını doğrudan etkiler. Sözleşmede, güvenli çalışma sınırının aşıldığı durumlarda işin ertelenebileceği ve bu ertelemenin müdahale süresi taahhüdünü ihlal saymayacağı açıkça yazılır. Bu maddeyi gizli bir çıkış kapısı olarak değil, güvenlik gerekçesiyle işlemi durdurma hakkı olarak sözleşmeye koyarız ve gecikme durumunda müşteriyi anında bilgilendiririz.",
+            },
+            {
+                baslik: "Dış mekân sorumluluk ve sigorta eşiği",
+                metin:
+                    "Yükseklikte ve açık sahada çalışan manlift, kapalı hacimdeki bir makaslı platforma göre farklı bir risk profiline sahiptir; bu yüzden sözleşmedeki sorumluluk sınırı ve sigorta teminat eşiği manlift sınıfı için ayrıca yazılır. Üçüncü şahıs sorumluluğu, kamu alanına yakın çalışma (kaldırım, cadde kenarı) gibi özel durumlar sözleşme ekinde ayrı bir madde olarak ele alınır ve bu tür işlerde gerekli ek önlemler (trafik yönlendirme, güvenlik şeridi) kimin sorumluluğunda olduğu netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Marmara alt bölgelerine göre tipik müdahale süresi",
+                paragraflar: [
+                    "Sevkiyat noktasına uzaklığa göre lokasyon gruplarında uyguladığımız tipik müdahale süresi yaklaşımını aşağıdaki tabloda özetledik; kesin süre her sözleşmede lokasyon bazlı ayrıca yazılır.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge grubu", "Sevkiyat noktasına yakınlık", "Tipik müdahale karakteri", "Sözleşmede dikkat edilecek madde"],
+                    satirlar: [
+                        ["İstanbul merkez ve yakın ilçeler", "Yakın", "Aynı gün, çoğu zaman birkaç saat içinde", "Trafik saatine göre pencere"],
+                        ["İstanbul çeper ilçeler", "Orta", "Aynı gün, planlı ise daha hızlı", "Erken bildirim avantajı"],
+                        ["Kocaeli / Tekirdağ hattı", "Uzak", "Genellikle aynı gün, bildirimli", "Sevkiyat noktası ataması önceden yapılır"],
+                        ["Marmara dışı ek talep (istisnai)", "Çok uzak", "Ayrı değerlendirme, standart kapsam dışı", "Ayrı fiyat ve süre görüşmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden tek merkezli değil çok noktalı dağıtım modeli",
+                paragraflar: [
+                    "Marmara gibi geniş ve trafik yoğunluğu değişken bir bölgede tek bir depodan tüm lokasyonlara sevkiyat yapmayı taahhüt etmek, kâğıt üzerinde basit görünse de sahada sık sık tutturulamayan bir vaade dönüşür. Bunun yerine filoyu bölgedeki birden fazla noktaya dağıtılmış tutmayı tercih ederiz; bu, hem müdahale süresi taahhütlerinin gerçekçi kalmasını sağlar hem de bir noktada yaşanan bir aksaklığın (araç arızası, trafik kapanması) tüm sözleşme kapsamındaki lokasyonları etkilememesini sağlar.",
+                    "Bu modelin sözleşmeye yansıyan tarafı şudur: her lokasyon için hangi noktadan sevkiyat yapılacağı ve o noktaya göre gerçekçi bir süre taahhüdü, sözleşme ekinde ayrı ayrı yazılır. Bu, tek bir genel taahhütle sizi yanıltmak yerine, her lokasyonunuz için ne bekleyebileceğinizi baştan net söylemek anlamına gelir.",
+                ],
+            },
+            {
+                baslik: "Acil talep ile planlı talep arasındaki fark",
+                paragraflar: [
+                    "Sözleşme kapsamında iki tür manlift talebi ayrı ele alınır: önceden bildirilen planlı işler (örneğin aydınlatma bakım takvimi) ve aniden ortaya çıkan acil işler (örneğin fırtına sonrası hasar kontrolü). Planlı talepler için müdahale süresi taahhüdü daha geniş bir pencerede karşılanır ve genellikle daha ekonomiktir; acil talepler için daha kısa bir süre taahhüt edilir ama bu, filodaki anlık müsaitliğe bağlı kalabilir. Bu iki kategori arasındaki fiyat ve süre farkı sözleşmede açıkça yazılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kocaeli'deki lokasyonumuz için müdahale süresi İstanbul merkezdeki kadar hızlı olabilir mi?",
+                cevap:
+                    "Genellikle hayır, çünkü müdahale süresi büyük ölçüde sevkiyat noktasına uzaklığa bağlıdır ve bunu gizlemek yerine sözleşmede lokasyon bazlı gerçekçi bir süre yazarız. Kocaeli hattındaki lokasyonlar için, o bölgeye en yakın sevkiyat noktamızdan hareket edecek şekilde bir plan kurarız ve bu planı sözleşme ekine işleriz. Erken bildirim yapılan planlı işlerde süre önemli ölçüde kısalır; ani ve bildirimsiz taleplerde ise mesafenin doğal etkisini kabul etmenizi bekleriz.",
+            },
+            {
+                soru: "Rüzgârlı bir günde iş ertelenirse bu sözleşme ihlali sayılır mı?",
+                cevap:
+                    "Hayır. Güvenli çalışma rüzgâr sınırının aşıldığı durumlarda işi ertelemek, sözleşmede önceden tanımlanmış bir güvenlik maddesidir ve müdahale süresi taahhüdünün ihlali olarak değerlendirilmez. Bu maddeyi keyfi bir bahane olarak kullanmayız — erteleme kararını gerçek rüzgâr ölçümüne göre veririz ve durumu size anında bildiririz. Hava koşulu düzelir düzelmez iş, önceliklendirme listesinde öne alınarak tamamlanır.",
+            },
+            {
+                soru: "Operatörümüzün sertifikası süresi dolmuşsa siz bunu fark eder misiniz?",
+                cevap:
+                    "Eğer operatörlü kiralama kapsamında bizim personelimiz görevlendiriliyorsa, sertifika takibi tamamen bizim sorumluluğumuzdadır ve süre dolmadan yenileme sürecine alınır — bu personel sizin filonuza dahil değildir. Eğer operatörsüz çalışıyor ve kendi personelinizi görevlendiriyorsanız, personelinizin sertifika durumu sizin sorumluluğunuzdadır; isterseniz bu takibi de sözleşme kapsamına dahil edip sizi süre dolmadan önce uyarabiliriz.",
+            },
+            {
+                soru: "Fırtına sonrası acil bir talebimiz olursa, planlı taleplerden önce mi karşılanır?",
+                cevap:
+                    "Acil talepler, sözleşmede tanımlanan ayrı bir kategoridedir ve filodaki anlık müsaitliğe göre öncelikli değerlendirilir; ancak aynı anda birden fazla lokasyondan acil talep gelirse, önceliklendirme sözleşmede tanımlanan kritiklik sırasına göre yapılır. Bu sırayı talep anında değil, sözleşme kurulurken birlikte belirleriz — hangi lokasyonunuzun hangi tür arızasının en kritik sayılacağını önceden konuşuruz, böylece kriz anında pazarlık yapmayız.",
+            },
+            {
+                soru: "Kamu alanına yakın (kaldırım, cadde kenarı) bir manlift işinde trafik yönlendirmesi kimin sorumluluğunda?",
+                cevap:
+                    "Bu, sözleşme ekinde ayrıca netleştirilen bir noktadır — genel kural olarak kamu alanına yönelik izin ve trafik yönlendirme düzenlemesi tesisin veya işi yaptıran tarafın sorumluluğundadır, biz sahada güvenlik şeridi ve makinenin doğru konumlandırılması konusunda destek veririz. Bu tür bir iş söz konusuysa, talep açılırken bunu belirtmenizi isteriz; gerekli izin ve yönlendirme düzeni önceden hazır olmadan sahaya gitmeyiz çünkü bu hem güvenlik hem mevzuat riski taşır.",
+            },
+            {
+                soru: "Sevkiyat noktanız değişirse bizim lokasyonumuza olan süre taahhüdü de değişir mi?",
+                cevap:
+                    "Evet, sevkiyat ağımızda bir değişiklik olursa (yeni bir nokta açılması, bir noktanın kapanması) bu durumun etkilediği lokasyonlar için süre taahhüdünü gözden geçirir ve size yazılı olarak bildiririz. Amacımız her zaman gerçekçi bir taahhütte bulunmaktır; ağ yapımız değiştiğinde eski taahhüdü sessizce sürdürüp sahada tutturamamak yerine, değişikliği açıkça paylaşır ve gerekirse sözleşme ekini güncelleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift'in yükseklikte ve açık sahada çalışması, rüzgâr sınırı ve yeterlilik belgesi gerekliliği sektör standardı genel bilgidir; çok noktalı sevkiyat modeli, lokasyon bazlı müdahale süresi taahhüdü ve acil/planlı talep ayrımı firma pratiğidir; hiçbir müşteri adı, rakam veya kesin süre taahhüdü belirtilmemiştir.",
+    },
 };

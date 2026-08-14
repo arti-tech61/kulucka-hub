@@ -2095,4 +2095,198 @@ export const MANLIFTKIRALA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Arazi tipi platform gerekliliği genel ekipman mühendisliği bilgisidir; bu sayfa firmanın gerçek zemin kapsam sınırını dürüstçe belirtir, tesis adı ve rakam uydurulmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Sincan-Ostim'de Makaslı Platform Kiralama: Atölye Bakımında Genişlik ve Yük Taşıma",
+        giris:
+            "Sincan-Ostim hattındaki bir atölyede yükseğe çıkma ihtiyacının önemli bir kısmı, aslında tek noktaya sabit kalıp orada bir süre çalışmayı gerektirir: uzun bir duvar boyunca boya, bir koridor tavanı boyunca kablo tavası döşeme, aynı hizada dizilmiş armatürlerin toplu bakımı. Bu tür işlerde asıl belirleyici, ne kadar yükseğe çıkıldığı değil, platformun üzerinde kaç kişinin ve ne kadar malzemenin aynı anda durabildiğidir — çünkü iş tek seferde bitmeyecek, aynı noktada dakikalarca sürecektir. Makaslı platform tam olarak bu ihtiyaca cevap verir: dar bir sepet yerine geniş bir çalışma zemini sunar, iki kişinin yan yana durmasına ve yanlarında alet çantası, boya kovası veya kablo makarası taşımasına izin verir. Karşılığında istediği şey nettir — düz ve sağlam bir zemin, çünkü makasın dikey açılma mekaniği eğimli veya düzensiz yüzeyde güvenli çalışmaz. Bu sayfa, Sincan-Ostim atölyelerinde makaslı platformun ne zaman doğru seçim olduğunu, hangi işlerde diğer ekipmanlardan ayrıldığını ve zemin/kapasite hesabının nasıl yapıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Platform genişliği neden önemli: iki kişi + malzeme aynı anda",
+                metin:
+                    "Makaslı platformun sepeti, boom tipi ekipmanların dar sepetinden belirgin biçimde geniştir; tipik bir iç mekân makaslı platformunda iki kişi rahatça durabilir ve yanlarında bir alet çantası, boya malzemesi veya kısa bir kablo makarası taşıyabilirler. Bu, tek kişinin merdivenle çıkıp indiği, malzemeyi ayrı taşıdığı bir işi tek sefere indirir. Sincan-Ostim'deki uzun koridor boyalarında veya seri armatür değişiminde bu fark, iş süresini doğrudan yarıya indirir çünkü malzeme her seferinde yeniden yukarı taşınmaz.",
+            },
+            {
+                baslik: "Dikey erişim mantığı: tam altına girebildiğiniz iş için doğru seçim",
+                metin:
+                    "Makaslı platform, adından geldiği gibi düz yukarı açılır; sepeti yere göre yatay olarak neredeyse hiç kaymaz. Bu, işin tam sepetin altına veya üstüne denk geldiği durumlarda avantajdır — düz bir tavan noktası, bir duvar hattı, bir ray boyunca ilerleyen iş. Ama makinenin arkasına, bir rafın gerisine veya bir engelin üzerinden yandan uzanmanız gereken bir noktaya ulaşmanız gerekiyorsa makas yetersiz kalır; o iş yatay uzanma yapabilen bir ekipmanı gerektirir. Bu ayrımı iş öncesi netleştirmek, sahaya yanlış makine gönderip günü kaybetmemek için önemlidir.",
+            },
+            {
+                baslik: "Zemin şartı: makaslı platformun vazgeçilmez ön koşulu",
+                metin:
+                    "Makasın dikey açılma mekaniği, tabanın düz ve sabit olmasına bağlıdır; hafif bir eğim veya düzensiz zemin, platform açıldıkça sepetin dengesini bozar ve modern makinelerin çoğu bu durumda kendini otomatik olarak kilitler. Sincan-Ostim'deki üretim atölyelerinin beton zemini bu açıdan idealdir — bu yüzden makaslı platform, iç mekân işlerinde varsayılan tercihimizdir. Açık sahada, döküntülü zeminde veya rampa üzerinde iş varsa, önce zemin durumu netleştirilir; gerekirse farklı bir ekipman önerilir.",
+            },
+            {
+                baslik: "Sincan-Ostim atölyelerinde tipik makaslı platform işleri",
+                metin:
+                    "Bölgedeki taleplerin büyük kısmı üç kategoride toplanır: uzun duvar veya tavan boyalarında iki kişilik ekip çalışması, kablo tavası ile aydınlatma hattının koridor boyunca seri döşenmesi, ve depo raf üstü temizlik ile envanter kontrolü gibi geniş platform gerektiren ama yatay uzanma istemeyen işler. Bu üç grup, makasın geniş sepetinden ve stabil dikey hareketinden doğrudan fayda görür; aynı işler dar sepetli bir ekipmanla yapılsa hem daha yavaş hem daha zahmetli olurdu.",
+            },
+            {
+                baslik: "Elektrikli/dahili yakıt seçimi: iç mekân kısıtı",
+                metin:
+                    "İç mekân makaslı platformlarımız elektrikli tahrikledir; bu, kapalı atölyede egzoz gazı biriktirmeden, üretim durmadan çalışabilmek anlamına gelir. Elektrikli makinenin tek koşulu, gün içinde şarj durumunun takip edilmesidir — uzun süren çok günlü işlerde bu, işin başında planlanır. Açık saha veya çok geniş kapalı hangar gibi elektrikli menzilin dışındaki işler için farklı bir çözüm konuşulur; bu durumda dürüstçe belirtiriz ve uygun makineye yönlendiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sincan-Ostim'de iş tipine göre platform genişliği tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, atölye içi tipik işlerde kaç kişinin sepette çalışması gerektiğini ve buna göre hangi platform genişliğinin uygun olduğunu gösterir. Değerler, iş sırasında taşınan tipik malzeme hacmine göre belirlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Sepette kişi sayısı", "Malzeme yükü", "Önerilen platform genişliği"],
+                    satirlar: [
+                        ["Tek noktalı armatür değişimi", "1 kişi", "Az (el aleti)", "Dar/standart sepet"],
+                        ["Uzun duvar/tavan boyası", "2 kişi", "Orta (kova, rulo, uzatma)", "Geniş sepet"],
+                        ["Kablo tavası seri döşeme", "2 kişi", "Orta-yüksek (makara, klips kutusu)", "Geniş sepet"],
+                        ["Depo raf üstü kontrol/temizlik", "1-2 kişi", "Değişken", "Standart-geniş sepet"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapasite hesap mantığı: operatör + malzeme ağırlığı",
+                paragraflar: [
+                    "Makaslı platformların taşıma kapasitesi, üzerindeki kişi sayısı ile taşınan malzemenin toplam ağırlığına göre sınırlıdır ve bu sınır makinenin etiketinde açıkça yazar. İki kişi ve dolu bir boya kovası taşındığında toplam yük genellikle sınırın altında kalır, ama ağır bir kablo makarası veya çoklu malzeme kutusu eklendiğinde hesap değişebilir.",
+                    "İş öncesi taşınacak malzemenin kabaca ağırlığını sorarız; bu, hem doğru makineyi göndermek hem de sahada kapasite aşımı riskini önlemek için gereklidir. Belirsizlik varsa, malzemeyi iki partide taşımak, kapasiteyi zorlamaktan daha güvenlidir ve biz bu şekilde yönlendiririz.",
+                ],
+            },
+            {
+                baslik: "Bakım rutinine makaslı platformun yerleşimi",
+                paragraflar: [
+                    "Atölye bakım takviminde makaslı platform genellikle 'toplu iş' kalemlerine karşılık gelir — aynı gün içinde birden fazla benzer noktanın art arda bitirildiği işler. Bu yüzden yıllık planlamada makas gerektiren kalemler (uzun hat boyaları, seri aydınlatma, kablo tavası bakımı) genelde tek bir güne toplanır ve platform o gün boyunca atölyede kalır.",
+                    "Nokta müdahale gerektiren tekil işler (tek armatür, tek vana, tek sensör) ise makasın geniş sepetinden fayda görmez; bu tür işler için farklı bir ekipman daha uygundur ve bakım defterine bu ayrım not düşülür ki bir sonraki planlama daha isabetli yapılsın.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile manlift arasındaki fark nedir, hangisini seçmeliyiz?",
+                cevap:
+                    "Makaslı platform düz yukarı açılır ve geniş bir sepet sunar; işin tam altına/üstüne denk geldiği, iki kişinin ve malzemenin birlikte çalıştığı durumlarda idealdir. Manlift ise yandan veya üstten engel aşarak uzanabilir; makinenin arkası, bir rafın gerisi gibi doğrudan altına giremediğiniz noktalarda gerekir. İşinizin konumunu tarif ederseniz doğru ekipmanı öneririz; iki ekipman da elimizde var, seçim işin geometrisine göre yapılır.",
+            },
+            {
+                soru: "Platformun taşıyabileceği maksimum yük nedir?",
+                cevap:
+                    "Bu, makine modeline göre değişir ve her makinenin kapasite etiketinde belirtilir; iç mekân makaslı platformlarının çoğu iki kişi ve orta düzey malzeme yükünü (alet çantası, boya kovası, kablo makarası) rahatça taşır. Çok ağır veya hacimli malzeme taşınacaksa iş öncesi bunu belirtmeniz, doğru kapasiteli makineyi göndermemizi sağlar; sahada tahminle hareket etmeyi tercih etmeyiz.",
+            },
+            {
+                soru: "Atölye tavanına çok yakın çalışırken platform güvenli mi?",
+                cevap:
+                    "Evet, ama tavan-sepet mesafesinin iş öncesi netleşmesi gerekir; çok dar bir boşlukta çalışmak hem operatör güvenliği hem malzeme hasarı açısından dikkat ister. Tavan yüksekliğini ve varsa tavana yakın engelleri (vinç rayı, kablo tavası, aydınlatma armatürü) önceden sorarız; bu bilgiyle doğru makine yüksekliği ve sepet boyutu seçilir, sahada sürpriz yaşanmaz.",
+            },
+            {
+                soru: "Kapı ve koridor genişliği platform seçimini nasıl etkiler?",
+                cevap:
+                    "Geniş sepetli makaslı platformlar, dar bir kapı veya koridordan geçemeyebilir; bu yüzden makineyi atölye içine sokmadan önce kapı genişliğini ve koridor dönüş açısını sormamız gerekir. Kapı dar ise, standart genişlikte bir makas veya farklı bir ekipman önerilir; bu netleşmeden makineyi sahaya göndermek, kapıda tıkanma ve zaman kaybı riski taşır.",
+            },
+            {
+                soru: "İki farklı noktada çalışma yapacaksak platformu taşımak ne kadar sürer?",
+                cevap:
+                    "Elektrikli makaslı platformlar kendi tekerlekleri üzerinde düz zeminde kolayca sürülür; aynı atölye içinde iki nokta arasında taşıma genellikle birkaç dakika sürer ve bu, planlanan iş süresine dahil edilir. Farklı bina veya farklı sahalar arasında taşıma ise ayrı bir lojistik gerektirir ve bu durumda iki ayrı iş olarak fiyatlandırılır.",
+            },
+            {
+                soru: "Elektrikli makaslı platform iç mekânda egzoz sorunu yaratır mı?",
+                cevap:
+                    "Hayır, elektrikli tahrikli makaslı platformlar egzoz gazı üretmez; bu yüzden kapalı atölye içi işlerde bilinçli olarak elektrikli modelleri tercih ediyoruz. Tek dikkat edilmesi gereken şarj yönetimidir — uzun süren çok günlü işlerde şarj planı gün başında konuşulur ki iş ortasında makine tükenmesin.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform teknik özellikleri (zemin şartı, platform genişliği, kapasite mantığı) genel ekipman mühendisliği bilgisidir; bu sayfa Sincan-Ostim atölye bakım pratiğine göre yazılmıştır, tesis adı ve rakam uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Sincan-Ostim'de Manlift Kiralama: Engelin Üzerinden Erişim Gerektiren Atölye İşleri",
+        giris:
+            "Sincan-Ostim atölyelerindeki bakım işlerinin bir kısmı, sepetin tam altına giremediğiniz bir noktaya ulaşmayı gerektirir: bir üretim hattının arkasındaki armatür, bir rafın gerisindeki aydınlatma noktası, bir çatı kirişinin altındaki kablo geçişi. Bu işlerde düz yukarı açılan bir platform işe yaramaz çünkü engelin önünde durup üzerinden veya yanından uzanmanız gerekir. Manlift — eklemli veya teleskopik boom tipi ekipman — tam bu ihtiyaç için tasarlanmıştır: sepeti yatayda ve açılı olarak hareket ettirebilir, bir makinenin üzerinden geçip arkasına inebilir, dar bir aralıktan sepeti uzatıp hedefe ulaşabilir. Karşılığında bu esneklik, dar bir sepet ve genelde tek operatör anlamına gelir — makaslı platformun geniş, iki kişilik sepetinin aksine, manlift nokta müdahale için optimize edilmiştir. Bu sayfa, Sincan-Ostim atölyelerinde manliftin ne zaman doğru seçim olduğunu, engel aşma mantığını ve dar koridorlarda manevra gerçeğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Boom'un asıl işi: düz yukarı değil, yandan-üstten erişim",
+                metin:
+                    "Manliftin eklemli kolu, sepeti hem yükseğe çıkarır hem de yatayda ileri-geri, gerekirse aşağı-yukarı kıvırarak hareket ettirir. Bu, bir makinenin veya rafın önünde durup sepeti üzerinden geçirip arkasına indirebilmek demektir — makaslı platformun dikey hareketiyle asla yapamayacağı bir manevra. Sincan-Ostim'deki atölyelerde makine parkının sık olduğu hatlarda, hedefin tam altına inilemediği bu tür işler manliftin asıl çalışma alanıdır.",
+            },
+            {
+                baslik: "Makine parkının arasında çalışmak: dar koridor + engel aşma",
+                metin:
+                    "Bir üretim hattının iki tezgah arasındaki dar boşluğa girip yukarıdaki bir aydınlatma noktasına ulaşmak, hem dar bir taban alanı hem de o boşluktan sepeti engelin üzerine kıvırabilme yeteneği ister. Bu iki gereksinim aynı anda ancak dar tabanlı, eklemli kollu bir manliftte bulunur; geniş sepetli bir makas o dar boşluğa zaten giremez. Bu yüzden makine parkı sık olan hatlarda manlift, tek gerçekçi seçenektir.",
+            },
+            {
+                baslik: "Tek kişilik iş, kısa süreli müdahale mantığı",
+                metin:
+                    "Manlift sepeti dar olduğu için genelde tek operatör çalışır ve iş de buna uygun tasarlanır: tek bir armatür değişimi, tek bir sensör kontrolü, tek bir vana veya boru bağlantısı müdahalesi. Bu, makaslı platformun 'iki kişi + malzeme, uzun süreli iş' mantığının tam tersidir — manlift işi kısa, odaklı ve genelde bir seferde biten bir müdahaledir. Bakım rutininde bu tür kalemler, tek makine gününe değil, ihtiyaç anına göre planlanır.",
+            },
+            {
+                baslik: "Çatı kirişi ve aydınlatma hattına ulaşım",
+                metin:
+                    "Atölye çatısındaki kiriş altı boşluklar, vinç rayının üstü veya çatı ışıklığının çevresi gibi noktalar, doğrudan altından değil genelde yandan veya açılı biçimde yaklaşılması gereken alanlardır. Eklemli boom, sepeti bu tür dar ve engelli boşluklara sokup hedefe açılı biçimde yaklaştırabilir; bu, çatı altı aydınlatma ve kiriş kontrolü işlerinde manliftin makaslı platforma göre net avantajıdır.",
+            },
+            {
+                baslik: "Dış cephe ile iç mekân arası geçişli işler",
+                metin:
+                    "Bazı atölye binalarında bakım işi, bir iç mekân noktasıyla başlayıp hemen yanındaki dış cephe veya yükleme rampası noktasında devam eder. Manliftin bazı modelleri hem iç mekân zemininde hem de sınırlı dış saha koşullarında çalışabilir; bu geçişli işlerde tek makineyle iki noktayı halletmek mümkün olabilir. Zemin ve saha koşulu iş öncesi netleştirilir, çünkü her model her geçişe uygun değildir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sincan-Ostim'de engel tipine göre gereken yatay menzil tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, atölye içinde sık karşılaşılan engel tiplerinde sepetin ne kadar yatay uzanması gerektiğini kaba biçimde gösterir. Kesin menzil, engelin gerçek ölçüsüne göre sahada teyit edilir.",
+                ],
+                tablo: {
+                    basliklar: ["Engel tipi", "Tipik yatay uzanma ihtiyacı", "Sepet hareketi", "Uygun ekipman"],
+                    satirlar: [
+                        ["Tek tezgah/makine önü", "Kısa (1-2 m)", "Yan uzanma", "Dar tabanlı eklemli manlift"],
+                        ["Raf hattı gerisi", "Orta (2-4 m)", "Üzerinden geçiş + iniş", "Eklemli manlift"],
+                        ["Vinç rayı/çatı kirişi altı", "Orta-uzun", "Açılı yaklaşma", "Eklemli manlift"],
+                        ["İki tezgah arası dar koridor", "Değişken", "Dar taban + kıvrılma", "Dar tabanlı eklemli manlift"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sepetin dönüş yarıçapı ve dar koridor hesaplaması",
+                paragraflar: [
+                    "Eklemli manliftin taban genişliği dar olsa da, sepeti bir engelin üzerinden geçirirken kolun çizdiği yay belirli bir alan kaplar; bu alan, koridorun karşı tarafındaki raf veya makineyle çakışmamalıdır. İş öncesi koridor genişliğini ve karşı taraftaki sabit engelleri sorarız, gerekirse fotoğraf isteriz.",
+                    "Bu hesap atlanırsa, sahada sepeti hedefe yaklaştırırken karşı tarafa çarpma riski doğar; bu yüzden dar koridor işlerinde ölçü teyidi, makineyi göndermeden önceki standart adımımızdır.",
+                ],
+            },
+            {
+                baslik: "Manliftin bakım rutinindeki rolü: nokta müdahale",
+                paragraflar: [
+                    "Atölye bakım takviminde manlift, genelde plansız veya düzensiz aralıklarla ortaya çıkan tekil kalemlere karşılık gelir: arızalanan bir armatır, sızıntı yapan bir boru bağlantısı, devre dışı kalan bir sensör. Bu kalemler makaslı platformun 'toplu iş günü' mantığına uymaz; ihtiyaç anında, tek seferlik bir çağrıyla planlanır.",
+                    "Bununla birlikte, aynı atölyede hem toplu hem tekil işler varsa, iki ekipmanı aynı ziyarette art arda kullanmak mümkündür; bu, bakım defterine iki ayrı kalem olarak işlenir ve bir sonraki yılın planına da bu ayrım taşınır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasında maliyet farkı var mı?",
+                cevap:
+                    "Genelde evet; manlift daha karmaşık bir mekanizmaya sahip olduğu için kiralama bedeli makaslı platforma göre biraz daha yüksek olabilir. Ancak asıl belirleyici iş süresidir — manlift gerektiren işler genelde kısa ve odaklıyken, makas gerektiren işler uzun sürebilir; toplam maliyeti iş süresiyle birlikte değerlendirmenizi öneririz, sadece saatlik/günlük bedele bakmak yanıltıcı olabilir.",
+            },
+            {
+                soru: "Makinenin arkasına, doğrudan altına giremediğimiz bir armatüre nasıl ulaşılır?",
+                cevap:
+                    "Bu tam olarak manliftin tasarlandığı senaryo: sepet, makinenin önünde durup kolu makinenin üzerinden geçirir ve arkaya iner. Makinenin yüksekliği ve arkadaki boşluk, iş öncesi netleştirilmesi gereken iki bilgidir; bu bilgiyle doğru kol uzunluğuna sahip model seçilir ve sahada 'yetişmedi' sürprizi yaşanmaz.",
+            },
+            {
+                soru: "Sepet dönerken çevredeki raf ve ekipmana çarpma riski var mı?",
+                cevap:
+                    "Bu risk gerçektir ve bu yüzden dar alanlarda operatörümüz kolu adım adım, çevreyi sürekli kontrol ederek hareket ettirir. İş öncesi koridor genişliği ve çevredeki sabit engeller hakkında bilgi almamız, bu riski büyük ölçüde azaltır; belirsizlik varsa sahaya gelip önce gözle değerlendirme yaparız.",
+            },
+            {
+                soru: "Dar koridorda manlift manevra yapabilir mi?",
+                cevap:
+                    "Dar tabanlı eklemli manlift modelleri, standart bir atölye koridorunda manevra yapabilecek şekilde tasarlanmıştır, ama koridor genişliği bir eşiğin altındaysa hiçbir model giremez. Koridor ölçüsünü ve varsa dönüş noktalarındaki dar geçişleri iş öncesi sorarız; ölçü yetersizse, işi farklı bir yaklaşımla (örneğin makineyi sökmeden erişim) konuşuruz.",
+            },
+            {
+                soru: "Aynı ziyarette hem iç mekân hem dış cephe işini birleştirebilir miyiz?",
+                cevap:
+                    "Bazı manlift modelleri sınırlı dış saha koşullarında da çalışabildiği için, iç mekân ve hemen yanındaki dış cephe işini tek ziyarette birleştirmek mümkün olabilir. Bunun için dış sahanın zemin durumunu (düzlük, sertlik) önceden bilmemiz gerekir; uygunsa aynı gün içinde iki işi art arda planlarız.",
+            },
+            {
+                soru: "Operatör tek kişi mi olmalı, yoksa sepette iki kişi çalışabilir mi?",
+                cevap:
+                    "Manlift sepeti dar tasarlandığı için modelin çoğu tek kişilik kapasiteye göre üretilmiştir; iki kişi ve malzeme taşımak isteyen işler için makaslı platform daha uygun bir seçimdir. İşinizde iki kişi gerekiyorsa bunu önceden belirtmeniz, doğru ekipmanı önermemizi sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift/eklemli boom teknik özellikleri (yatay erişim, sepet kapasitesi, dar taban mantığı) genel ekipman mühendisliği bilgisidir; bu sayfa Sincan-Ostim atölye bakım pratiğine göre yazılmıştır, tesis adı ve rakam uydurulmamıştır.",
+    },
 };

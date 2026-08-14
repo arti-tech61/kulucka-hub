@@ -2192,5 +2192,203 @@ export const ISTANBULDAPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. İkitelli OSB ve çevresinin kurulu sanayi-tesis zemin profili kamuya açık coğrafi gerçektir; zemin değerlendirme yöntemi ve otomatik seviyeleme sınırı üretici teknik bilgisidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Kat Teslim Programına Bağlı Makaslı Platform Filosu",
+        giris:
+            "Çok katlı bir yapı projesinde iç mekan ince imalatı tek seferde başlayıp bitmez; genel yüklenicinin kat teslim programı doğrultusunda kat kat ilerler — bir kat mekanik ve elektrik hattı için teslim edilirken üstteki kat henüz kaba işin son aşamasındadır. Bizim İkitelli merkezli proje yaklaşımımızda makaslı platform filosu bu programa göre nefes alır: sabit bir makine sayısı baştan kiralanmaz, kaç katın aynı anda 'aktif kat' durumunda olduğuna göre filo büyür veya küçülür. Bir katta süspansiyon tavan iskeletini kuran ekip işini bitirip bir üst kata çıktığında, aynı makaslı platform (veya benzeri bir model) onun ardından taşınır; alt kattaki boyacı ekip ise kendi zaman diliminde aynı platformu devralır. Bu makale, kat teslim programının makaslı platform kalemini nasıl şekillendirdiğini, kat içi ekip devrinin nasıl kurulduğunu ve tavan yüksekliği ile kat tipine göre doğru modelin nasıl seçildiğini anlatır. Amacımız, iç mekan projelerinde platform kalemini iş programının pasif bir eki değil, kat teslim ritmine göre canlı biçimde güncellenen bir plan hâline getirmektir.",
+        maddeler: [
+            {
+                baslik: "Kat teslim programının filo büyüklüğünü belirlemesi",
+                metin:
+                    "Genel yüklenicinin kat teslim programı, hangi katın hangi tarihte 'ince imalata açık' hâle geleceğini gösterir. Biz bu programı ekipman planımızın çıkış noktası yaparız: aynı anda kaç katın aktif olduğu, o dönemde kaç makaslı platformun sahada bulunması gerektiğini belirler. Program üç katı aynı hafta açıyorsa filo üçe çıkar, tek kat açıksa filo bire iner — sabit bir sayı yerine programa bağlı bir eğri izlenir.",
+            },
+            {
+                baslik: "Aynı katta art arda çalışan ekipler arası devir",
+                metin:
+                    "Bir kat içinde mekanik askı, elektrik kablo tavası, sprinkler hattı ve tavan boyası art arda veya kısmen örtüşerek ilerler; bunların hepsi tavan seviyesinde çalışır ve aynı makaslı platform sınıfını kullanabilir. Ekipler arası devri günlük bir çizelgeyle yönetiriz — sabah mekanik ekip, öğleden sonra elektrik ekibi aynı platformu teslim alır. Bu devir çizelgesi, kat başına ayrı ayrı platform kiralamanın getireceği maliyeti düşürür.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve kat planına göre model seçimi",
+                metin:
+                    "Standart ofis katında tavan yüksekliği genelde akülü kompakt makaslı platformun kapasitesi içinde kalır; ancak lobi, atrium veya çift yükseklikli toplantı salonu gibi alanlarda tavan çok daha yukarıdadır ve daha büyük gövdeli bir model gerekir. Kat planını incelerken bu tip 'özel yükseklikli' alanları ayrı işaretler, o alanlar için filoya farklı bir model ekleriz; tüm katı tek bir standart makineyle geçmeye çalışmak, o alanlarda işi durdurur.",
+            },
+            {
+                baslik: "Kapalı hacimde akülü tercih nedeni",
+                metin:
+                    "İnce imalat aşamasındaki katlar kapalı hacimdir ve genelde havalandırması sınırlıdır; bu ortamda dizel makine emisyon ve gürültü açısından uygun değildir. Kat içi çalışmalarda neredeyse istisnasız akülü makaslı platform kullanılır. Şarj döngüsü, kat teslim programındaki günlük çalışma saatlerine göre planlanır — gece boş kalan makine şarj olur, sabah kat açıldığında dolu gelir.",
+            },
+            {
+                baslik: "Kat teslimi geciktiğinde filonun yeniden planlanması",
+                metin:
+                    "Kaba iş bir katta gecikirse, o kat için ayrılmış makaslı platform boşta kalabilir veya bir alt/üst kata geçici olarak kaydırılabilir. Bu yeniden planlama, gecikmeyi öğrendiğimiz gün yapılır; makine sahada atıl beklemez, program izin verdiği ölçüde başka bir aktif kata yönlendirilir. Kat teslimi normale döndüğünde filo yeniden asıl dağılımına çekilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kat tipine göre makaslı platform seçim tablosu",
+                paragraflar: [
+                    "İç mekan projelerinde kat tipine göre en sık kurduğumuz makaslı platform seçimi aşağıdadır. Kesin model, kat planındaki tavan yüksekliği ve koridor genişliğiyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Kat/alan tipi", "Önerilen model", "Enerji tipi", "Dikkat noktası"],
+                    satirlar: [
+                        ["Standart ofis katı", "Kompakt akülü makaslı", "Akülü", "Koridor genişliği"],
+                        ["Açık plan geniş ofis alanı", "Orta gövdeli akülü makaslı", "Akülü", "Zemin yük dağılımı"],
+                        ["Lobi / atrium (çift yükseklik)", "Büyük gövdeli makaslı", "Akülü", "Tavan yüksekliği payı"],
+                        ["Dar koridor / arşiv katı", "Dar şaseli mikro makaslı", "Akülü", "Kapı genişliği geçişi"],
+                        ["Kaba iş sonrası temizlik katı", "Standart akülü makaslı", "Akülü", "Toz/moloz zemin kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kat devir çizelgesi nasıl kurulur",
+                paragraflar: [
+                    "Kat devir çizelgesi, genel yüklenicinin şantiye şefiyle birlikte haftalık olarak güncellenen bir tablodur: hangi katta hangi ekibin hangi saatlerde çalışacağı, o saatlerde hangi makaslı platformun o katta bulunacağı satır satır yazılır. Çizelge, kat teslim programındaki tarihlerden türetilir ve iş programı revize edildiğinde aynı gün güncellenir. Amaç, iki ekibin aynı platforma aynı anda ihtiyaç duyduğu bir çakışmayı önceden görüp çözmektir.",
+                    "Çizelgenin sahadaki karşılığı basittir: platform bir ekipten diğerine devredilirken kısa bir kontrol yapılır (şarj durumu, hasar kontrolü) ve devir saat olarak not edilir. Bu kayıt, aynı zamanda hangi ekibin makineyi ne kadar süre kullandığının da izini tutar.",
+                ],
+            },
+            {
+                baslik: "Gecikme senaryosunda filo optimizasyonu",
+                paragraflar: [
+                    "Çok katlı bir projede tek bir katın gecikmesi sık rastlanan bir durumdur ve bunun ekipman planına yansıması otomatik olmalıdır. Gecikme bildirildiğinde, o kata ayrılmış makaslı platformun başka bir aktif kata geçici olarak kaydırılıp kaydırılamayacağını değerlendiririz; kaydırma mümkünse makine atıl kalmaz, mümkün değilse (örneğin tüm diğer katlar zaten dolu makine kullanıyorsa) düşürülmüş bekleme bedeliyle sahada tutulur.",
+                    "Bu optimizasyonun sonucu, proje sonunda toplam makine-gün rakamının kat teslim programındaki gerçek gecikmelerle uyumlu çıkmasıdır — gecikme yüzünden fazladan ödenen bir bedel oluşmaz, çünkü boşta kalan makine mümkün olduğunca başka bir kata yönlendirilmiştir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Projemizde on iki kat var ama hepsi aynı anda açılmayacak; kaç makaslı platform kiralamalıyız?",
+                cevap:
+                    "Bu soru, kat teslim programınıza bakılmadan cevaplanamaz — on iki katı aynı anda kiralamak yerine, programınızda aynı anda 'aktif' olacak kat sayısına göre filo büyüklüğü belirlenir. Genelde iki-üç kat aynı anda aktif oluyorsa, o kadar makaslı platform yeterlidir; kat teslimleri ilerledikçe filo aynı sayıda kalır ama makineler kat kat kaydırılır. Kat teslim programınızı paylaşırsanız, hangi haftalarda kaç makinenin sahada olması gerektiğini net bir tabloyla çıkarırız.",
+            },
+            {
+                soru: "Aynı katta mekanik, elektrik ve boya ekibi sırayla çalışacak; her biri ayrı platform mu kiralamalı?",
+                cevap:
+                    "Genelde gerekmez — üç ekibin çalışma zamanları örtüşmüyorsa (mekanik sabah bitiriyor, elektrik öğleden sonra başlıyorsa gibi) aynı makaslı platform günlük bir devir çizelgesiyle üçü arasında paylaşılabilir. Bu, kat başına tek platform kiralamak yerine üç ayrı platform kiralamaktan kesinlikle daha ekonomiktir. Ekiplerin kendi iş programlarını paylaşırsanız, örtüşüp örtüşmediğini kontrol eder, devir çizelgesini birlikte kurarız.",
+            },
+            {
+                soru: "Lobimizin tavanı normal katlardan çok daha yüksek, standart makaslı platform yeter mi?",
+                cevap:
+                    "Genelde yetmez — lobi, atrium veya çift yükseklikli salon gibi alanlar, standart ofis katının tavan yüksekliğini aşar ve bu alanlar için daha büyük gövdeli bir makaslı platform sınıfı gerekir. Kat planınızda bu tip özel alanları işaretlediğinizde, o alanlar için filoya ayrı bir model ekleriz; standart makineyi zorlamak yerine baştan doğru sınıfı planlamak, sahada iş durmasını önler. Lobi tavan yüksekliğini paylaşırsanız uygun modeli önceden netleştirebiliriz.",
+            },
+            {
+                soru: "Neden hep akülü öneriyorsunuz, dizel daha güçlü değil mi?",
+                cevap:
+                    "Dizel makaslı platformlar genelde daha büyük ve dış mekan işleri için uygundur, ama ince imalat aşamasındaki kapalı katlarda emisyon ve gürültü kabul edilebilir değildir — havalandırması sınırlı bir katta dizel makine hem sağlık hem konfor açısından sorun yaratır. Akülü modeller kapalı hacimde emisyonsuz çalışır ve iç mekan işleri için yeterli kapasiteye sahiptir. Şarj süresi, kat teslim programındaki günlük çalışma saatlerine göre planlanır, iş saatlerinde şarj kaygısı yaşanmaz.",
+            },
+            {
+                soru: "Bir katımız iki hafta gecikti, o kata ayırdığımız platform boşta mı bekleyecek?",
+                cevap:
+                    "Bekletmemeye çalışırız — gecikme bildirildiği gün, o kata ayrılan makaslı platformun başka bir aktif kata geçici olarak kaydırılıp kaydırılamayacağına bakarız. Programınızda başka bir kat o dönemde aktifse makine oraya yönlendirilir ve gecikmiş kattaki iş yeniden başladığında geri döner. Kaydırma mümkün değilse, düşürülmüş bir bekleme bedeliyle sahada tutulur; bu durumu önceden sizinle paylaşır, en ekonomik seçeneği birlikte belirleriz.",
+            },
+            {
+                soru: "Kat devir çizelgesini kim hazırlıyor, biz mi siz mi?",
+                cevap:
+                    "Çizelgeyi birlikte kurarız — sizin şantiye şefinizden kat teslim programını ve ekiplerin günlük çalışma saatlerini alır, bunları makaslı platform planımızla eşleştiririz. Çizelge haftalık güncellenir; iş programınızda bir değişiklik olduğunda (kat teslimi kayarsa, yeni bir ekip devreye girerse) aynı gün revize ederiz. Amacımız, sizin sahada her sabah 'bugün hangi kat, hangi makine, hangi ekip' sorusuna net cevabınızın olmasıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok katlı yapı projelerinde kat teslim programı ve ince imalat sıralaması genel proje yönetimi bilgisidir; kat devir çizelgesi ve filo yeniden planlama yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Blok Blok İlerleyen Cephe İşlerinde Manlift Sevk Planı",
+        giris:
+            "Birden fazla yapı bloğundan oluşan kurumsal projelerde (toplu konut etapları, kampüs yerleşkeleri, çok bloklu ticari alanlar) cephe işleri nadiren tüm bloklarda aynı anda başlar; genel yüklenici genelde bir bloğu bitirip diğerine geçen sıralı bir program izler. Manlift filomuz da bu sıraya göre hareket eder — bir blokta cephe kaplaması veya boyası tamamlandığında, aynı makine (veya aynı sınıftaki bir başkası) bir sonraki bloğa sevk edilir. Bizim İkitelli merkezli proje yaklaşımımızda bu sevk sırası, sabit bir takvim değil genel yüklenicinin güncel iş programına bağlı canlı bir plandır: blok teslim sırası değişirse sevk sırası da aynı gün değişir. Manlift'in bu tip çok bloklu projelerde tercih edilme nedeni de nettir — iskele kurulumunu beklemeden, blok teslim edilir edilmez cepheye erişim sağlar ve iş bittiğinde sökülüp bir sonraki bloğa taşınır, kalıcı bir yapı bırakmaz. Bu sayfa, blok sırasına göre manlift sevkinin nasıl planlandığını ve yerdeki diğer ekiplerle güvenlik koordinasyonunun nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Blok teslim sırasının sevk takvimini belirlemesi",
+                metin:
+                    "Genel yüklenicinin blok teslim programı, hangi bloğun ne zaman cephe işine açılacağını gösterir. Manlift sevk takvimimiz bu programdan türetilir: bir blok cepheye açıldığında makine o bloğa yönlendirilir, iş bitip bir sonraki blok açıldığında aynı makine oraya taşınır. Bloklar arası geçiş süresi (makinenin sökülüp taşınıp yeniden kurulması) sevk takviminde ayrı bir satır olarak yer alır, iş programına bu boşluk da yazılır.",
+            },
+            {
+                baslik: "İskele kurulumunu beklemeden başlama avantajı",
+                metin:
+                    "Çok bloklu projelerde tam iskele kurulumu, blok başına günler süren ayrı bir iştir ve bu süre boyunca cephe ekibi bekler. Manlift bu bekleme süresini ortadan kaldırır — blok kaba yapısı bittiği anda, iskele kurulmadan doğrudan cepheye erişim sağlar. Bu, özellikle sıralı ilerleyen çok bloklu projelerde toplam süreyi kısaltan bir tercih sebebidir; iskele gerekiyorsa bile manlift ilk günlerin ara çözümü olabilir.",
+            },
+            {
+                baslik: "Bom altındaki güvenlik bölgesi ve yerdeki ekip koordinasyonu",
+                metin:
+                    "Bir blokta manlift cephede çalışırken, aynı blok zemininde başka ekipler (çevre düzenleme, elektrik altyapı) da bulunabilir. Manlift'in bom hareket alanı ve olası düşme riski nedeniyle, makinenin altında ve çevresinde bir güvenlik bölgesi işaretlenir; bu bölgeye giriş, saha şefinin koordinasyonuyla sınırlandırılır. Blok bazlı çalışma planı hazırlanırken bu güvenlik bölgesi, diğer ekiplerin günlük çalışma alanıyla çakışmayacak şekilde önceden kroki üzerinde belirlenir.",
+            },
+            {
+                baslik: "Blok sırası değiştiğinde transfer kararı",
+                metin:
+                    "Çok bloklu projelerde teslim sırası zaman zaman değişir — bir blokta beklenmeyen bir gecikme olduğunda genel yüklenici sırayı revize edebilir. Bu durumda manlift'in hangi bloğa gideceği de aynı gün yeniden kararlaştırılır; sırası öne çekilen blok varsa makine oraya yönlendirilir, gecikmiş blok normale döndüğünde sıraya geri girer. Bu esneklik, sabit bir takvime bağlı kalmaktan çok, güncel iş programını takip etmekle sağlanır.",
+            },
+            {
+                baslik: "Manlift ile iskelenin birlikte kullanıldığı geçiş dönemleri",
+                metin:
+                    "Bazı bloklarda cephe işinin bir kısmı manlift ile bir kısmı iskeleyle yürütülür — örneğin geniş düz cephe iskeleyle kaplanırken, girinti-çıkıntılı veya erişimi zor köşe noktaları manlift ile tamamlanır. Bu karma kullanım, blok planına göre önceden işaretlenir; hangi cephe kesiminin hangi yöntemle yapılacağı, iskele kurulum programıyla manlift sevk takviminin çakışmayacak şekilde eşleştirilmesiyle netleşir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Blok sırasına göre manlift tipi ve sevk tablosu",
+                paragraflar: [
+                    "Çok bloklu projelerde blok tipine göre en sık kurduğumuz manlift sevk düzeni aşağıdadır. Kesin sıralama, genel yüklenicinin güncel blok teslim programıyla belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Blok/cephe durumu", "Önerilen manlift tipi", "Sevk önceliği", "Koordinasyon noktası"],
+                    satirlar: [
+                        ["Düz cephe, geniş yaklaşım alanı", "Dizel eklemli manlift", "Blok teslim sırasına göre", "Saha şefi"],
+                        ["Girinti-çıkıntılı köşe cephesi", "Kompakt eklemli manlift", "İskele sonrası tamamlama", "Cephe ekibi ustabaşı"],
+                        ["İlk blok, iskele henüz kurulmamış", "Erken erişim manlift", "En yüksek öncelik", "Proje ofisi"],
+                        ["Gecikmiş blok, sıra değişmiş", "Mevcut sınıf, transfer", "Güncellenen sıraya göre", "Genel yüklenici planlaması"],
+                        ["Zemin ekiplerinin de aktif olduğu blok", "Standart eklemli manlift", "Güvenlik bölgesi onaylı", "Çevre düzenleme ekibi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevk takviminin iş programına bağlanması",
+                paragraflar: [
+                    "Manlift sevk takvimi, blok teslim programınızın bir yansımasıdır ve ayrı bir belge olarak durmaz; her blok teslim tarihine, makinenin o bloğa varış ve önceki bloktan ayrılış tarihleri eklenir. Bu eşleştirme, proje ofisiyle haftalık paylaşılır ve iş programınızda revizyon olduğunda aynı gün güncellenir. Blok sayısı arttıkça bu takvim daha kritik hâle gelir, çünkü tek bir bloktaki gecikme, zincirleme olarak sonraki blokların sevk tarihini de kaydırabilir.",
+                    "Bu zincirleme etkiyi erken görebilmek için, sevk takvimini birkaç blok ilerisine kadar önceden planlarız; bir bloktaki olası gecikme sinyali alındığında sonraki blokların tarihleri de gözden geçirilir.",
+                ],
+            },
+            {
+                baslik: "Blok sırası değiştiğinde transfer protokolü",
+                paragraflar: [
+                    "Blok teslim sırası değiştiğinde, manlift transferi belirli bir sırayla işler: önce yeni öncelikli blok saha şefinden onay alınır, makinenin mevcut bloktaki işi bitip bitmediği kontrol edilir, iş bitmemişse tamamlanma süresi ile yeni bloğun aciliyeti karşılaştırılır. Transfer kararı bu karşılaştırmaya göre verilir ve genel yüklenicinin proje ofisine yazılı olarak bildirilir; sözlü bir talimatla makine hareket ettirilmez, çünkü iki blok arasında koordinasyonsuz bir geçiş, her iki taraf için de belirsizlik yaratır.",
+                    "Transfer tamamlandığında, eski bloktaki güvenlik bölgesi kaldırılır ve yeni bloktaki güvenlik bölgesi işaretlenir; bu adım, zemin ekiplerinin hangi alanın artık serbest hangi alanın kısıtlı olduğunu bilmesi için atlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Beş bloklu bir konut projemiz var, manlift beşine de aynı anda mı gelecek yoksa sırayla mı?",
+                cevap:
+                    "Genelde sırayla — beş bloğu aynı anda kiralamak yerine, blok teslim programınıza göre aynı anda kaç bloğun cepheye açık olduğuna bakılır. Genellikle bir veya iki blok aynı anda aktif oluyorsa, o kadar manlift yeterlidir; bloklar teslim edildikçe makine bir sonrakine kaydırılır. Beş bloğun teslim sırasını ve tahmini tarihlerini paylaşırsanız, sevk takvimini ve gereken makine sayısını net biçimde çıkarırız.",
+            },
+            {
+                soru: "İskelemiz henüz kurulmadı ama cephe ekibi bekliyor, manlift ile başlayabilir miyiz?",
+                cevap:
+                    "Evet, bu manlift'in tam olarak çözdüğü senaryodur — iskele kurulumu blok başına günler sürebilirken, manlift kurulum gerektirmeden doğrudan cepheye erişim sağlar. Ekibiniz iskele beklemeden işe başlayabilir; ilerleyen günlerde iskele de kurulursa, iki yöntem birlikte veya iskele devraldığında manlift bir sonraki bloğa geçebilir. Blok kaba yapısının ne zaman biteceğini bildirirseniz, manlift'i o tarihe göre erken sevk ederiz.",
+            },
+            {
+                soru: "Manlift bomu çalışırken zeminde çevre düzenleme ekibimiz de var, güvenli mi?",
+                cevap:
+                    "Güvenli olması için önceden bir güvenlik bölgesi tanımlanması gerekir — manlift'in bom hareket alanı çevresinde bir sınır çizilir ve bu sınıra girişi saha şefi kontrol eder. Çevre düzenleme ekibinizin günlük çalışma alanını bu sınırla çakışmayacak şekilde önceden kroki üzerinde planlarız. İki ekibin aynı blokta aynı gün çalışacağı biliniyorsa, bu koordinasyonu blok işine başlamadan önce netleştiririz; sahada anlık karar vermek yerine.",
+            },
+            {
+                soru: "Blok teslim sırası değişti, makinemiz hangi bloktaysa orada mı kalacak?",
+                cevap:
+                    "Gerekirse hayır — sıra değiştiğinde yeni öncelikli bloğun aciliyetini, mevcut bloktaki işin tamamlanma durumuyla karşılaştırırız. Mevcut bloktaki iş bitmek üzereyse orada tamamlanmasını bekleriz; henüz başlamamış veya erken aşamadaysa ve yeni blok daha acilse, makineyi öncelik değişikliğine göre transfer ederiz. Bu karar genel yüklenicinizin proje ofisiyle yazılı olarak koordine edilir, sözlü talimatla hareket edilmez.",
+            },
+            {
+                soru: "Bazı cephe köşelerimiz çok girintili, manlift oraya erişebilir mi yoksa iskele mi şart?",
+                cevap:
+                    "Girinti-çıkıntılı köşe noktalarında kompakt eklemli manlift genelde erişebilir çünkü bomun yanal uzanımı bu tip geometriyi çözer; ancak çok dar veya birden fazla engelin iç içe geçtiği köşelerde iskele daha güvenilir olabilir. Bu tip projelerde sık kullandığımız yöntem karmadır — düz cephe manlift ile, zor köşeler iskeleyle tamamlanır. Cephe planınızı paylaşırsanız hangi kesimin hangi yöntemle çözüleceğini önceden işaretleyebiliriz.",
+            },
+            {
+                soru: "Bir sonraki bloğa geçiş sırasında kaç günlük bir boşluk oluşur?",
+                cevap:
+                    "Bu süre, makinenin sökülüp taşınıp yeni blokta yeniden konumlandırılmasına bağlıdır ve blok arası mesafeye göre değişir; sevk takviminde bu geçiş süresi ayrı bir satır olarak baştan planlanır, iş programınıza da bu boşluk yazılır. Amacımız bu süreyi mümkün olduğunca kısaltmaktır — bir sonraki bloğun teslim tarihi önceden biliniyorsa, makinenin oraya varış zamanlaması işin başlangıcına tam oturacak şekilde ayarlanır, gereksiz bekleme oluşmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok bloklu projelerde sıralı blok teslim programı genel proje yönetimi bilgisidir; manlift sevk takvimi, bom altı güvenlik bölgesi uygulaması ve blok transfer protokolü firma pratiğidir.",
+    },
 };
 

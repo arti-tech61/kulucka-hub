@@ -1893,4 +1893,199 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Manisa OSB'nin genişleyen yatırım sahalarının açık ve kısmen henüz sağlamlaşmamış zemin profili kamuya açık bilgidir; telehandler-forklift görev ayrımı, eğimli arazide yük yönü kuralı ve emniyet kemeri önceliği sektör standardı bilgidir. Zemin turu ve geçici rota yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama: Manisa OSB'de Forklift Filomuzun Tavan ve Üst Yapı Kolu",
+        giris:
+            "Manisa OSB'deki bir üretim tesisinde forklift genelde zemin seviyesindeki yük hareketini üstlenir; ama aynı tesiste tavan yüksekliğinde çalışan bir HVAC kanalı, bir sprinkler hattı, bir kablo tavası veya bir çatı altı aydınlatma rafı olduğunda forklift bu işe cevap veremez — dikey, dengeli ve geniş bir çalışma platformuna ihtiyaç doğar. Makaslı platform tam bu boşluğu dolduran makinedir: düz, sabit bir sepet üzerinde birden fazla kişiyi ve malzemeyi aynı anda yukarı taşıyabilen, dikey doğrultuda hareket eden bir yükseltici. manisaforklift.com'da makaslı platformu ayrı bir iş kolu olarak değil, forklift filomuzun tamamlayıcısı olarak konumlandırıyoruz: malzeme sahaya forkliftle taşınır, personel ve el aletleri makaslı platformla tavan seviyesine çıkar; ikisi aynı teslimat aracıyla, aynı saha ekibiyle koordine edilir. Bu sayfa, elektrikli ve dizel makaslı platform arasındaki seçimi, dar/geniş şasi kararını, çalışma yüksekliği ve platform kapasitesi hesabını, iç mekan tavan üstü işlerinde en sık karşılaşılan senaryoları ve Manisa OSB'deki tesislerde bu makinenin forklift trafiğiyle nasıl bir arada güvenle çalıştığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Elektrikli mi, dizel mi: zemin ve ortam belirler",
+                metin:
+                    "Kapalı üretim alanında, hassas montaj hattı üzerinde veya gıda/elektronik gibi emisyona duyarlı bir bölümde elektrikli makaslı platform neredeyse zorunludur — sessiz çalışır, egzoz gazı bırakmaz ve dar iç mekanlarda daha kolay yönetilir. Açık sahada, düzensiz zeminde veya uzun mesafeli bir yürüyüşte ise dizel/tüm tekerden çekişli makaslı platform daha uygun olur; ancak bu sınıf hem daha büyük hem daha ağırdır, kapalı alana her zaman sığmaz. Seçim, işin kapalı mı açık mı yapılacağına göre netleşir.",
+            },
+            {
+                baslik: "Dar şasi mi, geniş şasi mi: koridor genişliği belirleyici",
+                metin:
+                    "Manisa OSB'deki fabrikaların bir kısmında raf aralıkları ve üretim hattı koridorları dar olduğu için standart genişlikteki bir makaslı platform bu aralıklardan geçemeyebilir; bu durumda dar şasili (genelde 0,8-1 metre genişlik bandında) elektrikli modeller tercih edilir. Geniş açık sahalarda veya montaj atölyelerinde koridor kısıtı yoksa standart genişlikte, daha yüksek kapasiteli platform tercih edilerek aynı seferde daha fazla malzeme taşınabilir. Koridor ölçüsü ölçülmeden şasi genişliği kararı verilmez.",
+            },
+            {
+                baslik: "Çalışma yüksekliği ve platform kapasitesi birlikte hesaplanır",
+                metin:
+                    "Makaslı platformun ilan edilen 'platform yüksekliği' ile makinenin gerçek erişebileceği 'çalışma yüksekliği' arasında fark vardır; çalışma yüksekliği, platform yüksekliğine ortalama bir insan boyu ve kol uzanımı eklenerek hesaplanır. Ayrıca platform üzerine binecek kişi sayısı ve taşınacak malzeme (alet çantası, boru parçası, kablo makarası) birlikte düşünüldüğünde makinenin nominal kapasitesi aşılmamalıdır; iki kişi ve ağır bir malzeme yükü, tek kişilik hesapla seçilmiş bir makinede güvenli değildir.",
+            },
+            {
+                baslik: "İç mekan tavan üstü işlerinde en sık karşılaşılan senaryo",
+                metin:
+                    "Üretim hattı üzerindeki HVAC kanal bakımı, sprinkler başlığı değişimi, kablo tavası genişletme veya çatı altı boru hattı kontrolü gibi işler, hattı durdurmadan üst seviyede yapılması gereken görevlerdir. Bu senaryoda makaslı platform, hat kenarına sığacak dar şasili bir modelle konumlandırılır ve çalışma saatleri genelde vardiya değişim aralığına veya bakım penceresine denk getirilir; bu sayede üretim akışı kesintiye uğramaz.",
+            },
+            {
+                baslik: "Forklift trafiğiyle aynı sahada güvenli birliktelik",
+                metin:
+                    "Aynı depoda hem forklift hem makaslı platform çalıştığında, makaslı platformun etrafı huni veya bariyerle işaretlenir ve forklift operatörüne bu bölgenin sabit bir yükseltici alanı olduğu bildirilir; makaslı platform üzerindeki kişi asla forklift rotasının kesişim noktasında bırakılmaz. İki makinenin teslimat ve konumlandırma planı, saha girişinde tek bir brifingle birlikte verilir — ayrı ayrı değil.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform sınıfına göre tipik kullanım",
+                paragraflar: [
+                    "Aşağıdaki tablo, Manisa OSB'deki tesislerde makaslı platform seçiminde sık karşılaşılan sınıf-kullanım eşleşmesini özetler; kesin seçim koridor ölçüsü ve çalışma yüksekliği doğrulamasıyla yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Platform sınıfı", "Tipik çalışma yüksekliği", "En uygun ortam", "Dikkat noktası"],
+                    satirlar: [
+                        ["Dar şasi elektrikli", "6-10 metre", "Dar koridor, kapalı hat kenarı", "Zemin dengesi, kapasite payı"],
+                        ["Standart şasi elektrikli", "10-14 metre", "Geniş kapalı alan, montaj atölyesi", "Kapı/geçiş yüksekliği"],
+                        ["Dizel / tüm tekerden çekişli", "12-18 metre", "Açık saha, düzensiz zemin", "Eğim sınırı, egzoz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Forklift ile makaslı platformun tek teslimatta birleştirilmesi",
+                paragraflar: [
+                    "Aynı proje kapsamında hem malzeme taşıma (forklift) hem yüksek seviye erişim (makaslı platform) ihtiyacı varsa, ikisi aynı araçla, aynı gün teslim edilerek hem lojistik maliyeti hem saha koordinasyonu tek elden yürütülür. Bu tür birleşik teslimatlarda saha girişinde tek bir kayıt ve tek bir güvenlik brifingi yeterli olur; iki ayrı tedarikçiyle çalışmanın getirdiği koordinasyon kaybı ortadan kalkar.",
+                    "Birleşik teslimat planı, hangi makinenin hangi gün-saat aralığında hangi bölgede çalışacağını içeren kısa bir sahiplenme takvimiyle desteklenir; bu takvim, forklift trafiğinin makaslı platformun sabit durduğu bölgeyi kesmemesini garanti eder.",
+                ],
+            },
+            {
+                baslik: "Bakım ve periyodik kontrol sorumluluğu",
+                paragraflar: [
+                    "Kiralanan makaslı platform, teslimattan önce periyodik kontrolü yapılmış ve bakım kaydı güncel olarak sahaya gelir; kiralama süresi boyunca olağan aşınma dışındaki arızalarda müdahale kiralayan firma tarafından yapılır, kiracı tesise ayrıca bakım yükü binmez.",
+                    "Uzun süreli (aylık ve üzeri) kiralamalarda ara kontrol takvimi teslimat sırasında birlikte planlanır; bu sayede kiralama süresi boyunca periyodik kontrol tarihi sahada sürpriz olarak çıkmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzun koridorları dar, hangi makaslı platform sınıfı sığar?",
+                cevap:
+                    "Koridor genişliği kritik ölçüdür; genelde 0,8-1 metre bandındaki dar şasili elektrikli makaslı platformlar standart raf aralıklarına sığar. Kesin sınıf, koridorunuzun net genişliği ve varsa raf ile tavan arasındaki geçiş yüksekliği ölçülerek belirlenir; bu iki ölçüyü paylaşırsanız uygun modeli birlikte netleştiririz.",
+            },
+            {
+                soru: "Üretim hattımızı durdurmadan tavan üstü bakım yapabilir miyiz?",
+                cevap:
+                    "Genelde evet; dar şasili bir makaslı platform hat kenarına konumlandırılıp çalışma vardiya değişimi veya planlı bakım penceresine denk getirildiğinde üretim akışı kesintiye uğramaz. Hattınızın çalışma takvimini paylaşırsanız teslimat ve çalışma saatini bu pencereye göre planlarız.",
+            },
+            {
+                soru: "Aynı sahada hem forklift hem makaslı platform çalışacak, güvenlik riski var mı?",
+                cevap:
+                    "İki makinenin trafiği ayrılmadan bir arada çalışması risklidir; bu yüzden makaslı platformun konumlandığı bölge huni veya bariyerle işaretlenir ve forklift operatörüne bu alanın sabit yükseltici bölgesi olduğu bildirilir. Teslimat sırasında iki makinenin de yer ve saat planı tek bir brifingle birlikte verilir.",
+            },
+            {
+                soru: "Elektrikli makaslı platform açık sahada çalışabilir mi?",
+                cevap:
+                    "Düz ve sağlam zeminli açık sahalarda çalışabilir, ancak elektrikli modeller genelde tüm tekerden çekişli değildir ve düzensiz veya eğimli zeminde zorlanır. Uzun mesafeli, düzensiz zeminli açık saha işlerinde dizel/tüm tekerden çekişli sınıf daha güvenli sonuç verir. Sahanızın zemin durumunu paylaşırsanız doğru sınıfı önereriz.",
+            },
+            {
+                soru: "Platforma kaç kişi ve ne kadar malzeme çıkabilir?",
+                cevap:
+                    "Bu, makinenin nominal kapasitesine bağlıdır ve kişi sayısı ile malzeme ağırlığı birlikte hesaba katılır; iki kişi artı ağır bir malzeme yükü, tek kişilik hesapla seçilmiş bir platformda güvenli değildir. Taşınacak kişi sayısını ve malzemenin yaklaşık ağırlığını paylaşırsanız kapasitesi yeterli modeli birlikte belirleriz.",
+            },
+            {
+                soru: "Forklift ve makaslı platformu aynı gün, tek araçla teslim alabilir miyiz?",
+                cevap:
+                    "Evet, aynı proje kapsamında ikisine de ihtiyaç varsa tek teslimatla birleştiriyoruz; bu hem lojistik maliyeti düşürür hem saha girişinde tek kayıt-tek brifing yeterli olur. Hangi makinenin hangi bölgede, hangi saatte çalışacağını içeren kısa bir plan teslimat öncesi birlikte hazırlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform sınıflarının (dar/geniş şasi, elektrikli/dizel) çalışma yüksekliği bandı ve tipik ortam uygunluğu sektör standardı teknik bilgidir; forklift ile birleşik teslimat ve saha paylaşım yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: Manisa OSB'de Forklift ve Yükseltici Filosunu Tek Noktadan Yönetmek",
+        giris:
+            "\"Manlift\" kelimesi Türkiye'deki sanayi sahalarında günlük dilde tek bir makine tipini değil, yükseğe erişim sağlayan platform ailesinin tamamını (makaslı, eklemli, teleskopik) tarif etmek için kullanılır ve çoğu zaman forklift ihtiyacıyla aynı anda, aynı proje kapsamında gündeme gelir — yeni bir üretim hattı kurulumunda hem malzeme taşınır hem tavan seviyesinde montaj yapılır, bir tesis taşınmasında hem paletler hareket eder hem raf üstü sökme-takma işi çıkar. manisaforklift.com'da manlift kiralamayı ayrı bir hizmet gibi değil, forklift filomuzla aynı çatı altında yönetilen tek bir operasyon olarak kurguluyoruz: tek irtibat noktası, tek teslimat planı, gerektiğinde tek faturayla forklift ve manlift'i aynı sahaya koordine ediyoruz. Bu sayfa, manlift kiralamanın Manisa OSB'de en sık hangi proje tiplerinde talep edildiğini, kısa süreli/acil ihtiyaç ile planlı proje ihtiyacı arasındaki farkı, doğru makine ailesinin nasıl seçildiğini ve forklift-manlift kombinasyonunun tek teslimatla nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Manlift bir makine adı değil, ihtiyaç tarifidir",
+                metin:
+                    "Bir firma \"manlift lazım\" dediğinde genelde aklındaki iş, belirli bir yükseklikte belirli bir işi yapmaktır — hangi makine ailesinin (makaslı, eklemli, teleskopik) bu işe uygun olduğu henüz netleşmemiştir. Bu yüzden manlift talebi geldiğinde ilk adım makine modelini konuşmak değil, işin ne olduğunu, hangi yükseklikte ve hangi zeminde yapılacağını netleştirmektir; makine ailesi bu bilgiden sonra belirlenir.",
+            },
+            {
+                baslik: "Kısa süreli/acil ihtiyaç ile planlı proje ihtiyacı farklı yönetilir",
+                metin:
+                    "Ani bir arıza sonrası birkaç günlük acil manlift ihtiyacında öncelik hızlı teslimat ve sahada hazır bulunan makine sınıflarından seçim yapmaktır; planlı bir yatırım projesinde (yeni hat kurulumu, çatı altı tesisat, bina genişletme) ise makine ailesi ve sayısı, proje takvimine göre haftalar öncesinden planlanır. İki senaryo da manisaforklift.com üzerinden yönetilir, ancak teslimat hızı ve makine rezervasyonu farklı bir sırayla ilerler.",
+            },
+            {
+                baslik: "Forklift ve manlift aynı projede birlikte çalıştığında koordinasyon tek elden yürür",
+                metin:
+                    "Yeni hat kurulumu gibi projelerde forklift ekipman ve komponentleri sahaya taşırken, manlift montaj ekibini tavan seviyesine çıkarır; bu iki makinenin aynı koridorda, aynı zaman diliminde çalışması saha trafiğini karmaşıklaştırabilir. Tek tedarikçiden gelen forklift ve manlift, aynı teslimat planına ve aynı saha brifingine dahil edildiği için trafik çakışması teslimat öncesinde çözülür, sahada değil.",
+            },
+            {
+                baslik: "Makine ailesi seçimi: erişim şekli belirleyicidir",
+                metin:
+                    "Sabit bir noktada, geniş bir sepetle dikey çalışma gerekiyorsa makaslı platform; engelli bir zeminde veya yandan/üstten dönerek erişim gerekiyorsa eklemli platform (boom lift); çok dar bir geçişten girip geniş bir alanda çalışmak gerekiyorsa örümcek (spider) platform tercih edilir. Manlift talebi geldiğinde bu üç aileden hangisinin işe uyduğu, sahanın erişim şekli ve engel durumu görülerek belirlenir.",
+            },
+            {
+                baslik: "Sözleşme yapısı: proje bazlı mı, sürekli mi",
+                metin:
+                    "Tek seferlik bir proje için manlift kiralaması günlük/haftalık bazda, proje bitince sona eren bir sözleşmeyle yapılır; tesiste düzenli aralıklarla tekrar eden bakım-onarım ihtiyacı varsa aylık çerçeve anlaşma daha uygun maliyetli olur ve makine önceliği garanti altına alınır. Hangi yapının uygun olduğu, ihtiyacın tek seferlik mi yoksa tekrarlayan mı olduğuna göre teslimat öncesi netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje tipine göre manlift ihtiyacı ve tipik makine ailesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Manisa OSB'deki tipik proje senaryolarına göre manlift talebinin nasıl şekillendiğini özetler; kesin makine ailesi sahanın erişim ve zemin koşuluyla doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Proje tipi", "Tipik süre", "Öne çıkan makine ailesi", "Forklift ile birlikte mi?"],
+                    satirlar: [
+                        ["Yeni üretim hattı kurulumu", "Haftalar (planlı)", "Makaslı + eklemli", "Evet, birlikte"],
+                        ["Acil arıza/tavan bakımı", "1-3 gün (acil)", "Dar şasili makaslı", "Genelde hayır"],
+                        ["Tesis taşınması", "Günler-haftalar", "Makaslı", "Evet, yoğun"],
+                        ["Çatı altı / dış cephe tesisat", "Değişken", "Eklemli / örümcek", "Duruma göre"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek irtibat noktasının getirdiği pratik fayda",
+                paragraflar: [
+                    "Bir projede hem forklift hem manlift gerektiğinde iki ayrı tedarikçiyle görüşmek, iki ayrı teslimat takvimi ve iki ayrı fatura yönetmek anlamına gelir; bu da saha koordinasyonunu zorlaştırır. manisaforklift.com'da tek irtibat noktası üzerinden hem forklift hem manlift talebi alınır, teslimat aynı araçla veya aynı gün içinde planlanır ve saha brifingi bir kez verilir.",
+                    "Bu yaklaşım özellikle birden fazla makinenin aynı anda farklı bölgelerde çalıştığı büyük projelerde zaman kazandırır; her makine için ayrı ayrı koordinasyon yapmak yerine tek bir teslimat-çalışma takvimi üzerinden ilerlenir.",
+                ],
+            },
+            {
+                baslik: "Operatör ve belge durumu, makine ailesine göre değişir",
+                paragraflar: [
+                    "Manlift ailesindeki her makine türü (makaslı, eklemli, teleskopik) kendi kullanım özelliğine sahiptir ve operatör belgesi bu türe göre kontrol edilir; bir tür için yeterlilik belgesi olan bir operatör otomatik olarak başka bir tür için yetkili sayılmaz. Operatörlü kiralama talep edildiğinde, gelecek operatörün belgesi kullanılacak makine ailesiyle eşleştirilerek teslimat öncesi doğrulanır.",
+                    "Operatörsüz kiralamada ise tesisin kendi personelinin ilgili makine ailesi için belgesi olup olmadığı, teslimat öncesi sorulur; belgesiz personelle teslimat yapılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift derken tam olarak hangi makineyi kastediyorsunuz?",
+                cevap:
+                    "Manlift, tek bir makine modelini değil, yükseğe erişim sağlayan platform ailesinin tamamını (makaslı, eklemli/boom, örümcek) tarif eden genel bir terimdir. Talebiniz geldiğinde önce işin ne olduğunu ve hangi yükseklik-erişim şeklinde yapılacağını netleştiriyoruz, doğru makine ailesi bu bilgiden sonra belirleniyor.",
+            },
+            {
+                soru: "Yeni hat kurulumu projemizde hem forklift hem manlift lazım, ayrı ayrı mı kiralamamız gerekiyor?",
+                cevap:
+                    "Hayır, bu tür projelerde forklift ve manlift'i tek irtibat noktasından, mümkünse aynı teslimat planıyla koordine ediyoruz; bu hem lojistik maliyeti düşürür hem saha trafiği çakışmasını teslimat öncesinde çözer. Proje takviminizi ve hangi işlerin hangi sırayla yapılacağını paylaşırsanız birleşik bir teslimat planı çıkarırız.",
+            },
+            {
+                soru: "Acil bir arıza çıktı, birkaç günlüğüne manlift lazım; ne kadar sürede teslim edersiniz?",
+                cevap:
+                    "Acil/kısa süreli taleplerde öncelik hızlı teslimattır; sahada hazır bulunan makine sınıflarından işinize uygun olanı hızlıca değerlendirip planlarız. Arızanın türünü ve gereken çalışma yüksekliğini paylaşırsanız uygun makineyi ve teslimat süresini netleştiririz.",
+            },
+            {
+                soru: "Tesisimizde manlift ihtiyacı düzenli tekrarlıyor, her seferinde ayrı mı anlaşma yapmalıyız?",
+                cevap:
+                    "Hayır, tekrarlayan ihtiyaçlarda aylık çerçeve anlaşma daha uygun maliyetli olur ve makine önceliğinizi garanti altına alır; her seferinde yeniden görüşme yapmanız gerekmez. İhtiyacınızın sıklığını paylaşırsanız çerçeve anlaşma koşullarını birlikte netleştiririz.",
+            },
+            {
+                soru: "Makaslı, eklemli veya örümcek platformdan hangisi bize uygun, nasıl karar veriyorsunuz?",
+                cevap:
+                    "Karar, sahanın erişim şekline göre verilir: sabit noktada geniş sepetle çalışacaksanız makaslı, engelli zeminde veya yandan-üstten dönerek erişim gerekiyorsa eklemli, dar bir geçişten girip geniş alanda çalışmak gerekiyorsa örümcek platform tercih edilir. Sahanızın erişim ve engel durumunu tarif ederseniz uygun aileyi birlikte belirleriz.",
+            },
+            {
+                soru: "Operatörümüzün belgesi forklift için geçerli, manlift için de yeterli mi?",
+                cevap:
+                    "Hayır, manlift ailesindeki her makine türü kendi yeterlilik belgesini gerektirir; forklift belgesi otomatik olarak manlift kullanımına yetki vermez. Operatörlü kiralama talep ederseniz gelecek operatörün belgesini kullanılacak makine türüyle eşleştirerek teslimat öncesi kontrol ederiz; kendi personelinizle çalışacaksanız belge durumunu teslimat öncesi sorarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. \"Manlift\" teriminin Türkiye sanayi sahalarında yükseğe erişim platform ailesinin genel adı olarak kullanılması ve makine ailesi (makaslı/eklemli/örümcek) ayrımı sektör standardı bilgidir; tek irtibat noktası ve birleşik teslimat yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
 };
