@@ -1883,4 +1883,200 @@ export const BURSAEKLEMLIPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bu sayfa, sitenin kentsel odağı çerçevesinde zor zemin/arazi hizmetinin sınırlı kapsamını dürüstçe tanımlar; kentsel sınırda kalan gerçek kesişim durumları (yeni inşaat çevresi, asfaltsız site yolu) kapsam içi kabul edilir, geniş kırsal arazi işleri kapsam dışıdır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bursa'da AVM ve Mağaza İçinde Makaslı Platform Kiralama",
+        giris:
+            "Bu sitenin merkezi uzmanlığı Bursa şehir merkezindeki yüksek bina ve AVM cephesi için eklemli platform olsa da, aynı kule ve alışveriş merkezlerinin iç mekânında da düzenli olarak dikey erişim ihtiyacı doğar — atriyum tavanındaki aydınlatma bakımı, mağaza vitrin tasarımı, zemin kat asma tavan işleri veya AVM koridorundaki tabela montajı gibi. Bu tür işler, cephedeki eklemli platformdan farklı bir makine sınıfı gerektirir: dikey kaldırmalı, dar koridorlarda manevra kabiliyeti yüksek, iç mekân lastikli (iz bırakmayan) makaslı platform. Bu sayfa, aynı kule-AVM müşteri tabanımızın iç mekân ihtiyacını, dış cephe hizmetimizden net biçimde ayırarak anlatır: makaslı platform burada AVM'nin veya kulenin içine, zemin kat ile atriyum tavanı arasına konuşlanır, cepheye değil. Ölçüler dar geçitlere göre seçilir, tekerlekler iç mekân zeminini (parlatılmış granit, seramik) çizmeyecek şekildendir ve operatör AVM'nin işletme saatleri dışında veya bölüm bazlı kapatma ile çalışacak şekilde planlama yapar. Kısacası, dışarıda kule cephesi ve AVM dış yüzeyi için eklemli platform hizmetimiz varken, içeride mağaza vitrini, atriyum tavanı ve iç mekân tabela-bakım işleri için bu makaslı platform hizmeti devreye girer; ikisi aynı binada, farklı katmanlarda çalışır.",
+        maddeler: [
+            {
+                baslik: "Dış cepheden farklı: iç mekâna özel makine sınıfı",
+                metin:
+                    "Cephedeki eklemli platform dışarıda, bina dışında çalışır ve büyük erişim mesafesine göre tasarlanmıştır; buradaki makaslı platform ise AVM veya kulenin içinde, zemin kat ile tavan arasında dikey doğrultuda çalışır. Tekerlekleri iç mekân zeminini çizmeyecek (iz bırakmaz) tiptedir ve gövde ölçüleri AVM koridoru veya mağaza kapısından geçecek genişliktedir.",
+            },
+            {
+                baslik: "AVM atriyum tavanı ve aydınlatma bakımı",
+                metin:
+                    "AVM'lerin merkezi atriyum bölümünde yüksek tavan aydınlatması, cam temizliği veya dekorasyon montajı için makaslı platform kullanılır; geniş sepet kapasitesi sayesinde iki kişilik ekip ve malzeme birlikte çalışabilir. Çalışma, AVM'nin yoğun olmadığı saatlerde veya bölüm bazlı geçici kapatmayla planlanır.",
+            },
+            {
+                baslik: "Mağaza vitrini ve iç tasarım montajı",
+                metin:
+                    "Yeni bir mağaza açılışı veya vitrin yenilemesinde, tavan yüksekliğine bağlı olarak dar gövdeli makaslı platform kullanılır; mağaza kapı genişliğine uygun model önceden belirlenir. Montaj çoğunlukla kapanış sonrası veya açılıştan önceki hazırlık döneminde yapılır.",
+            },
+            {
+                baslik: "Zemin kat asma tavan ve tesisat işleri",
+                metin:
+                    "AVM'nin zemin kat ortak alanlarında asma tavan, HVAC kanalı veya kablo tesisatı bakımı için standart yükseklikte makaslı platform tercih edilir; bu işler genellikle kısa süreli ve tek noktaya odaklıdır. Zemin türüne göre (seramik, granit, epoksi) uygun tekerlek tipi seçilir.",
+            },
+            {
+                baslik: "Kule lobisi ve ofis katı iç mekân işleri",
+                metin:
+                    "Cephesinde eklemli platformla hizmet verdiğimiz kulelerin lobi veya ortak ofis katlarında da tavan aydınlatması, kurumsal tabela veya asma tavan bakımı için makaslı platform devreye girer; aynı bina, aynı müşteri, ama farklı bir iç mekân makinesi ve farklı bir çalışma planı gerektirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Cephe (eklemli) ile iç mekân (makaslı) hizmetinin karşılaştırması",
+                paragraflar: [
+                    "Aynı binada iki farklı hizmetin nerede ve nasıl ayrıştığı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Dış cephe (eklemli platform)", "İç mekân (makaslı platform)"],
+                    satirlar: [
+                        ["Konum", "Bina dışı, cephe boyunca", "Bina içi, zemin-tavan arası"],
+                        ["Hareket yönü", "Yatay uzanım + dikey", "Sadece dikey"],
+                        ["Tekerlek tipi", "Dış zemine uygun", "İz bırakmaz, iç mekân"],
+                        ["Tipik iş", "Cam, klima, tabela, cephe bakımı", "Atriyum, vitrin, asma tavan"],
+                        ["Çalışma saati", "Gündüz, iş güvenliği önceliğinde", "Genellikle kapanış sonrası"],
+                    ],
+                },
+            },
+            {
+                baslik: "AVM işletmesiyle koordinasyon",
+                paragraflar: [
+                    "İç mekân çalışması, AVM veya kule yönetimiyle önceden koordine edilir: hangi bölümün ne zaman kapatılacağı, ziyaretçi güvenliği için hangi bariyerlerin kurulacağı ve zeminin korunması için hangi önlemlerin alınacağı netleştirilir.",
+                    "Çoğu AVM işletmesi, ortak alan çalışmalarını kapanış saatinden sonra veya sabah açılıştan önceki dar bir pencerede tercih eder; bu nedenle iç mekân makaslı platform işleri genellikle gece veya erken sabah vardiyasında planlanır.",
+                ],
+            },
+            {
+                baslik: "Zemin koruması ve operatör disiplini",
+                paragraflar: [
+                    "İç mekân zeminleri (parlatılmış granit, seramik, epoksi kaplama) dış zeminden çok daha hassastır; bu yüzden makaslı platformun tekerlekleri iz bırakmayan tiptedir ve operatör, ağırlık dağılımını dengede tutacak güzergâh seçimine dikkat eder.",
+                    "Operatör, mağaza vitrinleri, yürüyen merdiven çevresi ve ziyaretçi güvenlik hattı gibi hassas noktalarda ekstra dikkatli manevra yapar; gerektiğinde geçici koruma örtüsü veya bariyer kullanılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Cephede eklemli platform hizmeti alıyoruz, AVM içi için de mi ayrı makine gerekiyor?",
+                cevap:
+                    "Evet, iç mekân farklı bir makine sınıfı gerektirir. Cephedeki eklemli platform dışarıda, geniş erişim mesafesine göre tasarlanmıştır ve iz bırakmayan tekerlek gibi iç mekân gereksinimlerini karşılamaz. AVM veya kule içindeki atriyum, vitrin veya asma tavan işleri için dar gövdeli, iç mekân lastikli makaslı platform kullanırız; aynı proje kapsamında iki hizmeti birlikte planlayabiliriz.",
+            },
+            {
+                soru: "AVM atriyum tavanındaki aydınlatmayı değiştirmemiz gerekiyor, hangi platform uygun?",
+                cevap:
+                    "Atriyum yüksekliğine göre geniş sepetli bir makaslı platform öneririz; bu, iki kişilik ekip ve malzemenin birlikte çalışmasına imkân tanır. Çalışma genellikle AVM'nin kapanış saatinden sonra veya bölüm bazlı geçici kapatmayla planlanır, böylece ziyaretçi trafiği etkilenmez.",
+            },
+            {
+                soru: "Mağazamızın kapı genişliği dar, makaslı platform sığar mı?",
+                cevap:
+                    "Kapı ve koridor ölçülerini önceden alırız ve buna uygun dar gövdeli bir model seçeriz; standart mağaza kapılarının çoğundan geçebilen kompakt makaslı platformlarımız mevcuttur. Ölçüler netleşmeden makine göndermeyiz, bu nedenle kapı genişliğini ve tavan yüksekliğini paylaşmanız yeterlidir.",
+            },
+            {
+                soru: "İç mekân zeminimiz parlatılmış granit, iz bırakır mı?",
+                cevap:
+                    "Hayır, iç mekân işleri için kullandığımız makaslı platformların tekerlekleri iz bırakmayan (non-marking) tiptedir; ayrıca operatör güzergâhı, ağırlık dağılımını dengede tutacak şekilde önceden planlar. Özellikle hassas zeminlerde talep üzerine ek zemin koruma örtüsü de kullanabiliriz.",
+            },
+            {
+                soru: "Çalışmayı AVM açık saatlerinde mi yoksa kapalıyken mi yapıyorsunuz?",
+                cevap:
+                    "Çoğu AVM işletmesi ortak alan çalışmalarını kapanış sonrası veya sabah açılıştan önceki dar pencerede tercih eder, biz de genellikle bu şekilde planlarız. Ancak bölüm bazlı geçici kapatmayla gündüz de çalışılabilir; bu, AVM yönetimiyle sizin üzerinizden veya doğrudan koordine edilir.",
+            },
+            {
+                soru: "Kulemizin lobisinde de bu hizmeti alabilir miyiz, yoksa sadece AVM'ler için mi?",
+                cevap:
+                    "Evet, cephesinde eklemli platformla hizmet verdiğimiz kulelerin lobi ve ortak ofis katlarında da makaslı platform hizmeti veriyoruz — tavan aydınlatması, kurumsal tabela veya asma tavan bakımı gibi işler için. Aynı bina, aynı müşteri ilişkisi üzerinden iki hizmeti birlikte planlayabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, sitenin mevcut dış cephe (eklemli platform) odağını koruyarak, aynı kule-AVM müşteri tabanının iç mekân (zemin kat, atriyum, vitrin, asma tavan) makaslı platform ihtiyacını anlatır; komşu domainlerin OSB cephe/çatı ve mobilya-otomotiv yan sanayi odaklarından farklı olarak burada odak AVM/kule iç mekânıdır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Bursa'da Yüksek Kule ve AVM Cephesinde Manlift Kiralama",
+        giris:
+            "Bursa şehir merkezindeki yüksek bina ve AVM cephesi işlerinde, eklemli platform kadar sık ihtiyaç duyulan bir başka makine sınıfı da manlifttir — dikey kaldırmalı, dar tabanlı, cephe boyunca hızlı nokta değişimi gerektiren işlerde eklemli platformdan daha çevik bir alternatif sunar. Bu sitenin merkezi açısı 'eklemli sınıf + yüksek yapı' olduğu için, manlift hizmetini de aynı yüksek yapı bağlamında konumlandırıyoruz: kule cephesinde belirli bir kata hızlı erişim, AVM dış yüzeyinde dar bir nokta bakımı veya bina girişi üstündeki tente-tabela montajı gibi, eklemli platformun geniş erişim menzilinin gerekli olmadığı, ama dikey hızın ve dar taban ayak izinin öne çıktığı işlerde manlift tercih edilir. Manlift, eklemli platformun rakibi değil tamamlayıcısıdır: aynı kule projesinde, geniş ve değişken erişim gereken cephe bölümlerinde eklemli platform, dar bir noktaya hızlı ve tekrarlı erişim gereken bölümlerde ise manlift kullanılır. Bu sayfa, Bursa'daki yüksek kule ve AVM cephesi bağlamında manliftin nerede devreye girdiğini, eklemli platformdan farkını ve hangi iş profillerinde tercih edildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Eklemli platformdan farkı: dar taban, dikey hız",
+                metin:
+                    "Eklemli platform, yatay uzanımı sayesinde geniş ve düzensiz bir cephe alanına erişebilirken, manlift dar tabanlı gövdesiyle dikey doğrultuda hızlı yükselip inebilir. Kule cephesinde belirli bir kata tekrarlı ve hızlı erişim gereken işlerde (örneğin klima bakım turu, cam temizliği rotası) manlift, eklemli platforma göre daha verimli çalışır.",
+            },
+            {
+                baslik: "Kule cephesinde nokta bakım ve hızlı kat erişimi",
+                metin:
+                    "Yüksek bir kulenin belirli bir katındaki cephe hasarı, klima ünitesi arızası veya cam değişimi gibi işlerde, geniş erişim menzili gerekmediğinden manlift tercih edilir; dar taban ayak izi, kule girişindeki dar zeminlerde de manevrayı kolaylaştırır.",
+            },
+            {
+                baslik: "AVM dış cephesinde dar nokta ve tente-tabela montajı",
+                metin:
+                    "AVM'nin ana girişi üzerindeki tente, logo tabelası veya dar bir cephe panelinin montaj-bakımı gibi işlerde, eklemli platformun geniş menzili yerine manliftin hızlı dikey erişimi daha uygun ve ekonomiktir; kurulum süresi de görece kısadır.",
+            },
+            {
+                baslik: "Aynı projede eklemli platform ile tamamlayıcı kullanım",
+                metin:
+                    "Büyük bir kule-AVM cephe bakım projesinde, geniş ve düzensiz cephe bölümleri için eklemli platform, dar ve tekrarlı erişim gereken noktalar için manlift aynı anda planlanabilir; bu, toplam iş süresini ve maliyetini optimize eder.",
+            },
+            {
+                baslik: "Dar sokak ve kısıtlı zeminli kentsel konuşlanma",
+                metin:
+                    "Bursa şehir merkezinin dar sokaklarında veya kule girişindeki kısıtlı zeminlerde, manliftin kompakt taban ölçüsü, eklemli platformun bazen giremediği noktalara konuşlanmayı mümkün kılar; bu, özellikle merkez mahallelerdeki eski kule girişlerinde önemlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift ile eklemli platformun iş profiline göre karşılaştırması",
+                paragraflar: [
+                    "Hangi işte hangi makinenin tercih edildiği aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş profili", "Uygun makine", "Neden"],
+                    satirlar: [
+                        ["Geniş, düzensiz cephe alanı", "Eklemli platform", "Yatay + dikey geniş erişim"],
+                        ["Tek kata hızlı, tekrarlı erişim", "Manlift", "Dikey hız, dar taban"],
+                        ["Dar sokak / kısıtlı kule girişi", "Manlift", "Kompakt ayak izi"],
+                        ["AVM giriş tentesi / tabela noktası", "Manlift", "Hızlı kurulum, tek nokta"],
+                        ["Büyük ölçekli cephe bakım projesi", "İkisi birlikte", "Bölüme göre optimum makine"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kule ve AVM cephesinde manliftin konuşlanma disiplini",
+                paragraflar: [
+                    "Manlift, kule veya AVM cephesine konuşlanırken zemin taşıma kapasitesi ve rüzgâr koşulları önceden kontrol edilir; yüksek yapı çevresinde rüzgâr etkisi belirginleştiğinden, üretici sınırlarına göre çalışma durdurulabilir.",
+                    "Dar sokak veya kule girişi gibi kısıtlı alanlarda, trafik ve yaya güvenliği için geçici bariyer ve yönlendirme kullanılır; bu, özellikle şehir merkezindeki yoğun kule bölgelerinde standart bir uygulamadır.",
+                ],
+            },
+            {
+                baslik: "Operatör ve iş güvenliği yaklaşımı",
+                paragraflar: [
+                    "Manlift operatörleri, yüksek yapı cephesinde çalışmaya özel eğitimlidir ve kule/AVM cephesindeki tekrarlı kat geçişlerinde güvenlik hattı ile sepet kilitleme protokollerine uyar.",
+                    "Rüzgâr, yağış veya görüş mesafesi gibi hava koşulları, kule yüksekliğine bağlı olarak çalışmayı geçici olarak durdurabilir; bu karar operatör ve saha sorumlusu tarafından birlikte alınır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform yerine neden manlift önerdiniz?",
+                cevap:
+                    "İşiniz geniş bir cephe alanına değil, kulenin belirli bir katına hızlı ve tekrarlı erişime dayanıyorsa, manliftin dar taban ve dikey hız avantajı daha verimli sonuç verir. Geniş ve düzensiz bir cephe alanı söz konusuysa eklemli platformu öneririz; ikisi arasındaki seçim, işin erişim profiline göre yapılır.",
+            },
+            {
+                soru: "Aynı kule projesinde hem eklemli platform hem manlift kullanabilir miyiz?",
+                cevap:
+                    "Evet, büyük cephe bakım projelerinde bu sık uygulanır: geniş ve düzensiz bölümler için eklemli platform, dar ve tekrarlı erişim gereken noktalar için manlift aynı anda planlanır. Bu kombinasyon, toplam iş süresini ve maliyeti optimize eder.",
+            },
+            {
+                soru: "Kulemizin girişi dar bir sokakta, manlift sığar mı?",
+                cevap:
+                    "Manliftin kompakt taban ölçüsü, eklemli platformun bazen giremediği dar sokak veya kısıtlı kule girişlerine konuşlanmayı mümkün kılar. Sokak genişliği ve zemin durumunu önceden bildirdiğinizde, uygun model ve konuşlanma planını netleştiririz.",
+            },
+            {
+                soru: "AVM girişindeki tentemizin bakımı için manlift mi eklemli platform mu gerekir?",
+                cevap:
+                    "Tek bir nokta ve dar bir alan söz konusu olduğundan genellikle manlift daha hızlı ve ekonomik bir çözümdür; kurulum süresi kısadır ve geniş erişim menziline ihtiyaç duyulmaz. Alan çok dar veya erişim engelliyse, saha görselini inceleyip kesin öneriyi netleştiririz.",
+            },
+            {
+                soru: "Yüksek katta rüzgârlı havada manlift çalışabilir mi?",
+                cevap:
+                    "Rüzgâr, yüksek yapı çevresinde belirgin şekilde etkili olduğundan, üretici sınırlarını aşan rüzgâr koşullarında çalışma geçici olarak durdurulur. Bu karar operatör ve saha sorumlusu tarafından birlikte alınır; güvenlik önceliklidir, iş takvimi buna göre ayarlanır.",
+            },
+            {
+                soru: "Manlift operatörünüz yüksek kule cephesinde deneyimli mi?",
+                cevap:
+                    "Evet, operatörlerimiz yüksek yapı cephesinde çalışmaya özel eğitimlidir ve kule/AVM cephesindeki tekrarlı kat geçişlerinde güvenlik hattı ile sepet kilitleme protokollerine uyar. Şehir merkezindeki kule projelerinde düzenli olarak bu tür işlerde çalışırlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, sitenin mevcut 'eklemli sınıf + yüksek yapı' odağını koruyarak, manliftin aynı kule-AVM cephesi bağlamında dar nokta/hızlı dikey erişim rolünü ve eklemli platformla tamamlayıcı kullanımını anlatır; komşu domainlerin OSB cephe/çatı ve mobilya-otomotiv yan sanayi periyodik bakım odaklarından farklı olarak burada odak şehir merkezi kule/AVM cephesidir.",
+    },
 };

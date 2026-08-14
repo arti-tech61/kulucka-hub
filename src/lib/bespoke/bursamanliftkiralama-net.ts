@@ -2477,4 +2477,198 @@ export const BURSAMANLIFTKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bu domainin mobilya/otomotiv yan sanayi odaklı uzun dönem sözleşme kimliği ve arazi tipi ekipmanın farklı bir uzmanlık alanı olduğu dürüstçe belirtilmiştir; filo kapsam sınırı ve yönlendirme pratiği firma uygulamasıdır. Fiyat rakamı ve tesis adı verilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Mobilya Üretim Holünde Uzun Dönem Makaslı Platform Sözleşmesi",
+        giris:
+            "Makaslı platform, mobilya ve otomotiv yan sanayi tesislerinde en çok talep edilen sınıftır çünkü geniş sepeti ve düz, dikey kalkışı, depo raf koridorları ile üretim holü aydınlatma hatlarının standart işidir — pres hattı üstü kablo tavası bakımından, sevkiyat sundurmasının aydınlatma değişimine kadar geniş bir yelpazeyi tek makineyle karşılar. Bizim yaklaşımımızda makaslı platform tek seferlik bir kiralama kalemi değil, üretim holünün sabit bir bakım aracıdır: sözleşme kurulurken holün koridor genişlikleri, raf yükseklikleri ve zemin taşıma kapasitesi baştan ölçülür, makine tesiste konaklar ve periyodik bakım takvimi bu ölçülere göre planlanır. İnegöl ve çevresindeki mobilya fabrikalarında üçüncü aydan sonra günübirlik çağrı düzenine dönülmediğini gözlemliyoruz; çünkü sabit aylık bedel, plansız kiralamaların toplamının altında kalıyor ve holün her köşesine erişim, önceden konuşulmuş bir rutine dönüşüyor. Otomotiv yan sanayinde ise pres ve boyahane hatları arasındaki geniş servis koridorları, makaslı platformun düz zeminde yüksek kapasiteyle çalışmasına elverişli bir zemin sunar; bu nedenle sözleşmeli filo planlamasında makaslı platform çoğunlukla ilk sırada yer alır.",
+        maddeler: [
+            {
+                baslik: "Üretim holü koridor genişliğine göre şase seçimi",
+                metin:
+                    "Mobilya fabrikalarının depo ve sevkiyat koridorları genellikle 150 santim ve üzerinde düz zemin sunar; bu genişlik standart makaslı platformun elektrikli veya dizel şasesiyle rahatça çalışmasına izin verir. Sözleşme öncesi keşifte koridorun en dar noktası ve kapı genişlikleri ölçülür, makine bu ölçüye göre seçilir — geniş sepetli ağır sınıf mı, yoksa dar gövdeli orta sınıf mı gerektiği burada netleşir.",
+            },
+            {
+                baslik: "Raf üstü ve aydınlatma hattı erişimi",
+                metin:
+                    "Depo raf sistemlerinin üst katları ve tavan aydınlatma hatları, makaslı platformun geniş sepetiyle tek seferde birden fazla noktaya erişim sağlar; operatör sepette malzeme ve alet taşırken aynı anda birkaç armatürü değiştirebilir. Bu, örümcek platform gibi dar gövdeli sınıflara göre iş başına harcanan süreyi kısaltır çünkü sepet kapasitesi daha yüksektir ve geniş çalışma alanı sunar.",
+            },
+            {
+                baslik: "Periyodik bakım turunun sabit noktaları",
+                metin:
+                    "Uzun dönem sözleşmede bakım ekibi her ay aynı sırayla aynı noktaları dolaşır: raf üstü aydınlatma, kablo tavası bağlantıları, sevkiyat sundurması çatı altı, havalandırma kanalı ağızları. Bu rota fabrika ile birlikte çizilir ve makine kartına işlenir; yeni bir nokta eklenmesi gerektiğinde rota bir sonraki ziyarete ek ücretsiz revize edilir.",
+            },
+            {
+                baslik: "Elektrikli ve dizel şase arasında holün ihtiyacına göre seçim",
+                metin:
+                    "Kapalı üretim holünde elektrikli şase egzoz gazı bırakmadığı ve sessiz çalıştığı için tercih edilir; açık sevkiyat alanı veya dış cephe yakınında ise dizel şase daha yüksek tork ve daha uzun çalışma süresi sunar. Sözleşme kurulurken holün kapalı/açık oranına bakılır ve gerekiyorsa iki farklı şase tipi aynı sözleşme altında dönüşümlü kullanılır.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi ve tekerlek izi kontrolü",
+                metin:
+                    "Makaslı platformun ağırlığı örümcek platform veya boom sınıfına göre daha yüksektir; bu yüzden zemin taşıma kapasitesi ve döşeme tipi (endüstriyel epoksi, beton, ahşap taşıyıcı) sözleşme keşfinde kontrol edilir. Hassas döşemeli alanlarda tekerlek koruma pedi kullanılır ve bu, sözleşme ekinde ayrı bir madde olarak belirtilir ki sahada tartışma yaşanmasın.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform ile diğer sınıfların üretim holünde karşılaştırması",
+                paragraflar: [
+                    "Üretim holü ve depo koridorunda hangi sınıfın ne zaman tercih edildiğini aşağıdaki tablo özetler; seçim koridor genişliği, sepet kapasitesi ve çalışma yüksekliğine göre yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Koridor genişliği", "Sepet kapasitesi", "Tipik üretim holü işi"],
+                    satirlar: [
+                        ["Standart makaslı platform", "150 cm ve üzeri", "Yüksek, çok kişilik", "Depo koridoru, raf üstü, aydınlatma hattı"],
+                        ["Dar gövdeli makaslı", "120 cm ve üzeri", "Orta", "Dar koridor, kablo tavası"],
+                        ["Örümcek platform", "90 cm ve üzeri", "Sınırlı", "Dar hat arası nokta bakımı"],
+                        ["Eklemli boom", "Geniş açık alan", "Orta", "Çatı altı geniş tarama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sözleşmeye bağlı konaklama ve holün üretim planına uyum",
+                paragraflar: [
+                    "Makaslı platform uzun dönem sözleşmelerde üretim holünün belirlenen bir köşesinde konaklar; bu köşe forklift trafiğinin dışında ama koridora yakın seçilir ki makine ihtiyaç anında hızlı devreye girsin. Bakım turu ayda bir aynı gün tekrarlanır ve ziyaret takvimi fabrikanın üretim planına göre önceden konuşulur, hat durmasın diye.",
+                    "Fuar hazırlığı veya ihracat sevkiyat yoğunluğu gibi sezonluk tepe dönemlerinde ikinci makine opsiyonu sözleşmeye baştan yazılabilir; durgun dönemde ise makine geçici olarak depoya çekilip bedel askıya alınabilir. Bu esneme maddesi, mobilya sektörünün düzensiz üretim temposuna göre kurgulanmıştır.",
+                ],
+            },
+            {
+                baslik: "Otomotiv yan sanayinde pres-boyahane hattı arası kullanım",
+                paragraflar: [
+                    "Otomotiv yan sanayi tesislerinde pres ve boyahane hatları arasındaki servis koridorları geniş ve düz olduğu için makaslı platform bu bölgede sıkça tercih edilir; asma tavan bakımı, havalandırma kanalı temizliği ve boya kabini üstü kontrol işleri bu sınıfla yapılır. Boyahane yakınında kullanılacaksa şase tipi (kıvılcım riski nedeniyle elektrikli tercih edilir) sözleşme öncesi netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile örümcek platform arasında hangisini seçmeliyiz?",
+                cevap:
+                    "Seçim koridor genişliği ve iş hacmine bağlıdır. Makaslı platform daha geniş sepete ve daha yüksek taşıma kapasitesine sahiptir ama en az 120-150 santim düz koridor ister; örümcek platform daha dar geçebilir ama sepet yükü sınırlıdır. Depo koridoru ve raf üstü işlerde makaslı platform, dar hat arası nokta bakımında örümcek platform önerimizdir; keşifte ikisini de gösterip kararı birlikte veririz.",
+            },
+            {
+                soru: "Elektrikli mi dizel mi makaslı platform almalıyız, ikisi arasındaki fark ne?",
+                cevap:
+                    "Kapalı üretim holünde elektrikli şase önerilir çünkü egzoz gazı bırakmaz ve daha sessizdir, vardiya devam ederken bile çalışılabilir. Açık sevkiyat alanı veya uzun süreli dış mekân işinde dizel şase daha yüksek tork ve daha uzun çalışma süresi sunar. Sözleşme kurulurken holün kapalı/açık kullanım oranına bakılır; bazı sözleşmelerde iki tip aynı anda tanımlanıp ihtiyaca göre dönüşümlü kullanılır.",
+            },
+            {
+                soru: "Sözleşme süresi boyunca periyodik bakım ne sıklıkla yapılıyor, ek ücret var mı?",
+                cevap:
+                    "Standart periyodik bakım aylık bir ziyaretle yapılır ve sözleşme bedeline dahildir; hidrolik yağ, akü, pim-burç yağlama ve yıllık fenni muayene bu kapsamdadır. Rotaya yeni bir nokta eklenmesi (örneğin yeni bir raf hattı) ek ücret gerektirmez, sadece bir sonraki ziyarete rota revize edilir. Arıza dışı ekstra bakım talebi olursa bu ayrıca değerlendirilir ve önceden fiyatlandırılır.",
+            },
+            {
+                soru: "Fuar öncesi yoğun dönemde ikinci bir makaslı platform kiralayabilir miyiz?",
+                cevap:
+                    "Evet, bu ihtiyaç mobilya sektöründe sık karşılaştığımız bir durumdur. Yıllık sözleşmelerde sezonluk tepe dönemleri (fuar hazırlığı, ihracat yüklemesi) baştan konuşulur ve ikinci makine opsiyonu sözleşmeye yazılabilir; bu opsiyon devreye girdiğinde ek bedel yalnızca kullanılan süre için hesaplanır, yıl boyunca sabit ikinci makine kirası ödenmez.",
+            },
+            {
+                soru: "Hassas döşemeli bir üretim holünde makaslı platform tekerlek izi bırakır mı?",
+                cevap:
+                    "Ağır sınıf olduğu için standart lastikle hassas epoksi veya ahşap taşıyıcı zeminde iz riski vardır. Bu riski önlemek için tekerlek koruma pedi veya iz bırakmayan lastik seçeneği sözleşme keşfinde belirlenir ve gerekli görülen alanlarda standart uygulama hâline getirilir; bu madde sözleşme ekine yazılır ki sahada belirsizlik olmasın.",
+            },
+            {
+                soru: "Otomotiv yan sanayi tesisinde boyahane yakınında makaslı platform kullanmak güvenli mi?",
+                cevap:
+                    "Boyahane ve kıvılcım riski taşıyan alanlarda dizel veya kıvılcım üretebilecek ekipman yerine elektrikli şase tercih edilir; bu, hem güvenlik hem yangın riski açısından standart uygulamamızdır. Sözleşme öncesi keşifte tesisin ATEX veya benzeri özel bölge tanımı varsa bu bilgi paylaşılır ve makine seçimi buna göre yapılır; boyahane dışındaki genel üretim alanında dizel şase de kullanılabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun sepet kapasitesi, şase tipi farkları ve zemin etkileşimi kamuya açık teknik bilgidir; sözleşme rotası, sezonluk esneme maddesi ve şase seçim pratiği firma uygulamasıdır. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Mobilya ve Otomotiv Yan Sanayinde Manlift Filosu Yönetimi",
+        giris:
+            "Manlift kiralama, tek makineyi bir kez kiralamaktan ibaret bir işlem değil; mobilya ve otomotiv yan sanayi tesislerinde sürekli tekrar eden bir bakım ihtiyacının filo düzeyinde yönetilmesidir. Bir fabrikada aynı anda birden fazla makine sınıfına ihtiyaç doğar — depo koridorunda makaslı platform, dar hat arasında örümcek platform, çatı altı geniş taramada eklemli boom — ve bu sınıfların hangi ayda, hangi noktada, hangi sıklıkla kullanılacağı tek bir filo planı altında toplanmadığında hem bütçe hem takvim dağınıklaşır. Bizim uzun dönem sözleşme modelimizde filo yönetimi devredilir: hangi sınıfın hangi hatta konaklayacağı, periyodik bakımın kim tarafından ve ne sıklıkla yapılacağı, arıza hâlinde ikamenin nasıl işleyeceği tek bir sözleşme dosyasında toplanır. İnegöl ve çevresindeki mobilya fabrikaları ile otomotiv yan sanayi tesislerinde bu model, işletmenin teknik kadrosunun kendi üretim hattına odaklanmasını, manlift filosunun bakım ve erişim yükünü ise bize bırakmasını sağlar; her sınıf için ayrı ayrı günübirlik çağrı yapmak yerine, tek bir filo sözleşmesiyle tüm ihtiyaç karşılanır.",
+        maddeler: [
+            {
+                baslik: "Tek tesiste birden fazla sınıfın filo altında toplanması",
+                metin:
+                    "Orta ve büyük ölçekli mobilya fabrikalarında genellikle tek bir manlift sınıfı yetmez: depo koridoru için makaslı platform, dar hat arası için örümcek platform, çatı altı geniş alan için eklemli boom aynı tesiste farklı noktalarda görev yapar. Filo sözleşmesinde bu sınıflar tek bir plan altında toplanır — hangi makinenin nerede konaklayacağı, hangi ayda hangi noktaya gideceği baştan tanımlanır ve işletme tek bir fatura ve tek bir takvimle muhatap olur.",
+            },
+            {
+                baslik: "Periyodik bakım takviminin filo genelinde koordinasyonu",
+                metin:
+                    "Filodaki her makinenin bakım tarihi farklı olursa tesise ayda birkaç kez ayrı ayrı bakım ekibi gelir, bu da üretim akışını böler. Filo sözleşmesinde bakım takvimi koordineli kurulur — mümkün olduğunda aynı hafta içinde farklı sınıfların bakımı art arda planlanır, tek bir ziyaret penceresinde birden fazla makine kontrol edilir ve tesisin üretim planına müdahale asgari düzeyde tutulur.",
+            },
+            {
+                baslik: "Arıza hâlinde filo içi ikame önceliği",
+                metin:
+                    "Tek makine sözleşmesinde arıza olduğunda ikame makine dışarıdan getirilir ve bu süre kısa da olsa bir bekleme yaratır. Filo sözleşmesinde, aynı tesiste birden fazla sınıf bulunduğu için bazı durumlarda geçici ihtiyaç filodaki başka bir makineyle kısmen karşılanabilir (örneğin makaslı platform arızalanırsa geçici olarak örümcek platform devreye alınabilir); kalıcı ikame yine de standart sürede sağlanır, bu geçici çözüm sadece boşluğu kısaltır.",
+            },
+            {
+                baslik: "Sezonluk kapasite planlaması filo düzeyinde",
+                metin:
+                    "Mobilya sektöründe fuar hazırlığı ve ihracat yüklemesi, otomotiv yan sanayinde ise model değişimi dönemleri filonun tamamında ek kapasite ihtiyacı doğurur. Filo sözleşmesinde bu tepe dönemleri baştan konuşulur ve hangi sınıftan kaç ek ünitenin hangi ay devreye gireceği önceden planlanır; işletme her yıl aynı dönemde yeniden pazarlık yapmak zorunda kalmaz.",
+            },
+            {
+                baslik: "Operatör eğitiminin filo genelinde standartlaştırılması",
+                metin:
+                    "Farklı manlift sınıflarının kontrol düzeni birbirinden farklıdır (paletli tahrik, dikey kalkış, eklemli boom kolu); filo sözleşmesinde operatör eğitimi tesisin tüm makine parkına göre tek seferde ve standart bir modülle verilir. Yeni operatör geldiğinde veya filoya yeni bir sınıf eklendiğinde eğitim modülü güncellenir, ek bedel istenmez — bu, sözleşmenin doğal bir parçasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tek makine kiralama ile filo sözleşmesinin karşılaştırması",
+                paragraflar: [
+                    "İhtiyaç tek sınıfla mı yoksa birden fazla sınıfla mı karşılanıyor, bu karar filo sözleşmesinin mantıklı olup olmadığını belirler. Aşağıdaki tablo iki modelin temel farklarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Tek makine sözleşmesi", "Filo sözleşmesi"],
+                    satirlar: [
+                        ["Sınıf sayısı", "Tek sınıf, tek nokta", "Birden fazla sınıf, çoklu nokta"],
+                        ["Bakım takvimi", "Ayrı ayrı planlanır", "Koordineli, tek pencerede"],
+                        ["Fatura düzeni", "Sınıf başına ayrı", "Tek konsolide fatura"],
+                        ["Sezonluk esneme", "Tek makine üzerinden", "Filo genelinde toplu planlama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Filo sözleşmesinin kurulma süreci",
+                paragraflar: [
+                    "Filo sözleşmesi tek bir keşifle başlamaz; tesisin farklı bölümleri (depo, üretim hattı, sevkiyat alanı, çatı altı) ayrı ayrı gezilir ve her bölüm için hangi sınıfın uygun olduğu belirlenir. Bu keşif sonunda tek bir filo planı çıkar — hangi makine nerede konaklayacak, hangi ay hangi bakım yapılacak, hangi noktada ikame önceliği var.",
+                    "İlk üç ay genellikle deneme dönemi olarak işletilir; bu dönemde filonun gerçek kullanım verisi toplanır ve plan gerekiyorsa revize edilir. Bazı tesislerde ilk planlanan sınıf sayısı yetersiz çıkabilir veya fazla gelebilir, bu üç aylık veri kararın dayanağıdır.",
+                ],
+            },
+            {
+                baslik: "Otomotiv yan sanayinde filo ihtiyacının mobilyadan farkı",
+                paragraflar: [
+                    "Otomotiv yan sanayi tesislerinde filo ihtiyacı genellikle pres, kaynak ve boyahane hatlarının farklı erişim gereksinimlerinden doğar; boyahane yakınında elektrikli şase zorunluluğu, pres hattı üstünde ise yüksek sepet kapasitesi öne çıkar. Mobilya fabrikasına göre daha fazla şase-tipi çeşitliliği gerekebilir, bu da filo planının bu farkı baştan tanımlamasını gerektirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Filo sözleşmesi ile tek tek makine kiralamak arasındaki fark ne, hangisi bize uygun?",
+                cevap:
+                    "Tesisinizde tek bir sınıf ve tek bir nokta ihtiyacı varsa tek makine sözleşmesi yeterlidir. Ancak birden fazla bölümde (depo, üretim hattı, çatı altı) farklı sınıflara ihtiyaç varsa, bunları ayrı ayrı yönetmek yerine filo sözleşmesiyle tek bir plan, tek bir bakım takvimi ve tek bir fatura altında toplamak hem takip kolaylığı hem toplu görüşmede maliyet avantajı sağlar. Karar, keşifte tesisin gerçek ihtiyaç haritası çıkarılarak birlikte verilir.",
+            },
+            {
+                soru: "Filodaki makinelerin bakım günleri birbirinden farklı mı, yoksa hepsi aynı gün mü yapılıyor?",
+                cevap:
+                    "Mümkün olduğunda aynı hafta içinde koordine edilir ama her makinenin bakım ihtiyacı (yağ değişimi, akü kontrolü gibi) farklı zaman noktalarına denk gelebileceği için tam olarak aynı gün garantisi verilmez. Filo planında hedef, tesise ayrı ayrı çok sayıda ziyaret yerine mümkün olan en az sayıda koordineli pencere yaratmaktır; bu program sözleşme kurulurken netleştirilir.",
+            },
+            {
+                soru: "Filodaki bir makine arızalanırsa üretim durur mu, ne kadar sürede çözülüyor?",
+                cevap:
+                    "Filoda birden fazla sınıf bulunduğu için bazı durumlarda geçici ihtiyaç filodaki başka bir makineyle kısmen karşılanabilir, bu üretimin tamamen durmasını önler. Kalıcı ikame ise standart sürede (sözleşmede tanımlı ikame süresi) sağlanır; bu süre tek makine sözleşmesiyle aynıdır, filo sözleşmesi bu süreyi kısaltmaz ama geçici köprü çözüm imkânı sunar.",
+            },
+            {
+                soru: "Filoya sonradan yeni bir sınıf eklemek mümkün mü, sözleşme yeniden mi yazılıyor?",
+                cevap:
+                    "Evet, mümkündür ve sözleşmenin tamamı yeniden yazılmaz. Yeni sınıf ihtiyacı doğduğunda (örneğin yeni bir üretim hattı açıldığında) mevcut filo sözleşmesine ek madde olarak yeni makine ve onun bakım takvimi eklenir; bu, ayrı bir sözleşme süreci başlatmaktan daha hızlı işler ve mevcut fatura düzenine entegre edilir.",
+            },
+            {
+                soru: "Otomotiv yan sanayi tesisinde boyahane ve pres hattı için farklı şase tipleri mi gerekiyor?",
+                cevap:
+                    "Genellikle evet. Boyahane ve kıvılcım riski taşıyan alanlarda elektrikli şase zorunlu tutulur, pres hattı üstü gibi geniş açık alanlarda ise dizel şase daha yüksek tork sunabilir. Filo planı kurulurken tesisin her bölümü için uygun şase tipi ayrı ayrı belirlenir ve bu bilgi filo dosyasına işlenir; sahada yanlış makine gönderme riski böylece azaltılır.",
+            },
+            {
+                soru: "İlk üç ay deneme dönemi dediğiniz süreçte plan değişirse ek ücret öder miyiz?",
+                cevap:
+                    "Hayır, ilk üç aylık dönemde toplanan kullanım verisine göre yapılan plan revizyonu (sınıf sayısını artırma, azaltma veya bakım sıklığını değiştirme) ek ücret gerektirmez; bu revizyon sürecin doğal bir parçasıdır. Yalnızca filoya tamamen yeni bir sınıf eklenmesi durumunda o sınıfın kendi kira bedeli sözleşmeye eklenir, mevcut makinelerin bedelinde değişiklik olmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift sınıflarının erişim ve kontrol farkları kamuya açık teknik bilgidir; filo planlama süreci, koordineli bakım penceresi ve deneme dönemi pratiği firma uygulamasıdır. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
 };

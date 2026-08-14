@@ -2275,4 +2275,201 @@ export const BURSAMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Hasanağa OSB ve İnegöl OSB'nin genişleme aşamasında parseller barındırdığı kamuya açık bilgidir; zemin değerlendirme ve makine sınıfı seçim kriterleri firma pratiğidir.",
     },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bursa OSB Cephelerinde Manlift Kiralama: Eklemli ve Teleskopik Sınıf",
+        giris:
+            "'Manlift' kelimesi Bursa sanayi bölgelerinde neredeyse her yükseklik erişim işi için kullanılır ama bizim işimizin tam karşılığı dış kabuktur — bir tesisin cephesi, çatısı, saçak hattı ve ışıklıkları. Nilüfer'deki Bursa OSB'nin köklü çatılarından DOSAB'ın geniş sandviç panel cephelerine, Hasanağa'nın yeni yatırım kabuklarına kadar bu sayfa manlift kelimesinin sahadaki iki gerçek karşılığını anlatıyor: eklemli bom, kırılan kol sayesinde saçak altına ve çıkmalara girer; teleskopik bom, uzun ve engelsiz cephe hatlarını tek konumdan tarar. İkisi de dış kabuk işi için tasarlanmıştır ama hangi cephenin hangi sınıfı istediği, binanın geometrisine bağlıdır — düz ve uzun bir cephe teleskopiği, girintili-çıkıntılı bir saçak hattı eklemliyi ister. Bu sayfa, cephe ve çatı erişiminde manlift kelimesinin arkasındaki bu ayrımı, Bursa'nın sanayi mimarisi üzerinden somutlaştırıyor; müşteri 'manlift' dediğinde biz binanın fotoğrafını isteriz çünkü doğru sınıf, kelimeden değil cephenin şeklinden çıkar.",
+        maddeler: [
+            {
+                baslik: "Eklemli bom: kırılan kolun cephedeki karşılığı",
+                metin:
+                    "Eklemli bomun tanımlayıcı özelliği kolun birden fazla noktadan kırılabilmesidir — bu, saçak altına girip yukarı doğru uzanmayı, bir çıkmanın arkasına dolanmayı veya iki bina arasındaki dar bir aralığı taramayı mümkün kılar. Bursa OSB'nin eski kuşak tesislerinde giriş kanopileri, yükleme rampası üstü sundurmalar ve ana binadan öne taşan saçaklar bu geometriyi sık üretir; teleskopik bir kolun düz uzanışı bu tür engellerin arkasına geçemez. Eklemli sınıf, cephenin düzensiz olduğu her noktada birinci tercihtir.",
+            },
+            {
+                baslik: "Teleskopik bom: uzun ve düz cephe hattında verim",
+                metin:
+                    "Teleskopik bom kolun tek eksende uzayıp kısalmasıyla çalışır; kırılım yoktur ama menzil ve yük kapasitesi genellikle eklemliden yüksektir. DOSAB gibi bölgelerdeki geniş sandviç panel cephelerde, engelsiz ve uzun bir hat boyunca panel derzi taranacaksa teleskopik makine bir konumdan geniş bir alanı kapsar ve konum değiştirme sayısı azalır. Bu, hem işi hızlandırır hem de zemindeki makine iz sayısını azaltır — özellikle asfalt veya peyzajlı sahalarda önemli bir ayrıntıdır.",
+            },
+            {
+                baslik: "Çatı ışıklığı ve saçak detaylarında sınıf kararı",
+                metin:
+                    "Çatı ışıklıklarının kenar detayları ve damlalık profilleri genellikle saçak hattının hemen altında kalır; buraya ulaşmak için kolun yukarı doğru kırılması gerekir, bu da eklemli sınıfın alanıdır. Buna karşılık çatının orta bölümündeki geniş ışıklık şeritlerinin üstten kontrolü, düz bir teleskopik uzanışla daha hızlı tamamlanır. Bir çatı işi genellikle iki bölgeyi de içerir; keşifte ışıklık planı görüldüğünde hangi bölümün hangi sınıfla çalışılacağı önceden belirlenir, sahada makine değişikliğine gerek kalmaz.",
+            },
+            {
+                baslik: "Zemin ve şase genişliği: OSB avlusunda manevra",
+                metin:
+                    "Teleskopik bomlar genellikle daha ağır ve geniş şaseli olur; bu, geniş açık OSB avlularında sorun yaratmaz ama dar bir servis yolunda veya sıkışık bir parselde manevrayı zorlaştırabilir. Eklemli sınıfın nispeten kompakt şasesi, dar geçişlerde ve düzensiz avlu planlarında daha rahat hareket eder. Zemin taşıma kapasitesi de iki sınıf için farklı değerlendirilir — teleskopiğin ağırlığı, özellikle yeni dökülmüş veya henüz tam sertleşmemiş beton üzerinde ayrı bir kontrol gerektirir.",
+            },
+            {
+                baslik: "Kış mevsiminde manlift planlaması",
+                metin:
+                    "Uludağ eteğinin iklimi, Bursa OSB'lerindeki açık alan manlift işlerini kış aylarında sınırlar — rüzgâr hızı, kar yağışı ve donmuş zemin, hem eklemli hem teleskopik sınıfın güvenli çalışma koşullarını etkiler. Sonbahar sonunda planlanan oluk-dere kontrolü ve cephe son turu, kışın acil müdahale ihtiyacını azaltan standart bir uygulamadır. Kar yağışlı bir günde planlı iş varsa, hava durumuna göre erteleme kararını biz açıkça bildiririz; riskli havada makineyi zorlamayız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli ve teleskopik sınıf karşılaştırması",
+                paragraflar: [
+                    "Bursa OSB cephelerinde iki manlift sınıfının tipik kullanım alanı ve karar kriteri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Eklemli bom", "Teleskopik bom", "Karar noktası"],
+                    satirlar: [
+                        ["Cephe geometrisi", "Girintili, çıkıntılı, saçaklı", "Düz, uzun, engelsiz", "Fotoğrafla ilk ayrım"],
+                        ["Menzil/kapasite", "Orta", "Genellikle daha yüksek", "Geniş cephede teleskopik avantajlı"],
+                        ["Şase genişliği", "Nispeten kompakt", "Daha geniş", "Dar avluda eklemli"],
+                        ["Konum sayısı", "Sık konum değişimi", "Az konum, geniş kapsama", "Uzun hatta teleskopik verimli"],
+                        ["Saçak altı erişim", "Kolun kırılımıyla mümkün", "Genellikle mümkün değil", "Kanopi/çıkma varsa eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda doğru sınıfı belirlemek",
+                paragraflar: [
+                    "'Manlift lazım' cümlesi tek başına hangi sınıfın gerektiğini söylemez — bu yüzden ilk sorumuz her zaman binanın cephe geometrisidir: düz mü, girintili mi; saçak, kanopi veya çıkma var mı; hedef yükseklik ve cephe uzunluğu ne kadar. Bir fotoğraf, bu soruların çoğunu telefonda cevaplar ve doğru sınıf, sahaya çıkmadan önce netleşir.",
+                    "Bazı işlerde tek sınıf yetmez — örneğin uzun düz bir cephenin köşesinde bir kanopi varsa, teleskopik gövde işi ve eklemli kanopi detayını aynı günde iki farklı makineyle veya bir makinenin iki farklı konumlandırmasıyla çözeriz. Bu ayrım keşifte planlanır, sahada doğaçlama yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Manlift kiralamada operatör ve süre seçenekleri",
+                paragraflar: [
+                    "Manlift hem operatörlü hem operatörsüz (müşterinin kendi eğitimli personeliyle) kiralanabilir; operatörsüz seçenekte kullanıcı belgesi ve makineye özgü kısa bir bilgilendirme şarttır. Süre esnekliği günlük tek seferlik işlerden haftalık-aylık dönemsel bakım programlarına kadar uzanır; OSB'deki büyük tesislerin çoğu, sonbahar-ilkbahar dönemlerinde planlı iki turluk bir program tercih eder.",
+                    "Kısa süreli acil bir ihtiyaçta (örneğin fırtına sonrası hasar tespiti) aynı gün makine yönlendirmesi mümkündür; bu durumlarda sınıf kararı telefonda fotoğrafla hızlıca verilir, keşif işin ortasında tamamlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli mi teleskopik mi, hangisini seçmeliyiz?",
+                cevap:
+                    "Kararı cephenin geometrisi verir: saçak, kanopi, çıkma veya iki bina arası dar aralık varsa eklemli bom kolun kırılımıyla bu engellerin arkasına ulaşır; cephe düz ve uzunsa teleskopik bom bir konumdan geniş bir alanı tarayarak işi hızlandırır. Fotoğrafla gelen taleplerde bu ayrım telefonda büyük oranda netleşir, kesin karar için kısa bir keşif önerilir.",
+            },
+            {
+                soru: "Manlift OSB avlusunda manevra yapabilir mi, avlumuz dar?",
+                cevap:
+                    "Avlunun genişliğine ve makinenin şase ölçüsüne bağlı — eklemli sınıf genellikle daha kompakt şaseye sahiptir ve dar avlularda daha rahat manevra eder, teleskopik sınıfın şasesi daha geniştir ve açık alan ister. Avlu ölçüsünü ve giriş genişliğini keşifte veya fotoğrafla paylaşırsanız, uygun sınıfı ve güzergahı önceden netleştiririz.",
+            },
+            {
+                soru: "Çatımızdaki ışıklıkların kenar detayına ulaşabilir miyiz?",
+                cevap:
+                    "Işıklık kenar detayları ve damlalık profilleri genellikle saçak hattının hemen altında kalır, bu yüzden kolun yukarı kırılabildiği eklemli sınıf bu işte tercih edilir. Çatının orta bölümündeki geniş ışıklık şeritleri ise teleskopik bir uzanışla daha hızlı taranır. Çatı planınızı paylaşırsanız hangi bölümün hangi sınıfla çalışılacağını önceden belirleriz.",
+            },
+            {
+                soru: "Kış aylarında manlift kiralamak mümkün mü, hava koşulu engel mi?",
+                cevap:
+                    "Mümkün ama koşullu — rüzgâr hızı, kar yağışı ve donmuş zemin, açık alan manlift işlerini güvenlik açısından sınırlar. Bu yüzden kış öncesi (sonbahar) planlı bir cephe-çatı turu öneririz; kış ortasında acil bir ihtiyaç çıkarsa o günkü hava durumuna göre işi yapıp yapamayacağımızı açıkça bildiririz, riskli havada makineyi veya operatörü zorlamayız.",
+            },
+            {
+                soru: "Operatörlü mü kiralarız, yoksa kendi personelimiz mi kullanabilir?",
+                cevap:
+                    "İkisi de mümkündür. Operatörlü kiralamada makineyi bizim eğitimli operatörümüz kullanır, süre boyunca sahada bulunur. Operatörsüz seçenekte müşterinin kendi personeli kullanır ancak geçerli kullanıcı belgesi ve makineye özgü kısa bir bilgilendirme şarttır — bu bilgilendirme teslimat sırasında sahada yapılır, ek ücret gerektirmez.",
+            },
+            {
+                soru: "Cephemizde hem düz uzun bir kısım hem de bir kanopi var, tek makine yeter mi?",
+                cevap:
+                    "Bu durumda genellikle iki farklı erişim ihtiyacı vardır: düz uzun kısım teleskopik sınıfla verimli çalışılır, kanopi detayı ise eklemli sınıfın kol kırılımını ister. Sahaya göre bunu ya iki makineyle aynı gün, ya da tek makinenin iki farklı konumlandırmasıyla (mümkünse) çözeriz. Keşifte cephenin tam planını görüp hangi yöntemin daha ekonomik olduğunu netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli ve teleskopik bom sınıflarının kol geometrisi ve şase farkları sektör genelinde bilinen teknik gerçeklerdir; Bursa OSB'lerindeki cephe tipolojisi ve karar kriterleri firma pratiğidir.",
+    },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bursa OSB Üretim Hollerinde Makaslı Platform Kiralama",
+        giris:
+            "Manlift kelimesi bu domainde dış kabuğu — cepheyi, çatıyı, saçağı — anlatıyor ama bir OSB tesisinin çoğu yükseklik işi aslında dışarıda değil, üretim holünün içinde geçer: aydınlatma armatürü değişimi, çelik konstrüksiyon boyası, HVAC kanal bakımı, raf üstü depolama düzenlemesi. Bu iç mekân işlerinin standart cevabı makaslı platformdur — dikey olarak yükselen, geniş ve düz bir çalışma sepetine sahip, düz zeminde en kararlı ve en ekonomik sınıf. Eklemli veya teleskopik bom bir cephenin engebeli geometrisini aşmak için tasarlanmışken, makaslı platform tam tersini yapar: geniş ve düz bir tabanda, doğrudan yukarı, geniş bir sepet alanıyla çalışır. Bursa OSB, DOSAB ve Hasanağa'daki üretim tesislerinin iç mekânlarında tavan yüksekliği genellikle 8-14 metre bandındadır ve zemin beton kaplıdır — bu iki koşul birlikte makaslı platformu neredeyse varsayılan seçim hâline getirir. Bu sayfa, aynı tesislerin dışında manlift, içinde neden makaslı platform konuştuğumuzu ve bu tercihin hangi koşullarda değiştiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Düz zeminde geniş sepet: üretim holünün standardı",
+                metin:
+                    "Makaslı platformun sepeti, eklemli veya teleskopik bomun sepetinden belirgin biçimde geniştir — bu, aynı anda iki kişinin veya bir kişiyle birlikte malzeme ve aletin sepette bulunabilmesi demektir. Üretim holündeki aydınlatma değişimi, kablo tavası çekimi veya boru hattı bakımı gibi işlerde bu geniş taban, işi tek çıkışta bitirmeyi mümkün kılar. Ancak bu avantaj yalnızca düz ve sağlam zeminde geçerlidir; holün zemini düzensizse veya eğimliyse makaslı sınıf dengesini kaybedebilir, bu durumda farklı bir sınıfa geçilir.",
+            },
+            {
+                baslik: "Raf arası koridorlarda şase genişliği sınırı",
+                metin:
+                    "OSB depo ve üretim tesislerinde raf sistemleri arasındaki koridor genişliği genellikle standarttır ama her makaslı model bu koridora sığmaz — dar şaseli modeller koridor arasına girip raf üstü işleri yapabilirken, geniş taban plakalı büyük kapasiteli modeller koridora sığmayabilir. Keşifte koridor genişliği ölçülür, raf üstü çalışma yüksekliği ile birlikte uygun model netleştirilir. Ölçü paylaşılmadan model önerisi vermeyiz çünkü yanlış şaseyle gelen makine, koridora giremeyip geri döner.",
+            },
+            {
+                baslik: "Akülü güç: kapalı alan zorunluluğu",
+                metin:
+                    "Üretim holü gibi kapalı bir alanda dizel motorlu makine kullanmak egzoz emisyonu nedeniyle mümkün değildir; makaslı platformların büyük çoğunluğu zaten akülü tasarlanmıştır ve bu tesadüf değildir. Akülü model sessiz çalışır, üretim gürültüsünü artırmaz ve vardiya arasında standart prizle şarj edilebilir. Kesintisiz çok vardiyalı bir çalışma planlanıyorsa akü kapasitesi ve şarj penceresi teslimat öncesi netleştirilir, işin ortasında akü bitmesi riskine karşı önceden planlama yapılır.",
+            },
+            {
+                baslik: "Çelik konstrüksiyon ve tesisat bakımında verim",
+                metin:
+                    "Yeni kurulan üretim hollerinde çelik konstrüksiyon boyası ve montaj kontrolü, kolon-kiriş hattı boyunca ilerleyen bir iştir; makaslı platform, koridor genişliği yeterliyse bu hat boyunca konum değiştirerek çalışır ve her konumda geniş sepet alanı sayesinde ekip birlikte hareket edebilir. HVAC kanal bakımı ve sprinkler hattı kontrolü de aynı avantajdan yararlanır — geniş sepet, alet ve yedek parçanın sepette taşınmasını, sık sık aşağı inip çıkma ihtiyacını ortadan kaldırarak işi hızlandırır.",
+            },
+            {
+                baslik: "Ne zaman makaslı yerine farklı sınıf gerekir",
+                metin:
+                    "Üç durumda makaslı platformu önermeyiz: zemin düzensiz veya eğimliyse (dengesizlik riski), hedef nokta bir duvarın veya makinenin arkasında kalıp dikey erişimle ulaşılamıyorsa (kol kırılımı gerekiyorsa eklemli sınıf), veya çalışma alanı raf koridorundan daha darsa. Bu durumlarda makaslı sınıfı zorlamak yerine iç mekâna uygun kompakt kollu veya farklı bir sınıf önerilir; keşifte holün planı ve engel durumu görüldüğünde bu karar netleşir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üretim holü işlerinde tipik metraj ve model seçimi",
+                paragraflar: [
+                    "Bursa OSB üretim tesislerinde en sık karşılaştığımız iç mekân işleri, tipik tavan yüksekliği ve önerilen makaslı model sınıfı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İç mekân işi", "Tipik tavan yüksekliği", "Önerilen sınıf", "Not"],
+                    satirlar: [
+                        ["Aydınlatma armatürü değişimi", "8-10 m", "Standart akülü makaslı", "Geniş sepet, ekip birlikte"],
+                        ["Raf üstü depolama düzeni", "10-12 m", "Dar şaseli makaslı", "Koridor genişliği ölçülür"],
+                        ["Çelik konstrüksiyon boyası", "10-14 m", "Standart akülü makaslı", "Kolon-kiriş hattı boyunca"],
+                        ["HVAC kanal / sprinkler bakımı", "8-12 m", "Standart akülü makaslı", "Alet-parça sepette taşınır"],
+                        ["Duvar dibi / makine arkası erişim", "Değişken", "Kompakt kollu (makaslı değil)", "Dikey erişim yetmez"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin kontrolü: makaslı platformun ön koşulu",
+                paragraflar: [
+                    "Makaslı platform, dört tekerlek üzerinde dengede durur ve bu denge düz zemine bağlıdır; yeni dökülmüş, henüz tam sertleşmemiş beton veya eğimli bir rampa üzerinde stabilitesi bozulabilir. Üretim holünün zemini genellikle epoksi kaplı düz betondur ve bu, makaslı sınıf için idealdir — ama bazı eski tesislerde zemin kotu bölüm bölüm değişebilir, bu durumda keşifte kot farkı ölçülür.",
+                    "Epoksi veya perdahlı beton zeminde standart siyah lastik iz bırakabilir; bu tür hassas zeminlerde iz bırakmayan (beyaz dolgu) lastikli model tercih edilir. Zemin türünü önceden bildirmeniz, doğru lastik tipiyle gelen makineyi ilk seferde göndermemizi sağlar.",
+                ],
+            },
+            {
+                baslik: "Dış kabuk işiyle aynı ziyarette iç mekân planlaması",
+                paragraflar: [
+                    "Bir tesiste hem cephe-çatı (manlift) hem üretim holü içi (makaslı platform) işi varsa, bu ikisini aynı ziyaret programına yazmak lojistik açıdan avantajlıdır — tek nakliye organizasyonu, iki farklı makine sınıfını sahaya taşır ve iş takvimi tek seferde kurulur. Dış kabuk işi mevsime bağlıyken (kış rüzgârı, yağış), iç mekân işi hava koşulundan bağımsızdır; bu farkı bilerek, dış işi uygun havaya, iç işi ise esnek bir tarihe yazarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim holümüzde aydınlatma değişimi yapacağız, hangi platform uygun?",
+                cevap:
+                    "Tavan yüksekliği 8-14 metre bandındaysa ve zemin düz betonsa, standart akülü makaslı platform bu iş için en pratik seçenektir — geniş sepeti sayesinde ekip ve malzeme birlikte taşınır, tek çıkışta çok sayıda armatür değiştirilebilir. Tavan yüksekliğini ve holün genel planını paylaşırsanız uygun model kapasitesini netleştiririz.",
+            },
+            {
+                soru: "Raf sistemimiz var, makaslı platform raflar arasına girer mi?",
+                cevap:
+                    "Koridor genişliğine bağlı — dar şaseli makaslı modeller standart raf koridorlarına girip raf üstü işleri yapabilir, ama her model bu genişliğe sığmaz. Koridor genişliğini ve raf üstü hedef yüksekliği keşifte ölçeriz; ölçü net gelmeden model önermeyiz çünkü yanlış şaseyle gelen makine koridora giremeyip geri döner.",
+            },
+            {
+                soru: "Kapalı alanda dizel makine kullanabilir miyiz, gürültü ve egzoz sorun olur mu?",
+                cevap:
+                    "Kapalı üretim holünde dizel motorlu makine egzoz emisyonu nedeniyle kullanılamaz; bu yüzden iç mekân işlerinde standart olarak akülü makaslı platform gönderilir. Akülü model sessiz çalışır ve üretim gürültüsünü artırmaz, vardiya arasında standart prizle şarj edilir. Çok vardiyalı kesintisiz bir çalışma planlıyorsanız akü kapasitesini önceden konuşuruz.",
+            },
+            {
+                soru: "Zeminimiz epoksi kaplı, makine iz bırakır mı?",
+                cevap:
+                    "Standart siyah lastikli tekerlekler hassas epoksi veya perdahlı beton zeminde iz bırakabilir; bu durumda iz bırakmayan beyaz dolgu lastikli model tercih edilir. Zemin türünüzü teslimat öncesi bildirmeniz, doğru lastik tipiyle gelen makineyi ilk seferde göndermemizi sağlar, sahada lastik değişimiyle vakit kaybetmeyiz.",
+            },
+            {
+                soru: "Hem çatımızda hem üretim holümüzde iş var, tek ziyarette hallolur mu?",
+                cevap:
+                    "Genellikle evet — dış kabuk (çatı-cephe) işi için manlift, iç mekân işi için makaslı platform olmak üzere iki farklı makine sınıfını tek nakliye organizasyonuyla sahaya taşırız. Dış iş hava koşuluna bağlıyken iç iş bağımsızdır; bu farkı bilerek programı buna göre kurarız, tek ziyarette iki işi de planlarız.",
+            },
+            {
+                soru: "Zeminimiz düz değil, hafif eğimli bir rampa var; makaslı platform çalışabilir mi?",
+                cevap:
+                    "Makaslı platform dengesi düz zemine dayanır; belirgin eğimli veya düzensiz zeminde stabilite riski oluşur ve bu tür alanlarda makaslı sınıfı önermeyiz. Eğimli veya düzensiz bölgeler için kol kırılımıyla farklı açılardan denge kurabilen kompakt kollu sınıf değerlendirilir. Zeminin eğim durumunu keşifte ölçüp hangi sınıfın güvenli olduğunu netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun sepet genişliği, akülü güç yapısı ve zemin bağımlılığı sektör genelinde bilinen teknik gerçeklerdir; Bursa OSB üretim hollerindeki tavan yüksekliği aralığı ve karar kriterleri firma pratiğidir.",
+    },
 };
