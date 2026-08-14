@@ -104,6 +104,37 @@ export default async function HizmetSayfasi({ params }: { params: Promise<{ slug
                     ))}
                 </div>
 
+                {hizmet.ekBolumler?.map((b) => (
+                    <section key={b.baslik} className="mt-16">
+                        <h2 className="text-2xl font-black tracking-tight text-fg">{b.baslik}</h2>
+                        {b.paragraflar.map((p, i) => (
+                            <p key={i} className="mt-4 leading-relaxed text-muted">{p}</p>
+                        ))}
+                        {b.tablo && (
+                            <div className="mt-6 overflow-x-auto">
+                                <table className="w-full min-w-[520px] border-collapse text-sm">
+                                    <thead>
+                                        <tr className="border-b-2 border-border">
+                                            {b.tablo.basliklar.map((h) => (
+                                                <th key={h} className="px-3 py-3 text-left font-display font-bold text-fg">{h}</th>
+                                            ))}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {b.tablo.satirlar.map((satir, i) => (
+                                            <tr key={i} className="border-b border-border">
+                                                {satir.map((h, j) => (
+                                                    <td key={j} className="px-3 py-3 text-muted">{h}</td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        )}
+                    </section>
+                ))}
+
                 <div className="mt-16 rounded-2xl border border-accent/30 bg-accent/5 p-6">
                     <strong className="block text-sm uppercase tracking-wide text-accent">İlgili makine sınıfı</strong>
                     <Link href={`/urunler/${hizmet.ilgiliUrun.slug}`} className="mt-1 inline-block text-lg font-black text-fg hover:text-accent">

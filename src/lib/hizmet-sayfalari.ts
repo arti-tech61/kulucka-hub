@@ -19,8 +19,12 @@ import type { SiteIcerik } from "./siteler";
 import { urunKatalogu } from "./urun-katalogu";
 import { varyantSec, uzmanlikIfade, cevapOperator, cevapNakliye, cevapSure, cevapBelge, cevapSinif, cevapTeslimat } from "./varyant";
 import { HIZMET_KONULARI, hizmetKonusuSlugIle, type HizmetKonusu } from "./hizmet-konulari";
+import { bespokeBul, bespokeUygula, type BespokeIcerik } from "./bespoke-icerik";
 
 export interface HizmetSayfasi {
+    /** Elle yazılmış içerik varsa true — sayfa şablonu ek bölümleri gösterir. */
+    elleYazilmis?: boolean;
+    ekBolumler?: BespokeIcerik["ekBolumler"];
     slug: string;
     konu: HizmetKonusu;
     baslik: string;
@@ -56,7 +60,7 @@ function hizmetSayfasiUret(konu: HizmetKonusu, i: number, site: SiteIcerik): Hiz
     // Varyant tuzu konu slug'ını da içerir — aynı domainin 11 hizmet sayfası da birbirinden farklılaşır.
     const t = (alan: string) => `hizmet-${konu.slug}-${alan}`;
 
-    return {
+    const sablon: HizmetSayfasi = {
         slug: konu.slug,
         konu,
         baslik: varyantSec(site, t("baslik"), [
@@ -173,6 +177,8 @@ function hizmetSayfasiUret(konu: HizmetKonusu, i: number, site: SiteIcerik): Hiz
         ],
         ilgiliUrun: { baslik: `${urun.ad} Kiralama`, slug: urun.slug },
     };
+    // Elle yazılmış içerik varsa şablonun yerine geçer (kısmi override).
+    return bespokeUygula(sablon, bespokeBul(site, `hizmet:${konu.slug}`));
 }
 
 // Sitenin gerçekte sunduğu hizmetlerle eşleşen konular öne alınır; kalan
