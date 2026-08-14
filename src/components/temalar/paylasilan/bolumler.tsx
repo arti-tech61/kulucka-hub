@@ -69,30 +69,52 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
     const kullanilanlar = new Set<string>();
     return (
         <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
-            <div className="mb-6 max-w-2xl">
-                <h2 className="font-display text-[32px] font-bold text-fg md:text-[40px]">Hizmetlerimiz</h2>
-                <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine seçimi ve yazılı teklif süreci.</p>
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+                <div className="max-w-2xl">
+                    <span className="text-xs font-bold uppercase tracking-[0.14em] text-accent">Hizmet Kapsamımız</span>
+                    <h2 className="mt-2 font-display text-[32px] font-bold text-fg md:text-[40px]">Hizmetlerimiz</h2>
+                    <p className="mt-3 text-muted">{site.uzmanlik} için doğru makine seçimi ve yazılı teklif süreci.</p>
+                </div>
+                <a href="/urunler" className="hidden items-center gap-2 font-bold text-accent hover:text-accent-hover sm:inline-flex">
+                    Tüm makine kategorilerini görün
+                    <Ikon ad="ok" className="h-4 w-4" />
+                </a>
             </div>
-            <div className="grid gap-6 md:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {hizmetler.map((h) => {
                     const gorsel = hizmetGorseli(h, kullanilanlar);
                     const konu = hizmetKonusuBul(h);
                     return (
-                        <Link key={h} href={`/hizmet/${konu.slug}`} className={`block overflow-hidden rounded-2xl bg-elevated ${KART_SWEEP}`}>
-                            <div className="relative aspect-[4/3] w-full overflow-hidden bg-bg">
-                                <Image src={gorsel.src} alt={gorsel.alt} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
-                            </div>
-                            <div className="p-6">
-                                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-bg">
-                                    <Ikon ad="onay" className="h-5 w-5" />
+                        <Link
+                            key={h}
+                            href={`/hizmet/${konu.slug}`}
+                            className={`group block overflow-hidden rounded-2xl border border-border bg-elevated shadow-sm transition-shadow duration-150 hover:shadow-lg motion-reduce:transition-none ${KART_SWEEP}`}
+                        >
+                            <div className="relative aspect-[4/5] w-full overflow-hidden bg-bg">
+                                <Image
+                                    src={gorsel.src}
+                                    alt={gorsel.alt}
+                                    fill
+                                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                                    className="object-cover object-[center_65%] transition-transform duration-500 group-hover:scale-105 motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+                                />
+                                <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 to-transparent" />
+                                <span className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-bold text-slate-950 shadow-sm">
+                                    <Ikon ad="onay" className="h-3.5 w-3.5 text-primary" />
+                                    {konu.baslikTaban}
                                 </span>
-                                <p className={`mt-4 leading-6 text-fg ${KART_METIN}`}>{h}</p>
+                            </div>
+                            <div className="flex items-start justify-between gap-3 p-5">
+                                <p className={`line-clamp-2 leading-6 text-fg ${KART_METIN}`}>{h}</p>
+                                <span className={`mt-0.5 shrink-0 text-muted transition-transform duration-150 group-hover:translate-x-0.5 motion-reduce:transition-none ${KART_METIN_SOLUK}`}>
+                                    <Ikon ad="ok" className="h-4 w-4" />
+                                </span>
                             </div>
                         </Link>
                     );
                 })}
             </div>
-            <a href="/urunler" className="mt-8 inline-flex items-center gap-2 font-bold text-accent hover:text-accent-hover">
+            <a href="/urunler" className="mt-8 inline-flex items-center gap-2 font-bold text-accent hover:text-accent-hover sm:hidden">
                 Tüm makine kategorilerini görün
                 <Ikon ad="ok" className="h-4 w-4" />
             </a>
