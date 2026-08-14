@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ikinciTelefon } from "@/lib/siteler";
 import { hostAltSayfalari } from "@/lib/alt-sayfalar";
 import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
+import { googleIsletmeBul } from "@/lib/google-isletme";
 import type { TemaModulu } from "../tipler";
 import type { PaylasilanTemaConfig } from "./renkler";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
@@ -160,6 +161,17 @@ export function olusturCerceve(config: PaylasilanTemaConfig): TemaModulu["Cercev
                                 <Ikon ad="posta" />
                                 {site.eposta}
                             </a>
+                            {googleIsletmeBul(site.host) && (
+                                <a
+                                    className="mt-3 flex items-center gap-3 text-bg/80 hover:text-bg"
+                                    href={googleIsletmeBul(site.host)!.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Ikon ad="konum" />
+                                    Google Haritalar&apos;da Görüntüle
+                                </a>
+                            )}
                         </div>
                     </div>
                     <div className="mx-auto mt-10 max-w-7xl border-t border-bg/10 pt-6 text-center text-sm text-bg/60">

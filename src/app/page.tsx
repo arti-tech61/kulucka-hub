@@ -11,6 +11,7 @@ import { TicariCerceve, TicariGorsel, TicariTeklif } from "@/components/ticari-c
 import { GaEtiketi } from "@/components/ga";
 import { temaModulu, Kabuk } from "@/components/temalar";
 import { ilKoordinatBul, bolgeListesindenKoordinatBul } from "@/lib/il-koordinatlari";
+import { googleIsletmeBul } from "@/lib/google-isletme";
 
 export const dynamic = "force-dynamic";
 
@@ -161,6 +162,7 @@ export default async function Sayfa() {
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     const bolgeListesi = site.bolge.split(",").map((b) => b.trim()).filter(Boolean);
     const siteKoordinat = bolgeListesindenKoordinatBul(site.bolge);
+    const googleIsletme = googleIsletmeBul(site.host);
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": site.kategori ? "WebSite" : "LocalBusiness",
@@ -176,6 +178,7 @@ export default async function Sayfa() {
         telephone: site.telefon,
         email: site.eposta,
         parentOrganization: { "@type": "Organization", name: site.anaSite.ad, url: site.anaSite.url },
+        ...(googleIsletme ? { sameAs: [googleIsletme.url] } : {}),
     };
 
     // Host'a özel Stitch teması varsa varsayılan çerçeve yerine onu kullan.
