@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { hizmetSayfalari, hizmetSayfasiBul } from "@/lib/hizmet-sayfalari";
+import { hizmetGorselSec } from "@/lib/hizmet-konulari";
 import { GaEtiketi } from "@/components/ga";
 import { TicariTeklif } from "@/components/ticari-cerceve";
 import { Kabuk } from "@/components/temalar";
@@ -91,7 +92,10 @@ export default async function HizmetSayfasi({ params }: { params: Promise<{ slug
                         </div>
                     </div>
                     <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2rem] border border-border bg-elevated">
-                        <Image src={hizmet.konu.gorsel} alt={hizmet.konu.gorselAlt} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" priority />
+                        {(() => {
+                            const gorsel = hizmetGorselSec(host, hizmet.konu);
+                            return <Image src={gorsel.src} alt={gorsel.alt} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" priority />;
+                        })()}
                     </div>
                 </div>
 

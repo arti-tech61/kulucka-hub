@@ -8,7 +8,7 @@ import { bolgeSayfalari } from "@/lib/bolge-sayfalari";
 import { hostBloglari } from "@/lib/blog";
 import { paylasilanBlogYazilari } from "@/lib/paylasilan-blog";
 import { anahtarKelimeSayfalari } from "@/lib/anahtar-kelime-sayfalari";
-import { hizmetKonusuBul } from "@/lib/hizmet-konulari";
+import { hizmetKonusuBul, hizmetGorselSec, type GorselVaryant } from "@/lib/hizmet-konulari";
 import { TemaForm, type TemaFormClass } from "../tema-form";
 import { Ikon, IkonWhatsapp } from "./ikonlar";
 
@@ -20,39 +20,24 @@ const KART_SWEEP =
 const KART_METIN = "transition-colors duration-150 motion-reduce:transition-none group-hover:text-accent-fg group-focus-visible:text-accent-fg";
 const KART_METIN_SOLUK = "transition-colors duration-150 motion-reduce:transition-none group-hover:text-accent-fg/80 group-focus-visible:text-accent-fg/80";
 
-// Google Drive "İş resimleri" klasöründen indirilen gerçek Artı Platform saha
-// fotoğrafları (bkz. public/media/isler/) — anahtar kelime eşleştirmesiyle her
-// hizmet metnine en uygun gerçek fotoğraf atanır, tekdüze ikon yerine.
-const HIZMET_GORSELLERI: { anahtarlar: string[]; src: string; alt: string }[] = [
-    { anahtarlar: ["sepetli", "örümcek", "orumcek", "tırtıl"], src: "/media/isler/is-9.jpg", alt: "Örümcek platform ile sahada erişim çalışması" },
-    { anahtarlar: ["nakliye", "teslimat", "sevkiyat", "taşıma", "tasima"], src: "/media/isler/is-12.jpg", alt: "Kamyonla saha teslimatı ve nakliye" },
-    { anahtarlar: ["forklift", "istifleme", "palet", "yük taşıma", "yuk tasima"], src: "/media/isler/is-3.jpg", alt: "Forklift ve makaslı platform ile saha çalışması" },
-    { anahtarlar: ["eklemli", "boom", "akrobat", "manlift"], src: "/media/isler/is-7.jpg", alt: "Eklemli platform ile yükleme alanı çalışması" },
-    { anahtarlar: ["iç mekan", "ic mekan", "depo içi", "depo ici", "tesisat", "tavan", "boru", "avm", "fabrika içi", "fabrika ici", "hastane"], src: "/media/isler/is-10.jpg", alt: "Fabrika içi tesisat ve tavan çalışması" },
-    { anahtarlar: ["çelik", "celik", "konstrüksiyon", "konstruksiyon", "montaj", "cephe", "sanayi holü", "sanayi holu"], src: "/media/isler/is-1.jpg", alt: "Sanayi holünde çelik konstrüksiyon montaj çalışması" },
-    { anahtarlar: ["tarım", "tarim", "silo", "kırsal", "kirsal", "çiftlik", "ciftlik", "sera"], src: "/media/isler/is-2.jpg", alt: "Kırsal sahada çelik konstrüksiyon çalışması" },
-    { anahtarlar: ["enerji", "aydınlatma", "aydinlatma", "elektrik", "direk", "hat", "santral"], src: "/media/isler/is-11.jpg", alt: "Tabela ve aydınlatma bakımı için sahada erişim" },
-    { anahtarlar: ["operatörlü", "operatorlu", "operatörsüz", "operatorsuz"], src: "/media/isler/is-14.jpg", alt: "Operatörlü platform teslimatı ve saha kontrolü" },
-    { anahtarlar: ["dağınık", "daginik", "çok noktalı", "cok noktali", "rota", "güzergah", "guzergah"], src: "/media/isler/is-6.jpg", alt: "Çok noktalı bakım rotasında platform çalışması" },
-    { anahtarlar: ["zemin", "arazi", "hazırlıksız", "hazirliksiz", "engebeli"], src: "/media/isler/is-8.jpg", alt: "Zorlu zemin koşullarında makine parkı" },
-];
-const HIZMET_VARSAYILAN = { src: "/media/isler/is-13.jpg", alt: "Artı Platform saha çalışması" };
-// is-9.jpg (örümcek/sepetli platform) kasıtlı olarak dışarıda bırakıldı —
-// yalnızca kendi anahtar kelimesiyle eşleştiğinde gösterilsin, rastgele
-// dolgu fotoğrafı olarak alakasız hizmet metinlerine düşmesin.
-const TUM_GORSELLER = [...HIZMET_GORSELLERI.map((g) => ({ src: g.src, alt: g.alt })), HIZMET_VARSAYILAN, { src: "/media/isler/is-4.jpg", alt: "Artı Platform saha çalışması" }, { src: "/media/isler/is-5.jpg", alt: "Artı Platform saha çalışması" }].filter((g) => g.src !== "/media/isler/is-9.jpg");
-
-function hizmetGorseli(h: string, kullanilanlar: Set<string>) {
-    const t = h.toLocaleLowerCase("tr-TR");
-    const skorlu = HIZMET_GORSELLERI
-        .map((g) => ({ g, skor: g.anahtarlar.filter((a) => t.includes(a)).length }))
-        .filter((x) => x.skor > 0)
-        .sort((a, b) => b.skor - a.skor);
-    const secili =
-        skorlu.find((x) => !kullanilanlar.has(x.g.src))?.g
-        ?? TUM_GORSELLER.find((g) => !kullanilanlar.has(g.src))
-        ?? skorlu[0]?.g
-        ?? HIZMET_VARSAYILAN;
+// Görsel kaynağı artık tek yerde: src/lib/hizmet-konulari.ts'teki HIZMET_KONULARI
+// havuzları (Google Drive "İş resimleri" klasöründen indirilen gerçek Artı
+// Platform saha fotoğrafları, bkz. public/media/isler/). Konu eşleştirmesi
+// `hizmetKonusuBul`, host'a göre deterministik havuz seçimi `hizmetGorselSec`
+// ile yapılır — 85+ domain artık aynı konuda pixel-birebir aynı fotoğrafı
+// göstermez. Bu fonksiyon üstüne yalnızca TEK bir sayfa içinde aynı kartın
+// iki kez aynı fotoğrafı almamasını sağlayan ince bir dedup katmanı ekler.
+function hizmetGorseli(host: string, h: string, kullanilanlar: Set<string>): GorselVaryant {
+    const konu = hizmetKonusuBul(h);
+    const havuz = konu.gorselHavuzu;
+    for (let i = 0; i < havuz.length; i++) {
+        const aday = hizmetGorselSec(host, konu, String(i));
+        if (!kullanilanlar.has(aday.src)) {
+            kullanilanlar.add(aday.src);
+            return aday;
+        }
+    }
+    const secili = havuz[0] ?? hizmetGorselSec(host, konu);
     kullanilanlar.add(secili.src);
     return secili;
 }
@@ -82,7 +67,7 @@ export function HizmetlerBolumu({ site }: { site: SiteIcerik }) {
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {hizmetler.map((h) => {
-                    const gorsel = hizmetGorseli(h, kullanilanlar);
+                    const gorsel = hizmetGorseli(site.host, h, kullanilanlar);
                     const konu = hizmetKonusuBul(h);
                     return (
                         <Link
