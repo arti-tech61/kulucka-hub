@@ -1998,4 +1998,202 @@ export const BOZUYUKPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. İnşaat hafriyat aşamasında zeminin henüz sıkıştırılmamış olması ve servis yollarının asfaltlanmamış olması genel inşaat pratiğidir (kamuya açık bilgi). Zemin değerlendirme ve erteleme kuralı firma saha pratiğidir. Belirli proje adı veya rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük'te Şantiye Malzeme Deposunun Sevkiyat Rampasında Forklift ile Makaslı Platform Ortak Çalışması",
+        giris:
+            "Bir toplu konut şantiyesinin malzeme deposu tek bir kapıdan değil, çoğu zaman bir sevkiyat rampasından beslenir: buraya yanaşan tırlardan forklift paletleri indirip depoya taşır, boşalan tırlar aynı rampadan ayrılır. Bu rampa günün büyük bölümünde forklift trafiğinin en yoğun olduğu dar bir alandır — ama aynı zamanda rampa üstü tavan aydınlatması, yükleme kapısının ray sistemi, sevkiyat yönlendirme panosu ve üstteki gölgelik gibi sabit yükseklikte duran unsurların bakımını da gerektirir. Bu unsurlara erişim için forklift trafiğini tamamen durdurmadan çalışabilecek, sert beton zeminde stabil duran ve dar rampa genişliğine sığan bir makine gerekir; erişilecek nokta sabit bir yükseklikte kaldığı için burada eklemli bir bom değil, akülü ya da dizel makaslı platform en uygun sınıf olur. Bozüyük'teki toplu konut şantiyelerinin malzeme deposunda forklift ile makaslı platformun aynı rampada eşzamanlı çalışmasını, ikisinin birbirinin işini durdurmadan nasıl koordine edildiğini bu sayfada anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Rampa üstü tavan aydınlatmasının forklift trafiği sürerken bakımı",
+                metin:
+                    "Sevkiyat rampasının tavanındaki aydınlatma armatürleri forklift operasyonunun görüş kalitesini doğrudan etkiler; bu yüzden bakımı rampa tamamen boşalana kadar ertelenmez, forklift trafiğinin en seyrek olduğu saat diliminde planlanır. Makaslı platform rampanın kenarına, forkliftin manevra hattının dışına konumlandırılır ve her duruşta forklift operatörüyle göz teması ya da el işaretiyle geçiş önceliği netleştirilir. Armatür değişimi sırasında rampa tamamen kapatılmaz, yalnızca platformun bulunduğu dar şerit geçici olarak forklifte kapalı tutulur.",
+            },
+            {
+                baslik: "Yükleme kapısının ray sistemi ve motor bakımı",
+                metin:
+                    "Rampadaki bölmeli yükleme kapısının üst ray sistemi ve açma-kapama motoru, kapı sık kullanıldığı için düzenli kontrol gerektirir. Bu bakım sırasında kapı ya tamamen açık ya da tamamen kapalı konumda sabitlenir ki platform çalışırken ani hareket riski oluşmasın; forklift bu süre boyunca rampanın kapı çalışmayan diğer gözünden ya da alternatif bir kapıdan yükleme yapmaya yönlendirilir. Ray boyunca ilerleyen platform her segmentte mekanizmanın yağlama ve sıkılık kontrolünü ayrı ayrı yapar.",
+            },
+            {
+                baslik: "Sevkiyat yönlendirme panosu ve kapı numarası tabelası montajı",
+                metin:
+                    "Rampa üstüne monte edilen yönlendirme panosu ya da kapı numarası tabelası, tır şoförlerinin doğru yükleme kapısını bulmasını sağlayan bir referans noktasıdır. Bu panoların montaj yüksekliği genellikle sabittir ve rampa boyunca birden fazla nokta olabilir; makaslı platform her nokta için ayrı duruş yaparak ilerler. Pano montajı sırasında rampaya yaklaşan bir tır varsa platform önce güvenli bir kenara çekilir, tır rampaya tam yanaşana kadar bekler.",
+            },
+            {
+                baslik: "Rampa tentesi ve gölgelik kontrolü",
+                metin:
+                    "Bazı sevkiyat rampalarında yağmur ve güneşten koruma amaçlı bir tente ya da sabit gölgelik bulunur; bu örtünün germe halatları ve sabitleme noktaları periyodik kontrol gerektirir. Kontrol sırasında platform tentenin altına değil kenarına konumlandırılır ki tentenin ağırlığı ya da rüzgârdaki hareketi çalışma güvenliğini etkilemesin. Germe halatlarındaki gevşeme ya da sabitleme noktasındaki aşınma tespit edildiğinde bulgular şantiye şefine anında bildirilir.",
+            },
+            {
+                baslik: "Forklift ile trafik ayrımı ve günlük zamanlama",
+                metin:
+                    "Forklift ve makaslı platformun aynı rampada çalışması, önceden belirlenmiş bir trafik ayrımı olmadan yapılmaz. Rampanın hangi şeridinin o gün platforma, hangisinin forklifte ayrılacağı sabah şantiye şefiyle netleştirilir; tır yoğunluğunun arttığı saatlerde platform işi kısa bir süre durdurularak forklifte tam öncelik verilir. Bu zamanlama günün başında belirlenen bir plan olsa da tır trafiğindeki ani değişime göre gün içinde yeniden ayarlanabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sevkiyat rampasındaki bakım noktaları",
+                paragraflar: [
+                    "Bozüyük'teki toplu konut şantiyelerinin sevkiyat rampasında forklift trafiği sürerken makaslı platformla ele aldığımız başlıca noktaları aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Rampa unsuru", "Baskın kısıt", "Çalışma yaklaşımı", "Ek dikkat"],
+                    satirlar: [
+                        ["Tavan aydınlatması", "Forklift görüş kalitesi", "Seyrek trafik saatinde bakım", "Dar şerit geçici kapatma"],
+                        ["Yükleme kapısı ray sistemi", "Ani hareket riski", "Kapı sabit konumda kilitli", "Alternatif kapıya yönlendirme"],
+                        ["Yönlendirme panosu / tabela", "Sabit montaj yüksekliği", "Nokta nokta duruş", "Tır yanaşmasında kenara çekilme"],
+                        ["Tente / gölgelik", "Rüzgârda hareket", "Kenardan yaklaşım", "Halat ve sabitleme kontrolü"],
+                        ["Rampa trafiği (genel)", "Forklift-platform çakışması", "Şerit paylaşımı", "Sabah şantiye şefi teyidi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden makaslı platform, neden eklemli bom değil",
+                paragraflar: [
+                    "Sevkiyat rampasındaki bakım noktalarının hepsi sabit bir yükseklikte, rampa tavanına ya da üst yapıya bağlı konumdadır; erişim için engelin ötesine uzanan bir yatay hareket değil, dikey ve öngörülebilir bir kaldırma yeterlidir. Bu koşulda eklemli bom gereksiz bir manevra alanı ister ve dar rampada forklift trafiğiyle çakışma riskini artırır; makaslı platform ise sabit şasesiyle rampanın kenarına yerleşip forkliftin ana hattını açık bırakır.",
+                    "Rampa zemini sert beton olduğu için makaslı platformun tekerlek izi ya da stabilite sorunu genellikle yaşanmaz; bu da makinenin rampa üzerinde hızlı konumlandırılıp kaldırılmasını kolaylaştırır.",
+                ],
+            },
+            {
+                baslik: "Forklift ile eşzamanlı çalışmada güvenlik",
+                paragraflar: [
+                    "Aynı rampada iki farklı makinenin çalışması, görüş açısı ve manevra alanı üzerinden yönetilen bir risktir. Platform operatörü forkliftin geçiş güzergâhını her zaman açık tutar ve forklift bir manevraya başladığında platform hareketini durdurup bekler; bu öncelik kuralı işin başında netleştirilir ve gün boyu değişmez.",
+                    "Rampa dar olduğu için iki makinenin de aynı anda hareket hâlinde olduğu anlar en riskli anlardır; bu yüzden mümkün olduğunca biri sabit dururken diğeri hareket eder, ikisi birden hareket eden bir sahne oluşturulmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sevkiyat rampamız gün boyu forklift trafiğiyle dolu, platform ne zaman çalışabilir?",
+                cevap:
+                    "Rampanın en yoğun olduğu saatleri şantiye şefinden alır, işi mümkün olduğunca seyrek trafik dilimine planlarız. Yoğun saatte çalışmak gerekiyorsa rampanın bir şeridi platforma, diğeri forklifte ayrılır ve tır yanaşması geldiğinde platform işi kısa süreliğine durdurup forklifte öncelik verir. Bu zamanlama sabah netleşir ama gün içindeki ani değişime göre yeniden ayarlanabilir.",
+            },
+            {
+                soru: "Yükleme kapımızın bakımı sırasında rampayı tamamen kapatmamız mı gerekiyor?",
+                cevap:
+                    "Hayır, genellikle gerekmez. Kapı bakım sırasında sabit bir konumda kilitlenir ve forklift rampanın diğer gözünden ya da alternatif bir kapıdan yüklemeye devam eder. Rampanızda tek kapı varsa bu durumu önceden bildirin, o zaman kısa süreli tam kapatma ile daha hızlı bir bakım planı öneririz.",
+            },
+            {
+                soru: "Tavan aydınlatmasının bakımı sırasında forklift operatörü platformu görebilir mi?",
+                cevap:
+                    "Platform rampanın kenarına, forkliftin ana manevra hattının dışına konumlandırılır ve her duruşta forklift operatörüyle göz teması ya da el işaretiyle geçiş önceliği netleştirilir. Görüş açısının kısıtlı olduğu bir rampa köşesindeyse ek bir gözcü konumlandırmayı da değerlendiririz.",
+            },
+            {
+                soru: "Rampamızdaki tente rüzgârlı günlerde dalgalanıyor, bu bakımı etkiler mi?",
+                cevap:
+                    "Etkiler; rüzgârlı bir günde tente hareketli olduğu için platform tentenin altına değil kenarına konumlandırılır ve germe halatlarındaki gevşeme uzaktan değerlendirilir. Rüzgâr belirli bir şiddeti aştığında iş güvenli koşullara dönene kadar ertelenir; bu durumu şantiye programına önceden bir risk kalemi olarak bildiririz.",
+            },
+            {
+                soru: "Yönlendirme panosunu monte ederken bir tır rampaya yanaşırsa ne olur?",
+                cevap:
+                    "Platform işi durdurup güvenli bir kenara çekilir, tır rampaya tam yanaşıp manevrasını tamamlayana kadar bekler. Pano montajı birden fazla nokta gerektiriyorsa bu bekleme süreleri toplam iş süresine yansıyabilir; yoğun bir sevkiyat gününde işi daha sakin bir saate kaydırmayı da önerebiliriz.",
+            },
+            {
+                soru: "Forklift ile platformun aynı anda hareket ettiği bir an oluyor mu, bunu nasıl önlüyorsunuz?",
+                cevap:
+                    "Mümkün olduğunca önlüyoruz; kural olarak biri sabit dururken diğeri hareket eder, ikisi birden hareket hâlinde olmaz. Forklift bir manevraya başladığında platform operatörü hareketi durdurup bekler, bu öncelik kuralı işin başında netleşir ve gün boyunca değişmeden uygulanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sevkiyat rampalarında yükleme kapısı, tavan aydınlatması ve tente gibi sabit unsurların bulunması depo/lojistik tesislerinde genel bilinen bir düzenlemedir (kamuya açık bilgi). Forklift-platform eşzamanlı çalışma koordinasyonu ve öncelik kuralı firma saha pratiğidir. Belirli tesis adı veya rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük'te Depo Sahasında Kamyon ve Palet İstifleri Arasında Manlift ile Yüksek Erişim",
+        giris:
+            "Bir toplu konut şantiyesinin açık depo sahası, forkliftin gün boyu palet istiflediği ve kamyonların yükleme sırası beklediği düzenli ama sürekli değişen bir alandır. Bu sahada bazen depo dış duvarının üst kısmına, sevkiyat sahasını aydınlatan direğe, güvenlik kamerasına ya da yüksekte asılı bir yönlendirme tabelasına erişmek gerekir — ama erişim yolu çoğunlukla düz değildir, çünkü önünde forkliftin istiflediği yüksek palet grupları ya da yükleme sırasında bekleyen bir kamyon/römork durur. Bu tür engellerin yanından ya da üzerinden geçerek hedefe ulaşmak, sabit dikey kaldırma yapan bir makineyle değil, dirsekten kırılıp yatay uzanabilen saha tipi manlift ile mümkün olur. Bozüyük'teki toplu konut şantiyelerinin depo sahasında forklift trafiği sürerken manlifti nasıl konumlandırdığımızı, hangi engel senaryolarında ve nasıl bir koordinasyonla çalıştığımızı bu sayfada anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Yüksek palet istifleri arasından manevra ile erişim",
+                metin:
+                    "Forkliftin gün içinde oluşturduğu palet istifleri sahanın düzenini sürekli değiştirir; dün açık olan bir geçiş bugün yeni bir istifle kapanmış olabilir. Manlift bu geçişlerden ilerlerken güncel istif düzenini önce gözle değerlendirir, ardından istifler arasındaki en geniş ve en stabil koridoru güzergâh olarak seçer. İstiflerin arasından geçerken sepetin herhangi bir palete temas etmemesi için mesafe sürekli kontrol edilir; dar görünen bir geçişte forklift operatöründen o anki istif durumu teyit alınır.",
+            },
+            {
+                baslik: "Kamyon ve römork üzerinden aşarak depo dış duvarına ulaşma",
+                metin:
+                    "Yükleme sırasında bekleyen bir kamyon ya da römork, depo dış duvarına dik bir yaklaşımı çoğu zaman engeller. Eklemli manlift bu durumda kamyonun yanında yükselip dirsekten kırılarak sepeti kamyonun üzerinden geçirir ve duvara ulaşır; kamyona hiçbir temas ya da yük bindirilmez. Bu manevra öncesi kamyonun sahadaki konumu ve şoförün o an sahada olup olmadığı teyit edilir, çünkü ani bir hareket ihtimaline karşı kamyonun sabit durması gerekir.",
+            },
+            {
+                baslik: "Sevkiyat sahası aydınlatma direği ve güvenlik kamerası bakımı",
+                metin:
+                    "Depo sahasını aydınlatan direkler ve güvenlik kameraları genellikle sahanın kenarında, forklift ve kamyon trafiğinin dışında ama yine de istif gruplarının arasında konumlanmış olabilir. Manlift bu noktalara ulaşırken direğin çevresindeki boş alanı önce belirler, sepeti direğe paralel değil, bakım açısı en uygun konumda tutarak yaklaştırır. Kamera bakımında ayrıca kablo hattının izlediği güzergâh da göz önünde bulundurulur.",
+            },
+            {
+                baslik: "Depo dış cephe tabela ve yönlendirme panosu montajı",
+                metin:
+                    "Sahaya giren tırların doğru sevkiyat noktasını bulması için depo dış cephesine ya da sahanın uygun bir noktasına yönlendirme panosu monte edilir. Bu panolar genellikle sahanın görünür bir köşesinde, bazen istif gruplarının arkasında kalan bir noktada yer alır. Manlift montaj için bu noktaya istifler arasından ilerler, panonun montaj yüksekliğini ve açısını sahaya giren tırların görüş açısına göre değerlendirerek konumlanır.",
+            },
+            {
+                baslik: "Forklift ile aynı sahada trafik koordinasyonu",
+                metin:
+                    "Manlift ve forklift aynı geniş sahada ama farklı yükseklik bantlarında çalışır; forklift zeminde istifleme yaparken manlift üstte hareket eder. Yine de ikisinin güzergâhı zeminde kesişebileceği için manlift her yer değiştirdiğinde forklift operatörüne haber verilir, forklift o sırada manlift'in geçeceği koridora girmez. Sahanın o günkü istif düzeni ve kamyon konumları sabah şantiye şefiyle birlikte gözden geçirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo sahasında manlift erişim senaryoları",
+                paragraflar: [
+                    "Bozüyük'teki toplu konut şantiyelerinin depo sahasında forklift istifleri ve kamyon trafiği arasında manlifti değerlendirdiğimiz başlıca senaryoları aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Engel", "Erişim biçimi", "Dikkat kalemi"],
+                    satirlar: [
+                        ["Depo dış duvarı üst kısmı", "Bekleyen kamyon/römork", "Kamyon üzerinden aşma", "Kamyonun sabit durması"],
+                        ["Aydınlatma direği", "İstif grupları arası konum", "Boş alan üzerinden yaklaşma", "Bakım açısının belirlenmesi"],
+                        ["Güvenlik kamerası", "İstifler arasında kalma", "Kablo hattı güzergâhı takibi", "Sepet konumu ayarı"],
+                        ["Yönlendirme panosu", "İstif arkasında kalma", "İstifler arası ilerleme", "Tır görüş açısı değerlendirmesi"],
+                        ["Genel saha trafiği", "Forklift-manlift kesişimi", "Farklı yükseklik bandı", "Koridor değişiminde haber verme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden saha tipi eklemli manlift, neden makaslı platform değil",
+                paragraflar: [
+                    "Depo sahasındaki erişim noktalarının çoğu, forkliftin oluşturduğu istifler ya da bekleyen kamyonlar yüzünden hedefe dik bir yaklaşım sunmaz; bu engellerin yanından ya da üzerinden dolaşmak gerekir. Makaslı platform yalnızca dikey yükselir ve engeli aşamaz; eklemli manlift ise dirsekten kırılarak sepeti engelin ötesine taşıyabilir.",
+                    "Ayrıca depo sahasının zemini rampa gibi tamamen düz beton olmayabilir, sıkıştırılmış toprak ya da parke taşı bölümler içerebilir; saha tipi manlift bu farklı zemin koşullarında daha stabil ilerler.",
+                ],
+            },
+            {
+                baslik: "Forklift ile aynı sahada güvenlik",
+                paragraflar: [
+                    "Manlift ve forklift farklı yükseklik bantlarında çalışsa da zemin güzergâhları zaman zaman kesişir; bu yüzden manlift her konum değişiminde forklift operatörüne haber verir ve forklift o koridora girmeyi geçici olarak durdurur. Bu iletişim, sahada iki farklı makinenin aynı anda beklenmedik bir noktada karşılaşmasını önler.",
+                    "Kamyon üzerinden aşma gerektiren işlerde kamyonun o sırada hareket etmeyeceği şoförle ya da sevkiyat sorumlusuyla teyit edilir; teyit alınmadan manevraya başlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sahamızdaki palet istifleri her gün yer değiştiriyor, manlift güzergâhı nasıl belirliyor?",
+                cevap:
+                    "Sabit bir güzergâh varsaymayız; her seferinde o günkü istif düzenini gözle değerlendirir, istifler arasındaki en geniş ve stabil koridoru seçeriz. Dar görünen bir geçişte forklift operatöründen güncel istif durumunu teyit alırız. Saha düzeninizi önceden fotoğrafla paylaşırsanız planlamayı daha hızlı yapabiliriz.",
+            },
+            {
+                soru: "Depo duvarımıza ulaşmak için kamyonun üzerinden mi geçiyorsunuz, bu güvenli mi?",
+                cevap:
+                    "Evet, eklemli manlift kamyonun yanında yükselip dirsekten kırılarak sepeti kamyonun üzerinden geçirir; kamyona hiçbir temas ya da yük bindirilmez. Bu manevra öncesi kamyonun sahada sabit kalacağı şoförle ya da sevkiyat sorumlusuyla teyit edilir; teyit alınmadan manevraya başlanmaz.",
+            },
+            {
+                soru: "Aydınlatma direğimiz istiflerin arasında kalmış, buraya nasıl ulaşıyorsunuz?",
+                cevap:
+                    "Direğin çevresindeki boş alanı önce belirleriz, ardından sepeti direğe en uygun bakım açısında tutarak yaklaştırırız. İstifler arasında yeterli boşluk yoksa forkliftle geçici bir düzenleme yapılıp yapılamayacağını şantiye şefiyle birlikte değerlendiririz.",
+            },
+            {
+                soru: "Forklift sahada sürekli hareket hâlinde, manlift ile çarpışma riski var mı?",
+                cevap:
+                    "İki makine farklı yükseklik bantlarında çalışsa da zemin güzergâhları kesişebilir; bu yüzden manlift her konum değiştirdiğinde forklift operatörüne haber verir ve forklift o koridora geçici olarak girmez. Bu iletişim kuralı işin başında netleşir ve gün boyunca uygulanır.",
+            },
+            {
+                soru: "Sahamızın zemini yer yer sıkıştırılmamış toprak, manlift bu zeminde çalışabilir mi?",
+                cevap:
+                    "Saha tipi eklemli manlift bu tür karma zeminlerde makaslı platforma göre daha stabil ilerler, ama yine de zeminin taşıma kapasitesini önceden değerlendiririz. Zemin çok yumuşaksa ya da yağış sonrası çamurlaşmışsa çalışmayı zemin kuruyana kadar erteleyebiliriz; bu durumu önceden bildiririz.",
+            },
+            {
+                soru: "Yönlendirme panomuz istiflerin arkasında kaldı, montaj için istifleri kaldırmanız mı gerekiyor?",
+                cevap:
+                    "Genellikle gerekmez; manlift istifler arasından ilerleyip panonun bulunduğu noktaya ulaşabilir. Geçiş tamamen kapalıysa forkliftle geçici bir koridor açılmasını şantiye şefiyle birlikte değerlendiririz, ama bu istisnai bir durumdur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo sahalarında forklift istiflerinin ve bekleyen kamyonların erişim güzergâhını değiştirmesi lojistik/depo tesislerinde genel bilinen bir pratiktir (kamuya açık bilgi). Manlift-forklift saha koordinasyonu ve teyit kuralı firma saha pratiğidir. Belirli tesis adı veya rakam kullanılmamıştır.",
+    },
 };

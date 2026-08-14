@@ -1728,4 +1728,200 @@ export const CANAKKALEPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Tersane dok ve kızak alanlarının karma zemin yapısı ve deniz kenarı nem etkisi genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Sevkiyat öncesi zemin değerlendirmesi firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Çan Seramik ve Kiremit Fabrikalarında Makaslı Platform Kiralama",
+        giris:
+            "Çan çevresindeki seramik ve kiremit fabrikalarının üretim hatları, tünel fırınların üzerindeki bakım galerilerine, kurutucu kanallarının üst kısmına ve depolama raflarının üst katlarına düzenli erişim gerektirir. Bu tür kapalı üretim alanlarında eklemli platformun sağladığı yatay uzanım genellikle gerekmez; asıl ihtiyaç geniş ve düz bir çalışma platformu, birden fazla işçinin ve elle taşınan malzemenin (yedek parça, contа, refrakter tuğla) aynı anda yukarı çıkabilmesidir. Makaslı platform, dikey doğrultuda düz bir kaldırma hareketi sunduğu için fırın üstü galeri gibi düz ve önceden bilinen bir yüksekliğe tekrarlanan çıkışlarda eklemliye göre daha az sallantılı ve daha geniş bir çalışma zemini sağlar. Kapalı alanda çalışıldığı için elektrikli tahrikli modeller tercih edilir; bu hem egzoz gazı birikimini önler hem de üretim hattının gürültü seviyesini bozmaz. Bu sayfa, Çan'daki seramik-kiremit fabrikalarının iç mekan bakım ve depolama erişiminde makaslı platform seçiminin nasıl yapıldığını, hangi durumlarda eklemli platforma göre daha uygun olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Tünel fırın üstü bakım galerisine düz erişim",
+                metin:
+                    "Tünel fırınların üstünde yer alan bakım galerileri genellikle sabit ve önceden bilinen bir yükseklikte bulunur; bu tip tekrarlanan, dikey erişim gerektiren işlerde makaslı platform, eklemli platforma göre daha geniş ve daha sabit bir çalışma zemini sunar. Galeri girişinin genişliği ve tavan açıklığı, platform seçiminden önce keşifte ölçülür.",
+            },
+            {
+                baslik: "Kiremit ve seramik depolama raf aralıklarında kullanım",
+                metin:
+                    "Depolama alanlarındaki raf aralıkları genellikle dar ve düzenli koridorlar şeklindedir; makaslı platformun taban genişliği bu koridorlara göre önceden kontrol edilir, çünkü standart bir makaslı platform eklemli modele göre daha geniş bir taban izine sahiptir. Koridor genişliği yetersizse dar gövdeli makaslı model veya elektrikli eklemli alternatif önerilir.",
+            },
+            {
+                baslik: "Geniş platform alanı ile çoklu işçi ve malzeme taşıma",
+                metin:
+                    "Fırın bakımı veya kanal temizliği gibi işlerde bazen iki işçinin ve yedek parça, alet çantası, refrakter malzeme gibi yüklerin aynı anda yukarı çıkması gerekir; makaslı platformun geniş sepeti bu ihtiyacı eklemli platforma göre daha rahat karşılar. Yük dağılımı ve toplam ağırlık, platform kapasitesi belirlenirken keşifte konuşulur.",
+            },
+            {
+                baslik: "Kapalı üretim alanında elektrikli ve sessiz çalışma",
+                metin:
+                    "Üretim hattı çalışırken yapılan bakımlarda dizel motor egzozu ve gürültü kabul edilebilir değildir; bu yüzden kapalı fabrika alanlarında neredeyse her zaman elektrikli tahrikli makaslı platform kullanılır. Elektrikli modelin şarj durumu ve vardiya süresi, uzun süren bakım işlerinde önceden planlanır.",
+            },
+            {
+                baslik: "Zemin düzlüğü ve beton yüzey gereksinimi",
+                metin:
+                    "Makaslı platform, eklemli platforma göre zemin düzensizliğine karşı daha hassastır; tekerlekler arası mesafe geniş olduğu için hafif bir eğim veya kot farkı bile makinenin stabilite sensörünü tetikleyebilir. Fabrika içi beton zeminlerde bu genellikle sorun değildir, ancak yükleme rampası veya sevkiyat kapısı gibi geçiş noktalarında zemin kotu önceden kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Fabrika içi kullanım senaryosuna göre makasli platform ve eklemli platform karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, Çan'daki seramik ve kiremit fabrikalarında sık karşılaşılan iç mekan senaryolarında iki platform sınıfının hangi durumda daha uygun olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Makasli platform", "Eklemli platform", "Öneri"],
+                    satirlar: [
+                        ["Fırın üstü düz galeri erişimi", "Geniş, stabil zemin", "Gereksiz yatay uzanım", "Makasli"],
+                        ["Dar depolama raf koridoru", "Taban genişliği kısıtlayabilir", "Dar gövde ile rahat girer", "Duruma göre eklemli"],
+                        ["Kanal içi engel etrafından dolaşma", "Yatay hareket sınırlı", "Boom ile engeli aşar", "Eklemli"],
+                        ["İki işçi + malzeme taşıma", "Geniş sepet avantajlı", "Sepet kapasitesi daha düşük", "Makasli"],
+                        ["Hafif eğimli geçiş/rampa", "Stabilite sensörü hassas", "Daha toleranslı", "Zemin önce kontrol edilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Fabrika içi keşif ve sevkiyat süreci",
+                paragraflar: [
+                    "Fabrika içi bir bakım işi için makine talep edildiğinde, önce galeri/koridor genişliği, tavan açıklığı ve zemin durumu hakkında bilgi istenir; bu bilgi genellikle telefonla veya paylaşılan fotoğraflarla netleştirilir. Kapı ve yükleme rampası ölçüleri, makinenin sahaya girip giremeyeceğini önceden belirler.",
+                    "Üretim hattı durdurulmadan yapılacak bakımlarda, makinenin ne zaman sahaya girip çıkacağı fabrika vardiya programıyla eşleştirilir; bu koordinasyon genellikle sevkiyattan bir gün önce netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Kapalı alanda operatör ve güvenlik kısıtları",
+                paragraflar: [
+                    "Kapalı üretim alanında çalışan operatör, tavan yüksekliği, aydınlatma armatürleri ve boru hatları gibi üst engelleri sürekli göz önünde bulundurur; sepet yükselirken bu engellerle mesafe sürekli kontrol edilir.",
+                    "Seramik ve kiremit üretiminde ortamda ince toz bulunabilir; bu, makinenin hareketli aksamlarında birikime yol açabileceği için uzun süreli çalışmalarda periyodik kontrol önerilir. Toz yoğunluğu yüksekse çalışma öncesi fabrika ile birlikte bir değerlendirme yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çan'daki seramik fabrikasında neden eklemli değil makaslı platform öneriyorsunuz?",
+                cevap:
+                    "Fırın üstü galeri gibi düz ve sabit bir yüksekliğe tekrarlanan erişim gereken işlerde makaslı platformun geniş ve stabil sepeti, eklemli platformun sağladığı yatay uzanımdan daha değerlidir. Ancak kanal içinde bir engelin etrafından dolaşmak gerekiyorsa eklemli platform daha uygun olabilir; bu karar, sahanın fotoğrafını görmeden verilmez.",
+            },
+            {
+                soru: "Fırın üstü bakım galerisinin tavan yüksekliği yetersizse ne olur?",
+                cevap:
+                    "Tavan açıklığı yetersizse standart yükseklikteki bir makasli platform sepete tam çıkamadan tavana değebilir; bu durumda alçak profilli bir model veya daha küçük bir eklemli platform önerilir. Galeri tavan yüksekliği, sevkiyat öncesi keşifte veya paylaşılan ölçümle netleştirilir.",
+            },
+            {
+                soru: "Kiremit veya seramik tozu makineyi zamanla etkiler mi?",
+                cevap:
+                    "Uzun süreli ve yoğun tozlu ortamda çalışma, makinenin hareketli aksamlarında (makas mafsalları, tekerlek yatakları) birikime yol açabilir; bu yüzden yoğun tozlu alanlarda uzun süreli kiralamalarda periyodik kontrol öneririz. Kısa süreli bakım işlerinde bu genellikle önemli bir risk oluşturmaz.",
+            },
+            {
+                soru: "Platforma aynı anda kaç kişi ve ne kadar malzeme çıkabilir?",
+                cevap:
+                    "Bu, seçilen makasli platform modelinin sepet kapasitesine bağlıdır; genel olarak iki kişi ve yanlarında taşıdıkları alet çantası/yedek parça için yeterli kapasiteli modeller tercih edilir. Toplam yük ağırlığı önceden bildirilirse doğru kapasiteli model önerilir.",
+            },
+            {
+                soru: "Fabrika içinde dizel platform kullanabilir miyiz?",
+                cevap:
+                    "Üretim hattı çalışırken kapalı alanda dizel motorlu bir platform kullanmak egzoz birikimi ve gürültü açısından uygun değildir; bu yüzden fabrika içi bakımlarda neredeyse her zaman elektrikli tahrikli makasli platform öneririz. İstisnai olarak hat tamamen durdurulmuş ve havalandırma yeterliyse değerlendirme yapılabilir.",
+            },
+            {
+                soru: "Depolama raflarının arasındaki koridor ne kadar geniş olmalı?",
+                cevap:
+                    "Standart bir makasli platformun taban genişliği, dar gövdeli eklemli platformlara göre daha fazladır; koridor genişliği bu ölçüye göre önceden kontrol edilir. Koridor dar çıkarsa dar gövdeli makasli model veya alternatif olarak elektrikli eklemli platform önerilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çan'daki seramik ve kiremit fabrikalarının tünel fırın, kurutucu kanal ve depolama rafı yapısı genel sektör bilgisidir; tesis adı ve rakam kullanılmamıştır. Fabrika içi keşif ve vardiya koordinasyonu firma pratiğidir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Gelibolu Tersane Bölgesi ve Çan Seramik Fabrikalarında Manlift Kiralama",
+        giris:
+            "Gelibolu tarafındaki küçük tersanelerde tekne gövdesinin üst yan yüzeyine boya, zımpara veya kaynak kontrolü için erişmek gerektiğinde, ya da Çan'daki seramik-kiremit fabrikalarının baca, çatı ve dış cephe bakımında, ihtiyaç genellikle dikey bir sepet değil belirli bir noktaya açılı ve yatay uzanan bir erişimdir. Manlift (personel yükseltici), bu tür nokta atışı yüksek erişim işlerinde, özellikle tekne gövdesi gibi düzensiz ve eğimli yüzeylerde veya fabrika bacası gibi tek bir noktaya odaklanılan işlerde tercih edilir. Tersane sahası genellikle açık deniz kenarında olduğu için rüzgar, manlift kullanımında en belirleyici hava koşuludur; belirli bir rüzgar hızının üzerinde sepet çalışması güvenlik nedeniyle durdurulur. Seramik fabrikasının baca ve çatı bakımında ise asıl kısıt, çatı eğimi ve baca çevresindeki boru/kanal yoğunluğudur. Bu sayfa, tersane ve seramik fabrikası ortamlarında manlift seçiminin ve hava koşulu kısıtlarının nasıl değerlendirildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Tersanede tekne gövdesi yan yüzeyine erişim",
+                metin:
+                    "Kızakta duran bir teknenin gövde yan yüzeyine boya, zımpara veya kaynak kontrolü için erişmek, düz bir dikey kaldırmadan çok belirli bir açıda ve yatay uzanan bir erişim gerektirir; bu ihtiyaç teleskopik veya eklemli manlift ile karşılanır. Tekne boyu ve gövde yüksekliği, doğru bom uzunluğunu belirlemek için keşifte veya paylaşılan ölçümle netleştirilir.",
+            },
+            {
+                baslik: "Seramik fabrikası baca ve çatı bakımı",
+                metin:
+                    "Fabrika bacasının dış yüzeyi veya çatı üzerindeki havalandırma kanalları, zemin seviyesinden değil belirli bir noktaya odaklanan bir erişim gerektirir; manlift bu noktaya en kısa yoldan ulaşmayı sağlar. Çatı eğimi ve baca çevresindeki boru yoğunluğu, bom açısının önceden planlanmasını gerektirir.",
+            },
+            {
+                baslik: "Dış cephe aydınlatma ve elektrik hattı bakımı",
+                metin:
+                    "Tersane sahası veya fabrika dış cephesindeki aydınlatma direkleri ve elektrik hatlarının bakımı, genellikle tek bir yüksek noktaya kısa süreli erişim gerektirir; bu tip işlerde manlift, sahayı bloke eden büyük bir platformdan daha pratik bir çözümdür. Direk yüksekliği ve zemin mesafesi, doğru model seçiminde belirleyicidir.",
+            },
+            {
+                baslik: "Rüzgar ve açık deniz kenarı koşullarında kullanım sınırı",
+                metin:
+                    "Tersane sahası açık deniz kenarında olduğu için rüzgar hızı, iç mekan veya korunaklı sahalara göre çok daha belirleyicidir; belirli bir rüzgar hızının üzerinde sepet çalışması operatör tarafından durdurulur, çünkü yükselmiş bir bom rüzgara karşı önemli ölçüde daha hassastır. Rüzgarlı günlerde çalışma programı esnek tutulur ve gerekirse ertelenir.",
+            },
+            {
+                baslik: "Teleskopik ve dikey manlift arasında seçim",
+                metin:
+                    "Tekne gövdesi gibi hem yükseklik hem yatay uzanım gerektiren işlerde teleskopik manlift, sadece dikey bir noktaya (baca gibi) çıkmak gerektiğinde ise daha kompakt bir dikey model tercih edilebilir. Erişilecek noktanın zeminden yatay uzaklığı ve yüksekliği, doğru model seçiminde temel kriterdir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tersane ve fabrika yükseklik işlerinde manlift tipi seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Gelibolu tersane sahası ve Çan seramik fabrikalarında sık karşılaşılan yükseklik işlerine göre manlift tipi seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş türü", "Erişim ihtiyacı", "Uygun manlift tipi", "Ana kısıt"],
+                    satirlar: [
+                        ["Tekne gövdesi boya/zımpara", "Açılı + yatay uzanım", "Teleskopik/eklemli", "Rüzgar"],
+                        ["Fabrika bacası dış yüzey", "Tek nokta, dikey odaklı", "Dikey veya teleskopik", "Baca çevresi boru yoğunluğu"],
+                        ["Çatı havalandırma kanalı", "Eğimli yüzey üstü erişim", "Teleskopik", "Çatı eğimi"],
+                        ["Aydınlatma direği bakımı", "Kısa süreli tek nokta", "Dikey manlift", "Zemin mesafesi"],
+                        ["Kızak alanı elektrik hattı", "Orta yükseklik, yatay", "Eklemli", "Zemin durumu (bkz. zor zemin sayfası)"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rüzgar ve hava koşulu güvenlik protokolü",
+                paragraflar: [
+                    "Tersane sahasında çalışma öncesi güncel rüzgar durumu operatör tarafından değerlendirilir; belirli bir hızın üzerinde sepet çalışması başlatılmaz veya devam eden çalışma durdurulur. Bu karar, iş programından bağımsız olarak güvenlik önceliklidir.",
+                    "Rüzgarlı bir günde çalışmanın ertelenmesi gerektiğinde, bu durum saha yetkilisine hemen bildirilir ve rüzgarın düştüğü bir sonraki uygun zaman dilimi birlikte planlanır.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat ve vardiya planlaması",
+                paragraflar: [
+                    "Tersanede tekne üzerinde çalışma genellikle geminin o anki bakım takvimine bağlıdır; bu yüzden manlift talebi geldiğinde erişilecek nokta, tekne boyu ve tahmini çalışma süresi önceden netleştirilir.",
+                    "Seramik fabrikasında çatı veya baca bakımı, üretim hattını etkilemeyecek şekilde planlanır; bu koordinasyon genellikle sevkiyattan önce fabrika yetkilisiyle netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tekne gövdesine boya yapmak için neden makasli platform değil manlift öneriyorsunuz?",
+                cevap:
+                    "Tekne gövdesi düz bir dikey yüzey değil, eğimli ve belirli bir açıda erişim gerektiren bir yüzeydir; manlift'in teleskopik veya eklemli bomu bu açıya uyum sağlarken makasli platformun düz dikey hareketi bu iş için yetersiz kalır. Tekne boyu ve gövde eğimi bilgisi doğru bom uzunluğunu belirlememizi sağlar.",
+            },
+            {
+                soru: "Rüzgarlı bir günde tersanede çalışabilir misiniz?",
+                cevap:
+                    "Rüzgar hızına bağlıdır; belirli bir hızın üzerinde sepet çalışmasını operatörümüz güvenlik gerekçesiyle durdurur, çünkü yükselmiş bir bom rüzgara karşı hassastır. Rüzgarlı günlerde çalışmayı esnek tutar, gerekirse rüzgarın düştüğü bir sonraki zaman dilimine erteleriz.",
+            },
+            {
+                soru: "Fabrika bacasının dış yüzeyine nasıl erişiyorsunuz?",
+                cevap:
+                    "Baca genellikle tek bir noktaya odaklanan dikey bir erişim gerektirir; dikey veya teleskopik manlift ile bacanın çevresindeki boru ve kanal yoğunluğuna dikkat ederek yaklaşırız. Baca çevresi engel durumu, sevkiyat öncesi paylaşılan fotoğrafla değerlendirilir.",
+            },
+            {
+                soru: "Çatı eğimi manlift kullanımını engeller mi?",
+                cevap:
+                    "Manlift çatının üzerine çıkmaz, zeminden veya uygun bir noktadan bom ile çatı üzerindeki hedefe erişir; bu yüzden çatı eğimi makinenin kendisini değil, doğru bom açısının planlanmasını etkiler. Çatı eğimi ve hedef noktanın konumu keşifte netleştirilir.",
+            },
+            {
+                soru: "Teleskopik mi dikey manlift mi kullanılacağına nasıl karar veriyorsunuz?",
+                cevap:
+                    "Erişilecek noktanın hem yüksekliğine hem zeminden yatay uzaklığına bakarız; sadece dikey bir noktaya (örneğin baca) çıkılacaksa daha kompakt bir dikey model, hem yükseklik hem yatay uzanım gerekiyorsa (örneğin tekne gövdesi) teleskopik model öneririz. Bu bilgi genellikle telefonla veya fotoğrafla netleştirilir.",
+            },
+            {
+                soru: "Tersane kızak alanının zemini manlift için uygun mu?",
+                cevap:
+                    "Kızak alanının zemin durumu (dolgu, nem, karma zemin) ayrı bir değerlendirme konusudur ve makine sınıfını etkileyebilir; bu konuyu zor zemin/arazi tipi platform sayfamızda ayrıca ele alıyoruz. Manlift talebi geldiğinde zemin durumu da keşifte birlikte değerlendirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gelibolu tersane sahasının açık deniz kenarı rüzgar etkisi ve Çan seramik fabrikalarının baca/çatı yapısı genel sektör bilgisidir; tesis adı ve rakam kullanılmamıştır. Rüzgar güvenlik protokolü ve vardiya koordinasyonu firma pratiğidir.",
+    },
 };

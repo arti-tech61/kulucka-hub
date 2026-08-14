@@ -1292,4 +1292,198 @@ export const IKINCIELPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Arazi tipi platformların otomatik dengeleme sistemi ve zorlu zeminde stabilite gereksinimleri kamuya açık genel ekipman bilgisidir. Marka, model veya rakam uydurulmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "İkinci El Makaslı Platform mu, Kiralık mı? Batarya ve Şase Riskini Görmeden Karar Vermeyin",
+        giris:
+            "Makaslı platformlar, dikey kalkan kesme mekanizması sayesinde geniş sepet alanı ve yüksek taşıma kapasitesi sunar; bu özellikleri onu depo, üretim hattı ve iç mekân bakım işlerinde en çok tercih edilen platform tipi hâline getirir. Sık kullanılan bir makine olduğu için ikinci el piyasasında da bolca ilan bulunur ve fiyatlar sıfır makineye göre cazip görünür. Ancak makaslı platforma özgü üç bileşen — akü/batarya grubu, kalkan mekanizmasının şase bağlantı noktaları ve hidrolik kaldırma sistemi — ikinci el alımda dışarıdan değerlendirilmesi en zor parçalardır. Bir akü grubunun kaç şarj döngüsü gördüğünü, kalkan pimlerinde birikmiş yorgunluğu veya hidrolik pompanın gerçek performans kaybını satış anındaki kısa bir denemeyle anlamak mümkün değildir; bu belirsizlikler makine sahaya girip yoğun kullanılmaya başladığında ortaya çıkar. Bu sayfa, makaslı platforma özgü ikinci el risklerini tek tek açar ve kiralamanın bu riskleri neden yapısal olarak devre dışı bıraktığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Akü/batarya ömrü: en sık yanılgıya düşülen kalem",
+                metin:
+                    "Elektrikli makaslı platformların çoğu derin döngü akü grubuyla çalışır ve bu akülerin kapasitesi, şarj döngüsü arttıkça geri dönüşü olmayan biçimde azalır. İkinci el bir makinede akü grubunun kaç kez tam şarj-deşarj döngüsünden geçtiğini dışarıdan görmek mümkün değildir; satıcı 'aküler yeni değiştirildi' dese bile bu beyanı bağımsız doğrulamak alıcının elinde değildir. Kapasitesi düşmüş bir akü grubu, tam yükseklikte çalışma süresini kısaltır ve bu durum genellikle işin ortasında, makine yarı şarjda güç kaybettiğinde fark edilir.",
+            },
+            {
+                baslik: "Kalkan (makas) mekanizmasının pim ve burç yorgunluğu",
+                metin:
+                    "Makaslı platformun adını aldığı çapraz kalkan mekanizması, her açılış-kapanışta pimler ve burçlar üzerinden yük taşır; bu temas noktalarında zamanla oluşan aşınma boşluk (oynama) yaratır ve bu boşluk kalkan tam açılırken hafif bir sallanma olarak hissedilir. Kısa bir showroom denemesinde bu sallanma fark edilmeyebilir çünkü boşluk yalnızca tam yükseklikte ve yük altında belirginleşir. İkinci el alımda bu detayın atlanması, sahada operatörün güven duymadığı, sallanan bir platformla çalışmasına yol açar.",
+            },
+            {
+                baslik: "Hidrolik pompa performans kaybı: yavaş kalkış belirtisi",
+                metin:
+                    "Makaslı platformun dikey kaldırma hızı hidrolik pompanın performansına doğrudan bağlıdır; pompa aşındıkça kalkış hızı yavaşlar ve bu yavaşlama, özellikle yoğun kullanılan bir depoda üretkenliği doğrudan düşürür. İkinci el ilanlarında pompa performansı nadiren ölçülüp paylaşılır; alıcı, makineyi yük altında ve tam yüksekliğe kadar test etmeden bu kaybı fark edemez. Performans kaybı arızadan önce gelen bir uyarı sinyalidir ama ikinci el alımda bu sinyal genellikle okunmadan geçilir.",
+            },
+            {
+                baslik: "Dar koridor tekerlek/şase aşınması iç mekân kullanımında kritik",
+                metin:
+                    "Makaslı platformlar sıklıkla dar depo koridorlarında ve hassas zeminlerde (epoksi kaplı beton, seramik) kullanılır; bu kullanım deseni tekerleklerde ve şase yataklarında özel bir aşınma paterni bırakır. İkinci el bir makinede tekerlek sertliğinin azalması, zemin izi bırakma riskini artırırken, şase yataklarındaki oynama düz sürüşte fark edilmeyip dönüşlerde ortaya çıkar. Bu tür detaylar ancak makine gerçek koridor genişliğinde manevra yaptırılarak test edilebilir.",
+            },
+            {
+                baslik: "Kiralamada bu üç bileşenin teslimat öncesi kontrolü rutindir",
+                metin:
+                    "Ciddi bir kiralama işletmesi için akü kapasitesi, kalkan pim boşluğu ve hidrolik pompa performansı, her teslimat öncesi kontrol listesinin standart kalemleridir — çünkü bu kontrol yapılmazsa filo sahibinin kendisi bir sonraki kiracıdan şikâyet alır. Kiracı için bu, ikinci el alımda kendi başına yapması gereken üç ayrı teknik testi filo sahibine devretmek anlamına gelir; akü kapasitesi düşükse veya kalkanda boşluk varsa o makine zaten kiralanmaz, filodan çekilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platformda ikinci el riski ile kiralama avantajı",
+                paragraflar: [
+                    "Makaslı platforma özgü üç kritik bileşen — akü, kalkan mekanizması, hidrolik pompa — ikinci el alımda dışarıdan test edilmesi en zor parçalardır. Aşağıdaki tablo bu risklerin ikinci el alım ile kiralama arasında nasıl farklılaştığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bileşen", "İkinci el satın almada", "Kiralamada"],
+                    satirlar: [
+                        ["Akü/batarya kapasitesi", "Şarj döngüsü sayısı doğrulanamaz", "Teslimat öncesi kapasite kontrolü yapılır"],
+                        ["Kalkan pim/burç boşluğu", "Kısa denemede fark edilmez", "Tam yükseklikte yük altında test edilir"],
+                        ["Hidrolik pompa performansı", "Yavaş kalkış genelde ölçülmez", "Standart teslimat kontrolünün parçası"],
+                        ["Tekerlek/şase aşınması", "Dar koridorda ancak fiilen anlaşılır", "Aşınan parça filo rotasyonunda değişir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Depo ve üretim hattı için satın alma mı, kiralama mı",
+                paragraflar: [
+                    "Makaslı platform, iç mekân kullanımının yoğunluğu nedeniyle 'sürekli ihtiyaç duyuyoruz, satın alalım' düşüncesine en çok yol açan platform tipidir. Ancak sürekli ihtiyaç, illa satın almayı gerektirmez; asıl soru, o sürekli ihtiyacın tek bir makineyle mi yoksa değişen sepet yüksekliği ve taşıma kapasitesi gerektiren farklı işlerle mi karşılandığıdır. Depo raf yüksekliği zamanla değişebilir, üretim hattı yeniden düzenlenebilir; sabit bir makineye bağlanmak bu değişime uyum sağlamayı zorlaştırır.",
+                    "Akü teknolojisi de zamanla gelişir; birkaç yıl önce üretilmiş bir makinenin akü grubu, güncel modellere kıyasla daha kısa çalışma süresi ve daha uzun şarj süresi sunabilir. Kiralama, bu teknolojik yenilenmeyi otomatik olarak yakalar çünkü filo sahibi güncel akü teknolojisine sahip makineleri filosunda tutmak zorundadır — aksi hâlde kiracı memnuniyeti düşer.",
+                ],
+            },
+            {
+                baslik: "Satın almadan önce test edilmesi gereken üç nokta",
+                paragraflar: [
+                    "İkinci el bir makaslı platform değerlendiriliyorsa, karardan önce şu üç nokta mutlaka fiilen test edilmelidir: akü tam şarj edilip makine tam yükseklikte belirli bir süre yük altında çalıştırılarak kapasite kaybı gözlemlenmeli, kalkan tam açılımdayken hafif bir yanal kuvvet uygulanıp sallanma/oynama kontrol edilmeli ve makine boştan tam yüksekliğe kaç saniyede çıktığı ölçülüp aynı modelin güncel katalog değeriyle karşılaştırılmalıdır. Bu üç test atlanırsa, makinenin gerçek performansı yalnızca sahada ilk yoğun kullanımda ortaya çıkar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İkinci el makaslı platformda akü ömrünü nasıl anlarım?",
+                cevap:
+                    "En güvenilir yöntem, aküyü tam şarj ettirip makineyi tam yükseklikte, yük altında belirli bir süre (örneğin yarım saat) çalıştırıp kapasite düşüşünü gözlemlemektir. Satıcının 'aküler yeni' beyanı tek başına yeterli değildir çünkü akü sağlığı görsel muayeneyle anlaşılmaz; kapasite testi yapılmadan satın alınan bir makinede, akünün gerçek durumu ancak sahada işin ortasında güç kaybı yaşandığında fark edilir.",
+            },
+            {
+                soru: "Kalkan mekanizmasındaki oynama ne kadar ciddi bir sorun?",
+                cevap:
+                    "Küçük bir boşluk normal aşınmanın parçası olabilir ama boşluk arttıkça hem operatör güveni azalır hem de pim/burç grubunun erken değişim ihtiyacı doğar. Bu boşluk yalnızca kalkan tam açılımdayken ve yük varken belirgin hâle gelir; kısa bir showroom turunda fark edilmez. Satın almadan önce makine tam yükseklikte iken hafif bir yanal kuvvet uygulanarak sallanma test edilmelidir.",
+            },
+            {
+                soru: "Hidrolik pompa yavaşlaması makinenin arızalı olduğu anlamına mı gelir?",
+                cevap:
+                    "Mutlaka arıza anlamına gelmez ama performans kaybının bir işaretidir ve zamanla arızaya dönüşme ihtimali taşır. Yavaş kalkış, özellikle vardiyalı ve yoğun kullanılan bir depoda üretkenliği doğrudan düşürür; bu nedenle ikinci el alımda makinenin boştan tam yüksekliğe çıkış süresi ölçülüp güncel katalog değeriyle karşılaştırılmalıdır. Süre belirgin biçimde uzunsa, pompa revizyonu maliyeti fiyat pazarlığına dahil edilmelidir.",
+            },
+            {
+                soru: "Dar depo koridorlarında ikinci el makine kullanmak neden riskli?",
+                cevap:
+                    "Dar koridorda kullanılan bir makine, tekerlek ve şase yataklarında düz sürüşte fark edilmeyen ama dönüşlerde ortaya çıkan bir aşınma paterni geliştirir. İkinci el alımda bu detay, makine gerçek koridor genişliğinde manevra yaptırılmadan anlaşılmaz; ayrıca aşınmış tekerlek hassas zeminlerde (epoksi, seramik) iz bırakma riskini artırır. Zemin hassasiyeti yüksek bir depoda çalışacaksa, tekerlek durumu mutlaka fiilen test edilmelidir.",
+            },
+            {
+                soru: "Makaslı platform kiralamak neden özellikle akü riskini ortadan kaldırır?",
+                cevap:
+                    "Çünkü ciddi bir kiralama işletmesi, akü kapasitesi düşmüş bir makineyi filoda tutmaz — düşük kapasiteli akü, bir sonraki kiracıdan şikâyet almak anlamına gelir ve bu filo sahibinin ticari çıkarına aykırıdır. Bu yüzden kiralık makinelerde akü kontrolü teslimat öncesi standart bir adımdır; kiracı, ikinci el alımda kendi başına yapması gereken kapasite testini filo sahibine devretmiş olur.",
+            },
+            {
+                soru: "Depo işletmem için makaslı platform satın almak ne zaman mantıklı olur?",
+                cevap:
+                    "Depo raf yüksekliği ve sepet kapasitesi ihtiyacı yıllar boyunca sabit kalacaksa ve makine haftalık olarak yoğun biçimde kullanılacaksa, satın almanın amortismanı kısalabilir. Ancak raf düzeni değişebilir, üretim hattı yeniden konumlanabilir veya mevsimsel talep dalgalanması varsa, tek bir makineye bağlanmak esnekliği azaltır. Bu durumda akü ve kalkan riskini taşımadan, ihtiyaca göre sınıf değiştirebilme imkânı sunan kiralama daha rasyonel bir tercih olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformların akü/batarya sistemi, kalkan (makas) mekanizması ve hidrolik kaldırma yapısı kamuya açık genel ekipman bilgisidir. İkinci el akü ve mekanik yorgunluk riskiyle ilgili değerlendirmeler sektör geneli bilinen dinamiklere dayanır; marka, model veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "İkinci El Manlift Satın Almak mı, Kiralamak mı? Bom Yorgunluğu ve Muayene Şüphesi",
+        giris:
+            "Manlift ailesi (eklemli ve teleskopik bomlu platformlar), makaslı platformların aksine yalnızca dikey değil yatay erişim de sağlar; bu özellik onu çatı altı montaj, cephe işleri ve engelin arkasına ulaşmak gereken bakım işlerinde vazgeçilmez kılar. Ancak bu yatay erişim yeteneği, bomu sürekli eğilme ve burulma yüküne maruz bırakır — ve bu tür yükler, makaslı platformun dikey kalkan mekanizmasında görülmeyen, manlifte özgü bir yorulma riski doğurur. İkinci el bir manlift satın alırken alıcının karşılaştığı asıl belirsizlik üç noktada toplanır: bomun yapısal yorgunluk geçmişi (özellikle aşırı yanal yük altında kalıp kalmadığı), teleskopik veya eklemli bölümlerdeki hidrolik silindirlerin sızıntı geçmişi ve periyodik muayene/sertifika belgesinin gerçekten o makineye ait olup olmadığı. Bu üç risk, dışarıdan bakan bir alıcının fark edemeyeceği kadar teknik ve kademeli biçimde birikir. Bu sayfa, manlift ailesine özgü ikinci el risklerini açar ve kiralamanın bu riskleri nasıl bertaraf ettiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Bom yorgunluk çatlağı: yanal yükün bıraktığı görünmez iz",
+                metin:
+                    "Manlift bomu, dikey kaldırmanın yanı sıra yatay uzanma ve dönme hareketleri sırasında sürekli eğilme-burulma yüküne maruz kalır; bu yük paterni, zamanla kaynak dikişlerinde ve bom gövdesinde mikro çatlaklar başlatabilir. Bu tür çatlaklar başlangıç aşamasında çıplak gözle görülmez ve genellikle ancak manyetik parçacık muayenesi gibi özel bir test yöntemiyle tespit edilebilir — ki bu test standart bir ikinci el satış sürecinde neredeyse hiç yapılmaz. Aşırı yanal yükte (örneğin sepette yükken hızlı dönüş) çalıştırılmış bir manlift, dışarıdan sağlam görünse bile bu tür kademeli hasarı taşıyabilir.",
+            },
+            {
+                baslik: "Teleskopik/eklemli bölüm hidrolik silindir sızıntı geçmişi",
+                metin:
+                    "Manlift bomunun uzama ve açılma hareketini sağlayan hidrolik silindirler, bomun her segmentinde ayrı ayrı çalışır ve bu segmentlerden herhangi birinde başlayan bir iç sızıntı, bomun tam uzunlukta güç kaybetmesine veya sepetin yavaşça alçalmasına yol açabilir. İkinci el alımda bu sızıntı, bom kısa mesafede test edildiğinde fark edilmez; yalnızca bom tam uzunluğa çekilip yük altında bir süre beklendiğinde ortaya çıkar. Satıcının kısa bir gösterimle sınırlı tuttuğu testler bu riski gizler.",
+            },
+            {
+                baslik: "Periyodik muayene/sertifika şüphesi: seri numarası eşleşmesi",
+                metin:
+                    "Manlift sınıfı ekipmanlarda periyodik kontrol/muayene belgesi yasal bir zorunluluktur ve bu belge, makinenin bom ve sepet bağlantı noktalarındaki yapısal bütünlüğünü de kapsar. İkinci el satışlarda sunulan belgenin, üzerindeki seri numarasının makinenin kendi plakasıyla birebir eşleşip eşleşmediği ve muayeneyi yapan kuruluşun bom/silindir grubunu gerçekten test edip etmediği bağımsız olarak teyit edilmelidir — bu teyit çoğu zaman atlanır ve belge yalnızca 'var' diye kabul edilir.",
+            },
+            {
+                baslik: "Sepet döner tablası ve seviye tutma sisteminin aşınması",
+                metin:
+                    "Manliftte sepetin bom hareketinden bağımsız olarak yatay kalmasını sağlayan seviye tutma (self-leveling) mekanizması ve döner tabla, bomun her açı değişiminde çalışır; bu sistemdeki hassasiyet kaybı sepetin hafifçe eğik durmasına yol açabilir ve bu durum operatör için fark edilmesi zor ama güvenlik açısından kritik bir işarettir. İkinci el alımda bu sistemin kalibrasyonu genellikle test edilmeden geçilir çünkü sorunun belirtisi ancak bom tam açıldığında görünür hâle gelir.",
+            },
+            {
+                baslik: "Kiralamada bom muayenesi ve sızıntı testi teslimat rutinidir",
+                metin:
+                    "Ciddi bir kiralama işletmesi için manliftin periyodik muayene belgesi güncel tutulur ve bom/silindir grubu düzenli aralıklarla kontrol edilir, çünkü bomda başlayan bir yorgunluk hasarı hem güvenlik hem de filo kârlılığı açısından erken yakalanmak zorundadır. Kiracı için bu, ikinci el alımda kendi başına yapması gereken bom muayenesini ve sızıntı testini filo sahibine devretmek anlamına gelir; şüpheli bir belge veya sızıntı bulunan makine zaten filoda tutulmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manliftte ikinci el riski ile kiralama avantajı",
+                paragraflar: [
+                    "Manlift bomunun yatay erişim yeteneği, aynı zamanda diğer platform tiplerinde görülmeyen yorulma ve sızıntı risklerini beraberinde getirir. Aşağıdaki tablo bu risklerin ikinci el alım ile kiralama arasında nasıl farklılaştığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Risk noktası", "İkinci el satın almada", "Kiralamada"],
+                    satirlar: [
+                        ["Bom yorgunluk çatlağı", "Özel test yapılmadan fark edilmez", "Periyodik muayenede yapısal kontrol yapılır"],
+                        ["Silindir sızıntı geçmişi", "Kısa mesafe testinde gizli kalır", "Tam uzunlukta yük altında test edilir"],
+                        ["Muayene/sertifika belgesi", "Seri numarası eşleşmesi genelde teyit edilmez", "Belge güncel ve makineye özgü tutulur"],
+                        ["Seviye tutma/döner tabla", "Kalibrasyon kaybı test edilmeden geçilir", "Düzenli kalibrasyon rutini uygulanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hangi işlerde manlift, hangi işlerde makaslı platform gerekir",
+                paragraflar: [
+                    "Manlift ailesi, engelin arkasına ulaşmak (örneğin bir makinenin veya boru hattının üzerinden geçip diğer tarafa erişmek), çatı altı çelik konstrüksiyon montajı veya bina cephesinde yatay hareket gerektiren işlerde tercih edilir; bu esneklik, dikey erişimle sınırlı makaslı platformun sunamadığı bir yetenektir. Ancak bu yetenek, bomu daha karmaşık bir yapısal ve hidrolik sisteme dönüştürür ve bu karmaşıklık ikinci el riskini de artırır.",
+                    "İş profili yalnızca dikey, engelsiz bir yükseklik erişimiyse makaslı platform yeterli ve daha az riskli bir seçenektir; iş yatay uzanma veya dönme gerektiriyorsa manlift zorunlu hâle gelir. Bu ayrımı netleştirmeden ikinci el bir makineye yatırım yapmak, ya gereğinden karmaşık ya da yetersiz bir sınıfla çalışmak anlamına gelebilir.",
+                ],
+            },
+            {
+                baslik: "Satın almadan önce doğrulanması gereken üç belge/test",
+                paragraflar: [
+                    "İkinci el bir manlift değerlendiriliyorsa, karardan önce şunlar mutlaka doğrulanmalıdır: periyodik muayene belgesindeki seri numarasının makinenin plakasıyla birebir eşleştiği, bom tam uzunluğa çekilip yük altında en az on beş dakika beklendiğinde sepetin alçalıp alçalmadığı ve seviye tutma sisteminin bom farklı açılara getirildiğinde sepeti yatay tutup tutmadığı. Bu üç doğrulama yapılmadan verilen bir satın alma kararı, bomdaki gizli yorgunluğu ve silindir sızıntısını sahaya taşır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bom yorgunluk çatlağı ikinci el alımda nasıl anlaşılır?",
+                cevap:
+                    "Standart bir görsel muayeneyle anlaşılmaz; manyetik parçacık muayenesi veya ultrasonik kalınlık ölçümü gibi özel bir test gerekir ve bu test ikinci el satış sürecinde nadiren talep edilir. Alıcı bu testi bağımsız bir uzmana yaptırmadıkça, bomun geçmişte aşırı yanal yük altında kalıp kalmadığını bilme imkânı yoktur; bu belirsizlik, manliftin ikinci el alımda taşıdığı en ciddi risktir.",
+            },
+            {
+                soru: "Periyodik muayene belgesi olan bir manlift güvenli demek midir?",
+                cevap:
+                    "Belgenin varlığı gereklidir ama tek başına yeterli değildir; belgedeki seri numarasının makinenin üzerindeki plakayla birebir eşleştiği ve muayenenin bom/silindir grubunu da kapsadığı ayrıca teyit edilmelidir. Bazı ikinci el satışlarında belge, aynı modelin başka bir örneğine ait olarak sunulabilir; bu tür bir uyumsuzluk yalnızca seri numarası karşılaştırması yapılırsa ortaya çıkar.",
+            },
+            {
+                soru: "Bom tam uzunlukta yük altında sepet alçalırsa bu ne anlama gelir?",
+                cevap:
+                    "Bu, teleskopik veya eklemli bölümdeki hidrolik silindirlerden birinde iç sızıntı olduğunun göstergesidir. Sızıntı küçük olsa bile zamanla büyür ve tam yükseklikte çalışırken beklenmedik bir güç kaybına yol açabilir. Bu test kısa mesafede yapılmadığı için ikinci el alımda genellikle atlanır; satın almadan önce bomun tam uzunlukta ve yük altında en az on beş dakika bekletilmesi önerilir.",
+            },
+            {
+                soru: "Manlift ile makaslı platform arasında ikinci el riski açısından fark var mı?",
+                cevap:
+                    "Evet, belirgin bir fark vardır. Makaslı platformun riski daha çok akü ve dikey kalkan mekanizmasında yoğunlaşırken, manliftin riski bomun yatay/dönel hareketinden kaynaklanan yapısal yorgunluk ve çok segmentli hidrolik sistemdeki sızıntı olasılığındadır. Manliftin bom yapısı daha karmaşık olduğu için ikinci el alımda gizli hasarı test etmek de daha fazla teknik bilgi gerektirir.",
+            },
+            {
+                soru: "Kiralık manliftte muayene belgesini görebilir miyim?",
+                cevap:
+                    "Evet, ciddi bir kiralama işletmesi bu talebi karşılamalıdır. Makinenin güncel periyodik muayene belgesi, seri numarası eşleşmesi ve varsa geçmiş bom/silindir müdahaleleri teslimat öncesinde paylaşılabilir bir bilgidir; bu şeffaflık, ikinci el satın almada satıcının elinde tutabileceği bilgi asimetrisini ortadan kaldırır çünkü filo sahibi makineyi bir sonraki kiracıya da teslim edecektir.",
+            },
+            {
+                soru: "Çatı altı montaj işleri için manlift kiralamak neden daha mantıklı?",
+                cevap:
+                    "Çatı altı ve engelin arkasına erişim gerektiren montaj işleri genellikle proje süresine bağlı, tek seferlik veya kısa süreli olur; bu tür işler için manlift satın almak hem yüksek ilk yatırım hem de bomdaki gizli yorgunluk riskini üstlenmek anlamına gelir. Kiralama, hem sadece iş süresince ödeme yapılmasını sağlar hem de bomun periyodik muayeneden geçmiş, sızıntısız bir örneğine erişimi garanti eder.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift (eklemli/teleskopik bomlu platform) ailesinin yapısal ve hidrolik özellikleri, periyodik muayene zorunluluğu kamuya açık genel ekipman bilgisidir. İkinci el bom yorgunluğu ve silindir sızıntı riskiyle ilgili değerlendirmeler sektör geneli bilinen dinamiklere dayanır; marka, model veya rakam uydurulmamıştır.",
+    },
 };

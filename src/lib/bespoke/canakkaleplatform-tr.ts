@@ -1957,4 +1957,202 @@ export const CANAKKALEPLATFORM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Çanakkale'nin zeytin bahçesi ve RES saha yolu arazi koşulları kamuya açık bölgesel/sektörel genel bilgidir; ekipman sınıfı ve zemin değerlendirme yaklaşımı firma pratiğidir. Tesis/santral adı ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Biga OSB ve Liman Sahasında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, dikey açılan makas kolları sayesinde geniş ve düz bir sepet tabanı sunan, ağırlıklı olarak beton ve sert zeminlerde çalışan bir yükseklik erişim aracıdır. Biga OSB'deki fabrika içi bakım işlerinde bu araç, üretim hattı üzerindeki aydınlatma değişimi, çelik konstrüksiyon çatı kontrolü ve vinç ray bakımı gibi işlerde tercih edilir — çünkü sepet tabanı geniş olduğu için iki kişi ve malzeme aynı anda taşınabilir, bu da tek seferde bitirilen iş kalemi sayısını artırır. Liman tarafında ise makaslı platform, rıhtım gerisindeki sundurma ve depo yapılarının iç aydınlatma ve çatı bakımında, sahanın düz beton zemininden faydalanarak çalışır; ancak açık rıhtım kenarında veya dengesiz zeminde makaslı platform tercih edilmez, çünkü bu araç sabit düşey eksende yükselir ve yatay uzanma kabiliyeti yoktur. Bu sayfa, Biga OSB fabrika içi ve liman sundurma/depo sahalarında makaslı platformun hangi işlerde avantajlı, hangi işlerde uygun olmadığını; zemin, tavan yüksekliği ve kapı genişliği gibi ölçütlerle birlikte anlatır.",
+        maddeler: [
+            {
+                baslik: "Fabrika içi hat üstü bakımda geniş sepet avantajı",
+                metin:
+                    "Biga OSB'deki üretim tesislerinde aydınlatma armatürü değişimi, kablo kanalı bakımı veya çatı altı vinç rayı kontrolü gibi işler genellikle art arda birçok noktada tekrarlanır. Makaslı platformun geniş sepet tabanı, malzeme kutusunu ve iki kişiyi aynı anda taşıyabildiği için, aynı hat boyunca ilerleyen tekrarlı işlerde iniş-biniş sayısını azaltır. Hat arası koridor genişliği, makinenin şase ölçüsüyle önceden karşılaştırılır; dar koridorlu tesislerde daha ince şaseli model seçilir.",
+            },
+            {
+                baslik: "Sundurma ve depo yapılarında düz zemin çalışması",
+                metin:
+                    "Liman gerisindeki sundurma ve depo binalarının iç zemini genellikle düz betondur; bu, makaslı platformun en verimli çalıştığı zemin tipidir. Çatı altı aydınlatma, sprinkler hattı kontrolü veya çelik kolon bağlantı noktası muayenesi gibi işler, sabit düşey harekette sorun çıkarmaz. Ancak zeminde yükleme rampası kot farkı veya kapı eşiği varsa, bu noktalar iş öncesi ölçülür ve makinenin geçiş güzergâhı buna göre planlanır.",
+            },
+            {
+                baslik: "Çelik konstrüksiyon çatı ve kiriş altı kontrolü",
+                metin:
+                    "Biga OSB'deki fabrika hollerinin çelik çatı kirişleri, düz bir dikey erişimle çoğu noktaya ulaşılabilecek şekilde tasarlanmıştır; bu, makaslı platformun avantajlı olduğu bir başka alan. Kiriş altı kaynak kontrolü, boya bakımı veya bağlantı cıvatası sıkma gibi işlerde, sepetin genişliği operatöre ve yardımcısına yeterli çalışma alanı sağlar. Kiriş yüksekliği 12 metreyi aşan büyük hollerde, çalışma yüksekliği sınıfı önceden netleştirilir.",
+            },
+            {
+                baslik: "Rıhtım kenarında neden tercih edilmez",
+                metin:
+                    "Açık rıhtım kenarı, iskele direği çevresi veya gemi gövdesine yatay yaklaşım gerektiren işlerde makaslı platform uygun değildir — bu aracın sepeti yalnızca dikey eksende yükselir, bir engelin yanından dolaşarak hedefe uzanamaz. Böyle bir talep geldiğinde dürüstçe eklemli platform veya sepetli araç önerilir; makaslı platformu zorlayarak bu işe göndermek güvenlik riski oluşturur ve biz bu tür talepleri kabul etmeyiz.",
+            },
+            {
+                baslik: "OSB içi taşıma ve teslimat planlaması",
+                metin:
+                    "Biga OSB'nin fabrika parselleri arasındaki iç yol genişliği ve giriş kapısı yüksekliği, makinenin lowbed ile mi yoksa kendi motoruyla mı sahaya alınacağını belirler. Liman sahasına teslimatta ise gümrük ve saha giriş prosedürü göz önünde bulundurulur; bu prosedür genellikle bir iş günü öncesinden planlanmalıdır ki teslimat günü beklenmeden başlasın.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Biga OSB ve liman sahasında makaslı platform iş tipi eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Biga OSB fabrika içi ve liman gerisi sundurma/depo işlerinde makaslı platformun hangi durumda uygun, hangi durumda uygun olmadığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş noktası", "Zemin", "Uygunluk", "Not"],
+                    satirlar: [
+                        ["Fabrika içi hat üstü aydınlatma", "Düz beton", "Uygun", "Geniş sepet, tekrarlı iş"],
+                        ["Sundurma/depo çatı altı", "Düz beton", "Uygun", "Sabit düşey erişim"],
+                        ["Çelik çatı kiriş kontrolü", "Düz beton", "Uygun", "Kiriş yüksekliği önceden ölçülür"],
+                        ["Rıhtım kenarı, iskele direği", "Açık saha", "Uygun değil", "Yatay uzanma gerekir — eklemli/sepetli önerilir"],
+                        ["Yükleme rampası kot farkı", "Değişken", "Koşullu", "Geçiş güzergâhı önceden planlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden her işe makaslı platform önermiyoruz",
+                paragraflar: [
+                    "Makaslı platform, düz zeminde dikey erişim gerektiren işlerde en ekonomik ve en hızlı kurulan araçtır; ama bu avantaj, engelin yanından dolaşma veya yatay uzanma gereken işlerde bir dezavantaja dönüşür. Biga OSB'deki fabrika hatlarında bu araç neredeyse her zaman doğru seçimdir, çünkü zemin düzdür ve hedef genellikle doğrudan tepede bulunur.",
+                    "Liman tarafında ise ayrım netleşir: sundurma ve depo iç mekânı makaslı platforma uygundur, açık rıhtım kenarı ve gemi çevresi ise değildir. Bu ayrımı telefonda kısaca sorup, doğru aracı önce biz öneririz — yanlış araçla sahaya gidip işi yapamamak, hem sizin hem bizim zamanımızı kaybettirir.",
+                ],
+            },
+            {
+                baslik: "Fabrika ve liman teslimat lojistiği farkı",
+                paragraflar: [
+                    "Biga OSB'ye teslimat, fabrika parselinin iç yol genişliği ve kapı yüksekliğine göre planlanır; bu bilgi genellikle tesis yönetiminden bir telefonla netleştirilebilir. Liman sahasına teslimatta ise ek olarak saha giriş izni ve güvenlik prosedürü devreye girer, bu da teslimat saatini bir gün öncesinden kesinleştirmeyi gerektirir.",
+                    "İki güzergâhın farklı zaman çizelgesi olduğunu baştan bilmek, iş gününde beklenmedik gecikme yaşanmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Biga OSB'deki fabrika içinde makaslı platform hangi işlerde kullanılır?",
+                cevap:
+                    "En sık aydınlatma armatürü değişimi, kablo kanalı bakımı, çelik çatı kirişi kontrolü ve vinç ray hattı bakımında kullanılır. Zemin düz beton olduğu ve hedef genellikle doğrudan tepede bulunduğu için, fabrika içi hat üstü işlerde en pratik çözümdür. Hat koridoru dar ise, makinenin şase genişliği önceden ölçülür.",
+            },
+            {
+                soru: "Liman rıhtımında makaslı platform çalıştırabilir misiniz?",
+                cevap:
+                    "Açık rıhtım kenarında veya iskele direği çevresinde çalıştırmıyoruz — bu araç yalnızca dikey eksende yükselir, bir engelin yanından dolaşamaz. Bu tür işler için eklemli platform veya sepetli araç öneririz. Rıhtım gerisindeki sundurma ve depo binalarının iç mekânında ise makaslı platform sorunsuz çalışır, çünkü zemin düz betondur ve hedef genellikle tepede kalır.",
+            },
+            {
+                soru: "Fabrika hattı boyunca birçok nokta var, tek makineyle bitirilir mi?",
+                cevap:
+                    "Genellikle evet. Makaslı platformun geniş sepet tabanı malzeme ve iki kişiyi aynı anda taşıyabildiği için, aynı hat üzerindeki tekrarlı işler tek makineyle, iniş-biniş sayısı azaltılarak tamamlanır. Hat uzunluğu ve nokta sayısı paylaşılırsa, planlamayı buna göre yapıp tahmini süreyi baştan veririz.",
+            },
+            {
+                soru: "OSB parseline giriş kapısı dar, makine sığar mı?",
+                cevap:
+                    "Kapı genişliği ve yüksekliği önceden ölçülüp makinenin şase ölçüsüyle karşılaştırılır. Standart makaslı platform modelleri çoğu fabrika kapısına sığar, ancak dar koridorlu veya alçak tavanlı parsellerde daha ince şaseli veya akülü kompakt model önerilir. Bu ölçüm, teslimat gününden önce netleştirilir.",
+            },
+            {
+                soru: "Liman sahasına teslimat için ek izin gerekiyor mu?",
+                cevap:
+                    "Evet, liman sahasına giriş genellikle saha güvenlik prosedürü ve giriş izni gerektirir; bu Biga OSB'deki fabrika teslimatına göre bir adım fazladır. Bu izni bir iş günü öncesinden başlatmanızı öneririz ki teslimat günü beklemeden başlansın. İzin süreci hakkında bilgi paylaşırsanız, planlamayı ona göre kurarız.",
+            },
+            {
+                soru: "Çelik çatı kirişi kontrolünde hangi yükseklik sınıfı gerekir?",
+                cevap:
+                    "Biga OSB'deki fabrika hollerinin kiriş yüksekliği genellikle 8-12 metre bandındadır, bu da standart makaslı platform sınıflarıyla karşılanır. 12 metreyi aşan büyük hollerde daha üst çalışma yüksekliği sınıfı gerekebilir; kesin ölçü paylaşılırsa doğru sınıfı önceden belirleriz. Sepet tabanının hedefin biraz altında kaldığı unutulmamalıdır, bu da makine seçiminde pay bırakılmasını gerektirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Biga OSB fabrika bakımı ve liman lojistiği bölgesel/sektörel genel bilgidir; makaslı platformun zemin ve erişim sınırları genel ekipman bilgisidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Biga OSB Fabrika Bakımı ve Liman Sahasında Manlift Kiralama",
+        giris:
+            "Manlift, tek veya çift kişilik dar bir sepeti dikey ya da hafif teleskopik bir kol üzerinde yükselten, dar koridor ve nokta atışı işler için tasarlanmış kompakt bir yükseklik erişim aracıdır. Biga OSB'deki fabrika bakımında manlift, raf arası dar koridor, makine üstü nokta kontrolü veya tek bir aydınlatma armatürü değişimi gibi kısa süreli, tek kişilik işlerde tercih edilir — geniş sepetli makaslı platformun sığamadığı dar aralıklara girebilmesi, onu bu işlerde vazgeçilmez kılar. Liman tarafında ise manlift, sundurma içindeki dar raf koridorları, konteyner istifleri arası dar geçitler veya vinç kirişi üzerindeki tek nokta kontrolünde kullanılır; ancak açık rıhtım kenarında rüzgâra maruz kalan işlerde manliftin hafif ve dar tabanlı yapısı, ağır rüzgârda daha temkinli çalışmayı gerektirir. Bu sayfa, Biga OSB fabrika içi dar koridor işleri ile liman sundurma ve konteyner sahası dar aralıklarında manliftin ne zaman doğru seçim olduğunu, ne zaman olmadığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Fabrika içi raf ve makine arası dar koridor erişimi",
+                metin:
+                    "Biga OSB'deki üretim tesislerinde makineler ve raf sistemleri arasında bırakılan koridor genellikle 80-100 santimetre bandındadır; bu genişlik, geniş sepetli makaslı platformun giremediği ama manliftin dar tabanıyla rahatça geçebildiği bir aralıktır. Tek bir aydınlatma armatürü değişimi veya makine üstü sensör kontrolü gibi kısa işlerde, manliftin hızlı kurulup hızlı sökülebilmesi de zaman kazandırır.",
+            },
+            {
+                baslik: "Konteyner ve istif arası dar geçitlerde nokta atışı iş",
+                metin:
+                    "Liman sahasındaki konteyner istifleri arasında bırakılan geçit genişliği, geniş araçların giremeyeceği kadar dardır; manliftin kompakt tabanı bu geçitlerde tek nokta kontrolüne (örneğin bir aydınlatma direği veya kamera bakımı) ulaşmayı mümkün kılar. Bu tür işlerde makinenin sahaya girmeden önce geçit genişliğini fotoğrafla veya ölçüyle netleştirmesi, boşa sevkiyatı önler.",
+            },
+            {
+                baslik: "Sundurma içi raf koridorunda tek kişilik kısa işler",
+                metin:
+                    "Liman gerisindeki sundurma ve depo binalarının raf aralarında, tek bir malzeme kontrolü veya kısa süreli bir onarım için manlift, geniş sepetli araçlara göre daha hızlı kurulur ve daha az alan kaplar. Ancak sepeti tek kişilik olduğu için, iki kişi ve malzeme birlikte taşınması gereken işlerde manlift yerine makaslı platform önerilir — bu ayrım telefonda iş tarifine göre önceden yapılır.",
+            },
+            {
+                baslik: "Açık rıhtımda rüzgâr ve hafif taban etkisi",
+                metin:
+                    "Manliftin dar tabanı ve göreli hafif gövdesi, açık rıhtım kenarındaki rüzgârlı günlerde makaslı platforma göre daha erken temkinli çalışmayı gerektirir; sertifikalı rüzgâr hızı sınırı aşıldığında sepet yükseltilmez. Kıyı şeridi kent içine göre daha değişken rüzgâr aldığı için, açık rıhtımdaki manlift işleri günün daha sakin saatine planlanır ya da rüzgâr ölçümüne göre ertelenir.",
+            },
+            {
+                baslik: "Kısa süreli iş için hızlı sevkiyat avantajı",
+                metin:
+                    "Manliftin kompakt boyutu, standart bir kamyonetle taşınabilmesini ve fabrika veya liman kapısından hızlı geçmesini sağlar; bu, tek bir noktada birkaç saat sürecek acil bir bakım talebinde teslimat süresini kısaltır. Biga OSB içindeki acil aydınlatma arızası veya liman sahasındaki tek nokta kamera bakımı gibi işlerde bu hız avantajı öne çıkar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Biga OSB ve liman sahasında manlift iş tipi eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Biga OSB fabrika içi dar koridor işleri ile liman sundurma ve konteyner sahası dar aralıklarında manliftin nerede avantajlı olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş noktası", "Koridor/geçit genişliği", "Uygunluk", "Not"],
+                    satirlar: [
+                        ["Fabrika raf-makine arası", "80-100 cm bandı", "Uygun", "Makaslı platform giremez"],
+                        ["Konteyner istifleri arası geçit", "Dar, değişken", "Uygun", "Geçit önceden ölçülür"],
+                        ["Sundurma raf koridoru, tek kişilik iş", "Dar", "Uygun", "İki kişilik işte makaslı önerilir"],
+                        ["Açık rıhtım kenarı, rüzgârlı gün", "Geniş, açık", "Koşullu", "Rüzgâr sınırı erken devreye girer"],
+                        ["Acil tek nokta bakım", "Değişken", "Uygun", "Hızlı sevkiyat avantajı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift mi, makaslı platform mu — dar koridor ayrımı",
+                paragraflar: [
+                    "Biga OSB'deki fabrika hatlarında koridor genişliği 100 santimetrenin altına düşüyorsa manlift neredeyse tek seçenektir; geniş sepetli makaslı platform bu aralığa fiziksel olarak sığmaz. Koridor daha genişse ve işte iki kişi veya ağırlıklı malzeme taşınması gerekiyorsa, makaslı platformun geniş sepeti daha verimli olur.",
+                    "Bu ayrımı iş tarifine göre telefonda netleştiririz; koridor genişliğini santim olarak paylaşmanız, doğru aracı ilk seferde göndermemizi sağlar.",
+                ],
+            },
+            {
+                baslik: "Liman sahasında rüzgâr kararının kim tarafından verildiği",
+                paragraflar: [
+                    "Açık rıhtım kenarındaki manlift işlerinde rüzgâr kararı sahadaki operatör tarafından anlık ölçümle verilir; sertifikalı sınırın üzerinde bir rüzgârda sepet yükseltilmez, iş ya ertelenir ya da rüzgârın daha sakin olduğu saate kaydırılır. Bu karar, iş güvenliğini riske atmamak için sahada esnek tutulur ve önceden telefonla kesinleştirilmez.",
+                    "Sundurma içi kapalı alan işlerinde rüzgâr etkisi olmadığı için bu kısıt geçerli değildir; planlama buna göre daha öngörülebilir yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark Biga OSB'deki işim için ne anlama gelir?",
+                cevap:
+                    "Fark temelde koridor genişliği ve taşıma kapasitesinde. Fabrika içindeki dar raf-makine aralıkları (80-100 cm bandı) manlifte sığar ama makaslı platforma sığmaz; buna karşılık iki kişi ve malzeme birlikte taşınması gereken geniş koridor işlerinde makaslı platform daha verimlidir. Koridor genişliğini ve iş kapsamını paylaşırsanız doğru aracı önceden belirleriz.",
+            },
+            {
+                soru: "Konteyner istifleri arasındaki dar geçitte manlift çalışabilir mi?",
+                cevap:
+                    "Genellikle evet, manliftin kompakt tabanı bu tür dar geçitlerde tek nokta işlerine (aydınlatma, kamera bakımı gibi) uygundur. Geçit genişliğini fotoğraf veya ölçüyle önceden netleştirmenizi öneririz; bazı çok dar istif aralıklarında yine de makine sığmayabilir, bu durumda dürüstçe söyler alternatif yöntem öneririz.",
+            },
+            {
+                soru: "Açık rıhtımda rüzgârlı bir günde manlift kullanabilir miyiz?",
+                cevap:
+                    "Rüzgârın şiddetine bağlı; manliftin dar tabanı ve hafif gövdesi, makaslı platforma göre rüzgâra daha erken duyarlıdır, sertifikalı sınır aşıldığında sepet yükseltilmez. Kıyı şeridinde rüzgâr kent içine göre daha değişken olduğu için karar sahada operatör tarafından anlık ölçümle verilir; iş günün daha sakin saatine kayabilir.",
+            },
+            {
+                soru: "Manlift operatörsüz kiralanabilir mi?",
+                cevap:
+                    "Kiralanabilir; operatörlü ve operatörsüz seçenek sunulur. Operatörsüz kiralamada kullanıcı ekibinizin yüksekte çalışma ve platform kullanım sertifikaları doğrulanır. Dar koridor ve konteyner arası gibi manevra hassasiyeti yüksek işlerde operatörlü çalışmayı öneririz; tek nokta kısa süreli işlerde operatörsüz seçenek de değerlendirilebilir.",
+            },
+            {
+                soru: "Acil bir arıza için ne kadar hızlı manlift ulaştırabilirsiniz?",
+                cevap:
+                    "Manliftin kompakt boyutu standart bir kamyonetle taşınmasını sağladığı için, sevkiyat süresi geniş sepetli araçlara göre genellikle daha kısadır. Kesin süre, Biga OSB veya liman sahasına olan mesafeye ve o anki filo uygunluğuna bağlıdır; acil talep için hemen aradığınızda gerçekçi bir zaman veririz, olmayan bir süre söylemeyiz.",
+            },
+            {
+                soru: "Sundurma içindeki raf koridorunda iki kişi birlikte çalışabilir mi?",
+                cevap:
+                    "Standart manlift sepeti tek kişilik tasarlanmıştır, iki kişi ve ağırlıklı malzemeyi birlikte taşımaya uygun değildir. Böyle bir ihtiyaç varsa, koridor genişliği yeterliyse makaslı platformun geniş sepetini öneririz; koridor gerçekten dar ve iş tek kişilik parçalara bölünebiliyorsa manlift ile ilerleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Biga OSB fabrika bakımı ve liman lojistiği bölgesel/sektörel genel bilgidir; manliftin dar koridor erişimi ve rüzgâr sınırı genel ekipman/EN 280 bilgisidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };

@@ -1242,4 +1242,215 @@ export const EKLEMLIPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Arazi tipi tahrik, eğim algılama sistemi ve zemin taşıma kapasitesi değerlendirmesi genel mühendislik ve saha güvenliği bilgisidir; tesis adı, marka ve rakam uydurulmamıştır.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // 2 YENİ ULUSAL/KAVRAMSAL KONU (2026-08-14) — "makaslı platform nedir"
+    // ve "manlift terimi nedir" sözlük/tanım sayfaları. Bu sayfa ailesinin
+    // ULUSAL formatına sadık kalınır (bölgesel değil). Kardeş dalgadaki 7
+    // domain aynı 2 konuyu bölgesel/vaka temelli işler; bu ikisi ise
+    // doğrudan tanım/terminoloji sorusuna cevap veren ayrı bir açıdan
+    // yazılmıştır — cümle ve tablo düzeyinde tekrar yoktur.
+    // ═══════════════════════════════════════════════════════════════════
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Nedir? Eklemliden Farkı ve Doğru Tercih Kriterleri",
+        giris:
+            "Makaslı platform, adını çalışma prensibinden alan ve X şeklinde birbirine bağlı metal kollardan oluşan bir mekanizmayla sepeti dikey doğrultuda yukarı taşıyan yüksekte çalışma ekipmanıdır. Bu makas mekanizması açılıp kapanırken sepet, yalnızca tek bir eksende — yukarı ve aşağı — hareket eder; ne öne ne yana ne de bir engelin üzerinden dolanarak ilerleyebilir. Bu sadelik, aslında makaslı sınıfın en büyük gücüdür: mekanizma az sayıda hareketli eklem içerdiği için hem daha geniş bir sepet tabanı taşıyabilir hem de aynı yükseklik sınıfındaki eklemli veya teleskopik modellere göre genellikle daha yüksek taşıma kapasitesi sunar. Bu sayfa, makaslı platformun teknik olarak ne olduğunu, eklemli platformdan (bomlu/mafsallı sınıf) somut olarak nerede ayrıştığını, hangi iş tiplerinde doğru tercih olduğunu ve Türkiye genelinde bu sınıfı değerlendirirken hangi ölçütlerin öne çıktığını ulusal ölçekte, kavramsal bir çerçevede ele alır. Amaç, 'bana yükseklik ekipmanı lazım' diyen bir saha yöneticisinin, iki temel sınıf arasında hangisinin kendi işine uyduğunu teknik jargona boğulmadan anlayabilmesidir.",
+        maddeler: [
+            {
+                baslik: "Makas mekanizması teknik olarak nasıl çalışır",
+                metin:
+                    "Makaslı platformun taşıyıcı gövdesi, birbirine çapraz pimlerle bağlanmış çelik kollardan oluşur; hidrolik veya elektrikli bir güç ünitesi bu kolları açtıkça sepet dikey olarak yükselir, kollar kapandıkça sepet iner. Bu yapı, yükü sepetin tüm tabanına eşit biçimde dağıtan simetrik bir kuvvet aktarımı sağlar — bu da makaslı sınıfın neden aynı yükseklikteki bomlu modellere göre daha yüksek kapasiteye sahip olabildiğini açıklar. Mekanizmanın tek eksende çalışması, tasarımı basitleştirir ve bakım maliyetini de görece düşük tutar.",
+            },
+            {
+                baslik: "Eklemli platformdan somut farkı",
+                metin:
+                    "Eklemli (bomlu/mafsallı) platform, bomunu birden fazla noktadan kırarak hem dikey hem yatay hem de bir engelin üzerinden erişim sağlayabilir; makaslı platform ise bu esnekliğe sahip değildir, yalnızca sepetin doğrudan altındaki noktaya dikey bir çıkışla ulaşabilir. Bu fark, seçim kararını da belirler: hedefin tam altına park edilebiliyorsa ve aradaki mesafe düz bir dikey çıkışla aşılabiliyorsa makaslı platform hem daha ekonomik hem de daha yüksek kapasiteli bir çözümdür; hedefin önünde bir engel varsa veya park noktası hedefin tam altında değilse eklemli sınıf gerekir.",
+            },
+            {
+                baslik: "Sepet tabanı ve kapasite avantajı",
+                metin:
+                    "Makaslı platformların sepet tabanı, eklemli modellere göre belirgin ölçüde daha geniştir; bu da aynı anda birden fazla kişinin veya hacimli malzemenin (boru, panel, ekipman kutusu) sepette taşınabilmesini sağlar. Kapasite avantajı özellikle ekip hâlinde çalışılan, malzeme sepette taşınarak yukarı çıkarılan işlerde belirleyici olur; tek kişilik kısa süreli müdahalelerde bu fark daha az önemlidir.",
+            },
+            {
+                baslik: "İç mekân ve dış mekân makaslı modeller",
+                metin:
+                    "Akülü/elektrikli makaslı modeller sıfır egzoz emisyonu ürettiği için kapalı alanlarda, atölye içinde veya mağaza/AVM gibi halka açık iç mekânlarda tercih edilir; bazı modellerin tekerlek izi bırakmayan lastik seçenekleri de vardır. Dizel veya hibrit dış mekân modelleri ise daha yüksek zemin toleransına, daha büyük tekerlek sistemine ve genellikle daha yüksek erişim sınıflarına sahiptir; açık şantiye, dış cephe veya düzensiz zeminli sahalarda kullanılır. Doğru model, çalışma ortamının kapalı mı açık mı olduğuna ve zemin türüne göre belirlenir.",
+            },
+            {
+                baslik: "Makaslı platform hangi işlerde doğru tercih değildir",
+                metin:
+                    "Makaslı platform, hedefin önünde sabit bir engel bulunduğunda (çıkıntı, boru hattı, ağaç dalı, bir yapı elemanının altı) veya makinenin park edebileceği alan hedefin tam altında değil birkaç metre uzağındaysa fiziksel olarak yetersiz kalır — bu senaryolarda dikey bir çıkış hedefe ulaştırmaz. Böyle durumlarda eklemli veya teleskopik bom sınıfı değerlendirilmelidir; makaslı platformu zorlayarak kullanmaya çalışmak hem verimsizdir hem de güvenlik riski oluşturur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform ile eklemli platformun karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki sınıfın temel farklarını özetler; doğru seçim sahanın erişim geometrisine ve taşınacak yük/kişi sayısına göre yapılmalıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Makaslı platform", "Eklemli platform"],
+                    satirlar: [
+                        ["Hareket yönü", "Yalnızca dikey", "Dikey + yatay + engel aşma"],
+                        ["Engelin üzerinden/arkasından erişim", "Mümkün değil", "Mümkün (bom kırılarak)"],
+                        ["Sepet taban alanı", "Daha geniş", "Daha dar"],
+                        ["Taşıma kapasitesi", "Genellikle daha yüksek", "Genellikle daha düşük"],
+                        ["Maliyet (aynı yükseklik sınıfında)", "Genellikle daha ekonomik", "Genellikle daha yüksek"],
+                        ["Tipik kullanım", "Düz çıkışlı, geniş alan işleri", "Cephe, tesisat, düzensiz erişim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hangi sektörlerde makaslı platform yaygın kullanılır",
+                paragraflar: [
+                    "Makaslı platform, hedefin doğrudan üzerinde ve düz bir çıkışla erişilebilir olduğu hemen her sektörde tercih edilir. Depo ve lojistik tesislerinde raf sistemi montajı ve bakımı, üretim tesislerinde tavan aydınlatma ve havalandırma kanalı işleri, ticari yapılarda tavan/tesisat bakımı, etkinlik ve fuar alanlarında dekor-tesisat kurulumu bu sınıfın tipik kullanım alanlarıdır. Ortak nokta, sepetin hedefin tam altına konumlanabilmesi ve birden fazla kişi ya da malzemenin birlikte taşınması gerekliliğidir.",
+                    "Kapalı alan işlerinde akülü modeller, açık sahada ise dizel/hibrit modeller öne çıkar; zemin türü (beton, epoksi, açık saha toprağı) ve tavan/çalışma yüksekliği, model seçiminde belirleyici iki temel veridir.",
+                ],
+            },
+            {
+                baslik: "Makaslı platform kiralarken doğru soru sırası",
+                paragraflar: [
+                    "Doğru makineyi seçmek isteyen bir saha yöneticisi, kiralama talebini şu sırayla netleştirmelidir: önce hedefin yüksekliği, sonra hedefin tam altına park edilip edilemeyeceği, ardından sepette aynı anda kaç kişi ve ne kadar malzeme taşınacağı, son olarak zeminin türü (kapalı beton mu açık saha mı). Bu dört bilgi netleştiğinde makaslı sınıfın yeterli olup olmadığı hızlıca belirlenir; hedefin altına park edilemiyorsa doğrudan eklemli sınıfa yönlendirilir.",
+                    "Türkiye genelinde hizmet veren bir kiralama sürecinde bu bilgilerin önceden paylaşılması, doğru sınıfın ilk seferde belirlenmesini ve teslimat gününde makine değişikliği gibi gecikmelerin önüne geçilmesini sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile eklemli platform arasında hangisi daha ucuzdur?",
+                cevap:
+                    "Aynı çalışma yüksekliği sınıfında genellikle makaslı platform daha ekonomiktir; mekanizması daha az karmaşık olduğu için hem üretim hem işletme maliyeti daha düşüktür. Ancak bu fark yalnızca erişim geometrisi düz bir dikey çıkışa uygunsa geçerlidir — eklemli platform gerektiren bir işte makaslı denemek fiyat avantajı sağlamaz, çünkü makine hedefe ulaşamaz.",
+            },
+            {
+                soru: "Makaslı platform kaç kişi taşıyabilir?",
+                cevap:
+                    "Bu, modelin kapasite sınıfına göre değişir; geniş sepet tabanı sayesinde makaslı modeller genellikle birden fazla kişinin ve malzemenin birlikte taşınmasına izin verir. Kesin kapasite, kiralanacak modelin teknik veri sayfasında belirtilir ve sepette taşınacak toplam ağırlık (kişi + malzeme + ekipman) bu sınırla karşılaştırılarak planlanmalıdır.",
+            },
+            {
+                soru: "Makaslı platform dış mekânda kullanılabilir mi?",
+                cevap:
+                    "Evet, dizel veya hibrit dış mekân modelleri açık sahada, hafif eğimli veya düzensiz zeminlerde kullanılmak üzere tasarlanmıştır. Akülü iç mekân modelleri ise düz, sert zeminler için tasarlandığından açık sahada zemin toleransı ve tırmanma gücü yetersiz kalabilir; doğru model seçimi çalışma ortamına göre yapılmalıdır.",
+            },
+            {
+                soru: "Makaslı platform bir engelin arkasındaki hedefe ulaşabilir mi?",
+                cevap:
+                    "Hayır, makaslı platform yalnızca dikey doğrultuda hareket eder ve sepet, makinenin park noktasının doğrudan üzerinde kalır. Hedefin önünde bir engel varsa veya park noktası hedefin tam altında değilse, bu iş için eklemli veya teleskopik bom sınıfı gereklidir.",
+            },
+            {
+                soru: "Makaslı platform ile teleskopik bom platform aynı şey mi?",
+                cevap:
+                    "Hayır, farklı sınıflardır. Makaslı platform makas mekanizmasıyla yalnızca dikey hareket ederken, teleskopik bom platform tek parça bir kolun içeri-dışarı uzamasıyla hem dikey hem de belirli bir yatay mesafeye erişebilir. Teleskopik bom, makaslıya göre daha uzun yatay erişim sunar ama sepet tabanı genellikle daha dardır ve maliyeti daha yüksektir.",
+            },
+            {
+                soru: "İç mekân zemininde makaslı platform iz bırakır mı?",
+                cevap:
+                    "Standart siyah lastikli modeller hassas zeminlerde (parlatılmış beton, epoksi, seramik) iz bırakabilir; bu risk, iz bırakmayan (beyaz dolgu) lastikli modellerle ortadan kaldırılır. Hassas bir iç mekân zemininde çalışılacaksa, kiralama talebinde bu bilginin belirtilmesi doğru lastik tipinin seçilmesini sağlar.",
+            },
+            {
+                soru: "Makaslı platform için operatör belgesi gerekli mi?",
+                cevap:
+                    "Evet, yüksekte çalışma ekipmanlarının tamamında olduğu gibi makaslı platformu kullanacak operatörün ilgili ekipman sınıfı için yetkilendirilmiş olması ve düşme koruma ekipmanının (tam vücut kemer sistemi) sepet içinde doğru bağlantı noktasına takılması gerekir. Bu, mevzuatın da öngördüğü temel güvenlik koşuludur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makas mekanizmasının çalışma prensibi, kapasite/sepet tabanı dengesi ve makaslı-eklemli sınıf karşılaştırması sektör geneli bilinen mühendislik bilgisidir; tesis adı, marka ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Nedir? Terimin Kapsamı, Alt Sınıfları ve Doğru Terim Nasıl Seçilir",
+        giris:
+            "\"Manlift\" günlük dilde çok yaygın kullanılan ama teknik olarak tek bir makine sınıfını değil, yükseğe insan taşıyan tüm platform ailesini kapsayan şemsiye bir terimdir. Bir saha yöneticisi 'manlift lazım' dediğinde, aslında kastettiği makine makaslı, eklemli, teleskopik veya örümcek/sepetli sınıflardan biri olabilir — ve bu dört alt sınıf birbirinden hem çalışma prensibi hem de doğru kullanım alanı bakımından belirgin şekilde farklıdır. Bu terim karışıklığı, kiralama sürecinde yanlış makinenin talep edilmesine ve sahada makinenin hedefe ulaşamamasına yol açabilir; bu nedenle 'manlift' kelimesinin arkasındaki gerçek ihtiyacı netleştirmek, doğru makineyi bulmanın ilk adımıdır. Bu sayfa, manlift teriminin kapsamını, hangi alt sınıfların bu şemsiye altında yer aldığını, her birinin çalışma mantığını ve bir kiralama talebinde 'manlift' yerine hangi teknik terimin kullanılması gerektiğini Türkiye genelinde geçerli, ulusal bir sözlük/rehber yaklaşımıyla anlatır. Amaç, terim karmaşasını ortadan kaldırıp saha ihtiyacını doğru teknik karşılığa oturtmaktır.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" kelimesi teknik olarak neyi ifade eder",
+                metin:
+                    "Manlift terimi, İngilizce 'man' (insan) ve 'lift' (kaldırmak) kelimelerinin birleşiminden gelir ve kelime anlamı olarak 'insan yükseltme ekipmanı' demektir; teknik şartnamelerde veya üretici kataloglarında bu genişlikte bir sınıf adı olarak nadiren geçer, ama günlük saha dilinde neredeyse tüm yüksekte çalışma platformları için kullanılır. Bu genişlik, terimin kendisini yararlı bir başlangıç noktası ama yetersiz bir sipariş tanımı yapar — 'manlift' demek, hangi alt sınıfın gerektiğini belirtmez.",
+            },
+            {
+                baslik: "Manlift şemsiyesi altındaki dört ana alt sınıf",
+                metin:
+                    "Manlift üst başlığı altında dört temel alt sınıf yer alır: makaslı platform (yalnızca dikey hareket, geniş sepet tabanı), eklemli/bomlu platform (mafsallı bom, engel aşma kabiliyeti), teleskopik bom platform (tek parça uzayan kol, en uzun yatay erişim) ve örümcek/sepetli platform (paletli, dar geçitlerden geçebilen kompakt sistem). Her alt sınıf farklı bir erişim problemine çözüm üretir; 'manlift' talebinde bulunurken hangi problemin çözülmesi gerektiği netleştirilmelidir.",
+            },
+            {
+                baslik: "Doğru terimi seçmek için sorulması gereken ilk soru",
+                metin:
+                    "Manlift talebini doğru alt sınıfa dönüştürmenin ilk adımı şu sorudur: hedefin tam altına park edilebiliyor mu, yoksa aradaki mesafe veya bir engel dikey bir çıkışı engelliyor mu? Park edilebiliyorsa makaslı sınıf genellikle yeterlidir; engel veya mesafe varsa eklemli ya da teleskopik sınıf gerekir. İkinci soru geçiş genişliğidir — dar bir kapı, koridor veya merdiven boşluğundan geçilmesi gerekiyorsa örümcek/sepetli sınıf devreye girer.",
+            },
+            {
+                baslik: "Alt sınıflar arasında güç kaynağı ayrımı da vardır",
+                metin:
+                    "Dört alt sınıfın her biri kendi içinde akülü/elektrikli ve dizel/hibrit versiyonlara ayrılır. Akülü versiyonlar sıfır egzoz emisyonu ürettiği için kapalı alanda tercih edilirken, dizel/hibrit versiyonlar açık sahada daha yüksek zemin toleransı ve genellikle daha uzun erişim mesafesi sunar. 'Manlift' talebinde bu ayrım da netleştirilmezse, kapalı alan için dizel bir makine ya da açık düzensiz saha için akülü bir makine önerilme riski oluşur.",
+            },
+            {
+                baslik: "Terim karışıklığının sahada yol açtığı somut sorun",
+                metin:
+                    "Bir saha yöneticisi 'manlift' diyerek talepte bulunduğunda ve karşı taraf bunu varsayılan olarak en yaygın sınıfa (örneğin makaslı) çevirdiğinde, eğer sahada aslında bir engel aşımı gerekiyorsa makine sahaya ulaştığında hedefe erişemez. Bu, hem zaman hem maliyet kaybına yol açar. Terim karışıklığını önlemenin en güvenilir yolu, 'manlift' kelimesi yerine hedefin konumu, park noktasının hedefe göre konumu ve varsa engel bilgisini paylaşmaktır; doğru alt sınıf bu bilgilerden çıkarılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift alt sınıflarının karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, 'manlift' şemsiyesi altındaki dört alt sınıfı temel özellikleriyle karşılaştırır; doğru alt sınıf seçimi hedefin konumu, erişim engeli ve geçiş genişliğine göre yapılmalıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Alt sınıf", "Hareket biçimi", "Güçlü olduğu durum", "Sınırı"],
+                    satirlar: [
+                        ["Makaslı platform", "Yalnızca dikey", "Düz çıkış, geniş sepet/yük ihtiyacı", "Engel aşamaz"],
+                        ["Eklemli/bomlu platform", "Dikey + yatay + engel aşma", "Engelin üzerinden/arkasından erişim", "Kapasite ve sepet alanı sınırlı"],
+                        ["Teleskopik bom platform", "Dikey + uzun yatay erişim", "Uzak mesafeli tek noktaya erişim", "Dar alanda manevra zorluğu"],
+                        ["Örümcek/sepetli platform", "Katlanabilir, paletli", "Dar geçit, hassas zemin", "Erişim mesafesi ve kapasite düşük"],
+                    ],
+                },
+            },
+            {
+                baslik: "\"Manlift\" yerine hangi teknik terim kullanılmalı",
+                paragraflar: [
+                    "Bir kiralama talebinde 'manlift' kelimesi yerine, mümkünse doğrudan alt sınıf adı (makaslı platform, eklemli platform, teleskopik bom, örümcek platform) kullanılmalıdır. Bu mümkün değilse, en azından hedefin yüksekliği, park noktasının hedefe olan mesafesi, varsa engelin türü ve çalışma ortamının kapalı mı açık mı olduğu bilgisi paylaşılmalıdır — bu dört veri, doğru alt sınıfı belirlemek için yeterlidir.",
+                    "Türkiye genelinde saha dilinde 'manlift', 'platform', 'yüksekte çalışma aracı' gibi terimler sıklıkla birbirinin yerine kullanılır; bu terimlerin hiçbiri tek başına bir sipariş tanımı oluşturmaz, sadece bir başlangıç noktasıdır.",
+                ],
+            },
+            {
+                baslik: "Manlift teriminin kullanıldığı tipik sektörler",
+                paragraflar: [
+                    "'Manlift' kelimesi en sık inşaat, bakım-onarım, tesisat, aydınlatma ve etkinlik/dekor kurulumu gibi işlerde saha dilinde geçer; bu sektörlerin ortak noktası, işin başında hangi alt sınıfın gerektiğinin net olmayabilmesidir. Bu nedenle talebin ilk aşamasında hedefin fotoğrafı ve konumu paylaşıldığında, 'manlift' talebi doğru alt sınıfa hızlıca dönüştürülebilir ve sahaya doğru makine ilk seferde gönderilebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile platform aynı şey mi?",
+                cevap:
+                    "Günlük dilde çoğunlukla evet, ikisi birbirinin yerine kullanılır. Ama teknik olarak 'manlift', insan yükseltme amaçlı tüm platform ailesini kapsayan genel bir terimdir; 'platform' kelimesi de benzer şekilde geniş kullanılır. Asıl belirleyici olan, hangi alt sınıfın (makaslı, eklemli, teleskopik, örümcek) gerektiğidir — bu, terimin kendisinden değil, sahanın erişim ihtiyacından çıkarılır.",
+            },
+            {
+                soru: "\"Manlift kiralamak istiyorum\" dediğimde bana hangi makine gelir?",
+                cevap:
+                    "Bu, talebi alan tarafın varsayımına bağlıdır ve bu belirsizlik yanlış makine gelmesine yol açabilir. Doğru sonuç almak için 'manlift' yerine hedefin yüksekliği, park noktasının hedefe mesafesi, varsa engel bilgisi ve çalışma ortamının kapalı/açık olduğu paylaşılmalıdır; bu bilgiler doğru alt sınıfı netleştirir.",
+            },
+            {
+                soru: "Forklift de bir manlift midir?",
+                cevap:
+                    "Hayır. Forklift, temel işlevi yük kaldırma ve taşıma olan ayrı bir ekipman sınıfıdır; insan taşımak üzere tasarlanmamıştır ve sepet güvenlik sistemleri içermez. 'Manlift' terimi yalnızca insan taşımak üzere tasarlanmış, sepetli/platformlu yüksekte çalışma ekipmanlarını kapsar.",
+            },
+            {
+                soru: "Örümcek platform da bir manlift alt sınıfı mıdır?",
+                cevap:
+                    "Evet, örümcek/sepetli platform manlift şemsiyesinin dört ana alt sınıfından biridir. Paletli ayaklarını açıp kapatabilen, dar geçitlerden (kapı, merdiven boşluğu) geçirilebilen ve zemine noktasal olarak ayarlanabilir yük veren kompakt bir sistemdir; hassas zemin veya dar alan gerektiren işlerde tercih edilir.",
+            },
+            {
+                soru: "Hangi manlift alt sınıfının bana uygun olduğunu nasıl anlarım?",
+                cevap:
+                    "İki temel soru yeterlidir: hedefin tam altına park edilebiliyor mu (evetse makaslı, hayırsa eklemli/teleskopik), ve makinenin dar bir geçitten geçmesi gerekiyor mu (gerekiyorsa örümcek platform değerlendirilir). Bu sorulara net cevap verilemiyorsa, hedefin fotoğrafı ve konum bilgisiyle birlikte bir keşif talep edilmesi en güvenilir yoldur.",
+            },
+            {
+                soru: "Teleskopik bom da manlift kapsamına girer mi?",
+                cevap:
+                    "Evet, teleskopik bom platform da manlift şemsiyesinin alt sınıflarından biridir. Tek parça bir kolun içeri-dışarı uzamasıyla çalışır ve genellikle diğer alt sınıflara göre en uzun yatay erişimi sunar; uzak mesafeli tek bir hedefe ulaşmak gerektiğinde tercih edilir, ama dar alanlarda manevra kabiliyeti sınırlıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift teriminin kapsamı ve dört alt sınıfın (makaslı, eklemli, teleskopik, örümcek) çalışma prensibi karşılaştırması genel sektör terminolojisi ve mühendislik bilgisidir; tesis adı, marka ve rakam uydurulmamıştır.",
+    },
 };

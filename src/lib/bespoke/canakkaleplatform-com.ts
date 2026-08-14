@@ -1857,4 +1857,202 @@ export const CANAKKALEPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Çanakkale kıyı şeridindeki dolgu-rıhtım zeminleri ile Gelibolu-Biga kırsalındaki eğimli arazi yapısı kamuya açık coğrafi/gözlemsel bilgidir; zemin test yöntemi ve eğim sınırı yaklaşımı firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Çanakkale'de Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, boğaz coğrafyasının en çok yanlış anlaşılan ekipmanıdır: müsteriler çoğu zaman \"yüksek çalışacağız, platform lazım\" diyerek arar, oysa makaslı sınıfın karakteri yükseklikten önce zemindir. Bu makine yalnızca düz eksende yukarı çıkar, yana veya öne doğru erişim sunmaz; karşılığında dar bir taban izinde çok geniş bir çalışma platformu taşır ve sert, düzgün zeminde eklemli veya teleskopik sınıftan çok daha stabildir. Çanakkale'de bu tarif, liman antrepolarının koridorları, sanayi holleri, gösteri ve fuar alanları, kapalı otopark katları ve enerji tesislerinin pano-galeri koridorlarıyla örtüşür — hepsi düz betonlu, tavanı sabit, rüzgardan bağımsız iç mekanlardır. Boğazın açık sahillerinde poyraz-lodos dönüşümü ne kadar belirleyici olsa da, bu makine için asıl soru rüzgar değil zemin düzlüğü ve tavan-koridor genişliğidir. Bizim işimiz, müşteri \"yüksek platform\" dediğinde önce sahanın gerçekten düz ve kapalı olup olmadığını sormak; öyleyse makaslı, değilse başka bir sınıf öneriyoruz — yanlış makine göndermek, hem müşterinin hem bizim kaybımız.",
+        maddeler: [
+            {
+                baslik: "Yalnızca dikey erişim: makaslı sınıfın sınırı ve gücü",
+                metin:
+                    "Makaslı platformun kasnak mekanizması sepeti yalnızca düz eksende yukarı taşır; yana açılım veya öne uzanım yoktur. Bu sınırlama aslında bir avantaja dönüşür: aynı taban izinde eklemli bir makineye göre çok daha geniş ve dengeli bir çalışma alanı sunar, iki kişi ve malzeme birlikte taşınabilir. Boğaz kıyısındaki liman binalarının ve sanayi hollerinin çoğu düz tavanlı, düz zeminli yapılar olduğu için bu sınırlama pratikte sorun yaratmaz — hedef doğrudan tepede ise makaslı en hızlı ve en ucuz çözümdür.",
+            },
+            {
+                baslik: "Liman antrepo ve depo koridorlarında dar geçit kullanımı",
+                metin:
+                    "Liman gerisindeki antrepo ve depo yapıları, raflar arası dar koridorlarla kurulur ve bu koridorlarda dönüş alanı sınırlıdır. Dar taban izli makaslı sınıflar bu koridorlara sığar, raf üstü aydınlatma, kamera hattı ve çatı bağlantı elemanlarına ulaşır. Koridor genişliği kritik veridir: bazı depo düzenlerinde standart genişlik sığmaz, bu durumda dar gövdeli özel sınıf gerekir. Keşifte koridor ölçüsünü mutlaka isteriz; ölçü bilinmeden sahaya makine göndermek, koridorda sıkışma riskini doğurur.",
+            },
+            {
+                baslik: "Sanayi hollerinde raf üstü ve tavan işleri",
+                metin:
+                    "Biga ve Çan yönündeki sanayi hollerinin iç mekan bakımları — çatı makası altı aydınlatma, kablo tavası, havalandırma kanalı, raf üstü erişim — düz betonlu zeminde geçer ve bu, makaslı sınıfın en verimli çalıştığı ortamdır. Egzoz kabul edilmeyen kapalı hollerde akülü tahrik zorunludur; üretim durmadan çalışılacaksa sepet altındaki alan bariyerle ayrılır. Vinç bulunan hollerde makaslı, vincin hareket sektörünün dışına konumlanır; bu koordinasyon iş başlamadan önce saha yetkilisiyle netleştirilir.",
+            },
+            {
+                baslik: "Kapalı alan zemininde iz bırakmama hassasiyeti",
+                metin:
+                    "Kapalı mekanlarda zemin genellikle epoksi kaplı beton veya endüstriyel şap olur ve bu yüzeylerde iz bırakmayan lastikli makine standarttır. Makaslı sınıfın taban baskısı, geniş sepet alanına rağmen dört tekerlek üzerine dengeli dağıldığı için düz zeminde iz riski düşüktür; buna karşın ıslak temizlik sonrası kaygan zeminlerde fren mesafesi ayrıca değerlendirilir. Gıda, ilaç veya hassas üretim alanlarına giren makineler önceden temizlenmiş hâlde sahaya sokulur.",
+            },
+            {
+                baslik: "Yoğun programlarda paralel makine kullanımı",
+                metin:
+                    "Depo fit-out veya fuar kurulumu gibi kısa süreli ama çok kalemli işlerde, tek makaslı ile sıra beklemek zaman kaybettirir. Bu tür işlerde birden fazla makaslıyı aynı koridora veya farklı bloklara paralel yerleştirmek, toplam süreyi belirgin kısaltır. Karar, kalem sayısı ve koridor genişliğine göre verilir; iki makine aynı koridorda çalışacaksa aralarındaki mesafe ve geçiş sırası önceden planlanır ki operatörler birbirinin çalışma alanına girmesin.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform sınıfları ve saha eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Çanakkale'de en sık karşılaştığımız iç mekan işlerini, zemin koşulunu ve buna uygun makaslı sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Zemin/koşul", "Makaslı sınıfı", "Not"],
+                    satirlar: [
+                        ["Liman antrepo koridoru", "Düz beton, dar koridor", "Dar gövdeli, elektrikli", "Koridor ölçüsü önceden alınır"],
+                        ["Sanayi holü tavan işi", "Düz beton, egzoz yasağı", "Akülü, geniş sepet", "Vinç sektörü ile hizalama"],
+                        ["Depo raf üstü aydınlatma", "Epoksi zemin", "Orta bant, iz bırakmayan", "Islak zemin sonrası fren kontrolü"],
+                        ["Fuar / etkinlik kurulumu", "Düz zemin, kısa süre", "Kompakt, çoklu makine", "Paralel yerleşim planı"],
+                        ["Enerji tesisi pano galerisi", "Düz zemin, dar geçit", "Dar gövdeli", "İzin ve refakat süreci"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı mı, eklemli/teleskopik mi: seçim nerede biter",
+                paragraflar: [
+                    "Makaslı platformun sınırı nettir: hedef doğrudan tepede değilse, önünde bir engel varsa ya da çalışma açık havada ve rüzgara maruzsa bu sınıf doğru çözüm olmaktan çıkar. Boğaz kıyısındaki açık cepheler, iskele üstyapıları veya enerji direkleri gibi işlerde eklemli ya da teleskopik bom gerekir; bu makineler yana ve öne erişim sunar, sertifikalı rüzgar sınırları içinde açık alanda çalışacak şekilde tasarlanmıştır. Biz keşifte önce hedefin konumunu ve ortamı sorarız — düz tavan, kapalı mekan, engelsiz erişim ise makaslı öneririz; herhangi biri eksikse teklif diğer sınıfa kayar.",
+                    "Bazı sahalarda iki sınıf birlikte kullanılır: örneğin bir depo binasının iç koridorları makaslı ile, dış cephesi ise eklemli ile bitirilir. Bu karma kurgu, tek sınıfla zorlamaktan daha hızlı ve daha ucuzdur; sepetin yanlış makineyle saatlerce dolaşmasını önler.",
+                ],
+            },
+            {
+                baslik: "Liman ve depo sahalarında güvenlik ve trafik düzeni",
+                paragraflar: [
+                    "Liman gerisi antrepo ve depo sahalarında forklift ve transpalet trafiği süreklidir; makaslının çalışacağı koridor, iş boyunca bariyer ve uyarı şeridiyle ayrılır ve alternatif güzergah saha ekibine gösterilir. Vardiya başında kısa bir bilgilendirme, en yaygın çarpışma riskini büyük ölçüde azaltır. Enerji tesislerinde ise bu düzenin üstüne giriş izni, iş izni formu ve refakatçi ataması eklenir; bu evrak trafiği iş gününden önce kapatılır.",
+                    "Kapalı hollerde ikinci risk kalabalıklaşan sepet altı alanıdır: malzeme, palet veya başka bir ekipman sepet altına bırakılmışsa iniş sırasında çarpışma riski doğar. Bu yüzden çalışma başlamadan önce sepet altındaki alan kontrol edilir ve iş süresince boş tutulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zeminimiz düz ama epoksi kaplı; makaslı platform iz bırakır mı?",
+                cevap:
+                    "Düz ve sağlam epoksi zeminde iz bırakmayan lastikli makaslı sınıfla çalıştığımızda risk çok düşüktür; taban baskısı dört tekerlek üzerine dengeli dağılır ve geniş sepete rağmen nokta yükü sınırlı kalır. Riskin arttığı durum, zeminin ıslak temizlik sonrası kaygan olduğu ya da epoksi tabakasının zaten hasarlı olduğu sahalardır; bu durumda fren mesafesini ayrıca değerlendirir, gerekirse çalışmayı zeminin kuruduğu ana erteleriz. Zeminin son bakım tarihini ve varsa hasarlı bölgeleri keşifte sorarız.",
+            },
+            {
+                soru: "Depo koridorumuz dar, standart makaslı sığar mı?",
+                cevap:
+                    "Bu, tamamen koridor ölçüsüne bağlıdır ve keşifte ilk sorduğumuz veridir. Standart makaslı sınıfların taban genişliği belli bir aralıktadır; koridorunuz bunun altındaysa dar gövdeli özel sınıfa geçeriz, bu sınıflar daha az sepet alanı taşısa da dar geçitlerde çalışabilir. Ölçüyü fotoğraf ve şerit metre ile önceden almanızı isteriz — koridor genişliği, raf yüksekliği ve varsa köşe dönüşleri birlikte değerlendirildiğinde hangi sınıfın sığacağı net çıkar. Sığmayan bir makineyi sahaya göndermek, hem zaman hem nakliye maliyeti kaybettirir.",
+            },
+            {
+                soru: "Sanayi holümüzde vinç var, makaslı ile çakışma riski olur mu?",
+                cevap:
+                    "Vinç bulunan hollerde bu riski baştan ortadan kaldırıyoruz: çalışma başlamadan vinç operatörüyle hareket sektörleri netleştirilir ve makaslı bu sektörlerin dışına konumlanır. Vinç kirişine yakın çalışılması gereken kalemlerde ise vinç geçici olarak o bölgeden uzaklaştırılır ya da kilitlenir; bu koordinasyon tesisin kendi prosedürüne göre yürür. Sizden istediğimiz tek şey, hol içindeki vinç hareket alanını ve o gün planlanan vinç kullanımını önceden bildirmeniz.",
+            },
+            {
+                soru: "Açık havada, liman rıhtımında makaslı platform kullanabilir miyiz?",
+                cevap:
+                    "Genellikle önermeyiz. Makaslı sınıf açık alan ve rüzgar için tasarlanmamıştır; rıhtım gibi açık, boğaz rüzgarına doğrudan maruz sahalarda stabilite ve sertifikalı çalışma koşulları eklemli veya teleskopik bom sınıfının alanına girer. İstisna, rıhtımın üstünü kapatan bir sundurma veya hangar gibi kapalı bir yapı varsa oluşur; o durumda iç mekan koşulları geçerli olur ve makaslı değerlendirilebilir. Sahanızın açık mı kapalı mı olduğunu netleştirirseniz doğru sınıfı doğrudan öneririz.",
+            },
+            {
+                soru: "Fuar kurulumumuz bir günlük, birden fazla makaslı mantıklı mı?",
+                cevap:
+                    "Kalem sayısı ve alan büyüklüğüne bağlı, ama kısa süreli yoğun işlerde genellikle evet. Tek makaslı ile sırayla ilerlemek, her kalem arasında konumlanma süresi doğurur ve bir günlük işte bu süre toplamda önemli yer kaplar. İki makineyi farklı bloklara paralel yerleştirdiğimizde toplam süre belirgin kısalır, operatör sayısı da buna göre ayarlanır. Kararı vermeden önce alan planınızı ve kalem listenizi görüp iki senaryoyu (tek makine uzun süre / iki makine kısa süre) rakamla karşılaştırırız.",
+            },
+            {
+                soru: "Makaslı ile manlift arasındaki fark tam olarak ne, hangisini istemeliyiz?",
+                cevap:
+                    "Fark erişim biçiminde. Makaslı yalnızca düz eksende yukarı çıkar, geniş ve dengeli bir sepet sunar; hedefiniz düz tavan altında, engelsiz ve kapalı bir mekandaysa doğru seçim budur. Manlift terimi ise genellikle eklemli veya teleskopik bomlu makineleri kapsar; bunlar yana ve öne erişim sunar, açık havada boğaz rüzgarına karşı sertifikalı sınırlarla çalışır, önünde engel olan ya da yüksekliği eğik hedeflere ulaşır. Hedefin konumunu, ortamın açık mı kapalı mı olduğunu ve varsa engelleri paylaşırsanız, iki sınıftan hangisinin işe yarayacağını net biçimde söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun düz-eksen erişim karakteri ve liman/sanayi iç mekan kullanım alanları genel ekipman bilgisidir; koridor ölçüsü değerlendirmesi, vinç koordinasyonu ve paralel makine planlaması firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Çanakkale'de Manlift Kiralama",
+        giris:
+            "\"Manlift\" araması genellikle bir marka veya model adı değil, yükseğe erişim ihtiyacının kendisidir — müşteri çoğu zaman hangi teknik sınıfa ihtiyacı olduğunu değil, hedefine nasıl ulaşacağını sorar. Boğaz coğrafyasında bu ihtiyaç neredeyse hiçbir zaman düz bir dikey çıkıştan ibaret değildir: liman vinçlerinin ve iskele direklerinin çevresinde engel vardır, enerji hatları ve OSB baca-galeri yapıları eğik veya önü kapalı hedefler sunar, kıyı cepheleri ise poyraz-lodos dönüşümünün getirdiği değişken rüzgara açıktır. Bu üç koşul — engel, açık hava, değişken yön — manlift kararını basit bir yükseklik sorusundan çıkarıp bir erişim planına dönüştürür. Bizim işimiz, telefonda gelen \"kaç metre çıkıyor\" sorusunu, hedefin nerede olduğunu, önünde ne bulunduğunu ve o gün rüzgarın hangi yönden geleceğini sorarak gerçek bir plana çevirmektir; doğru sınıf ve doğru pencere seçildiğinde manlift işi, boğazın zorlu havasında bile öngörülebilir hâle gelir.",
+        maddeler: [
+            {
+                baslik: "Manlift ne kapsar: erişim ihtiyacının tanımı",
+                metin:
+                    "Saha dilinde \"manlift\" terimi genellikle eklemli veya teleskopik bomlu, sepetli yükseltici makineleri kapsar — düz dikey çıkışın ötesinde yana, öne veya eğik yönde erişim sunan sınıflardır. Çanakkale'de bu talep çoğunlukla açık alan işlerinden gelir: liman üstyapıları, enerji direkleri, fabrika dış cepheleri, saha aydınlatması. Telefonda \"manlift lazım\" denildiğinde ilk sorumuz hedefin konumu ve önündeki engeldir; bu iki bilgi, eklemli mi teleskopik mi, hangi bom uzunluğu gerektiği kararını büyük ölçüde belirler.",
+            },
+            {
+                baslik: "Boğaz rüzgarında sertifikalı sınır ve iptal kararı",
+                metin:
+                    "Manlift sınıfının her modeli, üretici tarafından belirlenmiş bir rüzgar hız sınırıyla sertifikalıdır ve bu sınır sepet yüksekliği arttıkça daha kritik hâle gelir. Boğaz koridorunun kuzey-güney akışı, açık kıyı ve yüksek yapılarda bu sınırı sık test eder; karar operatöre aittir ve müşteri talebiyle değiştirilmez. Rüzgar tahmininin sınırın üzerine çıktığı günlerde iş ertelenir ya da korunaklı bir hedefe kaydırılır. Bu kararı sözleşmede baştan yazarız ki sahada tartışma konusu olmasın.",
+            },
+            {
+                baslik: "Liman ve iskele üstyapılarında engelli erişim",
+                metin:
+                    "Liman vinçleri, iskele direkleri ve terminal sundurmaları çoğu zaman düz bir yaklaşımla ulaşılamaz; kabloz hatlar, çelik kirişler veya komşu ekipman araya girer. Eklemli bom bu tür hedeflerde kırılarak engeli aşar, teleskopik bom ise engelsiz ama uzun mesafeli hedeflerde daha hızlıdır. Hangisinin doğru olduğu, hedefin fotoğrafı ve makinenin park edebileceği en yakın noktanın mesafesiyle netleşir; bu ikisi bilinmeden verilen teklif tahminidir.",
+            },
+            {
+                baslik: "Enerji hattı ve sanayi bacası çevresinde güvenli mesafe",
+                metin:
+                    "Enerji direkleri, trafo çevresi ve sanayi tesislerinin baca-galeri yapıları, manlift işlerinin en çok prosedür gerektiren kalemidir. Enerjili hatlara yaklaşma mesafesi saha kurallarına göre önceden belirlenir, operatör brifingi bu mesafeler üzerinden yapılır ve giriş izni, iş izni formu, refakatçi ataması gibi evrak iş gününden önce kapatılır. Bacaya yakın çalışmalarda sıcak yüzey ve toz da hesaba katılır; bu koşullarda bakım aralığı kısaltılır.",
+            },
+            {
+                baslik: "Operatörlü kiralama ve güvenlik brifingi süreci",
+                metin:
+                    "Manlift işlerinin büyük kısmı operatörlü yürütülür; sertifikalı operatörümüz sahaya makineyle birlikte gelir, tesisin kendi güvenlik brifingine katılır ve saha yetkilisiyle rüzgar-erişim planını gün başında teyit eder. Müşteri kendi operatörüyle çalışmak isterse, o operatörün yeterlilik belgesi ve makineye aşinalığı kontrol edilir. Her iki durumda da iş başlamadan önce günlük kontrol listesi (fren, alarm, acil iniş, sepet kapısı) doldurulur; bu adım atlanmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift sınıfları ve boğaz sahalarında eşleşme",
+                paragraflar: [
+                    "Aşağıdaki tablo, Çanakkale genelinde en sık gelen manlift taleplerini, belirleyici koşulu ve buna uygun sınıfı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep tipi", "Belirleyici koşul", "Manlift sınıfı", "Karar verisi"],
+                    satirlar: [
+                        ["Liman vinç/iskele çevresi", "Engelli erişim", "Eklemli bom", "Hedef fotoğrafı, park mesafesi"],
+                        ["Enerji direği tepesi", "Engelsiz, dikey", "Teleskopik bom", "Direk yüksekliği, yaklaşma mesafesi"],
+                        ["Fabrika dış cephesi", "Açık hava, orta yükseklik", "Eklemli, orta bant", "Rüzgar tahmini"],
+                        ["Sanayi bacası/galeri çevresi", "Sıcak yüzey, izin süreci", "Saha onayına göre", "İş izni, refakat"],
+                        ["Kıyı şeridi aydınlatma direği", "Açık kıyı rüzgarı", "Teleskopik", "Korunaklı yüz/gün seçimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift kiralama sürecinde keşif ve teklif adımları",
+                paragraflar: [
+                    "Bir manlift talebinde eksiksiz teklif için dört veri isteriz: hedefin yüksekliği, hedefe yaklaşımı engelleyen bir yapı olup olmadığı, makinenin park edebileceği en yakın noktanın mesafesi ve zeminin niteliği. Bu dört veri, bom tipini ve uzunluğunu büyük ölçüde belirler; eksik bilgiyle verilen teklif genellikle sahada değişir ve bu da hem müşteri hem bizim için zaman kaybıdır. Fotoğraf ve kaba ölçü, çoğu zaman keşif ziyaretinin yerini tutar.",
+                    "İkinci adım tarih ve pencere netleşmesidir. Açık hava işlerinde tek bir tarih değil, birkaç günlük bir aralık üzerinden çalışırız; rüzgar tahmini uygun olan ilk günde iş başlar. Acil kalemlerde bu aralık daraltılır ama operatörün güvenlik kararı her koşulda önceliklidir.",
+                ],
+            },
+            {
+                baslik: "Hava koşulu kararı nasıl verilir",
+                paragraflar: [
+                    "İş günü sabahı, o günkü rüzgar tahmini sepet yüksekliğine göre değerlendirilir; sertifikalı sınırın altında kalan bir tahmin işi başlatır, sınıra yakın bir tahmin ise iş boyunca sürekli izlenir ve gerekirse yarım kalan iş ertelenir. Boğaz koridorunda yön değişimi saatler içinde yaşanabildiği için sabah uygun başlayan bir iş öğleden sonra durabilir; bu ihtimali müşteriye baştan söyleriz ki sürpriz olmasın.",
+                    "Korunaklı hedef varsa öncelik ona verilir: aynı sahada rüzgardan etkilenmeyen bir kalem varsa, açık hedef beklerken o kalemle gün doldurulur. Bu yaklaşım, tek kalemlik acil işlerde uygulanamaz ama birden fazla kalemi olan müşterilerde iptal edilen gün sayısını belirgin azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile platform arasında fark var mı, ikisi de aynı şey mi?",
+                cevap:
+                    "Sahada \"manlift\" genellikle geniş bir çatı terimi gibi kullanılır ve çoğu zaman eklemli veya teleskopik bomlu, erişim sunan sınıfları kasteder. \"Platform\" ise daha geniş bir aile adıdır ve makaslı sınıfı da içine alır — o sınıf yalnızca düz dikey çıkış yapar, erişim sunmaz. Talebiniz düz tavan altında engelsiz bir hedefse makaslı yeterli ve daha ekonomiktir; hedef açık havada, engelli veya eğik konumdaysa gerçek anlamda manlift, yani eklemli/teleskopik bom gerekir. Hangisi olduğuna keşifte hedefin konumuna bakarak karar veririz.",
+            },
+            {
+                soru: "Liman sahasındaki vinç çevresinde çalışacağız, hangi bom tipi uygun?",
+                cevap:
+                    "Vinç çevresi tipik bir engelli erişim örneğidir ve bu geometride eklemli bom öne çıkar; kol kırılarak vinç kirişinin veya kablo hattının etrafından geçebilir. Teleskopik bom düz uzandığı için engelin arkasına ulaşmakta zorlanır. Karara hedefin fotoğrafını ve makinenin en yakın park noktasına olan mesafesini görerek varırız; bazı sahalarda vinç geçici olarak farklı bir sektöre alınabiliyorsa teleskopik de değerlendirilebilir. Vinç operatörüyle koordinasyon her durumda iş başlamadan netleştirilir.",
+            },
+            {
+                soru: "Rüzgar yüzünden iş iptal olursa ücret öder miyiz?",
+                cevap:
+                    "Sözleşmede bu senaryo baştan tanımlıdır ve sürpriz kalem çıkarmayız. Operatörün güvenlik kararıyla ertelenen bir iş için makinenin sahada boş beklediği süre değil, gerçekleşen çalışma esas alınır; erteleme durumunda yeni tarih öncelikli olarak planlanır. Birden fazla kalemi olan müşterilerde açık hedef beklerken korunaklı kalemlerle gün doldurulduğu için bu senaryo pratikte nadiren tam iptale döner. Tek kalemlik ve tamamen açık sahadaki işlerde ise rüzgar payını teklif aşamasında açıkça konuşuruz.",
+            },
+            {
+                soru: "Enerji direği işimiz için ne kadar önceden başvurmalıyız?",
+                cevap:
+                    "Belirleyici olan işin kendisi değil, tesisin izin sürecidir. Enerjili hatlara yaklaşma mesafesi, giriş izni, iş izni formu ve refakatçi ataması aynı gün içinde tamamlanmaz; bu prosedür genellikle birkaç gün önceden başlatılmalıdır. Operatör yeterlilik belgeleri, makine muayene kayıtları ve sigorta belgeleri bizim tarafımızda hazır tutulur ve talep anında iletilir. Tesis prosedürünüzün süresini baştan söylerseniz, makine ve operatörü o tarihe göre rezerve ederiz.",
+            },
+            {
+                soru: "Kendi operatörümüzle çalışmak istiyoruz, mümkün mü?",
+                cevap:
+                    "Mümkündür; bu durumda operatörünüzün geçerli yeterlilik belgesi ve kullanılacak makine sınıfına aşinalığı kontrol edilir. Sahaya girmeden önce günlük kontrol listesi birlikte doldurulur ve rüzgar/erişim planı saha yetkilinizle teyit edilir. Sertifikalı rüzgar sınırı ve zemin/park kararı, operatör kim olursa olsun aynı şekilde uygulanır — bu, güvenlik standardımızın değişmeyen kısmıdır. Operatörünüz makineye ilk kez biniyorsa kısa bir tanıtım turu öneririz, bu tur ek ücret gerektirmez.",
+            },
+            {
+                soru: "Hedefimiz hem yüksek hem önünde bina var, tek makine yeter mi?",
+                cevap:
+                    "Genellikle yeter ama bunu kesinleştirmek için iki veri isteriz: hedefin toplam yüksekliği ve önündeki bina ile makinenin park edebileceği en yakın nokta arasındaki mesafe. Bu iki veri birlikte, gereken bom uzunluğunu ve tipini belirler — engel ne kadar yakınsa o kadar uzun ve kırılımlı bir kol gerekir. Bazı durumlarda tek makine engeli aşamayacak kadar dar bir açıda kalır; böyle bir sahada iki aşamalı çözüm (farklı park noktasından iki yaklaşım) öneririz. Hedef ve bina arasındaki mesafeyi fotoğrafla paylaşırsanız yeterliliği net söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift teriminin saha kullanımı, boğazın kuzey-güney akış rejimi ve liman/enerji sahalarındaki izin pratiği kamuya açık bilgidir; bom tipi seçim mantığı ve hava koşulu karar süreci firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };

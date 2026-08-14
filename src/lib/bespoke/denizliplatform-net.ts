@@ -2480,4 +2480,198 @@ export const DENIZLIPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Denizli'nin mermer ocakları ve bunların stabilize/doğal erişim yollarına sahip olması kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve lastik-tahrik seçimi sektör geneli teknik bilgidir. Belirli ocak adı veya rakam iddia edilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Denizli'de Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, Denizli'nin üç ayrı sanayi dünyasında üç farklı gerekçeyle aranan bir makinedir ve bu üç gerekçe birbirine hiç benzemez. Tekstil ve ev tekstili fabrikalarının geniş üretim hollerinde iş, dikey erişimden çok dengeden ibarettir: tavan aydınlatması, sprinkler hattı veya monoray bakımı yapılırken sepetin altında hassas dokuma tezgâhları, kesim masaları ve bazen açık kumaş ruloları bulunur — akülü, iz bırakmayan bir makaslı platform burada tercih sebebidir çünkü zemin lastiği ürünü kirletmez, egzoz kokusu havayı bozmaz. Mermer ocakları ve fabrikalarında tablo tamamen değişir: burada zemin düz beton değil, taş tozu kaplı, bazen ıslak ve düzensiz bir açık sahadır; kesim hattı üstü servis veya blok stok sahasında yükseğe çıkmak için dizel tahrikli, geniş taban lastikli arazi tipi makaslı platform gerekir, çünkü standart iç mekân modeli bu zeminde saplanır. Pamukkale-Karahayıt termal otellerinde ise iş sezonluktur: sezon dışı bakım penceresinde cephe, tabela ve iç mekân aydınlatma işleri için kompakt, dar geçitten sığabilen makaslı platform tercih edilir. Denizli merkezdeki filomuzda her üç profile uygun makine bulunur; hangi sahaya, hangi zeminle, kaç metre çalışma yüksekliği için ihtiyaç duyduğunuzu bildirdiğinizde doğru sınıfı öneririz.",
+        maddeler: [
+            {
+                baslik: "Tekstil hollerinde akülü makaslı platform tercihi",
+                metin:
+                    "Dokuma ve konfeksiyon üretiminin sürdüğü hollerde makine seçimi güvenlikten önce temizlikle başlar: dizel egzozu, kumaş ve elyaf stoklarının bulunduğu bir ortamda kabul edilemez, bu yüzden akülü makaslı platform bu sahaların standart tercihidir. İkinci kısıt zemin izidir — dolgu lastikli tekerlek, boyalı veya epoksi kaplı zeminde iz bırakmamalıdır. Tezgâh sıraları arasındaki koridor genişliği önceden bildirildiğinde, şase eni buna göre daraltılır; aksi hâlde makine holün girişinden geçer ama çalışma noktasına ulaşamaz.",
+            },
+            {
+                baslik: "Mermer fabrikası ve ocak sahasında arazi tipi seçim",
+                metin:
+                    "Blok kesim hatlarının üstü veya stok sahasındaki istifler arasında çalışırken standart makaslı platform yetersiz kalır; taş tozu ve zaman zaman su ile karışan zemin, dar dolgu lastiğin gömülmesine yol açar. Bu sahalar için dizel tahrikli, geniş taban lastikli arazi tipi makaslı platform kullanılır, ayrıca eğim ve devrilme sınırı üretici verisine göre önceden kontrol edilir. Ocak sahasına makine indirmeden önce zemin taşıma gücünü ve erişim güzergâhını sorarız; bu bilgi olmadan sahaya makine göndermeyiz.",
+            },
+            {
+                baslik: "Termal otel bakımlarında kompakt sınıf",
+                metin:
+                    "Pamukkale ve Karahayıt hattındaki otellerin sezon dışı bakım listesi genelde cephe boyası, tabela yenileme ve iç mekân aydınlatmasından oluşur; bu işler dar koridor ve kaldırım kotu gibi kısıtlarla yürür. Kompakt gövdeli, düşük taban basınçlı makaslı platform, otel bahçesindeki taş döşeme veya iç avludaki dar geçitlerden zarar vermeden geçebilir. Sezon dışı pencere dar olduğu için birden çok otel aynı haftaya denk geldiğinde makine takvimi önceden netleştirilir.",
+            },
+            {
+                baslik: "Çalışma yüksekliği ve platform kapasitesi seçimi",
+                metin:
+                    "Makaslı platform ailesinde tipik çalışma yüksekliği 6 ila 14 metre arasında değişir ve seçim yalnızca tavan kotuna değil, sepetteki iş yüküne göre yapılır. Tekstil holünde tek kişi ve el aletiyle yürüyen bir aydınlatma bakımı dar sepetli bir modelle biter; mermer fabrikasında iki kişi ve kaynak ekipmanıyla yürüyen bir servis işi daha geniş sepet ve daha yüksek kapasite ister. Sepette taşınacak malzeme ve kişi sayısını önceden bildirmeniz, doğru kapasite seçimini doğrudan etkiler.",
+            },
+            {
+                baslik: "Operatörlü veya kendi personelinizle kullanım",
+                metin:
+                    "Makaslı platform, dikey ve düz hatta yükselen basit kontrol mantığı nedeniyle işletmelerin çoğunda kendi eğitimli personeliyle kullanılır; buna karşın ilk kez çalışılan bir sahada veya karmaşık bir tavan katmanında operatörlü kiralama tercih edilebilir. Hangi seçenek seçilirse seçilsin, makine teslim edilmeden önce kısa bir saha oryantasyonu yapılır — zemin sınırları, tepe boşluğu ve varsa yakındaki elektrik hattı operatöre veya kullanıcı personele gösterilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üç sahada makaslı platform sınıfı karşılaştırması",
+                paragraflar: [
+                    "Denizli'deki üç ana sektörün saha koşulları makaslı platform seçimini doğrudan belirler; aşağıdaki tablo bu ayrımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Zemin", "Tercih edilen tahrik", "Tipik çalışma yüksekliği"],
+                    satirlar: [
+                        ["Tekstil/konfeksiyon holü", "Beton, boyalı/epoksi", "Akülü, dolgu lastik", "8-12 m"],
+                        ["Mermer fabrikası kesim hattı", "Taş tozu, nemli beton", "Dizel, dolgu veya hava lastik", "10-14 m"],
+                        ["Mermer ocağı / blok stok sahası", "Sıkıştırılmış toprak, ıslak", "Dizel, geniş arazi tipi lastik", "8-14 m"],
+                        ["Termal otel iç/dış cephe", "Taş döşeme, dar geçit", "Akülü, kompakt gövde", "6-10 m"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kiralama süresi ve saha planlaması",
+                paragraflar: [
+                    "Tekstil hollerinde makaslı platform ihtiyacı genelde planlı bakım takvimine bağlıdır — aydınlatma değişimi veya sprinkler kontrolü belirli aylarda tekrar eder ve bu işler günlük veya birkaç günlük kiralamayla karşılanır. Mermer fabrikalarında ihtiyaç daha düzensizdir; kesim hattı arızası veya blok stok düzenlemesi habersiz doğabilir, bu yüzden bu sektörde kısa bildirimli teslimat önem kazanır.",
+                    "Termal otellerde ise durum tam tersidir: sezon dışı bakım penceresi öngörülebilir ama dardır, bu nedenle otel işletmeleri genelde birkaç hafta önceden randevu alır. Üç sektörün farklı planlama ritmi, Denizli merkezdeki filomuzun neden hem kısa bildirimli hem randevulu teslimat için ayrı kapasite tuttuğunu açıklar.",
+                ],
+            },
+            {
+                baslik: "Zemin ve erişim değerlendirmesi neden sorulur",
+                paragraflar: [
+                    "Makaslı platformun devrilme ve saplanma riskleri büyük ölçüde zeminden kaynaklanır; bu yüzden teslimat öncesi zemin tipini, eğimini ve varsa ıslaklık durumunu sorarız. Tekstil holünde bu kontrol basittir çünkü zemin genelde düz betondur, ancak mermer ocağı veya stok sahasında zemin gün içinde değişebilir — yağış sonrası sıkışmış toprak yumuşayabilir.",
+                    "Otel bahçelerinde ise erişim genişliği belirleyicidir; dar kapı veya merdivenli geçiş varsa makine oraya sığmaz ve alternatif bir güzergah veya daha kompakt model gerekir. Bu üç farklı risk profili, aynı makine sınıfının neden sahaya göre farklı konfigürasyonda gönderildiğini açıklar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tekstil fabrikasında dizel makaslı platform kullanılabilir mi?",
+                cevap:
+                    "Kapalı üretim hollerinde dizel tahrikli makine önerilmez; egzoz gazı hem işçi sağlığı hem de kumaş/elyaf ürünler için risk taşır. Bu sahalarda akülü makaslı platform standarttır. Açık havalandırmalı geniş bir depo bölümünde istisnai olarak değerlendirilebilir, ancak bunun için saha havalandırma durumunun önceden paylaşılması gerekir.",
+            },
+            {
+                soru: "Mermer ocağında makaslı platform hangi durumlarda arazi tipi olmalı?",
+                cevap:
+                    "Zemin sıkıştırılmış toprak, taş tozu veya kısmen ıslaksa arazi tipi (dizel, geniş taban lastikli) model gerekir; standart dar dolgu lastikli iç mekân makinesi bu zeminde gömülebilir. Zemin kuru ve sert betona yakınsa standart model de çalışabilir. Kesin karar için zemin fotoğrafı veya keşif üzerinden değerlendirme yaparız.",
+            },
+            {
+                soru: "Otel bahçesindeki taş döşeme makaslı platform tekerleğine zarar verir mi/verilir mi?",
+                cevap:
+                    "Doğru tekerlek seçimiyle risk düşüktür; kompakt sınıf makaslı platformlarda kullanılan dolgu lastikler düz taş döşemede iz bırakmaz. Riskli olan, ağır ve dar tekerlekli bir modelin ince derz aralıklı eski taş döşemede kullanılmasıdır — bu durumda derzlere ek koruma önerilir. Döşeme tipini önceden bildirirseniz uygun tekerlek/lastik kombinasyonunu seçeriz.",
+            },
+            {
+                soru: "Sepet kapasitesi kaç kişi ve kaç kg taşır?",
+                cevap:
+                    "Sınıfa göre değişir; kompakt modeller genelde 1-2 kişi ve el aletiyle sınırlı bir yük taşırken, geniş sepetli arazi tipi modeller 2-3 kişi ve daha ağır ekipman (kaynak makinesi, boru parçası) taşıyabilir. Sepette taşınacak toplam ağırlığı ve kişi sayısını önceden belirtmeniz, üretici kapasite limitini aşmayan doğru modeli seçmemizi sağlar.",
+            },
+            {
+                soru: "Kesim hattı çalışırken üstünde makaslı platformla bakım yapılabilir mi?",
+                cevap:
+                    "Genelde önerilmez; hat çalışırken titreşim ve beklenmedik hareket, yükseğe çıkmış bir platform için risk oluşturur. Standart uygulama, bakım için hattın kısa süreliğine durdurulmasıdır. Hattın tamamen durdurulamadığı istisnai durumlarda, saha yetkilisiyle birlikte ek güvenlik önlemi (bariyer, gözcü) planlanır.",
+            },
+            {
+                soru: "Sezon dışı otel bakımında birden fazla makine aynı anda kiralanabilir mi?",
+                cevap:
+                    "Evet, filo kapasitesi elverdiği ölçüde birden fazla makaslı platform aynı tesise veya aynı hafta içinde farklı otellere gönderilebilir. Sezon dışı pencere dar olduğu için birçok tesis aynı döneme talep yığar; bu nedenle erken randevu, istediğiniz tarihte makine bulma şansınızı artırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin tekstil, mermer ve termal turizm sektörlerinin genel saha karakteri kamuya açık bilgidir; makaslı platform tahrik/lastik/kapasite seçim mantığı sektör geneli teknik bilgidir. Belirli tesis adı veya rakam iddia edilmemiştir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Denizli'de Manlift Kiralama",
+        giris:
+            "Manlift, Denizli'de makaslı platformun ulaşamadığı yerlere gitmek için tercih edilir — dikey değil, eğik veya yatay uzanım gerektiren işlerde devreye girer. Tekstil ve ev tekstili fabrikalarının yüksek ve geniş açıklıklı hollerinde, çatı makasları arasındaki vinç rayı veya tavan kirişine yatay erişim gerektiğinde eklemli veya teleskopik manlift, sepetin dışa doğru uzanma yeteneğiyle sepeti tam bakım noktasına götürür; makaslı platformun düz yukarı hareketi burada yetersiz kalır. Mermer ocaklarında iş daha da farklıdır: kayalık ve düzensiz bir açık sahada, kesim makinesinin üst yapısına veya bir kaya kütlesinin arkasına erişmek için manliftin engelin üzerinden “aşma” yeteneği gerekir — bu nedenle ocak işlerinde eklemli manlift tercih sebebidir. Pamukkale-Karahayıt otellerinde ise manlift, cephe dış aydınlatması, saçak altı bakımı veya bir avlu ağacının üzerinden geçmesi gereken kablo işlerinde kullanılır; buradaki kısıt dar bahçe erişimi olduğu için kompakt eklemli sınıf öne çıkar. Denizli merkezdeki filomuzda hem teleskopik hem eklemli manlift bulunur; erişilmek istenen noktanın engelin arkasında mı yoksa doğrudan yukarıda mı olduğunu bildirdiğinizde doğru gövde tipini öneririz.",
+        maddeler: [
+            {
+                baslik: "Tekstil holünde çatı makası ve vinç rayına yatay erişim",
+                metin:
+                    "Geniş açıklıklı üretim hollerinde çatı makasının altındaki vinç rayı, aydınlatma askı noktası veya havalandırma kanalı, doğrudan tavana değil bazen yan tarafa doğru konumlanır. Bu noktalara ulaşmak için sepetin hem yükselip hem yana uzanabildiği eklemli veya teleskopik manlift kullanılır. Holün iç kısmında dizel egzozu istenmediği için bu sahalarda öncelik akülü/elektrikli manlift modellerine verilir; sadece geniş havalandırmalı bölümlerde dizel model değerlendirilir.",
+            },
+            {
+                baslik: "Mermer ocağında engel aşma ve kayalık erişim",
+                metin:
+                    "Ocak sahasında hedef nokta çoğu zaman düz bir zeminin üstünde değil, bir kaya kütlesinin, blok yığınının veya makine gövdesinin arkasındadır. Eklemli manliftin kollarının bükülerek engelin üzerinden geçebilmesi, bu tip erişimi mümkün kılan tek yöntemdir. Zemin taşıma gücü ve eğim, makaslı platformda olduğu gibi burada da önceden değerlendirilir; ayrıca manliftin ulaşacağı yatay mesafe (dışa taşma) üretici sınırıyla karşılaştırılır.",
+            },
+            {
+                baslik: "Termal otel bahçesinde dar erişim ve engelli geçiş",
+                metin:
+                    "Otel bahçelerinde ağaç, pergola veya havuz gibi engellerin üzerinden geçerek cephe veya saçak altına ulaşmak gerektiğinde manlift, düz yukarı çıkan bir makineden daha uygundur. Kompakt eklemli manlift, dar bahçe kapısından girip iç avluda kollarını açarak hedefe ulaşabilir. Bahçe genişliği ve varsa sabit engellerin (havuz, ağaç) konumu önceden bildirildiğinde, sığacak model önceden belirlenir.",
+            },
+            {
+                baslik: "Teleskopik ve eklemli manlift arasındaki fark",
+                metin:
+                    "Teleskopik manlift, sepeti düz bir kol boyunca daha uzağa ve daha yükseğe taşır; açık ve engelsiz sahalarda (örneğin ocak stok alanının kenarından yüksek bir noktaya erişim) verimlidir. Eklemli manlift ise kollarını bükerek engelin üzerinden veya arkasından geçebilir; tekstil holündeki makas altı veya otel bahçesindeki ağaç gibi engellerin bulunduğu işlerde tercih edilir. İki gövde tipi arasındaki seçim, hedef noktanın engelli mi engelsiz mi olduğuna göre yapılır.",
+            },
+            {
+                baslik: "Yatay uzanım mesafesi ve sepet kapasitesi",
+                metin:
+                    "Manliftte belirleyici ölçü yalnızca çalışma yüksekliği değil, aynı zamanda yatay uzanım (dışa taşma) mesafesidir; bir ocak sahasında 6 metre yatay uzanım gerekiyorsa, yüksekliği yeterli ama yatay menzili kısa bir model işi çözmez. Sepet kapasitesi de aynı şekilde işin türüne göre değişir — tek kişilik bir kontrol işiyle iki kişi ve kaynak ekipmanı taşıyan bir servis işi farklı kapasite gerektirir. Hem dikey hem yatay mesafeyi önceden bildirmeniz, doğru model seçimini doğrudan etkiler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üç sahada manlift gövde tipi karşılaştırması",
+                paragraflar: [
+                    "Denizli'deki üç sektörün erişim biçimi manlift gövde tipini belirler; aşağıdaki tablo bu ayrımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Erişim ihtiyacı", "Tercih edilen gövde", "Tipik yatay uzanım"],
+                    satirlar: [
+                        ["Tekstil holü çatı makası", "Yana uzanım, tavan altı", "Eklemli/teleskopik, akülü", "4-8 m"],
+                        ["Mermer ocağı kayalık saha", "Engel aşma, kaya arkası", "Eklemli, dizel arazi tipi", "6-12 m"],
+                        ["Mermer fabrikası üst yapı", "Makine üstü erişim", "Teleskopik veya eklemli", "5-10 m"],
+                        ["Otel bahçesi/cephe", "Ağaç/havuz üzeri geçiş", "Kompakt eklemli", "3-6 m"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin ve eğim değerlendirmesi ocak işlerinde neden ayrıcalıklı",
+                paragraflar: [
+                    "Manlift, makaslı platforma göre daha ağır ve daha yüksek ağırlık merkezine sahip olduğu için devrilme riski zemin ve eğim koşullarına daha duyarlıdır. Mermer ocağında bu risk iki katman taşır — hem zeminin taşıma gücü hem de sahanın kademeli eğimi aynı anda değerlendirilir. Bu yüzden ocak işlerinde manlift konumlandırmadan önce genelde kısa bir yerinde keşif yapılır.",
+                    "Tekstil holünde zemin sabit beton olduğu için bu risk düşüktür, kontrol büyük ölçüde tavan yüksekliği ve koridor genişliğine odaklanır. Otel bahçesinde ise zemin taş döşeme veya çim olabilir; çim zeminde ağırlık dağılımı için ek önlem (plaka) gerekebilir.",
+                ],
+            },
+            {
+                baslik: "Kiralama süresi ve teslimat planlaması",
+                paragraflar: [
+                    "Ocak ve fabrika sahalarında manlift ihtiyacı genelde arızi bir servis işine bağlıdır ve kısa bildirimle talep edilir; bu nedenle Denizli merkezdeki filomuzda hızlı sevkiyat için ayrı kapasite tutulur. Tekstil hollerinde ihtiyaç genelde planlı bakım takvimine bağlı olduğu için birkaç gün önceden randevu yeterlidir.",
+                    "Otel bahçe işlerinde talep, tıpkı makaslı platformda olduğu gibi sezon dışı dar bir pencereye sıkışır; bu dönemde manlift talebi otel bakım takvimiyle çakışabileceği için erken randevu önerilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki temel fark nedir?",
+                cevap:
+                    "Makaslı platform sepeti düz bir hat üzerinde yukarı taşır ve yatay uzanımı sınırlıdır; manlift ise kollarını (teleskopik veya eklemli) kullanarak hem yükseğe çıkar hem de yana veya engelin üzerinden uzanabilir. Hedef nokta doğrudan yukarıdaysa makaslı platform yeterlidir; hedef nokta bir engelin arkasında veya yana kaymışsa manlift gerekir.",
+            },
+            {
+                soru: "Mermer ocağında manlift hangi zemin koşullarında kullanılamaz?",
+                cevap:
+                    "Islak, yumuşak veya derin çukurlu zeminlerde standart lastikli manlift saplanma riski taşır; bu durumlarda ya zemine plaka serilir ya da iş kuru döneme ertelenir. Eğim üretici sınırını aştığında da makine o noktaya konumlandırılamaz, alternatif bir yaklaşım açısı aranır. Kesin karar zemin durumunun keşifte veya fotoğrafla değerlendirilmesiyle verilir.",
+            },
+            {
+                soru: "Tekstil holünde dizel manlift kullanılabilir mi?",
+                cevap:
+                    "Kapalı ve dar havalandırmalı hollerde önerilmez; egzoz kokusu hem işçi konforu hem de kumaş/elyaf ürünler açısından risklidir. Bu sahalarda akülü/elektrikli manlift standarttır. Geniş, iyi havalandırılan bir depo bölümünde istisnai olarak dizel model değerlendirilebilir, bu karar saha havalandırma bilgisine bağlıdır.",
+            },
+            {
+                soru: "Otel bahçesindeki ağacın üzerinden geçerek cepheye ulaşmak mümkün mü?",
+                cevap:
+                    "Genelde evet, eklemli manliftin kollarının bükülme yeteneği bu tip engel aşmayı mümkün kılar; ancak ağacın yüksekliği, gövde kalınlığı ve manliftin maksimum yatay uzanımı birlikte değerlendirilir. Bahçedeki engelin fotoğrafını veya ölçüsünü paylaşırsanız, işi karşılayacak model önceden belirlenir.",
+            },
+            {
+                soru: "Manlift operatörlü mü kiralanır, kendi personelimiz kullanabilir mi?",
+                cevap:
+                    "İkisi de mümkündür; manlift, makaslı platforma göre daha karmaşık bir kontrol paneline sahip olduğu için ilk kez kullanacak personel için kısa bir saha eğitimi önerilir. Ocak gibi riskli sahalarda veya karmaşık engel aşma gerektiren işlerde operatörlü kiralama tercih edilebilir; teslimat öncesi kısa bir oryantasyon her durumda yapılır.",
+            },
+            {
+                soru: "Yatay uzanım mesafesi yanlış hesaplanırsa ne olur?",
+                cevap:
+                    "Yatay uzanım (dışa taşma) yetersiz seçilirse manlift hedef noktaya erişemez ve makine yerinde işe yaramaz; bu nedenle sadece çalışma yüksekliği değil, hedef noktanın makineye olan yatay mesafesi de önceden ölçülür. Sahaya gitmeden önce bu mesafeyi (adım sayısı veya yaklaşık metre olarak) paylaşmanız, doğru gövde tipi ve model seçimini büyük ölçüde kolaylaştırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin tekstil, mermer ve termal turizm sektörlerinin genel saha karakteri kamuya açık bilgidir; manlift gövde tipi (teleskopik/eklemli) ve yatay uzanım mantığı sektör geneli teknik bilgidir. Belirli tesis adı veya rakam iddia edilmemiştir.",
+    },
 };

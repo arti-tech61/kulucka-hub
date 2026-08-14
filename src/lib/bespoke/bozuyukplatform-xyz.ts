@@ -1982,4 +1982,198 @@ export const BOZUYUKPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Hat kenarındaki boş/dolgu arazilerin zemin taşıma kapasitesinin inşaat aşamasına göre değiştiği genel inşaat/zemin bilgisidir; paletli sınıfın zayıf zeminde ağırlık dağıtma avantajı ekipman literatüründeki genel teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük Yeni Fabrika İnşaatında Kaba Yapı Sonrası Makaslı Platform Kiralama",
+        giris:
+            "Yeni bir fabrika binasının kaba yapısı bittiğinde — çatı kapatılmış, döşeme betonu dökülmüş, dış cephe kapanmaya başlamışken — şantiyenin ihtiyacı değişir: artık dışarıda çelik kolon dikmekten çok, içeride düz ve sağlam bir zeminde dikey olarak yukarı çıkmak gerekir. Aydınlatma altyapısı, HVAC kanal montajı, tavan arası kablo tavası döşemesi, çatı altı yalıtım işleri gibi kalemlerin hepsi aynı özelliği paylaşır: sabit bir noktada dik yükselip düşmek, geniş bir yatay uzanıma ihtiyaç duymamak. Bu profil bize göre makaslı platformun asıl çalışma alanıdır — dar tekerlek izi, düz zeminde yüksek stabilite ve geniş çalışma sepeti sayesinde iki kişi ve malzemesi aynı anda taşınabilir. Bozüyük'teki yeni fabrika projelerinde makaslı platformu, kaba yapı bittikten sonra iç mekân ve tavan seviyesi işlerine özel olarak konumlandırıyoruz; bu sayfada hangi aşamada, hangi sınıfın, hangi gerekçeyle seçildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Döşeme betonu üzerinde dikey aydınlatma/tesisat montajı",
+                metin:
+                    "Fabrika döşemesi kürlenip yük taşımaya hazır hale geldiğinde, tavan aydınlatma armatürleri ve elektrik hattı çekimi büyük ölçüde dikey erişimle yapılır; makaslı platform bu iş için tekerlek izinin dar olması sayesinde raf aralıklarına veya gelecekteki üretim hattı koridorlarına rahatça girebilir.",
+            },
+            {
+                baslik: "HVAC kanal ve sprinkler hattı montajında sabit nokta çalışması",
+                metin:
+                    "Havalandırma kanalı veya yangın söndürme hattı tavana asılırken çalışma noktası genellikle sabittir, sadece kanal ilerledikçe platform birkaç metre kaydırılır; makaslı platformun geniş sepeti, boru parçası ve montaj ekibinin birlikte taşınmasına izin verir, sürekli iniş-biniş gerekmez.",
+            },
+            {
+                baslik: "Asma tavan ve akustik panel montajında geniş sepet avantajı",
+                metin:
+                    "Asma tavan sistemleri kurulurken panel ve profil malzemesi hacimlidir; makaslı platformun sepet alanı, eklemli/teleskopik sınıflara göre daha geniş olduğundan malzeme her seferinde yere inmeden sepette taşınabilir, bu da tavan işlerinde zaman kazandırır.",
+            },
+            {
+                baslik: "İç mekân boya ve yüzey kaplama işlerinde düz zemin verimliliği",
+                metin:
+                    "Kaba yapı sonrası iç duvar ve tavan boyası, epoksi öncesi hazırlık gibi işler düz betonda ilerler; bu zeminde makaslı platform hem daha hızlı hem daha stabil çalışır, çünkü tekerlekler düz yüzeyde dengeyi paletli veya araç üstü sınıflardan daha az manevra ile korur.",
+            },
+            {
+                baslik: "Farklı tavan yüksekliklerine göre sınıf seçimi",
+                metin:
+                    "Fabrika binalarında üretim alanı ile ofis/idari blok tavan yükseklikleri farklı olabilir; üretim alanında yüksek erişimli bir sınıf gerekirken idari blokta daha kompakt bir model yeterli olur. Bina bölümüne göre hangi sınıfın uygun olduğunu proje başında birlikte netleştiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kaba yapı sonrası iç mekân işine göre platform seçimi",
+                paragraflar: [
+                    "Fabrika kaba yapısı tamamlandıktan sonraki iç mekân işlerinde hangi makaslı platform sınıfının öne çıktığını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["İç mekân işi", "Zemin durumu", "Öncelikli özellik", "Not"],
+                    satirlar: [
+                        ["Tavan aydınlatma/kablo tavası", "Kürlenmiş beton", "Dar tekerlek izi", "Raf/koridor aralığına giriş"],
+                        ["HVAC kanal montajı", "Kürlenmiş beton", "Geniş sepet", "Sabit nokta, malzeme sepette taşınır"],
+                        ["Asma tavan/akustik panel", "Kürlenmiş beton", "Geniş sepet + stabilite", "Hacimli malzeme"],
+                        ["İç duvar/tavan boya-kaplama", "Kürlenmiş beton", "Düz zeminde hız", "Sık nokta değişimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üretim alanı ile idari blok arasında sınıf farkı",
+                paragraflar: [
+                    "Bir fabrika binasında üretim salonunun tavan yüksekliği genellikle idari veya sosyal blok bölümlerinden fazladır; bu yüzden aynı proje içinde iki farklı makaslı platform sınıfı gerekebilir.",
+                    "Proje başında bina bölümlerinin tavan yüksekliğini ve zemin genişliğini birlikte gözden geçirir, her bölüm için ayrı sınıf önerisi sunarız; bu sayede yüksek erişimli bir modeli dar idari koridora sokmaya çalışmak gibi bir zorlukla karşılaşılmaz.",
+                ],
+            },
+            {
+                baslik: "Diğer taşeronlarla aynı katta eşzamanlı çalışma",
+                paragraflar: [
+                    "Kaba yapı sonrası dönemde aynı katta birden fazla taşeron ekibi (elektrik, mekanik, iç mekân yüzey) aynı anda çalışabilir; makaslı platformun dar tekerlek izi bu ortamda diğer ekiplerin geçiş güzergâhını daha az kısıtlar.",
+                    "Günlük çalışma alanı ve saat dilimi diğer taşeronlarla önceden koordine edilir; platformun bir koridoru uzun süre kapatması gereken durumlarda bu, sabah kısa bir görüşmeyle netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kaba yapı henüz bitmemişken, dış cephe iskelesi kurulu iken makaslı platform kullanılabilir mi?",
+                cevap:
+                    "Genellikle önerilmez; dış cephe ve kaba yapı aşamasında düzensiz zemin ve engebe riski yüksektir, bu dönem için paletli veya eklemli sınıflar daha uygundur. Makaslı platform, zemin kürlenip düzleştikten sonraki iç mekân işleri için önerilir.",
+            },
+            {
+                soru: "Üretim alanı ile idari blok için aynı platform kullanılabilir mi?",
+                cevap:
+                    "Tavan yükseklikleri farklıysa genellikle hayır; üretim alanında yüksek erişimli bir sınıf, idari blokta ise daha kompakt bir model tercih edilir. Proje başında bina bölümlerine göre ayrı sınıf öneririz.",
+            },
+            {
+                soru: "HVAC kanalı monte edilirken platform sürekli yer değiştirmek zorunda mı?",
+                cevap:
+                    "Hayır, çalışma noktası genelde sabittir; kanal ilerledikçe platform birkaç metre kaydırılır. Geniş sepet sayesinde kanal parçası ve montaj ekibi birlikte taşınabildiği için sık iniş-biniş gerekmez.",
+            },
+            {
+                soru: "Aynı katta başka bir taşeron ekibiyle çalışırken geçiş yolu kapanır mı?",
+                cevap:
+                    "Dar tekerlek izi sayesinde geçiş yolu genellikle tamamen kapanmaz; yine de platformun bir koridoru uzun süre işgal etmesi gereken bir gün varsa, bu diğer taşeronlarla sabah kısa bir görüşmeyle koordine edilir.",
+            },
+            {
+                soru: "Asma tavan malzemesi sepette taşınırken denge sorunu yaşanır mı?",
+                cevap:
+                    "Düz betonda çalışıldığı için stabilite yüksektir; yine de sepet ağırlık kapasitesinin aşılmaması için malzeme miktarını önceden birlikte değerlendiririz, taşıma birden çok sefere bölünebilir.",
+            },
+            {
+                soru: "Kaba yapı sonrası iç mekân işleri için makaslı platform mu eklemli/teleskopik model mi daha uygun?",
+                cevap:
+                    "Zemin düzse ve iş dikey erişim ağırlıklıysa makaslı platform genellikle daha verimlidir; ancak sabit bir engelin (örneğin monte edilmiş bir ekipman veya kolon çıkıntısı) etrafından dolaşmak gerekiyorsa eklemli sınıf daha uygun olabilir. İş tarifine göre birlikte karar veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kaba yapı sonrası fabrika iç mekân işlerinin (aydınlatma, HVAC, asma tavan, yüzey kaplama) dikey erişim ağırlıklı olması ve makaslı platformun düz zeminde dar tekerlek iziyle bu işlere uygunluğu ekipman literatüründeki genel teknik bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük Yeni Fabrika Çelik Karkasında Dış Cephe ve Çatı İşleri İçin Manlift Kiralama",
+        giris:
+            "Yeni bir fabrika binasının çelik karkası dikilirken, çatı aşıklarının montajı, çelik kolonlar arasındaki cephe kaplamasının takılması ve saçak/oluk gibi çatı çevresi detayların tamamlanması gerekir; bu işlerin ortak noktası, çalışma noktasının sabit olmaması ve genellikle bir engelin (kolon, kiriş, henüz tamamlanmamış cephe paneli) etrafından ulaşılması gerekmesidir. Bu tür bir erişim, düz yukarı çıkan bir platformla değil, hem yükselip hem yatay ve açılı yönde uzanabilen bir manliftle sağlanır — eklemli kol, kolonun arkasına veya çatı saçağının altına dolanarak erişebilir, teleskopik kol ise geniş bir cephe boyunca ilerlerken zaman kazandırır. Bozüyük'teki yeni fabrika ve çelik konstrüksiyon projelerinde manlifti, çelik karkas tamamlandıktan sonraki çatı ve cephe kapama aşamasına özel olarak konumlandırıyoruz; bu sayfada hangi çelik karkas işinde hangi manlift tipinin ve gerekçesinin öne çıktığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Çatı aşığı ve saçak montajında kolon arası engelli erişim",
+                metin:
+                    "Çatı aşıkları kolonlar üzerine yerleştirilirken, çalışma noktasına düz bir hatla değil çoğu zaman bir kolonun yanından dolanarak ulaşılır; eklemli kollu manlift bu tür bir engeli aşıp aşık hizasına yatay olarak yaklaşabilir, düz yukarı çıkan bir platform bu geçişi yapamaz.",
+            },
+            {
+                baslik: "Cephe paneli montajında kolonlar arası ilerleme",
+                metin:
+                    "Trapez sac veya sandviç panel cephe kaplaması, kolon aralıkları boyunca ilerleyen bir sıra çalışmasıdır; teleskopik kollu manlift geniş bir menzille bir noktadan diğerine uzanarak panel sırasını takip edebilir, bu da her panel için platformu yeniden konumlandırma ihtiyacını azaltır.",
+            },
+            {
+                baslik: "Saçak altı ve oluk detaylarında yatay uzanım ihtiyacı",
+                metin:
+                    "Çatı saçağının altındaki oluk ve su tahliye detayları, binanın dış hattının biraz dışında kalan bir noktada çalışmayı gerektirir; manliftin açılı kol uzanımı, platformu doğrudan altına götürmenin mümkün olmadığı bu tür saçak altı noktalarına erişim sağlar.",
+            },
+            {
+                baslik: "Çelik karkas ile eş zamanlı vinç trafiğinde güzergâh ayrımı",
+                metin:
+                    "Çatı ve cephe işleri sürerken çelik montaj vinci de sahada aktif olabilir; manliftin güzergâhı, vincin kaldırma hattıyla çakışmayacak şekilde günlük olarak belirlenir, yük hattı manlift üzerinden geçecekse manlift önce boşaltılıp bölgeden uzaklaştırılır.",
+            },
+            {
+                baslik: "Farklı çatı eğimi ve yüksekliğine göre kol tipi seçimi",
+                metin:
+                    "Fabrika binasının farklı bölümlerinde çatı yüksekliği veya eğimi değişebilir; alçak ve düz bir bölümde teleskopik kollu bir model yeterli olurken, karmaşık saçak detaylarının olduğu bölümde eklemli kollu bir model daha uygun olabilir. Bölüm bazında ihtiyacı proje başında birlikte belirleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik karkas sonrası çatı/cephe işine göre manlift tipi",
+                paragraflar: [
+                    "Çelik karkas tamamlandıktan sonraki çatı ve cephe kapama işlerinde hangi manlift tipinin öne çıktığını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Çelik karkas işi", "Erişim engeli", "Öncelikli kol tipi", "Not"],
+                    satirlar: [
+                        ["Çatı aşığı/saçak montajı", "Kolon arası dolanma", "Eklemli kollu", "Yatay+açılı erişim gerekir"],
+                        ["Cephe paneli sırası", "Kolon aralıkları", "Teleskopik kollu", "Geniş menzil, sıra takibi"],
+                        ["Saçak altı/oluk detayı", "Bina dışına taşan nokta", "Eklemli kollu", "Açılı uzanım"],
+                        ["Vinç ile eş zamanlı çalışma", "Kaldırma hattı", "İhtiyaca göre", "Günlük güzergâh ayrımı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Vinç ile aynı sahada güzergâh koordinasyonu",
+                paragraflar: [
+                    "Çelik karkas dikimi çoğu zaman çatı ve cephe işleriyle örtüşen bir dönemde sürer, bu yüzden vinç ve manlift aynı sahada birlikte çalışabilir; ikisinin güzergâhının çakışmaması için her sabah o günün kaldırma sırası ve manliftin konumlanacağı bölge netleştirilir.",
+                    "Yük hattının manlift üzerinden geçmesi gereken bir an olursa, manlift önce boşaltılır ve geçiş tamamlanana kadar bölgeden uzak tutulur; bu kural, çelik montajının aktif olduğu dönemde açık şantiyeye göre daha titiz uygulanır.",
+                ],
+            },
+            {
+                baslik: "Bina bölümüne göre kol tipi ve yükseklik planlaması",
+                paragraflar: [
+                    "Fabrika binasının farklı bölümlerinde çatı yüksekliği, eğimi veya saçak detayının karmaşıklığı değişebilir; bu yüzden tek bir manlift tipini tüm bina için sabitlemek yerine bölüm bazında ihtiyacı ayrı değerlendiririz.",
+                    "Basit ve düz bir çatı bölümünde teleskopik kollu bir model hızlı ilerlerken, karmaşık saçak veya kolon yoğunluğu olan bir bölümde eklemli kollu bir modele geçilmesi gerekebilir; bu geçişi proje ilerledikçe birlikte değerlendiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik karkas henüz dikilmemişken manlift saha içinde kullanılır mı?",
+                cevap:
+                    "Genellikle hayır; karkas dikimi öncesinde saha genelde düzensiz veya hazırlık aşamasındadır ve bu dönemde vinç ile temel/kolon işleri öne çıkar. Manlift, karkas ayakta durup çatı/cephe işleri başladığında devreye girer.",
+            },
+            {
+                soru: "Kolon arasındaki bir noktaya düz platformla ulaşılamıyorsa ne yapılır?",
+                cevap:
+                    "Bu durumda eklemli kollu manlift tercih edilir; kolun yatay ve açılı uzanımı, düz yukarı çıkan bir platformun aşamadığı kolon arası veya saçak altı noktalara erişim sağlar.",
+            },
+            {
+                soru: "Cephe paneli montajında her panel için manlift yeniden mi konumlandırılır?",
+                cevap:
+                    "Teleskopik kollu bir manlift kullanıldığında hayır; geniş menzil sayesinde bir noktadan panel sırası boyunca uzanılabilir, bu da sık yeniden konumlandırma ihtiyacını azaltır.",
+            },
+            {
+                soru: "Vinç aynı sahada çalışırken manlift güvenle kullanılabiliyor mu?",
+                cevap:
+                    "Kullanılabilir ama koordinasyon gerektirir; her sabah kaldırma sırası ve manliftin konumlanacağı bölge netleştirilir, yük hattı manlift üzerinden geçecekse manlift önce boşaltılıp bölgeden uzaklaştırılır.",
+            },
+            {
+                soru: "Farklı çatı bölümleri için birden fazla manlift tipi gerekir mi?",
+                cevap:
+                    "Bina bölümleri arasında çatı yüksekliği veya saçak karmaşıklığı farklıysa evet, gerekebilir; basit düz bölümlerde teleskopik kollu, karmaşık saçak detayı olan bölümlerde eklemli kollu model daha uygun olur.",
+            },
+            {
+                soru: "Saçak altı oluk montajı için hangi kol tipi öneriliyor?",
+                cevap:
+                    "Saçak altı noktalar genellikle bina dış hattının biraz dışında kaldığından eklemli kollu bir model önerilir; açılı kol uzanımı, platformu doğrudan altına götürmenin mümkün olmadığı bu tür noktalara erişimi sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik karkas sonrası çatı aşığı, cephe paneli ve saçak/oluk montajının engelli/yatay erişim gerektirmesi ve manliftin eklemli/teleskopik kol tipleriyle bu işlere uygunluğu ekipman literatüründeki genel teknik bilgidir; vinç-manlift güzergâh koordinasyonu sektör geneli iş güvenliği pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
 };
