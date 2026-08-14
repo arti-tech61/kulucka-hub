@@ -763,4 +763,1098 @@ export const CANAKKALEPLATFORM_COM: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Özgün içerik 2026-08-13 tarihinde hazırlandı. Ezine OSB'nin gıda ağırlığı ile peynir ve süt ürünlerinin bölge kimliği uygulama belgesinde doğrulanmıştır. Belirli tesis, hat, kapasite, ölçü, süre veya rakam kullanılmamıştır.",
     },
+
+    // ── HİZMET SAYFALARI (11) ────────────────────────────────────────────
+    // Açı: BOĞAZ GEÇİŞİ / FERİBOT LOJİSTİĞİ + TURİZM-OTEL + BİGA-GELİBOLU
+    // SANAYİ HATTI. Kardeş domain canakkaleplatform-tr.ts aynı 11 slug'ı
+    // zeytinyağı/RES enerji açısıyla işledi; burada o sahalara değinilmez.
+    // Yazım: 2026-08-14. Tesis adı ve rakam uydurulmadı.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Çanakkale'de Sepetli / Örümcek Platform Kiralama: İskele ve Kordon Cephesi",
+        giris:
+            "Boğaz kıyısındaki iki tip saha, sepetli-örümcek platformun asıl çalışma alanını oluşturur: feribot iskelelerinin dar rıhtım şeridi ve kordon boyundaki otel-işletme cepheleri. İkisinin de ortak noktası, standart bir eklemli platformun geniş şasesinin sığmadığı dar bir zemin şeridi olmasıdır — rıhtımda araç sırası ve yolcu geçişi, kordonda ise yaya kaldırımı ve komşu işletme vitrinleri makinenin park alanını kısıtlar. Sepetli-örümcek sınıfın gövde genişliği ve dar tekerlek izi, tam bu iki sahada fark yaratır: makine daracık bir geçişten girip iskele sundurmasının altına veya bina cephesine yakın bir noktaya kadar ilerleyebilir. Bunun karşılığında taşıma kapasitesi ve bom uzanımı klasik sepetli platforma göre sınırlıdır, dolayısıyla hangi işin bu sınıfa uygun olduğu, hangisinin daha geniş bir makine gerektirdiği keşifte birlikte değerlendirilir.",
+        maddeler: [
+            {
+                baslik: "İskele sundurması altında dar geçiş",
+                metin:
+                    "Feribot iskelelerinin sundurma çatısı, direk aralarına sıkışmış dar bir servis koridoru bırakır ve bu koridorun genişliği standart eklemli platformun şase ölçüsünü çoğu zaman zorlar. Sepetli-örümcek sınıfın dar tekerlek izi burada tek çözüm olur; makine katlanmış hâlde koridordan girip hedefin altında açılır. Sefer trafiği süren bir iskelede bu geçiş, yolcu ve araç akışının en az olduğu dakikalara denk getirilir; koridor bir kez kapatıldığında iş, sefer arası pencereye sığdırılacak şekilde önceden parçalanır.",
+            },
+            {
+                baslik: "Kordon vitrini önünde dar park",
+                metin:
+                    "Kordon hattındaki işletmelerin çoğu, kaldırımla bina cephesi arasında bir-iki metrelik dar bir şeritte hizmet verir ve bu şerit aynı zamanda yaya geçiş yoludur. Geniş şaseli bir platform buraya giremez ya da girdiğinde yaya trafiğini tamamen keser. Sepetli-örümcek sınıf, dar şeritte kalarak yan kaldırımı açık tutabilir; bariyer düzeni tek şerit etrafına kurulur, komşu vitrinler kapanmadan iş sürer.",
+            },
+            {
+                baslik: "İki yönlü boğaz akışında sepet kotu",
+                metin:
+                    "Bu sınıfın bom uzanımı sınırlı olduğu için sepet, klasik eklemliye göre rüzgâra daha az maruz kalır ama sıfır değildir; koridor akışının hızlandığı saatlerde yine de bom açısı ve yön hesaba katılır. Kuzeyli günlerde iskele tarafı, güneyli günlerde kordonun iç sokağa bakan yüzü tercih edilir. Bu tercih önceden yapılmazsa, kısa bir sefer arası pencerede rüzgâr kontrolüyle vakit kaybedilir ve pencere kaçırılır.",
+            },
+            {
+                baslik: "Kompakt gövdenin getirdiği kapasite sınırı",
+                metin:
+                    "Dar geçişe uyum sağlayan gövde, taşıma kapasitesi ve maksimum yükseklik açısından bir bedel getirir; ağır ekipman veya uzun malzeme taşınacak işlerde bu sınıf yeterli olmayabilir. Bu yüzden talep alırken hem geçiş genişliğini hem taşınacak malzemenin ağırlığını birlikte sorarız — geçiş dar ama yük hafifse sepetli-örümcek doğru seçimdir, yük ağırsa geçiş genişletilmeden geniş şaseli bir alternatif konuşulur.",
+            },
+            {
+                baslik: "Tuzlu hava ve sık sefer trafiğinin bakıma etkisi",
+                metin:
+                    "İskele ve kordon hattında konaklayan makineler, boğazın tuzlu nemine sürekli maruz kalır; bu sınıfın dar mekanik aksamı (küçük tekerlek, kısa dingil) tuz birikimine kent içi geniş makinelerden daha hassastır. İade öncesi tuz durulaması ve dingil kontrolü standart prosedürümüzdür; sefer trafiği yoğun sahalarda ayrıca günlük görsel kontrol eklenir çünkü makinenin dar geçitte sık manevra etmesi mekanik yorulmayı hızlandırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dar saha, geçiş ölçüsü ve makine eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, iskele ve kordon hattındaki dar geçiş işlerinde hangi ölçünün belirleyici olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Kısıtlayan ölçü", "Uygun sınıf", "Planlama notu"],
+                    satirlar: [
+                        ["İskele sundurma koridoru", "Direk arası genişlik", "Sepetli-örümcek", "Sefer arası pencere"],
+                        ["Kordon vitrin şeridi", "Kaldırım-bina arası mesafe", "Sepetli-örümcek", "Tek şerit bariyeri"],
+                        ["Ağır malzeme taşınan cephe", "Yük ağırlığı", "Geniş şaseli eklemli", "Geçiş genişletme gerekir"],
+                        ["Rıhtım açık alanı", "Araç sırası", "Sepetli-örümcek", "Trafik düşük saat"],
+                        ["Bina arası dar avlu", "Dönüş yarıçapı", "Sepetli-örümcek", "Manevra provası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Geçiş ölçüsünü keşifte doğru almak",
+                paragraflar: [
+                    "Dar geçişte hata payı yoktur: geçiş genişliği santimetre hassasiyetiyle ölçülmeden makine gönderilmez, çünkü şase sığmazsa iş iskele önünde yeniden planlamayla kaybolur. Keşifte fotoğrafla birlikte en dar noktanın ölçüsü, o noktadaki zemin eğimi ve yakındaki sabit engeller (direk, tabela ayağı, çöp konteyneri) not edilir.",
+                    "Bu ölçü bir kez alındığında aynı sahada tekrarlanan işlerde yeniden ölçüm gerekmez; iskele ve kordon işletmeleriyle çalıştığımız noktaların çoğunda geçiş profili kayıtlıdır ve yeni talepte doğrudan uygun makine önerilir.",
+                ],
+            },
+            {
+                baslik: "Sefer ve yaya trafiğiyle aynı anda çalışmak",
+                paragraflar: [
+                    "İskelede sefer trafiği, kordonda yaya trafiği durmaz; iş bu trafiğin etrafında kurulur, trafiğin durmasını beklemeyiz. İskelede saha yetkilisiyle sefer tarifesi üzerinden dakika bazlı bir akış çıkarılır, kordonda ise bariyer tek şeride kurularak karşı kaldırım açık bırakılır.",
+                    "İki sahada da ortak kural şudur: makine çalışırken geçiş tamamen kapatılmaz, yalnızca daraltılır. Bu, hem işletmelerin günlük faaliyetini sürdürmesini sağlar hem de bizim tarafımızda bariyer sökme-kurma sayısını azaltarak işi hızlandırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İskele koridoru ne kadar dar olursa sepetli-örümcek gerekir?",
+                cevap:
+                    "Kesin bir eşik vermek yerine ölçüyü isteriz; genel eğilim olarak standart eklemli platformun şase genişliği çoğu sundurma koridorundan geniştir, bu yüzden iskele işlerinin büyük kısmında zaten bu sınıfa yöneliriz. Kesin karar, gönderdiğiniz fotoğraf ve en dar noktanın ölçüsüyle verilir. Ölçü sınırdaysa iki seçeneği (dar sınıf ile daha uzun süre, geniş sınıf ile geçiş genişletme) yan yana koyarız; siz karar verirsiniz.",
+            },
+            {
+                soru: "Kordon vitrinimizin önünde çalışırken müşteri girişini kapatmak zorunda mıyız?",
+                cevap:
+                    "Hayır, amacımız tam tersi. Sepetli-örümcek sınıfın dar ayak izi, bariyeri tek bir şeritle sınırlı tutmamızı sağlar; kaldırımın kalan kısmı ve vitrin girişi açık kalır. Yaya yoğunluğunun düştüğü saatleri bilirseniz iş o saatlere yazılır, bilmiyorsanız sabah erken bloğu öneririz. Komşu işletmelerin de aynı hafta cephe işi varsa tek kurulumla ikisini birden bitirmek mümkündür.",
+            },
+            {
+                soru: "Sefer aralarında kaç dakikalık pencerede iş bitirebiliyorsunuz?",
+                cevap:
+                    "Bu, hedefin yüksekliği ve konumlanma süresine bağlıdır ama sepetli-örümcek sınıfın hızlı manevra kabiliyeti kısa pencerelerde belirgin avantaj sağlar. Sefer tarifesini paylaşırsanız, hangi kalemin tek pencerede biteceğini, hangisinin birkaç pencereye bölüneceğini önceden söyleriz. Toparlanma süresi de plana dahil edilir; sefer geldiğinde makinenin koridordan çekilmiş olması bizim sorumluluğumuzdur.",
+            },
+            {
+                soru: "Bu sınıfın kapasitesi bizim işimize yeter mi, ağır malzeme taşıyacağız?",
+                cevap:
+                    "Geçiş darsa ama malzeme ağırsa önce bunu netleştirmemiz gerekir; dar gövde ile yüksek taşıma kapasitesi bir arada gelmez. Malzemenin ağırlığını ve boyutunu sorduğumuzda, gerekirse geçişin geçici olarak genişletilebilir olup olmadığını (örneğin bir bariyer veya saksının kaldırılması) birlikte değerlendiririz. Genişletilemiyorsa malzeme parçalara ayrılarak taşınır ya da alternatif bir erişim yöntemi önerilir.",
+            },
+            {
+                soru: "Makine iskelede birkaç gün kalacak, tuzlu hava zarar verir mi?",
+                cevap:
+                    "Bu sınıfın dar mekanik aksamı tuz ve sık manevara kent içi makinelerden daha hassastır, bu yüzden iskele ve kordon konaklamalarında kontrol sıklığını artırıyoruz. Günlük görsel kontrol ve iade öncesi tuz durulaması standardımızdır. Sizden istediğimiz tek katkı, mümkünse gece için rüzgâra kapalı bir nokta göstermenizdir; olmuyorsa açık parka göre planlarız.",
+            },
+            {
+                soru: "Aynı gün hem iskelede hem kordon üzerinde işimiz var, tek makineyle olur mu?",
+                cevap:
+                    "Genellikle olur, çünkü sepetli-örümcek sınıf her iki sahaya da uyar ve iki nokta birbirine yakınsa taşıma tekrar etmez. Rotayı sefer tarifesi ile yaya yoğunluğu düşük saatleri üst üste koyarak kurarız; önce iskele bloğu, ardından kordon bloğu şeklinde bir sıra genellikle en verimli sonucu verir. İki sahanın da geçiş ölçüsünü baştan alırsak gün planını netleştirebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale kıyısındaki feribot iskeleleri ve kordon hattının dar geçiş yapısı kamuya açık coğrafi/gözlemsel bilgidir; makine sınıfı seçimi ve pencere planlaması firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Çanakkale'de Platform Nakliye ve Teslimat: Boğazı Geçen Sevkiyat",
+        giris:
+            "Çanakkale'de platform nakliyesinin diğer illerden farkı, ilin coğrafi olarak bir su yoluyla ikiye bölünmüş olmasıdır. Merkez, Biga ve Çan Anadolu yakasındayken Gelibolu yarımadası Trakya yakasındadır ve ikisi arasındaki kara bağlantısı, Çanakkale-Eceabat hattındaki arabalı vapur seferleriyle sağlanır. Bu durum, sevkiyat planını başka illerde görülmeyen bir değişkenle karşı karşıya bırakır: sefer tarifesi. Bir platformu Gelibolu yarımadasındaki bir sahaya götürmek, kamyonun feribota alınmasını, sefer saatine yetişmesini ve karşı yakada yeniden karayoluna çıkmasını gerektirir; bu zincirdeki her halka, teslimat saatini doğrudan etkiler. Bu sayfa, boğazı geçen sevkiyatın nasıl planlandığını, hangi durumlarda sefer beklemenin kaçınılmaz olduğunu ve Anadolu yakası içi teslimatların bundan nasıl ayrıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Anadolu yakası içi teslimat: standart rota",
+                metin:
+                    "Merkez, Biga, Çan ve Ezine arasındaki teslimatlar karayoluyla, feribot değişkeni olmadan yapılır; rota planlaması burada diğer illerdeki nakliyeden farklı değildir — mesafe, yol tipi ve saha erişimi belirleyicidir. Bu hat üzerindeki teslimatlarda saat taahhüdü daha nettir, çünkü tek değişken trafik ve hava koşuludur, sefer tarifesi devreye girmez.",
+            },
+            {
+                baslik: "Gelibolu yakasına geçiş: sefer tarifesine bağlı planlama",
+                metin:
+                    "Gelibolu yarımadasındaki bir sahaya sevkiyat söz konusu olduğunda, kamyonun sefer saatine yetişmesi rota planının merkezine oturur. Sefer kaçırıldığında bir sonraki sefere kadar bekleme süresi doğar; bu yüzden Gelibolu yakası teslimatlarında saat taahhüdü, sefer tarifesiyle birlikte bir aralık olarak verilir, tek bir dakika olarak değil. Yoğun dönemlerde araç sırası da hesaba katılır ve bu bilgi müşteriye teklif aşamasında açıkça söylenir.",
+            },
+            {
+                baslik: "Sahaya son yaklaşım: iskele-yol bağlantısındaki kot farkları",
+                metin:
+                    "Feribottan inen kamyon, karşı yakada iskele rampasından karayoluna çıkar ve bu geçişte kot farkı ile dönüş yarıçapı ağır yüklü bir tır için hesaba katılması gereken ayrıntılardır. Büyük gövdeli platformlarda bu geçiş, taşıyıcının önceden bildiği bir rota üzerinden yapılır; ilk kez gidilen bir sahada bu bilgi keşifte veya telefon görüşmesinde netleştirilir.",
+            },
+            {
+                baslik: "Acil talep ile planlı teslimat arasındaki fark",
+                metin:
+                    "Anadolu yakası içinde acil bir talebe aynı gün içinde cevap vermek çoğu zaman mümkündür; Gelibolu yakasında ise acil talebin süresi sefer saatine göre şekillenir — talep sefer saatinden hemen önce gelirse aynı gün, sefer kaçmışsa ertesi sefere kalır. Bu farkı müşteriye baştan söylemek, teslimat beklentisinin gerçekçi kurulmasını sağlar.",
+            },
+            {
+                baslik: "Çok noktalı sevkiyatlarda rota birleştirme",
+                metin:
+                    "Aynı gün hem Anadolu hem Gelibolu yakasında teslimat varsa, rota sefer saatine göre kurulur: önce sefer saatine yakın olan yaka tamamlanır, feribot beklerken diğer yakadaki teslimat planlanmaz çünkü araç boğazın karşı tarafındadır. Bu sıralama, tek aracın gün içinde iki yakayı da kapsayabilmesi için zorunludur ve rota önceden bu mantıkla kurulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yaka, rota ve süre tahmini",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilin iki yakası arasındaki teslimat farkını ve süre tahminini nasıl kurduğumuzu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Güzergah", "Değişken", "Süre taahhüdü", "Planlama notu"],
+                    satirlar: [
+                        ["Merkez-Biga-Çan-Ezine arası", "Trafik, yol tipi", "Sabit aralık", "Sefer bağımsız"],
+                        ["Merkez → Gelibolu yakası", "Sefer tarifesi, araç sırası", "Sefer aralığına bağlı", "Sefer saati önceden alınır"],
+                        ["Gelibolu yakası içi", "Karayolu, saha erişimi", "Sabit aralık", "Feribot sonrası standart"],
+                        ["Acil talep, Anadolu yakası", "Trafik", "Aynı gün mümkün", "Uygunluk kontrolü"],
+                        ["Acil talep, Gelibolu yakası", "Sefer saati", "Sefer bazlı", "Kaçırılan sefer ertelenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sefer tarifesini teklife nasıl yansıtıyoruz",
+                paragraflar: [
+                    "Gelibolu yakasına yapılacak bir teslimatta, teklif aşamasında güncel sefer tarifesini kontrol eder ve süre taahhüdünü bu tarifeye göre veririz. Sefer sıklığı gün içinde değişebildiği için, kesin saat yerine bir zaman aralığı verilir; bu, müşteriyle aramızda yanlış beklenti oluşmasını önler.",
+                    "Sefer aksaması (hava koşulu, teknik arıza) gibi bizim kontrolümüz dışındaki durumlarda, alternatif sefer veya alternatif güzergah seçenekleri değerlendirilir ve müşteri anında bilgilendirilir; bu tür bir aksama teslimat planının bir parçası olarak baştan konuşulur.",
+                ],
+            },
+            {
+                baslik: "Uzun süreli kiralamada geri alma lojistiği",
+                paragraflar: [
+                    "Gelibolu yakasındaki bir sahada uzun süreli kalacak makinenin geri alınması da aynı sefer mantığıyla planlanır; iş bitiş tarihi netleştiğinde geri alma için de bir sefer penceresi ayrılır. Son dakika bildirimlerde sefer kapasitesi dolu olabilir, bu yüzden geri alma tarihini birkaç gün önceden teyit etmeyi öneririz.",
+                    "Anadolu yakasındaki uzun süreli kiralamalarda bu kısıt yoktur; geri alma, sahanın müsaitliğine göre esnek planlanabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gelibolu yakasındaki sahamıza aynı gün teslimat mümkün mü?",
+                cevap:
+                    "Talebin geldiği saate ve sefer tarifesine bağlı. Sabah erken bir talep, günün seferlerine yetişecek şekilde planlanabilir; öğleden sonra geç gelen bir talep ise ertesi güne kayabilir. Teklif verirken güncel sefer tarifesini kontrol eder, size gerçekçi bir aralık söyleriz. Aynı gün kesin bir saat taahhüdü yerine sefer bazlı bir pencere vermemizin sebebi, sefer aksamasının bizim kontrolümüzde olmamasıdır.",
+            },
+            {
+                soru: "Feribot sırası uzarsa teslimat saati ne olur?",
+                cevap:
+                    "Araç sırası, özellikle yoğun dönemlerde uzayabilir; bu ihtimali teklif aşamasında açıkça söyleriz ve süre taahhüdünü bir aralık olarak veririz. Sıra beklenenden uzun sürerse sizi anında bilgilendiririz; sahadaki ekibinizin boş beklememesi için, bu tür işlerde makinenin sahaya varış saatine bağlı olmayan hazırlık kalemlerini (örneğin park alanı temizliği) önce yapmanızı öneririz.",
+            },
+            {
+                soru: "İki yakada da işimiz var, aynı gün ikisini de yapabilir misiniz?",
+                cevap:
+                    "Genellikle evet, ama sıralama sefer saatine göre kurulur. Rota, sefer saatine en yakın yakadan başlar; feribot bekleme süresi diğer yakadaki iş için kullanılmaz çünkü araç fiziksel olarak karşı taraftadır. İki teslimatın da adresini ve tercih ettiğiniz saatleri baştan verirseniz, sefer tarifesiyle uyumlu bir sıra çıkarır ve size onaylatırız.",
+            },
+            {
+                soru: "Anadolu yakası içi teslimatlarda da bekleme oluyor mu?",
+                cevap:
+                    "Hayır, merkez-Biga-Çan-Ezine arası teslimatlarda feribot değişkeni yoktur; süre taahhüdü trafik ve yol koşuluna göre verilir ve bu, sefer tarifesine bağlı Gelibolu yakası teslimatlarından belirgin şekilde daha net bir taahhüttür. Bu hat üzerindeki acil taleplere de genellikle aynı gün cevap verebiliriz.",
+            },
+            {
+                soru: "Makine bizde uzun süre kalacak, geri alma için ne zaman haber vermeliyiz?",
+                cevap:
+                    "Gelibolu yakasındaki sahalarda geri almayı birkaç gün önceden teyit etmenizi öneririz; son dakika bildirimlerde uygun sefer kapasitesi bulmak zorlaşabilir. Anadolu yakasındaki sahalarda bu kısıt yoktur, geri alma günü sahanızın müsaitliğine göre esnek planlanır. Hangi yakada olduğunuzu söylerseniz, size uygun bildirim süresini baştan belirtiriz.",
+            },
+            {
+                soru: "Sefer iptal olursa ne yapıyorsunuz?",
+                cevap:
+                    "Hava koşulu veya teknik nedenle sefer iptal olduğunda, bu bizim kontrolümüz dışındadır ve sizi anında bilgilendiririz. Alternatif sefer saatini veya varsa alternatif güzergahı değerlendirir, yeni bir teslimat penceresi veririz. Kritik bir işiniz varsa (örneğin planlı bir duruş penceresi), bunu baştan söylerseniz, sefer riskine karşı bir gün önceden hareket etmeyi teklif ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale-Eceabat arasındaki arabalı vapur hattının ili iki yakaya böldüğü ve sevkiyatı sefer tarifesine bağladığı kamuya açık coğrafi bilgidir; süre taahhüdü ve rota kurgusu firma pratiğidir. Sefer saati ve tesis adı gibi değişken rakamlar iddia edilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Çanakkale'de Forklift ve İstifleme Kiralama: Liman ve Barınak Sahaları",
+        giris:
+            "Çanakkale'de forklift talebinin önemli bir kısmı, boğaz kıyısındaki yük hareketinden doğar: liman ve iskele sahalarındaki konteyner-palet indirme, balıkçı barınaklarındaki kasa-ekipman taşıma, kordon hattındaki işletmelerin mal kabul sırasındaki istifleme. Bu sahaların ortak özelliği, forkliftin çalışacağı zeminin genellikle beton olsa da alanın dar ve yoğun trafikli olmasıdır — rıhtımda araç ve yolcu, barınakta tekne ve ağ, kordon sokağında yaya ve teslimat aracı aynı anda hareket eder. Forklift işi burada yalnızca yük kaldırmak değil, bu trafiğin içinde güvenli bir koridor açmaktır. Bu sayfa, liman-barınak sahalarındaki tipik forklift işlerini, zemin ve trafik kısıtlarını, mevsimsel yoğunluğun (balıkçılık sezonu, turizm sezonu) plana nasıl yansıdığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Liman ve iskele rıhtımında yük indirme",
+                metin:
+                    "Rıhtım sahasında forklift, gemiden veya kamyondan inen paletli-konteynerli yükü kısa mesafede taşır; zemin genellikle sağlam betondur ama alan dar, araç trafiği süreklidir. Forkliftin çalışma koridoru, sefer trafiğiyle çakışmayacak şekilde önceden işaretlenir; yoğun saatlerde iş, trafiğin azaldığı aralıklara kaydırılır.",
+            },
+            {
+                baslik: "Balıkçı barınağında kasa ve ekipman taşıma",
+                metin:
+                    "Barınak sahalarında forklift, ağ, kasa, buz ve tekne ekipmanı gibi malzemenin taşınmasında kullanılır; zemin burada rıhtımdan farklıdır, çoğunlukla ıslak, tuzlu ve zaman zaman balık artıklarıyla kaygan olabilir. Lastik seçimi ve yük kaldırma açısı bu zemine göre ayarlanır, sürüş hızı düşük tutulur. Sezon açılışı ve kapanışında yoğunluk artar, bu dönemlerde talep önceden planlanmalıdır.",
+            },
+            {
+                baslik: "Kordon işletmelerinde mal kabul istiflemesi",
+                metin:
+                    "Kordon hattındaki otel ve restoranların mal kabul noktaları dar sokaklara açılır; forklift burada büyük değil, kompakt sınıftan seçilir ve iş genellikle yaya trafiğinin az olduğu sabah erken saatine yazılır. Palet indirme ve depo içi istifleme, aynı ziyarette art arda yapılacak şekilde planlanır ki makine sahada kısa süre kalsın.",
+            },
+            {
+                baslik: "Turizm ve balıkçılık sezonunun çakışması",
+                metin:
+                    "Yaz aylarında hem turizm işletmelerinin mal kabul yoğunluğu hem barınak sahasındaki balıkçılık trafiği aynı anda artar; bu iki talep aynı haftalara denk geldiğinde makine bulunurluğu daralır. Sezon öncesi rezervasyon, özellikle kordon ve barınak sahalarında iş sürekliliği açısından önerilir.",
+            },
+            {
+                baslik: "Tuzlu-nemli ortamda forklift bakımı",
+                metin:
+                    "Kıyı şeridinde çalışan forkliftler tuzlu neme sürekli maruz kalır; hidrolik silindir contaları, elektrik bağlantıları ve fren sistemi öncelikli izleme noktalarıdır. Uzun süreli kiralamalarda bakım aralığı kısaltılır, iade sonrası tuz durulaması standarttır. Bu, müşteriye tek bir sonuç olarak yansır: makinenin performans kaybı olmadan çalışması.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Saha tipi, zemin ve forklift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, boğaz kıyısındaki üç tip sahada zemin ve trafik koşulunun forklift seçimini nasıl belirlediğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Zemin durumu", "Trafik yoğunluğu", "Forklift tercihi"],
+                    satirlar: [
+                        ["Liman/iskele rıhtımı", "Sağlam beton", "Sürekli araç trafiği", "Standart, koridor işaretli"],
+                        ["Balıkçı barınağı", "Islak, kayabilir", "Sezonluk yoğun", "Uygun lastik, düşük hız"],
+                        ["Kordon mal kabul", "Dar sokak, kaldırım", "Yaya yoğun", "Kompakt sınıf"],
+                        ["Depo içi istifleme", "Düz beton", "Düşük", "Standart, iz bırakmayan"],
+                        ["Açık stok alanı", "Dolgu zemin", "Orta", "Geniş lastik, plaka destekli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon öncesi rezervasyonun getirdiği fayda",
+                paragraflar: [
+                    "Turizm ve balıkçılık sezonunun aynı haftalara denk gelmesi, kıyı şeridindeki forklift talebini kısa bir dönemde sıkıştırır. Bu dönemde makine bulunurluğu daralır ve son dakika talepler bekleme süresiyle karşılaşabilir. Sezon açılışından birkaç hafta önce yapılan rezervasyon, hem makine tipini istediğiniz gibi seçmenizi hem de fiyat açısından daha rahat bir dönemde anlaşmanızı sağlar.",
+                    "Barınak sahalarında sezon kapanışında da benzer bir yoğunluk yaşanır; tekne ve ekipmanın kışlık depoya taşınması aynı haftalara toplanır. Bu dönem için de erken talep önerilir.",
+                ],
+            },
+            {
+                baslik: "Dar sokakta forklift ile yaya güvenliği",
+                paragraflar: [
+                    "Kordon hattındaki dar sokaklarda forklift ile yaya trafiğinin aynı anda bulunması en sık karşılaşılan risktir. Bu riski azaltmak için iş, yaya yoğunluğunun düşük olduğu saate yazılır, gözcü personeli görüş açısının kısıtlı olduğu köşelerde konumlandırılır ve makinenin hareket güzergahı önceden belirlenir.",
+                    "Bir sokakta birden fazla işletmenin mal kabulü varsa, tek forklift gezisiyle sırayla tüm teslimatları yapmak hem trafik hem maliyet açısından tercih edilir; bu koordinasyon işletmelerle önceden kurulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Balıkçı barınağında forklift kullanırken zemin kayganlığı sorun olur mu?",
+                cevap:
+                    "Kontrol edilmezse olur, bu yüzden barınak işlerinde lastik seçimi ve sürüş hızı standart sahalardan farklı belirlenir. Islak ve tuzlu zeminde tutunma gücü daha yüksek lastik tercih edilir, hız düşük tutulur ve keskin dönüşlerden kaçınılır. Balık artığı veya buz birikintisi varsa çalışma öncesi bu bölgelerin temizlenmesini isteriz; bu, hem makinenin hem operatörün güvenliği için gereklidir.",
+            },
+            {
+                soru: "Kordon sokağımızda forklift çalışırken müşteri girişini engellemeden olur mu?",
+                cevap:
+                    "Kompakt sınıf forklift ve doğru saat seçimiyle mümkündür. Dar sokakta iş, yaya trafiğinin en az olduğu sabah erken bloğuna yazılır; makine, kaldırımın bir kısmını değil tamamını değil, yalnızca gerekli koridoru kapatacak şekilde konumlanır. Aynı sokakta birden fazla işletmenin teslimatı varsa, hepsini tek gezide sırayla yaparak sokağın toplam kapalı kalma süresini kısaltırız.",
+            },
+            {
+                soru: "Turizm sezonu başlamadan önce ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Sezon açılışından birkaç hafta önce yapılan talep, hem makine tipini seçme özgürlüğü hem daha rahat bir fiyat görüşmesi sağlar. Sezon içinde talepler yoğunlaştığında bulunurluk daralır ve son dakika taleplerde bekleme oluşabilir. Geçmiş yıllarda hangi tarihlerde yoğun çalıştığınızı biliyorsanız, o tarihe göre erken bir rezervasyon öneririz.",
+            },
+            {
+                soru: "Liman rıhtımında forklift ile araç trafiği aynı anda güvenli mi?",
+                cevap:
+                    "Koridor önceden işaretlenirse evet. Forkliftin çalışacağı bölge, araç geçiş güzergahından ayrı bir şeritte tutulur ve bu şerit bariyer veya konili işaretlerle belirginleştirilir. Yoğun saatlerde iş, trafiğin azaldığı aralıklara kaydırılır; saha yetkilinizle bu aralıkları önceden netleştiririz.",
+            },
+            {
+                soru: "Makine bizde uzun süre kalacak, tuzlu hava zarar verir mi?",
+                cevap:
+                    "Bakım aralığı kısaltılmazsa zarar verebilir. Kıyı şeridinde konaklayan forkliftlerde hidrolik conta, elektrik bağlantısı ve fren sistemi öncelikli izleme noktalarıdır; uzun kiralamalarda kontrol sıklığını artırır, iade sonrası tuz durulaması yaparız. Sizden beklediğimiz tek katkı, mümkünse gece için kapalı veya korunaklı bir park noktası göstermenizdir.",
+            },
+            {
+                soru: "Hem barınakta hem kordon işletmemizde forklift ihtiyacımız var, tek kiralamada olur mu?",
+                cevap:
+                    "İki saha birbirine yakınsa evet, tek makineyle sırayla yapılabilir. Barınak işleri genellikle sabah erken, kordon mal kabulü de benzer saate denk geldiği için rotayı bu iki işi art arda kapsayacak şekilde kurarız. Sizden istediğimiz, iki sahanın da tercih ettiğiniz saat aralığını baştan vermenizdir; gerisini biz sıraya koyarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale kıyı şeridindeki liman, balıkçı barınağı ve kordon işletmelerinin varlığı kamuya açık coğrafi/gözlemsel bilgidir; sezon çakışması genel bölgesel bilgidir. Makine sınıfı seçimi ve saha planlaması firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Çanakkale'de Eklemli Platform (Boom) Kiralama: Biga Sanayi Holü Erişimi",
+        giris:
+            "Biga'nın metal işleme ve enerji ağırlıklı sanayi kuşağındaki üretim holleri, eklemli platformun asıl gerekçesini oluşturan bir geometriye sahiptir: yüksek tavan, vinç kirişi, boru hattı, kablo tavası gibi sabit engellerle dolu bir hacim. Bu hacimde düz yukarı çıkan bir makaslı platform çoğu hedefe ulaşamaz çünkü hedef genellikle bir engelin arkasında veya yanındadır. Eklemli bomun katlanıp dönebilen yapısı, sepeti bu engellerin etrafından dolaştırarak hedefe yaklaştırır — vinç kirişinin altından geçip üstüne çıkmak, boru hattının yanından sarkarak aşağıdaki panele erişmek gibi. Bu sayfa, Biga sanayi holündeki tipik eklemli platform işlerini, bom seçiminin nasıl yapıldığını ve hol içi çalışmanın kendine özgü kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Vinç kirişi çevresinde erişim",
+                metin:
+                    "Köprülü vinç bulunan hollerde, kirişin altı ve üstü ayrı erişim sorunları taşır; kirişin altındaki aydınlatma veya kablo tavası işi için bom, vinç hareket sektörünün dışında kalacak şekilde konumlanır. Kirişin üstündeki bir hedefe ulaşmak gerekiyorsa bom, kirişi yandan dolaşacak bir açıyla kurulur. Bu iki senaryo da vinç operatörüyle önceden koordine edilir; vinç hareket hâlindeyken platform çalışmaz.",
+            },
+            {
+                baslik: "Boru hattı ve kablo tavası altında kırılımlı erişim",
+                metin:
+                    "Hol tavanını boydan boya kat eden boru hattı ve kablo tavası, altındaki hedefe düz bir yaklaşımı engeller; eklemli bomun ikinci veya üçüncü eklemi, bu hatların altından geçip öte tarafa uzanacak şekilde katlanır. Bu tür işlerde bom kapasitesinin (yatay uzanım ile dikey yükseklik dengesi) doğru okunması kritiktir — üretici diyagramı, hedefin hem yatay hem dikey mesafesiyle karşılaştırılır.",
+            },
+            {
+                baslik: "Egzoz kısıtı: akülü eklemli zorunluluğu",
+                metin:
+                    "Kapalı üretim hollerinde egzoz gazı kabul edilmediği için, iç mekan işlerinde akülü eklemli platform standarttır. Dizel sınıf yalnızca havalandırması yeterli veya açık kapılı geniş hollerde, o da tesis onayıyla değerlendirilir. Akülü makinenin şarj süresi, uzun vardiyalı işlerde gün planına dahil edilir.",
+            },
+            {
+                baslik: "Üretim trafiği altında alan kapatma",
+                metin:
+                    "Sepet yükselirken altındaki alan, forklift ve iş makinesi trafiğine kapatılır; bu kapatma, üretimin tamamen durdurulması anlamına gelmez, yalnızca o koridorun geçici olarak alternatif güzergaha yönlendirilmesi demektir. Kapatma süresi, işin uzunluğuna göre önceden tesis yetkilisiyle paylaşılır.",
+            },
+            {
+                baslik: "Hol dışı açık saha işleri: farklı bom mantığı",
+                metin:
+                    "Aynı tesisin açık sahasındaki (tank çevresi, açık depolama alanı, dış cephe) işlerde engel yoğunluğu hol içine göre azalır ve bu durumda düz uzanan teleskopik bom genellikle daha hızlı bir çözümdür. Hangi bom tipinin seçileceği, hedefin önünde engel olup olmadığına bağlıdır; keşifte hem hol içi hem dış saha kalemleri varsa, ikisi için ayrı makine önerilebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hol içi engel tipi ve bom kararı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Biga sanayi holünde en sık karşılaşılan engel tiplerini ve bunlara uygun bom kararını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Engel tipi", "Erişim sorunu", "Bom kararı", "Enerji sınıfı"],
+                    satirlar: [
+                        ["Vinç kirişi altı", "Yatay hareket sektörü", "Kısa kırılımlı eklemli", "Akülü"],
+                        ["Vinç kirişi üstü", "Yandan dolaşma", "Uzun kırılımlı eklemli", "Akülü"],
+                        ["Boru hattı altı", "Düz yaklaşım engelli", "Çok eklemli bom", "Akülü"],
+                        ["Açık dış saha", "Engel az", "Teleskopik", "Dizel/akülü"],
+                        ["Dar galeri", "Şase genişliği", "Kompakt eklemli", "Akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bom diyagramını hedefle karşılaştırmak",
+                paragraflar: [
+                    "Eklemli platform seçiminde en sık yapılan hata, yalnızca maksimum yüksekliğe bakıp yatay uzanımı göz ardı etmektir. Bir makinenin diyagramında maksimum yükseklik ve maksimum yatay uzanım aynı anda elde edilemez; sepet ne kadar yana açılırsa ulaşabildiği tepe kotu o kadar düşer. Hol içi işlerde hedefin hem kotu hem yatay mesafesi birlikte ölçülür ve diyagramla karşılaştırılır.",
+                    "Bu karşılaştırma keşif aşamasında yapılır; sahaya yanlış bom kapasiteli makine gönderilmesi, işin o gün bitmeyip ertelenmesi anlamına gelir ve bu hem müşteri hem bizim için maliyetlidir.",
+                ],
+            },
+            {
+                baslik: "Vinç operatörüyle koordinasyonun önemi",
+                paragraflar: [
+                    "Köprülü vinç bulunan hollerde platform ve vinç aynı hacmi paylaşır; bu yüzden çalışma başlamadan vinç operatörüyle hareket sektörleri netleştirilir ve platform çalışırken vinç o sektöre girmeyecek şekilde bir anlaşma yapılır. Bu koordinasyon sözlü değil, saha yetkilisinin onayladığı yazılı bir plan üzerinden yürütülür.",
+                    "Vinç kullanılmayan saatlerde iş daha hızlı ilerler; mümkünse platform işini vincin görece boş olduğu vardiya dilimine yazmayı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Vinç kirişinin hemen altındaki bir aydınlatma armatürüne nasıl erişiyorsunuz?",
+                cevap:
+                    "Bom, vincin hareket sektörünün dışında bir noktadan başlayıp kirişin altına doğru kısa bir kırılımla yaklaşır; sepet kirişe temas etmeyecek bir mesafede durdurulur. Bu iş sırasında vinç hareket hâlinde olmaz, operatörle önceden bu konuda anlaşılır. Armatürün tam konumunu ve kirişten uzaklığını fotoğrafla gönderirseniz, hangi bom uzunluğunun gerektiğini önceden söyleriz.",
+            },
+            {
+                soru: "Hol içinde egzoz gazı sorunu var mı, dizel makine kullanabilir miyiz?",
+                cevap:
+                    "Kapalı hollerde standart yaklaşımımız akülü eklemlidir; egzoz gazı kapalı hacimde biriktiği için dizel makine, havalandırması yeterli olduğu tesis tarafından onaylanmadıkça kullanılmaz. Akülü makinenin şarj süresi uzun vardiyalı işlerde plana dahil edilir; şarj için uygun bir nokta göstermeniz iş akışını hızlandırır.",
+            },
+            {
+                soru: "Boru hattının altındaki bir panele nasıl ulaşıyorsunuz?",
+                cevap:
+                    "Bu, tipik bir çok eklemli bom senaryosudur: bom önce yukarı, sonra hattın altından geçecek şekilde katlanır ve son eklem paneli hedefler. Bunun için makinenin diyagramında hem dikey hem yatay uzanımın yeterli olması gerekir; hattın yüksekliğini ve panelin konumunu ölçerek göndermeniz, doğru bom kapasitesini baştan seçmemizi sağlar.",
+            },
+            {
+                soru: "Platform çalışırken üretim tamamen durur mu?",
+                cevap:
+                    "Hayır, yalnızca sepetin altındaki koridor geçici olarak kapatılır ve forklift-iş makinesi trafiğine alternatif güzergah gösterilir; üretimin geri kalanı sürer. Kapatma süresi işin uzunluğuna bağlıdır ve tesis yetkilisiyle önceden paylaşılır. Kısa süren işlerde bu kapatma birkaç dakika, kapsamlı işlerde ise saatler sürebilir; bunu keşifte netleştiririz.",
+            },
+            {
+                soru: "Hem hol içinde hem dış sahada işimiz var, aynı makineyle olur mu?",
+                cevap:
+                    "Bazen olur ama genellikle iki farklı makine daha verimlidir; hol içi engelli hedefler kırılımlı bom, dış sahadaki engelsiz hedefler ise düz teleskopik bom ister. İki tip işiniz varsa listeyi ayırırsanız, her biri için uygun sınıfı önerir ve gerekirse tek gün içinde art arda planlarız.",
+            },
+            {
+                soru: "Bom kapasitesini yanlış hesaplarsak ne olur?",
+                cevap:
+                    "Makine sahaya gelir ama hedefe yatay veya dikey olarak ulaşamaz, iş o gün bitmez ve doğru kapasiteli makinenin gelmesi beklenir. Bunu önlemek için keşifte hedefin hem kotunu hem yatay mesafesini ölçer, üretici diyagramıyla karşılaştırırız. Fotoğraf ve ölçü paylaşmanız, bu hesabın doğru yapılmasının en güvenilir yoludur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Biga'nın metal-enerji ağırlıklı sanayi kuşağı niteliği kamuya açık bölgesel bilgidir; vinç kirişi, boru hattı gibi hol içi engellerin platform erişimine etkisi sektörel/teknik bilgidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Çanakkale'de İç Mekan ve Depo İçi Platform Kiralama: Soğuk Hava ve Otel Salonları",
+        giris:
+            "İç mekan platform talebinin Çanakkale'deki iki farklı kaynağı vardır: Gelibolu ve kıyı şeridindeki su ürünleri işleme-soğuk hava tesislerinin depo içi bakımı, ve kordon hattındaki otel-restoranların salon-lobi aydınlatma işleri. İkisi de kapalı mekan olmasına rağmen çalışma koşulları tamamen farklıdır — soğuk hava deposu düşük sıcaklık ve nemli zemin taşırken, otel salonu iz bırakmama ve misafir konforu önceliğiyle çalışılır. Bu sayfa, iki farklı iç mekan profilinin platform seçimini nasıl şekillendirdiğini, düşük sıcaklığın ekipmana etkisini ve otel işletmelerinde çalışma saatinin nasıl kurulduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Soğuk hava deposunda düşük sıcaklık ve ekipman",
+                metin:
+                    "Su ürünleri işleme tesislerinin soğuk hava depolarında sıcaklık donma noktasının altına inebilir; bu ortamda akülü platformun batarya performansı düşer ve hidrolik yağın viskozitesi artar. Bu tür işlerde makine, soğuk ortama uygun hidrolik yağla hazırlanır ve batarya kapasitesi düşük sıcaklık için yeniden hesaplanır. Çalışma süresi normal ortama göre biraz daha kısa tutulur, gerekirse ısınma molaları plana eklenir.",
+            },
+            {
+                baslik: "Nemli-kaygan zeminde stabilizasyon",
+                metin:
+                    "Soğuk hava deposu ve işleme alanlarının zemini sık yıkandığı için nemli ve zaman zaman kaygandır; makinenin ayak stabilizasyonu bu zemine göre kontrol edilir, gerekirse kaymayı önleyen destek plakası kullanılır. Personel yürüyüş güzergahı da ayrıca işaretlenir çünkü ıslak zeminde platform çalışırken yaya trafiği ayrı tutulmalıdır.",
+            },
+            {
+                baslik: "Otel lobi ve salonlarında iz bırakmama",
+                metin:
+                    "Kordon hattındaki otellerin lobi, salon ve restoran alanlarında zemin genellikle mermer, parke veya hassas kaplamadır; bu yüzden lastikli akülü makine standart tercihtir ve zemin koruma plakası serilir. Misafir trafiğinin olduğu saatlerde çalışılmaz, iş gece geç saat veya sabah erken bloğuna yazılır.",
+            },
+            {
+                baslik: "Otel işletmesinde ses ve saat kısıtı",
+                metin:
+                    "Otel binalarında gürültü, misafir konforunu doğrudan etkileyen bir kısıttır; akülü makinenin sessiz çalışması burada avantaj sağlar ama yine de iş saatleri işletmenin sessiz saat politikasına göre belirlenir. Büyük salon aydınlatma değişimi gibi işler genellikle gece kapanış sonrasına planlanır.",
+            },
+            {
+                baslik: "İki farklı iç mekan profilinin ortak noktası: hazırlık",
+                metin:
+                    "Soğuk hava deposu ile otel salonu birbirinden çok farklı görünse de, ikisinde de ortak kural aynıdır: iş başlamadan önce zemin, sıcaklık ve erişim genişliği netleştirilmelidir. Bu bilgi eksikse makine sahaya gelir ama uygun hazırlıkla gelmemiş olur; soğuk depoya normal hidrolik yağla giden makine performans kaybeder, dar bir otel koridoruna geniş şaseli makine giremez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki iç mekan profili karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, soğuk hava deposu ile otel salonu işlerinin farklı kısıtlarını ve buna uygun hazırlığı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Baskın kısıt", "Makine hazırlığı", "Çalışma saati"],
+                    satirlar: [
+                        ["Soğuk hava deposu", "Düşük sıcaklık", "Soğuk hava hidrolik yağı", "Vardiya arası"],
+                        ["İşleme alanı", "Nemli zemin", "Kaymayı önleyen plaka", "Yıkama sonrası"],
+                        ["Otel lobi/salon", "Hassas zemin, misafir", "Zemin plakası, iz bırakmayan lastik", "Gece/sabah erken"],
+                        ["Restoran servis alanı", "Ses ve koku hassasiyeti", "Sessiz akülü", "Kapanış sonrası"],
+                        ["Depo içi raf üstü", "Dar koridor", "Kompakt gövde", "Esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Soğuk ortamda batarya ve hidrolik hazırlığı",
+                paragraflar: [
+                    "Düşük sıcaklıkta akülü platformların batarya kapasitesi normal ortama göre azalır ve hidrolik akışkanın viskozitesi artarak makinenin tepki hızını yavaşlatır. Bu iki etkiyi önceden hesaba katmak için soğuk hava deposu işlerinde makine, soğuk ortama uygun hidrolik yağla hazırlanır ve batarya, işin süresine göre normalden daha erken şarj planına alınır.",
+                    "Uzun süren bir iş için makinenin depo dışında ısınma molası vermesi de değerlendirilebilir; bu, batarya performansını korumanın pratik bir yoludur ve iş süresine dahil edilir.",
+                ],
+            },
+            {
+                baslik: "Otel işletmesiyle saat planı nasıl kurulur",
+                paragraflar: [
+                    "Otel salonlarında çalışma saati, işletmenin kendi doluluk ve etkinlik takvimine göre belirlenir; bu yüzden iş başlamadan önce resepsiyon veya teknik müdürle bir saat penceresi netleştirilir. Kısa süren işler (bir armatür değişimi gibi) tek gece bloğunda biter, kapsamlı işler (salon geneli aydınlatma) birkaç geceye bölünür.",
+                    "Zemin koruma ve ses kısıtı bu pencerede sabit kurallardır; işin süresi ne olursa olsun bu iki koşul değişmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk hava deposunda akülü makine ne kadar süre çalışabilir?",
+                cevap:
+                    "Bu, deponun sıcaklığına ve makinenin bataryasının doluluk oranına bağlıdır; düşük sıcaklıkta batarya performansı normal ortama göre azalır, bu yüzden çalışma süresini standart tahminlerden biraz kısık planlarız. Uzun süren işlerde ısınma molası veya ek batarya değişimi değerlendirilir. Deponun sıcaklık aralığını önceden verirseniz, gerçekçi bir süre tahmini yaparız.",
+            },
+            {
+                soru: "Otel lobimizin zemini mermer, hasar verir mi?",
+                cevap:
+                    "Doğru hazırlıkla vermez. Lastikli akülü platform standart tercihimizdir ve zemin, makinenin geçeceği güzergah boyunca koruma plakasıyla kaplanır. Sepet hareketinden önce zemin durumu kontrol edilir, herhangi bir çatlak veya hassas bölge varsa ayrıca işaretlenir. İş bitiminde plakalar kaldırılır ve zemin son kez kontrol edilir.",
+            },
+            {
+                soru: "Misafirlerimiz varken gece çalışabilir misiniz, gürültü olur mu?",
+                cevap:
+                    "Akülü platform sessiz çalışır ve bu, gece saatlerinde tercih edilme sebebimizdir; yine de büyük parça hareketi veya montaj sesi tamamen sıfır değildir. İşletmenizin sessiz saat politikasını ve misafir odalarının konuma göre hassasiyetini önceden sorarız, gerekirse çalışma saatini daha da geç bir dilime kaydırırız.",
+            },
+            {
+                soru: "İşleme tesisimizin zemini sürekli ıslak, makine kayar mı?",
+                cevap:
+                    "Kontrol edilmezse kayabilir, bu yüzden nemli-ıslak zeminlerde stabilizasyon ayrıca değerlendirilir; gerekirse kaymayı önleyen destek plakası kullanılır ve operatör düşük hızda ilerler. Yıkama programınızın saatini bilirsek, işi yıkama sonrası zeminin kuruduğu bir pencereye yazarak riski daha da azaltırız.",
+            },
+            {
+                soru: "Depo içi raf aralarında dar koridorda çalışabilir misiniz?",
+                cevap:
+                    "Koridor genişliği yeterliyse evet, kompakt gövdeli akülü makine bu iş için standart tercihtir. Koridor genişliğini ve raf yüksekliğini önceden ölçmeniz, doğru makine sınıfını baştan seçmemizi sağlar; ölçü sınırdaysa keşifte fiziksel olarak kontrol ederiz.",
+            },
+            {
+                soru: "Hem soğuk depoda hem otel salonunda işimiz var, aynı makineyle olur mu?",
+                cevap:
+                    "Hayır, önermeyiz; soğuk depo için soğuk ortama hazırlanmış hidrolik ve batarya ayarı gerekirken, otel salonu için iz bırakmayan lastik ve zemin koruması öncelikli olur. İki iş için ayrı makine planlamak, her ortamın kendine özgü hazırlığının eksiksiz yapılmasını sağlar; talep listesini ayırırsanız her biri için uygun makineyi önceden hazırlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gelibolu ve kıyı şeridindeki su ürünleri işleme-soğuk hava tesisleri ile kordon otel işletmelerinin varlığı kamuya açık bölgesel bilgidir; düşük sıcaklığın batarya ve hidrolik performansına etkisi genel teknik bilgidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çanakkale'de Çelik Konstrüksiyon Montaj Platformu: Biga-Gelibolu Sanayi Hattı",
+        giris:
+            "Biga'nın metal işleme kuşağı ile Gelibolu yarımadasındaki enerji yatırımlarının destek yapıları, ilin çelik konstrüksiyon montaj işlerinin iki ana kaynağıdır. Bu iki bölge farklı ölçekte çalışır: Biga'da üretim holü çatı makası ve taşıyıcı kolon montajı gibi büyük ölçekli işler görülürken, Gelibolu'daki enerji sahalarının destek yapılarında (trafo binası, saha içi çelik kabin, aydınlatma direği taşıyıcısı) daha küçük ölçekli ama kesin toleranslı montaj işleri öne çıkar. Platform seçimi bu ölçek farkına göre şekillenir — büyük hol montajında yüksek kapasiteli eklemli, küçük destek yapısında kompakt makaslı veya eklemli tercih edilir. Bu sayfa, iki bölgedeki çelik montaj işlerinin farklı gereksinimlerini, montaj aşamasındaki platform rolünü ve güvenlik kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Biga'da büyük ölçekli hol montajı",
+                metin:
+                    "Üretim holü inşaatlarında çatı makası, taşıyıcı kolon ve kiriş montajı, genellikle bina henüz tam kapalı değilken yapılır; bu aşamada platform hem yüksekliğe hem de inşaat sahasının değişken zeminine uyum sağlamalıdır. Kaba inşaat zemini düzensiz olabileceği için arazi tipi platform veya yük dağıtım plakalı kurulum tercih edilir. Kaynak ve cıvatalama noktalarına erişim, montaj ekibinin çalışma sırasına göre koordine edilir.",
+            },
+            {
+                baslik: "Gelibolu enerji sahalarında destek yapı montajı",
+                metin:
+                    "Enerji tesislerinin trafo binası, saha içi çelik kabin ve direk taşıyıcı montajları, daha küçük ölçekli ama kesin toleranslı işlerdir; bu sahalarda platform, montaj ekibinin talep ettiği kısa süreli ama hassas erişimi sağlar. Sahaya giriş, enerji tesisi olması nedeniyle standart izin sürecinden geçer ve bu süreç montaj takviminden önce tamamlanır.",
+            },
+            {
+                baslik: "Montaj sırasında geçici erişim ve kalıcı yapı ayrımı",
+                metin:
+                    "Çelik konstrüksiyon montajında platform, kalıcı bir erişim çözümü değil geçici bir montaj aracıdır; iskelet tamamlandıktan sonra kalıcı merdiven ve platform sistemleri devreye girer. Bu ayrım, iş kapsamının netleşmesi açısından önemlidir — bazı müşteriler platformu kalıcı çözümle karıştırıp uzun süreli bir kiralama bekleyebilir, oysa montaj süresiyle sınırlı bir ihtiyaçtır.",
+            },
+            {
+                baslik: "Kaynak ve kesme işlerinde yangın önlemi",
+                metin:
+                    "Çelik montaj sahalarında kaynak ve kesme faaliyeti yaygındır; platform sepetinde veya çevresinde bu işlemler yapılıyorsa kıvılcım riskine karşı koruma perdesi ve yangın söndürme ekipmanı hazır bulundurulur. Sepette çalışan personelin kişisel koruma ekipmanı, tesisin kendi güvenlik standardına göre belirlenir.",
+            },
+            {
+                baslik: "İnşaat aşamasına göre değişen zemin koşulu",
+                metin:
+                    "Hem Biga'daki hol inşaatlarında hem Gelibolu'daki saha çalışmalarında, inşaatın erken aşamasında zemin henüz sertleşmemiş veya düzensiz olabilir; bu dönemde platform seçimi kesin bir beton zemin varsayımıyla değil, mevcut zeminin gerçek durumuyla yapılır. Zemin değerlendirmesi her ziyarette tekrarlanır çünkü inşaat sahası hızla değişir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki bölgede montaj ölçeği ve makine tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Biga'daki büyük ölçekli hol montajı ile Gelibolu'daki enerji sahası destek yapı montajının farklı gereksinimlerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "İş ölçeği", "Zemin durumu", "Makine tercihi"],
+                    satirlar: [
+                        ["Biga hol inşaatı", "Büyük çatı/kolon", "Kaba inşaat, düzensiz", "Arazi tipi, yüksek kapasite"],
+                        ["Gelibolu enerji sahası", "Küçük destek yapı", "Kısmen tamamlanmış", "Kompakt eklemli/makaslı"],
+                        ["Kaynak-cıvata noktası", "Hassas erişim", "Değişken", "Bom açısı esnek eklemli"],
+                        ["Kapalı iskelet sonrası", "İç montaj", "Sertleşmiş beton", "Akülü, iz bırakmayan"],
+                        ["Şantiye açık saha", "Genel destek", "Dolgu/toprak", "Arazi tipi, plaka destekli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj ekibiyle koordinasyon",
+                paragraflar: [
+                    "Çelik montaj işlerinde platform, tek başına çalışan bir ekipman değil montaj ekibinin bir uzantısıdır; bu yüzden çalışma sırası, montaj planına göre kurulur. Hangi kolonun önce, hangi kirişin sonra monte edileceği bilgisi, platformun hangi sırayla hangi noktalara gideceğini belirler.",
+                    "Montaj ekibiyle günlük kısa bir koordinasyon toplantısı, platformun gereksiz yer değiştirmesini önler ve günün toplam verimini artırır; bu koordinasyonu biz teklif ediyoruz çünkü sahadaki en büyük zaman kaybı planlanmamış bekleme sürelerinden doğar.",
+                ],
+            },
+            {
+                baslik: "Geçici erişim ile kalıcı sistem arasındaki sınır",
+                paragraflar: [
+                    "Platform kiralaması, iskelet tamamlanana kadar geçen montaj sürecini kapsar; kalıcı bakım merdiveni, sabit platform veya yürüme yolu gibi kalıcı erişim çözümleri ayrı bir kapsamdır ve bizim hizmetimizin dışındadır. Bu ayrımı teklif aşamasında netleştiririz ki müşteri kalıcı bir çözümü geçici kiralamayla karıştırmasın.",
+                    "Montaj süresi uzarsa (örneğin hava koşulu nedeniyle), kiralama süresi de buna göre uzatılabilir; bu durumda güncellenmiş bir süre teklifi verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hol inşaatımızın zemini henüz beton değil, platform çalışabilir mi?",
+                cevap:
+                    "Zeminin gerçek durumuna bağlı olarak evet, ama makine sınıfı bu duruma göre seçilir. Kaba inşaat zemininde arazi tipi platform veya yük dağıtım plakalı kurulum tercih edilir; zemin çok yumuşak veya düzensizse önce sıkıştırma ya da geçici düzeltme istenebilir. Zemin fotoğrafını paylaşırsanız, sahaya gitmeden önce uygunluğu değerlendiririz.",
+            },
+            {
+                soru: "Enerji sahasındaki montaj için giriş izni ne kadar sürede tamamlanır?",
+                cevap:
+                    "Bu, tesisin kendi prosedürüne bağlıdır ve genellikle birkaç iş günü gerektirir; giriş izni, iş izni formu ve refakat ataması aynı gün içinde toplanmaz. Bizim tarafımızdaki belge seti (operatör yeterlilikleri, makine kayıtları, sigorta belgeleri) hazır durumdadır ve talep edildiği anda iletilir. Montaj takviminizi baştan paylaşırsanız, izin sürecini bu takvime göre erkenden başlatırız.",
+            },
+            {
+                soru: "Kaynak işlemi sırasında platform sepetinde çalışmak güvenli mi?",
+                cevap:
+                    "Doğru önlemlerle evet. Kıvılcım riskine karşı sepet çevresine koruma perdesi kurulur, yangın söndürme ekipmanı hazır bulundurulur ve sepette çalışan personel tesisin kişisel koruma standardına uyar. Kaynak işlemi uzun sürecekse, hidrolik hatların ve elektrik bağlantılarının kıvılcımdan korunması ayrıca kontrol edilir.",
+            },
+            {
+                soru: "Montaj süresi uzarsa kiralama süresini nasıl güncelliyorsunuz?",
+                cevap:
+                    "Montaj süresinin hava koşulu veya malzeme teslim gecikmesi gibi nedenlerle uzaması sık karşılaştığımız bir durumdur; bu durumda güncel bir süre teklifi çıkarır, mevcut kiralama sözleşmesini uzatırız. Sizden istediğimiz, gecikmeyi fark eder etmez bize bildirmenizdir; makine planımızı buna göre yeniden düzenleriz.",
+            },
+            {
+                soru: "Platform montaj bitince kalıcı merdiven veya platform kurulumu da yapıyor musunuz?",
+                cevap:
+                    "Hayır, bu ayrı bir kapsamdır. Bizim hizmetimiz, çelik iskelet tamamlanana kadar geçen montaj sürecindeki geçici erişimi kapsar; kalıcı bakım merdiveni veya sabit platform sistemi ayrı bir yüklenici işidir. Bu ayrımı teklif aşamasında netleştiririz ki beklenti baştan doğru kurulsun.",
+            },
+            {
+                soru: "Biga ve Gelibolu'daki iki ayrı montaj sahasına aynı hafta hizmet verebilir misiniz?",
+                cevap:
+                    "Verebiliriz, ancak iki saha farklı ölçek ve makine profili istediği için genellikle iki ayrı makine planlanır. Biga'daki büyük hol montajı için yüksek kapasiteli arazi tipi, Gelibolu'daki destek yapı montajı için kompakt sınıf ayrılır. İki sahanın takvimini önceden verirseniz, makine ve operatör planını buna göre kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Biga'nın metal işleme sanayisi ile Gelibolu yarımadasındaki enerji yatırımlarının destek yapı ihtiyacı kamuya açık bölgesel bilgidir; montaj sürecinde platformun geçici erişim rolü sektörel bilgidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Çanakkale'de Tarım ve Silo Sahası Platform Kiralama: Gelibolu Kırsalı",
+        giris:
+            "Gelibolu yarımadasının tarımla iç içe dokusu, ilin silo-tarım sahası platform talebinin ana kaynağıdır. Yarımadanın tarımsal işletmeleri, tahıl depolama silosu, hayvancılık barınağı ve sera-serbest üretim alanı gibi yapılarla bölünmüştür ve bu yapıların ortak özelliği kırsal bir arazide, çoğunlukla düzensiz veya sıkıştırılmamış zemin üzerinde bulunmalarıdır. Kent içi bir sahadan farklı olarak burada platform işini zorlaştıran şey yükseklik değil zemindir — tarla kenarı, ahır çevresi ve silo tabanı, kent kaldırımı gibi düz ve öngörülebilir değildir. Bu sayfa, Gelibolu kırsalındaki tipik tarım-silo işlerini, zemin değerlendirmesinin nasıl yapıldığını ve mevsimsel erişim kısıtlarını (yağış, hasat trafiği) anlatır.",
+        maddeler: [
+            {
+                baslik: "Tahıl silosu dış yüzey ve üst kapak bakımı",
+                metin:
+                    "Tahıl depolama silolarının dış cephesi ve üst kapağı, dönemsel bakım gerektirir: pas kontrolü, boya onarımı, havalandırma bacası temizliği. Silonun silindirik gövdesi, düz bir cepheye göre farklı bir yaklaşım açısı ister; eklemli platformun dönebilen bomu, sepeti gövde eğrisine paralel tutarak bu erişimi sağlar. Silo çevresindeki zeminin taşıma kapasitesi, makine park edilmeden önce kontrol edilir.",
+            },
+            {
+                baslik: "Hayvancılık barınaklarında çatı ve aydınlatma",
+                metin:
+                    "Büyükbaş-küçükbaş barınaklarının çatı ve aydınlatma bakımı, genellikle geniş açıklıklı ama alçak tavanlı yapılarda yapılır; bu yapılarda kompakt gövdeli platform tercih edilir ve zemin, hayvan gübresi ve saman karışımı nedeniyle standart tarım arazisinden farklı bir yüzey sunar. Çalışma öncesi zeminin temizlenmesi ve varsa hayvanların geçici olarak uzaklaştırılması istenir.",
+            },
+            {
+                baslik: "Sera ve açık üretim alanında rüzgar ve zemin",
+                metin:
+                    "Sera yapılarının çatı ve yan cephe bakımı ile açık üretim alanlarındaki direk-tel sistemlerinin kontrolü, yarımadanın açık rüzgarına maruz kalan işlerdir; bom açısı rüzgar durumuna göre sınırlanır. Zemin, sulama sonrası yumuşayabileceği için çalışma öncesi zeminin kuruluğu kontrol edilir, gerekirse yük dağıtım plakası kullanılır.",
+            },
+            {
+                baslik: "Hasat döneminde erişim kısıtı",
+                metin:
+                    "Hasat dönemi, tarla ve silo çevresindeki yolları traktör-kamyon trafiğiyle doldurur; bu dönemde platform işi mümkünse hasat öncesine veya hasat trafiğinin düşük olduğu saatlere planlanır. Hasat ortasında acil bir bakım gerekirse, saha sahibiyle koordineli bir geçiş güzergahı belirlenir.",
+            },
+            {
+                baslik: "Yağışlı dönemde tarla zemini",
+                metin:
+                    "Kırsal arazide zemin, yağıştan sonra hızla yumuşar ve makinenin batma riski artar; bu dönemde çalışma öncesi zemin durumu mutlaka kontrol edilir ve gerekirse iş, zeminin kuruduğu bir güne ertelenir. Acil bir işse yük dağıtım plakası ve arazi tipi platform ile ilerleme değerlendirilir, ancak güvenlik önceliklidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kırsal saha tipi ve zemin koşulu",
+                paragraflar: [
+                    "Aşağıdaki tablo, Gelibolu kırsalındaki farklı tarım-silo yapılarında zemin koşulunu ve buna uygun makine tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Baskın kısıt", "Zemin önlemi", "Makine tercihi"],
+                    satirlar: [
+                        ["Tahıl silosu çevresi", "Silindirik gövde erişimi", "Zemin taşıma kontrolü", "Eklemli, arazi tipi"],
+                        ["Hayvancılık barınağı", "Alçak tavan, kirli zemin", "Temizlik sonrası çalışma", "Kompakt eklemli"],
+                        ["Sera yapısı", "Rüzgar, yumuşak zemin", "Kuruluk kontrolü", "Hafif, plaka destekli"],
+                        ["Tarla kenarı direk-tel", "Açık rüzgar", "Bom açısı sınırı", "Teleskopik, sınırlı açı"],
+                        ["Hasat dönemi genel", "Trafik yoğunluğu", "Alternatif güzergah", "Esnek program"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin taşıma kapasitesini önceden nasıl anlıyoruz",
+                paragraflar: [
+                    "Kırsal arazide zeminin görünüşü aldatıcı olabilir; üstü kuru ve sağlam görünen bir toprak, birkaç santim altında yumuşak ve taşımayan bir katman barındırabilir. Bu yüzden park noktası seçiminde yalnızca görsel kontrol yeterli sayılmaz; operatör, sahaya girmeden önce zemini fiziksel olarak kontrol eder ve şüpheli bölgelerde yük dağıtım plakası kullanır.",
+                    "Saha sahibinin bölgedeki geçmiş deneyimi (hangi noktanın yağıştan sonra çamurlaştığı gibi) de değerli bir bilgidir; bu bilgiyi paylaşmanız, keşif süresini kısaltır ve doğru park noktasının ilk seferde bulunmasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Hasat takvimiyle bakım takviminin çakışmaması",
+                paragraflar: [
+                    "Hasat dönemi, tarım işletmelerinin yıl içindeki en yoğun trafiğe sahip dönemidir ve bu dönemde saha yolları büyük ölçüde tarım araçlarına ayrılır. Platform bakımını mümkünse hasat öncesi veya hasat sonrası sakin döneme almak, hem trafik riskini azaltır hem de işin daha hızlı ilerlemesini sağlar.",
+                    "Ekim döneminde de benzer bir yoğunluk yaşanabilir; bölgedeki tarım takvimini bilen bir işletme olarak, bakım için en uygun pencereyi önerebiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tarla kenarındaki silomuzun zemini yumuşak, platform batar mı?",
+                cevap:
+                    "Kontrol edilmeden çalışılırsa batabilir, bu yüzden zemin taşıma kapasitesi çalışmadan önce fiziksel olarak kontrol edilir. Görünüşte kuru bir zemin altında yumuşak katman barındırabilir; şüpheli bölgelerde yük dağıtım plakası kullanılır. Zeminin daha önce hangi mevsimde nasıl davrandığını biliyorsanız, bu bilgiyi paylaşmanız keşfi hızlandırır.",
+            },
+            {
+                soru: "Hayvancılık barınağında çalışırken hayvanlar için risk var mı?",
+                cevap:
+                    "Doğru hazırlıkla risk minimuma iner; çalışma öncesi hayvanların geçici olarak uzaklaştırılmasını veya güvenli bir bölmede tutulmasını isteriz. Makine sesi ve hareketi hayvanları ürkütebileceği için, mümkünse sakin bir saat aralığı tercih edilir. Barınağın zemin durumu (gübre, saman birikimi) da temizlik sonrası değerlendirilir.",
+            },
+            {
+                soru: "Hasat döneminde acil bir bakım ihtiyacımız çıkarsa hizmet verebilir misiniz?",
+                cevap:
+                    "Verebiliriz, ancak hasat trafiğinin yoğun olduğu saatlerde yol kullanımı için saha sahibiyle bir geçiş güzergahı önceden belirlenir. Trafiğin düşük olduğu erken sabah veya akşam saatleri genellikle tercih edilir. Acil değilse, hasat sonrasına ertelemenizi öneririz çünkü hem trafik hem zemin koşulu o dönemde daha elverişli olur.",
+            },
+            {
+                soru: "Serada rüzgarlı bir günde çalışabilir misiniz?",
+                cevap:
+                    "Rüzgarın şiddetine bağlı olarak evet, ama bom açısı sınırlanabilir. Yarımadanın açık arazisinde rüzgar kent içine göre daha belirgin hissedilir; sertifikalı rüzgar sınırının üzerinde tam açıda çalışılmaz. Şiddetli rüzgar bekleniyorsa iş ertelenir veya sakin bir güne kaydırılır; hava tahminini önceden takip ederek size gerçekçi bir gün öneririz.",
+            },
+            {
+                soru: "Silonun üst kapağına nasıl erişiyorsunuz?",
+                cevap:
+                    "Silonun silindirik gövdesine dönebilen bir bomla yaklaşırız; eklemli platformun bu özelliği, sepeti gövde eğrisine paralel tutarak üst kapağa güvenli erişim sağlar. Silonun yüksekliğini ve çevresindeki park alanının genişliğini önceden ölçmeniz, doğru bom kapasitesini baştan belirlememizi sağlar.",
+            },
+            {
+                soru: "Yağmurdan hemen sonra tarlaya girebilir misiniz?",
+                cevap:
+                    "Zeminin durumuna bağlı, genellikle önermeyiz. Yağıştan sonra toprak birkaç gün yumuşak kalabilir ve bu dönemde makinenin batma riski yüksektir. Acil bir durum yoksa zeminin kuruduğu bir güne erteleriz; acilse yük dağıtım plakası ve arazi tipi platform ile sınırlı bir ilerleme değerlendirilir, ancak güvenlik her zaman önceliklidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gelibolu yarımadasının tarım-hayvancılık dokusu kamuya açık bölgesel bilgidir; zemin ve mevsimsel erişim değerlendirmesi firma pratiğidir. Tesis adı, ürün türü ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Çanakkale'de Liman ve Kordon Aydınlatma-Elektrik Altyapısı Bakım Platformu",
+        giris:
+            "Boğaz kıyısındaki liman-iskele sahaları ve kordon hattı, kendine özgü bir elektrik-aydınlatma altyapısı taşır: iskele aydınlatma direkleri, rıhtım elektrik dağıtım panoları, kordon sokak aydınlatması ve kamera-anons sistemlerinin besleme hatları. Bu altyapının bakımı, standart bir kent aydınlatma işinden iki noktada ayrılır: tuzlu deniz havasının elektrik bağlantılarına etkisi ve sefer-yaya trafiğinin çalışma penceresini kısıtlaması. Bu sayfa, liman ve kordon hattındaki aydınlatma-elektrik bakım işlerinin nasıl planlandığını, tuzlu ortamda elektrik güvenliğinin nasıl sağlandığını ve dar çalışma pencerelerinin işi nasıl şekillendirdiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "İskele aydınlatma direklerinde tuz kaynaklı arıza",
+                metin:
+                    "İskele ve rıhtım aydınlatma direkleri, sürekli tuzlu neme maruz kaldığı için bağlantı noktalarında korozyon standart kent direklerine göre daha hızlı gelişir; bu yüzden bakım sıklığı bu sahalarda artırılır. Direk tepesindeki armatür ve bağlantı kutusu açıldığında, korozyon belirtisi varsa yalnızca arızalı parça değil çevresindeki bağlantılar da kontrol edilir.",
+            },
+            {
+                baslik: "Rıhtım elektrik panosu çevresinde güvenlik mesafesi",
+                metin:
+                    "Rıhtımdaki elektrik dağıtım panoları, platform çalışması sırasında güvenlik mesafesiyle çevrilir; pano enerjili durumdaysa sepet ve operatör bu mesafenin dışında tutulur. Pano üzerinde doğrudan müdahale gerekiyorsa, bu iş elektrik yetkilisi tarafından ayrı olarak yürütülür; platformun rolü yalnızca erişimi sağlamaktır.",
+            },
+            {
+                baslik: "Kordon sokak aydınlatmasında yaya trafiğiyle uyum",
+                metin:
+                    "Kordon hattındaki sokak aydınlatma direkleri, yaya yoğun bir alanda bulunur; bu direklerin bakımı, yaya trafiğinin düşük olduğu saatlere (sabah erken veya gece geç) planlanır. Bariyer düzeni, kaldırımın bir kısmını değil tamamını kapatmayacak şekilde kurulur.",
+            },
+            {
+                baslik: "Kamera ve anons sistemi besleme hatları",
+                metin:
+                    "İskele ve kordon hattındaki güvenlik kamerası, anons sistemi ve yönlendirme tabelalarının besleme hatları, genellikle aydınlatma direkleriyle aynı hat üzerinden gider; bir direkteki bakım, bu sistemlerin de kontrolden geçmesi için fırsat oluşturur. Bu tür birleşik bakım, aynı direk için ikinci bir ziyareti önler.",
+            },
+            {
+                baslik: "Sefer trafiğine bağlı çalışma penceresi",
+                metin:
+                    "İskele sahasındaki aydınlatma bakımı, sefer trafiğinin durduğu değil azaldığı aralıklara sığdırılır; çalışma pencereleri kısa olduğu için iş, önceden hazırlanmış bir kontrol listesiyle hızlı ilerletilir. Kompakt gövdeli makine, bu kısa pencerede hızlı konumlanma avantajı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Liman-kordon aydınlatma altyapısı ve bakım koşulu",
+                paragraflar: [
+                    "Aşağıdaki tablo, boğaz kıyısındaki aydınlatma-elektrik altyapısının farklı bölümlerinde bakım koşulunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Altyapı", "Baskın risk", "Bakım sıklığı", "Çalışma penceresi"],
+                    satirlar: [
+                        ["İskele direkleri", "Tuz korozyonu", "Artırılmış", "Sefer arası"],
+                        ["Rıhtım elektrik panosu", "Enerjili yakınlık", "Standart", "Güvenlik mesafeli"],
+                        ["Kordon sokak direkleri", "Yaya trafiği", "Standart", "Sabah erken/gece"],
+                        ["Kamera-anons hattı", "Direkle birleşik", "Birleşik ziyaret", "Direk bakımıyla aynı"],
+                        ["Kamu alan aydınlatması", "Genel aşınma", "Standart", "Esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tuzlu ortamda elektrik bağlantı kontrolü",
+                paragraflar: [
+                    "Kıyı şeridindeki elektrik bağlantı noktaları, tuzlu nemin sürekli etkisi altında standart kent ortamına göre daha hızlı yıpranır; bu yüzden bakım sırasında yalnızca arızalı görünen nokta değil, aynı hat üzerindeki komşu bağlantılar da görsel olarak kontrol edilir. Korozyon başlangıç aşamasında fark edildiğinde, ileri arızayı önlemek çok daha ucuza gelir.",
+                    "Bu kontrolü rutine dönüştürmek isteyen işletmeler için periyodik bakım programı öneririz; tek seferlik arıza müdahalesi yerine düzenli kontrol, tuzlu ortamda uzun vadede daha az arıza demektir.",
+                ],
+            },
+            {
+                baslik: "Enerjili hatlara yakın çalışmada sorumluluk ayrımı",
+                paragraflar: [
+                    "Platform ekibinin rolü, elektrik yetkilisinin çalışabileceği bir erişim noktası sağlamaktır; panoya doğrudan müdahale, kablo değişimi gibi işler elektrik yetkilisinin sorumluluğundadır ve bu ayrım iş başlamadan netleştirilir. Enerjili bir hat söz konusu olduğunda güvenlik mesafesi, saha elektrik sorumlusu tarafından belirlenir ve platform bu mesafenin dışında tutulur.",
+                    "Bu net ayrım, hem işin güvenli ilerlemesini hem de sorumluluğun kimde olduğunun her aşamada belli olmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İskele direğimizde sık arıza oluyor, sebebi tuz mu?",
+                cevap:
+                    "Sık arızanın en yaygın sebebi budur; tuzlu deniz havası, bağlantı noktalarındaki korozyonu standart kent direklerine göre hızlandırır. Direği açtığımızda yalnızca görünen arızayı değil, çevresindeki bağlantıları da kontrol ederiz çünkü korozyon genellikle tek noktada kalmaz. Sık arıza yaşıyorsanız, periyodik bir kontrol programına geçmenizi öneririz; bu, tek seferlik müdahaleden daha ekonomiktir.",
+            },
+            {
+                soru: "Rıhtımdaki elektrik panosuna platform ile doğrudan müdahale edebilir misiniz?",
+                cevap:
+                    "Hayır, panoya doğrudan müdahale elektrik yetkilisinin işidir; bizim rolümüz o noktaya güvenli erişim sağlamaktır. Pano enerjiliyken güvenlik mesafesi saha elektrik sorumlusu tarafından belirlenir ve platform bu mesafenin dışında kalır. Panoda çalışma gerekiyorsa, elektrik yetkilisiyle koordineli bir plan kurarız.",
+            },
+            {
+                soru: "Kordon sokağımızdaki direk bakımı yaya trafiğini ne kadar etkiler?",
+                cevap:
+                    "Bariyer, kaldırımın tamamını değil yalnızca gerekli koridoru kapatacak şekilde kurulur; yaya trafiğinin en az olduğu sabah erken veya gece geç saatlerde çalışmayı tercih ederiz. Bir sokakta birden fazla direk varsa, hepsini tek gezide bitirerek toplam kapalı kalma süresini kısaltırız.",
+            },
+            {
+                soru: "Aydınlatma direğiyle birlikte kamera sistemini de kontrol ediyor musunuz?",
+                cevap:
+                    "Aynı hat üzerindeyse evet, tek ziyarette ikisini birden kontrol ederiz; bu, hem sizin hem bizim için ikinci bir sefer gerektirmez. Kamera veya anons sisteminde ayrı bir arıza tespit edersek, bunu size bildirir ve gerekiyorsa ilgili teknisyene yönlendiririz; kamera-anons sisteminin kendisi bizim doğrudan müdahale alanımız değildir.",
+            },
+            {
+                soru: "İskele bakımını sefer aralarına nasıl sığdırıyorsunuz?",
+                cevap:
+                    "Sefer tarifesini saha yetkilinizle önceden alır, kısa pencerelere uygun bir kontrol listesi hazırlarız; kompakt gövdeli makine bu kısa pencerede hızlı konumlanma avantajı sağlar. Bir pencerede bitmeyecek kadar kapsamlı bir iş varsa, birkaç sefer arasına bölünür; bu, iş süresini uzatır ama sefer trafiğini kesintiye uğratmaz.",
+            },
+            {
+                soru: "Periyodik bakım programına geçmek maliyeti azaltır mı?",
+                cevap:
+                    "Genellikle evet, özellikle tuzlu ortamda. Korozyon başlangıç aşamasında fark edilirse küçük bir müdahaleyle çözülür; ilerlediğinde direğin tamamının değişimi gerekebilir ki bu çok daha maliyetlidir. Periyodik programda ziyaret sıklığını sahanızın tuzlu havaya maruziyetine göre belirler, size bir bakım takvimi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale kıyı şeridindeki liman-iskele ve kordon aydınlatma-elektrik altyapısının varlığı kamuya açık gözlemsel bilgidir; tuzlu ortamın elektrik korozyonuna etkisi genel teknik bilgidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Çanakkale'de Operatörlü Platform Kiralama: Turizm Sezonunda Kısa Süreli Hizmet",
+        giris:
+            "Kordon hattındaki otel, restoran ve mağaza işletmelerinin çoğunda platform kullanımı yılda birkaç kez gerçekleşen bir ihtiyaçtır; bu işletmeler için kendi operatör eğitimine ve sertifikasyon sürecine yatırım yapmak yerine, operatörlü kiralama daha pratik bir çözümdür. Turizm sezonu öncesi yoğunlaşan tabela-tente-aydınlatma yenileme işlerinde, operatörlü model işletmeye hem makineyi hem yetkili kullanıcıyı tek paket olarak sağlar. Bu sayfa, operatörlü kiralamanın turizm işletmeleri için nasıl işlediğini, kısa süreli-yoğun dönem taleplerinin nasıl karşılandığını ve operatörsüz seçeneğin hangi durumda tercih edilebileceğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Sezon öncesi yoğun talebe operatörlü çözüm",
+                metin:
+                    "Turizm sezonu açılışından hemen önceki haftalarda, kordon hattındaki birçok işletme aynı anda tabela-tente-aydınlatma yenilemesi ister; bu yoğun dönemde operatörlü kiralama, işletmenin kendi personelini eğitmeden hızlı bir çözüm bulmasını sağlar. Operatör, sertifikalı ve bu tür cephe işlerinde deneyimlidir; makine teslim edilir edilmez iş başlayabilir.",
+            },
+            {
+                baslik: "Kısa süreli tek seferlik işlerde ekonomik tercih",
+                metin:
+                    "Yılda bir-iki kez tabela değişimi veya aydınlatma bakımı yapan bir işletme için operatör eğitimi ve sertifikasyon maliyeti, kullanım sıklığına göre orantısız kalır; operatörlü kiralama bu durumda hem daha ekonomik hem daha hızlıdır. Makine ve operatör birlikte gelir, iş biter, ikisi birlikte ayrılır.",
+            },
+            {
+                baslik: "Uzun süreli veya sık kullanımda operatörsüz seçenek",
+                metin:
+                    "Bir işletme yıl boyunca düzenli platform kullanıyorsa (örneğin geniş bir tesis veya kampüs yerleşkesi), kendi personelinin sertifikalı operatör olması uzun vadede daha ekonomik olabilir; bu durumda operatörsüz kiralama ve personel eğitimi birlikte değerlendirilir. Hangi modelin uygun olduğu, kullanım sıklığına bakılarak birlikte karar verilir.",
+            },
+            {
+                baslik: "Operatörün cephe işlerine özgü deneyimi",
+                metin:
+                    "Kordon hattındaki cephe işleri (tabela montajı, tente değişimi) geniş yüzeyli malzeme taşımayı içerir ve bu, rüzgarlı boğaz koridorunda özel dikkat ister; operatörlerimiz bu tür işlerde deneyimlidir ve malzemenin rüzgar altında nasıl tutulacağını, hangi açıda çalışılacağını bilir. Bu deneyim, işin hem hızlı hem güvenli tamamlanmasını sağlar.",
+            },
+            {
+                baslik: "Vardiya ve saat esnekliği turizm sezonunda",
+                metin:
+                    "Turizm işletmelerinin çoğu, iş saatlerini müşteri trafiğinin az olduğu sabah erken veya gece geç dilime kaydırmak ister; operatörlü kiralamada bu esneklik, önceden anlaşılan bir vardiya planıyla sağlanır. Operatör, işletmenin talep ettiği saat dilimine göre programlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, hangi kullanım profilinde hangi modelin daha uygun olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kullanım profili", "Sıklık", "Önerilen model", "Gerekçe"],
+                    satirlar: [
+                        ["Sezonluk tabela-tente işi", "Yılda bir-iki kez", "Operatörlü", "Eğitim maliyeti orantısız"],
+                        ["Sürekli tesis bakımı", "Aylık düzenli", "Operatörsüz + eğitim", "Uzun vadede ekonomik"],
+                        ["Acil kısa süreli iş", "Tek seferlik", "Operatörlü", "Hızlı başlangıç"],
+                        ["Geniş kampüs yerleşkesi", "Haftalık", "Operatörsüz + eğitim", "Kullanım sıklığı yüksek"],
+                        ["İlk kez platform kullanan işletme", "Belirsiz", "Operatörlü", "Deneyim eksikliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör sertifikasyonu ve deneyim",
+                paragraflar: [
+                    "Operatörlü kiralamada görevlendirilen personel, ilgili makine sınıfı için sertifikalıdır ve bu belge talep edildiğinde işletmeye gösterilir. Kordon hattındaki cephe işleri gibi özel dikkat gerektiren görevlerde, operatörün bu tür işlerdeki önceki deneyimi de değerlendirilir; her operatör her iş tipine aynı hızda adapte olmaz.",
+                    "İşletmenin kendi güvenlik kurallarına (örneğin belirli bir kişisel koruma standardı) uyum gerekiyorsa, bu bilgi önceden paylaşılır ve operatör bu kurallara göre hazırlanır.",
+                ],
+            },
+            {
+                baslik: "Sezon içi yoğun talepte erken rezervasyon",
+                paragraflar: [
+                    "Turizm sezonu açılışı öncesindeki birkaç hafta, kordon hattındaki operatörlü talebin en yoğun olduğu dönemdir; bu dönemde makine ve operatör bulunurluğu daralabilir. Erken rezervasyon, hem istediğiniz tarihte hizmet almanızı hem de fiyat açısından daha rahat bir görüşme yapmanızı sağlar.",
+                    "Sezon içinde acil bir ihtiyaç doğarsa elimizden geleni yaparız, ancak planlı bir rezervasyon her zaman daha garantili bir sonuç verir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü kiralamada operatörün sertifikasını görebilir miyiz?",
+                cevap:
+                    "Evet, talep ettiğinizde operatörün ilgili makine sınıfı için geçerli sertifikasını paylaşırız. İşletmenizin kendi güvenlik kuralları varsa (örneğin belirli bir kişisel koruma ekipmanı), bunu önceden bildirmeniz operatörün bu kurallara hazırlıklı gelmesini sağlar.",
+            },
+            {
+                soru: "Sezon öncesi tabela yenileme işimiz için ne kadar önceden rezervasyon yapmalıyız?",
+                cevap:
+                    "Sezon açılışından birkaç hafta önce yapılan rezervasyon önerilir; bu dönem, kordon hattındaki birçok işletmenin aynı anda benzer işler talep ettiği yoğun bir zaman dilimidir. Erken rezervasyon hem istediğiniz tarihi garantiler hem de daha rahat bir fiyat görüşmesi sağlar. Son dakika taleplerde elimizden geleni yaparız ama garanti veremeyiz.",
+            },
+            {
+                soru: "Operatörsüz kiralama bizim için ne zaman daha mantıklı olur?",
+                cevap:
+                    "Platform kullanımınız yıl boyunca düzenli ve sıksa (örneğin geniş bir tesiste haftalık bakım), kendi personelinizin sertifikalı operatör olması uzun vadede daha ekonomik olabilir. Yılda bir-iki kez kullanım için operatör eğitimi yatırımı orantısız kalır. Kullanım sıklığınızı paylaşırsanız, hangi modelin size daha uygun olduğunu birlikte hesaplarız.",
+            },
+            {
+                soru: "Operatör bizim istediğimiz gece saatinde çalışabilir mi?",
+                cevap:
+                    "Genellikle evet, turizm işletmelerinin çoğu müşteri trafiğinin az olduğu saatleri tercih eder ve biz bu esnekliğe uygun operatör programlarız. Vardiya saatini önceden netleştirmeniz, operatörün ve makinenin o saate hazır bulunmasını sağlar; son dakika saat değişikliklerinde uygunluk garantisi veremeyiz.",
+            },
+            {
+                soru: "Rüzgarlı bir günde tabela montajını operatör nasıl yönetiyor?",
+                cevap:
+                    "Deneyimli operatörlerimiz, geniş yüzeyli malzemenin rüzgar altında nasıl tutulacağını ve hangi açıda çalışılacağını bilir; sertifikalı rüzgar sınırı yaklaşıldığında iş durdurulur veya günün daha sakin bir dilimine kaydırılır. Bu karar operatörün sahadaki gözlemine ve makinenin gösterge verisine dayanır, keyfi değildir.",
+            },
+            {
+                soru: "İlk kez platform kiralıyoruz, operatörlü mü tercih etmeliyiz?",
+                cevap:
+                    "Genellikle evet, özellikle işiniz cephe veya yükseklik gerektiren bir iş türüyse. Deneyimsiz bir kullanım, hem işin gecikmesine hem güvenlik riskine yol açabilir. Operatörlü kiralamada makineyi teslim eder etmez iş başlar ve siz teknik detaylarla uğraşmazsınız; ileride sık kullanım ihtiyacınız çıkarsa operatörsüz modele geçişi birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kordon hattındaki turizm işletmelerinin sezonluk cephe bakım yoğunluğu kamuya açık gözlemsel bilgidir; operatörlü/operatörsüz model karşılaştırması firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çanakkale'de Çok Noktalı Rota Bakım Platformu: Kıyı Şeridi Turu",
+        giris:
+            "Boğaz kıyısı boyunca dağılmış aydınlatma direği, tabela, kamera ve yönlendirme levhası gibi düşük-orta yükseklikli bakım noktaları, tek bir binadan çok bir hat üzerinde çalışmayı gerektirir. Kordon hattından iskele çevresine, oradan kamu yapılarına uzanan bu nokta dizisi, sepetli platformun kendi gücüyle bir noktadan diğerine ilerleyebilme özelliğiyle tek vardiyada taranabilir. Bu sayfa, kıyı şeridi boyunca çok noktalı bakım rotasının nasıl planlandığını, rota sırasının hangi kritere göre kurulduğunu ve tek seferde kaç noktanın gerçekçi olarak bitirilebildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Rota sıralamasının temel kriteri: coğrafi yakınlık",
+                metin:
+                    "Çok noktalı bir bakım listesinde ilk yapılan iş, noktaların harita üzerinde gruplanmasıdır; birbirine yakın noktalar art arda ziyaret edilir, makinenin gereksiz ileri-geri hareketi önlenir. Kordon hattındaki noktalar kendi içinde bir grup, iskele çevresindekiler ayrı bir grup oluşturur; iki grup arasında geçiş, günün ortasına planlanır.",
+            },
+            {
+                baslik: "Sefer ve yaya trafiğinin rotaya etkisi",
+                metin:
+                    "İskele çevresindeki noktalar sefer trafiğine, kordon hattındakiler yaya trafiğine bağlıdır; rota bu iki kısıtı üst üste koyarak kurulur. Genellikle iskele bloğu sefer arası bir pencereye, kordon bloğu ise sabah erken veya gece geç saate yazılır; bu sıralama günün akışını belirler.",
+            },
+            {
+                baslik: "Tek vardiyada gerçekçi nokta sayısı",
+                metin:
+                    "Bir vardiyada kaç noktanın bitirilebileceği, her noktadaki işin süresine ve noktalar arası mesafeye bağlıdır; basit bir armatür kontrolü birkaç dakika sürerken, bağlantı onarımı gerektiren bir nokta yarım saati bulabilir. Rota planlanırken her nokta için tahmini süre önceden belirlenir ve toplam vardiya süresiyle karşılaştırılır.",
+            },
+            {
+                baslik: "Rota dışı acil nokta eklenmesi",
+                metin:
+                    "Rota sırasında beklenmeyen bir arıza bildirimi gelirse, bu nokta mevcut rotaya coğrafi yakınlığına göre eklenir veya ayrı bir güne kaydırılır; rotayı tamamen bozmadan eklenebiliyorsa aynı gün değerlendirilir. Bu esneklik, önceden planlanmış rotanın tamamen katı olmadığını gösterir.",
+            },
+            {
+                baslik: "Kayıt tutma: hangi nokta ne zaman kontrol edildi",
+                metin:
+                    "Çok noktalı bir bakım programında, hangi noktanın ne zaman ve hangi sonuçla kontrol edildiğinin kaydı tutulmazsa, aynı nokta gereksiz yere tekrar ziyaret edilebilir veya bir nokta atlanabilir. Her ziyaret sonunda kısa bir kayıt (kontrol edildi, değişti, izleniyor) tutulur ve bu kayıt bir sonraki rotada referans alınır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kıyı şeridi rota grupları ve tipik süre",
+                paragraflar: [
+                    "Aşağıdaki tablo, kıyı şeridindeki tipik rota gruplarını ve her grubun planlama kriterini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Rota grubu", "Kısıt", "Sıralama önceliği", "Tipik pencere"],
+                    satirlar: [
+                        ["Kordon hattı", "Yaya trafiği", "Sabah erken/gece", "Kısa bloklar"],
+                        ["İskele çevresi", "Sefer trafiği", "Sefer arası", "Kısa, sıkı"],
+                        ["Kamu yapıları", "Kurum saat kısıtı", "Gündüz orta", "Orta uzunluk"],
+                        ["Açık kamu alanı", "Genel aşınma", "Esnek", "Uzun"],
+                        ["Acil nokta", "Coğrafi yakınlık", "Rotaya eklenir", "Değişken"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planlamasını önceden yapmanın faydası",
+                paragraflar: [
+                    "Bakım listesini önceden alıp coğrafi olarak gruplamak, sahada anlık karar vermekten çok daha verimlidir; her noktanın konumu ve tahmini süresi bilindiğinde, makinenin toplam hareket mesafesi ve toplam iş süresi baştan hesaplanabilir. Bu hesap, işletmeye gerçekçi bir tamamlanma zamanı vermemizi sağlar.",
+                    "Liste düzensizse (yalnızca genel bir bölge tanımıyla verilmişse), ilk ziyarette bir keşif turu yapılır ve rota bu turun sonuçlarına göre kesinleştirilir; bu, ilk seferde bir gün ek süre gerektirebilir ama sonraki rotaları hızlandırır.",
+                ],
+            },
+            {
+                baslik: "Periyodik rota programına geçiş",
+                paragraflar: [
+                    "Kıyı şeridinde çok sayıda bakım noktası olan kurumlar (belediye, kamu kurumu, büyük işletme) için periyodik bir rota programı öneririz; belirli aralıklarla (örneğin üç ayda bir) aynı rota tekrarlanır ve her ziyarette önceki kayıtla karşılaştırma yapılır. Bu, arızayı erken yakalamanın en pratik yoludur.",
+                    "Periyodik programda rota, mevsimsel koşullara göre de ayarlanır; örneğin turizm sezonu öncesi kordon hattı önceliklendirilir, kış aylarında iskele bakımı önceliklendirilebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kıyı şeridindeki 15 noktalık bir listeyi tek günde bitirebilir misiniz?",
+                cevap:
+                    "Bu, her noktadaki işin süresine ve noktalar arası mesafeye bağlıdır; basit kontrol noktaları hızlı geçilirken, onarım gerektiren noktalar daha uzun sürer. Listeyi ve her noktanın tahmini iş tipini paylaşırsanız, tek günde bitip bitmeyeceğini veya iki güne bölünmesi gerektiğini önceden söyleriz. Genellikle noktaları coğrafi olarak gruplayarak toplam süreyi kısaltırız.",
+            },
+            {
+                soru: "Rota sırasında beklenmedik bir arıza bildirimi gelirse ne yapıyorsunuz?",
+                cevap:
+                    "Coğrafi olarak mevcut rotaya yakınsa, mümkünse aynı gün rotaya ekleriz; uzaksa veya rotayı bozacak kadar kapsamlıysa ayrı bir güne planlarız. Bu esneklik, önceden hazırlanmış rotanın katı olmadığını gösterir; ancak sık eklenen acil noktalar toplam süreyi uzatır, bu durumda periyodik rotanın kendisini gözden geçirmeyi öneririz.",
+            },
+            {
+                soru: "Hangi noktanın ne zaman kontrol edildiğini nasıl takip ediyorsunuz?",
+                cevap:
+                    "Her ziyaret sonunda noktanın durumu (kontrol edildi, değişti, izleniyor) kısaca kaydedilir ve bu kayıt bir sonraki rotada referans alınır; bu, aynı noktanın gereksiz tekrar ziyaret edilmesini veya bir noktanın atlanmasını önler. İsterseniz bu kaydı sizinle de paylaşırız, kurumunuzun kendi takibinde kullanabilirsiniz.",
+            },
+            {
+                soru: "İskele ve kordon rotasını aynı gün nasıl birleştiriyorsunuz?",
+                cevap:
+                    "İskele bloğunu sefer arası bir pencereye, kordon bloğunu ise yaya trafiğinin düşük olduğu sabah erken veya gece geç saate yazarız; bu iki kısıt üst üste konularak gün sıralanır. Genellikle iskele bloğu önce, kordon bloğu sonra (veya tersi) şeklinde bir sıra en verimli sonucu verir; sefer tarifesine göre bu sıra değişebilir.",
+            },
+            {
+                soru: "Periyodik rota programına geçmek maliyeti nasıl etkiler?",
+                cevap:
+                    "İlk keşif turu hariç, periyodik programda rota zaten bilindiği için planlama süresi kısalır ve bu, tekil çağrılara göre toplam maliyeti düşürür. Ayrıca erken tespit edilen bir arıza, ilerlemeden küçük bir müdahaleyle çözülür; bu da uzun vadede tasarruf sağlar. Nokta sayınızı ve mevcut bakım sıklığınızı paylaşırsanız, periyodik program için bir teklif çıkarırız.",
+            },
+            {
+                soru: "Rota listesini biz mi hazırlamalıyız, siz mi çıkarıyorsunuz?",
+                cevap:
+                    "İkisi de mümkündür. Elinizde bir liste varsa (konum ve iş tipiyle) doğrudan gruplayıp rotayı kurarız; liste yoksa veya güncel değilse, önce bir keşif turu yaparak mevcut durumu tespit eder, bu tespite göre rotayı çıkarırız. İlk seferde keşif turu ek bir gün gerektirebilir ama sonraki periyodik rotaları hızlandırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale kıyı şeridindeki dağınık aydınlatma-tabela-kamera altyapısının varlığı kamuya açık gözlemsel bilgidir; rota gruplama ve periyodik program yaklaşımı firma pratiğidir. Tesis adı, nokta sayısı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Çanakkale'de Zor Zemin ve Arazi Platform Kiralama: Kıyı Dolgusu ve Kırsal Yamaç",
+        giris:
+            "Çanakkale'de zor zemin sınıfının iki farklı kaynağı vardır: boğaz kıyısındaki dolgu-rıhtım zeminleri ve Gelibolu-Biga kırsalındaki eğimli, sıkıştırılmamış araziler. İkisi de standart beton veya asfalt zemin varsayımıyla çalışılamayacak yüzeylerdir ama farklı sebeplerle — kıyı dolgusu genellikle taşınmış malzemeden oluşur ve yağıştan sonra beklenmedik şekilde yumuşayabilirken, kırsal yamaç arazisi eğim ve düzensiz yüzey nedeniyle makinenin stabilizasyonunu zorlar. Bu sayfa, iki farklı zor zemin profilinin nasıl değerlendirildiğini, arazi tipi platformun bu koşullarda neden tercih edildiğini ve zemin testinin sahada nasıl yapıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kıyı dolgu zemininin aldatıcı yapısı",
+                metin:
+                    "Liman ve iskele çevresindeki dolgu alanları, deniz doldurularak oluşturulmuş zeminlerdir ve yüzeyi sıkıştırılmış görünse de alt katmanlar zamanla oturma veya yumuşama gösterebilir; bu durum özellikle yağıştan sonra belirginleşir. Yüzeyin kuru görünmesi, altının taşıdığı anlamına gelmez; bu yüzden dolgu alanlarında park noktası seçimi öncesinde zemin fiziksel olarak test edilir.",
+            },
+            {
+                baslik: "Gelibolu-Biga yamaç arazisinde eğim kontrolü",
+                metin:
+                    "Kırsal yamaç arazide zeminin düzensizliği kadar eğimi de belirleyicidir; makinenin sertifikalı çalışma eğim sınırı, sahaya girmeden önce ölçülen zemin eğimiyle karşılaştırılır. Sınır aşılıyorsa park noktası değiştirilir veya farklı bir yaklaşım açısı denenir; eğim sınırını zorlamak devrilme riskini doğrudan artırır.",
+            },
+            {
+                baslik: "Yük dağıtım plakası ile taşıma kapasitesini artırmak",
+                metin:
+                    "Hem dolgu hem kırsal zeminde, taşıma kapasitesi sınırda olan bir noktada yük dağıtım plakası kullanılarak makinenin ağırlığı daha geniş bir alana yayılır; bu, batma riskini azaltan pratik bir önlemdir. Plaka kullanımı, zeminin tamamen taşımadığı durumlarda yeterli olmayabilir — bu durumda park noktası tamamen değiştirilir.",
+            },
+            {
+                baslik: "Arazi tipi platformun lastik ve süspansiyon avantajı",
+                metin:
+                    "Standart dar lastikli platformlara göre arazi tipi sınıf, geniş ve derin dişli lastikler ile daha güçlü süspansiyon sistemine sahiptir; bu, düzensiz zeminde hem tutunma hem konfor sağlar. Ancak arazi tipi olması, her zemin koşulunda sınırsız çalışılabileceği anlamına gelmez — üretici sınırları yine geçerlidir ve zemin testi atlanmaz.",
+            },
+            {
+                baslik: "Mevsimsel zemin değişimi: yaz ve kış farkı",
+                metin:
+                    "Aynı zemin, yaz aylarında kuru ve sert görünürken kış aylarında yağış nedeniyle tamamen farklı bir taşıma kapasitesine sahip olabilir; bu yüzden bir sahada geçmişte sorunsuz çalışılmış olması, farklı bir mevsimde aynı sonucu garanti etmez. Her ziyarette zemin durumu güncel olarak değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zor zemin tipi ve önlem karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki farklı zor zemin profilinde hangi önlemin öncelikli olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Baskın risk", "Test yöntemi", "Önlem"],
+                    satirlar: [
+                        ["Kıyı dolgu alanı", "Yağış sonrası yumuşama", "Fiziksel zemin kontrolü", "Yük dağıtım plakası"],
+                        ["Kırsal yamaç arazi", "Eğim sınırı", "Eğim ölçümü", "Park noktası değişimi"],
+                        ["Kuru mevsim arazi", "Görünür sağlamlık, aldatıcı", "Mevsim bağımsız test", "Standart kontrol"],
+                        ["Islak/çamurlu alan", "Batma riski", "Görsel + fiziksel test", "Arazi tipi + plaka"],
+                        ["Taze dolgu alanı", "Oturmamış zemin", "Uzun süreli izleme", "Ertelenmiş çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin testi sahada nasıl yapılır",
+                paragraflar: [
+                    "Operatör, makineyi park noktasına yerleştirmeden önce zemini fiziksel olarak kontrol eder — bu, yalnızca görsel bir bakış değil, ayakla basarak veya elle test ederek yumuşaklığın derinliğini anlamaya çalışmaktır. Şüpheli bir bölge varsa, o noktadan kaçınılır veya yük dağıtım plakası kullanılır.",
+                    "Bu test, her yeni ziyarette tekrarlanır çünkü zemin koşulu mevsime ve son yağışa göre değişir; geçmişte sorunsuz çalışılmış bir nokta, farklı bir tarihte aynı güvenilirliği taşımayabilir.",
+                ],
+            },
+            {
+                baslik: "Operatörün tereddüt hakkı",
+                paragraflar: [
+                    "Zemin testinde operatör tereddüt ederse, çalışma başlamaz; bu kural sahadaki en önemli güvenlik ilkesidir ve müşteri baskısıyla değiştirilmez. Tereddüt varsa alternatif park noktası aranır, bulunamıyorsa iş, zeminin daha uygun olduğu bir güne (örneğin kuru bir hafta) ertelenir.",
+                    "Bu yaklaşımın maliyeti bazen bir günlük gecikmedir, ama alternatifi çok daha ciddi bir kaza riskidir; bu dengeyi baştan açıkça konuşuruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Rıhtımdaki dolgu zemin görünüşte sağlam ama emin değiliz, nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Operatör, makineyi park etmeden önce zemini fiziksel olarak test eder; bu yalnızca görsel bir bakış değil, yumuşaklığın derinliğini anlamaya yönelik bir kontroldür. Şüpheli bir bölge varsa o noktadan kaçınılır veya yük dağıtım plakası kullanılır. Son yağışın ne zaman olduğunu bilmemiz, testin ne kadar dikkatli yapılması gerektiğini de belirler.",
+            },
+            {
+                soru: "Yamaç arazide platform devrilme riski var mı?",
+                cevap:
+                    "Doğru şekilde konumlandırılmazsa evet, bu yüzden eğim ölçümü standart bir ön adımdır. Makinenin sertifikalı çalışma eğim sınırı iş öncesi kontrol edilir; sınır aşılıyorsa park noktası değiştirilir ya da farklı bir yaklaşım açısı denenir. Bu sınırı zorlamayız; sahadaki güvenlik standardımız bu konuda esnek değildir.",
+            },
+            {
+                soru: "Arazi tipi platform her zeminde çalışabilir mi?",
+                cevap:
+                    "Hayır, arazi tipi olması sınırsız çalışma anlamına gelmez. Geniş ve derin dişli lastikler ile güçlü süspansiyon, düzensiz zeminde standart platforma göre avantaj sağlar ama üretici sınırları yine geçerlidir. Zemin testi, arazi tipi makinede de atlanmaz; tereddüt varsa çalışma başlamaz.",
+            },
+            {
+                soru: "Yazın sorunsuz çalıştığımız bir arazide kışın da aynı sonucu bekleyebilir miyiz?",
+                cevap:
+                    "Hayır, bu varsayımı yapmıyoruz. Aynı zemin, yağış sonrası tamamen farklı bir taşıma kapasitesine sahip olabilir; bu yüzden her ziyarette zemin durumu güncel olarak değerlendirilir, geçmiş deneyim yalnızca referans olarak kullanılır. Mevsimi ve yakın zamandaki yağışı bilmemiz, hazırlığımızı buna göre kurmamızı sağlar.",
+            },
+            {
+                soru: "Zemin uygun değilse iş tamamen iptal mi oluyor, alternatif var mı?",
+                cevap:
+                    "Genellikle önce alternatif park noktası aranır; bulunursa iş devam eder. Alternatif de yoksa, iş zeminin daha uygun olduğu bir güne (örneğin kuru bir hafta) ertelenir. İptal yerine erteleme tercih ederiz çünkü çoğu zor zemin durumu geçicidir, hava koşuluna bağlı olarak birkaç gün içinde değişebilir.",
+            },
+            {
+                soru: "Operatör zemin konusunda tereddüt ederse itiraz edebilir miyiz?",
+                cevap:
+                    "Zemin güvenliği konusunda operatörün kararı nihaidir ve bu, sahadaki en önemli güvenlik ilkemizdir; müşteri talebiyle değiştirilmez. Tereddüt varsa nedenini açıkça anlatır, alternatif bir çözüm (farklı park noktası, plaka kullanımı, erteleme) öneririz. Bu yaklaşımın amacı, kısa vadeli bir gecikmeyi kabul ederek çok daha ciddi bir riski önlemektir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çanakkale kıyı şeridindeki dolgu-rıhtım zeminleri ile Gelibolu-Biga kırsalındaki eğimli arazi yapısı kamuya açık coğrafi/gözlemsel bilgidir; zemin test yöntemi ve eğim sınırı yaklaşımı firma pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };

@@ -914,4 +914,1100 @@ export const BOZUYUKPLATFORM_NET_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Yenipazar’ın Bilecik’e bağlı ilçe olduğu uygulama belgesindeki kamuya açık coğrafi bilgidir; Bozüyük OSB kapasitesinden servis kartı, adres doğrulama, uzaktan keşif ve kapanış kaydı sektör geneli planlama pratiğidir. Aydın Yenipazar, yeni yapı veya tesis kurulumu, özel işletme, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    // ── HİZMET SAYFALARI (11 sabit slug, src/lib/hizmet-konulari.ts) ─────
+    // Merceğimiz bu dosyanın geneliyle tutarlı: OSB YÖNETİMİ ve ÇOK SEKTÖRLÜ
+    // ORTAK ALTYAPI perspektifi. Tek bir tesise ya da tek bir sektöre değil,
+    // OSB'nin idari katmanına, kent içi kamu binalarına ve esnaf-mağaza
+    // dokusuna odaklanır. bozuyukmanlift.com (çatı/yüksek bakım, seramik) ve
+    // bilecikplatform.com (depo/lojistik, tek tesis proje yönetimi) ile
+    // cümle/tablo/SSS örtüşmesi yoktur.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bozüyük OSB'nin Eski Blok Aralarında ve Kent Merkezindeki Dar Vitrinlerde Sepetli Örümcek Platform",
+        giris:
+            "Bozüyük OSB'nin ilk kurulduğu dönemden kalan bloklar, sonradan bölünüp küçük atölyelere ayrıldığı ya da komşu parselle ortak duvar paylaştığı için aralarındaki servis geçitleri her zaman standart bir makinenin geçebileceği genişlikte değildir. Aynı darlık sorunu OSB dışında, kent merkezindeki cadde vitrinlerinde ve idare binalarının iç avlularında da karşımıza çıkar; burada engel sanayi ekipmanı değil, kaldırım genişliği, tabela direği ve komşu işyerinin vitrin çıkıntısıdır. Sepetli örümcek platform, gövde büyüklüğüyle değil ayaklarını nokta nokta açabilme ve katlanarak dar bir kapıdan geçebilme özelliğiyle bu iki farklı ortamda da aynı çözümü sunar. OSB yönetimi açısından bakıldığında bu makine sınıfı, tek bir sektörün değil, dar geçitli her tesisin ve kent içindeki her dar cephenin ortak ihtiyacına karşılık gelir. Bu sayfada örümcek platformun OSB içindeki eski blok aralarında ve kent merkezindeki dar vitrin-tabela işlerinde nasıl değerlendirildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB'nin eski bloklarında bölünmüş parsel aralığı",
+                metin:
+                    "OSB'nin ilk yıllarında tahsis edilen bazı geniş parseller, zaman içinde iki ya da üç küçük işletmeye bölünmüş ve ortak servis yolu daralmıştır. Bu daralma OSB yönetiminin haritasında görünmez, çünkü resmî parsel sınırları değişmemiştir; fiilî durum sahada ortaya çıkar. Böyle bir aralıkta çalışırken önce hangi işletmenin sınırının nereye kadar uzandığını netleştiririz, çünkü örümcek platformun ayaklarının açılacağı alan iki farklı işletmenin ortak kullanım sahasına denk gelebilir.",
+            },
+            {
+                baslik: "Kent merkezindeki cadde vitrini ve tabela darlığı",
+                metin:
+                    "Bozüyük kent merkezindeki ticari caddelerde işyerleri birbirine bitişik sıralanır ve kaldırım genişliği genellikle standart bir platformun ayak açıklığına yetmez. Tabela değişimi ya da vitrin üstü aydınlatma bakımı gerektiğinde, komşu işyerinin girişini kapatmadan çalışabilecek bir makine gerekir. Örümcek platform, ayaklarını komşu vitrinin önüne değil kaldırımın kendi hattına paralel açarak bu kısıtı karşılar; bu tür işlerde belediye ile kaldırım kullanım izni önceden netleştirilir.",
+            },
+            {
+                baslik: "İdare binası iç avlusunda sınırlı dönüş alanı",
+                metin:
+                    "OSB'nin idare binası ya da kent merkezindeki bazı kamu binalarının iç avluları, çevresi bina ve duvarla çevrili, dönüş payı dar alanlardır. Bu tür avlularda çatı saçağı ya da cephe aydınlatması için erişim gerektiğinde standart bir makinenin dönüş yarıçapı yetersiz kalabilir. Örümcek platformun parça hâlinde taşınıp avlu içinde yeniden monte edilebilmesi, bu sınırlı alanlarda pratik bir çözüm sunar; montaj öncesi avlunun giriş kapısı genişliği ve zemin türü ayrıca ölçülür.",
+            },
+            {
+                baslik: "Farklı sektörlerin ortak kullandığı dar geçit deneyimi",
+                metin:
+                    "OSB içinde bir haftada seramik atölyesinin dar geçidinde, ertesi gün kent merkezinde bir eczane vitrininde çalışmak, aynı makinenin farklı ortamlarda tekrar tekrar denenmiş bir yöntemle kullanılması anlamına gelir. Bu tekrar, her yeni dar geçitte hangi ölçünün belirleyici olduğunu — giriş genişliği mi, dönüş yarıçapı mı, tavan kotu mu — hızlı tespit etmemizi sağlar. Sektöre özgü bir bilgi değil, dar alan erişiminde biriken genel bir tecrübedir.",
+            },
+            {
+                baslik: "Örümcek platform mu, standart makaslı mı: OSB ve kent içi karar sınırı",
+                metin:
+                    "OSB'deki geniş parsellerde ya da kent merkezinin ana caddesindeki ferah kaldırımlarda standart akülü makaslı platform hem daha hızlı kurulur hem daha ekonomik olur; örümcek platformun montaj süresi burada gereksiz bir maliyettir. Karar noktası, kaldırım ya da servis yolu genişliğinin standart makineyi geçirip geçirmediğidir. Geçirmiyorsa örümcek platform gündeme gelir ve montaj süresi teklifte ayrı bir kalem olarak gösterilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB ve kent merkezinde dar erişim senaryoları",
+                paragraflar: [
+                    "Bozüyük OSB'nin eski blokları ile kent merkezindeki ticari ve kamu yapılarında karşılaştığımız darlık türlerini ve belirleyici ölçüyü aşağıdaki tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Darlık kaynağı", "Kritik ölçü", "Ek koordinasyon"],
+                    satirlar: [
+                        ["OSB eski blok arası", "Sonradan bölünmüş parsel", "Servis yolu genişliği", "Komşu işletme sınırı netleştirme"],
+                        ["Kent merkezi cadde vitrini", "Bitişik nizam, dar kaldırım", "Ayak açıklığı", "Belediye kaldırım izni"],
+                        ["İdare binası iç avlusu", "Çevrili duvar, dar dönüş", "Dönüş yarıçapı", "Avlu giriş ölçüsü"],
+                        ["Kamu binası cephe önü", "Merdiven, rampa engeli", "Yatay yaklaşım mesafesi", "Bina yönetimiyle saat planı"],
+                        ["OSB ortak yol kenarı", "Park alanı darlığı", "Ayak açıklığı - yol payı", "Trafik dışı saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj süresinin OSB ve kent içi işlerde farklı ağırlığı",
+                paragraflar: [
+                    "OSB içindeki bir işte montaj süresi genellikle sorun yaratmaz, çünkü makine zaten o gün bölgede bir başka işe de gidecektir ve montaj süresi günün genel programına dağılır. Kent merkezindeki tekil bir vitrin ya da tabela işinde ise durum farklıdır — montaj süresi, işin kendisinden daha uzun sürebilir ve bu, küçük bir işin maliyetini orantısız büyütebilir.",
+                    "Bu yüzden kent merkezi taleplerinde önce standart makinenin geçip geçemeyeceğini netleştiririz; geçebiliyorsa örümcek platform önerilmez. Geçemiyorsa montaj süresini teklifte açıkça gösterir, işletmenin bu maliyeti bilerek karar vermesini sağlarız.",
+                ],
+            },
+            {
+                baslik: "Belediye ve OSB yönetimiyle izin koordinasyonu",
+                paragraflar: [
+                    "Kent merkezindeki kaldırım üstü çalışmalar için belediyenin kaldırım kullanım izni, OSB içindeki ortak yol kenarı çalışmaları için ise OSB yönetiminin bilgilendirilmesi gerekebilir. Bu iki farklı yetkili merci, aynı makine sınıfı için farklı prosedür isteyebilir; biz hangi ortamda hangi iznin gerektiğini önceden bilir ve işletmeden hangi belgeyi hazırlaması gerektiğini baştan söyleriz.",
+                    "İzin süreci genellikle işin kendisinden daha uzun sürebildiği için, kent merkezi ya da OSB ortak alanı işlerinde talebi mümkün olduğunca erken bildirmenizi öneririz; son dakika taleplerinde izin beklerken makine boşta kalabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'deki eski bloğumuzun servis yolu çok dar; örümcek platform buraya sığar mı?",
+                cevap:
+                    "Büyük olasılıkla evet, ancak önce yolun net genişliğini ve varsa komşu işletmenin sınırını doğrulamamız gerekir. Bazı eski bloklarda parsel resmî olarak bölünmemiş görünse de fiilen iki işletme arasında paylaşılmıştır; bu durumda ayakları açacağımız alanın kime ait olduğunu keşifte netleştiririz. Ölçüleri ve fotoğrafı paylaşırsanız montajın mümkün olup olmadığını ve süresini net söyleriz.",
+            },
+            {
+                soru: "Kent merkezindeki dükkânımızın tabelasını değiştireceğiz; kaldırımı kapatmadan çalışabilir misiniz?",
+                cevap:
+                    "Bu, örümcek platformun tam olarak çözdüğü bir durum. Ayaklarını komşu vitrinin önüne taşırmadan kaldırımın kendi hattına paralel açabiliriz, böylece yaya geçişi tamamen kesilmez. Ancak kaldırım üstü çalışma için belediyenin kullanım izni gerekebilir; bu izni önceden almanızı ya da bizim başvurmamızı isteyip istemediğinizi baştan konuşuruz.",
+            },
+            {
+                soru: "İdare binamızın iç avlusunda cephe aydınlatması bakımı yapılacak; avlu dar, standart platform girer mi?",
+                cevap:
+                    "Avlu ölçülerine bağlı; giriş kapısı genişliği ve avlu içindeki dönüş payı belirleyicidir. Standart makine giremiyorsa örümcek platform parça hâlinde içeri taşınıp avluda yeniden monte edilebilir. Montaj için avlunun zeminini ve varsa peyzaj öğelerini de değerlendiririz; keşifte net ölçü almadan montaj süresi hakkında kesin rakam vermeyiz.",
+            },
+            {
+                soru: "OSB ortak yol kenarındaki aydınlatma direğinin bakımı için trafik nasıl etkilenir?",
+                cevap:
+                    "Ortak yol kenarındaki işlerde ayak açıklığı ile yolun geri kalan trafik payı arasındaki mesafe önceden hesaplanır; amaç aracın geçişini tamamen kesmeden güvenli bir çalışma alanı kurmaktır. Trafiğin yoğun olduğu saatler mümkünse dışarıda bırakılır. OSB yönetimine bilgi verilmesi gerekiyorsa bunu biz koordine ederiz; sizden istediğimiz, işin tam yerini ve zamanlamasını önceden bildirmenizdir.",
+            },
+            {
+                soru: "Örümcek platform mu, standart makaslı mı; ikisi arasındaki fiyat farkı büyük mü?",
+                cevap:
+                    "Fark büyük ölçüde montaj süresinden kaynaklanır; örümcek platformun parça parça kurulması standart bir makinenin doğrudan sürülmesine göre belirgin ölçüde daha uzun zaman alır. Standart makine geçebiliyorsa onu öneririz, çünkü daha hızlı ve daha ekonomiktir. Geçemiyorsa örümcek platform tek seçenektir ve montaj süresi teklifte ayrı gösterilir. Ölçülerinizi paylaşırsanız iki seçeneğin de mümkün olup olmadığını netleştiririz.",
+            },
+            {
+                soru: "Aynı gün hem OSB'deki bir tesise hem kent merkezindeki bir dükkâna gelebilir misiniz?",
+                cevap:
+                    "Tarih ve saat esnekliği varsa evet, bu bizim için de verimli bir düzendir. OSB'deki işi bitiren makine, güzergâh üzerindeyse kent merkezindeki küçük bir işi de aynı gün tamamlayabilir. Bunun şartı her iki tarafın da katı bir saat taahhüdü yerine gün içindeki bir aralığı kabul etmesidir; kesin saat gerekiyorsa ayrı planlarız ve bunu size baştan söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük OSB'nin bazı eski bloklarının zamanla bölündüğü ve kent merkezindeki ticari dokunun bitişik nizam olduğu genel gözlemdir; belediye kaldırım izni gerekliliği kamuya açık genel bilgidir. Ayak açıklığı hesabı ve montaj süresi değerlendirmesi firma saha pratiğidir. Tesis adı, işletme adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bozüyük OSB, Kent Merkezi ve İlçe Belde Sınırları Arasında Aynı Gün Nakliye",
+        giris:
+            "Bozüyük'te bir platformun sahaya teslimi, OSB'nin kendi geniş ve düz yollarından kent merkezinin bitişik nizamlı dar caddelerine, oradan da ilçeye bağlı beldelerin köy yollarına kadar üç farklı güzergâh tipini kapsayabilir. OSB içindeki sevkiyat büyük ölçüde öngörülebilirdir; sorun genellikle parsel içi manevra alanıdır. Kent merkezine giden sevkiyatta ise dar sokak, park yasağı olan cadde ve pazar günleri kurulan seyyar tezgâhlar gibi geçici engeller devreye girer. Belde ve köy yollarına giden sevkiyatta ise yolun asfalt durumu ve dar köprü geçişleri belirleyici olur. Biz bu üç güzergâhı tek bir sevkiyat mantığıyla değil, her birinin kendine özgü riskini önceden değerlendiren ayrı bir planlamayla ele alırız. Bu sayfada OSB, kent merkezi ve belde arasındaki nakliye planlamasının nasıl kurulduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB içi sevkiyatta parsel manevra alanı",
+                metin:
+                    "OSB'nin ana yolları geniş ve düzdür, bu yüzden buraya kadar olan sevkiyat kısmı genellikle sorunsuz geçer. Asıl değişken, parsel içindeki manevra alanıdır — bazı tesislerin kendi avlusu dar, bazılarının yükleme rampası dönüş yarıçapını sınırlar. Sevkiyat öncesi parselin giriş genişliğini ve avlu içindeki serbest alanı sorarız; bu bilgi eksikse çekici sahaya vardığında geri dönüş yaşanabilir.",
+            },
+            {
+                baslik: "Kent merkezinde geçici engellerin önceden tespiti",
+                metin:
+                    "Kent merkezindeki dar caddelerde pazar günü kurulan seyyar tezgâhlar, okul saatlerindeki araç yoğunluğu ya da belediyenin geçici kaldırım çalışması, önceden bilinmeyen bir sevkiyatı aksatabilir. Bu yüzden kent merkezine gidecek sevkiyatlarda güzergâhı sevkiyat sabahı bir kez daha teyit eder, gerekirse alternatif bir güzergâh belirleriz. Bu kontrol, büyük OSB parsellerine göre kent içi teslimatlarda daha kritik bir adımdır.",
+            },
+            {
+                baslik: "Belde ve köy yollarında asfalt ve köprü kısıtı",
+                metin:
+                    "İlçeye bağlı bazı beldelere giden yollar tek şeritli ve dar köprülü olabilir; ağır bir çekicinin bu tür bir köprüden geçip geçemeyeceği önceden netleştirilmelidir. Yağışlı dönemde stabilize kesimler çamurlanabilir ve bu, teslim tarihini etkileyebilir. Belde sevkiyatlarında güncel yol durumunu sevkiyat öncesi ayrıca sorar, gerekirse daha küçük bir taşıma aracına geçeriz.",
+            },
+            {
+                baslik: "Aynı gün üç farklı güzergâhın tek programda birleşmesi",
+                metin:
+                    "Bir günün sevkiyat programında OSB'deki bir teslimat, kent merkezindeki bir toplama ve beldedeki bir dönüş aynı güne denk gelebilir; bu üç farklı güzergâh tipinin aynı günde birleşmesi, aracın hangi sırayla hareket edeceğinin doğru kurgulanmasını gerektirir. Genellikle en zor koşullu güzergâh — köy yolu ya da dar cadde — günün ışığının en iyi olduğu saatlere yerleştirilir, OSB içi teslimatlar ise gün boyunca esnek bırakılabilir.",
+            },
+            {
+                baslik: "Teslim öncesi bilgi paylaşımının güzergâhı belirlemesi",
+                metin:
+                    "Sevkiyat öncesi işletmeden aldığımız bilgi — parselin OSB içinde mi, kent merkezinde mi, yoksa beldede mi olduğu, giriş genişliği ve varsa bilinen bir yol kısıtı — çekicinin hangi güzergâhı seçeceğini doğrudan belirler. Bu bilgi eksik geldiğinde sevkiyat sahaya vardığında düzeltme yapmak zorunda kalır ve bu, teslim saatini geciktirir; bu yüzden teklif aşamasında adres bilgisini mümkün olduğunca detaylı isteriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üç güzergâh tipinde sevkiyat riski",
+                paragraflar: [
+                    "Bozüyük'teki üç farklı güzergâh tipinin taşıdığı tipik riski ve bizim aldığımız önlemi aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Güzergâh", "Tipik risk", "Sevkiyat öncesi kontrol", "Alternatif"],
+                    satirlar: [
+                        ["OSB içi", "Parsel manevra alanı darlığı", "Avlu giriş genişliği", "Küçük araca aktarma"],
+                        ["Kent merkezi cadde", "Geçici tezgâh, araç yoğunluğu", "Sabah güzergâh teyidi", "Alternatif cadde"],
+                        ["Belde köy yolu", "Dar köprü, stabilize kesim", "Yol durumu sorgusu", "Küçük taşıma aracı"],
+                        ["OSB ortak yolu", "Diğer tesislerin sevkiyat trafiği", "Zamanlama koordinasyonu", "Öğle dışı saat"],
+                        ["Kamu binası önü", "Park yasağı, güvenlik prosedürü", "Bina yönetimiyle iletişim", "Erken saat teslimatı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Adres bilgisinin sevkiyat hızına etkisi",
+                paragraflar: [
+                    "Bir sevkiyatın ne kadar sürede tamamlanacağını en çok etkileyen şey, adresin OSB parsel numarası mı, kent merkezi sokak adresi mi, yoksa belde köy yolu mu olduğudur. OSB parsel numarası genellikle net ve haritada bulunabilir bir referanstır; kent merkezi adreslerinde bina numarası ile fiilî giriş noktası bazen farklı olabilir; belde adreslerinde ise köy içindeki yönlendirme genellikle sözlü tarif gerektirir.",
+                    "Bu farkı bildiğimiz için, kent merkezi ve belde adreslerinde teklif aşamasında ek bir yönlendirme bilgisi — yakın bir işyeri, cami, ya da bilinen bir kavşak — isteriz. Bu küçük ayrıntı, sevkiyat gününde kaybedilen zamanı önemli ölçüde azaltır.",
+                ],
+            },
+            {
+                baslik: "Geri dönüş sevkiyatının programa etkisi",
+                paragraflar: [
+                    "Bir makinenin işi bittikten sonra sahadan geri alınması da aynı güzergâh riskini taşır ve genellikle teslimden daha az öncelikli görülür, ama biz bunu ayrı bir kalem olarak planlarız. Belde ya da köy yolundaki bir işin geri dönüşünü, hava durumu kötüleşmeden önce planlamaya çalışırız; kent merkezindeki bir işin geri dönüşünü ise trafiğin en az olduğu saate denk getiririz.",
+                    "İşletmenin işin ne zaman biteceğini önceden tahmin edip bize bildirmesi, geri dönüş sevkiyatının OSB'deki başka bir işle birleştirilebilmesini sağlar ve bu, toplam maliyeti düşürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'deki parselimizin avlusu dar; büyük çekici giremezse ne olur?",
+                cevap:
+                    "Sevkiyat öncesi avlunun giriş genişliğini ve dönüş payını sorarız; dar olduğu netleşirse makineyi daha küçük bir taşıma aracına aktarıp son mesafeyi öyle tamamlarız. Bu, ek bir aktarma süresi gerektirir ve teklifte ayrı gösterilir. Avlu ölçülerini önceden paylaşırsanız bu ihtiyacı sevkiyat gününden önce netleştirir, sahada sürpriz yaşamayız.",
+            },
+            {
+                soru: "Kent merkezindeki dükkânımıza pazar günü teslimat mümkün mü?",
+                cevap:
+                    "Mümkün, ancak pazar kurulan bölgede seyyar tezgâhlar caddeyi daraltabileceği için bu günü tercih etmemenizi öneririz. Zorunluysa güzergâhı sabah erken saatte teyit eder, tezgâhların henüz kurulmadığı bir saate teslimatı denk getirmeye çalışırız. Kesin bir gün taahhüdü isterseniz alternatif bir tarih önermemizi de isteyebilirsiniz.",
+            },
+            {
+                soru: "Beldemize giden yolda dar bir köprü var; büyük çekici geçebilir mi?",
+                cevap:
+                    "Bu, köprünün genişliğine ve taşıma kapasitesine bağlı; önceden bilmiyorsak sevkiyat öncesi bu bilgiyi araştırır ya da sizden teyit isteriz. Köprü büyük çekiciyi taşımıyorsa makineyi daha küçük bir araca aktarıp köprüden sonra devam ederiz. Bu ek adım sevkiyat süresini uzatır, bunu teklif aşamasında açıkça belirtiriz.",
+            },
+            {
+                soru: "Aynı gün OSB'deki işimizden sonra kent merkezindeki bir işe de gelebilir misiniz?",
+                cevap:
+                    "Tarih ve saat esnekliği varsa evet; OSB'deki teslimatı bitiren çekici, güzergâh üzerindeyse aynı gün kent merkezindeki bir işi de tamamlayabilir. Kesin bir saat taahhüdü gerekiyorsa bu iki işi ayrı planlarız çünkü OSB içindeki bir gecikme kent merkezindeki randevuyu etkileyebilir; bu riski baştan konuşuruz.",
+            },
+            {
+                soru: "Adres bilgimizi ne kadar detaylı vermemiz gerekiyor?",
+                cevap:
+                    "OSB parsel numarası genellikle yeterlidir, ancak kent merkezi ve belde adreslerinde ek bir yönlendirme bilgisi isteriz — yakın bir işyeri, cami ya da bilinen bir kavşak gibi. Bu bilgi ne kadar netse, sevkiyat gününde güzergâh üzerinde kaybedilen zaman o kadar azalır. Eksik adres bilgisiyle yola çıkmayız; teyit almadan sevkiyatı planlamayız.",
+            },
+            {
+                soru: "Yağışlı havada beldeye sevkiyat yapılır mı?",
+                cevap:
+                    "Yol durumuna bağlı; stabilize kesimler yağıştan sonra çamurlanabilir ve bu, aracın saplanma riskini artırır. Sevkiyat öncesi güncel yol durumunu sorar, riskli görünüyorsa hava düzelene kadar erteleriz. Bu bir gecikme değil güvenlik kararıdır ve bu durumu size önceden açıkça bildiririz; alternatif bir tarih birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük OSB'nin geniş yol yapısı ile kent merkezinin bitişik nizam dokusu ve ilçeye bağlı beldelerin köy yolu karakteri kamuya açık genel coğrafi bilgidir. Güzergâh riski değerlendirmesi ve adres bilgisi toplama yöntemi firma saha pratiğidir. Tesis adı, belde adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bozüyük OSB'de Yeni Tesis Kurulumunda ve Çok Sektörlü Depolarda Forklift-İstifleme",
+        giris:
+            "OSB'de bir tesisin kuruluş aşamasından işletmeye geçtiği güne kadar forklift ihtiyacı sektöre göre değil, tesisin o anki fazına göre değişir: inşaat sırasında malzeme paletlerinin boşaltılması, ekipman montajı sırasında ağır parçaların konumlandırılması, işletmeye geçince ise günlük hammadde-mamul akışı. Biz OSB'nin bütününe hizmet veren bir tedarikçi olarak, tek bir sektörün istifleme alışkanlığına değil, bu fazların her birine uygun makine sınıfını ve operatör deneyimini taşırız. Kent merkezindeki küçük esnaf-toptancı depolarında ise ihtiyaç daha küçük ölçekli ama daha sık tekrar eden bir yapıdadır — haftalık mal kabul, dar depo koridorunda palet indirme. Bu sayfada OSB'deki yeni tesis kurulum sürecinde ve kent içindeki küçük depo işletmelerinde forklift-istifleme hizmetinin nasıl planlandığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İnşaat fazında malzeme paleti boşaltma",
+                metin:
+                    "OSB'de yeni bir parsel inşaata başladığında, ilk forklift ihtiyacı genellikle inşaat malzemesi paletlerinin tırdan boşaltılması ve şantiye içinde konumlandırılmasıdır. Bu aşamada zemin henüz düzenlenmemiş olabilir; forklift lastiklerinin batmaması için sabit ve düz bir güzergâh belirlenir. İnşaat firmasından şantiye planını ve malzeme teslim takvimini önceden alırız, çünkü bu takvim değiştiğinde forklift talebi de değişir.",
+            },
+            {
+                baslik: "Ekipman montaj fazında ağır parça konumlandırma",
+                metin:
+                    "Üretim hattı kurulumu sırasında forklift, standart palet taşımanın ötesinde ağır makine parçalarının belirli bir noktaya hassas biçimde konumlandırılmasında kullanılır. Bu iş, standart istiflemeden farklı bir dikkat ister — parçanın ağırlık merkezi ve kaldırma noktaları önceden bilinmelidir. Montaj ekibiyle birlikte çalışırken hangi parçanın ne zaman geleceğini önceden planlar, forkliftin o gün başka bir işe gitmemesini sağlarız.",
+            },
+            {
+                baslik: "İşletmeye geçiş sonrası günlük akış",
+                metin:
+                    "Tesis üretime geçtikten sonra forklift ihtiyacı düzenli ve öngörülebilir bir günlük akışa döner: hammadde kabul, ara stok taşıma, mamul sevkiyata hazırlama. Bu aşamada işletmeler genellikle kendi forkliftini edinir, ama sezonluk yoğunluk artışında ya da kendi makinesi arızalandığında bize başvurur. Bu tür geçici ihtiyaçlarda mevcut operatörün deneyim seviyesini ve tesisin kendi güvenlik kurallarını hızlıca öğrenip uyum sağlarız.",
+            },
+            {
+                baslik: "Kent merkezindeki küçük toptancı deposunda dar koridor istiflemesi",
+                metin:
+                    "Kent merkezindeki küçük toptancı ve esnaf depolarının koridor genişliği, OSB'deki büyük depo yapılarına göre çok daha dardır ve raf aralıkları genellikle standart forkliftin dönüş yarıçapına göre değil, elle taşımaya göre tasarlanmıştır. Bu tür depolarda çalışırken önce koridor genişliğini ölçer, gerekiyorsa daha kompakt bir makine seçeriz; standart bir forklift buraya sığmıyorsa bunu keşifte açıkça söyleriz.",
+            },
+            {
+                baslik: "Farklı fazlar arasında makine sınıfının değişimi",
+                metin:
+                    "Aynı tesiste inşaat fazında kullanılan forklift sınıfı ile işletmeye geçince ihtiyaç duyulan sınıf genellikle farklıdır — inşaat fazında dayanıklılık ve düzensiz zemine uyum öncelikliyken, işletme fazında hız ve dar koridor manevrası öne çıkar. Bu geçişi önceden bilen bir tedarikçi olarak, tesisin hangi fazda olduğunu sorup makine sınıfını ona göre öneririz; aynı sınıfı her fazda kullanmaya zorlamayız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis fazına göre forklift ihtiyacı",
+                paragraflar: [
+                    "Bir tesisin kuruluşundan işletmeye geçişine kadar geçen fazlarda tipik forklift ihtiyacını ve dikkat edilen noktayı aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Faz", "Tipik iş", "Öncelikli özellik", "Dikkat noktası"],
+                    satirlar: [
+                        ["İnşaat", "Malzeme paleti boşaltma", "Düzensiz zemine uyum", "Şantiye güzergâhı"],
+                        ["Ekipman montajı", "Ağır parça konumlandırma", "Hassas manevra", "Ağırlık merkezi bilgisi"],
+                        ["İşletmeye geçiş", "Günlük hammadde-mamul akışı", "Hız ve süreklilik", "Sezonluk yoğunluk"],
+                        ["Kent içi küçük depo", "Dar koridor istifleme", "Kompakt gövde", "Raf aralığı ölçüsü"],
+                        ["Sezon dışı bakım", "Stok düzenleme", "Esnek program", "Tarih esnekliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörlü forkliftin OSB'de tercih edilme nedeni",
+                paragraflar: [
+                    "OSB'de kısa süreli ya da tek seferlik forklift ihtiyaçlarında işletmeler genellikle operatörlü kiralamayı tercih eder, çünkü kendi personelini yeni bir makineye alıştırmak zaman kaybettirir. Operatörümüz tesisin o günkü zemin koşulunu ve varsa özel bir kısıtı (dar geçit, hassas ekipman yakınlığı) keşifte öğrenir ve buna göre çalışır.",
+                    "İşletmeye geçmiş, kendi forkliftine ve kendi operatörüne sahip tesislerde ise genellikle yalnız arıza ya da yoğunluk döneminde bize başvurulur; bu durumda kısa süreli operatörlü destek, tesisin kendi prosedürüne uyum sağlayarak verilir.",
+                ],
+            },
+            {
+                baslik: "Kent içi küçük depoda zaman planlaması",
+                paragraflar: [
+                    "Kent merkezindeki küçük toptancı depolarında forklift ihtiyacı genellikle haftanın belirli günlerine — mal kabul günlerine — yoğunlaşır. Bu düzenli tekrar, bizim açımızdan öngörülebilir bir program kurmayı kolaylaştırır; aynı işletmeyle haftalık ya da iki haftalık sabit bir slot ayarlanabilir.",
+                    "Sabit slot düzeni, işletmenin her seferinde yeniden talep oluşturmasını gerektirmez ve bizim tarafımızda da o günün programına önceden yerleşen bir kalem olur; bu, hem işletme hem bizim için öngörülebilirlik sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'deki parselimiz henüz inşaat hâlinde; forklift ne zaman devreye girmeli?",
+                cevap:
+                    "Genellikle malzeme teslimatları başladığında forklift ihtiyacı da başlar. Şantiye planınızı ve malzeme teslim takvimini paylaşırsanız, zeminin o anki durumuna uygun makineyi önceden ayarlarız. İnşaat fazındaki zemin düzensiz olabileceğinden, standart bir forklift yerine daha dayanıklı bir sınıf önerebiliriz; bu kararı keşifte birlikte alırız.",
+            },
+            {
+                soru: "Ağır bir üretim hattı parçasını hassas biçimde yerleştirmemiz gerekiyor; standart forklift yeterli mi?",
+                cevap:
+                    "Parçanın ağırlığına, boyutuna ve kaldırma noktalarına bağlı; bu bilgiyi önceden paylaşırsanız uygun kapasitede ve gerekiyorsa özel aparatlı bir makine öneririz. Hassas konumlandırma işlerinde operatörümüz montaj ekibiyle birlikte çalışır ve parçanın nihai konumunu adım adım teyit ederek ilerler; acele bir yerleştirme yapmayız.",
+            },
+            {
+                soru: "Kendi forkliftimiz arızalandı, geçici olarak bir makineye ihtiyacımız var. Ne kadar hızlı gelirsiniz?",
+                cevap:
+                    "OSB içindeyseniz genellikle aynı gün ya da ertesi gün içinde makine sağlayabiliriz; kesin süre o anki programımıza bağlıdır. Operatörlü mü operatörsüz mü istediğinizi ve mevcut sahanızın zemin koşulunu bildirirseniz, uygun makineyi hızlıca ayarlarız. Arızanın süresi belirsizse geçici kiralamayı gün gün uzatabileceğiniz bir düzen kurarız.",
+            },
+            {
+                soru: "Kent merkezindeki depomuzun koridoru dar; standart forklift sığar mı?",
+                cevap:
+                    "Bu, koridor genişliğine ve raf aralığına bağlı; ölçüleri paylaşırsanız standart makinenin sığıp sığmadığını netleştiririz. Sığmıyorsa daha kompakt bir sınıf öneririz. Dar koridorlarda çalışırken raf hasarını önlemek için manevra hızını düşürür, gerekirse yerde işaretleme yaparız.",
+            },
+            {
+                soru: "Sezonluk yoğunluk döneminde birkaç haftalığına ek forklifte ihtiyacımız olacak; nasıl planlanır?",
+                cevap:
+                    "Yoğunluk döneminin tahmini başlangıç ve bitiş tarihini önceden bildirirseniz, o dönem için ayrı bir kiralama süresi ayarlarız. Kendi operatörünüz varsa operatörsüz, yoksa operatörlü kiralama öneririz. Yoğunluk beklenenden uzarsa süreyi esnek biçimde uzatabiliriz; bu esnekliği sözleşmede baştan belirtiriz.",
+            },
+            {
+                soru: "Aynı hafta hem inşaat sahamıza hem işletmedeki depomuza forklift gerekiyor; ayrı ayrı mı planlanır?",
+                cevap:
+                    "İki iş farklı makine sınıfı gerektirebileceği için genellikle ayrı planlanır — inşaat sahası için dayanıklı bir sınıf, depo için daha kompakt bir sınıf uygun olabilir. Ancak ikisi de OSB içindeyse ve tarih esnekliğiniz varsa, aynı sevkiyat turunda iki farklı makineyi art arda teslim etmeyi de değerlendirebiliriz; bu, sevkiyat maliyetini bir miktar düşürür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bir sanayi tesisinin inşaat, montaj ve işletme fazlarında farklı forklift ihtiyacı duyması ve kent merkezi depolarının OSB depolarına göre daha dar koridorlu olması genel sektör bilgisidir. Faz bazlı makine sınıfı önerisi ve dar koridor değerlendirmesi firma saha pratiğidir. Tesis adı, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bozüyük OSB Ana Giriş-Aydınlatma Direkleri ve Kamu Binası Cephelerinde Eklemli Platform",
+        giris:
+            "OSB'nin ortak alanlarındaki yüksek erişim ihtiyacı, tek bir tesisin çatısından farklı bir geometriye sahiptir: ana giriş kapısındaki tabela, çevre yolundaki aydınlatma direkleri ve idare binasının cephesi, genellikle düz bir zeminden dikey değil, yoldan belirli bir yatay mesafeden erişilmesi gereken hedeflerdir. Kent merkezindeki kamu binalarının — belediye hizmet binası, okul, sağlık ocağı — cephe ve çatı saçağı bakımlarında da benzer bir geometri karşımıza çıkar; bina genellikle bir bahçe ya da kaldırım payıyla çevrilidir ve makine hedefe dikeyden değil yandan yaklaşmak zorundadır. Eklemli platform, kolunun hem yukarı hem yana hareket edebilmesi sayesinde bu tür yatay mesafeli hedeflere sepetli platformdan daha esnek erişir. Bu sayfada OSB ortak alanları ve kamu binası cephelerinde eklemli platformun nasıl değerlendirildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB ana giriş kapısı ve tabela erişimi",
+                metin:
+                    "OSB'nin ana giriş kapısındaki tabela ve bariyer sistemi, genellikle yolun ortasına yakın bir noktada, araç trafiğinin kesintiye uğratılmadan çalışılması gereken bir konumdadır. Eklemli platformun kolu, aracın park edildiği güvenli bir noktadan hedefe yatay olarak uzanabildiği için, makinenin trafiğin tam ortasına konumlanmasına gerek kalmaz. Bu tür işler genellikle trafiğin en az olduğu saatlere planlanır.",
+            },
+            {
+                baslik: "Çevre yolu aydınlatma direklerinde yatay erişim",
+                metin:
+                    "OSB'nin çevre yolundaki aydınlatma direkleri, yol kenarındaki refüj ya da yeşil alan şeridinde bulunur ve makinenin direğe dikey olarak yaklaşması her zaman mümkün olmaz — yol trafiği, refüjün genişliği ya da yakındaki bir menfez engel oluşturabilir. Eklemli platformun kolu, aracı yolun kenarında güvenli bir noktada tutarak sepeti direğe doğru uzatabilir; bu, yol kapatma ihtiyacını azaltır.",
+            },
+            {
+                baslik: "Kamu binası cephesinde bahçe payı üzerinden erişim",
+                metin:
+                    "Kent merkezindeki bir kamu binasının cephesi genellikle bir bahçe, çit ya da kaldırım payıyla çevrilidir ve makine binaya bitişik park edemez. Eklemli platform, bu payı aşarak kolunu binaya doğru uzatabilir; bahçedeki ağaç ya da peyzaj öğesi varsa kolun geçiş güzergâhı önceden değerlendirilir. Bina yönetimiyle çalışma saatini ve bahçe kullanımını önceden netleştiririz.",
+            },
+            {
+                baslik: "Okul ve sağlık ocağı gibi hassas kamu binalarında zamanlama",
+                metin:
+                    "Okul ya da sağlık ocağı gibi kamu binalarında dış cephe ya da çatı saçağı bakımı yapılırken, bina kullanıcılarının günlük düzenini bozmamak öncelikli bir kısıttır. Bu tür işleri genellikle tatil günü, mesai dışı saat ya da bina yönetiminin belirlediği sakin bir pencereye planlarız; öğrenci ya da hasta trafiğinin yoğun olduğu saatlerde çalışma başlatmayız.",
+            },
+            {
+                baslik: "OSB ortak alanı ve kamu binası işlerinin yıllık programa bağlanması",
+                metin:
+                    "Hem OSB yönetimi hem belediye, ortak alan ve kamu binası bakımını genellikle yıllık bir programa bağlar — hangi ayda hangi direğin, hangi cephenin kontrol edileceği önceden belirlenir. Bu düzen, ortak alan bakımının bireysel tesislerin acil taleplleriyle çakışmamasını sağlar ve bizim açımızdan da programı önceden kurmamıza imkân verir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB ve kamu binası ortak alan hedefleri",
+                paragraflar: [
+                    "OSB'nin ortak alanlarında ve kent merkezindeki kamu binalarında sık karşılaştığımız hedef tiplerini ve erişim yaklaşımını aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Erişim engeli", "Yaklaşım biçimi", "Zamanlama"],
+                    satirlar: [
+                        ["OSB ana giriş tabelası", "Araç trafiği", "Yandan yatay uzanma", "Trafik dışı saat"],
+                        ["Çevre yolu aydınlatma direği", "Refüj, yol kenarı", "Aracı yolda tutup kol uzatma", "Gündüz, düşük trafik"],
+                        ["Kamu binası cephesi", "Bahçe, kaldırım payı", "Payı aşan kol hareketi", "Bina yönetimiyle koordineli"],
+                        ["Okul-sağlık ocağı çatı saçağı", "Kullanıcı yoğunluğu", "Yandan kol uzatma", "Tatil, mesai dışı"],
+                        ["İdare binası cephe tabelası", "Giriş merdiveni", "Merdiven dışından yaklaşım", "Mesai öncesi/sonrası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Trafik kesintisiz çalışmanın planlama karşılığı",
+                paragraflar: [
+                    "OSB'nin ana giriş kapısı ya da çevre yolundaki bir işte trafiği tamamen kesmeden çalışmak, hem OSB'nin günlük işleyişini bozmamak hem de işin kendisini hızlandırmak açısından tercih edilir. Eklemli platformun yatay erişim kabiliyeti bunu mümkün kılar, ama bunun için aracın park edileceği noktanın önceden belirlenmesi ve o noktanın trafik akışını engellemeyecek şekilde seçilmesi gerekir.",
+                    "Bu planlamayı yaparken OSB yönetiminden ya da belediyeden trafik yoğunluğunun en az olduğu saatler hakkında bilgi alır, çalışmayı mümkünse o saatlere denk getiririz; bu, hem güvenlik hem de OSB'nin günlük trafiğine saygı açısından önemlidir.",
+                ],
+            },
+            {
+                baslik: "Kamu binası bahçesinde peyzaj koruma",
+                paragraflar: [
+                    "Kamu binalarının bahçesinde ağaç, çiçek yatağı ya da süs bitkisi genellikle bulunur ve eklemli platformun kolu bu öğelerin üzerinden ya da yanından geçerken zarar vermemesi gerekir. Kolun geçiş güzergâhını önceden bahçe planına göre değerlendirir, gerekiyorsa aracın konumunu bahçeye en az temas edecek şekilde seçeriz.",
+                    "Bina yönetiminden bahçenin hangi bölümlerinin hassas olduğu bilgisini önceden alırız; bu bilgi paylaşılmazsa, sahada görsel değerlendirmeyle en güvenli güzergâhı biz belirleriz ve gerekirse fotoğrafla teyit ederiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB ana giriş kapımızdaki tabelayı değiştireceğiz; trafiği kapatmadan yapılabilir mi?",
+                cevap:
+                    "Genellikle evet. Eklemli platformun kolu, aracı trafiğin dışında güvenli bir noktada tutarak tabelaya yatay olarak uzanabilir; bu, giriş kapısının tamamen kapatılmasını gerektirmez. Ancak trafiğin en az olduğu saati birlikte belirlemenizi öneririz — bu hem işin hızını artırır hem OSB'nin günlük trafiğine saygı gösterir.",
+            },
+            {
+                soru: "Çevre yolumuzdaki aydınlatma direği refüjde; makine oraya nasıl yaklaşır?",
+                cevap:
+                    "Aracı yolun kenarında, refüje girmeden güvenli bir noktada konumlandırır, kolu direğe doğru uzatırız. Refüjin genişliği ve yakında bir menfez ya da engel olup olmadığı önceden değerlendirilir. Yol trafiğinin yoğun olduğu saatlerde bu tür işleri planlamamayı öneririz; mümkünse gündüzün daha sakin bir saatine denk getiririz.",
+            },
+            {
+                soru: "İdare binamızın cephesi bahçeyle çevrili; makine bahçeye zarar verir mi?",
+                cevap:
+                    "Doğru planlamayla hayır. Kolun geçiş güzergâhını bahçedeki ağaç ve bitki yerleşimine göre önceden değerlendiririz; aracın konumunu bahçeye en az temas edecek noktaya seçeriz. Bahçenin hassas bölümlerini önceden bildirirseniz, çalışmayı buna göre daha dikkatli kurgularız.",
+            },
+            {
+                soru: "Okulun çatı saçağında bakım yapılacak; öğrenci saatlerinde çalışılır mı?",
+                cevap:
+                    "Öğrenci yoğunluğunun olduğu saatlerde çalışma başlatmıyoruz; bu tür işleri tatil günü, mesai dışı saat ya da okul yönetiminin belirlediği bir pencereye planlarız. Okul yönetimiyle önceden görüşüp uygun tarihi netleştirmenizi öneririz; biz de kendi programımızı buna göre ayarlarız.",
+            },
+            {
+                soru: "OSB yönetimi ortak alan bakımını yıllık bir programa bağlamak istiyor; bu nasıl kurulur?",
+                cevap:
+                    "OSB yönetiminin bize iletmesi gereken şey, hangi ortak alanların kapsamda olduğu ve tercih edilen dönemdir. Biz bu bilgiyle bir yıllık takvim çıkarır, OSB'nin genel trafiğine en az müdahale eden saatleri belirleriz. Program bir kez kurulduktan sonra her yıl aynı dönemde tekrarlanır ve OSB yönetiminin ayrıca hatırlatmasına gerek kalmaz.",
+            },
+            {
+                soru: "Kamu binası bahçesinde çalışırken izin almamız gerekiyor mu?",
+                cevap:
+                    "Genellikle bina yönetiminin bilgilendirilmesi yeterlidir, ancak bazı kamu binalarında ayrı bir yazılı izin süreci olabilir. Bu süreç binanın türüne göre değişir; sizinle birlikte hangi iznin gerektiğini netleştirir, gerekirse başvuru için teknik bilgiyi hazırlarız. İzin süreci işin kendisinden uzun sürebileceği için talebi mümkün olduğunca erken bildirmenizi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB ortak alanlarının (giriş kapısı, çevre yolu aydınlatması) ve kent merkezindeki kamu binalarının (okul, sağlık ocağı, idare binası) bahçe/kaldırım payıyla çevrili olması kamuya açık genel bilgidir. Yatay erişim planlaması ve zamanlama yaklaşımı firma saha pratiğidir. Tesis adı, bina adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bozüyük OSB'deki Yeni Depo-Dağıtım Tesislerinde İç Mekân Platform Kiralama",
+        giris:
+            "OSB'de son yıllarda artan depo-dağıtım yapıları, iç mekân yüksek erişim talebinin yeni ve büyüyen bir kalemi hâline geldi. Bu tesislerin ortak özelliği, üretim tesislerinden farklı olarak iç mekânın büyük ölçüde boş ve tek katlı olması, ancak raf sistemi, sprinkler hattı ve tavan aydınlatmasının tesisin doluluk arttıkça kademeli olarak devreye girmesidir. Kent merkezindeki küçük ölçekli iş yerlerinde de benzer bir iç mekân ihtiyacı vardır — mağaza içi tavan aydınlatması, asma tavan kontrolü — ama ölçek çok daha küçüktür. Biz OSB'deki yeni depoların kademeli kurulum sürecini ve kent merkezindeki küçük iç mekân işlerini aynı iç mekân platform anlayışıyla, ama farklı ölçek ve zamanlamayla ele alırız. Bu sayfada bu iki farklı iç mekân senaryosunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Yeni depo tesisinde kademeli raf ve sprinkler kurulumu",
+                metin:
+                    "OSB'de yeni açılan bir depo-dağıtım tesisinde raf sistemi genellikle tek seferde değil, doluluk arttıkça kademeli olarak kurulur; bu, sprinkler hattı ve tavan aydınlatmasının da benzer bir kademeli takvimle devreye girmesi anlamına gelir. Biz bu kademeli süreçte her aşamada hangi bölümün henüz boş, hangi bölümün doluluğa geçtiğini takip eder, makineyi doluluğa geçmemiş bölümlerde önceliklendiririz — dolu bir raf koridorunda çalışmak hem daha yavaş hem daha riskli olur.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve raf koridoru genişliği ilişkisi",
+                metin:
+                    "OSB'deki depo tesislerinin tavan yüksekliği genellikle 8-12 metre bandındadır ve raf koridoru genişliği, standart bir makaslı platformun geçebileceği ölçüde tasarlanır; ancak bazı depo tasarımlarında dar koridor tercih edilmiş olabilir. Bu durumda daha kompakt bir makine sınıfı gerekir. Depo planını önceden alır, koridor genişliğini ve raf yüksekliğini birlikte değerlendiririz.",
+            },
+            {
+                baslik: "İşletmeye geçmiş depoda periyodik bakım",
+                metin:
+                    "Depo tesisi tam kapasiteye ulaşıp işletmeye geçtikten sonra iç mekân platform ihtiyacı, yeni kurulumdan periyodik bakıma döner: sprinkler kafası kontrolü, aydınlatma armatürü değişimi, raf üstü etiketleme. Bu tür işler genellikle depo trafiğinin en az olduğu saatlere — gece vardiyası öncesi ya da hafta sonu — planlanır, çünkü gündüz koridorlar forklift ve personel trafiğiyle doludur.",
+            },
+            {
+                baslik: "Kent merkezindeki küçük iş yerinde tavan-asma tavan kontrolü",
+                metin:
+                    "Kent merkezindeki bir mağaza ya da küçük iş yerinde iç mekân platform ihtiyacı, OSB'deki depolara göre çok daha küçük ölçekli ve kısa süreli olur — asma tavan içindeki bir aydınlatma armatürünün değişimi, klima kanalı kontrolü gibi. Bu tür işlerde makine genellikle mağaza kapalıyken ya da mesai dışı saatte içeri alınır, çünkü gündüz müşteri trafiği vardır.",
+            },
+            {
+                baslik: "Farklı ölçeklerin aynı iç mekân bilgisiyle karşılanması",
+                metin:
+                    "OSB'deki büyük bir depo koridorunda kazandığımız raf-tavan ilişkisi bilgisi, kent merkezindeki küçük bir mağazanın asma tavan sistemine de uyarlanabilir — ölçek farklı olsa da mantık aynıdır: hedefin kotu, yatay mesafesi ve koridor genişliği birlikte değerlendirilir. Bu, farklı ölçekteki iç mekân işlerinde aynı değerlendirme yöntemini tekrar tekrar kullanmamızı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB deposu ile kent merkezi iş yeri arasındaki ölçek farkı",
+                paragraflar: [
+                    "OSB'deki depo-dağıtım tesisleri ile kent merkezindeki küçük iş yerlerinin iç mekân platform ihtiyacını ölçek ve zamanlama açısından aşağıdaki tabloda karşılaştırdık.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân tipi", "Tipik hedef", "Tavan/kot", "Tercih edilen zamanlama"],
+                    satirlar: [
+                        ["OSB yeni depo", "Raf, sprinkler kurulumu", "8-12 metre bandı", "Doluluğa geçmemiş bölüm önceliği"],
+                        ["OSB işletme depo", "Periyodik bakım", "8-12 metre bandı", "Gece/hafta sonu, düşük trafik"],
+                        ["Kent merkezi mağaza", "Asma tavan, aydınlatma", "3-5 metre bandı", "Mesai dışı, kapalı saat"],
+                        ["Kent merkezi ofis", "Klima kanalı kontrolü", "3-4 metre bandı", "Hafta sonu"],
+                        ["OSB idari ofis birimi", "Tavan aydınlatma", "3-4 metre bandı", "Mesai öncesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Depo doluluğunun makine erişimine etkisi",
+                paragraflar: [
+                    "Bir depo tesisinin doluluk oranı arttıkça, raf koridorlarındaki serbest çalışma alanı daralır ve bu, makinenin manevra kabiliyetini doğrudan sınırlar. Boşken kolayca dolaşılabilen bir koridor, raf dolduktan sonra tek yönlü ve dar bir geçide dönüşebilir. Bu yüzden yeni bir depo tesisinde çalışırken doluluk takvimini önceden öğrenir, mümkünse işleri doluluğa geçmemiş bölümlerde önceliklendiririz.",
+                    "İşletme tam doluluğa ulaştıktan sonra ise koridor genişliği zaten sabitlenmiş olduğundan, bizim tarafımızdaki değişken makine sınıfı seçimine döner — dar koridora uygun kompakt bir sınıf mı, yoksa standart bir sınıf mı yeterli, bunu depo planına göre baştan netleştiririz.",
+                ],
+            },
+            {
+                baslik: "Mesai dışı çalışmanın kent merkezi işletmelerinde önemi",
+                paragraflar: [
+                    "Kent merkezindeki bir mağaza ya da ofiste iç mekân çalışması genellikle mesai dışı saatte yapılır, çünkü gündüz hem müşteri hem çalışan trafiği vardır ve platform bu trafiği aksatabilir. Mesai dışı çalışma, işletme için ek bir maliyet anlamına gelebilir — anahtar teslimi, güvenlik görevlisi ya da mesai dışı ücret gibi kalemler devreye girebilir; bu kalemleri teklif öncesi açıkça konuşuruz.",
+                    "OSB'deki depo tesislerinde ise mesai dışı çalışma genellikle işletmenin kendi vardiya düzenine göre zaten planlıdır ve ek bir maliyet kalemi olarak görülmez; bu fark, iki farklı mekân tipinin zamanlama mantığını da birbirinden ayırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni açılan deponuzun rafları henüz kısmen boş; sprinkler kontrolünü şimdi mi yapmalıyız?",
+                cevap:
+                    "Evet, genellikle en uygun zaman budur. Raf koridorları henüz doluluğa geçmemişken makinenin manevra alanı geniştir ve çalışma hem daha hızlı hem daha güvenli olur. Doluluk arttıkça aynı iş daha uzun sürebilir ve koridor kısıtı nedeniyle daha kompakt bir makine gerekebilir. Doluluk takviminizi paylaşırsanız, hangi bölümün önce yapılacağını birlikte planlarız.",
+            },
+            {
+                soru: "Depo koridorumuz standart makaslı platformdan daha dar; alternatif ne olur?",
+                cevap:
+                    "Koridor genişliğini ve raf yüksekliğini paylaşırsanız, daha kompakt bir akülü makaslı sınıf ya da gerekiyorsa örümcek platform gibi dar erişim çözümü öneririz. Depo planınız varsa bunu önceden inceleyip hangi sınıfın koridora sığdığını netleştiririz; sahada sıkışan bir makine göndermeyiz.",
+            },
+            {
+                soru: "İşletme depomuzda gündüz forklift trafiği yoğun; iç mekân bakımını ne zaman yapmalıyız?",
+                cevap:
+                    "Gece vardiyası öncesi ya da hafta sonu gibi forklift trafiğinin en az olduğu bir zaman diliminde çalışmayı öneririz. Bu, hem platform operatörünün hem forklift operatörünün güvenliğini artırır. Depo yönetiminizle uygun saati netleştirdikten sonra programımızı buna göre kurarız.",
+            },
+            {
+                soru: "Mağazamızın asma tavanında bir aydınlatma arızası var; mesai saatinde müdahale mümkün mü?",
+                cevap:
+                    "Mümkün, ancak müşteri trafiğini etkilemeyecek şekilde bir köşeye sınırlı çalışma alanı kurarız ve işlemi mümkün olduğunca hızlı tamamlarız. Kesintisiz mesai istiyorsanız, mesai dışı ya da kapalı saatte çalışmayı öneririz; bu durumda anahtar teslimi ya da güvenlik görevlisi ihtiyacını önceden konuşuruz.",
+            },
+            {
+                soru: "Depo tesisimizin tavan yüksekliği kesin olarak kaç metre olmalı, ölçmeden bilebilir miyiz?",
+                cevap:
+                    "Kesin ölçüm olmadan güvenilir bir rakam veremeyiz; OSB'deki depo tesislerinin çoğu 8-12 metre bandında olsa da her tesis farklıdır. Bina projenizdeki tavan kotunu paylaşırsanız ya da keşifte lazer ölçümle netleştiririz; bu bilgi olmadan makine sınıfı önerisi yapmayız.",
+            },
+            {
+                soru: "OSB'deki depo ile kent merkezindeki mağazamızı aynı hafta planlayabilir miyiz?",
+                cevap:
+                    "Tarih esnekliği varsa evet, ikisini aynı haftaya, hatta güzergâh uygunsa aynı güne yerleştirebiliriz. İki iş farklı makine sınıfı gerektirebilir — depo için standart ya da kompakt makaslı, mağaza için daha küçük bir sınıf — bu yüzden ikisini ayrı kalemler olarak planlar ama sevkiyatı mümkünse birleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB'de depo-dağıtım tesislerinin artması ve bu tesislerin tavan yüksekliğinin genellikle 8-12 metre bandında olması genel sektör bilgisidir; kent merkezi küçük iş yerlerinin daha düşük tavan koduna sahip olması genel gözlemdir. Doluluk takibi ve mesai dışı planlama firma saha pratiğidir. Tesis adı, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bozüyük OSB'de Yeni Parsel İnşaatında Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "OSB'de bir parsel tahsis edilip inşaat başladığında, çelik konstrüksiyon montajı genellikle sürecin en görünür ve en yoğun yüksek erişim ihtiyacı doğuran aşamasıdır. Bu aşamada makine, tek bir tesisin değil, henüz kabuğu tamamlanmamış bir sahanın geçici ve değişken koşullarında çalışır — zemin düzenlenmemiş, elektrik henüz bağlanmamış, çevre henüz çevrilmemiş olabilir. OSB yönetimi açısından bu süreç, yeni bir tesisin bölgeye katılma sürecinin bir parçasıdır ve genellikle inşaat ruhsatı takvimiyle iç içe geçer. Biz bu erken dönemde, henüz oturmamış bir sahada güvenli ve verimli bir montaj desteği kurarız; bu sayfada çelik konstrüksiyon montaj sürecinde platformun nasıl planlandığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Temel atımı sonrası ilk çelik dikme montajı",
+                metin:
+                    "Temel atımı tamamlandıktan sonra ilk çelik dikmelerin dikilmesi, genellikle vinç ile yapılır, ancak dikmelerin arasındaki bağlantı elemanlarının (aşık, rüzgar bağlantısı) montajı için yüksek erişim platformu devreye girer. Bu aşamada zemin henüz beton kaplamaya kavuşmamış, sıkıştırılmış dolgu ya da stabilize hâlindedir; makinenin park edeceği ve hareket edeceği alan önceden değerlendirilir.",
+            },
+            {
+                baslik: "Çatı kaplama ve aydınlatma trasesi montajı",
+                metin:
+                    "Çelik konstrüksiyonun çatı kaplaması tamamlanmadan önce, çatı altı aydınlatma trasesi ve varsa sprinkler ana hattının montajı yapılır. Bu iş, çatı iskeletinin üzerinde değil altında, henüz tavan kapanmamışken gerçekleşir ve bu aşamada makinenin çalışma yüksekliği tam çatı kotuna kadar ulaşmalıdır. Montaj ekibiyle koordineli çalışılır, çünkü aynı anda vinç de sahada aktif olabilir.",
+            },
+            {
+                baslik: "Cephe kaplama ve giriş kapısı montajı",
+                metin:
+                    "Çatı tamamlandıktan sonra cephe kaplama paneli montajı başlar; bu aşamada bina artık dıştan görünür hâle gelmiş olsa da iç mekân henüz boştur. Cephe panellerinin montajı genellikle bina çevresinde dönerek ilerleyen bir sıra takip eder; platform bu sırayı takip edecek şekilde günlük programa yerleştirilir. Giriş kapısı üstü tabela ve kanopi montajı da bu aşamanın son kalemlerindendir.",
+            },
+            {
+                baslik: "Montaj süresince vinç ve platform koordinasyonu",
+                metin:
+                    "Çelik konstrüksiyon inşaatında vinç ve yüksek erişim platformu genellikle aynı sahada, bazen aynı gün içinde çalışır; bu iki ekipmanın çalışma alanlarının çakışmaması için günlük bir koordinasyon gerekir. Vincin kaldırdığı yükün geçiş güzergâhı platformun çalıştığı alana denk gelirse, iş sırası önceden netleştirilir ve gerekirse platform o saat dilimde bekletilir.",
+            },
+            {
+                baslik: "İnşaat takviminin değişkenliğine uyum",
+                metin:
+                    "İnşaat projelerinde takvim, hava koşulları, malzeme teslim gecikmesi ya da başka bir kalemin uzaması nedeniyle sık değişir. Bu yüzden çelik konstrüksiyon montajı için ayrılan platform süresini katı bir tarihe değil, işin fiilî ilerleyişine göre esnek tutarız; müteahhitten günlük ilerleme bilgisi alır, programı buna göre güncelleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon montaj aşamaları ve platform ihtiyacı",
+                paragraflar: [
+                    "Bir çelik konstrüksiyon binasının montaj aşamalarını ve her aşamada platformun tipik rolünü aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Tipik iş", "Zemin durumu", "Koordinasyon"],
+                    satirlar: [
+                        ["Dikme sonrası bağlantı", "Aşık, rüzgar bağlantısı", "Sıkıştırılmış dolgu", "Vinç ile paylaşımlı saha"],
+                        ["Çatı altı traseler", "Aydınlatma, sprinkler hattı", "Henüz kapanmamış tavan", "Montaj ekibiyle günlük plan"],
+                        ["Cephe kaplama", "Panel montajı, sıralı ilerleme", "Bina çevresi düzenlenmemiş", "Sıra takip programı"],
+                        ["Giriş-kanopi", "Tabela, kanopi montajı", "Kısmen tamamlanmış çevre", "Son aşama koordinasyonu"],
+                        ["Kabuk sonrası ince iş", "İç aydınlatma, son rötuş", "Zemin şaplanmış", "Diğer taşeronlarla paylaşım"],
+                    ],
+                },
+            },
+            {
+                baslik: "Henüz düzenlenmemiş zeminde güvenli park noktası",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajının erken aşamalarında saha zemini genellikle henüz beton kaplamaya kavuşmamıştır; bu, makinenin park edeceği noktanın taşıma gücünü önceden değerlendirmeyi gerektirir. Sıkıştırılmış dolgu genellikle yeterli olsa da, yağış sonrası yumuşayan bölgeler için yük dağıtım plakası kullanırız.",
+                    "Bu değerlendirme her ziyarette tekrarlanır, çünkü inşaat sahasının zemin durumu haftadan haftaya değişebilir — bir hafta önce sağlam olan bir nokta, ekipman trafiği ya da yağış nedeniyle bir sonraki hafta yumuşamış olabilir.",
+                ],
+            },
+            {
+                baslik: "Vinç ile platformun günlük iş sırasının paylaşılması",
+                paragraflar: [
+                    "İnşaat sahasında vinç genellikle günün belirli saatlerinde yoğun kullanılır — malzeme indirme, dikme kaldırma gibi işler belirli pencerelere sığdırılır. Platform, bu yoğun pencerelerin dışındaki saatlerde çalışacak şekilde günlük programa yerleştirilir; bu, iki ekipmanın aynı hava sahasında çakışmasını önler.",
+                    "Şantiye şefiyle her sabah kısa bir koordinasyon yapılır — o günün vinç programı ve platformun çalışacağı bölge birlikte netleştirilir; bu küçük adım, gün içindeki beklenmedik duraksamaları önemli ölçüde azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik dikmelerimiz henüz yeni dikildi, zemin sıkıştırılmış dolgu; makine buraya güvenle girer mi?",
+                cevap:
+                    "Genellikle evet, ancak keşifte zeminin taşıma gücünü değerlendiririz; yağış sonrası yumuşayan bölgeler için yük dağıtım plakası kullanırız. Sıkıştırılmış dolgunun ne zaman ve hangi standartta yapıldığını bilirseniz bu bilgiyi paylaşmanız değerlendirmeyi hızlandırır. Zemin uygun değilse çalışmayı erteler ya da daha hafif bir makine sınıfına geçeriz.",
+            },
+            {
+                soru: "Aynı sahada vincimiz de çalışıyor; platform ile çakışma riski var mı?",
+                cevap:
+                    "Bu riski önlemek için günlük bir koordinasyon şarttır. Şantiye şefinizle her sabah o günün vinç programını ve platformun çalışacağı bölgeyi netleştiririz; vincin yoğun kullanıldığı saatlerde platformu farklı bir bölgeye ya da farklı bir saate kaydırırız. İki ekipmanın aynı anda aynı hava sahasında çalışması engellenir.",
+            },
+            {
+                soru: "Çatı henüz kapanmadı, aydınlatma trasesi montajı için platform gerekiyor. Ne zaman planlamalıyız?",
+                cevap:
+                    "Çatı iskeletinin tamamlandığı ama kaplamanın henüz başlamadığı pencere, bu iş için en uygun zamandır — bu sırada erişim daha kolaydır ve daha sonra kaplama altında çalışmak zorlaşır. Montaj ekibinizin takvimini paylaşırsanız, bu pencereye denk gelecek şekilde platformu ayarlarız.",
+            },
+            {
+                soru: "İnşaat takvimimiz sık değişiyor, kesin bir tarih vermek zor. Sizinle nasıl çalışırız?",
+                cevap:
+                    "Bu, inşaat projelerinde sık karşılaştığımız bir durum; bu yüzden katı bir tek tarih yerine bir haftalık pencere üzerinden planlama öneririz. Müteahhidinizden günlük ilerleme bilgisi alırız ve programı buna göre güncelleriz. Kesin gün netleştiğinde bir-iki gün öncesinden teyit ederiz.",
+            },
+            {
+                soru: "Cephe panel montajı bina çevresinde dönerek ilerliyor; platformu buna göre mi planlıyorsunuz?",
+                cevap:
+                    "Evet, cephe montaj sırasını takip eden bir program kurarız; panel montaj ekibinin ilerleme yönünü ve hızını önceden öğrenir, platformu bir gün önden ya da eşzamanlı olarak o bölgeye yönlendiririz. Sıra dışı bir değişiklik olursa (örneğin bir cephenin ertelenmesi) programı aynı gün içinde yeniden düzenleriz.",
+            },
+            {
+                soru: "Şantiye henüz çevrilmemiş, güvenlik açısından bir riski var mı?",
+                cevap:
+                    "Çevrilmemiş bir şantiyede çalışma alanının etrafını kendi ekipmanımızla geçici olarak sınırlarız; bu, hem operatörün hem sahadaki diğer çalışanların güvenliği için gereklidir. Şantiyenin genel güvenlik kurallarını (baret, yaka kartı vb.) önceden sorar, operatörümüzün bunlara uymasını sağlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon binaların temel-dikme-çatı-cephe sırasıyla inşa edilmesi ve inşaat sahasında vinç kullanımı genel inşaat sektörü bilgisidir. Zemin değerlendirmesi ve vinç-platform koordinasyonu firma saha pratiğidir. Tesis adı, müteahhit adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bozüyük İlçesine Bağlı Kırsal Mahallelerde Tarım Yapısı ve Silo Bakımında Platform Kiralama",
+        giris:
+            "Bozüyük ilçe sınırları OSB'nin ötesinde geniş bir kırsal alanı da kapsar; buradaki tarımsal üretim yapıları ve silo tesisleri, OSB'deki sanayi tesislerinden farklı bir erişim profili taşır. Kırsal bir silo tesisinin çevresi genellikle düz tarla ya da toprak yoldur, zemin mevsime göre kuru toz ya da çamur hâlini alabilir ve elektrik-su gibi altyapı OSB'deki kadar hazır olmayabilir. Bu yapıların bakım ihtiyacı — silo dış cephesi, tahıl aktarma bandı üstü, çatı havalandırma bacası — OSB'deki sanayi tesisleriyle aynı yüksek erişim mantığını paylaşsa da, saha koşulları bambaşkadır. Bu sayfada Bozüyük'e bağlı kırsal mahallelerdeki tarım ve silo yapılarında platform kiralamanın nasıl planlandığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Kırsal yolun mevsime göre değişen taşıma gücü",
+                metin:
+                    "Kırsal mahalleye giden yol genellikle stabilize ya da toprak yoldur ve bu yolun taşıma gücü mevsime göre büyük fark gösterir — yaz aylarında sert ve düz olan bir yol, sonbahar yağmurlarından sonra çamurlaşıp ağır bir aracın geçişini zorlaştırabilir. Sevkiyat öncesi güncel yol durumunu sorar, riskli görünüyorsa daha küçük bir taşıma aracına geçer ya da hava koşulu düzelene kadar bekleriz.",
+            },
+            {
+                baslik: "Silo dış cephesinde rüzgar ve açık alan etkisi",
+                metin:
+                    "Silo tesisleri genellikle açık tarla ortasında, rüzgara karşı korumasız bir konumda bulunur; bu, yüksek erişim çalışmasında rüzgar hızının standart sınırların üzerine çıkması riskini artırır. Çalışma öncesi hava tahminini kontrol eder, rüzgar sınırı aşılırsa çalışmayı erteleriz. Bu, tek bir günün kaybı gibi görünse de, güvenlik açısından taviz verilmeyen bir kuraldır.",
+            },
+            {
+                baslik: "Elektrik altyapısının OSB'ye göre sınırlı olması",
+                metin:
+                    "Kırsal mahallelerdeki bazı tesislerde elektrik altyapısı OSB'deki gibi güçlü ve sürekli olmayabilir; bu, akülü bir makinenin sahada şarj imkânı bulamaması anlamına gelebilir. Bu tür durumlarda dizel ya da yakıtlı makine sınıfını tercih eder, ya da önceden tam dolu bir akülü makineyi sahaya göndeririz. Tesisin elektrik durumunu keşifte netleştiririz.",
+            },
+            {
+                baslik: "Tahıl aktarma bandı üstü bakımda toz ve hareketli parça riski",
+                metin:
+                    "Tahıl aktarma bandının üstünde ya da yakınında çalışırken, hem tahıl tozunun solunum ve kayganlık riski hem de bandın hareketli olup olmadığının netleştirilmesi gerekir. Çalışma öncesi bandın kilitlenip kilitlenmediğini tesis yetkilisiyle teyit eder, toz birikimi fazlaysa çalışma öncesi temizlik istenir.",
+            },
+            {
+                baslik: "Sezonluk hasat döneminde erişim kısıtı",
+                metin:
+                    "Hasat döneminde tesis çevresi, tarım araçlarının ve kamyonların yoğun trafiğiyle doludur; bu dönemde platform çalışması genellikle geciktirilir ya da hasat trafiğinin en az olduğu saatlere sıkıştırılır. Hasat dışı dönemde ise tesis daha sakin olduğu için bakım işleri bu döneme öncelikli olarak planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kırsal tarım-silo tesisinde saha koşulu ve planlama",
+                paragraflar: [
+                    "Bozüyük'e bağlı kırsal mahallelerdeki tarım ve silo tesislerinde karşılaştığımız tipik saha koşulunu ve planlama yaklaşımını aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Koşul", "Risk", "Değerlendirme zamanı", "Alternatif"],
+                    satirlar: [
+                        ["Stabilize/toprak yol", "Yağış sonrası çamurlanma", "Sevkiyat öncesi güncel kontrol", "Küçük araca aktarma"],
+                        ["Açık alan rüzgarı", "Standart sınır aşımı", "Çalışma günü hava tahmini", "Erteleme"],
+                        ["Sınırlı elektrik altyapısı", "Akülü makine şarj sorunu", "Keşifte tesis sorgusu", "Dizel/yakıtlı sınıf"],
+                        ["Tahıl bandı hareketliliği", "Kilitleme belirsizliği", "Çalışma öncesi teyit", "Bant durdurma protokolü"],
+                        ["Hasat dönemi trafiği", "Yoğun araç geçişi", "Sezon takvimi", "Hasat dışı döneme kaydırma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kırsal tesise ulaşımın OSB'den farkı",
+                paragraflar: [
+                    "OSB içindeki bir tesise sevkiyat genellikle standart ve öngörülebilirken, kırsal bir tarım-silo tesisine ulaşım hava koşuluna, yol bakımına ve mevsime bağlı değişkenlik taşır. Bu farkı bildiğimiz için kırsal sevkiyatlarda ekstra bir zaman payı bırakır, güncel yol durumunu sevkiyat sabahı ayrıca teyit ederiz.",
+                    "İşletmenin bize sağlayabileceği en değerli bilgi, yolun son durumu ve varsa geçtiğimiz yıllarda yaşanan bir sevkiyat sorunudur; bu bilgi, bizim güzergâh planlamamızı önemli ölçüde kolaylaştırır.",
+                ],
+            },
+            {
+                baslik: "Rüzgar sınırının kırsal açık alanda daha sık devreye girmesi",
+                paragraflar: [
+                    "OSB'deki bir tesiste komşu binalar rüzgarı bir miktar kırabilirken, açık tarla ortasındaki bir silo tesisinde bu koruma yoktur ve rüzgar hızı daha değişken seyredebilir. Bu yüzden kırsal tesislerde çalışma öncesi hava tahminini standart sahalardan daha sık kontrol eder, sınır aşımına daha erken karar veririz.",
+                    "Rüzgarlı bir günde çalışmanın ertelenmesi, işletme için can sıkıcı olabilir, ama bu kararı almazsak operatör güvenliği ve makine stabilitesi risk altına girer; bu konuda taviz vermeyiz ve nedenini her zaman açıkça anlatırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kırsal mahalledeki silo tesisimize giden yol toprak yol; yağışlı havada gelebilir misiniz?",
+                cevap:
+                    "Yol durumuna bağlı; sevkiyat öncesi güncel durumu sorar, çamurlanmış görünüyorsa daha küçük bir taşıma aracına geçer ya da hava koşulu düzelene kadar erteleriz. Bu, gecikme değil güvenlik kararıdır; alternatif bir tarihi birlikte belirleriz. Yolun tarihsel olarak sorun yaşadığı bir noktası varsa bunu önceden bildirmeniz planlamamızı kolaylaştırır.",
+            },
+            {
+                soru: "Silomuz açık tarlanın ortasında; rüzgarlı günlerde çalışabilir misiniz?",
+                cevap:
+                    "Rüzgar hızı standart güvenlik sınırının üzerindeyse çalışmayı erteleriz; açık alanda koruma olmadığı için bu sınır kırsal tesislerde daha sık devreye girer. Çalışma günü hava tahminini kontrol eder, riskli görünüyorsa önceden haber veririz. Sınır altındaki rüzgarda normal şekilde çalışırız.",
+            },
+            {
+                soru: "Tesisimizde elektrik bağlantısı sınırlı; akülü makine şarj edilebilir mi?",
+                cevap:
+                    "Bu, tesisin elektrik gücüne bağlı; keşifte mevcut bağlantıyı sorar, yetersizse dizel ya da yakıtlı makine sınıfını öneririz. Alternatif olarak tam dolu bir akülü makineyi sahaya gönderip iş süresini bataryanın kapasitesine göre planlayabiliriz. Hangi seçeneğin daha uygun olduğunu tesisin elektrik durumuna göre birlikte belirleriz.",
+            },
+            {
+                soru: "Tahıl aktarma bandımızın üstünde bakım yapacağız; bant çalışırken güvenli mi?",
+                cevap:
+                    "Hayır, bant çalışır durumdayken üstünde platformla çalışmak güvenli değildir. Çalışmadan önce bandın kilitlendiğini tesis yetkilisiyle birlikte teyit ederiz; bu teyit olmadan işe başlamayız. Ayrıca toz birikimi fazlaysa çalışma öncesi temizlik yapılmasını isteriz, çünkü toz hem solunum hem kayganlık riski taşır.",
+            },
+            {
+                soru: "Hasat döneminde bakım yaptırmak istiyoruz; bu dönemde erişim mümkün mü?",
+                cevap:
+                    "Mümkün, ancak hasat trafiğinin yoğun olduğu saatlerde çalışma zorlaşabilir; bu dönemde işleri trafiğin en az olduğu saatlere sıkıştırırız. Mümkünse hasat dışı bir döneme planlamanızı öneririz, çünkü hem sahada daha rahat çalışırız hem de tesisin günlük işleyişini aksatmayız. Kesin tarihiniz hasat dönemine denk geliyorsa saatlik bir plan çıkarırız.",
+            },
+            {
+                soru: "OSB'deki bir işimiz de var; aynı gün kırsal tesise de gelebilir misiniz?",
+                cevap:
+                    "Güzergâh ve tarih uygunsa mümkün, ancak kırsal tesise ulaşım süresi OSB içi mesafeden daha uzun olabileceği için bunu programa erken dahil ederiz. İki işin sırasını, yolun gündüz ışığında geçilmesi gereken bir kısmı varsa buna göre kurarız; kesin bir saat taahhüdü varsa bu iki işi ayrı planlamayı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük ilçesinin OSB dışında geniş bir kırsal alana sahip olması ve kırsal tesislere ulaşımın stabilize/toprak yol karakteri taşıması kamuya açık genel coğrafi bilgidir. Rüzgar sınırı, elektrik altyapısı değerlendirmesi ve hasat dönemi planlaması sektör geneli saha pratiğidir. Tesis adı, işletme adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bozüyük OSB Ortak Aydınlatması, Kent Merkezi Caddeleri ve Kamu Binalarında Enerji-Aydınlatma Bakımı",
+        giris:
+            "Bozüyük'te aydınlatma bakımı üç farklı sorumluluk katmanında karşımıza çıkar: OSB'nin kendi ortak alanındaki direk ve armatürler, belediyenin sorumluluğundaki kent merkezi cadde aydınlatması ve kamu binalarının kendi bünyesindeki iç-dış aydınlatma sistemleri. Her katmanın karar mercii, bütçe döngüsü ve önceliklendirme mantığı farklıdır — OSB yönetimi kendi müteşebbis heyeti üzerinden karar alırken, belediye cadde aydınlatmasını genellikle şikayet ya da rutin denetim üzerinden planlar, kamu binası ise kendi idari bütçesiyle hareket eder. Biz bu üç katmanın hepsine hizmet veren bir tedarikçi olarak, hangi kurumun hangi sorumluluğu üstlendiğini biliriz ve talebi doğru mercie yönlendirmekten de, doğrudan hizmet vermekten de kaçınmayız. Bu sayfada üç katmandaki aydınlatma bakımının nasıl işlediğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB ortak alanı aydınlatma direklerinin yıllık kontrolü",
+                metin:
+                    "OSB'nin ana yolları ve çevre yolu boyunca sıralanan aydınlatma direkleri, genellikle OSB yönetimi ya da müteşebbis heyeti tarafından yıllık bir kontrol programına bağlanır. Bu programda hangi direğin hangi ayda kontrol edileceği önceden belirlenir ve trafiğin en az olduğu saatlere planlanır. Armatür değişimi, kablo bağlantı kontrolü ve direğin kendisinin eğilme-paslanma durumu bu kontrolün kapsamındadır.",
+            },
+            {
+                baslik: "Kent merkezi cadde aydınlatmasında belediye koordinasyonu",
+                metin:
+                    "Kent merkezindeki cadde aydınlatması belediyenin sorumluluğundadır ve genellikle vatandaş şikayeti ya da rutin ekip denetimi üzerinden bakım talebi oluşur. Belediyeyle çalışırken hem kaldırım kullanım izni hem de çalışma saatinin trafik yoğunluğuna göre belirlenmesi gerekir; bu koordinasyon genellikle belediyenin ilgili biriminden gelen bir talimatla netleşir.",
+            },
+            {
+                baslik: "Kamu binası iç-dış aydınlatma bakımı",
+                metin:
+                    "Okul, sağlık ocağı ya da idare binası gibi kamu binalarının hem iç mekân hem dış cephe aydınlatması, bina yönetiminin kendi idari bütçesiyle planlanır. Bu tür binalarda çalışma saati genellikle kullanıcı yoğunluğunun düşük olduğu döneme — tatil, mesai dışı — denk getirilir ve bina yönetiminin kendi güvenlik prosedürüne uyulur.",
+            },
+            {
+                baslik: "Üç katman arasında talebin doğru mercie yönlendirilmesi",
+                metin:
+                    "Bize ulaşan bir aydınlatma talebi bazen yanlış katmana yönelmiş olabilir — örneğin bir işletme, OSB ortak yolundaki bir direğin sorununu bize bildirdiğinde, bu talebi karşılamadan önce OSB yönetimine de bilgi vermesini öneririz, çünkü kalıcı çözüm ve maliyet paylaşımı o kanaldan geçer. Biz tek seferlik bir müdahale yapabiliriz, ama düzenli bir programa bağlanması için doğru mercie yönlendirme gereklidir.",
+            },
+            {
+                baslik: "Enerji direği ve trafo yakını çalışmalarda ek güvenlik",
+                metin:
+                    "Aydınlatma direği bazen bir trafo merkezinin ya da enerji nakil hattının yakınında bulunabilir; bu durumda çalışma öncesi ilgili enerji dağıtım şirketiyle mesafe ve kesinti gerekip gerekmediği netleştirilir. Bu tür işlerde standart bir aydınlatma bakımından farklı olarak ek bir izin ve koordinasyon süreci gerekebilir; bu süreci önceden yönetiriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üç sorumluluk katmanında aydınlatma bakımı",
+                paragraflar: [
+                    "Bozüyük'teki üç farklı aydınlatma sorumluluk katmanını, karar mercii ve tipik planlama biçimini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Katman", "Karar mercii", "Talep kaynağı", "Planlama biçimi"],
+                    satirlar: [
+                        ["OSB ortak alanı", "OSB yönetimi/müteşebbis heyeti", "Yıllık program", "Trafik dışı saat"],
+                        ["Kent merkezi cadde", "Belediye", "Şikayet/rutin denetim", "Kaldırım izniyle koordineli"],
+                        ["Kamu binası", "Bina yönetimi", "İdari bütçe", "Tatil/mesai dışı"],
+                        ["OSB içi özel tesis", "Tesis yönetimi", "Kendi bakım takvimi", "Tesis içi trafiğe göre"],
+                        ["Trafo/enerji hattı yakını", "Enerji dağıtım şirketi", "Ek izin süreci", "Kesinti koordinasyonlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yıllık programın maliyet avantajı",
+                paragraflar: [
+                    "Aydınlatma bakımını yıllık bir programa bağlamak, hem OSB yönetimi hem belediye hem kamu binası için tekil acil müdahalelere göre daha ekonomiktir; program önceden bilindiği için makine ve operatör kapasitesi baştan ayrılır, son dakika sevkiyat maliyeti oluşmaz.",
+                    "Programın kurulması için bizim ihtiyacımız olan şey azdır: hangi direklerin ya da armatürlerin kapsamda olduğu ve tercih edilen dönem. Geri kalanı, bölgede zaten çalışıyor olmamızın getirdiği pratik bilgiyle tamamlanır.",
+                ],
+            },
+            {
+                baslik: "Trafo yakınında çalışırken izin süresinin programa etkisi",
+                paragraflar: [
+                    "Trafo ya da enerji nakil hattı yakınındaki bir aydınlatma direğinde çalışmak için gereken izin süreci, standart bir direk bakımından daha uzun sürebilir; bu yüzden bu tür işleri talebi aldığımız anda önceliklendirir, izin sürecini erken başlatırız.",
+                    "İzin süreci tamamlanmadan sahaya makine göndermeyiz; bu, hem yasal hem güvenlik açısından kesin bir kuraldır. İşletme ya da kurumun bu süreci hızlandırmak için yapabileceği en iyi şey, talebi mümkün olduğunca erken bize ve enerji dağıtım şirketine iletmektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB ortak yolundaki bir aydınlatma direği arızalı; kime başvurmalıyız?",
+                cevap:
+                    "Öncelikle OSB yönetimine bildirmenizi öneririz, çünkü ortak alan bakımının maliyeti ve kararı tek bir tesise ait değildir. Bize de doğrudan ulaşabilirsiniz; tek seferlik bir müdahale yapabiliriz, ama kalıcı çözüm için OSB yönetimiyle bağlantı kurulması ve mümkünse bir yıllık programa bağlanması daha sağlıklıdır.",
+            },
+            {
+                soru: "Cadde üzerindeki aydınlatma direğinin belediyeye mi, size mi ait olduğunu bilmiyoruz. Nasıl anlarız?",
+                cevap:
+                    "Kent merkezindeki cadde aydınlatması genellikle belediyenin sorumluluğundadır; biz bu tür işlerde belediyenin ilgili birimiyle koordineli çalışırız. Talebinizi bize iletirseniz, hangi mercinin devreye girmesi gerektiğini netleştirir, gerekiyorsa belediyeye yönlendirme yaparız; sizi belirsizlikte bırakmayız.",
+            },
+            {
+                soru: "Okulumuzun dış cephe aydınlatması bozuk; öğrenci saatlerinde müdahale eder misiniz?",
+                cevap:
+                    "Öğrenci yoğunluğunun olduğu saatlerde çalışma başlatmıyoruz; bu tür işleri tatil günü ya da mesai dışı saate planlarız. Okul yönetimiyle uygun tarihi netleştirdikten sonra programımızı buna göre kurarız; acil bir güvenlik riski varsa (örneğin açık kablo) bunu istisnai olarak önceliklendiririz.",
+            },
+            {
+                soru: "Aydınlatma direğimiz bir trafoya yakın; bu, işlemi zorlaştırır mı?",
+                cevap:
+                    "Evet, bu durumda enerji dağıtım şirketiyle mesafe ve gerekiyorsa kesinti koordinasyonu netleştirilmeden çalışmaya başlamayız. Bu ek izin süreci standart bir bakımdan daha uzun sürebilir; talebi mümkün olduğunca erken bildirirseniz süreci erken başlatır, bekleme süresini kısaltırız.",
+            },
+            {
+                soru: "OSB'nin bütün aydınlatma direklerini yıllık bir programa bağlamak istiyoruz; nasıl başlarız?",
+                cevap:
+                    "OSB yönetiminin bize iletmesi gereken şey, kapsamdaki direk sayısı ve tercih edilen dönemdir. Biz bu bilgiyle bir yıllık takvim çıkarır, trafiğe en az müdahale eden saatleri belirleriz. Program bir kez kurulduktan sonra her yıl aynı dönemde otomatik olarak tekrarlanır.",
+            },
+            {
+                soru: "Kamu binasının iç aydınlatma bakımı için hangi belgeleri hazırlamamız gerekiyor?",
+                cevap:
+                    "Bu, binanın türüne göre değişir; bazı kamu binalarında yalnız bina yönetiminin onayı yeterliyken, bazılarında ayrı bir yazılı izin süreci olabilir. Sizinle birlikte hangi belgenin gerektiğini netleştirir, gerekirse başvuru için teknik bilgiyi hazırlarız; bu süreci önceden konuşmak, sahada gecikme yaşamamanın tek yoludur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB ortak alanı, belediye ve kamu binası aydınlatma sorumluluklarının farklı kurumlara ait olması kamuya açık genel idari bilgidir; trafo yakını çalışmalarda enerji dağıtım şirketiyle koordinasyon gerekliliği genel sektör bilgisidir. Yıllık program kurgusu ve talep yönlendirme firma saha pratiğidir. Tesis adı, kurum adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bozüyük OSB'de Sektöre Göre Değişen Yeterlilik Kuralları ile Operatörlü Platform Kiralama",
+        giris:
+            "OSB'de tek bir tesise değil çok sektöre hizmet veren bir tedarikçi olarak, operatörlü platform talebinde en çok karşılaştığımız fark, her sektörün ve her kamu binasının kendi güvenlik-yeterlilik prosedürüne sahip olmasıdır. Bir seramik tesisinin giriş prosedürü ile bir kamu binasının güvenlik kontrolü, bir OSB ortak alanının trafik kuralları birbirinden farklıdır ve operatörümüzün her birine ayrı ayrı uyum sağlaması gerekir. Kent merkezindeki küçük bir esnaf işletmesinde ise genellikle böyle bir resmî prosedür yoktur, ama dükkân sahibinin kendi beklentisi — sessiz çalışma, hızlı bitirme — belirleyici olur. Bu sayfada operatörlü platform kiralamanın OSB, kamu binası ve kent merkezi esnafı arasında nasıl farklılaştığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB'deki tesislerin kendi giriş-güvenlik prosedürü",
+                metin:
+                    "OSB'deki her tesisin kendi giriş kaydı, iş güvenliği eğitimi ya da özel ekipman zorunluluğu olabilir; bazı tesisler operatörden baret-yelek dışında ayrıca kendi iş güvenliği brifingine katılmasını isteyebilir. Operatörümüz, hangi tesise gideceğini önceden bilir ve o tesisin prosedürüne uygun evrak ve ekipmanla sahaya gider; bu bilgiyi işletmeden keşif aşamasında alırız.",
+            },
+            {
+                baslik: "Kamu binasında ek güvenlik kontrolü ve yetkilendirme",
+                metin:
+                    "Kamu binalarında çalışacak operatörün kimlik kontrolü, bazen önceden bildirilmiş bir isim listesi ve güvenlik görevlisi eşliğinde giriş gibi ek adımlar gerekebilir. Bu adımlar standart bir OSB tesisine göre daha resmî ve zaman alıcıdır; bu yüzden kamu binası işlerinde operatör bilgisini ve varsa kimlik belgesi kopyasını işten önce ilgili birime iletiriz.",
+            },
+            {
+                baslik: "Kent merkezi esnafında resmî prosedür yerine pratik beklenti",
+                metin:
+                    "Kent merkezindeki bir dükkân ya da küçük işletmede genellikle resmî bir güvenlik prosedürü yoktur; işletme sahibinin beklentisi daha çok işin hızlı, sessiz ve müşteri trafiğini bozmadan bitirilmesidir. Operatörümüz bu tür işlerde daha esnek ama aynı derecede dikkatli çalışır — komşu işyerlerinin girişini kapatmamaya, gürültüyü sınırlamaya özen gösterir.",
+            },
+            {
+                baslik: "Operatörsüz kiralamada yeterlilik belgesi kontrolü",
+                metin:
+                    "İşletme kendi personeliyle operatörsüz kiralama tercih ettiğinde, kullanacak personelin yürürlükteki mevzuata uygun bir yeterlilik belgesine sahip olması gerekir. Bu belgeyi teslim öncesi kontrol eder, eksikse kiralamayı operatörlü seçeneğe yönlendiririz; belgesiz personelin makineyi kullanmasına izin vermeyiz, bu kural OSB'de, kamu binasında ve kent merkezinde aynı şekilde uygulanır.",
+            },
+            {
+                baslik: "Farklı prosedürlere aynı operatörün uyum sağlaması",
+                metin:
+                    "Aynı operatörün bir hafta içinde OSB'deki bir seramik tesisinde, ertesi gün kamu binasında, bir başka gün kent merkezindeki bir esnaf dükkânında çalışması, her ortamın kendi kuralına hızlı uyum sağlayabilen bir deneyim gerektirir. Bu çok ortamlı deneyim, operatörümüzün her yeni sahada ilk sorması gereken şeyi — giriş kuralı mı, güvenlik kontrolü mü, yoksa sadece sessizlik beklentisi mi — hızlı ayırt etmesini sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ortam tipine göre operatör prosedürü",
+                paragraflar: [
+                    "OSB, kamu binası ve kent merkezi esnafında operatörlü çalışmanın tipik prosedür farkını aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Tipik prosedür", "Ek belge", "Belirleyici beklenti"],
+                    satirlar: [
+                        ["OSB sanayi tesisi", "Giriş kaydı, iş güvenliği brifingi", "Baret, yelek, bazen ek eğitim", "Tesis kuralına uyum"],
+                        ["Kamu binası", "Kimlik kontrolü, isim listesi", "Kimlik belgesi kopyası", "Güvenlik prosedürü"],
+                        ["Kent merkezi esnaf", "Genellikle resmî prosedür yok", "Gerekmez", "Hız ve sessizlik"],
+                        ["OSB ortak alanı", "OSB yönetimi bilgilendirmesi", "Bazen araç kaydı", "Trafik kuralına uyum"],
+                        ["Operatörsüz kiralama", "Personel yeterlilik kontrolü", "Yeterlilik belgesi", "Belge geçerliliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör deneyiminin çok ortamlı işlerde avantajı",
+                paragraflar: [
+                    "Farklı ortamlarda düzenli çalışan bir operatörün en büyük avantajı, yeni bir sahaya girerken hangi soruyu önce sorması gerektiğini bilmesidir — bu, OSB'deki bir tesiste giriş kaydı mı, kamu binasında kimlik kontrolü mü, yoksa kent merkezinde yalnızca sessiz çalışma beklentisi mi olduğunu hızlı ayırt etmesini sağlar.",
+                    "Bu deneyim, işletmeler için de bir avantaja dönüşür: operatörümüz kendi prosedürünüzü ilk kez öğrenen biri gibi değil, benzer prosedürleri daha önce uygulamış biri gibi davranır ve uyum süresi kısalır.",
+                ],
+            },
+            {
+                baslik: "Yeterlilik belgesi kontrolünün tutarlılığı",
+                paragraflar: [
+                    "Operatörsüz kiralamada yeterlilik belgesi kontrolü, ortam ne olursa olsun aynı standartta uygulanır — OSB'deki büyük bir tesiste de, kent merkezindeki küçük bir dükkânda da belgesiz personelin makineyi kullanmasına izin vermeyiz. Bu, hem yasal hem güvenlik açısından değiştirilmeyen bir kuraldır.",
+                    "Belgesi olmayan ama makineyi kullanmak isteyen bir personel varsa, bu durumda operatörlü kiralamaya yönlendiririz; bu, işletmenin ek bir maliyet üstlenmesi anlamına gelse de güvenlik açısından tek doğru seçenektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'deki tesisimizin kendi güvenlik eğitimi var; operatörünüz buna katılır mı?",
+                cevap:
+                    "Evet, tesisinizin talep ettiği güvenlik eğitimine ya da brifinge operatörümüzü göndeririz; bu bilgiyi keşif aşamasında bize iletmeniz, sahaya gelmeden önce hazırlık yapmamızı sağlar. Eğitim süresi işin toplam süresine eklenir, bunu teklif aşamasında açıkça gösteririz.",
+            },
+            {
+                soru: "Kamu binasında çalışacak operatörün kimlik bilgisini önceden vermemiz gerekiyor mu?",
+                cevap:
+                    "Genellikle evet, çoğu kamu binası önceden bildirilmiş bir isim listesi ve kimlik kontrolü ister. Operatör bilgisini ve gerekiyorsa kimlik belgesi kopyasını işten önce ilgili birime iletiriz; bu süreç bazen birkaç gün alabileceği için talebi erken bildirmenizi öneririz.",
+            },
+            {
+                soru: "Kent merkezindeki dükkânımızda resmî bir prosedürümüz yok; operatörünüz nasıl çalışır?",
+                cevap:
+                    "Resmî bir prosedür olmasa da operatörümüz komşu işyerlerinin girişini kapatmama, gürültüyü sınırlama ve işi mümkün olduğunca hızlı bitirme konusunda dikkatli çalışır. Sizin özel bir beklentiniz varsa (örneğin belirli bir saatte kapı önünün boş olması) bunu işten önce bize iletmeniz yeterli.",
+            },
+            {
+                soru: "Kendi personelimizle operatörsüz kiralamak istiyoruz; hangi belge gerekiyor?",
+                cevap:
+                    "Kullanacak personelin yürürlükteki mevzuata uygun bir yeterlilik belgesine sahip olması gerekir. Bu belgeyi teslim öncesi kontrol ederiz; eksikse operatörlü seçeneğe yönlendiririz. Bu kural OSB'de, kamu binasında ve kent merkezinde aynı şekilde, istisnasız uygulanır.",
+            },
+            {
+                soru: "Aynı hafta hem OSB'deki tesisimize hem kamu binasına operatörlü platform lazım; farklı operatör mü gelir?",
+                cevap:
+                    "Aynı operatör her iki işe de gidebilir, ancak her ortamın kendi prosedürüne uyum için farklı hazırlık gerekebilir — kamu binası için kimlik bilgisi, OSB tesisi için giriş kaydı gibi. Bu hazırlıkları önceden yapar, operatörün her iki sahada da sorunsuz giriş yapmasını sağlarız.",
+            },
+            {
+                soru: "OSB ortak yolunda çalışacak operatörün ayrıca OSB yönetimine bildirilmesi gerekiyor mu?",
+                cevap:
+                    "Genellikle evet, ortak alan çalışmaları için OSB yönetimine bilgi verilmesi ve bazen araç kaydı yapılması gerekir. Bu bildirimi biz üstleniriz; sizden istediğimiz, çalışmanın OSB ortak alanında olduğunu ve varsa özel bir kısıtı önceden bize bildirmenizdir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB tesislerinin, kamu binalarının ve kent merkezi esnafının farklı güvenlik-giriş prosedürlerine sahip olması genel gözlemdir; operatörsüz kiralamada yeterlilik belgesi zorunluluğu yürürlükteki mevzuata dayanır. Prosedür uyum yaklaşımı firma saha pratiğidir. Tesis adı, kurum adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bozüyük OSB, Kent Merkezi Esnafı ve Kamu Binaları Arasında Çok Noktalı Rota Bakım Programı",
+        giris:
+            "Bozüyük'te tek bir günde OSB'deki bir tesisin çatı kontrolünü, kent merkezindeki üç farklı esnaf dükkânının tabela bakımını ve bir kamu binasının cephe aydınlatmasını aynı rotada birleştirmek, bizim düzenli olarak kurduğumuz bir program türüdür. Bu tür bir rota, her durağın kendi küçük ölçekli ve tarih esnekliği olan bir işe sahip olmasını gerektirir; tek başına planlandığında ekonomik olmayan bu işler, aynı güzergâh üzerinde birleştirildiğinde hem işletmeler hem bizim için verimli hâle gelir. Bu sayfada çok noktalı rota bakım programının OSB, kent merkezi ve kamu binaları arasında nasıl kurulduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Rota kurgusunun temel mantığı: küçük iş, esnek tarih",
+                metin:
+                    "Çok noktalı bir rotaya girebilecek işin iki temel özelliği vardır: ölçeğinin küçük olması (yarım günü aşmayan) ve tarihinin katı bir saate bağlı olmaması. Bu iki koşulu sağlayan işler — bir tabela değişimi, bir aydınlatma armatürü kontrolü, kısa bir çatı gözden geçirmesi — aynı güne, hatta aynı güzergâha yerleştirilebilir. Katı saat taahhüdü olan işler bu modele girmez ve ayrı planlanır.",
+            },
+            {
+                baslik: "OSB'den kent merkezine geçiş sırasının planlanması",
+                metin:
+                    "Bir rota genellikle OSB içindeki işle başlar, çünkü OSB'nin geniş yolları sabah trafiğinden daha az etkilenir; ardından kent merkezine geçilir ve buradaki işler mümkünse öğle öncesi ya da öğleden sonra trafiğin düştüğü saate denk getirilir. Kamu binası işleri ise genellikle bina yönetiminin belirlediği pencereye göre rotanın başına ya da sonuna eklenir.",
+            },
+            {
+                baslik: "Duraklar arası bekleme süresinin verimliliğe etkisi",
+                metin:
+                    "Bir rotanın verimliliği, duraklar arası geçen sürenin toplam iş süresine oranıyla ölçülür; eğer güzergâh üzerindeki duraklar birbirine çok uzaksa, yol süresi sahadaki üretken süreyi geçmeye başlar. Bu yüzden bir rotaya kaç durak ekleyeceğimize karar verirken önce coğrafi yakınlığı, sonra her durağın süresini değerlendiririz.",
+            },
+            {
+                baslik: "Kamu binası işlerinin rotaya sıkı zamanlama getirmesi",
+                metin:
+                    "Kamu binası işleri genellikle rotanın diğer duraklarından farklı olarak katı bir zaman penceresine sahiptir — mesai dışı saat, tatil günü gibi. Bu tür bir durak rotaya eklendiğinde, o durağın etrafındaki diğer duraklar bu pencereye göre yeniden sıralanır; kamu binası işi genellikle rotanın ilk ya da son durağı olarak planlanır.",
+            },
+            {
+                baslik: "Sabit rotanın işletmelere kazandırdığı öngörülebilirlik",
+                metin:
+                    "Düzenli tekrar eden küçük bakım ihtiyacı olan işletmeler ve kurumlar için, bizim belirli bir güzergâhı belirli aralıklarla dolaştığımızı bilmek, her seferinde yeniden talep oluşturmalarına gerek bırakmaz. Bu tür işletmelerle önceden bir rota takvimi paylaşır, bir sonraki geçişimizin ne zaman olacağını bildiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rotada tipik durak profili",
+                paragraflar: [
+                    "Bozüyük'teki bir çok noktalı rotada karşılaştığımız tipik durak profillerini ve sıralamadaki yerini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Durak tipi", "Tipik iş", "Rotadaki yeri", "Zamanlama kısıtı"],
+                    satirlar: [
+                        ["OSB tesisi", "Çatı, aydınlatma kontrolü", "Rota başlangıcı", "Trafik dışı sabah"],
+                        ["Kent merkezi esnaf", "Tabela, vitrin aydınlatması", "Rota ortası", "Öğle dışı saat"],
+                        ["Kamu binası", "Cephe, dış aydınlatma", "Rota başı ya da sonu", "Mesai dışı/tatil"],
+                        ["OSB ortak alanı", "Giriş, çevre yolu bakımı", "Rota içi esnek", "Trafik dışı saat"],
+                        ["İdare binası", "İç-dış küçük kalemler", "Rota sonu", "Mesai öncesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planlamasında coğrafi kümeleme",
+                paragraflar: [
+                    "Bir rotayı kurarken önce coğrafi olarak birbirine yakın duraklar bir küme olarak belirlenir; OSB içindeki ya da kent merkezindeki komşu adresler aynı küme içinde art arda sıralanır. Farklı kümeler arasındaki geçiş, günün en az bir kez yapılması gereken bir hareket olarak planlanır ve bu geçişin süresi rotanın toplam verimliliğini doğrudan etkiler.",
+                    "Yeni bir talep geldiğinde önce hangi kümeye coğrafi olarak en yakın olduğunu değerlendirir, mevcut bir rotaya eklenip eklenemeyeceğini kontrol ederiz; eklenemiyorsa yeni bir rota ya da tekil sevkiyat gerekip gerekmediğini birlikte değerlendiririz.",
+                ],
+            },
+            {
+                baslik: "Düzenli rota takviminin işletmeye faydası",
+                paragraflar: [
+                    "Bir işletme ya da kurum, bizim düzenli bir rotayla o bölgeye ne sıklıkla geldiğimizi bilirse, kendi küçük bakım kalemlerini bu geçişe göre biriktirebilir ve her seferinde ayrı bir talep oluşturmak zorunda kalmaz. Bu, hem işletme hem bizim için öngörülebilir bir düzen kurar.",
+                    "Rota takviminde bir değişiklik olduğunda (örneğin bir durağın kaldırılması ya da eklenmesi) ilgili tüm taraflara önceden haber veririz; sessizce değiştirmeyiz, çünkü bu, işletmelerin kendi planlamasını bozar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İşimiz çok küçük, tek başına makine göndermeniz mantıklı olmaz. Rotaya eklenebilir miyiz?",
+                cevap:
+                    "Büyük olasılıkla evet, işiniz küçük ölçekli ve tarih esnekliğiniz varsa bölgedeki mevcut ya da planlanan bir rotaya eklenebilirsiniz. Adresinizi ve işinizin ne kadar süreceğini bildirirseniz, en yakın rotaya uygun düşüp düşmediğini hemen kontrol ederiz. Uymuyorsa yeni bir rota oluşturma ya da tekil sevkiyat seçeneklerini konuşuruz.",
+            },
+            {
+                soru: "Rota içindeki bir durak bizden önce gecikirse, sıramız kayar mı?",
+                cevap:
+                    "Olabilir, ama tarih esnekliği olan işlerde bu genellikle o günün içinde telafi edilir; gecikme büyükse bir sonraki rotaya kaydırılır ve bu size önceden bildirilir. Katı bir saat taahhüdüne ihtiyacınız varsa, işinizi rota dışında ayrı planlamayı öneririz.",
+            },
+            {
+                soru: "Kamu binamızın işi mesai dışı saate denk getirilecek; bu, rotanın diğer duraklarını etkiler mi?",
+                cevap:
+                    "Evet, kamu binası gibi katı zamanlamalı duraklar genellikle rotanın başına ya da sonuna yerleştirilir ve diğer duraklar bu pencereye göre sıralanır. Bu, rotanın toplam süresini biraz uzatabilir ama katı zamanlama gerektiren işlerin doğru şekilde karşılanmasını sağlar.",
+            },
+            {
+                soru: "Bölgemize ne sıklıkla rota geliyor, önceden öğrenebilir miyiz?",
+                cevap:
+                    "Evet, düzenli tekrar eden bir rota takvimimiz varsa bunu sizinle paylaşırız; bir sonraki geçişin ne zaman olacağını bilerek kendi küçük bakım kalemlerinizi biriktirebilirsiniz. Rota takviminde bir değişiklik olursa bunu önceden bildiririz, sessizce değiştirmeyiz.",
+            },
+            {
+                soru: "Rotadaki duraklar birbirine çok mu yakın olmalı, yoksa uzak duraklar da olabilir mi?",
+                cevap:
+                    "Coğrafi yakınlık verimliliği doğrudan etkiler; birbirine çok uzak duraklar rotanın yol süresini artırır ve toplam verimliliği düşürür. Bu yüzden rotayı kurarken önce coğrafi kümeleme yapar, uzak bir talebi mevcut rotaya değil ayrı bir sevkiyata ya da yeni bir kümeye yönlendiririz.",
+            },
+            {
+                soru: "OSB'deki işimiz ile kent merkezindeki dükkânımız aynı rotada mı olur?",
+                cevap:
+                    "Coğrafi mesafe ve güzergâh uygunsa evet, ikisi aynı rotada art arda planlanabilir; OSB'nin geniş yolları genellikle rotanın başlangıç durağı, kent merkezi ise ortası ya da sonu olur. İkisinin de tarih esnekliği varsa bu birleşim, sevkiyat maliyetini belirgin şekilde düşürür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB, kent merkezi esnafı ve kamu binalarının Bozüyük'te farklı coğrafi ve idari konumda bulunması kamuya açık genel bilgidir. Çok noktalı rota kurgusu, coğrafi kümeleme ve zamanlama önceliklendirmesi firma saha pratiğidir. Tesis adı, işletme adı, kurum adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bozüyük OSB'de Yeni Gelişen Parsellerde ve Kırsal Alanda Zor Zemin Platform Kiralama",
+        giris:
+            "Bozüyük OSB'nin büyümekte olan bölümlerinde ve ilçeye bağlı kırsal alanlarda platform çalışması, her zaman tamamlanmış bir beton zeminde gerçekleşmez. Yeni tahsis edilmiş bir OSB parselinde inşaat henüz başlamadan önce zemin sıkıştırılmış dolgu ya da doğal toprak hâlindedir; kırsal bir tarım tesisinde ise zemin mevsime göre kuru toz ya da çamur olabilir. Bu iki farklı zor zemin senaryosu, aynı temel prensiple yönetilir: makinenin ağırlığını taşıyacak zemin taşıma gücünü önceden değerlendirmek ve gerekiyorsa destek önlemi almak. Bu sayfada OSB'nin gelişmekte olan bölümlerinde ve kırsal alanda zor zemin koşullarında platform kiralamanın nasıl planlandığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Yeni tahsis edilen OSB parselinde henüz düzenlenmemiş zemin",
+                metin:
+                    "OSB'de yeni tahsis edilmiş bir parselde inşaat henüz başlamadan önce zemin genellikle doğal toprak ya da kaba dolgu hâlindedir ve bu zeminin taşıma gücü standart bir beton zemine göre belirsizdir. Bu aşamada elektrik direği çalışması ya da geçici aydınlatma kurulumu gibi işler gerekebilir; keşifte zemin sıkışıklığını gözle ve basit bir test ile değerlendirir, gerekirse yük dağıtım plakası kullanırız.",
+            },
+            {
+                baslik: "OSB büyüme sınırındaki henüz asfaltlanmamış yollar",
+                metin:
+                    "OSB'nin yeni gelişen bölümlerinde bazı iç yollar henüz asfaltlanmamış, stabilize hâlindedir; bu yollar yağış sonrası çamurlaşabilir ve ağır bir makinenin geçişini zorlaştırabilir. Bu tür bölgelere sevkiyat öncesi güncel yol durumunu sorar, riskli görünüyorsa daha hafif bir makine sınıfına geçer ya da hava koşulu düzelene kadar erteleriz.",
+            },
+            {
+                baslik: "Kırsal tarım tesisinde mevsimsel zemin değişimi",
+                metin:
+                    "Kırsal bir tarım ya da silo tesisinin çevresi, yaz aylarında sert ve düz olsa da sonbahar-kış yağışlarından sonra çamurlaşabilir; bu değişkenlik OSB'deki tamamlanmış zeminlere göre çok daha belirgindir. Her ziyaret öncesi zemin durumunu güncel olarak değerlendirir, bir önceki ay uygun olan bir noktanın bu ay uygun olmayabileceğini göz önünde bulundururuz.",
+            },
+            {
+                baslik: "Destek ayağı altına yük dağıtım plakası kullanımı",
+                metin:
+                    "Zemin taşıma gücü sınırlı olduğunda, makinenin destek ayaklarının altına geniş yüzeyli yük dağıtım plakaları yerleştirilerek zemine binen basınç yayılır. Bu basit ama etkili önlem, hem OSB'nin henüz düzenlenmemiş parsellerinde hem kırsal tesislerde standart bir uygulamadır; keşifte zemin türüne göre plaka boyutu belirlenir.",
+            },
+            {
+                baslik: "Zemin uygun değilse çalışmanın ertelenmesi kararı",
+                metin:
+                    "Zemin taşıma gücü, plaka kullanımına rağmen güvenli seviyeye çıkarılamıyorsa çalışmayı erteleriz; daha ağır ya da daha büyük bir makine kullanmak zemin sorununu çözmez, aksine riski artırır. Bu karar bazen işletme için can sıkıcı olsa da, operatör ve makine güvenliği açısından taviz verilmeyen bir kuraldır ve nedenini her zaman açıkça anlatırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB gelişen bölümü ile kırsal alan arasında zemin karşılaştırması",
+                paragraflar: [
+                    "OSB'nin yeni gelişen bölümleri ile Bozüyük'e bağlı kırsal alandaki zor zemin koşullarını ve alınan önlemi aşağıdaki tabloda karşılaştırdık.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Zemin türü", "Mevsimsel değişkenlik", "Alınan önlem"],
+                    satirlar: [
+                        ["Yeni OSB parseli", "Doğal toprak, kaba dolgu", "Orta, yağışa bağlı", "Yük dağıtım plakası"],
+                        ["OSB stabilize iç yol", "Sıkıştırılmış dolgu", "Yüksek, yağışla çamurlaşma", "Küçük araç, erteleme"],
+                        ["Kırsal tarım tesisi çevresi", "Tarla toprağı", "Çok yüksek, mevsimsel", "Güncel kontrol, plaka"],
+                        ["OSB tamamlanmış parsel", "Beton", "Düşük", "Standart çalışma"],
+                        ["Kırsal stabilize yol", "Stabilize", "Yüksek", "Sevkiyat öncesi teyit"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin değerlendirmesinin her ziyarette tekrarlanması",
+                paragraflar: [
+                    "Zor zemin koşullarında en önemli kural, bir önceki ziyarette uygun olan bir zeminin bu ziyarette de uygun olacağını varsaymamaktır. Yağış, ekipman trafiği ya da mevsim değişimi, aynı noktanın taşıma gücünü haftalar içinde değiştirebilir. Bu yüzden her ziyaret öncesi zemin gözle ve gerekirse basit bir test ile yeniden değerlendirilir.",
+                    "Bu tekrarlı değerlendirme, işletme için ek bir bekleme anlamına gelmez — genellikle sahaya varıştan önce operatörün hızlı bir gözlemiyle tamamlanır; yalnızca şüpheli durumlarda daha detaylı bir kontrol ve gerekiyorsa erteleme kararı devreye girer.",
+                ],
+            },
+            {
+                baslik: "Arazi tipi makine ile standart makine arasındaki seçim",
+                paragraflar: [
+                    "Zor zemin koşullarında bazen standart tekerlekli bir makine yerine arazi tipi (dört çeker, geniş lastikli) bir makine sınıfı tercih edilir; bu sınıf daha iyi tutunma sağlasa da her zemin sorununu çözmez — çok yumuşak ya da su birikmiş bir zeminde arazi tipi makine de saplanabilir.",
+                    "Bu yüzden makine sınıfı seçimini yalnızca 'daha güçlü makine' mantığıyla değil, zeminin gerçek taşıma gücü değerlendirmesiyle yaparız; bazı durumlarda doğru cevap daha güçlü bir makine değil, zeminin kurumasını beklemektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni tahsis edilen OSB parselimizde inşaat henüz başlamadı; zemin platform için uygun mu?",
+                cevap:
+                    "Keşifte zeminin taşıma gücünü değerlendiririz; doğal toprak ya da kaba dolgu genellikle destek ayaklarının altına yük dağıtım plakası koyarak yönetilebilir. Zemin çok yumuşaksa çalışmayı erteler ya da daha hafif bir makine sınıfına geçeriz. Parselinizin son durumu hakkında bilginiz varsa (dolgu ne zaman yapıldı, sıkıştırma standardı) bu bilgiyi paylaşmanız değerlendirmeyi hızlandırır.",
+            },
+            {
+                soru: "OSB'nin yeni bölümündeki iç yol henüz asfaltlanmamış; yağışlı havada makine gelebilir mi?",
+                cevap:
+                    "Yol durumuna bağlı; sevkiyat öncesi güncel durumu sorar, çamurlanmış görünüyorsa daha hafif bir makineye geçer ya da hava koşulu düzelene kadar erteleriz. Bu, gecikme değil güvenlik kararıdır; alternatif bir tarihi birlikte belirleriz.",
+            },
+            {
+                soru: "Kırsal tesisimizin çevresi geçen ay sertti, bu ay yağış oldu; aynı noktada çalışabilir miyiz?",
+                cevap:
+                    "Bunu varsaymayız; her ziyaret öncesi zemini yeniden değerlendiririz, çünkü yağış taşıma gücünü önemli ölçüde değiştirebilir. Geçen ay uygun olan bir nokta bu ay yumuşamış olabilir; operatörümüz sahaya vardığında hızlı bir gözlem yapar, şüpheli durumda daha detaylı kontrol ister.",
+            },
+            {
+                soru: "Destek ayağı altına konan plaka her zemin için yeterli mi?",
+                cevap:
+                    "Hayır, plaka zemin taşıma gücünü belirli bir ölçüde iyileştirir ama sınırsız değildir. Çok yumuşak ya da su birikmiş bir zeminde plaka bile yeterli olmayabilir; bu durumda çalışmayı erteleriz. Plaka boyutunu zeminin türüne göre keşifte belirleriz, standart bir boyut her koşulda yeterli olmayabilir.",
+            },
+            {
+                soru: "Zemin uygun değil diye çalışma ertelenirse, ne kadar süre sonra tekrar denenir?",
+                cevap:
+                    "Bu, erteleme nedenine bağlıdır; yağış sonrası bir erteleme genellikle birkaç gün içinde zeminin kurumasıyla çözülür, biz de o dönemde durumu takip edip size güncel bilgi veririz. Kalıcı bir zemin sorunu varsa (örneğin sürekli su birikmesi) alternatif bir konum ya da farklı bir yaklaşım önerisiyle geliriz.",
+            },
+            {
+                soru: "Arazi tipi makine kullanırsak zemin sorununu tamamen atlatabilir miyiz?",
+                cevap:
+                    "Kısmen; arazi tipi makine daha iyi tutunma sağlar ama çok yumuşak ya da su birikmiş bir zeminde o da saplanabilir. Karar, yalnızca makine sınıfına değil zeminin gerçek durumuna göre verilir; bazen doğru çözüm daha güçlü bir makine değil, zeminin kurumasını beklemektir. Bunu keşifte birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB'de yeni tahsis edilen parsellerin inşaat öncesi zemin durumu ve kırsal alanların mevsimsel zemin değişkenliği genel gözlemdir. Yük dağıtım plakası kullanımı ve zemin değerlendirme yöntemi sektör geneli saha pratiğidir. Tesis adı, işletme adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

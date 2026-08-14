@@ -901,4 +901,1082 @@ export const MANLIFTKIRALA_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Deri İhtisas OSB'nin kendi ortak atık su arıtma altyapısına sahip olması ve deri üretiminin ıslatma-tabaklama-kurutma-bitirme aşamalarından oluşması sektör geneli bilgidir; süreç bazlı bakım penceresi planlaması ve OSB koordinasyon kanalı kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Vardiya Arası Kısa Pencerede Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Denizli'nin tekstil ve mermer ağırlıklı sanayi dokusunda sepetli örümcek platform talebi çoğu zaman büyük bir işten değil, dar bir yerden çıkar: bir dokuma hattının üstündeki ışıklığa ulaşmak, bir depo koridorunun dar kapısından geçmek, mermer atölyesinin sıkışık taşlar arasındaki bir noktaya erişmek. Bu sayfanın anlattığı, örümcek platformun teknik esnekliğinden çok, bu esnekliğin vardiyalı bir üretim düzeninde nasıl kullanıldığıdır. Üç vardiyalı bir tekstil hattında ya da iki vardiyalı bir işlikte, dar bir noktaya erişim işi genellikle uzun bir duruş gerektirmez — kısa, dar şaseli bir makinenin birkaç dakikalık bir vardiya boşluğuna girip çıkması yeterlidir. Bizim rolümüz, bu kısa pencereye hem ölçü hem zamanlama olarak uyan makineyi göndermektir; geniş şaseli bir platform dar koridora girmediği gibi, vardiya penceresini bilmeden gönderilen bir makine de o pencereyi kaçırır.",
+        maddeler: [
+            {
+                baslik: "Dar geçit ölçüsü kadar vardiya penceresi de belirleyicidir",
+                metin:
+                    "Örümcek platform talebinde standart soru hedef yükseklik ve en dar geçit ölçüsüdür, ama vardiyalı bir tesiste üçüncü bir soru daha sorarız: bu noktaya ne zaman erişilebilir? Dokuma hattının üstündeki bir ışıklık, hat çalışırken erişilemez; erişim ancak parti geçişinde ya da vardiya değişiminde açılır. Bu yüzden ölçü bilgisiyle birlikte vardiya bilgisini de topladığımızda, hem makinenin hem zamanın sahaya uyduğu bir teklif çıkar.",
+            },
+            {
+                baslik: "Kısa pencereye önceden konumlanmış makine",
+                metin:
+                    "Vardiya değişimi ya da parti geçişi genellikle birkaç dakikalık bir boşluk açar ve bu boşluk, makine sahaya o an geliyorsa büyük ölçüde kaybolur. Örümcek platformun avantajı tam burada devreye girer: küçük şasesi ve hızlı kurulumu sayesinde pencere açılmadan önce sahaya alınıp konumlandırılabilir, pencere açılır açılmaz iş başlar. Bu, geniş şaseli bir makinenin aynı pencerede yapamayacağı bir hız kazandırır.",
+            },
+            {
+                baslik: "Mermer atölyesinde sıkışık taşlar arasında erişim",
+                metin:
+                    "Mermer işleme atölyelerinde bloklar ve işlenmiş taşlar arasındaki geçitler genellikle dardır ve standart bir platform bu aralıklardan geçemez. Örümcek platformun katlanabilir kolları, taşlar arasında dar bir koridordan geçip hedef noktaya ulaşmayı mümkün kılar. Ancak atölyenin kesim programı burada da belirleyicidir — bloklar arasında hareket, kesim ya da taşıma işlemi sürerken güvenli değildir; erişim, hattın durduğu ya da taşıma trafiğinin sakinleştiği saatlere denk getirilir.",
+            },
+            {
+                baslik: "Kısa iş, uzun bekleme olmadan tamamlanır",
+                metin:
+                    "Örümcek platform gerektiren işler genellikle kısa kalemlerdir — bir armatür kontrolü, bir sensör değişimi, bir boru kelepçesi. Vardiya penceresi doğru bilindiğinde bu işler tek bir kısa ziyarette biter ve tesisin üretim akışı bölünmez. Vardiya bilgisi eksikse, makine sahaya doğru zamanda gelmez ve kısa bir iş, üretim akışını kesintiye uğratacak şekilde uzayabilir; bu yüzden talep alırken vardiya bilgisini eksiksiz almayı önceliğimiz sayıyoruz.",
+            },
+            {
+                baslik: "Vardiya sorumlusuyla doğrudan koordinasyon",
+                metin:
+                    "Kısa süreli ve dar noktalı işlerde muhatap genellikle vardiya amiri ya da bakım sorumlusudur, üst yönetim değil. Talebi bu kişiyle doğrudan kurmak, hem pencere bilgisini hem sahadaki dar noktaların gerçek ölçüsünü en hızlı netleştiren yoldur. Düzenli çalıştığımız tesislerde bu iletişim kanalı zamanla sabitlenir; her seferinde yeniden anlatmaya gerek kalmadan, vardiya sorumlusu bize doğrudan pencereyi ve ölçüyü bildirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Erişim tipi ve uygun vardiya penceresi eşlemesi",
+                paragraflar: [
+                    "Denizli'deki tekstil, mermer ve deri işletmelerinde sık karşılaştığımız dar erişim türlerini ve bunlara uyan vardiya penceresini aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Tipik engel", "Uygun pencere", "Muhatap"],
+                    satirlar: [
+                        ["Hat üstü ışıklık/armatür", "Hat çalışırken erişilemez", "Parti geçişi, vardiya arası", "Vardiya amiri"],
+                        ["Dar depo koridoru", "Şase genişliği sınırı", "Sevkiyat trafiğinin düşük olduğu saat", "Depo sorumlusu"],
+                        ["Mermer blokları arası", "Kesim ve taşıma trafiği", "Hat durması, taşıma arası", "Üretim şefi"],
+                        ["Bahçe/avlu dar girişi", "Standart platform giremiyor", "İşletme sahibinin uygun saati", "İşletme sahibi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ölçü ve pencere bilgisini aynı görüşmede toplamak",
+                paragraflar: [
+                    "Talep aldığımızda hedef yükseklik ve en dar geçit ölçüsünü sorduğumuz aynı görüşmede vardiya ya da erişim penceresini de sorarız — bu iki bilginin ayrı ayrı, farklı zamanlarda toplanması sahada gecikmeye yol açar. Vardiya bilgisi netse, makineyi bir önceki vardiyanın bitişine göre konumlandırır, pencere açılır açılmaz işe başlarız.",
+                    "Vardiya bilgisi belirsizse ya da işletme sahibi bunu kesin bilmiyorsa, talebi vardiya amiriyle veya bakım sorumlusuyla doğrudan teyit etmesini öneririz; bu kısa ek adım, sahada makinenin boş beklemesini önler.",
+                ],
+            },
+            {
+                baslik: "Kısa işlerin birikmesi ve tek ziyarette toplanması",
+                paragraflar: [
+                    "Örümcek platform gerektiren dar noktalı işler genellikle tek başına küçük kalemlerdir ve her biri için ayrı sevkiyat, nakliye ağırlıklı bir maliyet oluşturur. Aynı tesiste birikmiş birkaç dar noktalı işi (farklı hatlarda birkaç armatır, birkaç sensör) aynı vardiya penceresine sığdırıp tek ziyarette tamamlamak mümkündür.",
+                    "Bunun için tesisin bakım listesini önceden bilmemiz gerekir; düzenli çalıştığımız işletmelerden aylık bir dar-nokta listesi almayı ve bunu uygun bir vardiya penceresine tek seferde yerleştirmeyi öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hattımızın üstündeki bir ışıklığa erişmemiz gerekiyor, hat hiç durmuyor; nasıl planlarız?",
+                cevap:
+                    "Hat tamamen durmasa da parti geçişleri arasında kısa duraklamalar olur; bu, örümcek platform gibi hızlı kurulan bir makine için genellikle yeterlidir. Vardiya amirinizden bu duraklamanın ne zaman ve ne kadar süreceğini öğrenir, makineyi bir önceki vardiyanın bitişine göre sahaya alır, pencere açılır açılmaz işe başlarız. Duraklama gerçekten yoksa alternatif olarak hafta sonu tek vardiyaya düşen dönemi değerlendiririz.",
+            },
+            {
+                soru: "Depomuzun kapısı çok dar, standart platform giremiyor; örümcek platform buraya girer mi?",
+                cevap:
+                    "Büyük olasılıkla evet, dar geçit tam olarak örümcek platformun çözdüğü durumdur. En dar geçit ölçüsünü (kapı genişliği) paylaşmanız, uygun şase genişliğine sahip modeli belirlememiz için yeterli. Şase genişliğinin de bir alt sınırı olduğunu unutmayın; ölçü aşırı darsa bunu dürüstçe söyler, alternatif bir erişim noktası ya da farklı bir makine sınıfı öneririz.",
+            },
+            {
+                soru: "Mermer atölyemizde bloklar arası dar bir noktaya erişim gerekiyor, ne zaman uygun olur?",
+                cevap:
+                    "Kesim ve taşıma trafiğinin sakinleştiği saatlerde. Bloklar arasında hareket, kesim ya da taşıma işlemi sürerken güvenli değildir; bu yüzden üretim şefinizden hattın durduğu ya da taşıma trafiğinin düştüğü saatleri öğrenir, erişimi tam o pencereye göre planlarız. Kesim programınızı önceden paylaşırsanız, planlama daha kesin olur ve sahada bekleme yaşanmaz.",
+            },
+            {
+                soru: "İşimiz çok kısa, bir sensör değişimi gibi; yine de tam bir sevkiyat mı gerekiyor?",
+                cevap:
+                    "Evet ama kısa işler için süreç ağırlaştırılmaz — vardiya penceresi doğru bilindiğinde tek kısa bir ziyarette iş biter. Eğer tesiste birikmiş başka dar noktalı küçük işler varsa (başka bir hatta bir armatür, başka bir noktada bir kontrol), bunları aynı vardiya penceresine sığdırıp tek seferde tamamlamayı öneririz; bu, hem sizin hem bizim için nakliye maliyetini düşürür.",
+            },
+            {
+                soru: "Vardiya amirimizle mi görüşmeliyiz, yoksa doğrudan işletme sahibiyle mi?",
+                cevap:
+                    "Kısa süreli ve dar noktalı işlerde en hızlı sonucu genellikle vardiya amiri ya da bakım sorumlusuyla doğrudan görüşmek verir — pencere bilgisini ve sahadaki dar noktaların gerçek ölçüsünü en iyi onlar bilir. Küçük işletmelerde bu kişi işletme sahibinin kendisi olabilir. Düzenli çalıştığımız tesislerde bu iletişim kanalı zamanla sabitlenir ve her seferinde yeniden anlatmaya gerek kalmaz.",
+            },
+            {
+                soru: "Vardiya bilgimiz belirsiz, kesin bir saat veremiyoruz; bu işi engeller mi?",
+                cevap:
+                    "Engellemez ama planlamayı biraz esnetir. Vardiya bilgisi kesin değilse, talebi bakım sorumlunuzla teyit etmenizi öneririz; bu kısa ek adım, sahada makinenin boş beklemesini önler. Kesinlik tam sağlanamıyorsa, geniş bir zaman aralığı üzerinden çalışır ve makineyi o aralığın başında sahaya alarak pencere açıldığı an işe başlarız; bu, belirsizliğin getirdiği kaybı büyük ölçüde azaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Örümcek platformun dar şase ve katlanabilir kol gibi teknik özellikleri üretici genel bilgisidir; Denizli'nin tekstil-mermer-deri sanayi yapısı ve vardiya penceresine göre erişim planlaması kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Vardiya Saatine Göre Planlanan Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Denizli OSB ve çevresindeki sanayi bölgelerinde bir makinenin sahaya varış saati, kotu ya da modeli kadar önemlidir — çünkü aynı yol üzerinde birden fazla vardiyalı tesis var ve her tesisin giriş-çıkış trafiği farklı saatte yoğunlaşır. Vardiya değişim saatinde OSB içi yollar, işçi servisleri ve personel araçlarıyla dolar; ağır bir sevkiyat aracının tam bu saate denk gelmesi hem kendi teslimatını geciktirir hem tesisin personel trafiğini yavaşlatır. Bizim nakliye planlamamız bu yüzden yalnızca güzergâh değil, hedef tesisin vardiya saatine göre kurulur: sevkiyat, mümkün olduğunca vardiya değişim yoğunluğunun dışına yazılır ve tesisin kendi bakım ya da vardiya sorumlusuyla varış saati önceden netleştirilir. Bu sayfada, vardiyalı bir sanayi bölgesinde nakliye ve teslimatın nasıl zamanlandığını, hangi bilgilerin sevkiyatı hızlandırdığını ve çok adresli bir günün nasıl kurulduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Vardiya değişim saatinin trafiğe etkisi",
+                metin:
+                    "OSB içindeki yollar, vardiya değişim saatinde işçi servisleri, personel araçları ve tesis içi taşıma trafiğiyle yoğunlaşır. Ağır bir sevkiyat aracının bu saate denk gelmesi hem kendi ilerlemesini yavaşlatır hem de tesisin personel giriş-çıkışını zorlaştırır. Bu yüzden sevkiyat planlarken hedef tesisin vardiya saatlerini önceden öğrenir, mümkün olduğunca değişim saatinin dışına, vardiyanın ortasına denk gelen bir varış zamanı seçeriz.",
+            },
+            {
+                baslik: "Teslimat öncesi hangi bilgiler sevkiyatı hızlandırır",
+                metin:
+                    "Sevkiyat için gereken temel bilgiler hedef adres, makinenin gireceği kapı ya da rampa ölçüsü ve tesisteki teslim alacak yetkilinin o saatte sahada olup olmayacağıdır. Vardiyalı bir tesiste üçüncü bilgi özellikle önemlidir — teslim alacak yetkili farklı vardiyada çalışıyorsa, makine sahaya doğru saatte gelse bile teslim alacak kimse bulunmayabilir. Bu yüzden talep alırken teslim alacak kişinin hangi vardiyada olduğunu ayrıca sorarız.",
+            },
+            {
+                baslik: "Çok adresli günün vardiya saatine göre sıralanması",
+                metin:
+                    "Aynı gün içinde birden fazla tesise sevkiyat yapılacaksa, sıralama güzergâh mesafesi kadar her tesisin vardiya saatine göre de kurulur. Vardiya değişim saati yakın olan iki tesis art arda sıralanmaz; aralarına vardiyanın sakin olduğu bir tesis ya da bir bekleme payı eklenir. Bu, hem trafik yoğunluğunu azaltır hem her tesise doğru saatte ulaşmayı mümkün kılar.",
+            },
+            {
+                baslik: "Gece vardiyasına teslimat: farklı bir düzen",
+                metin:
+                    "Gece de çalışan depo ve lojistik tesislerine yapılan teslimat, gündüz teslimattan farklı kurallarla işler — aydınlatma yeterliliği, iletişim hattının netliği ve gece vardiyasında görevli bir yetkilinin teslim noktasında bulunması önceden teyit edilir. Gece sevkiyatı, gündüz trafiğinden bağımsız olduğu için genellikle daha hızlı ilerler, ama teslim alacak yetkilinin kesin olarak sahada olacağının doğrulanması şarttır.",
+            },
+            {
+                baslik: "Teslim sonrası kısa devir ve bilgilendirme",
+                metin:
+                    "Makine sahaya ulaştığında teslim alan vardiyaya kısa bir kullanım ve güvenlik bilgilendirmesi yapılır; bu bilgilendirme, o an sahada olmayan diğer vardiyalara da aktarılmalıdır. Uzun süreli kiralamalarda bu aktarımın eksik kalması, sonraki vardiyanın makineyi yanlış kullanmasına yol açabilir. Bu yüzden mümkün olduğunda ilk bilgilendirmeyi yazılı bir kısa notla destekleriz; bu not, vardiya değişiminde devredilebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis tipine göre uygun teslimat saati",
+                paragraflar: [
+                    "Denizli sanayi bölgesindeki farklı tesis tiplerinde vardiya yoğunluğuna göre uygun teslimat saatini aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Yoğun trafik saati", "Önerilen teslimat saati", "Teyit edilecek bilgi"],
+                    satirlar: [
+                        ["Üç vardiyalı tekstil", "Vardiya değişim saatleri", "Vardiya ortası", "Teslim alacak yetkilinin vardiyası"],
+                        ["İki vardiyalı işlik", "Sabah-akşam geçişi", "Vardiya ortası", "O günkü üretim yoğunluğu"],
+                        ["Gece dahil depo/lojistik", "Sevkiyat/dağıtım saatleri", "Gece sakin saatler", "Gece vardiya sorumlusu"],
+                        ["Tek vardiyalı ofis/mağaza", "Mesai saatleri", "Mesai dışı", "Bina yönetimi onayı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çok adresli sevkiyat gününün kurulması",
+                paragraflar: [
+                    "Bir günde birden fazla tesise sevkiyat yapılacaksa, her adresin vardiya saatini önceden alır, sıralamayı hem mesafe hem vardiya yoğunluğuna göre kurarız. Vardiya değişim saati yakın olan iki tesis art arda sıralanmaz; bu, hem sevkiyat aracının hem tesislerin trafiğini rahatlatır.",
+                    "Bu planlamanın kazancı özellikle küçük ve orta ölçekli işletmeler içindir: tek başına bir sevkiyat için yüksek gelecek nakliye maliyeti, aynı güne dizilen birkaç adres arasında bölünür. Kazancın gerçekleşmesi için tek şart, her adresin vardiya bilgisinin doğru ve önceden bilinmesidir.",
+                ],
+            },
+            {
+                baslik: "Teslim alacak yetkilinin vardiyasını bilmenin önemi",
+                paragraflar: [
+                    "Sevkiyat planlamasında en sık gözden kaçan bilgi, teslim alacak kişinin hangi vardiyada çalıştığıdır. Makine doğru adrese doğru saatte ulaşsa bile, teslim alacak yetkili farklı bir vardiyadaysa makine sahada bekler ya da teslim gecikir.",
+                    "Bu yüzden talep alırken adres ve ölçü bilgisi kadar, teslim alacak kişinin o saatte sahada olup olmayacağını da sorarız; belirsizse, talebi netleştirmesi için tesisin bakım ya da vardiya sorumlusuyla iletişime geçmesini öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sevkiyatı vardiya değişim saatine denk getirsek ne olur?",
+                cevap:
+                    "Genellikle önermeyiz. Vardiya değişim saatinde OSB içi yollar işçi servisleri ve personel araçlarıyla yoğunlaşır; bu, hem sevkiyat aracının ilerlemesini yavaşlatır hem tesisin kendi trafiğini zorlaştırır. Mümkün olduğunca vardiyanın ortasına denk gelen bir saati tercih ederiz. Zorunlu bir durumda değişim saatinde de teslimat yaparız, ancak bu durumda süre biraz uzayabilir; bunu size baştan söyleriz.",
+            },
+            {
+                soru: "Teslim alacak personelimiz vardiyaya göre değişiyor, bu bir sorun mu?",
+                cevap:
+                    "Bilinmesi gereken bir bilgi ama engel değil. Talep alırken adres ve ölçü kadar, teslim alacak kişinin o saatte hangi vardiyada olacağını da sorarız. Vardiyanız değişkense, sevkiyattan önce hangi vardiyanın teslim alacağını netleştirmenizi öneririz; bu bilgi olmadan gönderilen bir sevkiyat, sahada teslim alacak kimse bulamama riski taşır.",
+            },
+            {
+                soru: "Gece vardiyasına teslimat yapıyor musunuz?",
+                cevap:
+                    "Yaparız, ancak gündüzden farklı bir hazırlıkla. Gece teslimatında aydınlatma yeterliliği, iletişim hattının netliği ve gece vardiyasında görevli bir yetkilinin teslim noktasında bulunacağı önceden teyit edilir. Bu koşullar sağlandığında gece sevkiyatı gündüz trafiğinden bağımsız olduğu için genellikle daha hızlı ilerler.",
+            },
+            {
+                soru: "Aynı gün birden fazla tesise sevkiyat yapabilir misiniz?",
+                cevap:
+                    "Yaparız, Denizli'deki komşu sanayi bölgelerinde sık uyguladığımız bir modeldir. Her tesisin vardiya saatini önceden alır, sıralamayı hem mesafe hem vardiya yoğunluğuna göre kurarız; vardiya değişimi yakın olan iki tesisi art arda sıralamayız. Bu model, tek tek sevkiyattan daha ekonomiktir çünkü nakliye maliyeti adresler arasında bölünür.",
+            },
+            {
+                soru: "Makine sahaya ulaştığında kim bilgilendirilir, sadece o an orada olan mı?",
+                cevap:
+                    "İlk bilgilendirmeyi teslim alan vardiyaya yaparız, ama bu bilgiyi yazılı kısa bir notla desteklemeyi öneririz — çünkü sonraki vardiyalar da makineyi kullanacaksa aynı bilgiye ihtiyaç duyar. Bu not, vardiya değişiminde devredilebilir ve farklı vardiyaların makineyi tutarlı biçimde kullanmasını sağlar. Uzun süreli kiralamalarda bu, aksaklıkları önemli ölçüde azaltır.",
+            },
+            {
+                soru: "Teslimat saatini kesin olarak nasıl belirliyorsunuz?",
+                cevap:
+                    "Hedef tesisin vardiya saatlerini önceden öğrenir, trafiğin en düşük olduğu vardiya ortası saatini öneririz. Kesin saat, tesisin onayıyla netleşir ve sevkiyattan önce teyit edilir. Vardiya saatleriniz düzenli değişiyorsa, güncel programı bizimle paylaşmanız, her seferinde doğru saati bulmamızı kolaylaştırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli OSB ve çevresindeki sanayi bölgelerinin vardiyalı üretim yapısı sektör geneli bilgidir; vardiya saatine göre sevkiyat planlaması ve çok adresli gün kurgusu kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Depo Vardiyasına Göre Forklift ve İstifleme Kiralama",
+        giris:
+            "Denizli'deki tekstil ve mermer tesislerinin depo bölümleri, üretim hattından farklı bir vardiya ritmiyle çalışabilir — bazı depolar tek vardiya, bazıları üretimle aynı üç vardiya, bazıları ise sadece sevkiyat günlerinde yoğunlaşan değişken bir düzenle işler. Forklift ve istifleme talebi geldiğinde bizim önce netleştirdiğimiz şey, deponun kendi vardiya düzeni ve bu düzenin üretim hattının vardiyasıyla örtüşüp örtüşmediğidir. Bir dokuma tesisinin üretim hattı üç vardiya çalışırken depo tek vardiya çalışabilir; bu durumda istifleme işi üretim vardiyasına değil, depo vardiyasına göre planlanmalıdır. Bu sayfada, depo vardiyasının forklift talebini nasıl şekillendirdiğini, stok sayımı ve sevkiyat öncesi yoğun günlerin nasıl planlandığını ve tek personelli küçük depolarda randevunun nasıl kesinleştirildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Depo vardiyası üretim vardiyasından bağımsız olabilir",
+                metin:
+                    "Üç vardiyalı bir üretim hattının deposu her zaman aynı yoğunlukta çalışmaz — bazı tesislerde depo tek vardiya, bazılarında üretimle eş zamanlı iki vardiya çalışır. Forklift talebi alırken bu yüzden üretim vardiyasını değil, doğrudan deponun kendi vardiya düzenini sorarız. İstifleme işi depo kapalıyken planlanırsa, makine sahaya gelse bile işi yönlendirecek depo personeli bulunmayabilir.",
+            },
+            {
+                baslik: "Sevkiyat öncesi yoğun günlerde ek kapasite",
+                metin:
+                    "Depoların çoğu, düzenli günlere göre sevkiyat öncesi günlerde çok daha yoğun çalışır — palet sayısı artar, istifleme hızı önem kazanır. Bu yoğun günlerde tek forklift yetmeyebilir ve ek bir makine geçici süreyle devreye alınır. Sevkiyat takviminizi önceden paylaşmanız, bu yoğun günleri işaretlememizi ve ek kapasiteyi tam o güne göre ayarlamamızı sağlar.",
+            },
+            {
+                baslik: "Vardiya değişiminde stok sayımı ve makine kullanımı",
+                metin:
+                    "Bazı depolarda vardiya değişimi, kısa bir stok sayımı ya da devir kontrolüyle eşleşir ve bu süre boyunca forklift genellikle boşta kalır. Bu boşluk, makinenin küçük bir bakım kontrolü ya da akü şarjı için kullanılabilecek doğal bir penceredir. Uzun süreli kiralamalarda bu pencereyi bilerek planlama yaparız; makinenin gün boyu aralıksız çalışıp vardiya değişiminde hiç durmaması, uzun vadede arıza riskini artırır.",
+            },
+            {
+                baslik: "Tek personelli küçük depoda randevu kesinliği",
+                metin:
+                    "Küçük ölçekli bir işletmenin deposu bazen tek bir kişi tarafından yönetilir ve bu kişi izinliyse ya da başka bir işle meşgulse forklift işini yönlendirecek kimse kalmayabilir. Bu tür taleplerde randevuyu birden fazla kez teyit eder, mümkünse sevkiyattan bir gün önce kısa bir hatırlatma yaparız. Küçük ekipli depolarda son dakika değişikliği, büyük tesislerdekinden daha kolay işi aksatır.",
+            },
+            {
+                baslik: "Operatörlü ya da operatörsüz: vardiyaya göre karar",
+                metin:
+                    "Depo personeli forklift kullanmaya yetkili değilse ya da yetkili personel farklı bir vardiyada görevliyse operatörlü kiralama en pratik çözümdür. Yetkili personel deponun her vardiyasında sahadaysa operatörsüz kiralama maliyeti düşürür. Talep alırken bu yüzden hem deponun vardiya düzenini hem yetkili personelin hangi vardiyalarda bulunduğunu sorarız; cevap net değilse operatörlü seçeneği öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo tipine göre forklift kullanım düzeni",
+                paragraflar: [
+                    "Denizli'deki depo tiplerini vardiya düzenine ve tipik forklift ihtiyacına göre aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Depo tipi", "Vardiya düzeni", "Yoğunluk artışı", "Operatör önerisi"],
+                    satirlar: [
+                        ["Üretimle eş zamanlı büyük depo", "İki-üç vardiya", "Parti geçişlerinde", "Deponun kendi personeli"],
+                        ["Tek vardiyalı küçük depo", "Gündüz tek vardiya", "Sevkiyat günü", "Operatörlü öneriyoruz"],
+                        ["Gece dahil lojistik depo", "Sürekli", "Gece sevkiyat saatleri", "Vardiyaya göre değişken"],
+                        ["Mevsimsel/değişken depo", "Sipariş bazlı", "Sipariş yoğunluğunda", "Talebe göre belirlenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevkiyat takvimini önceden bilmenin kazancı",
+                paragraflar: [
+                    "Sevkiyat öncesi yoğun günler önceden bilindiğinde, ek forklift kapasitesini tam o güne göre planlar, tesisin normal günlerde tek makineyle idare etmesini sağlarız. Bu, hem maliyeti optimize eder hem sevkiyat gününde makine yetersizliği riskini ortadan kaldırır.",
+                    "Düzenli çalıştığımız depolara aylık sevkiyat takvimini önceden paylaşmalarını öneririz; bu takvim elimizde olduğunda hangi günlerde ek kapasite gerekeceğini biz belirler, önceden teyit veririz.",
+                ],
+            },
+            {
+                baslik: "Vardiya değişiminde makinenin bakım penceresi",
+                paragraflar: [
+                    "Sürekli çalışan bir depoda forklift, vardiya değişiminde kısa bir boşluk yaşar ve bu boşluk küçük bir bakım kontrolü için kullanılabilir — akü durumu, lastik kontrolü, kısa bir temizlik. Bu birkaç dakikalık alışkanlık, makinenin uzun vadeli arıza riskini azaltır.",
+                    "Uzun süreli kiralamalarda bu kontrolü vardiya devir kaydına ekleyebiliriz; hangi vardiyanın makineyi teslim aldığı, akü durumunun ne olduğu kısa bir notla kayıt altına alınır ve sonraki vardiyaya devredilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim hattımız üç vardiya, ama deponuz tek vardiya çalışıyor; forkliftin çalışma saati hangisine göre olur?",
+                cevap:
+                    "Deponuzun vardiyasına göre. Forklift ve istifleme işi doğrudan depo personelinin varlığına bağlıdır; üretim hattı üç vardiya çalışsa da depo tek vardiyaysa makine o vardiyanın saatlerine göre planlanır. Bu yüzden talep alırken üretim vardiyasını değil, doğrudan deponun kendi çalışma saatlerini sorarız.",
+            },
+            {
+                soru: "Sevkiyat günlerimizde palet sayısı çok artıyor, tek forklift yetmiyor; ne yapabiliriz?",
+                cevap:
+                    "Sevkiyat takviminizi önceden bize bildirirseniz, o günlere özel geçici ek forklift kapasitesi ayarlarız. Bu, normal günlerde tek makineyle idare edip yoğun günlerde ek kapasite eklemenizi sağlar; sürekli iki makine kiralamaktan daha ekonomiktir. Takvim ne kadar erken paylaşılırsa, o günün kapasitesini o kadar kesin ayırabiliriz.",
+            },
+            {
+                soru: "Deponuzda tek personel var, o gün izinliyse forklift işi ne olur?",
+                cevap:
+                    "Randevu ertelenir, çünkü tek yetkili personel yoksa işi yönlendirecek kimse kalmaz. Bu riski azaltmak için randevuyu birden fazla kez teyit ederiz, mümkünse sevkiyattan bir gün önce kısa bir hatırlatma yaparız. Personel değişimi ya da izin planınız varsa bunu talep aşamasında bildirmeniz, hem sizin hem bizim zamanınızı korur.",
+            },
+            {
+                soru: "Forkliftin vardiya boyunca aralıksız çalışması sorun olur mu?",
+                cevap:
+                    "Uzun vadede olabilir. Vardiya değişiminde makinenin kısa bir bakım penceresi bulması — akü kontrolü, lastik kontrolü — arıza riskini azaltır. Uzun süreli kiralamalarda bu kontrolü vardiya devir kaydına ekleriz; hangi vardiyanın makineyi teslim aldığı ve akü durumu kısa bir notla kayıt altına alınır, sonraki vardiyaya devredilir.",
+            },
+            {
+                soru: "Depo personelimiz forklift kullanmaya yetkili değil; operatörlü mü kiralamalıyız?",
+                cevap:
+                    "Genellikle evet, bu en pratik çözümdür. Yetkili personel deponuzun her vardiyasında sahada değilse ya da hiç yoksa operatörlü kiralama, işin aksamadan yürümesini sağlar. Yetkili personeliniz belirli vardiyalarda varsa, işi o vardiyaya göre planlayıp operatörsüz de ilerleyebiliriz; kararı deponuzun vardiya ve personel düzenine göre birlikte veririz.",
+            },
+            {
+                soru: "Gece vardiyasında da sevkiyat yapıyoruz; forklift gece çalışabilir mi?",
+                cevap:
+                    "Çalışabilir, gece çalışmanın kendi hazırlığıyla — yeterli aydınlatma, net iletişim hattı ve gece vardiyasında görevli bir yetkilinin sahada bulunması önceden teyit edilir. Gece vardiyasının sevkiyat yoğunluğunu bize önceden bildirirseniz, forklift kapasitesini o saatlere göre ayarlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo ve üretim hattının farklı vardiya düzenlerine sahip olabilmesi sektör geneli bilgidir; depo vardiyasına göre forklift planlaması ve sevkiyat öncesi ek kapasite kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Planlı Duruş ve Vardiya Dışı Büyük İşler İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platform (boom) gerektiren işler, sepetli platformun aksine genellikle kısa bir vardiya boşluğuna sığmaz — sanayi holü çatısında kapsamlı bir bakım, yüksek bir çelik konstrüksiyonun montajı ya da geniş bir cephenin baştan sona kontrolü gibi işler saatler, bazen günler sürer. Denizli'deki fabrika ölçeğindeki tesislerde bu tür büyük kapsamlı işler, vardiya arası kısa pencerelere değil, tesisin yıllık planlı duruş dönemine ya da vardiyanın tamamen durduğu hafta sonu gibi geniş zaman dilimlerine yazılır. Bu sayfada, boom gerektiren büyük işlerin vardiyalı bir tesiste nasıl planlandığını, planlı duruş takvimine erken dahil olmanın neden önemli olduğunu ve geniş kapsamlı bir işin vardiya değişimlerinden nasıl etkilenmeden sürdürüldüğünü anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Büyük kapsamlı işler neden kısa pencereye sığmaz",
+                metin:
+                    "Boom gerektiren işlerin çoğu — çatı bakımı, yüksek montaj, geniş cephe kontrolü — birkaç saatten kısa sürmez ve kesintisiz ilerlemesi gerekir. Vardiya arası kısa bir boşlukta başlayıp yarım bırakılan bir iş, ekipmanın sökülüp tekrar kurulmasını gerektirir ve bu, toplam süreyi uzatır. Bu yüzden boom talebinde önce işin toplam süresini tahmin eder, bu süreye uyan geniş bir pencere ararız — kısa vardiya boşluğu değil.",
+            },
+            {
+                baslik: "Planlı duruş dönemine erken dahil olmak",
+                metin:
+                    "Fabrika ölçeğindeki tesislerin yılda birkaç kez yaptığı planlı duruş, vardiya kısıtından bağımsız çalışabilen en geniş penceredir ve boom işlerinin büyük kısmı bu döneme yazılır. Duruş süresi sınırlı olduğu için erken planlama kritiktir — hangi kalemin ne zaman yapılacağı, hangi makine sınıfının ne zaman geleceği duruştan haftalar önce netleşir. Geç katılan bir talep, kısıtlı duruş penceresinden zaman çalar.",
+            },
+            {
+                baslik: "Hafta sonu tek vardiyalı dönemin kullanımı",
+                metin:
+                    "Planlı duruş her zaman yakın tarihli olmayabilir; bu durumda ikinci en geniş pencere, üretimin tek vardiyaya düştüğü hafta sonudur. Hafta sonu penceresi, hafta içi vardiya değişimlerinden bağımsız, kesintisiz bir çalışma süresi sunar. Büyük kapsamlı bir boom işi için hafta sonu, hem işin bölünmeden ilerlemesini hem de üretim akışının hiç etkilenmemesini sağlar.",
+            },
+            {
+                baslik: "Vardiya değişse de işin sürekliliği",
+                metin:
+                    "Boom işi birden fazla vardiyayı kapsayacak kadar uzarsa, iş vardiyalar arasında bölünmeden sürdürülür — bizim ekibimiz ya da operatörümüz vardiya değişse bile sahada kalır ya da devir kaydıyla işi bir sonraki ekibe aktarır. Bu süreklilik, işin yarım kalıp yeniden başlatılmasından doğacak zaman kaybını önler ve tesisin üretim vardiyalarını rahatsız etmeden ilerlemesini sağlar.",
+            },
+            {
+                baslik: "Büyük iş için sahaya erken keşif",
+                metin:
+                    "Boom gerektiren büyük kapsamlı işlerde, telefonla verilen bir tahmin genellikle yeterli netliği sağlamaz; sahaya erken bir keşif ziyareti yapıp erişim yüksekliğini, çalışma alanının genişliğini ve varsa engelleri (çatı üstü ekipman, kablo hattı) yerinde görürüz. Bu keşif, hem doğru makine sınıfını hem de gerçekçi bir süre tahminini belirler; planlı duruş ya da hafta sonu penceresine göre iş bu bilgiyle kesinleşir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş kapsamına göre uygun geniş pencere",
+                paragraflar: [
+                    "Boom gerektiren işin kapsamına göre hangi geniş pencerenin daha uygun olduğunu aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İş kapsamı", "Tahmini süre", "Uygun pencere", "Planlama önceliği"],
+                    satirlar: [
+                        ["Çatı/cephe kapsamlı bakım", "Bir-birkaç gün", "Planlı duruş", "Haftalar önceden"],
+                        ["Yüksek montaj", "Birkaç gün", "Planlı duruş ya da hafta sonu", "Erken keşif şart"],
+                        ["Geniş cephe kontrolü", "Bir gün", "Hafta sonu tek vardiya", "Birkaç gün önceden"],
+                        ["Acil yüksek müdahale", "Değişken", "En yakın uygun pencere", "Aynı gün değerlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Planlı duruş takvimine dahil olma süreci",
+                paragraflar: [
+                    "Düzenli çalıştığımız fabrikalarda yıllık planlı duruş takvimini aylar öncesinden alır, boom gerektiren işleri bu takvimin içine erken yerleştiririz. Hangi makine sınıfının, hangi gün, hangi noktada olacağı duruştan önce netleşir; duruş günü sahada makine bulma ya da konumlanma süresiyle uğraşılmaz.",
+                    "Duruş takvimini paylaşmayan ya da geç paylaşan tesislerde de hizmet veririz, ancak bu durumda makine ve ekip müsaitliği son dakika netleşir; bazen istenen tarih değil, o an uygun olan tarih teklif edilir.",
+                ],
+            },
+            {
+                baslik: "Vardiyalar arası devir ile işin bölünmemesi",
+                paragraflar: [
+                    "Boom işi birden fazla vardiyayı kapsıyorsa, her vardiya değişiminde kısa bir devir yapılır — o ana kadar tamamlanan kısım, kalan iş ve varsa dikkat edilmesi gereken nokta bir sonraki ekibe aktarılır. Bu devir, işin sıfırdan başlamasını önler ve toplam süreyi kısaltır.",
+                    "Uzun kapsamlı işlerde bu devri yazılı kısa bir notla desteklemeyi öneririz; bu, özellikle operatör ya da ekip değişikliği olduğunda işin tutarlı ilerlemesini sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çatımızın kapsamlı bir bakımı gerekiyor, kaç günlük iş bu ve nasıl planlanır?",
+                cevap:
+                    "Kapsama göre değişir, ama genellikle bir günden uzun sürer ve vardiya arası kısa pencerelere sığmaz. Önce sahaya bir keşif ziyareti yaparak gerçekçi bir süre tahmini çıkarırız; bu tahmine göre en uygun geniş pencereyi — planlı duruş döneminiz varsa onu, yoksa hafta sonu tek vardiyalı dönemi — öneririz. Planlı duruş takviminiz varsa bunu bize aylar öncesinden paylaşmanız, işi en verimli şekilde yerleştirmemizi sağlar.",
+            },
+            {
+                soru: "Planlı duruşumuz henüz belli değil; boom işini nasıl planlarız?",
+                cevap:
+                    "Duruş tarihi netleşmeden de bir ön keşif yapıp işin kapsamını ve süresini belirleyebiliriz. Duruş tarihi kesinleştiğinde bu bilgiyi kullanarak işi hemen yerleştiririz. Duruş çok geç netleşiyorsa ya da yoksa, hafta sonu tek vardiyalı dönem alternatif bir geniş pencere sunar; ikisi arasında hangisinin daha uygun olduğuna birlikte karar veririz.",
+            },
+            {
+                soru: "İşimiz birden fazla vardiyayı kapsayacak kadar uzun sürecek; iş yarım mı kalır?",
+                cevap:
+                    "Hayır, süreklilik sağlarız. Vardiya değiştiğinde ekibimiz ya da operatörümüz sahada kalır ya da kısa bir devirle işi bir sonraki ekibe aktarır — o ana kadar tamamlanan kısım ve kalan iş net biçimde yazılır. Bu, işin sıfırdan başlamasını önler ve üretim vardiyalarınızı rahatsız etmeden ilerlemesini sağlar.",
+            },
+            {
+                soru: "Telefonla verdiğiniz süre tahmini ne kadar güvenilir?",
+                cevap:
+                    "Basit ve tek noktalı işlerde telefon tahmini genellikle isabetlidir, ama boom gerektiren kapsamlı işlerde (çatı, yüksek montaj) sahaya erken bir keşif yapmadan verilen tahmin bir ön fikirdir. Erişim yüksekliği, çalışma alanı genişliği ve varsa engelleri yerinde görmeden kesin bir süre söylemek isabetsiz olur; bu yüzden büyük işlerde keşfi öneririz, bu keşif genellikle ek bir maliyet oluşturmaz.",
+            },
+            {
+                soru: "Hafta sonu çalışmak, hafta içi planlı duruşa göre daha mı pahalı?",
+                cevap:
+                    "Genellikle hafif bir fark olabilir ama esas belirleyici işin kapsamı ve süresidir, gün değil. Hafta sonu tercih etmenizin nedeni genellikle planlı duruşunuzun yakın olmaması; bu durumda hafta sonu, üretiminizi hiç etkilemeden geniş bir pencere sunar. Maliyet farkını talep aşamasında açıkça belirtiriz, sürpriz bir ek ücret çıkmaz.",
+            },
+            {
+                soru: "Acil bir yüksek müdahale gerekiyor, planlı duruşu ya da hafta sonunu bekleyemeyiz; ne yaparsınız?",
+                cevap:
+                    "Acil durumlarda geniş pencere aramayız, en yakın uygun zamanı değerlendiririz. Durumu ilettiğinizde aynı gün ya da ertesi gün için makine ve ekip müsaitliğini kontrol eder, mümkün olan en hızlı çözümü sunarız. Acil işlerde bile güvenlik kısıtlarından (örneğin kesim ya da üretim trafiği sürüyorsa) taviz vermeyiz; bu, işin hızından çok güvenliğini önceliklendirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Fabrika ölçeğindeki tesislerin yıllık planlı duruş uygulaması sektör geneli bilgidir; boom işlerinin geniş pencereye göre planlanması ve vardiyalar arası devir düzeni kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Vardiya Arası Duraklamada İç Mekân ve Depo İçi Platform Kiralama",
+        giris:
+            "Denizli'deki tekstil, mermer ve deri işletmelerinin iç mekân bakım ihtiyaçları — tavan tesisatı, boru hattı kontrolü, depo içi raf üstü işleri — üretim hattı çalışırken yapılamaz; bu işlerin hepsi hattın durduğu ya da vardiyanın azaldığı bir zamana ihtiyaç duyar. Bu sayfa, iç mekân ve depo içi platform işlerinin vardiyalı bir üretim düzeninde nasıl konumlandığını anlatıyor. Fark, sepetli platformdaki kısa dar-nokta erişiminden farklı olarak, iç mekân işlerinin genellikle orta ölçekli bir süre gerektirmesidir — bir tavan hattının tamamının kontrolü, bir depo koridorunun raf üstü temizliği gibi. Bu süre, tek bir kısa vardiya boşluğuna değil, birkaç ardışık boşluğa ya da vardiyanın azaldığı bir döneme yayılır. Bu sayfada, hangi iç mekân işinin hangi pencereye uyduğunu, tesisin bakım ekibiyle iş bölümünün nasıl kurulduğunu ve tozlu-nemli ortamların çalışma saatine etkisini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İç mekân işi neden hat çalışırken yapılamaz",
+                metin:
+                    "Tavan tesisatı, boru hattı ya da raf üstü işleri genellikle hattın tam altında ya da yakınında yer alır ve hat çalışırken bu bölgeye platformla girmek hem üretim akışını böler hem güvenlik riski taşır. Bu yüzden iç mekân talebinde önce hattın ne zaman durduğunu ya da vardiyanın ne zaman azaldığını sorarız; kısa bir dar-nokta erişiminden farklı olarak, iç mekân işleri genellikle bu duraklamanın süresine göre kapsam daraltılarak planlanır.",
+            },
+            {
+                baslik: "Orta ölçekli işin birkaç ardışık pencereye yayılması",
+                metin:
+                    "Bir tavan hattının tamamının kontrolü gibi orta ölçekli bir iş, tek bir vardiya boşluğuna sığmayabilir. Bu durumda işi bölümlere ayırır, her bölümü ayrı bir vardiya boşluğuna ya da ardışık günlerin aynı boşluğuna yerleştiririz. Bu bölümleme, üretim akışını hiçbir zaman uzun süre kesmeden, işin toplamda tamamlanmasını sağlar; bölümler arası geçişte nereye kadar gelindiği kayıt altına alınır.",
+            },
+            {
+                baslik: "Depo koridorunda raf üstü işlerin zamanlaması",
+                metin:
+                    "Depo içi raf üstü işleri, deponun kendi vardiya düzenine göre planlanır ve genellikle sevkiyat trafiğinin düşük olduğu saatler tercih edilir — sevkiyat yoğunken koridorda platformla çalışmak hem forklift trafiğiyle çakışır hem iş güvenliği açısından risklidir. Depo sorumlusuyla önceden konuştuğumuzda, hangi saatlerin koridor trafiği açısından sakin olduğunu öğrenir, işi tam o saatlere yerleştiririz.",
+            },
+            {
+                baslik: "Tozlu ve nemli ortamların çalışma saatine etkisi",
+                metin:
+                    "Tekstil terbiye hatlarında buhar ve nem, mermer atölyelerinde toz ve su, deri OSB'de kimyasal koku gibi ortam koşulları, iç mekân işinin hangi saatte yapılabileceğini doğrudan etkiler. Bu koşulların en düşük olduğu saat genellikle vardiya değişimi ya da işlem arasıdır. Talep alırken tesisin bu tür ortam koşullarını da sorar, işi hem vardiya hem ortam açısından uygun bir pencereye yerleştiririz.",
+            },
+            {
+                baslik: "Tesisin bakım ekibiyle görev paylaşımı",
+                metin:
+                    "İç mekân işlerinde tesisin kendi bakım ekibi genellikle teknik kısmı (tesisat, boru, elektrik) üstlenir, bizim rolümüz erişimi sağlamaktır. Bu iş bölümü, hangi vardiyada hangi bakım sorumlusunun sahada olacağının baştan netleşmesini gerektirir. Vardiya değiştiğinde sorumluluk da değişebileceği için, uzun süreli işlerde her vardiyanın kendi bakım sorumlusunu ve iletişim bilgisini alırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân iş tipine göre pencere ve süre",
+                paragraflar: [
+                    "Denizli'deki iç mekân işlerinde sık karşılaştığımız iş tiplerini, tipik sürelerini ve uygun pencereyi aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Tipik süre", "Uygun pencere", "Ortam kısıtı"],
+                    satirlar: [
+                        ["Tavan hattı tam kontrolü", "Birkaç ardışık boşluk", "Vardiya arası, bölümlü", "Hat durmalı"],
+                        ["Boru/tesisat kontrolü", "Yarım-bir gün", "Planlı duruş ya da hafta sonu", "Düşük"],
+                        ["Depo raf üstü işi", "Birkaç saat", "Sevkiyat dışı saat", "Forklift trafiği"],
+                        ["Terbiye hattı yakını iş", "Değişken", "İşlem arası, tam havalandırma", "Buhar/nem/koku"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bölümlere ayrılan işin takibi",
+                paragraflar: [
+                    "Orta ölçekli bir iç mekân işini birkaç vardiya boşluğuna bölerken, her bölümün nereye kadar tamamlandığını kayıt altına alırız. Bu kayıt, hem bizim ekibimizin hem tesisin bakım ekibinin işin bütününü takip etmesini sağlar ve bir sonraki pencerede kaldığımız yerden devam etmemizi mümkün kılar.",
+                    "Bu bölümleme yaklaşımı, tesisin üretim akışını hiçbir zaman uzun süre kesmeden, kapsamlı bir işin haftalar içinde tamamlanmasına imkân verir; bu, tek seferde uzun bir duruş istemek yerine tercih ettiğimiz bir yöntemdir.",
+                ],
+            },
+            {
+                baslik: "Ortam koşulunu vardiya bilgisiyle birlikte almak",
+                paragraflar: [
+                    "İç mekân talebi alırken vardiya saatiyle birlikte ortam koşulunu da sorarız — çünkü bazı bölgelerde vardiya uygun olsa da ortam koşulu (buhar, toz, koku) hâlâ yüksek olabilir. İki bilginin kesiştiği an, gerçek çalışma penceresidir.",
+                    "Bu bilgiyi tesisin üretim ya da iş güvenliği sorumlusundan alırız; onların onayı olmadan, vardiya uygun görünse bile ortam riskliyse platformu o bölgeye sokmayız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tavan hattımızın tamamının kontrolü gerekiyor ama hat sürekli çalışıyor; nasıl planlarız?",
+                cevap:
+                    "İşi bölümlere ayırarak. Tek bir vardiya boşluğu tüm hattı kapsamaya yetmez; bu yüzden hattı bölümlere ayırır, her bölümü ayrı bir vardiya boşluğuna ya da ardışık günlerin aynı boşluğuna yerleştiririz. Her bölümün nereye kadar tamamlandığını kayıt altına alır, bir sonraki pencerede kaldığımız yerden devam ederiz. Bu yöntem, hattınızı uzun süre durdurmadan işin toplamda tamamlanmasını sağlar.",
+            },
+            {
+                soru: "Depomuzun koridorlarında raf üstü bir iş var; sevkiyat yoğunken çalışabilir misiniz?",
+                cevap:
+                    "Önermeyiz. Sevkiyat yoğunken koridorda platformla çalışmak forklift trafiğiyle çakışır ve iş güvenliği açısından risk taşır. Depo sorumlunuzdan sevkiyat trafiğinin düşük olduğu saatleri öğrenir, işi tam o saatlere yerleştiririz. Sevkiyat takviminizi önceden paylaşırsanız, bu sakin saatleri daha kesin belirleyebiliriz.",
+            },
+            {
+                soru: "Terbiye hattımızın yakınında bir iş var, buhar ve koku yoğun; ne zaman uygun olur?",
+                cevap:
+                    "İşlem arası ya da tam havalandırmanın sağlandığı saatlerde. Kimyasal buhar ve koku yoğunken üst kotta çalışmayız; bu, iş güvenliği açısından tartışılmayan bir kuraldır. Üretim ya da iş güvenliği sorumlunuzdan işlemin durduğu ya da havalandırmanın tam çalıştığı saatleri öğrenir, planı buna göre kurarız. Vardiya uygun görünse bile ortam koşulu riskliyse platformu o bölgeye sokmayız.",
+            },
+            {
+                soru: "Bakım ekibimiz var, tesisat işini onlar yapacak; sizin rolünüz ne olur?",
+                cevap:
+                    "Biz erişimi sağlarız, tesisat ve elektrik gibi teknik işi çoğunlukla sizin ekibiniz yapar. Hangi vardiyada hangi bakım sorumlusunun sahada olacağını baştan netleştiririz; vardiya değiştiğinde sorumluluk da değişebileceği için uzun süreli işlerde her vardiyanın sorumlusunu ayrı ayrı alırız. Bu netlik, vardiya geçişlerinde işin sahipsiz kalmasını önler.",
+            },
+            {
+                soru: "İşimiz birkaç hafta sürecek gibi görünüyor, bu normal mi?",
+                cevap:
+                    "Orta-büyük kapsamlı iç mekân işlerinde evet, normaldir — çünkü işi tek seferde uzun bir duruşla değil, birkaç ardışık vardiya boşluğuna bölerek yürütürüz. Bu, üretim akışınızı hiç uzun süre kesmeden ilerlemenizi sağlar. Süreyi kısaltmak isterseniz, planlı duruş döneminize ya da hafta sonuna yoğunlaştırılmış bir çalışma planı önerebiliriz; bu durumda süre kısalır ama günlük çalışma süresi uzar.",
+            },
+            {
+                soru: "Ortam koşulunu (toz, nem, buhar) kim değerlendirir, siz mi tesis mi?",
+                cevap:
+                    "Ortak değerlendiririz ama son sözü tesisin üretim ya da iş güvenliği sorumlusu söyler — çünkü o bölgenin gerçek koşullarını en iyi onlar bilir. Talep alırken bu bilgiyi sorar, vardiya saatiyle birlikte değerlendiririz. İki koşul (vardiya ve ortam) birbiriyle çelişiyorsa, ortam koşulu her zaman önceliklidir; vardiya uygun olsa bile ortam riskliyse işi ertelenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'deki tekstil terbiye, mermer işleme ve deri üretiminin ortam koşulları (buhar, toz, koku) sektör geneli bilgidir; iç mekân işlerinin bölümlere ayrılarak vardiya boşluklarına yerleştirilmesi kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Planlı Duruş Takvimine Göre Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Denizli'deki sanayi holü ve fabrika genişletme projelerinde çelik konstrüksiyon montajı, günlük vardiya ritmine değil, tesisin genişleme ya da planlı duruş takvimine bağlı çalışır. Bir sanayi holünün çatı kirişi montajı ya da bir üretim hattının yeni bölümünün çelik iskeleti, üretimin vardiya düzeninden bağımsız, kendi başına planlanan bir proje takvimi izler — ama bu proje mevcut bir tesisin içinde ya da yakınında yürüyorsa, tesisin vardiyalarıyla çakışmaması gerekir. Bu sayfada, çelik konstrüksiyon montaj işlerinin mevcut bir üretim tesisinin vardiya düzeniyle nasıl uyumlandığını, planlı duruş dönemlerinin montaj için nasıl kullanıldığını ve çok makineli, çok günlük bir montaj projesinin nasıl koordine edildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Montaj projesi kendi takvimini izler",
+                metin:
+                    "Yeni bir sanayi holü inşaatı ya da mevcut bir tesisin genişletilmesi, üretim vardiyasından bağımsız bir proje takvimiyle ilerler — inşaat ekibi, çelik montaj ekibi ve platform kiralama süreci bu takvime göre koordine edilir. Ancak proje mevcut bir tesisin sınırları içinde ya da bitişiğinde yürüyorsa, montaj sırasında oluşan trafik ve gürültünün tesisin vardiya akışını etkilememesi gerekir; bu yüzden proje takvimini tesisin vardiya programıyla karşılaştırıp çakışan noktaları önceden belirleriz.",
+            },
+            {
+                baslik: "Mevcut hat yakınında montajın vardiyaya duyarlılığı",
+                metin:
+                    "Mevcut bir üretim hattının yakınında yapılan bir çelik konstrüksiyon genişletmesi, hattın vardiyasına duyarlı bir planlama gerektirir — ağır makine hareketi, malzeme taşıma ve montaj gürültüsü, hat çalışırken personel güvenliğini ve üretim konsantrasyonunu etkileyebilir. Bu tür projelerde ağır makine hareketlerini vardiyanın düşük olduğu saatlere, hassas montaj işlerini ise mümkünse planlı duruş dönemine yazarız.",
+            },
+            {
+                baslik: "Planlı duruş dönemi: en geniş montaj penceresi",
+                metin:
+                    "Fabrika ölçeğindeki tesislerin yıllık planlı duruşu, çelik konstrüksiyon montajı için en verimli penceredir — üretim tamamen durduğu için ağır makine hareketi ve montaj işlemleri hiçbir vardiya kısıtı olmadan yürütülebilir. Büyük kapsamlı montaj projelerini mümkün olduğunca bu döneme denk getirmeyi öneririz; bunun için proje planlamasının tesisin duruş takvimiyle aylar öncesinden eşleştirilmesi gerekir.",
+            },
+            {
+                baslik: "Çok makineli montaj gününün koordinasyonu",
+                metin:
+                    "Kapsamlı bir çelik konstrüksiyon montajı genellikle birden fazla makineyi (eklemli platform, forklift, bazen vinç) aynı sahada eş zamanlı gerektirir. Bu makinelerin sahada birbirini engellememesi için çalışma alanları ve sıralama önceden netleştirilir — hangi makine hangi bölgede, hangi saatte çalışacak. Bu koordinasyon, montaj ekibinin iş planıyla birlikte, projeye özel bir saha yerleşim şemasıyla desteklenir.",
+            },
+            {
+                baslik: "Montaj sonrası devir ve üretime geçiş",
+                metin:
+                    "Çelik konstrüksiyon montajı tamamlandığında, o bölgenin üretime ya da normal vardiya düzenine geri dönüşü kademeli olur — önce güvenlik kontrolü, sonra kısıtlı erişimle test, ardından tam kullanım. Bu geçiş sürecinde platform ve diğer makineler sahadan aşamalı olarak çekilir; tesisin bakım ekibiyle bu devir sırasını önceden netleştirmek, üretime geçişte gecikmeyi önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje tipine göre montaj penceresi",
+                paragraflar: [
+                    "Denizli'deki çelik konstrüksiyon montaj projelerinin tipine göre uygun pencereyi aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Proje tipi", "Vardiya etkileşimi", "Uygun pencere", "Koordinasyon muhatabı"],
+                    satirlar: [
+                        ["Yeni bağımsız sanayi holü", "Yok/az", "Kendi proje takvimi", "Proje müdürü"],
+                        ["Mevcut hat yakını genişletme", "Yüksek", "Planlı duruş", "Bakım müdürü"],
+                        ["Çatı kirişi/kapsamlı bakım", "Orta", "Duruş ya da hafta sonu", "Üretim şefi"],
+                        ["Küçük ek montaj", "Düşük", "Vardiya arası, bölümlü", "Vardiya amiri"],
+                    ],
+                },
+            },
+            {
+                baslik: "Duruş takvimiyle proje takviminin eşleştirilmesi",
+                paragraflar: [
+                    "Mevcut bir tesisin yakınında yürüyen büyük kapsamlı bir montaj projesinde, projenin ağır ve gürültülü aşamalarını tesisin planlı duruş dönemine yazmak, hem üretim akışını korur hem montaj ekibinin kesintisiz çalışmasını sağlar. Bu eşleştirme, proje başlamadan aylar önce tesisin duruş takvimini görmemizi gerektirir.",
+                    "Duruş takvimi henüz netleşmemişse, projenin en az vardiyaya duyarlı aşamalarını önce yürütür, hassas ve gürültülü aşamaları duruş tarihi netleştiğinde planlarız; bu, projeyi tamamen durdurmadan esnek bir başlangıç sağlar.",
+                ],
+            },
+            {
+                baslik: "Saha yerleşim şemasıyla çok makineli koordinasyon",
+                paragraflar: [
+                    "Birden fazla makinenin aynı sahada çalıştığı montaj projelerinde, her makinenin çalışma bölgesini ve saatini gösteren basit bir saha yerleşim şeması hazırlarız. Bu şema, montaj ekibiyle paylaşılır ve makineler arası çakışmayı önler.",
+                    "Şema, proje ilerledikçe güncellenir — bir aşama tamamlandığında bir sonraki aşamanın makine ve alan ihtiyacı yeniden çizilir. Bu, özellikle uzun süren projelerde sahadaki karışıklığı önemli ölçüde azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni bir sanayi holü inşa ediyoruz, henüz üretim başlamadı; vardiya planlaması gerekir mi?",
+                cevap:
+                    "Bağımsız bir yeni inşaatta vardiya kısıtı genellikle yoktur — proje kendi takvimini izler ve çalışma saatleri esas olarak inşaat ekibinizin programına göre belirlenir. Ancak saha başka bir aktif tesisin yakınındaysa, o tesisin vardiya ve trafik düzenini bilmek yine faydalıdır; bu bilgiyi baştan sorarız.",
+            },
+            {
+                soru: "Mevcut üretim hattımızın yanına genişleme yapıyoruz, hat durmadan çalışabilir misiniz?",
+                cevap:
+                    "Kısmen. Ağır makine hareketlerini ve gürültülü montaj işlemlerini vardiyanın düşük olduğu saatlere ya da mümkünse planlı duruş döneminize yazarız; hattınızı tamamen durdurmayan, ama vardiyanızı da rahatsız etmeyen bir denge kurarız. Planlı duruş takviminiz varsa, projenin en yoğun aşamalarını o döneme denk getirmenizi öneririz.",
+            },
+            {
+                soru: "Planlı duruşumuz aylar sonra; proje o zamana kadar bekler mi?",
+                cevap:
+                    "Beklemez. Projenin vardiyaya en az duyarlı aşamalarını (örneğin hazırlık, temel işleri) hemen başlatır, hassas ve gürültülü aşamaları duruş tarihine denk getiririz. Bu, projeyi tamamen durdurmadan esnek bir başlangıç sağlar ve toplam proje süresini kısaltır.",
+            },
+            {
+                soru: "Aynı sahada birden fazla makine çalışacak, birbirlerine engel olmaz mı?",
+                cevap:
+                    "Bunu önlemek için basit bir saha yerleşim şeması hazırlarız — hangi makine hangi bölgede, hangi saatte çalışacak açıkça gösterilir. Bu şema montaj ekibinizle paylaşılır ve proje ilerledikçe güncellenir. Bu koordinasyon olmadan çok makineli bir sahada çakışma riski yüksektir; şema bu riski büyük ölçüde azaltır.",
+            },
+            {
+                soru: "Montaj bittiğinde o bölgeyi hemen üretime açabilir miyiz?",
+                cevap:
+                    "Genellikle kademeli bir geçiş öneririz — önce güvenlik kontrolü, sonra kısıtlı erişimle test, ardından tam kullanım. Bu geçiş sırasını bakım ekibinizle önceden netleştiririz; makineler sahadan aşamalı çekilirken üretime geçiş de aynı hızla ilerler. Ani bir geçiş, kontrol edilmemiş bir riskle üretime başlamak anlamına gelebilir, bunu önermeyiz.",
+            },
+            {
+                soru: "Proje süresi ne kadar sürer, kesin bir tarih verebilir misiniz?",
+                cevap:
+                    "Kesin tarih, sahaya yapılan bir keşiften sonra netleşir — montajın kapsamı, kullanılacak makine sayısı ve vardiya kısıtları bu tarihi belirler. Planlı duruş döneminize denk getirdiğimizde proje genellikle daha hızlı ilerler çünkü vardiya kısıtı ortadan kalkar; hattınız çalışırken yürüyen bir projede ise süre biraz uzayabilir. Keşif sonrası size gerçekçi bir aralık veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Fabrika ölçeğindeki tesislerde çelik konstrüksiyon montajının planlı duruş dönemiyle eşleştirilmesi sektör geneli bir uygulamadır; saha yerleşim şeması ve kademeli üretime geçiş kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Küçük Ekipli Tarım ve Silo Sahalarında Vardiyasız Randevu Planlaması",
+        giris:
+            "Denizli'nin tarım kesimi — Buldan'ın bağcılık işletmeleri, Çivril ve çevresindeki tahıl depolama tesisleri, çeşitli ilçelerdeki kurutma ve paketleme birimleri — sanayi tesislerinden farklı bir iş gücü düzenine sahiptir: burada vardiya kavramı neredeyse yoktur, işletme genellikle bir ya da birkaç kişi tarafından yönetilir ve platform talebi bu az sayıda kişinin müsaitliğine göre şekillenir. Bir tekstil fabrikasında vardiya amirini arayarak pencere bulabilirken, bir tarım işletmesinde muhatap doğrudan işletme sahibinin kendisidir ve onun tarla ya da bağ işiyle meşgul olduğu günlerde randevu mümkün olmaz. Bu sayfada, vardiyasız küçük ekipli tarım ve silo işletmelerinde randevunun nasıl kurulduğunu, mevsimsel yoğunluğun planlamaya etkisini ve sınırlı personel bulunan sahalarda işin nasıl aksamadan yürütüldüğünü anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Vardiya yerine tek kişinin takvimi",
+                metin:
+                    "Küçük bir tarım işletmesinde ya da silo tesisinde vardiya çizelgesi aramayız; belirleyici olan işletme sahibinin ya da sınırlı sayıdaki personelin günlük programıdır. Talep alırken bu yüzden 'hangi vardiya' değil, 'siz veya yetkili kişi hangi gün müsaitsiniz' sorusunu sorarız. Makine bu tek kişinin takvimine göre planlanır; büyük tesislerdeki vardiya değişim penceresi mantığı burada geçerli değildir.",
+            },
+            {
+                baslik: "Bağ ve tarla işlerinin yoğun olduğu dönemler",
+                metin:
+                    "Buldan çevresindeki bağcılık işletmelerinde hasat ve budama gibi dönemsel yoğun işler, işletme sahibinin platform talebiyle ilgilenecek zamanını kısıtlayabilir. Bu dönemlerde randevuyu, tarla işinin görece sakinleştiği bir güne denk getirmek daha güvenilirdir. İşletme sahibinden yıllık iş takvimini genel hatlarıyla öğrenmek, hangi ayın daha uygun olduğunu baştan bilmemizi sağlar.",
+            },
+            {
+                baslik: "Silo ve depolama tesislerinde hasat sonrası yoğunluk",
+                metin:
+                    "Tahıl depolama ve silo tesisleri, hasat sonrası dönemde normal günlere göre çok daha yoğun çalışır — dolum, tartım ve kayıt işleri önceliklidir. Bu yoğun dönemde platform talebi genellikle ertelenir; biz de bu gerçeği bilerek, hasat sonrası yoğunluğun bittiği bir dönemi öneririz. Acil bir bakım ihtiyacı varsa, yoğun dönemde de kısa bir pencere bulmaya çalışırız, ama bunu net biçimde konuşarak planlarız.",
+            },
+            {
+                baslik: "Tek personelin izinli olduğu günün riski",
+                metin:
+                    "Bir ya da iki kişilik bir tarım işletmesinde, tek yetkilinin o gün izinli ya da başka bir işle meşgul olması, randevunun tamamen ertelenmesi anlamına gelir — yerine bakacak başka biri genellikle yoktur. Bu riski azaltmak için randevuyu birden fazla kez teyit ederiz: talep anında, sevkiyattan birkaç gün önce ve mümkünse sabahında kısa bir hatırlatmayla.",
+            },
+            {
+                baslik: "Kırsal yol ve erişim süresinin plana etkisi",
+                metin:
+                    "Tarım işletmeleri ve silo tesisleri genellikle sanayi bölgesinin dışında, kırsal yollarla ulaşılan konumlardadır ve bu, sevkiyat süresini şehir içi taleplere göre uzatabilir. Randevu saatini belirlerken bu ek yol süresini hesaba katar, makinenin işletme sahibinin belirttiği saatte tam olarak sahada olmasını sağlarız; bu, özellikle tek kişilik işletmelerde beklemenin en aza indirilmesi için önemlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşletme tipine göre randevu belirleyicisi",
+                paragraflar: [
+                    "Denizli'nin tarım ve silo kesimindeki işletme tiplerine göre randevu belirleyicisini aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme tipi", "Yoğun dönem", "Randevu belirleyicisi", "Planlama önceliği"],
+                    satirlar: [
+                        ["Bağcılık işletmesi", "Hasat/budama dönemi", "İşletme sahibinin programı", "Sakin ay tercih edilir"],
+                        ["Tahıl silo/depolama", "Hasat sonrası dolum", "Tesis yetkilisinin müsaitliği", "Yoğunluk sonrası dönem"],
+                        ["Kurutma/paketleme birimi", "Sezon yoğunluğu", "Vardiya yok, tek yetkili", "Erken randevu teyidi"],
+                        ["Küçük çiftlik/sera", "Ekim-dikim dönemi", "İşletme sahibinin kendisi", "Esnek gün seçimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yıllık iş takvimini genel hatlarıyla bilmek",
+                paragraflar: [
+                    "Tarım işletmeleriyle ilk görüşmede genellikle yıllık iş takvimini genel hatlarıyla sorarız — hangi ayların yoğun, hangilerinin görece sakin olduğunu. Bu bilgi kesin bir tarih vermez ama hangi dönemde randevu önermenin daha güvenilir olduğunu bize gösterir.",
+                    "Bu ön bilgi, özellikle rutin bakım gibi acil olmayan işlerde randevuyu işletmenin en uygun olduğu döneme yerleştirmemizi sağlar; acil bir arıza durumunda ise dönem gözetmeksizin en yakın uygun zamanı değerlendiririz.",
+                ],
+            },
+            {
+                baslik: "Tekrarlı teyidin küçük işletmedeki önemi",
+                paragraflar: [
+                    "Büyük bir fabrikada bir kişinin izinli olması işi aksatmaz, ama tek ya da iki kişilik bir tarım işletmesinde durum farklıdır — yetkili kişi müsait değilse iş tamamen ertelenir. Bu yüzden randevuyu talep anında, sevkiyattan birkaç gün önce ve mümkünse sabahında kısa bir mesajla tekrar teyit ederiz.",
+                    "Bu tekrarlı teyit, kırsaldaki işletmelerde en sık yaşanan aksamayı — unutulan ya da hatırlanmayan randevuyu — büyük ölçüde önler; birkaç dakikalık bir alışkanlık, boşa geçen bir günü engeller.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bağ işletmemizde vardiya yok, sadece ben varım; randevu nasıl belirlenir?",
+                cevap:
+                    "Sizin müsait olduğunuz güne göre. Sanayi tesislerindeki vardiya çizelgesi mantığı burada geçerli değildir; belirleyici olan sizin ya da işletmedeki tek yetkilinin o gün ne zaman müsait olacağıdır. Bize hangi günün uygun olduğunu söyleyin, makineyi o güne göre planlayalım. Randevuyu birden fazla kez teyit ederiz, çünkü küçük işletmelerde en sık yaşanan aksama unutulan randevudur.",
+            },
+            {
+                soru: "Hasat döneminde çok yoğunuz, bu dönemde randevu almanızı önerir misiniz?",
+                cevap:
+                    "Acil bir ihtiyaç yoksa önermeyiz. Hasat ve dolum döneminde işletmenizin dikkati başka yerdeyken bir platform işiyle ilgilenmek zor olur. Rutin bakım gibi acil olmayan işleri, yoğunluğun bittiği bir sonraki döneme yazmanızı öneririz. Acil bir arıza varsa yoğun dönemde de en yakın uygun kısa pencereyi bulmaya çalışırız; bunu net biçimde konuşarak planlarız.",
+            },
+            {
+                soru: "İşletmemiz sanayi bölgesinden uzak, kırsal bir yolda; bu sevkiyatı etkiler mi?",
+                cevap:
+                    "Etkiler ama planımıza dahildir. Kırsal yollarla ulaşılan konumlar, şehir içi taleplere göre daha uzun bir yol süresi gerektirir; bu ek süreyi randevu saatini belirlerken hesaba katarız. Makinenin sizin belirttiğiniz saatte tam olarak sahada olması için yola çıkış saatini buna göre ayarlarız; bu, özellikle tek kişilik işletmelerde beklemeyi en aza indirir.",
+            },
+            {
+                soru: "Silo tesisimiz hasat sonrası çok yoğun; başka bir zaman önerir misiniz?",
+                cevap:
+                    "Evet, dolum ve tartım işlerinin en yoğun olduğu haftalarda platform işini önermeyiz; bu yoğunluğun bittiği bir dönemi öneririz. Acil bir bakım ihtiyacınız varsa yoğun dönemde de kısa bir pencere aramaya çalışırız, ama bu durumda önceliğinizin dolum işleri olduğunu bilerek planı esnek tutarız.",
+            },
+            {
+                soru: "Randevu günü ben tarlada olabilirim, telefona bakamayabilirim; ne yaparsınız?",
+                cevap:
+                    "Bu riski baştan konuşuruz. Randevu saatini belirlerken, o saatte kesin ulaşılabilir olup olmayacağınızı sorar, gerekirse alternatif bir iletişim yolu (bir aile üyesi, bir çalışan) belirleriz. Sevkiyattan önce kısa bir hatırlatma mesajı göndeririz; bu, telefona anlık ulaşamasanız bile randevunun hafızanızda taze kalmasını sağlar.",
+            },
+            {
+                soru: "Ekim-dikim dönemindeyiz, sera veya tarla işimiz için ne zaman uygun olursunuz?",
+                cevap:
+                    "Sizin belirlediğiniz güne göre planlarız; ekim-dikim döneminde işletmenizin yoğunluğunu biliyoruz ve size en uygun günü sormayı önceliğimiz sayarız. Kesin bir gün veremiyorsanız, o haftanın içinde esnek bir aralık üzerinden çalışır, size en yakın günden bir gün önce teyit isteriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin Buldan bağcılık ve çevre ilçelerdeki tahıl depolama/silo tesisleri barındırması kamuya açık coğrafi bilgidir; vardiyasız küçük işletme randevu düzeni ve mevsimsel planlama kendi çalışma pratiğimizdir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Gece Vardiyasına Göre Enerji ve Aydınlatma Bakım Platformu",
+        giris:
+            "Denizli OSB ve sanayi bölgelerindeki aydınlatma direği, elektrik hattı ve tabela bakımı, gündüz vardiyasının en yoğun olduğu saatlerde yapılırsa hem trafik hem personel güvenliği açısından zorlaşır. Bu yüzden enerji ve aydınlatma bakım taleplerinin büyük kısmını gece vardiyasına ya da vardiyanın azaldığı geç saatlere yazarız — OSB içi yollar boşalır, aydınlatma direğine erişim için trafik kesintisi gerekmez ve iş, gündüz personel yoğunluğundan etkilenmeden ilerler. Bu sayfada, aydınlatma ve enerji bakım işlerinin gece vardiyasına göre nasıl planlandığını, gece çalışmanın kendi güvenlik gereksinimlerini ve OSB'nin ortak aydınlatma altyapısıyla tekil bir işletmenin kendi tesisi arasındaki koordinasyon farkını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Gündüz yoğunluğunun bakım işine etkisi",
+                metin:
+                    "Aydınlatma direği ya da elektrik hattı bakımı, genellikle bir yol kenarında ya da personel geçiş güzergâhında yapılır ve gündüz saatlerinde bu bölgede platform çalıştırmak hem trafiği yavaşlatır hem geçen personel için risk oluşturur. Bu yüzden mümkün olduğunda bu tür işleri gece vardiyasına ya da personel trafiğinin en düşük olduğu saatlere yazarız; gündüz zorunlu bir durum varsa çalışma alanını sıkı biçimde işaretleriz.",
+            },
+            {
+                baslik: "Gece çalışmanın kendi hazırlığı",
+                metin:
+                    "Gece bakım işi, gündüzden farklı bir hazırlık gerektirir — çalışma alanı yeterli aydınlatmayla desteklenir, iletişim hattı netleştirilir ve gece vardiyasında görevli bir yetkilinin işin başında bulunması şart koşulur. Bu koşullar sağlanmadan gece işine başlamayız; bu, işin hızından çok güvenliğini önceliklendiren bir kuraldır. Gece vardiya sorumlusuyla önceden bir saat belirler, bu saate göre ekibimizi planlarız.",
+            },
+            {
+                baslik: "OSB ortak aydınlatmasıyla tekil işletme farkı",
+                metin:
+                    "OSB'nin ana yollarındaki ortak aydınlatma direklerinin bakımı, OSB yönetimiyle koordine edilir ve genellikle birden fazla işletmeyi ilgilendiren geniş kapsamlı bir iştir. Buna karşılık bir işletmenin kendi bahçesindeki ya da bina cephesindeki aydınlatmanın bakımı, doğrudan o işletmenin yetkilisiyle kurulur ve daha küçük kapsamlıdır. Bu iki türü ayırt etmek, doğru muhatabı ve doğru zamanlamayı baştan belirlememizi sağlar.",
+            },
+            {
+                baslik: "Elektrik hattı işlerinde ek güvenlik koordinasyonu",
+                metin:
+                    "Enerji hattına yakın çalışmalarda, platform operatörünün mesafe ve izolasyon kurallarına uyması yeterli değildir; ilgili elektrik hattının o an enerjili olup olmadığının da netleştirilmesi gerekir. Bu bilgi, tesisin elektrik sorumlusundan ya da OSB'nin teknik biriminden alınır ve iş, bu teyit olmadan başlamaz. Bu ek koordinasyon adımı, işin süresini biraz uzatabilir ama güvenlik açısından atlanmaz.",
+            },
+            {
+                baslik: "Toplu tabela ve aydınlatma turunun kurulması",
+                metin:
+                    "Bir OSB'de ya da sanayi bölgesinde birden fazla işletmenin tabela ve aydınlatma bakımı aynı gece penceresine sığdırılabilir — bu, nakliye maliyetini bölmenin yanı sıra gece vardiyasının verimli kullanılmasını da sağlar. Komşu işletmelerin taleplerini aynı geceye toplamak için, her adresin bakım kapsamını ve tahmini süresini önceden netleştirir, sırayı gece boyunca akacak şekilde kurarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bakım tipine göre uygun zaman ve muhatap",
+                paragraflar: [
+                    "Enerji ve aydınlatma bakım işlerinin tipine göre uygun zamanı ve muhatabı aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Bakım tipi", "Uygun zaman", "Ek güvenlik koşulu", "Muhatap"],
+                    satirlar: [
+                        ["OSB ortak yol aydınlatması", "Gece, düşük trafik", "OSB teknik teyidi", "OSB yönetimi"],
+                        ["İşletme cephe/tabela aydınlatması", "Gece ya da mesai dışı", "İşletme onayı", "İşletme yetkilisi"],
+                        ["Elektrik hattı yakını iş", "Hattın enerjisiz olduğu saat", "Enerji kesintisi teyidi", "Elektrik sorumlusu"],
+                        ["Toplu tabela/aydınlatma turu", "Gece boyunca sıralı", "Her adresin ayrı onayı", "Birden fazla yetkili"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gece vardiya sorumlusuyla erken temas",
+                paragraflar: [
+                    "Gece bakım talebi aldığımızda önce gece vardiyasında kimin görevli olacağını netleştiririz — gündüz idari personelle yapılan bir görüşme, gece sahada kimin yetkili olduğunu göstermez. Bu netleşme sağlanmadan gece işi planlanmaz.",
+                    "Gece vardiya sorumlusuyla kurulan iletişim, iş başında ve sonunda doğrulamanın hızlı yapılmasını sağlar; bu kişi işin başında çalışma noktasını gösterir, sonunda kontrol eder.",
+                ],
+            },
+            {
+                baslik: "Enerji kesintisi teyidinin zorunluluğu",
+                paragraflar: [
+                    "Elektrik hattına yakın bir bakım işinde, hattın enerjili olup olmadığının teyidi olmadan platform o bölgeye yaklaşmaz. Bu teyit, tesisin elektrik sorumlusundan ya da OSB'nin teknik biriminden yazılı ya da sözlü olarak alınır ve iş başlamadan önce netleşir.",
+                    "Bu adım işin süresini biraz uzatsa da, enerji hattı yakınında güvenlik açısından atlanamayacak tek koşuldur; müşterilerimize bu süreyi baştan açıkça anlatırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aydınlatma direğimizin bakımını gündüz mü gece mi yapmalıyız?",
+                cevap:
+                    "Mümkünse gece ya da personel trafiğinin en düşük olduğu saati öneririz. Gündüz saatlerinde bu tür işler hem trafik yavaşlatır hem geçen personel için risk oluşturur. Gece çalışmanın kendi hazırlığı vardır — yeterli aydınlatma, net iletişim ve gece vardiyasında görevli bir yetkilinin işin başında bulunması. Bu koşullar sağlandığında gece çalışması hem daha güvenli hem daha hızlı ilerler.",
+            },
+            {
+                soru: "Elektrik hattına yakın bir işimiz var, güvenli mi?",
+                cevap:
+                    "Doğru hazırlıkla evet. Hattın o an enerjili olup olmadığının teyidi olmadan işe başlamayız; bu teyidi tesisin elektrik sorumlusundan ya da OSB'nin teknik biriminden alırız. Bu ek koordinasyon adımı işin süresini biraz uzatabilir ama güvenlik açısından atlanmaz; bunu size baştan açıkça söyleriz.",
+            },
+            {
+                soru: "OSB'nin ortak aydınlatma direğinde mi, kendi işletmemizin aydınlatmasında mı fark var?",
+                cevap:
+                    "Evet, önemli bir fark var. OSB'nin ana yollarındaki ortak direklerin bakımı OSB yönetimiyle koordine edilir ve genellikle birden fazla işletmeyi ilgilendirir; bu, daha geniş kapsamlı bir süreçtir. Kendi bahçenizdeki ya da bina cephenizdeki aydınlatmanın bakımı ise doğrudan sizinle kurulur ve daha hızlı ilerler. Talebinizi iletirken hangi tür olduğunu belirtmeniz, doğru muhatabı baştan bulmamızı sağlar.",
+            },
+            {
+                soru: "Komşu işletmelerle aynı gece tabela bakımı yaptırabilir miyiz?",
+                cevap:
+                    "Evet, bu nakliye maliyetini ve gece vardiyasının verimini artıran bir yöntemdir. Her işletmenin bakım kapsamını ve tahmini süresini önceden netleştirir, sırayı gece boyunca akacak şekilde kurarız. Yapmanız gereken, komşu işletmelerle birlikte talebinizi bize iletmeniz; sıralamayı ve geçiş sürelerini biz planlarız.",
+            },
+            {
+                soru: "Gece vardiyamızda kimin yetkili olduğunu bilmiyoruz, ne yapmalıyız?",
+                cevap:
+                    "Bunu bize sormanıza gerek yok, ama işletme içinde netleştirilmesi gerekir — gündüz idari personelle yapılan bir görüşme, gece sahada kimin yetkili olduğunu göstermez. Gece vardiya sorumlunuzu belirleyip bize iletmeniz, planlamanın ilk adımıdır. Bu netleşme sağlanmadan gece işini planlamayız, çünkü işin başında ve sonunda doğrulama yapacak kimse olmayabilir.",
+            },
+            {
+                soru: "Acil bir aydınlatma arızası var, gece bekleyemez; hemen gelebilir misiniz?",
+                cevap:
+                    "Acil durumlarda gece-gündüz ayrımı yapmadan en yakın uygun zamanı değerlendiririz. Ancak elektrik hattı yakınında bir arızaysa, aciliyet güvenlik teyidini atlatmaz — enerji durumunu netleştirmeden işe başlamayız. Acil talebinizi ilettiğinizde, hem hızlı hem güvenli bir çözüm için gerekli teyidi en kısa sürede alır, işi başlatırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli OSB'nin ortak aydınlatma altyapısına sahip olması sektör geneli bilgidir; gece vardiyasına göre bakım planlaması ve enerji kesintisi teyit süreci kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Vardiyaya Göre Operatörlü / Operatörsüz Platform Kiralama Kararı",
+        giris:
+            "Denizli'deki vardiyalı sanayi tesislerinde operatörlü mü yoksa operatörsüz mü kiralama yapılacağı kararı, çoğu zaman makinenin özelliğinden değil, işin yapılacağı vardiyada yetkili ve belgeli bir operatörün bulunup bulunmadığından çıkar. Gündüz vardiyasında platform kullanmaya yetkili personeli olan bir tesis, gece vardiyasında aynı yetkinliğe sahip olmayabilir; bu durumda operatörlü kiralama, vardiya boşluğunu kapatan tek pratik çözümdür. Bu sayfada, operatörlü ve operatörsüz kiralama kararının vardiya düzenine göre nasıl verildiğini, hangi vardiyada hangi seçeneğin daha uygun olduğunu ve operatörümüzün vardiya değişimlerinde nasıl koordine edildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Karar noktası: kim, hangi vardiyada kullanacak",
+                metin:
+                    "Operatörlü ya da operatörsüz karar, işin niteliğinden önce 'makineyi kim, hangi vardiyada kullanacak' sorusuna bağlıdır. Belgeli ve deneyimli bir personeliniz tüm vardiyalarda sahadaysa operatörsüz kiralama maliyeti düşürür. Yetkili personel yalnızca belirli bir vardiyada bulunuyorsa, diğer vardiyalar için operatörlü kiralama ya da işi o vardiyaya kaydırma seçeneklerinden biri değerlendirilir.",
+            },
+            {
+                baslik: "Gece vardiyasında operatör boşluğu",
+                metin:
+                    "Birçok tesiste belgeli platform operatörü gündüz vardiyasında görevlidir ve gece vardiyasında aynı yetkinlikte personel bulunmaz. Gece çıkan acil bir iş için bu durumda iki seçenek vardır: operatörlü kiralamayla işi bizim ekibimize bırakmak ya da işi belgeli personelin sahada olduğu bir sonraki vardiyaya kaydırmak. Acil ve ertelenemez bir işse operatörlü çözüm hızlıdır; planlı bir işse gündüz vardiyasına kaydırmak genellikle daha ekonomiktir.",
+            },
+            {
+                baslik: "Operatörlü kiralamada vardiya değişiminin yönetimi",
+                metin:
+                    "İş birden fazla vardiyayı kapsayacak kadar uzarsa, operatörümüz vardiya değişiminde ya sahada kalır ya da bir sonraki operatörümüze kısa bir devir yapar — o ana kadar yapılan iş, kalan kısım ve varsa dikkat edilmesi gereken saha koşulu aktarılır. Bu devir, operatör değişse bile işin aynı standartla sürmesini sağlar ve tesisin vardiya akışını bozmaz.",
+            },
+            {
+                baslik: "Karma model: bazı vardiyada operatörlü, bazısında değil",
+                metin:
+                    "Bazı tesislerde karma bir model uygularız — gündüz vardiyasında tesisin kendi yetkili personeli makineyi kullanır, gece vardiyasında ise bizim operatörümüz devreye girer. Bu model, tam gün operatörlü kiralamaktan daha ekonomiktir ve tesisin kendi personelinin deneyimini de kullanmasını sağlar. Karar, hangi vardiyada kimin yetkili olduğunun net biçimde bilinmesiyle mümkündür.",
+            },
+            {
+                baslik: "Yetkinlik belgesinin vardiya bazında doğrulanması",
+                metin:
+                    "Operatörsüz kiralama talep edildiğinde, makineyi kullanacak personelin yeterlilik belgesini vardiya bazında doğrularız — çünkü aynı işletmede farklı vardiyalarda farklı personel görev alabilir ve her birinin belgesi ayrı ayrı kontrol edilmelidir. Bu doğrulama, hem güvenlik hem de sorumluluk açısından atlanmayan bir adımdır; belgesi olmayan bir vardiyaya operatörsüz makine teslim edilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Vardiya durumuna göre operatör önerisi",
+                paragraflar: [
+                    "Tesisinizin vardiya ve personel durumuna göre operatörlü ya da operatörsüz kiralama önerisini aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Vardiya durumu", "Yetkili personel", "Önerilen model", "Maliyet etkisi"],
+                    satirlar: [
+                        ["Tüm vardiyalarda yetkili personel var", "Evet, her vardiyada", "Operatörsüz", "En düşük"],
+                        ["Sadece gündüz vardiyasında yetkili var", "Kısmi", "Karma model", "Orta"],
+                        ["Hiçbir vardiyada yetkili personel yok", "Hayır", "Operatörlü", "Daha yüksek ama güvenli"],
+                        ["Tek seferlik/kısa iş", "Değişken", "Operatörlü öneriyoruz", "Öğrenme süresi yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "Karma modelin kurulması",
+                paragraflar: [
+                    "Karma model uygulanacaksa, önce hangi vardiyalarda tesisin kendi personelinin yetkili olduğunu netleştirir, kalan vardiyalar için operatör planlaması yaparız. Bu, tesisin hem kendi ekibinin deneyimini kullanmasını hem de boşluk kalan vardiyalarda güvenli bir çözüm bulmasını sağlar.",
+                    "Karma model uzun süreli kiralamalarda özellikle avantajlıdır; vardiya bazında maliyet optimize edilirken güvenlik hiçbir vardiyada eksik kalmaz.",
+                ],
+            },
+            {
+                baslik: "Vardiya değişiminde operatör devri",
+                paragraflar: [
+                    "Operatörlü bir iş birden fazla vardiyayı kapsıyorsa, vardiya değişiminde kısa bir devir yaparız — tamamlanan kısım, kalan iş ve saha koşulları bir sonraki operatöre aktarılır. Bu devir sözlü olabileceği gibi, uzun işlerde yazılı kısa bir notla da desteklenir.",
+                    "Bu devir düzeni, operatör değişse bile işin standardının düşmemesini sağlar ve tesisin vardiya akışını bozmadan işin sürmesine imkân verir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gündüz vardiyamızda yetkili personelimiz var ama gece yok; ne öneriyorsunuz?",
+                cevap:
+                    "Karma model öneririz — gündüz vardiyasında sizin personeliniz makineyi kullanır, gece vardiyasında bizim operatörümüz devreye girer. Bu, tam gün operatörlü kiralamaktan daha ekonomiktir ve gündüz personelinizin deneyiminden de yararlanmanızı sağlar. Karar için tek gerekli bilgi, hangi vardiyalarda kimin yetkili olduğudur.",
+            },
+            {
+                soru: "Operatörsüz kiralamak istiyoruz, personelimizin belgesini nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Makineyi kullanacak personelin yeterlilik belgesini vardiya bazında doğrularız — özellikle farklı vardiyalarda farklı kişiler görev alıyorsa, her birinin belgesi ayrı ayrı kontrol edilir. Bu, güvenlik ve sorumluluk açısından atlamadığımız bir adımdır; belgesi olmayan bir vardiyaya operatörsüz makine teslim etmeyiz.",
+            },
+            {
+                soru: "Gece acil bir işimiz çıktı, belgeli operatörümüz yok; ne yapabiliriz?",
+                cevap:
+                    "Operatörlü kiralamayla işi bizim ekibimize bırakabiliriz; bu, acil ve ertelenemez işler için en hızlı çözümdür. İş ertelenebilir bir işse, gündüz vardiyasına kaydırmak genellikle daha ekonomiktir. Hangisinin sizin durumunuza uygun olduğunu ilk görüşmede birlikte değerlendiririz.",
+            },
+            {
+                soru: "İşimiz birkaç vardiyayı kapsayacak, operatör her vardiyada aynı kişi mi olur?",
+                cevap:
+                    "Her zaman değil, ama vardiya değişiminde mutlaka bir devir yaparız — tamamlanan kısım, kalan iş ve saha koşulları bir sonraki operatörümüze aktarılır. Bu devir, operatör değişse bile işin aynı standartla sürmesini sağlar. Uzun işlerde bu devri kısa yazılı bir notla da destekleriz.",
+            },
+            {
+                soru: "Operatörlü kiralamak operatörsüzden ne kadar farklı maliyette?",
+                cevap:
+                    "Fark, işin süresine ve vardiya kapsamına göre değişir; talep aşamasında size net bir rakam veririz. Kısa süreli ya da tek seferlik işlerde operatörlü kiralama, öğrenme süresi olmadan hemen başlamayı sağladığı için genellikle tercih edilir. Uzun süreli ve çok vardiyalı işlerde karma model, maliyeti optimize eden bir orta yol sunar.",
+            },
+            {
+                soru: "Vardiya düzenimiz sık değişiyor, her seferinde operatör kararını yeniden mi vermeliyiz?",
+                cevap:
+                    "Değişen vardiya düzeninizi bize önceden bildirdiğiniz sürece, kararı her seferinde yeniden değerlendirmemiz sorun değildir. Düzenli çalıştığımız tesislerden güncel vardiya ve personel programını almayı tercih ederiz; bu program elimizde olduğunda hangi vardiyada operatörlü hangi vardiyada operatörsüz çalışacağımızı biz öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Vardiyalı sanayi tesislerinde belgeli operatörün her vardiyada bulunmayabileceği sektör geneli bir gerçekliktir; karma operatör modeli ve vardiya bazında belge doğrulaması kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Farklı Vardiya Saatlerindeki İşletmeleri Aynı Güne Bağlayan Çok Noktalı Rota Bakım Platformu",
+        giris:
+            "Denizli sanayi bölgesinde bir günde birden fazla adrese hizmet vermek, her adresin kendi vardiya düzenine sahip olması nedeniyle basit bir güzergâh planlamasından daha karmaşıktır — bir tekstil tesisinin vardiya değişim saati, bir mermer atölyesinin kesim programı ve bir küçük işletmenin sahibinin müsaitliği aynı gün içinde birbirinden bağımsız çalışır. Bizim çok noktalı rota planlamamız, yalnızca adresler arası mesafeyi değil, her adresin vardiya ya da müsaitlik penceresini de hesaba katar; bu sayede tek bir makine, aynı günde farklı vardiya düzenindeki birkaç işletmeye sırayla hizmet verebilir. Bu sayfada, farklı vardiya saatlerindeki işletmelerin nasıl aynı güne bağlandığını, sıralamanın nasıl kurulduğunu ve bir adresteki gecikmenin diğerlerini nasıl etkilediğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Her adresin kendi vardiya penceresi",
+                metin:
+                    "Çok noktalı bir günde ilk adım, her adresin kendi vardiya ya da müsaitlik penceresini ayrı ayrı öğrenmektir — bir tesis vardiya değişiminde uygun, bir diğeri sadece hafta sonu, bir üçüncüsü ise işletme sahibinin müsait olduğu herhangi bir saatte uygun olabilir. Bu bilgi toplanmadan kurulan bir rota, bir adreste bekleme ya da erişememe riskiyle karşılaşır.",
+            },
+            {
+                baslik: "Sıralamanın mesafe ve pencereye göre kurulması",
+                metin:
+                    "Rota sıralaması yalnızca mesafeye göre değil, hangi adresin hangi saatte uygun olduğuna göre kurulur. Vardiya değişim saati dar olan bir adres, o pencereye tam denk gelecek şekilde sıraya yerleştirilir; daha esnek bir pencereye sahip adresler ise günün diğer boşluklarını doldurur. Bu, mesafe açısından en kısa rotanın değil, en az bekleme yaratan rotanın tercih edilmesi anlamına gelebilir.",
+            },
+            {
+                baslik: "Bir adresteki gecikmenin zincirleme etkisi",
+                metin:
+                    "Çok adresli bir günde bir adresteki beklenmedik gecikme (trafik, sahada ek bir sorun), sıradaki randevuları geciktirebilir. Bu riski azaltmak için her durak arasına makul bir geçiş payı bırakırız ve dar pencereli adresleri günün başına, esnek pencereli adresleri sona yerleştiririz. Bir gecikme yaşandığında, etkilenen adresleri erken uyarır, alternatif bir saat öneririz.",
+            },
+            {
+                baslik: "Komşu işletmelerin taleplerini birleştirmek",
+                metin:
+                    "Denizli'deki OSB ve sanayi bölgelerinde birbirine yakın konumlu işletmelerin taleplerini aynı güne toplamak, nakliye maliyetini böler ve makinenin günü verimli doldurmasını sağlar. Bu birleştirme için, komşu işletmelerin taleplerini ve tercih ettikleri saatleri önceden bilmemiz gerekir; sıralamayı biz kurar, her işletmeye kendi payına düşen saat aralığını net biçimde bildiririz.",
+            },
+            {
+                baslik: "Farklı sektörlerin aynı güne dizilmesi",
+                metin:
+                    "Bir günün içinde bir tekstil tesisinin vardiya arası bakımı, bir mermer atölyesinin kesim programına bağlı erişimi ve bir küçük işletmenin esnek randevusu aynı makineyle sırayla yapılabilir. Bu, farklı sektörlerin farklı zamanlama mantıklarını aynı anda yönetmeyi gerektirir; her adresin kendi kısıtını ayrı ayrı bilmek, bu çeşitliliği tek bir tutarlı güne dönüştürmenin tek yoludur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Adres tipine göre rota içindeki konum",
+                paragraflar: [
+                    "Farklı adres tiplerinin rota içindeki tipik konumunu ve pencere darlığını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Adres tipi", "Pencere darlığı", "Rota içi konum", "Gecikme toleransı"],
+                    satirlar: [
+                        ["Vardiya değişimi bağımlı tesis", "Dar", "Kesin saatte, öncelikli", "Düşük"],
+                        ["Kesim programı bağımlı atölye", "Orta", "Programa göre esnek", "Orta"],
+                        ["Küçük işletme, esnek randevu", "Geniş", "Gün sonuna doğru", "Yüksek"],
+                        ["Gece vardiyalı depo/lojistik", "Dar, farklı zaman dilimi", "Ayrı gece turu", "Düşük"],
+                    ],
+                },
+            },
+            {
+                baslik: "Geçiş payının hesaplanması",
+                paragraflar: [
+                    "Her durak arasına bırakılan geçiş payı, sadece yol mesafesine değil, bir önceki adresteki işin ne kadar süreceğine dair tahmine de dayanır. Basit ve tek noktalı işlerde pay kısa tutulur; karmaşık ya da belirsiz kapsamlı işlerde pay geniş tutulur.",
+                    "Bu hesaplama, rotanın gerçekçi kalmasını sağlar; aşırı iyimser bir program, ilk adresteki küçük bir gecikmeyle tüm günü bozabilir.",
+                ],
+            },
+            {
+                baslik: "Birleştirme talebinin nasıl iletileceği",
+                paragraflar: [
+                    "Komşu işletmelerin taleplerini birleştirmek isteyen müşterilerimizden, işlerini ve tercih ettikleri saatleri birlikte bildirmelerini isteriz — ayrı ayrı gelen talepler, birleştirme fırsatını bazen kaçırabilir çünkü zamanlaması çakışmayabilir.",
+                    "Talepler birlikte geldiğinde, sıralamayı ve geçiş paylarını biz kurar, her işletmeye kendi payına düşen saat aralığını ve toplam maliyet paylaşımını net biçimde bildiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı gün üç farklı tesise gitmeniz gerekiyor, her birinin vardiyası farklı; bu mümkün mü?",
+                cevap:
+                    "Mümkün, Denizli'deki sanayi bölgelerinde sık uyguladığımız bir modeldir. Her tesisin vardiya penceresini önceden öğrenir, sıralamayı hem mesafe hem pencere darlığına göre kurarız — dar pencereli tesis kesin saatinde, esnek pencereli tesis günün diğer boşluğunda ziyaret edilir. Üç adresin bilgisini paylaşın, size tek bir günlük çizelge çıkaralım.",
+            },
+            {
+                soru: "Bir adreste iş uzarsa, sıradaki randevum kaçar mı?",
+                cevap:
+                    "Bu riski azaltmak için her durak arasına makul bir geçiş payı bırakırız ve belirsiz kapsamlı işlerin ardına daha geniş bir pay koyarız. Yine de beklenmedik bir gecikme olursa, etkilenen sıradaki adresleri erken uyarır, alternatif bir saat öneririz; sürpriz bir gecikmeyle karşı karşıya bırakmamaya çalışırız.",
+            },
+            {
+                soru: "Komşu işletmelerle aynı gün hizmet almak istiyoruz, nasıl organize oluruz?",
+                cevap:
+                    "İşlerinizi ve tercih ettiğiniz saatleri birlikte bize bildirin; ayrı ayrı gelen talepler bazen birleştirme fırsatını kaçırabilir. Talepler birlikte geldiğinde sıralamayı ve geçiş paylarını biz kurarız, her işletmeye kendi payına düşen saat aralığını ve toplam maliyet paylaşımını net biçimde bildiririz. Bu model, tek tek hizmet almaktan belirgin ölçüde ekonomiktir.",
+            },
+            {
+                soru: "Gece vardiyalı bir depo ile gündüz çalışan bir atölyeyi aynı güne koyabilir misiniz?",
+                cevap:
+                    "Genellikle ayrı turlara ayırırız — gece vardiyalı depo, kendi gece penceresine göre planlanan ayrı bir turda ziyaret edilir; gündüz atölyeler ise kendi gündüz turunda. İkisini tek bir sürekli güzergâha bağlamak, farklı zaman dilimleri arasında verimsiz bir bekleme yaratır; bu yüzden bu tür karma taleplerde iki ayrı tur öneririz.",
+            },
+            {
+                soru: "Rotadaki her adresin kesin saatini önceden söyleyebilir misiniz?",
+                cevap:
+                    "Dar pencereli adresler için evet, kesin bir saat veririz — çünkü bu adreslerin penceresi zaten dardır ve kesinlik gerektirir. Esnek pencereli adresler içinse genellikle bir saat aralığı veririz, çünkü bu adresler günün diğer bölümlerini doldurmak için kullanılır ve kesin saat, önceki adreslerin seyrine bağlı olarak küçük ölçüde kayabilir.",
+            },
+            {
+                soru: "Tek bir adresimiz var ama vardiyamız dar bir pencere sunuyor; yine de rota mantığı geçerli mi?",
+                cevap:
+                    "Tek adres için de aynı titizlikle çalışırız — dar bir pencereniz varsa makineyi bir önceki işin bitişine göre erken konumlandırır, pencere açılır açılmaz işe başlarız. Rota mantığı özellikle çok adresli günlerde belirginleşir, ama tek adresli dar pencereli talepler de aynı planlama disipliniyle ele alınır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli sanayi bölgesindeki işletmelerin farklı vardiya ve üretim programlarına sahip olması sektör geneli bilgidir; çok noktalı rota planlaması ve pencereye göre sıralama kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Sınırlı İş Gücüyle Zor Zemin ve Arazi Platform Kiralama",
+        giris:
+            "Denizli'nin sanayi bölgeleri dışındaki kırsal ve arazi sahalarında — bir bağ kenarındaki elektrik direği, bir tarım deposunun düz olmayan bahçesi, yeni açılan bir arazinin sınır çevresi — zor zemin koşulları, iş gücü kısıtıyla birlikte gelir. Bu tür sahalarda genellikle büyük bir bakım ekibi değil, bir ya da birkaç kişi bulunur ve makinenin zemine uygunluğu kadar, o kişinin işi yönlendirebilme kapasitesi de planlamayı belirler. Bu sayfada, zor zemin ve arazi sahalarında platform kiralamanın hem teknik (zemin türü, eğim, erişim) hem iş gücü (kimin sahada olacağı, ne zaman ulaşılacağı) boyutunu birlikte nasıl ele aldığımızı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Zemin türünün makine seçimine etkisi",
+                metin:
+                    "Toprak, çakıl, hafif eğimli ya da düzensiz zeminlerde standart lastik tekerlekli platformlar yetersiz kalabilir; bu tür sahalarda paletli taban ve geniş destek ayaklarına sahip makineler tercih edilir. Zemin türünü ve varsa eğim derecesini talep aşamasında sorar, uygun makine sınıfını buna göre öneririz. Zemin aşırı yumuşak ya da bataklıksa, bunu dürüstçe söyler, alternatif bir erişim planı öneririz.",
+            },
+            {
+                baslik: "Sahada tek kişinin işi yönlendirmesi",
+                metin:
+                    "Kırsal ve arazi sahalarında genellikle işi yönlendirecek tek bir kişi bulunur — işletme sahibi, bir bakım görevlisi ya da bir çiftçi. Bu kişi o gün sahada değilse, makine doğru zemine ulaşsa bile çalışma noktasını gösterecek kimse kalmaz. Bu yüzden randevuyu bu tek kişiyle doğrudan kurar, sevkiyattan önce teyit ederiz.",
+            },
+            {
+                baslik: "Arazi erişiminde yol ve zaman planlaması",
+                metin:
+                    "Kırsal sahalara erişim, sanayi bölgesindeki asfalt yollara göre daha uzun ve değişken sürebilir — toprak yol, mevsimsel çamur ya da dar geçitler sevkiyat süresini uzatabilir. Randevu saatini belirlerken bu ek süreyi hesaba katar, makinenin belirlenen saatte sahada olmasını sağlarız; bu, özellikle tek kişilik sahalarda beklemeyi en aza indirir.",
+            },
+            {
+                baslik: "Destek ekipmanı ve önceden hazırlık",
+                metin:
+                    "Zor zeminli bir sahada, platformun destek ayaklarını sağlam biçimde konumlandırmak için bazen ek takoz ya da zemin plakası gerekebilir. Bu ihtiyacı önceden tahmin etmek için zemin fotoğrafı isteriz; sahaya varıldığında eksik bir ekipmanla karşılaşmamak, işin ilk seferde tamamlanmasını sağlar.",
+            },
+            {
+                baslik: "Mevsimsel zemin değişikliğinin planlamaya etkisi",
+                metin:
+                    "Aynı arazi parçası, yağışlı mevsimde çamurlu ve zayıf zeminliyken kurak mevsimde sert ve erişilebilir olabilir. Bu değişkenlik nedeniyle, mevsime bağlı bir sahada randevu öncesi kısa bir zemin teyidi isteriz — özellikle son günlerde yağış olduysa. Bu teyit, sahada makinenin batması ya da geri çevrilmesi gibi bir sorunu önceden önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipine göre makine ve hazırlık önerisi",
+                paragraflar: [
+                    "Kırsal ve arazi sahalarında sık karşılaştığımız zemin tiplerini ve önerilen hazırlığı aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Önerilen taban", "Ek hazırlık", "Mevsimsel risk"],
+                    satirlar: [
+                        ["Sert toprak, düz", "Standart lastik", "Genellikle gerekmez", "Düşük"],
+                        ["Çakıllı, hafif eğimli", "Paletli, destek ayaklı", "Zemin fotoğrafı", "Orta"],
+                        ["Yumuşak toprak, yağış sonrası", "Paletli, geniş destek", "Zemin plakası", "Yüksek"],
+                        ["Dar arazi yolu erişimi", "Kompakt şase", "Erken yol keşfi", "Mevsime bağlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek yetkiliyle randevunun kesinleştirilmesi",
+                paragraflar: [
+                    "Kırsal sahalarda işi yönlendirecek kişi genellikle tek kişidir ve bu kişinin o gün sahada olacağından emin olmak, kentsel bir sahaya göre daha kritiktir — yerine bakacak başka biri genellikle yoktur. Randevuyu talep anında ve sevkiyattan bir gün önce olmak üzere iki kez teyit ederiz.",
+                    "Bu tekrarlı teyit, kırsal sahalarda en sık yaşanan aksamayı — unutulan randevu ya da beklenmedik bir tarla işiyle çakışma — büyük ölçüde önler.",
+                ],
+            },
+            {
+                baslik: "Zemin fotoğrafının önceden istenmesi",
+                paragraflar: [
+                    "Zor zeminli bir talep aldığımızda, mümkünse sahadan birkaç fotoğraf isteriz — zeminin dokusu, eğim varsa derecesi, erişim yolunun genişliği. Bu fotoğraflar, doğru makine sınıfını ve gerekebilecek ek ekipmanı sahaya gitmeden belirlememizi sağlar.",
+                    "Fotoğraf paylaşılamıyorsa, telefonda detaylı bir sözlü tarif isteriz; bu, belirsizliği tamamen ortadan kaldırmasa da, sahada büyük bir sürprizle karşılaşma riskini azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Arazimiz düz değil, hafif eğimli ve toprak; hangi makineyi önerirsiniz?",
+                cevap:
+                    "Büyük olasılıkla paletli tabanlı ve destek ayaklı bir model öneririz — bu tür makineler düz olmayan ve toprak zeminlerde çalışmak için tasarlanmıştır, destek ayakları eğimi dengeler. Kesin öneri için zemin fotoğrafı ya da detaylı bir sözlü tarif isteriz; eğim ya da zemin yumuşaklığı belirli bir sınırı aşıyorsa bunu dürüstçe söyler, alternatif bir çözüm öneririz.",
+            },
+            {
+                soru: "Sahamızda sadece ben varım, o gün tarlaya gitmem gerekirse ne olur?",
+                cevap:
+                    "Randevu ertelenir, çünkü sahada işi yönlendirecek başka kimse yoksa makine boş bekler ya da geri döner. Bu riski azaltmak için randevuyu talep anında ve sevkiyattan bir gün önce olmak üzere iki kez teyit ederiz. Programınızda bir değişiklik olasılığı varsa bunu talep aşamasında bildirmeniz, hem sizin hem bizim zamanınızı korur.",
+            },
+            {
+                soru: "Son günlerde yağış oldu, zeminimiz çamurlu olabilir; sevkiyatı etkiler mi?",
+                cevap:
+                    "Etkileyebilir, bu yüzden mevsime bağlı sahalarda randevu öncesi kısa bir zemin teyidi isteriz. Zemin gerçekten yumuşaksa, paletli ve geniş destekli bir makineye geçebilir ya da zemin plakası gibi ek hazırlık önerebiliriz. Bu teyit olmadan sevkiyat yapmak, sahada makinenin batması gibi bir riski beraberinde getirir; bu yüzden bu adımı atlamayız.",
+            },
+            {
+                soru: "Arazimize giden yol dar ve toprak; makine buraya ulaşabilir mi?",
+                cevap:
+                    "Çoğu zaman evet, ama yol genişliğini ve zeminini önceden bilmemiz gerekir. Erken bir yol keşfi (fotoğraf ya da detaylı tarif) yaparak kompakt bir şase gerekip gerekmediğini belirleriz. Yol aşırı darsa ya da mevsimsel olarak geçilemez durumdaysa, bunu size baştan söyler, alternatif bir erişim noktası ya da farklı bir sevkiyat aracı öneririz.",
+            },
+            {
+                soru: "Destek ayakları için ek bir hazırlık gerekir mi?",
+                cevap:
+                    "Zemin türüne bağlı. Sert ve düz zeminlerde genellikle ek hazırlık gerekmez; yumuşak ya da düzensiz zeminlerde destek ayaklarının sağlam konumlanması için takoz ya da zemin plakası gerekebilir. Bu ihtiyacı önceden tahmin etmek için zemin fotoğrafı isteriz; sahaya varıldığında eksik ekipmanla karşılaşmamak, işin ilk seferde tamamlanmasını sağlar.",
+            },
+            {
+                soru: "Kırsal sahamıza ulaşım süresi ne kadar, randevu saatini nasıl belirliyorsunuz?",
+                cevap:
+                    "Kırsal yollara erişim, sanayi bölgesindeki asfalt yollara göre daha uzun ve değişken sürebilir. Randevu saatini belirlerken bu ek yol süresini hesaba katar, yola çıkış saatimizi buna göre ayarlarız; amacımız makinenin sizin belirlediğiniz saatte tam olarak sahada olmasıdır. Yolun mevsimsel durumu (çamur, erişim kapanması) hakkında bilginiz varsa, bunu bize önceden bildirmeniz planlamayı kolaylaştırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Denizli'nin sanayi bölgeleri dışındaki kırsal ve arazi sahalarının zemin çeşitliliği kamuya açık coğrafi bilgidir; zemin fotoğrafıyla ön değerlendirme ve tek yetkiliyle randevu teyidi kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
 };
