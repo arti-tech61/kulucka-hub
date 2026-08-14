@@ -1555,4 +1555,102 @@ export const IZMIRPLATFORMKIRALAMA_ORG: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-14. Buca'nın küçük sanayi sitesi zemin profili kamuya açık bilgidir; ağır arazi/zor zemin hizmeti ana uzmanlık alanı olarak sunulmamıştır. Tesis adı veya fiyat rakamı uydurulmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama — Buca ve Karabağlar KOBİ'lerine Bütçe Dostu Dikey Erişim",
+        giris:
+            "Makaslı platform, Buca ve Karabağlar'daki atölye ve dükkânlarda yüksekte erişim ihtiyacının büyük kısmını en düşük bütçeyle karşılayan, dikey ve düz kalkışlı bir makinedir: hedef doğrudan tekerleğin üstünde ise (tavan, çatı altı, raf üstü, tabela) eklemli veya teleskopik alternatiflere göre günlük kirası, kurulum süresi ve operatör gereksinimi çoğunlukla daha küçük kalır. KOBİ bütçesi için asıl risk, makinenin adı değil yanlış sınıf seçimidir — ihtiyaçtan büyük bir yükseklik sınıfı kiralamak günlük tarifeyi gereksiz büyütürken, yetersiz sınıf kiralamak işi yarım bırakıp ikinci nakliye doğurur. Bu yüzden teklif öncesi hedefin gerçek çalışma yüksekliği, platform altına girip girmediği ve zeminin düzlüğü netleştirilir; akülü mü dizel mi, operatörlü mü değil mi sorularının her biri ayrı bir bütçe kalemidir ve tek tek yazılır. Sonuç, 'en ucuz makine hangisi' sorusuna değil 'bu iş için en küçük yeterli makine hangisi' sorusuna dayanan, kalemleri şeffaf görünen bir teklif olur — sürpriz ek ücret veya gereksiz büyük makine bedeli olmadan.",
+        maddeler: [
+            { baslik: "Yükseklik sınıfını iş listesine göre küçük tutmak", metin: "Bütçeyi büyüten en yaygın hata, 'ne olur ne olmaz daha yükseğini isteyelim' düşüncesiyle ihtiyaçtan bir üst sınıf makaslı platform kiralamaktır. Hedefin gerçek çalışma yüksekliği (tavan, raf üstü, çatı alt kirişi) ölçülür, buna güvenlik payı eklenir ve en küçük yeterli sınıf teklif edilir. Bir üst sınıfa geçmek genelde hem günlük kira hem nakliye ağırlığı bakımından bedeli yükseltir; oysa doğru ölçülen iş, bir alt sınıfla da güvenle tamamlanabilir." },
+            { baslik: "Akülü ve dizel arasındaki gerçek maliyet farkını görmek", metin: "Buca ve Karabağlar'daki atölye içi işlerin büyük kısmı kapalı mekânda geçtiği için akülü makaslı platform hem yakıt gideri taşımaz hem de egzoz havalandırması gerektirmez — bu, dizel modele göre günlük işletme maliyetini küçültür. Dış mekân veya uzun süreli açık alan işinde dizel model bazen daha uygun olabilir, ama bu seçim iş yerine değil işin koşuluna göre yapılır. Hangi modelin teklif edildiği ve gerekçesi, sözleşmede ayrı satırda yazılır." },
+            { baslik: "Kira süresini fiilî iş süresine eşitlemek", metin: "Günlük tarife, işin bir saat mi sekiz saat mi süreceğinden bağımsız olarak aynı kalabilir; bu yüzden kısa bir işi 'yarım gün' diye tahmin edip tam günlük kiralamak bütçeyi büyütür. Aynı adreste birden fazla küçük görev varsa (tavan, tabela, raf düzeni) bunlar tek kiralama penceresine toplanır, tek makine günü içinde bitirilir. Süre tahmini iş listesiyle birlikte netleştirilir; tahminden erken biterse veya uzarsa bunun bedele etkisi önceden yazılıdır." },
+            { baslik: "Nakliye kalemini kira bedelinden ayrı göstermek", metin: "Makaslı platformun kendisi görece ekonomik olsa da, adrese taşıma ve geri alma ayrı bir organizasyon kalemidir; bu iki kalemi tek başlıkta birleştirip 'toplam ücret' demek bütçe şeffaflığını bozar. Teklifte kira günü, nakliye ve varsa operatör ayrı satırlarda görünür. Aynı sanayi sitesinde komşu bir işletmenin de benzer tarihte ihtiyacı varsa, nakliye kalemi paylaşılarak kişi başı bütçe küçültülebilir; bu, makinenin kendisinden değil taşıma organizasyonundan gelen bir tasarruftur." },
+            { baslik: "Operatörlü ve operatörsüz seçimi bütçeye yazılı yansıtmak", metin: "Makaslı platform diğer bazı sınıflara göre görece basit kullanılan bir makinedir; işletmenin kendi personeli ilgili yeterliliğe sahipse operatörsüz model bütçeyi küçültebilir. Personel belgesiz veya makineyi ilk kez kullanacaksa operatörlü model önerilir — bu, ek maliyet değil güvenlik gerekliliğidir. Hangi model seçildiği, teslim eğitiminin kim tarafından verileceği ve bunun bedele etkisi teklifte açık yazılır; sahada sonradan değiştirilmez." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform bütçe kırılımı",
+                paragraflar: ["Tablo, makaslı platform kiralamada toplam bedeli oluşturan kalemleri ve her birinde bütçenizi koruyacak kontrol noktasını gösterir. Kesin tutarlar güncel filo ve saha bilgisiyle teklifte yazılır."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi belirler", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Yükseklik sınıfı", "Günlük kira tabanı", "Hedefin gerçek çalışma yüksekliği ölçülür, üst sınıfa gerek yoksa istenmez"],
+                        ["Güç kaynağı", "İşletme maliyeti (akülü/dizel)", "Kapalı mekân işinde akülü model genelde daha ekonomiktir"],
+                        ["Kira süresi", "Toplam gün sayısı", "Aynı adresteki görevler tek pencereye toplanır"],
+                        ["Nakliye", "Taşıma organizasyonu", "Komşu işletme ile aynı tarihte paylaşılabilir"],
+                        ["Operatör", "Ek mesai veya belge kontrolü", "Belgeli personel varsa operatörsüz model değerlendirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hangi yükseklik sınıfı hangi bütçeye karşılık gelir",
+                paragraflar: [
+                    "Buca ve Karabağlar'daki atölye içi tavan işleri genelde düşük-orta yükseklik sınıfındaki kompakt makaslı platformlarla karşılanır; bu sınıf hem dar koridorlarda manevra kolaylığı hem de görece küçük günlük tarife sunar. Dış cephe veya çatı altı gibi daha yüksek hedeflerde bir üst sınıf gerekebilir; bu durumda hem makine ağırlığı hem nakliye ihtiyacı büyür, dolayısıyla bedel de artar.",
+                    "Karar, hedefin fotoğrafı ve ölçüsüyle verilir — 'yüksek olsun garanti olsun' mantığıyla büyük sınıf istemek, çoğu atölye içi işte gereksiz bütçe yüküdür. Ölçülü seçim yapıldığında, aynı işi bir alt sınıfla tamamlamak mümkün olabilir; bu fark teklifte somut biçimde gösterilir." ],
+            },
+            {
+                baslik: "Kısa kiralama mı uzun dönem mi — bütçe karşılaştırması",
+                paragraflar: [
+                    "Yılda birkaç kez ortaya çıkan tavan, tabela veya raf işleri için kısa süreli kiralama genelde en ekonomik yoldur; makine yalnız gerekli günlerde bedel doğurur, bakım ve saklama sorumluluğu işletmeye geçmez. Kullanım her ay tekrarlıyorsa ve güvenli şarj-park alanı varsa uzun dönem kiralama ayrıca değerlendirilebilir; bu durumda birim günlük bedel düşse de makinenin boş kaldığı günler de hesaba katılmalıdır.",
+                    "Karar varsayımsal tasarruf yüzdesiyle değil, geçmiş kısa kiralama kayıtlarındaki gerçek kullanım sıklığıyla verilir. Biz kalemleri açık yazarız; hangi modelin işletmenize daha uygun olduğuna dair karar sizin elinizde kalır." ],
+            },
+        ],
+        sss: [
+            { soru: "Makaslı platform diğer yükseltici tiplerinden neden genelde daha ucuz?", cevap: "Makaslı platform dikey ve düz kalkışlı bir mekanizmaya sahiptir; eklemli kol veya teleskopik uzanım gibi ek hareket kabiliyeti taşımaz. Bu basit yapı, hem üretim hem nakliye hem operatör eğitimi açısından görece daha az maliyet gerektirir. Hedefiniz doğrudan platformun üstüne geliyorsa (tavan, çatı altı, raf üstü) bu fark sizin lehinize çalışır. Hedef bir engelin arkasında veya yanındaysa, farklı bir tip daha uygun olabilir; bu durumu ölçüyle birlikte değerlendiririz." },
+            { soru: "Yarım günlük iş için tam gün ücreti mi ödüyoruz?", cevap: "Güncel tarife ve minimum organizasyon koşulu teklif sırasında açık yazılır. Kısa işte en ekonomik yol, aynı adresteki birden fazla küçük görevi (tavan, tabela, raf düzeni) tek makine gününe toplamaktır; böylece nakliye ve kurulum bedeli tek seferde karşılanır. İşin birkaç saat sürecek olması nakliye ve kurulum süresini ortadan kaldırmaz, bu yüzden süre tahminini iş listesiyle birlikte netleştiririz." },
+            { soru: "Akülü mü dizel mi kiralamalıyız, hangisi daha ucuz?", cevap: "Kapalı atölye veya dükkân içi işlerde akülü model hem yakıt gideri taşımadığı hem egzoz havalandırması gerektirmediği için genelde daha ekonomiktir. Açık alanda uzun süreli veya sık şarj imkânı olmayan işlerde dizel model bazı durumlarda daha pratik olabilir. Karar işin yerine ve süresine göre verilir; hangi modelin teklif edildiği ve gerekçesi sözleşmede ayrı yazılır." },
+            { soru: "En küçük yükseklik sınıfı yeterli mi, yoksa güvenlik payı için üst sınıf mı istemeliyiz?", cevap: "Hedefin gerçek çalışma yüksekliği ölçülür ve buna makul bir güvenlik payı eklenir; bu hesap zaten üst sınıfa geçmeden önce yeterli marj bırakır. 'Ne olur ne olmaz' diye bir üst sınıf istemek çoğu atölye içi işte gereksiz bütçe yükü yaratır çünkü hem günlük kira hem nakliye ağırlığı büyür. Ölçü ve fotoğraf paylaşıldığında en küçük yeterli sınıfı önerir, gerekçesini açık yazarız." },
+            { soru: "Kendi personelimiz kullanırsa operatör bedeli düşer mi?", cevap: "Makaslı platform görece basit kullanılan bir makine olduğu için, personelinizin ilgili yeterlilik belgesi varsa operatörsüz model bütçeyi küçültebilir. Belge önceden görülür, makineye özgü kısa bir teslim eğitimi verilir ve acil indirme uygulaması gösterilir. Belgesiz veya ilk kez kullanacak personel için operatörlü model önerilir; bu ek maliyet değil güvenlik gerekliliğidir. Hangi model seçildiği teklifte açık yazılır." },
+            { soru: "Komşu işletmeyle aynı makineyi paylaşarak bütçe küçültebilir miyiz?", cevap: "Aynı sanayi sitesinde benzer sınıf makaslı platform isteyen işletmeler tarihlerini yakınlaştırırsa nakliye kalemi paylaşılabilir; her işletme yine kendi kullanım süresine göre ayrı fatura alır. Bu, makinenin kendisinde indirim değil, taşıma organizasyonunda paylaşılan bir tasarruftur. Talebinizi bildirdiğinizde aynı dönemde başka uygun talep olup olmadığını kontrol eder, mümkünse ortak sevkiyat öneririz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Makaslı platformun dikey/düz kalkışlı çalışma prensibi ve akülü-dizel işletme maliyeti farkı teknik bilgidir; kalem bazlı teklif ve sınıf/süre optimizasyonu firma pratiğidir. Buca-Karabağlar bölge profili siteler.ts'teki mevcut kayıtla tutarlıdır; tesis adı veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama — Buca ve Karabağlar'da Doğru Tipi Seçerek Bütçeyi Korumak",
+        giris:
+            "'Manlift' günlük kullanımda sıkça makaslı platform, eklemli platform, teleskopik platform ve dikey personel yükselticinin hepsini kapsayan genel bir isim olarak geçer; bu da KOBİ sahibinin teklif isterken hangi tipi kastettiğini kendisinin de tam bilmediği bir başlangıç noktası yaratır. Bütçe açısından asıl risk burada doğar: hedef düz bir tavan değil de bir makine, raf sırası veya boru hattı gibi bir engelin üzerinden ya da yanından erişilecekse, düz kalkışlı bir makine yanlış tercih olur ve sahada ikinci bir makineyle değiştirme ihtiyacı doğar — bu da ikinci nakliye demektir. Bu sayfanın amacı 'manlift' talebini ilk telefonda doğru tipe çevirmektir: hedefin engelli mi engelsiz mi olduğu, yatay uzanım gerekip gerekmediği ve zeminin durumu sorulur, buna göre en ekonomik uygun tip önerilir. Yanlış tip riskini baştan kapatmak, sonradan telafi etmekten her zaman daha ucuzdur; bu yüzden teklif öncesi birkaç dakikalık doğru soru, bütçenizin en güvenilir koruyucusudur.",
+        maddeler: [
+            { baslik: "'Manlift' talebini önce doğru makine tipine çevirmek", metin: "Telefonda 'manlift istiyoruz' denildiğinde ilk sorumuz hangi markadır değil, hedefin düz mü yoksa bir engelin arkasında mı olduğudur. Düz ve dikey erişimse makaslı platform genelde yeterli ve ekonomiktir; engel üzerinden yatay uzanım gerekiyorsa eklemli veya teleskopik tip gerekir. Bu ayrım sahada değil telefonda veya fotoğraf üzerinden yapılmalıdır — aksi hâlde yanlış makine sahaya gelip geri gönderilir ve bu, boşa giden bir nakliye bedeli demektir." },
+            { baslik: "Engel üzerinden erişim gerektiren işlerde tip farkının bütçeye etkisini görmek", metin: "Eklemli kollu veya teleskopik manlift, düz kalkışlı makaslı platforma göre hem üretim karmaşıklığı hem taşıma ağırlığı bakımından daha yüksek bir sınıftır; bu, günlük tarifeye de yansır. Ancak hedef gerçekten bir engelin arkasındaysa bu fark bir lüks değil zorunluluktur — makaslı platform o noktaya fiziksel olarak ulaşamaz. Bütçe planlaması burada 'daha ucuzunu deneyelim' değil, 'işi tek seferde bitirecek doğru tipi net yazalım' mantığıyla ilerler." },
+            { baslik: "Yanlış tip seçiminin ikinci nakliye maliyetini önlemek", metin: "Sahaya gelen makine hedefe erişemediğinde, doğru tip yeniden sevk edilene kadar geçen süre hem zaman hem bütçe kaybıdır — ilk nakliye zaten ödenmiştir, ikinci nakliye ayrıca eklenir. Bu senaryo, KOBİ bütçesinde en pahalı ve en önlenebilir hatadır. Önlem, teklif öncesi hedefin fotoğrafını ve varsa engelin ölçüsünü istemektir; belirsiz durumlarda kısa bir telefon görüşmesi veya yerinde keşif, ikinci nakliye riskinden çok daha ucuzdur." },
+            { baslik: "Kısa süreli manlift ihtiyacında minimum organizasyon bedelini bilmek", metin: "Manlift kapsamındaki her tip için nakliye, kurulum ve geri alım sabit bir organizasyon yükü taşır; bu yük makinenin bir saat mi bir gün mü kullanılacağından bağımsızdır. Bu yüzden kısa süreli tek görevlerde minimum organizasyon koşulu teklifte ayrı yazılır. Aynı adreste birden fazla erişim ihtiyacı varsa (farklı tiplerde bile olsa) bunların aynı ziyaret penceresine sığıp sığmayacağı değerlendirilir; sığıyorsa toplam organizasyon bedeli görev başına küçülür." },
+            { baslik: "Operatör yeterliliğini tipe göre ayrı bütçe kalemi yapmak", metin: "Eklemli veya teleskopik manlift kullanımı, düz kalkışlı makaslı platforma göre genelde daha fazla dikkat ve tecrübe gerektirir; bu nedenle bu tiplerde operatörlü model daha sık önerilir. İşletme personelinin yeterlilik belgesi ilgili makine sınıfını kapsıyorsa operatörsüz seçenek değerlendirilir, ama belge kapsamının doğru tipi karşıladığından emin olunur. Operatör kalemi, hangi tip seçildiğine göre ayrı hesaplanır ve teklifte açık yazılır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift tipi seçim tablosu",
+                paragraflar: ["Tablo, hedefin durumuna göre hangi manlift tipinin gerekli olabileceğini ve bunun bütçeye etkisini gösterir. Kesin tip ve bedel, hedef fotoğrafı ve ölçü görüldükten sonra teklifte yazılır."],
+                tablo: {
+                    basliklar: ["Hedef durumu", "Muhtemel tip", "Bütçe notu"],
+                    satirlar: [
+                        ["Düz tavan/çatı altı, engel yok", "Makaslı platform", "Genelde en ekonomik seçenek"],
+                        ["Dar kapı/koridor, düz erişim", "Dikey personel yükseltici", "Kompakt gövde, düşük günlük tarife"],
+                        ["Makine/raf gibi engelin üzerinden", "Eklemli platform", "Yatay uzanım nedeniyle bir üst sınıf bedel"],
+                        ["Uzak veya yüksek nokta, engelli", "Teleskopik platform", "En geniş erişim, buna bağlı en yüksek sınıf bedel"],
+                        ["Belirsiz/karmaşık hedef", "Fotoğraflı ön değerlendirme", "Yanlış tip riskini ve ikinci nakliyeyi önler"],
+                    ],
+                },
+            },
+            {
+                baslik: "'Manlift' adı altında karışan makine tipleri",
+                paragraflar: [
+                    "Sahada 'manlift' kelimesi genelde tüm kişisel yükselticileri kapsayan bir üst başlık gibi kullanılır; ama makaslı platform, eklemli platform, teleskopik platform ve dikey personel yükseltici birbirinden farklı hareket kabiliyetine ve dolayısıyla farklı fiyat sınıfına sahiptir. Bu isim karışıklığı, telefonda net olmayan bir talebin sahada yanlış makineyle sonuçlanmasının en sık nedenidir.",
+                    "Biz talebi aldığımızda önce hangi tipin kastedildiğini netleştiririz; müşteri teknik ismi bilmese de sorun değildir, hedefin fotoğrafı ve konumu bu belirsizliği genelde birkaç dakikada çözer." ],
+            },
+            {
+                baslik: "Manlift kiralama sözleşmesinde ayrı yazılan kalemler",
+                paragraflar: [
+                    "Manlift kapsamındaki hangi tip seçilirse seçilsin, teklifte makine günü, nakliye, operatör (varsa) ve minimum organizasyon koşulu ayrı satırlarda gösterilir; tek bir 'toplam ücret' başlığı kullanılmaz. İptal ve erteleme koşulu, aracın yola çıkma saatinden önceki bildirim süresiyle birlikte yazılır.",
+                    "Bu ayrım, özellikle engel üzerinden erişim gerektiren ve bu yüzden daha yüksek sınıfta kalan işlerde önemlidir — müşteri hangi kalemin tipten, hangisinin süreden geldiğini net görür ve bütçesini buna göre planlar." ],
+            },
+        ],
+        sss: [
+            { soru: "'Manlift' ile 'makaslı platform' aynı şey mi?", cevap: "Günlük konuşmada manlift genelde tüm kişisel yükselticileri kapsayan genel bir isim olarak kullanılır; makaslı platform bunlardan yalnızca biridir, dikey ve düz kalkışlı çalışır. Eklemli platform, teleskopik platform ve dikey personel yükseltici de manlift başlığı altında sayılabilir ama her birinin erişim şekli ve fiyat sınıfı farklıdır. Talebinizi aldığımızda hedefin fotoğrafıyla birlikte hangi tipin gerektiğini netleştiririz." },
+            { soru: "Hangi manlift tipini kiralayacağımızı bilmiyoruz, nasıl karar veriyorsunuz?", cevap: "Önce hedefin düz mü yoksa bir engelin (makine, raf, boru hattı) üzerinden mi erişileceğini sorarız; bu tek soru çoğu zaman tipi belirler. Düz erişimde makaslı veya dikey yükseltici, engelli erişimde eklemli veya teleskopik tip gerekir. Fotoğraf ve ölçü paylaşıldığında en ekonomik uygun tipi önerir, gerekçesini yazılı teklifte gösteririz; sahada tip değişikliği riskini böylece baştan kapatırız." },
+            { soru: "Yanlış tip gelirse ne olur, ikinci nakliye ücretli mi?", cevap: "Yanlış tip sahaya gelmesi genelde talebin netleştirilmemesinden kaynaklanır; bu riski önlemek için teklif öncesi hedef fotoğrafı ve engel bilgisini isteriz. Buna rağmen sahada tip değişikliği gerekirse, ikinci nakliyenin kapsamı ve bedeli önceden sözleşmede tarif edilen koşullara göre belirlenir. Amacımız bu senaryoyu hiç yaşatmamaktır; belirsiz taleplerde kısa bir keşif önerimiz bu yüzden vardır." },
+            { soru: "Eklemli veya teleskopik manlift neden makaslı platformdan daha pahalı?", cevap: "Bu tipler yatay uzanım ve kol hareketi sağladığı için hem üretim karmaşıklığı hem taşıma ağırlığı makaslı platforma göre daha yüksektir; bu fark günlük tarifeye yansır. Ancak hedef gerçekten bir engelin arkasındaysa makaslı platform o noktaya erişemez, dolayısıyla karşılaştırma anlamını yitirir. Karar en ucuz olana değil, işi tek seferde bitirecek doğru tipe göre verilir." },
+            { soru: "Kısa bir iş için minimum ücret var mı?", cevap: "Nakliye, kurulum ve geri alım her tip için sabit bir organizasyon yükü taşıdığından, kısa süreli tek görevlerde minimum organizasyon koşulu teklifte ayrı yazılır. Aynı adreste birden fazla erişim ihtiyacı varsa (farklı tiplerde bile olsa) bunları aynı ziyaret penceresine sığdırmayı değerlendiririz; bu, toplam organizasyon bedelini görev başına küçültür." },
+            { soru: "Kendi personelimiz her manlift tipini kullanabilir mi?", cevap: "Personelin yeterlilik belgesi, kullanılacak makine sınıfını kapsamalıdır; makaslı platform için geçerli bir belge otomatik olarak eklemli veya teleskopik tipi kapsamayabilir. Belge kapsamı önceden görülür, makineye özgü kısa bir teslim eğitimi verilir. Belge kapsam dışıysa veya personel ilgili tipi ilk kez kullanacaksa operatörlü model önerilir; bu ek maliyet değil güvenlik gerekliliğidir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Manlift teriminin farklı makine tiplerini (makaslı, eklemli, teleskopik, dikey personel yükseltici) kapsadığı ve bu tiplerin erişim/fiyat sınıfı farkı teknik bilgidir; tip doğrulama süreci ve kalem bazlı teklif firma pratiğidir. Tesis adı veya fiyat rakamı uydurulmamıştır.",
+    },
 };
