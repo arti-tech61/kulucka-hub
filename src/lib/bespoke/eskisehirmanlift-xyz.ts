@@ -783,4 +783,1102 @@ export const ESKISEHIRMANLIFT_XYZ: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-13. Çifteler’in tarım ağırlıklı ilçe yapısı kamuya açık genel bilgidir; tarımsal işleme tesislerinde sezonluk bakım, temiz-tozlu rota, duruş ve kabul sahası planı sektör geneli ilkeler ile firma pratiğine dayanır. Ürün, tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+
+    // ─────────────────────────────────────────────────────────────────────
+    // HİZMET SAYFALARI — Açı: İLK KİRALAMA SEÇİM REHBERİ.
+    // Yukarıdaki bolge: kayıtlarının "üç soru" yöntemini (yükseklik, altı
+    // boş mu, zemin-ortam) her hizmete özgü karar noktasına indirger.
+    // Kardeş dosyaların (üretim hattı bakımı / duruş dönemi / kırsal enerji
+    // hattı / kent içi iç mekan) hiçbiri bu "ilk kez kiralayacak işletmeye
+    // hangi hizmeti ne zaman seçmeli" rehberlik açısını kullanmıyor.
+    // ─────────────────────────────────────────────────────────────────────
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli Örümcek Platform: İlk Kiralamada Ne Zaman Standart Sınıf Yetmez",
+        giris:
+            "Eskişehir'de ilk kez yüksekte çalışma makinesi kiralayacak bir işletme, çoğunlukla akülü makaslı veya eklemli sınıfı düşünerek arar; sepetli örümcek platform ise nadiren ilk akla gelen seçenektir. Oysa bazı işlerde bu iki standart sınıf da işi yapamaz — kapı dar olabilir, iki tezgâh arası koridor daralabilir ya da zemin hassas olabilir. Örümcek platform tam bu ara boşluğu doldurur: parçalı taşınabilir gövdesi dar bir açıklıktan geçirilip iç mekânda yeniden monte edilebilir, paletli tahrik sayesinde hassas zeminde iz bırakmadan ilerler ve destek ayaklarını dengesiz bir noktaya bile güvenle oturtabilir. İlk kiralamada asıl karar, 'örümcek platform mu istiyorum' değil, 'standart sınıf neden geçmiyor' sorusudur; bu sayfa bu ayrımı üç somut soruyla netleştirir ve OSB'deki dar geçişli hollerde bu makinenin ne zaman gerçekten tek çözüm olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "İlk soru: standart sınıf gerçekten geçemiyor mu",
+                metin:
+                    "Örümcek platform istemeden önce, standart eklemli veya makaslı sınıfın neden yetmediğini netleştirmek gerekir. Çoğu zaman cevap gerçekten bir dar geçiştir ama bazen işletme henüz kapı ve koridor ölçüsünü almamıştır. Bu yüzden ilk kiralamada önce kapı genişliği, koridor darlığı ve varsa asansör ölçüsü sorulur; ölçü paylaşılmadan bu sınıf için kesin teklif verilmez, çünkü tahmini bir ölçüye dayanarak sevk edilen makine sahada geçmezse hem bakım penceresi boşa gider hem araç boş döner.",
+            },
+            {
+                baslik: "Parçalı taşıma ve montaj süresi teklife dahildir",
+                metin:
+                    "Gövde dar açıklıktan geçirilebilmek için parçalara ayrılır ve iç mekânda yeniden monte edilir; bu süre bakım penceresinin dışında değil içindedir. İlk kiralamada bu detay çoğu zaman gözden kaçar ve işletme makinenin kapıdan girer girmez hazır olacağını varsayar. Teklif hazırlanırken montaj-demontaj süresi ayrı bir kalem olarak gösterilir, böylece toplam iş süresi baştan doğru planlanır.",
+            },
+            {
+                baslik: "Zemin hassasiyeti ve paletli tahrikin rolü",
+                metin:
+                    "Epoksi kaplı veya perdahlı beton zeminler tekerlekli platformların bıraktığı ize karşı hassastır; paletli tahrik yükü geniş bir yüzeye yayarak bu riski azaltır. İlk kiralamada zemin tipini (epoksi mi, standart beton mu, döşeme kaplaması mı) belirtmek, doğru sınıfı ve destek ayağı altına konacak koruyucu tampon ihtiyacını baştan netleştirir.",
+            },
+            {
+                baslik: "Yük kapasitesi standart sınıfa göre daha düşüktür",
+                metin:
+                    "Kompakt gövde, sepet yük kapasitesini de sınırlar. İlk kiralamada taşınacak aletlerin (kaynak makinesi, iki kişilik ekip, malzeme) toplam ağırlığı önceden bildirilmelidir; kapasite aşılırsa alet ayrı bir turda taşınır veya halatla yukarı çekilir. Bu sınırı bilmeden gelen bir talep sahada revizyona uğrayabilir.",
+            },
+            {
+                baslik: "Ne zaman örümcek platform önerilmez",
+                metin:
+                    "OSB'deki tesislerin büyük çoğunluğunda hol genişliği standart eklemli sınıf için yeterlidir; örümcek platform istisnai bir çözümdür, varsayılan seçim değildir. Çalışma yüksekliği ve yatay erişimi standart sınıfın gerisinde kaldığı için, gerekmediği yerde tercih edilmesi hem maliyeti hem iş süresini gereksiz uzatır. İlk kiralamada bu yüzden önce standart sınıfın neden çalışmadığı sorgulanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlk kiralamada hangi geçiş ölçüsü hangi sınıfa yönlendirir",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kez kiralama yapacak bir işletmenin geçiş ölçüsüne göre hangi sınıfa yönlendiğini özetler; kesin karar her zaman ölçü ve fotoğrafla netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Geçiş/zemin durumu", "Genişlik", "Zemin", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Açık hol, standart kapı", "Geniş", "Standart beton", "Eklemli / makaslı"],
+                        ["Çift kanatlı dar kapı", "Dar", "Epoksi", "Örümcek platform (parçalı)"],
+                        ["Tezgâh sıraları arası koridor", "Çok dar", "Hassas zemin", "Örümcek platform"],
+                        ["Asansörle üst kata taşıma", "Asansör kabini ölçüsü", "Değişken", "Örümcek platform (parçalı)"],
+                        ["Hat boyu uzun mesafe", "Geniş", "Standart beton", "Teleskopik/eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralama sürecinde ölçü paylaşımı neden şart",
+                paragraflar: [
+                    "Bu sınıf için telefon üzerinden kesin teklif verilmez; keşif ya da net, ölçekli fotoğraf ve ölçü paylaşımı şart koşulur. Kapı boşluğu, koridor genişliği ve varsa eşik farkı şerit metreyle ölçülüp paylaşıldığında teklif kesinleşir.",
+                    "Bu adımın atlanması, sahada makinenin geçmediği ortaya çıktığında hem işletmenin bakım penceresini boşa çıkarır hem de zaman kaybına yol açar. İlk kiralamasını sorunsuz geçirmek isteyen işletme için bu ölçüm adımı, sürecin en kritik parçasıdır.",
+                ],
+            },
+            {
+                baslik: "Standart sınıfla örümcek platform arasında fiyat farkı",
+                paragraflar: [
+                    "Örümcek platform, kompakt yapısı ve parçalı taşıma-montaj işçiliği nedeniyle standart eklemli veya makaslı sınıfa göre daha yüksek birim maliyet taşır. İlk kiralamada bu farkı doğru değerlendirmek için önce standart sınıfın gerçekten geçip geçmediği netleştirilir; geçiyorsa örümcek platform önerilmez.",
+                    "Fark yalnızca kira bedelinde değil, montaj-demontaj süresinin iş takvimine eklenmesinde de ortaya çıkar. İlk kiralama teklifinde bu iki kalem ayrı satırlarda gösterilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İlk kez kiralama yapıyoruz, örümcek platforma mı yoksa standart sınıfa mı ihtiyacımız olduğunu nasıl anlarız?",
+                cevap:
+                    "Önce kapı ve koridor genişliğini, varsa asansör ölçüsünü ve zemin tipini (epoksi mi, standart beton mu) paylaşmanız yeterlidir. Standart eklemli veya makaslı sınıf bu ölçülerle geçebiliyorsa örümcek platform önerilmez; geçemiyorsa parçalı taşınabilir örümcek platform tek çözümdür. Bu ayrımı telefon görüşmesinde birkaç soruyla netleştiriyoruz, kesin teklif için ise ölçü veya fotoğraf istiyoruz.",
+            },
+            {
+                soru: "Montaj-demontaj süresi ne kadar sürer ve ücrete dahil mi?",
+                cevap:
+                    "Süre, makinenin modeline ve geçiş noktasının darlığına göre değişir; keşifte veya ölçü paylaşımı sırasında tahmini olarak bildirilir ve teklife bakım penceresi içinde geçen bir zaman dilimi olarak yazılır. Gizli veya sonradan eklenen bir kalem değildir. İlk kiralamanızda bu süreyi iş takviminize dahil etmeniz, günün sonunda beklenmedik bir gecikme yaşamamanızı sağlar.",
+            },
+            {
+                soru: "Kapı ölçüsünü kendimiz mi almalıyız, yoksa siz mi geliyorsunuz?",
+                cevap:
+                    "İlk kiralamada iki seçenek de mümkündür: şerit metreyle kendiniz ölçüp fotoğrafla paylaşabilirsiniz ya da keşif talep edebilirsiniz. Katalog rakamına güvenmek yerine gerçek ölçüyü almanızı öneriyoruz, çünkü sonradan eklenen bir tezgâh veya raf plan üzerindeki ölçüyle sahadaki ölçüyü farklılaştırabilir. Emin değilseniz keşif her zaman daha güvenlidir.",
+            },
+            {
+                soru: "Epoksi zeminde paletli tahrik gerçekten iz bırakmıyor mu?",
+                cevap:
+                    "Doğru paletli malzeme seçildiğinde ve zemin kuru tutulduğunda görünür iz bırakma riski düşüktür, ancak yüzde yüz garanti verilemez — zeminin yaşı, kaplama türü ve makinenin ağırlık dağılımı sonucu etkiler. Hassasiyeti yüksek bir zeminde önce küçük ve göze çarpmayan bir alanda deneme yapılmasını öneririz; destek ayaklarının bastığı noktalara da koruyucu tampon konur.",
+            },
+            {
+                soru: "Sepet kapasitesi kaynak makinesi ve iki kişilik ekibi birlikte taşır mı?",
+                cevap:
+                    "Kompakt gövde nedeniyle bu sınıfın taşıma kapasitesi standart eklemli platforma göre daha düşüktür; modelin kapasite sınırı ilk görüşmede bildirilmelidir. İki kişi artı ağır bir alet kapasiteyi aşabilir; bu durumda alet ayrı bir turda taşınır veya halatla yukarı çekilir. İlk kiralamanızda taşıyacağınız aletlerin toplam ağırlığını paylaşmanız, sahada revizyon riskini ortadan kaldırır.",
+            },
+            {
+                soru: "Standart sınıf geçebiliyorsa yine de örümcek platform kiralayabilir miyiz?",
+                cevap:
+                    "Teknik olarak mümkündür ama önermiyoruz. Örümcek platformun çalışma yüksekliği ve yatay erişimi standart eklemli sınıfın gerisindedir, birim maliyeti daha yüksektir ve montaj süresi eklenir. İlk kiralamanızda ihtiyacınıza en uygun ve en ekonomik sınıfı önermek bizim işimizdir; standart sınıf geçiyorsa onu öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Paletli sepetli platformların parçalı taşınabilirliği ve dar alan kullanımı EN 280 kapsamındaki genel makine sınıfı özellikleridir; tesis adı, kapasite ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "İlk Kiralamada Nakliye ve Teslimat Süreci Nasıl İşler",
+        giris:
+            "Eskişehir'de ilk kez platform veya forklift kiralayacak bir işletmenin çoğu zaman gözden kaçırdığı kalem, makine kirası değil nakliye ve teslimat sürecidir. Fiyat karşılaştırmasında yalnızca günlük veya haftalık kira rakamına bakmak, nakliyeyi ayrı fatura eden ya da teslimat saatini belirsiz bırakan bir teklifi yanlışlıkla 'ucuz' gösterebilir. Nakliye bedeli genellikle mesafeye, araç tipine (düşük tabanlı çekici mi, kamyon mu) ve teslimat saatine göre değişir; OSB içi teslimatlar genellikle aynı gün mümkünken, kent merkezindeki dar sokaklı adreslerde teslimat saati trafiğe göre planlanır. Bu sayfa, ilk kiralamanızda nakliye bedelinin nasıl hesaplandığını, teslimat gününde nelerin beklendiğini ve gecikme riskini azaltmak için hangi bilgilerin önceden paylaşılması gerektiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Nakliye bedeli neye göre değişir",
+                metin:
+                    "Nakliye bedelini belirleyen üç unsur vardır: mesafe (Eskişehir merkez filosundan adrese olan yol), araç tipi (büyük sınıf makineler düşük tabanlı çekici gerektirebilir, kompakt sınıflar standart kamyonla taşınabilir) ve teslimat zamanlaması (aynı gün mü, planlı bir tarih mi). İlk kiralamada bu üç unsuru ayrı ayrı sormanız, teklifteki nakliye kalemini anlamanızı kolaylaştırır.",
+            },
+            {
+                baslik: "Fiyat karşılaştırmasında nakliyenin gizlenmesi",
+                metin:
+                    "Birden fazla firmadan teklif alırken yalnızca toplam rakama bakmak yanıltıcı olabilir; düşük görünen bir teklif nakliyeyi ayrı fatura ediyor veya teslimat saatini garanti etmiyor olabilir. Doğru karşılaştırma, makine kirası, nakliye, operatör (varsa) ve sigortanın ayrı satırlarda görüldüğü tekliflerle yapılır. İlk kiralamanızda bu kalemleri ayrı ayrı isteyin.",
+            },
+            {
+                baslik: "Erişim ölçüsü teslimat gününü doğrudan etkiler",
+                metin:
+                    "Teslimat aracının sahaya girebilmesi için kapı/geçit genişliği, iç yol durumu ve varsa park kısıtı önceden bilinmelidir. OSB'deki geniş parsellerde bu genellikle sorun çıkarmaz, ancak Odunpazarı gibi dar sokaklı bölgelerde teslimat saati trafiğe göre planlanır. Bu bilgiyi paylaşmayan bir işletme, teslimat gününde araç bekleme süresiyle karşılaşabilir.",
+            },
+            {
+                baslik: "Teslimat günü makine tanıtımı",
+                metin:
+                    "İlk kiralamada teslimat, makinenin sahaya bırakılmasından ibaret değildir; kumandalar, acil iniş sistemi ve temel güvenlik noktaları teslimat sırasında gösterilir. Bu tanıtım özellikle ilk kez kullanan bir ekip için önemlidir ve teslimat süresine dahildir; teslimat saatini planlarken bu süre de hesaba katılmalıdır.",
+            },
+            {
+                baslik: "İade ve erken teslim mantığı",
+                metin:
+                    "İş süresi belirsizse kısa süreyle başlayıp gerekirse uzatmak, uzun süre alıp erken iade etmekten daha ekonomiktir; çünkü erken iadede nakliye ve kurulum bedeli genellikle iade edilmez. İlk kiralamanızda süre tahmininizi biraz muhafazakâr tutup gerekirse uzatma yolunu tercih etmeniz, toplam maliyeti düşürür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölgeye göre tipik teslimat süresi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada sık sorulan 'teslimat ne kadar sürer' sorusuna bölgeye göre genel bir çerçeve sunar; kesin süre filonun o an bulunduğu konuma göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "Tipik teslimat süresi", "Erişim özelliği", "Dikkat noktası"],
+                    satirlar: [
+                        ["OSB / 2. OSB", "Aynı gün mümkün", "Geniş parsel, düz yol", "Parsel girişi ölçüsü"],
+                        ["Tepebaşı", "Aynı gün-ertesi gün", "Geniş cadde", "Kurum izin süreci"],
+                        ["Odunpazarı", "Ertesi gün, saat planlı", "Dar sokak", "Teslimat saati/trafik"],
+                        ["Çevre il (Bozüyük, Polatlı)", "1-2 gün", "Mesafeye bağlı", "Tarih esnekliği"],
+                        ["Kırsal/tarım bölgesi", "Sezona göre planlı", "Zemin durumu", "Zemin tipi ve mevsim"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada nakliye paylaşımı",
+                paragraflar: [
+                    "Aynı OSB veya aynı sokakta birden fazla işletmenin küçük kalemlerini (kısa süreli bir bakım, bir tabela, bir aydınlatma işi) aynı güne toplaması, nakliye bedelini paylaşmanın en pratik yoludur. İlk kiralamanızda komşu işletmelere haber vermeniz veya bize başka bir talep olup olmadığını sormanız, size daha ekonomik bir seçenek sunabilir.",
+                    "Bu paylaşım özellikle tek başına ekonomik olmayan yarım günlük işlerde fark yaratır; makine kısa mesafelerle bir işletmeden diğerine ilerler ve nakliye bedeli bölünür.",
+                ],
+            },
+            {
+                baslik: "Teslimat gününde nelere hazır olmalısınız",
+                paragraflar: [
+                    "Teslimat günü, sahada makinenin gireceği rotanın açık olması, çalışma noktasının belirlenmiş olması ve varsa yetkili bir kişinin teslim alması beklenir. İlk kiralamada bu üç hazırlığın önceden yapılması, teslimat süresini kısaltır ve aracın sahada beklemesini önler.",
+                    "Teslimat sırasında yapılan makine tanıtımına en az bir kişinin katılması önerilir; bu kişi, kiralama süresi boyunca makineyi kullanacak ekibe temel bilgiyi aktarabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Nakliye bedeli kira fiyatına dahil mi, ayrı mı?",
+                cevap:
+                    "Bu firmadan firmaya değişir; bu yüzden ilk kiralamanızda teklifte nakliye kaleminin ayrı gösterilip gösterilmediğini sormanızı öneririz. Bizim tekliflerimizde makine kirası, nakliye, operatör (varsa) ve sigorta ayrı satırlarda görünür; böylece toplam rakamı kalem kalem karşılaştırabilirsiniz. Düşük görünen bir toplam bazen nakliyeyi ayrı fatura eden bir tekliften kaynaklanabilir.",
+            },
+            {
+                soru: "OSB içinde aynı gün teslimat mümkün mü?",
+                cevap:
+                    "Filomuz o an OSB içinde çalışıyorsa aynı gün teslimat sık rastlanan bir durumdur; OSB'nin geniş yol ağı ve düzenli adresleme sistemi bunu kolaylaştırır. Ancak birden fazla tesisin aynı haftada yoğun talep oluşturduğu dönemlerde süre uzayabilir. İlk kiralamanızda tarihinizi mümkün olduğunca erken bildirmeniz, size en kısa teslim süresini sunar.",
+            },
+            {
+                soru: "Dar sokaklı bir adrese teslimat nasıl planlanıyor?",
+                cevap:
+                    "Öncelikle sokağın genişliğini ve varsa park kısıtını sorarız; bazı adreslerde makine yalnızca trafiğin seyrek olduğu erken saatlerde girebilir. Teslimat saatini önceden belirlediğimizde makine sokakta beklemeden işyerinize ulaşır. İlk kiralamanızda sokak fotoğrafı paylaşmanız, bu planlamayı hızlandırır.",
+            },
+            {
+                soru: "Erken iade ettiğimizde nakliye bedelini geri alır mıyız?",
+                cevap:
+                    "Genellikle hayır; nakliye ve kurulum bedeli süreye değil işleme bağlı bir maliyettir ve erken iadede iade edilmez. Bu yüzden süre belirsizse kısa süreyle başlayıp gerekirse uzatmanızı öneririz; uzun süre alıp erken iade etmek, baştan doğru süreyi tahmin etmekten daha pahalıya gelir.",
+            },
+            {
+                soru: "Komşu işletmeyle aynı güne yazılırsak nakliye gerçekten ucuzlar mı?",
+                cevap:
+                    "Evet, bunu aktif olarak öneriyoruz. Aynı OSB veya aynı sokaktaki birden fazla işletmenin küçük kalemlerini aynı güne toplaması, makinenin kısa mesafelerle ilerlemesini ve nakliye bedelinin bölünmesini sağlar. İlk kiralamanızda bize başka bir talep olup olmadığını sorabilir veya komşularınıza kendiniz haber verebilirsiniz.",
+            },
+            {
+                soru: "Teslimat sırasında makine kullanımı hakkında bilgi veriliyor mu?",
+                cevap:
+                    "Evet, teslimat süresine dahil olarak kumandalar, acil iniş sistemi ve temel güvenlik noktaları gösterilir. İlk kez kullanan bir ekip için bu tanıtım önemlidir; en az bir kişinin teslimat sırasında sahada bulunmasını öneririz ki bilgi doğrudan kullanıcıya aktarılsın.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Nakliye bedelinin mesafe-araç tipi-zamanlama unsurları ve teslimat sürecindeki genel adımlar sektör geneli bilgidir; süre ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "İlk Kez Forklift Kiralayacaklar İçin Seçim Rehberi",
+        giris:
+            "Eskişehir'de platform kiralama kadar sık karşılaşılan bir diğer ilk kiralama talebi forklifttir; ancak forklift seçimi platform seçiminden farklı sorular gerektirir. Burada belirleyici olan yükseklik değil, taşınacak yükün ağırlığı, kaldırma yüksekliği ve zemin tipidir. Yanlış kapasitede bir forklift kiralamanın bedeli platformdakiyle benzerdir: gereğinden büyük bir makine hem pahalı hem manevra güçlüğü yaratır, gereğinden küçük bir makine ise yükü kaldıramaz veya devrilme riski taşır. İlk kiralamada doğru karara ulaşmanın yolu, yükün ağırlığını, raf yüksekliğini ve zemin tipini (kapalı düz beton mu, açık düzensiz zemin mi) net şekilde belirlemekten geçer. Bu sayfa, forklift ve istifleme ekipmanı kiralamasında ilk kez talepte bulunacak bir işletmenin sorması gereken soruları ve tipik kapasite bantlarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapasite kararı yükün gerçek ağırlığına göre verilir",
+                metin:
+                    "İlk kiralamada en sık yapılan hata, kapasiteyi 'idare eder' mantığıyla düşük tutmaktır. Palet üzerindeki yükün gerçek ağırlığı (etiketten veya tartıdan) bilinmeden kapasite kararı verilmemelidir; kaldırma yüksekliği arttıkça forkliftin gerçek taşıma kapasitesi de düşer, bu yüzden yalnızca statik kapasiteye değil, yük diyagramındaki yükseklik-kapasite ilişkisine bakılır.",
+            },
+            {
+                baslik: "Raf yüksekliği ve direk (mast) tipi",
+                metin:
+                    "Kaldırma yüksekliği, deponuzdaki en üst raf seviyesine göre belirlenir; standart üç kademeli direk çoğu depo için yeterlidir, ancak çok yüksek raf sistemlerinde dört kademeli veya dar koridor tipi direk gerekebilir. İlk kiralamada raf yüksekliğini ve koridor genişliğini birlikte paylaşmanız, doğru direk tipini netleştirir.",
+            },
+            {
+                baslik: "Zemin ve lastik tipi seçimi",
+                metin:
+                    "Kapalı, düz beton zeminde standart dolgu veya havalı lastikli forklift yeterlidir; açık sahada, düzensiz veya çamurlu zeminde ise geniş taban ve iri desenli lastikli sınıf tercih edilir. İlk kiralamada çalışma ortamını (iç mekân mı, dış saha mı, zemin tipi ne) belirtmeniz, teklifin doğruluğunu doğrudan etkiler.",
+            },
+            {
+                baslik: "Yakıt tipi: dizel, LPG yoksa elektrikli",
+                metin:
+                    "Kapalı mekânda sürekli çalışacaksa elektrikli veya LPG'li (kapalı alan onaylı egzoz sistemine sahip) sınıf tercih edilir; açık sahada uzun süreli ve yoğun kullanımda dizel sınıf daha pratik olabilir. İlk kiralamada ortamı ve kullanım süresini belirtmeniz, doğru yakıt tipini netleştirir.",
+            },
+            {
+                baslik: "Operatör ihtiyacı ve ehliyet",
+                metin:
+                    "Forklift kullanımı sertifikalı operatör gerektirir; işletmenizde sertifikalı operatör yoksa operatörlü kiralama seçeneği değerlendirilir. İlk kiralamada bu ihtiyacı baştan belirtmeniz, teklife operatör kalemini doğru şekilde eklememizi sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlk kiralamada tipik forklift-iş eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada sık karşılaşılan iş tiplerinin tipik forklift sınıfını özetler; kesin karar yük ağırlığı ve raf yüksekliği ile netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik kapasite", "Zemin/ortam", "Dikkat noktası"],
+                    satirlar: [
+                        ["Depo içi palet istifleme", "2-2,5 ton", "Kapalı beton", "Raf yüksekliği"],
+                        ["Üretim hattına malzeme taşıma", "1,5-2 ton", "Kapalı beton", "Koridor genişliği"],
+                        ["Açık sahada malzeme indirme", "3 ton ve üzeri", "Açık, düzensiz", "Lastik tipi"],
+                        ["Tarım/silo sahası yük taşıma", "2-3 ton", "Açık, toprak/çim", "Mevsimsel zemin"],
+                        ["Yüksek raf sistemi", "1,5-2 ton, çok kademeli direk", "Kapalı, dar koridor", "Direk tipi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada sorulması gereken üç bilgi",
+                paragraflar: [
+                    "Doğru forklift teklifine ulaşmanın en kısa yolu üç bilginin baştan paylaşılmasıdır: taşınacak yükün gerçek ağırlığı, kaldırma yapılacak en yüksek nokta ve çalışma zemininin tipi. Bu üç bilgi olmadan verilen bir tahmini teklif, sahada makinenin yükü kaldıramadığı veya zeminde zorlandığı bir durumla sonuçlanabilir.",
+                    "İlk kiralamanızda bu üç bilgiyi paylaşmanız, hem doğru kapasitede bir makine almanızı hem de gereksiz yere büyük ve pahalı bir sınıf kiralamaktan kaçınmanızı sağlar.",
+                ],
+            },
+            {
+                baslik: "Forklift ile platform arasında karar",
+                paragraflar: [
+                    "Bazı işlerde forklift mi platform mu gerektiği net değildir; örneğin bir malzemeyi yükseğe kaldırıp orada bırakmak forkliftle, o noktada bir süre çalışmak (montaj, bakım) ise platformla yapılır. İlk kiralamada işin niteliğini (yalnızca taşıma mı, yoksa yukarıda çalışma mı) belirtmeniz, doğru ekipmana yönlendirilmenizi sağlar.",
+                    "Bazı işlerde her iki ekipman birlikte kullanılır: forklift malzemeyi sahaya taşır, platform ise montaj noktasına erişimi sağlar. İlk kiralamanızda işin tüm aşamalarını anlatmanız, ihtiyacınız olan ekipman kombinasyonunu netleştirir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İlk kez forklift kiralıyoruz, hangi kapasiteyi seçmeliyiz?",
+                cevap:
+                    "Taşıyacağınız yükün gerçek ağırlığını (etiketten veya tartıdan) ve kaldırma yapacağınız en yüksek noktayı bildirmeniz yeterlidir. Kaldırma yüksekliği arttıkça forkliftin gerçek taşıma kapasitesi düştüğü için, yalnızca statik kapasiteye değil yükseklik-kapasite ilişkisine göre öneri veririz. Emin değilseniz düşük kapasiteyle başlamak yerine gerçek ağırlığı ölçüp bildirmenizi öneririz.",
+            },
+            {
+                soru: "Açık sahada, düzensiz zeminde forklift kullanabilir miyiz?",
+                cevap:
+                    "Evet, ancak standart iç mekân lastiği yerine geniş taban ve iri desenli lastikli sınıf tercih edilir. İlk kiralamanızda çalışma zemininin tipini (toprak mı, çim mi, düzensiz mi) belirtmeniz, doğru lastik ve şase tipini netleştirir; standart sınıf düzensiz zeminde hem verimsiz hem riskli olabilir.",
+            },
+            {
+                soru: "Operatörümüz yok, siz operatör sağlıyor musunuz?",
+                cevap:
+                    "Evet, sertifikalı operatörlü kiralama seçeneğimiz var. İlk kiralamanızda operatör ihtiyacınızı baştan belirtmeniz, teklife bu kalemi doğru şekilde eklememizi sağlar. Operatörsüz kiralamada ise işletmenizin sertifikalı bir operatörü olması gerekir; bu belgeyi teslimat öncesinde kontrol ederiz.",
+            },
+            {
+                soru: "Kapalı mekânda dizel forklift kullanabilir miyiz?",
+                cevap:
+                    "Standart dizel forklift kapalı, havalandırması sınırlı mekânlarda önerilmez; bunun yerine elektrikli veya kapalı alan onaylı egzoz sistemine sahip LPG'li sınıf tercih edilir. İlk kiralamanızda ortamı (kapalı mı açık mı, havalandırma durumu) belirtmeniz, doğru yakıt tipini netleştirir.",
+            },
+            {
+                soru: "Raf yüksekliğimiz standart değil, hangi direk tipini almalıyız?",
+                cevap:
+                    "Raf sisteminizin en üst seviyesini ve koridor genişliğini paylaşmanız yeterlidir; standart üç kademeli direk çoğu depo için yeter ama çok yüksek raf sistemlerinde dört kademeli veya dar koridor tipi direk gerekebilir. İlk kiralamanızda bu ölçüleri baştan bildirmeniz, sahada uyumsuzluk riskini ortadan kaldırır.",
+            },
+            {
+                soru: "Forklift mi platform mu kiralamalıyız, işimiz ikisine de benziyor?",
+                cevap:
+                    "İşin niteliğine bakılır: yalnızca bir malzemeyi yükseğe taşıyıp bırakmak forkliftle, o noktada bir süre çalışmak (montaj, bakım, tesisat) ise platformla yapılır. Bazı işlerde ikisi birlikte kullanılır. İlk kiralamanızda işin tüm aşamalarını anlatırsanız, ihtiyacınız olan doğru ekipman veya kombinasyonu size öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift kapasite-yükseklik ilişkisi, direk tipleri ve zemin/lastik seçimi genel iş makinesi bilgisidir; kapasite ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "İlk Kiralamada Eklemli Platform Ne Zaman Doğru Seçimdir",
+        giris:
+            "Eskişehir'de ilk kez yüksekte çalışma makinesi kiralayacak bir işletme için eklemli platform (boom), makaslı sınıfa göre daha esnek ama biraz daha karmaşık bir seçimdir. Eklemli sınıfın asıl avantajı, bomu kırarak bir engelin üzerinden veya yanından hedefe ulaşabilmesidir; makaslı sınıf ise yalnızca dikey ve doğrudan hedefin altından erişebilir. İlk kiralamada bu farkı bilmemek, yanlış sınıf kiralanmasının en sık nedenidir — hedefin altı engelliyse (tezgâh, raf, boru hattı, sundurma) makaslı sınıf işe yaramaz, eklemli sınıf gerekir. Bu sayfa, eklemli platformun ne zaman gerçekten gerekli olduğunu, akülü ve dizel seçenekleri arasındaki farkı ve OSB'deki tipik kullanım senaryolarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Makaslı-eklemli ayrımının tek kriteri: hedefin altı",
+                metin:
+                    "Hedefin tam altına makine park edilebiliyorsa makaslı sınıf yeterlidir ve daha ekonomiktir; hedefin altı doluysa (bir tezgâh, raf, boru hattı veya sundurma engel oluşturuyorsa) eklemli sınıf gerekir çünkü bomu kırarak engelin üzerinden erişim sağlar. İlk kiralamada bu tek soruyu netleştirmek, doğru sınıfı belirlemenin en hızlı yoludur.",
+            },
+            {
+                baslik: "Akülü mü dizel mi: ortam belirler",
+                metin:
+                    "Kapalı ve düz zeminde akülü eklemli sınıf tercih edilir; sessiz çalışır, egzoz gazı çıkarmaz ve iç mekân zeminine daha az yük bindirir. Açık sahada veya düzensiz zeminde dizel ya da 4x4 tahrikli eklemli sınıf gerekir. İlk kiralamada çalışma ortamınızı belirtmeniz, doğru tahrik tipini netleştirir.",
+            },
+            {
+                baslik: "Çalışma yüksekliği ve yatay erişim birlikte değerlendirilir",
+                metin:
+                    "Eklemli sınıfta yalnızca dikey yükseklik değil, yatay erişim mesafesi de önemlidir; bir engelin üzerinden hedefe ulaşmak için bomun hem yeterince yüksek hem yeterince uzun olması gerekir. İlk kiralamada hedefin yalnızca yüksekliğini değil, engelden ne kadar uzakta olduğunu da belirtmeniz, doğru model seçimini netleştirir.",
+            },
+            {
+                baslik: "Şase genişliği ve kapı geçişi",
+                metin:
+                    "Eklemli platformların şasesi makaslı sınıfa göre genellikle daha dar olsa da, büyük çalışma yükseklikli modellerin şasesi de büyür. İlk kiralamada kapı ve koridor genişliğini paylaşmanız, standart eklemli sınıfın geçip geçmediğini netleştirir; geçmiyorsa kompakt eklemli veya parçalı taşınabilir örümcek platform sınıfı değerlendirilir.",
+            },
+            {
+                baslik: "Operatör deneyimi ve eğitim",
+                metin:
+                    "Eklemli platformun bom kontrolü makaslı sınıfa göre biraz daha fazla dikkat gerektirir; ilk kez kullanan bir operatör için teslimat sırasında yapılan tanıtım özellikle önemlidir. İlk kiralamada operatörünüzün deneyim seviyesini belirtmeniz, teslimat sırasındaki tanıtımın kapsamını netleştirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlk kiralamada eklemli sınıf gerektiren tipik senaryolar",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada eklemli sınıfın gerekli olduğu tipik senaryoları ve tahrik tipini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Neden eklemli gerekir", "Tahrik", "Tipik yükseklik bandı"],
+                    satirlar: [
+                        ["Tezgâh üstü nokta bakımı", "Altı dolu, engel var", "Akülü", "10-16 m"],
+                        ["Cephe/sundurma altı işi", "Sundurma engel oluşturur", "Akülü/dizel", "14-18 m"],
+                        ["Boru hattı çevresi bakım", "Hat engel oluşturur", "Akülü", "10-14 m"],
+                        ["Açık sahada direk/aydınlatma", "Zemin düzensiz", "Dizel 4x4", "16-20 m"],
+                        ["Depo raf üstü, engelli koridor", "Raf sistemi engel", "Akülü", "10-14 m"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada makaslı yerine eklemli seçme hatası",
+                paragraflar: [
+                    "Bazı işletmeler ilk kiralamada 'eklemli her işi yapar' düşüncesiyle her durumda eklemli sınıf ister; ancak hedefin altı boşsa makaslı sınıf hem daha geniş sepetiyle hem daha düşük maliyetiyle daha doğru seçimdir. İlk kiralamada bu tercihi netleştirmek için önce hedefin altının boş mu dolu mu olduğunu soruyoruz.",
+                    "Gereksiz yere eklemli sınıf kiralamak, hem kira bedelini hem de sahadaki manevra süresini uzatabilir; makaslı sınıf yeterliyse onu öneririz.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli ve uzun süreli eklemli kiralama arasındaki fark",
+                paragraflar: [
+                    "Bir-iki günlük tek noktalı bir iş için günlük tarife doğal seçimdir; üç günü aşan veya birden fazla noktayı kapsayan işlerde haftalık paket genellikle daha ekonomiktir çünkü nakliye ve kurulum bedeli günlere değil haftaya yayılır. İlk kiralamanızda iş süresini mümkün olduğunca gerçekçi tahmin etmeniz, doğru tarife seçimini kolaylaştırır.",
+                    "Süre belirsizse kısa süreyle başlayıp gerekirse uzatmak, uzun süre alıp erken iade etmekten daha ekonomiktir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hedefin altı boş, yine de eklemli mi kiralamalıyız?",
+                cevap:
+                    "Hayır, hedefin altı boşsa makaslı sınıf yeterlidir ve genellikle daha ekonomiktir; sepeti daha geniştir ve kullanımı daha basittir. Eklemli sınıf yalnızca hedefin altında bir engel (tezgâh, raf, boru hattı, sundurma) olduğunda gerekir çünkü bomu kırarak engelin üzerinden erişim sağlar. İlk kiralamanızda hedefin altını tarif etmeniz, doğru sınıfı netleştirir.",
+            },
+            {
+                soru: "Akülü eklemli platform açık sahada kullanılabilir mi?",
+                cevap:
+                    "Kısa süreli ve düz zeminde mümkün olsa da önerilmez; akülü sınıf kapalı ve düz zemin için tasarlanmıştır. Açık sahada veya düzensiz zeminde dizel ya da 4x4 tahrikli eklemli sınıf tercih edilmelidir. İlk kiralamanızda çalışma ortamınızı belirtmeniz, doğru tahrik tipini netleştirir.",
+            },
+            {
+                soru: "Bom uzunluğu yeterli mi, hedefe engelin üzerinden ulaşabilir mi?",
+                cevap:
+                    "Bu, hedefin yüksekliği kadar engelden yatay uzaklığına da bağlıdır. İlk kiralamanızda yalnızca yüksekliği değil, engelden hedefe olan yatay mesafeyi de bildirmeniz, doğru model ve bom uzunluğunu netleştirir; eksik bilgiyle verilen bir tahmin sahada yetersiz kalabilir.",
+            },
+            {
+                soru: "Standart eklemli sınıf kapıdan geçmiyor, ne yapmalıyız?",
+                cevap:
+                    "Kapı ve koridor genişliğini paylaşmanız, kompakt eklemli sınıfın geçip geçmediğini netleştirir. O da geçmiyorsa parçalı taşınabilir sepetli örümcek platform sınıfı değerlendirilir. İlk kiralamanızda bu ölçüyü baştan bildirmeniz, sahada 'makine giremedi' sürprizini önler.",
+            },
+            {
+                soru: "Operatörümüz eklemli platformu ilk kez kullanacak, ne yapmalıyız?",
+                cevap:
+                    "Teslimat sırasında yapılan tanıtımda kumandalar, bom kontrolü ve acil iniş sistemi gösterilir; ilk kez kullanan bir operatör için bu tanıtıma ekstra zaman ayırıyoruz. İlk kiralamanızda operatörünüzün deneyim seviyesini belirtmeniz, teslimat sırasındaki tanıtımın kapsamını netleştirir.",
+            },
+            {
+                soru: "Günlük mü haftalık mı tarife seçmeliyiz?",
+                cevap:
+                    "İşin bir-iki gün süreceği kesinse günlük tarife doğal seçimdir; üç günü aşan işlerde haftalık paket genellikle daha ekonomiktir çünkü nakliye ve kurulum bedeli haftaya yayılır. Süre belirsizse kısa süreyle başlayıp gerekirse uzatmanızı öneririz; erken iadede nakliye ve kurulum bedeli genellikle iade edilmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platform sınıfının bom-erişim özellikleri ve akülü/dizel ayrımı EN 280 kapsamındaki genel makine sınıfı bilgisidir; kapasite ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İlk Kiralamada İç Mekân ve Depo İçi Platform Seçimi",
+        giris:
+            "İç mekân ve depo içi platform kiralaması, Eskişehir'de ilk kiralama taleplerinin büyük bölümünü oluşturur; ancak 'iç mekân' tek bir kategori değildir — atölye tavan aydınlatması, depo raf üstü işleri, tesisat-boru hattı bakımı ve hastane/AVM gibi hassas ortamlar birbirinden farklı gereksinimler taşır. İlk kiralamada doğru sınıfa ulaşmanın yolu, ortamın zemin tipini (epoksi mi, standart beton mu), koridor genişliğini ve varsa özel kısıtları (gürültü, egzoz gazı, hijyen) netleştirmekten geçer. Kapalı mekânda genellikle akülü sınıf tercih edilir çünkü sessiz çalışır ve egzoz gazı çıkarmaz; ancak zemin taşıma kapasitesi düşükse veya koridor darsa bu tercih değişebilir. Bu sayfa, iç mekân ve depo içi kiralamada ilk kez talepte bulunacak bir işletmenin sorması gereken soruları anlatır.",
+        maddeler: [
+            {
+                baslik: "Akülü sınıf iç mekânın varsayılan tercihidir",
+                metin:
+                    "Kapalı mekânda egzoz gazı çıkarmaması ve düşük gürültüsü nedeniyle akülü makaslı veya eklemli sınıf varsayılan tercihtir. İlk kiralamada aksini belirtmediğiniz sürece akülü sınıf önerilir; yalnızca zemin taşıma kapasitesi çok düşükse veya iş süresi çok uzunsa (şarj süresi iş akışını kesintiye uğratabilir) alternatif değerlendirilir.",
+            },
+            {
+                baslik: "Zemin tipi ve koruyucu tedbir",
+                metin:
+                    "Epoksi, perdahlı beton veya hassas kaplamalı zeminlerde tekerlek izi riski vardır; bu durumda lastik tipi ve destek ayağı altına konacak koruyucu tampon önceden planlanır. İlk kiralamada zemin tipini belirtmeniz, hem doğru makineyi hem de gerekli koruyucu tedbiri netleştirir.",
+            },
+            {
+                baslik: "Hijyen ve özel ortam kısıtları",
+                metin:
+                    "Hastane, gıda üretim tesisi veya AVM gibi hijyen standardı yüksek ortamlarda makinenin temizlik durumu ve çalışma saatleri (örneğin gece, ziyaretçi olmayan saatler) önceden netleştirilir. İlk kiralamada ortamınızın özel kısıtlarını (hijyen, gürültü, çalışma saati) belirtmeniz, teklifin ve planlamanın buna göre şekillenmesini sağlar.",
+            },
+            {
+                baslik: "Koridor ve raf aralığı ölçüsü",
+                metin:
+                    "Depo içi işlerde en sık karşılaşılan kısıt koridor genişliğidir; standart makaslı sınıfın şasesi bazı dar koridorlara sığmayabilir. İlk kiralamada koridor genişliğini ve raf yüksekliğini paylaşmanız, dar koridor tipi kompakt makaslı sınıfın gerekip gerekmediğini netleştirir.",
+            },
+            {
+                baslik: "Şarj süresi ve iş akışı",
+                metin:
+                    "Akülü makinelerin şarj süresi iş akışını etkileyebilir; çok uzun süreli veya vardiyalı çalışmada şarj planlaması önceden yapılır. İlk kiralamada iş süresini ve çalışma vardiyasını belirtmeniz, gerekirse ek batarya veya şarj planı önerimizi netleştirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân ortam tipine göre makine seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada sık karşılaşılan iç mekân ortam tiplerini ve tipik makine seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Zemin", "Özel kısıt", "Tipik sınıf"],
+                    satirlar: [
+                        ["Standart atölye", "Standart beton", "Yok", "Akülü makaslı"],
+                        ["Epoksi kaplı üretim holü", "Epoksi", "İz bırakmama", "Akülü, koruyucu tampon"],
+                        ["Dar koridorlu depo", "Standart beton", "Koridor genişliği", "Dar koridor tipi makaslı"],
+                        ["Hastane/AVM", "Hassas kaplama", "Hijyen, gece çalışma", "Akülü, temiz gövde"],
+                        ["Tesisat/boru hattı altı", "Değişken", "Engel var", "Kompakt eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada ortam bilgisi neden kritik",
+                paragraflar: [
+                    "İç mekân kiralamalarında sahaya varan makinenin işe yaramaması, genellikle ortam bilgisinin eksik paylaşılmasından kaynaklanır — zemin tipi belirtilmemiş, koridor ölçüsü verilmemiş veya hijyen kısıtı söylenmemiş olabilir. İlk kiralamanızda bu bilgileri baştan paylaşmanız, teklifin ve sevk edilecek makinenin doğruluğunu garanti eder.",
+                    "Fotoğraf paylaşımı, sözlü tarife göre çok daha güvenilir bir yöntemdir; zemin tipini, koridor genişliğini ve varsa engelleri gösteren birkaç fotoğraf, teklif aşamasında büyük fark yaratır.",
+                ],
+            },
+            {
+                baslik: "Vardiyalı ve gece çalışmasında planlama",
+                paragraflar: [
+                    "Hijyen standardı yüksek ortamlarda (hastane, gıda tesisi) çalışma genellikle gece veya ziyaretçi olmayan saatlerde yapılır. İlk kiralamada bu çalışma saatini belirtmeniz, teslimat ve makine bekleme planını buna göre kurmamızı sağlar.",
+                    "Vardiyalı çalışmada akülü makinenin şarj döngüsü de planlamaya dahil edilir; gerekirse ek batarya veya vardiya arasında kısa şarj molası önerilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İlk kiralamada iç mekân için hangi bilgileri paylaşmalıyız?",
+                cevap:
+                    "Zemin tipini (epoksi mi, standart beton mu), koridor/kapı genişliğini, hedefin gerçek yüksekliğini ve varsa özel kısıtları (hijyen, gürültü, çalışma saati) paylaşmanız yeterlidir. Bu bilgiler, hem doğru makine sınıfını hem de gerekli koruyucu tedbirleri baştan netleştirir; birkaç fotoğraf eklemeniz süreci daha da hızlandırır.",
+            },
+            {
+                soru: "Epoksi zeminde tekerlek izi bırakmayacağını garanti edebiliyor musunuz?",
+                cevap:
+                    "Doğru lastik tipi ve destek ayağı altına konan koruyucu tamponla iz bırakma riski düşürülür, ancak yüzde yüz garanti verilemez; zeminin yaşı ve kaplama türü sonucu etkiler. Hassasiyeti yüksek bir zeminde önce küçük bir alanda deneme yapılmasını öneririz.",
+            },
+            {
+                soru: "Hastane veya AVM gibi ortamlarda gece çalışma mümkün mü?",
+                cevap:
+                    "Evet, hijyen standardı yüksek ortamlarda çalışma genellikle ziyaretçi olmayan saatlerde planlanır. İlk kiralamanızda bu ihtiyacı belirtmeniz, teslimat ve çalışma saatini buna göre kurmamızı sağlar; makinenin temizlik durumu da bu tür ortamlar için ayrıca kontrol edilir.",
+            },
+            {
+                soru: "Dar koridorlu bir depoda standart makaslı sınıf sığar mı?",
+                cevap:
+                    "Bu, koridor genişliğine bağlıdır; standart makaslı sınıf bazı dar koridorlara sığmayabilir, bu durumda dar koridor tipi kompakt makaslı sınıf önerilir. İlk kiralamanızda koridor genişliğini ve raf aralığını paylaşmanız, doğru sınıfı netleştirir.",
+            },
+            {
+                soru: "Akülü makinenin şarjı iş sırasında biterse ne olur?",
+                cevap:
+                    "İş süresini ve vardiya planını baştan paylaşırsanız, gerekirse ek batarya veya şarj molası öneririz; bu riski teslimat öncesinde ortadan kaldırırız. Kısa süreli standart işlerde tam şarjlı bir makine bir vardiyayı sorunsuz karşılar; uzun ve kesintisiz işlerde bu planlama özellikle önemlidir.",
+            },
+            {
+                soru: "Tesisat/boru hattı altında çalışacağız, hangi sınıf uygun?",
+                cevap:
+                    "Hattın altı engel oluşturduğu için kompakt eklemli sınıf genellikle en uygun seçimdir; bomu kırarak hattın yanından veya altından erişim sağlar. İlk kiralamanızda hattın yüksekliğini ve altındaki boşluğu belirtmeniz, doğru model seçimini netleştirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İç mekân platform seçiminde zemin-koridor-hijyen ayrımı ve akülü sınıfın kapalı mekân avantajları genel bilgidir; tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "İlk Kiralamada Çelik Konstrüksiyon Montaj Platformu Seçimi",
+        giris:
+            "Çelik konstrüksiyon montaj işleri, tek günlük bir kiralamadan çok, proje süresince devam eden bir platform ihtiyacı doğurur; bu da ilk kiralamayı standart iç mekân veya kısa süreli bir işten farklı kılar. İlk kiralamada belirleyici sorular şunlardır: montaj yüksekliği projenin hangi aşamasında değişecek, saha zemini düz mü yoksa henüz tesviye edilmemiş mi, ve birden fazla ekip aynı anda mı çalışacak. Eskişehir'deki OSB ve 2. OSB'de yeni hol inşaatları sık görülür; bu tesislerde montaj süreci genellikle haftalar sürer ve platform ihtiyacı projenin evresine göre değişir. Bu sayfa, ilk kez montaj projesi için platform kiralayacak bir işletmenin süreç boyunca karşılaşacağı kararları anlatır.",
+        maddeler: [
+            {
+                baslik: "Proje evresine göre değişen yükseklik ihtiyacı",
+                metin:
+                    "Montajın erken evresinde (kolon-kiriş dikimi) daha yüksek erişim gerekirken, ilerleyen evrelerde (kaplama, tesisat) daha kompakt ve manevra kabiliyeti yüksek makineler yeterli olabilir. İlk kiralamada tek bir makine yerine projenin evrelerine göre değişen bir plan önerilir; bu, gereksiz büyük makineyi tüm proje boyunca tutmaktan daha ekonomiktir.",
+            },
+            {
+                baslik: "Henüz tesviye edilmemiş zeminde makine seçimi",
+                metin:
+                    "İnşaat sürecindeki bir sahada zemin henüz düzleştirilmemiş, moloz veya malzeme yığınları olabilir; bu durumda standart akülü sınıf yerine dizel 4x4 tahrikli, geniş taban lastikli sınıf tercih edilir. İlk kiralamada saha zemininin durumunu (tesviye edilmiş mi, henüz değil mi) belirtmeniz, doğru şase tipini netleştirir.",
+            },
+            {
+                baslik: "Birden fazla ekibin aynı sahada çalışması",
+                metin:
+                    "Montaj projelerinde genellikle birden fazla ekip (çelik montaj, kaynak, elektrik) aynı sahada çalışır; bu durumda birden fazla makinenin aynı anda kullanılması ve çakışmaması için bir saha trafiği planı gerekir. İlk kiralamada kaç ekibin aynı anda çalışacağını belirtmeniz, gerekli makine sayısını ve saha planını netleştirir.",
+            },
+            {
+                baslik: "Uzun süreli kiralamada bakım ve destek",
+                metin:
+                    "Proje süresince devam eden bir kiralamada makinenin periyodik bakımı ve olası arıza durumunda hızlı müdahale önemlidir. İlk kiralamada projenin tahmini süresini belirtmeniz, uzun süreli kiralama için bakım ve yedek makine planını netleştirir.",
+            },
+            {
+                baslik: "Yük kapasitesi: malzeme ve ekip birlikte hesaplanır",
+                metin:
+                    "Montaj işlerinde sepette yalnızca operatör değil, çelik profil, kaynak makinesi veya bağlantı malzemesi de taşınabilir; bu durumda sepet kapasitesi malzeme ağırlığıyla birlikte hesaplanmalıdır. İlk kiralamada taşınacak malzeme tipini ve ağırlığını belirtmeniz, kapasite aşımı riskini önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj evresine göre tipik platform ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada montaj projesinin evresine göre tipik platform ihtiyacını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Evre", "Tipik iş", "Zemin durumu", "Tipik sınıf"],
+                    satirlar: [
+                        ["Kolon-kiriş dikimi", "Yüksek nokta montaj", "Tesviye edilmemiş", "Dizel 4x4 teleskopik"],
+                        ["Çelik kaplama", "Orta yükseklik kaplama", "Kısmen tesviye", "Dizel eklemli"],
+                        ["Tesisat/kablo döşeme", "Tavan altı çalışma", "Tesviye edilmiş", "Akülü eklemli"],
+                        ["İç mekân tamamlama", "İnce işçilik", "Tamamlanmış zemin", "Akülü makaslı"],
+                        ["Cephe/dış kaplama", "Dış cephe erişimi", "Değişken", "Dizel teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Proje süresince değişen makine planı",
+                paragraflar: [
+                    "Uzun süreli montaj projelerinde tek bir makineyi baştan sona tutmak yerine, projenin evresine göre makine değiştirmek genellikle daha ekonomiktir. İlk kiralamada projenizin tahmini takvimini ve evrelerini paylaşmanız, size bu değişken planı önermemizi sağlar.",
+                    "Bu yaklaşım, erken evrede gereken büyük ve pahalı sınıfı tüm proje boyunca tutmaktan kaçınmanızı, buna karşılık ihtiyaç arttığında hızlıca daha büyük sınıfa geçmenizi sağlar.",
+                ],
+            },
+            {
+                baslik: "Saha trafiği ve birden fazla makine koordinasyonu",
+                paragraflar: [
+                    "Birden fazla ekibin aynı sahada çalıştığı montaj projelerinde, makinelerin çalışma alanlarının çakışmaması için önceden bir saha trafiği planı yapılır. İlk kiralamada kaç ekibin ve kaç makinenin aynı anda çalışacağını belirtmeniz, bu planı baştan netleştirir.",
+                    "Saha trafiği planı, özellikle vinç veya ağır malzeme taşıma güzergâhıyla platform çalışma alanının kesiştiği noktalarda kritik önem taşır; bu noktalar önceden işaretlenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Montaj projemiz haftalarca sürecek, tek bir makine mi kiralamalıyız?",
+                cevap:
+                    "Genellikle önermiyoruz. Projenin erken evresinde (kolon-kiriş dikimi) daha yüksek ve güçlü bir sınıf gerekirken, ilerleyen evrelerde (tesisat, iç mekân) daha kompakt bir makine yeterli olur. İlk kiralamanızda projenizin evrelerini paylaşmanız, size evreye göre değişen ve daha ekonomik bir makine planı sunmamızı sağlar.",
+            },
+            {
+                soru: "Saha zemini henüz tesviye edilmedi, hangi makine çalışabilir?",
+                cevap:
+                    "Tesviye edilmemiş, moloz veya malzeme yığınlı bir zeminde dizel 4x4 tahrikli, geniş taban lastikli sınıf tercih edilir; standart akülü sınıf bu tip zeminde zorlanır. İlk kiralamanızda saha zemininin durumunu belirtmeniz, doğru şase tipini netleştirir.",
+            },
+            {
+                soru: "Birden fazla ekip aynı anda çalışacak, kaç makine gerekir?",
+                cevap:
+                    "Bu, ekiplerin çalışma noktalarının birbirine yakınlığına ve iş sürelerine bağlıdır. İlk kiralamanızda kaç ekibin, hangi noktalarda ve ne zaman çalışacağını paylaşmanız, gerekli makine sayısını ve saha trafiği planını netleştirir; çakışan çalışma alanları önceden işaretlenir.",
+            },
+            {
+                soru: "Sepette çelik profil veya kaynak makinesi taşıyabilir miyiz?",
+                cevap:
+                    "Evet, ancak sepet kapasitesi operatör ağırlığıyla birlikte hesaplanmalıdır. İlk kiralamanızda taşınacak malzemenin tipini ve tahmini ağırlığını belirtmeniz, kapasiteyi aşmayan doğru sınıfı netleştirir; kapasite sınırına yakın işlerde ikinci bir taşıma turu planlanabilir.",
+            },
+            {
+                soru: "Uzun süreli kiralamada makine arızalanırsa ne olur?",
+                cevap:
+                    "Proje süresince devam eden kiralamalarda periyodik bakım ve olası arıza durumunda hızlı müdahale planı önceden kurulur. İlk kiralamanızda projenin tahmini süresini belirtmeniz, bu bakım ve yedek makine planını netleştirir; kısa süreli kiralamalarda bu ihtiyaç genellikle doğmaz.",
+            },
+            {
+                soru: "Montaj projesine hangi bilgilerle başlamalıyız?",
+                cevap:
+                    "Projenin tahmini süresi ve evreleri, saha zemininin durumu, kaç ekibin aynı anda çalışacağı ve taşınacak malzeme tipi yeterlidir. Bu bilgilerle projenin baştan sona en ekonomik ve doğru makine planını çıkarırız; evreler ilerledikçe planı birlikte güncelleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj sürecinin evreleri ve platform ihtiyacının evreye göre değişimi genel saha pratiğidir; proje adı, tesis ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "İlk Kiralamada Tarım ve Silo Sahası İçin Platform Seçimi",
+        giris:
+            "Eskişehir'in Çifteler, Mahmudiye ve Sivrihisar gibi ilçelerinde tarım işleme tesisleri ve silo sahaları, kent merkezindeki bir atölyeden çok farklı bir kiralama profili taşır: zemin genellikle toprak veya çim, çalışma alanı açık saha, ve iş genellikle mevsimsel bir pencereye sıkışır. İlk kiralamada belirleyici soru, zemin tipinin (kuru toprak mı, yağış sonrası çamurlu mu) ve mevsimin (hasat öncesi mi, hasat sonrası mı) ne olduğudur; standart akülü veya dizel iç mekân sınıfı bu ortamda genellikle yetersiz kalır, dizel 4x4 arazi tipi sınıf gerekir. Bu sayfa, tarım ve silo sahası için ilk kez platform kiralayacak bir işletmenin sorması gereken soruları ve mevsimsel planlama mantığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Zemin tipi mevsime göre değişir",
+                metin:
+                    "Aynı saha, kuru mevsimde sert ve düz görünürken yağış sonrasında çamurlu ve yumuşak hale gelebilir; bu, makinenin batma veya devrilme riskini doğrudan etkiler. İlk kiralamada talebin hangi mevsimde olduğunu ve son yağıştan ne kadar süre geçtiğini belirtmeniz, doğru şase ve lastik tipini netleştirir.",
+            },
+            {
+                baslik: "Silo yüksekliği ve dikey erişim",
+                metin:
+                    "Silo yapıları genellikle standart bir atölyeden çok daha yüksektir; dış cephe, üst kapak veya havalandırma bakımı için yüksek erişimli teleskopik veya eklemli sınıf gerekir. İlk kiralamada silonun gerçek yüksekliğini (varsa teknik çizimden, yoksa ölçerek) belirtmeniz, doğru sınıfı netleştirir.",
+            },
+            {
+                baslik: "Mevsimsel iş penceresi",
+                metin:
+                    "Tarım işleme tesislerinde yoğun sezon (hasat, ürün kabulü) başladığında bakım için ayrılabilecek zaman daralır; sezon öncesi veya sonrası pencereler bakım için daha uygundur. İlk kiralamada işinizin hangi pencereye denk geldiğini belirtmeniz, hem makine müsaitliğini hem de saha erişimini planlamamızı sağlar.",
+            },
+            {
+                baslik: "Toz ve tarımsal malzeme ortamı",
+                metin:
+                    "Tahıl tozu veya benzeri malzemenin yoğun olduğu bölümlerde (kabul sahası, işleme hattı) ortam hassasiyeti standart bir atölyeden farklıdır; bu bölgelerde çalışma öncesi temizlik penceresi veya özel önlem gerekebilir. İlk kiralamada çalışacağınız bölümün toz yoğunluğunu belirtmeniz, uygun zamanlamayı netleştirir.",
+            },
+            {
+                baslik: "Uzun mesafe ve erişim yolu",
+                metin:
+                    "Kırsal bölgedeki tesislere ulaşım, kent merkezine göre daha uzun mesafe ve bazen dar/toprak yol gerektirir. İlk kiralamada tesisin erişim yolunun durumunu (asfalt mı, toprak mı, dar mı) belirtmeniz, teslimat aracının uygun rotayla planlanmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mevsime ve zemine göre tipik makine seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada tarım ve silo sahası işlerinde mevsim ve zemine göre tipik makine seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Mevsim/zemin", "Durum", "Risk", "Tipik sınıf"],
+                    satirlar: [
+                        ["Kuru yaz, sert toprak", "Standart", "Düşük", "Dizel 4x4 teleskopik"],
+                        ["Yağış sonrası, çamurlu", "Yumuşak zemin", "Batma riski", "Geniş taban, düşük iş ertelenebilir"],
+                        ["Hasat sezonu", "Yoğun trafik", "Erişim kısıtlı", "Sezon dışı pencereye planlama"],
+                        ["Silo üst kapak bakımı", "Yüksek nokta", "Dikey erişim", "Yüksek teleskopik"],
+                        ["Kabul sahası, tozlu", "Ortam hassasiyeti", "Temizlik gerekir", "Toz sonrası pencere"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada mevsim öncesi planlama",
+                paragraflar: [
+                    "Tarım işleme tesislerinde en verimli kiralama, sezon başlamadan veya sezon bittikten hemen sonra yapılan planlı bakımdır; sezon ortasında acil bir talep hem makine müsaitliğini hem de saha erişimini zorlaştırabilir. İlk kiralamanızda tesisinizin yıllık iş takvimini paylaşmanız, size en uygun bakım penceresini önermemizi sağlar.",
+                    "Sezon öncesi planlama, aynı zamanda tekrarlayan bir yıllık bakım ilişkisine dönüşebilir; her yıl aynı pencerede planlı bir kiralama, acil ve pahalı bir sezon ortası talebe göre daha ekonomiktir.",
+                ],
+            },
+            {
+                baslik: "Kırsal bölgede teslimat ve erişim planı",
+                paragraflar: [
+                    "Kırsal bölgedeki tesislere teslimat, kent merkezine göre daha uzun mesafe ve bazen toprak yol gerektirir; bu, nakliye süresini ve bedelini etkiler. İlk kiralamanızda tesisin erişim yolunu ve son yağıştan bu yana geçen süreyi belirtmeniz, teslimat aracının uygun rotayla ve zamanlamayla planlanmasını sağlar.",
+                    "Aynı bölgedeki birden fazla tesisin taleplerini aynı haftaya toplamak, kırsal bölgede özellikle etkili bir nakliye paylaşım yöntemidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yağış sonrası sahaya makine girebilir mi?",
+                cevap:
+                    "Zeminin durumuna bağlıdır; çamurlu ve yumuşak bir zeminde standart lastikli makine batma riski taşır. İlk kiralamanızda son yağıştan ne kadar süre geçtiğini belirtmeniz, geniş taban lastikli sınıf mı yoksa zeminin kurumasını beklemenin mi daha uygun olduğunu netleştirir; can güvenliği ve makine güvenliği açısından risk varsa işi ertelemenizi öneririz.",
+            },
+            {
+                soru: "Silo üst kapağına ne kadar yükseklikte erişebiliriz?",
+                cevap:
+                    "Bu, silonun gerçek yüksekliğine bağlıdır; teknik çizimden veya ölçerek elde edilen bir rakamla doğru sınıfı öneririz. Silo yapıları genellikle standart bir atölyeden çok daha yüksek olduğu için yüksek erişimli teleskopik veya eklemli sınıf gerekebilir; ilk kiralamanızda bu ölçüyü paylaşmanız süreci hızlandırır.",
+            },
+            {
+                soru: "Hasat sezonunda bakım yaptırabilir miyiz?",
+                cevap:
+                    "Mümkün olsa da önermiyoruz; hasat sezonunda araç ve ürün trafiği yoğunlaştığı için bakım ekibine ayrılan alan daralır. Sezon öncesi veya ürün çekildikten sonraki pencereler bakım için daha uygundur. İlk kiralamanızda yıllık iş takviminizi paylaşmanız, size en uygun pencereyi önermemizi sağlar.",
+            },
+            {
+                soru: "Tozlu bölümde çalışmak için özel bir hazırlık gerekir mi?",
+                cevap:
+                    "Evet, tahıl tozu yoğun bölümlerde çalışma öncesi bir temizlik penceresi veya özel önlem gerekebilir. İlk kiralamanızda çalışacağınız bölümün toz yoğunluğunu belirtmeniz, uygun zamanlamayı ve gerekli önlemleri netleştirir.",
+            },
+            {
+                soru: "Tesisimiz kent merkezine uzak, teslimat mümkün mü?",
+                cevap:
+                    "Evet, kırsal bölgedeki tesislere teslimat yapıyoruz; ancak mesafe ve erişim yolunun durumu (asfalt mı, toprak mı, dar mı) nakliye süresini ve bedelini etkiler. İlk kiralamanızda tesisin erişim yolunu belirtmeniz, teslimat aracının uygun rotayla planlanmasını sağlar.",
+            },
+            {
+                soru: "Her yıl aynı dönemde bakım yaptırmak avantajlı mı?",
+                cevap:
+                    "Evet, sezon öncesi veya sonrası düzenli bir yıllık bakım penceresi, sezon ortasında çıkan acil ve genellikle daha pahalı bir talebe göre daha ekonomiktir. İlk kiralamanızı başarıyla tamamladıktan sonra bu kalemleri yıllık bir takvime dönüştürmenizi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kırsal/tarım bölgesi zemin-mevsim riskleri ve silo yapılarının yükseklik özellikleri genel saha bilgisidir; tesis adı, ürün ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "İlk Kiralamada Enerji ve Aydınlatma Bakımı İçin Platform Seçimi",
+        giris:
+            "Enerji hattı ve aydınlatma bakımı, Eskişehir'de hem OSB içi hem kent merkezi hem de kırsal bölgede sık karşılaşılan bir kiralama talebidir; ancak her ortam farklı bir sınıf gerektirir. OSB içindeki direk aydınlatması genellikle standart dizel teleskopik sınıfla çözülürken, kent merkezindeki bir tabela veya cephe aydınlatması dar sokak koşulları nedeniyle kompakt sınıf gerektirebilir, kırsal bölgedeki bir enerji hattı bakımı ise arazi tipi 4x4 sınıfı zorunlu kılabilir. İlk kiralamada asıl belirleyici, hattın veya direğin gerçek yüksekliği, çevresindeki elektrik hatlarına olan mesafe ve zeminin tipidir. Bu sayfa, enerji ve aydınlatma bakımı için ilk kez platform kiralayacak bir işletmenin güvenlik ve seçim sorularını anlatır.",
+        maddeler: [
+            {
+                baslik: "Elektrik hattına yakın çalışmada güvenlik mesafesi",
+                metin:
+                    "Enerjili bir hat veya panonun yakınında çalışılacaksa, platformun ve operatörün hatta güvenli mesafeyi koruması gerekir; bu mesafe hattın gerilim seviyesine göre değişir. İlk kiralamada hattın enerjili olup olmadığını ve gerilim seviyesini (biliniyorsa) belirtmeniz, doğru güvenlik protokolünün ve gerekirse yalıtımlı ekipman ihtiyacının netleşmesini sağlar.",
+            },
+            {
+                baslik: "Direk ve aydınlatma yüksekliği",
+                metin:
+                    "Aydınlatma direkleri genellikle standart bir bina cephesinden daha yüksektir ve çalışma noktası direğin tepesine yakındır; bu, teleskopik sınıfın dikey erişim avantajının öne çıktığı bir senaryodur. İlk kiralamada direğin gerçek yüksekliğini belirtmeniz, doğru sınıfı netleştirir.",
+            },
+            {
+                baslik: "Açık sahada zemin ve rüzgâr koşulu",
+                metin:
+                    "Açık sahadaki enerji hattı veya direk bakımında zemin genellikle düzensizdir ve rüzgâr, yüksekte çalışmayı etkileyen bir faktördür. İlk kiralamada zemin tipini belirtmeniz gerekli şase seçimini, hava durumu takibi ise çalışma gününün planlanmasını sağlar.",
+            },
+            {
+                baslik: "Gece çalışma ihtiyacı",
+                metin:
+                    "Aydınlatma bakımı bazen gündüz test edilemediği için gece çalışması gerektirir; bu durumda makinenin kendi aydınlatması ve operatör görüş koşulları önceden değerlendirilir. İlk kiralamada gece çalışma ihtiyacınızı belirtmeniz, uygun ekipman ve ek önlem planını netleştirir.",
+            },
+            {
+                baslik: "Çok sayıda direk için rota planlaması",
+                metin:
+                    "Bir cadde veya sahada birden fazla direk/aydınlatma noktasının bakımı gerekiyorsa, tek tek değil bir rota halinde planlanması hem zaman hem maliyet açısından daha verimlidir. İlk kiralamada kaç noktanın bakım gerektirdiğini belirtmeniz, rota bazlı bir teklif sunmamızı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ortama göre enerji/aydınlatma platform seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada enerji ve aydınlatma bakımında ortama göre tipik makine seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Tipik iş", "Zemin", "Tipik sınıf"],
+                    satirlar: [
+                        ["OSB içi direk aydınlatması", "Direk üstü bakım", "Düz zemin", "Dizel teleskopik"],
+                        ["Kent merkezi tabela/cephe", "Aydınlatma değişimi", "Dar sokak", "Kompakt eklemli"],
+                        ["Kırsal enerji hattı", "Hat/trafo çevresi bakım", "Düzensiz", "Dizel 4x4"],
+                        ["Kamu binası dış aydınlatma", "Cephe aydınlatma", "Standart", "Eklemli/teleskopik"],
+                        ["Çok noktalı cadde aydınlatması", "Rota bazlı bakım", "Değişken", "Rota planlı, tek makine"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerjili hat yakınında çalışma protokolü",
+                paragraflar: [
+                    "İlk kiralamada enerjili bir hat veya panonun yakınında çalışılacağı bildirildiğinde, önce hattın gerilim seviyesi ve mümkünse ilgili kurumun (dağıtım şirketi, tesis elektrik sorumlusu) onayı istenir. Güvenli mesafe bu bilgiye göre belirlenir ve çalışma öncesinde saha ekibiyle paylaşılır.",
+                    "Bu protokol atlanmaz; enerjili hat yakınında güvenli mesafe bilgisi olmadan çalışma planlanmaz. İlk kiralamanızda bu bilgiyi baştan paylaşmanız, sürecin gecikmeden ilerlemesini sağlar.",
+                ],
+            },
+            {
+                baslik: "Rota bazlı aydınlatma bakımının maliyet avantajı",
+                paragraflar: [
+                    "Birden fazla direk veya aydınlatma noktasının tek tek ayrı taleplerle değil, bir rota halinde planlanması nakliye ve kurulum bedelini tek bir sefere yayar. İlk kiralamanızda kaç noktanın bakım gerektirdiğini ve bu noktaların birbirine olan mesafesini paylaşmanız, rota bazlı bir teklif sunmamızı sağlar.",
+                    "Bu yaklaşım özellikle cadde aydınlatması veya kampüs benzeri geniş alanlarda, tek tek talep etmeye göre belirgin bir maliyet avantajı sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Enerjili hat yakınında çalışmak güvenli mi?",
+                cevap:
+                    "Doğru mesafe korunduğunda ve gerekli protokol izlendiğinde güvenlidir; ancak bu mesafe hattın gerilim seviyesine göre değişir ve çoğu zaman ilgili kurumun onayı veya bilgisi gerekir. İlk kiralamanızda hattın enerjili olup olmadığını ve mümkünse gerilim seviyesini belirtmeniz, güvenli mesafeyi baştan netleştirir; bu bilgi olmadan çalışma planlanmaz.",
+            },
+            {
+                soru: "Aydınlatma bakımı için gece çalışma yapabilir misiniz?",
+                cevap:
+                    "Evet, gece çalışması mümkündür; makinenin kendi aydınlatması ve operatör görüş koşulları önceden değerlendirilir. İlk kiralamanızda gece çalışma ihtiyacınızı belirtmeniz, uygun ekipman ve ek güvenlik önlemi planını netleştirir.",
+            },
+            {
+                soru: "Birden fazla direğin bakımını tek seferde yaptırabilir miyiz?",
+                cevap:
+                    "Evet, bunu öneriyoruz. Kaç direğin bakım gerektirdiğini ve aralarındaki mesafeyi paylaşırsanız, rota bazlı bir teklif sunarız; bu, nakliye ve kurulum bedelini tek sefere yayarak tek tek talep etmeye göre belirgin bir tasarruf sağlar.",
+            },
+            {
+                soru: "Kırsal bölgedeki enerji hattına açık sahada nasıl erişiyorsunuz?",
+                cevap:
+                    "Açık sahada genellikle dizel 4x4 tahrikli, geniş taban lastikli sınıf tercih edilir; zeminin düzensiz olması bu tercihi gerekli kılar. İlk kiralamanızda zemin tipini ve hava koşullarını belirtmeniz, doğru şase ve çalışma gününün planlanmasını sağlar.",
+            },
+            {
+                soru: "Dar sokakta bir tabela/cephe aydınlatmasına nasıl ulaşılır?",
+                cevap:
+                    "Kent merkezindeki dar sokaklarda kompakt eklemli sınıf tercih edilir; sokağın genişliğini ve varsa park kısıtını önceden sorarız. İlk kiralamanızda sokak fotoğrafı paylaşmanız, teslimat saatinin trafiğe göre planlanmasını kolaylaştırır.",
+            },
+            {
+                soru: "Direğin yüksekliğini bilmiyoruz, nasıl netleştiririz?",
+                cevap:
+                    "Direğin projeye ait teknik ölçüsü varsa onu paylaşmanız yeterlidir; yoksa telefonda verilen tahmini bir yükseklik yerine sahada kendimiz ölçüp doğru sınıfı netleştirmemizi öneririz. Yanlış tahmin edilen bir yükseklik, sahada makinenin yetersiz kalmasına yol açabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Enerjili hat yakınında güvenli mesafe ilkesi ve rota bazlı aydınlatma bakımı genel saha güvenliği ve verimlilik pratiğidir; hat gerilim değeri ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "İlk Kiralamada Operatörlü mü Operatörsüz mü Karar Rehberi",
+        giris:
+            "İlk kez platform kiralayacak bir işletmenin karşısına çıkan sorulardan biri de operatörlü mü yoksa operatörsüz mü (kendi ekibinizle) kiralama yapılacağıdır. Bu karar yalnızca maliyetle değil, işletmenin sertifikalı operatör kapasitesiyle, işin süresiyle ve makinenin karmaşıklığıyla ilgilidir. Basit ve kısa süreli bir akülü makaslı iş için işletmenin kendi eğitimli personeli genellikle yeterlidir; ancak karmaşık bir eklemli platform işinde veya işletmenin sertifikalı operatörü yoksa operatörlü kiralama daha güvenli ve pratik bir seçenektir. Bu sayfa, ilk kiralamada bu kararı nasıl vereceğinizi ve her iki seçeneğin sorumluluk dağılımını anlatır.",
+        maddeler: [
+            {
+                baslik: "Sertifikalı operatör kapasitesi",
+                metin:
+                    "Operatörsüz kiralamada işletmenin kendi personelinin geçerli bir yüksekte çalışma platformu operatör belgesine sahip olması gerekir; bu belge teslimat öncesinde kontrol edilir. İlk kiralamada işletmenizde sertifikalı operatör olup olmadığını belirtmeniz, hangi seçeneğin uygun olduğunu baştan netleştirir.",
+            },
+            {
+                baslik: "İşin karmaşıklığı ve makine sınıfı",
+                metin:
+                    "Standart akülü makaslı sınıf, kısa bir eğitimle çoğu ekip tarafından güvenle kullanılabilir; ancak eklemli platform, özellikle bom kontrolü gerektiren işlerde, deneyimsiz bir operatör için risk taşıyabilir. İlk kiralamada makine sınıfı karmaşıklaştıkça operatörlü seçeneği önermemiz olasılığı artar.",
+            },
+            {
+                baslik: "İş süresi ve tekrarlanabilirlik",
+                metin:
+                    "Tek seferlik kısa bir iş için operatörlü kiralama pratik olabilir; ancak sık tekrarlanan bir ihtiyaçta işletmenin kendi personelini sertifikalandırması uzun vadede daha ekonomiktir. İlk kiralamada bu ihtiyacın tek seferlik mi yoksa düzenli mi olduğunu belirtmeniz, doğru stratejiyi netleştirir.",
+            },
+            {
+                baslik: "Sorumluluk dağılımı",
+                metin:
+                    "Operatörlü kiralamada makinenin güvenli kullanımından sağlanan operatör sorumludur; operatörsüz kiralamada bu sorumluluk işletmenin kendi personelindedir ve makinenin doğru kullanımı, günlük kontrol ve güvenlik kurallarına uyum işletmeye aittir. İlk kiralamada bu ayrımı netleştirmek, sözleşme ve sigorta kapsamının doğru anlaşılmasını sağlar.",
+            },
+            {
+                baslik: "Maliyet farkı",
+                metin:
+                    "Operatörlü kiralama, operatör bedelini içerdiği için operatörsüz kiralamaya göre daha yüksek günlük maliyet taşır; ancak eğitim, belgelendirme ve olası hatalı kullanım riskini ortadan kaldırdığı için toplam risk açısından bazen daha ekonomik olabilir. İlk kiralamada bu iki maliyeti karşılaştırırken yalnızca günlük rakama değil, toplam risk ve süreye bakmanızı öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi durumda hangi seçenek önerilir",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada operatörlü ve operatörsüz seçenek arasındaki kararı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Makine sınıfı", "Süre", "Önerilen seçenek"],
+                    satirlar: [
+                        ["Sertifikalı personel var, basit iş", "Akülü makaslı", "Kısa/uzun", "Operatörsüz"],
+                        ["Sertifikalı personel yok", "Herhangi", "Tek seferlik", "Operatörlü"],
+                        ["Karmaşık eklemli iş, deneyimsiz ekip", "Eklemli/teleskopik", "Kısa", "Operatörlü"],
+                        ["Düzenli tekrarlayan ihtiyaç", "Herhangi", "Uzun vadeli", "Personel sertifikalandırma + operatörsüz"],
+                        ["Enerjili hat yakını, riskli iş", "Herhangi", "Tek seferlik", "Operatörlü, deneyimli"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada operatör belgesi kontrolü",
+                paragraflar: [
+                    "Operatörsüz kiralamada teslimat öncesinde, işi kullanacak personelin geçerli operatör belgesi kontrol edilir; belge yoksa operatörlü seçenek önerilir ya da personelin belgelendirilmesi için süreç yönlendirilir. İlk kiralamanızda bu belgeyi önceden paylaşmanız, teslimat gününde gecikme yaşamamanızı sağlar.",
+                    "Belge kontrolü, hem işletmenin hem de sağlanan makinenin güvenli kullanımı için atlanmayan bir adımdır.",
+                ],
+            },
+            {
+                baslik: "Operatörlü kiralamada teslimat ve çalışma saati",
+                paragraflar: [
+                    "Operatörlü kiralamada sağlanan operatörün çalışma saatleri, teslimat planıyla birlikte önceden netleştirilir; iş süresinin uzaması durumunda ek saat veya ek gün planlaması yapılır. İlk kiralamanızda tahmini iş süresini paylaşmanız, operatörün gününü doğru planlamamızı sağlar.",
+                    "Operatörlü kiralamada işin ilerleyişi operatörle birlikte sahada takip edilir; bu, ilk kez kiralama yapan bir işletme için ek bir güven unsuru sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü mü operatörsüz mü kiralamalıyız, nasıl karar veririz?",
+                cevap:
+                    "Bu, işletmenizde sertifikalı operatör olup olmadığına, işin makine sınıfına (basit akülü mü, karmaşık eklemli mi) ve tekrarlanabilirliğine bağlıdır. Sertifikalı personeliniz varsa ve iş basitse operatörsüz genellikle yeterlidir; personeliniz yoksa veya iş karmaşıksa operatörlü öneririz. İlk kiralamanızda bu üç bilgiyi paylaşmanız, doğru seçeneği netleştirir.",
+            },
+            {
+                soru: "Operatörsüz kiralamada bizim personelimizin belgesi yeterli mi?",
+                cevap:
+                    "Geçerli bir yüksekte çalışma platformu operatör belgesi teslimat öncesinde kontrol edilir; belge güncel ve makine sınıfına uygunsa yeterlidir. Belgeniz yoksa veya süresi geçmişse operatörlü seçeneği öneririz ya da personelinizin belgelendirilmesi için yönlendirme yaparız.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatör kaç saat çalışıyor?",
+                cevap:
+                    "Bu, teslimat planıyla birlikte önceden netleştirilir; tahmini iş süreniz baz alınarak operatörün günü planlanır. İş süresinin uzaması durumunda ek saat veya ek gün olarak ayrıca ücretlendirilir; bu kalem teklif aşamasında açıkça belirtilir.",
+            },
+            {
+                soru: "Kaza durumunda sorumluluk kimde olur?",
+                cevap:
+                    "Operatörlü kiralamada makinenin güvenli kullanımından sağlanan operatör ve firma sorumludur; operatörsüz kiralamada bu sorumluluk işletmenin kendi personelinde ve işletmede olur. İlk kiralamanızda bu ayrımı netleştirmemiz, sözleşme ve sigorta kapsamının doğru anlaşılmasını sağlar; detaylar sözleşmede yazılı olarak belirtilir.",
+            },
+            {
+                soru: "Düzenli tekrarlayan bir ihtiyacımız var, her seferinde operatörlü mü kiralamalıyız?",
+                cevap:
+                    "Uzun vadede genellikle önermiyoruz; düzenli tekrarlayan bir ihtiyaçta personelinizin sertifikalandırılması ve operatörsüz kiralamaya geçilmesi daha ekonomiktir. İlk birkaç kiralamayı operatörlü yapıp bu sürede personelinizi eğitim sürecine yönlendirmeniz de bir seçenektir.",
+            },
+            {
+                soru: "Enerjili hat yakınında operatörsüz kiralama önerir misiniz?",
+                cevap:
+                    "Genellikle önermiyoruz; enerjili hat yakınında çalışma ek risk taşıdığı için deneyimli, sağlanan bir operatörle çalışmayı öneririz. İşletmenizin personeli bu tip riskli işlerde deneyimliyse ve gerekli sertifikaya sahipse operatörsüz de değerlendirilebilir, ancak ilk kiralamada bu riski birlikte netleştirmemizi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama ayrımı ve sertifikalı operatör gerekliliği EN 280 ve iş güvenliği mevzuatı kapsamındaki genel bilgidir; işletme adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "İlk Kiralamada Çok Noktalı Bakım İşleri İçin Rota Planlaması",
+        giris:
+            "Bazı ilk kiralama talepleri tek bir noktayı değil, birden fazla dağınık noktayı kapsar — bir caddedeki birkaç tabela, bir OSB'deki birden fazla işletmenin küçük kalemleri veya bir kampüsteki farklı binaların aydınlatma bakımı gibi. Bu tür işlerde her noktayı ayrı bir kiralama olarak ele almak, hem nakliye bedelini katlar hem de toplam süreyi uzatır. İlk kiralamada doğru yaklaşım, tüm noktaları tek bir rota halinde planlamaktır; makine bir noktadan diğerine kısa mesafelerle ilerler ve nakliye bedeli tüm rotaya yayılır. Bu sayfa, çok noktalı bir bakım işi için ilk kez platform kiralayacak bir işletmenin rota planlamasını nasıl kuracağını anlatır.",
+        maddeler: [
+            {
+                baslik: "Noktaların listesi ve öncelik sırası",
+                metin:
+                    "Rota planlamasının ilk adımı, tüm noktaların bir listesi ve her noktanın işinin ne kadar süreceğinin tahminidir. İlk kiralamada bu listeyi paylaşmanız, makinenin günde kaç noktayı kapsayabileceğini ve toplam sürenin ne kadar olacağını netleştirir.",
+            },
+            {
+                baslik: "Noktalar arası mesafe ve güzergâh",
+                metin:
+                    "Noktalar arasındaki mesafe ve yol durumu (trafik, dar sokak, OSB içi) rotanın günlere nasıl bölüneceğini belirler. İlk kiralamada noktaların adreslerini paylaşmanız, en verimli güzergâhın planlanmasını sağlar; coğrafi olarak yakın noktalar aynı güne, uzak noktalar ayrı güne yerleştirilir.",
+            },
+            {
+                baslik: "Her nokta için farklı makine sınıfı gerekebilir",
+                metin:
+                    "Rota üzerindeki her nokta aynı makine sınıfını gerektirmeyebilir; bir nokta akülü makaslı, bir başkası eklemli, bir diğeri zor zemin sınıfı gerektirebilir. İlk kiralamada her noktanın kendi özelliğini (yükseklik, engel, zemin) belirtmeniz, rotanın hangi makine veya makinelerle kapsanacağını netleştirir.",
+            },
+            {
+                baslik: "Esnek sıra ve bekletme riski",
+                metin:
+                    "Rotadaki bir nokta hazır değilse (erişim izni gecikmiş, saha boş değilse) tüm rotayı bekletmek yerine sıradaki bağımsız noktaya geçilmesi planlanır. İlk kiralamada hangi noktaların izin veya hazırlık gerektirdiğini önceden belirtmeniz, bu esnekliği baştan kurmamızı sağlar.",
+            },
+            {
+                baslik: "Rota bazlı fiyatlandırmanın mantığı",
+                metin:
+                    "Rota bazlı bir teklifte nakliye ve kurulum bedeli tüm noktalara yayılır, bu da her noktayı ayrı ayrı kiralamaya göre belirgin bir tasarruf sağlar. İlk kiralamada tüm noktaları tek seferde paylaşmanız, bu toplu avantajdan yararlanmanızı sağlar; sonradan eklenen noktalar ayrı bir kalem olarak fiyatlandırılabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota planlamasında tipik gün dağılımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada çok noktalı bir rota işinin tipik gün dağılımını örnekler; kesin plan nokta sayısı ve mesafeye göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Rota tipi", "Nokta sayısı", "Tipik süre", "Planlama önceliği"],
+                    satirlar: [
+                        ["Tek cadde, yakın noktalar", "3-6 nokta", "1 gün", "Coğrafi yakınlık"],
+                        ["OSB içi birden fazla işletme", "4-8 nokta", "1-2 gün", "Komşu koordinasyonu"],
+                        ["Kampüs/kurum, farklı binalar", "5-10 nokta", "2-3 gün", "İzin ve erişim sırası"],
+                        ["Şehir geneli dağınık noktalar", "5+ nokta", "3-5 gün", "Coğrafi kümeleme"],
+                        ["Karma sınıf gereken rota", "Değişken", "Değişken", "Makine değişim sırası"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada rota listesi nasıl hazırlanır",
+                paragraflar: [
+                    "En verimli rota planlaması, tüm noktaların adresi, yaklaşık işi ve varsa özel kısıtı (izin, erişim saati) ile birlikte tek bir listede toplanmasıyla başlar. İlk kiralamanızda bu listeyi bir tabloda veya kısa notlarla paylaşmanız, rotanın günlere ve makine sınıflarına bölünmesini hızlandırır.",
+                    "Liste eksikse, rota planlaması sahada revize edilmek zorunda kalabilir; bu da hem süreyi hem maliyeti etkiler. Baştan eksiksiz bir liste, en büyük tasarrufu sağlayan adımdır.",
+                ],
+            },
+            {
+                baslik: "Coğrafi kümeleme ile maliyet düşürme",
+                paragraflar: [
+                    "Birbirine yakın noktaların aynı güne, uzak noktaların ayrı güne yerleştirilmesi, makinenin gereksiz uzun mesafe kat etmesini önler. İlk kiralamanızda noktaların adreslerini paylaşmanız, bu coğrafi kümelemeyi baştan kurmamızı sağlar.",
+                    "Bazı durumlarda aynı bölgedeki başka bir işletmenin talebiyle rotanızı birleştirmek mümkün olabilir; bu, nakliye bedelini daha da düşürebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Birden fazla noktamız var, hepsini tek seferde mi anlatmalıyız?",
+                cevap:
+                    "Evet, bunu öneririz. Tüm noktaların adresini, yaklaşık işini ve varsa özel kısıtını (izin, erişim saati) tek seferde paylaşmanız, en verimli rota planını kurmamızı sağlar. Sonradan eklenen noktalar da değerlendirilir ama baştan eksiksiz bir liste en büyük tasarrufu sağlar.",
+            },
+            {
+                soru: "Her nokta farklı yükseklikte, tek makineyle mi hallederiz?",
+                cevap:
+                    "Bu, noktaların özelliklerine bağlıdır; bazı rotalar tek bir makineyle kapsanabilirken bazılarında farklı sınıflar gerekir. İlk kiralamanızda her noktanın yüksekliğini, altının boş mu dolu mu olduğunu ve zemin tipini belirtmeniz, rotanın tek makineyle mi yoksa makine değişimiyle mi kapsanacağını netleştirir.",
+            },
+            {
+                soru: "Bir nokta hazır olmazsa tüm rota gecikir mi?",
+                cevap:
+                    "Hayır, bunun için esnek bir sıra planlarız; bir nokta hazır değilse tüm rotayı bekletmek yerine sıradaki bağımsız noktaya geçilir. İlk kiralamanızda hangi noktaların izin veya hazırlık gerektirdiğini önceden belirtmeniz, bu esnekliği baştan kurmamızı sağlar.",
+            },
+            {
+                soru: "Rota bazlı fiyat gerçekten daha mı ucuz?",
+                cevap:
+                    "Genellikle evet; nakliye ve kurulum bedeli tüm noktalara yayıldığı için her noktayı ayrı ayrı kiralamaya göre belirgin bir tasarruf sağlar. İlk kiralamanızda tüm noktaları tek seferde paylaşmanız, bu toplu avantajdan yararlanmanızı sağlar.",
+            },
+            {
+                soru: "OSB içindeki birden fazla işletmenin talebini birleştirebilir miyiz?",
+                cevap:
+                    "Evet, bunu aktif olarak öneriyoruz. Komşu işletmelerin küçük kalemlerini aynı güne toplamak, makinenin kısa mesafelerle ilerlemesini ve nakliye bedelinin paylaşılmasını sağlar. İlk kiralamanızda bize başka bir talep olup olmadığını sorabilir veya komşularınıza kendiniz haber verebilirsiniz.",
+            },
+            {
+                soru: "Şehir geneli dağınık noktalarda rota kaç gün sürer?",
+                cevap:
+                    "Bu, nokta sayısına ve coğrafi dağılıma bağlıdır; genellikle noktalar coğrafi olarak kümelenip günlere bölünür. İlk kiralamanızda tüm noktaların adresini paylaşmanız, tahmini süreyi ve gün dağılımını netleştirir; kesin süre listenin tamamlanmasıyla belirlenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok noktalı rota planlamasında coğrafi kümeleme ve esnek sıra ilkeleri genel saha verimliliği pratiğidir; nokta sayısı, adres ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "İlk Kiralamada Zor Zemin ve Arazi Koşulları İçin Platform Seçimi",
+        giris:
+            "Standart bir atölye veya OSB parselinden farklı olarak, bazı ilk kiralama talepleri düzensiz, eğimli veya henüz hazırlanmamış bir zeminde çalışmayı gerektirir — inşaat sahası, kırsal bölge, henüz tesviye edilmemiş arsa gibi. İlk kiralamada standart akülü veya dizel iç mekân sınıfını bu tip zeminlerde talep etmek, sahada makinenin manevra edememesi veya güvenlik riskiyle sonuçlanabilir. Zor zemin koşullarında belirleyici olan, zeminin eğimi, taşıma gücü ve düzensizliği; buna uygun sınıf ise geniş taban lastikli, 4x4 tahrikli, kendinden dengelemeli dizel arazi tipi platformdur. Bu sayfa, zor zemin ve arazi koşullarında ilk kez platform kiralayacak bir işletmenin sorması gereken soruları anlatır.",
+        maddeler: [
+            {
+                baslik: "Zemin eğimi ve taşıma gücü",
+                metin:
+                    "Zeminin eğim derecesi ve taşıma gücü (yumuşak toprak mı, sert zemin mi), makinenin devrilme riskini doğrudan etkiler; her makinenin izin verilen maksimum eğim değeri farklıdır. İlk kiralamada zeminin eğimini (yaklaşık derece veya 'düz-hafif eğimli-dik' gibi bir tarif) ve tipini belirtmeniz, doğru sınıfı ve gerekli ek önlemi netleştirir.",
+            },
+            {
+                baslik: "Geniş taban lastik ve 4x4 tahrik gerekliliği",
+                metin:
+                    "Düzensiz veya yumuşak zeminde standart dar lastikli makine batabilir veya devrilebilir; geniş taban lastikli ve 4x4 tahrikli sınıf yükü daha geniş bir alana yayarak bu riski azaltır. İlk kiralamada zemin tipini belirtmeniz, bu özel şase gerekliliğini netleştirir.",
+            },
+            {
+                baslik: "Hava koşulu ve zemin durumu ilişkisi",
+                metin:
+                    "Aynı saha kuru havada sağlam görünürken yağış sonrası çamurlu ve güvensiz hale gelebilir. İlk kiralamada işin planlandığı mevsimi ve son yağıştan geçen süreyi belirtmeniz, çalışma gününün ve gerekli önlemlerin doğru planlanmasını sağlar; riskli durumlarda işin ertelenmesi önerilebilir.",
+            },
+            {
+                baslik: "Kendinden dengelemeli sistemin rolü",
+                metin:
+                    "Bazı arazi tipi platformlar, her ayağın zemine göre bağımsız yükseklik ayarı yapabildiği kendinden dengelemeli sisteme sahiptir; bu, eğimli veya düzensiz zeminde şase her zaman yatay kalacak şekilde ayarlanmasını sağlar. İlk kiralamada zeminin düzensizlik derecesini belirtmeniz, bu sistemin gerekip gerekmediğini netleştirir.",
+            },
+            {
+                baslik: "Operatör deneyimi arazi koşulunda daha kritik",
+                metin:
+                    "Zor zemin koşullarında makinenin manevra ve dengeleme kararları standart iç mekâna göre daha fazla dikkat gerektirir; ilk kez arazi tipi makine kullanacak bir operatör için teslimat sırasındaki tanıtım özellikle önemlidir. İlk kiralamada operatörünüzün deneyim seviyesini belirtmeniz, gerekirse operatörlü seçeneği önermemizi sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre tipik makine seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilk kiralamada zor zemin ve arazi koşullarında tipik makine seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Risk", "Gerekli özellik", "Tipik sınıf"],
+                    satirlar: [
+                        ["Düz ama hazırlanmamış toprak", "Düşük-orta", "Geniş taban lastik", "Dizel 4x4"],
+                        ["Hafif eğimli arazi", "Devrilme riski", "Kendinden dengeleme", "4x4 dengelemeli"],
+                        ["Yağış sonrası yumuşak zemin", "Batma riski", "Ek önlem veya erteleme", "4x4, koşullu"],
+                        ["İnşaat sahası, molozlu", "Düzensiz yüzey", "Yüksek yer tutuşu", "4x4 teleskopik"],
+                        ["Kırsal, otlu/toprak saha", "Değişken", "Standart arazi lastiği", "Dizel 4x4"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk kiralamada zemin bilgisinin doğru paylaşımı",
+                paragraflar: [
+                    "Zor zemin kiralamalarında en sık yaşanan sorun, zeminin telefonda tarif edilenden daha zorlu çıkmasıdır. İlk kiralamanızda zeminin fotoğrafını (mümkünse farklı açılardan) ve varsa eğim tahminini paylaşmanız, sahada sürpriz yaşanmasını önler.",
+                    "Emin değilseniz, kesin teklif öncesinde kısa bir keşif ziyareti önerilir; bu, özellikle ilk kez arazi tipi makine kiralayacak bir işletme için riski büyük ölçüde azaltır.",
+                ],
+            },
+            {
+                baslik: "Riskli hava koşullarında erteleme kararı",
+                paragraflar: [
+                    "Yağış sonrası veya kuvvetli rüzgârlı günlerde zeminin ya da çalışma koşulunun güvenli olmadığı durumlarda işin ertelenmesi önerilir; bu, hem makinenin hem operatörün güvenliği için standart bir uygulamadır. İlk kiralamanızda esnek bir tarih aralığı belirlemeniz, böyle bir erteleme durumunda alternatif bir gün bulmayı kolaylaştırır.",
+                    "Erteleme kararı keyfi değildir; zemin taşıma gücü ve eğim güvenli sınırın dışına çıktığında verilir ve işletmeyle birlikte alınır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zeminimiz düzensiz, standart dizel platform çalışabilir mi?",
+                cevap:
+                    "Genellikle önermiyoruz; düzensiz zeminde standart dar lastikli makine batma veya devrilme riski taşır. Bunun yerine geniş taban lastikli, 4x4 tahrikli ve mümkünse kendinden dengelemeli arazi tipi sınıf öneririz. İlk kiralamanızda zeminin fotoğrafını paylaşmanız, doğru sınıfı netleştirir.",
+            },
+            {
+                soru: "Eğimli bir arazide makine devrilme riski taşır mı?",
+                cevap:
+                    "Her makinenin izin verilen maksimum eğim değeri farklıdır ve bu değer aşılmadığı sürece güvenli çalışır. İlk kiralamanızda zeminin yaklaşık eğimini belirtmeniz, kendinden dengelemeli bir sınıfın gerekip gerekmediğini netleştirir; emin değilseniz keşif önerilir.",
+            },
+            {
+                soru: "Yağış sonrası zeminde çalışabilir miyiz?",
+                cevap:
+                    "Zeminin durumuna bağlıdır; çamurlu ve yumuşak bir zeminde risk yüksekse işin ertelenmesini öneririz. İlk kiralamanızda son yağıştan geçen süreyi belirtmeniz, çalışma gününün güvenli olup olmadığını netleştirir; can ve makine güvenliği risk varsa önceliklidir.",
+            },
+            {
+                soru: "Kendinden dengelemeli sistem nedir, her makinede var mı?",
+                cevap:
+                    "Her ayağın zemine göre bağımsız yükseklik ayarı yaparak şaseyi yatay tutan bir sistemdir ve yalnızca bazı arazi tipi modellerde bulunur. İlk kiralamanızda zeminin düzensizlik derecesini belirtmeniz, bu sistemin gerekip gerekmediğini netleştirir; standart düz zeminde gerekmez.",
+            },
+            {
+                soru: "İnşaat sahasında molozlu zeminde çalışabilir miyiz?",
+                cevap:
+                    "Mümkündür, ancak yüksek yer tutuşlu 4x4 teleskopik sınıf önerilir ve büyük moloz parçalarının önceden temizlenmesi gerekebilir. İlk kiralamanızda sahanın fotoğrafını paylaşmanız, hem doğru sınıfı hem de gerekli ön hazırlığı netleştirir.",
+            },
+            {
+                soru: "Operatörümüz arazi tipi makineyi ilk kez kullanacak, ne öneriyorsunuz?",
+                cevap:
+                    "Teslimat sırasında yapılan tanıtımda dengeleme sistemi ve arazi koşulundaki manevra kuralları özellikle detaylı anlatılır; ilk kez kullanan bir operatör için bu tanıtıma ek süre ayrılır. Deneyim seviyesi düşükse operatörlü seçeneği de değerlendirilebilir; ilk kiralamanızda bu tercihi birlikte netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Arazi tipi platformların 4x4 tahrik, geniş taban lastik ve kendinden dengeleme özellikleri EN 280 kapsamındaki genel makine sınıfı bilgisidir; zemin ölçüsü ve konum rakamı uydurulmamıştır.",
+    },
 };
