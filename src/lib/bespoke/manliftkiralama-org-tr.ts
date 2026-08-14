@@ -611,4 +611,1093 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Özgün içerik 2026-08-13 tarihinde hazırlandı. Gaziantep Ayakkabıcılar Sanayi Sitesi için yoğun atölye dokusunda manlift kullanımı uygulama belgesindeki çapadır. Belirli sokak, işletme, atölye sayısı, ölçü, kapasite veya rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Gaziantep'te Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Gaziantep'in üretim dokusu iki farklı erişim problemi doğurur: bir yanda GAOSB'nin dokuma salonları, boyahaneleri ve iplik depoları gibi geniş ama tezgah, boru ve raf diziliyle sıklaşmış iç mekanları; diğer yanda Şahinbey ve Şehitkamil'in dar sokaklı çarşı dokusunda araç geçişi kısıtlı imalathaneler ve dükkanlar. Standart tekerlekli makaslı veya bomlu platformun gövde genişliği, dönüş yarıçapı veya kapı yüksekliği bu noktaların bir kısmına yetmez. Örümcek (sepetli tırmanan) platform, paletli veya dar tekerlekli yürüyüş takımı, katlanabilir kolları ve tek kapı genişliğinden geçebilen gövdesiyle tam bu boşluğu doldurur; dar bir dükkan kapısından içeri girip zemin katta açılabilir, ya da dokuma salonunun tezgah sıraları arasında sepet genişliğini aşmadan ilerleyebilir. Makinenin ayak izi hafif olduğu için parke, mermer veya hassas boyalı zeminlerde de standart lastik tekerlekli makinelere göre daha az risk taşır. Bu sayfada örümcek platformun Gaziantep'teki tekstil, gıda ve ticaret dokusunda hangi dar noktalarda tercih edildiğini ve seçim mantığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Dar kapı ve merdiven boşluğundan geçiş",
+                metin:
+                    "Şahinbey ve Şehitkamil'deki eski yapılı dükkan ve imalathanelerin giriş kapıları çoğunlukla standart bir kişi genişliğine yakındır; hatta bazı çarşı dükkanlarında iç mekana ulaşmak için dar bir merdiven boşluğu da aşılması gerekir. Katlanmış hâldeki örümcek platform bu genişliğe sığacak ölçüde daralabilir ve tekerlekleri merdiven basamağı yüksekliğini tolere edecek şekilde ayarlanabilir. İçeri girdikten sonra kollar açılır ve iş normal bir platform gibi ilerler. Standart makaslı platform için bu geçiş neredeyse hiçbir zaman mümkün değildir.",
+            },
+            {
+                baslik: "Boyahane baca dibi ve dar servis koridorları",
+                metin:
+                    "GAOSB'deki boyahanelerde baca ve fan sistemlerine servis koridorundan erişilir; bu koridorlar genellikle boru hatları ve elektrik kablo tavaları ile daralmıştır. Standart gövdeli bir makine bu koridora giremediğinde iş ya iskele kurularak ya da örümcek platformla yapılır. Örümcek platformun kolları, boru hattının üzerinden veya yanından dolanarak baca dibine ulaşabilir; bu esneklik dar servis koridorunda büyük fark yaratır.",
+            },
+            {
+                baslik: "Halı ve tekstil showroomlarında dar teşhir köşeleri",
+                metin:
+                    "Şahinbey'deki halı ve tekstil showroomlarının bazı teşhir köşeleri, raf düzeni veya sütun aralığı nedeniyle standart platformun manevra yapamayacağı kadar dardır. Örümcek platform bu köşelerde tek noktadan içeri girip kollarını hedefe doğru uzatabildiği için ürüne temas riskini de düşürür; gövde ürünlerden uzakta durup yalnızca kol hedefe yaklaşır.",
+            },
+            {
+                baslik: "Tarihi çarşı dokusunda dükkan içi tavan işleri",
+                metin:
+                    "Kapalı çarşı çevresindeki bazı dükkanlarda tavan aydınlatması veya küçük tadilat işi, dükkanın kendisi dar olduğu için zemin alanının büyük kısmını kaplayacak bir makineyle yapılamaz. Örümcek platform, dükkanın bir köşesine sığacak ayak izi ile kurulup diğer köşedeki hedefe kolunu uzatabilir; bu sırada dükkanın geri kalanı kullanılabilir kalır.",
+            },
+            {
+                baslik: "Hassas zeminde hafif ayak izi",
+                metin:
+                    "Showroom, otel lobisi veya yeni döşenmiş parke zeminlerde ağır bir makinenin tekerlek izi bırakma riski vardır. Örümcek platformun ayak destekleri geniş bir alana yayıldığı ve nokta basıncı düşük olduğu için bu tür zeminlerde standart tekerlekli makinelere göre daha güvenli bir seçenektir; yine de hassas zeminlerde ek koruma plakası kullanmayı öneriyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mekan tipine göre örümcek platform avantajı",
+                paragraflar: [
+                    "Gaziantep'te örümcek platformun standart platforma göre öne çıktığı durumları aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Mekan tipi", "Kısıt", "Örümcek avantajı", "Not"],
+                    satirlar: [
+                        ["Dar çarşı dükkanı", "Kapı genişliği", "Katlanarak geçiş", "Merdiven varsa önceden bildirin"],
+                        ["Boyahane koridoru", "Boru-kablo dolu koridor", "Kol hedefe uzanır", "Gövde koridor dışında kalabilir"],
+                        ["Showroom köşesi", "Sütun-raf aralığı", "Ürüne temas etmeme", "Tek noktadan kurulum"],
+                        ["Tarihi doku dükkan", "Küçük zemin alanı", "Köşede kurulum, geri kalan alan açık", "Elektrik gerekebilir"],
+                        ["Hassas zemin (parke/mermer)", "İz bırakma riski", "Hafif ayak izi", "Yine de koruma önerilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapı ve koridor ölçümü keşif aşamasının parçası",
+                paragraflar: [
+                    "Örümcek platform dar alanlara sığsa da sınırsız değildir; katlanmış gövde ölçüsü, ağırlığı ve kol açılım uzunluğu modelden modele değişir. Bu yüzden keşif aşamasında kapı genişliğini, varsa merdiven basamak yüksekliğini ve zemin dayanımını yerinde ölçüyoruz; telefonla verilen tahmini ölçüye göre makine göndermiyoruz, çünkü yanlış tahmin hem müşterinin hem bizim zamanımızı boşa harcar.",
+                    "Bazı çok dar dükkanlarda hiçbir tekerlekli platform sığmaz; bu durumda dürüstçe alternatif öneriyoruz, örneğin taşınabilir merdiven-platform kombinasyonu. Sığmayan bir makineyi zorla sokmaya çalışmak hem yapıya hem makineye zarar verebilir.",
+                ],
+            },
+            {
+                baslik: "Dar alanda operatör güvenliği",
+                paragraflar: [
+                    "Dar mekanlarda çalışmanın kendine özgü riskleri vardır: kolun hareket alanı sınırlı olduğu için çevredeki raf, duvar veya ürüne temas riski artar. Bu yüzden dar alan işlerinde operatör hareketi yavaş ve kontrollü tutulur, gerekiyorsa yerde bir yardımcı kişi kol hareketini izler ve gerektiğinde uyarır.",
+                    "Ayrıca dar alanda acil durdurma ve iniş prosedürünün net olması önemlidir; işe başlamadan önce operatör ve saha sorumlusu bu prosedürü birlikte gözden geçirir. Elektrik hattı yakınında çalışılıyorsa, hattın kesilip kesilmediği ayrıca teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform gerçekten normal bir dükkan kapısından geçebiliyor mu?",
+                cevap:
+                    "Çoğu modelde evet, ama bu kesin bir kural değil; katlanmış hâldeki genişlik ve yükseklik modelden modele değişir. Bu yüzden telefonda kesin bir cevap vermek yerine, kapı genişliğini ve varsa yükseklik kısıtını sizden net ölçüyle istiyoruz, mümkünse fotoğrafla birlikte. Ölçü uyuyorsa makineyi katlı hâlde içeri sokup dükkan içinde açıyoruz. Uymuyorsa, dükkanın büyüklüğüne göre alternatif bir erişim yöntemi öneriyoruz; sığmayan bir makineyi zorlamak hem kapı çerçevesine hem makineye zarar verebileceği için bunu hiç denemiyoruz.",
+            },
+            {
+                soru: "Boyahanenin dar koridorunda çalışırken boru hatlarına zarar verme riski var mı?",
+                cevap:
+                    "Dikkatli planlamayla bu risk düşük, ama sıfır değil, bu yüzden ciddiye alıyoruz. İşe başlamadan önce koridordaki boru ve kablo tavalarının konumunu birlikte gözden geçiriyoruz, kolun hareket yolunu bu engellerden uzak tutacak şekilde planlıyoruz. Kolun hareket hızı dar alanlarda düşük tutulur ve mümkünse yerde bir yardımcı kişi hareketi izler. Isıtmalı veya basınçlı hatlara yakın çalışılıyorsa, tesisin kendi teknik ekibinden hattın durumu hakkında bilgi alıyoruz. Zarar riski taşıyan bir nokta varsa işi orada durdurup alternatif bir yaklaşım açısı arıyoruz.",
+            },
+            {
+                soru: "Showroomdaki ürünlere yakın çalışırken hasar olursa ne oluyor?",
+                cevap:
+                    "Bu ihtimali azaltmak için önce çalışma alanındaki ürünleri birlikte kayıt altına alıyoruz, sonra kolun hareket güzergahını ürünlerden güvenli mesafede tutuyoruz. Örümcek platformun avantajı, gövdenin ürünlerden uzakta sabit kalıp yalnızca ince kolun hedefe yaklaşmasıdır, bu da temas riskini standart platforma göre azaltır. Buna rağmen bir hasar oluşursa, saklamak yerine anında bildirip sorumluluk sürecini birlikte yürütüyoruz; bu koşullar teklif aşamasında konuşuluyor.",
+            },
+            {
+                soru: "Örümcek platform için elektrik veya özel bir güç kaynağı gerekiyor mu?",
+                cevap:
+                    "Çoğu model akülü olduğu için bağımsız çalışır ve dükkan içinde ayrı bir elektrik hattına ihtiyaç duymaz; bu da iç mekan işlerinde önemli bir avantajdır çünkü egzoz emisyonu da yoktur. Akü kapasitesi işin süresine göre planlanır; uzun süren işlerde şarj için bir prizin erişilebilir olması istenir. Bazı büyük modellerde şarj kablosunun uzunluğu sınırlı olabileceğinden, en yakın prizin konumunu keşifte kontrol ediyoruz.",
+            },
+            {
+                soru: "Dar sokaklarda hiçbir makine sığmazsa ne yapıyorsunuz?",
+                cevap:
+                    "Bu durumda dürüstçe söylüyoruz: bazı çok dar tarihi doku sokaklarında ne örümcek ne de başka bir tekerlekli platform giremiyor. Böyle bir durumda ya taşınabilir merdiven-platform kombinasyonu öneriyoruz ya da işin büyüklüğüne göre farklı bir erişim yöntemine yönlendiriyoruz. Sığmayacağı belli olan bir makineyi göndermek hem sizin hem bizim zamanımızı boşa harcar; bu yüzden şüpheli durumlarda önce telefonla veya fotoğrafla ön değerlendirme yapıyoruz.",
+            },
+            {
+                soru: "Örümcek platform normal makaslı platforma göre daha mı yavaş çalışır?",
+                cevap:
+                    "Kurulum ve dar alan manevrası biraz daha zaman alabilir, çünkü katlanmış hâlden açılıp konumlanma süreci standart platforma göre bir adım fazladır. Ancak asıl kazanç, hiç erişilemeyecek bir noktaya erişebilmesidir; alternatifi iskele kurmak olan bir iş için örümcek platform çoğu zaman toplamda daha hızlı ve ucuzdur. Basit ve geniş alanlı bir iş için ise standart makaslı platform hem daha hızlı hem daha ekonomiktir; hangi işin hangi makineye uygun olduğunu keşifte birlikte belirliyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in GAOSB dokuma-boyahane dokusu ve Şahinbey-Şehitkamil'in tarihi çarşı dokusu daha önceki bölge sayfalarında da işlenen, kamuya açık coğrafi/sektörel bilgidir. Örümcek platformun teknik geçiş mantığı genel ekipman bilgisidir; dar alan senaryoları sahadaki tekrarlı iş türlerinden çıkarılmıştır, belirli dükkan veya tesis adı verilmez.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Gaziantep'te Manlift Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Gaziantep'te manlift nakliyesini sıradan bir şehir içi teslimattan ayıran şey, GAOSB'nin tek bir kapıdan girilen kompakt bir alan olmayıp, farklı dönemlerde kurulmuş ve genişlemiş, birbirine yakın ama ayrı bölgelerden oluşan geniş bir sanayi ağı olmasıdır. Bir makinenin bir bölgeden diğerine taşınması, kentin merkezinde birkaç kilometre gitmekten daha uzun sürebilir, çünkü OSB içi trafik, TIR ve konteyner yoğunluğu ile kesişir. Buna ek olarak Nizip gibi merkeze belirli bir mesafedeki ilçelerde tek kalemlik bir iş için makine göndermek, nakliye maliyetini orantısız büyütür; bu yüzden nakliye planlamamız yalnızca aracın yola çıkması değil, hangi işlerin aynı sefere sığdırılabileceğinin hesaplanmasıdır. Şehir merkezindeki showroom ve ticaret alanlarında ise teslimat, gündüz trafiğinden çok dar sokak ve yükleme rampası erişimiyle ilgilidir. Bu sayfada nakliye ve teslimat sürecimizi, GAOSB'nin çok bölgeli yapısından tarihi çarşının dar sokaklarına kadar Gaziantep'e özgü koşullarla anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "GAOSB'nin çok bölgeli yapısında güzergah planlama",
+                metin:
+                    "GAOSB birden fazla ayrı bölgeden oluştuğu için, bir günde birden fazla tesise teslimat yapılacaksa bölgeler arası geçiş süresi güzergahın ana belirleyicisidir. Aynı bölgedeki teslimatları art arda sıralıyor, bölge değişimini günün en az sayıda yapılacağı şekilde kuruyoruz. Müşteriden gelen çağrılarda hangi bölgede olduklarının net belirtilmesi, teslimat saatinin gerçekçiliğini doğrudan etkiler.",
+            },
+            {
+                baslik: "Nizip gibi merkeze uzak ilçelerde iş birleştirme",
+                metin:
+                    "Merkeze belirli bir mesafedeki ilçelerde tek kalemlik kısa bir iş için makine göndermek nakliye maliyetini orantısız büyütür. Bu yüzden bu tür ilçelerdeki müşterilerimize mümkünse birden fazla iş kalemini aynı haftaya toplamalarını öneriyoruz; aynı OSB içindeki komşu işletmelerin taleplerini birleştirmek de nakliye bedelini paylaştırarak düşürür.",
+            },
+            {
+                baslik: "Dar sokaklı çarşı ve tarihi dokuda teslimat",
+                metin:
+                    "Şahinbey ve Şehitkamil'in tarihi çarşı çevresinde araç geçişi sınırlı sokaklarda standart boy taşıyıcı araç giremeyebilir. Bu durumda makine sokağın girebildiği en yakın açık noktaya bırakılır ve oradan kısa mesafeli manevra ile hedefe ulaştırılır. Teslimat saati, çarşı esnafının en az etkileneceği sabah erken veya düşük trafik dilimine planlanır.",
+            },
+            {
+                baslik: "Sevkiyat rampalarında yükleme-boşaltma koordinasyonu",
+                metin:
+                    "Gaziantep'in ihracat ağırlıklı üretim yapısı nedeniyle birçok tesisin sevkiyat rampası TIR ve konteyner trafiğiyle sürekli işler. Manlift teslimatı bu rampalardan yapılacaksa, tesisin kendi sevkiyat programının sakin olduğu bir zaman dilimine yerleştirilir; rampa yakınında çalışırken forklift ve TIR operatörleriyle konum bilgisi paylaşılır.",
+            },
+            {
+                baslik: "Acil çağrı ve planlı teslimat farkı",
+                metin:
+                    "Planlı bir teslimat, güzergah ve zaman penceresi önceden netleştiği için en verimli şeklidir. Acil bir arıza veya beklenmedik ihtiyaç durumunda ise makine mevcut güzergahtan bağımsız olarak en kısa sürede yönlendirilir; ancak bu tür acil teslimatların maliyeti, önceden planlanmış bir teslimattan doğal olarak daha yüksek olur, çünkü güzergah optimizasyonu devre dışı kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölgeye göre teslimat özellikleri",
+                paragraflar: [
+                    "Gaziantep'in farklı bölgelerinde teslimat sürecini etkileyen ana faktörleri aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge/alan tipi", "Ana kısıt", "Planlama önceliği", "Not"],
+                    satirlar: [
+                        ["GAOSB (çoklu bölge)", "Bölgeler arası geçiş süresi", "Aynı bölge işlerini birleştirme", "Bölge bilgisi net verilmeli"],
+                        ["Nizip / uzak ilçe", "Mesafe-nakliye maliyeti", "Haftalık iş birleştirme", "Komşu işletmeyle paylaşım"],
+                        ["Tarihi çarşı (Şahinbey/Şehitkamil)", "Dar sokak erişimi", "En yakın açık noktadan manevra", "Düşük trafik saati"],
+                        ["Sevkiyat rampası", "TIR-konteyner trafiği", "Sevkiyat programına uyum", "Forklift ile koordinasyon"],
+                        ["Acil çağrı", "Güzergah dışı yönlendirme", "En kısa sürede müdahale", "Standart teslimden daha maliyetli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teslimat öncesi bilgi akışı",
+                paragraflar: [
+                    "Teslimat gününün sorunsuz geçmesi, büyük ölçüde teslimat öncesi paylaşılan bilginin doğruluğuna bağlıdır. Adres, bölge, giriş noktası, varsa özel araç geçiş kısıtı ve teslim alacak kişinin iletişim bilgisi, sevkiyat planlanmadan önce netleştirilir. Eksik veya belirsiz bilgi, sahada beklenmedik gecikmelere yol açar ve bu gecikme diğer teslimatları da etkileyebilir.",
+                    "GAOSB gibi geniş ve çok bölgeli alanlarda özellikle bölge ve blok bilgisinin net olması önemlidir; yalnızca 'GAOSB' demek, aracın hangi bölgeye yöneleceğini belirlemek için yeterli değildir. Bu bilgiyi teklif aşamasında netleştirmeyi standart hale getirdik.",
+                ],
+            },
+            {
+                baslik: "Geri alma (makinenin sahadan çıkarılması) süreci",
+                paragraflar: [
+                    "Kiralama süresi bitiminde makinenin sahadan alınması da aynı güzergah mantığıyla planlanır; mümkünse aynı bölgedeki başka bir teslimat veya geri alma işiyle birleştirilir. Bu, hem maliyeti düşürür hem araç trafiğini azaltır.",
+                    "Geri alma öncesinde makinenin çalışma alanı boşaltılır ve varsa hasar birlikte kontrol edilir; bu kontrol, sonradan çıkabilecek anlaşmazlıkları önler. Geri alma saati de teslimat gibi tesisin kendi trafik yoğunluğuna göre planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "GAOSB'de birden fazla bölgede işimiz var, tek seferde teslimat yapabilir misiniz?",
+                cevap:
+                    "Genellikle evet, ama bölgeler arası mesafeye göre planlama gerekiyor. GAOSB birden fazla ayrı bölgeden oluştuğu için bir bölgeden diğerine geçiş, sahada birkaç iş kalemi bitirmekten daha uzun sürebiliyor. Bu yüzden aynı gün birden fazla bölgeye teslimat istediğinizde, hangi bölgelerde ne olduğunu önceden bildirmenizi istiyoruz; buna göre en az geçişle tamamlayacak sırayı kuruyoruz. Bazı durumlarda iki bölgeyi aynı günde bitirmek yerine ardışık iki güne yaymak hem daha gerçekçi hem daha ucuza geliyor, bunu teklif aşamasında açıkça öneriyoruz.",
+            },
+            {
+                soru: "Nizip'e tek bir makine için gönderim yapıyor musunuz?",
+                cevap:
+                    "Yapıyoruz, ama dürüst olmak gerekirse tek kalemlik bir iş için nakliye maliyeti orantısız çıkabiliyor, çünkü mesafe merkeze göre daha uzun. Bu yüzden Nizip'teki müşterilerimize mümkünse birden fazla iş kalemini aynı haftaya toplamalarını, hatta OSB içindeki komşu işletmelerle aynı güne denk gelen bir randevu ayarlamalarını öneriyoruz; bu şekilde nakliye bedeli paylaşılabiliyor. Tek seferlik acil bir ihtiyaç varsa elbette gönderiyoruz, sadece maliyet farkını teklif aşamasında açıkça belirtiyoruz.",
+            },
+            {
+                soru: "Tarihi çarşıya makine sokamıyorsanız teslimatı nasıl yapıyorsunuz?",
+                cevap:
+                    "Sokağın gerçek genişliğine göre değişiyor; bazı ana geçitlere taşıyıcı araç girebiliyor, en dar ara sokaklara ise hiçbir araç sığmıyor. Bu durumda makineyi sokağın girebildiği en yakın açık noktaya bırakıp oradan kısa mesafeli manevrayla hedefe ulaştırıyoruz. Sokağın gerçek ölçüsünü ve varsa araç kısıtlamalarını keşifte yerinde ölçüyoruz; uzaktan fotoğraftan karar vermiyoruz çünkü tarihi dokuda ölçüler yanıltıcı olabiliyor.",
+            },
+            {
+                soru: "Sevkiyat rampası TIR trafiğiyle doluysa teslimatı nasıl planlıyorsunuz?",
+                cevap:
+                    "Rampa çevresi konteyner ve TIR hareketiyle sürekli hareketli bir alan olduğu için, teslimatı sevkiyat programının sakinleştiği bir saat dilimine yerleştiriyoruz; örneğin sevkiyatın henüz başlamadığı sabah erken saat ya da günün son sevkiyatından sonraki dilim. Rampa yakınında çalışırken görünürlüğü artıran koni ve şerit kullanıyor, forklift ve TIR operatörleriyle konum bilgisini paylaşıyoruz. Sevkiyat programınızı önceden verirseniz, teslimatı o programa hiç dokunmadan en uygun aralığa yerleştirebiliyoruz.",
+            },
+            {
+                soru: "Acil bir arıza çıktı, aynı gün makine gönderebilir misiniz?",
+                cevap:
+                    "Çoğu durumda evet, ama bu bir garanti değil; o anki filo müsaitliği ve güzergah durumu belirleyici. Acil çağrılarda mevcut planlı güzergahtan bağımsız olarak en kısa sürede yönlendirme yapıyoruz, ancak bu tür acil teslimatların maliyeti planlı teslimattan daha yüksek oluyor çünkü güzergah optimizasyonu devre dışı kalıyor. Acil ihtiyacınızı bize telefonla bildirdiğinizde önce filo durumunu kontrol edip gerçekçi bir süre veriyoruz; boş vaat vermiyoruz.",
+            },
+            {
+                soru: "Makineyi geri almak için ayrıca ücret alıyor musunuz?",
+                cevap:
+                    "Geri alma, standart kiralama paketinin bir parçası ve ayrı bir sürpriz ücret değil; nakliye bedeli genellikle teslimat ve geri almayı birlikte kapsar. Geri alma tarihini, kiralama süresi netleştiğinde birlikte planlıyoruz; mümkünse aynı bölgedeki başka bir işle birleştirerek güzergahı optimize ediyoruz. Geri alma öncesinde çalışma alanının boşaltılmış olması ve varsa hasarın birlikte kontrol edilmesi bekleniyor; bu, sonradan çıkabilecek anlaşmazlıkları önlüyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. GAOSB'nin çok bölgeli yapısı ve Gaziantep'in ihracat ağırlıklı sevkiyat trafiği kamuya açık genel bilgidir. Güzergah ve maliyet birleştirme anlatımı sahadaki tekrarlı nakliye pratiğinden çıkarılmıştır; belirli tesis veya güzergah adı verilmez.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Gaziantep'te Forklift ve İstifleme Kiralama",
+        giris:
+            "Gaziantep'te forklift ihtiyacı, manlift talebiyle aynı iki üretim kolundan besleniyor: GAOSB'deki halı ve dokuma tesislerinde iplik bobini ile halı rulolarının istiflenmesi, Şehitkamil ve Nizip'teki gıda tesislerinde un-bulgur çuvalları, baharat kolileri ve kuruyemiş paketlerinin palet üstü taşınması. Bu iki üretim türü, forklifte farklı beklentiler yükler: dokuma tesislerinde bobin ve rulo gibi uzun, hacimli ama görece hafif yükler söz konusuyken, gıda depolarında standart palet yükseklikleri ve gıda güvenliği kuralları öne çıkar. Kapalı hollerde çalışan forkliftlerde egzoz emisyonu önemli bir kısıt olduğu için elektrikli modeller tercih edilir; açık sahada ve sevkiyat rampasında ise dizel modellerin gücü daha pratik olur. Bu sayfada forklift ve istifleme hizmetimizi, Gaziantep'in bu iki üretim koluna özgü yük tipleri ve saha koşullarıyla anlatıyoruz; manlift ile forklift kombinasyonunun aynı ziyarette birlikte planlandığı durumlara da değiniyoruz.",
+        maddeler: [
+            {
+                baslik: "Dokuma salonlarında iplik bobini ve halı rulosu istifleme",
+                metin:
+                    "İplik bobinleri ve dokunmuş halı ruloları, standart paletten farklı bir geometriye sahiptir; uzun ve silindirik yükler forklift çatalının doğru konumlanmasını gerektirir. Bobin depolarındaki yüksek raflarda istifleme, rafın taşıma kapasitesi ve koridor genişliğine göre planlanır; koridor dar olduğunda standart forklift yerine dar koridor sınıfı tercih edilir.",
+            },
+            {
+                baslik: "Gıda depolarında palet yüksekliği ve hijyen kuralları",
+                metin:
+                    "Un, bulgur ve kuruyemiş depolarında palet istifleme, tesisin kendi hijyen prosedürüne tabidir; forklift gövdesinin temizliği ve yağlama noktalarının sızıntı riski, gıda alanına girmeden önce kontrol edilir. Palet yükseklikleri tesisten tesise değişir, bu yüzden raf kapasitesi ve istifleme yüksekliği keşifte netleştirilir.",
+            },
+            {
+                baslik: "Kapalı hollerde elektrikli, açık sahada dizel tercih",
+                metin:
+                    "Dokuma salonu veya gıda üretim holü gibi kapalı alanlarda egzoz emisyonu kabul edilemez olduğu için elektrikli forklift zorunludur. Sevkiyat rampası, açık depolama sahası veya OSB içi kısa mesafe taşımada ise dizel modellerin gücü ve çalışma süresi avantaj sağlar. Hangi modelin uygun olduğu, çalışma alanının kapalı-açık niteliğine göre belirlenir.",
+            },
+            {
+                baslik: "Sevkiyat rampasında yükleme-boşaltma hızı",
+                metin:
+                    "İhracata yönelik üretim yapan tesislerde sevkiyat rampasında forklift trafiği yoğun ve süreklidir; konteyner yükleme temposuna uyum sağlayacak kapasite ve manevra hızı önemlidir. Bu tür işlerde forklift operatörünün rampa trafiğine hakim olması, gecikmesiz bir sevkiyat için belirleyicidir.",
+            },
+            {
+                baslik: "Manlift ile birlikte planlanan işler",
+                metin:
+                    "Bazı işlerde forklift ve manlift aynı ziyarette birlikte kullanılır; örneğin bir raf sistemi kurulumunda alt seviyedeki paletleme forkliftle, üst seviyedeki montaj ise manliftle yapılır. Bu tür kombine işlerde iki ekipmanın aynı sahada güvenli mesafede çalışması için trafik planı önceden çıkarılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Üretim koluna göre forklift seçimi",
+                paragraflar: [
+                    "Gaziantep'teki iki ana üretim kolunda sık çıkan forklift ihtiyaçlarını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Üretim kolu", "Tipik yük", "Uygun sınıf", "Ortam notu"],
+                    satirlar: [
+                        ["Dokuma-iplik", "Bobin, halı rulosu", "Dar koridor elektrikli", "Rafta hassas manevra"],
+                        ["Gıda deposu", "Çuval, koli palet", "Standart elektrikli", "Hijyen kontrolü"],
+                        ["Sevkiyat rampası", "Konteyner yükü", "Dizel, yüksek kapasite", "Trafik yoğun"],
+                        ["Açık saha depolama", "Karışık palet", "Dizel", "Zemin stabilize/beton"],
+                        ["Kombine iş (manlift+forklift)", "Raf montajı", "İkisi birlikte", "Trafik planı gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör yeterliliği ve güvenlik",
+                paragraflar: [
+                    "Forklift operatörlüğü, geçerli bir sertifika ve düzenli uygulama gerektiren bir iştir; özellikle dar koridorlu bobin depolarında veya yüksek raf istiflemesinde deneyimsiz bir operatör hem yükü hem rafı riske atabilir. Operatörlü kiralamada bu yeterlilik teslim öncesi doğrulanır.",
+                    "Gıda tesislerinde ayrıca forklift operatörünün tesisin kendi hijyen ve güvenlik kurallarına uyması istenir; bazı tesisler ek bir güvenlik oryantasyonu talep eder, bunu keşif aşamasında öğrenip önceden hazırlıyoruz.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli ve uzun süreli kiralama farkı",
+                paragraflar: [
+                    "Tek seferlik bir sevkiyat yoğunluğu için kısa süreli forklift kiralama yeterliyken, sürekli üretim yapan bir depoda uzun süreli kiralama hem maliyet hem bakım açısından daha avantajlı olabilir. Uzun süreli kiralamalarda periyodik bakım planı da kiralama paketine dahil edilir.",
+                    "Hangi süre modelinin uygun olduğu, tesisin günlük forklift kullanım yoğunluğuna göre belirlenir; nadiren kullanılan bir tesiste uzun süreli kiralamayı önermiyoruz, çünkü boşta duran makine gereksiz maliyet demektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İplik bobini deposunda dar koridorda forklift çalışabilir mi?",
+                cevap:
+                    "Koridor genişliğine göre değişir, bu yüzden koridor ölçüsünü keşifte netleştiriyoruz. Standart forklift dar koridorlara sığmadığında dar koridor sınıfı elektrikli modeller kullanılır; bu modeller daha kompakt dönüş yarıçapına sahiptir. Bobin sarımına zarar vermemek için çatal hareketi yavaş ve kontrollü tutulur, gerekiyorsa yerde bir yardımcı kişi manevrayı izler. Koridor genişliği depo düzeni değiştikçe değişebileceği için her ziyarette güncel ölçüm alınır.",
+            },
+            {
+                soru: "Gıda deposuna giren forklift için özel bir hazırlık yapıyor musunuz?",
+                cevap:
+                    "Evet, standart hazırlığımız üç adımdan oluşur: önce forkliftin gövdesi ve tekerlekleri detaylı temizlenir, sonra yağlama noktaları ve sızıntı riski taşıyan bağlantılar kontrol edilir, son olarak tesisin kendi hijyen kuralları varsa önceden öğrenip uyguluyoruz. Bazı tesisler ek olarak koruyucu galoş veya özel giriş prosedürü istiyor, bunu keşif aşamasında sorup önceden hazırlıyoruz ki teslim günü beklenmesin.",
+            },
+            {
+                soru: "Kapalı dokuma salonunda dizel forklift kullanabilir miyiz?",
+                cevap:
+                    "Önermiyoruz. Kapalı bir salonda dizel motorun egzoz emisyonu hem çalışan sağlığı hem iplik ve kumaş gibi hassas ürünler için kabul edilemez bir risk taşır. Bu tür kapalı alan işlerinde elektrikli forklift zorunlu tutuyoruz; akü kapasitesi işin süresine göre planlanır ve şarj noktasının erişilebilir olması teslim öncesi kontrol edilir. Açık saha veya iyi havalandırılan geniş hollerde dizel seçenek değerlendirilebilir, ama bunu da saha koşuluna göre birlikte karar veriyoruz.",
+            },
+            {
+                soru: "Manlift ve forklifti aynı sahada aynı anda çalıştırabilir misiniz?",
+                cevap:
+                    "Evet, ama bunun için önceden bir trafik planı çıkarıyoruz. İki ekipmanın hareket alanları çakışmayacak şekilde ayrılır; forklift alt seviyede palet taşırken manlift üst seviyede farklı bir noktada çalışır. Aynı koridoru aynı anda kullanmaları gerekiyorsa, işler sıraya konur ve biri tamamlanmadan diğeri başlamaz. Operatörler arası iletişim, özellikle görüş açısının sınırlı olduğu raf aralarında önemlidir; bu yüzden gerekiyorsa telsizle koordinasyon sağlanır.",
+            },
+            {
+                soru: "Sevkiyat rampasında forklift bekleme süresi olmadan çalışabilir mi?",
+                cevap:
+                    "Genellikle evet, ama rampa trafiğinin yoğunluğuna bağlı. İhracata yönelik tesislerde konteyner yükleme temposu yüksek olduğu için forklift operatörünün rampa düzenine hakim olması gerekir; bu yüzden mümkünse aynı forklift operatörünü birden fazla ziyarette kullanmayı tercih ediyoruz, çünkü tesisin kendine özgü sevkiyat düzenini öğrenmiş oluyor. Yoğun saatlerde bekleme kaçınılmaz olabilir, bunu teklif aşamasında gerçekçi şekilde belirtiyoruz.",
+            },
+            {
+                soru: "Kısa süreli mi yoksa aylık kiralama mı daha uygun, nasıl karar veriyorsunuz?",
+                cevap:
+                    "Bu, tesisin günlük forklift kullanım yoğunluğuna bağlı bir karar; tek seferlik yoğun bir sevkiyat için kısa süreli kiralama yeterli olurken, sürekli üretim yapan bir depoda aylık kiralama hem maliyet hem bakım planlaması açısından daha avantajlı çıkabiliyor. Karar vermeden önce tahmini kullanım sıklığınızı soruyoruz ve iki seçeneğin maliyetini karşılaştırmalı şekilde sunuyoruz; nadiren kullanılacak bir tesiste uzun süreli kiralamayı önermiyoruz çünkü bu sizin için gereksiz maliyet demek.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in halı-dokuma ve gıda sanayisi ağırlığı kamuya açık genel bilgidir. Forklift sınıfı ve saha uygulaması genel ekipman bilgisine dayanır; hijyen ve koridor anlatımı sahadaki tekrarlı deneyimden çıkarılmıştır, tesis adı verilmez.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Gaziantep'te Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platformun asıl değeri, düz bir yükselme değil hedefin etrafından dolanarak erişebilmesidir; bu da onu Gaziantep'in engebeli erişim noktalarında öne çıkarır. GAOSB'deki boyahane bacaları genellikle çatı hattının gerisinde, doğrudan altından yaklaşılamayacak bir konumdadır; dokuma salonlarının yüksek tavanındaki emiş kanalları da tezgah sıralarının üzerinden dolanarak ulaşılması gereken hatlardır. Nizip'teki zeytinyağı tank grupları ve tarım depolarının silo üstü kapakları ise hem yükseklik hem de tank gövdesinin etrafından dolanma gerektiren bir geometri sunar. Makaslı platform yalnızca düz yukarı çıkabildiği için bu tür engelli erişimlerde yetersiz kalırken, eklemli bomun kollarını bükerek hedefe yandan veya üstten yaklaşması mümkündür. Bu sayfada eklemli platformun Gaziantep'teki hangi engebeli erişim senaryolarında tercih edildiğini ve dizel-akülü seçim mantığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Boyahane bacasına çatı hattının gerisinden erişim",
+                metin:
+                    "Boyahane bacaları genellikle çatının kenarına yakın ama doğrudan altından erişilemeyecek bir konumda kurulur; bacanın önünde başka ekipman veya boru hattı olabilir. Eklemli platform, gövdeyi güvenli bir noktaya konumlandırıp kolu bacanın etrafından dolandırarak hedefe ulaşabilir; bu esneklik makaslı platformda mümkün değildir.",
+            },
+            {
+                baslik: "Dokuma salonu tavanındaki emiş kanalı hatları",
+                metin:
+                    "Emiş kanalları genellikle tezgah sıralarının üzerinden geçer ve doğrudan altına platform kurmak, çalışan tezgahın titreşim alanına girmek anlamına gelebilir. Eklemli platform, tezgah aralığındaki güvenli bir noktadan kolunu kanala doğru uzatarak titreşim alanına girmeden işi tamamlayabilir.",
+            },
+            {
+                baslik: "Zeytinyağı tank grubu çevresinde erişim",
+                metin:
+                    "Nizip'teki zeytinyağı işleme tesislerinde tank grupları sık aralıklarla dizilir ve tek bir tankın üstüne erişmek için komşu tankların etrafından dolanmak gerekebilir. Eklemli bomun kolu, tank gövdelerine temas etmeden hedef tanka yandan yaklaşabilir; bu, düz yükselen bir makinenin başaramayacağı bir manevradır.",
+            },
+            {
+                baslik: "Sanayi holü çelik konstrüksiyon çatı altı",
+                metin:
+                    "GAOSB'deki yeni yapılan sanayi hollerinde çatı kirişleri ve aydınlatma rayları arasında dar geçişler olabilir. Eklemli platform bu geçişlerde kolunu kirişler arasından geçirerek hedefe ulaşabilir; gövde ise kirişlerden uzak, güvenli bir noktada kalır.",
+            },
+            {
+                baslik: "Dizel ve akülü seçim: kapalı-açık alan ayrımı",
+                metin:
+                    "Kapalı dokuma salonu veya boyahane içinde egzoz emisyonu kabul edilemez olduğu için akülü eklemli platform tercih edilir. Açık sahada, örneğin OSB dışı zeytinyağı tesisinin açık tank sahasında, dizel modelin daha uzun çalışma süresi ve gücü avantaj sağlar. Hangi güç tipinin uygun olduğu, çalışma alanının kapalı-açık niteliğine göre belirlenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Engelli erişim senaryolarına göre boom tercihi",
+                paragraflar: [
+                    "Gaziantep'teki tipik engelli erişim senaryolarını ve boom platformun bu senaryolardaki rolünü aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Engel türü", "Boom avantajı", "Güç tipi"],
+                    satirlar: [
+                        ["Boyahane bacası", "Çatı hattı gerisi", "Kol dolanarak erişim", "Akülü (kapalı alan)"],
+                        ["Dokuma tavanı", "Tezgah üstü titreşim alanı", "Yandan güvenli yaklaşım", "Akülü"],
+                        ["Zeytinyağı tank grubu", "Komşu tank engeli", "Kol tank etrafından dolanır", "Dizel (açık saha)"],
+                        ["Sanayi holü çatısı", "Kiriş arası dar geçiş", "Kol kirişler arasından geçer", "Akülü"],
+                        ["OSB dış saha", "Yükseklik + mesafe", "Uzun erişim kapasitesi", "Dizel"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kol hareketi ve komşu ekipman güvenliği",
+                paragraflar: [
+                    "Eklemli platformun kolu, düz yükselen bir makineye göre daha geniş bir hareket zarfına sahiptir; bu esneklik aynı zamanda çevredeki boru, kablo tavası veya komşu ekipmana temas riskini de artırabilir. Bu yüzden dar ve engelli alanlarda kol hareketi yavaş ve kontrollü tutulur, operatör hedefe yaklaşırken adım adım ilerler.",
+                    "Keşif aşamasında hedefin etrafındaki tüm engelleri (boru, kablo, komşu ekipman, tavan yüksekliği) fotoğraf ve ölçüyle netleştiriyoruz; bu bilgi, doğru kol uzunluğuna sahip modeli seçmemizi sağlıyor.",
+                ],
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi ve stabilizasyon",
+                paragraflar: [
+                    "Eklemli bomlu platformlar, özellikle uzun erişimli modellerde, dengelenmek için ayak (outrigger) kullanabilir ve bu ayakların bastığı zeminin taşıma kapasitesi kontrol edilmelidir. Nizip'teki açık tank sahalarında zemin stabilize veya toprak olabileceğinden, ayak altına yük dağıtım plakası konur.",
+                    "GAOSB'deki beton zeminli hollerde bu risk daha düşüktür, ama yeni dökülmüş veya hasarlı beton bölgelerde yine de kontrol yapılır. Zemin durumu şüpheliyse iş başlamadan önce netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform ile makaslı platform arasında nasıl seçim yapıyorsunuz?",
+                cevap:
+                    "Karar, hedefin doğrudan altına erişilip erişilemeyeceğine bağlı. Hedefin altı boşsa ve düz yükselme yeterliyse makaslı platform hem daha ekonomik hem daha hızlı kurulur. Ancak hedefin önünde boru, komşu ekipman, tank veya çatı kirişi gibi bir engel varsa ve hedefe yandan veya üstten dolanarak yaklaşmak gerekiyorsa eklemli platform tek çözümdür. Keşifte hedefin fotoğrafını ve engellerin konumunu görerek bu kararı birlikte veriyoruz; yanlış sınıf seçimi sahada zaman kaybına yol açar.",
+            },
+            {
+                soru: "Boyahane bacasına erişirken kol sıcak yüzeye çok mu yaklaşıyor?",
+                cevap:
+                    "Bu, kolun hareket güzergahını planlarken özellikle dikkat ettiğimiz bir nokta. Sıcak baca yüzeyine güvenli mesafe bırakılır ve mümkünse iş, bacanın soğuduğu üretim molası veya duruş aralığına planlanır. Zorunlu hâllerde operatör için ısıya dayanıklı koruyucu ekipman kullanılır ve çalışma süresi kısaltılır. Kolun sıcak yüzeye temas etme riski varsa iş başlamadan önce bu riski müşteriyle birlikte değerlendiriyoruz.",
+            },
+            {
+                soru: "Tank grupları arasında dar geçişte platform tanklara zarar verir mi?",
+                cevap:
+                    "Dikkatli planlamayla bu risk düşük tutulabilir. Gövdeyi tanklardan güvenli mesafede konumlandırıp, yalnızca kolu tank etrafından dolandırarak hedefe yaklaşıyoruz. Kol hareketi bu tür dar geçişlerde yavaş tutulur, gerekiyorsa yerde bir yardımcı kişi mesafeyi izler. Tank grubunun düzeni sıkışıksa, keşifte gerçek ölçüyü almadan makine göndermiyoruz; ölçü uymuyorsa alternatif bir yaklaşım açısı arıyoruz.",
+            },
+            {
+                soru: "Kapalı sanayi holünde dizel eklemli platform kullanabilir miyiz?",
+                cevap:
+                    "Önermiyoruz. Kapalı bir holde dizel motorun egzoz emisyonu hem çalışan sağlığı hem üretimdeki hassas malzemeler için risk taşır. Bu tür kapalı alan işlerinde akülü eklemli modeller kullanılır; akü kapasitesi işin süresine ve kol hareketinin yoğunluğuna göre planlanır. Açık sahada veya iyi havalandırılan geniş hollerde dizel seçenek değerlendirilebilir, bunu saha koşuluna göre birlikte karar veriyoruz.",
+            },
+            {
+                soru: "Eklemli platformun ayakları (outrigger) her zeminde açılabilir mi?",
+                cevap:
+                    "Hayır, zeminin taşıma kapasitesine bağlı. Beton veya sıkıştırılmış zeminlerde genellikle sorun olmazken, stabilize toprak veya yumuşak zeminlerde ayak altına yük dağıtım plakası koymak gerekir. Yağışlı bir dönemin ardından açık sahalarda zemin daha da yumuşayabileceği için, şüpheli durumlarda iş başlamadan önce zemin kontrolü yapıyoruz. Zemin yeterince sağlam değilse ayakların tam açılamayacağı, dolayısıyla erişim menzilinin daralabileceği durumu da önceden bildiriyoruz.",
+            },
+            {
+                soru: "Çatı kirişleri arasında çalışırken kirişe çarpma riski nasıl önleniyor?",
+                cevap:
+                    "Keşif aşamasında kiriş aralığını ve tavan yüksekliğini net ölçüyle alıyoruz; bu ölçüye göre kol uzunluğu ve gövde genişliği uygun modeli seçiyoruz. Sahada çalışırken kol hareketi kirişlere yaklaşırken yavaşlatılır ve mümkünse yerde bir yardımcı kişi görüş açısını destekler. Kiriş aralığı modelin geçemeyeceği kadar darsa, bunu dürüstçe belirtip alternatif bir erişim yöntemi öneriyoruz; riski göze alıp zorlama yapmıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in dokuma-boyahane ve Nizip'in zeytinyağı-tarım sanayisi daha önceki bölge sayfalarında da işlenen kamuya açık bilgidir. Eklemli platformun teknik erişim mantığı genel ekipman bilgisidir; engel senaryoları sahadaki tekrarlı iş türlerinden çıkarılmıştır, tesis adı verilmez.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Gaziantep'te Tekstil Fabrikası İç Mekan ve Depo İçi Platform Kiralama",
+        giris:
+            "Gaziantep'in üretim kimliğinin merkezinde halı ve makine halısı imalatı olduğu için, şehirdeki iç mekan platform talebinin en büyük payı GAOSB'deki dokuma salonları, iplik depoları ve boyahanelerden gelir. Bu tesislerin iç mekanı, tipik bir depo veya ofis binasından farklı bir mantıkla kurulmuştur: dokuma tezgahlarının dizildiği salonlar geniş açıklıklı ve yüksek tavanlıdır çünkü tezgah verimliliği düzenli ışığa ve havalandırmaya bağlıdır; iplik bobinlerinin depolandığı alanlar nem hassasiyeti nedeniyle kapalı ve yüksek raflı kurulur; boyahane tarafında ise sürekli buhar ve nem, tavan seviyesindeki ekipmanın yıpranmasını hızlandırır. Bu üç iç mekan tipi -dokuma salonu, iplik deposu, boyahane- birbirinden çok farklı çalışma koşulları sunar ve her biri kendi makine sınıfını, çalışma saatini ve güvenlik önlemini gerektirir. Standart bir 'iç mekan platformu' tanımı bu farkı yakalayamaz; bu yüzden bu sayfada üç iç mekan tipini ayrı ayrı, kendi koşullarıyla ele alıyoruz. Genel prensip şu: iç mekanda egzoz emisyonu olan makine kullanılmaz, akülü ve mümkünse iz bırakmayan tekerlekli sınıf tercih edilir; tezgah, raf veya boru hattı gibi sabit ekipmana temas riski her zaman ayrıca değerlendirilir.",
+        maddeler: [
+            {
+                baslik: "Dokuma salonunda tezgah sıraları arası dar koridor çalışması",
+                metin:
+                    "Dokuma tezgahlarının dizildiği salonlarda koridor genişliği, tezgah düzenine göre değişir ve genellikle standart bir platformun rahat manevra edemeyeceği kadar dardır. Bu koridorlarda dar gövdeli akülü makaslı platform tercih edilir; makinenin çalışan tezgahın titreşim alanına girmemesi ayrıca gözetilir. Tezgah üstü aydınlatma ve iplik besleme bobin ray sistemlerinin bakımı bu koridorlardan yapılır.",
+            },
+            {
+                baslik: "İplik deposunda yüksek raf ve nem hassasiyeti",
+                metin:
+                    "İplik bobinlerinin depolandığı alanlar nem oranına duyarlı olduğu için kapalı ve yüksek raflı kurulur. Raf üst gözlerindeki sayım, hasarlı bobinlerin indirilmesi ve nem sensörü kontrolü, dar koridora sığan bir platformla yapılır. Sepetin bobinlere temas etmeyecek mesafede hareket etmesi özellikle önemlidir; koridor dar olduğunda daha dar gövdeli makine bu mesafeyi güvenli hale getirir.",
+            },
+            {
+                baslik: "Boyahanede nem-buhar dayanıklı ekipman seçimi",
+                metin:
+                    "Boyahane tarafında sürekli buhar ve yüksek nem, standart makinenin elektrik aksamını ve metal yüzeyini normal bir kuru hole göre daha hızlı yıpratır. Bu ortamda uzun süre kalacak makineler kira süresine göre seçilir; kısa süreli işlerde standart makine yeterliyken, uzun süreli işlerde nem koşullarına daha dayanıklı ekipman tercih edilir. Her ziyaret sonunda makinenin elektrik bağlantıları ve panel contaları kontrol edilir.",
+            },
+            {
+                baslik: "Kesme-tufting ve son işlem hatlarında planlı duruş penceresi",
+                metin:
+                    "Halının dokunmasından sonra geçtiği kesme, tıraşlama ve son kontrol hatlarının üzerinde emiş kanalları, aydınlatma rayları ve otomasyon sensörleri bulunur. Bu hatlar genelde sürekli çalıştığı için bakım, planlı duruş pencerelerine sıkıştırılır ve o pencerede birden fazla kalem aynı anda bitirilir. Hattın hemen üstünde çalışırken düşen parça riski özellikle önemlidir, alt bölge örtüyle kapatılır ve hat o süre için durdurulur.",
+            },
+            {
+                baslik: "İç mekanda enerji tipi ve zemin koruması",
+                metin:
+                    "Kapalı hollerde egzoz emisyonu nedeniyle dizel makine kullanılamaz; akülü modeller zorunludur. Beton zeminlerde standart lastik tekerlek genellikle sorun oluşturmazken, cilalı veya hassas kaplı zeminlerde iz bırakmayan tekerlekli model tercih edilir. Vardiya boyunca kesintisiz çalışma gerekiyorsa akü kapasitesi ve şarj noktası teslimat öncesi planlanmalıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekan tipine göre platform seçimi",
+                paragraflar: [
+                    "GAOSB'deki tekstil tesislerinin üç ana iç mekan tipinde sık çıkan iş kalemlerini ve uygun makine sınıfını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İç mekan tipi", "Sık çıkan iş", "Uygun sınıf", "Kritik nokta"],
+                    satirlar: [
+                        ["Dokuma salonu", "Aydınlatma, bobin askısı", "Dar gövdeli akülü makaslı", "Titreşim alanından uzak"],
+                        ["İplik deposu", "Raf sayımı, nem sensörü", "Dar koridor akülü", "Bobine temas etmeme"],
+                        ["Boyahane", "Baca, fan, panel kontrolü", "Nem dayanıklı akülü", "Yüksek nem-sıcaklık"],
+                        ["Kesme-son işlem", "Emiş kanalı, sensör", "Standart akülü makaslı", "Planlı duruş penceresi"],
+                        ["Genel iç mekan", "Zemin koruması", "İz bırakmayan tekerlek", "Cilalı/hassas zeminde"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üretim durmadan çalışma mümkün mü?",
+                paragraflar: [
+                    "Bu sorunun cevabı iş kalemine göre değişir. Tezgahın doğrudan üstünde veya titreşim alanında değil, ama koridorda ve tezgah aralarında evet. Tezgahlar çalışırken üretilen titreşim ve iplik tozunun bulunduğu alanın hemen üzerinde platformla çalışmak hem makinenin hem tezgahın güvenliği açısından uygun değildir. Bunun yerine iş, o tezgah grubunun bakım için durdurulduğu ya da vardiya değişiminde boşta kaldığı zaman dilimine alınır.",
+                    "Koridor aydınlatması ve genel havalandırma gibi tezgahla doğrudan teması olmayan kalemler ise üretim sürerken, tezgahtan güvenli mesafede konumlanarak yapılabilir. Hangi işin hangi kategoriye girdiğini keşifte birlikte belirliyoruz; bu ayrım, üretim kaybını en aza indiren ama güvenlikten ödün vermeyen bir denge kurar.",
+                ],
+            },
+            {
+                baslik: "Kapalı alanda akü ve şarj planlaması",
+                paragraflar: [
+                    "İç mekan işlerinin çoğu akülü makine gerektirdiği için, uzun süren bir çalışma gününde akü kapasitesinin yetip yetmeyeceği önceden hesaplanır. Tek vardiyalık kısa işlerde standart akü kapasitesi genellikle yeterlidir; vardiya boyunca kesintisiz kullanım gerekiyorsa şarj noktasının erişilebilir olması ve gerekiyorsa yedek akülü makine planlanması gerekir.",
+                    "Boyahane gibi yüksek nem ortamlarında akü ve elektrik bağlantılarının nem koruması, standart bir kuru hol makinesine göre daha sık kontrol edilir; bu kontrol her ziyaretin standart bir parçasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dokuma tezgahları çalışırken üstlerinde iş yapılabilir mi?",
+                cevap:
+                    "Tezgahın doğrudan üstünde değil, ama koridorda ve tezgah aralarında evet. Tezgahlar çalışırken üretilen titreşim ve iplik tozunun bulunduğu alanın hemen üzerinde platformla çalışmak hem makinenin hem tezgahın güvenliği açısından uygun değildir. Bunun yerine iş, o tezgah grubunun bakım için durdurulduğu ya da vardiya değişiminde boşta kaldığı zaman dilimine alınır. Koridor aydınlatması ve genel havalandırma gibi tezgahla doğrudan teması olmayan kalemler ise üretim sürerken, tezgahtan güvenli mesafede konumlanarak yapılabilir. Hangi işin hangi kategoriye girdiğini keşifte birlikte belirliyoruz.",
+            },
+            {
+                soru: "Boyahanede yüksek nem makineye zarar verir mi?",
+                cevap:
+                    "Uzun vadede evet, bu yüzden önlem alıyoruz. Sürekli buharlı ortamda çalışan makinelerin elektrik aksamı ve metal yüzeyleri normal bir kuru hole göre daha hızlı yıpranır. Bu ortamda kalacak makineleri kira süresine göre seçiyoruz; kısa süreli işlerde standart makine yeterliyken, boyahanede uzun süre kalacak makinelerde nem koşullarına daha dayanıklı ekipmanı tercih ediyoruz. Ayrıca her ziyaret sonunda makinenin elektrik bağlantılarını ve panel contalarını kontrol ediyoruz. Ekip tarafında da nemli ve sıcak ortamda çalışma süresi kısa tutuluyor, sık mola veriliyor.",
+            },
+            {
+                soru: "İplik deposunda bobinlere zarar vermeden çalışabilir misiniz?",
+                cevap:
+                    "Evet, ama bunun için birkaç önlem alıyoruz. Öncelikle sepetin bobinlere temas etmeyecek mesafede hareket etmesini sağlıyoruz; koridor dar olduğunda daha dar gövdeli bir makine seçmek bu mesafeyi güvenli hale getirir. İkinci olarak sepetten yapılan işlerde kullanılan alet ve malzemenin bağlı tutulmasına özellikle dikkat ediyoruz, çünkü düşen bir alet bobin sarımına zarar verebilir. Üçüncüsü, nem hassasiyeti olan bölgelerde çalışırken depo kapılarının gereğinden uzun açık kalmamasına özen gösteriyoruz. Hasarlı bobin tespit edilirse bunu anında depo sorumlusuna bildiriyoruz.",
+            },
+            {
+                soru: "İç mekanda dizel makine hiç kullanılmıyor mu?",
+                cevap:
+                    "Kullanılmıyor, bu bizim için geçilmez bir kural. Dokuma salonu, iplik deposu veya boyahane gibi kapalı hollerde dizel motorun egzoz emisyonu hem çalışanların sağlığı hem hassas iplik ve kumaş için kabul edilemez bir risk taşır. Bu yüzden iç mekan işlerinin tamamında akülü makine kullanıyoruz. Tek istisna, işin bir kısmının açık yükleme rampasında veya dış cephede olduğu karma projelerdir; o bölümlerde dizel değerlendirilebilir, ama iç mekana giren makine her zaman akülüdür.",
+            },
+            {
+                soru: "Kesme hattının üzerinde çalışırken hat mutlaka durmalı mı?",
+                cevap:
+                    "Evet, çünkü hattın hemen üstünde çalışırken düşen bir parça (vida, alet, küçük malzeme) hattın altındaki halıya veya operatöre zarar verebilir. Bu yüzden hat, bakım süresince durdurulur ve alt bölge koruyucu örtüyle kapatılır. Bakım genellikle hattın zaten planlı duruş penceresine denk getirilir, böylece üretim kaybı ekstra bir duruştan değil, zaten var olan bir molanın verimli kullanılmasından ibaret olur. Planlı duruş penceresi dışında acil bir bakım gerekiyorsa, bunu tesis yönetimiyle birlikte planlıyoruz.",
+            },
+            {
+                soru: "Akülü makine bir vardiya boyunca yetiyor mu, şarj gerekiyor mu?",
+                cevap:
+                    "Standart tek vardiyalık işlerde akü kapasitesi genellikle yeterli oluyor, ama işin yoğunluğuna ve kol hareketinin sıklığına göre değişebilir. Vardiya boyunca kesintisiz kullanım gerekiyorsa, bunu önceden bildirmenizi istiyoruz; buna göre ya daha yüksek kapasiteli bir model öneriyoruz ya da sahada erişilebilir bir şarj noktası planlıyoruz. Boyahane gibi yüksek nem ortamlarında akü ve elektrik bağlantılarının nem koruması standart bir kuru hol makinesine göre daha sık kontrol ediliyor; bu, her ziyaretin standart bir parçası.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in makine halısı üretiminde dünya ölçeğinde bir merkez olduğu ve GAOSB'deki dokuma-boyahane-depo yapısının genel karakteri kamuya açık bilgidir. Tezgah, koridor ve nem koşullarına dair anlatılanlar sahadaki tekrarlı iç mekan deneyiminden çıkarılmıştır; hiçbir fabrika ismi verilmez.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Gaziantep'te Çelik Konstrüksiyon Montaj Platformu Kiralama",
+        giris:
+            "Gaziantep'in üretim kapasitesi büyüdükçe GAOSB'de ve çevre OSB'lerde yeni dokuma hangarları, gıda üretim holleri ve depolama tesisleri sürekli inşa ediliyor; bu inşaat sürecinin önemli bir parçası çelik konstrüksiyon montajıdır. Çelik konstrüksiyon işleri, tamamlanmış bir tesiste yapılan bakım işinden farklı bir ortam sunar: zemin henüz beton dökülmemiş veya stabilize hâlde olabilir, çatı kirişleri henüz kapanmamış olduğu için hava koşullarına açıktır, ve sahada aynı anda vinç, kaynak ekibi ve farklı taşeronlar birlikte çalışır. Bu koşullarda platform, hem yüksek erişim hem de düzensiz zeminde stabil durabilme kapasitesine sahip olmalıdır; genellikle dizel 4x4 eklemli veya bomlu sınıf tercih edilir çünkü akülü modellerin zemin koşullarına dayanıklılığı ve çalışma süresi bu tür şantiye ortamında yetersiz kalabilir. Bu sayfada çelik konstrüksiyon montaj sürecindeki platform kullanımını, Gaziantep'in genişleyen sanayi hollerine özgü koşullarla anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İnşaat aşamasında zemin durumu ve makine tipi",
+                metin:
+                    "Yeni yapılan sanayi hollerinde beton zemin henüz dökülmemiş veya kür süresi tamamlanmamış olabilir; bu durumda stabilize toprak veya kaba dolgu zeminde çalışmak gerekir. Bu koşullarda lastikli veya paletli 4x4 dizel platform, standart akülü makaslı platforma göre çok daha uygun bir seçimdir çünkü düzensiz zeminde denge ve manevra kabiliyeti daha yüksektir.",
+            },
+            {
+                baslik: "Çatı kirişi montajında yüksek erişim ve kol esnekliği",
+                metin:
+                    "Çelik çatı kirişlerinin montajı, kirişin yerine oturtulması ve kaynak/bulon bağlantısının yapılması sırasında hem yükseklik hem de kirişin farklı noktalarına erişim gerektirir. Eklemli bomlu platform, kolunu kirişin altından veya yanından yönlendirerek montaj ekibinin ihtiyaç duyduğu açıyı sağlar; bu esneklik düz yükselen makaslı platformda yoktur.",
+            },
+            {
+                baslik: "Vinç ve diğer şantiye ekipmanıyla eş zamanlı çalışma",
+                metin:
+                    "Çelik konstrüksiyon şantiyelerinde platform genellikle vinç, forklift ve diğer taşeron ekiplerle aynı sahada çalışır. Bu yüzden platformun çalışma alanı, vincin yük hareket zarfından ve diğer ekiplerin güzergahından ayrılır; iş başlamadan önce şantiye şefiyle birlikte bir trafik ve alan paylaşım planı çıkarılır.",
+            },
+            {
+                baslik: "Hava koşullarına açık sahada rüzgar ve yağış etkisi",
+                metin:
+                    "Çatısı henüz kapanmamış bir hol, açık saha gibi rüzgar ve yağıştan doğrudan etkilenir. Yüksek rüzgarda özellikle eklemli bomlu platformların kol açıklığı rüzgar yüzeyini artırdığı için üretici sınırları aşıldığında çalışma durdurulur. Yağış sonrası zemin yumuşayabileceği için, açık sahada çalışmadan önce zemin durumu tekrar kontrol edilir.",
+            },
+            {
+                baslik: "Kaynak ve sıcak iş güvenliği",
+                metin:
+                    "Çelik montajın önemli bir kısmı kaynak içerdiği için, platform üzerinde veya yakınında kaynak yapılacaksa kıvılcım ve ısıya karşı ek önlem alınır; platform gövdesi ve hidrolik hatları kıvılcımdan korunacak şekilde konumlanır. Kaynak dumanının biriktiği kapalı bölgelerde havalandırma ayrıca değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İnşaat aşamasına göre platform seçimi",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajının farklı aşamalarında karşılaştığımız durumları ve uygun makine sınıfını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İnşaat aşaması", "Zemin durumu", "Uygun sınıf", "Kritik nokta"],
+                    satirlar: [
+                        ["Temel-zemin hazırlığı", "Stabilize/dolgu", "4x4 dizel lastikli/paletli", "Denge ve manevra"],
+                        ["Çatı kirişi montajı", "Kısmen tamamlanmış zemin", "Eklemli bomlu dizel", "Kiriş altına-yanına erişim"],
+                        ["Vinç ile eş zamanlı iş", "Karışık", "Trafik planına uygun sınıf", "Alan paylaşımı"],
+                        ["Açık hava (çatısız)", "Rüzgar-yağış etkisi", "Rüzgar limitine uygun model", "Hava durumu takibi"],
+                        ["Kaynak-sıcak iş", "Değişken", "Kıvılcıma dayanıklı önlem", "Havalandırma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiye koordinasyonu ve iş güvenliği",
+                paragraflar: [
+                    "Çelik konstrüksiyon şantiyelerinde birden fazla taşeron aynı anda çalıştığı için, platform işinin şantiye genel güvenlik programına entegre edilmesi gerekir. İşe başlamadan önce şantiye şefinden günün genel iş programını ve platform çalışma alanının hangi saatlerde diğer ekiplerden bağımsız kullanılabileceğini öğreniyoruz.",
+                    "Operatörümüz şantiyenin kendi güvenlik prosedürüne (baret, yelek, giriş kaydı gibi) uyar; bazı şantiyeler ek bir güvenlik oryantasyonu talep eder, bunu önceden öğrenip hazırlıyoruz.",
+                ],
+            },
+            {
+                baslik: "Tamamlanmamış yapıda elektrik ve aydınlatma kısıtı",
+                paragraflar: [
+                    "İnşaat hâlindeki bir holde kalıcı elektrik altyapısı henüz kurulmamış olabilir; bu durumda akülü makinenin şarjı için geçici jeneratör veya şantiye elektriği kullanılır. Dizel makineler bu açıdan bağımsız çalıştığı için inşaat aşamasında pratik bir avantaj sağlar.",
+                    "Aydınlatma da benzer şekilde kısıtlı olabilir; erken sabah veya akşamüstü çalışmalarda platform üzerine taşınabilir aydınlatma eklenmesi gerekebilir, bunu iş planına dahil ediyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İnşaat hâlindeki bir hangarda zemin henüz beton değil, platform çalışabilir mi?",
+                cevap:
+                    "Genellikle evet, ama zemin türüne uygun makine seçimi şart. Stabilize toprak veya sıkıştırılmış dolgu zeminlerde 4x4 dizel lastikli veya paletli platform, standart akülü makaslı platforma göre çok daha güvenli çalışır çünkü denge ve manevra kabiliyeti düzensiz zemine göre tasarlanmıştır. Zemin çok yumuşak veya çamurluysa, iş başlamadan önce zeminin sıkıştırılmasını veya geçici bir taşıma plakası döşenmesini öneriyoruz. Zemin durumu şüpheliyse keşifte yerinde kontrol ediyoruz, uzaktan karar vermiyoruz.",
+            },
+            {
+                soru: "Çatı kirişi montajında platform vince alternatif mi, yoksa birlikte mi çalışıyor?",
+                cevap:
+                    "Birlikte çalışıyor, alternatif değil. Vinç ağır çelik kirişi kaldırıp yerine yaklaştırırken, platform montaj ekibini kirişin bağlantı noktasına taşıyarak kaynak veya bulon işlemini yapmasını sağlar. İki ekipmanın çalışma alanları çakışmayacak şekilde önceden planlanır; vincin yük hareket zarfına platform girmez. Bu koordinasyon şantiye şefiyle birlikte günlük olarak gözden geçirilir çünkü kiriş montaj sırası değiştikçe alan kullanımı da değişebilir.",
+            },
+            {
+                soru: "Rüzgarlı günlerde açık çatılı holde çalışabilir misiniz?",
+                cevap:
+                    "Rüzgar hızına bağlı, bu konuda üretici sınırlarını katı şekilde uyguluyoruz. Çatısı henüz kapanmamış bir hol açık saha gibi rüzgardan doğrudan etkilenir ve özellikle eklemli bomlu platformların kol açıklığı rüzgar yüzeyini artırır. Rüzgar üretici limitini aştığında çalışmayı durduruyoruz, bunu hava durumu tahminine göre önceden planlıyoruz. Rüzgarlı günlerde işi ertelemek, riski göze almaktan her zaman daha ucuza gelir.",
+            },
+            {
+                soru: "Şantiyede vardiya öncesi güvenlik brifingine katılıyor musunuz?",
+                cevap:
+                    "Evet, çoğu çelik konstrüksiyon şantiyesi günlük güvenlik brifingi yapar ve operatörümüz bu brifinge katılır. Şantiyenin o günkü genel iş programını, hangi bölgelerin hangi saatte kullanılabileceğini ve varsa özel riskleri (örneğin üstte devam eden vinç işi) bu brifingde öğreniyoruz. Bu bilgi, platformun günlük çalışma planını doğrudan etkiliyor; brifing olmadan sahaya girmiyoruz.",
+            },
+            {
+                soru: "İnşaat hâlindeki sahada elektrik yoksa akülü makine nasıl şarj oluyor?",
+                cevap:
+                    "Şantiyede geçici jeneratör veya şantiye elektriği varsa akülü makine oradan şarj edilebilir; yoksa bu tür sahalarda genellikle dizel makine tercih ediyoruz çünkü bağımsız çalışır ve şarj bağımlılığı taşımaz. Hangi seçeneğin uygun olduğunu, sahadaki mevcut elektrik altyapısını keşifte sorup öğrendikten sonra belirliyoruz; sürprizle karşılaşmamak için bu bilgiyi teklif öncesi netleştiriyoruz.",
+            },
+            {
+                soru: "Kaynak işlemi platform yakınında yapılırken yangın riski nasıl yönetiliyor?",
+                cevap:
+                    "Kaynak kıvılcımı platformun hidrolik hatlarına veya lastik/plastik parçalarına sıçrayabileceği için, platform kaynak noktasından güvenli mesafede veya koruyucu perde arkasında konumlandırılır. Kaynak yapılan bölgede yanıcı malzeme varsa önceden uzaklaştırılır ve gerekiyorsa yangın söndürücü hazır bulundurulur. Kapalı veya yarı kapalı bölgelerde kaynak dumanı birikebileceği için havalandırma ayrıca değerlendirilir. Bu önlemler şantiyenin kendi iş güvenliği prosedürüyle birlikte uygulanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in sanayi kapasitesinin büyümesi ve GAOSB'de yeni hangar inşaatlarının sürmesi kamuya açık genel bilgidir. Şantiye koşulları ve zemin-güç tipi seçimi genel ekipman ve inşaat güvenliği bilgisine dayanır; belirli şantiye adı verilmez.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Gaziantep'te Un-Bulgur Silo ve Gıda Depolama Tesislerinde Platform Kiralama",
+        giris:
+            "Gaziantep denince ilk akla gelen sanayi kolu halıcılık olsa da, şehrin ikinci büyük üretim damarı gıda sanayisidir ve bu damarın önemli bir kısmı tahıl işleme ile silo-depolama tesislerinden oluşur: Şehitkamil ve çevresindeki un ve bulgur fabrikaları, baklava ve fıstık işleme atölyelerinin hammadde depoları, kuruyemiş kavurma-paketleme tesislerinin silo grupları. Bu tesislerin ortak özelliği, tahıl ve kuruyemiş tozunun havada asılı kalabilmesi ve belirli yoğunlukta tutuşabilir bir ortam oluşturabilmesidir; bu, sektörün bilinen ve ciddiye alınması gereken bir risktir. Silo üstü kapaklar, aktarma bantları, toz toplama sistemleri ve seviye sensörleri düzenli kontrol gerektirir, ama bu kontroller sıradan bir bakım turu gibi değil, toz yoğunluğu ve sıcak iş kısıtı gözetilerek planlanır. Ayrıca un-bulgur üretiminin kendine has bir hijyen disiplini vardır: tavanda yapılan bir işlem, altındaki gıda ürününe toz veya yabancı madde düşürme riski taşır. Bu sayfada silo üstü işlerin toz-patlama riskini nasıl yönettiğimizi, un-bulgur ve baklava-fıstık işleme hattının kendine özgü koşullarını ve sıcak iş izin sürecini detaylı anlatıyoruz; bu, Gaziantep'teki en dikkatli planlanan iş kalemlerinden biridir.",
+        maddeler: [
+            {
+                baslik: "Un ve bulgur fabrikalarında silo üstü kapak ve aktarma bandı bakımı",
+                metin:
+                    "Tahıl işleyen tesislerde silo üstü kapaklar, aktarma bantları ve toz toplama sistemleri düzenli kontrol gerektirir; silonun yüksekliği fazla olduğu için genellikle uzun erişimli bomlu makine tercih edilir ve zemin taşıma durumu önceden kontrol edilir. Kontrol sırasında kapak contalarının sağlamlığı, bant gerginliği ve toz toplama filtresinin tıkanıklığı birlikte değerlendirilir; bu üç kalem genellikle aynı ziyarette tamamlanır.",
+            },
+            {
+                baslik: "Tahıl tozu patlama riski ve sıcak iş kısıtı",
+                metin:
+                    "Belirli yoğunluk ve koşullarda tahıl tozu tutuşabilir bir ortam oluşturabilir; bu sektörün bilinen bir riskidir ve keşiften itibaren ciddiye alınır. Sıcak iş gerektiren, yani kıvılcım çıkarabilecek kesme, kaynak veya taşlama işlemleri, alan temizlenip toz yoğunluğu düşürülmeden ve emiş sistemi devreye alınmadan başlatılmaz. Bu tür işler için tesisin kendi iş güvenliği prosedürüyle birlikte yazılı izin alınır. Sıcak iş gerektirmeyen kontrol ve gözle denetim işlerinde bu kısıt aynı ölçüde katı değildir, ancak yine de toz maskesi ve statik boşalmaya karşı önlemli ekipman kullanılır.",
+            },
+            {
+                baslik: "Baklava ve fıstık işleme hattında hammadde depolama alanı erişimi",
+                metin:
+                    "Gaziantep'in baklava ve fıstık işleme tesislerinde hammadde (un, şeker, fıstık) depolama alanları, ürünün nem ve sıcaklığa duyarlılığı nedeniyle sıkı kontrollü ortamlardır. Bu alanlarda tavan seviyesindeki havalandırma, aydınlatma ve nem sensörü bakımı, üretimin durduğu veya alanın boşaltıldığı saatlerde yapılır; makine gövdesi işe başlamadan önce temizlenir ve çalışma alanı üretim bölümünden fiziksel olarak ayrılır.",
+            },
+            {
+                baslik: "Kuruyemiş kavurma tesislerinde silo grubu ve baca bakımı",
+                metin:
+                    "Kavurma işleminin ürettiği sıcak hava ve ince kabuk tozu, silo grubuna yakın egzoz bacalarında birikir ve zamanla tahliye verimini düşürür. Baca temizliği ve fan bakımı, kavurma hattının soğuduğu ve durduğu saatlerde yapılır; sıcak bacaya yaklaşmak hem makine hem çalışan için risklidir. Silo üstü seviye sensörlerinin kontrolü de genellikle aynı ziyarette baca bakımıyla birleştirilir.",
+            },
+            {
+                baslik: "Hasat ve sezon dönemine göre bakım penceresi planlaması",
+                metin:
+                    "Tahıl ve fıstık işleme tesislerinde hasat sonrası dönem depoların en dolu olduğu, dolayısıyla bakım için en kısıtlı zaman dilimidir. Bu yüzden silo üstü kapsamlı bakımı, mümkünse sezon öncesi veya deponun göreceli boşaldığı ara dönemlere planlıyoruz; sezon ortasında çıkan acil bir arızada ise tesisin üretim kaybını en aza indirmek için müdahaleyi öncelikli olarak ele alıyoruz, ancak bu tür acil çağrıların maliyeti planlı bakımdan doğal olarak daha yüksek oluyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis tipine göre silo bakım penceresi ve risk yönetimi",
+                paragraflar: [
+                    "Gaziantep'in gıda-tahıl sanayisindeki tesis tiplerini, bakım penceresini ve risk yönetimini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Ana risk", "Bakım penceresi", "Uygun sınıf"],
+                    satirlar: [
+                        ["Un-bulgur fabrikası", "Tahıl tozu patlaması", "Planlı duruş, sıcak iş izni", "Uzun erişimli bomlu"],
+                        ["Baklava-fıstık işleme", "Hijyen-kontaminasyon", "Üretim durduğunda", "Standart akülü, temiz gövde"],
+                        ["Kuruyemiş kavurma", "Sıcak baca-toz", "Hat soğuduktan sonra", "Standart akülü"],
+                        ["Genel gıda deposu", "Nem-toz-kirlenme", "Depo ara dönemi", "Dar koridor makaslı"],
+                        ["Sıcak iş gerektiren onarım", "Kıvılcım-tutuşma", "Yazılı izinle, temizlik sonrası", "Emiş sistemiyle birlikte"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sıcak iş izin süreci nasıl işliyor",
+                paragraflar: [
+                    "Silo üstünde veya yakınında kesme, kaynak veya taşlama gibi kıvılcım çıkarabilecek bir işlem gerekiyorsa, önce alanın toz yoğunluğu düşürülür ve emiş sistemi devreye alınır. Ardından tesisin kendi iş güvenliği sorumlusuyla birlikte yazılı bir sıcak iş izni hazırlanır; bu izin, işin süresini, gözcü gerekliliğini ve yangın söndürme ekipmanının hazır bulunmasını kapsar.",
+                    "İzin tamamlanmadan sıcak iş başlatılmaz; bu, tartışmaya açık olmayan bir kuraldır. Sıcak iş gerekmeyen, yalnızca gözle kontrol veya sensör bakımı gibi işlerde bu süreç daha hafif olsa da, toz maskesi ve statik önlem yine de standarttır.",
+                ],
+            },
+            {
+                baslik: "Gıda güvenliği ile erişim işinin kesişimi",
+                paragraflar: [
+                    "Gıda üreten bir tesiste yüksekte yapılan her işlem aynı zamanda bir kontaminasyon riski taşır; düşen bir vida, dökülen bir yağ damlası veya havaya karışan bir toz parçacığı altındaki üründe iz bırakabilir. Bu yüzden un-bulgur ve baklava-fıstık işleme tesislerindeki işlerimizde standart uygulama, çalışma alanının altını tam olarak kapatmak ve mümkünse o bölgedeki üretimi geçici olarak durdurmaktır.",
+                    "Makinenin kendisi de bu disiplinin parçasıdır: gıda alanına giren her ekipman önce temizlenir, yağlama noktaları kontrol edilir ve sızıntı riski taşıyan parçalar gözden geçirilir. Bazı tesislerde kendi hijyen prosedürlerine göre ek bir onay veya form istenir; bunu keşif aşamasında sorup önceden hazırlıyoruz ki teslim günü beklenmesin.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo üstünde çalışırken tahıl tozu patlama riski oluşturur mu?",
+                cevap:
+                    "Belirli yoğunluk ve koşullarda evet, bu sektörün bilinen bir riskidir ve biz bunu keşiften itibaren ciddiye alıyoruz. Sıcak iş gerektiren, yani kıvılcım çıkarabilecek kesme, kaynak veya taşlama işlemleri, alan temizlenip toz yoğunluğu düşürülmeden ve emiş sistemi devreye alınmadan başlatılmaz. Bu tür işler için tesisin kendi iş güvenliği prosedürüyle birlikte yazılı izin alınır. Sıcak iş gerektirmeyen kontrol ve gözle denetim işlerinde bu kısıt aynı ölçüde katı değildir, ancak yine de toz maskesi ve statik boşalmaya karşı önlemli ekipman kullanılır.",
+            },
+            {
+                soru: "Baklava-fıstık işleme tesisinde hammadde deposuna girerken özel bir hazırlık yapıyor musunuz?",
+                cevap:
+                    "Evet, standart hazırlığımız üç adımdan oluşuyor. Önce makinenin gövdesi ve özellikle tekerlekleri detaylı temizlenir; dışarıdan gelen toz ve kirin üretim alanına taşınmaması buna bağlı. Sonra yağlama noktaları ve sızıntı riski taşıyan bağlantılar kontrol edilir; gıda alanında damlama kabul edilemez bir durumdur. Son olarak, tesisin kendi hijyen kuralları varsa bunları önceden alıp uyguluyoruz — bazı tesisler ek olarak koruyucu galoş veya özel giriş prosedürü istiyor. Bu üç adımı atlamadan içeri giriyoruz.",
+            },
+            {
+                soru: "Hasat sonrası dönemde silo doluyken bakım yapılabilir mi?",
+                cevap:
+                    "Sınırlı ölçüde mümkün ama önermiyoruz. Hasat sonrası dönemde silolar en dolu hâlindedir ve bu dönemde kapsamlı bir bakım için uygun pencere daralır; tesisin üretim temposu da bakımı zorlaştırır. Bu yüzden kapsamlı silo üstü bakımı mümkünse sezon öncesi veya deponun göreceli boşaldığı ara döneme planlamayı öneriyoruz. Acil bir arıza çıkarsa elbette müdahale ediyoruz, ama bu tür acil çağrıların maliyeti planlı bir bakımdan doğal olarak daha yüksek oluyor çünkü hazırlık ve güzergah optimizasyonu için zaman kalmıyor.",
+            },
+            {
+                soru: "Sıcak iş izni almadan silo üstünde kaynak yapabilir misiniz?",
+                cevap:
+                    "Hayır, bu konuda taviz vermiyoruz. Silo üstünde veya yakınında kıvılcım çıkarabilecek kesme, kaynak veya taşlama işlemi gerekiyorsa önce alanın toz yoğunluğu düşürülür, emiş sistemi devreye alınır ve tesisin iş güvenliği sorumlusuyla birlikte yazılı bir sıcak iş izni hazırlanır. Bu izin işin süresini, gözcü gerekliliğini ve yangın söndürme ekipmanının hazır bulunmasını kapsar. İzin tamamlanmadan iş başlatılmaz; bu süreç bazen işi bir gün geciktirebilir, ama tutuşma riskini göze almak bundan çok daha maliyetlidir.",
+            },
+            {
+                soru: "Un fabrikasında toz maskesi ve statik önlemsiz çalışmıyor musunuz?",
+                cevap:
+                    "Çalışmıyoruz, bu standart bir gereklilik. Un ve tahıl tozunun yoğun olduğu ortamlarda operatörümüz toz maskesi kullanır ve ekipmanımızda statik elektrik boşalmasına karşı önlemli parçalar bulunur, çünkü statik kıvılcım da tutuşmaya yol açabilecek bir kaynak olarak değerlendirilir. Bu önlemler sıcak iş yapılmayan, yalnızca kontrol amaçlı ziyaretlerde de uygulanır; toz yoğunluğu ne olursa olsun bu ekipmanı çıkarmıyoruz.",
+            },
+            {
+                soru: "Silo üstü kontrolde hangi bilgileri önceden bilmemiz gerekiyor?",
+                cevap:
+                    "Silonun gövde yüksekliğini (temelden en üst erişim noktasına), etrafındaki diğer silo veya ekipmanlarla olan mesafeyi, zeminin türünü (beton, stabilize, açık saha) ve o an silonun doluluk durumunu bilmemiz gerekiyor. Ayrıca sıcak iş gerekip gerekmediğini önceden netleştirmek, hangi izin sürecinin işleyeceğini baştan planlamamızı sağlıyor. Bu bilgiler keşifte veya teklif öncesi telefonla netleştirilir; eksik bilgiyle gelen makine sahada doğru sınıfta olmayabilir ve bu da zaman kaybına yol açar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in gıda sanayisinin şehrin ikinci büyük üretim kolu olduğu ve tahıl tozunun bilinen bir tutuşma riski taşıdığı kamuya açık genel bilgidir. Sıcak iş izin süreci ve hijyen anlatımı sahadaki tekrarlı gözlemlere ve sektörün genel güvenlik pratiğine dayanır; hiçbir tesis adı, kapasite rakamı veya mesafe rakamı verilmez.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Gaziantep'te OSB İçi Enerji ve Aydınlatma Bakım Platformu Kiralama",
+        giris:
+            "GAOSB'nin geniş ve çok bölgeli yapısı, kendi içinde uzun cadde aydınlatması, orta gerilim hatları ve tesis giriş direkleriyle küçük bir şehir gibi işler; bu altyapının bakımı, tek bir fabrika binasından farklı bir ölçekte planlama gerektirir. Aydınlatma direği değişimi, tabela ve yönlendirme levhası bakımı, tesis giriş kapısı üstü projektör kontrolü gibi işler genellikle OSB'nin farklı bölgelerine dağılmış çok sayıda noktada tekrarlanır. Bunun yanında tekstil ve gıda tesislerinin kendi enerji hatları -örneğin trafo çevresi aydınlatması veya jeneratör alanı bakımı- da ayrı bir dikkat gerektirir çünkü enerji hatlarına yakın çalışmak elektrik kesintisi koordinasyonunu zorunlu kılar. Bu sayfada OSB içi ve tesis çevresi enerji-aydınlatma bakımını, Gaziantep'in çok bölgeli sanayi yapısına özgü lojistik ve güvenlik koşullarıyla anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "OSB cadde aydınlatması ve direk bakımı",
+                metin:
+                    "GAOSB'nin ana ve ara caddelerindeki aydınlatma direkleri, farklı bölgelere dağılmış olduğu için tek bir güzergahta toplu bakım yapmak güzergah planlamasını gerektirir. Direk üstü armatür değişimi ve kablo bağlantı kontrolü, bomlu platformla ulaşılır; direk çevresindeki trafik akışı bakım saatinin belirleyicisidir, genellikle düşük trafik saatine planlanır.",
+            },
+            {
+                baslik: "Trafo ve enerji hattı yakınında güvenli çalışma mesafesi",
+                metin:
+                    "Tesis çevresindeki trafo ve orta gerilim hatlarına yakın çalışırken, platform ile enerjili hat arasında güvenli mesafe korunur; bu mesafe hattın gerilim seviyesine göre değişir. Enerji hattına çok yakın bir iş gerekiyorsa, ilgili elektrik dağıtım şirketinden veya tesisin kendi elektrik ekibinden kesinti koordinasyonu istenir; kesinti sağlanmadan hatta yakın çalışılmaz.",
+            },
+            {
+                baslik: "Tesis giriş tabelası ve yönlendirme levhası bakımı",
+                metin:
+                    "OSB içindeki tesislerin giriş tabelaları ve yönlendirme levhaları, açık havada sürekli güneş ve toza maruz kaldığı için düzenli aydınlatma ve gövde bakımı ister. Bu işler genellikle gündüz, sevkiyat trafiğinin göreceli sakin olduğu saatlere alınır; tabelanın giriş kapısına yakın konumu nedeniyle araç geçişini engellememek için çalışma alanı geçici olarak işaretlenir.",
+            },
+            {
+                baslik: "Jeneratör ve yedek güç alanı çevresi bakımı",
+                metin:
+                    "Tesislerin yedek güç için kullandığı jeneratör alanlarının üstü, egzoz bacası ve havalandırma menfezi içerdiği için düzenli kontrol gerektirir. Jeneratör çalışır durumdayken üstünde iş yapılmaz; bakım, jeneratörün test veya bakım için zaten durdurulduğu pencereye denk getirilir.",
+            },
+            {
+                baslik: "Çok noktalı aydınlatma turlarında iş birleştirme",
+                metin:
+                    "Birden fazla direk veya tabelanın aynı bölgede olduğu durumlarda, tek bir ziyarette birden fazla noktayı sırayla tamamlamak nakliye ve kurulum maliyetini düşürür. Bu tür çok noktalı turlar için önceden bir liste ve güzergah çıkarılır; liste ne kadar netse tur o kadar verimli ilerler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre güvenlik ve zamanlama",
+                paragraflar: [
+                    "OSB içi ve tesis çevresi enerji-aydınlatma işlerinde sık karşılaştığımız durumları aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Ana risk", "Zamanlama", "Uygun sınıf"],
+                    satirlar: [
+                        ["Cadde aydınlatması", "Trafik", "Düşük trafik saati", "Bomlu, geniş saha"],
+                        ["Trafo-enerji hattı yakını", "Elektrik teması", "Kesinti koordinasyonuyla", "Yalıtımlı ekipman"],
+                        ["Giriş tabelası", "Araç geçişi", "Gündüz, işaretlenmiş alan", "Kompakt bomlu"],
+                        ["Jeneratör alanı", "Çalışır motora yakınlık", "Jeneratör durduğunda", "Standart makaslı"],
+                        ["Çok noktalı tur", "Güzergah verimliliği", "Önceden liste-güzergah", "Değişken"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik dağıtım şirketiyle koordinasyon",
+                paragraflar: [
+                    "Orta gerilim hatlarına yakın işlerde, güvenli çalışma mesafesi tek başına yeterli olmayabilir; bazı işlerde hattın geçici olarak kesilmesi gerekir. Bu koordinasyon tesisin kendi elektrik ekibi veya bölgesel dağıtım şirketiyle önceden planlanır; kesinti talebi genellikle birkaç gün önceden bildirilmesi gereken bir süreçtir, bu yüzden enerji hattına yakın işleri mümkün olduğunca erken haber vermenizi öneriyoruz.",
+                    "Kesinti sağlanamayan acil durumlarda, hatta güvenli mesafe daha da artırılır ve iş yalnızca zorunlu asgari süreyle sınırlı tutulur; bu durumda işin kapsamı da daraltılabilir.",
+                ],
+            },
+            {
+                baslik: "Çok bölgeli OSB'de aydınlatma turunun planlanması",
+                paragraflar: [
+                    "GAOSB'nin farklı bölgelere yayılmış yapısı, aydınlatma bakım turlarını da etkiler; bir bölgeden diğerine geçiş, aynı bölgedeki birkaç direk arasında geçmekten daha uzun sürebilir. Bu yüzden aynı bölgedeki işleri art arda sıralıyor, bölge değişimini günün en az sayıda yapılacağı şekilde planlıyoruz.",
+                    "Müşteriden gelen aydınlatma bakım taleplerinde hangi bölgede kaç nokta olduğunu netleştirmek, teklif ve randevu sürecinin ilk adımı; bölge ve nokta sayısı bilgisi eksik geldiğinde randevu saatinin gerçekçiliği düşer.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Enerji hattına yakın çalışırken elektrik kesintisi mutlaka gerekiyor mu?",
+                cevap:
+                    "Her zaman değil, hattın gerilim seviyesine ve platformla arasındaki mesafeye bağlı. Güvenli mesafe korunabiliyorsa kesinti gerekmeden çalışabiliyoruz. Ancak iş, güvenli mesafenin altına inmeyi gerektiriyorsa, ilgili elektrik dağıtım şirketinden veya tesisin kendi elektrik ekibinden kesinti koordinasyonu istiyoruz; kesinti sağlanmadan hatta yakın çalışmıyoruz. Kesinti talebi genellikle birkaç gün önceden bildirilmesi gereken bir süreç olduğu için, enerji hattına yakın işleri mümkün olduğunca erken haber vermenizi öneriyoruz.",
+            },
+            {
+                soru: "OSB'deki birden fazla direği tek ziyarette bakım yapabilir misiniz?",
+                cevap:
+                    "Evet, bu tür çok noktalı turlar hem sizin hem bizim için daha verimli. Önceden bir liste ve güzergah çıkarıyoruz; hangi bölgede kaç direk veya tabela olduğunu netleştirdiğinizde, aynı bölgedeki noktaları art arda sıralayarak tek seferde tamamlıyoruz. Liste ne kadar netse, tur o kadar hızlı ve ekonomik ilerliyor; eksik bilgiyle gelen bir tur sahada beklenmedik ek noktalarla uzayabiliyor.",
+            },
+            {
+                soru: "Jeneratör çalışırken üstünde bakım yapılabilir mi?",
+                cevap:
+                    "Hayır, jeneratör çalışır durumdayken üstünde iş yapmıyoruz; hem egzoz gazı hem hareketli parça riski kabul edilemez. Bakımı, jeneratörün zaten test veya periyodik bakım için durdurulduğu pencereye denk getiriyoruz. Jeneratörün durdurulacağı zamanı tesis yönetimiyle önceden netleştiriyoruz; bu koordinasyon olmadan işe başlamıyoruz.",
+            },
+            {
+                soru: "OSB cadde aydınlatmasında trafik akışını nasıl etkiliyorsunuz?",
+                cevap:
+                    "Etkilemeye çalışmıyoruz, bu yüzden bakımı düşük trafik saatlerine planlıyoruz. Direk çevresinde çalışırken görünürlüğü artıran koni ve şerit kullanıyor, aracın geçiş şeridini olabildiğince açık tutuyoruz. Yoğun sevkiyat saatlerinde cadde aydınlatması bakımı önermiyoruz; bunun yerine sabah erken veya öğle sonrası göreceli sakin saatleri tercih ediyoruz.",
+            },
+            {
+                soru: "Tesis giriş tabelasının aydınlatması bozulduğunda ne kadar sürede müdahale ediyorsunuz?",
+                cevap:
+                    "Bu, o anki filo müsaitliğine ve OSB'nin hangi bölgesinde olduğunuza bağlı olarak değişiyor; kesin bir süre vaat etmek yerine çağrı geldiğinde gerçekçi bir zaman aralığı veriyoruz. Acil bir güvenlik riski varsa (örneğin tabelanın düşme riski) önceliklendiriyoruz. Planlı bir bakım ise, aynı bölgedeki başka bir işle birleştirerek en verimli tarihe yerleştiriyoruz.",
+            },
+            {
+                soru: "Aydınlatma bakımı için hangi bilgileri önceden vermemiz gerekiyor?",
+                cevap:
+                    "Direk veya tabelanın konumunu (mümkünse OSB bölge/blok bilgisiyle), yüksekliğini, sorunun ne olduğunu (yanmıyor, titriyor, kablo görünür şekilde hasarlı gibi) ve varsa yakınında enerji hattı olup olmadığını bilmemiz işi hızlandırıyor. Birden fazla nokta varsa, hepsinin listesini tek seferde almak, tek tek ayrı çağrı almaktan daha verimli bir tur planlamamızı sağlıyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. GAOSB'nin çok bölgeli yapısı ve OSB içi altyapı bakımının genel karakteri kamuya açık bilgidir. Enerji hattı yakınında çalışma ve kesinti koordinasyonu genel elektrik güvenliği pratiğine dayanır; belirli direk, tabela veya tesis adı verilmez.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Gaziantep'te Operatörlü ve Operatörsüz Platform Kiralama",
+        giris:
+            "Operatörlü mü operatörsüz mü kiralama sorusu, Gaziantep'te iki farklı müşteri profilinden geliyor: bir yanda GAOSB'deki tekstil ve gıda tesislerinin kendi bakım ekibi olan, düzenli ve tekrarlayan işler için operatörsüz (yalnızca makine) kiralamayı tercih eden orta-büyük işletmeler; diğer yanda Şahinbey ve Şehitkamil'deki küçük ölçekli imalathane ve dükkanların, tek seferlik bir işi kendi ekibi olmadan tamamlamak için operatörlü kiralamayı tercih eden işletmeler. Bu iki profil arasındaki fark yalnızca tercih değil, aynı zamanda güvenlik ve yeterlilik meselesidir: operatörsüz kiralamada makineyi kullanacak kişinin sertifikalı ve deneyimli olması zorunludur, operatörlü kiralamada ise bu sorumluluk bize aittir. Gaziantep'in dar sokaklı çarşı dokusu ve GAOSB'nin geniş sanayi sahaları gibi birbirinden farklı çalışma ortamları, operatör kararını da etkiler; dar ve hassas bir alanda deneyimli bir operatörün varlığı, işin güvenliği açısından belirgin fark yaratır. Bu sayfada iki kiralama modelinin Gaziantep'teki hangi iş tipine daha uygun olduğunu ve karar sürecini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "GAOSB tesislerinde kendi ekibiyle çalışan işletmeler için operatörsüz kiralama",
+                metin:
+                    "Kendi bakım ekibi ve sertifikalı operatörü olan tekstil veya gıda tesisleri, tekrarlayan ve tanıdık işler için genellikle operatörsüz kiralamayı tercih eder; bu, günlük kiralama maliyetini düşürür ve tesisin kendi programına göre esnek kullanım sağlar. Operatörsüz kiralamada, makineyi kullanacak kişinin geçerli bir sertifikaya sahip olduğu teslim öncesi belgeyle doğrulanır; bu adım atlanmaz.",
+            },
+            {
+                baslik: "Küçük imalathane ve dükkanlar için operatörlü kiralama",
+                metin:
+                    "Şahinbey ve Şehitkamil'deki küçük ölçekli imalathane ve dükkanların çoğunda kendi platform operatörü bulunmaz; bu işletmeler için operatörlü kiralama, hem makineyi hem yeterlilik sorununu tek seferde çözer. Operatörümüz işin türüne ve mekana (dar sokak, showroom, tarihi doku) aşina olduğu için, bu tür işlerde ek bir yönlendirmeye gerek kalmadan çalışabilir.",
+            },
+            {
+                baslik: "Dar ve hassas alanlarda deneyimli operatör avantajı",
+                metin:
+                    "Tarihi çarşı dokusunda dar bir dükkan içinde veya showroom teşhir köşesinde çalışırken, operatörün deneyimi işin hızını ve güvenliğini doğrudan etkiler. Bu tür işlerde operatörsüz kiralama yapılıyorsa, kullanıcı firmanın operatörünün benzer dar alan deneyimine sahip olduğundan emin olması önerilir; deneyimsiz bir operatör dar alanda hem makineye hem çevreye zarar verebilir.",
+            },
+            {
+                baslik: "Gıda ve boyahane gibi hassas ortamlarda operatör sorumluluğu",
+                metin:
+                    "Gıda tesislerinde hijyen kurallarına uyum veya boyahanede nem koşullarına dikkat gibi ortam kısıtlarında, operatörlü kiralama bu kuralların doğru uygulandığından emin olmanın bir yoludur çünkü operatörümüz bu koşullara aşina şekilde çalışır. Operatörsüz kiralamada bu sorumluluk tamamen kiralayan tarafa geçer; bu farkı teklif aşamasında açıkça belirtiyoruz.",
+            },
+            {
+                baslik: "Uzun süreli kiralamalarda operatör modelini değiştirme",
+                metin:
+                    "Bazı işletmeler kiralama süresinin başında operatörlü başlayıp, kendi ekiplerini eğittikten veya sertifikalandırdıktan sonra operatörsüz modele geçmek ister. Bu geçiş mümkündür; ancak geçiş anında kullanıcı firmanın operatörünün sertifikasının geçerli olduğu doğrulanmadan model değiştirilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşletme profiline göre model karşılaştırması",
+                paragraflar: [
+                    "Gaziantep'teki iki farklı müşteri profilinin operatör tercihini aşağıda karşılaştırdık.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme profili", "Tipik ihtiyaç", "Önerilen model", "Not"],
+                    satirlar: [
+                        ["GAOSB büyük tesis", "Tekrarlayan, tanıdık iş", "Operatörsüz", "Sertifika doğrulanır"],
+                        ["Küçük imalathane/dükkan", "Tek seferlik, dar alan", "Operatörlü", "Ek yönlendirmeye gerek yok"],
+                        ["Showroom-tarihi doku", "Hassas, dar mekan", "Operatörlü tercih edilir", "Deneyim önemli"],
+                        ["Gıda-boyahane tesisi", "Ortam kısıtlı iş", "Operatörlü veya sertifikalı operatör", "Hijyen/nem sorumluluğu"],
+                        ["Uzun süreli kiralama", "Model değişebilir", "Başta operatörlü, sonra operatörsüz", "Geçişte sertifika kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sertifika ve yeterlilik doğrulama süreci",
+                paragraflar: [
+                    "Operatörsüz kiralamada, makineyi kullanacak kişinin platform operatörlüğü sertifikasının geçerlilik tarihini ve kapsamını teslim öncesi kontrol ediyoruz; bu belge olmadan makineyi teslim etmiyoruz, çünkü sertifikasız kullanım hem yasal hem güvenlik açısından kabul edilemez bir risktir.",
+                    "Operatörlü kiralamada ise bizim operatörümüzün sertifikası ve ilgili sınıftaki deneyimi zaten güncel tutulur; müşterinin bu konuda ayrıca bir kontrol yapmasına gerek kalmaz.",
+                ],
+            },
+            {
+                baslik: "Maliyet farkı ve karar süreci",
+                paragraflar: [
+                    "Operatörsüz kiralama günlük maliyeti düşürür çünkü operatör ücreti dahil değildir; ancak bu, yalnızca kendi sertifikalı operatörü olan işletmeler için gerçek bir tasarruftır. Sertifikalı operatörü olmayan bir işletme için operatörlü kiralama, ayrıca bir operatör bulup eğitme maliyetinden kaçındığı için genellikle daha ekonomik çıkar.",
+                    "Hangi modelin sizin için uygun olduğuna karar verirken, kendi ekibinizin sertifikalı operatörü olup olmadığını ve işin ne kadar sık tekrarlanacağını soruyoruz; tek seferlik bir iş için operatör eğitmek mantıklı değildir, sık tekrarlayan bir ihtiyaç için ise kendi operatörünüzü yetiştirmek uzun vadede avantajlı olabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörsüz kiraladığımızda kendi personelimiz sertifikasız kullanabilir mi?",
+                cevap:
+                    "Hayır, kesinlikle kullanamaz. Operatörsüz kiralamada makineyi kullanacak kişinin geçerli bir platform operatörlüğü sertifikasına sahip olması zorunludur ve bu belgeyi teslim öncesi kontrol ediyoruz. Sertifika olmadan makineyi teslim etmiyoruz; bu, hem yasal hem güvenlik açısından taviz vermediğimiz bir kural. Sertifikalı personeliniz yoksa operatörlü kiralama modelini öneriyoruz.",
+            },
+            {
+                soru: "Operatörünüz bizim tesisimizin özel kurallarına (hijyen, güvenlik) uyum sağlıyor mu?",
+                cevap:
+                    "Evet, operatörlü kiralamada operatörümüz tesisinizin kendi hijyen ve güvenlik prosedürüne uyar; bu prosedürleri keşif aşamasında öğrenip önceden hazırlanıyoruz. Gıda tesisleri için galoş, özel giriş prosedürü gibi ek kurallar; boyahane gibi hassas ortamlar için nem koruma önlemleri, operatörümüzün standart çalışma disiplininin bir parçası. Özel bir prosedürünüz varsa teklif öncesi bize iletmeniz, teslim gününde beklenmemesini sağlar.",
+            },
+            {
+                soru: "Dar sokaklı çarşıda operatörsüz kiralama önermiyor musunuz?",
+                cevap:
+                    "Kesin bir kural değil ama tercih ederiz operatörlü olsun, çünkü dar alan manevrası deneyim gerektirir. Operatörsüz kiralama istiyorsanız, kullanıcınızın benzer dar alan ve tarihi doku deneyimine sahip olduğundan emin olmanızı öneririz; deneyimsiz bir operatör dar sokakta hem makineye hem çevredeki yapıya zarar verebilir. Bu riski açıkça belirtiyoruz ve kararı sizinle birlikte veriyoruz; ısrar ederseniz operatörsüz de kiralayabiliyoruz ama sorumluluğun nerede olduğunu net konuşuyoruz.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatörün yemek ve mola süreleri işi nasıl etkiliyor?",
+                cevap:
+                    "Operatörümüzün standart çalışma düzeni içinde makul mola ve öğün süreleri planlanır; bu süreler işin toplam süresine dahil edilir ve teklif aşamasında şeffaf şekilde belirtilir. Uzun süren bir iş günü için mola planı önceden paylaşılır, böylece sizin de saha akışınızı buna göre ayarlamanız mümkün olur. Sürpriz bir kesinti yaşanmaması için bu detayı teklif öncesi netleştiriyoruz.",
+            },
+            {
+                soru: "Kendi ekibimizi eğitip zamanla operatörsüz modele geçebilir miyiz?",
+                cevap:
+                    "Evet, bu mümkün ve bazı müşterilerimiz bu yolu tercih ediyor. Kiralama süresinin başında operatörlü başlayıp, kendi personeliniz sertifika aldıktan sonra operatörsüz modele geçebilirsiniz. Geçiş anında personelinizin sertifikasının geçerli olduğunu doğrulamamız gerekiyor; bu doğrulama olmadan model değiştirmiyoruz. Geçiş sürecini önceden planlarsanız, kiralama sözleşmesine bu değişikliği de dahil edebiliyoruz.",
+            },
+            {
+                soru: "Operatörlü ve operatörsüz arasındaki fiyat farkı ne kadar?",
+                cevap:
+                    "Kesin bir oran vermek yanıltıcı olur çünkü fark, makinenin sınıfına ve işin süresine göre değişir; ama genel eğilim, operatörsüz kiralamanın günlük maliyeti operatör ücreti kadar düşürdüğü yönünde. Bunun karşılığında operatörsüz modelde sertifikalı personel bulundurma ve makinenin güvenli kullanımından sorumlu olma yükü size geçiyor. Hangi modelin toplamda sizin için daha ekonomik olduğunu, işin sıklığı ve kendi operatör kapasiteniz üzerinden birlikte hesaplıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in GAOSB büyük tesis dokusu ile Şahinbey-Şehitkamil küçük işletme dokusu daha önceki bölge sayfalarında da işlenen kamuya açık bilgidir. Operatör sertifikasyonu genel yasal-güvenlik pratiğidir; karar süreci sahadaki tekrarlı müşteri profillerinden çıkarılmıştır, işletme adı verilmez.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Gaziantep'te Çok Noktalı Rota Bakım Platformu Kiralama",
+        giris:
+            "GAOSB tek bir kapıdan girilen kompakt bir alan değil, farklı dönemlerde kurulmuş ve genişlemiş, birbirine yakın ama ayrı bölgelerden oluşan geniş bir sanayi ağıdır; bu yapı, tek bir günde birden fazla tesise hizmet vermeyi gerektiren müşteriler için özel bir planlama problemi doğurur. Bir zincir mağaza grubunun farklı şubelerindeki tabela bakımı, bir OSB yönetiminin birden fazla bölgedeki aydınlatma turu, ya da bir yatırımcının farklı bölgelerdeki inşaat hâlindeki tesislerinin denetimi gibi işler, tek noktalı bir randevudan farklı bir güzergah mantığı ister. Bu sayfada, aynı gün veya aynı hafta içinde Gaziantep'in farklı bölgelerinde birden fazla noktaya hizmet verme sürecimizi, GAOSB'nin çok bölgeli yapısına özgü lojistik gerçeklerle anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "GAOSB'nin çok bölgeli yapısında güzergah kurgusu",
+                metin:
+                    "GAOSB birden fazla ayrı bölgeden oluştuğu için, bir günde birden fazla tesise hizmet verirken bölgeler arası geçiş süresini hesaba katmak gerekir; aksi hâlde plan kâğıt üstünde tutarlı görünse de sahada gecikmeye döner. Bizim yaklaşımımız, aynı bölgedeki işleri art arda sıralamak ve bölge değişimini günün en az bir kez yapılacağı şekilde planlamaktır.",
+            },
+            {
+                baslik: "Zincir işletmelerin farklı şubelerinde tekrarlayan iş",
+                metin:
+                    "Birden fazla şubesi olan bir işletme (örneğin bir showroom zinciri) için tabela, aydınlatma veya cephe bakımı, her şubede benzer nitelikte tekrarlanır. Bu tür işlerde tek bir standart iş listesi çıkarılır ve her şube ziyaretinde aynı kontrol listesi uygulanır; bu, hem verimliliği artırır hem de şubeler arası tutarlılık sağlar.",
+            },
+            {
+                baslik: "OSB genelinde dağınık noktalarda denetim ve kontrol turu",
+                metin:
+                    "Bir OSB yönetimi veya büyük bir işletme grubu, farklı bölgelerdeki birden fazla noktanın (direk, tabela, giriş aydınlatması) periyodik kontrolünü tek bir tur hâlinde planlamak isteyebilir. Bu tür turlarda önceden bir nokta listesi ve harita çıkarılır, güzergah bu listeye göre optimize edilir.",
+            },
+            {
+                baslik: "Farklı bölgelerdeki inşaat hâlindeki tesislerin sıralı ziyareti",
+                metin:
+                    "Birden fazla bölgede aynı anda inşaat hâlinde tesisi olan bir yatırımcı için, her sahadaki çelik konstrüksiyon veya montaj işini aynı hafta içinde sıralı olarak planlamak mümkündür. Bu tür işlerde her sahanın kendi zemin ve erişim koşulu ayrı değerlendirilir, ama nakliye güzergahı ortak planlanır.",
+            },
+            {
+                baslik: "Bölge bilgisinin netliği randevu gerçekçiliğini belirler",
+                metin:
+                    "Müşteriden gelen çok noktalı çağrılarda hangi bölgede kaç nokta olduğunu netleştirmek, teklif ve randevu sürecinin ilk adımıdır. Bölge bilgisi eksik geldiğinde randevu saatinin gerçekçiliği düşer; bu yüzden çok noktalı talep alırken önce eksiksiz bir liste ve bölge bilgisi istiyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı iş tiplerine göre planlama",
+                paragraflar: [
+                    "Gaziantep'te sık karşılaştığımız çok noktalı iş tiplerini ve planlama yaklaşımını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Nokta dağılımı", "Planlama yaklaşımı", "Not"],
+                    satirlar: [
+                        ["Zincir şube bakımı", "Şehir geneli", "Standart kontrol listesi", "Şubeler arası tutarlılık"],
+                        ["OSB denetim turu", "Çok bölgeli GAOSB", "Önceden harita-liste", "Bölge sıralaması optimize"],
+                        ["İnşaat sahaları turu", "Farklı OSB'ler", "Haftalık sıralı ziyaret", "Her saha ayrı değerlendirilir"],
+                        ["Tek işletme, çok kalem", "Tek bölge", "Aynı ziyarette birleştirme", "Nakliye maliyeti düşer"],
+                        ["Acil çok noktalı arıza", "Değişken", "Öncelik sıralaması", "Standart turdan daha maliyetli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nokta listesi ve harita hazırlığı",
+                paragraflar: [
+                    "Çok noktalı bir iş talebi geldiğinde, önce her noktanın konumunu (mümkünse bölge/blok bilgisiyle), yapılacak işi ve tahmini süresini içeren bir liste hazırlamanızı istiyoruz. Bu liste ne kadar netse, güzergahı o kadar verimli kurabiliyoruz; eksik bilgiyle gelen bir talep sahada beklenmedik ek noktalarla uzayabiliyor ve diğer noktaların zamanlamasını da etkileyebiliyor.",
+                    "Liste elimize geçtiğinde, coğrafi olarak yakın noktaları gruplandırıp bir güzergah taslağı çıkarıyoruz; bu taslağı sizinle paylaşıp onay aldıktan sonra kesinleştiriyoruz.",
+                ],
+            },
+            {
+                baslik: "Gecikme durumunda diğer noktalara etkisi",
+                paragraflar: [
+                    "Çok noktalı bir turda ilk noktadaki iş beklenenden uzun sürerse, bu gecikme sonraki noktaların zamanlamasını da etkiler. Bu durumda etkilenen noktalardaki ilgili kişilere mümkün olan en kısa sürede haber veriyoruz; sessizce geç kalmak yerine gerçekçi bir yeni saat bildirmeyi tercih ediyoruz.",
+                    "Bazı durumlarda, ilk noktadaki ek iş kapsamı önceden bilinmiyorsa, tur planını gün içinde yeniden düzenlememiz gerekebilir; bu esnekliği turun başında sizinle konuşuyoruz ki sürpriz olmasın.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "GAOSB'de birden fazla bölgede işimiz var, aynı gün hepsini yapabilir misiniz?",
+                cevap:
+                    "Genellikle evet, ancak bölgeler arası mesafeye göre günü planlamamız gerekiyor. GAOSB birden fazla ayrı bölgeden oluştuğu için bir bölgeden diğerine geçiş, sahada birkaç iş kalemi bitirmekten daha uzun sürebiliyor. Bu yüzden aynı gün birden fazla bölgeye gitmek istediğinizde, hangi bölgelerde ne kadar süreceğini önceden bildirmenizi istiyoruz; buna göre güzergahı en az geçişle tamamlayacak sırayı kuruyoruz. Bazı durumlarda iki bölgeyi aynı günde bitirmek yerine ardışık iki güne yaymak hem daha gerçekçi hem daha ucuza geliyor.",
+            },
+            {
+                soru: "Zincir şubelerimizin hepsinde aynı standart işi mi uyguluyorsunuz?",
+                cevap:
+                    "Evet, sizinle birlikte belirlediğimiz standart bir kontrol listesini her şubede aynı şekilde uyguluyoruz; bu hem tutarlılık sağlar hem de her ziyarette yeniden iş tanımlamaya gerek kalmaz. Elbette bazı şubelerin fiziksel koşulları farklı olabilir (bir showroom dar bir sokakta, diğeri geniş bir cadde üzerinde gibi); bu farkları ilk ziyarette not alıp sonraki turlarda göz önünde bulunduruyoruz.",
+            },
+            {
+                soru: "İlk noktadaki iş uzarsa sonraki randevular ne oluyor?",
+                cevap:
+                    "Bu durumda etkilenen noktalardaki ilgili kişilere mümkün olan en kısa sürede haber veriyoruz; sessizce geç kalmak yerine gerçekçi bir yeni saat bildirmeyi tercih ediyoruz. Eğer gecikme çok büyükse, o günkü turu yeniden sıralayıp en kritik noktaları öne alabiliyoruz. Bu tür esnekliği turun başında sizinle konuşuyoruz ki sürpriz olmasın; çok sıkı bir zaman çizelgesi gerekiyorsa bunu baştan belirtmenizi öneririz.",
+            },
+            {
+                soru: "Nokta listesini nasıl paylaşmalıyız, hangi bilgiler gerekiyor?",
+                cevap:
+                    "Her nokta için konum (mümkünse bölge/blok bilgisiyle), yapılacak iş türü, tahmini süre ve varsa özel erişim kısıtını (dar sokak, kapı ölçüsü gibi) içeren bir liste istiyoruz. Liste ne kadar detaylıysa, güzergahı o kadar doğru kurabiliyoruz. Fotoğraf eklenebiliyorsa özellikle erişim kısıtı olan noktalarda bu çok yardımcı oluyor; telefonla sözlü aktarılan bilgi genellikle eksik kalıyor.",
+            },
+            {
+                soru: "Çok noktalı tur, tek tek ayrı randevu almaktan ne kadar ucuz?",
+                cevap:
+                    "Kesin bir oran vermek doğru olmaz çünkü fark, noktaların birbirine uzaklığına ve iş yoğunluğuna göre değişir; ama genel eğilim, tek bir nakliye ve kurulum maliyetinin birden fazla nokta arasında paylaşılmasının, her nokta için ayrı ayrı randevu almaktan belirgin şekilde ucuza geldiği yönünde. Teklif hazırlarken hem tek tek hem birleştirilmiş senaryonun maliyetini karşılaştırmalı gösteriyoruz, böylece kararı net verilere göre verebiliyorsunuz.",
+            },
+            {
+                soru: "Acil bir arıza çok noktalı planı bozar mı?",
+                cevap:
+                    "Bozabilir, bu yüzden acil çağrıları önceliklendiriyoruz ama planlı turu tamamen iptal etmek yerine mümkünse yeniden sıralıyoruz. Acil arızanın konumu, o günkü güzergaha yakınsa turun bir parçası olarak eklenebilir; uzaksa ayrı bir sefer gerekebilir ve bu durumda maliyet planlı turdan daha yüksek olur. Acil durumu bildirdiğinizde önce filo ve güzergah durumunu kontrol edip gerçekçi bir süre veriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. GAOSB'nin çok bölgeli yapısı daha önceki bölge sayfalarında da işlenen kamuya açık bilgidir. Çok noktalı güzergah planlama yaklaşımı sahadaki tekrarlı lojistik pratiğinden çıkarılmıştır; belirli müşteri, şube veya nokta adı verilmez.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Gaziantep'te Zor Zemin ve Açık Saha Platform Kiralama",
+        giris:
+            "Bu sayfada dürüst bir kapsam belirlemek gerekiyor: Gaziantep'teki hizmetimizin ağırlığı GAOSB'nin dokuma-boyahane-gıda tesisleri ve tarihi çarşının dar sokaklarıdır, yani büyük ölçüde beton veya stabilize zeminli, yapılaşmış alanlardır. Geniş tarım arazilerinde veya kırsal, hazırlıksız tarlalarda düzenli çalışma talebimiz sınırlıdır ve bu tür işler için özel bir uzmanlığımız yoktur. Buna karşılık, OSB içindeki inşaat hâlindeki hollerin stabilize veya dolgu zeminleri, Nizip'teki zeytinyağı ve tarım ürünleri tesislerinin açık saha ve depolama alanları, ve yağış sonrası yumuşayan OSB dış saha bölgeleri gibi 'zor ama yapılaşmış sanayi sahası' zemin türlerinde düzenli deneyimimiz var. Bu sayfada hangi zor zemin senaryolarını gerçekten kapsadığımızı, hangilerinde dürüstçe sınırlı kaldığımızı ve açık saha işlerinde makine seçim mantığımızı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İnşaat hâlindeki hollerde stabilize ve dolgu zemin",
+                metin:
+                    "Yeni yapılan sanayi hollerinde beton henüz dökülmemiş olabilir; bu durumda stabilize toprak veya kaba dolgu zeminde çalışmak gerekir. Bu koşullarda lastikli veya paletli 4x4 dizel platform, standart akülü makaslı platforma göre çok daha uygun bir seçimdir çünkü düzensiz zeminde denge ve manevra kabiliyeti daha yüksektir.",
+            },
+            {
+                baslik: "Nizip'teki açık saha tarım ve zeytinyağı tesislerinde zemin",
+                metin:
+                    "Nizip OSB'deki tarım ürünleri deposu ve zeytinyağı tesislerinin açık saha ve yükleme alanları çoğunlukla stabilize veya beton kaplıdır; bu, kırsal bir tarla zemininden farklıdır çünkü sanayi sahası olarak düzenlenmiştir. Bu tür sahalarda lastikli veya paletli bomlu makine rahatça manevra eder; sadece yağışlı günlerin ardından zeminin oturmasını beklemek gerekir.",
+            },
+            {
+                baslik: "Yağış sonrası zemin yumuşaması ve bekleme kararı",
+                metin:
+                    "Gaziantep'te özellikle kış aylarında yağış sonrası açık saha ve stabilize zeminler geçici olarak yumuşayabilir. Bu durumda ağır bir makineyi zemine sokmak hem makinenin batma riskini hem de zeminin kalıcı hasar görme riskini artırır. Bu tür durumlarda işi birkaç gün ertelemeyi veya zemine geçici taşıma plakası döşemeyi öneriyoruz.",
+            },
+            {
+                baslik: "Gerçek tarım arazisi ve kırsal iş taleplerinde kapsam sınırı",
+                metin:
+                    "Şehir dışındaki gerçek tarım arazilerinde, örneğin bir sera kompleksinin veya çiftlik binasının hazırlıksız toprak zemininde düzenli çalışma talebimiz azdır ve bu koşullar için özel ekipman veya deneyim biriktirmiş değiliz. Böyle bir talep gelirse, önce zemin fotoğrafı ve koşulunu isteyip dürüstçe değerlendiriyoruz; uygun olmadığını düşündüğümüz durumlarda bunu açıkça söylüyoruz.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi kontrolü ve yük dağıtım plakası",
+                metin:
+                    "Zor zeminlerde çalışırken makinenin toplam ağırlığının zemine yaydığı basınç, zeminin taşıma kapasitesini aşmamalıdır. Şüpheli zeminlerde ayak (outrigger) veya tekerlek altına yük dağıtım plakası konur; bu, hem makinenin batmasını hem zeminde kalıcı iz oluşmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipine göre kapsam ve makine tercihi",
+                paragraflar: [
+                    "Gaziantep'teki farklı zor zemin senaryolarını ve bunlardaki kapsamımızı aşağıda dürüstçe özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Kapsam", "Uygun sınıf", "Not"],
+                    satirlar: [
+                        ["İnşaat hâlindeki hol (stabilize/dolgu)", "Düzenli deneyim", "4x4 dizel lastikli/paletli", "Zemin kür durumu kontrol edilir"],
+                        ["OSB açık saha/depolama", "Düzenli deneyim", "Lastikli-paletli bomlu", "Yağış sonrası bekleme"],
+                        ["Yağış sonrası yumuşamış zemin", "Düzenli deneyim, dikkatli planlama", "Yük dağıtım plakalı", "Gerekirse erteleme"],
+                        ["Gerçek tarım arazisi/kırsal toprak", "Sınırlı, özel uzmanlık yok", "Değerlendirme sonrası", "Dürüstçe reddedilebilir"],
+                        ["Şüpheli taşıma kapasiteli zemin", "Düzenli deneyim", "Ayak altı plaka zorunlu", "Keşifte kontrol"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin değerlendirmesi nasıl yapılıyor",
+                paragraflar: [
+                    "Açık saha veya zemin durumu şüpheli olan her iş için, telefonda verilen tahmini bilgiyle makine göndermiyoruz; mümkünse fotoğraf, mümkün değilse yerinde keşifle zeminin türünü (beton, stabilize, dolgu, doğal toprak) ve o anki nem durumunu değerlendiriyoruz.",
+                    "Zemin, planlanan makinenin ağırlığını güvenle taşıyamayacak durumdaysa üç seçenek sunuyoruz: işi zeminin kuruyacağı bir tarihe ertelemek, yük dağıtım plakası kullanmak, veya daha hafif bir makine sınıfına geçmek. Hangi seçeneğin uygun olduğuna birlikte karar veriyoruz.",
+                ],
+            },
+            {
+                baslik: "Kapsam dışı taleplerde yönlendirme",
+                paragraflar: [
+                    "Gerçek tarım arazisi veya kırsal, hazırlıksız zeminde düzenli iş talebi geldiğinde, bunu üstlenmek yerine dürüstçe sınırımızı belirtiyoruz; bu tür işler için arazi tipi ekipmanda uzmanlaşmış başka bir tedarikçiyi araştırmanızı öneriyoruz. Amacımız, uygun olmadığımızı bildiğimiz bir işi üstlenip sahada sorun yaşamak yerine, baştan doğru beklenti kurmak.",
+                    "Sınırda kalan durumlarda (örneğin OSB'ye yakın ama tam sanayi sahası sayılmayan bir arazi), zemin fotoğrafını görüp değerlendirdikten sonra karar veriyoruz; kesin bir kural yerine somut duruma bakıyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gerçek bir tarlada veya kırsal arazide çalışabiliyor musunuz?",
+                cevap:
+                    "Dürüst olmak gerekirse, bu bizim ana uzmanlık alanımız değil. Hizmetimiz büyük ölçüde GAOSB'nin sanayi tesisleri ve Gaziantep'in ticaret-yerleşim dokusu üzerine kurulu; gerçek tarım arazilerinde veya hazırlıksız toprak zeminde düzenli çalışma deneyimimiz sınırlı. Böyle bir talep gelirse zemin fotoğrafını isteyip değerlendiriyoruz; uygun olmadığını düşündüğümüz durumlarda bunu açıkça söylüyor ve arazi tipi ekipmanda uzmanlaşmış bir tedarikçi aramanızı öneriyoruz. Riski göze alıp uygun olmayan bir işi üstlenmiyoruz.",
+            },
+            {
+                soru: "İnşaat hâlindeki bir holde zemin henüz beton değil, çalışabilir misiniz?",
+                cevap:
+                    "Evet, bu bizim düzenli deneyimimiz olan bir alan. Stabilize toprak veya sıkıştırılmış dolgu zeminlerde 4x4 dizel lastikli veya paletli platform kullanıyoruz; bu sınıf düzensiz zemine göre tasarlanmıştır. Zemin çok yumuşak veya çamurluysa, iş başlamadan önce zeminin sıkıştırılmasını veya geçici bir taşıma plakası döşenmesini öneriyoruz. Zemin durumu şüpheliyse keşifte yerinde kontrol ediyoruz.",
+            },
+            {
+                soru: "Yağış sonrası açık sahada hemen çalışabilir misiniz, yoksa bekliyor musunuz?",
+                cevap:
+                    "Zeminin türüne ve yağış miktarına göre değişir. Beton veya iyi sıkıştırılmış stabilize zeminlerde yağıştan kısa süre sonra da çalışılabilir, ama gevşek dolgu veya doğal toprak zeminlerde yağış sonrası birkaç gün beklemek gerekebilir çünkü zemin geçici olarak yumuşar ve makinenin batma riski artar. Acil bir iş varsa, bekleme yerine yük dağıtım plakası kullanarak riski azaltmayı deniyoruz; ama zemin çok riskliyse dürüstçe ertelemeyi öneriyoruz.",
+            },
+            {
+                soru: "Zemin taşıma kapasitesini nasıl ölçüyorsunuz, laboratuvar testi mi yapıyorsunuz?",
+                cevap:
+                    "Hayır, laboratuvar testi yapmıyoruz; bu, saha gözlemine dayanan pratik bir değerlendirme. Zeminin türünü, o anki nem durumunu ve varsa daha önce üzerinden ağır araç geçip geçmediğini gözlemleyerek karar veriyoruz. Şüpheli bir durumda, riski göze almak yerine daha hafif bir makine sınıfına geçmeyi veya yük dağıtım plakası kullanmayı tercih ediyoruz. Çok kritik veya büyük ölçekli bir iş için zemin etüdü gerekiyorsa, bunu sizin kendi mühendisiniz veya danışmanınızla koordine etmenizi öneriyoruz; bu bizim uzmanlık alanımızın dışında.",
+            },
+            {
+                soru: "Nizip'teki açık tarım tesisi sahası ile gerçek bir tarla arasındaki fark ne?",
+                cevap:
+                    "Nizip OSB'deki tarım ürünleri deposu ve zeytinyağı tesislerinin açık sahaları, sanayi sahası olarak düzenlendiği için genellikle stabilize veya beton kaplıdır; bu, hazırlıksız bir tarla zemininden temelde farklıdır. Bizim düzenli deneyimimiz bu tür düzenlenmiş sanayi sahalarında; gerçek bir tarlanın doğal toprak zemininde ise deneyimimiz sınırlı. Bir sahanın hangi kategoriye girdiğinden emin değilseniz, fotoğrafını paylaşmanızı isteriz, birlikte değerlendiririz.",
+            },
+            {
+                soru: "Zor zeminde çalışırken makine zarar görürse sorumluluk kimde?",
+                cevap:
+                    "Zemin değerlendirmesini biz yapıp uygun makineyi ve gerekirse yük dağıtım plakasını önerdiğimiz için, doğru değerlendirme yapıldıysa risk düşük kalır. Ancak zemin koşulu hakkında bize yanlış veya eksik bilgi verilmişse (örneğin gizli bir boşluk veya önceden bilinmeyen yumuşak bölge), bu durumun sorumluluğu ayrıca değerlendirilir; bu tür ayrıntılar sözleşmede önceden netleştirilir. Şüpheli bir zeminde çalışmadan önce durumu açıkça konuşmak, sonradan çıkabilecek anlaşmazlıkları önlüyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in GAOSB sanayi dokusu ve Nizip'in tarım-zeytinyağı sanayisi kamuya açık genel bilgidir. Zemin değerlendirme yaklaşımı genel ekipman güvenliği pratiğine dayanır; kapsam dışı bırakılan tarım arazisi alanı dürüstçe belirtilmiştir, uydurma kapasite veya rakam verilmemiştir.",
+    },
 };

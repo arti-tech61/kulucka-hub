@@ -914,4 +914,1111 @@ export const MANLIFTKIRALA_ONLINE: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Mustafakemalpaşa'nın Bursa merkezine olan mesafesi ve ilçe OSB niteliği kamuya açık coğrafi bilgidir; güzergâh birleştirmesi, tarih esnekliği ve tek sevkiyat planlaması firma pratiğidir. Tesis ve marka adı verilmemiş, rakam uydurulmamıştır.",
     },
+
+    // ─────────────────────────────────────────────────────────────────────
+    // HİZMET SAYFALARI (/hizmet/[slug]) — 11 sabit slug
+    //
+    // Açı: .online uzantısının kendine özgü vaadi — telefon/WhatsApp üzerinden
+    // HIZLI TEKLİF ve AYNI GÜN SEVKİYAT süreci. Yukarıdaki bolge:* kayıtları
+    // "tedarik ritmi" (ana sanayi üretim planına bağlı bakım penceresi)
+    // merceğini kullanıyor; bu hizmet sayfaları farklı bir eksende durur —
+    // müşterinin talebi ilettiği andan makinenin sahada olduğu ana kadar
+    // geçen SÜREÇ. Kardeş domainler bursamanlift-net.ts (OSB kapı prosedürü/
+    // rota birleştirme) ve bursamanliftkiralama-net.ts (uzun dönem sözleşme
+    // lojistiği) aynı hizmet slug'larını FARKLI merceklerle işlemiş; bu
+    // dosya onlarla cümle/tablo/SSS paylaşmaz.
+    //
+    // nakliye-teslimat-hizmeti ve operatorlu-platform-kiralama ANA KONU
+    // olarak en detaylı işlenmiştir (hızlı teklif sürecinin iki ayağı).
+    // Yazım: 2026-08-14.
+    // ─────────────────────────────────────────────────────────────────────
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli / Örümcek Platform — Hızlı Teklif ile Kiralama",
+        giris:
+            "Sepetli platform (örümcek platform) talepleri genellikle dar bir zaman penceresinde gelir: cephe boyama ekibi yarın sabah sahada olacaktır, ışıklık camı çatlamıştır ve hafta sonuna kalmadan kapatılmalıdır, ya da bir tabela firması vinç yerine daha çevik bir çözüm arar. manliftkirala.online'ın işleyiş mantığı tam bu darlığa göre kurulmuştur: telefon ya da WhatsApp üzerinden ölçü ve zemin bilgisini paylaştığınızda, aynı görüşme içinde uygun şase genişliği ve erişim mesafesine göre bir öneri ve fiyat alırsınız — form doldurup e-posta yanıtı beklemek yerine, konuşma bitmeden karar verebileceğiniz bir teklif. Örümcek platformun kendine özgü avantajı (dar kapıdan geçebilmesi, paletli tabanla düz olmayan zeminde durabilmesi) sahaya gitmeden önce fotoğrafla teyit edilir; makine, ölçüsü sahaya uymayan bir sürprizle değil, doğrulanmış bilgiyle yola çıkar. Bu sayfa, sepetli platform ihtiyacınızı hızlı teklif sürecine nasıl aktaracağınızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Telefonda hangi üç bilgi teklifi hızlandırır",
+                metin:
+                    "Bir sepetli platform talebinde fiyat ve uygunluk üç bilgiyle büyük ölçüde netleşir: hedef yükseklik (yaklaşık metre), zeminin türü (beton, toprak, parke taşı, eğimli) ve makinenin gireceği en dar geçit ölçüsü (kapı, koridor, bahçe kapısı genişliği). Bu üçü telefonda veya WhatsApp'ta paylaşıldığında, uygun şase genişliğine sahip modeller elenir ve size sahaya uyan seçenekler sunulur. Eksik bilgiyle verilen bir teklif, sahada makinenin sığmaması riskini taşır; bu yüzden eksik bilgi varsa teklif öncesi mutlaka sorarız.",
+            },
+            {
+                baslik: "WhatsApp'tan fotoğrafla ön değerlendirme",
+                metin:
+                    "Sesli anlatımın yetmediği durumlarda (örneğin dar bir bahçe girişi, engebeli bir avlu) WhatsApp üzerinden gönderilen 2-3 fotoğraf, telefon görüşmesinden çok daha hızlı netlik sağlar. Giriş kapısının, çalışılacak cephenin ve varsa engelin (ağaç, direk, kablo) fotoğrafı, doğru şase genişliğini ve erişim yönünü sahaya gitmeden belirlememizi sağlar. Bu ön değerlendirme, teklif aşamasında yanlış makine önerme riskini önemli ölçüde azaltır.",
+            },
+            {
+                baslik: "Aynı gün sevkiyat için zamanlama gerçeği",
+                metin:
+                    "Aynı gün sevkiyat, uygun makinenin o an müsait olmasına ve talebin gün içinde erken saatte gelmesine bağlıdır — bunu dürüstçe söylüyoruz çünkü tutulamayacak bir söz vermek istemiyoruz. Sabah erken saatte gelen taleplerde aynı gün teslim ihtimali yüksektir; öğleden sonra geç gelen bir talepte ertesi sabah ilk iş olarak planlama daha gerçekçidir. Aciliyetinizi belirttiğinizde, en yakın uygun makineyi ve gerçekçi bir saat aralığını ilk görüşmede söyleriz.",
+            },
+            {
+                baslik: "Dar geçitte örümcek platformun avantajı",
+                metin:
+                    "Standart makaslı veya eklemli platformların giremediği dar bahçe kapıları, apartman aralıkları veya iç avlularda örümcek platformun katlanabilir kolları ve dar şasesi devreye girer. Paletli tabanı sayesinde düz olmayan, hafif eğimli zeminlerde de destek ayaklarıyla dengelenerek çalışabilir. Bu esneklik, standart bir makas platformun reddedeceği pek çok sahayı çözüme kavuşturur — ama şase genişliği yine de bir alt sınıra sahiptir, bu yüzden en dar geçit ölçüsünü mutlaka paylaşmanızı isteriz.",
+            },
+            {
+                baslik: "Teslimat sonrası hızlı kullanım başlangıcı",
+                metin:
+                    "Makine sahaya ulaştığında kısa bir kullanım bilgilendirmesi yapılır (kumanda, acil durdurma, destek ayaklarının konumlandırılması) ve operatörünüz aynı gün çalışmaya başlayabilir. Operatörlü talep edildiyse, operatörümüz makineyle birlikte gelir ve ek bir bekleme süresi oluşmaz. Amacımız, sevkiyattan sonraki ilk saatte işin fiilen başlamış olmasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hızlı teklif için bilgi kontrol listesi",
+                paragraflar: [
+                    "Aşağıdaki bilgiler telefonda veya WhatsApp'ta paylaşıldığında, sepetli platform teklifi genellikle tek görüşmede netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Bilgi", "Neden gerekli", "Nasıl paylaşılır", "Eksikse ne olur"],
+                    satirlar: [
+                        ["Hedef yükseklik", "Doğru model sınıfını belirler", "Yaklaşık metre, sesli", "Sahada model değişikliği gerekebilir"],
+                        ["Zemin türü", "Destek ayağı ve lastik seçimini belirler", "Sesli tarif veya fotoğraf", "Sahada zemine uygun olmayan makine riski"],
+                        ["En dar geçit ölçüsü", "Şase genişliği sınırını belirler", "Metre veya fotoğraf", "Makine kapıdan geçemeyebilir"],
+                        ["Engel varlığı (ağaç, kablo)", "Erişim yönünü belirler", "Fotoğraf", "Sahada rota değişikliği gerekebilir"],
+                        ["Talep saati / aciliyet", "Sevkiyat sırasını belirler", "Sesli, ilk görüşmede", "Gerçekçi olmayan beklenti oluşabilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonla teklif ile sahada teklif farkı",
+                paragraflar: [
+                    "Basit ve tek katlı hedeflerde (örneğin tek bir cephe noktası, standart zemin) telefonla verilen teklif genellikle nihai fiyattan büyük sapma göstermez. Ama karmaşık sahalarda — birden fazla erişim noktası, belirsiz zemin durumu, dar ve dönemeçli bir giriş güzergâhı — telefonla verilen rakam bir ön tahmindir ve makinenin sahaya varışında kısa bir doğrulama yapılır. Bu doğrulama genellikle rakamı büyük ölçüde değiştirmez, ama şeffaflık adına baştan böyle söyleriz.",
+                    "Hızlı teklif sürecinin amacı sizi karanlıkta bırakmadan hızlı karar verdirmektir; belirsizlik varsa bunu gizlemek yerine açıkça belirtir, gerekirse fotoğraf isteyerek belirsizliği görüşme sırasında kapatmaya çalışırız.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli ve tek günlük taleplerde pratik yaklaşım",
+                paragraflar: [
+                    "Sepetli platform taleplerinin önemli bir kısmı tek günlük veya birkaç saatlik kısa işlerdir (ışıklık değişimi, tekil tabela montajı, küçük bir cephe onarımı). Bu tür kısa taleplerde süreci ağırlaştırmadan, telefonda verilen bilgiyle doğrudan sevkiyat planına geçeriz — uzun bir sözleşme süreci veya çok adımlı onay beklenmez.",
+                    "Kısa süreli talebinizin ne zaman biteceğini baştan belirtmeniz, makinenin bir sonraki talebe ne zaman yönlendirilebileceğini bizim için netleştirir ve bu da genel sevkiyat akışını hızlandırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Telefonda fiyat alabilir miyim, yoksa sahaya gelip mi bakmanız gerekir?",
+                cevap:
+                    "Çoğu durumda evet, telefonda veya WhatsApp'ta fiyat alabilirsiniz. Hedef yükseklik, zemin türü ve en dar geçit ölçüsünü paylaştığınızda, uygun model ve fiyat aralığını aynı görüşmede söyleriz. Karmaşık sahalarda (birden fazla erişim noktası, belirsiz zemin) bu rakam ön tahmindir ve sahada kısa bir doğrulama yapılır; ama basit ve standart taleplerin büyük çoğunluğunda telefonla verilen fiyat nihai fiyattır. Şüpheli bir nokta varsa bunu size baştan söyleriz, sürpriz fatura çıkarmayız.",
+            },
+            {
+                soru: "WhatsApp'tan fotoğraf göndersem işe yarar mı?",
+                cevap:
+                    "Kesinlikle yarar, hatta sesli anlatımdan daha hızlı netlik sağlar. Giriş kapısının, çalışılacak noktanın ve varsa engelin (ağaç, direk, kablo, eğim) fotoğrafı, doğru şase genişliğini ve erişim yönünü telefonla anlatmaya göre çok daha net gösterir. Özellikle dar bahçe girişleri veya engebeli avlularda fotoğraf, sahaya gitmeden 'bu makine buraya girer mi' sorusunu büyük ölçüde cevaplar.",
+            },
+            {
+                soru: "Aynı gün sevkiyat garantisi veriyor musunuz?",
+                cevap:
+                    "Garantili bir söz vermiyoruz çünkü bu, o anki makine müsaitliğine ve talebin geldiği saate bağlıdır — tutulamayacak bir söz vermektense dürüst bir tahmin vermeyi tercih ediyoruz. Sabah erken gelen taleplerde aynı gün teslim ihtimali yüksektir; günün ilerleyen saatlerinde gelen talepte genellikle ertesi sabah ilk iş olarak planlanır. Aciliyetinizi ilk görüşmede belirtirseniz, o anki en gerçekçi zaman aralığını hemen söyleriz.",
+            },
+            {
+                soru: "Bahçe kapımız çok dar, standart platform giremiyor; ne öneriyorsunuz?",
+                cevap:
+                    "Bu tam olarak örümcek platformun çözdüğü durum — katlanabilir kollar ve dar şase sayesinde standart makaslı platformların giremediği dar geçitlerden geçebilir. En dar geçit ölçüsünü (kapı genişliği, koridor darlığı) paylaşmanız, uygun model sınıfını belirlememiz için yeterli. Şase genişliğinin de bir alt sınırı olduğunu unutmayın; ölçü aşırı darsa (örneğin standart bir kapı genişliğinin çok altında) bunu size dürüstçe söyler, alternatif erişim noktası önerebiliriz.",
+            },
+            {
+                soru: "Zeminimiz düz değil, hafif eğimli ve toprak; bu bir sorun mu?",
+                cevap:
+                    "Genellikle sorun değil. Örümcek platformun paletli tabanı ve destek ayakları, düz olmayan ve toprak zeminlerde çalışmak için tasarlanmıştır — destek ayakları eğimi dengeler. Ancak eğim veya zemin yumuşaklığı belirli bir sınırı aşıyorsa (örneğin aşırı bataklık bir zemin) bunu telefonda veya fotoğrafla değerlendirir, gerekirse alternatif bir çözüm öneririz. Zemin türünü baştan paylaşmanız, sahada uygun olmayan makine riskini ortadan kaldırır.",
+            },
+            {
+                soru: "Operatörlü mü istemeliyim, kendim mi kullanmalıyım?",
+                cevap:
+                    "Bu, işin sıklığına ve ekibinizin deneyimine bağlı bir tercih; her iki seçenek de sunulur. Tek seferlik veya kısa süreli işlerde operatörlü kiralama, öğrenme süresi olmadan işe başlamayı sağlar ve operatörümüz makineyle birlikte gelir. Ekibinizde platform kullanımına aşina personel varsa operatörsüz seçenek maliyeti düşürür. Talebinizi iletirken bu tercihi belirtirseniz, teklif buna göre şekillenir; kararsızsanız, işin niteliğine göre önerimizi paylaşırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Örümcek platformun teknik özellikleri (paletli taban, katlanabilir kol, dar şase) üretici genel bilgisidir. Hızlı teklif süreci, WhatsApp fotoğraf değerlendirmesi ve aynı gün sevkiyat koşulları firma pratiğidir. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Manlift Nakliye ve Teslimat — Telefonla Teklif, Aynı Gün Sevkiyat",
+        giris:
+            "manliftkirala.online adının kendisi bir vaat taşır: kiralama sürecinin başından teslimata kadar mümkün olduğunca uzaktan, hızlı ve dijital kanaldan yürümesi. Nakliye-teslimat hizmetimiz bu vaadin fiilen test edildiği aşamadır — çünkü teklif ne kadar hızlı verilirse verilsin, makinenin sahada olmadığı sürece iş başlamaz. Süreç şöyle işler: telefon veya WhatsApp üzerinden talebiniz alınır, ölçü ve zemin bilgisiyle uygun makine belirlenir, sevkiyat aracı planlanır ve makine, mümkün olan en kısa sürede kapınıza gelir. Bu sürecin her adımında amacımız, sizi bir sonraki adımı beklemek zorunda bırakmadan ilerletmektir — form doldurup gün sonu yanıtı beklemek yerine, konuşma biterken sevkiyat saati elinizde olur. Bu sayfa, nakliye sürecinin her adımını ve gerçekçi zamanlama beklentilerini detaylı biçimde anlatıyor; bu hizmetin doğru çalışması, sitenin genel vaadinin doğru çalışması demektir.",
+        maddeler: [
+            {
+                baslik: "Talep alma: telefon mu, WhatsApp mı, form mu",
+                metin:
+                    "Üç kanal da açıktır ama hız sıralaması nettir: telefon görüşmesi en hızlı karara ulaştırır çünkü karşılıklı soru-cevapla eksik bilgi anında tamamlanır. WhatsApp, özellikle fotoğraf paylaşımı gerektiğinde telefonu tamamlar — sesle anlatılması zor bir zemin ya da geçit ölçüsü, tek bir fotoğrafla netleşir. Web formu ise gün içinde meşgul olup daha sonra dönmek isteyenler için pratiktir, ama yanıt süresi doğal olarak telefon veya WhatsApp'a göre biraz daha uzundur. Aciliyetiniz varsa telefon veya WhatsApp'ı öneririz.",
+            },
+            {
+                baslik: "Sevkiyat kararını belirleyen üç faktör",
+                metin:
+                    "Bir talebin ne zaman sevk edileceği üç şeye bağlıdır: talebin geldiği saat (sabah erken talep, aynı gün sevkiyat ihtimalini artırır), uygun makinenin o an müsaitliği (aynı sınıf makine başka bir sahada çalışıyorsa sıradaki uygun makine yönlendirilir) ve sahaya mesafe (yakın bölgelere sevkiyat süresi doğal olarak kısadır). Bu üç faktörü ilk görüşmede değerlendirip size gerçekçi bir saat aralığı söyleriz — 'birazdan geliriz' gibi belirsiz bir ifade yerine, somut bir zaman dilimi.",
+            },
+            {
+                baslik: "Sevkiyat aracı ve indirme noktası planlaması",
+                metin:
+                    "Makine boyutuna göre uygun taşıyıcı araç (kamyon üstü, römork, lowbed) belirlenir ve sahaya en yakın, güvenli indirme noktası önceden konuşulur. Dar sokak, düşük tesisli geçit veya sınırlı manevra alanı gibi durumlar telefon görüşmesinde sorulur; bu bilgi eksik kaldığında sahada aracın manevra yapamaması gibi gecikmeler yaşanabilir. Sokak genişliği veya giriş kısıtı konusunda emin değilseniz, fotoğraf göndermeniz en pratik çözümdür.",
+            },
+            {
+                baslik: "Teslim tutanağı ve makine durumu kaydı",
+                metin:
+                    "Makine sahaya ulaştığında kısa bir teslim tutanağı düzenlenir: sayaç/saat değeri, görünür kozmetik durum ve teslim alan kişinin bilgisi. Bu belge, hem sizin hem bizim için kiralama süresi boyunca referans noktasıdır ve iade sırasındaki durumla karşılaştırılır. Tutanak süreci birkaç dakika sürer ve sevkiyatın doğal bir parçasıdır; sürpriz bir evrak yükü getirmez.",
+            },
+            {
+                baslik: "İade süreci: sevkiyatın ayna görüntüsü",
+                metin:
+                    "Kiralama süresi dolduğunda veya erken iade talep ettiğinizde, süreç girişin tersine işler: iade tarihini bildirirsiniz, taşıyıcı araç planlanır, makine alınırken ikinci bir durum tutanağı tutulur. İki tutanak arasında normal aşınma dışında bir fark varsa bu noktada birlikte değerlendirilir. İade talebinizi mümkün olduğunca erken bildirmeniz, sevkiyat aracının programımıza sorunsuz yerleşmesini sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Talep saatine göre gerçekçi sevkiyat beklentisi",
+                paragraflar: [
+                    "Aynı gün sevkiyat ihtimali, talebin geldiği saate ve makine müsaitliğine göre değişir. Aşağıdaki tablo genel bir beklenti çerçevesi sunar; kesin saat, telefon görüşmesinde teyit edilir.",
+                ],
+                tablo: {
+                    basliklar: ["Talep saati", "Aynı gün sevkiyat ihtimali", "Alternatif", "Önerilen kanal"],
+                    satirlar: [
+                        ["Sabah erken (mesai başı)", "Yüksek", "—", "Telefon"],
+                        ["Öğle civarı", "Orta — müsaitliğe bağlı", "Aynı gün geç saat veya ertesi sabah", "Telefon / WhatsApp"],
+                        ["Öğleden sonra geç", "Düşük", "Ertesi sabah ilk iş", "WhatsApp (gece de yanıtlanabilir)"],
+                        ["Acil / güvenlik riski", "Öncelikli değerlendirme", "En yakın uygun makine yönlendirilir", "Telefon (doğrudan arama)"],
+                        ["Planlı, tarih esnek", "Programa göre en uygun gün", "Erken bildirimle optimum eşleşme", "WhatsApp / form"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevkiyat gecikmesini önleyen bilgi paylaşımı",
+                paragraflar: [
+                    "Sevkiyat sürecinde en sık karşılaşılan gecikme nedeni, sahaya varan aracın beklenmedik bir erişim engeliyle karşılaşmasıdır — dar bir sokak, kapalı bir kapı, bulunamayan bir adres. Bunların büyük kısmı, talep aşamasında birkaç dakikalık ek bilgi paylaşımıyla önlenebilir: tam adres, varsa özel giriş talimatı, kapı kodu veya irtibat kişisinin telefonu.",
+                    "WhatsApp üzerinden konum paylaşımı (canlı konum veya harita pini), özellikle sanayi bölgelerinde parsel numaralandırmasının karışık olduğu durumlarda sözlü adres tarifinden çok daha güvenilirdir. Bu küçük ek adım, sahaya varış süresini belirgin biçimde kısaltır.",
+                ],
+            },
+            {
+                baslik: "Çoklu teslimat ve rota birleştirme",
+                paragraflar: [
+                    "Tarihi esnek olan talepler için, aynı gün veya yakın günlerde aynı bölgeye giden başka bir sevkiyatla birleştirme imkânı değerlendirilir. Bu, özellikle merkeze uzak bölgelerdeki taleplerde nakliye maliyetini düşürür çünkü taşıyıcı araç bölgeye zaten gidiyorsa, ek bir müşteriyi aynı güzergâhta teslim etmek marjinal bir maliyet artışıdır.",
+                    "Bu tür bir eşleştirme istiyorsanız, talebinizi iletirken 'tarih esnek' notunu eklemeniz yeterlidir; kesin tarihi olan acil talepler ise standart programa göre en hızlı şekilde planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Telefonla arasam ne kadar sürede sevkiyat saati öğrenirim?",
+                cevap:
+                    "Genellikle aynı görüşme içinde. Hedef yükseklik, zemin ve erişim bilgisini paylaştığınızda, o anki makine müsaitliğini kontrol eder ve size gerçekçi bir saat aralığı söyleriz. Bazı durumlarda (örneğin sahaya özel bir erişim sorusu varsa) birkaç dakikalık bir teyit araması gerekebilir, ama bu istisnadır — çoğu talepte tek görüşme yeterlidir.",
+            },
+            {
+                soru: "Aynı gün teslimat için en geç saat kaça kadar aramalıyım?",
+                cevap:
+                    "Kesin bir saat vermek yerine dürüst olalım: sabah erken gelen talepler aynı gün teslimat için en yüksek şansa sahiptir, günün ilerleyen saatlerinde gelen talepler ise makinenin ve taşıyıcı aracın o anki programına bağlıdır. Aciliyetiniz varsa öğleden sonra bile arayın — bazen aynı gün, bazen ertesi sabah ilk iş olarak planlanır; hangisi mümkünse ilk görüşmede söyleriz, boş vaat vermeyiz.",
+            },
+            {
+                soru: "Sahamız dar bir sokakta, taşıyıcı araç girebilir mi bilmiyorum; ne yapmalıyım?",
+                cevap:
+                    "En pratik çözüm WhatsApp'tan sokağın ve giriş noktasının fotoğrafını göndermenizdir. Bu, sözlü tarife göre çok daha net bir değerlendirme sağlar ve gerekirse alternatif bir indirme noktası veya daha küçük şaseli bir taşıyıcı önerebiliriz. Bu bilgiyi sevkiyat öncesi netleştirmek, aracın sahada manevra sorunu yaşayıp geri dönmesi gibi gecikmeleri önler.",
+            },
+            {
+                soru: "Teslim tutanağı zorunlu mu, imzalamak zorunda mıyım?",
+                cevap:
+                    "Evet, her teslimde kısa bir teslim tutanağı düzenlenir ve bu, sizin de yararınızadır — makinenin teslim anındaki durumu (sayaç, kozmetik durum) kayıt altına alınır ve iade sırasında bu kayıtla karşılaştırılır. Tutanak süreci birkaç dakika sürer, sevkiyatın standart bir parçasıdır. İmzalayan kişinin sahada yetkili biri olması yeterlidir; ayrıca bir belge veya evrak süreci gerekmez.",
+            },
+            {
+                soru: "İade tarihini ne kadar önce bildirmeliyim?",
+                cevap:
+                    "Ne kadar erken bildirirseniz, taşıyıcı araç programımıza o kadar sorunsuz yerleşir. Aynı gün veya ertesi gün iade talepleri genellikle karşılanabilir, ama birkaç gün önceden bildirim, hem sizin için daha esnek bir saat seçme imkânı yaratır hem de bizim için planlamayı kolaylaştırır. İade sırasında da kısa bir durum tutanağı tutulur; bu, teslim anındaki kayıtla karşılaştırılır.",
+            },
+            {
+                soru: "Bölgemiz merkeze uzak, nakliye maliyeti yüksek mi olur?",
+                cevap:
+                    "Mesafeye bağlı olarak nakliye bedeli değişebilir, ama tarihi esnek tutarsanız bu maliyeti düşürme imkânı vardır. Talebinizi 'tarih esnek' notuyla iletirseniz, aynı bölgeye giden başka bir sevkiyatla birleştirme imkânını değerlendiririz — taşıyıcı araç zaten o güzergâha gidiyorsa, ek teslimat marjinal bir maliyettir ve bu fark size yansır. Acil ve kesin tarihli talepler ise standart nakliye bedeliyle en hızlı şekilde planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Nakliye süreci adımları (talep alma, sevkiyat kararı, teslim tutanağı, iade) firma pratiğidir. Aynı gün sevkiyat, telefon/WhatsApp kanal hızı ve rota birleştirme koşulları genel işleyiş bilgisidir; tesis adı, mesafe rakamı ve kapasite uydurulmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Forklift ve İstifleme — Hızlı Teklif ile Kiralama",
+        giris:
+            "Forklift talepleri çoğu zaman platform talepleriyle aynı anda, tek bir sevkiyat operasyonunun parçası olarak gelir: bir malzeme indirilecek, bir palet yükseğe kaldırılacak veya bir depo düzenlemesi tek günde bitirilecektir. manliftkirala.online üzerinden forklift talebi de aynı hızlı teklif mantığıyla işler — yük ağırlığı, kaldırma yüksekliği ve zemin bilgisini telefonda veya WhatsApp'ta paylaştığınızda, uygun kapasitedeki forklift ve fiyat aynı görüşmede netleşir. Platform ve forklift ihtiyacınız aynı anda varsa, tek aramada ikisini birlikte planlarız ve mümkünse aynı sevkiyatta sahaya ulaştırırız — bu, hem nakliye maliyetini böler hem de iki ayrı koordinasyon yükünü tek görüşmeye indirir. Bu sayfa, forklift kiralama sürecinin hızlı teklif akışına nasıl uyduğunu ve dikkat edilmesi gereken kapasite/zemin uyumunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kapasite belirlemede telefonla hızlı doğrulama",
+                metin:
+                    "Forklift kapasitesi yük ağırlığı, kaldırma yüksekliği ve yükün merkez mesafesine (yükün çatal ucundan uzaklığı) göre belirlenir; bu üçü telefonda paylaşıldığında uygun kapasite sınıfı hızla netleşir. Yaklaşık bir tahminle aranmanız sorun değildir — 'yaklaşık bir palet ağırlığında, iki kat yüksekliğe kadar' gibi bir tarif bile bize başlangıç noktası verir; kesin rakamı netleştirmek için birkaç ek soru sorarız.",
+            },
+            {
+                baslik: "Zemin uyumu: iç mekan mı, dış saha mı",
+                metin:
+                    "İç mekan (depo, fabrika içi) ve dış saha (açık alan, düzensiz zemin) forklift ihtiyaçları farklı lastik ve şase özelliği gerektirir; bu ayrımı ilk görüşmede sorarız. Kapalı, düz beton zeminde çalışan bir dolgu lastikli forklift, engebeli dış sahada aynı verimi göstermeyebilir. Zemin türünü baştan belirtmeniz, sahaya uygun olmayan makine gönderme riskini ortadan kaldırır.",
+            },
+            {
+                baslik: "Platform ile birlikte tek sevkiyat planlaması",
+                metin:
+                    "Aynı sahada hem forklift hem platform ihtiyacı varsa (örneğin malzeme indirme forkliftle, yükseğe montaj platformla yapılacaksa), tek aramada ikisini birlikte planlarız. Uygun taşıyıcı araç iki makineyi aynı seferde taşıyabiliyorsa, nakliye bedeli tek sefere yayılır ve koordinasyon tek görüşmede tamamlanır — iki ayrı talep, iki ayrı bekleme süresi oluşturmaz.",
+            },
+            {
+                baslik: "Operatörlü forklift talebinde ehliyet/belge kontrolü",
+                metin:
+                    "Operatörsüz forklift talebinde, kullanacak personelin geçerli forklift operatörlük belgesine sahip olması beklenir; bu, hem güvenlik hem yasal sorumluluk açısından önemlidir. Belge durumu konusunda emin değilseniz, operatörlü seçeneği değerlendirmenizi öneririz — bu durumda operatör bizden gelir ve belge sorunu ortadan kalkar. Talep sırasında bu tercihi netleştirmeniz, sevkiyat planını doğru kurmamızı sağlar.",
+            },
+            {
+                baslik: "Kısa süreli istifleme işlerinde hızlı planlama",
+                metin:
+                    "Tek günlük veya birkaç saatlik istifleme işlerinde (bir konteyner boşaltma, bir palet düzenlemesi) süreci ağırlaştırmadan doğrudan sevkiyat planına geçeriz. Bu tür kısa taleplerde işin bitiş saatini baştan belirtmeniz, makinenin bir sonraki talebe ne zaman yönlendirilebileceğini netleştirir ve genel akışı hızlandırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapasite sınıfına göre hızlı eşleştirme",
+                paragraflar: [
+                    "Telefonda paylaşılan yaklaşık bilgiyle forklift kapasitesi genellikle şu şekilde eşleştirilir.",
+                ],
+                tablo: {
+                    basliklar: ["Yük tanımı (yaklaşık)", "Ortam", "Öncelikli soru", "Not"],
+                    satirlar: [
+                        ["Hafif palet, tek kat", "İç mekan, düz beton", "Kaldırma yüksekliği", "Standart dolgu lastik yeterli"],
+                        ["Ağır palet, çok kat raf", "İç mekan, dar koridor", "Koridor genişliği + yükseklik", "Dar şaseli model gerekebilir"],
+                        ["Konteyner/büyük hacim", "Dış saha, düz zemin", "Yük ağırlığı, merkez mesafesi", "Yüksek kapasite sınıfı"],
+                        ["Engebeli/düzensiz zemin", "Dış saha, açık alan", "Zemin fotoğrafı", "Arazi tipi lastik gerekebilir"],
+                        ["Platformla birlikte", "Değişken", "İki iş aynı gün mü", "Tek sevkiyatla planlanabilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yaklaşık bilgiyle başlamaktan çekinmeyin",
+                paragraflar: [
+                    "Forklift talebinde tam teknik rakamları bilmemeniz süreci durdurmaz. 'Bir palet ağırlığında', 'iki-üç raf katı yüksekliğinde' gibi günlük dille yapılan bir tarif, bizim için yeterli başlangıç noktasıdır. Kapasiteyi netleştirmek için birkaç tamamlayıcı soru sorarız ve gerekirse fotoğraf isteriz — teknik terim bilmeniz beklenmez.",
+                    "Bu yaklaşım, hızlı teklif sürecinin temel mantığıyla uyumludur: karar vermeniz için gereken bilgiyi biz sizden çıkarırız, sizin önceden teknik hazırlık yapmanız gerekmez.",
+                ],
+            },
+            {
+                baslik: "Operatörlü seçeneğin getirdiği hız",
+                paragraflar: [
+                    "Operatörlü forklift talebinde, makineyle birlikte gelen operatör sahada doğrudan işe başlar; ayrı bir eğitim veya alışma süresi gerekmez. Bu, özellikle tek seferlik veya nadiren forklift kullanan işletmeler için zaman kazandırır — makine geldiğinde iş de aynı anda başlar.",
+                    "Sık forklift ihtiyacı olan işletmeler için operatörsüz seçenek genellikle daha ekonomiktir, çünkü kendi personelinizin deneyimi tekrar eden işlerde zaten yeterlidir. Talebinizin sıklığına göre hangi seçeneğin daha uygun olduğunu görüşme sırasında birlikte değerlendirebiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift kapasitesini tam bilmiyorum, yine de teklif alabilir miyim?",
+                cevap:
+                    "Evet, kesinlikle. Günlük dille yaptığınız bir tarif ('bir palet ağırlığında', 'iki kat raf yüksekliğine kadar') bize başlangıç noktası verir; telefonda birkaç tamamlayıcı soruyla kapasiteyi birlikte netleştiririz. Teknik rakam bilmeniz şart değildir — bu bilgiyi doğru sınıfa çevirmek bizim işimiz. Emin olmadığınız bir nokta varsa fotoğraf göndermeniz de işe yarar.",
+            },
+            {
+                soru: "Hem platform hem forklift ihtiyacımız var, ayrı ayrı mı aramalıyız?",
+                cevap:
+                    "Hayır, tek aramada ikisini birlikte planlayabiliriz. İhtiyaçlarınızı aynı görüşmede paylaştığınızda, uygun taşıyıcı araç iki makineyi aynı seferde taşıyabiliyorsa nakliye tek sefere yayılır ve koordinasyon tek noktadan yürür. Bu, hem maliyeti düşürür hem de iki ayrı bekleme süresi oluşmasını önler.",
+            },
+            {
+                soru: "Operatörsüz forklift kiralarsam ehliyet/belge sormayacak mısınız?",
+                cevap:
+                    "Soracağız, çünkü bu hem güvenlik hem yasal sorumluluk açısından önemli. Operatörsüz talep ederken kullanacak personelin geçerli forklift operatörlük belgesine sahip olması beklenir. Belge durumunuz konusunda emin değilseniz, operatörlü seçeneği önermemiz mümkün — bu durumda operatörümüz makineyle birlikte gelir ve belge sorunu ortadan kalkar.",
+            },
+            {
+                soru: "Dış sahada, engebeli bir zeminde kullanacağız; standart forklift yeter mi?",
+                cevap:
+                    "Zemin türünü baştan belirtmeniz önemli çünkü iç mekan tipi bir forklift, engebeli dış sahada aynı verimi göstermeyebilir. Zemin durumunu (toprak, çakıl, eğim) telefonda tarif ederseniz veya fotoğraf gönderirseniz, dış saha koşullarına uygun lastik ve şase özelliğine sahip bir model öneririz. Bu ayrımı önceden yapmak, sahada uygun olmayan makine göndermek gibi bir gecikmeyi önler.",
+            },
+            {
+                soru: "Tek günlük, birkaç saatlik bir istifleme işi için de arayabilir miyim?",
+                cevap:
+                    "Evet, kısa süreli talepler için süreci ağırlaştırmıyoruz. İşin ne zaman biteceğini baştan belirtirseniz, makinenin bir sonraki talebe ne zaman yönlendirilebileceğini netleştirmiş oluruz ve bu genel sevkiyat akışını da hızlandırır. Tek günlük işlerde uzun bir sözleşme süreci veya çok adımlı onay beklemezsiniz — telefon görüşmesi genellikle yeterlidir.",
+            },
+            {
+                soru: "Forklift ile platformu aynı sevkiyatta getirmek maliyeti nasıl etkiler?",
+                cevap:
+                    "Genellikle olumlu etkiler çünkü tek taşıyıcı aracın iki makineyi aynı seferde taşıması, nakliye bedelinin iki ayrı sevkiyata bölünmesini önler. Bu birleştirme, makinelerin boyutuna ve taşıyıcı araç kapasitesine bağlıdır; talebinizi ilettiğinizde bu imkânı değerlendirir, mümkünse tek sevkiyat planı sunarız. Mümkün olmadığı durumlarda ise ayrı sevkiyat için en yakın uygun zamanı birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift kapasite/zemin uyumu ve operatörlük belgesi gereksinimi genel işleyiş bilgisidir. Hızlı teklif süreci ve platform ile birleşik sevkiyat imkânı firma pratiğidir. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom) — Hızlı Teklif ile Kiralama",
+        giris:
+            "Eklemli platform (boom) talepleri, düz bir yükseklik çözümünden çok bir 'ulaşılabilirlik' sorusudur: hedef doğrudan üstte değil, bir engelin arkasında, bir çıkıntının ötesinde veya bir yapının içine doğru uzanan bir noktadadır. Bu yüzden eklemli platform teklifinde standart yükseklik sorusu tek başına yetmez — kolun yatay erişim mesafesi ve dönüş açısı da işin içine girer. manliftkirala.online üzerinden bu bilgiyi telefonda veya WhatsApp'ta (mümkünse bir fotoğrafla) paylaştığınızda, hedefin gerçekten kol erişimi içinde olup olmadığını aynı görüşmede değerlendirir ve doğru model sınıfını önereriz. Bu sayfa, eklemli platform talebinde hangi bilgilerin belirleyici olduğunu ve hızlı teklif sürecinde nelere dikkat edildiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yükseklik yetmez: yatay erişim mesafesi de gerekli",
+                metin:
+                    "Eklemli platformun temel özelliği, sepetin yalnızca yukarı değil aynı zamanda yana ve öne doğru uzanabilmesidir. Bu yüzden telefonda yalnızca 'kaç metre yükseğe çıkacağız' sorusu yeterli değildir; hedefin, platformun konumlanacağı noktadan ne kadar yatay mesafede ve hangi yönde olduğu da belirleyicidir. Bir çıkıntının arkasındaki veya bir avlunun içindeki hedef, düz yükseklikten çok bu yatay erişim hesabına göre değerlendirilir.",
+            },
+            {
+                baslik: "Fotoğrafla erişim değerlendirmesi",
+                metin:
+                    "Sözle tarif edilmesi zor olan erişim engelleri (bir çatı çıkıntısı, bir ağaç dalı, bir elektrik hattı) fotoğrafla çok daha net anlaşılır. WhatsApp üzerinden gönderilen bir-iki fotoğraf, kolun hangi açıyla ve ne kadar uzanarak hedefe ulaşabileceğini önceden değerlendirmemizi sağlar; bu, sahada 'makine hedefe ulaşamadı' gibi bir sürprizi önler.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi ve makine ağırlığı",
+                metin:
+                    "Eklemli platformlar, sepetli platformlara göre genellikle daha ağırdır ve zeminin bu ağırlığı taşıyabilmesi gerekir. Asfalt veya sağlam beton zeminlerde bu genellikle sorun değildir, ama yumuşak toprak veya taze dökülmüş zeminlerde ek değerlendirme gerekebilir. Zemin türünü ve varsa yakın zamanda yapılmış bir zemin çalışmasını (yeni asfalt, yeni beton) belirtmeniz, doğru model ve destek çözümünü belirlememizi sağlar.",
+            },
+            {
+                baslik: "Aynı gün sevkiyat için model müsaitliği",
+                metin:
+                    "Eklemli platform sınıfı, sepetli platforma göre genellikle daha az sayıda modelden oluşur, bu yüzden aynı gün müsaitlik zaman zaman standart sepetli platforma göre daha sıkı olabilir. Bunu dürüstçe söylüyoruz: talebinizi erken saatte iletmeniz, uygun modelin o gün müsait olma ihtimalini artırır. Müsaitlik kısıtlıysa, en yakın uygun zamanı ve varsa alternatif model önerisini ilk görüşmede paylaşırız.",
+            },
+            {
+                baslik: "Dış cephe ve endüstriyel montaj işlerinde tipik kullanım",
+                metin:
+                    "Eklemli platform talepleri sıklıkla dış cephe boyama, tabela montajı, endüstriyel çelik konstrüksiyon montajı veya ağaç/bahçe bakımı gibi hedefin engelin ötesinde olduğu işlerden gelir. Bu işlerin ortak noktası, sepetin doğrudan altına değil, yandan veya üstten dolanarak hedefe ulaşması gerekliliğidir — bu yüzden telefon görüşmesinde işin niteliğini kısaca anlatmanız, doğru soru setini sormamıza yardımcı olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Erişim tipine göre bilgi ihtiyacı",
+                paragraflar: [
+                    "Eklemli platform teklifinde hangi bilgi hangi erişim tipi için kritik, aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim tipi", "Kritik bilgi", "En iyi paylaşım yolu", "Risk (bilgi eksikse)"],
+                    satirlar: [
+                        ["Doğrudan üst (engelsiz)", "Yükseklik", "Sesli, yaklaşık metre", "Düşük"],
+                        ["Çıkıntının arkası", "Yatay mesafe + yön", "Fotoğraf + sesli tarif", "Orta-yüksek"],
+                        ["Avlu/iç bahçe içi", "Giriş genişliği + hedef konumu", "Fotoğraf zorunlu", "Yüksek"],
+                        ["Elektrik hattı yakını", "Hat mesafesi", "Fotoğraf + net uyarı", "Güvenlik riski"],
+                        ["Yumuşak/yeni zemin", "Zemin türü, yaş", "Sesli tarif", "Makine ağırlığı taşıma riski"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kol erişiminin sınırlarını anlamak",
+                paragraflar: [
+                    "Her eklemli platform modelinin kendine özgü bir 'erişim zarfı' vardır — kolun ne kadar yükseğe çıkabildiği ve aynı anda ne kadar yatay uzanabildiğinin birlikte oluşturduğu sınır. Bir model maksimum yüksekliğe çıktığında yatay erişimi azalır, tam yatay uzandığında ise maksimum yüksekliğe ulaşamayabilir. Bu yüzden 'hem çok yüksek hem çok uzak' bir hedef, tek bir modelle her zaman çözülemeyebilir.",
+                    "Hedefin hem yükseklik hem yatay mesafesini paylaştığınızda, bu erişim zarfına uyan modeli seçer, uymuyorsa bunu size dürüstçe söyler ve alternatif bir yaklaşım (farklı konumlanma noktası, farklı model sınıfı) öneririz.",
+                ],
+            },
+            {
+                baslik: "Elektrik hattı yakınında ekstra dikkat",
+                paragraflar: [
+                    "Hedef bir elektrik hattına yakınsa, bu bilgiyi mutlaka ve en başta paylaşmanızı isteriz — bu, güvenlik açısından belirleyici bir kriterdir. Hat mesafesi ve gerilim seviyesi bilinmiyorsa bile 'yakınında elektrik hattı var' bilgisi tek başına, keşif ve planlama aşamasında ekstra dikkat gösterilmesini sağlar.",
+                    "Bu tür durumlarda telefon teklifini kesinleştirmeden önce ek bir teyit isteyebiliriz; bu, işin güvenli yürümesi için gereken bir adımdır ve süreci uzatmak için değil, riski önceden görmek için yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hedefimiz bir çıkıntının arkasında, düz yukarı bakan bir platform yetmez sanırım; ne önerirsiniz?",
+                cevap:
+                    "Haklısınız, bu tam olarak eklemli platformun çözdüğü durum. Sepetli/makaslı platform yalnızca dikey hareket ederken, eklemli platformun kolu hem yükselir hem yana/öne doğru uzanabilir. Çıkıntının arkasındaki hedefe ulaşmak için hedefin yatay mesafesini ve yönünü paylaşmanız gerekir — mümkünse bir fotoğrafla. Bu bilgiyle kolun erişim zarfına uyan modeli önereceğiz.",
+            },
+            {
+                soru: "Fotoğraf göndermeden telefonla tarif etsem yeterli olur mu?",
+                cevap:
+                    "Basit ve net erişimlerde (örneğin doğrudan üstte, engelsiz bir hedef) sesli tarif genellikle yeterlidir. Ama çıkıntı, avlu veya elektrik hattı gibi karmaşık erişim durumlarında fotoğraf, sözlü tarife göre çok daha güvenilir bir değerlendirme sağlar. Emin değilseniz fotoğraf göndermenizi öneririz — bu, sahada 'makine hedefe ulaşamadı' riskini önemli ölçüde azaltır.",
+            },
+            {
+                soru: "Zeminimiz yakın zamanda dökülmüş yeni beton; eklemli platform zarar verir mi?",
+                cevap:
+                    "Bu bilgiyi paylaşmanız önemli çünkü eklemli platformlar genellikle sepetli platformlara göre daha ağırdır ve taze dökülmüş zemin yeterince sertleşmemiş olabilir. Zeminin ne zaman döküldüğünü belirtirseniz, gerekiyorsa destek plakası kullanımı veya alternatif bir konumlanma noktası değerlendiririz. Bu bilgiyi paylaşmazsanız ve zemin gerçekten hazır değilse, sahada zemin hasarı riski oluşabilir.",
+            },
+            {
+                soru: "Aynı gün eklemli platform bulabilir misiniz, yoksa daha mı kısıtlı?",
+                cevap:
+                    "Dürüst cevap: eklemli platform sınıfı, sepetli platforma göre genellikle daha az modelden oluşur, bu yüzden müsaitlik zaman zaman daha kısıtlı olabilir. Talebinizi sabah erken saatte iletmeniz aynı gün müsaitlik ihtimalini artırır. Müsaitlik kısıtlıysa, en yakın uygun saati ve varsa alternatif bir model önerisini ilk görüşmede açıkça söyleriz; boş bir söz vermeyiz.",
+            },
+            {
+                soru: "Hedefimiz elektrik hattına yakın, bu bir sorun mu?",
+                cevap:
+                    "Bu bilgiyi mutlaka en başta paylaşmanızı isteriz çünkü güvenlik açısından belirleyici bir kriterdir. Hat mesafesi tam bilinmese bile 'yakınında elektrik hattı var' bilgisi, planlama aşamasında ekstra dikkat gösterilmesini sağlar. Bu tür durumlarda teklifi kesinleştirmeden önce ek bir teyit isteyebiliriz — bu, süreci uzatmak için değil, işin güvenli yürümesi için gereken bir adımdır.",
+            },
+            {
+                soru: "Hem yüksek hem uzak bir hedefimiz var, tek makine yeter mi?",
+                cevap:
+                    "Her zaman yetmeyebilir çünkü her modelin kendine özgü bir erişim zarfı vardır — maksimum yüksekliğe çıkarken yatay erişim azalır, tam yatay uzanırken maksimum yükseklik azalır. Hedefin hem yükseklik hem yatay mesafesini paylaştığınızda bu zarfa uyan modeli önereceğiz; uymuyorsa bunu dürüstçe söyler, farklı bir konumlanma noktası veya alternatif yaklaşım öneririz. Bu değerlendirmeyi genellikle telefon görüşmesinde, fotoğraf varsa daha kesin biçimde yaparız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun teknik erişim mantığı (yükseklik-yatay mesafe dengesi, erişim zarfı) genel makine bilgisidir. Hızlı teklif süreci ve fotoğrafla erişim değerlendirmesi firma pratiğidir. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekân ve Depo İçi Platform — Hızlı Teklif ile Kiralama",
+        giris:
+            "İç mekan ve depo içi platform talepleri, dış saha taleplerinden farklı bir soru seti gerektirir: burada zemin genellikle düzdür ama alan darlığı, tavan yüksekliği ve raf aralığı gibi kısıtlar öne çıkar. Ayrıca çoğu depo ve fabrika içi çalışma, üretim veya sevkiyat faaliyetinin devam ettiği bir ortamda yürür — bu yüzden makinenin ne zaman ve nereden gireceği de en az yükseklik kadar önemlidir. manliftkirala.online üzerinden iç mekan talebinde bu bilgileri telefonda paylaştığınızda, akülü (egzoz gazı çıkarmayan) model seçimi ve dar koridor uyumu aynı görüşmede değerlendirilir. Bu sayfa, iç mekan platform kiralamada hızlı teklif sürecinin nelere odaklandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Akülü model tercihinin nedeni",
+                metin:
+                    "Kapalı mekanlarda, özellikle havalandırması sınırlı depo ve fabrika içlerinde, egzoz gazı çıkaran dizel makineler yerine akülü modeller tercih edilir — bu hem hava kalitesi hem gürültü açısından önemlidir. İç mekan talebinde varsayılan öneri genellikle akülü modeldir; dış mekanla bağlantılı, havalandırması iyi büyük bir hol için farklı bir tercih söz konusu olabilir, bunu telefon görüşmesinde birlikte değerlendiririz.",
+            },
+            {
+                baslik: "Koridor genişliği ve raf arası çalışma",
+                metin:
+                    "Depo içi raf sistemleri arasında çalışacak bir platformun şase genişliği, koridor genişliğinden dar olmalıdır — bu ölçüyü telefonda paylaşmanız, dar şaseli model gerekip gerekmediğini belirler. Raf üstü işlerde ayrıca rafın kendi yüksekliği de hesaba katılır; hedefin raf üstünde mi yoksa raf arasında bir noktada mı olduğu, doğru model seçimini etkiler.",
+            },
+            {
+                baslik: "Üretim devam ederken çalışma: giriş-çıkış planlaması",
+                metin:
+                    "Fabrika veya depo içinde üretim durmadan platform çalışması gerektiğinde, makinenin gireceği kapı, çalışacağı bölge ve üretim hattına olan mesafesi önceden netleştirilir. Bu bilgi, sahada üretim akışını kesintiye uğratmadan doğru rotayla ilerlememizi sağlar. Üretimin hangi saatlerde daha sakin olduğunu (vardiya arası, öğle molası gibi) belirtmeniz, işin en uygun pencereye yerleştirilmesine yardımcı olur.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve tesisat/boru hattı işleri",
+                metin:
+                    "İç mekan taleplerinin önemli bir kısmı tesisat, boru hattı veya sprinkler bakımı gibi tavana yakın işlerden gelir. Bu işlerde tavan yüksekliği kadar, tavanın altındaki engellerin (kablo tavası, havalandırma kanalı, mevcut boru hattı) konumu da önemlidir — sepetin bu engellerin arasından geçerek hedefe ulaşması gerekir. Mümkünse tavan fotoğrafı paylaşmanız, bu değerlendirmeyi hızlandırır.",
+            },
+            {
+                baslik: "AVM ve hastane gibi hassas ortamlarda ek dikkat",
+                metin:
+                    "AVM, hastane gibi halka açık veya hassas kullanımlı yapılarda çalışma genellikle belirli saatlere (gece, kapalı saatler) veya özel güvenlik prosedürlerine tabidir. Bu tür taleplerde çalışma saati kısıtını ve varsa bina yönetiminin özel talimatlarını en başta paylaşmanız, sevkiyat ve çalışma planının bu kısıtlara göre kurulmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekan model seçiminde belirleyici sorular",
+                paragraflar: [
+                    "İç mekan talebinde telefonda sorduğumuz temel sorular ve neden önemli oldukları aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Soru", "Neden sorulur", "Etkilediği karar", "Paylaşım yolu"],
+                    satirlar: [
+                        ["Koridor/kapı genişliği", "Şase uyumu", "Model sınıfı", "Metre veya fotoğraf"],
+                        ["Tavan yüksekliği ve engeller", "Erişim hesabı", "Yükseklik sınıfı", "Fotoğraf tercih edilir"],
+                        ["Üretim devam ediyor mu", "Çalışma penceresi", "Sevkiyat saati", "Sesli"],
+                        ["Zemin türü (beton/epoksi)", "Lastik/iz bırakma riski", "Lastik tipi", "Sesli"],
+                        ["Bina türü (AVM/hastane/fabrika)", "Özel prosedür var mı", "Çalışma saati kısıtı", "Sesli, en başta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemine iz bırakmama önceliği",
+                paragraflar: [
+                    "Cilalı beton, epoksi kaplama veya hassas zeminli iç mekanlarda, standart lastikli bir makine zemine iz bırakabilir. Bu tür zeminlerde iz bırakmayan (non-marking) lastik seçeneği tercih edilir; zemin türünü baştan belirtmeniz, doğru lastik tipine sahip makinenin gönderilmesini sağlar.",
+                    "Zemin tipini bilmiyorsanız bile 'parlak, cilalı görünümlü' gibi bir tarif dahi bize yeterli ipucu verir; emin olmadığınız durumlarda güvenli tarafta kalıp iz bırakmayan lastik önermeyi tercih ederiz.",
+                ],
+            },
+            {
+                baslik: "Vardiya/mesai dışı çalışma tercihi",
+                paragraflar: [
+                    "Üretimi kesintiye uğratmak istemeyen işletmeler, iç mekan platform işlerini genellikle vardiya arası, mesai dışı veya hafta sonu gibi düşük yoğunluklu saatlere planlar. Bu tercihi baştan belirtirseniz, sevkiyat ve operatör planlamasını bu saatlere göre kurarız.",
+                    "Mesai dışı çalışma talep edildiğinde, bu bilgiyi ilk görüşmede netleştirmemiz, hem makine hem operatör müsaitliğini doğru saate göre ayırmamızı sağlar — son anda 'aslında gece istiyoruz' değişikliği planı zorlaştırabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depo içinde kullanacağız, dizel mi akülü mü almalıyız?",
+                cevap:
+                    "Kapalı mekanlarda, özellikle havalandırması sınırlıysa akülü model varsayılan önerimizdir çünkü egzoz gazı çıkarmaz ve daha sessizdir. Dış mekanla bağlantılı, iyi havalandırılan büyük bir holde farklı bir tercih de değerlendirilebilir. Mekanın havalandırma durumunu ve boyutunu telefonda kısaca tarif ederseniz, size en uygun seçeneği öneririz.",
+            },
+            {
+                soru: "Koridor genişliğimizi tam ölçmedik, yaklaşık bir tarif yeterli mi?",
+                cevap:
+                    "Başlangıç için yeterli, ama kesinleştirmeden önce net bir ölçü veya fotoğraf istememiz muhtemel çünkü şase genişliği koridordan dar olmalı ve bu konuda hata payı bırakmak istemeyiz. 'Bir forkliftin rahat geçtiği bir koridor' gibi bir tarif bile bize kabaca bir fikir verir; kesin ölçüyü telefon görüşmesi sırasında birlikte netleştiririz.",
+            },
+            {
+                soru: "Üretim durmadan çalışabilir misiniz?",
+                cevap:
+                    "Çoğu zaman evet, ama bu makinenin çalışacağı bölgenin üretim hattına olan mesafesine bağlıdır. Üretimin devam ettiğini ve hangi saatlerin daha sakin olduğunu (vardiya arası, öğle molası) belirtirseniz, işi bu pencerelere göre planlarız. Hattın doğrudan üzerinde veya çok yakınında bir çalışma söz konusuysa, kısa bir duruş gerekebilir; bunu keşif aşamasında netleştiririz.",
+            },
+            {
+                soru: "Zeminimiz cilalı/epoksi, makine iz bırakır mı?",
+                cevap:
+                    "Standart lastikli bir makine hassas zeminlerde iz bırakabilir, bu yüzden bu tür zeminlerde iz bırakmayan (non-marking) lastik seçeneğini öneririz. Zemin türünü baştan belirtirseniz, doğru lastik tipine sahip makineyi göndeririz. Emin değilseniz, 'parlak/cilalı görünümlü' gibi genel bir tarif bile yeterli bir ipucudur.",
+            },
+            {
+                soru: "AVM/hastane gibi bir yerde mesai dışı çalışmamız gerekiyor, mümkün mü?",
+                cevap:
+                    "Evet, bu tür ortamlarda genellikle gece veya kapalı saatlerde çalışma tercih edilir ve biz bu talebe uyum sağlarız. Bina yönetiminin özel güvenlik prosedürü varsa bunu en başta paylaşmanız, sevkiyat ve operatör planını buna göre kurmamızı sağlar. Mesai dışı çalışma talebini ilk görüşmede netleştirmeniz, makine ve operatör müsaitliğinin doğru saate göre ayrılmasını sağlar.",
+            },
+            {
+                soru: "Tavanda kablo tavası ve boru hatları var, platform bunların arasından geçebilir mi?",
+                cevap:
+                    "Genellikle evet, ama bunu doğrulamak için tavan fotoğrafı istememiz muhtemel — kablo tavası, havalandırma kanalı gibi engellerin konumu, sepetin hangi rotayla hedefe ulaşacağını belirler. Fotoğraf paylaşmanız bu değerlendirmeyi büyük ölçüde hızlandırır; paylaşamıyorsanız, keşif aşamasında sahada birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Akülü model tercihi, iz bırakmayan lastik ve dar koridor uyumu genel makine/uygulama bilgisidir. Hızlı teklif süreci ve mesai dışı çalışma planlaması firma pratiğidir. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montaj Platformu — Hızlı Teklif ile Kiralama",
+        giris:
+            "Çelik konstrüksiyon montaj işleri, platform taleplerinin en teknik ve en planlama gerektiren kategorisidir — burada tek bir makine değil, genellikle birden fazla makinenin (platform, forklift, bazen vinç) belirli bir sırayla ve montaj takvimine bağlı olarak sahada bulunması gerekir. manliftkirala.online üzerinden bu tür bir talep geldiğinde, hızlı teklif sürecimiz biraz farklı işler: ilk görüşmede genel kapsamı (kaç gün, hangi makine tipleri, hangi sıra) alır, ayrıntılı planı takip eden bir görüşmede veya sahada netleştiririz. Tek günlük bir platform talebi gibi anında fiyat vermek bu kategoride her zaman mümkün olmayabilir, ama süreci başlatmak yine tek bir telefon görüşmesi kadar hızlıdır. Bu sayfa, çelik konstrüksiyon montaj işlerinde hızlı teklif sürecinin nasıl işlediğini ve neyin ana konumuzun dışında kaldığını dürüstçe anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Montaj takvimine bağlı çok günlük planlama",
+                metin:
+                    "Sanayi holü veya çelik konstrüksiyon montajı genellikle tek günde bitmez; kolon dikimi, kiriş montajı, cephe kaplaması gibi aşamalar farklı günlere yayılır ve her aşamada farklı yükseklik veya erişim ihtiyacı doğabilir. Bu yüzden telefonda 'kaç gün sürecek, hangi aşamalarda platform gerekecek' sorusunu sorarız — tek günlük bir kiralamadan farklı olarak, burada süreç boyunca makine ihtiyacının değişebileceğini baştan konuşuruz.",
+            },
+            {
+                baslik: "Yüksek montaj noktalarında kapasite ve erişim",
+                metin:
+                    "Sanayi holü çatı kirişleri veya üst kolon bağlantıları gibi noktalar, standart bir depo tavanından daha yüksek olabilir ve bu, daha büyük kapasiteli eklemli platform sınıfını gerektirebilir. Hedef yüksekliği ve montaj noktasının konumunu (kirişin ortası mı, kenar bağlantısı mı) paylaşmanız, doğru sınıfın belirlenmesini hızlandırır.",
+            },
+            {
+                baslik: "Şantiye zemininin durumu ve makine ağırlığı",
+                metin:
+                    "İnşaat hâlindeki bir sahanın zemini genellikle henüz tam sertleşmemiş, kısmen dolgu yapılmış veya düzensiz olabilir. Bu, hem platformun hem forkliftin taşınma ve konumlanma kararını etkiler. Şantiyenin o anki zemin durumunu (sıkıştırılmış mı, henüz mü, engebeli mi) telefonda tarif etmeniz veya fotoğraf paylaşmanız, doğru makine ve varsa destek plakası ihtiyacını önceden belirlememizi sağlar.",
+            },
+            {
+                baslik: "Birden fazla makinenin koordinasyonu",
+                metin:
+                    "Büyük bir montaj işinde platform, forklift ve bazen malzeme taşıma ekipmanı aynı sahada, farklı zamanlarda veya eş zamanlı çalışabilir. Bu koordinasyonu tek elden yürütmek, sizin için ayrı ayrı arama yapma yükünü ortadan kaldırır — tüm ihtiyacınızı bize ilettiğinizde, sevkiyat sırasını ve sahadaki makine trafiğini biz planlarız.",
+            },
+            {
+                baslik: "Ana uzmanlık sınırımız: montaj mühendisliği değil, erişim ekipmanı",
+                metin:
+                    "Dürüstçe belirtmek isteriz: biz montaj mühendisliği veya statik hesap hizmeti sunmuyoruz — sağladığımız şey, montaj ekibinizin ihtiyaç duyduğu erişim ekipmanıdır (platform, forklift). Montaj planı, kaldırma hesapları ve iş güvenliği sorumluluğu montaj yükleniciniz ve mühendisiniz tarafından yürütülür; biz bu planın gerektirdiği makineyi doğru zamanda, doğru kapasitede sahaya ulaştırırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre tipik makine ihtiyacı",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajının farklı aşamalarında hangi makine türü öne çıkar, aşağıda genel bir çerçeve olarak özetlenmiştir. Kesin ihtiyaç, projenin kendine özgü koşullarına göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Tipik ihtiyaç", "Öncelikli soru", "Not"],
+                    satirlar: [
+                        ["Kolon dikimi", "Forklift + orta yükseklik platform", "Kolon yüksekliği", "Zemin sertliği kritik"],
+                        ["Kiriş montajı", "Yüksek kapasiteli eklemli platform", "Kiriş yüksekliği + erişim yönü", "Birden fazla nokta olabilir"],
+                        ["Cephe kaplaması", "Sepetli/makaslı platform (çok sayıda)", "Cephe alanı", "Aynı anda birden fazla makine gerekebilir"],
+                        ["Çatı işleri", "Eklemli platform veya sepetli", "Çatı eğimi, erişim noktası", "Güvenlik önceliği yüksek"],
+                        ["Son kontrol/rötuş", "Kısa süreli, tek makine", "Hangi noktalar kaldı", "Genellikle tek günlük"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk görüşmede kapsamı netleştirmek",
+                paragraflar: [
+                    "Çelik konstrüksiyon işlerinde ilk telefon görüşmesinin amacı kesin fiyat vermek değil, kapsamı ve zaman çizelgesini anlamaktır. Kaç gün süreceği, hangi aşamalarda hangi makine tipine ihtiyaç duyulacağı ve şantiyenin genel durumu (zemin, erişim, güvenlik prosedürü) bu ilk görüşmede toparlanır.",
+                    "Bu bilgiyle bir ön plan ve fiyat aralığı sunarız; proje ilerledikçe ihtiyaç netleştiğinde (örneğin belirli bir günde hangi makinenin geleceği), detaylar kesinleştirilir. Bu, tek günlük bir kiralamaya göre daha fazla iletişim gerektirir ama süreç yine telefon ve WhatsApp üzerinden, hızlı biçimde ilerler.",
+                ],
+            },
+            {
+                baslik: "Şantiyede birden fazla makinenin trafiği",
+                paragraflar: [
+                    "Aynı şantiyede birden fazla makine (platform, forklift, malzeme taşıma aracı) çalıştığında, bunların birbirine engel olmadan, güvenli mesafede hareket etmesi gerekir. Bu trafiği planlamak montaj yükleniciniz ve sahadaki iş güvenliği sorumlusuyla birlikte yürütülür; bizim katkımız, hangi makinenin ne zaman sahada olacağını önceden netleştirerek bu koordinasyonu kolaylaştırmaktır.",
+                    "Şantiye sahasının genel yerleşim planını (varsa) paylaşmanız, makinelerin park ve çalışma alanlarını önceden ayırt etmemize yardımcı olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Montaj işimiz birkaç gün sürecek, tek seferde mi kiralamalıyız yoksa aşama aşama mı?",
+                cevap:
+                    "Bu, montaj takviminize bağlı bir tercih. Bazı işlerde makineyi tüm süre boyunca sahada tutmak daha pratiktir; bazı işlerde ise yalnızca ilgili aşamada (örneğin kiriş montajı günlerinde) makine getirip, aşama bitince geri almak daha ekonomiktir. İlk görüşmede montaj takviminizi paylaşırsanız, hangi yaklaşımın sizin için daha uygun olduğunu birlikte değerlendiririz.",
+            },
+            {
+                soru: "Şantiye zeminimiz henüz tam sertleşmedi, platform çalışabilir mi?",
+                cevap:
+                    "Genellikle evet ama bu, zeminin ne kadar sertleştiğine ve makinenin ağırlığına bağlı bir değerlendirme gerektirir. Zeminin o anki durumunu (sıkıştırılmış mı, henüz taze mi) telefonda tarif etmeniz veya fotoğraf paylaşmanız, gerekiyorsa destek plakası kullanımı veya daha hafif bir model tercihini önceden belirlememizi sağlar. Zemin gerçekten yetersizse bunu dürüstçe söyler, alternatif çözüm öneririz.",
+            },
+            {
+                soru: "Montaj mühendisliği veya statik hesap desteği veriyor musunuz?",
+                cevap:
+                    "Hayır, bu bizim uzmanlık alanımızın dışında — biz erişim ekipmanı (platform, forklift) sağlıyoruz, montaj planı ve statik hesap sorumluluğu montaj yükleniciniz ve mühendisinizdedir. Bunu dürüstçe belirtmek istiyoruz çünkü yanlış beklenti oluşturmak istemeyiz. Bizim katkımız, montaj planınızın gerektirdiği makineyi doğru zamanda, doğru kapasitede sahaya ulaştırmaktır.",
+            },
+            {
+                soru: "Aynı anda birden fazla makineye ihtiyacımız olacak, tek aramada mı halledebiliriz?",
+                cevap:
+                    "Evet, bu tür koordinasyonu tek elden yürütmek tam olarak yaptığımız şey. İhtiyacınızı (kaç makine, hangi tip, hangi tarihte) bize ilettiğinizde, sevkiyat sırasını ve sahadaki makine trafiğini biz planlarız — ayrı ayrı arama yapmanız gerekmez. Şantiye yerleşim planınız varsa paylaşmanız, park ve çalışma alanlarını önceden netleştirmemize yardımcı olur.",
+            },
+            {
+                soru: "İlk telefon görüşmesinde kesin fiyat alabilir miyim?",
+                cevap:
+                    "Basit, tek günlük ve tek makineli işlerde genellikle evet. Ama çok günlük, birden fazla aşamalı montaj işlerinde ilk görüşmenin amacı kesin fiyat vermek değil, kapsamı ve takvimi netleştirmektir; bir ön plan ve fiyat aralığı sunarız, proje ilerledikçe detaylar kesinleşir. Bunu baştan söylüyoruz çünkü karmaşık bir işte anlık kesin rakam vermek gerçekçi değildir.",
+            },
+            {
+                soru: "Yüksek montaj noktamız var, hangi makine sınıfı gerekir bilmiyoruz; ne yapmalıyız?",
+                cevap:
+                    "Hedef yüksekliği ve montaj noktasının konumunu (kirişin ortası mı, kenar bağlantısı mı) telefonda paylaşmanız yeterli — biz bu bilgiye göre uygun kapasiteli eklemli platform sınıfını öneririz. Emin değilseniz, montaj planınızdan bir kesit veya fotoğraf da işe yarar. Karmaşık noktalarda birden fazla makine sınıfını değerlendirip size en uygun seçeneği sunarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj aşamaları ve tipik makine ihtiyacı genel sektör bilgisidir. Hızlı teklif sürecinin çok günlü planlamaya uyarlanması ve uzmanlık sınırı (montaj mühendisliği hariç) firma pratiği/dürüstlük beyanıdır. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Sahası Platform — Hızlı Teklif ile Kiralama",
+        giris:
+            "Tarım ve silo sahası talepleri, sanayi bölgesi taleplerinden farklı bir zemin ve erişim profiline sahiptir: yollar genellikle stabilize veya toprak, saha girişleri geniş ama düzensiz, ve talebin geldiği nokta çoğu zaman şehir merkezine mesafelidir. manliftkirala.online üzerinden bu tür bir talepte hızlı teklif sürecimiz aynı kalır — telefon veya WhatsApp üzerinden zemin ve erişim bilgisini paylaştığınızda aynı görüşmede değerlendirme yaparız — ama mesafe ve zemin koşulları nedeniyle sevkiyat süresi ve makine seçimi şehir içi taleplere göre biraz farklı hesaplanır. Bu sayfa, tarım ve silo sahası platform taleplerinde nelerin öne çıktığını ve hızlı teklif sürecinin bu koşullara nasıl uyarlandığını dürüstçe anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Stabilize/toprak yol ve saha girişi değerlendirmesi",
+                metin:
+                    "Tarım ve silo sahalarına giden yollar çoğunlukla asfalt değil, stabilize veya toprak zemindir; bu, hem taşıyıcı aracın hem de platformun kendisinin geçişini etkiler. Yolun son yağıştan sonra ne kadar sürede kuruduğu, saha girişinin genişliği ve varsa bir eşik veya çukur, telefonda sorduğumuz temel sorulardır. Yakın zamanda yağış olduysa, bunu belirtmeniz sevkiyat zamanlamasını gerçekçi tutmamıza yardımcı olur.",
+            },
+            {
+                baslik: "Silo yüksekliği ve dar erişim",
+                metin:
+                    "Silo yapıları genellikle dar bir taban çapına sahip ama yüksekliği fazla olabilir; bu, çalışma yüksekliği kadar makinenin siloya ne kadar yakın konumlanabileceğini de önemli kılar. Silo etrafındaki boşluğun genişliği ve varsa çevresindeki diğer yapılar (başka silo, konveyör, elektrik direği), doğru model ve konumlanma noktasını belirler.",
+            },
+            {
+                baslik: "Mesafeye bağlı gerçekçi sevkiyat süresi",
+                metin:
+                    "Şehir merkezine uzak tarım sahalarına sevkiyat, doğal olarak yakın bölgelere göre daha uzun sürer — bunu dürüstçe söylüyoruz. Aynı gün sevkiyat isteniyorsa, talebin mümkün olduğunca erken saatte iletilmesi önemlidir; tarihi esnek tutabilen talepler ise bölgeye yapılacak başka bir sevkiyatla birleştirilerek hem daha hızlı hem daha ekonomik hâle getirilebilir.",
+            },
+            {
+                baslik: "Sera ve çiftlik yapılarında hafif erişim ihtiyacı",
+                metin:
+                    "Sera çatı bakımı veya çiftlik binası çatı işleri genellikle silo montajına göre daha hafif ve kısa süreli işlerdir; bu tür işlerde standart sepetli platform çoğunlukla yeterlidir. Serayla ilgili özel bir durum varsa (örneğin dar sera koridoru, hassas örtü malzemesi), bunu telefonda belirtmeniz doğru model ve dikkat noktalarını netleştirir.",
+            },
+            {
+                baslik: "Kırsal alanda operatörlü tercih avantajı",
+                metin:
+                    "Kırsal ve tarım sahalarında, sahaya aşina olmayan bir operatörün zemin ve erişim koşullarını ilk elden değerlendirmesi faydalı olabilir; bu yüzden bu tür taleplerde operatörlü seçeneği sıklıkla öneririz. Operatörümüz sahaya geldiğinde zemin ve erişimi ilk elden görür ve gerekirse konumlanma noktasını saha koşullarına göre ayarlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kırsal/tarım sahası özel koşul kontrolü",
+                paragraflar: [
+                    "Tarım ve silo sahası talebinde telefonda sorduğumuz ek kontrol noktaları aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol noktası", "Neden önemli", "Ne zaman sorulur", "Not"],
+                    satirlar: [
+                        ["Yol zemin türü", "Taşıyıcı araç geçişi", "İlk görüşmede", "Stabilize/toprak ise ek dikkat"],
+                        ["Son yağış tarihi", "Zemin sertliği", "İlk görüşmede", "Yakın yağış varsa gecikme riski"],
+                        ["Saha giriş genişliği", "Araç manevrası", "İlk görüşmede", "Fotoğraf faydalı"],
+                        ["Silo/yapı çevresi boşluk", "Konumlanma noktası", "Teklif öncesi", "Dar ise alternatif nokta gerekebilir"],
+                        ["Mesafe (yaklaşık)", "Sevkiyat süresi", "İlk görüşmede", "Gerçekçi zaman aralığı için"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yağış sonrası zemin durumu ve zamanlama",
+                paragraflar: [
+                    "Stabilize veya toprak zeminli sahalarda yağış sonrası birkaç gün boyunca zemin yumuşak kalabilir ve bu, ağır makinelerin geçişini zorlaştırabilir veya zemine iz bırakmasına neden olabilir. Talebiniz yağış sonrası bir döneme denk geliyorsa, bunu telefonda belirtmeniz, sevkiyatı zeminin toparlanacağı bir güne planlamamıza veya gerekiyorsa alternatif bir erişim güzergâhı değerlendirmemize yardımcı olur.",
+                    "Bu tür bir gecikme, işin kalitesini değil zamanlamasını etkiler; amacımız makinenin sahaya güvenli ve zeminine zarar vermeden ulaşmasıdır, bu bazen bir-iki günlük bir bekleme anlamına gelebilir.",
+                ],
+            },
+            {
+                baslik: "Tarihi esnek talepte bölgesel eşleştirme",
+                paragraflar: [
+                    "Merkeze uzak tarım ve kırsal sahalarda, tarihi esnek tutan talepler için bölgeye giden başka bir sevkiyatla eşleştirme imkânı değerlendirilir. Bu, hem nakliye maliyetini düşürür hem de bazen beklenenden daha erken bir sevkiyat tarihi çıkmasını sağlayabilir çünkü bölgeye zaten planlanmış bir sevkiyat varsa talebiniz ona eklenebilir.",
+                    "Bu imkândan yararlanmak için talebinizi iletirken 'tarih esnek' notunu eklemeniz yeterlidir; kesin tarihli acil talepler ise standart programa göre en hızlı şekilde değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sahamıza giden yol toprak, taşıyıcı araç girebilir mi?",
+                cevap:
+                    "Çoğu durumda evet, ama yolun o anki durumuna (kuru mu, yakın zamanda yağış oldu mu) bağlı. Bu bilgiyi telefonda paylaşmanız, sevkiyatı gerçekçi bir zamana planlamamıza yardımcı olur. Yakın zamanda yağış olduysa, zeminin toparlanması için birkaç gün beklemek gerekebilir; bunu dürüstçe söyleriz ve alternatif bir tarih öneririz.",
+            },
+            {
+                soru: "Silo çevresi dar, makine yeterince yaklaşabilir mi?",
+                cevap:
+                    "Bu, silo etrafındaki boşluğun genişliğine ve varsa çevresindeki diğer yapılara bağlı bir değerlendirme. Bu ölçüyü ve mümkünse bir fotoğrafı paylaşmanız, doğru model ve konumlanma noktasını belirlememizi sağlar. Alan gerçekten darsa, daha kompakt şaseli bir model veya farklı bir konumlanma açısı önerebiliriz.",
+            },
+            {
+                soru: "Bölgemiz şehir merkezine uzak, aynı gün sevkiyat mümkün mü?",
+                cevap:
+                    "Mesafeye bağlı olarak süre uzayabilir, bunu baştan söylüyoruz. Talebinizi mümkün olduğunca erken saatte iletmeniz aynı gün sevkiyat ihtimalini artırır. Tarihi esnek tutabiliyorsanız, bölgeye giden başka bir sevkiyatla eşleştirme imkânını değerlendiririz — bu hem daha hızlı hem daha ekonomik bir sonuç verebilir.",
+            },
+            {
+                soru: "Sera içinde çalışacağız, örtü malzemesine zarar verir mi?",
+                cevap:
+                    "Standart bir sepetli platform çoğu sera işinde sorun yaratmaz, ama sera koridorunun darlığı veya örtü malzemesinin hassasiyeti gibi özel durumlar varsa bunu telefonda belirtmenizi isteriz. Bu bilgiyle doğru model ve dikkatli bir konumlanma yaklaşımı planlarız; emin değilseniz, operatörlü seçeneği önerebiliriz çünkü operatörümüz sahada hassas noktalara karşı dikkatli ilerler.",
+            },
+            {
+                soru: "Kırsal sahada operatörsüz mü operatörlü mü daha uygun?",
+                cevap:
+                    "Kırsal ve tarım sahalarında operatörlü seçeneği sıklıkla öneririz çünkü sahaya aşina olmayan bir operatörün zemin ve erişim koşullarını ilk elden değerlendirmesi faydalı olur. Ekibinizde saha koşullarına aşina, deneyimli personel varsa operatörsüz seçenek de değerlendirilebilir. Talebinizi iletirken bu tercihi belirtirseniz, teklif buna göre şekillenir.",
+            },
+            {
+                soru: "Yağıştan sonra sahamız çamurlu, ne zaman gelebilirsiniz?",
+                cevap:
+                    "Zeminin toparlanması genellikle birkaç gün sürer, kesin süre yağışın şiddetine ve zemin türüne bağlıdır. Sahanızın o anki durumunu telefonda tarif etmeniz veya fotoğraf paylaşmanız, gerçekçi bir zamanlama önermemizi sağlar. Acil bir ihtiyacınız varsa, alternatif bir erişim güzergâhı veya farklı bir konumlanma noktası olup olmadığını birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Stabilize/toprak zemin, yağış sonrası zemin toparlanma süreci ve silo erişim mantığı genel saha bilgisidir. Hızlı teklif sürecinin mesafeye göre uyarlanması firma pratiğidir. Tesis adı, mesafe rakamı ve kapasite uydurulmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji ve Aydınlatma Bakım Platformu — Hızlı Teklif ile Kiralama",
+        giris:
+            "Enerji ve aydınlatma bakım talepleri genellikle iki uçtan birinde durur: ya planlı bir bakım turudur (birden fazla direk veya tabelanın periyodik kontrolü) ya da beklenmedik bir arızadır (sönen bir aydınlatma hattı, düşen bir tabela). manliftkirala.online üzerinden her iki durumda da hızlı teklif süreci işler, ama planlama biçimi farklıdır: planlı bakım turunda tarih ve rota önceden konuşulur, arızada ise en hızlı ulaşım öncelenir. Elektrik hattına yakın çalışmanın kendine özgü güvenlik gereksinimleri olduğu için, bu tür taleplerde telefon görüşmesinde standart sorulara ek olarak hat mesafesi ve gerilim bilgisi de sorulur. Bu sayfa, enerji ve aydınlatma bakım platformu talebinde hızlı teklif sürecinin nasıl işlediğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Elektrik hattına yakın çalışmada güvenlik önceliği",
+                metin:
+                    "Aydınlatma direği veya elektrik hattı yakınında çalışma, standart bir platform işinden farklı bir dikkat seviyesi gerektirir. Telefon görüşmesinde hattın mesafesini ve mümkünse gerilim seviyesini sorarız; bu bilgi net değilse, ilgili elektrik dağıtım kuruluşuyla veya tesis elektrikçinizle teyit edilmesini önerebiliriz. Güvenlik netleşmeden sahaya çıkmak istemeyiz — bu, süreci yavaşlatmak için değil, işin güvenli yürümesi için gereken bir adımdır.",
+            },
+            {
+                baslik: "Planlı bakım turunda çoklu nokta rotası",
+                metin:
+                    "Birden fazla direk, tabela veya aydınlatma noktasının periyodik kontrolü söz konusuysa, bu noktaları tek bir rotada birleştirmek verimlidir. Telefon görüşmesinde kaç nokta olduğunu ve bu noktaların birbirine göre konumunu paylaşmanız, rotayı önceden planlamamızı ve tek sevkiyatta mümkün olduğunca fazla noktayı tamamlamamızı sağlar.",
+            },
+            {
+                baslik: "Arıza durumunda hızlı ulaşım gerçeği",
+                metin:
+                    "Sönen bir aydınlatma hattı veya düşen bir tabela gibi acil durumlarda en yakın uygun makineyi yönlendiririz, ama dürüst cevap tam sürenin o anki program yoğunluğuna ve mesafeye bağlı olduğudur. Aciliyeti belirttiğinizde gerçekçi bir zaman aralığı söyleriz; güvenlik riski taşıyan durumlarda (örneğin sarkan bir kablo) öncelik geçici emniyetin sağlanmasıdır, kalıcı onarım ardından planlanır.",
+            },
+            {
+                baslik: "Yüksekliğe göre model seçimi: direk ve santral farkı",
+                metin:
+                    "Standart aydınlatma direği yüksekliği ile bir enerji santrali veya yüksek gerilim hattı direği arasında ciddi bir fark vardır; bu ikisi farklı kapasitede platform gerektirir. Hedefin ne tür bir yapı olduğunu (sokak aydınlatma direği mi, endüstriyel tesis hattı mı) belirtmeniz, doğru model sınıfının ilk seferde belirlenmesini sağlar.",
+            },
+            {
+                baslik: "Gece çalışması gerektiren aydınlatma işleri",
+                metin:
+                    "Bazı aydınlatma bakım işleri (örneğin sokak aydınlatmasının gece performansını test etmek) doğası gereği gece saatlerinde yapılmalıdır. Bu tür bir talep varsa, gece çalışması için operatör ve ek aydınlatma ekipmanı planlaması önceden yapılır; gündüz taleplerine göre biraz farklı bir sevkiyat zamanlaması gerektirebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Talep türüne göre planlama yaklaşımı",
+                paragraflar: [
+                    "Enerji ve aydınlatma bakım taleplerinde planlı ve acil durumlar farklı biçimde ele alınır. Aşağıdaki tablo bu farkı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep türü", "Öncelik", "Planlama süresi", "Öncelikli bilgi"],
+                    satirlar: [
+                        ["Planlı çoklu nokta turu", "Rota verimliliği", "Birkaç gün önceden", "Nokta sayısı ve konumları"],
+                        ["Tekil planlı bakım", "Standart", "Aynı gün-ertesi gün", "Hedef yüksekliği ve hat mesafesi"],
+                        ["Acil arıza (risk yok)", "Yüksek", "En yakın uygun zaman", "Aciliyet + konum"],
+                        ["Acil arıza (güvenlik riski)", "En yüksek", "Öncelikli değerlendirme", "Risk tanımı + konum"],
+                        ["Gece çalışması", "Planlı, özel saat", "Önceden koordinasyon", "Gece aydınlatma ihtiyacı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hat mesafesi bilgisi netleşmeden ilerlemiyoruz",
+                paragraflar: [
+                    "Elektrik hattına yakın bir çalışmada hat mesafesi ve gerilim bilgisi net değilse, teklifi kesinleştirmeden önce bu bilginin teyit edilmesini isteriz. Bu, süreci geciktirmek için değil, hem operatörümüzün hem sahanızdaki ekibin güvenliği için gereken bir adımdır. Tesis elektrikçiniz veya ilgili dağıtım kuruluşu bu bilgiyi genellikle hızlıca sağlayabilir.",
+                    "Bilgi netleştiğinde süreç normal hızında devam eder; bu adımı atlamak, sahada güvenlik riski oluşturabileceği için tercih etmeyiz.",
+                ],
+            },
+            {
+                baslik: "Çoklu nokta bakım turunun ekonomisi",
+                paragraflar: [
+                    "Birden fazla aydınlatma veya direk noktasının periyodik kontrolünü tek bir sevkiyatta birleştirmek, her noktayı ayrı ayrı talep etmeye göre belirgin biçimde daha ekonomiktir çünkü nakliye bedeli tüm noktalar arasında bölünür. Bu tür bir tur planlıyorsanız, tüm noktaların listesini ve konumlarını önceden paylaşmanız, rotayı en verimli sırayla kurmamızı sağlar.",
+                    "Tur sırasında beklenmedik bir ek nokta ortaya çıkarsa, mümkünse aynı ziyarette değerlendiririz; mümkün değilse bir sonraki tur için not ederiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Elektrik hattına yakın çalışacağız, önceden ne bilmeniz gerekiyor?",
+                cevap:
+                    "Hattın mesafesini ve mümkünse gerilim seviyesini bilmemiz önemli — bu bilgi net değilse, tesis elektrikçinizle veya ilgili dağıtım kuruluşuyla teyit edilmesini önerebiliriz. Güvenlik netleşmeden teklifi kesinleştirmeyiz; bu, süreci yavaşlatmak için değil işin güvenli yürümesi için gereken bir adımdır. Bilgi netleştiğinde süreç normal hızında ilerler.",
+            },
+            {
+                soru: "Birden fazla direğimiz var, hepsini tek seferde kontrol ettirebilir miyiz?",
+                cevap:
+                    "Evet, bu tam olarak önerdiğimiz yaklaşım. Tüm noktaların listesini ve birbirine göre konumunu paylaşırsanız, rotayı en verimli sırayla planlarız ve tek sevkiyatta mümkün olduğunca fazla noktayı tamamlarız. Bu, her noktayı ayrı ayrı talep etmeye göre belirgin biçimde daha ekonomiktir çünkü nakliye bedeli tüm noktalar arasında bölünür.",
+            },
+            {
+                soru: "Aydınlatma hattımız aniden söndü, ne kadar hızlı gelirsiniz?",
+                cevap:
+                    "En yakın uygun makineyi yönlendiririz, ama dürüst cevap tam sürenin o anki program yoğunluğuna ve mesafeye bağlı olduğudur. Güvenlik riski taşıyan bir durum varsa (örneğin sarkan kablo), öncelik geçici emniyetin sağlanmasıdır; kalıcı onarım ardından planlanır. Aciliyeti ve riski ilk aramada net belirtmeniz, doğru önceliklendirmeyi sağlar.",
+            },
+            {
+                soru: "Gece çalışması gerekiyor, bu mümkün mü?",
+                cevap:
+                    "Evet, bazı aydınlatma işleri (örneğin gece performans testi) doğası gereği gece yapılmalıdır ve buna uyum sağlarız. Gece çalışması için operatör ve ek aydınlatma ekipmanı planlaması önceden yapılır; bu yüzden gece talebini mümkün olduğunca erken bildirmeniz, sevkiyat ve operatör müsaitliğinin doğru saate göre ayrılmasını sağlar.",
+            },
+            {
+                soru: "Hedefimiz sokak aydınlatma direği mi yoksa endüstriyel bir hat mı, bu fark yaratır mı?",
+                cevap:
+                    "Evet, belirgin biçimde. Standart sokak aydınlatma direği ile endüstriyel tesis hattı veya santral yapısı farklı kapasitede platform gerektirebilir. Hedefin ne tür bir yapı olduğunu belirtmeniz, doğru model sınıfının ilk seferde belirlenmesini sağlar ve sahada yetersiz kapasiteli makine göndermek gibi bir gecikmeyi önler.",
+            },
+            {
+                soru: "Hat mesafesini veya gerilimini bilmiyoruz, yine de arayabilir miyiz?",
+                cevap:
+                    "Elbette arayabilirsiniz, bu bilgiyi birlikte netleştiririz. Bilmiyorsanız, tesis elektrikçinizden veya ilgili dağıtım kuruluşundan teyit almanızı önerebiliriz. Bu netleşene kadar teklifi kesinleştirmesek de, sürecin ilk adımlarını (genel bilgi toplama, uygun makine sınıfını ön değerlendirme) hemen başlatabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Elektrik hattı yakınında çalışma güvenlik gereksinimi genel iş güvenliği bilgisidir. Hızlı teklif sürecinin planlı/acil ayrımı ve çoklu nokta rota planlaması firma pratiğidir. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü / Operatörsüz Platform Kiralama — Hızlı Teklif Süreci",
+        giris:
+            "Operatörlü mü operatörsüz mü sorusu, hızlı teklif sürecinin en sık karşılaştığımız kararlarından biridir ve doğru cevap, işin sıklığına, ekibinizin deneyimine ve sahanın zorluğuna göre değişir. manliftkirala.online üzerinden bu kararı vermenizi kolaylaştırmak için, telefon görüşmesinde bu üç faktörü birlikte değerlendiririz — kararsızsanız, size dayatmak yerine önerimizi paylaşır, son kararı sizin vermenizi sağlarız. Operatörlü seçenekte operatör makineyle birlikte gelir ve sahada doğrudan işe başlar; operatörsüz seçenekte ise makine size teslim edilir ve kullanacak personelinizin gerekli yeterliliğe sahip olması beklenir. Bu sayfa, iki seçenek arasındaki farkı, maliyet etkisini ve hangi durumda hangisinin daha mantıklı olduğunu detaylı biçimde anlatıyor — bu, sitenin ikinci ana odak konusudur çünkü hızlı teklif sürecinin sonunda verilen bu karar, işin nasıl ilerleyeceğini doğrudan belirler.",
+        maddeler: [
+            {
+                baslik: "Operatörlü seçeneğin getirdiği hız ve güvence",
+                metin:
+                    "Operatörlü kiralamada, makineyle birlikte gelen operatör sahada doğrudan işe başlar; ayrı bir eğitim, alışma veya deneme süresi gerekmez. Bu, özellikle tek seferlik işlerde, nadiren platform kullanan ekiplerde veya karmaşık/dar bir sahada zaman kazandırır. Operatörümüz aynı zamanda saha koşullarını (zemin, erişim, engel) ilk elden değerlendirir ve gerektiğinde konumlanma noktasını buna göre ayarlar — bu, deneyimsiz bir kullanıcının fark edemeyeceği riskleri önceden görmesini sağlar.",
+            },
+            {
+                baslik: "Operatörsüz seçeneğin maliyet avantajı",
+                metin:
+                    "Ekibinizde platform kullanımına aşina, deneyimli personel varsa operatörsüz kiralama maliyeti belirgin biçimde düşürür — operatör bedeli ortadan kalkar ve makineyi kendi çalışma temponuza göre kullanabilirsiniz. Bu seçenek özellikle sık platform ihtiyacı olan, kendi ekibi zaten deneyimli olan işletmeler için mantıklıdır. Operatörsüz talep ederken kullanacak personelin geçerli yeterlilik belgesine sahip olması beklenir.",
+            },
+            {
+                baslik: "Yeterlilik belgesi ve sorumluluk",
+                metin:
+                    "Operatörsüz kiralamada, makineyi kullanacak personelin ilgili platform/forklift operatörlük yeterliliğine sahip olması, hem güvenlik hem yasal sorumluluk açısından önemlidir. Belge durumunuz konusunda emin değilseniz, bunu telefonda açıkça belirtmenizi isteriz — bu durumda operatörlü seçeneği önerir, belge sorununu tamamen ortadan kaldırırız. Bu konuda net olmak, sahada sorumluluk belirsizliği yaşamamak için önemlidir.",
+            },
+            {
+                baslik: "Karmaşık veya dar sahalarda operatörlü tercih",
+                metin:
+                    "Dar bahçe girişi, engebeli zemin, elektrik hattına yakınlık veya çok noktalı bir erişim gibi karmaşık saha koşullarında operatörlü seçeneği öneririz — bu, deneyimsiz bir kullanıcının karşılaşabileceği zorlukları operatörümüzün ilk elden yönetmesini sağlar. Basit, düz zeminli ve tek noktalı işlerde ise operatörsüz seçenek genellikle sorunsuz işler; bu ayrımı telefon görüşmesinde saha koşullarınıza göre birlikte değerlendiririz.",
+            },
+            {
+                baslik: "Kararsızsanız: önerimizi paylaşırız, kararı siz verirsiniz",
+                metin:
+                    "Operatörlü mü operatörsüz mü sorusunda kesin bir doğru cevap yoktur — karar işin sıklığına, ekibinizin deneyimine ve sahanın zorluğuna bağlıdır. Telefon görüşmesinde işinizi ve sahanızı kısaca anlattığınızda, hangi seçeneğin sizin durumunuz için daha uygun olduğunu dürüstçe söyleriz; ama son kararı her zaman siz verirsiniz. Amacımız size bir seçenek dayatmak değil, doğru kararı vermeniz için gereken bilgiyi sağlamaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz seçenek karşılaştırması",
+                paragraflar: [
+                    "İki seçenek arasındaki temel farklar aşağıda özetlenmiştir; hangisinin sizin için uygun olduğu saha koşullarına ve ekibinizin deneyimine bağlıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Operatörlü", "Operatörsüz", "Öneri"],
+                    satirlar: [
+                        ["Maliyet", "Operatör bedeli dahil", "Yalnızca makine bedeli", "Sık kullanımda operatörsüz ekonomik"],
+                        ["Başlangıç hızı", "Anında, eğitim gerekmez", "Personelin belgesi/deneyimi gerekli", "Tek seferlik işte operatörlü hızlı"],
+                        ["Karmaşık saha uyumu", "Operatör riski ilk elden yönetir", "Kullanıcı deneyimine bağlı", "Dar/engebeli sahada operatörlü"],
+                        ["Yasal sorumluluk", "Operatör bizim sorumluluğumuzda", "Personel yeterlilik belgesi şart", "Belge yoksa operatörlü"],
+                        ["Esneklik (kendi tempo)", "Operatörün programına bağlı", "Tamamen sizin kontrolünüzde", "Uzun süreli işte operatörsüz esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda karar verme süreci",
+                paragraflar: [
+                    "Operatörlü/operatörsüz kararını telefonda hızlı vermenizi sağlamak için üç soruyu sorarız: işi ne sıklıkla yapacaksınız (tek seferlik mi, düzenli mi), ekibinizde platform kullanımına aşina personel var mı, ve saha ne kadar karmaşık (düz-basit mi, dar-engebeli mi). Bu üç sorunun cevabı, çoğu durumda kararı kendiliğinden netleştirir.",
+                    "Cevaplar net değilse veya iki seçenek arasında gerçekten kararsızsanız, güvenli tarafta kalmayı (operatörlü) öneririz — özellikle ilk kez platform kiralıyorsanız veya saha hakkında tam bilginiz yoksa. Deneyim kazandıkça, sonraki taleplerinizde operatörsüz seçeneği daha rahat değerlendirebilirsiniz.",
+                ],
+            },
+            {
+                baslik: "Operatörümüzün sahadaki rolü",
+                paragraflar: [
+                    "Operatörlü kiralamada operatörümüz yalnızca makineyi kullanmakla kalmaz, aynı zamanda sahadaki güvenlik kurallarına uyar, gerektiğinde konumlanma noktasını saha koşullarına göre ayarlar ve iş bitiminde makinenin düzgün biçimde park edilmesini sağlar. Bu, özellikle karmaşık sahalarda ek bir güvence katmanı oluşturur.",
+                    "Operatörümüzün çalışma saatleri, işin kapsamına göre önceden konuşulur; vardiya dışı veya gece çalışması gerekiyorsa bu, sevkiyat planlamasına dahil edilir ve operatör müsaitliği buna göre ayrılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hangisini seçeceğime karar veremiyorum, ne önerirsiniz?",
+                cevap:
+                    "Üç soruyu birlikte değerlendirelim: işi ne sıklıkla yapacaksınız, ekibinizde deneyimli personel var mı, saha ne kadar karmaşık? Tek seferlik bir iş, deneyimsiz ekip veya karmaşık bir saha söz konusuysa operatörlü öneririz. Düzenli kullanım, deneyimli ekip ve basit bir saha söz konusuysa operatörsüz daha ekonomik olur. Kararsızsanız güvenli tarafta kalıp operatörlü ile başlamanızı öneririz; son karar her zaman sizde.",
+            },
+            {
+                soru: "Operatörsüz kiralarsam hangi belgeyi göstermem gerekiyor?",
+                cevap:
+                    "Makineyi kullanacak personelin ilgili platform/forklift operatörlük yeterlilik belgesine sahip olması beklenir. Belge durumunuz konusunda emin değilseniz, bunu telefonda açıkça belirtmenizi isteriz — bu durumda operatörlü seçeneği önerir ve belge sorununu tamamen ortadan kaldırırız. Bu konuda net olmak, hem sizin hem bizim için sorumluluk belirsizliğini önler.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatör sadece makineyi mi kullanır, başka ne yapar?",
+                cevap:
+                    "Operatörümüz makineyi kullanmanın yanında sahadaki güvenlik kurallarına uyar, saha koşullarına göre konumlanma noktasını ayarlar ve iş bitiminde makinenin düzgün park edilmesini sağlar. Karmaşık sahalarda bu, deneyimsiz bir kullanıcının fark edemeyeceği riskleri önceden görmesini sağlayan ek bir güvence katmanıdır.",
+            },
+            {
+                soru: "Operatörsüz kiralamak ne kadar daha ekonomik?",
+                cevap:
+                    "Operatör bedeli ortadan kalktığı için maliyet belirgin biçimde düşer, ama kesin fark işin süresine ve makine tipine göre değişir; net rakamı telefon görüşmesinde paylaşırız. Sık platform ihtiyacı olan ve kendi ekibi deneyimli işletmeler için bu fark zamanla önemli bir tasarrufa dönüşür. Tek seferlik bir iş için ise operatörlü seçeneğin getirdiği hız ve güvence genellikle bu farkı dengeler.",
+            },
+            {
+                soru: "Sahamız dar ve engebeli, operatörsüz risk mi oluşturur?",
+                cevap:
+                    "Bu tür sahalarda operatörlü seçeneği öneririz çünkü operatörümüz saha koşullarını ilk elden değerlendirir ve konumlanma noktasını buna göre ayarlar — deneyimsiz bir kullanıcının fark edemeyeceği bir riski (örneğin gizli bir eğim veya zayıf zemin noktası) operatörümüz önceden görebilir. Ekibinizde bu tür sahalarda deneyimli personel varsa operatörsüz de değerlendirilebilir; bunu telefon görüşmesinde birlikte netleştiririz.",
+            },
+            {
+                soru: "Operatörlü kiraladığımızda operatörün çalışma saatleri bizim işimize göre mi ayarlanır?",
+                cevap:
+                    "Evet, operatörümüzün çalışma saatleri işin kapsamına göre önceden konuşulur ve sizin ihtiyacınıza göre planlanır. Standart mesai saatleri dışında (vardiya dışı, gece) çalışma gerekiyorsa, bunu talep sırasında belirtmeniz, sevkiyat ve operatör müsaitliğinin doğru saate göre ayrılmasını sağlar. Son anda değişen bir saat talebi, operatör programımıza bağlı olarak esneklik kısıtlayabilir; bu yüzden mümkünse erken bildirim öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama farkı, yeterlilik belgesi gereksinimi ve maliyet etkisi genel sektör bilgisidir. Hızlı teklif sürecinde karar verme yaklaşımı firma pratiğidir. Tesis adı, marka adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota Bakım Platformu — Hızlı Teklif ile Kiralama",
+        giris:
+            "Çok noktalı bakım rotası, tek bir sahada değil birden fazla dağınık noktada (farklı şubeler, farklı tabelalar, farklı direkler) yapılacak işleri tek bir sevkiyat operasyonunda birleştirme ihtiyacından doğar. manliftkirala.online üzerinden bu tür bir talep geldiğinde, hızlı teklif sürecimiz rota planlamasına odaklanır: kaç nokta olduğunu, bu noktaların birbirine göre konumunu ve her noktada ne kadar süre gerekeceğini telefonda veya WhatsApp'ta paylaştığınızda, en verimli sırayla bir rota önerisi ve toplu fiyat sunarız. Bu, her noktayı ayrı ayrı talep etmeye göre hem daha hızlı hem daha ekonomiktir. Bu sayfa, çok noktalı rota taleplerinde hızlı teklif sürecinin nasıl işlediğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Nokta listesi ve konum bilgisinin önemi",
+                metin:
+                    "Çok noktalı bir rota talebinde ilk adım, tüm noktaların listesini ve yaklaşık konumlarını almaktır — bu bilgi olmadan verimli bir rota kurmak mümkün değildir. Noktaları bir liste hâlinde (adres veya konum bilgisiyle) paylaşmanız, rotayı coğrafi olarak en mantıklı sırayla planlamamızı sağlar; rastgele sırayla gidilen bir rota, gereksiz yere uzun mesafe ve zaman kaybına yol açabilir.",
+            },
+            {
+                baslik: "Her noktada tahmini süre ve iş kapsamı",
+                metin:
+                    "Rotadaki her noktada ne kadar süre harcanacağı (kısa bir kontrol mü, uzun bir montaj mı) toplam rotanın kaç günde tamamlanabileceğini belirler. Bu bilgiyi telefonda paylaşmanız, günlük olarak kaç noktanın gerçekçi biçimde tamamlanabileceğini önceden hesaplamamızı sağlar — aşırı iyimser bir plan, sahada gecikmeye ve rotanın uzamasına neden olabilir.",
+            },
+            {
+                baslik: "Coğrafi kümeleme ile verimli sıralama",
+                metin:
+                    "Dağınık noktalar birbirine yakın kümeler oluşturuyorsa, rota bu kümelere göre gruplanır — aynı gün içinde birbirine yakın noktalar art arda ziyaret edilir, uzak noktalar ayrı günlere ayrılır. Bu kümeleme, toplam kat edilen mesafeyi ve dolayısıyla nakliye maliyetini önemli ölçüde azaltır. Noktaların birbirine göre yaklaşık mesafesini bilmiyorsanız bile, bir harita üzerinde işaretleyip paylaşmanız yeterlidir.",
+            },
+            {
+                baslik: "Rota sırasında beklenmedik ek nokta",
+                metin:
+                    "Rota devam ederken bazen beklenmedik bir ek nokta ortaya çıkar (örneğin sahada fark edilen ek bir ihtiyaç). Bu, mümkünse aynı rotaya, coğrafi olarak uygun bir noktaya eklenir; rota sırası ve zamanlaması buna göre esnetilir. Eklenemiyorsa, bir sonraki rota turu için not edilir ve önceliklendirilir.",
+            },
+            {
+                baslik: "Düzenli tekrarlayan rotalar için önceden planlama",
+                metin:
+                    "Bazı işletmelerin periyodik olarak tekrarlayan bir bakım rotası vardır (örneğin aylık şube kontrolü). Bu tür düzenli rotalarda, rota planı bir kez kurulduktan sonra sonraki turlarda büyük ölçüde tekrarlanır ve yalnızca değişen noktalar veya süre güncellenir — bu, her seferinde sıfırdan planlama yapmanızı gerektirmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota planlamasında paylaşılması gereken bilgiler",
+                paragraflar: [
+                    "Çok noktalı rota talebinde verimli bir plan kurmak için ihtiyaç duyduğumuz bilgiler aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Bilgi", "Neden gerekli", "Nasıl paylaşılır", "Eksikse etkisi"],
+                    satirlar: [
+                        ["Nokta listesi + konumlar", "Rota sıralaması", "Liste veya harita işaretleme", "Verimsiz, uzun rota"],
+                        ["Her noktada tahmini süre", "Günlük kapasite hesabı", "Sesli veya liste", "Aşırı iyimser plan, gecikme"],
+                        ["Erişim özellikleri (varsa)", "Doğru makine sınıfı", "Sesli veya fotoğraf", "Uygun olmayan makine riski"],
+                        ["Tekrarlayan mı tek seferlik mi", "Planlama biçimi", "Sesli, en başta", "Yanlış varsayımla planlama"],
+                        ["Öncelik sırası (varsa)", "Rota içi sıralama", "Sesli", "Kritik nokta gecikebilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Coğrafi kümelemenin maliyet etkisi",
+                paragraflar: [
+                    "Dağınık noktaları rastgele sırayla ziyaret etmek yerine coğrafi kümelere göre planlamak, toplam kat edilen mesafeyi önemli ölçüde azaltır ve bu doğrudan nakliye maliyetine yansır. Bir günde birbirine yakın üç-dört noktayı tamamlamak, aynı sayıda noktayı farklı günlere dağıtmaya göre hem daha hızlı hem daha ekonomiktir.",
+                    "Bu kümelemeyi doğru yapabilmek için noktaların yaklaşık konumunu bilmemiz yeterlidir; kesin adres olmasa bile bir bölge tarifi veya harita işareti bize başlangıç noktası verir.",
+                ],
+            },
+            {
+                baslik: "Düzenli rotanın kurumsallaşması",
+                paragraflar: [
+                    "Periyodik olarak tekrarlayan bir bakım rotanız varsa, ilk rota planlaması sonrasında bu plan bir şablon hâline gelir ve sonraki turlarda yalnızca değişiklikleri (yeni nokta eklenmesi, bir noktanın kaldırılması, süre değişikliği) güncelleriz. Bu, her turda sıfırdan planlama yapma yükünü ortadan kaldırır ve rotanın zamanla daha da verimli hâle gelmesini sağlar.",
+                    "Düzenli rota talep ediyorsanız, bunu ilk görüşmede belirtmeniz, süreci bu şekilde kurmamıza yardımcı olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "5-6 farklı noktamız var, hepsini tek seferde mi planlamalıyız?",
+                cevap:
+                    "Evet, bu en verimli yaklaşım. Tüm noktaların listesini ve yaklaşık konumlarını paylaşırsanız, coğrafi olarak en mantıklı sırayla bir rota öneririz ve toplu bir fiyat sunarız. Bu, her noktayı ayrı ayrı talep etmeye göre hem daha hızlı hem daha ekonomiktir çünkü nakliye tüm noktalar arasında bölünür.",
+            },
+            {
+                soru: "Noktaların kesin adresini bilmiyorum, sadece bölge tarifim var; yeterli mi?",
+                cevap:
+                    "Başlangıç için yeterli. Bir harita üzerinde işaretleyip paylaşmanız veya genel bir bölge tarifi vermeniz, kümeleme mantığını kurmamız için yeterli bir başlangıç noktasıdır. Kesin adresleri rota kesinleşmeden önce netleştiririz; bu süreç genellikle telefon veya WhatsApp üzerinden hızlıca tamamlanır.",
+            },
+            {
+                soru: "Rota sırasında sahada beklenmedik bir ek iş çıkarsa ne olur?",
+                cevap:
+                    "Mümkünse aynı rotaya, coğrafi olarak uygun bir noktaya ekleriz ve rota sırasını buna göre esnetiriz. Eklemek mümkün değilse (örneğin rota o gün doluysa), bir sonraki tur için not eder ve önceliklendiririz. Bu tür durumları esnek karşılıyoruz çünkü sahada beklenmedik ihtiyaçların çıkması çok noktalı işlerde sık karşılaşılan bir durumdur.",
+            },
+            {
+                soru: "Her ay tekrarlayan bir bakım turumuz var, her seferinde yeniden mi planlamamız gerekiyor?",
+                cevap:
+                    "Hayır. İlk rota planlaması bir şablon hâline gelir ve sonraki turlarda yalnızca değişiklikleri (yeni nokta, kaldırılan nokta, süre değişikliği) güncelleriz. Bu, her seferinde sıfırdan planlama yapma yükünü ortadan kaldırır. Düzenli bir rota talep ettiğinizi ilk görüşmede belirtmeniz, süreci bu şekilde kurmamıza yardımcı olur.",
+            },
+            {
+                soru: "Noktalarımız birbirine çok uzak, tek günde bitirilebilir mi?",
+                cevap:
+                    "Bu, noktalar arası mesafeye ve her noktada harcanacak süreye bağlı — dürüst bir değerlendirme için bu bilgileri paylaşmanızı isteriz. Uzak noktalar tek günde sığmıyorsa, rotayı coğrafi kümelere göre birden fazla güne böleriz; bu, aşırı iyimser bir planla sahada gecikme yaşamaktan daha sağlıklıdır. Gerçekçi bir gün sayısını telefon görüşmesinde birlikte netleştiririz.",
+            },
+            {
+                soru: "Rotadaki bazı noktalar diğerlerinden daha acil, bunu belirtebilir miyim?",
+                cevap:
+                    "Elbette, öncelik sırasını belirtmeniz rotayı buna göre kurmamıza yardımcı olur. Acil noktalar rotanın başına alınır, daha esnek olanlar sona bırakılır. Bu bilgiyi ilk görüşmede paylaşmanız, kritik bir noktanın rota sonuna denk gelip gereksiz yere gecikmesini önler.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok noktalı rota planlaması ve coğrafi kümeleme mantığı firma pratiğidir. Hızlı teklif sürecinin rota bazlı uyarlanması firma pratiğidir. Tesis adı, mesafe rakamı ve nokta sayısı uydurulmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin / Arazi Platform Kiralama — Hızlı Teklif ile Kiralama",
+        giris:
+            "Zor zemin ve arazi koşullarındaki platform talepleri, standart bir sahaya göre daha fazla ön bilgi gerektirir çünkü yanlış makine seçimi burada yalnızca verimsizlik değil, makinenin sahaya giremiyor olması veya güvenli çalışamaması anlamına gelebilir. manliftkirala.online üzerinden bu tür bir talepte hızlı teklif sürecimiz aynı temel mantıkla işler — telefon veya WhatsApp üzerinden zemin bilgisini paylaşırsınız — ama zor zeminde bu bilgi paylaşımı standart bir sahaya göre daha kritik hâle gelir. Bu sayfa, zor zemin ve arazi koşullarında hangi bilgilerin belirleyici olduğunu ve hızlı teklif sürecinin bu koşullarda nasıl daha dikkatli işlediğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Zemin türünün doğru tarif edilmesi",
+                metin:
+                    "'Zor zemin' geniş bir tanımdır — engebeli toprak, çakıllı arazi, hafif bataklık, moloz dolgu veya eğimli bir yamaç, her biri farklı bir makine çözümü gerektirir. Telefonda zemin türünü olabildiğince somut tarif etmeniz (örneğin 'traktörle bile zor geçilen yumuşak bir alan' veya 'taşlık ama sert bir arazi') doğru şase ve lastik tipini belirlememizi hızlandırır. Mümkünse fotoğraf paylaşmanız, sözlü tarifin ötesinde net bir değerlendirme sağlar.",
+            },
+            {
+                baslik: "Paletli şasenin zor zeminde avantajı",
+                metin:
+                    "Standart lastikli platformların zorlandığı yumuşak, engebeli veya eğimli zeminlerde paletli şaseli makineler daha geniş bir temas yüzeyiyle daha dengeli hareket eder. Zemin gerçekten zorluysa, teklifte varsayılan olarak paletli şase önerilir; zeminin göründüğünden daha sağlam olduğu durumlarda standart lastikli seçenek de değerlendirilebilir — bu ayrımı telefon görüşmesinde birlikte netleştiririz.",
+            },
+            {
+                baslik: "Eğimli arazide destek ve dengeleme",
+                metin:
+                    "Eğimli bir arazide çalışacak platformun, eğimi dengeleyecek bir destek ayağı sistemine sahip olması gerekir; her makine bu özelliğe aynı ölçüde sahip değildir. Arazinin yaklaşık eğim derecesini (hafif eğimli mi, belirgin bir yamaç mı) tarif etmeniz, dengeleme kapasitesi yeterli modeli seçmemizi sağlar. Eğim belirli bir sınırı aşıyorsa, bunu dürüstçe söyler, güvenli çalışmanın mümkün olmadığı durumları da açıkça belirtiriz.",
+            },
+            {
+                baslik: "Hazırlıksız sahada erişim güzergâhı",
+                metin:
+                    "Yol yapımı henüz tamamlanmamış veya erişim güzergâhı belirsiz sahalarda, makinenin sahaya nasıl ulaşacağı teklif aşamasında ayrı bir soru hâline gelir. Mevcut bir yol veya patika varsa bunun genişliğini ve zeminini paylaşmanız, taşıyıcı aracın ve platformun kendi gücüyle mi yoksa çekilerek mi ilerleyeceğini önceden planlamamızı sağlar.",
+            },
+            {
+                baslik: "Sahaya gitmeden önce dürüst bir uygunluk değerlendirmesi",
+                metin:
+                    "Bazı zemin koşulları (aşırı bataklık, çok dik eğim, geçilemez engebe) hiçbir platform modeli için güvenli değildir. Bu tür bir durumla karşılaştığımızda, makineyi sahaya gönderip sahada karar vermek yerine, elimizdeki bilgiyle önceden değerlendirme yapar ve gerçekten uygun değilse bunu telefonda dürüstçe söyleriz — alternatif bir yaklaşım (örneğin zemin iyileştirmesi sonrası tekrar değerlendirme) önerebiliriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin türüne göre model tercihi",
+                paragraflar: [
+                    "Zor zemin ve arazi koşullarında hangi zemin türünde hangi yaklaşımın öncelendiği aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin türü", "Öncelikli çözüm", "Ek değerlendirme", "Sınır durumu"],
+                    satirlar: [
+                        ["Engebeli/taşlık ama sert", "Paletli veya güçlü lastikli şase", "Fotoğrafla teyit", "Aşırı büyük kaya/çukur varsa risk"],
+                        ["Yumuşak/bataklık eğilimli", "Paletli şase, geniş temas yüzeyi", "Zeminin ne kadar yumuşak olduğu", "Aşırı bataklıkta çalışma mümkün olmayabilir"],
+                        ["Eğimli yamaç", "Dengeleme kapasitesi yüksek model", "Yaklaşık eğim derecesi", "Belirli sınırı aşan eğimde güvenli değil"],
+                        ["Erişim yolu belirsiz", "Önceden güzergâh değerlendirmesi", "Yol genişliği/zemini", "Yol yoksa alternatif erişim gerekir"],
+                        ["Moloz/dolgu alan", "Zemin sağlamlığı önce teyit edilir", "Dolgu yaşı ve sıkışma durumu", "Yeni dolguda taşıma riski"],
+                    ],
+                },
+            },
+            {
+                baslik: "Fotoğrafın telefon tarifinden daha güvenilir olduğu durum",
+                paragraflar: [
+                    "Zor zemin taleplerinde sözlü tarif ile gerçek durum arasında zaman zaman fark olabilir çünkü 'zor zemin' herkes için farklı bir eşiği ifade edebilir. Bu belirsizliği ortadan kaldırmanın en pratik yolu, zeminin birkaç fotoğrafını (farklı açılardan, mümkünse bir referans nesnesiyle ölçek hissi verecek şekilde) WhatsApp'tan paylaşmaktır.",
+                    "Fotoğrafla yapılan değerlendirme, telefon teklifinin sahadaki gerçek durumdan büyük sapma gösterme riskini önemli ölçüde azaltır — bu da hem sizin hem bizim için sürpriz bir durumla karşılaşma ihtimalini düşürür.",
+                ],
+            },
+            {
+                baslik: "Güvenli çalışmanın mümkün olmadığı durumları kabul etmek",
+                paragraflar: [
+                    "Dürüstçe belirtmek isteriz: her zemin koşulu için güvenli bir platform çözümü yoktur. Aşırı bataklık bir zemin, çok dik bir yamaç veya geçilemez bir engebe, hiçbir model için güvenli bir çalışma imkânı sunmayabilir. Böyle bir durumla karşılaştığımızda, makineyi göndermek yerine bunu önceden söylemeyi tercih ederiz.",
+                    "Bu tür durumlarda alternatif bir yaklaşım önerebiliriz — örneğin zeminin kısmen iyileştirilmesi (sıkıştırma, geçici plaka döşeme) sonrası tekrar değerlendirme, veya farklı bir erişim noktasının araştırılması.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zeminimizin ne kadar 'zor' olduğunu nasıl anlatabilirim?",
+                cevap:
+                    "Günlük dille yapılan bir tarif bile işe yarar — 'traktörle bile zor geçiliyor', 'taşlık ama sert', 'yağmurdan sonra çamurlaşıyor' gibi ifadeler bize başlangıç noktası verir. En güvenilir yöntem ise birkaç fotoğraf paylaşmanızdır; farklı açılardan çekilmiş fotoğraflar, sözlü tarife göre çok daha net bir değerlendirme sağlar ve telefon teklifinin sahadaki gerçek durumdan sapma riskini azaltır.",
+            },
+            {
+                soru: "Paletli platform standart platformdan daha mı pahalı?",
+                cevap:
+                    "Genellikle biraz daha yüksek bir bedeli olabilir, ama zor zeminde bu bir tercih değil gereklilik hâline gelir — standart lastikli bir makine bu tür zeminlerde ya çalışamaz ya da güvenli değildir. Zeminin gerçekte ne kadar zorlu olduğunu paylaştığınızda, paletli şasenin gerçekten gerekli olup olmadığını dürüstçe değerlendirir, standart seçenek yeterliyse bunu öneririz.",
+            },
+            {
+                soru: "Arazimiz eğimli, bu ne kadar bir risk oluşturur?",
+                cevap:
+                    "Eğim derecesine bağlı. Hafif eğimli arazilerde dengeleme kapasitesi yeterli bir model güvenle çalışabilir; ama belirli bir eğim sınırını aşan yamaçlarda hiçbir platform modeli güvenli değildir ve bunu size dürüstçe söyleriz. Arazinizin yaklaşık eğimini tarif etmeniz veya fotoğraf paylaşmanız, bu değerlendirmeyi telefonda yapmamızı sağlar.",
+            },
+            {
+                soru: "Sahamıza giden düzgün bir yol yok, yine de gelebilir misiniz?",
+                cevap:
+                    "Genellikle değerlendirebiliriz, ama bu mevcut patikanın veya erişim güzergâhının genişliğine ve zeminine bağlıdır. Bu bilgiyi paylaşmanız, taşıyıcı aracın ve platformun sahaya nasıl ulaşacağını önceden planlamamızı sağlar. Erişim gerçekten mümkün değilse, bunu dürüstçe söyler, alternatif bir güzergâh veya erişim noktası olup olmadığını birlikte araştırırız.",
+            },
+            {
+                soru: "Fotoğraf çekmeden telefonla tarif etsem yine de teklif alabilir miyim?",
+                cevap:
+                    "Basit tariflerle bir ön değerlendirme yapabiliriz, ama zor zemin taleplerinde fotoğraf, teklifin doğruluğunu belirgin biçimde artırır. Sözlü tarifle verilen bir teklif bu kategoride ön tahmin niteliğindedir ve sahada küçük bir sapma olabilir; fotoğrafla verilen teklif ise gerçek duruma çok daha yakındır. Mümkünse fotoğraf paylaşmanızı öneririz.",
+            },
+            {
+                soru: "Zeminimiz gerçekten çok zor, hiçbir makine çalışamayabilir mi?",
+                cevap:
+                    "Evet, bu mümkün ve bunu dürüstçe söylüyoruz — aşırı bataklık bir zemin, çok dik bir yamaç veya geçilemez bir engebe, hiçbir platform modeli için güvenli olmayabilir. Böyle bir durumda makineyi göndermek yerine bunu önceden değerlendirir ve alternatif bir yaklaşım (zemin iyileştirmesi sonrası tekrar değerlendirme, farklı erişim noktası) öneririz. Amacımız, güvenli olmayan bir işi üstlenmek değil, gerçekçi bir çözüm bulmaktır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Paletli şase, eğim dengeleme ve zemin uygunluğu genel makine/uygulama bilgisidir. Hızlı teklif sürecinde fotoğrafla ön değerlendirme ve güvenli olmayan zeminin dürüstçe reddedilmesi firma pratiğidir. Tesis adı, mesafe rakamı ve eğim derecesi uydurulmamıştır.",
+    },
 };

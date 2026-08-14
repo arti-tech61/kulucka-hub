@@ -884,4 +884,1089 @@ export const MUGLAPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Özgün içerik 2026-08-13 tarihinde hazırlandı. Dalyan'ın Ortaca ile turizm bağlantısı ve bölgenin genel seracılık karakteri kamuya açık genel bilgilerdir. Belirli otel, sera, işletme, ürün, kapasite, sezon tarihi veya rakam kullanılmamıştır; iki saha ailesinin ayrımı genel çalışma yaklaşımıdır.",
     },
+
+    // ── HİZMET SAYFALARI (2026-08-14) ───────────────────────────────────────
+    // Açı: turizm sezonu ekonomisi ve dağınık kıyı ilçe coğrafyası (bkz. dosya
+    // başı notu). İç mekân/depo ve çok noktalı rota sayfaları ANA KONU olarak
+    // en detaylı işlendi. Bilgi uydurulmadı; tesis adı, mesafe, kapasite yok.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Muğla'da Sepetli / Örümcek Platform: Dar Otel Avlusuna Giren Makine",
+        giris:
+            "Muğla kıyısında 'örümcek platform' talebiyle gelen aramaların büyük bölümü aslında bir yükseklik sorunu değil, bir geçiş sorunu anlatır: butik otelin bahçe kapısı dar, avlusu taş döşeli, sokağı tek şeritlidir ve talep edilen iş — birkaç dış aydınlatma, bir tabela, cephedeki bir leke — kendi başına küçüktür ama standart şaseli bir makinenin oraya giremeyeceği açıktır. Yarımada ve koy yerleşimlerindeki turizm dokusunun ürettiği bu talep, genel amaçlı filomuzdaki karşılığını kompakt kollu-eklemli sınıfta bulur: dar şase, düşük ağırlık, kısa dönüş yarıçapı. Ama bu sınıf her işin cevabı değildir ve bunu telefonda net söylüyoruz — hedef 10-12 metreyi aşıyorsa, sepette iki kişi çalışacaksa veya zemin bahçe/peyzaj gibi hassas bir yüzeyse, kompakt sınıf zorlanır ve ya büyük sınıfa geçilir ya da farklı bir yaklaşım kurulur. Bu sayfa, Muğla'daki dar erişimli otel ve villa adreslerinde doğru makineyi seçme mantığını ve sezon takviminin bu seçime nasıl karıştığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Dar avluda ilk kriter yükseklik değil geçiştir",
+                metin:
+                    "Bodrum ve Datça hattındaki taş cepheli butik otellerde, kapı genişliği ve avlu dönüş alanı, makine seçiminin ilk ve bazen tek belirleyicisidir. Keşif fotoğrafında sorduğumuz ilk şey hedefin yüksekliği değil, sokağın en dar noktası, bahçe kapısının açıklığı ve makinenin bahçe içinde dönebileceği alandır. Bu üç ölçü net değilse makine seçimi tahmine dayanır ve sahada geri dönme riski doğar — bu yüzden Muğla'daki dar adreslerde keşif fotoğrafını zorunlu tutuyoruz.",
+            },
+            {
+                baslik: "Beyaz badana ve taş yüzeyde iz bırakmama",
+                metin:
+                    "Yarımadanın mimari kimliği beyaz badanalı duvar ve taş cepheden oluşur; bu yüzeyler en küçük sürtünmeyi bile gösterir. Kompakt kollu platformla çalışırken sepet mesafeli tutulur, temas riski olan noktalara koruma uygulanır ve güzergâh önceden yürünerek dar geçişler işaretlenir. İş bittiğinde hiçbir yerde iz kalmaması, Muğla turizm tesislerinde işin kalitesini ölçen asıl kriterdir.",
+            },
+            {
+                baslik: "Sepet yükü ve iki kişilik iş sınırı",
+                metin:
+                    "Kompakt kollu sınıfın sepet kapasitesi standart makaslı-eklemliden düşüktür ve bu sınır turizm işlerinde sık aşılır: bir tabela montajı tek kişiyle biterken, cephe boyası genellikle iki kişi ve malzeme ister. İki kişi + malzeme birlikte çalışacaksa kompakt sınıf yetersiz kalır; bu durumda ya standart sınıfa geçilir ya da iş, avlunun kapı ölçüsüne uygun daha geniş bir makinenin girebileceği bir güne ertelenir. Kapasiteyi zorlayarak çalışmak güvenlik riski doğurur.",
+            },
+            {
+                baslik: "Akülü zorunluluğu ve misafir görmez çalışma",
+                metin:
+                    "Otel bahçesinde ve kapalı avluda dizel makine egzoz nedeniyle kullanılmaz; kompakt kollu sınıfın standart çözümü akülüdür — sessiz çalışır, misafir alanında rahatsızlık yaratmaz. Sezon içi talepte bu sessizlik bir avantaja dönüşür: makine servis kapısından girer, sabahın erken bandında kısa bir müdahale yapar ve misafir fark etmeden sahadan çıkar. Sezon dışı talepte ise akü kısıtı yoktur, ama yine de gürültüsüz çalışma tercih sebebidir.",
+            },
+            {
+                baslik: "Zeminin hassasiyeti: çim, deck ve dekoratif taş",
+                metin:
+                    "Bahçe zeminleri çoğu zaman çim, ahşap deck veya dekoratif taştır ve kompakt kollu sınıfın küçük tekerlekleri bu yüzeylerde iz bırakabilir. Hassas zeminlerde yük dağıtıcı plaka standarttır; sulanmış çim gibi doygun zeminlerde çalışmayı erteleyip zeminin kurumasını beklemek, peyzaj onarımından her zaman ucuzdur. Ahşap deck üzerinde geçiş gerekiyorsa döşemenin taşıma kapasitesi teyit edilmeden makine deck'e çıkmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kompakt kollu mu, standart sınıf mı: Muğla adreslerinde karar",
+                paragraflar: [
+                    "Dar otel ve villa adreslerinde seçim üç ölçüye bakar. Aşağıdaki tablo tipik senaryoları özetler; kesin karar her zaman keşif fotoğrafıyla netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen sınıf", "Gerekçe"],
+                    satirlar: [
+                        ["Dar sokak / avlu kapısı, hedef 8-10 m", "Kompakt kollu akülü", "Geçiş önceliği"],
+                        ["Hedef 12 m üstü", "Standart eklemli", "Kompakt sınıf yetersiz kalır"],
+                        ["Sepette 2 kişi + malzeme", "Standart makaslı/eklemli", "Kapasite sınırı"],
+                        ["Çim, deck, dekoratif taş zemin", "Kompakt akülü + yük dağıtıcı plaka", "İz bırakmama"],
+                        ["Açık kampüslü büyük tesis", "Standart eklemli/teleskopik", "Dar geçiş kısıtı yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon takvimiyle kesişen talep",
+                paragraflar: [
+                    "Kompakt kollu sınıfın turizm sahasındaki talebi sezona göre şekil değiştirir. Kasım-mart penceresinde bu sınıf, dar avlulu otellerin kış bakım listesinin standart aracıdır ve genellikle daha uzun süreli kullanılır. Sezon içinde ise yalnızca acil ve kısa müdahalelerde devreye girer — misafir görmez saatlerde, servis kapısından, hızlı giriş-çıkışla.",
+                    "Bu ayrım fiyatlandırmaya da yansır: kış döneminde birden fazla kalem tek ziyarette toplanabildiği için birim maliyet düşer, sezon içi tekil acil müdahale ise kısa süreli olsa da ayrı sevkiyat gerektirdiği için görece daha yüksek kalır.",
+                ],
+            },
+            {
+                baslik: "Telefonda terimi netleştirmek",
+                paragraflar: [
+                    "'Örümcek platform' talebiyle gelen aramalarda ilk birkaç dakika terimi netleştirmeye gider: hedef ne kadar yüksekte, makine nereden girecek, sepette kaç kişi çalışacak. Bu sorular tahmin değil, doğru makineyi ilk seferde göndermenin yoludur — yanlış sınıfla sahaya gelip geri dönmek, iki kat nakliye ve kaybedilen bir gün demektir. Fotoğrafla gelen taleplerde bu netleştirme daha hızlı biter.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimizin bahçe kapısı çok dar, hangi makine girer?",
+                cevap:
+                    "Bunu ancak fotoğrafla söyleyebiliriz. Bize kapı açıklığını, sokağın en dar noktasını ve bahçe içindeki dönüş alanını gösteren fotoğraflar gerekir. Kompakt kollu akülü sınıf yarımadadaki çoğu dar adrese girer; giremediği durumda bunu sahaya gelmeden söyler, alternatif erişim veya farklı ekipman seçeneğini birlikte değerlendiririz. Sahada iptal olan iş kimseye fayda sağlamaz.",
+            },
+            {
+                soru: "Bahçemizde çim var, makine zemini bozar mı?",
+                cevap:
+                    "Önlemsiz bozabilir, bu yüzden önlem standarttır. Hassas zeminlerde yük dağıtıcı plaka kullanılır ve kompakt kollu sınıfın hafifliği bu konuda avantajdır. Sulanmış veya yağış sonrası doygun zeminde çalışmayı erteleyip kurumasını beklemeyi öneriyoruz — bir günlük bekleme, peyzaj onarımından her zaman ucuzdur. Bahçe zemininin fotoğrafını keşfe ekleyin, plan buna göre kurulsun.",
+            },
+            {
+                soru: "Sezon içinde temmuzda acil bir tabela sorunumuz çıktı, çalışabilir misiniz?",
+                cevap:
+                    "Erişim servis yolundan veya personel bölgesinden mümkünse evet — sabahın erken bandında, paravanlı bir düzenle çalışılır ve makine iş biter bitmez sahadan çıkar. Erişim ancak misafir alanının ortasından mümkünse, iş güvenlik gerekçesiyle sezon dışına ertelenmeye adaydır. Kararı keşif fotoğrafı ve tesis müdürlüğüyle birlikte veririz.",
+            },
+            {
+                soru: "İki kişi birlikte cephe boyası yapacağız, kompakt sınıf yeter mi?",
+                cevap:
+                    "Genelde yetmez. Kompakt kollu sınıfın sepet kapasitesi bir kişi + el aletine göre tasarlanmıştır; iki kişi + boya malzemesi çoğu modelde bu sınırı aşar. Bu durumda standart makaslı veya eklemli sınıfa geçmek gerekir — kapı ölçünüz buna izin veriyorsa geçiş sorun yaratmaz, izin vermiyorsa avlu ölçüsüne uygun bir alternatif birlikte kurulur.",
+            },
+            {
+                soru: "Akülü mü dizel mi, otel bahçesinde hangisi kullanılır?",
+                cevap:
+                    "Akülü — kapalı avlu ve bahçede dizelin egzoz emisyonu kabul edilmez, ayrıca sessiz çalışması misafir alanında ayrı bir avantajdır. Şarj için özel bir altyapı gerekmez, standart priz yeterlidir ve gece şarjı bir vardiyalık işe yeter. Dış mekanda uzun süreli büyük bir iş söz konusuysa farklı sınıf zaten önerilir.",
+            },
+            {
+                soru: "Taş cephede makine iz bırakır mı?",
+                cevap:
+                    "Önlemsiz temas iz bırakabilir, bu yüzden çalışma düzenimizde sepet mesafeli tutulur ve temas riski olan noktalara koruma uygulanır. Güzergâh önceden yürünerek dar noktalar işaretlenir. Bir bakım işinin başarısı Muğla'da genellikle bittiğinde hiçbir yerde iz kalmamasıyla ölçülür; bu standardı sözleşmenin parçası olarak uyguluyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yarımada mimarisi (taş cephe, dar sokak) ve otel bahçe dokusu kamuya açık genel bilgidir; makine seçim kriterleri ve misafir görmez çalışma disiplini firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Muğla'da Platform Nakliye ve Teslimat: Dağınık Kıyı İlçeleri Gerçeği",
+        giris:
+            "Muğla'da nakliye kararı, ilin geri kalanından farklı bir coğrafyaya karşı verilir: il yüzölçümü büyük, kıyıya inen yollar viraj ve rampa doludur ve Bodrum-Marmaris-Fethiye-Datça arasındaki mesafeler tek günlük bir programı kolayca yiyebilir. Bu gerçeği gizlemek yerine baştan söylüyoruz — bir kıyı tesisine 'hemen' ulaşma vaadi, o bölgede o hafta çalışan bir makinemiz yoksa gerçekçi değildir. Sevkiyat maliyetinin de asıl belirleyicisi budur: mesafe kadar, makinenin o bölgede olup olmadığı. Bu yüzden Muğla'daki nakliye modelimiz bölge bazlı konaklamadır — makine bir ilçeye iner, orada birkaç tesisin işini toplayarak günlerce kalır ve nakliye bedeli bu süreye yayılır. Tek günlük tekil iş için kıyıya makine indirmek ekonomik değildir; bu sayfa, doğru zamanlamayla nakliye maliyetinin nasıl belirgin düştüğünü ve hangi durumda tekil sevkiyatın kaçınılmaz olduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İlin coğrafyası: neden 'hemen' her zaman mümkün değil",
+                metin:
+                    "Merkezden kıyıya inen yollar virajlı ve rampalıdır, ağır makine sevkiyatı bu yüzden saat alır. Dürüst modelimiz şudur: bölgede o hafta çalışan bir makinemiz varsa müdahale hızlıdır ve genellikle aynı ya da ertesi gün yapılır; bölgede makine yoksa sevkiyat planlanır ve süresi baştan söylenir. Kıyı tesislerinden gelen taleplerde ilk sorduğumuz şey konum, ikinci sorduğumuz şey aciliyetin gerçek derecesidir — tutamayacağımız bir hız sözü vermeyiz.",
+            },
+            {
+                baslik: "Bölge bazlı konaklama: nakliyeyi süreye yaymak",
+                metin:
+                    "Kıyı ilçelerine tek seferlik makine indirmenin maliyeti, işin kendisinden büyük olabilir. Bunun yerine makine bir bölgeye iner ve orada birden fazla tesisin kalemini toplayarak birkaç gün ya da hafta kalır; nakliye bedeli bu süreye bölünür ve günlük birim maliyet belirgin düşer. Kıyıdaki tesislere önerimiz nettir: kalemlerinizi biriktirin, komşu tesislerle aynı haftaya yazın.",
+            },
+            {
+                baslik: "Menteşe merkezinde gün paylaşımı modeli",
+                metin:
+                    "İl merkezinin kompakt dokusu farklı bir modeli mümkün kılar: aynı güne birden fazla merkez adresi yazılır, makine kısa mesafelerle adresten adrese geçer ve nakliye bedeli paylaşılır. Tek başına ele alındığında ekonomik olmayan yarım günlük bir iş, bu modelde makul bir bedele iner. Tarih esnek bırakılırsa ilk uygun merkez gününe yazılır; sabit tarih istenirse de yapılır, farkı tekil sevkiyat kaleminde görülür.",
+            },
+            {
+                baslik: "Kış penceresinde sevkiyat kuyruğu",
+                metin:
+                    "Kasım-mart döneminde ilin kıyı şeridindeki tüm tesisler aynı anda bakım talebi ürettiği için nakliye kapasitesi de bu dönemde en sıkışık hâline gelir. Erken bağlanan takvim (eylül-ekim'de çıkarılan kalem listesi, kasımda bağlanan sevkiyat) sevkiyatı rahat bir sıraya oturtur; şubat sonrası bağlanan talep ise açılış baskısıyla yarışır ve sevkiyat maliyeti de bu dönemde yükselir.",
+            },
+            {
+                baslik: "Belge ve saha kabulü teslimat gününün parçasıdır",
+                metin:
+                    "Turizm tesislerinde ve marina çevresinde teslimat, makinenin kapıdan girmesiyle bitmez; operatör yeterlilik belgesi, makinenin periyodik kontrol raporu ve çoğu tesiste yüklenici kaydı önceden istenir. Bu belgeleri teklif aşamasına ekliyoruz ki makine kapıda beklemesin. Marina çevresinde ayrıca konumlanma alanı saha sorumlusuyla önceden belirlenir; teslimat günü bu koordinasyon olmadan başlamaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölgeye göre tipik sevkiyat modeli",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki bölge tiplerine göre uyguladığımız sevkiyat modelini özetler. Model, dönem kadar maliyeti de belirler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge tipi", "Sevkiyat modeli", "Uygun dönem", "Nakliye ekonomisi"],
+                    satirlar: [
+                        ["Bodrum / Marmaris / Fethiye kıyı", "Bölge konaklaması", "Kasım – mart", "Süreye yayılan tek nakliye"],
+                        ["Datça / Ortaca uzak nokta", "Hazırlıklı tekil sevkiyat", "Kasım – mart", "Yakın hedefler gruplanır"],
+                        ["Menteşe merkez", "Gün paylaşımı", "Yıl boyu", "Aynı güne çoklu adres"],
+                        ["Yatağan / Milas sanayi", "Planlı duruş sevkiyatı", "Revizyon takvimi", "Uzun süreli tek nakliye"],
+                        ["Sezon içi acil tekil", "Özel sevkiyat", "Nisan – ekim", "Ayrı fiyatlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nakliye maliyetini düşürmenin üç yolu",
+                paragraflar: [
+                    "Muğla'da sevkiyat maliyeti üç kararla düşürülebilir. Bir: kalemleri erken bağlamak — kasım başında bağlanan iş, sevkiyatı sıkışık dönemin dışında tutar. İki: komşu tesisle talebi birleştirmek — aynı bölgedeki iki-üç işletme aynı haftaya yazıldığında nakliye bölünür. Üç: tarihi esnek bırakmak — bölgede zaten çalışan bir makinemiz varsa, tarihinizi ona yaklaştırmak sevkiyatı neredeyse sıfırlar.",
+                    "Bu üç yolun ortak noktası zamanlamadır; Muğla'da nakliye maliyetinin en büyük belirleyicisi mesafe değil, talebin ne zaman bildirildiğidir.",
+                ],
+            },
+            {
+                baslik: "Teslimat günü kontrol listesi",
+                paragraflar: [
+                    "Sevkiyatın sorunsuz geçmesi, teslimat noktasının önceden hazır olmasına bağlıdır: makinenin ineceği alan boş ve erişilebilir olmalı, kapı-geçiş ölçüleri önceden doğrulanmış olmalı ve teslim alacak yetkili sahada bulunmalıdır. Turizm tesislerinde buna ek olarak misafir alanına giriş kuralları ve kimlik-kart düzeni önceden netleştirilir. Bu üç şart eksikse taşıyıcı sahada bekler; teslimattan önceki hatırlatma aramasıyla bu riski azaltırız, ama sahadaki hazırlık işletmenin sorumluluğundadır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bodrum'daki tesisimize makine ne kadar sürede ulaşır?",
+                cevap:
+                    "Muğla'nın coğrafyası burada belirleyicidir: yollar virajlı ve rampalıdır, ağır makine sevkiyatı saat alır ve gün içinde 'hemen' ulaşma vaadi çoğu ilçe için gerçekçi değildir. Bölgede o hafta çalışan bir makinemiz varsa müdahale hızlıdır ve genellikle aynı ya da ertesi gün yapılır; bölgede makine yoksa sevkiyat planlanır ve süresi baştan söylenir. Konumunuzu ve aciliyetinizi paylaşın, gerçekçi süreyi ilk aramada verelim.",
+            },
+            {
+                soru: "Tek bir tabela işimiz var, kıyıya makine gönderir misiniz?",
+                cevap:
+                    "Göndeririz ama tek başına ekonomik olmayabilir. Kıyı ilçelerinde önerimiz kalemleri biriktirip komşu tesislerle aynı haftaya yazmaktır — makine bölgeye indiğinde birden fazla adresi toplar ve nakliye bölünür. Tarihinizi esnek bırakırsanız bölgede zaten planlanan bir sevkiyata eklenmeniz mümkün olabilir; bu durumda nakliye bedeli belirgin düşer.",
+            },
+            {
+                soru: "Merkezde küçük bir işimiz var, size kıyıya gitmiyorsunuz diye ret mi edersiniz?",
+                cevap:
+                    "Etmeyiz. Menteşe merkezindeki kısa işler gün paylaşımı modeliyle çalışılır: aynı güne birden fazla merkez adresi yazılır, makine kısa mesafelerle adresten adrese geçer ve nakliye bedeli paylaşılır. Tarihinizi esnek bırakırsanız ilk uygun merkez gününe yazarız; sabit tarih isterseniz de yapılır, farkı tekil sevkiyat kaleminde görürsünüz.",
+            },
+            {
+                soru: "Kış bakımı için nakliyeyi en ucuza nasıl getiririz?",
+                cevap:
+                    "En etkili yol erken bağlamaktır. Eylülde kalem listesi çıkarılır, ekimde keşif ve teklif tamamlanır, kasımda takvim bağlanır — böylece makine bölgeye iner ve orada uzun süre kalarak birden fazla tesisin işini toplar, nakliye bu süreye yayılır. Şubat sonrası bağlanan iş ise sıkışık döneme denk gelir ve hem ekipman seçeneği daralır hem sevkiyat maliyeti yükselir.",
+            },
+            {
+                soru: "Marinaya teslimat için özel bir prosedür var mı?",
+                cevap:
+                    "Var. Marina girişinde genellikle operatör yeterlilik belgesi, makine kontrol raporu ve sigorta belgesi önceden istenir; bunları teklif aşamasında hazır sunuyoruz. Konumlanma alanı saha sorumlusuyla birlikte belirlenir, çünkü çekek sahaları yoğun trafikli olabilir. Teslimat tarihinizi ve marina işletmesinin iletişim bilgisini paylaşın; koordinasyonu önceden kuralım.",
+            },
+            {
+                soru: "Datça gibi uzak bir noktaya sevkiyat farklı mı fiyatlanıyor?",
+                cevap:
+                    "Evet, mesafe nedeniyle farklı fiyatlanır ama tek başına değerlendirilmez. Uzak noktalarda hazırlığı artırıyoruz: hedef fotoğrafı, ölçü, indirme alanı ve saha kabulü önceden netleştirilir ki makine bir kez gidip işi tamamlasın. Yakın bir başka talep varsa aynı sevkiyata eklenir ve maliyet paylaşılır. Kesin rakam, adresiniz ve tarihiniz netleştiğinde verilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Muğla'nın coğrafyası (yüzölçümü, kıyıya inen virajlı yollar) ve ilçeler arası mesafe gerçeği kamuya açık genel bilgidir; bölge konaklaması ve gün paylaşımı modeli firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Muğla'da Otel ve Tesis İçi Forklift Kiralama",
+        giris:
+            "Muğla'da forklift talebi platform talebinden farklı bir takvimle gelir: otellerde en yoğun dönem sezon açılışı öncesi stok hareketidir — mobilya, yatak, mutfak malzemesi, bahçe donanımı depodan odalara ve ortak alanlara taşınır ve bu hareket açılış tarihine kadar bitmelidir. Marina ve çekek sahalarında ise forklift talebi tekne bakım malzemesi ve ekipman hareketiyle, sanayi ve tarım tesislerinde ise palet ve ürün istiflemesiyle gelir. Genel amaçlı filomuzdaki forklift seçeneği platform kiralamasıyla aynı danışmanlık mantığıyla sunulur: yükünüzü, zemin tipini ve erişim koşullarını sorarız, doğru kapasiteyi öneririz. Muğla'nın kendine özgü zorluğu zemin çeşitliliğidir — otel bahçesindeki çim ve taş döşeme, marina çevresindeki beton saha ve tarım işletmesindeki toprak zemin, aynı makinenin çalışamayacağı üç farklı yüzeydir; bu sayfa doğru kapasite ve lastik seçiminin nasıl yapıldığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Sezon açılışı stok hareketi: en yoğun dönem",
+                metin:
+                    "Otellerde mart-nisan aylarında depo ve ortak alan arasındaki stok hareketi yoğunlaşır: mobilya, yatak takımı, mutfak ekipmanı ve bahçe donanımı sezon açılışına yetiştirilecek şekilde taşınır. Bu dönemde forklift talebi kısa süreli ama yoğun günlerde toplanır — genellikle birkaç günlük bir kiralama, açılıştan hemen önceki haftaya denk gelir. Erken bağlanan talep, açılış öncesi en yoğun günlerde ekipman bulmayı kolaylaştırır.",
+            },
+            {
+                baslik: "Zemin tipi kapasite kadar belirleyici",
+                metin:
+                    "Otel bahçesi genellikle çim, dekoratif taş veya kilit parke; depo içi beton; marina çevresi ise saha betonudur ve her biri farklı lastik tipini gerektirir. Hassas dış zeminlerde iz bırakmayan lastikli modeller tercih edilir, beton depo içinde standart lastik yeterlidir. Yanlış lastik tipiyle çalışmak hem zemine zarar verir hem makinenin tutunma performansını düşürür — bu yüzden zemin bilgisini teklif aşamasında soruyoruz.",
+            },
+            {
+                baslik: "Kapasite: mobilyadan palete",
+                metin:
+                    "Otel iç taşımacılığında yük genellikle hafif ama hacimlidir (mobilya, yatak); bu işler için orta kapasiteli forklift yeterlidir. Marina ve tarım tesislerinde ise palet ve kasa gibi standart yükler söz konusudur ve kapasite ihtiyacı yük ağırlığına göre netleşir. Kapasiteyi olduğundan düşük seçmek işi yavaşlatır, gereksiz büyük seçmek ise hem kirayı hem manevra zorluğunu artırır — doğru kapasite, taşınacak en ağır kalemin ağırlığına göre belirlenir.",
+            },
+            {
+                baslik: "Dar depo ve koridorlarda manevra",
+                metin:
+                    "Otel depolarının çoğu, büyük bir sanayi deposu gibi tasarlanmamıştır; koridorlar dar, raf aralıkları sınırlıdır. Bu adreslerde dönüş yarıçapı dar kompakt forklift sınıfı standart çözümdür. Depo ölçülerini ve raf aralığını keşif aşamasında sorarak, sahaya gelen makinenin içeri girip manevra yapabildiğinden emin oluyoruz.",
+            },
+            {
+                baslik: "İstifleme ile platformun birlikte kullanımı",
+                metin:
+                    "Sezon açılışı hazırlığında forklift ve platform aynı sahada birlikte çalışabilir — forklift zemin seviyesinde stok hareketini yaparken platform yüksek raf, tavan veya cephe işini üstlenir. İki makinenin aynı alanda çalışması güvenlik açısından koordinasyon ister; çalışma alanları ayrılır ve trafik güzergâhı önceden belirlenir. Aynı sevkiyatta ikisini birlikte planlamak, tek seferde tamamlanan bir açılış hazırlığı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Muğla'da saha tipine göre forklift seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilde en sık karşılaştığımız saha tiplerine göre kapasite ve lastik önerisini özetler. Kesin seçim, yük ve zemin bilgisiyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Tipik yük", "Zemin", "Öneri"],
+                    satirlar: [
+                        ["Otel deposu / ortak alan", "Mobilya, yatak, mutfak ekipmanı", "Beton / kilit parke", "Orta kapasite, iz bırakmayan lastik"],
+                        ["Otel bahçesi", "Bahçe donanımı, saksı", "Çim / dekoratif taş", "Kompakt, yük dağıtıcı destek"],
+                        ["Marina / çekek sahası", "Tekne ekipmanı, palet", "Saha betonu", "Standart kapasite"],
+                        ["Tarım / sera işletmesi", "Ürün kasası, palet", "Toprak / beton karışık", "Zemine göre lastik tipi"],
+                        ["Sanayi deposu (Yatağan-Milas)", "Palet, ham madde", "Endüstriyel beton", "Standart-yüksek kapasite"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon açılışı öncesi planlama",
+                paragraflar: [
+                    "Mart-nisan yoğunluğu, ildeki tüm otellerin aynı haftalarda benzer talebi ürettiği anlamına gelir; erken bağlanan kiralama bu sıkışıklığın dışında kalır. Önerimiz, stok hareketi tarihini açılış tarihinden geriye sayarak belirlemek ve forklift ihtiyacını şubat ortasında bildirmektir — böylece en yoğun haftalarda dahi ekipman ayrılmış olur.",
+                    "Birden fazla tesisi olan gruplar için forklift ve platform ihtiyacını tek yıllık programda birleştirmek, hem koordinasyonu kolaylaştırır hem her tesis için ayrı ayrı sevkiyat ödemeyi önler.",
+                ],
+            },
+            {
+                baslik: "Operatör ve belge",
+                paragraflar: [
+                    "Forklift kiralamada operatörlü ve operatörsüz seçenek sunulur; operatörlü kiralamada operatörün yeterlilik belgesi teklif aşamasında paylaşılır. Otel ve marina gibi tesislerde yüklenici kaydı istenmesi olağandır — bu belgeleri sahaya gelmeden tamamlıyoruz ki makine kapıda beklemesin. Tesis içi trafik kurallarına uyum, forklift operatörlerimiz için de misafir görmez çalışma disiplininin bir parçasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimiz nisanda açılıyor, forklift ne zaman kiralamalıyız?",
+                cevap:
+                    "Açılış tarihinden geriye sayarak, tercihen şubat ortasında talebinizi bildirin. Mart-nisan döneminde ildeki tüm oteller benzer stok hareketi ihtiyacı duyar ve ekipman talebi bu haftalarda yoğunlaşır. Erken bağlanan kiralama, sıkışık dönemin dışında kalır ve istediğiniz kapasitede makineyi bulma ihtimaliniz belirgin yükselir.",
+            },
+            {
+                soru: "Bahçemizdeki çim zemin forkliftle bozulur mu?",
+                cevap:
+                    "Önlem alınmazsa bozulabilir. Çim ve dekoratif taş gibi hassas dış zeminlerde iz bırakmayan lastik tercih ediyor, gerekirse yük dağıtıcı destek kullanıyoruz. Yağış sonrası doygun zeminde çalışmayı ertelemeyi öneririz — kısa bir bekleme, peyzaj onarımından her zaman ucuzdur. Bahçe zemininin fotoğrafını paylaşın, doğru lastik tipini önceden belirleyelim.",
+            },
+            {
+                soru: "Deposu dar bir otelde forklift manevra yapabilir mi?",
+                cevap:
+                    "Depo koridor genişliği ve raf aralığı bilinmeden kesin cevap veremeyiz; bu yüzden keşif aşamasında bu ölçüleri soruyoruz. Dar koridorlu depolarda kompakt sınıf dönüş yarıçapı avantajıyla standart çözümdür. Depo fotoğrafı ve yaklaşık ölçüleri gönderirseniz, doğru sınıfı sahaya gelmeden belirleriz.",
+            },
+            {
+                soru: "Marina çevresinde forklift kullanabilir miyiz?",
+                cevap:
+                    "Kullanabilirsiniz, ancak marina işletmesinin saha trafiği ve giriş kurallarına bağlı olarak. Çekek sahaları yoğun trafiklidir; forkliftin çalışma alanı ve güzergâhı saha sorumlusuyla birlikte belirlenir. Operatör belgesi ve sigorta gibi giriş için istenen evraklar teklif aşamasında hazır sunulur.",
+            },
+            {
+                soru: "Forklift ve platformu aynı anda kiralayabilir miyiz?",
+                cevap:
+                    "Evet, sezon açılışı hazırlığında sık kullandığımız bir modeldir — forklift zemin seviyesinde stok hareketini yaparken platform yüksek raf veya cephe işini üstlenir. İki makinenin aynı sahada çalışması için çalışma alanları ayrılır ve trafik güzergâhı önceden planlanır. İhtiyaç listenizi ve tarihinizi paylaşın, tek sevkiyatla ikisini birlikte kuralım.",
+            },
+            {
+                soru: "Tarım işletmemizde ürün kasası taşıyacağız, hangi kapasite yeterli?",
+                cevap:
+                    "Kapasite, taşınacak en ağır kasa veya paletin ağırlığına göre belirlenir; genel bir rakam vermek yerine yük listenizi sormayı tercih ederiz. Zemin toprak veya beton karışıksa lastik tipi de buna göre seçilir. Sera ve paketleme tesislerinde çoğu zaman standart kapasite yeterli olur, ancak kesin öneri yük bilgisiyle netleşir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otel sezon açılışı stok hareketi ve marina/tarım tesisi zemin çeşitliliği kamuya açık genel bilgidir; kapasite-lastik eşleştirmesi ve forklift-platform birlikte planlama firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Muğla'da Eklemli Platform (Boom) Kiralama: Kampüs Tesislerde Yatay Erişim",
+        giris:
+            "Muğla kıyısındaki büyük kapasiteli otellerde yüksek işlerin çoğu, düz bir cepheye değil bir engelin arkasındaki noktaya erişmeyi gerektirir: gölgelik üstü bir aydınlatma, havuz çevresindeki bir pergola, teraslı bloklar arasındaki bir cephe köşesi. Bu tip hedeflerde makaslı platformun dikey erişimi yetmez; eklemli (boom) platformun hem yukarı hem yana açılan kolu gerekir. Marmaris ve Bodrum'daki çok bloklu, teraslı yapıdaki tesislerde eklemli platform, kampüs içi erişimin standart aracıdır — kot farkı olan bloklar arasında, havuz ve peyzaj engellerinin ötesinde, ağaç dallarının arasında çalışabilme kabiliyeti, sepetin gövdeden ne kadar açılabildiğine bağlıdır. Bu sayfa, eklemli platformun Muğla'daki turizm tesislerinde ne zaman makaslı platforma tercih edildiğini ve hangi ölçülerin makine seçimini belirlediğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yatay erişim: eklemli platformun asıl gücü",
+                metin:
+                    "Makaslı platform dikey yükselir, eklemli platform ise yukarı çıktıktan sonra yana da açılır. Havuz kenarındaki bir gölgelik, bahçedeki bir ağacın dalı veya bina cephesinin bir peyzaj engelinin arkasındaki köşesi gibi hedeflerde belirleyici olan çalışma yüksekliği değil yatay erişimdir — sepetin gövdeden ne kadar mesafeye açılabildiğidir. Hedefe yaklaşamayan bir makine, yüksekliği yetse bile işi yapamaz; bu yüzden Muğla'daki teklif sürecinde hedefin yatay konumunu da soruyoruz.",
+            },
+            {
+                baslik: "Teraslı bloklar arasında kot değişimi",
+                metin:
+                    "Yamaca oturan tesislerde blokları birbirine bağlayan yollar dar ve rampalıdır. Eklemli platformun bir bloktan diğerine geçişi, sadece makinenin kendisini değil izleyeceği güzergâhı da gerektirir; hangi bloka hangi yoldan çıkılacağı ve kot değişiminin kaç kez yapılacağı programda önceden belirlenir. Kot değişimi zaman kaybıdır ve iyi planlanmış bir programda en aza indirilir — bu yüzden kampüs krokisi, eklemli platform teklifinin standart bir parçasıdır.",
+            },
+            {
+                baslik: "Havuz ve peyzaj çevresinde konumlanma",
+                metin:
+                    "Havuz kenarı, peyzajlı avlu ve gölgelik altı gibi alanlarda makinenin park noktası, hedefe olan yatay mesafeyi belirler. Eklemli platform bu noktada avantajlıdır çünkü peyzajın dışında kalan bir noktadan hedefe uzanabilir; makaslı platform ise doğrudan hedefin altına park etmek zorundadır ve bu çoğu zaman peyzaj içine girmek anlamına gelir. Sezon içi çalışmada bu fark, peyzaja hiç girmeden iş bitirmeyi mümkün kılar.",
+            },
+            {
+                baslik: "Dizel mi akülü mü: dış mekân kararı",
+                metin:
+                    "Eklemli platformlar hem dizel hem akülü seçeneklerde bulunur; kapalı avlu ve iç mekân işlerinde akülü tercih edilir, açık bahçe ve geniş dış saha işlerinde dizel sınıf daha uzun çalışma süresi sunar. Sezon içi misafir alanı yakınında çalışıldığında akülü sınıf sessizliği nedeniyle öne çıkar; sezon dışı geniş kampüs işlerinde ise dizel sınıfın süre avantajı daha belirleyici olur.",
+            },
+            {
+                baslik: "Ağaç budama ve elektrik hattı komşuluğu",
+                metin:
+                    "Muğla'nın çam örtülü bölgelerinde bina çevresindeki ağaç dalları budama gerektirir ve bu iş yatay erişim isteyen tipik bir eklemli platform işidir — dalın ucuna ulaşmak için sepetin gövdeden belirli bir mesafede açılabilmesi gerekir. Elektrik hattına yakın dallarda mesafe kuralları ve gerekirse kesinti koordinasyonu plana eklenir; ağaçların bina ve hatlara göre konumunu gösteren fotoğraflar doğru makineyi ilk seferde seçmemizi sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı mı eklemli mi: Muğla tesislerinde karar",
+                paragraflar: [
+                    "İki sınıf arasındaki seçim hedefin yatay konumuna bakar. Aşağıdaki tablo tipik turizm tesisi senaryolarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Engel durumu", "Önerilen sınıf", "Gerekçe"],
+                    satirlar: [
+                        ["Düz cephe, engelsiz", "Yok", "Makaslı", "Dikey erişim yeterli"],
+                        ["Havuz kenarı gölgelik", "Peyzaj/havuz engeli", "Eklemli", "Yatay erişim gerekir"],
+                        ["Ağaç dalı budama", "Gövdeye yaklaşamama", "Eklemli", "Yana açılan kol"],
+                        ["Teraslı blok cephesi", "Kot farkı", "Eklemli, planlı geçiş", "Güzergâh önceden çizilir"],
+                        ["Kapalı depo/atölye tavanı", "Yok, düz zemin", "Makaslı akülü", "Kapalı alan için uygun"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kampüs içi hareket planı",
+                paragraflar: [
+                    "Çok bloklu tesislerde eklemli platform tek bir hedef için değil, blok blok ilerleyen bir program için kiralanır. Program önce en uzun süren kabuk kalemlerini, sonra bahçe ve havuz çevresini, en sonda giriş-tabela rötuşlarını sıraya koyar. Nakliye tek sefer ödenir, makine kampüste kaldığı sürece günlük birim bedel düşer.",
+                    "Bu planın başarısı, keşifte kampüs krokisinin ve her bloğa giden yolun genişlik-eğim bilgisinin doğru alınmasına bağlıdır; bazı dar teraslarda paletli kompakt eklemli sınıf tek çözümdür.",
+                ],
+            },
+            {
+                baslik: "Sezon içi kısıtlı erişimde eklemli platform",
+                paragraflar: [
+                    "Sezon içinde eklemli platformun peyzaja girmeden hedefe uzanabilme kabiliyeti, misafir görmez çalışma disiplinine doğrudan katkı sağlar — makine servis yolundan girip peyzajın dışında kalan bir noktadan konumlanabilir. Bu, makaslı platforma göre daha az iz bırakan ve daha kısa sürede tamamlanan bir çalışma anlamına gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Havuz kenarındaki gölgeliğe hangi platform gider?",
+                cevap:
+                    "Genellikle eklemli platform. Gölgelik havuzun içinde veya kenarında olduğu için makinenin doğrudan altına park etmesi çoğu zaman mümkün değildir; eklemli platform peyzajın dışında kalan bir noktadan yana açılarak hedefe ulaşır. Hedefin tam konumunu ve çevresindeki engelleri gösteren fotoğraflarla doğru sınıfı belirleriz.",
+            },
+            {
+                soru: "Teraslı otelimizde bloklar arası merdivenli, eklemli platform çıkabilir mi?",
+                cevap:
+                    "Merdivenden çıkamaz; bu yüzden kampüs içi hareket planını ayrıca çiziyoruz. Keşifte her bloka giden araç yolunu, eğimini ve genişliğini kaydediyoruz; merdivenle bağlı kotlarda makine genellikle tesis dışındaki yolu kullanarak üst terasa çıkar. Kampüs krokinizi paylaşırsanız hareket planını keşiften önce taslak hâlinde çıkarabiliriz.",
+            },
+            {
+                soru: "Ağaç dallarımız çatıya değiyor, budama işini eklemli platformla mı yapıyorsunuz?",
+                cevap:
+                    "Platformu ve operatörü biz sağlıyoruz; budamayı yapacak ekip tesis veya yönlendirdiğimiz bir peyzaj firması olabilir. Belirleyici olan çalışma yüksekliği değil yatay erişimdir — dalın ucuna ulaşmak için sepetin gövdeden belirli bir mesafede açılabilmesi gerekir. Elektrik hattına yakın dallarda mesafe kuralları plana eklenir.",
+            },
+            {
+                soru: "Dizel mi akülü mü eklemli platform, hangisini önerirsiniz?",
+                cevap:
+                    "Kapalı avlu veya misafir alanına yakın işlerde akülü, geniş açık kampüs işlerinde dizel öneririz. Akülü sınıf sessizdir ve sezon içi görünürlük kurallarına daha uygundur; dizel sınıf ise uzun süreli geniş saha işlerinde çalışma süresi avantajı sunar. İşin yerini ve süresini paylaşın, doğru güç tipini birlikte belirleyelim.",
+            },
+            {
+                soru: "Küçük bir otelde tek gölgelik işi için eklemli platform kiralamak mantıklı mı?",
+                cevap:
+                    "Tek başına ele alındığında nakliye maliyeti işin büyüklüğüne göre yüksek kalabilir. Küçük ölçekli işlerde önerimiz komşu tesislerle aynı haftaya yazılmaktır — bölge bazlı sevkiyat modelinde makine birden fazla adresi toplar ve nakliye bölünür. Tarihinizi esnek bırakırsanız ilk uygun bölge gününe yazarız.",
+            },
+            {
+                soru: "Eklemli platform bahçedeki peyzaja zarar verir mi?",
+                cevap:
+                    "Doğru konumlandırıldığında vermez — eklemli platformun avantajı tam olarak budur, peyzajın dışında kalan bir noktadan hedefe uzanabilir. Yine de makinenin park edeceği zemin hassassa yük dağıtıcı plaka kullanılır ve güzergâh önceden yürünerek dar noktalar işaretlenir. Bahçe planınızı paylaşın, en az izli konumlanma noktasını birlikte belirleyelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kampüs ölçekli otel yapıları ve teraslı yerleşim Muğla kıyısında kamuya açık genel bilgidir; eklemli/makaslı karar kriterleri ve kampüs hareket planı firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Muğla'da Otel İç Mekân ve Depo İçi Platform Kiralama: Sezon Öncesi Telaş",
+        giris:
+            "Muğla'da iç mekân platform talebinin en yoğun olduğu dönem, sezonun ortası değil sezon öncesidir. Kasımda kapanan bir otel martta yeniden açılır ve bu dört-beş aylık kapalı pencerede yalnızca dış cephe ve çatı değil, iç mekânın tamamı elden geçer: lobi tavanı, restoran ve bar iç aydınlatması, asma tavan detayları, merdiven boşluğu, balo salonu tavan süslemesi, depo raf sistemleri ve mutfak üstü tesisat hatları. Sezon içinde bu alanların hiçbirine dokunmak mümkün değildir — bir lobi tavanında duran platform, misafirin ilk gördüğü görüntüyü bozar. Bu yüzden iç mekân işleri, kış penceresinin en kalabalık kalemidir ve mart ayına yaklaştıkça sıra en sıkışık hâline gelir. Genel amaçlı filomuzdaki akülü makaslı ve kompakt eklemli sınıflar, kapalı mekânda dizel kullanamayacağınız gerçeğiyle birlikte, otel içi bu ayrıntılı işlerin standart aracıdır. Bu sayfa, otel iç mekânında hangi kalemin hangi makineyle, hangi sırayla ve hangi zemin koruma önlemiyle yapıldığını; depo ve tesisat alanlarında ise raf ve tavan yüksekliğine göre doğru sınıfın nasıl seçildiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Sezon öncesi pencerenin iç mekân önceliği",
+                metin:
+                    "Kış penceresi dört ayı geçmez ve bu sürede hem dış cephe hem iç mekân kalemleri sıraya girer. İç mekân işleri genellikle programın ortasına yerleştirilir — dış kabuk (çatı, cephe) işleri hava koşuluna bağlı olduğu için pencerenin başına, iç mekân ise hava bağımsız olduğu için ortaya, giriş-tabela gibi son rötuşlar ise açılışa yakın son bloğa yazılır. Bu sıralama, hava kaynaklı gecikme yaşandığında bile iç mekân programının etkilenmemesini sağlar.",
+            },
+            {
+                baslik: "Lobi ve restoran tavanında akülü makaslı standart",
+                metin:
+                    "Otel lobisinde, restoran salonunda ve bar alanında zemin genellikle mermer, seramik veya hassas parkedir; bu yüzeylerde iz bırakmayan lastikli akülü makaslı platform standart tercihtir. Kapalı alanda dizel kullanılamaz — egzoz emisyonu kabul edilmez. Asma tavan üzerindeki aydınlatma değişimi, avize bakımı ve dekoratif tavan detaylarının onarımı bu sınıfla çalışılır; tavan yüksekliği 4-8 metre bandındaki çoğu salon için akülü makaslı sınıf yeterlidir, daha yüksek balo salonlarında sınıf büyütülür.",
+            },
+            {
+                baslik: "Merdiven boşluğu ve dar geçişte kompakt sınıf",
+                metin:
+                    "Merdiven boşlukları, asansör önü ve dar koridorlar gibi standart makaslı platformun giremediği alanlarda kompakt kollu-eklemli sınıf devreye girer. Bu sınıfın dar şasesi tek kanat kapıdan geçer ve dar alanda manevra yapabilir; ancak sepet kapasitesi düşük olduğu için ağır malzeme taşınacaksa (uzun boru, panel) büyük sınıfa geçilmesi gerekir. Otel içi dar geçişlerde kapı ölçüsü, teklif öncesi sorduğumuz standart bir bilgidir.",
+            },
+            {
+                baslik: "Depo raf sistemi ve tavan yüksekliği eşleşmesi",
+                metin:
+                    "Otel depoları büyük bir sanayi deposu gibi tasarlanmaz; tavan yüksekliği genellikle 4-6 metre bandındadır ve raf sistemi bu yüksekliğe göre kuruludur. Raf üstü malzeme yerleştirme, tavan tesisat bakımı ve depo içi aydınlatma değişimi için akülü makaslı sınıf yeterlidir; raf aralığı dar ise kompakt sınıfa geçilir. Depo zemini genellikle betondur ve iz bırakma riski düşüktür, ancak forklift trafiği varsa çalışma alanının bariyerle ayrılması gerekir.",
+            },
+            {
+                baslik: "Mutfak üstü ve tesisat hattı işlerinde temizlik disiplini",
+                metin:
+                    "Mutfak üstü havalandırma, sprinkler hattı ve tesisat bakımı, gıda güvenliği kuralları nedeniyle ayrı bir dikkat gerektirir; çalışma alanı hijyen açısından ayrılır ve iş bitiminde zemin ve ekipman temizliği tesisin kendi standartlarına göre kontrol edilir. Bu tip işler genellikle mutfağın kapalı olduğu saatlerde veya sezon dışı pencerede planlanır; sezon içinde acil bir tesisat müdahalesi gerekiyorsa mutfağın çalışmadığı saat bandı aranır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Otel iç mekânında alan tipine göre makine ve zemin koruma",
+                paragraflar: [
+                    "İç mekân işlerinin çoğu birbirine benzemez; zemin hassasiyeti ve tavan yüksekliği makine seçimini belirler. Aşağıdaki tablo, otel iç mekânındaki tipik alanlarda uyguladığımız eşleşmeyi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Tipik tavan yüksekliği", "Zemin", "Önerilen makine"],
+                    satirlar: [
+                        ["Lobi / resepsiyon", "5 – 8 m", "Mermer / seramik", "Akülü makaslı, iz bırakmayan lastik"],
+                        ["Restoran / bar salonu", "4 – 6 m", "Parke / seramik", "Akülü makaslı"],
+                        ["Balo salonu", "8 – 12 m", "Parke / halı", "Akülü makaslı, geniş sınıf"],
+                        ["Merdiven boşluğu / dar koridor", "Değişken", "Karo / halı", "Kompakt kollu-eklemli"],
+                        ["Depo / tesisat katı", "4 – 6 m", "Beton", "Akülü makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon öncesi iç mekân programının kurgusu",
+                paragraflar: [
+                    "Çok bloklu ve çok salonlu tesislerde iç mekân işleri tek bir program hâlinde sıralanır: önce genel kullanım alanları (lobi, koridor, merdiven boşluğu), sonra özel salonlar (restoran, bar, balo salonu), en son depo ve tesisat katları. Bu sıralamanın nedeni operasyoneldir — genel alanlar açılıştan önce en son teslim edilmesi gereken, dolayısıyla en görünür alanlardır; depo ve tesisat katları ise misafirin görmediği alanlar olduğu için programın herhangi bir noktasında esnetilebilir.",
+                    "Program tek makineyle ve tek nakliyeyle yürütüldüğünde, otel her salon için ayrı ayrı kiralama yapmak yerine tek koordinasyonla tüm iç mekân listesini kapatır. Salon salon kalem listesi ve her salonun zemin tipi bilgisiyle programı önceden çıkarıyoruz.",
+                ],
+            },
+            {
+                baslik: "Zemin koruma ve temizlik standardı",
+                paragraflar: [
+                    "Otel iç mekânında zemin, dış bahçeden daha hassastır — mermer ve parke gibi yüzeyler en küçük çizik veya lastik izini gösterir. Standart uygulamamız, tüm iç mekân işlerinde iz bırakmayan (beyaz dolgu) lastikli makine kullanmak ve makinenin geçeceği güzergâhı önceden koruyucu örtüyle kaplamaktır. Halı kaplı alanlarda ek olarak yük dağıtıcı taban plakası kullanılır.",
+                    "İş bitiminde zemin kontrolü ve temizliği standart prosedürün parçasıdır; tesis işletme müdürlüğüyle birlikte alan teslim edilmeden önce son bir gözden geçirme yapılır. Bu adım, sezon öncesi yoğun tempoda bile atlanmaz — çünkü açılış sonrası fark edilen bir iz, sezon içinde onarılması çok daha zor bir sorun hâline gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Lobimizin mermer zemininde platform iz bırakır mı?",
+                cevap:
+                    "Önlemsiz kullanımda iz bırakabilir, bu yüzden iç mekân işlerinde iz bırakmayan (beyaz dolgu) lastikli akülü makaslı platform standart tercihimizdir. Makinenin geçeceği güzergâh önceden koruyucu örtüyle kaplanır ve iş bitiminde zemin kontrolü yapılır. Sezon öncesi lobi işlerinde bu standart hiçbir zaman atlanmaz; açılış sonrası fark edilen bir iz, sezon içinde onarılması çok daha zor bir sorun olur.",
+            },
+            {
+                soru: "Balo salonumuzun tavanı çok yüksek, hangi sınıf yeterli?",
+                cevap:
+                    "Balo salonlarında tavan yüksekliği genellikle 8-12 metre bandındadır ve bu, geniş sınıf akülü makaslı platformla karşılanır. Kesin sınıf, tavan yüksekliği ve salon zemininin (parke veya halı) tipiyle netleşir — halı kaplı salonlarda ek olarak yük dağıtıcı taban plakası kullanılır. Salonun net yüksekliğini ve zemin tipini paylaşın, doğru sınıfı önceden belirleyelim.",
+            },
+            {
+                soru: "Depomuzun raf aralığı dar, standart makaslı platform girer mi?",
+                cevap:
+                    "Raf aralığı ve koridor genişliği bilinmeden kesin cevap veremeyiz; dar aralıklarda kompakt kollu-eklemli sınıfa geçilir. Depo fotoğrafı ve yaklaşık koridor genişliğini gönderirseniz, standart makaslı sınıfın girip giremeyeceğini sahaya gelmeden belirleriz. Forklift trafiği varsa çalışma alanının bariyerle ayrılması da plana eklenir.",
+            },
+            {
+                soru: "Sezon içinde mutfak üstü tesisat sorunu çıktı, çalışabilir misiniz?",
+                cevap:
+                    "Çalışabiliriz, ancak mutfağın kapalı olduğu saat bandında. Mutfak üstü işler gıda güvenliği kuralları nedeniyle ayrı bir dikkat gerektirir; çalışma alanı hijyen açısından ayrılır ve iş bitiminde zemin-ekipman temizliği tesisin kendi standartlarına göre kontrol edilir. Sorunun aciliyetini ve mutfağın sakin saatlerini paylaşın, uygun pencereyi birlikte bulalım.",
+            },
+            {
+                soru: "Tüm iç mekân işlerimizi tek seferde bitirebilir miyiz?",
+                cevap:
+                    "Evet, çok salonlu tesislerde standart yaklaşımımız budur. Önce genel kullanım alanları (lobi, koridor, merdiven boşluğu), sonra özel salonlar, en son depo ve tesisat katları sıralanır ve tek makine, tek nakliyeyle program yürütülür. Salon salon kalem listesi ve her salonun zemin tipini paylaşın; programı sezon açılışına yetişecek şekilde birlikte kuralım.",
+            },
+            {
+                soru: "İç mekân işleri sezon içinde hiç yapılamaz mı?",
+                cevap:
+                    "Neredeyse hiç — bir iç mekân alanında duran platform, misafirin gördüğü ilk görüntüyü bozar ve bu tesisler için kabul edilebilir değildir. Yalnızca gerçekten acil bir müdahale, misafirin olmadığı erken saat bandında ve kısa süreli olarak değerlendirilebilir. Planlı iç mekân kalemlerini kış penceresine yazmak hem daha ucuz hem daha rahattır; bu yüzden kalem listenizi sezon kapanmadan çıkarmanızı öneriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otel kış kapanış-açılış takvimi ve iç mekân alanlarının genel yapısı (lobi, restoran, depo) kamuya açık genel bilgidir; zemin koruma standardı ve iç mekân program sıralaması firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Muğla'da Çelik Konstrüksiyon Montaj Platformu: Marina ve Sanayi Yapıları",
+        giris:
+            "Muğla'da çelik konstrüksiyon montaj talebi iki farklı sahadan gelir: kıyıda marina ve iskele üst yapıları, çekek sahası çelik konstrüksiyonları ve turizm tesislerinin sundurma-pergola gibi metal yapı elemanları; iç kesimde ise Yatağan-Milas hattındaki sanayi holü ve enerji tesisi çelik yapıları. Bu iki saha birbirinden yalnızca konum değil, çalışma disiplini olarak da ayrılır — kıyıdaki montaj işi görünürlük ve zemin hassasiyetiyle, iç kesimdeki montaj işi belge ve izin süreciyle sınırlanır. Genel amaçlı filomuzdaki eklemli ve teleskopik platformlar, çelik montajın gerektirdiği hem yükseklik hem yatay erişimi karşılar; ancak montaj işinin kendine özgü riski — ağır elemanın sepetten değil vinç veya başka kaldırma ekipmanıyla taşınması gerekliliği — her iş için baştan netleştirilir. Bu sayfa, Muğla'daki çelik konstrüksiyon işlerinde platformun rolünü ve sınırını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Platformun rolü: montaj değil erişim",
+                metin:
+                    "Çelik konstrüksiyon montajında platform, ağır elemanı taşıyan değil, kaynakçı veya montaj ustasını doğru noktaya taşıyan araçtır. Kolon, kiriş veya panel gibi ağır parçalar vinç veya farklı kaldırma ekipmanıyla konumlandırılır; platform bu parça yerine oturduktan sonra bağlantı, kaynak veya cıvatalama işini yapacak kişiyi hedefe ulaştırır. Bu ayrımı sözleşme aşamasında netleştiriyoruz çünkü sahada platformu vinç yerine kullanma talebi sık karşılaştığımız ama kabul etmediğimiz bir taleptir.",
+            },
+            {
+                baslik: "Marina ve iskele yapılarında zemin ve tuzlu ortam",
+                metin:
+                    "Kıyı şeridindeki çelik montaj işlerinde (iskele üst yapısı, çekek sahası konstrüksiyonu) makinenin çalışacağı zemin genellikle beton saha veya ahşap iskeledir ve tuzlu-nemli ortam ekipmanın bakımını etkiler. Bu sahalarda konumlanma alanı marina işletmesiyle birlikte belirlenir, saha trafiği (vinç, taşıyıcı araç) dikkate alınarak makinenin bulunduğu alan diğer hareketlerden ayrılır.",
+            },
+            {
+                baslik: "Turizm tesisinde metal sundurma ve pergola montajı",
+                metin:
+                    "Otel ve restoran gibi tesislerde sundurma, pergola ve tente gibi metal yapı elemanlarının montajı, turizm sahasının görünürlük kurallarına tabidir — sezon içinde bu işler misafir alanından uzak tutulur veya sezon dışı pencereye yazılır. Montaj sırasında sepetten yapıya dayanma veya yük aktarma yapılmaz; her eleman kendi kaldırma yöntemiyle yerine konur, platform yalnızca bağlantı işini üstlenir.",
+            },
+            {
+                baslik: "Sanayi tarafında belge ve giriş süreci",
+                metin:
+                    "Yatağan-Milas hattındaki sanayi ve enerji tesislerinde çelik konstrüksiyon montajı, işin kendisinden önce bir izin süreciyle başlar: operatör yeterlilik belgesi, makinenin periyodik kontrol raporu, iş güvenliği eğitim kayıtları ve yüklenici kaydı standart olarak istenir. Bu belgeleri teklif aşamasında hazır sunuyoruz; sahaya gelip evrak nedeniyle geri dönmek, planlı montaj programında telafisi olmayan bir kayıptır.",
+            },
+            {
+                baslik: "Yüksek yapılarda konumlanma ve yatay erişim",
+                metin:
+                    "Sanayi holü ve enerji tesisi çelik yapılarında hedefler genellikle turizm tesislerinde karşılaşılmayan yüksekliklerdedir — çatı taşıyıcı elemanları, boru hatları, bant konveyör güzergâhları. Bu hedefler için makine seçimi yalnızca çalışma yüksekliğine değil, hedefe yatay erişime ve konumlanma alanına bağlıdır; teleskopik veya eklemli sınıf, sahanın zemin sertliğine göre büyütülebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik montaj sahasına göre makine ve kısıt",
+                paragraflar: [
+                    "İki saha ailesinin ihtiyacı birbirinden farklıdır. Aşağıdaki tablo, Muğla'daki tipik çelik konstrüksiyon sahalarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Tipik montaj", "Ana kısıt", "Platform rolü"],
+                    satirlar: [
+                        ["Marina / iskele", "Üst yapı, direk", "Tuzlu ortam, saha trafiği", "Bağlantı erişimi"],
+                        ["Çekek sahası konstrüksiyonu", "Çelik iskelet", "Vinç-taşıyıcı hareketi", "Kaynak/cıvata erişimi"],
+                        ["Otel sundurma/pergola", "Metal üst yapı", "Görünürlük, sezon takvimi", "Montaj sonrası bağlantı"],
+                        ["Sanayi holü (Yatağan-Milas)", "Kolon-kiriş, çatı", "Belge ve izin süreci", "Yüksek nokta erişimi"],
+                        ["Enerji tesisi taşıyıcı yapı", "Boru hattı, platform desteği", "Giriş rejimi, refakat", "Planlı duruş erişimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Platform-vinç iş bölümü",
+                paragraflar: [
+                    "Çelik montaj sahalarında en sık karıştırılan nokta platform ile vincin görev alanıdır. Vinç veya başka kaldırma ekipmanı ağır elemanı taşır ve yerine indirir; platform bu noktadan sonra devreye girer ve montaj ustasını bağlantı noktasına ulaştırır. İki ekipmanın aynı sahada çalışması koordinasyon gerektirir — çalışma alanları ayrılır, kaldırma operasyonu sırasında platform o bölgeden uzak tutulur.",
+                    "Bu iş bölümünü teklif aşamasında netleştiriyoruz çünkü platformu kaldırma ekipmanı yerine kullanma talebi güvenlik açısından kabul edilmez; sepetten ağır eleman taşınması ya da sepetin yapıya yük aktarması yasaktır.",
+                ],
+            },
+            {
+                baslik: "Kıyı ile iç kesim arasında sezon dengesi",
+                paragraflar: [
+                    "Marina ve turizm tesisi çelik işleri genellikle kasım-mart penceresine sıkışırken, sanayi tarafındaki çelik montaj işleri yıl boyu planlı duruş takvimine bağlıdır. Bu ters ritim, ekipmanı yıl boyunca ilde tutmamızı sağlar — kıyının sessiz olduğu yaz aylarında ekip ve ekipman iç kesimin montaj takvimine yönlendirilir, kışın ise kıyıdaki çelik işlerine döner.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Platform ağır çelik parçayı taşıyabilir mi, vince gerek var mı?",
+                cevap:
+                    "Hayır, platform ağır eleman taşımaz — bu güvenlik açısından kabul etmediğimiz bir kullanımdır. Kolon, kiriş veya panel gibi parçalar vinç veya uygun kaldırma ekipmanıyla yerine konur; platform bu parça yerleştikten sonra bağlantı, kaynak veya cıvatalama işini yapacak kişiyi hedefe ulaştırır. İşinizde hangi elemanların ne şekilde kaldırılacağını keşif aşamasında birlikte planlıyoruz.",
+            },
+            {
+                soru: "Marinadaki çelik iskele montajında platform çekek sahasında çalışabilir mi?",
+                cevap:
+                    "Çalışabilir, ancak marina işletmesinin saha programına bağlı olarak. Çekek sahaları yoğun trafiklidir; vinç, taşıyıcı ve servis araçları sürekli hareket hâlindedir ve platformun konumlanacağı alan saha sorumlusuyla birlikte belirlenir. Giriş için istenen belge seti (operatör yeterliliği, kontrol raporu, sigorta) teklif aşamasında hazır sunulur.",
+            },
+            {
+                soru: "Otelimizin pergolası monte edilecek, sezon içinde yapılabilir mi?",
+                cevap:
+                    "Genellikle önerilmez. Metal üst yapı montajı görünürlük ve gürültü açısından sezon dışı pencereye daha uygundur; sezon içinde yalnızca acil bir bağlantı sorunu, misafir görmez saatlerde ve kısa süreli olarak değerlendirilebilir. Planlı montajı kış programına yazmanızı öneriyoruz — hem daha rahat hem daha ekonomik ilerler.",
+            },
+            {
+                soru: "Sanayi sahasına girmek için hangi belgeler gerekiyor?",
+                cevap:
+                    "Standart olarak operatörün yeterlilik belgesi, makinenin periyodik kontrol raporu, sigorta belgeleri ve iş güvenliği eğitim kayıtları istenir; çoğu sahada ayrıca yüklenici kaydı ve saha oryantasyon eğitimi gerekir. Bu dosyayı teklif aşamasında sunuyoruz ki satın alma ve İSG süreçleriniz paralel yürüsün ve makine sahaya evraksız gelip geri dönmesin.",
+            },
+            {
+                soru: "Çelik montaj işimiz hem yükseklik hem yana erişim istiyor, hangi sınıf gerekir?",
+                cevap:
+                    "Bu durumda eklemli veya teleskopik platform önerilir — makaslı platformun aksine hem dikey hem yatay erişim sunar. Hedefin yüksekliği kadar, sepetin gövdeden ne kadar mesafeye açılabilmesi gerektiği de belirleyicidir. Hedefin fotoğrafını ve çevresindeki engelleri paylaşın, doğru sınıfı birlikte belirleyelim.",
+            },
+            {
+                soru: "Yıl boyu montaj işimiz olacak, tek çerçeve sözleşme mümkün mü?",
+                cevap:
+                    "Mümkün ve iç kesim sanayi tesisleri için avantajlıdır. Planlı duruş takvimine bağlı çalışan tesislerde ekipman ve ekip, yılın farklı dönemlerine yayılan revizyon programına göre yönlendirilir. Duruş takviminizi paylaşın; yıllık kapasite rezervasyonunu buna göre kuralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Muğla kıyısındaki marina/turizm ile iç kesimdeki sanayi çelik yapı dokusu kamuya açık genel bilgidir; platform-vinç iş bölümü ve giriş belge süreci firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Muğla'da Tarım ve Silo Sahası Platform Kiralama: Kıyının Arkasındaki Üretim",
+        giris:
+            "Muğla denince akla ilk gelen turizm olsa da, ilin ova ve iç kesimlerinde kıyı takviminden tamamen bağımsız bir tarımsal üretim dokusu vardır: zeytin ve zeytinyağı işletmeleri, sera yapıları, soğuk hava depoları ve tarımsal ürün paketleme tesisleri. Bu işletmelerin yüksek iş ihtiyacı — depo çatı ve cephe bakımı, sera üst örtü ve taşıyıcı kalemleri, saha aydınlatması, silo ve depo dış yüzeyi — kıyının sezon takviminden bağımsız kendi döngüsüne bağlıdır: zeytin işletmelerinde hasat kampanyası, sera işletmelerinde ürün döngüsü. Genel amaçlı filomuz bu işletmelere aynı danışmanlık disipliniyle hizmet verir — ancak burada devreye giren asıl kısıt zemindir: sera ve tarım arazisi zemini genellikle yumuşak toprak, dolgu veya doygun killi yapıdadır ve makinenin batmadan çalışabilmesi, doğru sınıf ve doğru önlemle mümkündür. Bu sayfa, Muğla'nın tarımsal işletmelerinde platform çalışmasının zemin, takvim ve yapı hassasiyeti açısından nasıl planlandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Hasat kampanyası dokunulmazlığı",
+                metin:
+                    "Zeytin ve zeytinyağı işletmelerinde hasat ve sıkım kampanyası başladıktan sonra tesis içinde bakım çalışması yapmak neredeyse imkânsızdır — hatlar sürekli çalışır, saha araç trafiğiyle doludur ve bir duruş doğrudan ürün kaybı anlamına gelir. Doğru model kampanya öncesi hazırlık turudur: proses alanı aydınlatmaları, depo çatı ve cephe kalemleri, sensör ve kamera hatları kampanya başlamadan haftalar önce topluca elden geçirilir.",
+            },
+            {
+                baslik: "Sera zemini: yumuşak toprak ve batma riski",
+                metin:
+                    "Sera içi ve çevresi genellikle yumuşak toprak, sulama nedeniyle nemli veya mevsimsel dolgu yapısındadır. Bu zeminlerde tekerlekli makine batma riski taşır; paletli sınıf ağırlığı geniş yüzeye yaydığı için standart tercihtir ve gerekirse yük dağıtıcı plaka eklenir. Yağış sonrası doygun zeminde çalışmak ertelenir — bir günlük bekleme, hem makine kurtarma operasyonundan hem zemin onarımından her zaman ucuzdur.",
+            },
+            {
+                baslik: "Yapıya değil makineye yük: sera konstrüksiyonu kuralı",
+                metin:
+                    "Sera üst örtüsü ve taşıyıcı konstrüksiyonu platform yükünü taşımak için tasarlanmamıştır. Çalışma kuralımız nettir: sepetten taşıyıcıya dayanmak, yapının üzerine yük aktarmak veya konstrüksiyona tutunmak yapılmaz; işin tamamı sepetten, üretici çalışma zarfı içinde tamamlanır. Hedefe erişim bu şekilde mümkün değilse görev kapsamı yeniden değerlendirilir; yapı zorlanarak iş bitirilmez.",
+            },
+            {
+                baslik: "Soğuk hava deposu ve paketleme tesisinde yüksek kalemler",
+                metin:
+                    "Soğuk hava depolarının çatı ve cephe işleri, paketleme tesislerinin yüksek noktaları ve saha aydınlatmaları, ürün döngüsüne bağlı bir takvimde planlanır — depo dolu olduğu dönemde çatı işi rahatsızlık yaratmaz ama saha trafiği yoğunsa çalışma alanı ayrılması gerekir. Bu tesislerin zemini genellikle betondur ve standart makine sınıfı rahatlıkla çalışır; asıl kısıt zemin değil operasyon takvimidir.",
+            },
+            {
+                baslik: "Kıyının tersi takvim: yaz avantajı",
+                metin:
+                    "Tarım ve enerji-maden kuşağının takvimi kıyının tam tersidir — kıyının sessiz olduğu kasım-mart döneminde tarımsal işletmelerin bazı kalemleri (özellikle hasat sonrası dönem) de sakin olabilir, ama zeytin işletmelerinin asıl dokunulmaz dönemi sonbahar kampanyasıdır. Bu ters ritim, ekipman ve ekibin ilin farklı bölgelerinde yıl boyu dengeli dağılmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarımsal tesis tipine göre zemin ve çalışma penceresi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki tarımsal işletme tiplerinde zemin ve takvim özelliklerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Zemin", "Dokunulmaz dönem", "Uygun makine"],
+                    satirlar: [
+                        ["Sera işletmesi", "Yumuşak toprak / dolgu", "Ürün döngüsüne bağlı", "Paletli kompakt"],
+                        ["Zeytinyağı tesisi", "Beton / karma", "Hasat kampanyası", "Standart akülü/dizel"],
+                        ["Soğuk hava deposu", "Beton", "Yoğun sevkiyat dönemi", "Standart makaslı"],
+                        ["Paketleme tesisi", "Beton", "Sezon yoğunluğu", "Standart eklemli"],
+                        ["Açık tarla / silo çevresi", "Doğal zemin, engebeli", "Yok denecek kadar az", "Arazi tipi teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kampanya öncesi hazırlık turunun mantığı",
+                paragraflar: [
+                    "Zeytin tesislerinde en sık duyduğumuz talep, kampanya ortasında gelen acil çağrılardır: yanan bir proses aydınlatması, arızalanan bir kamera, sızdıran bir çatı noktası. Bu arızaların büyük bölümü kampanyada oluşmaz; kampanyadan önce vardır ama fark edilmez. Hazırlık turu tam bu farkı yönetir — tesisin tüm yüksek kalemleri sezon başlamadan tek günde gözden geçirilir.",
+                    "Bu turun ekonomik değeri açıktır: kampanya içinde bir hattı durdurup müdahale etmenin maliyeti, aynı işin kampanya öncesi planlı yapılmasının kat kat üzerindedir. Kalem listenizi hasattan geriye sayarak çıkarın; tur gününü buna göre bağlayalım.",
+                ],
+            },
+            {
+                baslik: "Sera hazırlık kartı: zemin ve konstrüksiyon bilgisi",
+                paragraflar: [
+                    "Sera işinde teklif öncesi işletmeden aldığımız bilgi standarttır: zemin türü ve dolgu durumu, sulama düzeni ve son sulama tarihi, ürün-makine hareketi (varsa hasat trafiği), sepete alınacak alet ve küçük malzeme listesi. Park noktası ile hedef arasındaki yatay mesafe ölçülür ve uzun yapı elemanı ayrı kaldırma planına çıkarılır.",
+                    "Çalışma günü zemin yeniden gözlenir; sulama veya yağış koşulu değiştirmişse eski onay geçerli sayılmaz. Uygun park bulunamazsa sepet açılmaz — bu, sera işlerinde asla esnetmediğimiz tek kural.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zeytinyağı tesisimizde kampanya eylülde başlıyor, ne zaman çalışmalıyız?",
+                cevap:
+                    "Kampanya başlangıcından geriye sayarak, tercihen birkaç hafta önce. Hazırlık turunda tesisin tüm yüksek kalemleri tek programda elden geçer ve kampanyaya bakımlı giren tesisin sezon içi acil çağrısı belirgin şekilde azalır. Sonbahar başı ilçedeki tüm zeytin tesislerinin aynı ihtiyacı duyduğu dönemdir; kalem listenizi yaz ortasında çıkarın, turu erken bağlayalım.",
+            },
+            {
+                soru: "Serada üst örtü işi yaptıracağız, makine yapıya zarar verir mi?",
+                cevap:
+                    "Doğru planlanırsa vermez, çünkü kural nettir: yük yapıya değil makineye biner. Sepetten taşıyıcıya dayanmak veya konstrüksiyona tutunmak söz konusu değildir; konumlanma işin tamamının sepetten yapılabileceği şekilde seçilir. Zemin genellikle yumuşak toprak olduğu için yük dağıtıcı plaka kullanılır, yağış sonrası doygun zeminde çalışma ertelenir.",
+            },
+            {
+                soru: "Sera zemini çok yumuşak, makine batmaz mı?",
+                cevap:
+                    "Önlemsiz girerse batabilir. Paletli sınıf ağırlığı geniş yüzeye yaydığı için tekerlekli makinelere göre belirgin avantajlıdır ve gerekirse yük dağıtıcı plaka eklenir. Sulanmış veya yağış sonrası doygun zeminde çalışmayı erteleyip kurumasını beklemeyi öneriyoruz — bir günlük bekleme, makine kurtarma operasyonundan her zaman ucuzdur. Zemin fotoğrafını keşfe ekleyin.",
+            },
+            {
+                soru: "Soğuk hava deposunun çatısında çalışacağız, ürün varken mümkün mü?",
+                cevap:
+                    "Genellikle mümkündür çünkü depo zemini betondur ve asıl kısıt zemin değil saha trafiğidir. Sevkiyat yoğunluğunun düşük olduğu saat bandı işletmeyle birlikte belirlenir ve çalışma alanı forklift-araç trafiğinden bariyerle ayrılır. Depo operasyon programınızı paylaşın, en uygun saat bandını birlikte bulalım.",
+            },
+            {
+                soru: "Silo çevresindeki açık sahada engebeli zemin var, hangi makine çalışır?",
+                cevap:
+                    "Açık tarla ve silo çevresi gibi doğal, engebeli zeminlerde arazi tipi teleskopik sınıf tercih edilir — geniş tekerlek ve yüksek yer açıklığı bu zeminlerde standart makaslı sınıfa göre avantajlıdır. Zeminin eğimi ve engebe derecesi keşifte değerlendirilir; gerekirse çalışma öncesi zemin hazırlığı işletmeyle birlikte planlanır.",
+            },
+            {
+                soru: "Hem zeytin tesisimiz hem sera işletmemiz var, tek anlaşma mümkün mü?",
+                cevap:
+                    "Mümkün ve avantajlıdır. İki işletmenin dokunulmaz dönemi farklıdır — zeytin tesisi hasat kampanyasında, sera ise ürün döngüsüne göre kapanır — ve bu fark aslında avantajdır: kalemler farklı pencerelere yazıldığı için ekipman çakışması yaşanmaz. İki işletmenin dokunulmaz dönem listesini paylaşın; yıllık programı buna göre kuralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Muğla'nın zeytin üretimi, sera işletmeleri ve tarımsal altyapısı kamuya açık genel bilgidir; hazırlık turu ve sera hazırlık kartı firma pratiğidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Muğla'da Enerji, Aydınlatma ve Direk Bakım Platformu",
+        giris:
+            "Muğla'da aydınlatma ve direk bakımı, kıyı ile iç kesim arasında tamamen farklı iki iş ailesi anlamına gelir. Kıyıda otel bahçe aydınlatması, marina çevresi direkleri, tabela ve dış cephe aydınlatması gibi kalemler sezon takvimine tabidir ve genellikle kış penceresinde toplu olarak elden geçer. İç kesimde ise Yatağan-Milas hattındaki enerji tesislerinin aydınlatma ve elektrik hattı bakımı, planlı duruş takvimine bağlı yıl boyu süren bir iştir. Menteşe merkezindeki şehir içi aydınlatma-kamera direkleri ise üçüncü bir kategoridir — küçük, tekil ama sık tekrar eden işlerdir. Genel amaçlı filomuzdaki akülü ve dizel makaslı-eklemli sınıflar, direk ve aydınlatma yüksekliğine göre seçilir; bu sayfa, üç farklı sahada aydınlatma bakımının nasıl planlandığını ve elektrik hattı yakınında çalışmanın hangi ek önlemleri gerektirdiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kıyıda kış penceresinde toplu aydınlatma bakımı",
+                metin:
+                    "Otel bahçe aydınlatması, giriş direkleri ve dış cephe aydınlatma armatürleri, sezon içinde neredeyse hiç dokunulmayan kalemlerdir — bir aydınlatma direğinde duran platform bile tatilin görüntüsünü bozar. Kış penceresinde bu kalemler diğer bakım işleriyle birlikte tek programda toplanır; direk sayısı fazlaysa tek ziyarette tüm bahçe aydınlatması sırayla tamamlanır ve nakliye maliyeti tüm kaleme yayılır.",
+            },
+            {
+                baslik: "Marina çevresi aydınlatmasında tuzlu ortam ve saha trafiği",
+                metin:
+                    "Marina ve çekek sahası aydınlatması, tuzlu-nemli ortam nedeniyle diğer kalemlerden daha sık bakım gerektirebilir ve çalışma, marina işletmesinin saha trafiğine göre planlanır. Konumlanma alanı saha sorumlusuyla belirlenir, vinç ve taşıyıcı hareketlerinin dışına yazılır. Direk sayısı fazlaysa tur mantığıyla ilerlenir — makine bir direkten diğerine kısa mesafede geçer.",
+            },
+            {
+                baslik: "İç kesimde enerji tesisi hat ve direk bakımı",
+                metin:
+                    "Yatağan-Milas hattındaki enerji tesislerinde aydınlatma ve elektrik hattı bakımı, planlı duruş dönemine bağlıdır ve giriş süreci belge gerektirir — operatör yeterlilik belgesi, makine kontrol raporu, iş güvenliği eğitimleri standart olarak istenir. Bu sahalarda elektrik hattına yakın çalışma, mesafe kuralları ve gerekirse kesinti koordinasyonu ile yürütülür; hat gerilimli durumdaysa iş, planlanmış bir kesinti penceresine yazılır.",
+            },
+            {
+                baslik: "Elektrik hattı yakınında mesafe kuralı",
+                metin:
+                    "Aydınlatma direği veya elektrik hattı yakınında çalışırken, sepetin ve operatörün hatla arasındaki mesafe, hattın gerilim seviyesine göre belirlenen güvenlik mesafesinin altına inmemelidir. Bu kural hem kıyıdaki dekoratif aydınlatma direklerinde hem iç kesimdeki yüksek gerilim hatlarında geçerlidir; fark, kıyıda genellikle düşük gerilimli hatlarla, iç kesimde ise yüksek gerilimli hatlarla çalışılmasıdır. Hat tipini ve gerilim bilgisini teklif öncesi işletmeden alıyoruz.",
+            },
+            {
+                baslik: "Menteşe merkezinde tekil direk bakımı",
+                metin:
+                    "İl merkezindeki şehir içi aydınlatma ve kamera direkleri, tabela ve dükkan aydınlatması gibi işler tekildir ve sık tekrarlanır. Bu kalemler gün paylaşımı modeliyle çalışılır — aynı güne birden fazla merkez adresi yazılır, makine kısa mesafelerle adresten adrese geçer. Tek başına ele alındığında ekonomik olmayan bir tabela veya direk işi, bu modelde makul bir bedele iner.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre aydınlatma bakım modeli",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki üç farklı aydınlatma-direk bakım sahasını ve uyguladığımız modeli özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Tipik kalem", "Uygun dönem", "Çalışma modeli"],
+                    satirlar: [
+                        ["Otel bahçesi / dış cephe", "Armatür, direk", "Kasım – mart", "Toplu program"],
+                        ["Marina / çekek sahası", "Direk, saha aydınlatması", "Kışlama dönemi", "Marina programına uyum"],
+                        ["Enerji tesisi hattı", "Direk, hat bakımı", "Planlı duruş", "Belge ve kesinti koordinasyonu"],
+                        ["Menteşe merkez", "Tabela, kamera direği", "Yıl boyu", "Gün paylaşımı"],
+                        ["Sanayi/maden sahası", "Aydınlatma, kamera", "Revizyon takvimi", "Giriş izni ile"],
+                    ],
+                },
+            },
+            {
+                baslik: "Direk sayısı fazlaysa tur ekonomisi",
+                paragraflar: [
+                    "Otel veya sitede birden fazla aydınlatma direği varsa, hepsini tek seferde ele almak nakliye maliyetini büyük ölçüde düşürür. Makine bahçede kalır ve direkten direğe kısa mesafede ilerler; her direk için ayrı sevkiyat yapmak yerine tek program kurulur. Direk sayısını ve konumlarını gösteren bir kroki, teklif hazırlamak için yeterlidir.",
+                    "Site yönetimleri için de aynı model geçerlidir — ortak alan aydınlatmalarının tamamı tek programda toplanabilir ve maliyet site geneline yayılır.",
+                ],
+            },
+            {
+                baslik: "Elektrik kesintisi gerektiren işlerde koordinasyon",
+                paragraflar: [
+                    "Bazı direk ve hat işleri, çalışmadan önce elektriğin kesilmesini gerektirir. Bu koordinasyon işletmenin elektrik yetkilisiyle önceden yapılır ve kesinti penceresi programa yazılır. Kesinti olmadan çalışılabilecek işler (armatür değişimi gibi düşük riskli kalemler) ayrı değerlendirilir ve kesinti gerektiren işlerden ayrıştırılır — böylece kesinti penceresi yalnızca gerçekten gerekli işlere ayrılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otel bahçemizdeki tüm direkleri tek seferde mi yapmalıyız?",
+                cevap:
+                    "Önerimiz budur. Direk sayısı fazlaysa hepsini tek programda toplamak nakliye maliyetini belirgin düşürür — makine bahçede kalır ve direkten direğe kısa mesafede ilerler. Direk sayınızı ve konumlarını gösteren bir kroki paylaşın, tek ziyarette tamamlanacak programı kuralım.",
+            },
+            {
+                soru: "Marina aydınlatmasında elektrik kesintisi gerekiyor mu?",
+                cevap:
+                    "Bazı işlerde gerekir, bazılarında gerekmez. Düşük riskli armatür değişimi genellikle kesinti gerektirmez; direk içi bağlantı veya hat işleri ise kesinti ister. Bu ayrımı işin tanımına göre keşifte yapıyoruz ve kesinti gerekiyorsa marina işletmesinin elektrik yetkilisiyle koordinasyonu önceden kuruyoruz.",
+            },
+            {
+                soru: "Elektrik hattına yakın çalışmak güvenli mi?",
+                cevap:
+                    "Doğru mesafe kuralına uyulduğunda güvenlidir. Sepetin ve operatörün hatla arasındaki mesafe, hattın gerilim seviyesine göre belirlenen güvenlik mesafesinin altına inmez. Hat tipi ve gerilim bilgisini teklif öncesi işletmeden alıyoruz; gerekirse iş, planlanmış bir kesinti penceresine yazılır.",
+            },
+            {
+                soru: "Enerji tesisimizde direk bakımı için hangi belgeler isteniyor?",
+                cevap:
+                    "Standart olarak operatörün yeterlilik belgesi, makinenin periyodik kontrol raporu, sigorta belgeleri ve iş güvenliği eğitim kayıtları istenir; çoğu sahada ayrıca yüklenici kaydı gerekir. Bu dosyayı teklif aşamasında sunuyoruz ki makine sahaya evraksız gelip geri dönmesin ve planlı duruş penceresinde zaman kaybedilmesin.",
+            },
+            {
+                soru: "Merkezde tek bir tabela aydınlatması işimiz var, kabul eder misiniz?",
+                cevap:
+                    "Ederiz. Menteşe merkezindeki kısa işler gün paylaşımı modeliyle çalışılır: aynı güne birden fazla merkez adresi yazılır, makine kısa mesafelerle adresten adrese geçer ve nakliye bedeli paylaşılır. Tarihinizi esnek bırakırsanız ilk uygun merkez gününe yazarız.",
+            },
+            {
+                soru: "Sezon içinde bir aydınlatma direği arızalandı, acil müdahale mümkün mü?",
+                cevap:
+                    "Erişim servis yolundan veya personel bölgesinden mümkünse evet — sabahın erken bandında, kısa süreli bir müdahaleyle. Erişim yalnızca misafir alanının ortasından mümkünse, güvenlik amaçlı geçici önlem alıp kalıcı çözümü kış programına yazmayı öneririz. Kararı keşif fotoğrafı ve tesis müdürlüğüyle birlikte veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kıyı-iç kesim aydınlatma bakım ayrımı ve enerji tesisi giriş rejimi kamuya açık genel bilgidir; direk tur ekonomisi ve kesinti koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Muğla'da Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Muğla'da operatörlü kiralama tercihi, ilin iki farklı çalışma rejiminde farklı gerekçelerle öne çıkar. Turizm tesislerinde operatörlü tercih, misafir görmez çalışma disiplinini yönetebilecek deneyimli bir eldeki güven ihtiyacından doğar — sezon içi kısa pencerede, servis yolundan giren, paravanlı düzeni kuran ve iş biter bitmez sahadan çıkan bir operatör, tesis için operatörsüz kiralamadan daha güvenli bir seçenektir. Sanayi ve enerji sahalarında ise operatörlü tercih, giriş belge sürecinin ve saha İSG kurallarının bilinmesiyle ilgilidir — deneyimli operatör, planlı duruş penceresinde zaman kaybettirmeden çalışır. Operatörsüz kiralama ise düzenli, tekrarlayan ve düşük riskli işlerde tesisin kendi personeline uygundur. Bu sayfa, hangi durumda hangi seçimin daha doğru olduğunu Muğla'nın iki farklı saha profiline göre anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Turizm tesisinde operatörlü tercih nedeni",
+                metin:
+                    "Sezon içi kısa pencerede çalışan operatör, yalnızca makineyi değil misafir görmez çalışma disiplinini de yönetir: güzergâhın önceden yürünmesi, çalışma alanının paravanla ayrılması, gürültülü kalemlerin servis saatleri dışına yazılması ve iş biter bitmez makinenin sahadan çıkması. Bu disiplin deneyim gerektirir ve operatörlü kiralamada bu deneyim tesise dışarıdan gelir — tesisin kendi personelinin bu disiplini her seferinde yeniden öğrenmesine gerek kalmaz.",
+            },
+            {
+                baslik: "Sanayi sahasında operatörlü tercih nedeni",
+                metin:
+                    "Yatağan-Milas hattındaki sanayi ve enerji tesislerinde platform çalışması bir izin ve belge süreciyle başlar; deneyimli operatör bu süreci bilir ve saha İSG kurallarına (refakat, ölçüm şartı, toz koşulları) uygun çalışır. Planlı duruş penceresinde zaman kritik olduğu için, sahayı ve prosedürü bilen bir operatörün getirdiği hız avantajı belirgindir.",
+            },
+            {
+                baslik: "Operatörsüz kiralamanın uygun olduğu durumlar",
+                metin:
+                    "Düzenli, tekrarlayan ve düşük riskli işlerde (örneğin bir depo içi rutin bakım) tesisin kendi eğitimli personeli makineyi operatörsüz kullanabilir. Bu durumda operatör yeterlilik belgesi olan bir personelin bulunması ve makinenin kullanım eğitiminin verilmiş olması şarttır. Operatörsüz kiralama, tesisin sık kullanım ihtiyacı olduğunda maliyet avantajı sunar.",
+            },
+            {
+                baslik: "Belge kuralı her iki seçenekte de geçerlidir",
+                metin:
+                    "'Operatörsüz kiralarsak belge gerekmez' yanılgısı yaygındır ama yasal çerçeve böyle çalışmaz — makineyi kullanacak kişinin yeterlilik belgesi, ister firma operatörü ister tesis personeli olsun, aranır. Operatörlü kiralamada bu belgeyi biz sağlarız ve teklif aşamasında sunarız; operatörsüz kiralamada tesisin kendi personelinin belgesini teslimat öncesi doğrularız.",
+            },
+            {
+                baslik: "Karma model: uzun süreli işlerde geçiş",
+                metin:
+                    "Kampüs ölçeğindeki otellerde veya uzun süreli sanayi montajlarında bazen karma model uygulanır: işin ilk günleri (yeni sahaya alışma, karmaşık erişim planı) firma operatörüyle, tesis personeli sahayı ve makineyi öğrendikten sonra kalan süre operatörsüz devam edebilir. Bu geçiş, tesisin talebi ve personelinin yeterliliğine göre değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sahaya göre operatörlü/operatörsüz karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki tipik saha profillerinde önerimizi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha profili", "Önerilen model", "Gerekçe"],
+                    satirlar: [
+                        ["Turizm tesisi, sezon içi kısa iş", "Operatörlü", "Misafir görmez disiplin"],
+                        ["Turizm tesisi, kış uzun program", "Operatörlü veya karma", "Kampüs koordinasyonu"],
+                        ["Sanayi/enerji sahası, planlı duruş", "Operatörlü", "Belge-İSG süreci"],
+                        ["Depo/tesis içi rutin bakım", "Operatörsüz (belgeli personel)", "Düşük risk, sık kullanım"],
+                        ["Marina/çekek sahası", "Operatörlü", "Saha trafiği koordinasyonu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör yeterlilik belgesi ne anlama gelir",
+                paragraflar: [
+                    "Platform operatörünün yeterlilik belgesi, ilgili makine sınıfında eğitim aldığını ve pratik değerlendirmeden geçtiğini gösteren resmi bir belgedir. Operatörlü kiralamada bu belgeyi kendi personelimiz için biz sağlarız; operatörsüz kiralamada ise tesisin makineyi kullanacak personelinin bu belgeye sahip olması istenir ve teslimat öncesi doğrulanır.",
+                    "Belgesiz kullanım hem güvenlik hem yasal açıdan risklidir; bu yüzden operatörsüz kiralama talebinde ilk sorduğumuz şey, makineyi kimin kullanacağı ve o kişinin belge durumudur.",
+                ],
+            },
+            {
+                baslik: "Maliyet karşılaştırması",
+                paragraflar: [
+                    "Operatörlü kiralama, operatör ücretini içerdiği için günlük bazda operatörsüzden daha yüksek görünür; ancak tesisin kendi personelini eğitmek, belgelendirmek ve makineyi doğru kullanmasını sağlamak da bir maliyettir — özellikle tek seferlik veya seyrek kullanımda bu maliyet operatörlü kiralamayı dengeler. Sık ve düzenli kullanımda ise operatörsüz model, uzun vadede daha ekonomik olabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimizde sezon içi acil bir işimiz var, operatörlü mü kiralamalıyız?",
+                cevap:
+                    "Evet, öneririz. Sezon içi kısa pencerede misafir görmez çalışma disiplini deneyim ister — güzergâhın önceden yürünmesi, paravanlı düzen, gürültülü kalemlerin servis saatleri dışına yazılması. Deneyimli operatör bu disiplini tesisin personelinin her seferinde yeniden öğrenmesine gerek kalmadan uygular.",
+            },
+            {
+                soru: "Operatörsüz kiralarsak belge gerekmiyor mu?",
+                cevap:
+                    "Gerekiyor. 'Operatörsüz kiralarsak belge gerekmez' yaygın bir yanılgıdır ama yasal çerçeve böyle çalışmaz — makineyi kullanacak kişinin yeterlilik belgesi aranır. Operatörsüz kiralama talebinde makineyi kimin kullanacağını ve o kişinin belge durumunu ilk sorduğumuz şey budur; belge yoksa operatörlü seçenek önerilir.",
+            },
+            {
+                soru: "Sanayi sahamızda planlı duruşta neden operatörlü öneriyorsunuz?",
+                cevap:
+                    "Çünkü saha girişi bir izin ve belge süreciyle başlar ve deneyimli operatör bu süreci bilir; refakat kuralları, ölçüm şartları ve toz koşulları gibi saha İSG kurallarına uygun çalışır. Planlı duruş penceresinde zaman kritik olduğu için, sahayı bilen bir operatörün getirdiği hız avantajı belirgindir ve gecikme riskini azaltır.",
+            },
+            {
+                soru: "Depomuzda sık kullanım var, her seferinde operatör mü tutmalıyız?",
+                cevap:
+                    "Şart değil. Düzenli, tekrarlayan ve düşük riskli depo içi işlerde, tesisin kendi eğitimli ve belgeli personeli makineyi operatörsüz kullanabilir. Bu, sık kullanımda maliyet avantajı sağlar. Personelinizin yeterlilik belgesi olduğundan emin olun; teslimat öncesi bunu doğrularız.",
+            },
+            {
+                soru: "Uzun süreli otel projesinde karma model nasıl işler?",
+                cevap:
+                    "İşin ilk günlerinde, sahaya alışma ve karmaşık erişim planı gerektiren dönemde firma operatörüyle çalışılır; tesis personeli sahayı ve makineyi öğrendikten sonra kalan süre operatörsüz devam edebilir. Bu geçiş tesisin talebine ve personelinin yeterliliğine göre değerlendirilir; garanti edilen sabit bir geçiş tarihi yoktur.",
+            },
+            {
+                soru: "Marina çevresinde operatörsüz kiralama mümkün mü?",
+                cevap:
+                    "Genellikle önermeyiz. Çekek sahası ve marina çevresi yoğun trafiklidir; konumlanma marina işletmesiyle koordinasyon gerektirir ve bu koordinasyonu yönetecek deneyim önemlidir. Operatörlü kiralama, saha trafiğiyle uyumlu çalışmayı ve giriş belgelerinin düzgün sunulmasını garanti eder.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatör yeterlilik belgesi zorunluluğu genel yasal çerçevedir; turizm-sanayi sahasına göre operatörlü tercih gerekçesi ve karma model firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Muğla'da Çok Noktalı Rota Bakım Platformu: Dağınık Kıyı İlçeleri Arası Planlama",
+        giris:
+            "Muğla, tek bir merkezden yönetilen bir il değildir — Bodrum, Marmaris, Fethiye, Datça, Ortaca, Milas ve Yatağan birbirinden uzak, birbirinden farklı ekonomik ritimde çalışan ilçelerdir ve bu dağınıklık, birden fazla tesisi olan bir grup ya da site yönetimi için platform planlamasını tek başına bir mühendislik problemine çevirir. Bir zincirin Bodrum'daki oteli ile Fethiye'deki tesisi aynı hafta bakım istediğinde, soru artık 'hangi makine' değil 'hangi sırayla, hangi güzergâhla' olur. Genel amaçlı filomuzun çok noktalı rota hizmeti, tam bu ihtiyaç için kurulmuştur: birden fazla adresi olan bir talep, tek bir makinenin coğrafi mantıkla dizilmiş bir turu hâline getirilir — makine bir ilçeye iner, o ilçedeki ve yakın çevresindeki tüm kalemleri toplar, sonra bir sonraki ilçeye geçer. Bu sayfa, dağınık kıyı ilçeleri arasında bir rota nasıl kurulur, hangi bilgiler gerekir ve nakliye ekonomisi nasıl işler, bunu ayrıntılı anlatıyor — çünkü Muğla'da bu, ilin en çok tasarruf sağlayan planlama biçimidir.",
+        maddeler: [
+            {
+                baslik: "Neden tek adres mantığı Muğla'da işlemez",
+                metin:
+                    "Standart kiralama mantığı, bir makinenin bir adrese gidip işini bitirip geri dönmesidir. Muğla'da bu mantık, ilçeler arası mesafe ve virajlı-rampalı yol yapısı nedeniyle her adres için ayrı ayrı uygulandığında maliyeti katlar — Bodrum'a bir sevkiyat, Marmaris'e ayrı bir sevkiyat, Fethiye'ye üçüncü bir sevkiyat, her biri kendi nakliye bedelini taşır. Çok noktalı rota modeli bu mantığı tersine çevirir: tek bir sevkiyatla makine ilçeler arasında planlı bir sırayla dolaşır ve nakliye bedeli tüm rotaya yayılır.",
+            },
+            {
+                baslik: "Rota nasıl kurulur: coğrafi kümeleme",
+                metin:
+                    "Rota planlaması, adresleri coğrafi yakınlıklarına göre kümeler halinde gruplar — aynı yönde veya aynı ilçede bulunan adresler aynı güne veya ardışık günlere yazılır, farklı yönlerdeki adresler ayrı bloklara ayrılır. Örneğin Bodrum ve çevresindeki adresler bir blok, Marmaris-Fethiye hattı ikinci bir blok olarak planlanabilir. Bu kümeleme, makinenin gün içinde gereksiz yere ileri-geri gitmesini önler ve toplam yol süresini minimize eder.",
+            },
+            {
+                baslik: "Her ilçenin kendi kısıtı: turizm mi sanayi mi",
+                metin:
+                    "Rotadaki her durak, kendi çalışma disiplinini korur — Bodrum'daki bir otel durağı misafir görmez saatlere tabiyken, Yatağan'daki bir sanayi durağı belge ve izin sürecine tabidir. Çok noktalı rota, bu farklı disiplinleri aynı sevkiyat içinde ama ayrı iş kartlarıyla yönetir; bir duraktaki uygunluk, bir sonraki durak için otomatik olarak geçerli sayılmaz ve her adres kendi kabul ve teslim sürecini yaşar.",
+            },
+            {
+                baslik: "Zaman penceresi: hazır olmayan durak turu bekletmez",
+                metin:
+                    "Rotanın verimli işlemesi, her durağın makine geldiğinde hazır olmasına bağlıdır — malzeme sahada, karar verilmiş, çalışma alanı boş olmalıdır. Hazır olmayan bir durak, rotanın tamamını geciktirir ve sonraki adreslerin programını kaydırır. Bu yüzden rota günü gelmeden önceki hafta içinde her durakla kısa bir hazırlık teyidi yapılır — küçük bir adım ama rotanın tamamını ayakta tutan adım budur.",
+            },
+            {
+                baslik: "Grup ve zincir işletmeler için yıllık rota programı",
+                metin:
+                    "Birden fazla ilçede tesisi olan gruplar için en değerli hizmet, yıllık bir rota programı kurmaktır — her tesisin dokunulmaz dönemi (turizm tesisinde sezon, sanayi tesisinde üretim takvimi) listelenir ve rota, bu dönemlerin dışında kalan pencerelere göre kurulur. Bu program tek çerçeve sözleşmeyle yönetilir, faturalama tesis bazında ayrı yapılır ama koordinasyon tek elden yürür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Muğla'da tipik rota blokları",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilin coğrafi yapısına göre kurduğumuz tipik rota bloklarını gösterir. Kesin rota, talep eden adreslerin konumuna göre şekillenir.",
+                ],
+                tablo: {
+                    basliklar: ["Rota bloğu", "Kapsanan ilçeler", "Tipik durak sayısı", "Uygun dönem"],
+                    satirlar: [
+                        ["Yarımada bloğu", "Bodrum ve çevre koylar", "Çok, küçük ölçekli", "Kasım – mart"],
+                        ["Batı kıyı bloğu", "Marmaris – İçmeler", "Az, büyük ölçekli", "Kasım – mart"],
+                        ["Güney kıyı bloğu", "Fethiye – Ölüdeniz", "Orta, dağınık", "Kasım – mart"],
+                        ["Merkez bloğu", "Menteşe", "Çok, tekil kısa iş", "Yıl boyu"],
+                        ["İç kesim bloğu", "Yatağan – Milas", "Az, sanayi ölçekli", "Revizyon takvimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planlaması için gereken bilgiler",
+                paragraflar: [
+                    "Bir rota talebini kurmak için her adresten şu bilgiler istenir: konum ve adres, kalem listesi ve tahmini süre, erişim kısıtları (kapı, dönüş, zemin), tesisin uygun çalışma penceresi ve saha irtibat kişisi. Bu bilgiler toplandıktan sonra rota, coğrafi kümeleme ve zaman penceresi kısıtlarına göre çizilir ve her durak için tahmini tarih verilir.",
+                    "Rota kesinleştikten sonra her adresle ayrı bir teyit yapılır — genel rota tarihi bilinse de, o adresin hazırlık durumu değişmiş olabilir. Bu son teyit, rota gününde sürpriz yaşanmasını önler.",
+                ],
+            },
+            {
+                baslik: "Rota ekonomisi: nakliyenin paylaşılması",
+                paragraflar: [
+                    "Çok noktalı rotanın en somut faydası nakliye maliyetindeki düşüştür. Tek adres için tekil sevkiyat, o adresin tüm nakliye bedelini taşırken, rotaya dahil bir adres bu bedeli diğer duraklarla paylaşır. Küçük ölçekli işletmeler için (özellikle Bodrum yarımadası ve Fethiye gibi çok sayıda küçük tesisin bulunduğu bölgelerde) bu paylaşım, tek başına erişilemeyecek bir ekipmana makul bir bedelle erişmeyi mümkün kılar.",
+                    "Rota ekonomisinin ikinci faydası öngörülebilirliktir — grup işletmeler için yıllık rota programı, her yıl yeniden pazarlık yerine tek seferlik bir planlamayla çalışır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bodrum ve Fethiye'deki iki tesisimiz var, aynı sevkiyatla mı çalışılır?",
+                cevap:
+                    "İki ilçe arasındaki mesafe nedeniyle genellikle ayrı bloklar olarak planlanır, ancak aynı çerçeve program içinde ve ardışık haftalarda yürütülebilir. Rota, coğrafi kümeleme mantığıyla kurulur — aynı yöndeki adresler bir araya toplanır, farklı yönler ayrı bloklara ayrılır. İki tesisin de kalem listesini ve uygun dönemini paylaşın; yıllık rota programını birlikte kuralım.",
+            },
+            {
+                soru: "Rotadaki bir tesis hazır değilse ne olur?",
+                cevap:
+                    "Hazır olmayan durak, rotanın tamamını geciktirebileceği için rota günü gelmeden önceki hafta içinde her durakla kısa bir hazırlık teyidi yapıyoruz. Teyit sırasında bir tesis hazır değilse, o durak rotadan çıkarılır ve bir sonraki uygun rotaya kaydırılır; diğer duraklar programdan etkilenmez.",
+            },
+            {
+                soru: "Küçük bir pansiyonuz, tek başımıza rotaya girebilir miyiz?",
+                cevap:
+                    "Evet, küçük ölçekli tesisler rota modelinden en çok faydalanan gruptur. Bölgenizdeki talepler toplandığında ve yeterli yoğunluğa ulaştığında bir rota haftası ilan edilir; siz yalnızca kendi kalemlerinizin süresini ödersiniz, nakliye rotadaki tüm duraklar arasında paylaşılır. Kalemlerinizi listeleyip konumunuzu ve tercihen esnek bir tarih aralığını bildirmeniz yeterli.",
+            },
+            {
+                soru: "Rota planlaması ne kadar önceden yapılmalı?",
+                cevap:
+                    "Ne kadar erken o kadar iyi, özellikle kış penceresinde. Kasım-mart döneminde ildeki tüm tesisler benzer talep ürettiği için rota kapasitesi de bu dönemde sıkışır. Eylül-ekim aylarında kalem listenizi çıkarıp talebinizi bildirmeniz, rotanızı sıkışık döneme girmeden bağlamanızı sağlar.",
+            },
+            {
+                soru: "Farklı ilçelerdeki tesislerimizin farklı işleri var, tek teklif mi alırız?",
+                cevap:
+                    "Faturalama tesis bazında ayrı tutulur ama koordinasyon tek elden yürür — tek bir yıllık çerçeve altında her tesisin kendi kalem listesi ve teklifi olur. Bu, grup için hem şeffaflığı korur hem de tek elden planlamanın verimini sağlar. Tesislerinizin listesini ve her birinin dokunulmaz dönemini paylaşın; çerçeve programı buna göre kuralım.",
+            },
+            {
+                soru: "Rotaya son anda bir adres eklenebilir mi?",
+                cevap:
+                    "Rota coğrafi olarak uyuyorsa ve rota henüz kesinleşmemişse eklenebilir; rota kesinleştikten sonra eklenen adres, boş kalan bir dilime denk gelirse mümkün olur, aksi halde bir sonraki rotaya yazılır. Tarihinizi esnek bırakırsanız son anda eklenme ihtimaliniz artar; sabit bir tarih gerekiyorsa bunu baştan belirtmeniz planlamayı kolaylaştırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Muğla'nın ilçeler arası mesafe ve coğrafi dağınıklığı kamuya açık genel bilgidir; rota kümeleme yöntemi ve yıllık rota programı firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Muğla'da Zor Zemin ve Arazi Koşullarında Platform Kiralama",
+        giris:
+            "Muğla'da zor zemin sorunu, çoğu ilde karşılaşılan engebeli arazi sorunundan farklı bir biçimde ortaya çıkar: burada asıl zorluk dağlık arazi değil, kıyı yerleşimlerinin dar sahil yolu, marina çevresinin beton-ahşap karışık zemini, otel bahçelerinin hassas peyzajı ve iç kesimin tarımsal yumuşak toprağıdır. Her biri farklı bir makine sınıfı ve farklı bir önlem gerektirir — yarımadadaki dar sokakta doğru olan paletli kompakt sınıf, sera zemininde de doğrudur ama nedeni farklıdır; marinada doğru olan tekerlekli standart sınıf, tarım arazisinde çalışmaz. Genel amaçlı filomuz bu çeşitliliğe göre kurulmuştur ve zemin bilgisini teklif öncesi standart olarak soruyoruz. Bu sayfa, Muğla'nın dört farklı zor zemin senaryosunu — dar sahil yolu, hassas peyzaj, marina zemini ve tarımsal toprak — ve her birinde uyguladığımız yaklaşımı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Dar sahil yolu: erişim sorunudur, zemin sorunu değil",
+                metin:
+                    "Bodrum yarımadası ve Datça gibi bölgelerdeki dar sahil yolları, aslında bir zemin problemi değil bir geçiş problemidir — yolun kendisi sağlam olabilir ama genişliği ve viraj yarıçapı, standart şaseli bir taşıyıcının geçmesine izin vermez. Bu durumda kompakt paletli veya dar şaseli akülü sınıf tercih edilir; taşıyıcının nihai adrese yaklaşamadığı noktalarda makine kendi gücüyle son mesafeyi tamamlar ve bu, sevkiyat planına önceden dahil edilir.",
+            },
+            {
+                baslik: "Hassas peyzaj: iz bırakmama önceliği",
+                metin:
+                    "Otel bahçesi, villa avlusu gibi peyzajlı alanlarda zemin genellikle çim, dekoratif taş veya ahşap deck'tir ve buradaki zorluk taşıma kapasitesinden çok iz bırakmamaktır. Yük dağıtıcı plaka standart uygulamadır; paletli sınıf ağırlığı geniş yüzeye yaydığı için tekerlekli sınıflara göre avantajlıdır. Sulanmış veya yağış sonrası doygun zeminde çalışmayı erteleyip kurumasını beklemek, bu tip zeminlerde en güvenli karardır.",
+            },
+            {
+                baslik: "Marina zemini: beton-ahşap karışımı ve saha trafiği",
+                metin:
+                    "Marina ve çekek sahası zemini genellikle beton olsa da iskele ve rıhtım bölgelerinde ahşap yüzeyler de bulunur; ahşap üzerinde taşıma kapasitesi doğrulanmadan makine geçirilmez. Ayrıca marina zemini saha trafiği açısından da zorludur — vinç, taşıyıcı ve servis araçlarının hareketi, makinenin konumlanma alanını kısıtlar ve bu alan saha sorumlusuyla birlikte belirlenir.",
+            },
+            {
+                baslik: "Tarımsal toprak: yumuşak ve doygun zemin riski",
+                metin:
+                    "Sera ve tarım işletmelerindeki doğal toprak zemin, sulama ve mevsimsel yağış nedeniyle taşıma kapasitesi değişken bir yüzeydir. Paletli sınıf standart tercihtir; zeminin o günkü durumu, önceki keşiften bağımsız olarak çalışma günü yeniden gözlenir çünkü sulama veya yağış koşulu değiştirmişse eski onay geçerli sayılmaz. Uygun park bulunamazsa sepet açılmaz — bu, zor zeminde asla esnetilmeyen kuraldır.",
+            },
+            {
+                baslik: "Yamaç ve eğimli arazide stabilite",
+                metin:
+                    "Fethiye çevresi gibi yamaca kurulmuş yerleşimlerde eğimli zemin, makinenin stabilitesini doğrudan etkiler. Paletli kompakt sınıflar eğimli ve gevşek zeminde tekerlekli sınıflara göre belirgin avantaj sağlar. Eğim derecesi ve zemin sertliği keşifte fotoğrafla değerlendirilir; üretici tarafından belirlenen eğim sınırının üzerindeki noktalarda makine zorlanmaz, alternatif erişim yöntemi aranır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipine göre makine ve önlem",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki dört farklı zor zemin senaryosunda uyguladığımız makine ve önlemi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Ana risk", "Önerilen makine", "Ek önlem"],
+                    satirlar: [
+                        ["Dar sahil yolu", "Geçiş genişliği", "Kompakt paletli/dar şase", "Güzergâh yürüyüşü"],
+                        ["Çim / dekoratif taş / deck", "İz bırakma", "Paletli akülü", "Yük dağıtıcı plaka"],
+                        ["Marina beton/ahşap", "Taşıma kapasitesi, trafik", "Standart tekerlekli", "Saha koordinasyonu"],
+                        ["Tarımsal toprak", "Batma, doygunluk", "Paletli kompakt", "Günlük zemin kontrolü"],
+                        ["Yamaç / eğimli arazi", "Stabilite", "Paletli kompakt", "Eğim sınırı doğrulama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşif fotoğrafı zemin sorununu önceden çözer",
+                paragraflar: [
+                    "Zor zemin senaryolarının çoğunda, sahada karşılaşılan sürpriz aslında önlenebilirdi — zemin fotoğrafı ve kısa bir açıklama, doğru makine sınıfını sahaya gelmeden belirlemeye yeter. İstediğimiz bilgi basittir: zemin türü, son yağış veya sulama tarihi, makinenin park edeceği noktanın görünümü ve varsa eğim. Bu bilgiler eksikse tahmine dayalı bir makine gönderilir ve sahada uyumsuzluk riski artar.",
+                    "Sınırda kalan durumlarda (zemin türü belirsiz, fotoğraf yetersiz) keşif yapılır ve makine seçimi bu keşiften sonra kesinleşir; bu, uzun yol kat edilen adreslerde (Datça gibi) özellikle önemlidir çünkü yanlış makineyle gidip geri dönmek iki kat maliyet demektir.",
+                ],
+            },
+            {
+                baslik: "Zor zeminde çalışmama kararı da bir karardır",
+                paragraflar: [
+                    "Bazı zemin koşullarında (aşırı doygun toprak, üretici eğim sınırının üzeri, taşıma kapasitesi doğrulanamayan ahşap yüzey) en doğru karar çalışmamak veya ertelemektir. Bu kararı verirken kısa vadeli program baskısına değil zemin ve makine güvenliğine bakarız; bir günlük erteleme, makine kurtarma operasyonu veya zemin-yapı onarımından her zaman ucuzdur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yarımadadaki dar sokağa makine gerçekten girer mi?",
+                cevap:
+                    "Bunu ancak fotoğrafla söyleyebiliriz. Sokağın en dar noktasını, varsa viraj yarıçapını ve hedefin konumunu gösteren fotoğraflar gerekir. Kompakt paletli ve dar şaseli akülü sınıflar çoğu dar sokağa girer; giremediği durumda bunu sahaya gelmeden söyleriz ve taşıyıcının yaklaşamadığı son mesafe için alternatif çözümü birlikte kurarız.",
+            },
+            {
+                soru: "Bahçemizin zemini çim, makine iz bırakır mı?",
+                cevap:
+                    "Önlemsiz kullanımda iz bırakabilir. Hassas zeminlerde yük dağıtıcı plaka standart uygulamamızdır ve paletli sınıflar tekerlekli sınıflara göre belirgin avantajlıdır. Sulanmış veya yağış sonrası doygun zeminde çalışmayı erteleyip kurumasını beklemeyi öneririz — bir günlük bekleme, peyzaj onarımından her zaman ucuzdur.",
+            },
+            {
+                soru: "Marinada ahşap iskele üzerinde makine çalışabilir mi?",
+                cevap:
+                    "Taşıma kapasitesi doğrulanmadan çalışılmaz. Ahşap yüzeyler farklı taşıma kapasitesine sahiptir ve bu bilgi marina işletmesinden veya yapısal bir teyitten alınmadan makine geçirilmez. Kapasite doğrulanamıyorsa alternatif konumlanma noktası veya farklı yöntem değerlendirilir.",
+            },
+            {
+                soru: "Sera zeminimiz yumuşak, her zaman mı çalışamıyoruz?",
+                cevap:
+                    "Hayır, zemin durumu değişkendir ve her çalışma günü yeniden gözlenir. Kuru dönemde paletli sınıfla rahatlıkla çalışılır; sulama veya yağış sonrası doygun dönemde ise erteleme önerilir. Sabit bir 'çalışılamaz' kuralı yoktur — o günkü zemin durumuna göre karar verilir ve uygun park bulunamazsa sepet açılmaz.",
+            },
+            {
+                soru: "Yamaçtaki villamıza makine çıkabilir mi?",
+                cevap:
+                    "Eğim derecesine bağlıdır ve üretici tarafından belirlenen sınırın üzerinde makine zorlanmaz. Paletli kompakt sınıflar eğimli zeminde tekerlekli sınıflara göre avantajlıdır ancak sınırsız değildir. Eğimi ve zemin sertliğini gösteren fotoğraflarla keşif yapalım; sınırın üzerindeyse alternatif erişim yöntemini birlikte değerlendirelim.",
+            },
+            {
+                soru: "Zemin durumu belirsizse ne yapıyorsunuz?",
+                cevap:
+                    "Sınırda kalan durumlarda keşif yaparız ve makine seçimi bu keşiften sonra kesinleşir. Bu, özellikle uzak adreslerde (Datça gibi) önemlidir çünkü yanlış makineyle gidip geri dönmek iki kat maliyet ve kaybedilen bir gün demektir. Tahmine dayalı sevkiyat yerine, net olmayan durumlarda önce görmeyi tercih ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Muğla'nın dar sahil yolları, marina zemini ve tarımsal toprak çeşitliliği kamuya açık genel bilgidir; zemin bazlı makine seçimi ve keşif disiplini firma pratiğidir.",
+    },
 };

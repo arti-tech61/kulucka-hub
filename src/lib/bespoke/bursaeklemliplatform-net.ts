@@ -808,4 +808,1079 @@ export const BURSAEKLEMLIPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Gemlik merkezinin liman dışındaki sahil paralel konut ve merkez cadde iş merkezi dokusu kamuya açık coğrafi bilgidir; kat malikleri kurulu onay süreci ve karma kullanım koordinasyonu firma pratiğidir.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bursa'da Dar Avlu ve Kule İçi Erişimde Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Bursa'nın yüksek yapı ve AVM ağırlıklı sahalarında bazı noktalar, eklemli bomun bile kompakt şasesiyle giremediği kadar dardır — bir kulenin bina içi avlusu, bir AVM'nin kapalı otopark katı veya tarihi çarşı dokusunun bir metrelik geçitleri, tekerlekli bir platformun değil paletli ve katlanabilir bir örümcek platformun sahasıdır. Örümcek platform, ayaklarını gerektiğinde açıp gerektiğinde daraltabilen, hatta bir kapı genişliğinden geçip içeride tekrar açılabilen bir gövdeye sahiptir; bu özellik onu AVM iç galerisi, kule lobisi veya dar site avlusu gibi 'içeri girip orada büyüyen' işlerin makinesi yapar. Bu sayfa, Bursa'nın kentsel dokusunda örümcek platformun hangi noktalarda devreye girdiğini, giriş genişliği hesabını ve zemin yük dağılımı disiplinini anlatır — bu, eklemli bomun tamamlayıcısıdır, yerine geçen değil.",
+        maddeler: [
+            {
+                baslik: "Kapı ve geçit genişliğinin makine seçimini belirlemesi",
+                metin:
+                    "Bir örümcek platformun katlanmış hâldeki genişliği, standart bir çift kanat kapıdan veya dar bir site girişinden geçecek kadar ince olabilir; bu ölçü, keşif aşamasında milimetrik netleştirilir çünkü birkaç santimlik bir fark makinenin içeri girip giremeyeceğini belirler. Kapı genişliği, geçitteki eşik yüksekliği ve varsa üstteki tavan kotu üçü birlikte ölçülür — yalnızca genişlik yeterli değildir, makinenin döner kulesi için tavan boşluğu da hesaba katılır.",
+            },
+            {
+                baslik: "AVM ve kule iç mekânlarında zemin yük dağılımı",
+                metin:
+                    "İçeri giren örümcek platform, ayaklarını açtığında zemine noktasal yük bindirir ve bu yük, seramik veya mermer kaplı bir AVM zemininde çatlak riski taşıyabilir — bu yüzden ayak altına yük dağıtıcı takoz veya plaka yerleştirilir, ağırlığın tek noktaya değil geniş bir alana yayılması sağlanır. Zeminin taşıma kapasitesi belirsizse, bina yönetiminden zemin döşeme detayı istenir ve gerekirse daha hafif bir model tercih edilir.",
+            },
+            {
+                baslik: "Site avlusu ve dar bahçelerde ağaç-peyzaj arası manevra",
+                metin:
+                    "Kentsel konut sitelerinin avlularında ağaçlar, peyzaj öğeleri ve oturma grupları arasında manevra alanı sınırlıdır; örümcek platformun kompakt dönüş yarıçapı, bu tür bir avluda geniş şaseli bir makinenin yapamayacağı bir esneklik sağlar. Peyzaj hasarını önlemek için makine rotası, avlu düzenini gösteren bir kroki üzerinden önceden çizilir ve hassas bitki gruplarının etrafına geçici koruma bariyeri konur.",
+            },
+            {
+                baslik: "Merdiven ve rampa üzerinden katlar arası taşınma",
+                metin:
+                    "Bazı örümcek platform modelleri, kendi tırmanma tertibatıyla düşük eğimli rampalardan veya geniş merdiven sahanlıklarından geçerek farklı bir kata taşınabilir — bu, asansörle taşınamayacak kadar büyük bir makinenin kat içi bir işe ulaşmasını sağlayan istisnai bir yöntemdir. Bu manevra yalnızca uygun eğim ve genişlikteki rampalarda denenir; risk taşıyan bir merdivende asla zorlanmaz.",
+            },
+            {
+                baslik: "Elektrikli tahrikle kapalı mekân kullanımı",
+                metin:
+                    "AVM içi, kule lobisi veya kapalı otopark gibi havalandırması sınırlı mekânlarda örümcek platformun elektrikli/akülü tahrikli modelleri tercih edilir — motor egzoz gazı üretmediği için kapalı alan havalandırma riski oluşmaz. Akü kapasitesi, işin süresine göre önceden hesaplanır; uzun süreli işlerde gece şarj planı kurulur ki ertesi gün iş kesintisiz devam etsin.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da örümcek platformun devreye girdiği tipik noktalar",
+                paragraflar: [
+                    "Kentsel dokuda örümcek platformun tercih edildiği durumlar aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân", "Kısıt", "Neden örümcek platform", "Ek önlem"],
+                    satirlar: [
+                        ["AVM iç galeri-atriyum", "Kapı-geçit genişliği", "Katlanabilir gövde", "Zemin yük dağıtıcı"],
+                        ["Kule lobisi-iç avlu", "Dar giriş, hassas zemin", "Kompakt dönüş yarıçapı", "Zemin döşeme kontrolü"],
+                        ["Konut sitesi avlusu", "Peyzaj-ağaç yoğunluğu", "Esnek manevra", "Rota krokisi"],
+                        ["Kapalı otopark katı", "Havalandırma sınırı", "Elektrikli tahrik", "Akü şarj planı"],
+                        ["Merdiven-rampa erişimli kat", "Asansöre sığmayan boyut", "Tırmanma tertibatı (uygun modelde)", "Eğim-genişlik teyidi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Giriş ölçüsünün keşifte milimetrik doğrulanması",
+                paragraflar: [
+                    "Örümcek platform işlerinde en sık karşılaşılan aksaklık, telefonla verilen yaklaşık bir kapı genişliği bilgisinin sahada gerçek ölçüyle uyuşmamasıdır — bu yüzden dar geçit şüphesi olan her işte, mümkünse yerinde ölçüm yapılır veya müşteriden şeritmetreyle alınmış net bir rakam istenir. Kapı kolu, eşik yükseltisi veya duvar çıkıntısı gibi görünmeyen detaylar da bu ölçüme dahil edilir.",
+                    "Bu titizlik, sahaya gelen makinenin kapıda geri dönmesi gibi bir gün kaybını baştan önler; küçük bir ölçüm farkı, büyük bir zaman kaybına dönüşebilir.",
+                ],
+            },
+            {
+                baslik: "Hassas zeminlerde koruma ve iz bırakmama",
+                paragraflar: [
+                    "Mermer, parke veya özel kaplamalı zeminlerde çalışırken örümcek platformun tekerlek veya palet izinin yüzeyde kalmaması için geçiş güzergâhına koruyucu örtü serilir; ayaklar altına konan takozlar da zemine doğrudan metal temasını önler. İş bitiminde güzergâh kontrol edilir ve varsa küçük bir iz anında bildirilir.",
+                    "Bu koruma adımı, özellikle AVM ve kule gibi yüksek standartlı iç mekânlarda standart uygulamadır ve ek bir ücret gerektirmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin iç galerisinde tavan camı temizliği yapılacak, kapı genişliği yeterli mi bilmiyoruz?",
+                cevap:
+                    "Bu sorunun cevabı kesin ölçüme bağlıdır — telefonda verilen yaklaşık bir rakam yeterli değildir, kapı genişliğini, eşik yüksekliğini ve varsa tavan kotunu birlikte netleştiririz. Mümkünse yerinde ölçüm öneririz; siz kendiniz ölçmek isterseniz şeritmetreyle alınmış net bir rakam bize yeterlidir. Ölçü uygunsa katlanabilir gövdeli örümcek platform içeri girip orada açılarak çalışır.",
+            },
+            {
+                soru: "Sitemizin mermer zemininde platform iz bırakır mı?",
+                cevap:
+                    "Doğru önlemle bırakmaz — geçiş güzergâhına koruyucu örtü serilir, ayaklar altına yük dağıtıcı takoz konur ve bu takoz hem zemine doğrudan metal temasını önler hem noktasal yükü dağıtır. İş bitiminde güzergâhı kontrol eder, varsa en ufak bir izi size bildiririz. Zemininizin kaplama tipini önceden bildirdiğinizde en uygun koruma planını çıkarırız.",
+            },
+            {
+                soru: "Kapalı otoparkımızda çalışma yapılacak, egzoz gazı bir sorun olur mu?",
+                cevap:
+                    "Olmaz, kapalı mekân işlerinde elektrikli/akülü tahrikli modeller tercih edilir ve bu modeller egzoz gazı üretmez. İşin süresine göre akü kapasitesini önceden hesaplarız; uzun süren işlerde gece şarj planı kurarız ki ertesi gün iş kesintisiz devam etsin. Otoparkın havalandırma durumunu bilmemiz, doğru modeli seçmemize yardımcı olur.",
+            },
+            {
+                soru: "Avlumuzda çok sayıda ağaç ve peyzaj öğesi var, makine bunlara zarar verir mi?",
+                cevap:
+                    "Doğru planlamayla vermez — avlu düzenini gösteren bir kroki üzerinden makine rotasını önceden çizeriz ve hassas bitki gruplarının etrafına geçici koruma bariyeri koyarız. Örümcek platformun kompakt dönüş yarıçapı, geniş şaseli bir makineye göre bu tür dar ve düzenlemeli alanlarda çok daha esnektir. Avlunuzun fotoğrafını paylaştığınızda rota planını önceden netleştiririz.",
+            },
+            {
+                soru: "Makine asansöre sığmıyor, üst kata nasıl çıkarılıyor?",
+                cevap:
+                    "Bazı modellerde kendi tırmanma tertibatıyla uygun eğimli rampa veya geniş merdiven sahanlığından geçerek kata taşınabilir, ama bu yalnızca eğim ve genişlik uygunsa denenir — risk taşıyan bir merdivende asla zorlanmaz. Bina genelde asansör sığdırmayan bir yapıdaysa, bu manevranın mümkün olup olmadığını keşif aşamasında netleştiririz.",
+            },
+            {
+                soru: "Örümcek platform ile eklemli platform arasındaki fark ne, hangisini istemeliyiz?",
+                cevap:
+                    "Bunu sizin bilmenize gerek yok — işin yerini ve erişim kısıtını (kapı genişliği, iç mekân mı dış cephe mi, zemin tipi) bize ilettiğinizde doğru sınıfı biz belirleriz. Genel eğilim şöyledir: dar bir kapıdan içeri girip orada büyümesi gereken işlerde örümcek platform, dış cephede geniş bir alanda dirsek manevrası gereken işlerde eklemli bom tercih edilir. İki sınıf birbirinin yerine değil tamamlayıcısı olarak çalışır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bursa'nın AVM, kule ve konut sitesi yoğunluğu kamuya açık coğrafi bilgidir; örümcek platform giriş ölçümü, zemin yük dağılımı ve elektrikli tahrik disiplini genel ekipman mühendisliği ve firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bursa Şehir Merkezi ve Çevre İlçelerde Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bursa'da bir platformun sahaya ulaşması, makinenin kendisi kadar planlama gerektiren bir aşamadır — çünkü teslimat güzergâhı, şehir merkezinin dar tarihi sokaklarından FSM Bulvarı'nın yoğun trafiğine, Görükle'nin kampüs çevresi yollarından Mudanya'nın kıvrımlı sahil hattına kadar birbirinden çok farklı yol koşullarından geçer. Bir kule teslimatı ile bir AVM teslimatı aynı kamyonla yapılsa bile, varış noktasındaki indirme koşulu (kaldırım işgaliyesi, yük asansörü, dar sokak) her seferinde ayrı bir plan gerektirir. Bu sayfa, Bursa'daki platform nakliye ve teslimat sürecini, güzergâh planlamasını ve teslim noktası özel koşullarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Şehir merkezi teslimatında kaldırım ve işgaliye süreci",
+                metin:
+                    "Heykel ve Cumhuriyet Caddesi çevresindeki bir teslimatta, kamyonun indirme yapacağı nokta genellikle kaldırım veya yol kenarıdır ve bu, belediye işgaliye izni sürecini gerektirebilir. İzin süreci, teslimat tarihinden yeterince önce başlatılır; aksi hâlde kamyon sahada beklerken izin çıkmasını beklemek zaman kaybı yaratır. Yoğun yaya trafiğinin olduğu saatlerde indirme, mümkünse erken sabaha kaydırılır.",
+            },
+            {
+                baslik: "AVM ve kule teslimatlarında yük asansörü koordinasyonu",
+                metin:
+                    "Bir AVM'nin iç galerisine veya bir kulenin üst katına makine taşınacaksa, bina yönetiminden yük asansörünün boyut ve kapasite bilgisi önceden istenir — asansöre sığmayan bir makine için alternatif taşıma yöntemi (parça parça sökme, vinç veya rampa üzerinden tırmanma) planlanır. Yük asansörünün kullanım saatleri de bina yönetimiyle koordine edilir çünkü çoğu AVM asansörü gündüz ziyaretçi kullanımına ayrılmıştır.",
+            },
+            {
+                baslik: "Kampüs ve site içi teslimatlarda giriş kontrolü",
+                metin:
+                    "Görükle'deki yurt ve rezidans binalarına veya Mudanya'daki sahil sitelerine yapılan teslimatlarda, güvenlikli giriş kontrolü teslimat saatini etkiler — özel yurtlarda ziyaretçi-araç izni, sitelerde ise sakinlere önceden bildirim gerekebilir. Bu koordinasyon, teslimat gününden birkaç gün önce tamamlanır ki kamyon kapıda beklemesin.",
+            },
+            {
+                baslik: "Çevre ilçe teslimatlarında mesafeye göre erken planlama",
+                metin:
+                    "Kestel ve diğer çevre ilçelere yapılan teslimatlar, şehir merkezine göre biraz daha uzun sürer ve bu mesafe farkı, çalışma yöntemini değil yalnızca sevkiyat takviminin ne zaman kurulacağını etkiler. Aynı gün içinde birden fazla çevre ilçe teslimatını birleştirmek, mümkün olduğunda nakliye maliyetini paylaştırır; bu fırsat, müşterilerin işlerini erkenden bildirmesiyle değerlendirilebilir.",
+            },
+            {
+                baslik: "Dar sokak ve tarihi doku geçişlerinde araç seçimi",
+                metin:
+                    "Şehir merkezinin tarihi çarşı dokusuna yakın teslimatlarda, standart bir kamyon dar sokağa giremeyebilir; bu durumda daha küçük bir taşıma aracı veya makinenin kendi tekerlekli hareketiyle son metrelerde sürülmesi planlanır. Sokak genişliği keşif aşamasında netleştirilir ve ölçü belirsizse müşteriden fotoğraf istenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da teslimat noktasına göre planlama farkı",
+                paragraflar: [
+                    "Farklı teslimat noktalarında planlama unsurları aşağıdaki gibi değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Teslimat noktası", "Ana kısıt", "Planlama adımı", "Zamanlama"],
+                    satirlar: [
+                        ["Şehir merkezi cadde", "Kaldırım işgaliyesi", "Belediye izni", "Erken sabah tercih"],
+                        ["AVM-kule iç mekân", "Yük asansörü kapasitesi", "Bina yönetimi koordinasyonu", "Asansör boş saatleri"],
+                        ["Kampüs-site içi", "Güvenlikli giriş", "Ziyaretçi-araç izni", "Birkaç gün önceden"],
+                        ["Çevre ilçe (Kestel vb.)", "Mesafe", "Erken sevkiyat takvimi", "Standart, esnek"],
+                        ["Tarihi doku-dar sokak", "Araç genişliği", "Küçük araç veya kendi hareketiyle", "Keşifle teyitli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yük asansörü uyumsuzluğunda alternatif yöntemler",
+                paragraflar: [
+                    "Bir makinenin bina yük asansörüne sığmadığı durumlarda üç alternatif değerlendirilir: makinenin parça parça sökülüp yukarıda yeniden monte edilmesi, bina dışından vinçle taşınması veya (uygun modellerde) rampa-merdiven üzerinden kendi tırmanma tertibatıyla çıkması. Hangi yöntemin uygun olduğu, bina yapısına ve makine modeline göre değişir ve bu karar keşif aşamasında netleşir.",
+                    "Bu alternatiflerin maliyeti ve süresi standart teslimata göre farklıdır; bu farkı teklif aşamasında açıkça belirtiriz ki sürpriz bir ek maliyetle karşılaşılmasın.",
+                ],
+            },
+            {
+                baslik: "Çoklu teslimatlarda güzergâh birleştirme ekonomisi",
+                paragraflar: [
+                    "Aynı gün içinde birden fazla teslimat noktası varsa (örneğin bir şehir merkezi işi ile bir Nilüfer işi), bunları tek bir güzergâhta birleştirmek nakliye maliyetini düşürür — kamyon bir kez yola çıkar, birden fazla noktaya sırayla uğrar. Bu birleştirme, müşterilerin teslimat taleplerini yeterince önceden bildirmesiyle mümkün olur; son dakika talepleri genellikle ayrı bir sefer gerektirir.",
+                    "Çevre ilçelerdeki komşu işletmelerin taleplerini birlikte planlamak da benzer bir tasarruf sağlar; bu fırsatları erkenden bize iletmeniz planlamayı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şehir merkezindeki ofisimize teslimat için belediye izni gerekiyor mu?",
+                cevap:
+                    "Kaldırım veya yol kenarı kullanımı gerektiren teslimatlarda genellikle evet — bu süreci biz takip ederiz ama teslimat tarihinden yeterince önce başlatılması gerekir, aksi hâlde kamyon sahada izin beklerken zaman kaybı yaşanır. Adresinizi ve teslimat tarihinizi paylaştığınızda izin sürecini erkenden başlatırız.",
+            },
+            {
+                soru: "AVM'mizin yük asansörü makineye sığmıyor, ne yapılır?",
+                cevap:
+                    "Üç alternatif değerlendiririz: makinenin parça parça sökülüp yukarıda yeniden monte edilmesi, dışarıdan vinçle taşınması veya uygun modellerde rampa üzerinden kendi tırmanma tertibatıyla çıkması. Hangisinin uygun olduğu bina yapısına ve makine modeline bağlıdır; bunu keşif aşamasında netleştirir, maliyet farkını teklifte açıkça belirtiriz.",
+            },
+            {
+                soru: "Özel yurdumuza teslimat yapılacak, güvenlik girişi teslimatı geciktirir mi?",
+                cevap:
+                    "Önceden koordine edilirse geciktirmez — yurt yönetiminden teslimat saati ve plaka bilgisiyle bir ziyaretçi-araç izni isteriz, bu genellikle birkaç gün önceden tamamlanır. Devlet yurtlarında bu süreç idari yazışma gerektirebilir ve biraz daha uzun sürebilir; bu farkı proje başında netleştiririz.",
+            },
+            {
+                soru: "Kestel'e teslimat şehir merkezine göre daha mı pahalı?",
+                cevap:
+                    "Çalışma yöntemi ve fiyatlandırma mantığı aynıdır, tek fark sevkiyat planlamasının biraz daha erken kurulmasıdır — bu, mesafeye bağlı bir zamanlama farkıdır. Aynı gün içinde birden fazla çevre ilçe teslimatını birleştirebiliyorsak nakliye maliyeti paylaşılır; komşu işletmelerin de benzer bir ihtiyacı varsa bunu erkenden bildirmeniz avantaj sağlar.",
+            },
+            {
+                soru: "Tarihi çarşı bölgesindeki dükkânımıza standart kamyon girebilir mi?",
+                cevap:
+                    "Sokak genişliğine bağlıdır — dar sokak şüphesi olan her teslimatta önce ölçüm yaparız, gerekirse standart kamyon yerine daha küçük bir araç kullanılır veya makine son metrelerde kendi tekerlekli hareketiyle sürülür. Sokağınızın fotoğrafını paylaştığınızda uygun aracı önceden belirleriz.",
+            },
+            {
+                soru: "Teslimat saatini biz mi belirliyoruz, yoksa siz mi öneriyorsunuz?",
+                cevap:
+                    "İkisi birlikte belirlenir — sizin işletme veya bina kısıtlarınızı (yoğun saatler, güvenlik protokolü, asansör müsaitliği) bize bildirdiğinizde, bunlara uygun bir pencere öneririz. Şehir merkezi gibi trafiğin yoğun olduğu bölgelerde erken sabah veya akşam saatlerini öneririz; kesin bir tercihiniz varsa onu önceliklendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bursa şehir merkezi, Görükle, Mudanya ve Kestel'in coğrafi konumu ve yol dokusu kamuya açık bilgidir; yük asansörü koordinasyonu ve işgaliye süreci firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bursa'da AVM Depo Alanı ve Site Taşınmalarında Forklift Kiralama",
+        giris:
+            "Bu sitenin ağırlık merkezi kentsel yüksek yapı ve AVM cephesi erişimi olduğu için forklift kiralama, ana hizmetlerimiz arasında sınırlı ama gerçek bir yer tutar — bir AVM'nin arka depo alanındaki palet taşıma, bir kulenin inşaat veya yenileme döneminde malzeme istifleme ya da bir konut sitesinin toplu taşınma gününde yük hareketi gibi noktasal ihtiyaçlarda devreye girer. Dürüst olmak gerekirse, ağır sanayi tipi yoğun forklift operasyonu (depo-antrepo, üretim hattı) bu sitenin uzmanlık alanı değildir; o tip talepler için bölgedeki sanayi odaklı kardeş hizmetlerimize yönlendirme yaparız. Bu sayfa, kentsel saha bağlamında forklift kullanımının sınırlarını ve tipik iş örneklerini anlatır.",
+        maddeler: [
+            {
+                baslik: "AVM arka depo ve teslimat alanında palet hareketi",
+                metin:
+                    "AVM'lerin ziyaretçiye kapalı arka depo bölümlerinde, mağaza teslimatlarının palet hâlinde indirilip ilgili birime taşınması forklift gerektirebilir; bu, genellikle kısa süreli ve noktasal bir ihtiyaçtır. Çalışma, AVM'nin teslimat saatleriyle (genellikle sabah erken) koordine edilir ve depo koridorunun genişliği önceden ölçülerek uygun forklift boyutu seçilir.",
+            },
+            {
+                baslik: "Kule ve AVM inşaat-yenileme döneminde malzeme istifleme",
+                metin:
+                    "Bir kulenin veya AVM'nin yenileme çalışması sırasında, cephe malzemesi, iskele parçası veya diğer inşaat malzemeleri sahada istiflenir ve taşınır — bu dönemde forklift, eklemli platform ile birlikte aynı sahada farklı bir görevi üstlenir. İki ekipmanın aynı alanda çalışması, güzergâh çakışmasını önlemek için önceden koordine edilir.",
+            },
+            {
+                baslik: "Konut sitesi toplu taşınma günlerinde yük hareketi",
+                metin:
+                    "Bazı konut sitelerinde toplu taşınma dönemleri, çok sayıda eşyanın kısa sürede indirilip taşınmasını gerektirir; bu durumda forklift, ağır beyaz eşya veya mobilya paletlerinin bina girişinden ilgili bloğa taşınmasında kullanılabilir. Bu, sitenin ana işi değildir ve talep geldiğinde uygunluk durumuna göre değerlendirilir.",
+            },
+            {
+                baslik: "Dar kentsel alanlarda forklift boyutu kısıtı",
+                metin:
+                    "Şehir merkezi ve site içi gibi dar alanlarda standart büyüklükte bir forklift her zaman uygun olmayabilir; bu durumda dar koridor tipi veya kompakt modeller tercih edilir. Alan ölçüsü ve zemin tipi (asfalt, beton, parke) keşif aşamasında netleştirilir.",
+            },
+            {
+                baslik: "Bu sitenin kapsamı dışındaki forklift talepleri",
+                metin:
+                    "Sürekli, yüksek hacimli veya sanayi tipi forklift operasyonu (fabrika içi sürekli istifleme, depo yönetimi gibi) bu sitenin odak alanı değildir; böyle bir talep geldiğinde bunu dürüstçe belirtir, uygun kapasiteye sahip kardeş hizmete yönlendiririz. Amacımız, kapasitemizin dışındaki bir işi üstlenip beklenti karşılayamamak değil, doğru kaynağa yönlendirmektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da forklift talebinin kentsel bağlamda sınırları",
+                paragraflar: [
+                    "Kentsel sahada forklift talebi genellikle aşağıdaki noktasal durumlarla sınırlıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Tipiklik", "Uygunluk", "Not"],
+                    satirlar: [
+                        ["AVM arka depo teslimatı", "Noktasal, kısa süreli", "Uygun", "Teslimat saatiyle koordine"],
+                        ["Kule-AVM yenileme malzeme istifleme", "Proje süresince", "Uygun", "Platformla güzergah paylaşımı"],
+                        ["Site toplu taşınma", "Nadiren, dönemsel", "Değerlendirilir", "Uygunluğa bağlı"],
+                        ["Dar alan-kompakt ihtiyaç", "Değişken", "Uygun, boyut kısıtlı", "Keşifle model seçimi"],
+                        ["Sanayi tipi sürekli operasyon", "Yüksek hacim", "Kapsam dışı", "Kardeş hizmete yönlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Platform ile forklift işinin aynı sahada koordinasyonu",
+                paragraflar: [
+                    "Bir kule veya AVM yenileme projesinde hem eklemli platform hem forklift aynı anda sahada bulunabilir; bu durumda iki ekipmanın güzergâhı çakışmayacak şekilde önceden planlanır — platform cephe tarafında çalışırken forklift malzeme alanında hareket eder, ortak geçiş noktaları zaman dilimlerine bölünür.",
+                    "Bu koordinasyon, proje yöneticisiyle iş başlamadan önce netleştirilir ve proje süresince güncellenir.",
+                ],
+            },
+            {
+                baslik: "Kapsam dışı taleplerde dürüst yönlendirme",
+                paragraflar: [
+                    "Bu sitenin uzmanlık alanı kentsel yüksek yapı ve AVM cephesi erişimidir; sürekli sanayi tipi forklift operasyonu talep eden bir müşteriye, bu ihtiyacı daha uygun kapasiteyle karşılayan bir kaynağa yönlendirme öneririz. Bu, kısa vadede işi kabul edip yetersiz hizmet vermekten daha doğru bir yaklaşımdır.",
+                    "Talebinizin kapsamı belirsizse, kısaca anlatmanız yeterlidir — biz size en uygun çözümün bu sitenin hizmetleri içinde mi yoksa başka bir kaynakta mı olduğunu dürüstçe söyleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin depo alanında palet taşıma için forklift kiralayabilir miyiz?",
+                cevap:
+                    "Evet, bu tür noktasal ve kısa süreli işler kapsamımız içindedir. Depo koridorunun genişliğini ve teslimat saatlerinizi paylaştığınızda uygun boyutta forklift ve çalışma penceresini netleştiririz. Çalışma genellikle AVM'nin sabah erken teslimat saatleriyle koordine edilir.",
+            },
+            {
+                soru: "Kulemizin yenileme projesinde hem platform hem forklift gerekiyor, birlikte mi planlanır?",
+                cevap:
+                    "Evet, iki ekipman aynı sahada farklı görevler üstlenirken güzergâhları çakışmayacak şekilde önceden planlanır — platform cephede, forklift malzeme alanında çalışır ve ortak geçiş noktaları zaman dilimlerine bölünür. Proje kapsamınızı paylaştığınızda bu koordinasyonu proje yöneticinizle birlikte kurarız.",
+            },
+            {
+                soru: "Sitemizde toplu taşınma günü var, forklift ile eşya taşınabilir mi?",
+                cevap:
+                    "Değerlendirilebilir ama bu sitenin ana hizmeti değildir, bu yüzden uygunluk durumuna göre yanıt veririz. Taşınma tarihinizi ve yaklaşık yük miktarını bildirdiğinizde, o tarihte forklift ve operatör uygunluğumuzu kontrol ederiz.",
+            },
+            {
+                soru: "Dar site girişimizden standart bir forklift geçer mi?",
+                cevap:
+                    "Geçmeyebilir; bu yüzden dar alan işlerinde dar koridor tipi veya kompakt modelleri tercih ederiz. Giriş genişliğini ve zemin tipini (asfalt, beton, parke) paylaştığınızda uygun modeli keşif aşamasında netleştiririz.",
+            },
+            {
+                soru: "Fabrikamızda sürekli forklift ihtiyacımız var, bu siteden karşılanır mı?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse hayır — bu site kentsel yüksek yapı ve AVM cephesi erişimine odaklıdır, sürekli sanayi tipi forklift operasyonu kapsamımız dışındadır. Böyle bir talep geldiğinde, bu ihtiyacı daha uygun kapasiteyle karşılayan bir kaynağa yönlendirmeyi öneririz.",
+            },
+            {
+                soru: "Forklift ile platformu aynı anda mı kiralamalıyız, yoksa ayrı ayrı mı?",
+                cevap:
+                    "İşinizin kapsamına bağlıdır — aynı projede ikisine de ihtiyaç varsa birlikte planlamak koordinasyonu kolaylaştırır ve genellikle nakliye açısından da avantajlıdır. Yalnızca birine ihtiyacınız varsa, tek başına da kiralanabilir. İş tanımınızı paylaştığınızda hangi kombinasyonun uygun olduğunu netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, sitenin kentsel yüksek yapı/AVM odağı çerçevesinde forklift hizmetinin sınırlı kapsamını dürüstçe tanımlar; sanayi tipi yoğun forklift operasyonu bu domainin uzmanlık alanı değildir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bursa'da Kule, AVM ve Tarihi Doku Cephesi İçin Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platformun (boom) bom yapısı tek eksende değil, iki veya üç dirsek noktasından bağımsız kırılabilir bir kol gibi hareket eder ve bu geometri, Bursa'nın kentsel dokusunda tek bir nedenle değil, birbirinden farklı üç sahada aynı anda gerekli hâle gelir. Osmangazi ve Yıldırım'ın merkez akslarındaki yüksek yapılarda bom, balkon altı ve klima nişi gibi çıkıntılı-girintili elemanlara binanın etrafını dolanarak ulaşır; Nilüfer'in FSM Bulvarı çevresindeki AVM ve ofis kulelerinde giydirme cam cepheye toleranssız bir hassasiyetle yaklaşır; şehir merkezinin tarihi çarşı-kule geçiş bölgelerinde ise aynı makine bir günde iki farklı disiplini (dar sokak modu ve kule cephesi modu) art arda uygular. Ortak payda, hedefin düz bir bomla değil kırılan bir kolla ulaşılabilir olmasıdır. Bu sayfa, ana hizmetimiz olan eklemli platform kiralamanın Bursa'daki üç saha tipindeki mantığını, model sınıflarını ve karar sürecini baştan sona anlatır.",
+        maddeler: [
+            {
+                baslik: "Çıkıntılı-girintili yüksek yapı cephesinde dirsek manevrası",
+                metin:
+                    "Merkez akslardaki iş merkezi ve rezidans kulelerinde cephe düz bir yüzey değildir; balkon altları, klima nişleri, dekoratif kat silmeleri ve tabela çıkıntıları, bomun binaya paralel değil binanın etrafını saracak şekilde hareket etmesini gerektirir. Teleskopik bom bu geometride sınırlı kalır çünkü yalnızca ileri-geri ve yukarı-aşağı hareket eder; eklemli bom ise dirsekten kırılarak çıkıntının altına, girintinin içine girer. Cephe fotoğrafı, teklif öncesi bu geometriyi netleştiren standart bir adımdır.",
+            },
+            {
+                baslik: "Giydirme cam cephede sıfır tolerans disiplini",
+                metin:
+                    "Nilüfer merkezdeki ofis kuleleri ve AVM'lerin cam-kompozit giydirme cepheleri temasa toleranssızdır — bom veya sepetin cepheye dokunması panel değişimi gerektiren bir maliyet üretir. Bu tür cephelere yakın çalışan eklemli bom, yaklaşım mesafesi net tanımlanmış, yavaşlatılmış bir modda hareket eder ve rüzgârlı bloklarda cepheye yakın manevra tamamen durdurulur çünkü türbülans bom ucunu öngörülemez kılar.",
+            },
+            {
+                baslik: "Kent merkezinde ikili mod: dar sokaktan kule cephesine",
+                metin:
+                    "Şehir merkezinin tarihi çarşı dokusu ile modern yapı stokunun iç içe geçtiği bölgelerde aynı makine bir günde iki disiplin uygulayabilir — sabah dar sokak modunda (kompakt şase, düşük hız, yaya önceliği) bir çarşı binası tamamlanır, öğleden sonra aynı makine yakındaki bir kuleye geçip yükseklik-rüzgâr moduna döner. Bu ikili geçiş, rota planının baştan iki farklı disiplini hesaba katmasını gerektirir.",
+            },
+            {
+                baslik: "Kule etek türbülansı ve rüzgâr disiplini",
+                metin:
+                    "Yüksek bir yapının çevresinde rüzgâr, binadan yansıyarak zemine iner ve kule eteğinde öngörülemez bir türbülans yaratır — bu etki, bom ucu binaya yaklaştıkça daha belirleyici hale gelir. Eklemli platform operasyonlarında kule eteğine yakın çalışmalarda sepet rüzgâr ölçümü sürekli takip edilir; rüzgârlı bloklarda binaya en yakın manevralar ertelenir. Bu, kule işlerindeki temel güvenlik disiplinidir.",
+            },
+            {
+                baslik: "Erişim bandının dürüst sınırı ve karma yöntem",
+                metin:
+                    "Bursa'daki merkez kulelerin bir kısmı, eklemli platformun ulaşabildiği bandın (yaklaşık 20-25 metre, 6-8 kat) üzerine çıkar; bu durumda dürüst yaklaşım, sınırı zorlamak yerine bunu baştan söylemektir. Çoğu kulede en ekonomik çözüm karma yöntemdir: alt bant eklemli platformla hızla biter, üst bant için asılı erişim sistemi veya cephe iskelesi ayrı planlanır ve bu ayrım teklif aşamasında netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da saha tipine göre eklemli platform kullanımı",
+                paragraflar: [
+                    "Kentsel dokudaki üç ana saha tipinde eklemli platformun kullanım mantığı aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Ana zorluk", "Bom disiplini", "Kritik dikkat noktası"],
+                    satirlar: [
+                        ["Merkez aks yüksek yapı (Osmangazi-Yıldırım)", "Çıkıntı-girinti cephe", "Dirsek manevrası", "Kule etek türbülansı"],
+                        ["FSM Bulvarı AVM-ofis kulesi (Nilüfer)", "Giydirme cam cephe", "Sıfır temas toleransı", "Yavaşlatılmış mod"],
+                        ["Şehir merkezi tarihi doku-kule geçişi", "İki disiplin bir arada", "İkili mod geçişi", "Rota planı baştan kurulur"],
+                        ["Kestel-çevre ilçe ticaret binaları", "Küçük ölçekli, kısa iş", "Standart eklemli", "Mesafeye göre erken sevkiyat"],
+                        ["Erişim bandı üstü kat (20-25m üzeri)", "Bandın dışında kalma", "Karma yöntem yönlendirmesi", "Teklifte açık ayrım"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli sınıfın kentsel cephe işindeki mühendislik gerekçesi",
+                paragraflar: [
+                    "Teleskopik ve eklemli sınıf arasındaki fark, kentsel cephe işinde yalnızca tercih değil mühendislik zorunluluğudur: teleskopik bom, uzunluğu boyunca tek eksende hareket ettiği için ancak binaya paralel düz yüzeylere ulaşır; eklemli bom ise iki veya üç dirsek noktasından kırılarak binanın konturunu takip edebilir. Bursa'daki çoğu cephe teklifinde önce cephe fotoğrafı istenir ve elemanların çıkıntı-girinti profiline göre sınıf netleştirilir.",
+                    "Bu netleştirme adımı atlanırsa, sahaya gelen makinenin geometrisi işe uymayabilir ve iş günü kaybı yaşanır — bu yüzden keşif fotoğrafı, teklif öncesi standart bir adımdır.",
+                ],
+            },
+            {
+                baslik: "Kule ve AVM yönetimiyle güvenlik-bildirim protokolü",
+                paragraflar: [
+                    "Yüksek bina ve AVM cephesinde çalışırken, hem sokak seviyesindeki yayalar hem binanın kendi kullanıcıları güvenlik planının parçasıdır: zemin seviyesinde düşme riski taşıyan alan bariyerle kapatılır, kat aralarında çalışılan bloklara yakın kullanıcılara önceden bilgi verilir. AVM'lerde bu, ziyaretçi trafiğinin en düşük olduğu saatlere planlamayla; ofis kulelerinde kiracı bazlı bildirimle yürütülür.",
+                    "Bina yönetimiyle önceden kurulan bu iletişim, cephe işinin sürprizsiz ilerlemesinin anahtarıdır ve genellikle iş başlamadan bir-iki gün önce tamamlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bursa'da eklemli platformu hangi tür işlerde öneriyorsunuz?",
+                cevap:
+                    "Ana kullanım alanımız, kentin yüksek yapı, AVM ve kule cephelerinde düz bir bomun ulaşamadığı çıkıntılı-girintili noktalardır — balkon altı, klima nişi, kat silmesi gibi elemanlar ve giydirme cam cephelerdeki hassas montaj işleri. Ayrıca şehir merkezinin tarihi doku-kule geçiş bölgelerinde, aynı makinenin bir günde iki farklı disiplin (dar sokak ve kule cephesi) uygulayabilmesi, bu sınıfın kentsel avantajıdır.",
+            },
+            {
+                soru: "Cam cepheli bir ofis kulesinde çalışacağız, panellere zarar verme riski var mı?",
+                cevap:
+                    "Doğru disiplinle asgariye iner — cepheye yaklaşım mesafeleri iş başlamadan tanımlanır, bom cephe hattında yavaşlatılmış modda hareket eder ve rüzgârlı bloklarda cepheye yakın manevra tamamen durdurulur. Bu disiplin süreyi bir miktar uzatır ama cam panelin değişim maliyetine kıyasla ihmal edilebilir bir sigortadır.",
+            },
+            {
+                soru: "İşimiz hem dar bir çarşı sokağında hem yakındaki bir kulede, tek makineyle mi çözülür?",
+                cevap:
+                    "Genellikle evet — bu, şehir merkezinin tipik bir çalışma biçimidir. Sabah dar sokak modunda (kompakt şase, yaya önceliği) çarşı binası tamamlanır, öğleden sonra aynı makine kısa mesafeyle kuleye geçip yükseklik-rüzgâr disiplinine döner. İki işi birlikte bildirdiğinizde rota planını bu geçişe göre kurarız.",
+            },
+            {
+                soru: "Kulemiz 30 katlı, eklemli platform yeterli mi?",
+                cevap:
+                    "Dürüst sınırla söyleyelim: eklemli platform bandımız yaklaşık 20-25 metreye, yani 6-8 kata kadar cephe işlerini hızlı ve iskelesiz çözer. Üstü, asılı erişim sistemlerinin veya cephe iskelesinin alanıdır ve teklifte bunu açıkça ayırırız. Çoğu kulede en ekonomik kurgu karmadır: alt bant eklemli platformla hızla biter, üst bant ayrı yöntemle tamamlanır.",
+            },
+            {
+                soru: "Rüzgârlı bir günde kule eteğinde çalışma güvenli mi?",
+                cevap:
+                    "Rüzgâr hızına göre değişir ve bunu sürekli takip ederiz — kule eteğinde rüzgâr binadan yansıyarak öngörülemez bir türbülans yaratır ve bu etki bom ucu binaya yaklaştıkça daha belirleyici hâle gelir. Sepet rüzgâr ölçümü sürekli izlenir; rüzgârlı bloklarda binaya en yakın manevralar ertelenip sakin bir dilime kaydırılır.",
+            },
+            {
+                soru: "Kestel'deki ticaret binamız için de eklemli platform uygun mu, yoksa daha küçük bir makine mi gerekir?",
+                cevap:
+                    "Çevre ilçelerdeki orta ölçekli ticaret binalarında genellikle kompakt eklemli modeller yeterli ve hızlı bir çözümdür; çalışma yöntemi şehir merkeziyle aynıdır, tek fark sevkiyat planlamasının mesafeye göre biraz daha erken kurulmasıdır. İşin kapsamını paylaştığınızda uygun model sınıfını netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bursa'nın merkez aks yüksek yapı stoku, Nilüfer/FSM Bulvarı AVM-ofis kulesi yoğunluğu ve şehir merkezi tarihi doku-kule geçişi kamuya açık coğrafi bilgidir; eklemli-teleskopik ayrımı genel mühendislik bilgisi, keşif fotoğrafı süreci ve rüzgâr disiplini firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bursa AVM İç Galerisi ve Kule Lobisinde İç Mekân Platform Kiralama",
+        giris:
+            "Bursa'nın AVM ve kule ağırlıklı yapı stoku, dış cephe kadar iç mekân erişim talebi de üretir — bir AVM'nin atriyum üst örtüsü, bir kule lobisinin yüksek tavanlı girişi veya bir ofis binasının asma tavan-tesisat bölümü, dış hava koşullarından bağımsız ama kendi hassasiyetiyle çalışılması gereken alanlardır. İç mekân platform işi, dış cephe işinden farklı bir disiplin gerektirir: rüzgâr yerine zemin kaplaması ve bina kullanım saatleri belirleyicidir, açık hava değil kapalı alan havalandırması öne çıkar. Bu sayfa, Bursa'daki AVM iç galerisi ve kule lobisi gibi iç mekân alanlarında platform kullanımını anlatır.",
+        maddeler: [
+            {
+                baslik: "AVM atriyum ve iç galeri üst örtüsünde geniş sepetli çalışma",
+                metin:
+                    "AVM'lerin çok katlı atriyum alanları ve üst örtü camları, geniş ve düz zeminli olduğu için büyük sepetli platform modellerinin verimli çalıştığı alanlardır. Bu işler genellikle AVM kapanış sonrası gece yapılır; makine her gece bir bölümden diğerine ilerler ve AVM yönetimiyle önceden kurulan gece giriş-çıkış protokolü (güvenlik, temizlik ekibi koordinasyonu) bu ilerlemenin sorunsuz akmasını sağlar.",
+            },
+            {
+                baslik: "Kule lobisi ve yüksek tavanlı girişlerde hassas manevra",
+                metin:
+                    "Bir ofis kulesinin veya rezidansın lobi tavanı, dekoratif aydınlatma ve asma tavan elemanlarıyla yüksek ve düzensiz bir profile sahip olabilir; bu alanlarda platform, ziyaretçi ve kullanıcı trafiğinin en düşük olduğu saatlere (erken sabah, akşam sonrası) planlanır ve zemin kaplaması (mermer, parke) koruyucu örtüyle desteklenir.",
+            },
+            {
+                baslik: "Ofis-idari bina asma tavan ve tesisat çalışmasında erişim",
+                metin:
+                    "Asma tavan üstündeki tesisat, kablo güzergâhı veya HVAC bakımı gibi işler, makasli veya dikey platformun yeterli olduğu düz zeminli koridorlarda hızlı ilerler; tavan yüksekliği ve koridor genişliği keşif aşamasında ölçülür. Ofis saatleri içinde çalışma gerekiyorsa, kullanıcı yoğunluğunun düşük olduğu bölümlerden başlanır.",
+            },
+            {
+                baslik: "Kapalı alan havalandırma ve elektrikli tahrik gerekliliği",
+                metin:
+                    "İç mekân işlerinin neredeyse tamamında elektrikli/akülü tahrikli platform tercih edilir çünkü içten yanmalı motorlu bir makinenin egzoz gazı kapalı alanda birikip hava kalitesini bozabilir. Akü kapasitesi işin süresine göre hesaplanır; uzun süreli AVM veya kule projelerinde gece şarj planı kurulur.",
+            },
+            {
+                baslik: "Zemin koruma ve iz bırakmama standardı",
+                metin:
+                    "Mermer, parke veya özel kaplamalı iç mekân zeminlerinde tekerlek izi bırakmamak için geçiş güzergâhına koruyucu örtü serilir; ağır sepetli modellerde ayak altına yük dağıtıcı takoz konur. İş bitiminde güzergâh kontrol edilir ve bu koruma, ek ücret gerektirmeyen standart bir uygulamadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da iç mekân alan tipine göre platform yaklaşımı",
+                paragraflar: [
+                    "Farklı iç mekân alan tiplerinde yaklaşım aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Tipik iş", "Model tercihi", "Çalışma penceresi"],
+                    satirlar: [
+                        ["AVM atriyum-üst örtü", "Cam temizlik, bakım", "Geniş sepetli, elektrikli", "Kapanış sonrası gece"],
+                        ["Kule-ofis lobisi", "Aydınlatma, asma tavan", "Kompakt, zemin korumalı", "Erken sabah-akşam sonrası"],
+                        ["Ofis koridoru-tesisat", "Kablo, HVAC bakım", "Makaslı/dikey", "Düşük yoğunluk saatleri"],
+                        ["Kapalı otopark-teknik hacim", "Aydınlatma, tesisat", "Elektrikli, havalandırma dostu", "Esnek"],
+                        ["Hassas kaplamalı zemin", "Her türlü iç iş", "Koruyucu örtü + takoz", "Standart uygulama"],
+                    ],
+                },
+            },
+            {
+                baslik: "AVM gece protokolünün kurulumu",
+                paragraflar: [
+                    "AVM içi çalışmalarda gece protokolü, güvenlik ekibiyle giriş-çıkış saatlerinin netleştirilmesi, temizlik ekibiyle çalışma alanının paylaşılması ve her gece tamamlanan bölümün ertesi sabah ziyaretçiye hazır hale getirilmesini kapsar. Bu protokol proje başında AVM yönetimiyle birlikte kurulur ve proje süresince değişmeden uygulanır.",
+                    "Protokolün önceden netleşmemesi ilk gece koordinasyon kaybına yol açabilir; bu yüzden proje başlamadan en az birkaç gün önce bu görüşmeyi tamamlamayı öneririz.",
+                ],
+            },
+            {
+                baslik: "Dış cephe işinden farkı: rüzgâr değil zemin ve saat belirleyici",
+                paragraflar: [
+                    "İç mekân işlerinde dış cephe işlerinin temel değişkeni olan rüzgâr devreden çıkar; onun yerine zemin kaplaması hassasiyeti ve bina kullanım saatleri planlamayı belirler. Bu fark, iç mekân işlerinin genellikle dış cephe işlerine göre daha öngörülebilir bir takvimle ilerlemesini sağlar — hava durumu değil, yalnızca bina yönetimiyle kurulan koordinasyon zaman çizelgesini belirler.",
+                    "Bazı projelerde hem iç mekân hem dış cephe işi aynı anda planlanır; bu durumda iki ekibin çalışma pencereleri çakışmayacak şekilde ayrılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin atriyum üst örtüsü kaç gecede temizlenir?",
+                cevap:
+                    "Bu, üst örtünün büyüklüğüne ve erişim koşullarına bağlı olarak değişir — geniş atriyum zeminleri büyük sepetli modellerin verimli çalıştığı alanlardır ve her gece belirli bir bölüm tamamlanır. Kesin gece sayısını keşif sonrası netleştiririz. AVM yönetiminizle kurulacak gece protokolü proje başında bir kez kurulur ve süreç boyunca değişmez.",
+            },
+            {
+                soru: "Kule lobimizin tavan aydınlatması bakım görecek, ziyaretçi girişini etkiler mi?",
+                cevap:
+                    "Doğru saat seçimiyle etkilemez — bu tür işler ziyaretçi ve kullanıcı trafiğinin düşük olduğu erken sabah veya akşam sonrası saatlere planlanır. Zemin kaplamanız mermer veya parke ise koruyucu örtü standart olarak serilir. Lobinizin yoğunluk saatlerini bildirdiğinizde en uygun pencereyi öneririz.",
+            },
+            {
+                soru: "Kapalı otoparkımızda çalışma yapılacak, egzoz gazı sorun olur mu?",
+                cevap:
+                    "Olmaz — iç mekân işlerinde neredeyse her zaman elektrikli/akülü tahrikli model kullanılır ve bu, egzoz gazı üretmez. İşin süresine göre akü kapasitesini önceden hesaplarız; uzun süren işlerde gece şarj planı kurarız.",
+            },
+            {
+                soru: "Mermer zeminimizde platform iz bırakır mı?",
+                cevap:
+                    "Doğru önlemle bırakmaz — geçiş güzergâhına koruyucu örtü serilir, ağır sepetli modellerde ayak altına yük dağıtıcı takoz konur. İş bitiminde güzergâhı kontrol eder, varsa en ufak bir izi size bildiririz. Bu koruma ek ücret gerektirmeyen standart uygulamamızdır.",
+            },
+            {
+                soru: "Ofis koridorumuzdaki asma tavan tesisatı için hangi makine sınıfı uygun?",
+                cevap:
+                    "Düz zeminli ve yeterli genişlikteki koridorlarda genellikle makaslı veya dikey platform yeterlidir ve daha hızlı ilerler. Tavan yüksekliğini ve koridor genişliğini paylaştığınızda uygun modeli netleştiririz; ofis saatleri içinde çalışma gerekiyorsa kullanıcı yoğunluğunun düşük olduğu bölümlerden başlarız.",
+            },
+            {
+                soru: "Hem iç mekân hem dış cephe işimiz var, aynı anda mı yapılır?",
+                cevap:
+                    "Planlamaya bağlı olarak evet, aynı proje kapsamında ikisi de yürütülebilir — iki ekibin çalışma pencereleri çakışmayacak şekilde ayrılır, iç mekân işi bina kullanım saatlerine, dış cephe işi ise rüzgâr ve trafik koşullarına göre planlanır. Proje kapsamınızı paylaştığınızda birleşik bir takvim çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bursa'nın AVM ve kule yoğunluğu kamuya açık coğrafi bilgidir; gece protokolü, zemin koruma standardı ve elektrikli tahrik gerekliliği genel ekipman mühendisliği ve firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bursa'da Yeni Kule ve AVM İnşaatının Çelik Karkas Döneminde Montaj Platformu Kiralama",
+        giris:
+            "Bir kule veya AVM binası cephe kaplamasına kavuşmadan önce, çelik karkasın yükseldiği bir inşaat dönemi vardır — kolon-kiriş birleşimleri, ana çatı aşıkları ve cephe taşıyıcı sisteminin montajı, henüz asansör ve merdiven aktif olmayan bir sahada yürütülür. Bu dönemde eklemli ve makaslı platform, kaynak-cıvata montajı yapan ekibi doğru noktaya taşıyan temel ekipmandır; bu, sitenin ikinci ana uzmanlık alanıdır ve mevcut bina cephesine erişimden (birinci ana hizmetimiz) farklı olarak, henüz tamamlanmamış bir yapının içinde ve etrafında çalışmayı kapsar. Bu sayfa, Bursa'da yeni kule ve AVM inşaatlarının çelik karkas döneminde montaj platformu kullanımını, montaj sırasıyla ilişkisini ve şantiye güvenlik disiplinini anlatır.",
+        maddeler: [
+            {
+                baslik: "Montaj sırasına göre değişen park ve erişim planı",
+                metin:
+                    "Çelik iskelet montajı belirli bir sırayla ilerler — önce kolonlar, sonra ana kirişler, sonra aşıklar ve çaprazlar. Kentsel bir kule veya AVM şantiyesinde makinenin park edeceği boşluk, montaj ilerledikçe daralır: iskelet büyüdükçe eskiden boş olan alanlar dolar. Bu yüzden makine park planı tek seferlik değil, montaj takvimine göre güncellenen bir plandır; hangi aşamada makinenin nereden çalışacağı montaj ekibiyle birlikte önceden çizilir.",
+            },
+            {
+                baslik: "Henüz tamamlanmamış zeminde stabilite kontrolü",
+                metin:
+                    "İnşaat aşamasındaki bir kule veya AVM sahasında zemin, tamamlanmış bir bina çevresine göre daha değişkendir — dolgu, moloz, henüz sıkıştırılmamış toprak veya geçici döşeme platformları bulunabilir. Makine konuşlanmadan önce zeminin taşıma kapasitesi şantiye mühendisiyle teyit edilir; belirsiz zeminlerde ayak altına takoz veya çelik plaka konur.",
+            },
+            {
+                baslik: "Kaynak ve cıvata montaj ekibiyle sepet koordinasyonu",
+                metin:
+                    "Kolon-kiriş birleşim noktalarında çalışan kaynak veya cıvata montaj ekibi, sepedin tam doğru yükseklik ve açıda durmasını gerektirir — operatör, montaj ustasıyla sürekli iletişim hâlinde çalışır ve küçük konum düzeltmeleri anlık yapılır. Kaynak işlemi sırasında sepet sabit tutulur, kesinlikle beklenmedik bir hareket yapılmaz.",
+            },
+            {
+                baslik: "Vinç ile aynı sahada çalışma disiplini",
+                metin:
+                    "Çelik montaj şantiyelerinde genellikle bir kule vinci veya mobil vinç de aynı anda çalışır; platform ile vincin hareket alanları çakışmaması için güzergahlar önceden ayrılır, vincin yük kaldırdığı anlarda platform o bölgeden uzak tutulur. Bu koordinasyon, şantiye şefiyle her gün sabah kısa bir brifingle güncellenir.",
+            },
+            {
+                baslik: "Cephe kaplaması başlamadan önceki geçiş dönemi",
+                metin:
+                    "Çelik karkas tamamlandıktan sonra, cephe kaplaması (cam, kompozit panel) başlamadan önceki geçiş döneminde platform hâlâ sahadadır — bu dönemde iskelet üzerindeki son kontroller, izolasyon hazırlığı ve cephe taşıyıcı profillerinin montajı yapılır. Cephe kaplaması başladığında ise iş, bu sayfanın konusu olan çelik montajdan, sitenin eklemli platform (boom) hizmetinin kapsadığı cephe erişimine döner.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da çelik karkas montaj aşamalarına göre platform kullanımı",
+                paragraflar: [
+                    "Kentsel çelik karkas montajının aşamalarına göre platform kullanımı aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj aşaması", "Tipik iş", "Ekipman disiplini", "Kritik dikkat noktası"],
+                    satirlar: [
+                        ["Kolon dikimi", "İlk taşıyıcı montaj", "Geniş erişim, sabit zemin", "Zemin stabilite kontrolü"],
+                        ["Ana kiriş-aşık montajı", "Kaynak-cıvata birleşimi", "Hassas sepet konumlama", "Montaj ustasıyla iletişim"],
+                        ["Çapraz-payanda montajı", "Yapısal sağlamlaştırma", "Dar açılı erişim", "Park planı güncelleme"],
+                        ["Vinç ile eş zamanlı çalışma", "Yük kaldırma + montaj", "Güzergah ayrımı", "Günlük sabah brifingi"],
+                        ["Cephe taşıyıcı profil hazırlığı", "Kaplama öncesi son adım", "Geçiş dönemi", "Sonraki aşamaya devir"],
+                    ],
+                },
+            },
+            {
+                baslik: "İnşaat sahası ile tamamlanmış bina arasındaki fark",
+                paragraflar: [
+                    "Sitenin birinci ana hizmeti olan eklemli platform (boom) sayfası, tamamlanmış bir kule veya AVM'nin dış cephesine erişimi anlatır; bu sayfa ise henüz o cephe var olmadan önceki, iskeletin yükseldiği dönemi kapsar. İki dönem arasındaki temel fark, zemin ve erişim koşullarının kararlılığıdır — tamamlanmış binada zemin ve giriş sabittir, inşaat sahasında ise montaj ilerledikçe her ikisi de değişir.",
+                    "Bir proje bu iki dönemi art arda yaşayabilir: önce çelik karkas montajı, sonra cephe kaplaması. Bu durumda aynı müşteriyle iki ayrı iş planı kurulur ve devir noktası (karkas bitip kaplama başladığında) net şekilde tanımlanır.",
+                ],
+            },
+            {
+                baslik: "Şantiye güvenlik protokolüne uyum",
+                paragraflar: [
+                    "İnşaat sahasında çalışan her ekipman, o şantiyenin genel iş güvenliği protokolüne (baret, emniyet kemeri, giriş-çıkış kaydı) tabi olur; operatörümüz sahaya girmeden önce şantiye şefinin güvenlik brifingine katılır ve şantiyenin kendi kurallarına uyar. Bu, platformun kendi güvenlik disiplinine ek bir katmandır, onun yerine geçmez.",
+                    "Şantiye risk değerlendirmesinde platform çalışması ayrı bir madde olarak yer alır ve bu, iş başlamadan önce şantiye yönetimiyle birlikte gözden geçirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kulemizin çelik karkas montajı sürüyor, platform ne zaman sahaya girebilir?",
+                cevap:
+                    "Kolon dikimi tamamlanıp ana kirişler yerine oturduktan sonra platform genellikle devreye girer; tam zamanlama, montaj takviminize ve zemin hazırlığına bağlıdır. Şantiye mühendisinizle birlikte park alanı ve zemin stabilitesini netleştirdikten sonra kesin tarihi belirleriz.",
+            },
+            {
+                soru: "Aynı sahada kule vinci de çalışıyor, çakışma riski nasıl yönetiliyor?",
+                cevap:
+                    "Platform ile vincin hareket alanları önceden ayrılır ve vincin yük kaldırdığı anlarda platform o bölgeden uzak tutulur. Bu koordinasyon, şantiye şefiyle her gün sabah kısa bir brifingle güncellenir; günlük montaj planı değiştikçe güzergah da buna göre revize edilir.",
+            },
+            {
+                soru: "İnşaat sahasının zemini henüz sıkıştırılmamış, platform güvenle çalışabilir mi?",
+                cevap:
+                    "Bu, zeminin taşıma kapasitesine bağlıdır ve makine konuşlanmadan önce şantiye mühendisiyle birlikte teyit edilir. Belirsiz veya yumuşak zeminlerde ayak altına takoz veya çelik plaka konularak yük dağıtılır; kritik durumlarda daha hafif bir model tercih edilir.",
+            },
+            {
+                soru: "Kaynak yapan ustamız sepedin sabit durmasını istiyor, bu nasıl sağlanıyor?",
+                cevap:
+                    "Operatörümüz montaj ustasıyla sürekli iletişim hâlinde çalışır; sepet doğru konuma getirildikten sonra kaynak işlemi süresince kesinlikle beklenmedik bir hareket yapılmaz. Küçük konum düzeltmeleri montaj ustasının talebiyle anlık yapılır, bu tür işlerde operatör-usta uyumu iş kalitesini doğrudan etkiler.",
+            },
+            {
+                soru: "Çelik karkas bitip cephe kaplaması başladığında aynı platformla mı devam ediyoruz?",
+                cevap:
+                    "Genellikle evet, aynı eklemli veya makaslı platform sınıfı devam edebilir, ama iş tanımı değişir — çelik montajdan cephe erişimine geçiş net bir devir noktasıdır ve bu noktada iş planı yeniden gözden geçirilir. Cephe kaplaması dönemindeki detaylar için sitenin eklemli platform (boom) hizmet sayfasındaki bilgiler geçerli olur.",
+            },
+            {
+                soru: "Şantiyemizin kendi güvenlik kuralları var, sizin operatörünüz bunlara uyar mı?",
+                cevap:
+                    "Evet, operatörümüz sahaya girmeden önce şantiye şefinin güvenlik brifingine katılır ve baret, emniyet kemeri, giriş-çıkış kaydı gibi şantiyenin kendi kurallarına uyar. Bu, platformun kendi güvenlik disiplinine ek bir katmandır ve şantiye risk değerlendirmesinde platform çalışması ayrı bir madde olarak yer alır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik karkas montaj sırası ve şantiye güvenlik protokolü genel inşaat mühendisliği bilgisidir; Bursa'daki kule-AVM inşaat dönemi bağlamı ve vinç koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bursa'da Tarım ve Silo Sahası Platform İhtiyacına Dürüst Yaklaşım",
+        giris:
+            "Bu sitenin uzmanlık alanı, Bursa'nın kentsel yüksek yapı, AVM ve kule cephesi erişimidir; tarım tesisleri ve silo sahaları gibi kırsal, açık arazi işleri bu odağın dışında kalır. Bursa çevresinde tarımsal üretim ve depolama tesisleri gerçekten var olsa da, bu sitenin filo profili, operatör deneyimi ve saha bilgisi kentsel cephe işlerine göre kurulmuştur; kırsal arazi koşulları (zemin sağlamlığı, geniş açık alan erişimi, tarımsal yapı özel geometrisi) farklı bir uzmanlık gerektirir. Bu sayfa, bu sınırı dürüstçe belirtmek ve talebi doğru şekilde yönlendirmek için yazılmıştır.",
+        maddeler: [
+            {
+                baslik: "Bu sitenin odağı kentsel yapı, tarım tesisi değil",
+                metin:
+                    "Sitedeki tüm bölgesel içerik ve saha örnekleri (Osmangazi, Nilüfer, Yıldırım, şehir merkezi, Görükle, Mudanya, Gemlik) kentsel yüksek yapı, AVM ve konut-ticaret dokusuna dayanır; tarım arazisi veya silo tesisi gibi kırsal bir sahaya yönelik özel bir saha bilgisi veya filo hazırlığı bu kapsamda bulunmaz.",
+            },
+            {
+                baslik: "Talep geldiğinde dürüst değerlendirme",
+                metin:
+                    "Bir tarım veya silo sahası talebi geldiğinde, işi kabul edip yetersiz hizmet vermek yerine, bunu açıkça belirtir ve mümkünse bu tür sahalarda deneyimli bir kaynağa yönlendiririz. Bu yaklaşım, kısa vadeli bir işi kaybetmek pahasına, uzun vadede güvenilir bir hizmet sağlayıcı olmanın parçasıdır.",
+            },
+            {
+                baslik: "Kısmi örtüşen durumlar: kentsel çevre tarım yapıları",
+                metin:
+                    "Bursa'nın çevre ilçelerinde (örneğin Kestel civarı) kentsel dokuya yakın küçük ölçekli tarımsal yapılar bulunabilir; bu tür sınırda kalan durumlarda talebi değerlendirir, sahanın kentsel erişim koşullarına yakınsa (asfalt yol, sınırlı arazi genişliği) uygunluğumuzu kontrol ederiz. Geniş açık tarla veya büyük silo kompleksi gibi tam kırsal bir saha ise bu kapsamın dışındadır.",
+            },
+            {
+                baslik: "Doğru kaynağa yönlendirme prensibi",
+                metin:
+                    "Kapasitemizin veya uzmanlığımızın dışındaki bir talebi üstlenmek, hem müşteri için hem bizim için riskli bir sonuç doğurur — iş beklenen kalitede tamamlanamayabilir. Bu yüzden tarım-silo gibi net kapsam dışı taleplerde, mümkün olduğunda bu alanda uzman bir kaynağa yönlendirme öneririz.",
+            },
+            {
+                baslik: "Netleştirme için önerdiğimiz ilk adım",
+                metin:
+                    "Sahanızın tam olarak kentsel mi kırsal mı olduğundan emin değilseniz, kısa bir açıklama ve konum bilgisi paylaşmanız yeterlidir — biz size dürüstçe bu talebin kapsamımız içinde olup olmadığını söyleriz, kapsam dışıysa elimizden geldiğince doğru yöne yönlendiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapsam içi ve kapsam dışı durumların özeti",
+                paragraflar: [
+                    "Tarım-silo talep türlerine göre değerlendirme aşağıdaki gibidir.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Kapsam", "Yaklaşım"],
+                    satirlar: [
+                        ["Kentsel yakın küçük tarımsal yapı", "Sınırda, değerlendirilir", "Erişim koşulu kontrolü"],
+                        ["Geniş açık tarla-arazi işi", "Kapsam dışı", "Uzman kaynağa yönlendirme"],
+                        ["Büyük silo kompleksi", "Kapsam dışı", "Uzman kaynağa yönlendirme"],
+                        ["Kentsel bina-tarım karışık saha", "Değerlendirilir", "Detaylı görüşme gerekir"],
+                        ["Emin olunmayan durum", "Belirsiz", "Konum bilgisiyle netleştirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu dürüstlüğü tercih ediyoruz",
+                paragraflar: [
+                    "Kentsel yüksek yapı ve tarım-kırsal saha, hem ekipman ihtiyacı hem operatör deneyimi açısından farklı disiplinler gerektirir — biri dirsek manevrası ve cam cephe hassasiyeti isterken diğeri geniş açık arazi erişimi ve farklı zemin koşulları ister. Her iki alanda da yüzeysel bir hizmet vermek yerine, kentsel odağımızda derinleşmeyi tercih ediyoruz.",
+                    "Bu sayfa, arama motorlarından bu tür bir ihtiyaçla sitemize gelen ziyaretçilere baştan dürüst bilgi vermek için tutuluyor; amaç yanlış beklenti yaratmamaktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bursa'da bir tarım tesisinde platform ihtiyacımız var, bu site bunu karşılar mı?",
+                cevap:
+                    "Genellikle hayır — bu sitenin uzmanlık alanı kentsel yüksek yapı, AVM ve kule cephesi erişimidir, tarım tesisi ve açık arazi işleri bu kapsamın dışındadır. Sahanızın tam konumunu ve niteliğini paylaşırsanız dürüstçe değerlendirir, kapsam dışıysa mümkün olduğunca doğru bir kaynağa yönlendirmeye çalışırız.",
+            },
+            {
+                soru: "Silo tesisimiz kentsel bir bölgeye yakın, yine de kapsam dışında mı sayılır?",
+                cevap:
+                    "Bu, sahanın erişim koşullarına bağlıdır — kentsel dokuya yakın, asfalt yollu ve sınırlı arazili küçük bir tesisse değerlendirebiliriz; geniş açık tarla veya büyük silo kompleksi ise kapsam dışıdır. Konum ve saha özelliklerini paylaştığınızda net bir cevap veririz.",
+            },
+            {
+                soru: "Neden bu tür bir işi doğrudan kabul etmiyorsunuz?",
+                cevap:
+                    "Çünkü kentsel yüksek yapı erişimi ile kırsal tarım-silo sahası erişimi farklı ekipman profili ve operatör deneyimi gerektirir; filo ve saha bilgimiz kentsel odağa göre kurulmuştur. Yetersiz bir hizmet vermek yerine, bu sınırı baştan açıkça belirtmeyi tercih ediyoruz.",
+            },
+            {
+                soru: "Bu talep için başka bir kaynak önerir misiniz?",
+                cevap:
+                    "Talebinizin detayını paylaştığınızda, mümkün olduğunca bu alanda deneyimli bir kaynağa yönlendirme yapmaya çalışırız. Kesin bir öneri, sahanızın konumu ve iş kapsamına göre değişir; bu yüzden önce kısa bir bilgi almamız gerekir.",
+            },
+            {
+                soru: "Sahamız hem tarımsal hem kentsel yapı içeriyor, nasıl değerlendirilir?",
+                cevap:
+                    "Bu tür karışık sahalar, standart bir kural yerine detaylı bir görüşme gerektirir — hangi kısmın kentsel erişim koşullarına uyduğunu, hangi kısmın kırsal kaldığını birlikte netleştiririz. Sahanızın genel yapısını ve hangi bölümde çalışma yapılacağını paylaştığınızda değerlendirmeyi yaparız.",
+            },
+            {
+                soru: "Bu sayfayı neden hâlâ tutuyorsunuz, kapsam dışıysa kaldırmanız gerekmez mi?",
+                cevap:
+                    "Bu sayfayı, arama motorlarından tarım-silo ihtiyacıyla sitemize gelen ziyaretçilere baştan dürüst bilgi vermek için tutuyoruz — amaç, yanlış bir beklentiyle bize ulaşan kişilerin zaman kaybetmeden doğru yöne yönlendirilmesidir. Sınırda kalan durumlar için de bir değerlendirme kapısı bırakmak istedik.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, sitenin kentsel yüksek yapı odağı çerçevesinde tarım-silo hizmetinin kapsam dışı olduğunu dürüstçe belirtir; sahte bir kapsam iddiası içermez.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bursa'da Cadde Aydınlatması ve Kule-AVM Dış Aydınlatma Bakım Platformu",
+        giris:
+            "Bursa'nın kentsel dokusunda enerji ve aydınlatma bakımı, iki farklı ölçekte karşımıza çıkar — bir kulenin veya AVM'nin dış cephe aydınlatma armatürleri ile bir caddenin veya meydanın sokak aydınlatma direkleri. İkisi de yüksekte çalışma gerektirir ama erişim mantığı farklıdır: cephe aydınlatması bina konturuna bağlı bir dirsek manevrası isterken, direk aydınlatması dikey ve tekrar eden bir erişim düzenidir. Bu sayfa, Bursa'daki bu iki enerji-aydınlatma bakım tipinde platform kullanımını, elektrik güvenliği disiplinini ve çalışma penceresi planlamasını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule ve AVM dış cephe aydınlatma armatürlerinde erişim",
+                metin:
+                    "Yüksek yapıların dış cephesindeki dekoratif veya işlevsel aydınlatma armatürleri, genellikle cephenin çıkıntılı noktalarında veya köşelerinde yer alır ve bu, eklemli bomun dirsek manevrasını gerektirir. Armatür değişimi veya bakımı sırasında elektrik kesintisi gerekiyorsa, bu, bina yönetimiyle önceden koordine edilir ve kesinti süresi en aza indirilecek şekilde planlanır.",
+            },
+            {
+                baslik: "Cadde ve meydan aydınlatma direklerinde tekrarlayan erişim",
+                metin:
+                    "Cumhuriyet Caddesi gibi ana akslardaki sokak aydınlatma direkleri, belirli aralıklarla tekrar eden bir düzende dizilidir ve bu, makinenin bir direkten diğerine ilerleyen bir rota izlemesini sağlar. Kaç direk olduğu ve aralarındaki mesafe, iş süresini doğrudan belirler; bu bilgi keşif veya belediye/ilgili kurum verisiyle netleştirilir.",
+            },
+            {
+                baslik: "Enerjili hat yakınında güvenlik mesafesi",
+                metin:
+                    "Aydınlatma direği veya cephe armatürü çalışmalarında yakında enerjili bir hat (elektrik direği, trafo yakını) varsa, güvenlik mesafesi standart bir cephe işine göre daha katı uygulanır — operatör bu mesafeyi bilir ve gerekirse ilgili kurumdan (dağıtım şirketi) geçici kesinti veya güvenlik onayı istenir. Bu koordinasyon, iş öncesi netleştirilmesi gereken bir adımdır.",
+            },
+            {
+                baslik: "Gece çalışmasının aydınlatma testinde avantajı",
+                metin:
+                    "Aydınlatma armatürünün bakım sonrası doğru çalışıp çalışmadığını test etmek için gece koşulları gerekir; bu yüzden bazı aydınlatma bakım işleri kasıtlı olarak akşam-gece saatlerine planlanır — bakım tamamlanır tamamlanmaz armatür yakılıp test edilir, sorun varsa aynı ziyarette düzeltilir. Bu, ayrı bir test ziyaretini gereksiz kılar.",
+            },
+            {
+                baslik: "AVM tabela ve cephe aydınlatmasında marka görünürlüğü hassasiyeti",
+                metin:
+                    "AVM'lerin tabela ve cephe aydınlatması, marka görünürlüğünün doğrudan bir parçasıdır ve bu tür işlerde çalışma, mağaza açılış saatlerinden önce veya kapanıştan sonra tamamlanır ki tabela günün hiçbir saatinde sönük veya eksik görünmesin. Acil bir arıza durumunda ise hızlı müdahale önceliklendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da aydınlatma bakım tipine göre yaklaşım",
+                paragraflar: [
+                    "Farklı aydınlatma bakım tiplerinde yaklaşım aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["Aydınlatma tipi", "Erişim mantığı", "Elektrik güvenliği", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Kule-AVM dış cephe armatürü", "Dirsek manevrası", "Bina yönetimiyle kesinti koordinasyonu", "Gündüz veya gece test"],
+                        ["Cadde-meydan aydınlatma direği", "Tekrarlayan dikey erişim", "Standart mesafe", "Gündüz, planlı rota"],
+                        ["Enerjili hat yakını iş", "Katı mesafe kuralı", "Dağıtım şirketi onayı", "Onay sonrası"],
+                        ["Gece test gerektiren armatür", "Değişken", "Standart", "Akşam-gece"],
+                        ["AVM tabela-marka aydınlatması", "Cephe erişimi", "Standart", "Açılış öncesi/kapanış sonrası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik kesintisi koordinasyonunun adımları",
+                paragraflar: [
+                    "Bir aydınlatma armatürünün değişimi veya bakımı elektrik kesintisi gerektiriyorsa, süreç şöyle işler: bina yönetimi veya ilgili kurum önceden bilgilendirilir, kesinti süresi ve etkilenecek alan netleştirilir, kesinti mümkünse kullanıcı yoğunluğunun en düşük olduğu saate planlanır. Kesinti tamamlandığında sistem tekrar devreye alınır ve armatürün doğru çalıştığı test edilir.",
+                    "Bu koordinasyon adımı atlanırsa, beklenmedik bir kesinti kullanıcı memnuniyetsizliği yaratabilir; bu yüzden her zaman önceden netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Direk sayısına göre rota planlaması",
+                paragraflar: [
+                    "Cadde aydınlatma direklerinde çok sayıda direk aynı işte olduğunda, makine bir uçtan başlayıp diğer uca doğru tek yönde ilerleyen bir rota izler; bu, gereksiz ileri-geri hareketi önler ve iş süresini kısaltır. Direk sayısı ve aralarındaki mesafe önceden bilinirse, tahmini süre net verilebilir.",
+                    "Bazı direklerde erişim engeli (ağaç dalı, tabela) varsa bu, rota planına önceden dahil edilir ve gerekirse ayrı bir manevra planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kulemizin dış cephe aydınlatması bozuldu, tamiri elektrik kesintisi gerektirir mi?",
+                cevap:
+                    "Arızanın türüne bağlıdır — bazı armatür değişimleri kısa bir yerel kesintiyle yapılabilirken bazıları genel devre üzerinde çalışma gerektirebilir. Kesinti gerekiyorsa bina yönetiminizle önceden koordine eder, süresini ve etkilenecek alanı netleştiririz; kesintiyi kullanıcı yoğunluğunun en düşük olduğu saate planlarız.",
+            },
+            {
+                soru: "Caddemizdeki aydınlatma direkleri kaç günde bakım görür?",
+                cevap:
+                    "Direk sayısına ve aralarındaki mesafeye bağlıdır — makine bir uçtan başlayıp tek yönde ilerleyen bir rota izler, bu da süreyi kısaltır. Direk sayısını ve güzergahı bildirdiğinizde tahmini süreyi netleştiririz.",
+            },
+            {
+                soru: "Çalışma alanımızın yakınında enerjili bir hat var, güvenli mi?",
+                cevap:
+                    "Enerjili hat yakınında standart bir cephe işine göre daha katı bir güvenlik mesafesi uygularız ve gerekirse dağıtım şirketinden geçici kesinti veya güvenlik onayı isteriz. Bu koordinasyon iş öncesi netleştirilmesi gereken bir adımdır; hattın tam konumunu bildirdiğinizde değerlendirmeyi yaparız.",
+            },
+            {
+                soru: "Aydınlatma bakımı neden bazen gece yapılıyor?",
+                cevap:
+                    "Armatürün bakım sonrası doğru çalışıp çalışmadığını test etmek için gece koşulları gerekir; bu yüzden bazı işleri kasıtlı olarak akşam-gece saatlerine planlarız. Bakım tamamlanır tamamlanmaz armatür yakılıp test edilir, sorun varsa aynı ziyarette düzeltilir — bu, ayrı bir test ziyaretini gereksiz kılar.",
+            },
+            {
+                soru: "AVM tabelamızın aydınlatması gündüz mü değiştiriliyor?",
+                cevap:
+                    "Genellikle mağaza açılış saatlerinden önce veya kapanıştan sonra tamamlanır ki tabela günün hiçbir saatinde sönük görünmesin. Acil bir arıza varsa hızlı müdahaleyi önceliklendiririz, planlı bakımda ise bu pencereyi tercih ederiz.",
+            },
+            {
+                soru: "Hem cephe aydınlatması hem cadde direği bakımımız var, aynı ziyarette mi yapılır?",
+                cevap:
+                    "Konumlarına yakınsa evet, aynı güne toplamak mümkündür — bu, nakliye ve keşif sürecini paylaştırır. İki işin kapsamını ve konumlarını birlikte ilettiğinizde ortak bir plan çıkarırız; farklı erişim mantığı (dirsek manevrası ile dikey rota) gerektirdiği için sırayı buna göre kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bursa'nın cadde ve meydan aydınlatma düzeni kamuya açık coğrafi bilgidir; elektrik kesintisi koordinasyonu ve gece test disiplini genel elektrik güvenliği bilgisi ve firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bursa'da Operatörlü ve Operatörsüz Platform Kiralama Seçenekleri",
+        giris:
+            "Bursa'daki kentsel cephe ve iç mekân işlerinde operatörlü veya operatörsüz kiralama tercihi, işin türüne ve müşterinin kendi ekip yeterliliğine göre değişir — bir kule cephesinde dirsek manevrası gerektiren bir eklemli platform işi, çoğunlukla deneyimli operatör gerektirirken, düz zeminli bir AVM iç mekân işinde eğitimli bir müşteri ekibi operatörsüz de çalışabilir. Bu sayfa, Bursa'daki iki kiralama modelini, hangi iş türünde hangisinin önerildiğini ve yeterlilik belgesi sürecini anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule ve cephe işlerinde operatörlü tercih nedeni",
+                metin:
+                    "Merkez akslardaki yüksek yapı cephelerinde dirsek manevrası, rüzgâr takibi ve bina konturu okuma gibi beceriler, deneyimli bir operatörün sahada anlık karar verebilmesini gerektirir — bu tür işlerde operatörsüz kiralama önerilmez, çünkü hatalı bir manevra hem cepheye hem makineye zarar verebilir. Operatörümüz, bu sitenin ana uzmanlık alanı olan kule-AVM cephe işlerinde deneyimlidir.",
+            },
+            {
+                baslik: "Düz zeminli iç mekân işlerinde operatörsüz seçenek",
+                metin:
+                    "Bir AVM koridorunda veya ofis binasının düz zeminli bir bölümünde, makaslı veya dikey platformla yürütülen basit bir işte, müşterinin kendi eğitimli personeli operatörsüz kiralamayla çalışabilir. Bu seçenekte, kullanıcı yeterlilik belgesinin (iş güvenliği eğitimi) geçerliliği kiralama öncesi kontrol edilir.",
+            },
+            {
+                baslik: "Operatörlü kiralamada yeterlilik ve sigorta kapsamı",
+                metin:
+                    "Operatörlü kiralamada, makineyi kullanan kişi bizim personelimizdir ve gerekli yeterlilik belgesine sahiptir; bu, hem operasyonel güvenliği hem sigorta kapsamını netleştirir. Uzun süreli veya karmaşık işlerde (kule cephesi, çelik karkas montajı) operatörlü model neredeyse her zaman tercih edilir.",
+            },
+            {
+                baslik: "Karma model: eğitim destekli geçiş",
+                metin:
+                    "Bazı müşteriler, önce operatörlü başlayıp kendi ekibini sahada gözlemleterek zamanla operatörsüz modele geçmek ister; bu, özellikle sürekli iç mekân bakım ihtiyacı olan AVM veya ofis binaları için makul bir yoldur. Bu geçiş sürecinde, operatörümüz müşteri personeline temel kullanım ve güvenlik pratiklerini aktarır.",
+            },
+            {
+                baslik: "İş tipine göre önerinin netleştirilmesi",
+                metin:
+                    "Hangi modelin uygun olduğu, işin sahaya özgü zorluk derecesine bağlıdır ve bu, teklif aşamasında dürüstçe belirtilir — riskli bir kule işini operatörsüz olarak öneremeyiz, düşük riskli bir iç mekân işini ise gereksiz yere operatörlü zorunlu kılmayız. Amaç, müşterinin hem güvenliğini hem bütçesini gözeten doğru öneriyi sunmaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da iş tipine göre operatörlü/operatörsüz önerisi",
+                paragraflar: [
+                    "Farklı iş tiplerinde model önerisi aşağıdaki gibi ayrışır.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Risk seviyesi", "Önerilen model", "Neden"],
+                    satirlar: [
+                        ["Kule-AVM dış cephe (eklemli)", "Yüksek", "Operatörlü", "Dirsek manevrası, rüzgâr takibi"],
+                        ["Çelik karkas montajı", "Yüksek", "Operatörlü", "Kaynak ekibiyle hassas koordinasyon"],
+                        ["AVM iç mekân, düz zemin", "Düşük-orta", "Operatörsüz mümkün", "Basit, tekrarlayan hareket"],
+                        ["Sürekli iç mekân bakım", "Düşük-orta", "Karma (eğitim destekli geçiş)", "Zamanla ekip yeterliliği artar"],
+                        ["Belirsiz/karmaşık saha", "Değişken", "Teklifte netleştirilir", "Dürüst risk değerlendirmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yeterlilik belgesi kontrolünün önemi",
+                paragraflar: [
+                    "Operatörsüz kiralamada, makineyi kullanacak kişinin iş güvenliği ve platform kullanım eğitimi belgesi, kiralama öncesi kontrol edilir — bu belge olmadan makine teslim edilmez. Bu kontrol, hem yasal bir gereklilik hem müşterinin kendi ekibinin güvenliği için standart bir adımdır.",
+                    "Belgesi olmayan ama işi yapmak isteyen müşterilere, operatörlü modeli veya kısa bir eğitim sürecini öneririz.",
+                ],
+            },
+            {
+                baslik: "Operatörlü modelin maliyet-güvenlik dengesi",
+                paragraflar: [
+                    "Operatörlü kiralama, operatörsüze göre biraz daha yüksek bir günlük maliyet taşır ama özellikle yüksek riskli işlerde bu fark, güvenlik ve iş kalitesi açısından değerlidir — deneyimli bir operatör, aynı işi daha hızlı ve hatasız tamamlayabilir. Düşük riskli işlerde ise operatörsüz model, bütçe açısından mantıklı bir tercih olabilir.",
+                    "Hangi modelin sizin işiniz için daha uygun olduğunu, iş tanımınızı paylaştığınızda dürüstçe değerlendiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kule cephe işimiz için operatörsüz kiralama mümkün mü?",
+                cevap:
+                    "Genellikle önermeyiz — dirsek manevrası, rüzgâr takibi ve bina konturu okuma gibi beceriler deneyimli bir operatörün sahada anlık karar vermesini gerektirir; hatalı bir manevra hem cepheye hem makineye zarar verebilir. Bu tür yüksek riskli işlerde operatörlü model standart önerimizdir.",
+            },
+            {
+                soru: "AVM'mizin düz koridorunda kendi personelimiz makineyi kullanabilir mi?",
+                cevap:
+                    "Evet, düşük riskli ve düz zeminli işlerde operatörsüz kiralama mümkündür — ancak kullanıcı yeterlilik belgesinin (iş güvenliği eğitimi) geçerliliğini kiralama öncesi kontrol ederiz. Belgesi olmayan personel için kısa bir eğitim süreci veya operatörlü modeli önerebiliriz.",
+            },
+            {
+                soru: "Operatörlü kiralama ne kadar daha pahalı?",
+                cevap:
+                    "Operatörsüze göre biraz daha yüksek bir günlük maliyet taşır, ama özellikle yüksek riskli işlerde bu fark güvenlik ve iş kalitesi açısından değerlidir. Düşük riskli işlerde operatörsüz model bütçe açısından daha mantıklı olabilir. İş tanımınızı paylaştığınızda net bir maliyet karşılaştırması sunarız.",
+            },
+            {
+                soru: "Zamanla kendi ekibimizle operatörsüz çalışmaya geçebilir miyiz?",
+                cevap:
+                    "Evet, özellikle sürekli iç mekân bakım ihtiyacı olan AVM veya ofis binaları için makul bir yoldur — önce operatörlü başlanır, ekibiniz sahada gözlem yaparak deneyim kazanır, operatörümüz temel kullanım ve güvenlik pratiklerini aktarır, zamanla operatörsüz modele geçilebilir.",
+            },
+            {
+                soru: "Çelik karkas montajında operatörsüz seçenek var mı?",
+                cevap:
+                    "Önermiyoruz — kaynak veya cıvata montaj ekibiyle sepedin hassas koordinasyonu, deneyimli bir operatör gerektirir. Bu tür işlerde operatörlü model, hem iş kalitesi hem güvenlik açısından standart yaklaşımımızdır.",
+            },
+            {
+                soru: "İşimizin risk seviyesini nasıl anlıyorsunuz?",
+                cevap:
+                    "İşin sahaya özgü zorluk derecesini (yükseklik, zemin tipi, manevra karmaşıklığı, dış hava koşulları) teklif aşamasında değerlendiririz ve buna göre dürüstçe bir model önerisi sunarız — riskli bir işi operatörsüz olarak önermeyiz, düşük riskli bir işi ise gereksiz yere operatörlü zorunlu kılmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama modelleri ve yeterlilik belgesi kontrolü genel iş güvenliği pratiğidir; Bursa'daki iş tipine göre risk değerlendirmesi firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bursa'da Çok Noktalı Kule-AVM-Site Bakım Rotası Planlama Hizmeti",
+        giris:
+            "Bursa'nın kentsel dokusunda tek bir müşterinin veya bir bina yönetim şirketinin birden fazla noktada (birkaç kule, birkaç AVM birimi, birden fazla site) düzenli bakım ihtiyacı olması yaygındır — bir facility management şirketinin portföyündeki üç farklı ofis kulesi veya bir zincir mağazanın Bursa'daki birden fazla şubesi, tek tek değil birleşik bir rotayla planlandığında hem zaman hem maliyet açısından avantaj sağlar. Bu sayfa, Bursa'da çok noktalı bakım rotası planlamasını, güzergâh mantığını ve toplu sözleşme avantajlarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Portföy bazlı bina yönetiminde birleşik rota mantığı",
+                metin:
+                    "Birden fazla binayı yöneten bir facility management şirketi için, her binanın ayrı ayrı planlanması yerine tek bir rota altında birleştirilmesi, makinenin şehir içinde bir noktadan diğerine kısa mesafelerle ilerlemesini sağlar — örneğin Nilüfer'deki bir ofis kulesi ile şehir merkezindeki bir AVM birimi aynı haftaya, hatta bazen aynı güne sığdırılabilir. Bu, ayrı ayrı planlanan işlere göre toplam nakliye maliyetini düşürür.",
+            },
+            {
+                baslik: "Zincir mağaza ve şube ağlarında dönemsel bakım takvimi",
+                metin:
+                    "Bursa'da birden fazla şubesi olan bir zincirin tabela, dış aydınlatma veya cephe bakımı, dönemsel bir takvime bağlanabilir — örneğin her çeyrekte tüm şubelerin sırayla ziyaret edildiği bir program kurulur. Bu, her şube için ayrı ayrı talep oluşturma yükünü ortadan kaldırır ve bakım kalitesini standartlaştırır.",
+            },
+            {
+                baslik: "Coğrafi kümeleme ile güzergâh optimizasyonu",
+                metin:
+                    "Çok noktalı bir rotada, işler coğrafi yakınlığa göre kümelenir — örneğin Osmangazi ve Yıldırım'daki işler bir günde, Nilüfer ve Görükle'deki işler başka bir günde toplanır. Bu kümeleme, makinenin şehir içinde gereksiz uzun mesafeler kat etmesini önler ve her günün iş yoğunluğunu dengeler.",
+            },
+            {
+                baslik: "Tek sözleşme, çok nokta: raporlama ve takip kolaylığı",
+                metin:
+                    "Çok noktalı bir bakım anlaşmasında, her ziyaret sonrası kısa bir durum raporu tutulur ve bu raporlar tek bir portföy altında müşteriyle paylaşılır — hangi binada hangi işin ne zaman yapıldığı, tek bir kayıt sisteminde izlenebilir. Bu, tek tek dağınık işlerde kaybolabilecek bir görünürlüğü sağlar.",
+            },
+            {
+                baslik: "Acil durum önceliklendirmesi rotanın dışında kalır",
+                metin:
+                    "Planlı rota dışında acil bir durum (düşme riski taşıyan gevşek eleman, arızalı aydınlatma gibi) ortaya çıkarsa, bu, normal rota sırasının dışında önceliklendirilir — çok noktalı bir müşteri portföyünde bu tür acil durumlar için ayrı bir hızlı müdahale kanalı tutulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bursa'da çok noktalı rota planlamasının unsurları",
+                paragraflar: [
+                    "Çok noktalı bakım planlamasında dikkate alınan unsurlar aşağıdaki gibidir.",
+                ],
+                tablo: {
+                    basliklar: ["Unsur", "Amaç", "Yöntem", "Fayda"],
+                    satirlar: [
+                        ["Coğrafi kümeleme", "Mesafe optimizasyonu", "Bölgeye göre günlük gruplama", "Nakliye maliyeti düşer"],
+                        ["Dönemsel takvim", "Standart bakım sıklığı", "Çeyreklik/aylık program", "Şube başına ayrı talep gerekmez"],
+                        ["Tek portföy raporlama", "Görünürlük", "Merkezi kayıt sistemi", "İzlenebilirlik"],
+                        ["Acil durum kanalı", "Hızlı müdahale", "Rota dışı önceliklendirme", "Risk yönetimi"],
+                        ["Toplu sözleşme", "Fiyat istikrarı", "Yıllık/dönemsel anlaşma", "Bütçe öngörülebilirliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Portföy müşterileri için toplu sözleşme avantajı",
+                paragraflar: [
+                    "Birden fazla noktada düzenli bakım ihtiyacı olan müşteriler için, tek seferlik işler yerine dönemsel bir toplu sözleşme kurmak, hem fiyat istikrarı hem planlama kolaylığı sağlar — yıl içinde kaç ziyaret yapılacağı, hangi binaların kapsamda olduğu ve genel bakım takvimi baştan netleştirilir.",
+                    "Bu tür sözleşmeler, portföye yeni bir bina eklendiğinde veya çıkarıldığında esnek şekilde güncellenebilir; katı bir taahhüt yerine gerçek ihtiyaca göre ayarlanan bir çerçevedir.",
+                ],
+            },
+            {
+                baslik: "Coğrafi kümelemenin pratik örneği",
+                paragraflar: [
+                    "Bursa'nın coğrafyasında, merkez ilçeler (Osmangazi, Nilüfer, Yıldırım) birbirine yakın olduğu için aynı gün içinde birden fazla nokta ziyaret edilebilir; Kestel gibi çevre ilçeler veya Mudanya-Gemlik gibi daha uzak noktalar ise ayrı bir güne veya haftaya planlanır. Bu kümeleme, portföydeki binaların konumuna göre her seferinde yeniden hesaplanır.",
+                    "Yeni bir bina portföye eklendiğinde, mevcut rotaya nasıl entegre edileceği (hangi güne, hangi sıraya) birlikte değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üç farklı binamız var, her biri için ayrı ayrı mı teklif almalıyız?",
+                cevap:
+                    "Gerekmiyor — binalarınızın konumlarını ve bakım ihtiyaçlarını birlikte paylaştığınızda, coğrafi yakınlığa göre kümeleyip birleşik bir rota planı çıkarırız. Bu, ayrı ayrı planlanan işlere göre toplam nakliye maliyetini düşürür ve tek bir teklif üzerinden ilerlemenizi sağlar.",
+            },
+            {
+                soru: "Zincir mağazamızın Bursa'daki tüm şubeleri için düzenli bir bakım programı kurulabilir mi?",
+                cevap:
+                    "Evet, dönemsel bir takvim (örneğin çeyreklik) kurarak tüm şubelerin sırayla ziyaret edildiği bir program oluşturabiliriz. Bu, her şube için ayrı ayrı talep oluşturma yükünü ortadan kaldırır ve bakım kalitesini standartlaştırır. Şube sayınızı ve konumlarını paylaştığınızda program taslağını çıkarırız.",
+            },
+            {
+                soru: "Rota dışında acil bir arıza çıkarsa ne oluyor?",
+                cevap:
+                    "Planlı rota dışında kalan acil durumlar (düşme riski taşıyan gevşek eleman, arızalı aydınlatma gibi) normal sıranın dışında önceliklendirilir — çok noktalı müşteri portföylerimizde bu tür durumlar için ayrı bir hızlı müdahale kanalı tutarız.",
+            },
+            {
+                soru: "Portföyümüze yeni bir bina eklendi, mevcut rotaya nasıl dahil ediliyor?",
+                cevap:
+                    "Yeni binanın konumunu paylaştığınızda, mevcut coğrafi kümelemeye nasıl entegre edileceğini (hangi güne, hangi sıraya) birlikte değerlendiririz. Toplu sözleşmeler esnek olduğu için bu tür eklemeler, katı bir taahhüt bozmadan yapılabilir.",
+            },
+            {
+                soru: "Her ziyaretten sonra ayrı ayrı mı bilgilendiriliyoruz, yoksa tek bir raporlama mı var?",
+                cevap:
+                    "Tek bir portföy altında merkezi bir raporlama sunarız — her ziyaret sonrası kısa bir durum raporu tutulur ve hangi binada hangi işin ne zaman yapıldığı tek bir kayıt sisteminde izlenebilir. Bu, dağınık işlerde kaybolabilecek bir görünürlüğü sağlar.",
+            },
+            {
+                soru: "Toplu sözleşme fiyat açısından avantaj sağlıyor mu?",
+                cevap:
+                    "Genellikle evet — dönemsel bir toplu sözleşme, tek seferlik işlere göre hem fiyat istikrarı hem planlama kolaylığı sağlar. Yıl içinde kaç ziyaret yapılacağı ve kapsamdaki binalar baştan netleştirildiği için bütçenizi daha öngörülebilir kurabilirsiniz. Portföyünüzün büyüklüğünü paylaştığınızda örnek bir sözleşme çerçevesi sunarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bursa'nın ilçe coğrafyası ve mesafe ilişkileri kamuya açık bilgidir; çok noktalı rota planlaması, coğrafi kümeleme ve toplu sözleşme yaklaşımı firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bursa'da Kentsel Sınırda Kalan Zor Zemin İşlerinde Platform Kiralama",
+        giris:
+            "Bu sitenin ağırlıklı odağı Bursa'nın kentsel yapı stoku (kule, AVM, konut sitesi) olduğu için, klasik anlamda 'zor zemin ve arazi' (kırsal, engebeli, hazırlıksız açık saha) işleri bu domainin merkezi uzmanlığı değildir; bu tür işler genellikle kardeş sitelerimizin (örneğin genel platform-forklift odaklı hizmetler) kapsamındadır. Yine de kentsel sahada da zaman zaman zemin zorluğu ortaya çıkar — yeni tamamlanmış bir kule çevresindeki henüz peyzajı bitmemiş toprak alan, bir inşaat sahasının çevresi veya bir sitenin henüz asfaltlanmamış iç yolu gibi 'kentsel sınırda kalan' zor zemin durumları. Bu sayfa, bu sınırlı ama gerçek kesişimi dürüstçe anlatır.",
+        maddeler: [
+            {
+                baslik: "Bu sitenin merkezi uzmanlığı kentsel zemin, açık arazi değil",
+                metin:
+                    "Sitedeki filo ve operatör deneyimi, asfalt veya beton kentsel zeminlere göre optimize edilmiştir; geniş açık tarla, çamurlu inşaat sahası dışı arazi veya dağlık-engebeli kırsal zemin gibi klasik 'zor arazi' işleri, farklı bir lastik/palet profili ve farklı bir operatör deneyimi gerektirir. Bu tür işler için kapsamımızın sınırlı olduğunu baştan belirtiriz.",
+            },
+            {
+                baslik: "Yeni kule-AVM çevresinde henüz tamamlanmamış peyzaj alanı",
+                metin:
+                    "Yeni tamamlanmış bir kule veya AVM'nin çevresinde, peyzaj çalışması henüz bitmemişse zemin düzensiz toprak, dolgu veya kısmen sıkıştırılmış olabilir; bu durumda makine konuşlanmadan önce zeminin taşıma kapasitesi kontrol edilir ve gerekirse geçici plaka veya takoz kullanılır. Bu, geniş açık arazi işinden farklı, sınırlı ölçekli bir durumdur.",
+            },
+            {
+                baslik: "İnşaat sahası çevresindeki geçici düzensiz zemin",
+                metin:
+                    "Bir kule inşaatının çevresinde geçici olarak oluşan moloz, dolgu veya sıkıştırılmamış toprak alanları, kısa süreli ama dikkat gerektiren zemin koşulları yaratır; bu, şantiye içi çelik montaj işinin (bu sitenin ikinci ana hizmeti) bir uzantısı olarak değerlendirilir ve zemin durumu şantiye mühendisiyle birlikte kontrol edilir.",
+            },
+            {
+                baslik: "Site iç yolunun henüz asfaltlanmamış bölümü",
+                metin:
+                    "Yeni tamamlanmış bazı konut sitelerinde iç yollar henüz tam asfaltlanmamış olabilir; bu durumda makinenin geçeceği güzergâh önceden kontrol edilir, gerekirse daha geniş lastikli veya daha hafif bir model tercih edilir. Bu, sitenin genel cephe-erişim işinin bir parçası olarak ele alınır, ayrı bir 'arazi işi' olarak değil.",
+            },
+            {
+                baslik: "Gerçek kırsal-arazi talebinde dürüst yönlendirme",
+                metin:
+                    "Talep, kentsel sınırın tamamen dışına çıkan bir kırsal arazi veya geniş açık saha ise (örneğin bir tarla kenarındaki bir yapı işi), bu, sitenin kapsamı dışındadır ve mümkün olduğunca bu tür işlerde deneyimli bir kaynağa yönlendirme yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapsam içi ve kapsam dışı zemin durumlarının özeti",
+                paragraflar: [
+                    "Zemin zorluğu türüne göre kapsam durumu aşağıdaki gibidir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Bağlam", "Kapsam", "Yaklaşım"],
+                    satirlar: [
+                        ["Yeni kule-AVM çevresi, bitmemiş peyzaj", "Kentsel, sınırlı ölçek", "Kapsam içi", "Zemin kontrolü, takoz"],
+                        ["İnşaat sahası çevresi, geçici dolgu", "Şantiye uzantısı", "Kapsam içi", "Şantiye mühendisiyle kontrol"],
+                        ["Site iç yolu, asfaltsız bölüm", "Kentsel, sınırlı ölçek", "Kapsam içi", "Güzergah kontrolü"],
+                        ["Geniş açık tarla-kırsal arazi", "Kırsal", "Kapsam dışı", "Uzman kaynağa yönlendirme"],
+                        ["Dağlık-engebeli doğal zemin", "Kırsal", "Kapsam dışı", "Uzman kaynağa yönlendirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kentsel sınırda kalan durumların ortak özelliği",
+                paragraflar: [
+                    "Bu sayfada anlatılan zemin zorluğu durumlarının hepsi, esasen kentsel bir projenin (yeni kule, yeni site, AVM inşaatı) geçici veya tamamlanmamış bir aşamasıyla ilgilidir — kalıcı, geniş ölçekli bir kırsal arazi değil. Bu ayrım önemlidir çünkü filo ve operatör profilimiz, bu sınırlı ölçekli durumları karşılayacak şekilde kurulmuştur, ama büyük ölçekli kırsal arazi işleri için özel olarak optimize edilmemiştir.",
+                    "Bu sınırı dürüstçe belirtmek, hem müşteri beklentisini doğru yönetmek hem de kabul ettiğimiz her işi güvenle tamamlamak içindir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni kulemizin çevresi henüz peyzaj görmedi, zemin toprak; platform çalışabilir mi?",
+                cevap:
+                    "Genellikle evet, bu tür kentsel sınırda kalan durumlar kapsamımız içindedir — makine konuşlanmadan önce zeminin taşıma kapasitesini kontrol eder, gerekirse geçici plaka veya takoz kullanırız. Bu, geniş açık arazi işinden farklı, sınırlı ölçekli bir durumdur ve filomuz bunu karşılayabilir.",
+            },
+            {
+                soru: "Sitemizin iç yolu henüz asfaltlanmadı, makine geçebilir mi?",
+                cevap:
+                    "Güzergahı önceden kontrol ederiz ve gerekirse daha geniş lastikli veya daha hafif bir model tercih ederiz. Bu, sitenin genel cephe-erişim işinin bir parçası olarak ele alınır. Yolun durumunu (toprak, stabilize, kısmen asfaltlı) bildirdiğinizde uygun modeli netleştiririz.",
+            },
+            {
+                soru: "Tarla kenarındaki bir yapı işimiz var, bu site bunu karşılar mı?",
+                cevap:
+                    "Genellikle hayır — bu sitenin odağı kentsel yapı stoku ve bunun geçici/tamamlanmamış aşamalarıdır; geniş açık tarla veya kırsal arazi işleri kapsamımızın dışındadır. Bu tür bir talep için mümkün olduğunca deneyimli bir kaynağa yönlendirme yapmaya çalışırız.",
+            },
+            {
+                soru: "Şantiyemizin çevresinde moloz ve dolgu var, bu zor zemin sayılır mı?",
+                cevap:
+                    "Evet ama bu, şantiye içi çelik montaj işimizin doğal bir uzantısı olarak ele alınır — zemin durumu şantiye mühendisiyle birlikte kontrol edilir, gerekirse takoz veya plaka kullanılır. Bu, ayrı bir 'arazi işi' olarak değil, mevcut şantiye hizmetimizin bir parçası olarak değerlendirilir.",
+            },
+            {
+                soru: "Zeminin uygun olup olmadığını nasıl anlıyorsunuz?",
+                cevap:
+                    "Makine konuşlanmadan önce zeminin görsel ve mümkünse teknik kontrolünü yaparız — dolgu, sıkıştırılmamış toprak veya moloz varsa bunu değerlendirir, gerekirse yük dağıtıcı takoz veya plaka kullanırız. Kritik veya belirsiz durumlarda bina/şantiye sorumlusundan zemin bilgisi isteriz.",
+            },
+            {
+                soru: "Bu site neden 'zor zemin' konusunda kendini sınırlı görüyor?",
+                cevap:
+                    "Çünkü filo ve operatör deneyimimiz kentsel asfalt-beton zeminlere göre kurulmuştur; geniş açık arazi veya dağlık kırsal zemin farklı bir lastik/palet profili ve farklı bir saha deneyimi gerektirir. Bu farkı baştan belirtmek, kabul ettiğimiz her işi güvenle tamamlamamızı sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, sitenin kentsel odağı çerçevesinde zor zemin/arazi hizmetinin sınırlı kapsamını dürüstçe tanımlar; kentsel sınırda kalan gerçek kesişim durumları (yeni inşaat çevresi, asfaltsız site yolu) kapsam içi kabul edilir, geniş kırsal arazi işleri kapsam dışıdır.",
+    },
 };

@@ -856,4 +856,1096 @@ export const ESKISEHIRPLATFORMKIRALAMA_NET: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-13. Demirciler Sanayi Sitesinin şehir içi küçük dükkân-atölye dokusu genel bağlamda ele alınmıştır; içerik yalnız iç tavan ve kapanış sonrası erişim pratiğine dayanır. Metal imalat ve sıcak iş teması bilinçli olarak ayrı tutulmuş, işletme adı, kapasite ve rakam kullanılmamıştır.",
     },
+
+    // ─────────────────────────────────────────────────────────────────────
+    // HİZMET SAYFALARI — bu dosyanın merceği yukarıdaki bölge sayfalarıyla
+    // aynı eksende kalır: mağaza-otel-kamu binası KENT İÇİ iç mekân işi,
+    // zemin koruma (mermer/parke/seramik/ahşap), egzozsuz akülü zorunluluğu,
+    // kapanış sonrası/mesai dışı dar pencere, bina yönetimi koordinasyonu.
+    // Kardeş dosyalar farklı eksendedir ve örtüşme burada da yasaktır:
+    //   - eskisehirvincplatform-com.ts  → kırsal enerji hattı, direk, vinç
+    //   - manlifteskisehir-com.ts       → planlı duruş penceresi/kapasite
+    // "tarim-silo" ve "zor-zemin-arazi" konuları bu domainin kent içi
+    // profiline uymadığı için kapsamı bilinçli olarak dar tutulmuş ve bu
+    // dar kapsam sayfa içinde açıkça belirtilmiştir — uydurma genişletme
+    // yapılmamıştır.
+    // ─────────────────────────────────────────────────────────────────────
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Mağaza Vitrini ve Otel Lobisinde Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Kent içi bir mağazanın vitrin üstü, bir otel lobisinin yüksek tavanı veya bir kamu binasının fuaye aydınlığı, standart bir makaslı platformun sığamayacağı kadar dar bir kapıdan geçilerek ulaşılan hedeflerdir. Sepetli / örümcek platformun buradaki değeri, gövdesinin katlanarak bir insan omzu genişliğine kadar daralabilmesi ve ayaklarının zemine noktasal olarak basarak ağırlığı geniş bir alana yaymasıdır — bu ikinci özellik, mermer veya parke gibi hassas zeminlerde standart bir makaslı platformdan daha güvenli bir seçim yapar. Bu sayfa, ilimizdeki mağaza, otel ve kamu binası içi işlerde bu platform sınıfının ne zaman tercih edildiğini, kapı ve tavan ölçüsünün nasıl doğrulandığını ve zemin ayak izinin nasıl yönetildiğini ele alır; kırsal bir enerji hattında direk dikimi ya da sanayi holünde planlı duruş bakımı bu sayfanın konusu değildir.",
+        maddeler: [
+            {
+                baslik: "Katlanan gövdenin dar kapıdan geçişi",
+                metin:
+                    "Standart bir makaslı platformun gövde genişliği çoğu mağaza kapısına sığmaz; sepetli örümcek platform ise ayaklarını ve kolunu katlayarak taşınabilir bir genişliğe iner ve içeride açılır. Bu yüzden dar cepheli bir mağaza veya tarihi bir bina girişinde ilk sorduğumuz ölçü kapı genişliği değil, kapının en dar noktasındaki (kol, eşik, kepenk rayı dahil) net geçiş ölçüsüdür.",
+            },
+            {
+                baslik: "Ayak izinin zemine dağılımı",
+                metin:
+                    "Bu platform sınıfının dört veya altı ayağı, ağırlığı tek bir tekerlek hattı yerine birkaç noktaya dağıtır; bu, mermer veya cilalı parke gibi nokta yükünden çabuk zarar gören zeminlerde bir avantajdır, ancak her ayağın altına yine de koruyucu takoz konur çünkü nokta bazında yoğunlaşan yük hâlâ bir çiziğe yol açabilir. Ayakların açılma genişliği çalışma öncesi zeminde işaretlenir ki her ayak önceden belirlenen noktaya otursun.",
+            },
+            {
+                baslik: "Otel lobisinde yüksek tavana yandan erişim",
+                metin:
+                    "Otel lobilerinin çoğu, avize veya gizli aydınlatma barının bulunduğu yüksek ve genellikle geniş bir tavana sahiptir; sepetli platformun uzun ve eklemli kolu, resepsiyon bankosu veya oturma grubu gibi zemindeki sabit mobilyaların arasından dolaşarak hedefe yandan ulaşabilir. Mobilyaların yerinden oynatılması gerekmeden çalışmanın tamamlanması, bu sınıfın otel işlerinde tercih edilme nedenidir.",
+            },
+            {
+                baslik: "Kamu binası fuayesinde tavan yüksekliği farkı",
+                metin:
+                    "Belediye veya üniversite gibi kamu binalarının fuaye alanları, genellikle standart bir ofis katından daha yüksek tavanlıdır ve bu yükseklik, örümcek platformun kol açıklığının makaslı bir platforma göre daha ekonomik kalmasını sağlar. Fuaye genişse ve kapı ölçüsü yeterliyse, bazı işlerde daha büyük kapasiteli bir makaslı platform da değerlendirilir; seçim, kapı ölçüsü ile tavan yüksekliğinin birlikte kontrolüyle yapılır.",
+            },
+            {
+                baslik: "Elektrikli tahrik ve sessiz taşınma",
+                metin:
+                    "İç mekân işlerinde kullanılan sepetli platformlar elektrikli tahrikli olduğundan hem egzozsuz çalışır hem de taşınırken düşük gürültü üretir; bu, kapanış sonrası çalışılan bir mağazada veya gece çalışılan bir otel lobisinde komşu birimleri rahatsız etmeyen bir hareket kabiliyeti sağlar. Buna rağmen sökme-takma sesleri ayrıca değerlendirilir ve gürültülü kalemler mümkünse gecenin erken saatine yazılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mekân tipine göre platform sınıfı seçimi",
+                paragraflar: [
+                    "Kapı ölçüsü ve tavan yüksekliği, hangi platform sınıfının uygun olduğunu birlikte belirler; aşağıdaki tablo kent içi mekânlarda tipik eşleşmeyi gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân", "Kapı ölçüsü", "Uygun sınıf", "Zemin önlemi"],
+                    satirlar: [
+                        ["Dar cepheli mağaza", "Standart kapı altı", "Kompakt sepetli", "Ayak altı takoz"],
+                        ["Otel lobisi", "Geniş çift kanat", "Sepetli/örümcek, uzun kol", "Koruyucu mat"],
+                        ["Kamu binası fuayesi", "Geniş", "Sepetli veya makaslı", "Zemine göre değişir"],
+                        ["Küçük ofis/salon", "Dar", "En kompakt sepetli", "İz bırakmayan ayak"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ölçüm hangi sırayla yapılır",
+                paragraflar: [
+                    "Talebi aldığımızda önce kapının net genişlik ve yükseklik ölçüsünü, ardından kapıdan hedefe kadar olan güzergâhtaki en dar noktayı (bir dönüş, bir sabit mobilya, bir eşik) sorarız; bu iki ölçü, hangi kompakt sınıfın kullanılabileceğini belirler.",
+                    "Tavan yüksekliği ve hedefin yatay uzaklığı üçüncü adımdır; bu, kolun açıklığının yeterli olup olmadığını gösterir. Üç ölçü birlikte netleşmeden makine sahaya gönderilmez, çünkü tek bir eksik ölçü işin yarım kalmasına yol açabilir.",
+                ],
+            },
+            {
+                baslik: "Mobilyayı yerinden oynatmadan çalışmak",
+                paragraflar: [
+                    "Otel ve mağaza gibi dekoratif mobilyası olan mekânlarda, platformu hedefe götürmek için koltuk veya raf grubunu kaydırmak yerine kolun eklemli yapısını kullanarak dolaşık bir rota izleriz; bu, hem işletmenin düzenini korur hem çalışma sonrası toparlama süresini kısaltır.",
+                    "Mobilyanın kesinlikle kaydırılması gereken durumlarda bu, işletme personeliyle birlikte ve önceden konuşularak yapılır; platform ekibi kendi başına mobilya taşımaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mağazamızın kapısı standart, hangi platform sığar?",
+                cevap:
+                    "Standart bir mağaza kapısı genellikle kompakt sepetli sınıfın katlanmış hâlini rahatlıkla geçirir, ancak kapı kolu, eşik yüksekliği ve kapıdan hemen sonraki ilk dönüş de ölçüye dahil edilmelidir; bazı mağazalarda kapı geniş görünse de hemen ardından gelen dar bir koridor asıl kısıtı oluşturur. Kapınızın ve giriş sonrası ilk birkaç metrenin fotoğrafını paylaşırsanız net bir değerlendirme yaparız.",
+            },
+            {
+                soru: "Otel lobimizin mermer zemininde ayak izi kalır mı?",
+                cevap:
+                    "Doğru hazırlıkla kalmaz. Sepetli platformun ayakları ağırlığı birkaç noktaya dağıtsa da, her ayağın altına koruyucu takoz konur ve ayakların açılacağı noktalar önceden zeminde işaretlenir. Lobinizin zemin tipini ve varsa özellikle hassas bir bölgeyi bildirirseniz hazırlığı buna göre yaparız; çalışma öncesi ve sonrası zemin karşılaştırılır.",
+            },
+            {
+                soru: "Kamu binamızın fuayesi hem geniş hem yüksek tavanlı, hangi sınıf daha ekonomik?",
+                cevap:
+                    "Fuaye genişse ve kapı ölçüsü uygunsa, bazı işlerde standart makaslı platform sepetliye göre daha ekonomik olabilir çünkü kapasitesi ve kurulum hızı farklıdır. Kapı ölçünüzü ve tavan yüksekliğinizi paylaşırsanız, iki seçeneği maliyet ve süre açısından karşılaştırarak sunarız; karar size kalır.",
+            },
+            {
+                soru: "Gece lobide çalışırken misafirler rahatsız olur mu?",
+                cevap:
+                    "Elektrikli tahrikli platform hem egzozsuz hem de taşınırken düşük gürültülüdür, bu yüzden gece çalışması için uygun bir seçimdir. Ancak sökme-takma sırasında kullanılan el aletleri ayrıca ses çıkarabilir; bu kalemleri mümkünse gecenin erken saatine, sessiz kontrol işlerini geç saatlere yazarız. Otelinizin üst katlarında misafir varsa bu sıralamayı özellikle önemseriz.",
+            },
+            {
+                soru: "Vitrindeki koltuk takımını kaydırmadan çalışabilir misiniz?",
+                cevap:
+                    "Çoğu durumda evet; kolun eklemli yapısı sayesinde sabit mobilyaların etrafından dolaşarak hedefe yandan ulaşabiliriz. Mobilyanın kesinlikle taşınması gereken bir konumdaysa bunu işletme personeliyle birlikte ve önceden konuşarak yaparız, kendi başımıza mobilya oynatmayız. Vitrininizin düzenini fotoğrafla paylaşırsanız rotayı önceden planlarız.",
+            },
+            {
+                soru: "Küçük bir işyeriyiz, sepetli platform bize göre pahalı mı?",
+                cevap:
+                    "Kompakt sepetli sınıf, küçük ölçekli iç mekân işlerinde genellikle en ekonomik seçenektir çünkü kurulumu hızlıdır ve dar alanlarda ek zaman kaybettirmez. Maliyet, iş süresinden çok kapı ölçünüz ve hedefin yüksekliğiyle ilişkilidir. İşinizin kapsamını ve mekânınızın ölçülerini paylaşırsanız net bir teklif sunarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sepetli/örümcek platformun teknik katlanma ve ayak-yayılım özelliği genel ürün bilgisidir; kapı/tavan ölçüm sırası ve mobilya etrafından dolaşma yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Şehir İçi Mağaza ve Kamu Binasına Kısa Pencereli Nakliye ve Teslimat",
+        giris:
+            "Kent içi bir iç mekân işinde nakliye, sanayi bölgesine yapılan bir sevkiyattan farklı bir mantıkla çalışır: hedef bir fabrika kapısı değil, dar bir cadde üzerindeki bir mağaza vitrinidir ve indirme noktası çoğu zaman aracın park edebileceği bir alandan onlarca metre uzakta kalır. Bu sayfa, ilimizdeki mağaza, otel ve kamu binası taleplerinde nakliyenin nasıl planlandığını — indirme noktası seçimi, kapanış sonrası dar pencereye göre saat kurgusu ve şehir içi trafik kısıtları — ele alır. Kırsal bir hat boyunca ilerleyen sevkiyat mantığı ya da sanayi bölgesinin planlı duruş takvimine bağlı toplu sevkiyat modeli bu sayfanın konusu değildir; burada tek bir mağaza kapısına, tek bir gece penceresine göre kurulan teslimat anlatılır.",
+        maddeler: [
+            {
+                baslik: "İndirme noktası kapı değil, en yakın uygun nokta",
+                metin:
+                    "Cadde üzerindeki bir mağazada araç genellikle kapının tam önüne yanaşamaz; kaldırım, yaya trafiği veya park yasağı indirme noktasını birkaç metre öteye iter. Bu yüzden talebi aldığımızda mağazanın önündeki cadde profilini (tek yön mü, indirme için ayrılmış bir alan var mı) sorarız; bu bilgi, aracın nereye yanaşacağını ve platformun kapıya kadar hangi kısa güzergâhla yürüyeceğini önceden belirler.",
+            },
+            {
+                baslik: "Kapanış sonrası pencereye göre saat kurgusu",
+                metin:
+                    "Şehir içi işlerde nakliye saati, işin kendisi kadar işletmenin kapanış saatine bağlıdır; araç işletme kapanmadan önce sahaya varıp beklemez, kapanış anına yakın bir saatte planlanır ki hem trafik hem de mağaza önündeki yaya yoğunluğu en aza insin. Kapanış saatinizi bildirdiğinizde nakliye programını buna göre geriye doğru kurarız.",
+            },
+            {
+                baslik: "Dar sokakta araç boyu kısıtı",
+                metin:
+                    "Tarihi merkez veya dar sokaklı mahallelerde büyük bir kamyonun manevra yapması güçtür; bu tip adreslerde daha küçük bir araçla taşıma tercih edilir, gerekirse platform araçtan indirilip son birkaç metre elle yürütülür. Adresinizin sokak genişliğini ve varsa bir manevra kısıtını (örneğin köşe dönüşü) önceden bilmek, doğru araç seçimini sağlar.",
+            },
+            {
+                baslik: "Kamu binasında yük rampası ve güvenlik kaydı",
+                metin:
+                    "Belediye veya üniversite gibi kamu binalarının çoğunda ayrı bir yük kabul rampası bulunur ve bu rampanın kullanımı bina yönetiminin onayına ve bazen güvenlik kaydına tabidir. Nakliye saatini belirlerken bina yönetiminin rampa kullanım kuralını önceden öğreniriz; bu, teslimat gününde beklenmedik bir bekleme yaşanmasını önler.",
+            },
+            {
+                baslik: "Kısa pencerede geri alımın zamanlaması",
+                metin:
+                    "İş bittiğinde platformun geri alımı da aynı dar pencerenin bir parçasıdır; işletmenin açılış saatine yetişecek şekilde makinenin gece bitmeden veya erken sabah çıkarılması gerekir. Bu yüzden geri alım saatini de teslimatla aynı anda planlarız, işin bitiş tahminine göre ayrı bir araç ayarlamayız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mekân tipine göre nakliye kısıtı",
+                paragraflar: [
+                    "Kent içindeki farklı mekân tiplerinde nakliyeyi zorlaştıran ana etken değişir; aşağıdaki tablo bu farkı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân", "Ana kısıt", "Çözüm", "Saat"],
+                    satirlar: [
+                        ["Cadde üzeri mağaza", "İndirme noktası kapıdan uzak", "Kısa elle taşıma", "Kapanışa yakın"],
+                        ["Tarihi merkez dükkânı", "Dar sokak", "Küçük araç", "Kapanış sonrası"],
+                        ["Otel", "Ana giriş estetiği", "Servis girişi", "Gece/sabah erken"],
+                        ["Kamu binası", "Rampa onayı", "Önceden bina yönetimi izni", "Mesai dışı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Servis girişinin tercih edilmesi",
+                paragraflar: [
+                    "Otel gibi misafir karşılama estetiğine önem veren mekânlarda, platform ve ekipman ana girişten değil, mutfak veya personel servis girişinden içeri alınır; bu, misafirlerin lobiye girerken bir bakım aracıyla karşılaşmasını önler.",
+                    "Servis girişinin ölçüsü ana giriş kadar geniş olmayabilir; bu yüzden servis girişi kullanılacaksa ölçüsünü ayrıca ölçer, gerekiyorsa daha kompakt bir platform sınıfı öneririz.",
+                ],
+            },
+            {
+                baslik: "Geri alımı işin bitişine değil pencereye göre planlamak",
+                paragraflar: [
+                    "Bazı işlerde iş beklenenden erken biter, bazılarında pencere sonuna kadar sürer; her iki durumda da geri alım aracının pencerenin sonunda hazır olması gerekir çünkü işletme sabah açılışında boş bir mağazayla karşılaşmalıdır.",
+                    "İş beklenenden erken biterse platform, geri alım aracını beklemek yerine mümkünse aynı gece içindeki başka bir adrese yönlendirilebilir; bu, filo kullanımını verimli kılar ve sizi de bekletmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mağazamızın önüne araç park edilemiyor, teslimat nasıl yapılıyor?",
+                cevap:
+                    "Cadde profilinizi (tek yön, park yasağı, en yakın uygun durak noktası) önceden öğrenip aracın en yakın uygun noktaya yanaşmasını, platformun oradan kapınıza kadar kısa bir mesafeyi kontrollü şekilde yürümesini planlarız. Bu güzergâh, kapı genişliği ve zemin tipiyle birlikte önceden değerlendirilir; teslimat günü doğaçlama yapılmaz.",
+            },
+            {
+                soru: "Otelimizin ana girişinden değil, arka taraftan mı gireceksiniz?",
+                cevap:
+                    "Tercihimiz genellikle servis veya personel girişidir, çünkü ana giriş misafir karşılama alanıdır ve bir bakım aracıyla paylaşılmasını önermeyiz. Servis girişinin ölçüsünü önceden kontrol eder, gerekirse daha kompakt bir platform sınıfı öneririz. Otelinizde servis girişi yoksa ana giriş için en sakin saati birlikte belirleriz.",
+            },
+            {
+                soru: "Dar bir sokaktayız, büyük kamyon giremeyebilir mi?",
+                cevap:
+                    "Evet, tarihi merkez gibi dar sokaklı bölgelerde büyük bir aracın manevrası zor olabilir; bu durumda daha küçük bir araç kullanır, gerekirse platformu son birkaç metre elle yürütürüz. Sokağınızın genişliğini ve varsa bir dönüş kısıtını (köşe, kavşak) bildirirseniz doğru aracı önceden seçeriz.",
+            },
+            {
+                soru: "Kamu binasının yük rampasını kullanmak için izin gerekiyor mu?",
+                cevap:
+                    "Çoğu kamu binasında evet; rampa kullanımı bina yönetiminin onayına ve bazen güvenlik kaydına tabidir. Nakliye saatini planlarken bu izni önceden bina yönetiminden alırız veya sizin almanızı isteriz; izin netleşmeden teslimat gününü kesinleştirmeyiz.",
+            },
+            {
+                soru: "İş erken bitti, platform hemen mi çıkarılıyor?",
+                cevap:
+                    "Mümkünse evet; geri alım aracını pencerenin sonuna göre planladığımız için erken biten bir işte platformu aynı gece başka bir adrese yönlendirebiliriz, bu da sizi bekletmeden filoyu verimli kullanmamızı sağlar. Erken bitiş ihtimali varsa bunu bize önceden belirtmeniz planlamayı kolaylaştırır.",
+            },
+            {
+                soru: "Sabah açılıştan önce alan tamamen boş mu olacak?",
+                cevap:
+                    "Evet, bu standart hedefimizdir; geri alım saatini işletmenizin açılış saatine göre geriye doğru kurarız ve platform, siz açılmadan önce sahadan tamamen çıkarılmış olur. Açılış saatinizi ve varsa esnek bir marj olup olmadığını bildirirseniz, geri alım saatini buna göre netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Şehir içi cadde/sokak yapısı ve kamu binası rampa uygulaması kamuya açık genel bilgidir; indirme noktası seçimi ve geri alım zamanlaması firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Mağaza Deposu ve Kamu Binası Arka Alanında Forklift ve İstifleme Desteği",
+        giris:
+            "Kent içi bir mağazanın veya kamu binasının forklift ihtiyacı, bir lojistik merkezininkinden çok farklı bir ölçekte gelir: raf sistemi kurulumu için birkaç palet malzemenin arka depoya indirilmesi, bir etkinlik öncesi masa-sandalye stoğunun taşınması, ya da bir tadilat sırasında yıkılan malzemenin toplanması gibi kısa ve tekil kalemlerdir. Bu sayfa, ilimizdeki mağaza ve kamu binası taleplerinde forklift ve istifleme desteğinin nasıl planlandığını — dar arka giriş, kısa çalışma süresi ve genellikle platform kiralamasıyla aynı ziyarete sığdırılan kapsam — ele alır; sanayi holünde sürekli çalışan bir forklift filosu veya kırsal bir hatta malzeme taşıma bu sayfanın konusu değildir.",
+        maddeler: [
+            {
+                baslik: "Arka giriş ölçüsü forkliftin sınıfını belirler",
+                metin:
+                    "Mağazaların çoğunda forklift, ana müşteri girişinden değil dar bir arka veya yan kapıdan içeri alınır; bu kapının genişliği standart bir forklift için çoğu zaman yetersizdir ve daha dar gövdeli, kısa dönüş yarıçaplı bir sınıf tercih edilir. Talebi aldığımızda arka girişin ölçüsünü ve zemin kot farkını (rampa mı, basamak mı) sorarız.",
+            },
+            {
+                baslik: "Kısa süreli tekil kalemler",
+                metin:
+                    "Kent içi bir forklift talebi genellikle bir-iki saati aşmaz — bir palet malzeme indirme, bir stok yerleştirme, bir etkinlik öncesi taşıma. Bu kısalık, mağaza veya kamu binasının kapanış sonrası dar penceresine kolayca sığar, ancak forkliftin ve platformun aynı adrese aynı gün gelmesi gerekiyorsa iki aracın sırası önceden planlanır.",
+            },
+            {
+                baslik: "Platform işiyle aynı ziyarette birleştirme",
+                metin:
+                    "Bir mağazanın hem tavan aydınlatması (platform) hem arka depo düzenlemesi (forklift) varsa, bu iki işi aynı gece penceresinde art arda planlamayı öneririz; makine ve forklift aynı sevkiyatla gelir, biri diğerini beklemeden kendi kalemine başlar. Bu, tek nakliye bedeliyle iki farklı ihtiyacı karşılar.",
+            },
+            {
+                baslik: "Hassas zeminde çatal izi riski",
+                metin:
+                    "Forkliftin tekerlekleri kadar çatalların da hassas bir zeminde iz bırakma riski vardır, özellikle palet indirirken zemine sürtme durumunda; bu yüzden hassas zeminli mağazalarda indirme noktasına koruyucu bir zemin örtüsü serilir ve çatal hareketleri yavaş, kontrollü yapılır.",
+            },
+            {
+                baslik: "Etkinlik öncesi toplu taşıma",
+                metin:
+                    "Kamu binalarında düzenlenen bir etkinlik öncesi, masa-sandalye veya sahne malzemesinin toplu taşınması sık talep edilen bir kalemdir; bu işler genellikle etkinlik gününden bir-iki gün önce, mesai dışı bir pencerede planlanır ki etkinlik günü alan tamamen hazır olsun.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kent içi forklift talebinde tipik kalem",
+                paragraflar: [
+                    "Mağaza ve kamu binası taleplerinde forklift ihtiyacı genellikle aşağıdaki kalemlerden birine denk gelir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Süre", "Zemin önlemi", "Pencere"],
+                    satirlar: [
+                        ["Palet malzeme indirme", "30-60 dk", "Koruyucu örtü", "Kapanış sonrası"],
+                        ["Arka depo yerleştirme", "1-2 saat", "Standart", "Kapanış sonrası"],
+                        ["Etkinlik öncesi taşıma", "1-2 saat", "Standart", "Etkinlik öncesi gece"],
+                        ["Tadilat malzeme toplama", "Değişken", "Koruyucu örtü", "Mesai dışı"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki aracın aynı ziyarette sırası",
+                paragraflar: [
+                    "Hem forklift hem platform gerektiren bir işte, önce forklift arka depoyu boşaltır veya malzemeyi yerleştirir, ardından platform tavan veya üst raf işine geçer; bu sıra, alanın önce açılıp sonra üst seviyede çalışılmasını sağlar ve iki aracın birbirinin güzergâhını kesmesini önler.",
+                    "Bazı işlerde sıra tersine çevrilir — örneğin üst raf boşaltılmadan forklift zemin işine başlayamıyorsa. Bu sırayı talebi aldığımızda işin kapsamına göre birlikte belirleriz.",
+                ],
+            },
+            {
+                baslik: "Etkinlik takviminde geriye doğru planlama",
+                paragraflar: [
+                    "Kamu binası etkinlikleri için taşıma talebini, etkinlik gününden değil kurumun hazırlık takviminden geriye doğru planlarız; malzemenin etkinlikten en az bir gün önce yerinde olması, son dakika bir aksaklığa karşı pay bırakır.",
+                    "Etkinlik tarihinizi ve hazırlık için ayırdığınız süreyi paylaşırsanız, taşıma gününü bu takvime göre önerdiğimiz bir tarihte netleştiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mağazamızın arka kapısı dar, forklift girer mi?",
+                cevap:
+                    "Kapı ölçüsüne bağlıdır; dar gövdeli, kısa dönüş yarıçaplı bir sınıf çoğu standart arka kapıdan geçebilir. Kapının genişliğini, varsa bir rampa veya basamağı bildirirseniz net bir değerlendirme yaparız. Gerçekten çok darsa, malzemeyi elle taşımaya uygun küçük parçalara bölmeyi veya alternatif bir giriş noktasını değerlendiririz.",
+            },
+            {
+                soru: "Hem forklift hem platform lazım, ikisini aynı gün mü getiriyorsunuz?",
+                cevap:
+                    "Evet, mümkünse ikisini aynı sevkiyatla ve aynı gece penceresinde art arda planlarız; bu hem nakliye bedelini tek kalemde toplar hem de işlerin sırası önceden netleştiği için zaman kaybını önler. İki kalemin de kapsamını ve tahmini sürelerini paylaşırsanız, sırayı ve toplam pencere ihtiyacını birlikte hesaplarız.",
+            },
+            {
+                soru: "Zeminimiz hassas, çatal iz bırakır mı?",
+                cevap:
+                    "Doğru hazırlıkla bırakmaz; hassas zeminli mağazalarda indirme noktasına koruyucu örtü seriyoruz ve çatal hareketlerini yavaş, kontrollü yapıyoruz. Zemininizin tipini ve varsa özel bir hassasiyeti önceden bildirirseniz, hazırlığı buna göre yaparız.",
+            },
+            {
+                soru: "Etkinlik öncesi taşımayı ne zaman planlamalıyız?",
+                cevap:
+                    "Etkinlik gününden en az bir gün önce, mesai dışı bir pencerede planlamanızı öneririz; bu, taşıma sırasında çıkabilecek küçük bir aksaklığa karşı pay bırakır ve etkinlik günü alanın tamamen hazır olmasını garanti eder. Etkinlik tarihinizi ve hazırlık süresi tercihinizi paylaşırsanız, uygun bir taşıma günü öneririz.",
+            },
+            {
+                soru: "Kısa bir iş için forklift kiralamak pahalı mı?",
+                cevap:
+                    "Tek başına kısa bir iş için nakliye bedeli iş süresine göre orantısız kalabilir; bu yüzden mümkünse aynı ziyarette platform veya başka bir kalemle birleştirmenizi öneririz. Kalem listenizi paylaşırsanız, tek sevkiyatla karşılanıp karşılanamayacağını değerlendiririz.",
+            },
+            {
+                soru: "Forklift operatörü ehliyeti olan personelimiz var, kendimiz kullanabilir miyiz?",
+                cevap:
+                    "Geçerli forklift ehliyetiniz ve makineye uygun yetkinlik belgeniz varsa bu değerlendirilebilir; kiralama koşulları ve sorumluluk çerçevesi bu durumda ayrıca netleştirilir. Operatörlü kiralamayı tercih ederseniz, operatörümüz mekânın zemin ve giriş kısıtlarına önceden hakim olarak sahaya gelir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Mağaza arka giriş ölçüleri ve kamu binası etkinlik hazırlığı kamuya açık genel bilgidir; forklift-platform birleşik ziyaret sırası firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Yüksek Tavanlı AVM ve Otel Lobisinde Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Bir AVM'nin iç avlusundaki cam tavan, bir otel lobisinin çok katlı açıklığı veya bir kamu binasının büyük salonundaki üst kat balkonu, düz bir kolun değil yandan ve yukarı doğru eğrilen bir kolun ulaşabileceği hedeflerdir; eklemli platformun (boom) buradaki rolü, zemindeki sabit engelleri (avize, banko, oturma grubu) aşarak hedefe köşeli bir rotayla ulaşmaktır. Bu sayfa, ilimizdeki büyük ölçekli kent içi mekânlarda eklemli platformun ne zaman standart makaslı platformdan tercih edildiğini, kol menzilinin nasıl hesaplandığını ve iç mekân versiyonunun akülü/egzozsuz özelliklerini ele alır; sanayi holünde hat üstü bakım veya kırsal bir direk-konsol işi bu sayfanın konusu değildir.",
+        maddeler: [
+            {
+                baslik: "Zemindeki engeli aşan eğri rota",
+                metin:
+                    "Makaslı platform yalnız dikey yükselir; hedefin tam altına park edilemiyorsa (bir avize, bir merdiven boşluğu, bir su öğesi varsa) işe yaramaz. Eklemli platformun kolu ise yukarı kalkarken aynı zamanda yana açılabilir, bu sayede zemindeki bir engelin birkaç metre ötesinden hedefe ulaşabilir. AVM iç avlularında bu özellik neredeyse her zaman gereklidir çünkü avlu tabanı genellikle boş değildir.",
+            },
+            {
+                baslik: "Kol menzilinin önceden hesaplanması",
+                metin:
+                    "Talebi aldığımızda hedefin yerden yüksekliğini, yatay uzaklığını ve varsa engelin boyutunu sorarız; bu üç ölçü, kolun hem dikey hem yatay erişiminin yeterli olup olmadığını gösterir. Menzil sınırdaysa daha büyük kapasiteli bir sınıfa geçilir; menzili aşan bir talep için ise farklı bir erişim noktası (örneğin üst kattan) değerlendirilir.",
+            },
+            {
+                baslik: "Kapalı hacimde akülü kol tahriki",
+                metin:
+                    "İç mekân işlerinde kullanılan eklemli platformlar elektrikli tahriklidir; bu, kapalı bir AVM veya lobide egzoz biriktirmeden çalışmayı mümkün kılar. Ancak elektrikli modellerin kol kapasitesi bazı dizel modellere göre sınırlı olabilir; bu yüzden çok büyük menzilli bir iç mekân talebinde önce elektrikli sınıfın yeterliliği kontrol edilir.",
+            },
+            {
+                baslik: "Cam tavan ve avize etrafında güvenli mesafe",
+                metin:
+                    "Cam tavanlı avlularda kolun cam yüzeye veya çelik taşıyıcıya değecek kadar yaklaşmaması için çalışma sınırı önceden belirlenir; avize gibi asılı elemanların etrafında da benzer bir güvenli mesafe bırakılır. Bu sınırlar, çalışma başlamadan önce operatörle birlikte gözle doğrulanır.",
+            },
+            {
+                baslik: "Gece programında kol açma-kapama süresi",
+                metin:
+                    "Eklemli platformun kurulumu ve sökümü, makaslı bir platforma göre biraz daha uzun sürebilir çünkü kolun güvenli açılma sırası izlenir; bu, kapanış sonrası dar bir pencerede toplam süreyi etkileyen bir faktördür ve program yaparken bu ek süre payına dahil edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hedef konumuna göre sınıf seçimi",
+                paragraflar: [
+                    "Hedefin zemine göre konumu, eklemli platformun mi yoksa makaslı platformun mu uygun olduğunu belirler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef konumu", "Zemin altı engel", "Uygun sınıf", "Tahrik"],
+                    satirlar: [
+                        ["Tam tavan, boş zemin", "Yok", "Makaslı", "Akülü"],
+                        ["Avize etrafı", "Var (avize kendisi)", "Eklemli, kısa kol", "Akülü"],
+                        ["İç avlu cam tavanı", "Su öğesi/oturma grubu", "Eklemli, uzun kol", "Akülü"],
+                        ["Üst kat balkon altı", "Balkon çıkıntısı", "Eklemli, yandan erişim", "Akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üç ölçünün birlikte doğrulanması",
+                paragraflar: [
+                    "Kol menzili hesaplanırken yalnız yükseklik değil, yatay uzaklık ve varsa engelin yüksekliği de birlikte değerlendirilir; bu üçü ayrı ayrı yeterli görünse bile birlikte kolun fiziksel çalışma zarfına (menzil diyagramına) sığmayabilir.",
+                    "Bu yüzden büyük ölçekli bir AVM veya otel talebinde, mümkünse mekânın kesit fotoğrafını veya en azından hedefin üç ölçüsünü isteriz; sahaya çıkmadan önce doğru sınıfı netleştirmek, gece penceresinde zaman kaybını önler.",
+                ],
+            },
+            {
+                baslik: "Kurulum süresinin pencereye etkisi",
+                paragraflar: [
+                    "Eklemli platformun güvenli açılma sırası, kolun her ekleminin kontrollü şekilde devreye girmesini gerektirir; bu, makaslı bir platforma göre birkaç dakika daha uzun bir kurulum süresi anlamına gelir.",
+                    "Dar bir gece penceresinde çalışılıyorsa bu ek süreyi baştan programa dahil ederiz; pencereniz özellikle kısaysa, mümkün olduğunda daha hızlı kurulan makaslı bir alternatifi de birlikte değerlendiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'nin iç avlusunda su öğesi var, platform oraya yaklaşabilir mi?",
+                cevap:
+                    "Eklemli platformun kolu, su öğesi gibi zemindeki bir engelin birkaç metre ötesinden hedefe yandan ulaşabilir; makine su öğesine yaklaştırılmaz, yalnızca kol o mesafeyi aşar. Avlunun düzenini ve hedefin su öğesine olan mesafesini paylaşırsanız, kolun yeterli olup olmadığını önceden hesaplarız.",
+            },
+            {
+                soru: "Lobimizin avizesi var, etrafında güvenle çalışabilir misiniz?",
+                cevap:
+                    "Evet, ancak avizenin etrafında önceden belirlenen bir güvenli mesafe bırakılır ve bu sınır operatörle birlikte çalışma başlamadan gözle doğrulanır. Avizenin boyutunu ve zeminden yüksekliğini bildirirseniz, kol rotasını buna göre planlarız.",
+            },
+            {
+                soru: "Dizel değil akülü kullanıyorsunuz, menzil yeterli olur mu?",
+                cevap:
+                    "Çoğu kent içi iç mekân talebinde elektrikli sınıfın menzili yeterlidir; menzil sınırda kalan büyük ölçekli işlerde daha büyük kapasiteli elektrikli bir sınıfa geçilir. Hedefin yükseklik ve yatay uzaklık ölçüsünü paylaşırsanız, elektrikli sınıfın yeterliliğini net söyleriz; dizel kapalı hacimde kullanılmaz.",
+            },
+            {
+                soru: "Kurulum ne kadar sürüyor, kısa pencerede yetişir mi?",
+                cevap:
+                    "Eklemli platformun kurulumu makaslıya göre birkaç dakika daha uzun sürer çünkü kolun her ekleminin güvenli sırayla açılması izlenir. Bu süreyi programınıza baştan dahil ederiz; penceresi özellikle kısa bir işte, mümkünse daha hızlı kurulan makaslı bir alternatifi de birlikte değerlendiririz.",
+            },
+            {
+                soru: "Hedefin ölçülerini nasıl paylaşmalıyız?",
+                cevap:
+                    "Yerden yükseklik, hedefin platformun park edeceği noktaya olan yatay uzaklığı ve varsa aradaki engelin boyutu yeterlidir; mümkünse mekânın kesit fotoğrafı bu üç ölçüyü daha net gösterir. Bu bilgiyle sahaya çıkmadan doğru sınıfı belirleriz.",
+            },
+            {
+                soru: "Üst kat balkonunun altındaki bir noktaya ulaşabilir misiniz?",
+                cevap:
+                    "Balkon çıkıntısı zemin altı engel gibi davranır ve kolun yandan erişimini gerektirir; bu genellikle mümkündür ama balkonun çıkıntı derinliği ve hedefin balkona olan mesafesi birlikte değerlendirilmelidir. Bu ölçüleri paylaşırsanız, kolun menzil diyagramına sığıp sığmadığını netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun kol geometrisi ve elektrikli tahrik özelliği genel ürün bilgisidir; üç ölçü doğrulama yöntemi ve kesit fotoğrafı talebi firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Mağaza, Otel ve Kamu Binası İç Mekânında Depo İçi Platform Kiralama Standardı",
+        giris:
+            "Bu sayfa, yukarıdaki bölge sayfalarında ilçe ilçe anlatılan iç mekân kuralının tek bir çatı altında toplanmış hâlidir: kapalı bir mağaza, otel veya kamu binasının içinde çalışan bir platformun uyması gereken üç sabit kural — egzozsuz akülü tahrik, zemine göre koruma önlemi ve kapanış sonrası ya da mesai dışı çalışma penceresi. İlimizdeki her kent içi talep, hangi ilçede veya hangi mekân tipinde olursa olsun bu üç kuraldan geçer; farklılaşan şey yalnızca zeminin cinsi (mermer, parke, seramik, ahşap), mekânın kullanım yoğunluğu ve bina yönetiminin onay süreci olur. Bu sayfa, standardı tek seferde ve ayrıntılı biçimde anlatır; sanayi holünün toz ve vinç trafiği kuralları veya kırsal bir hattın enerji kesme prosedürü burada anlatılmaz, o kurallar tamamen farklı bir kapsamdır.",
+        maddeler: [
+            {
+                baslik: "Egzozsuz kuralının istisnasızlığı",
+                metin:
+                    "Kapalı bir mağaza, otel odası katı veya kamu binası salonunda dizel ya da LPG'li bir makine kullanılmaz; bu kural, hacmin büyüklüğü veya havalandırma kapasitesi ne olursa olsun değişmez çünkü egzoz gazının kapalı hacimde birikmesi hız meselesi değil fizik meselesidir. Talebi aldığımızda ilk sorduğumuz şey hacmin tamamen kapalı mı yoksa yarı açık mı olduğudur.",
+            },
+            {
+                baslik: "Zemin cinsine göre değişen koruma seviyesi",
+                metin:
+                    "Standart seramik veya beton bir zeminde iz bırakmayan tekerlek genellikle yeterlidir; mermer, cilalı parke veya tarihi bir doku söz konusuysa buna ek olarak koruyucu örtü, dönüş noktalarında mat ve bazen yük dağıtıcı takoz kullanılır. Zemin cinsini önceden bilmek, hazırlığın doğru seviyede yapılmasını sağlar — az hazırlık risk taşır, gereksiz fazla hazırlık ise zaman kaybettirir.",
+            },
+            {
+                baslik: "Pencerenin mekân tipine göre farklılaşması",
+                metin:
+                    "AVM'de gece, otelde sabahın erken saati veya gece, kamu binasında mesai dışı, küçük bir mağazada kapanış sonrası bir-iki saat — pencere süresi ve saat aralığı mekân tipine göre değişir ama hepsinde ortak olan, müşteri veya ziyaretçi akışının en düşük olduğu zamana denk gelmesidir. Bu sayfa, bu farklılaşmanın genel mantığını anlatır; kesin saat, mekânın kendi işletme takvimine göre netleşir.",
+            },
+            {
+                baslik: "Bina yönetimiyle koordinasyonun standart adımları",
+                metin:
+                    "Büyük binalarda (AVM, kamu binası, çok katlı otel) ortak alan kullanımı bina yönetiminin onayına tabidir; bu onay süreci genellikle giriş saati bildirimi, bazen güvenlik kaydı ve nadiren bir refakatçi talebiyle sonuçlanır. Küçük bir dükkânda ise muhatap doğrudan işletme sahibidir ve süreç daha hızlı ilerler. Hangi tip olduğunuzu bildirdiğinizde süreci ona göre kurarız.",
+            },
+            {
+                baslik: "Sınırlı katlı yapıda erişim gerçeği",
+                metin:
+                    "Standart platform makineleri yalnızca zemin kat işlerinde kullanılır; üst kata çıkarma, yük asansörünün genişliği yeterli olsa bile ağırlık sınırı nedeniyle çoğu zaman mümkün değildir. Üst kat işlerinde o katın kendi bağımsız girişi olup olmadığı değerlendirilir; yoksa alternatif erişim yöntemleri konuşulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân standardının üç kuralı — tek tabloda",
+                paragraflar: [
+                    "Mekân tipi ne olursa olsun uygulanan üç kural aşağıdaki gibi özetlenebilir; bölge sayfalarındaki ayrıntılar bu çekirdek tablonun ilçeye göre uyarlanmış hâlidir.",
+                ],
+                tablo: {
+                    basliklar: ["Kural", "Neden", "Uygulama", "İstisna"],
+                    satirlar: [
+                        ["Egzozsuz akülü tahrik", "Kapalı hacimde emisyon birikimi", "Her iç mekân işinde standart", "Yok"],
+                        ["Zemine göre koruma", "Mermer/parke/ahşap hassasiyeti", "İz bırakmayan tekerlek + örtü", "Standart seramik/beton"],
+                        ["Kapanış sonrası/mesai dışı pencere", "Müşteri/ziyaretçi akışı", "Mekân tipine göre saat", "Acil dar pencerede sınırlı gündüz"],
+                        ["Bina yönetimi onayı", "Ortak alan kullanımı", "Büyük binalarda zorunlu", "Küçük bağımsız dükkân"],
+                    ],
+                },
+            },
+            {
+                baslik: "Standardın ilçe sayfalarıyla ilişkisi",
+                paragraflar: [
+                    "Yukarıdaki tablo, sitemizdeki her ilçe sayfasının (Tepebaşı, Odunpazarı, şehir merkezi, çevre ilçeler) altında yatan aynı üç kuraldır; ilçe sayfaları bu kuralı o bölgenin kendine özgü zemin dokusu, sevkiyat mesafesi veya kurum yapısıyla birleştirir.",
+                    "Talebiniz hangi ilçede olursa olsun, önce bu üç kuralı netleştirir, ardından o ilçeye özgü ek faktörleri (mesafe, bina yönetimi süreci) devreye sokarız.",
+                ],
+            },
+            {
+                baslik: "Standart dışı kalan işler",
+                paragraflar: [
+                    "Bu sayfa yalnızca kapalı, tavanlı iç mekân işlerini kapsar; bir binanın açık avlusu, çatısı veya dış cephesi farklı bir kural setine (dış mekân) tabidir ve bu sayfada anlatılmaz.",
+                    "Sanayi holü içindeki bir üretim hattı bakımı da farklı bir kapsamdır — orada toz, vinç trafiği ve saha güvenlik prosedürü öne çıkar; bu sayfa kent içi ticaret ve kamu hizmeti binalarına özgüdür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu sayfa ile ilçe sayfalarındaki iç mekân bilgisi arasındaki fark ne?",
+                cevap:
+                    "İlçe sayfaları (Tepebaşı, Odunpazarı, şehir merkezi ve diğerleri) aynı üç kuralı o bölgenin kendine özgü koşullarıyla (zemin dokusu, sevkiyat mesafesi, kurum yapısı) birleştirir; bu sayfa ise kuralın kendisini, ilçeden bağımsız olarak tek seferde anlatır. Hangi ilçede olursanız olun önce bu genel kuralı, sonra ilçenize özgü ek faktörleri birlikte değerlendiririz.",
+            },
+            {
+                soru: "Zeminimiz standart seramik, ekstra koruma gerekir mi?",
+                cevap:
+                    "Standart seramik veya beton zeminlerde genellikle iz bırakmayan tekerlek yeterlidir, ek bir koruma önlemi gerekmez. Mermer, cilalı parke veya tarihi bir doku söz konusuysa bu, koruyucu örtü ve bazen yük dağıtıcı takoz gerektiren daha yüksek bir koruma seviyesine geçer. Zemininizin tipini bildirirseniz doğru seviyeyi baştan uygularız.",
+            },
+            {
+                soru: "Büyük bir binadayız, bina yönetiminin onayı olmadan çalışabilir misiniz?",
+                cevap:
+                    "Ortak alan kullanımı (asansör, ana giriş, yük rampası) gerektiren büyük binalarda hayır, bina yönetiminin onayı standart bir adımdır. Küçük, bağımsız girişi olan bir dükkânda ise muhatap doğrudan işletme sahibidir ve bu adım gerekmez. Binanızın tipini bildirirseniz süreci ona göre başlatırız.",
+            },
+            {
+                soru: "Üst kattaki bir mağazada çalışabilir misiniz?",
+                cevap:
+                    "Standart platform makineleri yalnızca zemin kat işlerinde kullanılır; yük asansörünün genişliği yeterli olsa bile ağırlık sınırı nedeniyle üst kata çıkarma çoğu zaman mümkün değildir. Üst kattaki mağazanızın kendi bağımsız girişi varsa bunu değerlendiririz; yoksa alternatif erişim yöntemlerini konuşuruz.",
+            },
+            {
+                soru: "Gündüz çalışmak hiç mümkün değil mi?",
+                cevap:
+                    "Tamamen imkânsız değildir ama önermeyiz; müşteri veya ziyaretçi akışının olduğu saatte çalışma hem işi yavaşlatır hem güvenlik riski oluşturur. Gerçekten acil bir durumda, mekânın en sakin saatini belirleyip çalışma alanını basit bir bariyerle ayırarak sınırlı bir çalışma yapabiliriz. Standart tercihimiz her zaman kapanış sonrası veya mesai dışı pencerdir.",
+            },
+            {
+                soru: "Bu üç kural her zaman aynı mı uygulanıyor, yoksa esneklik var mı?",
+                cevap:
+                    "Egzozsuz kural istisnasızdır; zemin koruma seviyesi zeminin cinsine göre ayarlanır; pencere saati mekânın kendi işletme takvimine göre esner. Yani kuralların varlığı sabit, uygulama yoğunluğu mekâna göre değişir. Mekânınızın tipini ve zeminini bildirdiğinizde, bu üç kuralı size özgü şekilde netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kent içi iç mekân işlerinin üç temel kuralı (egzozsuz tahrik, zemin koruma, mesai dışı pencere) firma saha pratiğidir ve ilçe sayfalarındaki ayrıntıların ortak paydasıdır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Mağaza Tabela İskeleti ve Kamu Binası Dış Cephe Montajında Platform Desteği",
+        giris:
+            "Kent içi bir çelik konstrüksiyon işi, bir sanayi holünün çatı taşıyıcısından farklı bir ölçekte gelir: bir mağazanın tabela iskeleti, bir otoparkın gölgelik çerçevesi, bir kamu binasının dış cephe kaplama profili veya bir AVM girişinin kanopi taşıyıcısı gibi küçük ve genellikle görünür kalemlerdir. Bu sayfa, ilimizdeki kent içi işletme ve kamu binalarında bu ölçekteki çelik montaj işlerine platform desteğinin nasıl verildiğini ele alır; büyük bir sanayi holünün ana taşıyıcı montajı veya kırsal bir direk portalı işi bu sayfanın kapsamı dışındadır — o ölçekteki işler farklı bir ekipman ve süreç gerektirir.",
+        maddeler: [
+            {
+                baslik: "Tabela iskeleti montajında konum hassasiyeti",
+                metin:
+                    "Bir mağaza tabelasının çelik iskeleti, cadde görünürlüğüne göre milimetrik bir konuma yerleştirilir; platform, montaj ekibinin bu hassas konumlandırmayı yaparken sabit ve güvenli bir çalışma yüzeyi sağlar. İskeletin ağırlığı ve montaj yüksekliği önceden bilinerek uygun kapasiteli sınıf belirlenir.",
+            },
+            {
+                baslik: "Otopark gölgelik çerçevesinde açık alan çalışması",
+                metin:
+                    "Otopark gölgelik sistemlerinin çelik çerçeve montajı genellikle açık havada, ancak araç trafiğinin olduğu bir alanda yapılır; bu işlerde platform hem yükseklik sağlar hem de çalışma alanının araç trafiğinden geçici olarak ayrılmasını gerektirir. Otoparkın kullanım yoğunluğuna göre çalışma, düşük trafikli saatlere planlanır.",
+            },
+            {
+                baslik: "Dış cephe kaplama profilinde bina kullanımıyla uyum",
+                metin:
+                    "Kamu binası veya ofis binasının dış cephesine kaplama profili montajı yapılırken, bina içindeki kullanım devam ediyorsa platformun cephe önündeki konumu pencerelerin önünü uzun süre kapatmayacak şekilde planlanır; bu, bina içindeki çalışanların gün ışığından tamamen mahrum kalmasını önler.",
+            },
+            {
+                baslik: "AVM girişi kanopi taşıyıcısında müşteri güvenliği",
+                metin:
+                    "AVM ana girişindeki kanopi (üstü kapalı geçiş) taşıyıcısının montajı, müşteri giriş-çıkışının kesintisiz sürdüğü bir noktada yapılır; bu yüzden çalışma alanı geçici bariyerlerle ayrılır ve montaj, mümkünse müşteri yoğunluğunun düşük olduğu saatlere veya kapanış sonrasına planlanır.",
+            },
+            {
+                baslik: "Küçük ölçekli kalemde vinç yerine platform tercihi",
+                metin:
+                    "Bu ölçekteki çelik parçalar (tabela iskeleti, gölgelik çerçevesi gibi) genellikle bir vinç gerektirecek kadar ağır değildir; platform, hem yükseltme hem sabit çalışma yüzeyi sağlayarak vinç-platform ikilisine göre daha hızlı ve ekonomik bir kurulum sunar. Parça ağırlığı vinç gerektirecek düzeye çıkarsa bu, talebi aldığımızda ayrıca değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kent içi çelik montaj kalemine göre yaklaşım",
+                paragraflar: [
+                    "Kent içindeki çelik konstrüksiyon kalemleri, ölçeğine göre aşağıdaki gibi farklı bir yaklaşım gerektirir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Tipik ağırlık", "Ekipman", "Pencere"],
+                    satirlar: [
+                        ["Tabela iskeleti", "Hafif-orta", "Platform", "Kapanış sonrası"],
+                        ["Otopark gölgelik çerçevesi", "Orta", "Platform + geçici bariyer", "Düşük trafik saati"],
+                        ["Dış cephe kaplama profili", "Hafif", "Platform", "Mesai dışı tercih"],
+                        ["AVM giriş kanopi taşıyıcısı", "Orta-ağır", "Platform (vinç gerekebilir)", "Müşteri dışı saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Parça ağırlığının ekipman kararına etkisi",
+                paragraflar: [
+                    "Bu ölçekteki çoğu çelik parça platformun kendi kapasitesiyle konumlandırılabilir, ancak bazı kanopi veya büyük gölgelik taşıyıcıları vinç yardımı gerektirebilir; bu durumda platform montaj ekibini yükseğe taşırken, vinç parçayı yerine indirir ve ikisi ardışık çalışır.",
+                    "Parçanın ağırlığını ve boyutunu talebi aldığımızda sorarız; vinç ihtiyacı varsa bunu önceden netleştirir, teklife dahil ederiz.",
+                ],
+            },
+            {
+                baslik: "Görünür alanda çalışmanın estetik boyutu",
+                paragraflar: [
+                    "Tabela, kanopi ve cephe gibi kalemler binanın görünen yüzüdür; bu yüzden çalışma alanı düzenli tutulur, malzeme ve alet dağınık bırakılmaz, gün sonunda alan temizlenir.",
+                    "Müşteri veya ziyaretçi akışının olduğu bir noktada çalışılıyorsa, geçici bariyer ve yönlendirme levhalarıyla alan görsel olarak da düzenli bir izlenim bırakacak şekilde ayrılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mağazamızın tabela iskeletini monte edeceksiniz, hangi ölçüler gerekiyor?",
+                cevap:
+                    "İskeletin ağırlığı, montaj yüksekliği ve cepheye olan yatay uzaklığı gerekir; bu üç bilgiyle uygun kapasiteli platform sınıfını belirleriz. Tabelanızın teknik çizimi veya en azından bu üç ölçü varsa paylaşmanız, doğru ekipmanla sahaya gelmemizi sağlar.",
+            },
+            {
+                soru: "Otoparkımızda araç trafiği var, çalışma alanını nasıl güvenli hâle getiriyorsunuz?",
+                cevap:
+                    "Çalışma alanını geçici bariyerlerle araç trafiğinden ayırır ve mümkünse montajı otoparkın düşük kullanım yoğunluğuna denk getiririz. Otoparkınızın en sakin saatlerini bildirirseniz, programı ona göre kurarız; tamamen kapatma gerekiyorsa bunu önceden sizinle netleştiririz.",
+            },
+            {
+                soru: "Bina cephesine profil monte ederken içerideki çalışanları etkiler mi?",
+                cevap:
+                    "Platformun cephe önündeki konumunu, pencerelerin önünü uzun süre kapatmayacak şekilde planlarız ve mümkünse bölüm bölüm ilerleriz; bu, içerideki çalışanların gün ışığından uzun süre mahrum kalmasını önler. Binanızın kat planını ve çalışma saatlerini bildirirseniz, sırayı buna göre kurarız.",
+            },
+            {
+                soru: "AVM girişimizin kanopi taşıyıcısı için vinç de mi gerekiyor?",
+                cevap:
+                    "Bu, taşıyıcının ağırlığına bağlıdır; birçok kanopi taşıyıcısı platformun kendi kapasitesiyle konumlandırılabilir, ancak büyük ve ağır taşıyıcılarda platform montaj ekibini yükseğe taşırken vinç parçayı indirir. Taşıyıcının ağırlık ve boyut bilgisini paylaşırsanız, vinç ihtiyacını önceden netleştirir teklife dahil ederiz.",
+            },
+            {
+                soru: "Gündüz mü gece mi çalışıyorsunuz?",
+                cevap:
+                    "Mümkünse müşteri veya ziyaretçi yoğunluğunun düşük olduğu saatlere, hatta kapanış sonrasına planlarız; bu hem güvenlik hem de görsel düzen açısından tercih ettiğimiz yaklaşımdır. Bazı dış cephe işlerinde gündüz çalışma da mümkündür, bu durumda çalışma alanı bariyerle ayrılır. Mekânınızın kısıtlarını bildirirseniz en uygun saati birlikte belirleriz.",
+            },
+            {
+                soru: "İş bitince alan temiz teslim ediliyor mu?",
+                cevap:
+                    "Evet, özellikle görünür alanlarda (tabela, kanopi, cephe) çalışma sonunda malzeme ve alet toplanır, alan temizlenir ve varsa geçici bariyerler kaldırılır. Bu, binanın görünen yüzünde çalıştığımız için standart bir uygulamamızdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kent içi tabela/gölgelik/kanopi ölçeğindeki çelik montaj işleri kamuya açık genel bilgidir; platform-vinç ardışık kullanım kararı ve görünür alan temizlik standardı firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Kent İçi Kurumların Tarım ve Kooperatif İdari Binalarında İç Mekân Platformu",
+        giris:
+            "Bu domainin odağı kent içi mağaza, otel ve kamu binası iç mekânı olduğu için, tarım ve silo sahasının kendi teknik ihtiyaçlarını (silo dış yapısı, tahıl transfer hattı, açık saha aydınlatması) burada ele almıyoruz — bu kapsam, filomuzun kırsal hat ve enerji altyapısına odaklanan başka bir hizmet hattına aittir. Ancak Eskişehir çevresindeki tarımsal kooperatiflerin ve gıda işletmelerinin idari bina, ofis ve toplantı salonu kısımları, tıpkı bir şehir merkezi ofisi gibi kent içi iç mekân kurallarına tabidir; bu sayfa yalnızca bu sınırlı ve dürüst kapsamı — kooperatif ve tarım işletmesi idari binalarının iç mekân hizmetini — ele alır.",
+        maddeler: [
+            {
+                baslik: "İdari bina, üretim alanından ayrı bir hizmet rejimidir",
+                metin:
+                    "Bir tarımsal kooperatifin veya gıda işletmesinin idari binası, aynı tesisin depo veya işleme alanından tamamen farklı bir kural setine tabidir: idari binada standart bir ofis zemini, standart bir mesai saati ve standart bir iç mekân disiplini geçerlidir. Üretim veya depolama alanındaki toz, açık saha ve ekipman komşuluğu gibi konular bu sayfanın kapsamı dışındadır.",
+            },
+            {
+                baslik: "Kooperatif ofisinde standart kalem",
+                metin:
+                    "Kooperatif ofislerinde en sık talep edilen kalemler tavan aydınlatması, toplantı salonu projeksiyon/perde sistemi montajı ve klima kanal bakımıdır; bu kalemler bir şehir merkezi ofisindeki taleplerden içerik olarak farklı değildir, yalnızca konum kırsala daha yakındır.",
+            },
+            {
+                baslik: "Standart zeminde sınırlı önlem",
+                metin:
+                    "Bu tip idari binaların zemini genellikle standart seramik veya betondur, mermer veya hassas ahşap gibi özel koruma gerektiren yüzeyler nadir görülür; bu yüzden zemin koruma önlemi çoğunlukla iz bırakmayan tekerlekle sınırlı kalır, ek bir koruyucu örtü gerekmez.",
+            },
+            {
+                baslik: "Mesai dışı tercih, esneklik payı",
+                metin:
+                    "Kooperatif ve idari binalarda mesai saati genellikle standart bir ofis mesaisidir; çalışma mesai dışına planlanır ama bu binalarda müşteri akışı bir mağazaya göre çok daha düşük olduğundan, bazı durumlarda mesainin sakin bir diliminde de sınırlı çalışma yapılabilir.",
+            },
+            {
+                baslik: "Silo veya açık saha talebi için doğru yönlendirme",
+                metin:
+                    "Talebiniz idari bina değil de silo yapısı, tahıl transfer noktası veya açık sahadaki bir aydınlatma/bakım işiyse, bu bizim kent içi iç mekân hizmetimizin değil bölgedeki kırsal hat ve açık saha odaklı hizmetin kapsamına girer; böyle bir talep geldiğinde bunu dürüstçe belirtir, doğru kapsamda değerlendirilmesi için yönlendiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapsam içi ve kapsam dışı ayrımı",
+                paragraflar: [
+                    "Bu hizmetin sınırlarını netleştirmek için kapsam içi ve dışı kalemler aşağıda ayrılmıştır.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Kapsam", "Zemin", "Pencere"],
+                    satirlar: [
+                        ["Kooperatif idari ofisi", "Kapsam içi", "Standart seramik/beton", "Mesai dışı"],
+                        ["Toplantı salonu", "Kapsam içi", "Standart", "Mesai dışı/sakin dilim"],
+                        ["Silo dış yapısı", "Kapsam dışı", "—", "—"],
+                        ["Açık saha aydınlatması", "Kapsam dışı", "—", "—"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden kapsamı dar tutuyoruz",
+                paragraflar: [
+                    "Silo ve açık tarım sahası işleri, farklı bir ekipman seçimi (dış mekân uyumlu, egzozlu olabilen), farklı zemin koşulları (toprak, çakıl) ve farklı bir güvenlik yaklaşımı gerektirir; bu bilgi ve deneyim, kent içi mağaza-otel-kamu binası odaklı bu hizmet hattının konusu değildir.",
+                    "Doğru olmayan bir kapsamda hizmet önermek yerine, idari-ofis kısmını burada karşılar, saha ve silo ihtiyacınızı bölgedeki ilgili hizmetimize yönlendiririz; bu ayrım hem sizin için hem bizim için daha net bir sonuç verir.",
+                ],
+            },
+            {
+                baslik: "İdari binada birden fazla kalemi birleştirmek",
+                paragraflar: [
+                    "Kooperatif idari binasında birden fazla küçük kalem varsa (birkaç oda aydınlatması, bir toplantı salonu işi), bunları tek bir ziyarette toplamayı öneririz; bu, tek bir kısa kalem için ayrı ayrı sevkiyat planlamaktan daha ekonomiktir.",
+                    "Kalem listenizi paylaşırsanız, tek ziyarette karşılanıp karşılanamayacağını değerlendirir, en uygun günü öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo yapımızın dış aydınlatması için de hizmet veriyor musunuz?",
+                cevap:
+                    "Hayır, bu sayfa yalnızca idari bina ve ofis kısmını kapsar; silo dış yapısı ve açık saha aydınlatması farklı bir ekipman ve deneyim gerektirir ve bizim kent içi hizmet hattımızın kapsamı dışındadır. Böyle bir talebiniz varsa dürüstçe belirtir, bölgedeki ilgili hizmete yönlendiririz.",
+            },
+            {
+                soru: "Kooperatif ofisimizin toplantı salonunda projeksiyon sistemi kuracağız, platform gerekir mi?",
+                cevap:
+                    "Genellikle evet, tavan montajlı projeksiyon veya perde sistemi kurulumunda kompakt bir platform işi hızlandırır. Salon boyutunu ve tavan yüksekliğini bildirirseniz uygun sınıfı öneririz; zemin standart olduğu için ek bir koruma önlemi genellikle gerekmez.",
+            },
+            {
+                soru: "İdari binamızın zemini standart, özel bir hazırlık gerekiyor mu?",
+                cevap:
+                    "Hayır, standart seramik veya beton zeminlerde iz bırakmayan tekerlek yeterlidir; mermer veya hassas ahşap gibi özel koruma gerektiren bir yüzeyiniz yoksa ek bir hazırlık gerekmez. Zemininizde farklı bir durum varsa bildirin, gerekirse ek önlem alırız.",
+            },
+            {
+                soru: "Mesai saatinde sınırlı bir çalışma yapabilir misiniz?",
+                cevap:
+                    "İdari binalarda müşteri akışı bir mağazaya göre düşük olduğundan, mesainin sakin bir diliminde sınırlı bir çalışma bazen mümkündür. Ancak mesai dışı tercih ettiğimiz standart yaklaşımdır; işinizin aciliyetini ve mesainizin sakin saatini bildirirseniz, gündüz sınırlı çalışmanın uygun olup olmadığını değerlendiririz.",
+            },
+            {
+                soru: "Hem ofisimizde hem depomuzda işimiz var, ikisini birden mi değerlendiriyorsunuz?",
+                cevap:
+                    "İdari ofis kısmını kent içi iç mekân kurallarıyla değerlendiririz; depo veya üretim alanı farklı bir kural setine (açık saha, toz, ekipman komşuluğu) tabi olabilir ve bu kısım için bölgedeki ilgili hizmete yönlendirme yapabiliriz. İki alanı da bize bildirirseniz, hangisinin bizim kapsamımızda hangisinin farklı bir hizmette olduğunu netleştiririz.",
+            },
+            {
+                soru: "Küçük bir kooperatif ofisiyiz, tek bir armatür işi için gelir misiniz?",
+                cevap:
+                    "Geliriz; ancak tek başına küçük bir iş için sevkiyat bedeli iş süresine göre orantısız kalabilir. Mümkünse ofisinizdeki diğer küçük kalemleri de aynı listeye toplayıp tek ziyarette tamamlamanızı öneririz; bu, toplam maliyeti belirgin düşürür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tarımsal kooperatif ve gıda işletmelerinin idari bina yapısı kamuya açık genel bilgidir. Bu sayfa bilinçli olarak dar kapsamlıdır — silo ve açık saha bilgisi uydurulmamış, kapsam dışı bırakılmıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Mağaza Tabelası, Otopark ve Bina Dış Cephe Aydınlatma Bakımı için Platform Kiralama",
+        giris:
+            "Bu sayfadaki aydınlatma bakımı, bir enerji nakil hattındaki direk üstü işten farklı bir dünyadır: bir mağazanın tabela ışığı, bir otelin dış cephe vurgu aydınlatması, bir otoparkın direkleri veya bir kamu binasının bahçe aydınlatması gibi ticari ve kurumsal binaların kendi düşük gerilim aydınlatma sistemleridir. Bu sayfa, ilimizdeki kent içi işletme ve kamu binalarında bu tip aydınlatma-bakım işlerine platform desteğinin nasıl verildiğini ele alır; enerji dağıtım şirketinin orta/yüksek gerilim hattı veya kırsal bir aydınlatma direği bu sayfanın kapsamı dışındadır — o işler farklı bir güvenlik prosedürü ve ekipman seti gerektirir.",
+        maddeler: [
+            {
+                baslik: "Tabela aydınlatmasında elektrik kesme önceliği",
+                metin:
+                    "Bir mağaza veya işletme tabelasının içindeki aydınlatma armatürüne müdahale edilmeden önce, tabelanın elektrik beslemesi işletme personeli veya yetkili elektrikçi tarafından kesilir; platform ekibi panoda müdahale yetkisi almaz, yalnızca kesilmiş devrede güvenli çalışma yüzeyi sağlar.",
+            },
+            {
+                baslik: "Otopark direklerinde araç trafiğiyle eş zamanlı çalışma",
+                metin:
+                    "Otopark aydınlatma direklerinin bakımı, araç giriş-çıkışının sürdüğü bir alanda yapılır; bu yüzden çalışma alanı geçici bariyerle ayrılır ve mümkünse otoparkın düşük doluluk saatine planlanır. Aydınlatma direklerinin sayısı fazlaysa, birkaç direk tek ziyarette sırayla tamamlanır.",
+            },
+            {
+                baslik: "Otel dış cephe vurgu aydınlatmasında estetik hassasiyet",
+                metin:
+                    "Otellerin dış cephe vurgu aydınlatması genellikle akşam saatlerinde görsel bir işlev de üstlenir; bu armatürlerin bakımı, otelin akşam görünümünü etkilememesi için mümkünse gündüz veya sabahın erken saatinde, misafirlerin cepheyi en az fark ettiği zamanda yapılır.",
+            },
+            {
+                baslik: "Kamu binası bahçe aydınlatmasında açık alan çalışması",
+                metin:
+                    "Kamu binalarının bahçe veya çevre aydınlatması, bina içi bir iç mekân işi olmasa da yine kent içi bir alanda ve genellikle ziyaretçi/personel erişiminin sürdüğü bir bahçede yapılır; çalışma alanı basit bir bariyerle ayrılır ve mesai dışı bir pencere tercih edilir.",
+            },
+            {
+                baslik: "Toplu armatür değişiminde rota planlaması",
+                metin:
+                    "Bir binanın tüm dış cephe veya otopark armatürlerinin toplu değişimi gerekiyorsa, platform tek bir ziyarette bina çevresinde bir rota izleyerek her armatürü sırayla değiştirir; bu rota, en az geri dönüşle en çok armatürü kapsayacak şekilde önceden planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma kalemine göre yaklaşım",
+                paragraflar: [
+                    "Kent içi aydınlatma bakımı kalemleri, konuma göre farklı bir çalışma yaklaşımı gerektirir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Elektrik kesme", "Pencere", "Ek önlem"],
+                    satirlar: [
+                        ["Mağaza tabela ışığı", "İşletme/elektrikçi tarafından", "Kapanış sonrası", "—"],
+                        ["Otopark direği", "Bina elektrik yetkilisi", "Düşük doluluk saati", "Geçici bariyer"],
+                        ["Otel dış cephe vurgu ışığı", "Bina elektrik yetkilisi", "Gündüz/sabah erken", "Estetik hassasiyet"],
+                        ["Kamu binası bahçe aydınlatması", "Bina elektrik yetkilisi", "Mesai dışı", "Bariyer"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik yetkisinin net ayrımı",
+                paragraflar: [
+                    "Platform ekibi hiçbir zaman elektrik panosunda kesme-açma işlemi yapmaz; bu işlem her zaman işletmenin kendi elektrikçisi veya bina yönetiminin yetkili personeli tarafından yürütülür. Bizim rolümüz, kesilmiş bir devrede armatüre güvenli erişim sağlamaktır.",
+                    "Bu net ayrım, hem güvenlik açısından hem de sorumluluk paylaşımı açısından baştan netleştirilir; talebi aldığımızda binanızın elektrik yetkilisiyle bu koordinasyonu nasıl kuracağımızı sorarız.",
+                ],
+            },
+            {
+                baslik: "Toplu değişimde rota mantığı",
+                paragraflar: [
+                    "Birden fazla armatürün değişeceği bir işte, platformu bina çevresinde tek yönde ilerleyen bir rotaya sokarız; bu, aynı noktaya iki kez dönmeyi önler ve toplam çalışma süresini kısaltır.",
+                    "Armatür sayısı ve konumlarını (kroki veya fotoğraf) paylaşırsanız, rotayı önceden çizer, tahmini süreyi netleştiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tabela ışığımızın elektriğini siz mi kesiyorsunuz?",
+                cevap:
+                    "Hayır, elektrik kesme işlemini işletmenizin kendi personeli veya yetkili elektrikçisi yapar; platform ekibimiz panoda müdahale yetkisi almaz. Biz yalnızca kesilmiş devrede armatüre güvenli erişim sağlarız. Elektrik yetkilinizin çalışma saatinde hazır bulunmasını önceden koordine ederiz.",
+            },
+            {
+                soru: "Otoparkımızda araç trafiği hiç durmuyor, direk bakımı nasıl yapılıyor?",
+                cevap:
+                    "Çalışma alanını geçici bariyerle araç trafiğinden ayırır ve mümkünse otoparkın düşük doluluk saatine planlarız. Otoparkınızın en sakin saatlerini bildirirseniz programı ona göre kurarız; tamamen kapatma gerekiyorsa bunu önceden sizinle netleştiririz.",
+            },
+            {
+                soru: "Otelimizin cephe aydınlatmasını gece mi değiştiriyorsunuz?",
+                cevap:
+                    "Genellikle hayır; dış cephe vurgu aydınlatması akşam saatlerinde görsel bir işlev üstlendiği için bakımı mümkünse gündüz veya sabahın erken saatinde yaparız, bu otelinizin akşam görünümünü etkilemez. Otelinizin tercih ettiği saati bildirirseniz programı ona göre kurarız.",
+            },
+            {
+                soru: "Kamu binamızın bahçe aydınlatmasında kaç armatür varsa hepsini tek seferde mi yapıyorsunuz?",
+                cevap:
+                    "Mümkünse evet; armatür sayısı ve konumlarını bildirirseniz, bina çevresinde tek yönde ilerleyen bir rota planlarız ve hepsini tek ziyarette tamamlarız. Bu, hem süreyi kısaltır hem tekrar eden sevkiyat maliyetini önler.",
+            },
+            {
+                soru: "Enerji dağıtım şirketinin hattındaki bir direk için de hizmet veriyor musunuz?",
+                cevap:
+                    "Hayır, orta veya yüksek gerilim enerji nakil hattı farklı bir güvenlik prosedürü ve ekipman gerektirir; bu, bizim kent içi düşük gerilim aydınlatma bakım hizmetimizin kapsamı dışındadır. Böyle bir talebiniz varsa, bunu dürüstçe belirtir, ilgili kapsamdaki hizmete yönlendiririz.",
+            },
+            {
+                soru: "Armatür değişimi için malzemeyi siz mi getiriyorsunuz?",
+                cevap:
+                    "Genellikle malzeme (armatür, ampul, bağlantı parçası) işletme tarafından temin edilir ve çalışma saatinden önce sahada hazır bulunur; bu, kısa pencerede zaman kaybını önler. Malzeme temininde destek isterseniz bunu da ayrıca konuşabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kent içi düşük gerilim aydınlatma sistemleri (tabela, otopark, cephe, bahçe) kamuya açık genel bilgidir; elektrik yetkisi ayrımı ve toplu değişim rota mantığı firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Mağaza ve Kamu Binasında Operatörlü Platform Kiralama: Refakat ve Kimlik Süreci",
+        giris:
+            "Kent içi bir mağaza, otel veya kamu binasında operatörlü platform kiralamak, sanayi bölgesindeki bir tesisten farklı bir onay dünyasına girmektir: burada iş izni ve saha güvenlik belgesi yerine, bina yönetiminin kimlik kontrolü, bazen bir refakatçi talebi ve güvenlik kamerası kaydı öne çıkar. Bu sayfa, ilimizdeki kent içi işlerde operatörlü kiralamanın nasıl işlediğini — operatörün kimlik ve yetkinlik belgesi, bina güvenlik protokolüyle koordinasyon, kısa pencerede operatörün tek başına karar alma yetkisi — ele alır; sanayi tesisinin kendi iş izni sistemine tabi operatörlü çalışma farklı bir süreç izler ve burada anlatılmaz.",
+        maddeler: [
+            {
+                baslik: "Operatörün kimlik ve yetkinlik belgesi",
+                metin:
+                    "Operatörlü kiralamada, operatörün platform kullanım yetkinlik belgesi ve kimliği talep anında bildirilir; banka şubesi veya kamu binası gibi güvenlik seviyesi yüksek mekânlarda bu bilgi önceden bina güvenliğine iletilir ki sahada beklenmedik bir kimlik kontrolü süreci yaşanmasın.",
+            },
+            {
+                baslik: "Banka şubesinde ek güvenlik protokolü",
+                metin:
+                    "Banka şubeleri gibi mekânlarda operatör girişi, şube güvenlik protokolüne (kimlik kontrolü, güvenlik kamerası kaydı, bazen şube müdürü onayı) tabi olabilir; bu adımları teklif aşamasında netleştiririz ki kapanış sonrası kısa pencerede zaman kaybı yaşanmasın.",
+            },
+            {
+                baslik: "Kamu binasında refakatçi uygulaması",
+                metin:
+                    "Bazı kamu binalarında operatörün çalışma boyunca bir görevli tarafından refakat edilmesi istenir; bu, hem güvenlik hem koordinasyon açısından bina yönetiminin tercih ettiği bir uygulamadır. Refakat gereksinimi kurumdan kuruma değişir; talebinizi aldığımızda bu detayı netleştiririz.",
+            },
+            {
+                baslik: "Kısa pencerede operatörün tek başına karar yetkisi",
+                metin:
+                    "Kapanış sonrası dar bir pencerede operatör, zemin koşulunu, güzergâhı ve çalışma sırasını sahada kendi değerlendirmesiyle ayarlayabilir; bu, her küçük kararın merkeze sorulmasını beklemeden işin akıcı ilerlemesini sağlar. Kritik bir değişiklik (örneğin planlanan kalemin yapılamayacağının anlaşılması) durumunda işletme yetkilisiyle anında iletişime geçilir.",
+            },
+            {
+                baslik: "Operatörsüz seçeneğin kent içi işlerde sınırlı kullanımı",
+                metin:
+                    "Kent içi iç mekân işlerinde operatörsüz (yalnızca makine) kiralama nadiren tercih edilir çünkü zemin koruma ve dar güzergâh gibi hassasiyetler, deneyimli bir operatörün sahada anlık karar vermesini gerektirir; operatörsüz seçenek genellikle yalnızca işletmenin kendi eğitimli personeli varsa ve basit, düşük riskli bir kalem söz konusuysa değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mekân tipine göre operatör süreci",
+                paragraflar: [
+                    "Kent içi farklı mekân tiplerinde operatör girişi için gereken süreç değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân", "Gerekli belge", "Ek süreç", "Refakat"],
+                    satirlar: [
+                        ["Mağaza", "Kimlik + yetkinlik belgesi", "Yok", "Genellikle gerekmez"],
+                        ["Banka şubesi", "Kimlik + yetkinlik belgesi", "Güvenlik protokolü", "Bazen şube müdürü onayı"],
+                        ["Otel", "Kimlik + yetkinlik belgesi", "Resepsiyon bilgilendirmesi", "Genellikle gerekmez"],
+                        ["Kamu binası", "Kimlik + yetkinlik belgesi", "Bina yönetimi onayı", "Sık uygulanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Belgeleri önceden iletmenin faydası",
+                paragraflar: [
+                    "Operatörün kimlik ve yetkinlik belgesini talep aşamasında sizinle paylaşırız; siz de bunu bina güvenliğine veya ilgili birime önceden iletebilirsiniz. Bu, çalışma günü sahada beklenmedik bir kimlik kontrolü sürecinin pencereyi tüketmesini önler.",
+                    "Özellikle banka şubesi ve kamu binası gibi yüksek güvenlikli mekânlarda bu ön iletişim adımını atlamamanızı öneririz; süreç genellikle birkaç gün önceden başlatıldığında sorunsuz ilerler.",
+                ],
+            },
+            {
+                baslik: "Refakatçinin rolü",
+                paragraflar: [
+                    "Refakatçi, operatörün çalışma alanına erişimini yönlendiren ve bina içi kuralları hatırlatan bir görevlidir; teknik bir müdahalede bulunmaz, operatörün işine karışmaz.",
+                    "Refakatçi ihtiyacı olan kurumlarda bu görevlinin çalışma boyunca hazır bulunması, kapanış sonrası dar pencerenin sorunsuz ilerlemesi için önemlidir; refakatçi geç gelirse pencere kısalır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörün kimlik bilgisini ne zaman bildirmeniz gerekiyor?",
+                cevap:
+                    "Talep aşamasında operatörün kimlik ve yetkinlik belgesini sizinle paylaşırız; siz de bunu bina güvenliğine veya ilgili birime önceden iletebilirsiniz. Özellikle banka şubesi ve kamu binası gibi mekânlarda bu adımı çalışma gününden birkaç gün önce tamamlamanızı öneririz.",
+            },
+            {
+                soru: "Banka şubemizde çalışacaksınız, ek bir onay gerekiyor mu?",
+                cevap:
+                    "Çoğu şubede evet; operatör kimlik bilgisi, bazen güvenlik kamerası kaydı ve bazen şube müdürünün onayı istenir. Bu bilgileri teklif aşamasında sizden ve şubenizin güvenlik biriminden alıp önceden netleştiririz; böylece kapanış sonrası kısa pencerede güvenlik kontrolüyle zaman kaybetmezsiniz.",
+            },
+            {
+                soru: "Kamu binamızda bir görevlinin bizimle olması mı gerekiyor?",
+                cevap:
+                    "Çoğu kamu binasında evet, bu standart bir uygulamadır; bina yönetimi genellikle çalışma boyunca bir görevlinin refakat etmesini ister. Refakat gereksinimi kurumdan kuruma değişebilir; talebinizi aldığımızda bina yönetimiyle bu detayı netleştirir, çalışma saatini ve refakat düzenini önceden planlarız.",
+            },
+            {
+                soru: "Kısa pencerede operatör her kararı bize mi soruyor?",
+                cevap:
+                    "Hayır, günlük ve teknik kararları (zemin koşulu, güzergâh, çalışma sırası) operatör sahada kendisi verir; bu, dar pencerede işin akıcı ilerlemesini sağlar. Planlanan kalemi etkileyecek kritik bir durumda ise işletme yetkilinizle anında iletişime geçilir, tek taraflı bir değişiklik yapılmaz.",
+            },
+            {
+                soru: "Kendi personelimizle operatörsüz kiralayabilir miyiz?",
+                cevap:
+                    "Personelinizin geçerli bir platform kullanım eğitimi ve belgesi varsa, düşük riskli ve basit kalemlerde bu değerlendirilebilir; ancak kent içi işlerde zemin koruma ve dar güzergâh gibi hassasiyetler nedeniyle operatörlü kiralamayı öneririz. Personelinizin belge durumunu ve işin kapsamını paylaşırsanız net bir değerlendirme yaparız.",
+            },
+            {
+                soru: "Refakatçi geç kalırsa ne oluyor?",
+                cevap:
+                    "Refakatçi gerektiren bir kurumda, refakatçi hazır olmadan çalışma başlamaz; bu, kapanış sonrası dar pencereyi kısaltan bir risktir. Bu yüzden refakatçinin çalışma saatinden önce sahada hazır bulunmasını, kurumunuzla birlikte önceden netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Banka şubesi ve kamu binası güvenlik protokolü genel uygulamadır; operatör belge önceden iletim yöntemi ve refakatçi koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Aynı Sokaktaki Dükkânlar ve Şehir İçi Şubelerde Çok Noktalı Rota Bakımı",
+        giris:
+            "Kent içinde bir zincir mağazanın birden fazla şubesi, bir sokaktaki komşu dükkânlar veya bir kurumun farklı binalardaki ofisleri, tek tek küçük iç mekân kalemleri talep ettiğinde, bunları ayrı ayrı sevkiyatlarla karşılamak hem pahalı hem verimsizdir. Çok noktalı rota bakımı, platformun bir gece içinde birden fazla adresi art arda ziyaret ederek her birinde kısa bir kalemi tamamlamasıdır. Bu sayfa, ilimizdeki kent içi çok noktalı rota çalışmasının nasıl planlandığını — adres sırası, her noktada ayrılan süre, sokak içi kısa mesafe avantajı — ele alır; kırsal bir hat boyunca kilometrelerce ilerleyen direk rotası veya sanayi bölgesindeki fabrikalar arası rota farklı bir mesafe ve kural setine sahiptir ve burada anlatılmaz.",
+        maddeler: [
+            {
+                baslik: "Aynı sokaktaki komşu dükkânları birleştirmek",
+                metin:
+                    "Bir sokaktaki birkaç dükkânın küçük kalemleri (bir tavan armatörü, bir vitrin rötuşu, bir tabela ışığı) aynı akşama toplandığında, makine kısa mesafelerle dükkândan dükkâna yürüyerek ilerler; sokak içi mesafe genellikle birkaç yüz metreyi geçmez, bu da rota süresini kısa tutar.",
+            },
+            {
+                baslik: "Zincir mağazanın şehir içi şubeleri",
+                metin:
+                    "Bir zincir mağazanın farklı semtlerdeki şubelerinde aynı anda benzer bir bakım kalemi (örneğin aynı model armatürün toplu değişimi) talep edildiğinde, şubeler arası mesafeye göre bir gecede kaç şubenin kapsanabileceğini önceden hesaplarız; şehir içi trafik ve her şubenin kendi kapanış saati bu hesaba dahil edilir.",
+            },
+            {
+                baslik: "Her noktada ayrılan sürenin önceden belirlenmesi",
+                metin:
+                    "Çok noktalı bir rotada bir adresteki gecikme, sonraki adresin penceresini de etkiler; bu yüzden her nokta için ayrılan süre işin kapsamına göre önceden belirlenir ve bu süre aşılırsa geri kalan kalem bir sonraki geceye planlanır, rota tamamen aksatılmaz.",
+            },
+            {
+                baslik: "Adres sırasının coğrafi mantığı",
+                metin:
+                    "Rota sırası, adreslerin coğrafi konumuna göre en az geri dönüşle kurulur; kapanış saati en erken olan adres genellikle rotanın başında yer alır, kapanışı daha esnek olan adres sona bırakılır. Bu sıralama, gecenin ilerleyen saatlerinde zaman baskısını en aza indirir.",
+            },
+            {
+                baslik: "Farklı binalardaki kurum ofisleri",
+                metin:
+                    "Bir kurumun şehir merkezindeki farklı binalarda yer alan ofislerinde (örneğin bir bankanın genel müdürlük binası ve yakındaki bir ek bina) benzer küçük kalemler varsa, bu ofisleri de tek bir gece rotasında birleştirebiliriz; her binanın kendi bina yönetimi onay sürecine ayrı ayrı uyulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota kararının kriterleri",
+                paragraflar: [
+                    "Bir rotanın kaç adresi kapsayabileceği aşağıdaki faktörlerle belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Faktör", "Etkisi", "Değerlendirme"],
+                    satirlar: [
+                        ["Adresler arası mesafe", "Toplam süre", "Şehir içi trafik dahil hesaplanır"],
+                        ["Her adresteki kapanış saati", "Rota sırası", "En erken kapanış başa alınır"],
+                        ["Kalem süresi", "Toplam pencere", "Her nokta için ayrı süre payı"],
+                        ["Bina yönetimi onayı", "Ek süre", "Her bina için ayrı netleştirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bir adresteki gecikmenin yönetimi",
+                paragraflar: [
+                    "Rotadaki bir adreste beklenmedik bir gecikme (örneğin malzeme eksikliği veya erişim sorunu) yaşanırsa, önceden belirlenen süre sınırına uyularak o adresteki kalem tamamlanmamış olsa bile rota bir sonraki adrese geçer; bu, tüm rotanın gecikmesini önler.",
+                    "Tamamlanamayan kalem, bir sonraki gece rotasına veya ayrı bir ziyarete planlanır; bu durumu ilgili adresin sorumlusuna aynı gece içinde bildiririz.",
+                ],
+            },
+            {
+                baslik: "Rota planlamasının maliyet avantajı",
+                paragraflar: [
+                    "Tek bir sevkiyat bedeliyle birden fazla adresin kalemini karşılamak, her adres için ayrı sevkiyat planlamaktan belirgin şekilde daha ekonomiktir; bu tasarruf, adres sayısı arttıkça büyür.",
+                    "Rotaya dahil olmak isteyen komşu işletme veya şubelerinizi bize önceden bildirmeniz, hem sizin hem komşu işletmenin maliyetini düşürür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı sokaktaki üç dükkânı aynı gece halledebilir misiniz?",
+                cevap:
+                    "Evet, sokak içi mesafe genellikle kısa olduğu için bu tip bir rota kolayca kurulabilir. Üç dükkânın da kapanış saatini ve kalem listesini bildirirseniz, en erken kapanan dükkânı başa alarak bir sıra kurarız ve her dükkân için bir süre payı belirleriz.",
+            },
+            {
+                soru: "Zincir mağazamızın beş şubesinde aynı armatür değişecek, tek gecede olur mu?",
+                cevap:
+                    "Şubeler arası mesafeye ve her şubenin kapanış saatine bağlıdır; şehir içi trafiği de hesaba katarak bir gecede kaç şubenin kapsanabileceğini önceden hesaplarız. Beş şube tek gecede sığmazsa, iki geceye bölünen bir program öneririz; şube listesini ve kapanış saatlerini paylaşırsanız net bir plan sunarız.",
+            },
+            {
+                soru: "Bir dükkânda iş uzarsa diğerleri ne olacak?",
+                cevap:
+                    "Her adres için önceden bir süre sınırı belirleriz; bu sınır aşılırsa geri kalan kalem bir sonraki geceye planlanır ve rota bir sonraki adrese devam eder. Bu, bir adresteki gecikmenin tüm rotayı aksatmasını önler; durumu aynı gece içinde ilgili adrese bildiririz.",
+            },
+            {
+                soru: "Rota sırasını kim belirliyor, biz mi siz mi?",
+                cevap:
+                    "Rota sırasını coğrafi konum ve her adresin kapanış saatine göre biz öneririz — en erken kapanan adres genellikle başa alınır. Sizin özel bir önceliğiniz (örneğin bir adresin kesinlikle önce yapılması) varsa bunu bildirirseniz rotayı buna göre ayarlarız.",
+            },
+            {
+                soru: "Farklı binalardaki ofislerimizi aynı rotaya alabilir misiniz?",
+                cevap:
+                    "Evet, farklı binalardaki ofisler için de tek bir gece rotası kurabiliriz; ancak her binanın kendi bina yönetimi onay sürecine ayrı ayrı uyulması gerekir. Binaların adreslerini ve her birinin onay sürecini bildirirseniz, rotayı bu onaylara göre sıralarız.",
+            },
+            {
+                soru: "Çok noktalı rota tek adrese göre ne kadar tasarruf sağlıyor?",
+                cevap:
+                    "Tek bir sevkiyat bedeliyle birden fazla adresin kalemini karşıladığımız için, adres sayısı arttıkça birim maliyet belirgin şekilde düşer. Kesin tasarrufu, adres listenizi ve kalem kapsamınızı aldığımızda hesaplayıp size ayrı ayrı ve birleşik seçenekleri karşılaştırmalı olarak sunarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kent içi sokak/şube coğrafyası kamuya açık genel bilgidir; rota sıralama mantığı ve süre sınırı yönetimi firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Yapım ve Tadilat Aşamasındaki Bina İçinde Kaba Zeminde Platform Kiralama",
+        giris:
+            "Bu domainin odağı bitmiş, kaplaması tamamlanmış mağaza-otel-kamu binası zeminleri olduğu için, açık arazi veya kırsal zor zemin koşulları burada anlatılmaz — o kapsam farklı bir hizmet hattına aittir. Ancak kent içi bir bina her zaman bitmiş hâlde karşımıza çıkmaz: yapım aşamasındaki bir AVM, tadilat geçiren bir mağaza veya henüz zemin kaplaması yapılmamış bir kamu binası bölümü, standart iç mekân zemininden farklı, kaba beton, şap veya toprak dolgu bir yüzey sunabilir. Bu sayfa, bu sınırlı ve dürüst kapsamı — bitmemiş veya tadilat aşamasındaki kent içi bina içlerinde platform kullanımını — ele alır.",
+        maddeler: [
+            {
+                baslik: "Kaba beton ve şap zeminde tekerlek seçimi",
+                metin:
+                    "Yapım aşamasındaki bir zeminde iz bırakmama kaygısı geri planda kalır, ancak zeminin düzgünlüğü (kot farkı, döküm izleri, açık kanal) makinenin dengesini etkileyebilir; bu yüzden standart tekerlek yeterli olsa da, zemindeki büyük kot farkları veya açık boşluklar önceden işaretlenir ve makine bu noktalardan uzak tutulur.",
+            },
+            {
+                baslik: "Toprak dolgu bölümlerde kaymayı önlemek",
+                metin:
+                    "Bazı tadilat alanlarında zemin henüz dolgu betonuyla kaplanmamış, sıkıştırılmış toprak veya moloz dolgu hâlindedir; bu tip yüzeylerde makinenin tekerlek kaymasını önlemek için zemin sıkılığı önceden kontrol edilir, gerekirse geçici bir plaka veya kalas döşenerek geçici bir çalışma yüzeyi oluşturulur.",
+            },
+            {
+                baslik: "Yapı iskelesi ve inşaat malzemesiyle paylaşılan alan",
+                metin:
+                    "Yapım aşamasındaki bir binada platform, genellikle boş bir hacimde değil, yapı iskelesi, malzeme istifi ve diğer taşeronların ekipmanıyla paylaşılan bir alanda çalışır; bu yüzden güzergâh, günün başında şantiye şefiyle birlikte kontrol edilir ve diğer ekiplerle çakışmayacak bir çalışma saati belirlenir.",
+            },
+            {
+                baslik: "Kapalı hacimde yine egzozsuz kural",
+                metin:
+                    "Zemin kaba olsa bile hacim kapalıysa (örneğin AVM'nin henüz kaplaması yapılmamış ama çatısı kapanmış bir katı) egzozsuz akülü kural yine geçerlidir; kaba zemin, dizel makine kullanımına izin veren bir gerekçe değildir çünkü emisyon riski zeminin durumundan bağımsızdır.",
+            },
+            {
+                baslik: "Tadilat sonrası standart zemine geçiş",
+                metin:
+                    "Kaplama tamamlandıktan sonra aynı bina için yapılacak bir sonraki iç mekân talebi, bu sayfanın değil yukarıdaki standart iç mekân hizmetimizin kapsamına girer; bu yüzden talebi aldığımızda binanın hangi aşamada olduğunu (kaba yapı mı, kaplama tamamlanmış mı) netleştiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yapım aşamasına göre zemin durumu",
+                paragraflar: [
+                    "Bir binanın yapım aşaması, zeminin durumunu ve gereken hazırlığı doğrudan belirler.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Zemin durumu", "Hazırlık", "Kısıt"],
+                    satirlar: [
+                        ["Kaba yapı, çatı kapalı", "Dökülmüş kaba beton", "Kot farkı işaretleme", "Egzozsuz kural geçerli"],
+                        ["Tadilat, sökülmüş kaplama", "Şap veya eski dolgu", "Standart tekerlek", "Diğer ekiplerle koordinasyon"],
+                        ["Dolgu tamamlanmamış bölüm", "Toprak/moloz dolgu", "Geçici plaka/kalas", "Kayma riski kontrolü"],
+                        ["Kaplama tamamlanmış", "Standart (bu sayfa dışı)", "İz bırakmayan tekerlek", "Standart iç mekân kuralı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiye şefiyle günlük koordinasyon",
+                paragraflar: [
+                    "Yapım aşamasındaki bir binada çalışma, o günün şantiye programından bağımsız kurulmaz; güzergâh, malzeme istifinin o günkü konumu ve diğer taşeron ekiplerin çalışma saati şantiye şefinden alınır ve platform çalışması bu programın içine yerleştirilir.",
+                    "Bu koordinasyon her gün yeniden doğrulanır çünkü şantiyede malzeme ve ekip konumu gün içinde değişebilir; bir önceki günün bilgisiyle sahaya çıkılmaz.",
+                ],
+            },
+            {
+                baslik: "Aşama netleşmeden teklif verilmemesi",
+                paragraflar: [
+                    "Binanın hangi yapım aşamasında olduğu netleşmeden kesin bir teklif vermeyiz çünkü zemin durumu ve gereken hazırlık aşamaya göre büyük farklılık gösterir; kaba yapı için hazırlanan bir teklif, tadilat aşamasındaki bir zemine uymayabilir.",
+                    "Bina yöneticisi veya şantiye şefinden alınacak güncel bir zemin fotoğrafı, doğru teklifi hızlı vermemizi sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'niz henüz yapım aşamasında, standart iç mekân kurallarınız mı geçerli?",
+                cevap:
+                    "Kısmen; egzozsuz akülü kural kapalı hacimde yine geçerlidir, ancak zemin koruma önlemi (iz bırakmayan tekerlek, koruyucu mat) kaba beton veya şap zeminde farklı şekle bürünür — burada öncelik kot farkı ve açık boşlukların işaretlenmesidir. Zemininizin fotoğrafını paylaşırsanız doğru hazırlığı belirleriz.",
+            },
+            {
+                soru: "Zeminimiz henüz toprak dolgu, makine kayar mı?",
+                cevap:
+                    "Sıkıştırılmamış toprak veya moloz dolgu zeminlerde kayma riski gerçektir; bu yüzden önce zemin sıkılığını kontrol eder, gerekirse geçici bir plaka veya kalas döşeyerek güvenli bir çalışma yüzeyi oluştururuz. Dolgunun durumunu ve varsa sıkıştırma çalışması yapılıp yapılmadığını bildirirseniz, hazırlığı önceden planlarız.",
+            },
+            {
+                soru: "Şantiyede başka ekipler de çalışıyor, çakışma yaşanır mı?",
+                cevap:
+                    "Bu riski azaltmak için güzergâhı ve çalışma saatini o günkü şantiye programına göre şantiye şefiyle birlikte belirleriz; bu koordinasyonu her gün yeniden doğrularız çünkü malzeme ve ekip konumu gün içinde değişebilir. Şantiyenizin günlük programını paylaşmanız bu koordinasyonu hızlandırır.",
+            },
+            {
+                soru: "Kaba zeminde dizel makine kullanabilir miyiz, hız kazanır mıyız?",
+                cevap:
+                    "Hayır, hacim kapalıysa egzozsuz akülü kural zeminin durumundan bağımsız olarak geçerlidir; kaba zemin dizel kullanımına izin veren bir gerekçe değildir. Hacim tamamen açıksa (örneğin çatısı henüz kapanmamış bir alan) farklı bir değerlendirme yapılabilir; hacminizin açıklık durumunu bildirirseniz netleştiririz.",
+            },
+            {
+                soru: "Tadilat bitip zemin kaplandıktan sonra tekrar sizi mi aramalıyız?",
+                cevap:
+                    "Evet, kaplama tamamlandıktan sonraki bir talep bu sayfanın değil standart iç mekân hizmetimizin kapsamına girer ve farklı bir zemin koruma yaklaşımı (iz bırakmayan tekerlek, koruyucu mat) uygulanır. Talebi aldığımızda binanızın hangi aşamada olduğunu sorarız, bu ayrımı biz netleştiririz.",
+            },
+            {
+                soru: "Zemin fotoğrafı olmadan teklif verebilir misiniz?",
+                cevap:
+                    "Kesin bir teklif için önermeyiz; yapım aşamasındaki zeminler birbirinden çok farklı olabilir ve doğru hazırlığı belirlemek için güncel bir fotoğraf gerekir. Şantiye şefinizden veya bina yöneticinizden güncel bir zemin fotoğrafı alıp paylaşmanız, hızlı ve doğru bir teklif almanızı sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yapım/tadilat aşamasındaki bina içi zemin çeşitliliği genel inşaat bilgisidir. Bu sayfa bilinçli olarak dar kapsamlıdır — açık arazi/kırsal zor zemin bilgisi bu domainin konusu değildir ve uydurulmamıştır.",
+    },
 };

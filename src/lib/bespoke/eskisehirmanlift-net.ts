@@ -1006,4 +1006,1090 @@ export const ESKISEHIRMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Eskişehir ile Kütahya'nın çevre il ilişkisi ve Kütahya'nın seramik-çini sanayi geleneği uygulama belgesinde verilen kamuya açık çerçevedir; tesis adı, hat düzeni, kapasite, mesafe ve doğrulanmamış rakam kullanılmamıştır. Sevkiyat, vardiya devri, erişim diyagramı ve dönüş planı sektör geneli saha pratiğidir.",
     },
+
+    // ── HİZMET SAYFALARI (2026-08-14) ───────────────────────────────────
+    // Domain açısı: Eskişehir OSB fabrikalarında ÜRETİM HATTI BAKIMI —
+    // eklemli/teleskopik sınıf, hat üzerinden engel aşma, planlı duruş
+    // takvimine senkron çalışma. En detaylı iki sayfa: eklemli-platform-boom
+    // ve celik-konstruksiyon-montaj-platformu. Kardeş domainlerle
+    // (manlifteskisehir-com.ts: çoklu tesis rota takvimi; eskisehirvincplatform-com.ts:
+    // kırsal enerji hattı) cümle/tablo örtüşmesi olmayacak şekilde ayrı açı kullanıldı.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli Örümcek Platform: Dar Kapı ve Ekipman Arası Geçişte Hat Bakımı",
+        giris:
+            "Eskişehir OSB'deki üretim hollerinin çoğu, kapı genişliği ve tezgâh aralığı düşünülerek değil, üretim akışına göre tasarlanmıştır; bakım ekibinin tavana ulaşması gerektiğinde bu düzen bazen bir engele dönüşür. Standart eklemli platform şasesi, çift kanatlı bir kapıdan ya da iki CNC tezgâhı arasındaki dar koridordan geçemeyebilir; işte tam bu noktada paletli sepetli örümcek platform devreye girer. Makine parçalı olarak taşınabilir, dar açıklıktan geçirilip iç mekânda tekrar monte edilebilir, paletli tahrik sayesinde epoksi zeminde iz bırakmadan hassas manevra yapar ve destek ayaklarını dengesiz bir noktaya bile güvenle oturtabilir. Üretim hattı bakımında bu makineyi ana çözüm olarak değil, eklemli ya da teleskopik platformun fiziken giremediği noktalarda tamamlayıcı bir araç olarak konumlandırıyoruz — hattın büyük bölümü için hâlâ daha yüksek erişimli ve daha hızlı kurulan eklemli sınıfı öneriyoruz. Bu sayfada örümcek platformun hangi hat bakımı senaryolarında gerçekten gerekli olduğunu, kapıdan geçiş ölçüsünün nasıl belirlendiğini ve iç mekân zemin hassasiyetinde nelere dikkat ettiğimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Kapı ve koridor ölçüsü: geçiş garantisi keşifle verilir",
+                metin:
+                    "Sepetli örümcek platformun parçalı taşınabilir gövdesi bile her kapıdan geçmez; kanat genişliği, üst kasa yüksekliği ve varsa yerdeki eşik farkı tek tek ölçülür. Katalog rakamına güvenmek yerine keşif sırasında şerit metreyle kapı boşluğunu ve koridor darlığını kendimiz doğruluyoruz, çünkü bir tezgâh sırası sonradan eklenmiş olabilir ve plan üzerindeki ölçü sahadaki gerçek ölçüyle örtüşmeyebilir.",
+            },
+            {
+                baslik: "Paletli tahrikin hat kenarında sağladığı zemin güvenliği",
+                metin:
+                    "Üretim hattı çevresindeki epoksi ya da perdahlı beton zeminler tekerlekli platformların bıraktığı ize karşı hassastır; paletli tahrik yükü geniş bir yüzeye yayarak bu izi önler. Ayrıca eğimli ya da hafif kotlu geçişlerde tekerlekli şaseye göre daha stabil ilerler, bu da tezgâh sıralarının hemen yanından geçerken çarpma riskini azaltır.",
+            },
+            {
+                baslik: "Dar hücrelerde robot koluyla aynı hacmi paylaşmamak",
+                metin:
+                    "Otomasyon hücrelerinin çevresinde çalışırken robot kolunun hareket zarfı bilinmeden sepet o hacme sokulmaz; hücre bakım moduna alınmadan ya da güvenlik bariyeri devrede olmadan çalışma başlamaz. Bu kural örümcek platformun kompakt boyutuna rağmen gevşetilmez, çünkü küçük gövde büyük kazayı engellemez.",
+            },
+            {
+                baslik: "Montaj-demontaj süresi bakım penceresine dahildir",
+                metin:
+                    "Parçalı gövdenin kapıdan geçirilip yeniden monte edilmesi zaman alır; bu süre bakım penceresinin dışında değil içindedir ve teklif hazırlarken ayrıca belirtilir. Kısa bir vardiya arası bakımda bu montaj süresi toplam işin önemli bir kısmını yiyebileceği için, sık tekrarlanan dar noktalı işlerde makinenin sahada demonte bırakılıp bırakılamayacağı da değerlendirilir.",
+            },
+            {
+                baslik: "Yük kapasitesi ve alet ağırlığının birlikte hesaplanması",
+                metin:
+                    "Kompakt gövde, sepet yük kapasitesini de sınırlar; ağır kaynak makinesi ya da çoklu el aleti taşınacaksa kapasite sınırı önceden kontrol edilir. Hat bakımında tek seferde birden fazla alet yukarı çıkarılmak istenirse, kapasiteyi aşmamak için ikinci bir taşıma turu ya da halatla malzeme indirme-çıkarma yöntemi planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi hat noktasında hangi platform sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, üretim hattı bakımında sıkça karşılaştığımız erişim senaryolarını ve bunlara uygun platform sınıfını özetler. Örümcek platform yalnızca dar geçişli ya da zemin hassasiyeti yüksek noktalarda ilk tercih; hattın açık alanlarında eklemli veya teleskopik sınıf daha hızlı ve daha yüksek erişim sağlar.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim senaryosu", "Kapı/koridor genişliği", "Zemin hassasiyeti", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Açık hol, hat kenarı", "Geniş", "Standart beton", "Eklemli / teleskopik"],
+                        ["Çift kapı arası dar koridor", "Dar", "Epoksi", "Örümcek platform"],
+                        ["Tezgâh sıraları arası", "Çok dar", "Hassas zemin", "Örümcek platform"],
+                        ["Robot hücresi çevresi", "Değişken", "Standart", "Örümcek platform, bakım modunda"],
+                        ["Hat boyu uzun mesafe", "Geniş", "Standart beton", "Teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapı genişliği keşfi olmadan teklif verilmez",
+                paragraflar: [
+                    "Örümcek platform talebi geldiğinde önce standart eklemli sınıfın neden yetmediğini soruyoruz; çoğu zaman cevap gerçekten bir dar geçiş olsa da bazen tesis daha önce ölçü almamış olabilir. Bu yüzden kapı, koridor ve varsa asansör ölçüsünü keşifte kendimiz alıyoruz ve sadece bu ölçüye göre kesin teklif veriyoruz.",
+                    "Ölçü paylaşılmadan verilen tahmini fiyat, sahada makinenin geçmediği ortaya çıktığında hem tesis hem bizim için zaman kaybına dönüşür. Bu yüzden bu sınıf için telefon üzerinden kesin teklif vermiyoruz; keşif ya da net fotoğraflı ölçü şart koşuyoruz.",
+                ],
+            },
+            {
+                baslik: "Bu sınıf ne zaman gerekmez",
+                paragraflar: [
+                    "Eskişehir OSB'deki tesislerin büyük çoğunluğunda hol genişliği eklemli platform için yeterlidir; örümcek platform istisnai bir çözümdür, varsayılan değildir. Dürüst olmak gerekirse bu makinenin çalışma yüksekliği ve yatay erişimi eklemli sınıfın gerisindedir, dolayısıyla gerekmediği yerde tercih edilmesi hem maliyeti hem de iş süresini gereksiz uzatır.",
+                    "Bu nedenle talep geldiğinde önce standart sınıfın neden çalışmadığını netleştiriyoruz; gerçekten dar bir geçiş yoksa örümcek platform yerine eklemli ya da teleskopik sınıfı öneriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform hangi durumda eklemli platforma tercih edilmeli?",
+                cevap:
+                    "Yalnızca standart eklemli platformun şasesi fiziksel olarak geçemediğinde: dar kapı, iki tezgâh arası koridor ya da zemin taşıma gücünün sınırlı olduğu noktalarda. Açık hol ya da hat kenarı gibi geniş alanlarda eklemli sınıf hem daha yüksek erişim sunar hem de kurulumu daha hızlıdır. Bu yüzden talebi aldığımızda önce geçiş ölçüsünü sorguluyoruz; gerçekten dar bir noktaysa örümcek platform öneriyoruz, değilse standart sınıfı öneriyoruz. İkisini karıştırıp her işe örümcek platform göndermek maliyeti ve süreyi gereksiz artırır.",
+            },
+            {
+                soru: "Parçalı taşınan makinenin montajı ne kadar sürer ve bu süre ücrete dahil mi?",
+                cevap:
+                    "Montaj süresi makinenin modeline ve geçiş noktasının darlığına göre değişir; keşifte bu süre tahmini olarak paylaşılır ve teklife bakım penceresi içinde geçen bir zaman dilimi olarak yazılır — gizli ya da sonradan çıkan bir kalem değildir. Sık tekrarlanan işlerde, makinenin iki kullanım arasında sahada demonte bırakılıp bırakılamayacağı da değerlendirilir; bu, her seferinde yeniden montaj süresini ortadan kaldırabilir ama tesisin uygun bir depolama alanı ayırmasını gerektirir.",
+            },
+            {
+                soru: "Robot hücresi yakınında çalışırken güvenlik nasıl sağlanıyor?",
+                cevap:
+                    "Hücrenin hareket zarfı önceden netleştirilmeden çalışma başlamaz; hücre bakım moduna alınır ya da güvenlik bariyeri/ışık perdesi devrede tutularak robot kolunun beklenmedik hareketi engellenir. Bu kontrol otomasyon ekibiyle birlikte, iş izni formuna yazılı olarak işlenir. Sepetin kompakt boyutu bu prosedürü gevşetmez; küçük makine küçük risk anlamına gelmez, aksine dar alanda hareket alanı azaldığı için dikkat daha da artırılır.",
+            },
+            {
+                soru: "Epoksi zeminde paletli tahrik gerçekten iz bırakmıyor mu?",
+                cevap:
+                    "Doğru paletli malzeme seçildiğinde ve zemin kuru tutulduğunda görünür iz bırakma riski düşüktür, ancak yüzde yüz garanti vermiyoruz — zeminin yaşı, kaplamanın türü ve makinenin ağırlık dağılımı sonucu etkiler. Hassasiyeti yüksek bir zeminde çalışılacaksa önce küçük ve göze çarpmayan bir alanda deneme yapılmasını öneriyoruz; ayrıca destek ayaklarının bastığı noktalara ek koruyucu tampon koyuyoruz.",
+            },
+            {
+                soru: "Sepet kapasitesi kaynak makinesi ve iki kişilik ekibi birlikte taşır mı?",
+                cevap:
+                    "Modelin kapasite sınırı önceden bildirilmelidir; kompakt gövde nedeniyle bu sınıfın taşıma kapasitesi standart eklemli platforma göre daha düşüktür. İki kişi artı ağır bir kaynak makinesi kapasiteyi aşabilir; bu durumda ya alet ayrı bir turda taşınır ya da halatla yukarı çekilip sepette yalnızca kullanım sırasında tutulur. Kapasiteyi zorlamak yerine iş akışını buna göre planlamak, hem güvenlik hem de makinenin performansı açısından doğru yaklaşımdır.",
+            },
+            {
+                soru: "Bu makineyi kiralamadan önce keşif zorunlu mu, telefonla ölçü yeterli olmaz mı?",
+                cevap:
+                    "Bu sınıf için keşif ya da en azından net, ölçekli fotoğraf ve ölçü paylaşımı şart koşuyoruz; telefonla verilen tahmini ölçüye dayanarak sevk ettiğimiz makine sahada geçmezse hem tesisin bakım penceresi boşa gider hem de bizim aracımız boş dönmüş olur. Bu risk, kısa bir keşif ziyaretinin maliyetinden çok daha yüksektir; bu yüzden bu tek sınıfta esnek davranmıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Paletli sepetli platformların parçalı taşınabilirliği ve dar alan kullanımı EN 280 kapsamındaki genel makine sınıfı özellikleridir; tesis adı, kapasite ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Duruş Takvimine Kilitli Nakliye ve Teslimat",
+        giris:
+            "Üretim hattı bakımında makinenin kendisi kadar, o makinenin ne zaman sahada olduğu da kritiktir. Planlı bir duruşun başlangıç saati haftalar önce tesis tarafından belirlenir ve bu saat geldiğinde makine hazır olmazsa kaybedilen her dakika, bakım listesindeki bir kalemin bir sonraki revizyona ertelenmesi anlamına gelir. Bu yüzden Eskişehir OSB ve çevresindeki tesislere teslimatı, düz bir lojistik işi olarak değil, duruş takviminin bir parçası olarak planlıyoruz: makine duruştan önceki gün sahaya ulaşır, tesisin gösterdiği noktada beklerken şarj edilir ve duruş saati geldiğinde operatör ya da yetkili kullanıcı doğrudan işe başlayabilir. Aynı disiplin geri alımda da geçerlidir — iş bittiğinde makine gereksiz yere sahada beklemez, ancak açık bir iş izni ya da tamamlanmamış teslim varken de sahadan çıkarılmaz. Bu sayfada teslimat zamanlamasının duruş takvimine nasıl bağlandığını, çoklu araç ihtiyacında sıralamanın nasıl kurulduğunu ve son dakika değişikliklerinde ne yaptığımızı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Duruştan bir gün önce teslimat standardı",
+                metin:
+                    "Revizyon ya da planlı duruş öncesinde makinenin bir gün önceden sahada olması standart uygulamamızdır. Bu, duruş saati geldiğinde teslimat kaynaklı hiçbir gecikme yaşanmaması içindir; makine tesisin gösterdiği alanda beklerken akülü sınıf şarja bağlanır, dizel ya da LPG sınıf ise yakıt seviyesi kontrol edilir.",
+            },
+            {
+                baslik: "Çoklu makine teslimatında sıralama",
+                metin:
+                    "Bir revizyonda birden fazla makine gerekiyorsa, her aracın hangi kapıdan gireceği, hangi sırayla boşaltılacağı ve geçici park noktası önceden netleştirilir. Aksi halde tesis girişinde araçlar birbirini bekletebilir ve bu bekleme, duruş penceresinin ilk saatlerini gereksiz yere tüketebilir.",
+            },
+            {
+                baslik: "Vardiya dışı teslimat ve giriş prosedürü",
+                metin:
+                    "Bazı tesisler gece vardiyası öncesi ya da hafta sonu teslimat talep eder; bu durumda tesisin güvenlik ve giriş prosedürü önceden alınır — kimlik bilgisi, araç plakası, sorumlu personel iletişim bilgisi. Vardiya dışı teslimatlarda tesiste kimin makineyi teslim alacağı net değilse teslimat gecikir, bu yüzden bu bilgi teslimattan önce yazılı teyit edilir.",
+            },
+            {
+                baslik: "Son dakika duruş değişikliğinde yeniden planlama",
+                metin:
+                    "Duruş tarihi son anda kayarsa, makine henüz yola çıkmadıysa taşıma yeniden planlanır; sahaya ulaşmışsa güvenli bekleme koşulları sürdürülür ve geri alma saati güncellenir. Bu değişiklik sözlü bırakılmaz, yeni tarih ve varsa ek maliyet yazılı olarak teyit edilir.",
+            },
+            {
+                baslik: "Geri alım: açık iş izni varken makine çıkmaz",
+                metin:
+                    "İş bittiğinde geri alım planlanır ancak açık bir iş izni, tamamlanmamış teslim tutanağı ya da sayılmamış alet-parça varken makine sahadan çıkarılmaz. Bu kural, bir sonraki tesise geç kalma riskini göze alarak bile korunur; yarım kalan bir teslim, ileride sorumluluk tartışmasına dönüşebilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Teslimat zaman çizelgesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı duruş tiplerinde teslimatın nasıl zamanlandığını özetler. Her satır, bakım penceresinin türüne göre teslimatın ne kadar önceden yapıldığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Duruş tipi", "Teslimat zamanı", "Şarj/yakıt durumu", "Geri alım"],
+                    satirlar: [
+                        ["Vardiya arası kısa bakım", "Aynı gün, vardiya başından önce", "Tam dolu", "Vardiya sonunda"],
+                        ["Haftalık planlı duruş", "Bir gün önceden", "Sahada şarj", "Duruş bitiminde"],
+                        ["Yıllık revizyon", "Bir-iki gün önceden", "Sahada şarj/yakıt ikmali", "Revizyon bitiminde"],
+                        ["Arıza kaynaklı ani duruş", "En hızlı uygun araç", "Tam dolu", "İş bitince"],
+                        ["Hafta sonu/gece vardiyası", "Önceki mesai saatinde", "Sahada şarj", "Sonraki mesai başında"],
+                    ],
+                },
+            },
+            {
+                baslik: "Araç ve makine uyumu: her platform her kamyonla taşınmaz",
+                paragraflar: [
+                    "Makinenin ağırlığı ve boyutu taşıyıcı araç seçimini belirler; kompakt bir sepetli platform pikap üstü römorkla taşınabilirken, büyük teleskopik sınıf kendi yürüyen şasesiyle ya da özel taşıyıcıyla sevk edilir. Teklif aşamasında hangi makinenin hangi araçla geleceği netleştirilir, böylece tesis girişindeki rampa ve kapı yüksekliği önceden kontrol edilmiş olur.",
+                    "Bazı tesislerde yükleme rampası dar ya da kapı yüksekliği sınırlıdır; bu bilgi paylaşıldığında taşıyıcı seçimi buna göre yapılır, sahada sürpriz yaşanmaz.",
+                ],
+            },
+            {
+                baslik: "Nakliye kapsamı: kurulum ve saha içi konumlandırma dahil",
+                paragraflar: [
+                    "Teslimat yalnızca tesis kapısına kadar değildir; makine, tesis içinde gösterilen noktaya kadar bizim ekibimizce konumlandırılır ve varsa ilk kontrol/şarj bağlantısı yapılır. Bu, tesis personelinin makineyi kendi imkânlarıyla içeri taşımak zorunda kalmaması içindir.",
+                    "Saha içi konumlandırma sırasında da güzergâh, üretim trafiğiyle kesişmeyecek şekilde önceden belirlenir; bu koordinasyon genellikle tesisin bakım ya da güvenlik sorumlusuyla birlikte yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makine duruş saatinden kaç saat önce sahada olmalı?",
+                cevap:
+                    "Standart uygulamamız bir gün öncesinden teslimattır; bu, duruş saati geldiğinde makinenin şarjlı, kontrol edilmiş ve çalışmaya hazır durumda beklemesini garanti eder. Çok kısa vardiya arası bakımlarda bu süre aynı gün vardiya başına indirilebilir, ancak bu durumda teslimat saatinin kesinliği daha kritik hale gelir ve trafik ya da hava koşulu gibi risklere karşı ekstra tampon süre bırakılır. Kısacası, süre duruşun uzunluğuna ve riskin ne kadar tolere edilebileceğine göre birlikte belirlenir.",
+            },
+            {
+                soru: "Birden fazla makine aynı anda geliyorsa tesis girişinde tıkanıklık olur mu?",
+                cevap:
+                    "Bu riski önceden planlamayla azaltıyoruz. Hangi aracın hangi sırayla gireceği, hangi kapıyı kullanacağı ve boşaltma sonrası nereye park edeceği keşif ya da teslimat öncesi görüşmede netleştirilir. Tesisin kendi trafik kuralları varsa (örneğin belirli saatlerde yükleme kapısı kapalıysa) bu bilgi teslimat planına dahil edilir. Sıralama net değilse araçlar birbirini bekletebilir ve bu bekleme doğrudan duruş penceresinden zaman çalar; bu yüzden bu adımı atlamıyoruz.",
+            },
+            {
+                soru: "Gece vardiyasına veya hafta sonuna teslimat yapabiliyor musunuz?",
+                cevap:
+                    "Evet, birçok tesiste planlı duruş hafta sonuna ya da gece vardiyasına denk gelir. Bu durumlarda tesisin güvenlik ve giriş prosedürünü önceden alıyoruz — araç plakası, sürücü kimliği, sorumlu personelin iletişim bilgisi gibi. Kritik nokta, tesiste makineyi kimin teslim alacağının net olmasıdır; bu kişi belirlenmemişse teslimat, doğru kişi bulunana kadar beklemek zorunda kalabilir. Bu yüzden vardiya dışı teslimatlarda bu bilgiyi yazılı olarak önceden teyit ediyoruz.",
+            },
+            {
+                soru: "Duruş tarihi bir hafta ertelenirse ne oluyor, ek ücret çıkar mı?",
+                cevap:
+                    "Erteleme haber verildiği andaki plan aşamasına göre farklı sonuç doğurur. Makine henüz yola çıkmamışsa taşıma basitçe yeni tarihe kaydırılır ve genellikle ek maliyet doğmaz. Makine sahaya ulaşmış ve beklemedeyse, bu bekleme süresi için önceden konuşulmuş bir bekleme bedeli devreye girebilir — bu bedel yazılı olarak sözleşmede ya da teklifte belirtilir, sonradan sürpriz çıkmaz. Her durumda yeni tarih ve varsa maliyet etkisi yazılı teyit edilir, sözlü bırakılmaz.",
+            },
+            {
+                soru: "İş erken biterse makineyi hemen geri alıyor musunuz?",
+                cevap:
+                    "Mümkün olduğunda evet, ancak birkaç şart aranır: tüm hedeflerin teknik teslimi tamamlanmış, kullanılan alet ve parçalar sayılmış, makine temizlenmiş ve iade kontrolü yapılmış olmalıdır. Açık bir iş izni varken ya da eksik teslim durumundayken makineyi sahadan çıkarmıyoruz, çünkü bu durum ileride kimin neyi tamamladığı konusunda belirsizlik yaratabilir. Erken bitiş bildirildiğinde taşıyıcı planı buna göre güncellenir, ancak anlık (aynı saat içinde) geri alım her zaman garanti edilemez.",
+            },
+            {
+                soru: "Tesis içinde makineyi hangi noktaya kadar siz taşıyorsunuz?",
+                cevap:
+                    "Nakliye kapsamımız tesis kapısında bitmiyor; makine, tesisin gösterdiği çalışma noktasına kadar bizim ekibimizce konumlandırılıyor ve varsa ilk şarj bağlantısı yapılıyor. Bu sırada güzergâh, üretim trafiğiyle kesişmeyecek şekilde önceden tesisin bakım ya da güvenlik sorumlusuyla birlikte belirleniyor. Amaç, tesis personelinin makineyi kendi imkânlarıyla içeri taşımak zorunda kalmamasıdır; bu hem zaman kazandırır hem de yanlış taşıma nedeniyle oluşabilecek hasar riskini azaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Duruş takvimine bağlı teslimat planlaması ve saha içi konumlandırma pratiği; tesis adı, kapasite, mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Forklift ve İstifleme Kiralama — Kapsam Notu",
+        giris:
+            "Bu sayfada dürüst olmak istiyoruz: bu domainin ana uzmanlığı üretim hattı üzerinde yükseğe erişim, yani eklemli ve teleskopik manlift filosudur; forklift ve istifleme talebi genellikle depo, sevkiyat ya da hammadde stok alanından gelir ve üretim hattı bakımıyla doğrudan bağlantısı sınırlıdır. Yine de Eskişehir OSB'deki bazı tesislerde bakım ekibi, revizyon sırasında ağır parça ya da ekipmanı yerinden kaldırmak için forklift talep edebiliyor; bu durumda talebi karşılıyoruz ama bunu ana hizmetimiz gibi sunmuyoruz. Forklift ihtiyacınız düzenli depo/stok operasyonuysa, bu konuda daha derinlemesine uzmanlaşmış bir tedarikçiyle çalışmanız muhtemelen daha verimli olur; bizim önerimiz, forklift talebini varsa aynı ziyarette planlanan manlift işiyle birleştirip tek seferde değerlendirmenizdir. Bu sayfa forklift kiralamanın hangi koşullarda bizden talep edilebileceğini ve nelere dikkat edilmesi gerektiğini kısaca özetliyor.",
+        maddeler: [
+            {
+                baslik: "Ne zaman forklift talebini karşılıyoruz",
+                metin:
+                    "Genellikle bir revizyon ya da bakım işiyle birlikte, ağır bir parçanın (motor, redüktör, çelik profil) kısa süreliğine kaldırılması ya da taşınması gerektiğinde forklift talebini de değerlendiriyoruz. Bağımsız, düzenli depo operasyonu için forklift filosu kurma talebi bu domainin kapsamı dışındadır.",
+            },
+            {
+                baslik: "Zemin ve yük tipi uyumu",
+                metin:
+                    "Forklift seçimi, taşınacak yükün ağırlığı, boyutu ve zeminin taşıma kapasitesine göre yapılır. Sanayi holü içinde lastik tekerlekli standart forklift genellikle yeterlidir; dış saha ya da düzensiz zeminde farklı bir sınıf gerekebilir — bu durumda talebi netleştirmenizi rica ediyoruz.",
+            },
+            {
+                baslik: "Operatör yeterliliği",
+                metin:
+                    "Forklift operatörünün yetkinlik belgesi (G sınıfı iş makinesi operatörlüğü) bulunması esastır; operatörsüz kiralama talep edilirse tesisin kendi yetkili operatörü olduğunu yazılı olarak teyit etmesi istenir.",
+            },
+            {
+                baslik: "İstifleme yüksekliği ve raf uyumu",
+                metin:
+                    "Raf sistemine istifleme yapılacaksa raf yüksekliği ve koridor genişliği önceden bilinmelidir; bu bilgi paylaşılmazsa uygun forklift/istif makinesi seçimi net yapılamaz.",
+            },
+            {
+                baslik: "Manlift işiyle birlikte planlama",
+                metin:
+                    "Aynı ziyarette hem tavan bakımı hem de ağır parça taşıma ihtiyacı varsa, iki aracı aynı gün için planlayarak tesis girişinde tekrarlanan lojistik trafiğini azaltabiliyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift talebinde netleştirilmesi gereken bilgiler",
+                paragraflar: [
+                    "Aşağıdaki tablo, forklift talebi geldiğinde sorduğumuz temel bilgileri özetler. Bu bilgiler netleşmeden kesin teklif verilmez.",
+                ],
+                tablo: {
+                    basliklar: ["Bilgi", "Neden gerekli", "Kim sağlar"],
+                    satirlar: [
+                        ["Yük ağırlığı ve boyutu", "Kapasite seçimi", "Talep eden tesis"],
+                        ["Zemin tipi (iç/dış saha)", "Lastik ve stabilite seçimi", "Talep eden tesis"],
+                        ["Raf/koridor ölçüsü", "İstif makinesi seçimi", "Talep eden tesis"],
+                        ["Operatör durumu", "Operatörlü/operatörsüz karar", "Karşılıklı"],
+                        ["Kullanım süresi", "Kiralama planı", "Talep eden tesis"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapsam dışı senaryolar",
+                paragraflar: [
+                    "Sürekli depo operasyonu için filo kurulumu, çok vardiyalı yoğun istifleme operasyonu ya da özel ekipman (örneğin çok yüksek dar koridor istif makinesi) gerektiren talepler bu domainin ana kapsamı dışındadır; bu tür talepler için özelleşmiş bir tedarikçiyle görüşmenizi öneriyoruz.",
+                ],
+            },
+            {
+                baslik: "Birleşik ziyaret avantajı",
+                paragraflar: [
+                    "Bir revizyon duruşunda hem tavan bakımı hem ağır parça taşıma ihtiyacı varsa, iki hizmeti aynı gün için planlamak tesis girişindeki araç trafiğini azaltır ve koordinasyonu kolaylaştırır. Bu birleşik planlama yalnızca talep sırasında açıkça belirtilirse yapılabilir; ayrı ayrı gelen talepler farklı günlere düşebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift kiralama bu firmanın ana hizmeti mi?",
+                cevap:
+                    "Hayır, açıkça belirtmek isteriz: ana uzmanlığımız üretim hattı üzerinde eklemli ve teleskopik manlift ile yükseğe erişimdir. Forklift talebini yalnızca bir bakım/revizyon işiyle birlikte geldiğinde ya da mevcut müşterilerimizin ek ihtiyacı olduğunda karşılıyoruz. Düzenli, bağımsız bir forklift filosu ihtiyacınız varsa, bu konuda daha geniş filo ve daha derin uzmanlığa sahip bir tedarikçiyle çalışmanız muhtemelen sizin için daha uygun olur.",
+            },
+            {
+                soru: "Hangi durumlarda forklift talebinizi geri çevirirsiniz?",
+                cevap:
+                    "Sürekli depo operasyonu için filo kurulumu, çok vardiyalı yoğun istifleme ya da özel dar koridor istif makinesi gerektiren talepleri kapsam dışında görüyoruz ve dürüstçe bu şekilde yönlendiriyoruz. Amacımız, elimizde olmayan bir uzmanlığı varmış gibi göstermek değil, gerçekten iyi yapabildiğimiz işi — hat üstü yükseğe erişimi — doğru şekilde sunmaktır.",
+            },
+            {
+                soru: "Forklift operatörü olmadan makine kiralayabilir miyiz?",
+                cevap:
+                    "Operatörsüz kiralama mümkündür ancak tesisin kendi yetkili G sınıfı iş makinesi operatörüne sahip olduğunu yazılı olarak teyit etmesini istiyoruz. Yetkinlik belgesi olmayan bir personelin forklift kullanması hem güvenlik hem de sigorta açısından ciddi risk taşır; bu konuda esnek davranmıyoruz.",
+            },
+            {
+                soru: "Raf sistemine istifleme yapacağız, hangi makine uygun olur?",
+                cevap:
+                    "Bu, raf yüksekliği ve koridor genişliğine bağlıdır; bu iki ölçü paylaşılmadan net bir makine önerisi veremeyiz. Standart forklift dar koridorlu yüksek raflarda manevra edemeyebilir, bu durumda dar koridor istif makinesi gerekebilir — ki bu sınıf bizim ana filomuzun dışında kalabilir. Bu yüzden raf/koridor talebini aldığımızda önce ölçüleri netleştiriyor, gerekirse sizi daha uygun bir tedarikçiye yönlendiriyoruz.",
+            },
+            {
+                soru: "Aynı gün hem manlift hem forklift talep edebilir miyiz?",
+                cevap:
+                    "Evet, bu talebi açıkça belirttiğinizde iki aracı aynı gün için planlayabiliyoruz; bu, tesis girişindeki tekrarlanan lojistik trafiğini azaltır ve koordinasyonu kolaylaştırır. Ancak bu birleşik planlama otomatik değildir — talep sırasında her iki ihtiyacı da açıkça belirtmeniz gerekir, aksi halde talepler ayrı değerlendirilip farklı günlere düşebilir.",
+            },
+            {
+                soru: "Forklift kiralama için de keşif gerekiyor mu?",
+                cevap:
+                    "Basit, standart bir talep için genellikle telefon ya da yazılı bilgi yeterlidir — yük ağırlığı, zemin tipi ve kullanım süresi. Ancak raf sistemi, dar koridor ya da düzensiz dış saha zemini gibi özel bir durum varsa, doğru makineyi önerebilmek için ek bilgi ya da fotoğraf isteyebiliriz. Karmaşık bir istifleme senaryosu değilse ayrıca bir saha keşfi şart koşmuyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa kapsam sınırını dürüstçe belirtir; forklift/istif makinesi genel özellikleri kamuya açık iş makinesi mevzuatı ve operatör yeterlilik (G sınıfı) çerçevesine dayanır, tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom) Kiralama: Hat Üzerinden Engel Aşarak Erişim",
+        giris:
+            "Üretim hattı bakımının teknik özü, hedefin altına neredeyse hiç boş alan bırakmamasıdır. Konveyör, robot hücresi, pres tezgâhı ya da kurutma tüneli tam da bakım ekibinin ulaşmak istediği noktanın altında durur ve bu ekipmanı sökmeden, hattı durdurmadan yukarıya çıkmak gerekir. Eklemli platform tam olarak bu problem için tasarlanmıştır: makine hattın kenarına ya da bir açıklığa konumlanır, bomunu birden fazla eklem noktasından kırarak engelin üzerinden geçirir ve sepeti hedefin tam üstüne indirir. Bu, dümdüz uzanan teleskopik bomun yapamadığı bir manevradır — teleskopik sınıf uzak mesafeye düz bir çizgide gider ama önündeki bir engeli aşamaz; eklemli sınıf ise kısa mesafede karmaşık bir geometriyi çözer. Eskişehir OSB'deki fabrikalarda bu ayrım günlük kararın merkezinde: hattın üzerinden mi geçilecek, yoksa hat boyunca mı ilerlenecek? Bu sayfada eklemli platformun bom geometrisini, hangi engel yüksekliğinde hangi model sınıfının seçildiğini, erişim diyagramının nasıl okunduğunu ve hat üstü çalışmada emniyet uygulamalarını anlatıyoruz — bu, domainimizin en çok talep gördüğü ve en derin teknik bilgi gerektiren hizmet başlığıdır.",
+        maddeler: [
+            {
+                baslik: "Bom geometrisi: eklem sayısı ve kırılma noktası",
+                metin:
+                    "Eklemli bom genellikle iki ya da üç eklem noktasından oluşur; alt kol makineden yukarı kalkar, üst kol bir menteşe noktasından kırılarak hedefin üzerine yatay ya da aşağı doğru uzanır. Bu kırılma noktası, engelin tepe noktasını aşacak yüksekliğe ulaştıktan sonra devreye girer — pratikte bu, makinenin hattın kenarında dururken sepeti hattın tam ortasına, hatta bazen karşı tarafına taşıyabilmesi anlamına gelir. Kırılma noktasının konumu modelden modele değişir, bu yüzden erişim diyagramına bakmadan sadece toplam yükseklik rakamına güvenmek yanıltıcı olabilir.",
+            },
+            {
+                baslik: "Engel yüksekliği ile yatay mesafenin birlikte değerlendirilmesi",
+                metin:
+                    "Doğru model seçimi için iki ölçü aynı anda gerekir: aşılacak engelin (konveyör, boru hattı, kablo kanalı) en yüksek noktası ve makinenin park edebileceği en yakın noktadan hedefe olan yatay mesafe. Bu iki değer erişim diyagramı üzerinde kesiştirilir; diyagramın dış sınırına yakın bir nokta seçiliyorsa, maksimum yükseklik ile maksimum yatay uzanmanın aynı anda kullanılamayacağı unutulmamalıdır — sepetin kaldırabileceği yük de bu sınırda azalabilir.",
+            },
+            {
+                baslik: "Teleskopik ile eklemli arasında seçim: tek engel mi, uzun mesafe mi",
+                metin:
+                    "Hat boyunca tek bir engeli aşıp hemen üstüne inilecek bir işse eklemli sınıf daha hızlı kurulum ve daha dar alan avantajı sunar. Buna karşılık hattın uzun bir bölümü boyunca ilerlenecek, engel az ama mesafe fazlaysa teleskopik sınıf park sayısını azaltarak zaman kazandırır. İki sınıfın karması gerektiren işlerde — yani hem engel aşımı hem uzun mesafe varsa — teleskopik-eklemli hibrit bom modelleri değerlendirilir.",
+            },
+            {
+                baslik: "Hattın üzerine gelen sepet yükünün dolaylı riski",
+                metin:
+                    "Sepet hedefin tam üzerine geldiğinde, sepetten düşebilecek bir cıvata ya da alet doğrudan hattın üzerine, hatta hassas bir yüzeye düşebilir. Bu yüzden hat üstü çalışmada tüm el aletleri emniyet bağıyla bağlanır, çalışma noktasının altına koruyucu örtü serilir ve mümkünse o bölüm hat çalışırken değil, planlı duruş sırasında ele alınır.",
+            },
+            {
+                baslik: "Akülü tahrik ve iç mekân emisyon kısıtı",
+                metin:
+                    "Kapalı üretim hollerinde dizel ya da LPG tahrikli eklemli platform kullanımı egzoz gazı nedeniyle genellikle kabul edilmez; akülü modeller bu ortamlarda standarttır. Akülü sınıfın çalışma yüksekliği ve bom uzunluğu, dizel muadillerine kıyasla bazı üst segmentlerde sınırlı kalabilir — bu durumda hibrit ya da özel iç mekân dizel modeller (katalitik filtreli) değerlendirilir, ancak bu tercih tesisin havalandırma kapasitesiyle birlikte konuşulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Engel tipi ve önerilen bom sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, üretim hattında sık karşılaşılan engel tiplerini ve bunlara uygun bom sınıfını özetler. Tablo genel bir yönlendirmedir; kesin model seçimi erişim diyagramı üzerinden yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Engel tipi", "Tipik yükseklik profili", "Yatay uzanma ihtiyacı", "Önerilen bom sınıfı"],
+                    satirlar: [
+                        ["Konveyör bandı", "Alçak-orta", "Kısa-orta", "Kompakt eklemli"],
+                        ["Robot hücresi kafesi", "Orta", "Kısa", "Eklemli, dar kırılma açılı"],
+                        ["Boru/kablo kanalı hattı", "Orta-yüksek", "Uzun", "Eklemli-teleskopik hibrit"],
+                        ["Pres tezgâhı gövdesi", "Yüksek", "Kısa-orta", "Eklemli, yüksek erişimli"],
+                        ["Açık hat boyu, engel yok", "Değişken", "Uzun", "Teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Erişim diyagramını doğru okumak",
+                paragraflar: [
+                    "Erişim diyagramı, bir eğri üzerinde makinenin ulaşabileceği tüm nokta kombinasyonlarını gösterir; tek bir maksimum yükseklik ya da maksimum yatay mesafe rakamı bu eğrinin yalnızca iki ucudur. Sahada karşılaşılan gerçek hedef genellikle bu iki uç arasında bir noktadadır, dolayısıyla diyagramın tamamına bakmak gerekir.",
+                    "Keşif sırasında hedefin yüksekliğini ve makinenin park edebileceği en yakın noktadan hedefe olan yatay mesafeyi birlikte ölçüyor, bu iki değeri diyagram üzerinde işaretleyerek modelin gerçekten yeterli olup olmadığını sahada değil, teklif aşamasında netleştiriyoruz. Bu adım atlanırsa, makine sahaya geldiğinde hedefe erişemediği ortaya çıkabilir — bu hem tesis hem bizim için kabul edilemez bir kayıptır.",
+                ],
+            },
+            {
+                baslik: "Hat üstü çalışmada emniyet ve iş izni",
+                paragraflar: [
+                    "Hattın tam üzerinde çalışmak, standart bir hol ortasında çalışmaktan farklı bir risk profiline sahiptir: düşen bir cıvata doğrudan hassas bir tezgâhın ya da bir robot hücresinin üzerine düşebilir. Bu yüzden hat üstü işler için ayrı bir iş izni formu doldurulur; alt bölgenin kapatılması, el aletlerinin bağlanması ve mümkünse çalışmanın hat duruşu sırasında yapılması bu formun standart maddeleridir.",
+                    "İş izni, sadece kâğıt üzerinde bir formalite değildir; tesisin bakım ya da güvenlik sorumlusuyla birlikte saha üzerinde gözden geçirilir ve çalışma başlamadan önce imzalanır. Bu adım, bakım hızını yavaşlatmak için değil, hattın kendisini ve çalışan güvenliğini aynı anda korumak için vardır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform ile teleskopik platform arasındaki temel fark nedir?",
+                cevap:
+                    "Eklemli platformun bomu birden fazla noktadan kırılarak hedefin üzerinden dolaşabilir; bu sayede önündeki bir engeli (konveyör, robot hücresi, boru hattı) aşıp sepeti hedefin tam üstüne indirebilir. Teleskopik platform ise bomunu düz bir çizgide uzatır; daha uzak mesafelere ulaşabilir ama önündeki bir engeli aşamaz, çünkü hareket doğrusaldır. Kısaca, engeli aşmak eklemli sınıfın işi, uzak mesafeye düz gitmek teleskopik sınıfın işidir. Bazı işlerde her iki ihtiyaç birlikte varsa hibrit modeller değerlendirilir.",
+            },
+            {
+                soru: "Erişim diyagramında maksimum yükseklik yazıyor ama makine oraya ulaşamadı, neden?",
+                cevap:
+                    "Bunun en sık nedeni, maksimum yükseklik ile maksimum yatay uzanmanın aynı anda kullanılamamasıdır — diyagramın eğrisi bunu gösterir, tek bir rakam göstermez. Sepet hem en yükseğe çıkıp hem de en uzağa uzanamaz; ikisi birlikte istenirse makine kapasitesinin dışına çıkılmış olur. Bu yüzden teklif öncesi hedefin hem yüksekliğini hem de yatay mesafesini birlikte ölçüyor, diyagram üzerinde bu noktanın gerçekten erişilebilir olduğunu doğruluyoruz — sahada sürpriz yaşanmasını bu şekilde önlüyoruz.",
+            },
+            {
+                soru: "Hattı durdurmadan, çalışırken eklemli platformla bakım yapılabilir mi?",
+                cevap:
+                    "Bazı durumlarda evet, ancak koşullu. Çalışma noktası hattın düşey izdüşümünün dışındaysa (örneğin hat kenarındaki bir aydınlatma armatürü) hat çalışırken de yapılabilir; koşul, makinenin üretim trafiğiyle kesişmeyen bir güzergâhta hareket etmesi ve alt bölgenin güvenli şekilde işaretlenmesidir. Ancak çalışma noktası doğrudan hattın üzerine geliyorsa — düşen bir parçanın hatta veya ürüne temas etme riski varsa — bu iş neredeyse her zaman planlı duruş listesine yazılır ve hat durduğunda yapılır.",
+            },
+            {
+                soru: "Akülü eklemli platform iç mekânda yeterli yüksekliğe çıkabiliyor mu?",
+                cevap:
+                    "Çoğu orta segment iç mekân işine akülü eklemli modeller yeterli gelir, ancak çok yüksek erişim gereken bazı üst segmentlerde akülü modellerin bom uzunluğu dizel muadillerine göre sınırlı kalabilir. Bu durumda önce tesisin havalandırma kapasitesi ve egzoz emisyonuna toleransı konuşulur; bazı tesislerde katalitik filtreli özel iç mekân dizel modeller kabul edilebiliyor. Kesin cevap, gereken yüksekliğin hangi segmentte kaldığına ve tesisin emisyon politikasına bağlıdır.",
+            },
+            {
+                soru: "Robot hücresinin hemen üzerinde eklemli platformla çalışmak güvenli mi?",
+                cevap:
+                    "Hücrenin hareket zarfı önceden netleştirilip hücre bakım moduna alınmadan ya da güvenlik bariyeri devrede tutulmadan bu çalışma başlamaz. Eklemli platformun bomu bu hacme girecekse, otomasyon ekibiyle birlikte hangi eksende hangi hareketin kilitli tutulacağı önceden belirlenir ve iş izni formuna yazılır. Bu koordinasyon atlanırsa, robot kolunun beklenmedik bir hareketi hem operatörü hem makineyi ciddi risk altına sokabilir; bu yüzden bu adım hiçbir koşulda gevşetilmez.",
+            },
+            {
+                soru: "Bir işte hem engel aşmak hem uzun mesafe kat etmek gerekiyorsa ne öneriyorsunuz?",
+                cevap:
+                    "Bu senaryoda genellikle eklemli-teleskopik hibrit bom modelleri en pratik çözümdür; bu modeller hem bir noktadan kırılıp engeli aşabilir hem de teleskopik uzama ile mesafeyi kapatabilir. Alternatif olarak, işi iki ayrı segmente bölüp bir kısmını teleskopik sınıfla (uzun düz mesafe), engel aşımı gereken kısmı eklemli sınıfla yapmak da mümkündür — ancak bu, iki makine ya da makine değişimi gerektireceğinden süre ve maliyeti artırır. Hangi yaklaşımın daha verimli olduğunu keşif sırasında hattın gerçek geometrisine bakarak birlikte karar veriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli/teleskopik bom geometrisi, erişim diyagramı okuma yöntemi ve emniyet uygulamaları EN 280 kapsamındaki genel makine sınıfı bilgisidir; tesis adı, model rakamı ve mesafe uydurulmamıştır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekân ve Depo İçi Platform Kiralama: Raf ve Tavan Hattı Ayrımı",
+        giris:
+            "Üretim hattı bakımı ile depo içi bakım, ilk bakışta benzer görünse de farklı bir mantıkla çalışır. Üretim hattında hedef genellikle hattın kendisinin üzerindedir ve engel aşımı gerekir; depoda ise hedef çoğunlukla raf sistemi, tavan tesisatı ya da yükleme kapısı çevresidir ve engel daha çok raf koridorunun darlığıdır. Eskişehir OSB'deki fabrikaların önemli bir kısmında üretim holünün yanında ayrı bir hammadde ya da mamul deposu bulunur; bu depoların tavan yüksekliği genellikle üretim holünden daha düşüktür ve zemin daha sadedir, dolayısıyla burada makaslı ya da kompakt eklemli platform çoğunlukla yeterli olur. Bu sayfa, iç mekân/depo işlerinde raf koridoru genişliğinin nasıl ölçüldüğünü, zemin iz bırakma hassasiyetinin nasıl yönetildiğini ve bu tür işlerin üretim hattı bakımından hangi noktalarda ayrıştığını anlatıyor; ana uzmanlığımız hat üstü erişim olduğu için burada daha kısa, öz bir kapsam sunuyoruz.",
+        maddeler: [
+            {
+                baslik: "Raf koridoru genişliği ve şase ölçüsü uyumu",
+                metin:
+                    "Depo raf koridorları genellikle forklift geçişine göre tasarlanır, bu da bazen makaslı platform şasesinden dar bazen geniş çıkabilir. Şase genişliği ile koridor ölçüsü keşifte karşılaştırılır; dar koridorlarda kompakt makaslı ya da dar gövdeli eklemli sınıf tercih edilir.",
+            },
+            {
+                baslik: "Zemin iz bırakma hassasiyeti",
+                metin:
+                    "Depo zeminleri epoksi kaplı olduğunda standart lastik iz bırakabilir; iz bırakmayan lastik seçeneği bu tür alanlarda standart uygulamamızdır. Yükleme rampası çevresindeki kot farkları da çukur önleme sistemi devrede tutularak yönetilir.",
+            },
+            {
+                baslik: "Raf üstü çalışmada devrilme riski",
+                metin:
+                    "Raf üstü bir noktaya erişirken makinenin rafa temas etmemesi ve rafın kendi stabilitesinin bozulmaması gerekir; bu nedenle raf yakınında çalışırken güzergâh ve mesafe önceden belirlenir, raf yükü fazla ya da dengesizse önce raf tarafında düzeltme yapılması istenir.",
+            },
+            {
+                baslik: "Tavan tesisatı: sprinkler ve aydınlatma bakımı",
+                metin:
+                    "Depo tavanındaki sprinkler hattı ve aydınlatma armatürleri düzenli bakım gerektirir; bu işler genellikle üretim hattından bağımsız, kendi takvimine göre planlanır ve hat duruşuna bağlı değildir — bu da işin zamanlamasını üretim hattı bakımına göre daha esnek kılar.",
+            },
+            {
+                baslik: "Depo ile üretim holü arası geçişte makine transferi",
+                metin:
+                    "Aynı tesiste hem depo hem üretim holü işi varsa, makinenin iki alan arasında geçişi için kapı yüksekliği ve zemin kotu farkı önceden kontrol edilir; bazı tesislerde depo kapısı üretim holü kapısından daha alçaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo alanı tipine göre platform seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, depo içi farklı çalışma alanlarında sıkça tercih ettiğimiz platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Tipik tavan yüksekliği", "Koridor genişliği", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Geniş raf koridoru", "8-12 m bandı", "Standart forklift genişliği", "Makaslı platform"],
+                        ["Dar raf koridoru", "8-12 m bandı", "Dar", "Kompakt makaslı"],
+                        ["Yükleme kapısı çevresi", "Orta", "Değişken", "Eklemli, dar gövdeli"],
+                        ["Açık depo sahası, engelsiz", "Yüksek", "Geniş", "Standart eklemli"],
+                        ["Raf üstü kapalı köşe", "Orta-yüksek", "Çok dar", "Sepetli örümcek platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Üretim hattı bakımından ayrışan noktalar",
+                paragraflar: [
+                    "Depo işlerinde hattın düşey izdüşümü kavramı büyük ölçüde geçerli değildir; risk daha çok raf devrilmesi ve zemin iz bırakma etrafında toplanır. Bu yüzden depo işlerinde iş izni formu farklı maddeler içerir — hat üstü engel aşımı yerine raf stabilitesi ve yükleme trafiği ön plandadır.",
+                    "Zamanlama açısından da fark var: depo bakımı genellikle üretim duruşuna bağlı değildir, kendi uygun zaman diliminde planlanabilir. Bu esneklik, depo işlerinin genellikle daha kısa vadede planlanabilmesini sağlar.",
+                ],
+            },
+            {
+                baslik: "Bu domainin kapsamındaki sınır",
+                paragraflar: [
+                    "Depo içi platform işi, ana uzmanlığımız olan üretim hattı bakımının yanında tamamlayıcı bir hizmettir; büyük ölçekli, sürekli depo operasyonu yürüten lojistik merkezleri için özelleşmiş bir tedarikçi daha uygun olabilir. Bizim güçlü tarafımız, aynı tesiste hem depo hem üretim holü işini aynı ziyarette, tutarlı bir planla yürütebilmektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depo raf koridorunda hangi platform sınıfı en pratik?",
+                cevap:
+                    "Çoğu standart raf koridorunda kompakt makaslı platform en pratik seçimdir; hem şase genişliği forklift geçişine göre tasarlanmış koridorlara uyar hem de dikey erişimi raf yüksekliği için yeterlidir. Koridor özellikle darsa ya da köşe noktalara erişim gerekiyorsa dar gövdeli eklemli ya da sepetli örümcek platform değerlendirilir. Kesin seçim, koridor genişliği ve raf yüksekliği ölçülmeden yapılmaz; bu iki ölçü keşifte alınır.",
+            },
+            {
+                soru: "Depo zemininde iz bırakmayan lastik zorunlu mu?",
+                cevap:
+                    "Zorunlu değil ama epoksi ya da perdahlı beton zeminlerde standart uygulamamız iz bırakmayan (beyaz dolgu) lastik kullanmaktır; bu, tesisin zemin garantisini korumak için düşük maliyetli bir önlemdir. Zemin tipi kaba beton ya da dış saha ise standart lastik yeterli olabilir. Zemin hassasiyetiniz varsa bunu talep sırasında belirtmeniz, doğru lastik tipinin baştan seçilmesini sağlar.",
+            },
+            {
+                soru: "Raf üstü bir noktaya çalışırken raf devrilme riski var mı?",
+                cevap:
+                    "Makinenin kendisi rafı devirmez, ancak makine ile raf arasındaki mesafe yanlış hesaplanırsa temas riski oluşabilir; bu yüzden raf yakınında çalışırken güzergâh ve mesafe önceden belirlenir. Eğer rafın kendisi zaten aşırı yüklü ya da dengesizse — bu bizim kontrolümüz dışında bir durumdur — önce raf tarafında bir düzeltme yapılmasını, ardından platformla çalışmaya başlanmasını öneririz.",
+            },
+            {
+                soru: "Sprinkler hattı bakımı için özel bir platform mı gerekiyor?",
+                cevap:
+                    "Özel bir makine sınıfı gerekmez; standart makaslı ya da kompakt eklemli platform sprinkler hattı bakımı için genellikle yeterlidir. Dikkat edilmesi gereken, sepetin sprinkler başlıklarına temas etmemesi ve varsa ıslak alarm sistemine yanlışlıkla dokunulmamasıdır; bu noktalar keşifte ve iş öncesi brifingde belirtilir. Sprinkler hattı bakımı genellikle üretim duruşuna bağlı olmadığı için zamanlama esnekliği daha fazladır.",
+            },
+            {
+                soru: "Aynı gün hem depo hem üretim holü işi yapabilir misiniz?",
+                cevap:
+                    "Evet, aynı tesiste iki alan da varsa, makinenin iki alan arasında geçişi için kapı yüksekliği ve zemin kotu farkı önceden kontrol edilerek tek ziyarette her iki işi de planlıyoruz. Bazı tesislerde depo kapısı üretim holü kapısından daha alçak olabiliyor, bu durumda makine geçişi için alternatif güzergâh ya da farklı makine kullanımı gerekebilir — bu detay keşifte netleştirilir.",
+            },
+            {
+                soru: "Büyük bir lojistik merkezi için sürekli depo platformu filosu kiralayabilir miyiz?",
+                cevap:
+                    "Bu tür büyük ölçekli, sürekli depo operasyonları bizim ana uzmanlık alanımızın (üretim hattı bakımı) dışındadır; dürüstçe belirtmek isteriz ki bu konuda özelleşmiş, daha geniş filoya sahip bir tedarikçi sizin için muhtemelen daha uygun olur. Bizim güçlü olduğumuz senaryo, aynı tesiste hem üretim holü hem de yan depo alanının tek bir ziyarette, tutarlı bir planla yürütülmesidir; bu ölçekte bir talep için memnuniyetle görüşürüz ama beklentinizi baştan netleştirmek isteriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo/raf koridoru ölçüleri ve zemin iz bırakma pratiği genel saha bilgisidir; tesis adı, raf kapasitesi ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montaj Platformu: Sanayi Holünde Hat Durmadan Yapı İşi",
+        giris:
+            "Sanayi holündeki çelik konstrüksiyon işleri, çoğunlukla iki farklı zaman diliminde yaşanır: tesisin ilk kuruluşunda ya da genişlemesinde geniş çaplı montaj, ve mevcut bir üretim holünün içinde — hat çalışırken ya da kısa duruşlarda — yapılan ek kiriş, platform, yürüyüş yolu ya da taşıyıcı sistem montajı. Eskişehir OSB'deki fabrikaların çoğunda ikinci senaryo daha sık karşımıza çıkıyor: mevcut bir üretim hattının üzerine yeni bir kablo taşıyıcı sistemi, ek bir vinç rayı ya da bakım yürüyüş yolu monte edilirken, hattın altındaki ekipman yerinden oynatılamaz ve üretim mümkün olduğunca az kesintiye uğramalıdır. Bu, çelik montaj işini standart bir inşaat sahasından ayıran temel fark: burada platform operatörü sadece yüksekte çalışmaz, aynı zamanda altındaki üretim ekipmanının ve varsa devam eden üretimin farkında olarak hareket eder. Bom uzunluğu, kaynak ekipmanının sepette taşınabilirliği, birden fazla montaj noktası arasında geçiş hızı ve gezer vinçle ortak hava sahası paylaşımı bu işlerin belirleyici teknik unsurlarıdır. Bu sayfa, sanayi holü içi çelik konstrüksiyon montajında platform seçimini, kaynak işi güvenlik önlemlerini ve mevcut hat ile eş zamanlı çalışma kurallarını anlatıyor — eklemli platform sayfamızla birlikte domainimizin en detaylı iki başlığından biridir.",
+        maddeler: [
+            {
+                baslik: "Kaynak ekipmanı ve yangın riskinin sepette yönetimi",
+                metin:
+                    "Kaynak makinesi, gaz tüpü ya da kesme ekipmanı sepette taşınacaksa önce sepet kapasitesine uygunluğu, ardından yangın riski değerlendirilir. Kaynak sırasında sıçrayan kıvılcımın altındaki üretim ekipmanına, kablo tesisatına ya da yanıcı malzemeye ulaşmaması için koruyucu branda serilir ve gerekiyorsa yangın gözcüsü görevlendirilir. Akülü platform tercih edilir çünkü kaynak dumanı zaten ortamda yeterince yoğundur, egzoz gazı eklemek istenmez.",
+            },
+            {
+                baslik: "Mevcut hat üzerine yeni taşıyıcı sistem montajı",
+                metin:
+                    "Kablo kanalı, boru askı sistemi ya da yeni bir vinç rayı, çoğunlukla mevcut hattın hemen üzerine monte edilir. Bu montaj sırasında platform hattın kenarında durup bomunu üzerine uzatır; hattın kendisi yerinden oynatılmaz. Montaj noktaları birden fazlaysa (örneğin 10-15 metrelik bir kablo kanalı boyunca birden fazla askı noktası), platform bu noktalar arasında art arda konumlanır ve her noktada kısa bir duruş yapılır.",
+            },
+            {
+                baslik: "Gezer vinçle ortak çalışma alanı paylaşımı",
+                metin:
+                    "Ağır çelik profil ya da kiriş taşınacaksa bu iş genellikle gezer vinçle yapılır; platform ise montaj noktasında sabitleme, kaynak ya da cıvatalama için kullanılır. İki ekipmanın aynı düşeyde bulunmaması kuralı burada da geçerlidir — vinç profili taşırken platform o açıklıktan çekilir, profil yerine oturduktan sonra platform tekrar konumlanır. Bu sıralama vinç operatörüyle telsiz üzerinden koordine edilir.",
+            },
+            {
+                baslik: "Bom uzunluğu ve montaj yüksekliği ilişkisi",
+                metin:
+                    "Sanayi holü çatı kirişi ya da üst taşıyıcı sistem genellikle 8-15 metre bandında yer alır; bu yükseklikte hem yeterli erişime hem de sepette ağırlık taşıma kapasitesine sahip eklemli ya da teleskopik model seçilir. Kaynak işlemi sırasında sepetin sabit ve titreşimsiz durması önemlidir, bu yüzden rüzgârlı ya da hareketli zeminde çalışma önerilmez.",
+            },
+            {
+                baslik: "Duruş süresi ile paralel montaj kararı",
+                metin:
+                    "Montaj işinin bir kısmı hat çalışırken (hattın düşey izdüşümü dışında kalan bölümler) yapılabilirken, hattın tam üzerine gelen kaynak noktaları planlı duruşa bırakılır. Bu ayrım, montaj planı hazırlanırken bakım şefiyle birlikte netleştirilir ve duruş listesi buna göre kısaltılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik montaj işinde alan tipi ve platform seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, sanayi holü içi çelik konstrüksiyon montaj işlerinde sık karşılaşılan senaryoları ve önerilen platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj senaryosu", "Tipik yükseklik", "Kaynak ekipmanı", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Kablo kanalı/boru askısı", "6-10 m", "Hafif, sepette taşınabilir", "Eklemli, orta kapasiteli"],
+                        ["Yeni vinç rayı montajı", "10-15 m", "Ağır, gezer vinç desteği gerekir", "Teleskopik + vinç koordinasyonu"],
+                        ["Bakım yürüyüş yolu", "8-12 m", "Orta", "Eklemli"],
+                        ["Çatı altı taşıyıcı profil", "12-18 m", "Değişken", "Yüksek erişimli eklemli/teleskopik"],
+                        ["Kısa nokta kaynağı, hat kenarı", "4-8 m", "Hafif", "Kompakt makaslı/eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yangın ve kıvılcım önlemleri",
+                paragraflar: [
+                    "Sanayi holü içinde yapılan her kaynak işinde, altındaki üretim ekipmanına ve tesisatına kıvılcım ulaşmaması için koruyucu branda serilir; yanıcı madde varsa alan önceden temizlenir. Uzun süreli ya da riskli kaynak işlerinde yangın gözcüsü görevlendirilmesi ve yakın çevrede yangın söndürme ekipmanı bulundurulması standart uygulamamızdır.",
+                    "Bu önlemler, tesisin kendi iş güvenliği prosedürüyle birlikte, çalışma başlamadan önce iş izni formuna yazılı olarak işlenir; sözlü anlaşma yeterli görülmez.",
+                ],
+            },
+            {
+                baslik: "Gezer vinç koordinasyonu: sıralı çalışma protokolü",
+                paragraflar: [
+                    "Ağır bir çelik parçanın vinçle taşınıp platformla sabitlendiği işlerde, iki ekipmanın hareketi sıralı yürütülür: önce vinç profili yaklaştırır ve indirir, platform bu sırada güvenli mesafede bekler; profil yaklaşık pozisyona geldiğinde vinç sabit tutulur ve platform devreye girip son hizalama, kaynak ya da cıvatalamayı yapar.",
+                    "Bu sıra, vinç operatörü ile platform operatörü arasında telsiz üzerinden karşılıklı teyitle yönetilir; hiçbir adım diğerinin onayı olmadan başlamaz. Bu protokol, özellikle ağır ve hassas parçaların montajında kazaların önlenmesinde belirleyici rol oynar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mevcut üretim hattı çalışırken üzerine yeni bir kablo kanalı monte edilebilir mi?",
+                cevap:
+                    "Kanalın güzergâhı hattın düşey izdüşümü dışında kalıyorsa evet, hat çalışırken de yapılabilir; koşul, platformun üretim trafiğiyle kesişmeyen bir güzergâhta hareket etmesi ve montaj noktasının altındaki alanın işaretlenmesidir. Ancak güzergâh hattın tam üzerinden geçiyorsa — düşen bir parça ya da kaynak kıvılcımı doğrudan hatta temas edebilecekse — bu kısım neredeyse her zaman planlı duruşa bırakılır. Montaj planı hazırlanırken bu ayrım bakım şefiyle birlikte netleştirilir.",
+            },
+            {
+                soru: "Sepette kaynak makinesi taşırken yangın riski nasıl kontrol ediliyor?",
+                cevap:
+                    "Önce sepet kapasitesinin kaynak makinesi ve gaz tüpü ağırlığına uygun olduğu doğrulanır. Çalışma noktasının altına koruyucu branda serilir, yakında yanıcı malzeme varsa önceden uzaklaştırılır ya da örtülür. Uzun süreli işlerde yangın gözcüsü görevlendirilir ve yakın mesafede yangın söndürme ekipmanı bulundurulur. Akülü platform tercih edilir çünkü kaynak dumanına ek olarak egzoz gazı eklemek istenmez; bu, hem çalışan sağlığı hem de görüş netliği açısından önemlidir.",
+            },
+            {
+                soru: "Gezer vinç ile aynı anda çalışırken platform hangi noktada beklemeli?",
+                cevap:
+                    "Vinç profili taşırken platform, vincin hareket edeceği açıklıktan tamamen çekilir ve güvenli bir mesafede bekler; iki ekipman hiçbir koşulda aynı düşeyde bulunmaz. Profil hedef pozisyona yaklaştığında vinç sabit tutulur, ancak profil tam yerine oturana kadar platform devreye girmez. Bu sıralama telsiz üzerinden vinç operatörüyle karşılıklı teyitle yürütülür; adımlar arasında onay beklenmeden ilerleme yapılmaz. Bu protokol özellikle ağır parça montajında kazaları önlemede kritik rol oynar.",
+            },
+            {
+                soru: "Yeni bir vinç rayı montajı için hangi platform sınıfı gerekir?",
+                cevap:
+                    "Vinç rayı montajı genellikle 10-15 metre bandında, ağır profil taşıma ve mevcut gezer vinçle koordineli çalışma gerektirdiği için teleskopik sınıf ve vinç koordinasyon protokolü birlikte önerilir. Sepette ağırlık taşınacaksa (kaynak ekipmanı, el aletleri) kapasite önceden hesaplanır; profilin kendisi vinçle taşınır, platform yalnızca sabitleme ve kaynak/cıvatalama için kullanılır — profili doğrudan platform sepetiyle taşımayı önermiyoruz çünkü bu hem kapasite hem stabilite açısından risklidir.",
+            },
+            {
+                soru: "Çatı altı taşıyıcı profil montajında rüzgâr ya da titreşim sorun olur mu?",
+                cevap:
+                    "Evet, yüksek montaj işlerinde (12-18 metre bandı) sepetin sabit ve titreşimsiz durması kaynak kalitesi açısından önemlidir; bu yüzden kapalı hol içinde bile hava akımı yaratan büyük vantilatör ya da açık kapı gibi etkenler değerlendirilir. Dış cephede ya da açık alanlarda yapılan benzer işlerde rüzgâr hızı sınırı standart güvenlik prosedürümüzün bir parçasıdır ve aşıldığında çalışma durdurulur. Bu sınırlar EN 280 kapsamındaki genel makine güvenlik kurallarına dayanır.",
+            },
+            {
+                soru: "Montaj işi birden fazla noktaya yayılıyorsa aynı gün kaç nokta tamamlanabilir?",
+                cevap:
+                    "Bu, noktalar arası mesafeye, her noktadaki iş süresine (kaynak, cıvatalama, hizalama) ve gezer vinç kullanımı gerekip gerekmediğine bağlıdır. Keşif sırasında montaj noktalarının listesini çıkarıp her biri için tahmini süre veriyoruz; vinç koordinasyonu gerektiren noktalar genellikle daha yavaş ilerler çünkü sıralı çalışma protokolü zaman alır. Kesin bir gün sayısı vermeden önce bu listeyi birlikte çıkarmayı öneriyoruz, çünkü tek bir karmaşık nokta bile günün geri kalanını etkileyebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sanayi holü çelik konstrüksiyon montajında platform-vinç koordinasyonu ve kaynak işi güvenlik önlemleri genel iş güvenliği ve EN 280 kapsamındaki sektör pratiğidir; tesis adı, profil ölçüsü ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Sahası Platform Kiralama — Kapsam Notu",
+        giris:
+            "Bu domainin ana uzmanlığı Eskişehir OSB fabrikalarında üretim hattı bakımıdır; tarım ve silo sahası işleri bizim yoğun olarak çalıştığımız bir alan değildir ve bu sayfada bunu dürüstçe belirtmek istiyoruz. Yine de bölgemizdeki bazı sanayi tesislerinin kendi hammadde silosu ya da açık depolama alanı bulunabiliyor; bu durumda talebi değerlendiriyoruz ama kırsal tarım işletmesi ya da çiftlik sahasına özel bir uzmanlığımız yok. Kırsal arazi koşulları — düzensiz zemin, toz, geniş açık alan — üretim holü içindeki kontrollü ortamdan oldukça farklıdır ve bu koşullara özel ekipman ve deneyim gerektirir. Gerçekten yoğun tarım/silo işiniz varsa, bu konuda daha fazla saha deneyimine sahip bir tedarikçiyle çalışmanızı öneririz; sanayi tesisi bünyesindeki tekil bir silo bakımı gibi sınırlı bir talep için bizimle görüşebilirsiniz.",
+        maddeler: [
+            {
+                baslik: "Ne zaman bu talebi karşılıyoruz",
+                metin:
+                    "Sanayi tesisi bünyesinde bulunan, hammadde ya da yarı mamul depolamak için kullanılan tekil bir silonun dış cephe ya da üst kapak bakımı gibi sınırlı işlerde talebi değerlendiriyoruz. Geniş çaplı tarım işletmesi ya da çok sayıda siloyu kapsayan işler kapsam dışıdır.",
+            },
+            {
+                baslik: "Zemin koşulu belirsizliği",
+                metin:
+                    "Açık saha zemini genellikle kontrol edilmemiş bir zemindir; taşıma gücü, eğim ve olası çukurlar önceden bilinmeyebilir. Bu belirsizlik nedeniyle açık saha işlerinde standart platform yerine daha geniş taban ve arazi tipi lastiğe sahip modeller gerekebilir.",
+            },
+            {
+                baslik: "Toz ve rüzgâr etkisi",
+                metin:
+                    "Silo çevresinde toz yoğunluğu ve rüzgâr, kapalı hol içine göre çok daha değişkendir; rüzgâr hızı güvenlik sınırını aştığında çalışma durdurulur. Bu, kapalı ortamdaki işlere göre daha sık yaşanan bir kesinti riskidir.",
+            },
+            {
+                baslik: "Ulaşım mesafesi ve ek maliyet",
+                metin:
+                    "Kırsal ya da tesis dışı bir noktaya sevkiyat, bölge içi standart teslimattan farklı bir lojistik planlama gerektirebilir; bu durumda ek nakliye maliyeti önceden netleştirilir.",
+            },
+            {
+                baslik: "Dürüst yönlendirme",
+                metin:
+                    "Talep geldiğinde işin kapsamını netleştiriyoruz; gerçekten yoğun ya da tekrarlayan bir tarım/silo işiyse, bu konuda bizden daha deneyimli bir tedarikçiye yönlendirmeyi tercih ediyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapsam içi ve kapsam dışı senaryolar",
+                paragraflar: [
+                    "Aşağıdaki tablo, hangi tür tarım/silo taleplerini karşıladığımızı, hangilerini karşılamadığımızı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Kapsam", "Açıklama"],
+                    satirlar: [
+                        ["Sanayi tesisi bünyesinde tekil silo", "İçinde", "Sınırlı, tek seferlik bakım"],
+                        ["Geniş çaplı tarım işletmesi", "Dışında", "Özelleşmiş tedarikçi önerilir"],
+                        ["Çiftlik/sera yapısı bakımı", "Dışında", "Ana uzmanlık alanı değil"],
+                        ["Sanayi holüne bitişik açık depolama", "İçinde (sınırlı)", "Zemin koşulu önceden değerlendirilir"],
+                        ["Kırsal enerji hattı/direk işi", "Dışında", "Farklı bir uzmanlık alanı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Açık saha zemin değerlendirmesi",
+                paragraflar: [
+                    "Kapalı hol içi işlerin aksine, açık saha işlerinde zemin taşıma gücü ve düzlük garantisi tesis tarafından net verilmeyebilir. Bu belirsizlik nedeniyle açık saha talebi geldiğinde önce fotoğraf ya da kısa bir saha ziyaretiyle zemin durumu değerlendirilir; standart platformun güvenle çalışabileceği netleşmeden sevkiyat yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Neden bu alanda derinleşmiyoruz",
+                paragraflar: [
+                    "Ana uzmanlığımız kapalı üretim holü içinde hat üstü erişimdir; bu alanda derin bilgi ve filo birikimimiz var. Açık arazi ve tarım sahası farklı bir zemin, farklı bir ekipman seti ve farklı bir saha deneyimi gerektirir. Bunu iyi yapan tedarikçilere yönlendirmek, elimizde olmayan bir uzmanlığı iddia etmekten daha doğru buluyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrikamızın bahçesindeki hammadde silosunun bakımını yapabilir misiniz?",
+                cevap:
+                    "Sanayi tesisi bünyesindeki tekil bir siloysa, bu talebi değerlendiriyoruz. Öncelikle silonun çevresindeki zemin durumunu ve erişilecek noktanın yüksekliğini netleştiriyoruz; açık saha zemini kontrol edilmemiş olabileceği için standart platformun güvenle çalışıp çalışamayacağını önceden değerlendiriyoruz. Sınırlı, tek seferlik bir bakım işiyse genellikle sorun olmuyor; ancak bu bizim ana uzmanlık alanımız olmadığı için beklentinizi baştan netleştirmek isteriz.",
+            },
+            {
+                soru: "Çiftlik ya da tarım işletmemiz için düzenli platform kiralama hizmeti veriyor musunuz?",
+                cevap:
+                    "Hayır, açıkça belirtmek isteriz: ana uzmanlığımız Eskişehir OSB fabrikalarında üretim hattı bakımıdır ve kırsal tarım işletmelerine özel bir deneyimimiz ya da filo birikimimiz yok. Bu tür düzenli, geniş çaplı bir ihtiyacınız varsa, tarım ve kırsal saha koşullarında daha fazla deneyime sahip bir tedarikçiyle çalışmanızı öneririz — bu hem sizin hem bizim için daha doğru bir eşleşme olur.",
+            },
+            {
+                soru: "Açık sahada rüzgâr çalışmayı ne zaman durdurur?",
+                cevap:
+                    "Rüzgâr hızı, makinenin üreticisi tarafından belirlenen güvenlik sınırını aştığında çalışma durdurulur; bu sınır EN 280 kapsamındaki genel makine güvenlik kurallarına dayanır ve modelden modele değişebilir. Açık saha işlerinde bu durma riski kapalı hol içindeki işlere göre belirgin şekilde daha yüksektir, bu yüzden açık saha talebinde bulunurken planınıza bir miktar hava koşulu toleransı eklemenizi öneririz.",
+            },
+            {
+                soru: "Silo bakımı için zemin ölçümü şart mı?",
+                cevap:
+                    "Açık saha işlerinde evet, önceden bir değerlendirme yapıyoruz — en azından fotoğraf ya da kısa açıklama üzerinden, gerekirse kısa bir saha ziyaretiyle. Zemin taşıma gücü ve düzlük garantisi tesis tarafından net verilmediği için, bu adımı atlayıp doğrudan sevkiyat yapmak makinenin sahada güvenli çalışamaması riskini taşır. Bu risk, kısa bir ön değerlendirmenin maliyetinden çok daha yüksektir.",
+            },
+            {
+                soru: "Tesis dışı bir noktaya sevkiyat için ek ücret çıkar mı?",
+                cevap:
+                    "Genellikle evet, tesis dışı ya da kırsal bir noktaya sevkiyat, bölge içi standart teslimattan farklı bir lojistik planlama gerektirebilir ve bu ek nakliye maliyeti önceden netleştirilir. Kesin rakam mesafeye ve yol koşuluna göre değişir; bu yüzden teklif öncesi tam adres ve erişim bilgisini almamız gerekir.",
+            },
+            {
+                soru: "Bizim işimiz sizin ana uzmanlık alanınız değilse neden bu sayfayı yazdınız?",
+                cevap:
+                    "Bu sayfayı, arama yapan kullanıcıyı yanıltmamak için yazdık: tarım ve silo sahası arayan biri sitemize geldiğinde, bu alanın bizim güçlü olduğumuz konu olmadığını net şekilde görsün istedik. Sanayi tesisi bünyesindeki sınırlı bir talebi karşılayabiliyoruz, ama geniş çaplı ya da tekrarlayan bir tarım/silo işiniz varsa, dürüstçe sizi daha uygun bir tedarikçiye yönlendirmeyi tercih ediyoruz. Bu, hem sizin zamanınızı hem bizim kaynağımızı doğru yerde kullanmamızı sağlıyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa kapsam sınırını dürüstçe belirtir; açık saha zemin ve rüzgâr güvenlik kuralları EN 280 kapsamındaki genel makine güvenlik bilgisidir, tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Fabrika İçi Enerji Panosu ve Aydınlatma Bakım Platformu",
+        giris:
+            "Üretim hattının üzerinde asılı duran aydınlatma armatürleri, kablo taşıyıcı sistemler ve bazen hat kenarındaki enerji dağıtım panoları, hat çalışırken çoğu zaman erişilmeyen ama düzenli bakım gerektiren noktalardır. Eskişehir OSB'deki fabrikalarda bu iş genellikle iki farklı zamanlamayla karşımıza çıkıyor: planlı duruş listesine yazılan büyük ölçekli aydınlatma yenileme işleri, ve hat çalışırken de yapılabilen, hattın düşey izdüşümü dışında kalan hol kenarı aydınlatma bakımı. Bu sayfa, fabrika içi enerji ve aydınlatma bakımında hangi işlerin hat durmadan yapılabildiğini, enerjili pano yakınında çalışırken hangi mesafe ve izolasyon kurallarının uygulandığını ve armatür değişiminde sepet konumlandırmasının nasıl yönetildiğini anlatıyor. Bu, kırsal enerji hattı ya da direk işinden farklı bir kapsamdır — burada konu her zaman fabrika duvarları içindeki, düşük-orta gerilim seviyesindeki sabit tesisatın bakımıdır.",
+        maddeler: [
+            {
+                baslik: "Hat çalışırken yapılabilen aydınlatma bakımı",
+                metin:
+                    "Hol kenarındaki aydınlatma armatürleri, hattın düşey izdüşümü dışında kaldığı sürece hat çalışırken de bakım görebilir. Koşul, platformun üretim trafiğiyle kesişmeyen bir güzergâhta hareket etmesi ve çalışma noktasının altının işaretlenmesidir. Hattın tam üzerindeki armatürler ise planlı duruşa bırakılır.",
+            },
+            {
+                baslik: "Enerjili pano yakınında mesafe kuralı",
+                metin:
+                    "Fabrika içi enerji dağıtım panolarının yakınında çalışırken, panonun enerjili olup olmadığı ve varsa hangi mesafenin korunması gerektiği tesisin elektrik sorumlusuyla birlikte netleştirilir. Kesin bir mesafe rakamı vermek yerine, her pano için tesisin kendi elektrik güvenlik prosedürünü uyguluyoruz; bu prosedür panonun gerilim seviyesine göre değişebilir.",
+            },
+            {
+                baslik: "Armatür değişiminde sepet konumlandırma",
+                metin:
+                    "Tavan asma sistemine bağlı armatürlerin değişiminde sepetin armatüre doğrudan temas etmeden, yandan yaklaşacak şekilde konumlandırılması önemlidir; bu hem armatürün hem de sepet korkuluğunun zarar görmesini önler. Ağır armatürlerde (örneğin sanayi tipi projektör) kaldırma işlemi iki kişilik ekiple yapılır.",
+            },
+            {
+                baslik: "Kablo taşıyıcı sistem bakımı",
+                metin:
+                    "Kablo kanalı ya da tel örgü taşıyıcı sistem üzerindeki bakım (kablo ekleme, düzeltme, etiketleme) genellikle uzun bir güzergah boyunca birden fazla nokta gerektirir; bu işler platform için çok noktalı rota mantığıyla planlanır, tek seferde tüm güzergah değil bölüm bölüm ilerlenir.",
+            },
+            {
+                baslik: "Acil aydınlatma arızasında hızlı müdahale",
+                metin:
+                    "Üretim güvenliğini etkileyen bir aydınlatma arızası (örneğin acil çıkış yönlendirme ışığı) bildirildiğinde, bu talebi öncelikli olarak değerlendiriyoruz; standart planlı bakımdan farklı olarak en hızlı uygun aracı yönlendiriyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Enerji/aydınlatma iş tipine göre planlama",
+                paragraflar: [
+                    "Aşağıdaki tablo, fabrika içi enerji ve aydınlatma bakım işlerinin tipik planlama mantığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Hat çalışırken mümkün mü", "Elektrik güvenlik adımı", "Tipik süre"],
+                    satirlar: [
+                        ["Hol kenarı armatür değişimi", "Evet", "Standart izolasyon kontrolü", "Kısa"],
+                        ["Hat üstü armatür değişimi", "Hayır, duruşa bağlı", "Standart izolasyon kontrolü", "Kısa-orta"],
+                        ["Enerji panosu yakını iş", "Duruma bağlı", "Tesis elektrik sorumlusu onayı", "Orta"],
+                        ["Kablo taşıyıcı sistem bakımı", "Genellikle evet", "Standart izolasyon kontrolü", "Uzun, çok noktalı"],
+                        ["Acil aydınlatma arızası", "Evet, öncelikli", "Hızlı değerlendirme", "Değişken"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik güvenlik prosedürü tesise göre değişir",
+                paragraflar: [
+                    "Her fabrikanın kendi elektrik güvenlik prosedürü ve yetkili elektrik personeli vardır; biz bu prosedürün üzerine kendi kuralımızı dayatmıyoruz, tesisin prosedürüne uyuyoruz. Enerjili bir panonun yakınında çalışılacaksa, işe başlamadan önce tesisin elektrik sorumlusundan yazılı ya da sözlü onay alınması standart uygulamamızdır.",
+                    "Bu yaklaşım, farklı tesislerde farklı gerilim seviyeleri ve farklı izolasyon standartları olabileceği gerçeğini kabul eder; genel bir mesafe rakamı vermek yerine her sahanın kendi koşuluna göre hareket ederiz.",
+                ],
+            },
+            {
+                baslik: "Kırsal enerji hattından farkı",
+                paragraflar: [
+                    "Bu sayfa fabrika duvarları içindeki sabit tesisatı kapsar; açık sahadaki orta-yüksek gerilim enerji nakil hattı ya da direk işleri farklı bir uzmanlık alanıdır ve bu domainin ana kapsamının dışındadır. Kırsal enerji hattı işiniz varsa bu konuda özelleşmiş bir hizmet aramanızı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hat üzerindeki aydınlatma armatürünü hat çalışırken değiştirebilir misiniz?",
+                cevap:
+                    "Armatür hattın düşey izdüşümünün tam üzerindeyse bu iş neredeyse her zaman planlı duruşa bırakılır; düşen bir parça ya da aletin doğrudan hatta ya da ürüne temas etme riski kabul edilemez. Ancak armatür hol kenarında, hattın izdüşümü dışında bir noktadaysa hat çalışırken de değişim yapılabilir — koşul, platformun üretim trafiğiyle kesişmeyen bir güzergâhta hareket etmesi ve çalışma alanının altının işaretlenmesidir. Bu ayrım her zaman keşifte netleştirilir.",
+            },
+            {
+                soru: "Enerji panosu yakınında çalışırken hangi mesafeyi koruyorsunuz?",
+                cevap:
+                    "Kesin bir rakam yerine, her panonun gerilim seviyesine ve tesisin kendi elektrik güvenlik prosedürüne göre hareket ediyoruz; genel bir mesafe rakamı vermek yanıltıcı olur çünkü farklı gerilim seviyelerinde farklı izolasyon kuralları geçerlidir. İşe başlamadan önce tesisin elektrik sorumlusundan panonun durumu (enerjili mi, izole mi) hakkında bilgi alıyor, gerekiyorsa yazılı onay istiyoruz. Bu konuda tesisin kendi prosedürünü esas alıyoruz, kendi tahmini kuralımızı dayatmıyoruz.",
+            },
+            {
+                soru: "Kablo taşıyıcı sistem bakımı ne kadar sürer?",
+                cevap:
+                    "Bu, güzergâhın uzunluğuna ve kaç noktada müdahale gerektiğine bağlıdır; genellikle çok noktalı bir iş olduğu için tek seferde tüm güzergâhı bitirmek yerine bölüm bölüm ilerliyoruz. Keşifte güzergâhı ve müdahale noktalarını birlikte belirleyip her nokta için tahmini süre çıkarıyoruz; toplam süre bu noktaların toplamına ve noktalar arası geçiş süresine bağlı olarak değişir. Kesin bir gün sayısı vermeden önce bu listeyi çıkarmayı öneriyoruz.",
+            },
+            {
+                soru: "Acil çıkış yönlendirme ışığı arızalanırsa ne kadar hızlı gelebiliyorsunuz?",
+                cevap:
+                    "Üretim güvenliğini doğrudan etkileyen bir arıza bildirildiğinde bu talebi öncelikli değerlendiriyor, standart planlı bakım sırasına göre değil en hızlı uygun aracı yönlendirerek karşılıyoruz. Kesin bir varış süresi rakamı vermiyoruz çünkü bu, o anki araç ve ekip müsaitliğine bağlıdır; ancak bu tür bir talebi aldığımızda önceliklendirdiğimizi net şekilde belirtebiliriz.",
+            },
+            {
+                soru: "Sanayi tipi ağır projektör değişiminde ekstra önlem alıyor musunuz?",
+                cevap:
+                    "Evet, ağır armatürlerde (örneğin sanayi tipi projektör) kaldırma ve montaj işlemi tek kişiyle değil iki kişilik ekiple yapılır; biri sepette armatürü tutarken diğeri bağlantı ve sabitleme işlemini yürütür. Sepet kapasitesi armatür ağırlığına göre önceden kontrol edilir ve armatürün sepete doğrudan temas etmeden, yandan yaklaşarak konumlandırılmasına dikkat edilir; bu hem armatürün hem korkuluğun zarar görmesini önler.",
+            },
+            {
+                soru: "Bu hizmet kırsal enerji hattı ya da direk bakımını da kapsıyor mu?",
+                cevap:
+                    "Hayır, bu sayfa yalnızca fabrika duvarları içindeki sabit tesisatı — aydınlatma armatürü, kablo taşıyıcı sistem, enerji panosu çevresi — kapsar. Açık sahadaki orta-yüksek gerilim enerji nakil hattı ya da direk işleri tamamen farklı bir teknik ve güvenlik uzmanlığı gerektirir ve bu domainin ana kapsamının dışındadır; böyle bir ihtiyacınız varsa bu konuda özelleşmiş bir hizmet aramanızı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Fabrika içi elektrik güvenlik prosedürünün tesise özgü olduğu ve genel bir mesafe rakamı yerine tesisin kendi prosedürünün esas alındığı açıkça belirtilmiştir; tesis adı ve gerilim rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü Platform Kiralama: Hassas Hat Ortamında Yetkin Kullanım",
+        giris:
+            "Üretim hattı bakımında operatörsüz kiralama her zaman ilk tercih olmuyor; bunun nedeni tesisin operatörsüz kiralamaya kapalı olması değil, hattın kendine özgü risklerinin (hassas tezgâh yakınlığı, gezer vinç trafiği, otomasyon hücresi hareket zarfı) deneyimli bir gözle yönetilmesi gerekliliğidir. Bu yüzden Eskişehir OSB'deki fabrikalarda, özellikle hattın tam üzerinde ya da hassas ekipman yakınında çalışılacak işlerde operatörlü kiralamayı öneriyoruz; operatörümüz sadece makineyi kullanmakla kalmıyor, sahadaki diğer ekipmanla (vinç, robot kolu) koordinasyonu da yürütüyor. Operatörsüz kiralama, tesisin kendi yetkili ve deneyimli kullanıcısı olduğunda ve iş nispeten basit, açık alan işiyse tercih edilebiliyor. Bu sayfa iki seçenek arasındaki farkı, operatör yeterliliğinin nasıl doğrulandığını ve hangi iş tipinde hangisinin önerildiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Hat üstü işlerde operatörlü kiralamanın gerekçesi",
+                metin:
+                    "Hattın tam üzerinde çalışırken operatörün, altındaki ekipmanın ve devam eden (varsa) üretimin farkında olarak hareket etmesi gerekir; bu, standart bir depo işinden farklı bir dikkat düzeyi ister. Deneyimli operatörümüz, hangi noktada makine hareketinin durdurulması gerektiğini, hangi noktada sepetin sabit tutulması gerektiğini sahada anlık olarak değerlendirir.",
+            },
+            {
+                baslik: "Gezer vinç ve robot hücresiyle koordinasyon",
+                metin:
+                    "Operatörlü kiralamada operatörümüz, sahadaki vinç operatörü ya da otomasyon ekibiyle telsiz üzerinden koordinasyonu bizzat yürütür; bu koordinasyon deneyim gerektirir çünkü yanlış zamanlamalı bir hareket ciddi kazaya yol açabilir. Operatörsüz kiralamada bu koordinasyon sorumluluğu tamamen tesisin kendi personeline geçer.",
+            },
+            {
+                baslik: "Operatörsüz kiralamada yeterlilik doğrulaması",
+                metin:
+                    "Operatörsüz kiralama talep edildiğinde, kullanacak personelin ilgili eğitim/yeterlilik belgesine sahip olduğu yazılı olarak teyit edilir. Belge yoksa ya da personel makineyi ilk kez kullanacaksa, teslimat sırasında kısa bir kullanım brifingi veriyoruz — ancak bu brifing operatör yeterliliğinin yerine geçmez.",
+            },
+            {
+                baslik: "Vardiya/rota planlamasında operatör sürekliliği",
+                metin:
+                    "Uzun süren bir revizyonda aynı operatörün işin başından sonuna kadar sahada kalması tercih edilir; operatör değişimi, sahanın özel noktalarının (hassas tezgâh konumu, vinç açıklığı) yeniden aktarılmasını gerektirir ve bu geçiş yazılı olarak yapılır.",
+            },
+            {
+                baslik: "Operatörsüz kiralamanın uygun olduğu senaryolar",
+                metin:
+                    "Açık, engelsiz bir alanda, hassas ekipman yakınlığı olmayan ve tesisin kendi deneyimli kullanıcısının bulunduğu işlerde operatörsüz kiralama pratik ve ekonomik bir seçenektir; bu senaryoda makinenin günlük kontrolü ve şarj/bakım sorumluluğu da tesise geçer.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kıyaslama",
+                paragraflar: [
+                    "Aşağıdaki tablo, iş tipine göre hangi seçeneğin genellikle önerildiğini özetler; kesin karar sahanın özel koşullarına göre değişebilir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Önerilen seçenek", "Gerekçe"],
+                    satirlar: [
+                        ["Hat üstü, hassas tezgâh yakını", "Operatörlü", "Koordinasyon ve dikkat gerektirir"],
+                        ["Gezer vinçle ortak alan", "Operatörlü", "Sıralı çalışma protokolü şart"],
+                        ["Açık hol, engelsiz alan", "Operatörsüz (tesis kullanıcısı varsa)", "Basit, tekrarlanan iş"],
+                        ["Otomasyon hücresi çevresi", "Operatörlü", "Hareket zarfı koordinasyonu"],
+                        ["Depo/raf içi kısa iş", "Operatörsüz", "Düşük risk, standart erişim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör yeterliliği nasıl belgeleniyor",
+                paragraflar: [
+                    "Bizim operatörümüz kullanacaksa, ilgili eğitim ve yeterlilik belgesi zaten hazır bulunur; bu belgeler talep edildiğinde tesisle paylaşılabilir. Operatörsüz kiralamada ise tesisin kendi personelinin belgesi teklif aşamasında yazılı olarak teyit edilir — bu, sonradan çıkabilecek bir uyuşmazlığı önceden ortadan kaldırır.",
+                    "Belge teyidi formalite değildir; makinenin doğru ve güvenli kullanılması, hem operatörün hem de sahadaki diğer çalışanların güvenliği açısından doğrudan bu yeterliliğe bağlıdır.",
+                ],
+            },
+            {
+                baslik: "Karma senaryo: bir işin bir kısmı operatörlü, bir kısmı değil",
+                paragraflar: [
+                    "Bazı revizyonlarda işin bir kısmı (hat üstü, riskli noktalar) operatörlü, geri kalanı (açık hol, düşük riskli noktalar) operatörsüz yürütülebilir; bu karma yaklaşım maliyeti optimize ederken riskli noktalarda güvenliği korur. Bu ayrımı keşifte bakım şefiyle birlikte netleştiriyoruz ve teklife hangi bölümün hangi modda çalışılacağı yazılı olarak ekleniyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hat üstü işte operatörsüz kiralama hiç mümkün değil mi?",
+                cevap:
+                    "Kesin bir yasak değil, ancak biz bu tür işlerde operatörlü kiralamayı güçlü şekilde öneriyoruz. Hattın tam üzerinde çalışmak, standart bir hol ortasında çalışmaktan farklı bir risk profiline sahiptir — düşen bir parça doğrudan hatta ya da hassas bir ekipmana temas edebilir. Tesisin kendi çok deneyimli, hat ortamına aşina bir operatörü varsa operatörsüz seçenek konuşulabilir, ancak bu istisnai bir durumdur ve karar öncesi sahanın risk değerlendirmesi birlikte yapılır.",
+            },
+            {
+                soru: "Operatörünüz vinç operatörüyle nasıl koordine oluyor?",
+                cevap:
+                    "Telsiz üzerinden karşılıklı teyit protokolüyle; operatörümüz vinç operatörüyle çalışma başlamadan önce hangi açıklıkta çalışılacağını netleştirir, vinç o açıklığa girmeyecek şekilde ayarlanır ve iş boyunca her hareket öncesi karşılıklı onay alınır. Bu koordinasyon deneyim gerektirir çünkü zamanlama hatası ciddi bir kazaya yol açabilir; bu yüzden bu tür işlerde operatörlü kiralamayı öneriyoruz.",
+            },
+            {
+                soru: "Tesisimizin kendi operatörü var, belgesini nasıl teyit ediyorsunuz?",
+                cevap:
+                    "Teklif aşamasında personelin ilgili eğitim/yeterlilik belgesinin bir kopyasını veya belge numarasını yazılı olarak istiyoruz; bu, sonradan çıkabilecek bir uyuşmazlığı önceden ortadan kaldırır. Belge bulunmuyorsa ya da personel makineyi ilk kez kullanacaksa, teslimat sırasında kısa bir kullanım brifingi veriyoruz — ancak bu brifing resmi yeterlilik belgesinin yerine geçmez, yalnızca makineye özel kullanım bilgisi aktarır.",
+            },
+            {
+                soru: "Uzun bir revizyonda operatör değişirse sorun olur mu?",
+                cevap:
+                    "Operatör değişimi mümkündür ancak sahanın özel noktalarının — hassas tezgâh konumu, vinç açıklığı, otomasyon hücresi sınırları — yeni operatöre eksiksiz aktarılması gerekir; bu geçiş sözlü bırakılmaz, yazılı bir devir notuyla yapılır. Bu yüzden mümkünse aynı operatörün işin başından sonuna kadar sahada kalmasını tercih ediyoruz; bu hem sürekliliği korur hem de devir sırasında bilgi kaybı riskini ortadan kaldırır.",
+            },
+            {
+                soru: "Bir revizyonun bir kısmını operatörsüz, bir kısmını operatörlü yapabilir miyiz?",
+                cevap:
+                    "Evet, bu karma yaklaşım mümkün ve bazı tesislerde tercih ediliyor; işin riskli noktaları (hat üstü, vinç yakını) operatörlü, düşük riskli noktaları (açık hol, depo içi) operatörsüz yürütülüyor. Bu ayrımı keşifte bakım şefiyle birlikte netleştiriyor ve hangi bölümün hangi modda çalışılacağını teklife yazılı olarak ekliyoruz; bu, maliyeti optimize ederken riskli noktalarda güvenliği korumanın pratik bir yolu.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatörün yemek/mola süresi işi durduruyor mu?",
+                cevap:
+                    "Kısa süreli, çünkü mola süresi de bakım penceresi içinde planlanır; uzun revizyonlarda operatörün mola saatleri, üretim hattının kendi vardiya mola düzenine mümkün olduğunca uyumlu hale getirilir. Kritik bir kaynak işi ya da yarım kalmış bir montaj noktası varsa, mola öncesi güvenli bir ara nokta belirlenir; iş yarım, güvensiz bir durumda bırakılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama ayrımı ve yeterlilik belgesi teyidi genel iş makinesi operatörlüğü mevzuatı ve saha pratiğine dayanır; tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota Bakım Platformu: Hat Boyunca Sıralı İlerleme",
+        giris:
+            "Bir üretim hattının bakım listesi nadiren tek bir noktadan ibarettir; hattın başından sonuna kadar dağılmış onlarca kablo bağlantısı, sensör, aydınlatma armatürü ve taşıyıcı sistem noktası aynı bakım penceresinde ele alınmak zorundadır. Bu durumda platform tek bir yerde durup işini bitirmez, hat boyunca bir noktadan diğerine sıralı olarak ilerler — biz buna hat içi çok noktalı rota diyoruz. Bu, farklı tesisler arasında dolaşan bir makineden farklı bir kavramdır: burada tek bir tesisin, tek bir üretim hattının içinde onlarca durak noktası vardır ve makinenin bu noktalar arasında verimli sırayla hareket etmesi, bakım penceresinin ne kadarının gerçek işe, ne kadarının konumlanmaya harcandığını belirler. Bu sayfa, çok noktalı rotanın nasıl planlandığını, her noktada geçen sürenin nasıl tahmin edildiğini ve rotanın üretim trafiğiyle nasıl çakışmadan yürütüldüğünü anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Nokta listesi çıkarma: keşif aşamasının en kritik adımı",
+                metin:
+                    "Rota planlamasının ilk adımı, bakım şefiyle birlikte hat boyunca tüm müdahale noktalarını fiziksel olarak dolaşıp listelemektir. Her nokta için yaklaşık konum, erişim yüksekliği ve tahmini iş süresi not edilir; bu liste olmadan güvenilir bir rota ve süre tahmini yapılamaz.",
+            },
+            {
+                baslik: "Nokta sıralamasında mesafe optimizasyonu",
+                metin:
+                    "Noktalar listelendikten sonra, makinenin bir noktadan diğerine en kısa güzergâhla ilerleyeceği bir sıra belirlenir; rastgele ya da listedeki sıraya göre değil, konum bazlı optimize edilmiş bir sırayla hareket edilir. Bu, özellikle çok sayıda noktası olan uzun hatlarda toplam süreyi belirgin şekilde etkiler.",
+            },
+            {
+                baslik: "Üretim trafiğiyle çakışmayan güzergâh",
+                metin:
+                    "Hat çalışırken yapılan noktalarda, platformun hareket güzergâhı forklift, AGV (otonom taşıma aracı) ya da personel yürüyüş yoluyla kesişmeyecek şekilde önceden belirlenir. Bu koordinasyon, özellikle yoğun forklift trafiği olan üretim hollerinde günün belirli saatlerinde rota kısıtlaması getirebilir.",
+            },
+            {
+                baslik: "Her noktada geçen sürenin gerçekçi tahmini",
+                metin:
+                    "Konumlandırma, sepet çıkışı, iş süresi ve sepet inişi her noktada tekrarlanan bir döngüdür; bu döngünün toplam süresi, tek bir noktanın iş süresinden çok daha fazla noktanın toplamına bağlıdır. On beş dakikalık bir işin bile konumlanma-iniş süresiyle birlikte yirmi dakikaya çıkabileceği gerçekçi olarak hesaba katılır.",
+            },
+            {
+                baslik: "Yarım kalan rota: bir sonraki pencereye devretme",
+                metin:
+                    "Bakım penceresi bitip rota tamamlanmadıysa, hangi noktaların tamamlandığı ve hangilerinin kaldığı yazılı olarak kayda geçirilir; bir sonraki pencerede rota kaldığı yerden değil, güncellenmiş öncelik sırasına göre devam ettirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Nokta sayısına göre rota planlama yaklaşımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, hat içi nokta sayısına göre rota planlama yaklaşımımızı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta sayısı", "Planlama yaklaşımı", "Tipik risk"],
+                    satirlar: [
+                        ["1-3 nokta", "Basit sıralama, keşif kısa", "Düşük"],
+                        ["4-10 nokta", "Mesafe optimizasyonlu rota", "Orta — trafik çakışması"],
+                        ["10'dan fazla nokta", "Öncelik sıralaması + yedek makine değerlendirmesi", "Yüksek — pencereye sığmama"],
+                        ["Dağınık, birbirinden uzak noktalar", "Bölüm bölüm planlama, birden fazla gün", "Yüksek — konumlanma süresi baskın"],
+                        ["Yoğun forklift trafiği olan hat", "Saat bazlı güzergâh kısıtlaması", "Orta — zamanlama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planı yazılı olarak teslim edilir",
+                paragraflar: [
+                    "Keşif sonrası çıkarılan nokta listesi ve önerilen sıralama, teklifin bir eki olarak tesise yazılı teslim edilir; bu, bakım şefinin rotayı kendi takvimiyle karşılaştırmasına ve gerekirse öncelik değiştirmesine imkân tanır.",
+                    "Sahada plan değişebilir — bir nokta beklenenden uzun sürebilir ya da erişim engeliyle karşılaşılabilir — ancak değişiklikler günün sonunda güncellenmiş liste olarak tesisle paylaşılır; sözlü bırakılmaz.",
+                ],
+            },
+            {
+                baslik: "Çok noktalı işlerde ikinci makine kararı",
+                paragraflar: [
+                    "Nokta sayısı ve bakım penceresi süresi karşılaştırıldığında rotanın pencereye sığmayacağı görülürse, tek makineyi zorlamak yerine ikinci bir makineyle paralel çalışma seçeneği fiyatlanır. İkinci makinenin maliyeti, genellikle ertelenen bakım kaleminin maliyetinden düşük kalır; bu karşılaştırma teklif aşamasında açıkça gösterilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Hat boyunca 12 farklı noktada bakım yapmamız gerekiyor, bunu tek makineyle tek günde bitirebilir miyiz?",
+                cevap:
+                    "Bu, her noktanın iş süresine, noktalar arası mesafeye ve konumlanma-iniş döngüsünün toplam süresine bağlıdır; kesin cevap keşifte çıkarılan nokta listesi ve mesafe optimizasyonlu rota üzerinden hesaplanır. On iki nokta, her biri kısa sürse bile konumlanma süreleri toplandığında bir günü aşabilir. Sığmayacağı görülürse ikinci makineyle paralel çalışma seçeneğini fiyatlıyoruz; bu karşılaştırmayı size teklif aşamasında net şekilde gösteriyoruz.",
+            },
+            {
+                soru: "Rota sırasında forklift trafiğiyle çakışma nasıl önleniyor?",
+                cevap:
+                    "Keşif sırasında hattaki forklift ve varsa AGV güzergâhı belirlenir; platformun hareket rotası bu güzergâhlarla kesişmeyecek şekilde planlanır. Yoğun trafik olan saatlerde bazı noktalara erişim geçici olarak kısıtlanabilir, bu durumda o noktalar günün daha sakin bir saatine kaydırılır. Bu koordinasyon, tesisin lojistik/üretim sorumlusuyla birlikte önceden netleştirilir; sahada anlık karar verilmez.",
+            },
+            {
+                soru: "Bir noktada beklenenden uzun süre harcarsak geri kalan noktalar ne olur?",
+                cevap:
+                    "Öncelik sıralamasına göre hareket ederiz; kritik noktalar önce planlanmışsa, süre aşımı olduğunda öncelik düşük noktalar bir sonraki pencereye devredilir. Hangi noktaların tamamlandığı, hangilerinin kaldığı yazılı olarak kayda geçirilir ve bakım şefine aynı gün bildirilir; bir sonraki pencerede rota bu güncellenmiş listeyle, kaldığı yerden değil güncel önceliğe göre devam eder.",
+            },
+            {
+                soru: "Nokta listesini biz mi çıkarmalıyız yoksa siz mi keşfediyorsunuz?",
+                cevap:
+                    "Bu, ortak bir çalışmadır; tesisin bakım şefi hangi noktaların bakım gerektirdiğini genellikle en iyi bilen kişidir, ancak biz bu listeyi platform erişimi açısından fiziksel olarak doğruluyoruz — bazı noktalara sanıldığından daha zor ya da daha kolay erişilebilir. Bu yüzden nokta listesini birlikte, hat üzerinde yürüyerek çıkarmayı öneriyoruz; bu adım atlanırsa rota tahmini gerçek sahadan sapabilir.",
+            },
+            {
+                soru: "Dağınık, birbirinden uzak noktalar aynı gün bitirilebilir mi?",
+                cevap:
+                    "Noktalar hat boyunca birbirinden belirgin uzaksa, konumlanma süresi işin toplam süresinde baskın hale gelir ve tek günde bitirmek zorlaşabilir. Bu durumda noktaları coğrafi/mantıksal bölümlere ayırıp birden fazla güne yayan bir plan öneriyoruz; bu, her günün kendi içinde verimli bir rota olmasını sağlar. Tek günde sıkıştırmaya çalışmak, hem makinenin gereksiz yere fazla hareket etmesine hem de son noktaların acele ile yapılmasına yol açabilir.",
+            },
+            {
+                soru: "Rota planı sahada değişirse bize nasıl bildiriliyor?",
+                cevap:
+                    "Sahada beklenmedik bir durum (erişim engeli, süre aşımı, öncelik değişikliği) yaşandığında planı güncelliyoruz, ancak bu değişikliği sözlü bırakmıyoruz; günün sonunda hangi noktaların tamamlandığı, hangilerinin ertelendiği ve nedeni yazılı olarak bakım şefine iletiliyor. Bu, bir sonraki bakım penceresinin planlamasının da sağlıklı yapılmasını sağlıyor; sözlü aktarılan bilgi zamanla kaybolabilir ama yazılı kayıt kalıcıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hat içi çok noktalı bakım rotası planlaması ve mesafe optimizasyonu genel saha lojistiği pratiğidir; tesis adı, nokta sayısı ve mesafe rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Saha Genişleme Alanında Platform Kiralama — Kapsam Notu",
+        giris:
+            "Eskişehir OSB'deki fabrikaların üretim holü içi zeminleri neredeyse her zaman düz betondur; bu, ana uzmanlığımız olan hat üstü erişim işlerinin çoğunda zor zemin ya da arazi koşulunun gündeme gelmediği anlamına gelir. Yine de bazı tesislerde saha genişleme, yeni bina inşaatı ya da dış cephe çalışması gibi işler nedeniyle henüz sertleştirilmemiş, düzensiz ya da kaba dolgu zeminde çalışma talebi gelebiliyor. Bu sayfada dürüstçe belirtmek istiyoruz: bu, bizim yoğun deneyime sahip olduğumuz bir alan değil; ana filomuz ve saha bilgimiz kapalı hol içi standart zemine göre kurulu. Gerçekten zorlu, engebeli ya da inşaat aşamasındaki bir arazi işiniz varsa, arazi tipi platform konusunda daha derin deneyime sahip bir tedarikçiyle çalışmanızı öneririz; sanayi tesisine bitişik, sınırlı bir dış saha işi için bizimle görüşebilirsiniz.",
+        maddeler: [
+            {
+                baslik: "Ne zaman bu talebi karşılıyoruz",
+                metin:
+                    "Mevcut bir tesisin bitişiğindeki, henüz tam sertleşmemiş ama nispeten düz bir dış saha alanında (örneğin yeni yapılan bir depo eki çevresi) sınırlı bir işte talebi değerlendiriyoruz. Ağır engebeli, eğimli ya da inşaat molozu bulunan arazi bu kapsamın dışındadır.",
+            },
+            {
+                baslik: "Zemin taşıma gücü belirsizliği",
+                metin:
+                    "Sertleşmemiş zeminin taşıma gücü görsel olarak tahmin edilemez; bu belirsizlik nedeniyle standart platform yerine geniş taban plakalı ya da arazi tipi lastikli modeller değerlendirilir, bazı durumlarda zeminin önceden sıkıştırılması ya da plaka döşenmesi istenir.",
+            },
+            {
+                baslik: "Devrilme riski ve destek ayağı kullanımı",
+                metin:
+                    "Düzensiz zeminde çalışan platformlarda destek ayaklarının her birinin eşit ve sağlam zemine oturması kritik önemdedir; bir ayağın boşta kalması devrilme riskini ciddi şekilde artırır. Bu yüzden düzensiz zeminde kurulum öncesi her ayak noktası ayrı ayrı kontrol edilir.",
+            },
+            {
+                baslik: "Hava koşulu hassasiyeti",
+                metin:
+                    "Yağmur sonrası zemin, kuru haldeki aynı zeminden çok farklı taşıma gücüne sahip olabilir; dış saha işlerinde hava durumu ve zeminin son yağıştan bu yana kuruma süresi işin yapılıp yapılamayacağını doğrudan etkiler.",
+            },
+            {
+                baslik: "Dürüst yönlendirme",
+                metin:
+                    "Talep geldiğinde zemin fotoğrafı ya da kısa bir açıklama isteyip gerçekten kapsamımıza girip girmediğini önce netleştiriyoruz; ağır arazi koşulu varsa bu konuda bizden daha deneyimli bir tedarikçiye yönlendirmeyi tercih ediyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre kapsam değerlendirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı zemin koşullarında talebi karşılayıp karşılamadığımızı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Kapsam", "Not"],
+                    satirlar: [
+                        ["Tesis içi standart beton", "İçinde", "Ana uzmanlık alanı"],
+                        ["Tesise bitişik, düz sertleşmemiş dış saha", "İçinde (sınırlı)", "Önceden değerlendirme gerekir"],
+                        ["Eğimli ya da engebeli arazi", "Dışında", "Özelleşmiş tedarikçi önerilir"],
+                        ["İnşaat molozu bulunan alan", "Dışında", "Zemin temizliği önce gerekir"],
+                        ["Yağış sonrası çamurlu zemin", "Dışında (geçici)", "Kuruma bekleniyor"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin değerlendirmesi olmadan sevkiyat yapılmaz",
+                paragraflar: [
+                    "Standart olmayan bir zemin talebi geldiğinde, en azından fotoğraf üzerinden bir ön değerlendirme yapıyoruz; ciddi belirsizlik varsa kısa bir saha ziyareti öneriyoruz. Bu adım atlanıp doğrudan sevkiyat yapılırsa, makinenin sahada güvenle kurulamadığı ortaya çıkabilir — bu hem tesis hem bizim için kabul edilemez bir kayıptır.",
+                ],
+            },
+            {
+                baslik: "Neden bu alanda derinleşmiyoruz",
+                paragraflar: [
+                    "Ana filomuz ve operatör deneyimimiz kapalı üretim holü içi standart zemine göre kurulu; ağır arazi tipi işler farklı bir ekipman seti (geniş taban plakası, arazi tipi lastik, bazen paletli şase) ve farklı bir saha deneyimi gerektirir. Bu konuda derin deneyime sahip tedarikçilere yönlendirmek, elimizde olmayan bir uzmanlığı iddia etmekten daha doğru bir yaklaşım.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni yapılan depo ekimizin çevresi henüz asfaltlanmadı, buraya platform gelebilir mi?",
+                cevap:
+                    "Zeminin durumuna bağlı; düz ama sertleşmemiş bir dolgu zeminiyse, fotoğraf ya da kısa bir açıklama üzerinden önce değerlendiriyoruz. Taşıma gücü belirsizse geniş taban plakalı bir model ya da zeminin önceden sıkıştırılması/plaka döşenmesi önerilebilir. Ciddi engebeli ya da moloz içeren bir alan ise bu bizim kapsamımızın dışında kalır ve arazi tipi işlerde daha deneyimli bir tedarikçiye yönlendiririz.",
+            },
+            {
+                soru: "Yağmur sonrası hemen çalışabilir miyiz yoksa beklemek mi gerekiyor?",
+                cevap:
+                    "Genellikle beklemek gerekir; yağmur sonrası zemin, kuru haldeki aynı zeminden çok farklı taşıma gücüne sahip olabilir ve bu fark gözle her zaman anlaşılmaz. Zeminin son yağıştan bu yana ne kadar kuruduğu ve görünür su birikintisi olup olmadığı işin yapılıp yapılamayacağını doğrudan etkiler; ciddi belirsizlik varsa sahaya gitmeden önce fotoğraf ya da video ile durumu değerlendirmenizi rica ederiz.",
+            },
+            {
+                soru: "Düzensiz zeminde destek ayakları nasıl kontrol ediliyor?",
+                cevap:
+                    "Kurulum öncesi her destek ayağının bastığı nokta ayrı ayrı kontrol edilir; bir ayağın boşta kalması ya da yumuşak zemine batması devrilme riskini ciddi şekilde artırır. Gerekirse ayak altına geniş taban plakası ya da takoz yerleştirilir. Bu kontrol, düzenli beton zeminde gerekmeyen ama düzensiz zeminde asla atlanmayan bir adımdır.",
+            },
+            {
+                soru: "Bu tür işler için özel bir makine mi geliyor, yoksa standart filo mu kullanılıyor?",
+                cevap:
+                    "Ana filomuz kapalı hol içi standart zemine göre kurulu; ağır arazi koşulu için geniş taban plakalı ya da arazi tipi lastikli özel modeller gerekebilir ve bu modeller bizim standart filomuzda sınırlı sayıda bulunabilir. Talep geldiğinde önce zemin durumunu değerlendirip elimizde uygun makine olup olmadığını netleştiriyoruz; yoksa dürüstçe bu konuda daha uygun bir tedarikçiye yönlendiriyoruz.",
+            },
+            {
+                soru: "İnşaat aşamasındaki bir alanda çalışma talebimizi neden reddedebilirsiniz?",
+                cevap:
+                    "İnşaat molozu, düzensiz kazı ya da henüz güvenlik önlemi alınmamış bir alan, standart makinemizin güvenle çalışamayacağı bir ortam olabilir; bu durumda talebi kabul etmek yerine önce alanın temizlenmesini ya da güvenli hale getirilmesini öneririz. Bu, işi zorlaştırmak için değil, hem operatörümüzün hem makinenin güvenliği için aldığımız bir önlemdir.",
+            },
+            {
+                soru: "Zemin değerlendirmesi için ücret alıyor musunuz?",
+                cevap:
+                    "Fotoğraf üzerinden yapılan basit bir ön değerlendirme için ücret almıyoruz; bu, hem sizin hem bizim zamanımızı korumak için attığımız ilk adımdır. Ciddi belirsizlik varsa ve kısa bir saha ziyareti gerekiyorsa, bu ziyaretin kapsamını ve varsa maliyetini önceden netleştiriyoruz — sürpriz bir ücretle karşılaşmazsınız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa kapsam sınırını dürüstçe belirtir; düzensiz zemin ve destek ayağı güvenlik kuralları EN 280 kapsamındaki genel makine güvenlik bilgisidir, tesis adı ve rakam uydurulmamıştır.",
+    },
 };
