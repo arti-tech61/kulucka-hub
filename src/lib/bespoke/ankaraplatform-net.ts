@@ -1404,4 +1404,1085 @@ export const ANKARAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Kızılcahamam'ın termal turizm kimliği kamuya açık bilgidir; karbon monoksitin kokusuzluğu genel iş güvenliği bilgisidir; nem korumalı ekipman seçimi ve misafir-öncelikli teslim standardı firma pratiğidir.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "İç Mekânda Akülü Sepetli (Örümcek) Platform Kiralama",
+        giris:
+            "Bir AVM atriumunun tepesindeki ışık kubbesi, bir ofis kulesinin asma katla birleşen boşluğu veya bir hastane lobisinin çift yükseklikli tavanı — bu üç mekânın ortak özelliği, standart tekerlekli platformun zeminden erişemediği, ama zeminin de her noktasının makine ağırlığını taşıyamadığı hassas geometrilerdir. Kompakt akülü sepetli (örümcek tipi) platform, tam bu boşluğu doldurur: dar ayaklarla nokta nokta zemine oturur, dar kapılardan parçalar hâlinde taşınır ve iç mekân filomuzun tamamı gibi egzozsuzdur. İç mekân işinde bu sınıfı öne çıkaran şey gücü değil, ayak izinin küçüklüğüdür — bir atriumun mermer zemininde iz bırakmadan, bir asma katın taşıma sınırını zorlamadan, standart makaslının giremeyeceği köşeye ulaşabilmesidir. Bu sayfa, Ankara'daki iç mekân projelerinde sepetli platformun ne zaman doğru seçim olduğunu ve nasıl kurulduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Parçalı taşıma: dar kapıdan geniş erişime",
+                metin:
+                    "Sepetli platformun en belirgin özelliği, ana gövdenin dar bir kapı veya koridordan parçalar hâlinde (taban ünitesi, mafsallı kollar, sepet) içeri alınıp mekân içinde monte edilmesidir — bu, tek parça şaseli bir makaslının giremeyeceği yerlere giriş sağlar. Montaj, mekânın hassas zeminine bir kez daha dikkat çeker: parçalar taşınırken tekerlekli sehpa kullanılır, kurulum noktası önceden belirlenmiş koruma plakalarının üzerindedir. AVM atriumlarında bu montaj genellikle gece penceresinde, ofis boşluklarında ise mesai dışı saatte yapılır.",
+            },
+            {
+                baslik: "Nokta ayak yükü: hassas zeminde dağıtılmış basınç",
+                metin:
+                    "Standart bir platformun tekerlek izi geniş bir çizgi hâlinde zemine yayılırken, sepetli modelin dört veya beş ayağı noktasal temas eder — bu, doğru hesaplanmadığında geniş tekerlekten daha yüksek nokta basıncı anlamına gelebilir. Bu yüzden her kurulumda ayak altına yük dağıtım tablası konur ve zeminin taşıma kapasitesi (özellikle asma kat ve yükseltilmiş döşemelerde) projeye veya bina yönetiminden alınan statik veriye göre teyit edilir. Kapasitesi belirsiz bir zeminde makine çalıştırılmaz; bu, iç mekân işinde geçilmez bir kuraldır.",
+            },
+            {
+                baslik: "Işık kubbesi ve atrium tavanına dikey erişim",
+                metin:
+                    "AVM ve otel atriumlarının ışık kubbeleri, cam temizliği, contası bakımı ve armatür değişimi gerektiren, ama etrafı düz erişime kapalı yükseklerdir — sepetli platformun uzun, dar mafsallı kolu bu boşluğa merdiven veya iskeleden çok daha az zemin izgesiyle ulaşır. Kubbenin altındaki yürüyen alan çalışma sırasında geçici olarak kapatılır, düşen cisim riskine karşı bariyer kurulur ve iş genellikle ziyaretçi trafiğinin en düşük olduğu saatlere yazılır. Camın kırılganlığı nedeniyle sepet teması, camdan pay bırakılarak planlanır.",
+            },
+            {
+                baslik: "Asma kat boşluğunda dikey manevra",
+                metin:
+                    "Ofis binalarının asma katla ana kat arasındaki çift yükseklikli boşluk, genellikle bir sergi veya resepsiyon alanıdır ve tavanı yalnızca bu boşluktan erişilebilir. Sepetli platform, asma katın kenarına yakın park edilip kolunu boşluğa doğru uzatarak hem üst tavana hem asma kat altına erişir — manevra alanı dar olduğu için hareketler yavaş ve kontrollü yapılır. Resepsiyon veya sergi alanının kullanımdaki saatlerinde çalışma yapılmaz; iş, alanın boş olduğu erken sabah veya akşam sonrası bloklara yazılır.",
+            },
+            {
+                baslik: "Şarj ve süre: küçük gövdenin büyük avantajı",
+                metin:
+                    "Sepetli modellerin akü kapasitesi kompakt gövdeye göre sınırlı olsa da, iç mekân işinin niteliği (nokta bazlı, kısa süreli müdahaleler) bu sınırı nadiren zorlar — bir atrium ışık kubbesi bakımı veya asma kat tavan işi, tipik olarak yarım günlük bir iştir ve tek şarjla tamamlanır. Çok günlük kurulumlarda makine geceyi mekânda geçirir ve bina prizinden şarj olur; bu, tüm iç mekân filomuzda geçerli standart döngüdür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân hassas noktalarında platform sınıfı seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tipik iç mekân hassas nokta senaryolarında sepetli platformun ne zaman standart makaslı veya dikey direkliye tercih edildiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân noktası", "Erişim kısıtı", "Zemin/taşıma", "Uygun sınıf"],
+                    satirlar: [
+                        ["AVM atrium kubbesi", "Merdivenle erişilemez tavan", "Mermer, iz yasak", "Akülü sepetli, parçalı montaj"],
+                        ["Ofis asma kat boşluğu", "Dar kenar, çift yükseklik", "Yükseltilmiş döşeme", "Akülü sepetli, dar ayak"],
+                        ["Hastane lobisi", "Steril alan, dar geçiş", "Seramik, hijyen kısıtı", "Akülü sepetli veya kompakt dikey"],
+                        ["Düz ofis katı", "Standart tavan yüksekliği", "Halı-parke", "Akülü dikey direkli (daha ekonomik)"],
+                        ["Geniş AVM koridoru", "Açık, engelsiz erişim", "Seramik-granit", "Akülü makaslı (daha hızlı)"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ne zaman sepetli, ne zaman standart makaslı",
+                paragraflar: [
+                    "Sepetli platform her iç mekân işinin cevabı değildir — düz, geniş ve engelsiz bir ofis katında standart dikey direkli veya makaslı model hem daha hızlı kurulur hem daha ekonomiktir. Sepetli sınıfı öne çeken şey, geometrinin kendisidir: zeminin bir kısmı yük taşıyamıyorsa, erişim noktası dar bir kapıdan geçiyorsa veya hedef standart bomun ulaşamayacağı bir açıdaysa. Keşifte önce düz erişim denenir; ancak gerçekten gerekiyorsa sepetli teklif edilir, çünkü gereksiz yere karmaşık bir çözüm sunmak hem maliyeti hem kurulum süresini büyütür.",
+                    "Bu seçim disiplinini müşteriye açık şekilde anlatırız — bazen 'daha havalı' görünen makine yerine, işe en uygun ve en ekonomik olanı önermek, uzun vadeli güvenin temelidir.",
+                ],
+            },
+            {
+                baslik: "Montaj-söküm süresinin proje takvimine etkisi",
+                paragraflar: [
+                    "Sepetli platformun parçalı yapısı, tek parça şaseli bir makineye göre kurulum ve söküm için ek süre gerektirir — bu süre genellikle 30-60 dakika bandındadır ve iş planına baştan dahil edilir. Gece penceresi işlerinde bu süre, pencerenin başında ve sonunda ayrılan zaman dilimine eklenir; kurulum sırasında bina henüz kapanmamışsa veya açılmak üzereyse, montaj alanı geçici bariyerle görünmez hâle getirilir.",
+                    "Çok günlük işlerde makine söküp takmak yerine mekânda bırakılır; bu, hem montaj süresini tek seferle sınırlar hem bina yönetiminin her gün aynı ekipmanla karşılaşmasını sağlayarak güven oluşturur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin atrium kubbesinde cam contası bakımı gerekiyor; merdivenden ulaşılamıyor, ne öneriyorsunuz?",
+                cevap:
+                    "Bu tam olarak sepetli platformun tasarlandığı senaryo — mafsallı kol, düz erişimin ulaşamadığı açılara ve yüksekliklere uzanır. Makine ana gövdesi dar bir kapıdan parçalar hâlinde içeri alınır ve kubbenin altında monte edilir; kurulum genellikle gece penceresinde yapılır ki alan kapatma ve montaj süresi ziyaretçi akışını etkilemesin. Kubbenin ölçüsünü, zemin erişim noktasını ve mevcut kapı genişliklerini paylaşırsanız uygunluk keşifte netleşir.",
+            },
+            {
+                soru: "Asma katımızın taşıma kapasitesi belirsiz; platform oraya güvenle konabilir mi?",
+                cevap:
+                    "Belirsiz kapasiteli bir zemine makine koymayız — bu, iç mekân işinde geçilmez bir kuraldır. Önce bina yönetiminden veya statik projeden asma katın taşıma kapasitesi verisi istenir; bu veri yoksa, ilgili mühendisten teyit alınana kadar çalışma başlamaz. Kapasite teyit edildikten sonra sepetli platformun nokta ayak yükü bu sınırla karşılaştırılır ve gerekirse yük dağıtım tablaları eklenir. Bu adım atlanabilir bir formalite değildir; asma kat güvenliği hem sizin hem bizim önceliğimizdir.",
+            },
+            {
+                soru: "Hastane lobisinde çalışacağız; steril alan kısıtları platform seçimini nasıl etkiler?",
+                cevap:
+                    "Steril alan kısıtı iki şeyi belirler: makinenin temizlik durumu ve çalışma saatinin hasta-ziyaretçi trafiğinden bağımsız olması. Sepetli veya kompakt dikey model, tesise girmeden önce dezenfekte edilir ve hijyen prosedürüne uygun teker koruması takılır; çalışma, hastanenin belirlediği düşük trafik saatlerine (genellikle gece) yazılır. Enfeksiyon kontrol biriminizin özel bir protokolü varsa keşif öncesi paylaşın, ekibimiz o protokole göre hazırlanır.",
+            },
+            {
+                soru: "Sepetli platform normal makaslıdan daha mı pahalı, gerçekten gerekli mi bize?",
+                cevap:
+                    "Genellikle evet, standart makaslıya göre daha yüksek maliyetlidir — çünkü parçalı montaj ek süre ve işçilik gerektirir. Bu yüzden keşifte önce düz erişim denenir: eğer hedefe standart dikey direkli veya makaslı ile ulaşılabiliyorsa, sepetli önerilmez. Sepetli yalnızca gerçekten gerektiğinde (dar erişim, hassas zemin, standart bomun ulaşamadığı açı) teklif edilir. Mekânın fotoğrafını ve hedefin konumunu paylaşırsanız, gerçekten gerekip gerekmediğini dürüstçe söyleriz.",
+            },
+            {
+                soru: "Kurulum-söküm ne kadar sürer, bu süre çalışma penceremizi daraltır mı?",
+                cevap:
+                    "Sepetli platformun montajı 30-60 dakika bandında sürer ve bu süre iş planına baştan dahil edilir — gece penceresi kısaysa, kurulum ve söküm süresi pencerenin başına ve sonuna eklenerek hesaplanır. Çok günlük işlerde makine geceler boyunca mekânda bırakılır, böylece montaj yalnızca bir kez yapılır. Pencerenizin uzunluğunu paylaşırsanız, kurulum süresini düşerek gerçek çalışma süresini net olarak gösteririz.",
+            },
+            {
+                soru: "Işık kubbesinin camına makinenin herhangi bir parçası temas eder mi, kırılma riski var mı?",
+                cevap:
+                    "Standart çalışma planımızda sepet ve kol, camdan belirli bir emniyet payı bırakacak şekilde konumlandırılır — doğrudan temas amaçlanmaz. Cam temizliği gibi yakın mesafe gerektiren işlerde operatör, kolu yavaş ve kontrollü hareket ettirir ve gerekirse yumuşak koruma malzemesiyle temas noktası tamponlanır. Kubbenin cam tipini ve kırılganlık notunu (varsa üretici bilgisi) paylaşırsanız, bu bilgiyi çalışma planına ekleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sepetli (örümcek) platform sınıfının parçalı montaj ve nokta ayak yükü özellikleri üretici genel teknik bilgisidir; iç mekân zemin kapasitesi teyidi ve gece penceresi uygulaması firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "AVM ve Ofis Bina İçi Platform Nakliyesi ve Teslimat Planlaması",
+        giris:
+            "Bir platformun binaya girmesi, sahaya girmesinden çok daha fazla adım gerektirir: yük rampasının konumu ve saatleri, yük asansörünün kabin ölçüsü ve kapasitesi, ortak alan geçiş izinleri, güvenlik kayıt prosedürü — hepsi makinenin fiilen çalışmaya başlamasından önce netleşmesi gereken değişkenlerdir. İç mekân filomuzda nakliye ve teslimat, işin bir ek hizmeti değil, planın kendisidir: AVM'lerin yük rampaları genellikle dar bir zaman penceresinde (erken sabah, mağazalar açılmadan önce) kullanılabilir, ofis kulelerinin yük asansörleri diğer kiracılarla paylaşılır ve rezervasyon gerektirir, kurum binalarının teslimat girişleri güvenlik kontrolünden geçer. Bu sayfa, Ankara'daki iç mekân teslimatlarının nasıl planlandığını ve hangi sorunların önceden nasıl önlendiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yük rampası penceresi: AVM'lerin dar saatleri",
+                metin:
+                    "AVM'lerin yük rampaları, mağaza teslimatlarıyla paylaşılan ve genellikle sabah 06:00-09:00 bandına sıkışan bir kaynaktır — platform teslimatı bu pencereye girebilmek için bina yönetimiyle önceden rezerve edilir. Rampanın fiziksel ölçüleri (yükseklik, genişlik, dönüş açısı) de makinenin taşıma aracına ve indirme rampasına uyumlu olmalıdır; keşifte bu ölçüler netleştirilmeden teslimat tarihi verilmez. Pencereyi kaçıran bir teslimat, bir sonraki güne ötelenebilir — bu yüzden teslimat saatine dakika hassasiyetiyle uyulur.",
+            },
+            {
+                baslik: "Yük asansörü: kabin, kapasite ve rezervasyon",
+                metin:
+                    "Ofis kulelerinde makine, kata yük asansörüyle çıkar ve bu asansör genellikle binadaki diğer kiracılarla paylaşılır — bina yönetiminden rezervasyon alınmadan asansör bloke edilemez. Keşifte üç ölçü teyit edilir: kabin iç genişliği-derinliği, taşıma kapasitesi etiketi ve kat koridorunun dönüş genişlikleri. Rezervasyon genellikle belirli bir zaman dilimiyle sınırlıdır (örneğin bir saat) ve bu süre içinde makine kata çıkarılıp güvenli konuma alınmalıdır; süre aşımı diğer kiracıların işini aksatır.",
+            },
+            {
+                baslik: "Güvenlik kayıt ve giriş prosedürü",
+                metin:
+                    "Kurum binaları ve bazı kurumsal ofisler, teslimat aracının ve ekibin önceden bildirilmesini ister — araç plakası, sürücü kimliği, taşınan ekipmanın listesi güvenliğe iletilir ve giriş, bu listeyle karşılaştırılarak yapılır. Bu prosedür, işin ilk teslimatında biraz zaman alır ama tekrarlayan işlerde şablona bağlanır: aynı bina için ikinci teslimatta evrak seti hazır beklenir, süreç hızlanır. Son dakika değişikliği (farklı araç, farklı sürücü) güvenlik gecikmesine yol açabileceği için önceden bildirilir.",
+            },
+            {
+                baslik: "Ortak alan geçiş güzergâhı ve saat kısıtı",
+                metin:
+                    "Makinenin yük rampasından veya ana girişten hedef mekâna kadar geçtiği güzergâh, çoğu zaman ortak kullanım alanlarından (lobi, koridor, atrium) geçer ve bu alanların kullanım yoğunluğu saate göre değişir. Teslimat, bu yoğunluğun en düşük olduğu saate planlanır; güzergâh üzerindeki hassas zeminler (mermer, halı) geçiş öncesi koruma plakası veya bantla döşenir. Güzergâhın dönüş noktaları dar ise makine, kompakt gövdeli bir modelle değiştirilir — güzergâh ölçüsü, model seçiminin bir parçasıdır.",
+            },
+            {
+                baslik: "Geri alma: işin bitiminde ters teslimat",
+                metin:
+                    "Nakliye planlaması yalnızca içeri girişi değil, işin bitiminde makinenin geri çıkışını da kapsar — ikinci teslimat penceresi ilk gün ile aynı titizlikte rezerve edilir. Çok günlük işlerde makine mekânda kalır ve yalnızca son gün çıkış planlanır; bu, tekrarlanan rampa-asansör rezervasyonlarının sayısını azaltır ve hem maliyeti hem bina trafiğine etkiyi düşürür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bina tipine göre teslimat planlama çerçevesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, iç mekân teslimatlarının bina tipine göre tipik kısıtlarını ve planlama yaklaşımını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bina tipi", "Giriş noktası", "Tipik kısıt", "Planlama yaklaşımı"],
+                    satirlar: [
+                        ["AVM", "Yük rampası", "Dar sabah penceresi", "Bina yönetimiyle önceden rezervasyon"],
+                        ["Ofis kulesi", "Yük asansörü", "Kiracılar arası paylaşım", "Zaman dilimli asansör rezervasyonu"],
+                        ["Kurum binası", "Ana/yan giriş", "Güvenlik listesi kontrolü", "Plaka-kimlik önceden bildirim"],
+                        ["Otel", "Servis girişi", "Misafir görünürlüğü kısıtı", "Gece veya erken sabah teslimat"],
+                        ["Fabrika/depo", "Yükleme rampası", "Üretim trafiğiyle çakışma", "Vardiya dışı pencere"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk teslimat ile tekrar eden teslimat farkı",
+                paragraflar: [
+                    "Bir binaya ilk kez teslimat yapıldığında süreç en yavaş hâlindedir: bina yönetimiyle iletişim kurulur, ölçüler ilk kez teyit edilir, güvenlik evrakı ilk kez hazırlanır. Aynı binaya ikinci ve sonraki teslimatlarda bu adımların çoğu şablona bağlanmıştır — asansör ölçüsü, rampa saatleri ve güvenlik prosedürü artık bilinen verilerdir ve teslimat planı saatler içinde çıkar. Bu fark, sürekli çalıştığımız AVM ve plaza yönetimlerinde teslimat süresini belirgin şekilde kısaltır.",
+                    "Yeni bir bina için ilk teslimat planlaması, işin başlama tarihinden en az birkaç gün önce tamamlanmalıdır; son dakika teslimat talebi, bina yönetiminin rezervasyon takvimine sığmayabilir.",
+                ],
+            },
+            {
+                baslik: "Teslimat gecikmesinin iş takvimine etkisi",
+                paragraflar: [
+                    "Yük rampası veya asansör penceresini kaçıran bir teslimat, yalnızca birkaç saatlik değil bazen tam bir günlük gecikme anlamına gelebilir — özellikle AVM'lerin sabah penceresi tek seferliktir ve kaçırılırsa ertesi sabaha kadar beklenir. Bu riski azaltmak için teslimat günü, hava durumu ve trafik gibi değişkenler için pay bırakılarak planlanır; araç, pencereden makul bir süre önce yola çıkar.",
+                    "Bina yönetiminin son dakika program değişikliği yapması (örneğin rampanın başka bir teslimatla çakışması) da olası bir gecikme kaynağıdır — bu durumda alternatif pencere aynı gün içinde aranır, ama garanti verilmez; bu belirsizliği müşteriye önceden açık şekilde söyleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin yük rampası sadece sabah 06:00-08:00 arası açık; bu pencereye nasıl uyum sağlıyorsunuz?",
+                cevap:
+                    "Bu pencereyi bina yönetiminizle önceden rezerve ederek — araç, penceden yeterli süre önce yola çıkar ve rampaya tam zamanında ulaşır. Rampanın fiziksel ölçülerini (yükseklik, genişlik, dönüş açısı) keşifte teyit ederiz ki indirme sırasında sürpriz yaşanmasın. Pencereyi kaçırma riskine karşı trafik ve hava durumu için pay bırakırız; yine de bir aksaklık olursa aynı gün alternatif bir pencere için bina yönetimiyle birlikte çözüm ararız.",
+            },
+            {
+                soru: "Ofis binamızın yük asansörü diğer kiracılarla paylaşımlı; rezervasyon nasıl alınıyor?",
+                cevap:
+                    "Bina yönetiminden asansör için belirli bir zaman dilimi rezerve edilir — bu genellikle bir saatlik bloklardır ve talep, teslimat tarihinden birkaç gün önce iletilir. Rezervasyon onaylandıktan sonra keşifte teyit edilen kabin ölçüleri ve kapasite ile makine bu dilim içinde kata çıkarılıp güvenli konuma alınır. Rezervasyon süresini aşmamak için ekip, asansör önünde makineyle önceden hazır bekler; diğer kiracıların işini aksatmamak, bizim de önceliğimizdir.",
+            },
+            {
+                soru: "Kurumumuz güvenlik prosedürü katı; teslimat ekibi ve aracı önceden bildirmek zorunda mıyız?",
+                cevap:
+                    "Evet, çoğu kurum binası bunu ister — araç plakası, sürücü kimliği ve taşınan ekipman listesi güvenliğe önceden iletilir, giriş bu bilgiyle karşılaştırılarak yapılır. İlk teslimatta bu evrak hazırlığı biraz zaman alır ama sonraki teslimatlarda şablon olarak kullanılır ve süreç hızlanır. Son dakika araç veya personel değişikliği güvenlik gecikmesine yol açabilir; bu tip bir değişiklik olursa mümkün olan en erken saatte haber veririz.",
+            },
+            {
+                soru: "Makine hedefe ulaşana kadar lobimizin mermer zemininden geçecek; koruma sağlanıyor mu?",
+                cevap:
+                    "Evet — güzergâh üzerindeki hassas zeminler (mermer, halı, parke) geçiş öncesi koruma plakası veya bantla döşenir ve geçiş, lobinin en düşük yoğunluklu saatine planlanır. Güzergâhın dönüş noktaları darsa, geniş şaseli yerine kompakt gövdeli bir model tercih edilir ki manevra zemine zarar vermesin. Lobinizin kat planını ve yoğunluk saatlerini paylaşırsanız, güzergâhı önceden birlikte çizeriz.",
+            },
+            {
+                soru: "İş birkaç gün sürecek; makine her gün mü içeri-dışarı taşınacak, yoksa binada mı kalıyor?",
+                cevap:
+                    "Çok günlük işlerde makine mekânda bırakılır ve yalnızca ilk gün giriş, son gün çıkış teslimatı yapılır — bu, tekrarlanan rampa veya asansör rezervasyonu ihtiyacını ortadan kaldırır ve hem maliyeti hem bina trafiğine etkiyi düşürür. Bina yönetimi genellikle bu düzeni tercih eder çünkü her gün yeniden rezervasyon koordinasyonu gerekmez. Güvenli park noktası ve gece şarj imkânı, ilk teslimatta belirlenir.",
+            },
+            {
+                soru: "Teslimat penceresini kaçırırsak ne olur, aynı gün telafi mümkün mü?",
+                cevap:
+                    "Bina yönetiminin programına bağlıdır — bazı AVM ve plazalarda aynı gün içinde ikinci bir pencere bulunabilir, bazılarında (özellikle tek seferlik sabah penceresi olan AVM'lerde) bir sonraki güne ertelenir. Bu belirsizliği baştan açık söyleriz ve riski azaltmak için araç, penceden önce yola çıkarılır, trafik-hava durumu için pay bırakılır. Kritik terminli işlerde teslimat gününden bir gün önce lojistik teyidi tekrar yapılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yük rampası ve yük asansörü paylaşım pratiği ile güvenlik kayıt prosedürleri iç mekân teslimatlarında yaygın bina yönetimi uygulamasıdır; teslimat şablonlaştırma firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Kapalı Depo İçinde Akülü Forklift ile İstifleme Kiralama",
+        giris:
+            "Ankara'daki AVM, ofis ve fabrika projelerimizin çoğunda platform kadar sık karşılaşılan bir başka ihtiyaç, kapalı depo ve stok alanlarındaki istifleme işidir — yeni açılan bir mağazanın ürün paletlerinin raflara yerleştirilmesi, bir ofis taşınmasında arşiv kutularının depoya istiflenmesi veya bir fabrika ambarında hammadde paletlerinin düzenlenmesi. Bu işlerin ortak paydası platformla aynıdır: kapalı hacimde çalışılır ve dizel forklift bu hacme giremez. Akülü forklift filomuz, iç mekân platformlarımızla aynı ilkeyle kurulmuştur — sıfır emisyon, düşük ses, iz bırakmayan lastik seçeneği — ve tek fark hareket biçimindedir: platform yukarı çıkarken forklift yatayda taşır ve düşeyde istifler. Bu sayfa, kapalı mekân istifleme işlerinde akülü forkliftin nasıl konumlandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Raf aralığı ve koridor genişliği ölçüsü",
+                metin:
+                    "Depo raflarının koridor genişliği, forklift seçiminin ilk belirleyicisidir — standart karşı ağırlıklı forklift geniş dönüş yarıçapı ister, dar koridorlu raf sistemlerinde ise reach truck veya dar koridor forklifti gerekir. Keşifte koridor genişliği, raf yüksekliği ve palet ölçüsü birlikte ölçülür; bu üçlü, hangi forklift sınıfının işi görebileceğini belirler. Yanlış sınıf seçimi, ya koridora sığmama ya da raf üstüne yetersiz erişim anlamına gelir — ölçü konuşmadan makine seçilmez.",
+            },
+            {
+                baslik: "Zemin kapasitesi ve yük dağılımı",
+                metin:
+                    "İstifleme işi, platform işinden farklı olarak sürekli hareketli ağır yük taşır ve zeminin bu yükü taşıma kapasitesi, özellikle asma kat depo alanlarında ve eski yapı stokunda kritik bir kontroldür. Zemin kapasitesi belirsizse, iş öncesinde bina yönetiminden veya statik projeden veri istenir; belirsizlik giderilmeden yüklü forklift o alana sokulmaz. Beton zeminlerde çatlak veya derz sorunları da forkliftin geçiş güzergâhını etkileyebilir, bu yüzden güzergâh önceden yürünerek kontrol edilir.",
+            },
+            {
+                baslik: "Akülü forkliftin kapalı depoda emisyon avantajı",
+                metin:
+                    "Gıda, ilaç veya elektronik ürün depolayan hacimlerde dizel forkliftin egzozu ürün kalitesini doğrudan tehdit eder — is partikülü ve karbon monoksit, platform işlerinde anlattığımız aynı riski burada da taşır. Akülü forklift bu riski sıfırlar ve ek olarak LPG'li modellere göre de daha sessizdir; mesai saatinde çalışan personelin yanında istifleme yapılabilir. Sürekli çok vardiyalı depo işletmelerinde akülü forklift filosu, gündüz mesaide bile çalışma imkânı sunar.",
+            },
+            {
+                baslik: "Operatör belgesi ve güvenlik brifingi",
+                metin:
+                    "Forklift operasyonu, platform operasyonundan farklı bir risk profiline sahiptir — devrilme, yaya çarpışması ve raf çökmesi gibi riskler operatörün belgeli ve deneyimli olmasını zorunlu kılar. Operatörümüz iş öncesi depo yerleşimini, yaya güzergâhlarını ve raf yük etiketlerini kontrol eder; bina personeliyle ortak çalışılan alanlarda yaya-forklift ayrımı şeritle işaretlenir. Belgesiz veya deneyimsiz operatörle çalışma, hiçbir koşulda kabul edilmez.",
+            },
+            {
+                baslik: "Kısa süreli istifleme vs. sürekli depo desteği",
+                metin:
+                    "Talepler iki farklı ritimde gelir: bir mağaza açılışı veya taşınma gibi birkaç günlük yoğun istifleme, veya bir üretim tesisinin sürekli, haftalık forklift ihtiyacı. Kısa süreli işlerde makine ve operatör paket olarak gelir ve iş bitince ayrılır; sürekli ihtiyaçta aylık kiralama modeli ile aynı forklift ve mümkünse aynı operatör depoya alışır — bu süreklilik, depo yerleşimine aşinalığı artırır ve hız kazandırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo tipine göre forklift sınıfı seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, kapalı depo tiplerine göre tipik forklift ihtiyacını gösterir. Tüm satırlarda akülü tahrik esastır.",
+                ],
+                tablo: {
+                    basliklar: ["Depo tipi", "Koridor genişliği", "Tipik yük", "Uygun forklift sınıfı"],
+                    satirlar: [
+                        ["Standart palet deposu", "Geniş (3+ m)", "Standart palet", "Akülü karşı ağırlıklı"],
+                        ["Dar koridorlu raf sistemi", "Dar (1,6-2 m)", "Yüksek raf, hafif palet", "Akülü reach truck"],
+                        ["Mağaza arka deposu", "Değişken, dar", "Karma ürün, kutu", "Kompakt akülü, elektrikli transpalet"],
+                        ["Soğuk hava deposu", "Standart", "Gıda paleti", "Soğuk ortam sertifikalı akülü"],
+                        ["Ofis arşiv deposu", "Dar, düşük tavan", "Kutu, dosya", "Kompakt elektrikli istifleyici"],
+                    ],
+                },
+            },
+            {
+                baslik: "Platform ve forklift işinin aynı projede birleşmesi",
+                paragraflar: [
+                    "Bir AVM açılışı veya ofis taşınması gibi projelerde platform (tavan-aydınlatma) ve forklift (istifleme) ihtiyacı çoğu zaman aynı anda ortaya çıkar — bu iki hizmeti tek keşifte, tek nakliyede birleştirmek hem lojistik maliyeti düşürür hem koordinasyonu kolaylaştırır. Aynı bina için tek bina yönetimi iletişimi, tek güvenlik prosedürü, tek teslimat penceresi kullanılır.",
+                    "İki ekipmanın aynı hacimde eş zamanlı çalışması gerekiyorsa güzergâhlar çakışmayacak şekilde ayrılır — platform bir bölgede tavan işini yaparken forklift başka bir koridorda istifleme yapar.",
+                ],
+            },
+            {
+                baslik: "Raf yük etiketi kontrolü: sık atlanan adım",
+                paragraflar: [
+                    "Depo raflarının her katının bir yük kapasitesi etiketi vardır ve bu etiket, forklift operatörünün istifleme sırasında referans aldığı temel veridir — etiketsiz veya okunaksız raflarda istifleme, kapasite teyit edilene kadar durdurulur. Bu, sık atlanan ama kritik bir adımdır; birçok depo işletmesi raf etiketlerinin eskidiğini veya kaybolduğunu iş sırasında fark eder.",
+                    "Etiket eksikse, raf üreticisinden veya bina yönetiminden kapasite verisi istenir; veri temin edilene kadar geçici olarak düşük kapasiteli varsayım ile çalışılır. Bu temkinli yaklaşım, raf çökmesi gibi ciddi kazaları önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mağazamızın deposu dar koridorlu, standart forklift dönemiyor; ne öneriyorsunuz?",
+                cevap:
+                    "Dar koridorlu raf sistemleri için reach truck veya dar koridor forklifti tasarlanmıştır — bu sınıf, standart karşı ağırlıklı forklifte göre çok daha küçük dönüş yarıçapıyla çalışır. Koridor genişliğini, raf yüksekliğini ve palet ölçüsünü paylaşırsanız, doğru sınıfı keşifte netleştiririz. Koridor gerçekten çok darsa, alternatif olarak elektrikli transpalet veya kompakt istifleyici de değerlendirilir.",
+            },
+            {
+                soru: "Depomuzda gıda ürünü var, dizel forklift kullanamayız; akülü seçenek yeterli kapasitede mi?",
+                cevap:
+                    "Evet — akülü forklift filomuz standart palet kapasitelerini karşılar ve gıda deposu gibi hassas ortamlarda tek makul seçenektir çünkü dizel egzozu ürün riskine yol açar. Akü kapasitesi, tipik bir vardiyalık istifleme işini tek şarjla karşılar; çok vardiyalı sürekli işlerde ara şarj veya vardiya değişiminde ikinci makine planlanır. Depo hacminizi ve günlük palet trafiğinizi paylaşırsanız kapasite hesabını netleştiririz.",
+            },
+            {
+                soru: "Asma kat depomuzun taşıma kapasitesi belli değil; yüklü forklift oraya çıkabilir mi?",
+                cevap:
+                    "Kapasite belirsizken hayır — bu, geçilmez bir kuraldır. Öncelikle bina yönetiminden veya statik projeden asma katın taşıma kapasitesi verisi istenir; bu veri olmadan yüklü forklift o alana sokulmaz. Kapasite teyit edildikten sonra forkliftin yüklü ağırlığı bu sınırla karşılaştırılır ve güvenli çalışma planı buna göre çıkarılır. Asma kat güvenliği konusunda pazarlık yapmayız.",
+            },
+            {
+                soru: "Operatör bizim personelimiz mi olacak, siz mi sağlıyorsunuz?",
+                cevap:
+                    "Standart kurgumuzda operatörü biz sağlarız — belgeli ve deneyimli operatörümüz, iş öncesi depo yerleşimini, yaya güzergâhlarını ve raf etiketlerini kontrol eder. Kendi belgeli operatörünüz varsa yalnızca makine kiralaması da mümkündür, ancak bu durumda operatörünüzün geçerli forklift ehliyeti ve deneyim belgesi teyit edilir. Belgesiz operatörle çalışma hiçbir koşulda kabul edilmez.",
+            },
+            {
+                soru: "Taşınma projemiz üç gün sürecek, forklift her gün mü kiralanıyor yoksa süreklilik mi sağlıyorsunuz?",
+                cevap:
+                    "Çok günlük işlerde forklift ve mümkünse aynı operatör projenin tamamında sabit kalır — bu, depo yerleşimine aşinalığı artırır ve her gün yeniden oryantasyon gerektirmez. Makine gece binada güvenli park noktasında bekler ve şarj olur, ilk ve son gün dışında ek nakliye gerekmez. Taşınma takviminizi paylaşırsanız üç günlük planı tek paket olarak kuralım.",
+            },
+            {
+                soru: "Raf yük etiketleri okunmaz hâlde, kapasiteyi nasıl teyit ediyorsunuz?",
+                cevap:
+                    "Etiket okunaksızsa istifleme, kapasite teyit edilene kadar durdurulur — bu sık karşılaştığımız ama üzerinden geçilmeyecek bir durumdur. Raf üreticisinden model numarasıyla kapasite verisi istenir veya bina yönetiminin arşivinde kayıt varsa oradan teyit alınır. Veri hiçbir şekilde bulunamazsa, temkinli bir düşük kapasite varsayımıyla çalışılır ve gerçek kapasite netleşene kadar ağır paletler o rafa konmaz. Raf çökmesi riski, hiçbir zaman göze alınmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift sınıfları ve dar koridor forklifti (reach truck) tanımı genel malzeme taşıma ekipmanı bilgisidir; zemin kapasitesi teyidi ve raf etiketi kontrolü firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "İç Mekânda Akülü Eklemli (Boom) Platform Kiralama",
+        giris:
+            "Standart makaslı platform dikey ve düz yukarı çıkar; ama bir AVM'nin atrium köşesindeki dekoratif tavan detayı, bir ofis lobisinin eğimli cam cephesi veya bir fabrika holünün boru hattı üstündeki dönel engel, düz erişimle ulaşılamayan açılardadır. Eklemli platformun bom kırılımı — yatayda uzanma, yukarı kalkma ve engelin üzerinden aşma — tam bu geometriye cevap verir ve iç mekân filomuzda akülü eklemli sınıf, kapalı hacimde bu tip erişim ihtiyacı ortaya çıktığında devreye girer. Kapalı mekânda dizel eklemli platform kullanılamayacağı için, akülü elektrikli tahrikli model tek seçenektir; bu sınıfın hem gövdesi hem manevra mantığı, iç mekânın dar ve hassas koşullarına göre seçilir. Bu sayfa, kapalı alanda akülü eklemli platformun ne zaman ve nasıl kullanıldığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Engel aşma: boru hattı, kiriş, asma tavan detayı üstünden erişim",
+                metin:
+                    "Fabrika ve depo hollerinde tavan altı sık sık boru hatları, kablo tavaları ve çelik kirişlerle doludur — düz yukarı çıkan makaslı platform bu engellerin arasından geçemez, ama eklemli bomun yatay uzanıp sonra dikey kalkma hareketi, engelin üzerinden veya yanından dolanarak hedefe ulaşır. Bu manevra, keşifte tavan altı engel haritası çıkarılarak planlanır; bomun kırılma noktaları ve zarf diyagramı, engellerle çakışmayacak şekilde önceden hesaplanır.",
+            },
+            {
+                baslik: "Eğimli ve düzensiz yüzeylere erişim",
+                metin:
+                    "Modern ofis ve AVM mimarisinde eğimli cam cephe, konik tavan veya kademeli asma tavan gibi düzensiz yüzeyler yaygındır — bu yüzeylerin bakımı, sabit açılı bir platformdan çok, sepet açısını ayarlayabilen eklemli bomdan daha kolay yapılır. Sepetin kendi ekseninde dönmesi ve bomun farklı açılarda durabilmesi, operatörün yüzeye paralel bir çalışma pozisyonu bulmasını sağlar; bu, özellikle cam temizliği ve kaplama işlerinde iş kalitesini doğrudan etkiler.",
+            },
+            {
+                baslik: "Kapalı hacimde akülü eklemli sınıfın zorunluluğu",
+                metin:
+                    "Eklemli platformların dış mekân versiyonları genellikle dizel veya hibrit tahriklidir çünkü açık sahada güç ve menzil önceliklidir — ama kapalı hacimde bu seçenek yoktur, iç mekân işinde eklemli sınıf yalnızca akülü olarak sunulur. Akülü eklemli modellerin gücü dizel muadillerine göre bir miktar sınırlı olsa da, iç mekân işlerinin tipik yükü (aydınlatma, kablo, kontrol ekipmanı) bu sınırı zorlamaz; güç kısıtı, iç mekân işinde pratikte hissedilmez.",
+            },
+            {
+                baslik: "Dar tabanda geniş erişim: ayak izi ile menzil dengesi",
+                metin:
+                    "Eklemli platformun avantajı, taban izinin görece küçük kalırken bomun geniş bir hacme erişebilmesidir — makine tek bir noktada park edip bomu farklı yönlere kırarak birden fazla hedefe ulaşabilir, bu da iç mekânda makine konum değiştirme sıklığını azaltır. Dar bir AVM koridorunda tek park noktasından hem sol hem sağ duvara erişim, eklemli sınıfın bu esnekliğiyle mümkündür ve zemin izine müdahaleyi minimuma indirir.",
+            },
+            {
+                baslik: "Operatör deneyimi: bom kontrolünün inceliği",
+                metin:
+                    "Eklemli platformun çok eksenli hareketi, makaslıya göre daha fazla operatör deneyimi ister — bom kırılırken sepetin hassas zemine veya cam yüzeye olan mesafesi sürekli izlenmelidir. Operatörümüz, iç mekân işlerinde bu hassasiyete özel eğitimlidir: hareketler yavaş ve kademeli yapılır, kritik yaklaşımlarda ikinci bir göz (yerdeki gözcü) devrededir. Bu disiplin, iç mekânın hem zemin hem duvar-tavan yüzeylerini korur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân engel tiplerine göre bom erişimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, iç mekânda sık karşılaşılan engel tiplerinin eklemli bom ile nasıl aşıldığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Engel tipi", "Tipik mekân", "Bom hareketi", "Dikkat noktası"],
+                    satirlar: [
+                        ["Boru hattı / kablo tavası", "Fabrika holü", "Yatay uzanma + üstten aşma", "Zarf diyagramı önceden hesaplanır"],
+                        ["Eğimli cam cephe", "Ofis lobisi", "Sepet açısı ayarı", "Cam mesafesi sürekli izlenir"],
+                        ["Konik/kademeli asma tavan", "AVM atrium", "Çok eksenli kademeli hareket", "Yavaş, kontrollü manevra"],
+                        ["Yürüyen merdiven boşluğu", "AVM ortak alan", "Yandan yaklaşma", "Düşen cisim bariyeri"],
+                        ["Dar koridor iki yan duvar", "Ofis katı", "Tek noktadan çift yön erişim", "Konum değişikliği azaltılır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı yeterliyken eklemli önerilmez",
+                paragraflar: [
+                    "Eklemli platform, makaslıya göre daha yavaş kurulur ve genellikle daha yüksek maliyetlidir — bu yüzden hedefe düz yukarı erişim yeterliyse eklemli önerilmez. Keşifte önce tavan altı engel durumu ve yüzey geometrisi değerlendirilir; engel yoksa ve yüzey düzse, standart makaslı veya dikey direkli daha hızlı ve ekonomik bir çözümdür. Eklemli sınıf yalnızca gerçekten engel aşma veya açılı erişim gerektiğinde teklif edilir.",
+                    "Bu seçim disiplini, gereksiz maliyetten kaçınmanın yanı sıra kurulum süresini de kısaltır — iç mekân işinde zaman, bina yönetiminin verdiği dar pencereler nedeniyle her zaman kısıtlı bir kaynaktır.",
+                ],
+            },
+            {
+                baslik: "Zarf diyagramı: iç mekânda özel önem",
+                paragraflar: [
+                    "Zarf diyagramı, bomun ulaşabileceği tüm noktaların üç boyutlu haritasıdır ve dış mekânda genellikle yeterlilik kontrolü için kullanılırken, iç mekânda ayrıca güvenlik kontrolü işlevi görür — diyagram, bomun tavan, duvar veya komşu ekipmanla çakışmayacağını önceden doğrular. İç mekân keşiflerimizde bu diyagram, mekânın fotoğraflı ölçüleriyle birlikte çıkarılır ve müşteriyle paylaşılır; bu, işin başlamadan önce her iki tarafın da aynı planı görmesini sağlar.",
+                    "Diyagramda bir çakışma tespit edilirse, ya makine konumu değiştirilir ya da daha küçük gövdeli bir model önerilir — sahada deneme yaparak öğrenmek yerine, hesap masada yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrika holümüzün tavanında boru hattı var, düz platform altından geçemiyoruz; eklemli çözer mi?",
+                cevap:
+                    "Genellikle evet — eklemli bomun yatay uzanıp sonra dikey kalkma hareketi, boru hattının yanından veya üzerinden dolanarak hedefe ulaşmayı mümkün kılar. Keşifte tavan altı engel haritasını çıkarır, bomun zarf diyagramını boru hattıyla çakışmayacak şekilde hesaplarız. Boru hattının yüksekliğini ve holün tavan kotunu paylaşırsanız, uygun eklemli modeli netleştiririz.",
+            },
+            {
+                soru: "Ofis lobimizin cam cephesi eğimli, standart platform yüzeye paralel duramıyor; çözüm var mı?",
+                cevap:
+                    "Var — eklemli platformun sepeti kendi ekseninde döner ve bom farklı açılarda durabilir, bu da operatörün eğimli yüzeye paralel bir çalışma pozisyonu bulmasını sağlar. Bu, özellikle cam temizliği gibi hassas işlerde iş kalitesini artırır. Cephenin eğim açısını ve yüksekliğini paylaşırsanız, doğru bom uzunluğunu keşifte belirleriz.",
+            },
+            {
+                soru: "Neden dizel eklemli değil de akülü öneriyorsunuz, güç yeterli mi?",
+                cevap:
+                    "Kapalı hacimde dizel eklemli platform kullanılamaz — bu, egzoz emisyonu nedeniyle iç mekân işinde geçilmez bir kuraldır, filomuzun eklemli sınıfı da bu yüzden yalnızca akülüdür. Güç konusunda akülü modeller dizel muadillerine göre bir miktar sınırlı olsa da, iç mekân işlerinin tipik yükü (aydınlatma, kablo, kontrol ekipmanı) bu sınırı zorlamaz; pratikte güç kısıtı hissedilmez. Ağır ve büyük ölçekli bir yük söz konusuysa bunu keşifte ayrıca değerlendiririz.",
+            },
+            {
+                soru: "Dar koridorumuzda hem sol hem sağ duvara erişmemiz gerekiyor, makine kaç kez konum değiştirecek?",
+                cevap:
+                    "Eklemli platformun avantajı tam burada devreye girer — tek bir park noktasından bomu farklı yönlere kırarak hem sol hem sağ duvara erişebilir, bu da konum değişikliği sıklığını azaltır. Koridor genişliğini ve duvarlar arası mesafeyi paylaşırsanız, tek noktadan kaç hedefe ulaşılabileceğini keşifte hesaplarız. Bu, hem işi hızlandırır hem hassas zemine tekrar tekrar manevra yapılmasını önler.",
+            },
+            {
+                soru: "Eklemli mi makaslı mı, ikisi arasında nasıl karar veriyorsunuz?",
+                cevap:
+                    "Önce tavan altı engel durumu ve yüzey geometrisi kontrol edilir — engel yoksa ve hedefe düz yukarı erişim yeterliyse makaslı önerilir, çünkü daha hızlı kurulur ve genellikle daha ekonomiktir. Engel varsa veya yüzey eğimliyse (eğimli cam, konik tavan) eklemli gerekir. Mekânın fotoğrafını ve hedefin konumunu paylaşırsanız, gereksiz yere pahalı bir çözüm önermeden doğru sınıfı söyleriz.",
+            },
+            {
+                soru: "Bom hareketi sırasında cam cepheye veya hassas tavana zarar verme riski nasıl önleniyor?",
+                cevap:
+                    "Üç katmanlı önlemle: zarf diyagramı, bomun çakışma yapmayacağını işe başlamadan masada doğrular; operatör hareketleri iç mekânda yavaş ve kademeli yapar; kritik yaklaşımlarda yerde ikinci bir gözcü, sepedin yüzeyle mesafesini sürekli izler. Bu üç katman birlikte çalıştığında, iç mekân eklemli işlerinde yüzey teması riskini pratik olarak sıfıra indiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platform bom kırılımı ve zarf diyagramı kavramı EN 280 standardı ve üretici teknik dokümantasyonuna dayanır; iç mekân akülü zorunluluğu ve operatör gözcü uygulaması firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekân ve Depo İçi Egzozsuz Platform Kiralama — Ankara'nın Tam Kapsamı",
+        giris:
+            "Bu sayfa, filomuzun kimliğinin tam merkezidir: Ankara genelinde AVM, ofis, hastane, otel, kurum binası ve depo/fabrika iç hacimlerine egzozsuz platform kiralama. Diğer hizmet sayfalarımız bu kimliğin belirli kesitlerini (sepetli erişim, forklift istifleme, eklemli bom, aydınlatma bakımı) anlatırken, bu sayfa iç mekân işinin tamamını — neden dizel motorun kapalı hacme giremeyeceğinden, hangi zemin ve erişim koşullarının hangi makineyi gerektirdiğine, teslim standardından şarj planına kadar — tek yerde toplar. İç mekânda çalışmanın kuralı basittir ve tektir: insan yaşayan veya insanın sürekli bulunduğu kapalı bir hacme içten yanmalı motor sokulmaz. Bu kural, karbon monoksitin kokusuz oluşu ve kapalı hacimdeki birikim hızı gibi somut fiziksel gerçeklere dayanır ve filomuzun akülü olma nedenidir — pazarlama tercihi değil, zorunluluktur. AVM'lerin ortak alanları, ofis kulelerinin katları, hastanelerin steril bölümleri, otellerin salonları ve fabrikaların üretim holleri, bu zorunluluğun farklı yüzleridir; hepsinde ortak olan, makinenin mekâna misafir gibi girip iz bırakmadan çıkmasıdır.",
+        maddeler: [
+            {
+                baslik: "Egzozsuzluk neden pazarlık konusu değildir",
+                metin:
+                    "Kapalı bir hacimde içten yanmalı motor çalıştırmanın riski iki katmanlıdır: görünen risk (koku, is, göz-boğaz tahrişi) ve görünmeyen risk (karbon monoksitin kokusuz birikimi). İkinci risk daha tehlikelidir çünkü fark edilmeden ilerler — düşük derişimde baş ağrısı ve dikkat kaybı yapar, yüksek derişimde bilinç kaybına kadar gider. Bina havalandırma sistemleri bu yükü temizlemek için değil, insan yoğunluğuna göre tasarlanmıştır; motor emisyonu bu sistemin kapasitesini aşar. Bu yüzden 'kısa süreli iş, dizel de olur' pazarlığına iç mekân filomuzda hiçbir koşulda girilmez.",
+            },
+            {
+                baslik: "Zemin tipine göre lastik ve koruma seçimi",
+                metin:
+                    "İç mekânların zemin çeşitliliği (mermer, granit, epoksi, parke, halı, seramik) her biri farklı koruma stratejisi gerektirir. Beyaz (iz bırakmayan) lastik standart olsa da, cilalı mermerde ek olarak yük dağıtım plakası, halıda güzergâh koruma bandı, hassas parkede geniş yaylı dönüş manevrası uygulanır. Zemin tipi ve durumu keşifte fotoğrafla belgelenir; iş öncesi ve sonrası karşılaştırma, teslim standardının parçasıdır. Zemin garantisi devam eden yeni yapılarda bu disiplin, garanti şartlarının da gereğidir.",
+            },
+            {
+                baslik: "Erişim: kapı, koridor, asansör ölçüsü zinciri",
+                metin:
+                    "İç mekân işinde makine seçimi, tek bir ölçüye değil bir ölçü zincirine bağlıdır: giriş kapısı genişliği-yüksekliği, koridor dönüş genişlikleri, varsa yük asansörünün kabin ölçüsü ve kapasitesi. Bu zincirin herhangi bir halkası darsa, o halkayı geçebilecek en küçük makine sınıfı belirleyici olur — geniş bir hedefe küçük bir kapıdan erişmek, kompakt gövdeli veya parçalı montaj (sepetli) sınıfı gerektirebilir. Ölçü zinciri, keşifte fotoğraf ve şeritmetreyle baştan sona doğrulanır.",
+            },
+            {
+                baslik: "Zaman penceresi: mesai, gece, etkinlik boşluğu",
+                metin:
+                    "İç mekân işinin zamanlaması, mekânın kullanım ritmine bağlıdır: AVM'ler gece penceresini, ofisler mesai dışı veya sessiz mesai içi saatleri, oteller etkinlik takviminin boşluklarını, fabrikalar vardiya aralarını kullanır. Akülü makinenin sessizliği bu pencereleri esnetir — bazı işler, dizel olsaydı imkânsız olacak mesai içi saatlerde bile yapılabilir. Zaman penceresi, bina yönetimiyle keşif aşamasında netleştirilir ve iş bu pencereye göre planlanır; pencere dışına taşan iş, ertesi güne veya sonraki pencereye bölünür.",
+            },
+            {
+                baslik: "Teslim standardı: geldiği gibi bırakma",
+                metin:
+                    "İç mekân işinin görünmeyen sözleşmesi, mekânı bulduğu hâlde bırakmaktır: çalışma öncesi zemin ve çevre fotoğraflanır, güzergâhtaki hassas noktalar korumaya alınır, iş bitiminde alan temizlenir ve fotoğraf karşılaştırmasıyla teslim edilir. Bu standart, iç mekân müşterisinin (AVM yönetimi, ofis idaresi, fabrika yönetimi) bize güvenmesinin temelidir — 'iş bitti' demek, kullanıcıların hiçbir şey fark etmemesi demektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân türüne göre kapsamlı hizmet özeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, Ankara'daki başlıca iç mekân türlerinde tipik iş kalemlerini ve egzozsuz çözümü özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Mekân türü", "Tipik iş kalemleri", "Zaman penceresi", "Egzozsuz çözüm sınıfı"],
+                    satirlar: [
+                        ["AVM ortak alanı", "Atrium aydınlatma, ışık kubbesi", "Gece, kapanış sonrası", "Akülü makaslı / sepetli"],
+                        ["Ofis kulesi katı", "LED dönüşüm, kablo tavası", "Mesai dışı, gece", "Akülü dikey direkli / eklemli"],
+                        ["Hastane-sağlık tesisi", "Aydınlatma, tesisat, steril alan", "Gece, düşük trafik", "Akülü kompakt, hijyen protokollü"],
+                        ["Otel-kongre salonu", "Avize, sahne, ses köprüsü", "Etkinlik boşlukları", "Akülü makaslı, tam zemin koruması"],
+                        ["Fabrika-depo holü", "Vinç yolu, sprinkler, raf üstü", "Vardiya içi/dışı", "Akülü makaslı / eklemli / forklift"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şarj planı: iç mekân işinin görünmeyen lojistiği",
+                paragraflar: [
+                    "Akülü filonun gündelik gerçeği şarjdır, ama iç mekân işinde bu bir avantaja dönüşür çünkü bina zaten prizlidir. Tek vardiyalık işlerde makine tam şarjlı gelir ve günü rahat çıkarır; çok günlük işlerde makine gece mekânda kalır ve bina prizinden şarj olur — sabah tam kapasiteyle başlar. Şarj yükü, keşifte sigorta kapasitesiyle karşılaştırılır; eski tesisatlı binalarda şarj gece düşük yükte planlanır.",
+                    "Şarj yüzünden iş bekletmek, planlamayla önlenen bir hatadır ve iç mekân filomuzun hiçbir işinde görülmemiştir — bu, tüm sayfalarımızda tekrar eden ama her seferinde yeniden doğrulanan bir taahhüttür.",
+                ],
+            },
+            {
+                baslik: "Doğru sınıf seçimi: gereksiz karmaşıklıktan kaçınma",
+                paragraflar: [
+                    "İç mekân filomuz beş farklı sınıf barındırır — dikey direkli, makaslı, eklemli, sepetli, forklift — ve doğru seçim, işin gerçek ihtiyacına göre yapılır, en pahalı veya en gösterişli olana göre değil. Düz bir ofis katında dikey direkli yeterliyken, engelli bir fabrika holünde eklemli gerekebilir; geniş bir AVM koridorunda makaslı hızlıyken, hassas bir asma kat boşluğunda sepetli tek seçenek olabilir. Bu seçim disiplini, keşifte mekânın fotoğraf ve ölçüleriyle birlikte, gereksiz maliyet ve kurulum süresinden kaçınacak şekilde yapılır.",
+                    "Beş sınıfın detaylı anlatımı için bu sayfanın altındaki ilgili hizmet sayfalarına (sepetli, eklemli, forklift) bakabilirsiniz; bu sayfa hepsinin ortak çerçevesidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Neden tüm filonuz akülü, bazı işlerde dizel daha güçlü ve ucuz olmaz mıydı?",
+                cevap:
+                    "Kapalı hacimde içten yanmalı motor çalıştırmak, gücün veya maliyetin ötesinde bir sağlık meselesidir — karbon monoksit kokusuzdur ve mekanik havalandırması insan yoğunluğuna göre tasarlanmış bir binada birikir, çalışan ve ziyaretçi sağlığını riske atar. Bina havalandırma sistemleri bu yükü temizlemek üzere kurulmamıştır. Akülü makinenin kira farkı, tek bir havalandırma kanalı temizliğinin veya bir sağlık olayının maliyetinden çok azdır — bu hesap iç mekân işinde her zaman akülünün lehinedir ve pazarlık konusu yapılmaz.",
+            },
+            {
+                soru: "Mekânımız birden fazla zemin tipi içeriyor (mermer lobi, halı koridor, beton depo); tek makine mi geliyor?",
+                cevap:
+                    "Genellikle evet, ama koruma stratejisi zemin tipine göre değişir — mermer lobide yük dağıtım plakası ve yavaş manevra, halı koridorda güzergâh koruma bandı, beton depoda standart teker temizliği uygulanır. Makinenin kendisi (beyaz iz bırakmayan lastik) tüm zeminlerde aynı kalır; değişen, ek koruma önlemleridir. Mekânın kat planını paylaşırsanız, her bölüm için ayrı koruma notu çıkarır ve tek makineyle tüm güzergâhı planlarız.",
+            },
+            {
+                soru: "İşimiz birkaç saat sürecek gibi görünüyor ama bina erişimi karmaşık; toplam süre nasıl belirleniyor?",
+                cevap:
+                    "Toplam süre, yalnızca çalışma süresini değil ölçü zincirini (kapı, koridor, varsa asansör) geçme ve kurulum süresini de kapsar — karmaşık erişimli mekânlarda bu ek süre iş süresinin üçte birine kadar çıkabilir. Keşifte tüm zincir ölçülür ve gerçekçi bir toplam süre (kurulum + çalışma + teslim) verilir; 'birkaç saat' tahmini yalnızca çalışma kısmını kapsıyorsa bunu keşifte netleştiririz ki bina yönetimine yanlış pencere talebi gitmesin.",
+            },
+            {
+                soru: "Gece penceresinde çalışacağız ama binada güvenlik ekibi dışında kimse olmayacak; bu bir sorun mu?",
+                cevap:
+                    "Sorun değil, standart bir düzendir — iç mekân işlerimizin büyük kısmı zaten gece penceresinde ve minimum bina personeliyle yürür. Güvenlik ekibiyle giriş-çıkış saatleri ve çalışma bölgesi önceden netleştirilir, ekip binada tek başına ama bina yönetiminin bilgisi dahilinde çalışır. İş bitiminde alan fotoğraflı teslim edilir; sabah gelen personel veya ziyaretçi hiçbir iz görmez.",
+            },
+            {
+                soru: "Beş farklı platform sınıfınız var dediniz, bizim işimiz için hangisi gerekiyor bilmiyoruz; nasıl karar veriyorsunuz?",
+                cevap:
+                    "Karar bizim tarafımızdan, sizin tarafınızdan gelen bilgiyle verilir — mekânın fotoğrafları, hedefin konumu ve yüksekliği, erişim ölçüleri (kapı, koridor) ve zemin tipi bize gönderildiğinde, hangi sınıfın en hızlı ve en ekonomik çözümü sunduğunu keşifte netleştiririz. Karmaşık görünen bir iş çoğu zaman standart dikey direkli veya makaslı ile çözülür; gerçekten gerektiğinde eklemli, sepetli veya forklift önerilir. Gereksiz yere pahalı bir sınıf önermeyiz.",
+            },
+            {
+                soru: "Mekânımızda daha önce başka bir firma iz bırakmış, size güvenmemiz için ne sunuyorsunuz?",
+                cevap:
+                    "Somut bir teslim standardıyla: çalışma öncesi zemin ve çevre fotoğraflanır, güzergâhtaki hassas noktalar (mermer, halı, cam) korumaya alınır, iş bitiminde alan temizlenip fotoğraf karşılaştırmasıyla teslim edilir. Bu, sözlü bir taahhüt değil belgelenen bir süreçtir — önceki deneyiminizi keşifte paylaşırsanız, o noktaya özel ek koruma önlemi (örneğin geçmişte iz bırakılan bir bölgeye ekstra plaka) baştan planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Karbon monoksitin kokusuzluğu ve kapalı ortam hava kalitesi çerçevesi genel iş güvenliği bilgisidir; zemin koruma stratejisi, ölçü zinciri değerlendirmesi ve teslim standardı firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montajında Platform Desteği",
+        giris:
+            "Bu, filomuzun ana odağı olmayan bir hizmet başlığıdır ve bunu dürüstçe belirtmek gerekir: kimliğimiz Ankara'nın AVM, ofis ve fabrika iç mekânlarına egzozsuz platform kiralamadır, çelik konstrüksiyon montajı ise büyük ölçüde açık şantiye işidir ve bizim uzmanlık alanımızın merkezinde değildir. Buna rağmen, kapalı bir üretim holünün içine yeni bir çelik galeri veya asma kat eklenmesi gibi iç mekân sınırlarında kalan işlerde, akülü platformumuz sınırlı bir destek rolü üstlenebilir — kolon-kiriş birleşim noktalarına erişim, iç mekânda kaynak veya cıvatalama sırasında sepetli çalışma alanı sağlama gibi. Bu sayfa, hangi çelik montaj işlerinde uygun olduğumuzu ve hangi işlerde açık şantiyeye özel bir tedarikçinin daha doğru adres olacağını açık şekilde anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İç mekânda kalan çelik montaj işleri",
+                metin:
+                    "Bir fabrika holünün içine ek bir çelik galeri, asma kat veya vinç yolu eklenmesi, kolon-kiriş montajının büyük kısmı zaten kapalı hacimde geçtiği için uzmanlık alanımıza girer — akülü platform, hem galeri kirişlerinin bağlantı noktalarına erişir hem holün mevcut üretim faaliyetini durdurmadan çalışabilir. Bu tip işlerde iş, standart iç mekân keşfimizle (erişim ölçüsü, zemin, egzozsuz zorunluluk) değerlendirilir.",
+            },
+            {
+                baslik: "Açık şantiye montajı: sınırımızın dışı",
+                metin:
+                    "Yeni bina inşasının çelik iskelet montajı, genellikle geniş açık şantiye alanında ve dizel eklemli veya teleskopik platform kullanılarak yapılır — bu, filomuzun akülü-iç mekân odağının doğrudan dışındadır. Bu tip büyük ölçekli açık şantiye işlerinde, şantiye ekipmanına odaklı bir tedarikçi daha uygun güç ve menzil sunar; biz bu işleri kabul etmeyerek müşteriyi yanlış ekipmanla karşı karşıya bırakmayı tercih etmeyiz.",
+            },
+            {
+                baslik: "Kaynak ve cıvatalama sırasında sepetli destek",
+                metin:
+                    "İç mekânda kalan montaj işlerinde, kolon-kiriş birleşim noktasına erişim genellikle sepetli veya eklemli sınıfla sağlanır — kaynakçı veya montaj işçisi sepette çalışırken, platformun sabitliği ve konumlanma hassasiyeti iş kalitesini doğrudan etkiler. Kaynak dumanı kapalı hacimde ek bir ventilasyon önlemi gerektirebilir; bu, keşifte holün mevcut havalandırmasıyla birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Vinç ile koordinasyon: iç mekânda daha basit",
+                metin:
+                    "Açık şantiyede vinç-platform koordinasyonu geniş bir alanda yönetilirken, kapalı holde bu koordinasyon daha sınırlı ve öngörülebilir bir alanda yapılır — holün içindeki mevcut vinç (varsa) ile platformun rotası, günlük plana bağlanır ve askıda yük hattının altına platform sokulmaz. İç mekânın sınırlı hacmi, bu koordinasyonu açık şantiyeye göre basitleştirir.",
+            },
+            {
+                baslik: "Bu hizmetin sınırları: ne zaman uygun değiliz",
+                metin:
+                    "Açıkça söylemek gerekir: yeni bina inşasının ana çelik iskelet montajı, büyük ölçekli açık şantiye projeleri veya sürekli tekrarlı şantiye desteği bizim ana uzmanlık alanımızın dışındadır. Bu tip işler için şantiye ekipmanına odaklı bir tedarikçi hem daha uygun ekipman hem daha ekonomik çözüm sunar. Talebiniz iç mekânda kalan sınırlı bir montaj işiyse değerlendiririz; büyük ölçekli açık şantiye projesiyse dürüstçe yönlendirme yaparız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik montaj işlerinde uygunluk değerlendirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, çelik konstrüksiyon montaj taleplerinde uygunluğumuzu belirleyen faktörleri gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Faktör", "Uygun senaryo", "Sınırlı/uygun değil"],
+                    satirlar: [
+                        ["Mekân tipi", "Kapalı hol içi ek galeri/asma kat", "Açık şantiye, yeni bina iskeleti"],
+                        ["Ölçek", "Nokta bazlı, sınırlı montaj", "Büyük ölçekli ana iskelet"],
+                        ["Tahrik ihtiyacı", "Akülü yeterli güç bandı", "Dizel/yüksek güç gerektiren menzil"],
+                        ["Süreklilik", "Tekil iş", "Sürekli şantiye desteği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dürüst ön değerlendirme süreci",
+                paragraflar: [
+                    "Çelik montaj talebi geldiğinde önce üç soruyu netleştiririz: iş açık şantiyede mi kapalı holde mi, ölçek büyük mü sınırlı mı, gereken güç ve menzil akülü sınıfın kapasitesinde mi. Bu üç veriyle hızlıca uygun olup olmadığımızı söyleriz — uygun değilsek ilk görüşmede belirtiriz, 'gelip bakalım' diyerek zaman kaybettirmeyiz.",
+                    "Uygun olduğumuz işlerde, iç mekân işlerimizle aynı titizlikte çalışırız: egzozsuz zorunluluk, zemin koruması ve teslim standardı bu sayfanın konusunda da aynı şekilde uygulanır.",
+                ],
+            },
+            {
+                baslik: "Alternatif yönlendirme",
+                paragraflar: [
+                    "Bizim için uygun olmayan bir çelik montaj talebi geldiğinde, müşteriyi elleri boş bırakmamaya çalışırız — açık şantiye ekipmanına odaklı tedarikçileri araştırıp yönlendirme yapabiliriz. Bu, kısa vadede iş kaybı gibi görünse de, doğru iş için doğru adres olarak hatırlanmamızı sağlar ve yanlış ekipmanla başlayan bir projenin gecikme riskini önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrika holümüzün içine yeni bir çelik galeri ekleniyor; bu işe uygun musunuz?",
+                cevap:
+                    "Muhtemelen evet — holün içinde kalan bu tip işler, kapalı hacim ve akülü zorunluluk açısından uzmanlık alanımıza girer. Kolon-kiriş birleşim noktalarına sepetli veya eklemli platformla erişim sağlarız; iş, holün mevcut üretim faaliyetini durdurmadan planlanır. Galeri ölçülerini ve holün mevcut tavan kotunu paylaşırsanız, uygunluğu keşifte netleştiririz.",
+            },
+            {
+                soru: "Yeni bina inşasının çelik iskelet montajı için platform arıyoruz; siz mi yapıyorsunuz?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse, yeni bina inşasının ana çelik iskelet montajı büyük ölçüde açık şantiye işidir ve bizim ana uzmanlık alanımızın dışındadır — filomuz akülü ve iç mekân odaklıdır, açık şantiyenin gerektirdiği güç ve menzili karşılamaz. Bu tip işler için şantiye ekipmanına odaklı bir tedarikçiyi önermemiz daha doğru olur; talep ederseniz yönlendirme yapabiliriz.",
+            },
+            {
+                soru: "Kapalı holde kaynak yapacağız, platform sepette kaynakçıyı taşıyabilir mi?",
+                cevap:
+                    "Evet, bu iç mekânda kalan montaj işlerinde sık yaptığımız bir uygulamadır — sepetli veya eklemli platform, kaynakçıyı birleşim noktasına stabil şekilde konumlar. Kaynak dumanı için holün mevcut havalandırması yeterli değilse, ek ventilasyon önlemi keşifte değerlendirilir. Birleşim noktalarının konumunu ve yüksekliğini paylaşırsanız, uygun sınıfı netleştiririz.",
+            },
+            {
+                soru: "Holümüzde vinç var, platform ile aynı anda çalışabilirler mi?",
+                cevap:
+                    "Çalışabilir, ama kapalı holde bile askıda yük hattının altına platform sokulmaz — bu kural açık şantiyeyle aynıdır. Vinç rotası ve platformun çalışma bölgesi günlük plana bağlanır, iki ekip aynı anda farklı noktalarda çalışır. Holünüzün vinç kullanım sıklığını paylaşırsanız, koordinasyon planını keşifte netleştiririz.",
+            },
+            {
+                soru: "Bu iş bizim için tekil değil, birkaç ay sürecek sürekli bir şantiye desteği; uygun musunuz?",
+                cevap:
+                    "Sürekli, uzun süreli şantiye desteği ana uzmanlık alanımızın dışındadır — bu tip sürekli ihtiyaçlar için şantiye ekipmanına odaklı bir tedarikçi muhtemelen daha ekonomik ve esnek çözüm sunar. İhtiyacınız iç mekânda kalan, tekil veya kısa süreli bir işse değerlendirebiliriz; sürekli ve büyük ölçekli bir destekse dürüstçe alternatif önermemiz daha doğru olur.",
+            },
+            {
+                soru: "Neden bu hizmeti sunuyorsunuz ama bu kadar sınırlı tutuyorsunuz?",
+                cevap:
+                    "Çünkü ana kimliğimiz iç mekân egzozsuz platform kiralamadır ve bu kimliğin dışına, yanlış ekipmanla çıkmak hem bize hem müşteriye zarar verir — akülü filomuz açık şantiyenin güç ve menzil ihtiyacını karşılamaz. Kapalı hol içinde kalan sınırlı montaj işlerinde ise uzmanlığımız (egzozsuz zorunluluk, zemin koruması, dar erişim) doğrudan değer katar. Bu sınırı açık söylemek, kabul ettiğimiz her işte tam kapasiteyle durabilmemizin garantisidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa hizmetin filomuzun ana odağı olmadığını ve kapsam sınırlarını dürüstçe belirtir; askıda yük hattı kuralı EN 280 ve iş güvenliği mevzuatı çerçevesindedir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Sahalarında Platform Kiralama",
+        giris:
+            "Bu da filomuzun ana odağı olmayan bir hizmet başlığıdır ve bunu baştan dürüstçe söylemek gerekir: kimliğimiz Ankara'nın kentsel dokusundaki AVM, ofis ve fabrika iç mekânlarına egzozsuz platform kiralamadır; tarım ve silo işleri ise çoğunlukla açık sahada, kentin dışındaki kırsal alanlarda geçer ve akülü-iç mekân filomuzun doğal talep alanı değildir. Buna rağmen Ankara çevresindeki bazı tarımsal işletme ve gıda depolama tesislerinin kapalı hacimlerinde (kapalı silo iç bakımı, tahıl deposu içi tesisat) zaman zaman talep gelir ve bu, egzozsuz gereksinimin devreye girdiği noktadır. Bu sayfa, hangi tarım-silo işlerinde uygun olduğumuzu ve hangi durumlarda bölgeye özel bir tedarikçinin daha doğru adres olacağını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kapalı silo iç mekânı: egzozsuz gereksinim geçerli",
+                metin:
+                    "Büyük tahıl silolarının iç yüzey bakımı, iç merdiven-korkuluk kontrolü veya iç havalandırma tesisatı işleri, kapalı ve genellikle toz yoğun bir hacimde geçer — bu koşulda dizel makine hem toz-emisyon karışımı riski hem yanıcı toz ortamında kıvılcım riski nedeniyle uygun değildir. Akülü platform bu iç hacimde egzoz riskini kaldırır, ama toz patlaması riski olan siloların iç kısmında özel sertifikalı (ATEX) ekipman gerekebilir — bu durum keşifte ayrıca değerlendirilir ve standart filomuzun yeterli olup olmadığı dürüstçe söylenir.",
+            },
+            {
+                baslik: "Silo dış cephesi: açık saha, ana odağımızın dışı",
+                metin:
+                    "Silonun dış cephe bakımı (boya, kaynak onarımı, dış merdiven işleri) açık sahada geçer ve bu, dizel 4x4 eklemli platform gibi ana odağımızın dışındaki bir ekipman sınıfı gerektirir. Bu tip işlerde talep gelirse değerlendiririz, ama açık saha ekipmanına odaklı bölgesel bir tedarikçi genellikle daha ekonomik ve hızlı çözüm sunar.",
+            },
+            {
+                baslik: "Gıda depolama tesisinin kapalı bölümleri",
+                metin:
+                    "Tahıl veya yem gıda depolama tesislerinin kapalı ambar bölümleri, iç mekân filomuzun profiline en yakın düşen tarımsal iş tipidir — hijyen kısıtları, ürün riski ve egzozsuz gereksinim, AVM veya fabrika iç mekânı işlerimizle aynı mantıkla değerlendirilir. Bu tip işlerde standart iç mekân keşfimiz (zemin, erişim, egzozsuz gereksinim) doğrudan uygulanır.",
+            },
+            {
+                baslik: "Mesafe ve nakliye maliyeti dengesi",
+                metin:
+                    "Ankara'nın kentsel çeperindeki bir tarımsal tesis, ana operasyon bölgemize göre daha uzak olabilir ve bu mesafe, küçük ölçekli kısa süreli bir işte nakliye maliyetini orantısız büyütebilir. Bu durumda dürüst tavsiyemiz, işi tek başına ekonomik olmayan bir mesafede almak yerine, bölgedeki başka taleplerle birleştirmek veya bunu açıkça söyleyip alternatif önermektir.",
+            },
+            {
+                baslik: "Bu hizmetin sınırları: ne zaman uygun değiliz",
+                metin:
+                    "Açık sahada geçen büyük ölçekli tarımsal işletme bakımı, ATEX gerektiren toz patlaması riskli iç hacimler veya kentsel operasyon bölgemize çok uzak lokasyonlardaki sürekli talepler bizim ana uzmanlık alanımızın dışındadır. Bu durumlarda bölgeye ve sektöre daha özel bir tedarikçiyi önermek, yanlış ekipmanla işe girmekten daha doğrudur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım-silo işlerinde uygunluk değerlendirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, bu tip taleplerde uygunluğu belirleyen faktörleri gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Faktör", "Uygun senaryo", "Sınırlı/uygun değil"],
+                    satirlar: [
+                        ["Mekân tipi", "Kapalı iç hacim, gıda ambarı", "Açık saha dış cephe"],
+                        ["Toz riski", "Düşük-orta yoğunluk", "Yüksek yoğunluk, ATEX gerekli"],
+                        ["Mesafe", "Ankara kentsel çeperi", "Uzak kırsal bölge"],
+                        ["Ölçek", "Nokta iş, tekil tesis", "Büyük kompleks, sürekli iş"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dürüst ön değerlendirme süreci",
+                paragraflar: [
+                    "Talep geldiğinde önce dört soruyu netleştiririz: mekân kapalı mı açık mı, toz/patlama riski var mı, mesafe ekonomik mi, iş ölçeği nokta mı sürekli mi. Bu dört veriyle uygunluğu hızlıca değerlendirir, uygun değilsek ilk görüşmede söyleriz.",
+                    "Uygun olduğumuz işlerde, iç mekân işlerimizle aynı titizlikte çalışırız: egzozsuz zorunluluk ve zemin-erişim değerlendirmesi bu sayfanın konusunda da aynı standartla uygulanır.",
+                ],
+            },
+            {
+                baslik: "Alternatif öneri sağlama",
+                paragraflar: [
+                    "Bizim için uygun olmayan bir talep geldiğinde, elimizden geldiğince müşteriyi elleri boş bırakmamaya çalışırız — bölgeye daha yakın veya tarım sektörüne özel ekipman sunan tedarikçileri araştırıp yönlendirme yapabiliriz. Sınırlarımızı bilerek çalışmak, kabul ettiğimiz her işte tam kapasiteyle durabilmemizin garantisidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tahıl silomuzun iç yüzeyinde bakım işi var, toz yoğun bir ortam; akülü platform güvenli mi?",
+                cevap:
+                    "Düşük-orta toz yoğunluğunda akülü platform egzoz riskini kaldırdığı için uygundur, ama yüksek toz patlaması riski olan siloların iç kısmı için özel sertifikalı (ATEX) ekipman gerekebilir. Bu ayrımı keşifte netleştiririz — silonun toz yoğunluğu ve varsa mevcut risk değerlendirme raporunu paylaşırsanız, standart filomuzun yeterli olup olmadığını dürüstçe söyleriz.",
+            },
+            {
+                soru: "Silonun dış cephesinde kaynak onarımı gerekiyor, açık sahada; hizmet veriyor musunuz?",
+                cevap:
+                    "Açık saha dış cephe işleri ana odağımızın (kapalı iç mekân) dışındadır ve dizel 4x4 eklemli gibi bir sınıf gerektirir. Talep gelirse değerlendiririz, ama açık saha ekipmanına odaklı bölgesel bir tedarikçi genellikle daha ekonomik ve hızlı çözüm sunar — dürüstçe bunu söyleriz ve isterseniz yönlendirme yaparız.",
+            },
+            {
+                soru: "Gıda depolama tesisimizin kapalı ambar bölümünde tavan işi var; bu size uygun mu?",
+                cevap:
+                    "Evet, bu tip işler iç mekân filomuzun profiline en yakın düşen tarımsal iş tipidir — hijyen kısıtları ve egzozsuz gereksinim, AVM veya fabrika iç mekânı işlerimizle aynı mantıkla değerlendirilir. Ambar ölçülerini ve erişim koşullarını paylaşırsanız, standart iç mekân keşfimizle uygunluğu netleştiririz.",
+            },
+            {
+                soru: "Tesisimiz Ankara'ya oldukça uzak; nakliye maliyeti işi mantıksız kılar mı?",
+                cevap:
+                    "Bağlıdır — küçük ölçekli, kısa süreli bir işte mesafe nakliye maliyetini orantısız büyütebilir ve bunu ilk görüşmede rakamla gösteririz. İş büyükse veya bölgede başka taleplerle birleştirilebiliyorsa nakliye payı düşer. Mesafeyi ve iş kapsamını paylaşırsanız, dürüst bir maliyet tablosu çıkarırız — ekonomik değilse bunu söyleriz.",
+            },
+            {
+                soru: "Büyük bir tarımsal işletme kompleksinde düzenli bakım anlaşması yapmak istiyoruz; uygun musunuz?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse büyük ölçekli, tekrarlı tarımsal işletme bakımı ana uzmanlık alanımız değil — bölgenize daha yakın ve tarım sektörüne odaklı bir tedarikçi muhtemelen daha ekonomik ve hızlı hizmet sunar. İhtiyacınız tekil bir iş veya kapalı iç mekânda kalan küçük ölçekli bir işse değerlendirebiliriz.",
+            },
+            {
+                soru: "Toz patlaması riski olan bir silo için ATEX ekipmanınız var mı?",
+                cevap:
+                    "Standart filomuzda ATEX sertifikalı özel ekipman yoktur — bu, kabul ettiğimiz sınırların dışındadır ve bunu açıkça söyleriz. Yüksek toz patlaması riski tespit edilen bir iç hacimde, bu sertifikasyona sahip özel bir tedarikçiyle çalışmanızı öneririz; yanlış ekipmanla bu riski göze almayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa hizmetin filomuzun ana odağı olmadığını ve kapsam sınırlarını (ATEX, açık saha) dürüstçe belirtir; toz patlaması riski genel iş güvenliği bilgisidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Ofis ve AVM İçi Aydınlatma-Enerji Bakımı için Platform Kiralama",
+        giris:
+            "Bir ofis katının floresandan LED'e dönüşümü, bir AVM'nin atrium armatürlerinin yıllık bakımı veya bir kurum lobisinin acil aydınlatma hattının kontrolü — bunların hepsi, iç mekânın kullanım saatleriyle çakışmayacak şekilde, sessiz ve emisyonsuz bir makineyle yürütülmesi gereken enerji ve aydınlatma işleridir. İç mekân filomuz bu iş tipine özellikle uygundur çünkü akülü tahrikin sessizliği, mesai içi veya misafirli saatlerde bile çalışma imkânı sunar — floresandan LED'e dönen bir ofis katında personel toplantıdayken armatür değişebilir, bir AVM'nin gece kapalı saatlerinde atrium ışıkları tek tek kontrol edilebilir. Bu sayfa, Ankara'daki iç mekân aydınlatma ve enerji bakım işlerinde platformun rolünü anlatıyor.",
+        maddeler: [
+            {
+                baslik: "LED dönüşüm projelerinde kat kat ilerleme",
+                metin:
+                    "Ofis kulelerinin floresandan LED'e toplu dönüşüm projeleri, genellikle kat kat ilerler — her katın armatürleri bir gece veya bir hafta sonu bloğunda değiştirilir ve makine ertesi kata geçer. Bu ilerleme, hem bina yönetiminin kesinti planına hem de kiracıların mesai düzenine uyacak şekilde önceden takvimlenir. Akülü dikey direkli veya kompakt makaslı sınıf, bu işin standart makinesidir; kat sayısı arttıkça toplam süre, gece pencerelerinin sayısına göre hesaplanır.",
+            },
+            {
+                baslik: "AVM ve atrium armatür bakımının yıllık döngüsü",
+                metin:
+                    "AVM'lerin ortak alan aydınlatması, yılda bir veya iki kez planlı bakımdan geçer — armatür temizliği, balast/sürücü kontrolü, kırık veya sararmış kapak değişimi. Bu bakım, mağazaların kapalı olduğu gece saatlerinde ve genellikle bir gecede tüm ortak alanı kapsayacak yoğun bir programla yapılır. Akülü makaslı veya sepetli sınıf, yüksekliğe ve erişim durumuna göre seçilir; iş öncesinde armatür listesi ve konum haritası çıkarılır ki gece boyunca sıra kaybı yaşanmasın.",
+            },
+            {
+                baslik: "Acil aydınlatma ve yönlendirme hattı kontrolü",
+                metin:
+                    "Kurum binaları ve AVM'lerin acil aydınlatma-yönlendirme hattı, düzenli test ve bakım gerektiren bir güvenlik sistemidir — bataryalı armatürlerin şarj durumu, yönlendirme tabelalarının aydınlatma seviyesi periyodik kontrol edilir. Bu iş, genellikle bina yönetiminin yasal denetim takvimine bağlıdır ve platform, kontrol ekibinin her noktaya güvenle ulaşmasını sağlar. İş, bina boşken veya düşük trafikte yapılır ki test sırasında (bazı sistemlerde ana güç kesintisi simülasyonu gerekir) kullanıcı etkilenmesin.",
+            },
+            {
+                baslik: "Enerji tavası ve kablo güzergâhı bakımı",
+                metin:
+                    "Asma tavan üstündeki elektrik ve data kablo tavaları, zaman içinde ek kablo yükü, ısınma veya bağlantı gevşemesi nedeniyle kontrol gerektirir — bu, genellikle görünmeyen ama önemli bir bakım kalemidir. Platform, tavan panelini açıp kablo tavasına erişim sağlar; iş sırasında panel geçici olarak kaldırılır ve iş bitiminde yerine takılır. Elektrik kesintisi gerektiren müdahalelerde, kesinti bina yönetimiyle koordineli ve mesai dışı saatte yapılır.",
+            },
+            {
+                baslik: "Mesai içi sessiz çalışma: küçük işlerin avantajı",
+                metin:
+                    "Aydınlatma bakımının bir kısmı (tek armatür değişimi, sensör ayarı gibi küçük müdahaleler) gece penceresine sığdırılmayacak kadar küçük ve dağınıktır — bu tip işlerde akülü makinenin sessizliği, mesai içinde bile çalışmayı mümkün kılar. Makine, çalışılan bölgeyi şeritle ayırır, personelin geçiş güzergâhını engellemeden konumlanır ve iş birkaç dakika içinde biter. Bu esneklik, dizel makinede mümkün olmayan bir avantajdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma-enerji işi tipine göre zaman penceresi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tipik aydınlatma-enerji bakım işlerinin hangi zaman penceresinde ve hangi makineyle yapıldığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Tipik kapsam", "Zaman penceresi", "Makine sınıfı"],
+                    satirlar: [
+                        ["LED toplu dönüşüm", "Kat bazlı, çok gece", "Gece / hafta sonu", "Akülü dikey direkli"],
+                        ["AVM atrium bakımı", "Yıllık, tek gece yoğun", "Kapanış sonrası", "Akülü makaslı / sepetli"],
+                        ["Acil aydınlatma testi", "Periyodik denetim", "Düşük trafik saatleri", "Akülü kompakt"],
+                        ["Kablo tavası bakımı", "Nokta bazlı", "Mesai dışı, kesinti koordineli", "Akülü dikey direkli"],
+                        ["Tekil armatür-sensör", "Küçük, dağınık", "Mesai içi (sessiz)", "Akülü kompakt"],
+                    ],
+                },
+            },
+            {
+                baslik: "Armatür listesi ve konum haritasının önemi",
+                paragraflar: [
+                    "Çok sayıda armatürü kapsayan bir gece bakımında, işin hızını belirleyen şey makinenin gücü değil planlamanın netliğidir — önceden çıkarılan armatür listesi ve konum haritası, gece boyunca hangi noktanın kontrol edildiğini, hangisinin bekletildiğini net tutar. Bu liste olmadan yapılan bakımlarda tekrar kontrol veya atlanan nokta riski artar; bizim standart uygulamamız, keşifte bu listeyi çıkarıp iş gecesi ekiple paylaşmaktır.",
+                    "Liste, aynı zamanda bina yönetimine raporlama için de kullanılır — hangi armatürün değiştiği, hangisinin sağlam bulunduğu, iş sonunda yazılı olarak teslim edilir.",
+                ],
+            },
+            {
+                baslik: "Elektrik kesintisi gerektiren işlerde koordinasyon",
+                paragraflar: [
+                    "Bazı aydınlatma-enerji işleri (kablo tavası müdahalesi, panel değişimi) o hattın geçici olarak kesilmesini gerektirir ve bu kesinti, bina yönetiminin elektrik ekibiyle önceden koordine edilir — hangi hat, hangi saatte, ne kadar süreyle kesilecek, hangi alanlar bundan etkilenecek. Platform işi, bu kesinti penceresine sığacak şekilde planlanır; kesinti süresi aşılırsa iş ertesi pencereye bölünür.",
+                    "Bu koordinasyon, özellikle sunucu odası veya kritik sistem beslemesi gibi kesintiye duyarlı hatların yakınında çalışırken daha da titiz yürütülür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ofisimizin tüm katlarında LED dönüşümü yapılacak, kaç gecede biter?",
+                cevap:
+                    "Kat sayısına ve her katın armatür yoğunluğuna bağlı olarak değişir — tipik bir ofis katı, bir gece penceresinde tamamlanabilir, ancak yoğun katlar iki geceye bölünebilir. Kat planınızı ve toplam kat sayınızı paylaşırsanız, gerçekçi bir gece programı çıkarırız; program, kiracılarınızın mesai düzenine göre esnetilebilir.",
+            },
+            {
+                soru: "AVM'mizin atrium armatürleri yılda bir bakımdan geçiyor, bu tek gecede bitiyor mu?",
+                cevap:
+                    "Armatür sayısına ve yüksekliğe bağlı olarak genellikle tek yoğun gecede bitirilebilir — önceden çıkarılan armatür listesi ve konum haritası, gece boyunca sıra kaybı yaşanmadan tüm noktaların kontrol edilmesini sağlar. Armatür sayınızı ve yüksekliklerini paylaşırsanız, tek gecede yetip yetmeyeceğini keşifte netleştiririz; yetmezse iki geceye planlı olarak bölünür.",
+            },
+            {
+                soru: "Acil aydınlatma testimiz sırasında ana güç kesintisi simüle ediliyor, bu bina kullanıcılarını etkiler mi?",
+                cevap:
+                    "Etkilememesi için iş, bina boşken veya düşük trafikte planlanır — kesinti simülasyonu sırasında ana aydınlatmanın etkilenmesi ihtimaline karşı iş, mesai dışı veya gece saatine yazılır. Test kapsamını ve mevcut denetim takviminizi paylaşırsanız, bina yönetiminizle birlikte en uygun pencereyi belirleriz.",
+            },
+            {
+                soru: "Tek bir armatürümüz arızalı, bunun için tüm gece penceresi mi ayırmamız gerekiyor?",
+                cevap:
+                    "Hayır — tek armatür veya sensör gibi küçük müdahaleler, akülü makinenin sessizliği sayesinde mesai içinde bile yapılabilir. Makine, çalışılan bölgeyi kısa süreli şeritle ayırır ve iş birkaç dakika içinde biter; personel toplantıdayken veya çalışırken bile fark edilmez. Gece penceresi, yalnızca çok sayıda armatürü kapsayan toplu işlerde gerekir.",
+            },
+            {
+                soru: "Kablo tavası müdahalesi için elektrik kesintisi gerekiyor, bunu nasıl koordine ediyorsunuz?",
+                cevap:
+                    "Kesinti, bina yönetiminizin elektrik ekibiyle önceden koordine edilir — hangi hat, hangi saatte, ne kadar süreyle kesilecek netleştirilir ve platform işi bu pencereye sığacak şekilde planlanır. Kritik sistem beslemesi (sunucu odası gibi) yakınında çalışılıyorsa bu koordinasyon daha titiz yürütülür. Etkilenecek hat ve alanları paylaşırsanız, kesinti planını birlikte çıkarırız.",
+            },
+            {
+                soru: "Bakım sonrası hangi armatürün değiştiğini nasıl takip edeceğiz?",
+                cevap:
+                    "Keşifte çıkarılan armatür listesi ve konum haritası, iş gecesi ekiple paylaşılır ve her noktanın durumu (değiştirildi, sağlam bulundu, ek müdahale gerekiyor) bu liste üzerinde işaretlenir. İş sonunda bu liste, bina yönetiminize yazılı rapor olarak teslim edilir — bir sonraki bakım döngüsünde de referans olarak kullanılabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Acil aydınlatma-yönlendirme sistemlerinin periyodik test gerekliliği genel bina güvenliği mevzuatı çerçevesindedir; armatür listesi ve gece programı uygulaması firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "İç Mekânda Operatörlü Platform Kiralama",
+        giris:
+            "AVM, ofis ve kurum binalarının çoğunda platform kiralamak, yalnızca makineyi göndermek değil, o binanın güvenlik prosedürüne, sigorta gereksinimine ve iç işleyişine uyumlu bir operatörle birlikte hizmet sunmak anlamına gelir. İç mekân işlerinin büyük kısmında operatörlü kiralama fiilen zorunludur — bina yönetimi, kimliği doğrulanmış ve platform operatör belgesine sahip bir kişi olmadan çalışma izni vermez; sigorta poliçeleri de genellikle belgeli operatör şartı taşır. Bu sayfa, Ankara'daki iç mekân projelerinde operatörlü kiralamanın nasıl işlediğini, bina yönetimi prosedürleriyle nasıl uyumlandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Bina yönetiminin operatör belgesi talebi",
+                metin:
+                    "AVM ve plaza yönetimleri, tesise giren her ağır ekipman operatöründen geçerli bir yeterlilik belgesi (platform operatör sertifikası) ister ve bu belge, giriş kayıt sürecinin bir parçasıdır — belgesiz operatörle makine tesise sokulmaz. Belgemiz her işten önce güncel tutulur ve bina yönetiminin istediği formatta (fotokopi, dijital kopya) önceden iletilir. Bazı kurumsal binalar ayrıca operatörün sabıka kaydı veya güvenlik soruşturması ister; bu süreç, giriş izinleriyle birlikte planlanır.",
+            },
+            {
+                baslik: "Sigorta kapsamı: operatörlü kiralamanın gerekçesi",
+                metin:
+                    "İç mekânda bir kaza (düşme, çarpma, zemin hasarı), yalnızca kişisel değil bina ve üçüncü şahıs sorumluluğu doğurabilir — bu risk, operatörlü kiralamanın sigorta gerekçesidir. Makinemiz ve operatörümüz sorumluluk sigortası kapsamındadır; bina yönetimi genellikle bu poliçenin bir kopyasını iş öncesi ister. Operatörsüz (yalnızca makine) kiralama talep edilirse, kiralayan tarafın kendi operatörünün belgesi ve sigortası ayrıca teyit edilir — bu, iç mekân işlerinde istisnai bir durumdur.",
+            },
+            {
+                baslik: "Operatörün mekân bilgisiyle donanması",
+                metin:
+                    "Operatörlü kiralamanın değeri yalnızca belgeyle sınırlı değildir — operatörümüz, iş öncesi mekânın zemin hassasiyetini, erişim kısıtlarını ve bina kurallarını (şerit çekme, koruma plakası, güzergâh) bilerek sahaya gelir. Bu, ilk kez girilen bir binada bile güzergâh ve manevra hatalarını en aza indirir. Tekrar eden işlerde aynı operatör aynı binaya gönderilmeye çalışılır; bu süreklilik, bina yönetimiyle güven ilişkisini güçlendirir.",
+            },
+            {
+                baslik: "Refakatçi/gözcü gereken hassas işler",
+                metin:
+                    "Bazı iç mekân işlerinde (dar geçitler, cam yakınlığı, hassas zemin) tek operatör yeterli değildir ve ikinci bir kişi — yerde duran gözcü — devreye girer. Gözcü, operatörün göremediği açıları izler ve gerektiğinde manevrayı durdurur; bu, özellikle sepetli veya eklemli sınıfın kullanıldığı işlerde standart uygulamadır. Gözcü ihtiyacı, keşifte mekânın karmaşıklığına göre belirlenir ve fiyata dahil edilir.",
+            },
+            {
+                baslik: "Vardiya ve süre planlaması",
+                metin:
+                    "Operatörlü kiralamada mesai süresi, bina yönetiminin verdiği zaman penceresine göre planlanır — gece penceresi işlerinde operatör vardiyası pencereye göre ayarlanır, çok günlük işlerde aynı operatör projeye devam eder. Uzun vardiya gerektiren işlerde (örneğin bir gecede tüm AVM atriumunu bitirme) yorgunluk kaynaklı hata riskini azaltmak için operatör rotasyonu değerlendirilir; bu, güvenlik standardımızın bir parçasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bina tipine göre operatör prosedürü",
+                paragraflar: [
+                    "Aşağıdaki tablo, iç mekân bina tiplerine göre tipik operatör giriş ve belgelendirme prosedürünü gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bina tipi", "Operatör belgesi talebi", "Ek prosedür", "Sigorta kontrolü"],
+                    satirlar: [
+                        ["AVM", "Standart, giriş kayıt sırasında", "Fotoğraflı kimlik", "Sorumluluk poliçesi kopyası"],
+                        ["Ofis kulesi", "Standart", "Ziyaretçi/tedarikçi kaydı", "Bina yönetimi teyidi"],
+                        ["Kurum binası", "Standart + ek onay", "Güvenlik soruşturması olabilir", "Kurumsal poliçe teyidi"],
+                        ["Hastane", "Standart + hijyen brifingi", "Enfeksiyon kontrol onayı", "Sorumluluk poliçesi kopyası"],
+                        ["Fabrika/depo", "Standart", "Saha güvenlik brifingi", "İşveren sorumluluk uyumu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörsüz (yalnızca makine) kiralama: istisnai durum",
+                paragraflar: [
+                    "İç mekân işlerinin büyük çoğunluğunda operatörlü kiralama fiilen zorunludur, ama nadir durumda kiralayan tarafın kendi belgeli operatörü varsa yalnızca makine kiralaması da değerlendirilebilir — bu durumda operatörün belge ve sigorta bilgisi bizim tarafımızdan da teyit edilir, çünkü makinenin binaya girişi bizim sorumluluğumuz altında gerçekleşir. Bina yönetiminin bu modeli kabul edip etmediği de ayrıca kontrol edilir; bazı binalar yalnızca kendi onaylı operatörlü kiralamayı kabul eder.",
+                    "Bu istisnai model, genellikle sürekli iç mekân operasyonu olan büyük fabrika ve depo müşterilerinde görülür; AVM ve ofis binalarında neredeyse hiç talep edilmez.",
+                ],
+            },
+            {
+                baslik: "Operatör değişikliği ve süreklilik",
+                paragraflar: [
+                    "Çok günlük veya uzun süreli işlerde, aynı operatörün projeye devam etmesi tercih edilir çünkü operatör mekânın kurallarına ve düzenine zaten alışmıştır — operatör değişikliği, yeni bir bina oryantasyonu gerektirir ve bu, işin ilk saatinde küçük bir yavaşlamaya yol açabilir. Zorunlu bir değişiklik (hastalık, izin) olduğunda, yeni operatöre mekânın özel kuralları önceden aktarılır ve bina yönetimine bilgi verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörünüzün belgesi olmadan bina güvenliğimiz makineyi içeri almıyor, siz bu belgeyi nasıl sağlıyorsunuz?",
+                cevap:
+                    "Operatörlerimizin platform operatör sertifikası her iş öncesi güncel tutulur ve bina yönetiminizin istediği formatta (fotokopi, dijital kopya) önceden iletilir — bu, giriş kayıt sürecinin standart bir parçasıdır. Bazı kurumsal binalar ayrıca sabıka kaydı veya güvenlik soruşturması ister; bu ek prosedürü giriş izinleriyle birlikte önceden tamamlarız. Bina yönetiminizin özel formatı varsa paylaşın, ona göre hazırlanırız.",
+            },
+            {
+                soru: "Kendi operatörümüz var, sadece makine kiralayabilir miyiz?",
+                cevap:
+                    "Nadir durumda mümkündür — operatörünüzün geçerli belgesi ve sigortası bizim tarafımızdan teyit edilir, çünkü makinenin binaya girişi bizim sorumluluğumuz altında gerçekleşir. Ayrıca bina yönetiminin bu modeli kabul edip etmediği kontrol edilir; bazı binalar yalnızca kendi onaylı operatörlü kiralamayı kabul eder. Bu model genellikle sürekli iç mekân operasyonu olan fabrika-depo müşterilerinde görülür, AVM ve ofis binalarında nadiren talep edilir.",
+            },
+            {
+                soru: "Kaza olursa sorumluluk kimde, sigorta neyi kapsıyor?",
+                cevap:
+                    "Operatörlü kiralamada makine ve operatör sorumluluk sigortası kapsamındadır ve bu poliçenin kopyası, bina yönetiminizin isteği üzerine iş öncesi paylaşılır. İç mekânda bir kaza yalnızca kişisel değil bina ve üçüncü şahıs sorumluluğu da doğurabileceği için bu sigorta kapsamı, operatörlü kiralamanın temel gerekçesidir. Poliçe detaylarını görmek isterseniz keşif aşamasında talep edebilirsiniz.",
+            },
+            {
+                soru: "İşimiz dar bir geçitte ve cam yakınında; tek operatör yeterli mi?",
+                cevap:
+                    "Bu tip hassas işlerde tek operatör yeterli olmayabilir — yerde duran bir gözcü, operatörün göremediği açıları izler ve gerektiğinde manevrayı durdurur. Bu, özellikle sepetli veya eklemli sınıfın kullanıldığı dar veya cam yakını işlerde standart uygulamamızdır. Mekânın fotoğrafını paylaşırsanız, gözcü ihtiyacını keşifte netleştirir ve fiyata dahil ederiz.",
+            },
+            {
+                soru: "İş birkaç gün sürecek, her gün aynı operatör mü gelecek?",
+                cevap:
+                    "Evet, tercihimiz budur — aynı operatörün projeye devam etmesi, mekânın kurallarına ve düzenine zaten alışmış olması nedeniyle işi hızlandırır. Zorunlu bir değişiklik (hastalık, izin) olursa, yeni operatöre mekânın özel kuralları önceden aktarılır ve bina yönetiminize bilgi veririz — süreklilik bozulsa bile bina kuralları asla atlanmaz.",
+            },
+            {
+                soru: "Uzun bir gece vardiyasında (örneğin tüm AVM atriumu tek gecede) operatör yorgunluğu risk oluşturur mu?",
+                cevap:
+                    "Uzun vardiyalarda yorgunluk kaynaklı hata riski gerçek bir güvenlik konusudur ve bunu ciddiye alırız — bu tip işlerde operatör rotasyonu (ikinci bir belgeli operatörün devreye girmesi) değerlendirilir. İşin süresini ve kapsamını paylaşırsanız, tek operatörle mi yoksa rotasyonla mı ilerlenmesi gerektiğini keşifte netleştirir, bunu fiyata dahil ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatör belgesi ve sorumluluk sigortası gerekliliği iş güvenliği mevzuatı ve bina yönetimi standart uygulamasıdır; gözcü kullanımı ve operatör süreklilik pratiği firma uygulamasıdır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Yenimahalle - Başkent OSB - OSTİM - Çankaya Aynı Gün Çoklu Bina Bakım Turu",
+        giris:
+            "Bir bina yönetim şirketinin portföyünde birden fazla AVM, bir zincir mağazanın Ankara genelindeki şubeleri veya bir kurumun farklı ilçelerdeki ofis binaları — bu tip çoklu lokasyon müşterileri için tek tek keşif ve tek tek nakliye planlamak, hem maliyeti hem koordinasyon yükünü büyütür. İç mekân filomuz, Yenimahalle merkezli konumu sayesinde Başkent OSB, OSTİM ve Çankaya gibi farklı bölgelere aynı gün içinde ulaşabilir ve bu, çok noktalı bakım turlarını tek güne, tek nakliye organizasyonuna sığdırmayı mümkün kılar. Bu sayfa, aynı gün birden fazla binada küçük ölçekli iç mekân işlerinin nasıl tek rotaya bağlandığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Rota mantığı: merkez konum ve coğrafi sıralama",
+                metin:
+                    "Yenimahalle'deki merkez üssümüz, Başkent OSB, OSTİM ve Çankaya'ya makul mesafede konumlanmıştır ve bu, tek günlük bir turun coğrafi olarak mantıklı sıralanmasını sağlar — iş genellikle merkeze en yakın noktadan başlar ve rota, geri dönüş mesafesini en aza indirecek şekilde çizilir. Her durakta işin süresi (genellikle bir-iki saatlik nokta müdahaleler) önceden tahmin edilir ve toplam tur, trafik ve nakliye süresi payıyla birlikte planlanır.",
+            },
+            {
+                baslik: "Küçük, nokta bazlı işlerin tur mantığına uygunluğu",
+                metin:
+                    "Çok noktalı rota, büyük ve uzun süreli işler için değil, her binada bir-iki saat süren nokta müdahaleler (tek armatür değişimi, kontrol, küçük tesisat işi) için mantıklıdır — büyük bir işin bir durakta uzaması, turun geri kalanını geciktirir veya iptal ettirir. Bu yüzden rota planlamasında her durağın kapsamı net şekilde tanımlanır; kapsam belirsizse, o durak turdan çıkarılıp ayrı planlanır.",
+            },
+            {
+                baslik: "Farklı bina tiplerinde tekrar eden egzozsuz kural",
+                metin:
+                    "Rotadaki her durak farklı bir bina tipi olsa da (OSTİM'de bir atölye, Başkent OSB'de bir fabrika holü, Çankaya'da bir ofis katı) egzozsuz kural değişmez — makine aynı akülü makine olarak dört durağı da gezer ve her binada aynı zemin koruması ve teslim standardı uygulanır. Bu tutarlılık, çoklu lokasyon müşterisinin her şubede aynı kaliteyi görmesini sağlar.",
+            },
+            {
+                baslik: "Şarj yönetimi: gün içi tur için kritik nokta",
+                metin:
+                    "Dört durağı aynı günde gezen bir makinenin akü durumu, tur planlamasının kritik değişkenlerinden biridir — tur, tam şarjlı makineyle başlar ve her durakta kısa süreli (varsa) şarj imkânı değerlendirilir. Akü seviyesi gün ortasında düşükse, son durak öncelik sırasına göre yeniden değerlendirilir veya ikinci bir makine devreye alınır. Bu risk, tur planlamasında baştan hesaba katılır; sahada sürpriz yaşanmaz.",
+            },
+            {
+                baslik: "Toplu fiyatlandırma ve tek faturalama avantajı",
+                metin:
+                    "Çok noktalı tur, tek nakliye ve tek günlük operatör mesaisiyle dört ayrı işi kapsadığı için, her binayı ayrı ayrı planlamaya göre toplam maliyet düşer — nakliye ve kurulum süresi paylaşılır. Çoklu lokasyon müşterileri için tek fatura ve tek raporlama da mümkündür; bu, bina yönetim şirketleri ve zincir mağazalar için muhasebe ve raporlama yükünü azaltır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tipik çok noktalı tur örneği",
+                paragraflar: [
+                    "Aşağıdaki tablo, dört bölgeyi kapsayan tipik bir günlük turun akışını gösterir. Süreler nokta işin kapsamına göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Sıra", "Bölge", "Tipik iş", "Tahmini süre"],
+                    satirlar: [
+                        ["1", "Yenimahalle", "Ofis kat aydınlatma kontrolü", "1-1,5 saat"],
+                        ["2", "Başkent OSB", "Üretim holü armatür değişimi", "1,5-2 saat"],
+                        ["3", "OSTİM", "Atölye tavan işi, nokta müdahale", "1-1,5 saat"],
+                        ["4", "Çankaya", "Ofis kulesi kat içi kontrol", "1-1,5 saat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tur planlamasının önkoşulu: net kapsam tanımı",
+                paragraflar: [
+                    "Çok noktalı bir tur teklif edebilmemiz için her durağın kapsamının önceden net tanımlanmış olması gerekir — belirsiz kapsamlı bir iş ('bir bakalım ne var'), turun zamanlamasını riske atar. Bu yüzden keşif aşamasında her lokasyon için ayrı ayrı iş listesi çıkarılır ve süre tahmini bu listeye dayanır. Kapsam netleşmeden tur takvimi kesinleştirilmez.",
+                    "Bazı müşteriler, tur planlamasını kolaylaştırmak için önceden standart bir kontrol listesi hazırlar (her şubede aynı kalemler); bu, süre tahminini daha da güvenilir kılar.",
+                ],
+            },
+            {
+                baslik: "Tur iptali veya gecikme durumunda yedek plan",
+                paragraflar: [
+                    "Bir duraktaki iş beklenenden uzun sürerse, rota geri kalan duraklara doğru gecikmeyle devam eder ve son durak, günün sonuna sığmayabilir — bu durumda son durak, bir sonraki güne veya bir sonraki tur takvimine ertelenir. Bu risk, çoklu lokasyon müşterisine baştan açık şekilde anlatılır; her durağın kapsamı ne kadar net tanımlanırsa, bu risk o kadar azalır.",
+                    "Trafik veya hava koşulları nedeniyle durak arası geçiş süresi uzarsa, tur önceliği (hangi bina daha kritik) müşteriyle birlikte belirlenir ve buna göre yeniden sıralanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Farklı bölgelerdeki dört şubemizde küçük bakım işlerimiz var, hepsini tek günde yapabilir misiniz?",
+                cevap:
+                    "Yenimahalle merkezli konumumuz, Başkent OSB, OSTİM ve Çankaya gibi bölgelere aynı gün içinde ulaşmamızı mümkün kılar — dört şubenizin işleri nokta bazlı ve her biri bir-iki saati aşmıyorsa, tek günlük bir turla kapsanabilir. Her şubenin iş listesini ve tahmini süresini paylaşırsanız, coğrafi olarak mantıklı bir rota sırası çıkarır ve gerçekçi bir gün planı sunarız.",
+            },
+            {
+                soru: "Bir şubede iş uzarsa, diğer şubeler o gün atlanır mı?",
+                cevap:
+                    "Riski en aza indirmek için her durağın kapsamını keşifte net tanımlarız, ama beklenmedik bir uzama olursa rota geri kalan duraklara gecikmeyle devam eder ve son durak günün sonuna sığmayabilir — bu durumda son durak bir sonraki güne ertelenir. Bu riski baştan açık şekilde söyleriz; hangi şubenin daha kritik olduğunu belirtirseniz, öncelik sırasını buna göre kurarız.",
+            },
+            {
+                soru: "Dört farklı bina tipi (AVM, ofis, atölye, fabrika) var; hepsinde aynı makine mi çalışıyor?",
+                cevap:
+                    "Evet, tur boyunca aynı akülü makine dört durağı da gezer ve her binada aynı egzozsuz kural, zemin koruması ve teslim standardı uygulanır — bina tipi değişse de makine ve süreç tutarlıdır. Bazı duraklarda erişim veya yükseklik farkı nedeniyle makine değişikliği gerekebilir; bu durumda ikinci bir makine tur planına eklenir ve maliyete yansıtılır.",
+            },
+            {
+                soru: "Gün içinde makinenin şarjı yeter mi, dördüncü durakta bitmez mi?",
+                cevap:
+                    "Tur, tam şarjlı makineyle başlar ve akü durumu her durakta izlenir — dört nokta işinin toplam yükü genellikle tek şarjı aşmaz, ama gün ortasında seviye düşükse son durak önceliğe göre yeniden değerlendirilir veya ikinci makine devreye alınır. Bu risk tur planlamasında baştan hesaba katılır, sahada sürpriz şarj sorunu yaşanmaz.",
+            },
+            {
+                soru: "Çok noktalı tur, dört ayrı iş siparişine göre daha mı ekonomik?",
+                cevap:
+                    "Genellikle evet — tek nakliye ve tek günlük operatör mesaisi dört ayrı işi kapsadığı için, her binayı ayrı planlamaya göre toplam maliyet düşer. Tek fatura ve tek raporlama da mümkündür, bu özellikle bina yönetim şirketleri ve zincir mağazalar için muhasebe yükünü azaltır. Şube listenizi paylaşırsanız, tekil ve toplu senaryonun maliyet karşılaştırmasını çıkarırız.",
+            },
+            {
+                soru: "Standart bir kontrol listesi hazırlarsak tur planlaması daha mı kolay olur?",
+                cevap:
+                    "Evet — her şubede aynı kalemleri (örneğin acil aydınlatma kontrolü, armatür kontrolü) içeren standart bir liste, süre tahminini daha güvenilir kılar ve tur planlamasını hızlandırır. Bu listeyi ilk turdan önce birlikte oluşturabiliriz; sonraki turlarda liste referans alınarak süre ve maliyet daha hızlı netleşir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yenimahalle merkezli konumun Başkent OSB, OSTİM ve Çankaya'ya coğrafi yakınlığı kamuya açık bilgidir; çok noktalı tur planlaması ve toplu faturalama firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Koşullarında Platform Kiralama",
+        giris:
+            "Bu, filomuzun ana odağı olmayan bir hizmet başlığıdır ve bunu baştan dürüstçe söylemek gerekir: kimliğimiz Ankara'nın AVM, ofis ve fabrika iç mekânlarına egzozsuz platform kiralamadır — hassas, düz ve genellikle kapalı zeminlerde çalışırız. Zor zemin ve açık arazi koşulları (çamur, eğim, düzensiz toprak, inşaat sahası dolgu zemini) ise akülü iç mekân filomuzun tasarım amacının dışındadır; bu koşullar dizel 4x4 tahrikli, geniş lastikli açık saha ekipmanı gerektirir. Buna rağmen bazı iç mekân projelerinin çevresinde (bina dışı geçici erişim, bahçe-avlu düzenlemesi gibi) sınırlı ölçüde zor zemin unsuru olabilir; bu sayfa hangi durumlarda sınırlı destek sunabileceğimizi ve hangi durumlarda dürüstçe yönlendirme yapacağımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İç mekân projesinin çevresinde kalan sınırlı zor zemin",
+                metin:
+                    "Bir AVM veya ofis binasının dış cephesindeki bahçe-avlu alanı, henüz peyzajı tamamlanmamış bir bina girişi veya kısa bir toprak geçiş, iç mekân projesinin bir parçası olarak karşımıza çıkabilir — bu tip sınırlı ve kısa mesafeli zor zemin unsurları, dikkatli değerlendirmeyle akülü filomuzun sınırları içinde kalabilir. Ama zemin sertliği ve eğimi keşifte fiziksel olarak test edilmeden bu karar verilmez.",
+            },
+            {
+                baslik: "Açık şantiye ve inşaat sahası: ana odağımızın dışı",
+                metin:
+                    "Yeni bina inşasının devam ettiği, henüz zemin sabitlenmemiş şantiye sahaları, akülü iç mekân filomuzun kapasitesinin açıkça dışındadır — bu koşullar dizel 4x4 tahrikli ekipman gerektirir. Bu tip taleplerde açık saha ekipmanına odaklı bir tedarikçiyi önermek, yanlış makineyle sahaya çıkıp devrilme veya saplanma riski almaktan çok daha doğrudur.",
+            },
+            {
+                baslik: "Eğimli ve düzensiz toprak zeminde akülü makinenin sınırı",
+                metin:
+                    "Akülü platformların stabilite tasarımı, düz ve sert zemin varsayımına dayanır — eğimli veya düzensiz toprak zeminde denge sınırı hızla aşılabilir ve bu, ciddi bir devrilme riskidir. Bu yüzden zemin eğimi belli bir sınırı (üreticinin belirlediği maksimum eğim) aştığında akülü makine kesinlikle kullanılmaz; bu sınırı zorlamak yerine işi kabul etmemek tercih edilir.",
+            },
+            {
+                baslik: "Mevsimsel zemin değişkenliği: yağmur sonrası çamur",
+                metin:
+                    "Bina çevresindeki toprak alanlar, kurak havada sert görünse de yağmur sonrası hızla çamura dönüşebilir — bu değişkenlik, iş günü yakınında zeminin fotoğrafla teyit edilmesini gerektirir. Belirsiz veya değişken zeminde iş, kuru bir güne ertelenir; bu erteleme, güvenlik önceliğinin doğal bir sonucudur ve müşteriye baştan açık şekilde anlatılır.",
+            },
+            {
+                baslik: "Bu hizmetin sınırları: ne zaman uygun değiliz",
+                metin:
+                    "Açık şantiye sahaları, eğimi üretici sınırını aşan araziler, sürekli açık saha operasyonu gerektiren projeler bizim ana uzmanlık alanımızın açıkça dışındadır. Bu durumlarda dizel 4x4 açık saha ekipmanına odaklı bir tedarikçiyi önermek, hem güvenlik hem verimlilik açısından doğru olandır ve bunu söylemekten çekinmeyiz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zor zemin taleplerinde uygunluk değerlendirmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, zor zemin taleplerinde uygunluğumuzu belirleyen faktörleri gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Faktör", "Uygun senaryo", "Sınırlı/uygun değil"],
+                    satirlar: [
+                        ["Zemin sertliği", "Sert, kompakt toprak, kısa mesafe", "Yumuşak, çamurlu, geniş alan"],
+                        ["Eğim", "Üretici sınırı içinde", "Sınırı aşan eğim"],
+                        ["Bağlam", "İç mekân projesinin dış çevresi", "Bağımsız açık şantiye"],
+                        ["Mevsim/hava", "Kuru, teyit edilmiş zemin", "Yağmur sonrası belirsiz zemin"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin testi: karar öncesi zorunlu adım",
+                paragraflar: [
+                    "Zor zemin içeren bir talep geldiğinde, karar masada değil sahada verilir — keşif ekibi zemine fiziksel olarak basıp sertlik ve eğimi değerlendirir, gerekirse basit bir batma testi yapar. Bu test olumluysa iş kabul edilir; olumsuzsa, açık ve dürüst şekilde reddedilir ve alternatif tedarikçi önerilir.",
+                    "Bu adım atlanabilir bir formalite değildir — zemin konusunda 'muhtemelen tutar' varsayımıyla çalışmayız.",
+                ],
+            },
+            {
+                baslik: "Alternatif yönlendirme",
+                paragraflar: [
+                    "Bizim için uygun olmayan bir zor zemin talebi geldiğinde, müşteriyi elleri boş bırakmamaya çalışırız — dizel 4x4 açık saha ekipmanına odaklı tedarikçileri araştırıp yönlendirme yapabiliriz. Sınırlarımızı bilerek çalışmak, kabul ettiğimiz her işte güvenli ve verimli kalabilmemizin garantisidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "AVM'mizin henüz peyzajı tamamlanmamış girişinde kısa bir toprak geçiş var; makine oradan geçebilir mi?",
+                cevap:
+                    "Sınırlı ve kısa mesafeli toprak geçişler, zemin sertliği yeterliyse akülü filomuzun sınırları içinde kalabilir — ama bu karar keşifte zemine fiziksel test yapılmadan verilmez. Ekibimiz sahada zemine basıp sertlik ve eğimi değerlendirir; olumluysa iş kabul edilir, olumsuzsa açıkça söyleriz ve alternatif çözüm (örneğin geçici plaka döşeme) tartışılır.",
+            },
+            {
+                soru: "İnşaat şantiyemizde zemin henüz sabitlenmedi, platform çalışabilir mi?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse, henüz sabitlenmemiş şantiye zemini akülü iç mekân filomuzun kapasitesinin açıkça dışındadır — bu koşullar dizel 4x4 tahrikli açık saha ekipmanı gerektirir. Bu tip bir talep için açık saha ekipmanına odaklı bir tedarikçiyi önermemiz daha doğru olur; isterseniz yönlendirme yaparız.",
+            },
+            {
+                soru: "Bahçemizin eğimi biraz fazla, akülü makine devrilir mi?",
+                cevap:
+                    "Eğim, üreticinin belirlediği maksimum sınırı aşarsa akülü makine kesinlikle kullanılmaz — bu, devrilme riski nedeniyle geçilmez bir kuraldır. Eğim sınırın içindeyse dikkatli manevrayla çalışılabilir. Eğim derecesini bilmiyorsanız, keşifte basit bir ölçümle netleştiririz; sınırı zorlayan bir eğimde işi kabul etmek yerine dürüstçe reddederiz.",
+            },
+            {
+                soru: "Geçen hafta zemin sertti ama bu hafta yağmur yağdı, hâlâ aynı planla mı ilerliyoruz?",
+                cevap:
+                    "Hayır — zemin, iş gününe yakın bir zamanda yeniden teyit edilir çünkü yağmur sonrası sert görünen toprak hızla çamura dönüşebilir. Bu değişkenlik nedeniyle bir hafta önceki değerlendirme geçerliliğini kaybetmiş olabilir; iş günü öncesi fotoğrafla son kontrol yapılır. Zemin çamurluysa iş, kuru bir güne ertelenir.",
+            },
+            {
+                soru: "Zemin testi olumsuz çıkarsa ne öneriyorsunuz?",
+                cevap:
+                    "Zemin testi olumsuz çıkarsa işi kabul etmeyiz ve bunu açıkça söyleriz — ardından dizel 4x4 açık saha ekipmanına odaklı bir tedarikçi önerisiyle müşteriyi yönlendirmeye çalışırız. Bazı durumlarda geçici zemin sağlamlaştırma (stabilizasyon, plaka döşeme) bir seçenek olabilir; bu ek maliyeti ve uygulanabilirliğini keşifte birlikte değerlendiririz.",
+            },
+            {
+                soru: "Neden bu hizmeti sayfanızda tutuyorsunuz ama bu kadar sınırlı bir kapsamla?",
+                cevap:
+                    "Çünkü ana kimliğimiz iç mekân egzozsuz platform kiralamadır ve zor zemin/açık arazi ana uzmanlık alanımızın dışındadır — bunu gizlemek yerine açıkça söylemek, hem müşteriyi doğru beklentiyle karşılaştırır hem bizim kabul ettiğimiz işlerde güvenli kalmamızı sağlar. Sınırlı ve iç mekân projesine bağlı zor zemin taleplerinde destek sunarız; bağımsız açık saha işlerinde dürüstçe alternatif öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa hizmetin filomuzun ana odağı olmadığını ve kapsam sınırlarını (eğim, açık şantiye) dürüstçe belirtir; akülü platform stabilite/eğim sınırı üretici genel teknik bilgisidir.",
+    },
 };

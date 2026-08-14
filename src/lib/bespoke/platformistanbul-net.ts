@@ -1394,4 +1394,1064 @@ export const PLATFORMISTANBUL_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Çatalca'nın İstanbul'un Avrupa yakasındaki en batı ve geniş yüz ölçümlü ilçelerinden biri olduğu, kırsal-yarı kırsal dokusu kamuya açık bilgidir; hub tahsisi ve süre dürüstlüğü firma pratiğidir.",
     },
+
+    // ── HİZMET SAYFALARI — 3-HUB SEVKİYAT MODELİ ODAKLI ─────────────────
+    // Domain profili: İkitelli (Avrupa yakası, merkez OSB), Tuzla (Anadolu
+    // yakası, tersane/ihtisas OSB kuşağı) ve Gebze (Anadolu yakası doğu,
+    // D-100/TEM sanayi-lojistik kuşağı) hub'larından koordineli sevkiyat.
+    // Her sayfa bu üçlü hub kimliğine somut biçimde bağlanır; jenerik
+    // "her yerde hizmet veririz" ifadesi yasaktır.
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli / Örümcek Platform Kiralama — Üç Hub'dan Dar Alan Erişimi",
+        giris:
+            "Örümcek platform (paletli, uzaktan kumandalı, katlanır bomlu kompakt sepetli makine) çoğu iş için değil, tam olarak belirli bir sorun için tercih edilir: standart makaslı veya eklemli platformun geçemediği kapı, merdiven veya asansör darlığından geçip iç mekânda yeniden açılabilmesi. Üç hub'ımızın kapsadığı coğrafyada bu sorun üç farklı yüzle karşımıza çıkar — İkitelli'nin sanayi sitelerinde dar merdivenli katlı atölyeler, Tuzla'nın tersane ve OSB idari binalarındaki asansör-koridor darlıkları, Gebze kuşağının depo ve fabrika ofis bloklarındaki ışıklık-cam tavan işleri. Örümcek platformun paletli hareketi zemine düşük nokta yükü bindirir, bu da parke, seramik veya cilalı mermer gibi hassas zeminlerde onu diğer sınıflardan ayıran asıl özelliktir. Hangi hub'dan hangi model gönderileceği, işin geçtiği kapı genişliği, kat sayısı ve zemin türüne göre keşifte netleşir; üç hub'ın stok karması birbirinden farklı olduğu için bazen komşu hub'dan destek gerekebilir.",
+        maddeler: [
+            {
+                baslik: "Dar geçit ve merdivenden geçiş — İkitelli site dokusu",
+                metin:
+                    "İkitelli'nin katlı sanayi sitelerinde asansör her zaman büyük makineyi taşımaz; örümcek platform katlanmış hâlde dar kapı ve merdiven sahanlıklarından geçip iç mekânda tekrar açılabilir. Bu özellik, üst kat atölyelerindeki tavan ve tesisat işlerinde forklift-rampa kombinasyonuna alternatif oluşturur. Geçit ölçüsü, kapı yüksekliği ve merdiven dönüş açısı, keşifte fotoğrafla doğrulanan üç temel veridir.",
+            },
+            {
+                baslik: "Zemin yükü hassasiyeti — cilalı ve hassas yüzeyler",
+                metin:
+                    "Standart tekerlekli platformların nokta yükü, cilalı mermer veya epoksi kaplı zeminlerde iz veya çatlak riski taşıyabilir; örümcek platformun paletleri yükü geniş bir yüzeye yayarak bu riski düşürür. Ofis lobisi, showroom veya idari bina zemin işlerinde bu fark, makine seçimini doğrudan belirler. Hassas zeminlerde ayrıca koruma örtüsü serilmesi de standart uygulamadır.",
+            },
+            {
+                baslik: "Tuzla'da idari bina ve ofis atriumları",
+                metin:
+                    "Tersane ve OSB idari binalarının çoğu, üretim sahasından ayrı, cam cepheli ve yüksek tavanlı ofis-atrium bölümlerine sahiptir; bu bölümlerde aydınlatma armatürü değişimi veya cam yüzey bakımı gibi işler, üretim sahasının ağır ekipman düzeninden farklı, hassas bir yaklaşım ister. Örümcek platform, ofis mobilyası ve zemin kaplamasına zarar vermeden bu işleri üstlenir; Tuzla hub'ının parkında bu iş için ayrılmış kompakt modeller bulunur.",
+            },
+            {
+                baslik: "Gebze kuşağında depo ofis blokları ve ışıklık çalışması",
+                metin:
+                    "Lojistik depo ve fabrika komplekslerinin idari blokları, genellikle üretim-depo hacminden ayrı, standart kat yüksekliğinde binalardır; buradaki ışıklık, tavan aydınlatması veya cam çatı bakımı işleri örümcek platformun tipik alanıdır. Gebze hub'ının depo yoğun bölgesinde bu tip talep, ana depo hacmindeki makaslı-eklemli işlerden ayrı bir hat olarak planlanır ve genelde küçük ölçekli, kısa süreli olur.",
+            },
+            {
+                baslik: "Hub'lar arası model dağılımı ve destek mantığı",
+                metin:
+                    "Örümcek platform, üç hub'ın da parkında bulunan ama düşük hacimli bir sınıftır; talebin yoğunlaştığı hub'da model yetersiz kalırsa komşu hub'dan kısa sürede destek sağlanır. Bu dağıtım kararı, işin geçtiği geçit ölçüsü ve zemin hassasiyeti verisiyle birlikte, hangi hub'ın o anki uygun modeli boşta tuttuğuna bakılarak verilir — üç hub'lı yapının esnekliği, tek depoya göre bu tip niş taleplerde daha hızlı çözüm üretir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre örümcek platform ve hub eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, tipik iş senaryolarını, en yakın hub'ı ve zemin notunu birlikte gösterir. Geçit ölçüsü her senaryoda ayrıca doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["İş senaryosu", "En yakın hub", "Kritik ölçü", "Zemin notu"],
+                    satirlar: [
+                        ["Sanayi sitesi üst kat atölyesi", "İkitelli", "Merdiven/kapı genişliği", "Standart beton"],
+                        ["Tersane idari bina atriumu", "Tuzla", "Asansör-koridor darlığı", "Cilalı/hassas"],
+                        ["Depo ofis bloğu ışıklık", "Gebze", "Kat yüksekliği", "Ofis zemin kaplaması"],
+                        ["OSB showroom/lobi işi", "En yakın hub", "Kapı-döner kapı ölçüsü", "Mermer/parke"],
+                        ["Cam çatı iç yüzey bakımı", "En yakın hub", "Erişim açısı", "Koruma örtüsü gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Paletli hareketin sağladığı pratik avantaj",
+                paragraflar: [
+                    "Örümcek platformun düşük ağırlığı ve geniş yük dağıtımı, yalnızca zemin koruması değil, taşıma lojistiği açısından da avantaj sağlar: makine parçalı olarak dar kapılardan sokulup iç mekânda birleştirilebilir, bu da klasik makaslı-eklemli sınıfın giremediği yapılarda çözüm üretir. Uzaktan kumanda özelliği, operatörün sepetin dışından da makineyi konumlandırabilmesini sağlar; bu, dar koridorlarda manevra güvenliğini artırır.",
+                ],
+            },
+            {
+                baslik: "Uzaktan kumanda ve dar alan güvenlik disiplini",
+                paragraflar: [
+                    "Dar iç mekânda çalışan örümcek platformda güvenlik disiplini iki katmanlıdır: sepet içi operatör iş sırasında standart emniyet ekipmanını kullanır, makinenin konumlandırma aşamasında ise ikinci kişi uzaktan kumandayla dışarıdan yönlendirme yapabilir. Bina içi yaya trafiğinin sürdüğü ofis ve idari binalarda çalışma alanı geçici olarak işaretlenir; iş bitince alan anında normal kullanıma açılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform standart bina asansörüne sığar mı?",
+                cevap:
+                    "Çoğu modelde evet — makine katlanmış taşıma konumundayken standart yük asansörü ölçülerinin çoğuna girer; ancak kesin cevap asansör kabin ölçüsü ve kapasitesiyle makinenin katlı-hâl ölçüsünün karşılaştırılmasına bağlıdır. Keşifte asansör etiket bilgisi (kapasite, kabin ölçüsü) istenir ve buna göre uygun model belirlenir. Asansör yetersizse merdivenden manuel taşıma alternatifi değerlendirilir; bu durumda makinenin ağırlığı ve merdiven dönüş açısı belirleyicidir.",
+            },
+            {
+                soru: "Dar merdivenli bir binada üst kata çıkabilir mi?",
+                cevap:
+                    "Bazı kompakt modeller merdivenden manuel olarak taşınabilir ve katta yeniden monte edilebilir; bu, ağırlığa ve merdiven genişliği-dönüş açısına bağlı bir keşif konusudur. Genel kural şudur: merdiven sahanlığı makinenin en dar ölçüsünden geniş olmalı ve taşıma için yeterli personel bulunmalıdır. Bu iş fiyatlandırması, standart teslimattan farklıdır çünkü ek işçilik gerektirir; keşifte bu fark açıkça belirtilir.",
+            },
+            {
+                soru: "Cilalı mermer zeminde kullanınca iz bırakır mı?",
+                cevap:
+                    "Doğru lastik ve koruma önlemiyle bırakmaz — örümcek platformların paletleri genellikle iz bırakmayan kauçuk kaplıdır ve nokta yükü geniş yüzeye yayılır, ancak hassas zeminlerde ek koruma örtüsü serilmesi standart uygulamamızdır. Zemin türü ve hassasiyeti keşifte önceden sorulur; showroom veya lobi gibi görsel açıdan kritik alanlarda bu koruma hiçbir zaman atlanmaz.",
+            },
+            {
+                soru: "Bölgemize hangi hub'dan gönderiliyor, buna kim karar veriyor?",
+                cevap:
+                    "Karar iki veriye bakılarak verilir: işin bulunduğu ilçenin coğrafi olarak hangi hub'a en yakın olduğu ve o hub'ın o gün için uygun örümcek platform modelinin boşta olup olmadığı. İkitelli hub'ı Avrupa yakasını, Tuzla ve Gebze hub'ları Anadolu yakasının farklı kesimlerini kapsar. Model boşta değilse komşu hub'dan kısa sürede destek sağlanır; bu durumda süre farkı talep alınırken açıkça bildirilir.",
+            },
+            {
+                soru: "Cam çatı veya ışıklık üzerinde çalışırken düşme riski nasıl yönetiliyor?",
+                cevap:
+                    "Cam yüzey üzeri çalışmada sepetin kendi emniyet sistemine ek olarak, çalışma alanının altına geçici işaretleme ve gerekiyorsa koruma önlemi eklenir; operatör, cam yüzeyin taşıma kapasitesini bilerek ve sepeti cam üzerine değil çevresine konumlandırarak çalışır. İş öncesi yapı sahibinden veya yönetiminden cam yüzeyin statik durumu hakkında bilgi alınması, planın ilk adımıdır — bu bilgi olmadan cam üstü yakın çalışma başlatılmaz.",
+            },
+            {
+                soru: "Sadece birkaç saatlik bir iç mekân işimiz var, örümcek platform kiralamak pahalı mı?",
+                cevap:
+                    "Niş bir sınıf olduğu için birim fiyatı standart makaslıdan farklıdır, ama kısa süreli işlerde bölge turlarına dizilme imkânı burada da geçerlidir: aynı hub bölgesinde aynı gün başka bir kısa iç mekân talebi varsa nakliye paylaşılır. Tarih esnekliğiniz varsa bu ekonomiden yararlanırsınız; sabit tarihli acil işlerde tekil sevkiyat maliyeti teklifte açıkça görünür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Örümcek/sepetli platformun paletli-katlanır-uzaktan kumandalı teknik yapısı kamuya açık ürün bilgisidir; hub dağıtım ve destek mantığı firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Üç Hub'lu Sevkiyat Modeli: İkitelli, Tuzla ve Gebze'den Koordineli Nakliye",
+        giris:
+            "İstanbul'da tek bir merkezi depodan şehrin tamamına makine göndermek, kâğıt üzerinde basit görünse de sahada iki gerçekle çarpışır: şehir iki yakaya bölünmüştür ve köprü-tünel geçişleri günün belirli saatlerinde ciddi gecikme üretir; ayrıca metropol o kadar geniştir ki tek noktadan çıkan bir aracın en uzak ilçeye ulaşması saatler alabilir. Bu iki gerçeğe karşı kurduğumuz çözüm, tek büyük depo yerine üç bölgesel hub'dır: İkitelli hub'ı Avrupa yakasının merkezi sanayi dokusuna, Tuzla hub'ı Anadolu yakasının güneyindeki tersane ve ihtisas OSB kuşağına, Gebze hub'ı ise Anadolu yakasının doğusundaki D-100/TEM sanayi-lojistik kuşağına konumlanmıştır. Bir talep geldiğinde ilk soru 'İstanbul'da nerede' değil, 'hangi hub'a coğrafi olarak en yakın ve boğaz geçişi gerektirmeden ulaşılabilir' sorusudur — sevkiyat kararı bu mantıkla verilir ve sonuç, şehir dışından tek araçla gelen modele göre belirgin biçimde daha kısa ve öngörülebilir teslim süreleridir.",
+        maddeler: [
+            {
+                baslik: "Üç hub'ın coğrafi mantığı ve neden tek depo yetmez",
+                metin:
+                    "Tek merkezi depo modelinde her sevkiyat, depodan çıkıp şehrin trafik dokusunun tamamını göğüslemek zorunda kalır — Avrupa yakasındaki bir depodan Anadolu yakasına, veya tam tersi, her seferinde köprü ya da tünel geçişi demektir. Üç hub'lı yapı bu zorunluluğu ortadan kaldırır: her hub kendi yakasındaki veya kendi kuşağındaki talebi, boğaz geçişine ihtiyaç duymadan karşılar. Yalnızca hub'ın kendi bölgesinde park yetersiz kaldığında komşu hub'dan destek gerekir ve bu istisnai durumdur, kural değildir.",
+            },
+            {
+                baslik: "İlçe-hub eşleşmesi nasıl kurulur",
+                metin:
+                    "Her ilçe, coğrafi konumuna göre bir birincil hub'a atanmıştır: Avrupa yakasındaki ilçeler (İkitelli çevresi, Başakşehir, Esenyurt, Arnavutköy, Mahmutbey ve uzak batıda Çatalca) İkitelli hub'ından; Anadolu yakasının güneyi (Tuzla, Pendik ve çevresi) Tuzla hub'ından; Anadolu yakasının doğusu (Gebze kuşağı, GOSB, TOSB, Dilovası) Gebze hub'ından beslenir. Bu eşleşme sabit bir kural değil, güncel trafik ve park verisine göre gerektiğinde esneyen bir varsayılan düzendir.",
+            },
+            {
+                baslik: "Boğaz geçişinden kaçınma prensibi",
+                metin:
+                    "Köprü ve tünel geçişleri, İstanbul'da sevkiyat süresini en çok belirsizleştiren etkendir — aynı mesafe, geçiş saatine göre yarım saat ile iki saat arasında değişebilir. Üç hub'lı yapının temel tasarım ilkesi, her talebin mümkün olduğunca kendi yakasındaki hub'dan karşılanmasıdır; bu sayede sevkiyat süresi, öngörülemez köprü trafiğine değil, kendi bölgesi içindeki daha istikrarlı yol koşullarına bağlı kalır.",
+            },
+            {
+                baslik: "Talep alındığında sevkiyat kararı nasıl verilir",
+                metin:
+                    "Bir talep geldiğinde önce işin bulunduğu ilçe ve o ilçenin birincil hub'ı belirlenir, ardından o hub'ın parkında uygun makine ve o gün için uygun sevkiyat penceresi kontrol edilir. Süre tahmini bu iki veriye göre verilir — hub'dan işin adresine olan mesafe ve o saatteki güzergâh yoğunluğu. Talep, aynı hub bölgesindeki başka bir talebe yakın tarihliyse, ikisi aynı tura dizilerek nakliye paylaşılır.",
+            },
+            {
+                baslik: "İstisnai durumlar: hub parkı yetersizse",
+                metin:
+                    "Bir hub'ın parkı o gün için doluysa veya talep edilen makine tipi o hub'da yoksa, komşu hub'dan destek sağlanır. Bu durumda süre farkı, teklif aşamasında açıkça belirtilir — 'normalde bu bölgeye şu kadar sürede gelir, bugün komşu hub'dan geldiği için şu kadar daha uzun sürecek' biçiminde. Sürprizle karşılaşmamak için bu bilgi talep alınırken, sahaya araç çıkmadan önce paylaşılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, kapsama alanı ve tipik sevkiyat süresi",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub'ın kapsadığı ilçe gruplarını ve ana ulaşım akslarını özetler. Süre bandı, hub'a olan mesafeye göre değişir ve kesin teslim saati her talepte ayrıca hesaplanır.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Yaka / kuşak", "Kapsadığı bölge örnekleri", "Ana ulaşım aksı"],
+                    satirlar: [
+                        ["İkitelli", "Avrupa yakası, merkez", "İkitelli, Başakşehir, Esenyurt, Mahmutbey, Arnavutköy, Çatalca", "Basın Ekspres, TEM"],
+                        ["Tuzla", "Anadolu yakası, güney", "Tuzla, Pendik, Dudullu OSB çevresi", "Sahil yolu, D-100"],
+                        ["Gebze", "Anadolu yakası, doğu / Kocaeli kuşağı", "Gebze, GOSB, TOSB, Dilovası", "D-100, TEM"],
+                    ],
+                },
+            },
+            {
+                baslik: "Mega kent trafiğinde sevkiyat penceresi planlaması",
+                paragraflar: [
+                    "Her hub'ın kendi bölgesi içinde de trafik dalgalanması vardır; sevkiyat planı bu dalgalanmayı hesaba katar. Sabah erken ve akşam geç saat teslimatları, hem yol süresini kısaltır hem teslim noktasının kendi kapı-önü trafiğine denk gelmez. Aynı bölgeye birden fazla teslimat varsa, mümkün olduğunca tek turda birleştirilir; bu hem nakliye maliyetini hem trafik maruziyetini azaltır.",
+                    "Planlı talepler için sevkiyat penceresi önceden ayrılır ve o pencere başka bir talebe verilmez; plansız-acil taleplerde ise hub'ın o anki park durumuna göre gerçekçi bir varış aralığı bildirilir.",
+                ],
+            },
+            {
+                baslik: "Acil talep ile planlı talep süreçlerinin farkı",
+                paragraflar: [
+                    "Planlı taleplerde süreç önceden işler: iş tarihi, adres ve makine tipi bilindiği için ilgili hub'da yer ayrılır ve sevkiyat günü sürprizsiz geçer. Acil taleplerde ise öncelik, en yakın hub'ın o anki park durumunu hızla kontrol edip gerçekçi bir varış saati vermektir — iyimser bir söz yerine, güzergâh ve trafik verisine dayanan bir tahmin paylaşılır.",
+                    "İki süreç de aynı hub mantığından beslenir; fark, bilgiye ne kadar önceden sahip olunduğudur. Tarih esnekliği bildiren müşteriler, planlı sürecin ekonomisinden (tur birleştirme) yararlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bölgemize hangi hub'dan makine geleceğine nasıl karar veriliyor?",
+                cevap:
+                    "İşin bulunduğu ilçenin coğrafi konumuna göre: Avrupa yakasındaysanız normalde İkitelli hub'ından, Anadolu yakasının güneyindeyseniz Tuzla hub'ından, doğusundaysanız Gebze hub'ından sevkiyat yapılır. Bu atama, boğaz geçişi gerektirmeyen en kısa güzergâhı önceliklendirir. İlgili hub'ın parkı o gün yetersizse komşu hub'dan destek sağlanır ve bu durumda süre farkı açıkça bildirilir.",
+            },
+            {
+                soru: "Karşı yakadan da makine gelebilir mi, yoksa kesinlikle kendi yakamdaki hub'dan mı gelir?",
+                cevap:
+                    "Standart kural kendi yakanızdaki hub'dan sevkiyattır çünkü bu, boğaz trafiğinden bağımsız ve öngörülebilir sonuç verir. Ancak istisnai durumlarda — birincil hub'ın parkı doluysa veya özel bir makine tipi yalnızca karşı yakadaki hub'da varsa — karşı yakadan sevkiyat da yapılır. Bu durumda süre farkı ve köprü-tünel trafiğine bağlı belirsizlik, teklif aşamasında açıkça söylenir; gizli kalem olarak sonradan çıkmaz.",
+            },
+            {
+                soru: "Teslim süresi tahminleri ne kadar güvenilir?",
+                cevap:
+                    "Tahmin, hub'dan adresinize olan gerçek mesafe ve o saatteki güzergâh yoğunluğu verisiyle verilir; 'yakındır, hemen gelir' gibi genel ifadeler kullanılmaz. Planlı taleplerde bu tahmin, önceden ayrılan sevkiyat penceresiyle örtüşür ve yüksek doğrulukla tutulur. Acil taleplerde ise hub'ın o anki park durumu değişken olduğu için aralık biraz daha geniş verilir, ama yine gerçek veriye dayanır, iyimser tahmine değil.",
+            },
+            {
+                soru: "Aynı gün birden fazla ilçeye teslimatımız olacak, bu mümkün mü?",
+                cevap:
+                    "Mümkün ve üç hub'lı yapı tam olarak bunun için tasarlandı: her teslimat, coğrafi olarak en yakın hub'dan bağımsız biçimde planlanır — örneğin aynı gün hem İkitelli hem Gebze bölgesine teslimat gerekiyorsa, ikisi ayrı hub'lardan eş zamanlı olarak yola çıkar, tek merkezi depodan sırayla gönderilen modele göre toplam süre belirgin kısalır. Talep listenizi paylaşırsanız hangi teslimatın hangi hub'dan çıkacağı önceden netleştirilir.",
+            },
+            {
+                soru: "Bize en yakın hub'ın parkı doluysa ne olur, işimiz gecikir mi?",
+                cevap:
+                    "Öncelikle komşu hub'ın uygun makinesi olup olmadığına bakılır; varsa oradan destek sağlanır ve bu durumda süre farkı size baştan bildirilir, gizlenmez. İkinci seçenek, aynı hub içinde tarihinizde esneklik varsa sizi bir sonraki uygun sevkiyat turuna yerleştirmektir — bu genelde en ekonomik çözümdür. Hangi seçeneğin sizin için daha uygun olduğu, aciliyet durumunuza göre birlikte değerlendirilir.",
+            },
+            {
+                soru: "Acil bir arıza durumunda en hızlı hangi hub devreye girer?",
+                cevap:
+                    "İşin bulunduğu ilçeye coğrafi olarak en yakın hub, park durumu uygunsa devreye girer — bu üç hub'lı yapının en somut faydasıdır, çünkü tek merkezi depo modeline göre ortalama mesafe önemli ölçüde kısalır. Acil talep bildirilirken işin tam konumu ve kotu paylaşılırsa, en yakın hub'ın park durumu hızla kontrol edilip gerçekçi bir varış saati verilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstanbul'un iki yakaya bölünmüş coğrafyası, köprü-tünel geçiş trafiği ve şehrin büyük ölçeği kamuya açık bilgidir; üç hub'lı sevkiyat atama modeli firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Forklift ve İstif Makinesi Kiralama — Hub Depolarından Sevkiyat",
+        giris:
+            "Forklift talebi, üç hub'ımızın kapsadığı bölgelerde birbirinden oldukça farklı üç profil çizer: İkitelli'nin sanayi sitelerinde katlı atölyelere giren kompakt akülü modeller, Tuzla'nın tersane ve ağır sanayi kuşağında çelik profil ile mermer blok taşıyan yüksek tonajlı dizel forkliftler, Gebze kuşağının lojistik depolarında ise yüksek raf koridorlarında çalışan dar şaseli modeller. Her hub, kendi bölgesinin baskın iş profiline göre bir forklift karması tutar; bu yüzden 'forklift kiralamak' tek bir standart hizmet değil, hangi hub'dan hangi sınıfın geldiğine bağlı, işin niteliğine göre şekillenen bir karardır. İstifleme işinin süresi de bölgeye göre değişir — sanayi sitesinde saatlik-günlük kısa işler yaygınken, lojistik depoda haftalık-aylık daha uzun soluklu kiralamalar öne çıkar.",
+        maddeler: [
+            {
+                baslik: "İkitelli'de kompakt akülü forklift ve triplex asansör",
+                metin:
+                    "İkitelli'nin katlı sanayi sitelerinde forklift, geniş şasili değil dar şaseli ve triplex asansörlü (alçak asansör kapılarından geçebilen) modeller biçiminde talep edilir. Atölye içi istif, kumaş balyası veya metal parça taşıma gibi işler, günlük-haftalık kısa süreli kiralamalarla yürür ve keşifte önce asansör-kapı ölçüsü doğrulanır, sonra forklift kapasitesi belirlenir.",
+            },
+            {
+                baslik: "Tuzla'da yüksek tonajlı dizel forklift",
+                metin:
+                    "Tersane ve ihtisas OSB kuşağının yük profili ağırdır — çelik profil, sac paket, mermer blok, fıçılı kimyasal — ve bu yükler yüksek tonajlı dizel forkliftlerle taşınır. Açık stok sahalarında bozuk zemin sık görülen bir sorundur; zemin engebeliyse forklift yerine arazi tipi telehandler önerilir. Ağır yüklerde ağırlık merkezi ve ataşman uyumu, tonaj kadar belirleyicidir.",
+            },
+            {
+                baslik: "Gebze kuşağında yüksek raf ve dar koridor mantığı",
+                metin:
+                    "Lojistik depo ve dağıtım merkezlerinin raf sistemleri yüksek kotlara uzanır ve koridorlar dardır; bu ortamda forklift seçimi koridor genişliği ve raf yüksekliğiyle doğrudan ilişkilidir. Epoksi zeminlerde iz bırakmayan lastik tercih edilir ve operasyon sürerken çalışılacaksa koridor bazlı planlama yapılır — tüm depo değil, yalnızca ilgili koridor geçici olarak ayrılır.",
+            },
+            {
+                baslik: "Hub'lar arası tonaj ve tip farkının doğru hub'a yönlendirilmesi",
+                metin:
+                    "Bir talep geldiğinde forklift tipi kadar hangi hub'ın o tipte makineyi stoklu tuttuğu da belirleyicidir: ağır tonajlı bir talep Tuzla veya Gebze hub'ına, kompakt dar şaseli bir talep İkitelli hub'ına yönlendirilir. İşin coğrafi konumu ile ihtiyaç duyulan forklift sınıfı çakışmıyorsa (örneğin İkitelli bölgesinde ağır tonaj gerekiyorsa) komşu hub'dan destek sağlanır ve bu durum süre tahminine yansıtılır.",
+            },
+            {
+                baslik: "Kısa süreli istif işlerinde tur ekonomisi",
+                metin:
+                    "Sanayi sitesi ve OSB dokusunda kısa süreli forklift ihtiyaçları (yarım günlük boşaltma, birkaç saatlik istif düzeltmesi) tek başına pahalıdır; aynı hub bölgesindeki başka taleplerle aynı güne dizildiğinde nakliye maliyeti paylaşılır. Tarih esnekliği olan talepler bu ekonomiden yararlanır; sabit tarihli acil işlerde tekil sevkiyat da yapılır ve fark teklifte görünür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, tipik forklift sınıfı ve iş profili",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub'ın forklift parkındaki ağırlıklı sınıfı ve tipik iş profilini gösterir; bu bir katılık değil, bölgenin baskın talebini yansıtan varsayılan karmadır.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Ağırlıklı sınıf", "Tipik iş", "Kritik ölçü"],
+                    satirlar: [
+                        ["İkitelli", "Kompakt akülü, triplex asansör", "Atölye içi istif", "Kapı-asansör geçidi"],
+                        ["Tuzla", "Yüksek tonajlı dizel", "Çelik/mermer/kimyasal yük", "Ağırlık merkezi, zemin"],
+                        ["Gebze", "Dar şaseli, yüksek raf uyumlu", "Depo koridor istifi", "Koridor genişliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin ve lastik seçimi",
+                paragraflar: [
+                    "İç mekân depo ve atölye işlerinde iz bırakmayan lastik standarttır; dış saha ve açık stok alanlarında ise dolgu veya pnömatik lastik, zemin türüne göre seçilir. Bozuk veya engebeli zeminde forklift yerine arazi tipi telehandler önerisi, keşifte dürüstçe yapılır — yanlış ekipmanla zorlanmış bir iş, hem makineye hem işe zarar verir.",
+                ],
+            },
+            {
+                baslik: "Operatör belgesi ve güvenlik brifingi",
+                paragraflar: [
+                    "Operatörlü forklift kiralamada belge kontrolü ve saha brifingi standart adımdır: operatör yeterlilik belgesi doğrulanır, sahanın kendi trafik düzeni (yaya geçişleri, diğer araçlar) brifinge dahil edilir. Depo içi işlerde yaya-araç ayrımı, çalışma sırasında işaretlenen koridorlarla sağlanır; ağır sanayi sahalarında ise yük tablosu dışı kaldırma kesinlikle reddedilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemiz üst katta, forklift oraya nasıl çıkar?",
+                cevap:
+                    "Bina yük asansörünün kapasitesi ve kabin ölçüsü yeterliyse kompakt akülü forklift asansörle katta çalışabilir; yetmiyorsa iş, malzemenin rampadan forkliftle kata beslenmesi biçiminde planlanır. Keşifte asansör etiket bilgisi ve kapı ölçüleri doğrulanır; bu iki veri, hangi modelin uygun olduğunu netleştirir.",
+            },
+            {
+                soru: "Ağır bir mermer blok yükümüz var, hangi hub'dan forklift gelir?",
+                cevap:
+                    "Ağır tonajlı yükler için normalde Tuzla veya Gebze hub'ının parkındaki yüksek tonajlı dizel modeller yönlendirilir; işin İkitelli bölgesinde olması durumunda bile ağır tonaj gerekiyorsa komşu hub'dan destek sağlanır. Blok ağırlığı ve zemin durumu keşifte netleştirilir; zemin bozuksa telehandler alternatifi de değerlendirilir.",
+            },
+            {
+                soru: "Depo koridorlarımız dar, standart forklift dönemez; ne öneriyorsunuz?",
+                cevap:
+                    "Koridor genişliği önceden ölçülür ve dar şaseli, yüksek raf uyumlu modeller önerilir; bu sınıf özellikle Gebze kuşağındaki lojistik depo talebine göre hub parkında hazır tutulur. Koridor ölçüsü fotoğraf ve rakamla keşifte doğrulanır; hiçbir model geçemiyorsa alternatif çözüm (kademeli taşıma, daha küçük ekipman) dürüstçe sunulur.",
+            },
+            {
+                soru: "Sadece birkaç saatlik boşaltma işimiz var, günlük ücret mi ödeyeceğiz?",
+                cevap:
+                    "Hub bölgenizde aynı güne dizilebilecek başka bir talep varsa hayır — kısa işler bölge turlarına yerleştirilerek nakliye paylaşılır ve maliyet gerçek iş süresine yaklaşır. Bu tarih esnekliği gerektirir; sabit tarihli acil işlerde tekil sevkiyat maliyeti teklifte açıkça görünür.",
+            },
+            {
+                soru: "Operatörlü mü yoksa kendi operatörümüzle mi çalışmalıyız?",
+                cevap:
+                    "İki seçenek de mümkündür; operatörlü kiralamada operatör belgesi ve saha brifingi bizim tarafımızdan yürütülür, kendi operatörünüzle çalışırsanız makine teslimi öncesi belge kontrolü sizinle birlikte yapılır. Ağır tonajlı veya dar koridorlu işlerde, sahaya aşina hub operatörüyle çalışmak genelde daha hızlı sonuç verir.",
+            },
+            {
+                soru: "Zeminimiz bozuk, forklift oraya girebilir mi?",
+                cevap:
+                    "Zemin bozukluğu yüzeyselse arazi tipi dizel forklift yeterli olabilir; engebe belirginse forklift yerine dört teker çekişli telehandler önerilir — bozuk sahada güvenle ilerler ve bom uzatmasıyla istif yüksekliği de kazandırır. Saha fotoğrafı ve yük ağırlığı paylaşılırsa keşif, doğru ekipmanı netleştirir; yanlış ekipmanla zorlama önerilmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bölgelerin sanayi/lojistik profil farkları (İkitelli sanayi sitesi, Tuzla ağır sanayi, Gebze lojistik depo) kamuya açık bilgidir; hub-forklift eşleşmesi firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom Lift) Kiralama — Üç Hub'ın Dağıtım Mantığı",
+        giris:
+            "Eklemli platformun makaslıdan ayrılan asıl özelliği, bomun kırılımlı hareketiyle bir engelin üzerinden veya yanından dolaşarak sepeti hedefe taşıyabilmesidir — düz yukarı çıkan makaslının aksine, eklemli bom yatayda da uzanır. Bu özellik, üç hub'ımızın bölgelerinde farklı biçimlerde işe yarar: İkitelli'nin dar sanayi sitesi sokaklarında dar şaseli akülü eklemliler cephe-tabela işlerini üstlenir, Tuzla'nın tersane sahalarında dizel eklemliler gemi bordasının eğrisel yüzeylerine sepeti paralel konumlandırır, Gebze kuşağının depo ve fabrika hollerinde ise raf-vinç yolu gibi sabit engellerin üzerinden erişim sağlar. Hangi hub'dan hangi eklemli sınıfın (akülü mü dizel mi, dar şaseli mi geniş erişimli mi) gönderileceği, işin geçtiği engel tipine ve iç-dış mekân ayrımına göre belirlenir; üç hub'ın parkı bu çeşitliliği farklı ağırlıklarla taşır.",
+        maddeler: [
+            {
+                baslik: "Eklemli bomun kırılımlı erişim avantajı",
+                metin:
+                    "Düz teleskopik bom, hedefe doğrudan çizgisel erişir; eklemli bom ise dirsek noktalarından kırılarak bir engelin üzerinden aşabilir veya altından dolaşabilir. Bu, sabit engellerin (merdiven boşluğu, korkuluk, boru hattı, çıkma cephe elemanı) bulunduğu sahalarda düz bomun giremediği noktalara ulaşmayı sağlar. Karar, işin geçtiği güzergâhın düz mü kırılımlı mı erişim gerektirdiğine bakılarak keşifte verilir.",
+            },
+            {
+                baslik: "İkitelli'de site içi tabela-cephe dar şaseli eklemli",
+                metin:
+                    "Sanayi sitesi sokaklarının darlığı, geniş şasili dizel eklemliye yer bırakmaz; dar şaseli akülü modeller burada standarttır. Tabela montajı, cephe kontrolü ve elektrik-aydınlatma işleri, sokak genişliğine göre seçilen bu sınıfla yürür; sokağın köşe dönüş yarıçapı, keşifte makine geçmeden önce ölçülür.",
+            },
+            {
+                baslik: "Tuzla'da tersane borda ve eğrisel yüzey erişimi",
+                metin:
+                    "Gemi bordasının kıç ve baş formları eğrisel yüzeyler üretir ve bu yüzeylerde eklemli bomun kırılımı, sepeti yüzeye paralel konumlandırmayı kolaylaştırır — düz teleskopik bom, eğrisel formda sepeti istenen açıda tutamaz. Raspa-boya, kaynak kontrol ve donatım işlerinde eklemli sınıf, tersanenin standart tercihidir; rüzgâr ölçümü kıyı sahasında her işte yapılır.",
+            },
+            {
+                baslik: "Gebze kuşağında depo-fabrika holü içi ve dış saha eklemli",
+                metin:
+                    "Lojistik depo ve üretim tesislerinin iç hacimlerinde raf sistemleri ve vinç yolları gibi sabit engeller bulunur; akülü eklemli bu engellerin üzerinden veya arasından erişim sağlar. Dış saha işlerinde (çatı, cephe, dış aydınlatma) ise dizel eklemli tercih edilir. Hangi güç tipinin seçileceği, işin iç mi dış mekânda olduğuna ve emisyon kısıtına göre belirlenir.",
+            },
+            {
+                baslik: "Hub kapasite dengesi ve komşu hub desteği",
+                metin:
+                    "Eklemli platform, üç hub'ın da parkında bulunan yaygın bir sınıftır ama talep yoğunluğu bölgeye göre dalgalanır — örneğin Tuzla'da tersane teslim dönemlerinde talep tepe yapar. Bir hub'ın parkı yetersiz kaldığında komşu hub'dan kısa sürede model kayması yapılır; bu, üç hub'lı yapının tek depoya göre sağladığı esnekliktir ve süre farkı talep alınırken bildirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, iş tipi ve eklemli sınıf tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub'ın tipik eklemli platform kullanım senaryolarını ve güç tipi tercihini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Tipik iş", "Sınıf", "Güç tipi tercihi"],
+                    satirlar: [
+                        ["İkitelli", "Site içi tabela-cephe", "Dar şaseli eklemli", "Akülü"],
+                        ["Tuzla", "Tersane borda erişimi", "Uzun erişimli eklemli", "Dizel"],
+                        ["Gebze", "Depo/fabrika holü içi", "Kompakt eklemli", "Akülü"],
+                        ["Gebze", "Dış saha çatı-cephe", "Standart eklemli", "Dizel"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dizel ve akülü eklemli arasındaki seçim mantığı",
+                paragraflar: [
+                    "İç mekânda emisyon ve gürültü kısıtı akülü sınıfı zorunlu kılar; dış sahada ise akü kapasitesinin sınırlı çalışma süresi ve dizelin daha yüksek tork-erişim kombinasyonu, seçimi dizel yönüne çevirebilir. Karma işlerde (hem iç hem dış mekân geçişi olan büyük tesisler) her iki tip aynı projede farklı evrelerde kullanılabilir; bu geçiş, keşifte önceden planlanır.",
+                ],
+            },
+            {
+                baslik: "Bom açı ve erişim planlama disiplini",
+                paragraflar: [
+                    "Eklemli bomun kırılım noktaları, keşifte üç boyutlu olarak düşünülür — yatay uzanım, dikey kot ve dönüş açısı birlikte hesaplanır. Dar dokuda bom ucunun salınım payı, açık sahadakinden daha sıkı planlanır; komşu yapı veya makinelere temas riski, çalışma öncesi bariyer ve yönlendirmeyle önlenir. Tersane gibi vinç trafiğinin yoğun olduğu sahalarda bom hareketleri, saha vinç planıyla koordineli yürütülür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli mi teleskopik mi seçmeliyiz, aramızdaki fark ne?",
+                cevap:
+                    "Fark erişim geometrisinde: teleskopik bom düz ve uzun bir çizgide hedefe gider, eklemli bom ise dirsek noktalarından kırılarak bir engelin üzerinden veya yanından dolaşabilir. Hedefe engelsiz düz erişim varsa teleskopik daha hızlıdır; hedefle aranızda korkuluk, boru hattı veya eğrisel yüzey gibi bir engel varsa eklemli gereklidir. Keşifte güzergâh üzerindeki engeller değerlendirilip doğru sınıf önerilir.",
+            },
+            {
+                soru: "Site sokağımız dar, geniş şasili eklemli sığar mı?",
+                cevap:
+                    "Sığmayabilir — bu yüzden dar dokuda dar şaseli akülü eklemli sınıf tercih edilir. Sokak genişliği ve köşe dönüş yarıçapı keşifte ölçülür; hiçbir model geçemiyorsa alternatif erişim yöntemi (sokak ağzından uzun bomlu makine veya kademeli çalışma) dürüstçe sunulur. 'Sığar herhalde' varsayımıyla makine gönderilmez, ölçü önceden doğrulanır.",
+            },
+            {
+                soru: "Tersanede gemi bordasında hangi eklemli doğru?",
+                cevap:
+                    "Borda formuna göre değişir: düz yüksek kesimlerde uzun erişimli dizel eklemli hızlı sonuç verir, kıç-baş formlarının eğrisel yüzeylerinde ise kırılım noktası daha fazla olan modeller sepeti yüzeye paralel tutmayı kolaylaştırır. Çoğu iş her ikisinin birlikte kullanılmasıyla tamamlanır. Rüzgâr ölçümü, kıyı sahasında her işte standart adımdır.",
+            },
+            {
+                soru: "Depomuzda raf sistemi çok yüksek, eklemli buraya girebilir mi?",
+                cevap:
+                    "Koridor genişliği ve raf yüksekliği birlikte değerlendirilir; kompakt akülü eklemli modeller dar koridorlarda çalışabilecek şekilde seçilir. Raf üstü işlerde rafın kendi yüksekliği hesaba katılır ve makine, koridor arasına güvenle girecek şase genişliğiyle belirlenir. Operasyon sürerken çalışılacaksa koridor bazlı kapama planı yapılır.",
+            },
+            {
+                soru: "Dış saha çatı işimiz var ama emisyon kısıtımız yok, dizel mi akülü mü daha uygun?",
+                cevap:
+                    "Dış sahada ve emisyon kısıtı yoksa dizel genelde daha verimlidir çünkü akü kapasitesi sınırı olmadan uzun ve sürekli çalışma sağlar, ayrıca daha yüksek tork sunar. Akülü tercih edilecekse gün içi şarj molası planlanmalıdır. İşin süresi ve günlük çalışma temposu paylaşılırsa, doğru güç tipi keşifte netleştirilir.",
+            },
+            {
+                soru: "Bölgemizde eklemli platform yoksa nasıl gönderiyorsunuz?",
+                cevap:
+                    "Önce işin bulunduğu ilçenin birincil hub'ında uygun model kontrol edilir; yoksa komşu hub'dan destek sağlanır. Bu durumda süre farkı, talep alınırken açıkça bildirilir — sahaya araç çıkmadan önce netleşir. Talep yoğunluğunun dalgalandığı dönemlerde (örneğin tersane teslim haftalarında) bu destek mekanizması sık kullanılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun kırılımlı erişim özelliği ve dizel-akülü ayrımı kamuya açık teknik bilgidir; hub-sınıf eşleşmesi firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekan Depo Platformu Kiralama — Hub Depolarının Kendi İşleri",
+        giris:
+            "Üç hub'ımızın her biri kendi bölgesindeki depo yapılarına hizmet verirken, o depoların kendi iç işleri de düzenli bir talep kalemidir — raf montajı, aydınlatma yenileme, sprinkler hattı bakımı, sensör-kamera kurulumu gibi kalemler, İkitelli'nin sanayi sitesi atölyelerinden Tuzla'nın ihtisas OSB depolarına, Gebze kuşağının büyük lojistik dağıtım merkezlerine kadar benzer bir mantıkla ama farklı ölçekte tekrarlanır. İç mekân depo işinin ortak paydası, çalışma sırasında operasyonun tamamen durdurulamamasıdır — depo genelde kısmen veya tamamen aktif kalırken makine, koridor bazlı bir plan içinde ilerler. Akülü güç tipi ve iz bırakmayan lastik, üç hub'ın da depo işlerinde standart tercihtir; farklılaşan nokta, depo ölçeğine ve operasyon yoğunluğuna göre çalışma penceresinin nasıl kurulduğudur.",
+        maddeler: [
+            {
+                baslik: "Akülü zorunluluğu — emisyon ve gürültü",
+                metin:
+                    "Kapalı depo hacminde dizel makinenin egzoz emisyonu havalandırma sistemine yük bindirir ve çoğu tesiste kapalı alanda dizel kullanımı zaten yasaktır; akülü platform bu yüzden iç mekân depo işlerinin standart seçimidir. Akülü modelin sessiz çalışması, operasyon devam ederken yapılan işlerde ayrı bir avantaj sağlar — gürültü, komşu koridordaki çalışanları rahatsız etmez.",
+            },
+            {
+                baslik: "İz bırakmayan lastik ve zemin koruma",
+                metin:
+                    "Depo zeminleri çoğunlukla epoksi veya perdahlı betondur ve standart siyah lastik bu yüzeylerde iz bırakır; iz bırakmayan (beyaz dolgu) lastikli modeller bu yüzden depo işlerinde tercih edilir. Yükleme rampası çevresindeki kot farkları ve çukur önleme sistemi, keşifte ayrıca kontrol edilir; hassas zeminlerde ek koruma önlemi de uygulanabilir.",
+            },
+            {
+                baslik: "Operasyon kesintisiz depo — gece ve düşük tempo pencere planı",
+                metin:
+                    "7/24 çalışan lojistik depolarda tüm operasyonu durdurmak mümkün değildir; bu yüzden iş, operasyonun en düşük tempolu saatlerine (genelde gece veya sabah erken) yazılır ve yalnızca çalışılan koridor geçici olarak kapatılır. Komşu koridorlar akmaya devam eder ve her koridor bittiğinde anında operasyona iade edilir. Bu koridor bazlı sıra planı, depo yönetimiyle önceden netleştirilir.",
+            },
+            {
+                baslik: "Koridor ve dar geçit ölçü uyumu",
+                metin:
+                    "Modern depo koridorları, forklift ve reach truck trafiğine göre dar tutulmuş olabilir; platform seçiminde şase genişliği bu koridor ölçüsüyle karşılaştırılır. Raf üstü işlerde rafın kendi yüksekliği de hesaba katılır — sepetin hedefin biraz altında kaldığı unutulmamalı, çalışma yüksekliği hedef kotun üzerinde seçilir.",
+            },
+            {
+                baslik: "Hub'a göre depo tipi farkı",
+                metin:
+                    "İkitelli'deki depo işleri genelde sanayi sitesi atölyelerinin küçük ölçekli iç mekân kalemleridir; Tuzla'daki ihtisas OSB depolarında sektöre özgü koşullar (kimya, deri, mermer) devreye girer; Gebze kuşağındaki büyük lojistik dağıtım merkezlerinde ise yüksek raf ve geniş koridor ölçeğinde işler görülür. Her hub, kendi bölgesindeki bu ölçek farkına uygun makine karmasını tutar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, depo tipi ve tipik iş tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub'ın bölgesindeki tipik depo işlerini ve ekipman tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Depo tipi", "Tipik iş", "Ekipman"],
+                    satirlar: [
+                        ["İkitelli", "Sanayi sitesi atölye deposu", "Raf-aydınlatma küçük ölçek", "Akülü makaslı"],
+                        ["Tuzla", "İhtisas OSB deposu", "Sektöre özgü koşullu işler", "Akülü makaslı/eklemli"],
+                        ["Gebze", "Lojistik dağıtım merkezi", "Yüksek raf-geniş koridor", "Akülü makaslı, dar şaseli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gece ve düşük tempo pencere planlaması",
+                paragraflar: [
+                    "Büyük depolarda aydınlatma veya sprinkler yenileme gibi kapsamlı işler, tek seferde değil haftalık gece pencerelerine bölünerek yürütülür — her gece bir veya birkaç koridor alınır, operasyonun geri kalanı etkilenmez. WMS-vardiya yöneticisiyle kurulan sıra planı, hangi koridorun hangi gece işleneceğini önceden netleştirir; bu model, büyük ölçekli işlerde operasyon kaybını sıfıra indirir.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli iç mekân işlerinde tur ekonomisi",
+                paragraflar: [
+                    "Küçük ölçekli depo işleri (birkaç saatlik sensör montajı, kısa bir aydınlatma kontrolü) tek başına pahalıdır; aynı hub bölgesindeki başka depo taleplerine dizildiğinde nakliye maliyeti paylaşılır. Tarih esnekliği olan talepler bu ekonomiden yararlanır; sabit tarihli acil işlerde tekil sevkiyat maliyeti teklifte açıkça belirtilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuz 7/24 çalışıyor, işi durdurmadan nasıl yapılır?",
+                cevap:
+                    "Koridor bazlı kapama planıyla: tüm depo durmaz, yalnızca çalışılan koridor geçici kapatılır ve operasyon komşu koridorlardan akmaya devam eder. İş, operasyonun en düşük tempolu saatlerine yazılır, akülü makine sessiz çalışır ve her koridor bittiğinde anında operasyona iade edilir. Sıra planı, depo yönetiminizle haftalık netleştirilir.",
+            },
+            {
+                soru: "Zeminimiz epoksi kaplı, platform iz bırakır mı?",
+                cevap:
+                    "Standart siyah lastikli makine iz bırakabilir; bu yüzden depo işlerinde iz bırakmayan beyaz dolgu lastikli modeller kullanılır. Bu, keşifte önceden planlanan bir tercihtir, sonradan fark edilen bir sorun değildir. Hassas zeminlerde ek koruma önlemi de değerlendirilebilir.",
+            },
+            {
+                soru: "Koridorlarımız çok dar, standart makaslı sığar mı?",
+                cevap:
+                    "Koridor genişliği keşifte önceden ölçülür ve şase genişliği bu ölçüyle karşılaştırılır; dar koridorlarda daha ince şaseli modeller tercih edilir. Raf üstü işlerde rafın kendi yüksekliği de hesaba katılır. Sığmama riski varsa, sahaya makine gitmeden alternatif model önerisiyle netleştirilir.",
+            },
+            {
+                soru: "Gece vardiyasında operatör bulabiliyor musunuz?",
+                cevap:
+                    "Evet, gece pencereli depo işleri düzenli talep ettiğimiz bir kalemdir ve operatör planı buna göre kurulur; vardiya saatleri önceden netleştirilir. Uzun süreli gece işlerinde akü kapasitesi de vardiya süresine göre planlanır, gerekirse vardiya ortası şarj molası eklenir.",
+            },
+            {
+                soru: "Depomuz İkitelli'de küçük ölçekli, Gebze'deki büyük depolarla aynı fiyattan mı kiralıyoruz?",
+                cevap:
+                    "Hayır — fiyat, makine sınıfı ve iş süresine göre değişir, depo ölçeğinin kendisi doğrudan fiyat belirleyici değildir ama küçük ölçekli işler genelde daha kısa sürede biter ve tur ekonomisinden daha kolay yararlanır. Hangi hub'dan hizmet aldığınız fark etmeksizin, teklif işin kendi kapsamına göre hazırlanır.",
+            },
+            {
+                soru: "Sadece birkaç saatlik bir sensör montajı işimiz var, ekonomik mi?",
+                cevap:
+                    "Hub bölgenizde aynı güne dizilebilecek başka bir depo talebi varsa evet — kısa işler bölge turlarına yerleştirilerek nakliye paylaşılır. Tarih esnekliğiniz varsa ilk uygun tura yerleştirilirsiniz; sabit tarihli acil işlerde tekil sevkiyat maliyeti teklifte açıkça görünür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo işlerinde akülü-iz bırakmayan lastik standardı ve koridor bazlı çalışma yöntemi kamuya açık endüstri pratiğidir; hub-depo tipi eşleşmesi firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montaj Platformu — İstanbul Geneli Sevkiyat",
+        giris:
+            "Çelik konstrüksiyon montajı, İstanbul'un her köşesinde farklı ölçekte sürer — yeni depo hollerinin çatı-cephe kaplaması, fabrika hat genişletmelerinin taşıyıcı sistemleri, sanayi sitelerindeki küçük ek yapılar. Bu işlerin ortak özelliği, montaj süresince yüksek erişimli platformun kaldırma vinciyle birlikte senkron çalışmasıdır: vinç profili yerine indirirken, platform bağlantı ve hizalama işini yürütür. Üç hub'ımız, İstanbul genelindeki şantiyelere bu ihtiyacı coğrafi olarak en yakın noktadan karşılar — büyük ölçekli bir projede tek hub'ın parkı yetmezse, birden fazla hub'dan eşzamanlı makine desteği sağlanır. Şantiyenin bulunduğu bölge ne olursa olsun, montaj disiplini aynı kalır: saha zemini önceden değerlendirilir, evre geçişleri (kaba yapıdan ince işe) planlanır ve proje süresince blok kiralama, günlük kiralamaya göre daha ekonomik sonuç verir.",
+        maddeler: [
+            {
+                baslik: "Kaba yapı evresinde dizel eklemli ve teleskopik ihtiyaç",
+                metin:
+                    "Kaba yapı evresinde çelik profillerin yükseğe montajı, uzun erişimli dizel eklemli ve teleskopik platformlarla yürür. Bu evrede saha henüz düzensiz ve stabilize edilmemiş olabilir; arazi tipi şasi ve dolgu lastik, bu yüzden kaba yapı platformlarının standart özelliğidir. Kiriş-aşık bağlantılarında iki makine eş zamanlı çalışarak montaj hızını artırır.",
+            },
+            {
+                baslik: "İstanbul genelinde şantiye dağılımı ve hub ataması",
+                metin:
+                    "Bir şantiye, coğrafi konumuna göre en yakın hub'a atanır — Avrupa yakasındaki bir şantiye İkitelli hub'ından, Anadolu yakasının güneyindeki bir şantiye Tuzla hub'ından, doğusundaki bir şantiye Gebze hub'ından beslenir. Bu atama, sevkiyat süresini kısaltmanın yanı sıra, şantiyenin proje süresi boyunca aynı hub'dan düzenli tedarik almasını sağlar — makine değişse bile lojistik güzergâh aynı kalır.",
+            },
+            {
+                baslik: "Büyük projelerde çoklu hub desteği",
+                metin:
+                    "Büyük ölçekli bir çelik montaj projesi, tek hub'ın günlük park kapasitesini aşabilir; bu durumda birincil hub'a en yakın komşu hub'lardan eşzamanlı makine desteği sağlanır. Proje yöneticisiyle önceden paylaşılan montaj takvimi, hangi haftada kaç makinenin gerekeceğini netleştirir ve bu bilgi, hub'lar arası kapasite planlamasının temelini oluşturur.",
+            },
+            {
+                baslik: "Saha zemini ve stabilize yol koşulları",
+                metin:
+                    "Şantiye sahaları, tamamlanmış yapılara göre daha değişken zemin koşulları sunar — stabilize edilmemiş toprak, geçici dolgu, ıslak mevsimde çamurlaşan alanlar. Yüksek kot çalışmasında makinenin duruş noktası bu koşullara göre keşifte belirlenir; şüpheli zeminde çalışma başlatılmaz, gerekirse yük dağıtım plakası kullanılır.",
+            },
+            {
+                baslik: "Proje süresince blok kiralama ve evre geçişleri",
+                metin:
+                    "Çelik konstrüksiyon projeleri genelde haftalar-aylar süren süreçlerdir ve proje süresince tek bir çerçeve sözleşmeyle blok kiralama, günlük kiralamaya göre belirgin ucuzdur. Evre geçişlerinde (kaba yapıdan ince işe, dizel sınıftan akülü sınıfa) makine karması değişir; bu geçiş, proje takvimine göre önceden planlanır ve sahada boşta bekleyen makine olmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj evresi ve ekipman tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, çelik konstrüksiyon projesinin tipik evrelerini ve her evrenin ekipman ağırlığını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Evre", "Ana ekipman", "Saha koşulu", "Not"],
+                    satirlar: [
+                        ["Temel-kaba yapı", "Dizel teleskopik/eklemli", "Stabilize edilmemiş saha", "Vinç trafiğiyle koordineli"],
+                        ["Çelik iskelet montajı", "İki eklemli senkron", "Ağır makine trafiği", "Kiriş-aşık bağlantı hızı"],
+                        ["Panel-çatı kaplama", "Dizel eklemli", "Yükseklik ağırlıklı", "Rüzgâr penceresi kontrolü"],
+                        ["İnce iş-cephe", "Makaslı", "Düzelmiş zemin", "Cephe iskele planıyla uyum"],
+                        ["Teslim öncesi kontrol", "Akülü makaslı", "İç mekân", "İz bırakmayan lastik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şantiyeler arası makine kaydırma",
+                paragraflar: [
+                    "Bir şantiyede proje bir evreyi tamamladığında, o evrenin makinesi genelde aynı hub bölgesindeki başka bir şantiyeye kaydırılır — bu, hub'ların kendi bölgesindeki proje takvimlerini birlikte izlemesiyle mümkün olur. Proje yöneticisinin evre bitiş tarihini önceden bildirmesi, bu kaydırmanın sorunsuz yürümesini sağlar ve makinenin boşta bekleme süresini azaltır.",
+                ],
+            },
+            {
+                baslik: "İSG ve montaj güvenliği — senkron çalışma disiplini",
+                paragraflar: [
+                    "Çelik montajda iki makinenin eş zamanlı çalıştığı durumlarda, bom hareketleri birbirine ve vinç trafiğine göre koordineli planlanır; çakışma riski taşıyan hareket önceden belirlenir ve iletişim protokolü (telsiz, işaret) kurulur. Operatör brifingi, sahanın kendi vinç ve malzeme akış düzenini içerir; yük tablosu dışı kaldırma hiçbir gerekçeyle kabul edilmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şantiyemiz büyük, aynı anda kaç makine gerekir?",
+                cevap:
+                    "Tipik çelik montaj düzeni iki yüksek erişimli eklemli ile kurulur — kiriş-aşık bağlantılarında iki nokta eş zamanlı tutulur ve montaj hızı belirgin artar; panel-kaplama evresinde de aynı çift cephe hattında senkron ilerler. Saha beslemesi için üçüncü ekipman olarak telehandler eklenebilir. Kesin sayı yapı ölçüsü ve montaj programınıza bağlıdır; proje çiziminizle keşif bu sayıyı netleştirir.",
+            },
+            {
+                soru: "Şantiyemiz hangi hub'dan hizmet alacak, biz mi seçeceğiz?",
+                cevap:
+                    "Şantiyenizin bulunduğu ilçenin coğrafi konumu, birincil hub'ı otomatik belirler — bu genelde en kısa sevkiyat süresini verir. Büyük projelerde ihtiyaç birincil hub'ın kapasitesini aşarsa, komşu hub'lardan eşzamanlı destek eklenir; bu durum proje takviminize göre önceden planlanır, siz talep edildiğinde bilgilendirilirsiniz.",
+            },
+            {
+                soru: "Saha zeminimiz henüz stabilize edilmedi, makine oraya girebilir mi?",
+                cevap:
+                    "Girer ama zemin durumu önceden değerlendirilir — arazi tipi şasi ve dolgu lastikli modeller, stabilize edilmemiş sahalarda standart tercihtir. Şüpheli zeminde (yumuşak dolgu, ıslak alan) çalışma başlatılmaz; gerekirse yük dağıtım plakası kullanılır veya makinenin duruş noktası değiştirilir. Saha fotoğrafı keşif öncesi paylaşılırsa değerlendirme hızlanır.",
+            },
+            {
+                soru: "Projemiz üç ay sürecek, günlük mü yoksa blok mu kiralamalıyız?",
+                cevap:
+                    "Proje süresince blok kiralama, günlük kiralamaya göre belirgin ucuzdur ve evre geçişlerinde makine karmasının önceden planlanmasını sağlar. Çerçeve sözleşme kurulduğunda, kaba yapıdan ince işe geçişte makine tipi değişir ama sözleşme aynı kalır. Proje takviminizi paylaşırsanız evre bazlı bir plan ve fiyat teklifiyle döneriz.",
+            },
+            {
+                soru: "İki makinenin aynı anda çalışması güvenlik riski yaratır mı?",
+                cevap:
+                    "Doğru planlamayla artmaz — senkron çalışan iki makinenin bom hareketleri önceden koordine edilir, çakışma riski taşıyan noktalar belirlenir ve operatörler arası iletişim protokolü kurulur. Vinç trafiğinin de sahada olduğu durumlarda, üçlü koordinasyon (iki platform + vinç) saha yöneticisiyle birlikte planlanır. Bu koordinasyon, montaj hızını artıran değil, güvenliği koruyan bir adımdır.",
+            },
+            {
+                soru: "Şantiyemiz İstanbul'un uzak bir ilçesinde, yine de hizmet alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz — üç hub'lı yapı İstanbul genelini kapsar, ancak uzak ilçelerde taban sevkiyat süresi kent merkezine göre daha uzun olabilir ve bu, teklif aşamasında açıkça belirtilir. Şantiyenizin konumuna en yakın hub belirlenir ve proje süresince düzenli sevkiyat bu hub üzerinden yürür; uzaklık, hizmeti imkânsız kılmaz, yalnızca süre beklentisini gerçekçi kılar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj evrelerinin genel iş akışı (kaba yapı-panel-ince iş) kamuya açık inşaat pratiğidir; hub atama ve çoklu hub desteği firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Yapılarında Platform Kiralama",
+        giris:
+            "Dürüst bir açıklamayla başlamak gerekir: İstanbul, ağırlıklı olarak sanayi ve kentsel bir dokuya sahiptir ve tarımsal üretim veya silo yapıları, ağdaki hizmetlerimizin ana odağı değildir. Buna rağmen, Çatalca ve Arnavutköy gibi şehrin kırsal-yarı kırsal karakterini koruyan ilçelerinde tarımsal depo, ambar ve sınırlı sayıda silo yapısı bulunur ve bu yapıların çatı, cephe veya dış bakım işleri zaman zaman platform ihtiyacı doğurur. Bu talepler, ana iş hacmimizin çok küçük bir kesimini oluşturur; bu yüzden burada büyük bir tarım-silo filosu veya özel bir uzmanlık iddiasında bulunmuyoruz. Coğrafi olarak bu ilçelere en yakın hub İkitelli olduğu için, sevkiyat oradan yapılır ve süre beklentisi, kırsal erişim yollarının kentsel bölgelere göre daha uzun sürebileceği gerçeğiyle birlikte açıkça konuşulur.",
+        maddeler: [
+            {
+                baslik: "Silo ve ambar dış cephe-bakım işleri",
+                metin:
+                    "Tarımsal depo ve silo yapılarının dış cephe kontrolü, boya yenileme veya çatı bakımı gibi işleri, standart dizel eklemli veya teleskopik platformla yürütülür. Bu yapılar genelde tekil ve dağınık konumlu olduğu için, iş çoğu zaman tek başına planlanır; bölge turlarına dizilme fırsatı, sanayi sitesi yoğunluğundaki kadar sık çıkmaz.",
+            },
+            {
+                baslik: "Tarımsal ambar çatı işleri",
+                metin:
+                    "Ambar yapılarının çatı kaplaması, tesisat veya aydınlatma işleri, yapının yüksekliğine göre makaslı veya eklemli sınıfla yapılır. Bu yapılar genelde açık ve engebeli arazide bulunduğu için zemin durumu önceden değerlendirilir; standart makine geçemiyorsa arazi tipi model önerilir.",
+            },
+            {
+                baslik: "Kırsal erişim yolu zorluğu",
+                metin:
+                    "Çatalca ve Arnavutköy'ün kırsal kesimlerinde erişim yolları toprak veya stabilize olabilir ve mevsime göre (özellikle yağmur sonrası) geçilebilirliği değişir. Bu durum keşifte özellikle sorulur; standart makine geçemeyecekse arazi tipi lastikli alternatif değerlendirilir. Bu bilgiyi talep sırasında paylaşmak, doğru makinenin ilk seferde gönderilmesini sağlar.",
+            },
+            {
+                baslik: "Mevsimsel talep — hasat sonrası bakım dönemleri",
+                metin:
+                    "Tarımsal yapılardaki bakım talebi, hasat sonrası dönemlerde bir miktar yoğunlaşabilir; bu dönem dışında talep düzensiz ve seyrektir. Düzenli bir tur programı kurmak için yeterli hacim oluşmadığından, bu tip işler genelde tekil sevkiyatla planlanır ve tarih esnekliği fiyatı çok değiştirmez.",
+            },
+            {
+                baslik: "İkitelli hub'ının bu ilçelere en yakın kaynak olması",
+                metin:
+                    "Üç hub içinde İkitelli, coğrafi olarak Çatalca ve Arnavutköy'e en yakın olanıdır; bu yüzden tarımsal yapı talepleri normal koşulda buradan karşılanır. Tuzla veya Gebze hub'ından sevkiyat, yalnızca İkitelli parkının o gün yetersiz kaldığı istisnai durumlarda ve ek süre farkı açıkça bildirilerek gündeme gelir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İlçe, iş tipi ve ekipman tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, tarımsal-kırsal dokunun görüldüğü ilçelerdeki tipik işleri ve ekipman tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İlçe", "Tipik yapı", "Ekipman", "Erişim notu"],
+                    satirlar: [
+                        ["Çatalca", "Tarımsal ambar-depo", "Dizel eklemli/makaslı", "Kırsal yol, mevsimsel değişken"],
+                        ["Arnavutköy", "Silo-ambar dış cephe", "Dizel eklemli", "Yarı kırsal, kısmen stabilize"],
+                        ["Her ikisi", "Çatı bakım işi", "Yapı yüksekliğine göre", "Zemin engebesi keşifte kontrol"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kırsal yol ve zemin durumunun dürüst değerlendirmesi",
+                paragraflar: [
+                    "Kırsal erişim yollarında zemin durumu, kentsel sanayi sitesine göre çok daha değişkendir; aynı yol kuru mevsimde sorunsuz geçilirken yağmur sonrası çamurlaşabilir. Bu belirsizlik, keşifte açıkça konuşulur ve mümkünse güncel fotoğraf istenir. Geçilemeyecek durumda olan bir yol için, dürüst cevap 'gidemeyiz' veya 'alternatif erişim gerekir' olabilir; bu durum saklanmaz.",
+                ],
+            },
+            {
+                baslik: "Ağdaki yerimizin dürüst tanımı",
+                paragraflar: [
+                    "Bu ağın ana uzmanlığı İstanbul'un sanayi ve kentsel dokusundaki platform-forklift kiralamasıdır; tarım ve silo yapıları, coğrafi kapsam alanımıza giren ama hacim olarak küçük bir kesimdir. Bu işleri de aynı hub disipliniyle (keşif, süre dürüstlüğü, doğru ekipman seçimi) ele alırız, ancak bu alanda özel bir tarım ekipmanı filomuz veya sektöre özgü ek uzmanlığımız olduğunu iddia etmeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tarım yapılarına gerçekten hizmet veriyor musunuz, yoksa nadiren mi oluyor?",
+                cevap:
+                    "Nadiren oluyor ve bunu saklamıyoruz — ağımızın ana odağı İstanbul'un sanayi-kentsel dokusudur, tarımsal-silo talepleri Çatalca ve Arnavutköy gibi ilçelerde zaman zaman ortaya çıkan küçük bir kesimdir. Talep geldiğinde aynı ciddiyetle karşılanır ve İkitelli hub'ından sevkiyat yapılır, ancak bu alanda büyük bir hacim veya özel filo iddiasında bulunmuyoruz.",
+            },
+            {
+                soru: "Silomuzun çevresindeki toprak yol makineyi taşır mı?",
+                cevap:
+                    "Bu, keşifte fotoğraf ve tarifle önceden değerlendirilmesi gereken bir sorudur — toprak yolun genişliği, sertliği ve mevsimsel durumu (özellikle son yağmurdan sonraki hâli) birlikte değerlendirilir. Standart makine geçemeyecekse arazi tipi lastikli alternatif önerilir; hiçbir konfigürasyon geçemiyorsa bu dürüstçe söylenir ve alternatif erişim yöntemi konuşulur.",
+            },
+            {
+                soru: "Hasat sonrası dönemde talep yoğunlaşıyor mu, o zaman makine bulmak zorlaşır mı?",
+                cevap:
+                    "Hasat sonrası dönemde tarımsal bakım talebi bir miktar artabilir ama bu, ağımızın genel iş hacmine göre küçük kalır; İkitelli hub'ının parkı bu talebi genelde rahatça karşılar. Yine de yoğun bir döneme denk geliyorsanız, tarihinizi mümkün olduğunca önceden bildirmeniz, uygun makinenin rezerve edilmesini kolaylaştırır.",
+            },
+            {
+                soru: "Neden İkitelli'den geliyor, bize daha yakın bir hub yok mu?",
+                cevap:
+                    "Çatalca ve Arnavutköy, İstanbul'un batısında yer aldığı için üç hub içinde coğrafi olarak en yakın olanı İkitelli'dir; Tuzla ve Gebze hub'ları Anadolu yakasında olduğu için bu ilçelere hem daha uzak hem boğaz geçişi gerektirir. Bu yüzden standart sevkiyat İkitelli'den yapılır; İkitelli parkı yetersizse istisnai olarak diğer hub'lardan destek alınır ve süre farkı bildirilir.",
+            },
+            {
+                soru: "Fiyatınız sanayi bölgelerindeki işlerden farklı mı?",
+                cevap:
+                    "Temel fiyatlandırma mantığı aynıdır — makine sınıfı ve iş süresine göre belirlenir — ancak tarımsal-kırsal işlerde tur ekonomisinden yararlanma imkânı sanayi sitesi yoğunluğundaki kadar sık çıkmaz, çünkü bu bölgede aynı güne dizilebilecek başka talep bulmak daha zordur. Bu, işin doğasından kaynaklanan bir fark olup gizli bir ek ücret değildir; teklifte açıkça görünür.",
+            },
+            {
+                soru: "Küçük bir silo bakım işi için sizinle çalışmaya değer mi, yoksa çok mu küçük bir iş?",
+                cevap:
+                    "Değer — iş büyüklüğü ne olursa olsun aynı keşif ve süre dürüstlüğü uygulanır. Küçük bir iş için tekil sevkiyat maliyeti, büyük bir işe göre orantılı olarak daha yüksek görünebilir çünkü paylaşacak bir tur bulunmayabilir; bu maliyet teklifte açıkça gösterilir ve karar size bırakılır. Gizli bir minimum ücret politikası veya reddetme eğilimimiz yoktur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstanbul'un ağırlıklı sanayi-kentsel dokusu ve Çatalca-Arnavutköy'ün kırsal karakteri kamuya açık coğrafi bilgidir; bu alandaki sınırlı hacim ve hub tahsisi dürüstçe firma pratiği olarak belirtilmiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji Hattı ve Aydınlatma Bakımı için Platform Kiralama",
+        giris:
+            "Enerji ve aydınlatma bakımı, üç hub'ımızın kapsadığı sanayi bölgelerinin sürekli tekrarlanan bir ihtiyacıdır — OSB sokak aydınlatması, depo çatı-cephe aydınlatması, trafo çevresi bakım işleri ve fabrika içi elektrik hattı kontrolleri, İkitelli'nin sanayi sitelerinden Tuzla'nın ihtisas OSB'lerine, Gebze kuşağının lojistik depolarına kadar benzer bir işçilik gerektirir ama farklı güvenlik koşullarıyla karşımıza çıkar. Enerji hattı yakınında çalışmanın ortak kuralı, güvenlik mesafesinin ve gerilim seviyesinin işe başlamadan önce netleştirilmesidir; bu bilgi olmadan yüksekte enerji hattı yakını çalışma başlatılmaz. Aydınlatma direği bakımı ise genelde çok sayıda direğin aynı sahada bulunması nedeniyle, tek tek değil bölge turu mantığıyla ekonomik hâle gelir — bir OSB'de onlarca direğin yıllık bakımı, tek seferlik değil dönemsel bir program olarak kurgulanır.",
+        maddeler: [
+            {
+                baslik: "OSB sokak aydınlatması",
+                metin:
+                    "Organize sanayi bölgelerinin sokak aydınlatma direkleri, düzenli aralıklarla bakım-değişim gerektirir ve bu iş, tek bir direk için değil bölgedeki tüm direk listesi için planlanır. Dikey akülü platform veya kompakt makaslı, bu işin standart ekipmanıdır; sokak trafiğinin sürdüğü saatlerde çalışma alanı geçici olarak işaretlenir.",
+            },
+            {
+                baslik: "Depo çatı ve dış cephe aydınlatması",
+                metin:
+                    "Lojistik depo ve fabrika yapılarının dış cephe ve çatı altı aydınlatması, bina yüksekliğine göre makaslı veya eklemli sınıfla yapılır. İç mekân işlerinde akülü ve iz bırakmayan lastik standarttır; dış cephe işlerinde ise hava koşulu ve rüzgâr, çalışma penceresini belirler.",
+            },
+            {
+                baslik: "Trafo ve enerji tesisi çevresinde güvenlik mesafesi",
+                metin:
+                    "Trafo merkezi veya yüksek gerilim hattı yakınındaki çalışmalarda güvenlik mesafesi, iş başlamadan önce ilgili kurum veya tesis elektrik sorumlusuyla birlikte netleştirilir. Bu mesafe, makinenin bom veya sepet hareketinin sınırını belirler ve hiçbir gerekçeyle aşılmaz. Enerji kesintisi gerektiren işlerde, kesinti penceresi tesisin operasyon takvimine göre önceden planlanır.",
+            },
+            {
+                baslik: "Gece çalışma pencereleri",
+                metin:
+                    "Sanayi sitesi ve OSB sokak aydınlatması işleri, gündüz trafiğini kesmemek için genelde gece veya sabah erken saatlere yazılır. Depo içi elektrik-aydınlatma işleri ise operasyonun düşük tempolu saatlerine planlanır. Gece işinde akü kapasitesi ve aydınlatma (makinenin kendi çalışma alanı ışıklandırması) planın parçasıdır.",
+            },
+            {
+                baslik: "Hub bazlı tur ekonomisi — çoklu direk bakımı",
+                metin:
+                    "Aynı OSB'de veya sanayi sitesinde çok sayıda direğin bakımı gerekiyorsa, bu iş tek turda birleştirilir — makine gün boyu bölge içinde kısa mesafelerle direkten direğe geçer ve nakliye maliyeti tüm liste üzerine yayılır. Bu model, dönemsel bakım programlarına dönüştürülebilir; site yönetimi veya OSB idaresiyle yıllık bir bakım takvimi kurmak, en ekonomik yaklaşımdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, iş tipi ve güvenlik notu tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub bölgesindeki tipik enerji-aydınlatma işlerini ve dikkat edilmesi gereken güvenlik notunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Tipik iş", "Ekipman", "Güvenlik notu"],
+                    satirlar: [
+                        ["İkitelli", "Site sokak aydınlatması", "Dikey akülü/kompakt makaslı", "Sokak trafiği ayrımı"],
+                        ["Tuzla", "İhtisas OSB enerji hattı", "Tesise göre seçim", "Ex-proof/izin sistemi olabilir"],
+                        ["Gebze", "Depo çatı-cephe aydınlatma", "Makaslı/eklemli", "Yükseklik + hava koşulu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji kesintisi gerektiren işlerin planlanması",
+                paragraflar: [
+                    "Trafo veya ana pano çevresindeki bazı işler, enerji kesintisi gerektirebilir; bu kesinti tesisin operasyon takvimine göre önceden planlanır ve etkilenen alanlar tesis yönetimine bildirilir. Kesinti penceresi genelde en düşük operasyon yoğunluğuna denk gelen saatlere (gece veya hafta sonu) yazılır ve pencere aşılmadan iş toparlanır.",
+                ],
+            },
+            {
+                baslik: "Dönemsel bakım programına geçiş",
+                paragraflar: [
+                    "Tekil çağrılarla yürütülen aydınlatma-enerji bakımı, zamanla dönemsel bir programa dönüştürülebilir: yıllık veya altı aylık bir takvimde, bölgedeki tüm direk ve aydınlatma noktaları tek seferde planlanır. Bu düzen, tesis yönetimi için hem bütçe öngörüsü hem tekil çağrı yorgunluğunu azaltma sağlar; bizim tarafımızda ise hub parkının önceden ayrılmasını mümkün kılar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Trafo yakınında çalışma yapabiliyor musunuz?",
+                cevap:
+                    "Yapabiliriz ama güvenlik mesafesi önce netleştirilir — tesisin elektrik sorumlusuyla birlikte, makinenin bom veya sepet hareketinin sınırı belirlenir ve bu sınır çalışma boyunca aşılmaz. Gerekirse enerji kesintisi tesisin operasyon takvimine göre önceden planlanır. Bu tip işlerde keşif, standart bir platform işinden daha detaylı yürütülür.",
+            },
+            {
+                soru: "OSB'mizde onlarca aydınlatma direği var, hepsini tek tek mi çağırmalıyız?",
+                cevap:
+                    "Hayır, tam tersi önerilir — direk listesi tek seferde planlanır ve makine gün boyu bölge içinde direkten direğe geçerek tüm listeyi bitirir, nakliye maliyeti liste üzerine yayılır. Bu model dönemsel bir bakım programına da dönüştürülebilir; OSB idaresiyle yıllık takvim kurmak, tekrarlayan tekil çağrılardan belirgin ucuzdur.",
+            },
+            {
+                soru: "Gece çalışma zorunlu mu, gündüz yapılamaz mı?",
+                cevap:
+                    "Gündüz de yapılabilir ama sokak trafiğinin yoğun olduğu OSB ve sanayi sitesi aksında gece veya sabah erken saatler tercih edilir çünkü hem çalışma alanı ayrımı daha kolay kurulur hem trafik kesintiye uğramaz. Depo içi işlerde ise operasyonun düşük tempolu saatleri esas alınır. Tercihiniz varsa keşifte konuşulur ve mümkünse plan buna göre kurulur.",
+            },
+            {
+                soru: "Kimya tesisimizde patlayıcı ortam riski var, standart makine kullanılabilir mi?",
+                cevap:
+                    "Kullanılamaz — patlayıcı ortam sınıflı bölümlerde standart elektrikli/akülü makine yerine tesisin izin sistemine uygun ekipman gerekir; bu bölgeler keşifte netleştirilir ve iş, tesisin emniyet birimiyle ortak planlanır. Bu tip işlerde operatör de tesisin izin prosedürüne (sıcak çalışma, kapalı alan) tanımlanır.",
+            },
+            {
+                soru: "Enerji kesintisi gerektiren bir işimiz var, üretimimizi ne kadar etkiler?",
+                cevap:
+                    "Kesinti penceresi, sizin operasyon takviminize göre planlanır — genelde en düşük yoğunluklu saatler (gece veya hafta sonu) tercih edilir ve pencere aşılmadan iş toparlanır. Kesinti süresi ve etkilenecek alanlar önceden netleştirilir; iş sırasında beklenmedik bir uzama olursa bu durum anında bildirilir, sessizce uzatılmaz.",
+            },
+            {
+                soru: "Yıllık bir bakım programı kurmak istiyoruz, nasıl başlarız?",
+                cevap:
+                    "Bölgenizdeki aydınlatma ve enerji bakım noktalarının kaba bir listesiyle başlanır — kaç direk, kaç panel, hangi sıklıkla bakım isteniyor. Bu bilgiyle yıllık veya altı aylık bir takvim önerisi hazırlanır ve hub parkı bu takvime göre önceden ayrılır. Program kurulduktan sonra her dönem tek bildirimle işler; ilk kurulum bir kez emek ister, sonrası akar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Enerji hattı yakınında güvenlik mesafesi ve izin sistemi gerekliliği kamuya açık İSG pratiğidir; bölge turu ve dönemsel bakım programı firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü Platform Kiralama — Hub Bazlı Operatör Tahsisi",
+        giris:
+            "Operatörlü kiralamada makinenin kendisi kadar, o makineyi kullanacak operatörün sahaya aşinalığı da işin hızını belirler; üç hub'lı yapımızın operatörlü hizmette getirdiği fark de tam olarak buradadır — her hub, kendi bölgesinde düzenli çalışan bir operatör kadrosuna sahiptir ve bu operatörler, İkitelli'nin sanayi sitesi dar sokaklarını, Tuzla'nın tersane-OSB güvenlik prosedürlerini veya Gebze kuşağının depo giriş-çıkış düzenlerini tekrar tekrar görerek sahaya aşina hâle gelir. Operatörlü mü operatörsüz mü kiralanacağı kararı, işin karmaşıklığına, çalışma süresine ve müşterinin kendi operatör kapasitesine göre verilir; kısa süreli veya teknik açıdan hassas işlerde operatörlü model, sahada zaman kaybını önler. Vardiya ve gece çalışması gereken işlerde operatör planı, hub'ın kendi kadro düzenine göre önceden kurulur.",
+        maddeler: [
+            {
+                baslik: "Operatörlü vs operatörsüz karar mantığı",
+                metin:
+                    "Kısa süreli, teknik açıdan hassas veya sahaya ilk kez giren işlerde operatörlü model önerilir — sahaya aşina bir operatör, keşif bilgisini doğrudan uygulamaya taşır ve zaman kaybını önler. Uzun süreli ve müşterinin kendi eğitimli operatörü olan işlerde operatörsüz kiralama daha ekonomik olabilir. Bu karar, keşifte işin niteliğine göre birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Hub bazlı operatör ataması — yerel bilgi avantajı",
+                metin:
+                    "Bir hub'ın operatörü, o bölgedeki sahaların giriş prosedürlerini, tipik zemin koşullarını ve sık karşılaşılan engelleri (dar sokak, asansör darlığı, güvenlik mesafesi) tekrar tekrar görerek öğrenir. Bu yerel bilgi, ilk kez giden bir operatöre göre saha uyum süresini kısaltır — özellikle Tuzla'nın tersane prosedürleri veya Gebze'nin kurumsal tesis kayıt süreçleri gibi işlem yoğun sahalarda bu fark somut biçimde hissedilir.",
+            },
+            {
+                baslik: "Vardiya ve gece operatör planı",
+                metin:
+                    "Gece pencereli işlerde (depo operasyon boşlukları, sokak aydınlatması) operatör vardiyası önceden kurulur; bu, standart mesai operatöründen farklı bir planlama gerektirir. Uzun gece işlerinde vardiya ortası mola veya ikinci operatörle dönüşümlü düzen değerlendirilir. Vardiya planı, işin süresine ve hub'ın operatör kapasitesine göre keşifte netleştirilir.",
+            },
+            {
+                baslik: "Belge ve yeterlilik kontrolü",
+                metin:
+                    "Operatörlü kiralamada operatör yeterlilik belgesi, işe başlamadan önce doğrulanır ve gerektiğinde tesisin kendi kayıt sistemine tanımlanır — özellikle kurumsal tesislerde bu adım zorunludur. Belge setinin güncel tutulması, tekrar işlerde süreci hızlandıran bir yatırımdır; ilk işte belge kaydı bir kez yapılır, sonraki işler bu kayıt üzerinden hızla ilerler.",
+            },
+            {
+                baslik: "Uzun süreli iş vs kısa iş operatör esnekliği",
+                metin:
+                    "Uzun süreli işlerde (proje bloğu, konaklamalı kiralama) aynı operatör sahada sabit kalır ve sahayla tanışıklık ilerledikçe verim artar. Kısa süreli işlerde ise operatör, hub'ın günlük tur planına göre birden fazla sahayı aynı günde gezebilir — bu, kısa işlerin operatörlü olsa bile ekonomik kalmasını sağlayan mekanizmadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, tipik operatörlü iş ve vardiya tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub bölgesindeki tipik operatörlü iş profillerini ve vardiya eğilimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Tipik operatörlü iş", "Vardiya eğilimi", "Belge notu"],
+                    satirlar: [
+                        ["İkitelli", "Sanayi sitesi kısa işler", "Gündüz, kısa süreli", "Standart"],
+                        ["Tuzla", "Tersane-ihtisas OSB işleri", "Vardiyaya göre değişken", "Tesis izin sistemine tanımlama"],
+                        ["Gebze", "Kurumsal depo-fabrika işleri", "Gece pencereli olabilir", "Kurumsal kayıt süreci"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörlü modelin kısa işlerde ekonomikliği",
+                paragraflar: [
+                    "Operatörlü kiralama, tek başına çağrıldığında operatörsüze göre daha yüksek maliyetli görünebilir ama kısa süreli işlerde hub'ın günlük tur planına dizildiğinde bu fark küçülür — aynı operatör, aynı gün birden fazla kısa işi art arda tamamlayabilir. Tarih esnekliği olan talepler bu ekonomiden yararlanır.",
+                ],
+            },
+            {
+                baslik: "Kurumsal tesislerde operatör kaydı ve tekrar iş hızı",
+                paragraflar: [
+                    "Büyük kurumsal tesislerde ilk iş, operatör ve makine belgelerinin tesis sistemine tanımlanmasıyla başlar ve bu süreç zaman alır; bu yüzden ilk işin takvimine belge payı ayrıca eklenir. Kayıt tamamlandıktan sonra aynı operatörle tekrar işler hızlı ilerler çünkü tesis, operatörü ve belge setini zaten tanımaktadır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü mü operatörsüz mü kiralamalıyız, karar nasıl verilir?",
+                cevap:
+                    "İşin süresine, teknik hassasiyetine ve sizin kendi operatör kapasitenize bağlı olarak keşifte birlikte değerlendirilir. Kısa süreli veya sahaya ilk kez giren işlerde operatörlü model, sahaya aşina bir kadronun zaman kaybını önlemesi nedeniyle genelde daha hızlı sonuç verir. Uzun süreli işlerde kendi eğitimli operatörünüz varsa operatörsüz kiralama daha ekonomik olabilir; iki seçenek de teklif aşamasında ayrı ayrı fiyatlandırılır.",
+            },
+            {
+                soru: "Bize atanan operatör bölgeyi tanıyor mu, yoksa her seferinde farklı biri mi geliyor?",
+                cevap:
+                    "Her hub, kendi bölgesinde düzenli çalışan bir operatör kadrosuna sahiptir; aynı bölgeye tekrar giden operatörler, sahanın giriş prosedürlerini ve tipik koşullarını zamanla öğrenir. Tam olarak aynı operatörün her seferinde gelmesi garanti edilmez ama hub'ın kadro düzeni, sahaya aşina bir operatörün atanma olasılığını artırır; düzenli çalıştığınız işlerde bu tanışıklık talep edilebilir.",
+            },
+            {
+                soru: "Gece vardiyasında operatör bulabiliyor musunuz?",
+                cevap:
+                    "Evet, gece pencereli işler düzenli talep ettiğimiz bir kalemdir ve operatör vardiyası buna göre önceden planlanır. Uzun gece işlerinde vardiya ortası mola veya ikinci operatörle dönüşümlü düzen değerlendirilir. Vardiya saatlerinizi önceden bildirmeniz, uygun operatörün rezerve edilmesini kolaylaştırır.",
+            },
+            {
+                soru: "Kurumsal tesisimizde operatör kaydı gerekiyor, bu ne kadar sürer?",
+                cevap:
+                    "İlk işte gerçekçi bir süre payı ayrılmalıdır — operatör ve makine belgelerinin tesis sistemine tanımlanması zaman alabilir. Belge setimiz kurumsal formatlara hazır olduğu için süreç bizim tarafımızda beklemez. Kayıt tamamlandıktan sonra aynı operatörle tekrar işler hızlı ilerler; kurumsal işte yavaş olan ilk kapıdır, sonrası akar.",
+            },
+            {
+                soru: "Kısa süreli bir iş için operatörlü kiralamak pahalı mı?",
+                cevap:
+                    "Tek başına çağrıldığında evet, operatörsüze göre daha yüksek maliyetli görünebilir; ama hub bölgenizde aynı gün başka kısa işler varsa, aynı operatör bunları art arda tamamlayabilir ve maliyet paylaşılır. Tarih esnekliğiniz varsa bu ekonomiden yararlanırsınız; sabit tarihli acil işlerde tekil operatör maliyeti teklifte açıkça görünür.",
+            },
+            {
+                soru: "Operatörün yeterlilik belgesini görebilir miyiz?",
+                cevap:
+                    "Elbette — operatör yeterlilik belgesi, işe başlamadan önce sizinle paylaşılabilir ve kurumsal tesislerde zaten tesisin kendi kayıt sistemine tanımlanması standart bir adımdır. Belge güncelliği, bizim tarafımızda düzenli kontrol edilen bir kalemdir; talep ettiğinizde belge kopyası veya kayıt bilgisi işe başlamadan sunulur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü kiralamada belge doğrulama ve tesis kayıt süreci genel İSG pratiğidir; hub bazlı operatör ataması ve yerel aşinalık firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota ve Bakım Turları — Üç Hub'ın Sevkiyat Optimizasyonu",
+        giris:
+            "Üç hub'lı sevkiyat modelinin en somut ekonomik faydası, tekil sevkiyattan değil, çok noktalı rota planlamasından gelir: aynı bölgedeki birden fazla kısa süreli işi tek bir güne ve tek bir turdaki araca dizmek. İkitelli hub'ı, Avrupa yakasındaki sanayi sitelerinde bu modeli günlük olarak uygular — bir sokaktaki üç farklı işletmenin talebi aynı araca biner; Tuzla hub'ı, tersane ve ihtisas OSB kuşağında aynı mantığı proje teslim takvimleriyle senkronlar; Gebze hub'ı ise D-100/TEM aksı boyunca sıralanan onlarca depo ve fabrikayı aks bazlı günlere böler. Tek merkezi depo modelinde bu tip rota optimizasyonu, mesafelerin büyüklüğü nedeniyle mümkün olmaz — üç bölgesel hub, her birinin kendi dar coğrafyasında sık ve kısa turlar kurmasını sağlayarak, hem müşteriye maliyet avantajı hem operasyona daha az boş sevkiyat (boş dönen araç) kazandırır.",
+        maddeler: [
+            {
+                baslik: "Rota kümeleme mantığı",
+                metin:
+                    "Bir hub'ın günlük rota planı, o gün için bildirilen taleplerin coğrafi yakınlığına göre kümelenmesiyle kurulur — aynı sokak, aynı OSB veya aynı aks üzerindeki talepler tek turda birleştirilir. Kümeleme, yalnızca mesafeyi değil, işlerin sırasını da (hangi işin önce, hangisinin sonra yapılacağı) optimize eder; bu sıralama, aracın gün boyunca kestiği toplam mesafeyi azaltır.",
+            },
+            {
+                baslik: "Hub bazlı gün planı",
+                metin:
+                    "Her hub, kendi bölgesi için haftalık bir rota takvimi tutar — hangi aksın hangi gün gezileceği, önceden bilinen düzenli müşterilerin talepleriyle şekillenir. Yeni bir talep geldiğinde, bu talebin coğrafi konumu mevcut rota takvimine uyuyorsa ilk uygun güne eklenir; uymuyorsa tekil sevkiyat olarak değerlendirilir ve bu fark fiyata yansır.",
+            },
+            {
+                baslik: "Tarih esnekliğinin ekonomik faydası",
+                metin:
+                    "Rota modelinin ekonomik faydasından yararlanmanın koşulu tarih esnekliğidir — 'bu hafta içinde olsun' diyebilen bir talep, ilk uygun tura kolayca yerleşir ve nakliye maliyeti paylaşılır. Sabit tarihli acil işlerde ise tekil sevkiyat yapılır ve bu, rota ekonomisinden yararlanamadığı için fiyata farklı yansır; bu fark teklifte açıkça görünür.",
+            },
+            {
+                baslik: "Aynı OSB veya bölgede çoklu müşteri turu",
+                metin:
+                    "Bir OSB veya sanayi sitesinde birden fazla işletmenin aynı döneme denk gelen talepleri (örneğin yıllık aydınlatma bakımı), site yönetimi veya OSB idaresi üzerinden ortak bir güne toplanabilir. Bu, bireysel işletmelerin ayrı ayrı çağırdığı makinenin toplamından belirgin ucuzdur ve hub'ın rota planlamasını da kolaylaştırır çünkü talep önceden bilinir hâle gelir.",
+            },
+            {
+                baslik: "Üç hub arası koordinasyon — nadir cross-hub rota",
+                metin:
+                    "Normal koşulda her hub kendi bölgesinde rota kurar ve hub'lar arası geçiş gerekmez; ancak büyük bir müşterinin farklı hub bölgelerinde eşzamanlı talepleri varsa (örneğin hem İkitelli hem Gebze bölgesinde şubesi olan bir firma), iki hub'ın rota takvimleri koordine edilir ve teslimatlar aynı hafta içinde eşzamanlı planlanır. Bu, tek merkezi depo modelinde ayrı ayrı yönetilmesi gereken bir koordinasyonu, hub'lar arası doğrudan iletişimle basitleştirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hub, tipik rota günü ve ilçe grubu tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, üç hub'ın tipik haftalık rota mantığını ve kapsadığı ilçe gruplarını özetler; kesin gün ataması güncel talep yoğunluğuna göre değişebilir.",
+                ],
+                tablo: {
+                    basliklar: ["Hub", "Tipik rota kümesi", "Örnek iş karması", "Kümeleme temeli"],
+                    satirlar: [
+                        ["İkitelli", "Sanayi sitesi sokakları", "Tabela, cephe, elektrik işleri", "Sokak/site bazlı"],
+                        ["Tuzla", "Tersane + ihtisas OSB kuşağı", "Bakım, donatım, sektörel işler", "Tesis teslim takvimi"],
+                        ["Gebze", "D-100/TEM aks depoları", "Aydınlatma, raf, tesisat işleri", "Aks/güzergâh bazlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Boş sevkiyatı azaltmanın ekonomisi",
+                paragraflar: [
+                    "Bir aracın işini bitirip boş dönmesi, hem maliyet hem zaman kaybıdır; çok noktalı rota planlaması bu boşluğu azaltmayı hedefler — mümkün olduğunca, bir işten çıkan araç aynı bölgedeki bir sonraki işe doğrudan yönlenir. Bu optimizasyon, tek merkezi depodan çıkıp tek bir işi yapıp geri dönen modele göre, aynı filo büyüklüğüyle daha fazla iş kapasitesi üretir — fark, müşteriye daha düşük birim maliyet olarak yansır.",
+                ],
+            },
+            {
+                baslik: "Düzenli müşterilerde rota tanışıklığının getirisi",
+                paragraflar: [
+                    "Bir hub'ın rotasına düzenli giren müşterilerde (aynı OSB'de aylık aydınlatma kontrolü, aynı depo grubunda haftalık forklift ihtiyacı) rota tanışıklığı zamanla artar — operatör sahayı, giriş prosedürünü ve tipik iş süresini bilir hâle gelir ve her yeni iş sıfırdan keşif maliyeti taşımaz. Bu tanışıklık, dönemsel çerçeve sözleşmeleriyle daha da güçlenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çok noktalı rota tam olarak nasıl işliyor, aracınız gün boyu mu geziyor?",
+                cevap:
+                    "Evet — bir hub'ın günlük rota planında, aynı bölgedeki birden fazla talep coğrafi yakınlığına göre sıralanır ve tek araç, gün boyunca bu talepleri sırayla tamamlar. Her iş bitiminde araç bir sonraki en yakın işe geçer; bu sıralama, toplam kat edilen mesafeyi ve dolayısıyla nakliye maliyetini azaltır. Sizin talebiniz bu rotaya uyuyorsa maliyet avantajından yararlanırsınız.",
+            },
+            {
+                soru: "Talebimiz rota takvimine uymuyorsa ne olur, hizmet alamaz mıyız?",
+                cevap:
+                    "Alırsınız — rotaya uymayan talepler tekil sevkiyat olarak değerlendirilir, yalnızca fiyat farkı teklifte açıkça gösterilir. Tarih esnekliğiniz varsa, talebinizi bir sonraki uygun rota gününe yerleştirmeyi önerebiliriz; bu, maliyeti düşürür ama teslim tarihinde birkaç gün esneklik gerektirir. Acil ve sabit tarihli işlerde tekil sevkiyat her zaman mümkündür.",
+            },
+            {
+                soru: "OSB'mizdeki tüm işletmelerin ortak bir bakım günü olabilir mi?",
+                cevap:
+                    "Olabilir ve önerilen tam olarak budur — OSB idaresi veya site yönetimi üzerinden işletmelerin dönemsel bakım ihtiyaçları (aydınlatma, cephe, tesisat) tek bir haftaya toplanır, hub bu haftaya özel bir rota ayırır ve makine art arda tüm işletmeleri gezer. Bu model, bireysel çağrıların toplamından belirgin ucuzdur; OSB idaresiyle iletişime geçerek bu programı başlatabilirsiniz.",
+            },
+            {
+                soru: "Farklı hub bölgelerinde şubelerimiz var, aynı hafta hizmet alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz — bu durumda ilgili hub'lar kendi aralarında koordine olur ve her şubenizdeki iş, o bölgenin hub'ından ama aynı hafta içinde eşzamanlı planlanır. Şube listenizi ve tercih ettiğiniz haftayı paylaşırsanız, hangi işin hangi hub'dan ve hangi günde yapılacağı önceden netleştirilir; tek bir muhatapla tüm şubeler koordine edilir.",
+            },
+            {
+                soru: "Rota planına girmek için ne kadar önceden haber vermeliyiz?",
+                cevap:
+                    "Ne kadar erken bildirirseniz, rotaya uyma ve maliyet avantajından yararlanma ihtimaliniz o kadar artar; yine de kesin bir asgari süre yoktur, mevcut rota takvimine göre değişir. Düzenli çalıştığınız bir hub varsa, dönemsel ihtiyaçlarınızı önceden paylaşmanız (örneğin aylık bakım takviminiz), rota planına otomatik dahil olmanızı sağlar ve her seferinde yeniden talep etmenize gerek kalmaz.",
+            },
+            {
+                soru: "Rota ekonomisinden yararlanmak kalitede bir fedakarlık gerektiriyor mu?",
+                cevap:
+                    "Hayır — rota planlaması yalnızca sevkiyat sırasını ve zamanlamasını etkiler, işin kendisinin kalitesini veya makinenin durumunu etkilemez. Aynı keşif, aynı ekipman standardı ve aynı operatör yeterliliği, rotaya dizilmiş bir işte de tekil bir işte de geçerlidir. Fark yalnızca maliyette ve bazen teslim gününde birkaç günlük esneklik ihtiyacındadır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstanbul'un coğrafi büyüklüğü ve boğaz geçiş kısıtı nedeniyle tek merkezli sevkiyatın verimsizliği kamuya açık lojistik gerçeğidir; çok noktalı rota kümeleme ve hub koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Tipi Platform Kiralama",
+        giris:
+            "İstanbul'un kapsadığımız bölgelerinin büyük kısmı sabit zeminli — sanayi sitesi asfaltı, OSB betonu, depo epoksisi — olduğu için, zor zemin veya arazi tipi platform ihtiyacı ağımızın ana talep hacmini oluşturmaz; bunu dürüstçe belirtmek gerekir. Buna rağmen bu ihtiyaç tamamen yok değildir: Tuzla'nın tersane geri sahaları ve açık stok alanlarında, Gebze kuşağının yeni depo şantiyelerinde ve Çatalca-Arnavutköy'ün kırsal erişim yollarında, standart lastikli platformun zorlanacağı bozuk, stabilize edilmemiş veya engebeli zeminlerle karşılaşılır. Bu durumlarda arazi tipi telehandler veya dolgu lastikli dizel makine, standart modelin yerini alır. Bu sayfanın amacı büyük bir arazi tipi filo iddiası değil, bu niş ihtiyacı da aynı keşif ve dürüstlük disipliniyle karşıladığımızı göstermektir.",
+        maddeler: [
+            {
+                baslik: "Açık şantiye ve stabilize edilmemiş saha",
+                metin:
+                    "Yeni yapılan depo ve fabrika şantiyelerinde saha, kaba yapı evresinde henüz stabilize edilmemiş olabilir; bu durumda arazi tipi şasi ve dolgu lastikli dizel eklemli veya telehandler tercih edilir. Zeminin sertliği ve düzlüğü keşifte önceden değerlendirilir; şüpheli noktada makine duruşu değiştirilir veya yük dağıtım plakası kullanılır.",
+            },
+            {
+                baslik: "Tersane geri sahası bozuk zemin",
+                metin:
+                    "Tuzla'nın tersane ve liman geri sahaları, açık stok alanları ve perdesiz sahalar, zemin açısından değişken bir doku sunar — betonarme kesimler ile sıkıştırılmış dolgu yan yana bulunabilir. Bu sahalarda telehandler'ın dört teker çekişi ve arazi lastikleri, standart forklift veya platforma göre daha güvenli ilerleme sağlar.",
+            },
+            {
+                baslik: "Kırsal ilçe erişim yolu",
+                metin:
+                    "Çatalca ve Arnavutköy gibi kırsal-yarı kırsal karakterli ilçelerde, saha erişim yolu toprak veya stabilize olabilir. Bu tip işlerde standart makinenin geçip geçemeyeceği, keşifte fotoğraf ve tarifle önceden değerlendirilir; geçemiyorsa arazi tipi alternatif veya kademeli erişim planı konuşulur.",
+            },
+            {
+                baslik: "Mevsimsel zemin değişimi",
+                metin:
+                    "Açık saha ve toprak zeminler, mevsime göre farklı geçilebilirlik gösterir — kuru dönemde sorunsuz geçilen bir alan, yağmur sonrası çamurlaşabilir. Bu değişkenlik, özellikle şantiye ve kırsal işlerde talep alınırken açıkça konuşulur; güncel hava durumu ve saha fotoğrafı, doğru ekipman kararını netleştirir.",
+            },
+            {
+                baslik: "Telehandler ve arazi tipi forklift tercihi",
+                metin:
+                    "Zor zeminde standart forklift veya makaslı platform yerine, dört teker çekişli ve arazi lastikli telehandler genelde daha güvenli sonuç verir — hem yükü uzatabilir hem bozuk zeminde ilerleyebilir. Ağırlık merkezi ve ataşman uyumu, zor zeminde standart sahaya göre daha dikkatli hesaplanır çünkü zemin eğimi denge hesabını etkiler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Saha tipi, zemin durumu ve ekipman tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, zor zemin ihtiyacının görüldüğü tipik saha tiplerini ve ekipman tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Zemin durumu", "Ekipman", "Ek gereklilik"],
+                    satirlar: [
+                        ["Yeni şantiye (kaba yapı)", "Stabilize edilmemiş", "Dizel eklemli/telehandler", "Yük dağıtım plakası olabilir"],
+                        ["Tersane geri sahası", "Karma/bozuk", "Telehandler", "Ağırlık merkezi doğrulama"],
+                        ["Kırsal ilçe sahası", "Toprak/stabilize", "Arazi tipi lastikli", "Mevsimsel durum kontrolü"],
+                        ["Açık stok alanı", "Engebeli", "Yüksek tonaj arazi tipi forklift", "Zemin fotoğrafı önden"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin ve stabilite disiplini",
+                paragraflar: [
+                    "Zor zeminde makinenin duruş noktası, standart sahadaki gibi serbestçe seçilemez — kapak, kanal veya gömülü altyapı üzerine ayak basılmaz, dolgu kesimlerde yük dağıtım plakası kullanılır. Şüpheli noktada çalışma başlatılmaz; bu, hem makinenin hem operatörün güvenliği için istisnasız bir kuraldır.",
+                ],
+            },
+            {
+                baslik: "Bu alandaki hacmimizin dürüst tanımı",
+                paragraflar: [
+                    "Ağımızın ana talep hacmi, İstanbul'un sanayi sitesi, OSB ve depo dokusundaki sabit zeminli işlerden gelir; zor zemin-arazi tipi ihtiyaç bunun küçük bir kesimidir. Bu işleri karşılarken de aynı keşif titizliğini uygularız, ancak bu alanda özel bir ağır arazi tipi ekipman uzmanlığı veya geniş bir filo iddiasında bulunmayız — talep geldiğinde uygun hub'ın parkındaki telehandler veya arazi tipi model değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şantiyemizin zemini henüz düzelmedi, platform gönderebilir misiniz?",
+                cevap:
+                    "Gönderebiliriz ama önce zemin durumu değerlendirilir — arazi tipi şasi ve dolgu lastikli modeller stabilize edilmemiş sahalarda standart tercihtir. Zemin çok yumuşak veya ıslaksa, çalışma başlamadan yük dağıtım plakası kullanılır veya makine duruş noktası değiştirilir. Saha fotoğrafı önceden paylaşılırsa değerlendirme hızlanır.",
+            },
+            {
+                soru: "Tersane geri sahamızın zemini bozuk, forklift yerine ne önerirsiniz?",
+                cevap:
+                    "Zemin engebesi belirginse telehandler önerilir — dört teker çekişi ve arazi lastikleriyle bozuk sahada standart forklifte göre daha güvenle ilerler, bom uzatmasıyla istif yüksekliği de kazandırır. Yük ağırlığı ve zemin fotoğrafı paylaşılırsa, ağırlık merkezi ve ataşman uyumu keşifte netleştirilir.",
+            },
+            {
+                soru: "Köyümüzdeki yol toprak, makine oraya çıkabilir mi?",
+                cevap:
+                    "Bu, keşifte önceden değerlendirilmesi gereken bir sorudur — yolun genişliği, sertliği ve mevsimsel durumu birlikte kontrol edilir. Standart makine geçemeyecekse arazi tipi lastikli alternatif önerilir; hiçbir konfigürasyon geçemiyorsa bu dürüstçe söylenir ve alternatif erişim yöntemi konuşulur. 'Bir şekilde çıkarız' yaklaşımı burada uygulanmaz çünkü sıkışan makine hem sizin işinizi hem bizim günümüzü kilitler.",
+            },
+            {
+                soru: "Zor zeminde çalışırken makine devrilme riski var mı?",
+                cevap:
+                    "Doğru ekipman ve disiplinle bu risk minimize edilir — zemin eğimi ve sertliği keşifte değerlendirilir, makinenin duruş noktası buna göre seçilir ve yük tablosu dışı kaldırma hiçbir gerekçeyle yapılmaz. Şüpheli zeminde çalışma başlatılmaz; bu kural, zor zeminde standart sahaya göre daha sıkı uygulanır çünkü risk marjı daha dardır.",
+            },
+            {
+                soru: "Yağmur sonrası sahamız çamur oldu, planımız bozulur mu?",
+                cevap:
+                    "Bozulabilir ve bu, açık saha işlerinin dürüst bir gerçeğidir — mevsimsel zemin değişimi, özellikle toprak veya stabilize sahalarda planı etkileyebilir. Bu risk, işin başında konuşulur ve hava durumuna göre esnek bir pencere önerilir; ıslak dönemde çalışma riskli görünüyorsa, güvenli koşul oluşana kadar erteleme dürüstçe önerilir.",
+            },
+            {
+                soru: "Zor zemin işlerinde ekstra ücret çıkıyor mu?",
+                cevap:
+                    "Bazı durumlarda evet — arazi tipi ekipman veya ek önlem (yük dağıtım plakası, ek keşif) gerektiren işlerde bu, standart zeminli işe göre farklı fiyatlanabilir. Bu fark, teklif aşamasında açıkça gösterilir ve gizli bir kalem olarak sonradan çıkmaz. Zemin fotoğrafını önceden paylaşmanız, doğru teklifin ilk seferde verilmesini sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İstanbul'un ağırlıklı sabit zeminli sanayi-kentsel dokusu ve zor zemin ihtiyacının sınırlı olduğu Tuzla geri saha/kırsal ilçe örnekleri kamuya açık coğrafi bilgidir; bu alandaki sınırlı hacim dürüstçe belirtilmiştir.",
+    },
 };

@@ -1008,4 +1008,551 @@ export const IZMIRPLATFORMKIRALAMA_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Aydın havzasının tarım-gıda mevsimselliği, jeotermal varlığı ve İzmir-Aydın otoyolu kamuya açık bilgidir; sezon eksenli plan ve havza günü düzeni firma pratiğidir. Fiyat rakamları teklifte görünür.",
     },
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli Örümcek Platform Kiralama — Küçük İşletme Bütçesine Göre Kısa Süreli",
+        giris:
+            "Örümcek platform (paletli örümcek tipi yükseltici), Buca çevresindeki atölye ve dükkânlarda genelde tek bir sebeple aranır: büyük çaplı makaslı veya eklemli platformun giremeyeceği kadar dar bir kapıdan, bahçeden ya da merdiven boşluğundan geçip iç avluya, dükkân arkasına veya bina cephesine ulaşmak. Küçük işletme sahibinin aklındaki soru genelde 'bu makine bize normal platformdan pahalıya mı patlar' oluyor — oysa fiyat farkının kaynağı makinenin adı değil, dar geçişe uygun küçük ve paletli bir aracın taşıma-kurulum şeklidir. Bütçe planlaması burada da aynı mantıkla ilerler: iş listesi tek kâğıtta toplanır, geçiş ölçüsü (kapı genişliği, avlu eşiği, zemin eğimi) önceden netleştirilir ve teklif kalem kalem yazılır — makine günü, nakliye, gerekiyorsa operatör ayrı satırlardadır. Örümcek platformun küçük işletmeye kazandırdığı asıl şey, aksi hâlde 'oraya hiçbir makine giremez' denip vazgeçilen işin, makul bir bedelle tamamlanabilir hâle gelmesidir.",
+        maddeler: [
+            { baslik: "Dar geçişi tekliften önce ölçmek", metin: "Örümcek platformun tercih edilme sebebi çoğunlukla dar bir kapı veya avlu girişidir; bu yüzden teklif öncesi net genişlik, yükseklik ve zemin eğimi mutlaka istenir. Fotoğraf ve şerit metre ile alınan ölçü, makinenin katlanmış hâliyle karşılaştırılır. Geçiş yeterliyse iş doğrudan planlanır; sınırda bir ölçüyse yerinde kısa bir keşif önerilir. Ölçü almadan verilen sözlü onay, sahada makinenin geri gönderilmesi riskini taşır ve bu da bütçenin en kötü senaryosudur — boşa giden nakliye." },
+            { baslik: "Paletli aracın küçük avluda zemin etkisini hesaba katmak", metin: "Örümcek platform paletli olduğu için tekerlekli makaslıya göre zemine daha az nokta yükü bindirir, ama yine de avlu döşemesi, rögar kapağı veya eski beton üzerinde dikkat gerektirir. Zeminin taşıma durumu, hedefe giden güzergâh üzerindeki engeller ve eğim, makine gelmeden önce görülür. Küçük işletmenin avlusunda araç park yeri dar ise makinenin döneceği alan da hesaba katılır. Bu kontrol, ek bir ücret kalemi değil; makinenin ilk seferde doğru çalışmasını sağlayan hazırlık adımıdır." },
+            { baslik: "Kısa işi tek ziyarette bitirecek şekilde paketlemek", metin: "Örümcek platform genelde tek nokta için çağrılır ama aynı avluda başka yüksek iş varsa (cephe boyası, tabela, bina üstü tesisat) bunlar aynı listeye eklenebilir. Nakliye kalemi tek seferlik olduğundan, aynı ziyarette ikinci bir işi bitirmek toplam bedeli görev başına düşürür. İşletme sahibi, avlu içinde göz atıp yüksekte bekleyen başka iş var mı diye kontrol ettiğinde bu tasarrufu kendisi tetiklemiş olur." },
+            { baslik: "Operatör kapsamını dar alan riskine göre netleştirmek", metin: "Dar geçişte ve paletli araçla çalışmak, düz zeminde makaslı kullanmaktan farklı bir dikkat ister; bu yüzden çoğu kısa iş operatörlü modelle planlanır. İşletmenin kendi personeli varsa ve ilgili yeterlilik belgesine sahipse operatörsüz seçenek de değerlendirilir, ama dar avluda ilk kez kullanım öneriimiz değildir. Teklifte hangi modelin seçildiği ve bunun bedele etkisi açıkça yazılır; sahada sürpriz ek ücret çıkmaz." },
+            { baslik: "İptal ve erteleme koşulunu baştan netleştirmek", metin: "Dar geçişli işlerde hava koşulu, komşu bina inşaatı ya da avlu içindeki geçici engel son anda ortaya çıkabilir. Bu yüzden teklifte erteleme ve iptal koşulu, aracın yola çıkma saatinden önceki bildirim süresiyle birlikte yazılır. Küçük işletme bütçesi için en pahalı senaryo, hazırlıksız yapılan çağrının araç yolda iken iptal edilmesidir — bu yüzden hazırlık kontrolü, rezervasyon onayından hemen önce tekrar teyit edilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Örümcek platform bütçe kalemleri",
+                paragraflar: ["Aşağıdaki tablo, dar geçişli işlerde bedeli oluşturan kalemleri ve her birinde bütçenizi koruyacak kontrol noktasını gösterir. Kesin tutarlar teklifte, güncel filo ve saha bilgisiyle yazılır."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi kapsar", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine günü", "Paletli örümcek platformun kirada kaldığı süre", "İş listesine göre gün sayısı birlikte netleştirilir"],
+                        ["Nakliye", "Adrese gidiş-dönüş taşıma", "Aynı avluda ikinci iş varsa tek seferde bölünür"],
+                        ["Operatör", "Dar alan tecrübeli operatör mesaisi", "Kendi belgeli personeliniz varsa kalem yeniden değerlendirilir"],
+                        ["Zemin/geçiş keşfi", "Ölçü ve fotoğraf kontrolü", "Sınırda ölçülerde ücretsiz ön değerlendirme"],
+                        ["Bekleme", "Hazırlık eksikse geçen süre", "Avlu ve zemin önceden boşaltılırsa oluşmaz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hangi işler örümcek platforma, hangileri standart makaslıya uygundur",
+                paragraflar: [
+                    "Kapı genişliği yetersizse, avluya araçla değil yürüyerek girilebiliyorsa veya zemin düz beton değilse örümcek platform genelde tek makul seçenektir; paletli yürüyüşü ve katlanabilir gövdesi dar noktalarda avantaj sağlar. Buna karşılık geniş, düz zeminli bir dükkan önünde veya sanayi sitesi ana yolunda çalışılacaksa standart tekerlekli makaslı platform hem daha hızlı kurulur hem de genelde daha ekonomiktir.",
+                    "Karar, hangisinin 'daha havalı' olduğuna değil hangisinin geçişten sorunsuz geçtiğine bağlıdır. Bu yüzden teklif öncesi net ölçü istemekten çekinmeyin; yanlış makine seçimi, ikinci nakliye ve kaybedilen gün olarak geri döner.",
+                ],
+            },
+            {
+                baslik: "Komşu avlularda ortak sevkiyat imkânı",
+                paragraflar: [
+                    "Aynı sanayi sitesinde birden fazla işletmenin dar avlusunda benzer erişim ihtiyacı varsa, tarihler yakınsadığında tek araçla art arda iki-üç avlu gezilebilir. Her işletme kendi kullanım süresine göre fatura alır, nakliye payı katılımcı sayısına bölünür.",
+                    "Bu düzenin kurulması için tek gereken, komşu işletmelerle 'sizde de dar geçişte yüksek iş var mı' diye kısa bir konuşmadır; planı ve kişi başı dökümü biz çıkarırız.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Avlumuzun kapısı çok dar, hangi makine girer bilmiyoruz — nasıl karar veriyorsunuz?", cevap: "Önce net kapı genişliği ve yüksekliğini, mümkünse fotoğrafla birlikte isteriz. Bu ölçü, paletli örümcek platformun katlanmış hâliyle karşılaştırılır; geçiyorsa doğrudan planlanır, sınırdaysa yerinde kısa keşif önerilir. Ölçü almadan sözlü onay vermeyiz, çünkü sahada makine giremezse boşa giden nakliye hem sizin hem bizim bütçemize zarar verir. Doğru ölçü, doğru makine seçiminin tek garantisidir." },
+            { soru: "Örümcek platform standart makaslıdan daha mı pahalı?", cevap: "Kesin karşılaştırma güncel teklifle yapılır ama fark genelde makinenin adından değil, dar alan operatör tecrübesi ve paletli taşıma şeklinden gelir. Geniş düz zeminde standart makaslı çoğu zaman daha ekonomiktir; dar avluda ise zaten tek geçerli seçenek örümcek platform olabilir, bu durumda karşılaştırma anlamsızlaşır. Bize ölçüyü ve işi anlatın, hangi makinenin uygun olduğunu ve bedelini açık yazalım." },
+            { soru: "Avlumuzda eski beton zemin var, makine hasar verir mi?", cevap: "Paletli örümcek platform, tekerlekli makaslıya göre zemine daha yayılı yük bindirir ama yine de çatlak beton, rögar kapağı veya boşluklu zemin önceden görülmelidir. Güzergâh üzerindeki riskli noktalar fotoğrafla işaretlenir, gerekirse takoz veya plaka ile geçiş desteklenir. Zemin durumu ciddi risk taşıyorsa alternatif güzergâh veya farklı makine sınıfı değerlendirilir. Bu kontrol ücretsizdir ve teklif öncesi yapılır." },
+            { soru: "Kendi personelimiz kullanabilir mi, operatör şart mı?", cevap: "Dar avlu ve paletli araçla çalışmak ek dikkat istediği için çoğu kısa işte operatörlü model öneririz. Personelinizin ilgili ekipman için geçerli yeterlilik belgesi varsa operatörsüz seçenek de değerlendirilir, ama bu durumda güvenli kullanım ve teslim eğitimi şarttır. Hangi modelin seçildiği ve bedele etkisi teklifte açıkça yazılır; sahada operatör kapsamı sonradan değiştirilmez." },
+            { soru: "Aynı avluda başka yüksek iş de var, tek seferde bitirebilir miyiz?", cevap: "Evet, çoğunlukla en verimli yol budur. Makine avluya girdiğinde tek nokta için değil, listelediğiniz tüm yüksek işler için kullanılabilir — cephe, tabela, bina üstü tesisat gibi. Nakliye kalemi zaten tek seferlik olduğundan, ikinci bir işi aynı ziyarete eklemek toplam bedeli görev başına düşürür. Talep öncesi avluda başka bekleyen iş olup olmadığını bir kez gözden geçirmenizi öneririz." },
+            { soru: "Son anda hava bozarsa veya avluda engel çıkarsa ne olur?", cevap: "Erteleme ve iptal koşulu, aracın yola çıkma saatinden önceki bildirim süresiyle birlikte teklifte yazılır. Dar geçişli işlerde son anda ortaya çıkan engel (komşu inşaat, geçici depo, hava koşulu) sık görülür; bu yüzden rezervasyon onayından hemen önce hazırlık tekrar teyit edilir. Erken bildirilen erteleme genelde ek maliyet doğurmaz; araç yola çıktıktan sonraki iptal koşulu ayrıca yazılıdır." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Örümcek platformun dar geçiş/paletli çalışma özellikleri teknik bilgidir; kalem bazlı teklif ve komşu avlu ortaklığı firma pratiğidir. Tesis adı, mesafe veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Platform Nakliye ve Teslimat — Sanayi Sitesi İçi Paylaşımlı Sevkiyat Ekonomisi",
+        giris:
+            "Kısa süreli platform kiralamada bütçeyi en çok etkileyen kalemlerden biri, çoğu işletmenin gözden kaçırdığı nakliyedir: makinenin adresinize gidiş-dönüş taşıması, kiranın kendisi kadar önemli bir satırdır ve tek başına çağrıldığında toplam bedelin önemli bir kısmını oluşturabilir. Buca ve çevresindeki küçük sanayi sitelerinin avantajı tam burada devreye girer — aynı sokakta, aynı blokta onlarca atölye ve dükkân var demek, aynı güne denk gelen taleplerin tek araç turuyla karşılanabileceği anlamına gelir. Bu sayfa nakliyeyi gizli bir kalem olmaktan çıkarıp görünür, paylaşılabilir ve planlanabilir bir bütçe kararına dönüştürmeyi anlatıyor: hangi durumda nakliye tek işletmeye ait kalır, hangi durumda komşularla bölünür, teslimat saatinin neden kira süresinden ayrı yazıldığı ve iade randevusunun bütçeyi nasıl koruduğu. Amaç, sizi bir sevkiyat modeline ikna etmek değil, taşıma bedelinin nereden geldiğini ve nasıl küçültülebileceğini açık göstermektir.",
+        maddeler: [
+            { baslik: "Nakliyeyi kira bedelinden ayrı satırda görmek", metin: "Ciddi bir teklif nakliyeyi kira bedeline gizlemez; ayrı bir satırda gösterir. Bu ayrım, işletmenin hangi kalemde pazarlık payı olduğunu görmesini sağlar — çoğu zaman o pay, nakliyeyi bir başka işle bölmektir. Tek yön mü çift yön mü, aracın hangi noktadan kalkıp geldiği ve dönüş turunun nasıl planlandığı yazılı olarak sorulmalıdır. Belirsiz 'nakliye dahildir' ifadesi, sonradan pazarlık edilecek yeri gizler." },
+            { baslik: "Aynı sokaktaki talepleri tek tura toplamak", metin: "Küçük sanayi sitesinde iki-üç işletmenin aynı hafta içinde platform ihtiyacı varsa, tarihler yakınsadığında makine bir kez sahaya girer, işletmeden işletmeye geçer ve tek turda tamamlanır. Her işletmeye kendi kullanım süresine göre ayrı fatura kesilir, nakliye payı katılımcı sayısına bölünür. Bu düzenin kurulması için işletmelerin birbirini tanıması yeterlidir; ilk ortak günü organize etmek en zor adımdır, sonrası kendiliğinden işler." },
+            { baslik: "Teslimat ve iade saatini iş penceresine göre kurmak", metin: "Makinenin işe başlanacak saatten çok önce gelmesi ya da iş bitmeden çok sonra alınması, ödenen sürenin bir kısmını beklemeye çevirir. Teslimat saati, işletmenin fiilen çalışmaya başlayacağı zamana yakın planlanır; iade ise işin kapanışına yakın bir pencerede kurulur. Uzatma gerekiyorsa iade aracı yola çıkmadan önce haber verilmesi, hem bütçeyi hem filo planını korur." },
+            { baslik: "Güvenli boşaltma ve dönüş alanını önceden belirlemek", metin: "Nakliye aracının güvenle yanaşacağı nokta, makinenin indirileceği alan ve o alandan çalışma noktasına kadar geçiş rotası önceden görülür. Dar sokak, kaldırım işgali veya park yoğunluğu varsa alternatif boşaltma noktası konuşulur. Bu bilgi eksik verildiğinde araç adres önünde bekler, bu bekleme de bütçeye yansıyabilir. Fotoğraf ve kısa tarif, bu riski büyük ölçüde ortadan kaldırır." },
+            { baslik: "Değişim ve ikinci taşımayı önceden engellemek", metin: "Yanlış makine sınıfı seçildiğinde sahada değişim gerekir; bu da ikinci bir nakliye ve ikinci bir bekleme demektir. Bunu önlemenin yolu, hedefin ölçüsünü ve geçiş koşullarını teklif öncesi netleştirmektir. Bir proje birden fazla makine sınıfı gerektiriyorsa (örneğin makaslıdan eklemliye geçiş), bu değişimin aynı araç turunda birleşip birleşemeyeceği baştan planlanır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Nakliye bedelini belirleyen kalemler",
+                paragraflar: ["Tablo, taşıma bedelinin hangi değişkenlere bağlı olduğunu ve bütçeyi korumak için hangi bilginin önceden verilmesi gerektiğini gösterir."],
+                tablo: {
+                    basliklar: ["Değişken", "Bedele etkisi", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine sınıfı", "Taşıma aracının büyüklüğünü belirler", "Doğru sınıf seçimi ikinci taşımayı önler"],
+                        ["Mesafe/rota", "Gidiş-dönüş süresi ve yakıt", "Aynı yönde başka teslimat varsa birleştirilir"],
+                        ["Teslimat saati", "Bekleme riski", "İş başlangıcına yakın planlama"],
+                        ["Boşaltma alanı", "Aracın manevra ve bekleme süresi", "Alan önceden ayrılır, işgal önlenir"],
+                        ["Ortak tur", "Katılımcı sayısına bölünen pay", "Komşu taleplerle tarih eşleştirmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ortak nakliye günü nasıl kurulur",
+                paragraflar: [
+                    "İlk adım, sanayi sitesindeki komşu işletmelerle kısa bir konuşmadır: 'yüksekte bekleyen işin var mı, tarihin esnek mi' sorusu genelde yeterli olur. Talepler tek listede toplanır, makine sabah siteye girer, işletmeden işletmeye geçer ve akşam çıkar.",
+                    "Her işletmeye kendi süresi kadar fatura kesilir, nakliye payı katılımcı sayısına bölünür; kimse komşusunun muhasebesiyle muhatap olmaz. Talepleri bize iletmeniz yeterli, planı ve kişi başı dökümü biz çıkarırız.",
+                ],
+            },
+            {
+                baslik: "Tek yön mü çift yön mü — teklifte netleştirilmesi gereken sorular",
+                paragraflar: [
+                    "Bazı işlerde makine teslim edildikten sonra günlerce sahada kalır ve iade ayrı bir tarihte planlanır; bu durumda nakliye tek çağrıda değil iki ayrı harekette değerlendirilebilir. Bazı işlerde ise aynı gün içinde teslim-iş-iade tamamlanır ve nakliye tek turda kapanır.",
+                    "Hangi modelin sizin işinize uygun olduğu, iş süresi ve saha koşuluna göre teklifte netleştirilir. Belirsiz bırakılan bu ayrım, sonradan 'ek nakliye ücreti' şeklinde bütçeye yansıyabilir; bu yüzden baştan yazılı sorulmalıdır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Nakliye bedeli kira bedeline dahil mi, ayrı mı hesaplanıyor?", cevap: "Ayrı bir satırda gösterilir; 'hepsi dahil' tek rakam vermeyiz çünkü bu, hangi kalemde pazarlık payı olduğunu gizler. Nakliye tek yön mü çift yön mü, aracın hangi noktadan kalktığı ve dönüş turunun nasıl planlandığı teklifte yazılı sorulur ve yazılı cevaplanır. Bu ayrım sayesinde komşu bir işletmeyle nakliyeyi bölme ihtimalini de görebilirsiniz." },
+            { soru: "Komşu atölyeyle aynı gün sipariş verirsek nakliye ucuzlar mı?", cevap: "Genelde evet, çünkü tek araç turu iki-üç adresi gezebilir ve nakliye payı katılımcı sayısına bölünür. Bunun için tarihlerin yakınsaması ve her işletmenin kendi süresini önceden bildirmesi gerekir. Faturalar ayrı kesilir, kimse komşusunun muhasebesiyle muhatap olmaz. Talepleri bize iletin, planı ve kişi başı dökümü biz çıkaralım." },
+            { soru: "Makine adrese geldiğinde biz hazır değilsek ne olur?", cevap: "Bekleme, sözleşmedeki koşula göre işler ve bu koşul teklifte önceden yazılır; bu yüzden teslimat öncesi kısa bir hazırlık kontrolü yaparız — alan boş mu, geçiş açık mı, teknik ekip sahada mı. Hazır değilse mümkünse teslimat saati kaydırılır. Sık tekrarlanan gecikme, bütçe için en pahalı senaryodur, bu yüzden hazırlığı önceden teyit ederiz." },
+            { soru: "İş erken biterse nakliye bedeli düşer mi?", cevap: "Erken bitiş, iade aracının güncel tur planına göre mümkün olan en yakın pencerede gelmesini sağlar, ama minimum organizasyon koşulu (nakliyenin sabit bir tabanı) genelde erken bitişle otomatik ortadan kalkmaz — bu koşul teklifte baştan yazılıdır. Erken bitişi bildirmek yine de en doğru davranıştır; hem sizin hem filo planının verimliliğini artırır." },
+            { soru: "Adresimiz dar bir sokakta, araç yanaşamazsa ne yapılır?", cevap: "Boşaltma alanı ve rota, teslimat öncesi fotoğraf ve kısa tarifle görülür. Dar sokak veya park yoğunluğu varsa alternatif boşaltma noktası ve oradan çalışma alanına kadar geçiş güzergâhı önceden planlanır. Bu bilgi eksik verilirse araç adres önünde bekler ve bu bekleme bütçeye yansıyabilir; bu yüzden önceden netleştirmek en ucuz yoldur." },
+            { soru: "Farklı makine sınıfına geçiş gerekirse ikinci nakliye ödüyor muyuz?", cevap: "Doğru ölçü ve saha bilgisiyle bu ihtimal büyük ölçüde önlenir; ama proje ilerlerken gerçekten farklı sınıf gerekiyorsa (örneğin makaslıdan eklemliye), bu değişimin aynı araç turunda birleşip birleşemeyeceği planlanır. Mümkün olduğunda giden ve gelen ekipman aynı turda taşınır. Değişim kesinleşince nakliye etkisi yazılı olarak bildirilir, sürpriz fatura çıkmaz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Nakliye kalem ayrımı ve ortak tur düzeni firma pratiğidir. Küçük sanayi sitesi yoğunluğu Buca'nın kamuya açık niteliğidir; tesis adı, mesafe veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Küçük Atölye Bütçesine Uygun Forklift İstifleme Kiralama",
+        giris:
+            "Buca çevresindeki küçük atölye ve depoların forklift ihtiyacı, büyük lojistik merkezlerininkinden farklı bir ölçekte doğar: günlük sürekli kullanım değil, palet indirme-bindirme, raf düzenleme veya dönemsel stok taşıma gibi kısa süreli görevler söz konusudur. Bu ölçek farkı bütçe kararını da değiştirir — sürekli kullanım için forklift satın almak küçük işletmede bakım, akü/yakıt, muayene ve depolama yükünü sabit gider hâline getirirken, kısa süreli kiralama aynı ihtiyacı görev bazında karşılar. Bu sayfa forklift kiralamanın bütçeye nasıl sığdırılacağını anlatıyor: doğru kapasite seçimi (aşırı büyük forklift gereksiz maliyettir), zemin ve koridor genişliğinin önceden ölçülmesi, operatörlü-operatörsüz ayrımı ve aynı sanayi sitesindeki komşularla nakliye paylaşımı. Amaç, atölyenizin gerçek istifleme ihtiyacını, kalem kalem görünür bir teklife dönüştürmektir.",
+        maddeler: [
+            { baslik: "Kapasiteyi yükün gerçek ağırlığına göre seçmek", metin: "Forklift kapasitesi, kaldırılacak en ağır paletin gerçek ağırlığına ve kaldırma yüksekliğine göre belirlenir; ihtiyaçtan büyük kapasite seçmek yalnız gereksiz kira ödemek değil, dar koridorda manevra zorluğu da yaratır. İşletme sahibi, tipik palet ağırlığını ve raf yüksekliğini teklif öncesi paylaştığında doğru sınıf ilk seferde seçilir. Belirsiz 'en büyüğünü göndersinler' yaklaşımı bütçeyi büyütür, riski azaltmaz." },
+            { baslik: "Zemin ve koridor genişliğini önceden ölçmek", metin: "Küçük atölyelerde koridor genişliği, kapı yüksekliği ve zemin düzgünlüğü forklift seçimini doğrudan etkiler. Dar koridorda standart forklift dönemezse dar gövdeli veya farklı tekerlek düzenine sahip model değerlendirilir. Zemin eğik veya düzensizse bu bilgi de önceden alınır. Ölçü almadan gönderilen makine, sahada uygun olmadığı görülürse değişim ve ikinci nakliye maliyeti doğurur." },
+            { baslik: "Kısa dönemsel ihtiyacı tek kiralamaya toplamak", metin: "Stok sayımı, mevsimsel yoğunluk veya tek seferlik taşınma gibi işler genelde birkaç günlük yoğun kullanım gerektirir. Bu tür işlerde bütün istifleme görevlerini tek kiralama penceresine toplamak, makinenin atölyede boşa beklediği günleri azaltır. İşletme, hangi günlerde yoğun taşıma olacağını önceden planlarsa kiralama süresi gerçek ihtiyaca göre daralır." },
+            { baslik: "Operatörlü ve operatörsüz kapsamı belge durumuna göre ayırmak", metin: "Operatörsüz kiralama, yalnızca kullanacak personelin forklift için geçerli yeterlilik belgesine sahip olması ve işletmenin güvenli kullanım düzeninin (günlük kontrol, şarj/yakıt sorumluluğu) kurulu olması durumunda sunulur. Belgesiz kullanım bir bütçe seçeneği değildir. Operatörlü modelde ise mesai süresi ve kapsam teklifte ayrı yazılır; iki model arasındaki fark, gerçek kullanım gününe göre karşılaştırılır." },
+            { baslik: "Komşu atölyeyle nakliye ve dönemsel kullanım paylaşmak", metin: "Aynı sanayi sitesinde birden fazla atölyenin dönemsel istifleme ihtiyacı varsa, tarihler yakınsadığında forklift bir atölyeden diğerine geçerek tek nakliye turunda birden fazla işi karşılayabilir. Her atölye kendi kullanım süresine göre fatura alır. Bu paylaşım, özellikle yılın belirli dönemlerinde (stok sayımı, sezon değişimi) yoğunlaşan taleplerde bütçeyi belirgin biçimde küçültür." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift kiralama bütçe kalemleri",
+                paragraflar: ["Tablo, kısa süreli forklift kiralamasında bedeli oluşturan kalemleri ve bütçe kontrol noktalarını gösterir."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi kapsar", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine günü", "Forkliftin kirada kaldığı süre", "Yoğun günler tek pencerede toplanır"],
+                        ["Kapasite sınıfı", "Kaldırma yükü ve yüksekliği", "Gerçek palet ağırlığına göre seçilir"],
+                        ["Nakliye", "Adrese gidiş-dönüş taşıma", "Komşu atölyeyle bölünebilir"],
+                        ["Operatör", "Belgeli kullanıcı mesaisi (istenirse)", "Kendi belgeli personeliniz varsa kalem düşer"],
+                        ["Şarj/yakıt", "Akülü veya dizel model gideri", "Model seçimi atölye altyapısına göre yapılır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Satın almak mı, kiralamak mı — küçük atölye için karşılaştırma",
+                paragraflar: [
+                    "Forklift yılın büyük bölümünde boşta duracaksa satın almak; bakım, periyodik muayene, akü/yakıt ve depolama sorumluluğunu işletmeye sabit gider olarak yükler. Kiralama bu seyrek ihtiyacı görev bazında karşılar ve yalnız kullanılan gün için ödeme yapılır.",
+                    "Kullanım her hafta düzenli tekrarlıyor ve güvenli park-şarj alanı varsa uzun dönem kiralama ayrıca değerlendirilebilir. Karar, gerçek kullanım günleri ve bekleme kayıtlarıyla desteklenir; biz doğrulanmamış tasarruf oranı vermeyiz.",
+                ],
+            },
+            {
+                baslik: "Dönemsel yoğunlukta forklift planlaması",
+                paragraflar: [
+                    "Yıl içinde belirli dönemlerde (stok sayımı, sezon değişimi, taşınma) forklift ihtiyacı ani şekilde artabilir. Bu dönemleri önceden bildiren işletme, filo uygunluğuna göre erken rezervasyon yaparak son dakika sıkışıklığından kaçınır.",
+                    "Komşu atölyelerle aynı döneme denk gelen talepler varsa, ortak planlama hem nakliye payını böler hem filo kaynağının daha verimli kullanılmasını sağlar. Bu koordinasyon için tek gereken, dönemsel ihtiyacı önceden bize bildirmenizdir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Küçük atölyemiz için hangi kapasitede forklift yeterli?", cevap: "Kapasite, kaldıracağınız en ağır paletin gerçek ağırlığı ve raf yüksekliğine göre belirlenir. Bu bilgiyi teklif öncesi paylaştığınızda, ihtiyaçtan büyük ve gereksiz maliyetli bir makine yerine doğru sınıf ilk seferde seçilir. Belirsizseniz tipik palet ölçüsünün fotoğrafını göndermeniz yeterlidir; kapasite tahminini biz yaparız." },
+            { soru: "Koridorumuz dar, forklift dönebilir mi?", cevap: "Koridor genişliği, kapı yüksekliği ve zemin durumu teklif öncesi netleştirilir. Dar koridorda standart forklift manevra edemiyorsa dar gövdeli veya farklı tekerlek düzenine sahip model değerlendirilir. Ölçü almadan gönderilen makine sahada uygun çıkmazsa değişim gerekir; bu da ikinci nakliye demektir, bu yüzden ölçü baştan istenir." },
+            { soru: "Sadece birkaç günlük stok sayımı için kiralık forklift uygun mu?", cevap: "Evet, kısa dönemsel işler tam olarak kiralamanın avantajlı olduğu senaryodur. Sayım günlerini önceden bildirdiğinizde makine yalnız o pencere için planlanır; boşa bekleyen gün oluşmaz. Aynı dönemde başka istifleme işiniz varsa bunları da listeye ekleyebilirsiniz, nakliye kalemi tek seferlik kalır." },
+            { soru: "Kendi personelimiz forklift kullanabilir mi?", cevap: "Yalnızca personelinizin forklift için geçerli yeterlilik belgesi varsa ve işletmenizde günlük kontrol, güvenli park ve şarj/yakıt düzeni kuruluysa operatörsüz seçenek sunulur. Belgesiz kullanım bir seçenek değildir. Operatörlü ve operatörsüz kapsam teklifte karşılaştırılır; hangi modelin sizin için uygun olduğunu birlikte netleştiririz." },
+            { soru: "Akülü mü dizel mi forklift seçmeliyiz?", cevap: "Kapalı atölye içinde çalışılacaksa akülü model emisyonsuz olduğu için genelde tercih edilir; atölye prizinden şarj edilebilir. Açık alanda uzun süreli yoğun kullanımda dizel model değerlendirilebilir. Seçim, çalışma alanının kapalı/açık olması, kullanım süresi ve atölyenizin şarj altyapısına göre yapılır; teklifte hangi modelin seçildiği yazılır." },
+            { soru: "Komşu atölyeyle aynı gün forklift paylaşabilir miyiz?", cevap: "Tarihleriniz yakınsıyorsa evet; forklift bir atölyeden diğerine geçerek tek nakliye turunda birden fazla işi karşılayabilir. Her atölyeye kendi kullanım süresine göre ayrı fatura kesilir, nakliye payı katılımcı sayısına bölünür. Bunun için komşu atölyelerle kısa bir konuşma yeterlidir; planı ve dökümü biz çıkarırız." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Forklift kapasite/zemin ilişkisi teknik bilgidir; dönemsel paylaşım ve kalem bazlı teklif firma pratiğidir. Tesis adı, mesafe veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom) Kiralama — KOBİ İçin Kısa Süreli Erişim Ekonomisi",
+        giris:
+            "Eklemli platform (boom lift), engel üzerinden yanal erişim gerektiren işlerde tercih edilir — hedefin altına doğrudan girilemediği, aradan bir yapı, makine veya raf sırası çıktığı durumlarda makaslı platformun yapamadığını yapar. Küçük işletme için bu makinenin kiralama kararı iki soruya bağlıdır: gerçekten eklemli mi gerekiyor, yoksa daha ekonomik bir makaslı platform da işi görür mü; ve iş, tek günlük mü yoksa birkaç günlük bir proje fazı mı. Bu sayfa, KOBİ bütçesiyle eklemli platform kiralamanın nasıl kurulduğunu anlatıyor: hedefin erişim açısının doğru tarif edilmesi, kısa süreli iş için günlük modelin proje fazına göre nasıl farklılaştığı, operatör kapsamının neden çoğu zaman zorunlu olduğu ve nakliyenin bu makine sınıfında neden diğerlerinden farklı planlandığı. Amaç, doğru makineyi ilk seferde seçip ikinci nakliyeye ve gereksiz güne ödeme yapmamaktır.",
+        maddeler: [
+            { baslik: "Makaslı mı eklemli mi — erişim açısına göre karar vermek", metin: "Hedefin altına doğrudan park edilebiliyorsa makaslı platform genelde daha ekonomiktir ve kurulumu daha hızlıdır. Hedefe bir engel (makine, raf, yapı çıkıntısı) arkasından yanal olarak ulaşmak gerekiyorsa eklemli platformun kollu erişimi zorunlu hâle gelir. Karar, hedefin fotoğrafı ve yaklaşım açısının tarif edilmesiyle verilir; sırf 'daha güçlü makine' diye eklemli seçmek gereksiz maliyettir." },
+            { baslik: "Kısa iş ile proje fazını ayrı teklif etmek", metin: "Tek günlük bir cephe veya çatı altı işi için günlük model uygundur; birden fazla gün süren montaj veya bakım işinde ise haftalık/faz bazlı kapsam değerlendirilir. Süre net değilse iki senaryolu teklif hazırlanır — işletme hangi tarihten sonra ek maliyet doğacağını önceden görür. Süreyi olduğundan kısa göstermek, sahada art arda uzatmaya ve bütçenin öngörülemez büyümesine yol açar." },
+            { baslik: "Operatör kapsamını makine sınıfına göre netleştirmek", metin: "Eklemli platformun kollu hareketi ve dengeli manevra gerektirmesi nedeniyle çoğu kısa iş operatörlü modelle planlanır. İşletmenin kendi personeli varsa ve ilgili yeterlilik belgesine sahipse operatörsüz seçenek de değerlendirilir, ancak bu makine sınıfında teslim eğitimi ve acil indirme brifingi özellikle önemlidir. Hangi kapsamın seçildiği teklifte açıkça yazılır." },
+            { baslik: "Nakliyeyi makine boyutuna göre planlamak", metin: "Eklemli platformlar genelde makaslı modellerden daha büyük ve ağırdır; bu da taşıma aracının sınıfını ve boşaltma alanının genişliğini etkiler. Adresin araç erişimi, boşaltma noktası ve makinenin çalışma alanına kadar geçiş güzergâhı önceden görülür. Dar sokak veya sınırlı park alanı varsa alternatif boşaltma noktası konuşulur; bu bilgi eksik verilirse araç bekler ve bütçeye yansır." },
+            { baslik: "Bekleyen ikinci işi aynı sevkiyata eklemek", metin: "Aynı sahada veya yakın adreste eklemli platform gerektiren başka bir iş varsa, bunu tek kiralamaya eklemek nakliye kalemini görev başına küçültür. İşletme, listesindeki yüksek noktaları tek seferde tarif ettiğinde, aynı makineyle erişilebilen görevler tek ziyarette birleştirilir; farklı sınıf gerektiren görev ayrı gösterilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli platform kiralama bütçe kalemleri",
+                paragraflar: ["Tablo, eklemli platform kiralamasında bedeli oluşturan kalemleri ve bütçe kontrol noktalarını gösterir."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi kapsar", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine günü", "Eklemli platformun kirada kaldığı süre", "Günlük mü faz bazlı mı olduğu netleştirilir"],
+                        ["Erişim sınıfı", "Kol uzunluğu ve çalışma zarfı", "Erişim açısına göre en küçük uygun sınıf seçilir"],
+                        ["Nakliye", "Büyük aracın gidiş-dönüş taşıması", "Boşaltma alanı önceden belirlenir"],
+                        ["Operatör", "Kollu manevra tecrübeli operatör mesaisi", "Belgeli personeliniz varsa kalem yeniden değerlendirilir"],
+                        ["Uzatma", "Süre aşımı koşulu", "Senaryolu teklifle önceden yazılır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli platformun tipik kullanım alanları",
+                paragraflar: [
+                    "Küçük işletme ölçeğinde eklemli platform genelde şu durumlarda tercih edilir: bina cephesinde alt kısmı raf veya makineyle kaplı bir hedefe erişim, çatı kenarından dışa doğru uzanan bir noktaya ulaşma, veya iç mekânda büyük bir ekipmanın arkasındaki tavan noktasına yanal erişim.",
+                    "Bu senaryoların ortak noktası, dikey iniş-kalkışın yeterli olmamasıdır. Hedefin fotoğrafını ve engelin konumunu paylaştığınızda, gerçekten eklemli mi gerektiğini yoksa daha ekonomik bir alternatifin mi yeterli olduğunu birlikte netleştiririz.",
+                ],
+            },
+            {
+                baslik: "Proje fazlı kullanımda değişim yönetimi",
+                paragraflar: [
+                    "Birden fazla gün süren işlerde program kayması sık görülür. Rezervasyonun hangi tarihe kadar değiştirilebileceği ve araç yola çıktıktan sonraki koşullar teklifte baştan yazılır.",
+                    "Makine sahadayken uzatma veya iade kararı, o günkü saha durumu ve teknik ekibin hazır olup olmadığına göre verilir. Sözlü 'biraz daha kalsın' talebi bütçeyi belirsizleştirir; bu yüzden değişiklik yazılı onaylanır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Eklemli mi makaslı mı kiralamalıyız, nasıl karar veriyoruz?", cevap: "Hedefin altına doğrudan park edilebiliyorsa makaslı genelde daha ekonomiktir. Aradan bir engel çıkıyor ve yanal erişim gerekiyorsa eklemli platform zorunlu hâle gelir. Hedefin fotoğrafı ve yaklaşım açısını paylaştığınızda doğru sınıfı birlikte belirleriz; gereksiz yere daha pahalı makine önermeyiz." },
+            { soru: "Tek günlük iş için günlük fiyat mı, proje fiyatı mı geçerli?", cevap: "İş kesin bir günde bitecekse günlük model uygulanır. Birden fazla gün sürebilecek belirsizlik varsa iki senaryolu teklif hazırlanır — hangi tarihten sonra ek maliyet doğacağı önceden yazılır. Süreyi olduğundan kısa gösterip sahada uzatma yapmak yerine, belirsizliği baştan teklife yansıtırız." },
+            { soru: "Kendi personelimiz eklemli platform kullanabilir mi?", cevap: "Personelinizin ilgili yeterlilik belgesi varsa operatörsüz seçenek değerlendirilir, ancak eklemli platformun kollu manevrası nedeniyle teslim eğitimi ve acil indirme brifingi mutlaka verilir. Belgesiz kullanım bir seçenek değildir. Operatörlü ve operatörsüz kapsam teklifte karşılaştırmalı gösterilir." },
+            { soru: "Nakliye bedeli makaslı platformdan neden daha yüksek olabiliyor?", cevap: "Eklemli platformlar genelde daha büyük ve ağır olduğu için taşıma aracının sınıfı ve boşaltma alanı ihtiyacı farklılaşabilir. Kesin fark güncel teklifte görünür; adres ve boşaltma noktası bilgisi paylaşıldığında nakliye kalemi net yazılır. Belirsiz bir 'eklemli her zaman pahalıdır' varsayımı yerine somut teklif üzerinden karar vermenizi öneririz." },
+            { soru: "Proje ortasında iş uzarsa ne olur?", cevap: "Uzatma talebi sözleşmedeki bildirim süresi içinde alınır ve güncel filo planına göre teyit edilir. Aynı makinenin başka rezervasyonu varsa ikame değerlendirilebilir. Ek süre ve nakliye etkisi yazılı onaylanır; makine sahadayken güvenli park ve yetkili kullanım sorumluluğu kesintisiz sürer." },
+            { soru: "Aynı sahada başka yüksek iş varsa tek kiralamada bitirebilir miyiz?", cevap: "Evet, aynı makineyle erişilebilen görevler tek ziyarette birleştirilir. Farklı sınıf gerektiren görev ayrı gösterilir, sahada sürpriz ekleme yapılmaz. Listenizi önceden paylaştığınızda hangi işlerin tek sevkiyatla bitebileceğini birlikte netleştiririz; bu, nakliye kalemini görev başına küçültür." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Eklemli/makaslı erişim ayrımı teknik bilgidir; senaryolu teklif ve görev paketleme firma pratiğidir. Tesis adı, mesafe veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekan ve Depo Platform Kiralama — Küçük Dükkan ve Atölye İşleri İçin",
+        giris:
+            "İç mekan platform kiralaması, Buca çevresindeki küçük dükkan ve atölyelerde açık saha işlerinden farklı bir bütçe mantığı gerektirir: burada belirleyici olan mesafe veya zemin değil, kapı ölçüsü, tavan yüksekliği, raf aralığı ve akülü makinenin emisyonsuz çalışma zorunluluğudur. Dükkan içi tavan aydınlatması, depo raf üstü düzenleme, tavan tesisatı veya iç cephe boyası gibi işler genelde işletmenin açık olduğu saatlerin dışına sıkışır; bu da kısa bir pencerede maksimum işi bitirmeyi zorunlu kılar. Bu sayfa, iç mekân işlerinde bütçenin nasıl korunduğunu anlatıyor: kapı-koridor ölçüsünün teklif öncesi netleştirilmesi, akülü makine tercihinin neden zorunlu olduğu, müşteri alanıyla çalışma alanının nasıl ayrıldığı ve kısa pencereye sığdırmanın pratik yolları. Amaç, dükkanınızın günlük işleyişini aksatmadan iç mekân erişim ihtiyacını en ekonomik şekilde çözmektir.",
+        maddeler: [
+            { baslik: "Kapı ve koridor ölçüsünü teklif öncesi netleştirmek", metin: "İç mekânda maliyetli hata çoğu zaman kapı genişliğinden çıkar. Net kapı ölçüsü, eşik yüksekliği ve kapı arkasındaki dönüş alanı, makinenin katlanmış boyutlarıyla karşılaştırılır. Daha kompakt uygun sınıf varsa o ayrılır; geçmiyorsa dışarıdan farklı bir erişim yöntemi değerlendirilir. Ölçü eksikliği nedeniyle sahada değişim olursa zaman ve nakliye bütçesi büyür." },
+            { baslik: "Akülü makineyi kapalı alan zorunluluğu olarak görmek", metin: "Kapalı dükkan veya depo içinde dizel makine kullanmak hava kalitesi açısından uygun değildir; bu yüzden iç mekân işlerinde akülü platform tercih edilir. Akülü makinenin şarj süresi ve kapasitesi, iş penceresinin uzunluğuna göre planlanır; dükkan prizinden şarj mümkünse bu ek bir maliyet kalemi değildir. Şarj altyapısı yoksa önceden belirlenip alternatif planlanır." },
+            { baslik: "Müşteri saatleri dışına sıkışan pencereyi verimli kullanmak", metin: "Çoğu dükkan içi iş, kapanış sonrası veya açılış öncesi kısa bir pencerede yapılır. Bu pencerenin tamamının fiilî işe ayrılması için malzeme, teknik ekip ve alan hazırlığı makine gelmeden tamamlanmış olmalıdır. Hazır olmayan görev programdan çıkarılıp sonraki pencereye alınır; bu disiplin, kısa sürenin boşa harcanmasını önler." },
+            { baslik: "Müşteri alanı ile çalışma alanını fiziksel ayırmak", metin: "Dükkan açıkken çalışma yapılacaksa, platform ve düşen cisim riski taşıyan bölge müşteri geçişinden fiziksel olarak ayrılmalıdır. Ayrım mümkün değilse iş kapalı saate alınır. Bariyer ve güvenli alternatif geçiş tek başına uyarı levhasından daha güvenilirdir. Operatör aynı anda hem makineyi yönetip hem müşterileri yönlendiremez; gerekirse zemin görevlisi eklenir." },
+            { baslik: "Raf üstü ve depo işlerini tek listede toplamak", metin: "Depo içindeki farklı raf sıralarında biriken küçük işler (etiketleme, tavan tesisatı kontrolü, aydınlatma değişimi) tek ziyarette birleştirilebilir. İşletme, hangi raf aralıklarında iş olduğunu önceden listelediğinde makine bir kez gelir ve rota sırasına göre tüm noktaları dolaşır. Bu, tekrar nakliyeyi ve tekrar kurulum süresini ortadan kaldırır." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân platform kiralama bütçe kalemleri",
+                paragraflar: ["Tablo, dükkan/depo içi işlerde bedeli oluşturan kalemleri ve bütçe kontrol noktalarını gösterir."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi kapsar", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine günü", "Akülü platformun kirada kaldığı süre", "Kısa pencereye göre süre netleştirilir"],
+                        ["Kapı/koridor uygunluğu", "Geçiş ölçüsü kontrolü", "Ölçü teklif öncesi alınır"],
+                        ["Şarj", "Akülü makinenin enerji ihtiyacı", "Dükkan prizinden şarj mümkünse ek gider yok"],
+                        ["Nakliye", "Adrese gidiş-dönüş taşıma", "Aynı depoda ikinci iş varsa tek turda birleşir"],
+                        ["Hazırlık", "Malzeme ve alan hazırlığı", "Makine gelmeden tamamlanır, bekleme önlenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapalı saat mi açık saat mi çalışılmalı",
+                paragraflar: [
+                    "Kapalı saatte çalışmak, müşteri güvenliği açısından risk taşımaz ve genelde daha esnek bir zaman penceresi sunar; ancak dükkanın kapanış-açılış saatleriyle sınırlıdır. Açık saatte çalışmak daha uzun bir pencere sağlayabilir, ama müşteri alanıyla çalışma alanının fiziksel ayrımı zorunlu hâle gelir.",
+                    "Hangi seçeneğin sizin dükkanınıza uygun olduğu, alan büyüklüğü ve müşteri trafiğine göre değerlendirilir. İki seçenek arasındaki bedel farkı, çoğunlukla iş penceresinin uzunluğundan değil, bariyer ve zemin görevlisi ihtiyacından kaynaklanır." ],
+            },
+            {
+                baslik: "Depo raf düzeninde periyodik bakım listesi",
+                paragraflar: [
+                    "Depo içindeki aydınlatma, tavan tesisatı ve raf üstü kontrol işleri yıl içinde tekrarlanıyorsa, her talebi ayrı çağrıya çevirmek yerine basit bir bakım listesi tutulabilir. Acil olmayan işler uygun dönemsel bir güne toplanır.",
+                    "Geçmiş ölçüler başlangıç verisi olur, ancak raf yerleşimi değiştiyse yeniden doğrulanır. Kullanım sıklığı arttıkça ziyaret aralığı yeniden değerlendirilir; karar gerçekleşen iş emirlerine dayanır, varsayılan takvime değil." ],
+            },
+        ],
+        sss: [
+            { soru: "Dükkanımızın kapısı dar, platform içeri girer mi?", cevap: "Net kapı genişliği-yüksekliği ve kapı arkasındaki dönüş alanı teklif öncesi ölçülür, seçilen makinenin katlanmış boyutlarıyla karşılaştırılır. Daha kompakt uygun sınıf varsa o ayrılır; hiçbiri geçmiyorsa dışarıdan farklı erişim yöntemi değerlendirilir. Ölçü eksikliği nedeniyle sahada değişim olursa zaman ve nakliye büyür, bu yüzden ölçü baştan istenir." },
+            { soru: "İç mekânda dizel makine kullanılabilir mi?", cevap: "Kapalı alanda dizel makine hava kalitesi açısından uygun değildir; iç mekân işlerinde akülü platform tercih edilir. Akülü makinenin şarj kapasitesi iş penceresinin uzunluğuna göre planlanır. Dükkan prizinden şarj mümkünse bu ek maliyet kalemi yaratmaz; şarj altyapısı yoksa önceden belirlenip alternatif planlanır." },
+            { soru: "Sadece kapanıştan sonra birkaç saatimiz var, yeterli mi?", cevap: "Genelde yeterlidir, ama pencerenin tamamının fiilî işe ayrılması için malzeme, teknik ekip ve alan hazırlığı makine gelmeden tamamlanmış olmalıdır. Hazır olmayan görev sonraki pencereye alınır. Kısa pencereye hazır girmek, kısa kiralamanın en etkili bütçe taktiğidir." },
+            { soru: "Dükkan açıkken çalışma yapılabilir mi?", cevap: "Çalışma ve düşen cisim alanı müşteri geçişinden fiziksel olarak ayrılabiliyorsa değerlendirilebilir; ayrım mümkün değilse iş kapalı saate alınır. Bariyer ve güvenli alternatif geçiş gerekir, uyarı levhası tek başına yeterli değildir. Operatör aynı anda makineyi kullanıp müşteri yönlendiremez, gerekirse zemin görevlisi eklenir." },
+            { soru: "Depo içindeki farklı raf sıralarında birden fazla iş var, tek seferde bitirebilir miyiz?", cevap: "Evet, hangi raf aralıklarında iş olduğunu önceden listelediğinizde makine bir kez gelir ve rota sırasına göre tüm noktaları dolaşır. Bu, tekrar nakliyeyi ve tekrar kurulum süresini ortadan kaldırır. Listeyi teklif öncesi paylaşmanız, tek ziyaretin verimli kullanılmasını sağlar." },
+            { soru: "İç mekân işleri yıl içinde tekrarlanıyor, her seferinde ayrı mı çağırmalıyız?", cevap: "Tekrarlanan ama acil olmayan işler için basit bir bakım listesi tutulabilir; uygun dönemsel bir günde tek ziyarette tamamlanır. Geçmiş ölçüler başlangıç verisi olur, raf yerleşimi değiştiyse yeniden doğrulanır. Kullanım sıklığı artarsa ziyaret aralığı gerçekleşen iş emirlerine göre yeniden değerlendirilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Akülü platformun kapalı alan uygunluğu teknik bilgidir; kısa pencere planlaması ve raf listesi firma pratiğidir. Tesis adı, mesafe veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon ve Montaj İşleri İçin Platform Kiralama — Küçük Ölçekli Tadilat",
+        giris:
+            "Buca çevresindeki küçük atölye ve dükkânlarda çelik konstrüksiyon ve montaj işleri genelde büyük şantiye projelerinden farklı bir ölçekte doğar: yeni bir çatı kirişi eklenmesi, mevcut bir asma katın güçlendirilmesi, tabela iskeletinin montajı veya küçük bir depo genişletmesi gibi sınırlı kapsamlı işler söz konusudur. Bu ölçek farkı, kiralama kararını da etkiler — büyük şantiyenin haftalarca süren montaj programı yerine, küçük işletmenin birkaç günlük, net kapsamlı bir montaj penceresi vardır. Bu sayfa, küçük ölçekli tadilat ve montaj işlerinde platform kiralamanın nasıl bütçelendiği anlatıyor: montaj aşamalarının erişim ihtiyacına göre sıralanması, kaynak ve montaj ekibinin platform randevusuyla eşleştirilmesi, malzeme ağırlığının sepet kapasitesine etkisi ve iş bitiminde iade takviminin nasıl kurulduğu.",
+        maddeler: [
+            { baslik: "Montaj aşamalarını erişim ihtiyacına göre sıralamak", metin: "Çelik montajında farklı aşamalar (kaynak, cıvatalama, kaplama, son kontrol) genelde aynı yüksek noktalara tekrar döner. İş programındaki aşamalar platform türü ve erişim yüksekliğiyle eşleştirilir. Aynı makineyi isteyen ardışık aşamalar mümkünse tek kiralama penceresine alınır; aralarında uzun malzeme bekleme boşluğu varsa ekipman iade edilip sonraki aşama için yeniden planlanır." },
+            { baslik: "Kaynak ve montaj ekibini platform randevusuyla eşleştirmek", metin: "Platform geldiğinde sepette çalışacak yetkili kaynakçı veya montaj ustası ve gerekli malzeme hazır olmalıdır. Ekibin programı platform rezervasyonuyla tek çizelgede toplanır. Ekip gecikirse platform üretim sahasında belirsiz süre beklemez; hazır olan başka görev varsa ona geçilir, yoksa rezervasyon uygun zamana kaydırılır." },
+            { baslik: "Malzeme ağırlığını sepet kapasitesine göre planlamak", metin: "Çelik parça, kaynak makinesi ve el aletleri sepete çıkacaksa toplam ağırlık üretici kapasitesini aşmamalıdır. Ağır parçalar için ayrı kaldırma yöntemi (vinç, forklift) gerekip gerekmediği önceden değerlendirilir; platform yalnız erişimi sağlar, ağır yük taşıma aracı değildir. Bu ayrım, sahada kapasite aşımı riskini ve olası gecikmeyi önler." },
+            { baslik: "Kısa süreli montaj ile faz bazlı kiralamayı karşılaştırmak", metin: "Tek aşamalık kısa montaj için günlük model uygundur; birden fazla aşamayı kapsayan bir tadilat projesinde haftalık/faz bazlı kapsam değerlendirilebilir. Program net değilse iki senaryolu teklif hazırlanır. Süreyi olduğundan kısa göstermek yerine, belirsizlik baştan teklife yazılır; böylece işletme hangi tarihten sonra ek maliyet doğacağını bilir." },
+            { baslik: "İş bitiminde iade takvimini montaj kabulüne bağlamak", metin: "Montajın son kontrolü ve kabulü tamamlanmadan platform iade edilirse, sonradan çıkan küçük bir düzeltme için ikinci sevkiyat gerekebilir. İade tarihi, son kontrol ve kabul sürecine göre planlanır. Kabul erken tamamlanırsa iade aracı yola çıkmadan bildirilir; bu, hem gereksiz bekleme gününü hem tekrar nakliyeyi önler." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj projesi bütçe kalemleri",
+                paragraflar: ["Tablo, küçük ölçekli çelik konstrüksiyon/montaj işlerinde bedeli oluşturan kalemleri ve bütçe kontrol noktalarını gösterir."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi kapsar", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine günü", "Platformun kirada kaldığı süre", "Aşamalara göre günlük/faz seçimi"],
+                        ["Erişim sınıfı", "Kaynak/montaj yüksekliği ve zarfı", "Aşamaya göre en uygun sınıf"],
+                        ["Ekip eşleşmesi", "Kaynakçı/montaj ustası programı", "Tek çizelgede koordinasyon"],
+                        ["Malzeme kapasitesi", "Sepete çıkacak yük", "Ağır parça için ayrı yöntem değerlendirilir"],
+                        ["İade zamanı", "Son kontrol ve kabul süreci", "Kabul tamamlanınca iade planlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Küçük tadilat projesinde değişiklik yönetimi",
+                paragraflar: [
+                    "Montaj sırasında ölçü farkı veya ek güçlendirme ihtiyacı ortaya çıkabilir; bu durumda erişim gereksinimi de değişebilir. Değişiklik saha sorumlusu tarafından yazılı bildirilir, gerekiyorsa platform sınıfı yeniden değerlendirilir.",
+                    "Rezervasyonun hangi tarihe kadar değiştirilebileceği ve araç yola çıktıktan sonraki koşullar teklifte baştan yazılır. Sözlü 'biraz daha kalsın' talebi bütçe ve filo planını belirsizleştirir; bu yüzden değişiklik yazılı onaya bağlanır.",
+                ],
+            },
+            {
+                baslik: "Vinç/forklift ile platformun birlikte kullanımı",
+                paragraflar: [
+                    "Ağır çelik parçaların taşınması ve pozisyonlanması genelde vinç veya forklift işidir; platform bu noktada montaj ustasının erişimini sağlayan tamamlayıcı ekipmandır. İki ekipmanın aynı sahada çalışması, güvenli mesafe ve iş sırası planlamasını gerektirir.",
+                    "Hangi ekipmanın hangi aşamada gerekli olduğu, montaj planıyla birlikte netleştirilir. Bu ayrım, platformun kapasitesini aşan bir yükle zorlanmasını önler ve saha güvenliğini korur.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Küçük bir çatı tadilatı için tek platform yeterli mi?", cevap: "Montaj aşamalarının hangi yüksekliklere ve hangi erişim türüne ihtiyaç duyduğu görülmeden kesin yanıt vermek doğru olmaz. Tek aşamalı kısa işlerde genelde tek makine yeterlidir; farklı erişim gerektiren aşamalar varsa (örneğin kirişin altına dikey erişim ile kenarına yanal erişim) ayrı değerlendirme yapılır. İş listenizi paylaştığınızda hangi kapsamın uygun olduğunu birlikte netleştiririz." },
+            { soru: "Kaynakçımız platform sepetinde çalışabilir mi?", cevap: "Evet, sepete çıkacak kişi ve malzemeler kapasite hesabına dahil edilerek planlanır. Kaynak makinesi ve el aletlerinin ağırlığı üretici kapasitesini aşmamalıdır. Platform operatörü erişimi yönetir, kaynak işini kaynakçınız yapar; roller baştan netleştirilir." },
+            { soru: "Montaj birkaç güne yayılırsa platform sürekli sahada mı kalır?", cevap: "Aşamalar arasında uzun bekleme yoksa platform sahada kalabilir; aralarda malzeme bekleme boşluğu varsa iade edilip sonraki aşama için yeniden planlanmak daha ekonomik olabilir. Bu tercih, iş programınızın netliğine göre teklifte karşılaştırmalı sunulur." },
+            { soru: "Ağır çelik parça platform sepetine sığar mı?", cevap: "Sepet kapasitesi üretici sınırlarıyla belirlidir; ağır parçaların taşınması genelde vinç veya forklift işidir, platform yalnız montaj ustasının erişimini sağlar. Parça ağırlığını önceden paylaştığınızda hangi ekipmanın hangi aşamada gerektiğini birlikte netleştiririz." },
+            { soru: "Son kontrol gecikirse platform bizde kalabilir mi?", cevap: "İade tarihi, montajın son kontrol ve kabul sürecine göre planlanır; kabul gecikirse uzatma talebi sözleşmedeki bildirim süresi içinde yapılır ve güncel filo durumuna göre teyit edilir. Kabul erken tamamlanırsa iade aracı yola çıkmadan bildirilmesi, gereksiz bekleme gününü önler." },
+            { soru: "Montaj sırasında ölçü değişirse platform sınıfı değiştirilebilir mi?", cevap: "Evet, ancak değişiklik yazılı bildirilmeli ve yeni ölçüye göre uygun sınıf değerlendirilmelidir. Sahada sözlü onayla sınıf değiştirmek ikinci nakliye riski taşır. Değişiklik saha sorumlusu tarafından bildirildiğinde, yeni koşullara göre teklif güncellenir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Montaj-erişim eşleştirmesi ve sepet kapasitesi teknik bilgidir; faz planlaması firma pratiğidir. Tesis adı, proje veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Tesisi Platform Kiralama — Buca Bölgesinde Sınırlı Kapsam",
+        giris:
+            "Dürüst olmak gerekirse, Buca ve yakın çevresi bir tarım veya silo tesisleri havzası değildir — bölgenin niteliği küçük sanayi sitesi, atölye ve dükkân yoğunluklu bir yerleşimdir. Bu sayfa, arama yapan birinin karşısına yanlış bir uzmanlık iddiasıyla çıkmamak için kısa tutuldu: eğer bölgede münferit bir tarımsal depo, küçük bir silo yapısı veya tarım ekipmanı bakım tesisi varsa, buradaki erişim ihtiyacı yine aynı KOBİ bütçe mantığıyla ele alınır — ama bu, bölgenin ana uzmanlık alanı değildir. Silo içi veya tahıl depo üstü işler için platform kiralaması talep edilirse, önce tesisin gerçek ölçeği ve erişim koşulları görülür; genel bir tarım bölgesi hizmeti gibi sunulmaz.",
+        maddeler: [
+            { baslik: "Bölgenin gerçek profilini açıkça belirtmek", metin: "Buca ve çevresi küçük sanayi sitesi ve atölye yoğunluklu bir bölgedir; geniş tarım arazisi veya silo kompleksi profili taşımaz. Bu sayfa, olası münferit bir talebi karşılamak için var, ama bölgeyi tarım/silo merkezi gibi tanıtmayız. Arama sonucunda bu sayfaya gelen ziyaretçi, gerçekçi bir kapsam beklentisiyle karşılaşmalıdır." },
+            { baslik: "Münferit talep gelirse önce tesisi görmek", metin: "Silo veya tarımsal depo için erişim talebi gelirse, öncelikle tesisin yapısı, yüksekliği ve zemin koşulu fotoğraflarla görülür. Bu tür yapılar genelde standart atölye ölçeğinden farklı boyuttadır; bu yüzden genel varsayımla teklif verilmez, saha bilgisi görülmeden kapsam belirlenmez." },
+            { baslik: "Tahıl tozu ve kapalı silo ortamını güvenlik açısından ayrı değerlendirmek", metin: "Silo iç ortamı, tozlu ve kapalı alan riskleri taşıyabilir; bu tür ortamlarda çalışma öncesi ek güvenlik değerlendirmesi gerekir. Standart açık saha veya atölye işinden farklı bir hazırlık süreci söz konusudur. Bu fark, teklif verilmeden önce açıkça konuşulur." },
+            { baslik: "Yakın bölgelerdeki tesislerle karşılaştırma yapmamak", metin: "Bölgede gerçek bir tarım/silo yoğunluğu varsa bu bilgi, ancak doğrulanabilir kamuya açık kaynaklarla teyit edildiğinde sayfaya eklenir. Uydurma tesis adı, kapasite veya sayı vermek yerine, mevcut durumu dürüst bir kısa sayfayla göstermeyi tercih ederiz." },
+            { baslik: "Talebi genel hizmet listesine yönlendirmek", metin: "Eğer aradığınız iş bir silo değil de küçük bir depo veya atölye üstü erişimse, bu ihtiyaç bizim ana uzmanlık alanımıza girer ve iç mekân/depo platform kiralama sayfamızda daha detaylı ele alınır. Silo ile karıştırılan çoğu talep aslında standart bir depo erişimi olabilir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo/tarım talebi için ilk değerlendirme adımları",
+                paragraflar: ["Tablo, münferit bir silo veya tarımsal tesis talebinde izlenen ilk değerlendirme adımlarını gösterir. Kesin kapsam ve bedel, tesis görüldükten sonra yazılır."],
+                tablo: {
+                    basliklar: ["Adım", "Neyi kapsar", "Amaç"],
+                    satirlar: [
+                        ["Fotoğraf ve ölçü", "Tesisin yapısı ve yüksekliği", "Standart ölçek dışı yapıları tespit etmek"],
+                        ["Zemin kontrolü", "Silo çevresi zemin durumu", "Uygun makine sınıfını belirlemek"],
+                        ["Ortam değerlendirmesi", "Toz/kapalı alan riski", "Ek güvenlik hazırlığı gerekip gerekmediğini görmek"],
+                        ["Kapsam netleştirme", "Gerçek iş listesi", "Genel varsayımla teklif vermemek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bölgenin gerçek uzmanlık alanı",
+                paragraflar: [
+                    "Buca ve çevresindeki asıl talep hacmi, küçük sanayi sitesi ve atölye erişim işlerinden gelir — tavan aydınlatması, tabela montajı, çatı bakımı, depo raf üstü düzenleme gibi kısa süreli görevler. Bu sayfa o profile ait değildir.",
+                    "Eğer aradığınız iş bir tarım tesisi değil de küçük bir işletme erişimiyse, sitemizdeki diğer hizmet sayfaları sizin ihtiyacınıza daha uygun kapsamı sunuyor." ],
+            },
+            {
+                baslik: "Dürüst kapsam beyanının nedeni",
+                paragraflar: [
+                    "Bazı web siteleri her bölge için her hizmeti sunuyormuş gibi görünmek adına jenerik sayfalar üretir; bu yaklaşım hem arayan kişiyi yanıltır hem de arama motorlarının kopya/doorway içerik olarak değerlendirdiği bir risk taşır.",
+                    "Biz bu sayfayı kısa ve dürüst tutmayı tercih ettik: bölgenin gerçek profilini yansıtıyor ve münferit bir talep gelirse nasıl değerlendirileceğini açıkça anlatıyor." ],
+            },
+        ],
+        sss: [
+            { soru: "Buca'da tarım/silo tesisi için platform kiralama hizmeti veriyor musunuz?", cevap: "Bölgenin ana profili küçük sanayi sitesi ve atölye yoğunluklu olduğu için bu, bizim asıl uzmanlık alanımız değildir. Ancak münferit bir talep gelirse, tesisi görüp gerçek ölçeğine göre değerlendiririz; genel bir varsayımla teklif vermeyiz. Aradığınız iş standart bir depo erişimiyse bu bizim ana kapsamımıza girer." },
+            { soru: "Küçük bir tarımsal deponun tavanına erişim gerekiyor, bu hizmete girer mi?", cevap: "Evet, bu daha çok standart depo/iç mekân erişim kapsamına girer ve bizim ana hizmet alanımızdır. Silo gibi büyük ve kapalı yapılarla karıştırılmaması için bu sayfada ayrım yaptık; sizin ihtiyacınız muhtemelen iç mekân depo platform kiralama sayfamızda daha uygun anlatılıyor." },
+            { soru: "Silo içinde çalışmak için ek güvenlik önlemi gerekir mi?", cevap: "Kapalı ve tozlu ortamlar standart açık saha işinden farklı bir hazırlık gerektirebilir; bu değerlendirme tesis görülmeden yapılmaz. Silo tipi bir talep gelirse öncelikle ortam koşulları netleştirilir, sonra kapsam ve bedel yazılır." },
+            { soru: "Bölgede gerçek bir tarım/silo yoğunluğu var mı?", cevap: "Buca ve yakın çevresi kamuya açık bilgiye göre küçük sanayi sitesi ve atölye yoğunluklu bir bölgedir; geniş ölçekli tarım veya silo kompleksi profili taşımaz. Bu nedenle sayfayı kısa tuttuk; doğrulanamayan bir yoğunluk iddiasında bulunmuyoruz." },
+            { soru: "Tesisimiz standart ölçekten büyükse teklif nasıl değişir?", cevap: "Standart atölye ölçeğinden büyük yapılarda genel varsayımla teklif verilmez; tesisin fotoğrafı, yüksekliği ve zemin koşulu görüldükten sonra uygun makine sınıfı ve kapsam belirlenir. Bu, hem doğru makinenin seçilmesini hem gereksiz maliyetin önlenmesini sağlar." },
+            { soru: "Talebimiz aslında bir depo mu yoksa silo mu, nasıl ayırt ederiz?", cevap: "Kapalı, tahıl veya benzeri malzeme depolayan büyük dikey yapılar silo kapsamına girer; raf sistemi olan, insan erişimine açık standart bir bina ise depo kapsamına girer. Emin değilseniz birkaç fotoğraf gönderin, hangi kapsama girdiğini birlikte netleştirelim." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Buca'nın küçük sanayi sitesi profili kamuya açık bilgidir; bölgede geniş tarım/silo yoğunluğu iddiası taşımaz. Tesis adı veya sayı uydurulmamıştır.",
+    },
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji ve Aydınlatma Bakım Platformu — Küçük İşletme Tabela ve Aydınlatma Bakımı",
+        giris:
+            "Küçük işletmelerde enerji ve aydınlatma bakımı, çoğunlukla planlı bir proje değil, sönen bir tabela ampulü, arızalanan dış aydınlatma armatürü veya periyodik olarak kontrol edilmesi gereken elektrik hattı gibi dağınık ihtiyaçlardan oluşur. Buca çevresindeki atölye ve dükkânlar için bu işlerin bütçeye yansıması, her arızayı ayrı bir acil çağrı olarak ele almaktan değil, tekrarlanan bakım ihtiyacını basit bir listeyle yönetmekten geçer. Bu sayfa, tabela ve aydınlatma bakımının KOBİ bütçesiyle nasıl planlanacağını anlatıyor: acil ile ertelenebilir arızanın ayrılması, elektrik işinin platform operatörünün görevi olmadığının netleştirilmesi, dönemsel bakım listesinin nasıl kurulduğu ve komşu işletmelerle ortak bakım gününün nasıl işlediği. Amaç, ışığı yanan bir tabelanın işletmenin görünürlüğü için ne kadar önemli olduğunu bilerek, bu bakımı sürpriz maliyetsiz bir düzene oturtmaktır.",
+        maddeler: [
+            { baslik: "Acil arızayı ertelenebilir bakımdan ayırmak", metin: "Güvenlik riski taşıyan bir elektrik arızası (kısa devre riski, açıkta kalmış kablo) acil kapsamda değerlendirilir ve öncelikli planlanır. Sönen bir dekoratif ışık veya soluk bir tabela aydınlatması ise genelde ertelenebilir ve dönemsel bakım listesine eklenebilir. Bu ayrım, gerçek acil işi bütçe uğruna bekletmemeyi ve her küçük arızayı acil sevkiyata dönüştürmemeyi sağlar." },
+            { baslik: "Platform operatörünün görevini elektrik ustasından ayırmak", metin: "Platform operatörü erişimi güvenle sağlar; elektrik bağlantısı, ampul değişimi veya kablo onarımı gibi teknik işi otomatik olarak üstlenmez. Bu işi yapacak yetkili elektrikçi işletme tarafından sağlanır veya ayrıca organize edilir. Sepete çıkacak kişi ve malzeme önceden bildirilir; teklifte operatörün görevi açıkça yazılır, sahada beklenmeyen bir teknik iş istenmesi önlenir." },
+            { baslik: "Tabela ve aydınlatma noktalarını tek rotada birleştirmek", metin: "Bir işletmenin cephesinde birden fazla aydınlatma veya tabela noktası varsa, bunlar tek ziyarette rota sırasına göre dolaşılır. Her nokta için ayrı kiralama yerine tüm noktaların tek listede toplanması, nakliye ve kurulum kalemini görev başına küçültür. İşletme, hangi noktalarda ışık sorunu olduğunu önceden fotoğraflarsa rota daha verimli kurulur." },
+            { baslik: "Dönemsel bakım takvimi kurmak", metin: "Tabela ve dış aydınlatma armatürleri zamanla toz, nem ve hava koşullarından etkilenir; yıl içinde tekrarlanan kontrol ihtiyacı basit bir takvimle yönetilebilir. Uygun dönemde tüm noktalar tek ziyarette kontrol edilir, arızalı olanlar not edilir. Bu model, acil arıza sıklığını azaltır ve her seferinde acil çağrı bedeli ödemeyi engeller." },
+            { baslik: "Komşu işletmelerle ortak bakım gününü kurmak", metin: "Aynı sanayi sitesinde birden fazla işletmenin tabela veya dış aydınlatma bakımı gerekiyorsa, tarihler yakınsadığında tek araç turuyla art arda birkaç işletme dolaşılabilir. Her işletme kendi kullanım süresine göre fatura alır, nakliye payı katılımcı sayısına bölünür. Bu düzenin kurulması için komşu işletmelerle kısa bir konuşma yeterlidir." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma bakım bütçe kalemleri",
+                paragraflar: ["Tablo, tabela ve aydınlatma bakım işlerinde bedeli oluşturan kalemleri ve bütçe kontrol noktalarını gösterir."],
+                tablo: {
+                    basliklar: ["Kalem", "Neyi kapsar", "Bütçe kontrol noktası"],
+                    satirlar: [
+                        ["Makine günü", "Platformun kirada kaldığı süre", "Birden fazla nokta tek listeye toplanır"],
+                        ["Nakliye", "Adrese gidiş-dönüş taşıma", "Komşu işletmeyle bölünebilir"],
+                        ["Elektrik ustası", "Teknik onarım (platform kapsamı dışı)", "İşletme tarafından sağlanır veya ayrıca organize edilir"],
+                        ["Rota", "Birden fazla tabela/armatür noktası", "Tek ziyarette sıra planlanır"],
+                        ["Dönemsel kontrol", "Yıllık bakım takvimi", "Acil arıza sıklığını azaltır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tabela ışığının işletme görünürlüğüne etkisi",
+                paragraflar: [
+                    "Küçük işletmeler için tabela aydınlatması, özellikle akşam saatlerinde işletmenin fark edilirliğini doğrudan etkiler. Sönmüş veya soluk bir tabela, açık olan bir işletmeyi kapalı gibi gösterebilir.",
+                    "Bu yüzden tabela bakımını 'lüks' değil, işletmenin görünürlüğünü koruyan temel bir bakım kalemi olarak ele almayı öneririz — ama bunu her seferinde acil çağrı yerine, dönemsel bir listeyle yapmak bütçeyi belirgin biçimde düşürür." ],
+            },
+            {
+                baslik: "Elektrik ustası koordinasyonu",
+                paragraflar: [
+                    "Platform ile elektrik ustasının aynı gün sahada olması, işin tek seferde bitmesini sağlar. Ustanın müsaitlik saati ile platform rezervasyonu önceden eşleştirilir.",
+                    "Usta gecikirse platform belirsiz süre beklemez; hazır olan başka bir nokta varsa oraya geçilir, yoksa rezervasyon uygun zamana kaydırılır. Bu koordinasyon, hem ustanın hem platformun zamanını verimli kullanır." ],
+            },
+        ],
+        sss: [
+            { soru: "Tabela ampulümüz söndü, acil mi yoksa bekleyebilir mi?", cevap: "Güvenlik riski taşımıyorsa (kısa devre, açıkta kablo gibi) genelde ertelenebilir ve dönemsel bakım listesine eklenebilir. Ancak işletmenizin görünürlüğü için önemliyse, listeye öncelik vererek yakın bir tarihe alabiliriz. Acil güvenlik riski varsa öncelikli planlanır; ikisi arasındaki ayrımı birlikte netleştiririz." },
+            { soru: "Elektrik bağlantısını da siz mi yapıyorsunuz?", cevap: "Hayır, platform operatörü erişimi sağlar; elektrik bağlantısı veya ampul değişimi gibi teknik işi otomatik üstlenmez. Bu işi yapacak yetkili elektrikçi işletmeniz tarafından sağlanır veya ayrıca organize edilir. Sepete çıkacak kişi ve malzeme önceden bildirilirse, iki tarafın koordinasyonu teklifte netleştirilir." },
+            { soru: "Cephemizde birden fazla tabela ve armatür noktası var, tek seferde mi bakılır?", cevap: "Evet, hangi noktalarda sorun olduğunu önceden fotoğraflarsanız, tüm noktalar tek ziyarette rota sırasına göre dolaşılır. Bu, her nokta için ayrı kiralama yapmaktan çok daha ekonomiktir çünkü nakliye kalemi tek seferlik kalır." },
+            { soru: "Yıl içinde tekrar eden aydınlatma sorunlarımız için düzenli bakım kurabilir miyiz?", cevap: "Evet, tekrarlanan ama acil olmayan işler için basit bir bakım takvimi tutulabilir. Uygun dönemde tüm noktalar tek ziyarette kontrol edilir, arızalı olanlar not edilir. Bu model, acil çağrı sıklığını ve maliyetini belirgin biçimde azaltır." },
+            { soru: "Komşu işletmeyle aynı gün tabela bakımı yaptırabilir miyiz?", cevap: "Tarihleriniz yakınsıyorsa evet; tek araç turuyla art arda birkaç işletme dolaşılabilir. Her işletmeye kendi kullanım süresine göre ayrı fatura kesilir, nakliye payı katılımcı sayısına bölünür. Komşularınızla kısa bir konuşma yeterli, planı ve dökümü biz çıkarırız." },
+            { soru: "Elektrik ustamız gelmezse platform boşa mı bekler?", cevap: "Hayır, ustanın müsaitlik saati platform rezervasyonuyla önceden eşleştirilir. Usta gecikirse, hazır olan başka bir nokta varsa oraya geçilir; yoksa rezervasyon uygun zamana kaydırılır. Bu koordinasyon, hem ustanın hem platformun zamanının boşa gitmesini önler." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Operatör-elektrik ayrımı ve dönemsel bakım listesi firma pratiğidir. Tesis adı, mesafe veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü Platform Kiralama — KOBİ İçin Operatörsüz Tercihinin Gerçek Ekonomisi",
+        giris:
+            "Küçük işletme sahibinin platform kiralarken sorduğu ilk sorulardan biri genelde şudur: operatörsüz alsak daha ucuza gelir mi? Sorunun arkasında haklı bir bütçe içgüdüsü var — bir kalemi kaldırmak, toplam bedeli düşürür gibi görünür. Ama bu tercih yalnızca fiyat karşılaştırması değil, işletmenin gerçekten üstlenebileceği sorumlulukların bir değerlendirmesidir: yetkili belge, günlük kontrol, güvenli kullanım düzeni ve olası bir aksaklıkta kimin sorumlu olacağı. Bu sayfa, operatörlü ve operatörsüz kiralamanın KOBİ bütçesi açısından gerçek karşılaştırmasını yapıyor — hangi durumda operatörsüz seçenek gerçekten ekonomik, hangi durumda görünürdeki tasarrufun risk maliyetine dönüştüğü, belge kontrolünün nasıl işlediği ve iki modelin teklifte nasıl yan yana gösterildiği. Amaç, sizi bir tarafa yönlendirmek değil, kararı gerçek verilerle vermenizi sağlamaktır.",
+        maddeler: [
+            { baslik: "Operatörsüz seçeneğin gerçek ön koşullarını görmek", metin: "Operatörsüz kiralama, yalnızca kullanacak personelin ilgili platform tipi için geçerli yeterlilik belgesine sahip olması durumunda sunulur. Belge önceden görülür, makineye özgü teslim eğitimi ve acil indirme uygulaması yapılır. İşletmede günlük kontrol yapacak, anahtarı sorumlu tutacak bir düzen de bulunmalıdır. Bu koşullar sağlanmıyorsa operatörsüz seçenek bir bütçe yolu değil, bir risktir." },
+            { baslik: "Bedel farkını gerçek iş süresine göre karşılaştırmak", metin: "Operatörlü ve operatörsüz kapsamların bedel farkı, güncel iş süresi ve saha koşuluna göre teklifte ayrı yazılır. Kısa, tek seferlik bir iş için operatör bedelinin toplam maliyete etkisi görece küçük kalabilir; birden fazla gün süren işte ise fark daha belirgin hâle gelebilir. Karar, tek bir yüzdelik varsayımla değil, sizin işinizin gerçek süresine göre verilir." },
+            { baslik: "Belgesiz kullanımın gizli maliyetini görünür kılmak", metin: "Belgesiz veya yeterli eğitim almamış bir personelin platform kullanması, kaza riskinin yanı sıra işletmenin İSG mevzuatı karşısındaki sorumluluğunu da doğrudan etkiler. Bu risk, kısa vadede görünmeyen ama gerçekleştiğinde tedavi, iş günü kaybı ve hukuki sorumluluk olarak çok daha büyük bir bedele dönüşür. Operatörlü kiralama bu riski, belgeli ve deneyimli bir kullanıcıya devrederek bertaraf eder." },
+            { baslik: "Karma modeli değerlendirmek: bazı işler operatörlü, bazıları değil", metin: "Bir işletmenin farklı görevleri farklı risk seviyeleri taşıyabilir; basit, düz zeminli bir noktada kısa bir iş operatörsüz yapılabilirken, dar geçişli veya yüksek riskli bir görev operatörlü planlanabilir. İş listesi görev bazında değerlendirilip her görev için uygun model ayrı seçilebilir. Bu, tek bir kural yerine görev bazlı bir bütçe optimizasyonu sağlar." },
+            { baslik: "Teklifte iki modeli yan yana göstermek", metin: "Ciddi bir teklif, operatörlü ve operatörsüz kapsamları yan yana yazar: hangi kalemlerin dahil olduğu, belge kontrolünün nasıl yapılacağı ve bedel farkı açıkça görülür. İşletme, iki seçeneği kendi risk toleransı ve nakit durumuna göre karşılaştırıp karar verir. Tek taraflı 'operatörsüz daha ucuzdur' iddiası, belge ve sorumluluk koşulları görülmeden verilmez." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü / operatörsüz karşılaştırma tablosu",
+                paragraflar: ["Tablo, iki modelin hangi koşullarda değerlendirildiğini ve bütçeye etkisini gösterir. Kesin bedel farkı güncel teklifte, saha ve iş süresi bilgisiyle yazılır."],
+                tablo: {
+                    basliklar: ["Kriter", "Operatörlü", "Operatörsüz", "Bütçe notu"],
+                    satirlar: [
+                        ["Belge şartı", "Gerekmez", "Zorunlu, önceden görülür", "Belgesiz kullanım bir seçenek değildir"],
+                        ["Eğitim", "Firma sağlar", "Teslim eğitimi + acil indirme brifingi", "Operatörsüzde eğitim süresi teklife dahildir"],
+                        ["Günlük kontrol", "Operatör yapar", "İşletme sorumluluğunda", "Kontrol düzeni yoksa risk artar"],
+                        ["Kısa tek iş", "Bedel etkisi görece düşük", "Belge varsa uygun olabilir", "İş süresine göre karşılaştırılır"],
+                        ["Dar/riskli erişim", "Genelde önerilir", "Riskli olabilir", "Görev bazında değerlendirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Görünürdeki tasarrufun gerçek maliyeti",
+                paragraflar: [
+                    "Operatör bedelini kaldırmak, teklifte hemen görülen bir tasarruftur; ama bu tasarrufun karşılığında işletme, günlük kontrol, güvenli kullanım ve olası kaza sorumluluğunu üstlenir. Belgeli, deneyimli bir personel için bu makul bir denge olabilir.",
+                    "Belgesiz veya yeni personel için ise 'tasarruf', gerçekleşmesi düşük ama gerçekleştiğinde çok büyük bir maliyete dönüşen bir bahis hâline gelir. Bu yüzden kararı yalnız günlük bedel farkına göre değil, personelinizin gerçek yeterliliğine göre vermenizi öneririz." ],
+            },
+            {
+                baslik: "Karma model örneği: haftalık bakım listesi",
+                paragraflar: [
+                    "Bir atölyenin haftalık bakım listesinde beş farklı görev varsa, bunlardan üçü düz zeminli ve basit erişimli, ikisi dar geçişli veya yüksek riskli olabilir. Basit üç görev, belgeli personeliniz varsa operatörsüz; riskli iki görev operatörlü planlanabilir.",
+                    "Bu karma yaklaşım, tek bir modeli tüm işlere zorlamak yerine her görevin gerçek risk seviyesine göre bütçe optimizasyonu yapar. Liste teklif öncesi paylaşıldığında, hangi görevin hangi modelle yapılacağı birlikte netleştirilir." ],
+            },
+        ],
+        sss: [
+            { soru: "Operatörsüz kiralama gerçekten daha mı ucuz?", cevap: "Operatör bedeli kalkınca teklifte görünen tutar düşer, evet. Ama bu seçenek yalnızca personelinizin ilgili platform tipi için geçerli yeterlilik belgesi ve işletmenizde güvenli kullanım düzeni varsa sunulur. Belgesiz personel için bu bir bütçe seçeneği değildir; risk maliyeti, görünen tasarrufu genelde aşar." },
+            { soru: "Personelimizin belgesi var, hangi adımlardan geçiyoruz?", cevap: "Belge önceden görülür, ardından makineye özgü teslim eğitimi ve acil indirme uygulaması yapılır. İşletmenizde günlük kontrol yapacak ve anahtarı sorumlu tutacak bir düzen olmalıdır. Bu adımlar tamamlandığında operatörsüz kiralama teklifte ayrı bir kalem olarak sunulur." },
+            { soru: "Bazı işlerimiz basit, bazıları riskli — ikisini karma yapabilir miyiz?", cevap: "Evet, görev bazlı değerlendirme yapılabilir. Basit, düz zeminli işler belgeli personelinizle operatörsüz; dar geçişli veya yüksek riskli görevler operatörlü planlanabilir. İş listenizi paylaştığınızda hangi görevin hangi modelle yapılacağını birlikte netleştiririz." },
+            { soru: "Operatörlü kiralamada operatör bizim işimizi de yapar mı?", cevap: "Hayır, operatör platformun güvenli kullanımından sorumludur; elektrik, montaj veya teknik onarım gibi işleri kapsam dışında ayrıca üstlenmez. Bu işi yapacak yetkili personel işletmeniz tarafından sağlanır. Sepete çıkacak kişi ve görev dağılımı teklifte netleştirilir." },
+            { soru: "Tek günlük basit bir iş için operatörsüz mü operatörlü mü daha mantıklı?", cevap: "Kısa, düz zeminli ve basit bir iş için belgeli personeliniz varsa operatörsüz seçenek makul olabilir; bedel farkı görece küçük kalabilir. Ancak dar geçiş veya yükseklik riski varsa operatörlü model önerilir. Kesin karşılaştırma, işin gerçek koşuluna göre teklifte yazılır." },
+            { soru: "İki model arasındaki bedel farkını nasıl görürüz?", cevap: "Teklifte operatörlü ve operatörsüz kapsamlar yan yana yazılır: hangi kalemlerin dahil olduğu, belge kontrol süreci ve bedel farkı açıkça gösterilir. Karar, tek bir yüzdelik varsayımla değil, sizin işinizin gerçek süresi ve saha koşuluna göre verilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Operatörsüz kiralamanın belge/eğitim koşulu ve İSG sorumluluğu genel mevzuat bilgisidir; karma model ve teklif karşılaştırması firma pratiğidir. Tesis adı veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota Bakım Platformu — Sanayi Sitesi İçi Paylaşımlı Bakım Turu",
+        giris:
+            "Buca'nın küçük sanayi sitelerinde onlarca atölye ve dükkân aynı sokakta, aynı blokta yan yana çalışır — ve bu yakınlık, tek başına ele alındığında pahalı görünen bir hizmeti, paylaşıldığında herkesin bütçesine sığan bir düzene çevirir. Çok noktalı rota bakım modeli tam bunu yapar: tek bir platform, tek bir günde, önceden planlanmış bir sırayla birden fazla işletmenin yüksekte bekleyen işlerini tek tek tamamlar. Her işletme yalnızca kendi kullanım süresini öder, nakliye bedeli katılımcı sayısına bölünür, faturalar ayrı kesilir ve kimse komşusunun muhasebesine karışmaz. Bu sayfa, bu modelin nasıl kurulduğunu, maliyet paylaşımının mantığını ve rotanın neden basit bir 'sırayla git' değil, teknik uygunluk ve zaman tamponuyla planlanmış bir program olduğunu anlatıyor. Bu, sitenin ana konusudur çünkü küçük sanayi sitesi ekonomisinin tam kalbinde yer alır: bireysel bütçeyle karşılanamayan bir hizmeti, kolektif planlamayla karşılanabilir hâle getirmek.",
+        maddeler: [
+            { baslik: "Rota mantığını 'sırayla git' değil, teknik uygunlukla kurmak", metin: "Çok noktalı rota, coğrafi yakınlıktan önce teknik uygunlukla planlanır: aynı platform sınıfını isteyen işletmeler bir araya getirilir, farklı sınıf gerektiren talep ayrı gruba alınır. Her adresin görev listesi (hedef, ölçü, süre tahmini) önceden alınır ve toplam gün, işletme sayısı ve tahmini süreye göre hesaplanır. Rota, ilk gelen ilk sıra mantığıyla değil, en verimli geçiş sırasıyla kurulur." },
+            { baslik: "Maliyet paylaşım mantığını şeffaf yazmak", metin: "Nakliye bedeli, katılımcı işletme sayısına bölünür; her işletme kendi kullanım süresine göre ayrı fatura alır. Bir işletmenin daha uzun süre kullanması, o işletmenin kendi süre bedelini artırır ama diğerlerinin nakliye payını değiştirmez. Bölüşüm oranı (eşit mi, süreye göre mi) rota kurulmadan önce yazılı netleştirilir; gün sonunda tartışma bırakmayacak şekilde baştan konuşulur." },
+            { baslik: "Her adresin sözleşmesini ve sorumluluğunu ayrı tutmak", metin: "Ortak rota, tek bir kolektif sözleşme değildir; her işletmenin kendi saha teslimi, operatör brifingi ve sorumluluğu ayrı tutulur. Makine bir işyerinden diğerine yalnız güvenli yükleme veya onaylı hareket planıyla geçer, kamuya açık yolda kendi yürüyüşüyle kontrolsüz taşınmaz. Bu ayrım, bir işletmedeki gecikmenin veya sorunun diğerini hukuken etkilememesini sağlar." },
+            { baslik: "Zaman tamponunu gecikme riskine göre kurmak", metin: "Bir işletmenin hazırlığının gecikmesi, sıradaki işletmenin penceresini bozmamalıdır. Bu yüzden her adres arasına, o işin tahmini süresine ve hazırlık riskine göre zaman tamponu bırakılır. Hazırlığı düzenli tamamlayan işletmeler günün başına, riski daha yüksek olan işler ise tampon payı daha geniş bırakılan sıraya yerleştirilir. Program, katılımcılara önceden yazılı paylaşılır." },
+            { baslik: "Katılımcı bir işletme çekilirse dökümü yeniden yazmak", metin: "Rotadaki bir işletme son anda vazgeçerse, kalan katılımcıların nakliye payı değişebilir; bu ihtimal plana baştan yazılır ve çekilme hâlinde yeni döküm, iş gününden önce bildirilir. Mümkünse çekilen yerine bekleme listesindeki başka bir talep eklenir ve payı korunur; mümkün değilse kalan katılımcılara güncel döküm sunulur. Sürpriz, iş günü sabahına bırakılmaz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota bütçe ve karar tablosu",
+                paragraflar: ["Tablo, ortak rota modelinin hangi kararlarla kurulduğunu ve her kararın bütçeye nasıl yansıdığını gösterir. Kesin döküm, katılımcı sayısı ve güncel filo durumuna göre teklifte yazılır."],
+                tablo: {
+                    basliklar: ["Karar", "Belirleyici veri", "Bütçeye etkisi"],
+                    satirlar: [
+                        ["Grup oluşturma", "Aynı platform sınıfını isteyen işletmeler", "Farklı sınıf gerektiren talep ayrı gruplanır, karışıklık önlenir"],
+                        ["Nakliye payı", "Katılımcı sayısı", "Kişi başı pay küçülür, tek başına çağrıdan ucuzlar"],
+                        ["Sıra", "Hazırlık riski ve tahmini süre", "Erken gecikme sonraki adresleri etkilemez"],
+                        ["Zaman tamponu", "İşin karmaşıklığı", "Beklenmeyen gecikme programı bozmaz"],
+                        ["Katılımcı değişimi", "Son anda çekilme/ekleme", "Döküm yeniden yazılır, önceden bildirilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ortak rota nasıl başlatılır",
+                paragraflar: [
+                    "İlk adım her zaman aynıdır: sanayi sitesindeki komşu işletmelerle kısa bir konuşma — 'yüksekte bekleyen işin var mı, tarihin esnek mi' sorusu genelde yeterlidir. Site yönetimi veya esnaf odası üzerinden dönemsel duyuru da bu süreci hızlandırabilir.",
+                    "Talepler tek listede toplanır, her adresin görev listesi ve tahmini süresi alınır, rota ve maliyet dökümü hazırlanır. İlk ortak günü organize etmek en zor adımdır; bir kez kurulduktan sonra model kendi kendini anlatır ve tekrarlanan bir düzene dönüşür." ],
+            },
+            {
+                baslik: "Ortak rotanın sınırları — ne zaman uygun değil",
+                paragraflar: [
+                    "Her iş çok noktalı rotaya uygun değildir. Acil güvenlik riski taşıyan bir iş, rota sırasını beklemez; öncelikli ve tek başına planlanır. Çok farklı makine sınıfı gerektiren işletmeler aynı rotaya zorlanmaz, çünkü bu hem sırayı hem maliyet mantığını bozar.",
+                    "Rota modeli, benzer ölçekli ve zamanlaması esnek işleri bir araya getirdiğinde en verimli sonucu verir. Hangi işin rotaya uygun olduğu, talep alındığında birlikte değerlendirilir; her talebi zorla ortak rotaya sokmayız." ],
+            },
+        ],
+        sss: [
+            { soru: "Ortak rotaya katılmak için kaç işletme gerekiyor?", cevap: "Minimum sayı sabit değildir; iki işletme de yeterli olabilir, katılımcı arttıkça kişi başı nakliye payı küçülür. Önemli olan tarihlerin yakınsaması ve benzer platform sınıfı ihtiyacının olmasıdır. Talebinizi bildirdiğinizde, o dönemde başka uygun talep olup olmadığını da kontrol ederiz." },
+            { soru: "Bizim işimiz uzun sürerse diğer işletmelerin sırası gecikir mi?", cevap: "Bu riski önlemek için her adres arasına, işin tahmini süresine ve hazırlık riskine göre zaman tamponu bırakılır. Süre tahmininiz baştan netse tampon buna göre ayarlanır. Beklenmeyen bir uzama olursa, sıradaki işletmeye önceden haber verilir; sürpriz gecikme yaşatılmaz." },
+            { soru: "Fatura nasıl bölünüyor, biz komşumuzun ödemesinden sorumlu muyuz?", cevap: "Hayır, her işletme kendi kullanım süresine göre ayrı fatura alır; komşunuzun ödemesinden sorumlu değilsiniz. Ortak olan tek kalem nakliyedir, o da katılımcı sayısına bölünür. Bölüşüm oranı rota kurulmadan önce yazılı netleştirilir, gün sonunda tartışma bırakmaz." },
+            { soru: "Rotadaki bir işletme son anda vazgeçerse bizim maliyetimiz artar mı?", cevap: "Artabilir, çünkü nakliye payı katılımcı sayısına göre hesaplanır; bu ihtimal plana baştan yazılır. Çekilme hâlinde güncel döküm iş gününden önce bildirilir. Mümkünse çekilen yerine bekleme listesindeki başka bir talep eklenir ve payınız korunur; bu, sürprizi en aza indirir." },
+            { soru: "Farklı platform sınıfı istiyoruz, yine de aynı rotaya girebilir miyiz?", cevap: "Genelde önerilmez; farklı sınıf gerektiren talepler ayrı gruplanır çünkü aynı rotaya sıkıştırmak hem sırayı hem maliyet mantığını bozar. Ancak aynı gün içinde iki ayrı makinenin farklı rotalarda çalışması, uygunluk varsa değerlendirilebilir. Talebinizi bildirdiğinizde en uygun grup seçeneğini birlikte belirleriz." },
+            { soru: "Acil bir arızamız var ama ortak rota günümüz henüz gelmedi, ne yapmalıyız?", cevap: "Acil güvenlik riski taşıyan işler rota sırasını beklemez; öncelikli ve tek başına planlanır. Ortak rota modeli, ertelenebilir ve zamanlaması esnek işler için tasarlanmıştır. Acil durumda bizi doğrudan arayın, rota programından bağımsız değerlendirilirsiniz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Çok noktalı rota planlaması, maliyet paylaşım mantığı ve zaman tamponu kurgusu firma pratiğidir. Buca'nın küçük sanayi sitesi yoğunluğu kamuya açık bilgidir; tesis adı veya fiyat rakamı uydurulmamıştır.",
+    },
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Platform Kiralama — Buca Bölgesinde Sınırlı Kapsam",
+        giris:
+            "Dürüst bir kapsam beyanıyla başlayalım: Buca ve çevresindeki hizmet alanımız ağırlıklı olarak küçük sanayi sitesi, atölye ve dükkân zemini gibi standart, çoğunlukla düz veya hafif eğimli yüzeylerden oluşuyor — geniş ölçekli engebeli arazi, çamurlu şantiye sahası veya ağır arazi tipi platform gerektiren bir profil bu bölgenin ana karakteri değil. Bu sayfa, olası münferit bir zor zemin talebini karşılamak için var, ama bölgeyi bir arazi/zor zemin uzmanlık merkezi gibi tanıtmıyoruz. Eğer sahanızda gerçekten standart tekerlekli platformun zorlanacağı bir zemin (düzensiz dolgu, eğimli açık alan, sıkışmamış toprak) varsa, önce zemin görülür ve gerçekçi bir değerlendirme yapılır; genel bir arazi hizmeti vaadiyle karşınıza çıkmayız.",
+        maddeler: [
+            { baslik: "Bölgenin gerçek zemin profilini belirtmek", metin: "Buca çevresindeki atölye ve dükkânların büyük kısmı beton veya asfalt zeminli, sanayi sitesi içi düz alanlarda çalışır. Bu, standart tekerlekli veya akülü makaslı platformların büyük çoğunluğu rahatça karşıladığı bir profildir. Zor zemin veya arazi tipi ihtiyaç, bölgede istisnai bir durumdur; sayfayı bu gerçeğe göre kısa tuttuk." },
+            { baslik: "Münferit talep gelirse önce zemini görmek", metin: "Gerçekten düzensiz veya eğimli bir zeminde çalışma talebi gelirse, öncelikle zeminin fotoğrafı, eğim açısı ve taşıma kapasitesi görülür. Standart platformun güvenle çalışamayacağı bir zeminse, bu açıkça belirtilir ve alternatif yöntem (farklı makine sınıfı, zemin takviyesi, ya da işin yapılamayacağı) dürüstçe konuşulur." },
+            { baslik: "Paletli örümcek platformu sınırlı bir çözüm olarak değerlendirmek", metin: "Bazı hafif düzensiz zeminlerde paletli örümcek tipi platform bir çözüm olabilir; bu makine standart tekerlekli platforma göre daha dağınık yük dağılımı sağlar. Ancak bu, her zor zemin sorununu çözen sınırsız bir çözüm değildir — zeminin taşıma kapasitesi ve eğim açısı yine de değerlendirilmelidir." },
+            { baslik: "Ağır arazi tipi ekipman talebini dürüstçe yönlendirmek", metin: "Gerçekten ağır arazi koşulları (çamur, derin dolgu, çok dik eğim) gerektiren bir iş için, filomuzdaki standart ve paletli modellerin yeterli olmayabileceğini açıkça söyleriz. Bu durumda, ihtiyacınıza daha uygun özel ekipmana sahip bir tedarikçiyi araştırmanızı önerebiliriz; müşteriyi yanlış makineyle riske atmayız." },
+            { baslik: "Talebi genel hizmet listesine yönlendirmek", metin: "Çoğu 'zor zemin' talebi aslında standart bir sanayi sitesi zemininde, sadece biraz eski veya çatlak beton gibi hafif zorluklar içerir; bu durumlar standart platform kiralama kapsamımızda rahatlıkla değerlendirilir. Zeminin fotoğrafını paylaştığınızda, gerçekten istisnai bir durum mu yoksa standart kapsamda mı olduğunu birlikte netleştiririz." },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zor zemin talebi için ilk değerlendirme adımları",
+                paragraflar: ["Tablo, münferit bir zor zemin talebinde izlenen değerlendirme adımlarını gösterir. Kesin kapsam, zemin görüldükten sonra yazılır."],
+                tablo: {
+                    basliklar: ["Adım", "Neyi kapsar", "Amaç"],
+                    satirlar: [
+                        ["Fotoğraf ve eğim bilgisi", "Zeminin görsel durumu", "Standart/istisnai zemin ayrımını yapmak"],
+                        ["Taşıma kapasitesi", "Zeminin yük dayanımı", "Uygun makine sınıfını belirlemek"],
+                        ["Alternatif değerlendirme", "Paletli/standart karşılaştırması", "Sınırlı çözümün yeterliliğini görmek"],
+                        ["Dürüst yönlendirme", "Kapsam dışı ihtiyaç", "Yanlış makineyle riske atmamak"],
+                    ],
+                },
+            },
+            {
+                baslik: "Standart zeminle karıştırılan 'zor zemin' örnekleri",
+                paragraflar: [
+                    "Sanayi sitesi içindeki eski, çatlak veya düzensiz beton; hafif eğimli açık avlu; sıkışmamış ama düz toprak alan gibi durumlar genelde 'zor zemin' olarak algılanır ama standart platform kiralama kapsamında rahatlıkla değerlendirilebilir.",
+                    "Gerçek zor zemin, makinenin güvenle duramayacağı derecede yumuşak, çok eğimli veya düzensiz dolgu alanlardır. İkisi arasındaki fark, fotoğraf ve kısa bir tarifle genelde net biçimde ayrılabilir." ],
+            },
+            {
+                baslik: "Dürüst kapsam beyanının nedeni",
+                paragraflar: [
+                    "Her bölge için her hizmeti sunuyormuş gibi görünen jenerik sayfalar, hem arayan kişiyi yanıltır hem de arama motorlarının kopya/doorway içerik olarak değerlendirdiği bir risk taşır.",
+                    "Biz bu sayfayı kısa ve dürüst tuttuk: bölgenin gerçek zemin profilini yansıtıyor, münferit bir talep gelirse nasıl değerlendirileceğini açıkça anlatıyor ve kapsam dışı ihtiyacı gizlemeden söylüyoruz." ],
+            },
+        ],
+        sss: [
+            { soru: "Buca'da arazi tipi zor zeminlerde platform kiralama hizmeti veriyor musunuz?", cevap: "Bölgenin ağırlıklı profili sanayi sitesi ve atölye zemini olduğu için ağır arazi tipi hizmet bizim ana uzmanlık alanımız değildir. Münferit bir talep gelirse zemini görüp gerçekçi bir değerlendirme yaparız; standart filomuzun yetersiz kaldığı durumda bunu açıkça söyleriz." },
+            { soru: "Avlumuzun zemini eski ve çatlak beton, bu zor zemin sayılır mı?", cevap: "Genelde hayır, bu tür durumlar standart platform kiralama kapsamında değerlendirilir. Zeminin fotoğrafını paylaştığınızda, riskli noktalar işaretlenir ve gerektiğinde takoz veya plaka ile geçiş desteklenir. Gerçek anlamda 'zor zemin' daha istisnai ve belirgin bir durumdur." },
+            { soru: "Eğimli bir açık alanda çalışma yapabilir misiniz?", cevap: "Hafif eğimli alanlarda uygun makine sınıfı ve güvenlik önlemiyle çalışma mümkün olabilir; eğim açısı ve zemin taşıma kapasitesi önce görülür. Çok dik eğim veya sıkışmamış zeminde standart platform güvenle duramayabilir, bu durumda dürüstçe alternatif önerilir veya kapsam dışı olduğu söylenir." },
+            { soru: "Paletli platform her zor zemin sorununu çözer mi?", cevap: "Hayır, paletli örümcek tipi platform bazı hafif düzensiz zeminlerde bir çözüm olabilir ama sınırsız bir çözüm değildir. Zeminin taşıma kapasitesi ve eğim açısı yine de değerlendirilmelidir. Gerçekten ağır arazi koşulları için filomuzun yeterli olmayabileceğini açıkça belirtiriz." },
+            { soru: "Zeminimiz standart filonuza uygun değilse ne yaparsınız?", cevap: "Yanlış makineyle riske atmak yerine, ihtiyacınıza daha uygun özel ekipmana sahip bir tedarikçiyi araştırmanızı önerebiliriz. Dürüst kapsam beyanı, hem sizin hem bizim güvenliğimiz ve bütçemiz için en doğru yaklaşımdır." },
+            { soru: "Zeminin zor mu standart mı olduğunu nasıl anlarız?", cevap: "Birkaç fotoğraf ve kısa bir tarif genelde yeterlidir — zeminin düzlüğü, eğimi ve görünür sıkışıklığı bize fikir verir. Emin değilseniz, standart kapsamda mı yoksa istisnai bir değerlendirme mi gerektiğini birlikte netleştiririz; belirsizlikte önce dürüstçe konuşmayı tercih ederiz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Buca'nın küçük sanayi sitesi zemin profili kamuya açık bilgidir; ağır arazi/zor zemin hizmeti ana uzmanlık alanı olarak sunulmamıştır. Tesis adı veya fiyat rakamı uydurulmamıştır.",
+    },
 };
