@@ -1011,4 +1011,1088 @@ export const MANLIFTKIRALA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Yenimahalle'nin dağınık ve site yönetimsiz atölye dokusu ile görece eski yapı stoğu kamuya açık bilgidir; erteleme süresi-maliyet tablosu, kiracı-mülk sahibi kayıt yöntemi ve komşu koordinasyonu firma pratiğidir.",
     },
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Örümcek Platform ile Atölye Bakım Turu — Sincan-Ostim",
+        giris:
+            "Atölye bakım turunun en çok zorlandığı nokta, aslında yükseklik değil erişimdir: tezgah sıraları arasında bir metrelik boşluk, kapı yüksekliği iki metrenin altında bir ara bölme, ya da bir vinç rayının hemen altına sıkışmış bir aydınlatma armatürü. Standart bir makaslı platform bu noktalara girmez; şasesi geniştir, dönüş yarıçapı büyüktür ve dar bir kapıdan geçemez. Sepetli örümcek platform (paletli veya tekerlekli, katlanır kollu tip) bu boşluğu doldurur — dar bir kapıdan içeri girebilir, kolunu bir engelin üzerinden aşırıp arkasındaki noktaya uzatabilir ve zemin izini standart makaslıdan küçük tutar. Sincan-Ostim hattındaki atölyelerin çoğunda bakım rutini kurulurken ilk sorulan soru genelde makine kapasitesi değil, o atölyenin en dar geçişinin kaç santim olduğudur; çünkü rutinin bütün kalemleri erişilebilir değilse takvim kağıt üzerinde kalır. Bu sayfa, örümcek platformun atölye bakım turundaki yerini anlatıyor — hangi noktalarda gerekli olduğunu, hangi noktalarda standart makinenin yeterli olduğunu ve bu ayrımın planlı bir bakım gününe nasıl taşınacağını.",
+        maddeler: [
+            {
+                baslik: "Ne zaman gerçekten gerekir",
+                metin:
+                    "Örümcek platform her atölyede zorunlu değildir; gerekliliği üç durumda netleşir. Birincisi dar geçiş: kapı, koridor veya tezgah arası genişlik standart makaslının şase ölçüsünün altındaysa başka seçenek kalmaz. İkincisi engelli erişim: hedef nokta bir boru hattı, bir kiriş veya bir raf sırasının arkasındaysa, kolun bu engeli aşıp ters yönden yaklaşması gerekir. Üçüncüsü zemin dayanımı: bazı eski atölye zeminlerinde ağır bir makaslının nokta yükü endişe yaratırken, dört noktaya yayılan ayaklı örümcek modeli daha hafif iz bırakır. Bu üç durumdan biri yoksa, standart akülü makaslı genelde daha ekonomik ve daha hızlı kurulan çözümdür.",
+            },
+            {
+                baslik: "Bakım turuna nasıl eklenir",
+                metin:
+                    "Yıllık bakım takviminde örümcek platform tek başına bir gün değil, genel turun içinde tek bir duraktır. Envanter çıkarılırken hangi noktaların dar erişim gerektirdiği işaretlenir; bakım günü geldiğinde o gün için standart makaslı yerine (ya da onunla birlikte) örümcek platform planlanır. Pratikte bu, aynı günde iki farklı makine tipinin sırayla kullanılması anlamına gelebilir — önce açık alanlarda makaslı, sonra dar noktalarda örümcek. Bu geçiş önceden planlandığında ek zaman kaybı yaşanmaz; plansız karşılaşıldığında ise iş yarım kalır ve ikinci bir gün gerekir.",
+            },
+            {
+                baslik: "Ertelemenin bu noktalarda daha pahalı olma nedeni",
+                metin:
+                    "Erişimi zor noktalar, tam da erişimi zor olduğu için genelde en çok ihmal edilen noktalardır — kimse merdivenle o köşeye ulaşmaya çalışmaz, dolayısıyla sorun uzun süre görülmez. Bu, ertelemenin faturasını büyütür: dar bir aralıktaki kablo tavası bağlantısı gevşediğinde fark edilmesi diğer noktalardan daha uzun sürer ve bulunduğunda genelde ilerlemiş durumdadır. Bakım rutinine erişimi zor noktaları özellikle işaretlemek, bu köşelerin görünmez kalma süresini kısaltır.",
+            },
+            {
+                baslik: "Operatör ve yerleşim koordinasyonu",
+                metin:
+                    "Dar alanda çalışan bir makinenin yanında sabit tezgah, malzeme yığını veya geçiş güzergâhı varsa, iş günü öncesi kısa bir yerleşim kontrolü zaman kazandırır. Hangi tezgahın o gün için kaydırılacağı, hangi geçişin boşaltılacağı önceden bilinirse, makine kurulumu dakikalar içinde biter; plansız karşılaşılan bir engel ise kurulumun yarısını yeniden düzenlemeyi gerektirebilir.",
+            },
+            {
+                baslik: "Standart makaslı ile birlikte kullanım",
+                metin:
+                    "Çoğu bakım gününde iki makine tipi birbirini tamamlar; örümcek platformun tek başına atölyeyi karşılaması beklenmez. Açık alanlardaki aydınlatma ve kablo tavası kalemleri standart makaslıyla hızlı biter; sadece dar geçiş veya engelli erişim gerektiren birkaç nokta örümcek platforma kalır. Bu ayrım, günün toplam süresini kısaltır çünkü her nokta için en uygun aracı seçmek, tek tip makineyle her yeri zorlamaktan hem hızlı hem güvenlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki makine tipinin atölyedeki tipik iş bölümü",
+                paragraflar: [
+                    "Aşağıdaki tablo, bir bakım gününde iki makine tipinin hangi noktalarda tercih edildiğini özetler. Kesin seçim, atölyenin kendi ölçüleri ve o günkü bulgu listesine göre belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Tipik genişlik/engel", "Tercih edilen makine", "Gerekçe"],
+                    satirlar: [
+                        ["Açık tezgah aralığı", "Geniş, engelsiz", "Standart makaslı", "Hızlı kurulum, geniş sepet"],
+                        ["Dar kapı/koridor", "Şase genişliğinin altı", "Örümcek platform", "Katlanır kol dar geçişten girer"],
+                        ["Boru/kiriş arkası", "Doğrudan erişim yok", "Örümcek platform", "Kol engeli aşıp ters yönden ulaşır"],
+                        ["Hassas zemin bölgesi", "Nokta yükü sınırlı", "Örümcek platform (ayaklı)", "Yük dört noktaya yayılır"],
+                        ["Geniş depo koridoru", "Düz, engelsiz", "Standart makaslı", "Yatay hareket hızı yüksek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ölçü almadan önce iki şey netleştirin",
+                paragraflar: [
+                    "Doğru makine seçimi için iki ölçü yeterlidir: en dar geçişin genişliği ve tavan yüksekliği. Bu ikisi bilindiğinde hangi modelin şaseye sığacağı ve hangi kol uzunluğunun hedefe ulaşacağı önceden hesaplanır; sahada ölçüp geri gönderme riski ortadan kalkar. Ölçüyü kesin bilmiyorsanız, kapı genişliğini santimetreye yuvarlamadan, biraz dar tahmin etmeniz daha güvenlidir — geniş tahmin edilen bir kapının sahada dar çıkması, günün en sık yaşanan aksaklığıdır.",
+                    "İkinci nokta, hedef yüksekliğin gerçek konumu değil de tavan yüksekliği söylenmesidir. Bir armatür tavana değil, tavandan aşağı sarkan bir konsola bağlıysa gerçek çalışma yüksekliği daha düşüktür; bu fark, gereğinden büyük bir makinenin boşuna planlanmasını önler.",
+                ],
+            },
+            {
+                baslik: "Rutine erişim notu eklemek",
+                paragraflar: [
+                    "Bakım defterine bir kalem eklerken sadece ne yapıldığını değil, o noktaya nasıl ulaşıldığını da yazmak, ikinci yılın planlamasını hızlandırır. 'Bu nokta örümcek platform gerektirir' notu, bir sonraki tur öncesi doğru makinenin baştan planlanmasını sağlar ve sahada ikinci bir makine çağırma ihtiyacını ortadan kaldırır.",
+                    "Bu notlar zamanla atölyenin kendi erişim haritasına dönüşür — hangi köşenin hangi ekipmanla çalışıldığı bilindiğinde, yeni bir bakım turu planlarken tahmine değil kayda dayanılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform ile makaslı platform arasındaki asıl fark nedir?",
+                cevap:
+                    "Fark erişim geometrisindedir, kapasitede değil. Makaslı platform dikey olarak yükselir ve sepeti geniştir, ama şasesi büyüktür ve dar bir kapıdan geçmez. Örümcek platform ise katlanabilir kollarla dar bir geçişten içeri girip, kolunu açarak hem yükselir hem yatayda bir engelin üzerinden aşabilir. Atölye içinde tezgah aralıkları ve dar koridorlar varsa örümcek platform, açık ve geniş alanlarda ise standart makaslı genelde daha ekonomik ve hızlı çözümdür. İki makine birbirinin yerine geçmez, birbirini tamamlar.",
+            },
+            {
+                soru: "Atölyemizin en dar geçişi ne kadar olmalı ki örümcek platform sığsın?",
+                cevap:
+                    "Bu, modelin şase genişliğine göre değişir ve tek bir sayı vermek yanıltıcı olur — dar gövdeli paletli modeller standart bir kapı genişliğinden geçebilirken, daha büyük kapasiteli modeller daha geniş bir açıklık ister. Doğru yol, önce atölyenizin en dar geçişini ölçmeniz, sonra bu ölçüye uygun modelin size önerilmesidir. Ölçüyü paylaşırsanız, hem geçişten hem de hedef yükseklikten uygun modeli birlikte belirleriz; tahmine dayalı makine göndermeyiz.",
+            },
+            {
+                soru: "Bu makine, bakım turunun tamamını mı yoksa sadece bir bölümünü mü kapsar?",
+                cevap:
+                    "Genelde bir bölümünü. Çoğu bakım gününde atölyenin açık alanları standart makaslıyla, sadece dar geçiş veya engelli erişim gerektiren birkaç nokta örümcek platformla çalışılır. Turun tamamını tek makineyle yapmaya çalışmak, ya açık alanlarda gereksiz yavaşlığa ya da dar noktalarda erişim sorununa yol açar. Envanter turunda hangi noktaların hangi makineyi gerektirdiğini işaretlemek, bakım gününün akışını baştan netleştirir.",
+            },
+            {
+                soru: "Zemin hassas, ağır makine izin bırakır diye endişeleniyoruz; çözüm var mı?",
+                cevap:
+                    "Var — bu tam olarak ayaklı örümcek modellerin çözdüğü sorundur. Dört ayrık ayak üzerinde durduğu için yük, tek bir nokta yerine geniş bir alana yayılır ve hassas veya perdahlı zeminlerde standart tekerlekli bir makineden daha az iz bırakır. Zeminin tipini (epoksi, perdahlı beton, eski şap) önceden belirtirseniz, hem uygun lastik/ayak tipini hem de gerekirse koruyucu altlık ihtiyacını birlikte planlarız.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyor, kendi ekibimiz mi kullanabilir?",
+                cevap:
+                    "İkisi de mümkündür, ama örümcek platformun kol hareketi ve denge mantığı standart makaslıdan farklıdır; ilk kez kullanacak bir ekip için kısa bir yerinde bilgilendirme öneririz. Dar alanda çalışan bir makinede kolun engelle teması, sepetteki kişinin görüş açısını kolayca kaybetmesi gibi riskler standart kullanımdan daha belirgindir. Sık kullanılan bir kalemse kendi ekibinizin eğitimi zamanla kendini amorti eder; tek seferlik veya nadiren tekrarlanan bir iş için operatörlü çalışmak daha pratiktir.",
+            },
+            {
+                soru: "Bu makineyi her yıl mı çağırmamız gerekiyor, yoksa sadece ihtiyaç oldukça mı?",
+                cevap:
+                    "Bu, atölyenizin dar erişim gerektiren nokta sayısına bağlıdır. Birkaç sabit noktanız varsa (örneğin belirli bir boru arkasındaki armatür), bu noktalar yıllık bakım turuna sabit bir kalem olarak eklenir ve her seferinde aynı planla çalışılır. Yeni bir dar nokta ortaya çıkarsa (örneğin yeni bir tezgah yerleşimi), envanter güncellenirken bu da listeye eklenir. Rutin kurulduktan sonra bu makine, yılın rastgele bir gününde değil, önceden bilinen bakım gününde ve önceden bilinen noktalarda devreye girer.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Örümcek platformun dar geçiş/engelli erişim ve zemin yükü avantajları genel ekipman mühendisliği bilgisidir; Sincan-Ostim atölye dokusuna uygulanışı firma pratiğidir. Tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Sincan-Ostim Bakım Turu için Nakliye ve Teslimat",
+        giris:
+            "Planlı bir bakım gününün en görünmez maliyeti nakliyedir; makinenin kendisi kadar konuşulmaz ama takvimin gerçekçi olup olmadığını belirleyen kalemlerden biridir. Sincan ile Ostim arasındaki mesafe, tek başına ele alındığında küçük bir ayrıntı gibi görünür; ama bir atölyenin yıllık bakım planı birkaç günü kapsıyorsa ve her gün ayrı bir nakliye gerektiriyorsa, bu küçük ayrıntı toplamda belirgin bir kaleme dönüşür. Nakliyeyi bakım rutininin bir parçası olarak planlamak — hangi günde hangi makinenin nereden nereye gideceğini önceden bilmek — hem maliyeti hem de günün başlama saatini öngörülebilir kılar. Bu sayfa, bakım turu sevkiyatının nasıl planlandığını, komşu işletmelerle paylaşılan nakliyenin nasıl işlediğini ve acil bir çağrıda sevkiyat süresinin neye göre değiştiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Planlı gün ile acil çağrı arasındaki sevkiyat farkı",
+                metin:
+                    "Planlı bir bakım gününde nakliye, takvime göre günler önceden ayarlanır: makine, gerekli saatte, doğru güzergâhla ve genelde diğer planlı işlerle çakışmayan bir zaman diliminde yola çıkar. Acil bir çağrıda ise sevkiyat, o anki makine müsaitliğine bağlıdır — en yakın uygun makine hangi işteyse, boşalma süresi bekleme süresine eklenir. İki durumun sevkiyat süresi bu yüzden aynı değildir ve bu farkı baştan söylemek, planlı bakımın acil çağrıya göre neden daha öngörülebilir olduğunu somutlaştırır.",
+            },
+            {
+                baslik: "Sincan-Ostim hattının mesafe gerçeği",
+                metin:
+                    "Sincan ve Ostim, Ankara'nın batı-orta sanayi hattında birbirine yakın iki bölgedir ve bu yakınlık, aynı gün içinde birden fazla noktaya sırayla hizmet vermeyi mümkün kılar. Bir günde iki veya üç işletmenin bakım turu art arda planlandığında, makinenin bir noktadan diğerine geçiş süresi kısa kalır ve bu süre, işletmeler arasında paylaşılan nakliye maliyetinin küçülmesini sağlar. Bu, tek bir işletmenin talebiyle değil, aynı haftaya denk gelen birkaç talebin birlikte planlanmasıyla ortaya çıkan bir avantajdır.",
+            },
+            {
+                baslik: "Ortak gün modeliyle nakliye paylaşımı",
+                metin:
+                    "Aynı sanayi adasındaki ya da yakın sokaklardaki birkaç işletme, bakım tarihlerini aynı haftaya, hatta aynı güne denk getirdiğinde makine tek bir sevkiyatla birden fazla noktaya hizmet verir ve nakliye kalemi işletme başına belirgin biçimde düşer. Bu düzeni kurmanın koşulu basittir: katılacak işletmelerin kabaca aynı hafta içinde uygun olması ve sıralamanın önceden netleşmesi. Talep sırasında bu niyeti belirtirseniz, komşu işletmelerle koordinasyonu ve sırayı birlikte kurarız.",
+            },
+            {
+                baslik: "Teslimat saatinin üretim programıyla uyumu",
+                metin:
+                    "Nakliye planlaması sadece güzergâhla değil, teslimat saatinin üretim programına uyumuyla da ilgilidir. Vardiya başlangıcından hemen önce gelen bir makine, kurulum için üretim başlamadan önce boş bir pencere bulur; vardiya ortasında gelen aynı makine ise kurulum süresince üretim akışını kesintiye uğratabilir. Teslimat saatini üretim programınıza göre belirlemek, günün toplam süresini kısaltan basit ama sık atlanan bir ayrıntıdır.",
+            },
+            {
+                baslik: "Erişim ve indirme koşullarını önceden bildirmek",
+                metin:
+                    "Bir makinenin ne kadar sürede indirilip kurulacağı, sadece mesafeye değil atölyenin giriş koşullarına da bağlıdır: kapı genişliği, rampa eğimi, park alanının durumu. Bu bilgiler teslimattan önce bilinirse şoför ve ekip doğru araçla ve doğru sırayla hazırlanır; sahada karşılaşılan bir dar kapı veya beklenmedik bir rampa, teslimat süresini planlanandan uzatan en sık nedendir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Nakliye planlamasında karar noktaları",
+                paragraflar: [
+                    "Aşağıdaki tablo, bir bakım gününün nakliye tarafında sorulan asıl soruları ve bunların sonucu neyi etkilediğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Karar noktası", "Soru", "Etkilediği şey"],
+                    satirlar: [
+                        ["Zamanlama", "Planlı mı, acil mi", "Bekleme süresi"],
+                        ["Ortak gün", "Komşu işletme katılıyor mu", "İşletme başına maliyet"],
+                        ["Teslimat saati", "Vardiya öncesi mi, ortası mı", "Üretim kesintisi"],
+                        ["Erişim bilgisi", "Kapı/rampa ölçüsü paylaşıldı mı", "Kurulum süresi"],
+                        ["Güzergâh", "Sincan mı, Ostim mi, ikisi mi", "Toplam sevkiyat süresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bir bakım turunda birden fazla makine gerekiyorsa",
+                paragraflar: [
+                    "Bazı bakım günlerinde tek makine yetmez — örneğin açık alan için standart makaslı, dar bir köşe için örümcek platform aynı gün gerekebilir. Bu durumda iki makinenin sevkiyatı tek seferde, birbirini takip edecek biçimde planlanır; ayrı ayrı çağrılan iki makine hem daha pahalı hem de koordinasyonu zor bir güne dönüşür. Birden fazla ihtiyacınız varsa bunu talep sırasında birlikte belirtmeniz, tek bir planlı gün kurmamızı sağlar.",
+                    "Aynı mantık, bir işletmenin farklı bölümleri (örneğin ana atölye ve ek depo) için de geçerlidir — iki nokta aynı sevkiyat penceresinde art arda çalışılabiliyorsa, ayrı günlere bölmek yerine tek günde toplamak nakliyeyi tekilleştirir.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat gecikmesinin gerçek nedenleri",
+                paragraflar: [
+                    "Sevkiyat gecikmeleri genelde üç nedenden biriyle açıklanabilir: önceki işin planlandığından uzun sürmesi, trafik veya hava koşulları, ya da teslimat noktasında beklenmedik bir erişim sorunu. İlk ikisi tahmin edilebilir ama tam kontrol edilemez; üçüncüsü ise önceden paylaşılan bilgiyle büyük ölçüde önlenebilir. Bu yüzden erişim bilgisini (kapı ölçüsü, park durumu, varsa asansör/rampa) teslimattan önce netleştirmek, gecikme riskini en çok azaltan tek adımdır.",
+                    "Gecikme yaşandığında dürüst iletişim önemlidir: tahmini yeni saat, gerçek durum netleşir netleşmez bildirilir. Belirsizliği 'yolda' demekle geçiştirmek yerine, ne kadar geciktiğini ve nedenini söylemek, planlı günün üretim programınızla ilişkisini yönetmenizi kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sincan ile Ostim arasında nakliye süresi ne kadar tutuyor?",
+                cevap:
+                    "Kesin bir süre vermek yanıltıcı olur çünkü trafik, güzergâh ve makinenin bir önceki işten çıkış saati bunu etkiler; ama iki bölgenin birbirine yakınlığı, aynı gün içinde art arda birkaç noktaya hizmet vermeyi pratikte mümkün kılar. Planlı bir bakım günü için tarih ve saat netleştiğinde, o güne özgü gerçekçi bir zaman penceresi paylaşırız — genel bir ortalama yerine sizin planınıza göre bir tahmin veririz.",
+            },
+            {
+                soru: "Komşu işletmelerle ortak nakliye nasıl kurulur, kim organize eder?",
+                cevap:
+                    "Genelde ilk adımı bir işletme atar: kendi bakım tarihini belirler ve komşularına aynı haftaya katılmak isteyip istemediklerini sorar. Katılım olduğunda, hangi işletmenin hangi saatte hazır olacağını ve sıralamayı biz kurarız — sizin yapmanız gereken tek şey, katılacak işletmelerin adını ve iletişim bilgisini iletmektir. Site yönetimi olan yerlerde bu koordinasyonu yönetimle birlikte de kurabiliriz.",
+            },
+            {
+                soru: "Acil bir arızada aynı gün makine gelir mi?",
+                cevap:
+                    "Sincan-Ostim hattı sevkiyat açısından bize yakın olduğu için çoğu zaman evet, ama dürüst cevap bunun garanti edilemeyeceğidir. Makinelerin planlı işlere ayrıldığı yoğun dönemlerde en yakın uygun makinenin ne zaman serbest kalacağını saatiyle söyleriz; tutulamayacak bir 'hemen geliriz' sözü vermeyiz. Kritik kalemleri arıza beklemeden plana almak, bu belirsizliği ortadan kaldıran tek gerçek yoldur.",
+            },
+            {
+                soru: "Atölyemizin kapısı dar, nakliye ve indirme nasıl planlanır?",
+                cevap:
+                    "Kapı genişliğini, varsa rampa eğimini ve park alanının durumunu önceden bildirmeniz, doğru makine tipinin ve doğru indirme sırasının baştan planlanmasını sağlar. Bu bilgi olmadan gelen bir sevkiyatta, sahada karşılaşılan dar bir kapı veya beklenmedik bir rampa, kurulumu planlanandan uzatan en sık nedendir. Ölçüleri talep sırasında paylaşırsanız, gerekirse örümcek platform gibi dar geçişe uygun bir alternatifi de birlikte değerlendiririz.",
+            },
+            {
+                soru: "Aynı gün birden fazla makineye ihtiyacımız olursa nakliye nasıl işler?",
+                cevap:
+                    "İki makine aynı gün gerekiyorsa (örneğin açık alan için bir tip, dar bir köşe için başka bir tip), sevkiyatı tek seferde ve birbirini takip edecek biçimde planlarız; bu, ayrı ayrı çağrılan iki makineden hem daha ekonomik hem daha az koordinasyon gerektiren bir kurgudur. İhtiyacınızı talep sırasında birlikte belirtmeniz yeterlidir.",
+            },
+            {
+                soru: "Teslimat saatini üretim programımıza göre ayarlayabilir miyiz?",
+                cevap:
+                    "Evet ve önerdiğimiz de budur. Vardiya başlamadan önceki pencereye denk getirilen bir teslimat, kurulumun üretim akışını kesmeden bitmesini sağlar; vardiya ortasına denk gelen aynı teslimat ise akışı bölebilir. Vardiya saatlerinizi ve varsa üretimin en durgun olduğu saati paylaşırsanız, teslimat penceresini buna göre planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sincan-Ostim hattının coğrafi yakınlığı kamuya açık bilgidir; ortak gün modeli, teslimat saati planlaması ve erişim bilgisi uygulaması firma pratiğidir. Rakam ve süre uydurulmamıştır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Atölye Bakım Turunda Forklift ile İstifleme ve Kontrol",
+        giris:
+            "Bir atölyenin yıllık bakım rutini genelde yükseğe erişimle anılır, ama aynı takvimde forkliftin de kendi yeri vardır — hem bakım gününün hazırlık aşamasında hem de kendi başına bir kontrol kalemi olarak. Bakım turu öncesi raf sıraları arasında malzeme taşımak, ağır parçaları kaldırıp indirmek veya bir bölgeyi boşaltmak forkliftin işidir; bakım turunun kendisinde ise forkliftin mastı, çatalları ve raf sistemiyle teması kontrol listesine giren bir kalemdir. Sincan-Ostim hattındaki atölyelerde forklift genelde günlük operasyonun bir parçası olduğu için bakımı da günlük operasyonun gölgesinde kalır — sorun çıkana kadar gündeme gelmez. Oysa forklift, yükseğe erişim ekipmanlarıyla aynı mantıkla ele alınabilir: periyodik bir kontrol takvimine bağlandığında hem arıza riski azalır hem de ihtiyaç anında makine kiralamak yerine planlı bir günde iş bitirilir. Bu sayfa, forkliftin atölye bakım rutinindeki iki rolünü — hazırlık aracı ve kontrol kalemi olarak — anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Bakım gününün hazırlık aracı olarak forklift",
+                metin:
+                    "Yükseğe erişim gerektiren bir bakım turu başlamadan önce, çalışma alanının altındaki malzemenin taşınması gerekir — paletler kaydırılır, raf önündeki yığınlar toplanır, geçici olarak bir bölge boşaltılır. Bu hazırlık işi forkliftle yapıldığında, asıl bakım turu boşaltılmış ve erişilebilir bir alanda başlar. Hazırlığı atlayan bir bakım günü, turun ilk saatini malzeme kaydırmakla geçirir ve bu, planlanan sürenin belirgin bir kısmını yer.",
+            },
+            {
+                baslik: "İstifleme kiralamasında kapasite seçimi",
+                metin:
+                    "Atölye içi istiflemede en sık karşılaşılan yanlış, gerçek ihtiyaçtan büyük kapasiteli bir forklift kiralamaktır — büyük makine dar koridorlarda manevra zorluğu çıkarır ve genelde gereksiz yakıt/enerji maliyeti getirir. Doğru seçim, taşınacak en ağır palet ile raf koridorunun genişliğine göre yapılır; iç mekân kullanımında elektrikli/akülü modeller, egzoz gazı çıkarmadıkları için kapalı atölyede tercih edilir.",
+            },
+            {
+                baslik: "Forkliftin kendi periyodik kontrolü",
+                metin:
+                    "Forklift, düzenli çalışan bir ekipman olarak kendi aşınma kalemlerine sahiptir: hidrolik hortum ve bağlantılarda sızıntı, mast zincirlerinde gerginlik, çatal ucunda deformasyon, lastik/tekerlek aşınması. Bu kalemler günlük kullanımda fark edilmeyecek kadar yavaş ilerler ama periyodik bir gözle bakıldığında erken yakalanır. Atölyenin yıllık bakım takvimine forkliftin kendi kontrol turunu da eklemek, aynı mantığı — planlı kontrol, ertelenmiş arızadan ucuzdur — bu makineye de taşımak demektir.",
+            },
+            {
+                baslik: "Raf sistemiyle temas noktaları",
+                metin:
+                    "Forklift ile raf sistemi arasındaki sürtünme, atölye bakım turunun sık gözden kaçan bir kalemidir. Çatalın raf ayağına sürtmesi, palet indirirken kirişe hafif çarpması zamanla raf yapısında görünmeyen bir yorulmaya yol açabilir. Bakım turunda raf ayaklarının ve alt kirişlerin görsel kontrolü, forkliftin kendi kontrolüyle birlikte planlandığında, bu iki kalem tek bir gözlemde birleşir ve ayrı bir tur gerektirmez.",
+            },
+            {
+                baslik: "Ertelemenin forklift tarafındaki faturası",
+                metin:
+                    "Bir hidrolik sızıntının ertelenmesi, önce performans kaybına, sonra daha büyük bir parça değişimine dönüşür; aşınmış bir çatal ucu fark edilmeden kullanılmaya devam ederse palet güvenliğini riske atar. Bu kalemlerin çoğu, periyodik bir kontrolde erken ve ucuz biçimde yakalanır; arıza anında ise hem makinenin o gün devre dışı kalması hem de acil parça tedariki devreye girer — planlı bir kontrolün maliyetiyle kıyaslanamayacak kadar yüksek bir fatura.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forkliftin atölye bakım turundaki iki rolü",
+                paragraflar: [
+                    "Aşağıdaki tablo, forkliftin bir bakım gününde üstlendiği iki farklı görevi ve bunların takvimdeki yerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Rol", "Ne zaman devrede", "Tipik iş", "Takvimdeki yeri"],
+                    satirlar: [
+                        ["Hazırlık aracı", "Bakım günü başlamadan önce", "Alan boşaltma, malzeme kaydırma", "Aynı günün ilk saati"],
+                        ["İstifleme", "Genel operasyon içinde", "Palet taşıma, raf yerleştirme", "İhtiyaç bazlı kiralama"],
+                        ["Kontrol kalemi", "Yıllık bakım turu", "Hidrolik, mast, çatal kontrolü", "Yılda 1 tur"],
+                        ["Raf teması gözlemi", "Yıllık bakım turu", "Ayak/kiriş görsel kontrolü", "Forklift kontrolüyle birlikte"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bakım günü öncesi alan hazırlığı",
+                paragraflar: [
+                    "Bir bakım turunun süresi, çoğu zaman makinenin hızından değil alanın hazır olup olmamasından etkilenir. Yükseğe erişim ekipmanının çalışacağı bölgenin altındaki malzemenin önceden kaydırılmış olması, turun ilk saatini boşa geçirmez. Bu hazırlığı forkliftle önceden yapmak isterseniz, bakım günüyle aynı sabaha ya da bir gün öncesine planlanabilir; talep sırasında belirtmeniz yeterlidir.",
+                    "Hazırlık aşamasında dikkat edilecek tek nokta, boşaltılan malzemenin geçici olarak nereye konulacağıdır — rastgele bir köşeye yığılan malzeme, bu kez başka bir geçişi tıkayabilir. Yerleşim planınızı paylaşırsanız, hem boşaltma hem geçici depolama noktasını birlikte belirleriz.",
+                ],
+            },
+            {
+                baslik: "Kendi forkliftiniz varsa ne değişir",
+                paragraflar: [
+                    "Atölyenizin kendi forklifti varsa, bu sayfa size kiralama değil kontrol takvimi öneriyor demektir. Kendi makinenizin periyodik kontrolünü yıllık bakım turunuza eklemek, forkliftin kendi bakım defterini de aynı mantıkla tutmak anlamına gelir — hangi kalem, ne zaman kontrol edildi, hangi bulgu görüldü. Ek bir kapasiteye ihtiyaç duyduğunuz (örneğin büyük bir hazırlık işi veya kendi makinenizin bakımda olduğu dönem) durumlarda kiralama, sürekli değil ihtiyaç bazlı bir çözüm olarak devreye girer.",
+                    "Bu iki modelin (sahiplik + ihtiyaç bazlı kiralama) birlikte kullanılması, çoğu atölye için en ekonomik yoldur — sürekli kullanım kendi makinenizde, dönemsel ekstra ihtiyaç kiralamada karşılanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bakım turu öncesi hazırlık için forklift kiralamak zorunda mıyız?",
+                cevap:
+                    "Zorunlu değil, ama alanınızda taşınacak yoğun malzeme varsa süreyi belirgin kısaltır. Küçük bir atölyede birkaç paletin elle kaydırılması yeterli olabilir; orta-büyük ölçekte ise forkliftle yapılan hazırlık, bakım turunun ilk saatini boşa geçirmemenizi sağlar. Alanınızın durumunu ve taşınacak malzeme miktarını paylaşırsanız, hazırlığın gerekip gerekmediğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "İç mekânda hangi forklift tipi tercih edilmeli?",
+                cevap:
+                    "Kapalı atölyede elektrikli/akülü modeller tercih edilir çünkü egzoz gazı çıkarmazlar ve içeride kullanım için tasarlanmışlardır — dizel bir forklift kapalı alanda hem havalandırma sorunu hem de gürültü yaratır. Kapasiteyi ise taşınacak en ağır palet belirler; gereğinden büyük bir makine, dar koridorlarda manevra sorunu çıkarır. Koridor genişliğinizi ve tipik palet ağırlığınızı paylaşırsanız uygun modeli birlikte belirleriz.",
+            },
+            {
+                soru: "Forkliftin kendi bakımını ne sıklıkla kontrol ettirmeliyiz?",
+                cevap:
+                    "Kullanım yoğunluğuna göre değişir; sürekli çalışan bir forklift, ara sıra kullanılan bir makineden daha sık kontrol ister. Genel bir çerçeve olarak, hidrolik sızıntı ve mast zinciri gerginliği gibi kalemlerin yılda en az bir kez, yoğun kullanımda daha sık gözden geçirilmesi önerilir. Kullanım sıklığınızı paylaşırsanız, atölyenizin genel bakım takvimine uygun bir kontrol aralığı önereceğiz.",
+            },
+            {
+                soru: "Raf sistemiyle forklift arasındaki temas neden bakım konusu?",
+                cevap:
+                    "Çünkü tek bir çarpma görünür bir hasar bırakmasa da, tekrarlayan hafif temaslar zamanla raf yapısında yorulmaya yol açabilir ve bu birikim, ani bir çökme riskiyle sonuçlanabilir. Bakım turunda raf ayaklarının ve alt kirişlerin görsel kontrolü, tam bu birikimi erken yakalamak içindir. Bu kontrolü forkliftin kendi kontrolüyle birlikte planlamak, ayrı bir tur gerektirmeden iki kalemi tek gözlemde toplar.",
+            },
+            {
+                soru: "Kendi forkliftimiz var ama bazen yetmiyor; sadece o günler için kiralama mümkün mü?",
+                cevap:
+                    "Evet, bu en sık karşılaştığımız kullanım biçimidir. Yoğun bir hazırlık günü, kendi makinenizin bakımda olduğu bir dönem veya beklenmedik bir yük artışı için tek günlük ya da birkaç günlük kiralama yapılabilir. İhtiyacın ne zaman ve ne kadar süreceğini önceden bildirirseniz, planlı bakım gününüzle çakışmayacak biçimde ayarlarız.",
+            },
+            {
+                soru: "Forklift bakımını da atölye bakım takvimimize nasıl ekleriz?",
+                cevap:
+                    "Envanter turunda diğer yüksek kalemlerle birlikte forkliftinizi de listeye ekleyin: hangi kontrol, hangi ayda yapılacak. Yıllık bakım gününüz belirlendiğinde forkliftin kontrolünü aynı güne ya da yakın bir tarihe denk getirmek, ayrı bir randevu gerektirmez ve bakım defterinize tek bir kayıt olarak girer. İsterseniz bu eklemeyi ilk bakım turunuzda birlikte yaparız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forkliftin periyodik kontrol kalemleri genel ekipman bakım mühendisliği bilgisidir; atölye bakım turuna entegrasyonu ve raf teması gözlemi firma pratiğidir. Tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform ile Atölye Periyodik Bakımı",
+        giris:
+            "Standart makaslı platform çoğu atölye bakım kalemini karşılar, ama bazı noktalar dikey değil eğik veya yatay bir yaklaşım ister — bir boru hattının altından geçip üzerine çıkmak, bir çelik kolonun yan yüzeyine ulaşmak, ya da bir vinç kirişinin altından kolu döndürerek üst yüzeyine bakmak gibi. Eklemli platform (boom lift), kolunun hem yükselip hem yatayda uzayabilmesi ve dönebilmesi sayesinde bu tür noktalara makaslının erişemediği açılardan ulaşır. Sincan-Ostim hattındaki atölyelerin bakım turlarında eklemli platform, her gün değil ama düzenli aralıklarla ihtiyaç duyulan bir kalemdir — genelde çatı altı çelik konstrüksiyon, vinç ray hattı çevresi veya birden fazla engelin art arda geldiği noktalarda devreye girer. Bu sayfa, eklemli platformun atölye periyodik bakımındaki yerini, hangi noktalarda makaslıya tercih edildiğini ve bu seçimin bakım takvimine nasıl yerleştiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kol geometrisinin fark yarattığı noktalar",
+                metin:
+                    "Eklemli platformun asıl avantajı, kolun birden fazla eklemden bükülebilmesidir — bu sayede bir engelin altından geçip üzerinden dönerek hedefe ulaşabilir. Atölyede bu, çatı kirişinin alt yüzeyi ile üst yüzeyi arasında geçiş yapmak, ya da bir boru hattının arkasındaki bir noktaya önden değil yandan yaklaşmak gerektiğinde işe yarar. Standart makaslı sadece dikey yükselir; kolun yatay uzanımı ve dönüşü olmadığı için bu tür noktalara ulaşamaz.",
+            },
+            {
+                baslik: "Vinç ray hattı ve çatı altı kontrolü",
+                metin:
+                    "Vinçli atölyelerde ray hattının, tamponların ve kiriş bağlantılarının periyodik görsel kontrolü, genelde eklemli platform gerektiren bir kalemdir çünkü hem yükseklik hem de kirişin farklı yüzeylerine ulaşma ihtiyacı bir arada bulunur. Bu kontrol, atölyenin yıllık bakım takviminde ayrı bir gün olarak değil, genel bakım turunun içinde bir durak olarak planlanır ve genelde yasal kaldırma ekipmanı kontrolleriyle aynı döneme denk getirilir.",
+            },
+            {
+                baslik: "Makaslı ile eklemli arasında seçim",
+                metin:
+                    "Seçim basit bir kurala dayanır: hedef doğrudan yukarıdaysa ve engelsiz bir zeminden erişiliyorsa makaslı yeterlidir ve genelde daha ekonomiktir; hedef bir engelin arkasında, yandaysa veya birden fazla açıdan yaklaşım gerektiriyorsa eklemli platform gerekir. Bu ayrımı önceden yapmak, bakım gününde yanlış makineyle karşılaşıp işi yarım bırakma riskini ortadan kaldırır.",
+            },
+            {
+                baslik: "Bu domainin ana konusu neden değil",
+                metin:
+                    "Bu sayfanın odağı atölye ve fabrika bakım rutinidir; eklemli platform bu rutinin içinde belirli noktalarda ihtiyaç duyulan bir araçtır, ama Sincan-Ostim atölye dokusunun çoğu bakım kalemi (aydınlatma, kablo tavası, emiş temizliği) dikey erişimle, yani standart makaslıyla karşılanır. Bu yüzden eklemli platformu her atölyeye önermiyoruz — çatı altı çelik konstrüksiyon, vinç hattı veya çok sayıda engelli nokta içeren atölyelerde gerçekten fayda sağlar.",
+            },
+            {
+                baslik: "Bakım turuna dahil edilirken dikkat edilenler",
+                metin:
+                    "Eklemli platform planlanırken iki bilgi önemlidir: hedef noktanın tavana olan mesafesi ve o noktaya yaklaşırken kolun hangi yönden dönmesi gerektiği. Bu iki bilgi netse doğru kol uzunluğuna sahip model önceden belirlenir; net değilse sahada ölçüm yapılıp uygun olmayan bir makinenin geri gönderilmesi riski doğar. Envanter turunda bu noktaların not edilmesi, bir sonraki bakım döneminde doğru makinenin baştan planlanmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı ve eklemli platform karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, atölye bakım turunda iki makine tipinin hangi durumlarda tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Makaslı platform", "Eklemli platform"],
+                    satirlar: [
+                        ["Hedef doğrudan yukarıda", "Uygun, ekonomik", "Gereksiz, daha pahalı"],
+                        ["Hedef bir engelin arkasında", "Ulaşamaz", "Kol engeli aşar"],
+                        ["Çatı kirişi üst/alt yüzey", "Sınırlı", "Uygun (dönüş imkânı)"],
+                        ["Geniş açık alan, çok nokta", "Hızlı, uygun", "Gereksiz yavaş"],
+                        ["Vinç ray hattı çevresi", "Kısmen yeterli", "Genelde uygun"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bu makineyi ne zaman değerlendirmelisiniz",
+                paragraflar: [
+                    "Atölyenizde şu üç sorudan biri 'evet' ise eklemli platformu değerlendirmenizi öneririz: çatı altı çelik yapınızda üst ve alt yüzeye ayrı ayrı erişim gerekiyor mu, bir vinç ray hattınız var mı, ya da hedef noktalarınızın çoğu bir boru/kiriş gibi engelin arkasında mı. Bu üçünden hiçbiri geçerli değilse, atölyenizin bakım turu büyük olasılıkla standart makaslıyla tamamen karşılanır ve eklemli platforma ihtiyaç duymazsınız.",
+                    "Emin değilseniz, envanter turunuzu birlikte çıkarırız ve hangi noktaların hangi makineyi gerektirdiğini yerinde belirleriz — gereksiz bir makine kiralamanızı istemeyiz.",
+                ],
+            },
+            {
+                baslik: "Kaldırma ekipmanı kontrolleriyle birlikte planlama",
+                paragraflar: [
+                    "Vinçli atölyelerde ray hattı ve kiriş kontrolleri genelde yasal bir periyoda tabidir. Eklemli platform ihtiyacınız bu kontrolle örtüşüyorsa, iki işi aynı güne denk getirmek hem nakliyeyi hem de üretim duruşunu tekilleştirir. Kaldırma ekipmanı kontrol tarihinizi bize bildirirseniz, bakım turunu bu tarihe göre planlarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemizde vinç yok; eklemli platforma yine de ihtiyacımız olur mu?",
+                cevap:
+                    "Vinç olmasa da, çatı altı çelik konstrüksiyonunuzda boru hattı, havalandırma kanalı gibi engellerin arkasında kalan noktalar varsa eklemli platform işe yarar. Ama atölyenizin bakım kalemleri (aydınlatma, kablo tavası, emiş ağzı) genelde doğrudan yukarıdaysa, standart makaslı yeterli ve daha ekonomiktir. Envanter turunda hangi noktaların engelli olduğunu birlikte belirleriz; gereksiz yere eklemli platform önermeyiz.",
+            },
+            {
+                soru: "İki makine tipini aynı gün kullanmak mümkün mü?",
+                cevap:
+                    "Evet ve pratikte sık yapılan bir kurgudur. Açık alanlardaki kalemler standart makaslıyla, sadece engelli birkaç nokta eklemli platformla çalışılır. Bu durumda sevkiyatı tek seferde, iki makinenin art arda geleceği biçimde planlarız; ihtiyacınızı talep sırasında birlikte belirtmeniz yeterlidir.",
+            },
+            {
+                soru: "Eklemli platform kirişin üstüne çıkabilir mi?",
+                cevap:
+                    "Kolun dönüş açısı ve uzunluğu yeterliyse evet, sepet kirişin üst yüzeyine kolun yandan dönmesiyle ulaşabilir — bu, standart makaslının yapamadığı bir harekettir. Ancak her model aynı dönüş açısına sahip değildir; hedef noktanın tavana mesafesini ve kirişin genişliğini paylaşırsanız, bu harekete uygun kol uzunluğuna sahip modeli önceden belirleriz.",
+            },
+            {
+                soru: "Bu makine atölye içinde mi yoksa daha çok açık sahada mı kullanılır?",
+                cevap:
+                    "İkisinde de kullanılabilir, ama atölye içi kullanımda tavan yüksekliği ve kapı genişliği önemli bir sınırdır — bazı eklemli modeller büyük gövdelidir ve kapalı alana sığmayabilir. İç mekân kullanımı planlıyorsanız, atölyenizin kapı ve tavan ölçülerini paylaşmanız, sığacak model aralığını baştan netleştirir.",
+            },
+            {
+                soru: "Yasal vinç kontrolüyle bu makinenin ilişkisi nedir?",
+                cevap:
+                    "Doğrudan bir ilişkisi yoktur — kaldırma ekipmanı kontrolleri kendi mevzuatına tabidir ve bu, ayrı bir süreçtir. Eklemli platform, o kontrol sırasında ray hattına ve kirişe erişim sağlayan bir araçtır; kontrolün kendisini biz yapmayız, erişimi sağlarız. Kontrol tarihiniz belirlendiğinde, eklemli platform ihtiyacınızı aynı güne planlamak isterseniz bunu birlikte kurarız.",
+            },
+            {
+                soru: "Hangi durumda eklemli platform yerine örümcek platform önerirsiniz?",
+                cevap:
+                    "İki makine farklı problemleri çözer: eklemli platform büyük gövdeli olduğu için geniş açık alanlarda kol menzilinden faydalanır; örümcek platform ise dar bir kapıdan geçip küçük bir alanda çalışması gerektiğinde tercih edilir. Hedef nokta hem engelli hem de dar bir geçişin arkasındaysa, örümcek platform genelde daha uygun çözümdür. Noktanızın hem erişim genişliğini hem engel durumunu paylaşırsanız doğru makineyi birlikte seçeriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun kol geometrisi ve kullanım alanları genel ekipman bilgisidir; atölye bakım rutinine entegrasyonu firma pratiğidir. Kaldırma ekipmanı kontrolleri ilgili mevzuata tabidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Atölye İç Mekân Bakım Rutini için Platform Kiralama",
+        giris:
+            "İç mekân bakımı, açık sahadan farklı kurallarla işler ve bu farkı görmeyen bir bakım planı, ilk günden sorun çıkarır. Kapalı bir atölyede egzoz gazı üreten bir makine kullanmak havalandırma zorlar, tavan yüksekliği dışarıdakinden düşüktür, zemin genelde beton veya epoksi kaplıdır ve iz bırakmayan lastik önem kazanır, geçişler dardır ve şase ölçüsü kritikleşir. Sincan-Ostim hattındaki atölyelerin büyük bölümü tam da bu profile uyar — kapalı, orta yükseklikte, dar koridorlu üretim alanları. Bu sayfa, iç mekân bakım rutininin nasıl kurulduğunu, hangi makine tipinin hangi koşulda doğru seçim olduğunu ve iç mekânda ertelenen bakımın neden dış mekândakinden farklı bir hızda büyüdüğünü anlatıyor. Bu, domainin ana konusudur ve atölye bakım takviminin çekirdeğini oluşturur.",
+        maddeler: [
+            {
+                baslik: "Egzozsuz makine zorunluluğu",
+                metin:
+                    "Kapalı bir atölyede içten yanmalı bir makine çalıştırmak, havalandırma sistemine ek bir yük bindirir ve çalışanlar için solunum riski oluşturur — bu, tercih değil güvenlik meselesidir. İç mekân bakım turlarında akülü/elektrikli makaslı ve eklemli platformlar tercih edilir; bu makineler sessiz çalışır, egzoz gazı çıkarmaz ve genelde daha kompakt şaseye sahiptir. Atölye içindeki her makine talebinde iç mekân kullanımı olduğunu belirtmek, doğru güç tipinin baştan planlanmasını sağlar.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve şase ölçüsü dengesi",
+                metin:
+                    "Atölye tavanları genelde dört ile yedi metre bandında olur; bu, çalışma yüksekliği olarak altı ile dokuz metre sınıfına denk gelir ve çoğu iç mekân işi bu bantta karşılanır. Ancak tavan yüksekliği ile şase ölçüsü ters orantılı çalışır: daha yüksek sepet için genelde daha geniş ve ağır bir şase gerekir, bu da dar bir koridorda manevra sorununa yol açabilir. Doğru seçim, hem hedef yükseklik hem de en dar geçişin genişliği birlikte değerlendirilerek yapılır.",
+            },
+            {
+                baslik: "Zemin tipi ve iz bırakmama",
+                metin:
+                    "Atölye zeminleri epoksi, perdahlı beton veya eski şap olabilir ve her biri farklı bir lastik seçimini gerektirir. Standart siyah lastikli bir makine, perdahlı bir zeminde belirgin iz bırakabilir; iz bırakmayan (beyaz/gri dolgu) lastikli modeller bu riski azaltır. Zemininizin tipini ve varsa hassasiyetini (yeni döşenmiş, boyanmış) önceden bildirmeniz, doğru lastik tipinin baştan seçilmesini sağlar ve sahada iz sorunu yaşamanızı önler.",
+            },
+            {
+                baslik: "İç mekânda ertelemenin daha hızlı büyümesi",
+                metin:
+                    "Kapalı bir alanda bakım ertelendiğinde etkisi, açık sahadakinden farklı yayılır çünkü hava sirkülasyonu sınırlıdır: tıkanan bir emiş kanalı içeride biriken tozu ve nemi daha hızlı yoğunlaştırır, gecikmiş bir aydınlatma bakımı kapalı alanda görüş kalitesini daha belirgin düşürür. Bu yüzden iç mekân bakım kalemleri, açık saha kalemlerine göre erteleme toleransı daha dar tutulmalıdır — aynı kalem dışarıda altı ay bekleyebilirken içeride üç ayda fark yaratabilir.",
+            },
+            {
+                baslik: "İç mekân bakım turunun tipik kalemleri",
+                metin:
+                    "Bir atölyenin iç mekân bakım turu genelde beş kalem etrafında döner: aydınlatma armatürleri, kablo tavası ve elektrik hattı, emiş/havalandırma ağızları, çatı altı çelik yüzeyler ve varsa vinç/raf sistemi çevresi. Bu kalemler tek bir günde, tek bir makineyle (gerekirse ikinci bir tip eklenerek) toplanabilir; ayrı ayrı çağrıldığında hem maliyet hem üretim duruşu katlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân makine seçim tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, atölye koşuluna göre tipik makine tercihini özetler. Kesin seçim, tavan yüksekliği, geçiş genişliği ve zemin tipi birlikte değerlendirilerek yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Koşul", "Tipik makine", "Güç tipi", "Lastik/ayak"],
+                    satirlar: [
+                        ["Geniş koridor, 4-7 m tavan", "Akülü makaslı", "Elektrikli", "İz bırakmayan"],
+                        ["Dar kapı/koridor", "Örümcek platform", "Elektrikli/hibrit", "İz bırakmayan"],
+                        ["Engelli nokta, çatı altı", "Elektrikli eklemli", "Elektrikli", "İz bırakmayan"],
+                        ["Hassas/perdahlı zemin", "Ayaklı örümcek", "Elektrikli", "Geniş taban, düşük nokta yükü"],
+                        ["Malzeme taşıma/hazırlık", "Akülü forklift", "Elektrikli", "Standart iç mekân lastiği"],
+                    ],
+                },
+            },
+            {
+                baslik: "İç mekân bakım turunu tek güne sığdırmak",
+                paragraflar: [
+                    "İç mekân kalemlerinin çoğu benzer yükseklik bandında olduğu için tek bir makineyle, tek bir günde toplanabilir. Turun verimliliği, sıralamaya bağlıdır: genelde en uzak köşeden başlanıp kapıya doğru ilerlenir, böylece makine geriye dönüş yapmaz. Hangi kalemin nerede olduğunu gösteren bir kroki (elle çizilmiş bile olsa) paylaşırsanız, turun sırasını önceden planlarız ve sahada rota belirlemekle zaman kaybetmeyiz.",
+                    "Bazı atölyelerde iç mekân ile dış mekân (çatı, cephe) kalemleri aynı takvimde ama farklı makinelerle çalışılır — iç mekân akülü makaslıyla, dış mekân farklı bir güç tipiyle. Bu ayrımı baştan yapmak, hangi makinenin ne zaman geleceğini netleştirir.",
+                ],
+            },
+            {
+                baslik: "İç mekân bakımının erteleme faturası — somut örnekler",
+                paragraflar: [
+                    "Emiş ağzı temizliği ertelendiğinde motor daha çok enerji harcayarak aynı işi yapmaya çalışır ve bu fark aylık tüketime yansır; fark küçük başlar ama birikir. Aydınlatma bakımı ertelendiğinde armatürlerin bir kısmı sönmüş biçimde çalışılmaya devam edilir ve kalan armatürler daha az alanı, daha zayıf aydınlatır — bu, hem iş kalitesini hem çalışan güvenliğini etkiler. Kablo tavası kontrolü ertelendiğinde gevşeyen bir bağlantı, kapalı alanda fark edilmesi daha zor bir noktaya kayabilir.",
+                    "Bu üç örneğin ortak noktası, kapalı alanın etkiyi gizlemesidir — açık sahada rüzgar ve gün ışığı bazı sorunları görünür kılarken, kapalı atölyede aynı sorun sessizce büyür. Bu yüzden iç mekân bakım turunun düzenli aralıklarla tekrarlanması, açık saha kalemlerinden daha kritik bir alışkanlıktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İç mekânda hangi makine tipi zorunlu, hangisi tercih meselesi?",
+                cevap:
+                    "Egzozsuz (elektrikli/akülü) güç tipi kapalı alanda zorunludur — içten yanmalı bir makine havalandırmayı zorlar ve solunum riski oluşturur, bu güvenlik meselesidir, tercih değil. Makine tipi (makaslı, örümcek, eklemli) ise tercih meselesidir ve atölyenizin tavan yüksekliği, geçiş genişliği ve engel durumuna göre belirlenir. Ölçülerinizi paylaşırsanız uygun tipi birlikte seçeriz; güç tipinde ise iç mekân kullanımı belirttiğiniz an elektrikli/akülü dışında bir seçenek sunmayız.",
+            },
+            {
+                soru: "Zeminimiz yeni döşendi, iz bırakılmasından endişeliyiz; ne yapılabilir?",
+                cevap:
+                    "İz bırakmayan (beyaz/gri dolgu) lastikli modeller standart siyah lastikten belirgin daha az iz bırakır ve yeni döşenmiş zeminlerde önerdiğimiz seçenektir. Zemininizin ne kadar süre önce döşendiğini ve tipini (epoksi, boyalı beton, self-leveling) bildirirseniz, gerekirse ek koruyucu altlık kullanımını da değerlendiririz. Standart lastikli bir makine ile riske girmemenizi öneririz.",
+            },
+            {
+                soru: "Atölyemizin tavanı düşük, standart makaslı sığar mı?",
+                cevap:
+                    "Çoğu zaman evet — dört ile yedi metre bandındaki tavan yükseklikleri, standart akülü makaslının rahatlıkla karşıladığı bir aralıktır. Asıl kısıtlayan genelde tavan değil, geçiş genişliğidir; dar bir kapı veya koridor varsa makaslının şasesi sığmayabilir ve bu durumda örümcek platform gündeme gelir. Hem tavan yüksekliğinizi hem en dar geçişinizi paylaşırsanız uygun modeli netleştiririz.",
+            },
+            {
+                soru: "İç mekân bakım turunu ne sıklıkla tekrarlamalıyız?",
+                cevap:
+                    "Kapalı alanın etkiyi gizleme eğilimi nedeniyle iç mekân kalemlerinin çoğu yılda bir kez, tozlu veya üç vardiyalı üretimde yılda iki kez gözden geçirilmesi önerilir. Kesin sıklık, üretim yoğunluğunuza ve atölyenizin yaşına bağlıdır — ilk turun bulguları, bir sonraki turun ne zaman olacağını genelde kendiliğinden gösterir. İlk turunuzu birlikte planlayıp, bulgulara göre bir sonraki tarihi netleştiririz.",
+            },
+            {
+                soru: "Aynı gün hem iç mekân hem dış mekân (çatı) bakımı yapılabilir mi?",
+                cevap:
+                    "Bazı durumlarda evet, ama genelde farklı makine tipleri gerektirdiği için ayrı planlanması daha verimlidir. İç mekân akülü bir makineyle, dış mekân (çatı, cephe) farklı bir güç ve erişim tipiyle çalışılabilir. İkisini aynı haftaya, ardışık günlere denk getirmek nakliye kalemini paylaştırır; aynı güne sığdırmayı zorlamak ise genelde bir tarafın yarım kalmasına yol açar. İhtiyacınızı paylaşırsanız en verimli sıralamayı birlikte kurarız.",
+            },
+            {
+                soru: "İç mekân bakımı için özel bir güvenlik önlemi gerekir mi?",
+                cevap:
+                    "Kapalı alanda çalışma, açık sahaya göre bazı ek dikkat gerektirir: havalandırmanın çalışır durumda olması (özellikle boya veya kimyasal madde bulunan bölgelerde), diğer üretim faaliyetleriyle çakışmanın önlenmesi ve dar alanda makine ile personel arasındaki görüş hattının korunması. Bu önlemler, iş öncesi kısa bir sahaya uyum görüşmesiyle netleştirilir; atölyenizin özel koşulları varsa (kimyasal depolama, hassas ekipman) önceden bildirmeniz planı buna göre şekillendirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Egzozsuz makine gerekliliği ve zemin/lastik uyumu genel ekipman mühendisliği bilgisidir; Sincan-Ostim atölye dokusuna uygulanışı ve erteleme faturası örnekleri firma pratiğidir. Tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montajında Platform Kiralama — Dürüst Kapsam Notu",
+        giris:
+            "Bu sayfayı ararken muhtemelen yeni bir çelik yapının montajı için ekipman arıyorsunuzdur; dürüst olmak gerekirse bu, bizim ana uzmanlık alanımız değil. Sincan-Ostim hattındaki işimizin çekirdeği, mevcut atölye ve fabrika yapılarının periyodik bakımıdır — montaj değil bakım, yeni inşaat değil mevcut tesisin rutini. Bu iki iş birbirine benzese de farklı bir yaklaşım gerektirir: montaj işi genelde yoğun ekip koordinasyonu, kaynak/vida işlemleriyle eş zamanlı çalışma ve değişken bir saha düzeni ister; bizim uzmanlaştığımız bakım işi ise sabit bir yapıda, periyodik ve tek kişilik-küçük ekipli işlerde yoğunlaşır. Bu sayfa, elimizdeki ekipmanın çelik konstrüksiyon montajında nerede işe yarayabileceğini dürüstçe anlatıyor, ama büyük ölçekli montaj projeleri için özel montaj ekipmanı ve deneyimi olan firmalara yönlenmenizi öneriyoruz.",
+        maddeler: [
+            {
+                baslik: "Elimizdeki ekipmanın montajda karşıladığı sınırlı iş",
+                metin:
+                    "Standart makaslı ve eklemli platformlarımız, küçük ölçekli montaj destek işlerinde (örneğin mevcut bir çelik yapıya ek bir braket takmak, bir bağlantı noktasını kontrol etmek) kullanılabilir. Ancak büyük çaplı bir çelik iskelet montajı — çoklu kaynak istasyonu, ağır profil kaldırma, vinçle koordineli çalışma — bizim filomuzun ve deneyimimizin kapsamı dışındadır. Bu tür işler için özel vinç ve montaj platformu deneyimi olan firmalarla çalışmanızı öneririz.",
+            },
+            {
+                baslik: "Bakım ile montaj arasındaki fark neden önemli",
+                metin:
+                    "Bakım işinde çalışma alanı sabittir, iş planı önceden bellidir ve genelde tek bir kişi ya da küçük bir ekip görev yapar. Montaj işinde ise saha sürekli değişir, birden fazla ekip aynı anda farklı noktalarda çalışır ve ekipman ihtiyacı güne göre kayar. Bu fark, sadece ekipman seçimini değil operasyonel planlamayı da değiştirir — bakım işinde iyi olan bir firma, montaj koordinasyonunda otomatik olarak iyi olmaz.",
+            },
+            {
+                baslik: "Montaj sonrası bakım devri bize uygun",
+                metin:
+                    "Yeni bir çelik yapı montajı tamamlandıktan sonra, o yapının periyodik bakımı tam olarak bizim uzmanlık alanımıza girer. Montaj bitince devreye alma sonrası ilk yıl kontrolü, garanti dönemi kusur taraması ve sonraki yılların rutin bakım takvimi kurulabilir. Yani montaj sürecinde değil, montaj bittikten sonraki hayat döngüsünde yanınızda olabiliriz.",
+            },
+            {
+                baslik: "Küçük tadilat/ek işlerinde katkımız",
+                metin:
+                    "Büyük bir montaj projesi değil de mevcut bir çelik konstrüksiyona küçük bir ek yapılıyorsa (örneğin bir platform genişletmesi, bir merdiven eklenmesi) ve bu iş kısa süreli, sınırlı kapsamlıysa, standart platformlarımızla erişim desteği sağlayabiliriz. Bu durumda işin kapsamını, kaynak/kesme işlemi içerip içermediğini ve süresini önceden netleştirmemiz gerekir.",
+            },
+            {
+                baslik: "Doğru yönlendirme",
+                metin:
+                    "Büyük ölçekli bir çelik konstrüksiyon montaj projeniz varsa, size dürüstçe söyleyebileceğimiz şey şudur: bu iş için özel montaj ekipmanı (ağır vinç, montaj iskelesi) ve saha koordinasyon deneyimi olan bir firmayla çalışmanız daha doğru sonuç verir. Projenizin kapsamını paylaşırsanız, bizim katkı sağlayabileceğimiz bir parça varsa (örneğin sonradan bakım devri) bunu netleştirir, gerekirse doğru yönlendirmeyi de yaparız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj ve bakım işinin karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki iş türü arasındaki temel farkları ve bizim hangi tarafta konumlandığımızı gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Montaj işi", "Bakım işi (bizim alanımız)"],
+                    satirlar: [
+                        ["Saha düzeni", "Sürekli değişken", "Sabit"],
+                        ["Ekip büyüklüğü", "Çok kişili, çok istasyonlu", "Küçük ekip / tek kişi"],
+                        ["Ekipman ihtiyacı", "Ağır vinç, özel montaj platformu", "Standart makaslı/eklemli"],
+                        ["Zaman ufku", "Proje süresi (haftalar/aylar)", "Periyodik (yılda bir-iki gün)"],
+                        ["Bizim uzmanlığımız", "Sınırlı", "Ana konumuz"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj sonrası bakım devri nasıl işler",
+                paragraflar: [
+                    "Yeni bir çelik yapı devreye alındığında, montaj yapan firma sahadan ayrıldıktan hemen sonra bir envanter turu çıkarılır — bu, bizim güçlü olduğumuz alandır. Bağlantı noktaları, askı sistemleri ve erişim yolları bu turda kaydedilir ve garanti dönemi bittikten sonraki ilk yılın bakım planı buradan kurulur.",
+                    "Bu devir sürecinde montaj firmasından kalan teknik dokümanları (bağlantı şeması, kullanılan malzeme listesi) elimizde bulundurmayız — bunlar sizde kalmalıdır; bizim işimiz bu dokümanlara dayanarak değil, sahada gördüğümüz fiziksel duruma dayanarak bakım planı kurmaktır.",
+                ],
+            },
+            {
+                baslik: "Ne zaman bize, ne zaman montaj firmasına başvurmalısınız",
+                paragraflar: [
+                    "Eğer iş henüz montaj aşamasındaysa, kaynak/kesme işlemi içeriyorsa veya ağır profil kaldırma gerektiriyorsa, montaj deneyimi olan bir firmaya başvurmanız doğru olur. Eğer iş, tamamlanmış bir yapının periyodik kontrolü, küçük bir erişim desteği veya montaj sonrası bakım devriyse, bu bizim alanımızdır.",
+                    "Emin değilseniz, işin kapsamını kısaca anlatın — dürüstçe bizim işimiz mi değil mi söyleriz ve gerekirse doğru yöne yönlendiririz. Kapsamı bilerek uygun olmadığımız bir işi üstlenmeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik konstrüksiyon montajı yapıyor musunuz?",
+                cevap:
+                    "Hayır, biz montaj firması değiliz — ana işimiz mevcut atölye ve fabrika yapılarının periyodik bakımı için platform kiralamadır. Büyük ölçekli bir çelik iskelet montajı için ağır vinç, özel montaj ekipmanı ve saha koordinasyon deneyimi olan bir firmayla çalışmanız gerekir. Bu konuda size dürüst olmayı, yanlış beklenti yaratmaktan daha doğru buluyoruz.",
+            },
+            {
+                soru: "O zaman standart platformlarınız montajda hiç işe yaramaz mı?",
+                cevap:
+                    "Küçük ölçekli destek işlerinde (mevcut bir yapıya küçük bir ek, bir bağlantı noktası kontrolü, kısa süreli erişim ihtiyacı) yardımcı olabiliriz. Ancak çok istasyonlu, çok ekipli büyük bir montaj projesinde standart makaslı ve eklemli platformlarımız yeterli kapasiteyi ve koordinasyonu sağlamaz. İşinizin kapsamını paylaşırsanız, bizim katkı sağlayabileceğimiz bir parça olup olmadığını dürüstçe söyleriz.",
+            },
+            {
+                soru: "Montaj bitti, şimdi bakımını size devredebilir miyiz?",
+                cevap:
+                    "Evet, bu tam olarak bizim güçlü olduğumuz alan. Montaj tamamlandıktan sonra bir envanter turu çıkarır, garanti dönemi boyunca kusur taraması yapar ve sonraki yılların periyodik bakım takvimini kurarız. Montaj sürecine dahil olmasak da, yapının hayatı boyunca sürecek bakım ilişkisi bizim asıl uzmanlığımızdır.",
+            },
+            {
+                soru: "Montaj firmanız yok, önerebileceğiniz biri var mı?",
+                cevap:
+                    "Belirli bir firmayı önermiyoruz çünkü bu, bizim doğrulayabileceğimiz bir alan değil — ağır vinç ve montaj deneyimi olan firmaları değerlendirirken referans projelerini ve ekipman kapasitelerini kendiniz kontrol etmenizi öneririz. Bizden isteyebileceğiniz şey, montaj tamamlandıktan sonraki bakım planlamasıdır; bu aşamada memnuniyetle devreye gireriz.",
+            },
+            {
+                soru: "Kaynak işlemi içeren bir işte platformunuzu kullanabilir miyiz?",
+                cevap:
+                    "Kaynak veya kesme işlemi, platformun sepetinde yapılacaksa özel önlemler (yanmaz zemin koruması, kıvılcım riski değerlendirmesi) gerektirir ve bu, standart bakım kullanımından farklı bir risk profilidir. Böyle bir iş için önce kapsamı netleştirmemiz, gerekirse bu tür işlere uygun ekipman ve prosedürü olan bir firmayla çalışmanızı önermemiz gerekebilir. Kapsamı paylaşırsanız dürüst bir değerlendirme yaparız.",
+            },
+            {
+                soru: "Sizinle çalışmanın montaj firmasına göre bir avantajı var mı?",
+                cevap:
+                    "Montaj işi için değil, ama montaj sonrası uzun vadeli bakım ilişkisi için evet — biz mevcut bir yapının yıllar boyunca nasıl davrandığını takip eden, kaydeden ve bu kayda göre plan kuran bir yaklaşımla çalışıyoruz. Montaj firmaları genelde projeyi teslim edip ayrılır; bizim işimiz teslimden sonra başlar. İki hizmet birbirini tamamlar, birbirinin yerine geçmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Montaj ve bakım işlerinin operasyonel farkları genel sektör bilgisidir; bu sayfa firmanın gerçek kapsam sınırını dürüstçe belirtir, tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım Silosu Bakımı için Platform Kiralama — Dürüst Kapsam Notu",
+        giris:
+            "Sincan-Ostim hattı, adından da anlaşılacağı gibi sanayi ve imalat ağırlıklı bir bölgedir; tarımsal depolama tesisleri ve silolar bu hattın ana dokusunda değildir. Bu yüzden bu sayfayı dürüstçe kısa tutuyoruz: silo bakımı konusunda derin bir saha deneyimimiz yok ve bunu iddia etmiyoruz. Buna karşın, elimizdeki standart yükseğe erişim ekipmanı — makaslı ve eklemli platformlar — bir silonun dış yüzeyine, merdiven-basamak sistemine veya çevresindeki servis platformlarına erişim gerektiren genel bakım işlerinde kullanılabilir; bu, siloya özgü bir uzmanlık değil, genel yükseğe erişim hizmetidir. Eğer siloya özgü bir iş (iç hacim temizliği, tahıl akışı sorunları, kapasiteye özel donanım) söz konusuysa, bu alanda uzmanlaşmış bir firmayla çalışmanızı öneririz.",
+        maddeler: [
+            {
+                baslik: "Neyi yapabiliriz, neyi yapamayız",
+                metin:
+                    "Yapabileceğimiz iş, bir silonun dışına erişim gerektiren genel bakım kalemleridir: dış yüzey kontrolü, merdiven ve platform bağlantılarının görsel muayenesi, dış aydınlatma veya kablo hattı erişimi. Yapamayacağımız veya deneyimimiz olmayan iş ise siloya özgü teknik konulardır — iç hacim havalandırması, tahıl akış sistemleri, tozla patlama riski taşıyan alanlarda özel ekipman gerektiren çalışmalar. Bu ayrımı baştan netleştirmek, yanlış beklentiyle çalışmaya başlamaktan daha doğrudur.",
+            },
+            {
+                baslik: "Bölgede az görülen bir talep",
+                metin:
+                    "Sincan-Ostim hattında talep ettiğimiz işlerin büyük çoğunluğu atölye ve fabrika bakımıdır; tarım silosu talebi bölgede nadiren karşımıza çıkar. Bu, iş yapamayacağımız anlamına gelmez — sadece bu konuda derin bir tekrar deneyimimiz olmadığı anlamına gelir. Silo bakımıyla ilgili sık tekrarlanan bir işiniz varsa, bu alanda düzenli çalışan bir firmayla kurulacak ilişki muhtemelen daha verimli olur.",
+            },
+            {
+                baslik: "Dış erişim ihtiyacında değerlendirebileceğimiz durum",
+                metin:
+                    "Silonun dış cephesinde tek seferlik bir kontrol, boya kontrolü veya aydınlatma bakımı gibi genel bir iş varsa, standart makaslı veya eklemli platformumuz bu iş için değerlendirilebilir — yeter ki zemin dayanımı ve erişim yolu uygun olsun. Siloların genelde açık sahada ve ağır zeminli olması, standart lastikli tekerlekli platformların çalışmasına genelde elverişlidir.",
+            },
+            {
+                baslik: "Güvenlik açısından dürüst uyarı",
+                metin:
+                    "Tahıl siloları, toz birikimi nedeniyle patlama riski taşıyabilen özel bir çalışma ortamıdır. Bu risk, genel yükseğe erişim ekipmanı kullanımını doğrudan etkileyebilir ve özel ex-proof (patlamaya dayanıklı) donanım gerektirebilir. Elimizdeki standart platformlar bu tür özel donanıma sahip değildir; bu nedenle iç hacim veya toz yoğun bölgelerde çalışma talebi gelirse, bunu açıkça belirtir ve uygun donanıma sahip bir firmaya yönlendiririz.",
+            },
+            {
+                baslik: "Yine de sorabilirsiniz",
+                metin:
+                    "İşinizin kapsamını bilmiyorsanız veya sınırda bir durum varsa, sormaktan çekinmeyin. Bazı işler göründüğünden daha basittir (örneğin sadece dış merdiven kontrolü) ve bizim kapsamımıza girer; bazıları ise göründüğünden daha karmaşıktır ve özel ekipman ister. Kapsamı birlikte netleştirip dürüst bir cevap veririz — uygun olmayan bir işi üstlenip riske girmeyiz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo bakımında kapsam ayrımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, silo çevresindeki tipik iş kalemlerini ve bizim kapsamımıza girip girmediğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["İş kalemi", "Konum", "Bizim kapsamımızda mı"],
+                    satirlar: [
+                        ["Dış yüzey/boya kontrolü", "Silo dışı", "Evet, genel erişim işi"],
+                        ["Merdiven/platform bağlantı kontrolü", "Silo dışı", "Evet, genel erişim işi"],
+                        ["Dış aydınlatma bakımı", "Silo dışı", "Evet, genel erişim işi"],
+                        ["İç hacim temizliği", "Silo içi", "Hayır, özel uzmanlık gerekir"],
+                        ["Tozlu/patlama riskli alan çalışması", "Silo içi", "Hayır, ex-proof donanım gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Doğru firmayı seçerken nelere bakılmalı",
+                paragraflar: [
+                    "Siloya özgü bir iş için firma seçerken, o firmanın tahıl/toz ortamında çalışma deneyimini ve gerekiyorsa ex-proof donanımını sorgulamanızı öneririz. Bu, genel yükseğe erişim firmalarının çoğunda bulunmayan özel bir yetkinliktir ve bu konuda deneyimsiz bir firmayla çalışmak güvenlik riski doğurabilir.",
+                    "Biz bu alanda uzman değiliz ve bunu gizlemiyoruz — amacımız işinizi almak değil, doğru bilgiyi vermektir. Dış erişim gibi genel bir ihtiyacınız varsa memnuniyetle değerlendiririz; iç hacme özel bir işiniz varsa dürüstçe uygun olmadığımızı söyleriz.",
+                ],
+            },
+            {
+                baslik: "Bölgesel gerçeklik",
+                paragraflar: [
+                    "Sincan-Ostim hattı imalat ve atölye ağırlıklı bir sanayi dokusuna sahiptir; tarımsal depolama tesisleri bu hattın tipik profilinde değildir. Bu, bölgede hiç silo bulunmadığı anlamına gelmez, ama bizim müşteri tabanımızın ve tekrarlanan işlerimizin büyük çoğunluğu atölye/fabrika bakımı etrafında yoğunlaşır. Bu sayfayı kısa ve dürüst tutmamızın nedeni budur — abartılı bir uzmanlık iddiasında bulunmak yerine gerçek kapsamımızı net bir biçimde göstermeyi tercih ediyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo bakımı konusunda uzman mısınız?",
+                cevap:
+                    "Hayır, silo bakımı bizim uzmanlık alanımız değil ve bunu gizlemiyoruz. Ana işimiz Sincan-Ostim hattındaki atölye ve fabrika yapılarının periyodik bakımıdır. Silonun dışına erişim gerektiren genel bir işiniz varsa (dış yüzey kontrolü, merdiven kontrolü) standart platformlarımızla değerlendirebiliriz; iç hacme özel bir işiniz varsa bu alanda uzmanlaşmış bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                soru: "Silonun içine girip temizlik yapabilir misiniz?",
+                cevap:
+                    "Hayır. Silo iç hacmi, toz birikimi nedeniyle patlama riski taşıyabilen özel bir ortamdır ve bu tür çalışma genelde ex-proof (patlamaya dayanıklı) donanım ve özel prosedür gerektirir. Elimizdeki standart platformlar bu donanıma sahip değildir; bu işi üstlenmeyiz ve size bu konuda deneyimli bir firma aramanızı öneririz.",
+            },
+            {
+                soru: "Dış cephede tek seferlik bir kontrol için sizi çağırabilir miyiz?",
+                cevap:
+                    "Evet, bu tür bir iş — dış yüzey kontrolü, merdiven-basamak bağlantı kontrolü, dış aydınlatma bakımı — standart makaslı veya eklemli platformumuzla değerlendirilebilir. Zemin dayanımı ve erişim yolunu önceden kontrol ederiz; siloların genelde açık sahada olması bu tür işler için genelde elverişlidir.",
+            },
+            {
+                soru: "Silo bakımı için hangi tür firmayı aramalıyız?",
+                cevap:
+                    "Tahıl/toz ortamında çalışma deneyimi olan, gerekiyorsa ex-proof donanıma sahip firmaları araştırmanızı öneririz. Belirli bir firmayı önermiyoruz çünkü bu konuyu doğrulayabileceğimiz bir uzmanlığımız yok; ama firma seçerken referans projelerini ve güvenlik sertifikalarını sorgulamanız önemlidir.",
+            },
+            {
+                soru: "Bölgenizde hiç silo işi yapmadınız mı?",
+                cevap:
+                    "Sincan-Ostim hattındaki işlerimizin büyük çoğunluğu atölye ve fabrika bakımı olduğu için silo talebi bölgede nadiren karşımıza çıkıyor. Bu, hiç yapmadığımız anlamına gelmiyor ama sık tekrarlanan, derin bir deneyime dayanan bir iş olmadığını dürüstçe söylemek istiyoruz — bu, sizin doğru beklentiyle bize gelmenizi sağlar.",
+            },
+            {
+                soru: "Kapsam sınırında bir işim var, emin değilim; ne yapmalıyım?",
+                cevap:
+                    "Bize kısaca anlatın. İşin silonun dışında mı içinde mi olduğunu, toz yoğunluğu ve genel çalışma ortamını sorarız ve dürüstçe kapsamımıza girip girmediğini söyleriz. Uygun olmayan bir işi üstlenip sonradan sorun yaşamaktansa, baştan doğru yönlendirme yapmayı tercih ediyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Silo iç hacminin toz/patlama riski genel iş güvenliği bilgisidir; bu sayfa firmanın gerçek kapsam sınırını dürüstçe belirtir, tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Periyodik Aydınlatma Bakımı için Platform Kiralama",
+        giris:
+            "Bir atölyenin aydınlatma sistemi, bakım rutininin en sık tekrarlanan ve en görünür kalemidir — çünkü sonucu doğrudan görülür: bir armatür ya yanar ya yanmaz. Bu görünürlük, aslında bir tuzaktır: aydınlatma bakımı çoğu işletmede yalnızca armatür söndüğünde hatırlanır, oysa periyodik bir gözle bakıldığında sönme öncesi belirtiler (titreme, ısınma, bağlantı gevşekliği) yıllar önce yakalanabilir. Sincan-Ostim hattındaki atölyelerde aydınlatma bakımı, yıllık bakım takviminin sabit bir kalemi olmalıdır — tek tek yanan armatürlere teker teker müdahale etmek yerine, bütün hattın bir kerede gözden geçirildiği planlı bir gün kurmak. Bu sayfa, periyodik aydınlatma bakımının nasıl planlandığını, hangi bulguların acil hangilerinin plana yazılabilir olduğunu ve ertelemenin aydınlatma tarafındaki somut faturasını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Tek tek müdahaleden toplu bakıma geçiş",
+                metin:
+                    "Çoğu atölyede aydınlatma bakımı, bir armatür söndüğünde tek başına çağrılan bir işe döner — bu hem pahalıdır (her seferinde ayrı bir makine kurulumu) hem de verimsizdir (sönmemiş ama zayıflamış armatürler fark edilmez). Toplu bakıma geçiş, yılda bir kez bütün hattın gözden geçirilmesi demektir: sönük armatürler değiştirilir, zayıflamış olanlar not edilir, bağlantılar kontrol edilir. Bu tek gün, yıl boyunca tekrarlanan tek tek çağrıların yerini alır.",
+            },
+            {
+                baslik: "Sönmeden önceki belirtileri yakalamak",
+                metin:
+                    "Bir armatür tamamen sönmeden önce genelde belirti verir: ışık şiddetinde kademeli azalma, titreme, ısınma, bağlantı noktasında renk değişimi. Bu belirtiler günlük kullanımda fark edilmez çünkü göz zamanla alışır — aynı ortamda çalışan kişi, aydınlatmanın yavaşça zayıfladığını fark etmeden kabul eder. Periyodik bir kontrol turu, dışarıdan gelen taze bir gözle bu belirtileri yakalar ve armatürü tam sönmeden değiştirme imkânı verir.",
+            },
+            {
+                baslik: "Enerji tüketimiyle ilişki",
+                metin:
+                    "Bakımsız bir aydınlatma hattı, sadece görsel değil enerji açısından da maliyetlidir. Kirlenmiş armatür yüzeyleri ışığı daha az yansıtır ve bu, ya daha fazla armatürün açık tutulmasına ya da yetersiz aydınlatmayla çalışılmasına yol açar. Periyodik temizlik ve bakım, aynı enerji tüketimiyle daha iyi aydınlatma sağlar — bu, doğrudan görülmeyen ama fatura üzerinde birikimli bir etkisi olan bir kalemdir.",
+            },
+            {
+                baslik: "Ertelemenin aydınlatma tarafındaki somut faturası",
+                metin:
+                    "Bir armatürün bakımı ertelendiğinde önce ışık kalitesi düşer, sonra armatür söner, sonra çevresindeki armatürler o bölgenin aydınlatma yükünü paylaşmaya çalışır ve daha hızlı yıpranır. En pahalı senaryo, birden fazla armatürün aynı bölgede art arda sönmesidir — bu noktada iş, tek armatür değişiminden bölgesel bir yenilemeye dönüşür. Periyodik bakım, bu zincirleme etkiyi daha ucuz aşamada durdurur.",
+            },
+            {
+                baslik: "Bakım gününün pratik akışı",
+                metin:
+                    "Aydınlatma bakım günü genelde tek makineyle, atölyenin bir ucundan diğerine sistematik bir sırayla ilerler. Her armatürde kısa bir kontrol yapılır: yanıyor mu, bağlantısı sağlam mı, yüzeyi temiz mi. Sönük veya sorunlu bulunanlar o gün değiştirilir; malzemesi elde olmayan kalemler not edilip bir sonraki ziyarete bırakılır. Bu akış, bir atölyenin aydınlatma hattını genelde tek bir günde tamamen gözden geçirmeye yeter.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma bulgularının sınıflandırılması",
+                paragraflar: [
+                    "Aşağıdaki tablo, bir aydınlatma bakım turunda karşılaşılan tipik bulguları ve aciliyet sınıfını gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bulgu", "Belirti", "Aciliyet", "Tipik aksiyon"],
+                    satirlar: [
+                        ["Tam sönük armatür", "Işık yok", "Yüksek", "Aynı gün değişim"],
+                        ["Titreme/ısınma", "Kararsız çalışma", "Orta-yüksek", "Yakın tarihte değişim"],
+                        ["Kademeli zayıflama", "Işık şiddeti düşük", "Orta", "Plana yazılır"],
+                        ["Yüzey kirlenmesi", "Yansıma azalması", "Düşük", "Temizlikle çözülür"],
+                        ["Bağlantı gevşekliği", "Görsel/ısı belirtisi", "Yüksek", "Aynı gün sıkma/değişim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aydınlatma bakımını genel bakım turuna eklemek",
+                paragraflar: [
+                    "Aydınlatma bakımı, tek başına bir gün olmak zorunda değildir — atölyenin genel yıllık bakım turuna bir durak olarak eklendiğinde nakliye ve kurulum maliyeti diğer kalemlerle paylaşılır. Emiş temizliği, kablo tavası kontrolü ve aydınlatma bakımı genelde aynı yükseklik bandında olduğu için tek makineyle art arda yapılabilir.",
+                    "Aydınlatma hattınızın büyüklüğüne göre (armatür sayısı, hat uzunluğu) bu tur yarım günden bir güne kadar sürebilir; kesin süreyi envanter turunda birlikte belirleriz.",
+                ],
+            },
+            {
+                baslik: "Bölgesel aydınlatma bakımı: komşu atölyelerle paylaşım",
+                paragraflar: [
+                    "Aynı sanayi adasındaki komşu atölyelerin aydınlatma bakım tarihlerini aynı haftaya denk getirmek, nakliye kalemini paylaştırır ve her işletmenin kendi hattını daha ekonomik biçimde gözden geçirmesini sağlar. Bu, özellikle küçük ölçekli atölyeler için — tek başına çağrıldığında nakliye payı orantısız büyüyen işletmeler için — anlamlı bir tasarruf sağlar.",
+                    "Koordinasyonu kurmak için tek gereken, komşu işletmelerin isim ve iletişim bilgisini bize iletmenizdir; sıralamayı ve saatleri biz düzenleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aydınlatma bakımını neden armatür sönmeden önce yaptırmalıyız?",
+                cevap:
+                    "Çünkü sönme, genelde bir sürecin son adımıdır — önce titreme, ısınma veya kademeli zayıflama gibi belirtiler görülür ama bunlar günlük kullanımda fark edilmez. Periyodik bir kontrol, bu belirtileri erken yakalar ve armatürü tam sönmeden, planlı bir günde değiştirme imkânı verir. Sönmeden sonra yapılan müdahale ise genelde acil ve tek başına çağrılan, dolayısıyla daha pahalı bir iştir.",
+            },
+            {
+                soru: "Kaç armatürümüz var bilmiyoruz, bu bir sorun mu?",
+                cevap:
+                    "Hayır, bu ilk bakım turunun bir parçasıdır. Turun ilk adımı zaten bir envanter çıkarmaktır — kaç armatür var, hangi tipte, hangi konumda. Bu envanter çıktıktan sonra bir sonraki turlar için referans olur ve zamanla bakım defterinize dönüşür. İlk tur bu yüzden genelde diğerlerinden biraz daha uzun sürer.",
+            },
+            {
+                soru: "Aydınlatma bakımını diğer bakım kalemlerimizle birlikte mi yaptırmalıyız?",
+                cevap:
+                    "Genelde evet, çünkü aydınlatma hattı çoğu atölyede benzer yükseklik bandında bulunur ve emiş ağızları, kablo tavası gibi diğer kalemlerle aynı makineyle, aynı günde gözden geçirilebilir. Bu, hem nakliye maliyetini hem üretim duruşunu tekilleştirir. Ayrı bir gün planlamak yerine genel bakım turunuza aydınlatmayı bir durak olarak eklemenizi öneririz.",
+            },
+            {
+                soru: "Enerji tasarrufu için aydınlatma bakımının etkisi gerçekten var mı?",
+                cevap:
+                    "Var, ama etkisi armatür tipine ve kirlilik seviyesine göre değişir; kesin bir yüzde vermek yanıltıcı olur. Genel mantık şudur: kirlenmiş bir yüzey ışığı daha az yansıtır, bu da ya daha fazla armatürün açık kalmasına ya da yetersiz aydınlatmaya yol açar. Periyodik temizlik, aynı enerji tüketimiyle daha iyi aydınlatma sağlar. Kendi hattınızın önce-sonra karşılaştırmasını, bakım defterinize kayıt tutarak zamanla gözlemleyebilirsiniz.",
+            },
+            {
+                soru: "Bir bölgede birden fazla armatür aynı anda sönerse ne yapmalıyız?",
+                cevap:
+                    "Bu, genelde tek bir armatür arızasından daha büyük bir sorunun belirtisi olabilir — örneğin o bölgedeki elektrik hattında bir sorun ya da komşu armatürlerin yükü paylaşmaya çalışması. Bu durumda tek tek armatür değişimi yerine bölgesel bir kontrol yapmanızı öneririz; turu planlarken bu bölgeye öncelik veririz ve altta yatan nedeni de birlikte araştırırız.",
+            },
+            {
+                soru: "Aydınlatma bakım turu ne kadar sürer?",
+                cevap:
+                    "Hat uzunluğuna ve armatür sayısına göre değişir; küçük bir atölyede yarım gün, büyük veya karmaşık bir hatta bir gün sürebilir. Kesin süreyi vermek için önce armatür sayısını ve konumlarını bilmemiz gerekir — bu bilgi yoksa, ilk envanter turunda birlikte belirleriz ve bir sonraki tur için gerçekçi bir süre öngörürüz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Aydınlatma bakımının erken belirti/erteleme ilişkisi genel bakım mühendisliği bilgisidir; Sincan-Ostim atölye dokusuna uygulanışı firma pratiğidir. Rakam ve tesis adı uydurulmamıştır.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü Platform ile Atölye Bakım Turu Güvenliği",
+        giris:
+            "Atölye bakım turunda operatörlü çalışma tercihi, çoğu zaman kapasiteden değil güvenlik prosedüründen kaynaklanır. Sincan-Ostim hattındaki atölyelerin bir kısmı kendi ekibiyle platform kullanmayı tercih ederken, bir kısmı düzenli olmayan veya karmaşık bir iş için operatörlü çalışmayı seçer — ve bu iki tercihin arkasında net bir mantık vardır: sık tekrarlanan, standart bir iş kendi ekibinizle daha ekonomiktir; nadiren tekrarlanan, karmaşık erişim gerektiren veya güvenlik prosedürü ağır bir iş operatörle daha güvenlidir. Bu sayfa, atölye bakım turunda operatörlü kiralamanın ne zaman tercih edilmesi gerektiğini, güvenlik prosedürünün bakım turuna nasıl entegre edildiğini ve bu tercihin bakım takvimine nasıl yerleştiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Operatörlü çalışmanın gerektiği durumlar",
+                metin:
+                    "Operatörlü çalışma, üç durumda özellikle anlamlıdır: iş nadiren tekrarlanıyorsa (kendi ekibinizi eğitmek amorti etmez), erişim geometrisi karmaşıksa (örümcek platform veya eklemli platform gibi kol hareketi standart makaslıdan farklı makineler), veya bakım turunun içinde başka bir riskli faaliyetle (örneğin elektrik hattı üzerinde çalışma) eş zamanlı koordinasyon gerekiyorsa. Bu durumlarda deneyimli bir operatör, hem makineyi daha verimli kullanır hem de riskli anları önceden öngörür.",
+            },
+            {
+                baslik: "Kendi ekibinizle çalışmanın mantıklı olduğu durumlar",
+                metin:
+                    "Buna karşın, atölyenizde standart makaslı platformla düzenli tekrarlanan bir iş varsa (örneğin her yıl aynı aydınlatma bakım turu), kendi ekibinizin eğitilip bu işi kendi başına yapması zamanla daha ekonomik hâle gelir. Eğitim maliyeti bir kereliktir; operatörlü kiralamanın günlük maliyeti ise her seferinde tekrarlanır. Sık tekrarlanan, standart erişim gerektiren işlerde kendi ekibinizi yetkinleştirmenizi öneririz.",
+            },
+            {
+                baslik: "Bakım turunda güvenlik prosedürü",
+                metin:
+                    "Bir atölye bakım turunda operatörün rolü sadece makineyi sürmek değildir; iş öncesi zemin ve çevre kontrolü, çalışma alanının işaretlenmesi, diğer üretim faaliyetleriyle koordinasyon ve iş sonrası makinenin güvenli biçimde park edilmesi de operatörün sorumluluğundadır. Bu prosedür, özellikle üretim durmadan yürütülen bakım turlarında (bölge bölge çalışma) kritik hâle gelir çünkü makine ile yaya trafiği aynı alanda kesişir.",
+            },
+            {
+                baslik: "Yeterlilik belgesi ve doğrulama",
+                metin:
+                    "Operatörlü kiralamada operatörün ilgili yeterlilik belgesine sahip olması beklenir ve bu, işletmenin kendi iş güvenliği prosedürleriyle uyumlu çalışmayı kolaylaştırır. Bazı atölyeler, kendi saha giriş prosedürü gereği operatörün belgesini ve varsa özel eğitim sertifikasını (örneğin kapalı alan çalışma eğitimi) talep eder — bu talepler önceden bildirilirse, gerekli belgeler iş gününden önce hazırlanır ve sahada gecikme yaşanmaz.",
+            },
+            {
+                baslik: "Karma model: bazı kalemler kendi ekip, bazıları operatörlü",
+                metin:
+                    "Pratikte pek çok atölye karma bir model kullanır: standart, tekrarlayan işler kendi ekibiyle, nadiren tekrarlanan veya karmaşık erişim gerektiren kalemler operatörlü çalışılır. Bu ayrım, yıllık bakım takvimi kurulurken kalem kalem yapılabilir — hangi kalemin kim tarafından yürütüleceği baştan belirlenir ve bakım günü buna göre planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü mü, kendi ekip mi: karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, bir bakım kaleminin operatörlü mü yoksa kendi ekiple mi çalışılmasının daha mantıklı olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Sıklık", "Erişim karmaşıklığı", "Önerilen model"],
+                    satirlar: [
+                        ["Standart aydınlatma bakımı", "Yıllık, tekrarlayan", "Düşük", "Kendi ekip (eğitimli)"],
+                        ["Dar geçiş / örümcek platform", "Nadiren", "Yüksek", "Operatörlü"],
+                        ["Vinç hattı çevresi kontrolü", "Periyodik, mevzuata bağlı", "Orta-yüksek", "Operatörlü"],
+                        ["Genel iç mekân turu", "Yıllık", "Düşük-orta", "Kendi ekip veya operatörlü"],
+                        ["Elektrik hattı yakınında iş", "Nadiren", "Yüksek risk", "Operatörlü + koordinasyon"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kendi ekibinizi eğitmek isterseniz",
+                paragraflar: [
+                    "Standart makaslı platform kullanımı için kendi ekibinizi yetkinleştirmek isterseniz, ilk birkaç kullanımda operatörlü çalışıp ekibinizin gözlemlemesini, ardından kademeli olarak devri kendi ekibinize bırakmayı öneririz. Bu geçiş, sıfırdan bir eğitim programına göre daha doğal işler ve gerçek saha koşullarında öğrenmeyi sağlar.",
+                    "Ekibinizin yetkinliği arttıkça, operatörlü ihtiyacınız yalnızca karmaşık kalemlere (örümcek platform, eklemli platform, vinç hattı çevresi) sıkışır ve standart işler için maliyet zamanla düşer.",
+                ],
+            },
+            {
+                baslik: "Bölge bölge çalışan bakım turunda koordinasyon",
+                paragraflar: [
+                    "Üretim durmadan yürütülen bir bakım turunda (atölyenin bölge bölge boşaltılıp çalışıldığı model), operatörün üretim ekibiyle koordinasyonu kritik hâle gelir. Hangi bölgenin ne zaman boşaltılacağı, makinenin hangi güzergâhı izleyeceği ve yaya trafiğinin nasıl yönlendirileceği, iş öncesi kısa bir brifingle netleştirilir. Bu koordinasyonu genelde işletmeden bir sorumlu ile birlikte kurarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü mü kendi ekibimizle mi çalışmalıyız, nasıl karar veririz?",
+                cevap:
+                    "İki soruya bakın: bu iş ne sıklıkla tekrarlanıyor ve erişim ne kadar karmaşık. Sık tekrarlanan, standart erişim gerektiren bir işse (örneğin yıllık aydınlatma bakımı) kendi ekibinizi eğitmek zamanla daha ekonomiktir. Nadiren tekrarlanan veya karmaşık erişim (dar geçiş, engelli nokta, vinç hattı çevresi) gerektiren bir işse operatörlü çalışmak hem daha güvenli hem daha verimlidir. Kalemlerinizi paylaşırsanız hangisinin hangi modele uygun olduğunu birlikte belirleriz.",
+            },
+            {
+                soru: "Operatörün yeterlilik belgesi olduğunu nasıl doğrularız?",
+                cevap:
+                    "Talep sırasında belirtirseniz, operatörün ilgili yeterlilik belgesini iş gününden önce paylaşırız. Bazı atölyelerin kendi saha giriş prosedürü gereği ek belgeler (örneğin özel eğitim sertifikası) istediğini biliyoruz; bu talepleri önceden bildirmeniz, gerekli belgelerin sahada gecikmeye yol açmadan hazır olmasını sağlar.",
+            },
+            {
+                soru: "Kendi ekibimiz bazı kalemlerde, operatör başka kalemlerde çalışabilir mi?",
+                cevap:
+                    "Evet, bu karma model pratikte sık kullanılır. Standart, tekrarlayan kalemleri kendi ekibiniz yürütürken, nadiren tekrarlanan veya karmaşık erişim gerektiren kalemleri operatörlü planlarız. Yıllık bakım takvimi kurulurken bu ayrımı kalem kalem yapabiliriz.",
+            },
+            {
+                soru: "Üretim durmadan çalışılan bir bakım turunda operatör ne yapar?",
+                cevap:
+                    "Makineyi sürmenin ötesinde, çalışma alanının işaretlenmesini, üretim ekibiyle koordinasyonu ve yaya trafiğiyle makine güzergâhının çakışmamasını yönetir. Bu, özellikle bölge bölge boşaltılarak yürütülen bakım turlarında kritik bir roldür; iş öncesi kısa bir brifingle işletmeden bir sorumluyla birlikte planlanır.",
+            },
+            {
+                soru: "Operatörlü kiralama, kendi ekibimizle çalışmaktan ne kadar farklı maliyetli?",
+                cevap:
+                    "Kesin bir rakam vermek yanıltıcı olur çünkü fark, işin süresine ve sıklığına göre değişir; ama genel mantık şudur: tek seferlik veya nadir işlerde operatörlü çalışmak, eğitim maliyeti gerektirmediği için toplamda daha ekonomiktir; sık tekrarlanan işlerde ise kendi ekibinizin eğitimi zamanla amorti olur ve uzun vadede daha ekonomik hâle gelir. Kendi kullanım sıklığınızı paylaşırsanız, hangi modelin sizin için daha uygun olduğunu birlikte hesaplarız.",
+            },
+            {
+                soru: "Ekibimizi eğitmek istiyoruz ama nereden başlayacağımızı bilmiyoruz; yardımcı olur musunuz?",
+                cevap:
+                    "Evet. Önerdiğimiz yol, ilk birkaç bakım turunu operatörlü yürütüp ekibinizin gözlemlemesi, ardından kademeli olarak devri kendi ekibinize bırakmasıdır. Bu, gerçek saha koşullarında öğrenmeyi sağlar ve sıfırdan bir eğitim programına göre daha doğal işler. İlk turunuzu bu geçiş planıyla birlikte kurabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/kendi ekip tercihinin sıklık-karmaşıklık mantığı genel iş güvenliği pratiğidir; Sincan-Ostim atölye bakım turuna uygulanışı firma pratiğidir. Rakam ve tesis adı uydurulmamıştır.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Sincan-Ostim Atölye Kümesinde Çok Noktalı Bakım Rotası",
+        giris:
+            "Sincan ile Ostim arasındaki hat, birbirine yakın onlarca küçük ve orta ölçekli atölyenin yoğunlaştığı bir kümedir ve bu yoğunluk, tek tek işletmelerin fark edemediği bir fırsat barındırır: aynı haftaya, hatta aynı güne denk getirilen birden fazla bakım turu, tek bir makinenin sırayla birkaç noktaya hizmet vermesini mümkün kılar. Bu, çok noktalı rota mantığıdır — makine bir noktadan çıkar, kısa bir mesafe kat eder, bir sonraki noktada işe başlar ve gün sonunda birkaç işletmenin bakımı tek seferlik bir sevkiyatla tamamlanmış olur. Bu domainin ana konularından biri budur, çünkü Sincan-Ostim hattının coğrafi yoğunluğu tam olarak bu modele elverişlidir. Bu sayfa, çok noktalı bakım rotasının nasıl kurulduğunu, hangi işletmelerin bu modelden fayda sağladığını ve rotanın verimini neyin belirlediğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Rota mantığının temel işleyişi",
+                metin:
+                    "Çok noktalı rota, birden fazla işletmenin bakım tarihini aynı haftaya denk getirip, makinenin bir noktadan diğerine mesafe kaybı yaşamadan geçmesini sağlamaktır. Rota kurulurken önce katılacak işletmelerin konumları haritalanır, sonra en kısa mesafeyi kat edecek bir sıralama yapılır ve her işletmeye tahmini bir zaman penceresi verilir. Bu sıralama, işletmelerin hazır olma sırasına göre değil, coğrafi yakınlığa göre yapılır — bu, toplam mesafeyi ve dolayısıyla toplam maliyeti minimize eder.",
+            },
+            {
+                baslik: "Hangi işletmeler bu modelden fayda sağlar",
+                metin:
+                    "Çok noktalı rota, özellikle küçük ölçekli atölyeler için anlamlıdır çünkü bu işletmelerde tek başına çağrılan bir makinenin nakliye payı, toplam iş maliyetine göre orantısız büyür. Aynı sokakta veya aynı iş hanında birkaç küçük atölye varsa, bu işletmelerin bakım tarihlerini birleştirmek nakliye kalemini işletme sayısına bölerek küçültür. Büyük ölçekli tek bir tesis için bu avantaj daha sınırlıdır çünkü zaten kendi başına bir günü doldurabilir.",
+            },
+            {
+                baslik: "Rota verimini belirleyen faktörler",
+                metin:
+                    "Bir rotanın verimi üç şeye bağlıdır: işletmelerin coğrafi yakınlığı, her işletmedeki işin tahmini süresi ve işletmelerin belirlenen zaman penceresinde gerçekten hazır olması. İlk ikisi planlama aşamasında netleşir; üçüncüsü ise sahada en çok aksamaya yol açan noktadır — bir işletme hazır değilse, makine bekler ve bu bekleme, rotadaki sonraki işletmelerin zamanını da kaydırır. Bu yüzden rotaya katılan her işletmenin, kendi zaman penceresinde alanını hazır tutması rotanın verimini doğrudan etkiler.",
+            },
+            {
+                baslik: "Rota kurulumunda koordinasyonun rolü",
+                metin:
+                    "Çok noktalı bir rota, tek bir işletmenin talebiyle kurulmaz — en az birkaç işletmenin aynı haftaya denk gelen bir ihtiyacı olması gerekir. Bu koordinasyonu genelde iki yoldan biriyle kuruyoruz: ya bir işletme kendi komşularını organize edip bize toplu bir talep iletir, ya da farklı zamanlarda gelen taleplerimizi coğrafi yakınlığına göre biz eşleştirir ve işletmelere aynı haftaya katılmak isteyip istemediklerini sorarız. İkinci yol, düzenli talep aldığımız Sincan-Ostim hattında giderek daha sık işliyor.",
+            },
+            {
+                baslik: "Rotanın bakım takvimine yerleşmesi",
+                metin:
+                    "Bir işletme için çok noktalı rota, tek seferlik bir fırsat değil yıllık takvimin bir parçası olabilir. İlk yıl kurulan bir rota, ertesi yıl aynı işletmeler için tekrarlanabilir — böylece her yıl aynı hafta, aynı sıralamayla bakım turları yapılır ve koordinasyon yükü zamanla azalır. Bu, hem işletmeler hem de bizim için öngörülebilir bir düzen kurar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tek nokta ile çok noktalı rota karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, tek başına çağrılan bir bakım günü ile çok noktalı rotaya katılan bir bakım gününün farklarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Tek nokta", "Çok noktalı rota"],
+                    satirlar: [
+                        ["Nakliye payı", "İşletme başına tam maliyet", "İşletme sayısına bölünür"],
+                        ["Zamanlama esnekliği", "Yüksek, işletmeye özel", "Rota sırasına bağlı, dar pencere"],
+                        ["Koordinasyon ihtiyacı", "Yok", "Birkaç işletmeyle eşleşme gerekir"],
+                        ["Uygun ölçek", "Büyük tesis veya acil iş", "Küçük-orta atölye"],
+                        ["Yıllık tekrar", "Bağımsız planlanır", "Genelde aynı hafta tekrarlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rotaya katılmak isteyen işletmeler için pratik adımlar",
+                paragraflar: [
+                    "Rotaya katılmak isterseniz, ilk adım kendi bakım ihtiyacınızı ve tercih ettiğiniz dönemi (örneğin sonbahar başı) bildirmenizdir. Bu bilgiyi, aynı dönemde talep eden diğer işletmelerle eşleştirir ve size uygun bir gün önerisi sunarız. Eğer komşularınızı zaten biliyorsanız, onları da dahil etmek isteyip istemediğinizi sorabilir, birlikte bir grup talebi oluşturabilirsiniz.",
+                    "Rota kesinleştikten sonra size kendi zaman pencerenizi (örneğin sabah 09:00-11:00) bildiririz; bu pencerede alanınızı hazır tutmanız, rotanın aksamadan ilerlemesini sağlar.",
+                ],
+            },
+            {
+                baslik: "Rotanın aksamaması için işletmeye düşen sorumluluk",
+                paragraflar: [
+                    "Çok noktalı bir rotada en sık yaşanan aksama, bir işletmenin kendi zaman penceresinde hazır olmamasıdır — alan boşaltılmamış, sorumlu kişi orada değil, veya beklenmedik bir üretim işi araya girmiş. Bu tür bir gecikme, sadece o işletmeyi değil rotadaki sonraki işletmeleri de etkiler. Bu yüzden rotaya katılan işletmelerden istediğimiz tek şey, kendi zaman penceresinde alanın ve bir sorumlunun hazır olmasıdır.",
+                    "Bir işletme kendi penceresinde hazır olamayacaksa, bunu mümkün olan en erken saatte bildirmesi, rotanın geri kalanının yeniden sıralanmasına imkân tanır ve toplam gecikmeyi sınırlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çok noktalı rotaya katılmak için kaç işletme gerekiyor?",
+                cevap:
+                    "Kesin bir sayı yok; iki işletme bile rota kurmaya yeter, ama üç-dört işletme genelde nakliye paylaşımını daha belirgin hissettirir. Önemli olan sayı değil, işletmelerin coğrafi yakınlığı ve zaman uyumudur. Kendi ihtiyacınızı ve tercih ettiğiniz dönemi bildirirseniz, aynı dönemde talep eden diğer işletmelerle sizi eşleştirmeye çalışırız.",
+            },
+            {
+                soru: "Rotada bize ayrılan zaman penceresi çok dar olursa ne olur?",
+                cevap:
+                    "İşinizin süresini önceden bildirirseniz, size ayrılan pencere bu süreye göre belirlenir — dar bir pencereye sığmayacak bir işi zorla sıkıştırmayız. Eğer işiniz beklenenden uzun sürerse, rotadaki sonraki işletmelerin de bundan haberdar edilmesi gerekir; bu yüzden gerçekçi bir süre tahmini paylaşmanız, rotanın sağlıklı kurulmasını sağlar.",
+            },
+            {
+                soru: "Komşularımızı tanımıyoruz, siz mi eşleştiriyorsunuz?",
+                cevap:
+                    "Evet, bu ikinci yoldur ve Sincan-Ostim hattında sık kullandığımız bir yöntem. Farklı zamanlarda gelen talepleri coğrafi yakınlığına göre değerlendiririz ve uygun bir eşleşme bulduğumuzda, ilgili işletmelere aynı haftaya katılmak isteyip istemediklerini sorarız. Katılım tamamen isteğe bağlıdır; istemiyorsanız kendi bağımsız tarihinizde de çalışabiliriz.",
+            },
+            {
+                soru: "Rota bir kez kurulduktan sonra her yıl aynı mı kalıyor?",
+                cevap:
+                    "Genelde evet, ama sabit değildir. İlk yıl kurulan bir rota, katılan işletmelerin çoğu aynı kalırsa ertesi yıl aynı hafta ve sıralamayla tekrarlanabilir. Bir işletme ayrılırsa veya yeni bir işletme katılmak isterse, rota o yıl için yeniden düzenlenir. Bu esneklik, rotanın zamanla işletmelerin gerçek ihtiyacına göre şekillenmesini sağlar.",
+            },
+            {
+                soru: "Acil bir durumda rotadaki sıramızı öne alabilir miyiz?",
+                cevap:
+                    "Gerçek bir acil durumda evet, ama bu, rotadaki diğer işletmelerin sırasını etkileyeceği için önce durumu değerlendiririz — bazen acil işi rota dışında ayrı bir sevkiyatla, rotayı bozmadan çözmek daha hızlı olabilir. Acil durumunuzu bildirirseniz, en hızlı ve rotayı en az etkileyen çözümü birlikte buluruz.",
+            },
+            {
+                soru: "Çok noktalı rota sadece bakım turları için mi, başka işler için de kullanılabilir mi?",
+                cevap:
+                    "Prensip olarak aynı mantık her tür planlı işe uygulanabilir — envanter turu, kontrol turu, hatta küçük onarım günleri. Rotanın işlemesi için gereken tek şey, birden fazla işletmenin benzer bir dönemde, coğrafi olarak yakın bir ihtiyacının olmasıdır. Bakım dışı bir ihtiyacınız varsa, bunun da rotaya uygun olup olmadığını birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sincan-Ostim hattının coğrafi işletme yoğunluğu kamuya açık bilgidir; çok noktalı rota kurgusu ve koordinasyon yöntemi firma pratiğidir. Rakam ve tesis adı uydurulmamıştır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Koşullarında Platform — Dürüst Kapsam Notu",
+        giris:
+            "Bu sayfayı dürüstçe kısa tutuyoruz çünkü zor zemin ve arazi koşulları, bizim ana uzmanlık alanımız değil. Sincan-Ostim hattındaki işimizin çekirdeği, atölye ve fabrika içi ile bu yapıların düzgün, genelde beton veya sıkıştırılmış zemine sahip çevresidir — engebeli arazi, çamurlu saha, dik eğim veya stabil olmayan toprak zemin gibi koşullar bizim standart filomuzun ve deneyimimizin dışında kalır. Bu tür işler için arazi tipi (rough terrain) platformlar ve bu alanda deneyimli operatörler gerekir; bizim elimizdeki makineler öncelikle iç mekân ve düzgün açık saha kullanımı için seçilmiştir. Bu sayfa, bu sınırı dürüstçe açıklıyor ve elimizdeki ekipmanın hangi ara koşullarda (hafif engebeli ama stabil zemin gibi) değerlendirilebileceğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Bizim filomuzun tasarlandığı zemin tipi",
+                metin:
+                    "Standart makaslı, eklemli ve örümcek platformlarımız, düz veya hafif eğimli, stabil zeminler için tasarlanmıştır — atölye içi beton, epoksi kaplı yüzeyler, sıkıştırılmış açık saha zeminleri. Bu makineler, engebeli arazi, yumuşak toprak veya belirgin eğimli yüzeylerde hem güvenlik hem de performans açısından uygun değildir. Bu tür bir zeminde standart bir makine kullanmaya çalışmak, devrilme riski ve makinenin saplanması gibi ciddi sorunlara yol açabilir.",
+            },
+            {
+                baslik: "Gerçek arazi tipi iş için gereken ekipman",
+                metin:
+                    "Engebeli, çamurlu veya dik eğimli bir sahada çalışmak için özel olarak tasarlanmış arazi tipi (rough terrain) platformlar gerekir — bunlar geniş, derin dişli lastiklere, dört tekerlekten çekişe ve eğim dengeleme sistemlerine sahiptir. Bu ekipman ve bu ekipmanı güvenle kullanma deneyimi, bizim standart iç mekân/atölye odaklı filomuzun kapsamı dışındadır. Böyle bir ihtiyacınız varsa, arazi tipi ekipmanda uzmanlaşmış bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                baslik: "Değerlendirebileceğimiz ara durum",
+                metin:
+                    "Bazı atölye çevresi sahalar tam engebeli değildir ama tam düz de değildir — hafif eğimli, sıkıştırılmış toprak veya çakıllı bir zemin gibi. Bu tür ara koşullarda, standart tekerlekli makinemizin uygun olup olmadığını sahayı görmeden söylemek yanıltıcı olur; zemin fotoğrafı ve eğim bilgisiyle önceden değerlendirme yaparız ve uygun değilse dürüstçe belirtiriz.",
+            },
+            {
+                baslik: "Güvenlik açısından net sınır",
+                metin:
+                    "Zemin uygunluğu konusunda tereddüt varsa, riske girmemeyi tercih ediyoruz. Standart bir makineyi uygun olmayan bir zeminde çalıştırmak, hem operatör hem çevredeki kişiler için devrilme riski taşır ve bu risk, hiçbir iş için kabul edilebilir değildir. Sahanızın zemin tipini net biçimde bilmiyorsanız, iş öncesi kısa bir saha değerlendirmesi yapmamızı öneririz.",
+            },
+            {
+                baslik: "Doğru yönlendirme",
+                metin:
+                    "Gerçek bir arazi tipi ihtiyacınız varsa (inşaat sahası, tarım arazisi, madencilik sahası gibi), bu alanda uzmanlaşmış firmalarla çalışmanız hem güvenlik hem verimlilik açısından daha doğru sonuç verir. Bizim katkı sağlayabileceğimiz alan, bu tür sahaların değil, atölye ve fabrika yapılarının iç ve düzgün dış mekân bakımıdır — işinizin kapsamını paylaşırsanız dürüstçe değerlendirir, gerekirse doğru yöne yönlendiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipine göre uygunluk",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı zemin tiplerinde standart filomuzun uygunluğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Standart filomuz uygun mu", "Gereken ekipman"],
+                    satirlar: [
+                        ["Atölye içi beton/epoksi", "Evet", "Standart makaslı/eklemli"],
+                        ["Düz, sıkıştırılmış açık saha", "Evet", "Standart tekerlekli platform"],
+                        ["Hafif eğimli/çakıllı ara zemin", "Değerlendirme gerekir", "Sahaya göre değişir"],
+                        ["Engebeli/dik eğimli arazi", "Hayır", "Arazi tipi (rough terrain) platform"],
+                        ["Çamurlu/yumuşak toprak", "Hayır", "Arazi tipi platform + özel lastik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Saha değerlendirmesi nasıl yapılır",
+                paragraflar: [
+                    "Zemin tipinden emin değilseniz, sahanın birkaç fotoğrafını ve varsa eğim bilgisini paylaşmanız, ön bir değerlendirme yapmamızı sağlar. Bu değerlendirme kesin değildir — net karar için sahayı yerinde görmek gerekebilir — ama en azından standart filomuzun kapsamında olup olmadığını hızlıca netleştirir.",
+                    "Sınırda bir durumda, riske girmek yerine sizi doğru ekipmana sahip bir firmaya yönlendirmeyi tercih ederiz; bu, hem sizin hem bizim için daha güvenli bir sonuç doğurur.",
+                ],
+            },
+            {
+                baslik: "Atölye çevresindeki düzgün açık saha ile arazi arasındaki fark",
+                paragraflar: [
+                    "Sincan-Ostim hattındaki çoğu atölyenin çevresi, tamamen ham arazi değil, en azından kısmen sıkıştırılmış veya beton bir zemine sahiptir — yükleme alanı, park sahası, servis yolu gibi. Bu tür alanlar bizim kapsamımızdadır. Asıl sınır, atölye sınırlarının dışına çıkıp gerçek bir inşaat veya tarım arazisine geçildiğinde başlar — bu noktada iş, bizim uzmanlığımızın dışına çıkar.",
+                    "Bu ayrımı işinizin başında netleştirmek, hem sizin doğru firmayı bulmanızı hem de bizim gereksiz bir sahaya makine göndermememizi sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Standart makaslı platformu engebeli bir arazide kullanabilir miyiz?",
+                cevap:
+                    "Hayır, önermiyoruz. Standart makaslı platformlar düz ve stabil zeminler için tasarlanmıştır; engebeli veya eğimli bir arazide devrilme riski taşır. Böyle bir ihtiyacınız varsa arazi tipi (rough terrain) platform gerekir ve bu, bizim filomuzun kapsamı dışındadır — bu alanda uzmanlaşmış bir firmayla çalışmanızı öneririz.",
+            },
+            {
+                soru: "Atölyemizin çevresi tam düz değil, biraz eğimli; sizin makineniz çalışır mı?",
+                cevap:
+                    "Bu, eğimin derecesine ve zeminin stabilitesine bağlı; kesin cevap için sahayı görmemiz veya en azından fotoğraf ve eğim bilgisi almamız gerekir. Hafif eğimli ama sıkıştırılmış bir zeminde standart makinemiz genelde uygundur; belirgin eğim veya yumuşak zeminde uygun değildir. Sahanızı paylaşırsanız dürüst bir değerlendirme yaparız.",
+            },
+            {
+                soru: "Arazi tipi platform için kimi önerirsiniz?",
+                cevap:
+                    "Belirli bir firmayı önermiyoruz çünkü bu, bizim doğrulayabileceğimiz bir uzmanlık alanı değil. Arazi tipi ekipman kiralayan firmaları değerlendirirken, rough terrain platform deneyimlerini ve ilgili sahalarda referans işlerini sorgulamanızı öneririz. Bizden isteyebileceğiniz şey, işiniz atölye/düzgün saha kapsamına girdiğinde devreye girmemizdir.",
+            },
+            {
+                soru: "Yanlışlıkla uygun olmayan bir zemine makine gönderirseniz ne olur?",
+                cevap:
+                    "Bu riski almamak için zemin bilgisini iş öncesi netleştirmeyi önemsiyoruz — tereddüt varsa makineyi göndermeden önce ek bilgi veya fotoğraf isteriz. Sahada beklenmedik biçimde uygun olmayan bir zeminle karşılaşılırsa, operatör güvenliği önceliklendirir ve makineyi çalıştırmadan durumu bildirir; bu, işin gecikmesine yol açsa da güvenlik açısından doğru yaklaşımdır.",
+            },
+            {
+                soru: "Atölye içi bakım ile arazi işini aynı günde birleştirebilir miyiz?",
+                cevap:
+                    "Atölye içi bakım kısmını memnuniyetle yaparız; arazi gerektiren kısım için ise ayrı bir firmayla koordinasyon gerekir çünkü farklı ekipman ve muhtemelen farklı operatör deneyimi gerektirir. İki işi aynı güne denk getirmek isterseniz, kendi bakım turumuzu arazi işinin tarihine göre planlayabiliriz, ama arazi kısmını biz yürütmeyiz.",
+            },
+            {
+                soru: "Bu domainin ana işi neden zor zemin değil, atölye bakımı?",
+                cevap:
+                    "Çünkü Sincan-Ostim hattındaki gerçek talebimizin büyük çoğunluğu atölye ve fabrika iç/dış mekân bakımıdır ve filomuz da bu ihtiyaca göre şekillenmiştir — egzozsuz, iç mekân uyumlu, düz zemin odaklı makineler. Zor zemin ve arazi işleri farklı bir ekipman ve deneyim kategorisidir; bu farkı gizlemek yerine dürüstçe belirtmeyi ve gerektiğinde doğru yöne yönlendirmeyi tercih ediyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Arazi tipi platform gerekliliği genel ekipman mühendisliği bilgisidir; bu sayfa firmanın gerçek zemin kapsam sınırını dürüstçe belirtir, tesis adı ve rakam uydurulmamıştır.",
+    },
 };

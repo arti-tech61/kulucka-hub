@@ -1405,4 +1405,1076 @@ export const BURSAMANLIFTKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Gemlik Serbest Bölgesinin kendi giriş-çıkış ve gümrük rejimine tabi bağımsız saha statüsü kamuya açık bilgidir; giriş başvurusu koordinasyonu, evrak yenileme takibi ve bölge içi/dışı taşınma ayrımı firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HİZMET SAYFALARI — sözleşme/bakım/mobilya-otomotiv yan sanayi ekseni
+    // ⚠️ Bu 11 slug ağdaki 85 domainin tamamında var; jenerik tanım yasak.
+    // Her sayfa bu domainin UZUN SÜRELİ SÖZLEŞME + PERİYODİK BAKIM +
+    // İnegöl mobilya/otomotiv yan sanayi kimliğine kök salmalı.
+    // Yazım: 2026-08-14.
+    // ═══════════════════════════════════════════════════════════════════
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Örümcek Platform ile Fabrika Hat Üstü Periyodik Bakım",
+        giris:
+            "Örümcek platform (kompakt, kendi yürüyen mini paletli platform) mobilya fabrikalarımızdaki en sık kiralanan sınıflardan biridir çünkü hat üstü çelik konstrüksiyona, aydınlatma raylarına ve çatı makasına dar geçitlerden ulaşır — kapı genişliği bir metrenin altına inen ara koridorlarda, iki pres tezgahı arasındaki dar boşlukta bile manevra edebilir. Bizim işletme için değeri tek seferlik kiralamada değil, aylık periyodik bakım turunun sabit bir aracı olmasındadır: aynı ünite her ay aynı fabrikaya gelir, aynı hat üstü noktaları dolaşır ve bakım ekibi yıllar içinde o hattın her mafsalını ezbere bilir hâle gelir. Uzun dönem sözleşmeyle konaklayan örümcek platform, İnegöl ve çevresindeki mobilya fabrikalarında raf üstü aydınlatma değişiminden çatı makası kontrolüne, sprinkler hattı bakımından baca temizliğine kadar tekrar eden işlerin standart aracıdır; günübirlik çağrıda her seferinde yeniden ölçü almak yerine, sözleşme dosyasında hattın metrajı ve geçiş genişlikleri baştan kayıtlıdır.",
+        maddeler: [
+            {
+                baslik: "Dar hat aralarına özgü şase seçimi",
+                metin:
+                    "Mobilya fabrikalarının pres ve CNC hatları arasındaki servis koridorları çoğu zaman 90-120 santim bandındadır; standart makaslı platform bu aralığa girmez. Örümcek platformun daralan paletli şasesi ve dışa taşmayan gövdesi bu koridorlarda çalışmayı mümkün kılar. Sözleşme öncesi keşifte hattın en dar noktası ölçülür ve makine seçimi bu ölçüye göre yapılır; sonradan makine sığmadı diye iş durdurmak istemeyiz.",
+            },
+            {
+                baslik: "Merdiven ve rampalı geçişlerde erişim",
+                metin:
+                    "Bazı fabrikalarda hat üstü bakım noktasına ancak kat farkı aşılarak ulaşılır — servis merdiveni, hafif rampa veya asma kat girişi gibi. Örümcek platformun paletli tahrik sistemi belirli bir eğim bandındaki rampaları tırmanabilir; bu bant sözleşme keşfinde ölçülür ve rampanın eğimi sınırı aşıyorsa alternatif erişim güzergahı birlikte planlanır, sahada sürpriz yaşanmaz.",
+            },
+            {
+                baslik: "Hat üstü periyodik turun sabit noktaları",
+                metin:
+                    "Uzun dönem sözleşmede bakım ekibi her ziyarette aynı sırayla aynı noktaları dolaşır: aydınlatma rayı, sprinkler başlıkları, havalandırma kanalı bağlantıları, çatı makası bağlantı cıvataları. Bu rota fabrika ile birlikte çizilir ve makine kartına işlenir; her ziyaret önceki ziyaretle kıyaslanabilir hâle gelir, bir noktada aşınma başladığında bu karşılaştırmadan fark edilir.",
+            },
+            {
+                baslik: "Elektrik ve toz riskine karşı akülü tahrik",
+                metin:
+                    "Mobilya üretim hattında hem elektrik panolarının yakınında hem talaş yoğun ortamda çalışılır; bu koşulda egzozlu makine düşünülemez. Örümcek platformların tamamı akülü çalışır ve düşük gürültü seviyesiyle vardiya devam ederken bile bakım turuna izin verir — hat durdurulmadan aydınlatma değişimi yapılabilmesi, sözleşmeli müşterilerin en çok değer verdiği ayrıntıdır.",
+            },
+            {
+                baslik: "Ağırlık taşıma sınırı ve sepet yükü tanımı",
+                metin:
+                    "Örümcek platformun sepet kapasitesi standart makaslı platforma göre daha sınırlıdır; bu yüzden sözleşmede taşınacak malzeme ve alet ağırlığı önceden konuşulur. Aydınlatma armatürü değişimi gibi hafif işlerde sorun çıkmaz, ama ağır kanal parçası taşınacaksa bu ihtiyaç baştan bildirilir ki doğru sınıf seçilsin — sepet yükünü zorlamak hem operatör güvenliğini hem makine ömrünü tehlikeye atar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Örümcek platform ile diğer sınıfların hat üstü işte karşılaştırması",
+                paragraflar: [
+                    "Fabrika hat üstü bakımda hangi sınıfın ne zaman tercih edildiğini aşağıdaki tablo özetler; seçim geçiş genişliği ve erişim tipine göre yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Geçiş genişliği", "Rampa/kat farkı", "Tipik hat üstü iş"],
+                    satirlar: [
+                        ["Örümcek platform", "90 cm ve üzeri dar koridor", "Sınırlı eğimde uygun", "Aydınlatma, sprinkler, makas kontrolü"],
+                        ["Dar gövdeli makaslı", "120 cm ve üzeri", "Düz zeminde", "Raf üstü, kablo tavası"],
+                        ["Eklemli boom", "Geniş açık alan", "Uygun değil", "Çatı altı geniş tarama"],
+                        ["Standart makaslı", "150 cm ve üzeri", "Düz zeminde", "Depo koridoru"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sözleşmeye bağlı konaklama ve taşıma düzeni",
+                paragraflar: [
+                    "Örümcek platform uzun dönem sözleşmelerde fabrika içinde belirlenen bir köşede konaklar; küçük gövdesi sayesinde forklift trafiğinin dışında, hat üstüne yakın bir noktada saklanabilir. Bakım turu ayında bir aynı gün tekrarlanır ve ziyaret takvimi fabrikanın üretim planına göre önceden konuşulur ki hat durmasın.",
+                    "Taşıma ihtiyacı doğarsa (fabrika içinde ikinci bir hatta geçici görev gibi) makine kendi paletli tahrikiyle veya küçük bir el arabasıyla dakikalar içinde konumlandırılır; ayrı bir nakliye aracı gerekmez, bu da hat üstü işlerde zaman kaybını en aza indirir.",
+                ],
+            },
+            {
+                baslik: "Aynı ay içinde birden fazla hat için tek makine yeterli mi",
+                paragraflar: [
+                    "Küçük ve orta ölçekli fabrikalarda tek örümcek platform genellikle birden fazla hattı aynı ay içinde dolaşacak şekilde planlanır; hangi hattın hangi hafta ziyaret edileceği sözleşme ekinde takvimlenir. Hat sayısı arttıkça veya hatlar aynı hafta içinde çakışıyorsa ikinci ünite opsiyonu değerlendirilir — bu karar, ilk üç aylık kullanım verisine bakılarak birlikte alınır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform ile makaslı platform arasındaki fark tam olarak nedir, hangisini seçmeliyiz?",
+                cevap:
+                    "Temel fark gövde genişliği ve manevra kabiliyetidir. Makaslı platform daha geniş sepete ve daha yüksek taşıma kapasitesine sahiptir ama düz, geniş koridor ister. Örümcek platform daha dar geçebilir, paletli tahrikle hafif eğimleri tırmanabilir ve dar hat aralarına sığar, buna karşılık sepet yükü ve çalışma yüksekliği bandı daha sınırlıdır. Mobilya fabrikasında hat üstü dar koridor işi ağırlıktaysa örümcek platform, geniş depo koridoru işi ağırlıktaysa makaslı platform önerimizdir; keşifte ikisini de gösterip kararı birlikte veririz.",
+            },
+            {
+                soru: "Periyodik bakım turunda makine her ay aynı noktalara mı gidiyor, yoksa her seferinde yeniden mi planlanıyor?",
+                cevap:
+                    "Sözleşme kurulurken hat üstü bakım rotası birlikte çizilir ve bu rota makine kartına işlenir; her ay aynı sırayla dolaşılır, böylece ziyaretler birbiriyle karşılaştırılabilir hâle gelir. Fabrikada yeni bir nokta eklenmesi gerekirse (yeni aydınlatma hattı, yeni sprinkler bölümü gibi) rota bir sonraki ziyarete revize edilir; bu revizyon ek ücret gerektirmez, sözleşmenin doğal bir parçasıdır.",
+            },
+            {
+                soru: "Hat üretim hâlindeyken bakım yapılabiliyor mu, yoksa hattı durdurmamız mı gerekiyor?",
+                cevap:
+                    "Çoğu zaman durdurmaya gerek kalmaz. Örümcek platformun akülü ve sessiz çalışması, aydınlatma değişimi gibi işlerin vardiya devam ederken yapılmasına izin verir; operatör hattın çalışma alanına girmeyecek şekilde konumlanır. Ancak çatı makası veya sprinkler ana hattı gibi güvenlik açısından hassas işlerde kısa süreli durdurma önerilir — bu ayrım bakım planında önceden belirtilir, sahada tartışma yaşanmaz.",
+            },
+            {
+                soru: "Sözleşme süresi boyunca makine sürekli fabrikada mı kalıyor, yoksa bakım günü mü geliyor?",
+                cevap:
+                    "İki model de sunulur. Sık kullanılan fabrikalarda makine konaklamalı kalır ve bakım ekibi periyodik turunda ona uğrar; seyrek kullanılan küçük atölyelerde ise makine yalnızca bakım günü fabrikaya gelir ve iş bitince geri alınır. Hangi modelin size uygun olduğu, aylık kullanım sıklığınıza bakılarak deneme döneminde netleşir; ilk üç ay verisi kararın dayanağıdır.",
+            },
+            {
+                soru: "Operatörümüz örümcek platformu ilk kez kullanacak, eğitim sözleşmeye dahil mi?",
+                cevap:
+                    "Evet. Yerinde kullanım eğitimi teslim gününde verilir ve sözleşme süresince operatör değişirse tekrarlanır, ek bedel istenmez. Örümcek platformun paletli tahrik ve daralma kontrolleri standart makaslı platformdan farklı olduğu için bu eğitimi ayrı bir modül olarak veririz; yalnız şunu ayırırız — bu makineye özgü kullanım eğitimidir, yasal operatör belgesi ayrı bir süreçtir.",
+            },
+            {
+                soru: "Fabrikada birden fazla hat var; aynı ay içinde her hattı örümcek platformla mı bakıma alıyorsunuz?",
+                cevap:
+                    "Genellikle evet, tek ünite birden fazla hattı aynı ay içinde sırayla dolaşacak şekilde planlanır ve hangi hattın hangi hafta ziyaret edileceği sözleşme ekinde yazılıdır. Hat sayısı artar veya hatlar aynı haftaya denk gelirse ikinci ünite ihtiyacı doğar; bu ihtiyacı ilk üç aylık kullanım verisiyle birlikte değerlendirir, gerekiyorsa sözleşmeye ek madde olarak ekleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Örümcek platformun dar geçiş ve paletli tırmanma özellikleri kamuya açık teknik bilgidir; hat üstü periyodik bakım rotası, sözleşme ekindeki takvim yapısı ve konaklama modeli firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "İnegöl-Kestel-Gürsu Hattında Uzun Süreli Konuşlandırma Lojistiği",
+        giris:
+            "Nakliye başlığı bizim işimizde günübirlik teslim-al lojistiğinden çok farklı bir anlam taşır çünkü uzun dönem sözleşmelerin çoğunda makine bir kez getirilir ve aylarca, bazen yıl boyu yerinde kalır — asıl lojistik yük, ilk teslimden sonra devreye giren periyodik bakım ziyaretlerinin taşınmasıdır. İnegöl merkezli filomuz Kestel ve Gürsu hattındaki mobilya ve otomotiv yan sanayi tesislerine bu yüzden iki farklı nakliye rejimiyle hizmet verir: ilk konuşlandırmada makine lowbed veya araç üstü platformla tesise getirilir ve teslim tutanağı sahada tutulur; sonraki aylarda ise nakliye değil bakım aracı hareket eder, makine yerinde kalır. Bu ayrım işletmenin nakliye maliyetini bir kere öder, sonrasında sıfırlar — günübirlik kiralamanın her seferinde tekrarlanan gidiş-dönüş nakliye bedeli, uzun dönem sözleşmede yalnızca ilk aya yazılır.",
+        maddeler: [
+            {
+                baslik: "İlk konuşlandırmada teslim tutanağı ve fotoğraflı kayıt",
+                metin:
+                    "Makine tesise ilk geldiğinde teslim anı fotoğraflarla belgelenir: makinenin genel durumu, sayaç değeri, varsa kozmetik iz. Bu tutanak sözleşme dosyasının ilk sayfasıdır ve süre boyunca hasar tartışmalarında referans noktası olarak kullanılır. Nakliye aracı, makinenin konaklayacağı noktaya kadar sahada yönlendirilir; forklift trafiği veya dar kapı varsa indirme noktası keşifte önceden belirlenmiş olur.",
+            },
+            {
+                baslik: "Kestel-Gürsu koridorunda kısa mesafe avantajı",
+                metin:
+                    "İnegöl merkezli depomuzdan Kestel ve Gürsu hattına mesafe kısa olduğu için bu bölgedeki tesislere ilk teslim genellikle aynı gün, geç saatte talep edilse bile ertesi gün tamamlanır. Periyodik bakım ziyaretleri de aynı yakınlık sayesinde randevu penceresi dar tutulabilir — bakım aracı beklemeksizin, planlanan saatte sahada olur.",
+            },
+            {
+                baslik: "Sözleşme süresince ikame ünitenin nakliye önceliği",
+                metin:
+                    "Konaklamalı makine arızalandığında ikame ünitenin sevkiyatı, sıradan bir kiralama talebinden farklı bir öncelik sırasında işler: mevcut sözleşme numarası sisteme düşer düşmez ikame nakliyesi filo takviminin başına alınır. Bu öncelik, uzun dönem müşterinin günübirlik talebe göre beklemeden makinesine kavuşmasını sağlar; sözleşmede taahhüt edilen saat eşiği bu önceliğe göre hesaplanmıştır.",
+            },
+            {
+                baslik: "Sözleşme sonu iade ve nakliye kapanışı",
+                metin:
+                    "Süre dolduğunda veya erken iade kararı alındığında nakliye süreci girişin ayna görüntüsüdür: iade tarihi bildirilir, araç planlanır, makine tesisten alınırken ikinci bir durum tutanağı tutulur. İki tutanak arasındaki fark varsa (operatör hatasından kaynaklı hasar gibi) bu noktada değerlendirilir; normal aşınma dışındaki farklar sözleşmedeki hasar maddesine göre işlenir.",
+            },
+            {
+                baslik: "Fabrika içi ikinci konuma taşıma",
+                metin:
+                    "Bazı işletmelerin aynı kampüste birden fazla binası veya aynı koridor üzerinde ikinci bir deposu vardır. Sözleşmede kullanım adresleri listelenmişse makine bu adresler arasında bizim nakliyemiz veya işletmenin kendi organizasyonuyla taşınabilir; her taşınmada yeniden sözleşme yazılmaz, yalnızca kısa bir bildirim yeterlidir ki bakım rotası doğru adrese güncellensin.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Nakliye rejiminin sözleşme süresine göre karşılaştırması",
+                paragraflar: [
+                    "Günübirlik kiralama ile uzun dönem sözleşmede nakliye yükünün nasıl dağıldığını aşağıdaki tablo gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Model", "Nakliye sıklığı", "Kimin sorumluluğunda", "Bedel yapısı"],
+                    satirlar: [
+                        ["Günübirlik kiralama", "Her iş için gidiş-dönüş", "Her seferinde ayrı planlama", "Her seferinde nakliye bedeli"],
+                        ["3-6 aylık sözleşme", "Yalnızca giriş-çıkışta", "Bir kez planlanır", "İlk aya dahil, sonra yok"],
+                        ["12 aylık sözleşme", "Giriş-çıkış + ikame durumunda", "Öncelikli filo takvimi", "İlk aya dahil"],
+                        ["Çok noktalı rota sözleşmesi", "İlk kurulumda tek seferlik", "Rota planına göre", "Kurulum ücretine dahil"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar kapı ve alçak tavanlı depolarda indirme planı",
+                paragraflar: [
+                    "İnegöl-Kestel-Gürsu hattındaki bazı mobilya atölyelerinde kapı genişliği ve tavan yüksekliği standart nakliye aracının kolayca giremeyeceği kadar dardır. Bu durumlarda indirme noktası keşifte ölçülür, gerekiyorsa makine dışarıda indirilip kendi tahrikiyle içeri alınır. Bu ayrıntı sözleşme öncesi netleşmezse teslim günü zaman kaybı yaşanır; bu yüzden ilk konuşlandırmadan önce sahaya bir keşif ziyareti standart uygulamamızdır.",
+                    "Keşif ziyareti aynı zamanda bakım aracının hangi noktaya park edeceğini, şarj hattının nereden çekileceğini de belirler — periyodik ziyaretlerde zaman kaybı yaşanmasın diye bu ayrıntılar ilk günden kayıt altına alınır.",
+                ],
+            },
+            {
+                baslik: "Acil ihtiyaçta hızlandırılmış teslim",
+                paragraflar: [
+                    "Sözleşmeli müşterilerimiz için acil ek makine talebi (fuar öncesi yoğunluk, beklenmedik arıza gibi) standart günübirlik talep kuyruğunun önüne alınır; İnegöl merkezli konumumuz sayesinde Kestel-Gürsu hattındaki bu tür talepler çoğunlukla aynı gün karşılanır. Bu hız, coğrafi yakınlığın sözleşmeli müşteriye somut faydasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İlk teslimat ne kadar sürede tamamlanıyor, keşif şart mı?",
+                cevap:
+                    "Standart teslim süresi, sözleşme imzalandıktan sonra bir ile üç iş günü arasında değişir; süre büyük ölçüde makinenin mevcut konumuna ve tesisin erişim koşullarına bağlıdır. Keşif zorunlu değildir ama dar kapı, alçak tavan veya kat farkı varsa şiddetle öneririz — keşif yapılmadan gidilen teslimlerde saha koşulu beklenmedik çıkarsa teslim günü ek zaman kaybedilir. Kestel ve Gürsu hattındaki yakınlığımız sayesinde keşif ile teslim aynı hafta içinde tamamlanabilir.",
+            },
+            {
+                soru: "Sözleşme süresince makine hiç yerinden kalkmıyor mu, nakliye bedeli tamamen sıfırlanıyor mu?",
+                cevap:
+                    "Konaklamalı sözleşmelerde makine giriş ve çıkış dışında yerinden kalkmaz; periyodik bakım ziyaretlerinde nakliye değil küçük bir bakım aracı hareket eder, bu da ayrı bir nakliye kalemi doğurmaz. Nakliye bedeli tekrar doğan tek durum ikame ünitedir — arıza hâlinde ikame makine sevk edilirken bu bedel sözleşme kapsamında bizim tarafımızdan karşılanır, işletmeye yansımaz.",
+            },
+            {
+                soru: "Makineyi fabrika içinde başka bir binaya taşımak istiyoruz, bunun için ayrı nakliye ücreti mi ödüyoruz?",
+                cevap:
+                    "Sözleşmede kayıtlı kullanım adresleri arasındaki taşınma genellikle ek ücret gerektirmez; tek istediğimiz kısa bir bildirimdir ki bakım rotamız güncel adresi bilsin. Adres listesi dışına çıkış (örneğin farklı bir ilçedeki geçici iş) ayrı bir nakliye planlaması gerektirir ve bu durum önceden konuşulur.",
+            },
+            {
+                soru: "Arıza durumunda ikame makine ne kadar sürede geliyor, bu süre sözleşmede yazılı mı?",
+                cevap:
+                    "Evet, ikame süresi sözleşmenin ayrı bir maddesidir ve işletmenin operasyon kritikliğine göre saat cinsinden belirlenir. İnegöl-Kestel-Gürsu hattındaki yakınlığımız bu süreyi kısaltan somut bir etkendir; filo takviminde sözleşmeli müşteri talepleri öncelikli sıraya alınır, ikame nakliyesi bu öncelikle planlanır.",
+            },
+            {
+                soru: "Sözleşme bitince makineyi biz mi geri götürmemiz gerekiyor, yoksa siz mi alıyorsunuz?",
+                cevap:
+                    "Alım bize aittir. İade tarihi yaklaştığında araç planlanır, makine sahadan alınırken teslim tutanağının ayna görüntüsü olan bir çıkış tutanağı tutulur. İşletmenin tek yükümlülüğü, planlanan gün makineye erişim sağlamaktır; ayrı bir nakliye organizasyonu veya bedeli beklenmez.",
+            },
+            {
+                soru: "Kestel veya Gürsu dışında, bölge dışına da teslimat yapıyor musunuz?",
+                cevap:
+                    "Yapıyoruz, ancak İnegöl merkezli konumumuz nedeniyle en hızlı ve en ekonomik hizmeti İnegöl-Kestel-Gürsu-Bursa merkez hattında veriyoruz. Bu hat dışına uzun dönem sözleşme talebi gelirse nakliye süresi ve bedeli ayrıca hesaplanır, dürüst olmak gerekirse bölge dışı taleplerde rekabet avantajımız daha sınırlıdır; bu durumda size en yakın alternatifi de açıkça söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnegöl-Kestel-Gürsu hattının coğrafi yakınlığı kamuya açık bilgidir; teslim tutanağı düzeni, ikame nakliye önceliği ve sözleşme kapanış süreci firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Mobilya ve Otomotiv Yan Sanayi Deposunda Uzun Dönem Forklift Kiralama",
+        giris:
+            "Forklift talebimiz platform talebiyle aynı köke dayanır: İnegöl ve çevresindeki mobilya fabrikaları ile otomotiv yan sanayi tesislerinin depo operasyonu, günlük değil sürekli bir ihtiyaçtır ve bu süreklilik uzun dönem sözleşme modeliyle en verimli şekilde karşılanır. Mobilya deposunda palet üstü mamul istifleme, otomotiv yan sanayi deposunda ise kalıp ve parça kasası taşıma öne çıkar — ikisi de günün her saatinde aktif kullanım ister, bu yüzden günübirlik kiralamanın erişim belirsizliği bu segmentte özellikle sorunludur. Sözleşmeli forklift modelimizde makine tesiste konaklar, periyodik bakımı bizim takvimimizde yürür ve akü/yakıt yönetimi sözleşme kapsamında planlanır; işletme depo operasyonunu makine tedarik derdi olmadan yönetir.",
+        maddeler: [
+            {
+                baslik: "Mobilya deposunda mamul hassasiyeti ve çatal seçimi",
+                metin:
+                    "Mobilya mamulü kırılgan yüzeylere sahiptir; standart çatal ve dikkatsiz manevra kumaş döşeme veya lake yüzeyde iz bırakabilir. Sözleşme öncesi keşifte taşınacak mamul tipi konuşulur ve gerekiyorsa çatal koruma pedi veya yan destekli özel ekipman önerilir. Operatör eğitiminde de bu hassasiyet ayrı bir başlık olarak işlenir.",
+            },
+            {
+                baslik: "Otomotiv yan sanayinde kalıp ve kasa taşımanın yük profili",
+                metin:
+                    "Otomotiv yan sanayi tesislerinde taşınan kalıplar ve metal kasalar mobilya mamulüne göre çok daha ağır ve düzensiz ağırlık merkezlidir. Bu profil için forklift kapasitesi seçilirken en ağır parçanın ağırlık merkezi baz alınır, ortalama değil; sözleşmede taşınacak en ağır kalem yazılı olarak belirtilir ki makine sınıfı yanlış seçilmesin.",
+            },
+            {
+                baslik: "Vardiyalı çalışmada akü ve yakıt planı",
+                metin:
+                    "İki veya üç vardiya çalışan depolarda forklift kesintisiz hazır olmalıdır. Akülü modellerde şarj rotasyonu vardiya geçişine göre planlanır, dizel/LPG modellerde yakıt tedariki sözleşme kapsamında konuşulur. Vardiya sayısı sözleşme süresi içinde değişirse bildirim üzerine bakım periyodu ve akü kapasitesi yeniden değerlendirilir.",
+            },
+            {
+                baslik: "Depo koridor genişliğine göre makine sınıfı",
+                metin:
+                    "Dar koridorlu raf sistemlerinde standart karşı ağırlıklı forklift dönemez; bu durumda dar koridor forklifti veya reach truck gerekir. Koridor genişliği ve raf yüksekliği keşifte ölçülür, sözleşmede yazılı sınıf bu ölçüye göre belirlenir — sahada makine sığmadı diye iş durmasın diye bu adım atlanmaz.",
+            },
+            {
+                baslik: "Periyodik bakımın depo operasyonuna göre zamanlanması",
+                metin:
+                    "Forkliftin bakım için durdurulması depo operasyonunu doğrudan etkiler; bu yüzden bakım ziyaretleri işletmenin en durgun saatine (öğle arası, vardiya değişimi gibi) yazılır. Filtre ve hidrolik yağ değişimi gibi uzun süren işlemler bir hafta önceden bildirilir ki depo o gün için alternatif planlayabilsin.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mobilya ve otomotiv yan sanayi deposunda tipik forklift profili",
+                paragraflar: [
+                    "İki sektörün depo koşulları farklı makine seçimlerine yol açar; tablo tipik profilleri özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kullanım alanı", "Tipik yük", "Önerilen sınıf", "Özel ihtiyaç"],
+                    satirlar: [
+                        ["Mobilya mamul deposu", "Hafif-orta, hassas yüzey", "Akülü, çatal ped destekli", "Yumuşak manevra, iz korumalı çatal"],
+                        ["Otomotiv yan sanayi kalıp deposu", "Ağır, düzensiz ağırlık merkezi", "Yüksek kapasiteli, dengeleyicili", "Ağırlık merkezi bildirimi"],
+                        ["Dar koridor raf sistemi", "Orta, yüksek raf", "Dar koridor / reach truck", "Koridor genişliği ölçümü"],
+                        ["Açık saha yükleme rampası", "Değişken", "Dizel/LPG, geniş lastik", "Rampa eğimi kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sözleşme süresince operatör vardiya değişimi",
+                paragraflar: [
+                    "Depo operasyonlarında operatör devir hızı platform işlerine göre daha yüksektir; bu yüzden forklift sözleşmelerinde eğitim maddesi geniş tutulur. Yeni operatör geldiğinde bir sonraki bakım ziyaretine kısa bir uygulama bloğu eklenir; acil durumda ziyaret öne çekilebilir. Bu eğitim makineye özgü kullanım pratiğidir, forklift operatör belgesi ayrı bir yasal süreçtir ve bu ikisini birbirine karıştırmamak denetimde önemlidir.",
+                ],
+            },
+            {
+                baslik: "Sezonluk yoğunlukta ikinci forklift ihtiyacı",
+                paragraflar: [
+                    "Mobilya sektöründe fuar ve ihracat sevkiyat dönemleri, otomotiv yan sanayinde ise araç üreticisinin sipariş dalgalanmaları depo yoğunluğunu artırır. Sözleşmelerimizde bu dönemler için dönemsel takviye forklift opsiyonu tanımlanabilir; yoğun ay için ikinci ünite önceden bloke edilir, kullanılmazsa bedel doğmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Mobilya deposunda mamul yüzeyine zarar vermeyen forklift var mı?",
+                cevap:
+                    "Standart çatal doğru kullanılmazsa yüzeye zarar verebilir; bu yüzden mobilya deposu sözleşmelerinde çatal koruma pedi veya lastik kaplı çatal ucu talep edilebilir. Ayrıca operatör eğitiminde mamul kaldırma açısı ve hız sınırı ayrı bir başlık olarak işlenir; deneyimli operatör, doğru ekipmandan bile daha çok fark yaratır. Keşifte mamul tipinizi görürsek en uygun ekipman kombinasyonunu önceden öneririz.",
+            },
+            {
+                soru: "Otomotiv yan sanayi tesisimizde taşınan kalıplar çok ağır ve düzensiz şekilli; standart forklift yeter mi?",
+                cevap:
+                    "Bu, keşifte mutlaka netleştirdiğimiz bir konudur. Kalıbın ağırlığı kadar ağırlık merkezinin nerede olduğu da önemlidir; düzensiz şekilli kalıplarda merkez kaçık olabilir ve standart kapasiteli forklift devrilme riskiyle karşılaşabilir. En ağır ve en düzensiz parçanızın ölçülerini bildirirseniz, o parçayı baz alarak sınıf öneririz; ortalama yüke göre seçim yapmayız çünkü en kötü senaryo standardı belirler.",
+            },
+            {
+                soru: "Depomuz üç vardiya çalışıyor, forklift bu temposu kaldırır mı?",
+                cevap:
+                    "Kaldırır, ama akü ve bakım planı buna göre kurulur. Üç vardiyalı kullanımda akülü modellerde vardiya arası hızlı şarj istasyonu veya yedek akü rotasyonu gerekebilir; bu ihtiyaç sözleşme öncesi bildirilirse doğru konfigürasyon baştan kurulur. Bildirilmeden başlanan yoğun kullanım bakım aralığını öngörülenden erken doldurur, bu yüzden vardiya sayısını başta net söylemenizi isteriz.",
+            },
+            {
+                soru: "Raf koridorlarımız dar, standart forklift dönemiyor; alternatif ne?",
+                cevap:
+                    "Koridor genişliği belirli bir bandın altındaysa dar koridor forklifti veya reach truck önerilir; bunlar standart karşı ağırlıklı modele göre daha dar alanda manevra eder ama raf yüksekliği ve palet ağırlığı sınırları farklıdır. Koridor ölçüsünü ve raf yüksekliğinizi paylaşırsanız keşifte doğru sınıfı önceden belirleriz, sahada makine sığmadı sorunuyla karşılaşmazsınız.",
+            },
+            {
+                soru: "Forklift bakımı depo çalışırken mi yapılıyor, yoksa depoyu durdurmamız mı gerekiyor?",
+                cevap:
+                    "Rutin kontrol ve yağlama işlemleri kısa sürer ve genellikle depo operasyonu durdurulmadan, işletmenin belirlediği düşük yoğunluklu bir saat diliminde yapılır. Filtre veya hidrolik yağ değişimi gibi daha uzun işlemler için bir hafta önceden bildirim yapılır ki o gün için alternatif planlama yapabilesiniz; sürpriz duruş yaşatmamak sözleşmenin temel ilkelerinden biridir.",
+            },
+            {
+                soru: "Sözleşme süresi içinde depo büyürse ikinci forklift ekleyebilir miyiz?",
+                cevap:
+                    "Evet, bu durum yeni bir sözleşme değil mevcut sözleşmenin eki olarak işlenir. İkinci ünite ihtiyacı doğduğunda mevcut sözleşme numarası üzerinden ek makine talebi açılır, ayrı depozito veya yeniden müzakere süreci yaşanmaz. Fuar ve sevkiyat yoğunluğu gibi dönemsel ihtiyaçlar için ise kalıcı ikinci ünite yerine dönemsel takviye opsiyonu daha ekonomik olabilir; ihtiyacınızın kalıcı mı dönemsel mi olduğuna göre birlikte karar veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnegöl bölgesinin mobilya ve otomotiv yan sanayi ağırlıklı depo dokusu kamuya açık sektörel bilgidir; ekipman seçim kriterleri ve bakım zamanlaması firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom) ile Fabrika Hat Üstü Periyodik Bakım Turu",
+        giris:
+            "Eklemli platform, örümcek platformun ulaşamadığı geniş açık alanlı fabrika hacimlerinde devreye girer: yüksek çatı makasları, geniş depo hacimlerinin üst köşeleri, yan duvara yakın ama yukarı-yana eğik erişim gerektiren noktalar. Mobilya ve otomotiv yan sanayi fabrikalarımızda eklemli platform, hat üstü periyodik bakım turunun geniş açıklıklı bölümünü üstlenir; sepetin hem yukarı hem yana uzanabilmesi, çatı kirişleri arasındaki engebeli erişimde makaslı platformun yapamadığı manevrayı mümkün kılar. Uzun dönem sözleşmede bu makine genellikle fabrikanın en yüksek ve en geniş hacimli bölümüne tahsis edilir, bakım rotasında örümcek platformla birlikte tamamlayıcı bir çift olarak çalışır — biri dar koridoru, diğeri geniş açık hacmi kapsar.",
+        maddeler: [
+            {
+                baslik: "Geniş hacimli fabrikada eğik erişim ihtiyacı",
+                metin:
+                    "Çatı makası bakımı veya yüksek duvar aydınlatması gibi işlerde hedef nokta genellikle düz yukarıda değil, yana ve yukarı eğik bir açıdadır. Eklemli boomun kol yapısı bu açıya ulaşmayı sağlar; sepet, sabit bir zemin noktasından hem yukarı hem yana hareket edebilir. Sözleşme keşfinde hedef noktaların açısı ve mesafesi ölçülür, boom uzunluğu buna göre seçilir.",
+            },
+            {
+                baslik: "Periyodik turda örümcek platformla iş bölümü",
+                metin:
+                    "Aynı fabrikada iki farklı platform sınıfı çalışıyorsa görev ayrımı net yapılır: dar koridor ve alçak tavan bölgeleri örümcek platforma, geniş açık hacim ve yüksek çatı bölgeleri eklemli boomcuya bırakılır. Bu ayrım sözleşmede yazılı rota planında belirtilir; bakım ekibi hangi noktada hangi makineyi kullanacağını önceden bilir, sahada karar vermez.",
+            },
+            {
+                baslik: "Dış saha yükleme alanlarında kullanım",
+                metin:
+                    "Mobilya fabrikalarının yükleme rampası ve otomotiv yan sanayinin açık saha depolama alanı gibi dış mekân noktalarında eklemli boom, kapalı alandaki iç mekân modelinden farklı bir gövde ister — hava koşullarına dayanıklı, daha büyük tekerlekli dış saha sınıfı. Sözleşmede iç/dış kullanım ayrımı net yazılır çünkü iki gövde tipi birbirinin yerine geçmez.",
+            },
+            {
+                baslik: "Yüksek bant çalışmada operatör güvenlik protokolü",
+                metin:
+                    "Eklemli boomun ulaştığı yükseklik bandı, örümcek ve makaslı platforma göre genellikle daha fazladır; bu yüzden periyodik bakım turunda güvenlik protokolü ayrı bir başlık olarak sözleşmeye yazılır — emniyet kemeri kullanımı, rüzgar/hava koşulu sınırı, alt bölgenin bariyerle ayrılması. Bu protokol her ziyarette aynı şekilde uygulanır, bakım ekibinin rutinine geçmiştir.",
+            },
+            {
+                baslik: "Bakım aralığının kol mafsallarına göre planlanması",
+                metin:
+                    "Eklemli boomun çok sayıda hidrolik mafsalı, makaslı platforma göre daha sık kontrol gerektirir; her mafsalın pim-burç yağlaması ve hidrolik hortum kontrolü periyodik turun standart maddesidir. Fabrika tozlu bir ortamsa bu kontrol aralığı sıklaştırılır; bu ek sözleşmede ortam koşulu satırı olarak görünür ve bedele baştan dahildir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli boom ile diğer platform sınıflarının hat üstü işte kıyası",
+                paragraflar: [
+                    "Fabrika hacminin genişliği ve erişim açısına göre hangi sınıfın tercih edildiğini tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "Uygun alan", "Erişim yönü", "Tipik hat üstü iş"],
+                    satirlar: [
+                        ["Eklemli boom", "Geniş açık hacim", "Yukarı + yana eğik", "Çatı makası, yüksek duvar"],
+                        ["Örümcek platform", "Dar koridor", "Dikey, sınırlı yana", "Aydınlatma, sprinkler"],
+                        ["Teleskopik boom", "Çok geniş açık saha", "Uzun mesafe yukarı-yana", "Dış cephe, geniş saha"],
+                        ["Makaslı platform", "Düz geniş koridor", "Yalnızca dikey", "Raf üstü, kablo tavası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sözleşmede rota içi görev tanımının netliği",
+                paragraflar: [
+                    "Fabrika hat üstü bakımında bir makinenin görev tanımının dışına çıkması en riskli senaryodur — eklemli boomun dış sahada, iç mekân gövdesiyle kullanılması gibi. Sözleşmelerimizde her ünite için görev tanımı (iç/dış, yükseklik bandı, zemin tipi) yazılıdır ve rota planı bu tanıma göre kurulur; tanım dışı bir ihtiyaç doğarsa yeni ünite veya ek madde ile çözülür, mevcut makine zorlanmaz.",
+                    "Bu netlik aynı zamanda ikame sürecini hızlandırır: arıza hâlinde filodan gönderilecek yedek ünitenin doğru gövdede olması, görev tanımı net yazıldığı için ilk seferde sağlanır.",
+                ],
+            },
+            {
+                baslik: "Yeni hat kurulumunda geçici ek kullanım",
+                paragraflar: [
+                    "Fabrikaya yeni bir üretim hattı eklendiğinde çatı üstü kablo ve aydınlatma montajı için geçici olarak ikinci bir eklemli boom talep edilebilir. Bu ihtiyaç mevcut sözleşmeye kısa süreli ek madde olarak eklenir, montaj bitince ek makine geri alınır; ana sözleşmenin süresi ve koşulları bundan etkilenmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli boom ile örümcek platform arasında hangi işte hangisini seçeceğimizi nasıl anlarız?",
+                cevap:
+                    "Belirleyici olan hedef noktanın konumu ve fabrikanın hacim genişliğidir. Dar koridor, alçak tavan veya kat farkı olan noktalarda örümcek platform daha pratiktir; geniş açık hacimde yüksek ve yana eğik erişim gerekiyorsa eklemli boom daha uygundur. Çoğu orta-büyük fabrikada iki sınıf birlikte çalışır ve rota planında hangi noktanın hangi makineye ait olduğu keşifte belirlenir; tek bir doğru cevap yoktur, sahanın kendisi kararı verir.",
+            },
+            {
+                soru: "Boomun ulaştığı yükseklikte çalışmak güvenli mi, ekstra önlem gerekiyor mu?",
+                cevap:
+                    "Evet, yükseklik arttıkça protokol de büyür. Sözleşme kapsamındaki her ziyarette emniyet kemeri kullanımı zorunludur, rüzgar ve hava koşulu sınırı önceden tanımlıdır ve alt bölge çalışma sırasında bariyerle ayrılır. Bu protokol standart bir formalite değildir; her ziyarette aynı şekilde uygulanır ve operatörlerimiz bu yükseklik bandında düzenli çalışan, protokole alışkın kişilerdir.",
+            },
+            {
+                soru: "Fabrikamızın hem iç mekânı hem dış yükleme sahası var; tek eklemli boom ikisine de yeter mi?",
+                cevap:
+                    "Genellikle hayır, çünkü iç mekân ve dış saha gövdeleri farklı gereksinimler taşır — iç mekân ünitesi iz bırakmayan lastik ve akülü tahrik ister, dış saha ünitesi hava koşuluna dayanıklı gövde ve daha büyük tekerlek ister. Her iki alanda da düzenli kullanım varsa iki ayrı ünite veya görev tanımını netleştirdiğimiz tek çok amaçlı model öneririz; keşifte hangi alanın ne sıklıkla kullanılacağını konuşup en ekonomik çözümü birlikte seçeriz.",
+            },
+            {
+                soru: "Mafsallardaki bakım sıklığı diğer platform sınıflarından fazla mı, bu bedele yansır mı?",
+                cevap:
+                    "Eklemli boomun çok sayıda hidrolik mafsalı olduğu için periyodik kontrol standart makaslı platforma göre biraz daha kapsamlıdır, ancak bu ek kontrol sözleşme bedeline zaten dahildir — sonradan fark istemeyiz. Tozlu ortamda çalışan üniteler için kontrol aralığı sıklaştırılır ve bu da sözleşme imzalanırken keşif sonucuna göre baştan fiyatlanır, sürpriz ek madde çıkmaz.",
+            },
+            {
+                soru: "Yeni bir üretim hattı kuruyoruz, geçici olarak ikinci bir eklemli boom alabilir miyiz?",
+                cevap:
+                    "Alabilirsiniz. Bu tür geçici ihtiyaçlar mevcut sözleşmeye kısa süreli ek madde olarak işlenir; ayrı bir sözleşme veya depozito süreci gerekmez. Montaj süresi belirlenir, ek makine o süre için sahaya konuşlanır ve iş bitince geri alınır. Ana sözleşmenizin süresi, tarifesi ve koşulları bu geçici ekten etkilenmez.",
+            },
+            {
+                soru: "Boom operatörümüz yeni; eğitim ne kadar sürüyor ve tekrar gerekiyor mu?",
+                cevap:
+                    "Yerinde kullanım eğitimi teslim gününde verilir ve genellikle yarım günü geçmez; kol kontrolü, denge sınırları ve acil iniş prosedürü bu eğitimin ana başlıklarıdır. Sözleşme süresince operatör değişirse eğitim ek bedelsiz tekrarlanır, bir sonraki bakım ziyaretine eklenir. Yasal operatör belgesi bu eğitimden ayrıdır; onun için yetkili kuruluşlara yönlendiririz, ikisinin karışmaması denetimde önemlidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun geniş açıklıklı erişim özellikleri kamuya açık teknik bilgidir; rota içi görev paylaşımı, iç/dış gövde ayrımı ve güvenlik protokolü firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Fabrika İçi Uzun Süreli Platform Konuşlandırması — Depo ve Üretim Hattı",
+        giris:
+            "İç mekân depo ve üretim hattı platform kiralaması, işimizin çekirdeğidir ve İnegöl mobilya sanayisiyle çevre otomotiv yan sanayi tesislerinde en yaygın karşılaştığımız senaryodur: makine tek bir işi bitirip gitmez, fabrikanın içinde aylarca hatta yıllarca kalır ve o fabrikanın kendi ekipmanı gibi davranır. Bu konuşlandırma modelinin mantığı basittir — mobilya ve otomotiv yan sanayi üretim hatları raf düzenini sık değiştirir, aydınlatma bakımı düzenli tekrarlanır, havalandırma ve sprinkler kontrolü periyodik denetim gerektirir; bunların hepsi tek seferlik değil, süreklilik gösteren işlerdir. Biz bu sürekliliği sözleşmeye döktüğümüzde ortaya çıkan şey, işletmenin kendi demirbaşı gibi davranan ama bakımı, sigortası, yenilenmesi bize ait olan bir platformdur. Makine tesisin belirlediği bir köşede konaklar, bakım ekibimiz periyodik turunda ona uğrar, arıza hâlinde saatler içinde ikame gelir ve işletme tüm süreç boyunca tek bir telefon araması dışında hiçbir operasyonel yükle karşılaşmaz.",
+        maddeler: [
+            {
+                baslik: "Konaklama noktasının seçimi ve şarj altyapısı",
+                metin:
+                    "İç mekân konaklaması rastgele bir köşeye bırakma değildir; keşifte forklift trafiğinden uzak, düz beton zeminli, şarj hattına yakın bir nokta birlikte belirlenir. Akülü makinelerde gece şarj rutini bakım kartına işlenir ve düzensiz şarj alışkanlığı akü ömrünü sessizce erittiği için ölçümlerde sapma görülürse tesise bildirilir — akü değişimi sözleşmenin en pahalı kalemlerinden biridir, disiplinle ertelenebilir.",
+            },
+            {
+                baslik: "Raf düzeni değiştikçe görev tanımının güncellenmesi",
+                metin:
+                    "Mobilya ve otomotiv yan sanayi depolarında raf yerleşimi ürün hattı değiştikçe sık güncellenir. Sözleşmedeki görev tanımı bu yüzden sabit değil, revizyon maddeli yazılır: raf yüksekliği veya koridor genişliği değiştiğinde tanım güncellenir, gerekirse makine sınıfı değiştirilir. Güncelleme sözleşmeyi bozmaz, sözleşmenin doğal bir parçası olarak işler.",
+            },
+            {
+                baslik: "Periyodik bakımın üretim ritmine göre zamanlanması",
+                metin:
+                    "İç mekân konaklamasının en önemli avantajı, bakımın işletmenin kendi seçtiği zaman dilimine yazılabilmesidir — vardiya başı, öğle molası veya hafta sonu. Standart rutinde ziyaret bir saati geçmez; filtre veya parça değişimi gereken uzun ziyaretler bir hafta önceden bildirilir ki üretim o günü platformsuz planlayabilsin. Bakımın üretimi kesmemesi, sözleşme yenileme oranımızın arkasındaki en sessiz etkendir.",
+            },
+            {
+                baslik: "Toz ve nem gibi ortam koşullarına göre bakım sıklığı",
+                metin:
+                    "Ahşap işleyen mobilya atölyesinde ince talaş, boyahanede solvent buharı, metal işleme hattında yağ dumanı — her ortam platformun farklı bir bileşenini yıpratır. Uzun dönem konaklayan ünitelerde bakım aralığı ortama göre ayarlanır; toz yoğun ortamda filtre değişimi sıklaştırılır, nemli ortamda kontak koruma eklenir. Bu ek, sözleşmede ortam koşulu satırı olarak görünür ve bedele baştan dahildir.",
+            },
+            {
+                baslik: "Satın alma yerine konuşlandırma: bilanço etkisi",
+                metin:
+                    "Fabrika içi sürekli ihtiyaç, çoğu işletmeyi makine satın almaya yönlendirir; ama bu kararın görünmeyen maliyetleri vardır — yedek parça stoku, yıllık muayene, arıza duruşunda üretim kaybı, beş yıl sonunda değer erimesi. Uzun dönem konuşlandırmada bu kalemlerin tamamı tek bir sabit aylık bedele katlanır ve bilançoda demirbaş yerine gider kalemi olarak durur; finans tarafının çoğu zaman tercih ettiği yapı budur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân konuşlandırma modellerinin karşılaştırması",
+                paragraflar: [
+                    "Fabrika içi ihtiyacın büyüklüğüne göre hangi modelin önerildiğini tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Model", "Konaklama süresi", "Bakım sıklığı", "Uygun profil"],
+                    satirlar: [
+                        ["Dönemsel (3-6 ay)", "Belirli dönem", "Ayda bir ziyaret", "Sezonluk yoğunluk"],
+                        ["Yıllık konuşlandırma", "12 ay, yenilenebilir", "Sıklaştırılmış takvim + muayene", "Sürekli üretim hattı"],
+                        ["Çok makineli filo", "Tesise özel", "Tesise özel bakım planı", "Büyük üretim kampüsü"],
+                        ["Kademeli (deneme + ana)", "3 ay deneme + devam", "Deneme sonrası netleşir", "İhtiyacı net olmayan KOBİ"],
+                    ],
+                },
+            },
+            {
+                baslik: "İç mekân makinesinin dış sahaya çıkışı ve onay süreci",
+                paragraflar: [
+                    "İç mekân için sözleşmelenen ünite, tanımı gereği dış sahada kullanılmaz; iz bırakmayan lastik ve kapalı ortam soğutma sistemi dış hava koşullarına uygun değildir. Fabrikanın dış saha ihtiyacı doğarsa (yükleme rampası üstü iş gibi) bu ayrı bir görev tanımı ve gerekirse ayrı ünite gerektirir; mevcut iç mekân makinesini zorlamak yerine bu ihtiyacı sözleşmeye ek madde olarak ekleriz.",
+                    "Bu ayrım keyfi değildir: iç mekân ünitesinin dış sahada yağmura, toza veya sert zemine maruz kalması hem garanti kapsamını hem ikame taahhüdünü geçersiz kılabilir. Görev tanımının netliği, hem işletmeyi hem bizi korur.",
+                ],
+            },
+            {
+                baslik: "Denetim ve sertifikasyon dosyasının hazır tutulması",
+                paragraflar: [
+                    "Mobilya ve otomotiv yan sanayi tesislerinin çoğu düzenli iş güvenliği denetiminden geçer; konaklayan platformun yıllık fenni muayene raporu, bakım kayıtları ve operatör eğitim belgeleri dijital dosyada tutulur ve denetim öncesi talep üzerine hazır sunulur. Bu dosyayı kendi demirbaşınız olsaydı sizin tutmanız gerekecekti; sözleşmede hazır gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makine fabrikamızda ne kadar süre kalabilir, sürekli konaklama gerçekten mümkün mü?",
+                cevap:
+                    "Evet, mümkün ve bizim en yaygın sözleşme biçimimiz budur. Makine sözleşme süresi boyunca (tipik olarak altı ay ile bir yıl arası, yenilenebilir) tesiste kalır; yalnızca periyodik bakım ziyaretlerinde veya arıza sonrası ikame değişiminde yerinden ayrılır. Sürekli konaklama, günübirlik kiralamanın erişim belirsizliğini tamamen ortadan kaldırır ve ihtiyaç anında makine zaten sahadadır.",
+            },
+            {
+                soru: "Fabrika içinde makinenin nerede duracağına kim karar veriyor?",
+                cevap:
+                    "Karar birlikte verilir. Keşifte forklift trafiğinden uzak, düz zeminli ve şarj hattına yakın bir nokta önerilir; işletmenin kendi operasyon akışına en az müdahale eden köşe tercih edilir. Konaklama noktası sözleşmede yazılır ve bakım rotamız bu noktaya göre planlanır; nokta değişirse (fabrika içi taşınma gibi) kısa bir bildirimle güncellenir.",
+            },
+            {
+                soru: "Bakım ziyareti üretimi durduruyor mu, ne kadar sürüyor?",
+                cevap:
+                    "Standart periyodik ziyaret genellikle bir saati geçmez ve işletmenin belirlediği düşük yoğunluklu bir zaman dilimine yazılır — vardiya başı veya öğle molası gibi. Filtre değişimi veya parça değişimi gereken daha uzun işlemler bir hafta önceden bildirilir ki üretim planı buna göre ayarlanabilsin. Amacımız bakımın üretim akışına görünmez şekilde eklenmesidir, sürpriz duruş yaşatmak değil.",
+            },
+            {
+                soru: "Raf düzenimizi sık değiştiriyoruz, bu makinenin görev tanımını etkiler mi?",
+                cevap:
+                    "Etkileyebilir, bu yüzden sözleşmedeki görev tanımı sabit değil, revizyon maddeli yazılır. Raf yüksekliği veya koridor genişliği değiştiğinde bize bildirirsiniz, tanım güncellenir ve gerekiyorsa makine sınıfı bile değiştirilir — bu güncelleme sözleşmeyi bozmaz, ek ücret veya yeniden müzakere gerektirmez. Bildirmeden yapılan büyük değişiklikler ise ikame ve bakım taahhütlerini bulanıklaştırabilir, bu yüzden bildirimi öneririz.",
+            },
+            {
+                soru: "Toz veya nem gibi ortam koşulları bakım maliyetini artırıyor mu, bu bize fark olarak yansır mı?",
+                cevap:
+                    "Ortam koşulu bakım sıklığını etkiler ama bu etki sözleşme imzalanırken keşif sonucuna göre baştan fiyatlanır; sonradan ortam ağırmış diyerek fark istemeyiz. Toz yoğun ortamda filtre periyodu kısaltılır, nemli ortamda kontak koruma eklenir — bu ekler sözleşmede ortam koşulu satırı olarak yazılıdır ve aylık bedele baştan dahildir.",
+            },
+            {
+                soru: "Sözleşme bitmeden ihtiyacımız değişirse (büyürse veya küçülürse) ne oluyor?",
+                cevap:
+                    "İhtiyaç büyürse mevcut makine üst kapasiteli modelle değiştirilebilir veya ikinci ünite aynı sözleşmenin eki olarak eklenir; yeni sözleşme veya yeni depozito süreci yaşanmaz. Küçülme yönünde ise kapasite fazlası ünite dönem sonunda iade edilir veya kalan süreye göre kademeli bir çözülme bedeliyle erken iade yapılır — bu bedel sözleşme imzalanırken tabloda açık yazılıdır, sonradan sürpriz çıkmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnegöl mobilya sanayisi ve çevre otomotiv yan sanayinin fabrika içi platform ihtiyacının sürekliliği kamuya açık sektörel bilgidir; konaklama noktası seçimi, görev tanımı revizyonu ve denetim dosyası düzeni firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Yeni Tesis Çelik Konstrüksiyon Montajında Platform Kiralama",
+        giris:
+            "Yeni tesis kurulumu bizim uzun dönem sözleşme mantığımıza aslında tam uymayan, kendine özgü bir taleptir — çelik konstrüksiyon montajı, çatı kaplama ve cephe işleri belirli bir süre yoğun ve yüksek tempoda ilerler, sonra biter. Ama İnegöl ve Kestel-Gürsu hattında yeni mobilya fabrikası veya otomotiv yan sanayi tesisi kuran işletmelerin çoğu, montaj bittikten sonra da bizimle çalışmaya devam eder; çünkü kurulum sürecinde tanıdıkları makine ve ekip, tesis işletmeye geçtiğinde periyodik bakım sözleşmesine doğal olarak evrilir. Bu yüzden çelik konstrüksiyon montaj hizmetimizi iki aşamalı kurarız: önce yoğun montaj dönemi için kısa süreli yoğun kiralama, ardından tesis üretime geçtiğinde aynı ekip ve makine bilgisiyle devam eden uzun dönem bakım sözleşmesi. Bu geçiş, montaj ekibinin tesisi zaten tanıyor olmasından doğan bir avantajdır — yeni bir firma çağırıp yeniden keşif yaptırmak yerine, kurulumu yapan aynı taraf bakımı da üstlenir.",
+        maddeler: [
+            {
+                baslik: "Montaj döneminde yoğun ve değişken kullanım",
+                metin:
+                    "Çelik konstrüksiyon montajı, tek bir sabit noktada değil inşaatın ilerleyişine göre değişen konumlarda çalışmayı gerektirir; bir hafta çatı kirişi montajında, ertesi hafta cephe panel takımında olabilir. Bu dönemde sözleşme günlük veya haftalık esnek kiralama biçiminde kurulur, makine sahadaki inşaat takvimine göre taşınır ve bakım montaj temposuna göre araya sıkıştırılır.",
+            },
+            {
+                baslik: "Yüksek montaj noktalarında makine sınıfı seçimi",
+                metin:
+                    "Çatı kirişi ve üst cephe montajı, fabrika işletmeye geçtikten sonraki bakım işlerinden çok daha yüksek ve açık noktalara erişim ister; bu aşamada genellikle teleskopik boom veya büyük kapasiteli eklemli platform tercih edilir. İnşaat zemini henüz düzgün beton olmayabilir, bu yüzden zemin koşulu ayrıca değerlendirilir ve gerekirse arazi tipi platform önerilir.",
+            },
+            {
+                baslik: "İnşaat sahasında diğer ekiplerle koordinasyon",
+                metin:
+                    "Yeni tesis şantiyesinde aynı anda vinç, iskele ekibi ve elektrik montaj ekibi birlikte çalışır. Platform operatörümüz sahaya günlük iş programına göre girer, diğer ekiplerle çakışma yaşanmaması için saha yöneticisiyle günlük koordinasyon yapılır. Bu koordinasyon montaj hizmetinin ayrılmaz bir parçasıdır, ayrı ücretlendirilmez.",
+            },
+            {
+                baslik: "Montajdan işletmeye geçiş: sözleşme dönüşümü",
+                metin:
+                    "İnşaat tamamlanıp tesis üretime geçtiğinde ihtiyaç profili değişir — artık yüksek montaj değil, periyodik bakım öne çıkar. Bu noktada montaj sözleşmesi kapanır ve işletme isterse aynı ekiple, tesisin artık tanıdığımız yapısına göre kurulmuş bir uzun dönem bakım sözleşmesine geçilir. Geçiş için yeniden sıfırdan keşif gerekmez, çünkü montaj sürecinde tesisin tüm noktaları zaten bilinir hâle gelmiştir.",
+            },
+            {
+                baslik: "Montaj döneminde ekipman hasarı ve sorumluluk",
+                metin:
+                    "İnşaat sahası, işletmeye geçmiş bir fabrikaya göre daha değişken risk taşır — toz, moloz, sabit olmayan zemin. Sözleşmede montaj dönemine özgü risk paylaşımı ayrıca tanımlanır: makine kaynaklı arızalar bizde, saha koşullarından doğan (örneğin zemin çökmesi) riskler ayrıca konuşulur. Bu netlik, montaj gibi değişken bir ortamda sonradan anlaşmazlık yaşanmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj dönemi ile işletme sonrası bakım döneminin karşılaştırması",
+                paragraflar: [
+                    "Aynı tesiste iki farklı dönemin platform ihtiyacı nasıl farklılaştığını tablo gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Tipik makine sınıfı", "Kullanım deseni", "Sözleşme tipi"],
+                    satirlar: [
+                        ["İnşaat/montaj", "Teleskopik/eklemli boom, arazi tipi", "Yoğun, değişken konum", "Günlük/haftalık esnek"],
+                        ["İşletmeye geçiş", "Karma, tesis tipine göre", "Azalan yoğunluk", "Kısa dönemsel"],
+                        ["Üretim/bakım dönemi", "İç mekân makaslı/örümcek", "Periyodik, sabit rota", "6-12 aylık sözleşme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj ekibinin tesis bilgisinin bakım dönemine devri",
+                paragraflar: [
+                    "Montaj sürecinde saha ekibimiz tesisin çatı yüksekliğini, kiriş aralıklarını, zemin koşullarını ve elektrik altyapısını fiilen öğrenir. Tesis üretime geçip bakım sözleşmesine dönüldüğünde bu bilgi keşif raporuna dönüştürülür ve bakım rotası bu rapora göre kurulur — sıfırdan başlayan bir keşifte kaçırılabilecek ayrıntılar, montajdan gelen bilgiyle baştan doğru yazılır.",
+                    "Bu sürekliliğin somut faydası, ilk bakım ziyaretinin gecikmeden ve hatasız planlanmasıdır; yeni bir tedarikçiyle sıfırdan başlanan süreçte genellikle birkaç ziyaret ayarlama aşamasında geçer.",
+                ],
+            },
+            {
+                baslik: "Kısmi montaj tamamlanmış tesislerde kısa süreli takviye",
+                paragraflar: [
+                    "Bazı tesisler aşamalı açılır — bir bölüm üretime geçerken diğer bölümün inşaatı sürer. Bu karma dönemde iki farklı sözleşme paralel yürütülebilir: üretime geçen bölüm için bakım sözleşmesi, inşaatı süren bölüm için montaj kiralaması. İki sözleşme ayrı faturalanır ama tek koordinasyon noktasından yönetilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni tesis inşaatı için platform kiralarsak, tesis açıldıktan sonra bakım sözleşmesine geçiş zorunlu mu?",
+                cevap:
+                    "Hayır, zorunlu değil; montaj sözleşmesi kendi başına tamamlanır ve bittiğinde kapanır. Ama pratikte işletmelerin büyük çoğunluğu geçişi tercih ediyor çünkü montaj sürecinde tesisi tanıyan ekiple devam etmek, sıfırdan yeni bir tedarikçiyle başlamaktan daha az sürtünmeli oluyor. Karar tamamen size ait, biz iki seçeneği de açık tutarız.",
+            },
+            {
+                soru: "İnşaat sahasında zemin henüz düzgün değil, bu platform seçimini nasıl etkiliyor?",
+                cevap:
+                    "Zemin koşulu montaj döneminde en belirleyici faktörlerden biridir. Zemin henüz sıkıştırılmamış toprak veya moloz kaplıysa standart lastikli platform yerine arazi tipi, geniş tekerlekli veya paletli bir sınıf gerekir. Keşifte zeminin o anki durumu değerlendirilir ve inşaat ilerledikçe zemin düzelirse makine sınıfı da buna göre güncellenebilir; sabit bir makineye tüm süreç boyunca bağlı kalmak zorunda değilsiniz.",
+            },
+            {
+                soru: "Montaj sırasında birden fazla ekip aynı sahada çalışıyor, çakışma riski var mı?",
+                cevap:
+                    "Var, ama bu risk günlük koordinasyonla yönetilir. Platform operatörümüz her gün saha yöneticisinden o günkü iş programını alır ve diğer ekiplerin (vinç, iskele, elektrik) çalışma alanlarıyla çakışmayacak şekilde konumlanır. Yoğun günlerde birden fazla ekibin aynı bölgeye ihtiyaç duyması olağan bir durumdur ve bu genellikle saatlik paylaşım veya sıralama ile çözülür; sözleşmede ayrı bir madde gerektirmez.",
+            },
+            {
+                soru: "Montaj döneminde makine hasar görürse sorumluluk kimde?",
+                cevap:
+                    "Risk paylaşımı sözleşmede açıkça tanımlanır: makinenin kendi arızası (imalat hatası, yaşlanan komponent) bize aittir. Saha koşullarından doğan riskler — örneğin zeminin beklenmedik şekilde çökmesi veya başka bir ekibin ekipmanının çarpması — ayrıca değerlendirilir ve sorumluluk olayın kaynağına göre paylaşılır. İnşaat sahasının değişken doğası nedeniyle bu maddeyi işletmeye geçmiş bir fabrikadaki standart sözleşmeden daha ayrıntılı yazarız.",
+            },
+            {
+                soru: "Tesisimiz aşamalı açılıyor, bir bölüm çalışırken diğer bölümün inşaatı sürüyor; bu durumda tek sözleşme mi gerekir?",
+                cevap:
+                    "Gerekmez, iki ayrı sözleşme paralel yürütülebilir — üretime geçen bölüm için bakım sözleşmesi, inşaatı süren bölüm için montaj kiralaması. İki sözleşme ayrı faturalanır ama aynı hesap yöneticisi üzerinden koordine edilir, böylece tek bir iletişim noktanız olur ve iki süreç birbirini karıştırmaz.",
+            },
+            {
+                soru: "Montaj için kiraladığımız makineyle bakım sözleşmesine geçersek fiyat avantajı oluyor mu?",
+                cevap:
+                    "Genellikle evet, çünkü geçiş sürecinde yeniden sıfırdan keşif yapılmasına gerek kalmaz ve bu, hem zaman hem işlem maliyetinden tasarruf demektir. Ayrıca montaj döneminde tesisi tanıyan ekip bakım rotasını daha hızlı ve daha isabetli kurar. Kesin rakamı montaj sözleşmesi kapanırken, o ana kadarki kullanım verinize bakarak birlikte netleştiririz; genel bir iskonto vaadi vermek yerine gerçek veriyle konuşmayı tercih ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnegöl-Kestel-Gürsu hattında yeni tesis kurulumlarının montaj-işletme geçiş süreci kamuya açık sektörel bilgidir; iki aşamalı sözleşme modeli ve bilgi devri pratiği firma uygulamasıdır. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Tesislerinde Platform Kiralama — Dürüst Bir Değerlendirme",
+        giris:
+            "Açık söylemek gerekirse tarım ve silo tesisleri bizim asıl uzmanlık alanımız değil; İnegöl merkezli filomuz mobilya fabrikaları ile otomotiv yan sanayi tesislerinin uzun dönem, periyodik bakımlı sözleşme ihtiyacına göre kurulmuştur ve bölgedeki tarımsal silo yoğunluğu, sanayi bölgelerine kıyasla çok daha sınırlıdır. Yine de bölgede zaman zaman silo bakımı, tahıl deposu aydınlatması veya tarım kooperatifi tesisinde tek seferlik platform ihtiyacı doğduğunda talebi karşılıyoruz — ama bunu bir uzmanlık alanı gibi değil, mevcut filomuzun uygun olduğu bir ek hizmet gibi sunuyoruz. Silo yapılarının kendine özgü riskleri (toz patlaması potansiyeli, dar giriş menholleri, iç hacmin karanlık ve kapalı olması) bizim standart mobilya/otomotiv fabrikası bakım rotamızın dışında kalan uzmanlık gerektirebilir; bu yüzden büyük ölçekli veya tehlikeli sınıf silo işlerinde dürüstçe bu alanda yoğunlaşmış bir tedarikçiye yönlendirme yapabiliriz.",
+        maddeler: [
+            {
+                baslik: "Silo dış cephe ve çatı bakımında standart platform kullanımı",
+                metin:
+                    "Silo yapılarının dış cephesi, çatı menfezi veya harici merdiven bakımı gibi işler, standart mobilya fabrikası dışı işlerimizle benzer özellikler taşır — açık saha, orta-yüksek erişim, standart zemin. Bu tür işlerde eklemli boom veya teleskopik platform filomuzdaki mevcut ünitelerle karşılanabilir, ek bir özel donanım gerekmez.",
+            },
+            {
+                baslik: "İç hacim ve toz riskli alanlarda sınırımız",
+                metin:
+                    "Silonun iç hacminde, özellikle tahıl tozu birikimi olan kapalı alanlarda çalışma, patlama riskine karşı özel ATEX sertifikalı ekipman ve prosedür gerektirebilir. Filomuzdaki standart platformlar bu sertifikasyona sahip değildir; bu tür bir iç hacim işi talep edilirse durumu dürüstçe belirtir, gerekiyorsa konuya özel uzmanlaşmış firmalara yönlendiririz.",
+            },
+            {
+                baslik: "Kooperatif ve küçük tesislerde tek seferlik kiralama",
+                metin:
+                    "Bölgedeki küçük tarım kooperatifi tesislerinden gelen talepler genellikle tek seferlik veya yılda bir-iki kez tekrarlanan bakım işleridir; bu profil bizim uzun dönem sözleşme modelimize tam oturmaz. Bu durumda günübirlik veya haftalık standart kiralama öneririz, tesisin ihtiyacını abartıp gereksiz uzun sözleşmeye yönlendirmeyiz.",
+            },
+            {
+                baslik: "Arazi zemininde erişim koşulları",
+                metin:
+                    "Tarım tesislerinin çevresi genellikle toprak veya çakıl zeminlidir, sanayi tesislerinin beton sahasından farklıdır. Bu koşulda standart lastikli platform yerine arazi tipi veya geniş tekerlekli model gerekir; keşifte zemin durumu görülüp uygun sınıf önerilir, sahaya uymayan makine gönderilmez.",
+            },
+            {
+                baslik: "Mevsimsel talep ve makine müsaitliği",
+                metin:
+                    "Tarım tesislerindeki bakım talepleri genellikle hasat sonrası dönemde yoğunlaşır; bu dönem bizim mobilya sektörü müşterilerimizin de görece yoğun olduğu aylara denk gelebilir. Dürüst olmak gerekirse bu çakışmada önceliğimiz uzun dönem sözleşmeli mobilya ve otomotiv yan sanayi müşterilerimizdedir; tek seferlik tarım tesisi talebinde müsaitlik önceden teyit edilmelidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi silo/tarım işini karşılıyoruz, hangisini yönlendiriyoruz",
+                paragraflar: [
+                    "Talep tipine göre karşılama durumumuzu tablo özetler; amacımız yapamayacağımız işi üstlenip sahada sorun yaşamaktan çok, dürüst yönlendirmedir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Karşılama durumu", "Gerekçe"],
+                    satirlar: [
+                        ["Dış cephe / çatı menfezi bakımı", "Standart filo ile karşılanır", "Açık saha, standart erişim"],
+                        ["Silo iç hacim, toz riskli alan", "Yönlendirme yapılır", "ATEX sertifikalı ekipman gerekir"],
+                        ["Kooperatif küçük tesis, tek seferlik", "Günübirlik kiralama ile karşılanır", "Uzun sözleşme profiline uymaz"],
+                        ["Düzenli, yıl boyu silo bakımı", "Kısmen karşılanır, keşif şart", "Kapsam işe göre değişir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu alanda derinleşmiyoruz",
+                paragraflar: [
+                    "Filomuz ve bakım ekibimizin uzmanlığı mobilya ve otomotiv yan sanayi fabrikalarının iç mekân ve hat üstü ihtiyaçlarına göre kurulmuştur; bu uzmanlaşma, o segmentte derin bilgi ve hızlı müdahale sağlar ama her sektöre eşit derinlikte hizmet vermemizi engeller. Silo ve tarım tesisleri için özel ekipman yatırımı (ATEX sertifikalı üniteler gibi) şu an planımızda değil çünkü bölgedeki talep hacmi bunu haklı çıkaracak düzeyde değil.",
+                ],
+            },
+            {
+                baslik: "Talep gelirse izlediğimiz yol",
+                paragraflar: [
+                    "Bir silo veya tarım tesisi talebi geldiğinde önce işin niteliğini sorarız — dış mı iç mi, toz riski var mı, tek seferlik mi düzenli mi. Standart filomuzla güvenle karşılayabileceğimiz bir iş ise teklif veririz; sınırımızın dışına çıkan bir iş ise bunu açıkça söyler, mümkünse konuya uygun bir tedarikçi önerisi paylaşırız. Amacımız her talebi kabul etmek değil, kabul ettiğimiz her işi doğru yapmaktır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo dış cephesinde boya bakımı yapılacak, standart platformunuz yeterli mi?",
+                cevap:
+                    "Çoğunlukla evet. Dış cephe işleri açık saha ve standart erişim koşulları taşıdığı için eklemli veya teleskopik boom filomuzla karşılanabilir. Tek önemli ayrıntı zemin tipidir — tarım tesisi çevresi genellikle toprak veya çakıl olduğundan arazi tipi veya geniş tekerlekli bir model gerekebilir; bunu keşifte netleştiririz.",
+            },
+            {
+                soru: "Silonun içinde tahıl tozu birikiyor, platformla iç temizlik yapabilir misiniz?",
+                cevap:
+                    "Bu konuda dürüst olmalıyız: tahıl tozu birikimi olan kapalı hacimlerde patlama riski nedeniyle ATEX sertifikalı özel ekipman ve prosedür gerekir, bizim standart filomuz bu sertifikasyona sahip değildir. Bu tür bir iç hacim işi için sizi konuya uzmanlaşmış bir tedarikçiye yönlendirmeyi tercih ederiz; güvenlik açısından yanlış ekipmanla bu işi üstlenmek doğru olmaz.",
+            },
+            {
+                soru: "Kooperatifimiz için yılda bir kez bakım ihtiyacımız oluyor, sizinle uzun dönem sözleşme yapmamız gerekiyor mu?",
+                cevap:
+                    "Hayır, gerekmez ve önermeyiz de. Yılda bir kez tekrarlanan bir ihtiyaç için uzun dönem sözleşme hem sizin için gereksiz maliyet hem bizim için yanlış kaynak planlaması olur. Bu profildeki talepler için standart günübirlik veya haftalık kiralama en doğru çözümdür; her arama geldiğinde müsaitliğimize göre hızlıca teklif veririz.",
+            },
+            {
+                soru: "Tarım tesisi çevresindeki zemin çamurlu, platform batar mı?",
+                cevap:
+                    "Bu riski keşifte değerlendiririz. Yumuşak veya çamurlu zeminde standart lastikli platform gerçekten batabilir ve hem makineye hem zemine zarar verebilir; bu koşulda geniş tekerlekli veya paletli arazi tipi model önerilir. Zemin çok yumuşaksa iş günü hava durumuna göre ertelenmesini de önerebiliriz — makineyi zorlayıp saplanma riski almak yerine doğru günü seçmek daha ekonomiktir.",
+            },
+            {
+                soru: "Hasat sonrası yoğun dönemde talebimiz olursa makine bulabilir miyiz?",
+                cevap:
+                    "Bulabilirsiniz ama dürüst olmak gerekirse bu dönem bazen mobilya sektörü müşterilerimizin de yoğun olduğu aylara denk gelebilir ve önceliğimiz uzun dönem sözleşmeli müşterilerimizdedir. Hasat sonrası dönem için talebinizi mümkünse birkaç hafta önceden bildirin, müsaitliği o zaman teyit edelim; son dakika talebinde makine bulma garantisi veremeyiz.",
+            },
+            {
+                soru: "Siz bu alanda uzman değilseniz neden hâlâ hizmet veriyorsunuz, doğrudan başka bir firmaya mı yönlenmeliyiz?",
+                cevap:
+                    "Standart, düşük riskli işlerde (dış cephe, açık saha erişimi) filomuz güvenle yeterlidir ve bu işleri memnuniyetle üstleniriz. Ama iç hacim, toz riskli veya sertifika gerektiren işlerde kendimizi bu alanda derinleşmiş görmüyoruz ve bunu açıkça söylüyoruz; böyle bir iş söz konusuysa doğrudan bu konuda uzmanlaşmış bir tedarikçiyle çalışmanız hem güvenlik hem sonuç açısından daha doğru olur. Talebinizi bize iletirseniz hangi kategoriye girdiğini birlikte netleştirir, gerekiyorsa yönlendirme yaparız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bölgedeki tarım/silo tesisi yoğunluğunun sanayi bölgelerine kıyasla sınırlı olduğu ve ATEX sertifikasyon gereksinimi kamuya açık genel bilgidir; firmanın bu alandaki kapsam sınırı ve yönlendirme pratiği dürüstçe belirtilmiştir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Periyodik Aydınlatma ve Enerji Hattı Bakım Sözleşmesi",
+        giris:
+            "Aydınlatma ve enerji hattı bakımı, İnegöl ve çevresindeki mobilya fabrikaları ile otomotiv yan sanayi tesislerinde platform taleplerinin en düzenli tekrarlanan kalemlerinden biridir — çünkü aydınlatma armatürü zamanla söner, kablo tavası kontrolü periyodik denetim gerektirir ve elektrik panosu çevresindeki bakım işleri hassasiyet ister. Bizim yaklaşımımız bu tekrarı tek seferlik çağrılara bölmek yerine, aydınlatma ve enerji hattı bakımını sözleşmenin ayrı bir maddesi olarak tanımlamaktır: hangi hat, ne sıklıkla, hangi tip armatür kontrolü ile taranacak — bunlar sözleşme ekinde yazılı bir tabloya dönüşür. Sonuç, aydınlatma arızasının fark edilip bize haber verilmesini beklemek yerine, arıza oluşmadan önce armatürün yaşlanma belirtisini gören planlı bir bakım düzenidir.",
+        maddeler: [
+            {
+                baslik: "Aydınlatma rotasının hat bazında planlanması",
+                metin:
+                    "Fabrika aydınlatma hattı genellikle üretim hattına paralel uzanır ve armatür sayısı yüzlerle ifade edilebilir. Periyodik tur, hattı bölümlere ayırıp her ziyarette bir bölümü tarayacak şekilde kurulur; bir yıl içinde hattın tamamı en az bir kez, yoğun kullanılan bölümler daha sık taranmış olur. Bu bölümleme sözleşme ekinde harita üzerinde işaretlenir.",
+            },
+            {
+                baslik: "Elektrik panosu yakınında çalışma protokolü",
+                metin:
+                    "Aydınlatma bakımının önemli bir kısmı enerjili hat yakınında geçer; bu yüzden operatörlerimiz elektrik kesme-açma prosedürünü tesisin kendi elektrik ekibiyle koordineli yürütür. Panoya yakın çalışmalarda önce ilgili hat tesisin elektrikçisi tarafından izole edilir, iş bitince birlikte kontrol edilerek enerji verilir. Bu koordinasyon sözleşmenin standart maddesidir, ayrı ücretlendirilmez.",
+            },
+            {
+                baslik: "LED dönüşümü ve armatür değişim projelerinde platform desteği",
+                metin:
+                    "Bazı fabrikalar sözleşme süresi içinde toplu LED dönüşümüne geçer; bu, tek seferlik yoğun bir armatür değişim projesidir ve periyodik bakımdan farklı bir yoğunluk ister. Bu tür projeler için mevcut sözleşmeye geçici yoğunluk eki yapılır — proje süresince ikinci makine devreye alınabilir, proje bitince standart periyodik tempoya dönülür.",
+            },
+            {
+                baslik: "Havalandırma ve kablo tavası ortak rotası",
+                metin:
+                    "Aydınlatma hattı genellikle havalandırma kanalı ve kablo tavasıyla aynı çatı altı bölgesinde yer alır; bu yüzden periyodik turumuzda aydınlatma kontrolüyle birlikte kablo tavası bağlantı kontrolü ve havalandırma kanalı görsel muayenesi de aynı ziyarette yapılır. Tek seferde birden fazla kontrolün tamamlanması, hem üretim kesintisini azaltır hem bakım bedelini optimize eder.",
+            },
+            {
+                baslik: "Arıza bildirimi ile planlı bakım arasındaki fark",
+                metin:
+                    "Sözleşmeli aydınlatma bakımı iki kanaldan işler: planlı periyodik tur ve acil arıza bildirimi. Planlı turda henüz sönmemiş ama ömrünün sonuna yaklaşan armatürler tespit edilip önceden değiştirilir; acil bildirimde ise sönen bir armatür için makine bir sonraki planlı ziyareti beklemeden, taahhüt edilen süre içinde sahaya gelir. İki kanalın birlikte çalışması, hem planlı hem beklenmedik ihtiyacı aynı sözleşme altında karşılar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma bakım sözleşmesinin kapsam tablosu",
+                paragraflar: [
+                    "Sözleşme kapsamındaki tipik kalemler ve sıklıkları aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kontrol kalemi", "Standart sıklık", "Kapsam"],
+                    satirlar: [
+                        ["Armatür görsel/fonksiyon kontrolü", "3 ayda bir hat taraması", "Sözleşmeye dahil"],
+                        ["Sönen armatür değişimi", "Bildirim üzerine, taahhüt süresinde", "Parça-işçilik dahil"],
+                        ["Kablo tavası bağlantı kontrolü", "Aydınlatma turuyla birlikte", "Sözleşmeye dahil"],
+                        ["Toplu LED dönüşüm projesi", "Talep üzerine, tek seferlik", "Ayrı proje eki"],
+                    ],
+                },
+            },
+            {
+                baslik: "Vardiya devam ederken aydınlatma bakımı",
+                paragraflar: [
+                    "Aydınlatma hattının tamamını aynı anda kapatmak üretim için genellikle mümkün değildir; bu yüzden periyodik tur, hattı bölüm bölüm ve tesisin en az yoğun olduğu saatlere yayacak şekilde planlanır. Bir bölümdeki iş bitmeden diğerine geçilmez, böylece aynı anda karanlıkta kalan alan sınırlı tutulur.",
+                    "Acil arızalarda ise öncelik hızdır; bölüm bazlı yaklaşım bir kenara bırakılır ve sönen armatüre doğrudan müdahale edilir, çünkü karanlık kalan tek nokta bile üretim güvenliği açısından risklidir.",
+                ],
+            },
+            {
+                baslik: "Yeni hat eklendiğinde bakım kapsamının genişlemesi",
+                paragraflar: [
+                    "Fabrikaya yeni bir üretim hattı ve onunla birlikte yeni aydınlatma hattı eklendiğinde, mevcut sözleşmenin kapsam tablosu güncellenir. Yeni hat periyodik tura eklenir ve bedel, eklenen armatür sayısına göre orantılı olarak yeniden hesaplanır; bu güncelleme sözleşmeyi yeniden yazmayı gerektirmez, ek madde olarak işlenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aydınlatma bakımı sözleşmesi tam olarak neyi kapsıyor, armatür bedeli dahil mi?",
+                cevap:
+                    "Periyodik kontrol, erişim (platform ve operatör) ve normal kullanımdan doğan armatür değişiminin işçiliği sözleşme kapsamındadır. Armatürün kendi parça bedeli genellikle ayrı faturalanır çünkü armatür markası ve modeli tesise göre değişir; biz erişim ve montaj işini üstleniriz, parça tedarikini isterseniz sizin belirlediğiniz tedarikçiden, isterseniz bizim önerdiğimiz standart armatürden karşılarız. Bu ayrım sözleşme imzalanırken netleştirilir.",
+            },
+            {
+                soru: "Vardiya devam ederken aydınlatma bakımı yapmak güvenli mi?",
+                cevap:
+                    "Evet, doğru koordinasyonla güvenlidir. Bakım turu hattı bölüm bölüm tarar ve her bölümdeki elektrik izolasyonu tesisin kendi elektrik ekibiyle koordineli yapılır; aynı anda yalnızca çalışılan bölüm etkilenir, üretim hattının tamamı karanlıkta kalmaz. İş bitince enerji birlikte kontrol edilerek verilir. Bu protokol her ziyarette aynı şekilde uygulanır.",
+            },
+            {
+                soru: "Sönen bir armatür fark ettik, ne kadar sürede müdahale ediliyor?",
+                cevap:
+                    "Acil arıza bildirimi, planlı periyodik turdan ayrı bir kanaldır ve sözleşmede taahhüt edilen süre içinde (işletmenin operasyon kritikliğine göre belirlenen saat eşiği) müdahale edilir. Bir sonraki planlı ziyareti beklemeniz gerekmez; bildirim geldiği an ayrı bir görev olarak sıraya girer.",
+            },
+            {
+                soru: "Fabrikamız toplu LED dönüşümüne geçmeyi planlıyor, bu mevcut bakım sözleşmesini etkiler mi?",
+                cevap:
+                    "Etkilemez, ayrı bir proje eki olarak yürütülür. Toplu dönüşüm dönemi boyunca ihtiyaç duyulan ek platform kapasitesi (ikinci makine gibi) geçici olarak sözleşmeye eklenir, proje bitince standart periyodik tempoya dönülür. Ana sözleşmenizin süresi ve şartları bu projeden etkilenmez; proje kendi başına ayrı fiyatlanır.",
+            },
+            {
+                soru: "Aydınlatma bakımı sırasında kablo tavası veya havalandırma kanalında sorun görürseniz bize bildiriyor musunuz?",
+                cevap:
+                    "Evet, periyodik turumuzda aydınlatma kontrolüyle birlikte kablo tavası bağlantısı ve havalandırma kanalının görsel muayenesi de yapılır; bir anormallik (gevşek bağlantı, hasarlı kanal segmenti gibi) fark edilirse bakım raporuna not düşülür ve size iletilir. Bu kontrolün onarımı bizim kapsamımızda değildir ama erken tespit, sizin ilgili ekibinizin sorunu büyümeden çözmesini sağlar.",
+            },
+            {
+                soru: "Yeni bir üretim hattı ekledik, aydınlatma bakım kapsamını nasıl genişletiyoruz?",
+                cevap:
+                    "Yeni hat ve aydınlatması eklendiğinde bize bildirirsiniz, biz de mevcut sözleşmenin kapsam tablosunu güncelleriz; yeni hat periyodik tura dahil edilir ve bedel eklenen armatür sayısına orantılı olarak yeniden hesaplanır. Bu, sözleşmeyi yeniden yazmayı değil, mevcut sözleşmeye ek madde eklemeyi gerektirir — süreç birkaç günde tamamlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Fabrika aydınlatma hatlarının periyodik bakım ihtiyacı ve elektrik izolasyon prosedürü genel mühendislik bilgisidir; rota bölümleme, kapsam tablosu ve proje eki yapısı firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Uzun Dönem Sözleşmede Operatörlü Platform Modeli",
+        giris:
+            "Operatörlü kiralama, uzun dönem sözleşme dünyasında çoğu işletmenin ilk aklına gelmeyen ama zamanla en çok tercih ettiği modellerden biridir — çünkü platform sözleşmesi kurulurken asıl mesele yalnızca makinenin varlığı değil, o makineyi güvenli ve verimli kullanacak insan kaynağının sürekliliğidir. İnegöl ve çevresindeki mobilya ile otomotiv yan sanayi tesislerinde operatör devir hızı zaman zaman yüksektir; vardiya değişimi, mevsimlik işçi kullanımı veya basitçe personel eksikliği, sözleşmeli makinenin atıl kalmasına yol açabilir. Operatörlü modelde bu riski biz üstleniriz: makineyle birlikte, o makinenin sınıfında deneyimli bir operatör de sözleşme kapsamına girer ve işletme yalnızca işin ne zaman yapılacağını bildirir, kimin yapacağını düşünmez. Bu model özellikle periyodik bakım turlarında ve dönemsel yoğunluk artışlarında işletmenin kendi personelini eğitme yüküne girmeden makineyi devreye alabilmesini sağlar.",
+        maddeler: [
+            {
+                baslik: "Operatörlü ve operatörsüz modelin sözleşmedeki farkı",
+                metin:
+                    "İki model de aynı makine sınıfı üzerine kurulabilir; fark, bedele operatör maliyetinin dahil olup olmamasıdır. Operatörsüz modelde işletme kendi eğitimli personelini görevlendirir, biz yalnızca makineyi ve bakımını sağlarız. Operatörlü modelde ise vardiya bazlı veya günlük operatör görevlendirmesi sözleşmeye eklenir; işletme hangi model olursa olsun aynı ikame ve bakım taahhüdünden yararlanır.",
+            },
+            {
+                baslik: "Mobilya ve otomotiv yan sanayinde operatörlü tercih nedenleri",
+                metin:
+                    "Mobilya fabrikalarında sık görülen sezonluk işçi kullanımı, otomotiv yan sanayinde ise vardiya rotasyonunun yoğunluğu, işletmelerin kendi personelini platform kullanımı için sürekli eğitmesini zorlaştırır. Operatörlü model bu durumda personel devir hızından bağımsız bir çözüm sunar — operatör bizim kadromuzdan gelir, işletmenin kendi eğitim yükü sıfırlanır ve makine her zaman deneyimli elde çalışır.",
+            },
+            {
+                baslik: "Operatörün sözleşme süresince sürekliliği",
+                metin:
+                    "Uzun dönem sözleşmelerde mümkün olduğunca aynı operatörü aynı tesise atarız; bu, operatörün tesisin özel koşullarını (dar geçitler, hassas mamul, hat düzeni) zamanla öğrenmesini sağlar ve iş verimini artırır. Operatör izin veya rapor durumunda yedek operatör devreye girer, ancak bu geçiş öncesinde tesise kısa bir bilgilendirme yapılır ki sürekliliğe alışkın işletme sürprizle karşılaşmasın.",
+            },
+            {
+                baslik: "Karma model: dönemsel operatörlü takviye",
+                metin:
+                    "Kendi operatörü olan işletmeler bile fuar öncesi yoğunluk veya operatörün izin dönemi gibi geçici boşluklarda operatörlü takviye talep edebilir. Bu durumda sözleşme sabit operatörlü değil, dönemsel operatörlü ek madde ile kurulur; takviye yalnızca ihtiyaç duyulan günlerde devreye girer ve bedel yalnızca o günler için işler.",
+            },
+            {
+                baslik: "Operatör yetkinliği ve belgelendirme takibi",
+                metin:
+                    "Operatörlü modelde görevlendirilen personelin operatör belgesi, sağlık raporu ve makineye özgü kullanım eğitimi bizim tarafımızdan takip edilir ve güncel tutulur; işletmenin bu takibi ayrıca yapması gerekmez. Denetim durumunda operatör belgeleri, makinenin bakım dosyasıyla birlikte talep üzerine sunulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz modelin karşılaştırması",
+                paragraflar: [
+                    "İki modelin hangi işletme profiline uyduğunu tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçüt", "Operatörsüz", "Operatörlü"],
+                    satirlar: [
+                        ["Personel yükü", "İşletmede", "Bizde"],
+                        ["Eğitim sorumluluğu", "İşletme kendi personelini eğitir", "Operatör zaten yetkin gelir"],
+                        ["Vardiya/izin riski", "İşletmeye ait", "Yedek operatörle karşılanır"],
+                        ["Bedel yapısı", "Yalnızca makine kirası", "Makine + operatör bedeli"],
+                        ["Uygun profil", "Kendi kadrolu, düzenli personeli olan tesis", "Personel devir hızı yüksek tesis"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörlü modelde iş tanımının netliği",
+                paragraflar: [
+                    "Operatörlü sözleşmede operatörün görev tanımı da yazılıdır — hangi saatlerde, hangi işlerde çalışacağı, hangi işlerin kapsam dışı olduğu (örneğin makine operasyonu dışındaki genel işçilik talepleri). Bu netlik, operatörün yalnızca kendi uzmanlık alanında (platform kullanımı) görevlendirilmesini garanti eder ve işletme ile bizim aramızda görev karışıklığını önler.",
+                    "İş tanımı dışı bir talep gelirse (örneğin platform işi bittikten sonra genel temizlik gibi) bu ayrı bir konuşma konusudur; operatörümüz sözleşme kapsamındaki işe odaklı çalışır.",
+                ],
+            },
+            {
+                baslik: "Operatörlü modelden operatörsüze geçiş",
+                paragraflar: [
+                    "İşletme zamanla kendi personelini eğitip operatörlü modelden çıkmak isterse bu geçiş sözleşme süresi içinde herhangi bir noktada yapılabilir; tek koşul, işletmenin personelinin makineye özgü kullanım eğitimini bizden almasıdır. Geçiş, sözleşmeyi bozmaz, yalnızca aylık bedel operatör kalemi çıkarılarak güncellenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü model ile kendi personelimizi kullanmak arasında güvenlik açısından fark var mı?",
+                cevap:
+                    "Doğrudan bir fark yoktur çünkü hangi model seçilirse seçilsin makineyi kullanacak kişinin operatör belgesi ve makineye özgü kullanım eğitimi şarttır; operatörlü modelde bu yetkinliği biz garanti ederiz, operatörsüz modelde işletme kendi personelinin bu koşulları sağladığından emin olmalıdır. Fark güvenlikte değil, sorumluluğun kimde olduğundadır — operatörlü modelde yetkinlik takibi bizim yükümüzdür.",
+            },
+            {
+                soru: "Bizim operatörümüz izne çıkarsa operatörlü sözleşmede ne olur, boşluk bize mi kalıyor?",
+                cevap:
+                    "Hayır, bu tam olarak operatörlü modelin çözdüğü sorundur. Sizin kendi personeliniz izne çıktığında operatörsüz modelde boşluk size kalır; operatörlü modelde ise bizim atadığımız operatör izne çıkarsa yedek operatör devreye girer ve size önceden kısa bir bilgilendirme yapılır. Sürekliliğin sizin tarafınızda değil bizim organizasyonumuzda olması, bu modelin temel değeridir.",
+            },
+            {
+                soru: "Operatörlü modelde bedel nasıl hesaplanıyor, sabit mi yoksa saat bazlı mı?",
+                cevap:
+                    "Kullanım desenine göre iki seçenek sunarız: sürekli ihtiyaçta sabit aylık bedel (makine + operatör dahil), dönemsel ihtiyaçta ise gün bazlı operatörlü tarife. Hangi yapının size uygun olduğunu belirlemek için önce kullanım sıklığınızı konuşuruz; sürekli günlük kullanım varsa sabit model, ayda birkaç gün gibi seyrek ama planlı kullanım varsa gün bazlı model ekonomik çıkar.",
+            },
+            {
+                soru: "Operatörünüz tesisimizi hiç bilmiyor, ilk gün verim düşük olur mu?",
+                cevap:
+                    "İlk ziyarette kısa bir saha tanıma süreci olur — dar geçitler, hassas mamul noktaları, hat düzeni gibi ayrıntılar operatöre aktarılır. Ancak uzun dönem sözleşmelerde mümkün olduğunca aynı operatörü aynı tesise sabitleriz, bu yüzden bu tanıma maliyeti yalnızca bir kez ödenir; sonraki ziyaretlerde operatör tesisi zaten bilir ve verim ilk günden itibaren yükselir.",
+            },
+            {
+                soru: "Kendi operatörümüz var ama fuar öncesi yoğunlukta geçici takviyeye ihtiyacımız olabilir, bu mümkün mü?",
+                cevap:
+                    "Evet, dönemsel operatörlü takviye tam olarak bu senaryo için tasarlandı. Yoğun döneminizi önceden bildirirseniz o günler için sözleşmeye ek operatörlü madde eklenir, takviye yalnızca belirtilen günlerde devreye girer ve bedel de yalnızca o günler için işler. Ana sözleşmeniz operatörsüz kalmaya devam eder, yalnızca yoğun dönem için geçici bir katman eklenmiş olur.",
+            },
+            {
+                soru: "Operatörlü modelden zamanla vazgeçip kendi personelimizle devam etmek istersek nasıl bir süreç işliyor?",
+                cevap:
+                    "Geçiş sözleşme süresi içinde herhangi bir noktada yapılabilir ve sözleşmeyi bozmaz. Tek koşul, sizin görevlendireceğiniz personelin makineye özgü kullanım eğitimini bizden almasıdır — bu eğitim bir kereliğine verilir ve ek bedelsizdir. Eğitim tamamlandıktan sonra aylık bedel operatör kalemi çıkarılarak güncellenir, geri kalan tüm sözleşme şartları (bakım, ikame) aynı kalır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnegöl bölgesindeki mobilya ve otomotiv yan sanayi tesislerinde operatör personel devir hızının değişkenliği genel sektörel gözlemdir; operatörlü sözleşme yapısı, yedekleme düzeni ve dönemsel takviye modeli firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Mobilya ve Otomotiv Yan Sanayi Kümesinde Çok Noktalı Periyodik Bakım Rotası",
+        giris:
+            "İnegöl, Kestel ve Gürsu hattındaki mobilya ile otomotiv yan sanayi tesisleri coğrafi olarak kümelenmiş bir doku oluşturur ve bu kümelenme, tekil sözleşmelerin toplamından daha verimli bir hizmet modeline izin verir: çok noktalı periyodik bakım rotası. Bu modelde tek bir bakım aracı ve ekibi, aynı gün veya aynı hafta içinde birden fazla sözleşmeli tesisi sırayla dolaşır — biri mobilya fabrikası, biri otomotiv yan sanayi deposu, biri küçük atölye olabilir; her biri kendi sözleşmesiyle bağlı ama bakım maliyeti kümenin coğrafi yakınlığı sayesinde paylaşılır. İşletme için somut fayda, tekil sözleşmeye göre daha düşük birim bakım maliyeti ve daha sık ziyaret sıklığıdır çünkü aynı rotada olan bir tesis için ekibimiz zaten o gün bölgededir. Kümenin büyümesi, rotanın sıklaşmasına ve dolayısıyla her tesisin daha yakın takip almasına dönüşür — bu, tek başına sözleşme yapan bir tesisin elde edemeyeceği bir ölçek avantajıdır.",
+        maddeler: [
+            {
+                baslik: "Rota planlamasının coğrafi mantığı",
+                metin:
+                    "Rota, İnegöl merkezli depomuzdan başlayıp Kestel ve Gürsu hattı boyunca ilerleyecek şekilde kurulur; her tesisin bakım günü, coğrafi sıralamaya göre değil, tesisin kendi ihtiyaç sıklığına göre belirlenir ama aynı gün içinde yakın tesisler mümkün olduğunca gruplanır. Bu gruplama, bakım aracının gereksiz gidiş-geliş yapmadan bir günde birden fazla tesisi tamamlamasını sağlar.",
+            },
+            {
+                baslik: "Kümedeki her tesisin bağımsız sözleşmesi",
+                metin:
+                    "Rota paylaşımlı olsa da her tesisin sözleşmesi bağımsızdır — kendi bakım kapsamı, kendi ikame taahhüdü ve kendi bedeli vardır. Bir tesisin sözleşmesinin bitmesi veya değişmesi diğer tesisleri etkilemez; rota yalnızca lojistik bir optimizasyondur, sözleşme hukuku her tesiste ayrı işler.",
+            },
+            {
+                baslik: "Yeni tesis kümeye katıldığında rota güncellemesi",
+                metin:
+                    "Aynı hat üzerinde yeni bir mobilya veya otomotiv yan sanayi tesisi sözleşme imzaladığında, mevcut rota bu tesisi kapsayacak şekilde güncellenir. Yeni tesis mevcut rotaya coğrafi olarak yakınsa ek maliyet yaratmadan eklenir; bu da kümenin büyümesinin var olan müşterilere dolaylı bir fayda sağlaması anlamına gelir — rota sıklaşır, herkes daha yakın takip alır.",
+            },
+            {
+                baslik: "Farklı sektörlerin aynı rotada farklı bakım ihtiyacı",
+                metin:
+                    "Aynı rota üzerindeki mobilya fabrikası ve otomotiv yan sanayi deposu farklı bakım hassasiyetleri taşıyabilir — biri toz filtresi odaklı, diğeri ağır yük mafsalı odaklı. Rota planında her durak için ayrı bir kontrol listesi tutulur; tek tip genel bakım uygulanmaz, her tesisin kendi profiline göre özelleştirilmiş kontrol yapılır.",
+            },
+            {
+                baslik: "Acil arıza rotanın dışında nasıl yönetilir",
+                metin:
+                    "Planlı rota, acil arıza taleplerini geciktirmez. Rota üzerindeki bir tesiste beklenmedik arıza çıkarsa, mobil ekip planlı sıradan bağımsız olarak öncelikli yönlendirilir ve rota o günkü sıralamada esnetilir. Acil durumun rotayı bozmaması için ekipte her zaman bir esneklik payı bırakılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tekil sözleşme ile çok noktalı rota modelinin karşılaştırması",
+                paragraflar: [
+                    "İki modelin maliyet ve sıklık açısından farkını tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçüt", "Tekil sözleşme (izole tesis)", "Çok noktalı rota (kümedeki tesis)"],
+                    satirlar: [
+                        ["Bakım ziyaret maliyeti", "Tam nakliye/zaman payı tek tesise yüklenir", "Rota içinde paylaşılır"],
+                        ["Ziyaret sıklığı", "Standart periyot", "Küme büyüdükçe sıklaşabilir"],
+                        ["Acil müdahale hızı", "Standart eşik", "Bölgede zaten ekip olabilir, hızlanabilir"],
+                        ["Sözleşme bağımsızlığı", "Tam", "Tam (rota yalnızca lojistiktir)"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kümedeki tesisler arasında bilgi paylaşımı olur mu",
+                paragraflar: [
+                    "Hayır, her tesisin bakım kaydı ve sözleşme bilgisi kendine özeldir; rota paylaşımı yalnızca bizim iç lojistik planlamamızdır, tesisler arası bilgi veya veri paylaşımı yapılmaz. Bir tesisin sözleşme detayları veya bakım geçmişi başka bir tesisle paylaşılmaz; her işletme kendi dosyasına erişir.",
+                    "Tek istisna, işletmelerin kendi isteğiyle bilgi paylaşmak istediği durumlardır — örneğin aynı kümedeki iki komşu işletme birbirine referans olarak bizi önerdiğinde, bu tamamen işletmelerin kendi tercihiyle olur, bizim tarafımızdan yönlendirilmez.",
+                ],
+            },
+            {
+                baslik: "Rota dışı bölgeden gelen taleplerin değerlendirilmesi",
+                paragraflar: [
+                    "İnegöl-Kestel-Gürsu hattı dışından gelen uzun dönem sözleşme talepleri de değerlendirilir, ancak bu tesisler mevcut rotanın coğrafi kapsamı dışında kalıyorsa bakım ziyaret maliyeti tekil sözleşme mantığıyla hesaplanır — rota avantajından o tesis faydalanamaz. Zamanla o bölgede yeterli sayıda sözleşmeli tesis birikirse yeni bir rota kümesi oluşturulabilir; bu, kümenin nasıl büyüdüğünün gerçek hikayesidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çok noktalı rota modelinde bizim bakım kalitemiz diğer tesislere göre düşük mü tutuluyor, öncelik büyük tesise mi veriliyor?",
+                cevap:
+                    "Hayır, her tesisin bakım kapsamı kendi sözleşmesinde yazılıdır ve rota bu kapsamı değiştirmez; büyük veya küçük tesis ayrımı yapılmadan her durak kendi kontrol listesine göre eksiksiz tamamlanır. Rota yalnızca hangi sırayla, hangi günde ziyaret edileceğini optimize eder, ziyaretin içeriğini küçültmez. Sözleşmenizde yazılı kapsam neyse, o eksiksiz uygulanır.",
+            },
+            {
+                soru: "Rotadaki bir tesiste acil arıza çıkarsa bizim planlı ziyaretimiz ertelenir mi?",
+                cevap:
+                    "Ertelenebilir ama bu erteleme genellikle saatler mertebesindedir, günler değil; ekibimizde her zaman acil durumlar için esneklik payı bırakılır ve planlı ziyaretler mümkün olduğunca aynı gün içinde tamamlanmaya çalışılır. Sık ertelenme yaşanıyorsa bu durumu bize bildirmenizi isteriz, rota kapasitesini gözden geçiririz — amacımız hiçbir sözleşmeli tesisin sürekli ikinci planda kalmamasıdır.",
+            },
+            {
+                soru: "Bizim tesisimiz rotanın dışında kalıyor, yine de sözleşme yapabilir miyiz?",
+                cevap:
+                    "Yapabilirsiniz, ama dürüst olmak gerekirse rota avantajından (paylaşılan maliyet, sıklaşan ziyaret) o durumda faydalanamazsınız; bakım ziyaret maliyeti tekil sözleşme mantığıyla hesaplanır. Bölgenizde zamanla yeterli sayıda sözleşmeli tesis birikirse yeni bir rota kümesi oluşturmayı değerlendirebiliriz; bu süreç talebe bağlı büyür, önceden vaat etmeyiz.",
+            },
+            {
+                soru: "Kümedeki başka bir tesisin bakım bilgisi bize açık oluyor mu, rekabet açısından endişe duymalı mıyız?",
+                cevap:
+                    "Hayır, kesinlikle değil. Her tesisin sözleşmesi, bakım kaydı ve kullanım verisi ayrı ve gizlidir; rota paylaşımı yalnızca bizim iç lojistik planlamamızdır, tesisler arası herhangi bir bilgi akışı olmaz. Rekabet endişesi taşımanıza gerek yok, sizin dosyanız yalnızca size ve bize açıktır.",
+            },
+            {
+                soru: "Rotaya yeni tesis eklendiğinde bizim ziyaret sıklığımız veya bedelimiz değişir mi?",
+                cevap:
+                    "Yeni tesis rotaya eklendiğinde genellikle ziyaret sıklığı olumsuz etkilenmez, çünkü rota büyüdükçe ekip kapasitesi de buna göre planlanır; bazı durumlarda kümenin büyümesi ziyaret sıklığını artırabilir çünkü ekip zaten bölgede daha sık bulunur hâle gelir. Mevcut sözleşmenizin bedeli, yeni tesis eklenmesiyle otomatik değişmez; bedel değişikliği yalnızca sizin kendi sözleşme koşullarınızdaki bir değişiklikle (süre, kapsam gibi) ilgilidir.",
+            },
+            {
+                soru: "Rota modelinde tek bir ekip mi çalışıyor, yoksa birden fazla ekip mi bölgeyi kapsıyor?",
+                cevap:
+                    "Küme büyüklüğüne göre değişir; küçük kümede tek ekip yeterli olabilirken, sözleşmeli tesis sayısı arttıkça ikinci bir bakım ekibi devreye alınır ki ziyaret sıklığı ve acil müdahale hızı düşmesin. Bu kapasite planlaması bizim iç işleyişimizdir ve sözleşmeli tesislere ek maliyet olarak yansıtılmaz; amacımız kümenin büyümesinden yalnızca bizim değil, sözleşmeli tüm tesislerin faydalanmasıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İnegöl-Kestel-Gürsu hattındaki mobilya ve otomotiv yan sanayi tesislerinin coğrafi kümelenmesi kamuya açık bilgidir; çok noktalı rota planlaması, kapasite büyütme mantığı ve sözleşme bağımsızlığı ilkesi firma pratiğidir. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Koşullarında Platform Kiralama — Kapsam Dışı Bir Alan",
+        giris:
+            "Zor zemin ve arazi tipi platform kiralaması, bu domainin ana odağı değildir ve bunu baştan açıkça söylemek isteriz: filomuz ve bakım altyapımız, İnegöl ve çevresindeki mobilya fabrikaları ile otomotiv yan sanayi tesislerinin iç mekân ve düz beton saha ihtiyaçlarına göre kurulmuştur. Arazi tipi platform işleri — dağlık şantiye, düzensiz toprak zemin, ağır eğimli saha — farklı bir makine sınıfı, farklı bir lastik/palet konfigürasyonu ve genellikle farklı bir operatör deneyimi gerektirir. Elimizde standart iç mekân ve orta zorlukta dış saha işleri için uygun sınırlı sayıda arazi tipi ünite bulunur, ama bunu bir uzmanlık alanı olarak sunmuyoruz; talep geldiğinde makinemiz uygunsa değerlendiririz, zorlu koşullarda ise dürüstçe bu alanda yoğunlaşmış bir tedarikçiye yönlendiririz.",
+        maddeler: [
+            {
+                baslik: "Elimizdeki sınırlı arazi tipi kapasite",
+                metin:
+                    "Filomuzda birkaç geniş tekerlekli veya paletli model bulunur; bunlar öncelikle mobilya ve otomotiv yan sanayi tesislerinin henüz düzgün beton kaplanmamış dış saha veya yükleme rampası çevresi gibi orta zorlukta koşullar için ayrılmıştır. Bu üniteler dağlık arazi veya ağır çamurlu şantiye gibi zorlu koşullar için tasarlanmamıştır; talep bu sınırın üzerindeyse kapasitemizin yetersiz kaldığını açıkça belirtiriz.",
+            },
+            {
+                baslik: "Orta zorlukta dış saha işlerinde değerlendirme",
+                metin:
+                    "Fabrika dış sahasında düzensiz ama aşırı eğimli olmayan zemin, sıkıştırılmış toprak veya çakıl gibi orta zorlukta koşullarda elimizdeki arazi tipi platform genellikle yeterlidir. Bu durumda keşif yapılır, zeminin taşıma kapasitesi gözle ve basit testle değerlendirilir, uygun görülürse standart kiralama süreciyle devam edilir.",
+            },
+            {
+                baslik: "Sınırın üzerindeki taleplerde dürüst yönlendirme",
+                metin:
+                    "Ağır eğimli, kayalık veya derin çamurlu şantiye gibi taleplerde makinemizin bu koşullara uygun olmadığını söyleriz; makineyi zorlayıp saplanma veya devrilme riskine girmek yerine, bu alanda uzmanlaşmış ve doğru donanıma sahip bir tedarikçiye yönlendirme yaparız. Bu, kısa vadede bir iş kaybı olsa da uzun vadede güvenlik ve itibar açısından doğru tercihtir.",
+            },
+            {
+                baslik: "Mobilya/otomotiv yan sanayi müşterimizin arazi ihtiyacı çıkarsa",
+                metin:
+                    "Zaten sözleşmeli mobilya veya otomotiv yan sanayi müşterimizin tesisinde arazi tipi bir ihtiyaç (örneğin çevre düzenlemesi, yeni bina inşaatı için geçici zemin) doğarsa, önce elimizdeki kapasiteyle karşılayıp karşılayamayacağımızı değerlendiririz; karşılayamıyorsak bunu sözleşmeli müşterimize karşı bile dürüstçe söyler, uygun bir alternatif önerisiyle destekleriz.",
+            },
+            {
+                baslik: "Bu alanda derinleşmeme kararının gerekçesi",
+                metin:
+                    "Arazi tipi platform işleri özel operatör deneyimi, farklı bakım rutini ve genellikle daha yüksek sermaye yatırımı gerektirir. Bizim iş modelimiz İnegöl merkezli mobilya-otomotiv yan sanayi ekseninde derinleşmek üzerine kurulu; bu odağı korumak, o segmentte daha iyi hizmet vermemizi sağlıyor. Her alana yayılmak yerine net bir uzmanlık alanında güvenilir kalmayı tercih ediyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin zorluğuna göre karşılama durumumuz",
+                paragraflar: [
+                    "Talep tipine göre karşılama kararımızı tablo özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin/arazi tipi", "Karşılama durumu", "Gerekçe"],
+                    satirlar: [
+                        ["Düz beton, standart saha", "Standart filo ile karşılanır", "Ana uzmanlık alanımız"],
+                        ["Sıkıştırılmış toprak/çakıl, hafif eğim", "Sınırlı arazi tipi ünite ile değerlendirilir", "Orta zorluk, keşifle karar verilir"],
+                        ["Ağır eğim, kayalık, derin çamur", "Yönlendirme yapılır", "Filo kapasitesi yetersiz"],
+                        ["Dağlık şantiye, uzun mesafe arazi işi", "Karşılanmaz", "Uzmanlık ve donanım alanımız değil"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifsiz teklif vermeme ilkesi",
+                paragraflar: [
+                    "Zemin zorluğu telefonla veya fotoğrafla tam anlaşılamayacağı için, standart iç mekân dışındaki her arazi/zor zemin talebinde keşif ziyaretini şart koşarız. Keşifsiz verilen bir teklif hem işletmeyi hem bizi yanlış beklentiye sokabilir; sahada makine saplanır veya iş yarım kalırsa bu kimseye fayda sağlamaz.",
+                ],
+            },
+            {
+                baslik: "Yönlendirme yaptığımızda nasıl bir yol izliyoruz",
+                paragraflar: [
+                    "Sınırımızın dışında kaldığını değerlendirdiğimiz bir talepte, işletmeye bunu erken aşamada söyleriz — teklif sürecine girmeden önce. Mümkün olduğunda konuya uygun donanıma sahip bir tedarikçi ismi paylaşırız; bu, ticari bir yönlendirme komisyonu değil, doğru işi doğru elde bırakma prensibidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Arazi tipi platform kiralıyor musunuz, yoksa bu hiç hizmetiniz değil mi?",
+                cevap:
+                    "Kısmen. Filomuzda orta zorlukta dış saha ve arazi koşulları için birkaç sınırlı ünite bulunur ve bunları değerlendiririz; ama dağlık şantiye veya ağır çamurlu arazi gibi zorlu koşullar için özel donanımlı bir filo işletmiyoruz. Talebinizi paylaşırsanız keşifle birlikte karşılayıp karşılayamayacağımızı dürüstçe söyleriz.",
+            },
+            {
+                soru: "Bizim zeminimiz zor mu değil mi, biz nasıl anlayacağız?",
+                cevap:
+                    "Bunu telefonla kesin söylemek zordur, bu yüzden zemin durumu belirsizse keşif ziyaretini öneririz. Keşifte zeminin taşıma kapasitesi, eğimi ve düzensizliği değerlendirilir; elimizdeki üniteyle güvenle karşılanabilecek bir zeminse teklif veririz, sınırın üzerindeyse bunu açıkça söyleriz. Keşifsiz teklif vermemek bizim ilkemizdir çünkü sahada yanlış çıkan bir tahmin kimseye fayda sağlamaz.",
+            },
+            {
+                soru: "Neden bu alanda daha fazla yatırım yapıp uzmanlaşmıyorsunuz?",
+                cevap:
+                    "Çünkü iş modelimiz bilinçli olarak İnegöl merkezli mobilya ve otomotiv yan sanayi ekseninde derinleşmek üzerine kurulu; bu odak, o segmentte daha hızlı, daha bilgili ve daha güvenilir bir hizmet sunmamızı sağlıyor. Arazi tipi işlere yayılmak hem sermaye hem operatör uzmanlığı gerektirir ve bu, ana odağımızdan kaynak çeker. Her şeyi yapmaya çalışmak yerine, yaptığımız işte iyi olmayı tercih ediyoruz.",
+            },
+            {
+                soru: "Zaten sizinle sözleşmeli bir mobilya fabrikasıyız, tesisimizde arazi tipi bir ihtiyaç çıktı; öncelik bize mi veriliyor?",
+                cevap:
+                    "Mevcut sözleşmeli müşterilerimizin talebini önce değerlendiririz ve elimizdeki kapasiteyle karşılanabiliyorsa öncelik tanırız. Ancak kapasitemiz gerçekten yetersizse, sözleşmeli müşterimiz olsanız bile bunu dürüstçe söyler ve uygun bir alternatif tedarikçi önerisiyle destekleriz; sözleşmeli olmanız bizim yapamayacağımız bir işi üstlenmemiz anlamına gelmez.",
+            },
+            {
+                soru: "Arazi tipi ünitenizle standart iş yaptırırsak bedel farklı mı oluyor?",
+                cevap:
+                    "Arazi tipi üniteler genellikle standart iç mekân platformlarına göre daha yüksek işletme maliyetine sahiptir (daha büyük lastik/palet sistemi, farklı bakım gereksinimi), bu yüzden bedel standart iç mekân tarifesinden farklı olabilir. Kesin rakamı keşif sonrası, işin zorluk derecesine göre veririz; genel bir sabit tarife üzerinden konuşmayız çünkü arazi işlerinde değişkenlik fazladır.",
+            },
+            {
+                soru: "Bu alanda size uygun bulmadığınız bir işi kime yönlendiriyorsunuz, güvenilir mi?",
+                cevap:
+                    "Yönlendirme yaptığımızda mümkün olduğunca bu alanda bilinen, arazi tipi donanıma sahip tedarikçileri öneririz; ancak nihai değerlendirmeyi ve sözleşmeyi doğrudan sizinle o tedarikçi kurar, biz aracı bir taahhüt vermeyiz. Amacımız sizi tamamen boşlukta bırakmamak, ama kendi filomuzun sınırını da net tutmaktır — bu ikisini birbirine karıştırmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu domainin mobilya/otomotiv yan sanayi odaklı uzun dönem sözleşme kimliği ve arazi tipi ekipmanın farklı bir uzmanlık alanı olduğu dürüstçe belirtilmiştir; filo kapsam sınırı ve yönlendirme pratiği firma uygulamasıdır. Fiyat rakamı ve tesis adı verilmemiştir.",
+    },
 };

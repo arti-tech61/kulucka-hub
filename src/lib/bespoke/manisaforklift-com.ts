@@ -810,4 +810,1087 @@ export const MANISAFORKLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Uşak sanayisinin tekstil ve iplik geleneği kamuya açık bilgidir; balya-rulo klemp kullanımı, lif birikimi kaynaklı ısınma-yangın riski ve şarj alanı havalandırma kuralları sektör standardıdır; parti geçişi planlaması ve akış ayrımı yaklaşımı firma pratiğimizdir. Herhangi bir tesis ismi veya sayısal veri kullanılmadı.",
     },
+
+    // ── HİZMET SAYFALARI (ağ genelinde paylaşılan slug seti) ──────────────
+    // Bu domainin açısı OPERASYON MÜKEMMELLİYETİ'dir (bkz. dosya başı notu).
+    // Kardeş domain izmirforkliftkiralama.net aynı hizmet slug setini SEÇİM
+    // açısından (tonaj/mast/lastik) işler; burada aynı slug'lar Manisa OSB'nin
+    // gerçek sektör karışımı ve günlük operasyon disiplini üzerinden, farklı
+    // cümle ve örneklerle ele alınır. Yazım: 2026-08-14.
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli Örümcek Platform: Manisa OSB'de Forklift Operasyonumuzun Yanında İkincil Bir Hizmet",
+        giris:
+            "manisaforklift.com'un işi, Manisa OSB'deki üretim ve depo sahalarında forklift operasyonunun günlük akışını kurmaktır — turlu besleme, vardiya devri, şarj penceresi, koridor trafiği. Sepetli örümcek platform (paletli ayaklarıyla zemine basan, dar kapı ve koridordan geçebilen kompakt personel yükseltici) bu işin bir parçası değildir ve bunu baştan açıkça söylüyoruz. Buna rağmen aynı sahada forklift filomuzu kullanan bir tesisten, o hafta içinde çıkan bambaşka bir ihtiyaç için — hat üstü bir aydınlatma armatürü değişimi, çatı altı bir sprinkler kontrolü, raf üstüne asılan bir tabela montajı gibi — personel yükseltme talebi gelebiliyor. Bu talebi forkliftle karşılamıyoruz; forklift çatalına platform bağlayıp insan yükseltmek hem mevzuata aykırıdır hem de operasyon disiplinimizle çelişir. Bunun yerine, sahada zaten çalıştığımız için, dar geçitlere uygun sepetli örümcek platformu münferit ve net tanımlı işler için ikincil hizmet olarak sunuyoruz; talep düzenli veya büyük hacimliyse müşteriyi bu alanda esas uzmanlığa sahip bir platform firmasına yönlendiriyoruz.",
+        maddeler: [
+            {
+                baslik: "Neden ikincil: filomuzun derinliği forklift operasyonundadır",
+                metin:
+                    "Ekibimizin günlük pratiği turlu besleme düzeni kurmak, vardiya devrini yönetmek, şarj penceresini planlamak ve koridor trafiğini forklift gözüyle düzenlemektir. Sepetli örümcek platform farklı bir bakım rejimi, farklı bir sertifikasyon ve farklı bir saha güvenlik protokolü ister. Bu makineyi ana hizmet gibi sunmak yerine, mevcut forklift müşterimizin sahasında o gün ortaya çıkan tek seferlik bir boşluğu kapatmayı tercih ediyoruz; büyük veya sürekli talepte doğrudan uzman firmaya yönlendirme yapıyoruz.",
+            },
+            {
+                baslik: "Manisa OSB'de bu talep hangi anda çıkıyor",
+                metin:
+                    "En sık görülen senaryo, forklift filomuzun bir üretim hattında turlu beslemeyle çalıştığı sırada aynı tesiste hat üstü aydınlatma değişimi veya çatı altı kısa bakım işinin gündeme gelmesidir. Bu iş forkliftin yapısal görevi değildir; forklift yük taşımak için tasarlanmıştır, insan yükseltmek için değil. Sepetli örümcek platformun paletli, katlanır ayakları, üretim hattının dar aralıklarına ve kapı ölçülerine forkliftten daha kolay uyar.",
+            },
+            {
+                baslik: "Forklift ile karıştırılmaması gereken ayrı bir ekipman sınıfı",
+                metin:
+                    "Forklift, karşı ağırlıkla dengelenen ve çatalları üzerinde yük taşıyan bir makinedir; personel taşımak için sertifikalandırılmamıştır. Sahada bazı ekiplerin çatal üzerine platform bağlayıp operatörü yükseltmesi hem yasal hem fiili risk taşır ve operasyon kurallarımızda kesinlikle yasaktır. Sepetli örümcek platform, sepeti insan taşımak üzere üretilmiş, kendi dengeleme ayaklarına sahip bağımsız bir makinedir; iki ihtiyaç varsa iki ayrı ekipman getirilir.",
+            },
+            {
+                baslik: "Kapsamı netleştirme: iş tanımı, zemin, yükseklik",
+                metin:
+                    "İkincil bir hizmet olduğu için talebi kabul etmeden önce çalışma yüksekliğini, zemin tipini (beton, epoksi, hassas kaplama) ve kapı-koridor ölçülerini soruyoruz. Kısa süreli, tek seferlik işlerde günlük kiralama yeterlidir; forklift operatörümüzün sahada olduğu saatlerle de koordine edilebilir. Operatör belgesi ve saha güvenlik kuralı, forklift işlerimizdeki kadar tavizsiz uygulanır.",
+            },
+            {
+                baslik: "Dürüst sınır: nerede devrediyoruz",
+                metin:
+                    "Ağır tonajlı, uzun süreli, dış cephe kapsamlı veya birden fazla makine gerektiren personel yükseltme işlerinde bu ikincil hizmeti sunmuyoruz; bu tür işler için esas uzmanlığı olan bir platform kiralama firmasıyla temas kurmanızı öneririz. Amacımız her talebi üstlenmek değil, forklift müşterimizin sahasındaki küçük ve net tanımlı bir boşluğu güvenle kapatmaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift ile sepetli örümcek platformun görev farkı",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki makine sınıfının Manisa OSB sahalarındaki farklı rolünü özetler; kesin seçim iş tanımı ve saha ölçümüyle yapılır.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Forklift (ana hizmetimiz)", "Sepetli örümcek platform (ikincil)"],
+                    satirlar: [
+                        ["Ana görevi", "Palet ve yük taşıma", "Personel yükseltme"],
+                        ["Dengeleme", "Karşı ağırlık", "Açılan paletli ayaklar"],
+                        ["Manisa OSB'deki kullanım sıklığı", "Günlük, ana operasyon", "Münferit, talebe bağlı"],
+                        ["Dar kapı/koridor geçişi", "Sınırlı, ölçüye bağlı", "Katlanır ayaklarla daha uygun"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı sahada, aynı hafta çıkan farklı ihtiyaçlar",
+                paragraflar: [
+                    "Manisa OSB'deki bir üretim tesisinde forklift filomuz hat kenarı beslemeyle uğraşırken, aynı hafta çatı altında bir aydınlatma armatürü değişmesi, sundurma altında bir sprinkler kontrolü veya raf üstüne bir tabela asılması gerekebilir. Bu işlerin ortak noktası forkliftin değil, insan taşımak üzere tasarlanmış bir makinenin gerekmesidir.",
+                    "Bu tür taleplerde sepetli örümcek platformun paletli ayakları, hassas kaplamalı zeminlerde koruma altlığıyla birlikte kullanılır ve iş bitince aynı gün sahadan çıkarılır; forklift operasyonumuz bu süreçten etkilenmez.",
+                ],
+            },
+            {
+                baslik: "Ne zaman uzman firmaya yönlendiriyoruz",
+                paragraflar: [
+                    "Talep haftalık tekrarlıyorsa, çalışma yüksekliği büyükse, dış cephe kapsamı varsa veya birden fazla makine gerekiyorsa bu işi kendi filomuzla değil, sepetli örümcek platform konusunda esas uzmanlığa sahip bir tedarikçiyle karşılıyoruz.",
+                    "Bu yönlendirme bir hizmet reddi değil, doğru işi doğru uzmana yönlendirme kararıdır — tıpkı forklift işinde de bir yükün bizim tonaj sınırımızın dışında kaldığını gördüğümüzde dürüstçe söylediğimiz gibi.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forkliftinize personel sepeti takıp bizi yükseltebilir misiniz?",
+                cevap:
+                    "Hayır ve bu konuda taviz vermiyoruz. Forklift çatalına personel platformu bağlayıp insan yükseltmek mevzuata aykırıdır ve ciddi düşme riski taşır; forklift bu amaç için sertifikalandırılmamıştır. Personel yükseltme ihtiyacınız varsa bunun için üretilmiş ayrı bir makine — sepetli örümcek platform gibi — kullanılmalıdır. Manisa OSB'deki her forklift müşterimize bu ayrım teslimat sırasında açıkça anlatılır ve saha brifingine yazılır.",
+            },
+            {
+                soru: "Bu makineyi hangi işlerde öneriyorsunuz?",
+                cevap:
+                    "Forklift filomuzun zaten sahada olduğu bir tesiste ortaya çıkan, dar kapı veya koridordan geçmesi gereken, kısa süreli ve net tanımlı iç mekân işlerinde: hat üstü aydınlatma, çatı altı kısa bakım, raf üstü küçük montaj gibi. Ağır, uzun süreli veya dış cephe kapsamlı işlerde bu makineyi ikincil hizmet olarak sunmuyoruz; sizi uzman bir tedarikçiyle buluşturuyoruz.",
+            },
+            {
+                soru: "Forklift olmadan, sadece sepetli platform kiralayabilir miyiz?",
+                cevap:
+                    "Değerlendirebiliriz ancak bu domainin esas uzmanlığı forklift operasyonu olduğu için sepetli örümcek platformu tek başına, düzenli veya büyük hacimli bir ihtiyaç için arıyorsanız bu alanda esas uzmanlığa sahip bir firmayla doğrudan çalışmanızı öneririz. Mevcut forklift sahamızla aynı tesiste çakışan, münferit talepleri biz de karşılayabiliriz.",
+            },
+            {
+                soru: "Operatör bizde mi olmalı, siz mi sağlıyorsunuz?",
+                cevap:
+                    "Sepetli örümcek platform da forklift gibi belgeli kullanım gerektirir; operatörünüz varsa ve geçerli belgeye sahipse yalnızca makine, yoksa operatörlü kiralama değerlendirilir. Belgesiz kullanım kabul edilmez; bu kuralı forklift operasyonumuzdaki disiplinin aynısıyla uyguluyoruz.",
+            },
+            {
+                soru: "Üretim hattımızın hassas zemininde iz bırakır mı?",
+                cevap:
+                    "Paletli ayaklar doğru koruma altlığı kullanılmadan hassas kaplamalı zeminlerde (epoksi, parke) iz veya baskı bırakabilir. Zemin tipi teslimat öncesi sorulur ve gerekiyorsa koruma plakası makineyle birlikte götürülür; bu kontrolü forklift işlerimizde zemin-rampa uyumunu doğrularken uyguladığımız disiplinle aynı titizlikte yapıyoruz.",
+            },
+            {
+                soru: "Aynı gün hem forklift hem sepetli platform çalışabilir mi?",
+                cevap:
+                    "Sahaya ve iş kapsamına göre değerlendirilebilir; ancak iki makinenin operatörü, sertifikasyonu ve saha kuralı farklıdır, aynı kişi ikisini birden aynı anda kullanamaz. Forklift filomuzun turlu programıyla çakışmayacak bir saat belirlenir; net iş tanımı paylaşıldığında hangi makinenin hangi görevi karşıladığı ayrı ayrı planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift ile personel yükseltme platformunun ayrı ekipman sınıfları olduğu ve forklife personel platformu bağlamanın mevzuata aykırı olduğu sektör standardı bilgidir. Bu domainin forklift odaklı olduğu ve sepetli platformu Manisa OSB sahalarında ikincil sunduğu bilgisi firma pratiğidir; tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Manisa OSB'de Forklift Sevkiyat ve Teslimat Lojistiği: Turu Aksatmadan Sahaya Girmek",
+        giris:
+            "Manisa OSB'de forklift teslimatının zorluğu genelde makinenin kendisinde değil, sahaya giriş anındadır: OSB'nin kendi trafik ve giriş-çıkış kuralları, tesisin vardiya değişim saati, yükleme rampasının o anki doluluğu ve hat kenarı besleme turunun devam ediyor olması, teslim planını tek başına belirleyen değişkenlerdir. Bir forkliftin OSB kapısından tesise, tesisten üretim sahasına ulaşması, taşıyıcı seçimi kadar zamanlama meselesidir — yanlış saatte gelen doğru makine bile o gün üretkenliğe geç başlar. Bu sayfa, manisaforklift.com'un teslimatı bir nakliye işi olarak değil, OSB'nin trafik ve vardiya düzenine oturan bir operasyon adımı olarak nasıl planladığını anlatır: OSB giriş-çıkış kayıt süreci, tesis içi teslim noktasının seçimi, mevcut filoyla devreye alma, teslim anındaki kontrol ve iade sürecinin aynı disiplinle işletilmesi.",
+        maddeler: [
+            {
+                baslik: "OSB giriş-çıkış kaydı teslimat saatinin ilk belirleyicisidir",
+                metin:
+                    "Manisa OSB'ye giren her ağır araç, bölge güvenlik ve giriş kayıt sürecinden geçer; plaka, sürücü ve yük bilgisi önceden bildirilmediğinde kapıda gecikme yaşanır. Teslimat planımız bu adımı baştan hesaba katar: taşıyıcı bilgisi, tesis adresi ve teslim saati OSB kurallarına göre önceden bildirilir, kapıda beklenmedik bir gecikme riski böylece en aza iner. Vardiya değişim saatine denk gelen teslimatlar, giriş yoğunluğu nedeniyle ayrıca planlanır.",
+            },
+            {
+                baslik: "Tesis içi teslim noktası, üretim akışına göre seçilir",
+                metin:
+                    "Forklift, OSB kapısından tesise girdikten sonra ikinci bir karar beklenir: makine doğrudan çalışacağı bölüme mi indirilecek, yoksa önce bir bekleme-hazırlama alanına mı alınacak. Üretim hattının o anki turlu besleme programı devam ediyorsa, yeni makinenin devreye girişi mevcut rotayı bozmayacak bir ara noktada planlanır. Bu karar, tesisin saha amiriyle teslimattan önce netleştirilir; sahada anlık karar verilmez.",
+            },
+            {
+                baslik: "Mevcut filoyla devreye alma: rota ve operatör eşleşmesi önceden yapılır",
+                metin:
+                    "Yeni gelen makinenin ilk saatinden üretken olması için rota ataması, operatör eşleşmesi ve şarj veya yakıt düzeni teslimattan önce hazır olmalıdır; aksi hâlde makinenin ilk günü kayıptır. Manisa OSB'deki çok vardiyalı tesislerde bu hazırlık, teslimatın hangi vardiyanın başına denk geleceğiyle birlikte planlanır — vardiya başında gelen makine, devir kontrol listesine de doğrudan dahil edilir.",
+            },
+            {
+                baslik: "Teslim anında yapılan kontrol ve devir kaydı",
+                metin:
+                    "Forklift sahaya ulaştığında yakıt veya akü seviyesi, görünür hasar, takılı ataşman ve saat sayacı birlikte kontrol edilir ve bu kayıt hem müşteri hem firma için referans oluşturur. Operatör tesiste ilk kez çalışacaksa kısa bir saha brifingi — yaya yolu, kesişim noktaları, şarj istasyonu konumu — bu sırada verilir. Kontrol tamamlanmadan makine teslim edilmiş sayılmaz.",
+            },
+            {
+                baslik: "İade süreci aynı disiplinle, sezon ve tempo değişimine göre planlanır",
+                metin:
+                    "Kiralama süresi bitince veya filo küçültülecekse iade planı, teslimattaki mantığın tersine işletilir: OSB çıkış kaydı, taşıyıcı temini ve tesis içi çıkış rotası yeniden doğrulanır. Makinenin son durumu teslimat anındaki kayıtla karşılaştırılır; fark varsa müşteriyle birlikte belgelenir. Üretim temposu düşen dönemde birden fazla makinenin aynı anda iade edilmesi gerekiyorsa, çıkışlar tesisin vardiya akışını bozmayacak şekilde sıraya konur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manisa OSB teslimatında zaman bloğu ve kritik kontrol",
+                paragraflar: [
+                    "Aşağıdaki tablo, tipik bir forklift teslimatının OSB içindeki aşamalarını ve her aşamada gözetilen kritik noktayı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Operasyon", "Kritik kontrol", "Sorumlu"],
+                    satirlar: [
+                        ["OSB kapı öncesi", "Plaka ve teslim bilgisinin bildirilmesi", "Vardiya değişim saatiyle çakışmama", "Nakliye ekibi"],
+                        ["Kapı girişi", "Güvenlik ve kayıt süreci", "Bekleme süresinin plana yansıması", "OSB güvenlik + nakliye"],
+                        ["Tesise ulaşım", "Teslim noktasının belirlenmesi", "Mevcut turlu rotayı bozmamak", "Saha amiri"],
+                        ["Devreye alma", "Rota, operatör, enerji planı ataması", "İlk saatten üretken olmak", "Operasyon ekibi"],
+                        ["Teslim kaydı", "Hasar-yakıt-sayaç kontrolü", "Yazılı devir kaydı", "Operatör + firma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çok vardiyalı tesislerde teslimat saatinin seçimi",
+                paragraflar: [
+                    "Manisa OSB'deki üretim tesislerinin çoğu çok vardiyalı çalışır ve teslimat saati, vardiya devrinin en yoğun dakikalarıyla çakıştığında hem forklift hem araç trafiği birbirini bekletir. Bu yüzden teslimat, mümkün olduğunda vardiya ortasına — devir telaşının bittiği, üretimin oturduğu pencereye — yerleştirilir.",
+                    "Gece vardiyasına denk gelen teslimatlarda saha aydınlatması ve güvenlik ekibinin o saatteki mevcudiyeti önceden teyit edilir; gündüz için doğal kabul edilen bir kontrol noktası, gece ayrıca planlanmayı gerektirir.",
+                ],
+            },
+            {
+                baslik: "Filo genişlerken teslimatın tekrarlanabilir hâle gelmesi",
+                paragraflar: [
+                    "Aynı tesise dönemsel olarak ek makine giriyorsa, ilk teslimatta kurulan giriş kaydı ve devreye alma şablonu bir sonraki sefer yeniden baştan kurulmaz; OSB giriş prosedürü, teslim noktası ve saha kuralı bilgisi kayıt altında tutulur ve sonraki teslimatlarda doğrudan uygulanır.",
+                    "Bu tekrarlanabilirlik, özellikle sezonluk veya proje bazlı ek makine ihtiyacında zaman kazandırır; tesisinizin teslim şablonunu bir kez birlikte kurduğumuzda sonraki makineler aynı günde devreye girer.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB kapısında teslimat gecikirse ne olur, bu bizim kayıp saatimiz mi olur?",
+                cevap:
+                    "Gecikme riskini en aza indirmek için taşıyıcı ve teslim bilgisini OSB kurallarına göre önceden bildiriyoruz; buna rağmen kapıda beklenmedik bir yoğunluk çıkarsa bu süre teslimat planına dahil edilmiş kabul edilir ve tesisinizin üretim programına yansıtılmaz — makine, planlanan teslim penceresi içinde devreye alınır. Sık tekrarlayan bir gecikme deseni görülürse teslim saatini birlikte gözden geçiririz.",
+            },
+            {
+                soru: "Yeni makine geldiğinde mevcut forklift turumuzu bozmadan nasıl devreye giriyor?",
+                cevap:
+                    "Yeni makinenin rotası, mevcut turlu besleme programı bozulmadan, saha amirinizle birlikte teslimattan önce çizilir; makine sahaya girer girmez kendi rotasında çalışmaya başlar, diğer makinelerin rotası yeniden düzenlenmez. Rota ataması teslimattan önce netleşmediyse makineyi geçici bir bekleme noktasında tutar, rota netleştikten sonra devreye alırız — böylece mevcut akış kesintisiz sürer.",
+            },
+            {
+                soru: "Gece vardiyasına teslimat yapabilir misiniz?",
+                cevap:
+                    "Yapabiliriz; gece teslimatında saha aydınlatmasının forklift rotaları üzerinde yeterli olduğu ve o saatte bir sorumlunun devir kontrolünü yapabileceği önceden teyit edilir. Gündüz teslimattaki bütün adımlar — kayıt, rota, devir listesi — gece için de aynen uygulanır; tek fark planlamanın bu koşulları önceden netleştirmesidir.",
+            },
+            {
+                soru: "Birden fazla tesisimiz Manisa OSB içinde; aynı gün farklı noktalara teslimat yapılabilir mi?",
+                cevap:
+                    "Evet, OSB içi kısa mesafeler bunu mümkün kılar. Her tesis için ayrı teslim noktası, ayrı devir kaydı ve ayrı rota ataması yapılır; tek bir gün planı içinde sıralanır. Tesisler arası mesafe ve her birinin vardiya saatine göre sıralama önceden çıkarılır, böylece hiçbir tesis diğerinin gecikmesinden etkilenmez.",
+            },
+            {
+                soru: "Teslim anında hangi kayıtlar tutuluyor, bir anlaşmazlık çıkarsa elimizde ne olur?",
+                cevap:
+                    "Yakıt veya akü seviyesi, görünür hasar, takılı ataşman ve saat sayacı teslim anında birlikte kontrol edilip yazılı kayda geçirilir; bu kayıt hem sizin hem bizim elimizde bulunur. İade sırasında aynı kayıt karşılaştırma referansı olur; olağan yıpranma ile kullanım hasarı bu sayede tartışmasız ayrılır.",
+            },
+            {
+                soru: "Filoyu küçültmemiz gerekiyor, birden fazla makineyi aynı anda iade edebilir miyiz?",
+                cevap:
+                    "Edebilirsiniz; ancak birden fazla makinenin aynı anda çıkışı OSB trafiğine ve tesisinizin vardiya akışına yansıyacağından çıkışları kısa aralıklarla sıraya koyarız. Hangi makinenin önce, hangisinin sonra çıkacağı, o an hâlâ hangi rotanın kritik olduğuna göre birlikte belirlenir; kritik rotanın makinesi en son iade edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa OSB'nin kayıt/güvenlik girişli çalışma düzeni ve çok vardiyalı üretim yoğunluğu kamuya açık bilgidir; devir kaydı, rota ataması ve vardiya uyumlu teslim saati planlaması firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Manisa OSB'de Forklift İstifleme Kiralama: Sektörünüzün Gerçek İşine Göre Doğru Sınıf",
+        giris:
+            "Manisa OSB tek tip bir üretim sahası değildir; beyaz eşya ve elektronik ağırlıklı fabrikaların yanında tekstil, gıda ve metal işleme tesisleri aynı bölgede yan yana çalışır ve her sektörün istifleme forkliftine yüklediği görev farklıdır. Beyaz eşya hattında forklift, kısa çevrim süreleriyle komponent besleyen ve hafif-orta tonajda sık sefer yapan bir makinedir; tekstilde balya ve bobin gibi standart olmayan yükler ataşman gerektirir; gıda ve tarım sanayinde hijyen ve nem koşulları makine tipini sınırlar; metal işlemede ağır ve uzun profil yükler yük merkezini öne kaydırır. Bu yüzden manisaforklift.com'da istifleme forkliftini seçerken sorduğumuz ilk soru kaç ton değil, hangi sektörün hangi ritmiyle çalışacağıdır — tonaj, mast tipi ve lastik seçimi bu ritme göre şekillenir. Bu sayfa, Manisa OSB'nin gerçek sektör karışımına göre istifleme forkliftinin nasıl seçildiğini ve operasyona nasıl entegre edildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Beyaz eşya ve elektronik hattı: kısa çevrim, sık sefer, hafif-orta tonaj",
+                metin:
+                    "Montaj bandını besleyen forklift işinde ölçü, tek seferde taşınan yükün ağırlığından çok, saat başına tamamlanan sefer sayısıdır. Bu profilde 1,5-3 ton bandındaki akülü veya LPG'li kompakt makineler, dar koridorlarda hızlı manevra ve düşük gürültü avantajıyla öne çıkar; kapasite ihtiyacı genelde düşüktür ama çevik sefer kapasitesi yüksek olmalıdır. Sideshift gibi hızlandırıcı ataşmanlar, hat kenarında paleti oynatmadan hizalamayı sağladığı için bu profilde sıkça tercih edilir.",
+            },
+            {
+                baslik: "Tekstil tesisleri: standart olmayan yük, ataşman zorunluluğu",
+                metin:
+                    "Balya, bobin ve rulo gibi standart palet formunda olmayan yükler, çıplak çatalla güvenli taşınamaz; balya klempi veya rulo klempi bu profilde temel donanımdır. Ataşmanın kendi ağırlığı net kapasiteyi düşürdüğü için makine seçimi, çıplak çatal tonajı değil ataşmanlı kombinasyonun yük diyagramı üzerinden yapılır. Lif ve toz ortamı, bakım aralığının standart takvimden kısaltılmasını da beraberinde getirir.",
+            },
+            {
+                baslik: "Gıda ve tarım sanayi: hijyen, nem ve emisyon sınırı makineyi belirler",
+                metin:
+                    "Gıda işleme ve depolama alanlarında egzozlu makinenin iç sahaya girmemesi hem çalışan sağlığı hem denetim gereğidir; akülü makineler bu profilde zorunlu hâle gelir. Nemli veya soğuk hava deposu koşullarında lastik ve hidrolik sistem seçimi ayrıca değerlendirilir; standart lastik nemli betonda erken aşınabilir. Dökme veya çuvallı ürün elleçlemesinde çatal pozisyonlayıcı, farklı palet ölçülerine hızlı uyum sağlar.",
+            },
+            {
+                baslik: "Metal işleme ve ağır sanayi: yük merkezi öne kayar, kapasite payı gerekir",
+                metin:
+                    "Uzun profil, sac paketi veya ağır döküm parça taşıyan işlerde yükün ağırlık merkezi standart 500 mm varsayımından öne kayar ve makinenin nominal kapasitesi bu kayma oranında düşer. Bu profilde makine seçimi, en ağır ve en uzun parçanın birlikte üretici yük diyagramına karşı kontrol edilmesiyle yapılır; diyagramın sınırında sürekli çalışmak yerine bir kademe pay bırakmak tercih edilir.",
+            },
+            {
+                baslik: "Koridor genişliği ve raf kotu, sektör fark etmeksizin ikinci filtredir",
+                metin:
+                    "Hangi sektörde olursa olsun, karşı ağırlıklı forkliftin yüklü palet dönüşü için ihtiyaç duyduğu koridor genişliği tonaja göre kabaca 3,5-4 metre bandındadır; bunun altındaki raf aralıklarında reach truck gibi kompakt sınıflar değerlendirilir, ancak bu makineler düzgün beton zemin ve kapalı alan gerektirir. Raf kotu ile forkliftin kapalı mast yüksekliği (depoya, kapıdan geçebilme ölçüsü) birlikte doğrulanmadan sınıf kararı verilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manisa OSB sektörlerine göre istifleme forklifti eşleşmesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Manisa OSB'nin bilinen sektör karışımına göre tipik istifleme profilini özetler; kesin seçim gerçek yük, koridor ve raf kotu ölçümüyle doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Sektör profili", "Tipik tonaj/sınıf", "Öne çıkan gereksinim", "Sık kullanılan ataşman"],
+                    satirlar: [
+                        ["Beyaz eşya / elektronik montaj", "1,5–3 ton akülü/LPG", "Kısa çevrim, sık sefer", "Sideshift"],
+                        ["Tekstil / iplik", "2–3,5 ton, klempli", "Standart olmayan yük", "Balya/rulo klempi"],
+                        ["Gıda / tarım sanayi", "1,5–3 ton akülü", "Emisyonsuz, hijyen", "Çatal pozisyonlayıcı"],
+                        ["Metal işleme / ağır sanayi", "3,5–7 ton dizel/LPG", "Yük merkezi payı", "Uzun çatal, sac klempi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yük diyagramını sektörün gerçek yüküyle okumak",
+                paragraflar: [
+                    "Yük diyagramı, forkliftin kabininde bulunan ve kaldırma yüksekliği ile yük merkezi mesafesine göre kalan kapasiteyi gösteren üretici tablosudur. Manisa OSB'deki her sektörün tipik yükü farklı bir noktada bu tabloyu zorlar — beyaz eşya kolisinde ağırlık düşük ama sefer sıklığı yüksektir, metal profilde ağırlık merkezi öne kaymıştır, tekstil balyasında ataşman ağırlığı devreye girer.",
+                    "Doğru okuma sırası şöyledir: önce yükün gerçek ağırlık merkezi ölçülür, ardından hedeflenen kaldırma yüksekliği belirlenir, son olarak bu iki değerin kesiştiği kapasite gerçek yükle karşılaştırılır. Ataşman takılıysa diyagram ataşmanlı kombinasyon için ayrıca okunur.",
+                ],
+            },
+            {
+                baslik: "Sektör değişse de sabit kalan operasyon kuralları",
+                paragraflar: [
+                    "Hangi sektörde çalışırsa çalışsın istifleme forkliftinin operatörü MYK mesleki yeterlilik belgesi veya MEB onaylı operatörlük belgesi taşımalıdır; belgesiz kullanım hem yasal hem fiili risk taşır. Yüksek rafa istif sırasında yük görüşü kapatıyorsa geri sürüş veya yardımcı yönlendirme tesisin trafik kuralına göre uygulanır.",
+                    "Koridorda yaya yolu ile forklift trafiği ayrılır, kesişimler işaretlenir, yük mümkün olduğunca alçak taşınır ve mast geriye yatık seyredilir. Bu kurallar sektör fark etmeksizin teslimatla birlikte verilen saha brifinginin omurgasını oluşturur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimiz beyaz eşya yan sanayiine üretim yapıyor; hangi tonaj forklifti önerirsiniz?",
+                cevap:
+                    "Bu profilde genellikle en kritik ölçü tonaj değil sefer sıklığıdır; hat kenarını çağrı üzerine değil turlu düzenle besleyen bir operasyonda 1,5-3 ton bandındaki akülü veya LPG'li kompakt makineler, dar koridorda hızlı manevra ve düşük operasyon maliyetiyle öne çıkar. Kesin sınıf, en ağır komponent paletinizin ağırlığı ve raf-koridor ölçünüzle netleşir; bu iki veriyi paylaşırsanız yük diyagramına göre uygun sınıfı öneririz.",
+            },
+            {
+                soru: "Tekstil tesisimizde balya taşırken standart forklift yeterli mi?",
+                cevap:
+                    "Çıplak çatal ile balya taşımak güvenli değildir; balya klempi bu iş için temel donanımdır ve klempin kendi ağırlığı makinenin net kapasitesini düşürür. Seçim, çıplak çatal tonajı yerine klempli kombinasyonun üretici yük diyagramına göre yapılır. Balyanızın tipik ağırlığını ve boyutunu paylaşırsanız uygun klemp ve makine kombinasyonunu birlikte belirleriz.",
+            },
+            {
+                soru: "Gıda deposunda dizel forklift kullanabilir miyiz?",
+                cevap:
+                    "Kapalı gıda işleme veya depolama alanında egzozlu makinenin çalışması hem çalışan sağlığı hem gıda güvenliği denetimleri açısından uygun değildir; akülü makineler bu alanlarda zorunlu hâle gelir. Açık sahada veya yükleme rampasında dizel makine değerlendirilebilir; iç ve dış saha görevleri net ayrıldığında iki makine tipi birlikte planlanır.",
+            },
+            {
+                soru: "Metal işleme atölyemizde uzun profil taşırken kapasite düşüyor mu?",
+                cevap:
+                    "Evet, yük ağırlık merkezi standart 500 mm mesafeden uzadıkça makinenin gerçek kaldırma kapasitesi etikette yazan rakamın altına düşer; bu düşüş yük diyagramında gösterilir. En uzun ve en ağır profilinizi birlikte kontrol edip diyagramın güvenli bölgesinde kalan sınıfı öneririz; sınırda sürekli çalışmak yerine bir kademe pay bırakılması tavsiye edilir.",
+            },
+            {
+                soru: "Dar koridorlu depomuzda reach truck mı, karşı ağırlıklı forklift mi çalışır?",
+                cevap:
+                    "Koridorun net genişliği belirleyicidir; 3,5-4 metre bandındaki tipik gereksinimin altındaki raf aralıklarında karşı ağırlıklı forklift genellikle sığmaz ve reach truck gibi kompakt bir sınıf değerlendirilir. Bu makinelerin düzgün beton zemin ve kapalı alan sınırı olduğunu unutmayın; açık sahada veya rampada karşı ağırlıklı makine gerekir. Manisa OSB'deki tesisinizde koridor ölçünüzü paylaşırsanız net cevabı birlikte çıkarırız.",
+            },
+            {
+                soru: "Farklı sektörlere hizmet veriyoruz, birden fazla forklift sınıfına mı ihtiyacımız var?",
+                cevap:
+                    "Sıkça karşılaştığımız bir durumdur; aynı tesiste hem hat kenarı besleme hem açık saha yükleme varsa tek makine sınıfı genelde ikisini birden iyi karşılamaz. Görev haritası çıkarılarak hangi işin hangi makineyle yapıldığı netleştirilir ve karma bir filo (örneğin iç sahada akülü kompakt, dış sahada dizel orta sınıf) önerilir. Sektör ve iş dağılımınızı paylaşın, filo kompozisyonunu birlikte kuralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa OSB'nin beyaz eşya-elektronik ağırlıklı ve tekstil-gıda-metal karma sanayi yapısı kamuya açık bilgidir; yük merkezi/yük diyagramı, koridor genişliği bandı ve emisyon kısıtı sektör standardı teknik bilgidir. Sektöre göre eşleştirme yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom Lift): Manisa OSB'de Forklift Filomuzun Yanında İkincil Hizmet",
+        giris:
+            "Eklemli platform (boom lift), sepetini hem yukarı hem yanlara doğru eklemli kolla uzatabilen, engel aşarak yükseğe erişen bir personel yükseltme makinesidir ve manisaforklift.com'un çekirdek işi değildir; çekirdek işimiz forkliftin Manisa OSB'deki günlük yük operasyonunu yönetmektir. Yine de forklift filomuzun çalıştığı bir tesiste, örneğin çatı altı bir çelik konstrüksiyon detayına veya bina cephesindeki bir bakım noktasına erişim gerektiğinde, aynı sahada bulunmamızdan dolayı bu talep bize de yöneltilebiliyor. Bu talebi forkliftle karşılamıyoruz — forklift engel aşan bir erişim makinesi değildir — ve boom lift ihtiyacını dürüstçe ikincil, münferit bir hizmet olarak ele alıyoruz; kapsam büyüdüğünde bu alanda esas uzmanlığı olan bir platform firmasına yönlendiriyoruz.",
+        maddeler: [
+            {
+                baslik: "Forklift ile boom lift farklı erişim problemini çözer",
+                metin:
+                    "Forklift, yükü zeminden alıp belirli bir yüksekliğe dikey taşıyan bir makinedir; boom lift ise sepetini hem dikey hem yatay yönde, engelleri aşarak hedefe ulaştırır. Çatı altındaki bir çelik kirişe veya bina cephesine forkliftin çatalıyla ulaşmak mümkün değildir; bu iki makinenin görevi kesişmez ve biri diğerinin yerine kullanılamaz.",
+            },
+            {
+                baslik: "Manisa OSB'de bu talep hangi işte çıkıyor",
+                metin:
+                    "En sık görülen durum, forklift filomuzun bir üretim veya depo genişletme sahasında çalıştığı sırada aynı tesiste çatı altı çelik konstrüksiyon bakımı, cephe aydınlatması veya boru hattı kontrolü gibi engel aşan bir erişim ihtiyacının ortaya çıkmasıdır. Bu iş forkliftin görevi değildir; eklemli kolun engelin üzerinden veya yanından dolaşarak hedefe ulaşması gerekir.",
+            },
+            {
+                baslik: "Kapsam netleştirme: çalışma yüksekliği ve engel profili",
+                metin:
+                    "Talebi değerlendirirken hedeflenen çalışma yüksekliğini, yatay erişim mesafesini ve saha içindeki engelleri (boru hattı, çelik kolon, mevcut ekipman) soruyoruz. Bu bilgiler netleşmeden makine önerilmez; boom lift seçimi engel profiline göre değişir ve yanlış sınıf hedefe ulaşamaz.",
+            },
+            {
+                baslik: "Operatör belgesi ve saha kuralı tavizsizdir",
+                metin:
+                    "Eklemli platform kullanımı belgeli operatör gerektirir; forklift operasyonumuzdaki disiplinin aynısını burada da uyguluyoruz. Belgesiz kullanım değerlendirilmez, operatörünüz yoksa operatörlü kiralama önerilir.",
+            },
+            {
+                baslik: "Dürüst sınır: büyük veya sürekli talepte yönlendirme",
+                metin:
+                    "Sürekli tekrarlayan, büyük ölçekli veya karmaşık cephe işlerinde bu ikincil hizmeti sunmuyoruz; bu tür işler için esas uzmanlığı olan bir eklemli platform firmasıyla temas kurmanızı öneririz. Amacımız forklift müşterimizin sahasındaki münferit bir ihtiyacı güvenle karşılamaktır, geniş bir platform filosu işletmek değil.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift ile eklemli platformun görev farkı",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki makinenin Manisa OSB sahalarındaki farklı rolünü özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Forklift (ana hizmetimiz)", "Eklemli platform (ikincil)"],
+                    satirlar: [
+                        ["Erişim yönü", "Dikey, doğrudan", "Dikey + yatay, engel aşarak"],
+                        ["Tipik iş", "Yük taşıma, istifleme", "Çatı altı/cephe bakım-montaj"],
+                        ["Manisa OSB'deki kullanım sıklığı", "Günlük, ana operasyon", "Münferit, talebe bağlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı sahada karşılaşılan tipik talepler",
+                paragraflar: [
+                    "Manisa OSB'de genişleyen bir üretim tesisinde forklift filomuz malzeme taşırken, aynı sahada çatı altı çelik konstrüksiyon bağlantı kontrolü veya bina cephesindeki aydınlatma bakımı gündeme gelebiliyor. Bu iki iş aynı anda, farklı makinelerle yürütülür ve birbirinin programını etkilemeden planlanır.",
+                    "Boom lift bu tür işlerde genellikle kısa süreli devreye girer; iş bitince sahadan çıkarılır ve forklift operasyonumuz kesintisiz sürer.",
+                ],
+            },
+            {
+                baslik: "Ne zaman uzman firmaya yönlendiriyoruz",
+                paragraflar: [
+                    "Çalışma yüksekliği büyükse, iş sürekli tekrarlıyorsa veya birden fazla makine gerekiyorsa bu işi kendi filomuzla değil, eklemli platform konusunda esas uzmanlığa sahip bir tedarikçiyle karşılıyoruz.",
+                    "Bu yönlendirme, doğru işi doğru uzmana teslim etme kararıdır; forklift operasyonumuzun odağını korumamızı da sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forkliftle çatı altına erişebilir miyiz, boom lift şart mı?",
+                cevap:
+                    "Forklift dikey ve doğrudan bir erişim makinesidir; çatı altındaki bir kirişe veya engelin arkasındaki bir noktaya çatalla ulaşmak mümkün değildir. Boom lift'in eklemli kolu, engeli aşarak veya yanından dolaşarak hedefe ulaşır; iki makine farklı fiziksel çözüm sunar ve forklift bu görevi yapamaz.",
+            },
+            {
+                soru: "Bu makineyi hangi işlerde öneriyorsunuz?",
+                cevap:
+                    "Forklift filomuzun zaten sahada olduğu bir tesiste ortaya çıkan, engel aşarak yükseğe erişim gerektiren kısa süreli işlerde: çatı altı çelik konstrüksiyon kontrolü, cephe bakımı gibi. Sürekli tekrarlayan veya büyük ölçekli işlerde bu makineyi ikincil hizmet olarak sunmuyoruz.",
+            },
+            {
+                soru: "Operatör bizde mi olmalı?",
+                cevap:
+                    "Eklemli platform belgeli operatör gerektirir; operatörünüz varsa ve belgesi geçerliyse yalnızca makine, yoksa operatörlü kiralama değerlendirilir. Bu kural forklift işlerimizdeki disiplinle aynıdır ve taviz verilmez.",
+            },
+            {
+                soru: "Manisa OSB dışına da bu makineyi taşıyor musunuz?",
+                cevap:
+                    "İkincil bir hizmet olduğu için önceliğimiz forklift filomuzun zaten çalıştığı Manisa OSB sahalarıdır; bölge dışı ve büyük ölçekli talepleri esas uzmanlığı boom lift olan firmalara yönlendiriyoruz.",
+            },
+            {
+                soru: "Çalışma yüksekliğimiz büyük, siz karşılayabilir misiniz?",
+                cevap:
+                    "Büyük çalışma yüksekliği ve karmaşık cephe kapsamı, bu ikincil hizmetin dışında kalır; bu tür işler için doğrudan uzman bir eklemli platform firmasıyla temas kurmanızı öneririz. Talebinizi net iş tanımıyla paylaşırsanız kapsamın bizim sınırımızda olup olmadığını dürüstçe söyleriz.",
+            },
+            {
+                soru: "Aynı gün hem forklift hem boom lift çalışabilir mi?",
+                cevap:
+                    "Sahaya ve iş kapsamına göre değerlendirilebilir; iki makinenin operatörü ve saha kuralı farklıdır. Forklift filomuzun mevcut turlu programıyla çakışmayacak bir saat belirlenir ve net iş tanımıyla iki görev ayrı ayrı planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun engel aşan erişim makinesi olduğu ve forkliften farklı bir görev üstlendiği sektör standardı bilgidir. Bu domainin forklift odaklı olduğu ve boom lift'i Manisa OSB sahalarında ikincil sunduğu bilgisi firma pratiğidir; tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Manisa OSB'de İç Mekân Depo Forklift Operasyonu: Emisyonsuz ve Dar Koridor Disiplini",
+        giris:
+            "Manisa OSB'deki kapalı depo ve üretim sahalarında forklift operasyonu, açık sahadakinden farklı bir disiplin ister: makine emisyon üretmemeli, koridor genişliğine uygun boyutta olmalı, raf teması riskini taşımamalı ve zemin izini bırakmamalıdır. Bu dört koşul birlikte, iç mekân forklift işini yalnızca kaç ton sorusuna değil, hangi enerji tipi, hangi lastik ve hangi koridor genişliği sorularına indirger. Kapalı bir depoda dizel makinenin egzoz gazı biriktiği için akülü veya LPG'li (kapalı alanda düşük emisyonlu versiyon) makineler tercih edilir; koridor genişliği, karşı ağırlıklı forkliftin mi yoksa reach truck gibi kompakt bir sınıfın mı gerektiğini belirler. Bu sayfa, Manisa OSB'deki kapalı depo ve üretim sahalarında forklift operasyonunun kurulum ilkelerini ele alır: enerji tipi seçimi, koridor-raf uyumu, zemin ve lastik ilişkisi, iç mekân trafik düzeni ve raf hasarı önleme.",
+        maddeler: [
+            {
+                baslik: "Kapalı alanda enerji tipi tercih değil zorunluluktur",
+                metin:
+                    "Dizel makinenin egzoz gazı kapalı hacimde biriktiği için havalandırması sınırlı depolarda bu makine tipi kullanılmaz; akülü forklift bu alanların standart çözümüdür. Sürekli vardiya çalışan tesislerde LPG'li makineler de değerlendirilebilir ancak kapalı alan emisyon sınırlarına uygun modelin seçilmesi gerekir. Enerji tipi kararı, depo hacminin havalandırma kapasitesiyle birlikte verilir.",
+            },
+            {
+                baslik: "Koridor genişliği, makine ailesini belirleyen ilk filtredir",
+                metin:
+                    "Karşı ağırlıklı forkliftin yüklü palet dönüşü için ihtiyaç duyduğu koridor genişliği tonaja göre kabaca 3,5-4 metre bandındadır. Manisa OSB'deki yoğun raflı depolarda bu genişlik bulunmayabilir; bu durumda reach truck gibi mastını ileri-geri kaydıran, 2,7-3 metre koridorda çalışabilen kompakt sınıf değerlendirilir. Bu makineler düzgün beton zemin ister; rampalı veya bozuk sahada karşı ağırlıklının yerini tutmaz.",
+            },
+            {
+                baslik: "Zemin ve lastik ilişkisi: iz bırakmayan tip iç mekânın standardıdır",
+                metin:
+                    "Depo zeminleri genellikle epoksi kaplı veya perdahlı betondur; standart siyah dolgu lastik bu yüzeylerde iz bırakabilir. İç mekân işlerinde beyaz dolgu (iz bırakmayan) lastikli modeller tercih edilir ve bu tercih, zemin bakım maliyetini uzun vadede düşürür. Dolgu lastik ayrıca patlamaya karşı dayanıklı olduğu için raf koridorlarındaki keskin dönüşlerde ek bir güvenlik payı sağlar.",
+            },
+            {
+                baslik: "İç mekân trafik düzeni: yaya ve forklift ayrımı depoda daha dardır",
+                metin:
+                    "Açık sahaya göre daha dar koridorlarda çalışıldığı için iç mekânda yaya-forklift kesişimleri daha sık gerçekleşir. Kesişim noktalarına zemin ışığı ve duruş çizgisi konulur, kör raf köşelerine tavan aynası eklenir ve forkliftin yol önceliği yazılı kurala bağlanır. Depo içinde hız sınırı açık sahaya göre daha düşük tutulur; dar koridorda hız kaybının kazandırdığı süre, olası bir raf çarpmasının maliyetinin yanında önemsizdir.",
+            },
+            {
+                baslik: "Raf hasarı önleme: dar koridorun en sık görülen kayıp kalemi",
+                metin:
+                    "Kapalı depoda en sık tekrarlayan hasar, forkliftin dönüş sırasında raf ayağına veya palet kenarına teması ile oluşur. Bu riski düşüren üç önlem vardır: koridor girişlerine hız kesici işaret, raf ayaklarına koruma bariyeri ve sık hasar görülen koridorlarda operatör rotasyonunun gözden geçirilmesi. Hasar kaydının yer-neden bazında tutulması, hangi koridorun tekrar eden bir tasarım sorunu taşıdığını gösterir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân depo forklift seçim tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, Manisa OSB'deki kapalı depo tiplerine göre tipik forklift ve lastik eşleşmesini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Depo tipi", "Enerji tipi", "Sınıf", "Lastik"],
+                    satirlar: [
+                        ["Geniş koridor, düz beton", "Akülü / LPG", "Karşı ağırlıklı", "Beyaz dolgu (iz bırakmayan)"],
+                        ["Dar koridor, yüksek raf", "Akülü", "Reach truck", "Dolgu, düz zeminle sınırlı"],
+                        ["Soğuk hava deposu", "Akülü (özel yalıtımlı)", "Kompakt karşı ağırlıklı", "Dolgu"],
+                        ["Karma iç-dış görev", "Akülü + dizel (görev ayrımı)", "İki ayrı sınıf", "Görev tipine göre değişir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Depo içi turlu besleme ile raf koridorunun birlikte çalışması",
+                paragraflar: [
+                    "İç mekân depoda forklift operasyonu iki katmanlıdır: raf koridorunda toplama-yerleştirme hareketi ve depo genelinde hat kenarına veya sevkiyata besleme hareketi. Bu iki katman farklı makine profilleri gerektirebilir; koridor içi görev kompakt bir sınıfa, genel besleme daha standart bir sınıfa uygun düşer.",
+                    "İki katmanın aktarma noktası — koridor çıkışı ile ana yol kesişimi — net tanımlanmazsa iki makine burada birbirini bekletir; bu noktaya tampon alan ayrılması, bekleme süresini belirgin azaltır.",
+                ],
+            },
+            {
+                baslik: "İç mekân bakım rutini, dış sahadan farklıdır",
+                paragraflar: [
+                    "Kapalı depoda toz ve çamur dış sahadaki kadar yoğun değildir ancak akü bakımı ve lastik kontrolü öne çıkar; akülü filoda su seviyesi ve terminal temizliği düzenli kontrol edilir, iz bırakmayan lastiğin aşınma durumu zemin görünümüyle birlikte takip edilir.",
+                    "Depo içi hidrolik sistemin sızıntı kontrolü de ayrı önemlidir; zemine damlayan hidrolik yağ hem kayma riski hem temizlik gideri yaratır ve fark edildiğinde bekletilmeden müdahale edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzda dizel forklift kullanabilir miyiz, havalandırma yeterli görünüyor?",
+                cevap:
+                    "Havalandırma kapasitesi ne olursa olsun kapalı depoda dizel makine önerilmez; egzoz gazı birikimi çalışan sağlığı açısından risklidir. Akülü veya kapalı alan emisyon sınırlarına uygun LPG'li modeller değerlendirilir. Depo hacminizi ve vardiya süresini paylaşırsanız enerji tipini ve akü kapasitesini birlikte netleştiririz.",
+            },
+            {
+                soru: "Koridor genişliğimiz standarttan dar, ne yapmalıyız?",
+                cevap:
+                    "Koridorun net genişliği 3,5-4 metre bandının altındaysa karşı ağırlıklı forklift genellikle sığmaz; reach truck gibi kompakt bir sınıf değerlendirilir. Bu makinelerin düzgün beton zemin ve kapalı alan sınırı olduğunu unutmayın. Koridor ölçünüzü ve raf kotunuzu paylaşırsanız net sınıf önerisini birlikte çıkarırız.",
+            },
+            {
+                soru: "Zeminimizde forklift lastiği iz bırakıyor, ne değiştirmeliyiz?",
+                cevap:
+                    "İz bırakan siyah dolgu lastik yerine beyaz dolgu (iz bırakmayan) lastikli modele geçiş genellikle sorunu çözer. Zeminin epoksi veya perdahlı beton olması bu tercihte belirleyicidir; mevcut makinenizin lastik tipini kontrol edip uygun modeli birlikte belirleriz.",
+            },
+            {
+                soru: "Raf hasarı sık tekrarlıyor, koridoru mu genişletmeliyiz?",
+                cevap:
+                    "Genişletme son çaredir; önce hasar kaydını yer-neden bazında inceleyin — aynı koridorda mı tekrarlıyor, yoksa dağınık mı? Aynı koridorda tekrarlıyorsa hız kesici işaret, raf koruma bariyeri ve operatör rotasyonu genellikle yeterlidir. Dağınıksa kullanım tekniği sorunudur ve tazeleme eğitimiyle çözülür. Hasar kaydınızı paylaşırsanız kök nedeni birlikte ayırt ederiz.",
+            },
+            {
+                soru: "Soğuk hava deposunda forklift kullanımı farklı mı?",
+                cevap:
+                    "Evet, düşük sıcaklık akü performansını ve hidrolik sistemi etkiler; bu ortamlar için özel yalıtımlı akülü modeller ve düşük sıcaklığa uygun hidrolik yağ tercih edilir. Lastik sertliği de soğukta değişebileceğinden bu ortama uygun modeller ayrıca değerlendirilir. Soğuk hava deposu sıcaklığınızı ve çalışma süresini paylaşırsanız uygun makineyi birlikte belirleriz.",
+            },
+            {
+                soru: "Depo içi ve dış saha işini aynı makineyle yapabilir miyiz?",
+                cevap:
+                    "Mümkündür ancak verimli değildir; iç mekân makinesi genelde iz bırakmayan lastik ve emisyonsuz enerjiyle sınırlıdır, dış saha ise farklı zemin ve hava koşulu gerektirir. Görev hacmi büyükse iki ayrı makineyle görev ayrımı, tek makineyle her iki işi de zorlamaktan daha verimli sonuç verir. İş dağılımınızı paylaşın, karma filo ihtiyacını birlikte değerlendirelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı alanda dizel emisyon kısıtı, koridor genişliği bandı (3,5-4 m karşı ağırlıklı / 2,7-3 m reach truck) ve iz bırakmayan lastik uygulaması sektör standardı forklift teknik bilgisidir. Raf hasarı yer-neden analizi firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Manisa OSB'de Çelik Konstrüksiyon Sahasında Forklift: Malzeme Taşımanın Montaj Temposuna Uyumu",
+        giris:
+            "Manisa OSB'de yeni bir üretim hattı veya depo genişletmesi kurulurken, çelik konstrüksiyon montajının hızını çoğu zaman montaj ekibinden çok malzemenin sahaya nasıl ve ne zamanda ulaştığı belirler. Forklift bu sahalarda montaj yapan makine değildir — kirişi kaldırıp yerine oturtan vinç veya mobil kren farklı bir ekipmandır — ancak profil, bulon kutusu, kaynak malzemesi ve panel gibi montaj öncesi ve montaj sırası malzemenin şantiye sahasında doğru noktaya, doğru zamanda taşınmasında forkliftin rolü kritiktir. Kötü planlanmış bir malzeme lojistiği, montaj ekibinin elinde profil beklerken forkliftin sahanın öbür ucunda başka bir yükle uğraşmasına yol açar ve bu bekleme, montaj takviminin en görünmez kaybıdır. Bu sayfa, Manisa OSB'deki çelik konstrüksiyon şantiyelerinde forklift operasyonunun montaj temposuna nasıl uyarlandığını anlatır: malzeme akış planı, sahanın henüz sağlamlaşmamış zemini, vinç-forklift görev ayrımı, İSG önlemleri ve montaj aşamalarına göre filo değişimi.",
+        maddeler: [
+            {
+                baslik: "Malzeme akışı montaj sırasına göre planlanır, depoya göre değil",
+                metin:
+                    "Şantiyeye gelen çelik profil, bulon ve panel yığınları, montaj ekibinin işleyeceği sıraya göre değil genelde teslim sırasına göre boşaltılır ve bu, forkliftin aranan malzemeyi bulmak için sahada tur atmasına yol açar. Verimli düzen tersine çalışır: montaj sırası önceden bilinir, malzeme bu sıraya göre bölgelenir ve forklift, montaj ekibinin bir sonraki ihtiyacını önceden sahaya yaklaştırır. Bu düzen, aynı forklift sayısıyla montaj hızını belirgin artırır.",
+            },
+            {
+                baslik: "Henüz sağlamlaşmamış zemin, forklift rotasını sınırlar",
+                metin:
+                    "Yeni bir çelik konstrüksiyon sahası genelde henüz kaplanmamış, sıkıştırılmamış veya kısmen dolgulu bir zemine sahiptir; forkliftin bu zeminde saplanma veya yana yatma riski, tamamlanmış bir depo zeminindekinden yüksektir. Operasyon planı bu yüzden önce güvenli rotayı belirler — geçici plaka, kalas destek veya sıkıştırılmış şerit — ve forklift yalnızca bu rotalar üzerinde çalışır. Rota dışına çıkma ihtiyacı doğarsa önce zemin kontrolü yapılır.",
+            },
+            {
+                baslik: "Vinç ve forklift görev ayrımı: biri kaldırır, biri besler",
+                metin:
+                    "Kirişin veya ağır çelik elemanın nihai konumuna kaldırılması vinç ya da mobil krenin işidir; forklift bu ağırlıkta ve bu hassasiyette bir kaldırmayı üstlenmez. Forkliftin görevi, vincin çalışma alanına girmeden, montaj ekibinin ihtiyaç duyduğu daha küçük ve hafif malzemeyi (bulon kutusu, kaynak teli, küçük profil) sahaya taşımaktır. İki makinenin çalışma alanı net ayrılmazsa vincin sallanan yükü ile forkliftin rotası kesişebilir; bu kesişim şantiyenin en ciddi risklerinden biridir.",
+            },
+            {
+                baslik: "Şantiye İSG'si forklift rotasını da kapsar",
+                metin:
+                    "Çelik konstrüksiyon şantiyesinde forklift rotası, vinç çalışma alanının dışından, montaj ekibinin baş üstü çalışma bölgesinden uzak ve yürüyüş yollarından ayrı çizilir. Baret ve yelek forklift operatörü için de zorunludur; şantiye kuralına uyulmadan forklift sahaya sokulmaz. Rüzgârlı günlerde askıda malzeme taşınan vinç operasyonu durduğunda forklift rotası da geçici olarak gözden geçirilir, çünkü sahadaki genel hareket düzeni değişmiştir.",
+            },
+            {
+                baslik: "Montaj aşaması ilerledikçe forklift ihtiyacı değişir",
+                metin:
+                    "Şantiyenin ilk haftalarında forklift işi ağırlıklı olarak malzeme boşaltma ve bölgeleme iken, montaj ilerledikçe iş hat kenarı besleme hâlini alır ve son aşamada iç mekân donanım (raf, aydınlatma altyapısı) taşımasına döner. Bu üç aşamanın ihtiyacı farklıdır; filo büyüklüğü ve makine sınıfı sabit tutulmak yerine aşamaya göre gözden geçirilir. Kiralık filoda bu geçiş, aşama başına makine sayısının ayarlanmasıyla esnek yönetilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon şantiyesinde aşama bazlı forklift ihtiyacı",
+                paragraflar: [
+                    "Aşağıdaki tablo, tipik bir çelik konstrüksiyon şantiyesinin aşamalarına göre forklift işini ve kritik noktayı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Forklift işi", "Zemin durumu", "Kritik nokta"],
+                    satirlar: [
+                        ["Malzeme girişi", "Boşaltma, bölgeleme", "Henüz sağlamlaşmamış", "Güvenli rota belirleme"],
+                        ["Montaj başlangıcı", "Bulon/panel besleme", "Kısmen stabilize", "Vinç alanından uzak rota"],
+                        ["Montaj tepe dönemi", "Sürekli hat kenarı besleme", "Stabilize", "Montaj sırasına göre bölgeleme"],
+                        ["Kapanış", "İç donanım taşıma", "Tamamlanmış zemin", "Depo moduna geçiş"],
+                    ],
+                },
+            },
+            {
+                baslik: "Vinç çalışma alanı ile forklift rotasının kesişmemesi",
+                paragraflar: [
+                    "Vincin askıda taşıdığı yük, rüzgâr veya manevra nedeniyle beklenmedik yönde sallanabilir; bu yüzden vinç çalışma alanı sahada net çizgiyle işaretlenir ve forklift rotası bu alanın dışından geçirilir. İki makinenin aynı anda aynı bölgede çalışması gerekiyorsa iş sırası önceden koordine edilir — vinç kaldırma yaparken forklift o bölgede beklemez, alanı boşaltır.",
+                    "Bu koordinasyon, şantiye şefinin günlük iş programında yazılı yer alır; sözlü anlaşmaya bırakılmaz çünkü şantiye şantiyeden şantiyeye farklı ekiplerle çalışabilir.",
+                ],
+            },
+            {
+                baslik: "Kiralık filonun şantiye temposuna göre esnetilmesi",
+                paragraflar: [
+                    "Çelik konstrüksiyon şantiyeleri haftalar içinde iş yoğunluğu değişen, doğrusal olmayan bir tempoyla ilerler; malzeme girişinin yoğun olduğu hafta ile montajın sakin ilerlediği hafta aynı forklift sayısını gerektirmez. Kiralık filo bu dalgalanmaya, haftalık gözden geçirmeyle ek makine ekleyip çıkararak uyum sağlar.",
+                    "Şantiye takviminiz netleştiğinde forklift ihtiyacını aşama aşama birlikte planlarız; böylece ne boşta duran makineye ödeme yapılır ne de montaj ekibi malzeme beklemek zorunda kalır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forkliftle çelik profili montaj noktasına kaldırabilir misiniz?",
+                cevap:
+                    "Kirişin veya ağır çelik elemanın nihai montaj konumuna kaldırılması vinç veya mobil krenin işidir; forklift bu hassasiyette ve yükseklikte bir kaldırmayı üstlenmez. Forkliftin görevi, montaj ekibinin ihtiyaç duyduğu daha küçük ve hafif malzemeyi sahaya taşımaktır. İki makinenin görevini karıştırmamak, şantiyenin en temel güvenlik kurallarından biridir.",
+            },
+            {
+                soru: "Şantiye zeminimiz henüz sağlamlaşmadı, forklift çalışabilir mi?",
+                cevap:
+                    "Çalışabilir ancak önce güvenli bir rota belirlenmesi gerekir; geçici plaka veya kalas destekle sağlamlaştırılmış bir şerit üzerinde forklift hareket eder ve bu rotanın dışına çıkılmaz. Zeminin tamamı sağlamlaşana kadar makinenin hareket alanı bilinçli olarak sınırlı tutulur; bu kısıtlama montajı yavaşlatmaz, sadece rotayı netleştirir.",
+            },
+            {
+                soru: "Vinç ile forklift aynı anda aynı bölgede çalışabilir mi?",
+                cevap:
+                    "Önerilmez. Vincin askıda taşıdığı yük beklenmedik yönde sallanabilir; forklift rotası vinç çalışma alanının dışından geçirilir. İkisinin aynı bölgede iş yapması gerekiyorsa sıra önceden koordine edilir — biri çalışırken diğeri o bölgeden uzaklaşır. Bu koordinasyon şantiye şefinin günlük programında yazılı olmalıdır.",
+            },
+            {
+                soru: "Montaj hızlandıkça forklift sayımızı artırmalı mıyız?",
+                cevap:
+                    "Genelde evet, ama önce iş yükünü ölçün: montaj tepe döneminde hat kenarı besleme sürekli hâle gelir ve tek makine yetişemeyebilir. Ek makine kararını, montaj ekibinin malzeme beklediği dakikaları bir haftalık gözlemle kaydedip vermek, tahminden daha güvenilirdir. Şantiye takviminizi paylaşırsanız aşama bazlı filo planını birlikte çıkarırız.",
+            },
+            {
+                soru: "Rüzgârlı günlerde forklift operasyonu nasıl etkilenir?",
+                cevap:
+                    "Rüzgârlı günlerde vinç operasyonu genellikle durur veya yavaşlar; bu durumda sahadaki genel hareket düzeni değişir ve forklift rotası da geçici olarak gözden geçirilir. Askıda malzeme taşınmadığı için forklift bazı bölgelere normalde giremediği saatlerde girebilir, ancak bu geçici düzenleme şantiye şefiyle teyit edilmeden uygulanmaz.",
+            },
+            {
+                soru: "Şantiye bitince forklift filosu nasıl kapanıyor?",
+                cevap:
+                    "Montajın son aşamasında forklift işi iç donanım taşımasına döner ve iş hacmi küçülür; filo bu aşamada kademeli olarak azaltılır. İade tarihleri şantiye takviminin kapanış planıyla birlikte belirlenir ve son makinenin iadesi, tesisin depo moduna geçiş tarihiyle eşleştirilir; böylece boşta bekleyen makineye ödeme yapılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon şantiyesinde vinç ile forkliftin görev ayrımı ve şantiye İSG kuralları sektör standardıdır. Malzeme akış bölgelemesi ve aşama bazlı filo esnetme yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Manisa'nın Tarım ve Gıda Sanayiinde Forklift: Silo, Çuval ve Palet Elleçlemenin Kuralları",
+        giris:
+            "Manisa, bağcılık, kiraz ve tütün gibi tarımsal üretimin yanı sıra bu üretimi işleyen gıda ve tarım sanayii tesisleriyle de tanınan bir ildir; Manisa OSB'deki gıda işleme, kurutmalık meyve, un-yem ve benzeri tesislerde forklift operasyonu, standart depo işinden birkaç noktada ayrılır. Dökme veya çuvallı ürün hem hacimli hem değişken ağırlıklıdır ve silo-depo çevresindeki toz, forkliftin bakım ritmini etkiler; hijyen kuralı iç mekân makinesini sınırlar ve hasat sonrası dönemlerde işleme hacmi kısa süreliğine sıçrar. Bu sayfa, Manisa'nın tarım-gıda sanayii ekosisteminde forklift operasyonunun bu dört gerçek üzerinden nasıl kurulduğunu anlatır: çuval ve big-bag elleçleme, silo çevresi toz-bakım ilişkisi, hijyen kısıtlı iç mekân kullanımı ve hasat sonrası işleme dönemlerinde filo esnetmesi.",
+        maddeler: [
+            {
+                baslik: "Çuval ve big-bag yükleri: standart palet gibi davranmaz",
+                metin:
+                    "Un, yem veya kurutulmuş ürün çuvalları ile büyük hacimli big-bag'ler, standart kutu paletten farklı bir denge sorunu taşır; çuval istifi kaymaya, big-bag ise taşıma sırasında sallanmaya eğilimlidir. Operasyon kuralı, çuval istifinin çapraz bağlama düzeniyle yapılması ve big-bag taşımasında askı kancası veya uygun ataşmanın kullanılmasıdır; çıplak çatalla askısız big-bag taşımak, düşme riskini artırır. Yük merkezi bu ürün ailesinde standart paletten farklı hesaplanır ve makine kapasitesi buna göre kontrol edilir.",
+            },
+            {
+                baslik: "Silo ve un tozu ortamı: forklift bakımı yangın önlemidir",
+                metin:
+                    "Un veya yem tozu, havada asılı kaldığında ve belirli yoğunluğa ulaştığında patlama riski taşıyan bir ortam yaratabilir; bu yüzden silo çevresinde çalışan forkliftin elektrik aksamı ve motor bölmesi düzenli temizlenir, toz birikimine izin verilmez. Bakım aralığı standart takvimden kısaltılır ve tesisin toz patlaması önleme planında forklift rotaları ve bakım noktaları ayrıca yer alır. Bu, tekstil sahalarındaki lif birikimi önlemine benzer ama un-yem tozunun kendine özgü patlayıcılık sınırı ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Hijyen kısıtlı gıda işleme alanında iç mekân makinesi",
+                metin:
+                    "Gıda işleme hattının kapalı bölümünde forklift, hem emisyonsuz hem hijyen kurallarına uygun olmalıdır; akülü makineler bu profilde zorunludur ve makine gövdesi, gıda güvenliği denetiminin gerektirdiği temizlik standardına uygun tutulur. Hidrolik kaçak kontrolü günlük yapılır çünkü sızan yağ, gıda alanında kabul edilemez bir kontaminasyon riskidir. İç ve dış saha makineleri net ayrılır; dış sahanın tozlu-dizel makinesi hijyenik iç alana girmez.",
+            },
+            {
+                baslik: "Depolama sahasında yığın istifi ve dönüş takibi",
+                metin:
+                    "Kurutulmuş ürün veya ambalajlı mamul depolandığında, adres düzeni olmayan bir sahada belirli bir partinin bulunması vakit alır ve bu, sevkiyat gününde forkliftin arama yaparak zaman kaybetmesine yol açar. Saha bloklara ayrılır, her partinin girişi kayda geçer ve son giren-ilk çıkan (FIFO) mantığı gıda ürünlerinde raf ömrü açısından özellikle önemlidir; adres düzeni bu mantığın uygulanmasını da kolaylaştırır.",
+            },
+            {
+                baslik: "Hasat sonrası işleme dönemi: kısa süreli hacim sıçraması",
+                metin:
+                    "Manisa'nın tarımsal takvimine bağlı işleme tesislerinde hasat sonrası haftalar, yılın geri kalanına göre belirgin yüksek hacimle geçer; hammadde girişi ve mamul çıkışı aynı anda yoğunlaşır. Bu dönemde forklift ihtiyacı geçici olarak artar ve operasyon planı, sezon öncesinden ek makine rezervasyonu ve saha bölgelemesiyle bu sıçramaya hazırlanır. Sezon bittiğinde filo, düzenli depo moduna planlı şekilde döner.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım-gıda sanayiinde yük tipine göre elleçleme",
+                paragraflar: [
+                    "Aşağıdaki tablo, Manisa'nın tarım-gıda sanayii tesislerinde sık karşılaşılan yük tiplerini ve elleçleme kuralını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yük tipi", "Donanım", "Kritik operasyon kuralı"],
+                    satirlar: [
+                        ["Un/yem çuvalı", "Çatal, çapraz istif", "Kaymaya karşı bağlama düzeni"],
+                        ["Big-bag", "Askı kancası/ataşman", "Askısız taşıma yapılmaz"],
+                        ["Ambalajlı kurutulmuş ürün", "Çatal", "Adres düzeni, FIFO takibi"],
+                        ["Dökme ürün paleti", "Çatal, palet altı destek", "Yük merkezi kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Toz patlaması riski ve forklift bakım sıklığı",
+                paragraflar: [
+                    "Un ve yem üretimi yapılan tesislerde havada asılı toz belirli koşullarda patlama riski taşır; bu risk yalnızca üretim ekipmanını değil, sahada çalışan forkliftin elektrik aksamını da ilgilendirir. Motor bölmesi ve elektrik bağlantılarındaki toz birikimi düzenli temizlenir, bakım aralığı standart takvimden kısaltılır.",
+                    "Tesisin toz patlaması önleme planı hazırlanırken forklift rotaları ve şarj alanının konumu ayrıca değerlendirilir; şarj sırasında oluşabilecek kıvılcım riski, toz yoğunluğu yüksek bölgelerden uzak bir şarj alanı seçimini gerektirir.",
+                ],
+            },
+            {
+                baslik: "Hasat sonrası dönemde filo planlaması",
+                paragraflar: [
+                    "Hasat sonrası işleme yoğunluğu, forklift ihtiyacını birkaç hafta boyunca belirgin artırır; bu artışı son anda karşılamaya çalışmak hem makine bulma hem operatör eşleştirme açısından zorlaşır. Sezon öncesi rezervasyon, bu riski ortadan kaldırır.",
+                    "Sezon içinde tempo tahminden saparsa — hasat erken biter ya da uzarsa — sözleşmenin uzatma ve erken iade koşullarının baştan yazılmış olması, taraflara esneklik sağlar. İşleme takviminizi paylaşırsanız filo planını birlikte çıkarırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Big-bag'leri çıplak çatalla taşıyabilir miyiz?",
+                cevap:
+                    "Önerilmez; askısız taşınan big-bag, taşıma sırasında sallanabilir ve düşme riski taşır. Big-bag askı kancası veya uygun ataşman kullanılması, hem yükün dengesini korur hem operatör güvenliğini artırır. Kullandığınız big-bag tipini ve ağırlığını paylaşırsanız uygun ataşmanı birlikte belirleriz.",
+            },
+            {
+                soru: "Un tozu makinelerimize zarar veriyor mu, ne sıklıkla temizlemeliyiz?",
+                cevap:
+                    "Un ve yem tozu forkliftin elektrik aksamı ve motor bölmesinde birikip hem arıza hem toz patlaması riskine katkı yapabilir; bu ortamda bakım aralığı standart takvimden kısaltılır ve vardiya sonu temizlik rutini kurulur. Toz patlaması önleme planınızda forklift rotalarının da yer alması önerilir; bu planı birlikte gözden geçirebiliriz.",
+            },
+            {
+                soru: "Gıda işleme hattımızda hangi forklift tipi kullanılmalı?",
+                cevap:
+                    "Kapalı gıda işleme alanında emisyonsuz olması gerektiği için akülü makineler zorunludur; ayrıca gövde temizliği gıda güvenliği denetimine uygun tutulur ve hidrolik kaçak günlük kontrol edilir. Dış sahanın tozlu-dizel makinesi bu alana girmez; iç ve dış saha görev ayrımı net kurulur.",
+            },
+            {
+                soru: "Depomuzda parti karışıklığı yaşıyoruz, FIFO nasıl uygulanır?",
+                cevap:
+                    "Saha bloklara ayrılır, her partinin giriş tarihi ve adresi kayda geçer, sevkiyat listesi en eski partiden başlayarak çıkarılır. Bu düzen özellikle raf ömrü sınırlı gıda ürünlerinde önemlidir; adressiz sahada FIFO uygulamak neredeyse imkânsızdır çünkü hangi partinin daha eski olduğu gözle ayırt edilemez. Saha krokinizle bir kurulum planı çıkarabiliriz.",
+            },
+            {
+                soru: "Hasat sonrası dönemde forklift talebimiz birden artıyor, nasıl planlamalıyız?",
+                cevap:
+                    "Sezon öncesinden ek makine rezervasyonu yaparak son anda arama telaşından kaçının; bölgedeki tesisler benzer takvimle çalıştığı için talep aynı haftalara yığılır. Hammadde giriş tahmininizi paylaşırsanız hangi haftalarda kaç ek makine gerektiğini birlikte hesaplarız ve sözleşmeyi buna göre kurarız.",
+            },
+            {
+                soru: "Çuval istifimiz zamanla kayıyor, sınırı nasıl belirleyeceğiz?",
+                cevap:
+                    "İstif sınırını çuvalın kendi taşıma dayanımı ve istifin çapraz bağlama düzeni belirler; düz üst üste istif yerine çapraz bağlama, yanal kaymayı belirgin azaltır. Kayma fark edildiğinde istif hemen alçaltılmalı ve düzeltilmelidir; kendiliğinden düzelmez. Mevcut istif yönteminizi paylaşırsanız çapraz bağlama düzenine geçişi birlikte planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa'nın bağcılık-kiraz-tütün ağırlıklı tarımsal üretimi ve buna bağlı gıda-tarım sanayii kamuya açık bilgidir; un/yem tozu patlama riski, big-bag ataşman kullanımı ve FIFO depo mantığı sektör standardı bilgidir. Hasat sonrası filo planlaması firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji ve Aydınlatma Bakım Platformu: Manisa OSB'de Forklift Filomuzun Yanında İkincil Hizmet",
+        giris:
+            "Enerji altyapısı ve aydınlatma bakımı için kullanılan yükseltme platformları, manisaforklift.com'un çekirdek işi değildir; çekirdek işimiz Manisa OSB'deki üretim ve depo sahalarında forklift operasyonunu yönetmektir. Buna rağmen forklift filomuzun çalıştığı bir tesiste, hat üstü aydınlatma armatürü değişimi, trafo çevresi kısa bir bakım işi veya çatı altı elektrik hattı kontrolü gibi ihtiyaçlar zaman zaman bize de yöneltilebiliyor. Bu talebi forkliftle karşılamıyoruz — forklift personel yükseltmek veya elektrik işi yapmak için tasarlanmamıştır — ve enerji-aydınlatma bakım platformu ihtiyacını dürüstçe ikincil bir hizmet olarak, sınırlı ve net tanımlı işlerde ele alıyoruz; kapsam büyüdüğünde veya elektrik işi ehliyet gerektiren bir noktaya geldiğinde bu alanda esas uzmanlığı olan bir firmaya yönlendiriyoruz.",
+        maddeler: [
+            {
+                baslik: "Forklift ile enerji-aydınlatma bakımı ayrı iş kollarıdır",
+                metin:
+                    "Forklift bir yük taşıma makinesidir; enerji ve aydınlatma bakımı ise hem personel yükseltme hem elektrik işi güvenliği gerektiren, ayrı bir uzmanlık alanıdır. Bu iki iş kolunun ekipmanı, sertifikasyonu ve saha kuralı birbirinden farklıdır; forklift operatörümüz elektrik bakımı yapmaz, elektrik bakım ekibi de forklift kullanmaz.",
+            },
+            {
+                baslik: "Manisa OSB'de bu talep hangi anda çıkıyor",
+                metin:
+                    "En sık görülen senaryo, forklift filomuzun bir üretim tesisinde çalıştığı sırada aynı sahada hat üstü aydınlatma armatürü değişimi veya kısa süreli bir elektrik hattı kontrolü ihtiyacının ortaya çıkmasıdır. Bu iş için gereken personel yükseltme platformunu, sahada zaten bulunduğumuz için ikincil olarak değerlendirebiliyoruz; ancak elektrik işinin kendisi mutlaka yetkili ve belgeli bir ekip tarafından yapılır.",
+            },
+            {
+                baslik: "Kapsam netleştirme: iş yalnızca yükseltme mi, elektrik müdahalesi mi",
+                metin:
+                    "Talebi değerlendirirken önce işin niteliğini netleştiriyoruz: yalnızca yükseltme platformu mu gerekiyor, yoksa elektrik tesisatına müdahale de mi gerekiyor? İkinci durumda platform ihtiyacını karşılasak bile elektrik işinin yetkili ekip tarafından yapılması şarttır; bu ayrım baştan konuşulur ve karıştırılmaz.",
+            },
+            {
+                baslik: "Operatör belgesi ve saha kuralı tavizsizdir",
+                metin:
+                    "Kullanılacak yükseltme platformu belgeli operatör gerektirir; belgesiz kullanım değerlendirilmez. Trafo veya enerji hattı çevresinde çalışma varsa, o bölgenin kendi güvenlik protokolü (enerji kesme, izin belgesi) tesisin elektrik sorumlusuyla ayrıca teyit edilir; bu teyit olmadan platform o bölgeye sokulmaz.",
+            },
+            {
+                baslik: "Dürüst sınır: büyük veya sürekli talepte yönlendirme",
+                metin:
+                    "Sürekli tekrarlayan bakım programı, yüksek gerilim hattı işleri veya geniş çaplı aydınlatma yenileme projelerinde bu ikincil hizmeti sunmuyoruz; bu tür işler için enerji-aydınlatma bakımında esas uzmanlığı olan bir firmayla temas kurmanızı öneririz. Amacımız forklift müşterimizin sahasındaki münferit bir ihtiyacı, sınırları net biçimde karşılamaktır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift ile enerji-aydınlatma bakım platformunun görev farkı",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki hizmetin Manisa OSB sahalarındaki farklı rolünü özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Özellik", "Forklift (ana hizmetimiz)", "Enerji-aydınlatma bakım platformu (ikincil)"],
+                    satirlar: [
+                        ["Ana görevi", "Yük taşıma", "Personel yükseltme + bakım desteği"],
+                        ["Gereken uzmanlık", "Forklift operatörlüğü", "Yükseltme + elektrik iş güvenliği"],
+                        ["Manisa OSB'deki kullanım sıklığı", "Günlük, ana operasyon", "Münferit, talebe bağlı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı sahada karşılaşılan tipik talepler",
+                paragraflar: [
+                    "Manisa OSB'deki bir üretim tesisinde forklift filomuz hat kenarı beslemeyle çalışırken, aynı hafta içinde hat üstü bir aydınlatma armatürünün değişmesi veya trafo çevresinde kısa bir görsel kontrolün yapılması gündeme gelebiliyor. Bu tür işlerde platform ihtiyacını karşılıyoruz, ancak elektrik tesisatına dokunulan kısmı her zaman yetkili ekibe bırakıyoruz.",
+                    "İş bitince platform sahadan çıkarılır ve forklift operasyonumuz kesintisiz sürer; bu ikincil hizmet, ana operasyonun programını etkilemeyecek şekilde planlanır.",
+                ],
+            },
+            {
+                baslik: "Ne zaman uzman firmaya yönlendiriyoruz",
+                paragraflar: [
+                    "Enerji hattı müdahalesi, yüksek gerilim çevresi iş veya sürekli tekrarlayan bakım programı söz konusuysa bu işi kendi ikincil hizmetimizle değil, enerji-aydınlatma bakımında esas uzmanlığa sahip bir firmayla karşılıyoruz.",
+                    "Bu yönlendirme, doğru işi doğru uzmana teslim etme kararıdır; forklift operasyonumuzun ana odağını da korumamızı sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift ile elektrik bakım işini de siz mi yapıyorsunuz?",
+                cevap:
+                    "Hayır. Forklift bir yük taşıma makinesidir ve operatörümüz elektrik işi yapmaz; enerji tesisatına müdahale mutlaka yetkili ve belgeli bir elektrik ekibi tarafından yapılmalıdır. Biz yalnızca sahada zaten bulunduğumuz için personel yükseltme platformu ihtiyacını ikincil olarak karşılayabiliyoruz, elektrik işinin kendisini değil.",
+            },
+            {
+                soru: "Hat üstü aydınlatma değişimi için forkliftinizi kullanabilir miyiz?",
+                cevap:
+                    "Hayır, forklift personel yükseltmek için tasarlanmamıştır ve çatalına platform bağlayıp operatör çıkarmak mevzuata aykırıdır. Bu iş için ayrı bir yükseltme platformu getiriyoruz; forklift operasyonumuz bu süreçten etkilenmeden devam eder.",
+            },
+            {
+                soru: "Trafo çevresinde çalışma yapabilir misiniz?",
+                cevap:
+                    "Enerji hattı veya trafo çevresi işlerinde önce tesisin elektrik sorumlusuyla enerji kesme ve izin belgesi süreci teyit edilir; bu teyit olmadan platform o bölgeye sokulmaz. Kapsam yüksek gerilim işine dönüyorsa bu alanda esas uzmanlığı olan bir firmaya yönlendiriyoruz.",
+            },
+            {
+                soru: "Operatör bizde mi olmalı, siz mi sağlıyorsunuz?",
+                cevap:
+                    "Yükseltme platformu belgeli operatör gerektirir; operatörünüz varsa ve belgesi geçerliyse yalnızca platform, yoksa operatörlü kiralama değerlendirilir. Elektrik işinin kendisi için ise mutlaka ayrı ve yetkili bir elektrik ekibi gerekir; bu iki rol birbirinin yerine geçmez.",
+            },
+            {
+                soru: "Düzenli aydınlatma bakım programımız var, siz üstlenebilir misiniz?",
+                cevap:
+                    "Sürekli tekrarlayan bir bakım programı bu ikincil hizmetin kapsamı dışındadır; bu tür programlar için enerji-aydınlatma bakımında esas uzmanlığı olan bir firmayla çalışmanızı öneririz. Forklift filomuzla aynı sahada çakışan, münferit talepleri biz de değerlendirebiliriz.",
+            },
+            {
+                soru: "Aynı gün hem forklift hem bakım platformu çalışabilir mi?",
+                cevap:
+                    "Sahaya ve iş kapsamına göre değerlendirilebilir; iki hizmetin operatörü ve saha kuralı farklıdır. Forklift filomuzun mevcut turlu programıyla çakışmayacak bir saat belirlenir ve net iş tanımıyla iki görev ayrı ayrı planlanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Elektrik tesisatına müdahalenin yetkili ve belgeli ekip gerektirdiği ve forkliftin bu iş için tasarlanmadığı sektör standardı bilgidir. Bu domainin forklift odaklı olduğu ve enerji-aydınlatma bakım platformunu Manisa OSB sahalarında ikincil sunduğu bilgisi firma pratiğidir; tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Manisa OSB'de Operatörlü Forklift Kiralama: Belge, Sorumluluk ve Devreye Alma",
+        giris:
+            "Operatörlü forklift kiralama, Manisa OSB'deki birçok tesis için makine bulma sorununu değil, belgeli ve deneyimli operatör bulma sorununu çözer. Forklift kullanımı MYK Mesleki Yeterlilik Belgesi veya MEB onaylı operatörlük belgesi gerektiren, mevzuatla tanımlı bir iştir; belgesiz kullanım hem yasal hem fiili risk taşır ve sigorta kapsamı açısından da sorun yaratabilir. Kendi kadrosunda belgeli operatör bulunmayan veya geçici bir hacim artışında hızla ek kapasiteye ihtiyaç duyan tesisler için operatörlü kiralama, makineyle birlikte gelen ve sahayı tanıyan bir operatörle işi baştan sağlam kurmanın yoludur. Bu sayfa, operatörlü forklift kiralamanın Manisa OSB'deki tesislerde nasıl işlediğini anlatır: belge kontrolü, sorumluluk paylaşımı, sahaya alışma süreci, ücretlendirme mantığı ve kendi kadronuzu kurma ile operatörlü kiralama arasındaki tercih.",
+        maddeler: [
+            {
+                baslik: "Belge kontrolü, kiralamanın ilk ve zorunlu adımıdır",
+                metin:
+                    "Operatörlü kiralamada gelen operatörün MYK belgesi veya MEB onaylı sertifikası, kiralama öncesi doğrulanır ve belge geçerlilik tarihi kontrol edilir. Bu kontrol yalnızca formalite değildir; belgesiz veya süresi geçmiş belgeyle çalışan operatör, bir kazada hem operatörü hem tesisi hem kiralayan firmayı ciddi yasal sorumluluk altında bırakır. Belge bilgisi, kiralama sözleşmesinin bir parçası olarak yazılı saklanır.",
+            },
+            {
+                baslik: "Sorumluluk paylaşımı sözleşmede net yazılır",
+                metin:
+                    "Operatörlü kiralamada makinenin teknik bakımı ve operatörün mesleki yeterliliği kiralayan firmadadır; tesisin saha kuralına uyum, günlük görev talimatı ve iş güvenliği talimatları ise tesisin sorumluluğundadır. Bu ayrım baştan yazılı olmadığında bir kaza veya hasar durumunda kimin neyden sorumlu olduğu tartışma konusu olur; net sözleşme bu tartışmayı önler.",
+            },
+            {
+                baslik: "Sahaya alışma: operatör makineyi bilir, sahayı bilmez",
+                metin:
+                    "Gelen operatör forklift kullanımında deneyimlidir ancak sizin tesisinizin rota düzenini, kesişim noktalarını ve özel kurallarını (örneğin belirli bir koridorun yaya saatlerinde kapalı olması) bilmez. İlk gün saha brifingi — rotalar, bölgeler, devir noktaları, İSG kuralları — verilmeden operatör rotaya çıkarılmaz. Bu brifing, Manisa OSB'deki tesislerde genellikle yarım saatten kısa sürer ama atlanması hâlinde ilk günün verimini düşürür.",
+            },
+            {
+                baslik: "Ücretlendirme mantığı: makine ve operatör ayrı kalemdir",
+                metin:
+                    "Operatörlü kiralamada fiyat, makine kirası ile operatör hizmet bedelinin toplamıdır ve bu iki kalem ayrı görünür; böylece yalnızca makineye mi yoksa operatöre mi ek maliyet geldiği net anlaşılır. Vardiya sayısı, mesai dışı çalışma ve hafta sonu görevlendirmesi operatör bedelini etkileyen değişkenlerdir ve sözleşme öncesi netleştirilir.",
+            },
+            {
+                baslik: "Kendi kadronuzu mu kurmalı, operatörlü mü kiralamalısınız",
+                metin:
+                    "Yıl boyu sürekli forklift işi olan tesislerde kendi kadrosunu kurup belge kazandırmak uzun vadede daha ekonomiktir; sezonluk veya geçici hacim artışında ise operatörlü kiralama, işe alım ve eğitim yükünü ortadan kaldırarak hızlı çözüm sunar. İki modelin maliyeti, ihtiyacın süresi üzerinden karşılaştırılır ve karar buna göre verilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralamanın karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki kiralama modelinin Manisa OSB'deki tesisler için hangi durumda uygun olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Operatörlü kiralama", "Operatörsüz kiralama (kendi operatörünüz)"],
+                    satirlar: [
+                        ["Belgeli personel", "Firma sağlar", "Tesiste zaten mevcut olmalı"],
+                        ["Sahaya alışma süresi", "İlk gün brifingiyle kısa", "Gerekmez, saha zaten bilinir"],
+                        ["Uygun senaryo", "Geçici/sezonluk hacim artışı", "Sürekli, yıl boyu forklift işi"],
+                        ["Maliyet kalemi", "Makine + operatör bedeli", "Yalnızca makine kirası"],
+                    ],
+                },
+            },
+            {
+                baslik: "Belge türleri ve geçerlilik kontrolü",
+                paragraflar: [
+                    "Forklift operatörlüğü için MYK Mesleki Yeterlilik Belgesi veya MEB onaylı forklift operatörlüğü sertifikası aranır; her iki belge de mevzuat kapsamında geçerli kabul edilir ancak geçerlilik tarihi ve belgenin kapsadığı makine sınıfı kontrol edilir. Bazı belgeler belirli tonaj veya makine tipiyle sınırlı olabilir; kiralanacak forkliftin sınıfı, belgenin kapsamıyla eşleştirilir.",
+                    "Belge fotokopisi veya dijital kaydı, kiralama sözleşmesine ek olarak saklanır; denetim veya kaza durumunda bu kayıt ilk başvurulan belgedir.",
+                ],
+            },
+            {
+                baslik: "Uzun dönem operatörlü kiralamada devamlılık",
+                paragraflar: [
+                    "Aynı tesiste uzun süre operatörlü kiralama sürdürüldüğünde, aynı operatörün mümkün olduğunca sabit tutulması sahaya alışma sürecinin tekrar yaşanmasını önler; operatör değişikliği gerektiğinde yeni operatöre aynı saha brifingi tekrarlanır.",
+                    "Operatörün izin veya rahatsızlık durumunda yedek operatör planı da sözleşmenin bir parçasıdır; bu plan olmadan tek operatöre bağımlı bir kiralama, o kişinin bulunmadığı günde tesisi boşta bırakabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörün belgesi olduğundan nasıl emin oluyorsunuz?",
+                cevap:
+                    "Kiralama öncesi operatörün MYK belgesi veya MEB onaylı sertifikasının geçerlilik tarihini ve kapsadığı makine sınıfını kontrol ediyoruz; bu kayıt sözleşmeye ek olarak saklanır. Belgesiz veya süresi geçmiş operatör hiçbir koşulda sahaya gönderilmez, çünkü bu hem yasal hem fiili bir risktir.",
+            },
+            {
+                soru: "Operatör sahamızı bilmiyor, ilk gün verim düşer mi?",
+                cevap:
+                    "İlk gün bir saha brifingi verilir — rotalar, kesişim noktaları, devir kuralları, İSG talimatları — ve bu brifing genellikle yarım saatten kısa sürer. Brifing atlanırsa ilk günün verimi gerçekten düşer; bu yüzden operatör rotaya çıkmadan önce bu adımı zorunlu tutuyoruz.",
+            },
+            {
+                soru: "Operatör bir kazaya karışırsa sorumluluk kimde?",
+                cevap:
+                    "Sorumluluk paylaşımı sözleşmede baştan yazılır: makinenin teknik durumu ve operatörün mesleki yeterliliği bizde, tesisin saha kuralına uyum ve görev talimatı sizdedir. Kazanın nedenine göre bu ayrım üzerinden değerlendirme yapılır; yazılı sözleşme, sonradan yaşanabilecek tartışmayı önler.",
+            },
+            {
+                soru: "Operatörlü kiralama fiyatı nasıl hesaplanıyor?",
+                cevap:
+                    "Makine kirası ve operatör hizmet bedeli ayrı kalemler olarak gösterilir; vardiya sayısı, mesai dışı çalışma ve hafta sonu görevlendirmesi operatör bedelini etkiler. Bu değişkenler sözleşme öncesi netleştirilir; sürpriz ek kalem çıkmaz.",
+            },
+            {
+                soru: "Operatör izinliyken yerine kimse gelmezse ne olur?",
+                cevap:
+                    "Uzun dönem operatörlü kiralamada yedek operatör planı sözleşmenin bir parçasıdır; operatörün izin veya rahatsızlık durumunda bu plan devreye girer. Plan olmadan tek operatöre bağımlı bir kiralama, o kişinin bulunmadığı günde tesisi boşta bırakabilir; bu yüzden yedek planını baştan konuşuyoruz.",
+            },
+            {
+                soru: "Sezon bitince operatörlü kiralamayı kendi kadromuza mı devretmeliyiz?",
+                cevap:
+                    "İhtiyacınız sezonluk kalacaksa operatörlü kiralamayı sürdürmek daha esnektir; yıl boyu sürekli forklift işiniz varsa kendi kadronuzu kurup belge kazandırmak uzun vadede daha ekonomiktir. İki modelin maliyetini ihtiyacınızın süresi üzerinden birlikte karşılaştırabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift operatörlüğü için MYK/MEB belge zorunluluğu mevzuat bilgisidir. Sorumluluk paylaşımı, saha brifingi ve yedek operatör planı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Manisa OSB'de Birden Fazla Tesise Forklift Filo Yönetimi: Tek Sözleşme, Ortak Standart",
+        giris:
+            "Manisa OSB içinde birden fazla üretim veya depo tesisi işleten firmalar için forklift operasyonunun en büyük riski, her tesisin kendi düzenini kendi başına kurmasıdır — biri turlu besleme uygularken diğeri çağrı üzerine çalışır, biri devir kontrol listesi tutarken diğeri tutmaz, biri şarj penceresini planlarken diğeri planlamaz. Bu dağınıklık, filo genel verimini tek tek tesislerin en zayıfına indirger ve merkezi bir görünürlük sağlamaz. Çok noktalı filo yönetimi, aynı standardı — devir kontrolü, bakım takvimi, operatör belgesi, hasar kaydı — bütün tesislere aynı şablonla uygulayıp, tek bir sözleşme ve tek bir raporlama hattı altında toplamayı hedefler. Bu sayfa, Manisa OSB'de birden fazla tesisi olan firmalar için forklift filo yönetiminin nasıl kurulduğunu anlatır: ortak standart şablonu, tesisler arası makine transferi, merkezi bakım takvimi, konsolide raporlama ve tesis bazlı esneklik.",
+        maddeler: [
+            {
+                baslik: "Ortak standart şablonu: her tesis aynı devir listesini kullanır",
+                metin:
+                    "Devir kontrol listesi, bakım kontrol noktaları ve İSG kuralları, tesise özgü küçük farklar dışında bütün lokasyonlarda aynı şablona bağlanır. Bu, yeni bir tesis filoya eklendiğinde sıfırdan bir düzen kurmak yerine mevcut şablonu uygulamayı sağlar ve tesisler arası operatör geçişinde alışma süresini kısaltır. Şablon merkezi olarak güncellendiğinde, güncelleme bütün tesislere aynı anda yayılır.",
+            },
+            {
+                baslik: "Tesisler arası makine transferi: OSB içi kısa mesafe avantajı",
+                metin:
+                    "Manisa OSB içindeki tesisler birbirine yakın olduğu için, bir tesiste geçici olarak azalan iş yükü ile başka bir tesisteki geçici artış, makine transferiyle dengelenebilir; bu, her tesise ayrı ayrı en yüksek tempoya göre filo bağlamaktan daha verimlidir. Transfer kararı, tesislerin haftalık iş yükü tahminine göre merkezi olarak alınır ve makinenin devir kaydı transfer anında yenilenir.",
+            },
+            {
+                baslik: "Merkezi bakım takvimi: hiçbir tesis periyodik bakımı unutmaz",
+                metin:
+                    "Birden fazla tesiste dağınık yönetilen bakım takvimi, genelde bir tesisin bakımı ertelemesiyle sonuçlanır ve bu erteleme arıza olarak geri döner. Merkezi bakım takviminde her makinenin periyodik bakım tarihi tek bir yerden izlenir ve hangi tesiste olursa olsun aynı disiplinle uygulanır; bakım, üretim temposunun düşük olduğu güne göre tesis bazında planlanır ama takip merkezidir.",
+            },
+            {
+                baslik: "Konsolide raporlama: filo genelinde hangi tesis nerede zorlanıyor",
+                metin:
+                    "Tesis bazlı raporlar tek tek okunduğunda genel bir örüntü görülmez; makine başına arıza sıklığı, hasar kaydı ve doluluk oranı bütün tesisler için tek bir tabloda birleştirildiğinde hangi lokasyonun operasyonel olarak zorlandığı, hangisinin fazla makineye sahip olduğu netleşir. Bu görünürlük, filo büyüklüğünü tesis bazında değil ağ genelinde optimize etmeyi mümkün kılar.",
+            },
+            {
+                baslik: "Tek sözleşme, tesis bazlı esneklik",
+                metin:
+                    "Bütün tesisleri tek bir çerçeve sözleşme altında toplamak, fiyatlandırma ve şartları standartlaştırırken, her tesisin kendi hacim değişimine göre makine ekleyip çıkarabilmesini de korur. Bir tesisteki hacim artışı, diğerini etkilemeden çerçeve sözleşme içinde ek makine talebiyle karşılanır; sözleşme yeniden müzakere edilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tek tesis ile çok tesis filo yönetiminin farkı",
+                paragraflar: [
+                    "Aşağıdaki tablo, tek tesis operasyonu ile Manisa OSB içinde birden fazla tesisin birlikte yönetilmesi arasındaki temel farkları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Konu", "Tek tesis yönetimi", "Çok noktalı filo yönetimi"],
+                    satirlar: [
+                        ["Devir kontrol listesi", "Tesise özgü, standart olmayabilir", "Ortak şablon, bütün tesislerde aynı"],
+                        ["Bakım takibi", "Tesis bazında dağınık", "Merkezi takvim, tek görünürlük"],
+                        ["Ani hacim artışında çözüm", "Yeni makine kiralama", "Diğer tesisten transfer + gerekirse ek makine"],
+                        ["Raporlama", "Tesis bazlı, ayrı ayrı okunur", "Konsolide, ağ genelinde karşılaştırmalı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Transfer kararının nasıl alındığı",
+                paragraflar: [
+                    "Bir makinenin bir tesisten diğerine transferi, iki tesisin haftalık iş yükü tahmini karşılaştırılarak alınır; kararı tek bir saha amiri değil, filo genelini gören merkezi bir sorumlu verir. Transfer öncesi makinenin mevcut durumu (yakıt/akü, hasar, bakım tarihi) kayda geçirilir ve yeni tesisteki devir kaydı bu veriyle başlar.",
+                    "Transfer sırasında operatör de değişiyorsa, yeni tesisin saha brifingi verilmeden makine rotaya çıkarılmaz; bu adım, ortak şablon sayesinde hızlı tamamlanır çünkü brifing formatı bütün tesislerde aynıdır.",
+                ],
+            },
+            {
+                baslik: "Büyüyen filo için kademeli merkezi yönetime geçiş",
+                paragraflar: [
+                    "İki veya üç tesisle başlayan bir firma için merkezi yönetime geçiş tek seferde değil kademeli yapılır: önce ortak devir listesi ve bakım takvimi standartlaştırılır, sonra raporlama konsolide edilir, en son transfer ve çerçeve sözleşme mekanizması kurulur. Bu sıra, mevcut tesislerin günlük işleyişini kesintiye uğratmadan geçişi tamamlar.",
+                    "Yeni bir tesis Manisa OSB'de devreye girdiğinde, kurulu ortak standart sayesinde o tesisin filo düzeni sıfırdan değil, mevcut şablonun uygulanmasıyla kurulur; bu da yeni tesisin ilk haftasını belirgin kısaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İki tesisimiz var, ayrı ayrı mı yoksa tek sözleşmeyle mi yönetmeliyiz?",
+                cevap:
+                    "Tesisleriniz Manisa OSB içinde birbirine yakınsa tek çerçeve sözleşme, hem fiyatlandırmayı standartlaştırır hem tesisler arası makine transferini mümkün kılar. Ayrı sözleşmeler her tesisi kendi en yüksek temposuna göre filo bağlamaya zorlar; birleşik yönetim bu fazlalığı azaltır. İki tesisinizin hacim ve vardiya bilgisini paylaşırsanız birleşik yapının size ne kazandıracağını hesaplarız.",
+            },
+            {
+                soru: "Bir tesisteki makineyi diğerine transfer etmek işlem olarak zor mu?",
+                cevap:
+                    "Değil; transfer kararı iki tesisin haftalık iş yükü karşılaştırılarak merkezi olarak alınır, makinenin mevcut durumu transfer öncesi kayda geçirilir ve yeni tesiste devir kaydı bu veriyle başlar. Operatör de değişiyorsa yeni tesisin saha brifingi verilir; ortak şablon sayesinde bu adım hızlı tamamlanır.",
+            },
+            {
+                soru: "Her tesisimizin bakım takvimi farklı işliyor, birleştirmek zaman alır mı?",
+                cevap:
+                    "İlk kurulum birkaç haftalık bir iştir: mevcut makinelerin bakım tarihleri tek bir takvimde toplanır, tesise özgü küçük farklar (örneğin bir tesisin tozlu ortamı) not edilir ve ortak takvim buna göre ayarlanır. Kurulduktan sonra takip merkezi ve tek bakışta görülebilir hâle gelir; hiçbir tesisin bakımı sessizce ertelenmez.",
+            },
+            {
+                soru: "Konsolide raporlama bize somut olarak ne gösterir?",
+                cevap:
+                    "Makine başına arıza sıklığı, hasar kaydı ve doluluk oranı bütün tesisleriniz için tek tabloda görünür; hangi tesisin operasyonel olarak zorlandığı, hangisinin fazla makineye sahip olduğu bu tablodan çıkar. Bu görünürlük olmadan her tesis kendi verisini ayrı okur ve ağ genelindeki fazlalık veya eksiklik fark edilmez.",
+            },
+            {
+                soru: "Yeni bir tesis açıyoruz, mevcut filo standardımızı oraya nasıl taşırız?",
+                cevap:
+                    "Kurulu ortak devir listesi, bakım takvimi ve saha brifing formatı doğrudan yeni tesise uygulanır; sıfırdan bir düzen kurulmaz. Yeni tesisin kendine özgü koşulları (zemin, koridor genişliği, vardiya sayısı) şablona ek olarak eklenir ve bu sayede yeni tesisin filo düzeni ilk haftadan itibaren oturmuş olur.",
+            },
+            {
+                soru: "Bir tesisimiz geçici olarak kapanırsa filoyu nasıl yönetiriz?",
+                cevap:
+                    "Çerçeve sözleşme, tek bir tesisin geçici kapanmasında filonun o tesise bağlı kalmasını gerektirmez; makineler diğer tesislere transfer edilir veya kısa süreliğine iade edilir. Kapanma süresi ve olası yeniden açılma tarihi netleştiğinde bu kararı birlikte alırız; sözleşme yeniden baştan yazılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa OSB'nin çok tesisli firmalar için birbirine yakın konumu kamuya açık bilgidir; ortak standart şablonu, merkezi bakım takvimi ve konsolide raporlama yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Manisa OSB'de Zor Zemin ve Açık Saha Forklift-Telehandler Operasyonu",
+        giris:
+            "Manisa OSB'nin sınırları genişledikçe yeni yatırım sahaları, açık stok alanları ve henüz asfaltlanmamış çevre yollar, standart depo forkliftinin rahat çalışamadığı bir zemin profili ortaya çıkarıyor. Düz beton üzerinde tasarlanmış karşı ağırlıklı forklift, çakıllı, eğimli veya yağış sonrası yumuşayan bir zeminde hem tutunma hem denge sorunu yaşar; bu koşullarda telehandler (teleskopik yüklayıcı) gibi büyük çaplı, yüksek yer açıklığına sahip ve genellikle dört tekerden çekişli makineler daha güvenli çözüm sunar. Bu sayfa, manisaforklift.com'un zor zemin ve açık saha işlerinde forklift ile telehandler arasındaki seçimi nasıl yaptığını ve bu makinelerin Manisa OSB çevresindeki açık sahalarda hangi kurallarla çalıştırıldığını anlatır: zemin değerlendirmesi, telehandler ile forkliftin görev ayrımı, eğimli arazide denge kuralları, hava koşulu etkisi ve açık saha İSG önlemleri.",
+        maddeler: [
+            {
+                baslik: "Zemin değerlendirmesi, makine kararından önce gelir",
+                metin:
+                    "Açık sahaya makine göndermeden önce zeminin taşıma kapasitesi, eğim derecesi ve yağış sonrası davranışı değerlendirilir; bu değerlendirme sahaya çıkmadan tam yapılamayacağı için ilk teslimat genelde küçük bir keşif turuyla başlar. Zeminin sıkıştırılmamış, dolgulu veya kısmen bataklık karakterli olduğu tespit edilirse standart forklift yerine daha geniş lastikli, yüksek yer açıklığına sahip bir sınıf değerlendirilir.",
+            },
+            {
+                baslik: "Telehandler ile forkliftin görev ayrımı: erişim mesafesi belirleyicidir",
+                metin:
+                    "Telehandler, teleskopik koluyla hem yükseğe hem ileriye doğru erişebilen, düz olmayan zeminde forkliften daha rahat hareket eden bir makinedir; ancak her açık saha işi telehandler gerektirmez. Kısa mesafeli, düz ve sağlam zeminli açık depolama alanlarında dizel karşı ağırlıklı forklift yeterli olabilir; zemin bozuksa, mesafe uzunsa veya yığın yüksekliği fazlaysa telehandler tercih edilir. Bu karar, sahanın gerçek koşulu görülmeden verilmez.",
+            },
+            {
+                baslik: "Eğimli arazide denge kuralı: yük daima yokuşun üst tarafında",
+                metin:
+                    "Manisa OSB çevresindeki bazı genişleme sahaları hafif eğimli arazi üzerindedir ve eğimli zeminde forklift veya telehandler taşırken yük, makinenin eğimin üst tarafında kalacağı yönde tutulur; aksi yönde taşıma, yükün öne kaymasına ve makinenin dengesini kaybetmesine yol açabilir. Eğim belirli bir dereceyi aştığında o bölümde çalışma durdurulur ve zemin düzeltmesi beklenir; bu sınır, makinenin üretici verisiyle belirlenir.",
+            },
+            {
+                baslik: "Yağış sonrası zemin: geçici rota değişikliği kalıcı çözümden önce gelir",
+                metin:
+                    "Yağış sonrası yumuşayan zeminde makinenin bir tekerinin çamura saplanması veya kayması riski artar; bu dönemde açık saha rotaları geçici olarak değiştirilir veya o bölümde çalışma ertelenir. Sık ıslanan bölgelerde kalıcı çözüm zeminin stabilize edilmesi veya rotanın betonlanmasıdır, ancak bu yatırım yapılana kadar geçici rota değişikliği ve hız düşürme, güvenli çalışmayı sürdürür.",
+            },
+            {
+                baslik: "Açık saha İSG'si: görünürlük ve devrilme önlemi öncelik alır",
+                metin:
+                    "Açık sahada kapalı depodan farklı olarak toz, geniş açık alan ve sınırlı görünürlük riskleri öne çıkar; makinelerde tepe lambası ve geri vites sesli ikaz zorunlu tutulur, yaya bölgeleri işaretlenir. Devrilme riskine karşı emniyet kemeri kullanımı tavizsizdir — yana devrilen bir makineden atlamaya çalışmak, kemer takılıyken kabin içinde kalmaktan çok daha tehlikelidir ve bu bilgi her saha brifinginde tekrarlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre makine seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Manisa OSB çevresindeki açık saha zemin tiplerine göre tipik makine tercihini özetler; kesin seçim sahanın gerçek durumuyla doğrulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Tercih edilen makine", "Kritik kontrol"],
+                    satirlar: [
+                        ["Düz, sıkıştırılmış açık saha", "Dizel karşı ağırlıklı forklift", "Yük merkezi, hız sınırı"],
+                        ["Çakıllı veya hafif eğimli", "Telehandler", "Eğim sınırı, yük yönü"],
+                        ["Yeni dolgu, henüz sağlamlaşmamış", "Telehandler + geçici rota", "Saplanma riski, zemin turu"],
+                        ["Yağış sonrası yumuşamış", "Rota değişikliği veya çalışma durdurma", "Kayma riski"],
+                    ],
+                },
+            },
+            {
+                baslik: "Genişleme sahasında geçici ve kalıcı zemin çözümleri",
+                paragraflar: [
+                    "Yeni yatırım sahalarında zemin genelde kademeli sağlamlaşır; bu süreçte geçici çözümler — geçici plaka, kalas destek, sıkıştırılmış şerit rota — makinenin güvenle hareket etmesini sağlar. Kalıcı çözüm, ana forklift-telehandler rotalarının betonlanması veya stabilize edilmesidir; bütün sahayı sertleştirmek gerekmez, yalnızca sık kullanılan rotanın sertleştirilmesi çoğu zaman yeterlidir.",
+                    "Bu geçiş süresince haftalık bir zemin turu, bozulan bölgeleri erken tespit eder ve rota, sorun büyümeden değiştirilir; turun atlanması, sorunun ancak bir makine saplandığında fark edilmesine yol açar.",
+                ],
+            },
+            {
+                baslik: "Telehandler operatörlüğü forklift operatörlüğünden ayrı değerlendirilir",
+                paragraflar: [
+                    "Telehandler kullanımı da forklift gibi belgeli operatör gerektirir; ancak makinenin teleskopik kol kontrolü ve farklı denge dinamiği nedeniyle telehandler'a özgü ayrı bir yetkinlik söz konusudur. Forklift operatörü otomatik olarak telehandler kullanmaya yetkili sayılmaz; ilgili makine sınıfını kapsayan belge aranır.",
+                    "Operatörlü kiralamada bu ayrım baştan netleştirilir; sahaya gelen operatörün belgesi, kullanacağı makine sınıfıyla eşleştirilerek kontrol edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni yatırım sahamızın zemini henüz sağlamlaşmadı, hangi makineyi önerirsiniz?",
+                cevap:
+                    "Zeminin gerçek durumunu görmeden kesin öneri vermiyoruz; genelde küçük bir keşif turuyla başlıyoruz. Zemin sıkışmamış veya kısmen dolguluysa telehandler gibi yüksek yer açıklığına sahip, geniş lastikli bir makine ve geçici plaka/kalas destekli bir rota önerilir. Zemin sağlamlaştıkça standart forklifte geçiş değerlendirilir; bu geçiş kademeli olarak, zemin turlarıyla takip edilir.",
+            },
+            {
+                soru: "Telehandler mi, dizel forklift mi kiralamalıyız?",
+                cevap:
+                    "Karar zemin ve erişim mesafesine göre verilir: düz ve sağlam açık sahalarda dizel karşı ağırlıklı forklift genellikle yeterlidir; zemin bozuksa, eğimliyse veya erişim mesafesi uzunsa telehandler'ın teleskopik kolu ve yüksek yer açıklığı avantaj sağlar. Sahanızın fotoğrafını veya krokisini paylaşırsanız ilk değerlendirmeyi uzaktan yapabilir, kesin kararı keşifle netleştirebiliriz.",
+            },
+            {
+                soru: "Eğimli arazide makine devrilme riski ne kadar gerçek?",
+                cevap:
+                    "Gerçek ve ciddiye alınması gereken bir risktir; yük yanlış yönde (eğimin alt tarafında) taşınırsa denge hızla bozulabilir. Bu yüzden eğimli bölümlerde yük daima eğimin üst tarafında tutulur ve belirli bir eğim derecesinin üzerinde çalışma durdurulur. Sahanızın eğim profilini paylaşırsanız güvenli çalışma sınırını üretici verisiyle birlikte netleştiririz.",
+            },
+            {
+                soru: "Yağışlı dönemde açık saha operasyonumuz tamamen durur mu?",
+                cevap:
+                    "Tamamen durmak zorunda değil; yumuşayan bölgelerde geçici rota değişikliği veya o bölümde çalışmanın ertelenmesi genellikle yeterlidir. Sık ıslanan rotaların stabilize edilmesi veya betonlanması kalıcı çözümdür ve bu yatırım yapıldıktan sonra yağışlı dönem operasyonu büyük ölçüde normale döner. Sahanızın hangi bölümlerinin sık ıslandığını paylaşırsanız öncelikli rotayı birlikte belirleriz.",
+            },
+            {
+                soru: "Telehandler operatörü, forklift operatöründen farklı belge mi gerektiriyor?",
+                cevap:
+                    "Evet, telehandler'ın teleskopik kol kontrolü ve denge dinamiği forkliftten farklıdır; forklift belgesi otomatik olarak telehandler kullanımına yetki vermez. Operatörlü kiralamada gelen operatörün belgesi, kullanacağı makine sınıfıyla eşleştirilerek kontrol edilir; bu kontrolü kiralama öncesi biz yapıyoruz.",
+            },
+            {
+                soru: "Açık sahada toz ve sınırlı görünürlük kaza riskini artırıyor mu?",
+                cevap:
+                    "Artırabilir; bu yüzden açık saha makinelerinde tepe lambası ve geri vites sesli ikaz zorunlu tutulur, yaya bölgeleri işaretlenir ve toz yoğun günlerde hız sınırı düşürülür. Devrilme riskine karşı emniyet kemeri kullanımı hiçbir koşulda es geçilmez; bu kural her saha brifinginde tekrarlanan, taviz verilmeyen bir maddedir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manisa OSB'nin genişleyen yatırım sahalarının açık ve kısmen henüz sağlamlaşmamış zemin profili kamuya açık bilgidir; telehandler-forklift görev ayrımı, eğimli arazide yük yönü kuralı ve emniyet kemeri önceliği sektör standardı bilgidir. Zemin turu ve geçici rota yaklaşımı firma pratiğimizdir. Tesis adı veya rakam uydurulmadı.",
+    },
 };

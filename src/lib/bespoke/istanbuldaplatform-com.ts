@@ -1110,4 +1110,1087 @@ export const ISTANBULDAPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-12. Gebze-Çayırova-Dilovası aksının Türkiye'nin en yoğun sanayi havzalarından biri olduğu kamuya açık bilgidir; çevre bölge modeli, konaklama düzeni ve çok sahalı çerçeve firma pratiğidir.",
     },
+
+    // ── HİZMET SAYFALARI — PROJE BÜTÇELEME/KEŞİF AÇISI (2026-08-14) ────────
+    // 11 kayıt: aynı slug'lar ağdaki 85 domainin hepsinde var; bu dosyanın
+    // farkı, her sayfanın İkitelli OSB + kurumsal proje yönetimi + keşiften
+    // bütçeye kalem kalem planlama merceğinden yazılmış olmasıdır (rakam
+    // uydurulmadan süreç/planlama anlatılır — istanbul-platform.com'daki
+    // fiyat-kalemi/şeffaflık açısından bilinçli olarak ayrışır).
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Kurumsal Projelerde Sepetli Platform Kalemini Bütçeye Oturtmak",
+        giris:
+            "Proje bütçesi hazırlayan bir teknik ofis için sepetli platform, tek başına fiyatlanan bir ürün değil, iş programının belirli fazlarında ortaya çıkan bir kalemdir — cephe boyası, tavan tesisatı, aydınlatma değişimi gibi hedefi belli işlerde makaslı veya küçük eklemli sepetin kaç gün, kaç adet ve hangi haftalarda sahada olacağı, metraj ve iş programından türetilir. Biz İkitelli merkezli çalışırken bu kalemi keşif aşamasında ayrı bir teklif satırı olarak değil, projenin genel ekipman paketinin bir parçası olarak ele alırız: kat yüksekliği, erişim noktası sayısı ve iş süresi birlikte değerlendirilir, sepetli platform ihtiyacı bu üçlüden çıkar. Kurumsal müşteri için önemli olan, bu kalemin teklif aşamasında ne kadar doğru tahmin edildiğidir — çünkü sepetli platform günlük kiralamaya göre fiyatlandığında, yanlış süre tahmini bütçeyi doğrudan etkiler. Bu sayfa, sepetli platform kalemini bir proje bütçesinin içine nasıl yerleştirdiğimizi anlatır.",
+        maddeler: [
+            {
+                baslik: "Keşifte sepetli kalemin metraja bağlanması",
+                metin:
+                    "Sepetli platform ihtiyacını kestirmenin doğru yolu, işin metrajından geriye gitmektir: kaç metrekare cephe, kaç nokta aydınlatma, kaç açıklık tavan tesisatı. Keşif sırasında bu metraj çıkarılır, her iş kalemi için ortalama ilerleme hızı (günlük tamamlanan metrekare veya nokta) uygulanır ve sepetli platformun projede kaç iş günü kalacağı buradan hesaplanır. Bu hesap, teklif dosyasına giden makine-gün rakamının kaynağıdır; tahmin değil metraj çıktısıdır.",
+            },
+            {
+                baslik: "Proje fazına göre sepetli tip seçimi",
+                metin:
+                    "Aynı projede farklı fazlarda farklı sepetli tip gerekebilir: kaba imalat sonrası düz zeminde makaslı yeterliyken, engebeli veya dolu sahada eklemli sepetli daha uygun olur; iç mekan dar geçişlerde kompakt akülü sınıf devreye girer. Bütçe planında bu geçişleri baştan işaretleriz — hangi fazda hangi sepetli tip, hangi tarihte devreye girecek. Yanlış tip seçimiyle başlayıp sahada değiştirmek, proje takviminde planlanmamış bir gün kaybı demektir.",
+            },
+            {
+                baslik: "Çoklu erişim noktasında paralel çalışma kararı",
+                metin:
+                    "Cephe veya çatı işlerinde tek sepetli platformla sırayla mı, birden fazla makineyle paralel mi çalışılacağı, bütçeyi doğrudan etkileyen bir karardır: paralel çalışma toplam süreyi kısaltır ama günlük makine sayısını artırır, sıralı çalışma tersine işler. Bu kararı proje takvimindeki kritik yol analizine göre veririz — iş programında sepetli platform kalemi kritik yol üzerindeyse paralel çalışma önerilir, değilse sıralı çalışma bütçeyi daha az zorlar.",
+            },
+            {
+                baslik: "Sepetli kalemin diğer ekipman kalemleriyle çakışmaması",
+                metin:
+                    "Bir projede aynı anda forklift malzeme taşırken sepetli platform tavanda çalışıyorsa, iki makinenin çalışma alanı çakışmamalıdır. Bütçe planında sepetli platformun günlük konum ve saat aralığı, diğer ekipmanın rotasıyla birlikte işlenir; bu koordinasyon olmadan hazırlanan bütçe, sahada beklenmeyen duraksama üretir ve makine-gün rakamı öngörülenin üzerine çıkar.",
+            },
+            {
+                baslik: "Bütçe revizyonunda sepetli kaleminin güncellenmesi",
+                metin:
+                    "İş programı revize edildiğinde sepetli platform kaleminin de aynı gün güncellenmesi gerekir — bir haftalık gecikme, hem rezervasyon çakışmasına hem bütçe sapmasına yol açar. Revizyon geldiğinde metraj-süre hesabını yeniden çalıştırır, güncellenmiş makine-gün rakamını yazılı olarak proje ofisine iletiriz; bütçe raporunda sepetli kalemi her zaman güncel iş programına göre gösterilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje fazına göre sepetli platform bütçe iskeleti",
+                paragraflar: [
+                    "Sepetli platform kaleminin proje fazlarına göre nasıl dağıldığı, tipik bir kurumsal projede aşağıdaki gibidir. Süre sütunu göreli ağırlığı gösterir; kesin gün sayısı projenin metrajından çıkar.",
+                ],
+                tablo: {
+                    basliklar: ["Proje fazı", "Sepetli tip", "Bütçe ağırlığı", "Koordinasyon noktası"],
+                    satirlar: [
+                        ["Cephe boyası/kaplama", "Eklemli veya makaslı", "Yüksek", "İş programı metrajı"],
+                        ["Tavan tesisatı", "Makaslı (iç mekan)", "Orta", "Aktivite sırası"],
+                        ["Aydınlatma değişimi", "Kompakt akülü", "Düşük", "Nokta sayısı"],
+                        ["Çatı işleri", "Eklemli (dış mekan)", "Yüksek", "Hava koşulu payı"],
+                        ["Son kontrol/eksik kapatma", "Küçük akülü çekirdek", "Düşük", "Punch list"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif aşamasında sepetli kaleminin şeffaflığı",
+                paragraflar: [
+                    "Kurumsal müşterinin teklif dosyasında görmek istediği şey, sepetli platform kaleminin nereden geldiğidir — metraj mı, tahmin mi. Biz teklife hesap tablosunu ekleriz: hangi iş kaleminden kaç makine-gün türediği, hangi fazda kaç sepetli platform planlandığı satır satır görülür. Bu tablo, hakediş dönemlerinde de referans alınır; gerçekleşen kullanım tablodaki tahminle karşılaştırılır ve sapma varsa nedeni birlikte incelenir.",
+                    "Bu şeffaflık, proje ofisinin ekipman bütçesini savunmasını kolaylaştırır — üst yönetime veya yatırımcıya sunulan rakamın dayanağı bellidir.",
+                ],
+            },
+            {
+                baslik: "Sepetli platform kaleminde risk payı",
+                paragraflar: [
+                    "Hiçbir metraj hesabı sahadaki gerçeği yüzde yüz yakalamaz; hava koşulu, ek keşif ihtiyacı veya iş sırasının değişmesi gibi nedenlerle sapma olur. Bütçe planına bu yüzden bir risk payı ekleriz — tipik olarak fazın süresine oranlı, sabit bir yüzde değil, iş kaleminin öngörülebilirliğine göre değişen bir marj. Cephe işleri gibi hava koşuluna bağlı fazlarda pay daha geniş, iç mekan işlerde daha dardır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sepetli platform ihtiyacını proje başında nasıl doğru tahmin edebiliriz?",
+                cevap:
+                    "Tahminin doğruluğu, metraja ne kadar dayandığına bağlıdır: iş kaleminin metrekare, nokta veya açıklık sayısı çıkarılır, benzer işlerde gözlemlenen günlük ilerleme hızıyla çarpılır ve makine-gün rakamı buradan türer. Rastgele bir gün sayısı yazmak yerine bu hesabı sizinle birlikte keşif sırasında çıkarırız; hesap tablosunu teklif dosyasına ekleriz ki rakamın kaynağı görülebilsin. Metrajınız netse tahmin de nettir; metraj belirsizse önce onu netleştirmeyi öneririz, çünkü belirsiz metraj üzerine kurulan bütçe her zaman revizyona açık kalır.",
+            },
+            {
+                soru: "Cephe işimiz hava koşuluna bağlı, sepetli platform kalemini nasıl bütçeleriz?",
+                cevap:
+                    "Hava koşuluna bağlı işlerde sabit bir gün sayısı yazmak yerine bir risk payı ekleriz — geçmiş dönemlerin genel iklim eğilimine bakılarak fazın süresine oranlı bir marj hesaba katılır. Bu marj kesin bir sigorta değildir ama bütçenin gerçekçi kalmasını sağlar; proje ofisi, olası uzamanın maliyetini önceden görür ve sürpriz yaşamaz. Uzun süren olumsuz hava durumunda planı birlikte güncelleriz; ilke şudur, hava koşulunun getirdiği gecikme makine faturasına dönüşmeden önce plan revize edilir.",
+            },
+            {
+                soru: "Aynı projede birden fazla sepetli platform gerekiyorsa bütçe nasıl kurulur?",
+                cevap:
+                    "Birden fazla makinenin gerekip gerekmediği, kritik yol analizine bağlıdır: sepetli platform kalemi iş programının kritik yolu üzerindeyse paralel çalışma toplam süreyi kısaltır ve bu kısalma genelde ek makine maliyetini karşılar; kritik yol dışındaysa sıralı çalışma bütçeyi daha az zorlar. İki senaryoyu da hesaplayıp karşılaştırmalı bir tablo sunarız — hangi seçeneğin toplam proje maliyetini düşürdüğü, sadece makine kiralama bedeline değil, projenin genel süresine bakılarak görülür.",
+            },
+            {
+                soru: "İş programımız değişirse sepetli platform bütçesi ne kadar sürede güncellenir?",
+                cevap:
+                    "Revize program elimize ulaştığı gün içinde güncelleriz — metraj-süre hesabını yeniden çalıştırır, yeni makine-gün rakamını ve varsa rezervasyon değişikliğini yazılı olarak iletiriz. Bu hızın nedeni basit: gecikmeli güncellenen bütçe, hem yanlış rezervasyon hem yanlış maliyet öngörüsü demektir. İkitelli'deki merkezimizin projeye yakınlığı, güncellenen planın sahada aynı gün karşılık bulmasını da kolaylaştırır.",
+            },
+            {
+                soru: "Sepetli platform kalemini hakediş döneminde nasıl raporluyorsunuz?",
+                cevap:
+                    "Hakediş kesim tarihine göre kapanan dönem için gerçekleşen kullanım (hangi makine, kaç gün, hangi fazda) teklif aşamasındaki tahmin tablosuyla yan yana raporlanır. Sapma varsa nedeni belirtilir — fazladan gün varsa hangi olay tetikledi, eksik varsa hangi iş erken bitti. Bu karşılaştırma, teknik ofisin hakediş görüşmesinde ekipman kalemini savunmasını kolaylaştırır; rakam tek başına değil, gerekçesiyle birlikte sunulur.",
+            },
+            {
+                soru: "Küçük bir işte de bu bütçe yaklaşımını uyguluyor musunuz, yoksa sadece büyük projelerde mi?",
+                cevap:
+                    "Yaklaşım ölçekten bağımsızdır; küçük bir işte metraj hesabı birkaç dakika sürer, büyük projede günler alır ama yöntem aynıdır — rastgele gün sayısı yerine metraja dayalı tahmin. Küçük işte formalite ağırlığını da işin ölçüsüne göre azaltırız; tek sayfalık bir hesap yeterli olabilir. Önemli olan, hangi ölçekte olursa olsun sepetli platform kaleminin bir tahminden değil bir hesaptan gelmesidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sepetli platform sınıflarının teknik özellikleri (makaslı, eklemli, akülü) sektör genelinde bilinen bilgidir; metraj-süre hesabı ve proje bütçe iskeleti firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Çok Makineli Projelerde Nakliye ve Sevkiyat Senkronizasyonu",
+        giris:
+            "Tek makinelik bir kiralamada nakliye, teslim tarihini bilmekten ibarettir; çok makineli bir kurumsal projede ise nakliye kendi başına bir koordinasyon problemidir — hangi makine hangi tarihte, hangi sırayla, hangi araçla sahaya girecek ve saha bu trafiği kaldırabilecek mi. İkitelli merkezli çalışmamızın projeye kattığı fark, nakliyeyi teslimat anı değil bir proje süreci olarak planlamamızdır: iş programındaki mobilizasyon tarihleri, sahanın araç kabul kapasitesiyle (giriş noktası, indirme alanı, günlük araç sayısı sınırı) çakıştırılır ve sevkiyat takvimi buradan kurulur. Bu sayfa, birden fazla makinenin aynı projeye nasıl senkronize sevk edildiğini, gecikme riskinin nasıl yönetildiğini ve sevkiyat maliyetinin proje bütçesine nasıl yansıdığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Mobilizasyon takviminin iş programına bağlanması",
+                metin:
+                    "Her makinenin sahaya giriş tarihi, iş programındaki ilgili aktivitenin başlangıcına bağlanır — erken gelen makine sahada boşta bekler ve gereksiz maliyet üretir, geç gelen makine iş programını durdurur. Sevkiyat planı bu ikisinin ortasını, aktivitenin başlamasından bir gün önce makinenin sahada ve hazır olacağı noktayı hedefler. Bu tarih, program revize edildikçe otomatik olarak güncellenir.",
+            },
+            {
+                baslik: "Aynı gün birden fazla makinenin sıralaması",
+                metin:
+                    "Bir projede aynı gün birden fazla makine sevk edilecekse, saha giriş kapasitesi belirleyicidir — dar sahalarda aynı anda iki büyük aracın indirme yapması mümkün olmayabilir. Sevkiyat sırasını saha yerleşim planına göre kurarız: hangi makine önce, hangi indirme noktasına, hangi saatte. Bu sıralama, proje şefinin sahada beklenmedik araç trafiğiyle uğraşmasını önler.",
+            },
+            {
+                baslik: "Demobilizasyonun bütçeye etkisi",
+                metin:
+                    "İşi biten makinenin sahada unutulması, projenin sessiz maliyet kalemidir. Sevkiyat planında her makinenin çıkış tarihi de giriş tarihiyle birlikte belirlenir; aktivite kapandığında makine çekilir, ihtiyaç yeniden doğarsa yakın parktan geri gelir. Bu disiplin, aylık ekipman faturasının iş ilerlemesiyle orantılı kalmasını sağlar ve proje bütçesindeki en kolay tasarruf kalemidir.",
+            },
+            {
+                baslik: "OSB ve tesis giriş prosedürlerinin sevkiyata etkisi",
+                metin:
+                    "İkitelli ve çevresindeki OSB'lerde, ayrıca kurumsal tesislerde araç girişi belge ve bildirim gerektirir — plaka bildirimi, sürücü kimlik kaydı, bazı tesislerde önceden onaylı giriş listesi. Bu prosedür sevkiyat takviminin bir parçası olarak, aracın yola çıkmasından önce tamamlanır; ilk sevkiyatta kapıda bekleme, plansız sahalarda en sık görülen gecikme nedenidir ve bizim planımızda bu adım baştan kapatılır.",
+            },
+            {
+                baslik: "Revize programda sevkiyatın yeniden kurulması",
+                metin:
+                    "İş programı değiştiğinde sevkiyat takvimi de değişir ve bu güncelleme gecikirse ya erken gelen makine bekler ya geç gelen makine işi durdurur. Revize program elimize ulaştığında sevkiyat takvimini aynı gün yeniden kurar, değişen tarihleri ilgili nakliye firmalarına ve saha ekibine bildiririz; proje ofisi, güncel sevkiyat planını her zaman güncel iş programıyla eşleşmiş bulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sevkiyat planlamasında karar noktaları tablosu",
+                paragraflar: [
+                    "Çok makineli bir projede sevkiyat planı kurulurken bakılan başlıca karar noktaları ve bunların bütçeye etkisi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Karar noktası", "Girdi", "Bütçe etkisi", "Sorumlu"],
+                    satirlar: [
+                        ["Mobilizasyon tarihi", "İş programı aktivite başlangıcı", "Erken/geç bekleme maliyeti", "Proje ofisi + tedarikçi"],
+                        ["Sevkiyat sırası", "Saha giriş kapasitesi", "Trafik/duraksama riski", "Saha şefi"],
+                        ["Demobilizasyon tarihi", "Aktivite bitişi", "Boşta makine maliyeti", "Tedarikçi"],
+                        ["Giriş prosedürü", "Tesis/OSB kuralları", "İlk sevkiyat gecikme riski", "Tedarikçi"],
+                        ["Revizyon tepki süresi", "Program değişikliği", "Plan-saha uyumsuzluğu riski", "Tedarikçi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevkiyat maliyetinin proje bütçesine yansıması",
+                paragraflar: [
+                    "Nakliye bedeli çoğu zaman ekipman kirası içinde küçük bir kalem gibi görünür, ama planlanmamış giriş-çıkış (sahaya erken gelen, geç çekilen, yanlış sırada gelen makineler) bu kalemi katlayabilir — her ek sevkiyat, ayrı bir nakliye maliyeti ve saha duraksaması demektir. Bizim sevkiyat planımız bu tekrarları önceden öngörerek azaltır; teklif dosyasında sevkiyat kalemi, tahmini giriş-çıkış sayısına göre tek satırda gösterilir, sürpriz ek sevkiyat riski en aza indirilir.",
+                    "Çok fazlı projelerde makinelerin fazlar arası taşınması (bir sahadan diğerine değil, aynı proje içinde bölümden bölüme) da bu planın parçasıdır ve genelde ayrı bir maliyet olarak görünmeden, mevcut sevkiyat takvimine eklenir.",
+                ],
+            },
+            {
+                baslik: "Saha giriş kısıtlarının önceden çözülmesi",
+                paragraflar: [
+                    "Dar sokak, sınırlı yükleme rampası veya kısıtlı çalışma saati gibi sahaya özgü kısıtlar, sevkiyat planının en erken adımında keşfedilir — proje başlamadan önce saha ziyaretiyle bu kısıtlar tespit edilir ve çözüm (küçük araçla parçalı sevkiyat, belirli saat aralığında giriş, gerekiyorsa yerel izin süreci) plana yazılır. Sevkiyat gününde sürpriz yaşanmaması, bu erken tespitin doğrudan sonucudur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Projemizde on iki farklı makine giriş yapacak; hepsini tek tek mi planlıyorsunuz?",
+                cevap:
+                    "Tek tek planlarız ama tek tek takip etmezsiniz — on iki makinenin her birinin giriş-çıkış tarihi iş programındaki ilgili aktiviteye bağlanır, biz bu takvimi tek bir sevkiyat planında toplarız ve size özet hâlde sunarız. Sizin gördüğünüz, hangi haftada kaç makine giriş-çıkış yapacağının özeti olur; ayrıntılı koordinasyon (hangi araç, hangi saat, hangi sırayla) bizim tarafımızda yürür. Proje ofisinizin tek yapması gereken iş programını güncel tutmaktır, geri kalanı sevkiyat planına yansır.",
+            },
+            {
+                soru: "Sahamızın giriş kapısı dar, aynı gün iki büyük araç giremiyor; bu durumu nasıl planlıyorsunuz?",
+                cevap:
+                    "Saha ziyaretinde giriş kapasitesini tespit eder ve sevkiyat sırasını buna göre kurarız — aynı gün gelmesi gereken iki makine varsa, birini sabah erken saatte, diğerini öğleden sonra farklı bir indirme noktasına planlarız; gerekiyorsa bir günü ikiye bölmek yerine iki ayrı güne yayarız. Amaç, saha trafiğini iş programınızın diğer aktivitelerini engellemeyecek şekilde tutmaktır. Giriş kapınızın ölçülerini ve indirme alanı fotoğraflarını paylaşırsanız, bu planı önceden netleştirebiliriz.",
+            },
+            {
+                soru: "OSB içindeki tesisimize ilk kez sevkiyat yapacaksınız; giriş prosedürü konusunda hazırlıklı mısınız?",
+                cevap:
+                    "İkitelli ve çevresindeki OSB'lerin giriş prosedürlerine (plaka bildirimi, sürücü kaydı, bazı tesislerde önceden onaylı giriş listesi) aşinayız ve bu evrakı sevkiyattan önce, sizin sahadaki muhatabınız üzerinden tamamlarız. İlk sevkiyat, prosedürün baştan çözüldüğü sevkiyat olmalıdır; çözülmemişse günü ertelemeyi kapıda beklemeye tercih ederiz. Tesisinizin özel gereklilikleri varsa (örneğin belirli saatler dışında araç kabul edilmiyorsa) bunu önceden bildirin, plana yazılı olarak işleriz.",
+            },
+            {
+                soru: "Bir makinenin işi erken bitti, sahada boşuna beklemesin istiyoruz; ne kadar sürede çekersiniz?",
+                cevap:
+                    "Aktivitenin erken bittiğini öğrendiğimiz gün demobilizasyon planına alırız; genelde bir-iki iş günü içinde makine sahadan çıkar, ihtiyaç yeniden doğarsa yakın parktan geri getiririz. Bu hızın nedeni basittir — boşta bekleyen makine hem sizin faturanızda hem bizim park verimliliğimizde kayıptır, ikisinin de çıkarı erken çekmektir. Erken biten aktiviteyi bildirmeniz yeterli, geri kalan koordinasyonu biz yürütürüz.",
+            },
+            {
+                soru: "Sevkiyat maliyetini proje bütçesinde ayrı mı görürüz, yoksa kira bedeline mi karışır?",
+                cevap:
+                    "Teklif dosyasında sevkiyat kalemini ayrı bir satırda, tahmini giriş-çıkış sayısına göre gösteririz — bu şeffaflık, proje ofisinin bütçe kalemlerini ayrı ayrı denetleyebilmesi içindir. Planlanmamış ek sevkiyat (örneğin yanlış sırada gelen makinenin geri gönderilip tekrar sevk edilmesi) bizim planlama hatamızdan kaynaklanıyorsa bu maliyeti size yansıtmayız; planlı sevkiyat sayısı aşılırsa nedeni birlikte incelenir ve ek maliyet varsa önceden bildirilir.",
+            },
+            {
+                soru: "Program son anda değişti, yarın gelecek makineyi ileri bir tarihe çekebilir miyiz?",
+                cevap:
+                    "Genellikle evet, ama ne kadar erken haber verirseniz o kadar sorunsuz işler — sevkiyat aracı yola çıkmadan önce (tipik olarak bir gün öncesinden) bildirilen değişiklikler ek maliyetsiz ertelenir. Araç yola çıktıktan sonra gelen iptal talepleri, kısmi nakliye maliyeti doğurabilir. Program değişikliğini fark eder etmez bize ulaştırmanız, hem sizin bütçenizi hem bizim park planımızı korur; son dakika değişiklikleri istisna değil olağan kabul edilir, önemli olan haberin zamanında gelmesidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB giriş prosedürlerinin genel yapısı (plaka bildirimi, sürücü kaydı) kamuya açık bilgidir; mobilizasyon-demobilizasyon takvimi ve sevkiyat sıralama yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Proje Kapsamında Forklift Kalemi: Planlama ve Bütçeleme",
+        giris:
+            "Bir inşaat veya tesis projesinde forklift, çoğu zaman en az sorgulanan ekipman kalemidir — 'nasılsa lazım olacak' denip iş programına geç eklenir, sonra da malzeme istifleme gecikmesi başka aktiviteleri geciktirir. Bizim proje yaklaşımımızda forklift, tıpkı erişim platformları gibi metraj ve iş programından türeyen bir kalemdir: kaç palet, hangi ağırlıkta, hangi mesafede taşınacak, hangi fazlarda yoğunluk artacak. Bu veriler keşifte toplanır, forklift ihtiyacı (kapasite, sayı, süre) buradan hesaplanır ve iş programının malzeme teslim tarihleriyle eşleştirilir. İkitelli merkezli bir tedarikçi olarak forkliftin projedeki rolünü tek başına değil, sahadaki telehandler ve platform kalemleriyle birlikte planlarız — üç ekipmanın çalışma alanı çakışmasın, üçü de aynı malzeme akışının farklı parçalarını yürütsün diye. Bu sayfa forklift kaleminin proje bütçesine nasıl girdiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Malzeme akışından forklift kapasitesinin çıkarılması",
+                metin:
+                    "Forklift kapasitesi tahminle değil, taşınacak en ağır ve en hacimli malzeme kalemiyle belirlenir — palet ağırlığı, çatal uzunluğu gerektiren malzeme boyu, istifleme yüksekliği. Keşifte malzeme listesi (tedarikçi teslim planından) incelenir, en kritik kalem kapasiteyi belirler; küçük kapasiteyle başlayıp sahada yetersiz kalmak, iş durdurma riski taşıdığı için kabul edilmez.",
+            },
+            {
+                baslik: "Teslim takvimiyle forklift devrelerinin eşleştirilmesi",
+                metin:
+                    "Malzeme teslimatları projede dalgalı gelir — bazı haftalar yoğun palet indirme, bazı haftalar sadece iç saha taşıması. Forklift kalemini bu dalgaya göre planlarız; sürekli sahada tutmak yerine yoğun teslim haftalarında ek makine devreye alınır, sakin haftalarda tek makineye düşülür. Bu esneklik, projenin toplam forklift-gün maliyetini sabit büyük bir makine tutmaya göre düşürür.",
+            },
+            {
+                baslik: "İstifleme yüksekliği ve saha düzeni ilişkisi",
+                metin:
+                    "Depo veya tesis içi projelerde istifleme yüksekliği, saha yerleşim planıyla birlikte değerlendirilir — raf aralığı, koridor genişliği, tavan yüksekliği forklift tipini belirler. Bu ölçüler proje mimari-statik dosyasından alınır, sahaya uymayan bir forklift kapasitesiyle teklif hazırlanmaz; ölçü uyuşmazlığı, sahaya giren makinenin geri gönderilmesi anlamına gelir.",
+            },
+            {
+                baslik: "Diğer ekipmanla çalışma alanı koordinasyonu",
+                metin:
+                    "Aynı sahada forklift malzeme taşırken platform tavanda veya cephede çalışıyorsa, iki makinenin güzergâhı çakışmamalıdır. Proje ekipman planında forkliftin günlük rota ve saat aralığı, diğer makinelerin çalışma programıyla birlikte işlenir; bu koordinasyon olmadan forklift kalemi, planlanan süreden daha uzun sürer çünkü bekleme ve manevra kayıpları bütçeye yansır.",
+            },
+            {
+                baslik: "Operatör yeterliliğinin bütçe kalemi olarak görünmesi",
+                metin:
+                    "Forklift operatörünün MYK yeterlilik belgesi zorunludur ve bu, proje bütçesinde ayrı bir kalem olarak görünür — operatörlü kiralamada operatör bedeli, makine bedelinden ayrı satırda gösterilir. Kurumsal projelerde bu ayrımın şeffaf olması, denetim ve İSG dosyası açısından da önemlidir; belgeli operatör kalemi, projenin uygunluk dosyasının bir parçasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje fazına göre forklift kapasite tablosu",
+                paragraflar: [
+                    "Farklı proje fazlarında tipik olarak hangi forklift kapasitesinin öne çıktığı aşağıdadır. Kesin kapasite, malzeme listesinden çıkar.",
+                ],
+                tablo: {
+                    basliklar: ["Proje fazı", "Tipik malzeme", "Kapasite eğilimi", "Planlama girdisi"],
+                    satirlar: [
+                        ["Saha hazırlık", "Genel malzeme, ekipman", "Orta", "Saha yerleşim planı"],
+                        ["Kaba imalat malzeme teslimi", "Palet, profil, torba malzeme", "Yüksek", "Tedarikçi teslim takvimi"],
+                        ["Depo/raf içi istifleme", "Kutu, palet", "Yükseklik öncelikli", "Raf-koridor ölçüleri"],
+                        ["İnce imalat malzeme", "Küçük hacimli, sık teslim", "Düşük-orta", "Aktivite programı"],
+                        ["Son toplama/hafriyat", "Atık, döküm malzeme", "Değişken", "Punch list"],
+                    ],
+                },
+            },
+            {
+                baslik: "Forklift kaleminin teklif dosyasındaki yeri",
+                paragraflar: [
+                    "Kurumsal teklif dosyasında forklift kalemi, malzeme listesi ve teslim takviminden türeyen bir hesap tablosuyla sunulur — hangi fazda kaç makine-gün, hangi kapasitede. Bu tablo hakediş döneminde gerçekleşen kullanımla karşılaştırılır; sapma varsa (örneğin ek malzeme teslimatı geldiyse) nedeni birlikte netleştirilir. Rastgele bir 'bir forklift, proje boyunca' kalemi yerine, ihtiyacın dalgalanmasını yansıtan bir plan sunulur.",
+                    "Bu yaklaşımın müşteri için somut faydası, sakin haftalarda gereksiz makine tutmamak ve dolayısıyla toplam forklift maliyetini iş yoğunluğuna orantılı tutmaktır.",
+                ],
+            },
+            {
+                baslik: "Forklift-platform-telehandler üçlüsünün ortak planı",
+                paragraflar: [
+                    "Büyük projelerde bu üç ekipman genelde aynı sahada, farklı görevlerle bulunur ve ortak bir günlük plan olmadan birbirinin işini yavaşlatabilir. Bizim proje ekipman planımızda üçünün günlük konumu ve rotası tek bir krokide gösterilir; forklift malzeme indirirken telehandler kat besliyorsa, platform aynı bölgede çalışmaz. Bu koordinasyon, ayrı ayrı planlanan üç kalemin toplamından daha verimli bir bütçe üretir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift kapasitesini nasıl belirliyorsunuz, en büyüğünü mü öneriyorsunuz?",
+                cevap:
+                    "Hayır — en büyük kapasite her zaman en güvenli seçim gibi görünse de günlük kiralama maliyetini de artırır; biz kapasiteyi taşınacak en ağır ve en hacimli malzeme kalemine göre belirleriz. Malzeme listenizi (tedarikçi teslim planından) incelediğimizde kritik kalem ortaya çıkar, kapasite ona göre seçilir — ne yetersiz ne gereksiz büyük. Malzeme listenizi paylaşırsanız, gerekçeli kapasite önerisini yazılı olarak sunarız.",
+            },
+            {
+                soru: "Malzeme teslimatlarımız düzensiz, bazı hafta yoğun bazı hafta boş; forklift kalemini nasıl planlarız?",
+                cevap:
+                    "Bu dalgalanmayı sabit bir makineyle karşılamak yerine devreye göre planlarız — yoğun teslim haftalarında ek makine veya vardiya devreye alınır, sakin haftalarda tek makineye düşülür. Teslim takviminizi (kesin olmasa bile tahmini) paylaştığınızda bu devreleri önceden işaretleriz; son anda gelen yoğun teslimat haftalarında da makul bir haber süresiyle (birkaç gün önceden) ek kapasiteyi devreye alabiliriz. Amaç, boşta makine tutmadan da teslimat gününde forkliftsiz kalmamaktır.",
+            },
+            {
+                soru: "Depo içinde raf arası çalışacağız, standart forklift sığar mı?",
+                cevap:
+                    "Sığıp sığmayacağı koridor genişliği ve raf yüksekliğine bağlıdır — bu ölçüleri proje dosyanızdan (mimari veya raf üretici çizimi) alır, standart forklift şase genişliğiyle karşılaştırırız. Koridor darsa dar koridor tipi forklift veya reach truck sınıfı gündeme gelir; bu, standart forklifte göre farklı bir kiralama kalemidir ve bütçeye ayrı yansır. Koridor ve raf ölçülerinizi paylaşın, doğru sınıfı netleştirelim.",
+            },
+            {
+                soru: "Forklift operatörünü biz mi sağlıyoruz, siz mi; bütçede fark yaratır mı?",
+                cevap:
+                    "İki model de mümkündür ve bütçede fark yaratır — operatörlü kiralamada operatör bedeli makine bedelinden ayrı bir satırda görünür ve MYK belgeli operatörün yeterlilik kaydı proje İSG dosyasına eklenir; kendi operatörünüzü kullanacaksanız sadece makine bedeli üzerinden fiyatlanır ama operatörünüzün belgesinin projeye uygun ve güncel olması sizin sorumluluğunuzdadır. Hangi modeli seçeceğiniz, sahada zaten belgeli operatörünüz olup olmamasına bağlıdır; iki senaryonun bütçe karşılaştırmasını isterseniz çıkarabiliriz.",
+            },
+            {
+                soru: "Forklift ile platformun aynı sahada çakışmaması için ne yapıyorsunuz?",
+                cevap:
+                    "Günlük ekipman planında her makinenin konumu ve çalışma saat aralığı ayrı ayrı işlenir — forklift malzeme indirirken platform aynı bölgede tavanda çalışmaz, biri diğerinin güzergâhını kapatmaz. Bu plan, sahadaki değişikliklere göre haftalık güncellenir ve saha şefiyle paylaşılır. Koordinasyon olmadan iki makine aynı sahaya girerse, bekleme ve manevra kayıpları hem süreyi hem bütçeyi büyütür; bizim planımız bunu baştan önler.",
+            },
+            {
+                soru: "Proje bitmeden forklifte ihtiyacımız kalmadı, erken iade edersek maliyet nasıl işler?",
+                cevap:
+                    "İhtiyacın bittiğini bildirdiğiniz gün demobilizasyon planına alınır ve genelde bir-iki iş günü içinde makine sahadan çekilir; kalan sözleşme süresi için bekleme bedeli işlemez. Bu, bizim de park verimliliğimize hizmet eder çünkü boşta duran makine bizim için de kayıptır. Erken bitişi öğrenir öğrenmez bildirmeniz yeterli, geri kalan süreci biz yürütürüz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift kapasite sınıfları ve MYK operatör yeterlilik zorunluluğu sektör genelinde bilinen bilgidir; malzeme akışına dayalı kapasite hesabı ve üçlü ekipman koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Proje Kapsamında Eklemli Platform Kalemi Planlaması",
+        giris:
+            "Eklemli platform, bir kurumsal proje bütçesinde genellikle en yüksek günlük bedele sahip erişim ekipmanı kalemidir ve bu nedenle en dikkatli planlanması gereken kalemdir — yanlış süre veya kapasite tahmini, projenin ekipman bütçesini diğer kalemlerden daha hızlı etkiler. Bizim yaklaşımımızda eklemli platform ihtiyacı, hedefin erişim zorluğundan türetilir: düz makaslı erişimin yetmediği, engel aşımı veya yanal uzanım gerektiren işlerde eklemli platform devreye girer ve bu ihtiyaç iş programının ilgili aktivitesine bağlanır. İkitelli'deki merkezimizden çalışırken bu kalemi keşif aşamasında netleştirir, bom uzunluğu ve kapasite tablosunu proje mühendisliğiyle birlikte kontrol ederiz. Bu sayfa, eklemli platform kaleminin proje bütçesine nasıl doğru girdiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Erişim zorluğundan bom uzunluğunun türetilmesi",
+                metin:
+                    "Eklemli platform seçimi, düz yükseklik değil erişim geometrisiyle belirlenir — hedefe engel üzerinden mi ulaşılacak, yanal uzanım mı gerekiyor, dönüş yarıçapı dar mı. Keşifte bu geometri ölçülür ve bom uzunluğu, dönüş açısı buradan çıkar; sadece 'kaç metre yüksekliğe çıkacağız' sorusuyla verilen karar, sahada yetersiz kalabilir çünkü düz yükseklik ile engelli erişim aynı makineyi gerektirmez.",
+            },
+            {
+                baslik: "Bom ucundaki kapasitenin proje yüküyle eşleşmesi",
+                metin:
+                    "Eklemli platformlarda kapasite bom açıldıkça düşer; proje bütçesi hazırlarken sepette taşınacak yük (kişi sayısı + malzeme + ekipman) bom açık pozisyondaki kapasiteyle karşılaştırılır, tam açık pozisyondaki kapasite değil. Bu ayrım gözden kaçtığında sahada makine yetersiz kalır ve daha büyük sınıfa geçiş, planlanmamış bir bütçe artışı olarak ortaya çıkar.",
+            },
+            {
+                baslik: "Dış mekan projelerinde zemin ve rüzgar payı",
+                metin:
+                    "Eklemli platformlar çoğunlukla dış mekan işlerinde (cephe, çatı, çelik konstrüksiyon) kullanılır ve bu ortamda zemin taşıma gücü ile rüzgar sınırı, iş programına ek bir değişken katar. Proje bütçesinde bu değişkenlik için bir çalışma günü payı ayrılır — rüzgar sınırını aşan günlerde iş durur, bu durum önceden bilinen bir risk olarak plana yazılır, sürpriz olarak yaşanmaz.",
+            },
+            {
+                baslik: "Dizel-akülü seçiminin proje ortamına göre yapılması",
+                metin:
+                    "Kapalı hacimde çalışan bir eklemli platform akülü olmak zorundadır, açık sahada uzun süreli iş ise genelde dizel tercih edilir çünkü şarj kaygısı olmadan tam gün çalışır. Proje bütçesinde bu ikisi arasındaki fark (günlük tarife, yakıt/şarj maliyeti) baştan netleştirilir; ortam değişkenken (örneğin hem iç hem dış mekan işi olan projelerde) faz bazında geçiş planlanır.",
+            },
+            {
+                baslik: "Birden fazla eklemli platformun proje portföyünde payı",
+                metin:
+                    "Büyük projelerde birden fazla eklemli platform aynı anda çalışabilir; bu durumda toplam kalem, tekil makine fiyatının çarpımı değil, portföy bazlı bir plandır — makineler arası devir, faz geçişlerinde bir sahadan diğerine taşınma gibi optimizasyonlar toplam bom-gün sayısını düşürebilir. Bu optimizasyon, proje ekipman planının bir parçası olarak sunulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Erişim zorluğuna göre eklemli platform seçim tablosu",
+                paragraflar: [
+                    "Hedefin erişim geometrisine göre tipik eklemli platform seçimi aşağıdadır. Kesin sınıf, keşifteki ölçümle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim durumu", "Önerilen özellik", "Kapasite dikkati", "Ortam"],
+                    satirlar: [
+                        ["Engel üzerinden erişim", "Uzun bom + yanal uzanım", "Bom açık kapasite", "Dış mekan"],
+                        ["Dar dönüş alanı", "Kompakt eklemli", "Şase genişliği öncelikli", "İç/dış mekan"],
+                        ["Uzun süreli tam gün iş", "Dizel eklemli", "Yakıt bağımsızlığı", "Dış mekan"],
+                        ["Kapalı hacim, düşük emisyon", "Akülü eklemli", "Şarj süresi payı", "İç mekan"],
+                        ["Çok noktalı proje portföyü", "Karma filo, devir planı", "Portföy optimizasyonu", "Değişken"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bom-gün hesabının teklif dosyasına yansıması",
+                paragraflar: [
+                    "Eklemli platform kaleminin teklif dosyasında görünen makine-gün rakamı, ilgili aktivitenin süresinden ve erişim geometrisinden türer; rastgele bir gün sayısı değildir. Hesap tablosu proje ofisine ayrıca sunulur, hangi aktivitenin kaç bom-gün gerektirdiği görülür. Bu şeffaflık, eklemli platformun bütçedeki en yüksek bedelli kalemlerden biri olması nedeniyle özellikle önemlidir; müşteri, rakamın gerekçesini görmeden onaylamak zorunda kalmaz.",
+                    "Hakediş döneminde gerçekleşen kullanım bu tabloyla karşılaştırılır; sapma varsa (örneğin rüzgar nedeniyle kaybedilen günler) nedeni ayrıca not edilir.",
+                ],
+            },
+            {
+                baslik: "Rüzgar ve hava koşulunun bütçeye önceden yazılması",
+                paragraflar: [
+                    "Dış mekanda çalışan eklemli platform için rüzgar sınırı üretici tarafından belirlenir ve bu sınır aşıldığında iş durur — bu durum proje bütçesinde bir 'kayıp gün payı' olarak baştan hesaba katılır, sonradan tartışma konusu yapılmaz. Kayıp gün payının büyüklüğü, işin mevsimine ve bölgenin genel rüzgar eğilimine göre değişir; kesin bir garanti değildir ama bütçenin gerçekçi kurulmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli mi makaslı mı gerektiğine nasıl karar veriyorsunuz?",
+                cevap:
+                    "Karar yükseklikten değil erişim geometrisinden çıkar: hedefe düz, engelsiz bir yoldan ulaşılabiliyorsa makaslı platform genelde daha ekonomiktir; hedef bir engelin üzerinden veya yanal uzanımla ulaşılacaksa eklemli platform gerekir çünkü makaslı platformun dikey hareketi bu geometriyi çözemez. Keşifte hedefin konumunu ve önündeki engelleri değerlendirir, doğru sınıfı gerekçesiyle birlikte öneririz. Fotoğraf veya çizim paylaşırsanız bu değerlendirmeyi önceden yapabiliriz.",
+            },
+            {
+                soru: "Bom açıkken kapasite düşüyormuş, bunu proje bütçesinde nasıl hesaba katıyorsunuz?",
+                cevap:
+                    "Kapasite tablosunu, sepetin çalışacağı gerçek bom pozisyonuna göre okuruz — tam açık pozisyondaki kapasite değil, hedefe ulaşmak için gereken açılım oranındaki kapasite dikkate alınır. Sepette taşınacak toplam yükü (kişi + malzeme + varsa ekipman) bu kapasiteyle karşılaştırır, sınırda kalıyorsa daha büyük sınıfı önceden öneririz. Sahada 'kapasite yetmedi' sürprizini yaşamamanın yolu, bu hesabı keşifte yapmaktır; yük listenizi paylaşın, kontrolü birlikte yapalım.",
+            },
+            {
+                soru: "Projemiz hem iç hem dış mekan işi içeriyor; tek makine mi yeter, faz mı değiştirelim?",
+                cevap:
+                    "Genelde faz bazında geçiş önerilir çünkü iç mekan işleri akülü ve kompakt sınıfı gerektirirken dış mekan işleri dizel veya daha büyük eklemli sınıfı gerektirebilir; tek bir makineyi her iki ortama zorlamak ya iç mekanda emisyon sorunu ya dış mekanda yetersiz kapasite yaratır. Proje bütçesinde bu geçişi iş programındaki faz sınırına göre planlarız — iç mekan fazı bitip dış mekan fazı başladığında makine değişimi önceden planlanmış bir tarih olur, sahada ani karar olmaz.",
+            },
+            {
+                soru: "Rüzgarlı günlerde iş durursa bunun maliyeti bize mi yansır?",
+                cevap:
+                    "Rüzgar sınırı üreticinin belirlediği bir güvenlik kuralıdır ve aşıldığında iş durması kaçınılmazdır; biz bunu proje bütçesine önceden bir kayıp gün payı olarak yazarız, sonradan sürpriz maliyet çıkarmayız. Kayıp gün, sözleşmedeki kira süresini uzatabilir ama bu durumu önceden bildiririz ve mümkünse sözleşme süresini rüzgarlı dönemin öngörülen etkisine göre esnetiriz. Amacımız, öngörülebilir bir doğa olayını sürpriz fatura hâline getirmemektir.",
+            },
+            {
+                soru: "Aynı projede üç eklemli platform çalışacak; bunları tek tek mi kiralıyoruz?",
+                cevap:
+                    "Tek tek kiralamak mümkündür ama önerimiz portföy bazlı planlamadır — üç makinenin ihtiyaç tarihleri, faz geçişleri ve olası devir imkanları (bir sahadaki iş biterken diğerinde başlıyorsa aynı makinenin transferi) birlikte değerlendirilir. Bu, üç ayrı sözleşmenin toplamından daha düşük toplam bom-gün maliyeti üretebilir. Üç makinenin de iş programındaki yerini paylaşırsanız, portföy planını ve olası tasarruf noktalarını birlikte çıkarırız.",
+            },
+            {
+                soru: "Eklemli platform kalemi bütçemizde en pahalı kalem, maliyeti düşürmenin bir yolu var mı?",
+                cevap:
+                    "En etkili yol, süreyi kısaltmak değil doğru sınıfı ve doğru zamanlamayı seçmektir — gereksiz büyük bom kapasitesiyle çalışmak, erken mobilizasyon yapıp bekletmek veya sıralı çalışabilecek işi paralel makineyle yürütmek, hep bütçeyi büyüten kararlardır. Keşifte erişim geometrisini doğru ölçüp doğru sınıfı seçmek, mobilizasyonu aktivite başlangıcına tam oturtmak ve mümkünse birden fazla aktiviteyi aynı makine döneminde toplamak, bu kalemde gerçek tasarruf sağlar. Bütçenizi birlikte gözden geçirip bu noktaları arayabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformların bom açıldıkça kapasite düşürmesi ve rüzgar sınırı kuralları üretici teknik dokümantasyonunda yer alan bilgidir; erişim geometrisine dayalı seçim ve portföy planlaması firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Depo ve Tesis Projelerinde Platform Bütçe İskeleti",
+        giris:
+            "Bir depo veya üretim tesisi projesinde platform ihtiyacı, inşaat şantiyesinden farklı bir mantıkla bütçelenir — burada değişken hava koşulu yoktur ama işletme sürekliliği vardır, raf sistemleri ve dar koridorlar vardır, bazen tesis üretim yaparken aynı anda inşaat işi yürür. Bizim proje yaklaşımımızda depo-tesis platform bütçesi, üç veriden kurulur: tavan yüksekliği ve raf-koridor ölçüleri, işletmenin çalışma saatleri (platform işi mesai içi mi dışı mı yapılacak) ve zemin tipi (iz bırakmama gerekliliği). İkitelli çevresindeki lojistik ve üretim tesislerinde bu üç veriyi keşifte topluyor, platform kalemini (tip, adet, süre) buradan hesaplıyoruz. Bu sayfa, depo-tesis projelerinde platform bütçesinin nasıl iskeletlendiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Tavan yüksekliği ve raf ölçülerinden platform tipinin çıkarılması",
+                metin:
+                    "Depo tavanları genelde 8-12 metre bandında olur ve bu, akülü makaslı sınıfını en pratik seçenek yapar; ama raf aralığı darsa (dar koridor tipi raf sistemlerinde) standart makaslı şasesi sığmayabilir ve dar koridor tipi platform gündeme gelir. Bu ayrım, keşifte raf-koridor ölçüsü alınmadan yapılamaz; ölçü olmadan verilen teklif, sahada geri dönüş riski taşır.",
+            },
+            {
+                baslik: "İşletme saatlerine göre çalışma penceresinin bütçeye etkisi",
+                metin:
+                    "Tesis üretim yaparken platform işi genelde mesai dışı saatlere (gece veya hafta sonu) kaydırılır; bu, platform kiralama süresini uzatmayabilir ama operatör ve nakliye planlamasını mesai dışı çalışmaya göre kurmayı gerektirir. Proje bütçesinde bu, ayrı bir kalem olarak görünmez ama operasyonel planlamanın (hangi gece, kaç saat) net olması, platform kaleminin verimli kullanılmasını sağlar.",
+            },
+            {
+                baslik: "Zemin tipi ve iz bırakmama gerekliliği",
+                metin:
+                    "Depo zeminleri genelde epoksi kaplı veya perdahlı betondur ve standart siyah lastik iz bırakır; kurumsal tesislerde bu kabul edilmez ve iz bırakmayan (beyaz dolgu) lastikli model şart koşulur. Bu gereklilik teklif aşamasında netleştirilir çünkü iz bırakmayan lastikli modeller stoktan seçilerek planlanır, sahada son anda değiştirilmez.",
+            },
+            {
+                baslik: "Raf üstü ve yükleme rampası işlerinde ek güvenlik payı",
+                metin:
+                    "Raf üstü çalışmada makine raf ile raf arasında dar bir koridorda hareket eder ve çukur önleme, devrilme sensörü gibi güvenlik sistemleri devrede olmalıdır; yükleme rampası çevresinde ise kot farkı riski vardır. Bu bölgeler proje güvenlik planında ayrıca işaretlenir, platform operatörüne bu bölgelerin özel talimatı verilir.",
+            },
+            {
+                baslik: "Çok bölümlü tesis projelerinde platform devri",
+                metin:
+                    "Büyük bir tesis projesinde platform ihtiyacı bölüm bölüm ilerler — önce bir hat sahası, sonra depo bölümü, sonra idari kısım. Bütçe planında platformun bölümler arası devri (aynı makinenin bir bölümden diğerine taşınması) öngörülür; bu, her bölüm için ayrı makine kiralamaya göre toplam maliyeti düşürür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo-tesis proje tiplerine göre platform tablosu",
+                paragraflar: [
+                    "Depo ve tesis projelerinde sık karşılaşılan senaryolar ve önerilen platform çözümleri aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Tavan/koridor durumu", "Önerilen platform", "Bütçe dikkati"],
+                    satirlar: [
+                        ["Standart depo raf üstü", "8-12 m, standart koridor", "Akülü makaslı", "İz bırakmama şartı"],
+                        ["Dar koridor raf sistemi", "8-12 m, dar koridor", "Dar koridor tipi", "Şase genişliği kontrolü"],
+                        ["Üretim hattı üstü bakım", "Değişken, mesai dışı", "Akülü makaslı/eklemli", "Gece çalışma planı"],
+                        ["Yükleme rampası çevresi", "Kot farklı", "Çukur önleme sistemli", "Güvenlik payı"],
+                        ["İdari bina içi tadilat", "Standart ofis tavanı", "Kompakt akülü", "Düşük gürültü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Mesai dışı çalışmanın proje takvimine etkisi",
+                paragraflar: [
+                    "İşletmesi süren bir tesiste platform işini mesai dışına almak, iş süresini uzatabilir çünkü günlük çalışma penceresi daralır — gece vardiyasında dört-beş saatlik bir pencere, gündüz sekiz saatlik bir pencereye göre daha az iş kapasitesine denk gelir. Proje bütçesinde bu daralma, toplam kiralama süresine yansıtılır; mesai dışı çalışma kararı verilmeden önce bu süre uzaması müşteriye açıkça gösterilir, sürpriz olarak yaşanmaz.",
+                    "Bazı projelerde kısmi mesai içi çalışma (üretimin durduğu belirli bölümlerde gündüz, devam eden bölümlerde gece) karma bir plan olarak kurulabilir; bu, süreyi kısaltan ama koordinasyonu artıran bir seçenektir.",
+                ],
+            },
+            {
+                baslik: "Bölümler arası platform devrinin bütçe getirisi",
+                paragraflar: [
+                    "Çok bölümlü tesis projelerinde her bölüm için ayrı platform kiralamak yerine, bir bölümün işi biterken makinenin bir sonraki bölüme devredilmesi, toplam makine-gün sayısını düşürür. Bu devir planı, iş programındaki bölüm geçiş tarihlerine göre önceden kurulur; devir günü makinenin temizlik ve kontrol süresi de plana dahil edilir, sahada gecikme yaşanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Deponun raf aralığı dar, standart platform sığar mı bilmiyoruz; nasıl kontrol edersiniz?",
+                cevap:
+                    "Keşifte koridor genişliğini ve raf yüksekliğini ölçer, bunu standart makaslı platformun şase genişliğiyle karşılaştırırız — sığmıyorsa dar koridor tipi platform önerilir, bu tip standart modele göre daha dar şaseyle üretilmiştir. Ölçü almadan verilen bir teklif, sahada geri dönüş riski taşıdığı için biz bu adımı atlamayız. Koridor ve raf ölçülerinizi (mimari çiziminizden veya yerinde ölçümle) paylaşırsanız, sığıp sığmayacağını önceden netleştiririz.",
+            },
+            {
+                soru: "Tesisimiz üretim yaparken platform işini gece yapmak istiyoruz; bütçeye etkisi olur mu?",
+                cevap:
+                    "Olabilir — gece vardiyasındaki çalışma penceresi gündüze göre genelde daha kısadır, bu yüzden aynı işi bitirmek daha fazla gece gerektirebilir ve toplam kiralama süresi uzayabilir. Bu uzamayı proje bütçesine kararınızdan önce göstererek karşılaştırma sunarız — gece çalışmanın üretim kesintisini önleme faydasıyla, süre uzamasının maliyetini yan yana koyarsınız. Karma bir plan (bazı bölümler gündüz, bazıları gece) da bir seçenektir; üretim programınızı paylaşırsanız en uygun karışımı birlikte çıkarırız.",
+            },
+            {
+                soru: "Zeminimiz epoksi kaplı, standart lastikli platform kullanabilir miyiz?",
+                cevap:
+                    "Önerilmez — standart siyah lastik epoksi zeminde iz bırakır ve bu genelde kurumsal tesislerde kabul edilmez. İz bırakmayan (beyaz dolgu) lastikli modelleri teklif aşamasında ayırırız; bu modeller stoktan seçilerek planlandığı için sahada son anda değiştirme ihtiyacı doğmaz. Zemin tipinizi (epoksi, perdahlı beton, döşeme) belirtirseniz doğru lastik seçimini baştan garanti ederiz.",
+            },
+            {
+                soru: "Yükleme rampası çevresinde platform kullanacağız, ekstra bir önlem gerekiyor mu?",
+                cevap:
+                    "Evet — rampa çevresindeki kot farkı, platformun devrilme riskini artıran bir zemin koşuludur ve bu bölgede çukur önleme (devrilme sensörü) sistemi olan modeller kullanılır. Ayrıca bu bölge, günlük ekipman planında ayrıca işaretlenir ve operatöre özel talimat verilir. Rampa çevresindeki kot farkını ve kullanım sıklığını paylaşırsanız, bu bölgeye özgü güvenlik önlemini teklife dahil ederiz.",
+            },
+            {
+                soru: "Tesisimiz üç bölümden oluşuyor, her bölüm için ayrı mı platform kiralamalıyız?",
+                cevap:
+                    "Zorunlu değil — bölüm geçiş tarihleriniz belliyse aynı platformun bölümler arası devri planlanabilir, bu da toplam makine-gün sayısını düşürür. Devir günü makinenin kısa bir kontrol ve temizlik süreci alır, bu süre plana dahil edilir ki sahada gecikme yaşanmasın. Üç bölümün iş programındaki sırasını paylaşırsanız, devir planının mı yoksa ayrı kiralamanın mı daha ekonomik olduğunu birlikte hesaplarız.",
+            },
+            {
+                soru: "Depo projesinde platform kalemi genelde bütçenin ne kadarını oluşturur, bunu öngörebilir miyiz?",
+                cevap:
+                    "Tam yüzde vermek doğru olmaz çünkü projeden projeye raf metrajı, tavan yüksekliği ve süre farklıdır; ama öngörülebilirlik, hesaba dayalı planlamadan gelir. Keşifte raf metrajınızı ve iş süresini aldığımızda platform kalemini makine-gün cinsinden net bir rakama dönüştürürüz, bu rakam teklif dosyasında ayrı bir satır olarak görünür. Proje bütçenizin ekipman kısmını hazırlarken bu rakamı doğrudan kullanabilirsiniz; tahmine değil hesaba dayandığı için sapma riski düşüktür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo tavan yükseklikleri ve zemin tiplerinin genel özellikleri sektör bilgisidir; raf-koridor ölçü kontrolü ve bölüm devri planlaması firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montaj Projelerinde Keşiften Bütçeye Ekipman Planı",
+        giris:
+            "Çelik konstrüksiyon montajı, İkitelli ve çevresindeki sanayi bölgelerinin en yoğun ekipman talebi üreten iş koludur ve aynı zamanda proje bütçelemenin en fazla hata payı taşıdığı iş koludur — çünkü montaj hızı, malzeme tedarik takvimine, vinç programına ve hava koşuluna bağlı olarak değişir, sabit bir 'günlük ilerleme' varsayımı sık sık yanılır. Bizim yaklaşımımız, çelik montaj projesinde platform ve forklift kalemini tek seferlik bir teklif değil, montaj sırasına bağlı bir bütçe iskeleti olarak kurmaktır: keşifte konstrüksiyon projesinin montaj sırası (hangi aks önce, hangi kot sonra), kaynak-bulon işlerinin dağılımı ve vinç kanca programı incelenir; platform ihtiyacı bu programdan türer. Bu sayfa, keşiften bütçeye uzanan bu süreci baştan sona anlatır — çünkü çelik montaj bu dosyanın ana konusudur ve en çok yanlış anlaşılan kalemdir.",
+        maddeler: [
+            {
+                baslik: "Montaj sırasından platform ihtiyacının çıkarılması",
+                metin:
+                    "Çelik konstrüksiyon montajı belirli bir sırayla ilerler — kolonlar dikilir, kirişler bağlanır, aks aks ilerleyerek çatı kaplamasına gelinir. Her aşamanın erişim ihtiyacı farklıdır: kolon-kiriş birleşim noktalarında kaynak-bulon işi için dikey veya eklemli platform, çatı kaplamasında geniş sepetli makaslı veya uzun bomlu eklemli. Keşifte montaj sırası projeden alınır (statik proje veya yüklenicinin montaj planı), her aşamaya uygun platform tipi ve süresi buradan atanır — genel bir 'platform gerekecek' tahmini değil, aks aks çıkarılmış bir plan sunulur.",
+            },
+            {
+                baslik: "Vinç kanca programıyla platformun iş bölüşümü",
+                metin:
+                    "Büyük çelik montajlarda vinç, ağır elemanları kaldırırken platform kaynak-bulon gibi ince işleri yürütür; ikisinin programı çakışırsa vinç kanca sırası gecikir. Proje ekipman planımızda platformun çalışma saatleri, vinç programının 'boşta' olduğu dilimlere değil, ikisinin birlikte güvenli çalışabileceği bölgelere göre kurulur — aynı aksta aynı anda vinç kaldırma yaparken platform o aksın altında çalışmaz. Bu ayrım, hem güvenlik hem takvim açısından zorunludur.",
+            },
+            {
+                baslik: "Hava koşulunun montaj takvimine ve bütçeye etkisi",
+                metin:
+                    "Çelik montaj büyük ölçüde dış mekan işidir ve rüzgar, yağış, düşük sıcaklık montaj hızını doğrudan etkiler — özellikle yüksekte çalışan eklemli platformlar için rüzgar sınırı kesin bir kırılma noktasıdır. Bütçe iskeletinde bu risk, sabit bir gün sayısına gizlenmez; mevsime göre bir kayıp gün payı hesaba katılır ve bu pay proje ofisine yazılı olarak, gerekçesiyle sunulur.",
+            },
+            {
+                baslik: "Kaynak-bulon işlerinde erişim süresinin metraja bağlanması",
+                metin:
+                    "Kaynak ve bulon birleşim sayısı, konstrüksiyon projesinin birleşim detay listesinden çıkarılır; her birleşim noktası için ortalama işlem süresi (sektör deneyimiyle bilinen aralıklar) uygulanarak platform-gün ihtiyacı hesaplanır. Bu hesap, montaj yüklenicisinin kendi iş programıyla karşılaştırılır — ikisi arasında büyük fark varsa (örneğin yüklenici daha hızlı bir program öngörüyorsa) bu fark birlikte tartışılır ve gerçekçi bir ortak rakama varılır.",
+            },
+            {
+                baslik: "Çok akslı büyük projelerde ekipman portföyünün fazlanması",
+                metin:
+                    "Geniş açıklıklı bir çelik konstrüksiyon projesinde birden fazla aks aynı anda montaj görebilir; bu durumda platform sayısı tek makineye değil, aynı anda çalışan aks sayısına göre belirlenir. Bütçe planında bu fazlama, montaj yüklenicisinin eş zamanlı çalışma hedefine göre kurulur — kaç aks paralel ilerleyecekse o kadar makine devreye alınır, aks tamamlandıkça makine bir sonraki aksa kayar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre ekipman ve bütçe iskeleti",
+                paragraflar: [
+                    "Tipik bir çelik konstrüksiyon montaj projesinde aşamaların ekipman ihtiyacı aşağıdaki gibi dağılır. Kesin gün sayısı, projenin birleşim detay listesi ve montaj programından çıkar.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj aşaması", "Ekipman", "Bütçe ağırlığı", "Ana risk"],
+                    satirlar: [
+                        ["Kolon dikme", "Vinç + telehandler destek", "Orta", "Vinç kanca programı"],
+                        ["Kiriş bağlama, kaynak-bulon", "Dikey/eklemli platform", "Yüksek", "Birleşim sayısı"],
+                        ["Çatı kaplaması", "Geniş sepetli makaslı/eklemli", "Yüksek", "Rüzgar sınırı"],
+                        ["Cephe kaplaması", "Eklemli platform", "Orta-yüksek", "Hava koşulu"],
+                        ["Son kontrol/tolerans düzeltme", "Küçük akülü çekirdek", "Düşük", "Punch list"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşiften teklif dosyasına: hesap tablosunun kurulumu",
+                paragraflar: [
+                    "Çelik montaj projelerinde teklif dosyasına giden platform-gün rakamı üç girdiden kurulur: birleşim detay listesindeki nokta sayısı, montaj programındaki aks sırası ve mevsime bağlı kayıp gün payı. Bu üç girdi birleştirilip aks bazlı bir hesap tablosu hâline getirilir ve proje ofisine sunulur — hangi aksın kaç platform-gün gerektirdiği, hangi haftada hangi makinenin devreye gireceği tek tabloda görülür.",
+                    "Bu tablo, montaj yüklenicisinin kendi iş programı revize edildikçe güncellenir; revizyon geldiğinde aynı gün içinde hesap yeniden çalıştırılır ve güncellenmiş rakam iletilir. Çelik montajın bu dosyada ana konu olmasının nedeni budur — en yüksek bütçe payını alan kalem, en sıkı takip edilen kalem olmalıdır.",
+                ],
+            },
+            {
+                baslik: "Vinç-platform çakışmasının önlenmesi: günlük saha planı",
+                paragraflar: [
+                    "Aynı aksta aynı gün hem vinç hem platform çalışacaksa, günlük saha planı bu ikisinin saatlerini ayırır — vinç kaldırma yaparken o aksın altında platform bulunmaz, kaldırma bitip elemanlar yerine oturduktan sonra platform kaynak-bulon işine başlar. Bu sıralama, sabah saha toplantısında güncellenir ve gün içindeki değişikliklere (örneğin vinç programının gecikmesi) göre esner. Koordinasyon olmadan iki makinenin aynı aksa girmesi, hem güvenlik riski hem bekleme kaybı demektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik montaj projemizin platform bütçesini nasıl doğru hesaplarsınız, tahmini bir rakam mı verirsiniz?",
+                cevap:
+                    "Tahmini bir rakam vermeyiz — konstrüksiyon projenizin birleşim detay listesinden kaynak-bulon nokta sayısını çıkarır, montaj programınızdaki aks sırasıyla eşleştirir ve buradan aks bazlı bir platform-gün hesabı üretiriz. Bu hesaba mevsime bağlı bir kayıp gün payı da eklenir. Sonuç, teklif dosyasında görebileceğiniz, hangi aksın kaç gün platform gerektirdiğini gösteren bir tablodur — rakamın nereden geldiğini görmeden onaylamanızı istemeyiz. Birleşim detay listenizi ve montaj programınızı paylaşırsanız bu hesabı birlikte çıkarabiliriz.",
+            },
+            {
+                soru: "Vinç programımız çok yoğun, platform işini ne zaman yapacağız?",
+                cevap:
+                    "Vinç kanca programınızı incelediğimizde, kaldırma işleminin bitip elemanların yerine oturduğu ama henüz sökülmediği dilimleri (genelde kaldırma sonrası, bir sonraki kaldırmadan önceki ara) platform çalışması için ayırırız. Aynı aksta aynı anda ikisini çalıştırmayız — güvenlik açısından kabul edilemez. Vinç programınız yoğunsa platform işi diğer akslarda paralel ilerleyebilir; hangi akslar hangi sırayla müsait olacak, günlük saha planında netleşir.",
+            },
+            {
+                soru: "Rüzgarlı bölgede çatı kaplaması yapacağız, bu iş için özel bir platform planı var mı?",
+                cevap:
+                    "Çatı kaplaması, eklemli veya geniş sepetli makaslı platformların rüzgar sınırına en hassas olduğu iştir; biz bu iş için sabah rüzgar durumuna göre günlük başlama kararı veririz ve iş programına mevsime bağlı bir kayıp gün payı önceden yazarız. Rüzgarlı günlerde iş erteleniyorsa bu, önceden bilinen ve bütçeye yazılmış bir risktir, sürpriz maliyet değildir. Projenizin bölgesini ve mevsimini paylaşırsanız, bu payı gerçekçi bir aralıkla belirleyebiliriz.",
+            },
+            {
+                soru: "Montaj programımız revize edildi, ekipman planı ne kadar sürede güncellenir?",
+                cevap:
+                    "Revize program elimize ulaştığı gün içinde aks bazlı hesabı yeniden çalıştırır, güncellenmiş platform-gün tablosunu ve rezervasyon değişikliklerini yazılı olarak iletiriz. Çelik montaj projelerinde revizyon sık yaşanan bir durumdur (malzeme tedariki, hava koşulu, tasarım değişikliği) ve gecikmeli güncellenen bir ekipman planı, ya boşta bekleyen ya da geç kalan makineye dönüşür. İkitelli'deki merkezimizin projeye yakınlığı, güncellenen planın sahada aynı gün karşılık bulmasını kolaylaştırır.",
+            },
+            {
+                soru: "Aynı anda üç aks paralel ilerliyor; platform sayısını nasıl belirliyorsunuz?",
+                cevap:
+                    "Paralel ilerleyen aks sayısı kadar platform ihtiyacı doğar, ama bu her aksa ayrı ayrı en büyük makineyi göndermek anlamına gelmez — her aksın kendi erişim geometrisine göre uygun sınıf seçilir ve akslardan biri erken tamamlanırsa makinesi bir sonraki aksa veya yoğun kalan aksa kaydırılır. Bu kaydırma planı, montaj programınızdaki aks tamamlanma tarihlerine göre önceden kurulur. Üç aksın montaj sırasını paylaşırsanız, portföy planını ve olası kaydırma noktalarını birlikte çıkarırız.",
+            },
+            {
+                soru: "Montaj yüklenicisi olarak teklif hazırlıyoruz, ekipman kalemini teklife nasıl doğru yazarız?",
+                cevap:
+                    "İhaleye giren yüklenicinin en sık yaptığı hata, ekipman kalemini kabaca bir gün sayısıyla geçmesidir; biz teklif hazırlığına ortak oluruz — birleşim detay listenizden ve öngördüğünüz montaj programından aks bazlı platform-gün hesabını çıkarır, bu hesabı teklif dosyanıza eklenebilecek yazılı bir tablo hâlinde sunarız. İş alınırsa bu hesap taahhüdümüz olur; alınmazsa emek bizden gitmiş olur ama bunu proje ilişkisinin bir yatırımı sayarız. Konstrüksiyon proje dosyanızı paylaşın, teklif hazırlığına birlikte başlayalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj sırası (kolon-kiriş-çatı) ve vinç kanca programı kavramları sektör genelinde bilinen mühendislik pratiğidir; aks bazlı platform-gün hesabı ve kayıp gün payı yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Tesislerinde Platform Kiralama: Dürüst Bir Değerlendirme",
+        giris:
+            "İkitelli merkezli, kurumsal proje ve bütçeleme odaklı bir tedarikçi olarak dürüst olmak gerekirse, tarım ve silo tesisleri bizim asıl uzmanlık alanımız değildir — hizmet bölgemiz sanayi sitesi, OSB ve şehir içi kurumsal proje ağırlıklıdır, geniş tarım arazileri veya kırsal silo tesisleri bu ağın merkezinde yer almaz. Yine de bölgemizdeki organize sanayi alanlarına yakın konumlanmış gıda işleme, yem üretimi veya depolama tesislerinde silo çevresi bakım ve montaj işleri için platform talebi zaman zaman gelir; bu talepleri karşılıyoruz ama sayfanın amacı abartılı bir uzmanlık iddiası değil, gerçekçi bir çerçeve çizmektir. Aşağıda, bu tip işlerde platform kaleminin nasıl planlandığını ve nerede sınırımızın olduğunu açık şekilde anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Hangi silo işlerinde platform hizmeti veriyoruz",
+                metin:
+                    "Bize gelen talepler genellikle şehir çevresindeki gıda işleme veya yem üretim tesislerinin silo dış cephesi, merdiven-platform bakımı veya aydınlatma değişimi gibi noktasal işlerdir — silonun kendi yapısal montajı değil, çevresindeki erişim ihtiyacıdır. Bu tip işler, standart eklemli veya dizel makaslı platformla karşılanabilir ve proje bütçeleme yaklaşımımız (metraj-süre hesabı, keşif odaklı planlama) burada da aynen uygulanır.",
+            },
+            {
+                baslik: "Zemin ve erişim koşullarının belirleyiciliği",
+                metin:
+                    "Tarım ve silo tesislerinin çevresi genelde asfalt olmayan, düzensiz zeminlidir ve bu, platform seçimini doğrudan etkiler — standart lastikli dizel makaslı yerine daha geniş taban ve dört tekerlek tahrikli modeller tercih edilir. Zemin taşıma gücü belirsizse (özellikle yağışlı dönemde) keşifte bu risk açıkça belirtilir; bazı durumlarda iş, zemin kuruyana kadar ertelenir.",
+            },
+            {
+                baslik: "Mesafe ve lojistiğin bütçeye yansıması",
+                metin:
+                    "İkitelli merkezimizden şehir dışına veya tarım bölgesine yapılan sevkiyat, şehir içi işlere göre daha uzun mesafe ve daha yüksek nakliye maliyeti taşır. Bu maliyeti teklif aşamasında açıkça gösteririz; bazı durumlarda tesise daha yakın bölgesel bir tedarikçinin daha ekonomik olacağını da dürüstçe söyleriz, çünkü müşteri ilişkisinde uzun vadeli güven, tek seferlik bir işten daha değerlidir.",
+            },
+            {
+                baslik: "Bu alanda sunmadığımız hizmetler",
+                metin:
+                    "Silonun kendi yapısal montajı, büyük tarım makineleri bakımı veya kırsal alanda uzun süreli konaklamalı proje desteği gibi işler, bizim ağımızın ve envanterimizin merkezinde değildir. Bu tip talepler geldiğinde, ihtiyacı karşılayabilecek olduğunu düşündüğümüz alanlara yönlendirmeyi tercih ederiz; elimizde olmayan bir uzmanlığı varmış gibi sunmak, ne bizim ne müşterinin çıkarınadır.",
+            },
+            {
+                baslik: "Kurumsal tesise bağlı silo işlerinde proje disiplini",
+                metin:
+                    "OSB içindeki veya OSB'ye yakın kurumsal bir tesisin silo çevresi bakım projesi ise, bu iş bizim asıl uzmanlık alanımıza (kurumsal proje yönetimi, tesis bakım koordinasyonu) girer; silo, tesisin genel bakım programının bir parçası olarak ele alınır ve platform kalemi diğer proje kalemleriyle aynı disiplinde planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo-tarım işlerinde hizmet kapsamı tablosu",
+                paragraflar: [
+                    "Hangi tip işlerde hizmet verdiğimiz ve hangilerinde yönlendirme yaptığımız aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Kapsam durumu", "Not"],
+                    satirlar: [
+                        ["Silo dış cephe/merdiven bakımı", "Kapsam içi", "Standart eklemli/makaslı platform"],
+                        ["OSB'ye yakın gıda/yem tesisi bakımı", "Kapsam içi", "Proje disipliniyle yürütülür"],
+                        ["Silonun yapısal montajı", "Kapsam dışı", "Uzman yükleniciye yönlendirme"],
+                        ["Kırsal alanda uzun konaklama", "Sınırlı kapsam", "Mesafe-lojistik değerlendirilir"],
+                        ["Büyük tarım makinesi bakımı", "Kapsam dışı", "Farklı ekipman uzmanlığı gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu alanı öne çıkarmıyoruz",
+                paragraflar: [
+                    "Kurumsal proje ve bütçeleme odaklı çalışma modelimiz, İkitelli OSB ve çevresindeki sanayi-tesis yoğunluğuna göre kurulmuştur; tarım ve silo tesisleri bu coğrafyanın istisnasıdır, kuralı değil. Bu nedenle sayfayı uzun tutup abartılı bir uzmanlık iddiasında bulunmak yerine, gerçek kapsamımızı ve sınırımızı açık yazmayı tercih ediyoruz — böylece bize ulaşan bir tesis sahibi, bekleyebileceği hizmeti gerçekçi olarak bilir.",
+                ],
+            },
+            {
+                baslik: "Talep geldiğinde ilk değerlendirme adımı",
+                paragraflar: [
+                    "Silo veya tarım tesisi ile ilgili bir talep geldiğinde ilk yaptığımız şey, işin niteliğini ve mesafesini netleştirmektir — tesis OSB'ye yakınsa ve iş noktasal bir erişim ihtiyacıysa kapsam içindir; iş yapısal montaj veya çok uzak bir lokasyon gerektiriyorsa bunu açıkça belirtir, gerekirse başka bir çözüm önereriz. Bu ilk değerlendirme, hem müşterinin hem bizim zaman kaybetmemesi içindir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo tesisimizin dış cephesinde aydınlatma değişimi yapacağız, bu iş kapsamınızda mı?",
+                cevap:
+                    "Evet, bu tip noktasal erişim işleri kapsamımızdadır — silonun dış cephesine veya merdiven-platform alanına standart eklemli veya dizel makaslı platformla erişim sağlanabilir. Tesisinizin konumunu ve zemin durumunu (asfalt mı, toprak mı) paylaşırsanız uygun modeli ve nakliye maliyetini birlikte netleştiririz. Tesisiniz İkitelli çevresine yakınsa süreç şehir içi bir işten farksız işler.",
+            },
+            {
+                soru: "Silonun kendisinin montajı için ekipman veriyor musunuz?",
+                cevap:
+                    "Silonun yapısal montajı bizim asıl uzmanlık alanımızın dışındadır; bu iş genelde silo üreticisinin kendi montaj ekibi veya bu konuda uzmanlaşmış yükleniciler tarafından yürütülür ve özel kaldırma ekipmanı gerektirebilir. Dürüstçe söylemek gerekirse, bu tip işlerde size yardımcı olamayabiliriz; ama montaj çevresindeki destek işleri (malzeme taşıma, erişim platformu) için bize ulaşabilirsiniz.",
+            },
+            {
+                soru: "Tesisimiz İkitelli'ye uzak, yine de hizmet verir misiniz?",
+                cevap:
+                    "Mesafeye bağlı olarak verebiliriz ama nakliye maliyeti şehir içi işlere göre yüksek olacaktır ve bunu teklifte açıkça göstereceğiz. Bazı durumlarda, tesisinize daha yakın bölgesel bir tedarikçinin daha ekonomik olacağını da söyleriz — bu, sizi kaybetmek pahasına bile olsa dürüst olmayı tercih ettiğimiz bir noktadır. Konumunuzu paylaşırsanız, gerçekçi bir maliyet karşılaştırması sunabiliriz.",
+            },
+            {
+                soru: "Zeminimiz toprak, yağmur sonrası çamurlu oluyor; platform çalışabilir mi?",
+                cevap:
+                    "Zemin taşıma gücü düşükse ve çamurluysa standart lastikli platform çalışamaz veya güvenli çalışmaz; bu durumda ya zeminin kurumasını beklemek ya da zemin güçlendirme (plaka serimi gibi) düşünülür. Keşifte bu riski açıkça belirtiriz; sahaya git-gel yaparak zaman kaybetmek yerine, zemin durumunu önceden netleştirmeyi tercih ederiz. Zeminin mevcut durumunu fotoğrafla paylaşırsanız ön değerlendirmeyi uzaktan da yapabiliriz.",
+            },
+            {
+                soru: "Yem üretim tesisimiz OSB içinde, düzenli bakım için sizinle proje bazlı çalışabilir miyiz?",
+                cevap:
+                    "Evet, bu senaryo tam olarak kapsamımıza girer — OSB içindeki bir tesisin düzenli bakım programı, bizim kurumsal proje yaklaşımımızla (yıllık veya dönemsel bakım takvimi, ekipman planı, proje dosyası) yürütülebilir. Silo çevresi bu bakım programının bir kalemi olarak ele alınır, diğer tesis bakım işleriyle (aydınlatma, çatı, cephe) aynı disiplinde planlanır. Tesisinizin bakım programını paylaşırsanız, bu çerçeveyi birlikte kuralım.",
+            },
+            {
+                soru: "Büyük tarım makinelerinin bakımı için de platform sağlıyor musunuz?",
+                cevap:
+                    "Bu, bizim standart filomuzun kapsamı dışındadır — büyük tarım makinelerinin bakımı genelde farklı ekipman ve uzmanlık gerektirir. Dürüstçe söylemek gerekirse bu alanda size yardımcı olamayız; elimizde olmayan bir hizmeti varmış gibi göstermek istemiyoruz. İhtiyacınızın tam niteliğini paylaşırsanız, en azından doğru yöne yönlendirmeye çalışabiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İkitelli OSB ve çevresinin sanayi-tesis ağırlıklı yapısı, tarım-silo tesislerinin bu ağın istisnası olduğu kamuya açık coğrafi gerçektir; hizmet kapsamı sınırları firma pratiğidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Proje Kapsamında Enerji ve Aydınlatma Bakım Kalemi",
+        giris:
+            "Bir tesis veya bina projesinde enerji altyapısı ve aydınlatma bakımı, çoğu zaman ana proje kalemlerinin (inşaat, montaj) gölgesinde kalan ama toplam ekipman bütçesinde sürekli tekrar eden bir kalemdir — çünkü aydınlatma armatürleri periyodik değişir, enerji hatları düzenli kontrolden geçer ve bu işler tek seferlik değil dönemsel bir ihtiyaçtır. Bizim proje yaklaşımımız bu kalemi tek seferlik bir kiralama değil, tesisin bakım takvimine bağlı bir bütçe kalemi olarak ele almaktır: kaç nokta aydınlatma, hangi periyotta, hangi tavan yüksekliğinde, ne kadar sürede tamamlanacağı önceden hesaplanır. İkitelli çevresindeki sanayi tesislerinde ve ticari yapılarda bu kalemi diğer proje kalemleriyle (cephe, çelik montaj) aynı disiplinde planlıyoruz. Bu sayfa, enerji-aydınlatma bakım kaleminin proje bütçesine nasıl girdiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Nokta sayısından platform-gün hesabına",
+                metin:
+                    "Aydınlatma değişimi veya enerji hattı kontrolü, nokta bazlı bir iştir — kaç armatür, kaç pano, hangi aralıklarla. Keşifte bu nokta sayısı tesis planından çıkarılır, ortalama nokta başına işlem süresiyle çarpılarak platform-gün ihtiyacı hesaplanır. Bu hesap, 'birkaç gün platform lazım' gibi kaba bir tahminden farklıdır ve teklif dosyasında ayrı bir kalem olarak gösterilir.",
+            },
+            {
+                baslik: "Tavan yüksekliğine göre platform tipi seçimi",
+                metin:
+                    "Aydınlatma işleri genelde tavan seviyesinde yapılır ve tavan yüksekliği platform tipini belirler — standart ofis-atölye tavanında (4-6 metre) kompakt akülü makaslı yeterliyken, yüksek depo veya üretim hattı tavanında (8-12 metre) standart akülü makaslı veya dikey platform gerekir. Bu ayrım, keşifte tavan ölçüsü alınmadan yapılmaz.",
+            },
+            {
+                baslik: "Enerjili hat yakınında çalışma güvenliği",
+                metin:
+                    "Enerji altyapısı bakımında platform, çoğu zaman enerjili hatlara yakın çalışır ve bu, standart erişim işinden farklı bir güvenlik disiplini gerektirir — elektrik kesintisi koordinasyonu, izole ekipman kontrolü, yetkili elektrik personeli refakati. Proje planında bu koordinasyon, platform kalemiyle birlikte, tesisin elektrik sorumlusuyla önceden yazılı olarak kurulur.",
+            },
+            {
+                baslik: "Mesai dışı çalışmanın bütçeye etkisi",
+                metin:
+                    "Aydınlatma ve enerji bakımı çoğu zaman işletmenin çalışma saatleri dışında yapılır — üretim veya ticari faaliyet devam ederken tavan işleri risklidir. Mesai dışı çalışma, günlük çalışma penceresini daraltır ve bu, toplam süreyi uzatabilir; bu etki proje bütçesinde önceden gösterilir, sürpriz olarak yaşanmaz.",
+            },
+            {
+                baslik: "Dönemsel bakımın yıllık bütçe kalemi olarak planlanması",
+                metin:
+                    "Tek seferlik bir değişim yerine yıllık veya altı aylık periyodik bakım anlaşması yapılan tesislerde, platform kalemi de bu periyoda göre önceden planlanır — her periyotta kaç nokta kontrol edileceği, kaç platform-gün gerekeceği baştan bilinir ve tesisin yıllık bakım bütçesine kalem olarak girer, her seferinde yeniden teklif alınmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tavan yüksekliğine göre aydınlatma platform tablosu",
+                paragraflar: [
+                    "Tesis tipine göre aydınlatma-enerji bakımında tipik platform seçimi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tavan yüksekliği", "Önerilen platform", "Çalışma penceresi"],
+                    satirlar: [
+                        ["Ofis/idari bina", "3-4 m", "Kompakt akülü", "Mesai dışı esnek"],
+                        ["Atölye/küçük üretim", "4-6 m", "Kompakt akülü/dikey", "Mesai dışı tercih"],
+                        ["Depo/lojistik", "8-12 m", "Standart akülü makaslı", "Genelde esnek"],
+                        ["Üretim hattı üstü", "6-10 m", "Akülü makaslı, enerjili hat dikkati", "Mesai dışı zorunlu"],
+                        ["Ticari/AVM ortak alan", "4-6 m", "Sessiz akülü", "Gece penceresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nokta bazlı hesabın teklif dosyasına yansıması",
+                paragraflar: [
+                    "Enerji-aydınlatma bakım kalemi, teklif dosyasında nokta sayısı ve ortalama işlem süresinden türeyen bir platform-gün hesabıyla sunulur; tesis yönetimi bu tabloyu, geçmiş dönemin gerçekleşen bakım süreleriyle karşılaştırabilir. Periyodik bakım anlaşmalarında bu tablo yıllık bütçe planlamasının bir parçası hâline gelir ve her yeni periyotta yeniden pazarlık konusu olmaz.",
+                    "Bu şeffaflık, tesis yönetiminin bakım bütçesini üst yönetime veya mülk sahibine sunarken dayanağının net olmasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Elektrik sorumlusuyla koordinasyonun proje kalemi olması",
+                paragraflar: [
+                    "Enerjili hat yakınında yapılan platform işleri, tesisin elektrik sorumlusunun onayı ve refakati olmadan planlanmaz — kesinti koordinasyonu, hangi hatların ne zaman devre dışı bırakılacağı, işin başlamasından günler önce yazılı olarak netleştirilir. Bu koordinasyon, platform kaleminin bir parçası olarak proje planına yazılır; günü geldiğinde sahada beklenmedik bir 'kesinti onayı yok' gecikmesi yaşanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tesisimizde iki yüz aydınlatma noktası var, platform ihtiyacını nasıl hesaplıyorsunuz?",
+                cevap:
+                    "Nokta sayınızı (iki yüz) ortalama nokta başına işlem süresiyle çarparak toplam platform-gün ihtiyacını hesaplarız; bu ortalama süre, armatür tipi ve tavan yüksekliğine göre değişir, o yüzden birkaç örnek noktayı yerinde inceleyerek gerçekçi bir ortalama çıkarırız. Sonuç, kaba bir 'birkaç gün' tahmini değil, teklif dosyasında görebileceğiniz bir hesap tablosudur. Nokta listenizi ve tesis planınızı paylaşırsanız bu hesabı birlikte çıkarırız.",
+            },
+            {
+                soru: "Enerjili hatların yakınında çalışacağız, güvenlik nasıl sağlanır?",
+                cevap:
+                    "Enerjili hat yakınında platform çalışması, tesisinizin elektrik sorumlusunun onayı ve koordinasyonu olmadan başlamaz — hangi hatların ne zaman devre dışı bırakılacağı, gerekiyorsa kesinti planı, işin başlamasından günler önce yazılı olarak netleştirilir. Operatörümüz bu tip işlerde izole ekipman ve güvenlik protokolüne uygun çalışır. Elektrik sorumlunuzun iletişim bilgisini paylaşırsanız, koordinasyonu proje planlamasının bir parçası olarak baştan kurarız.",
+            },
+            {
+                soru: "Üretimimiz devam ederken tavan aydınlatmasını değiştirmek istiyoruz, mümkün mü?",
+                cevap:
+                    "Mümkün ama genelde mesai dışı saatlere (gece veya hafta sonu) kaydırılması gerekir çünkü üretim devam ederken tavan işleri hem güvenlik hem operasyonel risk taşır. Mesai dışı çalışma günlük pencereyi daraltır ve toplam süreyi biraz uzatabilir; bu etkiyi kararınızdan önce açıkça gösteririz. Üretim programınızı paylaşırsanız, en az kesintiye neden olacak çalışma penceresini birlikte belirleriz.",
+            },
+            {
+                soru: "Her yıl aynı bakımı tekrarlıyoruz, her seferinde yeniden teklif almak zorunda mıyız?",
+                cevap:
+                    "Hayır, periyodik bakım anlaşması kurabiliriz — bir kez nokta sayınızı ve tesis özelliklerinizi netleştirdiğimizde, yıllık veya altı aylık periyotlar için platform-gün ihtiyacını önceden hesaplar ve bunu bakım bütçenize kalem olarak yazarız. Her periyotta yalnızca tarih teyidi yapılır, yeniden pazarlık gerekmez. Bu düzen, tesis yönetiminin bütçe planlamasını da kolaylaştırır çünkü rakam yıllar arası öngörülebilir kalır.",
+            },
+            {
+                soru: "AVM ortak alanında gece aydınlatma bakımı yapacağız, gündüz müşteri trafiğini etkilemeyecek mi?",
+                cevap:
+                    "Etkilememesi için gece penceresini (müşteri trafiğinin sıfıra indiği saatler) kullanır ve sessiz akülü platform tercih ederiz — gürültü ve hareket, gece çalışmasında bile bina işletmesi için hassas bir konudur. Çalışma alanı gündüz kullanıma açılmadan önce toparlanır, hiçbir iz veya ekipman bırakılmaz. Bina yönetiminizin gece çalışma kurallarını (giriş saati, güvenlik onayı) paylaşırsanız, planı bu kurallara göre kurarız.",
+            },
+            {
+                soru: "Enerji-aydınlatma bakım kalemini diğer proje kalemleriyle (cephe, çelik montaj) aynı teklife mi koyuyorsunuz?",
+                cevap:
+                    "Aynı projede birden fazla kalem varsa evet, tek bir ekipman planında birleştiririz — bu, ayrı ayrı teklif almaya göre hem koordinasyonu kolaylaştırır hem toplam makine-gün optimizasyonu sağlar, çünkü aynı platform bazen birden fazla iş için (örneğin cephe kontrolü sırasında aydınlatma da gözden geçirilebilir) kullanılabilir. Projenizin tüm ekipman gerektiren kalemlerini paylaşırsanız, tek bir bütünleşik plan sunarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Enerjili hat yakınında çalışma güvenlik kuralları (izolasyon, kesinti koordinasyonu) sektör ve mevzuat genelinde bilinen bilgidir; nokta bazlı hesap ve periyodik bakım bütçe modeli firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Proje Bütçesinde Operatörlü Platform Kalemi",
+        giris:
+            "Operatörlü mü operatörsüz mü kiralama sorusu, bir kurumsal projede sadece bir tercih değil, bütçeyi ve sorumluluk dağılımını doğrudan etkileyen bir karardır — operatör bedeli makine bedelinden ayrı bir kalem olarak bütçeye girer, ama karşılığında sahadaki operasyon riski ve eğitim yükü tedarikçiye geçer. Bizim proje yaklaşımımızda bu kararı, projenin ölçeğine, süresine ve müşterinin kendi operatör kapasitesine göre birlikte değerlendiririz — tek bir doğru cevap yoktur, doğru cevap projenin koşullarına bağlıdır. İkitelli merkezli kurumsal müşterilerimizle çalışırken operatörlü kalemi, tıpkı diğer proje kalemleri gibi keşif verisiyle bütçelenen bir satır hâline getiriyoruz. Bu sayfa, operatörlü platform kaleminin proje bütçesine nasıl girdiğini ve hangi durumlarda tercih edildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Operatör bedelinin bütçede ayrı satır olması",
+                metin:
+                    "Operatörlü kiralamada teklif dosyası iki ayrı kalem gösterir — makine kirası ve operatör bedeli (vardiya bazlı veya günlük). Bu ayrım, müşterinin hangi kalemi neden ödediğini net görmesini sağlar ve gerektiğinde sadece operatör tarafını gözden geçirmeyi (örneğin ek vardiya ihtiyacı) kolaylaştırır. Bazı kurumsal müşteriler bu iki kalemi tek bir 'toplam hizmet bedeli' olarak görmeyi tercih eder; hangisi isteniyorsa teklif ona göre biçimlendirilir.",
+            },
+            {
+                baslik: "Proje süresine göre operatörlü-operatörsüz kararı",
+                metin:
+                    "Kısa süreli (birkaç günlük) işlerde operatörlü kiralama genelde daha ekonomiktir çünkü müşterinin kendi personelini eğitip belgelendirmesi kısa iş için karşılığını vermez; uzun süreli (aylar süren) projelerde ise müşterinin kendi belgeli operatörünü kullanması, tekrarlayan operatör maliyetini düşürebilir. Bu karar, proje süresinin toplam maliyete etkisi hesaplanarak birlikte verilir.",
+            },
+            {
+                baslik: "Belgeli operatörün proje İSG dosyasındaki yeri",
+                metin:
+                    "Operatörlü kiralamada operatörün MYK yeterlilik belgesi, periyodik sağlık raporu ve şirket içi eğitim kaydı, proje İSG dosyasına eklenir. Kurumsal projelerde denetim geldiğinde bu evrak talep edilir; belgesi eksik operatörle çalışmak, projeyi denetim riskine sokar. Bizim operatörlerimiz için bu evrak seti her zaman güncel tutulur ve proje başında dosyaya eklenir.",
+            },
+            {
+                baslik: "Çok makineli projelerde operatör planlama koordinasyonu",
+                metin:
+                    "Birden fazla platform aynı anda çalışacaksa, her makine için ayrı operatör mü yoksa bir operatörün birden fazla makineyi sırayla mı kullanacağı, proje ekipman planının bir parçasıdır. Bu karar, makinelerin çalışma saatlerinin çakışıp çakışmadığına bağlıdır; çakışmıyorsa tek operatör birden fazla makineyi verimli kullanabilir, bu da bütçede operatör kalemini düşürür.",
+            },
+            {
+                baslik: "Karma model: bazı fazlarda operatörlü, bazılarında operatörsüz",
+                metin:
+                    "Uzun bir proje boyunca operatör ihtiyacı sabit kalmayabilir — yoğun fazlarda ek operatör devreye alınırken sakin fazlarda müşterinin kendi personeli yeterli olabilir. Bütçe planında bu geçişler önceden işaretlenir; hangi fazda hangi model, iş programına bağlı olarak kurulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Proje ölçeğine göre operatörlü karar tablosu",
+                paragraflar: [
+                    "Operatörlü-operatörsüz kararını etkileyen tipik senaryolar aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Proje durumu", "Önerilen model", "Bütçe etkisi"],
+                    satirlar: [
+                        ["Kısa süreli iş (1-5 gün)", "Operatörlü", "Eğitim maliyetinden kaçınma"],
+                        ["Uzun süreli proje, müşteride belgeli personel var", "Operatörsüz", "Tekrarlayan maliyet düşer"],
+                        ["Çok makineli, çakışmayan saatler", "Tek operatör, sıralı kullanım", "Operatör kalemi optimize edilir"],
+                        ["Yoğun-sakin faz geçişli proje", "Karma model", "Faz bazlı esneklik"],
+                        ["Yüksek riskli/enerjili hat yakını iş", "Operatörlü, uzman operatör", "Güvenlik önceliği"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör bedelinin teklif dosyasındaki gösterimi",
+                paragraflar: [
+                    "Kurumsal teklif dosyasında operatör bedeli, makine bedelinden ayrı bir satırda ve vardiya/gün bazında gösterilir. Bu şeffaflık, proje ofisinin hangi kalemin ne kadar ağırlıklı olduğunu görmesini sağlar ve gerektiğinde (örneğin müşteri kendi operatörünü devreye alacaksa) sadece bu kalemin çıkarılmasını kolaylaştırır. Fazla vardiya veya hafta sonu çalışma gibi ek durumlar da ayrı satırlarda önceden fiyatlandırılır, sahada sürpriz ek ücret çıkmaz.",
+                ],
+            },
+            {
+                baslik: "Operatör devamlılığının proje verimine etkisi",
+                paragraflar: [
+                    "Uzun süreli projelerde aynı operatörün baştan sona sahada kalması, sahayı ve iş akışını öğrenmiş bir personel demektir ve bu, verimliliği doğrudan etkiler — her hafta değişen operatörle çalışmak, sahaya alışma süresini tekrar tekrar yaşatır. Proje planımızda mümkün olduğunca operatör devamlılığı hedeflenir; zorunlu değişim (izin, rotasyon) olduğunda devir süreci (saha bilgisinin aktarılması) yazılı bir notla desteklenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kısa süreli bir işimiz var, operatörlü mü kendi personelimizle mi çalışmalıyız?",
+                cevap:
+                    "Kısa süreli işlerde (birkaç gün) operatörlü kiralama genelde daha ekonomiktir — kendi personelinizi bu iş için eğitip belgelendirmek, işin süresine göre orantısız bir maliyet ve zaman gerektirir. Uzun vadede tekrarlayan benzer işleriniz olacaksa personelinizi belgelendirmek mantıklı bir yatırım olabilir; tek seferlik bir iş için bu yatırım genelde karşılığını vermez. İşin süresini ve sıklığını paylaşırsanız, iki modelin maliyet karşılaştırmasını çıkarırız.",
+            },
+            {
+                soru: "Operatör bedeli nasıl hesaplanıyor, vardiya mı gün mü?",
+                cevap:
+                    "Standart olarak günlük vardiya bazında hesaplanır ve makine bedelinden ayrı bir satırda gösterilir; hafta sonu, gece vardiyası veya fazla mesai gibi durumlar varsa bunlar da önceden ayrı satırlarda fiyatlandırılır, sahada sürpriz ek ücret çıkmaz. İş programınızdaki çalışma saatlerini (kaç vardiya, hangi günler) paylaşırsanız, operatör kalemini net bir rakamla teklife yazarız.",
+            },
+            {
+                soru: "Kendi operatörümüz var ama belgesi güncel değil, ne yapmalıyız?",
+                cevap:
+                    "Belgesi güncel olmayan operatörle proje yürütmek, denetim riskinin yanı sıra iş güvenliği açısından da kabul edilemez; bu durumda ya operatörünüzün belgesini güncellemesini bekleriz ya da belge yenilenene kadar bizim operatörlü hizmetimize geçeriz. İkinci seçenek, projenin gecikmemesi için genelde tercih edilen yoldur. Operatörünüzün belge durumunu netleştirdiğinizde, hangi modelin projeyi aksatmadan devam ettireceğini birlikte kararlaştırırız.",
+            },
+            {
+                soru: "Beş platform aynı anda çalışacak, beş ayrı operatör mü gerekiyor?",
+                cevap:
+                    "Gerekmeyebilir — makinelerin çalışma saatleri çakışmıyorsa (örneğin bazıları sabah, bazıları öğleden sonra devreye giriyorsa) tek operatör birden fazla makineyi sırayla verimli kullanabilir. Çakışıyorsa her makine için ayrı operatör gerekir çünkü bir operatör aynı anda iki makineyi kullanamaz. Beş makinenin günlük çalışma programını paylaşırsanız, kaç operatörün yeterli olacağını ve bunun bütçeye etkisini birlikte hesaplarız.",
+            },
+            {
+                soru: "Proje uzun sürecek, tüm süre boyunca aynı operatör mü kalır?",
+                cevap:
+                    "Mümkün olduğunca evet, çünkü aynı operatörün sahayı ve iş akışını öğrenmiş olması verimi artırır; bunu proje planlamasında hedefleriz. Zorunlu değişim (izin, rotasyon) yaşanırsa devir sürecini yazılı bir notla destekleriz ki yeni operatör sahaya sıfırdan başlamasın. Operatör devamlılığı sizin için özellikle önemliyse bunu proje başında bize belirtin, planlamada öncelik veririz.",
+            },
+            {
+                soru: "Yoğun bir fazda ek operatöre ihtiyacımız olursa ne kadar sürede sağlarsınız?",
+                cevap:
+                    "Talep geldiğinde genelde birkaç iş günü içinde ek belgeli operatör devreye alınabilir; bu süre, ihtiyacın büyüklüğüne ve zamanlamasına bağlı değişir. Yoğun fazınızı önceden bildirirseniz (iş programınızdan görünüyorsa) bu ihtiyacı zaten proje planına yazarız ve son dakika talebine gerek kalmaz. Ani gelişen ihtiyaçlarda da elimizden geleni yaparız ama planlı bildirim her zaman daha hızlı ve güvenli sonuç verir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. MYK operatör yeterlilik belgesi zorunluluğu ve İSG dosyası gereklilikleri mevzuat genelinde bilinen bilgidir; operatörlü-operatörsüz karar modeli ve karma faz planlaması firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Proje Portföyünde Ekipman Koordinasyonu",
+        giris:
+            "Bazı kurumsal müşterilerimiz tek bir proje değil, aynı anda birden fazla sahada yürüyen bir proje portföyü yönetir — birkaç şubeli bir zincirin bakım programı, aynı bölgedeki birden fazla tesisin periyodik kontrolü veya farklı noktalarda eş zamanlı yürüyen inşaat işleri. Bu durumda ekipman tedariki, tek bir sahanın ihtiyacını karşılamaktan farklı bir problem hâline gelir — hangi makine hangi güzergâhta, hangi sırayla, kaç saha arasında dolaşacak. Bizim İkitelli merkezli konumumuz bu tip çok noktalı koordinasyona uygundur; şehrin farklı yakalarına makul sürede ulaşabilen bir merkezden, tek bir makinenin birden fazla sahayı rotasyonlu dolaşması mümkün olur. Bu sayfa, çok noktalı proje portföylerinde ekipman planının nasıl kurulduğunu, tıpkı çok akslı çelik montaj gibi bu dosyanın ana konularından biri olarak detaylı anlatır.",
+        maddeler: [
+            {
+                baslik: "Portföy görünümünün tek bir ekipman planına dönüştürülmesi",
+                metin:
+                    "Birden fazla sahayı yöneten bir müşteri için ilk adım, tüm sahaların ihtiyacını tek bir tabloda toplamaktır — hangi saha, hangi işi, ne zaman, ne kadar süreyle yapacak. Bu tablo çıkarıldığında, sahalar arasındaki ortak noktalar (aynı hafta ihtiyaç duyan, birbirine yakın konumlanan) görünür hâle gelir ve buradan bir rota planı kurulabilir. Tek tek sahaların ayrı ayrı teklif almasına göre bu görünüm, hem müşteriye hem bize daha net bir tablo sunar.",
+            },
+            {
+                baslik: "Rota bazlı makine dolaşımının ekonomisi",
+                metin:
+                    "Aynı bölgedeki birden fazla sahanın kısa süreli, tekrarlayan ihtiyaçları varsa (örneğin aylık aydınlatma kontrolü), her sahaya ayrı makine bağlamak yerine tek makinenin belirli bir güzergâhta dolaşması daha ekonomik olabilir — makine bir sahada işini bitirir, bir sonraki sahaya geçer. Bu model, her sahanın kendi makinesini tutmasına göre toplam makine-gün maliyetini düşürür ama koordinasyon gerektirir; güzergâh sırası ve zamanlama önceden net kurulmalıdır.",
+            },
+            {
+                baslik: "Sahalar arası öncelik çakışmasının yönetimi",
+                metin:
+                    "Rota planı kurulduktan sonra bile, bir sahada beklenmedik bir aciliyet doğabilir (arızalı armatür, acil kontrol talebi) ve bu, rotayı bozar. Bu durumları önceden tanımlarız — hangi tip talepler rotayı kesip öncelik alır, hangileri bir sonraki tura eklenir. Net bir öncelik kuralı olmadan kurulan rota planı, ilk acil talepte dağılır.",
+            },
+            {
+                baslik: "Merkezi raporlama: her saha ayrı, portföy tek görünür",
+                metin:
+                    "Çok noktalı bir proje portföyünde müşterinin merkez ofisi, her sahanın ayrı ayrı raporunu değil, portföyün genel durumunu görmek ister. Bizim raporlama düzenimiz her saha için ayrı kayıt tutarken (hangi makine, ne zaman, ne iş yaptı), aylık özet raporda portföyün toplamını (kaç saha, kaç makine-gün, hangi kalemler) tek sayfada sunar.",
+            },
+            {
+                baslik: "Portföy büyüdükçe park planının ölçeklenmesi",
+                metin:
+                    "Müşterinin saha sayısı arttıkça (yeni şube açılışı, yeni proje sahası) mevcut rota planı yeniden değerlendirilir — ya mevcut rotaya yeni durak eklenir ya da rota ikiye bölünüp ikinci bir makine devreye alınır. Bu ölçekleme kararı, mevcut rotanın doluluk oranına bakılarak verilir; rotayı gereksiz büyütmek verimliliği düşürür, yetersiz bırakmak ise gecikmeye yol açar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı portföy koordinasyon tablosu",
+                paragraflar: [
+                    "Farklı portföy ölçeklerinde tipik koordinasyon modeli aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Portföy ölçeği", "Önerilen model", "Koordinasyon aracı", "Raporlama"],
+                    satirlar: [
+                        ["2-3 saha, düşük sıklık", "Talep bazlı sevkiyat", "Aylık ihtiyaç listesi", "Saha bazlı"],
+                        ["4-8 saha, düzenli periyot", "Sabit rota", "Güzergâh takvimi", "Aylık portföy özeti"],
+                        ["8+ saha, yüksek sıklık", "Çoklu rota, bölgesel gruplama", "Bölge bazlı koordinatör", "Haftalık portföy raporu"],
+                        ["Karma (bazı acil, bazı planlı)", "Rota + öncelik kuralı", "Aciliyet tanım listesi", "Olay bazlı + aylık özet"],
+                        ["Büyüyen portföy", "Kademeli rota bölünmesi", "Doluluk oranı takibi", "Üç aylık gözden geçirme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota planının teklif dosyasına dönüşmesi",
+                paragraflar: [
+                    "Çok noktalı bir portföy için teklif dosyası, tek bir sahanın teklifinden farklı kurulur — her sahanın ihtiyacı ayrı ayrı listelenir, ortak rota fırsatları işaretlenir ve toplam maliyet hem 'her saha ayrı kiralasaydı' senaryosu hem 'rota bazlı ortak model' senaryosuyla karşılaştırmalı sunulur. Bu karşılaştırma, müşterinin portföy bazlı çalışmanın gerçek tasarrufunu görmesini sağlar; sadece 'daha ucuz' demek yerine rakamla gösterilir.",
+                    "İkitelli merkezli konumumuz bu karşılaştırmada somut bir avantaj sağlar — şehrin farklı bölgelerine makul mesafede olduğumuz için rota planı, uzak bir merkezden yönetilen portföye göre daha sık ve daha ekonomik dolaşım imkânı sunar.",
+                ],
+            },
+            {
+                baslik: "Portföy büyüdükçe tek muhatap avantajı",
+                paragraflar: [
+                    "Birden fazla sahayı farklı tedarikçilerle yönetmek, merkez ofis için karşılaştırma ve denetim yükü demektir — her tedarikçinin kendi raporlama formatı, kendi fatura düzeni olur. Tek tedarikçi ile portföy bazlı çalışmak bu yükü azaltır: tüm sahalar aynı formatta raporlanır, tek fatura döneminde toplanır ve merkez ofis portföyün tamamını tek bakışta görür. Saha sayısı arttıkça bu avantaj daha da belirginleşir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Altı farklı şubemiz var, her biri için ayrı ayrı mı teklif almalıyız yoksa tek teklif mi olur?",
+                cevap:
+                    "Tek bir portföy teklifi öneririz — altı şubenizin ihtiyaçlarını tek bir tabloda topladığımızda, hangi şubelerin aynı dönemde ihtiyaç duyduğu ve hangilerinin birbirine yakın konumda olduğu görünür hâle gelir, buradan bir rota planı kurulabilir. Bu, ayrı ayrı altı teklife göre hem sizin karşılaştırma yükünüzü azaltır hem toplam maliyeti rota ekonomisiyle düşürebilir. Şubelerinizin listesini ve genel ihtiyaç sıklığını paylaşırsanız, portföy tablosunu birlikte çıkaralım.",
+            },
+            {
+                soru: "Rota planı kurduk ama bir şubede acil bir ihtiyaç çıktı, plan bozulur mu?",
+                cevap:
+                    "Bozulmaz, çünkü rota planı kurulurken bu tip aciliyetler için önceden bir kural tanımlarız — hangi tip talepler rotayı kesip öncelik alır (örneğin güvenlik riski taşıyan bir durum), hangileri bir sonraki tura eklenir (rutin kontrol gibi). Acil talep geldiğinde bu kurala göre hareket ederiz, rotanın geri kalanı da mümkün olduğunca az etkilenecek şekilde yeniden düzenlenir. Sizin için hangi durumların 'acil' sayılacağını proje başında birlikte netleştiririz.",
+            },
+            {
+                soru: "Portföyümüz büyüyor, yeni açılan şubeleri mevcut rotaya nasıl ekliyorsunuz?",
+                cevap:
+                    "Yeni şube açıldığında önce mevcut rotanın doluluk oranına bakarız — rota hâlâ kapasiteye sahipse yeni şube mevcut güzergâha bir durak olarak eklenir; rota zaten doluysa ikinci bir rota veya makine devreye alınır. Bu karar, gereksiz kapasite artırmadan da gecikmeye yol açmadan portföyü ölçeklemek içindir. Yeni şubenizin konumunu ve ihtiyaç sıklığını paylaştığınızda, mevcut rotaya mı yoksa yeni bir rotaya mı gireceğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Her şubeden ayrı fatura mı alırız, yoksa merkez ofis tek fatura mı görür?",
+                cevap:
+                    "Tercihinize göre ikisi de mümkündür — çoğu portföy müşterimiz tek merkezi fatura ve şube bazlı detay dökümünü tercih eder, bu merkez ofisin toplam maliyeti tek yerden görmesini sağlar. Şube bazlı ayrı fatura isteyen müşterilerimiz için de bu düzen kurulabilir, örneğin her şube kendi bütçesinden sorumluysa. Hangi düzenin sizin muhasebe yapınıza uygun olduğunu belirtirseniz, faturalamayı ona göre kurarız.",
+            },
+            {
+                soru: "Şubelerimiz şehrin farklı yakalarında, tek merkezden hepsine aynı hızda ulaşabilir misiniz?",
+                cevap:
+                    "İkitelli merkezimizden şehrin farklı bölgelerine ulaşım süresi elbette mesafeye göre değişir; rota planı kurulurken bu mesafe farkları hesaba katılır ve güzergâh sırası, en verimli toplam yol mesafesini hedefleyecek şekilde kurulur. Çok uzak bir şubeniz varsa bunu açıkça belirtir, o şube için ayrı bir çözüm (yerel takviye veya farklı zamanlama) önerebiliriz. Şubelerinizin konumlarını paylaşırsanız, gerçekçi bir rota süresi hesaplayabiliriz.",
+            },
+            {
+                soru: "Portföy bazlı çalışmanın gerçekten tasarruf sağladığını nasıl görebiliriz?",
+                cevap:
+                    "Teklif dosyasında iki senaryoyu yan yana sunarız — her sahanın ayrı ayrı kiralama yapması durumunda toplam maliyet ile rota bazlı ortak modelin toplam maliyeti. Bu karşılaştırma, sadece bizim sözümüze değil, sizin ihtiyaç listenize dayanan bir hesaba dayanır. Portföyünüzün mevcut ekipman harcamalarını (varsa geçmiş fatura verisi) paylaşırsanız, karşılaştırmayı gerçek rakamlarla da destekleyebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok şubeli kurumsal işletmelerin bakım koordinasyon ihtiyacı genel bilgidir; rota bazlı ekipman dolaşımı ve öncelik kuralı yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Koşullarında Platform Kiralama: Gerçekçi Bir Bakış",
+        giris:
+            "Dürüst olmak gerekirse, zor zemin ve arazi koşullarına özel platform hizmeti bizim ana konumuz değildir — İkitelli OSB merkezli çalışma modelimiz, büyük ölçüde kurulu sanayi sitesi, tesis ve şantiye zeminlerine göre kurulmuştur; bunlar genelde beton, asfalt veya sıkıştırılmış zemindir. Yine de proje sahalarımızda zaman zaman kısmi zor zemin koşullarıyla (hafriyat aşamasındaki toprak zemin, düzensiz saha girişi, hafif eğimli alan) karşılaşırız ve bu durumlar için elimizdeki standart filoyla makul çözümler üretiriz. Bu sayfa, hangi zor zemin durumlarında yardımcı olabildiğimizi ve nerede sınırımızın olduğunu açık şekilde anlatır.",
+        maddeler: [
+            {
+                baslik: "Karşılaştığımız tipik zor zemin durumları",
+                metin:
+                    "Proje sahalarımızda en sık karşılaştığımız zorluk, tam anlamıyla arazi değil, inşaatın erken aşamasındaki düzensiz saha zeminidir — hafriyat sonrası sıkışmamış toprak, geçici moloz yığınları, henüz kaplanmamış zemin. Bu durumlarda standart dizel makaslı veya eklemli platformun dört tekerlek tahrikli, geniş tabanlı modelleri genelde yeterli olur; zemin gerçekten yumuşak veya bataklıksa iş, zemin sağlamlaştırılana kadar ertelenir.",
+            },
+            {
+                baslik: "Ne zaman yardımcı olamayabiliriz",
+                metin:
+                    "Gerçek arazi koşulları — tarım arazisi, orman alanı, dağlık bölge, kalıcı bataklık zemin — için özel paletli veya arazi tipi platformlar gerekir ve bu ekipman bizim standart filomuzun dışındadır. Bu tip bir talep geldiğinde elimizdeki makinenin uygun olmadığını açıkça söyleriz; zorla uygun olmayan bir makineyi göndermek, hem güvenlik riski hem müşteri memnuniyetsizliği yaratır.",
+            },
+            {
+                baslik: "Zemin değerlendirmesinin keşifte netleşmesi",
+                metin:
+                    "Zemin durumu telefonda tam anlaşılamayan bir konudur; bu yüzden zor zemin şüphesi olan her talepte fotoğraf veya kısa bir saha ziyareti isteriz. Zeminin taşıma gücü, eğim durumu ve engebe seviyesi görüldükten sonra, standart filomuzla çözülüp çözülemeyeceği netleşir.",
+            },
+            {
+                baslik: "Hafif eğimli sahalarda dikkat edilen noktalar",
+                metin:
+                    "Tamamen düz olmayan ama aşırı da olmayan hafif eğimli sahalarda (örneğin sahanın bir ucundan diğerine hafif kot farkı), platformun otomatik seviyeleme sistemi devreye girer; bu sistemin kapasitesini aşan eğimlerde makine çalışamaz ve bu sınır üretici tarafından belirlenmiştir, esnetilemez.",
+            },
+            {
+                baslik: "Doğru yönlendirme: elimizde olmayanı vaat etmemek",
+                metin:
+                    "Talep bizim kapsamımızın dışındaysa, bunu erken ve açık söylemeyi tercih ederiz — çünkü uygun olmayan bir makineyle sahaya gidip geri dönmek, hem sizin hem bizim zamanımızı boşa harcar. Mümkünse ihtiyacınızı karşılayabilecek başka bir yöne dair genel bir fikir paylaşırız, ama arazi tipi özel ekipman konusunda kendimizi uzman ilan etmeyiz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre kapsam tablosu",
+                paragraflar: [
+                    "Hangi zemin durumlarında hizmet verdiğimiz aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Kapsam durumu", "Not"],
+                    satirlar: [
+                        ["Hafriyat sonrası düzensiz toprak", "Kapsam içi", "Dört tekerlek tahrikli standart model"],
+                        ["Hafif eğimli saha", "Kapsam içi", "Otomatik seviyeleme sınırı içinde"],
+                        ["Sıkıştırılmamış yumuşak/bataklık zemin", "Kapsam dışı", "Zemin sağlamlaştırma önce gerekir"],
+                        ["Tarım arazisi/orman alanı", "Kapsam dışı", "Paletli arazi tipi ekipman gerekir"],
+                        ["Dağlık/aşırı eğimli bölge", "Kapsam dışı", "Standart filo uygun değil"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden bu alanda sınırlı kalıyoruz",
+                paragraflar: [
+                    "Filomuz, İkitelli OSB ve çevresindeki kurulu sanayi-tesis zeminlerine göre seçilmiştir; bu, çoğu proje sahamızın gerçek profiline uyar ama gerçek arazi koşulları farklı bir ekipman sınıfı gerektirir. Bu alanı zorlayarak genişletmek yerine, gerçek kapsamımızı net tutmayı ve kapsam dışı taleplerde dürüst olmayı tercih ediyoruz.",
+                ],
+            },
+            {
+                baslik: "Kısmi zor zemin içeren büyük projelerde çözüm",
+                paragraflar: [
+                    "Bir projenin çoğu kurulu sanayi zemininde, küçük bir kısmı ise zor zeminde olabilir — örneğin bir tesisin bahçe kısmında toprak zemin varken bina içi tamamen beton. Bu tip karma projelerde, kapsam içi kalan kısımlara standart filomuzla hizmet veririz ve zor zemin kısmı için ayrı bir çözüm (farklı ekipman, zemin sağlamlaştırma veya alternatif erişim yöntemi) üzerine dürüstçe konuşuruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Şantiyemizin bir kısmı henüz hafriyat aşamasında, düzensiz toprak zeminde platform çalışabilir mi?",
+                cevap:
+                    "Çoğunlukla evet — hafriyat sonrası düzensiz ama aşırı yumuşak olmayan toprak zeminde, dört tekerlek tahrikli standart dizel platformlarımız genelde yeterlidir. Ancak zemin gerçekten yumuşak veya çamurluysa güvenli çalışma mümkün olmaz; bu durumda zeminin sıkıştırılmasını veya kurumasını bekleriz. Zemin fotoğrafı paylaşırsanız ön değerlendirmeyi uzaktan yapabiliriz, kesin karar için kısa bir saha kontrolü de önerebiliriz.",
+            },
+            {
+                soru: "Sahamız hafif eğimli, bu bir sorun olur mu?",
+                cevap:
+                    "Genelde olmaz — platformların otomatik seviyeleme sistemi belirli bir eğim aralığında çalışır ve hafif eğimli sahalar bu aralığın içinde kalır. Ama bu sınır üretici tarafından belirlenmiştir ve aşıldığında makine güvenlik nedeniyle çalışmaz, esnetilemez. Sahanızın eğim derecesini (yaklaşık olarak da olsa) belirtirseniz, sınırın içinde kalıp kalmadığını önceden netleştirebiliriz.",
+            },
+            {
+                soru: "Tarım arazimizde bir iş için platform gerekiyor, hizmet verir misiniz?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse, gerçek tarım arazisi veya benzeri doğal zemin, bizim standart filomuzun kapsamı dışındadır; bu tip zeminler paletli veya özel arazi tipi ekipman gerektirir ve elimizde bu sınıf ekipman yok. Zorla uygun olmayan bir makine göndermek yerine bunu açıkça söylemeyi tercih ederiz. İhtiyacınızın tam niteliğini paylaşırsanız, en azından doğru yöne dair genel bir fikir vermeye çalışabiliriz.",
+            },
+            {
+                soru: "Zemin durumunu telefonda anlatsak yeterli olur mu, yoksa görmeniz mi gerekir?",
+                cevap:
+                    "Telefonda anlatım bir ön fikir verir ama zemin taşıma gücü ve gerçek eğim derecesi gibi detaylar genelde fotoğraf veya yerinde görmeden tam netleşmez. Zor zemin şüphesi olan her talepte önce fotoğraf isteriz, gerekirse kısa bir saha kontrolü öneririz — bu, hem yanlış makineyle sahaya gidip geri dönmeyi önler hem size doğru bir cevabı hızlı verir.",
+            },
+            {
+                soru: "Projemizin bir kısmı beton zeminde, bir kısmı bahçe toprağında; ikisini de sizle mi çözeriz?",
+                cevap:
+                    "Beton kısım kesinlikle kapsamımızda, standart filomuzla sorunsuz çözülür. Bahçe/toprak kısmı için ise zeminin durumuna bakarız — kuru ve sıkışmış toprak genelde standart dört tekerlek tahrikli modelle çözülür, yumuşak veya düzensizse ek önlem (sağlamlaştırma) veya farklı bir çözüm gerekebilir. Projenin iki kısmını da tek teklifte değerlendirir, hangi kısmın nasıl çözüleceğini ayrı ayrı netleştiririz.",
+            },
+            {
+                soru: "Zor zemin nedeniyle işi reddederseniz, bize başka bir öneriniz olur mu?",
+                cevap:
+                    "Elimizde arazi tipi özel ekipman uzmanlığı olmadığı için kesin bir tedarikçi önerisi vermekten kaçınırız — bu konuda kendimizi uzman ilan etmek istemeyiz. Ama ihtiyacınızın niteliğini (zemin tipi, iş amacı) dinleyip, hangi tip ekipman aramanız gerektiği konusunda genel bir yönlendirme yapabiliriz. Amacımız, elimizde olmayan bir hizmeti varmış gibi sunup sizi yanlış yönlendirmemektir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. İkitelli OSB ve çevresinin kurulu sanayi-tesis zemin profili kamuya açık coğrafi gerçektir; zemin değerlendirme yöntemi ve otomatik seviyeleme sınırı üretici teknik bilgisidir.",
+    },
 };
+

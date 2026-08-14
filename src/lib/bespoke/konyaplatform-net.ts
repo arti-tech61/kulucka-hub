@@ -1105,4 +1105,1092 @@ export const KONYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         ],
         kaynak: "İçerik 2026-08-13 tarihinde elle ve özgün hazırlandı. Karapınar için ova lojistiği, geniş açık saha ve uzun sevkiyat planı uygulama belgesindeki genel ipuçlarıdır. Belirli işletme, depo, silo, ürün, kapasite, arazi, rota, mesafe veya süre ileri sürülmemiştir; zemin-hava kontrolü ile hazırlık kapısı genel saha yaklaşımıdır.",
     },
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Silo ve Depo Yüksek Nokta İşlerinde Sepetli Örümcek Platform Kiralama",
+        giris:
+            "Tarım makineleri sanayinde ve tahıl lojistik tesislerinde yüksek nokta erişiminin her zaman geniş, düz bir zemine ihtiyacı olduğu düşünülür; oysa Konya OSB'nin dar aralıklı hollerinde, silo galerisinin merdivenli boşluklarında ve elevatör kulesinin dar platform sahanlığında bu varsayım çoğu zaman tutmaz. Sepetli örümcek platform, tam bu boşluk için vardır — paletli yürüyüş takımıyla düzensiz zemine tutunur, ayaklarını nokta nokta açarak dar bir alana sığar ve elle veya küçük bir vinçle parça parça taşınabildiği için standart dört tekerlekli makinenin giremediği kapı, koridor ve merdiven boşluğundan geçirilebilir. Bizim filomuzda bu sınıf, ağır hizmet ailesinin en 'ince işçilikli' üyesidir: gövde büyüklüğü değil erişim inceliği öne çıkar. Konya'nın tarım makinesi imalathanelerinde vinç kirişi altındaki dar aralıklar, tahıl deposu galeri katları ve silo gövdesinin çevresindeki sabit merdiven-platform sistemleri arasında kalan boşluklar, bu makinenin doğal iş sahasıdır. Bu sayfada örümcek platformun ne zaman gerçekten gerekli olduğunu, hangi işlerde eklemli bomdan daha doğru sonuç verdiğini ve Konya OSB ile tahıl lojistik hattındaki tipik kullanım senaryolarını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Dar galeri ve merdiven boşluklarının ölçü mantığı",
+                metin:
+                    "Silo galerisi ve tahıl deposu ara katları genellikle bakım amaçlı tasarlanmıştır, üretim döneminde büyük ekipman geçişi düşünülmemiştir; bu yüzden kapı genişlikleri 60-70 santimetre bandında, merdiven sahanlıkları dar ve dönüşlüdür. Örümcek platformun katlanmış hâli bu ölçülere göre tasarlanmıştır — parçalar taşınabilir genişliğe indirilir, boşluktan geçirilir ve hedefin yakınında yeniden monte edilerek açılır. Ölçü alınırken yalnız kapı genişliği değil, koridorun dönüş yarıçapı ve tavan yüksekliği de kaydedilir; dar bir kapı geçse bile keskin bir dönüşte parça sıkışabilir.",
+            },
+            {
+                baslik: "Paletli yürüyüşün düzensiz zeminde avantajı",
+                metin:
+                    "Tarım makinesi imalathanesinin eski bölümlerinde zemin her zaman düzgün beton değildir — kanal kapakları, eski temel izleri, kaynak sehpası ayak delikleri zeminde küçük seviye farkları bırakır. Örümcek platformun paletli yürüyüş takımı, tekerlekli makinenin takılacağı bu tür düzensizliklerde daha rahat ilerler ve ayaklarını her noktada bağımsız ayarlayarak dengeyi zemin eğiminden bağımsız kurar. Bu, silo çevresindeki sabit merdiven altlarında veya elevatör kulesi dibindeki dar servis koridorlarında pratik bir fark yaratır.",
+            },
+            {
+                baslik: "Kendinden vinçli montaj ve OSB hol koşulu",
+                metin:
+                    "Konya OSB'deki tarım makinesi fabrikalarının bazı bölümlerinde köprü vinci makinenin kendisini içeri taşımaya yetmez veya vinç hattı meşguldür; örümcek platformun kendi küçük vinç ünitesiyle parça parça monte edilebilmesi, bu durumda tek çözüm olur. Montaj sahası önceden belirlenir, parçaların geçeceği güzergâh ölçülür ve montaj sırasında geçici olarak kapanacak koridor için alternatif geçiş planlanır. Bu, büyük eklemli bomun giremediği bir holü de iş kapsamına almanın yoludur — büyüklükten değil, montaj esnekliğinden gelen bir avantajdır.",
+            },
+            {
+                baslik: "Silo gövdesi çevresinde nokta erişim",
+                metin:
+                    "Silo gövdesinin dışına monte edilmiş kaçak sensörü, aydınlatma armatürü veya kablo kanalı bakımı gibi işler, gövdeye çok yakın ve dar bir çalışma cebinde yapılır; büyük gövdeli bir makine bu cebe giremez ya da sepedi silo yüzeyine güvenli mesafede tutamaz. Örümcek platformun kompakt sepedi ve hassas kol hareketi, silo yüzeyine paralel ince bir şeritte çalışmayı mümkün kılar. Bu tür işlerde makinenin ayak açıklığı, silonun taban çapı ve çevresindeki servis yoluna göre önceden hesaplanır; ayakların bir kısmının silo temeline çok yakın açılması gerekiyorsa bu, keşifte ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Ne zaman örümcek değil, eklemli bom doğru seçimdir",
+                metin:
+                    "Örümcek platform her dar işin otomatik cevabı değildir — daha büyük çalışma yüksekliği, daha uzun yatay erişim veya daha ağır sepet yükü gereken işlerde eklemli bom, aynı işi daha hızlı ve daha ekonomik yapar. Karar noktası açıktır: giriş genişliği ve montaj süresi kritikse örümcek, çalışma yüksekliği ve yatay menzil kritikse eklemli bom öne çıkar. İki sınıfın da uygun olduğu sınırda kalan işlerde, montaj-söküm süresinin toplam iş süresine oranı karşılaştırılarak karar verilir; bu hesabı teklif aşamasında açıkça gösteririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Konya OSB ve tahıl lojistik sahasında örümcek platform kullanım tablosu",
+                paragraflar: [
+                    "Tarım makinesi imalathanesi ve tahıl lojistik tesislerinde sık karşılaştığımız dar erişim senaryolarını, ölçü kriteri ve alternatif makine karşılaştırmasıyla birlikte listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Darlık kaynağı", "Kritik ölçü", "Alternatif"],
+                    satirlar: [
+                        ["Silo galeri katı bakımı", "Dar merdiven sahanlığı", "Kapı ve dönüş genişliği", "Uygun değilse iskele"],
+                        ["Elevatör kulesi dibi", "Servis koridoru darlığı", "Ayak açıklığı payı", "Küçük kompakt makaslı"],
+                        ["Vinç meşgul hol", "Büyük makine giremiyor", "Parça montaj süresi", "Vardiya sonrası eklemli bom"],
+                        ["Silo gövde çevresi kablo", "Yüzeye yakın çalışma cebi", "Silo taban çapı", "Sabit merdivenden manuel iş"],
+                        ["Eski bina düzensiz zemin", "Kot farkı ve delikler", "Zemin taşıma testi", "Zemin düzeltme sonrası tekerlekli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj süresinin iş planına etkisi",
+                paragraflar: [
+                    "Örümcek platformun parça parça taşınıp yeniden monte edilmesi, tekerlekli bir makinenin doğrudan sürülmesine göre daha uzun sürer; bu fark küçük işlerde toplam süreyi belirgin biçimde etkileyebilir. Bu yüzden teklifte montaj-söküm süresini ayrı bir kalem olarak gösteririz — kısa bir iş için uzun bir montaj süresi, ekonomik olarak anlamlı olmayabilir.",
+                    "Buna karşılık aynı iş tekerlekli makineyle hiç yapılamayacaksa (dar galeri, meşgul vinç hattı) montaj süresi kaçınılmaz bir maliyet kalemi hâline gelir. Bu durumda amaç süreyi sıfıra indirmek değil, montaj güzergâhını ve sırasını önceden netleştirerek süreyi öngörülebilir kılmaktır.",
+                ],
+            },
+            {
+                baslik: "Konya'nın karasal ikliminin dar sahalarda dış iş etkisi",
+                paragraflar: [
+                    "Silo dışına monte edilmiş donanımın bakımı çoğu zaman açık havada, rüzgâra maruz bir noktada yapılır; ova coğrafyasının açık rüzgâr profili, dar ayak açıklığıyla çalışan bir makinede stabilite açısından ek dikkat gerektirir. Rüzgâr hızı sınırı gün içinde izlenir ve sınır aşıldığında sepet indirilir — bu, ayak açıklığı zaten kısıtlı bir makinede standart makaslıya göre daha erken devreye giren bir önlemdir.",
+                    "Kış aylarında donmuş zeminde paletli yürüyüş takımının tutunması da ayrıca değerlendirilir; buzlu bir servis yolunda ilerlemek yerine zeminin çözülmesi beklenir. Bu mevsimsel dikkat, tarım makinesi sanayinin yıl boyunca süren bakım takvimine plan aşamasında dahil edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo galerimizin merdiveni çok dar; büyük platform hiç girmiyor, çözüm var mı?",
+                cevap:
+                    "Örümcek platform tam bu durum için tasarlanmıştır — katlanmış hâli 60-70 santimetre bandındaki kapı ve merdiven genişliklerinden geçer, hedefin yakınında yeniden açılır. Kritik olan yalnız kapı genişliği değil, merdiven sahanlığındaki dönüş yarıçapıdır; dar bir kapı geçse bile keskin bir dönüşte parça sıkışabilir. Merdiven ve kapı ölçülerini, varsa dönüş açısını fotoğrafla iletin; montajın mümkün olup olmadığını ve süresini net söyleyelim.",
+            },
+            {
+                soru: "Silo gövdesine çok yakın bir noktada kablo kanalı bakımı yapacağız; hangi makine uygun?",
+                cevap:
+                    "Gövdeye yakın, dar bir çalışma cebinde örümcek platformun kompakt sepedi ve hassas kol hareketi avantaj sağlar; büyük gövdeli bir makine bu mesafeyi güvenli tutamayabilir. Silo taban çapını, ayakların açılacağı servis yolu genişliğini ve gövdeye olan mesafeyi paylaşın; ayak açıklığı hesabını buna göre yapıp uygun konumlandırmayı önerelim.",
+            },
+            {
+                soru: "Köprü vincimiz meşgul, büyük makineyi içeri sokamıyoruz; başka yol var mı?",
+                cevap:
+                    "Örümcek platform kendi küçük vinç ünitesiyle parça parça monte edilebildiği için köprü vinci beklemeden çalışılabilir. Montaj sahasını ve parçaların geçeceği güzergâhı önceden belirleriz; geçici olarak kapanacak koridor için alternatif yönlendirme planı çıkarırız. Vincin ne zaman boşalacağını da bilmemiz montaj zamanlamasını netleştirir — geçici çözüm mü, kalıcı tercih mi olduğuna birlikte karar verelim.",
+            },
+            {
+                soru: "Örümcek platform mu, eklemli bom mu; işimiz için hangisi daha ekonomik?",
+                cevap:
+                    "Bu, montaj süresi ile iş süresinin oranına bağlıdır. Giriş dar ve iş kısaysa örümcek platformun montaj süresi toplam maliyeti önemli ölçüde etkiler; giriş genişse ve iş uzun sürecekse eklemli bom hem hızlı kurulur hem daha geniş menzil sunar. İş tanımınızı, giriş ölçülerinizi ve tahmini süreyi paylaşın; iki seçeneğin hesabını yan yana çıkaralım — büyük makinenin girdiği yerde küçük makineyi önermeyiz.",
+            },
+            {
+                soru: "Açık havada, silo çevresinde çalışırken rüzgâr bizim için ek risk mi?",
+                cevap:
+                    "Evet — dar ayak açıklığıyla çalışan bir makinede rüzgâr stabiliteyi standart makaslıya göre daha erken etkiler. Rüzgâr hızı çalışma boyunca izlenir ve üretici sınırına yaklaşıldığında sepet indirilir; bu, ova coğrafyasının açık rüzgâr profilinde standart bir önlemdir. Silonuzun konumunu ve etrafındaki açıklığı bildirin, mevsim ve gün saatine göre gerçekçi bir çalışma penceresi önerelim.",
+            },
+            {
+                soru: "Eski binamızın zemininde kot farkları var; paletli makine bu zeminde güvenli mi?",
+                cevap:
+                    "Paletli yürüyüş takımı, tekerlekli makinenin takılacağı küçük kot farklarında genellikle daha rahat ilerler; ancak her zemin otomatik olarak uygun sayılmaz. Zeminin taşıma kapasitesi ve düzensizliğin derecesi keşifte değerlendirilir, gerektiğinde güzergâh değiştirilir veya taşıma plakası önerilir. Zemin fotoğraflarını ve varsa bilinen sorunlu noktaları paylaşın; güvenli güzergâhı birlikte çizelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Silo galerisi, elevatör kulesi ve OSB hol darlıklarının erişim mantığı sektör geneli teknik bilgidir; montaj süresi hesabı ve ayak açıklığı değerlendirmesi firma pratiğidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Konya OSB ve Tahıl Lojistik Hattında Ağır Hizmet Platform Nakliyesi",
+        giris:
+            "Ağır hizmet platformunun sahaya teslimi, Konya'da sıradan bir sevkiyat değildir — filomuzun büyük bölümü tarım makinesi imalathanelerine ve tahıl lojistik tesislerine gittiği için nakliye rotası, OSB'nin ağır tonajlı çekici trafiğiyle iç içe kurulur. Sevkiyatın kendine has zorluğu üç noktada toplanır: silo ve depo tesislerinin çoğu zaman şehir dışında, asfalt kalitesi değişken yollarda bulunması; hasat sezonunda aynı güzergâhı kullanan tarım araçlarının trafiği artırması; ve OSB içi fabrika adreslerinin çoğunda indirme alanının üretim faaliyetiyle paylaşılması. Bu üç gerçek, bizim nakliye planımızı 'adrese ulaşmak' değil 'sahaya güvenli ve zamanında teslim etmek' olarak tanımlar — indirme noktası önceden görülür, çekicinin manevra alanı ölçülür ve tesisin kendi trafik yoğunluğuyla çakışmayan bir pencere belirlenir. Bu sayfa, Konya OSB merkezli ağır hizmet nakliyemizin nasıl planlandığını, tahıl lojistik hattındaki mevsimsel yoğunluğun teslimatı nasıl etkilediğini ve hangi bilgilerin sevkiyatı hızlandırdığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İndirme alanının üretimle paylaşımı",
+                metin:
+                    "OSB'deki fabrika adreslerinin çoğunda tek bir geniş boşluk yoktur; hammadde teslim alanı, bitmiş ürün sevkiyat rampası ve ziyaretçi park alanı aynı avluyu paylaşır. Ağır hizmet platformunu taşıyan çekicinin bu avluda manevra yapabilmesi için, fabrikanın kendi sevkiyat trafiğiyle çakışmayan bir saat dilimi gerekir. Bu yüzden ilk sorumuz her zaman aynıdır: tesisin günlük en yoğun sevkiyat saati hangisi ve indirme için hangi pencere boş kalıyor. Bu bilgi, teklif aşamasında değil sevkiyat planı kurulurken netleştirilir.",
+            },
+            {
+                baslik: "Hasat sezonunun güzergâh trafiğine etkisi",
+                metin:
+                    "Konya ovasının tahıl hasadı yoğunlaştığı dönemde, silo ve depo tesislerine giden yollar traktör-römork ve kamyon trafiğiyle dolar; bu trafik hem seyahat süresini uzatır hem de dar yollarda ağır çekicinin manevra alanını daraltır. Sezon içi sevkiyatlarda güzergâh, gündüzün en yoğun saatlerinden kaçınacak şekilde planlanır ve mümkün olduğunda erken sabah veya akşamüstü tercih edilir. Sezon dışı dönemde bu kısıt büyük ölçüde kalkar ve teslimat penceresi daha esnektir — bu farkı sevkiyat teklifinde ayrıca belirtiriz.",
+            },
+            {
+                baslik: "Ağır tonajlı çekici için yol ve zemin kontrolü",
+                metin:
+                    "Silo ve depo tesislerine giden bazı bağlantı yolları asfalt değil, sıkıştırılmış toprak veya parke zemindir; yağış sonrası bu yollar ağır çekici için taşıma kapasitesini kaybedebilir. Sevkiyat öncesi güncel yol durumu ve son yağış bilgisi kontrol edilir, gerekirse teslimat ertelenir veya alternatif bir indirme noktası aranır. Bu kontrolü atlayıp riski taşıyıcıya veya alıcıya bırakmayız — çekicinin saplandığı bir sevkiyat, hem makinenin hem tesisin işini geciktirir.",
+            },
+            {
+                baslik: "OSB içi çoklu adres sevkiyatının ekonomisi",
+                metin:
+                    "Konya OSB'nin tarım makinesi imalathaneleri birbirine yakın parsellerde yoğunlaştığı için, aynı güzergâh üzerindeki birden fazla talebi tek sevkiyat turuna bağlamak mümkün olur. Bir fabrikaya makine bırakılırken yakındaki başka bir tesisten makine teslim alınabilir, ya da aynı bölgedeki iki küçük iş tek çekiciyle sırayla dolaşılabilir. Bu model, tekil sevkiyatın nakliye maliyetini paylaştırır ve özellikle kısa süreli işlerde toplam maliyeti belirgin biçimde düşürür.",
+            },
+            {
+                baslik: "Teslim sonrası kabul ve kayıt",
+                metin:
+                    "Makine sahaya indiğinde, görünür hasar, lastik durumu ve kumanda çalışırlığı tesisin sorumlusuyla birlikte kontrol edilir ve bir teslim kaydı tutulur. Bu kayıt, kiralama süresi sonunda geri alım sırasındaki karşılaştırmanın temelidir. Konya OSB'nin tozlu-kaynak dumanlı ortamına giden makinelerde bu kontrol özellikle önemlidir; ortamın makineye etkisini teslim anındaki durumla kıyaslamak, olası ihtilafları baştan önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Konya OSB ve tahıl lojistik hattı sevkiyat tablosu",
+                paragraflar: [
+                    "Bölgedeki tipik sevkiyat senaryolarını, kritik risk faktörü ve önerilen zamanlamayla birlikte listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["Adres tipi", "Kritik risk", "Önerilen zamanlama", "Ek önlem"],
+                    satirlar: [
+                        ["OSB fabrika avlusu", "Üretim sevkiyatıyla çakışma", "Tesisin boş penceresi", "Manevra alanı ölçümü"],
+                        ["Kırsal silo tesisi", "Toprak/parke bağlantı yolu", "Kuru hava dönemi", "Güncel yol kontrolü"],
+                        ["Hasat sezonu güzergâhı", "Traktör-römork trafiği", "Erken sabah / akşamüstü", "Güzergâh alternatifi"],
+                        ["Çoklu OSB adresi", "Sıralama karmaşası", "Tek turlu program", "Kapı bazlı sıra listesi"],
+                        ["Kış donlu yol", "Buzlanma ve kayma", "Zemin çözülmesi sonrası", "Sabah kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sevkiyat öncesi paylaşılması gereken bilgiler",
+                paragraflar: [
+                    "Hızlı ve isabetli bir sevkiyat planı için beklediğimiz bilgiler bellidir: tesisin açık adresi ve giriş kapısı, indirme alanının fotoğrafı, çekicinin gireceği yolun genişliği ve varsa bilinen darlık noktaları, tesisin günlük yoğun sevkiyat saatleri ve tercih edilen teslim penceresi. Bu bilgiler eksik geldiğinde sevkiyat günü sahada karar vermek zorunda kalırız, bu da hem süreyi uzatır hem riski artırır.",
+                    "Kırsal adreslerde ayrıca son yağış durumu ve yolun toprak mı asfalt mı olduğu bilgisi istenir. Bu iki soru küçük görünse de, ağır çekicinin saplanma riskini büyük ölçüde önceden ortadan kaldırır.",
+                ],
+            },
+            {
+                baslik: "Mevsimsel teslimat penceresi farkı",
+                paragraflar: [
+                    "Hasat sezonu dışında Konya'nın karayolu trafiği görece sakindir ve teslimat penceresi geniş tutulabilir; hasat döneminde ise güzergâh yoğunluğu ve tesislerin kendi hareketliliği artar, bu yüzden pencere daralır ve erken saatler öncelikli hâle gelir. Karasal iklimin kış ayları da ayrı bir kısıt getirir — donlu sabahlarda kırsal yol güzergâhları zemin çözülene kadar beklenir.",
+                    "Bu mevsimsel farkları teklif aşamasında açıkça belirtiriz; 'her zaman aynı gün teslim' sözü vermek yerine, hangi dönemde hangi pencerenin gerçekçi olduğunu söyleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fabrikamızın avlusu dar ve sürekli araç trafiği var; çekiciniz nasıl manevra yapacak?",
+                cevap:
+                    "Sevkiyat öncesi avlunun fotoğrafını ve fabrikanızın günlük yoğun sevkiyat saatlerini isteriz; çekicinin manevra alanı bu bilgiyle önceden ölçülür. Amaç sizin kendi sevkiyat trafiğinizle çakışmayan bir pencere bulmaktır — genelde bu, tesisin en sakin saatidir. Dar avlularda bazen çekicinin geri geri girmesi veya farklı bir kapıdan yaklaşması gerekebilir; bu detayları keşif fotoğraflarıyla önceden netleştiririz.",
+            },
+            {
+                soru: "Silo tesisimize giden yol toprak; yağmurdan sonra sorun olur mu?",
+                cevap:
+                    "Olabilir — ağır çekici, yağış sonrası yumuşayan toprak veya parke zeminde taşıma kapasitesini kaybedebilir. Sevkiyat öncesi güncel yol durumunu ve son yağış bilgisini kontrol ederiz; riskli görünüyorsa teslimatı birkaç gün erteleriz veya alternatif bir indirme noktası öneririz. Yolunuzun asfalt mı toprak mı olduğunu ve varsa bilinen sorunlu noktaları önceden bildirin, planı buna göre kuralım.",
+            },
+            {
+                soru: "Hasat sezonunda teslimat süresi uzuyor mu?",
+                cevap:
+                    "Evet, dürüst cevap budur — sezon içinde traktör-römork ve kamyon trafiği güzergâhı yoğunlaştırır ve seyahat süresi uzayabilir. Bu dönemde erken sabah veya akşamüstü teslimat pencereleri tercih edilir; gündüzün en yoğun saatlerinden kaçınılır. Sezon dışında bu kısıt büyük ölçüde kalkar. Talebinizin hangi döneme denk geldiğini bildirin, gerçekçi bir teslim penceresi verelim.",
+            },
+            {
+                soru: "Konya OSB'de birden fazla adresimiz var; tek sevkiyatla hepsine ulaşabilir misiniz?",
+                cevap:
+                    "Adresler aynı güzergâh üzerinde veya birbirine yakınsa evet — bu, nakliye maliyetini bölüştüren bir modeldir. Bir tesise makine bırakılırken yakındaki başka bir tesisten makine teslim alınabilir ya da birden fazla küçük iş tek turda sırayla dolaşılabilir. Adreslerinizi ve iş tanımlarınızı paylaşın; sıralamayı güzergâhınıza göre kuralım.",
+            },
+            {
+                soru: "Makine sahaya indiğinde hasar kontrolü nasıl yapılıyor?",
+                cevap:
+                    "Teslim anında görünür hasar, lastik durumu ve kumanda çalışırlığı tesisinizin sorumlusuyla birlikte kontrol edilir ve bir teslim kaydı tutulur. Bu kayıt, kiralama süresi sonunda geri alım sırasındaki karşılaştırmanın temelidir ve olası anlaşmazlıkları baştan önler. Konya OSB'nin tozlu-kaynak dumanlı ortamına giden makinelerde bu kontrolü özellikle titiz yaparız.",
+            },
+            {
+                soru: "Kış aylarında donlu sabahlarda teslimat yapılır mı?",
+                cevap:
+                    "Yapılır ama zamanlaması değişir — donlu sabahlarda kırsal yol güzergâhları zemin çözülene kadar beklenir, çünkü buzlu zeminde ağır çekicinin kayma riski artar. OSB içi asfalt yollarda bu kısıt daha azdır. Teslimat tarihiniz kışa denk geliyorsa bunu baştan söyleriz ve gerçekçi bir saat aralığı öneririz; riskli bir sabahta zorla teslimat yapmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Konya OSB'nin sanayi trafiği ve tahıl hasadının mevsimsel yoğunluğu kamuya açık bilgidir; sevkiyat planlama ve teslim kabul süreci firma pratiğidir. Belirli güzergâh, süre veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Tahıl ve Tarım Makinesi Depolarında Forklift ve Telehandler Kiralama",
+        giris:
+            "Konya'nın tarım makinesi imalathaneleri ve tahıl depolama tesislerinde yük elleçleme ihtiyacı, şehir içi bir depodan görünüşte benzer ama fiilen farklı bir profile sahiptir: paletli ürünler yerine büyük hacimli tarım ekipmanı parçaları, çuvallı tahıl yerine dökme ürün ve zaman zaman açık sahada düzensiz zeminde çalışma söz konusudur. Standart forklift, kapalı depo içindeki raf istifleme işinde yeterli olsa da, açık sahadaki yükleme rampası önü veya kaba zeminli bir depo avlusu, teleskopik kollu telehandler'ın devreye girdiği noktadır — daha yüksek kaldırma menzili, daha geniş lastikli tahrik ve düzensiz zeminde daha rahat manevra sunar. Bizim yaklaşımımız, işin zeminine ve yük tipine göre iki sınıf arasında dürüst bir seçim yapmaktır: kapalı, düz zeminli depo içi istifleme standart forklift ile, açık saha veya yüksek menzilli işler telehandler ile çözülür. Bu sayfa, Konya OSB'deki tarım makinesi imalathaneleri ve tahıl lojistik tesislerinde forklift-telehandler kararının nasıl verildiğini, hangi zemin ve yük koşulunun hangi sınıfı gerektirdiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Tarım makinesi parçalarının yük profili",
+                metin:
+                    "Tarım makinesi imalathanesinde forklift ile taşınan yük, standart palet değil çoğu zaman düzensiz geometrili parçalardır — pulluk gövdesi, römork şasesi, biçerdöver aksamı gibi. Bu tür yüklerin ağırlık merkezi standart paletten farklıdır ve forklift çatalının doğru noktadan destek alması, kaldırma sırasında dengeyi korur. Yükün ağırlığı ve boyutu önceden bilinmeden forklift sınıfı seçilmez; büyük ve düzensiz parçalar için daha yüksek kapasiteli model veya özel çatal aparatı gerekebilir.",
+            },
+            {
+                baslik: "Dökme tahılda telehandler'ın kepçe fonksiyonu",
+                metin:
+                    "Tahıl depolarında bazı işler palet taşımaktan çok dökme ürünle ilgilidir — silo önü temizliği, taşma sonrası toplama veya yükleme öncesi düzeltme gibi. Telehandler'a takılan kepçe aparatı bu işlerde standart forklife göre daha uygun bir çözümdür; teleskopik kol sayesinde hem yüksek noktaya hem uzak mesafeye erişebilir. Bu tür işlerde aparat değişimi önceden planlanır — çatal ve kepçe arasında geçiş süresi iş planına dahil edilir.",
+            },
+            {
+                baslik: "Açık saha zemininde tahrik ve lastik seçimi",
+                metin:
+                    "Depo avlusu veya silo çevresi genellikle asfalt değil, sıkıştırılmış toprak veya çakıllı zemindir; standart forkliftin katı lastikleri bu zeminde hem tutunma kaybeder hem de zemine iz bırakabilir. Telehandler'ın 4x4 tahrik ve büyük çaplı lastikleri bu tür zeminlerde daha güvenli ilerler. Zeminin durumu ve eğimi keşifte değerlendirilir; ıslak veya yumuşak zeminde çalışma riskliyse iş, zemin kuruyana kadar ertelenir.",
+            },
+            {
+                baslik: "Yükleme rampası ve yüksek istif kararı",
+                metin:
+                    "Tahıl deposu yükleme rampasında araca yükleme yapılırken hem yükseklik hem yatay erişim önemlidir — kamyon kasasının yüksekliği ve rampa ile araç arasındaki mesafe, doğru makine sınıfını belirler. Kapalı depo içinde raf üstü istifleme genellikle standart forkliftin dikey kaldırma menziliyle çözülür; rampa önü veya açık saha yüklemesinde telehandler'ın teleskopik kolu daha esnek bir çözüm sunar. Bu ayrım, işin başında net biçimde yapılır.",
+            },
+            {
+                baslik: "Operatör yeterliliği ve iş güvenliği",
+                metin:
+                    "Forklift ve telehandler operasyonu, geçerli operatör belgesi gerektiren bir iştir; tarım makinesi imalathanesinde düzensiz yük taşırken veya tahıl deposunda yüksek istif yaparken bu yeterlilik özellikle önemlidir. Operatörlü kiralamada belge kontrolü ve iş öncesi zemin-yük brifingi standarttır. Kendi operatörünüzle çalışacaksanız da, makinenin teslim sırasında birlikte kontrol edilmesi ve zemin-yük özel koşullarının paylaşılması beklenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift ve telehandler karar tablosu",
+                paragraflar: [
+                    "Tarım makinesi ve tahıl lojistik sahalarında sık karşılaştığımız yük elleçleme senaryolarını, zemin ve yük tipine göre listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Zemin", "Önerilen sınıf", "Aparat"],
+                    satirlar: [
+                        ["Depo içi raf istifleme", "Düz beton", "Standart forklift", "Standart çatal"],
+                        ["Düzensiz parça taşıma", "Düz beton", "Yüksek kapasiteli forklift", "Özel çatal / askı"],
+                        ["Silo önü dökme ürün", "Toprak / beton karışık", "Telehandler", "Kepçe aparatı"],
+                        ["Rampa önü araç yükleme", "Beton / hafif eğim", "Telehandler", "Uzatılabilir çatal"],
+                        ["Açık saha ağır parça", "Toprak / çakıl", "Telehandler 4x4", "Yük çatalı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapasite ve ağırlık merkezi hesabı",
+                paragraflar: [
+                    "Forklift ve telehandler seçiminde en sık gözden kaçan nokta, yükün ilan edilen ağırlığı değil ağırlık merkezinin çatal ucuna uzaklığıdır. Standart kapasite tablosu, ağırlık merkezinin belirli bir mesafede olduğu varsayımıyla hesaplanır; düzensiz geometrili bir tarım makinesi parçasının ağırlık merkezi bu varsayımdan uzaksa, görünürde kapasiteye uyan bir yük bile makineyi dengesiz hâle getirebilir.",
+                    "Bu yüzden büyük ve düzensiz parçalar için yükün fotoğrafı, tahmini ağırlığı ve varsa boyutları önceden istenir; gerekirse daha yüksek kapasiteli bir model veya özel bir çatal düzeni önerilir. Tahmin yerine ölçüm tercih edilir — büyük parçalarda kantar bilgisi varsa paylaşılması önerilir.",
+                ],
+            },
+            {
+                baslik: "Hasat sezonunda artan talep ve planlama",
+                paragraflar: [
+                    "Tahıl hasadı döneminde depo ve silo tesislerinde yükleme-boşaltma trafiği yoğunlaşır ve forklift-telehandler talebi bu dönemde belirgin artar. Sezon öncesi rezervasyon, sezon içi son dakika taleplere göre daha güvenilir bir teslim tarihi sağlar. Sezon dışında ise talep sakinleşir ve makine müsaitliği genellikle daha esnektir.",
+                    "Sezon içi yoğun taleplerde birden fazla tesisin aynı haftada makine istemesi, filo planlamasını zorlar; bu yüzden hasat öncesi dönemde erken rezervasyon önerimizin en güçlü olduğu zamandır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tarım makinesi parçalarımız standart palete uymuyor; hangi makineyi önerirsiniz?",
+                cevap:
+                    "Düzensiz geometrili parçalarda belirleyici olan ilan edilen ağırlık değil, ağırlık merkezinin çatal ucuna uzaklığıdır — bu uzaksa görünürde kapasiteye uyan bir yük bile dengesizlik yaratabilir. Parçanın fotoğrafını, tahmini ağırlığını ve boyutlarını paylaşın; gerekirse daha yüksek kapasiteli bir model veya özel çatal-askı düzeni önerelim. Kantar bilgisi varsa tahminin yerini alır ve seçimi kesinleştirir.",
+            },
+            {
+                soru: "Silo önünde dökme tahıl var, forklift bunu taşıyabilir mi?",
+                cevap:
+                    "Standart forklift çatalı dökme ürün için uygun değildir; bu iş için telehandler'a takılan kepçe aparatı önerilir. Teleskopik kol sayesinde hem yüksek noktaya hem uzak mesafeye erişilebilir. Çatal ve kepçe arasında geçiş süresi olduğu için, işinizde her ikisi de gerekiyorsa bunu önceden bildirin, aparat değişim planını iş programına dahil edelim.",
+            },
+            {
+                soru: "Depo avlumuz toprak zemin; standart forklift çalışır mı?",
+                cevap:
+                    "Standart forkliftin katı lastikleri toprak veya çakıllı zeminde tutunma kaybedebilir ve zemine iz bırakabilir; bu tür zeminlerde telehandler'ın 4x4 tahrik ve büyük çaplı lastikleri daha güvenli çalışır. Zeminin durumunu ve eğimini fotoğrafla paylaşın; ıslak veya yumuşak görünüyorsa, kuruyana kadar bekleme önerimizi de baştan söyleriz.",
+            },
+            {
+                soru: "Kamyona yükleme yapacağız, hangi makine daha uygun?",
+                cevap:
+                    "Rampa önü veya açık saha yüklemesinde telehandler'ın teleskopik kolu, kamyon kasasının yüksekliği ve mesafesine göre daha esnek bir çözüm sunar; kapalı depo içi düz istiflemede ise standart forklift genellikle yeterlidir. Kamyon tipini, rampa yapınızı ve yükleme sıklığınızı paylaşın, doğru sınıfı netleştirelim.",
+            },
+            {
+                soru: "Kendi operatörümüzle çalışacağız, teslimde ne bekleniyor?",
+                cevap:
+                    "Makine teslim sırasında operatörünüzle birlikte kontrol edilir, kumanda ve güvenlik donanımı gösterilir. Zemin tipi, yük özellikleri ve varsa özel çalışma koşulları (dökme ürün, düzensiz parça, açık saha) operatörünüzle paylaşılır. Geçerli operatör belgesinin bulunması beklenir; bu, hem sizin hem makinenin güvenliği için standart bir şarttır.",
+            },
+            {
+                soru: "Hasat sezonunda forklift bulmak zor mu, ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Hasat döneminde depo ve silo tesislerinde yükleme-boşaltma trafiği yoğunlaşır ve talep belirgin artar; bu yüzden sezon öncesi erken rezervasyon, son dakika taleplere göre çok daha güvenilir bir teslim tarihi sağlar. Sezon dışında talep sakinleşir ve müsaitlik genellikle esnektir. Tahmini iş tarihinizi mümkün olduğunca erken bildirin, özellikle hasat öncesi haftalarda.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift ve telehandler sınıf farkları, kapasite-ağırlık merkezi ilişkisi sektör geneli teknik bilgidir; Konya'daki tahıl hasadı sezonsallığı kamuya açık bilgidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Silo ve Depo Hat Üstü Erişiminde Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Tahıl silolarının ve tarım makinesi depolarının hat üstü işleri — elevatör bandı bakımı, silo üstü havalandırma tesisatı, çatı altı aydınlatma değişimi — çoğu zaman düz bir dikey erişimle çözülmez; hedefin önünde bir bant hattı, bir boru güzergâhı veya sabit bir ekipman gövdesi durur ve makinenin bu engeli 'dolanarak' hedefe ulaşması gerekir. Eklemli bom platform, tam bu iş için tasarlanmıştır — bomun art arda gelen kollarıyla yukarı çıkıp yatay uzanarak engelin üstünden veya yanından hedefe erişir, makaslı platformun dikey sınırlı hareketinin çözemediği geometrileri açar. Konya'nın silo ve depo tesislerinde bu yetenek özellikle değerlidir çünkü hat üstü ekipman düzeni nadiren boş bir koridor bırakır; elevatör kuleleri, konveyör bantları ve havalandırma kanalları birbirine yakın, iç içe geçmiş bir düzen kurar. Bu sayfa, eklemli bomun silo-depo hat üstü işlerinde ne zaman devreye girdiğini, akülü ve dizel seçiminin hangi ortamda nasıl karar verildiğini ve Konya OSB'deki tipik kullanım senaryolarını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Konveyör bandı ve elevatör hattının erişim engeli",
+                metin:
+                    "Tahıl deposunun iç taşıma sistemi — konveyör bandı, elevatör kovaları, aktarma dolapları — genellikle tavana yakın bir kotta, birbirine paralel ve dar aralıklı kurulur. Bu hattın üstündeki veya arkasındaki bir aydınlatma armatürüne veya tesisat noktasına dikey bir makaslı platformla ulaşmak çoğu zaman mümkün değildir çünkü sepet doğrudan hattın altında duramaz. Eklemli bomun art arda açılan kolları, hattın yan tarafından yükselip üstünden veya arasından hedefe uzanmayı sağlar; bu geometri hesaplanırken hattın gerçek konumu ve sepedin ulaşacağı açı önceden ölçülür.",
+            },
+            {
+                baslik: "Silo üstü platform ve merdiven sisteminin çevresi",
+                metin:
+                    "Silo gövdesinin tepesindeki sabit merdiven, korkuluk ve havalandırma bacası çevresinde yapılan bakım işleri, sabit yapıların arasında dar bir çalışma koridoru bırakır. Eklemli bomun kolu, bu sabit yapıların arasından geçerek hedefe yaklaşabilir — ama bunun için makinenin park noktası ile silo arasındaki yatay mesafe, bomun maksimum yatay erişimiyle karşılaştırılır. Silo tepesine çok yakın park etmek her zaman mümkün olmayabilir; bu durumda bomun yatay menzili, dikey menzilinden daha belirleyici hâle gelir.",
+            },
+            {
+                baslik: "Akülü mü dizel mi: kapalı depo ve açık saha ayrımı",
+                metin:
+                    "Kapalı tahıl deposunun içinde egzoz emisyonu kabul edilemez olduğu için akülü eklemli platform tercih edilir; bu, hem işçi sağlığı hem tahıl ürününün kirlenmemesi açısından standart bir gerekliliktir. Silo dışındaki açık sahada ise dizel modeller daha uzun çalışma süresi ve daha güçlü tahrik sunar. Bir işin hem depo içi hem dışı kısmı varsa, iki ayrı makine ya da tek bir hibrit model değerlendirilir; bu karar, işin kapalı-açık dağılımına göre teklif aşamasında netleştirilir.",
+            },
+            {
+                baslik: "Vinç yolu ve hat üstü çalışma penceresi",
+                metin:
+                    "Silo veya depo hattında köprü vinci ya da aktif bir taşıma sistemi varsa, eklemli bomun çalışma zarfıyla kesişen her hareket önceden durdurulur ve kilitlenir; bu, tarım makinesi imalathanelerindeki vinç kilitleme protokolünün aynısıdır ve depo-silo tesislerinde de aynı ciddiyetle uygulanır. Hat üstü işler, mümkünse üretim veya sevkiyat penceresinin boş olduğu saatlere yazılır; hat tamamen durdurulamıyorsa fiziksel ayrım kurulur ve iş bu ayrım içinde yürütülür.",
+            },
+            {
+                baslik: "Toz ve dökme ürün ortamında filtre hazırlığı",
+                metin:
+                    "Tahıl tozu, metal talaşı kadar aşındırıcı olmasa da ince ve yaygın bir tozdur; uzun süre biriktiğinde filtre ve hareketli parça yüzeylerinde birikim yapar. Silo ve depo işlerine giden eklemli bom, tozlu ortama uygun filtre kontrolünden geçmiş hâlde gönderilir; iş birkaç güne yayılıyorsa ara temizlik planlanır. Patlayıcı toz ortamı ihtimali olan noktalarda, tesisin risk değerlendirmesi ve gerekli ekipman uygunluğu önceden doğrulanır — bu konuda varsayım yapılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo-depo hat üstü eklemli bom kullanım tablosu",
+                paragraflar: [
+                    "Silo ve tahıl deposu tesislerinde sık karşılaşılan hat üstü erişim senaryolarını, engel tipi ve önerilen yaklaşımla listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef", "Engel", "Yaklaşım", "Güç tipi"],
+                    satirlar: [
+                        ["Konveyör üstü aydınlatma", "Bant hattı", "Yandan yükselip üstten uzanma", "Akülü (kapalı)"],
+                        ["Elevatör kulesi tesisatı", "Dar dikey aralık", "Kademeli yatay yaklaşım", "Akülü (kapalı)"],
+                        ["Silo tepesi havalandırma", "Sabit merdiven-korkuluk", "Yandan yatay menzil", "Dizel (açık saha)"],
+                        ["Hat üstü kablo kanalı", "Aktif üretim hattı", "Vinç/hat kilitleme sonrası", "Duruma göre"],
+                        ["Silo dış cephe kaplaması", "Rüzgâra açık yükseklik", "Rüzgâr penceresi izlenerek", "Dizel (açık saha)"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yatay menzil hesabının önemi",
+                paragraflar: [
+                    "Eklemli bom seçiminde en sık yapılan hata, yalnız dikey çalışma yüksekliğine bakmaktır; oysa silo-depo hat üstü işlerinde belirleyici olan çoğu zaman yatay erişim mesafesidir. Bir hedefe park noktasından 4-5 metre yatay uzaklıktan ulaşmak gerekiyorsa, dikey yüksekliği yeterli ama yatay menzili kısıtlı bir model işi çözmez.",
+                    "Bu yüzden keşifte hem hedef kotu hem park noktası ile hedef arasındaki yatay mesafe birlikte ölçülür; iki ölçü de üretici çalışma diyagramıyla karşılaştırılarak model seçilir. Tahmini bir 'büyük makine her şeyi çözer' yaklaşımı burada işe yaramaz.",
+                ],
+            },
+            {
+                baslik: "Mevsimsel bakım takviminin planlanması",
+                paragraflar: [
+                    "Silo ve depo tesislerinin hat üstü bakım işleri genellikle hasat sezonu öncesi veya sonrası, tesisin nispeten sakin olduğu dönemlere yoğunlaşır. Bu dönemde eklemli bom talebi artar ve erken planlama, hem makine müsaitliğini hem de tesisin üretim programıyla çakışmayan bir pencere bulmayı kolaylaştırır.",
+                    "Sezon ortasında acil bir hat üstü arıza çıkarsa, iş üretim durmadan güvenle yapılabilecek şekilde planlanır; bu durumda hız önceliklidir ama güvenlik ve vinç kilitleme protokolünden ödün verilmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Konveyör bandımızın üstünde bir aydınlatma noktası var, makaslı platform yetmiyor; ne önerirsiniz?",
+                cevap:
+                    "Bu tam eklemli bomun işidir — sepet doğrudan hattın altında duramadığı için, bom yandan yükselip hattın üstünden veya arasından hedefe uzanır. Hattın konumunu, tavan yüksekliğini ve park edilebilecek yan alanı fotoğrafla paylaşın; bomun yatay ve dikey erişim hesabını buna göre çıkaralım. Kapalı depo içindeyse akülü model önceliklidir.",
+            },
+            {
+                soru: "Silo tepesindeki bakım noktasına ne kadar yaklaşabiliyoruz, park mesafesi önemli mi?",
+                cevap:
+                    "Evet, çok önemli — eklemli bomun silo tepesine ulaşması genellikle yatay menzille sınırlıdır, sadece dikey yükseklik yeterli değildir. Makinenin park edebileceği en yakın nokta ile silo arasındaki mesafeyi ölçüp iletin; bu mesafeye göre yeterli yatay erişimi olan model seçilir. Park noktası kısıtlıysa alternatif konumlandırma keşifte değerlendirilir.",
+            },
+            {
+                soru: "Depo içi işlerde akülü, dışarıda dizel mi kullanmalıyız?",
+                cevap:
+                    "Genel kural budur — kapalı tahıl deposunda egzoz emisyonu kabul edilemez olduğu için akülü platform kullanılır; açık sahada ise dizel modeller daha uzun çalışma süresi ve güç sunar. İşinizin hem içi hem dışı kapsıyorsa, iki ayrı makineyle mi yoksa tek bir hibrit modelle mi ilerleneceğini işin kapalı-açık dağılımına göre birlikte kararlaştıralım.",
+            },
+            {
+                soru: "Hat üstünde çalışırken üretim durmadan iş yapılabilir mi?",
+                cevap:
+                    "Ancak bomun çalışma zarfıyla kesişen hareket önceden durdurulup kilitlenirse. Vinç, aktif konveyör veya taşıma sistemi varsa fiziksel ayrım kurulur ya da üretimin boş olduğu bir pencere seçilir. Bu, tarım makinesi imalathanelerindeki vinç kilitleme protokolünün aynısıdır ve silo-depo tesislerinde de aynı ciddiyetle uygulanır. Hattınızın günlük çalışma programını paylaşın, uygun pencereyi birlikte belirleyelim.",
+            },
+            {
+                soru: "Tahıl tozu makineye zarar verir mi, özel hazırlık gerekiyor mu?",
+                cevap:
+                    "Tahıl tozu metal talaşı kadar aşındırıcı olmasa da uzun süre biriktiğinde filtre ve hareketli yüzeylerde birikim yapar. Silo-depo işlerine giden makine bu yüzden filtre kontrolünden geçmiş hâlde gönderilir; iş uzun sürüyorsa ara temizlik planlanır. Ortamınızda patlayıcı toz ihtimali varsa bunu önceden bildirin — bu durumda standart ekipman uygunluğu ayrıca doğrulanır.",
+            },
+            {
+                soru: "Hasat sezonu öncesi bakım için ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Silo ve depo hat üstü bakım işleri genellikle hasat öncesi veya sonrası sakin dönemlere yoğunlaşır ve bu dönemde talep artar. Erken planlama, hem makine müsaitliğini hem üretim programınızla çakışmayan bir pencere bulmayı kolaylaştırır. Bakım takviminizi ve tercih ettiğiniz dönemi mümkün olduğunca erken bildirin.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Silo-depo hat üstü ekipman düzeni ve eklemli bom erişim mantığı sektör geneli teknik bilgidir; vinç kilitleme protokolü ve toz hazırlığı firma pratiğidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Tahıl Deposu İç Mekân İşlerinde Platform Kiralama",
+        giris:
+            "Tahıl deposunun iç mekânı, tarım makinesi fabrikasının imalat holünden farklı bir işletme mantığına sahiptir — burada üretim değil depolama ve akış vardır, ve platform işi bu akışın içine sızmadan yürütülmelidir. Depo içi tavan aydınlatması, havalandırma kanalı bakımı, raf sistemi montajı veya çatı altı tesisat işleri, dökme veya çuvallı tahılın istiflendiği, forklift ve konveyörün sürekli hareket ettiği bir hacimde yapılır. Bizim iç mekân depo yaklaşımımız üç ilkeye dayanır: egzozsuz çalışma (akülü platform, tahıl ürününün kirlenmemesi için standart), zemin temizliği (depo zemini genellikle beton olsa da tahıl tozu ve dökülen ürün kayganlık yaratabilir) ve trafik ayrımı (forklift ve konveyör hareketiyle platformun çalışma alanı kesişmemelidir). Bu sayfa, Konya'daki tahıl depolarının iç mekân işlerinde platform kararının nasıl verildiğini ve depo işletmesiyle nasıl koordine edildiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Egzozsuz çalışmanın tahıl deposunda zorunluluğu",
+                metin:
+                    "Tahıl ürününün gıda veya yem zincirine gireceği depolarda, dizel egzozunun ürüne temas etmesi kabul edilemez; bu yüzden depo içi platform işlerinde akülü model standarttır. Akülü makinenin şarj noktası ve kablo güzergâhı, depo içi forklift ve konveyör trafiğinden ayrılacak şekilde önceden planlanır. Şarj süresi uzun bir işe denk geliyorsa, vardiya arasında şarj edilebilecek bir nokta belirlenir; bu detay iş planına baştan yazılır.",
+            },
+            {
+                baslik: "Dökülen tahılın zemin kayganlığına etkisi",
+                metin:
+                    "Depo zemini beton olsa da, dökme tahılın taşınması ve aktarılması sırasında zeminde ince bir tahıl tabakası oluşabilir; bu tabaka özellikle tekerlekli platformlar için beklenmedik bir kayganlık yaratır. Çalışma güzergâhı önceden temizlenir veya süpürülür, gerekirse iş sırasında periyodik kontrol yapılır. Bu, döküm tozuna göre daha az bilinen ama benzer önemde bir zemin riskidir ve depo işletmesiyle birlikte yönetilir.",
+            },
+            {
+                baslik: "Raf sistemi ve koridor genişliği ölçümü",
+                metin:
+                    "Tahıl çuvalı veya ambalajlı ürün istiflenen raf sistemlerinde, koridor genişliği ile platformun şase genişliği karşılaştırılır; dar koridorlarda standart şase geçmeyebilir, bu durumda dar şaseli akülü makaslı tercih edilir. Raf üstü kotuna sepet payı eklenerek doğru sınıf belirlenir. Raf düzeni değişkense (mevsimsel istifleme yoğunluğuna göre koridor genişliği daralabilir), keşif mümkün olduğunca güncel bir tarihte yapılır.",
+            },
+            {
+                baslik: "Forklift ve konveyör trafiğinden ayrım",
+                metin:
+                    "Depo içinde platform çalışırken forklift ve konveyör hareketi durmaz; bu yüzden çalışma alanı şeritle veya koniyle görünür biçimde ayrılır ve depo personeline bildirilir. Sepet altı saha, forklift güzergâhının kesiştiği noktalarda özellikle dikkatli işaretlenir. Konveyör hattı üstünde çalışılıyorsa, hat mümkünse geçici olarak durdurulur; durdurulamıyorsa fiziksel ayrım ve gözcü düzeni kurulur.",
+            },
+            {
+                baslik: "Vardiya dışı çalışma penceresi",
+                metin:
+                    "Depo işletmesinin en yoğun yükleme-boşaltma saatleri dışındaki pencerelerde platform işi çalışmak, hem güvenliği artırır hem de iş süresini kısaltır. Depo yönetiminden günlük trafik yoğunluğu bilgisi alınır ve iş bu bilgiye göre programlanır. Hasat sezonunda depo trafiği arttığı için bu pencere daralabilir; sezon dışı dönemde daha esnek bir program kurulabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tahıl deposu iç mekân iş-makine eşleme tablosu",
+                paragraflar: [
+                    "Depo içi sık karşılaşılan iş tiplerini, zemin ve trafik koşuluna göre listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Zemin riski", "Önerilen makine", "Trafik önlemi"],
+                    satirlar: [
+                        ["Tavan aydınlatma değişimi", "Düşük", "Akülü makaslı", "Şerit ile alan ayrımı"],
+                        ["Raf üstü koridor işi", "Orta (dar koridor)", "Dar şase akülü makaslı", "Forklift güzergâhı bildirimi"],
+                        ["Havalandırma kanalı", "Düşük", "Akülü eklemli", "Konveyör kesişim kontrolü"],
+                        ["Konveyör üstü bakım", "Orta (dökülen tahıl)", "Akülü eklemli", "Hat durdurma / fiziksel ayrım"],
+                        ["Yükleme kapısı üstü", "Yüksek (araç trafiği)", "Dizel makaslı (kapı dışı)", "Kapı bazlı sıralama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şarj planlamasının iş süresine etkisi",
+                paragraflar: [
+                    "Akülü platformun şarj süresi, özellikle vardiya boyunca kesintisiz çalışması gereken uzun işlerde plana dahil edilmelidir. Depo içinde uygun bir şarj noktası (kuru, geçişten uzak, elektrik altyapısı uygun) önceden belirlenir. Şarj noktası eksikse veya uzaksa, iş günlük olarak iki kısa döneme bölünüp ara şarj planlanabilir.",
+                    "Uzun süreli kiralamalarda yedek akü grubu veya hızlı şarj seçeneği değerlendirilebilir; bu, depo işletmesinin kendi elektrik altyapısı kapasitesine bağlıdır ve keşifte netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Hijyen ve gıda güvenliği kısıtları",
+                paragraflar: [
+                    "Tahıl ürününün insan veya hayvan gıdası zincirine gireceği depolarda, platformun kendisi de hijyen kurallarına tabi olabilir — lastiklerin temizliği, hidrolik sızıntı kontrolü ve makinenin genel temizlik durumu depo girişinde denetlenebilir. Bu tür tesislerde makine, girişten önce temizlik kontrolünden geçirilir ve gerekiyorsa ek temizlik yapılır.",
+                    "Aynı makinenin aynı gün başka, hijyen kısıtı olmayan bir tesiste kullanılmış olması durumunda, gıda tesisine girmeden önce bu geçmiş bildirilir ve gerekli temizlik adımı atlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzda dizel platform kullanabilir miyiz, daha güçlü değil mi?",
+                cevap:
+                    "Tahıl ürününün gıda veya yem zincirine gireceği depolarda dizel egzozunun ürüne teması kabul edilemez; bu yüzden depo içi işlerde akülü model standarttır ve tercih değil zorunluluktur. Güç ihtiyacınız yüksekse, akülü eklemli platformların çoğu depo içi işler için yeterli kapasiteye sahiptir; iş tanımınızı paylaşın, uygun modeli önerelim.",
+            },
+            {
+                soru: "Zeminimiz beton ama tahıl dökülüyor, bu bir risk mi?",
+                cevap:
+                    "Evet — beton zemin üzerinde ince bir tahıl tabakası bile tekerlekli platform için beklenmedik kayganlık yaratabilir. Çalışma güzergâhının önceden temizlenmesini veya süpürülmesini öneririz; uzun işlerde periyodik kontrol de plana eklenir. Zemin durumunuzu fotoğrafla paylaşın, riskli bölgeleri işaretleyip güzergâhı ona göre çizelim.",
+            },
+            {
+                soru: "Raf aralarımız dar, standart makaslı sığar mı?",
+                cevap:
+                    "Koridor genişliği ile makinenin şase genişliğinin karşılaştırılması gerekir; dar koridorlarda standart şase geçmeyebilir, bu durumda dar şaseli akülü makaslı tercih edilir. Koridorunuzun net genişliğini (raf ayağından raf ayağına) ve en üst çalışma noktanızın kotunu iletin, uygun sınıfı netleştirelim.",
+            },
+            {
+                soru: "Konveyör hattımız sürekli çalışıyor, üstünde iş yapabilir miyiz?",
+                cevap:
+                    "Ancak hat mümkünse geçici olarak durdurulursa ya da durdurulamıyorsa fiziksel ayrım ve gözcü düzeni kurulursa. Sepet zarfına giren hat hareketi güvenlik riski taşır. Konveyörünüzün durdurulabilir olup olmadığını ve günlük çalışma programını bildirin, uygun pencereyi ve ayrım düzenini birlikte belirleyelim.",
+            },
+            {
+                soru: "Şarj süresi işimizi geciktirir mi?",
+                cevap:
+                    "Uzun ve kesintisiz işlerde şarj süresi plana dahil edilmelidir; depo içinde uygun bir şarj noktası önceden belirlenir. Şarj noktası uzaksa veya eksikse iş günlük iki kısa döneme bölünüp ara şarj planlanabilir, uzun kiralamalarda yedek akü değerlendirilebilir. İşinizin tahmini süresini ve mevcut elektrik altyapınızı paylaşın, gerçekçi bir zaman planı çıkaralım.",
+            },
+            {
+                soru: "Depomuz gıda amaçlı, makine hijyen kontrolünden geçiyor mu?",
+                cevap:
+                    "Evet — tahıl ürününün insan veya hayvan gıdası zincirine gireceği tesislerde makinenin lastik temizliği, hidrolik sızıntı durumu ve genel temizliği girişte denetlenebilir. Makine bu tür kontrol için önceden hazırlanır; aynı makine daha önce farklı bir tesiste kullanıldıysa bu geçmişi bildiririz ve gerekli temizliği girişten önce tamamlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tahıl deposu iç mekân işletme koşulları (egzozsuz çalışma, zemin, hijyen) sektör geneli teknik bilgidir; şarj planlama ve trafik ayrımı firma pratiğidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Silo ve Depo Çelik Yapı Montajında Platform Kiralama",
+        giris:
+            "Silo gövdesi, depo çatısı veya tahıl lojistik tesisinin çelik iskelet yapısı kurulurken, platform işi montaj sürecinin ayrılmaz bir parçası hâline gelir — kaynak noktasına erişim, cıvata sıkma kontrolü, kiriş hizalama ve son kaplama işleri, çoğu zaman inşaat hâlindeki, henüz zemini veya çevre düzeni tamamlanmamış bir sahada yapılır. Bu, tamamlanmış bir tesisteki bakım işinden farklı bir riskler dizisi getirir: zemin henüz sabitlenmemiş olabilir, çelik montaj ekibiyle aynı sahada eş zamanlı çalışılır, kaldırma vinci hâlâ aktif olabilir ve elektrik-aydınlatma altyapısı henüz kurulmamıştır. Konya OSB'deki tarım makinesi imalathaneleri kadar, bölgedeki yeni silo ve depo inşaatlarında da bu tür montaj destek işleri talep edilir. Bu sayfa, çelik konstrüksiyon montajında platformun hangi işlerde devreye girdiğini, inşaat sahası zemininin nasıl değerlendirildiğini ve vinç-platform koordinasyonunun nasıl kurulduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "İnşaat hâlindeki zeminin taşıma kapasitesi",
+                metin:
+                    "Henüz betonu dökülmemiş veya sıkıştırılmamış bir zeminde ağır hizmet platformunun taşıma kapasitesi, tamamlanmış bir tesis zemininden farklı değerlendirilir. Zemin sıkıştırma raporu varsa incelenir, yoksa görsel ve fiziksel kontrol yapılır; gevşek dolgu veya henüz oturmamış toprak üzerinde makine güvenle duramaz. Gerekirse yük dağıtma plakaları veya geçici stabilize alan kullanılır. Bu değerlendirme, montaj ekibinin saha mühendisiyle birlikte yapılır — platform ekibi tek başına zemin kararı vermez.",
+            },
+            {
+                baslik: "Çelik montaj ekibiyle eş zamanlı çalışma koordinasyonu",
+                metin:
+                    "Kaynak ve cıvata montajı yapan çelik ekibiyle aynı sahada, bazen aynı kirişin farklı noktalarında eş zamanlı çalışılır; bu durumda platformun çalışma zarfı ile montaj ekibinin çalışma alanı net biçimde ayrılır. Kaynak kıvılcımı ve elektrot atığı platformun hidrolik hatlarından uzak tutulur, kesim ve taşlama tozu filtre kontrolünü öne çeker. Günlük iş programı, hangi kirişin hangi ekibe ait olduğunu ve platformun hangi saatte hangi bölgede çalışacağını netleştirir.",
+            },
+            {
+                baslik: "Aktif vinç ile platformun aynı sahada bulunması",
+                metin:
+                    "Çelik montaj sahasında kaldırma vinci genellikle sürekli çalışır durumdadır; platformun çalışma zarfı vincin taşıdığı elemanın güzergâhıyla kesişmemelidir. Vinç operatörü ve platform operatörü arasında görsel veya telsiz iletişimi kurulur, askılı yük hareket ederken platform çalışmaya ara verir. Bu koordinasyon, tamamlanmış tesislerdeki köprü vinci kilitleme protokolünden farklıdır — burada vinç tamamen durdurulamaz, bu yüzden sürekli iletişim ve zamanlama esastır.",
+            },
+            {
+                baslik: "Geçici aydınlatma ve elektrik altyapısında çalışma",
+                metin:
+                    "İnşaat hâlindeki bir silo veya depo sahasında kalıcı aydınlatma ve elektrik tesisatı henüz kurulmamış olabilir; bu durumda platform işi gün ışığı saatleriyle sınırlı tutulur veya geçici aydınlatma sağlanır. Akülü makinenin şarj noktası da geçici elektrik hattına bağlı olabilir, bu hattın kapasitesi önceden kontrol edilir. Elektrik altyapısı henüz sağlam değilse, dizel model bu aşamada daha güvenilir bir seçenek olabilir.",
+            },
+            {
+                baslik: "Montaj toleransı ve son kontrol erişimi",
+                metin:
+                    "Çelik yapı montajının son aşamasında kiriş hizalaması, cıvata sıkma torku ve kaynak dikişi kontrolü gibi hassas işler yapılır; bu işlerde platformun sepet konumu santimetre hassasiyetinde tutulmalıdır. Sepet titreşimi veya ani hareket, hassas bir ölçüm veya sıkma işlemini bozabilir. Bu tür işlerde makine hızı düşük tutulur ve gerektiğinde iki kişilik ekip (bir operatör, bir teknisyen) sepette birlikte çalışır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon montaj aşaması-platform eşleme tablosu",
+                paragraflar: [
+                    "Silo ve depo çelik yapı montajının farklı aşamalarında platformun rolünü ve öncelikli riskini listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["Montaj aşaması", "Öncelikli risk", "Platform rolü", "Koordinasyon"],
+                    satirlar: [
+                        ["Temel ve alt yapı", "Sabitlenmemiş zemin", "Sınırlı / zemin testi sonrası", "Saha mühendisi onayı"],
+                        ["Kiriş kaldırma", "Aktif vinç güzergâhı", "Vinç dışı bölgede destek", "Sürekli telsiz iletişimi"],
+                        ["Kaynak-cıvata montajı", "Kıvılcım ve tork hassasiyeti", "Yakın mesafe hassas erişim", "Ekip sınırlandırma"],
+                        ["Çatı kaplama", "Rüzgâr ve yükseklik", "Ana destek platformu", "Hava koşulu izleme"],
+                        ["Son kontrol", "Ölçüm hassasiyeti", "Düşük hızlı hassas konumlama", "İki kişilik sepet ekibi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İnşaat sahasında zemin dosyası oluşturmak",
+                paragraflar: [
+                    "Tamamlanmamış bir sahada platform göndermeden önce zemin durumu belgelenir: sıkıştırma raporu varsa referans alınır, yoksa görsel kontrol ve fiziksel test yapılır. Gevşek bölgeler işaretlenir ve makinenin güzergâhı bu bölgelerden kaçınacak şekilde çizilir. Zemin durumu inşaat ilerledikçe değişebileceği için, uzun süreli montaj projelerinde periyodik yeniden kontrol önerilir.",
+                    "Bu dosya, sahadaki genel yükleniciyle paylaşılır ve platform ekibinin çalışma güzergâhı, genel iş güvenliği planına dahil edilir — platform işi, inşaat sahasının bağımsız bir aktivitesi değil, genel iş programının bir parçası olarak ele alınır.",
+                ],
+            },
+            {
+                baslik: "Hava koşulunun montaj takvimine etkisi",
+                paragraflar: [
+                    "Çelik montaj işleri genellikle açık sahada yapıldığı için, Konya ovasının rüzgâr ve don koşulları montaj takvimini doğrudan etkiler. Yüksek kotlu çatı kaplama işlerinde rüzgâr hızı sınırı gün içinde izlenir; kış aylarında donmuş zeminde makine hareketi zemin çözülene kadar ertelenir.",
+                    "Bu kısıtlar, çelik montaj genel yükleniciyle önceden paylaşılır ve montaj takvimi platform çalışma penceresine göre değil, ikisi birlikte planlanarak kurulur — platform işinin hava koşulundan bağımsız yürüyeceği varsayılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İnşaat hâlindeki sahamızın zemini henüz sabitlenmedi, platform yine de çalışabilir mi?",
+                cevap:
+                    "Zemin durumu önce değerlendirilir — sıkıştırma raporu varsa incelenir, yoksa görsel ve fiziksel kontrol yapılır. Gevşek dolgu üzerinde makine güvenle duramaz; bu durumda yük dağıtma plakaları veya geçici stabilize alan kullanılır ya da iş, zemin sağlamlaşana kadar ertelenir. Saha mühendisinizle birlikte zemin dosyasını çıkaralım; platform ekibi tek başına zemin kararı vermez.",
+            },
+            {
+                soru: "Çelik montaj ekibiyle aynı anda çalışabilir miyiz, yoksa sırayla mı olmalı?",
+                cevap:
+                    "Eş zamanlı çalışma mümkündür ama çalışma alanları net biçimde ayrılmalıdır — kaynak kıvılcımı ve elektrot atığı platformdan uzak tutulur, hangi ekibin hangi kirişte çalışacağı günlük programda belirlenir. İş programınızı paylaşın, platformun hangi saatte hangi bölgede çalışacağını çelik ekibinizle koordineli olarak netleştirelim.",
+            },
+            {
+                soru: "Vinç sahada sürekli çalışıyor, platformla çakışma riski var mı?",
+                cevap:
+                    "Var, bu yüzden vinç operatörü ve platform operatörü arasında sürekli görsel veya telsiz iletişimi kurulur; askılı yük hareket ederken platform çalışmaya ara verir. Vinç tamamlanmış tesislerdeki gibi tamamen kilitlenemeyeceği için, bu koordinasyon işin başından sonuna kadar sürekli sürdürülür. Vincinizin çalışma temposunu bildirin, iletişim protokolünü birlikte kuralım.",
+            },
+            {
+                soru: "Sahada henüz elektrik yok, akülü platform şarj edilebilir mi?",
+                cevap:
+                    "Geçici elektrik hattı varsa kapasitesi önceden kontrol edilir ve şarj noktası buna göre belirlenir; elektrik altyapısı henüz sağlam değilse bu aşamada dizel model daha güvenilir bir seçenek olabilir. Sahanızın elektrik durumunu bildirin, montaj aşamasına uygun güç tipini önerelim.",
+            },
+            {
+                soru: "Son kontrol aşamasında hassas ölçüm yapılacak, platform bunu bozar mı?",
+                cevap:
+                    "Doğru önlemle bozmaz — bu tür işlerde makine hızı düşük tutulur, sepet konumu kademeli ve kontrollü ayarlanır, gerektiğinde iki kişilik ekip (operatör ve teknisyen) birlikte çalışır. Ölçüm veya sıkma işleminin hassasiyet derecesini bildirin, sepet hareketini buna göre en düşük titreşimle planlayalım.",
+            },
+            {
+                soru: "Rüzgârlı bir günde çatı kaplama işi devam eder mi?",
+                cevap:
+                    "Üretici rüzgâr sınırı aşıldığında devam etmez — Konya ovasının açık rüzgâr profili yüksek kotlu çatı işlerinde standart bir kısıttır ve gün içinde sürekli izlenir. Sınır aşılırsa sepet indirilir ve iş, rüzgârın düştüğü bir zaman dilimine ertelenir. Montaj takviminizi bu değişkenlikle birlikte planlamanızı öneririz; hava koşulunu genel yükleniciyle paylaşılan bir plan üzerinden yönetiriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj süreçleri ve inşaat sahası koordinasyon ilkeleri sektör geneli teknik bilgidir; zemin dosyası ve vinç iletişim protokolü firma pratiğidir. Belirli tesis, proje veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım Silosu ve Hasat Sezonu Bakımında Ağır Hizmet Platform Kiralama",
+        giris:
+            "Tarım silosu ve hasat sezonu bakımı, bizim filomuzun yan bir hizmet başlığı değil, kuruluş nedenimizdir — Konya OSB merkezli konumumuz ve tarım makineleri imalatına komşuluğumuz, bu konuyu bize her yıl tekrar eden, mevsimsel ritmini ezbere bildiğimiz bir iş hâline getirdi. Silo bakımının takvimi tarım takvimiyle örtüşür: hasat öncesi hazırlık döneminde (yaz başı) siloların boş kısımları kontrol edilir, kapasiteye hazırlanır; hasat sırasında (yaz ortası-sonu) dolum yoğunluğu artarken bakım işleri kısa pencerelere sıkışır; hasat sonrası (sonbahar) ise yıllık büyük bakım ve onarım işleri yapılır. Bu üç dönemin her biri farklı bir platform stratejisi ister — hazırlık döneminde geniş kapsamlı bakım, hasat döneminde hızlı ve kısa müdahale, hasat sonrası dönemde detaylı onarım. Tarım makinesi sanayinin kalbi olan bu bölgede, silo gövdesinin yapısal özelliklerini, elevatör ve konveyör sistemlerinin erişim mantığını ve tahıl tozunun makineye etkisini gerçek saha tecrübesiyle biliyoruz. Bu sayfa, tarım silosu bakımının mevsimsel ritmini, silo tipine göre makine seçimini ve hasat sezonunun getirdiği özel kısıtları detaylı biçimde anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Hasat öncesi hazırlık döneminin geniş kapsamlı bakımı",
+                metin:
+                    "Yaz başında, siloların büyük bölümü henüz boş veya düşük doluluktayken, yıl içinde biriken bakım ihtiyaçları toplu olarak ele alınır: elevatör kovalarının kontrolü, konveyör bant gerginliği, havalandırma fanlarının bakımı, silo gövdesi dış yüzeyinin korozyon kontrolü ve aydınlatma-tesisat kontrolleri. Bu dönemde siloların doluluk oranı düşük olduğu için hem erişim daha kolaydır hem de işletme, çalışma penceresini daha esnek tutabilir. Bizim önerimiz, bu dönemi kaçırmamaktır — hasat başladığında aynı kapsamlı işi yapmak çok daha zor ve maliyetlidir.",
+            },
+            {
+                baslik: "Hasat sezonunda kısa pencereli acil müdahale",
+                metin:
+                    "Hasat yoğunluğu arttığında, silo ve elevatör sistemi sürekli çalışır durumda kalır ve bakım için ayrılabilecek pencere daralır; bu dönemde platform talebi genellikle planlanmış bakımdan çok arıza müdahalesi şeklinde gelir — bir aydınlatma noktası sönmüş, bir sensör arızalanmış, bir konveyör kapağı takılmış. Bu tür işlerde hız kritik hâle gelir; makinenin sahaya en kısa sürede ulaşması ve işin, dolum-boşaltım akışını en az kesintiyle tamamlaması beklenir. Sezon içi acil taleplerde önceliğimiz, işletmenin hasat akışını durdurmadan çalışmaktır — bu, akülü platformun sessiz ve dumansız çalışmasının özellikle değer kazandığı andır.",
+            },
+            {
+                baslik: "Hasat sonrası detaylı onarım ve yapısal kontrol",
+                metin:
+                    "Sonbaharda hasat tamamlandıktan sonra, silo gövdesinin yapısal durumu, çatı ve merdiven sistemlerinin aşınması, elevatör kulesinin tam kapsamlı bakımı gibi daha büyük ölçekli işler bu döneme yazılır. Siloların doluluk oranı yıl içindeki en düşük seviyeye indiği için, gövde çevresinde daha geniş bir çalışma alanı bulunur ve daha kapsamlı işler (dış cephe boyası, korozyon onarımı, büyük tesisat değişimi) bu pencerede planlanır. Bu dönem aynı zamanda gelecek sezona hazırlık anlamı taşır — bir sonraki hasat öncesi hazırlık dönemine kadar geçen süre, büyük onarımların rahatça tamamlanabileceği en uzun penceredir.",
+            },
+            {
+                baslik: "Silo tipine göre makine sınıfı seçimi",
+                metin:
+                    "Metal gövdeli dikey silolar genellikle dar bir taban çapına sahiptir ve çevresinde çalışma alanı kısıtlıdır; bu tip silolarda kompakt eklemli veya örümcek platform tercih edilir. Yatay depo tipi tahıl ambarlarında ise geniş, düz bir zemin bulunduğu için standart makaslı veya büyük eklemli bom daha rahat çalışır. Elevatör kulesi gibi dar ve yüksek yapılarda, makinenin kuleye çok yakın park edebilmesi kritik olduğu için yatay menzil hesabı öne çıkar. Silo tipinizi ve çevresindeki alanı bildirin, doğru sınıfı bu üç kritere göre netleştirelim.",
+            },
+            {
+                baslik: "Tahıl tozunun platform bakımına etkisi ve hazırlık",
+                metin:
+                    "Tahıl tozu, metal işleme tozu kadar sert olmasa da ince ve uçucudur; havalandırma kanalları ve konveyör çevresinde birikerek filtre ve hareketli parçalara nüfuz edebilir. Silo işlerine giden platform, bu ortama özel filtre ve körük kontrolünden geçmiş hâlde gönderilir. Ayrıca dökme tahılın bulunduğu kapalı hacimlerde patlayıcı toz konsantrasyonu ihtimali işletme tarafından değerlendirilmelidir; bu değerlendirme olmadan standart ekipmanın uygun olduğu varsayılmaz. İşletmenin toz sınıflandırması ve havalandırma durumu bilgisi, makine seçiminden önce istenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mevsimsel silo bakım takvimi ve platform stratejisi",
+                paragraflar: [
+                    "Tarım silosu bakımının yıl içindeki üç döneme göre nasıl farklı bir platform stratejisi gerektirdiğini tek tabloda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Dönem", "Silo doluluğu", "İş kapsamı", "Platform stratejisi"],
+                    satirlar: [
+                        ["Hasat öncesi (yaz başı)", "Düşük", "Geniş kapsamlı planlı bakım", "Uzun süreli, çok noktalı kiralama"],
+                        ["Hasat dönemi (yaz ortası-sonu)", "Yüksek", "Acil müdahale", "Hızlı ulaşım, kısa süreli akülü"],
+                        ["Hasat sonrası (sonbahar)", "Düşük", "Yapısal onarım, dış cephe", "Kapsamlı, dizel destekli"],
+                        ["Kış (düşük aktivite)", "Değişken", "Erteleme veya küçük bakım", "Hava koşuluna bağlı esnek plan"],
+                        ["Sonraki hasat öncesi", "Düşük→Yüksek", "Son kontrol ve hazırlık", "Kısa süreli genel tarama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Silo gövdesi çevresinde erişim geometrisi",
+                paragraflar: [
+                    "Dikey metal siloların çevresinde çalışma alanı genellikle sabit merdiven, korkuluk ve komşu silo gövdeleriyle sınırlıdır; bu dar çalışma cebinde makinenin ayak açıklığı veya yatay menzili, silo taban çapı ve komşu yapılara olan mesafeyle karşılaştırılarak belirlenir. Silo kompleksi birden fazla gövdeden oluşuyorsa, makinenin gövdeler arasındaki dar koridorlarda hareket edebilme yeteneği de değerlendirilir.",
+                    "Elevatör kulesi gibi tek ve dar yapılarda ise asıl kısıt makinenin kuleye ne kadar yaklaşabildiğidir; kule tabanı çevresinde sabit ekipman (motor kutusu, kontrol paneli) bulunuyorsa bu, park noktasını daha da kısıtlar. Bu ölçümler her zaman fotoğraf ve şeritmetre ile keşif öncesi netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Hasat sezonunun tarım makinesi sanayi trafiğiyle çakışması",
+                paragraflar: [
+                    "Konya'nın tarım makinesi sanayi merkezi kimliği, hasat sezonunda ayrıca bir trafik gerçeği yaratır: hem silo tesislerine giden yollar tarım araçlarıyla dolar hem de fabrikaların kendi biçerdöver-römork bakım talepleri bu döneme yığılır. Sezon içinde hem silo hem fabrika talebi aynı anda gelirse, öncelik genellikle işletmenin üretim/hasat akışını en çok etkileyen işe verilir ve bu, teklif aşamasında açıkça konuşulur.",
+                    "Sezon dışı dönemde bu çakışma büyük ölçüde ortadan kalkar ve hem silo hem fabrika işleri daha esnek bir takvimde planlanabilir. Bu yüzden mümkünse büyük kapsamlı silo bakımlarını hasat öncesi veya sonrası döneme almanızı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo bakımını hangi dönemde yaptırmalıyız, hasat öncesi mi sonrası mı?",
+                cevap:
+                    "Kapsamlı ve planlı bakım için en uygun pencere hasat öncesi yaz başıdır — silolar henüz düşük dolulukta olduğu için erişim kolaydır ve işletme çalışma penceresini esnek tutabilir. Hasat sonrası sonbahar ise daha büyük yapısal onarımlar ve dış cephe işleri için uygundur çünkü doluluk yine düşüktür ve önünüzde bir sonraki hasada kadar uzun bir süre vardır. Hasat sezonunun ortasında yalnızca acil müdahale önerilir; kapsamlı bakımı bu döneme sıkıştırmak hem işletmeniz hem bizim için risklidir.",
+            },
+            {
+                soru: "Hasat sırasında acil bir arıza çıktı, ne kadar hızlı müdahale edebilirsiniz?",
+                cevap:
+                    "Sezon içi acil taleplerde önceliğimiz işletmenizin hasat akışını durdurmadan en hızlı şekilde ulaşmaktır; akülü platformun sessiz ve dumansız çalışması bu tür müdahalelerde özellikle avantajlıdır. Gerçekçi süre, makinenin müsaitliğine ve sahanıza olan mesafeye bağlıdır — arızanın konumunu, silo tipini ve erişim koşullarını hemen paylaşın, telefonda netleştirelim.",
+            },
+            {
+                soru: "Dikey metal silomuzun çevresi çok dar, hangi makine sığar?",
+                cevap:
+                    "Dar çevre alanlı dikey silolarda kompakt eklemli veya örümcek platform genellikle daha uygun bir çözümdür; ayak açıklığı ve yatay menzil, silo taban çapı ve komşu yapılara olan mesafeyle karşılaştırılarak belirlenir. Silo çapını, çevresindeki serbest alanı ve varsa komşu gövdeler arası mesafeyi fotoğrafla iletin, doğru sınıfı netleştirelim.",
+            },
+            {
+                soru: "Tahıl tozu patlayıcı olabilir mi, bu bizim siloda bir risk mi?",
+                cevap:
+                    "Dökme tahılın bulunduğu kapalı hacimlerde patlayıcı toz konsantrasyonu ihtimali gerçek bir risktir ve bu değerlendirme işletmenin kendi toz sınıflandırması ve havalandırma bilgisine dayanır; biz standart ekipmanın otomatik olarak uygun olduğunu varsaymayız. Silonuzun toz sınıflandırması ve havalandırma durumu hakkında bilginiz varsa paylaşın; belirsizse, bu konuda önce netlik kazanmanızı öneririz.",
+            },
+            {
+                soru: "Elevatör kulemizin tabanına ekipman kutuları yerleştirilmiş, makine yaklaşabilir mi?",
+                cevap:
+                    "Bu tür sabit ekipmanlar park noktasını kısıtlayabilir, bu yüzden makinenin kuleye ne kadar yaklaşabildiği ölçülür ve bomun yatay menzili bu mesafeye göre değerlendirilir. Kule tabanındaki ekipman yerleşimini ve serbest kalan alanı fotoğrafla paylaşın; gerekirse yerinde keşif yaparak en uygun konumlandırmayı birlikte belirleyelim.",
+            },
+            {
+                soru: "Aynı hafta hem silomuzda hem fabrikamızda iş var, ikisini birlikte planlayabilir misiniz?",
+                cevap:
+                    "Evet, Konya'nın tarım makinesi sanayi ve silo dokusunun iç içe geçmiş yapısı bu tür birleşik planlamayı zaten sık yaptığımız bir modeldir. Sezon içi yoğun dönemlerde öncelik genellikle işletmenizin üretim veya hasat akışını en çok etkileyen işe verilir; bu önceliklendirmeyi teklif aşamasında açıkça konuşuruz. İki adresin iş listesini paylaşın, ortak bir sevkiyat ve çalışma programı çıkaralım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Tarım silosu bakımının hasat takvimiyle ilişkisi ve Konya'nın tarım makinesi sanayi kimliği kamuya açık bilgidir; mevsimsel platform stratejisi, silo tipi erişim geometrisi ve toz hazırlığı firma pratiğidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Silo ve Depo Aydınlatma-Enerji Bakımında Platform Kiralama",
+        giris:
+            "Silo ve depo tesislerinde aydınlatma ve enerji altyapısı bakımı, görünüşte sıradan bir işken, tahıl tozunun ve geniş açık-kapalı sahaların birleşimiyle kendine özgü bir dikkat gerektirir: armatürler yüksek kotlarda, çoğu zaman tozlu ve nemli bir ortamda çalışır; enerji hatları hem depo içi hem dışında uzun mesafeler kat eder; ve arızalar genellikle en yoğun çalışma saatlerinde fark edilir. Konya'nın tarım makinesi imalathaneleri ve tahıl depolama tesislerinde aydınlatma-enerji bakımı, bizim için düzenli tekrarlanan bir hizmet kalemidir — hem planlı periyodik kontrol hem de arıza sonrası acil müdahale şeklinde talep alırız. Bu sayfa, silo-depo aydınlatma ve enerji bakımında platform kararının nasıl verildiğini, tozlu ortamın elektrik ekipmanına etkisini ve acil aydınlatma arızalarında hız-güvenlik dengesinin nasıl kurulduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Yüksek kotlu armatür değişiminde erişim planı",
+                metin:
+                    "Depo ve silo tesislerinde aydınlatma armatürleri genellikle 8-14 metre bandında, tavana veya çatı kirişine monte edilmiştir; bu kotlara erişim, hem armatürün tam altına inilebilecek düz bir alan olup olmadığına hem de çevredeki hat, raf veya ekipmanın yatay engel oluşturup oluşturmadığına bağlıdır. Düz ve boş alanda kompakt akülü makaslı yeterli olurken, hat üstü veya raf arası konumlarda eklemli bom daha uygun bir çözümdür. Armatür sayısı fazlaysa, güzergâh en verimli sırayla planlanır — makine tek bir konumdan mümkün olduğunca çok noktaya erişecek şekilde konumlandırılır.",
+            },
+            {
+                baslik: "Enerji hattı bakımında güvenlik izolasyonu",
+                metin:
+                    "Silo ve depo tesislerinin enerji hatları — ana pano bağlantıları, motor besleme kabloları, aydınlatma devreleri — üzerinde çalışılırken, ilgili devrenin işletme tarafından güvenli biçimde izole edilmesi (kesme, etiketleme, kilitleme) önce tamamlanır. Platform operatörü elektrik izolasyonu yapmaz; bu, tesisin yetkili elektrik personelinin sorumluluğundadır. Sepetteki teknisyenin çalışacağı devre kesin olarak doğrulanmadan işe başlanmaz — bu, aydınlatma bakımı gibi görünüşte basit bir işte bile atlanmayan bir adımdır.",
+            },
+            {
+                baslik: "Tozlu ve nemli ortamda elektrik ekipmanı riski",
+                metin:
+                    "Tahıl tozu ve depo nemliliği, aydınlatma armatürlerinin ve enerji panolarının içine zamanla nüfuz edebilir; bu, bakım sırasında beklenmedik bir arıza veya kısa devre riski taşıyabilir. Platform ekibi, bu tür bir riski fark ettiğinde işi durdurup tesisin elektrik personelini bilgilendirir — görünürde basit bir ampul değişimi, altında biriken toz nedeniyle beklenmedik bir duruma dönüşebilir. Bu ihtiyat, aydınlatma bakımının 'hızlı iş' kategorisinde bile gözden kaçırılmaması gereken bir kuraldır.",
+            },
+            {
+                baslik: "Acil aydınlatma arızasında hız-güvenlik dengesi",
+                metin:
+                    "Depo veya silo tesisinde bir bölgenin aydınlatması söndüğünde, bu genellikle işletme için acil bir durumdur — karanlık bir alanda forklift veya personel hareketi güvenlik riski taşır. Bu tür acil taleplerde makinenin sahaya hızlı ulaşması önceliklidir, ancak hız hiçbir zaman güvenlik kontrolünün atlanması anlamına gelmez; enerji izolasyonu ve zemin kontrolü acil işlerde de aynı titizlikle yapılır. Fark, planlamanın sahada değil telefonda, hızlı ama eksiksiz yapılmasıdır.",
+            },
+            {
+                baslik: "Periyodik bakım programının kurulması",
+                metin:
+                    "Tek seferlik acil müdahaleler yerine, yılda bir veya iki kez planlı aydınlatma-enerji taraması yapan işletmeler, arıza sıklığını belirgin biçimde azaltır. Periyodik program, tesisin tüm aydınlatma noktalarının bir listesini çıkarmakla başlar; her ziyarette hangi noktaların kontrol edileceği önceden belirlenir ve makine güzergâhı buna göre optimize edilir. Bu program, hasat sezonu öncesi hazırlık dönemine denk getirildiğinde, sezon içi acil arıza riskini de azaltır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo-depo aydınlatma ve enerji bakım tablosu",
+                paragraflar: [
+                    "Sık karşılaşılan aydınlatma-enerji bakım senaryolarını, risk tipi ve önerilen yaklaşımla listeledik.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Öncelikli risk", "Makine sınıfı", "Ön koşul"],
+                    satirlar: [
+                        ["Rutin armatür değişimi", "Düşük", "Akülü makaslı", "Devre izolasyonu"],
+                        ["Hat üstü enerji kablosu", "Orta (yatay engel)", "Akülü eklemli", "İzolasyon + erişim ölçümü"],
+                        ["Toz birikmiş pano bakımı", "Yüksek (kısa devre)", "Duruma göre", "Elektrik personeli eşliği"],
+                        ["Acil aydınlatma arızası", "Yüksek (güvenlik)", "En hızlı uygun sınıf", "Telefonda hızlı doğrulama"],
+                        ["Periyodik tarama", "Düşük", "Güzergâh optimize makaslı/eklemli", "Önceden hazırlanmış liste"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik personeliyle iş bölümü",
+                paragraflar: [
+                    "Platform ekibi erişimi sağlar, elektrik işini tesisin yetkili personeli veya bizim de sağlayabildiğimiz yetkili teknisyen yapar; bu iş bölümü net tutulur ve hangi tarafın hangi sorumluluğu üstlendiği iş öncesi yazılı olarak belirtilir. Devre izolasyonu ve yeniden enerjilendirme her zaman tesisin yetkilisi tarafından onaylanır.",
+                    "Kendi elektrik ekibiniz yoksa, yetkili teknisyen hizmetini platform kiralamasıyla birlikte de değerlendirebiliriz; bu durumda iş kapsamı ve sorumluluk sınırı teklif aşamasında ayrıca netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Hasat sezonu öncesi aydınlatma taramasının değeri",
+                paragraflar: [
+                    "Hasat sezonu başladığında depo ve silo tesisleri gece de dahil uzun saatler çalışabilir; bu dönemde bir aydınlatma arızası hem güvenlik hem verim açısından ciddi bir sorun olur. Hasat öncesi yaz başında yapılan kapsamlı bir aydınlatma-enerji taraması, sezon içi bu tür arızaların önemli bir kısmını önceden yakalar.",
+                    "Bu taramayı düzenli bir program hâline getiren işletmeler, sezon içi acil çağrı sıklığının azaldığını gözlemliyor — bu, bizim saha tecrübemizin tekrar eden bir gözlemidir, kesin bir istatistik iddiası değildir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzda bir bölgenin aydınlatması söndü, acil olarak gelebilir misiniz?",
+                cevap:
+                    "Evet, acil aydınlatma arızaları önceliklidir — makinenin sahaya hızlı ulaşması hedeflenir ama enerji izolasyonu ve zemin kontrolü acil işlerde de atlanmaz. Arızalı bölgenin konumunu, tavan yüksekliğini ve varsa çevredeki engelleri hemen paylaşın; telefonda hızlı bir değerlendirme yapıp uygun makineyi yönlendirelim.",
+            },
+            {
+                soru: "Enerji hattında çalışırken devrenin kesildiğinden nasıl emin oluyoruz?",
+                cevap:
+                    "Devre izolasyonu, kesme, etiketleme ve kilitleme adımlarıyla tesisinizin yetkili elektrik personeli tarafından yapılır ve platform operatörü bu izolasyonu kendisi gerçekleştirmez. Sepetteki teknisyenin çalışacağı devre kesin olarak doğrulanmadan işe başlanmaz. Kendi elektrik ekibiniz yoksa, yetkili teknisyen hizmetini de birlikte değerlendirebiliriz.",
+            },
+            {
+                soru: "Armatürün altında tahıl tozu birikmiş, bu bir sorun mu?",
+                cevap:
+                    "Olabilir — biriken toz ve nem, aydınlatma armatürü veya pano içine nüfuz ederek beklenmedik bir kısa devre riski taşıyabilir. Ekibimiz bu tür bir birikim fark ettiğinde işi durdurup tesisinizin elektrik personelini bilgilendirir; görünüşte basit bir ampul değişimi bile bu durumda dikkatli ele alınır. Biriken toz görünürse önceden bize bildirin, ekstra bir kontrol adımını plana ekleyelim.",
+            },
+            {
+                soru: "Hat üstündeki bir kablo kanalına nasıl erişiyorsunuz?",
+                cevap:
+                    "Hat yatay bir engel oluşturuyorsa akülü eklemli platform tercih edilir; bom yandan yükselip hattın üstünden veya arasından erişir. Hattın konumunu, tavan yüksekliğini ve park edilebilecek yan alanı fotoğrafla paylaşın; hem erişim hem enerji izolasyon planını buna göre çıkaralım.",
+            },
+            {
+                soru: "Yıllık bir aydınlatma taraması yaptırmak mantıklı mı?",
+                cevap:
+                    "Evet, saha tecrübemize göre düzenli tarama yaptıran işletmelerde sezon içi acil çağrı sıklığı azalıyor. Tesisinizin tüm aydınlatma noktalarının bir listesini çıkarır, her ziyarette hangi noktaların kontrol edileceğini önceden planlarız; bu, güzergâhı optimize eder ve toplam süreyi kısaltır. Tarama zamanını hasat öncesi döneme denk getirmenizi öneririz.",
+            },
+            {
+                soru: "Elektrik ekibimiz yok, siz de bu hizmeti verebiliyor musunuz?",
+                cevap:
+                    "Yetkili teknisyen hizmetini platform kiralamasıyla birlikte değerlendirebiliriz; bu durumda iş kapsamı, sorumluluk sınırı ve fiyatlandırma teklif aşamasında ayrıca netleştirilir. İhtiyacınızı ve tesisinizin mevcut elektrik altyapı durumunu paylaşın, uygun bir çözüm önerelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Silo-depo aydınlatma ve enerji bakımının genel prensipleri (izolasyon, toz riski) sektör geneli teknik bilgidir; periyodik tarama programı ve hasat öncesi planlama firma pratiğidir. Belirli tesis veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Ağır Hizmet Sahalarında Operatörlü Platform Kiralama",
+        giris:
+            "Konya OSB'nin tarım makinesi imalathaneleri ve tahıl lojistik tesislerinde operatörlü platform talebi, sıradan bir 'makineyi biz kullanamıyoruz' ihtiyacından çok daha spesifik bir gerekçeyle gelir: ağır hizmet sahalarının kendine özgü riskleri — köprü vinç kilitleme protokolü, kaynak sahası yakınında çalışma disiplini, tahıl tozu ortamında dikkat gerektiren manevralar — deneyimli bir operatör gerektirir. Bizim operatörlü hizmetimiz, yalnızca makineyi süren bir kişi sağlamak değil, bu sahaların özel kurallarını bilen, tesis güvenlik prosedürlerine uyum sağlayabilen bir ekip göndermektir. Operatör belgesi doğrulaması, iş öncesi saha brifingi ve tesisin kendi İSG kurallarına adaptasyon, operatörlü kiralamanın standart bileşenleridir. Bu sayfa, ağır hizmet sahalarında operatörlü kiralamanın ne zaman doğru tercih olduğunu, operatör yeterliliğinin nasıl doğrulandığını ve tesis-operatör koordinasyonunun nasıl kurulduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Ağır hizmet belgesi ve yeterlilik doğrulaması",
+                metin:
+                    "Operatörlü kiralamada gönderdiğimiz personel, genel platform kullanım belgesinin ötesinde, ağır hizmet sahalarının özel risklerine (vinç kilitleme, sıcak iş komşuluğu, tozlu ortam) aşina bir eğitim geçmişine sahiptir. Belge doğrulaması iş öncesi yapılır ve tesise giriş sırasında istenirse belge tesis güvenlik biriminize gösterilir. Operatörün ilgili makine sınıfında (makaslı, eklemli, örümcek) tecrübesi, işin gerektirdiği sınıfla eşleştirilir — her operatör her makine sınıfında aynı derecede deneyimli değildir.",
+            },
+            {
+                baslik: "Tesis güvenlik prosedürüne uyum",
+                metin:
+                    "Konya OSB'deki her fabrika ve silo tesisinin kendine özgü giriş prosedürü, İSG kuralları ve saha brifingi vardır; operatörümüz sahaya girmeden önce bu prosedürlere uyum sağlar ve tesisin istediği güvenlik eğitimini (varsa) tamamlar. Vinç kilitleme, sıcak iş izni veya toz ortamı özel kuralı gibi konularda operatörümüz tesisin belirlediği protokolü uygular; kendi standart prosedürümüzü tesisin kuralının üstüne çıkarmayız. Bu uyum, ilk sahaya giriş öncesi görüşmede netleştirilir.",
+            },
+            {
+                baslik: "Vardiya süresi ve mesai düzeni",
+                metin:
+                    "Operatörlü kiralamada vardiya süresi, tesisin çalışma programına göre esnetilebilir — gündüz mesaisi, vardiya arası kısa pencere veya hafta sonu çalışması gibi. Uzun süreli işlerde operatör rotasyonu (yorgunluk yönetimi için) planlanır; tek bir operatörün art arda uzun saatler çalışması, özellikle hassas montaj veya kaynak yakını işlerde risk oluşturabilir. Vardiya planı, işin başında tesisin üretim takvimiyle birlikte kurulur.",
+            },
+            {
+                baslik: "Operatörsüz kiralamaya geçiş kriterleri",
+                metin:
+                    "Her iş operatörlü kiralama gerektirmez — işletmenin kendi belgeli operatörü varsa ve iş, standart bir bakım kalemiyse (örneğin düz bir holde aydınlatma değişimi), operatörsüz kiralama daha ekonomik olabilir. Ancak vinç kilitli hollerde, kaynak sahası yakınında veya tahıl tozu yoğun ortamda çalışacaksa, sahanın özel risklerine aşina bir operatör önerimizdir — bu öneriyi maliyet kaygısıyla değil güvenlik gerekçesiyle yaparız ve kararı işletmeyle birlikte netleştiririz.",
+            },
+            {
+                baslik: "Operatör-tesis iletişiminin sürekliliği",
+                metin:
+                    "İş boyunca operatörümüz, tesisin saha sorumlusuyla sürekli iletişim hâlindedir — vinç hareketi, forklift trafiği veya proses değişikliği gibi anlık gelişmeler operatöre bildirilir ve iş buna göre durdurulur veya devam eder. Bu iletişim, özellikle uzun süreli işlerde kritik önem taşır çünkü sahadaki koşullar günden güne değişebilir. İş sonunda operatör, tesis sorumlusuyla birlikte kapanış kontrolü yapar ve açık kalemleri kayıt altına alır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama karşılaştırma tablosu",
+                paragraflar: [
+                    "Hangi durumda operatörlü, hangi durumda operatörsüz kiralamanın daha uygun olduğunu özetleyen bir karşılaştırma.",
+                ],
+                tablo: {
+                    basliklar: ["Saha koşulu", "Risk seviyesi", "Önerilen model", "Gerekçe"],
+                    satirlar: [
+                        ["Düz holde standart bakım", "Düşük", "Operatörsüz (belgeli müşteri operatörü)", "Standart iş, düşük risk"],
+                        ["Vinç kilitli hol", "Yüksek", "Operatörlü", "Protokol bilgisi gerekli"],
+                        ["Kaynak sahası yakını", "Yüksek", "Operatörlü", "Sıcak iş disiplini"],
+                        ["Tahıl tozu yoğun ortam", "Orta-yüksek", "Operatörlü", "Ortam hassasiyeti"],
+                        ["Uzun süreli sürekli iş", "Değişken", "Operatörlü (rotasyonlu)", "Yorgunluk yönetimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör atama sürecinin işleyişi",
+                paragraflar: [
+                    "İş talebi geldiğinde, önce sahanın risk profili değerlendirilir (vinç, sıcak iş, toz, açık saha gibi) ve buna uygun tecrübeye sahip operatör atanır. Atama sırasında operatörün ilgili makine sınıfındaki güncel deneyimi ve varsa daha önce benzer sahalarda çalışmış olması dikkate alınır.",
+                    "İşin ilk gününde operatör, tesisin saha sorumlusuyla birlikte bir başlangıç brifingi yapar — bu brifingde tesisin özel kuralları, acil durum prosedürü ve iletişim hattı netleştirilir. Bu adım, işin geri kalanının sorunsuz ilerlemesi için standart bir gerekliliktir.",
+                ],
+            },
+            {
+                baslik: "Hasat sezonunda operatör talebinin artışı",
+                paragraflar: [
+                    "Hasat sezonunda hem silo hem fabrika taraflı operatörlü talepler artar çünkü bu dönemde işletmelerin kendi personeli üretim veya hasat işine yoğunlaştığı için platform operasyonuna ayıracak zamanı azalır. Bu dönemde erken rezervasyon, hem makine hem uygun operatör müsaitliğini garantilemek için önem kazanır.",
+                    "Sezon dışında operatör müsaitliği genellikle daha esnektir ve aynı gün taleplere daha kolay cevap verilebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörünüzün ağır hizmet sahaları için özel bir belgesi var mı?",
+                cevap:
+                    "Evet — gönderdiğimiz operatörler genel platform kullanım belgesinin ötesinde, vinç kilitleme, sıcak iş komşuluğu ve tozlu ortam gibi ağır hizmet sahalarına özgü risklere aşina bir eğitim geçmişine sahiptir. Belge, iş öncesi doğrulanır ve tesise girişte istenirse güvenlik biriminize gösterilir. İşinizin özel risklerini paylaşın, uygun tecrübeye sahip operatörü atayalım.",
+            },
+            {
+                soru: "Fabrikamızın kendi giriş prosedürü ve İSG eğitimi var, operatörünüz buna uyar mı?",
+                cevap:
+                    "Uyar — operatörümüz sahaya girmeden önce tesisinizin özel prosedürlerine ve istediğiniz güvenlik eğitimine tabi olur. Kendi standart prosedürümüzü tesisinizin kuralının üstüne çıkarmayız. Giriş prosedürünüzü ve varsa gerekli belgeleri önceden bildirin, ilk sahaya giriş öncesi bu detayları netleştirelim.",
+            },
+            {
+                soru: "İşimiz birkaç hafta sürecek, aynı operatör mü çalışacak?",
+                cevap:
+                    "Uzun süreli işlerde yorgunluk yönetimi için operatör rotasyonu planlanır; tek bir operatörün art arda uzun saatler çalışması özellikle hassas işlerde risk oluşturabilir. Rotasyon planı, işin başında sizin üretim takviminizle birlikte kurulur ve her yeni operatör göreve başlamadan önce saha brifingi tekrarlanır.",
+            },
+            {
+                soru: "Kendi belgeli operatörümüz var, yine de sizin operatörünüzü mü kullanmalıyız?",
+                cevap:
+                    "Şart değil — standart, düşük riskli bir iş için kendi belgeli operatörünüzle operatörsüz kiralama daha ekonomik olabilir. Ancak vinç kilitli hollerde, kaynak sahası yakınında veya tahıl tozu yoğun ortamda, sahanın özel risklerine aşina bir operatörü öneririz; bu öneriyi maliyet değil güvenlik gerekçesiyle yaparız. İş tanımınızı paylaşın, gerçek ihtiyacı birlikte değerlendirelim.",
+            },
+            {
+                soru: "Saha koşulları iş sırasında değişirse operatör nasıl bilgilendiriliyor?",
+                cevap:
+                    "Operatörümüz iş boyunca tesisinizin saha sorumlusuyla sürekli iletişim hâlindedir; vinç hareketi, forklift trafiği veya proses değişikliği gibi anlık gelişmeler operatöre bildirilir ve iş buna göre durdurulur veya devam eder. İş sonunda operatör sizinle birlikte kapanış kontrolü yapar ve açık kalemleri kayıt altına alır.",
+            },
+            {
+                soru: "Hasat sezonunda operatörlü platform bulmak zorlaşıyor mu?",
+                cevap:
+                    "Evet, bu dönemde hem silo hem fabrika taraflı operatörlü talepler artar çünkü işletmelerin kendi personeli hasat işine yoğunlaşır. Erken rezervasyon bu dönemde özellikle önemlidir — hem makine hem uygun tecrübeye sahip operatör müsaitliğini garantiler. Tahmini iş tarihinizi mümkün olduğunca erken bildirin.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Ağır hizmet sahalarının operatör yeterlilik ihtiyacı ve vinç-sıcak iş protokolleri sektör geneli bilgidir; operatör atama süreci ve rotasyon planlaması firma pratiğidir. Belirli operatör sayısı veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Konya OSB'de Çok Noktalı Rota ile Ağır Hizmet Platform Bakımı",
+        giris:
+            "Konya OSB'nin tarım makinesi imalathaneleri birbirine yakın parsellerde yoğunlaştığı için, tek bir işletmenin değil birden fazla tesisin aynı hafta içinde platform ihtiyacı doğduğunda, bu talepleri tek bir rota altında birleştirmek hem bizim hem işletmeler için ekonomik bir çözüm sunar. Çok noktalı rota bakımı, önceden planlanmış bir güzergâh üzerinde art arda birkaç tesisi ziyaret eden, her tesiste kısa süreli belirlenmiş işleri tamamlayan bir hizmet modelidir — tek bir büyük sevkiyatın maliyeti, rotaya katılan tesisler arasında bölüşülür. Bu model özellikle küçük ve orta ölçekli bakım işleri (aydınlatma kontrolü, kısa süreli erişim ihtiyacı, periyodik tarama) için uygundur; büyük kapsamlı projeler genellikle kendi bağımsız sevkiyatını gerektirir. Bu sayfa, çok noktalı rota modelinin nasıl kurulduğunu, hangi işlerin bu modele uygun olduğunu ve Konya OSB'deki tipik rota örneklerini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Rota planlamasının temel mantığı",
+                metin:
+                    "Çok noktalı rota, coğrafi yakınlığa göre kurulur — aynı OSB bölgesindeki veya birbirine yakın güzergâh üzerindeki tesislerin talepleri bir araya toplanır ve tek bir günlük veya iki günlük tura sığdırılır. Her tesis için ayrılan süre, iş tanımına göre önceden belirlenir ve tesisler arası geçiş süresi de plana dahil edilir. Rota sırası, hem coğrafi mesafeye hem her tesisin çalışma penceresine (üretim saatleri, vardiya düzeni) göre optimize edilir.",
+            },
+            {
+                baslik: "Küçük işlerin rotaya uygunluğu",
+                metin:
+                    "Tek başına sevkiyat edildiğinde nakliye maliyeti işin kendisinden pahalıya gelebilecek küçük işler (birkaç aydınlatma noktası, kısa bir erişim kontrolü), rota modelinde en çok fayda gören iş tipidir. Bir tesisteki iki saatlik iş, rotadaki diğer tesislerle aynı güne yazıldığında, nakliye maliyeti katılımcı sayısına bölünür ve her işletmenin ödediği pay belirgin biçimde düşer. Bu model, özellikle düzenli ama küçük ölçekli bakım ihtiyacı olan işletmeler için önerilir.",
+            },
+            {
+                baslik: "Büyük işlerin rota dışında kalması",
+                metin:
+                    "Kapsamlı bir çelik konstrüksiyon montaj desteği veya günler süren silo bakım projesi gibi büyük işler, rota modeline uygun değildir çünkü tek bir tesiste geçirilen uzun süre, rotanın diğer duraklarını geciktirir. Bu tür işler kendi bağımsız sevkiyatını alır. İş tanımınızın rotaya mı yoksa bağımsız sevkiyata mı uygun olduğunu, iş tanımını aldığımızda netleştiririz — büyük bir işi rotaya sıkıştırmaya çalışmayız.",
+            },
+            {
+                baslik: "Süre disiplini ve gecikme yönetimi",
+                metin:
+                    "Rota modelinin en kritik şartı süre disiplinidir — her tesisin iş tanımı önceden netleştirilir ki bir duraktaki gecikme, sıradaki tesisi geciktirmesin. İşletmeden beklenen, işin tanımını gerçekçi vermesi ve gerekli hazırlığı (erişim izni, malzeme, saha sorumlusu) makine gelmeden önce tamamlamasıdır. Beklenmedik bir ek iş çıkarsa, bu ayrı bir talep olarak değerlendirilir ve rotanın geri kalanını etkilememesi için sonraki bir tarihe planlanır.",
+            },
+            {
+                baslik: "Rotanın düzenli programa dönüşmesi",
+                metin:
+                    "Bazı işletmeler için çok noktalı rota, tek seferlik değil düzenli tekrarlanan bir hizmet hâline gelir — örneğin aylık veya üç aylık periyodik aydınlatma-erişim kontrolü gibi. Bu durumda rota önceden takvime yazılır ve işletmeler, kendi küçük bakım ihtiyaçlarını bu düzenli ziyarete göre biriktirir. Düzenli rota, hem işletmeler için öngörülebilir bir bakım takvimi hem bizim için verimli bir sevkiyat planı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota uygunluk tablosu",
+                paragraflar: [
+                    "İş tipine göre rota modeline uygunluğu ve beklenen ekonomik faydayı özetleyen bir tablo.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Süre", "Rota uygunluğu", "Ekonomik fayda"],
+                    satirlar: [
+                        ["Tek aydınlatma noktası", "1-2 saat", "Yüksek", "Nakliye payı belirgin düşer"],
+                        ["Kısa periyodik kontrol", "Yarım gün", "Yüksek", "Düzenli programla optimize"],
+                        ["Orta ölçekli bakım", "1 gün", "Orta", "Duruma göre değerlendirilir"],
+                        ["Çok günlük montaj desteği", "3+ gün", "Düşük", "Bağımsız sevkiyat önerilir"],
+                        ["Acil arıza müdahalesi", "Değişken", "Düşük (öncelik farklı)", "Ayrı hızlı sevkiyat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota koordinasyonunun kurulma süreci",
+                paragraflar: [
+                    "Yeni bir rota önerisi genellikle bir bölgedeki birkaç işletmenin aynı hafta içinde talep bildirmesiyle ortaya çıkar; bu durumda taleplerin iş tanımlarını topluyoruz ve coğrafi sıraya göre bir tur programı öneriyoruz. Her işletmeye kendi tahmini zaman dilimi bildirilir ve program onay için paylaşılır.",
+                    "Program onaylandıktan sonra, rota sabit bir taahhüt hâline gelir — bir işletmenin son anda iptal etmesi, diğer duraklara etki etmez ama rotanın toplam ekonomisini bir miktar etkileyebilir. Bu yüzden katılım teyidi rota kesinleşmeden önce netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Hasat sezonu ve rota programının esnekliği",
+                paragraflar: [
+                    "Hasat sezonunda hem OSB fabrikalarının hem silo tesislerinin trafiği arttığı için, çok noktalı rota programları bu dönemde daha sık sıkışabilir ve bazı duraklar arasındaki geçiş süresi uzayabilir. Bu dönemde rota programını mümkün olduğunca önceden, sezon başlamadan kurmayı öneririz.",
+                    "Sezon dışı dönemde rota programı daha esnek kurulabilir ve son dakika eklemeler daha kolay değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bizim işimiz çok küçük, tek başına sevkiyat pahalı olur mu?",
+                cevap:
+                    "Olabilir, dürüst cevap budur — tek başına kiralandığında nakliye kalemi işin kendisinden pahalıya gelebilir. Çözümümüz çok noktalı rota modelidir: bölgenizdeki benzer küçük talepleri bir araya toplayıp tek bir tura bağlarız, nakliye maliyeti katılımcı sayısına bölünür. İş tanımınızı ve tahmini süresini paylaşın, bölgenizde yakın zamanda bir rota kurulup kurulamayacağını değerlendirelim.",
+            },
+            {
+                soru: "Rotaya katılırsak kesin bir saat garantisi alabilir miyiz?",
+                cevap:
+                    "Tahmini bir zaman dilimi verilir ama kesin saat, rotadaki önceki durakların ne kadar sürdüğüne bağlı olarak değişebilir. Süre disiplini bu yüzden kritiktir — her tesisin iş tanımı önceden netleştirilir ki bir duraktaki gecikme sizi çok etkilemesin. Kritik bir zaman kısıtınız varsa bunu baştan bildirin, rota sırasında önceliklendirme değerlendirilebilir.",
+            },
+            {
+                soru: "İşimiz büyüdü, artık rotaya uygun değil mi?",
+                cevap:
+                    "Muhtemelen değil — çok günlük süren veya kapsamlı bir iş, rotanın diğer duraklarını geciktireceği için bağımsız sevkiyata alınır. İş tanımınızı paylaşın, rotaya mı bağımsız sevkiyata mı uygun olduğunu birlikte netleştirelim; büyük bir işi rotaya sıkıştırmaya çalışmayız.",
+            },
+            {
+                soru: "Rota sırasında beklenmedik ek bir iş çıkarsa ne olur?",
+                cevap:
+                    "Bu ayrı bir talep olarak değerlendirilir ve rotanın geri kalanını etkilememesi için genellikle sonraki bir tarihe planlanır. Rotanın kendisi önceden netleştirilmiş iş tanımlarına göre kurulduğu için, sahada çıkan ek talepler o günün programına dahil edilmez — ama bir sonraki rota veya bağımsız bir ziyaret için hemen not alınır.",
+            },
+            {
+                soru: "Düzenli bir bakım programı kurmak istiyoruz, bu mümkün mü?",
+                cevap:
+                    "Evet, bazı işletmeler için çok noktalı rota aylık veya üç aylık periyodik bir programa dönüşüyor. Bu durumda rota önceden takvime yazılır ve siz kendi küçük bakım ihtiyaçlarınızı bu düzenli ziyarete göre biriktirebilirsiniz. İhtiyacınızın sıklığını ve tipini paylaşın, düzenli bir program önerelim.",
+            },
+            {
+                soru: "Hasat sezonunda rota programı gecikir mi?",
+                cevap:
+                    "Gecikebilir — bu dönemde hem OSB fabrikalarının hem silo tesislerinin trafiği arttığı için duraklar arası geçiş süresi uzayabilir. Bu yüzden hasat sezonuna denk gelecek rota programlarını mümkün olduğunca önceden, sezon başlamadan kurmanızı öneririz. Sezon dışında program daha esnek ve son dakika eklemelere daha açıktır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Konya OSB'nin tarım makinesi imalathanelerinin coğrafi yoğunluğu kamuya açık bilgidir; çok noktalı rota planlama modeli ve süre disiplini firma pratiğidir. Belirli tesis sayısı veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Tarım Arazisi ve Açık Sahada Zor Zemin Platform Kiralama",
+        giris:
+            "Tarım arazisi ve açık saha işleri, Konya'nın ova coğrafyasında bizim ikinci doğal iş sahamızdır — silo çevresindeki işlenmemiş toprak, tarla kenarındaki sulama ve elektrik altyapısı, henüz asfaltlanmamış depo avlusu veya hasat sonrası sıkışmış-çamurlu tarla zemini, standart platformun tasarım varsayımının (düz, sabit, beton) tamamen dışındadır. Ağır hizmet filomuzun zor zemin-arazi kolu, bu gerçeği başlangıç noktası alır: dizel 4x4 tahrikli, geniş ve dolgu lastikli makineler, düzensiz toprak, hafif eğim ve mevsimsel nem değişimine göre seçilir ve konumlandırılır. Konya'nın karasal iklimi bu işi daha da belirleyici kılar — yaz sonu kuru ve sert toprak farklı bir makine kararı gerektirirken, ilkbahar ve hasat sonrası nemli toprak bambaşka bir yaklaşım ister. Bu sayfa, tarım arazisi ve açık sahada zor zemin koşullarının nasıl değerlendirildiğini, hangi zeminde hangi makine kararının verildiğini ve mevsimsel zemin değişiminin plan üzerindeki etkisini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Zemin taşıma kapasitesinin görsel kontrolle sınırı",
+                metin:
+                    "Açık bir tarla veya işlenmemiş arazi zemininin düz ve sağlam görünmesi, taşıma kapasitesinin yeterli olduğu anlamına gelmez — yüzeyin altında yumuşak dolgu, eski sulama kanalı veya nem tutan bir tabaka bulunabilir. Zeminin gerçek durumu, mümkünse işletmenin bildiği geçmiş bilgiyle (bu alanda daha önce ağır araç geçti mi, batma yaşandı mı) ve fiziksel kontrolle değerlendirilir. Kesin bilgi yoksa, makine güzergâhı önce düşük riskli bir hatla test edilir; gerektiğinde yük dağıtma plakası kullanılır.",
+            },
+            {
+                baslik: "Mevsimsel nem değişiminin zemin kararına etkisi",
+                metin:
+                    "Konya ovasının toprağı, yaz sonu kuruduğunda sert ve genellikle taşıyıcı bir yüzey sunarken, ilkbahar yağışları veya hasat sonrası sulama sonrasında yumuşayıp çamurlaşabilir. Aynı arazi parçası, yılın farklı dönemlerinde tamamen farklı bir zemin kararı gerektirebilir — yaz sonunda standart dizel 4x4 rahatça çalışırken, nemli dönemde aynı zeminde makine saplanma riski taşıyabilir. İş talebi geldiğinde mevsim ve son yağış bilgisi mutlaka sorulur; belirsizse zemin durumu fotoğraf veya keşifle doğrulanır.",
+            },
+            {
+                baslik: "Eğimli ve düzensiz arazide dengeleme sistemi",
+                metin:
+                    "Tarla kenarı veya silo çevresindeki hafif eğimli araziler, makinenin şase dengeleme sistemine ekstra yük bindirir; üretici tarafından belirlenen eğim sınırı aşıldığında makine güvenli çalışamaz. Eğim, keşifte ölçülür ve üretici sınırıyla karşılaştırılır. Sınıra yakın durumlarda, makinenin konumlandırılacağı nokta değiştirilerek daha düz bir yaklaşım açısı aranır; eğim sınırını zorlamak yerine alternatif konumlandırma tercih edilir.",
+            },
+            {
+                baslik: "Lastik ve tahrik seçiminin zemine göre belirlenmesi",
+                metin:
+                    "Kuru ve sert toprak zeminde standart dolgu lastikli dizel 4x4 genellikle yeterlidir; nemli veya gevşek toprakta ise daha geniş taban alanlı lastikler veya paletli yürüyüş takımı tercih edilir çünkü bu, makinenin birim alandaki basıncını azaltarak batma riskini düşürür. Ekili bir tarlaya çok yakın çalışılıyorsa, lastik izinin ekin üzerindeki etkisi de değerlendirilir ve mümkünse güzergâh ekili olmayan şeritlerden geçirilir.",
+            },
+            {
+                baslik: "Açık sahada rüzgâr ve hava koşulu izleme",
+                metin:
+                    "Zor zemin işleri genellikle açık sahada, korunaksız bir alanda yapıldığı için rüzgâr, Konya ovasının açık coğrafyasında ayrı bir kısıt olarak devreye girer; yüksek kotlu bir bom işinde rüzgâr hızı üretici sınırına göre gün içinde sürekli izlenir. Zemin uygun olsa bile rüzgâr sınırı aşıldığında iş durdurulur — iki koşul (zemin ve hava) birbirinden bağımsız olarak değerlendirilir ve ikisi de uygun olmadan çalışma başlamaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım arazisi ve açık saha zemin karar tablosu",
+                paragraflar: [
+                    "Zemin durumuna göre makine tahrik ve lastik seçimini, ayrıca mevsimsel gerçeği özetleyen bir tablo.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Mevsim", "Önerilen tahrik/lastik", "Ek önlem"],
+                    satirlar: [
+                        ["Kuru sert toprak", "Yaz sonu", "Dizel 4x4, standart dolgu lastik", "Standart kontrol"],
+                        ["Nemli-yumuşak toprak", "İlkbahar / hasat sonrası", "Geniş taban lastik / paletli", "Yük dağıtma plakası"],
+                        ["Hafif eğimli arazi", "Yıl boyu", "Dengeleme sistemi kontrolü", "Eğim ölçümü + üretici sınırı"],
+                        ["Ekili tarla kenarı", "Ekim dönemi", "Dar güzergâh planlaması", "Ekili şeritten kaçınma"],
+                        ["Açık rüzgârlı alan", "Yıl boyu", "Duruma göre", "Sürekli rüzgâr izleme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin belirsizliğinde keşif önceliği",
+                paragraflar: [
+                    "Fotoğraf ve tarif çoğu zaman zemin kararı için yeterli olsa da, belirsiz veya riskli görünen araziler için yerinde keşif önerilir — özellikle daha önce ağır araç geçmemiş bir arazi parçasında bu, sürpriz bir batma riskini önceden ortadan kaldırır. Keşif sırasında zeminin farklı noktalarından fiziksel kontrol yapılır ve güzergâh en sağlam hat üzerinden çizilir.",
+                    "Keşif mümkün değilse, işletmenin arazi hakkındaki kendi bilgisi (geçmiş araç trafiği, bilinen sorunlu noktalar, sulama kanalı yerleri) talep alınırken ayrıntılı sorulur; bu bilgi, fotoğrafın gösteremediği geçmiş deneyimi tamamlar.",
+                ],
+            },
+            {
+                baslik: "Hasat sonrası tarla zemininin özel durumu",
+                paragraflar: [
+                    "Hasat tamamlandıktan sonra tarla zemini, hem sulama hem hasat makinelerinin geçişiyle sıkışmış veya yer yer gevşemiş olabilir; bu, görünüşte düz bir tarlanın altında beklenmedik yumuşak noktalar bırakabilir. Hasat sonrası dönemde arazide çalışma planlanıyorsa, zemin kontrolü standart dönemden daha titiz yapılır.",
+                    "Bu dönem aynı zamanda silo ve depo çevresindeki açık saha işlerinin de yoğunlaştığı bir zamandır; zemin ve iş yoğunluğu birlikte değerlendirilerek gerçekçi bir çalışma takvimi kurulur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Arazimiz düz görünüyor ama daha önce hiç ağır araç girmedi, risk var mı?",
+                cevap:
+                    "Olabilir — düz görünen bir zeminin altında yumuşak dolgu veya nem tutan bir tabaka bulunabilir, bu görsel kontrolle her zaman anlaşılmaz. Daha önce ağır araç geçmemiş arazilerde yerinde keşif öneririz; keşif mümkün değilse makine güzergâhı önce düşük riskli bir hatla test edilir. Arazinizin bildiğiniz geçmişini (sulama kanalı, bilinen yumuşak nokta) paylaşın, bu bilgi kararı netleştirir.",
+            },
+            {
+                soru: "İlkbaharda mı yoksa yaz sonunda mı çalışmak daha güvenli?",
+                cevap:
+                    "Genellikle yaz sonu — Konya ovasının toprağı bu dönemde kurur ve sertleşir, bu da taşıma kapasitesini artırır. İlkbahar yağışları veya hasat sonrası sulama, aynı zemini yumuşatıp çamurlaştırabilir. Zorunlu bir ilkbahar veya hasat sonrası işiniz varsa, bu dönemde geniş taban lastikli veya paletli makine ve yük dağıtma plakası gibi ek önlemler değerlendirilir.",
+            },
+            {
+                soru: "Silo çevresindeki arazi hafif eğimli, platform çalışabilir mi?",
+                cevap:
+                    "Eğim üretici sınırı içindeyse çalışabilir; eğim keşifte ölçülür ve üretici sınırıyla karşılaştırılır. Sınıra yakın durumlarda makinenin konumlandırılacağı nokta değiştirilerek daha düz bir yaklaşım açısı aranır. Arazinizin eğim derecesini tahmini olarak bildirin, kesin ölçüm için keşif gerekip gerekmediğini birlikte değerlendirelim.",
+            },
+            {
+                soru: "Tarlamızın kenarında ekili alan var, lastik izi ekine zarar verir mi?",
+                cevap:
+                    "Verebilir, bu yüzden ekili bir tarlaya yakın çalışılırken güzergâh mümkünse ekili olmayan şeritlerden planlanır. Tarlanızın düzenini ve ekili alanların sınırını fotoğrafla paylaşın; güzergâhı ekine en az etkiyle geçecek şekilde çizelim.",
+            },
+            {
+                soru: "Açık sahada rüzgâr zeminden bağımsız bir risk mi?",
+                cevap:
+                    "Evet, iki koşul birbirinden bağımsız değerlendirilir — zemin uygun olsa bile rüzgâr sınırı aşıldığında iş durdurulur. Konya ovasının açık coğrafyasında rüzgâr hızı özellikle yüksek kotlu işlerde gün içinde sürekli izlenir. Çalışma alanınızın açıklığını ve tahmini rüzgâr maruziyetini paylaşın, gerçekçi bir çalışma penceresi önerelim.",
+            },
+            {
+                soru: "Hasat hemen bitti, tarlada hemen çalışabilir miyiz yoksa beklemeli miyiz?",
+                cevap:
+                    "Hasat sonrası tarla zemini sulama ve hasat makinelerinin geçişiyle sıkışmış veya yer yer gevşemiş olabilir; bu dönemde zemin kontrolünü standart dönemden daha titiz yaparız. Acil değilse birkaç gün beklemek, zeminin daha öngörülebilir hâle gelmesini sağlayabilir. İşinizin aciliyetini ve tarlanızın son durumunu paylaşın, mümkünse hemen, gerekirse birkaç günlük bir bekleme önerisiyle planlayalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Konya ovasının karasal iklimi ve mevsimsel toprak nem değişimi kamuya açık coğrafi bilgidir; zemin değerlendirme yöntemi ve lastik-tahrik seçimi firma pratiğidir. Belirli arazi veya rakam iddia edilmemiştir.",
+    },
 };
