@@ -22,6 +22,18 @@ export interface HizmetKonusu {
 
 export const HIZMET_KONULARI: HizmetKonusu[] = [
     {
+        slug: "makasli-platform-kiralama",
+        anahtarlar: ["makaslı", "makasli", "scissor"],
+        baslikTaban: "Makaslı Platform Kiralama",
+        gorselHavuzu: [{ src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-01.jpg", alt: "Makaslı platform ile depo içi raf erişim çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-02.jpg", alt: "Makaslı platform ile fabrika içi tavan-tesisat çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-03.jpg", alt: "Makaslı platform ile kapalı mekan bakım çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-04.jpg", alt: "Makaslı platform ile depo içi raf erişim çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-05.jpg", alt: "Makaslı platform ile fabrika içi tavan-tesisat çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-06.jpg", alt: "Makaslı platform ile kapalı mekan bakım çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-07.jpg", alt: "Makaslı platform ile depo içi raf erişim çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-08.jpg", alt: "Makaslı platform ile fabrika içi tavan-tesisat çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-09.jpg", alt: "Makaslı platform ile kapalı mekan bakım çalışması" }, { src: "/media/isler-ek/ic-mekan-depo-platform-kiralama-p1-10.jpg", alt: "Makaslı platform ile depo içi raf erişim çalışması" }],
+    },
+    {
+        slug: "manlift-kiralama",
+        anahtarlar: ["manlift", "man lift", "personel yükseltici", "personel yukseltici"],
+        baslikTaban: "Manlift Kiralama",
+        gorselHavuzu: [{ src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-01.jpg", alt: "Manlift filosu ile saha hazırlığı" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-02.jpg", alt: "Manlift ile çok noktalı bakım rotası" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-03.jpg", alt: "Manlift makine parkı" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-04.jpg", alt: "Manlift filosu ile saha hazırlığı" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-05.jpg", alt: "Manlift ile çok noktalı bakım rotası" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-06.jpg", alt: "Manlift makine parkı" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-07.jpg", alt: "Manlift filosu ile saha hazırlığı" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-08.jpg", alt: "Manlift ile çok noktalı bakım rotası" }, { src: "/media/isler-ek/cok-noktali-rota-bakim-platformu-p1-09.jpg", alt: "Manlift makine parkı" }],
+    },
+    {
         slug: "sepetli-orumcek-platform-kiralama",
         anahtarlar: ["sepetli", "örümcek", "orumcek", "tırtıl"],
         baslikTaban: "Sepetli / Örümcek Platform Kiralama",
@@ -41,7 +53,7 @@ export const HIZMET_KONULARI: HizmetKonusu[] = [
     },
     {
         slug: "eklemli-platform-boom-kiralama",
-        anahtarlar: ["eklemli", "boom", "akrobat", "manlift"],
+        anahtarlar: ["eklemli", "boom", "akrobat"],
         baslikTaban: "Eklemli Platform (Boom) Kiralama",
         gorselHavuzu: [{ src: "/media/isler/is-7.jpg", alt: "Eklemli platform ile yükleme alanı çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p1-01.jpg", alt: "Eklemli platform ile dış mekan yüksek erişim çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p1-02.jpg", alt: "Boom tip platform ile saha çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p1-03.jpg", alt: "Eklemli platform ile dış mekan yüksek erişim çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p1-04.jpg", alt: "Boom tip platform ile saha çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p2-01.jpg", alt: "Eklemli platform ile dış mekan yüksek erişim çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p2-02.jpg", alt: "Boom tip platform ile saha çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p2-03.jpg", alt: "Eklemli platform ile dış mekan yüksek erişim çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p2-04.jpg", alt: "Boom tip platform ile saha çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p2-05.jpg", alt: "Eklemli platform ile dış mekan yüksek erişim çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p3-01.jpg", alt: "Boom tip platform ile saha çalışması" }, { src: "/media/isler-ek/eklemli-platform-boom-kiralama-p3-02.jpg", alt: "Eklemli platform ile dış mekan yüksek erişim çalışması" }],
     },
