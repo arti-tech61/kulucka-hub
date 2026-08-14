@@ -1998,4 +1998,200 @@ export const KUTAHYAPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Kaolen-feldispat hammadde ocaklarının açık saha ve değişken zemin yapısı, maden işletmeciliğinde genel bir gerçekliktir; işletme adı ve rakam kullanılmamıştır. Zemin teyidi ve plaka kullanımı firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Çini Atölyesinde ve İhracat Paketleme Masasında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platformun diğer platform tiplerinden ayrılan temel özelliği, sepetin dar bir nokta değil geniş ve düz bir çalışma yüzeyi sunmasıdır; bu yüzey tek bir kişiyi değil, aynı anda birkaç kişiyi ve önlerindeki malzemeyi taşıyabilir. Kütahya merkezdeki çini atölyelerinde bu özellik iki farklı ihtiyaçla örtüşür. Birincisi, ihracat siparişi hazırlanırken paketleme masasının yüksek bir raf seviyesine taşınması gereken durumlarda, iki paketleme elemanının platformda yan yana durup aynı anda sarma ve istifleme yapabilmesidir — dar bir sepetli platformda bu iş bölünür ve yavaşlar. İkincisi, atölyenin dar koridorlarında dikey doğrultuda hareket eden makaslı platformun, tezgâhlar arasında yanal sallanma yapmadan düz yukarı-aşağı hareket etmesidir; bu, hassas desen tezgâhlarının yakınında çalışırken titreşim riskini azaltan bir avantajdır. Bu sayfa, makaslı platformun bu iki özelliğinin — geniş düz yüzey ve dikey düz hareket — atölye ve paketleme bağlamındaki kullanımını anlatır; dış cephe ve yüksek hol işleri eklemli platform (boom) hizmetimizde, sandık istifleri arasında yanal erişim gerektiren işler ise manlift hizmetimizde ayrı ele alınır.",
+        maddeler: [
+            {
+                baslik: "Geniş sepet, ekip hâlinde paketleme",
+                metin:
+                    "İhracat siparişi hazırlığında çini parçaları önce yumuşak dolgu malzemesiyle sarılır, sonra ahşap sandığa yerleştirilir; bu iş genellikle iki kişilik bir ekiple yürütülür. Sandık yüksek bir raf seviyesinde hazırlanacaksa, makaslı platformun geniş sepeti bu iki kişiyi ve önlerindeki malzeme yığınını aynı anda taşıyabilir. Dar sepetli bir platformda bu iş bölünür, malzeme aşağı-yukarı taşınır ve süre uzar.",
+            },
+            {
+                baslik: "Dar atölye koridorunda dikey düz hareket",
+                metin:
+                    "Küçük çini atölyelerinin tezgâhlar arası koridorları genellikle bir kişinin rahatça geçebileceği genişliktedir. Makaslı platform bu koridorlarda dikey doğrultuda düz yukarı-aşağı hareket eder, yanal sallanma yapmaz; bu, yakınındaki hassas desen tezgâhı veya kurutma rafı için titreşim açısından avantajlıdır. Koridor genişliği dar ise, önceden makine şase ölçüsü ile koridor ölçüsü karşılaştırılır.",
+            },
+            {
+                baslik: "Sabit ve düz zeminde en stabil seçenek",
+                metin:
+                    "Atölye içi zemin genellikle düz ve sabit betondur; bu tür zeminlerde makaslı platform, eklemli veya teleskopik modellere göre daha stabil bir çalışma tabanı sunar çünkü ağırlık merkezi düşük ve sepet hareketi tek eksenlidir. Vitrin raf düzenlemesi veya tavan aydınlatması gibi sabit noktada uzun süre kalınan işlerde bu stabilite fark yaratır.",
+            },
+            {
+                baslik: "Akülü model zorunluluğu",
+                metin:
+                    "Kapalı atölye içinde egzoz emisyonu kabul edilemeyeceği için makaslı platform akülü modelden seçilir. Toz ve boya buharına duyarlı sırlama alanlarına yakın çalışmalarda bu zaten standart uygulamamızdır; dizel model bu tür alanlara sokulmaz.",
+            },
+            {
+                baslik: "İhracat sevkiyat deposunda raf üstü istifleme desteği",
+                metin:
+                    "Paketlenmiş sandıklar sevkiyat öncesi genellikle depo raflarının üst seviyelerinde bekletilir. Makaslı platform, bu sandıkların rafa yerleştirilmesi veya sevkiyat için indirilmesi sırasında geniş sepetiyle hem sandığı hem de onu taşıyan personeli güvenli şekilde taşır; forklift ile yapılan istiflemeden farklı olarak personelin sandığı elle yönlendirmesine izin verir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Atölye içi kullanım alanına göre makaslı platform seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, çini atölyesi ve paketleme alanındaki farklı kullanım noktalarına göre makaslı platform tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kullanım noktası", "Sepet ihtiyacı", "Zemin", "Güç tipi"],
+                    satirlar: [
+                        ["İhracat paketleme masası (2 kişi)", "Geniş, düz", "Sabit beton", "Akülü"],
+                        ["Dar tezgâh koridoru", "Dar şase, düz hareket", "Sabit beton", "Akülü"],
+                        ["Vitrin/raf düzenleme", "Orta, stabil", "Sabit beton", "Akülü"],
+                        ["Sevkiyat deposu raf üstü", "Geniş, yük taşıma", "Sabit beton", "Akülü"],
+                        ["Sırlama kabini yakını", "Dar, düşük titreşim", "Sabit beton", "Akülü, toz kontrollü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şase ölçüsü ile koridor ölçüsünün önceden karşılaştırılması",
+                paragraflar: [
+                    "Atölye koridorları standart bir ölçüye sahip değildir; her atölye kendi tezgâh düzenine göre farklı bir koridor genişliği oluşturur. Bu yüzden makaslı platform gönderilmeden önce koridorun en dar noktasının ölçüsü alınır ve makinenin şase genişliğiyle karşılaştırılır.",
+                    "Bu karşılaştırma yapılmadan sahaya gönderilen bir makine, koridora sığmadığında geri döndürülmek zorunda kalır; bu hem zaman hem maliyet kaybıdır. Fotoğraf veya ölçü paylaşımı, bu riski iş günü öncesinde ortadan kaldırır.",
+                ],
+            },
+            {
+                baslik: "Paketleme ekibiyle koordineli çalışma saati",
+                paragraflar: [
+                    "İhracat paketleme işleri genellikle sevkiyat tarihine bağlı bir zaman baskısı taşır; bu yüzden makaslı platformun atölyeye ulaşım saati, paketleme ekibinin o günkü iş planına göre önceden koordine edilir.",
+                    "Ekibin sandık hazırlığını tamamladığı ve rafa yerleştirmeye hazır olduğu an ile platformun sahada olduğu an örtüşürse, iş akışında boşluk oluşmaz ve sevkiyat takvimi aksamaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform iki kişiyi birden taşıyabilir mi, paketleme ekibimiz birlikte çalışabilir mi?",
+                cevap:
+                    "Evet, makaslı platformun geniş ve düz sepeti bu amaç için tasarlanmıştır; iki paketleme elemanı ve önlerindeki malzeme aynı anda taşınabilir. Sepet kapasitesini aşan ağır yük durumlarında önceden bilgi vermenizi öneririz, doğru modeli buna göre planlarız.",
+            },
+            {
+                soru: "Atölyemizin koridoru çok dar, makaslı platform sığar mı?",
+                cevap:
+                    "Sığıp sığmayacağını netleştirmek için koridorun en dar noktasının ölçüsünü isteriz ve makinenin şase genişliğiyle karşılaştırırız. Bu karşılaştırma yapılmadan makine gönderilmez; ölçü uymuyorsa daha dar şaseli bir model veya alternatif bir platform tipi önerilir.",
+            },
+            {
+                soru: "Makaslı platform sırlama kabinine yakın çalışabilir mi, toz ve boya buharı sorun olur mu?",
+                cevap:
+                    "Akülü model kullanıldığı için egzoz kaynaklı bir sorun oluşmaz; ancak toza ve buhara duyarlı yüzeyler varsa bu alanlar önceden örtülür ve çalışma, kabinin en sakin olduğu saate denk getirilir. Bu, sepetli örümcek platform hizmetimizde de uyguladığımız aynı önlem mantığıdır.",
+            },
+            {
+                soru: "Dizel makaslı platform seçeneğiniz var mı, atölye dışı açık alan için?",
+                cevap:
+                    "Atölye ve depo içi kapalı alan işlerinde akülü model zorunludur; açık sahada egzoz kısıtı olmayan durumlarda dizel model değerlendirilebilir. Hangi modelin uygun olduğu, çalışma alanının kapalı mı açık mı olduğuna göre iş günü öncesi netleştirilir.",
+            },
+            {
+                soru: "Sevkiyat öncesi rafa sandık yerleştirirken makaslı platform mu forklift mi daha uygun?",
+                cevap:
+                    "Sandık ağır ve tek parçaysa forklift daha hızlı bir çözümdür; ancak personelin sandığı elle yönlendirmesi, hassas yerleştirme gerektirmesi veya raf üstünde ek bir düzenleme yapılması gerekiyorsa makaslı platform daha uygundur çünkü personeli sandıkla birlikte aynı seviyeye taşır. İki hizmeti birlikte de planlayabiliriz.",
+            },
+            {
+                soru: "Vitrin ve raf düzenleme işi için makaslı platform ne kadar sürede hazır olur?",
+                cevap:
+                    "Bu, atölyenizin merkeze uzaklığına ve o günkü makine müsaitliğine göre değişir; net bir süre için önce konum ve iş kapsamını netleştiririz. Sevkiyat takvimine bağlı acil bir paketleme işi ise, öncelik verilerek planlama yapılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun geniş sepet ve dikey düz hareket özellikleri, ekipman tipinin genel teknik gerçeğidir. İhracat paketleme ve atölye koridoru kullanım senaryoları, sayfanın mevcut çini atölyesi profiliyle tutarlı biçimde tasarlanmıştır; işletme adı ve rakam kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Çini Atölyesi Avlusunda ve Sandık İstifleri Arasında Engel Aşan Manlift Kiralama",
+        giris:
+            "Manlift (eklemli veya teleskopik bomlu platform), makaslı platformdan farklı olarak yalnızca dikey değil, yanal doğrultuda da uzanabilen bir kol yapısına sahiptir; bu özellik, sepetin bir engelin üzerinden veya yanından dolaşarak hedefe ulaşmasını mümkün kılar. Kütahya merkezdeki küçük çini atölyelerinin çoğu, üretim alanının hemen yanında bir avlu veya açık depolama sahasına sahiptir; burada ihracat sevkiyatını bekleyen ahşap sandıklar sıra sıra istiflenir, atölyenin kendi çatı sundurması ve bazen bir aydınlatma direği veya ağaç bu avluyu çevreler. Avlunun duvarına, sundurma çatısına veya direğe düz bir platformla erişmek çoğu zaman mümkün olmaz çünkü istiflenmiş sandıklar veya sundurma kirişleri araya girer. Manlift'in yanal uzanım özelliği tam bu noktada devreye girer: sepet, sandık istiflerinin üzerinden veya yanından dolaşarak hedefe ulaşır, sandıkların yerinin değiştirilmesine gerek kalmaz. Bu sayfa, manlift'in bu engel-aşma kullanımını atölye avlusu bağlamında anlatır; fabrika dış cephesi ve yüksek hol işleri eklemli platform (boom) hizmetimizde, atölye içi düz paketleme işleri ise makaslı platform hizmetimizde ayrı ele alınır.",
+        maddeler: [
+            {
+                baslik: "Sandık istifleri arasından yanal erişim",
+                metin:
+                    "İhracat sevkiyatını bekleyen ahşap sandıklar, avluda genellikle sıra sıra ve birbirine yakın istiflenir; bu istifler arasında düz bir platform için yeterli boşluk kalmayabilir. Manlift'in kolu, istiflerin üzerinden veya kenarından dolaşarak sepeti hedef noktaya taşıyabilir; bu sayede sandıkların geçici olarak yerinin değiştirilmesi gerekmez ve sevkiyat düzeni bozulmaz.",
+            },
+            {
+                baslik: "Sundurma çatısı ve kiriş altı erişimi",
+                metin:
+                    "Küçük atölyelerin avluya bakan cephesinde genellikle bir sundurma veya saçak bulunur; bu sundurmanın kiriş altı bakımı veya aydınlatma değişimi, düz bir platformla değil, kirişin altından yana doğru uzanan bir kol ile daha güvenli yapılır. Manlift'in eklemli kolu, kirişe çarpmadan altından geçip hedef noktaya ulaşabilir.",
+            },
+            {
+                baslik: "Avlu çevresindeki direk ve ağaç gibi sabit engeller",
+                metin:
+                    "Aydınlatma direği, elektrik hattı veya avlu kenarındaki bir ağaç, düz bir platformun dikey rotasını kesebilir. Manlift bu tür sabit engelleri kolun yanal hareketiyle aşarak çalışma noktasına ulaşır; hangi engelin sahada bulunduğu ve kolun hangi yönden yaklaşması gerektiği, iş günü öncesi sahadan alınan bilgiyle netleştirilir.",
+            },
+            {
+                baslik: "Açık avluda arazi tipi lastik ve zemin durumu",
+                metin:
+                    "Atölye avluları genellikle beton değil, sıkıştırılmış toprak veya parke taşı zeminlidir; bu zeminlerde arazi tipi lastikli manlift modeli tercih edilir. Yağış sonrası zeminin yumuşayıp yumuşamadığı, iş günü öncesi teyit edilir; gerekirse park noktası sağlam bir bölgeye kaydırılır.",
+            },
+            {
+                baslik: "Sandık istifi yüksekliğine göre kol uzunluğu seçimi",
+                metin:
+                    "İstiflenen sandıkların yüksekliği mevsime ve sipariş hacmine göre değişir; istif ne kadar yüksekse, kolun bu istifi aşması için gereken yanal ve dikey uzanım da o kadar artar. Bu yüzden çalışma öncesi istif yüksekliği ve hedef noktanın konumu birlikte değerlendirilip uygun kol uzunluğuna sahip model seçilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Avlu senaryosuna göre manlift tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, atölye avlusundaki farklı engel senaryolarına göre manlift tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Engel türü", "Erişim yönü", "Kol tipi", "Zemin lastiği"],
+                    satirlar: [
+                        ["Sandık istifi (orta yükseklik)", "Üstünden/yanından", "Eklemli", "Arazi tipi"],
+                        ["Sundurma kiriş altı", "Alttan yana", "Eklemli", "Arazi tipi"],
+                        ["Aydınlatma direği/ağaç", "Yandan dolaşarak", "Teleskopik/eklemli", "Arazi tipi"],
+                        ["Yüksek sandık istifi", "Üstten geniş açı", "Teleskopik", "Arazi tipi"],
+                        ["Toprak/parke taşı zemin", "—", "—", "Arazi tipi zorunlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sahadaki engellerin iş günü öncesi netleştirilmesi",
+                paragraflar: [
+                    "Avlu düzeni her atölyede farklıdır; bir atölyede sandık istifleri avlunun ortasında, diğerinde kenarında olabilir, bazılarında ek olarak bir direk veya ağaç bulunur. Bu yüzden manlift gönderilmeden önce avlunun güncel fotoğrafı veya kısa bir tarifiyle hangi engellerin bulunduğu netleştirilir.",
+                    "Bu ön bilgi, hem doğru kol uzunluğuna sahip modelin seçilmesini hem de operatörün sahaya vardığında zaman kaybetmeden çalışmaya başlamasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat takvimiyle çakışmayan çalışma planı",
+                paragraflar: [
+                    "Avludaki sandık istifleri genellikle bir sevkiyat tarihine bağlı olarak oluşur ve o tarihe kadar yerinde kalması gerekir; manlift çalışması bu istifleri geçici olarak engellememelidir.",
+                    "Bu yüzden çalışma saati, sevkiyat için araç yükleme zamanlarının dışında planlanır; büyük bir sevkiyat günü öncesinde avluda çalışma gerekiyorsa bu, atölyeyle birlikte önceden takvime bağlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Avlumuzda sandık istifleri var, bunları kaldırmadan manlift çalışabilir mi?",
+                cevap:
+                    "Genellikle evet; manlift'in yanal uzanan kolu istiflerin üzerinden veya yanından dolaşarak hedefe ulaşabilir, bu yüzden sandıkların yerinin değiştirilmesi çoğu durumda gerekmez. İstifin yüksekliği ve konumu hakkında önceden bilgi verirseniz, doğru kol uzunluğuna sahip modeli seçeriz.",
+            },
+            {
+                soru: "Sundurma çatımızın kirişi var, kola çarpar mı?",
+                cevap:
+                    "Bu riski önlemek için kirişin konumu ve yüksekliği iş günü öncesi netleştirilir; manlift'in eklemli kolu kirişin altından yana doğru uzanarak hedefe ulaşacak şekilde yönlendirilir. Net bir ölçü veya fotoğraf paylaşırsanız operatör sahada zaman kaybetmez.",
+            },
+            {
+                soru: "Avlumuzun zemini toprak, makine batar mı?",
+                cevap:
+                    "Bu ihtimale karşı arazi tipi lastikli model kullanırız; yağış sonrası zeminin yumuşayıp yumuşamadığını iş günü öncesi sorarız ve riskli görünüyorsa park noktasını daha sağlam bir bölgeye kaydırırız. Toprak zemin, manlift için standart bir çalışma koşuludur.",
+            },
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark nedir, hangisini seçmeliyiz?",
+                cevap:
+                    "Makaslı platform yalnızca dikey hareket eder ve düz erişimin yeterli olduğu paketleme veya raf işlerinde uygundur; manlift ise yanal uzanan koluyla sandık istifi, direk veya kiriş gibi engelleri aşarak hedefe ulaşabilir. Avlunuzda engel varsa manlift, düz ve açık bir alanda çalışacaksanız makaslı platform daha ekonomik bir seçenektir.",
+            },
+            {
+                soru: "Aydınlatma direğimiz avlunun ortasında, manlift bu direği aşabilir mi?",
+                cevap:
+                    "Evet, direk gibi sabit engeller manlift'in tipik çalışma senaryosudur; kol, direği yandan dolaşarak hedef noktaya ulaşır. Direğin tam konumunu ve hedef noktanın direğe göre yönünü önceden belirtirseniz, uygun kol uzunluğu ve yaklaşım açısını buna göre planlarız.",
+            },
+            {
+                soru: "Sevkiyat gününde avluda çalışma yapabilir misiniz, araç yükleme trafiğini engellemez mi?",
+                cevap:
+                    "Sevkiyat günü çalışma trafiğini engellememek için manlift çalışma saatini araç yükleme zamanlarının dışında planlarız; büyük bir sevkiyat öncesinde avluda iş gerekiyorsa bu, atölyenizin sevkiyat takvimiyle birlikte önceden netleştirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift'in (eklemli/teleskopik bomlu platform) yanal uzanım özelliği ve makaslı platforma göre farkı, ekipman tipinin genel teknik gerçeğidir. Atölye avlusu, sandık istifi ve sevkiyat senaryoları mevcut çini atölyesi profiliyle tutarlı biçimde tasarlanmıştır; işletme adı ve rakam kullanılmamıştır.",
+    },
 };

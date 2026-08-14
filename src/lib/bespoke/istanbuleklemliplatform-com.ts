@@ -1903,4 +1903,202 @@ export const ISTANBULEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Kule servis şeritlerinin beton/asfalt, liman ana sahalarının endüstriyel beton/stabilize zeminli olduğu kamuya açık saha bilgisidir; rıhtım kenarı zemin değerlendirmesi ve kapsam dışı yönlendirme pratikleri firma deneyimidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Kule Eteğinde ve Liman Sahasında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, dikey ve düz kalkışıyla eklemli sınıfın yerini alamayacağı iki ayrı ortamda öne çıkar: gökdelen kulelerinin zemin katı ve teknik galerisinde, bir de liman tesislerinin geniş, düz ve engelsiz saha zeminlerinde. Kule tarafında iş genellikle cephe dışına değil, iç mekâna dönük çalışır — lobi tavanı, teknik galeri boru hattı, otopark rampası aydınlatması gibi düz bir sepet hareketinin yeterli olduğu noktalarda makaslı, eklemli bomun sağladığı yatay erişim esnekliğine ihtiyaç duyulmadan daha geniş sepet alanı ve daha yüksek kapasite sunar; iki-üç kişilik ekip ve malzemenin birlikte taşınması gereken raf/tesisat işlerinde bu kapasite farkı belirleyicidir. Liman tarafında ise tablo tamamen değişir: ardiye ve depolama sahalarının geniş, düz, beton veya stabilize zeminleri makaslı platformun en verimli çalıştığı arazi tipidir; konteyner istifleme koridorları arasında, çatı altı aydınlatma hattında veya depo cephesindeki büyük kapı mekanizmalarında makaslı, dar bir yalak boyunca dikey ilerleyerek işi tamamlar. İki ortamın ortak paydası, sepedin yatayda değil dikeyde hareket etmesinin yeterli olduğu, zeminin düz ve taşıma gücünün bilinir olduğu işlerdir; bu sayfa, kule eteği ve liman sahası ikilisinde makaslı platform kiralamanın hangi işlerde tercih edildiğini ve nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule lobisi ve teknik galeride dikey erişim",
+                metin:
+                    "Kule girişindeki lobi tavanı, asma tavan aydınlatması veya teknik galerideki boru/kablo tavası bakımı, sepedin doğrudan yukarı-aşağı hareket etmesinin yettiği işlerdir; bu tip işlerde eklemli bomun açılı erişim yeteneği kullanılmaz, buna karşılık makaslı sınıfın daha geniş sepet tabanı iki kişilik ekip ve malzemeyi aynı anda taşımaya izin verir. Lobi zemini genellikle mermer veya parlak seramik kaplıdır; bu yüzeyde iz bırakmayan lastik zorunludur ve makine giriş-çıkışı ziyaretçi trafiğinin en az olduğu saatlere planlanır.",
+            },
+            {
+                baslik: "Liman ardiye koridorlarında düz hat çalışması",
+                metin:
+                    "Ardiye sahalarındaki istifleme koridorları düz ve genellikle geniştir; bu geometri makaslı platformun dar yalak boyunca ilerleyip durup dikey çalışması için idealdir. Çatı altı aydınlatma değişimi, çelik konstrüksiyon bağlantı kontrolü veya havalandırma bacası bakımı gibi işlerde makine koridor ortasına konumlanır, sepet doğrudan yukarı kalkar; koridor trafiği varsa (forklift, transpalet geçişi) makine bekleme noktasına çekilir, sürekli koridor ortasında bırakılmaz.",
+            },
+            {
+                baslik: "Kapasite farkının belirleyici olduğu işler",
+                metin:
+                    "Raf sistemi montajı, çoklu tesisat hattı çekimi veya birden fazla parçanın aynı anda yukarı taşınması gerektiği işlerde makaslı platformun sepet kapasitesi eklemli sınıfa göre daha yüksektir; bu, aynı işin daha az iniş-çıkışla, dolayısıyla daha kısa sürede tamamlanması anlamına gelir. Tek kişilik, kısa süreli ve dar açılı erişim gerektiren işlerde bu avantaj öne çıkmaz, o durumda eklemli sınıf daha uygundur — makine seçimi işin niteliğine göre keşifte netleştirilir.",
+            },
+            {
+                baslik: "Elektrikli ve dizel sınıf ayrımı",
+                metin:
+                    "Kule iç mekânında (lobi, teknik galeri, kapalı otopark) egzoz emisyonu nedeniyle yalnızca elektrikli/akülü makaslı kullanılabilir; liman sahasının açık alanlarında ise mesafe ve yük koşuluna göre dizel veya büyük gövdeli elektrikli tercih edilebilir. Bu ayrım işin başında netleştirilmezse, kapalı alana yanlışlıkla dizel makine yönlendirilmesi hem izin sorunu hem güvenlik riski yaratır.",
+            },
+            {
+                baslik: "Zemin taşıma gücü ve nokta yük kontrolü",
+                metin:
+                    "Makaslı platform dört noktadan zemine yük aktarır ve bu yük eklemli sınıfa göre daha dar bir tabana yayılır; kule lobisindeki mermer zemin altında boşluk (örneğin alt kat teknik alan) varsa, liman sahasında ise rıhtım kenarına yakın zeminlerde taşıma gücü önceden teyit edilir. Şüpheli zeminlerde makine konumlandırılmadan önce nokta yük hesabı yapılır; gerekirse dağıtıcı plaka kullanılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman ortamına göre makaslı platform kullanım tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, kule eteği ve liman sahasındaki en sık makaslı platform işlerini ve bunlara uygun yaklaşımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Tipik iş", "Zemin", "Güç tipi"],
+                    satirlar: [
+                        ["Kule lobisi", "Asma tavan aydınlatması", "Mermer/seramik, iz hassas", "Elektrikli/akülü"],
+                        ["Kule teknik galerisi", "Boru/kablo tavası bakımı", "Beton, dar geçiş", "Akülü (kapalı alan)"],
+                        ["Kule otoparkı (kapalı)", "Aydınlatma-havalandırma", "Beton, eğimli rampa olabilir", "Akülü, eğim onaylı"],
+                        ["Liman ardiye koridoru", "Çatı altı aydınlatma", "Endüstriyel beton, düz", "Elektrikli/dizel"],
+                        ["Liman depo cephesi", "Büyük kapı mekanizması bakımı", "Beton/stabilize", "Dizel (açık alan)"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı ile eklemli arasında seçim mantığı",
+                paragraflar: [
+                    "Kule ve liman işlerinde makaslı ile eklemli platform arasındaki seçim, işin geometrisine bağlıdır: hedef nokta sepedin doğrudan altındaysa ve yatay/açılı erişime ihtiyaç yoksa makaslı, hedef nokta bir engelin arkasında veya yandaysa eklemli tercih edilir. Kule lobisi ve teknik galeri gibi düz tavanlı, engelsiz alanlarda makaslının kapasite avantajı öne çıkarken, kule cephesindeki dış cephe işlerinde eklemli bomun açılı yaklaşımı zorunludur — bu iki sınıf birbirinin yerine geçmez, işin niteliğine göre keşifte belirlenir.",
+                    "Liman tarafında da benzer mantık işler: ardiye koridoru içindeki düz hat işlerinde makaslı yeterliyken, konteyner yığınının kenarından içeri açılı erişim gerektiren noktalarda eklemli devreye girer. Bazı büyük ölçekli liman işlerinde iki sınıf aynı proje içinde birlikte kullanılır.",
+                ],
+            },
+            {
+                baslik: "Kapalı alan ve açık alan geçişinde planlama",
+                paragraflar: [
+                    "Aynı iş gününde hem kule iç mekânında hem liman açık sahasında çalışma planlanmışsa, makine ve operatör geçişi arasında güç tipi ve sertifika farkı gözetilir; kapalı alan için akülü makine ayrılmışsa açık saha için ayrı bir dizel/büyük elektrikli makine planlanır, aynı makine iki ortam arasında zorlanarak kullanılmaz. Bu ayrım, özellikle aynı müşterinin hem kule hem liman tesisine sahip olduğu projelerde günlük iş listesine baştan yazılır.",
+                    "Nakliye açısından da iki ortam farklıdır — kule tarafında şehir içi trafik ve bina giriş izni öne çıkarken, liman tarafında saha giriş kartı ve gümrük/güvenlik bölgesi kuralları devreye girer; ikisi için ayrı zaman payı hesaplanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kule lobisinde mermer zeminde makaslı platform iz bırakır mı?",
+                cevap:
+                    "Standart siyah lastikli makine mermer ve parlak seramikte iz bırakabilir, bu yüzden kule lobisi işlerinde iz bırakmayan (beyaz dolgu) lastikli model zorunlu tutulur. Buna ek olarak makine giriş güzergâhına geçici koruyucu örtü serilmesi de sık uygulanan bir önlemdir; zemin hassasiyeti yüksek lobiler için bu iki önlem birlikte istenir.",
+            },
+            {
+                soru: "Liman ardiye koridorunda forklift trafiği sürerken makaslı platform çalışabilir mi?",
+                cevap:
+                    "Çalışabilir ama koridor tamamen paylaşılmaz; makine koridorun bir bölümünü geçici olarak ayırır, forklift ve transpalet geçişi için bariyer veya şeritleme ile açık bir güzergâh bırakılır. Yoğun trafik saatlerinde (vardiya başı/sonu, sevkiyat pikleri) çalışma mümkünse daha sakin saatlere kaydırılır; sürekli kesişen bir güzergâh varsa iş güvenliği açısından koridor tamamen kısa süreliğine kapatılabilir.",
+            },
+            {
+                soru: "Kule teknik galerisi çok dar, makaslı platform sığar mı?",
+                cevap:
+                    "Bu, galeri genişliğine bağlıdır ve keşifte santimetre hassasiyetinde ölçülür; standart makaslı sığmıyorsa dar gövdeli kompakt makaslı sınıfına geçilir, o da sığmıyorsa iş makaslıdan eklemliye veya farklı bir erişim yöntemine (örneğin sabit iskele) yönlendirilir. Ölçüm yapılmadan makine sahaya sevk edilmez çünkü galeri içinde geri dönüş alanı da kısıtlı olabilir.",
+            },
+            {
+                soru: "Liman sahasında dizel makaslı platform kullanmak emisyon açısından sorun yaratır mı?",
+                cevap:
+                    "Açık saha koşullarında (ardiye dışı, rıhtım kenarı, açık istifleme alanı) dizel kullanımı genellikle sorun oluşturmaz ve mesafe/yük avantajı nedeniyle tercih edilebilir; ancak kapalı depo hacmi içinde veya havalandırması sınırlı alanlarda dizel yerine elektrikli zorunlu tutulur. Hangi bölgenin açık, hangisinin kapalı sayılacağı tesis yönetimiyle işin başında netleştirilir.",
+            },
+            {
+                soru: "Kule ile liman tesisi aynı müşteriye aitse tek sözleşmeyle iki farklı makine mi kiralıyoruz?",
+                cevap:
+                    "Evet, pratikte bu sık karşılaşılan bir modeldir — tek kiralama sözleşmesi altında kule için kapalı alana uygun akülü bir makaslı, liman sahası için açık alana uygun dizel veya büyük elektrikli bir başka makaslı ayrı ayrı planlanır. İki makine aynı anda farklı lokasyonlarda çalıştığı için nakliye ve operatör ataması da ayrı yapılır; tek makinenin iki lokasyon arasında günde birkaç kez taşınması hem verimsiz hem riskli olur.",
+            },
+            {
+                soru: "Rıhtım kenarına yakın liman zemininde makaslı platform güvenli mi?",
+                cevap:
+                    "Rıhtım kenarı zemini genellikle ana sahaya göre daha yeni veya farklı yapıdadır, bu yüzden taşıma gücü ayrıca kontrol edilir; zemin sıkıştırması yeterliyse standart makine çalışabilir, şüpheli veya nemli zeminde iş öncesi saha değerlendirmesi yapılır ve gerekirse dağıtıcı plaka kullanılır. Ayrıca rıhtım kenarına belli bir güvenlik mesafesi bırakılır, makine kenara doğrudan yanaştırılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kule lobisi/teknik galerisinin kapalı alan emisyon kısıtına tabi olduğu ve liman ardiye sahalarının düz endüstriyel beton/stabilize zeminli olduğu kamuya açık saha bilgisidir; makine sınıfı seçimi, iz koruma ve saha koordinasyon pratikleri firma deneyimidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Kule Cephesinde ve Liman Sahasında Manlift Kiralama",
+        giris:
+            "\"Manlift\" adı sahada eklemli, teleskopik ve makaslı sınıfların tamamı için genel bir kullanım biçimidir, ama kule ve liman ikilisinde bu genel adın arkasında iki farklı erişim gerçeği yatar. Kule tarafında manlift talebi çoğunlukla tek bir operatörün, dar bir zaman penceresinde, cephe veya kule eteğindeki spesifik bir noktaya (aydınlatma, tabela, klima dış ünitesi) hızlı erişmesi ihtiyacından doğar; bu işler kısa süreli, plansız veya yarı plansız olabilir ve makine seçimi genellikle işin büyüklüğünden çok erişim hızına göre yapılır. Liman tarafında ise manlift talebi daha çok konteyner terminali çevresindeki vinç/ekipman bakımı, aydınlatma direği servisi veya depo çatısı-cephesi kontrolü gibi, sahanın geniş ve açık olduğu ama erişim yüksekliğinin değişken olduğu işlerden gelir. İki ortamda da manlift kiralama kararının merkezinde aynı soru durur: iş tek nokta erişimi mi (o zaman kompakt, hızlı konumlanan bir makine yeter) yoksa geniş bir alanı kapsayan çok noktalı bir iş mi (o zaman daha büyük, daha uzun erişimli bir sınıf gerekir). Bu sayfa, kule cephesi ve liman sahası ikilisinde manlift kiralamanın nasıl planlandığını, hangi işlerde hangi sınıfın tercih edildiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Kule cephesinde acil/plansız erişim talebi",
+                metin:
+                    "Kule cephesindeki aydınlatma arızası, düşen tabela parçası veya klima dış ünitesi kaçağı gibi acil işlerde manlift talebi genellikle aynı gün, bazen aynı saat içinde gelir. Bu tip işlerde büyük teleskopik ekipmana gerek kalmadan, hızlı konumlanabilen kompakt eklemli veya makaslı sınıf tercih edilir; asıl darboğaz makinenin sahaya ulaşması değil, bina yönetiminin acil giriş onayıdır. Sürekli hizmet verilen kulelerde bu yüzden önceden tanımlanmış bir acil erişim prosedürü kurulur.",
+            },
+            {
+                baslik: "Liman sahasında vinç ve aydınlatma direği servisi",
+                metin:
+                    "Konteyner terminali çevresindeki sabit vinç yapıları, aydınlatma kuleleri ve saha kamerası direkleri periyodik bakım gerektirir; bu işler genellikle önceden planlanır ve erişim yüksekliği direğin/vincin boyuna göre değişir. Aydınlatma direği bakımında orta yükseklikli teleskopik sınıf yeterliyken, büyük vinç yapısının üst gövdesine erişimde daha uzun bomlu bir sınıf gerekebilir; makine seçimi direğin/vincin teknik ölçüsüyle netleştirilir, tahmine dayanmaz.",
+            },
+            {
+                baslik: "Depo çatısı ve cephe kontrolünde çok noktalı iş",
+                metin:
+                    "Liman ardiyelerinin çatı kaplaması, yağmur oluğu ve cephe paneli periyodik olarak kontrol edilir ve bu iş tek nokta değil, çatının/cephenin genelini kapsayan çok noktalı bir rotadır. Böyle işlerde manlift günlük belirlenen bir güzergâhı takip eder, her nokta arasında yeniden konumlanır; rota önceden planlanmazsa aynı alan birden fazla kez dolaşılır ve iş süresi gereksiz uzar.",
+            },
+            {
+                baslik: "Operatörlü kiralamada yeterlilik ve saha eğitimi",
+                metin:
+                    "Kule tarafında operatör, bina yönetiminin güvenlik prosedürüne (giriş kartı, güzergâh kısıtı, acil durum protokolü); liman tarafında ise terminal işletmesinin güvenlik bölgesi kurallarına (saha giriş izni, konteyner trafiği farkındalığı) göre ayrı ayrı bilgilendirilir. İki ortam farklı risk profiline sahip olduğu için aynı operatörün her iki sahada çalışması, saha oryantasyonu tamamlanmadan uygun görülmez.",
+            },
+            {
+                baslik: "Gece/erken saat çalışma ve nakliye penceresi",
+                metin:
+                    "Kule tarafında görünür cephe işleri genellikle gece veya hafta sonu saatine kaydırılırken, liman tarafında sahanın 7/24 operasyonel olması nedeniyle çalışma penceresi terminal trafiğine göre belirlenir — gemi yanaşma/kalkış saatleri ve konteyner hareketliliğinin yoğun olduğu dönemlerde manlift sahaya sokulmaz. Nakliye planı da bu yüzden iki ortamda farklı kurgulanır; kule için şehir içi gece trafiği, liman için terminal giriş-çıkış saatleri esas alınır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kule ve liman ihtiyacına göre manlift sınıf tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, kule cephesi ve liman sahasındaki tipik manlift işlerini ve uygun makine sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Ortam", "Erişim özelliği", "Uygun manlift sınıfı"],
+                    satirlar: [
+                        ["Acil aydınlatma/tabela tamiri", "Kule cephesi", "Tek nokta, plansız", "Kompakt eklemli/makaslı"],
+                        ["Klima dış ünitesi servisi", "Kule eteği", "Tek nokta, orta yükseklik", "Eklemli"],
+                        ["Aydınlatma direği bakımı", "Liman sahası", "Tek nokta, direk boyuna göre", "Orta-uzun bomlu teleskopik"],
+                        ["Vinç üst gövde bakımı", "Liman sahası", "Yüksek nokta, hassas erişim", "Uzun bomlu teleskopik"],
+                        ["Depo çatı/cephe kontrolü", "Liman ardiyesi", "Çok noktalı rota", "Orta sınıf eklemli/teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift terimi altında sınıf seçimi nasıl netleşir",
+                paragraflar: [
+                    "\"Manlift kiralama\" talebi geldiğinde ilk soru her zaman işin tek nokta mı yoksa çok noktalı mı olduğudur; tek nokta ve kısa süreli işlerde kompakt sınıf hem daha hızlı konumlanır hem daha ekonomiktir, çok noktalı rota işlerinde ise makinenin günlük iş listesine göre bir güzergâh üzerinde ilerlemesi gerektiği için orta-büyük sınıf ve önceden planlanmış rota daha verimlidir.",
+                    "İkinci soru erişim yüksekliğidir — kule eteği işlerinde genellikle orta yükseklik (10-20 metre bandı) yeterliyken, liman sahasındaki büyük vinç yapıları veya yüksek aydınlatma direkleri bu bandın üzerine çıkabilir; bu durumda erişim yüksekliği net ölçülmeden makine seçimi yapılmaz.",
+                ],
+            },
+            {
+                baslik: "Kule ve liman arasında ortak operatör/makine planlaması",
+                paragraflar: [
+                    "Aynı haftada hem kule hem liman tesisinde iş varsa, makine ve operatör aynı gün içinde iki lokasyon arasında taşınmaz — her ortamın kendi güç tipi, sertifika ve saha oryantasyon gereksinimi olduğu için ayrı makine ve ayrı operatör ataması yapılır. Haftalık iş listesi baştan paylaşıldığında, nakliye tekrarı azalır ve her iki sahada da makine zamanında hazır bulunur.",
+                    "Acil bir talep her iki ortamda da aynı anda gelirse, öncelik genellikle güvenlik riski taşıyan işe (örneğin düşme riski olan kule cephesi parçası) verilir; liman tarafındaki planlı bakım işi, güvenlik riski taşımıyorsa bir sonraki uygun pencereye kaydırılabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "'Manlift' ile eklemli/teleskopik/makaslı platform arasındaki fark ne, hangi terimi kullanmalıyım?",
+                cevap:
+                    "Manlift, sahada bu üç sınıfın tamamı için kullanılan genel bir isimdir; teklif isterken 'manlift' demeniz yeterlidir, doğru sınıf (eklemli, teleskopik veya makaslı) işin erişim geometrisine göre keşifte belirlenir. Tek nokta ve açılı erişim gerekiyorsa eklemli, uzun düz erişim gerekiyorsa teleskopik, düz dikey ve yüksek kapasiteli erişim gerekiyorsa makaslı önerilir.",
+            },
+            {
+                soru: "Kule cephesinde acil bir arıza çıktı, aynı gün manlift gelir mi?",
+                cevap:
+                    "Kompakt sınıf için genellikle mümkündür; asıl zaman kaybettiren adım makinenin nakliyesi değil bina yönetiminin acil giriş onayıdır. Sürekli hizmet verdiğimiz kulelerde önceden tanımlanmış bilinen operatör, bilinen güvenlik iletişim hattı ve onaylı çalışma saati aralığından oluşan bir acil erişim prosedürü kurulur; bu altyapı olmadan gelen ilk kez talep, onay süresi nedeniyle aynı gün yetişmeyebilir.",
+            },
+            {
+                soru: "Liman sahasında gemi yanaşma saatlerinde manlift çalışabilir mi?",
+                cevap:
+                    "Genellikle çalışamaz veya kısıtlı çalışır; gemi yanaşma/kalkış ve yoğun konteyner hareketliliği saatlerinde terminal güvenlik kuralları gereği saha trafiği önceliklidir, manlift bu saatlerde sahaya sokulmaz veya güvenli bir bekleme noktasına çekilir. Çalışma penceresi terminal işletmesiyle önceden koordine edilir, günlük gemi trafiği programına göre güncellenebilir.",
+            },
+            {
+                soru: "Liman vinç yapısının üst gövdesine erişim için hangi manlift sınıfı gerekir?",
+                cevap:
+                    "Bu, vincin boyuna ve erişim noktasının konumuna bağlıdır; genellikle uzun bomlu teleskopik sınıf tercih edilir çünkü büyük vinç yapılarının üst gövdesi hem yüksek hem de sabit yapıya yakın hassas bir erişim gerektirir. Kesin sınıf, vincin teknik ölçüleri paylaşıldıktan sonra netleştirilir; ölçü paylaşılmadan tahmine dayalı makine önerilmez.",
+            },
+            {
+                soru: "Operatörlü mü, operatörsüz mü kiralamalıyım?",
+                cevap:
+                    "Kule tarafında bina yönetimi genellikle sertifikalı operatör şartı arar, bu yüzden operatörlü kiralama standart tercihtir; liman tarafında terminal işletmesinin kendi eğitimli personeli varsa operatörsüz (yalnızca makine) kiralama da mümkündür ama bu durumda personelin geçerli yeterlilik belgesi ve saha oryantasyonu tamamlanmış olması istenir. Hangi seçeneğin uygun olduğu, tesis kuralına göre teklif aşamasında netleşir.",
+            },
+            {
+                soru: "Depo çatısının tamamını kontrol edeceğiz, tek manlift yeterli mi?",
+                cevap:
+                    "Çatı büyüklüğüne ve iş süresine bağlıdır; orta ölçekli bir ardiye çatısı için tek makine günlük rota planıyla yeterli olabilir, ama iş bir günde bitirilmesi gereken geniş bir çatıysa veya paralel iki ekip çalışacaksa ikinci bir makine daha verimli olur. Doğru kararı vermek için çatı metrekaresi ve hedef tamamlanma süresi keşifte paylaşılır; bu bilgi olmadan tek/çift makine kararı tahmine dayanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kule cephesi/eteğinin acil-plansız erişim taleplerine, liman terminallerinin ise gemi trafiği kaynaklı çalışma penceresi kısıtına konu olduğu kamuya açık saha bilgisidir; sınıf seçimi, operatör oryantasyonu ve rota planlama pratikleri firma deneyimidir.",
+    },
 };

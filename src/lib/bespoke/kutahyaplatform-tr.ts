@@ -2008,4 +2008,202 @@ export const KUTAHYAPLATFORM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Kütahya'nın linyit ocağı destek tesislerindeki dolgu/moloz zemin yapısı ve platonun yağışlı-kış ikliminin zemin koşulunu etkilediği kamuya açık genel bölgesel bilgidir; tesis adı ve rakam kullanılmamıştır. Park noktası seçim disiplini ve zemin ön kontrolü firma pratiğidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Kütahya Termik Santral ve Linyit Ocağı Sahalarında Geniş Platformlu Makaslı Kiralama",
+        giris:
+            "Tavşanlı-Seyitömer-Tunçbilek hattındaki termik santral ve linyit ocağı destek tesislerinin bir kısmı, önünde engel olmayan ama alanı geniş ve zemini düz olan yüzeylerden oluşur: türbin binasının açıklıklı iç holü, kazan dairesinin dış cephesi, kömür stok sahasının çevre duvarı ve bant galerisinin düz uzayan hatları gibi. Bu tür yüzeylerde iş, tek bir noktaya değil geniş bir hatta yayılır ve çoğu zaman birden fazla teknisyenin ve ağırlıkça belirgin malzemenin (izolasyon paneli, boya ekipmanı, kablo tamburu) aynı anda platform üzerinde taşınmasını gerektirir. Makaslı platformun dikey doğru çıkan geniş gövdesi ve yüksek taşıma kapasitesi, tam olarak bu ihtiyaca karşılık gelir; eklemli platformun engel aşma esnekliğine burada gerek yoktur, çünkü hedefin önünde dolanılacak bir boru veya çelik dikme bulunmaz. Bu sayfa, kardeş dosyalarımızdaki eklemli platform (engelli hedef) ve iç mekân platform (dar koridor/raf) hizmetlerinden ayrı olarak, makaslı platformun bu geniş-düz-yüklü saha profilinde nasıl konumlandığını anlatır. Zemin ve genişlik ön kontrolü, her işten önce ayrı ayrı yapılan bir adımdır çünkü makaslı platformun stabilitesi düz ve sağlam bir taban gerektirir; eğimli veya dolgu bir yüzeyde bu sınıf tercih edilmez, bunun yerine arazi tipi bir alternatif değerlendirilir.",
+        maddeler: [
+            {
+                baslik: "Türbin binası geniş holünde çoklu personel ve malzeme taşıma",
+                metin:
+                    "Türbin binasının açıklıklı iç holünde yapılan çatı altı, vinç ray sistemi çevresi veya üst kat aydınlatma işlerinde, aynı anda birden fazla teknisyenin ve ağır bir malzeme yükünün platform üzerinde bulunması gerekebilir; makaslı platformun geniş sepeti ve yüksek yük kapasitesi bunu tek seferde mümkün kılar, tek kişilik dar sepetli sınıflarda iş birden fazla çıkışa bölünmek zorunda kalır.",
+            },
+            {
+                baslik: "Kazan dairesi dış cephesinde düz hat boyunca ilerleme",
+                metin:
+                    "Kazan dairesinin dış cephesindeki boya, izolasyon kontrolü veya kaplama onarımı işleri, genellikle düz bir duvar hattı boyunca yatay olarak ilerler; makaslı platform bu hatta kısa aralıklarla durup dikey çıkış yaparak çalışır, engelsiz düz bir cephede bu, eklemli kolun karmaşık manevrasına göre daha hızlı ve daha ekonomik bir yöntemdir.",
+            },
+            {
+                baslik: "Kömür stok sahası çevre aydınlatma ve duvar bakımı",
+                metin:
+                    "Kömür stok sahasının çevresindeki aydınlatma direkleri ve istinat duvarı üstü bakımı, sahanın açık ve düz zemin yapısı sayesinde makaslı platformla sıra hâlinde ilerlenerek yapılır; zemin genellikle sıkıştırılmış olsa da tozlu olabileceğinden, çalışma öncesi kısa bir zemin gözlemi yapılır ve gerekiyorsa arazi tipi lastikli makaslı sınıfına geçilir.",
+            },
+            {
+                baslik: "Bant galerisi düz uzun hatlarında ağır malzeme taşıma",
+                metin:
+                    "Bant konveyör galerisinin düz uzayan bölümlerinde yapılan bakım işlerinde, yedek rulman veya bant parçası gibi ağırlıkça belirgin malzemenin platform üzerinde teknisyenle birlikte taşınması gerekebilir; makaslı platformun yük kapasitesi bu tür malzemeyi güvenle taşımaya uygundur, galerinin engelli kesimlerinde ise bu sınıf yerine eklemli platform önerilir.",
+            },
+            {
+                baslik: "Zemin ve genişlik şartı — makaslı platformun net sınırı",
+                metin:
+                    "Makaslı platform, dikey doğru çıktığı ve yana doğru uzanamadığı için düz ve yeterince geniş bir zemin gerektirir; dar bir koridor, eğimli bir yüzey veya önünde engel bulunan bir hedef bu sınıf için uygun değildir. Böyle bir durumda sahayı önceden değerlendirir, gerekirse eklemli veya kompakt manlift sınıfını öneririz — bu netlik, sahaya yanlış makine gönderilmesini baştan önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji sahalarında makaslı platform kullanım alanları",
+                paragraflar: [
+                    "Aşağıdaki tablo, hangi saha tipinde makaslı platformun neden tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Tipik iş", "Neden makaslı", "Zemin şartı"],
+                    satirlar: [
+                        ["Türbin binası holü", "Çoklu personel/malzeme", "Geniş sepet, yüksek kapasite", "Düz, sağlam beton"],
+                        ["Kazan dairesi dış cephe", "Boya, izolasyon kontrolü", "Düz hat boyunca hızlı ilerleme", "Düz, sert zemin"],
+                        ["Kömür stok sahası çevresi", "Aydınlatma, duvar bakımı", "Sıra hâlinde geniş erişim", "Sıkıştırılmış, tozlu olabilir"],
+                        ["Bant galerisi düz kesim", "Ağır malzeme taşıma", "Yüksek yük kapasitesi", "Düz, sağlam zemin"],
+                        ["Engelli veya dar hedef", "—", "Uygun değil, eklemli önerilir", "—"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı ile eklemli platform arasındaki net ayrım",
+                paragraflar: [
+                    "Makaslı platform yalnızca dikey doğru çıkar; yana doğru uzanma veya engelin üzerinden dolanma yeteneği yoktur. Bu yüzden hedefin önünde bir boru hattı, çelik dikme veya başka bir engel varsa bu sınıf değil, eklemli (boom) platform önerilir — bu ayrımı işin fotoğrafını görmeden önce bile keşif sorularıyla netleştiririz.",
+                    "Buna karşılık hedef düzse ve alan genişse, makaslı platform hem daha geniş bir sepet hem de daha yüksek bir yük kapasitesi sunar; bu durumda eklemli sınıfa göre daha hızlı ve daha ekonomik bir seçimdir. İki sınıf arasındaki bu net ayrım, teklif aşamasında müşteriye açıkça anlatılır.",
+                ],
+            },
+            {
+                baslik: "Zemin ve genişlik ön kontrolü",
+                paragraflar: [
+                    "Makaslı platform göndermeden önce sahanın zemin sağlamlığını ve çalışma alanının genişliğini sorarız; kömür stok sahası gibi tozlu-sıkıştırılmış zeminlerde bu kontrol özellikle önemlidir çünkü görünüşte sağlam bir yüzey altta gevşek olabilir. Zemin şüpheliyse kısa bir ön keşif yapılır veya arazi tipi lastikli makaslı sınıfına geçilir.",
+                    "Genişlik kontrolü de aynı derecede önemlidir; dar bir koridor veya sınırlı bir açıklık için makaslı platform uygun değildir, böyle bir alan için kompakt manlift veya iç mekân sınıfımız değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Türbin binasında birden fazla teknisyen aynı anda platformda çalışabilir mi?",
+                cevap:
+                    "Evet, makaslı platformun geniş sepeti ve yüksek yük kapasitesi buna uygundur; kaç teknisyen ve ne kadar malzeme taşınacağını önceden bildirirseniz, kapasiteye uygun modeli seçeriz. Bu, işin tek seferde tamamlanmasını sağlar, dar sepetli sınıflarda olduğu gibi birden fazla çıkışa bölünmez.",
+            },
+            {
+                soru: "Kazan dairesi dış cephesi düz ama uzun, bu iş ne kadar sürer?",
+                cevap:
+                    "Süre, cephenin uzunluğuna ve iş kapsamına göre değişir; makaslı platform düz bir hat boyunca kısa aralıklarla durup dikey çıkış yaparak ilerlediği için, engelli bir hatta göre belirgin şekilde daha hızlıdır. Cephe uzunluğunu ve iş türünü paylaşırsanız gerçekçi bir süre tahmini veririz.",
+            },
+            {
+                soru: "Kömür stok sahasının zemini tozlu, makaslı platform buraya girebilir mi?",
+                cevap:
+                    "Zemin sağlamsa girebilir, ama tozlu-sıkıştırılmış yüzeylerde görünüşte sağlam bir alan altta gevşek olabileceği için önce kısa bir zemin gözlemi yaparız. Şüphe varsa standart makaslı yerine arazi tipi lastikli bir modeli öneririz; bu karar sahaya gitmeden önce netleştirilir.",
+            },
+            {
+                soru: "Bant galerisinde hem düz hem engelli kısımlar var, tek makine ile hallolur mu?",
+                cevap:
+                    "Genellikle hayır; düz kesimlerde makaslı platform, engelli kesimlerde ise eklemli platform daha uygundur. Galerinin hangi bölümünde ne tür bir engel olduğunu paylaşırsanız, işi iki sınıfa bölerek mi yoksa tek bir eklemli platformla mı halledeceğimizi birlikte kararlaştırırız.",
+            },
+            {
+                soru: "Makaslı platform dar bir koridora sığar mı?",
+                cevap:
+                    "Standart makaslı platformlar geniş bir alan için tasarlandığından dar koridorlara uygun değildir; böyle bir alan için kompakt manlift veya dar koridor uyumlu iç mekân sınıfımızı öneririz. Koridor genişliğini bildirirseniz, uygun makine sınıfını baştan netleştiririz.",
+            },
+            {
+                soru: "Ağır malzemeyi (rulman, bant parçası) platformla birlikte taşıyabilir miyiz?",
+                cevap:
+                    "Evet, makaslı platformun yük kapasitesi teknisyenle birlikte ağırlıkça belirgin malzemeyi taşımaya uygundur; taşınacak malzemenin yaklaşık ağırlığını önceden bildirirseniz, kapasiteyi karşılayan modeli seçeriz. Kapasitenin üzerinde bir yük söz konusuysa, bunu size önceden bildirir ve alternatif bir yöntem öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek termik santral ve linyit ocağı sahalarındaki türbin binası, kazan dairesi, kömür stok sahası ve bant galerisi gibi yapıların varlığı kamuya açık genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Zemin/genişlik ön kontrolü ve sınıf ayrımı firma pratiğidir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Kütahya Termik Santral ve Linyit Ocağı Sahalarında Kompakt Manlift Kiralama",
+        giris:
+            "Tavşanlı-Seyitömer-Tunçbilek hattındaki termik santral ve linyit ocağı tesislerinde, her iş geniş bir alana veya engelli bir hedefe yayılmaz; çoğu zaman tek bir noktaya — bir lamba, bir sensör, bir valf, bir kablo bağlantısı — kısa süreli ve hızlı bir dikey erişim gerekir. Bu tür işler genellikle kazan dairesi veya türbin binası içindeki ekipmanlar arasındaki dar aralıklarda, ya da ocak destek tesislerinin sıkışık koridorlarında geçer; buraya makaslı platformun geniş gövdesi girmez, eklemli platformun karmaşık manevrasına da gerek yoktur. Kompakt manlift, tek kişilik dar sepeti ve ince gövdesiyle bu tür tekil-nokta işlerinde hızlı konumlandırma ve hızlı çıkış imkânı sunar; çoğu zaman kendinden hareketli veya itmeli tip yeterlidir, akülü çalışması sayesinde kontrol odası veya kapalı ekipman odaları yakınında sessiz ve egzozsuz bir seçenek olur. Bu sayfa, kardeş dosyalarımızdaki makaslı platform (geniş-düz-yüklü alan) ve eklemli platform (engelli hedef) hizmetlerinden ayrı olarak, kompakt manliftin bu dar-tekil-nokta profilinde nasıl kullanıldığını anlatır. İşin süresi genellikle kısa olduğu için, üretim vardiyası içindeki kısa boşluklara sığdırılarak planlanır; bu da tesisin üretim akışını kesintiye uğratmadan bakımın tamamlanmasını sağlar.",
+        maddeler: [
+            {
+                baslik: "Tek nokta hızlı dikey erişim — kısa süreli işler",
+                metin:
+                    "Bir lamba değişimi, bir sensör kontrolü veya bir valf ayarı gibi tek bir noktaya odaklı işlerde, kompakt manlift birkaç dakika içinde konumlanıp iş bittiğinde hızla geri çekilebilir; bu, geniş bir platform kurulumunun gerekmediği kısa süreli işlerde hem zaman hem maliyet açısından daha verimli bir yöntemdir.",
+            },
+            {
+                baslik: "Kazan dairesi ve türbin binası ekipman arası dar aralıklarda kompakt gövde",
+                metin:
+                    "Kazan dairesi ve türbin binası içindeki boru hatları, panolar ve ekipmanlar arasında bırakılan dar aralıklarda, ancak ince gövdeli bir makine geçebilir; kompakt manliftin dar sepeti ve ince gövdesi bu aralıklara girip hedefe doğrudan dikey erişim sağlar, makaslı platformun geniş gövdesi bu aralıklara sığmaz.",
+            },
+            {
+                baslik: "İtmeli/kendinden hareketli tip ile hızlı konumlandırma",
+                metin:
+                    "Çoğu tekil-nokta işi için itmeli veya kendinden hareketli kompakt manlift yeterlidir; bu tip, bir noktadan diğerine hızlıca taşınabildiği için aynı vardiya içinde birbirinden bağımsız birkaç tekil işin art arda tamamlanmasını mümkün kılar. Daha büyük bir kapsam veya yükseklik gerekiyorsa, bu sınıf yerine makaslı veya eklemli platform önerilir.",
+            },
+            {
+                baslik: "Vardiya arası kısa pencerelerde çalışma",
+                metin:
+                    "Termik santral ve ocak sahalarındaki üretim genellikle kesintisizdir; kompakt manliftin hızlı kurulum ve sökülme özelliği, vardiya değişimi veya kısa bir üretim durağı gibi dar zaman pencerelerine sığdırılarak kullanılmasını sağlar. Bu planlama, tesis yetkilisiyle önceden koordine edilir.",
+            },
+            {
+                baslik: "Akülü sessiz çalışma — kontrol odası yakını hassasiyeti",
+                metin:
+                    "Kontrol odası veya hassas ölçüm ekipmanı bulunan alanların yakınında yapılan işlerde, kompakt manliftin akülü ve egzozsuz çalışması hem gürültü hem hava kalitesi açısından avantaj sağlar; bu, dizel motorlu bir makinenin bu tür hassas alanlara sokulmasının uygun olmadığı durumlarda tek gerçekçi seçenektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji sahalarında kompakt manlift kullanım noktaları",
+                paragraflar: [
+                    "Aşağıdaki tablo, hangi tekil-nokta işinde kompakt manliftin neden tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Tipik iş", "Neden manlift", "İş süresi"],
+                    satirlar: [
+                        ["Kazan dairesi ekipman arası", "Sensör, valf kontrolü", "Dar aralığa giren ince gövde", "Dakikalar-1 saat"],
+                        ["Türbin binası pano çevresi", "Lamba, kablo bağlantısı", "Hızlı konumlandırma", "Kısa"],
+                        ["Kontrol odası yakını", "Hassas alan bakımı", "Akülü, sessiz, egzozsuz", "Kısa"],
+                        ["Ocak destek tesisi koridoru", "Tekil aydınlatma noktası", "Dar koridora uygun", "Kısa"],
+                        ["Geniş/engelli alan", "—", "Uygun değil, makaslı/eklemli önerilir", "—"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift ile makaslı/eklemli platform arasındaki net ayrım",
+                paragraflar: [
+                    "Kompakt manlift, tek kişilik dar sepeti nedeniyle geniş bir alanda çoklu personel veya ağır malzeme taşımaya uygun değildir — böyle bir iş için makaslı platform önerilir. Aynı şekilde, hedefin önünde bir engel varsa ve kolun yukarı-sonra-yatay dolanması gerekiyorsa, bu da manliftin değil eklemli platformun işidir.",
+                    "Manliftin asıl gücü, dar bir aralığa girip tek bir noktaya hızlıca ulaşmaktır; iş kapsamı büyüdükçe veya alan genişledikçe diğer iki sınıf devreye girer. Bu ayrımı, işin tarifini dinledikten sonra keşif aşamasında netleştiririz.",
+                ],
+            },
+            {
+                baslik: "Vardiya planlamasında kısa pencere kullanımı",
+                paragraflar: [
+                    "Üretimi kesintisiz süren tesislerde, kompakt manlift işlerini vardiya değişimi veya planlı kısa bir üretim durağı gibi dar zaman pencerelerine yerleştiririz; bu, tesisin üretim akışını bozmadan bakımın tamamlanmasını sağlar. Bu pencereleri tesis yetkilisinden önceden öğreniriz.",
+                    "Aynı vardiya içinde birden fazla tekil-nokta işi varsa, bunları art arda planlayarak tek bir sevkiyatla birden fazla noktayı kısa sürede tamamlarız; bu, hem müşteri hem bizim için zaman açısından verimlidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tek bir lamba değişimi için makine göndermeniz maliyetli olmaz mı?",
+                cevap:
+                    "Kompakt manlift, tam olarak bu tür kısa süreli tekil işler için tasarlanmıştır; hızlı kurulum ve sökülme sayesinde işin kendisi dakikalar sürer. Aynı vardiya içinde başka tekil işleriniz varsa bunları da bildirin, tek sevkiyatla birlikte planlayarak maliyeti daha verimli hâle getiririz.",
+            },
+            {
+                soru: "Kazan dairesindeki ekipmanlar arası aralık çok dar, makine sığar mı?",
+                cevap:
+                    "Kompakt manliftin ince gövdesi çoğu dar aralığa girecek şekilde tasarlanmıştır, ama kesin uygunluk için aralığın yaklaşık genişliğini önceden isteriz. Bu ölçü olmadan gönderilen bir makine sahada aralığa sığmayabilir, bu yüzden bu bilgiyi talep formunda ayrıca sorarız.",
+            },
+            {
+                soru: "Kontrol odası yakınında dizel makine kullanamıyoruz, alternatif nedir?",
+                cevap:
+                    "Bu tür hassas alanların yakınında akülü kompakt manlift kullanırız; egzozsuz ve düşük gürültülü çalışması, kontrol odası veya hassas ölçüm ekipmanının bulunduğu alanlar için uygun tek seçenektir. Alanın tam konumunu belirtirseniz, doğru sınıfı baştan öneririz.",
+            },
+            {
+                soru: "Üretim durmadan bakım yapabilir misiniz?",
+                cevap:
+                    "Genellikle evet; kompakt manliftin hızlı kurulum özelliği, vardiya değişimi veya planlı kısa bir üretim durağı gibi dar zaman pencerelerine sığdırılmasını mümkün kılar. Tesisinizin bu tür pencerelerini önceden bildirirseniz, işi bu pencerelere göre planlarız.",
+            },
+            {
+                soru: "Aynı vardiyada birden fazla tekil noktada işimiz var, tek seferde halledilir mi?",
+                cevap:
+                    "Evet, bu tür işleri art arda planlayarak tek bir sevkiyatla birden fazla noktayı aynı vardiya içinde tamamlarız; bu, hem sizin hem bizim için zaman ve maliyet açısından verimlidir. Noktaların listesini ve yaklaşık konumlarını önceden paylaşırsanız, en verimli sırayı biz kurgularız.",
+            },
+            {
+                soru: "İşimiz aslında geniş bir alana yayılıyor, manlift yeterli olur mu?",
+                cevap:
+                    "Hayır, kompakt manlift tek kişilik dar sepeti nedeniyle geniş alan veya çoklu personel/malzeme taşıma işlerine uygun değildir; böyle bir işte makaslı platform öneririz. İşin kapsamını tarif ederseniz, doğru sınıfı — manlift, makaslı veya eklemli — keşif aşamasında netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek termik santral ve linyit ocağı tesislerindeki kazan dairesi, türbin binası ve kontrol odası gibi yapıların varlığı kamuya açık genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Vardiya penceresi planlaması ve sınıf ayrımı firma pratiğidir.",
+    },
 };

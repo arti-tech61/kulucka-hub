@@ -1776,4 +1776,200 @@ export const MANLIFTKIRALA_STORE: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Kapsam sınırı (açık arazi/toprak yol hariç tutma) ve iç saha zemin değerlendirmesi kendi çalışma pratiğimize ve dürüstlük ilkemize dayanır. Tesis adı ve rakam uydurulmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama: İmalat Holünde Ekip Kapasitesi",
+        giris:
+            "Bir tarım makinesi imalatçısının atölyesinde erişim ihtiyacının çoğu tek kişilik değildir — bir gövde üstü kaynak işi genellikle iki montajcının aynı anda, karşılıklı ya da yan yana çalışmasını gerektirir, yanlarında elektrot kutusu, alet çantası ve bazen yedek bir parça bulunur. Makaslı platformu bu sayfada ayrı bir hizmet olarak ele almamızın nedeni tam olarak bu: sınıfın asıl gücü yükseklikte değil, sepetin düz ve geniş tabanında iki kişinin birlikte, aletleriyle birlikte çalışabilmesindedir. İmalat holünün düz dökme betonu üzerinde makaslı platform dikey bir doğru boyunca yükselir ve iner; bu doğrusal hareket, montaj kızağına alınmış bir gövdenin belirli bir noktasına gün içinde defalarca aynı yükseklikte geri dönmeyi kolaylaştırır. Bu sayfada sepet kapasitesinin ekip ağırlığı ve malzeme yüküyle birlikte nasıl hesaplandığını, kayar sepet uzatmasının kısa mesafe uzanımlarda ne işe yaradığını ve imalat istasyonuna göre hangi şase genişliğinin tercih edildiğini anlatıyoruz. Makaslı platformu burada bakım aracı değil, montaj hattının iki kişilik bir çalışma istasyonu olarak görüyoruz.",
+        maddeler: [
+            {
+                baslik: "Geniş sepette ekip çalışması",
+                metin:
+                    "Bir gövdenin üst yüzeyinde yürütülen kaynak veya montaj işinin çoğu, tek kişinin değil iki kişinin eş zamanlı çalışmasını gerektirir — biri kaynak dikişini çekerken diğeri parçayı tutar, ya da iki montajcı gövdenin karşılıklı iki noktasında aynı anda ilerler. Makaslı sınıfın düz ve geniş tabanlı sepeti, bu ikili çalışmayı tek bir dar sepete sıkıştırmadan mümkün kılar; her iki montajcı da kendi çalışma açısını bulur, aletlerini yanına koyar. Sepetin bu genişliği, sınıfın örümcek veya eklemli platforma göre en belirgin ayrımıdır — biz onu bu yüzden ayrı bir hizmet başlığında ele alıyoruz.",
+            },
+            {
+                baslik: "Sepet kapasitesi: ekip ağırlığı ve malzeme yükü birlikte hesaplanır",
+                metin:
+                    "İki kişilik bir ekip sepete çıktığında, taşınan toplam ağırlık yalnızca iki insan değildir — alet çantası, elektrot kutusu, bazen yedek bir bağlantı parçası da sepete girer. Üretici tarafından belirlenen taşıma kapasitesi bu toplamı kapsamalıdır; kapasiteyi aşan bir yük güvenlik riskidir. Talep alırken sepete çıkacak kişi sayısını ve taşınacak malzemenin kaba ağırlığını sorarız; bu bilgi olmadan verilen bir model önerisi tahminden ibaret kalır. Ağır bir malzeme partisi taşınacaksa, yükü iki aşamaya bölmeyi ya da daha geniş kapasiteli bir modele geçmeyi öneririz.",
+            },
+            {
+                baslik: "Kayar sepet uzatması: kısa mesafe uzanımda pratik çözüm",
+                metin:
+                    "Bazı makaslı modellerde sepetin ön kenarı birkaç on santim öne kayabilir; bu, hedefin tam altına park edilemediği ama aradaki mesafenin kısa olduğu durumlarda — bir konveyör kenarının hemen yanı, bir tezgâhın hafif önü — bomu kırmadan yeterli olur. Bu uzatma, eklemli sınıfın engel aşan geniş hareketiyle karıştırılmamalı; sepetin kendisi hâlâ dikey bir doğru üzerinde çalışır, yalnızca ön kenar kısa bir mesafe ileri gider. Mesafe bu uzatmanın sınırını aşıyorsa, dürüst öneri eklemli sınıfa geçmektir; bunu sahaya çıkmadan söyleriz.",
+            },
+            {
+                baslik: "Düz zeminde tekrarlanan yükseklik: kalite kontrol ve seri montaj avantajı",
+                metin:
+                    "Makaslı platformun dikey doğrusal hareketi, aynı yüksekliğe gün içinde defalarca dönmek gereken işlerde belirgin bir avantaj sağlar — kalite kontrolcünün her partide aynı noktayı üstten kontrol etmesi, seri montajda aynı istasyonun tekrarlanan yüksekliği gibi. Makine hep aynı doğrultuda yükselip indiği için operatör, konumu her seferinde yeniden aramak zorunda kalmaz. Bu, imalat holünün düz dökme beton zemini üzerinde en verimli çalışan özelliktir; zemin kotu değişkense bu avantaj azalır ve makine her durakta yeniden dengelenmelidir.",
+            },
+            {
+                baslik: "İmalat istasyonuna göre şase genişliği ve teker seçimi",
+                metin:
+                    "Genel imalat holünde geniş şaseli, standart tekerlekli bir model çoğu işi karşılar; boyahane öncesi hazırlama veya kumlama kabini gibi hassas yüzeyli bölümlerde iz bırakmayan dolgu lastikli model tercih edilir. Pres holü gibi dar koridorlu bölümlerde ise şase genişliği koridor ölçüsüne göre daraltılır. Bu üç koşul — genel hol, hassas yüzey, dar koridor — aynı atölyede farklı istasyonlarda aynı anda karşımıza çıkabilir; hangi istasyon için talep geldiğini bilmek, doğru şase-teker kombinasyonunu baştan seçmemizi sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İmalat istasyonuna göre sepet ve şase tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, makaslı platform talebinde imalat istasyonuna göre hangi sepet genişliği ve şase-teker kombinasyonunun öne çıktığını gösteriyor.",
+                ],
+                tablo: {
+                    basliklar: ["İmalat istasyonu", "Tipik ekip", "Uygun sepet", "Şase/teker"],
+                    satirlar: [
+                        ["Gövde üstü montaj/kaynak", "2 kişi + alet", "Geniş, standart", "Geniş şase"],
+                        ["Boyahane öncesi hazırlama", "1-2 kişi", "Geniş, hafif yük", "Dolgu, iz bırakmaz"],
+                        ["Pres holü dar koridor", "1 kişi", "Standart", "Dar şase"],
+                        ["Kalite kontrol tekrar istasyonu", "1 kişi", "Standart", "Geniş şase"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki kişilik çalışmanın hattaki gerçek kazancı",
+                paragraflar: [
+                    "Tek kişilik bir sepette iki montajcının sırayla çalışması, aynı işi ikiye katlayan bir süre demektir; geniş sepette ikisinin aynı anda, gövdenin farklı noktalarında ilerlemesi bu süreyi belirgin biçimde kısaltır. Bu, özellikle parti üretiminin yoğun olduğu haftalarda montaj takviminin sıkışmaması açısından fark yaratır.",
+                    "Bunun koşulu, sepete çıkan iki kişinin de aynı anda güvenli çalışabileceği kadar geniş bir tabanın seçilmesidir; dar bir örümcek platforma iki kişiyi sıkıştırmak bu kazancı ortadan kaldırır ve güvenlik riski doğurur. Ekip sayısını talep aşamasında net söylemeniz, doğru genişlikte sepet seçmemizi sağlar.",
+                ],
+            },
+            {
+                baslik: "Kayar sepet uzatmasının sınırı",
+                paragraflar: [
+                    "Kayar sepet uzatması küçük bir kolaylıktır, büyük bir çözüm değildir; ön kenarın gidebileceği mesafe modele göre değişir ama her zaman sınırlıdır. Hedef bu mesafenin ötesindeyse, uzatmayı zorlamak yerine dürüstçe eklemli sınıfa yönlendiririz.",
+                    "Bu ayrımı sahada değil teklif aşamasında netleştirmeyi tercih ederiz: hedef ile park noktası arasındaki mesafeyi bize söylediğinizde, kayar uzatmanın yeterli olup olmadığını önceden söyleriz; sahaya varıp da yetersiz kalan bir makineyle karşılaşmanızı istemeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sepete iki kişi aynı anda çıkabilir mi?",
+                cevap:
+                    "Çoğu makaslı modelde evet; sınıfın geniş ve düz sepeti tam olarak bu ikili çalışma için tasarlanmıştır. Ancak taşınacak toplam ağırlık — iki kişi artı alet ve malzeme — üreticinin belirlediği kapasiteyi aşmamalıdır. Sepete çıkacak kişi sayısını ve kaba malzeme ağırlığını talep aşamasında bildirin, kapasiteye uygun modeli net söyleyelim.",
+            },
+            {
+                soru: "Kayar sepet uzatması eklemli platformun yerini tutar mı?",
+                cevap:
+                    "Hayır, tutmaz. Kayar uzatma yalnızca ön kenarın birkaç on santim ileri kaymasıdır ve kısa mesafeli, hafif engelsiz uzanımlarda işe yarar. Hedefle park noktası arasında gerçek bir engel varsa ya da mesafe uzatmanın sınırını aşıyorsa, dürüst öneri eklemli sınıfa geçmektir; bu ayrımı teklif aşamasında netleştiririz.",
+            },
+            {
+                soru: "Boyahane öncesi hazırlama bölümünde hangi teker kullanılır?",
+                cevap:
+                    "Bu bölümde yüzey hassasiyeti öne çıktığı için iz bırakmayan dolgu lastikli model yönlendirilir. Zemin türünü ve varsa özel hassasiyetinizi bize bildirin; bu önlemi teklife ekleyip sahaya hazır göndeririz. Genel imalat holünde ise standart tekerlekli modeller çoğu iş için yeterlidir.",
+            },
+            {
+                soru: "Pres holümüzün koridoru dar, geniş şaseli model sığar mı?",
+                cevap:
+                    "Sığmayabilir; bu yüzden dar koridorlu bölümlerde şase genişliği koridor ölçüsüne göre daraltılır. Koridor genişliğini bize iletin, envanterdeki dar şaseli modellerden uygun olanı ayıralım. Aynı atölyede farklı istasyonlar farklı şase genişliği gerektirebilir, bunu talep sırasında istasyon istasyon konuşuruz.",
+            },
+            {
+                soru: "Kalite kontrol istasyonumuz her partide aynı noktayı kontrol ediyor, bu sınıf uygun mu?",
+                cevap:
+                    "Evet, makaslı sınıfın dikey doğrusal hareketi tam olarak bu tekrarlanan yükseklik ihtiyacına uyar; makine aynı doğrultuda yükselip iner, operatör konumu her seferinde yeniden aramaz. Bu avantaj imalat holünün düz zemini üzerinde en verimli çalışır; zemin kotu değişkense her durakta yeniden dengeleme gerekir, bunu önceden söyleriz.",
+            },
+            {
+                soru: "Ağır bir yedek parça sepetle birlikte taşınabilir mi?",
+                cevap:
+                    "Toplam ağırlık kapasiteyi aşmıyorsa taşınabilir. Ancak ekip artı alet artı parçanın toplam ağırlığı hesaba katılmalı; bu bilgiyi vermeden verilen bir model önerisi tahminden ibaret kalır. Ağırlık kapasiteye yakınsa, yükü iki aşamaya bölmeyi ya da daha geniş kapasiteli bir modele geçmeyi öneririz — kapasiteyi zorlamak güvenlik riskidir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformların taşıma kapasitesi kuralı ve kayar sepet uzatma özelliği genel ürün bilgisidir; imalat istasyonuna göre şase/teker seçimi ve ekip kapasitesi değerlendirmesi kendi saha pratiğimize dayanır. Tesis adı, marka ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: Tek Kişilik Hızlı Erişim İçin Dikey Direksiyonlu Sınıf",
+        giris:
+            "İmalat hattında her erişim ihtiyacı bir ekip işi değildir — bir sensörün kontrolü, bir cıvatanın sıkılması, bir güvenlik bariyerinin gözden geçirilmesi gibi işler genellikle tek kişinin birkaç dakikada bitirdiği kalemlerdir ve bu işler için geniş sepetli, ekip taşıyan bir makine göndermek hem gereksiz hem yavaştır. Manlift dediğimizde bu sayfada kastettiğimiz, dikey direksiyonlu ve kendi ağırlığı hafif tutulmuş kompakt sınıftır: bir kişi tarafından istasyondan istasyona elle itilebilecek kadar hafif, kurulumu ve katlanması hızlı, bataryası kısa süreli ve sık duraklı kullanıma uygun bir makine. '.store' envanter yaklaşımımızda bu sınıf da hazır bekler; bir imalatçının gün içinde beş farklı noktada birer dakikalık kontrol yapması gerektiğinde, aranan makine büyük ve yavaş değil küçük ve hızlı olandır. Bu sayfada bu sınıfın hangi işe uyduğunu, kendi ağırlığının hafifliğinin pratikte ne kazandırdığını ve kapasite sınırının nerede bittiğini dürüstçe anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Tek kişilik hızlı erişim için doğru sınıf",
+                metin:
+                    "Bir sensör kontrolü, bir bağlantı noktası muayenesi, bir güvenlik etiketi yenileme — bu tip işlerin ortak özelliği tek kişinin birkaç dakikada bitirmesidir. Böyle bir iş için geniş sepetli bir makaslı platform kurmak, işin süresine göre orantısız bir hazırlık demektir. Dikey direksiyonlu manlift, tek kişiyi hızlıca kaldırıp indiren, kurulumu birkaç dakika süren bir sınıftır; imalat hattında bu tip kısa kalemlerin biriktiği günlerde asıl fark yaratan makine budur.",
+            },
+            {
+                baslik: "Kendi ağırlığının hafifliği: istasyonlar arası elle taşınabilirlik",
+                metin:
+                    "Bu sınıfın en belirgin özelliği kendi ağırlığının düşük tutulmasıdır; bu, makinenin bir istasyondan diğerine forklift ya da özel bir taşıma aracı gerektirmeden, tek kişi tarafından elle itilerek taşınabilmesi anlamına gelir. Montaj hattı boyunca dizilmiş beş istasyonu aynı gün dolaşmak gerektiğinde, her seferinde bir taşıma aracı çağırmak yerine operatör makineyi kendisi bir sonraki noktaya yürütür. Bu, günün tamamında biriken küçük gecikmeleri toplamda belirgin bir zamana dönüştürür.",
+            },
+            {
+                baslik: "Hızlı kurulum ve katlanma: çok sayıda kısa duruş için uygun",
+                metin:
+                    "Manliftin katlanmış hâlden çalışır hâle geçmesi ve işi bitince tekrar katlanması kısa sürer; bu, günde tek bir uzun iş yerine art arda gelen çok sayıda kısa iş için tasarlandığını gösterir. Bir istasyonda bir dakikalık kontrol yapılıp makine hemen katlanarak sonraki noktaya taşınabilir. Uzun süreli tek bir işte bu hız avantajı önemini yitirir; o durumda daha geniş kapasiteli bir sınıf zaten daha uygun bir seçimdir.",
+            },
+            {
+                baslik: "Kapasite sınırı: kişi ve hafif alet, malzeme değil",
+                metin:
+                    "Bu sınıfın kapasitesi bir kişi ve yanındaki hafif el aletleriyle sınırlıdır; elektrot kutusu, yedek parça ya da ikinci bir kişi taşınacaksa bu sınıf yetersiz kalır. Bunu açıkça söylüyoruz çünkü kapasiteyi zorlamak, hafif tasarlanmış bir makinede dengeyi bozan bir risktir. Talep alırken sepete çıkacak kişi sayısını ve taşınacak yükü sorarız; cevap 'tek kişi, birkaç el aleti' ise bu sınıf tam yerindedir, değilse dürüstçe farklı bir sınıfa yönlendiririz.",
+            },
+            {
+                baslik: "Ekip veya malzeme gerektiğinde makaslı sınıfa geçiş",
+                metin:
+                    "Bir işin başında tek kişilik gibi görünen bir kalem, sahada ikinci bir kişi ya da ek malzeme gerektirebilir; bu durumda manlift yerine geniş sepetli makaslı sınıfa geçmek doğru karardır. Bu geçişi bir başarısızlık olarak görmeyiz — işin gerçek kapsamı netleştikçe doğru makineyi bulmak, yanlış makineyle ısrar etmekten daha hızlı sonuç verir. Sahadan gelen bir bilgiyle sınıf değişikliği gerekiyorsa, bunu aynı gün içinde planlarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Görev süresine ve kapasiteye göre sınıf tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, kısa süreli tek kişilik işlerde manliftin ne zaman doğru seçim olduğunu, ne zaman başka bir sınıfa geçilmesi gerektiğini gösteriyor.",
+                ],
+                tablo: {
+                    basliklar: ["Görev tanımı", "Süre", "Ekip/yük", "Uygun sınıf"],
+                    satirlar: [
+                        ["Sensör/bağlantı kontrolü", "Birkaç dakika", "1 kişi, el aleti", "Manlift"],
+                        ["Etiket/dekal yenileme", "Kısa", "1 kişi", "Manlift"],
+                        ["Gövde üstü kaynak/montaj", "Uzun", "2 kişi, malzeme", "Makaslı platform"],
+                        ["Çok noktalı günlük kontrol turu", "Kısa x çoklu", "1 kişi", "Manlift"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elle taşınabilirliğin hat üzerindeki gerçek kazancı",
+                paragraflar: [
+                    "Montaj hattında istasyonlar arası mesafe genellikle kısadır ama sayıca çoktur; her istasyon değişiminde bir taşıma aracı beklemek, tek başına küçük görünen bir gecikmeyi gün sonunda toplamda büyük bir zaman kaybına çevirir. Kendi ağırlığı hafif tutulmuş bir manliftin operatör tarafından elle bir sonraki noktaya yürütülebilmesi, bu bekleme zincirini ortadan kaldırır.",
+                    "Bu kazanç özellikle günde beş-altı kısa duraklı bir kontrol turunda belirginleşir; her durakta ayrı bir taşıma planlaması gerekmediği için operatör işini kesintisiz sürdürür. Uzun ve tek noktalı işlerde bu avantajın önemi azalır.",
+                ],
+            },
+            {
+                baslik: "Kapasite sınırının dürüst çizimi",
+                paragraflar: [
+                    "Manliftin hafifliği bir güç değil bir tasarım tercihidir; bu tercih, kapasiteyi kasıtlı olarak sınırlı tutar. Bir kişi ve yanındaki hafif el aletlerinin ötesinde bir yük — ikinci bir kişi, ağır bir parça, bir alet çantasından fazlası — bu sınıfın tasarım sınırını zorlar.",
+                    "Talebiniz sahada büyürse bunu saklamayız; makaslı sınıfa geçmenizi öneririz ve bu geçişi aynı gün içinde planlarız. Kapasiteyi zorlayarak devam etmek yerine doğru sınıfa geçmek, hem güvenlik hem iş hızı açısından daha iyi sonuç verir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark nedir?",
+                cevap:
+                    "Manlift tek kişilik, hafif ve hızlı kurulan bir sınıftır; kısa süreli, tek kişinin yaptığı kontrol ve küçük müdahale işlerine uygundur. Makaslı platform ise geniş sepetiyle iki kişinin birlikte, malzemeyle birlikte çalışmasını destekler. İşiniz tek kişilik ve kısa süreliyse manlift, ekip ve malzeme gerektiriyorsa makaslı sınıf doğru seçimdir; emin değilseniz işin tanımını bize verin, doğru sınıfı söyleyelim.",
+            },
+            {
+                soru: "Manlifti biz kendimiz istasyondan istasyona taşıyabilir miyiz?",
+                cevap:
+                    "Evet, bu sınıfın kendi ağırlığı düşük tutulduğu için bir kişi tarafından elle itilerek taşınabilir; forklift ya da ayrı bir taşıma aracı gerekmez. Montaj hattı boyunca birden fazla istasyonu aynı gün dolaşacaksanız bu, her durakta ayrı bir taşıma planlaması yapmanızı önler ve gün içindeki bekleme süresini belirgin biçimde azaltır.",
+            },
+            {
+                soru: "Sepete ikinci bir kişi ya da malzeme kutusu koyabilir miyiz?",
+                cevap:
+                    "Hayır, bu sınıfın kapasitesi bir kişi ve yanındaki hafif el aletleriyle sınırlıdır. İkinci bir kişi ya da ek malzeme taşınacaksa makine dengesi için tasarım sınırı zorlanır; bu durumda dürüst önerimiz geniş sepetli makaslı sınıfa geçmenizdir. Sepete çıkacak kişi sayısını ve taşınacak yükü talep aşamasında bildirin, doğru sınıfı baştan önerelim.",
+            },
+            {
+                soru: "Günde birden fazla kısa iş için mi, yoksa tek uzun iş için mi uygundur?",
+                cevap:
+                    "Asıl gücünü birden fazla kısa iş için gösterir; hızlı kurulum ve katlanma sayesinde bir istasyonda birkaç dakika çalışıp hemen sonrakine geçebilirsiniz. Tek ve uzun süreli bir işte bu hız avantajı önemini yitirir, o durumda zaten daha geniş kapasiteli bir sınıf daha uygun olur. Günlük iş planınızı bize anlatın, hangi sınıfın size uyduğunu birlikte netleştirelim.",
+            },
+            {
+                soru: "Sahada işin kapsamı büyürse ne olur?",
+                cevap:
+                    "Bunu saklamayız; sahadan gelen bilgiyle işin ikinci bir kişi ya da ek malzeme gerektirdiği anlaşılırsa, makaslı sınıfa geçmenizi öneririz ve bu geçişi mümkünse aynı gün içinde planlarız. Kapasiteyi zorlayarak manlift ile devam etmek yerine doğru sınıfa geçmek, hem güvenlik hem toplam iş süresi açısından daha iyi sonuç verir.",
+            },
+            {
+                soru: "Kısa süreli çağrılarda aynı gün teslim mümkün mü?",
+                cevap:
+                    "Çoğu zaman mümkündür çünkü bu sınıf da envanterde hazır bekler ve kompakt ölçüsü sevkiyatı hızlandırır. Ancak kesin bir saat garantisi vermeyiz; o an başka bir sahada olup olmadığına göre müsaitlik değişir. Talebinizi kısa iş tanımıyla birlikte ilettiğinizde müsaitlik durumunu olduğu gibi, telefonda net söyleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dikey direksiyonlu manlift sınıfının hafif kendi ağırlığı ve tek kişilik kapasite sınırı genel ürün bilgisidir; imalat hattında istasyonlar arası kullanım ve kapasite aşımında sınıf değişikliği kendi saha pratiğimize dayanır. Tesis adı, marka ve rakam uydurulmamıştır.",
+    },
 };

@@ -2021,4 +2021,200 @@ export const MANLIFTKIRALA_ONLINE: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Paletli şase, eğim dengeleme ve zemin uygunluğu genel makine/uygulama bilgisidir. Hızlı teklif sürecinde fotoğrafla ön değerlendirme ve güvenli olmayan zeminin dürüstçe reddedilmesi firma pratiğidir. Tesis adı, mesafe rakamı ve eğim derecesi uydurulmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Nilüfer-Osmangazi Yan Sanayi Atölyelerinde Makaslı Platform Kiralama",
+        giris:
+            "Bir otomotiv yan sanayi atölyesinin içi, açık bir sahadan çok farklı bir mekândır: pres hattı ile CNC istasyonu arasında bir metreyi geçmeyen koridorlar, tepede geçen vinç rayları, aralıksız çalışan konveyörler ve her santimin üretime ayrıldığı bir yerleşim düzeni. Böyle bir alanda yükseğe erişim gerektiren bir bakım işi geldiğinde ilk soru 'hangi makine' değil 'hangi gövde genişliği koridordan geçer' olur — ve bu soruyu doğru cevaplayan gövde, çoğunlukla dar şaseli makaslı platformdur. Nilüfer ve Osmangazi'deki yan sanayi tesislerinde makaslı platform talebi çoğunlukla tek bir olaya bağlı gelir: ana sanayi üreticisinin üretim planında açılan kısa bir pencere. Model değişikliği, hat revizyonu veya planlı bir duruş, atölyeye birkaç saatlik ya da birkaç günlük bir bakım fırsatı tanır ve bu fırsat kaçırıldığında bir sonraki pencere haftalar sonra gelebilir. Bu sayfa, dar atölye koridorlarında ve kısa bakım pencerelerinde makaslı platform kiralamanın nasıl planlandığını, hangi gövde seçiminin hangi durumda öne çıktığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Dar koridorda gövde genişliği, kapasiteden önce gelir",
+                metin:
+                    "Pres hattı ile montaj istasyonu arasındaki koridor genellikle sabit bir genişliktedir ve bu genişlik değişmez; değişebilecek olan makinenin gövdesidir. Bu yüzden Nilüfer-Osmangazi'deki atölye taleplerinde ilk sorduğumuz şey çalışma yüksekliği değil, koridorun gerçek geçiş genişliğidir — dar gövdeli bir makaslı platform, geniş taşıma kapasiteli bir modelden çoğu zaman daha değerlidir çünkü koridordan geçemeyen bir makine hangi kapasiteye sahip olursa olsun işe yaramaz. Ölçüyü telefonda net paylaşmanız, sahaya uygun olmayan bir makinenin gönderilip geri çevrilmesi riskini baştan ortadan kaldırır.",
+            },
+            {
+                baslik: "Model değişikliği penceresinde hız, konfordan önce gelir",
+                metin:
+                    "Ana sanayi üreticisi bir model değişikliğine geçtiğinde, tedarikçi hattında da kısa süreli bir duruş penceresi açılır ve bu pencere önceden ilan edilmiş, sabit bir süreye sahiptir — genellikle uzatılamaz. Bu pencerede yapılacak vinç rayı bakımı, tavan aydınlatması değişimi veya hat üstü sensör kurulumu gibi işlerde makaslı platformun hızlı kurulup hızlı sökülebilmesi, çalışma konforundan daha belirleyici bir kriter hâline gelir. Pencere süresini paylaştığınızda, kurulum-söküm süresi bu pencereye sığacak gövdeyi öneririz; sığmayacaksa bunu dürüstçe söyleriz.",
+            },
+            {
+                baslik: "Vinç rayı ve tavan aydınlatması için dengeli, sabit platform ihtiyacı",
+                metin:
+                    "Tavan vinç rayı hizalaması veya hat üstü aydınlatma değişimi gibi işler, operatörün belirli bir noktada uzun süre sabit ve dengeli durmasını gerektirir; bu işlerde eklemli bir kolun ucundaki sepet yerine, geniş ve sabit bir platform yüzeyi daha güvenli ve daha verimli çalışılmasını sağlar. Makaslı platformun dikey, tek eksenli hareketi, tam bu tür nokta işlerinde eklemli platforma göre öne çıkar — kol sallanması veya sepet dengesi endişesi olmadan iki elle çalışma imkânı sunar.",
+            },
+            {
+                baslik: "Kalite kontrol istasyonunda hat durmadan çalışma zorunluluğu",
+                metin:
+                    "Bazı bakım işleri, hattın tamamen durmasını beklemeden, yalnızca bir istasyonun etrafında sınırlı bir alanda yapılabilir — örneğin kalite kontrol panosu üzerindeki bir aydınlatma değişimi ya da kamera kalibrasyonu. Bu tür işlerde platformun dar tabanı, komşu istasyonların çalışmasını engellemeden konumlanabilmesi açısından belirleyicidir. Hangi istasyonun çevresinde çalışılacağını ve komşu hatların o sırada aktif olup olmadığını paylaşmanız, doğru taban ölçüsüne sahip modeli önermemizi sağlar.",
+            },
+            {
+                baslik: "Islak zemin ve elektrik hattı yakınında güvenlik gereksinimleri",
+                metin:
+                    "Metal işleme atölyelerinde soğutma sıvısı nedeniyle zaman zaman ıslak zemin, plastik enjeksiyon tesislerinde ise elektrik pano hatlarına yakın çalışma alanları oluşabilir. Bu koşullarda platformun tekerlek malzemesi ve elektriksel yalıtım özellikleri önem kazanır; talebinizi aldığımızda zemin durumunu ve çalışma noktasının elektrik hatlarına yakınlığını sorarak uygun donanımlı modeli seçeriz, gerekirse iş güvenliği uzmanınızla birlikte doğrularız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Atölye alanı tipine göre makaslı platform seçimi",
+                paragraflar: [
+                    "Yan sanayi atölyesinin farklı bölümlerinde hangi gövde ve önceliğin öne çıktığı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Öncelikli gövde", "Belirleyici kısıt", "Zamanlama"],
+                    satirlar: [
+                        ["Pres hattı arası dar koridor", "Dar tabanlı, kompakt makaslı", "Geçiş genişliği", "Planlı duruş penceresi"],
+                        ["Vinç rayı / tavan aydınlatması", "Geniş sabit platformlu makaslı", "Dengeli, uzun süreli konum", "Model değişikliği penceresi"],
+                        ["Kalite kontrol istasyonu çevresi", "Dar tabanlı, düşük gürültülü", "Komşu hat aktifliği", "Hat durmadan, sınırlı alanda"],
+                        ["Islak zemin / soğutma sıvısı alanı", "Uygun tekerlek/yalıtım donanımlı", "Zemin ve elektrik yakınlığı", "İş güvenliği onayına bağlı"],
+                        ["Montaj hattı üstü sensör/kablo işi", "Orta kapasiteli, hızlı kurulum", "Kurulum-söküm süresi", "Kısa, sabit süreli pencere"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kısa pencerede kaybedilen zamanın maliyeti",
+                paragraflar: [
+                    "Model değişikliği veya planlı duruş pencereleri genellikle önceden ilan edilir ve süresi sabittir; bu pencerenin bir kısmının makinenin sahaya ulaşması ya da kurulumu için harcanması, geriye kalan gerçek çalışma süresini doğrudan azaltır. Bu yüzden Nilüfer-Osmangazi hattındaki taleplerde teslimat saatini pencerenin başlangıcına değil, mümkünse biraz öncesine planlamaya çalışırız.",
+                    "Pencere süresi bize önceden bildirildiğinde, kurulum-söküm süresi bu pencereye rahatça sığan bir gövde önerir; sığmayacak bir durumla karşılaştığımızda bunu erkenden söyleyip alternatif bir zamanlama veya daha hızlı kurulan bir model üzerinde birlikte karar veririz.",
+                ],
+            },
+            {
+                baslik: "Eklemli platform yerine makaslı platform ne zaman doğru tercih",
+                paragraflar: [
+                    "Eklemli (boom) platformlar, engelli noktalara ulaşmada avantajlıdır ama tek noktada uzun süre sabit durmayı gerektiren işlerde makaslı platformun geniş ve dengeli tabanı genellikle daha konforlu ve daha verimlidir. Vinç rayı hizalaması, tavan aydınlatması değişimi veya hat üstü kablolama gibi 'aynı noktada uzun süre çalışma' gerektiren işlerde makaslı platformu öneririz.",
+                    "Buna karşılık kolon arası, boru hattı üstü gibi engelli bir noktaya erişim gerekiyorsa, bu iş makaslı platformun kapsamı dışına çıkar ve eklemli platform daha uygun bir çözüm olur — böyle bir talep geldiğinde bunu dürüstçe belirtir, doğru gövdeyi öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemizdeki koridorlar çok dar, hangi ölçüyü paylaşmalıyız?",
+                cevap:
+                    "En kritik ölçü, platformun geçmesi gereken en dar noktanın genişliğidir — genellikle iki pres hattı veya iki raf arasındaki mesafe. Bu ölçüyü santimetre cinsinden paylaşmanız, gövde genişliği bu koridordan güvenle geçecek modeli önceden belirlememizi sağlar. Ölçüyü tam bilmiyorsanız, koridorun fotoğrafını bir referans nesnesiyle (örneğin bir palet) birlikte paylaşmanız da yardımcı olur.",
+            },
+            {
+                soru: "Model değişikliği penceremiz sadece birkaç saat, bu sürede kurulum mümkün mü?",
+                cevap:
+                    "Pencerenin süresini önceden paylaştığınızda, kurulum-söküm süresi bu pencereye sığacak bir gövde öneririz ve teslimatı pencerenin başlangıcından biraz önce planlarız ki gerçek çalışma süreniz kısalmasın. Süre gerçekten çok kısaysa ve makinenin kurulumu bu süreye sığmıyorsa, bunu önceden söyleriz — pencereyi doldurmayacak bir taahhüt vermek yerine gerçekçi bir zamanlama üzerinde birlikte karar veririz.",
+            },
+            {
+                soru: "Vinç rayı bakımı için neden eklemli değil makaslı platform öneriyorsunuz?",
+                cevap:
+                    "Vinç rayı hizalaması gibi işler, operatörün belirli bir noktada uzun süre sabit ve dengeli durmasını gerektirir. Eklemli platformun kolunun ucundaki sepet bu tür uzun süreli nokta işlerinde daha az stabil hissettirebilirken, makaslı platformun geniş ve sabit tabanı iki elle çalışma konforu sağlar. Erişilecek nokta bir engelin arkasındaysa bu değerlendirme değişir ve eklemli platform gerekebilir; talebinizi aldığımızda bu ayrımı birlikte netleştiririz.",
+            },
+            {
+                soru: "Zeminimiz soğutma sıvısı nedeniyle zaman zaman ıslak oluyor, bu bir sorun mu?",
+                cevap:
+                    "Zemin durumunu bize önceden bildirmeniz önemlidir çünkü ıslak zeminlerde uygun tekerlek malzemesine sahip bir model tercih ederiz ve gerekirse çalışma noktasının elektrik hatlarına yakınlığını da sorarak ek bir yalıtım gereksinimi olup olmadığını değerlendiririz. Bu bilgi paylaşılmadan gönderilen bir makine, sahada beklenmedik bir güvenlik sorunu yaratabilir; bu yüzden bu soruyu teklif aşamasında mutlaka sorarız.",
+            },
+            {
+                soru: "Kalite denetimi öncesi hat durmadan bir bakım yaptırabilir miyiz?",
+                cevap:
+                    "Genellikle evet, ama bu komşu istasyonların o sırada aktif olup olmadığına bağlıdır. Hangi istasyonun çevresinde çalışılacağını ve etrafındaki hatların çalışma durumunu paylaşmanız, dar tabanlı ve düşük hareket alanı gerektiren bir modeli önceden belirlememizi sağlar. Komşu hatların aktif olduğu bir alanda çalışmak güvenli değilse, bunu önceden söyler, kısa bir duruş penceresi planlamanızı öneririz.",
+            },
+            {
+                soru: "Sipariş verdiğimiz makine koridordan geçmezse ne olur?",
+                cevap:
+                    "Bu durumun yaşanmaması için teklif aşamasında koridor genişliğini net olarak sormamız buradan kaynaklanır — ölçü doğru paylaşıldığında bu risk pratikte ortadan kalkar. Yine de ölçüde bir belirsizlik varsa, sahaya gönderilmeden önce telefon veya fotoğraf üzerinden teyit ederiz; sahada geri çevrilen bir makine hem sizin hem bizim için kaybedilen bir bakım penceresi anlamına gelir ve bunu önlemek karşılıklı çıkarımızadır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otomotiv yan sanayi tedarik zincirinde model değişikliği/planlı duruş pencerelerinin kısa ve sabit süreli olması, ana sanayi üreticisinin üretim planına bağımlılık genel sektör bilgisidir. Dar koridor/gövde genişliği, vinç rayı bakımı ve makaslı-eklemli platform ayrımı genel makine/uygulama bilgisidir. Tesis adı ve rakam uydurulmamıştır; 'ana sanayi üreticisi' genel ifadesiyle anılmıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Nilüfer-Osmangazi Yan Sanayi Tesislerinde Manlift Kiralama — Sevkiyat ve Depo Erişimi",
+        giris:
+            "Bir otomotiv yan sanayi tesisinin üretim hattının içi kadar, sevkiyat kapısı ve depo sahası da sıkı bir takvime bağlıdır — ama bu takvimi belirleyen üretim planı değil, tam zamanında (JIT) teslimat programıdır. Ana sanayiye giden kamyon, belirlenen saatte yükleme rampasında olmak zorundadır ve bu rampanın, dış cephenin veya depo yüksek raflarının bakımı, kamyon trafiğinin yoğun olduğu saatlerde değil, bu trafiğin durduğu dar pencerelerde yapılmalıdır. Nilüfer ve Osmangazi'deki yan sanayi tesislerinde manlift talebi bu yüzden çoğunlukla iki farklı ihtiyaçtan gelir: dış cephe ve çatı gibi açık sahadaki yüksek erişim işleri, ve depo/sevkiyat alanındaki yüksek raf veya aydınlatma bakımı. İkisi de aynı kısıtla karşı karşıyadır — kamyon giriş-çıkışının aksamaması. Bu sayfa, sevkiyat ritmine bağlı bir tesiste eklemli ve teleskopik manlift kiralamanın nasıl planlandığını, hangi gövdenin hangi alanda öne çıktığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kamyon trafiği yoğun saatlerde rampa çevresinde çalışma yasağı",
+                metin:
+                    "Yükleme rampasının hemen üzerindeki bir aydınlatma değişimi veya çatı oluğu bakımı, kamyonların giriş-çıkış yaptığı saatlerde yapılamaz; hem güvenlik riski oluşturur hem de sevkiyat akışını yavaşlatır. Bu yüzden rampa çevresi taleplerinde önce sevkiyat programınızı — kamyonların yoğunlaştığı saat aralıklarını — sorarız ve manlift işini bu aralıkların dışında kalan dar pencerelere yerleştiririz. Sevkiyat programınız günden güne değişiyorsa, bu değişkenliği de paylaşmanız planlamayı kolaylaştırır.",
+            },
+            {
+                baslik: "Depo yüksek raf erişiminde teleskopik gövdenin avantajı",
+                metin:
+                    "Açık, engelsiz bir depo koridorunda yüksek raf üzerindeki bir aydınlatma armatürüne veya raf sistemine erişim gerektiğinde, teleskopik manlift genellikle en verimli çözümdür — düz bir hat üzerinde daha yüksek ve daha uzun erişim sağlar. Depo koridorunun genişliğini ve raf yüksekliğini paylaşmanız, gövde kapasitesi bu erişime yetecek doğru modeli önceden belirlememizi sağlar.",
+            },
+            {
+                baslik: "Dış cephe ve çatı bakımında eklemli gövdenin gerekliliği",
+                metin:
+                    "Cephedeki bir tabela, çatı kenarındaki bir oluk veya bina köşesindeki bir aydınlatma direği gibi engelli noktalara erişim, düz bir hat üzerinde çalışan teleskopik gövdeyle değil, kolu kırılabilen eklemli manliftle mümkün olur. Bu tür işlerde erişilecek noktanın bina cephesine göre konumunu (köşe mi, girinti mi, parapetin arkası mı) tarif etmeniz, doğru kol uzunluğuna ve kırılma açısına sahip modeli seçmemizi sağlar.",
+            },
+            {
+                baslik: "Hava koşulunun sevkiyat penceresiyle çakışması",
+                metin:
+                    "Açık sahada çalışan bir manlift için rüzgâr ve yağış gibi hava koşulları güvenlik açısından belirleyicidir; ama sevkiyat penceresi hava durumunu beklemez. Bu yüzden rampa veya çatı işlerinde, hem uygun hava koşulunu hem de sevkiyat trafiğinin düşük olduğu saati aynı anda yakalamaya çalışırız — bu iki kısıt çakıştığında pencere daralır ve erken planlama daha da önem kazanır. Esnek olabileceğiniz gün aralığını paylaşmanız, uygun pencereyi bulma şansımızı artırır.",
+            },
+            {
+                baslik: "Konteyner ve TIR park alanı yakınında güvenli konumlanma",
+                metin:
+                    "Depo ve sevkiyat sahalarında park hâlindeki konteyner veya TIR'lar, manliftin manevra alanını daraltabilir ve görüş açısını kısıtlayabilir. Sahadaki park düzenini ve manevra için ayrılabilecek alanı önceden bilmemiz, hem doğru gövde boyutunu seçmemizi hem de operatörün güvenli bir rota planlamasını sağlar; bu bilgi paylaşılmadığında sahada gecikme yaşanma riski artar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sevkiyat tesisinde iş tipine göre manlift seçimi",
+                paragraflar: [
+                    "Yan sanayi tesisinin sevkiyat ve depo alanındaki farklı iş tiplerinde hangi gövde ve zamanlama önceliğinin öne çıktığı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Önerilen gövde", "Zamanlama penceresi", "Ek kısıt"],
+                    satirlar: [
+                        ["Yükleme rampası üstü bakım", "Kompakt eklemli", "Kamyon trafiği dışı saat", "Sevkiyat programına bağlı"],
+                        ["Depo yüksek raf/aydınlatma", "Teleskopik, düz hat erişimli", "Depo boş saatleri", "Koridor genişliği"],
+                        ["Dış cephe/tabela/oluk", "Eklemli, kırılan kollu", "Hava koşulu uygun gün", "Engelli nokta konumu"],
+                        ["Çatı kenarı bakımı", "Eklemli, geniş açılı", "Rüzgârsız/kuru hava", "Sevkiyat trafiğiyle çakışma riski"],
+                        ["Konteyner/TIR alanı yakını iş", "Dar manevralı, orta boy", "Park düzeni müsait saat", "Manevra alanı kısıtı"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki kısıtın çakıştığı dar pencere",
+                paragraflar: [
+                    "Açık sahada çalışan bir manlift için hava koşulu ve sevkiyat trafiğinin düşük olduğu saat aynı anda sağlanmalıdır; bu iki kısıt genellikle bağımsız değildir ve çakıştıklarında gerçek çalışma penceresi oldukça daralabilir. Nilüfer-Osmangazi hattındaki taleplerde bu yüzden mümkün olduğunca geniş bir gün aralığı ve esnek bir saat tercihi paylaşılmasını öneririz.",
+                    "Pencere daraldığında öncelik sırasını birlikte belirleriz — hangi işin ertelenemez olduğunu, hangisinin bir sonraki uygun pencereye bırakılabileceğini sizinle netleştirir, sevkiyat akışınızı hiçbir şekilde riske atmayacak bir plan üzerinde anlaşırız.",
+                ],
+            },
+            {
+                baslik: "Teleskopik ile eklemli arasındaki temel ayrım",
+                paragraflar: [
+                    "Teleskopik manlift düz bir hat üzerinde daha yüksek ve daha uzun erişim sağlar; açık, engelsiz bir depo koridorunda veya geniş bir sahada bu avantaj öne çıkar. Eklemli manlift ise kolunu kırabildiği için bina köşesi, parapet arkası veya boru hattı gibi engelli noktalara ulaşabilir — ama düz erişimde teleskopik kadar yükseğe çıkamayabilir.",
+                    "Talebinizi aldığımızda erişilecek noktanın engelli mi engelsiz mi olduğunu sorarız; bu tek soru çoğu zaman doğru gövde tipini belirlemeye yeter. Emin değilseniz, noktanın fotoğrafını paylaşmanız kararı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sevkiyat rampamızın üstünde bakım yaptırmak istiyoruz, ne zaman uygun olur?",
+                cevap:
+                    "Bunun cevabı tamamen sizin sevkiyat programınıza bağlı — kamyonların en az yoğun olduğu saat aralığını paylaşırsanız, işi o pencereye yerleştiririz. Sevkiyat programı gün içinde değişkense, esnek olabileceğiniz birkaç saat aralığı vermeniz uygun bir pencere bulma şansımızı artırır. Programı bilmeden gönderilen bir makine, kamyon trafiğiyle çakışıp hem sevkiyatı hem bakım işini aksatabilir.",
+            },
+            {
+                soru: "Depo koridorumuz oldukça dar, teleskopik manlift sığar mı?",
+                cevap:
+                    "Bu, koridorun genişliğine ve raf düzenine bağlı — dar bir koridorda teleskopik gövdenin manevra alanı yetersiz kalabilir ve daha kompakt bir eklemli model daha uygun olabilir. Koridor genişliğini ve raf yüksekliğini paylaşmanız, doğru gövdeyi önceden belirlememizi sağlar; emin değilseniz koridorun fotoğrafını göndermeniz kararı netleştirir.",
+            },
+            {
+                soru: "Çatımızdaki bir oluk bakımı için hangi gövde gerekir?",
+                cevap:
+                    "Çatı kenarı ve oluk gibi noktalar genellikle bina cephesinin dışında, engelli bir konumdadır ve bu tür işlerde kolu kırılabilen eklemli manlift daha uygun bir çözümdür. Erişilecek noktanın bina cephesine göre nerede olduğunu (köşe, girinti, parapet arkası) tarif etmeniz, doğru kol uzunluğu ve açısına sahip modeli seçmemizi sağlar.",
+            },
+            {
+                soru: "Hava durumu kötüyse planlanan işi erteler misiniz?",
+                cevap:
+                    "Açık sahada çalışan bir manlift için rüzgâr ve yağış güvenlik açısından belirleyicidir ve bu koşullar uygun değilse işi ertelemeyi öneririz — bu bir tercih değil güvenlik gereğidir. Sevkiyat penceresiyle çakışan bir erteleme sizin için sorun yaratacaksa, alternatif bir gün veya saat üzerinde birlikte hızlıca yeni bir plan yaparız.",
+            },
+            {
+                soru: "Depomuzda park hâlinde konteynerler var, bu manevrayı etkiler mi?",
+                cevap:
+                    "Evet, park düzeni manliftin manevra alanını ve görüş açısını doğrudan etkiler. Sahadaki park düzenini ve manevra için ayrılabilecek alanı önceden paylaşmanız, hem doğru gövde boyutunu seçmemizi hem de operatörün güvenli bir rota belirlemesini sağlar; bu bilgi eksik olduğunda sahada gecikme yaşanma riski artar.",
+            },
+            {
+                soru: "Sevkiyat trafiğimiz her gün farklı saatlerde yoğunlaşıyor, bu bir sorun mu?",
+                cevap:
+                    "Değişken bir program bizim için sorun değil, ama bu değişkenliği bilmemiz gerekiyor. Gün içindeki tipik yoğun saatlerinizi bize aktardığınızda, bu bilgiyi planlamaya dahil eder ve mümkün olan en güvenli, en az kesintili pencereyi birlikte belirleriz; program günden güne çok değişiyorsa, teslimat gününden bir gün önce kısa bir teyit araması yapmamız da işe yarar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Otomotiv yan sanayide tam zamanında (JIT) teslimat programının sevkiyat/depo bakım pencerelerini belirlemesi, teleskopik-eklemli manlift ayrımı ve hava koşulu kısıtı genel sektör/makine bilgisidir. Tesis adı ve rakam uydurulmamıştır; 'ana sanayi üreticisi' genel ifadesiyle anılmıştır.",
+    },
 };

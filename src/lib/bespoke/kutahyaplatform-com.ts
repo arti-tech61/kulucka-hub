@@ -1912,4 +1912,202 @@ export const KUTAHYAPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Kütahya'nın dağlık ilçe coğrafyası (Emet), dolgu zeminli sanayi/maden sahaları ve tarım bölgesi toprak zeminleri kamuya açık bilgidir; makine seçimi ve saha değerlendirme yöntemi firma pratiğidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Kütahya'da Makaslı Platform Kiralama: Geniş Salon ve Düz Zeminli Tesisler İçin",
+        giris:
+            "Makaslı platform, sepeti tek bir dikey hat üzerinde ama geniş ve sağlam bir taban üzerinde yukarı taşıyan bir makinedir; bu özelliği onu Kütahya'nın geniş açıklıklı ve düz betonlu kapalı hacimlerinde en verimli sınıf hâline getirir. Seramik fabrikalarının mamul deposu ve ambalaj-sevkiyat holleri, Tavşanlı-Seyitömer kuşağındaki termik santral ve enerji tesislerinin türbin-kazan daireleri ile idari-teknik bina hacimleri, Simav-Gediz hattındaki tarım ve orman ürünleri işleme tesislerinin depo ve paketleme salonları — bu üç grup da ortak bir zemin karakteri paylaşır: geniş, düz ve genellikle sağlam beton. Eklemli veya manlift sınıfının aksine makaslı platform bir engelin etrafından dolaşmaz, ama buna karşılık çok daha geniş ve yüksek kapasiteli bir sepet sunar; iki kişinin aynı anda malzemesiyle birlikte çalışabilmesi, çatı altı aydınlatması ile raf üstü kontrolü tek çıkışta bitirmeyi mümkün kılar. Bu sayfa, makaslı platformun ildeki üç ana sektörde nerede ve neden tercih edildiğini, zemin ve kapasite gerekliliklerini anlatır.",
+        maddeler: [
+            {
+                baslik: "Seramik mamul deposu ve ambalaj hollerinde çift kişilik kapasite",
+                metin:
+                    "Seramik fabrikalarının mamul deposu ve ambalaj-sevkiyat hollerinde raf montajı, hasarlı travers değişimi ve çatı altı aydınlatma bakımı sıkça birlikte yürüyen işlerdir; sepette operatör ve yardımcı personelin malzemeyle birlikte durabilmesi, iki ayrı çıkışı tek işe indirir. Zemin genellikle geniş açıklıklı ve düz betondur, bu da makaslı platformun sabit ve geniş tabanını tam kapasitesiyle kullanmasına imkân verir. Koridor genişliği raf aralığına göre değişebileceğinden, makine şasi eninin koridora sığıp sığmadığı keşifte netleştirilir.",
+            },
+            {
+                baslik: "Termik santral kuşağında türbin-kazan dairesi ve idari-teknik hacimler",
+                metin:
+                    "Tavşanlı-Seyitömer kuşağındaki enerji tesislerinin türbin salonu, kazan dairesi çevresi ve idari-teknik binaları geniş, yüksek tavanlı ve düz zeminli kapalı hacimlerdir; aydınlatma yenileme, kablo tavası bakımı ve çatı altı tesisat kontrolü bu tip alanlarda düzenli çıkan iş kalemleridir. Bu tesislerde iş, güvenlik prosedürü gereği genellikle planlı bakım duruşuna veya belirlenmiş bir izin penceresine denk getirilir; makinenin duruş başlamadan sahada hazır olması, kısa duruş süresinin verimli kullanılmasını sağlar.",
+            },
+            {
+                baslik: "Tarım ve orman ürünleri işleme tesislerinde depo-paketleme salonu",
+                metin:
+                    "Simav-Gediz hattındaki tarım ve orman ürünleri işleme tesislerinin depo ve paketleme salonları, mevsimsel yoğunluğa göre boşalıp dolan geniş ve düz zeminli hacimlerdir; raf sistemi bakımı, çatı altı aydınlatma ve havalandırma menfezi işleri genellikle sezon arası boş dönemde toplu olarak planlanır. Zemin toz veya organik kalıntı içerebileceğinden, iş öncesinde zeminin süpürülüp temizlenmesi makinenin güvenli konumlanması için istenir.",
+            },
+            {
+                baslik: "Geniş çatı altı ve kablo tavası işlerinde koridor boyunca yatay hareket",
+                metin:
+                    "Makaslı platformun bir noktada sabit durup uzanmak yerine koridor boyunca yatay hareket edebilmesi, uzun bir hat üzerindeki aydınlatma armatürü veya kablo tavası bakımını tek turda bitirmeyi mümkün kılar. Bu, yukarıda sayılan üç sektörün tümünde ortak bir avantajdır — seramik deposunun raf koridoru, santralin kablo galerisi veya işleme tesisinin paketleme hattı üstü aynı mantıkla çalışılır. Zemin düzensizse (şap kırığı, kanal ızgarası) makinenin duracağı her nokta önceden gözle kontrol edilir.",
+            },
+            {
+                baslik: "Sanayi sitesi ve OSB parselleri arası kendi tekerleğiyle geçiş",
+                metin:
+                    "Aynı OSB veya sanayi sitesi içinde birbirine yakın konumlanmış birden fazla işletme aynı hafta iş yaptırmak istediğinde, makaslı platform bir parselden diğerine kendi tekerleğiyle geçebilir; bu, her işletme için ayrı bir nakliye çağrısına gerek bırakmadan nakliye payını katılan işletmeler arasında böler. Modelin işlemesi için tesislerin tarihlerini önceden bildirmesi ve parseller arası mesafenin makul kalması gerekir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sektöre göre makaslı platform sınıf seçimi",
+                paragraflar: [
+                    "İldeki üç ana sektörde en sık karşılaştığımız hacim tipi, zemin durumu ve öne çıkan sınıf aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Zemin durumu", "Baskın iş kalemi", "Öne çıkan sınıf"],
+                    satirlar: [
+                        ["Seramik mamul deposu", "Düz, geniş beton", "Raf, çatı altı", "Standart makaslı, çift kişilik"],
+                        ["Termik santral türbin/kazan dairesi", "Düz sanayi betonu", "Aydınlatma, kablo tavası", "Elektrikli makaslı"],
+                        ["İşleme tesisi paketleme salonu", "Beton, mevsimsel toz", "Raf, havalandırma", "Standart makaslı"],
+                        ["OSB üretim holü", "Düz, geniş beton", "Çatı altı, tesisat", "Yüksek kapasiteli makaslı"],
+                        ["Dar koridorlu eski bölüm", "Düzensiz, dar", "Tek nokta işler", "Makaslı yerine manlift"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin taşıma kontrolü ve konumlandırma",
+                paragraflar: [
+                    "Makaslı platformun tam sepet yüküyle güvenli çalışabilmesi, altındaki zeminin taşıma kapasitesine bağlıdır. Yeni dökülmüş şap, henüz oturmamış dolgu veya kanal ızgarası üzeri gibi noktalarda makine indirmeden önce zemin gözle kontrol edilir; şüpheli noktalarda geniş tabanlı takoz kullanılır ya da konum sağlam bir alana kaydırılır.",
+                    "Termik santral ve enerji tesislerinde bu kontrol, tesisin kendi güvenlik prosedürüyle birlikte yürütülür; zemin durumu ne olursa olsun tesisin izin sistemi öncelik taşır ve çalışma bu çerçevenin dışına çıkmaz.",
+                ],
+            },
+            {
+                baslik: "Çift kişilik çalışma ve operatör sertifikası",
+                paragraflar: [
+                    "Makaslı platform operatörünün yeterlilik belgesi iş öncesinde teyit edilir; belge olmadan sepete çıkılmaz. İki kişilik çalışmalarda sepetteki her kişi kendi emniyet ekipmanını kullanır ve sepet kapasitesi aşılmaz — taşınan malzemenin ağırlığı da bu hesaba dahildir.",
+                    "Geniş salonlarda birden fazla ekip aynı anda farklı noktalarda çalışabildiğinden, makinenin hareket güzergâhı diğer üretim veya depo trafiğini kesmeyecek şekilde önceden belirlenir; ilgili personelle bu güzergâh üzerinde kısa bir bilgilendirme yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile manlift arasında hangi işlerde makaslıyı tercih etmeliyiz?",
+                cevap:
+                    "Zemin düz ve geniş, koridor genişse, iki kişinin birlikte çalışması gerekiyorsa veya taşınacak malzeme ağırsa makaslı platform genellikle daha verimlidir. Dar koridorlu, tek kişilik hızlı nokta işlerinde ise manlift daha uygun bir sınıftır. Karar için koridor genişliğini ve o gün yapılacak iş listesini bilmemiz yeterlidir.",
+            },
+            {
+                soru: "Termik santral gibi hassas bir tesiste makaslı platform çalıştırmak için özel bir izin süreci var mı?",
+                cevap:
+                    "Evet, enerji tesislerinde çalışma genellikle tesisin kendi güvenlik ve giriş prosedürüne tabidir; iş planlı bakım duruşuna veya belirlenmiş bir izin penceresine denk getirilir. Makine ve operatör bu prosedüre göre sahaya girer, tesisin kendi yetkilisi eşliğinde çalışılır. Bu süreç, keşif aşamasında tesisle birlikte netleştirilir.",
+            },
+            {
+                soru: "Seramik mamul deposundaki raflar arasında makine dönebilir mi?",
+                cevap:
+                    "Koridor genişliği ile makine şasi eninin ilişkisine bağlıdır; mümkünse koridor içinde dönebilen bir makine seçilir, bu geri manevrayla çıkmak zorunda kalmadan bir sonraki koridora geçmeyi sağlar. Koridor dar kalıyorsa dar gövdeli bir makaslı sınıf veya manlift değerlendirilir. Koridor ve raf ölçülerini paylaşırsanız en verimli sınıfı önceden belirleyebiliriz.",
+            },
+            {
+                soru: "İşleme tesisimizin zemini mevsimsel olarak tozlu ve organik kalıntılı, bu makineyi etkiler mi?",
+                cevap:
+                    "Toz ve organik kalıntı, makinenin tutunmasını ve tekerlek temizliğini etkileyebilir; bu yüzden iş öncesinde zeminin süpürülüp temizlenmesini isteriz. Yoğun tozlu ortamlarda makinenin filtre ve soğutma bakımı daha sık kontrol edilir. Sezon arası boş dönemde planlanan işlerde bu hazırlık genellikle kolaydır çünkü tesis o dönemde zaten temizlik yapar.",
+            },
+            {
+                soru: "Aynı OSB'deki iki işletme aynı gün makaslı platform kiralayabilir mi?",
+                cevap:
+                    "Evet, ve bu en ekonomik kiralama biçimidir. Parseller birbirine yeterince yakınsa makine kendi tekerleğiyle bir işletmeden diğerine geçer, ayrı bir nakliye çağrısına gerek kalmaz. Nakliye kalemi katılan işletmeler arasında bölünür; her işletme kendi teklifini ve kendi teslim tutanağını ayrı alır.",
+            },
+            {
+                soru: "İki kişi aynı sepette çalışırken malzeme ağırlığı kapasiteyi aşarsa ne olur?",
+                cevap:
+                    "Sepet kapasitesi operatör, yardımcı personel ve taşınan malzemenin toplam ağırlığını kapsar; bu sınır aşılmaz. Ağır malzeme taşınacaksa önceden bildirilir ve buna göre daha yüksek kapasiteli bir sınıf seçilir ya da malzeme birden fazla çıkışa bölünür. Kapasite aşımı makinenin dengesini ve operatör güvenliğini doğrudan etkiler, bu konuda esneme yapılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Seramik mamul deposu, termik santral türbin/kazan dairesi ve tarım-orman ürünleri işleme tesisi profilleri Kütahya'nın kamuya açık sanayi yapısına dayanır; makaslı platformun teknik özellikleri (dikey hat, geniş taban, çift kişilik kapasite) üretici genel bilgisidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Kütahya'da Manlift Kiralama: Dar Geçit ve Tek Nokta İşleri İçin",
+        giris:
+            "Manlift, geniş bir sepet yerine dar ve dikey bir gövde sunan, tek kişilik hızlı nokta işlerine göre tasarlanmış bir makinedir; bu özelliği onu Kütahya'nın dar geçitli ve tek nokta erişim gerektiren bölümlerinde makaslı platforma göre öne çıkarır. Seramik fabrikalarının fırın hattı yan koridorları ve boru-kablo galerileri, Simav-Gediz hattındaki jeotermal tesislerin yalıtımlı boru hatları çevresindeki dar bakım geçitleri, tarım bölgesindeki silo ve bunker yapılarının dar merdiven boşlukları — bu üç ortam da ortak bir kısıt paylaşır: koridor veya geçit, standart bir platformun gövdesinden dardır. Kapalı ve çoğu zaman tozlu ya da buharlı bir hacimde çalıştığı için akülü ve egzozsuz olması ayrıca önemlidir; yanıcı toz veya buhar barındıran bir ortamda ek gaz çıkışı üreten bir motor istenmez. Bu sayfa, manliftin ildeki üç ana sektörde dar geçit ve tek nokta işlerinde nasıl kullanıldığını, kapalı hacim güvenliğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Fırın hattı yan koridoru ve boru-kablo galerilerinde kompakt gövde",
+                metin:
+                    "Seramik fabrikalarının fırın hattı çevresi, boru ve kablo tesisatının sık yerleştirildiği dar yan koridorlarla çevrilidir; bu koridorlarda standart bir makaslı gövde çoğu zaman sığmaz. Manliftin dar ve dikey gövdesi bu tip geçitlerden rahatça geçebilir, tek bir sensör veya kablo tavası noktasına hızlıca ulaşabilir. Koridor gerçekten çok dar kaldığı noktalarda ise iş, hattın duruş penceresine denk getirilir.",
+            },
+            {
+                baslik: "Akülü tahrik ve kapalı hacimde egzozsuz çalışma",
+                metin:
+                    "Seramik hammadde hazırlama bölümlerinin tozlu havası ile jeotermal tesislerin buharlı ortamı, içten yanmalı bir makinenin hem havalandırma yükünü artırdığı hem ek risk taşıdığı ortamlardır. Bu yüzden kapalı hacim işlerinin tamamında akülü ve egzozsuz manlift sınıfları tercih edilir. Şarj işlemi bu hacimlerin dışında, kuru ve tozdan uzak bir teknik noktada yapılır.",
+            },
+            {
+                baslik: "Jeotermal boru hattı çevresinde dar bakım geçidi erişimi",
+                metin:
+                    "Jeotermal tesislerdeki yalıtımlı boru hatlarının etrafındaki bakım geçitleri genellikle bir kişinin rahatça geçebileceği genişliktedir; vana kontrolü, yalıtım kontrolü veya sensör değişimi gibi tek noktalık işler bu dar geçitlerde manliftle yapılır. Sıcak yüzeye güvenli yaklaşma mesafesi işe başlamadan belirlenir ve operatör bu mesafeyi aşmaz.",
+            },
+            {
+                baslik: "Silo ve bunker dar merdiven boşluklarında manevra",
+                metin:
+                    "Tarım bölgesindeki silo ve bunker yapılarının bakım merdiveni çevresi, gövdenin sığabileceği dar bir boşluk bırakır; tepe kapağı bakımı veya dış yüzey kontrolü gibi işlerde manlift bu boşluktan geçerek hedefe ulaşır. Gövde çevresindeki zemin dolgu olabileceğinden, makinenin konumlanacağı nokta önceden değerlendirilir.",
+            },
+            {
+                baslik: "Tek operatörle hızlı nokta işleri ve tur planlaması",
+                metin:
+                    "Aydınlatma armatürü değişimi, sensör veya kamera montajı, küçük tesisat tamiri gibi tek noktalık kalemler manliftle tek operatör tarafından hızlıca tamamlanabilir. Aynı tesiste birden fazla küçük iş biriktiğinde bunları tek çıkışta sıraya koyup tur hâlinde bitirmek, her iş için ayrı makine çağırmaktan daha verimlidir; iş listesinin önceden bildirilmesi sırayı netleştirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ortama göre manlift sınıfı",
+                paragraflar: [
+                    "İldeki üç ana sektörde en sık karşılaştığımız dar geçit tipi, ortam koşulu ve öne çıkan sınıf aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam tipi", "Ortam koşulu", "Baskın iş kalemi", "Öne çıkan sınıf"],
+                    satirlar: [
+                        ["Fırın hattı yan koridoru", "Dar, sıcak, tozlu", "Kablo tavası, sensör", "Dar şaseli akülü"],
+                        ["Jeotermal bakım geçidi", "Dar, buharlı, sıcak", "Vana, yalıtım kontrolü", "En dar şaseli akülü"],
+                        ["Silo/bunker merdiveni", "Dar, dolgu zemin çevresi", "Tepe kapağı, yüzey kontrolü", "Kompakt akülü"],
+                        ["Hammadde hazırlama galerisi", "Dar, tozlu", "Bant, elevatör kontrolü", "Dar şaseli akülü"],
+                        ["Geniş salon", "Düz, geniş", "Raf, çatı altı", "Manlift yerine makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapalı ve buharlı hacimde egzozsuz çalışmanın önemi",
+                paragraflar: [
+                    "Tozlu veya buharlı kapalı bir hacimde içten yanmalı bir makine çalıştırmak, hem operatör hem çevredeki personel için solunum ve yanıcı gaz riski oluşturur; bu yüzden bu tip ortamların tamamında akülü ve egzozsuz sınıflar tercih edilir.",
+                    "Şarj sırasında ortaya çıkan ısı ve olası kıvılcım riski nedeniyle şarj işlemi tozlu veya buharlı hacmin dışında, ayrı bir teknik noktada yapılır; bu kural, kıvılcım çıkaran hiçbir işlemin riskli ortamda yapılmaması mantığıyla aynıdır.",
+                ],
+            },
+            {
+                baslik: "Dar geçit ölçüsünün önceden paylaşılması",
+                paragraflar: [
+                    "Fırın hattı yan koridoru, jeotermal bakım geçidi veya silo merdiveni gibi dar alanlara teklif verirken geçidin en dar noktasının genişliğini ve varsa yükseklik kısıtını önceden isteriz. Bu ölçü netleştiğinde makine sınıfı kendiliğinden daralır ve teklif sahada değişmez.",
+                    "Ölçü eksik geldiğinde iki risk doğar: ya makine geçitten geçemez ve boşa dönülür, ya da güvenli tarafta kalmak için gereğinden dar ve yetersiz bir sınıf gönderilir. Birkaç fotoğraf ve bir basit ölçü bu belirsizliği ortadan kaldırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasında tesisimiz için hangisi uygun?",
+                cevap:
+                    "Geçit dar ve iş tek noktalık hızlı bir kalemse manlift daha uygun bir sınıftır. Zemin geniş ve düzse, iki kişi birlikte çalışacaksa veya ağır malzeme taşınacaksa makaslı platform daha verimli olur. Karar için geçit genişliğini ve o gün yapılacak iş listesini bilmemiz yeterlidir.",
+            },
+            {
+                soru: "Jeotermal tesisimizde buharlı ortamda akülü manlift güvenli mi?",
+                cevap:
+                    "Akülü ve egzozsuz sınıflar, içten yanmalı makinelere göre buharlı ve nemli ortamlarda daha güvenli bir seçimdir çünkü ek yanıcı gaz çıkışı üretmezler. Sıcak yüzeylere güvenli yaklaşma mesafesi işe başlamadan belirlenir ve operatör bu mesafeyi aşmaz. Şarj işlemi buharlı hacmin dışında, kuru bir teknik noktada yapılır.",
+            },
+            {
+                soru: "Fırın hattı yan koridorundan manlift geçebilir mi?",
+                cevap:
+                    "Çoğu koridorda geçebilir ama önce genişliği bilmemiz gerekir. Dar şaseli akülü sınıf standart yan koridoru genellikle kabul eder; daha dar noktalarda en dar şaseli model değerlendirilir. Bunu telefonda tahmin etmek yerine birkaç fotoğrafla netleştirmeyi tercih ederiz.",
+            },
+            {
+                soru: "Silo merdiveni çevresindeki dolgu zeminde manlift çalışabilir mi?",
+                cevap:
+                    "Genellikle çalışabilir, ancak zemin durumuna göre konumlandırma değişir. Dolgu zemin yumuşaksa makinenin duracağı nokta sağlam bir alana kaydırılır ya da yük dağıtıcı bir altlık kullanılır. Zemin fotoğrafı paylaşıldığında sevkiyattan önce gerçekçi bir değerlendirme yapabiliriz.",
+            },
+            {
+                soru: "Tesisimizde birkaç küçük iş birikti, hepsini tek seferde bitirebilir misiniz?",
+                cevap:
+                    "Evet, bu tam olarak manliftin verimli olduğu senaryodur. Aydınlatma değişimi, sensör montajı, küçük tesisat tamiri gibi tek noktalık kalemleri tek çıkışta sıraya koyup tur hâlinde tamamlarız. İş listesini önceden bildirmeniz sırayı netleştirir ve toplam süreyi kısaltır.",
+            },
+            {
+                soru: "Akülü manlift bir vardiya boyunca kesintisiz çalışabilir mi?",
+                cevap:
+                    "Akü kapasitesine ve kullanım yoğunluğuna bağlı olarak değişir; standart bir vardiya (8 saat) çoğu akülü modelde tek şarjla karşılanır, ancak sürekli hareketli kullanım bu süreyi kısaltabilir. Uzun süreli işlerde şarj noktasının sahaya yakın olmasını öneririz; bu detayı keşifte netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Fırın hattı yan koridoru, jeotermal boru hattı bakım geçidi ve silo/bunker merdiven boşluğu profilleri Kütahya'nın kamuya açık sanayi yapısına dayanır; manliftin teknik özellikleri (dar gövde, akülü tahrik, tek kişilik erişim) üretici genel bilgisidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
 };

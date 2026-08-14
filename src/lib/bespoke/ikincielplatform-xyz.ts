@@ -1293,4 +1293,200 @@ export const IKINCIELPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Toplam sahip olma maliyeti kavramı ve zor zemin/arazi koşullarının ekipman aşınmasına etkisi genel bilinen mekanik/finansal bilgidir. Marka, tesis adı ve rakam uydurulmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Forklift Filonuza Ek Olarak İkinci El Makaslı Platform mu, Kiralık mı?",
+        giris:
+            "Forklift, zemin seviyesinde malzeme taşımada güçlü bir çözüm olsa da, üst raf düzenlemesi, tavan tesisatı veya iç mekân montaj işleri gibi yükseğe erişim gerektiren görevlerde yetersiz kalır; bu noktada işletmeler genellikle makaslı platform ihtiyacıyla karşılaşır. Zaten bir forklift kiralama ilişkiniz varsa, karşınıza iki seçenek çıkar: ihtiyacı karşılamak için ayrıca ikinci el bir makaslı platform satın almak, ya da mevcut tedarikçi ilişkinizi genişleterek platformu da kiralamak. Burada dikkat edilmesi gereken kritik nokta, makaslı platformun aşınma dinamiklerinin forkliftten tamamen farklı olmasıdır; forklift konusunda edinilmiş tecrübe (mast, akü, lastik değerlendirmesi) makaslı platformun kendine özgü risklerini — makas mekanizmasının pim ve kolon aşınmasını, hidrolik pompanın geçmiş yük profilini, şasenin nem ve dış ortam koşullarına karşı yorgunluğunu — değerlendirmede doğrudan işe yaramaz. İkinci el bir makaslı platform, forklift filonuza görünüşte uyumlu bir ek gibi dursa da, bu farklı mekanik risk profili ayrı bir değerlendirme gerektirir. Bu sayfada, forklift filosuna ek olarak makaslı platform ihtiyacı doğduğunda ikinci el satın almanın taşıdığı riskleri ve kiralamanın bu belirsizliği nasıl ortadan kaldırdığını ele alıyoruz.",
+        maddeler: [
+            {
+                baslik: "Makas pimi ve kolon aşınması: forkliftte karşılığı olmayan bir risk",
+                metin:
+                    "Makaslı platformun kaldırma gücü, üst üste bağlı makas kollarının pimler etrafında dönmesiyle sağlanır; bu pimler ve kolonlardaki bağlantı noktaları, platform her açılıp kapandığında yük altında sürtünmeye maruz kalır. Forkliftte bu tip bir mekanizma bulunmadığı için, forklift değerlendirmesinde deneyimli bir alıcı bile makas piminin oynaklığını veya kolon deliğinin oval biçime gelip gelmediğini fark etmeyebilir. İkinci el bir makaslı platformda bu aşınma dışarıdan platform kapalıyken görülmez; yalnızca platform tam açıldığında ve yük altındayken belirginleşir.",
+            },
+            {
+                baslik: "Hidrolik pompa geçmişi: yük profili bilinmeden alınan risk",
+                metin:
+                    "Makaslı platformun kaldırma hızı ve stabilitesi doğrudan hidrolik pompanın durumuna bağlıdır; pompa, platform her kullanıldığında farklı yük ve yükseklik kombinasyonlarında çalışır ve bu değişken yük profili zamanla iç aşınmayı hızlandırır. İkinci el bir platformda pompanın önceki iş yerlerinde hangi sıklıkla ve hangi yük altında çalıştığı neredeyse hiç belgelenmez. Forklift alımında öğrenilmiş 'hidrolik yağ seviyesine bak' kuralı burada yetersiz kalır, çünkü platformun pompası daha karmaşık bir kaldırma-indirme döngüsüyle çalışır ve tek bir görsel kontrolle iç durumu anlaşılamaz.",
+            },
+            {
+                baslik: "Akü sağlığı: elektrikli makaslı platforma özgü kapasite kaybı",
+                metin:
+                    "İç mekân işlerinde tercih edilen elektrikli makaslı platformlarda akü grubu, forkliftteki akünün aksine hem kaldırma motorunu hem de tekerlek tahrikini besler; bu çifte yük, kapasite kaybını farklı bir hızda ilerletir. İkinci el bir platformda akünün kaç şarj döngüsü gördüğü bilinmeden alınması, platform sahaya girdikten sonra tam gün çalışamama riskini beraberinde getirir. Forklift filonuzdaki akü değerlendirme tecrübeniz burada bir başlangıç noktası olabilir ama platformun çifte yük profülü nedeniyle doğrudan aktarılamaz.",
+            },
+            {
+                baslik: "Şase paslanma ve yorgunluk: dış mekân ve nem koşullarının izi",
+                metin:
+                    "Makaslı platformlar, forklifte göre daha sık dış cephe, açık şantiye veya nemli ortamlarda kullanılabilir; bu koşullarda şase üzerinde zamanla paslanma başlar ve kaynak bölgelerinde metal yorgunluğu birikir. İkinci el bir platformun önceki kullanım ortamı (kapalı depo mu, açık şantiye mi) bilinmeden şasenin gerçek durumu anlaşılamaz; dışarıdan boyalı ve düzgün görünen bir şase, altında ilerlemiş korozyon barındırabilir. Bu risk forkliftin genellikle daha kontrollü iç mekân kullanımına kıyasla makaslı platformda daha belirgindir.",
+            },
+            {
+                baslik: "Tek tedarikçiden forklift ve makaslı platform: bakım ve sorumluluk sadeliği",
+                metin:
+                    "Forklift için zaten bir kiralama ilişkiniz varsa, makaslı platform ihtiyacını da aynı tedarikçiden karşılamak, iki farklı ekipman için iki ayrı bakım takibi ve iki ayrı sorumluluk hattı yönetme yükünü ortadan kaldırır. İkinci el bir platform satın alındığında, forklift kiralama sözleşmenizdeki garanti ve bakım güvencesi platform için geçerli olmaz; platformun bakımı, arıza takibi ve olası onarımı tamamen işletmenizin sorumluluğuna geçer. Kiralamada ise her iki ekipmanın bakım takvimi ve arıza sorumluluğu filo sahibinde kalır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift Filosuna Ek Makaslı Platform — Risk ve Kiralama Karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, makaslı platforma özgü aşınma kalemlerini ve bu risklerin ikinci el alım ile kiralama arasında nasıl yer değiştirdiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bileşen", "İkinci El Alımdaki Risk", "Kiralamadaki Durum"],
+                    satirlar: [
+                        ["Makas pimi/kolon", "Oval delik/oynaklık kapalıyken görülmez", "Periyodik açılı kontrol filo sahibince yapılır"],
+                        ["Hidrolik pompa", "Geçmiş yük profili belgesiz", "Bakım kaydı ve düzenli test filo sahibinde"],
+                        ["Akü grubu", "Şarj döngüsü sayısı bilinmez", "Kapasite garantili teslim"],
+                        ["Şase", "Önceki dış mekân/nem geçmişi bilinmez", "Kullanım ortamına göre model seçilir"],
+                        ["Bakım/sorumluluk", "Forklift sözleşmesinden ayrı, tekli yük", "Forklift ile aynı tedarikçide birleşik takip"],
+                    ],
+                },
+            },
+            {
+                baslik: "İkinci el makaslı platform alırken yapılması gereken teknik kontroller",
+                paragraflar: [
+                    "İkinci el bir makaslı platform değerlendirilirken, platform mutlaka tam açık pozisyonda ve tercihen nominal yük altında test edilmelidir; kapalı hâlde yapılan bir inceleme makas pimi oynaklığını, kolon deliğindeki ovalleşmeyi veya hidrolik pompanın yük altındaki tepkisini göstermez. Akü kapasitesi tam şarjda ve yük altında ölçülmeli, şase üzerinde özellikle kaynak bölgeleri ve alt gövde paslanma açısından incelenmelidir. Periyodik muayene/kontrol belgesinin güncelliği de mutlaka sorgulanmalıdır; belgesi güncel olmayan bir platform, teknik durumu ne olursa olsun ek bir belgelendirme maliyeti ve süreç riski taşır.",
+                    "Bu kontrollerin tamamı bağımsız bir teknik uzman gerektirir ve satıcının kendi beyanına dayanarak karar vermek, yukarıda sayılan risklerin tamamını alıcıya devretmek anlamına gelir. Forklift alımında edinilmiş genel ekipman değerlendirme tecrübesi burada bir başlangıç noktası olsa da, makas mekanizmasına özgü kontrolleri kapsamaz.",
+                ],
+            },
+            {
+                baslik: "Forklift ve makaslı platform ihtiyacını birlikte planlamak",
+                paragraflar: [
+                    "Forklift filonuza ek olarak makaslı platform ihtiyacı düzenli tekrarlıyorsa (örneğin belirli aralıklarla raf düzenlemesi veya tavan bakımı gerekiyorsa), bu ihtiyacı mevcut tedarikçi ilişkinizle birlikte planlamak, hem teslimat takvimini hem de saha koordinasyonunu basitleştirir. İhtiyaç tek seferlikse veya yılda birkaç kez ortaya çıkıyorsa, ikinci el bir platforma sabit yatırım yapmak, kullanılmadığı dönemlerde atıl kalan bir maliyet kalemi oluşturur; kiralama bu durumda ihtiyaç anına göre esneklik sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift filom var, makaslı platform ihtiyacım tek seferlik. İkinci el almalı mıyım?",
+                cevap:
+                    "Tek seferlik veya seyrek tekrarlayan bir ihtiyaç için ikinci el platform satın almak, kullanılmadığı dönemlerde bakım ve sigorta maliyeti üreten atıl bir yatırım anlamına gelir. Bu tür durumlarda, mevcut forklift tedarikçinizden platform kiralamak hem sabit maliyeti ortadan kaldırır hem de ihtiyacın büyüklüğüne göre esneklik sağlar.",
+            },
+            {
+                soru: "Forklift değerlendirme tecrübem makaslı platform almamda işime yarar mı?",
+                cevap:
+                    "Kısmen. Genel ekipman gözlemi (paslanma, sızıntı izi, çalışır durumu) benzer bir yaklaşım gerektirse de, makas piminin oynaklığı, kolon deliğinin ovalleşmesi ve hidrolik pompanın değişken yük altındaki tepkisi forklifte özgü olmayan, platforma özel kontrol noktalarıdır. Bu kontroller için ayrı bir teknik inceleme gerekir.",
+            },
+            {
+                soru: "İkinci el makaslı platformda makas piminin durumunu nasıl anlarım?",
+                cevap:
+                    "Platform tam açık pozisyondayken makas kollarının bağlantı noktalarında yanal oynaklık olup olmadığı gözle ve elle kontrol edilebilir; ancak kolon deliğindeki mikro ovalleşme çıplak gözle her zaman görülmez. Güvenilir bir değerlendirme için platform yük altında test edilmeli ve mümkünse bağımsız bir teknisyen görüşü alınmalıdır.",
+            },
+            {
+                soru: "Elektrikli makaslı platformda akü neden forklift aküsünden farklı değerlendirilir?",
+                cevap:
+                    "Makaslı platformdaki akü hem kaldırma motorunu hem tekerlek tahrikini beslediği için çifte yük altında çalışır ve kapasite kaybı bu nedenle farklı bir hızda ilerler. Forklift aküsü değerlendirme deneyiminiz bir başlangıç noktası olabilir, ama platformun akü profilini tam olarak yansıtmaz; kapasite testi ayrıca yapılmalıdır.",
+            },
+            {
+                soru: "Kiralık makaslı platformda periyodik muayene sorumluluğu kimde?",
+                cevap:
+                    "Periyodik muayene ve kontrol belgesinin güncel tutulması filo sahibinin sorumluluğundadır; kiracı platformu her zaman geçerli belgeyle teslim alır. İkinci el bir platform satın alındığında ise bu takip ve belgelendirme süreci tamamen işletmenin üzerine kalır.",
+            },
+            {
+                soru: "Forklift ve makaslı platformu aynı tedarikçiden kiralamanın somut avantajı ne?",
+                cevap:
+                    "İki ekipman için ayrı bakım takvimi, ayrı fatura ve ayrı sorumluluk hattı yönetmek yerine tek noktadan koordinasyon sağlanır; teslimat ve saha planlaması basitleşir, ve her iki ekipmanın arıza/bakım sorumluluğu aynı filo sahibinde toplanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform mekanik bileşenleri (makas pimi/kolon, hidrolik pompa, akü, şase) ve periyodik muayene uygulaması sektör geneli bilinen teknik bilgidir. Marka, tesis adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Forklift Filonuza Ek Manlift İhtiyacında İkinci El mi Kiralama mı?",
+        giris:
+            "Forklift zemin seviyesinde malzeme taşımada etkili olsa da, dış cephe bakımı, çatı işleri, aydınlatma direği veya yüksekte açılı erişim gerektiren görevlerde yetersiz kalır; bu tür işler eklemli veya teleskopik bomu olan bir manlift gerektirir. Mevcut forklift kiralama ilişkinizin bu ihtiyacı da karşılayıp karşılayamayacağı, yoksa ayrıca ikinci el bir manlift satın almanın mı daha mantıklı olduğu sorusu, iki ekipmanın tamamen farklı mekanik risk profiline sahip olması nedeniyle dikkatli değerlendirilmelidir. Manliftin bomu, forkliftin mastından farklı olarak açılı ve teleskopik hareket ederken tekrarlanan yük döngülerine maruz kalır; bu döngüler zamanla bom üzerinde yorgunluk çatlağı biriktirebilir. Ayrıca manliftin hidrolik silindirleri, periyodik muayene/sertifika geçmişi ve özellikle düz olmayan zeminlerde çalışmayı mümkün kılan seviyeleme sistemi, forklift değerlendirmesinde karşılaşılmayan tamamen ayrı kontrol noktalarıdır. Bu sayfada, forklift filonuza ek olarak manlift ihtiyacı doğduğunda ikinci el satın almanın taşıdığı riskleri ve kiralamanın bu belirsizliği nasıl ortadan kaldırdığını ele alıyoruz.",
+        maddeler: [
+            {
+                baslik: "Bom yorgunluk çatlağı: forkliftte karşılığı olmayan bir aşınma türü",
+                metin:
+                    "Manliftin bomu, her kullanımda açılıp kapanarak ve farklı açılarda yük taşıyarak tekrarlanan gerilim döngülerine maruz kalır; bu tekrarlı yük, zamanla bomun kaynak bölgelerinde ve eklem noktalarında mikro çatlaklar biriktirebilir. Forkliftin mastı bu şekilde açılı hareket etmediği için, forklift değerlendirmesinde edinilmiş tecrübe bomun yorgunluk durumunu okumakta işe yaramaz. İkinci el bir manliftte bu çatlaklar dışarıdan boya altında gizlenmiş olabilir ve yalnızca detaylı yüzey muayenesiyle (kaynak bölgelerinin yakından incelenmesi) tespit edilebilir.",
+            },
+            {
+                baslik: "Hidrolik silindir sızıntısı: bom açısını ve stabiliteyi belirleyen risk",
+                metin:
+                    "Manliftin bom açısını ve sepetin stabilitesini hidrolik silindirler kontrol eder; bu silindirlerdeki conta aşınması zamanla mikro sızıntılara yol açar ve sızıntı ilerledikçe bomun yük altında istenmeyen biçimde alçalması riski artar. İkinci el bir manliftte silindir contalarının değişim geçmişi neredeyse hiç belgelenmez; sızıntı başlangıç aşamasında yalnızca silindir gövdesinde ince bir yağ izi olarak görülür ve dikkatli incelenmezse gözden kaçar.",
+            },
+            {
+                baslik: "Periyodik muayene ve sertifika şüphesi: yüksekte çalışma ekipmanına özgü belge riski",
+                metin:
+                    "Manlift, yüksekte çalışma ekipmanı olarak düzenli periyodik muayeneye tabidir ve bu muayenenin güncelliği hem yasal hem operasyonel açıdan kritiktir. İkinci el bir manliftte sunulan muayene belgesinin gerçekten o araca ait olup olmadığı, güncel tarihli olup olmadığı ve muayeneyi yapan kuruluşun yetkinliği her zaman kolayca doğrulanamaz. Forklift alımında bu tip bir sertifika sorgulaması genellikle bu denli merkezi değildir; manliftte ise belge şüphesi, aracı sahaya sokamama riskiyle doğrudan bağlantılıdır.",
+            },
+            {
+                baslik: "Seviyeleme sistemi: düz olmayan zeminde güvenliği sağlayan mekanizma",
+                metin:
+                    "Birçok manlift modeli, düz olmayan veya hafif eğimli zeminlerde platformu otomatik olarak yatay tutan bir seviyeleme sistemiyle donatılmıştır; bu sistem, sensörler ve hidrolik ayak mekanizmalarının uyumlu çalışmasına dayanır. İkinci el bir manliftte seviyeleme sisteminin sensör kalibrasyonu veya ayak hidroliğinin durumu test edilmeden alınması, sahada düzensiz zeminle karşılaşıldığında sistemin güvenilir çalışmama riskini beraberinde getirir. Bu, forklift değerlendirmesinde hiç karşılaşılmayan bir kontrol kalemidir.",
+            },
+            {
+                baslik: "Forklift ve manlift işlerini aynı tedarikçiyle koordine etmek",
+                metin:
+                    "Forklift için zaten bir kiralama ilişkiniz varsa, manlift ihtiyacını da aynı tedarikçiden karşılamak, iki farklı ekipmanın muayene takibini, bakım takvimini ve teslimat planlamasını tek noktadan yönetme imkânı sağlar. İkinci el bir manlift satın alındığında, periyodik muayene takibi, bom ve silindir bakımı, seviyeleme sisteminin kalibrasyonu tamamen işletmenin sorumluluğuna geçer; kiralamada ise bu kalemlerin tamamı filo sahibinde kalır ve sözleşme kapsamında güvence altına alınır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Forklift Filosuna Ek Manlift — Risk ve Kiralama Karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, manlifte özgü risk kalemlerini ve bu risklerin ikinci el alım ile kiralama arasında nasıl yer değiştirdiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Bileşen/Konu", "İkinci El Alımdaki Risk", "Kiralamadaki Durum"],
+                    satirlar: [
+                        ["Bom yapısı", "Yorgunluk çatlağı boya altında gizli olabilir", "Periyodik yüzey muayenesi filo sahibince yapılır"],
+                        ["Hidrolik silindir", "Conta sızıntı geçmişi belgesiz", "Düzenli conta/sızıntı kontrolü yapılır"],
+                        ["Muayene/sertifika", "Belgenin güncelliği/gerçekliği doğrulanamayabilir", "Güncel ve doğrulanmış belgeyle teslim"],
+                        ["Seviyeleme sistemi", "Sensör/hidrolik ayak kalibrasyonu test edilmemiş", "Kalibrasyon filo sahibinin bakım programında"],
+                        ["Takip/sorumluluk", "Forklift sözleşmesinden ayrı, tekli yük", "Forklift ile aynı tedarikçide birleşik takip"],
+                    ],
+                },
+            },
+            {
+                baslik: "İkinci el manlift alırken yapılması gereken teknik kontroller",
+                paragraflar: [
+                    "İkinci el bir manlift değerlendirilirken bom, mutlaka tam açık pozisyonda ve farklı açılarda incelenmeli, kaynak bölgelerinde çatlak izine dikkat edilmelidir; kapalı taşıma pozisyonunda yapılan yüzeysel bir bakış bu tip hasarları göstermez. Hidrolik silindirlerde yağ izi veya nem birikimi kontrol edilmeli, seviyeleme sistemi düz olmayan bir zeminde test edilerek platformun otomatik olarak yatay konuma gelip gelmediği doğrulanmalıdır. Periyodik muayene belgesinin aracın seri numarasıyla eşleştiği ve muayeneyi yapan kuruluşun yetkili olduğu ayrıca teyit edilmelidir.",
+                    "Bu kontrollerin bir kısmı sahada gözle yapılabilse de, bom yorgunluğu ve silindir iç durumu gibi kalemler için bağımsız bir teknik muayene gerekir. Satıcının sözlü beyanına dayanarak karar vermek, yukarıda sayılan risklerin tamamını alıcıya devretmek anlamına gelir.",
+                ],
+            },
+            {
+                baslik: "Forklift ve manlift ihtiyacını birlikte planlamak",
+                paragraflar: [
+                    "Forklift filonuza ek olarak manlift ihtiyacı düzenli aralıklarla (örneğin dönemsel çatı veya cephe bakımı için) tekrarlıyorsa, bu ihtiyacı mevcut tedarikçi ilişkinizle birlikte planlamak teslimat ve saha koordinasyonunu basitleştirir. İhtiyaç tek seferlik veya seyrekse, ikinci el bir manlifte sabit yatırım yapmak; periyodik muayene, bakım ve sigorta gibi kullanılmadığı dönemlerde de devam eden maliyet kalemleri üretir. Kiralama bu durumda ihtiyaç anına göre esneklik sağlar ve muayene/sertifika takibi yükünü işletmenin üzerinden alır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Forklift filom var, dönemsel çatı bakımı için manlifte mi yatırım yapmalıyım?",
+                cevap:
+                    "İhtiyaç yılda birkaç kez tekrarlanan dönemsel bir işse, ikinci el manlifte sabit yatırım yapmak, kullanılmadığı dönemlerde de devam eden periyodik muayene ve bakım maliyeti üretir. Bu tür dönemsel ihtiyaçlarda, mevcut forklift tedarikçinizden manlift kiralamak hem sabit maliyeti ortadan kaldırır hem de ihtiyaç anına göre esneklik sağlar.",
+            },
+            {
+                soru: "Bom yorgunluk çatlağını satın almadan önce nasıl anlarım?",
+                cevap:
+                    "Bom tam açık pozisyondayken ve farklı açılarda kaynak bölgeleri yakından incelenmelidir; boya altında gizlenmiş mikro çatlaklar çıplak gözle her zaman görülmez. Güvenilir bir değerlendirme için bağımsız bir teknik muayene önerilir, özellikle aracın yaşı ve önceki kullanım yoğunluğu bilinmiyorsa.",
+            },
+            {
+                soru: "Hidrolik silindir sızıntısı sepetin güvenliğini nasıl etkiler?",
+                cevap:
+                    "Silindir contalarındaki aşınma ilerledikçe bom, yük altında istenmeyen biçimde alçalabilir; bu durum yükseklikte çalışan operatör için doğrudan güvenlik riski oluşturur. Sızıntı başlangıç aşamasında ince bir yağ izi olarak görülür ve dikkatli incelenmezse ikinci el alımda gözden kaçabilir.",
+            },
+            {
+                soru: "İkinci el manliftteki muayene belgesinin gerçekten o araca ait olduğundan nasıl emin olurum?",
+                cevap:
+                    "Belgedeki seri numarasının aracın şasisindeki seri numarasıyla birebir eşleştiği kontrol edilmeli ve muayeneyi yapan kuruluşun yetkinliği ayrıca teyit edilmelidir. Bu doğrulama yapılmadan alınan bir araç, sahaya girişte belge sorunuyla karşılaşma riski taşır; kiralamada bu doğrulama filo sahibi tarafından zaten yapılmıştır.",
+            },
+            {
+                soru: "Seviyeleme sistemi neden düz olmayan zeminlerde bu kadar önemli?",
+                cevap:
+                    "Seviyeleme sistemi, platformu eğimli veya düzensiz zeminde otomatik olarak yatay konumda tutarak operatör güvenliğini sağlar. İkinci el bir manliftte bu sistemin sensör kalibrasyonu test edilmeden alınması, sahada düzensiz zeminle karşılaşıldığında sistemin güvenilir çalışmama riskini artırır; bu risk, kiralamada filo sahibinin bakım programı kapsamında düzenli kontrol edilir.",
+            },
+            {
+                soru: "Forklift ve manlifti aynı tedarikçiden kiralamanın somut avantajı ne?",
+                cevap:
+                    "İki ekipman için ayrı muayene takibi, ayrı bakım takvimi ve ayrı sorumluluk hattı yönetmek yerine tek noktadan koordinasyon sağlanır; teslimat planlaması basitleşir ve her iki ekipmanın periyodik muayene/bakım sorumluluğu aynı filo sahibinde toplanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift mekanik bileşenleri (bom, hidrolik silindir, seviyeleme sistemi) ve periyodik muayene uygulaması sektör geneli bilinen teknik bilgidir. Marka, tesis adı ve rakam uydurulmamıştır.",
+    },
 };

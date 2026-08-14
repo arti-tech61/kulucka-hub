@@ -1783,4 +1783,196 @@ export const KUTAHYAPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. İnşaat şantiyelerinin hafriyat ve temel aşamasında henüz sıkıştırılmamış, düzensiz ve mevsime göre çamurlaşan bir zemine sahip olduğu, inşaat sektöründe genel bilinen bir pratiktir; belirli bir şantiye veya arsa adı kullanılmamıştır. Zemin teyidi ve hafriyat ekibiyle koordinasyon firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Kütahya'da Küçük Atölye Bütçesine Uygun Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, dikey yükselen ve sepeti düz zeminde taşıyan yapısı sayesinde küçük bir atölyenin iç mekân işleri için genellikle en ucuza gelen sınıftır — ama bu 'ucuzluk' ancak doğru süre ve doğru paket seçildiğinde gerçekleşir. Kütahya merkez ve çevresindeki küçük-orta ölçekli işletmelerin çoğu, makaslı platform kiralarken aslında büyük bir fabrikanın kullandığı aynı tarife tablosuyla karşılaşır; oysa bir atölyenin ihtiyacı çoğu zaman bir günü, hatta birkaç saati geçmez. Bu sayfa, makaslı platformu spesifik olarak KOBİ bütçesi çerçevesinde ele alır: hangi durumda günlük tarife mantıklı, hangi durumda saatlik veya yarım günlük paket daha ucuza gelir, hangi durumda komşu atölyeyle makineyi paylaşmak toplam maliyeti aşağı çeker. Amaç, işletme sahibinin 'bu iş için platform tutmaya değer mi' sorusunu somut bir maliyet mantığıyla cevaplamaktır — büyük tesislerin ihtiyaç duyduğu geniş sepetli veya yüksek kapasiteli modeller değil, küçük atölyenin dar koridorlarına ve düşük tavanlı deposuna uygun kompakt sınıflar bu sayfanın odağındadır.",
+        maddeler: [
+            {
+                baslik: "Kompakt sınıfın küçük atölyeye uygunluğu",
+                metin:
+                    "Küçük bir imalathane veya perakende deposunun koridor genişliği genellikle bir metrenin biraz üzerindedir; büyük tesislerde kullanılan geniş şaseli makaslı platformlar bu koridorlara sığmaz. Dar şaseli kompakt makaslı platform sınıfı hem koridor genişliğine uyar hem de düşük tavan yüksekliği nedeniyle sepedin tam kapasiteye çıkması gerekmeyen işlerde (raf üstü toz alma, aydınlatma değişimi) yeterli olur. Bu sınıfın günlük kirası da geniş sınıfa göre daha düşüktür — küçük işletme için bu fark önemlidir.",
+            },
+            {
+                baslik: "Saatlik/yarım gün paketin mantığı",
+                metin:
+                    "Bir kırtasiyeci deposunun tavan lambası değişimi veya bir terzi atölyesinin raf üstü düzenlemesi gibi işler genellikle bir-iki saati geçmez; bu ölçekteki bir işe tam günlük tarife uygulamak işletme sahibini vazgeçirir. Saatlik veya yarım gün paketi, makine ve operatörün aynı gün içinde birden fazla küçük işe planlanabildiği durumlarda sunulur — tek başına gelen izole bir yarım günlük talep, günün geri kalanı boş kaldığı için yine de görece pahalı kalabilir; bu yüzden yakın tarihli başka bir talep varsa paket fiyatı daha avantajlı çıkar.",
+            },
+            {
+                baslik: "Komşu atölyeyle makine paylaşımı",
+                metin:
+                    "Aynı sanayi sitesinde yan yana duran iki-üç küçük atölye, makaslı platform ihtiyacını aynı güne denk getirip tek bir kiralama talebinde birleştiğinde, nakliye maliyeti tek seferde karşılanır ve makine bir atölyeden diğerine yürüyerek geçer. Her işletme yalnızca kendi kullandığı saat kadar öder. Bu modelin tek koşulu, atölyelerin ihtiyaç tarihini önceden koordine etmesidir; bu koordinasyonu genellikle sanayi sitesi yönetimiyle kurarız.",
+            },
+            {
+                baslik: "Zemin taşıma yükü ve küçük atölye binaları",
+                metin:
+                    "Eski yapı küçük atölye binalarının bazılarında zemin taşıma kapasitesi, yeni inşa büyük depolar kadar yüksek olmayabilir; akülü makaslı platformun ağırlığı bu tip zeminlerde bir risk oluşturabilir. İşletme sahibi bina yaşını ve zemin tipini bildirdiğinde, ağırlığı daha düşük kompakt sınıfı öneririz; bina statiği konusunda kesin bir garanti veremeyiz, şüpheli durumlarda işletmenin kendi teknik sorumlusuna danışmasını öneririz.",
+            },
+            {
+                baslik: "Operatörlü mü, işletme personeli mi kullansın",
+                metin:
+                    "Küçük bir atölyenin kendi personeli platformu kullanmak isteyebilir; bu, personelin temel eğitimi aldığı ve işin basit (düz zeminde dikey hareket) olduğu durumlarda mümkündür. Ancak işletme personelinin platform kullanım deneyimi yoksa veya iş karmaşık bir manevra gerektiriyorsa (dar koridorda hassas konumlandırma), operatörlü kiralama önerilir — küçük işletme bütçesinde operatörlü seçenek daha maliyetli görünse de, bir kaza veya hasar riskinin maliyeti bundan çok daha yüksektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Küçük atölye ölçeğinde makaslı platform paket karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, küçük işletmelerin sık karşılaştığı iş ölçeklerine göre önerilen paket ve yaklaşık maliyet mantığını özetler; kesin fiyat, iş tanımına ve tarihe göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["İş ölçeği", "Önerilen paket", "Sınıf", "Maliyet mantığı"],
+                    satirlar: [
+                        ["1-2 saatlik tekil iş", "Saatlik paket (yoğunlaştırılmış gün)", "Kompakt dar şase", "Aynı gün başka işle birleştirilirse ucuzlar"],
+                        ["Yarım günlük iş", "Yarım gün tarifesi", "Kompakt/standart", "Tek başına orta maliyetli"],
+                        ["Tam günlük iş", "Günlük tarife", "İhtiyaca göre", "Uzun süreli işte birim maliyet düşer"],
+                        ["Komşu atölyelerle ortak ihtiyaç", "Paylaşımlı kiralama", "Kompakt", "Nakliye maliyeti bölünür, en ucuz seçenek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Küçük işletmenin nakit akışı ve kiralama zamanlaması",
+                paragraflar: [
+                    "Büyük bir fabrika bakım bütçesini yıllık planlar ve harcamayı önceden ayırır; küçük bir atölye ise genellikle aylık nakit akışına göre karar verir ve beklenmedik bir kira gideri o ayın bütçesini zorlayabilir. Bu yüzden küçük işletme müşterilerimizle, mümkün olduğunda ihtiyacı önceden (birkaç hafta öncesinden) bildirmelerini ve ödemeyi işin tamamlandığı tarihe göre planlamalarını öneririz.",
+                    "Acil ve plansız talep de karşılanır, ama plansız taleplerde hem makine müsaitliği hem de paylaşımlı paket avantajından yararlanma ihtimali düşer — bu yüzden mümkün olan en erken bildirim, küçük işletmenin bütçesi açısından da avantajlıdır.",
+                ],
+            },
+            {
+                baslik: "Kompakt sınıfın sınırları",
+                paragraflar: [
+                    "Kompakt makaslı platform, dar koridor ve düşük tavan avantajı sunar ama yüksek kapasiteli veya geniş sepetli işler için (örneğin iki kişinin birlikte ağır malzeme taşıdığı bir montaj) yeterli olmayabilir. Böyle bir iş tarif edildiğinde, işletmeye kompakt sınıfın yetersiz kalacağını açıkça belirtir ve standart sınıfı öneririz; standart sınıfın günlük maliyeti daha yüksektir ama yanlış sınıfla işi iki kez tekrarlamaktan daha ucuza gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İki saatlik bir iş için platform tutmaya değer mi?",
+                cevap:
+                    "Tek başına iki saatlik bir iş için tam günlük tarife ödemek genellikle ekonomik değildir; bunun yerine saatlik veya yoğunlaştırılmış paket öneririz. Bu paketin en avantajlı hâli, aynı gün ve yakın bölgede başka bir kısa iş de varsa ortaya çıkar — makine ve operatör aynı gün içinde iki işe planlanır, nakliye maliyeti bölünür. Tek başına gelen izole bir iki saatlik talep de karşılanır ama fiyatı, birleştirilmiş bir talebe göre daha yüksek olabilir.",
+            },
+            {
+                soru: "Komşu atölyeyle aynı makineyi paylaşmak güvenli mi, sorumluluk kime ait?",
+                cevap:
+                    "Paylaşımlı kiralamada her atölye yalnızca kendi kullandığı saat için sorumludur; makine bir atölyeden diğerine geçerken aradaki teslim durumu (hasar, yakıt/şarj seviyesi) not edilir ki hangi atölyenin hangi durumda teslim aldığı netleşsin. Koordinasyonu genellikle sanayi sitesi yönetimi veya bizim saha ekibimiz üzerinden kurarız; atölyeler arasında doğrudan bir sözleşme ilişkisi kurulmasını istemiyoruz, her atölye bizimle ayrı kiralama kaydı yapar.",
+            },
+            {
+                soru: "Atölyemizin zemini eski, platform ağırlığını kaldırır mı?",
+                cevap:
+                    "Eski yapı atölye binalarında zemin taşıma kapasitesi bilinmeyebilir; biz bina statiği konusunda kesin bir garanti veremeyiz. Bina yaşı ve genel durumu bildirildiğinde, daha hafif kompakt sınıfı öneririz ve şüpheli bir zeminde makineyi kademeli, düşük hızlı bir yaklaşımla test ederiz. Ciddi şüphe varsa işletmenin kendi teknik sorumlusuna veya bir inşaat mühendisine danışmasını öneririz.",
+            },
+            {
+                soru: "Kendi personelimiz platformu kullanabilir mi, yoksa operatör şart mı?",
+                cevap:
+                    "Basit, düz zeminde dikey hareket gerektiren işlerde, temel eğitim almış işletme personeli platformu kullanabilir. Ancak iş dar bir koridorda hassas manevra veya karmaşık bir konumlandırma gerektiriyorsa, ya da personelin deneyimi yoksa, operatörlü kiralamayı öneririz. Operatörlü seçenek küçük işletme bütçesinde daha maliyetli görünür ama bir kaza veya ekipman hasarının maliyeti çok daha yüksek olabilir.",
+            },
+            {
+                soru: "Fiyat teklifini nasıl daha ucuza getirebiliriz?",
+                cevap:
+                    "En etkili üç yol şunlardır: ihtiyacı mümkün olduğunca erken bildirmek (plansız acil taleplerde müsaitlik ve paket avantajı azalır), komşu atölyelerle aynı haftaya denk gelen ihtiyacı birleştirmek, ve işin gerçek süresini net tarif etmek (gereğinden uzun bir süre talep etmek yerine gerçek ihtiyacı söylemek daha doğru paketin seçilmesini sağlar). Bu üçü birlikte uygulandığında maliyet farkı gözle görülür olabilir.",
+            },
+            {
+                soru: "Kompakt sınıf her işe yeter mi?",
+                cevap:
+                    "Hayır. Kompakt sınıf dar koridor ve düşük tavan avantajı sunar ama yüksek kapasiteli veya iki kişinin birlikte ağır malzeme taşıdığı işlerde yetersiz kalabilir. İş tarif edildiğinde kompakt sınıfın yetip yetmeyeceğini önceden değerlendirir, gerekirse standart sınıfı öneririz; yanlış sınıfla işe başlayıp yarıda değiştirmek, doğru sınıfı baştan seçmekten daha maliyetli ve zaman kaybettirici olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'daki küçük-orta ölçekli atölye ve işletmelerin OSB ile sanayi sitelerinde yoğunlaştığı, bu işletmelerin genellikle sınırlı bakım bütçesine sahip olduğu kamuya açık genel bilgidir. Saatlik/paylaşımlı kiralama modeli ve kompakt sınıf önerisi firma pratiğidir; tesis adı veya rakam uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Kütahya'da Küçük İşletme Bütçesiyle Manlift (Eklemli/Teleskopik) Kiralama",
+        giris:
+            "Manlift, makaslı platforma göre daha uzağa ve daha karmaşık açılara ulaşabilen bir sınıftır — ama bu esneklik genellikle daha yüksek bir günlük kira bedeliyle gelir, ve küçük bir işletme için bu fark bütçe kararında belirleyici olur. Kütahya'daki küçük-orta ölçekli işletmelerin manlift ihtiyacı çoğunlukla dış cephe, tabela, bahçe ağacı budaması veya çatı kenarı gibi makaslı platformun erişemediği açılı noktalardan gelir; ama bu ihtiyaç nadiren birkaç günden uzun sürer ve nadiren tam kapasiteli bir manlift gerektirir. Bu sayfa, manlift kiralamayı spesifik olarak küçük işletme bütçesi çerçevesinde ele alır: hangi işte küçük eklemli sınıf yeterli, hangi işte teleskopik sınıf gerekli, kısa süreli kiralamada maliyeti nasıl aşağı çekebileceğiniz. Büyük inşaat şantiyelerinin ihtiyaç duyduğu uzun erişimli ağır sınıflar değil, küçük işletmenin tek seferlik veya yılda birkaç kez tekrarlanan dış mekân işine uygun kompakt manlift modelleri bu sayfanın odağındadır.",
+        maddeler: [
+            {
+                baslik: "Eklemli mi teleskopik mi — küçük işletme için karar",
+                metin:
+                    "Eklemli manlift, kolun eklem noktasından bükülebilmesi sayesinde bir engelin (örneğin bir tabela direği veya ağaç dalı) üzerinden veya arkasından geçerek hedefe ulaşabilir; teleskopik manlift ise düz bir kol ile daha uzağa ama daha az manevra kabiliyetiyle ulaşır. Küçük bir işletmenin dış cephe veya tabela işi genellikle bina cephesine yakın ve engelli bir alanda geçtiği için eklemli sınıf daha sık tercih edilir; teleskopik sınıf, açık ve engelsiz bir alanda uzak bir noktaya (örneğin geniş bir arsanın kenarındaki direk) ulaşmak gerektiğinde önerilir.",
+            },
+            {
+                baslik: "Kısa süreli iş için kompakt sınıfın maliyet avantajı",
+                metin:
+                    "Bir tabela montajı veya bahçe ağacı budaması genellikle bir günü geçmez; bu ölçekteki bir iş için büyük kapasiteli bir manlift kiralamak hem gereksiz maliyetlidir hem de nakliyesi daha zordur (daha büyük araç, daha uzun kurulum). Kompakt eklemli sınıf, hem günlük kira bedeli hem nakliye kolaylığı açısından küçük işletmenin tek günlük ihtiyacına daha uygun düşer; iş büyükse veya erişim mesafesi kompakt sınıfın sınırını aşıyorsa bunu önceden netleştiririz.",
+            },
+            {
+                baslik: "Yılda birkaç kez tekrarlanan iş için önceden anlaşma",
+                metin:
+                    "Bazı küçük işletmelerin manlift ihtiyacı yılda iki-üç kez tekrarlanır (örneğin bahar ve sonbahar bahçe bakımı, ya da yıllık tabela kontrolü); bu tip tekrarlayan ihtiyaçlar için işletmeyle önceden bir anlaşma kurup, her seferinde yeniden fiyat pazarlığı yapmak yerine sabit bir yıllık paket önerebiliriz. Bu, hem işletmenin bütçe planlamasını kolaylaştırır hem de bizim tarafımızda müsaitlik planlamasını netleştirir.",
+            },
+            {
+                baslik: "Dar sokak ve küçük işletme çevresindeki erişim kısıtı",
+                metin:
+                    "Kütahya'nın eski yerleşim dokusundaki bazı küçük işletmeler dar sokaklara veya sınırlı avlu girişine sahiptir; standart boyutlu bir manlift bu alana giremeyebilir. Bu durumda kompakt/dar gövdeli eklemli sınıf tek seçenek olabilir, ya da makine sokağa park edilip kolun uzatılmasıyla iş yapılabilir — bu ikinci seçenek kolun erişim mesafesine bağlıdır ve her işte mümkün olmayabilir. Erişim durumunu iş öncesi telefon veya fotoğrafla teyit ederiz.",
+            },
+            {
+                baslik: "Operatörlü zorunluluk ve küçük işletme maliyeti",
+                metin:
+                    "Manlift kullanımı, makaslı platforma göre daha fazla manevra becerisi ve yükseklik farkındalığı gerektirdiği için, küçük işletmelerde operatörsüz kiralama nadiren önerilir; işletme personelinin belgeli deneyimi yoksa operatörlü kiralama fiilen zorunlu hâle gelir. Bu, küçük işletme bütçesinde ek bir maliyet kalemidir, ama manlift işlerinde (özellikle dar sokak veya engelli alanda) yanlış manevranın maliyeti — çarpma, devrilme — operatör maliyetinden kat kat yüksektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Küçük işletme ölçeğinde manlift sınıf seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, küçük işletmelerin sık karşılaştığı iş tiplerine göre önerilen manlift sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Önerilen sınıf", "Süre", "Maliyet notu"],
+                    satirlar: [
+                        ["Tabela montaj/kontrol", "Kompakt eklemli", "1 gün", "Nakliyesi kolay, düşük maliyet"],
+                        ["Bahçe ağacı budama", "Kompakt eklemli", "1 gün, yılda 1-2 kez", "Yıllık paket avantajlı"],
+                        ["Bina cephesi engelli alan", "Kompakt eklemli (dar gövde)", "1-2 gün", "Erişim önceden teyit edilmeli"],
+                        ["Açık arsa kenarı, uzak nokta", "Teleskopik", "1 gün", "Eklemliye göre biraz daha yüksek maliyet"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yıllık tekrarlayan iş için sabit paket mantığı",
+                paragraflar: [
+                    "Bahçe bakımı veya tabela kontrolü gibi yılda birkaç kez tekrarlanan ihtiyaçlarda, işletmeyle her seferinde sıfırdan fiyat görüşmesi yapmak yerine önceden anlaşılmış bir yıllık paket kurmak her iki taraf için de zaman kazandırır. Paket, yılın hangi dönemlerinde işin yapılacağını ve yaklaşık süresini önceden belirler; kesin tarih, mevsim koşullarına göre (örneğin budama için uygun hava) esnek tutulur.",
+                    "Bu paket modeli yalnızca gerçekten tekrarlayan ihtiyacı olan işletmeler için anlamlıdır; tek seferlik bir iş için yıllık paket önerilmez.",
+                ],
+            },
+            {
+                baslik: "Dar sokak erişiminin önceden teyidi",
+                paragraflar: [
+                    "Kütahya'nın merkez bölgesindeki bazı küçük işletmeler eski yerleşim dokusunun dar sokaklarında yer alır; bu sokakların genişliği standart bir manlift aracının geçişine her zaman uygun olmayabilir. İş öncesi, işletme sahibinden sokak genişliği ve varsa engel (elektrik direği, çıkma) fotoğrafını isteriz; bu bilgi olmadan doğru sınıfı önceden garanti edemeyiz. Sahaya varıp aracın giremediği durumlarda iş ertelenir ve alternatif bir erişim planı (örneğin komşu bir noktadan kol uzatma) değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tek bir tabela montajı için manlift tutmak mantıklı mı, yoksa daha ucuz bir yöntem var mı?",
+                cevap:
+                    "Tabela yüksekliği ve bina cephesine yakınlığına bağlı olarak bazen kompakt bir makaslı platform da yeterli olabilir, bu genellikle manliftten daha ucuzdur. Ama tabela bina cephesinden çıkıntılı bir noktaya (örneğin bir direk üzerine) monteliyse ve düz zeminde erişim yoksa, eklemli manlift tek pratik seçenek olur. İşin tam konumunu ve yüksekliğini bize tarif ettiğinizde en ucuz uygun sınıfı öneririz.",
+            },
+            {
+                soru: "Bahçe ağacı budaması için her yıl ayrı ayrı mı anlaşmalıyız?",
+                cevap:
+                    "Hayır, tekrarlayan bir ihtiyacınız varsa yıllık sabit bir paket kurabiliriz; bu, her sezon yeniden fiyat görüşmesi yapmaktan hem sizin hem bizim için daha az zaman alır. Kesin tarih mevsim koşullarına göre esnek tutulur ama yaklaşık dönem ve süre önceden belirlenir. Tek seferlik bir budama işiyse, yıllık paket yerine standart tek seferlik kiralama daha uygundur.",
+            },
+            {
+                soru: "Sokağımız dar, manlift aracı girebilir mi?",
+                cevap:
+                    "Bu, sokağın genişliğine ve varsa direk/çıkma gibi engellere bağlıdır; kesin bir cevap için iş öncesi sokak fotoğrafı ve genişlik bilgisi isteriz. Standart araç giremiyorsa kompakt/dar gövdeli bir sınıf denenir; o da giremiyorsa aracı en yakın uygun noktaya park edip kolu uzatarak işi yapmayı değerlendiririz — bu, kolun erişim mesafesine bağlı olarak her zaman mümkün olmayabilir.",
+            },
+            {
+                soru: "Eklemli mi teleskopik mi daha ucuz?",
+                cevap:
+                    "Genel eğilim olarak kompakt eklemli sınıf, teleskopik sınıfa göre biraz daha düşük günlük maliyete sahiptir; ama asıl belirleyici, işin gerektirdiği erişim tipidir. Engelli bir alanda (bina cephesi, ağaç dalları arasında) eklemli sınıf hem daha ucuz hem daha uygundur; açık ve engelsiz ama uzak bir noktada ise teleskopik sınıf gerekebilir ve bu durumda maliyet farkı işin gereğidir, tercih meselesi değildir.",
+            },
+            {
+                soru: "Kendi personelimiz manlift kullanabilir mi?",
+                cevap:
+                    "Manlift, makaslı platforma göre daha fazla manevra ve yükseklik farkındalığı gerektirir; personelinizin belgeli ve güncel bir kullanım deneyimi yoksa operatörlü kiralamayı öneririz. Özellikle dar sokak veya engelli bir alanda çalışılacaksa, deneyimsiz bir kullanımın çarpma veya devrilme riski, operatör maliyetinden çok daha yüksek bir maliyete (hasar, iş kaybı) yol açabilir.",
+            },
+            {
+                soru: "İş bir günden uzarsa fiyat nasıl değişir?",
+                cevap:
+                    "İş öncesi tahmin edilen süreden uzarsa, ek gün için günlük tarifenin bir kısmı (genellikle tam günden daha düşük bir oranla) uygulanır; bu, işin son ana kadar planlanmadığı küçük işletmeler için beklenmedik bir maliyet artışı olabilir. Bu yüzden mümkün olduğunca gerçekçi bir süre tahminiyle başlamanızı, belirsizlik varsa bunu bize önceden söylemenizi öneririz — böylece esnek bir paket önerebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın eski yerleşim dokusunda dar sokaklı bölgelerin bulunması ve küçük işletmelerin bahçe/tabela gibi tekrarlayan dış mekân ihtiyaçları olması genel bilinen yerel gerçeklerdir. Yıllık paket modeli ve sınıf seçim mantığı firma pratiğidir; tesis adı veya doğrulanamayan rakam kullanılmamıştır.",
+    },
 };
