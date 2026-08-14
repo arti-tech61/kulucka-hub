@@ -1400,4 +1400,1093 @@ export const ANKARAEKLEMLIPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Keçiören'in yamaç topografyası ve kademeli yerleşim dokusu kamuya açık bilgidir; dengeleme sistemi eğim sınırı EN 280 ve üretici standartlarıdır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "OSTİM'in Dar Geçitlerinde Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Eklemli platform, OSTİM'in dar sahalarında çoğu erişim probleminin cevabıdır — ama her cevabın bir sınırı vardır. Bazı avlular öyle dardır ki eklemlinin en kompakt şasesi bile kapıdan geçmez; bazı hedefler öyle bir kot ve açıdan gelir ki dört tekerlekli hiçbir makine oraya park edemez. Örümcek platform (tırtıl paletli, kendinden vinçli, katlanır bomlu erişim sistemi) tam bu kalan yüzde için vardır: elle veya küçük bir vinçle taşınabilecek genişliğe katlanır, dar bir kapı veya merdiven boşluğundan geçirilir, hedefin yakınında yeniden açılır ve paletleriyle düz olmayan zeminde bile ilerler. Bu sayfa, eklemlinin giremediği OSTİM avlularında ve iç mekânlarında örümcek platformun nerede devreye girdiğini, eklemliyle farkını ve karar kriterlerini anlatır.",
+        maddeler: [
+            {
+                baslik: "Eklemli ne zaman giremez, örümcek ne zaman girer",
+                metin:
+                    "Sınırı belirleyen üç ölçüdür: kapı-geçit genişliği (çoğu kompakt eklemli 80-100 cm bandında, örümcek katlı hâlde 70 cm'nin altına iner), taşıma yolu (eklemli kendi tekerleğiyle gider, örümcek taşınır veya kendi paletiyle merdiven-eşik aşar) ve zemin türü (eklemli tekerlekli sürüş ister, örümcek paletiyle düzensiz zeminde de ilerler). OSTİM'de tipik örümcek senaryosu, bina içi dar merdivenden çatı katına veya avlu kapısından geçip arka bahçedeki hedefe ulaşmaktır — eklemlinin şasesi buraya sığmaz, örümceğin katlı gövdesi sığar.",
+            },
+            {
+                baslik: "Katlanır bom ve kompakt taşıma mantığı",
+                metin:
+                    "Örümcek platformun bomu, eklemlininkinden farklı çalışır: tek eklemli uzun kol yerine iki-üç kısa kol art arda katlanır ve makine kapıdan geçerken tüm gövde küçük bir dikdörtgene sığar. İçeri girdikten sonra kollar sırayla açılır ve hedefe doğru yeniden şekillenir — dar bir odada bile geniş bir erişim alanı oluşturur. Ağırlığı düşük modellerde asansörle veya iki kişiyle taşınabilir; ağır modellerde küçük bir vinç veya kendi tekerlek takımıyla ilerler. OSTİM'in çok katlı iş hanlarında asansörle taşınan model, merdiven taşımasından çok daha hızlıdır.",
+            },
+            {
+                baslik: "Paletli tahrik: engebeli avlu ve toprak zeminde ilerleme",
+                metin:
+                    "Bazı örümcek modelleri lastik yerine paletli tahrikle gelir ve bu, OSTİM çevresindeki toprak veya moloz zeminli avlularda fark yaratır: palet, tekerleğin batabileceği yumuşak zeminde yüzey basıncını dağıtarak ilerler. Bu özellik, inşaat hâlindeki parsellerde veya bakımsız arka bahçelerde platform erişimini mümkün kılar — eklemlinin tekerlekli tahrikinin zorlandığı yerde örümcek geçer. Zemin sertliği kesin değilse keşifte fotoğrafla değerlendirilir; palet izi bırakmaması gereken hassas zeminlerde (yeni döşenmiş beton, parke) koruma önlemi alınır.",
+            },
+            {
+                baslik: "Sepet kapasitesi ve iş tipi uyumu",
+                metin:
+                    "Örümcek platformun sepet kapasitesi genellikle eklemliye göre daha düşüktür — bu, tasarımın kompaktlığının doğal bedelidir. Bu yüzden örümcek, ağır malzeme taşıyan işten çok tek operatörün nokta müdahalesine (kamera bakımı, küçük tesisat onarımı, tabela değişimi, boya-badana detayı) uygundur. İş, malzeme ağırlığı gerektiriyorsa (örneğin panel montajı) önce eklemlinin girip giremeyeceği yeniden kontrol edilir; girmiyorsa malzeme ayrıca taşınır ve örümcek yalnızca erişimi sağlar. Bu ayrımı keşifte açık söyleriz — kapasiteyi abartıp yanlış makine göndermeyiz.",
+            },
+            {
+                baslik: "OSTİM'de tipik örümcek işleri",
+                metin:
+                    "Bölgede en sık talep ettiğimiz örümcek senaryoları üçe ayrılır: iş hanı iç avlusundan bina arkasına geçiş, dar merdivenden çatı katına taşınıp çatı arası tesisat işi ve bitişik parseller arasındaki dar aralıktan cephe erişimi. Üçünde de ortak nokta, eklemlinin denendiği ve geçemediği bir noktanın olmasıdır — bu yüzden örümcek talebi genellikle 'eklemli sığmadı, alternatif var mı' sorusuyla gelir. Keşif ekibimiz iki makineyi de değerlendirip hangisinin geçtiğini fiziksel ölçüyle netleştirir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli ile örümcek platform karşılaştırması",
+                paragraflar: [
+                    "OSTİM'in dar dokusunda iki makine arasındaki seçim, aşağıdaki ölçülerle netleşir. Tablo, hangi durumda hangisinin devreye girdiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçüt", "Eklemli platform", "Örümcek platform"],
+                    satirlar: [
+                        ["Geçiş genişliği", "80 – 100 cm bandı (kompakt)", "60 – 70 cm bandı (katlı)"],
+                        ["Taşıma şekli", "Kendi tekerleğiyle sürülür", "Elle/asansörle taşınır veya paletle ilerler"],
+                        ["Zemin uyumu", "Sert, düz zemin ister", "Toprak/moloz zeminde paletle ilerler"],
+                        ["Sepet kapasitesi", "Görece yüksek (malzeme taşır)", "Görece düşük (nokta iş için)"],
+                        ["Tipik OSTİM işi", "Avlu-sokak erişimli cephe/tavan", "Dar merdiven, iç avlu, bina arası aralık"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte iki makineyi birlikte değerlendirme",
+                paragraflar: [
+                    "Dar geçit şüphesi olan her talepte iki makineyi de değerlendiririz: önce eklemlinin en kompakt modelinin geçip geçmeyeceği ölçülür, geçmiyorsa örümceğin katlı ölçüsüyle karşılaştırılır. Bu sıralı kontrol, gereksiz yere daha pahalı örümceği önermekten kaçınır — eklemli sığıyorsa maliyeti daha düşüktür ve sepet kapasitesi daha geniştir. Ölçüm için istediğimiz üç veri: kapı/geçit genişliği ve yüksekliği, geçitten hedefe kadar olan mesafe ve zemin türü.",
+                    "Fotoğraf ve şerit metre ile alınan bu üç ölçü, telefon görüşmesinde bile doğru makineyi belirlemeye yeter — sahaya yanlış makineyle gidip geri çevrilmek, hem bizim hem işletmenin zamanını kaybettirir ve bunu keşif disipliniyle önleriz.",
+                ],
+            },
+            {
+                baslik: "Taşıma ve kurulum güvenliği",
+                paragraflar: [
+                    "Örümcek platformun taşınması, kendisi bir iş güvenliği konusudur: merdivenden veya dar koridordan taşınırken makinenin ağırlık merkezi ve taşıyan personelin duruşu önceden planlanır, asansörle taşımada asansörün yük kapasitesi kontrol edilir. Kurulum alanında makine açılırken çevresindeki boşluk (kolların açılma yarıçapı) net tutulur ve kimse bu alanda beklemez.",
+                    "Paletli modellerde zemine temas noktası, hassas yüzeylerde (parke, seramik) koruma tahtasıyla desteklenir. Bu hazırlık, işin ilk on dakikasıdır ve dar alan işlerinde standart adımdır — atlanmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform avluya sığmadı; örümcek platform bu işi çözer mi?",
+                cevap:
+                    "Büyük olasılıkla evet — örümceğin var oluş nedeni tam bu senaryodur. Katlı hâldeyken eklemliden çok daha dar bir geçitten girer, hedefin yakınında yeniden açılır ve erişimi sağlar. Kesinleştirmek için geçidin genişlik-yükseklik ölçüsü ve hedefe uzaklığı gerekir; bunları fotoğrafla paylaşırsanız aynı gün netleştiririz. Sepet kapasitesinin eklemliden düşük olduğunu da baştan söylüyoruz — ağır malzeme taşıyan bir iş ise malzeme ayrıca planlanır.",
+            },
+            {
+                soru: "Örümcek platform merdivenden taşınabilir mi, yoksa asansör mü gerekir?",
+                cevap:
+                    "Modele bağlı: hafif modeller iki-üç kişiyle merdivenden taşınabilir, ağır modeller asansör veya küçük vinç ister. Binanızda hangisi mümkünse ona uygun model seçilir — asansör varsa ve yük kapasitesi yeterliyse süreç hızlanır, yoksa hafif model tercih edilir ve taşıma güvenliği (ağırlık merkezi, personel duruşu) planlanır. Bina girişini ve varsa asansör ölçüsünü keşifte netleştiriyoruz.",
+            },
+            {
+                soru: "Arka bahçemiz toprak ve engebeli; tekerlekli platform batar mı diye endişeliyiz?",
+                cevap:
+                    "Haklı bir endişe — bu yüzden bu tip zeminlerde paletli örümcek modelini öneririz. Palet, tekerleğin batabileceği yumuşak zeminde yüzey basıncını dağıtarak ilerler ve dar geçitten katlı girip bahçede yeniden açılabilir. Zeminin çok yumuşak veya bataklık kıvamında olduğu nadir durumlarda platform dışı yöntem konuşulur — dürüst değerlendirme keşifte yapılır. Zemin fotoğrafını paylaşın, uygunluğu birlikte görelim.",
+            },
+            {
+                soru: "Örümcek platformla panel veya ağır malzeme taşınabilir mi?",
+                cevap:
+                    "Sınırlı ölçüde — sepet kapasitesi eklemliden düşüktür ve bu tasarımın doğal bedelidir. Hafif malzeme (tesisat parçası, tabela, aydınlatma armatürü) sepette taşınır; ağır panel gibi yükler için önce eklemlinin geçip geçemediği yeniden kontrol edilir, geçmiyorsa malzeme ayrı bir yöntemle (elle, küçük vinç) sahaya alınır ve örümcek yalnızca erişimi sağlar. Bu ayrımı abartmadan, işin gerçek ağırlığına göre keşifte netleştiriyoruz.",
+            },
+            {
+                soru: "Örümcek platform operatörsüz kiralanabilir mi?",
+                cevap:
+                    "Kiralanabilir ama önerimiz operatörlü çalışmaktır — makinenin katlanır-açılır mekanizması ve dar alan manevrası, ilk kullanımda deneyim ister. Kısa süreli ve deneyimli ekibi olan işletmelerde operatörsüz seçenek de sunulur; bu durumda cihazın açma-kapama ve dengeleme eğitimi teslimatta verilir. Hangi seçeneğin işinize uygun olduğunu, iş süresi ve ekibinizin deneyimine göre keşifte birlikte kararlaştırırız.",
+            },
+            {
+                soru: "Fiyat olarak örümcek platform eklemliden pahalı mı?",
+                cevap:
+                    "Günlük kiralama bedeli genellikle eklemliye yakın veya biraz üzerindedir — ama doğru karşılaştırma bu değildir. Eklemli geçemeyen bir işte tek alternatif ya örümcek ya da iskele-manuel yöntemdir; iskele kurulum-söküm maliyeti çoğu zaman örümceğin bedelini aşar. Eklemli sığıyorsa zaten onu öneririz, daha ekonomiktir. Örümcek, yalnızca eklemlinin fiziksel olarak giremediği senaryolarda devreye girer — bu yüzden fiyat karşılaştırması 'hangi makine mi ucuz' değil 'hangi makine bu işi çözer'dir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Örümcek/sepetli platformun katlanır bom ve paletli tahrik özellikleri EN 280 ve üretici teknik verileridir; OSTİM'in dar avlu-geçit dokusu kamuya açık saha bilgisidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "OSTİM Dar Sokak Ağında Platform Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Bir platformun sahaya doğru ulaşması, çoğu bölgede sıradan bir lojistik adımdır; OSTİM'de ise başlı başına bir planlama konusudur. Bölgenin sokak ağı, ağır vasıta trafiğine göre değil küçük atölye erişimine göre şekillenmiştir — dar sokaklar, keskin dönüşler, karşılıklı park eden araçlar ve bazı saatlerde yoğun yaya-araç trafiği. Bir düşük yükleyici (low-bed) her sokağa giremez; bazı teslimatlarda makine ana caddeye indirilip son yüz metre kendi motoruyla veya küçük bir çekiciyle ilerletilir. Bu sayfa, OSTİM ve çevresindeki dar sokak ağında nakliye-teslimat sürecinin nasıl planlandığını, hangi araçların hangi sokağa girdiğini ve teslimat saatlerinin neden iş planının bir parçası olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Sokak genişliği: araç seçiminin ilk filtresi",
+                metin:
+                    "OSTİM'in ana caddeleri çift şeritli ve düşük yükleyici trafiğine uygundur; ama ara sokakların büyük bölümü tek şerit genişliğindedir ve karşılıklı park eden araçlarla bu genişlik daha da daralır. Teslimat planı bu yüzden iki aşamalı kurulur: makine ana caddeye kadar düşük yükleyiciyle taşınır, oradan hedefe kadar olan son bölüm sokak genişliğine göre değerlendirilir — makine kendi motoruyla gidebiliyorsa sürülür, gidemiyorsa küçük bir platform kamyonuyla veya kompakt çekiciyle ilerletilir. Sokak genişliğini talep alırken sorarız; belirsizse teslimat günü öncesi bir keşif turu yapılır.",
+            },
+            {
+                baslik: "Dönüş yarıçapı ve keskin köşe problemi",
+                metin:
+                    "OSTİM'in ızgara dışı büyüyen bölümlerinde sokaklar dik açılarla kesişir ve düşük yükleyicinin dönüş yarıçapı bu köşelerde sınırlanır. Bazı adreslere düz hatla değil, belirli bir sıralamayla (önce şu sokağa gir, şu köşeden dön) ulaşılabilir — bu güzergâh, teslimat öncesi harita üzerinden planlanır ve şoförle paylaşılır. Yanlış köşeden dönmeye çalışan bir araç hem trafiği tıkar hem geri manevra riski taşır; bu yüzden ilk teslimatlarda güzergâh belirsizse telefonla saha tarifi alınır veya öncü araçla yönlendirme yapılır.",
+            },
+            {
+                baslik: "Yoğun saatler: teslimat penceresinin planlanması",
+                metin:
+                    "OSTİM'in trafiği gün içinde belirgin dalgalanır — sabah açılış ve öğle arası saatleri, atölye önü yükleme-boşaltma ve personel hareketiyle yoğunlaşır. Büyük araç teslimatları bu yoğunluğun dışına, genellikle sabah erken veya öğleden sonranın sakin diliminde planlanır. Acil işlerde bu pencereyi beklemek mümkün olmayabilir; böyle durumlarda güzergâh üzerinde geçici yönlendirme (bir kişinin trafiği kısa süreliğine yönlendirmesi) uygulanır. Talebin aciliyeti ve sokağın yoğunluk profili, teslimat saatini birlikte belirler.",
+            },
+            {
+                baslik: "İndirme noktası: makine kadar önemli bir karar",
+                metin:
+                    "Makinenin nereye indirileceği, işin ne kadar hızlı başlayacağını belirler. İdeal indirme noktası, hedefe en kısa kendi-motor mesafesinde ve trafiği en az etkileyecek konumdadır — çoğu zaman bu, atölyenin tam önü değil yakın bir kavşak boşluğudur. Bina önünde park hakkı yoksa veya sürekli araç trafiği varsa, indirme için kısa süreli bir alan boşaltması gerekebilir; bunu işletmeyle önceden koordine ederiz. İndirme noktası seçimi, teslimat süresini dakikalar mertebesinde kısaltabilir veya saatler mertebesinde uzatabilir.",
+            },
+            {
+                baslik: "Çoklu teslimat: aynı sokakta birden fazla iş",
+                metin:
+                    "Aynı sokak veya ada içinde birden fazla işletmenin talebi varsa, teslimatlar tek araca ve tek güzergâha toplanır — araç sokağa bir kez girer, sırayla her adrese makine bırakır ve nakliye bedeli işletmeler arasında bölünür. Bu model OSTİM'in yoğun küçük işletme dokusunda en sık uyguladığımız planlardan biridir; kooperatif veya site yönetimi üzerinden koordine edilen dönemsel taleplerde özellikle verimlidir. Sıralama, sokağın giriş-çıkış yönüne göre optimize edilir ki araç sokakta gereksiz geri manevra yapmasın.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Araç tipi ve sokak profili eşleşmesi",
+                paragraflar: [
+                    "OSTİM'in sokak profiline göre kullandığımız araç ve teslimat yöntemi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Sokak profili", "Ana taşıma", "Son bölüm", "Zaman penceresi"],
+                    satirlar: [
+                        ["Geniş ana cadde", "Düşük yükleyici, doğrudan", "Kendi motoruyla iner", "Esnek"],
+                        ["Tek şerit ara sokak", "Düşük yükleyici (cadde ucuna)", "Kendi motoru / küçük çekici", "Sakin saat tercih edilir"],
+                        ["Keskin köşeli/dar dönüşlü", "Düşük yükleyici + öncü yönlendirme", "Planlı güzergahla sürüş", "Önceden harita çalışması"],
+                        ["Yoğun yaya-araç trafiği", "Aynı, sakin dilime kaydırılır", "Kısa süreli yol yönlendirmesi", "Sabah erken / öğleden sonra"],
+                        ["Çoklu adres (aynı sokak)", "Tek araç, sıralı teslimat", "Ardışık indirme", "Tek giriş, planlı sıra"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teslimat öncesi bilgi seti",
+                paragraflar: [
+                    "Doğru araç ve güzergâh planı için teslimat talebinde üç bilginin önceden alınması işi hızlandırır: sokağın genişliği ve varsa dar/köşeli bölümler, indirme noktasının bina girişine uzaklığı ve gün içinde sokağın yoğun olduğu saatler. Bu bilgiler telefonda sözlü tarif edilebilir ama en hızlı yöntem, sokağın google haritalar görünümünü veya bir fotoğrafını paylaşmaktır — güzergâh planlaması dakikalar içinde netleşir.",
+                    "İlk kez çalıştığımız adreslerde belirsizlik varsa, teslimattan bir gün önce kısa bir keşif turu (araçsız, sadece ölçü almak için) yapılabilir; bu, teslimat günü sürpriz yaşamamanın en kesin yoludur.",
+                ],
+            },
+            {
+                baslik: "Teslimat güvenliği ve komşu esnaf koordinasyonu",
+                paragraflar: [
+                    "Dar sokakta büyük araç manevrası, yalnızca teslimat alan işletmeyi değil komşu esnafı da etkiler — bu yüzden teslimat öncesi kısa bir bilgilendirme (özellikle uzun süre park gerekiyorsa) komşu işletmelerle paylaşılır. İndirme sırasında araç arkasında güvenlik mesafesi tutulur, yaya geçişi geçici olarak yönlendirilir ve makine indirildikten sonra araç sokağı en kısa sürede boşaltır.",
+                    "Bu koordinasyon küçük bir adım gibi görünse de OSTİM'in yoğun dokusunda büyük fark yaratır — bir sokakta iyi yönetilen teslimat, sonraki taleplerin de sorunsuz gelmesini sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sokağımız çok dar, büyük kamyon giremez; makine nasıl gelir?",
+                cevap:
+                    "İki aşamalı planla: düşük yükleyici makineyi en yakın geniş noktaya (ana cadde veya sokak ağzı) kadar taşır, oradan hedefe kadar olan son bölüm makinenin kendi motoruyla veya küçük bir çekiciyle ilerletilir. Bu yöntem OSTİM'in dar sokaklarında standart uygulamamızdır. Sokağınızın genişliğini ve varsa dar noktalarını fotoğrafla paylaşırsanız güzergâhı önceden netleştirir, teslimat günü sürpriz yaşamayız.",
+            },
+            {
+                soru: "Teslimat için en uygun saat hangisi?",
+                cevap:
+                    "Genellikle sabah erken (açılış öncesi) veya öğleden sonranın sakin dilimi — sokağın yoğun olduğu açılış ve öğle arası saatlerinden kaçınırız. Sizin işletmenizin ve sokağınızın kendine özgü yoğunluk deseni varsa (örneğin belirli bir teslimat aracının düzenli geldiği saat) bunu bize bildirin, planı ona göre kaydırırız. Acil işlerde pencereyi beklemeden, geçici yol yönlendirmesiyle teslimat yapılabilir.",
+            },
+            {
+                soru: "Bina önümüzde sürekli park var, makineyi nereye indireceksiniz?",
+                cevap:
+                    "En yakın uygun boşluğa — bina önü kapalıysa yakın bir kavşak boşluğu veya kısa süreliğine boşaltılabilecek bir alan değerlendirilir. Sürekli park sorunuysa, teslimat öncesi işletmenizin kısa süreliğine bir alanı ayırtması (komşu esnafla koordine) süreci hızlandırır. İndirme noktası ile hedef arasındaki mesafe, işin kendi motoruyla mı yoksa taşınarak mı kat edileceğini belirler; bunu teslimat öncesi netleştiriyoruz.",
+            },
+            {
+                soru: "Aynı sokakta üç işletmenin de teslimatı var; tek seferde mi geliyorsunuz?",
+                cevap:
+                    "Evet, bu bizim tercih ettiğimiz modeldir: tek araç sokağa bir kez girer, sırayla her adrese makine bırakır ve nakliye bedeli üç işletme arasında bölünür. Sıralama, sokağın giriş-çıkış yönüne göre optimize edilir ki araç gereksiz geri manevra yapmasın. Taleplerinizi 'ortak teslimat' notuyla iletirseniz sıralamayı biz kurarız — bu model hem maliyeti düşürür hem sokak trafiğini tek seferde yönetir.",
+            },
+            {
+                soru: "Teslimat sırasında sokakta trafik tıkanır mı?",
+                cevap:
+                    "Kısa süreli, planlı bir etkilenme olur ve bunu minimuma indiririz: indirme işlemi genellikle 15-30 dakika sürer, bu sürede araç arkasında güvenlik mesafesi tutulur ve gerekiyorsa geçici yaya-araç yönlendirmesi yapılır. Yoğun saatlerden kaçınmak, tıkanmayı zaten büyük ölçüde önler. Uzun süreli sokak kapatması gerekiyorsa (nadiren, özel durumlarda) bu önceden işletmenize ve gerekiyorsa komşu esnafa bildirilir.",
+            },
+            {
+                soru: "İlk kez sizden kiralıyoruz, sokağımızı hiç bilmiyorsunuz; sorun olur mu?",
+                cevap:
+                    "Olmaz — yeni adreslerde belirsizlik varsa teslimattan önce kısa bir keşif turu yapabiliriz, bu turda sadece ölçü ve güzergâh netleştirilir, araç gitmez. Alternatif olarak google haritalar görünümünü veya sokağın birkaç fotoğrafını paylaşmanız da genellikle yeterlidir. OSTİM ve çevresindeki dar sokak ağında yıllardır teslimat yaptığımız için çoğu bölgeyi zaten biliyoruz; bilmediğimiz bir adres varsa bunu önceden araştırıp planı ona göre kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSTİM'in dar sokak ağı ve trafik yoğunluk deseni kamuya açık saha bilgisidir; teslimat planlama yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Küçük Atölyelerde Dar Koridorda Forklift ve İstifleme Kiralama",
+        giris:
+            "OSTİM'in binlerce küçük atölyesinde depolama alanı neredeyse hiçbir zaman bol değildir — raf aralıkları dardır, koridorlar tek forklift genişliğindedir ve tavan yüksekliği çoğu zaman 4-6 metre bandında sıkışıktır. Standart geniş şaseli forkliftler bu koridorlara girmez veya girse bile dönemez; bu yüzden OSTİM'deki istifleme talebinin büyük bölümü dar koridor tipi kompakt forklift ve elektrikli istif makineleriyle karşılanır. Bu sayfa, eklemli platform odaklı filomuzun forklift-istifleme tarafını — hangi modelin hangi koridora sığdığını, raf yüksekliğiyle kapasite ilişkisini ve OSTİM atölyelerinde en sık karşılaşılan istifleme senaryolarını — anlatır.",
+        maddeler: [
+            {
+                baslik: "Dar koridor forkliftinin şase mantığı",
+                metin:
+                    "Standart dizel forkliftlerin şase genişliği genellikle koridor için fazla geniştir; OSTİM atölyelerinde kullandığımız kompakt elektrikli modeller dar şase ve sıfıra yakın dönüş yarıçapıyla tasarlanır. Bu modeller, raf arası koridorda 90 dereceye yakın dönerek palet indirip kaldırabilir — geniş şaseli makinenin ancak koridor sonunda döneceği yerde. Koridor genişliğini santimetre hassasiyetinde ölçüp uygun modeli eşlemek, atölyede palet çarpması veya raf hasarı riskini baştan ortadan kaldırır.",
+            },
+            {
+                baslik: "Elektrikli tahrik: kapalı atölyede hava kalitesi",
+                metin:
+                    "OSTİM atölyelerinin büyük bölümü kapalı veya yarı kapalı çalışır ve dizel egzoz emisyonu bu ortamlarda hem sağlık hem koku sorunu yaratır — bu yüzden iç mekân istifleme taleplerinde varsayılan tercih elektrikli forklifttir. Elektrikli modellerin şarj süresi ve kapasitesi, günlük iş yoğunluğuna göre planlanır; tam gün yoğun kullanımda yedek akü veya vardiya arası şarj penceresi düşünülür. Dizel, yalnızca açık saha veya iyi havalandırılan geniş hollerde önerilir.",
+            },
+            {
+                baslik: "Raf yüksekliği ve kaldırma kapasitesi eşleşmesi",
+                metin:
+                    "İstif makinesi seçiminde iki ölçü birlikte çalışır: raf sisteminin en üst kotu ve o kottaki palet ağırlığı. Yüksek rafta hafif palet ile alçak rafta ağır palet farklı makine gerektirir çünkü kaldırma kapasitesi yükseklikle azalır (mast uzadıkça izin verilen yük düşer). OSTİM'deki tipik atölye raflarının 4-6 metre bandında olması, orta sınıf elektrikli istif makinelerini standart seçim yapar; daha yüksek raflı depolarda mast kapasite tablosu keşifte birlikte kontrol edilir.",
+            },
+            {
+                baslik: "Tek seferlik yükleme-boşaltma ve süreklilik farkı",
+                metin:
+                    "OSTİM'deki forklift taleplerinin çoğu iki kategoriye ayrılır: tek seferlik yükleme-boşaltma (bir kamyon dolusu malzemenin indirilmesi, birkaç saatlik iş) ve sürekli depo işletmesi (günlük istifleme, uzun süreli kiralama). İlk kategoride operatörlü kısa süreli kiralama, ikinci kategoride ise işletmenin kendi personelinin kullanacağı operatörsüz uzun dönem kiralama daha ekonomiktir. Hangi modelin uygun olduğu, iş sıklığı ve süresine göre keşifte birlikte belirlenir.",
+            },
+            {
+                baslik: "Atölye içi güvenlik: dar koridorun kendi riskleri",
+                metin:
+                    "Dar koridorda forklift çalışması, geniş depodan farklı riskler taşır: kör köşelerde çarpışma, raf ayaklarına temas ve yaya-forklift aynı koridoru paylaşması. Standart önlemlerimiz arasında koridor sonu ayna veya sinyal kullanımı, yaya-forklift ayrımının mümkün olduğunca netleştirilmesi ve raf yükleme sınırlarının (raf başına maksimum yük) açıkça işaretlenmesi yer alır. Yoğun mesai saatlerinde forklift trafiğiyle personel hareketinin çakıştığı noktalar keşifte belirlenip önlem planına eklenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Koridor genişliği ve forklift tipi eşleşmesi",
+                paragraflar: [
+                    "OSTİM atölyelerinde en sık karşılaştığımız koridor profilleri ve uygun makine tipi aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Koridor genişliği", "Uygun makine", "Tahrik", "Tipik kullanım"],
+                    satirlar: [
+                        ["Çok dar (< 2 m)", "Dar koridor elektrikli istif makinesi", "Elektrikli", "Raf arası palet indirme"],
+                        ["Dar-orta (2 – 3 m)", "Kompakt elektrikli forklift", "Elektrikli", "Genel atölye içi taşıma"],
+                        ["Orta (3 – 4 m)", "Standart elektrikli/LPG forklift", "Elektrikli / LPG", "Yükleme-boşaltma + iç taşıma"],
+                        ["Geniş / açık saha", "Dizel forklift", "Dizel", "Dış saha, ağır yük"],
+                        ["Çok yüksek raf (6 m+)", "Yüksek mastlı elektrikli istif", "Elektrikli", "Kapasite tablosu kontrolüyle"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte alınan üç ölçü",
+                paragraflar: [
+                    "Doğru forklift modeli için keşifte üç ölçü netleştirilir: en dar koridorun genişliği (raf başlıkları dahil), en yüksek raf kotu ve o koridorlarda taşınacak tipik palet ağırlığı. Bu üçlü, hem hangi şasenin döneceğini hem hangi mastın yeterli kapasitede kaldıracağını belirler. Ölçüyü fotoğraf ve şerit metreyle almak, telefon tarifinden çok daha kesin sonuç verir.",
+                    "Atölyenin zemin durumu da bu ölçüme eklenir — pürüzlü veya eğimli zeminlerde lastik tipi ve tekerlek sayısı farklı seçilebilir; bu detay OSTİM'in eski yapı stokunda zaman zaman karşımıza çıkar.",
+                ],
+            },
+            {
+                baslik: "Operatör eğitimi ve sertifika kontrolü",
+                paragraflar: [
+                    "Forklift operatörlüğü mevzuatı, operatörün geçerli forklift operatör belgesine sahip olmasını şart koşar — bu, işletmenin kendi personeli kullanacağı operatörsüz kiralamalarda işletmenin sorumluluğundadır ve teslimat öncesi belge kontrolü önerilir. Operatörlü kiralamada bu kontrol bizim tarafımızdan zaten yapılır; operatörümüzün belgesi ve deneyimi teslimat evraklarıyla birlikte sunulur.",
+                    "Dar koridor çalışması, geniş sahaya göre daha fazla deneyim ister — bu yüzden ilk kez dar koridorda çalışacak bir operatör için kısa bir saha oryantasyonu (koridor genişliğini, raf yüksekliklerini tanıma) teslimatın parçasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Koridorumuz çok dar, standart forklift dönemiyor; ne öneriyorsunuz?",
+                cevap:
+                    "Dar koridor elektrikli istif makinesi — sıfıra yakın dönüş yarıçapıyla tasarlanmıştır ve standart forkliftin döneceği koridorun yarısında bile manevra yapabilir. Koridor genişliğini santimetre hassasiyetinde ölçüp (raf başlıkları dahil) uygun modeli eşliyoruz; bu ölçü olmadan makine göndermeyiz çünkü yanlış şase, hem palete hem rafa zarar verebilir. Koridor fotoğrafı ve genişlik ölçüsünü paylaşın, aynı gün model önerelim.",
+            },
+            {
+                soru: "Atölyemiz kapalı, dizel forklift kullanmak istemiyoruz; alternatif var mı?",
+                cevap:
+                    "Elektrikli forklift kapalı atölyeler için varsayılan tercihimizdir — egzoz emisyonu yoktur, gürültüsü düşüktür ve kapalı ortamda güvenlidir. Kapasite ve şarj süresi, günlük kullanım yoğunluğunuza göre seçilir; yoğun tam gün kullanımda yedek akü veya vardiya arası şarj planı öneririz. Dizeli yalnızca açık saha veya çok iyi havalandırılan geniş hollerde öneriyoruz.",
+            },
+            {
+                soru: "Rafımız 5,5 metre yüksekliğinde; her makine bu yüke çıkabilir mi?",
+                cevap:
+                    "Hayır — kaldırma kapasitesi yükseklikle azaldığı için mast uzadıkça izin verilen yük düşer, bu yüzden 'yüksekliğe çıkar' demek yetmez. Rafın en üst kotundaki tipik palet ağırlığını ve o yükseklikteki makinenin kapasite tablosunu birlikte kontrol ediyoruz. OSTİM'in 4-6 metre bant raflarında orta sınıf elektrikli istif makineleri genellikle yeterlidir; 5,5 metre ve üzeri için tabloyu keşifte netleştiririz.",
+            },
+            {
+                soru: "Sadece bir kamyon dolusu malzemeyi indirtmek istiyoruz, uzun süreli kiralamaya gerek yok; olur mu?",
+                cevap:
+                    "Olur — bu tip tek seferlik yükleme-boşaltma işleri için operatörlü kısa süreli kiralama (yarım gün-bir gün) en ekonomik seçenektir. Makine, operatör ve nakliye tek pakette gelir, iş biter bitmez makine geri alınır. Sürekli depo işletmeniz varsa (günlük istifleme) uzun dönem operatörsüz kiralama daha ekonomiktir — hangisinin size uygun olduğunu iş sıklığınıza göre birlikte belirleriz.",
+            },
+            {
+                soru: "Forklift operatörümüzün belgesi yok; siz operatör de sağlıyor musunuz?",
+                cevap:
+                    "Evet, operatörlü kiralama seçeneğimiz var — geçerli forklift operatör belgesine ve deneyime sahip operatörümüz makineyle birlikte gelir. Kendi personelinizi kullanmak istiyorsanız (operatörsüz kiralama), personelin geçerli belgeye sahip olması mevzuat gereğidir ve teslimat öncesi bu belgeyi kontrol etmenizi öneririz. Dar koridor gibi zorlu sahalarda, ilk çalışmada kısa bir oryantasyon turu öneririz.",
+            },
+            {
+                soru: "Atölyemizin zemini eski ve pürüzlü; forklift bundan etkilenir mi?",
+                cevap:
+                    "Etkilenebilir — pürüzlü veya hafif eğimli zeminlerde tekerlek tipi ve sayısı farklı seçilebilir, standart sert-düz zemin lastiği her zemine uygun olmayabilir. Zeminin durumunu (çatlak, eğim, eski döşeme) keşifte değerlendirip uygun tekerlek konfigürasyonunu seçiyoruz. OSTİM'in eski yapı stokunda bu tip zemin farklılıkları sık görülür; bu yüzden atölye içi keşfi ihmal etmiyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dar koridor forklift şase ve kapasite ilişkisi üretici teknik verileridir; OSTİM atölye dokusu ve raf profili kamuya açık saha bilgisidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Dar Alan ve Engebeli Zeminde Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platform bomu, tek bir düşey kol değil, iki veya üç bölümden oluşan ve her ekleminden bağımsız kırılabilen bir koldur — bu geometri, düz çıkışın imkânsız olduğu her yerde makaslı ve teleskopik platformun önüne geçer. OSTİM ve Ankara'nın diğer OSB'lerinde dar alan ve engebeli zemin, istisna değil kuraldır: bina bitişikliği, avlu darlığı, engel yoğunluğu ve zemin düzensizliği bir arada gelir. Filomuzu bu profil üzerine kurmamızın nedeni budur — bomun kırılım kabiliyeti dar bir boşluğa park edip bir engelin üzerinden veya çevresinden hedefe uzanmayı mümkün kılar, arazi tipi tahrik ise engebeli, eğimli veya stabilize zeminde bu erişimi taşır. Bu sayfa, ana hizmetimiz olan eklemli platform kiralamanın geometrik mantığını, model sınıflarını ve karar sürecini baştan sona anlatır.",
+        maddeler: [
+            {
+                baslik: "Zarf diyagramı: 'kaç metre' değil 'nereye ulaşır' sorusu",
+                metin:
+                    "Eklemli platform seçiminde tek başına 'çalışma yüksekliği' rakamı yeterli bilgi vermez; asıl belirleyici çalışma zarfı (working envelope) diyagramıdır — her yükseklikte makinenin ulaşabildiği yatay mesafeyi gösteren eğri. Maksimum yükseklik ile maksimum yatay erişim aynı anda kullanılamaz; bom yükseldikçe yatay erişim daralır, alçaldıkça genişler. Dar alan ve engebeli zemin işlerinde üç veriyi bu diyagrama işaretleriz: park noktasının hedefe olan yatay-düşey mesafesi, aradaki engelin yüksekliği-derinliği ve hedefin kotu. Bu üçlü olmadan verilen 'ulaşır' cevabı tahmindir; diyagramla verilen cevap hesaptır.",
+            },
+            {
+                baslik: "Bom sınıfları: kompakt, orta, yüksek metraj",
+                metin:
+                    "Eklemli platformlar üç kaba sınıfta düşünülür. Kompakt sınıf (12-16 metre çalışma yüksekliği, dar şase) iç mekân ve çok dar avlu işlerinin makinesidir — şase genişliği çoğu kapıdan geçer. Orta sınıf (16-20 metre) OSTİM'in çok katlı sanayi yapılarındaki tipik cephe-tavan işlerinin bandıdır. Yüksek metrajlı sınıf (20 metre ve üzeri, genellikle dizel 4x4) Sincan gibi ağır sanayi hollerinde ve geniş dış sahalarda kullanılır. Hangi sınıfın gerektiği, zarf diyagramı hesabından çıkar — sınıf seçiminde 'daha büyüğü daha güvenli' varsayımı yanlıştır çünkü büyük şase dar alana sığmayabilir.",
+            },
+            {
+                baslik: "Tahrik tipi: akülü, dizel, 4x4",
+                metin:
+                    "Tahrik seçimi zemine göre yapılır. Akülü modeller sert-düz zeminde (beton atölye, iç mekân) sessiz ve emisyonsuz çalışır ama yumuşak veya eğimli zeminde tırmanma-denge sınırı düşüktür. Dizel 4x4 modeller stabilize, engebeli veya hafif eğimli dış sahalarda arazi lastikleri ve şasi dengeleme sistemiyle çalışır; gürültü ve egzoz nedeniyle kapalı alanda tercih edilmez. Karışık sahalarda (bir kısmı kapalı hol, bir kısmı dış avlu) iş iki fazlı planlanır ve gerekiyorsa iki tahrik tipi arasında geçiş yapılır — tek makineyle her zemin çözülmez, doğru eşleşme keşifte yapılır.",
+            },
+            {
+                baslik: "Kuyruk taşması ve park pozisyonu",
+                metin:
+                    "Dar alanda çalışan eklemli platformun görünmeyen riski, dönüş sırasında şase arkasının savrulmasıdır (kuyruk taşması/tail swing) — bu, sürücünün gördüğü ön taraftan değil arkadan gelir ve dar bir koridorda duvara veya kişiye temas riski taşır. Park pozisyonu seçilirken bu pay hesaba katılır; dönüş gereken işlerde çevre bariyerlenir ve mümkünse dönüşsüz (tek yönlü giriş-çıkış) bir plan kurulur. Kompakt modellerin kuyruk taşması, standart modellere göre belirgin düşüktür — bu, dar alan seçiminin bir diğer kriteridir.",
+            },
+            {
+                baslik: "Bom güvenliği: eklemli sınıfın kendine özgü kuralları",
+                metin:
+                    "Eklemli platformun güvenlik profili makaslıdan farklıdır: bom bir engele çarptığında sepet yaylanabilir ve operatör fırlayabilir, bu yüzden tam vücut kemeri ve kısa lanyard eklemli sınıfta EN 280 gereği zorunludur — iç mekânda bile. Elektrik hatlarına güvenli mesafe, iletken bom gövdesi nedeniyle tavizsiz uygulanır; hattın enerjisiz kılınamadığı işlerde erişim geometrisi mesafeyi koruyacak açıdan çizilir. Dar alanda çalışırken dönüş bariyeri ve engelle bomun teması anında iş durdurma talimatı, operatör brifinginin sabit maddeleridir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dar alan / engebeli zemin senaryosu ve model eşleşmesi",
+                paragraflar: [
+                    "En sık karşılaştığımız beş dar alan-engebeli zemin senaryosu ve önerdiğimiz model sınıfı aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Zemin/alan tipi", "Model sınıfı", "Kritik ölçü"],
+                    satirlar: [
+                        ["Dar avlu, sundurma üstü cephe", "Beton, dar park", "Kompakt akülü 12 – 16 m", "Park boşluğu + engel yüksekliği"],
+                        ["Çok katlı iş hanı cephesi", "Beton, kaldırım", "Orta sınıf 16 – 20 m", "Zarf diyagramı hesabı"],
+                        ["Kurulu hol içi, tezgâh üstü", "Beton, iç mekân", "Kompakt akülü, düşük kapalı yükseklik", "Kapı-koridor genişliği"],
+                        ["Stabilize/engebeli dış saha", "Toprak, eğimli", "Dizel 4x4 eklemli", "Eğim sınırı + zemin taşıma"],
+                        ["Ağır sanayi holü, yüksek metraj", "Beton, vinç trafiği", "Yüksek metraj 20 m+", "Vinç kilitleme penceresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşif ölçü seti: üç koordinat, bir fotoğraf",
+                paragraflar: [
+                    "Eklemli işin keşfi dört veri ister: park boşluğunun ölçüsü ve hedefe yatay uzaklığı, aşılacak engelin yüksekliği ile derinliği, hedefin yerden kotu ve tümünü gösteren bir saha fotoğrafı. Bu set, zarf diyagramına işaretlenerek makinenin ulaşıp ulaşamayacağı keşif masasında kesinleştirilir — 'gelip bakalım' turu gerekmez, yanlış makine hiç yola çıkmaz.",
+                    "Engebeli zeminli işlerde bu sete bir beşinci veri eklenir: zeminin eğim ve sertlik durumu. Şüpheli zeminde ayrıca bir fotoğraf veya kısa açıklama istenir; gerekirse önceden bir keşif turu planlanır.",
+                ],
+            },
+            {
+                baslik: "Doğru sınıfı seçmenin ekonomisi",
+                paragraflar: [
+                    "Dar alan işlerinde 'daha büyük makine daha güvenli' düşüncesi yanılgıdır — büyük şase dar alana hiç girmeyebilir veya girse bile manevra edemez, bu da işi hiç yapamama veya süre uzaması riskidir. Tersi de doğru değildir: yetersiz metrajlı kompakt model, hedefe ulaşamayan yarım iş demektir. Doğru sınıf, zarf diyagramı hesabından çıkar ve bu hesap, hem gereksiz büyük makinenin dar alana sığmama riskini hem yetersiz makinenin ulaşamama riskini önler.",
+                    "Bu yüzden telefon üzerinden 'bize 18 metrelik eklemli lazım' talebini aldığımızda bile, park boşluğu ve engel ölçüsünü sorarız — rakam tek başına yeterli bilgi değildir, geometriyle doğrulanmalıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform tam olarak neden makaslı veya teleskopikten daha uygun?",
+                cevap:
+                    "Bomun kırılım kabiliyeti nedeniyle — makaslı ve teleskopik yalnızca düz yukarı-öne çıkar, eklemli ise bom birden fazla eklemden kırılarak bir engelin üzerinden veya çevresinden dolaşarak hedefe ulaşır. Hedefin altı doluysa (tezgâh, sundurma, araç, engel) eklemli tek çözümdür. Hedefin altı boşsa ve düz çıkış yetiyorsa makaslı hem daha ekonomik hem daha geniş sepetlidir ve o durumda dürüstçe makaslıyı öneririz — eklemli her işin makinesi değildir.",
+            },
+            {
+                soru: "Zarf diyagramı hesabı olmadan sadece rakam vererek makine seçebilir miyiz?",
+                cevap:
+                    "Riskli olur — 'çalışma yüksekliği' tek başına yeterli bilgi değildir çünkü maksimum yükseklikte yatay erişim daralır. Dar alan işlerinde park boşluğu, engel ölçüsü ve hedef kotu birlikte diyagrama işaretlenmeden verilen rakam tahmindir. Bu üçlü veriyi paylaşırsanız (fotoğrafla birlikte en hızlısı) diyagram kontrolünü biz yapar, ulaşan modelleri listeleriz — sahaya yanlış makineyle gidip geri dönmek, ikinci sevkiyat maliyeti demektir ve bunu önlemek keşifin amacıdır.",
+            },
+            {
+                soru: "Dış sahamız engebeli ve eğimli; hangi tahrik tipi güvenli çalışır?",
+                cevap:
+                    "Dizel 4x4 eklemli — arazi lastikleri, yüksek tırmanma kabiliyeti ve şasi dengeleme sistemiyle bu sahalar için tasarlanmıştır. Akülü modeller sert-düz zemin ister ve engebeli/stabilize sahada tırmanma-denge sınırına takılabilir. Güvenli çalışmanın anahtarı doğru park pozisyonudur: eğim, makinenin sınırı içinde kalacak noktada seçilir; sınır dışına çıkıldığında makine çalışmayı zaten kilitler. Saha eğimini ve zemin fotoğrafını keşifte netleştiriyoruz.",
+            },
+            {
+                soru: "Dar bir avluda dönüş yapmamız gerekiyor; kuyruk taşması riski nedir?",
+                cevap:
+                    "Kuyruk taşması, makine dönerken şase arkasının savrulmasıdır ve dar avluda görünmeyen bir risktir — operatörün önden gördüğü değil arkadan gelen tehlikedir. Kompakt modellerde bu taşma standart modellere göre belirgin düşüktür ve dar alan seçiminde bu kriteri öne çıkarırız. Dönüş gereken her işte çevre bariyerlenir; mümkünse tek yönlü giriş-çıkışlı bir park planı kurularak dönüş ihtiyacı en aza indirilir.",
+            },
+            {
+                soru: "Elektrik hattı yakınında eklemli platformla çalışmak güvenli mi?",
+                cevap:
+                    "Güvenli mesafe planıyla evet, plansız hayır. Bom iletken gövdedir ve hat enerjisiz kılınabiliyorsa (dağıtım şirketi süreciyle) iş rahat planlanır; kılınamıyorsa gerilim sınıfına göre tanımlı güvenli mesafe korunacak şekilde erişim geometrisi çizilir — bazen hedefe farklı bir açıdan yaklaşmak mesafeyi sağlar. Mesafenin sağlanamadığı işi almayız, risk almaya değmez. Hat konumunu fotoğrafta işaretleyin, geometri kontrolünü keşifte yapalım.",
+            },
+            {
+                soru: "18 metrelik eklemli istiyoruz ama avlumuz gerçekten çok dar; büyük makine sığar mı diye endişeliyiz?",
+                cevap:
+                    "Haklı bir endişe ve bu yüzden metraj tek başına yeterli değildir — 18 metre yükseklik, farklı şase genişliklerinde makinelerden gelebilir. Avlu ölçüsünü ve engel-hedef geometrisini paylaşırsanız, o metrajda hem sığan hem ulaşan model kombinasyonunu ararız; bazen tek makine yerine daha kompakt bir modelin farklı bir açıdan yaklaşması aynı sonucu verir. Sığmayan bir makineyi 'olur' diyerek göndermeyiz — bu, hem işi geciktirir hem güven kaybettirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Zarf diyagramı, kuyruk taşması ve tahrik tipi ayrımı EN 280 ve üretici standartlarıdır; OSTİM ve Ankara OSB'lerinin dar alan-engebeli zemin dokusu kamuya açık saha bilgisidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Küçük İmalathanelerde İç Mekân ve Depo İçi Platform Kiralama",
+        giris:
+            "OSTİM'in küçük imalathanelerinde iç mekân işi, dış mekân işinden tamamen farklı bir kısıt seti taşır: kapı genişliği, tavan yüksekliği, zemin türü ve içeride zaten duran makine parkı. Bir platformun atölyeye girebilmesi için önce kapıdan geçmesi, sonra tavana çarpmadan ilerlemesi, sonra da tezgâh dizilimi arasında manevra edebilmesi gerekir — üçü birden sağlanmadan iş başlamaz. Bu sayfa, kompakt iç mekân eklemli ve akülü makaslı modellerin OSTİM atölyelerindeki tipik kullanımını, kapı-koridor ölçümünün neden ilk adım olduğunu ve iç mekâna özgü güvenlik kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapı ölçüsü: işin girebilmesinin ilk şartı",
+                metin:
+                    "İç mekân talebinde ilk sorduğumuz ölçü kapı genişliği ve yüksekliğidir — çünkü makinenin çalışma yüksekliği ne olursa olsun, kapıdan geçemiyorsa iş başlamaz. Kompakt akülü eklemli ve makaslı modeller genellikle 80-90 cm bandında kapılardan geçecek şekilde tasarlanır; standart sanayi kapısı bu bandın üzerindedir ama bazı eski atölye yapılarında kapı daha dardır. Kapı ölçüsü net değilse iş öncesi teyit alınır — sahaya gidip kapıdan geçmeyen makineyle karşılaşmak, hem zaman hem güven kaybıdır.",
+            },
+            {
+                baslik: "Kapalı yükseklik ve tavan payı",
+                metin:
+                    "Atölye tavanları genellikle 4-8 metre bandındadır ama bazı eski yapılarda veya ara katlı bölümlerde bu düşer. Makinenin kapalı hâldeki (park pozisyonundaki) yüksekliği, tavana veya sarkan tesisata (aydınlatma, boru, kablo tavası) çarpmayacak şekilde seçilir — bu ölçü çalışma yüksekliğinden bağımsız ayrı bir kontroldür. Düşük kapalı yükseklikli özel modeller, standart tavanın altında bile çalışabilecek şekilde tasarlanmıştır ve alçak tavanlı atölyelerde bu seçilir.",
+            },
+            {
+                baslik: "Tezgâh dizilimi arasında manevra",
+                metin:
+                    "İmalathane içindeki hedeflerin altı neredeyse hiç boş değildir — torna-freze hatları, pres tezgâhları, kaynak masaları taşınamaz. Kompakt iç mekân eklemli, atölye kapısından girer, koridorda ilerler ve bomunu tezgâhın üzerinden hedefe uzatır; bu, dar şase ve düşük kapalı yüksekliğin birleşiminin sağladığı bir manevradır. Manevra alanı dar olduğundan operatör, ilerlerken çevredeki sabit ekipmana temas etmemek için düşük hızda ve gözlemciyle çalışır.",
+            },
+            {
+                baslik: "Zemin türü: parke, beton, epoksi kaplama",
+                metin:
+                    "Akülü modeller sert-düz zemin ister ve OSTİM atölyelerinin çoğu beton veya epoksi kaplı zemine sahiptir — bu, akülünün varsayılan tercih olmasının nedenidir. Zeminde hassas kaplama (yeni epoksi, hassas cihaz altı zemin) varsa lastik izi bırakmayan (non-marking) tekerlek seçilir. Zemin bozuk veya eski beton çatlaklıysa, tekerlek geçişinde takılma riskine karşı güzergâh önceden kontrol edilir; ciddi bozukluk varsa geçici düzeltme (metal plaka) önerilir.",
+            },
+            {
+                baslik: "Vinçli atölyelerde sepet-kanca ayrımı",
+                metin:
+                    "OSTİM'in vinçli atölyelerinde platform sepeti ile vinç kancasının aynı düşey hatta girmemesi, temel güvenlik kuralıdır — bu ayrım, iş öncesi vinç operatörüyle koordine edilir ve gerekirse vinç, çalışma bölgesinde kısa süreliğine kilitlenir. Kilitleme penceresi üretim programına göre kısa tutulur ki iş akışı fazla etkilenmesin. Bu koordinasyon, atölye içi eklemli işlerinin standart bir parçasıdır ve teslimat öncesi operatör brifinginde ayrıca vurgulanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekân ölçü kontrol listesi",
+                paragraflar: [
+                    "İç mekân işlerinde makinenin sığıp sığmayacağını belirleyen beş ölçü ve neden önemli oldukları aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçü", "Neden önemli", "Tipik OSTİM değeri", "Kontrol yöntemi"],
+                    satirlar: [
+                        ["Kapı genişliği-yüksekliği", "Makine giremezse iş başlamaz", "80 – 120 cm bandı", "Şerit metre + fotoğraf"],
+                        ["Tavan/kapalı yükseklik payı", "Sarkan tesisata çarpma riski", "4 – 8 m bandı", "Göz kontrolü + ölçü"],
+                        ["Koridor genişliği", "Manevra ve dönüş imkânı", "Değişken, dar olabilir", "En dar noktadan ölçü"],
+                        ["Zemin türü", "Tekerlek tipi ve iz bırakma", "Beton/epoksi", "Fotoğraf + kaplama bilgisi"],
+                        ["Vinç varlığı", "Kanca-sepet ayrımı gereksinimi", "Bazı atölyelerde mevcut", "Sözlü teyit + saha kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yanlış makineyle sahaya gitmemenin ekonomisi",
+                paragraflar: [
+                    "İç mekân işlerinde en sık yaşanan sorun, kapı veya koridor ölçüsü kontrol edilmeden gönderilen makinenin sahaya sığmamasıdır — bu durumda makine geri döner, ikinci bir sevkiyat planlanır ve iş bir gün gecikir. Bu maliyeti önlemenin tek yolu, teslimat öncesi ölçü kontrolüdür; telefonla sözlü tarif yerine fotoğraf ve şerit metre ölçüsü istememizin nedeni budur.",
+                    "İlk kez çalıştığımız atölyelerde, ölçü belirsizse teslimattan önce kısa bir keşif turu önerilir — bu tur, makine göndermeden yalnızca ölçü almak içindir ve sonraki tüm işlerde artık ölçü kayıtlı olduğundan tekrar gerekmez.",
+                ],
+            },
+            {
+                baslik: "İç mekân çalışma disiplini",
+                paragraflar: [
+                    "Kapalı alanda çalışma, açık sahadan farklı disiplinler ister: akülü makinenin sessiz ve emisyonsuz olması avantajdır ama dar alanda düşük hızda ilerleme ve sürekli gözlemci desteği önceliklidir. Alet ve malzeme sepette bağlanır — dar koridorda düşen bir alet, hem hassas tezgâha zarar verebilir hem yaralanma riski taşır. Vinçli atölyelerde kilitleme penceresi dışında bom, vinç hattının altına sokulmaz.",
+                    "İş bitiminde makinenin çıkışı da girişi kadar planlıdır — dar koridorda geri manevra yerine mümkünse ileri doğru çıkış güzergâhı kurulur; bu, kuyruk taşması riskini azaltır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemizin kapısı standarttan biraz dar görünüyor; makine geçer mi?",
+                cevap:
+                    "Kesin cevap ölçüyle gelir — kompakt iç mekân modelleri genellikle 80-90 cm bandında kapıdan geçer ama eski yapı stoğunda bazı kapılar daha dardır. Kapı genişliği ve yüksekliğini şerit metreyle ölçüp fotoğrafla paylaşın; bu ölçüyü model listesiyle karşılaştırıp geçen modeli önceden söyleriz. Ölçü kontrolü yapılmadan makine göndermeyiz — sahaya gidip kapıdan geçmemek, hem sizin hem bizim zamanımızı boşa harcar.",
+            },
+            {
+                soru: "Atölyemizde tavan alçak ve üzerinde kablo tavası var; risk oluşturur mu?",
+                cevap:
+                    "Kontrol edilmeden evet, kontrol edilirse hayır. Makinenin kapalı hâldeki yüksekliği, tavana veya sarkan tesisata çarpmayacak şekilde ayrıca seçilir — bu, çalışma yüksekliğinden bağımsız bir ölçüdür. Alçak tavanlı atölyeler için düşük kapalı yükseklikli özel modeller vardır. Tavan yüksekliğini ve varsa sarkan tesisatın alt kotunu fotoğrafla paylaşın, uygun modeli buna göre seçelim.",
+            },
+            {
+                soru: "Tezgâhlarımızın üzerine erişim gerekiyor ama tezgâhları taşıyamayız; ne yapılır?",
+                cevap:
+                    "Tezgâh taşınmadan çalışılır — bu, iç mekân eklemli işlerinin tipik senaryosudur: makine tezgâh hattının yanına park eder, bomunu tezgâhın üzerinden hedefe uzatır. Kapı-koridor ölçüsü teyit edildikten sonra bu manevra rahatlıkla yapılır. Tezgâh sökümü hem üretim kaybı hem hassas ayar bozulması riskidir; eklemli erişim tam bu maliyeti ortadan kaldırmak için tercih edilir.",
+            },
+            {
+                soru: "Zeminimiz yeni epoksi kaplı, iz kalmasından endişeleniyoruz; çözüm var mı?",
+                cevap:
+                    "Var — non-marking (iz bırakmayan) tekerlekli modeller hassas kaplamalar için standart seçimimizdir. Zeminin türünü ve varsa özel hassasiyetini (yeni kaplama, hassas cihaz altı zemin) teslimat öncesi belirtin, tekerlek konfigürasyonunu buna göre seçelim. Zemin bozuk veya çatlaklıysa da ayrıca değerlendirilir; güzergâh önceden kontrol edilerek takılma riski önlenir.",
+            },
+            {
+                soru: "Atölyemizde tavan vinci var; platformla çakışma riski nasıl yönetilir?",
+                cevap:
+                    "Sepet-kanca düşey ayrımıyla — platform sepeti ile vinç kancasının aynı düşey hatta girmemesi temel kural, bu ayrım iş öncesi vinç operatörüyle koordine edilir. Gerekirse vinç, çalışma bölgesinde kısa süreliğine kilitlenir ve pencere üretim programınıza göre kısa tutulur. Vinç varlığını ve kullanım yoğunluğunu teslimat öncesi bildirin, koordinasyon planını önceden kuralım.",
+            },
+            {
+                soru: "İlk kez çalışıyoruz, ölçüleri kendimiz doğru alabilir miyiz yoksa siz mi gelip bakmalısınız?",
+                cevap:
+                    "Çoğu durumda kendiniz alabilirsiniz — kapı genişliği-yüksekliği, en dar koridor noktası ve tavan yüksekliği şerit metreyle ölçülüp fotoğrafla paylaşıldığında genellikle yeterlidir. Ölçü belirsiz veya sahada karmaşık bir düzen (birden fazla dönüş, ara kat) varsa, teslimattan önce kısa bir keşif turu öneririz — bu tur sadece ölçü almak içindir, makine gelmez. İlk ölçüm kayıt altına alındıktan sonra sonraki işlerde tekrar gerekmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapı-koridor-tavan ölçü ilişkisi ve non-marking tekerlek uygulaması üretici teknik verileridir; OSTİM atölye yapı stoğu kamuya açık saha bilgisidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Dar Parsellerde Çelik Konstrüksiyon Montaj Platformu Kiralama",
+        giris:
+            "OSTİM ve çevresindeki OSB'lerde yeni bina inşası veya mevcut binaya ek yapım, neredeyse her zaman dar bir parselde ve komşu yapılara bitişik şekilde ilerler — bu, standart vinç ve iskele planlarının şehir dışı şantiyelerdeki gibi geniş çalışma alanı bulamayacağı anlamına gelir. Çelik konstrüksiyon montajında kolon-kiriş birleşimleri, aşık montajı ve cephe kaplaması, kurulmakta olan iskeletin dışından erişilmesi gereken işlerdir ve eklemli platformun bom kırılımı, dar parseldeki montaj sırasının doğal makinesidir. Bu sayfa, dar parsel çelik montaj işlerinde eklemli platformun rolünü, montaj sırasıyla ilişkisini ve saha güvenliği kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Dar parselde montaj sırası ve makine erişimi",
+                metin:
+                    "Çelik iskelet montajı belirli bir sırayla ilerler — önce kolonlar, sonra ana kirişler, sonra aşıklar ve çaprazlar. Dar parselde makinenin park edeceği boşluk, montaj ilerledikçe daralır: iskelet büyüdükçe eskiden boş olan alanlar dolar. Bu yüzden makine park planı, tek seferlik değil montaj takvimine göre güncellenen bir plandır — hangi aşamada makinenin nereden çalışacağı, montaj ekibiyle birlikte önceden çizilir. Geç fark edilen bir park sorunu, montajın o gününü tamamen durdurabilir.",
+            },
+            {
+                baslik: "Kolon-kiriş birleşimlerinde bom erişimi",
+                metin:
+                    "Kolon-kiriş birleşim noktaları genellikle iskeletin iç tarafında, komşu elemanların arasında kalır ve eklemli bom, dışarıdan park edip elemanların arasına kırılarak bu noktalara ulaşır — makaslının düz çıkışıyla bu geometri çoğu noktada mümkün değildir. Cıvatalama veya kaynak işlemi sırasında sepet, birleşim noktasına yakın ama montaj ekibinin çalışma alanını kapatmayacak konumda tutulur. Aynı anda birden fazla ekip farklı birleşimlerde çalışıyorsa, platform sırası günlük plana bağlanır.",
+            },
+            {
+                baslik: "Askıda yük hattı altında çalışma yasağı",
+                metin:
+                    "Montaj sahasında vinç, çelik elemanları sürekli havada taşır ve bu hat, platformun bom rotasıyla asla kesişmemelidir — askıda yük hattının altına bom sokmak, kural olarak yasaktır. Vinç operatörüyle telsiz koordinasyonu bu yüzden sürekli açık tutulur: platform bir bölgede çalışırken vinç o bölgeye yük taşımaz, vinç yük taşırken platform o rotanın dışında beklenir. Bu koordinasyon, montaj hızını düşürmez çünkü iki ekibin işi zaten farklı noktalardadır — sadece rota çakışmasını önler.",
+            },
+            {
+                baslik: "Cephe kaplama ve panel montajında seri ilerleme",
+                metin:
+                    "İskelet tamamlandıktan sonra cephe kaplama (sandviç panel, trapez sac) aşaması, hat boyunca seri ilerler: makine panel hattını izleyerek kademeli konum değiştirir, sepette panel-vidalama ekipmanı taşınır. Dar parselde bu seri ilerleme, park noktasının hat boyunca birkaç kez değişmesini gerektirir — her konum değişikliğinde çevredeki iskele, malzeme yığını veya komşu duvarla mesafe yeniden kontrol edilir. Rüzgârlı günlerde geniş panel yüzeyinin yelken etkisi nedeniyle panel taşıma durdurulur.",
+            },
+            {
+                baslik: "Komşu parsel ve ortak duvar hassasiyeti",
+                metin:
+                    "OSTİM'in bitişik nizam dokusunda montaj sahası genellikle bir komşu parselle duvar veya çok dar bir aralıkla ayrılır. Bu aralıktan çalışırken hem komşu yapıya fiziksel temas hem komşu işletmenin faaliyetine müdahale (gürültü, erişim engeli) önlenir — park pozisyonu ve çalışma saatleri bu hassasiyetle planlanır. Komşu parselden geçici erişim izni gerekiyorsa (örneğin daha iyi bir açı için), bu izin işveren üzerinden önceden alınır; izinsiz komşu parsele girilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşaması ve platform rolü",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajının aşamalarına göre platformun rolü ve dikkat noktası aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Platform rolü", "Kritik risk", "Koordinasyon"],
+                    satirlar: [
+                        ["Kolon dikme", "Genellikle vinç ağırlıklı, platform destek", "Vinç hattı", "Telsiz koordinasyon"],
+                        ["Kiriş-aşık montajı", "Birleşim noktası erişimi", "Askıda yük altı", "Günlük sıra planı"],
+                        ["Çapraz bağlantı", "Dar açılı nokta erişimi", "Kuyruk taşması", "Dönüş bariyeri"],
+                        ["Cephe/çatı kaplama", "Seri hat ilerleme", "Rüzgâr/panel yelken etkisi", "Hava takibi"],
+                        ["Son kontrol-detay", "Nokta bazlı erişim", "Düşük öncelik ama dar erişim", "Esnek planlama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj ekibiyle günlük saha koordinasyonu",
+                paragraflar: [
+                    "Dar parsel çelik montajında platform operatörü, montaj ekibinin bir parçası gibi çalışır — her sabah kısa bir saha toplantısında o günün montaj sırası, hangi noktalarda platform gerektiği ve vinç rotasının nereden geçeceği netleştirilir. Bu koordinasyon, işin ortasında 'platform şimdi nereye park etsin' sorusuyla zaman kaybetmeyi önler.",
+                    "Montaj hızlandıkça (özellikle cephe kaplama fazında) platform konum değişikliği sıklaşır; bu fazda operatörün montaj ekibiyle sürekli görsel temas hâlinde çalışması, koordinasyonu telsize bağımlı kalmaktan çıkarır.",
+                ],
+            },
+            {
+                baslik: "Dar parselde iskele ile platform karşılaştırması",
+                paragraflar: [
+                    "Dar parsel montajında iskele kurmak bazen tek seçenek gibi görünür ama alan darlığı aslında iskelenin de kısıtıdır — iskele kurulumu için de boşluk gerekir ve dar parselde bu boşluk platform kadar sınırlıdır. Platformun avantajı, gün içinde konum değiştirebilmesi ve kurulum-söküm zamanı gerektirmemesidir; iskelenin avantajı ise geniş, sabit bir çalışma yüzeyi sunmasıdır. Kısa süreli, hareketli montaj işlerinde platform; uzun süreli, sabit ve geniş yüzeyli işlerde (örneğin büyük bir cephe panelinin toptan kaplanması) iskele daha ekonomik olabilir.",
+                    "Karar, işin süresine ve hareketliliğine göre keşifte birlikte verilir — bazı projelerde ikisi aynı sahada farklı aşamalarda kullanılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Parselimiz çok dar, iskelet büyüdükçe makine park edecek yer kalmayacak gibi görünüyor; nasıl planlanır?",
+                cevap:
+                    "Montaj takvimine göre güncellenen bir park planıyla — tek seferlik değil, her aşama için ayrı park noktası önceden çizilir. Montaj ekibinizle birlikte kolon-kiriş-çapraz sırasını görüp hangi aşamada makinenin nereden çalışacağını belirleriz; iskelet büyüdükçe daralan alanlar bu plana önceden işlenir. Parsel ölçüsünü ve montaj takviminizi paylaşın, aşama bazlı planı birlikte kuralım.",
+            },
+            {
+                soru: "Vinçle aynı anda çalışacağız; çakışma riski nasıl önlenir?",
+                cevap:
+                    "Sürekli telsiz koordinasyonuyla — askıda yük hattının altına bom asla sokulmaz, platform bir bölgede çalışırken vinç o bölgeye yük taşımaz. İki ekibin işi zaten farklı noktalarda olduğundan bu koordinasyon montaj hızını düşürmez, sadece rota çakışmasını önler. Vinç operatörünüzle ilk gün kısa bir brifingle çalışma kuralını netleştiririz; bu kural, sahadaki tüm ekipler için tek standarttır.",
+            },
+            {
+                soru: "Cephe panel montajında rüzgâr işi ne kadar etkiler?",
+                cevap:
+                    "Ciddi etkiler — geniş panel yüzeyi rüzgârda yelken gibi davranır ve rüzgârlı günlerde panel taşıma durdurulur; bu, güvenlik kuralımızdır, pazarlık konusu değildir. Ankara'nın açık sahalarında öğleden sonra rüzgârlanması bilinen bir desendir, panel işleri bu yüzden sabah bloklarına planlanır. Rüzgârlı bir haftada panel montajı süresi uzayabilir; bunu takvime baştan işleriz ki sürpriz gecikme yaşanmasın.",
+            },
+            {
+                soru: "Komşu parselle aramızda çok dar bir aralık var; oradan erişim mümkün mü?",
+                cevap:
+                    "Dar aralıktan erişim, kompakt eklemli modellerin tipik işidir — ama önce iki şey kontrol edilir: aralığın genişliği (makinenin fiziksel olarak girip girmediği) ve komşu parsele geçici erişim gerekip gerekmediği. Komşu parselden geçiş gerekiyorsa bu izin işvereniniz üzerinden önceden alınır, izinsiz girilmez. Aralık ölçüsünü ve komşu parsel durumunu paylaşın, geçerli erişim planını birlikte çizelim.",
+            },
+            {
+                soru: "İskele mi kursak platform mu kiralasak, hangisi bu proje için daha ekonomik?",
+                cevap:
+                    "İşin süresine ve hareketliliğine bağlı — kısa süreli, sahanın farklı noktalarında hareketli çalışma gerektiren montaj işlerinde platform daha ekonomiktir çünkü kurulum-söküm zamanı gerektirmez ve gün içinde konum değiştirebilir. Uzun süreli, sabit ve geniş bir yüzeyin toptan kaplanacağı işlerde iskele daha uygun olabilir. Bazı projelerde ikisi farklı aşamalarda birlikte kullanılır. Montaj planınızı paylaşın, iki senaryonun maliyet karşılaştırmasını keşifte çıkaralım.",
+            },
+            {
+                soru: "Montaj ekibimiz platform kullanımına alışkın değil; koordinasyonu siz mi yönetiyorsunuz?",
+                cevap:
+                    "Evet — operatörümüz montaj ekibinizin parçası gibi çalışır ve her sabah kısa bir saha toplantısıyla günün sırasını, park noktalarını ve vinç rotasını birlikte netleştiririz. İlk günlerde koordinasyon biraz zaman alabilir ama montaj ekibiyle platform operatörü arasındaki uyum hızla oturur; bu, dar parsel projelerinde standart sürecimizdir ve montaj hızınızı yavaşlatmak yerine hızlandırmayı hedefler.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Askıda yük hattı ve vinç koordinasyon kuralları EN 280 ve iş güvenliği mevzuatı çerçevesindedir; OSTİM'in bitişik nizam parsel dokusu kamuya açık saha bilgisidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Sahalarında Platform Kiralama",
+        giris:
+            "Bu, filomuzun ana odağı olmayan bir hizmet başlığıdır ve bunu dürüstçe baştan söylemek gerekir: OSTİM merkezli çalışma alanımız, kentsel OSB dokusuna göre kuruludur ve tarım-silo işleri bölgemizde marjinal bir talep hacmine sahiptir. Buna rağmen Ankara'nın kırsal çeperinde — özellikle organize sanayi bölgelerinin dışına taşan tarımsal işletme ve depolama tesislerinde — zaman zaman silo bakımı, tahıl deposu çatı işi veya sera çelik konstrüksiyonu gibi talepler gelir. Bu sayfa, bu tip işlerde eklemli platformun neyi yapıp neyi yapamadığını, hangi durumda hizmet verebileceğimizi ve hangi durumda dürüstçe yönlendirme yapacağımızı anlatır.",
+        maddeler: [
+            {
+                baslik: "Silo dış cephesi ve çatı erişimi",
+                metin:
+                    "Tahıl veya yem silolarının dış cephe bakımı (boya, kaynak onarımı, merdiven-korkuluk tamiri) ve üst kapak-havalandırma erişimi, eklemli platformun teknik olarak yapabileceği bir iştir — silo yüksekliği ve çevresindeki zemin uygunsa. Silolar genellikle açık sahada, stabilize veya toprak zeminde bulunur; bu, dizel 4x4 eklemli modeli gerektirir. Silo çevresinde yeterli park boşluğu varsa (genellikle vardır, tarımsal tesislerde alan kısıtı OSTİM'e göre daha azdır) erişim görece basittir; darlık, bu sayfanın diğer konularındaki kadar sık karşılaşılan bir problem değildir.",
+            },
+            {
+                baslik: "Sera çelik konstrüksiyonu ve örtü montajı",
+                metin:
+                    "Modern sera yapılarının çelik iskelet montajı ve örtü (polikarbon, cam) montajı, standart çelik konstrüksiyon işine benzer ama bir farkla: sera içi çalışma, örtü hasar riskine karşı ekstra dikkat ister — bom hareketleri örtü panellerine temas etmeyecek şekilde yavaşlatılır. Sera dışından çalışılabilen işlerde (dış iskelet, üst kuşak) bu risk azalır. Bu tip işlerde talep geldiğinde, sera projesinin ölçeğine ve erişim koşullarına göre uygunluk değerlendirilir.",
+            },
+            {
+                baslik: "Kırsal alanda mesafe ve nakliye maliyeti",
+                metin:
+                    "Ankara'nın kırsal çeperindeki bir tarım tesisi, merkez üssümüze OSTİM içindeki bir işten çok daha uzak olabilir ve bu mesafe, nakliye maliyetini iş bedeline göre orantısız büyütebilir. Küçük ölçekli, kısa süreli bir işte nakliye bedeli işin kendisinden pahalı çıkabilir — bu durumda dürüst tavsiyemiz, işi ekonomik olmayan bir mesafede tek başına almak yerine, bölgedeki başka taleplerle birleştirmek veya farklı bir zaman diliminde planlamaktır.",
+            },
+            {
+                baslik: "Zemin belirsizliği: tarla, çamur, mevsimsel değişim",
+                metin:
+                    "Tarımsal arazilerin zemini mevsime göre büyük ölçüde değişir — kuru mevsimde sert olan bir tarla, yağmur sonrası çamura dönüşebilir ve bu, dizel 4x4 modelin bile tırmanma-denge sınırına takılmasına neden olabilir. Zemin durumu, iş tarihine yakın bir zamanda (mümkünse aynı gün) fotoğrafla teyit edilir; belirsiz zeminde iş, kuru bir güne ertelenir veya zemin geçici olarak sağlamlaştırılır (stabilizasyon, plaka döşeme) — bu ek maliyeti baştan söyleriz.",
+            },
+            {
+                baslik: "Bu hizmetin sınırları: ne zaman uygun değiliz",
+                metin:
+                    "Açıkça söylemek gerekir: büyük ölçekli tarımsal işletme kompleksleri, ağır hasat makinesi bakımı veya OSTİM'e çok uzak lokasyonlarda düzenli-tekrarlı iş talepleri bizim ana uzmanlık alanımızın dışındadır ve bu tip işler için bölgeye daha yakın ve tarım sektörüne odaklı bir tedarikçi genellikle daha ekonomik ve hızlı çözüm sunar. Bunu söylemekten çekinmiyoruz çünkü yanlış işi kabul edip yavaş-pahalı hizmet vermek, ne bize ne müşteriye fayda sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım-silo işlerinde uygunluk değerlendirmesi",
+                paragraflar: [
+                    "Bu tip taleplerde uygunluğu belirleyen faktörler ve tipik sonuç aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Faktör", "Uygun senaryo", "Sınırlı/uygun değil"],
+                    satirlar: [
+                        ["Mesafe (merkez üsse)", "Ankara çevresi, makul mesafe", "Çok uzak kırsal bölge"],
+                        ["Zemin durumu", "Kuru, stabilize/sert toprak", "Çamur, mevsimsel belirsiz zemin"],
+                        ["İş ölçeği", "Tekil silo/sera, nokta iş", "Büyük kompleks, tekrarlı iş"],
+                        ["Erişim alanı", "Açık, park boşluğu yeterli", "Çok dar, ekipman yoğun tesis"],
+                        ["Zaman hassasiyeti", "Esnek planlanabilir", "Hasat dönemi gibi dar pencere"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dürüst ön değerlendirme süreci",
+                paragraflar: [
+                    "Bu tip bir talep geldiğinde önce dört soruyu netleştiririz: mesafe, zemin durumu, iş ölçeği ve zaman hassasiyeti. Bu dört veriyle hem uygun olup olmadığımızı hem de uygunsa hangi model ve maliyetle çalışabileceğimizi hızlıca değerlendirebiliriz. Uygun değilsek bunu ilk görüşmede söyleriz — 'gelip bakalım' diyerek zaman kaybettirmeyiz.",
+                    "Uygun olduğumuz işlerde ise OSTİM'deki işlerimizle aynı titizlikle çalışırız: zarf diyagramı hesabı, zemin kontrolü ve güvenlik brifingi bu sayfanın konusunda da aynı standartla uygulanır.",
+                ],
+            },
+            {
+                baslik: "Alternatif öneri sağlama",
+                paragraflar: [
+                    "Bizim için uygun olmayan bir talep geldiğinde, elimizden geldiğince müşteriyi elleri boş bırakmamaya çalışırız — bölgeye daha yakın veya tarım sektörüne özel ekipman sunan tedarikçileri araştırıp yönlendirme yapabiliriz. Bu, kısa vadede iş kaybı gibi görünse de uzun vadede doğru iş için doğru adres olarak hatırlanmamızı sağlar.",
+                    "Sınırlarımızı bilerek çalışmak, kabul ettiğimiz her işte tam kapasiteyle durabilmemizin de garantisidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tahıl silomuzun dış cephesinde boya-onarım işi var; hizmet veriyor musunuz?",
+                cevap:
+                    "Silonun konumu Ankara çevresinde makul bir mesafedeyse ve çevresinde yeterli park boşluğu varsa evet — dizel 4x4 eklemli modelle dış cephe ve üst kapak erişimi teknik olarak yapılabilir bir iştir. Silo yüksekliğini, çevre zemin durumunu ve mesafeyi paylaşın, uygunluğu ve maliyeti netleştirelim. Çok uzak bir lokasyondaysa, nakliye maliyetinin iş bedeline oranını dürüstçe göstererek karar sizin olur.",
+            },
+            {
+                soru: "Seramızın çelik iskeleti kuruluyor, örtü montajında platform kullanılır mı?",
+                cevap:
+                    "Kullanılabilir, özellikle dış iskelet ve üst kuşak işlerinde. Sera içinden çalışılması gereken örtü montajında ekstra dikkat gerekir çünkü bom hareketleri örtü panellerine temas etmemelidir — bu durumda hareketler yavaşlatılmış modda yapılır. Proje ölçeğini ve erişim koşullarını paylaşın, uygunluğu değerlendirelim; büyük ölçekli sera komplekslerinde tarım sektörüne özel bir tedarikçi daha hızlı çözüm sunabilir, bunu da açıkça söyleriz.",
+            },
+            {
+                soru: "Tesisimiz OSTİM'e oldukça uzak; nakliye maliyeti işi mantıksız kılar mı?",
+                cevap:
+                    "Bağlıdır — küçük ölçekli, kısa süreli bir işte mesafe nakliye maliyetini orantısız büyütebilir ve bunu ilk görüşmede rakamla gösteririz. İş büyükse veya bölgede başka taleplerle birleştirilebiliyorsa nakliye payı düşer ve iş ekonomik hâle gelir. Mesafeyi ve iş kapsamını paylaşın, dürüst bir maliyet tablosu çıkaralım — ekonomik değilse bunu söyleriz, gereksiz teklif vermeyiz.",
+            },
+            {
+                soru: "Arazimiz yağmur sonrası çamur oluyor; platform çalışabilir mi?",
+                cevap:
+                    "Çamurlu zeminde çalışmayız — dizel 4x4 modelin bile tırmanma-denge sınırı bu koşulda aşılabilir ve devrilme riski oluşur. İş tarihine yakın zeminin durumunu fotoğrafla teyit ederiz; çamurluysa kuru bir güne erteleriz veya gerekiyorsa zemin geçici olarak sağlamlaştırılır (stabilizasyon, plaka döşeme) — bu ek maliyeti baştan söyleriz. Mevsimsel zemin değişkenliği olan arazilerde bu kontrolü atlamayız.",
+            },
+            {
+                soru: "Büyük bir tarımsal işletme kompleksinde düzenli bakım anlaşması yapmak istiyoruz; uygun musunuz?",
+                cevap:
+                    "Dürüstçe söylemek gerekirse büyük ölçekli, tekrarlı tarımsal işletme bakımı ana uzmanlık alanımız değil — bölgenize daha yakın ve tarım sektörüne odaklı bir tedarikçi muhtemelen daha ekonomik ve hızlı hizmet sunar. İhtiyacınız tekil bir iş veya küçük ölçekliyse değerlendirebiliriz; büyük ve sürekli bir anlaşma için ise size uygun bir alternatif aramanızı öneririz ve elimizden geldiğince yönlendirme yaparız.",
+            },
+            {
+                soru: "Hasat dönemi gibi dar bir zaman penceremiz var; garantili tarih verebilir misiniz?",
+                cevap:
+                    "Dar zaman pencereli, kritik terminli işlerde dürüst cevabımız temkinlidir — ana operasyon alanımız OSTİM olduğu için kırsal bölgedeki bir işe kesin tarih taahhüdü vermek, oradaki mevcut iş yükümüze bağlıdır. Talebinizi mümkün olduğunca erken iletirseniz uygunluğu netleştirebiliriz; ama hasat gibi ertelenemez bir pencereniz varsa, bölgenize daha yakın ve bu tip taleplere odaklı bir tedarikçiyle yedek plan yapmanızı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa, hizmetin filomuzun ana odağı olmadığını ve kapsam sınırlarını dürüstçe belirtir; teknik bilgiler (zemin, tahrik tipi) EN 280 ve üretici standartlarıdır.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "OSTİM Dar Sokaklarında Enerji ve Aydınlatma Bakım Platformu",
+        giris:
+            "OSTİM'in dar sokak ağında elektrik direği, sokak aydınlatması ve alçak gerilim hattı bakımı, bölgenin diğer erişim problemleriyle aynı kısıtı taşır: hedefe düz bir çıkışla ulaşmak nadiren mümkündür çünkü direkler genellikle sokak kenarında, park eden araçların ve dar geçişlerin arasında durur. Bu işlerin ikinci ve daha kritik katmanı ise güvenlik mesafesidir — eklemli platformun bom gövdesi iletkendir ve hat yakınında çalışmak, dar alan manevrasından bağımsız ayrı bir disiplin ister. Bu sayfa, OSTİM'in dar sokaklarında enerji-aydınlatma bakım işlerinin erişim ve güvenlik boyutunu, hat mesafesi kurallarını ve tipik iş senaryolarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Direk çevresi park problemi",
+                metin:
+                    "Elektrik ve aydınlatma direkleri, sokak kenarına dikilir ve çoğu zaman tam o noktada park eden araçlar, üstü kapalı sundurmalar veya dar kaldırım vardır. Makinenin direğe yeterince yakın park edip bomunu direk tepesine uzatabilmesi için önce bu çevre boşluğun ölçülmesi gerekir. Sokak trafiğinin kesilemediği durumlarda tek şerit park düzeni kurulur ve dönüş-çalışma alanı bariyerlenir; kalan şeritten trafik yönlendirmeyle akar. Gerekirse belediye işgaliye süreci planlamaya eklenir.",
+            },
+            {
+                baslik: "İletken bom ve hat mesafesi kuralı",
+                metin:
+                    "Eklemli platformun bom gövdesi iletkendir ve bu, elektrik hattı yakınındaki her işte tavizsiz uygulanan bir kuralı doğurur: hat enerjisiz kılınabiliyorsa (dağıtım şirketi süreciyle) iş rahat planlanır; kılınamıyorsa gerilim sınıfına göre tanımlı güvenli mesafe korunacak şekilde erişim geometrisi çizilir. OSTİM'in dar sokaklarında hatlar genellikle alçak ve yoğundur, bu da mesafe hesabını daha kritik hâle getirir — bazı durumlarda hedefe farklı bir açıdan yaklaşmak mesafeyi sağlar. Mesafenin sağlanamadığı işi almayız.",
+            },
+            {
+                baslik: "Sokak aydınlatması ve tabela bakımında seri iş",
+                metin:
+                    "Bir sokaktaki birden fazla aydınlatma direği veya tabela armatürünün bakımı, tek güzergâhta seri olarak planlanır — makine direkten direğe kısa mesafeli geçişlerle ilerler ve nakliye tek girişte kalır. Bu model, belediye veya kooperatif üzerinden gelen toplu bakım taleplerinde özellikle verimlidir. Her direkte çalışma süresi kısadır (genellikle 20-40 dakika); günlük plan, direk sayısına ve aralarındaki mesafeye göre kurulur.",
+            },
+            {
+                baslik: "Trafo ve pano çevresinde ek güvenlik katmanı",
+                metin:
+                    "Trafo binası veya elektrik panosu yakınındaki işlerde, hat mesafesi kuralına ek olarak alan izolasyonu da devreye girer — trafo çevresindeki güvenlik hattı asla ihlal edilmez ve bu bölgede çalışma, ilgili dağıtım şirketinin bilgisi ve gerekiyorsa refakati ile yürütülür. Bu tip işlerde önceden bir başvuru-onay süreci gerekebilir; süreç, işveren veya bizim tarafımızdan başlatılıp iş takvimine erken eklenir ki gecikme yaşanmasın.",
+            },
+            {
+                baslik: "Gece ve düşük trafik penceresinde çalışma",
+                metin:
+                    "Sokak aydınlatması bakımının bir kısmı, gündüz trafiğini etkilememek için gece veya erken sabah penceresine planlanır — özellikle ana cadde üzerindeki direklerde. Akülü modellerin sessizliği gece çalışmasında avantajdır; aydınlatma ihtiyacı işveren veya bizim ekipmanımızla sağlanır. Gece çalışması gerektiren işlerde güzergâh ve bariyer planı, ilgili birimlerle önceden kurulur ve belediye gürültü sınırlarına uyulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Enerji-aydınlatma iş tipi ve güvenlik katmanı",
+                paragraflar: [
+                    "Bu hizmet kapsamındaki tipik iş türleri ve uygulanan güvenlik katmanı aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["İş türü", "Tipik konum", "Güvenlik katmanı", "Pencere"],
+                    satirlar: [
+                        ["Sokak aydınlatma direği bakımı", "Cadde/sokak kenarı", "Tek şerit park + bariyer", "Gündüz/gece"],
+                        ["Tabela-armatür değişimi", "Cephe/direk üstü", "Hat mesafesi kontrolü", "Gündüz"],
+                        ["Alçak gerilim hat bakımı", "Direkler arası", "Enerjisiz kılma veya mesafe", "Dağıtım şirketi koordinasyonu"],
+                        ["Trafo/pano çevresi işi", "Trafo binası yakını", "Alan izolasyonu + refakat", "Onaylı pencere"],
+                        ["Toplu direk bakım turu", "Sokak/cadde hattı", "Sıralı çalışma, kısa süre/direk", "Belirlenen gün"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hat mesafesi hesabının pratiği",
+                paragraflar: [
+                    "Güvenli mesafe, hattın gerilim sınıfına göre değişen sabit bir değerdir ve bu değer pazarlık konusu yapılmaz. Keşifte hattın konumu (direkten direğe yükseklik, hedefe olan yatay-düşey mesafe) fotoğrafla işaretlenir ve erişim geometrisi bu mesafeyi koruyacak açıdan çizilir. Bazı durumlarda hedefe doğrudan değil yandan yaklaşmak, mesafeyi daha rahat sağlar — bu, zarf diyagramı hesabının bir parçasıdır.",
+                    "Mesafenin hiçbir açıdan sağlanamadığı nadir durumlarda işi almayız ve bunu açıkça söyleriz; hat enerjisiz kılınana kadar iş ertelenir veya farklı bir yöntem (uzun saplı ekipman, dağıtım şirketinin kendi ekibi) önerilir.",
+                ],
+            },
+            {
+                baslik: "Belediye ve dağıtım şirketi süreçleri",
+                paragraflar: [
+                    "Kamusal alandaki direk ve hat işleri, çoğu zaman belediye işgaliye izni veya dağıtım şirketi bilgilendirmesi gerektirir. Bu süreçleri işletme adına biz yürütebiliriz — talebin erken açılması, sürecin iş takvimine gecikme yaratmadan eklenmesini sağlar. Enerjisiz kılma talebi gerektiren işlerde dağıtım şirketinin kendi programı devreye girer ve bu, bizim kontrolümüz dışında bir süre alabilir; bunu baştan söyleriz ki takvim beklentisi gerçekçi kalsın.",
+                    "Toplu bakım turlarında (belediye veya kooperatif üzerinden) bu süreçler tek seferde, tüm güzergâh için birlikte yürütülür — bu, tekil iş başına ayrı süreç yürütmekten daha hızlıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Direğimizin çevresinde sürekli park var, makine nasıl yaklaşır?",
+                cevap:
+                    "Tek şerit park düzeniyle: dar şaseli eklemli model direğin en yakın uygun boşluğuna park eder, dönüş-çalışma alanı bariyerlenir. Sürekli park sorunuysa, iş öncesi işletmenizin veya belediyenin kısa süreliğine bir alan ayırtması süreci hızlandırır; işgaliye gerekiyorsa bu süreci sizin adınıza yürütebiliriz. Direk çevresindeki boşluğu fotoğrafla paylaşın, park planını önceden netleştirelim.",
+            },
+            {
+                soru: "Hat üzerinde çalışırken enerji kesilecek mi?",
+                cevap:
+                    "Mümkünse evet, tercih edilen yöntem budur — dağıtım şirketi süreciyle hattın enerjisiz kılınması iş güvenliğini büyük ölçüde artırır. Enerjisiz kılınamayan durumlarda gerilim sınıfına göre tanımlı güvenli mesafe korunarak çalışılır; bu mesafe sabittir ve pazarlık konusu değildir. Hangi yöntemin uygulanacağı, hattın türüne ve dağıtım şirketinin sürecine göre keşifte netleşir; enerjisiz kılma talebi erken başlatılmalıdır çünkü bu süreç bizim kontrolümüz dışında zaman alabilir.",
+            },
+            {
+                soru: "Sokağımızda 15 direk var, hepsini tek seferde bakım yaptırabilir miyiz?",
+                cevap:
+                    "Evet, bu bizim önerdiğimiz modeldir — makine direkten direğe kısa mesafeli geçişlerle ilerler, her direkte 20-40 dakika çalışılır ve nakliye tek girişte kalır. 15 direklik bir tur, genellikle bir-iki günde tamamlanır; kesin süre direkler arası mesafeye ve her direkteki iş kapsamına bağlıdır. Belediye veya kooperatif üzerinden gelen toplu taleplerde bu model en düşük birim maliyeti verir.",
+            },
+            {
+                soru: "Trafo binasının hemen yanında iş var; ekstra bir izin gerekiyor mu?",
+                cevap:
+                    "Büyük olasılıkla evet — trafo çevresindeki güvenlik hattı ayrı bir izolasyon gerektirir ve bu bölgede çalışma, ilgili dağıtım şirketinin bilgisi ve gerekiyorsa refakatiyle yürütülür. Bu süreç önceden başlatılmalıdır çünkü onay süresi değişkendir. Trafo binasına olan mesafeyi ve iş kapsamını paylaşın, gerekli süreci erken planlayalım ki iş takviminizde gecikme olmasın.",
+            },
+            {
+                soru: "Gece çalışması yapabilir misiniz? Gündüz trafiği çok yoğun.",
+                cevap:
+                    "Yapabiliriz — akülü modellerin sessizliği gece penceresi için uygundur ve belediye gürültü sınırlarıyla uyumludur. Aydınlatma ihtiyacı ekipmanımızla veya işvereninizle sağlanır, güzergâh ve bariyer planı ilgili birimlerle önceden kurulur. Kamusal alanda gece çalışması işgaliye iznine tabi olabilir; bu süreci sizin adınıza yürütebiliriz. Gece penceresini talep ederken bize erken bildirin, planlamayı ona göre kuralım.",
+            },
+            {
+                soru: "Hat mesafesi tam olarak sağlanamıyorsa ne yapıyorsunuz?",
+                cevap:
+                    "Dürüst cevap veririz ve işi almayız — güvenli mesafenin sağlanamadığı bir işte risk almak, kimseye kazandırmaz. Bu durumda önce farklı bir yaklaşım açısının mesafeyi sağlayıp sağlamadığını değerlendiririz; sağlamıyorsa hattın enerjisiz kılınmasını bekleriz veya dağıtım şirketinin kendi ekibinin yapabileceği bir yöntem öneririz. Bu netliği keşifte, iş başlamadan önce veririz — sahada yarım kalan iş, hiç başlamayan işten daha kötüdür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Hat mesafesi ve iletken bom kuralı EN 280 ve elektrik iş güvenliği mevzuatı çerçevesindedir; OSTİM'in dar sokak-direk dokusu kamuya açık saha bilgisidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "OSB Güvenlik Prosedürlerine Uygun Operatörlü Platform Kiralama",
+        giris:
+            "OSTİM, İvedik ve Sincan gibi organize sanayi bölgelerinde çalışmak, standart bir şantiyeden farklı bir idari katman taşır — çoğu OSB yönetimi ve büyük tesis, sahaya giren her ekipman ve personel için kayıt, güvenlik eğitimi belgesi ve bazen özel giriş izni ister. Operatörlü platform kiralamanın bu bölgedeki değeri, yalnızca makineyi kullanacak deneyimli bir kişi sağlamak değil, bu idari katmanı da eksiksiz yönetmektir — operatörün evrak dosyası, OSB'nin veya tesisin kendi prosedürüne hazır gelmelidir. Bu sayfa, operatörlü kiralamanın OSTİM ve çevresindeki OSB'lerdeki idari ve operasyonel boyutunu anlatır.",
+        maddeler: [
+            {
+                baslik: "OSB giriş kaydı ve operatör evrakı",
+                metin:
+                    "Çoğu OSB, sahaya giren araç ve personel için giriş kaydı ister — plaka bildirimi, sürücü/operatör kimlik bilgisi ve bazen önceden başvuru. Operatörlerimizin dosyası (SRC/G belgesi, iş makinesi operatör sertifikası, sağlık raporu, İSG eğitim kaydı) bu kayıt süreçlerine hazır tutulur ve talep hâlinde OSB yönetimine veya tesise iletilir. İlk kez çalıştığımız bir OSB'de kayıt süreci birkaç saat-bir gün sürebilir; bu payı, özellikle acil olmayan işlerde takvime erken eklemenizi öneririz.",
+            },
+            {
+                baslik: "Tesis içi İSG oryantasyonu",
+                metin:
+                    "Büyük fabrika ve tesislerin çoğu, sahaya giren her yükleniciye kendi İSG oryantasyonunu (genellikle kısa bir video veya brifing) zorunlu tutar — bu, tesisin kendi risk haritasını ve acil durum prosedürünü operatöre aktarır. Operatörümüz bu oryantasyona katılır ve tesisin verdiği kimlik kartı-görünür yelek gibi ekipmanı kullanır. Tekrarlı işlerde (aynı tesise dönemsel gelme) bu oryantasyon genellikle bir kez yapılır ve geçerlilik süresi tesise göre değişir.",
+            },
+            {
+                baslik: "Operatörlü ile operatörsüz arasındaki fark",
+                metin:
+                    "Operatörlü kiralamada makine, sertifikalı ve deneyimli operatörümüzle birlikte gelir — dar alan manevrası, zarf diyagramı hesabı ve OSB prosedürlerine uyum bizim sorumluluğumuzdadır. Operatörsüz kiralamada makine, işletmenin kendi personeline teslim edilir; bu durumda personelin geçerli operatör belgesine sahip olması ve OSB'nin giriş-oryantasyon süreçlerini kendisinin tamamlaması gerekir. Dar alan ve zarf hesabı gerektiren işlerde (bu domainin ana konusu) operatörlü seçeneği öneririz çünkü deneyim, hata payını doğrudan azaltır.",
+            },
+            {
+                baslik: "Savunma ve hassas tesislerde ek prosedür",
+                metin:
+                    "Sincan gibi savunma yan sanayi tedarikçilerinin yoğun olduğu bölgelerde, standart OSB kaydının üzerine ek bir güvenlik katmanı gelir: kimlik bildirimi daha detaylıdır, fotoğraf-cihaz kısıtları uygulanır ve bazı alanlarda erişim izni özel olarak verilir. Operatör dosyalarımız bu süreçlere hazırdır ve kayıt-gizlilik kurallarına uyum, operatör brifinginin sabit maddesidir. Bu tesislerde ilk kayıt süreci diğer OSB'lere göre daha uzun sürebilir — talebi kayıt payıyla erken açmanızı öneririz.",
+            },
+            {
+                baslik: "Vardiya ve mesai dışı çalışma koordinasyonu",
+                metin:
+                    "Bazı tesisler, üretim kesintisini en aza indirmek için platform işini vardiya arası veya mesai dışı saatlere sıkıştırır. Operatörümüz bu vardiya planına uyum sağlar; gece veya hafta sonu çalışması gerektiren işlerde ek koordinasyon (tesisin nöbetçi personeli, aydınlatma, güvenlik) önceden kurulur. Bu tip planlı vardiya işleri, özellikle Sincan'daki büyük üreticilerin bakım dönemlerinde sık karşılaştığımız bir modeldir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü kiralama evrak-süreç haritası",
+                paragraflar: [
+                    "OSB ve tesis tipine göre gerekli evrak ve süreç aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Giriş kaydı", "Oryantasyon", "Ek belge"],
+                    satirlar: [
+                        ["Standart OSB (OSTİM, İvedik)", "Plaka + kimlik bildirimi", "Genellikle yok/kısa", "Operatör sertifikası"],
+                        ["Ağır sanayi holü (Sincan)", "Detaylı kayıt", "Kısa İSG brifingi", "SRC/G + sağlık raporu"],
+                        ["Savunma tedarikçi tesisi", "Detaylı kayıt + onay süreci", "Zorunlu, uzun olabilir", "Gizlilik taahhüdü + tam dosya"],
+                        ["Kamu binası/hastane", "Kurum kaydı + refakat", "Kurum prosedürü", "Yüklenici evrak seti"],
+                        ["Küçük atölye (mahalle arası)", "Genellikle gerekmez", "Yok", "Standart operatör belgesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kayıt payını takvime erken eklemek",
+                paragraflar: [
+                    "İlk kez çalışılan bir OSB veya tesiste kayıt süreci birkaç saatten bir güne kadar sürebilir — bu, işin kendisinden bağımsız bir idari süredir ve genellikle işletmenin kontrolü dışındadır. Acil olmayan işlerde bu payı takvime erken eklemek, işin başlama tarihini gerçekçi tutar; acil işlerde ise kayıt süreci paralel yürütülür ve makine kayıt tamamlanır tamamlanmaz sahaya girer.",
+                    "Tekrarlı çalıştığımız tesislerde bu süreç genellikle ilk seferden sonra hızlanır çünkü operatör dosyası tesiste zaten kayıtlıdır — düzenli iş ilişkisi kurulan tesislerde ikinci ve sonraki işler çok daha hızlı başlar.",
+                ],
+            },
+            {
+                baslik: "Operatör deneyiminin dar alan işlerindeki payı",
+                paragraflar: [
+                    "Bu domainin ana konusu dar alan ve engebeli zemin olduğu için operatör deneyiminin payı büyüktür — zarf diyagramı hesabını doğru okumak, kuyruk taşmasını önceden hesaba katmak ve dar bir avluda güvenli park pozisyonu seçmek, tekrarlı sahada kazanılan bir beceridir. Operatörlerimizin OSTİM ve çevresindeki OSB'lerde biriktirdiği saha bilgisi, ilk kez gördüğü bir avluda bile benzer geometrileri tanımasını sağlar.",
+                    "Operatörsüz kiralamayı tercih eden işletmelere de bu deneyimi aktarmaya çalışırız — teslimat sırasında kısa bir saha oryantasyonu (park noktası, dönüş alanı, hat mesafesi hatırlatması) standart uygulamamızdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSTİM'de bir atölyeye ilk kez giriyoruz; özel bir kayıt süreci var mı?",
+                cevap:
+                    "Genellikle hayır veya çok kısa — OSTİM'deki küçük atölye ölçekli işlerde çoğunlukla ayrı bir OSB kaydı gerekmez, işletmenizin kendi bina girişi yeterlidir. İvedik ve Sincan gibi bazı büyük OSB veya fabrika sahalarında ise plaka-kimlik bildirimi ve kısa bir kayıt süreci olabilir. Hangi tesise gideceğinizi belirtirseniz, o sahanın kayıt gerekliliğini önceden kontrol edip size bildiririz.",
+            },
+            {
+                soru: "Operatörünüzün belgeleri ne, teslimat sırasında görebilir miyiz?",
+                cevap:
+                    "Elbette — operatörümüzün SRC/G belgesi veya iş makinesi operatör sertifikası, sağlık raporu ve İSG eğitim kaydı teslimat evraklarıyla birlikte sunulur. OSB veya tesisin kendi kaydı için bu belgeleri önceden talep etmeniz gerekiyorsa, teslimattan önce dijital kopyalarını da paylaşabiliriz — bu, kayıt sürecini hızlandırır.",
+            },
+            {
+                soru: "Kendi personelimiz de sertifikalı, operatörsüz kiralasak daha mı ekonomik olur?",
+                cevap:
+                    "Uzun süreli ve tekrarlı kullanımda genellikle evet, operatörsüz daha ekonomiktir. Ancak dar alan ve zarf diyagramı hesabı gerektiren işlerde (bu bölgenin tipik işleri) operatör deneyimi hata payını azaltır — personeliniz bu tip manevralarda deneyimliyse operatörsüz sorunsuz çalışır, değilse ilk birkaç işte operatörlü tercih etmenizi öneririz. Karar, personelinizin deneyimine ve iş tipine göre birlikte netleşir.",
+            },
+            {
+                soru: "Savunma tedarikçisi bir tesise girecek operatörünüzün ek bir gizlilik taahhüdü vermesi gerekiyor mu?",
+                cevap:
+                    "Genellikle evet, tesisin kendi süreci gerektiriyorsa operatörümüz bu taahhüdü imzalar ve fotoğraf-cihaz kısıtlarına brifingli uyar. Bu tip tesislerde kayıt süreci standart OSB'ye göre daha uzun sürebilir — talebinizi kayıt payıyla erken açmanızı öneririz. Tesisinizin özel gereksinimlerini önceden bildirin, operatör dosyamızı o formata hazırlayalım.",
+            },
+            {
+                soru: "İşimiz gece vardiyasında yapılacak; operatörünüz gece çalışabilir mi?",
+                cevap:
+                    "Evet, gece ve vardiya arası çalışma planlayabiliriz — operatörümüz tesisin vardiya planına uyum sağlar. Gece çalışması için ek koordinasyon (tesisin nöbetçi personeli, aydınlatma, güvenlik, varsa gece giriş prosedürü) önceden kurulur. Bu tip planlı vardiya işlerini özellikle büyük tesislerin bakım dönemlerinde sık uyguluyoruz; vardiya saatlerinizi ve tesis prosedürünüzü paylaşın, planı birlikte kuralım.",
+            },
+            {
+                soru: "Aynı tesise düzenli geliyoruz; her seferinde kayıt sürecini baştan mı yaşıyoruz?",
+                cevap:
+                    "Hayır, genellikle hayır — düzenli çalıştığımız tesislerde operatör dosyası ve giriş kaydı ilk seferden sonra sistemde kayıtlı kalır ve sonraki işler çok daha hızlı başlar. Tesisin kendi kayıt geçerlilik süresi (bazı belgeler yıllık yenilenir) varsa bunu takip eder, süresi dolmadan yeniliriz. Düzenli iş ilişkisi kurduğumuz tesislerle bu süreç zamanla neredeyse görünmez hâle gelir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB giriş kaydı ve tesis İSG oryantasyonu genel kurumsal uygulamadır; operatör evrak seti ve süreç yönetimi firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "OSTİM-İvedik-Sincan Hattında Çok Noktalı Rota Bakım Platformu",
+        giris:
+            "Ankara'nın batı sanayi koridorunda OSTİM, İvedik ve Sincan birbirine yakın ama karakter olarak farklı üç bölgedir ve bir işletmenin veya kooperatifin dağınık şubeleri, tedarikçileri ya da site yönetimlerinin farklı adreslerdeki talepleri bu hattın üzerine düşer. Tek bir işletmenin işi için gidip gelmek yerine, aynı güzergâh üzerindeki birden fazla adresi tek tura toplamak, hem nakliye maliyetini böler hem makine gününü verimli kullanır. Bu sayfa, çok noktalı rota bakım modelinin nasıl kurulduğunu, hangi tip taleplerin bu modele uygun olduğunu ve OSTİM-İvedik-Sincan hattındaki güzergâh mantığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Rota mantığı: coğrafi sıralama, iş sıralaması değil",
+                metin:
+                    "Çok noktalı bir tur planlanırken önceliğimiz, taleplerin geliş sırası değil coğrafi konumudur — güzergâh, makinenin gereksiz ileri-geri gitmeyeceği şekilde optimize edilir. Tipik bir tur, OSTİM içindeki birkaç noktayla başlar, İvedik'e geçer ve günün sonunda Sincan'daki işle kapanır (veya tersi, günün ilk talebine göre). Bu sıralama, her adrese ayrı ayrı gidip gelmekten kilometre ve zaman olarak belirgin tasarruf sağlar; tasarruf, katılan işletmeler arasında nakliye bedeli olarak paylaşılır.",
+            },
+            {
+                baslik: "Dönemsel toplu talep: kooperatif ve site yönetimleri",
+                metin:
+                    "OSTİM'deki atölye kooperatifleri, İvedik'teki sanayi siteleri ve Sincan'daki büyük tesislerin bakım koordinatörleri, dönemsel (mevsimlik veya yıllık) toplu bakım talebi oluşturduğunda, bu talep doğrudan çok noktalı rota modeline uyar. Yönetim, üye işletmelerden talep toplar, biz güzergâhı ve makine-operatör planını kurarız; her işletme kendi işinin süresine göre programa girer. Bu model, bireysel taleplerin dağınık gelmesine göre hem daha ucuz hem daha öngörülebilir bir plan sunar.",
+            },
+            {
+                baslik: "Tek günlük tur ile çok günlük tur ayrımı",
+                metin:
+                    "Küçük, kısa süreli işlerin yoğun olduğu bir güzergâhta tek makine bir günde 4-6 noktayı gezebilir; büyük veya uzun süreli işler (örneğin Sincan'daki bir fabrika holünde tam gün süren bir iş) varsa tur çok günlü planlanır ve büyük iş kendi gününe ayrılır, küçük işler ayrı bir güne toplanır. Bu ayrımı keşifte veya talep toplama aşamasında yaparız — büyük bir işin yanına küçük bir işi sıkıştırmaya çalışmak, ikisinin de kalitesini düşürür.",
+            },
+            {
+                baslik: "Makine karması: tek makine yetmediğinde",
+                metin:
+                    "Bazı turlarda tek bir eklemli platform tüm talepleri karşılayamaz — bir nokta kompakt iç mekân modeli, diğeri yüksek metrajlı dış saha modeli ister. Bu durumda tur, iki makineli (bazen ikinci makine forklift veya örümcek platform) bir ekip olarak planlanır; her makine kendi güzergâh segmentini gezer ve nakliye koordinasyonu tek merkezden yönetilir. Makine karması ihtiyacı, talep toplama aşamasında her adresin iş tipine bakılarak belirlenir.",
+            },
+            {
+                baslik: "Acil iş turun ortasına nasıl eklenir",
+                metin:
+                    "Planlı bir turun ortasında acil bir talep geldiğinde, güzergâha coğrafi olarak yakınsa turun akışına eklenir ve diğer katılımcıların programı fazla etkilenmez; güzergâhtan uzaksa ayrı bir sevkiyat gerekir ve bu, ek nakliye maliyeti demektir. Rotanın esnekliği, talebin turun hangi noktasında geldiğine bağlıdır — sabah bildirilen acil bir iş, öğleden sonraki segmenta kolayca eklenir; turun bitimine yakın gelen bir talep ise ertesi güne kayabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSTİM-İvedik-Sincan hattı tur profili",
+                paragraflar: [
+                    "Hattaki üç bölgenin tipik iş profili ve tur içindeki rolü aşağıdadır.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "Tipik iş süresi", "Tipik makine", "Turdaki rolü"],
+                    satirlar: [
+                        ["OSTİM", "Kısa (yarım gün-1 gün)", "Kompakt eklemli, forklift", "Çok noktalı, sık durak"],
+                        ["İvedik", "Orta (1-2 gün)", "Orta sınıf eklemli", "Ara segment, sektör çeşitliliği"],
+                        ["Sincan", "Uzun (birden fazla gün olabilir)", "Yüksek metraj dizel 4x4", "Genellikle günün kapanışı"],
+                        ["Kooperatif/toplu talep", "Dönemsel", "Makine karması", "Ayrı planlanan özel tur"],
+                        ["Acil tekil talep", "Değişken", "Uygun olan en yakın makine", "Güzergâha esnek eklenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Talep toplama ve tur planlama süreci",
+                paragraflar: [
+                    "Çok noktalı bir tur kurmak için önce taleplerin toplanması gerekir — bu, bir kooperatif veya site yönetimi üzerinden merkezi olarak yapılabileceği gibi, bize doğrudan gelen dağınık taleplerin coğrafi olarak gruplanmasıyla da oluşabilir. Her talebin adresi, iş süresi ve makine ihtiyacı bir listede toplanır, güzergâh bu listeye göre optimize edilir ve her işletmeye tahmini gelme saati bildirilir.",
+                    "Tur planı kesinleştikten sonra katılımcılara program paylaşılır; program üzerinde küçük kaymalar (bir işin beklenenden uzun sürmesi gibi) olabileceği, bu yüzden saatlerin kesin değil tahmini olduğu baştan iletilir.",
+                ],
+            },
+            {
+                baslik: "Nakliye paylaşımının hesaplanması",
+                paragraflar: [
+                    "Çok noktalı turda nakliye bedeli, katılımcı sayısına ve her adresin güzergâhtaki konumuna göre bölünür — güzergâhın ana hattı üzerindeki bir adres, hattan sapma gerektiren bir adrese göre daha düşük pay öder çünkü ek kilometre yaratmaz. Bu hesaplama yöntemi, tur planlaması aşamasında şeffaf şekilde paylaşılır ki her işletme kendi payını anlayarak katılım kararı versin.",
+                    "Toplu talep organizatörü (kooperatif, site yönetimi) genellikle bu paylaşımı üye işletmeler arasında kendi içinde de dağıtabilir; biz toplam nakliye bedelini ve önerilen paylaşım mantığını organizatöre sunarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSTİM'de bizim işletmemiz, İvedik'te bir tanıdık işletmenin de işi var; aynı güne alabilir miyiz?",
+                cevap:
+                    "Evet, bu tam olarak çok noktalı rota modelinin işidir — iki talebi coğrafi olarak yakın bir güzergâha yerleştirir, makine önce birinde sonra diğerinde çalışır ve nakliye ikiye bölünür. İki işin de yaklaşık süresini ve tercih ettiğiniz günü paylaşın, güzergâhı ve saatleri birlikte planlayalım. Üçüncü bir işletme de katılmak isterse tur daha da verimlenir.",
+            },
+            {
+                soru: "Kooperatifimiz üyelerinden dönemsel bakım talebi toplamak istiyor; nasıl bir süreç işler?",
+                cevap:
+                    "Kooperatifiniz üye işletmelerden talep toplar (adres, iş tipi, tahmini süre), bu listeyi bize iletir, biz güzergâhı ve gerekiyorsa makine karmasını (birden fazla makine tipi) planlarız. Program, tüm üyelere önceden paylaşılır. Bu model, bireysel taleplerin dağınık gelmesine göre kooperatifiniz için belirgin bir maliyet avantajı sağlar — dönemsel (örneğin her mevsim bir tur) düzenlendiğinde birim maliyet daha da düşer.",
+            },
+            {
+                soru: "Bizim iş Sincan'da uzun sürecek, turun içine sıkışır mı yoksa ayrı mı planlanmalı?",
+                cevap:
+                    "Sincan'daki uzun süreli (tam gün veya çok günlü) işler genellikle kendi gününe ayrılır, küçük ve kısa işlerin çok noktalı turuna sıkıştırılmaz — bunu yaparsak hem uzun işin hem küçük işlerin kalitesi düşer. Talebinizin süresini paylaşın, uzun süreliyse ayrı bir plan, kısa süreliyse mevcut bir turun içine ekleme yaparız. Doğru sınıflandırma, keşifte netleşir.",
+            },
+            {
+                soru: "Turda bir gün önce planlanmayan acil bir işimiz çıktı; eklenebilir mi?",
+                cevap:
+                    "Güzergâha yakınsa büyük olasılıkla evet, uzaksa ayrı sevkiyat gerekebilir. Turun hangi aşamasında olduğunuza da bağlı — sabah bildirilen acil bir iş öğleden sonraki segmenta kolayca eklenir, turun bitimine yakın gelen talep ise ertesi güne kayabilir. Aciliyetinizi ve konumunuzu hemen bildirin, mevcut tur güzergâhına uyup uymadığını hızlıca kontrol edelim.",
+            },
+            {
+                soru: "Turdaki her işletme aynı nakliye bedelini mi öder?",
+                cevap:
+                    "Hayır — bedel, güzergâhtaki konuma göre değişir. Ana hat üzerindeki bir adres, hattan sapma gerektiren bir adrese göre daha düşük pay öder çünkü ek kilometre yaratmaz. Bu hesaplama yöntemini tur planlaması sırasında şeffaf şekilde paylaşırız; her işletme kendi payını görerek katılım kararı verir. Kooperatif üzerinden gelen taleplerde bu paylaşımı organizatörle birlikte de düzenleyebiliriz.",
+            },
+            {
+                soru: "İvedik'teki işimiz için ayrı, tek başına gelmenizi istesek daha mı pahalıya gelir?",
+                cevap:
+                    "Genellikle evet — tek başına gelen bir makinenin nakliyesi tamamen sizin işinize yüklenir, oysa çok noktalı turda bu maliyet paylaşılır. Ancak işinizin zamanlaması esnek değilse (belirli bir tarihte kesin olmalıysa) ve güzergâhta o tarihe uygun bir tur yoksa, tekil sevkiyat da makul bir seçenektir. İki senaryonun maliyet farkını keşifte size gösteririz; kararı zamanlama ve bütçe önceliğinize göre siz verirsiniz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSTİM-İvedik-Sincan coğrafi yakınlığı kamuya açık bilgidir; çok noktalı tur planlama ve nakliye paylaşım yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Engebeli Zeminde ve Arazi Tipi Sahada Platform Kiralama",
+        giris:
+            "Ankara OSB'lerinin dış sahaları — stok alanları, henüz asfaltlanmamış parseller, kot geçişli araziler, inşaat hâlindeki şantiyeler — düz beton zeminin varsayıldığı standart platform seçimini geçersiz kılar. Zor zemin işlerinde asıl soru 'kaç metre çıkar' değil 'bu zeminde güvenle durur mu'dur ve cevap, tahrik tipi, lastik seçimi ve şasi dengeleme sisteminin zemine doğru eşleşmesinden gelir. Bu sayfa, eklemli platform odaklı filomuzun engebeli zemin ve arazi tipi saha tarafını — hangi zeminde hangi tahrik ve model kararının verildiğini, eğim sınırının nasıl işlediğini ve zemin belirsizliğinin işi nasıl geciktirebileceğini — dürüstçe anlatır.",
+        maddeler: [
+            {
+                baslik: "Zemin sınıflandırması: sert, stabilize, yumuşak, çamur",
+                metin:
+                    "Zemin kararı dört kaba sınıfa ayrılır. Sert-düz zemin (beton, asfalt) akülü modellerin standart çalışma alanıdır. Stabilize zemin (sıkıştırılmış dolgu, kırma taş) genellikle dizel 4x4 gerektirir ama zeminin sıkıştırma kalitesine göre akülü de çalışabilir — bu, keşifte fiziksel kontrolle belirlenir. Yumuşak zemin (gevşek toprak, kum) arazi lastikli dizel 4x4 ve bazen ek yük dağıtım plakası ister. Çamur veya bataklık kıvamındaki zeminde hiçbir platform güvenle çalışmaz — bu durumda iş, zemin kuruyana veya sağlamlaştırılana kadar ertelenir.",
+            },
+            {
+                baslik: "Eğim sınırı: makine neden 'devrilmez, çalışamaz'",
+                metin:
+                    "Şasi dengeleme sistemi, üreticinin belirlediği eğim sınırı içinde makineyi güvenle tutar ve bu sınırın dışına çıkıldığında makine fiziksel olarak devrilmez — çünkü kontrol sistemi çalışmayı otomatik olarak kilitler. Bu, sınırın önemsiz olduğu anlamına gelmez; tersine, doğru park pozisyonu, kilitlenmeye hiç gelmeden eğim sınırı içinde kalacak noktayı önceden bulmaktır. Engebeli bir arazide bu nokta bazen aranan hedefe göre uzak veya farklı bir açıda olabilir; bu durumda erişim geometrisi, park kısıtına göre yeniden çizilir.",
+            },
+            {
+                baslik: "Yük dağıtım plakası: şüpheli zeminde ek önlem",
+                metin:
+                    "Zeminin taşıma kapasitesi şüpheliyse (yeni dolgu, drenajı belirsiz alan, yer altı boşluğu ihtimali) makinenin ayak izi genişletilerek yüzey basıncı düşürülür — bu, yük dağıtım plakası kullanılarak yapılır. Plaka, özellikle stabilize sahalarda tekil bir noktanın beklenenden yumuşak çıktığı durumlarda devreye girer. Şüphenin ciddi olduğu (örneğin bilinen bir yer altı boşluğu, eski çukur dolgusu) sahalarda, iş öncesi zemin etüdü önerilir — bu bizim uzmanlık alanımızın dışındadır ama gerekliliğini açıkça belirtiriz.",
+            },
+            {
+                baslik: "Mevsimsel değişim: kuru ile yağmurlu zemin farkı",
+                metin:
+                    "Aynı arazi, kuru mevsimde sert ve güvenilir görünürken yağmur sonrası tamamen farklı bir taşıma karakteri gösterebilir. Bu yüzden zemin değerlendirmesi, mümkünse iş tarihine yakın bir zamanda yapılır; hava koşulu riskli görünüyorsa iş, kuru bir güne kaydırılır veya zemin geçici olarak sağlamlaştırılır. Sonbahar-kış aylarında Ankara çevresindeki toprak-stabilize sahalarda bu kontrol özellikle önemlidir ve keşif sürecinin standart bir parçasıdır.",
+            },
+            {
+                baslik: "Arazi tipi işlerde rüzgâr ve dış ortam faktörleri",
+                metin:
+                    "Zor zemin işleri genellikle dış sahada, rüzgâra açık alanlarda gerçekleşir ve bom yükseldikçe rüzgâr maruziyeti artar. Ankara platosunun öğleden sonra rüzgârlanması bilinen bir desendir — yüksek metrajlı dış saha işleri sabah bloklarına planlanır, sepette anemometre ile ölçüm yapılır ve tanımlı limitte tartışmasız durulur. Bu, zeminle birlikte değerlendirilen ikinci fiziksel kısıttır ve süre tahminine doğrudan yansır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin tipi ve makine kararı",
+                paragraflar: [
+                    "Zemin tipine göre tahrik ve ek önlem kararı aşağıdaki gibi verilir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Uygun tahrik", "Ek önlem", "Karar süreci"],
+                    satirlar: [
+                        ["Beton/asfalt (sert-düz)", "Akülü", "Genellikle gerekmez", "Standart değerlendirme"],
+                        ["İyi sıkıştırılmış stabilize", "Akülü veya dizel 4x4", "Fiziksel kontrol", "Keşifte zemin testi"],
+                        ["Gevşek/yumuşak toprak", "Dizel 4x4, arazi lastiği", "Yük dağıtım plakası", "Eğim + taşıma kontrolü"],
+                        ["Eğimli-kot geçişli", "Dizel 4x4", "Park pozisyonu eğim sınırında", "Eğim ölçer ile keşif"],
+                        ["Çamur/bataklık kıvamı", "Uygun değil", "İş ertelenir/zemin sağlamlaştırılır", "Dürüst ret + alternatif"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşifte zemin kontrolünün pratiği",
+                paragraflar: [
+                    "Zemin şüphesi olan her işte keşif, sadece hedefin ölçülmesiyle sınırlı kalmaz — zeminin görsel değerlendirmesi (çukur, çatlak, ıslaklık izi), mümkünse basit bir basınç testi (ayakla bastırarak batma kontrolü, deneyimli gözle değerlendirme) ve eğim ölçümü yapılır. Bu kontrol, sahaya yanlış tahrik tipiyle gidip geri dönmenin önüne geçer — dizel 4x4'ün bile her yumuşak zeminde çalışamayacağını unutmamak gerekir.",
+                    "Zemin fotoğrafı, özellikle iş tarihine yakın çekilmiş olduğunda, telefon tarifinden çok daha güvenilir bir veridir; yağmur sonrası veya kuru dönem farkını da gösterir.",
+                ],
+            },
+            {
+                baslik: "Zemin uygun değilse: dürüst alternatifler",
+                paragraflar: [
+                    "Zeminin hiçbir tahrik tipiyle güvenle taşımadığı durumlarda üç alternatif değerlendirilir: işi zemin kuruyana kadar ertelemek (mevsimsel bekleme), zemini geçici olarak sağlamlaştırmak (stabilizasyon, plaka döşeme — bu maliyeti işveren üstlenir) veya platform dışı bir yöntem aramak (örneğin sabit bir vinç veya iskele). Hangisinin ekonomik olduğu, işin aciliyetine ve bütçesine bağlıdır; üçünü de rakamla göstererek karar işverene bırakılır.",
+                    "Riskli zeminde 'belki çalışır' diyerek makine göndermeyiz — devrilme riski, hem operatör hem çevredeki insanlar için kabul edilemez bir bahis olur ve bu satırın istisnası yoktur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Sahamız henüz asfaltlanmamış, sıkıştırılmış toprak zemin; hangi makine çalışır?",
+                cevap:
+                    "Sıkıştırma kalitesine bağlı — iyi sıkıştırılmış stabilize zeminde bazen akülü model bile çalışabilir, ama genel kuralımız bu tip sahalarda dizel 4x4 arazi lastikli modeldir çünkü tırmanma ve denge kabiliyeti daha yüksektir. Zeminin sıkıştırma durumunu keşifte fiziksel olarak kontrol ederiz; şüpheli noktalarda yük dağıtım plakası kullanılır. Zemin fotoğrafını paylaşın, ön değerlendirmeyi hızlıca yapalım.",
+            },
+            {
+                soru: "Arazimiz eğimli; makine hangi noktada güvenle durabilir?",
+                cevap:
+                    "Şasi dengeleme sisteminin üretici tarafından tanımlanan eğim sınırı içinde kalan her noktada. Bu sınırın dışına çıkıldığında makine devrilmez, çünkü kontrol sistemi çalışmayı otomatik kilitler — ama doğru plan, kilide gelmeden önce doğru noktayı bulmaktır. Eğim ölçerle keşifte uygun park noktasını tespit eder, hedefe erişimi bu noktaya göre çizeriz. Bazı durumlarda hedefe farklı bir kottan yaklaşmak gerekebilir.",
+            },
+            {
+                soru: "Geçen hafta yağmur yağdı, sahamızın nasıl olduğunu bilmiyoruz; iş yine de planlanabilir mi?",
+                cevap:
+                    "Planlanabilir ama iş tarihine yakın güncel bir zemin kontrolü şart — kuru mevsimde sert görünen bir arazi, yağmur sonrası tamamen farklı bir taşıma karakteri gösterebilir. İş gününe yakın bir fotoğraf isteriz veya gerekiyorsa kısa bir keşif turu yaparız. Zemin hâlâ ıslak/yumuşaksa iş birkaç gün ertelenir ya da zemin geçici olarak sağlamlaştırılır — bu kararı sizinle birlikte, rakamla göstererek veririz.",
+            },
+            {
+                soru: "Zeminimizde eski bir çukur dolgusu olabilir, güvenli mi emin değiliz; ne yaparsınız?",
+                cevap:
+                    "Bu tip şüpheli noktalarda dürüst yaklaşırız: bilinen veya şüphelenilen bir yer altı boşluğu varsa, standart yük dağıtım plakası yeterli olmayabilir ve ciddi şüphede zemin etüdü önerilir — bu bizim uzmanlık alanımızın dışındadır ama gerekliliğini açıkça söyleriz. Şüphenin hafif olduğu durumlarda plaka ile çalışma yapılabilir. Çukurun konumunu ve varsa geçmiş bilgisini paylaşın, riski birlikte değerlendirelim.",
+            },
+            {
+                soru: "Dış sahada rüzgâr işi ne kadar etkiler, zeminle birlikte mi düşünülür?",
+                cevap:
+                    "Evet, ikisi birlikte değerlendirilir — zemin makinenin nerede duracağını, rüzgâr ise ne kadar yükseğe çıkabileceğini sınırlar. Yüksek metrajlı dış saha işleri sabah bloklarına planlanır, sepette ölçümle çalışılır ve limitte durulur. Rüzgârlı bir haftada süre tahmini uzayabilir, bunu zemin değerlendirmesiyle birlikte baştan söyleriz ki takvim beklentisi gerçekçi kalsın.",
+            },
+            {
+                soru: "Zemin uygun değilse işi tamamen reddediyor musunuz, yoksa çözüm mü sunuyorsunuz?",
+                cevap:
+                    "Önce çözüm ararız, sadece gerçekten güvenli bir yol yoksa reddederiz. Üç seçenek değerlendiririz: işi zemin kuruyana kadar ertelemek, zemini geçici olarak sağlamlaştırmak (stabilizasyon veya plaka döşeme, maliyeti önceden söylenir) veya platform dışı bir yöntem önermek. Hiçbiri makul değilse dürüstçe 'bu zeminde çalışamayız' deriz — riskli zeminde 'belki olur' diyerek makine göndermek, kimseye fayda sağlamaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Şasi dengeleme, eğim sınırı ve yük dağıtım plakası uygulaması EN 280 ve üretici teknik standartlarıdır; Ankara OSB dış saha zemin çeşitliliği kamuya açık saha bilgisidir.",
+    },
 };

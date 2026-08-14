@@ -1501,4 +1501,1082 @@ export const ANKARA_PLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Polatlı OSB'nin tarım makineleri-gıda-metal-inşaat malzemesi karma sektör yapısı kamuya açık bilgidir; iş kalemi eşleştirme yöntemi ve kroki disiplini firma pratiğidir.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Sepetli Örümcek Platform Kiralama: Ne Zaman Doğru Seçimdir?",
+        giris:
+            "'Örümcek platform' terimi, Ankara sanayi hattında genellikle sepetli-kollu-taşınabilir küçük yükseklik erişim ekipmanını tarif etmek için kullanılır ve bu terimin tam karşılığını bulmak, çoğu zaman kiralama sürecinin ilk takıldığı yerdir — çünkü aynı isim farklı işletmelerde farklı makineyi işaret eder. Bizim genel amaçlı filomuzdaki karşılığı, düşük-orta yükseklikte hafif erişim ihtiyacı için kompakt kollu-eklemli sınıftır; ama bu sınıf her işin cevabı değildir ve doğru soru 'örümcek mi istiyorsunuz' değil 'işiniz hangi ölçüde' sorusudur. Bu sayfa, terimin arkasındaki gerçek ihtiyacı ayıklıyor: kompakt kollu sınıfın gerçekten yeterli olduğu işler hangileri, ne zaman daha büyük makaslı-eklemli sınıfa geçmek gerekir ve karar hangi üç ölçüye bakar.",
+        maddeler: [
+            {
+                baslik: "'Örümcek platform' derken hangi makine kastediliyor?",
+                metin:
+                    "Terim netleşmeden makine seçilmez. Sahada bu isimle anılan ekipman genelde iki gruptan biridir: dar geçitlerden girebilen kompakt kollu-eklemli sınıf (istenen çalışma yüksekliği 8-12 metre bandında, dar kapı-koridor geçişi öncelikli) veya çok küçük iç mekan tekerlekli platformlar (2-4 metre bandı, tek kişilik hafif iş). İkisi birbirinin yerine geçmez — birincisi tavan-hat üstü işlere, ikincisi masaüstü-raf seviyesi işlere gider. Telefonda 'örümcek istiyoruz' denildiğinde ilk sorumuz bu ayrımı netleştirmektir: hedef ne kadar yüksekte ve makine nereden içeri girecek?",
+            },
+            {
+                baslik: "Kompakt kollu sınıfın gerçek avantajı: dar geçiş",
+                metin:
+                    "Bu sınıfın kiralanma nedeni çoğunlukla yükseklik değil geçiştir: standart eklemli platformların şase genişliği tek kanat kapıdan zor geçerken, kompakt kollu sınıf 0,80 metre bandında şaseyle dar kapılardan, asansör boşluklarından, atölye içi ara koridorlardan rahat girer. Yükseklik ihtiyacınız 10 metreyi aşıyor veya sepet yükü (iki kişi + malzeme) ağırsa, bu sınıf yetersiz kalır ve standart eklemliye geçmek gerekir — geçiş darlığı olmadığı sürece küçük sınıfı zorlamak, yalnızca kapasite kaybettirir.",
+            },
+            {
+                baslik: "Ne zaman büyük sınıfa geçmek gerekir",
+                metin:
+                    "Üç işaret, kompakt sınıfın yetersiz kaldığını gösterir: hedef 12 metreyi geçiyor (kompakt kollu sınıfın üst sınırı burada biter), sepette iki kişi + ekipman birlikte çalışacak (kompakt sınıf tek kişi + hafif malzeme için tasarlanır) veya dış mekan-düzensiz zemin söz konusu (kompakt sınıf iç mekan düz zemin için optimize edilmiştir). Bu üç işaretten biri varsa standart makaslı veya eklemli sınıfa geçilir; geçiş darlığı yoksa büyük sınıf her zaman daha geniş sepet ve daha yüksek kapasite sunar.",
+            },
+            {
+                baslik: "Akülü olması neden neredeyse zorunlu",
+                metin:
+                    "Kompakt kollu sınıfın kullanım alanı — iç mekan, dar koridor, çoğunlukla kapalı atölye — dizel seçeneği pratikte devre dışı bırakır: egzoz emisyonu kapalı alanda kabul edilmez ve zaten bu sınıfın şase boyutu dizel motor için tasarlanmamıştır. Akülü versiyon sessiz çalışır, emisyonsuzdur ve şarj süresi (tipik 8 saat, gece dolar) bir vardiyalık iş için yeterlidir. Şarj altyapısı yoksa (standart priz dışında özel bir gereksinim yoktur) bu konuda bilgi verilir; genelde ek yatırım gerekmez.",
+            },
+            {
+                baslik: "Operatör ve sepet yükü sınırı",
+                metin:
+                    "Kompakt sınıfın sepet kapasitesi, standart makaslı-eklemliden düşüktür ve bu sınır ciddiye alınmalıdır: tipik kapasite 120-150 kg bandındadır (bir kişi + el aleti), ağır malzeme taşınacaksa (boru, panel, kablo makarası) kapasite aşılmadan önce büyük sınıfa geçiş konuşulur. Operatör tarafında MYK yeterlilik belgesi kuralı bu sınıf için de geçerlidir — 'küçük makine, belge gerekmez' yanılgısı yaygındır ama yasal çerçeve makine boyutuna göre ayrım yapmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kompakt kollu mu, standart eklemli mi: karar tablosu",
+                paragraflar: [
+                    "İki sınıf arasındaki seçim üç ölçüye bakar. Tablo, tipik senaryoları özetler; kesin karar sizin ölçünüzle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen sınıf", "Gerekçe"],
+                    satirlar: [
+                        ["Kapı genişliği 0,80 m altı, hedef 8-10 m", "Kompakt kollu", "Geçiş önceliği"],
+                        ["Hedef 12 m üstü", "Standart eklemli", "Kompakt sınıf yetersiz kalır"],
+                        ["Sepette 2 kişi + malzeme", "Standart makaslı/eklemli", "Kapasite sınırı"],
+                        ["Dış mekan, düzensiz zemin", "Standart dizel/akülü sınıf", "Kompakt sınıf iç mekan içindir"],
+                        ["Asansör boşluğu, dar koridor, 8 m altı", "Kompakt kollu", "Tam uyum"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda terimi doğru netleştirmenin yolu",
+                paragraflar: [
+                    "'Örümcek platform' talebiyle gelen aramalarda ilk beş dakika terimi netleştirmeye gider ve bu süre kaybedilmiş değil kazanılmış zamandır: yanlış anlaşılan terimle sevk edilen makine, sahada geri gönderilir ve iki kat nakliye maliyeti doğar. Sorularımız basittir — hedef ne kadar yüksekte, makine nereden girecek, sepette kaç kişi çalışacak — ve cevaplar, doğru sınıfı doğrudan gösterir.",
+                    "Fotoğrafla gelen taleplerde netleştirme daha da hızlanır: kapı ve hedef fotoğrafı, terim tartışmasını bitirir ve doğru makine ilk seferde sahaya gider.",
+                ],
+            },
+            {
+                baslik: "Kısa süreli iç mekan işlerinde ekonomi",
+                paragraflar: [
+                    "Kompakt kollu sınıfın gerçekten uygun olduğu işlerde (dar koridor, tek günlük tavan işi, asansör boşluğu bakımı) maliyet avantajı belirgindir: standart eklemliye göre daha düşük günlük tarife ve daha kolay nakliye (küçük araçla taşınabilir, özel araç gerekmez). Ancak bu avantaj yalnızca gerçek uyumda geçerlidir — işi zorla kompakt sınıfa sığdırmak, iki kişilik işi tek seferde bitirememek ve ek gün ödemek anlamına gelebilir. Doğru sınıf seçimi, kısa vadede küçük fark gibi görünse de toplam maliyeti belirler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "'Örümcek platform' diye aradık ama farklı bir makine önerdiniz; neden?",
+                cevap:
+                    "Çünkü terim, sahada birden fazla makineyi tarif ediyor ve doğru cevap işinizin ölçülerine bakar: hedefiniz 12 metreyi geçiyorsa veya sepette iki kişi çalışacaksa, 'örümcek' dediğiniz kompakt kollu sınıf yetersiz kalır ve standart eklemli önerilir — isim değil ölçü belirler. Amacımız size en ucuz veya en tanıdık ismi satmak değil, işinizi sahada bitirecek makineyi göndermektir. Hedef yüksekliği ve sepet yükünü paylaşın; doğru sınıfı birlikte netleştirelim.",
+            },
+            {
+                soru: "Kompakt kollu platform dar kapıdan gerçekten geçer mi, yoksa abartı mı?",
+                cevap:
+                    "Gerçekten geçer — bu sınıfın var oluş nedeni tam olarak budur: şase genişliği 0,80 metre bandındadır ve standart tek kanat kapılardan, asansör boşluklarından rahat girer. Ancak 'geçer' demek için kapı ölçünüzü bilmemiz gerekir; bazı dar kapılar 0,80 metrenin de altındadır ve o durumda ek daraltma veya alternatif giriş konuşulur. Kapı genişliği ve yüksekliğini (kasadan kasaya) fotoğrafla iletin; geçiş garantisini ölçüyle verelim, tahminle değil.",
+            },
+            {
+                soru: "Bu sınıf dış mekanda kullanılabilir mi?",
+                cevap:
+                    "Önerilmez — kompakt kollu sınıf iç mekan düz zemin için tasarlanmıştır, küçük tekerlekleri ve dar şasesi açık sahanın düzensiz zemininde stabiliteyi düşürür. Dış mekan işiniz varsa (bahçe, avlu, stok sahası) standart akülü veya dizel sınıf her zaman daha güvenli ve daha uygun seçimdir — zeminin düz-sert beton olduğu istisnai durumlarda dahi büyük sınıf tercih edilir. İşinizin iç mi dış mekanda mı olduğunu söyleyin; doğru sınıfı ona göre önerelim.",
+            },
+            {
+                soru: "Sepette iki kişi çalışacağız, kompakt sınıf yeter mi?",
+                cevap:
+                    "Genelde yetmez — kompakt kollu sınıfın sepet kapasitesi tipik 120-150 kg bandındadır ve bu, bir kişi + el aleti için tasarlanmıştır; iki kişi + malzeme, çoğu modelde kapasiteyi aşar. Bu durumda standart makaslı veya eklemli sınıfa geçmek gerekir — geçiş darlığınız yoksa (kapı genişliği sorun değilse) bu geçiş maliyeti de büyük fark yaratmaz. Kaç kişi çalışacağını ve taşınacak malzeme ağırlığını söyleyin; kapasiteyi aşmayan sınıfı önerelim.",
+            },
+            {
+                soru: "Akülü mü dizel mi, hangisi bu sınıf için uygundur?",
+                cevap:
+                    "Akülü — pratikte tek seçenektir: kompakt kollu sınıfın kullanım alanı (iç mekan, dar koridor, kapalı atölye) dizel motoru anlamsız kılar, hem egzoz emisyonu kapalı alanda kabul edilmez hem de bu şase boyutu dizel için tasarlanmamıştır. Akülü versiyon sessiz çalışır ve gece şarjıyla bir vardiyalık işe yeter; özel şarj altyapısı gerekmez, standart priz yeterlidir. Dizel ihtiyacınız varsa (dış mekan, uzun süreli iş) zaten farklı bir sınıfa yönlendirilirsiniz.",
+            },
+            {
+                soru: "Doğru makineyi seçtiğimizden nasıl emin oluruz, sizin önerinize mi güveneceğiz?",
+                cevap:
+                    "Üç ölçüyle kendiniz de kontrol edebilirsiniz: hedef yüksekliği (şeritmetreyle, gözle değil), kapı genişliği (kasadan kasaya) ve sepette çalışacak kişi sayısı. Bu üç veriyi ölçüp bize ilettiğinizde, önerilen sınıfın gerekçesini de yazılı olarak veririz — 'neden bu makine' sorusunun cevabı teklifte açıkça yer alır. Kararı size bırakmak isteriz; öneri, sizin ölçünüze dayanır, bizim stok müsaitliğimize değil. Ölçülerinizle dönün; gerekçeli teklifi görün.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kompakt kollu sınıfın şase-kapasite özellikleri ve dizel/akülü ayrımı sektör genelinde bilinen teknik gerçeklerdir; terim netleştirme yöntemi ve karar kriterleri firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Ankara Sanayi Hattında Platform Nakliye ve Teslimat Planlaması",
+        giris:
+            "OSTİM-İvedik-Sincan hattında platform kiralamanın gizli maliyet kalemi çoğu zaman makine kirası değil nakliyedir: tekil sevkiyat, mesafeye ve makine ağırlığına göre fiyatlanır ve plansız kiralamada bu kalem, makine bedeliyle yarışabilir hâle gelir. Genel amaçlı filomuzun bu hattaki avantajı düzenli tur güzergâhıdır — OSTİM'den Sincan'a, İvedik'ten Kazan'a uzanan koridor günlük-haftalık turlarla dolaşılır ve bu turlara denk gelen sevkiyatlar, tekil sevkiyattan belirgin ucuza gelir. Bu sayfa, nakliye kararının nasıl planlandığını anlatıyor: hangi sevkiyat tur güzergâhına oturur, hangi durumda özel sevkiyat kaçınılmazdır, komşu birleştirme nasıl işler ve teslimat gününde nelere dikkat edilir.",
+        maddeler: [
+            {
+                baslik: "Tur güzergâhı mantığı: neden bazı sevkiyat ucuz, bazısı pahalı",
+                metin:
+                    "Filomuzun günlük-haftalık turları sabit bir güzergâh izler: OSTİM-İvedik-Sincan omurgası, Kazan-Akyurt kolu ve Polatlı-Temelli kolu haftanın belirli günlerinde dolaşılır. Talebiniz bu güzergâha ve güne denk geliyorsa nakliye maliyeti, turun genel giderine paylaşılır ve tekil sevkiyattan belirgin ucuza gelir. Güzergâh dışı veya acil talep, özel sevkiyat gerektirir ve bu, mesafe + makine ağırlığına göre ayrı fiyatlanır. Kiralama tarihinde esneklik varsa, en yakın tur gününe denk getirmek en büyük tasarruf kalemidir.",
+            },
+            {
+                baslik: "Makine ağırlığı nakliye aracını belirler",
+                metin:
+                    "Nakliye maliyetinin ikinci değişkeni makine sınıfıdır: kompakt akülü makaslı (8-10 m) standart kamyonetle taşınırken, büyük dizel eklemli (16-20 m) low-bed veya özel platform araç ister ve bu araç farkı, sevkiyat fiyatına doğrudan yansır. Aynı işi küçük sınıfla çözebiliyorsanız (gereksiz büyük makine kiralamamak), nakliye tarafında da tasarruf edersiniz — makine seçim kararı ile nakliye maliyeti birbirinden ayrı düşünülemez.",
+            },
+            {
+                baslik: "Komşu birleştirme: en ucuz nakliye biçimi",
+                metin:
+                    "Aynı sanayi sitesinde veya yakın sokakta iki-üç işletmenin işi aynı güne denk geliyorsa, tek sevkiyatla birden fazla teslimat yapılır ve nakliye maliyeti işletmeler arasında bölünür. Bu, OSTİM-İvedik gibi yoğun sitelerde sık kullandığımız bir yöntemdir ve talep ettiğinizde komşu işletmelerin talebiyle eşleştirmeye çalışırız — kesin garanti veremeyiz ama sorma maliyeti sıfırdır ve eşleşme bulunduğunda tasarruf belirgindir.",
+            },
+            {
+                baslik: "Acil teslimat: mümkün ama farklı fiyatlanır",
+                metin:
+                    "Plansız-acil talep, tur güzergâhı dışında özel sevkiyat gerektirir ve bu, standart teslimattan daha yüksek fiyatlanır — aracın o gün için özel ayrılması, başka işin ertelenmesi anlamına gelir. Koridor üzerindeki bölgelerde (OSTİM, İvedik, Sincan) acil talep genelde aynı gün karşılanabilir çünkü en yakın tur makinesi yönlendirilir; koridorun ucundaki bölgelerde (Polatlı, Kırıkkale sınırı) acil teslimat süresi uzar. Aciliyetinizi ilk aramada belirtin; gerçekçi saati baştan söyleriz.",
+            },
+            {
+                baslik: "Teslimat gününde kontrol listesi",
+                metin:
+                    "Sevkiyatın sorunsuz geçmesi, teslimat noktasının önceden hazır olmasına bağlıdır: makinenin ineceği alan boş ve erişilebilir olmalı, kapı-geçiş ölçüleri (varsa) önceden doğrulanmış olmalı ve teslim alacak yetkili kişi sahada bulunmalıdır. Bu üç şart eksikse şoför sahada bekler ve bekleme süresi ayrı ücretlendirilebilir — teslimat saatinden 30 dakika önce hatırlatma aramasıyla bu riski azaltırız, ama sahadaki hazırlık işletmenin sorumluluğundadır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bölgeye göre tur günleri ve tepki süresi",
+                paragraflar: [
+                    "Koridor üzerindeki bölgelerin tipik tur sıklığı ve acil teslimat süresi aşağıdadır. Kesin gün, o haftanın tur programına göre değişebilir.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge", "Tur sıklığı", "Standart teslimat", "Acil teslimat"],
+                    satirlar: [
+                        ["OSTİM / İvedik", "Günlük", "Aynı gün – ertesi gün", "Çoğu zaman aynı gün"],
+                        ["Sincan", "Haftada 3-4 gün", "1-2 gün", "Aynı gün (tur günündeyse)"],
+                        ["Etimesgut / Kazan", "Haftada 2-3 gün", "1-2 gün", "Genelde ertesi gün"],
+                        ["Akyurt / Pursaklar", "Haftada 1-2 gün", "2-3 gün", "Ertesi gün"],
+                        ["Polatlı / Temelli", "Haftada 1 gün", "2-4 gün", "Ek ücretli özel sevkiyat"],
+                    ],
+                },
+            },
+            {
+                baslik: "Nakliye maliyetini düşürmenin üç yolu",
+                paragraflar: [
+                    "Sevkiyat maliyeti üç kararla düşürülebilir. Bir: kiralama tarihini tur gününe esnetmek — bir-iki gün kaydırma, tekil sevkiyatı tur sevkiyatına çevirir. İki: komşu işletmeyle sevkiyat birleştirmek — aynı sokakta benzer bir talep varsa maliyet bölünür. Üç: gereksiz büyük makine kiralamamak — küçük sınıf hem kira hem nakliye tarafında ucuzdur.",
+                    "Bu üç yol birlikte uygulandığında, plansız tekil kiralamaya göre toplam maliyet belirgin düşer — teklif isterken bu üç seçeneği sormanızı öneririz.",
+                ],
+            },
+            {
+                baslik: "Haftalık-uzun kiralamada nakliye payı",
+                paragraflar: [
+                    "Nakliye maliyeti günlük değil sevkiyat başına hesaplanır ve bu, süre kararını doğrudan etkiler: 1 günlük kiralamada nakliye bedeli tüm maliyetin büyük payını oluşturabilirken, aynı makineyi bir hafta tutmak nakliyeyi günlere böler ve birim maliyeti düşürür. İşiniz 3 günü geçiyorsa haftalık tarifeye geçmek, çoğu zaman yalnızca kira değil nakliye tarafında da avantaj sağlar — süre kararı verirken bu payı da hesaba katmanızı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Nakliye ücreti neye göre hesaplanıyor, sabit bir rakam yok mu?",
+                cevap:
+                    "Sabit değil çünkü iki değişkene bağlı: mesafe (teslimat noktasının tur güzergâhına yakınlığı) ve makine ağırlığı-boyutu (kompakt sınıf standart araçla, büyük sınıf low-bed ile taşınır). Tur güzergâhındaki ve tur gününe denk gelen sevkiyatlar en ucuzdur; güzergâh dışı acil talep en pahalıdır. Teklifte nakliye ayrı satır olarak gösterilir, kira bedeline gizlenmez — böylece hangi kalemin ne kadar tuttuğunu görürsünüz. Adresinizi ve tercih ettiğiniz tarihi paylaşın; nakliye kalemini net rakamla verelim.",
+            },
+            {
+                soru: "Tur gününe denk getirirsek gerçekten fark oluyor mu, yoksa pazarlık taktiği mi?",
+                cevap:
+                    "Gerçek bir fark — tur sevkiyatı, o günkü aracın genel giderine paylaşılırken tekil sevkiyat aracı yalnızca sizin için ayırır. OSTİM-İvedik-Sincan hattında bu fark özellikle belirgindir çünkü tur sıklığı yüksektir; bölgenin ucunda (Polatlı gibi) tur haftada bir kez geçtiği için esneklik payı da daha büyük tasarruf sağlar. Tarihte bir-iki gün esneklik varsa bunu ilk aramada söyleyin; en yakın tur gününe göre teklifi kuralım.",
+            },
+            {
+                soru: "Komşu işletmeyle sevkiyat birleştirme nasıl işliyor, biz mi bulmalıyız?",
+                cevap:
+                    "Bulmanıza gerek yok ama söylemeniz işe yarar: talebinizi aldığımızda aynı gün-yakın bölgede başka talep varsa kendiliğinden eşleştiririz; siz de 'komşumuzda da iş var mı diye sorar mısınız' derseniz aktif olarak ararız. Garanti veremeyiz çünkü eşleşme talep yoğunluğuna bağlıdır, ama sorma maliyeti sıfırdır. OSTİM ve İvedik gibi yoğun sitelerde eşleşme ihtimali yüksektir; Polatlı gibi seyrek bölgelerde daha düşüktür.",
+            },
+            {
+                soru: "Acil ihtiyacımız var, bugün-yarın teslimat mümkün mü?",
+                cevap:
+                    "Bölgenize bağlı: OSTİM-İvedik-Sincan hattındaysanız çoğu zaman evet, en yakın tur makinesi yönlendirilir ve aynı gün-ertesi gün teslimat mümkündür; Polatlı-Temelli gibi koridorun ucundaysanız acil teslimat için özel sevkiyat gerekir ve bu ek ücretlidir ama yine de genelde 1-2 gün içinde çözülür. İlk aramada bölgenizi ve aciliyet derecenizi söyleyin; gerçekçi saati o anda veririz — tutamayacağımız 'hemen' sözü vermeyiz.",
+            },
+            {
+                soru: "Makine sahaya geldi ama içeri giremedi, bu durumda ne olur?",
+                cevap:
+                    "Bu senaryo, kapı-geçiş ölçüsünün önceden doğrulanmamasından kaynaklanır ve önlenebilir bir hatadır — bu yüzden teklif öncesi kapı ölçüsünü sorarız. Sahada gerçekten geçemezse (ölçü paylaşılmadıysa veya yanlış ölçüldüyse) alternatif dar şase makine aynı gün ikinci sevkiyatla gönderilir; bu ek sevkiyatın maliyeti duruma göre değerlendirilir. Bu riski sıfırlamanın yolu basittir: teslimattan önce kapı genişliği-yüksekliğini fotoğrafla iletin, biz doğru şaseyi baştan seçelim.",
+            },
+            {
+                soru: "Haftalık kiralamada nakliye kaç kez ücretlendiriliyor, gidiş-dönüş mü tek sefer mi?",
+                cevap:
+                    "İki yönlü hesaplanır — teslimat ve iade olmak üzere iki sevkiyat, ama bu iki sevkiyatın toplam maliyeti günlük kiralamaya göre haftalık kiralamada daha düşük birim maliyete düşer çünkü nakliye bedeli 7 güne değil tek seferlik bir kaleme yayılır. Kiralama süresi uzadıkça (örneğin 2-3 haftaya) nakliyenin toplam maliyetteki payı daha da küçülür. Teklifte gidiş-dönüş nakliye ayrı satırda gösterilir; süre uzadıkça birim maliyetin nasıl düştüğünü de görebilirsiniz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Ankara sanayi hattının coğrafi yapısı ve OSTİM-İvedik-Sincan-Kazan-Polatlı güzergâhı kamuya açık bilgidir; tur planlama yöntemi ve komşu birleştirme pratiği firma uygulamasıdır.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Forklift Kiralama: Kapasite ve Sınıf Seçim Rehberi",
+        giris:
+            "Forklift kiralamada en sık yapılan hata, platformdakinin tam tersidir: platformda 'büyük garantidir' yanılgısı görülürken forkliftte tam tersi bir yanılgı yaygındır — 'elimizdeki forklift her yükü kaldırır' varsayımı. Oysa forklift seçimi de en az platform kadar teknik bir karardır: kapasite (kaldırma ağırlığı), kaldırma yüksekliği, lastik tipi (zemine göre) ve dar koridorlarda dönüş yarıçapı, birbirinden bağımsız dört değişkendir ve her biri yanlış seçildiğinde ya iş yapılamaz ya da güvenlik riski doğar. Genel amaçlı filomuzdaki forklift seçeneği, platform kiralamasıyla aynı danışmanlık mantığıyla sunulur: yükünüzü, raf yüksekliğinizi ve zemininizi sorarız, doğru sınıfı öneririz. Bu sayfa, forklift seçiminin dört değişkenini ve OSTİM-İvedik-Sincan hattındaki tipik kullanım senaryolarını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kapasite: en sık yanlış hesaplanan değişken",
+                metin:
+                    "Forklift kapasitesi, yük merkezine göre değişir ve bu, üzerindeki etikette yazan rakamın her zaman geçerli olmadığı anlamına gelir: standart kapasite değeri genelde 500 mm yük merkezi varsayımıyla verilir, ama palet derinliği veya yükün ağırlık merkezi bu mesafeyi aşıyorsa gerçek kaldırma kapasitesi düşer. İki ton kapasiteli forklift, yük merkezi kaydıkça 1,5 tonun altına inebilir. Yükünüzün ağırlığı ve boyutlarını (en-boy-yükseklik) paylaştığınızda, gerçek kapasite ihtiyacını hesaplarız — etikete değil hesaba göre seçim yaparız.",
+            },
+            {
+                baslik: "Kaldırma yüksekliği: raf kotu + güvenlik payı",
+                metin:
+                    "Depo-raf işlerinde kaldırma yüksekliği, en üst raf kotuna göre belirlenir ve buna bir güvenlik payı eklenir — tam kot hesabı, çatal ile raf arasında manevra payı bırakmaz. Standart forklift direği (triplex mast) 5-6 metre bandında kaldırma yapar; bu bandın üzerinde (7 metre ve üstü) özel yüksek direkli modeller gerekir ve bu modeller stokta sınırlıdır, önceden planlama ister. Raf kotunuzu ölçün, en üst rafın gerçek yüksekliğini paylaşın; direk boyu ona göre seçilir.",
+            },
+            {
+                baslik: "Lastik tipi: iç mekan mı dış saha mı",
+                metin:
+                    "Lastik seçimi zemine göre yapılır ve bu karar kapasiteden bağımsız ayrı bir değişkendir: iç mekan düz beton zeminde dolgu lastik (iz bırakmaz, kaygan zeminde daha stabil) tercih edilirken, dış saha stabilize veya bozuk zeminde pnömatik lastik (hava basınçlı, engebeyi daha iyi karşılar) gerekir. Yanlış lastikle çalışmak hem zemine zarar verir (dış saha lastiğiyle epoksi zeminde iz) hem de performans kaybettirir (iç mekan lastiğiyle dış sahada takılma). Kullanım zemini net değilse, karma iş için iki lastik tipini de değerlendiririz.",
+            },
+            {
+                baslik: "Dar koridor: dönüş yarıçapı forklifti belirler",
+                metin:
+                    "OSTİM ve İvedik'in dar atölye koridorlarında forklift seçiminin belirleyicisi çoğu zaman kapasite değil dönüş yarıçapıdır: standart forklift 3,5-4 metrelik koridor genişliği ister, bu ölçü yoksa dar gövdeli veya üç tekerlekli model devreye girer (daha küçük dönüş yarıçapı, ama genelde biraz daha düşük kapasite). Koridor genişliğinizi ölçün — bu tek ölçü, kapasite hesabından önce sınıfı daraltır.",
+            },
+            {
+                baslik: "Operatör ve süre kararı",
+                metin:
+                    "Forkliftte de operatör belgesi (G sınıfı iş makinesi operatörlük belgesi) yasal zorunluluktur ve platformdaki gibi, belgeli personeliniz yoksa operatörlü kiralama pratik çözümdür. Süre kararı da aynı mantığı izler: 1-2 günlük iş günlük tarifeyle, 3 günü geçen iş haftalık paketle daha ekonomiktir. Depo-sevkiyat gibi tekrarlayan ihtiyaçlarda aylık kiralama da değerlendirilir ve bu, günlük-haftalık tarifelere göre birim maliyeti belirgin düşürür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşe göre forklift sınıfı seçim tablosu",
+                paragraflar: [
+                    "OSTİM-İvedik-Sincan hattında sık görülen forklift ihtiyaçlarının tipik sınıf eşleşmesi aşağıdadır. Kesin seçim yük-koridor-zemin ölçüsüyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik kapasite", "Lastik", "Dikkat"],
+                    satirlar: [
+                        ["Atölye içi malzeme taşıma", "1,5 – 2,5 ton", "Dolgu", "Koridor genişliği"],
+                        ["Depo raf istifleme (5-6 m)", "1,5 – 2 ton", "Dolgu", "Raf kotu + pay"],
+                        ["Yüksek raf (7 m üstü)", "1 – 1,5 ton", "Dolgu", "Özel direk, önceden planlama"],
+                        ["Dış saha yükleme-boşaltma", "2 – 3,5 ton", "Pnömatik", "Zemin engebesi"],
+                        ["Dar koridor / asansörlü depo", "1 – 1,5 ton", "Dolgu", "Dar gövde / 3 tekerlekli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yük merkezi hesabı: neden etiket rakamı yanıltıcı olabilir",
+                paragraflar: [
+                    "Forklift etiketindeki kapasite rakamı, standart bir yük merkezi varsayımıyla (genelde 500 mm) verilir ve gerçek yükünüzün ağırlık merkezi bu mesafeden uzaksa (uzun palet, düzensiz dağılmış yük), gerçek kaldırma kapasitesi etikettekinden düşük çıkar. Bu farkı önceden hesaba katmak, sahada 'kaldıramadı' sürprizini önler — yükünüzün gerçek ölçülerini (uzunluk, ağırlık dağılımı) paylaştığınızda, gerçek kapasite ihtiyacını biz hesaplarız.",
+                    "Bu hesap özellikle uzun profil, boru veya düzensiz şekilli yüklerde kritik hâle gelir; standart paletli yükte fark genelde küçüktür.",
+                ],
+            },
+            {
+                baslik: "Platform ve forklift birlikte kiralanınca",
+                paragraflar: [
+                    "Depo-sevkiyat işlerinde platform ve forklift genelde birlikte ihtiyaç duyulur — forklift zemin seviyesi malzeme taşırken platform raf üstü-tavan işini yapar. İki makineyi aynı sevkiyatta göndermek, nakliye maliyetini paylaştırır ve tek koordinasyon noktası (tek teklif, tek teslimat, tek iade) süreci basitleştirir. İki ihtiyacınız da varsa birlikte belirtin; tek listede fiyatlayalım.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "2 tonluk forklift her 2 ton yükü kaldırır mı?",
+                cevap:
+                    "Her zaman değil — kapasite etiketi standart yük merkezi (genelde 500 mm) varsayımıyla verilir ve yükünüzün ağırlık merkezi bu mesafeyi aşıyorsa (uzun profil, düzensiz dağılmış yük) gerçek kaldırma kapasitesi düşer. Standart paletli yükte fark genelde önemsizdir ama uzun boru, panel gibi yüklerde belirgin olabilir. Yükünüzün boyutlarını ve ağırlığını paylaşın; gerçek kapasite ihtiyacını hesaplayıp ona göre sınıf önerelim — etikete güvenip sahada eksik kalmaktansa baştan doğru hesaplamak daha güvenlidir.",
+            },
+            {
+                soru: "Raf yüksekliğimiz 7 metre, standart forklift yeter mi?",
+                cevap:
+                    "Genelde yetmez — standart forklift direği (triplex mast) 5-6 metre bandında kaldırma yapar ve 7 metre üstü için özel yüksek direkli model gerekir. Bu modeller filoda daha sınırlı sayıdadır ve önceden planlama ister — son dakika talep, bekleme süresi doğurabilir. Raf kotunuzu (en üst rafın gerçek yüksekliği) şeritmetre veya lazer ölçerle doğrulayın ve mümkünse birkaç gün önceden bildirin; doğru direk boyu size ayrılır.",
+            },
+            {
+                soru: "İç mekan ve dış saha ikisinde de kullanacağız, tek forklift yeter mi?",
+                cevap:
+                    "Lastik tipi bu kararı zorlaştırır: dolgu lastik iç mekan için idealdir ama dış sahada engebeyi iyi karşılamaz, pnömatik lastik dış saha için idealdir ama iç mekan zemininde iz bırakabilir. İşin ağırlığı bir tarafta yoğunsa (örneğin çoğunlukla iç mekan, ara sıra dış saha), o ortama uygun lastik seçilir ve istisnai kullanım kabul edilebilir risktir. Kullanımın yaklaşık oranını (yüzde kaç iç, yüzde kaç dış) söyleyin; en az riskli lastik tipini önerelim.",
+            },
+            {
+                soru: "Koridorlarımız dar, standart forklift dönemiyor; alternatif var mı?",
+                cevap:
+                    "Var — dar gövdeli veya üç tekerlekli forklift modelleri, standart modele göre belirgin daha küçük dönüş yarıçapına sahiptir ve dar koridorlarda rahat manevra yapar. Bu modellerin kapasitesi genelde standart modele göre biraz daha düşüktür, bu yüzden yük ağırlığınızla birlikte koridor genişliğinizi de paylaşmanız gerekir — iki ölçü birlikte doğru sınıfı belirler. Koridor genişliğini ölçün (en dar noktadan); ona uyan sınıfı önerelim.",
+            },
+            {
+                soru: "Forklift operatörümüz yok, biz de kullanamayız mı?",
+                cevap:
+                    "Kullanamazsınız — forklift kullanımı G sınıfı iş makinesi operatörlük belgesi ister ve bu belge olmadan kullanım, kaza anında işvereni doğrudan kusurlu kılar. Belgeli personeliniz yoksa operatörlü kiralama pratik çözümdür — operatör makineyle gelir, sizin ekibiniz malzeme akışını yönetir. Tekrarlayan ihtiyaçta personelinize belge aldırmak da değerlendirilebilir; süreç ve eğitim yerlerini yönlendiririz.",
+            },
+            {
+                soru: "Platform ve forklift ihtiyacımız aynı anda var, birlikte mi kiralamalıyız?",
+                cevap:
+                    "Birlikte kiralamak avantajlıdır — iki makineyi aynı sevkiyatta göndermek nakliye maliyetini paylaştırır ve tek teklif-tek teslimat-tek iade süreciyle koordinasyon yükü azalır. Depo-sevkiyat işlerinde bu kombinasyon sık görülür: forklift zemin seviyesinde malzeme taşırken platform raf üstü-tavan işini yapar. İki ihtiyacınızın ölçülerini (yük, raf kotu, hedef yükseklik) birlikte paylaşın; tek teklifte iki kalemi ayrı satırlarda görün.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Forklift kapasite-yük merkezi ilişkisi ve lastik tipi ayrımı sektör genelinde bilinen teknik gerçeklerdir; sınıf seçim yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Eklemli Platform (Boom Lift) Kiralama: Makaslıya Karşı Ne Zaman Doğrudur?",
+        giris:
+            "Eklemli platform talebi geldiğinde sorduğumuz ilk soru genelde şaşırtır: 'neden eklemli istiyorsunuz, makaslı yeterli olabilir mi?' Çünkü eklemli sınıf, makaslıya göre daha pahalı ve genelde daha yavaş kurulan bir makinedir ve yalnızca gerçekten gerektiğinde tercih edilmelidir — 'daha esnek olsun' düşüncesiyle eklemli seçmek, çoğu zaman gereksiz maliyettir. Genel amaçlı filomuzun eklemli-makaslı ayrımındaki rolü tarafsız danışmanlıktır: iki sınıf da filodadır ve öneri, hedefin altının boş mu dolu mu olduğuna bakar, kataloğun hangi sınıfta stok bolluğu olduğuna değil. Bu sayfa, eklemli sınıfın gerçekten gerekli olduğu durumları ve makaslının yeterli olduğu durumları ayırıyor.",
+        maddeler: [
+            {
+                baslik: "Tek kural: hedefin altı boş mu dolu mu",
+                metin:
+                    "Eklemli-makaslı kararının %80'i tek bir soruyla çözülür: makineyi hedefin tam altına park edebiliyor musunuz? Edebiliyorsanız makaslı yeterlidir ve tercih edilmelidir — daha geniş sepet, daha basit kullanım, daha düşük kira. Edemiyorsanız (tezgâh, boru hattı, sundurma, engel var) eklemli gerekir çünkü bom kırılımıyla engelin üzerinden veya yanından hedefe ulaşabilir. Bu tek soru, çoğu kararı masada bitirir; geri kalan %20'lik gri bölge yükseklik ve zemin gibi ikincil değişkenlere bakar.",
+            },
+            {
+                baslik: "Yükseklik arttıkça eklemli avantajı büyür",
+                metin:
+                    "12 metrenin üzerinde, eklemli sınıf yalnızca engel aşma için değil pratik nedenlerle de tercih edilir: yüksek makaslı modeller şase boyutu büyüdükçe manevra kabiliyetini kaybeder, yüksek eklemli ise aynı yükseklikte daha kompakt kalabilir ve dar alanlarda bile çalışabilir. 16-20 metre bandında filomuzun ağırlığı dizel eklemli sınıfa kayar — bu bant, açık saha ve büyük hol işlerinin tipik cevabıdır.",
+            },
+            {
+                baslik: "Yatay erişim mesafesi: eklemlinin asıl gücü",
+                metin:
+                    "Eklemli platformun ayırt edici özelliği dikey değil yatay erişimdir: bom, park noktasından yatay olarak birkaç metre uzanabilir ve bu, makinenin duramayacağı noktalardaki hedeflere erişimi sağlar — su birikintisi üstü, tezgâh arkası, çatı saçağı altı gibi. Yatay erişim mesafesi ihtiyacınız varsa (park noktası ile hedef arasında yatay mesafe var), bu tek başına eklemliyi zorunlu kılar; makaslı sınıfın yatay uzanma kapasitesi çok sınırlıdır.",
+            },
+            {
+                baslik: "Dizel mi akülü eklemli mi",
+                metin:
+                    "Eklemli sınıfta da akülü-dizel ayrımı zemine göre yapılır: kapalı-düz zeminde akülü eklemli sessiz ve emisyonsuz çalışır, açık-bozuk sahada dizel 4x4 eklemli gereklidir. Akülü eklemli modellerin çalışma yüksekliği genelde 12-16 metre bandında sınırlıdır; daha yüksek işler (16 metre üstü) çoğunlukla dizel sınıfa düşer çünkü bu yükseklikteki akülü model seçeneği filoda daha sınırlıdır.",
+            },
+            {
+                baslik: "Maliyet farkını gözden kaçırmayın",
+                metin:
+                    "Eklemli sınıf, aynı çalışma yüksekliğindeki makaslıya göre günlük tarifede belirgin daha yüksektir — bu fark, bom mekanizmasının karmaşıklığından ve daha az sayıda üretilmesinden gelir. İşiniz gerçekten yatay erişim veya engel aşma gerektirmiyorsa, eklemli seçmek yalnızca bütçeyi büyütür. Karar öncesi 'makaslı gerçekten yetmez mi' sorusunu kendinize sormanızı öneririz — çoğu zaman cevap sandığınızdan farklı çıkar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli-makaslı karar tablosu",
+                paragraflar: [
+                    "İki sınıf arasındaki tipik senaryolar ve öneriler aşağıdadır. Gri bölgede iki fiyat karşılaştırmalı sunulur.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen sınıf", "Gerekçe"],
+                    satirlar: [
+                        ["Hedefin altı tamamen boş", "Makaslı", "Daha ucuz, daha geniş sepet"],
+                        ["Tezgâh/boru hattı hedefin altında", "Eklemli", "Bom kırılımıyla aşma"],
+                        ["Yatay erişim mesafesi var", "Eklemli", "Makaslının yatay uzanma sınırı"],
+                        ["16 metre üstü, açık saha", "Dizel eklemli", "Kompakt kalır, dar alanda çalışır"],
+                        ["Kısmen erişilebilir hedef", "İki fiyat karşılaştırmalı", "Gri bölge — rakamla karar"],
+                    ],
+                },
+            },
+            {
+                baslik: "Gri bölge: kısmi erişimde iki seçenek",
+                paragraflar: [
+                    "Hedefin bir kısmı açık, bir kısmı engelliyse (örneğin uzun bir hattın yarısı boş yarısı dolu), iki seçenek maliyetiyle sunulur: makaslıyla açık kısmı, merdivenli tamamlama ile engelli kısmı bitirmek mi, tek eklemliyle tüm hattı tek makineyle bitirmek mi. Kısa hatlarda ilk seçenek genelde ucuzdur; uzun hatlarda tek eklemli, toplam süreyi kısaltarak öne çıkar. Bu kararlarda rakam konuşur; iki teklifi yan yana görürsünüz.",
+                    "Kesin sınır yoktur — her hat kendi ölçüsüyle değerlendirilir ve teklif, iki senaryonun toplam maliyet-süre karşılaştırmasıyla gelir.",
+                ],
+            },
+            {
+                baslik: "Eklemli sınıfın operatör gereksinimi",
+                paragraflar: [
+                    "Eklemli platform kullanımı da MYK yeterlilik belgesi ister ve bu belge makaslıdan ayrı bir yetkinlik alanıdır — makaslı için belgeli bir operatör, otomatik olarak eklemli kullanmaya yetkili değildir, çünkü bom kontrolü ve kırılım hareketi farklı bir beceri gerektirir. Belgeli personeliniz yoksa operatörlü kiralama önerilir; eklemli sınıfın karmaşıklığı nedeniyle bu, ilk kez kiralayan işletmeler için özellikle mantıklı bir tercihtir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform makaslıdan ne kadar pahalı, fark gerçekten büyük mü?",
+                cevap:
+                    "Aynı çalışma yüksekliğinde eklemli, makaslıya göre belirgin daha yüksek tarifelidir — bom mekanizmasının karmaşıklığı ve daha sınırlı stok sayısı bu farkı oluşturur. Fark, yükseklik arttıkça büyür. Bu yüzden ilk sorumuz hep aynıdır: hedefin altı gerçekten dolu mu, yoksa 'esnek olsun' diye mi eklemli düşünüyorsunuz? İkinci durumda makaslı öneririz ve bütçenizi korursunuz. İşinizi anlatın, gerçekten eklemli gerekip gerekmediğini birlikte netleştirelim.",
+            },
+            {
+                soru: "Hedefimizin altında kısmen boru hattı var, ne önerirsiniz?",
+                cevap:
+                    "Bu, gri bölgenin tipik örneğidir ve iki seçenek karşılaştırmalı sunulur: makaslıyla açık kısmı bitirip boru hattı bölgesini merdivenle tamamlamak mı, tek eklemliyle bom kırılımıyla tüm hattı bitirmek mi. Hattın uzunluğuna ve boru bölgesinin genişliğine göre karar değişir — kısa engelli bölgede ilk seçenek genelde ucuzdur, uzun engelli bölgede eklemli öne çıkar. Hattın krokisini (boru bölgesinin başlangıç-bitiş noktaları) paylaşın; iki fiyatı karşılaştırmalı görün.",
+            },
+            {
+                soru: "16 metre yüksekliğe çıkacağız, akülü eklemli yeterli mi?",
+                cevap:
+                    "Sınırda — akülü eklemli modellerin çalışma yüksekliği genelde 12-16 metre bandında filoda mevcuttur, ama bu bandın üst sınırında model seçeneği daralır ve zemin-ortam koşullarına göre dizel tercih edilebilir. Kapalı-düz zeminde akülü öncelikli denenir, açık-bozuk sahada dizel 4x4 daha güvenlidir. Zemininizi ve ortamınızı (kapalı mı açık mı) söyleyin; 16 metre için en uygun modeli netleştirelim.",
+            },
+            {
+                soru: "Makaslı ile eklemli operatör belgesi aynı mı, tek belgeyle ikisini de kullanabilir miyiz?",
+                cevap:
+                    "Hayır — iki sınıf ayrı yetkinlik alanıdır; makaslı için belgeli operatör, otomatik olarak eklemli kullanmaya yetkili değildir çünkü bom kontrolü farklı bir beceri gerektirir. Personelinizin belgesini kontrol edin (belge üzerinde makine tipi yazılıdır); eklemli için ayrı belge yoksa operatörlü kiralama önerilir. İlk kez eklemli kullanacaksanız operatörlü başlamak, makinenin özelliklerini görmek için de faydalıdır.",
+            },
+            {
+                soru: "Yatay erişim mesafesi ne demek, bizim işimiz buna girer mi?",
+                cevap:
+                    "Makinenin park edebildiği nokta ile hedef arasındaki yatay mesafedir — örneğin bir su birikintisinin, geniş bir makine parkının veya güvenlik bariyerinin ötesindeki bir noktaya erişmeniz gerekiyorsa, bu yatay erişim ihtiyacıdır ve makaslı sınıfın bunu karşılama kapasitesi çok sınırlıdır. Eklemli platformun bomu, park noktasından birkaç metre yatay uzanabildiği için bu tür hedeflere ulaşır. Park edebileceğiniz en yakın nokta ile hedef arasındaki mesafeyi tahmini de olsa paylaşın; eklemli gerekip gerekmediğini netleştirelim.",
+            },
+            {
+                soru: "Eklemli kiraladık ama makaslı yetermiş, sonradan değiştirebilir miyiz?",
+                cevap:
+                    "Evet — sahada gerçek durumu gördükten sonra makine değişimi istenirse, uygun bir makaslı varsa değişim koordine edilir; ancak bu, ek bir sevkiyat maliyeti doğurabilir. Bu senaryoyu baştan önlemenin yolu basittir: kiralama öncesi 'hedefin altı gerçekten dolu mu' sorusunu birlikte netleştirmektir — fotoğrafla gelen taleplerde bu netleşme telefonda bile mümkündür. Değişim ihtiyacınız olursa hemen bildirin; en az kayıplı geçişi birlikte planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli-makaslı sınıf farkları ve bom mekanizması özellikleri sektör genelinde bilinen teknik gerçeklerdir; karar yöntemi ve gri bölge fiyatlama pratiği firma uygulamasıdır.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "İç Mekan Depo Platform Kiralama: Akülü mü Dizel mi Karar Rehberi",
+        giris:
+            "Depo içi platform kiralamada karar, sanılanın aksine yükseklikten önce enerji tipinde başlar: kapalı bir depoda dizel motor egzozu kabul edilebilir bir seçenek değildir ve bu tek gerçek, sınıf seçiminin büyük kısmını baştan belirler. Genel amaçlı filomuzun depo işlerindeki yaklaşımı, akülü sınıfı varsayılan kabul edip yalnızca gerçek bir gerekçe varsa dizele geçmektir — tersi değil. Bu sayfa, depo içi platform kararının üç ayağını anlatıyor: neden akülü neredeyse zorunlu, hangi metraj bandı depo işlerinin çoğunu karşılar ve koridor-lastik-vardiya gibi depo özel kısıtları makineyi nasıl şekillendirir.",
+        maddeler: [
+            {
+                baslik: "Neden akülü, dizel neden neredeyse hiç önerilmez",
+                metin:
+                    "Kapalı depo ortamında dizel motor egzozu, havalandırma yeterli olsa bile çalışanlar için sağlık riski oluşturur ve çoğu depo yönetmeliği bunu zaten yasaklar. Akülü platform sessiz çalışır, emisyonsuzdur ve depo içi vardiya düzenine (gece şarj, gündüz çalışma) doğal uyum sağlar. Dizel yalnızca çok istisnai durumlarda (çok büyük hacimli, doğal havalandırmalı endüstriyel depo, çok yüksek metraj) değerlendirilir ve bu durumda dahi önce akülü seçeneğin gerçekten yetersiz olduğu doğrulanır.",
+            },
+            {
+                baslik: "Raf kotu + 2 metre: metrajın basit formülü",
+                metin:
+                    "Depo işlerinin metraj kararı tek bir formülle çözülür: en üst raf kotu + 2 metre uzanma payı = gereken çalışma yüksekliği. Bölgedeki depo raf sistemlerinin tipik üst kot bandı 8-12 metre olduğu için, bu formül genelde 10-14 metre akülü makaslı sınıfına düşer — filodaki en yaygın ve en ekonomik depo bandı. Daha yüksek raf sistemlerinde (12 metre üstü) metraj büyür ama enerji tipi kararı değişmez; yüksek akülü modeller de mevcuttur.",
+            },
+            {
+                baslik: "Koridor genişliği şase tipini belirler",
+                metin:
+                    "Depo raf aralıkları, makine şase genişliğini doğrudan sınırlar: standart akülü makaslı 1,15 metre şase ister, dar raf koridorları (1,2 metre altı) için dar şase modeller (0,76-0,81 m) gerekir. Bu ayrım, kapasite veya yükseklikten önce koridor ölçüsüyle netleşir — raf aralığınızı ölçmeden verilen öneri, sahada geçmeyebilir. Koridor genişliğini raf profillerinin iç kenarından ölçün; makine şasesi bu ölçüye göre seçilir.",
+            },
+            {
+                baslik: "İz bırakmayan lastik ve zemin koruması",
+                metin:
+                    "Depo zeminleri genellikle epoksi kaplı veya cilalı betondur ve standart iş makinesi lastiği bu zeminde iz bırakabilir — depo platformlarında iz bırakmayan (non-marking) lastik standart uygulamadır ve talep etmeniz gerekmez, zaten bu şekilde gelir. Zemin hassasiyeti yüksek depolarda (gıda, ilaç, elektronik) ek koruma önlemleri (tekerlek altı koruyucu, belirli güzergâh) keşifte konuşulur.",
+            },
+            {
+                baslik: "Forklift trafiği ile vardiya planlaması",
+                metin:
+                    "Aktif bir depoda platform çalışması, forklift trafiğiyle aynı alanı paylaşır ve bu, güvenlik açısından planlama gerektirir: platform çalışma saatleri forklift yoğun saatlerin dışına (vardiya arası, gece) alınabilir veya çalışma alanı geçici olarak forklift güzergâhından ayrılabilir. Depo yönetiminizle koordineli bir vardiya penceresi belirlemek, hem güvenliği hem iş hızını artırır — bu planlama teslimat öncesi netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo işi türüne göre sınıf seçimi",
+                paragraflar: [
+                    "Depo içi tipik işlerin makine eşleşmesi aşağıdadır. Kesin sınıf, raf kotu ve koridor ölçüsüyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik metraj", "Şase", "Not"],
+                    satirlar: [
+                        ["Standart raf üstü erişim", "10 – 14 m akülü makaslı", "Standart 1,15 m", "Koridor 1,2 m üstü"],
+                        ["Dar koridorlu raf sistemi", "10 – 14 m akülü makaslı", "Dar 0,76 – 0,81 m", "Koridor 1,2 m altı"],
+                        ["Tavan aydınlatma-tesisat", "8 – 10 m akülü", "Standart", "Forklift trafiği ayrımı"],
+                        ["Yüksek hacimli depo (12 m+)", "14 m+ akülü/dizel", "Duruma göre", "Havalandırma değerlendirmesi"],
+                        ["Kapı-rampa sistemleri", "8 – 12 m akülü", "Standart", "Vardiya penceresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Depo yönetimiyle koordinasyon adımları",
+                paragraflar: [
+                    "Aktif depoda platform işi, tesis yönetiminin onayı ve koordinasyonuyla yürür: çalışma alanı ve saatleri önceden bildirilir, forklift trafiğiyle çakışma noktaları belirlenir ve gerekiyorsa geçici güvenlik şeridi çekilir. Bu koordinasyon, iş başlamadan bir gün önce netleştirilirse teslimat günü zaman kaybı yaşanmaz.",
+                    "Tekrarlayan depo işlerinde (periyodik bakım, düzenli raf düzenlemesi) bu koordinasyon şablonu bir kez kurulur ve sonraki kiralamalarda aynı düzen tekrarlanır — ilk seferin disiplini, sonrakilerin hızını belirler.",
+                ],
+            },
+            {
+                baslik: "Gıda-ilaç-elektronik depolarında ek hassasiyet",
+                paragraflar: [
+                    "Hassas ürün depolayan tesislerde (gıda, ilaç, elektronik bileşen) platform kiralaması standart depo kurallarının üzerine ek hassasiyet ekler: makine temiz-bakımlı-kaçaksız gelir, ürün bulunan raf bölgelerinde çalışma öncesi koruma önlemi alınır (örtme, alet bağlama) ve tesis giriş kayıt prosedürleri (varsa) önceden bildirilir. Bu tesislerin denetim süreçlerinde 'tesise giren ekipman' kaydı istenirse, teslimat belgesi bu amaçla kullanılabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Depomuzda dizel platform kullanabilir miyiz, daha güçlü olduğu için tercih ediyoruz?",
+                cevap:
+                    "Önerilmez — kapalı depoda dizel egzozu havalandırma yeterli olsa bile sağlık riski oluşturur ve çoğu depo yönetmeliği bunu zaten yasaklar. 'Güç' burada yanlış ölçüttür: akülü modeller depo metrajlarında (8-14 m) aynı işi sessiz ve emisyonsuz yapar, kaldırma kapasitesi de işinize yeter. Gerçekten çok yüksek bir hacim veya doğal havalandırmalı endüstriyel bir yapıysa istisna değerlendirilir; standart kapalı depoda akülü varsayılan seçimdir.",
+            },
+            {
+                soru: "Raf koridorlarımız 1,1 metre, standart makine sığar mı?",
+                cevap:
+                    "Sığmaz — standart akülü makaslı 1,15 metre şase genişliği ister ve 1,1 metrelik koridorda geçemez; bu ölçüde dar şase (0,76-0,81 m) modeller gerekir. Koridor ölçünüzü en dar noktadan (raf profillerinin iç kenarından) ölçün ve bize iletin — bu tek ölçü, doğru şase tipini baştan belirler ve sahada 'girmedi' sürprizini önler.",
+            },
+            {
+                soru: "Depo zeminimiz epoksi kaplı, makine iz bırakır mı?",
+                cevap:
+                    "Bırakmaz — depo platformlarında iz bırakmayan (non-marking) lastik standart uygulamadır, ayrıca talep etmenize gerek yoktur. Zemin hassasiyeti çok yüksekse (yeni kaplanmış, hassas kaplama) ek koruma önlemleri (tekerlek altı koruyucu, sınırlı güzergâh) keşifte konuşulur ve isterseniz teslimat öncesi zemin durumu birlikte kontrol edilir.",
+            },
+            {
+                soru: "Depomuz aktif çalışıyor, forklift trafiğiyle platform işi çakışır mı?",
+                cevap:
+                    "Çakışabilir, bu yüzden önceden planlanır: platform çalışma saatleri forklift yoğun saatlerin dışına (vardiya arası, mesai sonrası) alınabilir veya çalışma alanı geçici güvenlik şeridiyle forklift güzergâhından ayrılabilir. Depo yönetiminizle koordineli bir pencere belirlemek, teslimattan önce netleştirilir — depo trafik yoğunluğunuzu ve tercih ettiğiniz saatleri paylaşın, ona göre plan kuralım.",
+            },
+            {
+                soru: "Raf kotumuz 12 metre, bu yükseklikte akülü seçenek var mı?",
+                cevap:
+                    "Var — 12 metre raf kotu + 2 metre pay, 14 metre çalışma yüksekliği gerektirir ve bu bantta akülü makaslı modeller filoda mevcuttur. Daha yüksek raf sistemlerinde (14 metre üstü) akülü seçenek daralır ve zemin-ortam koşullarına göre dizel de değerlendirilebilir, ama kapalı depo tercihi yine akülüden yanadır. Raf kotunuzu kesin ölçüyle paylaşın; uygun akülü modeli netleştirelim.",
+            },
+            {
+                soru: "Gıda deposunda çalışacağız, makinenin hijyen açısından uygun olduğuna nasıl emin oluruz?",
+                cevap:
+                    "Teslimatta birlikte kontrol ederiz — makine temiz-bakımlı gelir, hidrolik kaçak kontrolü yapılmış olur ve isterseniz bu durumu kayda geçiririz; bu kayıt, tesis denetimlerinizde 'tesise giren ekipman' sorusuna hazır cevap olur. Ürün bulunan raf bölgelerinde çalışma öncesi örtme veya alet bağlama gibi koruma önlemleri standart uygulanır. Tesis giriş prosedürünüz varsa (bone, galoş, kayıt) önceden bildirin; operatör düzenimize ekleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Depo raf sistemleri metraj bandı ve akülü/dizel kısıtları sektör genelinde bilinen teknik gerçeklerdir; koordinasyon ve zemin koruma pratiği firma uygulamasıdır.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Çelik Konstrüksiyon Montajında Platform Seçimi: Yükseklik ve Kapasiteye Göre Sınıf",
+        giris:
+            "Çelik konstrüksiyon montajı, platform kiralamasının en talepkâr iş türlerinden biridir: yükseklik genellikle standart atölye işinin üzerindedir, sepette taşınan yük (bulon, bağlantı parçası, kaynak ekipmanı) ağırlık gerektirir ve montaj aşaması ilerledikçe erişim noktaları değişir — sabit bir makine, işin başında yeterliyken sonunda yetersiz kalabilir. Genel amaçlı filomuzun bu işlerdeki rolü, montaj aşamasına göre değişen ihtiyacı karşılayacak esneklik sunmaktır: farklı sınıflar arasında geçiş, tek kiralamacıyla koordine edilir. Bu sayfa, çelik konstrüksiyon montajının tipik aşamalarını ve her aşamanın makine ihtiyacını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Montajın erken aşaması: yüksek erişim, açık saha",
+                metin:
+                    "Çelik iskeletin ana kirişleri henüz kapanmamışken, montaj işçileri açık, engelsiz bir sahada yüksek noktalara erişir — bu aşamanın tipik cevabı dizel eklemli sınıftır (16-20 metre bandı), çünkü hem yükseklik hem de sahanın henüz düzensiz-stabilize zemin oluşu dizeli gerektirir. Bu aşamada makaslı sınıf nadiren yeterlidir çünkü kiriş hattı boyunca yatay erişim ihtiyacı vardır.",
+            },
+            {
+                baslik: "Montajın orta aşaması: kapanan hacim, değişen erişim",
+                metin:
+                    "İskelet kapandıkça (çatı örtüsü, cephe panelleri) erişim noktaları değişir ve bazı bölgeler artık dış saha değil iç mekan hâline gelir — bu geçiş, dizel eklemliden akülü eklemli veya makaslıya geçişi tetikleyebilir. Zemin de bu aşamada genelde düzelmeye başlar (beton döküm tamamlanmış olabilir), bu da akülü seçeneği pratik kılar. Montaj takviminizi paylaşırsanız, hangi aşamada hangi sınıfa geçileceğini önceden planlarız.",
+            },
+            {
+                baslik: "Cephe-kaplama aşaması: hassas yük ve konumlandırma",
+                metin:
+                    "Cephe panelleri ve kaplama montajında sepet yükü artar (panel + montaj ekipmanı + iki kişi) ve konumlandırma hassasiyeti önem kazanır — bu aşamada yüksek kapasiteli eklemli veya makaslı sınıf, hassas hareket kontrolüyle tercih edilir. Panel boyutu ve ağırlığı, sepet kapasitesini doğrudan etkiler; büyük panel montajında iki makine (biri panel taşıma, biri montaj ekibi) birlikte kullanılabilir.",
+            },
+            {
+                baslik: "Bulon sıkma ve kaynak kontrolü: nokta erişim",
+                metin:
+                    "Montaj sonrası kalite kontrolü (bulon sıkma torku kontrolü, kaynak dikişi muayenesi) genelde noktasal erişim ister — belirli bağlantı noktalarına kısa süreli, hassas erişim. Bu iş için kompakt eklemli veya küçük sınıf platformlar, büyük makinelerden daha pratiktir çünkü hızlı konumlanır ve dar alanlarda manevra eder. Kontrol listesi geniş bir alana yayılıyorsa, tur şeklinde çalışacak makine planı önceden kurulur.",
+            },
+            {
+                baslik: "Vinç ile birlikte çalışma: güvenlik koordinasyonu",
+                metin:
+                    "Çelik montaj sahalarında genelde kule veya mobil vinç de aktiftir ve platform çalışması bu vinç hareketleriyle koordine edilmelidir — platform, vinç yükünün geçiş güzergâhında konumlanmaz ve çalışma saatleri vinç operasyonuyla senkronize edilir. Bu koordinasyon, saha şefinizle birlikte teslimat öncesi netleştirilir ve günlük iş planına dahil edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Montaj aşamasına göre makine planı",
+                paragraflar: [
+                    "Çelik konstrüksiyon projesinin tipik aşamaları ve makine ihtiyacı aşağıdadır. Gerçek proje takvimine göre aşamalar örtüşebilir.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Zemin/ortam", "Önerilen sınıf", "Not"],
+                    satirlar: [
+                        ["İskelet montajı (erken)", "Açık, stabilize zemin", "Dizel eklemli 16 – 20 m", "Yatay erişim önemli"],
+                        ["Çatı-cephe kapanması (orta)", "Yarı kapalı, düzelen zemin", "Akülü eklemli", "Zemine göre geçiş"],
+                        ["Cephe-panel montajı", "Kapalı/yarı kapalı", "Yüksek kapasiteli eklemli/makaslı", "Panel ağırlığı belirler"],
+                        ["Bulon-kaynak kontrolü", "Değişken", "Kompakt eklemli", "Hızlı konumlanma"],
+                        ["Vinç aktif sahada", "Değişken", "Duruma göre", "Vinç koordinasyonu şart"],
+                    ],
+                },
+            },
+            {
+                baslik: "Proje boyunca sınıf değişimi: nasıl planlanır",
+                paragraflar: [
+                    "Uzun süren çelik montaj projelerinde makine ihtiyacı sabit kalmaz; erken aşamanın dizel eklemlisi, orta aşamada akülü eklemliye, kontrol aşamasında kompakt sınıfa evrilebilir. Bu geçişleri önceden planlamak, her aşamada doğru makinenin sahada hazır olmasını sağlar ve gereksiz boşta bekleme süresini önler — proje takviminizi paylaştığınızda, aşama geçişlerine göre makine değişim tarihlerini birlikte kurarız.",
+                    "Tek muhatapla yürüyen bu planlama, her aşama için ayrı kiralama süreci başlatmaktan hem daha hızlı hem daha koordineli sonuç verir.",
+                ],
+            },
+            {
+                baslik: "Yük kapasitesi ve sepet konfigürasyonu",
+                paragraflar: [
+                    "Çelik montaj işlerinde sepet yükü, standart bakım işinden genelde daha ağırdır (bağlantı parçaları, el aletleri, bazen kaynak makinesi) ve bu, kapasite seçimini etkiler. Kaynak makinesi gibi ağır ekipman sepette taşınacaksa, kapasite hesabına bu ağırlık dahil edilmelidir — sepet kapasitesinin aşılması güvenlik ihlalidir ve makine otomatik güvenlik kilidine girebilir. Taşınacak ekipman listesini paylaşın; kapasiteyi buna göre hesaplayalım.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Projemiz 3 ay sürecek, tek makine mi yeter yoksa aşamalara göre mi değiştirmeliyiz?",
+                cevap:
+                    "Aşamalara göre değiştirmek genelde daha ekonomik ve daha uygundur: erken aşamanın (açık saha, yüksek erişim) dizel eklemlisi, orta-geç aşamada (kapanan hacim, düzelen zemin) akülü eklemli veya kompakt sınıfa geçebilir. Tek makineyle tüm projeyi götürmek, bazı aşamalarda fazla büyük-pahalı bazılarında yetersiz makine kullanmak anlamına gelebilir. Proje takviminizi (aşama tahminleriyle) paylaşın; geçiş planını birlikte kuralım — tek muhatap, tüm süreci koordine eder.",
+            },
+            {
+                soru: "Sahamızda kule vinç aktif, platform çalışması güvenli mi?",
+                cevap:
+                    "Doğru koordinasyonla evet — platform, vinç yükünün geçiş güzergâhında konumlanmaz ve çalışma saatleri vinç operasyonuyla senkronize edilir; bu, saha şefinizle birlikte teslimat öncesi netleştirilir. Vinç operatörüyle iletişim protokolü (görsel işaret veya telsiz) günlük iş planına dahil edilir. Sahanızın vinç çalışma programını paylaşın; platform saatlerini buna göre kuralım.",
+            },
+            {
+                soru: "Sepette kaynak makinesi taşıyacağız, kapasite yeterli mi?",
+                cevap:
+                    "Bu, hesaba dahil edilmesi gereken ek bir ağırlıktır — sepet kapasitesi yalnızca kişi sayısına göre değil, taşınacak tüm ekipmana göre hesaplanır ve kaynak makinesi gibi ağır ekipman, standart kapasiteyi hızla aşabilir. Taşınacak ekipmanın toplam ağırlığını (kaynak makinesi + kablo + operatör ağırlığı) paylaşın; kapasitesi buna uygun sınıfı önerelim. Kapasite aşımı güvenlik ihlalidir ve makine otomatik kilitlenebilir — bu riski baştan önlemek daha kolaydır.",
+            },
+            {
+                soru: "Cephe panelleri ağır, montaj için özel bir sınıf mı gerekir?",
+                cevap:
+                    "Panel ağırlığına bağlı — hafif-orta ağırlıktaki paneller standart yüksek kapasiteli eklemli veya makaslıyla taşınabilir, ağır panellerde ayrı bir kaldırma ekipmanı (vinç veya özel montaj aparatı) platformla birlikte kullanılabilir. Panel boyutu, ağırlığı ve montaj yüksekliğini paylaşın; tek platformla mı yoksa platform+vinç kombinasyonuyla mı ilerlenmesi gerektiğini birlikte değerlendirelim.",
+            },
+            {
+                soru: "Bulon kontrolü için sahanın her noktasına gitmemiz gerekiyor, hangi makine pratik olur?",
+                cevap:
+                    "Kompakt eklemli sınıf bu iş için genelde en pratik seçimdir — hızlı konumlanır, dar alanlarda manevra eder ve nokta nokta kontrol turu için büyük makinelerden daha verimlidir. Kontrol listeniz geniş bir alana yayılıyorsa, sahayı bölgelere ayırıp tur şeklinde ilerleyecek bir plan önceden kurarız. Kontrol edilecek nokta sayısı ve sahadaki dağılımını paylaşın; en verimli tur planını birlikte kuralım.",
+            },
+            {
+                soru: "Erken aşamada zemin henüz stabilize edilmedi, dizel platform çalışabilir mi?",
+                cevap:
+                    "Genelde evet ama zeminin gerçek durumuna bağlı — dizel 4x4 modeller stabilize-düzensiz zeminlerde çalışacak şekilde tasarlanmıştır, ancak çok yumuşak veya çamurlu zeminde devrilme riski doğar. Zemin sertliği şüpheliyse, keşifte değerlendirilir ve gerekirse yük dağıtım plakası kullanılır veya çalışma zeminin sertleşmesine kadar ertelenir. Zemin durumunu (fotoğraf, varsa zemin raporu) paylaşın; güvenli çalışma koşulunu birlikte doğrulayalım.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon montaj aşamaları ve tipik erişim ihtiyaçları sektör genelinde bilinen teknik gerçeklerdir; aşamalı makine planlama yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Tarım ve Silo Tesislerinde Platform Kiralama",
+        giris:
+            "Ankara sanayi hattımızın ana odağı OSTİM-İvedik-Sincan'ın atölye-fabrika dokusu olsa da, hattın çevresinde tarım makineleri imalatı ve silo-depolama tesisleri de yer alır ve bu tesislerin platform ihtiyacı, standart atölye işinden farklı bir profil çizer — daha yüksek yapılar (silo gövdesi, elevatör kuleleri), mevsimsel yoğunluk (hasat öncesi bakım dönemleri) ve genelde açık-yarı açık sahalar. Bu segmentte talep hacmimiz atölye işlerine göre daha sınırlıdır ve bu sayfa o gerçeği saklamıyor — ama gelen taleplere aynı danışmanlık yaklaşımıyla, dürüst bir çerçeveyle yaklaşıyoruz: silo yüksekliğine göre sınıf seçimi, mevsimsel planlama ve açık saha zemin değerlendirmesi.",
+        maddeler: [
+            {
+                baslik: "Silo yüksekliği metraj kararını belirler",
+                metin:
+                    "Silo tesislerinin platform ihtiyacı genellikle standart atölye işinden yüksektir: orta ölçekli silo gövdeleri 15-25 metre bandında olabilir ve bu, filomuzun üst sınıf dizel eklemli modellerini gerektirir. Bu yükseklik bandında akülü seçenek sınırlıdır, dizel 4x4 eklemli çoğunlukla tek pratik seçenektir. Silo gövde yüksekliğini (temelden en üst erişim noktasına) net ölçüyle paylaşmanız, doğru sınıfı baştan belirler.",
+            },
+            {
+                baslik: "Elevatör ve nakliye hattı erişimi",
+                metin:
+                    "Tahıl elevatör kuleleri ve nakliye bant hatları, silo tesislerinin bir diğer yüksek erişim ihtiyacıdır — bu yapılar genelde dar, dikey ve çevresinde manevra alanı sınırlıdır. Bu tür işlerde makine seçimi, yükseklikten önce manevra alanına bakar: kule çevresinde makine dönebiliyor mu, park noktası ile hedef arasında engel var mı. Kule çevresinin fotoğrafı ve yaklaşık ölçüsü, seçimi netleştirir.",
+            },
+            {
+                baslik: "Açık-stabilize saha: dizel 4x4 varsayılan",
+                metin:
+                    "Tarım ve silo tesislerinin sahaları çoğunlukla açık ve stabilize (asfaltlanmamış) zemindir ve bu, dizel 4x4 sınıfını varsayılan seçim yapar — akülü modellerin bu zeminlerde stabilitesi ve erişimi sınırlıdır. Zemin dürüstlüğü burada da geçerlidir: 'düz sayılır' zemin, yüksekte çalışma için yeterli bir değerlendirme değildir ve keşifte gerçek zemin durumu (eğim, dolgu, yağış sonrası davranış) sorulur.",
+            },
+            {
+                baslik: "Mevsimsel yoğunluk: hasat öncesi planlama",
+                metin:
+                    "Silo ve tarım makinesi bakım-kurulum işleri, hasat sezonu öncesi belirli aylarda yoğunlaşır ve bu dönemde talep artışı, planlama gerektirir — son dakika talep, makine müsaitliği açısından risklidir. Mevsimsel ihtiyacınızı önceden bildirmeniz (örneğin bir-iki ay öncesinden), sezon yoğunluğunda makinenizin ayrılmış olmasını sağlar. Düzenli mevsimsel ihtiyacı olan işletmelerle önceden anlaşma yapmak, her sezon yeniden pazarlık yükünü ortadan kaldırır.",
+            },
+            {
+                baslik: "Bu segmentte dürüst beklenti yönetimi",
+                metin:
+                    "Bu segmentteki talep hacmimiz, hattın atölye-fabrika ağırlıklı ana profiline göre sınırlıdır ve bu, hizmet kalitesini değil makine çeşitliliğinin derinliğini etkiler — çok özel silo ekipmanı (örneğin çok yüksek özel erişim sistemleri) gerektiren nadir işlerde, filomuzda uygun sınıf olmayabilir ve bunu dürüstçe söyleriz. Standart yükseklik bandındaki (25 metreye kadar) silo-elevatör işlerinde ise filomuz yeterli kapsamı sunar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo-tarım tesisi iş türüne göre sınıf",
+                paragraflar: [
+                    "Segmentteki tipik iş-makine eşleşmesi aşağıdadır. Yükseklik ve zemin ölçüsü kesin seçimi belirler.",
+                ],
+                tablo: {
+                    basliklar: ["İş", "Tipik yükseklik", "Makine", "Not"],
+                    satirlar: [
+                        ["Silo gövde bakım-boya", "15 – 25 m", "Dizel eklemli", "Zemin dürüstlüğü şart"],
+                        ["Elevatör kule erişimi", "12 – 20 m", "Dizel eklemli", "Manevra alanı kısıtlı"],
+                        ["Nakliye bant hattı bakımı", "8 – 12 m", "Dizel/akülü eklemli", "Zemine göre"],
+                        ["Tarım makinesi imalat atölyesi", "6 – 10 m", "Akülü makaslı/eklemli", "Standart atölye profili"],
+                        ["Çok yüksek özel erişim", "25 m üstü", "Filoda sınırlı", "Önceden görüşülmeli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat öncesi bakım penceresi: önceden rezervasyon",
+                paragraflar: [
+                    "Silo ve tarım makinesi bakım işlerinin çoğu, hasat sezonu başlamadan belirli haftalarda yoğunlaşır ve bu dönemde makine talebi genel olarak artar (yalnızca bu segmentte değil, bölgenin diğer mevsimsel işlerinde de). Sezon öncesi bir-iki ay erken bildirim, makinenizin ayrılmasını garanti eder ve son dakika müsaitlik riskini ortadan kaldırır.",
+                    "Düzenli mevsimsel müşterilerle, sezon başlamadan önce yaklaşık tarih ve makine ihtiyacını netleştiren bir ön görüşme yapmayı öneririz — bu, her yıl yeniden pazarlık yükünü azaltır.",
+                ],
+            },
+            {
+                baslik: "Dürüst kapsam sınırı",
+                paragraflar: [
+                    "Bu sayfa, genel amaçlı filomuzun silo-tarım segmentindeki gerçek kapsamını abartmadan anlatmayı amaçlıyor: standart yükseklik bandındaki (25 metreye kadar) işlerde kapsamımız yeterlidir, ama bu segmentin uzman-özel ekipman gerektiren nadir işlerinde (örneğin çok özel silo içi erişim sistemleri) filomuz her zaman en uygun seçenek olmayabilir. Böyle bir durumda bunu dürüstçe söyler, gerekirse alternatif yönlendirme yaparız — yanlış makineyle sahaya gitmek, hiçbir tarafın yararına değildir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silomuzun yüksekliği 20 metre, bu sınıfta makineniz var mı?",
+                cevap:
+                    "Var — 20 metre bandı, filomuzun dizel eklemli üst sınıfının tipik çalışma aralığındadır ve bu yükseklikteki silo-elevatör işlerini karşılarız. Zemin durumunuzu (stabilize mi asfalt mı, eğim var mı) ve silo çevresindeki manevra alanını paylaşmanız, doğru modeli ve güvenlik önlemlerini netleştirir. Silo gövde ölçüsü ve fotoğrafla dönün; uygunluğu ve tarihi birlikte netleştirelim.",
+            },
+            {
+                soru: "Bu segmentte hizmet veriyor musunuz, yoksa sadece atölye işlerine mi odaklısınız?",
+                cevap:
+                    "Veriyoruz ama dürüst olmak isteriz: ana odağımız OSTİM-İvedik-Sincan hattının atölye-fabrika işleridir ve silo-tarım segmentindeki talep hacmimiz buna göre daha sınırlıdır. Standart yükseklik bandındaki (25 metreye kadar) silo-elevatör-tarım makinesi işlerinde filomuz yeterli kapsamı sunar; çok özel-nadir ekipman gerektiren işlerde uygunluğu birlikte değerlendiririz ve gerekirse dürüstçe söyleriz. İşinizi anlatın, gerçek kapsamımızı size göre netleştirelim.",
+            },
+            {
+                soru: "Hasat sezonu yaklaşıyor, ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Mümkünse bir-iki ay önceden — hasat öncesi dönem, bölgenin genel mevsimsel yoğunluğuyla çakıştığı için makine müsaitliği daralır ve son dakika talep risk taşır. Yaklaşık tarih ve makine ihtiyacınızı (yükseklik, iş süresi) şimdiden bildirirseniz, sezon geldiğinde makineniz ayrılmış olur. Düzenli mevsimsel ihtiyacınız varsa, her yıl aynı görüşmeyi tekrarlamamak için önceden bir anlaşma da kurabiliriz.",
+            },
+            {
+                soru: "Silomuz açık sahada, zemin stabilize; hangi makine gelir?",
+                cevap:
+                    "Dizel 4x4 eklemli — açık-stabilize zeminler bu sınıfı varsayılan yapar çünkü akülü modellerin bu tür zeminlerde stabilitesi ve erişimi sınırlıdır. Zeminin gerçek durumunu (eğim, dolgu tazeliği, yağış sonrası davranış) keşifte sorarız; 'düz sayılır' değerlendirmesi yeterli değildir, çünkü yüksekte çalışmada zeminden tasarruf devrilme riskinin diğer adıdır. Zemin fotoğrafı ve silo konumuyla dönün; güvenli çalışma planını birlikte kuralım.",
+            },
+            {
+                soru: "Elevatör kulesinin çevresi çok dar, makine dönebilir mi?",
+                cevap:
+                    "Bu, yükseklikten önce sorduğumuz sorudur çünkü dar manevra alanı, büyük dizel eklemli modelleri sınırlayabilir. Kule çevresindeki gerçek boşluğu (makinenin park edip dönebileceği alan) fotoğraf ve yaklaşık ölçüyle paylaşmanız, uygun model boyutunu belirler — bazı durumlarda daha kompakt bir eklemli model, aynı yüksekliğe daha dar alanda ulaşabilir. Kule çevresi fotoğrafıyla dönün; manevra uygunluğunu birlikte değerlendirelim.",
+            },
+            {
+                soru: "İhtiyacımız filonuzda yoksa ne yaparsınız, bizi boş mu bırakırsınız?",
+                cevap:
+                    "Hayır — kapsamımızın dışında kalan nadir bir talep gelirse, önce dürüstçe söyleriz ve mümkünse yönlendirme yaparız; yanlış makineyle sahaya gitmek sizin için de bizim için de kayıptır. Ancak bu durum silo-tarım segmentinde nadirdir — standart yükseklik bandındaki (25 metreye kadar) çoğu iş filomuzla karşılanır. İşinizin gerçek ölçülerini paylaşın; kapsamımıza girip girmediğini ilk aramada netleştiririz, sizi belirsizlikte bırakmayız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Silo-elevatör tesis yükseklik bantları ve tarım sektörü mevsimselliği kamuya açık genel bilgidir; segment kapsam sınırı ve dürüst yönlendirme ilkesi firma pratiğidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Enerji ve Aydınlatma Direği Bakımında Platform Seçimi",
+        giris:
+            "Enerji hattı ve aydınlatma direği bakım işleri, platform seçiminde standart atölye işinden farklı bir mantık ister: hedef genelde tek bir nokta (direk tepesi, hat izolatörü) değil, bir güzergâh boyunca dizilmiş çok sayıda noktadır ve her direğin yüksekliği-erişim koşulu farklı olabilir. Genel amaçlı filomuzun bu işlerdeki yaklaşımı, direk-hat yüksekliğine göre doğru sınıfı seçmek ve çok noktalı güzergâhlarda verimli bir tur planı kurmaktır. Bu sayfa, aydınlatma direği ve enerji hattı bakımının makine seçim mantığını anlatıyor: hangi direk yüksekliği hangi sınıfı çağırır, elektrik hattı yakınında çalışmanın güvenlik çerçevesi nedir ve çok direkli işlerde planlama nasıl kurulur.",
+        maddeler: [
+            {
+                baslik: "Direk yüksekliğine göre sınıf ayrımı",
+                metin:
+                    "Aydınlatma direkleri tipik olarak 6-12 metre bandındadır (sokak aydınlatması 8-10 m, saha-otopark aydınlatması 10-12 m) ve bu bant akülü veya dizel eklemli sınıfla karşılanır; enerji nakil hattı direkleri ise çok daha yüksek olabilir (18 metre ve üstü) ve bu bant çoğunlukla dizel eklemli üst sınıfa düşer. Direk yüksekliğini (temelden tepe noktasına) net ölçüyle veya varsa teknik dokümanla paylaşmanız, doğru sınıfı baştan belirler.",
+            },
+            {
+                baslik: "Elektrik hattı yakınında güvenlik mesafesi",
+                metin:
+                    "Enerji hattı bakımında platform seçiminin en kritik değişkeni elektrik güvenlik mesafesidir: platform ve operatör, gerilim seviyesine göre belirlenen minimum güvenli mesafeyi korumalıdır ve bu mesafe, düşük gerilim ile yüksek gerilim hatlarında farklıdır. Bu işlerde çalışma öncesi ilgili elektrik dağıtım kuruluşuyla koordinasyon ve varsa hat kesintisi planlaması, makine seçiminden önce gelen bir adımdır — bu koordinasyonu işletmenizin sorumluluğunda bırakmayız, birlikte planlarız.",
+            },
+            {
+                baslik: "Çok direkli güzergâhta tur planlaması",
+                metin:
+                    "Sokak aydınlatması veya OSB iç aydınlatma hattı gibi işlerde tek direk değil onlarca direk bakım gerektirir ve bu işlerin verimliliği, tur güzergâhının doğru planlanmasına bağlıdır — direkler bir liste hâlinde sıralanır, makine güzergâh boyunca ilerler ve her direkte kısa süreli duraklar yapılır. Bu planlama, direk listesi ve konumlarıyla (harita üzerinde işaretli) önceden yapılırsa, saha süresi belirgin kısalır.",
+            },
+            {
+                baslik: "Karayolu-kavşak yakını direklerde trafik güvenliği",
+                metin:
+                    "Karayolu kenarı veya kavşak yakınındaki aydınlatma direklerinde, makine konumlandırması trafik güvenliği çerçevesinde yapılır: araç yaklaşım bölgesi koni-bariyerle ayrılır, çalışma trafiğin sakin olduğu saatlere (gece, erken sabah) yazılabilir ve gerektiğinde ilgili kurum koordinasyonu (yol kapama izni gibi) sağlanır. Bu düzen, direk konumuna göre keşifte netleştirilir.",
+            },
+            {
+                baslik: "Zemin çeşitliliği: refüj, banket, saha içi",
+                metin:
+                    "Enerji-aydınlatma direkleri farklı zemin tiplerinde bulunur — yol banketi (genelde stabilize, dizel 4x4 gerektirir), refüj (dar ve erişimi kısıtlı olabilir), fabrika-tesis içi saha (düz beton, akülü uygun olabilir). Her direğin zemin tipi farklı olabileceği için, çok direkli bir güzergâhta karma makine kullanımı (bazı direkler dizel, bazıları akülü) gerekebilir ve bu, güzergâh planlamasının parçasıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Direk-hat tipine göre sınıf tablosu",
+                paragraflar: [
+                    "Enerji ve aydınlatma işlerinin tipik direk yüksekliği ve makine eşleşmesi aşağıdadır. Elektrik güvenlik mesafesi her durumda ayrıca değerlendirilir.",
+                ],
+                tablo: {
+                    basliklar: ["Direk/hat tipi", "Tipik yükseklik", "Makine", "Not"],
+                    satirlar: [
+                        ["Sokak aydınlatması", "8 – 10 m", "Akülü/dizel eklemli", "Zemine göre"],
+                        ["Saha-otopark aydınlatması", "10 – 12 m", "Akülü/dizel eklemli", "Genelde düz zemin"],
+                        ["OSB iç aydınlatma hattı", "8 – 10 m", "Dizel eklemli, tur planı", "Çok direkli güzergâh"],
+                        ["Enerji nakil hattı", "18 m üstü", "Dizel eklemli üst sınıf", "Elektrik güvenlik mesafesi"],
+                        ["Karayolu kenarı direk", "8 – 12 m", "Duruma göre", "Trafik güvenlik düzeni"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik dağıtım kuruluşuyla koordinasyon",
+                paragraflar: [
+                    "Enerji hattı yakınında çalışma, çoğu durumda ilgili elektrik dağıtım kuruluşunun bilgisi veya onayı dahilinde yürütülür — hat kesintisi gerekip gerekmediği, güvenli çalışma mesafesi ve gerekli izinler bu kurumla netleştirilir. Bu süreç işletmenizin daha önce yürüttüğü bir süreçse mevcut izin ve koordinasyon bilgisini bizimle paylaşmanız yeterlidir; ilk kez yürütüyorsanız süreç hakkında bilgilendirme yaparız.",
+                    "Güvenlik mesafesi ve koordinasyon konusunda taviz vermeyiz — bu, fiyat veya hız için pazarlık konusu olan bir kalem değildir.",
+                ],
+            },
+            {
+                baslik: "Çok direkli güzergâh planlaması: verimlilik örneği",
+                paragraflar: [
+                    "OSB iç aydınlatma güzergâhı gibi 20-30 direklik bir bakım işinde, direklerin harita üzerinde sıralı listesi çıkarılır ve makine bu sıraya göre ilerler; her direkte ortalama duraklama süresi (basit ampul değişimi mi, kablo kontrolü mü) önceden bilinirse toplam saha süresi güvenilir şekilde tahmin edilir. Bu planlama, işin bir günde mi iki günde mi biteceğini önceden netleştirir ve sürpriz gün uzatmasını önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Enerji hattı yakınında çalışma için özel izin gerekiyor mu?",
+                cevap:
+                    "Çoğu durumda evet — hat gerilim seviyesine göre minimum güvenli mesafe ve gerekirse hat kesintisi, ilgili elektrik dağıtım kuruluşuyla koordine edilir. Bu süreç işinizin parçasıysa (daha önce benzer işler yaptıysanız) mevcut prosedürünüzü bizimle paylaşın, biz ona uyalım; ilk kez yürütüyorsanız süreç hakkında bilgilendirme yaparız ve birlikte planlarız. Hat tipini ve gerilim seviyesini (biliyorsanız) paylaşın; güvenlik mesafesini netleştirelim.",
+            },
+            {
+                soru: "OSB'de 25 direklik aydınlatma bakımımız var, kaç günde biter?",
+                cevap:
+                    "Direk listesi ve konumlarına bağlı — direklerin harita üzerinde sıralı listesi ve her direkte yapılacak işin türü (basit değişim mi, detaylı kontrol mü) çıkarıldığında, tur planlamasıyla toplam saha süresi güvenilir tahmin edilir. Tipik bir OSB iç aydınlatma turu (25 direk, basit bakım) genelde bir-iki günde tamamlanır ama kesin süre iş detayına bağlıdır. Direk listenizi ve iş tanımınızı paylaşın; güzergâh planını ve süre tahminini birlikte çıkaralım.",
+            },
+            {
+                soru: "Direklerimiz farklı zeminlerde (bazısı yol kenarı, bazısı tesis içi); tek makine yeter mi?",
+                cevap:
+                    "Genelde iki tip makine gerekir — yol banketi-refüj gibi açık stabilize zeminlerde dizel 4x4, tesis içi düz beton sahada akülü eklemli daha uygundur. Çok direkli güzergâhınızda zemin çeşitliliği varsa, güzergâh iki bölüme ayrılır ve her bölüm kendi uygun makinesiyle çalışılır ya da tek dizel 4x4 tüm güzergâhı (biraz daha yavaş ama tek makineyle) kat eder. Direklerin zemin tiplerini haritayla paylaşın; en verimli kurguyu birlikte belirleyelim.",
+            },
+            {
+                soru: "Karayolu kenarındaki direğimiz için trafik izni gerekir mi?",
+                cevap:
+                    "Konuma bağlı — kendi parselinizden veya banketten erişiliyorsa genelde kurum izni gerekmez, ama yol kenarı-refüj gibi trafiğe açık alanlarda çalışma, koni-bariyer düzeni ve gerekirse ilgili kurum koordinasyonu (yol kapama izni) gerektirir. Çalışma, trafiğin sakin olduğu saatlere (gece, erken sabah) planlanabilir. Direk konumunu ve erişim yönünü paylaşın; izin gereksinimini ve güvenli çalışma pencesini birlikte netleştirelim.",
+            },
+            {
+                soru: "Enerji nakil hattı direği 22 metre, bu yükseklikte makineniz var mı?",
+                cevap:
+                    "Var — 22 metre bandı, filomuzun dizel eklemli üst sınıfının çalışma aralığındadır. Bu yükseklikte elektrik güvenlik mesafesi özellikle kritik hâle gelir; hat gerilim seviyesine göre minimum mesafe ve varsa hat kesintisi ihtiyacı, ilgili kuruluşla önceden koordine edilir. Direk yüksekliği, hat gerilim seviyesi ve varsa mevcut izin durumunuzu paylaşın; güvenli çalışma planını birlikte kuralım.",
+            },
+            {
+                soru: "Aydınlatma direklerimizin bir kısmı 8 metre bir kısmı 12 metre; tek teklifte mi değerlendirilir?",
+                cevap:
+                    "Evet — direk listesi yükseklik gruplarına ayrılır (8 m grubu, 12 m grubu) ve her grup kendi sınıfıyla eşleştirilir; tek teklifte iki kalem ayrı satırda gösterilir ama teslimat ve güzergâh koordinasyonu tek plan içinde yürür. Bu, ayrı ayrı iki kiralama sürecinden hem daha ekonomik hem daha az koordinasyon yükü demektir. Direk listenizi yükseklikleriyle birlikte paylaşın; tek teklifte iki grubu netleştirelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Aydınlatma direği ve enerji hattı yükseklik bantları, elektrik güvenlik mesafesi kavramı sektör genelinde bilinen teknik gerçeklerdir; tur planlama yöntemi firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Operatörlü Platform Kiralama: Ne Zaman Doğru Seçimdir?",
+        giris:
+            "Operatörlü mü operatörsüz mü sorusu, platform kiralamanın en sık karşılaşılan ve aslında en net cevaplanabilir kararlarından biridir — ama karar çoğu zaman yanlış gerekçelerle veriliyor: 'daha ucuz olsun' diye operatörsüz seçilen işlerde belgesiz kullanım riski doğuyor, 'garanti olsun' diye her işte operatörlü istenip gereksiz maliyet ödeniyor. Genel amaçlı filomuzun bu konudaki yaklaşımı nettir: karar önce yasal çerçeveye (belge var mı), sonra işin niteliğine (tek seferlik mi tekrarlayan mı, basit mi karmaşık mı) bakar. Bu sayfa, operatörlü kiralamanın ne zaman zorunlu ne zaman tercih meselesi olduğunu, maliyet farkının nereden geldiğini ve operatörlü çalışmanın günlük akışının nasıl işlediğini anlatıyor — bu, sitemizin ana odak konularından biridir ve detaylı ele alınmayı hak eder.",
+        maddeler: [
+            {
+                baslik: "Yasal çerçeve: belge yoksa operatörlü zorunludur",
+                metin:
+                    "Platform kullanımı MYK (Mesleki Yeterlilik Kurumu) yeterlilik belgesi ister ve bu belge makine sınıfına göre ayrılır — makaslı, eklemli ve diğer sınıflar için ayrı yetkinlik gerekir. Personelinizde bu belge yoksa, operatörlü kiralama seçenek değil zorunluluktur; belgesiz kullanım, kaza anında işvereni doğrudan kusurlu kılar ve bu riski firma olarak taşımayız. 'Forklift belgemiz var, platform da kullanabiliriz' gibi yaygın bir yanılgı da burada netleşir — belgeler birbirinin yerine geçmez.",
+            },
+            {
+                baslik: "Belge varsa bile operatörlü tercih edilebilir durumlar",
+                metin:
+                    "Belgeli personeliniz olsa bile operatörlü kiralama bazı durumlarda daha akıllıca bir seçimdir: tek seferlik-nadir bir iş için personelinizi makineye alıştırma süresi harcamak yerine deneyimli operatör kullanmak zaman kazandırır; karmaşık-hassas erişim gerektiren işlerde (dar geçiş, engel aşma, yüksek hassasiyetli konumlandırma) tecrübeli operatör hata riskini düşürür; personeliniz başka işlerle meşgulse operatör desteği iş akışını aksatmaz. Bu durumlarda operatörlü kiralama bir lüks değil, verimlilik kararıdır.",
+            },
+            {
+                baslik: "Operatörsüz kiralamanın avantajı ve sınırı",
+                metin:
+                    "Belgeli personeliniz varsa ve iş, ekibinizin zaten aşina olduğu türden basit-tekrarlayan bir işse, operatörsüz kiralama maliyeti düşürür ve zamanlamayı size bırakır — makineyi istediğiniz saatte kullanır, molaları kendiniz planlarsınız. Bu avantaj yalnızca gerçekten belgeli-deneyimli personelle geçerlidir; belge var ama makine tipine aşinalık yoksa (örneğin ilk kez eklemli kullanacaksa), kısa bir tanıtım-deneme süreci teslimatta mutlaka yapılır.",
+            },
+            {
+                baslik: "Maliyet farkı nereden geliyor",
+                metin:
+                    "Operatörlü kiralamada ek maliyet, operatör ücretidir ve bu ücret makine sınıfına, iş süresine ve iş karmaşıklığına göre değişir — basit bir günlük iş ile çok günlük karmaşık bir montaj işi aynı operatör tarifesini almaz. Bu ek maliyet, teklifte ayrı satır olarak gösterilir; makine kirası ile operatör bedeli karışık bir 'paket fiyat' olarak sunulmaz, böylece iki seçeneği (operatörlü/operatörsüz) rakamla karşılaştırabilirsiniz.",
+            },
+            {
+                baslik: "Operatörlü çalışmanın günlük akışı",
+                metin:
+                    "Operatörlü kiralamada operatör, makineyle birlikte sahaya gelir ve gün boyunca sizin ekibinizin yönlendirmesiyle çalışır — işi anlatırsınız (hangi noktalar, hangi sıra), operatör makineyi güvenli şekilde konumlandırır ve ustanız sepette işini yapar. Operatörün sorumluluğu makine güvenliği ve doğru konumlandırmadır; işin teknik kısmı (kaynak, montaj, elektrik) sizin ekibinizdedir. Gün sonunda kısa bir özetle ertesi güne devredilecek işler netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü mü operatörsüz mü: karar tablosu",
+                paragraflar: [
+                    "Kararın tipik senaryoları ve önerisi aşağıdadır. Yasal çerçeve (belge durumu) her zaman ilk filtre olarak uygulanır.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Öneri", "Gerekçe"],
+                    satirlar: [
+                        ["Belgeli personel yok", "Operatörlü", "Yasal zorunluluk"],
+                        ["Belgeli personel var, basit iş", "Operatörsüz", "Maliyet avantajı"],
+                        ["Belgeli personel var, ilk kez bu sınıf", "Operatörlü veya tanıtımlı teslim", "Aşinalık riski"],
+                        ["Tek seferlik-nadir iş", "Operatörlü", "Alıştırma süresi kazancı"],
+                        ["Karmaşık-hassas erişim", "Operatörlü", "Hata riski düşürme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Belge aldırma: kalıcı çözüm",
+                paragraflar: [
+                    "Yılda birden fazla kez platform kiralayan işletmeler için, personele MYK belgesi aldırmak operatörlü kiralamaya kalıcı bir alternatiftir — belge süreci sanıldığından kısadır (teorik eğitim + pratik sınav, genelde birkaç gün) ve bir kez alınan belge, makine tipine göre uzun süre geçerlidir. Belge süreci ve eğitim veren kurumlar hakkında yönlendirme yaparız; bu, tekrarlayan operatör maliyetinden tasarruf sağlayan bir yatırımdır.",
+                    "Belge aldırma kararı, işletmenin kiralama sıklığına bağlıdır — yılda bir-iki kez kiralayan işletme için operatörlü kiralama genelde daha ekonomiktir; ayda birkaç kez kiralayan işletme için belge yatırımı kısa sürede kendini amorti eder.",
+                ],
+            },
+            {
+                baslik: "Operatörlü kiralamada sorumluluk sınırı",
+                paragraflar: [
+                    "Operatörlü kiralamada sorumluluk paylaşımı nettir: operatör makine güvenliğinden, doğru konumlandırmadan ve acil durum müdahalesinden sorumludur; sizin ekibiniz yaptığı işin teknik doğruluğundan (kaynak kalitesi, montaj doğruluğu, elektrik bağlantısı) sorumludur. Bu ayrım, teslimat öncesi açıkça konuşulur ve olası bir anlaşmazlıkta karışıklığı önler — kim neyden sorumlu, baştan bellidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü kiralama ne kadar daha pahalıya geliyor?",
+                cevap:
+                    "Fark, makine sınıfına ve iş süresine göre değişir ve teklifte ayrı satır olarak gösterilir — makine kirası ile operatör bedeli karışık bir paket fiyat olarak sunulmaz. Basit bir günlük iş ile çok günlük karmaşık bir iş aynı tarifeyi almaz. İşinizin süresini ve makine sınıfını paylaşın; operatörlü ve operatörsüz iki seçeneği rakamla karşılaştırmalı görün ve kendi kararınızı verin.",
+            },
+            {
+                soru: "Personelimizde forklift operatörlük belgesi var, platform için de yeterli mi?",
+                cevap:
+                    "Yeterli değil — MYK yeterlilik belgesi makine sınıfına göre ayrılır ve forklift belgesi, platform kullanımına yetki vermez. Bu, yaygın bir yanılgıdır ve belgesiz kullanım kaza anında işvereni doğrudan kusurlu kılar. Personelinizde platform sınıfına özel belge yoksa operatörlü kiralama önerilir; isterseniz belge aldırma sürecini de yönlendiririz — tekrarlayan ihtiyacınız varsa bu, kalıcı bir çözümdür.",
+            },
+            {
+                soru: "Belgeli operatörümüz var ama bu makine tipini ilk kez kullanacak, risk var mı?",
+                cevap:
+                    "Belge geçerli olsa da makine tipine aşinalık önemlidir — bu yüzden teslimatta mutlaka makine tanıtımı yapılır: kumandalar, acil iniş sistemi, güvenlik noktaları operatörünüzle birlikte gözden geçirilir. İlk kez kullanılacak karmaşık bir sınıfsa (örneğin dizel eklemli), kısa bir refakatli deneme süreci de önerebiliriz. Personelinizin deneyim düzeyini paylaşın; teslimat sürecini buna göre ayarlayalım.",
+            },
+            {
+                soru: "Operatörlü kiralamada işin hızını biz mi yoksa operatör mü belirler?",
+                cevap:
+                    "Siz belirlersiniz — operatör makineyi güvenli şekilde yönlendirir ve konumlandırır, ama işin sırası, önceliği ve temposu sizin ekibinizin talimatlarına göre ilerler. Operatör, güvenlik sınırlarını aşan bir talebi (örneğin kapasite aşımı, riskli konumlandırma) reddetme hakkına sahiptir, ama iş akışının kendisi sizin yönetiminizdedir. Gün başında işi anlatırsınız, operatör onu güvenle uygular.",
+            },
+            {
+                soru: "Tek seferlik bir işimiz var, personelimize belge aldırmaya değer mi?",
+                cevap:
+                    "Genelde değmez — tek seferlik-nadir bir iş için operatörlü kiralama, hem belge maliyetinden hem alıştırma süresinden daha ekonomiktir. Belge yatırımı, yılda birden fazla kez tekrarlayan ihtiyaçlarda mantıklı hâle gelir. İşinizin tekrarlanma sıklığını değerlendirin; nadir ihtiyaçta operatörlü kiralamayı, düzenli ihtiyaçta belge aldırmayı öneririz — ikisini de rakamla karşılaştırmak isterseniz teklif çıkarırız.",
+            },
+            {
+                soru: "Operatör bir kazaya karışırsa sorumluluk kime ait?",
+                cevap:
+                    "Sorumluluk paylaşımı teslimat öncesi netleştirilir: operatör, makine güvenliği ve doğru konumlandırmadan sorumludur ve bu alanda oluşacak bir kazada firma sorumluluğu devreye girer; sizin ekibinizin yaptığı işin teknik kısmından (örneğin kaynak sırasında oluşan bir kaza) kaynaklanan durumlar işletmenizin sorumluluk alanındadır. Bu net ayrım, olası bir anlaşmazlıkta karışıklığı önler ve sözleşmede yazılı olarak yer alır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. MYK yeterlilik belgesi zorunluluğu ve makine sınıfına göre belge ayrımı yasal/kamuya açık bilgidir; operatörlü kiralama karar kriterleri ve sorumluluk paylaşımı firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Çok Noktalı Rota Bakım İşlerinde Platform ve Filo Planlaması",
+        giris:
+            "Tek bir hedefe erişmek için makine seçmekle, onlarca noktayı kapsayan bir bakım rotası için filo kurmak, çok farklı iki planlama problemidir — rota işlerinde soru artık 'hangi makine' değil 'hangi makine karması, hangi sırayla, hangi günlerde' hâline gelir. Genel amaçlı filomuzun rota işlerindeki rolü, iş listesini coğrafi ve teknik gruplara ayırıp verimli bir tur planı kurmaktır: OSB içi çoklu tesis bakımı, zincir mağaza aydınlatma yenilemesi, bölgesel tabela-cephe bakımı gibi işler bu kategoriye girer. Bu sayfa, çok noktalı rota işlerinin planlama mantığını anlatıyor: nasıl gruplanır, hangi makine karması kurulur, tur ekonomisi nasıl işler ve büyük rotalarda koordinasyon nasıl yürür — bu, sitemizin ana odak konularından biridir.",
+        maddeler: [
+            {
+                baslik: "Rota planlamasının ilk adımı: liste gruplama",
+                metin:
+                    "Çok noktalı bir bakım işinde ilk adım, noktaları coğrafi yakınlığa ve teknik benzerliğe göre gruplamaktır: aynı sanayi sitesindeki veya birbirine yakın noktalar bir güzergâh grubuna, benzer yükseklik-makine ihtiyacı olan noktalar bir teknik gruba girer. İki gruplama kesişince, tur planı hem coğrafi hem teknik olarak verimli olur — dağınık gruplama, gereksiz gidiş-geliş ve makine değişimi doğurur.",
+            },
+            {
+                baslik: "Tek makine mi karma filo mu: liste büyüklüğü belirler",
+                metin:
+                    "Küçük rotalarda (5-10 nokta, benzer yükseklik) genelde tek makine yeterlidir ve makine güzergâh boyunca taşınır; büyük-çeşitli rotalarda (20+ nokta, farklı yükseklik-zemin türleri) karma filo daha verimlidir — birden fazla makine paralel çalışır, toplam takvim kısalır. Kesişim noktası, listenin büyüklüğü ve çeşitliliğine bağlıdır ve bu, iki kurgunun (tek makine seri vs. karma filo paralel) maliyet-süre karşılaştırmasıyla netleşir.",
+            },
+            {
+                baslik: "Duraklama süresi tahmini: rotanın gizli değişkeni",
+                metin:
+                    "Rota planlamasının en sık gözden kaçan değişkeni, her noktadaki gerçek iş süresidir — basit bir ampul değişimi 15 dakika sürerken, detaylı bir kontrol-bakım 1-2 saat sürebilir ve bu fark, günlük kaç nokta bitirilebileceğini doğrudan belirler. İş listesini noktaya göre (basit/orta/karmaşık) sınıflandırmak, güvenilir bir süre tahmini ve dolayısıyla güvenilir bir teslim takvimi sağlar.",
+            },
+            {
+                baslik: "Zincir işletmelerde standart şablon avantajı",
+                metin:
+                    "Zincir mağaza-bayi gibi tekrarlayan yapıda işlerde (örneğin tüm şubelerde aynı tabela değişimi), ilk şubede kurulan iş şablonu (süre, malzeme, ekip düzeni) sonraki şubelere aynen uygulanır ve bu, tur planlamasını hızlandırır — her şube ayrı keşif gerektirmez, ilk şubenin verisi standart hâle gelir. Bu yaklaşım, çok şubeli bir rotayı tek program altında öngörülebilir şekilde yürütür.",
+            },
+            {
+                baslik: "Rota sırasında aksama yönetimi",
+                metin:
+                    "Çok noktalı bir rotada, bir noktada beklenenden uzun süren iş (erişim sorunu, ek onarım ihtiyacı) sonraki noktaların takvimini etkiler ve bu, planlamanın esnek olmasını gerektirir — günlük tur programı, olası gecikmeler için küçük bir tampon süre içerir ve büyük bir aksama durumunda kalan noktalar ertesi güne kaydırılır, iş yarım bırakılmaz. Bu esneklik, rota başlamadan önce sizinle konuşulur ve beklenti baştan netleşir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota büyüklüğüne göre kurgu tablosu",
+                paragraflar: [
+                    "Rota işlerinin tipik büyüklüğüne göre önerilen kurgu aşağıdadır. Kesin kurgu, listenin coğrafi dağılımı ve teknik çeşitliliğiyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Rota büyüklüğü", "Önerilen kurgu", "Tipik süre", "Not"],
+                    satirlar: [
+                        ["5 – 10 nokta, benzer yükseklik", "Tek makine, seri tur", "1 – 2 gün", "Basit güzergâh"],
+                        ["10 – 20 nokta, karışık yükseklik", "Tek makine veya iki makine", "2 – 4 gün", "Liste analizi gerekir"],
+                        ["20+ nokta, çeşitli zemin/yükseklik", "Karma filo, paralel çalışma", "Duruma göre", "Grup bazlı planlama"],
+                        ["Zincir şube (standart iş)", "Şablon tekrarı, tek makine tur", "Şube başına yarım – 1 gün", "İlk şube referans"],
+                        ["OSB içi çoklu tesis", "Coğrafi gruplama, tur sırası", "Duruma göre", "Site içi kısa mesafe avantajı"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki kurgunun maliyet-süre karşılaştırması",
+                paragraflar: [
+                    "Büyük rotalarda tek makine seri kurgu ile karma filo paralel kurgu arasındaki seçim, rakamla yapılır: tek makine daha düşük günlük maliyetle ama daha uzun takvimde biter; karma filo daha yüksek günlük maliyetle ama daha kısa takvimde biter. Takvim baskısı yüksekse (örneğin belirli bir tarihe yetiştirilmesi gereken iş) karma filo öne çıkar; bütçe önceliği varsa ve takvim esnekse tek makine daha ekonomiktir.",
+                    "Teklifte iki kurgu ayrı toplamla gösterilir; kararı işletmenizin önceliğine göre siz verirsiniz.",
+                ],
+            },
+            {
+                baslik: "Rota planlamasında iletişim düzeni",
+                paragraflar: [
+                    "Çok günlük bir rota işinde günlük kapanış bilgilendirmesi standart uygulamadır: hangi noktalar tamamlandı, hangileri ertesi güne kaldı, varsa karşılaşılan sorunlar kısa bir raporla iletilir. Bu düzen, işletmenizin ilerlemeyi takip etmesini sağlar ve rota sonunda sürpriz olmadan tam bir tamamlanma raporu ile kapanır — rapor formatı, kayıt tutma ihtiyacınıza göre uyarlanabilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB'de 15 farklı tesiste aydınlatma bakımı yapacağız, nasıl planlanır?",
+                cevap:
+                    "İlk adım, 15 tesisi coğrafi yakınlık ve yükseklik benzerliğine göre gruplamaktır — aynı bölgedeki tesisler bir güzergâh sırasına dizilir, benzer yükseklikteki işler aynı makineyle art arda yapılır. 15 noktalık bir liste genelde tek makineyle 2-4 günde tamamlanır, ama bu süre her noktadaki iş karmaşıklığına bağlıdır. Tesis listesini konumları ve tahmini iş sürücükleriyle paylaşın; güzergâh sırasını ve süre tahminini birlikte çıkaralım.",
+            },
+            {
+                soru: "Zincir mağazamızın 40 şubesinde aynı tabela değişimi olacak, hepsi aynı fiyata mı?",
+                cevap:
+                    "Şube başına net fiyat verilir ve tekrarlayan iş sayesinde bu fiyat genelde tek seferlik işten daha düşük çıkar — ilk şubede kurulan iş şablonu (süre, malzeme, ekip düzeni) sonraki şubelere aynen uygulanır ve her şube için ayrı keşif gerekmez. Şubelerin coğrafi dağılımına göre tur grupları oluşturulur ve program haftalar-aylar içinde ilerler. Şube listenizi ve konumlarını paylaşın; şube başı fiyatı ve toplam programı çıkaralım.",
+            },
+            {
+                soru: "Rota sırasında bir noktada beklenenden uzun sürerse ne olur, diğer noktalar iptal mi olur?",
+                cevap:
+                    "İptal olmaz, ertelenir — günlük tur programında küçük bir tampon süre bulunur ama büyük bir aksama (beklenmedik onarım, erişim sorunu) olursa kalan noktalar ertesi güne kaydırılır ve program buna göre güncellenir. Bu esneklik, rota başlamadan önce sizinle konuşulur; beklenti baştan nettir ve gecikme durumunda güncel programı hemen paylaşırız. İş yarım bırakılmaz, yalnızca takvim kayar.",
+            },
+            {
+                soru: "Tek makine mi yoksa birkaç makine mi kullanmalıyız, kim karar veriyor?",
+                cevap:
+                    "Karar, rakamla birlikte size bırakılır — liste büyüklüğü ve çeşitliliğine göre iki kurgu (tek makine seri, karma filo paralel) fiyat ve süre olarak karşılaştırmalı sunulur. Takvim baskınız yüksekse karma filo daha hızlı biter ama daha maliyetlidir; bütçe önceliğiniz varsa ve süre esnekse tek makine daha ekonomiktir. Rota büyüklüğünüzü ve önceliğinizi (hız mı bütçe mi) söyleyin; iki senaryoyu birlikte çıkaralım.",
+            },
+            {
+                soru: "Rota sırasında ilerlemeyi nasıl takip ederiz, gün sonunda bilgi alır mıyız?",
+                cevap:
+                    "Evet — çok günlük rota işlerinde günlük kapanış bilgilendirmesi standarttır: hangi noktalar tamamlandı, hangileri ertesi güne kaldı, varsa karşılaşılan sorunlar kısa raporla iletilir. Kayıt tutma ihtiyacınız varsa (örneğin bakım defterine işlemek için), rapor formatını buna göre uyarlarız. Rota sonunda tam bir tamamlanma raporu ile kapanış yapılır; sürpriz kalan iş olmaz.",
+            },
+            {
+                soru: "Rotamızda hem 8 metrelik hem 18 metrelik noktalar var, tek makine mi gerekir iki mi?",
+                cevap:
+                    "Genelde iki makine daha verimlidir — 8 metrelik noktalar akülü/kompakt sınıfla, 18 metrelik noktalar dizel eklemli üst sınıfla çalışılır ve bu iki grup paralel ilerleyebilir. Tek makineyle (18 metrelik sınıfla) tüm rotayı yapmak da mümkündür ama küçük noktalarda büyük makine yavaş kalır ve yüksek tarife tüm listeye uygulanır. İki kurguyu listenizle karşılaştırmalı fiyatlandıralım; yükseklik dağılımınızı paylaşın.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Rota planlama ve filo gruplama yöntemi, tur ekonomisi hesabı firma pratiğidir; genel planlama ilkeleri sektör genelinde bilinen operasyonel yaklaşımlardır.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Zor Zemin ve Arazi Koşullarında Platform Kiralama: Sınıf Seçim Rehberi",
+        giris:
+            "Zor zemin denildiğinde akla genelde çamur veya eğim gelir, ama gerçek karar süreci daha ayrıntılıdır: zemin sertliği, eğim derecesi, engebe düzeyi ve yağış sonrası davranış birbirinden bağımsız dört değişkendir ve her biri makine seçimini farklı yönde etkiler. Genel amaçlı filomuzun zor zemin işlerindeki yaklaşımı, zemini abartılı güvenli veya abartılı riskli göstermeden dürüstçe değerlendirmek ve buna uygun sınıfı önermektir — 'her yere girer' vaadi vermeyiz, çünkü bazı zeminlerde hiçbir tekerlekli platform güvenli çalışamaz ve bunu söylemek, yanlış makineyle sahaya göndermekten daha değerlidir. Bu sayfa, zor zemin koşullarının sınıf seçimine nasıl yansıdığını anlatıyor — bu, sitemizin ana odak konularından biridir ve derinlemesine ele alınmayı hak eder.",
+        maddeler: [
+            {
+                baslik: "Zemin sertliği: ilk ve en belirleyici filtre",
+                metin:
+                    "Zemin sertliği, tüm diğer değişkenlerden önce değerlendirilir çünkü yumuşak-çamurlu bir zeminde hiçbir tekerlekli platform (dizel 4x4 dahil) güvenli çalışamaz — devrilme riski, düşük hızda bile gerçektir. Zemin sertliğinin basit bir testi vardır: bir aracın (kamyon, forklift) üzerinde iz bırakmadan durabildiği zemin, genelde platform için de uygundur; belirgin iz bırakıyorsa zemin güçlendirme (plaka, dolgu) olmadan çalışma önerilmez. Şüpheli zeminlerde keşif ziyareti, telefon görüşmesinden daha güvenilir bir karar verir.",
+            },
+            {
+                baslik: "Eğim derecesi: üreticinin belirlediği sınır aşılmaz",
+                metin:
+                    "Her platform modelinin üretici tarafından belirlenmiş maksimum eğim toleransı vardır (tipik olarak dizel 4x4 modellerde %30-45 bandı, standart modellerde çok daha düşük) ve bu sınır, güvenlik sistemi tarafından da kilitlenir — sınırı aşan eğimde makine otomatik olarak yükselme izni vermez. Arazinizin eğim derecesini (yaklaşık da olsa) paylaşmanız, uygun modeli baştan belirler; eğim çok yüksekse (örneğin %50 üstü), tekerlekli platform yerine alternatif erişim yöntemleri (sabit iskele, halatlı erişim) değerlendirilmesi gerekebilir ve bunu dürüstçe söyleriz.",
+            },
+            {
+                baslik: "Engebe ve zemin süreksizliği",
+                metin:
+                    "Düz ama engebeli zemin (çukur, tümsek, moloz) farklı bir risk taşır: platformun dört tekerleği aynı anda farklı yükseklikte zemine basarsa, makinenin seviyeleme sistemi devreye girer ve bazı modellerde bu, çalışma yüksekliğini otomatik sınırlar. Çok engebeli sahalarda, çalışma öncesi geçici bir düzeltme (moloz temizliği, basit dolgu) önerilir — bu, makinenin performansını tam kullanabilmek için genelde en ekonomik çözümdür.",
+            },
+            {
+                baslik: "Yağış sonrası davranış: zeminin gerçek testi",
+                metin:
+                    "Bir zeminin 'kuru havada sağlam' görünmesi, yağış sonrası da sağlam kalacağı anlamına gelmez — özellikle killi-stabilize zeminler yağıştan sonra taşıma kapasitesini önemli ölçüde kaybedebilir. Yakın zamanda yağış almış veya yağış bekleniyorsa, çalışma öncesi zeminin gerçek durumu (batıyor mu, iz bırakıyor mu) sahada test edilir ve gerekirse çalışma, zemin kuruyana kadar ertelenir. Bu erteleme, güvenlik için kabul edilen bir maliyettir ve pazarlık konusu yapılmaz.",
+            },
+            {
+                baslik: "Yük dağıtım plakası: sınırda zeminin çözümü",
+                metin:
+                    "Zemin sınırda (ne tamamen güvenli ne tamamen riskli) olduğunda, tekerlek altına yerleştirilen yük dağıtım plakaları taşıma yüzeyini genişletir ve zemin üzerindeki basıncı düşürür — bu, birçok sınırda zemin durumunda pratik ve ekonomik bir çözümdür. Plaka kullanımı ek bir hazırlık süresi gerektirir ama zemin güçlendirmesinden (dolgu, sıkıştırma) çok daha hızlı ve ucuzdur. Zemin fotoğrafınızla birlikte bu seçeneği değerlendiririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin durumuna göre sınıf ve önlem tablosu",
+                paragraflar: [
+                    "Zor zemin senaryolarının tipik değerlendirmesi aşağıdadır. Kesin karar, saha fotoğrafı veya keşifle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin durumu", "Değerlendirme", "Önlem/sınıf"],
+                    satirlar: [
+                        ["Sıkı stabilize, düz", "Uygun", "Dizel 4x4"],
+                        ["Yumuşak/çamurlu", "Riskli — çalışma ertelenir", "Zemin kuruyana kadar bekleme"],
+                        ["Eğimli (%30 altı)", "Uygun (model sınırına göre)", "Dizel 4x4, üretici eğim sınırı kontrolü"],
+                        ["Sınırda taşıma kapasitesi", "Koşullu uygun", "Yük dağıtım plakası"],
+                        ["Çok engebeli (çukur/moloz)", "Ön düzeltme önerilir", "Geçici zemin düzeltmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Keşif ziyaretinin değeri: telefonla anlaşılmayan zemin",
+                paragraflar: [
+                    "Zemin durumu, telefonda 'düz' veya 'biraz engebeli' gibi öznel ifadelerle tam anlaşılmaz — bu yüzden şüpheli zeminlerde (yeni dolgu, yakın zamanda yağış almış, hiç araç geçmemiş saha) kısa bir keşif ziyareti öneririz. Keşif, zemin sertliğini basit bir testle (araç izi, elle bastırma) değerlendirir ve gerekli önlemi (plaka, kuruma bekleme, alternatif erişim) netleştirir. Bu ziyaret, yanlış makineyle sahaya gidip geri dönmekten çok daha ekonomiktir.",
+                    "Fotoğraf ve kısa bir video (zeminin üzerinde yürürken çekilmiş), çoğu durumda keşif ziyaretinin yerini alabilir ve süreci hızlandırır.",
+                ],
+            },
+            {
+                baslik: "'Her yere girer' vaadi neden vermiyoruz",
+                paragraflar: [
+                    "Bazı firmaların pazarlama dilinde 'her araziye girer' gibi ifadeler görülür, ama bu teknik olarak doğru değildir — her platform modelinin üretici tarafından belirlenmiş zemin ve eğim sınırları vardır ve bu sınırları aşan bir vaatte bulunmak, sahada güvenlik riskine veya makinenin çalışmamasına yol açar. Dürüst yaklaşımımız, zemininizi gerçekçi değerlendirip uygun sınıfı önermek, sınır durumlarda alternatif çözüm (plaka, erteleme, farklı erişim yöntemi) sunmaktır — bazen de 'bu zeminde tekerlekli platform çalışmaz' demektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Arazimiz stabilize ama biraz yumuşak görünüyor, riskli mi?",
+                cevap:
+                    "Basit bir testle anlaşılır: bir aracın (kamyon, forklift) zemin üzerinde iz bırakıp bırakmadığına bakın — belirgin iz bırakıyorsa zemin, platform için de risklidir ve güçlendirme (yük dağıtım plakası veya dolgu) olmadan önerilmez. Şüpheliyse fotoğraf veya kısa video paylaşın, mümkünse kısa bir keşif ziyareti yapalım. Zeminden tasarruf, devrilme riskinin diğer adıdır — bu konuda net konuşmayı tercih ederiz.",
+            },
+            {
+                soru: "Dün yağmur yağdı, bugün çalışabilir miyiz?",
+                cevap:
+                    "Zemine bağlı — killi-stabilize zeminler yağıştan sonra taşıma kapasitesini kaybedebilir ve bu durum gözle her zaman anlaşılmaz. Sahada basit bir test (zemine basınca batıyor mu, iz bırakıyor mu) yapılır; zemin hâlâ yumuşaksa çalışma kuruyana kadar (genelde bir-iki gün) ertelenir. Bu erteleme güvenlik için gereklidir ve pazarlık konusu yapmayız. Zeminin kuruma durumuna göre en yakın uygun tarihi birlikte belirleriz.",
+            },
+            {
+                soru: "Arazimiz eğimli, hangi makineler bu eğimde çalışabilir?",
+                cevap:
+                    "Dizel 4x4 modeller genelde %30-45 bandında eğim toleransına sahiptir (model bazında değişir) ve bu sınır makinenin güvenlik sistemi tarafından da kilitlenir — sınırı aşan eğimde makine yükselme izni vermez. Arazinizin yaklaşık eğim derecesini paylaşın (örneğin bir referans noktasıyla tahmin); uygun modeli ve varsa eğim sınırını netleştirelim. Çok yüksek eğimde (yaklaşık %50 üstü) tekerlekli platform yerine alternatif yöntemler konuşulabilir.",
+            },
+            {
+                soru: "Zeminimiz çukurlu-molozlu, önce temizlik mi yapmalıyız?",
+                cevap:
+                    "Genelde evet, hem güvenlik hem verimlilik için önerilir — çok engebeli zeminde makinenin seviyeleme sistemi devreye girer ve bazı modellerde bu, çalışma yüksekliğini otomatik sınırlayabilir. Basit bir moloz temizliği veya geçici dolgu, makinenin tam performansla çalışmasını sağlar ve genelde bunu yapmamaktan daha ekonomiktir. Zemin fotoğrafını paylaşın; temizlik gerekip gerekmediğini birlikte değerlendirelim.",
+            },
+            {
+                soru: "'Her araziye girer' diyen firmalar var, siz neden söylemiyorsunuz?",
+                cevap:
+                    "Çünkü teknik olarak doğru değil — her platform modelinin üretici tarafından belirlenmiş zemin sertliği ve eğim sınırları vardır ve bu sınırları aşan bir vaatte bulunmak sahada güvenlik riski veya makinenin çalışmaması anlamına gelir. Biz zemininizi dürüstçe değerlendirir, uygun sınıfı öneririz; sınırda durumlarda alternatif çözüm (plaka, erteleme) sunarız ve bazen 'bu zeminde tekerlekli platform güvenli çalışmaz' da deriz. Bu dürüstlük, sahada yaşanacak bir kazadan veya geri dönen makineden çok daha ucuzdur.",
+            },
+            {
+                soru: "Yük dağıtım plakası nedir, ek ücretli mi?",
+                cevap:
+                    "Tekerlek altına yerleştirilen, taşıma yüzeyini genişleten ve zemin üzerindeki basıncı düşüren bir ekipmandır — sınırda zemin durumlarında (ne tamamen sağlam ne tamamen riskli) pratik bir çözümdür. Kullanımı ek bir hazırlık süresi gerektirir ve duruma göre ek ücretlendirilebilir, ama zemin güçlendirmesinden (dolgu, sıkıştırma) çok daha hızlı ve ucuzdur. Zemin fotoğrafınızı paylaşın; plaka gerekip gerekmediğini ve varsa maliyetini netleştirelim.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Platform üreticilerinin zemin sertliği ve eğim toleransı sınırları, yük dağıtım plakası kullanımı sektör genelinde bilinen teknik gerçeklerdir; zemin değerlendirme yöntemi ve dürüst yönlendirme ilkesi firma pratiğidir.",
+    },
 };
