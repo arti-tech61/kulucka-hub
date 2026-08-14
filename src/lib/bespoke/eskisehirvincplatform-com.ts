@@ -2397,4 +2397,202 @@ export const ESKISEHIRVINCPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Destek ayağı zemin taşıma gücü, azami çalışma eğimi ve bom yatay erişim sınırları EN 280 kapsamındaki genel makine tanımlarına ve üretici teknik verilerine dayanır; kırsal arazi erişim senaryoları saha pratiğinden alınmıştır. Firma adı, tesis adı, mesafe ve kapasite rakamı kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama: Kırsal Hat İşinde Ne Zaman Uygun, Ne Zaman Değil",
+        giris:
+            "Makaslı platform kiralama talebi bize sıklıkla ulaşıyor, ama dürüst cevabımız çoğu zaman aynı: bu makine sınıfı, bizim asıl uzmanlık alanımız olan kırsal enerji hattı ve aydınlatma altyapısı işleri için genellikle doğru araç değildir. Makaslı platform yalnızca dikey yükselir ve gövdesini sert, düz bir zeminden alır; makas mekanizması, tekerleklerin altında birkaç santimlik bir kot farkı ya da yumuşak bir zemin dahi olsa dengesini kaybeder. Kırsal hat direklerine giden güzergâh ise neredeyse hiçbir zaman böyle bir zemin sunmaz — tarla kenarı, banket, stabilize yol ya da doğal toprak, hepsi makaslı platformun güvenle çalışabileceği koşulların dışındadır. Bu yüzden bu sayfada makaslı platformu övmek yerine, nerede gerçekten işe yaradığını ve nerede yaramadığını açıkça anlatıyoruz. Filomuzda öncelik sepetli platform ve vinçte; makaslı platform, ancak zeminin gerçekten sert ve düz olduğu özel durumlarda (trafo sahası içi beton zemin, atölye/depo tabanı) devreye giriyor. Talebiniz varsa önce zemin fotoğrafı istiyoruz; makaslı platform uygun değilse bunu saklamadan söylüyor, doğru makineye yönlendiriyoruz.",
+        maddeler: [
+            {
+                baslik: "Makaslı platform hangi zeminde çalışır",
+                metin:
+                    "Makaslı platform, dört tekerleği üzerinde durur ve dengesini makasın simetrik açılımından alır; bu nedenle sert, düz ve yatay bir zemin ister. Beton saha, asfalt avlu ya da sıkıştırılmış endüstriyel taban bu tanıma uyar. Zeminde eğim, çukur ya da yumuşama varsa platform ya hareket etmeyi reddeder ya da güvenlik sınırına takılır; bu, üreticinin belirlediği kesin bir teknik sınırdır, saha kararı değildir.",
+            },
+            {
+                baslik: "Kırsal hat direği çevresinde neden çoğunlukla uygun değil",
+                metin:
+                    "Bir enerji hattı ya da aydınlatma direğinin dibi, çoğunlukla tarla sınırı, banket ya da doğal toprak zemindir; bazen hafif eğimli, bazen yağış sonrası yumuşamış olur. Makaslı platformun tekerlek nokta yükü bu tür zeminlerde taşıma gücünü aşabilir ve makine batabilir ya da yan yatma riski oluşabilir. Bizim tercihimiz, bu koşullarda gövdesini açılan destek ayaklarından dengeleyen sepetli platform ya da vinç oluyor; bu makineler yumuşak ve düzensiz zeminde çok daha güvenli çalışıyor.",
+            },
+            {
+                baslik: "İstisna: trafo sahası ve beton zeminli tesis içi işler",
+                metin:
+                    "Her kırsal hat işi tarla ortasında geçmiyor; bazı çalışmalar trafo merkezi avlusu, şalt sahası ya da bir tesisin beton zeminli iç mekânında yürütülüyor. Bu tür sahalarda zemin sert ve düzse, makaslı platform gerçekten uygun bir seçenek olabilir — özellikle dar bir koridorda dikey yükselme yeterli olduğunda araç üstü platforma göre daha kompakt ve ekonomik kalabiliyor. Bu durumda talebi geri çevirmiyoruz, filomuzdan uygun makaslı platform sınıfını öneriyoruz.",
+            },
+            {
+                baslik: "Kapasite ve yükseklik konusunda dürüst sınır",
+                metin:
+                    "Makaslı platformlar genelde orta yükseklik bandında (çoğu model 8-14 metre çalışma yüksekliği aralığında) hizmet verir ve yatay erişimleri sepetli/eklemli sınıflara göre sınırlıdır — bom uzatarak yana açılamazlar, sadece dikey çıkarlar. Bir direğin belirli bir noktasına yandan erişmeniz gerekiyorsa, yani hedef tam tekerleğin üzerinde değilse, makaslı platform bu işi çözmez; bunu net söylüyoruz, aksi hâlde sahada makinenin yetersiz kaldığı ortaya çıkar.",
+            },
+            {
+                baslik: "Doğru makineye yönlendirme",
+                metin:
+                    "Talebiniz kırsal hat, direk dibi ya da düzensiz zeminse, makaslı platform yerine sepetli araç üstü platform ya da vinç öneriyoruz; bu makineler destek ayağıyla dengelenir, hat boyu hızlı yer değiştirir ve bom sayesinde yandan erişim sağlar. Talebiniz trafo sahası, atölye ya da beton zeminli bir iç mekânsa makaslı platform gerçek bir seçenek. Hangi durumda olduğunuzu netleştirmek için tek ihtiyacımız olan, sahanın birkaç fotoğrafı ve kısa bir zemin tarifi.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin Tipine Göre Makaslı Platform Uygunluğu",
+                paragraflar: [
+                    "Aşağıdaki tablo, sık karşılaştığımız zemin tiplerinde makaslı platformun uygunluğunu ve bizim standart önerimizi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin / saha", "Makaslı platform uygunluğu", "Önerimiz"],
+                    satirlar: [
+                        ["Trafo/şalt sahası, beton avlu", "Uygun", "Makaslı platform kullanılabilir"],
+                        ["Atölye/depo iç mekân taban", "Uygun", "Makaslı platform kullanılabilir"],
+                        ["Tarla kenarı, doğal toprak", "Uygun değil", "Sepetli platform veya vinç"],
+                        ["Banket, stabilize yol", "Genelde uygun değil", "Sepetli platform önerilir"],
+                        ["Eğimli veya yumuşak zemin", "Uygun değil", "Destek ayaklı makine (sepetli/vinç)"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı platformun teknik sınırları",
+                paragraflar: [
+                    "Makaslı platformun dikey hareketi, mekanizmanın kendi geometrisinden geliyor: makas kolları açıldıkça platform düz yukarı çıkar, ama yanlara doğru bir uzanma imkânı sunmaz. Bu, sert zeminde çalışan dar koridor işleri için avantaj; ancak bir direğe yandan yaklaşmanız gereken açık saha işinde dezavantaja dönüşüyor.",
+                    "Ayrıca çoğu makaslı platform modeli, dört tekerleğin dördünün de sağlam zemine bastığı bir dengeyle çalışır; sepetli platformdaki gibi ayrı ayrı ayarlanabilen destek ayakları yoktur. Bu da zemindeki en ufak düzensizliğin makineye doğrudan yansıması anlamına gelir.",
+                ],
+            },
+            {
+                baslik: "Dürüst öneri: çoğu kırsal hat işinde sepetli platform tercih ediyoruz",
+                paragraflar: [
+                    "Sitemizin ana uzmanlığı kırsal enerji hattı ve aydınlatma altyapısı olduğu için, bu profildeki taleplerin büyük kısmında makaslı platformu önermiyoruz — sepetli platform ya da vinç, hem zemin toleransı hem yandan erişim açısından bu işler için daha güvenli ve daha uygun sonuç veriyor. Bunu, makaslı platform kirası kaybetmek pahasına da olsa açıkça söylüyoruz; yanlış makineyle sahaya gidip iş yapamamak, hem sizin hem bizim için zaman kaybı oluyor.",
+                    "Talebinizin gerçekten makaslı platforma uygun olduğu (sert/düz zeminli bir tesis içi iş) durumlarda ise filomuzdan uygun modeli kiralıyoruz; bu sayfa o durumları da kapsıyor, sadece hepsini kapsamıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Direk dibinde toprak zemin var, makaslı platform gönderebilir misiniz?",
+                cevap:
+                    "Genellikle önermiyoruz. Makaslı platformun dört tekerleği de sert ve düz bir zemine basmak zorunda; doğal toprak, özellikle yağış sonrası, bu koşulu sağlamaz ve makine batma ya da dengesizlik riskiyle karşılaşabilir. Bu tür bir sahada bizim standart önerimiz sepetli platform ya da vinç oluyor; bunlar destek ayaklarıyla dengelenip yumuşak zeminde de güvenle çalışabiliyor. Zemin fotoğrafını paylaşırsanız kesin öneriyi hemen verebiliriz.",
+            },
+            {
+                soru: "Trafo sahası içindeki beton zeminde makaslı platform çalışır mı?",
+                cevap:
+                    "Evet, bu tam olarak makaslı platformun uygun olduğu senaryo. Beton avlu düz ve sert olduğu için makine dört tekerleği üzerinde güvenle durur ve dikey yükselme ihtiyacınızı karşılar. Sahanın genişliği ve tavan/bariyer yüksekliği gibi kısıtlar varsa (kapalı alan iş sözkonusuysa) bunu da önceden sormanızı öneririz, doğru model seçiminde etkili oluyor.",
+            },
+            {
+                soru: "Makaslı platform ile sepetli platform arasındaki fark tam olarak ne?",
+                cevap:
+                    "Makaslı platform yalnızca dikey yükselir ve sert/düz zemin ister; yandan erişim imkânı yoktur. Sepetli platform ise bom sayesinde hem yükselir hem yana uzanır, destek ayaklarıyla dengelendiği için yumuşak ve düzensiz zeminde de çalışabilir. Kırsal hat direklerinde hedefe genelde yandan yaklaşmanız gerektiği ve zemin nadiren düz olduğu için, bu işlerde neredeyse her zaman sepetli platform tercih ediyoruz.",
+            },
+            {
+                soru: "Makaslı platformu neden bu kadar az öneriyorsunuz, elinizde yok mu?",
+                cevap:
+                    "Var, ancak bu sitenin odağı kırsal enerji hattı ve aydınlatma altyapısı işleri; bu profildeki sahaların büyük çoğunluğu makaslı platformun gerektirdiği sert/düz zemini sunmuyor. Talebinizi geri çevirmek yerine dürüstçe uygun olup olmadığını değerlendiriyoruz — uygunsa kiralıyoruz, değilse doğru makineyi öneriyoruz. Amacımız kira geliri değil, sahada işi doğru makineyle bitirmek.",
+            },
+            {
+                soru: "Zeminin sert olup olmadığından emin değilim, nasıl anlarım?",
+                cevap:
+                    "Birkaç fotoğraf genelde yeterli oluyor: zeminin beton/asfalt mı yoksa toprak/stabilize mi olduğu, görünür çatlak ya da çökme olup olmadığı ve son yağıştan bu yana geçen süre. Bu bilgiyle büyük ölçüde ön değerlendirme yapabiliyoruz. Kesin emin olunamayan durumlarda, makaslı platform yerine daha toleranslı olan sepetli platformu önermek bizim standart yaklaşımımız.",
+            },
+            {
+                soru: "Kapasite ve yükseklik açısından makaslı platform yeterli mi?",
+                cevap:
+                    "Çoğu makaslı platform modeli orta yükseklik bandında hizmet verir ve yatay erişimi yoktur; yalnızca dikey çıkar. Hedefiniz tam tekerleğin üzerindeyse ve yükseklik bu bandın içindeyse yeterli olabilir. Ancak direğe yandan yaklaşmanız ya da daha yükseğe çıkmanız gerekiyorsa, bom tipi bir makineye (sepetli/eklemli) geçmek gerekiyor; bunu keşif aşamasında netleştiriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform zemin ve denge gereksinimleri, dikey-yalnız hareket sınırı ile yatay erişim eksikliği EN 280 kapsamındaki genel makine tanımlarına dayanır. Bu sayfa, sitenin kırsal hat/açık saha uzmanlığı ile makaslı platformun sert-zemin gereksinimi arasındaki uyumsuzluğu dürüstçe belirtir; firma adı, tesis adı ve kapasite rakamı uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: Kırsal Enerji Hattı ve Aydınlatma Direklerine Açık Saha Erişimi",
+        giris:
+            "Manlift, sepetli platform, eklemli platform ve teleskopik bom gibi farklı makine sınıflarını kapsayan genel bir isim; ama kırsal enerji hattı ve aydınlatma altyapısı işlerinde hepsi aynı derecede işe yaramaz. Bizim sahalarımız — tarla kenarı, banket, stabilize yol, doğal toprak — düz ve sert değil; bu yüzden manlift talebi geldiğinde önceliğimiz sepetli (boom) ve eklemli (articulating) sınıflar oluyor, çünkü bu makineler hem destek ayaklarıyla düzensiz zeminde dengelenebiliyor hem de bom sayesinde direğe yandan uzanabiliyor. Bir enerji hattı direğine ya da aydınlatma direğine ulaşmak, çoğu zaman aracın dibine kadar gidememek anlamına gelir; hendek, tarla sınırı ya da yol şevi araya girer. Böyle bir noktada teleskopik ya da makaslı sınıfların yatay erişim eksikliği işi çözmez, ama eklemli bir bom hem yukarı hem yana kıvrılarak hedefe ulaşabilir. Bu sayfa, manlift kiralarken hangi sınıfı neden seçtiğimizi, açık saha koşullarında zemin ve arazi kabiliyetinin nasıl değerlendirildiğini ve enerji hattı yakınında çalışırken uyguladığımız güvenlik kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Manlift sınıfları ve kırsal hat işi için doğru seçim",
+                metin:
+                    "Manlift şemsiyesi altında üç ana sınıf var: teleskopik bom (tek doğrultuda uzun erişim), eklemli bom (dirsekli, engel aşma kabiliyeti yüksek) ve makaslı platform (yalnızca dikey, sert zemin ister). Kırsal hat direklerinde hedefe çoğunlukla yandan ve bazen bir engelin (hendek, ağaç, başka bir direk) üzerinden ulaşmak gerektiği için eklemli bom öne çıkıyor; düz ve uzun bir koridorda ise teleskopik bom daha hızlı sonuç veriyor. Makaslı platformu bu profildeki işlerde nadiren öneriyoruz, çünkü zemin toleransı yetersiz kalıyor.",
+            },
+            {
+                baslik: "Açık saha ve arazi kabiliyeti",
+                metin:
+                    "Kırsal güzergâhlarda kullanılan manlift modelleri lastik tekerlekli ve çoğunlukla dört tekerlek tahrikli (4x4) sürüm olmalı; bu, tarla kenarı ya da stabilize yolda ilerlerken kritik bir fark yaratıyor. Zeminin taşıma gücü şüpheliyse, destek ayaklarının altına yük dağıtıcı plaka koyuyor ve bomu kaldırmadan önce oturma kontrolü yapıyoruz. Zemin çok yumuşak ya da bataklık kıvamındaysa, bunu saklamadan söylüyor ve alternatif bir erişim planı konuşuyoruz.",
+            },
+            {
+                baslik: "Bom ile direk üstü erişim: yükseklik-yatay dengesi",
+                metin:
+                    "Bom tipi makinelerde azami yükseklik ile azami yatay erişim ters orantılıdır; biri artınca diğeri azalır. Bu yüzden bir manlift talebini karşılarken tek bir yükseklik rakamına değil, aracın park edebileceği en yakın noktadan direğe olan mesafeye ve varsa kot farkına bakıyoruz. Hedef direğin tam yanına kadar araçla gidilebiliyorsa daha kısa bir bom yeterli olurken, hendek ya da eğim araya giriyorsa daha geniş erişimli bir sınıfa geçilmesi gerekiyor.",
+            },
+            {
+                baslik: "Enerji hattı yakınında çalışma güvenliği",
+                metin:
+                    "Manlift ile bir enerji hattı direğine ya da hattın kendisine yaklaşırken, sepet ve bom ile gerilimli iletkenler arasında yeterli yaklaşma mesafesinin korunması esastır; bu mesafe hattın gerilim seviyesine göre değişir ve saha ekibimiz bu sınırı işin başında netleştirir. Mümkün olan işlerde ilgili hat kesimi enerjisiz alınıp topraklanır; kesilemeyen hatlarda mesafe kuralına daha da sıkı uyulur ve operatör bu konuda ayrıca bilgilendirilir.",
+            },
+            {
+                baslik: "Operatör ve kiralama süresi",
+                metin:
+                    "Manlift, operatörlü ya da operatörsüz (sertifikalı personelinizle) kiralanabilir; operatörsüz teslimde G sınıfı iş makinesi operatör belgesi kontrol edilir. Kırsal hat işleri genelde tek bir gün değil, güzergâh boyunca birkaç gün sürdüğü için günlük ve haftalık kiralama seçenekleri sunuyoruz; hat kilometresi mantığıyla ilerleyen işlerde makinenin sahada kalması, her gün nakliye tekrarlamaktan daha ekonomik oluyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift Sınıfına Göre Erişim Kabiliyeti",
+                paragraflar: [
+                    "Aşağıdaki tablo, kırsal hat işlerinde karşılaştığımız tipik erişim durumlarına göre hangi manlift sınıfını önerdiğimizi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha durumu", "Önerilen sınıf", "Neden"],
+                    satirlar: [
+                        ["Direk yolun hemen kenarında, düz erişim", "Teleskopik bom", "Hızlı kurulum, uzun düz erişim"],
+                        ["Direk hendek/engel arkasında", "Eklemli bom", "Dirsekli kol engeli aşar"],
+                        ["Zemin yumuşak/düzensiz, açık saha", "Sepetli platform (4x4)", "Destek ayağı + arazi kabiliyeti"],
+                        ["Trafo sahası, beton zemin", "Makaslı platform", "Sert zeminde ekonomik seçenek"],
+                        ["Çoklu direk, hat boyu ilerleme", "Sepetli/eklemli, haftalık kiralama", "Yer değiştirme hızı önemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji hattı yakınında manlift güvenlik kuralları",
+                paragraflar: [
+                    "Gerilimli bir hatta yaklaşan her manlift operasyonunda önce hattın kesilip kesilemeyeceği değerlendirilir; kesim mümkünse topraklama yapılıp öyle çalışılır. Kesim mümkün değilse, sepet ve bom ile iletken arasındaki mesafe hattın gerilim seviyesine uygun asgari sınırın altına düşürülmez; bu sınır sahada operatöre ve ekibe açıkça bildirilir.",
+                    "Rüzgâr, ıslak zemin ve gece çalışması gibi ek risk faktörleri varsa çalışma planı buna göre revize edilir; bazı koşullarda iş ertelenir. Bu, işi geciktirse de sahadaki en önemli önceliğimiz personelin ve makinenin güvenliğidir.",
+                ],
+            },
+            {
+                baslik: "Manlift kiralama süreci ve teslimat",
+                paragraflar: [
+                    "Talep geldiğinde önce hedef direk sayısı, güzergâh üzerindeki erişim koşulları (yol tipi, kot farkı, engel) ve varsa enerji kesme durumu soruluyor. Bu bilgiyle uygun manlift sınıfı ve kiralama süresi (günlük/haftalık) netleştiriliyor.",
+                    "Teslimat, hat boyu ilerleyen işlerde genelde güzergâhın başlangıcına yapılır; makine, iş bitene kadar sahada kalır ve her gün geri çağrılmaz. Bu, hem nakliye maliyetini hem de kurulum zamanını azaltıyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile sepetli platform aynı şey mi?",
+                cevap:
+                    "Sepetli platform, manlift şemsiyesi altındaki sınıflardan biri; manlift daha genel bir isim ve teleskopik bom, eklemli bom ve makaslı platformu da kapsar. Biz kırsal hat işlerinde 'manlift' talebi geldiğinde, sahanın zemin ve erişim koşuluna göre bu sınıflardan hangisinin uygun olduğunu belirleyip öyle öneriyoruz; çoğu açık saha işinde bu, sepetli ya da eklemli bom oluyor.",
+            },
+            {
+                soru: "Direk hendeğin arkasında, araç oraya gidemiyor; hangi manlift sınıfı çözer?",
+                cevap:
+                    "Bu durumda eklemli (articulating) bom genelde en iyi çözüm, çünkü dirsekli kol hem yukarı hem yana kıvrılarak engelin üzerinden hedefe ulaşabilir. Aracı hendeğin bu tarafındaki sağlam bir noktaya park edip bomu hedefe doğru açıyoruz. Hendeğin genişliği ve park noktasından direğe olan mesafe, hangi model boyunun yeteceğini belirliyor; bu ölçüleri fotoğrafla paylaşırsanız önceden değerlendirebiliyoruz.",
+            },
+            {
+                soru: "Manlift açık sahada, tarla kenarında çalışabilir mi?",
+                cevap:
+                    "Evet, ancak doğru model seçimiyle. Açık saha ve tarla kenarı gibi düzensiz zeminler için lastik tekerlekli, tercihen 4x4 tahrikli sepetli ya da eklemli manlift kullanıyoruz; bu makineler destek ayaklarıyla dengelenip yumuşak zeminde de güvenle çalışabiliyor. Zemin aşırı yumuşak ya da bataklık kıvamındaysa bunu saha değerlendirmesinde açıkça belirtiyor, alternatif bir plan öneriyoruz.",
+            },
+            {
+                soru: "Enerji hattına ne kadar yaklaşabiliyorsunuz, tehlikeli değil mi?",
+                cevap:
+                    "Gerilimli bir hatta yaklaşırken sepet ve bom ile iletken arasında hattın gerilim seviyesine göre belirlenen bir asgari mesafe korunur; bu sınırın altına inilmez. Mümkün olan işlerde ilgili hat kesimi önce enerjisiz alınıp topraklanır, bu en güvenli yöntemdir. Kesilemeyen hatlarda mesafe kuralına daha sıkı uyulur ve operatör bu konuda özellikle bilgilendirilir; bu, sahada tartışmaya açık olmayan bir kuraldır.",
+            },
+            {
+                soru: "Manlift'i kaç günlüğüne kiralayabiliyoruz, hat boyu iş için uygun mu?",
+                cevap:
+                    "Günlük ve haftalık kiralama seçenekleri sunuyoruz. Hat kilometresi mantığıyla ilerleyen, birden fazla direği kapsayan işlerde makinenin sahada kalıp güzergâh boyunca ilerlemesi, her gün nakliye tekrarlamaktan daha ekonomik ve daha hızlı oluyor. Süreyi ve teslim noktasını, güzergâhın uzunluğuna göre birlikte planlıyoruz.",
+            },
+            {
+                soru: "Operatörsüz manlift kiralayabilir miyiz, kendi personelimiz kullanabilir mi?",
+                cevap:
+                    "Evet, operatörsüz teslim mümkün; ancak makineyi kullanacak personelin G sınıfı iş makinesi operatör belgesi olması ve belgenin ilgili manlift sınıfını kapsaması gerekiyor. Belge kontrolünü teslimattan önce yapıyoruz. Personeliniz yoksa ya da belge uygun değilse operatörlü kiralama seçeneğine geçebiliyoruz; bu durumda operatörümüz enerji hattı yakınlığı konusunda da bilgilendirilmiş oluyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift sınıfları (teleskopik/eklemli/makaslı) arasındaki yükseklik-yatay erişim dengesi ve yaklaşma mesafesi kuralları EN 280 kapsamındaki genel makine tanımlarına ve elektrik güvenliği mevzuatının genel ilkelerine dayanır. Firma adı, tesis adı, mesafe ve kapasite rakamı uydurulmamıştır.",
+    },
 };

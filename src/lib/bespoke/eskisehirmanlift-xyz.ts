@@ -1881,4 +1881,200 @@ export const ESKISEHIRMANLIFT_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Arazi tipi platformların 4x4 tahrik, geniş taban lastik ve kendinden dengeleme özellikleri EN 280 kapsamındaki genel makine sınıfı bilgisidir; zemin ölçüsü ve konum rakamı uydurulmamıştır.",
     },
+    "hizmet:manlift-kiralama": {
+        h1: "İlk Kiralamada Manlift Nedir, Hangi Sınıf Seçilmeli",
+        giris:
+            "\"Manlift\" kelimesi günlük kullanımda çoğu zaman genel bir terim gibi geçse de teknik olarak, sepeti hem dikey hem de yatay yönde bir kolla uzatarak çalışma noktasına erişim sağlayan kollu platformları ifade eder — sektörde \"boom lift\" olarak da anılır. Bu sınıfın kendi içinde iki alt tipi vardır: dirsek noktasından katlanabilen eklemli (artikülasyonlu) manlift ve tek parça halinde uzayan teleskopik manlift. Eskişehir OSB'deki sanayi tesislerinde çatı işleri, çelik konstrüksiyon montajı, boru hattı bakımı veya cephe aydınlatması gibi işler için ilk kez manlift kiralayacak bir işletmenin en sık karıştırdığı nokta, manlift ile dikey yükselen makaslı platformun aynı şey sanılmasıdır. Oysa ikisi farklı erişim mantığına sahiptir ve yanlış sınıf seçimi, sahada işin yapılamaması veya gereksiz maliyetle sonuçlanabilir. Bu sayfa, OSB'de ilk kez manlift kiralayacak bir işletmenin hangi sorulara cevap vermesi gerektiğini, eklemli mi teleskopik mi sorusunun nasıl netleştiğini ve doğru sınıfı seçmek için paylaşılması gereken saha bilgisini anlatır.",
+        maddeler: [
+            {
+                baslik: "Manlift terimi ve iki alt sınıf",
+                metin:
+                    "Eklemli manlift, kolun ortasındaki dirsek sayesinde bir engelin üzerinden veya arkasından dolaşarak erişim sağlar; teleskopik manlift ise tek parça halinde daha uzun mesafeye düz bir hatta uzanır. İlk kiralamanızda erişmeniz gereken noktanın önünde bir engel (boru hattı, makine gövdesi, raf) olup olmadığını belirtmeniz, hangi alt sınıfın gerektiğini netleştirir.",
+            },
+            {
+                baslik: "Yatay erişim mesafesi (outreach) önemi",
+                metin:
+                    "Manliftin ayırt edici özelliği, sadece yükseğe değil aynı zamanda yana doğru da erişebilmesidir; bu yatay mesafeye \"outreach\" denir ve her modelde farklıdır. İlk kiralamanızda çalışma noktasının makinenin konumlanabileceği zeminden yatay uzaklığını (yaklaşık metre) belirtmeniz, yeterli outreach'e sahip modeli netleştirir.",
+            },
+            {
+                baslik: "Engel aşma ve dirsek gerekliliği",
+                metin:
+                    "Sanayi tesislerinde borular, kablo tavaları veya mevcut ekipman çoğu zaman doğrudan erişimi engeller; bu durumda eklemli sınıfın dirsek hareketi engelin üzerinden veya çevresinden dolaşmayı sağlar. İlk kiralamanızda saha fotoğrafı paylaşmanız, engelin gerçek konumunu ve gerekli dirsek hareketini netleştirir.",
+            },
+            {
+                baslik: "Zemin ve şase tipi",
+                metin:
+                    "Manliftler dizel/4x4 dış mekân şasesiyle veya elektrikli dar-erişim şasesiyle üretilir; kapalı bir üretim hattında elektrikli sessiz çalışma tercih edilirken açık sahada dizel tahrik gerekebilir. İlk kiralamanızda işin iç mekânda mı dış mekânda mı yapılacağını belirtmeniz, doğru şase tipini netleştirir.",
+            },
+            {
+                baslik: "Operatör belgesi ve teslimat tanıtımı",
+                metin:
+                    "Manlift kullanımı, sepet ve kol hareketlerinin eş zamanlı kontrolünü gerektirdiği için makaslı platforma göre daha fazla operatör pratiği ister. İlk kez manlift kullanacak bir operatör için teslimat sırasında kol hareketleri ve acil indirme prosedürü ayrıntılı anlatılır; deneyim yoksa operatörlü seçenek önerilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre manlift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, OSB'deki tipik işlere göre ilk kiralamada tercih edilen manlift sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Erişim ihtiyacı", "Önerilen alt sınıf", "Tipik şase"],
+                    satirlar: [
+                        ["Çatı üzeri çelik montaj", "Engelin üzerinden erişim", "Eklemli", "Dizel 4x4"],
+                        ["Boru hattı/kablo tavası bakımı", "Engel çevresinden erişim", "Eklemli", "Dizel veya elektrikli"],
+                        ["Cephe/aydınlatma direği bakımı", "Uzun yatay mesafe", "Teleskopik", "Dizel 4x4"],
+                        ["Kapalı hangar tavan işi", "Sessiz, dar koridor", "Eklemli, elektrikli", "Elektrikli dar-erişim"],
+                        ["Açık saha uzun hat kontrolü", "Sürekli yatay hareket", "Teleskopik", "Dizel 4x4"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift ile makaslı platform farkı",
+                paragraflar: [
+                    "Makaslı platform yalnızca dikey doğrultuda yükselir ve geniş, düz bir çalışma alanı sunar; manlift ise kolu sayesinde hem yukarı hem yana erişebilir. Bir üretim hattının tam üzerinde, herhangi bir engel olmadan çalışacaksanız makaslı platform genelde yeterli ve daha ekonomiktir.",
+                    "Ancak erişmeniz gereken nokta bir boru hattının arkasında, bir makine gövdesinin yanında veya zeminden yatay olarak uzaktaysa, makaslı platformun dikey hareketi bu noktaya ulaşmaya yetmez ve manlift gerekir. İlk kiralamanızda çalışma noktasının tam konumunu tarif etmeniz, bu ayrımı netleştirir.",
+                ],
+            },
+            {
+                baslik: "İlk kiralamada doğru saha bilgisi paylaşımı",
+                paragraflar: [
+                    "Manlift kiralamalarında en sık yaşanan sorun, yatay erişim mesafesinin telefonda olduğundan kısa tahmin edilmesidir; bu da sahada makinenin hedefe yetişememesiyle sonuçlanır. İlk kiralamanızda hem dikey yüksekliği hem de yatay uzaklığı ayrı ayrı belirtmeniz, doğru modelin seçilmesini sağlar.",
+                    "Kapı/koridor genişliği, tavan yüksekliği ve zemin taşıma gücü gibi bilgileri de paylaşmanız, teslimat gününde makinenin sahaya güvenle giriş yapabilmesini garanti eder.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki temel fark nedir?",
+                cevap:
+                    "Makaslı platform yalnızca dikey yükselir ve geniş düz bir platform sunar; manlift ise kollu yapısı sayesinde hem yukarı hem yana doğru erişebilir. Çalışma noktanız tam tepenizdeyse makaslı platform, bir engelin arkasında veya yanda ise manlift gerekir. İlk kiralamanızda noktanın konumunu tarif etmeniz bu seçimi netleştirir.",
+            },
+            {
+                soru: "Eklemli mi teleskopik mi seçmeliyim?",
+                cevap:
+                    "Erişmeniz gereken noktanın önünde boru, kablo tavası veya makine gövdesi gibi bir engel varsa eklemli sınıfın dirsek hareketi bu engeli aşmayı sağlar. Engel yoksa ve uzun, düz bir yatay mesafe kat etmeniz gerekiyorsa teleskopik sınıf genelde daha kararlı ve daha uzun erişim sunar. İlk kiralamanızda saha fotoğrafı paylaşmanız bu kararı netleştirir.",
+            },
+            {
+                soru: "Outreach (yatay erişim) neden bu kadar önemli?",
+                cevap:
+                    "Manliftin manliftten farkı tam olarak buradadır: sadece yüksekliğe değil, zeminden yatay uzaklığa göre de seçim yapılır. Aynı çalışma yüksekliğine sahip iki model, farklı outreach değerlerine sahip olabilir; yetersiz outreach seçilirse makine hedefe erişemez. İlk kiralamanızda hem dikey hem yatay mesafeyi belirtmeniz gerekir.",
+            },
+            {
+                soru: "Kapalı üretim hattında manlift kullanabilir miyiz?",
+                cevap:
+                    "Evet, ancak gürültü ve emisyon nedeniyle kapalı alanlarda elektrikli dar-erişim şaseli modeller tercih edilir; dizel modeller genelde açık saha içindir. İlk kiralamanızda işin iç mekânda mı dış mekânda mı yapılacağını belirtmeniz, doğru şaseyi netleştirir.",
+            },
+            {
+                soru: "Manlift kullanmak makaslı platforma göre daha mı zor?",
+                cevap:
+                    "Manlift, sepet ve kol hareketlerinin eş zamanlı ve dikkatli kontrolünü gerektirdiği için makaslı platforma göre biraz daha fazla pratik ister. İlk kez kullanacak bir operatör için teslimat sırasında kol hareketleri ve acil indirme prosedürü ayrıntılı anlatılır; deneyim düşükse operatörlü seçenek de sunulur.",
+            },
+            {
+                soru: "İlk kiralamada hangi ölçüleri hazırlamalıyım?",
+                cevap:
+                    "Çalışma noktasının zeminden yüksekliği, zeminden yatay uzaklığı, varsa aradaki engelin tarifi, zeminin iç mekân mı dış mekân mı olduğu ve kapı/koridor genişliği gibi bilgiler doğru model seçimi için yeterlidir. Bu bilgileri net paylaştığınızda teklif ve makine seçimi aynı gün netleşir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli/teleskopik manlift ayrımı ve outreach (yatay erişim) kavramı EN 280 kapsamındaki genel makine sınıfı bilgisidir; saha ölçüsü ve konum rakamı uydurulmamıştır.",
+    },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "İlk Kez Makaslı Platform Kiralayacaklar İçin Seçim Rehberi",
+        giris:
+            "Makaslı platform, çapraz kollu bir mekanizmayla yalnızca dikey doğrultuda yükselen ve geniş, düz bir çalışma alanı sunan platform sınıfıdır; manlift gibi yana doğru uzanmaz ama üzerinde birden fazla kişi ve malzeme taşıyabilecek kadar geniştir. Eskişehir OSB'deki sanayi tesislerinde tavan bakımı, boyama, raf/stok düzenleme veya üretim hattı üzeri montaj gibi işlerde ilk kez makaslı platform kiralayacak bir işletmenin en sık sorduğu soru, kaç kişilik ve ne kadar taşıma kapasiteli bir platformun yeterli olacağıdır. Bu sorunun cevabı üç veriye bağlıdır: platformda aynı anda kaç kişinin çalışacağı, yanlarında taşınacak malzemenin ağırlığı ve zeminin iç mekân mı dış mekân mı olduğu. Zemin düzlüğü de makaslı platformlarda manlifte göre daha kritiktir, çünkü geniş platform tabanı düzensiz zeminde dengesini daha kolay kaybedebilir. Bu sayfa, OSB'de ilk kez makaslı platform kiralayacak bir işletmenin doğru sınıfı seçmek için hangi bilgileri paylaşması gerektiğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Makaslı platform nedir, dikey erişim mantığı",
+                metin:
+                    "Çapraz kollu makas mekanizması, platformu daima yatay ve geniş tutarak sadece dikey yönde yükseltir; bu da üzerinde rahat hareket edilebilen, birden fazla kişinin çalışabildiği bir alan sağlar. İlk kiralamanızda çalışma noktasının tam olarak zeminin üzerinde mi olduğunu belirtmeniz, bu sınıfın yeterli olup olmadığını netleştirir.",
+            },
+            {
+                baslik: "Platform genişliği ve taşıma kapasitesi",
+                metin:
+                    "Modeller arasında platform genişliği ve izin verilen toplam yük (kişi + malzeme ağırlığı) değişir; aynı anda iki kişi ve birkaç parça malzeme taşıyacaksanız daha geniş platformlu bir model gerekir. İlk kiralamanızda kaç kişinin çalışacağını ve yanlarında taşınacak malzemenin yaklaşık ağırlığını belirtmeniz, kapasiteyi netleştirir.",
+            },
+            {
+                baslik: "Elektrikli iç mekân ve dizel dış mekân ayrımı",
+                metin:
+                    "Kapalı üretim alanlarında sessiz ve emisyonsuz çalışan elektrikli modeller tercih edilirken, açık saha veya düzensiz zeminlerde dizel/4x4 tahrikli modeller gerekir. İlk kiralamanızda işin iç mekânda mı dış mekânda mı yapılacağını belirtmeniz, doğru şaseyi netleştirir.",
+            },
+            {
+                baslik: "Zemin düzlüğü gerekliliği",
+                metin:
+                    "Makaslı platformun geniş tabanı, manlifte göre zemin düzlüğüne daha duyarlıdır; eğimli veya düzensiz bir zeminde platform dengesini kaybedebilir. İlk kiralamanızda zeminin düz beton mu yoksa hazırlanmamış toprak mı olduğunu belirtmeniz, ek önlem gerekip gerekmediğini netleştirir.",
+            },
+            {
+                baslik: "Çalışma yüksekliği hesap mantığı",
+                metin:
+                    "İlan edilen platform yüksekliği, gerçek çalışma yüksekliğinin altındadır; buna operatörün boyu ve kolunu kaldırdığında erişebileceği mesafe eklenir. İlk kiralamanızda erişmeniz gereken tavan veya nokta yüksekliğini net metre olarak belirtmeniz, platform yüksekliğinin doğru hesaplanmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre makaslı platform sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, OSB'deki tipik işlere göre ilk kiralamada tercih edilen makaslı platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Kişi/malzeme yükü", "Zemin", "Tipik sınıf"],
+                    satirlar: [
+                        ["Hangar tavan boyama", "1-2 kişi + boya ekipmanı", "Düz beton, iç mekân", "Elektrikli dar-erişim"],
+                        ["Üretim hattı üzeri montaj", "2 kişi + parça malzeme", "Düz beton, iç mekân", "Elektrikli geniş platform"],
+                        ["Depo raf/stok düzenleme", "1 kişi + hafif malzeme", "Düz beton, iç mekân", "Elektrikli kompakt"],
+                        ["Açık saha çatı altı bakım", "1-2 kişi + el aleti", "Sert zemin, dış mekân", "Dizel 4x4"],
+                        ["Çelik konstrüksiyon boyama", "2 kişi + boya/malzeme", "Hazırlanmış saha, dış mekân", "Dizel geniş platform"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift ile makaslı platform farkı",
+                paragraflar: [
+                    "Makaslı platform sadece dikey yükseldiği için, çalışma noktanız zeminin tam üzerindeyse ve önünüzde bir engel yoksa bu sınıf hem yeterli hem de manlifte göre daha ekonomiktir; ayrıca platform genişliği sayesinde birden fazla kişi ve malzemeyle rahat çalışılır.",
+                    "Erişmeniz gereken nokta bir boru hattının arkasında, bir makinenin yanında veya zeminden yatay olarak uzaktaysa, makaslı platformun dikey hareketi yetmez ve kollu bir manlift gerekir. İlk kiralamanızda çalışma noktasının tam olarak neresi olduğunu tarif etmeniz, hangi sınıfın gerektiğini netleştirir.",
+                ],
+            },
+            {
+                baslik: "İlk kiralamada zemin ve kapı ölçüsü paylaşımı",
+                paragraflar: [
+                    "Makaslı platform kiralamalarında en sık yaşanan sorun, platformun sahaya girdiği kapı veya koridorun beklenenden dar çıkmasıdır; geniş platformlu modellerin taban ölçüsü bazı standart kapılara sığmayabilir. İlk kiralamanızda kapı/koridor genişliğini ve zeminin düzlüğünü belirtmeniz, teslimat gününde sürpriz yaşanmasını önler.",
+                    "Zemin taşıma gücü de önemlidir; ağır bir platform, zayıf bir döşeme veya asma katta ek önlem gerektirebilir. Emin değilseniz, kesin teklif öncesinde zemin bilgisini paylaşmanız önerilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kaç kişilik bir makaslı platform kiralamalıyım?",
+                cevap:
+                    "Bu, aynı anda platformda çalışacak kişi sayısına ve yanlarında taşınacak malzemenin ağırlığına bağlıdır; her modelin izin verilen toplam yük sınırı farklıdır. İlk kiralamanızda kişi sayısını ve malzeme ağırlığını belirtmeniz, doğru genişlik ve kapasitedeki modeli netleştirir.",
+            },
+            {
+                soru: "Elektrikli mi dizel mi seçmeliyim?",
+                cevap:
+                    "Kapalı üretim alanında sessiz ve emisyonsuz çalışması gerektiği için elektrikli model tercih edilir; açık sahada veya düzensiz zeminde ise dizel/4x4 tahrikli model gerekir. İlk kiralamanızda işin iç mekânda mı dış mekânda mı yapılacağını belirtmeniz bu seçimi netleştirir.",
+            },
+            {
+                soru: "Zeminimiz tam olarak düz değil, makaslı platform çalışabilir mi?",
+                cevap:
+                    "Makaslı platform, manlifte göre zemin düzlüğüne daha duyarlıdır; hafif düzensizlik genelde sorun olmaz ama belirgin eğim veya çukur varsa ek önlem ya da farklı bir sınıf gerekebilir. İlk kiralamanızda zeminin durumunu (fotoğrafla birlikte) belirtmeniz, doğru kararı netleştirir.",
+            },
+            {
+                soru: "Platform yüksekliği ile çalışma yüksekliği aynı mı?",
+                cevap:
+                    "Hayır; ilan edilen platform yüksekliği, operatörün boyu ve kolunu kaldırdığında erişebileceği mesafe eklendiğinde ortaya çıkan gerçek çalışma yüksekliğinden daha düşüktür. İlk kiralamanızda erişmeniz gereken tavan veya nokta yüksekliğini net metre olarak belirtmeniz, doğru platform yüksekliğinin hesaplanmasını sağlar.",
+            },
+            {
+                soru: "Makaslı platform kapıdan geçer mi?",
+                cevap:
+                    "Geniş platformlu bazı modellerin taban ölçüsü standart kapılara sığmayabilir; bu nedenle ilk kiralamanızda kapı veya koridor genişliğini belirtmeniz önemlidir. Dar geçişler için daha kompakt taban ölçülü elektrikli modeller önerilir.",
+            },
+            {
+                soru: "Çalışma noktamız bir makinenin arkasında, makaslı platform yeterli mi?",
+                cevap:
+                    "Genelde yeterli olmaz; makaslı platform yalnızca dikey yükseldiği için önündeki bir engelin arkasına veya yanına erişemez. Böyle durumlarda kollu bir manlift gerekir. İlk kiralamanızda çalışma noktasının tam konumunu tarif etmeniz, doğru sınıfı netleştirir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun dikey erişim mekanizması, platform genişliği/kapasite ilişkisi ve zemin düzlüğü hassasiyeti EN 280 kapsamındaki genel makine sınıfı bilgisidir; saha ölçüsü ve konum rakamı uydurulmamıştır.",
+    },
 };

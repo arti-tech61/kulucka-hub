@@ -1891,4 +1891,208 @@ export const ESKISEHIRPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Arazi tipi (rough terrain) platformların eğim ve zemin sınırları EN 280 kapsamındaki genel makine özellikleridir; açık stok sahalarında malzeme etiketleme/izlenebilirlik denetimi genel kalite yönetim pratiğidir. Belirli tesis adı ve rakam uydurulmamıştır.",
     },
+
+    // ── YENİ: hizmet konuları — makaslı platform + manlift kiralama ────────
+    // Açı korunur: kalite denetimi/ISO-AS9100 tetkik turları merceğinden
+    // makaslı platform ve manlift'in denetim sahasındaki rolü anlatılır.
+    // Kardeşlerden ayrışma: manlifteskisehir.com (planlı duruş), eskisehirvincplatform.com
+    // (kırsal hat/direk), eskisehirmanlift.net (OSB üretim bakımı),
+    // eskisehirplatformkiralama.net (şehir içi mekân), eskisehirmanlift.xyz
+    // (ilk kez kiralayan rehberi), eskisehirplatform.org (FOD/gizlilik) — HİÇBİRİ
+    // burada tekrar edilmez; konu tetkik/denetim erişimi ve belge doğrulamadır.
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Eskişehir'de Kalite Denetimi İçin Makaslı Platform Kiralama",
+        giris:
+            "Havacılık-savunma tedarik zincirindeki tetkiklerin büyük bölümü dar bir koridorda, tek bir rafın ya da tek bir kayıt noktasının önünde geçer — ve bu noktalarda en çok tercih edilen makine sınıfı makaslı platformdur. Sepeti geniş, taban ayak izi dar, dikey doğrultuda kararlı bir yükselme sağlayan makaslı platform, denetçinin bir etiketi fotoğraflarken ya da bir kalibrasyon kaydını okurken sepette rahat durabilmesini mümkün kılar. Eskişehir OSB'deki tedarikçi tesislerinde koridorlar genellikle raf sistemleri arasında sıkışık geçer; bu da şase genişliği dar akülü makaslı modelleri öne çıkarır. Biz bu hizmeti kurarken önce tesisin koridor ölçüsünü ve tavan yüksekliğini soruyoruz, ardından tetkik takvimine göre teslim saatini netleştiriyoruz. Makaslı platformun dizel değil akülü olması, kapalı üretim ve depolama alanlarında emisyon kısıtı nedeniyle neredeyse her zaman zorunludur. Kiralama süresi genellikle yarım günden bir güne kadar değişir çünkü tetkikler kısa süreli ve programa bağlı yürütülür; ancak düzeltici faaliyet gerektiren durumlarda ikinci bir kısa sevkiyat aynı hafta içinde planlanabilir. Operatör tercihi de tesisin kendi kalite personelinin sepette bulunma ihtiyacına göre şekillenir — operatörümüz makineyi sabitlerken, sepetteki kişi genellikle denetçinin ya da kalite sorumlusunun kendisidir.",
+        maddeler: [
+            {
+                baslik: "Dar koridorda şase genişliği",
+                metin:
+                    "Raf sistemleri arasındaki koridor ölçüsü genellikle 1-1,2 metre bandındadır; bu da şase genişliği bu aralığa uyan kompakt akülü makaslı modelleri gerekli kılar. Teklif öncesi koridor genişliğini ve varsa raf başlarındaki çıkıntıları netleştiriyoruz.",
+            },
+            {
+                baslik: "Sepet kararlılığı ve mikro hareket",
+                metin:
+                    "Denetçinin bir etiketi net fotoğraflayabilmesi ya da bir kaydı okuyabilmesi için sepetin hedefe ulaştığında tam sabitlenmesi gerekir. Makaslı platformların dikey hareket mekanizması bu tür sabit duruşta teleskopik sınıfa göre daha az sallantı üretir.",
+            },
+            {
+                baslik: "Tavan yüksekliğine göre sınıf seçimi",
+                metin:
+                    "OSB'deki üretim ve depolama alanlarında tavan yüksekliği çoğunlukla 6-10 metre bandındadır; bu aralık standart akülü makaslı sınıfla karşılanır. Tavan 10 metreyi aşan nadir hallerde daha yüksek makaslı modele geçiyoruz, teleskopik sınıfa ihtiyaç duymadan.",
+            },
+            {
+                baslik: "Kapalı alanda güç tipi zorunluluğu",
+                metin:
+                    "Üretim ve depolama alanlarında egzoz emisyonu kalite yönetim sistemi kapsamında da istenmeyen bir risktir; dizel makine bu ortamlarda kullanılmıyor. Akülü modelin şarj durumu, tetkik süresi tahminine göre teslimat öncesi kontrol ediliyor.",
+            },
+            {
+                baslik: "Tetkik programına göre teslim saati",
+                metin:
+                    "Tetkik ajandası genellikle saat bazında ilan edilir; makinenin sahada beklemeden, denetçinin geleceği saatten kısa süre önce hazır olması hedeflenir. Programın değişmesi ihtimaline karşı esnek bir teslim penceresi bırakıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform sınıf seçimi — tetkik senaryosuna göre",
+                paragraflar: [
+                    "OSB'deki tedarikçi tesislerinde karşılaştığımız tetkik senaryolarını ve bunlara uygun makaslı platform sınıfını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Tavan/erişim yüksekliği", "Koridor durumu", "Uygun sınıf"],
+                    satirlar: [
+                        ["Raf üstü etiket okuma", "6-8 metre", "Dar (1-1,2 m)", "Kompakt akülü makaslı"],
+                        ["Kalibrasyon noktası erişimi", "8-10 metre", "Orta genişlik", "Standart akülü makaslı"],
+                        ["Yüksek depo tetkiki", "10-12 metre", "Geniş", "Büyük akülü makaslı"],
+                        ["Düzeltici faaliyet – acil", "6-8 metre", "Dar", "Kompakt akülü makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden teleskopik değil makaslı",
+                paragraflar: [
+                    "Tetkik işlerinde hareket mesafesi genellikle dikey ve kısa mesafelidir; makaslı platformun geniş sepeti, denetçinin not alma veya cihaz kullanma gibi iki elini birden kullanması gereken işlerde daha rahat çalışma alanı sağlar.",
+                    "Teleskopik sınıfı yalnızca engelin arkasına ulaşmak gibi yatay uzanım gerektiren nadir durumlarda öneriyoruz; standart bir raf önü ya da kayıt noktası erişiminde makaslı sınıf hem daha ekonomik hem daha kararlıdır.",
+                ],
+            },
+            {
+                baslik: "Belge ve teslim süreci",
+                paragraflar: [
+                    "Kalite yönetim sistemi işletilen tesislerde sahaya giren ekipmanın kaydı istenebileceği için periyodik kontrol raporunu ve operatör yeterlilik belgesini teslimattan önce iletiyoruz.",
+                    "Teslim anında bir iş kabul formu imzalanır; bu form makinenin sahada bulunduğu süre boyunca hangi alanda çalışacağını da tanımlar, böylece tesisin kendi güvenlik kaydı da tamamlanmış olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platformun sepeti raf aralarına sığar mı?",
+                cevap:
+                    "Şase genişliği dar akülü makaslı modellerde sepet genişliği de kompakttır; ancak sığma garantisini vermeden önce koridor ölçüsünü mutlaka soruyoruz. Raf başlarındaki çıkıntı veya palet taşması varsa bunu da hesaba katıyoruz, gerekirse daha dar bir modele geçiyoruz.",
+            },
+            {
+                soru: "Tetkik sırasında makine ne kadar süre sahada kalır?",
+                cevap:
+                    "Çoğu tetkik işi yarım gün ile bir gün arasında tamamlanır; bu süre tetkik programının kapsamına göre değişir. Programın uzaması ihtimaline karşı teklife makul bir esneklik payı dahil ediyoruz ve bunu baştan bildiriyoruz.",
+            },
+            {
+                soru: "Sepette hem denetçi hem kalite personelimiz aynı anda durabilir mi?",
+                cevap:
+                    "Standart makaslı platformların sepet kapasitesi genellikle iki kişiyi karşılar; ancak taşınan cihaz veya ekipman ağırlığı da bu kapasiteye dahildir. Sepette kaç kişi ve hangi ekipmanla çalışılacağını önceden bildirirseniz uygun modeli buna göre öneriyoruz.",
+            },
+            {
+                soru: "Akülü makinenin şarjı tetkik günü boyunca yeter mi?",
+                cevap:
+                    "Standart akülü makaslı platformlar tam şarjla bir vardiyalık çalışmayı genellikle karşılar; ancak sık duruş-kalkış içeren tetkik işlerinde tüketim değişebilir. Tetkikin tahmini süresini önceden bildirirseniz, gerekirse şarj durumu kontrollü bir makineyle teslim ediyoruz.",
+            },
+            {
+                soru: "Dizel makine talep edebilir miyiz, işimiz kısa sürecek?",
+                cevap:
+                    "Kapalı üretim ve depolama alanlarında egzoz emisyonu nedeniyle dizel makine önermiyoruz; süre kısa olsa da bu kısıt değişmiyor. Açık sahada geçen bir tetkik işiyse dizel seçenek değerlendirilebilir, bu durumda zemin ve erişim koşulunu ayrıca konuşuyoruz.",
+            },
+            {
+                soru: "Makinenin belgeleri tetkik dosyasına eklenebilir mi?",
+                cevap:
+                    "Evet, periyodik kontrol raporu ve operatör yeterlilik belgesini teslimattan önce elektronik olarak iletiyoruz; bu belgeler tesisin kendi tetkik dosyasına eklenebilir. Teslim günü imzalanan iş kabul formu da sahaya giren ekipmanın kaydını tamamlıyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformların şase genişliği/sepet kapasitesi ve akülü-dizel güç tipi ayrımı EN 280 kapsamındaki genel makine özellikleridir; kalite tetkiki iş akışı genel ISO/AS9100 pratiğidir. Firma adı ve rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Eskişehir'de Kalibrasyon ve Tetkik Noktalarına Manlift Kiralama",
+        giris:
+            "Manlift terimini biz burada teleskopik ya da eklemli bombalı platformlar için kullanıyoruz — yani sepetin yatay doğrultuda da uzanabildiği, engelin arkasına ya da köşeli bir noktaya erişebilen makine sınıfı için. Kalite denetimi bağlamında bu sınıfın devreye girdiği durumlar makaslı platforma göre daha azdır ama daha özeldir: bir kalibrasyon referans noktası çelik konstrüksiyonun arkasında kalmışsa, bir kamera ya da sensör tavana açılı monte edilmişse ya da tetkikçi iki farklı yükseklikteki noktayı tek seferde görmek istiyorsa, eklemli manlift'in bombasını bükerek erişmesi makaslı platformun dikey hareketinden daha uygun olur. Eskişehir OSB'deki havacılık-savunma tedarikçilerinde bu tür erişimler genellikle çatı altı kablo kanalı, yüksek montajlı test cihazı ya da tavan vinç rayı üzerindeki bir kontrol noktasıyla ilgilidir. Manlift'in eklemli kolu, sepeti dar bir boşluktan geçirip hedefin tam önüne getirebildiği için, sabit bir merdiven ya da geçici iskele kurmaktan daha hızlı ve daha az izlenebilirlik riski taşıyan bir çözümdür — tetkik sırasında geçici bir yapı kurmak, kendisi başlı başına bir uygunsuzluk kaynağı olabilir. Kiralama sürecinde önce erişilecek noktanın konumunu (yükseklik, yatay uzanım, engel durumu) netleştiriyor, ardından akülü eklemli mi yoksa akülü teleskopik mi gerektiğine karar veriyoruz; kapalı alan olduğu için dizel seçenek neredeyse hiç gündeme gelmiyor.",
+        maddeler: [
+            {
+                baslik: "Engel arkasındaki erişim noktaları",
+                metin:
+                    "Çelik konstrüksiyon, kablo kanalı ya da boru hattı gibi engellerin arkasında kalan bir kalibrasyon noktasına dikey hareketle ulaşmak mümkün olmayabilir. Eklemli manlift'in bombayı bükerek sepeti engelin ötesine taşıyabilmesi bu tür işlerde makaslı platforma göre belirgin avantaj sağlar.",
+            },
+            {
+                baslik: "Açılı monte cihaz ve sensörler",
+                metin:
+                    "Tavana açılı monte edilmiş bir kamera, sensör ya da test cihazına dik açıdan değil, cihazın baktığı açıdan yaklaşmak gerekebilir. Eklemli kol bu açıyı sağlayabilir; teleskopik sınıf ise daha uzun düz erişim gerektiğinde tercih edilir.",
+            },
+            {
+                baslik: "Tavan vinç rayı ve çatı altı kontrol noktaları",
+                metin:
+                    "Bazı tesislerde tavan vinç rayının periyodik kontrolü ya da çatı altı aydınlatma/havalandırma sistemi kalite denetiminin bir parçası olabilir. Bu erişimler genellikle 8-14 metre bandında ve rayın altına yatay yaklaşım gerektirir; teleskopik manlift bu mesafeyi daha hızlı kat eder.",
+            },
+            {
+                baslik: "Geçici iskele yerine hızlı erişim",
+                metin:
+                    "Tetkik öncesi geçici bir iskele ya da sabit merdiven kurmak, hem zaman alır hem de tesisin kendi geçici yapı onay sürecini gerektirebilir. Manlift bu adımı atlayarak, tetkik programının kısa penceresine daha kolay uyar.",
+            },
+            {
+                baslik: "Kapalı alanda akülü zorunluluğu",
+                metin:
+                    "Üretim ve depolama alanlarında dizel makine kullanılmıyor; akülü eklemli ya da akülü teleskopik modeller tercih ediliyor. Şarj kapasitesi, erişilecek noktaların sayısına göre teslimat öncesi planlanıyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Erişim tipine göre manlift sınıfı",
+                paragraflar: [
+                    "Tetkik ve kalibrasyon işlerinde karşılaştığımız erişim tiplerini ve bunlara uygun manlift sınıfını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim tipi", "Yatay uzanım ihtiyacı", "Yükseklik bandı", "Uygun sınıf"],
+                    satirlar: [
+                        ["Engel arkası kalibrasyon noktası", "Orta (bükülü kol)", "6-10 metre", "Akülü eklemli"],
+                        ["Açılı monte sensör/kamera", "Kısa, açılı", "6-9 metre", "Akülü eklemli"],
+                        ["Tavan vinç rayı kontrolü", "Uzun, düz", "8-14 metre", "Akülü teleskopik"],
+                        ["Çatı altı kablo kanalı", "Uzun, düz", "8-12 metre", "Akülü teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli mi teleskopik mi — karar noktası",
+                paragraflar: [
+                    "Erişim noktasına düz bir hatla ulaşılabiliyorsa ve mesafe uzunsa teleskopik sınıf daha hızlı ve daha kararlıdır. Erişim noktası bir engelin arkasında ya da açılı bir konumdaysa eklemli sınıfın bombayı bükebilmesi belirleyici olur.",
+                    "Karar aşamasında tesisin çizimini ya da fotoğrafını istiyoruz; bu, doğru sınıfı ilk seferde önermemizi ve gereksiz makine değişimini önlememizi sağlıyor.",
+                ],
+            },
+            {
+                baslik: "Tetkik dosyasına giren belgeler",
+                paragraflar: [
+                    "Manlift için de periyodik kontrol raporu ve operatör yeterlilik belgesi teslimattan önce iletilir; bu belgeler tesisin kalite dosyasına eklenebilir.",
+                    "Erişilen noktaların listesi ve çalışma süresi, teslim günü imzalanan iş kabul formunda kayıt altına alınır; bu kayıt, tetkikin kendi izlenebilirlik gerekliliğiyle örtüşür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kalibrasyon noktamız bir boru hattının arkasında, standart platform yetmiyor. Manlift çözer mi?",
+                cevap:
+                    "Genellikle evet — eklemli manlift'in bombayı bükerek sepeti engelin ötesine taşıyabilmesi tam olarak bu tür durumlar için uygundur. Erişim noktasının fotoğrafını ya da kısa bir krokisini önceden isteriz; bu, doğru kol uzunluğuna sahip modeli ilk seferde getirmemizi sağlar.",
+            },
+            {
+                soru: "Teleskopik mi eklemli mi seçmeliyiz, karar veremiyoruz?",
+                cevap:
+                    "Erişim noktasına düz bir hatla ve uzun mesafeden ulaşılıyorsa teleskopik, bir engelin arkasında ya da açılı bir konumdaysa eklemli sınıfı öneriyoruz. Kesin değilseniz konumu bize tarif edin ya da fotoğraflayın, biz sınıfı birlikte netleştirelim.",
+            },
+            {
+                soru: "Tavan vinç rayının kontrolü için ne kadar süre planlamalıyız?",
+                cevap:
+                    "Rayın uzunluğuna ve kontrol edilecek nokta sayısına bağlı olarak genellikle yarım gün yeterli olur, ancak her nokta ayrı bir duruş gerektiriyorsa süre uzayabilir. Kontrol edilecek nokta sayısını önceden bildirirseniz süreyi daha net planlayabiliriz.",
+            },
+            {
+                soru: "Geçici iskele kurmak yerine manlift kullanmak tetkik açısından sorun yaratır mı?",
+                cevap:
+                    "Aksine, çoğu durumda avantajlıdır — geçici bir yapı kurmak kendi başına bir uygunsuzluk ya da yabancı madde riski taşıyabilir, manlift ise sahaya kurulum gerektirmeden erişim sağlar. Yine de tesisin kendi prosedürü varsa, makinenin sahaya giriş kaydını iş kabul formuyla tamamlıyoruz.",
+            },
+            {
+                soru: "Açılı monte bir sensöre aynı açıdan yaklaşmamız gerekiyor, bu mümkün mü?",
+                cevap:
+                    "Eklemli manlift'in sepeti, kolun açısına bağlı olarak hedefe farklı yönlerden yaklaşabilir; bu da cihazın baktığı açıdan kontrol yapmayı mümkün kılar. Hangi açıdan yaklaşmanız gerektiğini önceden belirtirseniz operatörümüz sepeti o pozisyona göre konumlandırır.",
+            },
+            {
+                soru: "Akülü manlift kapalı alanda tüm gün çalışabilir mi?",
+                cevap:
+                    "Standart akülü eklemli ya da teleskopik modeller tam şarjla bir vardiyayı genellikle karşılar; sık pozisyon değişimi içeren işlerde tüketim artabilir. Erişilecek nokta sayısını önceden bildirirseniz şarj durumunu buna göre planlıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli/teleskopik manlift sınıflarının yatay uzanım ve erişim özellikleri EN 280 kapsamındaki genel makine tanımlarıdır; kalite tetkiki ve kalibrasyon iş akışı genel ISO/AS9100 pratiğidir. Firma adı ve rakam uydurulmamıştır.",
+    },
 };

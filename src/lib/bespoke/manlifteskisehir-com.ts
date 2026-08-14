@@ -2205,4 +2205,198 @@ export const MANLIFTESKISEHIR_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Arazi tipi platformların zemin ve eğim sınırları üretici teknik özellikleridir; mevsime bağlı zemin değerlendirmesi ve rüzgâr limiti sektör geneli saha güvenlik pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Zirve Duruş Haftalarında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, bölgedeki duruş kalemlerinin en çok tekrar edeni için kullandığımız makine sınıfıdır: sabit dikey kalkış, geniş sepet tabanı ve beton zeminde yüksek verim. Sorun makinenin kendisinde değil, ne zaman istendiğindedir. Eskişehir OSB ile Bozüyük hattındaki tesislerin bakım takvimi aynı haftalara yığıldığında, elimizdeki makaslı filo aynı anda onlarca teklife cevap vermek zorunda kalıyor — ve bu, sıradan bir kiralama sorusunu bir sıra sorununa çeviriyor. Bu sayfada anlattığımız, tam olarak bu yığılmanın makaslı platform tarafında nasıl yönetildiğidir: hangi hafta hangi ölçü sınıfının önce dolduğu, bir tesisin zirve haftada kaç makaslı platforma gerçekten ihtiyacı olduğunu nasıl hesapladığımız, akülü ile dizel arasındaki tercihin duruş takviminde neden erken karara bağlanması gerektiği ve iki şehir arasında aynı sınıf makinenin nasıl kaydırıldığı. Erişim yüksekliği ve zemin tipi elbette makine seçimini belirler; ama zirve haftada asıl belirleyici olan, o sınıftaki makinenin o tarihte müsait olup olmadığıdır. Biz de teklifi bu sırayla veriyoruz: önce tarih ve doluluk, sonra ölçü ve model.",
+        maddeler: [
+            {
+                baslik: "Zirve haftada ölçü sınıfına göre doluluk sırası",
+                metin:
+                    "Makaslı platform filomuzda en çok istenen sınıf 10-12 metre bandıdır, çünkü bölgedeki fabrika ve depo tavanlarının büyük bölümü bu aralığa denk gelir. Zirve haftalarda bu bant ilk dolan sınıf oluyor; 14 metre üzeri ya da dar koridor tipi modeller nispeten daha geç doluyor çünkü talep dağılımı daha dar. Bir tesis erken bağlanmazsa en çok istenen bandın dolu çıkma riski en yüksek olan da budur — bu yüzden teklif verirken önce o haftanın hangi bandının ne durumda olduğunu söylüyoruz.",
+            },
+            {
+                baslik: "Akülü mü dizel mi — kararın zamanlaması",
+                metin:
+                    "İç mekân kalemlerinde akülü, açık saha ya da dış cephe kalemlerinde dizel makaslı tercih ediliyor; bu seçim teknik olarak nettir ama zirve haftada pratik bir sonucu var. Akülü filomuz dizele göre daha küçük olduğu için iç mekân talebi yığıldığında akülü sınıf daha erken tükeniyor. Bu nedenle iç mekân işi olan tesislere, tarih netleştiği an makine tipini de birlikte bağlamalarını öneriyoruz; 'tarihi ayırtalım, tipini sonra konuşuruz' yaklaşımı zirve haftada makine tipini şansa bırakıyor.",
+            },
+            {
+                baslik: "Bir tesisin gerçek makaslı platform ihtiyacı kaç adet",
+                metin:
+                    "Duruş talebi geldiğinde ilk sorduğumuz şey makine sayısı değil, kalem listesidir. Çoğu tesis, güvenli tarafta kalmak için olduğundan fazla makine talep ediyor; oysa kalemleri saat bazlı bir sıraya dizdiğimizde çoğunlukla ihtiyaç sanılandan az çıkıyor. Bakım şefiyle birlikte kalem listesini gözden geçirip gerçek eşzamanlı ihtiyacı çıkarıyoruz — bu hem tesise gereksiz makine bedeli ödetmiyor hem de filomuzdaki o haftanın kapasitesini başka bir tesise açık bırakabiliyor.",
+            },
+            {
+                baslik: "İki şehir arasında makaslı platform kaydırma",
+                metin:
+                    "Eskişehir OSB'deki zirve hafta kapandığında, aynı sınıf makaslı platformların bir kısmı Bozüyük hattındaki takip eden duruşlara kaydırılıyor. Bu kaydırma önceden planlandığında iki tarafın da takvimine yazılıyor ve makine boşta beklemeden bir sonraki işe geçiyor; plansız kalan bir kaydırma ise nakliye süresi kadar bir boşluk yaratabiliyor. Bu yüzden iki hattaki tarihleri birlikte gördüğümüz haftalarda kaydırma güzergâhını baştan kuruyoruz.",
+            },
+            {
+                baslik: "Operatörlü kiralamada zirve hafta planlaması",
+                metin:
+                    "Operatörlü makaslı platform talebi zirve haftalarda makinenin kendisi kadar operatör kapasitesini de zorluyor; bir operatör gün içinde tek bir tesise bağlı kalıyor. Bu nedenle operatörlü talebi olan tesislerden, vardiya saatlerini mümkün olduğunca erken netleştirmelerini istiyoruz — aksi hâlde zirve haftada uygun makine bulunsa bile uygun operatör saati bulunamayabiliyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ölçü sınıfına göre zirve hafta doluluk eğilimi",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, bölgedeki zirve duruş haftalarında makaslı platform sınıflarının hangi sırayla dolduğunu ve rezervasyonun ne zaman yapılması gerektiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Ölçü sınıfı", "Zirve haftada doluluk", "Önerilen bağlama süresi", "Tipik kullanım"],
+                    satirlar: [
+                        ["8-10 m akülü", "Çok yüksek", "6-8 hafta önce", "İç mekân, hafif zemin"],
+                        ["10-12 m dizel/akülü", "En yüksek", "8-10 hafta önce", "Fabrika/depo genel bakım"],
+                        ["12-14 m dizel", "Orta-yüksek", "6 hafta önce", "Yüksek tavan hatları"],
+                        ["14 m üzeri", "Orta", "4-6 hafta önce", "Nadir, özel kalem"],
+                        ["Dar koridor tipi", "Değişken", "4-6 hafta önce", "Raf arası, dar geçit"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kalem listesinden makine sayısına geçiş",
+                paragraflar: [
+                    "Bir tesisten gelen ilk talep genellikle 'üç makaslı platform lazım' gibi hazır bir sayıyla geliyor. Bu sayıyı olduğu gibi kabul etmek yerine, kalem listesini saat dilimlerine dağıtıp aynı anda kaç makinenin gerçekten meşgul olacağını hesaplıyoruz. Çoğu durumda gün içinde farklı bölümlerin farklı saatlerde ihtiyaç duyduğu ortaya çıkıyor ve bu, aynı makinenin sıralı kullanımıyla karşılanabiliyor.",
+                    "Bu hesap zirve haftada iki yönlü fayda sağlıyor: tesis gereksiz makine bedeli ödemiyor, biz de o haftanın kapasitesinden artan kısmı başka bir tesisin talebine açabiliyoruz. Kalem listesi paylaşılmadan verilen makine sayısı tahminleri bu yüzden bizim tarafımızda her zaman bir ön teklif olarak kalıyor, kesin teklif değil.",
+                ],
+            },
+            {
+                baslik: "Erken bağlamanın makaslı platform tarafında karşılığı",
+                paragraflar: [
+                    "10-12 metre bandı bölgedeki en çok istenen sınıf olduğu için, bu bandı zirve haftada bağlamak diğer sınıflara göre daha erken bir hareket gerektiriyor. Sekiz-on hafta öncesinden gelen bir talep hem ölçü sınıfını hem tarihini birlikte netleştirebiliyor; dört hafta kala gelen bir talep ise çoğu zaman ölçü sınıfında pazarlık yapmak zorunda kalıyor çünkü tercih edilen bant zaten dolu oluyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zirve haftada 10-12 metre sınıfı makaslı platform bulamama riski var mı?",
+                cevap:
+                    "Evet, ve bunu saklamıyoruz — bu bant filomuzda en çok istenen sınıf olduğu için zirve haftalarda ilk dolan da o oluyor. Bu riski azaltmanın tek yolu erken bağlamak; sekiz-on hafta öncesinden gelen bir talep bu bantta neredeyse her zaman karşılanabiliyor, dört hafta kala gelen bir talep ise alternatif bir sınıfa (örneğin 12-14 metre dizel) yönlendirilmek zorunda kalabiliyor. Duruş tarihiniz netleştiği an bize ulaşmanızı öneriyoruz.",
+            },
+            {
+                soru: "Akülü mü dizel mi karar veremiyoruz; bu kararı sonraya bırakabilir miyiz?",
+                cevap:
+                    "Bırakabilirsiniz ama zirve haftada bir bedeli oluyor — akülü filomuz dizele göre daha küçük olduğu için iç mekân talebi yığıldığında akülü sınıf daha erken tükeniyor. Kararı tarihle birlikte vermenizi öneririz; iş açık sahada mı kapalı alanda mı geçecek, zemin ne durumda, bu iki soru genellikle kararı netleştiriyor. Emin değilseniz keşif sırasında birlikte karar verebiliriz, ama bunu mümkünse rezervasyon aşamasında yapmak zirve haftada makine tipini güvence altına alıyor.",
+            },
+            {
+                soru: "Üç makaslı platform talep ettik ama siz iki öneriyorsunuz; neden?",
+                cevap:
+                    "Kalem listenizi saat dilimlerine dağıttığımızda genellikle aynı anda ihtiyaç duyulan makine sayısı ilk tahminden az çıkıyor. Bu bir pazarlık taktiği değil, gerçek bir hesap — gün içinde farklı bölümler farklı saatlerde makineyi kullanıyorsa aynı makine sıralı olarak ikisine de yetebiliyor. İsterseniz üçüncü makineyi yedek olarak da tutabiliriz, ama bunun bir maliyeti var ve genellikle gerekmediğini görüyoruz. Kalem listesini paylaşırsanız hesabı birlikte netleştirebiliriz.",
+            },
+            {
+                soru: "Bozüyük'teki duruşumuz Eskişehir'dekinden bir hafta sonra; aynı makineyi kullanabilir miyiz?",
+                cevap:
+                    "Genellikle evet, bu tam olarak bizim rutin yaptığımız bir kaydırma. Eskişehir OSB'deki zirve hafta kapandığında aynı sınıf makaslı platformların bir kısmını Bozüyük hattındaki takip eden duruşlara kaydırıyoruz. Bunun sorunsuz işlemesi için iki tarihi baştan birlikte görmemiz gerekiyor; plansız bırakılan bir kaydırma nakliye süresi kadar bir boşluk yaratabiliyor. İki tarihi de bize verirseniz kaydırma güzergâhını önceden kurarız.",
+            },
+            {
+                soru: "Operatörlü makaslı platform istiyoruz; zirve haftada operatör bulmak makineden daha mı zor?",
+                cevap:
+                    "Bazen evet. Zirve haftalarda makine kadar operatör kapasitesi de zorlanıyor çünkü bir operatör gün içinde tek bir tesise bağlı kalıyor. Uygun makine bulunsa bile uygun operatör vardiyası bulunamayabiliyor. Bu yüzden operatörlü talebi olan tesislerden vardiya saatlerini mümkün olduğunca erken netleştirmelerini istiyoruz; saat bilgisi ne kadar erken gelirse operatör planlaması o kadar rahat kuruluyor.",
+            },
+            {
+                soru: "Dar koridor tipi makaslı platform her zaman stokta mı?",
+                cevap:
+                    "Bu sınıf filomuzda daha az sayıda bulunuyor çünkü talebi diğer bantlara göre daha seyrek ve daha spesifik — genellikle raf arası ya da dar geçit gerektiren işlerde isteniyor. Zirve haftada bu sınıfın doluluğu değişken oluyor; bazı haftalarda rahatça bulunabilirken bazı haftalarda erken bağlanması gerekiyor. İhtiyacınız bu sınıfsa, koridor genişliği bilgisiyle birlikte erken ulaşmanızı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform ölçü sınıfları ve akülü/dizel kullanım ayrımı üretici teknik özellikleridir; zirve hafta doluluk sıralaması ve kalem listesi hesabı bölgedeki gözlemlenen talep pratiğidir. Tesis adı ve rakam kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Duruş Döneminde Manlift Kiralama — Eskişehir-Bozüyük Hattı",
+        giris:
+            "Manlift, bu sitede tek bir makine sınıfını değil, bölgedeki duruş dönemlerinin tamamını kapsayan şemsiye terimi karşılıyor — makaslı, eklemli, akülü, dizel, arazi tipi; hangi sınıf olursa olsun soru hep aynı yerden başlıyor: hangi tarihte, kaç makine, hangi tesiste. Eskişehir OSB ile Bozüyük hattındaki tesislerin planlı duruşları yılın belirli haftalarına toplandığı için, manlift kiralama burada bir 'makine bulma' işi değil bir 'dönem yönetme' işi hâline geliyor. Bir tesisin talebi geldiğinde önce o haftanın bölgedeki genel doluluk durumuna bakıyoruz, sonra o tesisin kendi kalem listesine göre hangi sınıfın uygun olduğuna karar veriyoruz. Bu sayfada anlattığımız, manlift kiralamayı dönem ölçeğinde nasıl kurduğumuzdur: bölgedeki tüm zirve haftaların yıllık haritası, bir tesisin duruş tarihini bağlamadan önce sorması gereken sorular, farklı sınıfların aynı duruş penceresinde nasıl bir arada planlandığı ve zirve hafta dışında kalan dönemlerde neden daha esnek çalışabildiğimiz. Erişim yüksekliği, zemin tipi ve iç/dış mekân ayrımı elbette sınıf seçimini belirliyor; ama bu sayfanın odağı, o seçimin hangi takvim üzerinde yapıldığıdır.",
+        maddeler: [
+            {
+                baslik: "Manlift bir şemsiye terim — sınıf seçimi ikinci adım",
+                metin:
+                    "Bir tesis bize 'manlift lazım' dediğinde bu cümle tek başına yeterli değil; makaslı mı eklemli mi, akülü mü dizel mi, iç mekân mı açık saha mı olduğu netleşmeden doğru teklifi veremiyoruz. Bu yüzden ilk görüşmede sınıf tartışmasını erteleyip önce tarihi ve kalem sayısını konuşuyoruz — çünkü zirve haftada asıl darboğaz sınıf değil, o tarihte müsait olan toplam manlift kapasitesi. Sınıf seçimi tarih ve kalem netleştikten sonra ikinci adımda konuşuluyor.",
+            },
+            {
+                baslik: "Bölgenin yıllık zirve hafta haritası",
+                metin:
+                    "Eskişehir OSB ve Bozüyük hattındaki duruşlar resmî tatil blokları, yaz kapanışı ve dönem sonu envanter haftaları etrafında toplanıyor; bu haritayı yıllar içinde gözlemleyerek çıkardık ve tesislerle paylaşıyoruz. Haritanın amacı 'bu haftalar dolu, gelmeyin' demek değil; tesisin kendi duruşunu mümkünse zirve dışı bir haftaya kaydırıp kaydıramayacağını değerlendirmesine yardımcı olmak. Kaydırma her zaman mümkün olmuyor ama mümkün olduğunda hem tesis daha rahat bir teklif alıyor hem bölgedeki toplam yük dağılıyor.",
+            },
+            {
+                baslik: "Aynı duruş penceresinde farklı sınıfların bir arada planlanması",
+                metin:
+                    "Tek bir duruş penceresinde genellikle birden fazla manlift sınıfı aynı anda çalışıyor — iç mekânda akülü makaslı, açık sahada dizel arazi tipi, dar geçitte eklemli boom. Bunları ayrı ayrı değil tek bir plan üzerinde koordine ediyoruz; hangi makinenin hangi saatte, hangi bölgede olacağı duruş planına birlikte yazılıyor. Bu koordinasyon olmadan aynı sahada birden fazla makine güzergâh çakışması yaşayabiliyor.",
+            },
+            {
+                baslik: "Zirve dışı dönemde esneklik",
+                metin:
+                    "Yılın zirve hafta olmayan dönemlerinde manlift kiralama çok daha esnek çalışıyor — tarih değişikliği, süre uzatma, sınıf değiştirme gibi taleplere aynı gün cevap verebiliyoruz. Bu esneklik zirve haftada aynı ölçüde mümkün olmuyor çünkü kapasite baştan planlanmış oluyor. Tesislere, ihtiyaçları zirve haftaya denk gelmiyorsa bunu bir avantaj olarak görmelerini öneriyoruz; aynı işi zirve dışı bir tarihe kaydırmak hem daha esnek planlama hem genellikle daha erken teslim anlamına geliyor.",
+            },
+            {
+                baslik: "İki şehir arasında ortak kapasite havuzu",
+                metin:
+                    "Eskişehir OSB ve Bozüyük hattını ayrı ayrı değil tek bir kapasite havuzu olarak yönetiyoruz. Bir hatta zirve hafta yaşanırken diğer hat daha sakin bir dönemdeyse, manlift bu iki hat arasında kaydırılabiliyor. Bu ortak havuz sayesinde tek bir şehrin filosuyla sınırlı kalmıyoruz; iki şehrin talebini birlikte gördüğümüz için toplam kapasiteyi daha verimli dağıtabiliyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Duruş penceresinde manlift planlama akışı",
+                paragraflar: [
+                    "Aşağıdaki çerçeve, bir duruş talebinin ilk temastan makine sahaya çıkana kadar hangi adımlardan geçtiğini ve her adımda neyin netleştiğini gösterir.",
+                ],
+                tablo: {
+                    basliklar: ["Adım", "Ne netleşir", "Zamanlama", "Sorumlu taraf"],
+                    satirlar: [
+                        ["İlk temas", "Tarih ve genel kalem sayısı", "Duruştan 8-12 hafta önce (zirve)", "Tesis"],
+                        ["Doluluk kontrolü", "O haftanın bölgedeki genel yükü", "Aynı gün", "Bizim tarafımız"],
+                        ["Sınıf ve kalem eşleştirme", "Hangi kalem hangi manlift sınıfı", "1-2 gün içinde", "Ortak"],
+                        ["Saat bazlı slot planı", "Duruş haftası içi program", "Duruştan 1-2 hafta önce", "Ortak"],
+                        ["Devreye alma kuyruğu", "Duruş sonrası kalan kalemler", "Duruş bitiminde", "Ortak"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zirve haftayı kaydırmanın mümkün olduğu durumlar",
+                paragraflar: [
+                    "Bazı tesislerin duruş tarihi üretim programına sıkı sıkıya bağlıdır ve kaydırılamaz; bazılarında ise belirli bir esneklik payı vardır. İkinci gruptaki tesislere, zirve haftadan bir-iki hafta uzaklaşmanın hem makine bulma kolaylığı hem genellikle daha öngörülebilir bir teklif anlamına geldiğini söylüyoruz.",
+                    "Bu kaydırma önerisini her zaman yapmıyoruz — tesisin kendi üretim takvimini bilmediğimiz sürece bu bir tahminden öteye geçmiyor. Kaydırma konusunu ancak tesis bize kendi esneklik payını söylediğinde somut bir öneriye dönüştürebiliyoruz.",
+                ],
+            },
+            {
+                baslik: "İki hat arasındaki kapasite kaydırmasının sınırları",
+                paragraflar: [
+                    "Eskişehir OSB ve Bozüyük hattı arasındaki manlift kaydırması nakliye süresi gerektiriyor; bu nedenle aynı gün içinde iki hat arasında anlık kaydırma yapmıyoruz, planı en az birkaç gün öncesinden kuruyoruz. İki hattaki tarihler aynı haftaya denk geldiğinde kaydırma imkânı daralıyor çünkü her iki hat da aynı anda kapasite istiyor; bu durumda öncelik genellikle önce bağlanan tesise veriliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "'Manlift' derken tam olarak hangi makineyi kastediyorsunuz?",
+                cevap:
+                    "Manlift bizim için tek bir makine değil, yükseklikte çalışma amacıyla kullanılan tüm makine sınıflarını kapsayan genel bir terim — makaslı, eklemli, akülü, dizel, arazi tipi hepsi bu şemsiyenin altında. İlk görüşmede hangi sınıfı kastettiğinizi netleştirmiyoruz çünkü genellikle siz de henüz bilmiyorsunuzdur; önce işin ne olduğunu (yükseklik, zemin, iç/dış mekân) konuşup sınıfı birlikte belirliyoruz.",
+            },
+            {
+                soru: "Duruş tarihimiz henüz kesinleşmedi ama yaklaşık dönemi biliyoruz; şimdi mi iletişime geçmeliyiz?",
+                cevap:
+                    "Evet, özellikle o dönem zirve haftalara denk geliyorsa. Kesin tarihi bilmeseniz bile yaklaşık dönemi paylaşırsanız o haftaların bölgedeki genel doluluk durumunu size söyleyebiliriz; gerekirse tarih netleşene kadar bir opsiyon da uygulayabiliriz. Zirve dışı bir dönemse aceleye gerek yok, son anda gelen taleplere de genellikle cevap verebiliyoruz.",
+            },
+            {
+                soru: "Aynı duruş penceresinde hem makaslı hem eklemli manlift gerekiyor; ayrı ayrı mı planlanır?",
+                cevap:
+                    "Hayır, tek bir plan üzerinde birlikte koordine ediyoruz. Hangi makinenin hangi saatte hangi bölgede olacağı duruş planına baştan yazılır; bu sayede aynı sahada birden fazla makine arasında güzergâh çakışması yaşanmıyor. Kalem listenizi paylaşırsanız hangi kalemin hangi sınıfa denk geldiğini birlikte belirleyip tek bir program çıkarırız.",
+            },
+            {
+                soru: "Duruşumuzu zirve haftadan bir hafta uzaklaştırabiliriz; bunun bir faydası olur mu?",
+                cevap:
+                    "Genellikle evet. Zirve haftadan bir-iki hafta uzaklaşmak hem istediğiniz manlift sınıfını bulma kolaylığını artırıyor hem çoğunlukla daha öngörülebilir bir teklif anlamına geliyor, çünkü o haftada kapasite üzerindeki baskı daha az oluyor. Bu öneriyi ancak üretim takviminizde gerçekten bir esneklik payı varsa somut bir teklife dönüştürebiliyoruz; esneklik yoksa zirve haftada da elimizden geleni yapıyoruz.",
+            },
+            {
+                soru: "Eskişehir'deki duruşumuz doldu diye Bozüyük'ten mi makine geliyor, yoksa tersi de olur mu?",
+                cevap:
+                    "İki yönde de olabiliyor; iki hattı ayrı değil tek bir kapasite havuzu olarak yönetiyoruz. Hangi yönde kaydırma yapılacağı, o hafta hangi hattın daha az yüklü olduğuna bağlı. Tek istisna, iki hattın aynı haftada aynı anda zirve yaşadığı durumlar — bu durumda kaydırma imkânı daralıyor ve öncelik genellikle önce bağlanan tesise veriliyor.",
+            },
+            {
+                soru: "Manlift kiralamada asgari süre var mı, tek günlük duruşlar için de uygun mu?",
+                cevap:
+                    "Tek günlük duruşlar için de kiralama yapıyoruz; süre sınırı işin kendisine göre değil, o haftanın kapasite durumuna göre belirleniyor. Zirve dışı bir haftada tek günlük bir talebi rahatlıkla karşılayabiliyoruz. Zirve haftada ise tek günlük bir talep bile o haftanın toplam programına eklendiği için, mümkünse yine erken bildirilmesini öneriyoruz — kısa süreli olması rezervasyon zamanlamasının önemini azaltmıyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift sınıflarının (makaslı, eklemli, akülü, dizel, arazi tipi) genel terim niteliği üretici/sektör sınıflandırmasıdır; bölgedeki zirve hafta dağılımı ve iki hat arası kapasite havuzu yönetimi bu dosyanın önceki sayfalarında da anlatılan gözlemlenen bölgesel pratiktir. Tesis adı ve rakam kullanılmamıştır.",
+    },
 };

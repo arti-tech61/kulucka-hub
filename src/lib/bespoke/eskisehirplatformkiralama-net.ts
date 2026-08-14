@@ -1948,4 +1948,218 @@ export const ESKISEHIRPLATFORMKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Yapım/tadilat aşamasındaki bina içi zemin çeşitliliği genel inşaat bilgisidir. Bu sayfa bilinçli olarak dar kapsamlıdır — açık arazi/kırsal zor zemin bilgisi bu domainin konusu değildir ve uydurulmamıştır.",
     },
+
+    // ── YENİ ODAK KONUSU: MAKASLI PLATFORM KİRALAMA ─────────────────────
+    // Bu domainin açısı (kent içi iç mekân: mağaza/otel/kamu binası) makaslı
+    // platform sınıfıyla doğal örtüşür — düz zeminli koridor/salon içinde
+    // dikey erişim, dar geçitte manevra, sepet tabanının geniş olması.
+    // Kardeşlerden ayrım: manlifteskisehir.com (Bozüyük/duruş dönemi),
+    // eskisehirvincplatform.com (kırsal enerji hattı), eskisehirmanlift.net
+    // (OSB üretim hattı), eskisehirmanlift.xyz (OSB'de ilk kez kiralama),
+    // eskisehirplatform.net/.org (havacılık tedarik zinciri/FOD) — bu sayfa
+    // bunların hiçbirine değinmez, yalnızca iç mekân ticaret/kamu binası
+    // bağlamında makaslı platformu ele alır.
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Mağaza, Otel ve Kamu Binası İçinde Makaslı Platform Kiralama",
+        giris:
+            "Eskişehir'in şehir merkezindeki mağaza, otel ve kamu binalarında tavan ve vitrin seviyesine erişim gerektiğinde, bina içi çalışma koşullarına en uygun ekipman neredeyse her zaman makaslı platformdur — düz zeminli, dar koridorlu ve tavanı sabit yükseklikte olan bir hacimde, sepeti dikey olarak yukarı-aşağı hareket eden bu makine, eklemli bir bomun sağladığı yatay erişim esnekliğine ihtiyaç duymayan işlerde hem daha güvenli hem daha hızlı bir çözümdür. AVM'lerin iç avlu tavan aydınlatmaları, otel lobilerinin yüksek tavan işleri, belediye ve üniversite binalarının fuaye aydınlatma değişimleri, mağaza vitrin tavanı ve raf üstü işleri — bu işlerin ortak özelliği, makinenin çalışacağı noktanın tam altından dikey olarak erişilebilir olması ve zeminin düz, sabit bir beton, seramik veya parke yüzey olmasıdır. Makaslı platformun geniş sepet tabanı, aynı anda iki kişinin ve malzemenin çalışmasına imkân tanır; bu da özellikle aydınlatma değişimi gibi iki kişi gerektiren işlerde eklemli platforma göre belirgin bir avantajdır. Bu sayfa, iç mekân bağlamında makaslı platform kiralarken karşılaşacağınız beş temel konuyu — sınıf seçimi, kapı-koridor geçişi, zemin yük dağılımı, dikey erişim sınırı ve sepet kapasitesi — ayrıntılı olarak ele alır; şirketimizin öncelikli hizmet alanı olan makaslı ve manlift kiralamanın iç mekân tarafındaki karşılığı budur.",
+        maddeler: [
+            {
+                baslik: "Elektrikli akülü sınıfın zorunluluğu",
+                metin:
+                    "Kapalı bir mağaza, otel katı veya kamu binası salonunda çalışacak her makaslı platform elektrikli akülü tahrikli olmalıdır; dizel makaslı platform neredeyse hiç üretilmez çünkü zaten sınıfın tasarım amacı düz zeminli iç mekân ve kapalı sahadır. Akülü tahrik ayrıca sessiz çalışması nedeniyle mesai dışı pencerelerde gürültü şikâyeti riskini de azaltır.",
+            },
+            {
+                baslik: "Kapı genişliği ve dar koridor geçişi",
+                metin:
+                    "Makaslı platformun şase genişliği modele göre değişir; standart dar şaseli modeller çoğu tek kanat kapıdan (yaklaşık 80-90 cm) geçebilirken, geniş sepetli modeller çift kanat kapı veya yük kapısı gerektirir. Bina içindeki dar bir koridordan veya standart bir ofis kapısından geçiş planlanıyorsa, kapı ve koridor ölçülerini talep aşamasında netleştirmemiz, doğru şase genişliğindeki modeli seçmemizi sağlar.",
+            },
+            {
+                baslik: "Zemin yük dağılımı ve nokta yükü",
+                metin:
+                    "Makaslı platform, dört tekerlek üzerinden zemine noktasal yük aktarır; bu yük standart betonarme döşeme için sorun oluşturmaz ama asma tavan altı, yükseltilmiş teknik döşeme (raised floor) veya eski bir bina zemininde önceden yük kapasitesi kontrolü gerekebilir. Ağır sepetli veya büyük yükseklikli modellerde bu kontrol daha da önem kazanır; bina yönetiminden zemin yük kapasitesi bilgisini talep aşamasında almanız süreci hızlandırır.",
+            },
+            {
+                baslik: "Dikey erişimin sınırı: yatay uzanım yok",
+                metin:
+                    "Makaslı platformun sepeti yalnızca dikey hareket eder, eklemli bir bom gibi öne veya yana uzanmaz; bu yüzden çalışma noktası makinenin tam üzerinde olmalıdır. Bir vitrin tavanının kenarında veya bir merdiven boşluğunun üzerinde çalışılacaksa, makinenin o noktaya tam olarak konumlandırılabilmesi (önünde engel olmaması) gerekir. Eğik bir tavan detayı veya bir mobilya/rafın arkasında kalan bir nokta söz konusuysa, eklemli platform daha uygun olabilir; bu ayrımı talebinizi dinlediğimizde birlikte netleştiririz.",
+            },
+            {
+                baslik: "Sepet kapasitesi ve iki kişilik iş planlaması",
+                metin:
+                    "Standart bir makaslı platform sepeti, iki kişi ve malzemesini taşıyacak (genellikle 230-450 kg bandında) kapasiteye sahiptir; bu, aydınlatma armatürü değişimi gibi bir kişinin monte ettiği bir kişinin malzeme tuttuğu işlerde tek seferde tamamlama imkânı sağlar. Kapasite aşımı güvenlik ihlali olduğundan, sepette taşınacak malzeme ağırlığını (özellikle uzun aydınlatma rayı gibi hacimli parçalarda) önceden bildirmeniz doğru modeli seçmemize yardımcı olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sınıf seçimi: makaslı mı, eklemli mi?",
+                paragraflar: [
+                    "İç mekân işlerinde iki sınıf da kullanılabilir ama seçim, çalışma noktasının makinenin altında mı yoksa bir engelin arkasında mı olduğuna bağlıdır. Aşağıdaki tablo tipik iç mekân senaryolarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Uygun sınıf", "Neden"],
+                    satirlar: [
+                        ["Düz tavan altı aydınlatma (koridor, salon)", "Makaslı platform", "Dikey erişim yeterli, geniş sepet tabanı avantaj"],
+                        ["Vitrin tavanı, önü açık", "Makaslı platform", "Makine tam altına konumlanabilir"],
+                        ["Merdiven boşluğu kenarı veya raf arkası nokta", "Eklemli platform", "Yatay uzanım (bom) gerekir"],
+                        ["Atrium'da (iç avlu) yüksek ve engelli nokta", "Eklemli platform", "Engel etrafından erişim"],
+                        ["İki kişilik uzun süreli montaj işi", "Makaslı platform", "Geniş sepet, iki kişi + malzeme"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar geçitli binalarda model seçimi",
+                paragraflar: [
+                    "Eskişehir'in şehir merkezindeki eski yapı stoku ve kamu binalarının bir kısmı dar kapı ve koridor ölçülerine sahiptir; bu binalarda standart geniş şaseli bir makaslı platform yerine dar şaseli (yaklaşık 76-81 cm genişliğinde) modeller tercih edilir. Dar şaseli modellerin çalışma yüksekliği ve sepet kapasitesi standart modellere göre biraz daha sınırlıdır, bu yüzden işin gerektirdiği yükseklik ile geçiş genişliği arasında bir denge kurulur.",
+                    "Yeni yapılmış AVM ve oteller genellikle standart yük asansörü ve geniş koridor ölçüleriyle inşa edildiğinden bu binalarda şase genişliği nadiren kısıtlayıcı olur; kısıt daha çok eski yapı stokunda ve bazı kamu binalarında ortaya çıkar.",
+                ],
+            },
+            {
+                baslik: "Bu sayfanın kapsamadığı işler",
+                paragraflar: [
+                    "Bu sayfa yalnızca bina içi düz zeminli makaslı platform işlerini kapsar; kırsal bir enerji hattında direk dikimi, bir OSB fabrikasındaki üretim hattı bakımı veya havacılık-savunma tedarikçisinde kalite denetimi kapsamındaki işler bambaşka bir bağlamdır ve bu sayfada anlatılmaz — bu tür talepler için ayrı hizmet sayfalarımıza yönlendirme yaparız.",
+                    "Zor zemin, eğimli arazi veya açık şantiye gibi kırsal/dış mekân koşulları da bu sayfanın kapsamı dışındadır; oradaki makine seçimi tamamen farklı bir mantıkla (arazi tipi lastik tekerlek, dizel tahrik) ilerler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile manlift arasındaki fark nedir?",
+                cevap:
+                    "Makaslı platform yalnızca dikey hareket eden, geniş sepet tabanlı bir makinedir ve düz zeminli iç mekân işlerinde en yaygın tercihtir; manlift ise günlük dilde eklemli veya teleskopik bomlu, sepeti hem dikey hem yatay hareket ettirebilen makineleri tanımlamak için kullanılır. İç mekânda çalışma noktası makinenin tam altındaysa makaslı platform yeterli ve daha ekonomiktir; nokta bir engelin arkasındaysa manlift sınıfı (eklemli/teleskopik) gerekir.",
+            },
+            {
+                soru: "Standart bir tek kanat kapıdan makaslı platform geçer mi?",
+                cevap:
+                    "Dar şaseli modeller (yaklaşık 76-81 cm genişlik) standart tek kanat kapılardan (80-90 cm) genellikle geçer, ancak kapı kasası çıkıntısı ve makinenin kendi ayna/kol genişliği de hesaba katılmalıdır. Kesin ölçü uyumu için kapı genişliğini ve varsa eşik yüksekliğini bildirdiğinizde, o binaya uygun dar şaseli modeli öneririz.",
+            },
+            {
+                soru: "Otel lobisinde misafirler varken çalışabilir misiniz?",
+                cevap:
+                    "Önermeyiz; makaslı platform sepetiyle çalışma alanının etrafı konileme veya bariyerle çevrilse bile, aktif kullanımdaki bir lobide bu hem güvenlik hem misafir deneyimi açısından uygun değildir. Standart tercihimiz, misafir yoğunluğunun en düşük olduğu sabahın erken saati veya gece penceresidir; otelinizin kendi yoğunluk takvimine göre en uygun saati birlikte belirleriz.",
+            },
+            {
+                soru: "İki kişi aynı anda sepette çalışabilir mi?",
+                cevap:
+                    "Evet, standart makaslı platform sepetleri (genellikle 230-450 kg kapasite bandında) iki kişi ve malzemesini taşıyacak şekilde tasarlanmıştır; bu, aydınlatma değişimi gibi işlerde bir kişinin monte ederken diğerinin malzeme tuttuğu çalışma biçimine uygundur. Taşınacak malzemenin ağırlığı önceden bildirilirse, kapasiteyi karşılayan doğru modeli seçeriz.",
+            },
+            {
+                soru: "Zemin parke veya mermer ise makaslı platform kullanılabilir mi?",
+                cevap:
+                    "Evet, ama standart siyah kauçuk tekerlek yerine iz bırakmayan (non-marking) beyaz veya gri tekerlekli bir model kullanılır ve makinenin güzergâhı boyunca özellikle dönüş noktalarında koruyucu mat serilir. Zemininizin cinsini (mermer, cilalı parke, seramik) bildirdiğinizde, hazırlığı ona göre baştan doğru seviyede kurarız.",
+            },
+            {
+                soru: "Kamu binasında (belediye, üniversite) makaslı platform kiralamak farklı bir süreç mi?",
+                cevap:
+                    "Süreç mantığı aynıdır ama kamu binalarında genellikle bina yönetiminin önceden bilgilendirilmesi, bazen bir görevlinin refakat etmesi ve çalışma saatinin mesai dışına (akşam sonrası veya hafta sonu) planlanması istenir. Bu kurumlarda giriş-çıkış saatlerinin önceden bildirilmesi de yaygın bir şarttır; kurumunuzun kendi prosedürünü bize ilettiğinizde plana dahil ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platform sınıfının teknik özellikleri (dikey hareket, şase genişliği bantları, sepet kapasite aralığı, iz bırakmayan tekerlek) genel ekipman bilgisidir; bu domainin kent içi iç mekân açısıyla (mağaza/otel/kamu binası) birleştirilmiştir.",
+    },
+
+    // ── YENİ ODAK KONUSU: MANLIFT KİRALAMA (genel terim, iç mekân bağlamı) ──
+    // Bu sayfa "manlift" genel arama terimini iç mekân bağlamında karşılar;
+    // makasli-platform-kiralama sayfasıyla örtüşmemesi için odak farklı:
+    // orada makaslı sınıfın kendisi anlatılıyor, burada "manlift" arayan
+    // kullanıcıya DOĞRU SINIFI SEÇME rehberliği (terim netliği + iç mekân
+    // eklemli/teleskopik senaryoları) veriliyor.
+    "hizmet:manlift-kiralama": {
+        h1: "Eskişehir Şehir Merkezinde Manlift Kiralama — Doğru Sınıfı Seçme Rehberi",
+        giris:
+            "\"Manlift\" günlük dilde yükseğe çıkan her platform makinesini tanımlamak için kullanılan genel bir terimdir; teknik olarak ise sepeti hem dikey hem yatay hareket edebilen eklemli (articulating) veya teleskopik bomlu makineleri, bazen de makaslı platformu kapsayacak şekilde geniş anlamda kullanılır. Eskişehir'in şehir merkezindeki mağaza, otel ve kamu binası taleplerinde \"manlift istiyoruz\" diyerek arayan müşterilerin büyük kısmı aslında ihtiyacına göre ya makaslı platform ya da eklemli platform kullanır — hangisinin doğru olduğu, çalışma noktasının makinenin tam altında mı yoksa bir engelin (mobilya, raf, kolon, merdiven boşluğu) arkasında mı olduğuna bağlıdır. Bu sayfa, \"manlift\" terimiyle gelen bir talebi doğru sınıfa yönlendirme mantığını anlatır: terim netliği neden önemli, iç mekânda eklemli/teleskopik bom hangi senaryolarda gerekir, kapasite ve erişim mesafesi nasıl hesaplanır, operatörlü kiralama ne zaman gerekir ve dar bir bina içinde bom sınıfı seçerken nelere dikkat edilir. Makaslı platformun kendi teknik ayrıntıları (şase genişliği, zemin yükü) ayrı bir sayfada ele alınmıştır; burada odak, \"manlift\" diyerek gelen talebin doğru makineye çevrilmesidir.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" derken hangi makineyi kastediyorsunuz?",
+                metin:
+                    "Talebi aldığımızda önce netleştirdiğimiz şey, aranan makinenin sepetinin yalnızca dikey mi hareket edeceği (makaslı platform) yoksa yatay/açılı bir erişime de ihtiyaç olup olmadığıdır (eklemli veya teleskopik bom). Bu ayrım, fiyatı ve teslim edilecek makinenin sınıfını doğrudan belirlediği için, \"manlift\" kelimesinin arkasındaki gerçek ihtiyacı birlikte tarif ederiz — çalışma noktasının fotoğrafı veya kısa bir tarif genellikle yeterlidir.",
+            },
+            {
+                baslik: "İç mekânda eklemli bom ne zaman gerekir",
+                metin:
+                    "Bir kolonun arkasındaki bir nokta, bir merdiven boşluğunun kenarı, yüksek bir raf dizisinin arasındaki dar bir aralık veya bir atrium'da (iç avlu) engelli bir tavan detayı — bu tip noktalarda makine doğrudan altına konumlanamaz, bu yüzden sepeti yatay ve açılı olarak uzatabilen eklemli bir bom gerekir. İç mekânda kullanılan eklemli platformlar da elektrikli akülü olmak zorundadır; dizel bom modelleri yalnızca açık sahada kullanılır.",
+            },
+            {
+                baslik: "Erişim mesafesi hesabı: yükseklik tek başına yeterli değil",
+                metin:
+                    "Eklemli bir bom seçerken yalnızca hedef yükseklik değil, makinenin duracağı noktadan hedefe olan yatay mesafe de önemlidir; bir bomun maksimum yatay erişimi genellikle dikey erişiminden daha kısadır. Bu yüzden \"5 metre yükseklikte, 2 metre içeride bir nokta\" gibi hem dikey hem yatay ölçüyü birlikte tarif etmeniz, doğru bom uzunluğundaki modeli baştan seçmemizi sağlar.",
+            },
+            {
+                baslik: "Operatörlü mü, kendiniz mi kullanacaksınız",
+                metin:
+                    "Eklemli ve teleskopik bomlar, makaslı platforma göre daha fazla eksende hareket ettiği için operatör deneyimi daha kritik hale gelir; sık kullanmayan bir ekip için operatörlü kiralama önerilir. Kendi operatörünüz varsa, geçerli bir platform operatörü belgesi (iş ekipmanları yönetmeliği kapsamında) yeterlidir; belge kontrolü teslim öncesi standart bir adımdır.",
+            },
+            {
+                baslik: "Dar bina içinde bom sınıfı seçerken kısıt",
+                metin:
+                    "Eklemli ve teleskopik bomların şasesi, makaslı platforma göre genellikle daha geniştir ve bazı modeller dört tekerlek yönlendirme (4-wheel steer) ile dar alanda manevra yapabilir; yine de standart bir tek kanat kapıdan geçiş çoğu bom modelinde mümkün değildir. Bina içi dar geçitli bir talep için bom gerekiyorsa, önce geçiş noktalarının genişliğini ölçüp, o ölçüye uyan en kompakt bom modelini birlikte belirleriz; bazı durumlarda makinenin binaya bölünerek (parça parça) sokulması gerekebilir."
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "\"Manlift\" talebi nasıl doğru sınıfa çevrilir",
+                paragraflar: [
+                    "Aşağıdaki tablo, \"manlift istiyoruz\" diyerek gelen tipik iç mekân taleplerinin hangi gerçek sınıfa karşılık geldiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep tarifi", "Gerçek ihtiyaç", "Belirleyici soru"],
+                    satirlar: [
+                        ["\"Tavana çıkacağız, düz salon\"", "Makaslı platform", "Nokta makinenin altında mı?"],
+                        ["\"Kolonun arkasındaki bir nokta\"", "Eklemli bom", "Yatay erişim gerekiyor mu?"],
+                        ["\"Atrium'da yüksek ve engelli nokta\"", "Eklemli/teleskopik bom", "Erişim mesafesi ne kadar?"],
+                        ["\"Dar koridordan geçecek, tavana bakacak\"", "Dar şaseli makaslı platform", "Kapı/koridor genişliği kaç cm?"],
+                        ["\"Yükseklik değil, uzağa erişim önemli\"", "Teleskopik bom", "Yatay mesafe kaç metre?"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden terim netliği talebi hızlandırır",
+                paragraflar: [
+                    "\"Manlift\" kelimesi tek başına makine sınıfını belirlemez; bu yüzden telefonda veya formda yalnızca bu kelimeyi kullanan bir talep, ek bir soru-cevap turu gerektirir. Çalışma noktasının kısa bir fotoğrafı veya \"tavan düz mü, önünde engel var mı\" gibi tek bir cümlelik tarif, bu turu atlayıp doğrudan doğru modele geçmemizi sağlar.",
+                    "Şehir merkezindeki mağaza, otel ve kamu binası taleplerinin büyük kısmında sonuç makaslı platform çıkar çünkü bu binalarda tavan genellikle düz ve erişim noktası doğrudan üstten mümkündür; eklemli/teleskopik bom ihtiyacı daha çok atrium, merdiven boşluğu kenarı veya kolon arkası gibi özel noktalarda ortaya çıkar.",
+                ],
+            },
+            {
+                baslik: "Bu sayfanın kapsamadığı işler",
+                paragraflar: [
+                    "Bu sayfa yalnızca şehir merkezindeki bina içi \"manlift\" terim netliği ve sınıf seçimini kapsar; kırsal enerji hattı direk dikimi, OSB fabrikası üretim hattı bakımı veya havacılık-savunma tedarik zincirindeki kalite/gizlilik prosedürleri bu sayfanın konusu değildir ve burada anlatılmaz.",
+                    "Makaslı platformun kendi teknik ayrıntıları (şase genişliği bantları, zemin yük dağılımı, sepet kapasitesi) ayrı bir sayfada ele alınmıştır; bu sayfa yalnızca terim netliği ve sınıf seçim mantığına odaklanır, aynı ayrıntıları tekrar etmez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift\" ile \"makaslı platform\" aynı şey mi?",
+                cevap:
+                    "Hayır, günlük dilde \"manlift\" çoğu zaman yükseğe çıkan her makineyi tanımlamak için kullanılsa da, teknik olarak makaslı platform yalnızca dikey hareket eden bir alt sınıftır; eklemli veya teleskopik bomlu makineler ise sepeti yatay ve açılı olarak da hareket ettirebilir. Talebinizde \"manlift\" kelimesini kullansanız bile, gerçek ihtiyacınızı (çalışma noktasının makinenin altında mı yoksa bir engelin arkasında mı olduğunu) birlikte netleştirerek doğru sınıfı belirleriz.",
+            },
+            {
+                soru: "Hangi sınıfı istediğimi bilmiyorum, nasıl karar veririz?",
+                cevap:
+                    "Çalışma noktasının kısa bir fotoğrafını veya \"tavan düz mü, önünde raf/kolon/mobilya gibi bir engel var mı\" sorusunun cevabını paylaşmanız genellikle yeterlidir. Engel yoksa makaslı platform, engel varsa veya yatay mesafe önemliyse eklemli/teleskopik bom öneririz; karar süreci telefon veya form üzerinden birkaç dakika sürer.",
+            },
+            {
+                soru: "İç mekânda dizel bir manlift kullanılabilir mi?",
+                cevap:
+                    "Hayır, kapalı bir mağaza, otel odası katı veya kamu binası salonunda dizel ya da LPG'li bir makine kullanılmaz; bu, hacmin büyüklüğünden bağımsız istisnasız bir kuraldır çünkü egzoz gazı kapalı hacimde birikir. İç mekânda kullanılan tüm sınıflar (makaslı, eklemli, teleskopik) elektrikli akülü tahrikli olmalıdır.",
+            },
+            {
+                soru: "Eklemli bom bir tek kanat kapıdan geçer mi?",
+                cevap:
+                    "Çoğu eklemli bom modeli standart bir tek kanat kapıdan geçemez çünkü şase genişliği makaslı platforma göre daha fazladır; geçiş genellikle çift kanat kapı veya yük kapısı gerektirir. Kompakt bazı eklemli modeller dar geçitlere uygun üretilmiştir; kapı ve koridor ölçülerinizi bildirdiğinizde uyan modeli birlikte belirleriz, gerekirse makinenin parça parça sokulması seçeneğini değerlendiririz.",
+            },
+            {
+                soru: "Operatörlü kiralama şart mı?",
+                cevap:
+                    "Şart değildir; geçerli bir platform operatörü belgesi olan kendi ekibiniz varsa kendiniz kullanabilirsiniz, belge teslim öncesi kontrol edilir. Eklemli veya teleskopik bomu sık kullanmayan bir ekip için operatörlü kiralamayı öneririz çünkü bu sınıflar makaslı platforma göre daha fazla eksende (dikey + yatay + açı) hareket eder ve deneyim güvenliği doğrudan etkiler.",
+            },
+            {
+                soru: "Yükseklik 6 metre ama nokta duvardan 2 metre içeride, hangi makine gerekir?",
+                cevap:
+                    "Bu durumda tek başına yükseklik yeterli bilgi değildir; hem dikey hem yatay erişim gerektiği için eklemli veya teleskopik bir bom gerekir, makaslı platform yalnızca dikey hareket ettiğinden bu noktaya ulaşamaz. Yatay mesafeyi (2 metre) ve dikey yüksekliği (6 metre) birlikte bildirdiğinizde, bu iki ölçüyü karşılayan bom uzunluğundaki modeli seçeriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. \"Manlift\" teriminin genel/teknik kullanım farkı ve eklemli/teleskopik bom erişim mantığı genel ekipman bilgisidir; bu domainin kent içi iç mekân açısıyla (mağaza/otel/kamu binası, terim netliği rehberliği) birleştirilmiştir.",
+    },
 };

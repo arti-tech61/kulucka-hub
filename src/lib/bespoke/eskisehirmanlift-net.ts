@@ -2092,4 +2092,200 @@ export const ESKISEHIRMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bu sayfa kapsam sınırını dürüstçe belirtir; düzensiz zemin ve destek ayağı güvenlik kuralları EN 280 kapsamındaki genel makine güvenlik bilgisidir, tesis adı ve rakam uydurulmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Eskişehir OSB'de Üretim Holü İçi Makaslı Platform Kiralama",
+        giris:
+            "Bu sitenin ağırlık merkezi eklemli ve teleskopik manlift olsa da, Eskişehir OSB'deki fabrikaların tavan işlerinin hepsi hattın üzerinden uzanmayı gerektirmiyor; düz zeminli, engelsiz bir alanda dikey olarak yukarı çıkmak yeterli olduğunda makaslı platform hem daha ekonomik hem de operasyonel olarak daha basit bir çözüm. Bölgedeki üretim holleri bu ayrımı gündelik olarak yaşıyor: montaj hattının henüz kurulmadığı boş bir hol bölümünde çelik konstrüksiyon aydınlatması yapılıyorsa, ya da beyaz eşya montaj hattının yanındaki geniş, düz koridorda kablo kanalı çekiliyorsa, sepetin hattın üzerinden bir engeli aşmasına gerek kalmıyor — sadece geniş bir sepet tabanı ve dikey erişim gerekiyor. Makaslı platformun geniş sepeti, aynı anda iki-üç kişinin ve malzemenin taşınmasını mümkün kılıyor; bu da eklemli platforma göre daha hızlı iş bitirme anlamına geliyor, özellikle çok sayıda benzer noktanın art arda çalışıldığı montaj hattı kenarı işlerinde. Biz bu makineyi, hattın kendisine dokunmadığı ama hattın çevresindeki düz zeminli üretim holü bölümlerinde çalıştığı için, manlift filomuzun tamamlayıcısı olarak konumlandırıyoruz: talep geldiğinde önce zeminin düzlüğünü ve çalışma noktasının hat üzerinde mi yoksa hat dışında mı olduğunu soruyoruz, cevaba göre iki makine ailesinden birini öneriyoruz.",
+        maddeler: [
+            {
+                baslik: "Ne zaman makaslı, ne zaman eklemli",
+                metin:
+                    "Ayrımın kriteri basit ama sık karıştırılıyor: hedef noktanın altında ya da yakınında hattın kendi ekipmanı (konveyör, robot hücresi, pres) varsa eklemli platform gerekir, çünkü sepetin bomu engelin üzerinden kıvırması lazım. Hedef, düz bir zemin üzerinde dikey bir noktaysa — örneğin boş bir hol bölümünde çatı aydınlatması, ya da montaj hattının hemen yanındaki bir koridorda kablo kanalı — makaslı platform hem daha hızlı kurulur hem daha geniş bir çalışma alanı sunar. Keşif sırasında bu ayrımı biz yapıyoruz; yanlış makine talep edilmişse teklif aşamasında düzeltiyoruz.",
+            },
+            {
+                baslik: "Montaj hattı kenarında çoklu nokta verimliliği",
+                metin:
+                    "Beyaz eşya ve seramik montaj hatlarının kenarında sık karşılaşılan iş tipi, hat boyunca tekrarlanan benzer noktalardır: aydınlatma armatürü değişimi, havalandırma kanalı bakımı, boru askı kontrolü gibi. Bu tür işlerde makaslı platform, geniş sepeti sayesinde bir noktada iki kişiyi ve gerekli malzemeyi aynı anda taşıyabildiği için, eklemli platforma göre nokta başına daha az zaman harcanır. Tek dezavantajı yatay hareket kabiliyetinin sınırlı olması — platform sadece dikey çıkar, yana doğru erişim için tekerlekli şase üzerinde noktadan noktaya sürülür.",
+            },
+            {
+                baslik: "Zemin taşıma gücü ve iz bırakmama",
+                metin:
+                    "Üretim holü zeminleri genellikle endüstriyel beton ya da epoksi kaplıdır ve makaslı platformun dört tekerlekli ağırlığını taşıyacak kapasitededir; yine de yeni dökülmüş ya da henüz tam kürünü almamış beton varsa taşıma gücünü önceden sormamız gerekir. Epoksi ve perdahlı beton yüzeylerde standart siyah lastik iz bırakabildiği için, özellikle görsel kalitenin önemli olduğu montaj holü bölümlerinde iz bırakmayan (beyaz dolgu) lastikli modeli tercih ediyoruz.",
+            },
+            {
+                baslik: "Akülü tahrik ve kapalı hol havası",
+                metin:
+                    "Kapalı üretim holünde egzoz gazı hem operatör hem çevredeki çalışanlar için kabul edilemez; bu yüzden hol içi tüm makaslı platform taleplerimizde akülü model standarttır. Akülü tahrik ayrıca sessiz çalışır, bu da vardiya sırasında paralel çalışılan bir holde gürültü kirliliği yaratmaz. Şarj süresi planlaması, günün hangi saatlerinde makinenin boşta kalacağına göre önceden yapılır.",
+            },
+            {
+                baslik: "Yükseklik sınıfı ve hol tavanına göre seçim",
+                metin:
+                    "Eskişehir OSB'deki üretim holleri tavan yüksekliği bakımından çeşitlilik gösterir; 6-8 metre bandındaki standart holler için kompakt makaslı platform yeterliyken, 10-12 metre bandındaki daha yüksek holler için geniş sepetli, yüksek erişimli model gerekir. Tavan yüksekliği ile birlikte hol içindeki geçiş genişlikleri de (kapı, koridor, raf arası) makine şase genişliğini belirler; dar geçişli hollerde standart genişlikte makaslı platform sığmayabilir, bu durumda dar şaseli versiyonu öneriyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Makaslı platform mu, eklemli platform mu: hızlı karşılaştırma",
+                paragraflar: [
+                    "Aşağıdaki tablo, Eskişehir OSB'deki üretim holü işlerinde iki makine ailesi arasındaki temel farkları özetler. Karar, hedefin hat üzerinde olup olmamasına ve zeminin düzlüğüne bağlıdır.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Makaslı platform", "Eklemli/teleskopik platform"],
+                    satirlar: [
+                        ["Hareket yönü", "Yalnızca dikey", "Yatay + dikey (bom kıvrımı)"],
+                        ["Engel üzerinden erişim", "Uygun değil", "Hattın üzerinden uzanabilir"],
+                        ["Sepet kapasitesi", "Geniş, çok kişi/malzeme", "Dar, tek-iki kişi"],
+                        ["İdeal zemin", "Düz, engelsiz beton", "Değişken, hat kenarı dahil"],
+                        ["Tipik kullanım", "Boş hol, montaj hattı kenarı koridoru", "Hat üstü, konveyör/robot çevresi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Boş hol bölümlerinde çelik konstrüksiyon ve elektrik işleri",
+                paragraflar: [
+                    "Eskişehir OSB'de yeni yatırım yapan ya da mevcut holünü genişleten fabrikalarda, montaj hattı henüz kurulmadan önce çelik konstrüksiyon montajı, çatı altı aydınlatma tesisatı ve ana elektrik dağıtım hattı çekimi gibi işler yapılır. Bu aşamada hol tamamen boş ve düz olduğu için makaslı platform en verimli seçenektir; birden fazla makine aynı anda farklı noktalarda çalışabilir çünkü ortada aşılması gereken bir engel yoktur.",
+                    "Bu tür işlerde genellikle birden fazla makine talebi gelir ve iş süresi günlerle ölçülür; bu durumda haftalık kiralama modeli günlük orana göre daha ekonomik çıkar. Kaç makinenin aynı anda gerektiğini keşif sırasında hol planı üzerinden birlikte belirliyoruz.",
+                ],
+            },
+            {
+                baslik: "Montaj hattı kurulduktan sonra makaslı platformun sınırları",
+                paragraflar: [
+                    "Hat kurulduktan ve üretime geçtikten sonra, makaslı platformun kullanım alanı daralır; artık hattın üzerine değil, sadece hattın yanındaki koridor ve boş alanlara erişebilir. Hattın tam üzerinde bir iş gerekiyorsa bu noktada eklemli ya da teleskopik platforma geçilmesi gerekir — bu ayrımı yanlış yapmak, sahaya yanlış makine gönderip zaman kaybetmek anlamına gelir.",
+                    "Bu yüzden hem yeni hem mevcut tesislerle çalışırken, talebi alırken çalışma noktasının hattın üzerinde mi yoksa dışında mı olduğunu net şekilde soruyoruz; belirsizse fotoğraf ya da kısa bir plan krokisi istiyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile eklemli platform arasındaki farkı nasıl anlarım?",
+                cevap:
+                    "En basit test şu: hedef noktanın hemen altında ya da çevresinde aşılması gereken bir ekipman, konveyör ya da makine var mı? Varsa eklemli platform gerekir çünkü sepetin bomu bu engelin üzerinden kıvrılarak hedefe iner. Yoksa, yani düz bir zeminde sadece dikey yükselmek yeterliyse, makaslı platform hem daha hızlı kurulur hem daha geniş bir çalışma alanı sunar. Emin değilseniz, çalışma noktasının fotoğrafını paylaşmanız yeterli; doğru makineyi biz belirleriz.",
+            },
+            {
+                soru: "Montaj hattının hemen yanındaki koridorda makaslı platform kullanabilir miyiz?",
+                cevap:
+                    "Evet, koridor düz ve makinenin geçebileceği genişlikteyse bu tam olarak makaslı platformun ideal kullanım alanıdır. Tek koşul, çalışma sırasında hattın üretim trafiğiyle kesişmeyecek bir güzergâh belirlenmesi ve platform hareket ederken hat operatörlerine haber verilmesidir. Koridor genişliği dar ise dar şaseli model kullanılır; bu detayı keşifte netleştiriyoruz.",
+            },
+            {
+                soru: "Boş bir hol bölümünde birden fazla makaslı platform aynı anda çalışabilir mi?",
+                cevap:
+                    "Evet, boş ve düz bir hol bölümünde birden fazla makine aynı anda farklı noktalarda çalışabilir, çünkü makaslı platformlar birbirinin çalışma alanına girmediği sürece bir kısıt yoktur. Bu genellikle yeni yatırım ya da hol genişletme projelerinde talep edilir; kaç makine gerektiğini hol planı üzerinden birlikte belirliyoruz ve haftalık kiralama modelini öneriyoruz.",
+            },
+            {
+                soru: "Epoksi kaplı zeminde iz bırakır mı?",
+                cevap:
+                    "Standart siyah lastikli modeller epoksi ve perdahlı beton yüzeylerde iz bırakabilir; bu yüzden görsel kalitenin önemli olduğu montaj holü bölümlerinde iz bırakmayan (beyaz dolgu) lastikli modeli talep etmenizi öneririz. Bu tercihi teklif aşamasında belirtmeniz yeterli, ek maliyeti yoktur.",
+            },
+            {
+                soru: "Makaslı platform hattın üzerinden geçebilir mi, yatay olarak uzanabilir mi?",
+                cevap:
+                    "Hayır, makaslı platform yalnızca dikey olarak yükselir; yatay uzanma ya da bir engelin üzerinden geçme kabiliyeti yoktur. Yatay erişim gerekiyorsa makine tekerlekli şase üzerinde bir noktadan diğerine sürülür, ama bu hareket zemine bağlıdır ve hat üzerinden geçemez. Hattın tam üzerinde bir noktaya erişmeniz gerekiyorsa doğru makine eklemli ya da teleskopik platformdur.",
+            },
+            {
+                soru: "Yeni kurulan bir hat için hem makaslı hem eklemli platform aynı anda kiralayabilir miyiz?",
+                cevap:
+                    "Evet, bu oldukça sık karşılaştığımız bir senaryo: hattın henüz kurulmadığı boş bölümlerde makaslı platformla çelik konstrüksiyon ve aydınlatma işleri yapılırken, hattın kurulu olduğu bölümde eklemli platformla hat üstü işler paralel ilerleyebilir. İki makineyi aynı teklif kapsamında planlıyoruz, teslimat tarihlerini hol içindeki iş sırasına göre koordine ediyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa makaslı platform ile eklemli/teleskopik platform arasındaki teknik ayrımı ve Eskişehir OSB üretim holü bağlamını anlatır; rakam ve tesis adı uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Eskişehir OSB'de Üretim Hattı Bakımı için Manlift Kiralama Hizmeti",
+        giris:
+            "Manlift kelimesi bu sitede tek bir makine türünü değil, iki makine ailesini kapsar: eklemli platform ve teleskopik platform. İkisinin ortak noktası, sepetin bir bom aracılığıyla bir engelin üzerinden ya da yanından hedefe ulaşabilmesidir — bu da onları Eskişehir OSB'nin üretim hattı bakımı işlerinde vazgeçilmez kılan özelliktir. Bölgedeki fabrikalarda tavan işlerinin büyük kısmı, hedefin tam altında konveyör, robot hücresi, pres ya da kurutma tüneli gibi bir ekipmanın bulunduğu senaryolarda gerçekleşir; bu durumda makine hattın kenarına konumlanır, bomu engelin üzerinden kıvırır ya da uzatır ve sepeti hedefin tam üstüne indirir. Hattın kendisi hiç dokunulmadan yerinde kalır, sökme-kurma süresi ortaya çıkmaz. Biz manlift kiralama hizmetimizi bu senaryoya göre kurguluyoruz: planlı duruş takvimine göre teslimat, hat üstü erişime uygun bom uzunluğu seçimi ve üretim ritmine senkron çalışma disiplini. Eklemli mi teleskopik mi sorusunun cevabı, aşılacak engelin yüksekliği ile park noktasından hedefe olan yatay mesafenin birlikte değerlendirilmesiyle çıkar; bu değerlendirmeyi her talepte keşif aşamasında yapıyoruz.",
+        maddeler: [
+            {
+                baslik: "Eklemli platform: dar açıklıkta hattın üzerine inme",
+                metin:
+                    "Eklemli platformun bomu birden fazla eklemden oluştuğu için, hattın kenarına konumlanıp bomunu bir kirişin ya da boru hattının üzerinden kıvırarak hedefin tam üstüne inebilir. Bu özellik, kirişler arası dar açıklıklarda ya da hedefe düz bir çizgiyle ulaşılamayan noktalarda teleskopik platforma göre üstünlük sağlar. Eskişehir OSB'deki ağır mekanik atölyelerde ve hassas imalat hollerinde sık karşılaşılan boru hattı, kablo tavası ya da havalandırma kanalı üstü işlerde ilk tercihimiz eklemli platformdur.",
+            },
+            {
+                baslik: "Teleskopik platform: uzun mesafeli hat boyu erişim",
+                metin:
+                    "Teleskopik platform, bomunu düz bir çizgide uzatarak daha uzak hedeflere ulaşır ve bu sayede hat boyunca ilerleyen uzun mesafeli işlerde park noktası değiştirme sayısını azaltır. Bir montaj hattının 30-40 metrelik bir bölümünde art arda sıralanan benzer noktalar (örneğin aydınlatma armatürleri) varsa, makine tek bir noktada durup bomu farklı açılarla uzatarak birden fazla hedefe erişebilir — bu, sürekli yer değiştiren eklemli platforma göre zaman kazandırır.",
+            },
+            {
+                baslik: "Planlı duruşa göre teslimat disiplini",
+                metin:
+                    "Üretim hattı bakımında makinenin duruş başlamadan önce sahada hazır olması şarttır; teslimat duruştan önceki gün yapılır, makine tesisin gösterdiği noktada şarj edilir ve duruş saati geldiğinde iş kalemleri sırayla ilerler. Duruş içinde geçen bir saatlik gecikme, ertelenen bir bakım kalemi anlamına gelebileceği için, bu riski baştan ortadan kaldırmayı teslimat planımızın temel kuralı yapıyoruz.",
+            },
+            {
+                baslik: "Bom seçiminde yükseklik ve yatay mesafe hesabı",
+                metin:
+                    "Doğru makineyi seçmek için iki ölçüyü birlikte değerlendiriyoruz: hedefin zeminden yüksekliği ve park noktasından hedefe olan yatay uzaklık. Yüksek ama yakın bir hedef genellikle eklemli platformla, orta yükseklikte ama uzak bir hedef genellikle teleskopik platformla daha verimli çözülür. Bu hesabı telefonla ya da fotoğraf üzerinden yapabiliyoruz, ama karmaşık geometrili hedeflerde kısa bir saha ziyareti öneriyoruz.",
+            },
+            {
+                baslik: "Akülü tahrik ve emniyet ekipmanı standardı",
+                metin:
+                    "Kapalı üretim holünde egzoz gazı kabul edilemez olduğu için hol içi tüm manlift taleplerimizde akülü model standarttır. Eklemli platformda emniyet kemeri ve kısa bağlantı halatı her koşulda takılıdır — bu, bom hareketinin sepeti aniden savurabilme ihtimaline karşı alınan bir önlemdir ve makaslı platformdaki uygulamadan farklıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli ve teleskopik platform: hangi işte hangisi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Eskişehir OSB'deki üretim hattı bakımı işlerinde iki manlift türü arasındaki seçim kriterlerini özetler. Karar, engelin şekli ve hedefe olan yatay mesafeyle belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Eklemli platform", "Teleskopik platform"],
+                    satirlar: [
+                        ["Bom hareketi", "Çok eklemli, kıvrılabilir", "Düz, tek doğrultuda uzar"],
+                        ["Dar açıklıkta erişim", "Güçlü (kirişler arası girebilir)", "Sınırlı"],
+                        ["Uzak mesafeye erişim", "Sınırlı", "Güçlü (tek duruşta uzun erişim)"],
+                        ["Hat üstü engelli hedef", "İdeal", "Engel varsa zorlanır"],
+                        ["Hat boyu çok noktalı iş", "Sık park değişimi gerekir", "Az park değişimiyle çok nokta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hattın üzerinden uzanmanın pratik sınırları",
+                paragraflar: [
+                    "Manlift kiralamada en sık yapılan hata, engelin yüksekliğini ve bomun ulaşabileceği açıyı gözle tahmin etmektir. Bir kiriş ya da boru hattının üzerinden kıvrılarak inecek bomun, hem engeli aşacak hem de indikten sonra hedefe tam olarak yatay bir düzlemde ulaşacak açıya sahip olması gerekir; bu hesap yanlış yapılırsa sahada makinenin hedefe erişemediği ortaya çıkar ve iş kaybı olur.",
+                    "Bu yüzden karmaşık geometrili hedeflerde (birden fazla engelin art arda sıralandığı noktalar gibi) telefonla verilen bilgiye güvenmek yerine, fotoğraf ya da kısa bir kroki istiyoruz; mümkünse keşif için sahaya gidiyoruz. Bu ön çalışma, teslimat gününde yanlış makine gönderme riskini ortadan kaldırıyor.",
+                ],
+            },
+            {
+                baslik: "Arıza toleransı olmayan bir işte yedek makine planı",
+                paragraflar: [
+                    "Planlı bir duruşta manlift arızalanırsa, duruş uzar ve bu maliyeti üretim tarafı öder; bu yüzden hat bakımına giden makinelerde müdahale süresi saatle tanımlanır ve telefonla çözülemeyen arızada ikame makine sevkiyatı başlatılır. Kritik revizyonlarda talep üzerine önceden yedek makine rezerve edilebilir; rezerve edilen makine kullanılmazsa yalnızca sembolik bir bekleme bedeli doğar.",
+                    "Akü tarafında da benzer bir yedeklilik uyguluyoruz: uzun süren revizyon işlerinde şarj noktasının hattın yakınında olmasını ve mola saatlerinde ara şarj yapılmasını standart hâline getiriyoruz; şarj altyapısı uygun değilse yedek akü grubuyla ilerliyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift derken eklemli mi teleskopik mi kastediliyor, ikisi arasındaki fark ne?",
+                cevap:
+                    "Manlift, bu sitede eklemli ve teleskopik platformların ortak adı olarak kullanılıyor; ikisi de bir bom aracılığıyla hedefe ulaşan, hattın üzerinden geçebilen makinelerdir. Eklemli platformun bomu birden fazla eklemden oluşur ve bir engelin üzerinden kıvrılarak hedefin tam üstüne inebilir; teleskopik platformun bomu düz bir çizgide uzar ve daha uzak hedeflere ulaşır. Hangisinin gerektiğini engelin şekli ve hedefe olan mesafe belirler.",
+            },
+            {
+                soru: "Hattın üzerinde konveyör varken bakım yapmak mümkün mü?",
+                cevap:
+                    "Evet, bu tam olarak eklemli platformun tasarlandığı senaryo. Makine hattın kenarına konumlanır, bomunu konveyörün üzerinden kıvırarak hedefin tam üstüne indirir ve hat kendisi dokunulmadan yerinde kalır. Konveyörün yüksekliği ve hedefe olan yatay mesafe önceden bilinirse doğru bom uzunluğuna sahip modeli seçip sahaya öyle gönderiyoruz.",
+            },
+            {
+                soru: "Hat boyunca birden fazla noktada çalışmamız gerekiyor, en verimli yöntem ne?",
+                cevap:
+                    "Hat boyu uzun mesafeli çok noktalı işlerde genellikle teleskopik platform daha verimlidir; tek bir park noktasından bomu farklı açılarla uzatarak birden fazla hedefe erişebilir, bu da sürekli yer değiştirmeyi gerektiren eklemli platforma göre zaman kazandırır. Ancak noktalar arasında engeller varsa (kirişler, boru hatları) eklemli platform daha uygun olabilir; keşifte iki senaryoyu birlikte değerlendiriyoruz.",
+            },
+            {
+                soru: "Planlı duruş saatinde makine sahada hazır olmazsa ne olur?",
+                cevap:
+                    "Bu bizim için kabul edilemez bir durum; bu yüzden teslimatı duruştan önceki gün yapıp makineyi tesisin gösterdiği noktada şarjda bekletiyoruz. Duruş saati geldiğinde makine zaten hazır konumdadır ve iş kalemleri gecikmeden başlar. Bu, ek bir günlük kira maliyeti karşılığında duruş süresinin tamamen korunmasını sağlayan bir uygulamadır.",
+            },
+            {
+                soru: "Revizyon sırasında makine arızalanırsa ne kadar sürede müdahale edilir?",
+                cevap:
+                    "Hat bakımına giden makinelerde müdahale süresi saatle tanımlanır; telefonla çözülemeyen bir arızada ikame makine sevkiyatı hemen başlatılır. Özellikle kritik revizyon işlerinde, talep üzerine önceden yedek makine rezerve edilmesini öneriyoruz — rezerve edilen makine kullanılmazsa yalnızca küçük bir bekleme bedeli doğar, bu da duruşun uzamasıyla kıyaslanamayacak kadar düşük bir maliyettir.",
+            },
+            {
+                soru: "Eklemli platformda emniyet kemeri neden makaslı platformdan farklı, her zaman zorunlu mu?",
+                cevap:
+                    "Evet, eklemli platformda emniyet kemeri ve kısa bağlantı halatı her koşulda takılıdır; bunun nedeni bom hareketinin, özellikle kıvrılma ve iniş sırasında, sepeti aniden savurabilme ihtimalidir. Makaslı platform ise yalnızca dikey hareket ettiği için bu risk daha düşüktür ve kemer kullanımı genellikle firma iç kuralına göre belirlenir. Bu fark, iki makine ailesinin hareket geometrisinden kaynaklanan bir güvenlik gerçeğidir, tercih meselesi değildir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bu sayfa eklemli/teleskopik platform ayrımını ve Eskişehir OSB üretim hattı bakımı bağlamını anlatır; emniyet kemeri kuralı EN 280 kapsamındaki genel makine güvenlik bilgisidir, rakam ve tesis adı uydurulmamıştır.",
+    },
 };

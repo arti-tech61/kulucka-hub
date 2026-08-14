@@ -2096,4 +2096,196 @@ export const ESKISEHIRPLATFORM_ORG: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Sivrihisar'ın geniş yüzölçümü, stabilize yol ağı ve rüzgâra açık plato yapısı kamuya açık genel bilgidir; zemin taşıma gücü ve rüzgâr sınırı kuralları makine üretici talimatları ve İSG uygulamalarından gelir. Firma adı ve rakam uydurulmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Eskişehir'de Tedarikçi Tesislerine Uygun Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, Eskişehir'in havacılık-savunma tedarik zincirinde en sık istenen makine sınıfıdır — çünkü çoğu iş dikey bir hat üzerinde, sabit bir noktada ve kapalı hacimde yürür: kaynak istasyonu üstü aydınlatma değişimi, vinç ray bakımı, çelik konstrüksiyon boyası, tavan tesisatı kontrolü. Ama bu tesislerde makinenin geometrisi kadar kapıdan nasıl gireceği de konuşulur. Yabancı madde (FOD) rejimi uygulanan bir hacme sepetli bir makine sokmak, sıradan bir sanayi teslimatından farklı bir hazırlık ister: gövdenin dışarıdan getirdiği hiçbir parçacık, iz veya sızıntı üretim alanına karışmamalı; sepete konan her alet önceden listelenmeli; sahaya girecek kişi refakatli ve kayıtlı olmalı. Biz Eskişehir'de makaslı platform teslimatını bu iki eksende birden kuruyoruz — bir yanda dar koridor ve düşük tavan yüksekliğine uyan doğru gövde ölçüsü, diğer yanda tesisin temizlik ve gizlilik protokolüne uyan teslim biçimi. Sivrihisar tarafındaki kırsal ve enerji sahalarında ise makaslı platform farklı bir rol üstlenir: rüzgâr enerjisi işletme binalarının iç mekân bakımı, şalt sahası kontrol panosu erişimi gibi zemin sabit, ölçü dar işlerde tercih edilir. İki ortam da aynı makine ailesini ister ama hazırlık listesi baştan sona değişir.",
+        maddeler: [
+            {
+                baslik: "FOD rejiminde makaslı platformun giriş hazırlığı",
+                metin:
+                    "Sepetli bir makine üretim veya montaj hacmine girmeden önce üç şey doğrulanır: tekerlek ve şasi altında toprak, yağ veya metal talaşı kalıntısı olmadığı, hidrolik hortum bağlantılarının sızdırmadığı ve sepet tabanının boş, süpürülmüş olduğu. Bu üç maddeyi tesise girmeden, park alanında tamamlıyoruz ve gerekirse geçici tekerlek örtüsü kullanıyoruz. Akülü tahrikli makaslı platformlar bu rejime doğal olarak uyar; içten yanmalı bir makine bu tür hacimlere zaten teklif edilmez.",
+            },
+            {
+                baslik: "Sepete giren her alet sayılır, çıkan sayılır",
+                metin:
+                    "Makaslı platformun sepeti, FOD disiplininde kendi başına bir kontrol noktasıdır — çünkü operatör orada çalışırken elindeki alet, bağlantı parçası veya sarf malzemesi düşme riski taşır. Uygulamada sepete alınacak her el aleti önceden bir listeye yazılır, bağ ile sepete emniyete alınır, küçük parçalar kapalı kutuda taşınır. İş bitiminde aynı liste tekrar sayılır; sayı tutmadan sepet indirilmez. Bu prosedürü tesisin kendi FOD formuna uyarlıyoruz, ayrı bir kâğıt çıkarmıyoruz.",
+            },
+            {
+                baslik: "Dar koridor ve düşük tavanda gövde seçimi",
+                metin:
+                    "Tedarikçi tesislerinin üretim hollerinde koridor genişliği ve tavan yüksekliği çoğu zaman standart bir makaslı platformun sığmadığı kadar dardır — özellikle test düzenekleri, raf sistemleri ve asma taşıyıcılar arasında kalan bölgelerde. Bu yüzden teklif öncesi en dar geçiş noktasının ölçüsünü ve çalışma noktasının tavana olan uzaklığını soruyoruz. Dar gövdeli, düşük kapalı yükseklikli akülü makaslı modeller bu hacimlerde standart tercih; iz bırakmayan lastik burada da aranan özellik.",
+            },
+            {
+                baslik: "Gizlilik kısıtlı hacimde teslim ve refakat",
+                metin:
+                    "Bazı tedarikçi hacimlerinde kamera ve fotoğraf makinesi taşınması tamamen yasaktır, bazılarında ise dışarıdan gelen her personel refakatli hareket etmek zorundadır. Makaslı platform teslimatını yapan sürücü ve varsa operatör için bu kısıt aynen geçerlidir — sahaya girecek kişilerin bilgisi bir gün önceden yazılı iletilir, istenirse gizlilik taahhüdü imzalanır. Cihaz kısıtı olan hacimlerde teslim-alım kaydı fotoğrafla değil, iki taraflı imzalı iş kabul formuyla tutulur.",
+            },
+            {
+                baslik: "Sivrihisar'da makaslı platformun farklı rolü: sabit nokta, dar ölçü",
+                metin:
+                    "Kırsal ve enerji sahalarında makaslı platform, bom tipi makinelerin aksine geniş yatay erişim için değil, sabit bir noktada dar bir ölçüye girmek için tercih edilir — işletme binası içi aydınlatma, şalt sahası kontrol panosu, depo içi raf üstü erişimi gibi işlerde. Zemin sabit olduğu sürece (beton veya sıkıştırılmış zemin), sepetin dikey kararlılığı makaslı platformu bu işler için bom tipi makinelerden daha uygun kılar. Zemin taşıması belirsizse önce bunu netleştiriyoruz; makaslı platformun tekerlek izi bom tipi kadar tolere edilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hacim tipine göre makaslı platform sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, tedarikçi ve kurumsal hacimlerde en sık karşılaştığımız dört senaryoyu ve bunlara göre belirlediğimiz makine sınıfını gösterir. Tesisinizin FOD veya gizlilik rejimi bu tablodaki satırlardan birine denk geliyorsa, hazırlık listesi de aynı satıra göre çıkar.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Kısıt", "Öncelik", "Uygun makaslı platform"],
+                    satirlar: [
+                        ["Havacılık parça üretim hattı", "FOD sayım rejimi", "Sızıntısız, iz bırakmayan gövde", "Akülü, dar gövdeli"],
+                        ["Kaplama / test hacmi", "Ortam temizliği", "Toz ve sıvı sızıntısı yok", "Akülü, temizlenebilir yüzey"],
+                        ["Kalite/gizlilik odalı ofis-üretim geçişi", "Cihaz ve kamera yasağı", "Sessiz, düşük emisyon", "Akülü, kompakt"],
+                        ["Sivrihisar enerji işletme binası", "Sabit zemin, dar iç mekân", "Dikey kararlılık", "Standart akülü makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif öncesi FOD hacmi için sorduğumuz altı soru",
+                paragraflar: [
+                    "Tedarikçi tesisine makaslı platform teklifi hazırlarken şu altı bilgiyi topluyoruz: çalışma noktasının zeminden yüksekliği, en dar geçiş noktasının ölçüsü, tesisin FOD veya temizlik sınıfı olup olmadığı, cihaz/fotoğraf kısıtı olup olmadığı, sahaya girecek kişi sayısı ve tesisin istediği evrak seti. Bu altısı netleştiğinde teklif tek seferde kapanıyor; netleşmediğinde genellikle kapıda ek evrak isteniyor ve teslimat gecikiyor.",
+                    "En sık atlanan madde, koridor ölçüsüdür. Üretim hollerinde raf, test düzeneği veya kablo kanalı yüzünden geçiş genişliği görünenden dar olabilir; bu yüzden bir fotoğraf ve tek bir ölçü isteyerek bu riski baştan kapatıyoruz.",
+                ],
+            },
+            {
+                baslik: "Operatörlü mü, operatörsüz mü: FOD rejiminde karar",
+                paragraflar: [
+                    "FOD rejimi uygulanan hacimlerde operatörün de tesisin yüklenici onay sürecinden geçmesi gerekebilir; bu süreç bazı tesislerde birkaç gün sürer. Kısa süreli işlerde, sepeti kullanacak kişinin yeterlilik belgesi olan kendi personelinizin makineyi kullanması genellikle daha hızlı başlar. Uzun süreli ve sık makine hareketi gerektiren işlerde ise operatörlü kiralama tercih edilir; operatörümüz hem makinenin sınırlarını hem FOD disiplinini bilir ve sayım prosedürünü kendisi yürütür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platformun sepetine koyacağımız aletler FOD rejimine göre nasıl kontrol ediliyor?",
+                cevap:
+                    "Sepete alınacak her el aleti ve sarf malzemesi, iş başlamadan önce bir listeye yazılır ve bağ ile sepete emniyete alınır. Küçük parçalar (vida, somun, bağlantı elemanı) kapalı kutuda taşınır, açıkta bırakılmaz. İş bitiminde aynı liste tekrar sayılır; bir kalem eksikse alan terk edilmeden aranır ve bulunmadan iş kapanmaz. Tesisinizin kendi FOD formu varsa onu kullanıyoruz, yoksa kendi kontrol listemizi imzalı olarak teslim ediyoruz. Bu prosedür sepetin boyutundan bağımsız her makaslı platform teslimatında aynı şekilde işler.",
+            },
+            {
+                soru: "Üretim hattımızda koridor dar; hangi makaslı platform sığar?",
+                cevap:
+                    "Bunu net ölçüyle belirliyoruz, tahminle değil. Teklif öncesi en dar geçiş noktasının genişliğini ve varsa yükseklik kısıtını (kapı, kiriş, kablo kanalı) soruyoruz; mümkünse bir fotoğraf istiyoruz. Dar gövdeli akülü makaslı platform modelleri standart modele göre önemli ölçüde daha dar bir koridordan geçebilir, ancak bu modellerin taşıma kapasitesi de daha düşüktür — bu yüzden çalışma noktasındaki iş yükünü de birlikte değerlendiriyoruz. Ölçü ve iş yükü netleştiğinde doğru model tek seferde belirleniyor.",
+            },
+            {
+                soru: "Tesisimizde fotoğraf çekimi yasak; teslim kaydını nasıl tutuyorsunuz?",
+                cevap:
+                    "Yazılı forma geçiyoruz. Cihaz kısıtı olan hacimlerde teslim alma ve teslim etme aşamalarında fotoğraf çekmiyoruz; onun yerine iki taraflı imzalanan bir iş kabul formu kullanıyoruz. Formda makinenin teslim saati, sayaç durumu, gözle görülen hasar kaydı, sepete götürülen alet listesi ve iş bitiminde yapılan sayım sonucu yer alır. Bu belge hem sizin kalite kayıtlarınıza eklenebilir hem de bizim açımızdan makinenin durumunu belgeler. Hangi düzenin geçerli olacağını sevkiyattan önce yazılı olarak teyit ediyoruz.",
+            },
+            {
+                soru: "Makaslı platform mu, eklemli bom tipi mi — FOD hacminde hangisi tercih edilmeli?",
+                cevap:
+                    "Çalışma noktası sabitse ve düşey erişim yeterliyse makaslı platform genellikle tercih sebebidir; sepet tabanı geniş, dikey kararlılığı yüksek ve tekerlek izi daha öngörülebilirdir — bu da FOD sayımını kolaylaştırır. Çalışma noktası engelin arkasında veya yandaysa (örneğin bir tezgâhın üstünden geçip arkasına ulaşmak gerekiyorsa) eklemli bom tipi makine gerekir; ancak bu tip makineler FOD hacimlerinde daha sıkı bir sayım rejimi gerektirir çünkü bom hareketli parça sayısı daha fazladır. Kararı, çalışma noktasının fotoğrafına bakarak veriyoruz.",
+            },
+            {
+                soru: "Operatörümüzün tesisin yüklenici onayından geçmesi gerekiyor mu?",
+                cevap:
+                    "Çoğu tedarikçi tesisinde evet, ve bu süreç birkaç gün sürebilir. Bu yüzden operatör kararını erken vermenizi öneriyoruz: kısa süreli bir işse, sepeti kullanacak yeterlilik belgeli kendi personelinizin makineyi kullanması genellikle daha hızlı başlar çünkü dışarıdan giren tek kişi sürücü olur. Uzun süreli veya sık makine hareketi gerektiren işlerde operatörlü kiralama daha güvenli ilerler; operatörümüzün belgesini ve kimlik bilgisini teklif aşamasında elektronik olarak iletip onay sürecini teslimatla paralel yürütüyoruz.",
+            },
+            {
+                soru: "Sivrihisar'daki bir enerji işletme binasında makaslı platform çalışabilir mi?",
+                cevap:
+                    "Çalışabilir; buradaki tek şart zeminin sabit olmasıdır — beton veya sıkıştırılmış zemin makaslı platform için yeterlidir, gevşek toprak veya çakıl zeminde dikey kararlılık için tercih edilmez ve bu durumda arazi tipi bir makine önerilir. İşletme binası içi aydınlatma değişimi, kontrol panosu erişimi veya raf üstü bakım gibi sabit noktalı, dar ölçülü işlerde makaslı platform bom tipi makinelerden daha pratik sonuç veriyor. Zemin durumu net değilse teklif öncesi bunu netleştiriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eskişehir'in havacılık-savunma tedarik zinciri kamuya açık genel bilgidir; FOD (yabancı madde) rejimi, gizlilik/refakat uygulaması ve mesleki yeterlilik belgesi zorunluluğu sektör pratiği ve mevzuattan gelir. Firma adı ve rakam uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Eskişehir'de Gizlilik Kısıtlı Tesislere Manlift Kiralama",
+        giris:
+            "Manlift, Eskişehir'in tedarikçi hollerinde makaslı platformun ulaşamadığı yerlere gitmek için kullanılır — bir tezgâhın arkasına, bir kanal döşemesinin üstüne, bir çelik konstrüksiyonun köşesine. Eklemli veya teleskopik kolun sağladığı bu yanal erişim, aynı zamanda FOD (yabancı madde) rejimi açısından ek bir dikkat ister: kol hareketli olduğu için sepetin gideceği yol, sabit bir makaslı platforma göre daha geniş bir alanı kapsar ve bu alanın tamamı yabancı madde kontrolüne dahil edilir. Eskişehir'de manlift teslimatını planlarken önce kolun çalışma yarıçapı içinde kalacak üretim ekipmanı, raf veya kablo tesisatı olup olmadığını soruyoruz; sonra makinenin kendisinin temizlik ve gizlilik protokolüne nasıl uyacağını. Bazı tesislerde bu iki soru birbirine bağlıdır — kolun geniş hareket alanı, kısıtlı bir hacimde ancak dar bir koridordan girip sabit bir noktada açılarak çözülür. Sivrihisar tarafında ise manlift farklı bir işe yarar: rüzgâr enerji santrali direklerinin çevresindeki aydınlatma ve kablo işleri, hangar tipi yapıların yüksek noktalarına erişim gibi geniş açık alan işlerinde tercih edilir — orada FOD değil, rüzgâr ve zemin taşıması belirleyicidir.",
+        maddeler: [
+            {
+                baslik: "Kolun hareket yarıçapı FOD kontrolüne dahildir",
+                metin:
+                    "Manliftte sepet tek bir nokta üzerinde durmaz; kol açıldıkça sepet geniş bir yay çizer ve bu yayın geçtiği her nokta yabancı madde riski taşır. Bu yüzden FOD hacimlerinde iş öncesi sadece sepetin değil, kolun tüm hareket yarıçapının altındaki alan da örtüyle kapatılır veya boşaltılır. Kol menzilindeki raf, kablo kanalı veya asma taşıyıcı önceden tespit edilir; gerekirse çalışma açısı bunlara çarpmayacak şekilde sınırlandırılır. Bu planlamayı teklif aşamasında, tesisin krokisi veya fotoğrafı üzerinden yapıyoruz.",
+            },
+            {
+                baslik: "Hidrolik eklem sayısı fazla, sızıntı kontrolü daha titiz",
+                metin:
+                    "Manliftin eklemli veya teleskopik kolu, makaslı platforma göre daha fazla hidrolik bağlantı noktası içerir ve her ek nokta potansiyel bir sızıntı riskidir. FOD rejimi uygulanan hacimlere giriş öncesi tüm hidrolik bağlantılar tek tek gözle kontrol edilir, en küçük damlama şüphesinde makine değiştirilir. Sepet ve kol yüzeyi girişten önce silinir, tekerlek ve şasi altı temizlenir. Akülü tahrikli manlift modelleri bu rejimde standart tercih; içten yanmalı model FOD hacimlerine hiç teklif edilmez.",
+            },
+            {
+                baslik: "Dar girişten geniş çalışma alanına: iki aşamalı erişim",
+                metin:
+                    "Tedarikçi tesislerinde sıkça karşılaştığımız senaryo şudur: kapı ve koridor dar, ama çalışma noktası geniş bir hacmin ortasında ve yüksekte. Bu durumda teleskopik gövdesi kapalıyken dar profile inen bir manlift seçilir; makine dar koridordan geçer, açık alana ulaştığında kol ve teleskopik gövde açılarak hedefe erişir. Bu iki aşamalı yaklaşım, tek parça geniş bir makine yerine dar bir makineyle geniş bir işi çözmemizi sağlıyor.",
+            },
+            {
+                baslik: "Refakat ve gizlilik: kol hareketi görünürlüğü artırır",
+                metin:
+                    "Manlift kolu açıldığında makine, sabit bir platforma göre tesisin daha geniş bir bölümünü görüş alanına alır — bu da kamera ve fotoğraf kısıtı olan hacimlerde ayrı bir dikkat gerektirir. Operatörün ve varsa refakatçinin, kol açıkken görüş alanına giren ekipman veya süreçle ilgili hiçbir görsel veya yazılı not almaması, tesisin gizlilik taahhüdünün standart bir maddesidir. Bu taahhüdü sevkiyat öncesi imzalıyoruz ve ekibimize iş başı brifinginde ayrıca hatırlatıyoruz.",
+            },
+            {
+                baslik: "Sivrihisar'da manlift: rüzgâr ve zemin taşıması öncelikli",
+                metin:
+                    "Kırsal ve enerji sahalarında manliftin önceliği FOD değil, açık alan koşullarıdır. Rüzgâr enerji santrali direkleri çevresinde aydınlatma ve kablo işlerinde kol menzili geniş olduğu için arazi tipi, geniş tekerlekli manlift tercih edilir; zemin sıkıştırılmış toprak veya stabilize ise bu makine güvenle ilerler. Rüzgâr hızı sepet kullanımının üretici sınırını aştığında çalışma durdurulur — bu yüzden kırsal manlift işlerinde teklifi esnek gün planıyla veriyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre manlift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Eskişehir'de manlift talep eden dört farklı saha profilini ve bunlara göre önerdiğimiz makine sınıfını gösterir. FOD veya gizlilik rejimi olan hacimlerde kol menzili ve gövde temizliği öncelikli, açık alan işlerinde ise zemin taşıması ve rüzgâr sınırı öncelikli değerlendirilir.",
+                ],
+                tablo: {
+                    basliklar: ["Saha profili", "Erişim ihtiyacı", "Öncelikli kısıt", "Uygun manlift"],
+                    satirlar: [
+                        ["Havacılık parça üretim hattı", "Tezgâh arkası / yüksek nokta", "FOD, kol menzili planı", "Akülü teleskopik, dar profil"],
+                        ["Çelik konstrüksiyon montaj sahası", "Köşe ve alt yüzey erişimi", "Sızıntısız hidrolik", "Akülü eklemli"],
+                        ["Kurumsal/gizlilik odalı tesis", "Geniş hacimde nokta erişim", "Cihaz ve kamera yasağı", "Akülü, sessiz"],
+                        ["Sivrihisar rüzgâr enerji sahası", "Direk çevresi aydınlatma/kablo", "Rüzgâr sınırı, zemin taşıması", "Arazi tipi teleskopik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif öncesi kol menzili için sorduğumuz beş soru",
+                paragraflar: [
+                    "Manlift teklifinde makaslı platforma göre bir soru daha ekliyoruz: çalışma noktasının zeminden yüksekliği, makinenin park edeceği noktadan hedefe yatay uzaklık, kolun geçeceği güzergâhta engel olup olmadığı, tesisin FOD/gizlilik rejimi ve cihaz kısıtı olup olmadığı, en dar giriş noktasının ölçüsü. Beşinci soru — kol güzergâhındaki engel — manlift teklifine özgüdür ve genellikle en çok atlanan maddedir; bir kroki veya birkaç fotoğrafla bu riski baştan kapatıyoruz.",
+                    "Bu bilgi eksik geldiğinde sahada karşılaştığımız en sık sorun, kolun hedefe ulaşırken bir raf veya kablo kanalına yaklaşmak zorunda kalmasıdır. Bu durumda ya çalışma açısı sınırlanır ya da makine değiştirilir; ikisi de teslimat gününde zaman kaybettirir.",
+                ],
+            },
+            {
+                baslik: "Operatörlü kiralama: manliftte neden daha sık tercih edilir",
+                paragraflar: [
+                    "Manliftin kol kontrolü, makaslı platformun düz yükselişine göre daha fazla dikkat ister — özellikle FOD hacimlerinde kol menzilini sınırlarken. Bu yüzden Eskişehir'deki tedarikçi tesislerinde manlift işlerinin büyük bölümünü operatörlü olarak yürütüyoruz. Operatörümüz hem makinenin sınırlarını hem tesisin FOD ve gizlilik kurallarını bilir, kol açısını menzildeki engellere göre kendisi ayarlar. Kısa süreli ve deneyimli personeliniz olan işlerde operatörsüz seçenek de sunuyoruz; kararı iş süresi ve tesisin onay süresine göre birlikte veriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manliftin kolu açıldığında FOD kontrolü nasıl yapılıyor?",
+                cevap:
+                    "Kolun tüm hareket yarıçapı, sepetin kendisi kadar kontrole dahildir. İş öncesi kolun ulaşacağı en geniş noktayı belirliyoruz ve bu alanın altını örtüyle kapatıyor veya taşınabilir ekipmanı geçici olarak uzaklaştırıyoruz. Kol menzilindeki sabit ekipman (raf, kablo kanalı, taşıyıcı) tespit edilip çalışma açısı buna göre sınırlandırılır. Sepete alınan alet ve sarf malzemesi, makaslı platformdaki gibi liste üzerinden sayılır ve iş sonunda tekrar sayılır. Bu planlama teklif aşamasında bir kroki veya fotoğraf üzerinden yapılıyor, sahada doğaçlama yapılmıyor.",
+            },
+            {
+                soru: "Manlift mi, makaslı platform mu — dar bir kapıdan geniş bir hacme erişim için hangisi?",
+                cevap:
+                    "Kapı dar ama hedef geniş bir hacmin ortasında ve yüksekteyse manlift genellikle tek çözümdür, çünkü teleskopik gövdesi kapalıyken dar bir profile iner ve içeri girdikten sonra açılıp hedefe ulaşır. Makaslı platform ise sepet genişliği sabit olduğu için bu tip iki aşamalı erişimde kullanılamaz. Buna karşılık hedef sabit bir noktadaysa ve engel yoksa makaslı platform hem daha kararlı hem genellikle daha ekonomik seçenektir. Kararı çalışma noktasının konumuna göre veriyoruz.",
+            },
+            {
+                soru: "Hidrolik sızıntı riski manliftte neden daha önemli?",
+                cevap:
+                    "Manliftin eklemli veya teleskopik kolu, makaslı platforma göre daha fazla hidrolik bağlantı noktası taşır — her eklem, silindir ve hortum bağlantısı ayrı bir sızıntı ihtimalidir. FOD hacimlerinde bir damla hidrolik yağ bile üretim sürecini durdurabilecek bir kontaminasyon sayılabilir. Bu yüzden girişten önce tüm bağlantılar tek tek gözle kontrol edilir ve en küçük damlama şüphesinde makine hemen değiştirilir, riske girilmez. Bu kontrol her manlift teslimatında, tesisin kendi FOD formu olsun olmasın standart olarak uygulanır.",
+            },
+            {
+                soru: "Gizlilik taahhüdü olan bir tesiste manlift operatörü ne kadar bilgiye erişiyor?",
+                cevap:
+                    "Kol açıldığında makine, sabit bir platforma göre daha geniş bir alanı görüş açısına alır ve bu, gizlilik taahhüdünün ayrıca vurguladığı bir noktadır. Operatörümüz ve varsa refakatçi, kol çalışırken görüş alanına giren hiçbir ekipman, süreç veya belgeyle ilgili not, fotoğraf veya sözlü paylaşım yapmaz; bu kural iş başı brifinginde ayrıca hatırlatılır. Cihaz kısıtı olan hacimlerde ekibimiz zaten telefon ve kamera taşımadan sahaya girer. Taahhüt metnini sevkiyattan önce imzalıyoruz, kapıda ayrıca imza gerekmiyor.",
+            },
+            {
+                soru: "Manlift kolunun menzili tesisimizdeki rafa çarpar mı, nasıl önlüyorsunuz?",
+                cevap:
+                    "Bunu teklif aşamasında önlüyoruz, sahada değil. Sizden çalışma noktasının bir fotoğrafını veya krokisini istiyoruz; bu görsel üzerinden kolun hedefe ulaşmak için izleyeceği yol ile çevredeki raf, kablo kanalı veya taşıyıcı arasındaki mesafeyi değerlendiriyoruz. Mesafe dar görünüyorsa iki seçenek sunuyoruz: daha kısa kollu ve dar profilli bir manlift veya farklı bir yaklaşım açısı. Bilgi netse teklif tek seferde kesinleşiyor; sahada anlık karar vermek hem güvenlik hem tesis ekipmanı açısından riskli olduğu için bundan kaçınıyoruz.",
+            },
+            {
+                soru: "Sivrihisar'daki rüzgâr santrali direği çevresinde manlift ile çalışılabilir mi?",
+                cevap:
+                    "Çalışılabilir, ancak burada belirleyici olan kol menzili değil rüzgâr ve zemindir. Direk çevresindeki aydınlatma veya kablo işlerinde arazi tipi, geniş tekerlekli bir manlift tercih ediyoruz çünkü zemin genellikle sıkıştırılmış toprak veya çakıldır. Rüzgâr hızı üreticinin belirlediği sepet kullanım sınırını aştığında çalışma anında durdurulur; bu yüzden kırsal manlift işlerinde bir ana gün, bir de yedek gün belirliyoruz. Direk yakınında yüksek gerilim hattı varsa güvenlik mesafesi ayrıca netleştirilir ve bu mesafe çalışma planına dahil edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eskişehir'in havacılık-savunma tedarik zinciri ve Sivrihisar'ın rüzgâr enerjisi altyapısı kamuya açık genel bilgidir; FOD (yabancı madde) rejimi, hidrolik güvenlik kontrolü ve gizlilik/refakat uygulaması sektör pratiği ve İSG mevzuatından gelir. Firma adı ve rakam uydurulmamıştır.",
+    },
 };
