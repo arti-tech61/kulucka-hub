@@ -1119,4 +1119,134 @@ export const AFYONPLATFORMKIRALAMA_COM: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-14. Sanayi tesislerinin dış saha ve yükleme rampası zemin koşullarının genel işleyişi kamuya açık sektör bilgisidir; belirli bir tesisin zemin durumu veya ölçüsü uydurulmamıştır. Kuru güzergâh seçimi ve alternatif erişim planlaması firma saha pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Enerji Tesisleri ve Tarım Sanayisi İçin Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, Afyon'daki enerji üretim tesisleri ile tarım sanayisi depolarının ortak paydası olan sabit yükseklikli, geniş sepetli işler için tercih edilen sınıftır. Güneş enerjisi santrallerinde invertör kabinlerinin bakımı, biyogaz tesislerinde boru köprüsü ve fermantasyon tankı üstü kontroller, şeker ve haşhaş depolarında çatı sacı onarımı — bu işlerin hepsi tek noktada uzun süre çalışılan, geniş bir çalışma alanına ihtiyaç duyan görevlerdir ve makaslı platform tam da bu profile uyar. Eklemli sepetli platformun aksine makaslı tip yatayda değil dikeyde hareket eder; bu da onu, GES sahasındaki düz beton veya sıkıştırılmış zeminlerde ve depo içi sabit koridorlarda daha kararlı kılar. Ancak dış sahada tarla düzeyinde düzensiz zemin varsa, standart tekerlekli makaslı platform yerine arazi kabiliyeti yüksek bir versiyon gerekir; bu ayrım sevkiyat öncesi netleştirilir. Sepet genişliği, aynı anda iki kişinin ve ekipmanın çalışmasına imkân tanıdığı için, tek kişilik dar sepetli sınıflara göre özellikle bakım ekiplerinin tercih ettiği bir çözümdür. Elektrik tesisatına yakın çalışmada, tesisin kendi güvenlik prosedürü ve gerilimsizlik teyidi olmadan sepet ilgili kota çıkarılmaz; bu kural GES ve biyogaz sahalarında istisnasızdır.",
+        maddeler: [
+            {
+                baslik: "GES invertör ve trafo kabini bakımında sabit konumlanma",
+                metin: "İnvertör kabinleri ve orta gerilim trafo yapıları genellikle sahanın belirli noktalarında sabit durur; makaslı platform bu noktaya konumlanıp dikey olarak yükselir ve sepet o pozisyonda uzun süre sabit kalabilir. Bu, panel dizileri arasında sürekli hareket eden bir iş değil, nokta bazlı bir bakım turudur — makaslı platformun güçlü yanı tam olarak budur.",
+            },
+            {
+                baslik: "Biyogaz tesisinde boru köprüsü ve tank üst kapağı erişimi",
+                metin: "Fermantasyon tankının üst kapağı veya boru köprüsü hattı boyunca yapılan kontrollerde sepetin geniş tabanı, ekip için hem araç hem malzeme taşıma alanı sağlar. Tank gövdesine değil, güvenli mesafedeki sağlam bir zemin noktasına konumlanılır; gaz güvenliği prosedürü olmadan kıvılcım çıkaran işlem yapılmaz.",
+            },
+            {
+                baslik: "Depo çatı sacı ve mahya onarımında geniş sepet avantajı",
+                metin: "Şeker ve haşhaş depolarında çatı sacı değişimi veya mahya havalandırma onarımı, malzemenin sepette taşınmasını gerektirir; makaslı platformun geniş tabanı bu işi tek seferde, sepeti indirip tekrar yükseltmeden tamamlamaya imkân tanır. Depo ürün doluyken bu iş planlanmaz, istif yüzeyinin taşıyıcı olmaması nedeniyle boşalma dönemine bırakılır.",
+            },
+            {
+                baslik: "Zemin tipine göre tekerlekli ve arazi tipi ayrımı",
+                metin: "Depo içi beton zeminlerde standart tekerlekli makaslı platform yeterlidir; GES sahasının tarla düzeyindeki düzensiz zemininde ise arazi kabiliyeti yüksek, daha geniş tekerlekli bir versiyon tercih edilir. Bu ayrım sahaya gidildiğinde değil, zemin fotoğrafı ve tarif paylaşıldığında önceden yapılır.",
+            },
+            {
+                baslik: "Elektrik altyapısına yakın çalışmada izin süreci",
+                metin: "GES ve biyogaz sahalarında enerjili hatlara veya ekipmana yakın konumlanmadan önce tesisin elektrik güvenlik prosedürü uygulanır; hattın gerilimsiz olduğu veya güvenli mesafenin korunduğu yazılı teyit edilmeden sepet o noktaya çıkarılmaz. Bu teyit süreci işin süresini bir miktar uzatabilir, teklifte önceden gösterilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre makaslı platform sınıf seçimi",
+                paragraflar: ["Enerji tesisi ve tarım sanayisi depolarında en sık karşılaşılan iş tipleri, gerektirdikleri sepet kapasitesi ve zemin uyumu açısından farklılaşır. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["İş tipi", "Tipik yükseklik bandı", "Zemin", "Önerilen sınıf"],
+                    satirlar: [
+                        ["GES invertör/trafo bakımı", "6-10 m", "Beton veya sıkıştırılmış toprak", "Arazi tipi tekerlekli makaslı"],
+                        ["Biyogaz tank üst kapağı", "8-12 m", "Servis koridoru beton", "Standart tekerlekli makaslı"],
+                        ["Depo çatı sacı/mahya onarımı", "8-14 m", "Depo içi beton", "Standart tekerlekli makaslı"],
+                        ["Depo raf üstü istif kontrolü", "6-10 m", "Depo içi beton", "Dar gövdeli makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli platforma göre ne zaman tercih edilir",
+                paragraflar: [
+                    "Eklemli sepetli platform, engel aşma ve yatay uzanma gerektiren işlerde daha esnektir; ancak makaslı platform, tek noktada uzun süreli ve sabit yükseklikte çalışılan işlerde hem daha kararlı hem daha geniş sepetiyle daha verimlidir. GES invertör bakımı veya depo çatı onarımı gibi işlerde hedef nokta sabit olduğundan makaslı tip önceliklidir.",
+                    "İki sınıf arasında karar verirken belirleyici soru şudur: iş tek bir noktada mı yapılacak, yoksa engelin arkasına veya yana doğru uzanma mı gerekiyor? İlk durumda makaslı, ikinci durumda eklemli tercih edilir.",
+                ],
+            },
+            {
+                baslik: "Operatör ve sertifikasyon",
+                paragraflar: [
+                    "Makaslı platform operatörlü veya operatörsüz kiralanabilir; enerji tesisi sahalarında çoğu zaman tesisin kendi iş güvenliği ekibi, çalışacak personelin yüksekte çalışma eğitim belgesini talep eder. Bu belge süreci sevkiyat öncesi netleştirilirse sahada gecikme yaşanmaz.",
+                    "Biyogaz tesislerinde ayrıca gaz ortamı güvenlik eğitimi istenebilir; bu, platformun kendisinden bağımsız, tesisin kendi prosedürüdür ve önceden sorulmalıdır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Makaslı platform GES sahasının tarla zemininde çalışabilir mi?", cevap: "Standart tekerlekli tip düzensiz tarla zemininde risklidir; bunun yerine arazi kabiliyeti yüksek, geniş tekerlekli bir versiyon tercih edilir. Zemin tipi ve nem durumu sevkiyat öncesi paylaşıldığında doğru sınıf ilk seferde gönderilir." },
+            { soru: "Biyogaz tesisinde tank gövdesine yakın çalışılabilir mi?", cevap: "Makine tank gövdesine değil, güvenli mesafedeki sağlam bir zemin noktasına konumlanır ve tesisin gaz güvenlik prosedürü uygulanır; kıvılcım riski taşıyan hiçbir işlem bu prosedür olmadan yapılmaz." },
+            { soru: "Depo çatısında ürün doluyken makaslı platformla çalışılır mı?", cevap: "Önerilmez; istif yüzeyi taşıyıcı olmadığından düşen bir parça partiyi riske atar. Çatı ve mahya işleri, ürünün boşaldığı dönem için planlanır, bu hem daha güvenli hem daha hızlı ilerler." },
+            { soru: "Makaslı platform ile eklemli platform arasındaki fark nedir?", cevap: "Makaslı platform dikeyde hareket eder ve tek noktada sabit, geniş bir sepet sunar; eklemli platform ise engel aşma ve yatay uzanma gerektiren işlerde daha esnektir. Sabit yükseklikte uzun süreli işlerde makaslı tip önceliklidir." },
+            { soru: "Elektrik hattına yakın çalışmadan önce ne istenir?", cevap: "Tesisin elektrik güvenlik prosedürü uygulanır; ilgili hattın gerilimsiz olduğu veya güvenli mesafenin korunduğu yazılı olarak teyit edilmeden sepet o kota çıkarılmaz. Bu teyit süresi teklifte önceden belirtilir." },
+            { soru: "Operatörlü kiralama şart mı?", cevap: "Hayır, operatörlü veya operatörsüz kiralanabilir; ancak enerji tesisi sahalarında tesisin kendi iş güvenliği ekibi çoğu zaman yüksekte çalışma eğitim belgesi talep eder. Bu belge süreci önceden netleştirilirse sahada gecikme yaşanmaz." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Makaslı platformun dikey hareket ve sabit konumlanma özelliği ile GES/biyogaz/depo tesislerindeki genel iş tipleri kamuya açık sektör bilgisidir; belirli bir tesisin ölçüsü veya kapasitesi uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Enerji Tesisleri ve Tarım Sanayisi İçin Manlift (Sepetli Yükseklik Aracı) Kiralama",
+        giris:
+            "Manlift, Afyon'daki enerji tesislerinde ve tarım sanayisi depolarında noktadan noktaya hızlı hareket ve uzun mesafe kat etme gerektiren işlerde makaslı platforma göre öne çıkan sınıftır. Güneş enerjisi santrallerinde saha aydınlatma direklerinin ve yüksek gerilim hattı direklerinin sıra hâlinde dizildiği geniş arazilerde, bir direkten diğerine geçmek için makinenin kendi motoruyla ilerleyebilmesi zaman kazandırır; teleskopik veya eklemli manlift bu profile uyar. Biyogaz tesisinde alev bacası ve gaz toplama hattı boyunca uzanan boru köprüsü kontrolünde, sepetin hem yükseğe çıkma hem yana uzanma kabiliyeti aranır — bu da manliftin eklemli bom yapısının güçlü olduğu bir alandır. Tarım sanayisi depolarında ise manlift, çatı mahyası boyunca ilerleyen uzun hatlı kontrollerde veya bina dışındaki servis yolunun zemin durumuna göre paletli yürüyüş takımlı versiyonlarla tercih edilir. Manliftin makaslı platforma göre temel farkı, sepetin dikey ekseninde değil bom ucunda hareket etmesidir; bu, engelin arkasına veya yana doğru uzanma gerektiren işlerde belirleyici avantajdır. Zemin ve mesafe bilgisi sevkiyat öncesi netleştirildiğinde doğru bom uzunluğu ve tekerlek tipi ilk seferde gönderilir.",
+        maddeler: [
+            {
+                baslik: "GES saha aydınlatma ve yüksek gerilim direği sırasında hareket",
+                metin: "GES sahalarında aydınlatma direkleri ve yüksek gerilim hattı direkleri genellikle sıra hâlinde, birbirinden belirli mesafede dizilir. Manlift kendi motoruyla bir direkten diğerine ilerleyebildiği için, her direk için makineyi yeniden konumlandırmak yerine tek sevkiyatla sıra boyunca ilerlenir; bu, geniş arazili GES sahalarında zaman kazandırır.",
+            },
+            {
+                baslik: "Biyogaz tesisinde alev bacası ve boru hattı boyunca uzanma",
+                metin: "Alev bacası kontrolü ve gaz toplama hattının boru köprüsü boyunca izlenmesi, hem yükseğe çıkma hem yana doğru uzanma gerektirir; eklemli bom yapısına sahip manlift, sepeti engelin (boru, kolon) arkasına taşıyabildiği için bu işte makaslı platforma göre daha uygundur. Gaz güvenliği prosedürü burada da geçerlidir.",
+            },
+            {
+                baslik: "Depo dış cephesi ve mahya hattında uzun mesafe kontrolü",
+                metin: "Tarım sanayisi deposunun dış cephesi veya çatı mahyası, tek bir noktadan değil uzun bir hat boyunca kontrol gerektirebilir; manlift bu hat boyunca kendi motoruyla ilerleyerek sepeti tekrar tekrar indirip yükseltme ihtiyacını ortadan kaldırır. Bina çevresindeki zemin toprak veya stabilize ise paletli yürüyüş takımlı versiyon tercih edilir.",
+            },
+            {
+                baslik: "Bom uzunluğu ve erişim mesafesine göre sınıf seçimi",
+                metin: "Manliftin bom uzunluğu, hedefe olan yatay ve dikey mesafeye göre belirlenir; sadece hedef yükseklik değil, makinenin konumlanabileceği en yakın sağlam nokta ile hedef arasındaki mesafe de hesaba katılır. Bu mesafe bilgisi paylaşılmadan doğru bom sınıfı seçilemez.",
+            },
+            {
+                baslik: "Elektrik hattı yakınında güvenli mesafe kuralı",
+                metin: "Yüksek gerilim hattı direklerine yakın manlift çalışmasında, tesisin kendi elektrik güvenlik prosedürü ve güvenli mesafe teyidi önceliklidir; bom ucu, gerilimsizlik veya güvenli mesafe yazılı olarak teyit edilmeden hatta yaklaştırılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre manlift bom yapısı seçimi",
+                paragraflar: ["Enerji tesisi ve tarım sanayisi işlerinde gerekli hareket tipi (dikey/yatay/mesafe) manlift sınıfını belirler. Aşağıdaki tablo bu ayrımı özetler."],
+                tablo: {
+                    basliklar: ["İş tipi", "Gereken hareket", "Zemin", "Önerilen bom tipi"],
+                    satirlar: [
+                        ["GES direk sırası boyunca ilerleme", "Uzun mesafe, düşük yükseklik", "Tarla/sıkıştırılmış toprak", "Teleskopik bom, arazi tipi"],
+                        ["Biyogaz alev bacası/boru hattı", "Yükseğe çıkma + yana uzanma", "Servis koridoru beton", "Eklemli bom"],
+                        ["Depo dış cephe/mahya hattı", "Uzun hat boyunca ilerleme", "Toprak/stabilize", "Paletli yürüyüş takımlı"],
+                        ["Trafo/kabin nokta bakımı", "Sabit nokta, orta yükseklik", "Beton", "Kompakt eklemli bom"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı platforma göre ne zaman tercih edilir",
+                paragraflar: [
+                    "Manlift, hedefin engelin arkasında olduğu veya bir noktadan diğerine sık sık hareket edilmesi gereken işlerde makaslı platforma göre üstündür; buna karşılık tek noktada uzun süre sabit çalışılacak geniş sepet gerektiren işlerde makaslı platform daha kararlı ve verimlidir.",
+                    "GES sahasında direk sırası boyunca ilerleme veya biyogaz tesisinde boru hattının arkasına uzanma gibi işler manlift gerektirir; depo çatısında geniş bir alanda sabit duran onarım işleri ise makaslı platforma daha uygundur.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat öncesi paylaşılması gereken bilgiler",
+                paragraflar: [
+                    "Doğru manlift sınıfının ilk seferde gönderilebilmesi için hedefe olan yatay mesafe, zemin tipi (beton, toprak, stabilize) ve varsa yüksek gerilim hattına yakınlık bilgisi sevkiyat öncesi istenir. Bu bilgiler eksik paylaşıldığında sahada bom uzunluğu yetersiz kalabilir veya zemin makineyi taşımayabilir.",
+                    "Özellikle GES ve biyogaz sahalarında elektrik güvenlik prosedürünün süresi de teklife dahil edilir; bu, işin toplam süresini etkileyen ama önceden bilinebilen bir kalemdir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Manlift ile makaslı platform arasındaki temel fark nedir?", cevap: "Manlift bom ucunda hareket eder ve engelin arkasına veya yana doğru uzanabilir; makaslı platform dikeyde yükselir ve tek noktada geniş, sabit bir sepet sunar. Hareket ve mesafe gerektiren işlerde manlift, sabit nokta işlerinde makaslı platform tercih edilir." },
+            { soru: "GES sahasında direk sırası boyunca tek sevkiyatla çalışılabilir mi?", cevap: "Evet, manlift kendi motoruyla bir direkten diğerine ilerleyebildiği için sıra boyunca tek sevkiyatla çalışmak mümkündür. Bu, her direk için makineyi yeniden taşımaktan daha hızlı ve ekonomiktir." },
+            { soru: "Biyogaz tesisinde boru hattının arkasına uzanmak gerekirse ne olur?", cevap: "Eklemli bom yapısına sahip manlift, sepeti boru veya kolon gibi engellerin arkasına taşıyabilir; bu nedenle bu tip işlerde makaslı platform yerine manlift tercih edilir. Gaz güvenliği prosedürü işlem boyunca geçerlidir." },
+            { soru: "Toprak veya stabilize zeminde manlift kullanılabilir mi?", cevap: "Standart tekerlekli tip bu zeminlerde risklidir; paletli yürüyüş takımlı bir versiyon tercih edilir. Zemin tipi ve nem durumu sevkiyat öncesi paylaşıldığında doğru versiyon ilk seferde gönderilir." },
+            { soru: "Doğru bom uzunluğu nasıl belirlenir?", cevap: "Sadece hedef yükseklik değil, makinenin konumlanabileceği en yakın sağlam nokta ile hedef arasındaki yatay mesafe de hesaba katılır. Bu iki bilgi paylaşılmadan doğru bom sınıfı seçilemez, bu yüzden sevkiyat öncesi istenir." },
+            { soru: "Yüksek gerilim hattına yakın manlift çalışması nasıl yapılır?", cevap: "Tesisin kendi elektrik güvenlik prosedürü uygulanır; hattın gerilimsiz olduğu veya güvenli mesafenin korunduğu yazılı olarak teyit edilmeden bom ucu hatta yaklaştırılmaz. Bu teyit süreci teklifte önceden belirtilir." },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Manliftin bom hareketi ve GES/biyogaz/depo tesislerindeki genel iş tipleri kamuya açık sektör bilgisidir; belirli bir tesisin ölçüsü veya kapasitesi uydurulmamıştır.",
+    },
 };

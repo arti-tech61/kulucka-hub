@@ -1226,4 +1226,183 @@ export const AMASYAPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Amasya'nın Yeşilırmak vadisi kırsal arazi yapısı ve OSB'nin genişleyen parselleri kamuya açık genel bilgidir; zemin güvenliği ve makine sensör mekanizması sektör geneli teknik bilgidir, saha kontrol adımları firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Amasya'da Gıda ve Meyve İşleme Tesisleri İçin Makaslı Platform Kiralama",
+        giris:
+            "Amasya'nın meyve işleme, tasnif ve soğuk hava depolama tesislerinde en çok talep edilen sınıf makaslı platformlardır; bunun nedeni işin doğası gereği düşey ve tekrarlı olmasıdır. Bir tasnif hattının üst tamburu, bir soğuk deponun raf koridoru veya bir paketleme salonunun tavan aydınlatması, kolun yana yatarak ulaştığı bir nokta değil, tam altından dikey çıkışla ulaşılan bir noktadır — makaslı platformun geniş ve düz sepeti de bu işe göre tasarlanmıştır: birkaç kişi ve malzeme aynı anda sepette durabilir, bu da tek seferde daha fazla iş bitirmeyi sağlar. Gıda üretim hacimlerinde egzozsuz akülü tahrik zorunluluktur; dizel bir makine kapalı bir paketleme salonuna giremez. Zemin de belirleyicidir: epoksi kaplı üretim zemininde iz bırakmayan poliüretan tekerlek, hijyen denetiminden geçen tek seçenektir. Bu sayfa, Amasya'daki gıda ve meyve işleme tesislerinde makaslı platformun hangi işlerde, hangi zemin ve hijyen kurallarıyla, hangi koridor genişliğinde kullanıldığını anlatır; dış cephe veya çatı erişimi bu sayfanın kapsamı dışındadır, o iş için eklemli/teleskopik sınıfa bakılmalıdır.",
+        maddeler: [
+            {
+                baslik: "Akülü tahrik zorunluluğu — kapalı gıda hacimlerinde egzoz yasağı",
+                metin:
+                    "Meyve işleme ve paketleme salonlarının çoğu kapalı, havalandırması kontrollü hacimlerdir; ürün açıkta bulunduğu için hiçbir yanma gazı bu hacme giremez. Dizel veya LPG'li bir makaslı platform bu tesislere sokulmaz; filo tamamen akülü modellerden oluşur. Akü kapasitesi de göz önünde tutulur — uzun bir tasnif hattının bir ucundan diğerine tek şarjla gidip gelinebilmesi, iş planının parçasıdır ve şarj noktası olmayan uzak bir hatta iş, molalarla bölünerek planlanır.",
+            },
+            {
+                baslik: "Poliüretan tekerlek ve iz bırakmayan zemin teması",
+                metin:
+                    "Tasnif ve paketleme salonlarının zemini genellikle epoksi kaplıdır ve bu kaplama görsel olduğu kadar hijyen açısından da denetime tabidir; kauçuk tekerlek zeminde siyah iz bırakır ve bu iz kalite biriminin uyarı listesine girer. Makaslı platformlarımızın tamamında iz bırakmayan gri poliüretan tekerlek kullanılır. Yine de zemine yeni dökülen ürün artığı veya nem varsa tekerlek kayabilir; bu yüzden çalışma öncesi zemin görsel olarak kontrol edilir ve gerekirse temizlenmesi istenir.",
+            },
+            {
+                baslik: "Dar koridor ve raf aralığında makaslı sınıf sınırı",
+                metin:
+                    "Soğuk hava depolarında raf koridorları forklift dönüş yarıçapına göre daraltılmıştır ve standart genişlikte bir makaslı platform bu koridorların bir kısmına giremez. Bu durumda dar şasili makaslı modeller veya dikey mast tipi platformlar tercih edilir; ikisi de düşey erişimde makaslıyla aynı mantıkla çalışır ama gövde genişliği daha dardır. Koridor genişliği ve raf üst kotu paylaşılmadan gönderilen standart makine, sahada dönemeyip geri dönebilir; bu yüzden keşifte bu iki ölçü ilk sorulan bilgidir.",
+            },
+            {
+                baslik: "Hattın üstünde çoklu ekip çalışması ve sepet yükü",
+                metin:
+                    "Tasnif hattının üst tamburu, kamera grubu ve kablo tavası gibi noktalarda sıklıkla iki kişi birlikte çalışır — biri sökme, diğeri parça tutma görevindeyken. Makaslı platformun geniş sepeti bu ikili çalışmaya izin verir; tek kişilik dar sepetli sınıflarda aynı iş iki ayrı çıkışla yapılmak zorunda kalır ve süre uzar. Sepet yük kapasitesi aşılmadığı sürece malzeme ve alet de aynı çıkışta yukarı taşınabilir, bu da iniş-çıkış sayısını azaltır.",
+            },
+            {
+                baslik: "Sezon dışı toplu bakım penceresi ve hijyen protokolü",
+                metin:
+                    "Hasat ve işleme sezonu başladığında tesis kesintisiz çalışır ve hat üstü ile depo içi erişim için uygun pencere daralır; sezon dışı aylar bu işlerin toplandığı dönemdir. Makine hacme girmeden önce dış yüzey ve tekerlek silinir, altındaki açık ürün kaldırılır veya örtülür, düşebilecek küçük parça sayımlı alınıp iş sonunda tekrar sayılır. Bu adımlar işletmenin kalite biriminin talebini beklemeden, standart iş akışımızın parçası olarak uygulanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Gıda ve meyve işleme hacminde makaslı sınıf seçimi",
+                paragraflar: [
+                    "Amasya'daki işleme ve depolama tesislerinde en sık karşılaşılan çalışma alanı tipi, belirleyici kısıtı ve önerilen sınıf aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Çalışma alanı", "Belirleyici kısıt", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Tasnif/paketleme hattı üstü", "Sepet genişliği, çoklu ekip", "Standart akülü makaslı"],
+                        ["Soğuk depo dar raf koridoru", "Koridor genişliği", "Dar şasili makaslı veya dikey mast"],
+                        ["Geniş paketleme salonu tavanı", "Yükseklik + iz bırakmama", "Poliüretan tekerlekli standart makaslı"],
+                        ["Ambalaj deposu iç hacmi", "Egzozsuz çalışma zorunluluğu", "Akülü makaslı, dizel kabul edilmez"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hijyen denetiminden geçme — makine kabul kriterleri",
+                paragraflar: [
+                    "Gıda tesisine giren her makine, işletmenin kendi hijyen ekibinin ya da denetçisinin gözünden de geçer. Tekerlek ve gövde temizliği, hidrolik sızıntı kontrolü, gevşek parça olmadığının teyidi — bu üç kontrol, makine hacme sokulmadan önce tamamlanır ve gerekirse tesis yetkilisi de kendi kontrolünü yapar.",
+                    "Bazı tesislerde makine girişi için ayrı bir kayıt defteri veya form istenir; bu durumda operatörümüz formu doldurur ve tesisin prosedürüne uyar. Prosedür dışı bir talebe (örneğin dizel makine sokma) hayır denir; bu, gıda güvenliği açısından pazarlığa açık bir konu değildir.",
+                ],
+            },
+            {
+                baslik: "Sezonluk planlama — hasat öncesi ve sonrası fark",
+                paragraflar: [
+                    "Hasat öncesi dönemde tesisler genellikle hat kurulumu, kalibrasyon ve tavan ekipmanı bakımı için yoğun bir erişim ihtiyacı duyar; bu dönemde birden fazla makine talebi aynı haftaya denk gelebilir, bu yüzden erken rezervasyon önerilir. Hasat sonrası dönemde ise iş, depolama alanlarının yıllık bakımına kayar — evaporatör temizliği, raf sistemi kontrolü, aydınlatma yenilemesi gibi kalemler bu pencerede toplanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dizel makaslı platform gıda üretim salonuna girebilir mi?",
+                cevap: "Hayır. Ürünün açıkta bulunduğu kapalı gıda hacimlerine hiçbir yanma gazı üreten makine sokulmaz; filomuzdaki tüm makaslı platformlar akülüdür. Bu kural hiçbir istisnaya açık değildir, tesisin kendi hijyen prosedürü de aynı şartı arar.",
+            },
+            {
+                soru: "Epoksi zeminde tekerlek izi bırakır mı?",
+                cevap: "Standart kauçuk tekerlekli bir makine iz bırakabilir; bu yüzden makaslı platformlarımızda iz bırakmayan gri poliüretan tekerlek kullanılır. Zemine yeni dökülmüş ürün artığı veya ıslaklık varsa yine de kayma riski oluşur, bu durumda önce zeminin temizlenmesi istenir.",
+            },
+            {
+                soru: "Soğuk hava deposundaki dar raf koridoruna hangi makine girer?",
+                cevap: "Koridor genişliği forklift dönüş yarıçapına göre daraltılmışsa standart genişlikte makaslı platform sığmayabilir; bu durumda dar şasili makaslı model veya dikey mast tipi platform önerilir. Koridor genişliği ve raf üst kotunu keşif aşamasında paylaşmanız, doğru makinenin ilk seferde gitmesini sağlar.",
+            },
+            {
+                soru: "Hat çalışırken üst tamburda bakım yapılabilir mi?",
+                cevap: "Hayır, tasnif ve paketleme hatları çalışırken üstünde çalışılmaz; iş, hattın kısa duruş penceresinde yapılır. Akülü makaslı platform kurulum gerektirmediği için bu kısa pencereyi verimli kullanır; iskele kurmak gibi zaman alan bir hazırlığa gerek kalmaz.",
+            },
+            {
+                soru: "Sepette iki kişi birlikte çalışabilir mi?",
+                cevap: "Sepetin izin verdiği yük kapasitesi aşılmadığı sürece evet; makaslı platformun geniş sepeti, biri sökme diğeri parça tutma görevinde olan iki kişilik çalışmaya uygundur. Kapasite ve sepet ölçüsü modelden modele değişir, kiralama öncesi bu bilgi paylaşılır.",
+            },
+            {
+                soru: "Hasat sezonunda tesise makine göndermek mümkün mü?",
+                cevap: "Mümkün ama pencere çok dardır; tesis günün her saati çalıştığı için hat üstü ve depo içi erişim işleri neredeyse imkânsız hâle gelir. Bu yüzden bakım listesini sezon dışı toplu bir pencerede kapatmayı öneririz; acil bir arıza durumunda ise mevcut kısa duruşlara göre planlama yapılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'nın meyve işleme ve soğuk hava depolama tesisleri kamuya açık genel bilgidir; gıda hacimlerinde egzozsuz makine zorunluluğu ve hijyen kabul kriterleri sektör geneli uygulamadır, saha iş akışı firma pratiğidir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Amasya'da Meyve İşleme ve Soğuk Depo Tesislerinde Manlift Kiralama",
+        giris:
+            "\"Manlift\" Amasya'daki gıda ve meyve işleme tesislerinde çoğunlukla iç mekan işiyle karıştırılan ama aslında dış cephe ve çatı işine karşılık gelen bir taleptir; bu sayfa tam olarak o dış hacmi kapsar. Meyve işleme tesislerinin çatı üstü havalandırma bacaları, soğuk hava depolarının dış cephedeki kondanser üniteleri, silo ve tank gövdeleri, yükleme rampalarının üzerindeki tente ve aydınlatma direkleri — bunların hepsi tesis binasının dışında, açık havada ve genellikle yerden uzak noktalardadır. Bu işler için eklemli veya teleskopik bomlu bir platform gerekir; kol yana ve yukarı doğru açılarak çatı saçağının, cephenin ya da bir tankın yan yüzeyinin arkasına geçebilir — makaslı platformun dikey çıkışı bu geometriye uymaz. Amasya'nın kırsal çevresindeki tesislerde zemin de çoğu zaman stabilize veya toprak olduğundan, dizel tahrikli ve geniş lastikli modeller iç mekandakinden farklı bir seçim kriteri getirir. Bu sayfa, tesis dışındaki yüksek erişim işlerinde manlift seçiminin nasıl yapıldığını anlatır; hat üstü veya depo içi iç mekan erişimi için makaslı platform sayfamıza bakılmalıdır.",
+        maddeler: [
+            {
+                baslik: "Soğuk depo dış cephesindeki kondanser ve soğutma ünitesi erişimi",
+                metin:
+                    "Bir soğuk hava deposunun soğutma sistemi ikiye ayrılır: iç mekandaki evaporatör ve dış cephedeki kondanser/kompresör grubu. Kondanser üniteleri genellikle binanın dış duvarına, bazen çatıya monte edilir ve düz bir merdivenle değil, kolun yandan dolaşmasıyla ulaşılan bir noktadadır. Yılda bir-iki kez yapılan bakımda kanatçık temizliği ve fan kontrolü için eklemli bomlu bir platform, kolu bina cephesinin üzerinden geçirerek üniteye doğrudan erişir.",
+            },
+            {
+                baslik: "Çatı üstü havalandırma, baca ve güneş paneli erişimi",
+                metin:
+                    "İşleme tesislerinin çatısında hem işleme sürecinin buhar/koku tahliyesini sağlayan bacalar hem de son yıllarda yaygınlaşan çatı üstü güneş paneli grupları bulunur. Bu ekipmanlara çatıya çıkmadan, kolu doğrudan hedefin yanına konumlandırarak erişmek hem daha güvenlidir hem de çatı kaplamasına yürüyerek zarar verme riskini ortadan kaldırır. Teleskopik bomlu modeller düz bir hat üzerinde uzun menzile ulaşır, eklemli modeller ise saçak altı gibi engebeli noktalarda kolu bükerek geçer.",
+            },
+            {
+                baslik: "Silo, tank ve depolama gövdelerinde dış yüzey erişimi",
+                metin:
+                    "Meyve suyu veya konsantre üretimi yapan tesislerde dış mekanda duran silo ve tank gövdeleri, dış yüzey temizliği, boya bakımı veya vana-boru bağlantı kontrolü için düzenli erişim ister. Bu gövdeler genellikle dairesel olduğundan kolun tankın eğrisini takip edebilmesi gerekir; eklemli bomlu manlift bu hareketi sağlar, sabit bir doğru hat üzerinde çalışan sınıflar tankın arka yüzüne ulaşamaz.",
+            },
+            {
+                baslik: "Yükleme rampası ve dış aydınlatma direklerinde uzun menzil",
+                metin:
+                    "Tesisin sevkiyat cephesindeki yükleme rampaları, tente sistemleri ve aydınlatma direkleri hem yerden yüksekte hem de genellikle bina duvarından bir miktar uzaktadır — kamyonların manevra alanı buna izin vermez. Teleskopik bomlu manlift, taban noktasını güvenli bir mesafede tutarken kolu uzatarak bu tip uzak-yüksek noktalara ulaşır; makaslı platformun tabanı hedefin tam altına gelmesi gerektiği için bu geometride kullanılamaz.",
+            },
+            {
+                baslik: "Kırsal ve stabilize zeminde dizel tahrik ve geniş lastik gerekliliği",
+                metin:
+                    "Amasya'nın kırsal çevresindeki bazı meyve işleme ve soğuk hava depolama tesisleri, asfalt değil stabilize veya sıkıştırılmış toprak saha üzerine kuruludur. Bu zeminde akülü ve dar tekerlekli bir makine yerine, geniş lastikli ve dizel tahrikli manlift tercih edilir; dizel tahrik dış mekanda egzoz kısıtı olmadığı için sorun yaratmaz, geniş lastik ise düzensiz zeminde taşıma kapasitesini korur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dış hacim tipine göre manlift sınıfı eşleşmesi",
+                paragraflar: [
+                    "Amasya'daki gıda ve meyve işleme tesislerinin dış mekan erişim ihtiyaçları ve önerilen manlift sınıfı aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Dış hacim / hedef", "Belirleyici kısıt", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Soğuk depo dış kondanser", "Cephe üzerinden kol geçişi", "Eklemli bomlu dizel"],
+                        ["Çatı üstü baca / panel", "Çatıya çıkmadan erişim", "Teleskopik veya eklemli bomlu"],
+                        ["Silo / tank dış yüzeyi", "Dairesel gövde takibi", "Eklemli bomlu"],
+                        ["Yükleme rampası / aydınlatma direği", "Uzak taban, yüksek hedef", "Teleskopik bomlu, uzun menzil"],
+                    ],
+                },
+            },
+            {
+                baslik: "İç mekan-dış mekan ayrımı neden önemli",
+                paragraflar: [
+                    "\"Manlift\" ve \"platform\" kelimeleri sahada sık sık birbirinin yerine kullanılır, ama makine seçimi bu ayrıma bağlıdır. Kapalı bir paketleme salonunda dizel bir manlift çalıştırılamaz; açık bir çatıda ise makaslı platformun dikey çıkış geometrisi çoğu zaman hedefe ulaşamaz.",
+                    "Bu yüzden talep alırken ilk sorduğumuz soru işin iç mi dış mı olduğudur; cevap net değilse (örneğin yarı açık bir yükleme rampası), fotoğraf istenir ve doğru sınıf birlikte netleştirilir.",
+                ],
+            },
+            {
+                baslik: "Kış aylarında dış mekan çalışma koşulları",
+                paragraflar: [
+                    "Amasya'da kış ayları dış mekan erişim işlerini zorlaştırır; donmuş veya karla kaplı stabilize zeminde geniş lastikli dizel manlift bile taşıma kapasitesini kaybedebilir. Bu dönemde çalışma öncesi zemin durumu telefonla veya fotoğrafla teyit edilir; buzlu bir yüzeyde iş, zemin çözülene ya da tuzlanana kadar ertelenir. Rüzgâr da ayrı bir kısıttır — yüksek bomlu bir manlift belirli bir rüzgâr hızının üzerinde açık havada çalıştırılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark nedir, hangisini istemeliyim?",
+                cevap: "Makaslı platform dikey çıkar ve tabanının tam üzerindeki noktaya ulaşır; iç mekan hat üstü ve raf erişiminde kullanılır. Manlift (eklemli veya teleskopik bomlu) kolu yana ve yukarı açarak tabanından uzak, engebeli veya cephe arkasındaki noktalara ulaşır; çatı, cephe, tank ve dış aydınlatma işlerinde kullanılır. İki sınıf birbirinin yerine geçmez; hedefin iç mi dış mı, tabanın tam altında mı yoksa yanda mı olduğu seçimi belirler.",
+            },
+            {
+                soru: "Soğuk deponun dış cephesindeki kondanser ünitesine hangi makine gelir?",
+                cevap: "Eklemli bomlu bir manlift önerilir; kol bina cephesinin üzerinden geçerek üniteye doğrudan erişir. Ünitenin yerden yüksekliği ve cepheden çıkıntı miktarı paylaşıldığında, gereken menzile göre eklemli mi teleskopik mi olacağı netleşir.",
+            },
+            {
+                soru: "Çatıya çıkmadan çatı üstü ekipmana bakım yapılabilir mi?",
+                cevap: "Evet, bu manlift kullanmanın temel amaçlarından biridir. Kol, hedefin yanına konumlandırılır ve operatör sepetten çalışır; çatı kaplamasına basmak gerekmez, bu hem güvenlik hem çatı ömrü açısından tercih edilen yöntemdir.",
+            },
+            {
+                soru: "Tesisimizin sahası stabilize toprak, makine batabilir mi?",
+                cevap: "Kuru ve sıkı stabilize zeminde geniş lastikli dizel manlift genelde sorunsuz çalışır. Zemin yağış sonrası yumuşamışsa veya kışın donmuşsa taşıma kapasitesi değişir; bu durumda iş öncesi zemin yerinde kontrol edilir, gerekirse iş ertelenir veya farklı bir güzergah değerlendirilir.",
+            },
+            {
+                soru: "Yükleme rampasındaki tenteye erişim için taban rampaya ne kadar yaklaşabilir?",
+                cevap: "Kamyon manevra alanı genellikle tabanın tam rampanın altına girmesine izin vermez; bu yüzden teleskopik bomlu bir manlift tercih edilir, taban güvenli bir mesafede durur ve kol uzayarak hedefe ulaşır. Kesin mesafe sahada ölçülür, keşifte rampa önü genişliği sorulur.",
+            },
+            {
+                soru: "Kışın rüzgârlı havada dış mekanda çalışılabilir mi?",
+                cevap: "Yüksek bomlu manliftlerin belirli bir rüzgâr hızı üzerinde açık havada çalıştırılması güvenli değildir; bu sınır modelden modele değişir ve operatör sahada rüzgâr durumunu değerlendirir. Rüzgâr sınırı aşılmışsa iş, hava sakinleşene kadar ertelenir; bu konuda pazarlık yapılmaz."},
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Amasya'nın meyve işleme, soğuk hava depolama tesisleri ve kırsal çevre yapısı kamuya açık genel bilgidir; manlift/makaslı platform geometri farkı ve dış mekan çalışma kısıtları (rüzgar, zemin) sektör geneli teknik bilgidir, saha iş akışı firma pratiğidir.",
+    },
 };

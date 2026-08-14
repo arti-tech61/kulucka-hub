@@ -2019,4 +2019,202 @@ export const AFYONMANLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Afyon’un tarım ağırlıklı coğrafyasında tarla, bahçe ve köy yolu zemin koşullarının değişkenliği kamuya açık genel bilgidir; zemin değerlendirme adımları ve indirmeme kararı firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Değirmen, Yem ve Gıda Tesisi İç Mekanlarında Makaslı Platform Kiralama",
+        giris:
+            "Emirdağ–Sinanpaşa hattındaki tarım sanayii tesislerinin büyük kısmı, dışarıdan bakıldığında birbirine benzeyen sac cepheli hangarlardır; ama içeri girildiğinde karşılaşılan tablo hangi tesise gidildiğine göre tamamen değişir. Bir un değirmeninde iç mekân valsler, elek katları ve un nakil boruları arasına sıkışmış dar bir üretim hattıdır; bir yem fabrikasında karıştırıcı üstü dolum ağızları ve torbalama hattı tavanıdır; bir süt işleme tesisinde paslanmaz tanklar arasındaki dar koridor ve boru askı hattıdır; bir meyve paketleme evinde ise sıralama bandının üstündeki aydınlatma ve havalandırma kanalıdır. Bu iç mekânların ortak noktası, zeminin genelde düz ve sağlam olması ama etrafın darlığıdır — makine dönemeyecek kadar dar bir koridora sığmalı, üretim hattını durdurmadan çalışabilmeli ve tavan yüksekliğini aşmadan hedefe erişmelidir. Makaslı platform bu profile diğer sınıflardan daha iyi cevap verir: dikey hareketi sabit bir taban üzerinden yapar, dar koridorda ilerleyebilecek gövdelere sahiptir ve düz beton zeminde bomlu sınıflara göre daha az yer kaplar. Bu sayfada değirmen, yem, süt-et ve meyve paketleme tesislerinin iç mekânlarında makaslı platform kiralama hizmetimizin tesis tipine göre nasıl şekillendiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Değirmen ve un fabrikası iç hatlarında dar koridor erişimi",
+                metin:
+                    "Un değirmenlerinde vals katları, elek gövdeleri ve pnömatik nakil boruları arasında kalan servis koridorları çoğunlukla bir insanın rahatça geçebileceği genişliktedir. Bu koridorlara giren makaslı gövde, dar taban ölçüsü ve dik yükselme kabiliyetiyle tercih edilir; bomlu sınıfların yatay uzanımı burada işe yaramaz, çünkü hedef hep tam tepede, düz bir hatta konumlanmıştır. Un tozunun yoğun olduğu katlarda elektrikli tahrik tercih edilir; iç mekân havalandırması zayıfsa dizel makine önerilmez.",
+            },
+            {
+                baslik: "Yem fabrikasında karıştırıcı üstü ve torbalama hattı",
+                metin:
+                    "Yem fabrikalarının iç mekânında iki ayrı çalışma kotu öne çıkar: karıştırıcı üstündeki dolum ağızları ve hammadde besleme kapakları, torbalama hattının üstündeki toz toplama davlumbazı ve aydınlatma armatürleri. İkisi de sabit bir zeminden, üretim hattı durdurulmuş hâldeyken çalışılır. Hat durdurulmadan makine hattın üstüne konumlandırılmaz; bu koşul üretim planlamasıyla önceden netleştirilir ve iş genelde vardiya arası boşluğa sığdırılır.",
+            },
+            {
+                baslik: "Süt ve et işleme tesislerinde paslanmaz hat arası koridor",
+                metin:
+                    "Süt ve et işleme tesislerinde paslanmaz çelik tanklar, pastörizatör gövdeleri ve boru askı hatları birbirine yakın yerleştirilir; koridor genişliği burada da makine seçimini belirleyen ilk kriterdir. Hijyen kuralı gereği bu alanlarda dizel makine kullanılmaz, gövde ve tekerlekler girişten önce temizlenir; bazı tesislerde makinenin belirli bir dezenfeksiyon noktasından geçmesi şart koşulur. Bu kurallar önceden bildirilirse çalışma günü kaybı yaşanmaz.",
+            },
+            {
+                baslik: "Meyve paketleme evlerinde bant üstü aydınlatma ve havalandırma",
+                metin:
+                    "Meyve paketleme evlerinde sıralama ve boylama bantlarının üstünde kalan aydınlatma armatürleri, havalandırma kanalları ve soğuk hava geçiş kapıları düzenli bakım ister. Kampanya döneminde bant durmadan çalıştığı için bu bakım genelde kampanya öncesi veya bandın günlük durma saatine sıkıştırılır; kampanya ortasında iş girmesi istenmez çünkü hattın bir saatlik durması ürün akışını geciktirir. Bu yüzden bakım tarihini kampanya takviminden önce netleştirmeyi öneririz.",
+            },
+            {
+                baslik: "Düz beton zeminde hızlı kurulum ve toplanma",
+                metin:
+                    "İç mekân tesislerinin ortak avantajı zeminin düz ve sağlam beton olmasıdır; bu, makaslı platformun kurulum ve toplanma süresini kısaltır ve hat kesintisini minimumda tutar. Ancak zemin sağlam olsa da geçiş kapıları, rampa eşikleri ve tavan yüksekliği önceden ölçülmelidir — kapı genişliği makine gövdesinden dar çıkarsa iş sahada değil, planlama aşamasında düzeltilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis tipine göre makaslı platform ihtiyacı",
+                paragraflar: [
+                    "Emirdağ–Sinanpaşa hattındaki tarım sanayii tesislerinin iç mekân profili birbirinden farklıdır. Aşağıdaki tablo tesis tipini, baskın iş kalemini ve önerilen makaslı sınıfını toplar.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Baskın iş kalemi", "Zemin/erişim özelliği", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Un değirmeni", "Vals/elek katı, nakil borusu", "Dar servis koridoru", "Dar tabanlı elektrikli makaslı"],
+                        ["Yem fabrikası", "Karıştırıcı üstü, torbalama hattı", "Hat durdurma gerektirir", "Orta yükseklik elektrikli makaslı"],
+                        ["Süt/et işleme tesisi", "Tank arası koridor, boru hattı", "Hijyen kuralı, dizel yasağı", "Elektrikli, temizlenebilir gövde"],
+                        ["Meyve paketleme evi", "Bant üstü aydınlatma/havalandırma", "Kampanya döneminde kısıtlı pencere", "Kompakt elektrikli makaslı"],
+                        ["Depo/sevkiyat alanı", "Raf üstü, yükleme kapısı üstü", "Düz beton, geniş açıklık", "Standart elektrikli/dizel makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden makaslı, neden bomlu değil",
+                paragraflar: [
+                    "Tarım sanayii tesislerinin iç mekânlarında hedef nokta çoğunlukla tam tepede, dar bir hat üzerindedir; bu durumda bomlu sınıfların sağladığı yatay uzanım bir avantaj değil, gereksiz bir gövde genişliğidir. Makaslı platform dar koridora daha kolay sığar, dikey hareketi daha stabil yapar ve düz zeminde daha hızlı kurulur.",
+                    "Bomlu sınıfı yalnızca hedef nokta bir engelin arkasında kaldığında veya koridor tamamen makine gövdesini almayacak kadar darsa öneririz; bu istisnai durumlar sahaya gitmeden önce fotoğrafla değerlendirilir.",
+                ],
+            },
+            {
+                baslik: "Teklif için gereken bilgi",
+                paragraflar: [
+                    "İç mekân teklifini tek turda netleştirmek için dört bilgiye ihtiyacımız olur: tesis tipi (değirmen, yem, süt-et, paketleme), hedef noktanın zeminden kotu, en dar geçiş noktasının genişliği ve çalışma sırasında hattın durdurulup durdurulamayacağı.",
+                    "Bu dört başlık netleştiğinde doğru sınıf ilk seferde belirlenir; eksik bilgiyle gönderilen makine ya koridora sığmaz ya da hat durdurulmadığı için beklemede kalır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Değirmenimizin elek katına makaslı platform sığar mı?",
+                cevap:
+                    "Çoğu değirmen koridorunda dar tabanlı elektrikli makaslı sınıfları rahatça geçer, ama bu koridor genişliğine bağlıdır. En dar geçiş noktasının ölçüsünü paylaşırsanız uygun gövdeyi önceden belirleriz; ölçü verilmeden gönderilen makine sahada geri döndürülebilir.",
+            },
+            {
+                soru: "Yem fabrikasında hattı durdurmadan çalışabilir misiniz?",
+                cevap:
+                    "Karıştırıcı veya torbalama hattının üstünde çalışırken hat durdurulmadan iş yapılmaz; bu güvenlik gereğidir. Çalışma genelde vardiya arası boşluğa veya planlı bir duruşa yazılır. Üretim programınızı önceden paylaşırsanız bu boşluğa göre tarih veririz.",
+            },
+            {
+                soru: "Süt tesisimizde dizel makine kullanabilir miyiz?",
+                cevap:
+                    "Hijyen kuralı gereği önermeyiz; paslanmaz hatların bulunduğu alanlarda elektrikli makine tercih edilir ve gövde girişten önce temizlenir. Bazı tesislerde belirli bir dezenfeksiyon noktasından geçiş şartı vardır; bu kuralı önceden bildirirseniz makineyi buna göre hazırlarız.",
+            },
+            {
+                soru: "Meyve paketleme sezonunda bandı durdurmadan bakım mümkün mü?",
+                cevap:
+                    "Bant üstü aydınlatma ve havalandırma bakımı hattın kısa süreli durmasını gerektirir; kampanya ortasında bu durmayı istemeyiz çünkü ürün akışını geciktirir. Bakımı kampanya öncesine ya da bandın günlük durma saatine yazmanızı öneririz.",
+            },
+            {
+                soru: "Kapı genişliğimiz makineye yetmezse ne olur?",
+                cevap:
+                    "Bu durum sahada değil, planlama aşamasında çözülmelidir. Kapı ve rampa eşiği ölçüsünü önceden paylaşırsanız gövde genişliği uygun bir sınıf gönderilir; ölçü verilmeden gönderilen makine kapıya sığmayabilir ve iş günü kaybedilir.",
+            },
+            {
+                soru: "Emirdağ–Sinanpaşa hattında birden fazla tesisimiz var; tek seferde dolaşabilir misiniz?",
+                cevap:
+                    "Evet, bu hat üzerindeki işletmeler için standart uygulamadır. Makine hatta bir kez indirilir, tesisler arasında sırayla dolaşır ve nakliye payı katılan işletmeler arasında bölünür. Tarihlerinizi birlikte planlarsak sıra ve birim maliyet daha uygun çıkar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Emirdağ–Sinanpaşa hattındaki değirmen, yem, süt-et işleme ve meyve paketleme tesislerinin iç mekân yapısı ve hijyen/hat durdurma kuralları kamuya açık genel bilgidir; sınıf seçimi ve saha koşulları firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Emirdağ–Sinanpaşa Hattında Tarım Sanayii Tesisleri İçin Manlift Kiralama",
+        giris:
+            "Manlift terimi geniş bir aile kapsar — kendinden yürür sepetli platform, teleskopik bomlu ve eklemli bomlu sınıfların tamamı bu başlık altında aranır; Emirdağ–Sinanpaşa hattındaki tarım sanayii tesislerinde bu genişlik doğrudan işe yarar, çünkü aynı ilçe içinde bir değirmenin dış cephesi, bir silonun dış yüzeyi, bir çiftlik yapısının çatısı ve bir köy yolundaki elektrik direği hepsi farklı bir sınıf ister. Bu hat, il merkezinin dışında kalan ve tesislerin birbirine kilometrelerce uzak dağınık köy ve kasaba yerleşimlerinde kurulu olduğu bir coğrafyadır; bu yüzden manlift talebi burada yalnızca “hangi yükseklik” sorusuyla değil, “makine oraya nasıl ulaşır” sorusuyla başlar. Çekicinin dönemeyeceği köy girişleri, yağış sonrası çamura dönen stabilize yollar, hasat ve kampanya döneminde daralan bakım pencereleri — bunların hepsi sınıf seçimini zeminden önce belirler. Bu sayfada Emirdağ–Sinanpaşa hattındaki tarım sanayii tesislerinde manlift kiralama hizmetimizin dış mekân erişimi, hat lojistiği ve hasat takvimine göre nasıl şekillendiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Silo ve değirmen dış cephesinde teleskopik erişim",
+                metin:
+                    "Silo gövdesinin dış yüzeyi, değirmenin dış cephe sacı ve çatı mahyası çoğunlukla tek bir sabit noktadan, uzun bir mesafeden erişilir; bu profile teleskopik bomlu sınıflar en iyi cevabı verir. Makine, silonun devrilme koridorunun dışında sağlam bir zemine konumlanır ve mesafe bomla kapatılır; silo dibine yanaşmak tercih edilmez. Dış cephe işleri genelde rüzgârlı günlerde ertelenir; bu karar sahada, indirme öncesinde verilir.",
+            },
+            {
+                baslik: "Çiftlik ve besi yapılarının çatı ve mahya bakımı",
+                metin:
+                    "Besi ahırları, kümes yapıları ve depo çatılarının mahya havalandırması, çatı sacı ve yağmur oluğu bakımı genelde geniş, engelsiz bir avlu zemininden yapılır. Bu zeminler çoğunlukla toprak veya stabilizedir ve yağış sonrası taşıma gücü düşer; şüpheli zeminde makine indirmeyiz, çalışma kuru bir pencereye kaydırılır. Eklemli bomlu sınıflar, çatı kenarındaki dar açılı erişim noktalarında teleskopik sınıflardan daha esnek çalışır.",
+            },
+            {
+                baslik: "Köy yolu üzeri elektrik ve aydınlatma hattı bakımı",
+                metin:
+                    "Emirdağ–Sinanpaşa hattındaki bazı işletmeler, tesis girişindeki veya köy yolu üzerindeki aydınlatma direği ve trafo bağlantısı bakımını da aynı ziyarette talep eder. Bu iş elektrik kesintisi gerektirdiğinden ilgili birimle önceden koordine edilir; enerjisi kesilmeyen bir hatta çalışılmaz. Yol kenarındaki bu noktalara erişim genelde kısa süreli ve dar bir zaman penceresinde yapılır, çünkü yol trafiği tamamen kapatılamaz.",
+            },
+            {
+                baslik: "Hasat ve kampanya takviminin bakım penceresine etkisi",
+                metin:
+                    "Hasat ve ürün girişinin sürdüğü haftalarda tesis dışındaki bakım işleri de ikinci plana düşer; personel ve zaman kampanya işine ayrılır. Ürün sevkiyatının yavaşladığı veya durduğu dönem, dış cephe ve çatı bakımının toplanacağı asıl penceredir. Bu yüzden manlift talebini hasat tahmininize göre önceden bildirmenizi öneririz; liste hazır olan işletme sıranın önüne geçer.",
+            },
+            {
+                baslik: "Dağınık köy yerleşimlerinde hat lojistiği",
+                metin:
+                    "Emirdağ–Sinanpaşa hattındaki tesisler birbirine kilometrelerce uzak, ayrı köy ve kasabalarda kurulu olabilir. Tek bir tesis için makineyi ilçeye indirip geri çekmek nakliye maliyetini yükseltir; bu yüzden aynı hafta içindeki talepleri tek sevkiyata toplayıp makineyi hat üzerinde tesisten tesise dolaştırmayı öneririz. Bu model hem birim maliyeti düşürür hem de her işletmenin makineyi daha uzun süre elinde tutmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hedef noktaya göre manlift sınıfı",
+                paragraflar: [
+                    "Emirdağ–Sinanpaşa hattındaki tarım sanayii tesislerinde hedef nokta ve zemin durumu sınıf seçimini belirler. Aşağıdaki tablo hedef tipini, erişim özelliğini ve önerilen sınıfı toplar.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef nokta", "Erişim özelliği", "Zemin durumu", "Önerilen sınıf"],
+                    satirlar: [
+                        ["Silo/değirmen dış cephesi", "Uzun mesafeden sabit erişim", "Sağlam beton/stabilize", "Teleskopik bomlu"],
+                        ["Çiftlik/ahır çatısı", "Dar açılı çatı kenarı", "Toprak, mevsimsel", "Eklemli bomlu"],
+                        ["Köy yolu aydınlatma direği", "Kısa süreli, dar zaman penceresi", "Yol kenarı, sağlam", "Kompakt teleskopik"],
+                        ["Tesis iç avlusu", "Geniş, engelsiz alan", "Beton/sıkıştırılmış zemin", "Kendinden yürür sepetli"],
+                        ["Kırsal kamu yapısı", "Sınırlı erişim, dar sokak", "Değişken", "Kompakt eklemli bomlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift ile makaslı platform arasındaki fark",
+                paragraflar: [
+                    "Manlift ailesi, bomlu sınıfları içerdiği için hedefin bir engelin arkasında kaldığı veya makinenin hedefe doğrudan yanaşamadığı durumlarda tercih edilir — silo dış cephesi, çatı mahyası, yol kenarı direk gibi noktalar bu profile girer. Makaslı platform ise düz zeminden dikey erişimin yeterli olduğu, hedefin tam tepede bulunduğu iç mekân işlerinde daha uygundur.",
+                    "İki sınıf arasındaki seçim çoğu zaman zeminden değil, hedef noktanın makineye göre konumundan çıkar; bu yüzden teklif öncesinde hedefin fotoğrafını istemeyi tercih ederiz.",
+                ],
+            },
+            {
+                baslik: "Hat üzerinde teklif için gereken bilgi",
+                paragraflar: [
+                    "Emirdağ–Sinanpaşa hattında teklif vermeden önce gereken çekirdek bilgi şudur: hedef noktanın zeminden kotu, tesise giden yolun durumu (stabilize/asfalt, dönüş genişliği), zeminin toprak mı beton mu olduğu ve çalışma anında hasat/kampanya döneminde olup olmadığınız.",
+                    "Bu dört başlık netleştiğinde teklif tek turda çıkar ve sahada değişmez; eksik bilgiyle gönderilen makine ya yola sığmaz ya da zemin uygun olmadığı için indirilemez.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silomuzun dış cephesine hangi sınıf gelir?",
+                cevap:
+                    "Çoğu silo dış cephesi işi teleskopik bomlu sınıfla çözülür; makine devrilme koridorunun dışında sağlam bir noktaya konumlanır ve mesafe bomla kapatılır. Silonun yüksekliği ve makinenin durabileceği en yakın sağlam zemin arasındaki mesafeyi paylaşırsanız sınıfı önceden netleştiririz.",
+            },
+            {
+                soru: "Ahırımızın çatısına köy yolundan makine gelebilir mi?",
+                cevap:
+                    "Genelde gelir, ancak yolun ve avlunun güncel durumu belirleyicidir. Çekicinin dönemeyeceği dar bir köy girişi varsa daha küçük bir taşıma aracı veya kendi tekerlekli sevkiyat planlanır. Yol ve avlu fotoğrafını paylaşırsanız uygun aracı önceden ayarlarız.",
+            },
+            {
+                soru: "Elektrik direğinde çalışırken enerji kesilmeden iş yapabilir misiniz?",
+                cevap:
+                    "Hayır, enerjisi kesilmeyen bir hatta çalışılmaz. İlgili birimle önceden koordinasyon kurulur ve kesinti onayı alınmadan çalışma başlamaz. Kesinti planınızı bize erken bildirirseniz makineyi o tarihe göre hazırlarız.",
+            },
+            {
+                soru: "Hasat döneminde manlift talebimiz sıraya girer mi?",
+                cevap:
+                    "Hasat ve kampanya haftalarında dış cephe ve çatı işleri genelde ikinci plana düşer, bu yüzden talebinizi önceden bildirmenizi öneririz. Sevkiyatın yavaşladığı dönem asıl bakım penceresidir ve önceden bildirilen talepler bu pencerede önceliklidir.",
+            },
+            {
+                soru: "Yol kenarındaki aydınlatma direğinde çalışma trafiği ne kadar etkiler?",
+                cevap:
+                    "Yol tamamen kapatılamayacağı için bu işler kısa süreli ve dar bir zaman penceresinde yapılır; genelde trafiğin en az olduğu saatlere planlanır. Yol trafiğinin yoğun olduğu saatleri bildirirseniz çalışmayı buna göre kurarız.",
+            },
+            {
+                soru: "Emirdağ–Sinanpaşa hattında birkaç tesisimiz var, hepsini aynı seferde dolaştırabilir misiniz?",
+                cevap:
+                    "Evet, bu hat için standart uygulamamız budur. Makine hatta bir kez indirilir, tesisler arasında sırayla dolaşır ve nakliye payı katılan işletmeler arasında bölünür. Tarihinizi hattın kurulduğu aşamada bildirirseniz sırayı ve daha düşük birim maliyeti alırsınız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Emirdağ–Sinanpaşa hattındaki dağınık köy yerleşimi, hasat/kampanya takvimi ve yol/zemin koşullarının değişkenliği kamuya açık genel bilgidir; sınıf seçimi, enerji kesme ve hat lojistiği firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
 };

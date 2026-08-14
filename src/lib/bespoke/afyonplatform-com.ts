@@ -1817,4 +1817,202 @@ export const AFYONPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Afyonkarahisar'ın lojistik karayolu kesişimindeki konumu ve bölgedeki tesis genişleme/dış depolama alanlarının genel zemin özellikleri sektör geneli bilgidir; belirli tesis adı ve doğrulanmamış rakam kullanılmamıştır. Zemin değerlendirmesi ve iz önleme anlatımı genel iş güvenliği pratiğidir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Dokuma ve Halı Üretim Salonlarında Makaslı Platform Kiralama",
+        giris:
+            "Dazkırı-Çobanlar hattındaki tekstil ve halı işletmelerinde makaslı platform talebi, genellikle atölyenin büyüdüğü ve ikinci bir hacme taştığı noktada başlar. Ev ölçekli bir dokuma atölyesinde dar koridor ve alçak tavan, makaslı sınıfın çalışma alanını sınırlarken; büyümüş bir işletmenin iplik deposu, halı yıkama salonu veya paketleme hacmi gibi geniş açıklıklı ve düz zeminli bölümlerinde makaslı platform en verimli seçenek hâline gelir. Bu sınıfın öne çıktığı nokta, dikey doğrultuda düz ve geniş bir sepet sunması, aynı anda iki kişinin ve malzemesinin taşınabilmesine imkân vermesidir — çatı altı aydınlatma değişimi ile birlikte kanal temizliği gibi iki işi aynı çıkışta bitirmek bu yüzden mümkün olur. Ancak makaslı platform yalnız düz ve sağlam zeminde tam kapasitesiyle çalışır; bu yüzden ıslak yıkama salonları, düzensiz şap kaplı depo zeminleri veya dar geçitli eski atölye bölümleri öncesinde zemin ve koridor ölçüsü mutlaka konuşulur. Bu sayfada makaslı platformun tekstil-halı üretim tesislerindeki kullanım alanlarını, zemin ve kapasite gerekliliklerini ve sınıf seçim mantığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Geniş dokuma salonlarında düz taban avantajı",
+                metin:
+                    "Büyümüş dokuma ve halı üretim salonlarının zemini genellikle geniş açıklıklı ve düz betondur; bu koşul makaslı platformun dikey doğrultuda sabit ve geniş bir çalışma tabanı sunmasına imkân verir. Tezgah sıraları arasındaki ana koridor yeterince genişse makine sıra değiştirmeden ilerleyebilir, aydınlatma ve aspirasyon kanalı işleri tek geçişte tamamlanabilir. Koridor genişliği net değilse, iş günü öncesinde ölçü teyit edilir; dar kalan noktalarda tezgah sırası geçici olarak kaydırılır veya iş vardiya dışına planlanır.",
+            },
+            {
+                baslik: "Ağır iş yükü ve çift kişilik sepet kapasitesi",
+                metin:
+                    "Çatı altı aydınlatma değişimi ile aspirasyon kanalı temizliğinin aynı anda yapılması gerektiğinde, sepette hem operatör hem yardımcı personel ile birlikte malzeme ve alet de taşınır. Makaslı platformun geniş ve yüksek kapasiteli sepeti bu ihtiyacı karşılar; dar gövdeli akülü sınıflarda ise tek kişilik çalışma ve daha sık iniş-çıkış gerekir. Hangi sınıfın seçileceği, o gün yapılacak iş listesinin kapsamına göre netleştirilir.",
+            },
+            {
+                baslik: "İplik ve halı deposu raf sistemlerinde yatay hareket",
+                metin:
+                    "Paletlenmiş iplik bobinleri veya halı rulolarının istiflendiği raf sistemlerinde üst göz kontrolü ve aydınlatma bakımı, koridor boyunca yatay hareket gerektirir. Makaslı platform bu tip işlerde bir noktada sabit durup uzanmak yerine koridoru baştan sona takip edebilir; bu, aynı koridordaki birden fazla raf gözünü tek turda bitirmeyi mümkün kılar. Zemin şap kaplamalı ve düzensizse makinenin duracağı her nokta önceden gözle kontrol edilir.",
+            },
+            {
+                baslik: "Boyahane ve yıkama hacimlerinde zemin ıslaklığı",
+                metin:
+                    "İplik boyama ve halı yıkama bölümlerinde zemin sürekli nemli veya ıslaktır; bu ortamda standart lastikli makaslı sınıflar yerine iz bırakmayan ve tutunması yüksek lastiğe sahip üniteler tercih edilir. Kumanda paneli nemden etkilenebileceği için şarj işlemi bu hacmin dışında, kuru bir teknik alanda yapılır. Zemin eğimliyse veya kanal ızgarası üzerindeyse, makinenin duracağı nokta ızgaraya doğrudan yük bindirmeyecek şekilde önceden belirlenir.",
+            },
+            {
+                baslik: "Sanayi sitesi parselleri arası kendi tekerleğiyle geçiş",
+                metin:
+                    "Aynı sanayi sitesinde birbirine yakın konumlanmış birden fazla tesis aynı hafta iş yaptırmak istediğinde, makaslı platform bir parselden diğerine kendi tekerleğiyle geçebilir; bu, ayrı bir nakliye çağrısına gerek bırakmadan nakliye payını katılan işletmeler arasında böler. Bu modelin işlemesi için tesislerin tarihlerini önceden bildirmesi ve parseller arası geçiş mesafesinin makul olması gerekir; uzak parseller için ayrı sevkiyat daha ekonomik kalabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tesis bölümüne göre makaslı sınıf seçimi",
+                paragraflar: [
+                    "Tekstil ve halı üretim tesislerinin bölümden bölüme zemin ve kapasite ihtiyacı değişir. Aşağıdaki tablo en sık karşılaştığımız bölümleri baskın kısıtla birlikte özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis bölümü", "Zemin durumu", "Baskın iş kalemi", "Uygun sınıf"],
+                    satirlar: [
+                        ["Büyümüş dokuma salonu", "Düz, geniş beton", "Çatı, aspirasyon", "Standart makaslı"],
+                        ["İplik/halı deposu", "Düzensiz şap", "Raf üstü kontrol", "Dar gövdeli makaslı"],
+                        ["Boyahane / yıkama", "Islak, kaygan", "Korozyon, aydınlatma", "İz bırakmayan makaslı"],
+                        ["Paketleme / sevkiyat", "Kuru, geniş", "Raf, çatı altı", "Yüksek kapasiteli makaslı"],
+                        ["Ev ölçekli atölye", "Dar koridor", "Tezgah üstü", "Makaslı yerine kompakt dikey"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin taşıma testi ve konumlandırma",
+                paragraflar: [
+                    "Makaslı platformun tam sepet yüküyle çalışabilmesi için altındaki zeminin taşıma kapasitesinin bilinmesi gerekir. Yeni dökülmüş şap, henüz oturmamış dolgu veya kanal ızgarası üzeri gibi noktalarda makine indirmeden önce zemin gözle ve gerekiyorsa fiziksel olarak kontrol edilir; şüpheli noktalarda geniş tabanlı takoz kullanılır.",
+                    "Islak zeminli bölümlerde ayrıca tutunma kontrolü yapılır — su filmi altındaki zemin kaygan olabilir ve bu, makinenin dengesini etkiler. Bu kontrol, işe başlamadan önceki standart adımlardan biridir ve atlanmaz.",
+                ],
+            },
+            {
+                baslik: "Operatör sertifikası ve ekip güvenliği",
+                paragraflar: [
+                    "Makaslı platform operatörünün yeterlilik belgesi, iş öncesinde teyit edilir; belge olmadan sepete çıkılmaz. İki kişilik çalışmalarda sepetteki her kişi kendi emniyet ekipmanını kullanır ve sepet kapasitesi aşılmaz — malzeme ağırlığı da bu hesaba dahildir.",
+                    "Geniş salonlarda birden fazla ekip aynı anda farklı noktalarda çalışabildiğinden, makinenin hareket güzergâhı diğer üretim hatlarını kesmeyecek şekilde önceden belirlenir; tezgah operatörleriyle bu güzergâh üzerinde kısa bir bilgilendirme yapılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile manlift arasında hangi işlerde makaslıyı tercih etmeliyiz?",
+                cevap:
+                    "Zemin düz ve geniş, koridor genişse, iki kişinin birlikte çalışması gerekiyorsa veya taşınacak malzeme ağırsa makaslı platform genellikle daha verimlidir. Dar koridorlu, alçak tavanlı ve tek kişilik hızlı nokta işlerinde ise manlift daha uygun bir sınıftır. Karar için koridor genişliğini, tavan kotunu ve o gün yapılacak iş listesini bilmemiz yeterlidir; ikisi arasında tercih genellikle telefonda netleşir.",
+            },
+            {
+                soru: "İplik deposundaki raflar ağır mı, makaslı platform bu yükü kaldırır mı?",
+                cevap:
+                    "Raf üstü işler genellikle kontrol ve aydınlatma amaçlıdır, ağır kaldırma gerektirmez; bu yüzden makaslı platformun standart sepet kapasitesi bu iş için yeterlidir. Zemin şap kaplamalı ve düzensiz olduğundan asıl dikkat kapasiteden çok konumlandırmadır — makinenin duracağı nokta önceden gözle kontrol edilir ve gerekiyorsa küçük bir altlık kullanılır.",
+            },
+            {
+                soru: "Boyahanemizin zemini sürekli ıslak, makaslı platform orada güvenli çalışır mı?",
+                cevap:
+                    "Çalışır, ancak standart lastikli sınıf yerine iz bırakmayan ve tutunması yüksek lastiğe sahip bir ünite tercih ederiz. Şarj işlemini asla ıslak hacim içinde yapmayız, kuru bir teknik noktada gerçekleştiririz. Zeminde kanal ızgarası varsa makinenin duracağı nokta önceden belirlenir ve ızgara üzerine doğrudan yük bindirilmez; tutunma kontrolü her indirmeden önce ayrıca yapılır.",
+            },
+            {
+                soru: "Aynı sanayi sitesindeki iki tesis aynı gün makaslı platform kiralayabilir mi?",
+                cevap:
+                    "Evet, ve bu en ekonomik kiralama biçimidir. Parseller birbirine yeterince yakınsa makine kendi tekerleğiyle bir tesisten diğerine geçer, ayrı bir nakliye çağrısına gerek kalmaz. Nakliye kalemi katılan işletmeler arasında bölünür; her tesis kendi teklifini ve kendi teslim tutanağını ayrı alır. Tarihinizi erken bildirirseniz komşu tesisle aynı güne planlanma ihtimaliniz artar.",
+            },
+            {
+                soru: "Makaslı platformu dar koridorlu eski bir atölye bölümüne sokabilir miyiz?",
+                cevap:
+                    "Standart makaslı gövdeler dar koridora genellikle sığmaz; bu durumda ya dar gövdeli kompakt bir makaslı sınıf değerlendirilir ya da iş manlift sınıfıyla yapılır. Koridor genişliğini ve tezgah aralığını önceden bilmemiz, hangi sınıfın sığacağını netleştirir. Bu bilgi eksik geldiğinde makine sahaya sığmayabilir ve boşa dönülür; bu yüzden birkaç fotoğraf isteriz.",
+            },
+            {
+                soru: "İki kişi aynı sepette çalışırken malzeme ağırlığı kapasiteyi aşarsa ne olur?",
+                cevap:
+                    "Sepet kapasitesi operatör, yardımcı personel ve taşınan malzemenin toplam ağırlığını kapsar; bu sınır aşılmaz. Ağır malzeme taşınacaksa önceden bildirilir ve buna göre daha yüksek kapasiteli bir sınıf seçilir veya malzeme birden fazla çıkışa bölünür. Kapasite aşımı, hem makinenin dengesini hem operatör güvenliğini doğrudan etkileyen bir konudur ve üzerinde pazarlık yapılmaz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dazkırı-Çobanlar hattındaki tekstil ve halı üretim tesislerinin büyüme ve bölümlenme eğilimi editoryal olarak verilen sektör profilidir; zemin, kapasite ve sınıf seçim mantığı genel makaslı platform iş pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Dar Koridorlu Dokuma Atölyelerinde Manlift Kiralama",
+        giris:
+            "Dazkırı-Çobanlar hattındaki dokuma ve halı atölyelerinin büyük bölümü hâlâ ev ölçeğinden yeni çıkmış, tek katlı ve alçak tavanlı yapılardır; tezgahlar art arda sık dizilir ve aralarındaki koridor makaslı bir platformun gövdesine göre değil, tek bir kişinin geçebileceği genişliğe göre şekillenmiştir. Bu tip atölyelerde manlift, geniş bir sepet yerine dar ve dikey bir gövde sunar — tezgah sırasını bozmadan aradan geçebilir, alçak tavana rağmen aydınlatma ve tavan sacı işine ulaşabilir. Kapalı ve tozlu bir hacimde çalıştığı için akülü ve egzozsuz olması ayrıca önemlidir; lif tozunun yoğun olduğu bir ortamda yanıcı gaz çıkışı üreten bir motor istenmez. İkinci belirleyici unsur erişimdir: bu atölyelerin bir kısmı köy içi dar sokaklara veya sanayi sitesinin dar iç yollarına açılır ve makinenin kendisi kadar oraya nasıl taşınacağı da işin bir parçasıdır. Bu sayfada manliftin dar koridorlu tekstil atölyelerindeki kullanımını, kapalı hacim güvenliğini ve erişim planlamasını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Tezgahlar arası dar koridorda kompakt gövde",
+                metin:
+                    "Dokuma tezgahlarının sık dizildiği atölyelerde koridor genişliği çoğu zaman standart bir platformun gövdesinden dardır. Manliftin dar ve dikey gövdesi bu koridora sığar; tezgah sırası bozulmadan ilerleyebilir. Koridor gerçekten çok dar kaldığı noktalarda ise tezgah sırasının geçici olarak kaydırılması veya işin vardiya dışı saate alınması gerekebilir; bu, keşifte netleştirilir.",
+            },
+            {
+                baslik: "Akülü tahrik ve kapalı hacimde egzozsuz çalışma",
+                metin:
+                    "Lif ve iplik tozunun havada asılı olduğu kapalı atölye hacimlerinde içten yanmalı bir makine hem havalandırma yükünü artırır hem yanıcı toz ortamında ek risk taşır. Bu yüzden manlift tercihimiz akülü ve egzozsuz sınıflardır. Şarj işlemi atölye içinde değil, tozdan uzak ve kuru bir noktada yapılır; bu, hem ekipman ömrünü hem ortam güvenliğini korur.",
+            },
+            {
+                baslik: "Alçak tavanlı ev ölçekli atölyelerde erişim yüksekliği",
+                metin:
+                    "Ev ölçekli atölyelerin tavanı çoğu zaman alçak ve hafif konstrüksiyonludur; bu, gerekli erişim yüksekliğini standart bir manlift sınıfının kolayca karşılayabileceği bir aralığa indirir. Asıl kısıt yükseklikten çok gövde genişliği ve tavana yaklaşırken bırakılması gereken güvenli mesafedir; çatı sacına veya armatüre temas etmeyecek şekilde yaklaşma mesafesi işe başlamadan belirlenir.",
+            },
+            {
+                baslik: "Tek operatörle hızlı nokta işleri",
+                metin:
+                    "Aydınlatma armatürü değişimi, küçük tavan sacı tamiri veya tabela-cephe işi gibi tek noktalık kalemler, manliftle tek operatör tarafından hızlıca tamamlanabilir. Bu tip işlerde makine sepetin tam kapasitesini kullanmaz; öncelik manevra kabiliyeti ve hıza verilir. Birden fazla küçük iş aynı atölyede biriktiğinde, bunları tek çıkışta sıraya koyarak tur hâlinde bitirmek daha verimlidir.",
+            },
+            {
+                baslik: "Köy içi dar yol ve kapı genişliği kısıtı",
+                metin:
+                    "Atölyeye ulaşan yolun dar olması kadar, atölye giriş kapısının genişliği de manliftin sahaya girip giremeyeceğini belirler. Çekicinin dönebileceği bir nokta yoksa makine en yakın sert zeminde indirilip kalan mesafe kendi yürüyüşüyle alınır; kapı dar kalıyorsa daha ince şaseli bir sınıf değerlendirilir. Bu iki ölçü — yol genişliği ve kapı açıklığı — teklif öncesinde mutlaka sorulur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Atölye tipine göre manlift sınıfı",
+                paragraflar: [
+                    "Dokuma ve halı atölyelerinin tipi ve koridor genişliği manlift sınıf seçimini doğrudan belirler. Aşağıdaki tablo en sık karşılaştığımız durumları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Atölye tipi", "Koridor/kapı ölçüsü", "Baskın iş kalemi", "Uygun sınıf"],
+                    satirlar: [
+                        ["Ev ölçekli dokuma", "Çok dar, alçak tavan", "Tezgah üstü aydınlatma", "En dar şaseli akülü"],
+                        ["Büyümüş atölye", "Orta genişlik", "Aspirasyon, pano menfezi", "Standart dar gövdeli"],
+                        ["Köy içi işletme", "Dar ve dönüşsüz yol", "Çatı, aydınlatma", "Küçük şase, yürüyüşle giriş"],
+                        ["Sanayi sitesi parseli", "Standart iç yol", "Cephe, tabela", "Orta gövdeli akülü"],
+                        ["Geniş dokuma salonu", "Geniş koridor", "Çatı altı, raf", "Manlift yerine makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapalı hacimde egzozsuz çalışmanın önemi",
+                paragraflar: [
+                    "Kapalı ve havalandırması sınırlı bir atölyede içten yanmalı bir makine çalıştırmak, hem operatör hem tezgah başındaki personel için solunum riski oluşturur; lif tozunun yoğun olduğu ortamda bu risk daha da büyür. Bu yüzden atölye içi işlerin tamamında akülü ve egzozsuz sınıfları tercih ederiz.",
+                    "Şarj sırasında ortaya çıkan ısı ve olası kıvılcım riski nedeniyle şarj işlemi tozlu atölye hacminin dışında, ayrı bir teknik noktada yapılır; bu, kıvılcım çıkaran hiçbir işlemin tozlu ortamda yapılmaması kuralıyla aynı mantığa dayanır.",
+                ],
+            },
+            {
+                baslik: "Dar kapı ve koridor ölçüsü paylaşımı",
+                paragraflar: [
+                    "Köy içi bir atölyeye teklif verirken şehir merkezindekinden farklı bir bilgi seti isteriz: yolun son yüz metresinin cinsi, çekicinin dönebileceği bir noktanın bulunup bulunmadığı, atölye giriş kapısının eni ve yüksekliği, iç koridorun en dar noktası. Bu bilgiler netleştiğinde makine sınıfı kendiliğinden daralır ve teklif sahada değişmez.",
+                    "Bu ölçüler eksik geldiğinde iki risk doğar: ya makine kapıdan geçemez ve boşa dönülür, ya da güvenli tarafta kalmak için gereğinden dar ve yetersiz bir sınıf gönderilir. Birkaç fotoğraf ve iki basit ölçü bu belirsizliği ortadan kaldırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasında atölyemiz için hangisi uygun?",
+                cevap:
+                    "Koridor dar, tavan alçak ve iş tek noktalık hızlı bir kalemse manlift daha uygun bir sınıftır. Zemin geniş ve düzse, iki kişi birlikte çalışacaksa veya ağır malzeme taşınacaksa makaslı platform daha verimli olur. Karar için koridor genişliğini ve o gün yapılacak iş listesini bilmemiz yeterlidir; ikisi arasında tercih genellikle telefonda netleşir.",
+            },
+            {
+                soru: "Atölyemizde tozlu ortamda akülü makine güvenli mi?",
+                cevap:
+                    "Akülü ve egzozsuz sınıflar, içten yanmalı makinelere göre tozlu kapalı hacimlerde daha güvenli bir seçimdir çünkü ek yanıcı gaz çıkışı üretmezler. Yine de kıvılcım çıkaran hiçbir işlem, ortamdaki toz temizlenip aspirasyon devreye alınmadan yapılmaz. Şarj işlemi atölye içinde değil, tozdan uzak ayrı bir teknik noktada gerçekleştirilir.",
+            },
+            {
+                soru: "Tezgahlarımız birbirine çok yakın, manlift aralardan geçebilir mi?",
+                cevap:
+                    "Çoğu atölyede geçebilir ama önce koridor genişliğini bilmemiz gerekir. En dar şaseli akülü sınıf, standart tezgah aralığını genellikle kabul eder; daha dar noktalarda tezgah sırasının geçici olarak kaydırılması istenebilir. Bunu telefonda tahmin etmek yerine birkaç fotoğrafla netleştirmeyi tercih ederiz.",
+            },
+            {
+                soru: "Köyümüze giden yol dar, büyük araç dönemiyor; manlift yine de gelebilir mi?",
+                cevap:
+                    "Genellikle gelebilir ama yöntem değişir. Makine çekicinin dönebildiği en yakın sert noktaya indirilip kalan mesafe kendi yürüyüşüyle alınır — kısa mesafelerde en pratik çözümdür. Kapı açıklığı da dar kalıyorsa daha ince şaseli bir sınıf seçilir. Karar için son yüz metreyi ve kapı ölçüsünü gösteren birkaç fotoğraf yeterlidir.",
+            },
+            {
+                soru: "Atölyemizde birkaç küçük iş birikti, hepsini tek seferde bitirebilir misiniz?",
+                cevap:
+                    "Evet, bu tam olarak manliftin verimli olduğu senaryodur. Aydınlatma değişimi, küçük tavan tamiri, tabela ayarı gibi tek noktalık kalemleri tek çıkışta sıraya koyup tur hâlinde tamamlarız. Bu, her iş için ayrı ayrı makine çağırmaya göre hem daha hızlı hem daha ekonomiktir; iş listesini önceden bildirmeniz sırayı netleştirir.",
+            },
+            {
+                soru: "Manliftin tavana yaklaşırken çatı sacına zarar verme riski var mı?",
+                cevap:
+                    "Alçak tavanlı atölyelerde bu risk gerçek bir dikkat noktasıdır; bu yüzden çatı sacına veya armatüre temas etmeyecek güvenli yaklaşma mesafesi işe başlamadan belirlenir ve operatör bu mesafeyi aşmaz. Tavan kotu keşifte ölçülür, gerekli erişim yüksekliği bu ölçüye göre teyit edilir. Belirsiz bir kot varsa iş öncesinde birkaç fotoğraf veya basit bir ölçüm istenir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Dazkırı-Çobanlar hattındaki ev ölçekli dokuma atölyelerinin dar koridor ve alçak tavan özelliği editoryal olarak verilen sektör profilidir; kapalı hacim güvenliği ve erişim planlaması genel manlift iş pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
 };

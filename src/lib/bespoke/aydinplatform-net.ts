@@ -2476,4 +2476,200 @@ export const AYDINPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Aydın'ın dağlık/ova/vadi arazi çeşitliliği kamuya açık genel bilgidir; zemin değerlendirme ve gövde seçim yaklaşımı firma pratiğidir. Belirli mesafe veya rakam iddia edilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Aydın'da Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, dikey doğrultuda dümdüz yükselen ve geniş sepet alanıyla birden fazla işçiyi ve malzemeyi aynı anda taşıyabilen bir sınıftır; Aydın'da bu özellik en çok düz ve sert zeminli kapalı mekânlarda değer kazanır. Sahil otellerinin balo salonu ve lobi tavanları, çok noktalı avize ve aydınlatma armatürü değişimi gerektirdiğinde, eklemli ya da teleskopik bir bomun manevra kabiliyetinden çok makaslı platformun geniş sepetiyle aynı anda birkaç kalemi taşıyabilmesi işi hızlandırır. Kapalı yüzme havuzu ve spa tavanlarında da benzer bir ihtiyaç doğar: düz beton zemin, sabit tavan yüksekliği ve tekrarlayan nokta sayısı, makaslı sınıfı doğal seçim hâline getirir. Jeotermal işletmelerin idari bina ve türbin salonu gibi kapalı hacimlerinde de aynı mantık geçerlidir — dar geçiş gerektirmeyen, düz zeminli ve sabit yükseklikli iç mekân bakımlarında makaslı platform, hem yük kapasitesi hem kararlılığıyla öne çıkar. Dış mekânda ise sert ve düz avlu zeminleri, örneğin otel giriş kanopisi ya da fuaye tavanı, yine bu sınıfın çalışma alanına girer. Doğru seçim, öncelikle zeminin düzlüğüne ve sertliğine, ardından hedef yüksekliğe bağlıdır; eğimli ya da engebeli bir zeminde makaslı platform güvenli çalışmaz, bu durumlarda farklı bir sınıf önerilir.",
+        maddeler: [
+            {
+                baslik: "Otel balo salonu ve lobi tavanında çoklu nokta bakımı",
+                metin:
+                    "Sahil otellerinin balo salonu, lobi ve fuaye tavanlarında onlarca aydınlatma armatürü ve avize aynı kata dağılmış hâlde bulunur. Makaslı platformun geniş sepeti, bir elektrikçi ve malzemesini aynı anda taşıyabildiği için, tek konumdan birkaç armatüre erişmek mümkün olur; bu, dar sepetli sınıflarda mümkün olmayan bir verimlilik sağlar. Sezon kapanışı sonrası yoğunlaşan toplu aydınlatma yenilemelerinde bu fark doğrudan iş süresine yansır. Salonun tavan yüksekliği ve zemin sertliği önceden bilindiğinde doğru gövde ilk seferde seçilir.",
+            },
+            {
+                baslik: "Kapalı yüzme havuzu ve spa tavan bakımı",
+                metin:
+                    "Kapalı havuz ve spa alanlarında nem oranı yüksektir ve tavan kaplaması, havalandırma kanalları ile aydınlatma armatürleri düzenli aralıklarla kontrol edilmeyi gerektirir. Bu alanların zemini genellikle düz ve sert seramik ya da beton olduğu için makaslı platform güvenle çalışır; ıslak zemin durumunda ise kaymayı önleyecek ek tedbirler alınır. Havuzun kullanım dışı olduğu erken saatlerde ya da bakım günlerinde çalışmak, misafir trafiğini kesmeden işin tamamlanmasını sağlar.",
+            },
+            {
+                baslik: "Jeotermal idari bina ve türbin salonu iç mekân bakımı",
+                metin:
+                    "Jeotermal işletmelerin idari binaları ve türbin salonu gibi kapalı hacimlerinde, dar geçiş ya da engel aşma ihtiyacı olmayan, düz zeminli ve sabit yükseklikli bakım işleri sıkça çıkar. Tavan aydınlatması, kablo kanalı bakımı ve iç cephe boyası gibi kalemler için makaslı platformun yüksek yük kapasitesi ve kararlı duruşu tercih edilir. Saha girişinde standart izin ve refakat süreci burada da geçerlidir; kişisel koruyucu ekipman zorunludur.",
+            },
+            {
+                baslik: "Fuaye ve giriş kanopisi gibi sert zeminli dış alanlar",
+                metin:
+                    "Otel giriş kanopisi, fuaye önü ve beton kaplı avlu gibi dış mekânlar, düz ve sert zemin özelliği taşıdığı sürece makaslı platformun çalışma alanına girer. Bu tür alanlarda hem geniş sepet kapasitesi hem de dikey hareketin verdiği kararlılık, tabela montajı ve aydınlatma kalemleri için avantaj sağlar. Zeminin eğimli ya da parke taşı gibi düzensiz olduğu noktalarda ise farklı bir sınıf önerilir; bu ayrımı keşifte netleştiriyoruz.",
+            },
+            {
+                baslik: "Zemin sertliği ve düzlüğünün belirleyici rolü",
+                metin:
+                    "Makaslı platformun güvenli çalışması için zeminin düz ve tekerlek yükünü taşıyabilecek sertlikte olması şarttır; bu sınıf eklemli ya da teleskopik bomlar kadar eğim ve engebeye tolerans göstermez. Yumuşak toprak, çakıl ya da eğimli avlu zeminlerinde makaslı platform yerine paletli ya da farklı gövdeli bir sınıf önerilir. Sahanın zemin tipini ve tavan yüksekliğini önceden bildiren müşteriler, doğru gövdeyi ilk seferde alır ve sahada gövde değişikliği riskiyle karşılaşmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydın'da makaslı platformun tercih edildiği alanlar",
+                paragraflar: [
+                    "Aşağıdaki tablo, makaslı platformun düz zeminli kapalı ve yarı kapalı mekânlarda en sık kullanıldığı tipik alanları özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Zemin tipi", "Tipik iş", "Neden makaslı"],
+                    satirlar: [
+                        ["Otel balo salonu / lobi", "Düz beton/seramik", "Avize, armatür değişimi", "Geniş sepet, çoklu nokta"],
+                        ["Kapalı havuz / spa", "Düz seramik/beton", "Tavan, havalandırma bakımı", "Kararlı dikey hareket"],
+                        ["Jeotermal idari bina", "Düz beton", "İç cephe, kablo kanalı", "Yüksek yük kapasitesi"],
+                        ["Fuaye / giriş kanopisi", "Sert düz avlu", "Tabela, aydınlatma", "Dış mekân dikey erişim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sepet kapasitesinin iş hızına etkisi",
+                paragraflar: [
+                    "Makaslı platformların çoğu, dar sepetli sınıflara göre belirgin ölçüde daha fazla ağırlık ve daha fazla kişi taşıyabilir. Bu, özellikle bir elektrikçi ile yardımcısının aynı anda çalışması gereken toplu armatür değişimlerinde, tek konumdan yapılabilecek iş miktarını artırır.",
+                    "Otel tavan yenilemesi gibi çok noktalı işlerde, geniş sepet kapasitesi sayesinde malzeme her seferinde yeniden yukarı taşınmaz; bu da iniş-çıkış sayısını azaltarak toplam süreyi kısaltır.",
+                ],
+            },
+            {
+                baslik: "Islak ve nemli zeminlerde ek tedbirler",
+                paragraflar: [
+                    "Kapalı havuz ve spa gibi nem oranı yüksek alanlarda, zemin ıslaklığı makaslı platformun tekerlek tutuşunu etkileyebilir. Bu tür alanlarda çalışma öncesi zemin kuruluğu kontrol edilir ve gerekirse kaymayı önleyecek paspas ya da bariyer önlemleri alınır.",
+                    "Havuzun bakım için kapatıldığı saatlerde çalışmak, hem zemin kuruluğunu kontrol altında tutar hem de misafir güvenliğini önceden garanti eder. Bu yüzden havuz alanı işlerinde saat planlamasını işletmeyle birlikte önceden netleştiriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimizin balo salonunda onlarca armatürü tek seferde değiştirmek istiyoruz, hangi platform uygun?",
+                cevap:
+                    "Makaslı platform bu iş için doğru seçim, çünkü geniş sepeti bir elektrikçi ile malzemesini aynı anda taşıyabiliyor ve tek konumdan birkaç armatüre erişmek mümkün oluyor. Salonun tavan yüksekliğini ve zeminin düz olup olmadığını paylaşırsanız, kaç konumdan işin tamamlanabileceğini önceden tahmin edebiliriz.",
+            },
+            {
+                soru: "Kapalı havuzumuzun tavanı bakım istiyor, ıslak zeminde makaslı platform güvenli mi?",
+                cevap:
+                    "Zemin kuru ve düzse güvenli; ıslaklık durumunda ise kaymayı önleyecek ek tedbirler alıyoruz. Havuzun kullanım dışı olduğu erken saatlerde çalışmayı öneriyoruz, bu hem zemin kuruluğunu kontrol altında tutuyor hem misafir trafiğini kesmiyor. Havuz alanının zemin kaplamasını ve uygun saat aralığını bildirirseniz, planı ona göre kurarız.",
+            },
+            {
+                soru: "Jeotermal santralimizin türbin salonunda iç mekân bakımı için makaslı platform gerekir mi?",
+                cevap:
+                    "Dar geçiş ya da engel aşma ihtiyacı yoksa evet, çünkü düz zeminli ve sabit yükseklikli kapalı hacimlerde makaslı platform yüksek yük kapasitesi ve kararlı duruşuyla öne çıkıyor. Saha girişinde standart izin ve refakat süreci geçerli; alan izni ve iş güvenliği eğitim belgelerinizi önceden paylaşırsanız süreci hızlandırabiliriz.",
+            },
+            {
+                soru: "Giriş kanopimizin altında tabela montajı yapacağız, avlu zemini beton ama biraz eğimli, sorun olur mu?",
+                cevap:
+                    "Eğim derecesine bağlı; makaslı platform belirgin bir eğime tolerans göstermiyor, bu yüzden avlunun eğim oranını netleştirmemiz gerekiyor. Eğim sınırı aşıyorsa farklı bir gövde sınıfı öneririz. Avlunun fotoğrafını ya da eğim bilgisini paylaşırsanız, keşifte doğru sınıfı belirleyebiliriz.",
+            },
+            {
+                soru: "Makaslı platform ile eklemli platform arasındaki fark nedir, hangisini seçmeliyiz?",
+                cevap:
+                    "Makaslı platform dümdüz dikey hareket eder ve geniş sepetiyle çoklu nokta işlerinde avantajlıdır ama düz sert zemin gerektirir; eklemli platform ise mafsallı yapısıyla engelleri dolaşarak aşabilir ama sepet kapasitesi genellikle daha küçüktür. Zemininiz düz ve engelsizse makaslı, saha karmaşık geometrideyse eklemli daha uygun olur. Sahanızın fotoğrafını paylaşırsanız doğru sınıfı netleştirebiliriz.",
+            },
+            {
+                soru: "Yumuşak toprak avluda makaslı platform kullanabilir miyiz?",
+                cevap:
+                    "Önermiyoruz, çünkü makaslı platform tekerlek yükünü taşıyabilecek sert ve düz zemin gerektiriyor; yumuşak toprakta hem sapılma hem devrilme riski oluşuyor. Bu tür zeminlerde paletli ya da farklı gövdeli bir sınıf öneriyoruz. Avlunuzun zemin tipini bildirirseniz, size uygun alternatifi keşifte netleştirebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun dikey hareket ve yük kapasitesi özellikleri genel makine bilgisidir; Aydın'daki otel/jeotermal iç mekân kullanım senaryoları firma pratiğidir. Belirli tesis adı veya rakam iddia edilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Aydın'da Manlift (Teleskopik Yükseltici) Kiralama",
+        giris:
+            "Manlift terimi Aydın'da genellikle düz teleskopik bomu tanımlar; eklemli sınıfın engel dolaşma yeteneğinin aksine, bu sınıfın gücü açık ve engelsiz alanlarda dosdoğru en yüksek noktaya ulaşabilmesidir. Sahil otellerinin bahçesindeki uzun boylu palmiye ve çam ağaçlarının budanması, plaj şeridindeki yüksek aydınlatma direklerinin bakımı, açık havada düzenlenen düğün ve etkinlik alanlarında geçici aydınlatma kulesi kurulumu — bunların hepsi düz bir hattı olan, aradan engel çıkmayan açık sahalardır ve manlift burada en verimli sınıftır. Jeotermal işletmelerin açık sera alanlarında da benzer bir ihtiyaç doğar: sera çatısı üzerindeki ısıtma hattı ya da güneş ışığı kontrol perdesi gibi kalemler, geniş ve düz bir alan üzerinde uzanan tek bir hedef noktasına en kısa yoldan ulaşmayı gerektirir. Manliftin teleskopik kolu, mafsallı bir bomun sağladığı manevra kabiliyetinden fedakârlık ederek buna karşılık daha büyük bir dikey erişim ve daha basit bir kontrol eğrisi sunar. Doğru seçim, hedefin önünde engel olup olmadığına bağlıdır: engelsiz açık bir hat varsa manlift en hızlı ve en ekonomik çözümdür; hedefe giden yolda yapı, boru hattı ya da ağaç dalları gibi engeller varsa eklemli sınıf tercih edilir.",
+        maddeler: [
+            {
+                baslik: "Otel bahçesinde uzun boylu ağaç budama",
+                metin:
+                    "Sahil otellerinin peyzajında yer alan palmiye ve çam ağaçları yıllar içinde boy attıkça, budama ve bakım işleri merdivenle ulaşılamayacak yüksekliğe çıkar. Bu ağaçlar genellikle geniş bahçe alanlarında, birbirinden bağımsız ve engelsiz konumda durur; bu da manliftin düz teleskopik kolunun dosdoğru hedefe ulaşmasına imkân tanır. Sezon kapanışı sonrası budama turlarında, aynı bahçedeki birden fazla ağaç tek ziyarette sırayla tamamlanabilir.",
+            },
+            {
+                baslik: "Plaj şeridi ve sahil aydınlatma direği bakımı",
+                metin:
+                    "Kıyı şeridi boyunca dizilen aydınlatma direkleri, açık ve düz bir hat üzerinde bulunduğu için manliftin en verimli çalıştığı sahalardan biridir. Kum zeminde çalışmak ek bir zorluk yaratır; bu yüzden zemin altlığı ya da geniş tabanlı destek kullanımı standart uygulamadır. Direkler arası mesafe kısa olduğunda, makine tek bir rotada birden fazla direği sırayla dolaşabilir.",
+            },
+            {
+                baslik: "Açık hava etkinlik ve düğün alanlarında geçici aydınlatma",
+                metin:
+                    "Aydın'ın sahil kesimindeki açık hava düğün ve etkinlik mekânlarında, geçici aydınlatma kulesi ya da askı sistemi kurulumu sıklıkla talep edilir. Bu alanlar genellikle düz çim ya da taş döşeli geniş sahalar olduğu için, manlift hem hızlı kurulum hem stabil çalışma imkânı sunar. Etkinlik saatinden önce kurulup sonrasında sökülen bu tür işlerde, net bir zaman penceresi paylaşılması planlamayı kolaylaştırır.",
+            },
+            {
+                baslik: "Sera çatısı ve açık jeotermal alan üst kotları",
+                metin:
+                    "Jeotermal ısıyla çalışan açık sera alanlarında, çatı üzerindeki ısıtma hattı, güneş ışığı kontrol perdesi ya da havalandırma bacası gibi kalemler geniş ve düz bir alan üzerinde tek hedef noktası oluşturur. Manliftin teleskopik kolu, bu tür engelsiz açık hatlarda mafsallı bir sınıfa göre daha hızlı ve daha az konumlandırma gerektirerek çalışır. Sera içi değil, sera dışı ve çatı üstü kalemler için bu sınıf önerilir.",
+            },
+            {
+                baslik: "Engel varlığına göre manlift ile eklemli sınıf arasında seçim",
+                metin:
+                    "Manliftin en büyük avantajı basitliğidir: düz bir hat üzerinde en yüksek noktaya en kısa sürede ulaşır. Ancak hedefe giden yol üzerinde bina çıkması, boru hattı, ağaç dalı gibi bir engel varsa, düz kol bu engeli aşamaz ya da dolaylı bir rota gerektirir ve bu durumda eklemli sınıf çok daha uygun olur. Keşif sırasında hedef ile makinenin park edeceği nokta arasındaki hattı fotoğrafla değerlendirip doğru sınıfı önceden belirliyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydın'da manliftin verimli çalıştığı açık sahalar",
+                paragraflar: [
+                    "Aşağıdaki tablo, manliftin düz teleskopik erişiminin en çok değer kattığı tipik açık alan senaryolarını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Zemin", "Tipik iş", "Neden manlift"],
+                    satirlar: [
+                        ["Otel bahçesi", "Çim / toprak, düz", "Ağaç budama", "Engelsiz dikey hat"],
+                        ["Plaj / sahil şeridi", "Kum, düz", "Aydınlatma direği bakımı", "Ardışık direk turu"],
+                        ["Açık hava etkinlik alanı", "Çim / taş döşeme", "Geçici aydınlatma kulesi", "Hızlı kurulum"],
+                        ["Sera çatısı / açık jeotermal", "Düz beton/toprak", "Isıtma hattı, perde bakımı", "Tek hedef noktasına düz erişim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kum ve yumuşak zeminlerde altlık kullanımı",
+                paragraflar: [
+                    "Plaj şeridi ve bahçe gibi kum ya da yumuşak toprak zeminlerde çalışırken, manliftin ayak noktalarına geniş tabanlı destek plakaları yerleştirilir. Bu, noktasal yükü dağıtarak makinenin zemine gömülmesini ya da dengesini kaybetmesini önler.",
+                    "Kum zemin nem oranına göre taşıma kapasitesi değişebildiği için, özellikle yağış sonrası çalışmalarda zemin durumu önceden kontrol edilir. Bu kontrol, sahada beklenmedik bir gecikme yaşanmasını önler.",
+                ],
+            },
+            {
+                baslik: "Ardışık direk ve ağaç turlarında zaman planlaması",
+                paragraflar: [
+                    "Sahil şeridi boyunca dizilen aydınlatma direkleri ya da bahçedeki birden fazla ağaç, aralarındaki mesafe kısa olduğunda tek bir rota içinde sırayla ziyaret edilebilir. Bu, her nokta için ayrı sevkiyat çağırmaya göre belirgin bir zaman ve maliyet avantajı sağlar.",
+                    "Bu tür ardışık turlar için, tüm noktaların bir liste hâlinde ve mümkünse sırayla önceden bildirilmesi, günün en verimli şekilde planlanmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bahçemizdeki uzun palmiyeleri budamak için hangi makine gerekir?",
+                cevap:
+                    "Ağaçlar birbirinden bağımsız ve engelsiz bir bahçede duruyorsa manlift en verimli seçim, çünkü düz teleskopik kolu dosdoğru hedefe ulaşıyor ve mafsallı bir sınıfa göre daha hızlı çalışıyor. Bahçenizdeki ağaç sayısını ve aralarındaki mesafeyi paylaşırsanız, tek ziyarette hepsini sırayla tamamlayacak bir plan çıkarabiliriz.",
+            },
+            {
+                soru: "Sahildeki aydınlatma direklerimiz kum zeminde, manlift oraya girebilir mi?",
+                cevap:
+                    "Girebilir, ancak kum zeminde ayak noktalarına geniş tabanlı destek plakaları yerleştiriyoruz; bu, noktasal yükü dağıtıp makinenin gömülmesini önlüyor. Kum zeminin nem durumuna göre taşıma kapasitesi değişebildiği için, özellikle yağış sonrası çalışmadan önce zemini kontrol ediyoruz. Direkler arası mesafeyi bildirirseniz, tek rotada kaç direğin tamamlanabileceğini önceden söyleyebiliriz.",
+            },
+            {
+                soru: "Düğün için açık alanda geçici aydınlatma kulesi kurmak istiyoruz, ne kadar önceden haber vermeliyiz?",
+                cevap:
+                    "Etkinlik tarihiniz ve kurulum-söküm saatlerinizi ne kadar erken bildirirseniz, planlama o kadar rahat oluyor. Alan genellikle düz çim ya da taş döşeme olduğu için manlift hızlı kurulum imkânı sunuyor. Alanın zeminini ve etkinlik saatlerini paylaşırsanız, kurulum ve söküm için net bir zaman penceresi çıkarabiliriz.",
+            },
+            {
+                soru: "Seramızın çatısındaki ısıtma hattına manlift ile mi ulaşılır, yoksa başka makine mi gerekir?",
+                cevap:
+                    "Sera dışından, çatı üzerinde engelsiz bir hat varsa manlift uygun; sera çatısı üzerinde boru ya da destek yapısı gibi engeller varsa eklemli sınıf daha doğru olur. Hedef noktanın çatı üzerindeki konumunu ve çevresindeki engelleri fotoğrafla paylaşırsanız, keşifte doğru sınıfı netleştirebiliriz.",
+            },
+            {
+                soru: "Manlift ile eklemli platform arasında nasıl seçim yapmalıyız?",
+                cevap:
+                    "Belirleyici olan hedefe giden yolda engel olup olmadığı. Düz ve engelsiz bir hat varsa manlift daha hızlı ve daha ekonomik çalışır; hedefe giden yolda bina çıkması, boru hattı ya da dal gibi bir engel varsa eklemli sınıf bu engelleri dolaşarak aşabildiği için daha uygun olur. Hedef nokta ile makinenin park edeceği yer arasındaki hattın fotoğrafını paylaşırsanız, doğru sınıfı keşifte belirleriz.",
+            },
+            {
+                soru: "Yağmur sonrası bahçe zemini yumuşak, manlift çalışabilir mi?",
+                cevap:
+                    "Zeminin durumuna bağlı; yağış sonrası toprak zeminin taşıma kapasitesi düşer ve bu durumda ya birkaç günlük kuruma süresi beklenir ya da geniş tabanlı destek plakalarıyla riski azaltılır. Zemini zorlamak yerine güvenli bir çalışma penceresi önermeyi tercih ediyoruz. Son yağış tarihini ve zeminin görünür durumunu paylaşırsanız, size uygun bir tarih önerebiliriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift (teleskopik bom) sınıfının düz erişim özelliği genel makine bilgisidir; Aydın'daki otel bahçesi/sahil/jeotermal sera kullanım senaryoları firma pratiğidir. Belirli tesis adı veya rakam iddia edilmemiştir.",
+    },
 };

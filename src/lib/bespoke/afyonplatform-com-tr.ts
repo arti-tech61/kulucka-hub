@@ -2405,4 +2405,200 @@ export const AFYONPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. İscehisar'ın açık işletme ocakçılığı ve traverten kesim yönteminin genel jeolojik karakteri kamuya açık bilgidir; dekapaj, pasa ve kenar risk değerlendirmesi sektör geneli güvenli çalışma pratiğidir. Belirli ocak adı, kapasite veya rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Afyonkarahisar'da Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, dikey doğrultuda dümdüz yükselen ve geniş, sağlam bir sepetle çalışan bir sınıftır; bu özelliği onu Afyonkarahisar'ın mermer ocaklarındaki en düzenli yüzeylerin makinesi yapar. Ocak sahası tek tip bir zemin değildir — dekapajı yeni tamamlanmış gevşek kesimler, kayaç parçası dökülen pasa yığınları ve ayna yüzeyinin hemen kenarı gibi riskli noktalar vardır, ama aynı sahada yıllardır sıkışmış, düz ve taşıma kapasitesi yüksek geniş basamak tabanları da bulunur. Makaslı platformun tekerlek izi dar, tabanı geniştir ve dört noktadan zemine basar; bu da onu düz basamak zemininde en kararlı seçim yapar, ama eğimli veya düzensiz bir yüzeyde aynı avantaj dezavantaja döner. Bu yüzden bir ocak işletmesine makaslı platform önerirken önce makinenin duracağı noktanın basamak tabanı mı yoksa henüz oturmamış bir dolgu mu olduğunu sorarız. Kararlı bir taban bulunduğunda, konveyör bant hattı bakımı, kırıcı-eleme tesisinin üst kademe servisi, aydınlatma direği değişimi ve blok istif sahasındaki yükleme ekipmanının üst noktalarına erişim gibi işler için makaslı platform, dar tabanlı eklemli sınıflardan daha geniş ve daha güvenli bir çalışma alanı sunar. Termal tesislerin düz avlu ve otopark zeminlerinde de aynı mantık geçerlidir: sabit, sağlam bir zeminde makaslı platform hem daha ekonomik hem daha stabildir. Afyonkarahisar'daki mermer ocağı ve termal tesis karışımı, bu makinenin nerede en verimli çalıştığını netleştiren bir saha profilidir; biz de kiralama önerisini bu profile göre şekillendiriyoruz.",
+        maddeler: [
+            {
+                baslik: "Basamak tabanında geniş sepet avantajı",
+                metin:
+                    "Ocak sahasının düzleştirilmiş, sıkışmış basamak tabanları makaslı platform için idealdir: geniş sepet, iki kişinin ve malzemenin aynı anda çalışmasına izin verir, dikey yükselme ise ayna yüzeyinin üst kotlarına düz bir hatla erişim sağlar. Konveyör hattı, kırıcı besleme ağzı veya sabit aydınlatma direği gibi tek noktadan erişilen işler bu sınıfla hızlı ilerler. Zemin sağlamlığı teyit edilmeden makine bu noktaya indirilmez; teyit basamağın ne zaman düzenlendiği ve üzerinden ne sıklıkla ağır araç geçtiği sorularıyla yapılır.",
+            },
+            {
+                baslik: "Blok istif sahasında yükleme ekipmanı servisi",
+                metin:
+                    "Blok istif alanlarında vinç, forklift ve yükleme ekipmanının üst bakım noktaları — hidrolik hortum, aydınlatma, kamera sistemi — düzenli servis gerektirir. Bu alanların zemini genelde sıkıştırılmış ve düzdür, bu da makaslı platformu doğal seçim yapar. Ancak blokların istiflendiği koridorlar dardır; makinenin geçiş genişliği ve dönüş yarıçapı, istif aralıklarına göre önceden ölçülür, aksi hâlde makine sahaya girdiğinde geri manevra gerekir.",
+            },
+            {
+                baslik: "Termal tesis avlu ve otopark bakımı",
+                metin:
+                    "Termal otellerin geniş avlu, otopark ve giriş cephesi zeminleri asfalt veya beton kaplı, düzdür — makaslı platformun en rahat çalıştığı yüzey tipidir. Cephe aydınlatması, tabela değişimi, saçak temizliği ve dış cephe bakımı bu zeminde hızlı ve stabil ilerler. Sezon dışı bakım penceresinde birden fazla otelin aynı haftada talep açması sık görülür; bu dönemde tarih rezervasyonu, makine bulmaktan daha belirleyici hâle gelir.",
+            },
+            {
+                baslik: "Kırıcı-eleme tesisi üst kademe erişimi",
+                metin:
+                    "Mermer işleme öncesi kırma-eleme tesislerinin üst kademeleri — bant transfer noktaları, toz toplama sistemi, elek yüzeyleri — düzenli bakım gerektirir ve bu tesislerin çevresindeki servis zemini genelde beton döşelidir. Makaslı platform bu sabit zeminde dik yükselerek üst kademeye düz bir hat çizer. Tesis çalışır durumdayken sepetten müdahale yapılmaz; bakım öncesi hattın durdurulduğu ve kilitlendiği yazılı olarak teyit edilir.",
+            },
+            {
+                baslik: "Zemin uygunluğu ön koşuldur, saha keşfi bu yüzden zorunludur",
+                metin:
+                    "Makaslı platformun geniş taban avantajı, ancak zemin gerçekten düz ve sağlamsa işler; eğimli, dolgu veya henüz oturmamış bir zeminde aynı geniş taban, dengesizliği büyütür. Bu nedenle ocak sahasına ilk makaslı platform sevkiyatından önce kısa bir zemin değerlendirmesi öneririz — fotoğraf yeterli olabilir, belirsizse yerinde kontrol yapılır. Zemin uygun değilse, aynı işi arazi kabiliyetli eklemli sınıfla öneririz; makine seçimini işin değil, zeminin belirlemesini savunuyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ocak ve termal sahada zemin tipine göre seçim",
+                paragraflar: [
+                    "Afyonkarahisar'daki iki ana saha profili — mermer ocağı ve termal tesis — birbirinden çok farklı zemin karakterleri taşır. Aşağıdaki tablo, hangi noktada makaslı platformun uygun olduğunu, hangi noktada olmadığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha noktası", "Zemin karakteri", "Makaslı platform uygunluğu", "Alternatif"],
+                    satirlar: [
+                        ["Sıkışmış basamak tabanı", "Düz, sağlam, sıkışmış", "Uygun", "—"],
+                        ["Yeni dekapaj kesimi", "Gevşek, henüz sıkışmamış", "Uygun değil", "Arazi kabiliyetli eklemli"],
+                        ["Blok istif koridoru", "Düz beton/sıkışmış zemin, dar geçiş", "Uygun (genişlik ölçümüyle)", "—"],
+                        ["Ayna yüzeyi kenarı", "Değişken, oturma riski", "Uygun değil", "Uzun bomlu eklemli"],
+                        ["Termal tesis avlusu", "Asfalt/beton, düz", "Uygun", "—"],
+                        ["Kırıcı-eleme tesisi çevresi", "Beton döşeli, sabit", "Uygun", "—"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrikli ve dizel makaslı platform arasında saha bazlı seçim",
+                paragraflar: [
+                    "Kapalı veya yarı kapalı alanlarda — kırıcı-eleme tesisinin iç kademeleri, termal tesisin kapalı otoparkı — elektrikli makaslı platform tercih edilir; egzoz gazı çıkarmaz ve daha sessizdir. Açık ocak sahasında ise mesafe ve şarj imkânı belirleyicidir: sahada priz yoksa ve makine gün boyu farklı noktalar arasında hareket edecekse dizel veya hibrit sınıf daha pratik olur.",
+                    "Bu seçim, işin süresine göre de değişir. Tek günlük, tek noktalı bir bakım işinde elektrikli sınıf yeterli ve ekonomiktir; birkaç gün süren, sahanın farklı köşelerine dağılan bir program ise dizel sınıfın hareket serbestisini gerektirir. Talep alırken işin süresini ve sahadaki elektrik erişimini birlikte sorarız.",
+                ],
+            },
+            {
+                baslik: "Teklif öncesi netleştirdiğimiz sorular",
+                paragraflar: [
+                    "Makaslı platform teklifini tek turda kesinleştirmek için üç bilgiye ihtiyacımız olur: makinenin duracağı zeminin tipi ve son ne zaman düzenlendiği, erişilecek en yüksek noktanın kotu ve varsa yaklaşım kısıtları (dar geçiş, sabit ekipman), ve işin süresi. Bu üç bilgi net geldiğinde doğru kapasite ve enerji tipini aynı gün önerebiliyoruz; belirsiz kalan bir nokta varsa kısa bir saha fotoğrafı isteriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ocak sahasının her noktasında çalışabilir mi?",
+                cevap:
+                    "Hayır, sadece düz ve sağlam zeminli noktalarda güvenli çalışır. Ocak sahasının sıkışmış basamak tabanları, blok istif alanları ve kırıcı-eleme tesisi çevresi buna uygundur; ancak yeni dekapaj kesimleri, pasa yığınları ve ayna yüzeyinin hemen kenarı gibi düzensiz veya oturmamış zeminlerde makaslı platform önerilmez — bu noktalar için arazi kabiliyetli eklemli sınıf daha güvenlidir.",
+            },
+            {
+                soru: "Blok istif koridorlarında makaslı platform geçebilir mi?",
+                cevap:
+                    "Genellikle geçer, ancak koridor genişliği önceden ölçülmelidir. Makaslı platformun taban genişliği ve dönüş yarıçapı, dar istif aralıklarında manevra sorununa yol açabilir. Sahaya gitmeden önce istif koridorlarının en dar noktasının genişliğini işletmeden alır, makinenin gövde ölçüleriyle karşılaştırırız.",
+            },
+            {
+                soru: "Termal tesis avlusunda kaç günlüğüne makine tutabiliriz?",
+                cevap:
+                    "Süre tamamen işin kapsamına bağlıdır; tek cephe aydınlatması değişimi bir günde biter, kapsamlı bir dış cephe-saçak bakımı birkaç gün sürebilir. Sezon dışı bakım penceresinde birden fazla otel aynı haftaya iş sıkıştırdığı için, süre netleştikçe tarihi erken rezerve etmenizi öneririz.",
+            },
+            {
+                soru: "Elektrikli makaslı platform açık ocak sahasında kullanılabilir mi?",
+                cevap:
+                    "Kullanılabilir ama sahada güvenilir bir şarj noktası ve makul mesafe olması gerekir. Ocak sahaları genelde geniş ve dağınık olduğu için, makine gün içinde birden fazla noktaya taşınacaksa dizel veya hibrit sınıf daha pratik kalır. Sabit tek noktalı bir iş ve yakında elektrik erişimi varsa elektrikli sınıf hem sessiz hem ekonomiktir.",
+            },
+            {
+                soru: "Kırıcı-eleme tesisi çalışırken üst kademede bakım yapılabilir mi?",
+                cevap:
+                    "Hayır. Bant, elek ve toz toplama sistemi çalışır durumdayken sepetten müdahale yapılmaz; hareketli parçalara yakın çalışma, hat tamamen durdurulup enerjisi kesildikten ve bu durum yazılı olarak teyit edildikten sonra başlar. Bu kural, iş süresini biraz uzatsa da vazgeçilmezdir.",
+            },
+            {
+                soru: "Zemin uygunluğunu siz mi değerlendiriyorsunuz, biz mi bildirmeliyiz?",
+                cevap:
+                    "İkisi birlikte yürür. İşletmenizden makinenin duracağı noktanın ne zaman düzenlendiğini ve üzerinden ne sıklıkla ağır araç geçtiğini sorarız; bu bilgi fotoğrafla desteklendiğinde genellikle karar vermek için yeterli olur. Belirsiz kalan bir durumda yerinde kısa bir keşif öneririz — makine sahaya inmeden önce zemin fiilen kontrol edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun dar taban/geniş sepet ve dikey yükselme karakteri ile açık ocak zemin türlerinin (basamak, dekapaj, pasa, blok istif) genel jeoteknik ayrımı kamuya açık bilgidir. Belirli ocak adı, kapasite veya rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Afyonkarahisar'da Manlift Kiralama",
+        giris:
+            "Manlift, uzun ve eklemli bomuyla düz olmayan zeminde bile güvenli mesafeden erişim sağlayan bir sınıftır; bu özellik onu Afyonkarahisar'ın iki farklı sahasında da öne çıkarır: mermer ocaklarının ayna yüzeyi kenarları ve termal tesislerin çok katlı dış cepheleri. Ocak tarafında iş, düz bir zemine değil, kenara yaklaşmadan ayna yüzeyinin üst kotuna erişmektir — burada manlifin uzun uzanmalı bomu, makineyi güvenli bir mesafede tutarken sepeti hedef noktaya taşır ve arazi kabiliyetli tekerlek düzeni, ocak sahasının düzensiz zemininde bile stabil kalır. Termal tesis tarafında ise iş, sezon dışı bakım penceresinde birden fazla otelin aynı anda açtığı cephe, çatı ve dış ünite işleridir; bu tesislerin bahçe düzenlemesi, giriş rampası ve dar geçitleri, dönüş yarıçapı küçük ve dikey uzanma kabiliyeti yüksek bir makine gerektirir — manlift burada da doğru sınıftır. İki saha tipi birbirinden çok farklı görünse de ortak paydaları aynıdır: zemin düzensiz, hedef nokta yüksek ve doğrudan altına yanaşmak riskli veya mümkün değil. Afyonkarahisar'daki manlift talebinin çoğu bu iki profilden gelir; biz de kiralama önerisini işin ocak mı termal tesis mi olduğuna göre değil, zeminin ve erişim açısının ne gerektirdiğine göre şekillendiriyoruz.",
+        maddeler: [
+            {
+                baslik: "Ayna yüzeyi kenarına güvenli mesafeden erişim",
+                metin:
+                    "Ocak sahasında ayna yüzeyinin hemen kenarına makine yanaştırmak, zemin oturma riskini artırır. Manlifin uzun eklemli bomu, makineyi kenardan güvenli bir mesafede tutarken sepeti yüksek noktaya taşır; bu, kısa uzanmalı sınıfların yapamadığı bir manevradır. Üst kottaki gevşek malzemenin temizlendiği, çalışma başlamadan işletmeyle birlikte teyit edilir.",
+            },
+            {
+                baslik: "Düzensiz ocak zemininde arazi kabiliyeti",
+                metin:
+                    "Ocak sahasının dekapaj kesimleri, pasa yığınları ve sıkışmamış dolgu alanları düz zemin gerektiren sınıflar için risklidir. Manlifin geniş, kabartma desenli lastikleri ve dört tekerden çekiş seçeneği, bu düzensiz zeminde makaslı platforma göre daha güvenli hareket sağlar. Yine de zemin sağlamlığı sıfırdan garanti değildir; makinenin duracağı nokta, dekapajı tamamlanmış ve zamanla sıkışmış bir kesimden seçilir.",
+            },
+            {
+                baslik: "Termal tesis çok katlı cephesinde dikey ve yatay erişim",
+                metin:
+                    "Termal otellerin çok katlı cepheleri, tek bir dikey hatla değil, hem yükseklik hem yanal uzanma gerektiren noktalara sahiptir — balkon altı, çıkma cephe, çatı saçağı. Manlifin eklemli bomu bu tür noktalara dikey platformun ulaşamadığı açıdan erişir. Sezon dışı bakım penceresinde birden fazla katın aynı anda ele alındığı işlerde bu esneklik, iş süresini kısaltır.",
+            },
+            {
+                baslik: "Dar bahçe ve giriş rampalarında küçük dönüş yarıçapı",
+                metin:
+                    "Termal tesislerin peyzajlı bahçeleri, giriş rampaları ve otopark girişleri genellikle dar ve engebeli geçitlerdir. Kompakt eklemli manlift sınıfları, küçük dönüş yarıçapı sayesinde bu geçitlerden geniş şaseli makinelerin giremediği noktalara ulaşır. Bahçe düzenlemesine zarar vermemek için önerilen güzergâh, sevkiyat öncesi işletmeyle birlikte belirlenir.",
+            },
+            {
+                baslik: "İşin süresine göre elektrikli veya dizel seçimi",
+                metin:
+                    "Kısa süreli, tek noktalı bir termal tesis cephe işi için elektrikli manlift sessiz ve ekonomik bir seçimdir. Ocak sahasında ise mesafe uzun, saha dağınık ve genelde şarj noktası bulunmadığı için dizel veya hibrit sınıf daha uygundur. İşin kapsamı ve sahadaki elektrik erişimi netleştikçe doğru enerji tipini birlikte kararlaştırırız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ocak ve termal sahada manlift kullanım noktaları",
+                paragraflar: [
+                    "Manlifin Afyonkarahisar'daki iki ana kullanım alanı farklı erişim sorunlarına çözüm sunar. Aşağıdaki tablo bu ayrımı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha", "Erişim sorunu", "Manlift avantajı", "Dikkat edilecek nokta"],
+                    satirlar: [
+                        ["Ocak — ayna yüzeyi kenarı", "Kenara yanaşmak riskli", "Uzun bomla güvenli mesafeden erişim", "Üst kot gevşek malzemeden temizlenmeli"],
+                        ["Ocak — dekapaj/pasa çevresi", "Düzensiz, sıkışmamış zemin", "Arazi kabiliyetli tekerlek düzeni", "Duracak nokta sıkışmış kesimden seçilmeli"],
+                        ["Termal tesis — çok katlı cephe", "Dikey + yatay erişim gerekli", "Eklemli bom farklı açılardan ulaşır", "Balkon/çıkma noktaları önceden işaretlenmeli"],
+                        ["Termal tesis — bahçe/rampa", "Dar geçit, engebeli zemin", "Küçük dönüş yarıçapı", "Peyzaja zarar vermeyen güzergâh planı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon dışı bakım penceresi ve ocak takviminin çakışması",
+                paragraflar: [
+                    "Termal tesislerin bakım penceresi doluluğun düştüğü kısa haftalara sıkışır ve bu haftalarda birden fazla otel aynı anda talep açar. Ocak sahasındaki bakım işleri ise hava koşuluna bağlıdır — yağışlı dönemde zemin yumuşadığı için ağır makine planı ertelenir, kuru dönemde ise iş yoğunlaşır. Bu iki takvim bazen aynı haftalara denk gelir ve o dönemde makine bulmak zorlaşır.",
+                    "Bu çakışmayı yönetmenin en pratik yolu, tarihi mümkün olduğunca erken netleştirmektir. Düzenli çalıştığımız işletmelerden, sabit tarihli işlerle esnetilebilir işleri ayrı bildirmelerini isteriz; esnetilebilir işler, sabit tarihli işlerin yarattığı yığılmayı boşaltmanın en kolay yoludur.",
+                ],
+            },
+            {
+                baslik: "Teklif için ihtiyacımız olan bilgiler",
+                paragraflar: [
+                    "Manlift teklifini doğru vermek için üç şeyi bilmemiz gerekir: erişilecek noktanın kotu ve yatay uzanma mesafesi, zeminin tipi (ocak zemini mi, tesis bahçesi mi) ve varsa geçiş genişliği kısıtları. Bu bilgiler net geldiğinde bom uzunluğunu ve enerji tipini aynı gün önerebiliyoruz; belirsizlik varsa kısa bir saha fotoğrafı veya yerinde keşif isteriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ayna yüzeyinin tam kenarına yaklaşmadan üst kotuna erişebilir mi?",
+                cevap:
+                    "Evet, manlifin temel avantajı budur. Uzun eklemli bom sayesinde makine kenardan güvenli bir mesafede durur, sepet ise yandan uzanarak hedef noktaya ulaşır. Bu sayede hem kenar zemininin oturma riskinden hem üst kottan düşebilecek parça riskinden kaçınılır. Üst kotun gevşek malzemeden temizlendiği çalışma öncesi teyit edilir.",
+            },
+            {
+                soru: "Ocak sahasının düzensiz zemininde manlift devrilme riski taşır mı?",
+                cevap:
+                    "Doğru konumlandırıldığında risk düşüktür. Manlifin geniş lastikleri ve arazi kabiliyetli tekerlek düzeni düzensiz zeminde makaslı platforma göre daha stabildir, ancak bu sınırsız bir garanti değildir. Makinenin duracağı nokta yine de dekapajı tamamlanmış ve sıkışmış bir kesimden seçilir; sahaya inmeden önce zemin durumu kontrol edilir.",
+            },
+            {
+                soru: "Termal tesisin balkon altı gibi çıkma noktalarına manlift ulaşabilir mi?",
+                cevap:
+                    "Evet, eklemli bom tam olarak bu tür noktalar için tasarlanmıştır. Dikey platformların ulaşamadığı balkon altı, çıkma cephe ve saçak gibi noktalara, bomu farklı açılarda bükerek erişilir. İş öncesi bu noktaların konumu ve yüksekliği işletmeyle birlikte işaretlenir, böylece doğru bom uzunluğu seçilir.",
+            },
+            {
+                soru: "Termal tesisin dar bahçe girişinden manlift geçebilir mi?",
+                cevap:
+                    "Kompakt eklemli manlift sınıfları küçük dönüş yarıçapı sayesinde çoğu dar geçitten geçebilir, ancak geçit genişliği önceden ölçülmelidir. Peyzajlı bahçelerde makinenin izleyeceği güzergâh, bitki ve donatıya zarar vermemek için sevkiyat öncesi işletmeyle birlikte belirlenir.",
+            },
+            {
+                soru: "Sezon dışı bakım haftalarında manlift bulmak zorlaşır mı?",
+                cevap:
+                    "Birden fazla termal tesis doluluğun düştüğü aynı haftalara bakım işi sıkıştırdığında talep yoğunlaşır ve bu dönemde tarih rezervasyonu önem kazanır. Bu nedenle sabit tarihli işlerinizi mümkün olduğunca erken bildirmenizi öneririz; esnetilebilir işler ise bu yoğun haftaların dışına kolayca kaydırılabilir.",
+            },
+            {
+                soru: "Elektrikli manlift açık ocak sahasında yeterli olur mu?",
+                cevap:
+                    "Sahanın büyüklüğüne ve şarj erişimine bağlıdır. Ocak sahaları genelde geniş ve dağınık olduğu için, makine gün içinde birden fazla noktaya taşınacaksa dizel veya hibrit sınıf daha pratiktir. Tek noktalı, kısa süreli bir iş ve yakında güvenilir bir elektrik kaynağı varsa elektrikli sınıf da tercih edilebilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlifin eklemli bom ve arazi kabiliyeti karakteri, açık ocak ayna yüzeyi kenar riski ve termal tesislerin çok katlı cephe/bahçe erişim ihtiyacının genel karakteri kamuya açık bilgidir. Belirli ocak veya otel adı, kapasite ya da rakam kullanılmamıştır.",
+    },
 };

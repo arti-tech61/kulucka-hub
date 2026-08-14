@@ -2025,4 +2025,202 @@ export const AFYONMANLIFTKIRALAMA_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Termal otel dış sahalarında bahçe/otopark genişleme ve doğal kaynak çevresi zemin çeşitliliği genel gözlemdir; zemin değerlendirme yöntemi ve mevsimsel önlem firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Afyon OSB Fabrika ve Depolarında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, OSB’deki fabrika ve lojistik depolarda en sık talep edilen sınıftır; bunun nedeni sepetinin geniş ve dikdörtgen olması, yani bir kişiden çok bir ekip artı malzemeyi aynı anda taşıyabilmesidir. Eklemli veya teleskopik platformlar tek noktaya erişimde daha esnekken, makaslı sepet dikey eksende kalkar ve bu, aydınlatma armatürü değişimi, kanal montajı veya raf kontrolü gibi tek hat boyunca ilerleyen işlerde makaslıyı öne çıkarır. Fabrika hollerinde ve depo koridorlarında zemin çoğunlukla düzgün betondur; bu da akülü makaslıyı hem sessiz hem iz bırakmayan bir çözüm yapar ve kapalı hacimde egzoz gazı sorunu yaratmaz. Bu sayfada makaslı platformun OSB fabrika ve depo bağlamında hangi işlerde tercih edildiğini, koridor genişliği ile sepet ölçüsü arasındaki ilişkiyi ve doğru sınıfı seçerken sorduğumuz temel soruları anlatıyoruz. Amacımız, teklif öncesinde sizin de makaslı platformun hangi işe uygun hangi işe uygun olmadığını netleştirmenizdir; bu netlik hem doğru fiyatı hem doğru teslim tarihini baştan garanti eder.",
+        maddeler: [
+            {
+                baslik: "Geniş sepet, hat boyunca ilerleyen işler",
+                metin:
+                    "Makaslı platformun sepeti dikdörtgen ve geniştir; bu da onu, aynı hat boyunca tekrar eden işlerde (uzun bir aydınlatma sırasının değişimi, bir kanal hattının izlenmesi, raf sırasının kontrolü) en verimli seçenek yapar. Operatör sepette dururken malzeme kutusu, alet çantası ve bazen ikinci bir kişi aynı anda taşınabilir; bu, sepetin sık sık aşağı-yukarı indirilmesini gerektiren dar sepetli sınıflara göre işi hızlandırır. Hattın uzunluğu ve durak sayısı bilindiğinde, kaç saatlik bir kiralama gerektiği önceden tahmin edilebilir.",
+            },
+            {
+                baslik: "Beton zeminde iz bırakmayan tekerlek avantajı",
+                metin:
+                    "OSB fabrika hollerinin ve depoların zemini genellikle cilalı veya standart endüstriyel betondur; bu zeminlerde iz bırakmayan (non-marking) lastikli akülü makaslı tercih edilir. Dizel veya arazi tipi sınıflar bu zeminlerde hem gereksiz hem de zemin kaplamasına zarar verme riski taşır. Zemin düzse ve eğim yoksa makaslının dört nokta desteği yeterli stabiliteyi sağlar; zeminde eğim veya rampa varsa bu durum önceden bildirilmelidir çünkü bazı makaslı modelleri belirli bir eğim sınırının üzerinde çalışmaz.",
+            },
+            {
+                baslik: "Koridor genişliği: sepet ölçüsünü belirleyen asıl kısıt",
+                metin:
+                    "Depo raf koridorlarında makaslı seçerken belirleyici olan çalışma yüksekliği değil, koridorun boş genişliğidir. Standart bir makaslının şase genişliği dar koridorlara sığmayabilir; bu durumda dar gövdeli makaslı sınıfı veya koridor arası geçiş noktalarından döndürülebilen kompakt bir model tercih edilir. Koridor genişliğini metre cinsinden bildirmeniz, bize doğru şase ölçüsünü baştan belirleme imkânı verir ve sahada makinenin koridora girmemesi gibi bir sürprizle karşılaşılmaz.",
+            },
+            {
+                baslik: "Makaslı mı eklemli mi: basit ayrım kuralı",
+                metin:
+                    "İş tek bir hat boyunca düz bir yükseklikte ilerliyorsa (aydınlatma sırası, kanal hattı, raf duvarı) makaslı platform yeterli ve daha ekonomiktir. İş bir engelin üzerinden veya yanından ulaşmayı gerektiriyorsa — örneğin bir konveyör hattının üzerinden geçip karşı tarafa erişmek, ya da bir kolonun arkasındaki noktaya ulaşmak — eklemli (boom) sınıf gerekir çünkü makaslı yalnız dikey eksende hareket eder. Bu ayrımı teklif öncesi netleştirmek, sahada yanlış sınıfla karşılaşma riskini ortadan kaldırır.",
+            },
+            {
+                baslik: "Vardiya süresi ve şarj planlaması",
+                metin:
+                    "Kapalı fabrika ve depo hacimlerinde akülü makaslı zorunludur; bu da vardiya süresi ile şarj ihtiyacının önceden konuşulmasını gerektirir. Tek vardiyalık kısa işlerde tam şarjlı bir makine günü sorunsuz tamamlar; birden fazla vardiya veya birkaç günü kapsayan bir program varsa, gece boyunca şarj edilecek bir priz noktası ve makinenin gece bırakılacağı güvenli bir alan baştan planlanır. Bu detay atlanırsa ikinci gün işe geç başlama riski doğar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB hacim tipine göre makaslı sınıf seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, OSB fabrika ve depo bünyesindeki tipik hacim tiplerini ve her biri için tercih ettiğimiz makaslı sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Zemin", "Kısıt", "Önerilen makaslı sınıfı"],
+                    satirlar: [
+                        ["Üretim holü (geniş açıklık)", "Düz beton", "Forklift trafiği", "Standart akülü makaslı"],
+                        ["Depo raf koridoru", "Düz beton", "Dar koridor genişliği", "Dar gövdeli akülü makaslı"],
+                        ["Yükleme rampası çevresi", "Düz beton, hafif eğim", "Araç trafiği", "Standart akülü makaslı"],
+                        ["Ofis/idari bina içi", "Düz zemin, hassas kaplama", "İz bırakmama zorunluluğu", "Kompakt iz bırakmayan makaslı"],
+                        ["Açık saha / yükleme avlusu", "Stabilize veya beton", "Hava koşulu", "Arazi tipi makaslı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teklif öncesi netleştirdiğimiz üç ölçü",
+                paragraflar: [
+                    "Makaslı platform teklifinde sizden istediğimiz üç temel bilgi vardır: çalışma noktasının zeminden yüksekliği, en dar geçilecek koridorun genişliği ve zeminin cinsi (düz beton mu, hafif eğimli mi, açık saha mı). Bu üç bilgi netleştiğinde doğru sınıf ve doğru gün sayısı aynı gün içinde belirlenir.",
+                    "Bu bilgiler eksik geldiğinde bile teklif verebiliriz, ancak sahaya varıldığında sınıf değişikliği gerekirse ek bir sevkiyat günü doğabilir; bu yüzden mümkün olduğunca önceden netleştirmeyi öneririz.",
+                ],
+            },
+            {
+                baslik: "Operatör ve süre esnekliği",
+                paragraflar: [
+                    "Makaslı platform hem operatörlü hem operatörsüz kiralanabilir; OSB’de tesis içi teknik personeli olan işletmeler genellikle operatörsüz seçeneği, kısa süreli ve tek seferlik işlerde ise operatörlü seçeneği tercih eder. Kiralama süresi günlük veya haftalık olarak planlanabilir; birden fazla hattın art arda kontrol edileceği işlerde haftalık kiralama genellikle daha ekonomik çıkar.",
+                    "Hangi seçeneğin sizin için uygun olduğuna, işin toplam süresi ve tesis içi personel kapasitesi birlikte değerlendirilerek karar veririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform hangi işlerde eklemli platformdan daha iyi çalışır?",
+                cevap:
+                    "Makaslı platform, tek bir hat boyunca düz yükseklikte ilerleyen işlerde (aydınlatma sırası değişimi, kanal hattı bakımı, raf duvarı kontrolü) daha verimlidir çünkü sepeti geniştir ve ekip artı malzemeyi birlikte taşıyabilir. İş bir engelin üzerinden veya yanından erişim gerektiriyorsa eklemli platform gerekir; makaslı yalnızca dikey eksende hareket eder ve yatay erişim mesafesi sınırlıdır.",
+            },
+            {
+                soru: "Depo koridorumuz dar; standart makaslı sığar mı?",
+                cevap:
+                    "Standart makaslının şase genişliği çoğu zaman dar raf koridorlarına sığmaz; bu durumda dar gövdeli akülü makaslı sınıfı öneririz. Koridor genişliğini metre cinsinden bildirirseniz, o ölçüye uygun en dar modeli baştan belirleriz. Koridorun dönüş noktalarındaki genişliği de ayrıca kontrol etmek gerekir çünkü makine düz hatta sığsa bile dönüşte takılabilir.",
+            },
+            {
+                soru: "Fabrika zeminimiz cilalı; makaslı zemine zarar verir mi?",
+                cevap:
+                    "Doğru lastik seçildiğinde zarar vermez. Cilalı veya hassas kaplamalı zeminlerde iz bırakmayan (non-marking) lastikli akülü makaslı kullanırız; bu lastikler kauçuk bileşimi nedeniyle zeminde iz veya kayma bırakmaz. Zeminin cilalı olduğunu önceden bildirmeniz, sahaya doğru lastik tipiyle gelmemizi sağlar.",
+            },
+            {
+                soru: "Vardiyamız iki gün sürecek; şarj sorunu yaşar mıyız?",
+                cevap:
+                    "Tek vardiyalık kısa işlerde tam şarjlı makine günü sorunsuz tamamlar, ancak iki günü aşan programlarda gece boyunca şarj edilecek bir priz noktasına ihtiyaç vardır. Bu noktayı ve makinenin gece güvenle bırakılacağı alanı önceden birlikte belirleriz; bu planlama yapılmazsa ikinci gün işe gecikmeli başlama riski doğar.",
+            },
+            {
+                soru: "Makaslı platformu operatörsüz kiralayabilir miyiz?",
+                cevap:
+                    "Kiralayabilirsiniz; tesis içinde yeterlilik belgesine sahip teknik personeliniz varsa operatörsüz seçenek uygundur. Tek seferlik veya kısa süreli işlerde operatörlü seçenek genellikle daha hızlı ilerler çünkü ekibimiz makinenin sınıfına ve sahanın düzenine aşinadır. Hangi seçeneğin sizin için uygun olduğuna işin süresi ve personel kapasitenize göre birlikte karar veririz.",
+            },
+            {
+                soru: "Açık yükleme avlusunda da makaslı kullanılabilir mi?",
+                cevap:
+                    "Kullanılabilir, ancak açık sahada zemin ve hava koşulu değişkenlik gösterebileceği için arazi tipi bir makaslı sınıfı öneririz; standart akülü makaslı düz beton dışında stabilite riski taşıyabilir. Zeminin stabilize mi beton mu olduğunu ve yağış durumunu ziyaret öncesi bildirmeniz, doğru sınıfı baştan belirlememizi sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun sepet geometrisi, iz bırakmayan lastik özelliği ve dikey-eksen çalışma prensibi genel ekipman bilgisidir; OSB fabrika/depo bağlamındaki sınıf eşleştirmesi ve koridor ölçüm pratiği firma saha deneyimidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Afyon OSB’de Manlift Kiralama: Terim, Süreç ve Sınıf Seçimi",
+        giris:
+            "\"Manlift\" kelimesi sahada genellikle tek bir makine tipini değil, yükseğe çalışma amacıyla kullanılan tüm platform ailesini tarif etmek için kullanılır — arayan işletme çoğu zaman makaslı mı eklemli mi istediğini değil, \"yükseğe çıkacak bir makine\" istediğini söyler. Bu terim karışıklığı OSB’deki fabrika ve depo müşterilerinde de sık görülür; bu yüzden manlift kiralama talebi geldiğinde önce hangi iş için hangi sınıfın gerektiğini birlikte netleştiririz, sonra kiralama sürecini planlarız. Süreç üç adımdan oluşur: işin tanımlanması (hangi noktaya, ne sıklıkta erişilecek), doğru sınıfın belirlenmesi (makaslı, eklemli veya sepetli örümcek) ve teslim-kiralama koşullarının kurulması (süre, operatör, sözleşme kapsamı). Bu sayfada OSB’de manlift kiralama derken kastedilenin ne olduğunu, teklif alırken hangi bilgileri paylaşmanız gerektiğini ve kiralama sözleşmesinin genel kapsamını anlatıyoruz — belirli bir makine sınıfının teknik detayına girmek yerine, kiralama sürecinin kendisine odaklanıyoruz.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" terimi neyi kapsar",
+                metin:
+                    "Türkçe sahada \"manlift\" kelimesi resmi bir sınıf adı değil, günlük kullanımda yerleşmiş bir şemsiye terimdir; makaslı platform, eklemli (boom) platform ve sepetli örümcek platform gibi farklı sınıfların tümü için kullanılabilir. Bir işletme bizi aradığında genellikle \"manlift lazım\" der, ama hangi sınıfın gerektiği işin niteliğine göre değişir. Bu yüzden ilk telefon görüşmesinde işin ne olduğunu (aydınlatma değişimi mi, çelik konstrüksiyon kaynağı mı, dar bir noktaya erişim mi) sorarak doğru sınıfı birlikte belirleriz.",
+            },
+            {
+                baslik: "Teklif için paylaşmanız gereken bilgiler",
+                metin:
+                    "Doğru fiyat ve doğru sınıfla teklif verebilmemiz için üç bilgiye ihtiyacımız var: çalışma noktasının zeminden yaklaşık yüksekliği, çalışılacak alanın zemin cinsi ve varsa dar geçiş noktalarının genişliği. Bu bilgilere ek olarak işin kapalı mekanda mı açık sahada mı yapılacağı da önemlidir çünkü kapalı hacimde yalnızca akülü sınıflar kullanılabilir. Bu dört bilgi tam geldiğinde aynı gün içinde net bir teklif ve tarih verebiliriz.",
+            },
+            {
+                baslik: "Kiralama süresi: günlük mü haftalık mı",
+                metin:
+                    "OSB’de manlift kiralama süresi işin niteliğine göre değişir; tek seferlik bir bakım işi genellikle günlük kiralamayla tamamlanırken, birden fazla hattın veya binanın sırayla kontrol edildiği işlerde haftalık kiralama daha ekonomik olur. Süre belirsizse, işin tahmini kapsamını paylaşmanız bize başlangıç süresini önermemizi sağlar; iş uzarsa süre uzatımı, makinenin sahada zaten bulunması nedeniyle ek nakliye maliyeti doğurmadan yapılabilir.",
+            },
+            {
+                baslik: "Sözleşme kapsamı: sigorta, bakım ve arıza durumu",
+                metin:
+                    "Kiralama sözleşmesi, makinenin sigorta kapsamını, periyodik bakım sorumluluğunu ve arıza hâlinde ikame makine süresini içerir. Kiralık makine kiralama süresi boyunca bakımlı tutulur; olağan kullanım dışı bir arıza oluşursa ikame makine en kısa sürede sahaya ulaştırılır. Operatör hatası dışındaki teknik arızalarda kiracıya ek maliyet çıkmaz; bu detaylar teklif aşamasında yazılı olarak paylaşılır.",
+            },
+            {
+                baslik: "OSB içi çoklu parsel taleplerinde koordinasyon",
+                metin:
+                    "Aynı OSB içinde birden fazla parselin veya tesisin aynı dönemde manlift talep etmesi sık karşılaşılan bir durumdur; bu durumda makineyi bir parselden diğerine kısa mesafeli sevk ederek nakliye payını düşürebiliriz. Birden fazla tesisin talebini önceden bildirmesi, hem sıralamayı hem toplam maliyeti bizim için daha verimli planlamamızı sağlar. Bu koordinasyon özellikle OSB yönetimi üzerinden ortak bakım dönemi ilan edilen dönemlerde işe yarar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İşe göre doğru manlift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, \"manlift\" talebinin arkasındaki farklı iş tiplerini ve bunlara karşılık gelen gerçek sınıfı özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Talep edilen iş", "Erişim biçimi", "Uygun sınıf", "Tipik ortam"],
+                    satirlar: [
+                        ["Aydınlatma/kanal hattı bakımı", "Düz hat boyunca dikey", "Makaslı platform", "Fabrika holü, depo"],
+                        ["Konveyör/engel üzerinden erişim", "Yatay uzanım gerekli", "Eklemli (boom) platform", "Üretim hattı çevresi"],
+                        ["Dar iç köşe, kolon arkası", "Kompakt manevra", "Sepetli örümcek platform", "İç mekan, sınırlı alan"],
+                        ["Çelik konstrüksiyon/çatı işi", "Değişken yükseklik ve açı", "Eklemli platform", "Çatı, çelik kolon"],
+                        ["Raf koridoru kontrolü", "Dar koridor, düz hat", "Dar gövdeli makaslı", "Depo raf sistemi"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk görüşmede sorduğumuz sorular",
+                paragraflar: [
+                    "Telefonda veya yazılı talep alırken önce işin ne olduğunu (bakım mı montaj mı kontrol mü), sonra kapalı mı açık mekanda mı yapılacağını, son olarak da kaç gün süreceğini soruyoruz. Bu üç cevap, hangi sınıfın \"manlift\" başlığı altında gerçekten gerektiğini büyük ölçüde belirler.",
+                    "Bazı işlerde birden fazla sınıf gerekebilir — örneğin hem hat boyunca hem de bir engel üzerinden erişim gerekiyorsa, iki farklı makine aynı sevkiyatla getirilerek nakliye payı tek kalemde toplanabilir.",
+                ],
+            },
+            {
+                baslik: "Operatörlü ve operatörsüz seçenek",
+                paragraflar: [
+                    "Manlift kiralamada operatörlü ve operatörsüz seçenek birlikte sunulur. Operatörlü kiralamada makineyi bizim ekibimizden bir operatör kullanır; operatörsüz kiralamada ise sizin yeterlilik belgeli personeliniz makineyi kullanır. Tek seferlik ve kısa süreli işlerde operatörlü seçenek genellikle daha hızlı ilerler çünkü ekibimiz farklı sınıflara aşinadır.",
+                    "Düzenli, tekrar eden bakım programlarında ise işletmeler çoğunlukla kendi personelini yetkilendirmeyi tercih eder; bu durumda kiralama süresince yalnızca makine ve teknik destek sağlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift\" derken tam olarak hangi makineyi kastediyorsunuz?",
+                cevap:
+                    "\"Manlift\" günlük kullanımda yerleşmiş bir şemsiye terimdir; makaslı platform, eklemli (boom) platform ve sepetli örümcek platform gibi farklı sınıfların tümünü kapsayabilir. Talebinizi aldığımızda önce işin ne olduğunu sorarak hangi sınıfın gerçekte gerektiğini birlikte belirleriz; bu netleşmeden verilen bir teklif yanlış makineyle sahaya gelme riski taşır.",
+            },
+            {
+                soru: "Teklif almak için size ne bilgi vermem gerekiyor?",
+                cevap:
+                    "Dört temel bilgi yeterlidir: çalışma noktasının zeminden yaklaşık yüksekliği, zeminin cinsi, varsa dar geçiş noktalarının genişliği ve işin kapalı mı açık mekanda mı yapılacağı. Bu bilgiler tam geldiğinde aynı gün içinde net bir teklif ve tarih verebiliriz; eksik bilgiyle de teklif verilebilir ama sahada sınıf değişikliği gerekebilir.",
+            },
+            {
+                soru: "Günlük mü haftalık mı kiralamalıyım?",
+                cevap:
+                    "Tek seferlik, tek günlük bir bakım işiyse günlük kiralama yeterlidir. Birden fazla hattın veya binanın sırayla kontrol edileceği işlerde haftalık kiralama genellikle daha ekonomiktir çünkü nakliye maliyeti tek seferde amorti edilir. İşin tahmini kapsamını paylaşırsanız size en uygun süre seçeneğini öneririz.",
+            },
+            {
+                soru: "Kiralık makine sahada arıza yaparsa ne olur?",
+                cevap:
+                    "Olağan kullanım dışı bir teknik arıza oluşursa ikame makine en kısa sürede sahaya ulaştırılır; bu durum sözleşme kapsamındadır ve operatör hatası kaynaklı olmadığı sürece kiracıya ek maliyet çıkmaz. Arıza durumunda bizi aramanız yeterlidir, süreç ve ikame süresi teklif aşamasında yazılı olarak paylaşılmıştır.",
+            },
+            {
+                soru: "Aynı OSB’de birden fazla parselimiz var; ayrı ayrı mı kiralamalıyız?",
+                cevap:
+                    "Gerekmiyor; aynı dönemde birden fazla parselin talebi varsa makineyi parseller arasında kısa mesafeli sevk ederek nakliye payını tek kalemde toplayabiliriz. Talepleri önceden bize bildirmeniz, hem sıralamayı hem toplam maliyeti daha verimli planlamamızı sağlar; bu özellikle OSB yönetiminin ortak bakım dönemi ilan ettiği zamanlarda işe yarar.",
+            },
+            {
+                soru: "İşimiz hem hat boyunca hem bir engel üzerinden erişim gerektiriyor; tek makine yeter mi?",
+                cevap:
+                    "Genellikle yetmez; hat boyunca düz erişim makaslı platformla, engel üzerinden veya yanından erişim ise eklemli platformla yapılır. Bu iki ihtiyaç aynı işte bir aradaysa, iki farklı sınıfı aynı sevkiyatla getirerek nakliye payını tek kalemde toplarız. Talep sırasında hangi kısmın hangi erişim biçimini gerektirdiğini belirtirseniz, teklifi buna göre iki ayrı kalemle çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. \"Manlift\" teriminin Türkçe sahada şemsiye kullanımı ve kiralama sürecinin genel adımları (talep-sınıf-teslim) sektörel genel bilgidir; OSB içi çoklu parsel koordinasyonu ve sözleşme kapsamı firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
+    },
 };
