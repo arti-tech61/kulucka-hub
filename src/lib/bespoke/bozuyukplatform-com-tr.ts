@@ -654,4 +654,1078 @@ export const BOZUYUKPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-13. Pazaryeri OSB ve Bilecik çevresindeki organize sanayi bölgelerinin varlığı kamuya açık genel bilgidir; kısa mesafe transferi, rota maliyeti, sınıf eşleme ve teslimler arası kontrol firma filo planlama pratiğidir. Tekil tesis bakımı, ilçe geneli acil müdahale, tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bozüyük'te Arıza Noktasına Sepetli Örümcek Platformla Dar Erişim",
+        giris:
+            "Acil arıza çağrılarının bir kısmında sorun, standart bir platformun kolayca ulaşamayacağı bir yerdedir — bir siklon başlığının tam tepesi, bir tavan vinç rayının iki kolon arasında kalan bölümü, bir cam fırınının üstündeki dar bir servis platformu ya da bir depo çatısının makas kirişleri arası. Bu noktalara standart makasli veya eklemli platformla erişmek çoğu zaman ya mümkün değildir ya da geniş bir alanı geçici olarak kapatmayı gerektirir. Sepetli örümcek platform, kendi ayaklarını nokta nokta yerleştirebildiği ve dar geçitlerden sepet koluyla uzanabildiği için, tam olarak bu tip arıza noktalarında devreye girer. Bozüyük OSB'deki üç sektörün de üretim hatları üstünde benzer dar erişim noktaları vardır; bu sayfa arıza çağrısı geldiğinde örümcek platformun ne zaman devreye alındığını ve sahaya nasıl konumlandırıldığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Ne zaman standart platform yerine örümcek tercih edilir",
+                metin:
+                    "Telefonda arızanın konumu tarif edilirken üç soru sorarız: noktaya yerden düz bir erişim var mı, üstte engel (boru hattı, vinç rayı, çatı kirişi) var mı ve zemin makasli platformun ayaklarını taşıyacak genişlikte mi. Cevap engelli veya dar çıkarsa, sahaya standart platform yerine örümcek platform yönlendiririz — çünkü bu makine kendi ayaklarını farklı yüksekliklerde ve dar aralıklarda konumlandırabilir, sepet kolu ise engelin üzerinden veya yanından uzanarak arıza noktasına ulaşabilir.",
+            },
+            {
+                baslik: "Seramik tesislerinde fırın üstü ve aspirasyon kanalı erişimi",
+                metin:
+                    "Seramik tesislerindeki arıza çağrılarının bir kısmı fırın üstü servis platformlarından ya da aspirasyon kanalının dar bir dirsek noktasından gelir. Bu bölgelere zeminden dik bir erişim genellikle yoktur, çünkü altta üretim ekipmanı bulunur. Örümcek platform, ayaklarını üretim hattının boş kalan noktalarına konumlandırıp sepeti kanalın üstüne uzatarak, üretim hattını durdurmadan arızaya erişim sağlar; bu, planlı bir duruş beklemeden acil müdahalenin mümkün olduğu anlamına gelir.",
+            },
+            {
+                baslik: "Cam hatlarında tavan rayı ve dar servis koridoru erişimi",
+                metin:
+                    "Cam işleme hatlarındaki tavan vinç rayı veya fırın üstü dar servis koridorundaki bir arızada, standart platformun geniş tabanı koridora sığmayabilir. Örümcek platformun dar ayak izi ve teleskopik sepet kolu, bu tip koridorlarda çalışmayı mümkün kılar. Isı riski taşıyan bölgelerde ek olarak sıcaklık ölçümü ve ısıya dayanıklı ekipman kuralı burada da geçerlidir; makine tipi değişse de sektöre özgü güvenlik hazırlığı aynı kalır.",
+            },
+            {
+                baslik: "Lojistik depolarında raf üstü ve tavan hattı erişimi",
+                metin:
+                    "Depo ve lojistik tesislerinde raf sıraları arasındaki dar koridor, standart platformun manevra alanını kısıtlar; bir tavan hattı arızasına raf sırasının içinden erişmek gerektiğinde örümcek platform, dar koridora sığan ayak iziyle bu işi forklift trafiğini büyük ölçüde kesintiye uğratmadan yapabilir. Makine, ilgili koridorun dışına konumlandırılıp sepet kolu içeri uzatılarak, koridorun tamamen kapatılması engellenir.",
+            },
+            {
+                baslik: "Sahaya taşıma ve kurulum süresi",
+                metin:
+                    "Örümcek platformun bir avantajı, birçok modelin dar kapılardan geçebilecek boyutta olması ve tesis içinde kendi gücüyle veya çekilerek hareket edebilmesidir; bu, geniş bir vinç veya özel taşıma aracı gerektiren büyük ekipmanlara göre acil çağrıda kurulum süresini kısaltır. Sahaya varan ekip, önce zemin ve engel durumunu gözden geçirir, ardından ayakları arıza noktasına göre konumlandırıp sepeti güvenli açıyla uzatır; bu hazırlık, standart bir platform kurulumundan genellikle daha kısa sürer çünkü geniş bir alan boşaltmaya gerek kalmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Standart platform ile örümcek platform arasındaki karar",
+                paragraflar: [
+                    "Acil çağrıda hangi makine sınıfının gönderileceği aşağıdaki karar noktalarına göre belirlenir.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Standart platform", "Örümcek platform"],
+                    satirlar: [
+                        ["Düz zemin, engelsiz erişim", "Uygun, hızlı kurulum", "Gerekmez"],
+                        ["Üstte boru/ray engeli", "Manevra kısıtlı", "Sepet kolu engeli aşar"],
+                        ["Dar koridor/raf arası", "Taban sığmayabilir", "Dar ayak izi uygun"],
+                        ["Kapı içinden geçiş gereken saha", "Genellikle sığmaz", "Çoğu modelde geçer"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ayak konumlandırmasının doğru yapılması neden önemli",
+                paragraflar: [
+                    "Örümcek platformun her ayağı farklı bir yüksekliğe veya farklı bir zemin tipine basabilir; bu esneklik, dar ve engebeli noktalarda erişim sağlar ama aynı zamanda konumlandırmanın dikkatli yapılmasını gerektirir. Ayaklardan biri boşluğa veya zayıf bir zemine denk gelirse makine dengesi bozulabilir; bu yüzden sahaya varan operatör her ayağın oturduğu noktayı tek tek kontrol eder, gerekirse yük dağıtım plakası kullanır.",
+                    "Acil bir çağrıda bu kontrol atlanmaz — arızanın aciliyeti, ayak konumlandırma güvenliğinin önüne geçmez. Kontrol birkaç dakika sürse de, yanlış konumlandırılmış bir ayağın yol açabileceği devrilme riski, o birkaç dakikadan çok daha büyük bir gecikmeye ve tehlikeye yol açabilir.",
+                ],
+            },
+            {
+                baslik: "Sepet kolunun engeli aşma sınırları",
+                paragraflar: [
+                    "Sepet kolunun ulaşabileceği yatay ve dikey mesafe model bazında değişir; telefonda arızanın tam konumu ve önündeki engelin boyutu netleştiğinde, doğru menzile sahip modeli seçeriz. Menzil sınırının dışında kalan bir nokta için farklı bir konumlandırma noktası veya farklı bir makine sınıfı önerilir; sepeti zorlayarak menzil dışına uzatmayız çünkü bu, makinenin stabilitesini ve operatör güvenliğini riske atar.",
+                    "Bazı arıza noktalarında sepet kolunun ulaşabileceği en yakın güvenli konum, arızanın tam altı değil birkaç metre yanı olabilir; bu durumda sahada kısa bir malzeme veya alet uzatma çözümü ile çalışma tamamlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform ile standart makasli platform arasındaki farkı arıza çağrısında nasıl belirliyorsunuz?",
+                cevap:
+                    "Telefonda arızanın zemin erişimini, üstteki engelleri ve koridor genişliğini sorarız. Düz ve engelsiz bir zeminde standart platform daha hızlı kurulur ve tercih edilir; üstte boru, ray veya kiriş gibi bir engel varsa ya da koridor dar ise örümcek platformun dar ayak izi ve esnek sepet kolu daha uygun olur. Karar telefonda netleşmezse, sahaya varan ekip ilk gözlemiyle son kararı verir.",
+            },
+            {
+                soru: "Örümcek platform tesis içindeki dar kapılardan geçebiliyor mu?",
+                cevap:
+                    "Çoğu model, standart bir sanayi kapısından geçebilecek boyuttadır ve tesis içinde kendi gücüyle veya elle çekilerek hareket edebilir. Ancak her tesisin kapı genişliği farklıdır; telefonda kapı ölçüsünü sorar, model seçimini buna göre yaparız. Kapı gerçekten çok darsa, makineyi parçalar hâlinde taşıyıp içeride birleştirme seçeneği de değerlendirilir.",
+            },
+            {
+                soru: "Seramik fırınının üstündeki dar bir noktaya erişim için üretim durdurulması gerekir mi?",
+                cevap:
+                    "Çoğu durumda hayır. Örümcek platformun ayaklarını üretim hattının boş kalan noktalarına konumlandırıp sepeti arıza noktasına uzatarak, hattı durdurmadan çalışabiliriz. Ancak ayakların oturacağı yerde aktif bir ekipman veya güvenlik riski varsa, o bölgenin geçici olarak devre dışı bırakılması istenebilir; bu, sahaya varan ekip ile tesis yetkilisi arasında hızla netleştirilir.",
+            },
+            {
+                soru: "Sepet kolu her açıdan arıza noktasına ulaşabiliyor mu?",
+                cevap:
+                    "Menzil model bazında sınırlıdır; telefonda arızanın konumunu ve önündeki engelin boyutunu öğrenip buna uygun menzile sahip modeli seçeriz. Menzilin yetmediği nadir durumlarda, en yakın güvenli konumdan kısa bir alet veya malzeme uzatma çözümüyle iş tamamlanır. Sepeti zorlayarak menzil dışına uzatmak stabiliteyi bozacağından bu yola başvurmayız.",
+            },
+            {
+                soru: "Depo raf sıraları arasında çalışırken forklift trafiği tamamen durur mu?",
+                cevap:
+                    "Genellikle hayır. Makine ilgili koridorun dışına konumlandırılıp sepet kolu içeri uzatıldığı için koridor tamamen kapanmaz; ancak çalışma süresince o koridorda geçici bir trafik kısıtlaması olabilir. Depo yönetiminden o anki güzergâhı öğrenip makineyi bu güzergâhın dışında tutarız, gerekirse kısa süreli şeritleme yaparız.",
+            },
+            {
+                soru: "Ayak konumlandırma kontrolü ne kadar sürer, arıza aciliyetini geciktirir mi?",
+                cevap:
+                    "Birkaç dakika sürer ama bu adım hiçbir koşulda atlanmaz — yanlış konumlandırılmış bir ayağın yol açabileceği devrilme riski, kontrolden tasarruf edilen birkaç dakikadan çok daha büyük bir gecikme ve tehlike yaratır. Sahaya varan operatör her ayağın oturduğu zemini tek tek kontrol eder, şüpheli bir noktada yük dağıtım plakası kullanır; bu kontrol tamamlanmadan sepet yükseltilmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Sepetli örümcek platformun dar ayak izi ve esnek sepet kolu ile engelli/dar noktalara erişim sağlaması makine sınıfının genel teknik özelliğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bir arada bulunması genel bölgesel bilgidir. Tesis adı, kapasite ve rakam verilmemiştir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bozüyük'te Arıza Çağrısında Makinenin Sahaya Hızlı Nakliyesi",
+        giris:
+            "Acil bir arıza müdahalesinde toplam süreyi belirleyen iki bileşen vardır — sahadaki çalışmanın kendisi ve makinenin o sahaya ulaşana kadar geçen nakliye süresi. İkinci bileşen çoğu zaman gözden kaçar ama aslında müdahale hızının büyük kısmını oluşturur; doğru makine seçilse bile sahaya geç ulaşırsa arızanın etkisi büyür. Bozüyük OSB'deki üç sektörün nakliye ihtiyacı birbirinden farklıdır — seramik tesisine giden makinenin tesis içi dar geçitlerden geçmesi gerekebilir, cam tesisine giden makinenin yükleme noktası sıcak bölgeden uzak tutulmalıdır, lojistik depoya giden makinenin forklift trafiğine denk gelmeyen bir saatte teslim edilmesi tercih edilir. Bu sayfa, arıza çağrısı geldiğinde nakliye sürecini nasıl planladığımızı ve sektöre göre nasıl farklılaştırdığımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Çağrı alındığı andan itibaren nakliye planlaması",
+                metin:
+                    "Bir arıza çağrısı geldiğinde makine seçimiyle eş zamanlı olarak nakliye planı da başlar — hangi araçla, hangi güzergâhla ve hangi indirme noktasından tesise gireceği belirlenir. OSB içi mesafeler kısa olduğu için bu planlama genellikle birkaç dakika içinde tamamlanır; asıl zaman kaybı, tesise varıldığında indirme noktasının uygun olmamasından kaynaklanabilir. Bu yüzden telefonda tesisin araç giriş noktasını ve varsa kısıtlamaları (yükseklik, dar kapı, saat kısıtı) önceden sorarız.",
+            },
+            {
+                baslik: "Seramik tesislerinde tesis içi dar geçit nakliyesi",
+                metin:
+                    "Seramik tesislerinin bir kısmında üretim hattı yerleşimi eski tarihli olabilir ve makinenin arıza noktasına yakın bir yere indirilmesi için dar geçitlerden geçmesi gerekebilir. Bu durumda nakliye aracı makineyi tesis girişine kadar getirir, tesis içindeki son bölümü makine kendi gücüyle veya çekilerek tamamlar. Bu son bölümün süresi telefonda önceden tahmin edilip toplam müdahale süresine dahil edilir; sahada sürpriz bir gecikme yaşanmaması için tesis içi ölçüler mümkünse önceden sorulur.",
+            },
+            {
+                baslik: "Cam tesislerinde yükleme noktasının sıcak bölgeden uzak tutulması",
+                metin:
+                    "Cam işleme tesislerine yapılan teslimatlarda, makinenin indirileceği nokta fırın veya tavlama hattının sıcak bölgesinden yeterli mesafede seçilir; hem nakliye ekibinin güvenliği hem makinenin lastik ve hidrolik parçalarının aşırı ısıya maruz kalmaması için bu mesafe önemlidir. Tesis yetkilisiyle telefonda en uygun indirme noktası netleştirilir, aracın sahaya girişi bu noktaya göre planlanır.",
+            },
+            {
+                baslik: "Lojistik depolarında trafiğe denk gelmeyen teslim saati",
+                metin:
+                    "Depo ve lojistik tesislerine yapılan acil teslimatlarda, mümkünse makinenin indirilmesi forklift trafiğinin en yoğun olduğu saatlere denk getirilmez; bu hem nakliye aracının hem forklift trafiğinin birbirini engellememesi için tercih edilir. Trafiğin göreli azaldığı vardiya değişimi veya mola saatleri, teslimat için uygun pencereler olarak değerlendirilir. Ancak arıza gerçekten acil ve güvenlik riski taşıyorsa, saat gözetmeksizin teslimat hemen yapılır.",
+            },
+            {
+                baslik: "Nakliye sırasında makinenin hazır durumda tutulması",
+                metin:
+                    "Sahaya giden nakliye aracındaki makine, indirilir indirilmez çalışmaya başlayabilecek şekilde hazırlanmış olarak yola çıkar — yakıt veya şarj seviyesi kontrol edilmiş, hidrolik seviyeleri teyit edilmiş, sektöre özgü koruyucu ekipman (toz maskesi, ısıya dayanıklı eldiven, şeritleme malzemesi) araçta bulunur durumda olur. Bu hazırlık, sahada makinenin indirilmesinden sonra geçen ek hazırlık süresini en aza indirir; ekip doğrudan arızaya odaklanabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Sektöre göre nakliye teslim noktası tercihleri",
+                paragraflar: [
+                    "Üç sektörün nakliye teslim tercihleri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Sektör", "Öncelikli teslim kriteri", "Kısıtlama", "Tercih edilen saat"],
+                    satirlar: [
+                        ["Seramik", "Tesis içi dar geçit uygunluğu", "Eski yerleşim, dar kapı", "Üretim akışına göre esnek"],
+                        ["Cam", "Sıcak bölgeden mesafe", "Fırın-tavlama hattı yakınlığı", "Vardiya programına göre"],
+                        ["Lojistik", "Forklift trafiğinden bağımsız nokta", "Yoğun koridor saatleri", "Vardiya değişimi, mola saati"],
+                    ],
+                },
+            },
+            {
+                baslik: "Telefonda alınan bilginin nakliye süresine etkisi",
+                paragraflar: [
+                    "Nakliye süresini kısaltan en etkili adım, mesafeyi kısaltmak değil, telefonda doğru bilgiyi baştan almaktır. Tesisin giriş noktası, kapı ölçüleri, yükseklik kısıtı ve varsa özel güvenlik prosedürü önceden bilinirse, araç sahaya vardığında hiçbir sürpriz yaşanmadan indirme işlemine geçilir. Bu bilgi eksikse, sahada geçen ilk dakikalar doğru indirme noktasını bulmakla geçebilir.",
+                    "Düzenli çalıştığımız tesislerin giriş bilgileri elimizde kayıtlı tutulur; bu, tekrarlayan arıza çağrılarında nakliye planlamasını daha da hızlandırır çünkü aynı sorular her seferinde yeniden sorulmaz.",
+                ],
+            },
+            {
+                baslik: "Birden fazla makine gerektiren durumlarda nakliye koordinasyonu",
+                paragraflar: [
+                    "Bazı arızalar tek makineyle çözülemez — örneğin bir raf çarpmasının hem kaldırma hem taşıma gerektirdiği bir durumda, platform ve forklift aynı anda sahaya yönlendirilebilir. Bu durumda nakliye planı iki aracın sahaya birbirini engellemeden, art arda veya farklı giriş noktalarından girmesini sağlayacak şekilde kurulur.",
+                    "Birden fazla makine gerektiren çağrılarda toplam nakliye süresi tek makineye göre biraz uzayabilir; bu durumu telefonda açıkça belirtir, net bir zaman aralığı veririz, belirsiz bırakmayız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Nakliye süresi neye göre değişiyor, sadece mesafeye mi bağlı?",
+                cevap:
+                    "Hayır, mesafe önemli bir etken ama tek etken değil. Tesisin giriş noktası, kapı ölçüleri, varsa dar geçitler ve o anki trafik durumu da süreyi etkiler. OSB içi mesafeler kısa olduğu için makinenin fiziksel olarak sahaya varması genellikle hızlıdır; asıl zaman farkı, tesis içi indirme ve konumlandırma sürecinden doğar. Telefonda tesis bilgisini önceden alarak bu süreyi en aza indirmeye çalışırız.",
+            },
+            {
+                soru: "Makine tesise dar bir kapıdan geçemiyorsa ne yapıyorsunuz?",
+                cevap:
+                    "Öncelikle telefonda kapı ölçülerini sormaya çalışırız, mümkünse sığacak modeli baştan seçeriz. Sahada beklenmedik bir dar geçitle karşılaşılırsa, makineyi tesis girişine kadar getirip son bölümü elle çekerek veya farklı bir modelle tamamlama gibi alternatifler değerlendirilir. Hiçbir seçenek uygun değilse, bu durumu size açıkça bildirir, alternatif bir yaklaşım (örneğin makinenin sökülüp taşınması) üzerinde birlikte karar veririz.",
+            },
+            {
+                soru: "Cam tesisimizde makineyi nereye indireceğinizi nasıl belirliyorsunuz?",
+                cevap:
+                    "Tesis yetkilisiyle telefonda konuşup fırın veya tavlama hattının sıcak bölgesinden yeterli mesafede bir indirme noktası belirleriz; bu hem nakliye ekibinin hem makinenin lastik ve hidrolik parçalarının güvenliği için önemlidir. Net bir nokta belirlenemiyorsa, sahaya varan ekip ilk gözlemiyle en uygun noktayı seçer ve tesis yetkilisinden onay alır.",
+            },
+            {
+                soru: "Depomuzda forklift trafiği yoğunken teslimat yapılabiliyor mu?",
+                cevap:
+                    "Mümkünse teslimatı trafiğin göreli azaldığı vardiya değişimi veya mola saatlerine denk getirmeye çalışırız; bu hem nakliye aracının hem forklift trafiğinin birbirini engellememesi içindir. Ancak arıza acil ve güvenlik riski taşıyorsa, trafik yoğunluğuna bakmaksızın teslimat hemen yapılır; bu durumda depo yönetimiyle geçici bir koordinasyon kurulur.",
+            },
+            {
+                soru: "Nakliye aracındaki makine sahaya varır varmaz çalışmaya hazır mı oluyor?",
+                cevap:
+                    "Evet, hedefimiz budur. Yola çıkmadan önce yakıt veya şarj seviyesi, hidrolik seviyeleri kontrol edilir ve sektöre özgü koruyucu ekipman araçta hazır bulunur. Bu sayede sahada geçen ilk dakikalar donanım hazırlamakla değil doğrudan arızaya müdahale etmekle geçer. İstisna, tesis içi son bölümün elle taşınmasının gerektiği dar geçit durumlarıdır; bu ek süre önceden bildirilir.",
+            },
+            {
+                soru: "Aynı anda iki makine göndermeniz gerekirse nakliye nasıl koordine ediliyor?",
+                cevap:
+                    "İki aracın sahaya birbirini engellemeden, art arda veya farklı giriş noktalarından girmesini sağlayacak bir plan kurarız; bu planlama telefonda çağrı alındığı anda başlar. Birden fazla makine gerektiren çağrılarda toplam nakliye süresi tek makineye göre biraz uzayabilir, bu durumu size açıkça bildirir ve net bir zaman aralığı veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bir arada bulunması genel bölgesel bilgidir; sektöre göre farklılaşan nakliye/teslim noktası tercihleri sektör standardı iş güvenliği ve operasyon pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bozüyük'te Arıza Sonrası Malzeme Taşıma ve İstifleme İçin Forklift Desteği",
+        giris:
+            "Bir arıza müdahalesi bazen tek başına bir platform işi değildir; sorunun kendisi ya da çözümü, malzeme taşıma ve istifleme gerektirir. Bir raf çarpması sonrası devrilen paletlerin toplanması, bir seramik hattındaki arızalı bir parçanın sökülüp yerine yenisinin taşınması, bir cam tesisinde arıza nedeniyle biriken malzemenin güvenli bir noktaya kaldırılması — bunların hepsi platform değil forklift işidir. Bozüyük OSB'deki acil müdahalelerimizde, arızanın niteliğine göre platform yanında forklift de sahaya yönlendirilebilir; bu sayfa forklift desteğinin arıza müdahalesinde ne zaman ve nasıl devreye girdiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Arıza platform değil forklift işi olduğunda",
+                metin:
+                    "Telefonda arıza tarif edilirken sorunun yükseklikte mi yoksa zeminde mi olduğu, bir erişim mi yoksa bir taşıma-kaldırma sorunu mu olduğu netleştirilir. Devrilen bir palet yığını, sıkışmış bir malzeme, taşınması gereken ağır bir yedek parça gibi durumlarda platform yerine doğrudan forklift yönlendirilir. Bazı çağrılarda ikisi birlikte gerekir — örneğin yüksekteki arızalı bir parçanın platformla sökülüp forkliftle taşınması gibi.",
+            },
+            {
+                baslik: "Lojistik depolarında raf çarpması sonrası toparlama",
+                metin:
+                    "Depo ve lojistik tesislerindeki en sık forklift gerektiren arıza türü raf çarpmasıdır — devrilen paletler, dağılan malzeme, hasarlı raf ayağının çevresindeki yükün boşaltılması gerekir. Bu işte forklift, hem devrilen yükü güvenli bir noktaya taşır hem de hasarlı rafın onarımı için gereken boş çalışma alanını açar. Forklift operatörümüz, depo yönetiminin belirlediği güzergâh ve öncelik sırasına göre çalışır; malzemenin hangi noktaya taşınacağı tesis yetkilisiyle birlikte belirlenir.",
+            },
+            {
+                baslik: "Seramik tesislerinde ağır parça değişimi desteği",
+                metin:
+                    "Seramik üretim hatlarındaki bazı arızalar, ağır bir mekanizma parçasının (motor, redüktör, valf grubu gibi) sökülüp yerine yenisinin takılmasını gerektirir. Bu parçaların taşınması elle mümkün olmadığından forklift devreye girer; parça, arıza noktasına platformla erişilen ekip tarafından sökülür, forklift ile arıza noktasına en yakın güvenli noktaya taşınır. İki makinenin koordineli çalışması, arızanın tek seferde çözülmesini sağlar.",
+            },
+            {
+                baslik: "Cam tesislerinde arıza sonrası malzeme temizliği",
+                metin:
+                    "Cam işleme tesislerinde bir arıza sonucu biriken kırık malzeme veya hasarlı ekipman parçaları, hem güvenlik riski hem üretim akışına engel oluşturabilir. Forklift, bu malzemeyi güvenli bir toplama noktasına taşıyarak hem çalışma alanını açar hem de üretimin arızasız bölümlerinin devam etmesine imkân tanır. Kırık cam malzemesiyle çalışırken forklift operatörü, standart iş güvenliği ekipmanına ek olarak dikkatli manevra ve düşük hızla çalışma kuralına uyar.",
+            },
+            {
+                baslik: "Forklift ve platform aynı çağrıda birlikte çalıştığında",
+                metin:
+                    "Bazı arızalarda iki makine aynı anda sahada olur — platform yüksekteki arızaya erişirken forklift zemindeki malzeme akışını yönetir. Bu tip çağrılarda iki operatör arasında sahada sürekli iletişim kurulur; platformdan sökülen bir parça doğrudan forkliftin kaldırma noktasına indirilir, forklift bu parçayı belirlenen noktaya taşır. Bu koordinasyon, tek makineyle yapılacak işin iki kat sürmesini önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Arıza türüne göre forklift ihtiyacı",
+                paragraflar: [
+                    "Hangi arıza türlerinde forklift desteğinin gerekli olduğu aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Arıza türü", "Sektör", "Forklift görevi", "Platform gerekli mi"],
+                    satirlar: [
+                        ["Raf çarpması", "Lojistik", "Yük boşaltma, malzeme taşıma", "Genellikle hayır"],
+                        ["Ağır parça değişimi", "Seramik", "Parça taşıma", "Evet, birlikte"],
+                        ["Kırık malzeme temizliği", "Cam", "Toplama, taşıma", "Duruma göre"],
+                        ["Yükleme kapısı arızası", "Lojistik", "Alan açma", "Hayır"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki makinenin sahada koordinasyonu",
+                paragraflar: [
+                    "Platform ve forklift aynı çağrıda çalıştığında, iki operatör işe başlamadan önce kısa bir saha koordinasyon konuşması yapar — hangi sırayla ilerlenecek, forkliftin ne zaman platformun altına yaklaşacağı, hangi noktada malzeme teslim edileceği netleştirilir. Bu netlik, iki makinenin birbirinin çalışma alanına habersiz girmesini önler.",
+                    "Sahada malzeme teslimi sırasında forklift, platformun sepeti alçaltılana kadar altına yaklaşmaz; bu, düşen bir parçanın forklift operatörüne veya yüke zarar vermesini engelleyen temel bir güvenlik kuralıdır.",
+                ],
+            },
+            {
+                baslik: "Malzemenin taşınacağı noktanın önceden belirlenmesi",
+                paragraflar: [
+                    "Forklift sahaya varmadan önce, taşınacak malzemenin nereye bırakılacağı tesis yetkilisiyle netleştirilir — bu, forkliftin sahada amaçsızca dolaşarak zaman kaybetmesini önler. Depo tesislerinde bu nokta genellikle ayrılmış bir hasar/onarım alanıdır; üretim tesislerinde ise genellikle atölye veya bakım köşesi tercih edilir.",
+                    "Taşınacak malzeme özel bir risk taşıyorsa (kırık cam, kimyasal kalıntı, keskin metal parça) bu bilgi forklift operatörüne önceden iletilir ve taşıma buna göre planlanır; malzeme türü bilinmeden taşıma yapılmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Arıza çağrısında platform mu forklift mi göndereceğinizi nasıl karar veriyorsunuz?",
+                cevap:
+                    "Telefonda sorunun yükseklikte mi zeminde mi olduğunu, bir erişim mi yoksa taşıma-kaldırma sorunu mu olduğunu sorarız. Yükseklikteki bir arızaya erişim gerekiyorsa platform, zemindeki bir yük veya malzeme taşınması gerekiyorsa forklift yönlendirilir. Bazı çağrılarda ikisi birlikte gerekir; bu durumda her iki makine de koordineli olarak sahaya gönderilir.",
+            },
+            {
+                soru: "Raf çarpması sonrası forklift ne kadar sürede sahada olur?",
+                cevap:
+                    "OSB içi mesafeler kısa olduğu için standart bir çağrıda forklift genellikle saatler mertebesinde sahada olur. Öncelik, güvenlik riski taşıyan durumlara (devrilme riski süren yük, bloke olmuş acil çıkış) verilir; bu tip durumlarda yanıt daha da hızlanır. Kesin süreyi telefonda konuştuğumuzda size net biçimde bildiririz.",
+            },
+            {
+                soru: "Forklift ve platform aynı anda çalışırken çarpışma riski nasıl önleniyor?",
+                cevap:
+                    "İki operatör işe başlamadan önce sahada kısa bir koordinasyon konuşması yapar; hangi sırayla ilerlenecek, malzemenin hangi noktada teslim edileceği netleştirilir. Forklift, platformun sepeti güvenli bir yüksekliğe alçaltılmadan altına yaklaşmaz. Bu kurallar, iki makinenin birbirinin çalışma alanına habersiz girmesini önler.",
+            },
+            {
+                soru: "Kırık cam veya keskin malzemeyi forklift taşıyabiliyor mu?",
+                cevap:
+                    "Evet, ancak bu bilgi önceden operatöre iletilir ve taşıma buna göre planlanır — malzeme uygun şekilde sabitlenir, düşük hızla ve dikkatli manevra ile taşınır. Malzeme türü bilinmeden rastgele taşıma yapılmaz; bu, hem operatör güvenliği hem malzemenin güvenli taşınması için önemlidir.",
+            },
+            {
+                soru: "Taşınan malzeme nereye bırakılıyor, biz mi belirliyoruz?",
+                cevap:
+                    "Evet, forklift sahaya varmadan önce taşınacak malzemenin nereye bırakılacağını sizinle netleştiririz; bu, forkliftin sahada amaçsızca dolaşmasını önler ve zaman kazandırır. Net bir nokta belirtilmezse, sahaya varan ekip tesis yetkilisiyle birlikte en uygun noktayı hızla belirler.",
+            },
+            {
+                soru: "Ağır bir parçayı platformdan sökülür sökülmez forklift alabiliyor mu?",
+                cevap:
+                    "Evet, bu tip işlerde iki makine koordineli çalışır — platform parçayı sökerek forkliftin kaldırma noktasına indirir, forklift bu parçayı belirlenen noktaya taşır. Bu koordinasyon önceden sahada konuşularak netleştirilir; parça indirilirken forklift operatörü hazır ve dikkatli biçimde bekler, ani bir teslim beklenmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bir arada bulunması genel bölgesel bilgidir; forklift-platform koordinasyonu ve arıza türüne göre makine seçimi sektör standardı iş güvenliği pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bozüyük'te Engelin Arkasındaki Arıza Noktasına Eklemli Platformla Erişim",
+        giris:
+            "Bazı arıza noktaları, tam altından değil ancak yanından veya üstünden dolaşılarak ulaşılabilecek bir konumdadır — bir boru hattının arkasında kalan bir vana, bir tavan kirişinin öte yanındaki bir bağlantı noktası, bir hattın üzerinden aşarak karşı tarafa geçmeyi gerektiren bir erişim. Bu tip engelli erişimlerde makasli platformun dikey hareketi yetmez; eklemli platformun kol eklemleri, engelin üzerinden veya yanından dolaşarak sepeti doğrudan arıza noktasının önüne getirebilir. Bozüyük OSB'deki üç sektörün üretim hatlarında bu tip dolaylı erişim gerektiren noktalar sık görülür; bu sayfa eklemli platformun acil müdahalede ne zaman devreye girdiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Dikey erişim yetmediğinde eklemli platform kararı",
+                metin:
+                    "Telefonda arızanın konumu tarif edilirken, noktaya doğrudan altından mı yoksa bir engelin arkasından mı ulaşılacağı sorulur. Cevap ikincisiyse, makasli platform yerine eklemli platform yönlendiririz — çünkü eklemli kol, dikey yükselmenin yanında yatay ve açılı hareket de sağlar, bu da engelin arkasındaki bir noktaya dolaşarak ulaşmayı mümkün kılar.",
+            },
+            {
+                baslik: "Seramik hatlarında boru ve kanal arkasındaki noktalar",
+                metin:
+                    "Seramik üretim hatlarındaki boru hatları ve aspirasyon kanalları, bazı arıza noktalarının önünü kapatabilir. Eklemli platform, kolunu bu hatların üzerinden veya yanından dolaştırarak sepeti arıza noktasının tam önüne getirebilir. Bu tip işlerde operatör, kol hareketini yaparken hattın kendisine temas etmemesine özellikle dikkat eder; hat üzerinde toz birikintisi varsa görüş netliği için ek aydınlatma kullanılır.",
+            },
+            {
+                baslik: "Cam hatlarında üstten aşarak karşı tarafa geçme",
+                metin:
+                    "Cam işleme hatlarında bazı arıza noktalarına, hattın üzerinden aşarak karşı tarafa geçmek gerekir — örneğin fırının bir yanındaki bir bağlantı, karşı taraftan değil hattın üstünden dolaşılarak erişilebilir. Bu manevra sıcak yüzeye yakınlık riski taşıdığından, kol hareketi sırasında sıcaklık ölçümü ve güvenli mesafe kontrolü standart uygulamadır; hattın soğuk olduğu bir ara pencerede bu tip manevralar tercih edilir.",
+            },
+            {
+                baslik: "Lojistik depolarında raf üstünden dolaşarak erişim",
+                metin:
+                    "Depo tesislerinde bir tavan hattı veya çatı bağlantısındaki arızaya, raf sıralarının üstünden dolaşarak ulaşmak gerekebilir. Eklemli platformun kol eklemleri, raf yüksekliğini aşıp karşı tarafa geçerek bu tip erişimi sağlar. Bu manevra sırasında raf üzerindeki yükün durumu (istifleme yüksekliği, dengesi) önceden kontrol edilir; dengesiz bir yük varsa manevra öncesi forklift ile düzeltilir.",
+            },
+            {
+                baslik: "Kol manevrasının güvenli sınırları",
+                metin:
+                    "Eklemli platformun kol menzili ve açısı model bazında sınırlıdır; telefonda arızanın konumu ve önündeki engelin şekli netleştiğinde, doğru menzile sahip modeli seçeriz. Menzil dışında kalan bir noktaya ulaşmak için kolu zorlamayız; bunun yerine farklı bir konumlandırma noktası veya farklı bir makine kombinasyonu (örneğin platform ve forklift birlikte) değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Engel türüne göre eklemli platform kullanımı",
+                paragraflar: [
+                    "Üç sektördeki tipik engelli erişim durumları ve eklemli platformun bu durumlardaki rolü aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Sektör", "Tipik engel", "Manevra", "Ek dikkat noktası"],
+                    satirlar: [
+                        ["Seramik", "Boru hattı, aspirasyon kanalı", "Yanından dolaşma", "Kol-hat teması önleme"],
+                        ["Cam", "Fırın hattı", "Üstten aşma", "Sıcaklık ölçümü, güvenli mesafe"],
+                        ["Lojistik", "Raf sırası", "Raf üstünden dolaşma", "Yük dengesi kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kol hareketinin sahada test edilmesi",
+                paragraflar: [
+                    "Eklemli platform sahaya kurulduktan sonra, sepeti arıza noktasına doğrudan yükseltmek yerine önce boş bir alanda kol hareketinin planlanan güzergâhı takip edip etmediği kontrol edilir. Bu ön test, kol hareketinin sahada beklenmedik bir engelle (görünmeyen bir kablo, düşük bir tavan çıkıntısı) karşılaşma riskini erken fark etmeyi sağlar.",
+                    "Ön test sırasında bir engel tespit edilirse, güzergâh değiştirilir veya farklı bir konumlandırma noktası denenir; bu, sepet arıza noktasına yaklaşırken sürpriz bir çarpmayı önler.",
+                ],
+            },
+            {
+                baslik: "Operatör görüş açısının sınırlı olduğu durumlar",
+                paragraflar: [
+                    "Kol engelin arkasına doğru uzandığında, operatörün sepeti ve çevresini doğrudan görmesi bazen zorlaşır. Bu durumlarda operatör, yerde duran bir yardımcı ile telsiz üzerinden sürekli iletişim kurar; yardımcı, operatörün göremediği açıyı izleyip yönlendirme yapar. Görüş netliğinin tamamen kaybolduğu durumlarda kol hareketi durdurulur, konum değiştirilerek görüş yeniden sağlanır.",
+                    "Bu iki kişilik çalışma düzeni, özellikle cam hatlarındaki sıcak bölge yakınında veya seramik tesislerindeki toz yoğun noktalarda standart uygulamadır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Eklemli platform ile makasli platform arasındaki farkı nasıl belirliyorsunuz?",
+                cevap:
+                    "Arızanın konumuna doğrudan altından mı yoksa bir engelin arkasından/üstünden mi ulaşılacağını sorarız. Doğrudan dikey erişim yeterliyse makasli platform daha hızlı kurulur ve tercih edilir. Engelin arkasına dolaşarak ulaşmak gerekiyorsa eklemli platformun kol hareketi bu manevrayı sağlar. Telefonda netleşmezse sahaya varan ekip ilk gözlemiyle karar verir.",
+            },
+            {
+                soru: "Kol, boru hattına veya kabloya çarpma riski taşımıyor mu?",
+                cevap:
+                    "Bu riski en aza indirmek için sepet arıza noktasına yükseltilmeden önce kol hareketinin planlanan güzergâhı boş bir alanda test edilir. Görünmeyen bir engelle karşılaşılırsa güzergâh değiştirilir. Sahada operatörün görüş açısı sınırlıysa yerde bir yardımcı telsizle yönlendirme yapar; bu iki kişilik çalışma düzeni özellikle dar ve engelli noktalarda standarttır.",
+            },
+            {
+                soru: "Cam fırınının üstünden aşarken sıcaklık riski nasıl yönetiliyor?",
+                cevap:
+                    "Kol hareketinden önce yüzey sıcaklığı ölçülür ve güvenli mesafe belirlenir; hidrolik hortumlar sıcak yüzeyden uzak tutulacak şekilde konumlandırılır. Sıcaklık güvenli eşiğin üzerindeyse manevra, hattın soğuduğu bir ara pencereye planlanır. Acil ve güvenlik riski taşıyan bir durum varsa bu bekleme yapılmaz, geçici bir önlemle durum stabilize edilip asıl işlem uygun pencereye ertelenir.",
+            },
+            {
+                soru: "Raf sıralarının üstünden dolaşırken yük düşme riski var mı?",
+                cevap:
+                    "Manevradan önce raf üzerindeki yükün istifleme durumu kontrol edilir; dengesiz görünen bir yük varsa manevra öncesi forklift ile düzeltilir veya o bölgeden geçiş rotası değiştirilir. Kol hareketi sırasında yük üzerinden değil, yükün önünden veya güvenli bir mesafeden geçilmesine özen gösterilir.",
+            },
+            {
+                soru: "Eklemli platformun kol menzili yetmezse ne yapıyorsunuz?",
+                cevap:
+                    "Kolu zorlayarak menzil dışına uzatmayız çünkü bu stabiliteyi bozar. Bunun yerine farklı bir konumlandırma noktası deneriz veya platform ile forkliftin birlikte kullanıldığı bir çözüm değerlendiririz. Menzil telefonda arızanın konumuna göre önceden tahmin edilip uygun model seçilir; sahada menzil sorunu yaşanması nadirdir.",
+            },
+            {
+                soru: "İki kişilik çalışma (operatör ve yerdeki yardımcı) her işte mi uygulanıyor?",
+                cevap:
+                    "Görüş açısının sınırlı olduğu, engelin arkasına dolaşılan işlerde standart uygulamadır; özellikle sıcak bölge yakınındaki cam işlerinde ve toz yoğun seramik noktalarında bu düzen her zaman kurulur. Görüşün net olduğu basit erişimlerde tek operatör yeterli olabilir, ancak şüpheli bir durumda ikinci kişi çağrılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Eklemli platformun kol eklemleriyle engel arkasına/üstüne erişim sağlaması makine sınıfının genel teknik özelliğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bir arada bulunması genel bölgesel bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bozüyük'te Kapalı Alan Arıza Noktalarına İç Mekân Platform Desteği",
+        giris:
+            "Acil arıza çağrılarının önemli bir kısmı kapalı alanlarda gerçekleşir — bir üretim holünün tavan tesisatı, bir depo içi aydınlatma hattı, bir cam tesisinin kapalı montaj bölümündeki bir bağlantı noktası. Kapalı alan işleri, dış saha işlerinden farklı bir hazırlık gerektirir; egzoz emisyonu olmayan (akülü veya elektrikli) makine tercihi, tavan yüksekliğine uygun model seçimi ve kapalı alanın havalandırma durumunun kontrolü gibi konular öne çıkar. Bozüyük OSB'deki üç sektörün de kapalı üretim ve depolama alanları geniş yer kaplar; bu sayfa iç mekân arıza müdahalesinde nelere dikkat ettiğimizi anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kapalı alanda akülü/elektrikli makine tercihi",
+                metin:
+                    "Kapalı alanlarda, özellikle havalandırması sınırlı bölümlerde, egzoz gazı çıkarmayan akülü veya elektrikli platform tercih edilir; dizel veya LPG'li makineler kapalı alanda hava kalitesini bozabileceğinden acil çağrılarda öncelik akülü modele verilir. Tesisin kapalı bölümünde priz erişimi varsa şarj durumu da sahada kontrol edilir; uzun süreli bir müdahale bekleniyorsa yedek akü veya şarj planı önceden düşünülür.",
+            },
+            {
+                baslik: "Tavan yüksekliğine uygun model seçimi",
+                metin:
+                    "Kapalı mekânlardaki tavan yüksekliği, dış sahaya göre daha kısıtlıdır ve bazı modellerin tam yükseklikte açılan üst güvenlik kafesi tavana çarpabilir. Telefonda tesisin tavan yüksekliğini sorar, bu yüksekliğe güvenle uygun modeli seçeriz. Yükseklik bilgisi net değilse, sahaya varan ekip ilk ölçümle teyit eder ve gerekirse daha uygun bir model talep edilir.",
+            },
+            {
+                baslik: "Seramik ve cam tesislerinde kapalı bölüm arızaları",
+                metin:
+                    "Seramik ve cam tesislerinin kapalı üretim bölümlerindeki arızalar (tavan tesisatı, iç aydınlatma, aspirasyon kanalı iç kısmı) genellikle sınırlı bir alanda ve komşu ekipmana yakın çalışmayı gerektirir. Bu tip işlerde makine, komşu ekipmana temas etmeyecek şekilde dikkatli konumlandırılır; toz veya ısı riski taşıyan bölgelerde sektöre özgü koruyucu ekipman (maske, ısıya dayanıklı eldiven) burada da standart kalır.",
+            },
+            {
+                baslik: "Depo içi tesisat ve aydınlatma arızaları",
+                metin:
+                    "Depo tesislerinin iç mekân arızaları çoğunlukla tavan aydınlatması, sprinkler hattı veya raf üstü tesisat noktalarından gelir. Bu tip işlerde makine, raf sıraları arasında forklift trafiğine göre konumlandırılır ve mümkünse trafiğin azaldığı saatlerde çalışılır. Kapalı depo alanında havalandırma sınırlıysa akülü makine tercihi burada da öncelikli kural olarak uygulanır.",
+            },
+            {
+                baslik: "Kapalı alanda zemin ve manevra kontrolü",
+                metin:
+                    "İç mekân zeminleri genellikle düz ve sert olsa da, üretim atığı, yağ lekesi veya geçici depolanmış malzeme manevra alanını daraltabilir. Sahaya varan ekip, makineyi konumlandırmadan önce zemin durumunu ve çevresindeki engelleri gözden geçirir; gerekirse tesis yetkilisinden geçici bir alan açılmasını ister. Bu kontrol, kapalı alanın dar olması nedeniyle dış sahaya göre daha titiz yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kapalı alan işlerinde makine seçim kriterleri",
+                paragraflar: [
+                    "İç mekân arıza müdahalesinde makine seçimini belirleyen temel kriterler aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Öncelik", "Sebep"],
+                    satirlar: [
+                        ["Güç kaynağı", "Akülü/elektrikli", "Egzoz gazı olmaması"],
+                        ["Tavan yüksekliği", "Modele göre kısıtlı", "Üst kafes çarpma riski"],
+                        ["Zemin durumu", "Düz, engelsiz", "Manevra güvenliği"],
+                        ["Havalandırma", "Sınırlıysa akülü zorunlu", "Hava kalitesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Şarj durumunun sahada yönetimi",
+                paragraflar: [
+                    "Akülü makineyle yapılan uzun süreli bir müdahalede, şarj seviyesinin işin ortasında yetersiz kalmaması için sahaya çıkmadan önce akü durumu kontrol edilir. Tesiste priz erişimi varsa, iş sırasında kısa aralarla takviye şarj yapılabilir; erişim yoksa, işin tahmini süresine göre yeterli şarjla yola çıkılır.",
+                    "Şarjın işin ortasında bitme riski görülürse, yedek makine veya bataryalı model değişimi gibi bir yedek plan önceden düşünülür; sahada beklenmedik bir şarj durması, arızanın çözüm süresini uzatan bir risktir ve bunu baştan önlemeye çalışırız.",
+                ],
+            },
+            {
+                baslik: "Komşu ekipmana temas riskinin yönetimi",
+                paragraflar: [
+                    "Kapalı ve dar üretim bölümlerinde makine, komşu ekipmana (üretim hattı, boru, raf) çok yakın çalışmak zorunda kalabilir. Operatör bu tip işlerde standart hızdan daha yavaş manevra yapar ve gerekirse yerdeki bir yardımcıdan mesafe kontrolü ister. Temas riski yüksekse, geçici bir koruyucu örtü veya bariyer ile komşu ekipman korunur.",
+                    "Bu ihtiyat, işin süresini biraz uzatsa da, komşu ekipmana verilecek bir hasarın toplam maliyeti ve gecikmesi, bu ek dikkatten çok daha büyük olur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kapalı alanda neden akülü makine tercih ediyorsunuz?",
+                cevap:
+                    "Dizel veya LPG'li makineler egzoz gazı çıkardığından, havalandırması sınırlı kapalı alanlarda hava kalitesini bozabilir. Akülü veya elektrikli makineler bu riski taşımadığından acil çağrılarda kapalı alan için öncelikli tercihimizdir. Tesiste priz erişimi varsa şarj durumunu sahada da kontrol eder, gerekirse takviye şarj yaparız.",
+            },
+            {
+                soru: "Tavan yüksekliğimiz düşükse hangi makineyi gönderiyorsunuz?",
+                cevap:
+                    "Telefonda tavan yüksekliğini sorup buna güvenle uygun modeli seçeriz; bazı modellerin tam açılan üst güvenlik kafesi düşük tavana çarpabileceğinden bu kontrolü önceden yaparız. Yükseklik bilgisi net değilse sahaya varan ekip ilk ölçümle teyit eder, gerekirse daha uygun bir model talep edilir.",
+            },
+            {
+                soru: "Depo raf sıraları arasında iç mekân platformu çalışırken trafiği nasıl yönetiyorsunuz?",
+                cevap:
+                    "Depo yönetiminden o anki forklift güzergâhını öğrenip makineyi bu güzergâhın dışında konumlandırırız; mümkünse çalışmayı trafiğin göreli azaldığı saatlere denk getiririz. Trafik tamamen kesilemiyorsa, geçici şeritleme ile çalışma alanı ayrılır.",
+            },
+            {
+                soru: "Akü işin ortasında biterse ne oluyor?",
+                cevap:
+                    "Sahaya çıkmadan önce akü durumunu kontrol eder, işin tahmini süresine yetecek şarjla yola çıkarız. Uzun süreli işlerde tesiste priz erişimi varsa takviye şarj yapılabilir. Şarjın yetmeme riski görülürse yedek makine veya batarya değişimi gibi bir plan önceden düşünülür; sahada beklenmedik bir durma yaşanmaması hedeflenir.",
+            },
+            {
+                soru: "Makine komşu üretim hattına çok yakın çalışacak, hasar riski var mı?",
+                cevap:
+                    "Bu tip işlerde operatör standart hızdan daha yavaş manevra yapar ve gerekirse yerdeki bir yardımcıdan mesafe kontrolü ister. Temas riski yüksek görülen noktalarda geçici bir koruyucu örtü veya bariyerle komşu ekipman korunur. Bu ek dikkat işi biraz uzatsa da, olası bir hasarın maliyetinden çok daha küçüktür.",
+            },
+            {
+                soru: "İç mekân zemininde yağ lekesi veya malzeme varsa çalışabiliyor musunuz?",
+                cevap:
+                    "Sahaya varan ekip önce zemin durumunu ve çevresindeki engelleri gözden geçirir; yağ lekesi veya geçici malzeme manevra alanını daraltıyorsa tesis yetkilisinden geçici bir alan açılmasını isteriz. Zemin güvenli hâle gelmeden makineyi konumlandırmayız, çünkü kapalı ve dar alanda kayma riski dış sahaya göre daha kritik sonuç doğurabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı alanda egzoz gazsız makine tercihi ve tavan yüksekliği kısıtı sektör standardı iş güvenliği pratiğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin kapalı üretim/depolama alanlarının bulunması genel bölgesel bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bozüyük'te Çarpma Sonrası Çelik Konstrüksiyon Hasarına Acil Onarım Platformu",
+        giris:
+            "Çelik konstrüksiyon montajı genellikle planlı bir iş olsa da, Bozüyük OSB'deki üç sektörün tesislerinde bazı çelik konstrüksiyon işleri acil nitelik taşır — bir forklift çarpması sonucu bükülen bir kolon, bir aşırı yük nedeniyle eğilen bir kiriş, bir fırtına sonrası hasar gören bir çatı bağlantısı. Bu tip hasarlar, yeni bir montaj değil, mevcut yapının güvenli hâle getirilmesi amacıyla acil müdahale gerektirir. Bu sayfa, planlı montajdan farklı olarak, çelik konstrüksiyon hasarına acil müdahalede platformun nasıl kullanıldığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Hasarın güvenlik riski taşıyıp taşımadığının ilk değerlendirmesi",
+                metin:
+                    "Bir çelik konstrüksiyon hasarı bildirildiğinde ilk sorumuz, hasarın yapısal bir düşme veya çökme riski taşıyıp taşımadığıdır. Sarkan veya gevşek bir parça varsa, öncelik bu parçanın güvenli hâle getirilmesidir — geçici bir sabitleme veya güvenli alan işaretlemesiyle risk kontrol altına alınır. Kalıcı onarım, bu ilk güvenlik adımından sonra planlanır; aceleyle kalıcı onarım denemek, hasarın büyümesine yol açabilir.",
+            },
+            {
+                baslik: "Bükülmüş kolon ve kirişe erişim",
+                metin:
+                    "Çarpma sonucu bükülen bir kolon veya eğilen bir kirişe erişmek için platform, hasarlı noktanın hem üstünden hem yanından incelenebilecek şekilde konumlandırılır. Operatör önce hasarın kapsamını gözle değerlendirir, ardından tesis yetkilisi ve varsa yapı mühendisiyle birlikte geçici mi kalıcı mı bir müdahale yapılacağına karar verilir. Bu değerlendirme aşaması, doğrudan kaynak veya kesme işlemine geçmeden önce mutlaka tamamlanır.",
+            },
+            {
+                baslik: "Seramik ve cam tesislerinde üretim hattı üstü hasar",
+                metin:
+                    "Seramik ve cam tesislerindeki çelik konstrüksiyon hasarları genellikle üretim hattının üstündeki taşıyıcı sistemde görülür; bu bölgeye erişim, altındaki ekipmanı durdurmadan yapılmaya çalışılır ama hasar ciddi ise ilgili bölümün geçici olarak devre dışı bırakılması gerekebilir. Bu karar tesis yetkilisiyle birlikte, hasarın büyüme riskine göre hızla verilir.",
+            },
+            {
+                baslik: "Lojistik tesislerinde raf ve depo iskeleti hasarı",
+                metin:
+                    "Depo ve lojistik yapılarında çelik konstrüksiyon hasarı genellikle raf sistemi ile çatı taşıyıcı sistemi arasındaki bağlantı noktalarında ya da bir araç çarpması sonrası kolon tabanında görülür. Bu tip hasarlarda platform, hasarlı bölgeyi detaylı incelemek ve gerekirse geçici destek eklemek için kullanılır; kalıcı yapısal onarım genellikle ayrı bir uzmanlık gerektirdiğinden, platform ekibimiz bu aşamada güvenli hâle getirme ve tespit rolünü üstlenir.",
+            },
+            {
+                baslik: "Geçici güvenlik önlemi ile kalıcı onarımın ayrımı",
+                metin:
+                    "Acil çağrıda yaptığımız iş çoğu zaman geçici bir güvenlik önlemidir — sarkan parçanın sabitlenmesi, tehlikeli bölgenin işaretlenmesi, hasarın büyümesini önleyecek bir destek eklenmesi. Kalıcı yapısal onarım, kaynak, parça değişimi veya mühendislik hesabı gerektiren daha kapsamlı bir iştir ve genellikle planlı bir tarihte, gerekli uzmanlıkla birlikte yapılır. Bu ayrımı size açıkça bildiririz; geçici önlemi kalıcı sanıp bekletmeniz, hasarın büyümesine yol açabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çelik konstrüksiyon hasar türüne göre müdahale",
+                paragraflar: [
+                    "Sık görülen çelik konstrüksiyon hasar türleri ve acil müdahale kapsamı aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Hasar türü", "İlk müdahale", "Kalıcı çözüm gerekir mi"],
+                    satirlar: [
+                        ["Çarpma sonucu bükülen kolon", "Güvenli alan işaretleme, tespit", "Evet, mühendislik değerlendirmesi"],
+                        ["Eğilen kiriş", "Yük kontrolü, geçici destek", "Evet"],
+                        ["Gevşek/sarkan bağlantı", "Geçici sabitleme", "Evet, kaynak/vidalama"],
+                        ["Yüzeysel çizik/ezik", "Fotoğraflama, kayıt", "Genellikle hayır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yapı mühendisi gerekliliği ne zaman devreye girer",
+                paragraflar: [
+                    "Hasar, yapının taşıyıcı sistemini (kolon, ana kiriş, çatı makası) doğrudan etkiliyorsa, kalıcı onarım kararı bir yapı mühendisinin değerlendirmesiyle verilmelidir; biz bu aşamada platformla erişim ve gözlem desteği sağlarız, yapısal karar mühendislik kapsamındadır. Yüzeysel hasarlarda (kaplamada çizik, boyada hasar) böyle bir değerlendirmeye gerek kalmayabilir.",
+                    "Mühendislik değerlendirmesi beklenirken, hasarlı bölge güvenli hâle getirilir ve gerekirse geçici olarak erişim kısıtlanır; bu bekleme süresi hasarın büyümesini izlemek için de kullanılır.",
+                ],
+            },
+            {
+                baslik: "Hasar tespiti için fotoğraf ve ölçüm kaydı",
+                paragraflar: [
+                    "Her çelik konstrüksiyon hasar çağrısında, platformdan erişilen noktanın fotoğrafı ve varsa temel ölçümü (eğilme miktarı, çatlak uzunluğu) kaydedilir. Bu kayıt, tesisin sigorta süreci veya yapı mühendisinin değerlendirmesi için temel bir belge oluşturur; sözlü bir tarifle yetinmeyiz.",
+                    "Kayıt, aynı zamanda kalıcı onarım sonrası karşılaştırma için de kullanılır — onarımın hasarı gerçekten giderip gidermediği, öncesi-sonrası kayıtla teyit edilebilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Çelik konstrüksiyon hasarına acil müdahale ile planlı montaj arasındaki fark nedir?",
+                cevap:
+                    "Acil müdahale, beklenmedik bir hasarın (çarpma, aşırı yük, fırtına) güvenli hâle getirilmesi ve değerlendirilmesidir; genellikle geçici bir önlem içerir. Planlı montaj ise yeni bir yapının kurulması veya önceden programlanmış bir onarımdır. İkisi farklı süreçlerdir; acil çağrıda önceliğimiz güvenlik riskini kontrol altına almak, kalıcı çözümü ise ayrı bir planlı tarihe koymaktır.",
+            },
+            {
+                soru: "Bükülen bir kolonu siz mi onarıyorsunuz, yoksa sadece tespit mi yapıyorsunuz?",
+                cevap:
+                    "Yapısal bir hasarda platformla erişim ve gözlem desteği sağlarız; kalıcı yapısal onarım kararı genellikle bir yapı mühendisinin değerlendirmesini gerektirir. Biz bu süreçte hasarı güvenli hâle getirir, fotoğraflar ve ölçümler kaydederiz. Kaynak veya parça değişimi gibi kalıcı müdahale, mühendislik onayı sonrası planlanır.",
+            },
+            {
+                soru: "Hasar bölgesinin altındaki üretim durdurulmadan çalışabiliyor musunuz?",
+                cevap:
+                    "Mümkünse evet, çalışırız; ancak hasarın ciddiyeti üretim hattını durdurmayı gerektirebilir. Bu karar tesis yetkilisiyle birlikte, hasarın büyüme riski değerlendirilerek hızla verilir. Güvenlik riski varsa üretimin durdurulması önerimizdir, karar nihai olarak tesisindir ama riski açıkça bildiririz.",
+            },
+            {
+                soru: "Geçici önlem ne kadar süre dayanır, kalıcı onarımı ne zaman yapmalıyız?",
+                cevap:
+                    "Geçici önlemin dayanma süresi hasarın türüne ve yüküne göre değişir; genel bir süre vermek yerine, hangi koşullarda geçici önlemin yetersiz kalacağını (ek yük, titreşim, hava koşulu) size açıkça anlatırız. Kalıcı onarımı mümkün olan en kısa sürede, mühendislik değerlendirmesi tamamlandıktan sonra planlamanızı öneririz; geçiciyi kalıcı sanıp uzun süre bekletmek riski büyütür.",
+            },
+            {
+                soru: "Fotoğraf ve ölçüm kaydını sigorta sürecinde kullanabilir miyiz?",
+                cevap:
+                    "Evet, sahada tuttuğumuz fotoğraf ve temel ölçüm kaydı, tesisin sigorta veya hasar tespit sürecinde başlangıç belgesi olarak kullanılabilir. Ancak bu kayıt bizim gözlemimizdir, resmi bir eksper raporunun yerine geçmez; gerekirse ayrı bir eksper değerlendirmesi için de temel oluşturur.",
+            },
+            {
+                soru: "Aynı noktada hasar tekrar ederse ne yapıyorsunuz?",
+                cevap:
+                    "Tekrarlayan bir hasar, önceki müdahalenin geçici kaldığının veya kök nedenin çözülmediğinin işaretidir. Bu durumda önceki kaydımızla yeni durumu karşılaştırır, kalıcı çözümün neden hâlâ yapılmadığını sizinle netleştiririz. Kök neden çözülmeden aynı geçici önlemi tekrarlamak yerine, kalıcı onarımın önceliklendirilmesini öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çelik konstrüksiyon hasarında geçici güvenlik önlemi ile kalıcı yapısal onarım ayrımı ve mühendislik değerlendirmesi gerekliliği sektör standardı iş güvenliği pratiğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bulunması genel bölgesel bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bozüyük Çevresindeki Tarım ve Silo Sahalarına OSB Dışı Acil Müdahale",
+        giris:
+            "Bozüyük OSB'deki üç sektöre odaklanan acil müdahale hizmetimiz, ilçe çevresindeki tarım ve silo sahalarına da uzanır; ancak bu sahaların koşulları OSB içindeki kapalı üretim tesislerinden belirgin biçimde farklıdır. Bir tahıl silosunun üst platformundaki bir arıza, bir sera çelik iskeletindeki bir hasar ya da bir depolama tesisinin yükleme rampasındaki bir sorun, OSB'deki toz, ısı veya forklift trafiği riskinden çok, açık arazi koşulları, zemin düzensizliği ve mesafenin getirdiği ek nakliye süresiyle şekillenir. Bu sayfa, OSB dışındaki tarım ve silo sahalarına acil müdahalede nelere dikkat ettiğimizi anlatıyor.",
+        maddeler: [
+            {
+                baslik: "OSB dışı mesafenin müdahale süresine etkisi",
+                metin:
+                    "Tarım ve silo sahaları genellikle OSB'nin dışında, ilçe merkezinden uzakta bulunur; bu, makinenin sahaya ulaşma süresini OSB içi çağrılara göre uzatabilir. Telefonda sahanın tam konumunu ve OSB'den yaklaşık uzaklığını öğrenip, 24 saat içi taahhüdümüzü bu mesafeye göre gerçekçi biçimde planlarız. Mesafe uzunsa, arızanın aciliyetine göre öncelik yine güvenlik riskine göre belirlenir.",
+            },
+            {
+                baslik: "Silo üst platformuna erişim",
+                metin:
+                    "Tahıl veya yem silolarının üst kısmındaki bir arızaya (kapak mekanizması, havalandırma bacası, dolum hattı bağlantısı) erişim, silonun yüksekliği ve genellikle sınırlı olan yerdeki manevra alanı nedeniyle dikkatli planlama gerektirir. Sahaya varan ekip önce silonun etrafındaki zemin durumunu (toprak, çakıl, eğim) değerlendirir, makineyi buna uygun konumlandırır; düz beton zeminin bulunmadığı sahalarda destek ayaklarının altına yük dağıtım plakası standart olarak kullanılır.",
+            },
+            {
+                baslik: "Sera ve çelik iskelet hasarlarına müdahale",
+                metin:
+                    "Sera yapılarındaki çelik iskelet hasarları (rüzgâr sonrası eğilme, kar yükü sonrası çökme riski) genellikle geniş ama düşük yükseklikli bir alana yayılır; bu tip işlerde platform, iskelet üzerinde dolaşarak birden fazla hasar noktasını aynı ziyarette değerlendirebilir. Sera örtüsünün (naylon, cam) zarar görmemesi için makine kolu ve sepeti örtüye temas etmeyecek mesafede tutulur.",
+            },
+            {
+                baslik: "Açık arazide zemin ve hava koşulu değerlendirmesi",
+                metin:
+                    "Tarım sahalarındaki zemin, OSB'deki beton zemine göre çok daha değişkendir — yağmur sonrası yumuşayan toprak, düzensiz eğim, gizli çukurlar platformun destek ayaklarını riske atabilir. Sahaya varan ekip, makineyi konumlandırmadan önce zemini gözle ve elle kontrol eder; şüpheli bir zeminde yük dağıtım plakası kullanılır veya daha sağlam bir konumlandırma noktası aranır. Hava koşulu (kuvvetli rüzgâr, don) da açık sahada çalışma kararını doğrudan etkiler.",
+            },
+            {
+                baslik: "Depolama tesisi yükleme rampası arızaları",
+                metin:
+                    "Tarım ürünleri depolama tesislerindeki yükleme rampası veya konveyör hattı arızaları, hasat dönemlerinde özellikle kritik hâle gelir çünkü ürün akışının durması ekonomik kayba yol açabilir. Bu tip çağrılarda platform, rampa veya konveyör üzerindeki arıza noktasına erişim sağlar; iş, tesisin sevkiyat programına göre mümkün olan en kısa sürede planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "OSB içi ve OSB dışı müdahale farkları",
+                paragraflar: [
+                    "Tarım ve silo sahalarındaki müdahalenin OSB içindeki tesislerden farkı aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Unsur", "OSB içi tesis", "Tarım/silo sahası"],
+                    satirlar: [
+                        ["Zemin", "Genellikle beton, düz", "Toprak, çakıl, düzensiz eğim"],
+                        ["Mesafe", "Kısa, OSB içi", "Değişken, OSB dışı"],
+                        ["Ana risk", "Toz, ısı, forklift trafiği", "Zemin, hava koşulu"],
+                        ["Erişim engeli", "Boru/ray/raf", "Yükseklik, açık alan rüzgârı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat döneminde artan aciliyet",
+                paragraflar: [
+                    "Hasat döneminde depolama ve yükleme tesislerindeki bir arıza, sıradan zamana göre çok daha kritik hâle gelir çünkü ürün akışının durması doğrudan ekonomik kayıp yaratır. Bu dönemde bu tür çağrılara önceliğimizi artırırız ve mümkünse hasat döneminden önce düzenli çalıştığımız tesislere kısa bir önleyici kontrol öneririz.",
+                    "Hasat dışı dönemlerde aynı tesislerdeki arızalar, çoğunlukla ürün akışını doğrudan etkilemediği için standart öncelik sırasında değerlendirilir; aciliyet, güvenlik riskine göre belirlenmeye devam eder.",
+                ],
+            },
+            {
+                baslik: "Açık arazide destek ayağı güvenliği",
+                paragraflar: [
+                    "Açık arazide zeminin görünüşte sağlam ama altta yumuşak olması, destek ayaklarının güvenliğini en çok tehdit eden durumdur. Bu yüzden her ayağın oturduğu nokta tek tek kontrol edilir, şüpheli bir noktada yük dağıtım plakası standart olarak kullanılır. Yağmur sonrası veya don çözülme döneminde bu kontrol daha da titizleştirilir.",
+                    "Zemin gerçekten güvensiz görünüyorsa ve alternatif bir konumlandırma noktası yoksa, müdahale zemin kuruyana veya donana kadar geçici bir önlemle sınırlı tutulur; bu karar tesis sahibiyle birlikte açıkça konuşularak verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB dışındaki bir tarım sahasına da 24 saat içi müdahale taahhüdünüz geçerli mi?",
+                cevap:
+                    "Evet, ancak mesafe OSB içi çağrılara göre daha uzun olabileceğinden, taahhüdümüzü sahanın konumuna göre gerçekçi biçimde planlarız. Telefonda sahanın konumunu öğrenip size net bir zaman aralığı bildiririz. Güvenlik riski taşıyan acil durumlarda mesafeye bakmaksızın öncelik veririz.",
+            },
+            {
+                soru: "Silonun etrafında beton zemin yok, toprak zeminde çalışabiliyor musunuz?",
+                cevap:
+                    "Genellikle evet, ancak zemin durumu sahada dikkatle değerlendirilir. Destek ayaklarının altına yük dağıtım plakası standart olarak kullanılır ve her ayağın oturduğu nokta tek tek kontrol edilir. Zemin gerçekten güvensizse (çok yumuşak, eğimli) daha sağlam bir konumlandırma noktası aranır veya geçici bir önlemle bekleme yapılır.",
+            },
+            {
+                soru: "Sera örtüsüne zarar vermeden çelik iskelet hasarına nasıl müdahale ediyorsunuz?",
+                cevap:
+                    "Makine kolu ve sepeti, sera örtüsüne (naylon veya cam) temas etmeyecek güvenli mesafede tutulur; operatör manevra sırasında bu mesafeyi sürekli kontrol eder. İskelet üzerinde dolaşarak birden fazla hasar noktasını aynı ziyarette değerlendirebiliriz, bu da örtüye tekrar tekrar yaklaşma riskini azaltır.",
+            },
+            {
+                soru: "Hasat döneminde çağrımıza öncelik veriyor musunuz?",
+                cevap:
+                    "Evet, hasat döneminde depolama ve yükleme tesislerindeki arızalar ürün akışını doğrudan etkilediğinden bu tür çağrılara önceliğimizi artırırız. Mümkünse hasat öncesinde düzenli çalıştığımız tesislere kısa bir önleyici kontrol de öneririz; bu, hasat ortasında beklenmedik bir arızayla karşılaşma riskini azaltır.",
+            },
+            {
+                soru: "Yağmur sonrası zemin yumuşadıysa müdahale erteleniyor mu?",
+                cevap:
+                    "Genellikle ertelenmez ama zemin kontrolü daha titiz yapılır; şüpheli noktalarda yük dağıtım plakası kullanılır veya alternatif bir konumlandırma noktası aranır. Zemin gerçekten güvensiz ve alternatif yoksa, müdahale zemin kuruyana kadar geçici bir önlemle sınırlı tutulur; bu karar açıkça sizinle konuşularak verilir, belirsiz bırakılmaz.",
+            },
+            {
+                soru: "Rüzgârlı havada açık arazide platform çalışabiliyor mu?",
+                cevap:
+                    "Rüzgâr hızı güvenli sınırın üzerindeyse yükseklikte çalışma ertelenir; bu, platform operasyonlarında genel bir güvenlik kuralıdır. Sahaya varan ekip rüzgâr durumunu değerlendirir, güvenli değilse durumu size bildirir ve rüzgârın azaldığı bir zaman dilimine müdahaleyi planlar. Acil ve alternatif önlemle bekletilemeyecek bir durum varsa, düşük rüzgâr penceresi beklenerek en kısa sürede müdahale edilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük OSB çevresinde tarım ve silo sahalarının bulunması genel bölgesel bilgidir; açık arazide zemin/hava koşulu değerlendirmesi ve destek ayağı güvenliği sektör standardı iş güvenliği pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bozüyük OSB'de Elektrik ve Aydınlatma Arızalarına Acil Platform Müdahalesi",
+        giris:
+            "Bir üretim tesisinde elektrik veya aydınlatma arızası, diğer arıza türlerinden farklı bir aciliyet taşır — çünkü bir bölümün aydınlatması söndüğünde ya da bir enerji hattında sorun çıktığında, hem üretim hem güvenlik doğrudan etkilenir. Bozüyük OSB'deki üç sektörde bu tip arızalar farklı noktalarda ortaya çıkar — seramik tesisinde yüksek tavan aydınlatması, cam hattında pano ve besleme hattı çevresi, lojistik depoda saha aydınlatma direği veya yükleme alanı elektrik hattı. Bu sayfa, elektrik ve aydınlatma arızalarına acil müdahalede platformun nasıl kullanıldığını ve elektrik riski taşıyan bir sahada nelere dikkat edildiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Elektrik riski taşıyan arızalarda ilk değerlendirme",
+                metin:
+                    "Elektrik veya aydınlatma arızası bildirildiğinde ilk sorumuz, hattın gerilimli olup olmadığı ve tesisin kendi elektrik ekibinin devrede olup olmadığıdır. Gerilimli bir hatta doğrudan müdahale bizim işimiz değildir — bu, tesisin yetkili elektrik personeli veya yetkilendirilmiş elektrik firması tarafından yapılmalıdır. Bizim rolümüz, elektrik ekibinin arıza noktasına güvenle erişmesini sağlayacak platformu temin etmektir; hat kesildikten ve güvenli hâle getirildikten sonra sahaya girilir.",
+            },
+            {
+                baslik: "Seramik tesislerinde yüksek tavan aydınlatması",
+                metin:
+                    "Seramik üretim holündeki yüksek tavan aydınlatması arızalandığında, o bölümün karanlıkta kalması hem üretim hem güvenlik açısından sorun yaratır. Platform, elektrik ekibini armatüre güvenle taşır; toz yoğun bölgelerde standart toz koruması burada da uygulanır çünkü armatür değişimi sırasında elektrikçinin görüşü ve nefes alması engellenmemelidir.",
+            },
+            {
+                baslik: "Cam hatlarında pano ve besleme hattı çevresi",
+                metin:
+                    "Cam işleme hatlarındaki elektrik panoları ve besleme hatları, genellikle fırın çevresine yakın konumlanır; bu, hem elektrik riski hem ısı riskinin aynı anda değerlendirilmesini gerektirir. Platform, elektrik ekibini panoya taşırken hem hattın gerilim durumu hem panonun sıcak yüzeye yakınlığı önceden kontrol edilir; iki riskin bir arada olduğu noktalarda müdahale, her iki ekibin (elektrik ve platform operatörü) koordineli çalışmasıyla yürütülür.",
+            },
+            {
+                baslik: "Lojistik depolarında saha aydınlatma direği",
+                metin:
+                    "Depo ve lojistik tesislerinin dış sahasındaki aydınlatma direği arızaları, gece vardiyasında çalışan tesisler için özellikle kritiktir çünkü karanlık bir saha forklift trafiği için ayrı bir risk oluşturur. Bu tip çağrılarda platform, direğe güvenle erişim sağlar; direğin tabanındaki elektrik bağlantısının kesilip kesilmediği, sahaya girmeden önce tesis elektrik ekibiyle teyit edilir.",
+            },
+            {
+                baslik: "Platform operatörü ile elektrik ekibinin görev ayrımı",
+                metin:
+                    "Acil elektrik çağrılarında iki farklı uzmanlık aynı sahada çalışır — platform operatörümüz makineyi güvenle konumlandırıp elektrik ekibini arıza noktasına taşır, elektrik ekibi ise arızanın kendisiyle ilgilenir. Bu görev ayrımı net tutulur; platform operatörümüz elektrik işine müdahale etmez, elektrik ekibi de platform kontrolüne karışmaz. Bu netlik, iki farklı riskin (düşme ve elektrik çarpması) karışmasını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Elektrik/aydınlatma arızalarında sektöre göre risk",
+                paragraflar: [
+                    "Üç sektördeki tipik elektrik/aydınlatma arıza noktaları ve ek risk unsurları aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Sektör", "Tipik nokta", "Ek risk", "Koordinasyon"],
+                    satirlar: [
+                        ["Seramik", "Yüksek tavan aydınlatması", "Toz", "Platform + tesis elektrikçisi"],
+                        ["Cam", "Pano, besleme hattı", "Isı + elektrik birlikte", "Platform + elektrik + ısı kontrolü"],
+                        ["Lojistik", "Saha aydınlatma direği", "Gece görüş, forklift trafiği", "Platform + tesis elektrikçisi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hat kesilmeden platform sahaya girmez",
+                paragraflar: [
+                    "Elektrik riski taşıyan her çağrıda, platform operatörümüz sahaya girmeden önce ilgili hattın kesildiğine dair tesis elektrik ekibinden teyit ister. Bu teyit sözlü değil, mümkünse yazılı veya görsel bir işaretle (kilitli pano, uyarı etiketi) desteklenir. Teyit alınmadan platform arıza noktasına yükseltilmez; bu kural istisnasız uygulanır.",
+                    "Tesisin kendi elektrik ekibi yoksa veya gecikiyorsa, harici yetkilendirilmiş bir elektrik firmasının hattı kesip güvenli hâle getirmesi beklenir; biz bu süreci hızlandırmak için değil, güvenliği sağlamak için bekleriz.",
+                ],
+            },
+            {
+                baslik: "Gece vardiyasında acil aydınlatma çağrıları",
+                paragraflar: [
+                    "Gece vardiyasında çalışan lojistik depolarında bir aydınlatma arızası, gündüze göre daha acil değerlendirilir çünkü karanlık bir saha forklift ve yaya trafiği için ek risk taşır. Bu tip çağrılarda önceliğimiz, arızalı bölgeyi geçici bir aydınlatma çözümüyle (taşınabilir projektör gibi) desteklemek ve kalıcı onarımı en kısa sürede tamamlamaktır.",
+                    "Geçici aydınlatma çözümü, kalıcı onarımın yerini tutmaz; sadece onarım tamamlanana kadar sahanın güvenli kullanılmasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Elektrik arızasının kendisini siz mi onarıyorsunuz?",
+                cevap:
+                    "Hayır, elektrik arızasının kendisi tesisin yetkili elektrik personeli veya yetkilendirilmiş bir elektrik firması tarafından çözülür. Bizim rolümüz, elektrik ekibini arıza noktasına güvenle taşıyacak platformu temin etmektir. Gerilimli bir hatta doğrudan müdahale etmeyiz; bu görev ayrımı, iki farklı riskin (düşme ve elektrik çarpması) karışmasını önler.",
+            },
+            {
+                soru: "Hattın kesildiğini nasıl teyit ediyorsunuz?",
+                cevap:
+                    "Sahaya girmeden önce tesisin elektrik ekibinden hattın kesildiğine dair teyit isteriz; bu teyit mümkünse kilitli pano veya uyarı etiketi gibi görsel bir işaretle desteklenir. Teyit alınmadan platform arıza noktasına yükseltilmez, bu kuralda istisna yapmayız çünkü elektrik riski çok ciddi sonuçlar doğurabilir.",
+            },
+            {
+                soru: "Tesisimizde elektrik ekibi yoksa ne yapıyorsunuz?",
+                cevap:
+                    "Bu durumda harici yetkilendirilmiş bir elektrik firmasının hattı kesip güvenli hâle getirmesini bekleriz; bu süreci sizinle koordine ederek hızlandırmaya çalışırız ama güvenlik teyidi olmadan sahaya girmeyiz. Gerekirse önerebileceğimiz güvenilir elektrik firması bilgisini paylaşırız.",
+            },
+            {
+                soru: "Gece vardiyasında aydınlatma arızasına ne kadar hızlı geliyorsunuz?",
+                cevap:
+                    "Gece vardiyasındaki aydınlatma arızalarını, karanlık bir sahanın forklift ve yaya trafiği için taşıdığı ek risk nedeniyle öncelikli değerlendiririz. Kalıcı onarım tamamlanana kadar geçici bir aydınlatma çözümü (taşınabilir projektör gibi) önerebiliriz; bu, sahanın güvenli kullanılmasını sağlar ama kalıcı onarımın yerini tutmaz.",
+            },
+            {
+                soru: "Cam fırını yakınındaki pano arızasında hem ısı hem elektrik riski varsa nasıl çalışıyorsunuz?",
+                cevap:
+                    "Bu tip işlerde her iki risk de ayrı ayrı değerlendirilir — önce hattın kesildiği teyit edilir, ardından panonun sıcak yüzeye yakınlığına göre ısıya dayanıklı ekipman kullanılır. Platform operatörü ve elektrik ekibi koordineli çalışır; ikisi de kendi uzmanlık alanında kalır, birbirinin işine karışmaz.",
+            },
+            {
+                soru: "Platform operatörünüz elektrik konusunda da yetkili mi?",
+                cevap:
+                    "Hayır, platform operatörümüzün görevi makineyi güvenle konumlandırıp elektrik ekibini arıza noktasına taşımaktır; elektrik işine doğrudan müdahale etmez. Bu net görev ayrımı, iki farklı uzmanlık alanının karışmasını ve yanlış kişinin yanlış işe girişmesini önler.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gerilimli hatta yalnızca yetkili elektrik personelinin müdahale etmesi ve platformun erişim desteği sağlaması sektör standardı iş güvenliği ayrımıdır. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bulunması genel bölgesel bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bozüyük'te Acil Arıza Çağrısında Operatörlü Platform Kararı",
+        giris:
+            "Acil bir arıza çağrısında operatörlü mü operatörsüz mü kiralama yapılacağı kararı, planlı bir bakım işinden farklı bir mantıkla verilir — çünkü zaman baskısı ve sektöre özgü risk (toz, ısı, forklift trafiği) bu kararı doğrudan etkiler. Bozüyük OSB'deki üç sektörün acil çağrılarında çoğunlukla operatörlü kiralamayı öneririz, çünkü arızanın hızlı ve güvenli çözümü, o sektörün riskini bilen bir operatörün varlığına bağlıdır. Ancak tesisin kendi sertifikalı personeli hazırsa ve arıza türü basitse operatörsüz seçenek de değerlendirilir. Bu sayfa, acil çağrıda bu kararın nasıl verildiğini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Acil çağrıda operatörlü kiralamanın hız avantajı",
+                metin:
+                    "Bir arıza çağrısında zaman kritik olduğundan, makineyi bilen ve sektöre özgü riski (toz, ısı, forklift trafiği) tanıyan bir operatör, tesisin kendi personelinin makineyi ilk kez kullanmasına göre çok daha hızlı ve güvenli çalışır. Bu yüzden acil çağrıların büyük kısmında varsayılan seçenek operatörlü kiralamadır; tesis, arıza anında personel eğitimiyle uğraşmak zorunda kalmaz.",
+            },
+            {
+                baslik: "Tesisin kendi sertifikalı personeli hazırsa operatörsüz seçenek",
+                metin:
+                    "Bazı tesislerde bakım ekibi zaten platform kullanım sertifikasına sahiptir ve arıza anında makineyi kendisi kullanmayı tercih edebilir; bu durumda operatörsüz kiralama daha hızlı bir başlangıç sağlayabilir çünkü tesis, bizim operatörümüzün sahaya varmasını beklemeden kendi personeliyle işe başlayabilir. Operatörsüz teslimatta sertifika belgesinin teyidi ve kısa bir makine tanıtımı, acil durumda da atlanmaz.",
+            },
+            {
+                baslik: "Sektöre özgü riskin operatör seçimine etkisi",
+                metin:
+                    "Seramik tesisindeki toz yoğun bir arızada, cam hattındaki ısı riski taşıyan bir noktada veya lojistik depodaki yoğun forklift trafiğinde, o sektörün riskini daha önce görmüş bir operatörün varlığı güvenliği doğrudan artırır. Bu yüzden özellikle bu üç riskli ortamda operatörlü kiralamayı önceliklendiririz; tesisin kendi personeli sertifikalı olsa bile, o gün ilk kez o riskli koşulla karşılaşıyorsa operatörümüzün deneyimi ek bir güvenlik katmanı sağlar.",
+            },
+            {
+                baslik: "Karma model: operatörlü başlangıç, operatörsüz devam",
+                metin:
+                    "Bazı uzun süren arıza müdahalelerinde, ilk aşamayı operatörümüz üstlenir (arızanın en riskli veya karmaşık kısmı), ardından tesisin sertifikalı personeli devralıp basit kalan işleri tamamlar. Bu karma model, hem hızı hem maliyeti dengeler; operatörümüzün süresi arızanın en kritik kısmıyla sınırlı kalır, tesis personeli de gözlemleyerek deneyim kazanır.",
+            },
+            {
+                baslik: "Operatör değişiminde bilgi aktarımı",
+                metin:
+                    "Operatörlü bir acil çağrıda, operatörümüz sahaya vardığında tesisin o günkü güvenlik kurallarını, arızanın son durumunu ve varsa özel dikkat noktalarını tesis yetkilisinden hızla dinler. Operatörsüz teslimden operatörlü teslime geçilen (veya tersi) durumlarda bu bilgi aktarımı iki taraf arasında da netleştirilir; arızanın önceki aşamasında neyin yapıldığı, neyin bekletildiği açıkça iletilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Acil çağrıda operatörlü/operatörsüz karar kriterleri",
+                paragraflar: [
+                    "Hangi durumda hangi seçeneğin önerildiği aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen seçenek", "Sebep"],
+                    satirlar: [
+                        ["Toz/ısı/trafik riski yüksek", "Operatörlü", "Sektöre özgü risk deneyimi"],
+                        ["Tesis personeli sertifikalı ve hazır", "Operatörsüz mümkün", "Hızlı başlangıç"],
+                        ["Uzun süren karmaşık müdahale", "Karma model", "Hız + maliyet dengesi"],
+                        ["Basit, düz zeminde erişim", "İkisi de uygun", "Risk düşük"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sertifika teyidinin acil durumda da atlanmaması",
+                paragraflar: [
+                    "Operatörsüz kiralamada, arıza ne kadar acil olursa olsun, kullanacak personelin geçerli bir yetkinlik belgesi olması ve bu belgenin makine sınıfına uygun olması gerekir. Bu teyit, aciliyetin baskısıyla atlanmaz; belgesi olmayan bir personelin makineyi kullanmasına izin vermeyiz, çünkü bu hem yasal hem güvenlik açısından kabul edilemez bir risktir.",
+                    "Belge yoksa veya sınıfa uygun değilse, operatörlü kiralamaya geçilir; bu durumda operatörümüzün sahaya varma süresi, toplam müdahale süresine dahil edilir ve size açıkça bildirilir.",
+                ],
+            },
+            {
+                baslik: "Operatörümüzün sektör deneyiminin sürekliliği",
+                paragraflar: [
+                    "Bozüyük OSB'deki üç sektörün her birinde tekrarlayan acil çağrılara mümkünse aynı veya benzer deneyime sahip operatörü yönlendiririz; bu, operatörün o sektörün spesifik risklerine (toz kaynağı, sıcak nokta, trafik güzergâhı) zaten aşina olmasını sağlar ve sahadaki hazırlık süresini kısaltır.",
+                    "Yeni bir operatör bir sektöre ilk kez gittiğinde, sahaya varır varmaz tesis yetkilisinden o sektöre özgü riskleri dinler ve gerekirse deneyimli bir meslektaşıyla telefon üzerinden hızlı bir danışma yapar; bu, deneyimsizliğin güvenlik açığına dönüşmesini önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Acil çağrıda operatörlü mü operatörsüz mü daha hızlı?",
+                cevap:
+                    "Genellikle operatörlü daha hızlıdır çünkü operatörümüz makineyi ve sektöre özgü riski (toz, ısı, trafik) zaten bilir, tesisin kendi personelinin ilk kez öğrenmesine göre daha az zaman kaybeder. Ancak tesisin sertifikalı personeli hazır ve arıza basit ise operatörsüz seçenek, bizim operatörümüzün sahaya varmasını beklemeden başlamayı sağlayabilir. Karar, telefonda arızanın niteliği ve tesisin personel durumuna göre birlikte verilir.",
+            },
+            {
+                soru: "Sertifikamız var ama daha önce bu tip bir arızayla karşılaşmadık, yine de operatörsüz mü tercih etmeliyiz?",
+                cevap:
+                    "Sertifika, makineyi güvenle kullanabileceğinizin göstergesidir ama sektöre özgü risk deneyimi (örneğin cam fırını yakınında ısı yönetimi) ayrı bir konudur. Bu tip durumlarda operatörlü kiralamayı veya karma modeli (operatörümüzün en riskli kısmı üstlenmesi, sonra personelinizin devralması) öneririz; karar size aittir ama riski açıkça anlatırız.",
+            },
+            {
+                soru: "Operatörlü başlayıp sonra kendi personelimize devredebiliyor muyuz?",
+                cevap:
+                    "Evet, bu karma model özellikle uzun süren arızalarda tercih edilir. Operatörümüz arızanın en riskli veya karmaşık kısmını tamamladıktan sonra, tesisin sertifikalı personeli basit kalan işleri devralabilir. Devir sırasında operatörümüz, o ana kadar yapılanları ve dikkat edilmesi gereken noktaları personelinize açıkça aktarır.",
+            },
+            {
+                soru: "Operatörsüz kiralamada sertifika kontrolü acil durumda atlanıyor mu?",
+                cevap:
+                    "Hayır, hiçbir koşulda atlanmaz. Kullanacak personelin geçerli ve makine sınıfına uygun bir yetkinlik belgesi olması gerekir; bu teyit aciliyetin baskısıyla es geçilmez. Belge yoksa veya uygun değilse operatörlü kiralamaya geçilir, bu durumda operatörümüzün sahaya varma süresi toplam süreye dahil edilir ve size bildirilir.",
+            },
+            {
+                soru: "Seramik, cam ve lojistik tesislerinde aynı operatör mü çalışıyor, yoksa uzmanlaşmış mı?",
+                cevap:
+                    "Mümkünse tekrarlayan çağrılara aynı veya benzer sektör deneyimine sahip operatörü yönlendiririz; bu, o sektörün spesifik risklerine aşina bir ekibin sahaya çıkmasını sağlar. Yeni bir operatör bir sektöre ilk kez gittiğinde, sahada tesis yetkilisinden riskleri dinler ve gerekirse deneyimli bir meslektaşından telefonla hızlı destek alır.",
+            },
+            {
+                soru: "Operatör değişiminde arızanın önceki durumu kayıp mı oluyor?",
+                cevap:
+                    "Hayır, operatörlü-operatörsüz geçişlerinde veya operatör değişiminde, arızanın o ana kadarki durumu (ne yapıldı, ne bekletildi) açıkça aktarılır; bu bilgi sözlü olarak iletilir ve gerekirse kısa bir sahada not tutulur. Bu aktarım, bir sonraki adımın sıfırdan başlamasını önler.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralamada yeterlilik belgesi teyidi ve sektöre özgü risk deneyimi sektör standardı iş güvenliği pratiğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bulunması genel bölgesel bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bozüyük OSB'de Aynı Ziyarette Birden Fazla Arıza Noktasına Rota Müdahalesi",
+        giris:
+            "Bazı arıza çağrıları tek bir nokta değil, aynı tesiste veya yakın tesislerde birden fazla sorunu birlikte içerir — bir seramik tesisinde hem aspirasyon kanalında hem çatı ışıklığında küçük arızalar, bir cam hattında birkaç farklı noktada kontrol gerektiren durumlar, bir depoda birden fazla raf sırasında biriken küçük sorunlar. Bu tip durumlarda makineyi tek bir noktaya gönderip geri çekmek yerine, bir ziyarette birden fazla noktayı sırayla ele alan bir rota planlaması yapıyoruz. Bu sayfa, Bozüyük OSB'de çok noktalı arıza rotasının nasıl kurulduğunu anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Çok noktalı rotanın ne zaman devreye girdiği",
+                metin:
+                    "Telefonda birden fazla arıza noktası aynı çağrıda bildirildiğinde veya sahaya varan ekip ilk noktayı çözerken tesis yetkilisi başka bir noktayı da fark ettiğinde, makineyi geri çekmek yerine aynı ziyarette diğer noktaya da geçmeyi öneririz. Bu, hem tesise ikinci bir nakliye ve kurulum süresi kazandırır hem toplam müdahale maliyetini düşürür.",
+            },
+            {
+                baslik: "Noktalar arası öncelik sırasının belirlenmesi",
+                metin:
+                    "Birden fazla arıza noktası varsa, hangisinin önce ele alınacağı güvenlik riski ve üretim etkisine göre belirlenir — üretimi durduran veya güvenlik riski taşıyan nokta her zaman önce çözülür, daha az kritik noktalar sırayla devam eder. Bu öncelik sırası, tesis yetkilisiyle birlikte sahada hızla netleştirilir; keyfi bir sırayla ilerlenmez.",
+            },
+            {
+                baslik: "Seramik ve cam tesislerinde aynı hat üzerindeki farklı noktalar",
+                metin:
+                    "Bir üretim hattı üzerinde birden fazla küçük arıza noktası varsa (örneğin hem bir aspirasyon dirseği hem bir çatı ışıklığı contası), platform bu noktalar arasında hattı boydan boya kat ederek ilerler. Her noktada sektöre özgü hazırlık (toz koruması, ısı kontrolü) o noktanın özelliğine göre yeniden uygulanır; bir önceki noktanın hazırlığı otomatik olarak bir sonrakine taşınmaz.",
+            },
+            {
+                baslik: "Lojistik depolarında birden fazla raf sırası kontrolü",
+                metin:
+                    "Depo tesislerinde birden fazla raf sırasında biriken küçük arızalar (gevşek bağlantı, hafif eğilme) varsa, platform bu sıralar arasında forklift güzergâhına göre planlanmış bir rota izler; her sıraya geçişte güzergâh yeniden kontrol edilir, çünkü forklift trafiği zamanla değişebilir. Rota, trafiğin en az olduğu sıralardan başlayıp yoğun olanlara doğru ilerleyecek şekilde kurulabilir.",
+            },
+            {
+                baslik: "Rota sırasında zaman ve maliyet şeffaflığı",
+                metin:
+                    "Çok noktalı bir ziyarette her noktada geçen süre ayrı ayrı kaydedilir ve size şeffaf biçimde bildirilir; bu, hangi noktanın ne kadar zaman aldığını görmenizi sağlar. Toplam süre tek noktalı bir çağrıya göre uzasa da, ikinci bir nakliye ve kurulum maliyetinden tasarruf edildiği için toplam maliyet genellikle ayrı ayrı yapılan iki çağrıdan düşük çıkar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çok noktalı rota planlama örneği",
+                paragraflar: [
+                    "Aynı ziyarette birden fazla noktanın nasıl sıralandığına dair tipik bir örnek aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Sıra", "Nokta", "Öncelik sebebi", "Hazırlık"],
+                    satirlar: [
+                        ["1", "Üretimi durduran nokta", "En yüksek risk", "Sektöre özgü tam hazırlık"],
+                        ["2", "Üretimi kısmen etkileyen nokta", "Orta risk", "Duruma göre hazırlık"],
+                        ["3", "Kozmetik/küçük nokta", "Düşük risk", "Standart hazırlık"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota sırasında yeni bir nokta keşfedilirse",
+                paragraflar: [
+                    "Bazen bir noktayı çözerken operatör veya tesis yetkilisi, önceden bildirilmemiş ek bir sorun fark eder. Bu durumda yeni noktanın aciliyeti değerlendirilir — güvenlik riski taşıyorsa mevcut rotaya eklenir, taşımıyorsa ayrı bir ziyarete not edilir. Bu karar, mevcut rotanın toplam süresini ve tesisin o günkü programını gözeterek birlikte verilir.",
+                    "Yeni nokta rotaya eklenirse, bu ek süre ve varsa ek maliyet size açıkça bildirilir; sessizce eklenip sonradan faturaya yansıtılmaz.",
+                ],
+            },
+            {
+                baslik: "Rota sonunda genel bir saha özeti",
+                paragraflar: [
+                    "Çok noktalı bir ziyaretin sonunda, hangi noktaların çözüldüğü, hangilerinin geçici önlemle bırakıldığı ve varsa hangi noktaların planlı bir sonraki ziyarete ertelendiği kısa bir özet olarak paylaşılır. Bu özet, tesisin kendi bakım kaydına eklenebilecek biçimde nettir.",
+                    "Ertelenen noktalar için yeni bir tarih önerilir; bu, çok noktalı ziyaretin bir noktayı unutulmaya bırakmamasını garanti eder.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Birden fazla arıza noktasını aynı ziyarette çözmek maliyeti nasıl etkiliyor?",
+                cevap:
+                    "Genellikle toplam maliyeti düşürür çünkü ikinci bir nakliye ve kurulum masrafından tasarruf edilir. Her noktada geçen süre ayrı ayrı kaydedilip size şeffaf biçimde bildirilir; toplam süre tek noktalı bir çağrıya göre uzun olsa da, ayrı ayrı yapılan iki çağrıya göre toplamda genellikle daha ekonomiktir.",
+            },
+            {
+                soru: "Hangi noktanın önce ele alınacağına kim karar veriyor?",
+                cevap:
+                    "Öncelik, güvenlik riski ve üretim etkisine göre belirlenir; üretimi durduran veya güvenlik riski taşıyan nokta her zaman önce çözülür. Bu sıralama, sahada tesis yetkilisiyle birlikte hızla netleştirilir; keyfi bir sırayla ilerlenmez, kararın gerekçesi size açıkça anlatılır.",
+            },
+            {
+                soru: "Rota sırasında beklenmedik yeni bir arıza bulunursa ek ücret çıkar mı?",
+                cevap:
+                    "Yeni nokta mevcut rotaya eklenirse, bu ek süre ve varsa ek maliyet size önceden açıkça bildirilir; sessizce eklenip sonradan faturaya yansıtılmaz. Yeni nokta güvenlik riski taşımıyorsa, mevcut ziyareti uzatmak yerine ayrı bir ziyarete not edilmesi de bir seçenektir; bu tercihi sizinle birlikte yaparız.",
+            },
+            {
+                soru: "Farklı sektörlerdeki (seramik ve cam gibi) noktalar aynı rotaya girebiliyor mu?",
+                cevap:
+                    "Fiziksel olarak yakınsa evet, ancak her noktada o sektöre özgü hazırlık (toz koruması, ısı kontrolü) yeniden uygulanır; bir önceki noktanın hazırlığı otomatik olarak taşınmaz. Ekip, bir sektörden diğerine geçerken zihinsel olarak da protokol değiştirir, bu geçiş sahada açıkça yönetilir.",
+            },
+            {
+                soru: "Depo raf sıralarında rota sırası nasıl belirleniyor?",
+                cevap:
+                    "Forklift güzergâhı ve trafiğin yoğunluğuna göre planlanır; mümkünse trafiğin en az olduğu sıralardan başlanıp yoğun olanlara doğru ilerlenir. Her sıraya geçişte güzergâh yeniden kontrol edilir çünkü trafik durumu zaman içinde değişebilir.",
+            },
+            {
+                soru: "Rota sonunda hangi noktaların çözüldüğüne dair bir kayıt alıyor muyuz?",
+                cevap:
+                    "Evet, ziyaret sonunda hangi noktaların çözüldüğü, hangilerinin geçici önlemle bırakıldığı ve varsa hangi noktaların ertelendiği kısa bir özet olarak paylaşılır. Ertelenen noktalar için yeni bir tarih önerilir; bu özet, tesisin kendi bakım kaydına eklenebilecek şekilde nettir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çok noktalı arıza ziyaretinde öncelik sıralaması ve şeffaf süre/maliyet kaydı sektör standardı saha operasyonu pratiğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bulunması genel bölgesel bilgidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bozüyük'te Düzensiz Zeminde Arıza Noktasına Güvenli Erişim",
+        giris:
+            "Bir arızaya erişmenin önündeki engel bazen arızanın kendisi değil, altındaki zemindir — OSB'nin henüz asfaltlanmamış bir kenarı, bir inşaat aşamasındaki tesisin düzensiz sahası, kış aylarında donmuş veya çamurlu bir alan. Bozüyük OSB'de bu tip zor zemin durumları, özellikle Söğüt gibi iklimin sert geçtiği çevre ilçelerde veya yeni gelişmekte olan saha kenarlarında karşımıza çıkar. Bu sayfa, arıza noktasının kendisi net olduğunda ama zeminin platformun güvenli kurulumunu zorlaştırdığı durumlarda nasıl çalıştığımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Zemin değerlendirmesinin acil çağrıda atlanmaması",
+                metin:
+                    "Arıza ne kadar acil olursa olsun, sahaya varan ekip makineyi konumlandırmadan önce zemini mutlaka değerlendirir — düz mü eğimli mi, sert mi yumuşak mı, görünürde sağlam ama altta boşluk olma ihtimali var mı. Bu değerlendirme birkaç dakika sürer ama atlanmaz; aceleyle kurulan bir platform kayma veya devrilme riski taşır ve bu risk, arızanın kendisinden daha büyük bir tehlike yaratabilir.",
+            },
+            {
+                baslik: "Yük dağıtım plakası ile zayıf zeminde çalışma",
+                metin:
+                    "Zeminin taşıma kapasitesi şüpheliyse, destek ayaklarının altına yük dağıtım plakası yerleştirilir; bu, ayağın noktasal baskısını geniş bir alana yayarak zeminin batmasını veya çökmesini önler. Sahaya varan ekip, plaka gerekip gerekmediğine zemin türüne (toprak, çakıl, taze dolgu) bakarak karar verir; şüpheli durumlarda plaka kullanmak varsayılan tercihtir, kullanmamak istisnadır.",
+            },
+            {
+                baslik: "Eğimli sahada konumlandırma sınırları",
+                metin:
+                    "OSB kenarındaki bazı sahalar veya inşaat aşamasındaki tesis çevreleri hafif eğimli olabilir; platformların çoğu belirli bir eğim açısını güvenle tolere edebilir ama bu açının üzerinde çalışmak devrilme riski yaratır. Sahaya varan ekip eğimi ölçer, güvenli sınırın içindeyse makineyi konumlandırır; sınırın dışındaysa daha düz bir nokta aranır veya farklı bir erişim yöntemi (örneğin daha uzun kollu bir makineyle daha düz bir noktadan erişim) değerlendirilir.",
+            },
+            {
+                baslik: "Kış aylarında donmuş veya çamurlu zeminde çalışma",
+                metin:
+                    "Söğüt gibi kışın erken ve sert geçtiği çevre bölgelerde, donmuş sert zemin çoğu zaman güvenli bir çalışma tabanı olsa da, karın altında yumuşak kalmış bir zemin risklidir ve bu ayrım çoğu zaman ancak sahada gözle ve elle kontrolle anlaşılır. Bu belirsizlikte ekip ihtiyatlı davranır, destek ayaklarını açmadan önce zemini dikkatle kontrol eder ve şüpheli durumda yük dağıtım plakası kullanır.",
+            },
+            {
+                baslik: "Zemin uygun hâle gelene kadar geçici önlem",
+                metin:
+                    "Zemin gerçekten güvensiz görünüyorsa ve alternatif bir konumlandırma noktası da yoksa, arızaya doğrudan platformla erişmek yerine önce güvenlik açısından geçici bir önlem alınır (örneğin sarkan bir parçanın uzaktan güvenli hâle getirilmesi mümkünse) ve asıl müdahale zemin uygun hâle gelene (kuruyana, donma çözülene) kadar planlanır. Bu karar tesis yetkilisiyle açıkça konuşularak verilir, belirsiz bırakılmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Zemin türüne göre hazırlık",
+                paragraflar: [
+                    "Farklı zemin türlerinde uygulanan hazırlık adımları aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin türü", "Risk", "Standart önlem"],
+                    satirlar: [
+                        ["Taze dolgu/toprak", "Ayak batması", "Yük dağıtım plakası"],
+                        ["Hafif eğimli saha", "Devrilme", "Eğim ölçümü, sınır kontrolü"],
+                        ["Donmuş zemin (görünüşte sert)", "Altta yumuşaklık", "Gözle/elle kontrol"],
+                        ["Çamurlu zemin", "Kayma", "Plaka veya alternatif nokta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin kontrolünün süreye etkisi",
+                paragraflar: [
+                    "Zemin kontrolü ve gerekirse yük dağıtım plakası yerleştirme, düz beton zemine göre birkaç dakika ek süre gerektirir. Bu süre, acil çağrının toplam süresine dahil edilir ve size açıkça bildirilir; gizli bir gecikme olarak sunulmaz. Bu birkaç dakikalık kontrol, daha büyük bir kaza veya gecikmeye yol açabilecek bir devrilmeyi önlediği için değerlidir.",
+                    "Zemin çok zorlu görünüyorsa, sahaya varan ekip önceden telefonla bildirdiğimiz süreyi güncelleyip yeni bir tahmin verir; bu güncelleme, beklenmedik bir sürpriz yaşamamanız için yapılır.",
+                ],
+            },
+            {
+                baslik: "Alternatif konumlandırma noktası arama süreci",
+                paragraflar: [
+                    "Birincil konumlandırma noktası zemin açısından uygun değilse, ekip sahada kısa bir tur atarak daha sağlam bir alternatif nokta arar; bu, arıza noktasından biraz daha uzak olabilir ama daha uzun kollu bir makineyle veya farklı bir açıyla erişim yine mümkün olabilir. Alternatif nokta bulunduğunda, bu değişikliğin nedeni tesis yetkilisine açıklanır.",
+                    "Sahada uygun hiçbir alternatif nokta yoksa, geçici bir zemin iyileştirmesi (örneğin dolgu malzemesi serilmesi) tesis yetkilisiyle birlikte değerlendirilir; bu, ek süre gerektiren ama gerekli bir adımdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Arıza çok acil ama zemin şüpheli görünüyor, yine de hemen mi kuruyorsunuz?",
+                cevap:
+                    "Hayır, zemin kontrolü hiçbir koşulda atlanmaz. Aceleyle kurulan bir platform kayma veya devrilme riski taşır ve bu, arızanın kendisinden daha büyük bir tehlike yaratabilir. Kontrol birkaç dakika sürer; bu süre toplam müdahale süresine dahil edilir ve size açıkça bildirilir. Şüpheli durumda yük dağıtım plakası kullanılır veya alternatif nokta aranır.",
+            },
+            {
+                soru: "Yük dağıtım plakası her zaman kullanılıyor mu, yoksa sadece gerektiğinde mi?",
+                cevap:
+                    "Zeminin taşıma kapasitesi şüpheliyse (toprak, taze dolgu, çamur) varsayılan tercihimiz plaka kullanmaktır; kullanmamak istisnadır. Düz ve sağlam beton zeminde plaka gerekmez. Sahaya varan ekip zemin türüne göre bu kararı hızla verir.",
+            },
+            {
+                soru: "Eğimli bir sahada platform çalışabiliyor mu?",
+                cevap:
+                    "Belirli bir eğim açısına kadar evet, platformların çoğu bu açıyı güvenle tolere eder. Sahaya varan ekip eğimi ölçer, güvenli sınırın içindeyse makineyi konumlandırır. Sınırın dışındaysa daha düz bir nokta aranır veya daha uzun kollu bir makineyle farklı bir açıdan erişim değerlendirilir.",
+            },
+            {
+                soru: "Kışın donmuş görünen zeminde çalışmak güvenli mi?",
+                cevap:
+                    "Donmuş sert zemin çoğu zaman güvenli bir çalışma tabanıdır ama karın altında yumuşak kalmış bir zemin risklidir ve bu ayrım çoğu zaman ancak sahada gözle ve elle kontrolle anlaşılır. Bu belirsizlikte ekip ihtiyatlı davranır, şüpheli durumda yük dağıtım plakası kullanır veya alternatif bir konumlandırma noktası arar.",
+            },
+            {
+                soru: "Sahada uygun bir konumlandırma noktası bulunamazsa ne oluyor?",
+                cevap:
+                    "Geçici bir zemin iyileştirmesi (dolgu malzemesi serilmesi gibi) tesis yetkilisiyle birlikte değerlendirilir; bu ek süre gerektiren ama gerekli bir adımdır. Hiçbir uygun çözüm bulunamıyorsa, güvenlik açısından mümkünse geçici bir önlem alınır ve asıl müdahale zemin uygun hâle gelene kadar planlanır; bu karar açıkça sizinle konuşularak verilir.",
+            },
+            {
+                soru: "Zemin kontrolü için ek ücret alıyor musunuz?",
+                cevap:
+                    "Zemin kontrolü ve gerekirse yük dağıtım plakası kullanımı standart güvenlik prosedürümüzün bir parçasıdır, ayrı bir ücretlendirme kalemi değildir. Zemin gerçekten zorluysa ve ek malzeme veya belirgin ek süre gerekiyorsa, bu durum önceden size bildirilir ve şeffaf biçimde anlatılır; sürpriz bir kalem eklenmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Zemin taşıma kapasitesi, yük dağıtım plakası kullanımı ve eğim sınırı platform operasyonlarında sektör standardı iş güvenliği pratiğidir. Söğüt ve çevre bölgelerin sert kışı genel iklim bilgisidir. Tesis adı ve rakam verilmemiştir.",
+    },
 };

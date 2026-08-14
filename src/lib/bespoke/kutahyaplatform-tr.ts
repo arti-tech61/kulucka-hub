@@ -909,4 +909,1103 @@ export const KUTAHYAPLATFORM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-13. Tavşanlı OSB'nin ilçenin linyit-termik santral ekonomisine bağlı yan sanayi işletmeleri barındırdığı kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Duruş döngüsüne göre kapasite ayırma ve OSB içi paylaşımlı kiralama modeli firma pratiğidir.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HİZMET SAYFALARI — Kütahya linyit-termik santral / jeotermal enerji
+    // ekseni burada da korunur; her sayfa 11 sabit hizmet konusunu bu
+    // domainin enerji sektörü perspektifinden ele alır. Kardeş dosya
+    // kutahyaplatform-com-tr.ts (seramik/çini fabrika açısı) ile hizmet
+    // kaydı çakışması yok (orada hizmet: kaydı bulunmuyor); yine de üslup
+    // ve kalıp tekrarından kaçınıldı.
+    // Yazım: 2026-08-14. Tesis adı ve rakam uydurulmadı.
+    // ═══════════════════════════════════════════════════════════════════
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Kütahya Enerji Sahalarında Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Termik santral ve maden destek tesislerinin iç mekânları, standart bir sanayi holünden farklı bir geometriye sahiptir: kazan dairesi çevresinde boru hatları, çelik konstrüksiyon dikmeleri ve ekipman gövdeleri arasında dar ve düzensiz boşluklar bulunur. Bu tür alanlarda klasik makaslı veya büyük boomlu platform genellikle giremez ya da manevra alanı bulamaz. Sepetli/örümcek platform (paletli, kompakt gövdeli, geniş açılı erişim sunan sınıf), tam da bu boşluklara girip hedefe ulaşabilen tek çözüm olduğu için Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek hattındaki santral ve ocak destek tesislerinde düzenli talep görür. Bu sayfa, bu sınıfın hangi saha koşullarında tercih edildiğini ve nasıl planlandığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kazan dairesi ve boru hattı arası dar geçişler",
+                metin:
+                    "Kazan dairesi çevresinde borular, kanal sistemleri ve çelik dikmeler arasında kalan geçiş koridorları genellikle bir metrenin biraz üzerindedir; bu genişlikte standart bir makaslı platform giremez. Örümcek platformun paletli gövdesi ve dar şasesi, bu koridorlardan geçip hedefin yakınında konumlanabilir; ayrıca stabilizatör ayakları farklı yüzey kotlarına ayrı ayrı ayarlanabildiği için eğik veya kademeli zeminlerde de düzgün duruş sağlanır.",
+            },
+            {
+                baslik: "Merdiven ve kapı boşluğundan geçerek iç sahaya taşınma",
+                metin:
+                    "Bazı iç mekân hedeflerine ulaşmak için platformun bina dışından içeri, dar bir kapı veya merdiven boşluğundan geçirilmesi gerekir; örümcek platformlar katlanabilir gövdeleri sayesinde bu tür geçişlerden sığabilir, hedefe ulaştıktan sonra tam açılıma geçer. Bu özellik, bina dışına vinç veya farklı bir kaldırma ekipmanı çağırmadan iç mekân işini tamamlamayı mümkün kılar.",
+            },
+            {
+                baslik: "Kırık ve çok yönlü hedeflerde erişim avantajı",
+                metin:
+                    "Çelik konstrüksiyon dikmeleri, boru dirsekleri ve ekipman gövdeleri arasında hedef nokta genellikle düz bir hatta değil, birkaç engelin arkasında kırık bir açıdadır. Örümcek platformun çok eklemli kolu, önce yukarı sonra yatay uzanarak bu engellerin üzerinden dolanabilir; bu, sabit bomlu sınıfların yapamadığı bir manevradır ve iş süresini kısaltır.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi düşük alanlarda hafiflik",
+                metin:
+                    "Bazı iç mekân zeminleri (asma kat, ızgara platform, hafif çelik döşeme) yüksek noktasal yük taşımaz; örümcek platformların paletli tabanı yükü geniş bir alana yayar ve toplam ağırlığı büyük makaslı sınıflara göre belirgin şekilde düşüktür. Bu, zemin mühendislik raporunun izin verdiği yük sınırını aşmadan çalışmayı mümkün kılar; şüpheli zeminlerde önceden zemin taşıma bilgisini tesis yetkilisinden alırız.",
+            },
+            {
+                baslik: "Operatör kararının sahada devreye girmesi",
+                metin:
+                    "Dar ve çok engelli bir sahada bile operatörün gördüğü anlık koşul (beklenmedik bir boru kolu, geçici bir malzeme yığını) plan aşamasında öngörülemez; bu yüzden örümcek platform işlerinde operatörümüz sahaya girmeden önce güzergâhı yürüyerek kontrol eder ve gerekirse rota üzerinde küçük değişiklik yapar. Bu adım, dar alan işlerinde aracın bir engele sıkışmasını önleyen en pratik tedbirdir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji sahalarında örümcek platform kullanım alanları",
+                paragraflar: [
+                    "Aşağıdaki tablo, hangi saha tipinde örümcek platformun standart bir sınıfa göre neden tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Engel türü", "Neden örümcek platform", "Zemin notu"],
+                    satirlar: [
+                        ["Kazan dairesi iç sahası", "Boru, kanal, dikme", "Dar koridor geçişi", "Genellikle sağlam beton"],
+                        ["Soğutma kulesi çevresi", "Nem, çelik iskelet", "Katlanabilir gövde, dar geçiş", "Islak, kaygan olabilir"],
+                        ["Bant galerisi içi", "Dar tünel, düşük tavan", "Kompakt boy, dönüş yarıçapı", "Toz birikimi"],
+                        ["Asma kat / ızgara döşeme", "Düşük taşıma kapasitesi", "Hafif toplam ağırlık", "Yük mühendislik raporu şart"],
+                        ["Merdivenli iç mekân", "Dar kapı/merdiven boşluğu", "Katlanarak geçiş, sahada açılım", "Standart"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sabit bomlu sınıfın yetersiz kaldığı noktalar",
+                paragraflar: [
+                    "Standart teleskopik veya eklemli bomlu bir platform, hedefe düz bir hatta ulaşabildiğinde verimlidir; ama Kütahya'nın santral ve maden destek tesislerinde hedefin önünde genellikle bir veya birden fazla çelik yapı ya da boru engeli bulunur. Bu durumda sabit bomlu sınıf ya hedefe ulaşamaz ya da dolanmak için gereksiz uzun bir kol açıklığı gerektirir — bu da makinenin park noktasında geniş bir boş alan ihtiyacı doğurur ki dar iç mekânlarda bu alan zaten yoktur.",
+                    "Örümcek platformun çok eklemli kolu bu sorunu farklı çözer: kol önce dikey yükselir, sonra yatay uzanarak engelin üzerinden dolanır; makinenin kendisi ise dar bir noktada sabit kalabilir. Bu, aynı işi daha küçük bir ayak izi ile bitirmeyi sağlar.",
+                ],
+            },
+            {
+                baslik: "Keşifte doğru sınıf kararı nasıl verilir",
+                paragraflar: [
+                    "Bir iç mekân işinin örümcek platform mu yoksa standart makaslı/eklemli sınıf mı gerektirdiği, sahadaki en dar geçişin genişliği, hedefin çevresindeki engel sayısı ve zeminin taşıma kapasitesiyle belirlenir. Bu üç veriyi fotoğraf ve ölçüyle önceden aldığımızda, sahaya gelmeden doğru sınıfı önerebiliriz; bu, sahada 'bu makine giremiyor' sürprizini önler.",
+                    "Belirsiz kalan durumlarda kısa bir ön keşif öneririz — özellikle kazan dairesi gibi karmaşık iç mekânlarda bu, hem zaman hem maliyet açısından en güvenli yoldur.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform hangi genişlikteki bir koridordan geçebilir?",
+                cevap:
+                    "Bu, seçtiğimiz makinenin modeline göre değişir; genel olarak standart bir makaslı platforma göre belirgin şekilde daha dar geçişlerden geçebilirler. Kesin ölçü için koridorun en dar noktasının genişliğini ve varsa tavan yüksekliğini paylaşmanızı isteriz — bu bilgiyle size uygun modeli önceden söyleyebiliriz.",
+            },
+            {
+                soru: "Kazan dairesi zemininin yük taşıma kapasitesini bilmiyoruz, ne yapmalıyız?",
+                cevap:
+                    "Zemin mühendislik raporu veya tesis yetkilisinden alınacak bir bilgi bu konuda en sağlıklı kaynaktır; bu bilgi olmadan ağır bir makineyi hassas bir döşemeye çıkarmayız. Örümcek platformların toplam ağırlığı büyük sınıflara göre düşük olsa da, kesin karar için bu bilgiyi önceden talep ederiz.",
+            },
+            {
+                soru: "Makine hedefe ulaşamayacak kadar çok engel varsa ne olur?",
+                cevap:
+                    "Böyle bir durumda operatörümüz sahaya girmeden önce güzergâhı yürüyerek kontrol eder; gerekirse rota üzerinde küçük bir değişiklik yapılır veya farklı bir erişim açısı denenir. Gerçekten imkânsız bir geometri varsa bunu sahaya varmadan, keşif fotoğrafları üzerinden tespit etmeye çalışırız ki gereksiz bir sevkiyat yapılmasın.",
+            },
+            {
+                soru: "Soğutma kulesi çevresindeki nemli zeminde örümcek platform güvenli mi?",
+                cevap:
+                    "Paletli tabanı ıslak zeminlerde standart lastikli tekerlere göre genellikle daha iyi tutunma sağlar ama tam güvenlik için zemin eğimi ve kayganlık derecesini keşifte değerlendiririz; gerekirse çalışma öncesi bölgesel kurutma isteriz. Operatörümüz zemin durumunda tereddüt varsa çalışmayı başlatmaz.",
+            },
+            {
+                soru: "Bina dışından içeri nasıl taşınıyor, ayrı bir vinç gerekir mi?",
+                cevap:
+                    "Genellikle gerekmez; örümcek platformlar katlanabilir gövdeleri sayesinde standart bir kapı veya merdiven boşluğundan kendi gücüyle geçebilir, hedefe ulaştıktan sonra tam açılıma geçer. Kapı/merdiven ölçülerini önceden paylaşırsanız, bu geçişin mümkün olup olmadığını sahaya gelmeden teyit ederiz.",
+            },
+            {
+                soru: "Bu sınıfın kiralama süresi ve operatör gerekliliği nasıl işliyor?",
+                cevap:
+                    "Örümcek platformlar genellikle operatörlü kiralanır çünkü çok eklemli kolun dar alanda doğru sırayla hareket ettirilmesi deneyim ister; bu, hem işin hızını hem güvenliğini doğrudan etkiler. Süre, iş kapsamına göre günlük veya haftalık planlanabilir; iç mekân işinizin kapsamını verirseniz size uygun süre ve makine önerisini birlikte çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek hattındaki termik santral ve maden destek tesislerinin kazan dairesi/bant galerisi gibi dar iç mekân geometrisi kamuya açık genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Sınıf seçim mantığı ve keşif süreci firma pratiğidir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Kütahya Enerji Hattında Nakliye ve Teslimat Hizmeti",
+        giris:
+            "Kütahya'daki depomuz, ilin linyit-termik santral ve jeotermal enerji sahalarına düzenli sevkiyat yapan bir merkez konumundadır: Tavşanlı-Seyitömer-Tunçbilek hattındaki santral ve ocak sahaları, Simav'daki jeotermal tesisler, Gediz ve Bilecik'teki destek işletmeleri, Uşak OSB'deki yan sanayi — bu rotaların her biri kendi zamanlama ve öncelik mantığına sahiptir. Bu sayfa, nakliye ve teslimat hizmetimizin bu çok yönlü rota ağında nasıl işlediğini, hangi durumda tekil sevkiyat hangi durumda birleşik rota kullanıldığını ve kış aylarındaki gerçekçi planlamayı anlatır.",
+        maddeler: [
+            {
+                baslik: "Santral ve ocak sahalarına öncelikli sevkiyat",
+                metin:
+                    "Tavşanlı-Seyitömer-Tunçbilek hattındaki termik santral ve linyit ocağı sahalarına yapılan sevkiyatlar, üretim sürekliliğiyle doğrudan ilişkili olduğu için sevkiyat programımızda önceliklidir; özellikle planlı duruş dönemlerinde bu öncelik daha da belirginleşir. Bu sahalara giden bir sevkiyat, aynı zamanda tesisin kendi iş izni ve giriş prosedürüyle senkronize edilir — makine sahaya vardığında izin süreci tamamlanmamışsa teslimat gecikir, bu yüzden izin durumu teslimat tarihinden önce teyit edilir.",
+            },
+            {
+                baslik: "Merkez-ilçe hattında birleşik sevkiyat modeli",
+                metin:
+                    "Merkezden Tavşanlı, Gediz veya Simav yönüne yapılan düzenli sevkiyatlar, güzergâh üzerindeki başka bir müşterinin işini de aynı tura ekleyebilir; bu, tarih esnekliği bırakan müşteriler için tekil sevkiyata göre belirgin bir maliyet avantajı sağlar. Acil işlerde bu modeli beklemeden tekil sevkiyat yapılır; iki seçenek arasındaki fiyat farkı teklifte açıkça gösterilir.",
+            },
+            {
+                baslik: "Jeotermal ve tarımsal bölgelere farklı zamanlama",
+                metin:
+                    "Simav'daki jeotermal tesislere ve Gediz'deki tarımsal depolara yapılan sevkiyatlar, santral hattındaki üretim önceliğinden bağımsız, kendi mevsim ve misafir yoğunluğu takvimine göre planlanır. Bu iki farklı zamanlama mantığını aynı haftalık programda ayrı ayrı yönetiyoruz; bir talep geldiğinde önce hangi takvime ait olduğunu netleştiririz.",
+            },
+            {
+                baslik: "Kış aylarında plato iklimine göre gerçekçi teslimat",
+                metin:
+                    "Kütahya'nın yüksek rakımlı platosunda kışlar sert geçer; merkez ile Tavşanlı, Gediz ve Simav arasındaki sevkiyatlarda kar ve buzlanma teslimat gününü etkileyebilir. Kış aylarında planlanan işlerde alternatif bir teslimat günü önceden konuşulur; makinenin indirileceği alanın düz ve buz tutmayan bir yüzey olması istenir. Acil bir kış işinde, hava koşulunu göz önünde bulundurarak en gerçekçi teslimat penceresini baştan söyleriz.",
+            },
+            {
+                baslik: "Boşaltma noktası hazırlığı ve teslim tesellümü",
+                metin:
+                    "Sevkiyatın sorunsuz tamamlanması için boşaltma noktasının araç ve makine giriş-çıkışına uygun, düz bir zeminde olması ve mümkünse önceden işaretlenmiş olması gerekir; özellikle santral ve maden sahalarında bu nokta tesis yetkilisiyle birlikte belirlenir. Teslimat sırasında makinenin durumu ve çalışırlığı birlikte kontrol edilir, bu kontrol her iki tarafın da imzasıyla kayıt altına alınır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji hattında sevkiyat rotası ve öncelik",
+                paragraflar: [
+                    "Aşağıdaki tablo, ilin farklı bölgelerine yapılan sevkiyatların öncelik ve zamanlama mantığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef bölge", "Bağlantı türü", "Öncelik", "Zamanlama mantığı"],
+                    satirlar: [
+                        ["Tavşanlı-Seyitömer-Tunçbilek", "Santral/ocak — doğrudan", "Yüksek", "Duruş/üretim takvimine bağlı"],
+                        ["Simav", "Jeotermal/kaplıca", "Standart-yüksek (misafir sezonu)", "Sezon dışı önerilir"],
+                        ["Gediz", "Tarım + enerji hattı ara durak", "Standart", "Sezon dışı / tur içi"],
+                        ["Bilecik OSB", "Enerji tedarikçisi işletmeler", "Değişken (bağımlılığa göre)", "Haftalık rota birleşimi"],
+                        ["Uşak OSB", "Genel sanayi + enerji-yoğun tesis", "Standart", "Tur içi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tekil sevkiyat mı, birleşik rota mı",
+                paragraflar: [
+                    "Acil bir işte tekil sevkiyat en hızlı çözümdür ve maliyeti mesafeye göre doğrudan hesaplanır; bu, teklifte ayrı bir kalem olarak gösterilir. Tarihte esneklik olan işlerde ise güzergâh üzerindeki haftalık düzenli sevkiyata eklenmek, belirgin bir maliyet avantajı sağlar — özellikle Bilecik ve Gediz gibi ana hattan sapma gerektiren bölgelerde bu fark daha da hissedilir.",
+                    "Bir işin hangi modele uygun olduğunu belirlemek için işin aciliyetini ve tarih esnekliğini talep aşamasında sorarız; bu, doğru fiyat ve doğru teslimat penceresini baştan netleştirir.",
+                ],
+            },
+            {
+                baslik: "İzin süreçleriyle senkron teslimat",
+                paragraflar: [
+                    "Santral ve maden sahalarına yapılan teslimatlar, tesisin kendi giriş izni ve iş izni prosedürüyle senkronize edilmezse, makine sahaya varsa bile içeri giremeyebilir. Bu yüzden bu tür sahalara yapılan her sevkiyatta izin durumunu teslimattan önce teyit ederiz; izin süreci uzarsa teslimat tarihini buna göre güncelleriz ve müşteriye önceden haber veririz.",
+                    "Standart sanayi veya tarımsal tesislere yapılan teslimatlarda böyle bir izin süreci genellikle bulunmaz; bu tür işlerde teslimat, doğrudan sevkiyat programına göre planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tavşanlı'daki santral sahasına ne kadar sürede teslimat yapabiliyorsunuz?",
+                cevap:
+                    "Süre, tesisin giriş izni sürecinin ne kadar sürdüğüne ve o anki sevkiyat programımıza bağlıdır; santral ve ocak sahaları öncelikli olduğu için genellikle hızlı planlanır. İzin sürecini bilmiyorsanız, tesis yetkilinizden bu bilgiyi almanızı öneririz — bu bilgiyle teslimat tarihini gerçekçi şekilde birlikte belirleriz.",
+            },
+            {
+                soru: "İşimizi başka bir müşterinin sevkiyatıyla birleştirebilir misiniz?",
+                cevap:
+                    "Evet, güzergâh üzerinde başka bir müşterinin düzenli sevkiyatı varsa işinizi bu tura ekleyebiliriz; bunun için tarihte biraz esneklik bırakmanız yeterlidir. Bu model, tekil sevkiyata göre belirgin bir maliyet avantajı sağlar; teklifte iki seçeneği de karşılaştırmalı gösteririz.",
+            },
+            {
+                soru: "Kış aylarında Simav veya Tavşanlı yönüne sevkiyat garantisi verebiliyor musunuz?",
+                cevap:
+                    "Kesin bir garanti veremeyiz çünkü kar ve buzlanma hava koşuluna bağlıdır; ama kış aylarında planlanan işlerde alternatif bir teslimat günü önceden konuşuruz ve makinenin indirileceği alanın düz, buz tutmayan bir yüzey olmasını isteriz. Acil bir kış işinde en gerçekçi teslimat penceresini baştan söyleriz, sürpriz bir gecikme yaşatmayız.",
+            },
+            {
+                soru: "Boşaltma noktamızın uygun olup olmadığını nasıl anlarız?",
+                cevap:
+                    "Genel kural, aracın ve makinenin rahatça girip çıkabileceği, düz ve mümkünse önceden işaretlenmiş bir zemin olmasıdır. Emin değilseniz, boşaltma noktasının fotoğrafını önceden gönderebilirsiniz — bu, sevkiyat gününde bir sorunla karşılaşma riskini önceden eler.",
+            },
+            {
+                soru: "Bilecik OSB'deki bir işi Tavşanlı hattındaki sevkiyatla birleştirmek mümkün mü?",
+                cevap:
+                    "Mümkün; merkez-Tavşanlı hattı ile Bilecik OSB'ye giden sevkiyat aynı hafta içinde değerlendirildiğinde en verimli rota çıkarılabilir. Bunun için iki işin de tarihte esnek olması gerekir; konumları ve tercih ettiğiniz tarih aralığını verirseniz birlikte planlarız.",
+            },
+            {
+                soru: "Sevkiyat sırasında makinenin durumu nasıl kontrol ediliyor?",
+                cevap:
+                    "Teslimat anında makinenin çalışırlığı ve genel durumu birlikte kontrol edilir, bu kontrol her iki tarafın imzasıyla kayıt altına alınır; bu, hem sizin hem bizim için netlik sağlar. Herhangi bir sorunuz veya gözleminiz varsa bu tesellüm sırasında not edilir ve gerekiyorsa hemen çözülür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek termik santral hattı, Simav jeotermal bölgesi ve platonun kış iklimi kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Rota birleşimi, izin senkronizasyonu ve kış planlaması firma pratiğidir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Kütahya Enerji ve Maden Yan Sanayisinde Forklift ve İstifleme Kiralama",
+        giris:
+            "Kütahya'nın linyit-termik santral kuşağına hizmet veren yedek parça atölyeleri, bakım-onarım depoları ve ağır nakliye garajları, günlük işleyişlerinde sürekli malzeme istifleme ihtiyacı duyar: gelen yedek parça paletlerinin depoya yerleştirilmesi, bakım için ayrılan ekipmanın raflara alınması, sevkiyata hazır malzemenin araca yüklenmesi. Bu sayfa, forklift ve istifleme hizmetimizin bu yan sanayi işletmelerinde nasıl kullanıldığını, hangi zemin ve yük koşullarının makine seçimini belirlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Yedek parça depolarında raf yüksekliği ve palet ağırlığı",
+                metin:
+                    "Santral ve maden ekipmanına hizmet veren yedek parça depolarında raf yükseklikleri genellikle standart bir ticari depodan daha yüksektir; ayrıca bazı parçalar (dişli grupları, hidrolik bileşenler) standart bir paletten belirgin şekilde ağırdır. Bu iki faktör, forklift kapasitesinin ve maksimum kaldırma yüksekliğinin önceden netleştirilmesini gerektirir; yanlış kapasiteli bir makine hem verimsiz hem risklidir.",
+            },
+            {
+                baslik: "Ağır nakliye garajlarında malzeme ve parça yönetimi",
+                metin:
+                    "Kömür ve maden ekipmanı taşıyan ağır nakliye firmalarının garajlarında, araç bakımı için ayrılan büyük parçaların (lastik, akü grubu, yedek şase parçaları) düzenli istiflenmesi ve gerektiğinde hızlı erişimi önemlidir; bu tür alanlarda forklift, hem istifleme hem araç bakım alanına malzeme taşıma amacıyla kullanılır. Zemin genellikle sağlam beton olduğu için standart dizel veya LPG'li forklift sınıfı yeterlidir.",
+            },
+            {
+                baslik: "OSB'deki metal işleme atölyelerinde hammadde-mamul akışı",
+                metin:
+                    "Bilecik ve Uşak OSB'lerindeki, enerji sektörüne ekipman üreten metal işleme atölyelerinde forklift, hammadde girişinden mamul ürün sevkiyatına kadar sürekli devrede olan bir ekipmandır; bu atölyelerde vinç kirişi çevresinde çalışma da olabileceği için forklift operatörünün tepe vinç hareketine karşı dikkatli olması gerekir — bu, sahaya özgü bir koordinasyon konusudur.",
+            },
+            {
+                baslik: "Açık sahada düzensiz zeminde istifleme",
+                metin:
+                    "Linyit ocağı çevresindeki bazı açık depolama alanlarında zemin sıkıştırılmış dolgu veya moloz karışımıdır; bu tür zeminlerde standart lastikli forklift yerine arazi tipi (dört tekerlekten çekişli) forklift tercih edilir. Zemin durumu belirsizse, keşifte birlikte değerlendirilir ve gerekirse yük dağıtım önlemleri konuşulur.",
+            },
+            {
+                baslik: "Kısa süreli yoğun istifleme dönemlerinde ek makine",
+                metin:
+                    "Planlı duruş dönemleri öncesinde, santral ve ocak sahalarına yedek parça ve malzeme sevkiyatı yoğunlaşır; bu dönemlerde depolardaki istifleme yükü kısa sürede artar. Böyle bir yoğunluk öngörüldüğünde, standart bir forklifte ek olarak kısa süreli ikinci bir makine önerebiliriz — bu, duruş öncesi hazırlığın gecikmeden tamamlanmasını sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji yan sanayisinde forklift kullanım profili",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı işletme tiplerinde forklift ve istifleme ihtiyacının nasıl şekillendiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme tipi", "Tipik yük", "Zemin", "Makine tercihi"],
+                    satirlar: [
+                        ["Yedek parça deposu", "Ağır palet, yüksek raf", "Beton", "Yüksek kapasiteli, uzun direk"],
+                        ["Ağır nakliye garajı", "Lastik, akü, şase parçası", "Beton", "Standart dizel/LPG"],
+                        ["OSB metal atölyesi", "Hammadde-mamul, vinç koordinasyonu", "Beton", "Standart, vinç uyumlu çalışma"],
+                        ["Açık ocak depolama alanı", "Değişken, dış hava", "Dolgu/moloz", "Arazi tipi (4x4)"],
+                        ["Duruş öncesi yoğun dönem", "Kısa süreli artan hacim", "Değişken", "Ek geçici makine"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kapasite kararının doğru verilmesi",
+                paragraflar: [
+                    "Bir forklift talebinde en sık karşılaştığımız eksik bilgi, kaldırılacak en ağır parçanın gerçek ağırlığıdır; santral ve maden ekipmanı parçaları görünüşte küçük olsa da çok ağır olabilir (dişli grupları, hidrolik silindirler gibi). Bu bilgiyi önceden almadan verilen bir kapasite tahmini, sahada yetersiz kalabilir.",
+                    "Bu yüzden yedek parça deposu veya atölye işlerinde, en ağır kalemin ağırlığını ve raf/istifleme yüksekliğini talep formunda ayrıca sorarız; bu iki veri doğru makinenin seçilmesini garanti eder.",
+                ],
+            },
+            {
+                baslik: "Duruş öncesi yoğunluğa hazırlıklı olmak",
+                paragraflar: [
+                    "Termik santral ve ocak sahalarındaki planlı duruş dönemleri yaklaştığında, yedek parça ve malzeme sevkiyatı belirgin şekilde artar; bu artışı önceden bilen depo işletmeleri bize duruş tarihini erken bildirdiğinde, o döneme ek makine ayırabiliriz. Son anda gelen bir talep, o dönemde makine bulunurluğunun daralmış olması nedeniyle daha zor karşılanabilir.",
+                    "Yıllık duruş takviminiz varsa, bu tarihleri bizimle paylaşmanızı öneririz — bu, hem sizin hem bizim için planlamayı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yedek parça deponuzdaki en ağır kalemi bilmiyoruz, ne yapmalıyız?",
+                cevap:
+                    "Emin değilseniz, en büyük veya en şüpheli gördüğünüz birkaç kalemin tahmini ağırlığını (üretici etiketi, sevkiyat belgesi gibi kaynaklardan) paylaşmanızı öneririz. Bu bilgi olmadan verilen bir kapasite tahmini sahada yetersiz kalabilir; belirsizlik varsa bir üst kapasiteli makineyi güvenli tarafta kalarak öneririz.",
+            },
+            {
+                soru: "Açık ocak sahasındaki depolama alanımızın zemini gevşek, forklift kullanılabilir mi?",
+                cevap:
+                    "Kullanılabilir ama standart lastikli sınıf yerine arazi tipi (4x4) forklift öneririz; bu sınıf gevşek dolgu ve moloz karışımı zeminlerde daha güvenli çalışır. Zemin durumunu keşifte birlikte değerlendirir, gerekirse ek önlem konuşuruz.",
+            },
+            {
+                soru: "OSB atölyemizde tepe vinç de çalışıyor, forklift ile çakışma riski var mı?",
+                cevap:
+                    "Bu, sahaya özgü bir koordinasyon konusudur; forklift operatörümüz tepe vinç hareketine karşı dikkatli çalışacak şekilde brifing alır. Atölyenizin vinç kullanım programını önceden bilirsek, forklift işini bu programla çakışmayacak şekilde planlarız.",
+            },
+            {
+                soru: "Duruş dönemi öncesi ek forklift talep edebilir miyiz?",
+                cevap:
+                    "Evet, duruş tarihinizi ne kadar erken bildirirseniz, o döneme ek makine ayırma şansımız o kadar yüksek olur. Son anda gelen taleplerde, o dönemdeki genel makine bulunurluğuna bağlı olarak bir bekleme süresi oluşabilir; bu yüzden yıllık duruş takviminizi paylaşmanızı öneririz.",
+            },
+            {
+                soru: "Ağır nakliye garajımızdaki lastik ve akü depolama işini nasıl planlıyorsunuz?",
+                cevap:
+                    "Bu tür işler standart bir forklift sınıfıyla ve genellikle sağlam beton zeminde yürütülür; araç trafiğinizin en az olduğu saatleri bildirirseniz, çalışmayı bu saatlere göre planlarız. Malzeme hacmi büyükse, önceden bir istifleme planı üzerinde birlikte çalışırız.",
+            },
+            {
+                soru: "Kısa süreli bir kiralama mı yoksa uzun süreli mi daha uygun?",
+                cevap:
+                    "Bu, işinizin sürekliliğine bağlıdır; duruş öncesi yoğun dönem gibi kısa süreli bir artış için günlük veya haftalık kiralama, düzenli bir depo işleyişi için ise aylık kiralama genellikle daha ekonomiktir. İhtiyacınızın süresini ve hacmini paylaşırsanız size en uygun modeli önereceğiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın linyit-termik santral yan sanayisindeki yedek parça deposu ve ağır nakliye garajı profili, OSB'lerdeki metal işleme atölyeleri kamuya açık genel sanayi bilgisidir; işletme adı ve rakam kullanılmamıştır. Kapasite belirleme yöntemi ve duruş öncesi planlama firma pratiğidir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Kütahya Termik Santral ve Maden Sahalarında Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Açık ocak madenciliği ve termik santral sahaları, hedefin genellikle düz bir hatta değil, bir boru hattının, çelik konstrüksiyon dikmesinin veya ekipman gövdesinin arkasında kaldığı bir geometri sunar. Eklemli (boom) platformun çok noktalı kolu, önce yukarı sonra yatay uzanarak bu tür engellerin üzerinden dolanabilir — bu, düz uzanan teleskopik bomun yapamadığı bir manevradır. Bu sayfa, Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek hattındaki santral ve ocak sahalarında eklemli platformun ne zaman teleskopik sınıfa tercih edildiğini ve nasıl konumlandırıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Engelli hedeflerde 'yukarı ve üzerinden' erişim",
+                metin:
+                    "Baca çevresi, kazan dairesi dışı veya bant galerisi üstü gibi hedeflerde önünde boru hattı, çelik yapı elemanı veya başka bir ekipman bulunduğunda, eklemli kol önce dikey yükselip sonra yatay uzanarak bu engelin üzerinden dolanabilir. Teleskopik bir bom bu geometride ya hedefe ulaşamaz ya da makinenin çok daha uzağa park edilmesini gerektirir; eklemli sınıf bu ihtiyacı ortadan kaldırır.",
+            },
+            {
+                baslik: "Kısıtlı park alanında maksimum erişim",
+                metin:
+                    "Santral ve ocak sahalarında makinenin park edebileceği düz ve güvenli alan sınırlı olabilir; eklemli platformun kolu, sınırlı bir park noktasından farklı yönlere ve yüksekliklere erişebildiği için bu kısıtı telafi eder. Bu, özellikle bant galerisi kenarı veya dar bir saha köşesi gibi noktalarda belirleyici bir avantajdır.",
+            },
+            {
+                baslik: "Açık ocak destek tesislerinde çelik konstrüksiyon çevresi",
+                metin:
+                    "Linyit ocağı çevresindeki bant konveyör köprüleri ve eleme-yıkama tesislerinin çelik konstrüksiyon kontrolü, çok sayıda dikme ve çapraz kiriş arasında yapılır; eklemli kol bu yapılar arasında farklı açılardan yaklaşarak her noktaya erişebilir. Zemin genellikle sıkıştırılmış dolgu olduğu için arazi tipi lastikli eklemli platform tercih edilir.",
+            },
+            {
+                baslik: "Dizel veya akülü sınıf kararı — açık saha ile kapalı mekân farkı",
+                metin:
+                    "Santral ve ocak sahalarının açık kısımlarında dizel motorlu eklemli platform tercih edilir çünkü menzil ve güç ihtiyacı yüksektir; kapalı kazan dairesi veya kontrol odası yakınında ise egzoz kısıtı nedeniyle akülü eklemli sınıfa geçilir. Bu geçiş kararı, işin hangi bölgede geçtiğine göre keşifte netleştirilir.",
+            },
+            {
+                baslik: "Rüzgâr ve yükseklik birlikte değerlendirilir",
+                metin:
+                    "Baca çevresi gibi yüksek noktalarda çalışan eklemli platformlarda rüzgâr hızı, sepetin stabilitesini doğrudan etkiler; bu yüzden yüksek rüzgâr uyarısı olan günlerde bu tür işler ertelenir veya daha erken/geç saatlere kaydırılır. Bu karar operatörün sahadaki gözlemine ve varsa tesisin kendi rüzgâr ölçüm verisine dayanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Eklemli platformun teleskopik sınıfa göre tercih edildiği durumlar",
+                paragraflar: [
+                    "Aşağıdaki tablo, hangi saha koşulunda eklemli platformun neden tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha koşulu", "Engel/kısıt", "Neden eklemli", "Enerji tipi"],
+                    satirlar: [
+                        ["Baca çevresi (engelli)", "Boru/çelik yapı önde", "Üzerinden dolanma", "Dizel (açık saha)"],
+                        ["Bant galerisi üstü", "Dar park alanı", "Sınırlı noktadan geniş erişim", "Arazi tipi dizel"],
+                        ["Kazan dairesi dışı", "Kısmen kapalı, egzoz kısıtı", "Akülüye geçiş gerekebilir", "Akülü"],
+                        ["Ocak destek çelik yapı", "Çok sayıda dikme/kiriş", "Farklı açılardan erişim", "Arazi tipi dizel"],
+                        ["Kontrol odası çevresi", "Kapalı mekân", "Egzozsuz çalışma zorunlu", "Akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Teleskopik ile eklemli arasındaki karar süreci",
+                paragraflar: [
+                    "Hedefin önü açıksa ve engel yoksa, teleskopik bom genellikle daha hızlı ve daha basit bir çözümdür; ama önde bir boru hattı, çelik dikme veya başka bir ekipman varsa eklemli sınıf tek gerçekçi seçenektir. Bu kararı vermek için hedefin çevre fotoğrafını ve varsa engelin yaklaşık konumunu önceden isteriz.",
+                    "Bazı işlerde her iki sınıf da teknik olarak mümkün olabilir; bu durumda sahadaki park alanı kısıtını ve iş süresini birlikte değerlendirerek daha verimli olanı öneririz.",
+                ],
+            },
+            {
+                baslik: "Rüzgâr ve hava koşulu takibi",
+                paragraflar: [
+                    "Baca ve yüksek yapı çevresindeki eklemli platform işlerinde rüzgâr, çalışmanın başlayıp başlamayacağını belirleyen en kritik faktördür; operatörümüz sahaya vardığında rüzgâr durumunu değerlendirir ve tereddüt varsa çalışmayı ertelemekten çekinmez. Tesisin kendi rüzgâr ölçüm verisi varsa, bu veriyi de değerlendirmeye dahil ederiz.",
+                    "Rüzgârlı bir dönemde planlanan bir iş için, alternatif bir gün veya saat aralığını baştan konuşuruz; bu, sahaya boşuna gelinmesini önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Baca çevresindeki işimizde önde bir boru hattı var, hangi sınıfı önerirsiniz?",
+                cevap:
+                    "Böyle bir durumda eklemli platform öneririz çünkü kol önce yukarı sonra yatay uzanarak boru hattının üzerinden dolanabilir; teleskopik bir bom bu geometride hedefe ulaşamayabilir. Boru hattının konumunu ve bacanın yüksekliğini gösteren bir fotoğraf gönderirseniz, kesin sınıf kararını sahaya gelmeden veririz.",
+            },
+            {
+                soru: "Bant galerisi kenarında park alanımız çok dar, çalışabilir misiniz?",
+                cevap:
+                    "Genellikle çalışabiliriz; eklemli platformun kolu sınırlı bir park noktasından farklı yön ve yüksekliklere erişebildiği için dar park alanlarında teleskopik sınıfa göre daha esnektir. Park alanının genişliğini ve galeri kenarının konumunu paylaşırsanız uygunluğu önceden teyit ederiz.",
+            },
+            {
+                soru: "Kazan dairesi dışında mı yoksa içinde mi çalışacağız, bu makine sınıfını değiştirir mi?",
+                cevap:
+                    "Evet, değiştirebilir; açık sahada dizel motorlu eklemli platform tercih edilirken, kapalı veya yarı kapalı bir alanda egzoz kısıtı nedeniyle akülü sınıfa geçilir. Çalışma alanının açık mı kapalı mı olduğunu belirtirseniz, doğru sınıfı baştan öneririz.",
+            },
+            {
+                soru: "Rüzgârlı bir günde işimiz iptal olur mu?",
+                cevap:
+                    "Yüksek rüzgâr uyarısı olan günlerde baca çevresi gibi yüksek işler ertelenir veya farklı bir saate kaydırılır; bu, sepet stabilitesi açısından zorunlu bir güvenlik kararıdır. İşinizi planlarken alternatif bir tarih veya saat aralığını baştan konuşuruz ki rüzgâr durumunda hazırlıksız kalmayasınız.",
+            },
+            {
+                soru: "Ocak destek tesisindeki çelik konstrüksiyon kontrolü için hangi zemin sınıfı gerekir?",
+                cevap:
+                    "Bu sahalarda zemin genellikle sıkıştırılmış dolgu olduğu için arazi tipi lastikli eklemli platform tercih edilir; standart sert zemin lastikleri bu tür yüzeylerde yeterli tutunmayı sağlamayabilir. Zemin durumunu keşifte birlikte değerlendirir, gerekirse yük dağıtım önlemi öneririz.",
+            },
+            {
+                soru: "Eklemli platform operatörlü mü kiralanır, süre nasıl belirlenir?",
+                cevap:
+                    "Santral ve ocak sahalarındaki eklemli platform işleri, karmaşık geometri ve saha güvenlik prosedürü nedeniyle çoğunlukla operatörlü kiralanır. Süre işin kapsamına göre belirlenir; tek bir baca kontrolü mü yoksa çok noktalı bir bakım turu mu olduğunu belirtirseniz size uygun süre önerisini çıkarırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın Tavşanlı-Seyitömer-Tunçbilek termik santral ve linyit ocağı sahalarının çelik konstrüksiyon yoğun geometrisi kamuya açık genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Sınıf seçim mantığı ve rüzgâr değerlendirmesi firma pratiğidir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Kütahya Enerji Sektörü Atölye ve Depolarında İç Mekân Platform Kiralama",
+        giris:
+            "Kütahya'nın linyit-termik santral kuşağına hizmet veren yedek parça atölyeleri, idari-sosyal tesisler ve depo yapıları, iç mekân bakım ihtiyacı açısından standart bir sanayi holü profiline yakındır; ama santral ve ocak sahalarının getirdiği sevkiyat yoğunluğu ve zaman zaman farklı öncelik sıralaması, bu iç mekân işlerinin planlanma şeklini etkiler. Bu sayfa, iç mekân platform hizmetimizin bu yan sanayi yapılarında nasıl kullanıldığını, akülü sınıfın neden standart olduğunu ve zamanlama önceliklerini anlatır.",
+        maddeler: [
+            {
+                baslik: "Atölye çatı ve aydınlatma bakımında akülü standart",
+                metin:
+                    "Yedek parça atölyeleri ve bakım holleri kapalı mekân olduğu için, buradaki çatı, aydınlatma ve raf üstü işlerde akülü makaslı veya akülü eklemli platform standarttır; egzozsuz çalışması, kapalı mekânda hava kalitesi ve gürültü açısından ek bir avantajdır. Zemin genellikle sağlam beton olduğu için özel bir zemin hazırlığı gerekmez.",
+            },
+            {
+                baslik: "İdari-sosyal tesislerde standart bina bakımı",
+                metin:
+                    "Santral ve maden işletmelerinin idari büro ve personel sosyal tesislerindeki iç mekân bakımı (aydınlatma, tavan, cephe içi) standart bir ofis-sosyal tesis bakımı gibi ele alınır; bu işler enerji sektörünün özel risklerinden (toz, yüksek sıcaklık) bağımsızdır ve tarih esnekliği yüksektir.",
+            },
+            {
+                baslik: "Depo raf sistemleri üzeri kontrol ve bakım",
+                metin:
+                    "Yedek parça ve malzeme depolarındaki yüksek raf sistemlerinin üst kısmındaki aydınlatma, havalandırma kanalı veya sprinkler hattı bakımı, düzenli bir iç mekân platform işidir; raf aralarının dar olduğu depolarda makine genişliği koridor ölçüsüyle önceden karşılaştırılır.",
+            },
+            {
+                baslik: "Sevkiyat trafiğinin iç mekân işlerine etkisi",
+                metin:
+                    "Bu yapılardaki atölye ve depoların bir kısmı, doğrudan santral ve ocak sahalarına yedek parça sağladığı için, iç mekân bakım işleri bu işletmenin kendi sevkiyat yoğunluğuna göre planlanır; sevkiyatın en az olduğu saatler tercih edilir, bu da hem çalışanların hem malzeme akışının bakım işinden en az etkilenmesini sağlar.",
+            },
+            {
+                baslik: "Kısa bloklar hâlinde çalışma esnekliği",
+                metin:
+                    "İç mekân işlerinin çoğu birkaç saatlik veya bir günlük kısa bloklar hâlinde tamamlanabilir; bu, atölye ve depo işletmesinin günlük işleyişini bölmeden bakım yapılmasını mümkün kılar. İşin kapsamı büyükse, birden fazla kısa blok hâlinde birkaç güne yayılabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji yan sanayisinde iç mekân platform kullanımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı iç mekân yapı tiplerinde platform kullanımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Tipik kalem", "Zamanlama", "Makine sınıfı"],
+                    satirlar: [
+                        ["Yedek parça atölyesi", "Çatı, aydınlatma, raf üstü", "Sevkiyat trafiği dışı saat", "Akülü makaslı"],
+                        ["İdari-sosyal tesis", "Aydınlatma, tavan, cephe içi", "Esnek", "Akülü, standart"],
+                        ["Yüksek raf depo", "Aydınlatma, havalandırma, sprinkler", "İş saati dışı", "Akülü, dar koridor uyumlu"],
+                        ["Kontrol/idari bina koridoru", "Kablo, aydınlatma", "Esnek", "Kompakt akülü"],
+                        ["Sosyal tesis salonu", "Tavan, aydınlatma", "Kullanım dışı saat", "Standart akülü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar koridorlu depolarda makine seçimi",
+                paragraflar: [
+                    "Yedek parça depolarındaki raf aralıkları genellikle dar tutulur çünkü depo alanı sınırlıdır; bu koridorlarda çalışacak platformun genişliği, raf arası mesafeden belirgin şekilde dar olmalıdır. Bu ölçüyü önceden almadan gönderilen bir makine, sahada rafın önünde kalıp içeri giremeyebilir — bu yüzden koridor genişliği talep formunda ayrıca sorulur.",
+                    "Bazı depolarda raf düzeni bölüm bölüm farklıdır; böyle durumlarda en dar koridorun ölçüsü esas alınır.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat trafiğiyle çakışmayan planlama",
+                paragraflar: [
+                    "Doğrudan santral veya ocak sahasına parça sağlayan bir atölyede, sevkiyat trafiğinin en yoğun olduğu saatlerde iç mekân bakım işi yapmak hem çalışanları hem malzeme akışını engelleyebilir; bu yüzden bu tür atölyelerde çalışma saatlerini işletmenin kendi trafiğine göre belirleriz.",
+                    "İşletmenizin sevkiyat programını (örneğin sabah erken saatlerde yoğun mu, öğleden sonra mı) bize bildirirseniz, bakım işini bu programın dışına kolayca yerleştiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Atölyemizin sevkiyat trafiği yoğun, iç mekân bakım işi bunu etkiler mi?",
+                cevap:
+                    "Etkilememesi için çalışma saatlerini işletmenizin kendi sevkiyat trafiğine göre planlarız; sevkiyatın en az olduğu saatleri bildirirseniz, bakım işini bu saatlere yerleştiririz. Bu, hem çalışanlarınızı hem malzeme akışını en az etkileyen yöntemdir.",
+            },
+            {
+                soru: "Deponuzdaki raf aralıkları dar, hangi makine sınıfı gerekir?",
+                cevap:
+                    "Kompakt akülü makaslı sınıf, dar koridorlu depolarda en uygun seçimdir; kesin uygunluk için en dar koridorun genişliğini paylaşmanızı isteriz. Bu ölçü olmadan gönderilen bir makine sahada içeri giremeyebilir, bu yüzden bu bilgiyi talep aşamasında ayrıca sorarız.",
+            },
+            {
+                soru: "İdari binamızın bakımı için özel bir kısıt var mı?",
+                cevap:
+                    "Hayır, idari ve sosyal tesislerdeki iç mekân bakımı standart bir ofis bakımı gibi ele alınır ve enerji sektörünün özel risklerinden (toz, yüksek sıcaklık) bağımsızdır. Bu işlerde tarih esnekliği yüksektir; uygun bir tarihi bildirdiğinizde kolayca planlarız.",
+            },
+            {
+                soru: "İşimiz birkaç gün sürebilir, günlük çalışmayı bölebilir misiniz?",
+                cevap:
+                    "Evet, iç mekân işlerinin çoğunu birkaç saatlik veya bir günlük kısa bloklar hâlinde tamamlıyoruz; bu, işletmenizin günlük işleyişini bölmeden bakım yapılmasını sağlar. İşin kapsamı büyükse, bu blokları birkaç güne yayarak planlarız.",
+            },
+            {
+                soru: "Akülü platform kapalı mekânda ne kadar süre kesintisiz çalışabilir?",
+                cevap:
+                    "Bu, makinenin modeline ve kullanım yoğunluğuna göre değişir; genel olarak tam bir iş gününü kapsayacak şekilde planlanır. Şarj durumu operatörümüz tarafından takip edilir; uzun süreli işlerde gerekirse kısa bir şarj molası verilir, bu iş programına önceden dahil edilir.",
+            },
+            {
+                soru: "Sosyal tesis salonunda etkinlik varken bakım yapabilir misiniz?",
+                cevap:
+                    "Bu tür işleri salonun kullanım dışı olduğu saatlere planlarız; etkinlik takviminizi önceden paylaşırsanız, bakım işini bu takvimle çakışmayacak şekilde ayarlarız. Acil bir işiniz varsa, etkinlik dışındaki en yakın uygun saati birlikte buluruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın linyit-termik santral yan sanayisindeki yedek parça atölyesi ve idari-sosyal tesis profili kamuya açık genel sanayi bilgisidir; işletme adı ve rakam kullanılmamıştır. Koridor ölçüsü ve sevkiyat trafiği uyumlu planlama firma pratiğidir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Kütahya Enerji Sahalarında Çelik Konstrüksiyon Montaj Platformu",
+        giris:
+            "Linyit ocağı destek tesisleri ve termik santral sahaları, geniş çelik konstrüksiyon yapılarıyla doludur: bant konveyör köprüleri, eleme-yıkama tesisi çelik iskeletleri, kazan dairesi çevresindeki taşıyıcı sistemler. Bu yapıların montaj kontrolü, cıvata sıkma denetimi ve yerinde küçük çelik ekleme işleri, yüksekte ve genellikle dar aralıklı bir çelik ağın içinde yapılır. Bu sayfa, çelik konstrüksiyon montaj platformu hizmetimizin bu sahalarda nasıl kullanıldığını ve hangi makine sınıfının hangi yapı tipine uygun olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Bant konveyör köprülerinde montaj ve kontrol erişimi",
+                metin:
+                    "Ocaktan santrale kömür taşıyan bant konveyör köprüleri, kilometrelerce uzanan çelik yapılardır; bu yapıların montaj kontrolü ve periyodik cıvata-kaynak denetimi, köprü boyunca dağılmış çok sayıda noktada yapılır. Bu noktalara erişim genellikle kompakt eklemli platformlarla sağlanır; galeri içindeki dar geçişlerde makine boyu ve dönüş yarıçapı önceden değerlendirilir.",
+            },
+            {
+                baslik: "Eleme-yıkama tesisi çelik iskeletinde çok kotlu çalışma",
+                metin:
+                    "Eleme-yıkama tesislerinin çelik iskeleti, farklı kotlarda platformlar ve merdivenlerle birbirine bağlıdır; montaj sırasında farklı yükseklikteki kirişlere erişim gerekir. Bu tür çok kotlu yapılarda teleskopik veya eklemli platform, kotlar arası geçişi tek makineyle sağlayarak ayrı iskele kurulumuna göre belirgin zaman kazandırır.",
+            },
+            {
+                baslik: "Kazan dairesi çevresi taşıyıcı sistem denetimi",
+                metin:
+                    "Kazan dairesinin çevresindeki ağır çelik taşıyıcı sistemler, yüksek sıcaklık ve titreşime maruz kaldığı için periyodik denetim gerektirir; bu denetim genellikle santralin planlı duruş dönemine denk getirilir çünkü tam kapasite çalışan bir kazan çevresinde platformla yakın mesafe çalışması güvenlik açısından uygun değildir.",
+            },
+            {
+                baslik: "Yerinde küçük çelik ekleme ve kaynak destek işleri",
+                metin:
+                    "Bazı bakım işlerinde mevcut çelik yapıya küçük bir destek elemanı veya platform eklenmesi gerekebilir; bu tür işlerde platform hem erişim hem de kaynakçının malzeme ve ekipmanını taşıma amacıyla kullanılır. Kaynak işlemi sırasında yangın riski nedeniyle çevredeki yanıcı malzeme önceden uzaklaştırılır ve bir yangın gözcüsü bulundurulur.",
+            },
+            {
+                baslik: "Zemin ve konum kısıtlarına göre makine seçimi",
+                metin:
+                    "Çelik konstrüksiyon işlerinin bir kısmı açık sahada (dolgu zemin), bir kısmı ise kapalı galeri veya bina içinde (beton zemin) geçer; bu fark, dizel arazi tipi ile akülü kompakt sınıf arasındaki seçimi belirler. Zemin ve konum bilgisi keşifte netleştirilir, doğru sınıf önceden önerilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji sahalarında çelik yapı tipine göre platform seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı çelik konstrüksiyon yapı tiplerinde platform seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı tipi", "Erişim zorluğu", "Makine tercihi", "Zamanlama"],
+                    satirlar: [
+                        ["Bant konveyör köprüsü", "Dar galeri, uzun hat", "Kompakt eklemli", "Bant durdurma penceresi"],
+                        ["Eleme-yıkama iskeleti", "Çok kotlu", "Teleskopik/eklemli", "Standart mesai"],
+                        ["Kazan dairesi çevresi", "Sıcaklık, yoğun ağ", "Kompakt, ısıl korumalı", "Planlı duruş"],
+                        ["Açık saha çelik yapı", "Dolgu zemin", "Arazi tipi dizel", "Hava koşullu"],
+                        ["Kapalı galeri/bina içi", "Beton zemin, egzoz kısıtı", "Akülü kompakt", "Esnek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tek makineyle çok kotlu erişimin avantajı",
+                paragraflar: [
+                    "Eleme-yıkama tesisi gibi çok kotlu çelik yapılarda, her kot için ayrı bir iskele kurulumu hem zaman hem maliyet açısından verimsizdir; teleskopik veya eklemli bir platform, operatörün kumandasıyla farklı kotlara sırayla erişebilir. Bu, özellikle kısa süreli denetim işlerinde belirgin bir zaman avantajı sağlar.",
+                    "Kotlar arasındaki geçiş sırasını önceden planlamak, işin toplam süresini daha da kısaltır; bu planlama, denetim listesinin kot bazında önceden gruplanmasıyla yapılır.",
+                ],
+            },
+            {
+                baslik: "Duruş dönemine bağlı denetim programı",
+                paragraflar: [
+                    "Kazan dairesi çevresi gibi yüksek riskli çelik yapıların denetimi, santralin planlı duruş dönemine sıkıştırıldığı için bu dönemde iş yoğunluğu artar; bu yoğunlukta makinenin duruş başlamadan sahada hazır olması, denetimin zamanında bitmesini belirler. Duruş takviminiz varsa, bu tarihi erken paylaşmanız makine ayırmamızı kolaylaştırır.",
+                    "Kısa süren duruşlarda birden fazla denetim noktasını paralel yürütmek için birden fazla makine göndermeyi de değerlendirebiliriz; bu karar duruş süresine ve kalem sayısına göre verilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bant konveyör köprüsünün cıvata denetimi için hangi makine gerekir?",
+                cevap:
+                    "Köprü galerisi genellikle dar olduğu için kompakt eklemli platform öneririz; bu sınıf dönüş yarıçapı düşük olduğu için dar geçişlerde rahat manevra yapar. Galerinin genişliğini ve bandın durdurulup durdurulamayacağını önceden bilirsek, çalışmayı bant durdurma penceresine göre planlarız.",
+            },
+            {
+                soru: "Eleme-yıkama tesisimizin farklı kotlarındaki işi tek seferde bitirebilir misiniz?",
+                cevap:
+                    "Genellikle evet; teleskopik veya eklemli bir platform, operatör kumandasıyla farklı kotlara sırayla erişebilir, bu da ayrı iskele kurulumuna göre belirgin zaman kazandırır. Denetim listenizi kot bazında önceden gruplarsanız, sırayı bu gruplamaya göre planlar ve gereksiz yer değiştirmeyi önleriz.",
+            },
+            {
+                soru: "Kazan dairesi çevresindeki çelik denetimi santral çalışırken yapılabilir mi?",
+                cevap:
+                    "Genellikle hayır; tam kapasite çalışan bir kazan çevresinde platformla yakın mesafe çalışması güvenlik açısından uygun değildir, bu yüzden bu tür işler santralin planlı duruş dönemine denk getirilir. Duruş tarihinizi bildirirseniz, işi bu döneme göre planlarız.",
+            },
+            {
+                soru: "Yerinde kaynak işi sırasında güvenlik önlemi nasıl alınıyor?",
+                cevap:
+                    "Kaynak işlemi sırasında çevredeki yanıcı malzeme önceden uzaklaştırılır ve bir yangın gözcüsü bulundurulur; bu, standart bir güvenlik protokolüdür ve tesisin kendi yangın güvenliği kurallarıyla birlikte uygulanır. Kaynak işinin kapsamını önceden bildirirseniz, gerekli önlemleri sahaya gelmeden planlarız.",
+            },
+            {
+                soru: "Açık sahadaki çelik yapı işimizde zemin dolgu, bu makine seçimini nasıl etkiler?",
+                cevap:
+                    "Dolgu zeminlerde dizel arazi tipi platform tercih edilir çünkü standart lastikler bu tür yüzeylerde yeterli tutunma sağlamayabilir. Zemin durumunu keşifte birlikte değerlendirir, gerekirse yük dağıtım plakası veya benzer bir önlem öneririz.",
+            },
+            {
+                soru: "Duruş dönemimiz kısa, birden fazla denetim noktasını paralel yürütebilir misiniz?",
+                cevap:
+                    "Evet, bunu duruş işlerinde sık uyguluyoruz; denetim listesi kot ve konuma göre bölünür, birbirinden bağımsız çalışabilecek gruplar ayrılır ve her gruba bir makine atanır. Bu, duruş süresini paralel kullanmayı sağlar; kalem sayınızı ve kotlarını paylaşırsanız uygun makine sayısını önereceğiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın linyit ocağı ve termik santral sahalarındaki bant konveyör köprüsü, eleme-yıkama tesisi ve kazan dairesi çevresi çelik konstrüksiyon yapıları kamuya açık genel tesis bilgisidir; tesis adı ve rakam kullanılmamıştır. Kot bazlı denetim planlaması ve duruş senkronizasyonu firma pratiğidir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Kütahya'da Tarım ve Silo Sahalarında Platform Kiralama — Enerji Hattı Bağlantılı Bölgeler",
+        giris:
+            "Kütahya'nın enerji ağırlıklı ekseni yanında, Gediz'in tarımsal depo-silo yapıları ve Simav'ın jeotermal kaynaklı sera ısıtma sistemleri, ilin farklı ama enerji hattıyla dolaylı olarak kesişen iki tarımsal profilini oluşturur. Bu sayfa, bu iki farklı tarımsal-enerji kesişimini birbirine karıştırmadan, her birinin kendi mevsim ve zemin koşuluna göre platform ihtiyacını anlatır.",
+        maddeler: [
+            {
+                baslik: "Gediz'de hububat-meyve deposu çatı ve havalandırma bakımı",
+                metin:
+                    "Gediz'deki tarımsal depoların çatı-oluk onarımı, aydınlatma ve havalandırma bakımı standart bir kırsal yapı bakımıdır; bu işler enerji hattındaki sevkiyat yoğunluğundan bağımsız, kendi hasat ve depolama mevsimine göre planlanır. Depo çatıları genellikle hafif çelik konstrüksiyonlu olduğu için makine ağırlığı ve zemin taşıma gücü ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Silo yapılarında yükseklik ve dar erişim",
+                metin:
+                    "Tahıl siloları, dar tabanlı ve dikey yükselen yapılar olduğu için üst kısımlarındaki bakım (havalandırma bacası, aydınlatma, çatı kaplaması) genellikle teleskopik bomlu platformla yapılır; silo çevresindeki manevra alanı sınırlıysa kompakt bir sınıf tercih edilir. Silo dolu ya da boş olması, çevresindeki araç trafiğini ve dolayısıyla makinenin park noktasını etkileyebilir.",
+            },
+            {
+                baslik: "Simav'da sera ısıtma sisteminin jeotermal bağlantısı",
+                metin:
+                    "Simav'daki seraların bir kısmı jeotermal kaynaklı ısıtma sistemi kullanır; bu seraların çatı ve boru hattı bakımı, ısıtma sisteminin çalışma döneminin dışına (genellikle yaz ayları) planlanır. Sera yapıları hafif konstrüksiyonlu olduğu için makine ağırlığı ve zemin taşıma gücü standart bir sanayi holünden farklı şekilde değerlendirilir.",
+            },
+            {
+                baslik: "Mevsimsel takvimin enerji hattından bağımsızlığı",
+                metin:
+                    "Tarımsal depo ve sera işleri, santral ve ocak sahalarındaki üretim ve duruş takviminden bağımsız, kendi hasat/ısıtma sezonuna göre planlanır; bu iki takvimi karıştırmadan ayrı ayrı yönetiyoruz. Bir talep geldiğinde işin hangi takvime ait olduğunu netleştirerek doğru zamanlamayı baştan belirleriz.",
+            },
+            {
+                baslik: "Hafif konstrüksiyonlu yapılarda zemin ve ağırlık kontrolü",
+                metin:
+                    "Sera ve bazı tahıl deposu yapıları hafif çelik konstrüksiyonlu olduğu için, ağır bir makinenin yakınından geçmesi veya yanında park etmesi zemin basıncı açısından dikkat gerektirir; bu tür yapıların çevresinde çalışırken makine ağırlığı ve lastik izi genişliği önceden değerlendirilir, gerekirse daha hafif bir sınıf tercih edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya tarım-enerji kesişiminde platform kullanımı",
+                paragraflar: [
+                    "Aşağıdaki tablo, iki farklı tarımsal-enerji kesişiminde platform kullanımını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Bölge/yapı", "Enerji bağlantısı", "Zamanlama", "Makine notu"],
+                    satirlar: [
+                        ["Gediz tarımsal depo", "Yok, bağımsız", "Sezon dışı", "Standart, hafif zemin kontrolü"],
+                        ["Tahıl silosu", "Dolaylı (lojistik hat)", "Trafik dışı saat", "Teleskopik, kompakt manevra"],
+                        ["Simav jeotermal sera", "Doğrudan (ısıtma kaynağı)", "Isıtma dışı sezon (yaz)", "Hafif, zemin taşıma kontrolü"],
+                        ["Sera boru hattı", "Doğrudan", "Isıtma dışı sezon", "Standart akülü"],
+                        ["Depo idari yapı", "Yok", "Esnek", "Standart"],
+                    ],
+                },
+            },
+            {
+                baslik: "İki tarımsal profili ayrı tutmanın gerekliliği",
+                paragraflar: [
+                    "Gediz'in tarımsal deposu ile Simav'ın jeotermal seraları, aynı 'tarım' başlığı altında toplanabilir görünse de biri enerji hattından tamamen bağımsız, diğeri doğrudan jeotermal ısıtma kaynağına bağlıdır; bu fark bakım zamanlamasını belirler. Bir talep aldığımızda, işin hangi profile ait olduğunu netleştiririz — bu, doğru mevsim penceresini baştan belirler.",
+                    "Bu ayrımı yapmadan verilen bir tarih, sera işinde ısıtma sezonuyla çakışabilir veya depo işinde hasat yoğunluğuyla örtüşebilir; bu yüzden mevsim bilgisini talep formunda ayrıca sorarız.",
+                ],
+            },
+            {
+                baslik: "Hafif yapı çevresinde zemin basıncı yönetimi",
+                paragraflar: [
+                    "Sera ve bazı depo yapılarının çevresindeki zemin, ağır bir makinenin sürekli geçişine göre tasarlanmamıştır; bu yüzden bu tür sahalarda makine rotası önceden belirlenir ve mümkünse sabit bir güzergâh kullanılır, rastgele manevra yapılmaz. Zeminde yumuşak veya sulak bir bölge varsa bu bölgeden kaçınılır.",
+                    "Şüpheli bir zemin durumunda, çalışma öncesi kısa bir zemin kontrolü yapılır; gerekirse yük dağıtım önlemi eklenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gediz'deki deponuzun çatı bakımını hangi mevsimde yapmalıyız?",
+                cevap:
+                    "Hasat ve yoğun depolama döneminin dışına planlamanızı öneririz; bu dönemde depo trafiği düşük olduğu için hem makine bulunurluğu rahat olur hem işletmenizin işleyişi etkilenmez. Kesin bir mevsim penceresi belirlemek için sizin depolama takviminizi bilmemiz yeterli.",
+            },
+            {
+                soru: "Silo üstündeki havalandırma bacası bakımı için hangi makine sınıfı gerekir?",
+                cevap:
+                    "Silolar dar tabanlı ve dikey yükselen yapılar olduğu için genellikle teleskopik bomlu platform öneririz; çevredeki manevra alanı dar ise kompakt bir sınıfa geçeriz. Silonun yüksekliğini ve çevresindeki boş alanı paylaşırsanız, kesin sınıfı sahaya gelmeden belirleriz.",
+            },
+            {
+                soru: "Sera ısıtma sistemimiz jeotermal, bakımı ne zaman yapmalıyız?",
+                cevap:
+                    "Isıtma sisteminin çalışma döneminin dışına, genellikle yaz aylarına planlamanızı öneririz; bu dönemde sistem soğuk ve müdahaleye açıktır. Sera yapıları hafif konstrüksiyonlu olduğu için makine ağırlığını ve zemin taşıma gücünü ayrıca değerlendiririz.",
+            },
+            {
+                soru: "Depo ve sera işlerimiz enerji sektöründeki santral duruş takviminden etkilenir mi?",
+                cevap:
+                    "Hayır, bu işler santral ve ocak sahalarındaki üretim/duruş takviminden bağımsız, kendi mevsim döngüsüne göre planlanır. Bu iki takvimi karıştırmadan ayrı ayrı yönetiyoruz; talep aldığımızda hangi profile ait olduğunu netleştirip ona uygun zamanlamayı sunarız.",
+            },
+            {
+                soru: "Sera çevresindeki zemin yumuşak, makine batma riski var mı?",
+                cevap:
+                    "Böyle bir risk varsa, çalışma öncesi kısa bir zemin kontrolü yaparız ve gerekirse yük dağıtım plakası gibi bir önlem ekleriz. Makine rotasını önceden belirleyip sabit bir güzergâh kullanmak, rastgele manevradan kaynaklanan riski de azaltır.",
+            },
+            {
+                soru: "Gediz'deki işimizi Tavşanlı hattındaki bir sevkiyatla birleştirebilir misiniz?",
+                cevap:
+                    "Evet, güzergâh üzerindeyse mümkündür; merkez-Tavşanlı hattı Gediz çevresinden geçebildiği için işinizi tarih esnekliğiyle bu sevkiyata ekleyebiliriz. Bu, tekil sevkiyata göre maliyet avantajı sağlar; konumunuzu ve tercih ettiğiniz tarih aralığını verirseniz birlikte planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gediz'in tarımsal depo-silo yapıları ve Simav'ın jeotermal kaynaklı sera ısıtması kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Mevsim ayrımı ve zemin basıncı yönetimi firma pratiğidir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Kütahya'da Enerji ve Aydınlatma Bakım Platformu Hizmeti",
+        giris:
+            "Enerji ve aydınlatma bakımı, Kütahya'nın linyit-termik santral ve jeotermal hattındaki tüm saha tiplerinde ortak bir ihtiyaçtır; ama bu ihtiyacın somut karşılığı sahaya göre çok farklı görünür — santral sahasında baca dibi aydınlatma direği, ocak destek tesisinde bant hattı aydınlatması, idari binada standart çatı-cephe aydınlatması. Bu sayfa, enerji-aydınlatma bakım hizmetimizin bu farklı saha tiplerinde nasıl uygulandığını ve elektrik kesme-emniyet prosedürünün nasıl işlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Santral sahası aydınlatma direği ve armatür bakımı",
+                metin:
+                    "Termik santral sahasındaki aydınlatma direkleri, genellikle standart bir sanayi direğinden daha yüksek ve daha sağlam yapılıdır; armatür değişimi veya kablo kontrolü öncesinde direğin bağlı olduğu hattın enerjisinin kesildiği tesis yetkilisi tarafından doğrulanır. Bu doğrulama olmadan platform armatüre yaklaştırılmaz.",
+            },
+            {
+                baslik: "Bant hattı ve galeri aydınlatmasında enerji ayrımı",
+                metin:
+                    "Kömür taşıma bant sistemlerinin galeri aydınlatması, bandın kendisiyle aynı elektrik hattına bağlı olabilir; bu nedenle aydınlatma bakımı öncesinde hem aydınlatma hem bant hattının enerjisinin kilitli ve etiketli olduğu doğrulanır. Bu, standart bir sanayi holü aydınlatma bakımından daha sıkı bir enerji ayrımı prosedürüdür.",
+            },
+            {
+                baslik: "Elektrik hattı çevresinde güvenli mesafe",
+                metin:
+                    "Santral ve ocak sahalarında yüksek gerilim hatlarına yakın çalışma söz konusu olduğunda, platform ile hat arasındaki güvenli mesafe önceden belirlenir ve bu mesafe operatör brifinginde vurgulanır; hattın enerjili olup olmadığı bilinmiyorsa, tesis yetkilisinden bu bilgi alınmadan çalışma başlatılmaz.",
+            },
+            {
+                baslik: "İdari-sosyal tesislerde standart aydınlatma bakımı",
+                metin:
+                    "İdari büro ve personel sosyal tesislerindeki aydınlatma bakımı, santral-ocak sahasındaki yüksek gerilim risklerinden bağımsız, standart bir ofis aydınlatma bakımıdır; bu işlerde tarih esnekliği yüksektir ve enerji ayrımı prosedürü daha basittir (tek bir sigortanın kapatılması genellikle yeterlidir).",
+            },
+            {
+                baslik: "Gece çalışması gereken aydınlatma testleri",
+                metin:
+                    "Bazı aydınlatma bakım işlerinde (örneğin yeni armatürün ışık seviyesi kontrolü), işin gece saatlerinde test edilmesi gerekebilir; bu tür işler, sahanın gece güvenlik prosedürüne göre ayrıca planlanır ve genellikle ek bir refakatçi ataması istenir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji sahalarında aydınlatma bakım profili",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı saha tiplerinde aydınlatma-elektrik bakımının enerji ayrımı gereksinimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "Enerji ayrımı gereksinimi", "Zamanlama", "Makine notu"],
+                    satirlar: [
+                        ["Santral sahası direk/armatür", "Yüksek (tesis onayı şart)", "Tesis prosedürüne bağlı", "Yüksek erişim, teleskopik"],
+                        ["Bant galerisi aydınlatması", "Yüksek (kilitleme-etiketleme)", "Bant durdurma penceresi", "Kompakt eklemli"],
+                        ["Yüksek gerilim hattı çevresi", "Çok yüksek (mesafe kritik)", "Tesis onayı sonrası", "Güvenli mesafe korunur"],
+                        ["İdari-sosyal tesis", "Düşük (tek sigorta)", "Esnek", "Standart akülü"],
+                        ["Gece test çalışması", "Standart + refakatçi", "Gece saatleri", "Standart"],
+                    ],
+                },
+            },
+            {
+                baslik: "Enerji ayrımının değişmez ilk adım olması",
+                paragraflar: [
+                    "Aydınlatma ve elektrik bakımında, saha tipi ne olursa olsun ilk ve tartışmasız adım, çalışılacak hattın enerjisinin kesilip kesilmediğinin doğrulanmasıdır; bu doğrulama tesis yetkilisi veya işletmenin kendi elektrikçisi tarafından yapılır ve platform bu doğrulama tamamlanmadan armatüre veya kabloya yaklaştırılmaz.",
+                    "Bu kural, santral sahasında olduğu kadar standart bir idari binada da geçerlidir; tek fark, doğrulama sürecinin karmaşıklığı ve süresidir. Santral sahasında bu süreç saatler sürebilirken, idari binada dakikalar içinde tamamlanabilir.",
+                ],
+            },
+            {
+                baslik: "Yüksek gerilim hattı yakınında çalışma disiplini",
+                paragraflar: [
+                    "Yüksek gerilim hattına yakın bir aydınlatma bakım işinde, platformun hatta olan mesafesi işin en kritik parametresidir; bu mesafe, hattın gerilim seviyesine göre değişir ve tesis yetkilisinin belirlediği güvenlik mesafesine kesinlikle uyulur. Operatörümüz bu mesafeyi öncesinde bilir ve sahada bu sınırı aşmayacak şekilde konumlanır.",
+                    "Hattın enerjili olup olmadığından emin değilsek, bu bilgiyi tesis yetkilisinden almadan çalışmayı başlatmayız; bu, tartışmaya kapalı bir güvenlik kuralıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Santral sahasındaki aydınlatma direğinin bakımı için hangi izinler gerekir?",
+                cevap:
+                    "Direğin bağlı olduğu hattın enerjisinin kesildiğinin tesis yetkilisi tarafından doğrulanması, en önemli ve tartışmasız gerekliliktir; bu doğrulama olmadan çalışma başlamaz. Tesisin kendi iş izni prosedürü de genellikle bu sürece dahildir; süreyi baştan bildirirseniz, işi buna göre planlarız.",
+            },
+            {
+                soru: "Bant galerisi aydınlatmasının bakımını bant çalışırken yapabilir misiniz?",
+                cevap:
+                    "Hayır, aydınlatma bantla aynı hatta bağlı olabileceği için, hem aydınlatma hem bant hattının enerjisinin kilitli ve etiketli olduğu doğrulanmadan çalışmaya başlamayız. Bu doğrulama genellikle bandın kısa bir bakım penceresinde durdurulmasıyla sağlanır; bu pencereyi tesisle birlikte planlarız.",
+            },
+            {
+                soru: "Yüksek gerilim hattına ne kadar mesafede çalışabiliyorsunuz?",
+                cevap:
+                    "Kesin mesafe, hattın gerilim seviyesine göre değişir ve bu bilgiyi tesis yetkilisinden alırız; bu mesafeye operatörümüz sahada kesinlikle uyar. Hattın enerjili olup olmadığından emin değilsek, bu netleşmeden çalışmayı başlatmayız.",
+            },
+            {
+                soru: "İdari binamızın aydınlatma bakımı için santral seviyesinde bir izin süreci mi gerekiyor?",
+                cevap:
+                    "Hayır, idari ve sosyal tesislerdeki aydınlatma bakımı, standart bir ofis aydınlatma bakımı gibi ele alınır ve enerji ayrımı genellikle tek bir sigortanın kapatılmasıyla sağlanır. Bu işlerde tarih esnekliği yüksektir; uygun bir tarihi bildirdiğinizde kolayca planlarız.",
+            },
+            {
+                soru: "Gece aydınlatma testi yapabiliyor musunuz?",
+                cevap:
+                    "Evet, ışık seviyesi kontrolü gibi bazı testler gece saatlerinde yapılmak zorundadır; bu tür işler sahanın gece güvenlik prosedürüne göre ayrıca planlanır ve genellikle bir refakatçi ataması istenir. Test tarihini önceden bildirirseniz, gerekli hazırlığı tamamlarız.",
+            },
+            {
+                soru: "Aydınlatma bakımı sırasında elektrik kesintisi olursa ne olur, işiniz durur mu?",
+                cevap:
+                    "Beklenmedik bir kesinti sahadaki güvenlik prosedürünü etkilemez çünkü zaten çalıştığımız hattın enerjisi önceden kesilmiş ve doğrulanmıştır; ama sahadaki genel aydınlatma etkilenirse operatörümüz güvenlik açısından çalışmayı geçici olarak durdurabilir. Bu tür bir durumda tesis yetkilisiyle birlikte durumu değerlendirir, güvenli olduğunda devam ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın termik santral ve linyit ocağı sahalarındaki aydınlatma-elektrik altyapısının tesis onaylı enerji kesme prosedürüne tabi olduğu genel sanayi/santral güvenlik bilgisidir; tesis adı ve rakam kullanılmamıştır. Enerji ayrımı adımları ve mesafe disiplini firma pratiğidir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Kütahya Maden ve Santral Sahalarında Operatörlü Platform Kiralama",
+        giris:
+            "Linyit ocağı ve termik santral sahalarına giriş, standart bir sanayi tesisinden çok daha ağır bir iş güvenliği rejimine tabidir; bu sahalarda çalışacak platform operatörünün belge ve yeterlilik durumu, tesis giriş onayının ön koşuludur. Bu sayfa, Kütahya'nın enerji sahalarında operatörlü kiralamanın neden neredeyse zorunlu bir standart hâline geldiğini, hangi belgelerin hazır tutulduğunu ve operatör-tesis koordinasyonunun nasıl işlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Maden ve santral İSG rejiminin operatör seçimine etkisi",
+                metin:
+                    "Maden ve termik santral sahalarına giriş, giriş izinleri, iş izni formları, kilitleme-etiketleme uygulamaları ve gaz ölçümü gibi adımlar gerektirebilir; bu süreçlerin çoğu, sahada çalışacak kişinin (operatörün) bu prosedürlere aşina olmasını gerektirir. Bu nedenle bu tür sahalarda operatörsüz kiralama neredeyse hiç tercih edilmez; operatörlü kiralama standart hâle gelmiştir.",
+            },
+            {
+                baslik: "Operatör yeterlilik belgeleri ve tesis onayı",
+                metin:
+                    "Santral ve ocak sahaları, sahaya giren her operatörden geçerli bir yeterlilik belgesi (sertifika) ister; bizim operatör kadromuzun bu belgeleri hazır ve güncel tutulur, tesis talep ettiğinde anında iletilir. Bazı tesisler ayrıca kendi saha güvenlik eğitimini operatöre verir; bu eğitim genellikle sahaya ilk giriş öncesinde kısa bir oryantasyon şeklindedir.",
+            },
+            {
+                baslik: "Saha güvenlik prosedürüne operatör aşinalığı",
+                metin:
+                    "Enerji sahalarında çalışan operatörlerimiz, kilitleme-etiketleme doğrulaması, gaz ölçümü sonucu bekleme, refakatçi ataması gibi prosedürlere düzenli maruz kaldığı için bu adımları atlamadan uygular; bu deneyim, sahaya yeni giren bir operatöre göre işin daha hızlı ve güvenli ilerlemesini sağlar.",
+            },
+            {
+                baslik: "Karmaşık geometride operatör kararının önemi",
+                metin:
+                    "Kazan dairesi, bant galerisi gibi dar ve engelli alanlarda platformun doğru sırayla hareket ettirilmesi, sahayı önceden görmüş ve benzer geometrilerde çalışmış bir operatör gerektirir; bu tür işlerde operatörsüz kiralama, yeterli deneyimi olmayan bir kullanıcının makineyi bir engele sıkıştırma riskini artırır.",
+            },
+            {
+                baslik: "Standart iç mekân işlerinde operatörsüz seçenek",
+                metin:
+                    "İdari-sosyal tesis gibi standart risklerin bulunmadığı iç mekân işlerinde, uygun eğitimli personeliniz varsa operatörsüz kiralama da sunulur; bu tercih, işin niteliğine ve müşterinin kendi personel yeterliliğine bağlı olarak keşifte değerlendirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji sahalarında operatörlü/operatörsüz karar tablosu",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı saha tiplerinde operatörlü kiralamanın ne kadar zorunlu olduğunu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Saha tipi", "İSG rejimi ağırlığı", "Operatör tercihi", "Not"],
+                    satirlar: [
+                        ["Ocak destek tesisi", "Orta-yüksek", "Operatörlü önerilir", "Zemin/erişim deneyimi gerekir"],
+                        ["Santral kazan dairesi", "Çok yüksek", "Operatörlü zorunlu", "Tesis onayı gerektirir"],
+                        ["Bant galerisi", "Yüksek", "Operatörlü zorunlu", "Enerji ayrımı deneyimi"],
+                        ["İdari-sosyal tesis", "Düşük", "Operatörlü veya operatörsüz", "Müşteri personeli yeterliyse"],
+                        ["Jeotermal/kaplıca tesisi", "Orta (gaz riski)", "Operatörlü önerilir", "Emisyon prosedürü bilgisi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Belge hazırlığının teslimat hızına etkisi",
+                paragraflar: [
+                    "Santral ve ocak sahalarına giriş için istenen belge seti (operatör yeterlilik sertifikası, makine periyodik kontrol kayıtları, sigorta evrakları) tesis tarafından talep edildiği anda hazır olmalıdır; bu belgeleri her zaman güncel ve erişilebilir tutarız. Belgelerin eksik veya güncel olmaması, sahaya girişte beklenmedik bir gecikmeye yol açabilir.",
+                    "Tesisinizin özel bir belge formatı veya ek gereksinimi varsa, bunu bize önceden bildirmeniz, işin ilk gün sorunsuz başlamasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Operatörsüz kiralamada müşteri sorumluluğu",
+                paragraflar: [
+                    "Operatörsüz kiralama tercih edildiğinde, makineyi kullanacak personelin yeterlilik belgesi ve saha güvenlik eğitimi müşterinin sorumluluğundadır; biz bu durumda makinenin teknik durumunu ve temel kullanım brifingini eksiksiz veririz ama sahadaki operasyonel kararlar müşteri personeline aittir.",
+                    "Enerji sahalarında bu seçeneği nadiren öneririz çünkü sahaya özgü prosedürlere aşinalık, güvenlik açısından belirleyicidir; ama standart iç mekân işlerinde bu, müşterinin tercihine bırakılan makul bir seçenektir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Santral sahasında operatörsüz kiralama mümkün mü?",
+                cevap:
+                    "Genellikle önermiyoruz çünkü santral sahasındaki İSG rejimi (giriş izni, kilitleme-etiketleme, gaz ölçümü) sahaya aşina bir operatör gerektirir; tesis de çoğu zaman kendi güvenlik prosedürü gereği operatörlü kiralamayı tercih eder. Standart bir idari bina işiyse operatörsüz seçenek değerlendirilebilir.",
+            },
+            {
+                soru: "Operatörünüzün yeterlilik belgeleri tesise nasıl iletiliyor?",
+                cevap:
+                    "Operatör kadromuzun yeterlilik sertifikaları, makine periyodik kontrol kayıtları ve sigorta evrakları her zaman güncel ve hazır tutulur; tesis talep ettiğinde bu belgeleri anında iletiriz. Tesisinizin özel bir belge formatı varsa, bunu önceden bildirirseniz süreci hızlandırırız.",
+            },
+            {
+                soru: "Operatörümüz sahaya ilk kez giriyor, ek bir eğitim gerekir mi?",
+                cevap:
+                    "Bazı tesisler, sahaya ilk giren operatöre kısa bir oryantasyon eğitimi verir; bu, tesisin kendi prosedürüdür ve genellikle sahaya giriş gününde tamamlanır. Bu eğitimin süresini bilmiyorsak tesis yetkilisinden önceden öğrenir, işin zamanlamasına dahil ederiz.",
+            },
+            {
+                soru: "Kendi personelimiz operatörsüz kiralayabilir mi, hangi şartlar var?",
+                cevap:
+                    "Standart iç mekân işlerinde bu mümkündür; personelinizin geçerli bir kullanım yeterliliği olması ve tesisin bu tercihe izin vermesi gerekir. Sorumluluk bu durumda operasyonel açıdan müşteri personeline geçer; biz makinenin teknik durumunu ve temel kullanım brifingini eksiksiz veririz.",
+            },
+            {
+                soru: "Bant galerisi gibi dar alanlarda neden operatörlü kiralama öneriyorsunuz?",
+                cevap:
+                    "Bu tür alanlarda platformun doğru sırayla hareket ettirilmesi, benzer geometrilerde deneyimli bir operatör gerektirir; yeterli deneyimi olmayan bir kullanıcı makineyi bir engele sıkıştırabilir. Operatörlerimiz bu tür sahalara düzenli girdiği için riski önceden öngörüp önlem alır.",
+            },
+            {
+                soru: "Operatörlü kiralamada ücretlendirme nasıl değişiyor?",
+                cevap:
+                    "Operatörlü kiralamada, makine kirası dışında operatör hizmeti ayrı bir kalem olarak teklifte gösterilir; bu, işin süresine ve saha karmaşıklığına göre hesaplanır. İşinizin kapsamını verirseniz, operatörlü ve operatörsüz seçeneğin maliyet farkını size karşılaştırmalı gösteririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın linyit ocağı ve termik santral sahalarındaki ağır İSG rejimi (giriş izni, kilitleme-etiketleme) kamuya açık genel maden/santral güvenlik bilgisidir; tesis adı ve rakam kullanılmamıştır. Belge hazırlığı ve operatör-tesis koordinasyonu firma pratiğidir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Kütahya Enerji Hattında Çok Noktalı Rota Bakım Platformu",
+        giris:
+            "Kütahya'nın enerji ve destek sanayisi, tek bir noktada değil merkez-Tavşanlı-Seyitömer-Tunçbilek-Gediz-Simav-Bilecik-Uşak hattı boyunca dağılmış durumdadır; bu dağınık yapı, birden fazla saha için tek bir platform ve tek bir sevkiyat programıyla hizmet verilebilecek bir rota fırsatı da yaratır. Bu sayfa, çok noktalı rota bakım hizmetimizin bu enerji hattında nasıl kurgulandığını ve hangi işlerin bu modele uygun olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Hat üzerindeki birden fazla sahanın tek turda birleşimi",
+                metin:
+                    "Merkezden başlayan bir sevkiyat, Tavşanlı'daki bir santral işine, ardından Gediz'deki bir ara işe uğrayabilir; bu tür bir rota, her sahanın ayrı ayrı sevkiyatına göre belirgin bir zaman ve maliyet tasarrufu sağlar. Rota kurgusu, her sahanın tarih esnekliğine ve iş süresine göre önceden planlanır.",
+            },
+            {
+                baslik: "Farklı öncelik seviyesindeki işlerin aynı rotada dengelenmesi",
+                metin:
+                    "Santral ve ocak sahalarındaki acil çağrılar önceliklidir, ama bu öncelik rotadaki diğer standart işleri tamamen dışlamaz; rota planlanırken önce acil ve yüksek öncelikli duraklar sabitlenir, ardından esnek tarihli standart işler bu duraklar arasındaki boşluklara yerleştirilir.",
+            },
+            {
+                baslik: "Farklı enerji türlerinin (termik-jeotermal) aynı rotada yönetimi",
+                metin:
+                    "Tavşanlı'nın termik santral hattı ile Simav'ın jeotermal sahası farklı risk profillerine sahiptir; bir rota her ikisini de kapsıyorsa, operatör her sahaya özgü güvenlik brifingini ayrı ayrı alır. Bu, aynı günde veya aynı hafta içinde iki farklı enerji türüne hizmet verilmesini mümkün kılar.",
+            },
+            {
+                baslik: "OSB destek işletmelerinin ana hatta eklenmesi",
+                metin:
+                    "Bilecik ve Uşak OSB'lerindeki enerji sektörü tedarikçisi işletmelerin işleri, ana hattan bir sapma gerektirse de, aynı hafta içinde değerlendirildiğinde rotaya eklenebilir; bu, tekil sevkiyata göre maliyet avantajı sağlar ama sapma mesafesi rota süresini uzatabileceği için bu süre önceden hesaba katılır.",
+            },
+            {
+                baslik: "Rota planlamasında hava koşulu ve mevsim payı",
+                metin:
+                    "Kütahya platosunun kış iklimi, çok noktalı bir rotanın toplam süresini etkileyebilir; kar ve buzlanma riskinin yüksek olduğu günlerde rota süresine ekstra pay bırakılır veya bazı duraklar bir sonraki güne kaydırılır. Bu esneklik, rotadaki tüm müşterilere önceden bildirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya enerji hattında tipik rota kurgusu",
+                paragraflar: [
+                    "Aşağıdaki tablo, hattaki farklı durak tiplerinin rota içindeki önceliğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durak tipi", "Öncelik", "Tarih esnekliği", "Rotaya eklenme şekli"],
+                    satirlar: [
+                        ["Santral/ocak acil işi", "Çok yüksek", "Düşük", "Rota bu durağa göre kurulur"],
+                        ["Santral/ocak standart bakım", "Yüksek", "Orta", "Sabit duraklar arası"],
+                        ["Gediz/Bilecik ara iş", "Orta", "Yüksek", "Esnek tarihte eklenir"],
+                        ["Simav jeotermal işi", "Orta", "Orta (misafir sezonuna bağlı)", "Ayrı güvenlik brifingiyle"],
+                        ["Uşak OSB tedarikçi işi", "Değişken", "Orta", "Haftalık rota değerlendirmesi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Rota kurgusunun adım adım işleyişi",
+                paragraflar: [
+                    "Bir hafta için rota kurarken önce o hafta bildirilen acil ve yüksek öncelikli işler sabitlenir; bu işler genellikle santral ve ocak sahalarındandır. Ardından tarih esnekliği olan standart işler, bu sabit duraklar arasındaki coğrafi ve zamansal boşluklara yerleştirilir. Son olarak, sapma gerektiren OSB veya ara durak işleri, toplam rota süresine kattıkları ek zaman değerlendirilerek eklenir veya bir sonraki haftaya bırakılır.",
+                    "Bu süreç, müşterilere kesin bir tarih verilmeden önce tamamlanır; bu yüzden çok noktalı rotaya dahil edilmek isteyen müşterilerden işlerini mümkün olduğunca erken bildirmelerini isteriz.",
+                ],
+            },
+            {
+                baslik: "Farklı saha tiplerinde operatör hazırlığının yönetimi",
+                paragraflar: [
+                    "Aynı rotada bir termik santral durağı ile bir jeotermal saha durağı varsa, operatörümüz her durağa özgü güvenlik brifingini ayrı ayrı alır; bu, iki sahanın risklerinin (kömür tozu-baca sistemi ile sıcak akışkan-gaz emisyonu) birbirine karıştırılmamasını sağlar. Rotadaki her durağın kendi belge ve izin gereksinimi ayrı ayrı takip edilir.",
+                    "Bu çoklu hazırlık, rota süresine bir miktar ek zaman ekler ama güvenlik açısından atlanmaz; bu süre rota planına baştan dahil edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İşimizi çok noktalı rotaya nasıl dahil ettirebiliriz?",
+                cevap:
+                    "İşinizi mümkün olduğunca erken bildirmeniz ve tarihte esneklik bırakmanız yeterli; bu, işinizin uygun bir haftalık rotaya yerleştirilme şansını doğrudan artırır. Konumunuzu ve işin kapsamını verirseniz, en yakın uygun rotaya ekleyip size haber veririz.",
+            },
+            {
+                soru: "Rotadaki acil bir santral işi bizim işimizi geciktirir mi?",
+                cevap:
+                    "Geciktirebilir çünkü santral ve ocak sahalarındaki acil çağrılar rotada önceliklidir; ama rota kurgusu bu önceliği baştan hesaba kattığı için, standart işler genellikle makul bir bekleme süresiyle karşılanır. Acil bir durum olursa güncellemeyi anında paylaşırız.",
+            },
+            {
+                soru: "Aynı rotada hem termik santral hem jeotermal sahaya gidiliyorsa güvenlik nasıl yönetiliyor?",
+                cevap:
+                    "Operatörümüz her sahaya özgü güvenlik brifingini ayrı ayrı alır çünkü iki sahanın riskleri (kömür tozu-baca sistemi ile sıcak akışkan-gaz emisyonu) tamamen farklıdır. Bu ayrım rotanın planlama aşamasında netleştirilir; her durağın kendi belge ve izin gereksinimi ayrı takip edilir.",
+            },
+            {
+                soru: "Bilecik OSB'deki işimiz ana hattan sapma gerektiriyor, rotaya girer mi?",
+                cevap:
+                    "Girebilir; aynı hafta içinde değerlendirildiğinde bu sapma rotaya eklenebilir, ama sapma mesafesi toplam rota süresini uzatacağı için bu süre önceden hesaba katılır. Bu, tekil sevkiyata göre yine de maliyet avantajı sağlar; teklifte iki seçeneği karşılaştırmalı gösteririz.",
+            },
+            {
+                soru: "Kış aylarında rota süresi ne kadar uzayabilir?",
+                cevap:
+                    "Kar ve buzlanma riskinin yüksek olduğu günlerde rota süresine ekstra bir pay bırakırız veya bazı durakları bir sonraki güne kaydırırız; bu esnekliği rotadaki tüm müşterilere önceden bildiririz. Kesin bir gecikme tahmini vermek zor olsa da, en gerçekçi pencereyi baştan paylaşırız.",
+            },
+            {
+                soru: "Rotaya son anda eklenen bir işimiz olursa ne olur?",
+                cevap:
+                    "Rota zaten kurulmuşsa son anda eklenen bir iş, mevcut duraklar arasında boşluk varsa değerlendirilir; yoksa bir sonraki rotaya veya tekil sevkiyata yönlendiririz. Bu yüzden mümkün olduğunca erken bildirim, rotaya girme şansınızı artıran en önemli faktördür.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın merkez-Tavşanlı-Seyitömer-Tunçbilek-Gediz-Simav-Bilecik-Uşak enerji hattının coğrafi dağılımı ve platonun kış iklimi kamuya açık bölgesel bilgidir; işletme adı ve rakam kullanılmamıştır. Rota kurgu adımları ve çoklu güvenlik brifingi firma pratiğidir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Kütahya Linyit Ocağı ve Arazi Sahalarında Zor Zemin Platform Kiralama",
+        giris:
+            "Kütahya'nın linyit ocağı destek tesisleri ve bazı termik santral çevresi sahaları, standart bir sanayi holünün düz betonundan çok farklı bir zemin sunar: sıkıştırılmış dolgu, moloz karışımı, yağış sonrası aldatıcı hâle gelen açık arazi. Bu sayfa, zor zemin ve arazi koşullarında platform kiralama hizmetimizin bu sahalarda nasıl uygulandığını, hangi makine sınıfının hangi zemine uygun olduğunu ve park noktası seçiminin neden işin ilk adımı olduğunu anlatır.",
+        maddeler: [
+            {
+                baslik: "Ocak destek tesislerinde sıkıştırılmış dolgu zemin",
+                metin:
+                    "Linyit ocağının çevresinde kurulu bant konveyör köprüleri ve eleme-yıkama tesislerinin etrafındaki zemin genellikle sıkıştırılmış dolgu ve moloz karışımıdır; bu yüzeyler kuru havada sağlam görünse de yağış sonrası aldatıcı olabilir. Bu tür sahalarda arazi tipi (dört tekerlekten çekişli) lastikli makineler standart tercih olurken, gerektiğinde yük dağıtım plakası da kullanılır.",
+            },
+            {
+                baslik: "Park noktası seçimi işin ilk adımı",
+                metin:
+                    "Zor zemin sahalarında park noktası seçimi, işin en kritik ilk kararıdır; sıkıştırılmış dolgu ve moloz karışımı yüzeyler yağış sonrası özellikle aldatıcıdır. Park noktaları önceden belirlenir, şüpheli yerlerde yük dağıtım plakası serilir; operatör duruşta tereddüt varsa çalışmayı başlatmaz, nokta değiştirilir.",
+            },
+            {
+                baslik: "Açık arazide eğim ve stabilizatör kullanımı",
+                metin:
+                    "Bazı açık saha işlerinde zemin tamamen düz değildir; hafif eğimli yüzeylerde makinenin stabilizatör ayakları farklı kotlara ayrı ayrı ayarlanarak düzgün bir duruş sağlanır. Eğimin belirgin olduğu noktalarda, makinenin devrilme riskine karşı üretici sınırları kesinlikle aşılmaz; bu sınırın içinde kalan bir konum bulunamıyorsa iş farklı bir erişim açısıyla planlanır.",
+            },
+            {
+                baslik: "Yağmur sonrası zemin değerlendirmesi",
+                metin:
+                    "Kütahya'nın yüksek rakımlı platosunda yağış, açık arazi zeminini hızla değiştirebilir; bir gün önce sağlam görünen bir yüzey, yağış sonrası çamurlu ve kaygan hâle gelebilir. Bu yüzden yağışlı dönemlerde planlanan işlerde, sahaya varmadan önce zemin durumu telefonla teyit edilir ve gerekirse iş bir gün ertelenir.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi bilinmeyen sahalarda ön kontrol",
+                metin:
+                    "Yeni bir saha veya daha önce çalışılmamış bir bölge söz konusu olduğunda, zemin taşıma kapasitesi net değilse ağır bir makine doğrudan gönderilmez; bunun yerine kısa bir ön keşif yapılır veya tesis yetkilisinden zemin bilgisi istenir. Bu adım, sahada makinenin batması veya devrilmesi gibi ciddi bir riski baştan eler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kütahya'da zemin tipine göre makine seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, farklı zemin tiplerinde platform seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Risk", "Makine tercihi", "Ek önlem"],
+                    satirlar: [
+                        ["Sıkıştırılmış dolgu (kuru)", "Orta", "Arazi tipi lastikli", "Standart"],
+                        ["Dolgu/moloz (yağış sonrası)", "Yüksek", "Arazi tipi lastikli", "Yük dağıtım plakası"],
+                        ["Hafif eğimli açık saha", "Orta-yüksek", "Stabilizatör ayaklı", "Kot farkı ayarı"],
+                        ["Yeni/bilinmeyen saha", "Belirsiz", "Belirlenmeden önce ön keşif", "Zemin taşıma teyidi"],
+                        ["Standart sağlam beton", "Düşük", "Standart lastikli/akülü", "Yok"],
+                    ],
+                },
+            },
+            {
+                baslik: "Park noktası seçiminin sahadaki uygulaması",
+                paragraflar: [
+                    "Zor zemin sahalarında operatörümüz, işe başlamadan önce çalışma alanının çevresini yürüyerek kontrol eder ve zeminin görünüşte sağlam ama şüpheli olduğu noktaları belirler; bu noktalarda ya park yeri değiştirilir ya da yük dağıtım plakası serilir. Bu kontrol, sahaya her yeni gelişte tekrarlanır çünkü zemin durumu gün içinde (özellikle yağış sonrası) değişebilir.",
+                    "Bu yaklaşım, hız kaybı gibi görünse de, bir makinenin sahada batması veya devrilmesi durumunda oluşacak çok daha büyük bir gecikmeyi baştan önler.",
+                ],
+            },
+            {
+                baslik: "Yağışlı dönemde iş planlamasının esnekliği",
+                paragraflar: [
+                    "Kütahya'nın plato ikliminde yağışlı günler zemin koşulunu hızla değiştirebildiği için, açık arazi işlerinde kesin bir tarih yerine bir tarih aralığı önermeyi tercih ederiz; sahaya varmadan önce zemin durumunu telefonla teyit eder, gerekirse işi bir gün erteleriz.",
+                    "Acil bir iş varsa, zemin riskini göz önünde bulundurarak en güvenli erişim noktasını belirler ve mümkün olan en kısa sürede sahaya çıkarız; güvenlik konusunda bir taviz vermeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ocak destek tesisimizin zemini çok gevşek, makine devrilme riski taşır mı?",
+                cevap:
+                    "Zemin kontrol edilmeden çalışılırsa taşır; bu yüzden park noktası seçimi bu tür sahalarda işin ilk maddesidir. Sıkıştırılmış dolgu ve moloz karışımı yüzeyler yağış sonrası aldatıcı olabilir, park noktaları önceden belirlenir ve şüpheli yerlerde yük dağıtım plakası serilir. Operatör tereddüt varsa çalışmayı başlatmaz, nokta değiştirilir.",
+            },
+            {
+                soru: "Yağmurdan sonra sahaya gelebiliyor musunuz?",
+                cevap:
+                    "Gelebiliriz ama önce zemin durumunu telefonla teyit ederiz; bir gün önce sağlam görünen bir yüzey yağış sonrası çamurlu ve kaygan hâle gelebilir. Zemin riskli görünüyorsa işi bir gün erteleriz; bu, hem makinenin hem operatörün güvenliği için gerekli bir tedbirdir.",
+            },
+            {
+                soru: "Sahamızın zemin taşıma kapasitesini bilmiyoruz, doğrudan makine gönderir misiniz?",
+                cevap:
+                    "Bilinmeyen bir zeminde ağır bir makineyi doğrudan göndermeyiz; bunun yerine kısa bir ön keşif yaparız veya tesis yetkilisinden zemin bilgisi isteriz. Bu adım, sahada makinenin batması veya devrilmesi gibi ciddi bir riski baştan eler.",
+            },
+            {
+                soru: "Hafif eğimli bir arazide platform güvenli şekilde durabilir mi?",
+                cevap:
+                    "Stabilizatör ayaklarını farklı kotlara ayrı ayrı ayarlayarak düzgün bir duruş sağlarız; ama eğim üretici sınırlarını aşıyorsa bu konumda çalışmayız, farklı bir erişim açısı ararız. Sahanızın eğim durumunu önceden bilirsek, uygun makine ve konumu baştan öneririz.",
+            },
+            {
+                soru: "Arazi tipi makineniz standart bir platforma göre ne kadar farklı çalışıyor?",
+                cevap:
+                    "Arazi tipi makineler dört tekerlekten çekişli olduğu için dolgu ve moloz karışımı zeminlerde standart lastikli sınıfa göre belirgin şekilde daha iyi tutunma sağlar; ayrıca genellikle daha yüksek yer açıklığına sahiptir. Zemin durumunuzu bildiğinizde, bu iki sınıf arasındaki farkı işinize göre açıklarız.",
+            },
+            {
+                soru: "Zor zemin işlerinde ek bir ücret var mı?",
+                cevap:
+                    "Arazi tipi makine ve gerekiyorsa yük dağıtım plakası gibi ek önlemler, standart bir işe göre farklı bir maliyet kalemi oluşturabilir; bu farkı teklifte açıkça gösteririz, sahadan sonra sürpriz bir ek ücret çıkmaz. Zemin durumunuzu önceden paylaşırsanız, gerçekçi bir teklif baştan hazırlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kütahya'nın linyit ocağı destek tesislerindeki dolgu/moloz zemin yapısı ve platonun yağışlı-kış ikliminin zemin koşulunu etkilediği kamuya açık genel bölgesel bilgidir; tesis adı ve rakam kullanılmamıştır. Park noktası seçim disiplini ve zemin ön kontrolü firma pratiğidir.",
+    },
 };

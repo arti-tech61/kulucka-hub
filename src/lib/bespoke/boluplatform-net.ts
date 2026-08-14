@@ -934,4 +934,1099 @@ export const BOLUPLATFORM_NET: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Özgün içerik 2026-08-13 tarihinde hazırlandı. Yeniçağa'nın D-100/TEM koridoru üzerindeki konumu uygulama belgesinin genel çapasıdır. Belirli dinlenme tesisi, akaryakıt işletmesi, depo, trafik, kapasite, güzergâh, mesafe veya süre iddiası yoktur; trafik hücresi ve bildirimli kabul genel saha uygulamasıdır.",
     },
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HİZMET SAYFALARI (11 sabit slug — src/lib/hizmet-konulari.ts)
+    // Yazım: 2026-08-14. Bolu'nun otoyol/kavşak, orman ürünleri, deri OSB,
+    // tavukçuluk ve Kartalkaya kayak bölgesi bağlamı hizmet açısından işlenir.
+    // ═══════════════════════════════════════════════════════════════════
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bolu'da Sepetli / Örümcek Platform Kiralama",
+        giris:
+            "Örümcek platformun Bolu'daki en tipik iş alanı, standart bir makaslı veya eklemli platformun sığamayacağı dar açıklıklardır. Merkezin eski dokusundaki daracık sokaklar, kereste ve mobilya atölyelerinin dar avlu kapıları, deri OSB'deki üretim hatları arasına sıkışmış aralıklar ve otoyol kenarındaki tesislerin bina cephesine bitişik dar servis koridorları — bunların hepsi tekerlekli bir platformun giremeyeceği ama parçalara ayrılıp elle taşınabilen bir örümcek platformun rahatça çözdüğü işlerdir. Makine küçük parçalar hâlinde kapıdan içeri alınır, çalışma noktasının yakınında monte edilir ve iş bittiğinde aynı şekilde sökülüp çıkarılır. Bu yöntem hem tavan yüksekliği yeterli olmayan hem de manevra alanı dar olan mekânlarda tek gerçekçi çözümdür. Bolu'da bu tür talepler genellikle iki kaynaktan gelir: sanayi tesislerindeki dar bölümler ve merkezdeki tarihi ya da yoğun yapılaşmış sokaklardaki cephe işleri. Bu sayfa, örümcek platformun hangi işlerde standart platforma göre avantajlı olduğunu ve Bolu'nun kendine özgü dar erişim noktalarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Kapıdan sığmayan iş neden örümcek platformla çözülür",
+                metin:
+                    "Standart bir makaslı platformun şase genişliği bir metrenin altına inse bile taşıma yüksekliği ve dönüş yarıçapı bazı kapılardan geçmesine izin vermez. Örümcek platform bu sorunu farklı çözer: makine parçalara ayrılabilir gövdeyle üretilir, kapıdan tek tek geçirilir ve çalışma noktasının hemen yanında kurulur. Bolu'daki dar avlulu atölyelerde ve tarihi doku içindeki cephe işlerinde bu, tek makul yoldur — kapı genişletmek ya da duvar kırmak yerine makineyi mekâna uydurmak daha ucuz ve daha hızlıdır.",
+            },
+            {
+                baslik: "Deri OSB'de raflar ve hatlar arasındaki dar aralık",
+                metin:
+                    "Gerede'deki deri ihtisas organize sanayi bölgesinde bazı işlem hatları birbirine çok yakın kurulmuştur; hat arası boşluk standart bir platformun manevra yapmasına yetmez. Bu tür aralıklarda örümcek platform, gövdesi küçük parçalara ayrılarak hatlar arasına taşınır ve orada monte edilir. Islak ve dar bir zeminde çalışıldığı için makinenin ayakları geniş bir yük dağıtım tabanına oturtulur; bu, dar alanda dengeyi sağlayan temel önlemdir.",
+            },
+            {
+                baslik: "Merkezdeki tarihi doku ve cephe işleri",
+                metin:
+                    "Bolu merkezin eski mahallelerinde sokak genişliği araç geçişine göre değil yaya trafiğine göre şekillenmiştir; buraya büyük bir eklemli platform sokmak çoğu zaman mümkün değildir. Cephe boyası, tabela sökümü veya çatı oluğu onarımı gibi işlerde örümcek platform, sokağa park edilen bir araçtan indirilip yürüyerek çalışma noktasına taşınabilir. Bu, hem trafiği kesmeden hem komşu binalara zarar vermeden çalışmayı mümkün kılar.",
+            },
+            {
+                baslik: "Kurulum süresi ve iş planına etkisi",
+                metin:
+                    "Örümcek platformun parçalı yapısı bir avantaj getirirken bir de bedel getirir: kurulum ve söküm, tekerlekli bir makinenin sahaya sürülmesinden daha uzun sürer. Yarım saatlik bir iş için bu süre orantısız kalabilir; bu yüzden örümcek platform genellikle birden fazla dar noktayı olan işlerde ya da kurulumun bir kez yapılıp uzun süre kullanılacağı işlerde tercih edilir. Talep alırken işin süresini ve dar nokta sayısını sormamızın nedeni, doğru makineyi önermektir — bazen örümcek yerine küçük bir kompakt makaslı model daha hızlı sonuç verir.",
+            },
+            {
+                baslik: "Ağırlık taşıma kapasitesi ve zemin uyumu",
+                metin:
+                    "Örümcek platformlar hem lastik tekerlekli hem paletli gövdelerle bulunur; Bolu'daki açık saha işlerinde — kereste stok sahası kenarı, bahçe içi cephe işi — paletli versiyon zemin baskısını daha geniş bir alana yayar ve yumuşak zeminde batmayı önler. İç mekân işlerinde ise lastikli versiyon tercih edilir çünkü zemine iz bırakmaz. Zeminin cinsi ve eğimi teslim öncesi sorulur; bu bilgi olmadan doğru gövde tipini önermek mümkün değildir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bolu'da dar erişim tipi ve örümcek platform tercihi",
+                paragraflar: [
+                    "Aşağıdaki tablo, sahada en sık karşılaştığımız dar erişim tiplerini ve bunlara uygun örümcek platform yapılandırmasını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim tipi", "Tipik genişlik kısıtı", "Gövde tercihi", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Atölye avlu kapısı", "70-90 cm", "Lastikli, parçalı", "Kapı yüksekliği"],
+                        ["Deri OSB hat arası", "60-100 cm", "Lastikli, dar ayak izi", "Islak zemin, kavrama"],
+                        ["Tarihi sokak / cephe", "Yaya genişliği", "Lastikli, hafif gövde", "Kaldırım taşıma kapasitesi"],
+                        ["Kereste stok sahası kenarı", "Değişken", "Paletli", "Yumuşak zemin"],
+                        ["Bahçe / avlu içi cephe", "Kapı + döner köşe", "Lastikli, parçalı", "Manevra alanı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Parçalı taşımanın pratikteki karşılığı",
+                paragraflar: [
+                    "Örümcek platform sahaya bir kamyonet ya da küçük römorkla gelir ve makine oradan itibaren elle taşınır. Bu, teslimatın tekerlekli bir platform kadar hızlı olmadığı ama yerin izin vermediği durumlarda tek çözüm olduğu anlamına gelir. İş planlarken kurulum ve söküm süresini de kiralama süresine dahil etmeniz gerekir; yarım günlük bir işte bu süre toplam zamanın önemli bir kısmını alabilir.",
+                    "Bizim tarafımızdaki hazırlık, taşıma güzergâhını önceden görmektir — kaç kapı geçilecek, hangi noktalarda dönüş yapılacak, zemin nerede eğimli. Bu bilgi fotoğraf ve kısa bir video ile netleşir; sahaya gelindiğinde sürpriz bir dar nokta çıkmaz ve kurulum planlandığı sürede tamamlanır.",
+                ],
+            },
+            {
+                baslik: "Ne zaman örümcek, ne zaman kompakt makaslı",
+                paragraflar: [
+                    "Her dar alan işi örümcek platform gerektirmez. Kapı genişliği bir metre civarındaysa ve tavan yüksekliği fazla değilse, kompakt gövdeli akülü makaslı platform hem daha hızlı kurulur hem daha ekonomiktir. Örümcek platform, kapı bir metrenin altına indiğinde, birden fazla dar noktadan geçilmesi gerektiğinde veya çalışma noktasının kapıdan içeride uzun bir mesafede olduğunda öne çıkar.",
+                    "Bu ayrımı doğru yapmak, hem gereksiz kurulum süresinden hem yanlış makine göndermekten kaynaklanan gecikmeyi önler. Talebinizi verirken kapı ölçüsünü, tavan yüksekliğini ve çalışma noktasının konumunu paylaşırsanız, hangi gövdenin işe yarayacağını telefonda netleştirebiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platform ile makaslı platform arasındaki fark nedir?",
+                cevap:
+                    "Temel fark taşınma biçimidir. Makaslı platform tek parça hâlinde tekerlekleri üzerinde sürülerek çalışma noktasına gider; örümcek platform ise parçalara ayrılarak kapıdan geçirilir ve çalışma noktasının yanında monte edilir. Bu yüzden örümcek platform, makaslı platformun sığamayacağı dar kapı ve koridorlarda kullanılır. Çalışma yüksekliği ve sepet kapasitesi açısından iki tip de benzer aralıklarda bulunabilir; seçim, mekânın genişliğine göre yapılır. Kapı ve koridor ölçünüzü paylaşırsanız hangi tipin uygun olduğunu doğrudan söyleyebiliriz.",
+            },
+            {
+                soru: "Kurulum ne kadar sürer?",
+                cevap:
+                    "Süre, dar noktanın sayısına ve çalışma noktasının kapıdan uzaklığına bağlıdır; tek bir dar kapıdan geçip hemen ardında kurulacak bir iş kısa sürer, birden fazla dönüş ve mesafe içeren bir güzergâh daha uzun sürer. Bu yüzden teslim öncesi güzergâhı fotoğraf veya video ile görmemiz, kurulum süresini gerçekçi tahmin etmemizi sağlar. Kurulum süresi kiralama süresinin bir parçasıdır; kısa bir iş için örümcek platform tercih ediliyorsa bu süreyi plana dahil etmenizi öneririz.",
+            },
+            {
+                soru: "Deri OSB'deki dar hat aralığına makine sığar mı?",
+                cevap:
+                    "Sığması, hat arası net boşluğa ve makinenin monte edilmiş hâldeki ayak izine bağlıdır; bu ikisini karşılaştırmadan makine göndermeyiz. Islak zeminli hat aralarında ayaklar geniş bir tabana oturtulur ve kavrama önceden kontrol edilir. Ölçünüzü paylaştığınızda uygun gövdeyi ve ayak yapılandırmasını size söyleyebiliriz; ölçü net değilse sahaya çıkmadan önce kısa bir keşif önerilir.",
+            },
+            {
+                soru: "Tarihi sokakta çalışırken trafik ve yayalar nasıl yönetiliyor?",
+                cevap:
+                    "Makine sokağa parçalar hâlinde indirilir ve kurulum, yaya trafiğinin en az olduğu saatlere yazılır. Çalışma alanı geçici bariyerle ayrılır ve sepet açıkken altından yaya geçirilmez. Kaldırımın taşıma kapasitesi önceden kontrol edilir çünkü bazı tarihi zeminler ağır yük taşımaya uygun değildir. Sokağın genişliği ve zemin cinsi hakkında elinizdeki bilgiyi paylaşırsanız, çalışma saatini ve bariyer düzenini önceden netleştirebiliriz.",
+            },
+            {
+                soru: "Açık sahada, örneğin stok alanı kenarında kullanılabilir mi?",
+                cevap:
+                    "Kullanılabilir; açık ve yumuşak zeminlerde paletli gövde tercih edilir çünkü ayak baskısını daha geniş bir alana yayar ve zemine batmayı önler. Yağış sonrası yumuşayan zeminlerde çalışma öncesi zeminin durumu kontrol edilir; gerekiyorsa ayakların altına yük dağıtıcı plaka konulur. İç mekân işlerinde ise zemine iz bırakmaması için lastikli gövde kullanılır. Sahanızın zemin cinsini ve son günlerdeki hava durumunu paylaşırsanız doğru gövdeyi önerebiliriz.",
+            },
+            {
+                soru: "Operatör bizim tarafımızdan mı, sizin tarafınızdan mı sağlanır?",
+                cevap:
+                    "İkisi de mümkündür. Örümcek platform kurulumu standart bir platform teslimatından daha fazla teknik bilgi gerektirdiği için, ilk kullanımınızda operatörlü kiralamayı öneririz. Ekibiniz kurulum ve sökümü tecrübeyle öğrendikten sonra, belgeli personeliniz varsa makineyi operatörsüz de kiralayabilirsiniz. Her iki durumda da teslim sırasında kurulum adımları sahada birlikte gözden geçirilir ve güvenlik noktaları aktarılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu merkezin tarihi doku niteliği, Gerede'deki deri ihtisas organize sanayi bölgesi ve orman ürünleri sanayisinin dar avlulu atölye yapısı kamuya açık genel bilgidir; örümcek platform kurulum yöntemi ve gövde seçim mantığı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bolu'da Platform ve Vinç Nakliye - Teslimat Hizmeti",
+        giris:
+            "Bolu'nun nakliye açısından en belirleyici özelliği, TEM Otoyolu'nun il topraklarını tam ortadan ikiye bölmesidir. Bu tek gerçek, teslimat planlamasının neredeyse tamamını şekillendirir: standart sınıf makinelerde İstanbul ve Ankara yönünden gelen seferler ile ilin kendi merkezinden çıkan seferler aynı hat üzerinde birleşir ve bu, adreslerin çoğuna ulaşımı hızlandırır. Ancak bu avantajın iki net sınırı vardır ve ikisini de sözleşme öncesi açıkça söyleriz. Birincisi ağır ve büyük gövdeli ekipmandır — bunlar özel sevkiyat organizasyonu ister ve günlük sefer planına eklenemez. İkincisi kış mevsimidir — Bolu Dağı geçişindeki kar, buzlanma ve zaman zaman uygulanan zincir zorunluluğu, ağır araç trafiğini doğrudan etkiler ve teslim saatini değil teslim gününü taahhüt etmemizi gerektirir. Bu sayfa, Bolu'daki teslimat sürecinin nasıl işlediğini, hangi bilgilerin bize gerçekçi bir tarih verdirdiğini ve kış-yaz farkının planlamaya nasıl yansıdığını anlatır.",
+        maddeler: [
+            {
+                baslik: "TEM hattının standart sınıfa kazandırdığı hız",
+                metin:
+                    "TEM üzerindeki her sefer, güzergâhı boyunca Bolu'yu doğal bir durak noktası olarak geçer. Bu, standart sınıf makaslı ve eklemli platformlarda bekleme süresinin kısalmasına yol açar; talebiniz bir gün önceden iletildiğinde çoğu durumda ertesi sabah sahada olunur. Bu avantajın koşulu, adresinizin otoyol bağlantısına makul bir mesafede olmasıdır — hattan uzaklaştıkça sevkiyat, günlük sefer planına eklenen bir sapma değil, ayrı planlanan bir iş hâline gelir.",
+            },
+            {
+                baslik: "Ağır sınıf ekipmanda ayrı organizasyon",
+                metin:
+                    "Yüksek tonajlı platformlar ve vinçler, standart araçla taşınmaz; lowbed veya özel taşıyıcı gerektirir ve bu araçların bulunabilirliği günlük değil haftalık planlanır. Ağır ekipman talebinde ilk sorduğumuz şey, işin ne zaman başlaması gerektiğidir; bu süre önceden bilinirse taşıyıcı organizasyonu rahatlıkla tamamlanır. Son dakika taleplerinde ise dürüst olmayı tercih ederiz — gerçekçi olmayan bir tarih vermek yerine, taşıyıcının müsait olduğu en yakın günü söyleriz.",
+            },
+            {
+                baslik: "Bolu Dağı geçişi ve kış teslim taahhüdü",
+                metin:
+                    "Kasım-mart döneminde geçişteki kar, buzlanma veya sis, ağır araç trafiğini yavaşlatabilir ve bazı günlerde zincir zorunluluğu getirilebilir. Bu koşullar altında saat taahhüdü vermek gerçekçi değildir; bu yüzden kış aylarında gün taahhüdü verir, teslim sabahı güncel yol durumuyla saat teyidi yaparız. İş sahibi tarafındaki karşılığı basittir: kış teslimatlarını, makinenin sahada bir gün fazla kalabileceği varsayımıyla planlamak. Bu esneklik, koşulların bozulduğu bir günde işi iptal etmek yerine ertesi güne kaydırmayı mümkün kılar.",
+            },
+            {
+                baslik: "Teslim öncesi sahanın hazır olması",
+                metin:
+                    "Teslimatın süresini uzatan en sık neden, yolun değil sahanın hazır olmamasıdır. İndirme noktasının makinenin ağırlığını taşıyacak sağlamlıkta olması, kar mevsiminde kardan temizlenmiş ve buz tutmamış olması, gündüz teslim edilecekse geçiş güzergâhının araç trafiğine açık olması gerekir. Bu üç madde teslim öncesi telefonda birlikte gözden geçirilir; sahaya varan araç makineyi indiremediğinde kaybedilen zaman, ertesi sefere kadar sürebilir.",
+            },
+            {
+                baslik: "Geri alma ve sürenin doğru hesaplanması",
+                metin:
+                    "Nakliye yalnızca gidiş değil dönüş de içerir; kiralama süresi biterken makinenin ne zaman alınacağı da net olmalıdır. Bolu'da bu, özellikle hat üzerindeki tesislerde önemlidir çünkü aynı aracın dönüş seferine başka bir teslimat eklenebilir. İş bitiş tarihinizi bize önceden bildirmeniz, hem sizin için ek gün ücretini önler hem bizim için aracı bir sonraki işe zamanında yönlendirmemizi sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bolu'da makine sınıfına göre teslim süresi",
+                paragraflar: [
+                    "Aşağıdaki tablo, makine sınıfına göre tipik teslim süresini ve bu süreyi belirleyen ana koşulu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Makine sınıfı", "TEM hattına yakın adres", "Hattan uzak adres", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Kompakt makaslı", "Aynı gün / ertesi sabah", "1-2 gün", "Günlük sefer bulunabilirliği"],
+                        ["Akülü eklemli", "Ertesi sabah", "2 gün", "Şarj ve hazırlık süresi"],
+                        ["Dizel eklemli (büyük)", "1-2 gün", "2-3 gün", "Taşıyıcı araç uygunluğu"],
+                        ["Ağır sınıf / vinç", "Haftalık planlama", "Haftalık planlama", "Lowbed organizasyonu"],
+                        ["Kış dönemi (kasım-mart)", "Gün taahhüdü", "Gün taahhüdü", "Geçiş koşulu, sabah teyidi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Talep verirken paylaşmanız gereken bilgiler",
+                paragraflar: [
+                    "Gerçekçi bir teslim tarihi verebilmemiz için birkaç bilgiye ihtiyacımız var: adresinizin TEM Otoyolu'na yaklaşık uzaklığı, çalışma yüksekliği veya makine sınıfı, indirme noktasının zemin durumu ve varsa özel araç kabul saatleri. Bu bilgiler tam olduğunda, size verdiğimiz tarih bir tahmin değil, o günkü sefer planına dayanan gerçek bir taahhüttür.",
+                    "Eksik bilgiyle verilen erken bir tarih, sahada makinenin gecikmesi ya da yanlış sınıfın gönderilmesiyle sonuçlanabilir. Bu yüzden ilk görüşmede birkaç dakika daha fazla soru sormamız, teslimat gününde zaman kazandırır.",
+                ],
+            },
+            {
+                baslik: "Acil arıza teslimatı ile planlı teslimatın farkı",
+                paragraflar: [
+                    "Planlı bir bakım işinde teslim tarihini birkaç gün önceden netleştirir ve o tarihe sadık kalırız. Acil bir arızada ise mantık değişir: sevkiyat, koşulların elverdiği ilk fırsatta yapılır ve size verilen bilgi tahmin değil güncel durumdur — aracın konumu, geçişin o anki hâli, gerçekçi varış saati. Kış aylarında acil taleplerde yol durumu sürekli takip edilir ve değişiklik olduğunda hemen bilgi verilir.",
+                    "Bu ayrımı baştan yapmamızın nedeni, iki durumun farklı beklenti gerektirmesidir. Planlı işte tarihe güvenebilirsiniz; acil işte ise en hızlı ve en dürüst bilgiye güvenebilirsiniz. İkisi de bizim için aynı önceliktedir, sadece yönetim biçimleri farklıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bolu'ya ne kadar sürede makine gönderebiliyorsunuz?",
+                cevap:
+                    "Standart sınıf makinelerde, adresiniz TEM Otoyolu'na yakınsa ve talebiniz bir gün önceden iletilmişse, çoğu durumda ertesi sabah sahada oluruz. Adresiniz hattan uzaksa veya ağır sınıf bir makine istiyorsanız süre uzar ve bunu size baştan söyleriz. Kış aylarında bir değişken daha eklenir: Bolu Dağı geçişinin durumu. Böyle günlerde size iyimser bir saat değil, gerçekçi bir gün söyleriz ve teslim sabahı saati teyit ederiz.",
+            },
+            {
+                soru: "Kışın teslim saatini neden veremiyorsunuz?",
+                cevap:
+                    "Çünkü platform ve vinç taşıyan araçlar ağır araç sınıfındadır ve Bolu Dağı geçişindeki kar, buzlanma, sis veya zincir zorunluluğu bu araçların hızını doğrudan etkiler. Sabahtan verilen bir saat taahhüdü, koşullar değiştiğinde tutulamaz ve sahada bekleyen ekibinizin gününü boşa harcar. Bunun yerine gün taahhüdü verir, teslim sabahı güncel durumla saat teyidi yaparız — bu, iyimser bir söz vermekten daha dürüst bir yöntemdir.",
+            },
+            {
+                soru: "Ağır sınıf ekipman için ne kadar önceden haber vermeliyiz?",
+                cevap:
+                    "Mümkün olduğunca erken; ağır sınıf platform ve vinçler lowbed veya özel taşıyıcı gerektirir ve bu araçların planlaması günlük değil haftalık yapılır. İşinizin başlangıç tarihini bir hafta önceden bildirirseniz taşıyıcı organizasyonu rahatlıkla tamamlanır. Son dakika taleplerde de yardımcı olmaya çalışırız ama taşıyıcı müsaitliğine bağlı kalırız ve gerçekçi olmayan bir tarih vermeyiz.",
+            },
+            {
+                soru: "Teslim günü sahada neye hazır olmalıyız?",
+                cevap:
+                    "Üç şeye: indirme noktasının makinenin ağırlığını taşıyacak sağlamlıkta olması, kış aylarında bu noktanın kardan temizlenmiş ve buz tutmamış olması, ve araç sahaya girecekse geçiş güzergâhının açık olması. Bu üç madde teslim öncesi telefonda birlikte gözden geçirilir. Sahaya varan aracın makineyi indirememesi, en sık yaşanan ve en kolay önlenebilir gecikme nedenidir.",
+            },
+            {
+                soru: "Nakliye ücreti mesafeye göre mi hesaplanıyor?",
+                cevap:
+                    "Mesafe temel bileşendir ama tek etken değildir; makine sınıfı, taşıyıcı tipi ve adresin ana hatta uzaklığı da hesaba girer. TEM hattına yakın adreslerde standart sınıf makinelerde nakliye görece düşüktür çünkü mevcut sefer planına eklenebilir. Hattan uzak veya özel taşıyıcı gerektiren adreslerde nakliye ayrı hesaplanır. Adresinizi ve makine sınıfınızı paylaştığınızda net rakamı söyleyebiliriz.",
+            },
+            {
+                soru: "Aynı bölgede birden fazla adresimiz varsa nakliye tek seferde mi yapılıyor?",
+                cevap:
+                    "Adresleriniz aynı hat üzerinde veya birbirine yakınsa evet, tek sefere toplamak mümkündür ve bu hem sizin hem bizim için ekonomiktir. Bunun için taleplerinizi ayrı ayrı değil birlikte iletmeniz gerekir; ayrı ayrı gelen talepler ayrı sefer olarak planlanmak zorunda kalır. Talebinizi birleştirdiğinizde hem nakliye maliyeti düşer hem makinelerin sahada olacağı günler tek programda netleşir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM Otoyolu'nun Bolu'yu ortadan geçen güzergâhı ve Bolu Dağı geçişindeki kış koşullarının ağır araç trafiğini etkilemesi kamuya açık genel bilgidir; teslim süresi tablosu, saha hazırlık listesi ve acil-planlı teslimat ayrımı firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bolu'da Forklift ve İstifleme Kiralama",
+        giris:
+            "Bolu'da forklift talebi iki farklı sanayi kolundan yoğun biçimde gelir: orman ürünleri ve mobilya üretiminin kereste-palet trafiği, ile deri ve gıda sanayisinin depo-sevkiyat işleri. İki kolun da ortak noktası, forklift ihtiyacının platform kiralamasından farklı bir mantıkla işlemesidir — burada yükseklik değil, yük kapasitesi ve zemin uyumu belirleyicidir. Kereste atölyelerinde forklift, ham tomruk ve kesilmiş kereste paletlerini taşır; bu işlerde çatal aralığı ve kaldırma kapasitesi malzemenin ölçüsüne göre seçilir. Gerede'deki deri OSB ve gıda tesislerinde ise forklift, kapalı alan sevkiyatında kullanılır ve emisyon kısıtı nedeniyle çoğunlukla elektrikli modeller tercih edilir. Bu sayfa, Bolu'daki forklift taleplerinin tipik profilini, kapalı-açık alan ayrımını ve istifleme işlerinde dikkat edilen zemin-yük dengesini anlatır.",
+        maddeler: [
+            {
+                baslik: "Kereste ve palet trafiğinde kapasite seçimi",
+                metin:
+                    "Kereste ve mobilya atölyelerinde forklift talebi genellikle iki ölçüde toplanır: küçük parça palet taşıma ve büyük tomruk/kereste demeti kaldırma. Bu ikisi farklı kapasite sınıfı gerektirir; küçük paletler için standart kapasiteli bir forklift yeterliyken, ağır kereste demetleri için daha yüksek kaldırma kapasitesine sahip model gerekir. Talep alırken taşınacak yükün yaklaşık ağırlığını ve boyutunu sormamızın nedeni, doğru kapasiteyi önce belirleyip sahada güç yetmemesi riskini ortadan kaldırmaktır.",
+            },
+            {
+                baslik: "Deri OSB ve gıda tesislerinde elektrikli tercih",
+                metin:
+                    "Kapalı alanda çalışan tesislerde — deri işleme, gıda depolama, soğuk zincir — içten yanmalı forklift kullanılmaz; elektrikli modeller hem emisyon hem gürültü açısından zorunlu tercihtir. Bu tesislerde zemin genellikle perdahlı beton veya epoksi kaplıdır ve iz bırakmayan tekerlek istenir. Vardiya boyunca kesintisiz çalışma gerekiyorsa akü kapasitesi ve şarj noktası teslimat öncesi planlanır; aksi hâlde iş ortasında akü biter ve üretim akışı sekteye uğrar.",
+            },
+            {
+                baslik: "Açık sahada istifleme ve zemin uyumu",
+                metin:
+                    "Kereste stok sahaları gibi açık alanlarda zemin sıkıştırılmış toprak veya stabilizedir ve yağış sonrası yumuşayabilir. Bu zeminde standart dolgu lastikli forklift zorlanabilir; büyük havalı lastikli veya arazi tipi model tercih edilir. İstifleme yüksekliği arttıkça forklift devrilme riskine karşı yükün merkez ağırlığı ve zemin düzlüğü daha kritik hâle gelir — bu yüzden yüksek istifleme talep eden sahalarda zemin önceden kontrol edilir.",
+            },
+            {
+                baslik: "Rampa ve yükleme kapısı çalışması",
+                metin:
+                    "Depo ve antrepo yapılarında forklift, çoğunlukla yükleme rampası ile kamyon kasası arasındaki geçişte kullanılır. Rampa eğimi ve kot farkı, forklift seçiminde göz önünde bulundurulan bir diğer etkendir; dik rampalarda kaldırma kapasitesi düşebileceğinden bu bilgi baştan alınır. Yükleme kapısı çevresindeki trafik yoğunsa forklift çalışma saatinin, araç trafiğinin en az olduğu dilime yazılması önerilir.",
+            },
+            {
+                baslik: "Operatörlü ve operatörsüz kiralama farkı",
+                metin:
+                    "Forklift kullanacak kişinin ilgili belgeye sahip olması yasal bir gerekliliktir. Belgeli personeliniz varsa makine size teslim edilir ve kısa bir kullanım-güvenlik aktarımı yapılır. Belgeli personeliniz yoksa operatörlü kiralama tercih edilir. Bolu'daki tesislerin çoğu belirli marka ve kumanda düzenine alışkındır; farklı bir modelle çalışacaksanız teslim sırasındaki aktarımı atlamamanızı öneririz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bolu'da iş tipine göre forklift seçimi",
+                paragraflar: [
+                    "Tablo, sahada en sık karşılaştığımız iş tipini ve buna uygun forklift yapılandırmasını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Ortam", "Güç tipi", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Kereste / palet taşıma", "Açık saha", "Dizel / LPG", "Kapasite, lastik tipi"],
+                        ["Deri OSB sevkiyatı", "Kapalı alan", "Elektrikli", "Emisyon, zemin izi"],
+                        ["Gıda deposu istifleme", "Kapalı alan, hijyenik", "Elektrikli", "İz bırakmama, hijyen"],
+                        ["Yükleme rampası", "Yarı açık", "Dizel / elektrikli", "Rampa eğimi"],
+                        ["Yüksek raf istifleme", "Kapalı alan", "Elektrikli", "İstifleme yüksekliği, denge"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yük ölçüsü ve kapasite eşleşmesi neden önce sorulur",
+                paragraflar: [
+                    "Forklift kiralamasında en sık yaşanan aksaklık, kapasitesi yetersiz makinenin sahaya gönderilmesidir. Bu durum işi durdurur ve ikinci bir makine sevkiyatı gerektirir. Bunu önlemek için taşınacak en ağır yükün kilogram cinsinden ağırlığını ve çatal merkezine olan mesafesini talep aşamasında sormamız standart bir uygulamadır; forklift kapasitesi bu iki değere göre değişir ve ilan edilen maksimum kapasite her yük merkezinde geçerli olmayabilir.",
+                    "Kereste ve mobilya sektöründe yük ölçüsü genellikle bellidir ve tekrar eden işlerde bu bilgi bir kez netleştikten sonra sonraki taleplerde tekrar sorulmaz. Yeni bir yük tipi devreye girdiğinde ise bu bilgiyi yeniden almamız, doğru kapasiteyi ilk seferde göndermemizi sağlar.",
+                ],
+            },
+            {
+                baslik: "Kısa iş ile uzun kiralama arasındaki maliyet dengesi",
+                paragraflar: [
+                    "Forklift ihtiyacı genellikle tek seferlik değil, sürekli bir iş akışının parçasıdır — sevkiyat günleri, üretim dönemleri, mevsimsel yoğunluk. Bu yüzden Bolu'daki taleplerde günlük kiralamadan çok haftalık ve aylık düzen daha sık tercih edilir; süre uzadıkça günlük birim maliyet düşer ve tesis, makineyi kendi üretim takvimine göre kullanabilir.",
+                    "Tek seferlik kısa işlerde ise günlük kiralama daha mantıklıdır ama nakliye maliyetinin işin kendisinden büyük olmaması için, mümkünse aynı tesisteki başka forklift ihtiyaçlarını da aynı güne toplamanızı öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kereste demeti taşımak için hangi kapasitede forklift gerekir?",
+                cevap:
+                    "Bu, demetin ağırlığına ve çatal merkezine olan mesafesine bağlıdır; standart kapasiteli bir forklift her kereste demeti için yeterli olmayabilir. Talep alırken taşınacak en ağır demetin yaklaşık ağırlığını ve boyutunu sormamızın nedeni budur. Doğru kapasiteyi baştan belirlemek, sahada makinenin yetersiz kalıp işi durdurmasını önler. Ölçüyü tam bilmiyorsanız, benzer işlerde daha önce kullandığınız forklift kapasitesini söylemeniz de yeterli bir başlangıç noktasıdır.",
+            },
+            {
+                soru: "Deri OSB'deki tesisimizde dizel forklift kullanabilir miyiz?",
+                cevap:
+                    "Kapalı alanda çalışan tesislerde dizel forklift kullanılmaz; emisyon ve gürültü nedeniyle elektrikli modeller zorunlu tercihtir. Açık sahada, örneğin yükleme rampası dışındaki bir alanda dizel forklift kullanılabilir ama bu durumda da tesisin kendi güvenlik prosedürü belirleyicidir. Hangi alanda hangi güç tipinin kullanılacağını netleştirmek için çalışacağınız bölümü ve ortam koşulunu paylaşmanızı rica ederiz.",
+            },
+            {
+                soru: "Yumuşak zeminli stok sahamızda forklift batmadan çalışabilir mi?",
+                cevap:
+                    "Zeminin son durumuna bağlı olarak evet; ama standart dolgu lastikli bir forklift yerine büyük havalı lastikli veya arazi tipi model tercih edilir. Yağış sonrası yumuşamış zeminlerde çalışma öncesi zeminin kontrol edilmesi ve gerekiyorsa sıkıştırılması önerilir. Sahanızın son günlerdeki hava durumunu ve zemin cinsini paylaşırsanız, uygun lastik ve gövde tipini önceden netleştirebiliriz.",
+            },
+            {
+                soru: "Akü vardiya boyunca yeterli olur mu?",
+                cevap:
+                    "Vardiya süresine ve iş yoğunluğuna bağlıdır; tek vardiya sürekli çalışmada standart akü kapasitesi çoğunlukla yeterlidir. Çift vardiya veya kesintisiz çalışma gerekiyorsa akü kapasitesini ve şarj noktasının konumunu teslimat öncesi birlikte planlarız. Şarj için ayrılmış bir alan yoksa bunu size önceden sorarız; aksi hâlde iş ortasında akünün bitmesi üretim akışını durdurabilir.",
+            },
+            {
+                soru: "Rampa eğimi forklift seçimini nasıl etkiler?",
+                cevap:
+                    "Dik rampalarda forklift'in kaldırma kapasitesi düz zemine göre azalabilir; bu yüzden rampa eğimini ve kot farkını talep aşamasında sormamız önemlidir. Bazı durumlarda düz zeminde yeterli olan bir kapasite, rampada yetersiz kalabilir ve daha güçlü bir model gerekir. Rampanızın yaklaşık eğimini ve yükleme kapısı ile zemin arasındaki kot farkını paylaşırsanız, doğru kapasiteyi baştan belirleriz.",
+            },
+            {
+                soru: "Operatörsüz kiralama için ne gerekiyor?",
+                cevap:
+                    "Forklift kullanacak personelinizin ilgili belgeye sahip olması gerekir; bu yasal bir zorunluluktur. Belgeli personeliniz varsa makine size teslim edilir, kısa bir kullanım ve güvenlik aktarımı yapılır. Belgeniz yoksa veya belgeli personel bulunmuyorsa operatörlü kiralama önerilir. Her iki durumda da teslim sırasında makinenin kumanda düzeni ve güvenlik noktaları sahada birlikte gözden geçirilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun orman ürünleri-mobilya sanayisi ile Gerede'deki deri ihtisas organize sanayi bölgesinin varlığı kamuya açık genel bilgidir; kapasite-yük merkezi ilişkisi, zemin-lastik tipi eşleşmesi ve vardiya bazlı akü planlaması firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bolu'da Eklemli Platform (Boom) Kiralama",
+        giris:
+            "Eklemli platformun Bolu'daki en tipik kullanım alanı, sepetin düz yukarı değil yana ve öteye doğru uzanması gereken işlerdir: otoyol kenarındaki tesislerin yüksek tabela ve totemleri, kamu binalarının ve fabrikaların çıkıntılı cephe detayları, ağaç veya boru hattı gibi engellerin arkasındaki noktalar. Makaslı platform yalnız düz yukarı çıkarken, eklemli platform bomunu bükerek engelin üzerinden veya yanından hedefe ulaşır — bu farkı bilmeden yapılan yükseklik hesabı çoğu zaman yanlış makine seçimine yol açar. Bolu'da eklemli platform talebi en yoğun otoyol hattı üzerindeki dinlenme tesisleri, akaryakıt istasyonları ve sanayi tesislerinin dış cephe işlerinden gelir; bu adreslerin ortak özelliği hedefin bina sınırının dışına taşması ve makinenin tesisin kendi sahası içinden çalışmak zorunda olmasıdır. Bu sayfa, eklemli platformun ne zaman makaslı platforma göre doğru seçim olduğunu ve Bolu'daki tipik erişim engellerini anlatır.",
+        maddeler: [
+            {
+                baslik: "Erişim açısı: engelin arkasına ulaşmak",
+                metin:
+                    "Bir tabelanın önünde direk, saçak veya başka bir yapı varsa, makaslı platform sepeti düz yukarı çıkardığı için o engeli aşamaz. Eklemli platform ise bomunu önce yukarı, sonra yana bükerek hedefe yandan yaklaşır. Bolu'daki otoyol kenarı tesislerinde bu durum sık görülür — kanopi, tabela direği veya ağaç, doğrudan erişimi engeller ve eklemli platform bu engelleri aşan tek çözümdür.",
+            },
+            {
+                baslik: "TEM hattındaki tesislerde bom uzunluğu seçimi",
+                metin:
+                    "Otoyol kenarındaki dinlenme ve akaryakıt tesislerinde tabela ve totem yüksekliği çoğunlukla 12-18 metre bandındadır. Bu yükseklikte eklemli platform, makinenin kendisi yoldan uzakta dururken sepeti hedefe uzatabildiği için hem güvenlik hem konumlandırma açısından avantajlıdır. Makine hiçbir koşulda yol trafiğine açık alanda konumlanmaz; çalışma tesisin kendi sahası içinden yapılır ve bom uzunluğu buna göre seçilir.",
+            },
+            {
+                baslik: "Dizel ve akülü eklemli arasındaki tercih",
+                metin:
+                    "Açık sahada, örneğin tabela veya çatı işinde, dizel eklemli platform daha yüksek güç ve daha uzun bom sunar. Kapalı alanda — sanayi holü içi, depo tavanı — ise emisyon nedeniyle akülü eklemli model zorunludur. Bolu'daki taleplerde bu ayrım net biçimde ortam tipine göre yapılır; iş hem açık hem kapalı alanı kapsıyorsa, iki ayrı makine yerine tek akülü model tercih edilip açık alan işi de onunla tamamlanabilir mi diye önce değerlendirilir.",
+            },
+            {
+                baslik: "Rüzgâr sınırı ve açık sahada çalışma penceresi",
+                metin:
+                    "Eklemli platformlar, yükseklik arttıkça rüzgâra karşı makaslı platformdan daha hassastır çünkü bom uzadıkça sepetin salınımı büyür. Üreticinin belirlediği rüzgâr hızı sınırı aşıldığında çalışma durdurulur; bu, özellikle Bolu Dağı çevresindeki açık ve yüksek noktalarda dikkat edilen bir kuraldır. Açık sahada uzun bomlu bir iş planlarken hava durumunu önceden kontrol etmek, işin tek seferde tamamlanma olasılığını artırır.",
+            },
+            {
+                baslik: "Sanayi holü ve çelik konstrüksiyon cephesinde kullanım",
+                metin:
+                    "Bolu'daki sanayi holü ve çelik konstrüksiyon yapılarının cephe detayları — saçak altı, mahya, yan duvar üstü — çoğunlukla makaslı platformun ulaşamayacağı açılardadır. Eklemli platform, holün dışından bomunu cepheye doğru uzatarak bu noktalara erişir. Bu tür işlerde makinenin konumlanacağı zeminin düzlüğü ve taşıma kapasitesi, bom tam açıldığında oluşan yük dağılımı nedeniyle özellikle önemlidir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bolu'da hedefe göre eklemli platform seçimi",
+                paragraflar: [
+                    "Tablo, hedefin konumuna göre uygun bom tipini ve dikkat edilecek koşulu özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef konumu", "Erişim türü", "Bom tipi", "Dikkat edilecek koşul"],
+                    satirlar: [
+                        ["Yol kenarı tabela/totem", "Engelin yanından", "Dizel eklemli 16-20 m", "Rüzgâr sınırı"],
+                        ["Kanopi altı / üstü", "Yandan yaklaşım", "Dizel eklemli", "Zemin taşıma kapasitesi"],
+                        ["Sanayi holü cephesi", "Dışarıdan içeri uzanma", "Dizel eklemli", "Bom açıklığında zemin düzlüğü"],
+                        ["Depo tavanı (kapalı)", "Yukarı + yana", "Akülü eklemli", "Emisyon, kapı yüksekliği"],
+                        ["Ağaç/direk arkası hedef", "Engel aşımı", "Dizel/akülü eklemli", "Bom menzili"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı yerine eklemli seçmenin maliyeti",
+                paragraflar: [
+                    "Eklemli platform, aynı yükseklikteki bir makaslı platforma göre genellikle daha yüksek günlük kiralama bedeline sahiptir çünkü mekanik olarak daha karmaşık ve daha güçlü bir makinedir. Bu farkı göze almanın gerekçesi nettir: hedefe düz yukarıdan ulaşılamıyorsa makaslı platform işi çözemez, ne kadar ucuz olursa olsun. Doğru soru 'hangisi ucuz' değil 'hangisi hedefe ulaşabiliyor' sorusudur.",
+                    "Bazı işlerde ise ikisi de teknik olarak çalışabilir; bu durumda maliyet farkı devreye girer ve makaslı platform tercih edilir. Talebinizi verirken hedefin önündeki engelleri ve tesisin kendi saha kısıtlarını anlatmanız, doğru ve en ekonomik seçimi baştan yapmamızı sağlar.",
+                ],
+            },
+            {
+                baslik: "Kış ve mevsim penceresinde dış cephe işleri",
+                paragraflar: [
+                    "Eklemli platform ile yapılan dış cephe ve tabela işleri, hava koşullarına makaslı platform işlerinden daha duyarlıdır — hem rüzgâr sınırı hem uzun bomun zemine ilettiği yük nedeniyle. Bolu'da bu tür işler için en verimli pencere nisan-haziran ve eylül-ekim arasıdır; kış aylarında dış cephe eklemli platform işi yapılabilir ama zemin buzlanmasının ve rüzgârın kontrol edilmesi şarttır.",
+                    "Kar öncesi tamamlanması gereken tabela ve cephe işlerinde, eylül ayı içinde makine gününü planlamanızı öneririz. Ekim sonuna doğru hem hava penceresi daralır hem bölgedeki talep yoğunlaşır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tabelamızın önünde direk var; makaslı platform yeter mi?",
+                cevap:
+                    "Muhtemelen yetmez. Makaslı platform sepeti düz yukarı çıkardığı için önündeki engeli aşamaz. Eklemli platform ise bomunu yukarı ve yana bükerek engelin arkasından hedefe ulaşabilir. Tabelanızın önündeki engelin fotoğrafını ve yaklaşık mesafesini paylaşırsanız, hangi bom uzunluğunun yeterli olacağını netleştirebiliriz.",
+            },
+            {
+                soru: "Otoyol kenarındaki tesisimize eklemli platform nasıl konumlanır?",
+                cevap:
+                    "Makine her koşulda tesisin kendi sahası içinden çalışır; yol trafiğine açık alanda, bankette veya emniyet şeridinde konumlandırılmaz. Sahanız dar ve hedef yola yakınsa, çözüm makineyi zorlamak değil daha uzun bomlu bir model seçerek erişim açısını değiştirmektir. Sahanızın genişliğini ve hedefin yola olan mesafesini paylaşırsanız doğru bom uzunluğunu önerebiliriz.",
+            },
+            {
+                soru: "Kapalı sanayi holünde dizel eklemli kullanılabilir mi?",
+                cevap:
+                    "Kullanılmaz; kapalı alanlarda emisyon nedeniyle akülü eklemli platform tercih edilir. Holünüzün tavan yüksekliği ve kapı ölçüsü, uygun akülü modelin belirlenmesinde temel veridir. Hem iç hem dış cephe işi varsa, tek bir akülü modelin ikisini de karşılayıp karşılamayacağını değerlendirir, gerekiyorsa iki ayrı makine öneririz.",
+            },
+            {
+                soru: "Rüzgârlı günde çalışma durur mu?",
+                cevap:
+                    "Üreticinin belirlediği rüzgâr hızı sınırı aşıldığında evet, çalışma durdurulur; bu bom uzadıkça daha hassas hâle gelen bir güvenlik kuralıdır. Açık sahada uzun bomlu bir iş planlarken hava durumunu önceden kontrol ederiz ve rüzgârlı bir gün öngörülüyorsa işi ertesi güne almanızı öneririz. Acil olmayan işlerde bu esneklik, hem güvenli hem verimli bir çalışma sağlar.",
+            },
+            {
+                soru: "Bom açıkken zemin ne kadar sağlam olmalı?",
+                cevap:
+                    "Bom tam açıldığında makinenin ağırlık merkezi kayar ve zemine iletilen yük artar; bu yüzden konumlanacak zeminin düz ve makinenin ağırlığını taşıyacak sağlamlıkta olması gerekir. Yumuşak veya eğimli zeminlerde denge ayaklarının altına yük dağıtıcı plaka konulur. Sahanızın zemin cinsini ve varsa eğimini paylaşırsanız, gerekli önlemleri teslimat öncesi netleştiririz.",
+            },
+            {
+                soru: "Kar öncesi cephe işlerimizi ne zaman planlamalıyız?",
+                cevap:
+                    "Eylül ayı, dış cephe ve tabela işleri için en doğru dönemdir; ekim ortasından sonrası hem hava koşulu hem makine bulunabilirliği açısından zorlaşır. Bu dönemde bekleyen bütün dış cephe kalemlerinizi listeleyip tek bir makine gününe toplamanızı öneririz — ayrı ayrı çağrılan işler ayrı nakliye demektir, tek güne toplanmış işler tek nakliyedir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM Otoyolu kenarındaki tesis yoğunluğu ve otoyol trafiğinden ayrı çalışma alanı kuralı kamuya açık genel bilgi ve firma pratiği birleşimidir; bom tipi seçimi, rüzgâr sınırı ve mevsim penceresi planlaması firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Kartalkaya Kayak Bölgesi ve Otellerde İç Mekân Platform Kiralama",
+        giris:
+            "Bolu'nun yüksek kesimlerindeki Kartalkaya kayak bölgesi, ilin geri kalanından farklı bir bakım takvimine sahiptir: sezon başlamadan önce her konaklama tesisinin lobi, atrium, kapalı havuz, spor salonu ve ortak kullanım alanlarındaki yüksek tavan işleri bitmiş olmalıdır çünkü sezon açıldığında bu alanlar misafirle dolar ve platform çalışması artık mümkün değildir. İç mekân platform ihtiyacı burada standart bir depo bakımından farklı bir karaktere bürünür: tavan çoğunlukla dekoratif, zemin genellikle parke, mermer veya halı kaplıdır ve makinenin bu yüzeylere zarar vermeden çalışması beklenir. Aydınlatma armatürü değişimi, avize temizliği, cam tavan (varsa) kontrolü, havalandırma menfezi bakımı ve dekoratif tavan detaylarının onarımı bu tesislerdeki en sık tekrarlanan işlerdir. Bu sayfa, kayak bölgesindeki ve genel olarak Bolu'nun konaklama tesislerindeki iç mekân platform ihtiyacını, sezon dışı planlama mantığını ve misafirli alanda çalışmanın kurallarını anlatır.",
+        maddeler: [
+            {
+                baslik: "Sezon öncesi pencere: neden ekim-kasım kritik",
+                metin:
+                    "Kayak bölgesindeki tesislerde bakım takvimi kar mevsiminin açılışına göre geriye doğru kurulur. Ekim ve kasım ayları, hem hava koşullarının makineyi zorlamadığı hem tesisin henüz yoğun doluluğa girmediği son penceredir. Bu dönemde planlanmayan bir iş, sezon ortasında ya hiç yapılamaz ya da misafir trafiğini büyük ölçüde kısıtlayarak yapılabilir. Bu yüzden konaklama tesislerine önerimiz, yıllık iç mekân bakım listesini eylül sonunda çıkarıp tek bir makine dönemine toplamalarıdır.",
+            },
+            {
+                baslik: "Zemin koruması: parke, mermer ve halı",
+                metin:
+                    "Otel lobisi ve ortak alanlarda zemin genellikle hassas malzemelerle kaplıdır ve standart siyah lastikli bir makine iz bırakabilir. Bu tür alanlarda iz bırakmayan (beyaz dolgu) lastikli akülü makaslı platform kullanılır ve makinenin geçeceği güzergâha koruyucu örtü serilir. Halı kaplı alanlarda ek olarak makinenin ağırlığının halı altındaki zemine eşit dağılması için geniş taban plakaları tercih edilir. Bu hazırlık, teslimattan önce zemin tipine göre planlanır.",
+            },
+            {
+                baslik: "Atrium ve yüksek tavanlı ortak alanlarda çalışma",
+                metin:
+                    "Otellerin lobi ve atrium bölümleri, mimari olarak yüksek ve genellikle dekoratif tavana sahiptir; bu tavanlardaki aydınlatma, avize ve dekoratif eleman bakımı hassasiyet ister. Akülü makaslı veya kompakt eklemli platform, sesiz çalışması ve emisyon üretmemesi nedeniyle bu alanlarda tercih edilir. Çalışma sırasında sepetin altındaki mobilya ve dekoratif eşyalar geçici olarak kaldırılır veya korumaya alınır — bu, tesisin kendi ekibiyle koordine edilen bir adımdır.",
+            },
+            {
+                baslik: "Misafirli alanda çalışma alanı ayrımı",
+                metin:
+                    "Sezon içinde ya da tesis kısmen doluyken zorunlu bir iç mekân işi gerekiyorsa, çalışma alanı misafir hareketinden fiziksel olarak ayrılır ve mümkünse tesisin en sakin saatine — genellikle sabahın erken saatlerine — yazılır. Sepet açıkken çalışma alanının altından misafir geçirilmez ve alternatif bir geçiş güzergâhı tesis tarafından gösterilir. Bu düzen sağlanamıyorsa iş, tesisin uygun bulacağı bir sonraki döneme ertelenir.",
+            },
+            {
+                baslik: "Gece bırakma noktası ve makine görünürlüğü",
+                metin:
+                    "Konaklama tesislerinde makinenin geceyi geçireceği nokta önemlidir; misafir erişimine kapalı, korunaklı bir alanda bırakılmalıdır. Çoğu otelde teknik alan, servis avlusu veya kapalı otopark bölümü bu iş için uygundur. Makineyi her akşam sahadan çıkarıp sabah tekrar getirmek hem ekonomik değildir hem gereksiz nakliye yaratır; bu yüzden gece bırakma noktasını teslimat öncesi netleştirmek, iş süresini kısaltan basit ama etkili bir adımdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Otel ve tesis alanına göre platform seçimi",
+                paragraflar: [
+                    "Tablo, konaklama tesislerindeki tipik iç mekân alanlarını ve buna uygun makine tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Zemin", "Makine tercihi", "Ek önlem"],
+                    satirlar: [
+                        ["Lobi / atrium", "Mermer / parke", "Akülü makaslı, iz bırakmayan lastik", "Zemin koruyucu örtü"],
+                        ["Kapalı havuz alanı", "Seramik, nemli", "Akülü makaslı, kompakt", "Nem-elektrik güvenliği"],
+                        ["Spor salonu / SPA", "Parke / özel kaplama", "Akülü makaslı", "Zemin koruyucu, mobilya kaldırma"],
+                        ["Toplantı / balo salonu", "Halı", "Akülü makaslı, geniş taban", "Halı koruma plakası"],
+                        ["Servis koridoru / teknik alan", "Beton", "Kompakt akülü makaslı", "Dar koridor ölçüsü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon dışı bakımı tek makine dönemine toplamak",
+                paragraflar: [
+                    "Kayak bölgesindeki tesislerin çoğu, yıllık iç mekân bakım kalemlerini tek bir listede toplayıp sezon öncesi bir haftaya sığdırdığında hem maliyet hem koordinasyon açısından kazanır. Aydınlatma değişimi, avize temizliği, havalandırma menfezi kontrolü ve dekoratif tavan onarımı gibi işler aynı makine döneminde art arda yapılabilir; bu, ayrı ayrı çağrılan işlerin toplamından hem daha ucuz hem daha az kesintilidir.",
+                    "Bu planlamayı yapabilmek için tesisin bakım sorumlusuyla erken bir tarihte — tercihen yaz sonunda — görüşmeyi öneririz. Erken planlayan tesis hem istediği tarihi bulur hem sezon başlamadan önceki en sakin dönemde çalışma imkânı elde eder.",
+                ],
+            },
+            {
+                baslik: "Kış aylarında dış-iç mekân işleri arasındaki denge",
+                paragraflar: [
+                    "Bolu'nun yüksek kesimlerinde kış boyunca dış cephe ve çatı işleri hava koşulları nedeniyle sınırlıdır, ama iç mekân işleri bu dönemde rahatlıkla yapılabilir. Bu, kış aylarının aslında iç mekân bakımı için elverişli bir dönem olduğu anlamına gelir — dış işlerin ertelendiği haftalarda iç mekân kalemlerini planlamak, makine ve ekip kapasitesini boşa çıkarmaz.",
+                    "Kış döneminde bölgeye yapılan teslimatlarda tek değişken, Bolu Dağı geçişinin durumudur; bu yüzden kış aylarında saat değil gün taahhüdü verir, teslim sabahı güncel durumla saat teyidi yaparız. İç mekân işleri planlarken bir-iki günlük esneklik payı bırakmanız, kış lojistiğinin doğal bir parçasıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimizin mermer lobisinde platform kullanmak zemine zarar verir mi?",
+                cevap:
+                    "Doğru lastik ve hazırlıkla vermez. Standart siyah lastikli makineler mermer ve parke gibi hassas zeminlerde iz bırakabilir; bu yüzden bu tür alanlarda iz bırakmayan beyaz dolgu lastikli akülü makaslı platform kullanılır ve makinenin geçeceği güzergâha koruyucu örtü serilir. Zemininizin cinsini önceden paylaşırsanız, hazırlığı teslimattan önce tamamlarız ve sahada ek bir bekleme yaşanmaz.",
+            },
+            {
+                soru: "Sezon başlamadan önce ne zaman rezervasyon yapmalıyız?",
+                cevap:
+                    "Eylül sonu ile ekim başı arasında planlamanızı öneririz. Bu dönem hem hava koşullarının uygun olduğu hem tesisin henüz yoğun doluluğa girmediği son penceredir. Geç kalınan taleplerde hem hava riski artar hem bölgedeki makine bulunabilirliği daralır çünkü aynı dönemde birçok tesis benzer bakımı planlar. Yıllık bakım listenizi yaz sonunda çıkarıp bize iletmeniz, size istediğiniz tarihi bulma şansını yükseltir.",
+            },
+            {
+                soru: "Sezon içinde, tesis doluyken acil bir iç mekân işi yaptırabilir miyiz?",
+                cevap:
+                    "Yaptırabilirsiniz; koşul, çalışma alanının misafir hareketinden fiziksel olarak ayrılabilmesidir. Bu ayrım kurulamıyorsa iş, tesisin uygun bulacağı bir sonraki döneme ertelenir. Ayrım kurulabiliyorsa çalışma, tesisin en sakin saatine — genellikle sabahın erken saatlerine — yazılır ve alternatif bir geçiş güzergâhı gösterilir. Hangi seçeneğin uygun olduğunu, alanın planını ve misafir yoğunluğunuzu paylaştığınızda birlikte belirleriz.",
+            },
+            {
+                soru: "Makine geceyi otelin içinde mi geçiriyor?",
+                cevap:
+                    "Bu, teslimattan önce birlikte kararlaştırılır. Makine, misafir erişimine kapalı, korunaklı bir alanda bırakılmalıdır — teknik alan, servis avlusu veya kapalı otopark bölümü çoğu tesiste bu iş için uygundur. Makineyi her akşam sahadan çıkarıp sabah tekrar getirmek ekonomik değildir; gece bırakma noktasının önceden belirlenmesi, iş süresini ve nakliye maliyetini düşürür.",
+            },
+            {
+                soru: "Kapalı havuz alanında elektrikli makine kullanmak güvenli mi?",
+                cevap:
+                    "Doğru hazırlıkla güvenlidir. Kapalı havuz alanları nemli ortamdır ve makine seçiminde elektrik güvenliği öncelikli değerlendirilir; akülü modeller kullanılır ve makinenin elektrik bileşenleri nem koşuluna uygun olmalıdır. Zeminin ıslak olmadığından emin olunması, çalışma öncesi standart bir kontroldür. Havuz alanınızın nem ve havalandırma durumunu paylaşırsanız, uygun makineyi ve çalışma saatini birlikte netleştirebiliriz.",
+            },
+            {
+                soru: "Kış aylarında Kartalkaya bölgesine makine ne kadar sürede ulaşır?",
+                cevap:
+                    "Kasım-mart döneminde saat taahhüdü vermeyiz; gün taahhüdü verir, teslim sabahı Bolu Dağı geçişinin güncel durumuyla saat teyidi yaparız. Bunun nedeni dürüstlüktür — geçiş koşulları günlük değişebilir ve sabah verilen bir saat taahhüdü tutulamayabilir. İç mekân işleri kış boyunca rahatlıkla yapılabildiği için, dış hava koşulları elverişsiz olsa bile içeride planlanan bakım programı aksamaz; sadece teslim saatinde bir-iki günlük esneklik bırakmanızı öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kartalkaya'nın Bolu'nun yüksek kesimlerindeki kayak bölgesi olması ve bölgedeki konaklama tesislerinin sezonluk doluluk düzeni kamuya açık genel bilgidir; sezon dışı bakım penceresi, zemin koruma yöntemi ve misafirli alanda çalışma ayrımı firma pratiğidir. Tesis adı, kapasite ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bolu'da Çelik Konstrüksiyon Montaj Platformu Kiralama",
+        giris:
+            "Bolu'daki sanayi holleri, depo yapıları ve üretim tesisleri büyük ölçüde çelik konstrüksiyon sistemle inşa edilir; bu yapı tipi hem yeni montaj hem sonraki bakım döneminde yüksekte çalışma gerektirir. Montaj aşamasında platform, çatı aşık bağlantıları, mahya detayları, cephe kaplama panelleri ve vinç rayı kurulumunda kullanılır — bu işler genellikle bina henüz tamamlanmamışken, zemin düzensiz ve geçici olduğu bir dönemde yapılır. Bakım aşamasında ise ihtiyaç değişir: aydınlatma, yangın algılama hattı, sprinkler bakımı ve cephe kontrolü gibi işler, artık tamamlanmış ve kullanımda olan bir yapının içinde yürütülür. Bolu'da bu iki dönem arasındaki fark, makine seçiminde de kendini gösterir — inşaat aşamasında zemine uyum sağlayan, bakım aşamasında ise iz bırakmayan ve sessiz çalışan makineler tercih edilir. Bu sayfa, çelik konstrüksiyon montajının platform ihtiyacını inşaat ve bakım dönemleri açısından ayrı ayrı ele alır.",
+        maddeler: [
+            {
+                baslik: "İnşaat aşamasında düzensiz zemin",
+                metin:
+                    "Yapı henüz tamamlanmamışken saha zemini sıkıştırılmamış, moloz ve malzeme yığınlarıyla dolu olabilir. Bu koşulda tekerlekli standart platform yerine, düzensiz zeminde daha stabil çalışan eklemli veya paletli model tercih edilir. Denge ayakları açılacaksa altlarına yük dağıtıcı plaka konulması, çökme riskini önleyen temel bir adımdır. Zemin durumu teslim öncesi fotoğrafla değerlendirilir.",
+            },
+            {
+                baslik: "Çatı aşık ve mahya montajında yükseklik-erişim dengesi",
+                metin:
+                    "Çelik konstrüksiyon çatısındaki aşık bağlantıları ve mahya detayları, hem yükseklik hem erişim açısı gerektirir; bu iş genellikle eklemli platformla çözülür çünkü sepet, çatı eğimine göre farklı açılardan yaklaşabilmelidir. Çatı henüz kapatılmamışsa açık kirişler arasında çalışma dikkat gerektirir ve makine güzergâhı önceden planlanır — kirişin altına veya yakınına yanlış konumlanma, hem makineye hem yapıya risk oluşturur.",
+            },
+            {
+                baslik: "Vinç rayı ve köprü vinç montajı",
+                metin:
+                    "Sanayi hollerinde köprü vinç sistemi, üretim başlamadan önce monte edilir ve bu iş çatı altı seviyesinde uzun süreli platform kullanımı gerektirir. Vinç rayı montajı hassas ölçü kontrolü içerdiği için makine, aynı noktada uzun süre sabit kalabilmelidir; bu nedenle stabil ve geniş sepetli modeller tercih edilir. İş süresi genellikle günler sürdüğü için makine sahada bırakılır ve günlük değil haftalık kiralama düzeni kurulur.",
+            },
+            {
+                baslik: "Bakım döneminde tamamlanmış yapı içinde çalışma",
+                metin:
+                    "Yapı tamamlanıp kullanıma girdikten sonra platform ihtiyacı bakıma döner: aydınlatma armatürü değişimi, yangın algılama sensör kontrolü, sprinkler hattı bakımı, cephe kontrolü. Bu dönemde saha artık düzenli ve genellikle üretimde olduğu için makine, iz bırakmayan lastikli akülü model olarak seçilir ve çalışma, üretim akışını en az etkileyecek saatlere yazılır.",
+            },
+            {
+                baslik: "Cephe kaplama ve panel işlerinde dış erişim",
+                metin:
+                    "Çelik konstrüksiyon binaların dış cephe kaplaması — sandviç panel, trapez sac — montaj sonrası da onarım gerektirebilir; rüzgâr veya darbe sonucu deforme olan panel değişimi buna örnektir. Bu işler binanın dışından yapılır ve eklemli platform, panelin bulunduğu yüksekliğe ve açıya göre konumlanır. Bina çevresindeki zemin düzse standart eklemli platform yeterlidir; düzensizse paletli model tercih edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İnşaat ve bakım dönemine göre makine seçimi",
+                paragraflar: [
+                    "Tablo, çelik konstrüksiyon yapılarda işin hangi aşamasında hangi makine tipinin tercih edildiğini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş dönemi", "Tipik iş", "Zemin durumu", "Makine tercihi"],
+                    satirlar: [
+                        ["İnşaat / montaj", "Aşık, mahya, cephe panel", "Düzensiz, geçici", "Eklemli / paletli"],
+                        ["Vinç rayı montajı", "Köprü vinç kurulumu", "Kısmen tamamlanmış beton", "Geniş sepetli, stabil"],
+                        ["Bakım (kullanımda)", "Aydınlatma, sprinkler", "Tamamlanmış beton", "Akülü makaslı"],
+                        ["Cephe onarımı", "Panel değişimi", "Bina çevresi, açık", "Eklemli (dizel/akülü)"],
+                        ["Çatı altı kontrol", "Yangın algılama, aspiratör", "Kapalı, düz zemin", "Akülü eklemli"],
+                    ],
+                },
+            },
+            {
+                baslik: "Montaj takvimine göre kiralama süresi planlama",
+                paragraflar: [
+                    "Çelik konstrüksiyon montajında platform ihtiyacı nadiren tek günlüktür; aşık montajından cephe kaplamasına kadar birden fazla iş kalemi sırayla ilerler ve her biri platform gerektirebilir. Bu yüzden inşaat aşamasındaki taleplerde günlük kiralama yerine haftalık veya montaj süresine bağlı düzen daha ekonomiktir — makine sahada kalır, iş kalemleri sırayla tamamlanır ve her aşama için ayrı sevkiyat gerekmez.",
+                    "İnşaat takviminizi paylaştığınızda, hangi haftalarda platforma ihtiyaç duyacağınızı birlikte planlayabiliriz; bu, hem makine bulunabilirliğini garanti eder hem inşaat programınızın aksamamasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Kış aylarında açık şantiyede montaj kısıtları",
+                paragraflar: [
+                    "Henüz kapatılmamış bir çelik konstrüksiyon yapıda kış ayında çalışmak, hem hava koşulu hem zemin açısından ek risk taşır. Kar ve buzlanma, şantiye zeminini kaygan hâle getirir; rüzgâr, açık iskelet yapıda platformun rüzgâr sınırına daha çabuk ulaşmasına neden olur. Bu koşullarda çalışma, havanın elverişli olduğu saatlere sıkıştırılır ve zemin, makine konumlanmadan önce kontrol edilir.",
+                    "Mümkünse montaj takviminizde çatı kapatma işini kar mevsimi öncesine almanızı öneririz; kapalı bir yapıda hem iç mekân işleri hem kış ayları boyunca sürdürülebilir bakım çalışmaları çok daha az kısıtla ilerler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Henüz tamamlanmamış şantiyede platform güvenli mi?",
+                cevap:
+                    "Doğru makine ve zemin hazırlığıyla evet. İnşaat aşamasındaki düzensiz zeminlerde standart tekerlekli platform yerine eklemli veya paletli model tercih edilir; denge ayaklarının altına yük dağıtıcı plaka konulur. Açık kirişler arasında çalışılacaksa güzergâh önceden planlanır. Şantiyenizin o anki zemin durumunu fotoğrafla paylaşırsanız, uygun makine ve güvenlik önlemlerini teslimat öncesi netleştiririz.",
+            },
+            {
+                soru: "Vinç rayı montajı için platform ne kadar süre sahada kalmalı?",
+                cevap:
+                    "Bu, rayın uzunluğuna ve ölçü hassasiyetine bağlıdır; vinç rayı montajı genellikle günler süren, tek bir yerde sabit çalışma gerektiren bir iştir. Bu tür işlerde günlük kiralama yerine haftalık düzen daha ekonomiktir çünkü makine sahada kalır ve iş bittiğinde tek seferde geri alınır. Montaj planınızı paylaştığınızda, gerçekçi bir süre tahmini ve buna uygun kiralama düzeni önerebiliriz.",
+            },
+            {
+                soru: "Tamamlanmış üretim tesisimizde bakım için üretimi durdurmalı mıyız?",
+                cevap:
+                    "Genellikle durdurmanız gerekmez. Bakım aşamasında kullanılan akülü makaslı platform sessiz çalışır ve zemine iz bırakmaz; bu yüzden çalışma, üretim akışının en az etkilendiği saatlere veya bölgelere yazılabilir. Tesisinizin hangi saatlerde daha sakin olduğunu paylaşırsanız, bakım programını üretiminizi kesmeden kurabiliriz.",
+            },
+            {
+                soru: "Cephe panelinde hasar var; eklemli platform mu makaslı mı gerekir?",
+                cevap:
+                    "Panel binanın dışındaysa ve zemin bina çevresinde düzse eklemli platform tercih edilir çünkü sepeti hem yukarı hem yana hareket ettirerek panelin tam önüne konumlanabilir. Bina çevresindeki zemin düzensizse paletli eklemli model gerekir. Hasarın yerini ve bina çevresindeki zemin durumunu paylaşırsanız, doğru makineyi ve konumlandırma planını netleştirebiliriz.",
+            },
+            {
+                soru: "Kışın açık şantiyede montaj işine devam edebilir miyiz?",
+                cevap:
+                    "Edebilirsiniz ama planı farklı kurmak gerekir. Kar ve buzlanma zemin güvenliğini, rüzgâr ise açık iskelet yapıda platformun çalışma sınırını etkiler. Çalışma, havanın elverişli olduğu saatlere sıkıştırılır ve zemin her seferinde kontrol edilir. Acil olmayan montaj kalemlerinde önerimiz, mümkünse çatı kapatma işini kış öncesine almanız ve kalan işleri bahar penceresine bırakmanızdır.",
+            },
+            {
+                soru: "Aynı şantiyede birden fazla iş kalemi için tek makine yeter mi?",
+                cevap:
+                    "Çoğu zaman yeter; aşık montajı, mahya detayı ve cephe panel kontrolü benzer yükseklik bandındaysa tek makine dönemine toplanabilir. Dikkat edilecek nokta, işlerin farklı erişim açısı istemesidir — çatı içi bir iş ile bina dışından yapılacak bir cephe işi genellikle farklı makine tipi gerektirir. İnşaat takviminizdeki iş kalemlerini paylaşırsanız, hangilerinin tek makineyle hangilerinin ayrı sınıfla çözüleceğini birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'daki sanayi holü ve depo yapılarının çelik konstrüksiyon inşa tipi kamuya açık genel bilgidir; inşaat-bakım dönemi ayrımı, montaj takvimine göre kiralama süresi planlaması ve kış şantiyesi kısıtları firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bolu'da Tarım ve Silo Sahası Platform Kiralama",
+        giris:
+            "Bolu'nun kırsal kesimindeki tarımsal üretim, tahıl ve yem sektörü etrafında yoğunlaşır; bu üretim kolunun platform ihtiyacı, il genelindeki sanayi tesislerinden farklı bir profile sahiptir. Yem üretim ve depolama üniteleri, tahıl silobaşları, kurutma tesisleri ve çiftlik yapıları — bu tesislerin ortak özelliği açık sahada, çoğunlukla toprak veya stabilize zeminde bulunmaları ve mevsime göre değişen bir çalışma ritmine sahip olmalarıdır. Silo üstü ekipman bakımı — seviye sensörleri, filtre üniteleri, taşıma helezonları — yılın belirli dönemlerinde, genellikle hasat öncesi veya sonrası boş kalan pencerede yapılır. Bu sayfa, tarım ve silo sahalarındaki tipik yüksek nokta işlerini, açık saha zemininin makine seçimine etkisini ve mevsim penceresinin bu tesislerdeki bakım takvimini nasıl belirlediğini anlatır.",
+        maddeler: [
+            {
+                baslik: "Silo üstü ekipman bakımında rüzgâr ve yükseklik",
+                metin:
+                    "Tahıl ve yem silolarının üst kısmındaki kapaklar, seviye sensörleri ve filtre üniteleri, çoğunlukla açık ve rüzgâra maruz bir noktadadır. Bu yükseklikte rüzgâr hızı yerden hissedilenin üzerine çıkabilir; makinenin çalışma sınırı aşılmadan önce hava durumu kontrol edilir. Silo çevresindeki zemin genellikle sabit betondur ama yaklaşım yolu toprak olabilir; bu iki bölümün zemin durumu ayrı ayrı değerlendirilir.",
+            },
+            {
+                baslik: "Taşıma helezonu ve galeri hattında dar erişim",
+                metin:
+                    "Silo kompleksleri arasındaki taşıma helezonları ve galeri hatları, genellikle dar ve yerden yüksek borularla bağlanır. Bu hatların bakımı, standart bir platformun ulaşamayacağı açılarda gerekebilir; bu durumda eklemli platform veya dar alanlar için örümcek platform tercih edilir. Galeri hattının altındaki zemin, makinenin ağırlığını taşıyıp taşımadığı açısından önceden kontrol edilir.",
+            },
+            {
+                baslik: "Kurutma tesislerinde sıcak yüzey ve bekleme",
+                metin:
+                    "Tahıl kurutma üniteleri, çalışırken yüksek sıcaklık üretir ve bu üniteler etrafındaki platform çalışması, ünitenin durdurulup soğumasını bekler. Sıcak yüzeylerin yanında platform konumlandırılmaz. Planlamada belirleyici olan, tesisin kurutma ünitesini hangi gün dinlendirdiğidir — makine günü bu takvime yazılır ve iş soğuma penceresine sığdırılır.",
+            },
+            {
+                baslik: "Çiftlik ve ahır yapılarında çatı ve havalandırma",
+                metin:
+                    "Büyük ölçekli çiftlik ve ahır yapılarında çatı altı havalandırma fanları, aydınlatma hatları ve çatı oluğu bakımı düzenli olarak gerekir. Bu yapılar genellikle geniş açıklıklı ve orta yükseklikte olduğu için akülü veya dizel makaslı platform çoğu zaman yeterlidir. Hayvan bulunan bölümlerde çalışma, hayvan sağlığı ve iş güvenliği açısından mümkünse boş dönemlere denk getirilir.",
+            },
+            {
+                baslik: "Hasat mevsimi ve makine bulunabilirliği",
+                metin:
+                    "Tarım sektöründe bakım talebi hasat öncesi ve sonrası dönemlerde yoğunlaşır — hasat öncesi silo ve kurutma tesisi hazırlığı, hasat sonrası ise yıpranan ekipmanın kontrolü. Bu dönemlerde bölgedeki makine talebi genel olarak artar; erken planlama, istediğiniz tarihte makine bulma şansınızı belirgin biçimde yükseltir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tarım ve silo tesislerinde alan-makine eşlemesi",
+                paragraflar: [
+                    "Tablo, tarımsal üretim tesislerindeki tipik çalışma alanlarını ve uygun makine tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Çalışma alanı", "Zemin", "Makine tercihi", "Belirleyici koşul"],
+                    satirlar: [
+                        ["Silo üstü ekipman", "Beton platform", "Akülü/dizel eklemli", "Rüzgâr sınırı"],
+                        ["Taşıma helezonu galerisi", "Dar, yüksek", "Eklemli / örümcek", "Erişim açısı"],
+                        ["Kurutma tesisi çevresi", "Beton", "Akülü eklemli", "Soğuma penceresi"],
+                        ["Çiftlik / ahır çatısı", "Geniş açıklık", "Akülü/dizel makaslı", "Hayvan bulunma durumu"],
+                        ["Açık saha yaklaşım yolu", "Toprak / stabilize", "Paletli tercih", "Yağış sonrası zemin"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hasat öncesi ve sonrası bakım listesini birleştirmek",
+                paragraflar: [
+                    "Tarımsal tesislerde bakım ihtiyacı genellikle birden fazla küçük iş kaleminden oluşur: silo kapağı kontrolü, aydınlatma değişimi, oluk temizliği, sensör bakımı. Bu kalemleri ayrı ayrı çağırmak yerine tek bir makine gününe toplamak, hem nakliye maliyetini hem toplam süreyi düşürür. Hasat öncesi dönemde bu planlamayı yapmak özellikle değerlidir çünkü hasat başladıktan sonra tesis makine kabul edecek zaman bulamaz.",
+                    "Bize önerimiz, yıllık bakım listenizi hasat takviminize göre iki ayrı pencereye bölmenizdir: hasat öncesi hazırlık ve hasat sonrası kontrol. Bu iki pencere dışında kalan işler, genellikle acil durumlar dışında ertelenebilir.",
+                ],
+            },
+            {
+                baslik: "Açık sahada zemin hazırlığı ve mevsim etkisi",
+                paragraflar: [
+                    "Tarım tesislerinin çoğu açık sahada, toprak veya stabilize zeminde bulunur ve bu zemin yağıştan doğrudan etkilenir. Kuru bir zeminde standart tekerlekli platform rahatlıkla çalışırken, yağış sonrası yumuşamış bir zeminde paletli veya arazi tipi model gerekebilir. Bu yüzden açık saha taleplerinde son günlerdeki hava durumunu ve zeminin görünür durumunu sormamız standart bir uygulamadır.",
+                    "Kış aylarında donmuş zemin bazen yumuşak zeminden daha stabil olabilir ama bu durumda da buzlanma riski değerlendirilir. Mevsim ne olursa olsun, zeminin o günkü hâlini teslimattan hemen önce sahada birlikte kontrol etmeyi tercih ederiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo üstündeki sensöre platform ulaşabilir mi?",
+                cevap:
+                    "Çoğunlukla ulaşabilir; belirleyici olan siloya yaklaşım zemininin sağlamlığı ve o gün rüzgâr hızının makinenin çalışma sınırının altında kalmasıdır. Silo çevresi genellikle betondur ve bu bölümde standart makaslı veya eklemli platform rahatlıkla çalışır. Sensörün siloya göre konumunu ve yaklaşık yüksekliğini paylaşırsanız, doğru makine sınıfını netleştirebiliriz.",
+            },
+            {
+                soru: "Taşıma helezonu hattına hangi makine gider?",
+                cevap:
+                    "Hattın yüksekliğine ve altındaki erişim genişliğine bağlıdır. Standart bir platform hattın altına sığmıyorsa veya erişim açısı dar geliyorsa eklemli platform ya da dar alanlar için üretilmiş örümcek platform tercih edilir. Hattın altındaki zeminin makinenin ağırlığını taşıyıp taşımadığı da önceden kontrol edilir. Hattın fotoğrafını ve yaklaşık ölçüsünü paylaşırsanız uygun makineyi önerebiliriz.",
+            },
+            {
+                soru: "Kurutma ünitesi çalışırken yanında iş yapılabilir mi?",
+                cevap:
+                    "Yapılamaz; sıcak yüzeylerin yanında platform konumlandırılmaz, bu tartışmaya açık bir kural değildir. Ünitenin durdurulup soğumaya bırakılması gerekir. Uygulamada bu, makine gününün tesisin kendi kurutma takvimine yazılması demektir — çoğu tesis üniteyi belirli aralıklarla zaten dinlendirir ve iş bu pencereye sığdırılabilir. Soğuma sonrası çalışmaya ne zaman başlanabileceğini bize bildirirseniz, makineyi o saate göre göndeririz.",
+            },
+            {
+                soru: "Hayvan bulunan ahırda platform çalışması hayvanları rahatsız eder mi?",
+                cevap:
+                    "Akülü modeller sessiz çalıştığı için etkisi sınırlıdır ama yine de mümkünse çalışmayı hayvan bulunmayan veya en az yoğun olduğu bölüme ya da döneme yazmanızı öneririz. Dizel makine kullanılması gereken durumlarda ise egzoz ve gürültü nedeniyle hayvanların geçici olarak uzaklaştırılması gerekebilir. Ahırınızın düzenini ve hayvan yoğunluğunu paylaşırsanız, en uygun çalışma planını birlikte belirleriz.",
+            },
+            {
+                soru: "Yağmur sonrası açık sahaya makine gelebilir mi?",
+                cevap:
+                    "Zeminin durumuna bağlı. Yağış sonrası yumuşamış toprak veya stabilize zeminde standart tekerlekli platform zorlanabilir; bu koşulda paletli veya arazi tipi model tercih edilir. Zemin çok yumuşaksa çalışma, zeminin kısmen kuruduğu bir sonraki güne ertelenebilir. Sahanızın son durumunu fotoğrafla paylaşırsanız, uygun makineyi veya gerekiyorsa alternatif tarihi önerebiliriz.",
+            },
+            {
+                soru: "Hasat döneminde makine bulmak zor mu?",
+                cevap:
+                    "Hasat öncesi ve sonrası dönemlerde bölgedeki talep genel olarak arttığı için, son dakika taleplerinde istediğiniz tarihi bulmak zorlaşabilir. Bu yüzden yıllık bakım listenizi hasat takviminize göre erken planlamanızı öneririz — hasat öncesi hazırlık ve hasat sonrası kontrol için ayrı ayrı birer pencere belirlemek, hem makine bulunabilirliğini garanti eder hem işlerinizi hasat telaşına denk getirmez.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu kırsalının tahıl ve yem üretimine dayalı tarımsal dokusu kamuya açık genel bilgidir; silo-galeri erişim planlaması, hasat takvimine göre bakım penceresi ve açık saha zemin değerlendirmesi firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bolu'da Enerji ve Aydınlatma Bakım Platformu Kiralama",
+        giris:
+            "Bolu'da enerji ve aydınlatma bakımı iki farklı hat üzerinde yoğunlaşır: TEM Otoyolu ve D-100 kenarındaki tesislerin tabela-kanopi aydınlatması, ve şehir merkezi ile ilçelerdeki sokak-cadde aydınlatma direkleri. İkisi de düzenli bakım gerektirir ama koşulları farklıdır. Yol kenarındaki aydınlatma ve tabela işlerinde çalışma alanı trafiğe yakındır ve makine her koşulda tesisin kendi sahası içinden veya trafiğe kapatılmış bir bölümden çalışır. Şehir içi direk ve hat bakımında ise mesele daha çok erişimdir — dar sokaklar, park hâlindeki araçlar ve yaya trafiği, makinenin konumlandırılmasını etkiler. Bu sayfa, Bolu'daki enerji ve aydınlatma bakım işlerinin iki tipik profilini, güvenlik önlemlerini ve mevsime göre çalışma penceresini anlatır.",
+        maddeler: [
+            {
+                baslik: "Yol kenarı tabela ve kanopi aydınlatması",
+                metin:
+                    "Otoyol ve D-100 kenarındaki tesislerin tabela, totem ve kanopi aydınlatması, işletmenin görünürlüğü açısından ertelenemez bir bakım kalemidir. Bu işlerde yükseklik çoğunlukla 12-18 metre bandına çıkar ve eklemli platform, sepeti armatüre yandan yaklaştırabildiği için tercih edilir. Çalışma, trafiğin en seyrek olduğu saate — genellikle sabahın erken saatlerine — yazılır ve makine tesisin kendi sahası içinde konumlanır.",
+            },
+            {
+                baslik: "Şehir içi sokak aydınlatma direği bakımı",
+                metin:
+                    "Merkez ve ilçelerdeki sokak aydınlatma direkleri genellikle 6-10 metre bandındadır ve bu yükseklikte kompakt makaslı veya küçük eklemli platform yeterlidir. Dar sokaklarda park hâlindeki araçlar makinenin konumlanmasını kısıtlayabilir; bu yüzden çalışma öncesi geçici park yasağı veya trafik yönlendirmesi gerekebilir. Bu düzenleme, ilgili kurumla önceden koordine edilir.",
+            },
+            {
+                baslik: "Enerji santrali ve trafo çevresinde güvenlik",
+                metin:
+                    "Enerji üretim veya dağıtım tesislerinin çevresinde yüksekte çalışma, tesisin kendi elektrik güvenliği prosedürüne tabidir. Gerilim hattına güvenli mesafe, iş izni ve gerekiyorsa enerji kesintisi bu tür işlerde standart uygulamadır. Makine, canlı hatlara belirlenen güvenlik mesafesinin dışında konumlanır ve bu mesafe tesisin kendi teknik ekibiyle birlikte belirlenir.",
+            },
+            {
+                baslik: "Mevsime göre dış aydınlatma bakım penceresi",
+                metin:
+                    "Dış aydınlatma bakımı için en verimli dönem nisan-haziran ve eylül-ekim arasıdır; bu aylarda hava koşulları makineyi zorlamaz ve gün ışığı işin tek güne sığmasını kolaylaştırır. Kış öncesi — eylül-ekim — dış aydınlatma kontrolünün tamamlanması özellikle önemlidir çünkü kar mevsiminde hem çalışma zorlaşır hem aydınlatma eksikliği güvenlik riski oluşturur.",
+            },
+            {
+                baslik: "Birden fazla direk veya armatürü tek makine gününe toplamak",
+                metin:
+                    "Şehir içi veya tesis çevresindeki birden fazla aydınlatma noktası, aynı makine gününde sırayla ziyaret edilebilir. Bu, her direk için ayrı sevkiyat yapmaktan hem daha ekonomik hem daha hızlıdır. Talep verirken bakım gerektiren tüm noktaların listesini ve konumlarını paylaşmanız, tek günlük bir rota planlamamızı sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aydınlatma noktası tipine göre makine seçimi",
+                paragraflar: [
+                    "Tablo, Bolu'daki tipik aydınlatma bakım noktalarını ve uygun makine tercihini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Nokta tipi", "Tipik yükseklik", "Makine tercihi", "Dikkat edilecek koşul"],
+                    satirlar: [
+                        ["Yol kenarı tabela/kanopi", "12-18 m", "Dizel eklemli", "Trafik saati, rüzgâr"],
+                        ["Şehir içi sokak direği", "6-10 m", "Kompakt makaslı/eklemli", "Park alanı, dar sokak"],
+                        ["Sanayi tesisi dış aydınlatma", "8-14 m", "Akülü/dizel makaslı", "Tesis sahası içi konumlanma"],
+                        ["Trafo/santral çevresi", "Değişken", "Eklemli, güvenli mesafeli", "Elektrik güvenlik prosedürü"],
+                        ["Spor sahası aydınlatma direği", "10-16 m", "Dizel eklemli", "Saha kullanım takvimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Kar öncesi aydınlatma kontrolü neden erken planlanmalı",
+                paragraflar: [
+                    "Dış aydınlatma bakımı, kar mevsiminden hemen önce özel bir öneme sahiptir çünkü kısalan gün ışığında aydınlatma eksikliği doğrudan güvenlik sorunu doğurur. Eylül ayı içinde tamamlanan bir kontrol, kış boyunca beklenmedik arıza riskini büyük ölçüde azaltır. Ekim sonuna doğru hem hava penceresi daralır hem bölgedeki talep yoğunlaşır; erken planlayan işletme hem istediği tarihi bulur hem daha rahat koşulda çalıştırır.",
+                    "Bu dönemde önerimiz, bakım gerektiren tüm aydınlatma noktalarınızı tek bir listede toplayıp tek makine gününe yazmanızdır. Ayrı ayrı çağrılan işler ayrı nakliye demektir; tek güne toplanmış işler tek nakliyedir ve toplam maliyet belirgin biçimde düşer.",
+                ],
+            },
+            {
+                baslik: "Elektrik güvenliği: bizim tarafımız ve sizin tarafınız",
+                paragraflar: [
+                    "Enerji hattı yakınında çalışırken güvenlik iki taraflı bir sorumluluktur. Bizim tarafımızda, operatörün güvenli mesafe kurallarını bilmesi ve makinenin bu mesafenin dışında konumlanması vardır. Sizin tarafınızda ise gerilim hattının güncel durumunu ve gerekiyorsa kesinti planını bize önceden bildirmeniz vardır.",
+                    "Bu iki tarafın birlikte çalışması, işi hem güvenli hem hızlı kılar. Enerji hattı yakınındaki bir işte tesisin kendi elektrik ekibiyle önceden görüşmemizi isterseniz, bu koordinasyonu sizin adınıza da yürütebiliriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yol kenarındaki tabelamızın aydınlatmasını ne zaman yaptırmalıyız?",
+                cevap:
+                    "Nisan-haziran ve eylül-ekim arasındaki dönemler en verimlisidir; hava koşulları makineyi zorlamaz ve gün ışığı işin tek güne sığmasını kolaylaştırır. Kış öncesi kontrolü özellikle öneririz çünkü kısalan gün ışığında aydınlatma eksikliği hem güvenlik hem görünürlük açısından sorun yaratır. Tabelanızın yüksekliğini ve konumunu paylaşırsanız uygun tarihi ve makine sınıfını birlikte netleştirebiliriz.",
+            },
+            {
+                soru: "Dar sokağımızda aydınlatma direği bakımı nasıl yapılıyor?",
+                cevap:
+                    "Dar sokaklarda öncelikle makinenin konumlanabileceği bir nokta belirlenir; gerekiyorsa geçici park yasağı veya trafik yönlendirmesi ilgili kurumla koordine edilir. Direğin yüksekliği çoğunlukla 6-10 metre bandında olduğu için kompakt makaslı veya küçük eklemli platform yeterlidir. Sokağınızın genişliğini ve park durumunu paylaşırsanız, uygun makine ve çalışma saatini netleştirebiliriz.",
+            },
+            {
+                soru: "Trafo çevresinde çalışmak güvenli mi?",
+                cevap:
+                    "Doğru mesafe ve prosedürle güvenlidir. Enerji hattı yakınında çalışma, tesisin kendi elektrik güvenliği prosedürüne tabidir; gerekli güvenlik mesafesi ve gerekiyorsa enerji kesintisi tesisin teknik ekibiyle önceden belirlenir. Makine bu mesafenin dışında konumlanır. Çalışacağınız noktanın enerji hattına yakınlığını ve tesisinizin prosedürünü bize iletirseniz, teslimat öncesi gerekli koordinasyonu birlikte yaparız.",
+            },
+            {
+                soru: "Birden fazla aydınlatma direği için ayrı ayrı mı sevkiyat yapılıyor?",
+                cevap:
+                    "Gerekmiyor; aynı bölgedeki birden fazla direk, tek makine gününde sırayla ziyaret edilebilir. Bu hem nakliye maliyetini düşürür hem toplam süreyi kısaltır. Talebinizi verirken bakım gerektiren tüm noktaların listesini ve konumlarını paylaşırsanız, tek günlük bir rota planlayıp size sunabiliriz.",
+            },
+            {
+                soru: "Kış aylarında dış aydınlatma bakımı yapılabilir mi?",
+                cevap:
+                    "Yapılabilir ama planı farklı kurmak gerekir. Kışın dış aydınlatma işi yapılacaksa çalışma zemininin kar ve buzdan temizlenmiş olması ve rüzgâr hızının makinenin çalışma sınırının altında kalması aranır. Bolu'da kış günleri kısa olduğu için sekiz saatlik bir işi tek güne sıkıştırmak gerçekçi olmayabilir. Acil olmayan işlerde önerimiz bahar penceresini beklemektir; acil arızalarda ise koşulların elverdiği ilk fırsatta müdahale ederiz.",
+            },
+            {
+                soru: "Spor sahası aydınlatma direğine bakım için saha kullanımdayken çalışılabilir mi?",
+                cevap:
+                    "Sahanın kullanım takvimine bağlıdır. Aktif kullanım sırasında direk çevresinde platform çalışması güvenlik açısından uygun değildir; bu yüzden çalışma, sahanın boş olduğu saatlere veya günlere yazılır. Sahanızın haftalık kullanım programını paylaşırsanız, en uygun boş pencereyi birlikte belirleriz ve maç veya antrenman programınızı etkilemeyecek bir tarih öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM/D-100 kenarındaki tesis yoğunluğu ve Bolu'nun kış aylarında kısalan gün ışığı kamuya açık genel bilgidir; mevsim penceresi planlaması, çoklu direk rotası ve elektrik güvenliği koordinasyonu firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bolu'da Operatörlü / Operatörsüz Platform Kiralama",
+        giris:
+            "Operatörlü mü operatörsüz mü kiralama sorusu, Bolu'da özellikle iki nedenle sık gündeme gelir: kış aylarındaki geçiş ve zemin koşullarının deneyimli kullanım gerektirmesi, ve ilçelerdeki birçok tesiste yüksekte çalışma belgeli personelin sınırlı olması. Yasal çerçeve nettir — yüksekte çalışma platformu kullanacak kişinin ilgili eğitimi almış olması gerekir. Belgeli personeliniz varsa makine size teslim edilir ve kısa bir kullanım-güvenlik aktarımı yapılır; yoksa operatörlü kiralama önerilir. Bolu'nun kendine özgü koşulları bu kararı biraz daha somutlaştırır: kış aylarında buzlu zeminde denge ayağı açmak, dar atölye kapılarından makine geçirmek veya kayak bölgesindeki hassas iç mekânlarda çalışmak, tecrübe gerektiren işlerdir ve bu tür işlerde operatörlü kiralama hem güvenlik hem verim açısından tercih edilir. Bu sayfa, hangi durumlarda operatörlü kiralamanın daha doğru olduğunu ve operatörsüz kiralamada beklenen şartları anlatır.",
+        maddeler: [
+            {
+                baslik: "Yasal çerçeve: belge ve eğitim şartı",
+                metin:
+                    "Yüksekte çalışma platformu kullanacak kişinin, ilgili iş güvenliği eğitimini almış ve bunu belgeleyebiliyor olması gerekir. Bu, hem operatörün hem çalışma alanındaki diğer kişilerin güvenliği için zorunludur. Belgeli personeliniz varsa makineyi operatörsüz kiralayabilirsiniz; teslim sırasında makinenin kumanda düzeni ve güvenlik noktaları sahada birlikte gözden geçirilir.",
+            },
+            {
+                baslik: "Kış koşullarında operatörlü tercih",
+                metin:
+                    "Kar ve buzlu zeminde platform çalıştırmak, standart koşullardaki kullanımdan farklı bir dikkat gerektirir; denge ayağının nereye açılacağı, zeminin taşıma kapasitesinin nasıl değerlendirileceği gibi kararlar tecrübe ister. Kış döneminde dış saha işlerinde, özellikle ilk kez çalışacağınız bir makine tipiyse, operatörlü kiralamayı öneririz. Bu, hem işin güvenli tamamlanmasını hem gecikme riskinin azalmasını sağlar.",
+            },
+            {
+                baslik: "Dar erişim ve hassas alanlarda operatör tecrübesi",
+                metin:
+                    "Örümcek platform kurulumu, dar atölye kapılarından makine geçirme veya kayak bölgesindeki otellerin hassas iç mekânlarında zemin koruması gibi işler, standart bir platform kullanımından daha fazla teknik bilgi gerektirir. Bu tür işlerde ilk kullanımda operatörlü kiralamayı öneririz; ekibiniz süreci tecrübeyle öğrendikten sonra sonraki kiralamalarda operatörsüz seçeneğe geçebilirsiniz.",
+            },
+            {
+                baslik: "Uzun süreli kiralamada operatör düzeni",
+                metin:
+                    "Haftalık veya aylık süren kiralamalarda operatörlü hizmet farklı biçimlerde kurulabilir: operatör her gün sahada kalabilir veya belirli aralıklarla kontrol amaçlı gelebilir. Hangi düzenin uygun olduğu, işin sürekliliğine ve tesisin kendi ekip yapısına bağlıdır. Bu detay, kiralama süresi netleştiğinde birlikte planlanır.",
+            },
+            {
+                baslik: "Operatör değişimi ve marka-model aktarımı",
+                metin:
+                    "Bolu'daki tesislerin çoğu belirli marka ve kumanda düzenine alışkındır; farklı bir modelle çalışacaksanız, operatörsüz kiralamada bile teslim sırasındaki kısa aktarımı atlamamanızı öneririz. Kumanda düzeni markadan markaya farklılık gösterebilir ve bu farkı bilmeden yapılan kullanım, işi yavaşlatabilir veya güvenlik riski oluşturabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hangi durumda operatörlü, hangi durumda operatörsüz",
+                paragraflar: [
+                    "Tablo, sahada sık karşılaştığımız senaryolara göre önerdiğimiz kiralama şeklini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Durum", "Önerilen düzen", "Gerekçe"],
+                    satirlar: [
+                        ["Belgeli personel, standart makine", "Operatörsüz", "Personel deneyimli, kısa aktarım yeterli"],
+                        ["Belgeli personel yok", "Operatörlü", "Yasal zorunluluk"],
+                        ["Kış döneminde dış saha", "Operatörlü", "Zemin ve denge kararı tecrübe ister"],
+                        ["Örümcek platform / dar erişim", "İlk kullanımda operatörlü", "Kurulum teknik bilgi ister"],
+                        ["Otel/kayak bölgesi iç mekân", "Operatörlü tercih", "Zemin koruma ve hassas çalışma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatörlü kiralamanın işleyişi",
+                paragraflar: [
+                    "Operatörlü kiralamada makineyle birlikte deneyimli bir operatör sahaya gelir; iş boyunca makineyi o yönetir, siz işin içeriğini ve hedef noktaları belirtirsiniz. Bu düzen, özellikle tek seferlik veya teknik açıdan hassas işlerde tercih edilir çünkü operatör hem makineyi hem sahadaki riskleri değerlendirerek çalışır.",
+                    "Operatörün çalışma saatleri, işin süresine göre planlanır; yarım günlük bir iş için yarım gün, tam günlük bir iş için tam gün operatör hizmeti sunulur. Uzun süreli işlerde operatörün her gün sahada kalıp kalmayacağı, iş başında birlikte kararlaştırılır.",
+                ],
+            },
+            {
+                baslik: "Operatörsüz kiralamaya geçiş süreci",
+                paragraflar: [
+                    "Bolu'daki birçok tesis, ilk birkaç kiralamayı operatörlü yapıp ekibini eğitim belgesi alacak şekilde yönlendirir ve ardından operatörsüz kiralamaya geçer. Bu geçiş, hem maliyeti düşürür hem tesisin kendi bakım programını daha esnek yönetmesini sağlar. Geçiş sürecinde ekibinizin hangi makine sınıflarında deneyimli olduğunu bilmemiz, doğru önerilerde bulunmamızı sağlar.",
+                    "Operatörsüz kiralamaya geçtikten sonra bile, farklı bir makine tipi veya zorlu bir saha koşuluyla karşılaştığınızda operatörlü seçeneğe geri dönebilirsiniz; bu iki düzen arasında geçiş esnektir ve her talepte ayrı değerlendirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörsüz kiralama için hangi belge gerekiyor?",
+                cevap:
+                    "Platformu kullanacak kişinin yüksekte çalışma platformu operatörlüğüne ilişkin geçerli bir eğitim belgesine sahip olması gerekir. Bu belge, teslimat öncesi tarafımıza iletilir. Belgeniz yoksa veya belgeli personeliniz makinenin geldiği gün sahada değilse, operatörlü kiralama önerilir. Belgenizin geçerliliğinden emin değilseniz, teslimattan önce bunu birlikte kontrol edebiliriz.",
+            },
+            {
+                soru: "Kışın operatörlü kiralamayı neden özellikle öneriyorsunuz?",
+                cevap:
+                    "Çünkü kar ve buzlu zeminde platform çalıştırmak, denge ayağının nereye açılacağı ve zeminin taşıma kapasitesinin nasıl değerlendirileceği gibi kararlar gerektirir ve bu kararlar tecrübe ister. Deneyimli bir operatör, riskli bir zemini fark edip işi durdurma veya farklı bir noktaya geçme kararını hızlı verebilir. Bu, hem güvenlik hem işin sorunsuz tamamlanması açısından değerlidir.",
+            },
+            {
+                soru: "Operatörlü kiralamada ücret nasıl hesaplanıyor?",
+                cevap:
+                    "Operatör hizmeti, makine kiralama bedeline ek olarak işin süresine göre hesaplanır — yarım gün, tam gün veya uzun süreli işlerde haftalık düzen kurulabilir. Kesin rakam, makine sınıfı ve işin süresine göre değişir. İşinizin tanımını ve süresini paylaştığınızda net bir teklif sunabiliriz.",
+            },
+            {
+                soru: "Ekibimiz belgeli ama farklı marka makine kullanmamış; operatörsüz kiralayabilir miyiz?",
+                cevap:
+                    "Kiralayabilirsiniz; belgeniz makinenin markasından bağımsız olarak geçerlidir. Ancak farklı marka ve kumanda düzenine sahip bir makineyle çalışacaksanız, teslim sırasındaki kısa aktarımı atlamamanızı öneririz — kumanda düzeni markadan markaya farklılık gösterebilir. Bu aktarım genellikle on-on beş dakika sürer ve işin ilerleyen saatlerinde zaman kazandırır.",
+            },
+            {
+                soru: "Uzun süreli kiralamada operatör her gün sahada mı kalıyor?",
+                cevap:
+                    "Bu, işin sürekliliğine bağlı olarak değişir; operatör her gün sahada kalabilir veya belirli aralıklarla kontrol amaçlı gelebilir. İşin niteliğini ve tesisin kendi ekip yapısını paylaştığınızda, en uygun düzeni birlikte kararlaştırırız. Her iki düzende de operatörün ulaşılabilir olması ve sorularınıza hızlı yanıt vermesi standart hizmetimizin parçasıdır.",
+            },
+            {
+                soru: "Örümcek platform gibi özel makinelerde operatör zorunlu mu?",
+                cevap:
+                    "Zorunlu değildir ama ilk kullanımınızda önemle öneririz. Örümcek platformun kurulumu ve sökümü, standart bir platformdan daha fazla teknik bilgi gerektirir; yanlış kurulum hem işi yavaşlatır hem güvenlik riski oluşturabilir. Ekibiniz süreci bir veya birkaç operatörlü kiralamada tecrübeyle öğrendikten sonra, sonraki işlerde operatörsüz seçeneğe geçebilirsiniz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yüksekte çalışma platformu operatörlüğü için eğitim belgesi zorunluluğu genel bir yasal çerçevedir; kış koşullarında operatörlü tercih, dar erişim işlerinde aktarım süreci ve uzun süreli kiralamada operatör düzeni firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bolu'da Çok Noktalı Rota Bakım Platformu Hizmeti",
+        giris:
+            "Bolu'nun coğrafyası, çok noktalı bakım rotası kurmaya elverişli bir yapıdadır: TEM Otoyolu hattı boyunca dizilmiş tesisler, Gerede'nin kavşak konumundaki işletmeler ve merkez ile ilçeler arasındaki dağınık adresler, doğru planlandığında tek bir makine seferiyle birden fazla noktada bakım yapılmasını mümkün kılar. Bu hizmet, özellikle birden fazla şubesi veya tesisi olan işletmeler, aynı bölgedeki farklı işletmelerin ortak sevkiyata girmesi veya tek bir tesisin dağınık bina bloklarındaki bakım ihtiyacı için değer taşır. Rotanın verimli çalışmasının koşulu nettir: her adresin kabul saati, çalışma tipi ve makine sınıfı önceden netleştirilmelidir; aksi hâlde bir adresteki gecikme bütün rotayı geciktirir. Bu sayfa, çok noktalı rota planlamasının nasıl kurulduğunu, hangi adreslerin bir araya getirilebileceğini ve rota içinde bir aksama olduğunda ne yapıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Rota kurgusunun ilk adımı: adres listesi ve öncelik",
+                metin:
+                    "Çok noktalı rota planlaması, önce tüm adreslerin bir listede toplanmasıyla başlar — her adresin işin tanımı, yaklaşık yüksekliği ve tercih edilen zaman dilimi birlikte belirtilir. Bu liste üzerinden adresler coğrafi yakınlığa ve makine sınıfına göre gruplanır. Aynı makine sınıfı gerektiren ve birbirine yakın adresler tek rotaya alınır; farklı makine sınıfı gerektiren adresler ayrı planlanır.",
+            },
+            {
+                baslik: "TEM hattı üzerindeki adreslerin doğrusal avantajı",
+                metin:
+                    "Otoyol hattı üzerindeki tesisler doğrusal bir dizilime sahip olduğu için, hattı kat eden bir araç gidişte bir tesise makine bırakıp dönüşte komşu tesisten biten makineyi alabilir. Bu döngü, tek tesise özel sefer yapmanın maliyetini bölüştürür. Bu yüzden hat üzerindeki taleplerde tarihinizin esnek olup olmadığını sorarız; birkaç günlük esneklik, sevkiyatınızı mevcut bir rotaya bağlama şansı verir.",
+            },
+            {
+                baslik: "Her adresin bağımsız kabul ve teknik teslim kaydı",
+                metin:
+                    "Rota tek bir sefer olsa da, her adresin kabulü, teklifi ve teknik teslimi ayrı tutulur. Bir adresteki uygun zemin veya izin diğerine otomatik olarak taşınmaz — her nokta kendi koşullarına göre değerlendirilir. Makine adresler arasında hareket ederken temizlenir ve görünür durum kaydedilir; bu, hem sorumluluk sınırını netleştirir hem her adresin kendi kaydına sahip olmasını sağlar.",
+            },
+            {
+                baslik: "Bir adresteki gecikmenin rotaya etkisi",
+                metin:
+                    "Rotadaki bir adres hazır değilse — izin tamamlanmamış, zemin uygun değil, kabul saati kaymışsa — bu, diğer adresleri de etkileyebilir. Bizim yaklaşımımız, hazır olmayan bir işin bütün rotayı bekletmesine izin vermemektir; ilgili adres sıradan çıkarılır ve rota kalan adreslerle devam eder. Ertelenen adres için yeni bir tarih ayrıca planlanır.",
+            },
+            {
+                baslik: "Dağınık tesis bloklarında iç rota",
+                metin:
+                    "Tek bir büyük tesisin farklı binaları veya blokları arasında da benzer bir mantık işler — özellikle sanayi kompleksleri ve OSB içindeki çok binalı işletmelerde. Aynı makine, bir binadan diğerine geçerek sırayla bakım yapabilir. Bu durumda bloklar arası geçiş süresi ve her binanın kendi giriş prosedürü önceden netleştirilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota planlamasında adres tipi ve koordinasyon",
+                paragraflar: [
+                    "Tablo, çok noktalı rotalarda sık karşılaşılan adres tiplerini ve koordinasyon gereksinimlerini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Adres tipi", "Rota uygunluğu", "Koordinasyon ihtiyacı", "Risk noktası"],
+                    satirlar: [
+                        ["TEM hattı üzeri tesis", "Yüksek", "Kabul saati bildirimi", "Kapı trafiği"],
+                        ["OSB içi çok binalı işletme", "Yüksek", "Bina giriş prosedürü", "Bloklar arası geçiş süresi"],
+                        ["Merkez-ilçe karışık adresler", "Orta", "Tarih esnekliği", "Mesafe farkı"],
+                        ["Kış döneminde dağlık adres", "Düşük-orta", "Sabah teyidi", "Geçiş koşulu"],
+                        ["Farklı işletme ortak sevkiyat", "Orta-yüksek", "Ortak tarih mutabakatı", "Farklı makine sınıfı ihtiyacı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Ortak sevkiyat: farklı işletmelerin aynı rotayı paylaşması",
+                paragraflar: [
+                    "Aynı bölgede, benzer tarihlerde makine bekleyen farklı işletmeler, aynı sefere bağlanarak nakliye maliyetini paylaşabilir. Bu düzen özellikle küçük ve orta ölçekli işletmeler için değerlidir çünkü tek başına çağrılan bir sefer, birkaç saatlik bir iş için orantısız maliyet yaratabilir.",
+                    "Ortak sevkiyatın işleyebilmesi için işletmelerin tarih konusunda esnek olması ve makine sınıflarının uyumlu olması gerekir. Talebinizi verirken bölgenizdeki benzer taleple ilgilenip ilgilenmediğinizi belirtirseniz, uygun bir eşleşme olup olmadığını değerlendirebiliriz.",
+                ],
+            },
+            {
+                baslik: "Kış döneminde rota planlamasının farkı",
+                paragraflar: [
+                    "Kış aylarında çok noktalı rota planlaması, hava koşulunun rotanın bazı bölümlerini etkileyebileceği varsayımıyla kurulur. Bolu Dağı geçişini içeren rotalarda gün taahhüdü verilir, saat teyidi sabah yapılır. Rotadaki bazı adresler dağlık kesimde, bazıları düz güzergâhtaysa, öncelik düz güzergâhtaki adreslere verilir ve dağlık kesim koşullar uygun olduğunda eklenir.",
+                    "Bu esneklik, rotanın tamamının bir hava koşulu nedeniyle iptal olmasını önler; kısmi bir rota bile, hiç hizmet vermemekten daha değerlidir. Kış döneminde rota talep ederken, adreslerinizin hangilerinin öncelikli olduğunu belirtmeniz, planlamayı kolaylaştırır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kaç adresi tek rotaya toplayabiliyorsunuz?",
+                cevap:
+                    "Bu, adreslerin coğrafi yakınlığına, makine sınıfı uyumuna ve her adresteki işin süresine bağlıdır; sabit bir sayı vermek yerine adres listenizi görüp değerlendirmemiz gerekir. Genel olarak birbirine yakın ve benzer büyüklükte iş içeren üç ile beş adres arası bir rota verimli çalışır; daha fazla adres, günün süresini aşabileceği için ikinci bir güne bölünebilir.",
+            },
+            {
+                soru: "Rotadaki bir adres hazır değilse ne oluyor?",
+                cevap:
+                    "O adres sıradan çıkarılır ve rota kalan adreslerle devam eder; hazır olmayan bir iş bütün rotayı bekletmez. Ertelenen adres için ayrı bir tarih planlarız ve mümkünse bir sonraki uygun rotaya dahil ederiz. Bu yüzden her adresin hazırlığını — izin, zemin, kabul saati — teslimattan birkaç gün önce teyit etmenizi öneririz.",
+            },
+            {
+                soru: "Farklı işletmelerle ortak sevkiyat nasıl işliyor?",
+                cevap:
+                    "Aynı bölgede benzer tarihte makine bekleyen işletmeler, tarih ve makine sınıfı uyumluysa aynı sefere bağlanabilir; bu nakliye maliyetini paylaştırır. Böyle bir eşleşme için sizin tarafınızdan tarih esnekliği gerekir. Talebinizi verirken bölgenizdeki ortak sevkiyata açık olup olmadığınızı belirtirseniz, uygun bir eşleşme varsa size haber veririz.",
+            },
+            {
+                soru: "Her adres için ayrı fatura mı kesiliyor?",
+                cevap:
+                    "Bu, işletmenizin tercihine bağlıdır; tek bir işletmenin farklı adresleri için tek fatura, farklı işletmelerin ortak sevkiyatında ise her işletme için ayrı fatura düzenlenir. Fatura düzeninizi talep aşamasında belirtirseniz, buna uygun bir kurgu hazırlarız.",
+            },
+            {
+                soru: "OSB içindeki çok binalı tesisimizde iç rota nasıl planlanıyor?",
+                cevap:
+                    "Binalarınızın giriş prosedürünü ve her binada yapılacak işi önceden aldığımızda, makine binadan binaya sırayla geçecek şekilde bir program çıkarırız. Bloklar arası geçiş süresi ve her binanın kendi kabul kuralı ayrı ayrı değerlendirilir. Bu tür işlerde makine genellikle bir gün sahada kalır ve gün içinde birden fazla binaya hizmet verir.",
+            },
+            {
+                soru: "Kış aylarında dağlık kesimdeki adres rotayı etkiler mi?",
+                cevap:
+                    "Etkileyebilir; Bolu Dağı geçişini içeren rotalarda gün taahhüdü verilir ve saat teyidi sabah yapılır. Rotada hem düz güzergâhtaki hem dağlık kesimdeki adresler varsa, öncelik düz güzergâha verilir ve dağlık kesim koşullar uygun olduğunda rotaya eklenir. Bu, rotanın tamamının hava nedeniyle iptal olmasını önleyen bir yaklaşımdır. Adreslerinizin önceliğini belirtirseniz planlamayı buna göre kurarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM Otoyolu'nun doğrusal güzergâh yapısı ve Bolu Dağı geçişinin kış aylarındaki etkisi kamuya açık genel bilgidir; rota gruplama mantığı, ortak sevkiyat düzeni ve gecikme yönetimi firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bolu'da Zor Zemin ve Arazi Koşullarında Platform Kiralama",
+        giris:
+            "Bolu'nun coğrafyası — orman örtüsü, dağlık kesimler, kırsal tarım sahaları — standart tekerlekli platformun rahatça çalışamayacağı zemin tipleriyle doludur. Kereste stok sahalarındaki sıkıştırılmış toprak, kayak bölgesine çıkan yollardaki eğimli ve mevsimsel olarak değişen zemin, tarım tesislerinin etrafındaki tarla kenarları ve inşaat hâlindeki şantiyelerin düzensiz yüzeyi — bunların hepsi standart lastik tekerlekli bir makaslı platformdan farklı bir makine gerektirir. Zor zeminde çalışmanın temel kuralı nettir: makine zemine uydurulmaz, zemine uygun makine seçilir. Bu, paletli gövde, geniş yük dağıtıcı ayaklar veya arazi tipi lastik gibi çözümlerle sağlanır. Bu sayfa, Bolu'daki tipik zor zemin senaryolarını, her birinde tercih edilen makine tipini ve zemin değerlendirmesinin nasıl yapıldığını anlatır.",
+        maddeler: [
+            {
+                baslik: "Yumuşak ve ıslak zeminde paletli tercih",
+                metin:
+                    "Yağış sonrası yumuşayan toprak veya stabilize zeminlerde standart tekerlekli platform batabilir ve hareket edemez hâle gelebilir. Bu koşulda paletli gövdeli platform tercih edilir çünkü ağırlığı daha geniş bir alana yayar ve zemine batma riskini azaltır. Zeminin ıslaklık derecesi teslim öncesi fotoğraf veya son günlerdeki hava durumu bilgisiyle değerlendirilir; çok yumuşak zeminlerde çalışma, zeminin kısmen kuruduğu bir sonraki güne ertelenebilir.",
+            },
+            {
+                baslik: "Eğimli arazide denge ve konumlandırma",
+                metin:
+                    "Bolu'nun dağlık kesimlerinde, özellikle kayak bölgesine yakın alanlarda, zemin düz değil eğimlidir. Eğimli zeminde platform konumlandırırken makinenin izin verdiği maksimum eğim açısı aşılmamalı ve denge ayakları zemin seviyesine göre farklı yüksekliklerde açılabilmelidir. Bazı modellerde otomatik seviye dengeleme bulunur; eğim fazla ise makine, zeminin daha düz olduğu bir noktaya konumlanır ve bom uzunluğuyla hedefe ulaşılır.",
+            },
+            {
+                baslik: "Taşlı ve düzensiz şantiye zemininde stabilite",
+                metin:
+                    "İnşaat hâlindeki şantiyelerde zemin moloz, taş ve düzensiz dolgu içerebilir. Bu tür zeminlerde denge ayaklarının düz bir yüzeye oturduğundan emin olunmalı, gerekirse ayakların altına geniş yük dağıtıcı plaka konulmalıdır. Makinenin güzergâhı, zemindeki büyük engeller ve çukurlar önceden gözden geçirilerek belirlenir; çukur algılama sistemi bulunan modellerde bu sistem devrede tutulur.",
+            },
+            {
+                baslik: "Kereste ve tarım sahalarında mevsimsel zemin değişimi",
+                metin:
+                    "Aynı saha, mevsime göre çok farklı zemin koşulu sunabilir — yazın sert ve kuru olan bir stok sahası, kışın veya yağışlı dönemde tamamen farklı davranabilir. Bu yüzden zor zemin değerlendirmesi tek seferlik değil, her talepte güncel olarak yapılır. Düzenli olarak aynı sahaya makine gönderiyorsak bile, son durumu teyit etmeden makine sınıfını sabitlemeyiz.",
+            },
+            {
+                baslik: "Zemin testinin pratik yolu",
+                metin:
+                    "Sahaya gitmeden önce zemin durumunu değerlendirmenin en pratik yolu, güncel fotoğraf ve kısa bir video paylaşmaktır — özellikle son yağıştan sonraki görüntü, zeminin ne kadar yumuşadığını gösterir. Belirsiz durumlarda, büyük bir makine göndermeden önce kısa bir keşif ziyareti önerebiliriz; bu, sahaya varan makinenin çalışamaması riskini ortadan kaldırır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bolu'da zemin tipi ve makine gövde seçimi",
+                paragraflar: [
+                    "Tablo, sahada karşılaştığımız zor zemin tiplerini ve uygun gövde seçimini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin tipi", "Risk", "Gövde tercihi", "Ek önlem"],
+                    satirlar: [
+                        ["Islak/yumuşak toprak", "Batma, hareketsizlik", "Paletli", "Yağış sonrası kontrolü"],
+                        ["Eğimli arazi", "Devrilme riski", "Seviye dengeli / paletli", "Maksimum eğim sınırı"],
+                        ["Şantiye molozu", "Dengesiz oturma", "Lastikli, geniş taban plakası", "Güzergâh temizliği"],
+                        ["Kuru stabilize (yaz)", "Düşük risk", "Standart lastikli", "Toz kontrolü"],
+                        ["Donmuş zemin (kış)", "Buzlanma", "Lastikli, dikkatli konumlama", "Zemin altı kontrolü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Yanlış makine göndermenin maliyeti",
+                paragraflar: [
+                    "Zemine uygun olmayan bir makinenin sahaya gönderilmesi, işin en pahalı senaryosudur: makine hareket edemez, iş yapılamaz ve doğru gövdeyle ikinci bir sevkiyat gerekir. Bu senaryoyu önlemenin tek yolu, zemin bilgisini teslimattan önce almaktır. Bu yüzden zor zemin ihtimali olan her talepte fotoğraf veya video istememiz, formalite değil doğrudan maliyeti önleyen bir adımdır.",
+                    "Bazı durumlarda zemin görüntüsü tek başına yeterli olmaz ve kısa bir telefon görüşmesiyle zeminin geçmişteki davranışı — örneğin geçen kışki durumu — sorulur. Bu ek birkaç dakikalık soru-cevap, sahada yaşanabilecek saatlerce süren bir aksaklığı önler.",
+                ],
+            },
+            {
+                baslik: "Zor zeminde çalışma süresi neden uzayabilir",
+                paragraflar: [
+                    "Standart bir zeminde yapılan bir işe göre, zor zeminde aynı iş genellikle daha uzun sürer — makine konumlandırma daha dikkatli yapılır, güzergâh üzerindeki engeller önceden temizlenir ve gerekiyorsa ayaklar altına plaka yerleştirilir. Bu ek süreyi kiralama planına baştan dahil etmenizi öneririz; aksi hâlde işin zemin nedeniyle uzaması, planlanmamış bir ek gün ücreti doğurabilir.",
+                    "Tekrar eden zor zemin işlerinde — örneğin düzenli olarak aynı stok sahasına giden bir makine — zaman içinde en verimli güzergâh ve konumlandırma noktaları netleşir ve süre öngörülebilir hâle gelir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yağmurdan sonra sahamıza makine gelebilir mi?",
+                cevap:
+                    "Zeminin ne kadar yumuşadığına bağlıdır; hafif yağış sonrası çoğu zeminde paletli gövdeli platform rahatlıkla çalışır. Zemin çok yumuşamışsa çalışma, zeminin kısmen kuruduğu bir sonraki güne ertelenmesi önerilir çünkü batmış bir makineyi kurtarmak, ertelenen bir işten çok daha maliyetlidir. Sahanızın güncel fotoğrafını paylaşırsanız, bugün mü yoksa birkaç gün beklemek mi gerektiğini birlikte değerlendirebiliriz.",
+            },
+            {
+                soru: "Eğimli arazide platform devrilme riski var mı?",
+                cevap:
+                    "Makinenin izin verdiği maksimum eğim açısı aşılmadığı ve denge ayakları doğru açıldığı sürece risk kontrol altındadır. Eğim bu sınırı aşıyorsa makine, zeminin daha düz olduğu bir noktaya konumlanır ve hedefe bom uzunluğuyla ulaşılır. Arazinizin yaklaşık eğimini ve hedefin konumunu paylaşırsanız, uygun konumlandırma noktasını önceden belirleyebiliriz.",
+            },
+            {
+                soru: "Şantiye zemini henüz düzenlenmedi; yine de platform gelebilir mi?",
+                cevap:
+                    "Gelebilir ama hazırlık gerekir. Denge ayaklarının düz bir yüzeye oturması ve güzergâh üzerindeki büyük engellerin temizlenmiş olması istenir; gerekiyorsa ayakların altına geniş yük dağıtıcı plaka konulur. Şantiyenizin güncel zemin durumunu fotoğrafla paylaşırsanız, ek önlem gerekip gerekmediğini teslimat öncesi netleştiririz.",
+            },
+            {
+                soru: "Aynı sahaya her ay makine gönderiyorsunuz; her seferinde zemin mi kontrol ediliyor?",
+                cevap:
+                    "Evet, çünkü aynı saha mevsime göre farklı davranabilir — yazın sert olan bir zemin kışın veya yağışlı dönemde yumuşayabilir. Düzenli sevkiyatlarda bile her seferinde son durumu kısa bir soruyla teyit ederiz; bu, sabit bir varsayımla hareket edip sahada sürprizle karşılaşmaktan daha güvenlidir.",
+            },
+            {
+                soru: "Zor zeminde çalışma neden daha uzun sürüyor?",
+                cevap:
+                    "Çünkü makine konumlandırma daha dikkatli yapılır, güzergâh üzerindeki engeller önceden temizlenir ve gerekiyorsa ek önlemler — yük dağıtıcı plaka, seviye dengeleme — uygulanır. Bu hazırlık adımları standart bir zemine göre ek zaman alır. Kiralama süresini planlarken bu ek süreyi baştan hesaba katmanızı öneririz; böylece iş planınız gerçekçi kalır.",
+            },
+            {
+                soru: "Zemin durumunu nasıl bildirmeliyiz?",
+                cevap:
+                    "En pratik yol, sahanın güncel fotoğrafını veya kısa bir videosunu paylaşmaktır — özellikle son yağıştan sonraki görüntü zeminin durumunu net gösterir. Belirsiz veya karmaşık durumlarda, büyük bir makine göndermeden önce kısa bir keşif ziyareti önerebiliriz. Bu adım, sahaya varan makinenin çalışamaması riskini baştan ortadan kaldırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun orman, dağlık ve kırsal tarım arazisi ağırlıklı coğrafyası kamuya açık genel bilgidir; zemin tipine göre gövde seçimi, keşif ziyareti önerisi ve mevsimsel zemin değerlendirmesi firma pratiğidir. Tesis adı ve rakamsal iddia içermez.",
+    },
 };

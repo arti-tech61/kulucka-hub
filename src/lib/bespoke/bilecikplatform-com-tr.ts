@@ -865,4 +865,1065 @@ export const BILECIKPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-13. Osmaneli OSB’nin depo ve lojistik profili kamuya açık genel bilgidir; koridor ölçümü, makaslı çalışma aksı, forklift ayrımı ve bölüm teslimi firma saha pratiğidir. Soğuk depo, parseller arası genel program, tesis adı, kapasite ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    "hizmet:sepetli-orumcek-platform-kiralama": {
+        h1: "Bilecik'te Örümcek Platform ile Dar Erişimli Bakım Noktalarına Ulaşmak",
+        giris:
+            "Soğuk depo ile atölye dünyasının her ikisinde de standart bir makaslı ya da eklemli platformun giremeyeceği noktalar var: soğuk depoda raf ile duvar arasında kalan dar bir servis koridoru, dondurulmuş ürün odasına açılan alçak bir kapı; atölyede ise iki tezgah arasına sıkışmış bir kolon dibi ya da kurutma fırınının yan cephesindeki dar bakım aralığı. Bu noktalara standart tekerlekli bir platform sokmaya çalışmak ya mümkün olmuyor ya da riskli oluyor. Örümcek tip platform (paletli/ayaklı, dar gövdeli) tam bu ara noktalar için devreye giriyor — kapı genişliğine yakın gövdesi ve merdiven ya da dar geçitten geçebilen taşınabilirliğiyle, standart makinenin bırakacağı 'ölü nokta'ları kapatıyor. Bilecik'teki periyodik bakım turlarımızda bu makineyi ayrı bir kalem olarak değil, ana ekipmanın tamamlayıcısı olarak taşırız; bir soğuk depoda evaporatör bataryasına makaslı platformla erişirken, aynı hacmin köşesindeki dar bir kontrol paneline örümcek platformla geçeriz. Bu ikili taşıma, tek ziyarette iki farklı erişim sınıfını kapatmamızı sağlar.",
+        maddeler: [
+            {
+                baslik: "Soğuk depoda dar servis koridorları",
+                metin:
+                    "Soğuk hava depolarında raf sıraları arasındaki ana koridorlar makaslı platform için yeterli genişlikte olsa da, evaporatör bataryasının arkasındaki servis boşluğu veya duvar diplerindeki kontrol panellerinin bulunduğu dar aralıklar genellikle standart makinenin sığmadığı noktalardır. Bu noktalara örümcek platformla girerken düşük sıcaklıkta hidrolik performansın test edilmiş olması burada da aranan bir özellik; dar alanda makine performansı düşerse manevra süresi uzar ve soğuk hacimde geçirilen süre gereksiz yere artar.",
+            },
+            {
+                baslik: "Atölyede tezgahlar arası dar geçitler",
+                metin:
+                    "Söğüt çevresindeki kereste ve mobilya atölyelerinde makine yerleşimi genellikle sıkışıktır; kesim tezgahı ile şekillendirme hattı arasında kalan dar bir aralıkta bir aydınlatma armatürüne ya da kablo tavasına erişmek gerektiğinde, standart platformu o aralığa sokmak üretim hattını durdurmadan mümkün olmuyor. Örümcek platformun dar gövdesi bu aralıklara girebiliyor, ayrıca ayaklı stabilizasyonu sayesinde eğimli ya da düzensiz atölye zemininde de makaslı platforma göre daha güvenli duruyor.",
+            },
+            {
+                baslik: "Taşınabilirlik: kapıdan kapıya geçiş",
+                metin:
+                    "Örümcek platformun katlanabilir ya da daraltılabilir gövdesi, standart bir kapı genişliğinden geçebilmesini sağlıyor. Bu, soğuk depoda bir odadan diğerine geçerken kapı açıklığının sınırlı olduğu durumlarda, ya da atölyede iki bölüm arasında dar bir geçitten makineyi elle iterek taşımamız gerektiğinde işimizi kolaylaştırıyor. Standart makaslı platformun geçemeyeceği bir kapıdan örümcek platformu manuel olarak geçirip diğer tarafta tekrar çalışır hale getirmek, bizim Bilecik'teki bakım turlarında sık başvurduğumuz bir yöntem.",
+            },
+            {
+                baslik: "Ana ekipmanın tamamlayıcısı olarak taşımak",
+                metin:
+                    "Örümcek platformu tek başına bir hizmet kalemi olarak değil, periyodik bakım turunun parçası olarak taşırız. Bir soğuk depo ziyaretinde ana işi makaslı platform görürken, dar bir kontrol paneline erişim gerektiğinde araçtan örümcek platformu indirip o noktayı tamamlarız. Bu, ayrı bir sevkiyat ya da ayrı bir randevu gerektirmeden, tek ziyarette iki erişim sınıfının kapatılması demek — hem müşteri için ek maliyet oluşturmuyor hem de bizim tur planlamamızı basitleştiriyor.",
+            },
+            {
+                baslik: "Ne zaman örümcek platform, ne zaman standart makine",
+                metin:
+                    "Her dar nokta örümcek platform gerektirmiyor; karar, erişilecek noktanın genişliği ve zemin durumuna göre veriliyor. Keşif sırasında dar koridor ya da geçit tespit edilirse bunu bakım planına not ederiz ve o ziyarete örümcek platformu da dahil ederiz. Standart genişlikteki koridorlarda gereksiz yere daha küçük kapasiteli bir makine kullanmayız çünkü örümcek platformun kaldırma kapasitesi ve sepet boyutu makaslıya göre sınırlıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki ortamda örümcek platform kullanım senaryoları",
+                paragraflar: [
+                    "Soğuk depo ve atölye ortamlarında örümcek platformun en sık kullanıldığı noktalar ve gerekçeleri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Erişim noktası", "Standart makinenin sınırı", "Örümcek platform avantajı"],
+                    satirlar: [
+                        ["Soğuk depo", "Evaporatör arkası servis boşluğu", "Gövde genişliği sığmıyor", "Dar gövde, ayak stabilizasyonu"],
+                        ["Soğuk depo", "Kapı arası geçiş", "Kapı açıklığı yetersiz", "Katlanabilir/daraltılabilir gövde"],
+                        ["Atölye", "Tezgahlar arası aralık", "Manevra alanı yok", "Kompakt dönüş yarıçapı"],
+                        ["Atölye", "Kolon dibi aydınlatma", "Sabit engel", "Ayaklı yatay yaklaşım"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bakım turuna nasıl dahil ediyoruz",
+                paragraflar: [
+                    "Periyodik bakım sözleşmesi kurduğumuz tesislerde ilk keşifte, standart makinenin erişemeyeceği noktaları ayrıca işaretleriz. Bu liste bakım planına eklenir ve o noktalara gidilecek ziyaretlerde örümcek platform araçla birlikte taşınır. Sözleşme yoksa ve tek seferlik bir talep varsa, telefon görüşmesinde dar nokta tarif edildiğinde bunu önceden planlarız — sahada fark edip geri dönmek yerine, doğru ekipmanla bir kere gelmeyi tercih ederiz.",
+                ],
+            },
+            {
+                baslik: "Örümcek platformun sınırları",
+                paragraflar: [
+                    "Örümcek platform her işin çözümü değil; kaldırma kapasitesi ve sepet boyutu standart makaslı ya da eklemli platforma göre daha kısıtlıdır, bu yüzden ağır malzeme taşınacak işlerde tercih edilmez. Ayrıca çok geniş açık alanlarda standart makineye göre daha yavaş ilerler. Bu nedenle her zaman ana ekipmanın yanında tamamlayıcı olarak kullanılır, onun yerini almaz; hangi işin hangi makineyle yapılacağı keşifte netleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Örümcek platformu ayrı bir hizmet olarak mı kiralıyorsunuz, yoksa bakım turuna mı dahil ediyorsunuz?",
+                cevap:
+                    "Genellikle bakım turunun bir parçası olarak taşırız; ayrı bir sevkiyat ya da ayrı randevu gerektirmez. Soğuk depo veya atölye ziyaretinde dar bir nokta varsa, aracımızda hazır bulundurduğumuz örümcek platformu o noktada devreye alırız. Yalnızca örümcek platform gerektiren, başka bir kalem olmayan tekil bir iş talep edilirse bunu da ayrıca planlayabiliriz; ancak Bilecik'teki müşterilerimizin çoğunda bu makine ana bakım turuna eklenen bir tamamlayıcı olarak kullanılıyor.",
+            },
+            {
+                soru: "Soğuk depoda örümcek platform düşük sıcaklıkta çalışabiliyor mu?",
+                cevap:
+                    "Evet, soğuk hacimde kullandığımız örümcek platform da hidrolik yağ ve akü performansı düşük sıcaklığa göre değerlendirilmiş bir birim. Ancak dar alanda çalışırken makine performansındaki küçük bir düşüş bile manevrayı zorlaştırabileceği için, uzun süreli soğuk hacim işlerinde makineyi kısa aralıklarla dinlendirip performansını kontrol ederiz. Bu, standart makaslı platforma göre daha dikkatli takip gerektiren bir konu.",
+            },
+            {
+                soru: "Atölyemizdeki dar bir aralığa hangi ekipmanla erişileceğine nasıl karar veriyorsunuz?",
+                cevap:
+                    "Karar keşifte verilir; erişilecek noktanın genişliği, zemin durumu ve çevresindeki sabit ekipman fotoğrafla veya yerinde ölçümle değerlendirilir. Standart genişlikteki bir aralıkta gereksiz yere örümcek platform kullanmayız çünkü kapasitesi sınırlıdır; gerçekten dar bir noktada ise bunu önceden bakım planına eklemeden sahaya varıp fark etmek istemeyiz, bu yüzden telefon görüşmesinde bu detayı sorarız.",
+            },
+            {
+                soru: "Örümcek platformun kapı genişliğinden geçmesi ne kadar sürer, üretim durur mu?",
+                cevap:
+                    "Katlı haldeki makineyi kapıdan geçirmek birkaç dakikalık bir işlemdir ve genellikle üretim hattını durdurmayı gerektirmez; makineyi biz elle iteriz, motorlu hareket kapı içinde kullanılmaz. Geçiş sırasında dar noktadaki diğer trafiği kısa süreliğine keseriz ama bu, tam bir üretim durdurması değildir. Atölye sahibiyle geçiş saatini önceden konuşup en az kesinti yaratacak zamanı belirleriz.",
+            },
+            {
+                soru: "Örümcek platformla ne kadar ağırlık taşınabilir?",
+                cevap:
+                    "Kapasitesi standart makaslı veya eklemli platforma göre daha düşüktür; bu yüzden ağır malzeme taşıma gerektiren işlerde tercih edilmez, tek kişi ve el aletiyle yapılabilecek kontrol-bakım işleri için uygundur. Ağır bir kalem varsa (örneğin büyük bir armatür değişimi), o işi standart makineyle erişilebilecek şekilde planlarız ya da malzemeyi ayrı taşıyıp montajı örümcek platformdan yaparız.",
+            },
+            {
+                soru: "Bilecik dışındaki bir işletmemizde de örümcek platform kullanabilir misiniz?",
+                cevap:
+                    "Bu sayfa Bilecik merkez, Osmaneli ve Söğüt'teki bakım turlarımızı anlatıyor; bölge dışı bir talep için önce o bölgeye erişimimizi ve makine müsaitliğini değerlendirmemiz gerekir. Bilecik'teki periyodik bakım sözleşmesi kapsamındaki müşterilerimiz için bu ekipman standart olarak turlarımızda hazır bulunuyor.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depo ve atölye ortamlarındaki dar erişim noktalarının varlığı sektörel genel bilgidir; örümcek platformun bakım turuna tamamlayıcı olarak dahil edilmesi ve düşük sıcaklık/dar alan değerlendirmesi firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:nakliye-teslimat-hizmeti": {
+        h1: "Bilecik'te Soğuk Depo ve Atölye Bakımı için Nakliye ve Teslimat Planlaması",
+        giris:
+            "Bilecik'teki bakım işimizin nakliye tarafı, tek bir tesise gidip gelmekten daha karmaşık bir planlama gerektiriyor çünkü aynı hafta içinde iki farklı ortama — Osmaneli'nin soğuk hava depolarına ve Söğüt'ün kereste-mobilya atölyelerine — sevkiyat yapıyoruz. Bu iki ortamın nakliye ihtiyacı birbirinden farklı: soğuk depoya giden makine, sahada uzun süre düşük sıcaklıkta kalacağı için önceden hazırlanmış olmalı; atölyeye giden makine ise tozlu ortama uygun filtre ve elektrik sınıfıyla yola çıkmalı. Nakliye planlamasını bu farka göre kurarız — aynı sevkiyatta iki farklı ortama gidecek makineleri karıştırmayız, her aracı gideceği ortama göre önceden ayarlarız. Periyodik bakım sözleşmesi olan tesislerde teslimat tarihleri önceden bellidir ve bu, hem bizim hem müşterinin planlamasını kolaylaştırır; tek seferlik taleplerde ise teslimat penceresini müşterinin üretim veya depo trafiğine göre ayarlarız.",
+        maddeler: [
+            {
+                baslik: "İki ortam için ayrı hazırlanmış sevkiyat",
+                metin:
+                    "Soğuk depoya gidecek makine, düşük sıcaklıkta test edilmiş hidrolik ve akü sistemiyle yola çıkar; atölyeye gidecek makine ise kapalı tip elektrik aksamı ve toz filtresiyle hazırlanır. Bu ayrımı sevkiyat öncesinde yaparız, sahada fark edip geri dönmeyi göze almayız. Bir günde hem soğuk depoya hem atölyeye gidiliyorsa, iki farklı makine iki ayrı araçla taşınır; tek makineyi iki ortam arasında dolaştırmak, önceki bölümde anlattığımız buğulanma ve performans sorunlarına yol açabilir.",
+            },
+            {
+                baslik: "Teslimat penceresi: doluluk ve üretim takvimine göre",
+                metin:
+                    "Soğuk depoda teslimat penceresi, deponun doluluk döngüsüne göre belirlenir — büyük kapsamlı bakım için raf boşaltmanın mümkün olduğu dönem tercih edilir. Atölyede ise teslimat, kurutma fırınının boşta kaldığı ya da üretim molasının olduğu saatlere denk getirilir. Bu pencereleri müşteriyle önceden konuşup teslimat saatini ona göre planlarız; rastgele bir saatte gelip tesisin o an müsait olmadığını görmek, hem bizim hem müşterinin zamanını boşa harcar.",
+            },
+            {
+                baslik: "Periyodik sözleşmede önceden belirlenmiş takvim",
+                metin:
+                    "Yıllık bakım sözleşmesi olan tesislerde teslimat tarihleri sözleşme başında belirlenir ve bu takvim hem bizim araç planlamamızın hem müşterinin iç organizasyonunun temelini oluşturur. Takvim değişikliği gerektiğinde (örneğin depo doluluğu beklenenden erken doldu) bunu en az birkaç gün önceden karşılıklı bildiririz; son dakika değişiklikleri her iki taraf için de plansız maliyete yol açar.",
+            },
+            {
+                baslik: "Tek seferlik taleplerde teslimat süresi",
+                metin:
+                    "Sözleşmesiz tek seferlik taleplerde teslimat süresi, o anki makine müsaitliğine ve talebin geldiği bölgeye göre değişir. Bilecik merkezdeki üssümüzden Osmaneli'ye ya da Söğüt'e sevkiyat için gereken süreyi telefon görüşmesinde netleştiririz; acil bir durumsa bunu öncelikli olarak değerlendiririz ama sözleşmeli müşterilere verdiğimiz müdahale süresi taahhüdünü sözleşmesiz taleplere aynı şekilde veremeyiz.",
+            },
+            {
+                baslik: "Teslimat sırasında saha kontrolü",
+                metin:
+                    "Makine sahaya ulaştığında, indirmeden önce erişim yolunun (rampa, kapı genişliği, zemin durumu) önceden bildirilen bilgiyle uyuştuğunu kontrol ederiz. Soğuk depoda bu, kapı açıklığı ve raf koridoru genişliğidir; atölyede tezgahlar arası geçiş ve zemin düzlüğüdür. Uyuşmazlık varsa (örneğin kapı bildirilenden dar), sahada alternatif çözüm ararız — bazen bu, önceki bölümde anlattığımız örümcek platformu devreye almak demektir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki ortam için nakliye hazırlığı karşılaştırması",
+                paragraflar: [
+                    "Osmaneli soğuk depo sevkiyatı ile Söğüt atölye sevkiyatının nakliye öncesi hazırlık farkları aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Hazırlık kalemi", "Soğuk depo sevkiyatı", "Atölye sevkiyatı", "Neden farklı"],
+                    satirlar: [
+                        ["Hidrolik/akü", "Düşük sıcaklık testli", "Standart", "Ortam sıcaklığı"],
+                        ["Elektrik sınıfı", "Nemli ortam kapalı tip", "Tozlu ortam kapalı tip", "Farklı risk türü"],
+                        ["Teslimat penceresi", "Depo doluluk döngüsü", "Üretim molası/kurutma boşluğu", "Farklı operasyon takvimi"],
+                        ["Zemin kontrolü", "Buzlanma riski (rampa)", "Toz/talaş birikimi", "Farklı kayma riski"],
+                    ],
+                },
+            },
+            {
+                baslik: "Aynı gün iki ortama teslimat mümkün mü",
+                paragraflar: [
+                    "Osmaneli ve Söğüt arasındaki mesafe, aynı gün içinde iki ayrı sevkiyat yapmamıza izin veriyor ama bunun için iki ayrı araç ve iki ayrı makine kullanırız — tek makineyi iki ortam arasında taşımayız. Sabah soğuk depoya giden araç, öğleden sonra atölyeye giden araçtan bağımsız planlanır; bu, her iki teslimatın da kendi ortamına uygun hazırlıkla yapılmasını garanti eder.",
+                    "Bu ayrım bazen müşteriye gereksiz gibi görünebilir ama nedeni somut: soğuk hacimde çalışmış bir makinenin yüzeyinde oluşan nem, sıcak ve tozlu bir atölyeye girdiğinde elektrik aksamı için risk oluşturabilir. Bu riski almamak için iki ortamı iki ayrı araçla besleriz.",
+                ],
+            },
+            {
+                baslik: "Teslimat gecikmesi durumunda iletişim",
+                paragraflar: [
+                    "Trafik, hava koşulları veya önceki işin uzaması gibi nedenlerle teslimat gecikebilir; bu durumda müşteriyi mümkün olan en erken saatte bilgilendiririz, son dakikaya bırakmayız. Periyodik sözleşme kapsamındaki tesislerde bu iletişim, sözleşmede belirtilen bir irtibat noktası üzerinden yürür; tek seferlik taleplerde ise randevu sırasında bıraktığınız telefon numarası kullanılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk depoya ve atölyeye aynı gün teslimat yapabilir misiniz?",
+                cevap:
+                    "Evet, ama bunun için iki ayrı araç ve iki ayrı makine kullanırız; tek makineyi iki ortam arasında taşımayız çünkü soğuktan sıcağa geçişte oluşan nem elektrik aksamı için risk yaratabilir. Sabah ve öğleden sonra teslimatlarını her ortamın kendi hazırlığına göre ayrı planlarız. Bu, aynı gün iki randevunuz olsa bile her ikisinin de doğru ekipmanla karşılanmasını sağlar.",
+            },
+            {
+                soru: "Teslimat saatini deponun boş olduğu bir saate göre ayarlayabilir misiniz?",
+                cevap:
+                    "Evet, bunu tercih ederiz. Randevu görüşmesinde deponun doluluk durumunu ve raf boşaltma imkanını sorar, teslimatı buna göre planlarız. Rastgele bir saatte gelip deponun o an müsait olmadığını görmek her iki taraf için de zaman kaybı olur; bu yüzden büyük kapsamlı işlerde teslimat penceresini önceden netleştirmeyi standart uygulama hâline getirdik.",
+            },
+            {
+                soru: "Sözleşmesiz tek seferlik bir talepte ne kadar sürede teslimat yapılır?",
+                cevap:
+                    "Bu, o anki makine müsaitliğine ve talebin geldiği bölgeye (Bilecik merkez, Osmaneli, Söğüt) göre değişir; telefon görüşmesinde netleştiririz. Acil durumları öncelikli değerlendiririz ama sözleşmeli müşterilerimize verdiğimiz yazılı müdahale süresi taahhüdünü sözleşmesiz taleplere aynı garantiyle sunamayız — bu fark, sözleşmeli tesislerde makinenin önceden ayrılmış olmasından kaynaklanır.",
+            },
+            {
+                soru: "Makine sahaya vardığında kapı genişliği yetersiz çıkarsa ne olur?",
+                cevap:
+                    "Bu durumda sahada alternatif değerlendiririz — bazen daha dar bir makineye geçmek, bazen örümcek tip platform devreye almak mümkündür. Bu tür sürprizleri en aza indirmek için randevu öncesinde erişim yolu bilgisini (kapı genişliği, koridor ölçüsü, zemin durumu) mümkün olduğunca detaylı sorarız; fotoğraf paylaşılması bu konuda en çok yardımcı olan şey.",
+            },
+            {
+                soru: "Soğuk depoya giden makinenin sahada uzun süre kalması bir sorun yaratır mı?",
+                cevap:
+                    "Sorun yaratmaması için makineyi buna göre hazırlarız — düşük sıcaklıkta hidrolik ve akü performansı test edilmiş üniteler kullanırız ve uzun süreli işlerde akü performansını korumak için sahada bekleme aralıkları planlarız. Çok uzun süreli işlerde (örneğin bir günü aşan bakım) makineyi ara sıra kısa süreliğine ısıtmak gerekebilir; bunu iş planına önceden dahil ederiz.",
+            },
+            {
+                soru: "Nakliye maliyeti Osmaneli ile Söğüt arasında farklı mı?",
+                cevap:
+                    "Mesafe farkı nedeniyle nakliye kalemi değişebilir, ancak periyodik bakım sözleşmesi kapsamındaki tesislerde bu genellikle sözleşme fiyatlandırmasına dahil edilir ve ayrı bir kalem olarak öne çıkmaz. Tek seferlik taleplerde nakliye maliyetini teklif aşamasında ayrıca belirtiriz; bölgesel tura eklenebilecek bir tarih varsa bunu da müşteriye önerip maliyeti azaltmaya çalışırız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Osmaneli ve Söğüt'ün Bilecik merkeze göre konumu kamuya açık genel bilgidir; iki ortam için ayrı sevkiyat hazırlığı, teslimat penceresi planlaması ve saha kontrolü firma saha pratiğidir. Tesis adı, mesafe rakamı ve kapasite verilmemiştir.",
+    },
+
+    "hizmet:forklift-istifleme-kiralama": {
+        h1: "Bilecik'te Soğuk Depo ve Atölye İçin Forklift Kiralama",
+        giris:
+            "Forklift, Bilecik'teki her iki bakım dünyasında da bizim platform işimizin yanında ayrı bir ihtiyaç olarak karşımıza çıkıyor — ama iki ortamda farklı bir rol oynuyor. Osmaneli'deki soğuk hava depolarında forklift, palet istifleme ve raf besleme işinin ana aracı; bizim platform ekibimizle aynı sahada, ama farklı bir aksta çalışıyor, çünkü ikisinin güzergâhı kesişirse çarpışma riski doğuyor. Söğüt'teki kereste ve mobilya atölyelerinde ise forklift, ham kereste yükünü veya bitmiş mobilya paletini taşıyan, daha çok malzeme lojistiği amaçlı bir araç. Bizim kiraladığımız forkliftler, bakım turumuzun bir parçası olarak değil, ayrı bir talep üzerine devreye giriyor — örneğin bir soğuk depoda raf üstü bakım için platform çalışırken, aynı zamanda depo tarafında palet taşıma ihtiyacı varsa forklift de aynı sevkiyata eklenebiliyor. Düşük sıcaklıkta çalışacak forkliftin hidrolik ve yağlama sistemi, atölyede çalışacak forkliftin ise toz filtresi ayrı hazırlanıyor.",
+        maddeler: [
+            {
+                baslik: "Soğuk depoda forklift ve düşük sıcaklık hazırlığı",
+                metin:
+                    "Soğuk hava deposunda çalışacak forkliftin hidrolik yağı ve motor yağlama sistemi düşük sıcaklığa göre seçilmiş olmalıdır; standart bir forklift -18°C'lik bir odada beklenenden yavaş tepki verebilir. Ayrıca lastiklerin soğuk zeminde tutunma performansı da önemlidir çünkü palet indirme-bindirme sırasında ani fren gerekebilir. Bizim soğuk depo işlerinde önerdiğimiz forkliftler bu koşula göre seçilir.",
+            },
+            {
+                baslik: "Atölyede forklift ve toz/malzeme taşıma",
+                metin:
+                    "Kereste ve mobilya atölyelerinde forklift, genellikle ham kereste balyalarını veya bitmiş ürün paletlerini taşır; bu işte kritik olan, çatal genişliğinin taşınacak yükle uyumlu olması ve tozlu ortamda motor filtresinin sık tıkanmamasıdır. Atölye zemini bazen düzensiz olabildiği için forkliftin lastik tipi de zemine göre seçilir — sert kauçuk tekerlek her zemin için uygun olmayabilir.",
+            },
+            {
+                baslik: "Platform ve forklift güzergâh ayrımı",
+                metin:
+                    "Aynı sahada hem platform hem forklift çalışıyorsa, ikisinin güzergâhı fiziksel olarak ayrılır. Bu, önceki bölümlerde anlattığımız koridor bariyerlemesiyle aynı mantık — platform çalışırken forklift o aksa girmez, forklift çalışırken platform o güzergâhtan uzak tutulur. İki ekip arasında sözlü koordinasyon yeterli değildir; bariyer veya işaretleme ile fiziksel ayrım sağlanır.",
+            },
+            {
+                baslik: "Operatörlü mü operatörsüz mü",
+                metin:
+                    "Forklift kiralamasında operatörlü ve operatörsüz seçenek sunuyoruz; soğuk depoda çalışacak operatörün gıda güvenliği prosedürüne, atölyede çalışacak operatörün ise tozlu/yanıcı ortam kurallarına aşina olması gerekir. Kendi operatörünüz varsa, forkliftin bakım kaydını ve güncel muayene belgesini paylaşırız; bizim operatörümüzü tercih ederseniz, o sahaya özel kısa bir bilgilendirme yaparız.",
+            },
+            {
+                baslik: "Kısa süreli ve uzun süreli kiralama farkı",
+                metin:
+                    "Bilecik'teki forklift taleplerinin bir kısmı tek seferlik (bir günlük yükleme-boşaltma), bir kısmı ise uzun süreli (bir haftadan fazla, sezonluk yoğunluk). Uzun süreli kiralamalarda periyodik bakım kontrolünü de sözleşmeye dahil ederiz — forklift de tıpkı platform gibi düzenli kontrol gerektiren bir makine, ve uzun süre sahada kalacaksa bu kontrolü ihmal etmeyiz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki ortamda forklift ihtiyacı karşılaştırması",
+                paragraflar: [
+                    "Soğuk depo ve atölye ortamlarında forklift kullanım amacı ve hazırlık gereksinimleri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Ana kullanım amacı", "Kritik hazırlık", "Zemin/koşul"],
+                    satirlar: [
+                        ["Soğuk depo (Osmaneli)", "Palet istifleme, raf besleme", "Düşük sıcaklık hidrolik/yağlama", "Soğuk, kaygan olabilir"],
+                        ["Atölye (Söğüt)", "Kereste/ürün paleti taşıma", "Toz filtresi, çatal genişliği", "Tozlu, düzensiz olabilir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Platform ile forkliftin aynı sahada koordinasyonu",
+                paragraflar: [
+                    "Aynı bakım ziyaretinde hem platform hem forklift talep edildiğinde, iki ekibin güzergâhını önceden planlarız. Platform bir koridoru bariyerleyip çalışırken, forklift o koridora girmez; forklift palet taşırken platform ekibi o aksa yaklaşmaz. Bu koordinasyonu sahada sözlü olarak değil, önceden belirlenmiş bir plana göre yürütürüz çünkü sözlü koordinasyon yoğun bir depoda kolayca aksayabilir.",
+                    "İki ekibin farklı firmalardan gelmesi durumunda (örneğin forklift işletmenin kendi ekibinde, platform bizden) koordinasyonu depo veya atölye sorumlusu üzerinden yürütürüz; bu, sorumluluk sınırlarını da netleştirir.",
+                ],
+            },
+            {
+                baslik: "Forkliftin bakım kaydı ve muayene belgesi",
+                paragraflar: [
+                    "Kiraladığımız forkliftlerin periyodik bakım kaydı ve güncel muayene belgesi talep üzerine paylaşılır; bu, özellikle gıda depolarında iç denetim süreçleri için işletmenin ihtiyaç duyduğu bir belge olabiliyor. Uzun süreli kiralamalarda forkliftin kendi periyodik bakımını da bizim bakım takvimimize dahil ederiz, ayrı bir hatırlatmaya gerek kalmaz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk depoda forklift ile platform aynı anda çalışabilir mi?",
+                cevap:
+                    "Aynı hacimde çalışabilirler ama aynı koridorda ya da kesişen güzergâhta değil. Depo sorumlusuyla birlikte önceden bir güzergâh planı yaparız — platform bir aksta çalışırken forklift o aksa girmez, forklift palet taşırken platform o güzergâhtan uzak tutulur. Bu ayrım fiziksel bariyer veya işaretlemeyle sağlanır, yalnızca sözlü uyarıya güvenilmez.",
+            },
+            {
+                soru: "Atölyemizde tozlu ortamda çalışacak forklift standart bir modelden farklı mı?",
+                cevap:
+                    "Motor filtresi ve hava giriş sistemi tozlu ortama uygun olmalı, aksi halde filtre sık tıkanır ve performans düşer. Ayrıca zemin düzensizse lastik tipi buna göre seçilir. Atölye taleplerinde bu detayları önceden sorarız; standart bir forkliftle gelip sahada sorun yaşamak yerine, ortamı bilerek hazırlanmış bir makineyle gelmeyi tercih ederiz.",
+            },
+            {
+                soru: "Kendi operatörümüz var, forkliftin bakım geçmişini görebilir miyiz?",
+                cevap:
+                    "Evet, talep üzerine forkliftin periyodik bakım kaydını ve güncel muayene belgesini paylaşırız. Kendi operatörünüzle çalışacaksanız, sahaya özel kısa bir bilgilendirme (örneğin soğuk depoda gıda güvenliği kuralları veya atölyede yanıcı ortam kuralları) yine bizden gelir çünkü bu, makinenin değil sahanın kurallarıdır.",
+            },
+            {
+                soru: "Bir günlük tek seferlik forklift kiralaması mümkün mü?",
+                cevap:
+                    "Evet, kısa süreli tek seferlik kiralama mümkündür ve Bilecik'teki taleplerin önemli bir kısmı bu şekilde. Uzun süreli (bir haftadan fazla) kiralamalarda ise forkliftin periyodik bakımını da sözleşmeye dahil ederiz; kısa süreli kiralamalarda buna gerek kalmaz çünkü makine zaten bizim düzenli bakımlı filomuzdan çıkıyor.",
+            },
+            {
+                soru: "Forklift ile platform aynı sevkiyatta gelebilir mi?",
+                cevap:
+                    "Evet, aynı bakım ziyaretinde ikisi de talep edilirse aynı sevkiyata dahil edebiliriz; bu, ayrı bir nakliye maliyeti oluşturmadan iki ihtiyacı birlikte karşılamamızı sağlar. Randevu öncesinde her iki ihtiyacı da belirtirseniz, iki makineyi de aynı araçla ya da aynı gün içinde ayrı araçlarla planlarız.",
+            },
+            {
+                soru: "Soğuk depoda forkliftin lastikleri kayma riski taşır mı?",
+                cevap:
+                    "Soğuk zeminde, özellikle nemli ya da hafif buzlu bölümlerde standart lastik yeterli tutunmayı sağlamayabilir. Bu riski azaltmak için soğuk depo işlerinde önerdiğimiz forkliftlerde zemine uygun lastik tipini kontrol ederiz; ayrıca operatöre ani fren ve dönüşlerde ekstra dikkat gerektiğini hatırlatırız. Zeminde belirgin buzlanma varsa önce bunun giderilmesini öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depoda palet istifleme ve atölyede malzeme taşıma forkliftin genel kullanım amaçları kamuya açık genel bilgidir; düşük sıcaklık hazırlığı, güzergâh ayrımı ve bakım kaydı paylaşımı firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:eklemli-platform-boom-kiralama": {
+        h1: "Bilecik'te Çatı ve Dış Cephe İşleri için Eklemli Platform Kiralama",
+        giris:
+            "Eklemli platformun (boom) yatay uzanma özelliği, Bilecik'teki iki bakım dünyasında da makaslı platformun çözemediği noktaları çözüyor. Soğuk hava depolarında çatı üzerindeki kondanser üniteleri ve dış cephedeki soğutma ekipmanı, genellikle bir çıkıntının ya da yükleme rampası üst kısmının gerisinde kalıyor — dikey erişim yeterli olmuyor, engelin arkasına doğru yatay uzanmak gerekiyor. Söğüt'teki atölyelerde ise çatı oluk sistemi, dış cephe aydınlatması ve bazen yüksek yığılmış kereste stoklarının üzerinden geçen bir kablo hattı benzer bir yatay erişim ihtiyacı yaratıyor. Biz eklemli platformu bu tür 'engelin arkası' işlerinde kullanıyoruz; düz bir çatı yüzeyinde ya da açık bir dış cephede makaslı platform yeterliyken, çıkıntılı bir yapı ya da sabit engel varsa eklemli platforma geçiyoruz. Bilecik'teki dış mekan işlerinin çoğu mevsimsel — kış öncesi çatı kontrolü, yaz öncesi soğutma ünitesi bakımı gibi — bu yüzden takvimi de mevsime göre kuruyoruz.",
+        maddeler: [
+            {
+                baslik: "Soğuk depo çatısındaki kondanser bakımı",
+                metin:
+                    "Soğuk hava depolarının kondanser üniteleri genellikle çatı üzerinde, bazen bir teknik platform çıkıntısının arkasında konumlanır. Bu üniteye dikey bir makaslı platformla erişmek çoğu zaman mümkün olmaz çünkü çıkıntı erişimi engeller; eklemli platformun yatay uzanan kolu, bu engelin üzerinden ya da yanından geçerek üniteye ulaşmayı sağlar. Kondanser bakımı yaz öncesi yoğunlaşan bir kalem çünkü soğutma yükü en çok o dönemde artıyor.",
+            },
+            {
+                baslik: "Atölye çatı oluk ve dış cephe kontrolü",
+                metin:
+                    "Söğüt'teki atölyelerin çatı oluk sistemi, sonbahar ve kış öncesinde tıkanıklık ve hasar açısından kontrol edilmesi gereken bir kalem. Bazı atölyelerde çatı eğimi ve saçak yapısı, dikey erişimi zorlaştırıyor; bu durumda eklemli platform hem yatay uzanarak hem de dönerek saçak altına erişimi sağlıyor. Aynı ziyarette dış cephe aydınlatması da kontrol edilebiliyor çünkü ikisi de benzer bir erişim yüksekliğinde.",
+            },
+            {
+                baslik: "Yükleme rampası üstü çalışma",
+                metin:
+                    "Soğuk depoların yükleme rampalarının üzerinde genellikle bir gölgelik veya hava perdesi sistemi bulunur ve bu, rampanın hemen üzerinde çalışmayı gerektirir — ama rampa altında araç trafiği sürekli olduğu için çalışma saatini buna göre planlamak gerekir. Eklemli platformu rampa yanına konumlandırıp kolu rampa üzerine uzatarak, araç trafiğini tamamen durdurmadan çalışabiliyoruz; bu, depo operasyonunu kesintiye uğratmayan bir yöntem.",
+            },
+            {
+                baslik: "Yığılmış malzeme üzerinden geçen hatlar",
+                metin:
+                    "Bazı atölyelerde kablo veya aydınlatma hattı, yüksek yığılmış kereste stoklarının üzerinden geçer; bu stokları taşımadan hatta erişmek için eklemli platformun yatay uzanma özelliği kullanılır. Stokun üzerinden değil, yanından dolanarak hatta ulaşmak, hem stoku bozmamayı hem de daha güvenli bir erişimi sağlıyor. Bu tür işlerde stok yerleşimi keşifte fotoğraflanır ve erişim rotası önceden planlanır.",
+            },
+            {
+                baslik: "Mevsimsel bakım takvimi",
+                metin:
+                    "Dış mekan işlerinin çoğu mevsime bağlı: kondanser bakımı yaz öncesi, çatı-oluk kontrolü sonbahar-kış öncesi yoğunlaşıyor. Bilecik'teki periyodik bakım sözleşmelerinde bu mevsimsel kalemleri takvime önceden yazıyoruz; havanın uygun olmadığı günlerde (yoğun yağış, don) dış mekan işini erteleyip iç mekan kalemine geçiyoruz, bu esnekliği sözleşmede baştan tanımlıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki ortamda eklemli platform kullanım noktaları",
+                paragraflar: [
+                    "Soğuk depo ve atölye dış mekanlarında eklemli platformun kullanıldığı tipik noktalar ve mevsimsel yoğunluk aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Erişim noktası", "Mevsimsel yoğunluk", "Neden eklemli"],
+                    satirlar: [
+                        ["Soğuk depo", "Çatı kondanser ünitesi", "Yaz öncesi", "Çıkıntı arkası erişim"],
+                        ["Soğuk depo", "Yükleme rampası üstü", "Yıl boyu", "Trafik durdurmadan yatay yaklaşım"],
+                        ["Atölye", "Çatı oluk sistemi", "Sonbahar-kış öncesi", "Saçak altı dönerek erişim"],
+                        ["Atölye", "Stok üzeri kablo hattı", "Yıl boyu", "Stok bozmadan yatay geçiş"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dış mekan çalışmasında hava koşulu kuralı",
+                paragraflar: [
+                    "Eklemli platformla dış mekanda çalışırken rüzgâr ve yağış durumu güvenlik açısından belirleyicidir; belirli bir rüzgâr hızının üzerinde ya da yoğun yağış altında yüksekte çalışma ertelenir. Bilecik'te kış aylarında donma riski de ayrıca değerlendirilir çünkü çatı yüzeyi ve rampa zemini buzlanabilir. Bu kararı sahadaki ekip verir; müşteriden bu kararı esnetmesini istemeyiz.",
+                    "Hava koşulu nedeniyle ertelenen bir iş, periyodik sözleşme kapsamındaysa bir sonraki uygun güne otomatik olarak kaydırılır; müşteriye ayrıca haber verilir ve yeni tarih birlikte belirlenir.",
+                ],
+            },
+            {
+                baslik: "Makaslı mı eklemli mi: dış mekan kararı",
+                paragraflar: [
+                    "Düz bir çatı yüzeyinde veya açık bir dış cephede, hedefin altına dikey olarak yanaşılabiliyorsa makaslı platform daha geniş sepeti ve basit hareketiyle yeterli olur. Ama çıkıntı, saçak, rampa üstü gölgelik gibi bir engel varsa ve hedef bu engelin arkasında ya da üzerinde kalıyorsa eklemli platforma geçilir. Bu kararı keşifte, hedefin fotoğrafı ve çevresindeki yapısal engeller değerlendirilerek veririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Soğuk depo çatısındaki kondanser ünitesine her zaman eklemli platform mu gerekir?",
+                cevap:
+                    "Çoğu zaman evet, çünkü kondanser üniteleri genellikle bir çıkıntının ya da teknik platform kenarının arkasında konumlanır ve dikey erişim yetersiz kalır. Ancak bazı depo tiplerinde kondanser açık bir çatı alanında, engelsiz konumdadır; bu durumda makaslı platform da yeterli olabilir. Keşifte üniteye giden yolu değerlendirip doğru makineyi öneririz.",
+            },
+            {
+                soru: "Yükleme rampası üstünde çalışırken araç trafiği durur mu?",
+                cevap:
+                    "Genellikle tam durdurma gerekmez; eklemli platformu rampa yanına konumlandırıp kolu üzerine uzatarak çalışırız, bu da rampa altındaki trafiğin kısmen devam etmesine izin verir. Ancak yoğun trafik saatlerinde güvenlik açısından geçici bir yavaşlatma isteyebiliriz. Depo yönetimiyle bu detayı önceden konuşup en uygun çalışma saatini belirleriz.",
+            },
+            {
+                soru: "Atölyemizin çatı oluğu kontrolünü kurutma fırını bakımıyla aynı ziyarette yapabilir misiniz?",
+                cevap:
+                    "Evet, ikisi de tavan/çatı seviyesinde çalışıldığı için sıkça birleştirdiğimiz bir kombinasyon. Sonbahar döneminde yaptığımız kış öncesi turda bu ikisini genellikle aynı ziyarete yazarız; bu, atölye sahibine hem zaman hem maliyet avantajı sağlar.",
+            },
+            {
+                soru: "Rüzgârlı bir günde eklemli platform çalışabilir mi?",
+                cevap:
+                    "Belirli bir rüzgâr hızının üzerinde yüksekte çalışma güvenlik nedeniyle ertelenir; bu kararı sahadaki ekip verir ve esnetmeyiz. Periyodik sözleşme kapsamındaki işlerde ertelenen çalışma otomatik olarak bir sonraki uygun güne kaydırılır ve müşteriye haber verilir. Acil bir durum değilse, güvenli bir günü beklemek her zaman daha doğru sonuç verir.",
+            },
+            {
+                soru: "Yüksek yığılmış kereste stokunun üzerinden geçen bir kablo hattına nasıl erişiyorsunuz?",
+                cevap:
+                    "Stokun üzerinden değil, yanından dolanarak eklemli platformun kolunu hatta uzatırız; bu, stoku taşımadan ve bozmadan çalışmayı sağlar. Keşifte stok yerleşimini fotoğraflarız ve en güvenli erişim rotasını önceden planlarız. Stok yerleşimi iş gününde değişmişse, sahada rotayı yeniden değerlendiririz.",
+            },
+            {
+                soru: "Kış aylarında çatı ve rampa işlerinde donma riski nasıl yönetiliyor?",
+                cevap:
+                    "Çatı yüzeyi ve rampa zemininde buzlanma varsa, çalışmaya başlamadan önce bu riski değerlendiririz; belirgin buzlanma varsa işi erteleriz ya da önce zeminin temizlenmesini isteriz. Donmuş bir yüzeyde makinenin ve ekibin güvenliği için bu konuda esnek davranmayız; periyodik sözleşme kapsamındaki kış işlerinde bu riski takvime baştan dahil ederiz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depo çatı ekipmanı ve atölye çatı-oluk sisteminin genel varlığı sektörel bilgidir; eklemli platformun engel arkası erişim mantığı, mevsimsel takvim ve hava koşulu kuralı firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:ic-mekan-depo-platform-kiralama": {
+        h1: "Bilecik'te İç Mekân Platform Kiralama: Kapalı Ortam Ekipman Gereksinimleri",
+        giris:
+            "İç mekanda çalışan bir platformun kapalı ortama uygun olması, Bilecik'teki her iki dünyada da tartışmasız bir kural — ama 'uygun' kelimesinin anlamı ortama göre değişiyor. Soğuk hava deposunda kapalı ortam uygunluğu, düşük sıcaklıkta güvenilir çalışma ve gıda güvenliği kurallarına uyum anlamına geliyor; egzoz gazı olmayan akülü makine burada tek seçenek çünkü kapalı bir soğuk hacimde yanmalı motor kullanmak hem havalandırma hem gıda güvenliği açısından kabul edilemez. Söğüt'teki bir kereste veya mobilya atölyesinde ise kapalı ortam uygunluğu, tozlu havada elektrik aksamının korunması ve cila kabini gibi patlayıcı ortam sınıflı bölümlerde özel elektrik sertifikası anlamına geliyor. İkisinde de ortak nokta akülü, egzozsuz makine kullanımı; fark, o akülü makinenin hangi ek özelliklere sahip olması gerektiği. Bilecik'teki iç mekan taleplerimizde ilk sorduğumuz soru her zaman ortamın türü — bu, hangi makineyi göndereceğimizi belirleyen ilk filtre.",
+        maddeler: [
+            {
+                baslik: "Egzozsuz makine: her iki ortamda da zorunlu",
+                metin:
+                    "Kapalı soğuk depo hacminde ve kapalı atölye hacminde, yanmalı motorlu bir platform kullanmayız — havalandırma yetersiz kaldığında karbon monoksit birikimi riski oluşur ve bu, açık alan işlerinden farklı olarak burada tolere edilemez. Akülü elektrikli makine, her iki ortamda da standart tercihimiz; farkı, aküsünün ve motorunun ortam koşuluna göre hazırlanmış olmasıdır.",
+            },
+            {
+                baslik: "Soğuk depoda gıda güvenliği uyumu",
+                metin:
+                    "Soğuk hava deposunda çalışan makine, gıda güvenliği kurallarının bir parçası olarak değerlendirilir — tekerlek temizliği, hidrolik sızıntı kontrolü ve ürün üzerine damlama riski olmadığının teyidi girişte standart uygulamamızdır. Bu kontrolü işletme talep etmeden yaparız çünkü soğuk depo işletmecisinin denetim sorumluluğu bizim ekipmanımızı da kapsıyor.",
+            },
+            {
+                baslik: "Atölyede patlayıcı ortam sınıfı",
+                metin:
+                    "Cila ve vernik kabini gibi patlayıcı ortam riski taşıyan bölümlerde çalışacak makine, standart elektrik sınıfından değil, patlayıcı ortam kurallarına uygun elektrik sınıfından olmalıdır. Bu, standart bir iç mekan makinesiyle karıştırılmaması gereken ayrı bir kategori; bu bölümlere gönderdiğimiz makineler özel olarak bu kurala göre seçilir.",
+            },
+            {
+                baslik: "Zemin koruması ve iz bırakmama",
+                metin:
+                    "İç mekan işlerinde tekerlek izi, özellikle soğuk depo betonunda ya da atölye zemin kaplamasında istenmeyen bir sonuç. Beyaz iz bırakmayan tekerlek tipi kullanırız ve gerektiğinde zemin koruma örtüsü seriz. Soğuk depoda ürün rafları arasında çalışırken zemin kayganlığı da ayrıca dikkat gerektirir; makine hızını buna göre ayarlarız.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve dar koridor uyumu",
+                metin:
+                    "İç mekan platformları genellikle dar koridorlara ve alçak kapılardan geçecek şekilde tasarlanır; soğuk depo raf koridorları ve atölye tezgah aralıkları bu açıdan benzer kısıtlar taşır. Makine seçimi, koridor genişliği ve hedef yüksekliğine göre yapılır — gereğinden büyük bir makine dar koridora sığmayabilir, gereğinden küçük bir makine ise hedefe ulaşamayabilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekan makine gereksinimleri karşılaştırması",
+                paragraflar: [
+                    "Soğuk depo ve atölye iç mekanlarında platform seçiminde aranan özellikler aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Gereksinim", "Soğuk depo (Osmaneli)", "Atölye (Söğüt)", "Ortak nokta"],
+                    satirlar: [
+                        ["Motor tipi", "Akülü, düşük sıcaklık testli", "Akülü, kapalı tip", "Egzozsuz"],
+                        ["Elektrik sınıfı", "Nemli ortam kapalı tip", "Patlayıcı ortam sınıfı (cila kabini)", "Kapalı tip elektrik"],
+                        ["Zemin koruması", "İz bırakmayan tekerlek", "İz bırakmayan tekerlek", "Beyaz iz yok"],
+                        ["Ek kontrol", "Gıda güvenliği hijyen kontrolü", "Yanıcı toz temizliği", "Girişte standart kontrol"],
+                    ],
+                },
+            },
+            {
+                baslik: "İlk sorduğumuz soru: ortam türü",
+                paragraflar: [
+                    "Bilecik'teki bir iç mekan talebinde ilk sorduğumuz şey, çalışılacak ortamın türüdür — soğuk depo mu, standart atölye mi, yoksa patlayıcı ortam sınıflı bir bölüm mü (cila kabini gibi). Bu sınıflandırma, hangi makinenin gönderileceğini belirleyen ilk filtredir ve bunu atlayıp genel bir 'iç mekan makinesi' göndermeyiz çünkü ortam yanlış sınıflandırılırsa hem güvenlik hem verim kaybı yaşanır.",
+                    "İkinci soru koridor ve kapı ölçüleridir; bu bilgi genellikle telefonda tam netleşmez, bu yüzden mümkünse fotoğraf isteriz ya da keşif randevusu öneririz.",
+                ],
+            },
+            {
+                baslik: "Sözleşmeli iç mekan bakımında makine sürekliliği",
+                paragraflar: [
+                    "Periyodik bakım sözleşmesi olan tesislerde, mümkün olduğunca aynı makineyi ya da aynı sınıftan bir makineyi tekrar göndeririz; bu, operatörün tesise ve tesisin makineye alışmasını kolaylaştırır. Makine değişikliği gerektiğinde (bakım, arıza) bunu önceden bildirir, yeni makinenin aynı gereksinimleri karşıladığını teyit ederiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "İç mekanda neden her zaman akülü makine kullanıyorsunuz?",
+                cevap:
+                    "Kapalı bir hacimde yanmalı motorlu makine kullanmak, havalandırma yetersiz kaldığında karbon monoksit birikimi riski taşır; bu risk soğuk depo ve atölye gibi kapalı hacimlerde kabul edilemez. Akülü elektrikli makine, egzoz gazı üretmediği için iç mekan işlerimizde standart tercihimizdir; farklı ortamlara göre bu makinenin ek özellikleri (düşük sıcaklık uyumu, patlayıcı ortam sınıfı) değişir.",
+            },
+            {
+                soru: "Cila kabininde çalışacak makineye özel bir belge gerekiyor mu?",
+                cevap:
+                    "Patlayıcı ortam sınıfına uygun elektrik donanımı olan makineler kullanırız ve bu makinelerin uygunluğuna dair bilgiyi talep üzerine paylaşırız. Standart bir iç mekan makinesiyle bu bölüme girmeyiz; bu, hem işçi sağlığı hem yangın güvenliği açısından tartışmaya açık olmayan bir kuraldır.",
+            },
+            {
+                soru: "Soğuk depoda çalışacak makine zemine iz bırakır mı?",
+                cevap:
+                    "Beyaz iz bırakmayan tekerlek tipi kullandığımız için normal koşullarda iz bırakmaz. Ancak zemin çok soğuksa ve tekerlek uzun süre aynı noktada durursa hafif bir baskı izi oluşabilir; bu, kalıcı bir hasar değildir ama hassas zeminlerde ekstra dikkatli oluruz. Zemin koruma örtüsü talep edilirse bunu da uygularız.",
+            },
+            {
+                soru: "Dar bir koridora sığacak makineyi nasıl belirliyorsunuz?",
+                cevap:
+                    "Koridor genişliğini ve varsa daralan noktaları (kolon, palet çıkması) önceden sorarız, mümkünse fotoğraf isteriz. Bu ölçüye göre standart iç mekan makinesi mi yoksa daha dar bir model mi gerektiğine karar veririz; sınırda kalan durumlarda daha dar seçeneği tercih ederiz çünkü sahada sığmayan bir makineyle karşılaşmak işi baştan aksatır.",
+            },
+            {
+                soru: "Periyodik sözleşmemizde her seferinde aynı makineyi mi gönderiyorsunuz?",
+                cevap:
+                    "Mümkün olduğunca evet, çünkü bu operatörün ve tesisin birbirine alışmasını kolaylaştırır. Makine bakımda ya da arızalıysa aynı sınıftan başka bir makine göndeririz ve bunu önceden haber veririz; yeni makinenin sizin ortamınızın gereksinimlerini (düşük sıcaklık, patlayıcı ortam sınıfı vb.) karşıladığını her zaman teyit ederiz.",
+            },
+            {
+                soru: "Soğuk depo ile standart bir atölyenin iç mekan makinesi aynı mı?",
+                cevap:
+                    "Temel özellik (akülü, egzozsuz) aynı ama ek gereksinimler farklı — soğuk depo makinesi düşük sıcaklıkta hidrolik ve akü performansı test edilmiş olmalı, atölye makinesi ise tozlu ortama uygun kapalı tip elektrik aksamı taşımalı. Bu yüzden aynı makineyi iki ortam arasında değiştirmeden kullanmayız; her ortam kendi hazırlanmış makinesiyle karşılanır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Kapalı ortamda egzozsuz makine kullanımı ve patlayıcı ortam sınıfı elektrik gerekliliği sektörel genel bilgidir; soğuk depo gıda güvenliği kontrolü ve makine sürekliliği yaklaşımı firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:celik-konstruksiyon-montaj-platformu": {
+        h1: "Bilecik'te Kurulu Çelik Konstrüksiyonun Periyodik Bakım ve Onarım Platformu",
+        giris:
+            "Bu sayfa yeni bir çelik konstrüksiyonun montajını değil, Bilecik'teki soğuk depo raf sistemleri ve atölye çatı-taşıyıcı yapılarının kurulduktan sonraki periyodik bakımını ve küçük onarımını anlatıyor — sıfırdan kurulum ve devreye alma bilecikplatform.com'daki proje fazı kayıtlarında ele alınıyor, biz burada yıllarca sürecek ömür boyu bakımı konu ediyoruz. Osmaneli'deki soğuk depolarda raf çelik konstrüksiyonu, sürekli sıcaklık farkına maruz kaldığı için bağlantı noktalarında oda sıcaklığındaki yapılara göre daha erken yorulma gösterebiliyor; Söğüt'teki atölyelerde ise çatı taşıyıcı kirişleri ve asma kat bağlantıları, titreşim (vantilatör, kesim hattı) ve zamanla oluşan gevşemeye karşı periyodik kontrol istiyor. İkisinde de yaptığımız iş aynı: bağlantı noktalarını görsel ve fiziksel kontrolden geçirmek, gevşeme ya da korozyon belirtisi varsa bunu erken kaydedip müdahale etmek. Bu, yapısal bir mühendislik değerlendirmesi değil — ciddi bir yapısal şüphe varsa bunu mühendislik değerlendirmesine yönlendiririz, biz erişim ve gözlem sağlıyoruz.",
+        maddeler: [
+            {
+                baslik: "Soğuk depo raf konstrüksiyonunda sıcaklık yorgunluğu",
+                metin:
+                    "Soğuk depo raf sistemleri, çelik konstrüksiyonun sürekli sıcaklık farkına maruz kalmasından dolayı oda sıcaklığındaki depolara göre daha erken bağlantı yorulması gösterebilir. Periyodik bakım turunda üst travers bağlantılarını ve ayak sabitlemelerini kontrol ederiz; bu, önceki bölümde Osmaneli sayfasında anlattığımız kontrolle aynı fiziksel işlem ama burada odak noktası spesifik olarak çelik yapının kendisi ve zaman içindeki değişimi.",
+            },
+            {
+                baslik: "Atölye çatı kirişi ve titreşim etkisi",
+                metin:
+                    "Kereste ve mobilya atölyelerinde çatı taşıyıcı kirişleri, kurutma fırını vantilatörü veya kesim hattı gibi titreşim üreten ekipmanın yakınında olduğunda, zamanla bağlantı cıvatalarında gevşeme görülebilir. Periyodik kontrolde bu bağlantıları tork anahtarıyla kontrol eder, gevşeme tespit edilirse bunu kaydeder ve gerekiyorsa sıkma işlemini yaparız; ciddi bir deformasyon şüphesi varsa mühendislik değerlendirmesi önerir, kendimiz karar vermeyiz.",
+            },
+            {
+                baslik: "Korozyon: soğuk depoda nem, atölyede kimyasal buhar",
+                metin:
+                    "Soğuk depoda çelik konstrüksiyon, buz çözme suyunun sıçraması veya yoğuşma nedeniyle nemli kalabilir ve bu, uzun vadede korozyona yol açabilir. Atölyede ise cila-vernik kabini yakınındaki çelik yapı, kimyasal buhara maruz kalarak farklı bir korozyon türü yaşayabilir. Periyodik ziyarette her iki türü de görsel olarak kontrol eder, boya kaybı veya paslanma başlangıcı görürsek bunu kaydederiz.",
+            },
+            {
+                baslik: "Kaynak montaj değil, bakım ve küçük onarım",
+                metin:
+                    "Bu hizmet kapsamında yeni bir çelik parça kaynaklamıyoruz ya da yeni bir raf sistemi kurmuyoruz; yaptığımız iş, mevcut yapının erişimini sağlamak ve gördüğümüz küçük sorunları (gevşek cıvata, hafif korozyon) kaydetmek ya da basit müdahaleyle çözmektir. Yapısal bir müdahale (kaynak, parça değişimi) gerekiyorsa bunu işletmenin kendi mühendislik ekibine ya da uzman firmaya yönlendiririz — bu, sorumluluk sınırlarını net tutmak için önemli.",
+            },
+            {
+                baslik: "Kontrol kaydının uzun vadeli değeri",
+                metin:
+                    "Her periyodik ziyarette çelik konstrüksiyon kontrolünü kayıt altına alırız — hangi bağlantı noktasında ne görüldü, bir önceki ziyarete göre değişim var mı. Bu kayıt, zamanla tesise özgü bir 'yapısal geçmiş' oluşturur ve özellikle sıcaklık farkına maruz soğuk depo raflarında, erken uyarı sağlayan bir araç hâline gelir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki ortamda çelik konstrüksiyon bakım kalemleri",
+                paragraflar: [
+                    "Soğuk depo raf konstrüksiyonu ile atölye çatı-taşıyıcı yapısında kontrol ettiğimiz kalemler aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Soğuk depo (raf)", "Atölye (çatı/kiriş)", "Kontrol yöntemi"],
+                    satirlar: [
+                        ["Bağlantı gevşemesi", "Üst travers-ayak", "Titreşim kaynaklı cıvata", "Tork anahtarı, görsel"],
+                        ["Korozyon", "Nem/buz çözme suyu", "Kimyasal buhar (cila yakını)", "Görsel, boya kaybı takibi"],
+                        ["Deformasyon şüphesi", "Forklift çarpma izi", "Aşırı yük/titreşim", "Mühendisliğe yönlendirme"],
+                        ["Kayıt", "Ziyaretten ziyarete karşılaştırma", "Ziyaretten ziyarete karşılaştırma", "Yazılı bakım kaydı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sorumluluk sınırı: erişim ve gözlem, mühendislik değil",
+                paragraflar: [
+                    "Bu hizmetin sınırlarını net tutuyoruz: biz erişim sağlıyoruz, görsel ve basit fiziksel kontrol yapıyoruz, gördüğümüzü kaydediyoruz. Yapısal bütünlük hakkında mühendislik kararı vermiyoruz — ciddi bir deformasyon, çatlak veya aşırı korozyon şüphesi gördüğümüzde bunu işletmeye bildirir, uzman değerlendirmesi önereriz. Bu ayrım, hem bizim hem işletmenin sorumluluğunu netleştirir.",
+                ],
+            },
+            {
+                baslik: "Periyodik sözleşmede çelik konstrüksiyon kontrolünün yeri",
+                paragraflar: [
+                    "Yıllık bakım sözleşmelerimizde çelik konstrüksiyon kontrolünü genellikle 3-6 aylık bir periyotla diğer bakım kalemlerine (evaporatör, kurutma fırını vb.) entegre ederiz — ayrı bir ziyaret gerektirmeden, aynı erişim turunda çelik bağlantıları da gözden geçiririz. Bu, hem maliyet hem verimlilik açısından işletme için avantajlıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Bu hizmet yeni bir raf sistemi kurulumunu kapsıyor mu?",
+                cevap:
+                    "Hayır, bu sayfa kurulu ve devreye alınmış çelik konstrüksiyonun periyodik bakımını ve küçük onarımını konu ediyor. Yeni kurulum, proje fazı ve montaj sıralaması ayrı bir kapsam — bu tür bir talebiniz varsa bunu ayrıca değerlendirebiliriz ama buradaki hizmetimiz mevcut yapının bakımı üzerine kurulu.",
+            },
+            {
+                soru: "Bağlantı noktasında gevşeme bulursanız ne yapıyorsunuz?",
+                cevap:
+                    "Basit bir cıvata gevşemesiyse tork anahtarıyla sıkma işlemini yaparız ve bunu kayıt altına alırız. Eğer gevşemenin nedeni belirsizse veya tekrarlıyorsa (örneğin aynı nokta birkaç ziyarette de gevşek çıkıyorsa), bunu ayrıca işaretler ve kök nedenin araştırılmasını öneririz — bazen bu, titreşim kaynağının incelenmesi anlamına gelir.",
+            },
+            {
+                soru: "Korozyon veya çatlak şüphesi gördüğünüzde ne yapıyorsunuz?",
+                cevap:
+                    "Bunu fotoğraflar, konumunu kaydeder ve işletmeye bildiririz; kendimiz yapısal bir karar vermeyiz. Ciddi bir şüphe varsa (derin korozyon, görünür çatlak, deformasyon), o bölgenin kullanımının geçici olarak sınırlanmasını ve mühendislik değerlendirmesi yaptırılmasını öneririz. Bu, işletmenin güvenliği için atlamayacağımız bir adım.",
+            },
+            {
+                soru: "Çelik konstrüksiyon kontrolü ayrı bir ziyaret mi gerektiriyor?",
+                cevap:
+                    "Genellikle hayır; periyodik sözleşme kapsamındaki tesislerde bu kontrolü diğer bakım kalemleriyle (evaporatör, kurutma fırını, aydınlatma) aynı erişim turuna entegre ederiz. Ayrı bir ziyaret sadece özel bir şüphe ya da talep varsa gerekir.",
+            },
+            {
+                soru: "Forklift çarpmasından şüphelendiğimiz bir raf ayağını kontrol edebilir misiniz?",
+                cevap:
+                    "Evet, bu tür noktaları özellikle işaretleyip kontrol ederiz. Görsel deformasyon varsa fotoğraflar ve işletmeye bildiririz; ciddi bir eğilme veya kırılma şüphesi varsa o rafın kullanımının derhal durdurulmasını ve mühendislik değerlendirmesi yapılmasını öneririz — bu konuda temkinli davranmayı tercih ederiz.",
+            },
+            {
+                soru: "Atölyedeki çatı kirişi bağlantılarını kontrol etmek için üretim durmalı mı?",
+                cevap:
+                    "Genellikle hayır; kontrol platformla erişim gerektirir ama üretim hattının tamamen durmasını zorunlu kılmaz. Ancak titreşim kaynağı olan makinenin (vantilatör, kesim hattı) o an çalışıyor olması ölçüm doğruluğunu etkileyebilir, bu yüzden mümkünse kısa bir duraklama isteriz. Bunu üretim takviminize göre planlarız.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depoda sıcaklık farkına bağlı çelik yorgunluğu ve atölyede titreşim kaynaklı bağlantı gevşemesi genel mühendislik bilgisidir; kontrol yöntemi, kayıt tutma ve mühendisliğe yönlendirme sınırı firma saha pratiğidir. Yapısal mühendislik hizmeti sunulmamaktadır; tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:tarim-silo-platform-kiralama": {
+        h1: "Bilecik'te Tarımsal Depolama ve Silo Yapılarına Bakım Platformu",
+        giris:
+            "Bilecik'in tarımsal üretim geleneği, ilin soğuk zincir gıda lojistiği kimliğiyle aslında iç içe geçiyor — bölgede yetişen ürünlerin bir kısmı doğrudan soğuk depolara, bir kısmı ise tahıl veya yem amaçlı silo yapılarına gidiyor. Bizim bu alandaki işimiz, kurulu silo ve tarımsal depolama yapılarının periyodik bakımı: silo dış cephesinin ve çatı bağlantılarının kontrolü, iç aydınlatma ve havalandırma sisteminin bakımı, dolum-boşaltma ağzı çevresindeki mekanik aksamın kontrolü. Bu yapılar genellikle Bilecik merkez ve çevresindeki kırsal alanlarda, soğuk depo ve atölyelere göre daha dağınık konumlanıyor; bu yüzden bakım turlarımızı planlarken hem tesisin kendi doluluk döngüsünü (hasat sonrası dolum, sevkiyat öncesi boşaltma) hem de aracımızın diğer bölgesel duraklara olan mesafesini birlikte değerlendiriyoruz. Silo yapılarının bakımı, tarımsal ürün depolama sezonuna göre yoğunlaşan mevsimsel bir iş — bu yüzden takvimimizi hasat dönemine göre önceden kuruyoruz.",
+        maddeler: [
+            {
+                baslik: "Silo dış cephe ve çatı bağlantı kontrolü",
+                metin:
+                    "Silo yapılarının dış cephesi ve çatı bağlantı noktaları, açık havada sürekli hava koşullarına maruz kalır ve zamanla korozyon veya bağlantı gevşemesi gösterebilir. Periyodik bakım turunda dış merdiven, üst platform ve çatı bağlantılarını görsel olarak kontrol eder, gördüğümüz aşınmayı kaydederiz. Bu kontrol, önceki bölümde anlattığımız çelik konstrüksiyon bakımıyla benzer bir mantık taşır ama burada ortam kapalı bir depo değil, tamamen açık hava.",
+            },
+            {
+                baslik: "İç havalandırma ve nem kontrolü",
+                metin:
+                    "Tarımsal ürün depolamada iç havalandırma sistemi, ürünün nem oranını kontrol altında tutmak için kritik bir bileşen. Havalandırma fanının ve kanal sisteminin periyodik kontrolü, ürün bozulmasını önlemek açısından önemli; bu kontrolü genellikle depolama sezonunun başında ve ortasında yaparız çünkü fan arızası, dolu bir siloda fark edilmesi geciken bir sorun olabilir.",
+            },
+            {
+                baslik: "Dolum-boşaltma ağzı çevresi mekanik kontrol",
+                metin:
+                    "Silonun üst dolum ağzı ve alt boşaltma mekanizması, en sık kullanılan ve dolayısıyla en sık aşınan noktalar. Bu bölgelere erişim genellikle dar bir platform ya da merdiven gerektirir; bizim platform ekibimiz bu noktalara erişip mekanik aksamın (kapak, contalar, tahliye vidaları) görsel kontrolünü yapar. Mekanik parçanın kendisinin bakımı genellikle tarım ekipmanı uzmanının işi; biz erişimi sağlıyoruz ve gözlem yapıyoruz.",
+            },
+            {
+                baslik: "Hasat sonrası dolum yoğunluğuna göre takvim",
+                metin:
+                    "Silo bakımının en yoğun talep aldığı dönem, hasat sonrası dolum öncesi ve dolum sonrası ilk kontrol dönemi. Bu dönemde bakım turlarını önceden planlarız çünkü hasat takvimi tahmin edilebilir bir mevsimsellik taşır. Hasat dışı dönemlerde ise silo bakımı daha seyrek ve daha az acil bir kalem hâline gelir; bu farkı bakım sözleşmesine yansıtırız.",
+            },
+            {
+                baslik: "Kırsal konumdaki erişim zorlukları",
+                metin:
+                    "Bilecik çevresindeki tarımsal tesisler, soğuk depo ve atölyelere göre daha kırsal ve dağınık konumlanabiliyor; bu, bazen düz olmayan bir toprak yol üzerinden erişim gerektiriyor. Bu tür durumlarda makine seçimini zemine göre yapıyoruz — standart lastikli platform yerine, gerektiğinde daha geniş tabanlı ya da paletli bir seçenek değerlendiriyoruz. Bu konuyu ayrıntılı olarak zor zemin hizmetimizde ele alıyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Silo bakım kalemleri ve mevsimsel yoğunluk",
+                paragraflar: [
+                    "Tarımsal depolama ve silo yapılarında kontrol ettiğimiz kalemler ve mevsimsel yoğunlukları aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kalem", "Kontrol sıklığı", "Yoğun dönem", "Erişim türü"],
+                    satirlar: [
+                        ["Dış cephe-çatı bağlantı", "Yılda 1-2", "Hasat sonrası", "Merdiven/platform"],
+                        ["İç havalandırma-fan", "Sezon başı ve ortası", "Depolama sezonu", "İç erişim"],
+                        ["Dolum-boşaltma mekanizması", "Hasat öncesi", "Hasat dönemi", "Dar platform"],
+                        ["Genel görsel kontrol", "Periyodik ziyaretlerde", "Yıl boyu", "Dış cephe"],
+                    ],
+                },
+            },
+            {
+                baslik: "Soğuk zincir ile silo depolamanın kesişimi",
+                paragraflar: [
+                    "Bilecik'teki tarımsal ürünlerin bir kısmı doğrudan soğuk depolara giderken bir kısmı silo tipi kuru depolamaya yönlendiriliyor; bu, ilin tarım ve soğuk zincir kimliğinin aslında birbirinden ayrı değil, aynı lojistik ağın iki farklı ucu olduğunu gösteriyor. Bizim bakım hizmetimiz açısından bu, aynı müşteri portföyünde hem soğuk depo hem silo bakımı talep eden işletmelerle karşılaşabileceğimiz anlamına geliyor; böyle bir durumda iki hizmeti aynı bakım sözleşmesi altında, ayrı periyotlarla planlarız.",
+                ],
+            },
+            {
+                baslik: "Tarım ekipmanı uzmanlığıyla sınır",
+                paragraflar: [
+                    "Silo içindeki mekanik dolum-boşaltma sisteminin kendisi (motor, vida mili, elektronik kontrol) genellikle tarım ekipmanı uzmanının bakım alanına girer; biz bu sisteme erişim sağlıyoruz ve dışarıdan görsel kontrol yapıyoruz, mekanik parçanın kendi bakımını üstlenmiyoruz. Ciddi bir mekanik arıza şüphesi gördüğümüzde bunu işletmeye bildirir, ilgili uzmana yönlendiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Silo bakımını hangi mevsimde yaptırmalıyız?",
+                cevap:
+                    "En yoğun ihtiyaç hasat sonrası dolum öncesi ve dolum sonrası ilk kontrol dönemidir; bu dönemde dış cephe, çatı bağlantı ve havalandırma sistemini kontrol etmenizi öneririz. Hasat dışı dönemlerde daha seyrek bir genel kontrol yeterli olabilir. Kendi hasat takviminizi bize bildirirseniz, bakım turunu buna göre önceden planlarız.",
+            },
+            {
+                soru: "Silonun iç havalandırma fanı arızalanırsa ürün ne kadar sürede etkilenir?",
+                cevap:
+                    "Bu, depolanan ürünün türüne ve o anki nem koşullarına bağlı değişir; biz bu konuda kesin bir süre veremeyiz çünkü ürüne özel bir değerlendirme gerektirir. Söyleyebileceğimiz şu: fan arızasını erken fark etmek için sezon içinde periyodik kontrol öneriyoruz, çünkü dolu bir siloda arıza genellikle geç fark edilen bir sorun.",
+            },
+            {
+                soru: "Silo dolum-boşaltma mekanizmasının kendisini de siz mi bakımdan geçiriyorsunuz?",
+                cevap:
+                    "Hayır, biz platformla erişim sağlıyor ve dışarıdan görsel kontrol yapıyoruz; mekanizmanın kendi mekanik bakımı (motor, vida mili, elektronik kontrol) genellikle tarım ekipmanı uzmanının işi. Görsel kontrolde bir sorun şüphesi görürsek bunu size bildirir, ilgili uzmana yönlendiririz.",
+            },
+            {
+                soru: "Tesisimiz kırsal bir alanda, toprak yoldan erişim var; bu bir sorun mu?",
+                cevap:
+                    "Erişim yolunun durumu makine seçimini etkiler; standart lastikli platform yerine daha geniş tabanlı ya da farklı bir seçenek değerlendirebiliriz. Bu konuyu randevu öncesinde sorarız, mümkünse yol durumunun fotoğrafını isteriz. Zor zemin koşulları hakkında ayrı bir hizmet sayfamızda daha ayrıntılı bilgi veriyoruz.",
+            },
+            {
+                soru: "Silo bakımını soğuk depo bakımımızla aynı sözleşmeye ekleyebilir misiniz?",
+                cevap:
+                    "Evet, iki tesisiniz varsa bunu tek bir bakım sözleşmesi altında, ama ayrı periyot ve ayrı kontrol listeleriyle planlarız — tıpkı soğuk depo ile atölye bakımını birlikte yürüttüğümüz gibi. Bu, faturalandırmayı birleştirirken her tesisin kendi bakım ihtiyacının net kalmasını sağlar.",
+            },
+            {
+                soru: "Silo bakımı için sözleşme şart mı, tek seferlik hizmet alabilir miyiz?",
+                cevap:
+                    "Tek seferlik hizmet her zaman mümkündür. Sözleşmeli modelin avantajı, hasat takviminize göre önceden planlanmış bir bakım turuna dahil olmanız ve müdahale süresi konusunda daha net bir garanti almanızdır. İlk çalışmamızda genellikle tek seferlik başlar, ihtiyaç netleştikçe sözleşmeye geçiş öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bilecik'in tarımsal üretim ve depolama faaliyetlerinin varlığı kamuya açık genel bilgidir; silo bakım kalemleri, mevsimsel takvim yaklaşımı ve tarım ekipmanı uzmanlığıyla sınır çizimi firma saha pratiğidir. Tesis adı, ürün türü ve rakam verilmemiştir.",
+    },
+
+    "hizmet:enerji-aydinlatma-bakim-platformu": {
+        h1: "Bilecik'te Soğuk Depo ve Atölye Enerji Altyapısı Bakım Platformu",
+        giris:
+            "Enerji ve aydınlatma bakımı, Bilecik'teki iki bakım dünyasında da işletme sürekliliğini doğrudan etkileyen bir kalem — ama risk türü ortama göre değişiyor. Soğuk hava depolarında enerji altyapısının kritik noktası kompresör ve pano odası, çünkü bu sistemin kesintisiz çalışması ürün güvenliğiyle doğrudan bağlantılı; tavan altı ışık bandı ise ikincil ama yine düzenli bakım gerektiren bir kalem. Kereste ve mobilya atölyelerinde ise enerji altyapısının en hassas noktası, cila-vernik kabini çevresindeki patlayıcı ortam sınıflı elektrik tesisatı — burada bir arıza sadece aydınlatma kaybı değil, yangın riski demek. Bizim bu hizmetteki işimiz, elektrik tesisatının kendisini değil, bu tesisata platformla erişimi sağlamak ve görsel kontrolü yapmak; asıl elektrik işlemi (kablo değişimi, pano bakımı) her zaman yetkili elektrik personeli tarafından yürütülür, biz erişimi ve koordinasyonu üstleniriz.",
+        maddeler: [
+            {
+                baslik: "Soğuk depoda kompresör ve pano odası erişimi",
+                metin:
+                    "Soğuk depoların kompresör üniteleri ve elektrik pano odaları genellikle ayrı bir teknik hacimde ya da çatı üzerinde konumlanır. Bu noktalara platformla erişim sağlarken, elektrik personelinin güvenli çalışabileceği bir platform konumu oluştururuz; asıl elektrik kontrolü ve bakımı elektrik personeli tarafından yapılır. Bizim rolümüz, bu personelin zor erişimli bir noktaya güvenli ve stabil şekilde ulaşmasını sağlamak.",
+            },
+            {
+                baslik: "Tavan altı ışık bandı bakımı ve değişimi",
+                metin:
+                    "Soğuk depo ve atölyelerde tavan altı ışık bandı, düzenli değişim ve temizlik gerektiren bir kalem. Soğuk depoda düşük sıcaklığa dayanıklı armatür kullanılması şart — standart armatür bu ortamda beklenenden kısa ömürlü olur. Atölyede ise tozlu ortamda armatürün kapalı tip olması, toz birikiminin yangın riskine dönüşmesini önler. Bu değişim işini elektrik personeliyle koordineli yürütürüz.",
+            },
+            {
+                baslik: "Cila kabini çevresi patlayıcı ortam elektrik kontrolü",
+                metin:
+                    "Cila ve vernik kabini çevresindeki elektrik tesisatı, patlayıcı ortam kurallarına uygun özel donanım gerektirir. Bu bölgeye erişirken kullandığımız platform da aynı kurala göre seçilir — standart bir makine bu bölgeye girmez. Elektrik tesisatının kendi kontrolü uzman elektrik personeli tarafından yapılır; biz sadece güvenli erişimi sağlarız ve bu bölgede çalışırken ekstra dikkatli davranırız.",
+            },
+            {
+                baslik: "Enerji kesintisi riski ve bakım zamanlaması",
+                metin:
+                    "Soğuk depoda enerji altyapısı bakımı sırasında kısa süreli bir kesinti riski varsa, bu, ürün güvenliği açısından ciddiye alınması gereken bir durum. Bu tür işleri, depo yönetimiyle önceden koordineli olarak, mümkünse yedek güç sisteminin devrede olduğu bir zaman diliminde planlarız. Atölyede ise enerji kesintisi üretim durmasına yol açacağından, bu işleri üretim molasına denk getiririz.",
+            },
+            {
+                baslik: "Erişim ile elektrik işleminin ayrımı",
+                metin:
+                    "Bu hizmette net bir sınır çiziyoruz: platform ekibimiz erişimi sağlar ve elektrik personelinin güvenli çalışmasına destek olur; kablo bağlama, pano açma, sigorta değişimi gibi işlemleri yapmayız. Bu ayrım, hem güvenlik hem sorumluluk açısından önemli — elektrik işleri her zaman yetkili personel tarafından yürütülür.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki ortamda enerji altyapısı erişim noktaları",
+                paragraflar: [
+                    "Soğuk depo ve atölye ortamlarında enerji altyapısı erişim noktaları ve risk türleri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Soğuk depo (Osmaneli)", "Atölye (Söğüt)", "Risk türü"],
+                    satirlar: [
+                        ["Kompresör/pano odası", "Çatı üstü veya teknik hacim", "—", "Ürün güvenliği (kesinti)"],
+                        ["Tavan altı ışık bandı", "Düşük sıcaklık armatürü", "Kapalı tip, tozlu ortam", "Aydınlatma kaybı"],
+                        ["Patlayıcı ortam elektriği", "—", "Cila kabini çevresi", "Yangın riski"],
+                        ["Genel pano kontrolü", "Nemli ortam kapalı tip", "Tozlu ortam kapalı tip", "Kısa devre riski"],
+                    ],
+                },
+            },
+            {
+                baslik: "Elektrik personeliyle koordinasyon",
+                paragraflar: [
+                    "Enerji altyapısı bakımı her zaman iki ekibi bir araya getirir: bizim platform ekibimiz ve işletmenin ya da dışarıdan gelen elektrik personeli. Bu iki ekibin çalışma sırasını önceden koordine ederiz — platform ekibi önce erişimi kurar, elektrik personeli işlemi yapar, platform ekibi süreç boyunca stabil erişimi sürdürür. Bu koordinasyon, işin hem güvenli hem verimli ilerlemesini sağlar.",
+                    "Elektrik personeli işletmenin kendi ekibindense, çalışma öncesinde kısa bir güvenlik brifingi yaparız; dışarıdan gelen bir elektrik firmasıysa, iki firma arasındaki sorumluluk sınırını yazılı olarak netleştiririz.",
+                ],
+            },
+            {
+                baslik: "Periyodik sözleşmede enerji altyapısı yeri",
+                paragraflar: [
+                    "Enerji ve aydınlatma kontrolünü genellikle bakım sözleşmesinde diğer kalemlerle (evaporatör, kurutma fırını) aynı ziyarete entegre ederiz ama elektrik personelinin müsaitliği ayrı bir değişken olduğu için, elektrik işlemi gerektiren kalemler bazen ayrı bir tarihe kayabilir. Bu durumda platform erişimini elektrik personelinin uygun olduğu tarihe göre ayarlarız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Elektrik işlemini siz mi yapıyorsunuz, yoksa sadece erişim mi sağlıyorsunuz?",
+                cevap:
+                    "Sadece erişim sağlıyoruz; kablo bağlama, pano açma, sigorta değişimi gibi asıl elektrik işlemlerini yapmıyoruz. Bu işlemler her zaman yetkili elektrik personeli tarafından yürütülür — işletmenin kendi ekibi ya da dışarıdan gelen bir elektrik firması olabilir. Bizim rolümüz, bu personelin zor erişimli bir noktaya güvenli ve stabil şekilde ulaşmasını sağlamak.",
+            },
+            {
+                soru: "Soğuk depoda enerji bakımı sırasında ürünler risk altında kalır mı?",
+                cevap:
+                    "Kısa süreli bir kesinti riski varsa bunu önceden depo yönetimiyle konuşur, mümkünse yedek güç sisteminin devrede olduğu bir zaman dilimini tercih ederiz. Bu koordinasyonu atlamayız çünkü enerji kesintisi soğuk depoda doğrudan ürün güvenliği riski demektir; bu konuda depo yönetiminin onayı olmadan işe başlamayız.",
+            },
+            {
+                soru: "Cila kabini çevresinde çalışacak makinenin özel bir belgesi var mı?",
+                cevap:
+                    "Bu bölgeye gönderdiğimiz makineler patlayıcı ortam kurallarına uygun elektrik sınıfında seçilir ve bu uygunluğa dair bilgi talep üzerine paylaşılır. Standart bir makineyle bu bölgeye girmeyiz; bu, hem işçi sağlığı hem yangın güvenliği açısından esneme payı olmayan bir kuraldır.",
+            },
+            {
+                soru: "Tavan ışık bandı değişimini elektrik personeli olmadan siz yapabilir misiniz?",
+                cevap:
+                    "Armatürün fiziksel değişimi elektrik bağlantısı içerdiği için elektrik personeliyle birlikte yapılır; biz erişimi sağlarız, bağlantıyı elektrik personeli yapar. Yalnızca armatürün temizliği gibi elektrik bağlantısı gerektirmeyen basit işler platform ekibimiz tarafından yapılabilir.",
+            },
+            {
+                soru: "Enerji bakımı üretimimizi ne kadar süre durduracak?",
+                cevap:
+                    "Bu, yapılacak işin kapsamına ve elektrik personelinin işlem süresine bağlı değişir; kesin bir süre vermeden önce keşifte işin kapsamını netleştiririz. Atölyede bu tür işleri üretim molasına, soğuk depoda ise mümkünse yedek güç sisteminin devrede olduğu bir zamana denk getirmeye çalışırız.",
+            },
+            {
+                soru: "Kendi elektrik firmamız var, sizinle nasıl koordine oluyorsunuz?",
+                cevap:
+                    "Çalışma tarihini ve saatini elektrik firmanızla birlikte belirleriz; platform ekibimiz önce erişimi kurar, sizin elektrik firmanız işlemi yapar. İki firma arasındaki sorumluluk sınırını (kim neyi yapıyor) yazılı olarak netleştiririz; bu, olası bir anlaşmazlığı baştan önler.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depoda kompresör/pano odası ve atölyede patlayıcı ortam elektrik tesisatının varlığı sektörel genel bilgidir; erişim-elektrik işlemi ayrımı ve koordinasyon yöntemi firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:operatorlu-platform-kiralama": {
+        h1: "Bilecik'te Operatörlü ve Operatörsüz Platform Kiralama",
+        giris:
+            "Operatörlü mü operatörsüz mü sorusu, Bilecik'teki soğuk depo ve atölye müşterilerimizde farklı gerekçelerle gündeme geliyor. Soğuk depoda operatörlü tercih eden işletmeler genellikle gıda güvenliği prosedürüne aşina, düşük sıcaklıkta çalışma deneyimi olan bir operatör istiyor — kendi personelini bu ortama alıştırmak yerine bizim deneyimli operatörümüzü tercih ediyorlar. Atölyede ise operatörlü tercih genellikle patlayıcı ortam sınıflı bölgelerde (cila kabini çevresi) güvenlik gerekçesiyle ortaya çıkıyor; bu bölgelerde çalışacak operatörün ilgili güvenlik bilgisine sahip olması bekleniyor. Operatörsüz tercih ise genellikle periyodik bakım sözleşmesi olan ve kendi personeli platform kullanımına aşina olan işletmelerden geliyor — bu işletmeler makineyi kendi ekipleriyle kullanıp maliyeti düşürüyor. Biz her iki seçeneği de sunuyoruz ve hangisinin uygun olduğuna dair önerimizi ortamın risk seviyesine göre veriyoruz.",
+        maddeler: [
+            {
+                baslik: "Soğuk depoda operatörlü tercih nedenleri",
+                metin:
+                    "Soğuk depoda operatörlü kiralamayı tercih eden işletmeler, genellikle düşük sıcaklıkta uzun süre çalışmanın getirdiği ek dikkat gereksinimini (akü performansı takibi, ortam geçişinde bekleme) kendi personeline yüklemek istemiyor. Bizim operatörümüz bu koşullara alışkın olduğu için, işi daha hızlı ve güvenli tamamlıyor. Ayrıca gıda güvenliği prosedürüne aşina bir operatör, denetim süreçlerinde işletmenin lehine bir unsur oluyor.",
+            },
+            {
+                baslik: "Atölyede operatörlü tercih nedenleri",
+                metin:
+                    "Cila kabini çevresi gibi patlayıcı ortam sınıflı bölgelerde çalışacak operatörün, bu ortamın risklerine dair bilgi sahibi olması bekleniyor. Bizim operatörümüz bu tür bölgelerde nasıl davranması gerektiğini bilir — örneğin statik elektrik riskini azaltacak davranışlar, kabine yaklaşırken dikkat edilecek noktalar. Standart bir atölye bölümünde ise bu gereklilik daha az kritik, bu yüzden operatörsüz tercih de sık görülüyor.",
+            },
+            {
+                baslik: "Operatörsüz kiralamada yeterlilik belgesi",
+                metin:
+                    "Operatörsüz kiralamada, işletmenin kendi personelinin geçerli bir platform operatör yeterlilik belgesine sahip olması gerekir; bu belgeyi teslimat öncesinde kontrol ederiz. Belgesi olmayan bir personelin makineyi kullanması güvenlik açısından kabul edilemez; böyle bir durumda operatörlü seçeneğe geçmenizi öneririz ya da personelinizin belge sürecini tamamlamasını bekleriz.",
+            },
+            {
+                baslik: "Periyodik sözleşmede operatör sürekliliği",
+                metin:
+                    "Yıllık bakım sözleşmesi kapsamındaki tesislerde, mümkün olduğunca aynı operatörü tekrar göndeririz; bu, operatörün tesisin özel koşullarına (koridor genişlikleri, hassas noktalar, güvenlik kuralları) alışmasını sağlar ve her ziyarette sıfırdan bilgilendirme yapma ihtiyacını azaltır. Operatör değişikliği kaçınılmaz olduğunda (izin, hastalık), yeni operatörü tesisin özel koşulları hakkında önceden bilgilendiririz.",
+            },
+            {
+                baslik: "Karma model: bazı işler operatörlü, bazıları operatörsüz",
+                metin:
+                    "Bazı işletmeler karma bir model tercih ediyor — örneğin standart bölgelerde kendi personeliyle operatörsüz çalışırken, patlayıcı ortam sınıflı ya da soğuk hacimdeki hassas noktalarda bizim operatörümüzü talep ediyor. Bu esnekliği destekliyoruz; aynı bakım sözleşmesi içinde hangi işin hangi modelle yapılacağını önceden netleştiriyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Operatörlü ve operatörsüz seçeneklerin karşılaştırması",
+                paragraflar: [
+                    "Soğuk depo ve atölye ortamlarında operatörlü ve operatörsüz seçeneklerin tipik tercih nedenleri aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Ortam", "Operatörlü tercih nedeni", "Operatörsüz koşulu", "Yaygınlık"],
+                    satirlar: [
+                        ["Soğuk depo", "Düşük sıcaklık deneyimi, gıda güvenliği", "Personel yeterlilik belgesi + deneyim", "Karma"],
+                        ["Atölye (standart)", "Az gerekli", "Personel yeterlilik belgesi", "Sıklıkla operatörsüz"],
+                        ["Atölye (cila kabini)", "Patlayıcı ortam bilgisi öneriliyor", "Belge + özel bilgilendirme", "Sıklıkla operatörlü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör yeterlilik belgesi kontrolü nasıl işliyor",
+                paragraflar: [
+                    "Operatörsüz kiralama talep edildiğinde, teslimat öncesinde personelin belge bilgisini isteriz ve bunu kayıt altına alırız. Belge süresi dolmuşsa ya da eksikse, bunu işletmeye bildirir ve makineyi teslim etmeden önce bu konunun netleşmesini bekleriz — bu, hem yasal hem güvenlik açısından atlamayacağımız bir adım.",
+                    "Periyodik sözleşme kapsamındaki işletmelerde, personel değişikliği olduğunda yeni personelin belgesini de aynı şekilde kontrol ederiz; bu kontrolü her teslimat için tekrarlarız, tek seferlik bir onay yeterli saymayız.",
+                ],
+            },
+            {
+                baslik: "Hangi seçeneği öneriyoruz",
+                paragraflar: [
+                    "Soğuk depoda uzun süreli veya karmaşık işlerde, atölyede ise patlayıcı ortam sınıflı bölgelerde operatörlü seçeneği öneriyoruz çünkü risk seviyesi ve deneyim gereksinimi burada daha yüksek. Standart, düşük riskli bölgelerde ve kendi personeli deneyimli olan işletmelerde operatörsüz seçenek maliyet avantajı sağlıyor. Kesin öneriyi, işin kapsamını ve ortamın risk seviyesini keşifte değerlendirdikten sonra veriyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Operatörlü mü operatörsüz mü daha uygun, nasıl karar veriyoruz?",
+                cevap:
+                    "Bu, işin kapsamına ve ortamın risk seviyesine göre değişir. Soğuk depoda uzun süreli ya da karmaşık işlerde ve atölyede patlayıcı ortam sınıflı bölgelerde operatörlü seçeneği öneririz; standart ve düşük riskli bölgelerde deneyimli personeliniz varsa operatörsüz de uygun olabilir. Keşif sırasında bu konuda somut bir öneri veririz.",
+            },
+            {
+                soru: "Kendi operatörümüzün belgesi var, hemen makineyi teslim alabilir miyiz?",
+                cevap:
+                    "Teslimat öncesinde belgeyi kontrol etmemiz gerekir; bu, standart uygulamamızdır ve her teslimatta tekrarlanır. Belge geçerliyse süreç hızlıca ilerler; eksikse ya da süresi dolmuşsa, bu netleşene kadar teslimatı erteleriz ya da operatörlü seçeneğe geçmenizi öneririz.",
+            },
+            {
+                soru: "Bizim operatörümüz cila kabini çevresinde çalışmaya uygun mu, nasıl anlarız?",
+                cevap:
+                    "Bu, patlayıcı ortam çalışma bilgisiyle ilgili bir konu ve bunu işletmenizin kendi güvenlik prosedürü belirler. Biz kendi operatörümüzü bu tür bölgelerde çalışmaya hazır olacak şekilde bilgilendiriyoruz; sizin personeliniz için bu bilginin yeterliliği konusunda emin değilseniz, bu bölgede operatörlü seçeneği önermemiz olası.",
+            },
+            {
+                soru: "Sözleşmeli bakımımızda her zaman aynı operatör mü geliyor?",
+                cevap:
+                    "Mümkün olduğunca evet, bu operatörün tesisin özel koşullarına alışmasını sağlar. Operatör değişikliği gerektiğinde (izin, hastalık) yeni operatörü tesisin özel koşulları hakkında önceden bilgilendiririz; bu geçişi mümkün olduğunca sorunsuz yapmaya çalışırız.",
+            },
+            {
+                soru: "Aynı ziyarette hem operatörlü hem operatörsüz çalışma olabilir mi?",
+                cevap:
+                    "Evet, karma model destekliyoruz — standart bölgelerde kendi personelinizle operatörsüz çalışırken, hassas ya da riskli noktalarda bizim operatörümüzü talep edebilirsiniz. Bu ayrımı önceden netleştirip, ziyaret planına buna göre yansıtırız.",
+            },
+            {
+                soru: "Operatörlü kiralamada operatörün sorumluluğu nereye kadar?",
+                cevap:
+                    "Operatörümüz makinenin güvenli kullanımından ve platform işleminin kendisinden sorumludur; elektrik bağlantısı, mekanik onarım gibi işlemler kapsamımızın dışındadır ve ilgili uzmana bırakılır. Sorumluluk sınırlarını, özellikle birden fazla ekibin aynı sahada çalıştığı işlerde, çalışma öncesinde işletmeyle netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Operatörlü/operatörsüz kiralama seçeneklerinin genel varlığı sektörel bilgidir; soğuk depo-atölye risk farkına göre öneri yaklaşımı, belge kontrolü ve karma model uygulaması firma saha pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:cok-noktali-rota-bakim-platformu": {
+        h1: "Bilecik'te Çok Noktalı Bakım Rotası: Aynı Hafta Birden Fazla Tesis",
+        giris:
+            "Bilecik'teki periyodik bakım sözleşmelerimizin çoğu, tek bir tesise değil, aynı hafta içinde birden fazla noktaya (Osmaneli'de bir soğuk depo, Söğüt'te bir atölye, Bilecik merkezde başka bir işletme) hizmet vermeyi gerektiriyor. Bu sayfa, bu çok noktalı rotanın nasıl PLANLANDIĞINI anlatıyor — bir turun ekonomik avantajlarını değil, hangi sırayla hangi tesise gidileceğine dair pratik kararları. Rota sıralamasını üç şey belirliyor: ortam geçişi (soğuktan sıcağa geçen makinenin bekleme süresi), her tesisin kendi zaman penceresi (depo doluluk döngüsü, atölye üretim molası) ve acil önceliklendirme (arıza çağrısı varsa rota anında yeniden düzenlenir). Bir haftalık bakım rotası oluştururken bu üç kısıtı aynı anda dengelemeye çalışıyoruz; bazen bir tesisin ideal zaman penceresini, o günkü rotanın genel akışına göre birkaç gün kaydırmak gerekiyor.",
+        maddeler: [
+            {
+                baslik: "Ortam geçişi kısıtı: soğuktan sıcağa",
+                metin:
+                    "Soğuk hacimde uzun süre çalışmış bir makinenin hidrolik sistemi ve akü kapasitesi, sıcak bir atölyeye geçtiğinde stabilize olmayı ister; bu yüzden aynı makineyi aynı gün önce soğuk depoya sonra atölyeye götürmeyiz. Rota planlarken bu ayrımı baştan yapıyoruz — soğuk depo işleri ve atölye işleri farklı makinelerle, farklı günlere ya da aynı günün farklı araçlarına yazılıyor.",
+            },
+            {
+                baslik: "Her tesisin kendi zaman penceresi",
+                metin:
+                    "Soğuk depoda zaman penceresi genellikle doluluk döngüsüne (raf boşaltmanın mümkün olduğu dönem), atölyede ise üretim molasına veya kurutma fırınının boşta kaldığı zamana bağlı. Rota oluştururken her tesisin bu penceresini önceden alır, haftalık takvime bu kısıtlara göre yerleştiririz. İki tesisin penceresi çakışırsa, hangisinin daha acil olduğuna ya da hangisinin esnekliğinin daha fazla olduğuna göre sıralama yaparız.",
+            },
+            {
+                baslik: "Acil çağrı geldiğinde rota yeniden düzenleme",
+                metin:
+                    "Planlanmış bir rota sırasında acil bir arıza çağrısı geldiğinde (örneğin bir soğuk depoda evaporatör arızası), rotayı anında yeniden düzenleriz — acil işi öncelikli tesise kaydırır, planlanmış diğer ziyaretleri mümkün olduğunca aynı gün ya da hemen ertesi güne itmeye çalışırız. Bu esneklik, sözleşmede tanımlanan arıza müdahale süresi taahhüdünün gereği.",
+            },
+            {
+                baslik: "Rota sırasının müşteriyle paylaşılması",
+                metin:
+                    "Periyodik sözleşme kapsamındaki müşterilere, o haftaki rotada kendi ziyaret sıralarının yaklaşık zamanını bildiririz; kesin bir saat garantisi vermek yerine bir zaman aralığı veririz çünkü önceki duraklarda çıkabilecek beklenmedik bir gecikme sıralamayı etkileyebilir. Sıralamada büyük bir değişiklik olursa (örneğin acil çağrı nedeniyle), bunu mümkün olan en erken saatte bildiririz.",
+            },
+            {
+                baslik: "Rota dışı bir tesisin eklenmesi",
+                metin:
+                    "Tek seferlik bir talep geldiğinde, bu talebi o haftaki mevcut rotaya ekleyip ekleyemeyeceğimizi değerlendiririz — eğer talep gelen tesis, o haftaki rotanın güzergâhına yakınsa, ek maliyet oluşturmadan ekleyebiliriz. Güzergâhtan uzaksa, ayrı bir sevkiyat olarak planlarız ve bunu müşteriye açıkça belirtiriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Rota sıralamasını belirleyen kısıtlar",
+                paragraflar: [
+                    "Haftalık bakım rotası oluştururken dengelediğimiz üç ana kısıt ve bunların rotaya etkisi aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Kısıt", "Etkisi", "Örnek", "Rota sonucu"],
+                    satirlar: [
+                        ["Ortam geçişi", "Aynı makine iki ortamda kullanılmaz", "Soğuk depo → atölye", "Ayrı gün/araç"],
+                        ["Zaman penceresi", "Tesisin müsait olduğu saat", "Doluluk döngüsü, üretim molası", "Pencereye göre sıralama"],
+                        ["Acil çağrı", "Anlık öncelik değişimi", "Evaporatör arızası", "Rota yeniden düzenlenir"],
+                        ["Coğrafi yakınlık", "Ek maliyetsiz ekleme imkanı", "Güzergâha yakın yeni talep", "Rotaya eklenir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Haftalık rota nasıl kuruluyor",
+                paragraflar: [
+                    "Hafta başında, o haftaki tüm planlı ziyaretleri (sözleşmeli periyodik işler) ve varsa bilinen tek seferlik talepleri bir araya getiririz. Bunları önce ortam tipine (soğuk depo / atölye / diğer) ayırır, sonra her grubun kendi zaman penceresine göre günlere dağıtırız. Coğrafi yakınlık, aynı gün içindeki sıralamayı belirler — birbirine yakın iki durak art arda planlanır.",
+                    "Bu planlama hafta ortasında değişebilir; acil çağrılar, hava koşulu nedeniyle ertelenen dış mekan işleri veya müşteri kaynaklı erteleme talepleri rotayı yeniden şekillendirebilir. Bu esnekliği baştan kabul ederek çalışıyoruz.",
+                ],
+            },
+            {
+                baslik: "Bu sayfanın kapsamadığı konu: tur ekonomisi",
+                paragraflar: [
+                    "Bu sayfa rotanın nasıl sıralandığını anlatıyor; bölgesel tur ekonomisi (birden fazla tesisin nakliye maliyetini paylaşması, OSB'ler arası karşılaştırma gibi konular) farklı bir kayıtta ele alınıyor. Burada odak, teknik ve operasyonel sıralama kararlarıdır — hangi işin ne zaman, hangi sırayla yapılacağı.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı hafta içinde soğuk depomuz ve atölyemiz varsa, hangi sırayla ziyaret edersiniz?",
+                cevap:
+                    "Sıralama, her iki tesisin zaman penceresine (doluluk döngüsü, üretim molası) ve coğrafi konumuna göre belirlenir; aynı makineyi ikisine art arda götürmeyiz, ayrı gün ya da ayrı araç kullanırız. Kesin sıralamayı hafta başında oluşturur, size yaklaşık bir zaman aralığı bildiririz.",
+            },
+            {
+                soru: "Rota sırasında bize verilen saat kesin mi?",
+                cevap:
+                    "Kesin bir saat yerine bir zaman aralığı veririz çünkü önceki duraklardaki beklenmedik bir gecikme sıralamayı etkileyebilir. Sıralamada büyük bir değişiklik olursa (örneğin acil bir çağrı araya girerse) bunu mümkün olan en erken saatte size bildiririz.",
+            },
+            {
+                soru: "Rota sırasında bir başka tesiste acil arıza çıkarsa bizim randevumuz etkilenir mi?",
+                cevap:
+                    "Etkilenebilir, çünkü acil arıza çağrıları rota içinde en yüksek önceliği alır. Böyle bir durumda sizinle en kısa sürede iletişime geçip yeni bir zaman öneririz; bu esneklik, sözleşmedeki arıza müdahale süresi taahhüdünün doğal bir sonucu ve tüm sözleşmeli müşterilerimiz için geçerli.",
+            },
+            {
+                soru: "Tek seferlik bir talebimiz var, mevcut rotaya eklenebilir mi?",
+                cevap:
+                    "O haftaki rotanın güzergâhına yakınsanız, ek maliyet oluşturmadan ekleyebiliriz; uzaksanız ayrı bir sevkiyat olarak planlarız ve bunu size açıkça belirtiriz. Talebinizi mümkün olduğunca erken bildirirseniz, o haftaki rotaya dahil etme ihtimalimiz artar.",
+            },
+            {
+                soru: "Rota planlaması bize ek bir maliyet yansıtıyor mu?",
+                cevap:
+                    "Rota planlamasının kendisi ayrı bir ücretlendirme kalemi değil; bu, bizim operasyonel verimliliğimizin parçası. Coğrafi olarak yakın tesisleri aynı rotaya eklemek, aksine nakliye maliyetini paylaştırarak size avantaj sağlayabilir; bu konuyu teklif aşamasında ayrıca değerlendiririz.",
+            },
+            {
+                soru: "Hava koşulu nedeniyle ertelenen bir dış mekan işi rotayı nasıl etkiler?",
+                cevap:
+                    "Ertelenen iş, o haftaki ya da bir sonraki haftaki rotaya, uygun bir güne yeniden yerleştirilir. Bu erteleme genellikle diğer randevuları etkilemez çünkü rota planlamasında bu tür değişikliklere esneklik payı bırakırız; büyük bir değişiklik olursa ilgili müşterilere haber veririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Aynı hafta içinde farklı bölgelere (Osmaneli, Söğüt, Bilecik merkez) hizmet verilmesi coğrafi genel bilgidir; rota sıralama kısıtları (ortam geçişi, zaman penceresi, acil öncelik) firma saha pratiğidir. Tur ekonomisi ve OSB karşılaştırması bu sayfada işlenmemiştir; tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:zor-zemin-arazi-platform-kiralama": {
+        h1: "Bilecik'te Zor Zemin Koşullarında Platform Kiralama",
+        giris:
+            "Bilecik'teki iki bakım dünyasının her ikisinde de zor zemin sorunu var, ama nedeni tamamen farklı. Osmaneli'deki soğuk depoların dış yükleme rampası ve çevresi, düşük sıcaklık nedeniyle buzlanma riski taşıyor — özellikle kış aylarında rampa zemini kaygan hâle gelebiliyor. Söğüt çevresindeki kırsal atölyelerde ve tarımsal tesislerde ise zor zemin, toprak yol, engebeli arazi ya da yağış sonrası çamurlaşan bir erişim güzergâhı anlamına geliyor. İkisinde de standart lastikli bir platform, zemin koşuluna güvenilerek gönderilmiyor; keşifte zemin durumu değerlendirilir ve gerekirse farklı bir makine sınıfı (daha geniş tabanlı, farklı lastik tipi) önerilir. Bu sayfa, zemin koşulunun makine seçimini nasıl etkilediğini ve sahada ne tür önlemler aldığımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Soğuk depo rampasında buzlanma riski",
+                metin:
+                    "Kış aylarında soğuk depo dış yükleme rampası ve çevresi, düşük sıcaklık ve nem birleşimiyle buzlanabilir. Bu bölgede çalışacak platform için önce zemin durumunu görsel olarak kontrol eder, belirgin buzlanma varsa işi erteleriz ya da önce zeminin temizlenmesini/tuzlanmasını isteriz. Donmuş bir zeminde makine kaymasının hem ekip hem çevredeki personel için risk oluşturduğunu düşünerek bu konuda esnek davranmayız.",
+            },
+            {
+                baslik: "Kırsal atölye ve tarım tesislerinde toprak yol",
+                metin:
+                    "Söğüt çevresindeki bazı atölyeler ve tarımsal depolama tesisleri, asfalt olmayan toprak yol üzerinden erişiliyor. Yağış sonrası bu yollar çamurlaşabiliyor ve standart lastikli bir platformun hem yolda hem tesis girişinde saplanma riski oluşabiliyor. Bu tür erişimlerde önceden yol durumunu sorar, mümkünse fotoğraf isteriz; belirgin risk varsa daha geniş tabanlı bir makine ya da alternatif bir güzergâh değerlendiririz.",
+            },
+            {
+                baslik: "Engebeli arazide stabilizasyon",
+                metin:
+                    "Düz olmayan, hafif eğimli ya da engebeli bir arazide platform çalıştırırken, makinenin stabilizasyon ayakları ya da geniş taban desteği önem kazanıyor. Standart bir düz zemin makinesi, hafif eğimli bir yüzeyde bile güvenlik marjını daraltabiliyor; bu durumda ya zemin düzeltmesi istenir ya da eğime uygun bir makine sınıfına geçilir.",
+            },
+            {
+                baslik: "Zemin taşıma kapasitesi şüphesi",
+                metin:
+                    "Bazı zeminlerde (yeni dolgu, yumuşak toprak) taşıma kapasitesi konusunda şüphe olabilir; bu durumda kendi mühendislik değerlendirmemizi yapmayız, işletmenin zemin etüdü ya da teknik sorumlusundan bilgi almasını isteriz. Zemin taşıma yeterliliği netleşmeden ağır bir makineyi riskli bir zemine sokmayız.",
+            },
+            {
+                baslik: "Zor zemin için önceden hazırlık",
+                metin:
+                    "Zor zemin şüphesi olan bir randevuda, standart bir makineyle gelip sahada sorun yaşamak yerine önceden hazırlanmayı tercih ediyoruz. Telefon görüşmesinde erişim yolunun türünü (asfalt, toprak, çim, eğimli) sorar, mümkünse fotoğraf isteriz; bu bilgi netleşmeden özellikle kırsal bölgelere randevu vermeyiz çünkü yanlış makineyle gidip geri dönmek her iki taraf için de zaman kaybı olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İki zor zemin türünün karşılaştırması",
+                paragraflar: [
+                    "Soğuk depo rampası ve kırsal atölye/tarım erişiminde karşılaşılan zor zemin türleri ve önlemler aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Zemin türü", "Konum", "Risk", "Önlem"],
+                    satirlar: [
+                        ["Buzlanmış rampa", "Soğuk depo dış alanı (kış)", "Kayma", "Temizlik/tuzlama, gerekirse erteleme"],
+                        ["Toprak/çamur yol", "Kırsal atölye/tarım erişimi", "Saplanma", "Geniş tabanlı makine, alternatif güzergâh"],
+                        ["Engebeli/eğimli arazi", "Kırsal tesis çevresi", "Stabilite kaybı", "Stabilizasyon ayağı, eğime uygun sınıf"],
+                        ["Yumuşak/dolgu zemin", "Yeni yapılaşmış alanlar", "Taşıma kapasitesi şüphesi", "Zemin etüdü/teknik sorumlu bilgisi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Randevu öncesi zemin bilgisi neden önemli",
+                paragraflar: [
+                    "Zor zemin şüphesi olan bir randevuyu, zemin bilgisi netleşmeden onaylamayız. Bunun nedeni basit: standart bir makineyle gidip sahada sığmayan ya da güvenli çalışamayan bir durumla karşılaşmak, hem randevuyu boşa çıkarır hem de yeniden planlama gerektirir. Bu yüzden özellikle kırsal bölge ve kış dönemi taleplerinde erişim yolu bilgisini öncelikli olarak sorarız.",
+                    "Fotoğraf paylaşımı bu konuda en hızlı netleştirici yöntem; bir yol veya zemin fotoğrafı, telefon görüşmesindeki sözlü tarife göre çok daha güvenilir bir değerlendirme imkanı veriyor.",
+                ],
+            },
+            {
+                baslik: "Zor zeminde çalışmayı erteleme kararı",
+                paragraflar: [
+                    "Sahada zemin koşulu beklenenden kötü çıkarsa (örneğin bildirilen kuru yol yağış sonrası çamurlaşmışsa), işi güvenlik gerekçesiyle erteleyebiliriz. Bu kararı ekonomik değil güvenlik gerekçesiyle veririz ve müşteriye nedenini açıkça anlatırız; alternatif bir tarih ya da alternatif bir erişim güzergâhı varsa bunu birlikte değerlendiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kış aylarında soğuk depo rampasında çalışmak güvenli mi?",
+                cevap:
+                    "Zemin buzlanmamışsa güvenlidir; buzlanma şüphesi varsa önce görsel kontrol yapar, belirgin risk görürsek işi ertelemeyi ya da zeminin temizlenmesini/tuzlanmasını öneririz. Bu konuda esnek davranmayız çünkü donmuş zeminde makine kayması ciddi bir güvenlik riski oluşturur.",
+            },
+            {
+                soru: "Tesisimize toprak yoldan erişiliyor, bu bir sorun mu?",
+                cevap:
+                    "Kuru ve sağlam bir toprak yol genellikle sorun oluşturmaz ama yağış sonrası çamurlaşma riski varsa önceden değerlendirilmesi gerekir. Randevu öncesinde yol durumunu sorar, mümkünse fotoğraf isteriz; gerekirse daha geniş tabanlı bir makine öneririz ya da hava durumuna göre randevu tarihini birlikte ayarlarız.",
+            },
+            {
+                soru: "Zemin taşıma kapasitesinden emin değiliz, siz mi değerlendiriyorsunuz?",
+                cevap:
+                    "Hayır, zemin taşıma kapasitesi konusunda kendi mühendislik değerlendirmemizi yapmayız; bu konuda işletmenin zemin etüdü ya da teknik sorumlusundan bilgi almasını isteriz. Bu bilgi netleşmeden şüpheli bir zemine ağır bir makine sokmayız, bu konuda temkinli davranırız.",
+            },
+            {
+                soru: "Sahada zemin beklenenden kötü çıkarsa ne olur?",
+                cevap:
+                    "Bu durumda işi güvenlik gerekçesiyle erteleyebiliriz; kararı ekonomik değil güvenlik gerekçesiyle veririz ve nedenini açıkça anlatırız. Alternatif bir tarih ya da alternatif bir erişim güzergâhı varsa bunu birlikte değerlendiririz; riskli bir zeminde zorla çalışmayı tercih etmeyiz.",
+            },
+            {
+                soru: "Engebeli bir arazide hangi makine sınıfı öneriliyor?",
+                cevap:
+                    "Bu, eğimin derecesine ve zemin sertliğine bağlı değişir; hafif engebeli alanlarda geniş tabanlı ve stabilizasyon ayaklı bir makine yeterli olabilirken, ciddi eğimlerde farklı bir çözüm gerekebilir. Kesin öneriyi, arazinin fotoğrafını ya da yerinde keşfi değerlendirdikten sonra veririz.",
+            },
+            {
+                soru: "Zor zemin nedeniyle randevu reddedilir mi?",
+                cevap:
+                    "Reddetmek yerine, zemin bilgisini netleştirip uygun makineyi ya da uygun tarihi bulmaya çalışırız. Yalnızca ciddi bir güvenlik riski varsa (örneğin çok yumuşak, taşıma kapasitesi belirsiz bir zemin) ve alternatif bir çözüm bulunamıyorsa, işi ertelemeyi öneririz; bu, nadir görülen bir durumdur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Soğuk depo rampasında kış buzlanması ve kırsal Söğüt çevresinde toprak yol erişiminin varlığı genel coğrafi/mevsimsel bilgidir; zemin değerlendirme yöntemi ve erteleme kararı firma saha pratiğidir. Tesis adı, mesafe ve rakam verilmemiştir.",
+    },
 };
