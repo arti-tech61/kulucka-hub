@@ -1634,4 +1634,200 @@ export const BOZUYUKPLATFORM_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. İnşaat sahasında zemin taşıma kapasitesi ve yağış sonrası yumuşama riski platform operasyonlarının genel bilinen bir konusudur. Bozüyük OSB'de ambalaj/plastik tesislerinin genişleme yapması genel sektör bilgisidir. Tesis adı, kapasite ve rakam verilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük Mobilya Atölyeleri için Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, sepetin doğrudan yukarı doğru dikey açılan bir makas mekanizmasıyla yükseldiği, yatayda uzanma yapmayan bir platform tipidir. Bu özellik onu Bozüyük'teki mobilya montaj hatları ve boyahane kabinleri gibi düz beton zeminli, tavanı belirli bir yükseklikte olan kapalı hacimler için doğal bir tercih hâline getirir: hat üstü aydınlatma armatürüne, havalandırma kanalına veya kabin tavanına dosdoğru çıkılır, yana doğru bir uzanma gerekmez. Sepetin geniş oluşu da bu işlerde avantaj sağlıyor — bir elektrikçi ve yardımcı malzemesi aynı anda platforma sığabiliyor, bu da hat üstü bir aydınlatma değişimini tek çıkışta bitirmeyi mümkün kılıyor. Bize göre makaslı platform tercihinin arkasındaki asıl soru şu: iş dikey mi, yoksa bir engelin üzerinden ya da yanından mı yapılacak? Cevap dikeyse, makaslı platform hem daha ekonomik hem daha stabil bir çözüm sunuyor. Bu sayfada, mobilya ve kereste işleme tesislerinin iç mekanlarında makaslı platformun hangi işlerde tercih edildiğini, zemin ve tekerlek seçiminin neden önemli olduğunu anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Montaj hattı tavanında dikey aydınlatma ve kanal bakımı",
+                metin:
+                    "Mobilya montaj hatlarının üzerinde uzanan aydınlatma armatürleri ve havalandırma kanalları, doğrudan tavana dikey çıkışla erişilen noktalardır. Makaslı platform bu tip işlerde yatay uzanmaya gerek bırakmadan, hattın tam üzerine konumlanıp dikey yükselir. Geniş sepet sayesinde armatür değişimi için gereken malzeme ve alet tek seferde taşınabiliyor.",
+            },
+            {
+                baslik: "Boyahane kabini içinde geniş çalışma alanı",
+                metin:
+                    "Vernik veya boya kabini içinde birden fazla nokta üzerinde çalışmak gerektiğinde, makaslı platformun geniş sepeti makineyi sık sık indirip kaldırmadan yan yana birkaç noktayı kapsamayı sağlar. Kabin havalandırılıp hat durdurulduktan sonra girilir; kabin içindeki boyalı yüzeylerde iz bırakmaması için tekerlek tipi ayrıca gözden geçirilir.",
+            },
+            {
+                baslik: "İç mekan kereste raf sisteminde dar koridor erişimi",
+                metin:
+                    "Kapalı depo hacimlerinde kereste raflarının arasındaki koridorlar dar bırakılmış olabilir. Kompakt gövdeli makaslı modeller bu koridorlardan geçip raf üstündeki bir noktaya dikey çıkabilir; koridor genişliği ve raf yüksekliği teklif öncesi ölçülür, sepetin rafa temas etmemesi için manevra payı hesaba katılır.",
+            },
+            {
+                baslik: "Boyalı ve cilalı beton zeminde tekerlek izi hassasiyeti",
+                metin:
+                    "Montaj hattı ve boyahane çevresindeki beton zeminler genellikle epoksi kaplı veya cilalıdır; standart tekerlekler bu yüzeyde iz bırakabilir. Bu hacimlerde iz bırakmayan (non-marking) tekerlekli makaslı platform tercih edilir. Zeminin ağırlığı ne ölçüde taşıyabildiği, özellikle asma kat veya galeri katı varsa önceden kontrol edilir.",
+            },
+            {
+                baslik: "Kısa süreli iç mekan bakım işlerinde operatörlü hız",
+                metin:
+                    "Küçük ölçekli atölyelerde makaslı platform ihtiyacı çoğunlukla birkaç saatlik, tek noktalı bir iç mekan bakım işidir — bir aydınlatma değişimi, bir kanal kontrolü. Bu profildeki işlerde operatörlü kiralama en hızlı çözümü sunar; atölye sahibinin ayrı bir eğitim veya belge süreciyle uğraşmasına gerek kalmaz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İç mekan tipine göre makaslı platform seçimi",
+                paragraflar: [
+                    "Mobilya ve kereste tesislerinin kapalı hacimlerini zemin ve erişim ihtiyacına göre sınıflandırıyoruz; aşağıdaki tablo teklif öncesi kullandığımız çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Hacim tipi", "Zemin", "Tekerlek", "Erişim şekli"],
+                    satirlar: [
+                        ["Montaj hattı üstü", "Standart beton", "Standart dolgu", "Dikey, tavan noktası"],
+                        ["Boyahane/vernik kabini", "Epoksi kaplı beton", "İz bırakmayan (non-marking)", "Dikey, kabin içi"],
+                        ["İç depo raf koridoru", "Standart beton", "Standart, kompakt gövde", "Dikey, dar koridor"],
+                        ["Galeri katı üstü ofis/kalite kontrol", "Asma kat betonu", "Hafif, düşük yük", "Dikey, kat altı kontrol"],
+                    ],
+                },
+            },
+            {
+                baslik: "Zemin yükü ve tekerlek seçiminde iki ayrı karar",
+                paragraflar: [
+                    "Zeminin taşıma kapasitesi ile tekerleğin yüzeyde bıraktığı iz, birbirinden bağımsız iki karardır. Bir asma kat veya galeri katının altında çalışılıyorsa, önce o katın taşıyabileceği azami yük sorulur; bu bilgi olmadan makine konumlandırılmaz. Zeminin epoksi kaplı ya da cilalı olduğu boyahane çevresinde ise iz bırakmayan tekerlek zorunlu tutulur.",
+                    "İki koşul aynı anda geçerliyse — örneğin galeri katı altında epoksi kaplı bir zeminse — hem yük hem tekerlek kısıtı birlikte değerlendirilir ve buna uygun, genellikle daha hafif ve kompakt bir model önerilir.",
+                ],
+            },
+            {
+                baslik: "Üretim durdurmadan planlama",
+                paragraflar: [
+                    "Montaj hattı ve boyahane, üretimin kesintisiz aktığı bölümlerdir; bu yüzden makaslı platform işleri çoğunlukla vardiya arası boşluklara ya da hafta sonuna planlanır. Boyahane kabini gibi durdurulması ve havalandırılması zaman alan bölümlerde, bu bekleme süresi işin başlangıç saatine dahil edilir.",
+                    "Aynı gün içinde birden fazla hacimde iş varsa — örneğin hem montaj hattı hem iç depo — makine tek sevkiyatla getirilip gün içinde sırayla kullanılır; bu, hem nakliye maliyetini tekilleştirir hem üretim akışının bir kez kesintiye uğramasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile manlift arasındaki fark nedir, hangisini önerirsiniz?",
+                cevap:
+                    "Makaslı platform yalnızca dikey yükselir, yatayda uzanma yapmaz; manlift ise kollarıyla yana ve engel üzerinden uzanabilir. Montaj hattı tavanı veya boyahane kabini gibi doğrudan üstüne çıkılacak bir nokta varsa makaslı platform önerilir — hem daha stabil hem daha ekonomiktir. İş bir engelin arkasına veya dış cepheye uzanmayı gerektiriyorsa manlift daha uygun olur.",
+            },
+            {
+                soru: "Boyahane kabinimizin zemini epoksi kaplı, iz bırakır mı?",
+                cevap:
+                    "İz bırakmayan (non-marking) tekerlekli makaslı platform kullandığımızda hayır. Epoksi veya cilalı beton zeminlerde standart tekerlek kullanmıyoruz; teklif öncesi zemin kaplamasının tipini soruyor ve buna göre tekerlek tipini belirliyoruz. Kabin havalandırılıp hat durdurulduktan sonra makineyi içeri alıyoruz.",
+            },
+            {
+                soru: "Montaj hattımızın üstünde galeri katı var, bu katın altına makine girebilir mi?",
+                cevap:
+                    "Girebilir, ancak önce galeri katının taşıma kapasitesini ve kat altı boşluğunun yüksekliğini öğreniyoruz. Bu bilgi olmadan makine konumlandırmıyoruz; kapasite bilgisi belirsizse en hafif ve düşük tekerlek yüküne sahip modeli öneriyoruz. Kat altı yüksekliği de seçilecek makinenin gövde tipini doğrudan belirliyor.",
+            },
+            {
+                soru: "İç depomuzun raf koridorları dar, makaslı platform sığar mı?",
+                cevap:
+                    "Büyük olasılıkla evet; kompakt gövdeli makaslı modeller dar koridorlar için üretilir. Kesin karar için koridorun en dar noktasının genişliğini ve raf yüksekliğini önceden ölçüyoruz. Sepetin rafa temas etmemesi için manevra payını da işin planına dahil ediyoruz.",
+            },
+            {
+                soru: "Üretim hattımız sürerken makaslı platform çalışması yapılabilir mi?",
+                cevap:
+                    "Genellikle önermiyoruz; hat çalışırken hem güvenlik hem verimlilik açısından risk oluşur. Bunun yerine işleri vardiya arası boşluklara ya da hafta sonuna planlıyoruz. Boyahane gibi durdurulması zaman alan bölümlerde bu bekleme süresini işin başlangıcına dahil ediyoruz.",
+            },
+            {
+                soru: "Küçük bir atölyeyiz, tek seferlik bir aydınlatma değişimi için operatörlü kiralama mantıklı mı?",
+                cevap:
+                    "Evet, bu tür kısa süreli tek noktalı işlerde operatörlü kiralama en hızlı çözüm. Atölye sahibinin ayrı bir eğitim veya belge süreciyle uğraşmasına gerek kalmıyor; makinenin periyodik kontrol raporunu ve operatörümüzün yeterlilik belgesini talep etmeden gönderiyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun dikey yükselme prensibi ve iz bırakmayan tekerlek kullanımı genel platform ekipmanı bilgisidir. Bozüyük'teki mobilya/kereste tesislerinin kapalı hacim özellikleri bu dosyanın genel profiline dayanır. Tesis adı, kapasite ve rakam verilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük'te Mobilya ve Kereste Tesisleri için Manlift Kiralama",
+        giris:
+            "Manlift, kolunu hem yukarı hem yana uzatabilen — teleskopik ya da eklemli — bir platform tipidir ve bu özelliği onu bir engelin üzerinden veya arkasından erişim gerektiren dış mekan işlerinde makaslı platformdan ayırır. Bozüyük'teki mobilya ve kereste işleme tesislerinde bu ihtiyaç genellikle üç noktada ortaya çıkıyor: boyahane hattının dış cephedeki egzoz bacası, açık sahada istiflenmiş kereste yığınının üzerinden yükleme rampasına erişim ve atölye binasının dış cephe-çatı oluğu. Bu üç işin ortak noktası, sepetin doğrudan altına konumlanamayacağı bir hedefe kolun yana veya üstten uzanarak ulaşmasıdır. Bize göre manlift teklifinin başlangıç sorusu şudur: hedefe engelsiz dikey erişim mi var, yoksa kol uzanması mı gerekiyor? İkincisiyse, açık sahanın zemin durumu ve o gün beklenen hava koşulu (rüzgar, yağış) makine tipini ve çalışma saatini belirliyor. Bu sayfada, mobilya-kereste ekseninde manliftin hangi dış mekan işlerinde kullanıldığını ve açık saha koşullarının kiralama kararını nasıl şekillendirdiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Boyahane bacası ve egzoz sisteminin dış yüzey bakımı",
+                metin:
+                    "Vernik ve boya kabininin dış cephedeki egzoz bacası ile filtre sistemi, düzenli dış yüzey kontrolü gerektirir. Bu baca genellikle çatı hizasında ve bina cephesinden bir miktar dışarı taşan bir konumdadır; kolun yana ve yukarı uzanabildiği eklemli veya teleskopik manlift bu noktaya makaslı platformdan daha uygun erişim sağlar.",
+            },
+            {
+                baslik: "Açık saha kereste stokunun üzerinden yükleme rampasına erişim",
+                metin:
+                    "Açık sahada istiflenmiş kereste yığınlarının arkasında kalan bir yükleme rampasına ya da aydınlatma direğine ulaşmak gerektiğinde, yığının üzerinden geçmek zorunda kalınabilir. Manlift kolu, istifin üzerinden dolanarak hedefe ulaşır; istifin yüksekliği ve genişliği önceden ölçülür, kolun yığına temas etmeyeceği bir güzergah belirlenir.",
+            },
+            {
+                baslik: "Atölye binası dış cephe ve çatı oluğu bakımı",
+                metin:
+                    "Mobilya atölyesi binasının dış cephesi ve çatı oluğu, düzenli temizlik ve boya bakımı gerektirir. Bina cephesi düz olsa da pencere silmeleri, tabela çıkıntıları gibi engeller kolun manevra kabiliyetini gerektirir; eklemli manlift bu tür engelleri dolanarak aşabilir.",
+            },
+            {
+                baslik: "Açık saha aydınlatma direği ve güvenlik kamerası bakımı",
+                metin:
+                    "Kereste deposu açık sahasındaki aydınlatma direkleri ve güvenlik kameraları, direğin tabanına yakın park edilemeyecek şekilde malzeme yığınlarıyla çevrili olabilir. Manlift kolu, yığınlardan güvenli mesafede park edilen makineden direğe uzanarak erişim sağlar; bu, malzeme istifini bozmadan bakım yapılmasını mümkün kılar.",
+            },
+            {
+                baslik: "Forklift ve kamyon trafiğinin geçtiği noktalarda engel aşma",
+                metin:
+                    "Açık sahada forklift veya kamyonun düzenli geçtiği bir güzergahın üzerinde kalan bir noktaya erişim gerektiğinde, makine bu güzergahın dışına konumlanıp kolunu güzergahın üzerinden uzatır. Bu, sahadaki araç trafiğini durdurmadan çalışmayı mümkün kılan bir çözümdür; güzergahın o an aktif olup olmadığı işin başında teyit edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dış mekan konum tipine göre manlift seçimi",
+                paragraflar: [
+                    "Mobilya ve kereste tesislerinin açık saha ve dış cephe noktalarını erişim şekline göre sınıflandırıyoruz; aşağıdaki tablo teklif öncesi kullandığımız çerçevedir.",
+                ],
+                tablo: {
+                    basliklar: ["Konum tipi", "Ana engel", "Manlift tipi", "Konumlandırma"],
+                    satirlar: [
+                        ["Boyahane bacası/egzoz", "Cephe çıkıntısı", "Eklemli", "Bina cephesinden mesafeli"],
+                        ["Kereste istifi arkası rampa", "Yığın yüksekliği", "Teleskopik", "İstiften uzak, kol üstten"],
+                        ["Bina dış cephe/oluk", "Silme, tabela çıkıntısı", "Eklemli", "Cephe boyunca kademeli"],
+                        ["Açık saha aydınlatma direği", "Malzeme yığını çevresi", "Eklemli", "Yığından güvenli mesafe"],
+                    ],
+                },
+            },
+            {
+                baslik: "Açık sahada zemin ve hava koşulu",
+                paragraflar: [
+                    "Açık sahalar iç mekanların aksine sıkıştırılmış toprak, parke taşı veya kısmen bakımsız zeminlere sahip olabilir; destek ayaklarının güvenilir oturması için zemin önceden kontrol edilir, gerekirse yük dağıtım plakası kullanılır.",
+                    "Kolu yana ve yukarı uzatan manlift, rüzgara makaslı platformdan daha duyarlıdır. Sahadaki iş günü için rüzgar tahmini önceden kontrol edilir; kuvvetli rüzgar beklentisi varsa, özellikle kol tam uzanmışken çalışma ertelenir ya da daha sakin bir saate planlanır.",
+                ],
+            },
+            {
+                baslik: "Açık saha trafiğiyle koordinasyon",
+                paragraflar: [
+                    "Kereste deposu ve yükleme sahasında forklift ile kamyon trafiği süreklidir; manlift bu trafiği durdurmadan çalışabilecek bir güzergah ve saat diliminde konumlandırılır. Yoğun sevkiyat saatlerinde çalışma mümkünse daha sakin bir zaman dilimine ertelenir.",
+                    "Aynı gün içinde birden fazla dış mekan noktasında iş varsa — örneğin hem boyahane bacası hem aydınlatma direği — makine tek sevkiyatla getirilip sırayla kullanılır; bu, sahadaki araç trafiğinin yalnızca bir kez kesintiye uğramasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasında hangisini seçeceğimizi nasıl belirliyorsunuz?",
+                cevap:
+                    "Hedefin doğrudan altına konumlanıp dikey çıkılabiliyorsa makaslı platform öneriyoruz; hedefe bir yığının, cephe çıkıntısının veya başka bir engelin üzerinden ya da yanından ulaşmak gerekiyorsa manlift öneriyoruz. Boyahane bacası ve kereste istifi arkasındaki noktalar bu ikinci gruba giriyor, çünkü sepetin altına doğrudan konumlanacak düz bir zemin yok.",
+            },
+            {
+                soru: "Kereste istifimizin arkasındaki rampaya erişim için istifi kaldırmamız gerekiyor mu?",
+                cevap:
+                    "Hayır, genellikle gerekmiyor. Manlift kolu istifin üzerinden dolanarak rampaya ulaşabiliyor; bunun için istifin yüksekliğini ve genişliğini önceden ölçüyor, kolun yığına temas etmeyeceği bir güzergah belirliyoruz. İstif çok yüksekse ya da düzensizse, güzergahı yeniden değerlendiriyoruz.",
+            },
+            {
+                soru: "Rüzgarlı bir günde açık sahada çalışabiliyor musunuz?",
+                cevap:
+                    "Kol tam uzanmışken manlift rüzgara makaslı platformdan daha duyarlıdır, bu yüzden iş günü için rüzgar tahminini önceden kontrol ediyoruz. Kuvvetli rüzgar beklentisi varsa çalışmayı erteliyor ya da daha sakin bir saate planlıyoruz; zorlanarak kuvvetli rüzgarda kol tam uzanmıyor.",
+            },
+            {
+                soru: "Boyahane bacamızın dış yüzeyine erişim için hangi manlift tipi uygun?",
+                cevap:
+                    "Genellikle eklemli manlift öneriyoruz, çünkü cephe çıkıntısını dolanarak bacaya yaklaşabiliyor. Bina cephesinden güvenli bir mesafede konumlanıp kolu yukarı ve yana uzatıyoruz; bacanın tam yüksekliğini ve cepheden çıkıntı mesafesini teklif öncesi ölçüyoruz.",
+            },
+            {
+                soru: "Açık sahada forklift trafiği sürekli, çalışmamız bunu engeller mi?",
+                cevap:
+                    "Engellemiyoruz; makineyi trafiğin dışında bir noktaya konumlandırıp kolu güzergahın üzerinden uzatıyoruz. Yoğun sevkiyat saatlerinde mümkünse daha sakin bir zaman dilimine erteliyoruz. Güzergahın o an aktif olup olmadığını işin başında sahada teyit ediyoruz.",
+            },
+            {
+                soru: "Açık sahanın zemini toprak, destek ayakları batar mı?",
+                cevap:
+                    "Batma riskini önceden kontrol ediyoruz; sıkıştırılmış toprak zeminlerde destek ayağı altına yük dağıtım plakası kullanıyoruz. Yağış sonrası zemin yumuşamışsa, kuruyana kadar bekliyor ya da daha sağlam bir konumlandırma noktası arıyoruz. Zorlanarak yumuşak zemine makine konumlandırmıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manliftin eklemli/teleskopik kol yapısı ve rüzgar hassasiyeti genel platform ekipmanı bilgisidir. Bozüyük'teki mobilya/kereste tesislerinin açık saha ve dış cephe özellikleri bu dosyanın genel profiline dayanır. Tesis adı, kapasite ve rakam verilmemiştir.",
+    },
 };

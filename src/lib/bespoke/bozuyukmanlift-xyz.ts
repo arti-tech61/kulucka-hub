@@ -1987,4 +1987,198 @@ export const BOZUYUKMANLIFT_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bosch'un Bozüyük'te bir üretim tesisi bulunduğu ve otomotiv tedarik ağında yeni tesis yatırımlarının sektörün genel bir eğilimi olduğu kamuya açık genel bilgidir; zemin değerlendirme pratiği firma saha tecrübesidir. Tesis içi kapasite, mesafe ya da doğrulanmamış rakam kullanılmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "TEM Otoyolu Bozüyük Çıkışı Depolarında Raf Koridoruna Özel Makaslı Platform Kiralama",
+        giris:
+            "TEM Otoyolu Bozüyük çıkışının çevresinde kurulan depolarda raf sistemleri genellikle koridor genişliğini en aza indirerek maksimum palet kapasitesi hedefler; bu da bakım ya da mal yerleştirme sırasında kullanılacak makinenin gövde genişliğini doğrudan sınırlayan bir tasarım kararı haline gelir. Makaslı platform, saf dikey hareketi ve dar şasesiyle bu koridor mimarisine en uygun makine sınıfıdır — eğik kol veya sepet salınımı gerektirmeden, raf ile raf arasındaki dar hatta düz yukarı çıkıp aynı hatta iner. Bozüyük çıkışına yakınlığın getirdiği pratik bir sonuç da var: TEM'e bağlı depo işletmelerinin çoğu, sevkiyat trafiğinin yoğunlaştığı saatlerde (özellikle sabah erken ve akşamüstü kamyon giriş-çıkış pencerelerinde) koridor içi makine trafiğini kısıtlıyor; biz bu pencereler dışında çalışmayı planlayarak hem depo operasyonunu aksatmıyor hem de raf sistemine erişimde gecikme yaşamıyoruz. Metal işleme atölyelerinde ise durum biraz farklı: burada raf koridoru yok ama düz beton zemin ve sabit tavan yüksekliği var, bu da makaslı platformu aydınlatma, havalandırma kanalı ve tavan vinç rayı bakımında ekonomik bir tercih yapıyor. Bu sayfada TEM çıkışı çevresindeki depo ve atölyelerde makaslı platform kiralamasını hangi ölçütlere göre planladığımızı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Raf koridoru genişliği ve şase ölçüsü uyumu",
+                metin:
+                    "Yüksek yoğunluklu palet raflarında koridor genişliği genellikle forklift dönüş yarıçapına göre belirlenir ve bu ölçü, geniş şaseli bir makinenin sığmayacağı kadar dar olabilir. Keşif sırasında koridor genişliğini raf üreticisinin planından ya da yerinde ölçümle netleştiririz; dar koridorlarda gövde genişliği en düşük sınıf tercih edilir, standart koridorlarda daha yüksek kapasiteli sınıfa geçilebilir.",
+            },
+            {
+                baslik: "Depo zemin kaplaması ve iz bırakmayan lastik",
+                metin:
+                    "TEM çıkışı çevresindeki depoların büyük kısmı endüstriyel epoksi ya da özel kaplamalı beton zemin kullanıyor; bu tip zeminlerde standart siyah lastik iz bırakabilir. Makaslı platformlarımızda iz bırakmayan (non-marking) lastik standarttır, ama yine de tesisin zemin garantisi varsa önceden bilgi alır, gerekirse tekerlek altına koruyucu şerit sereriz.",
+            },
+            {
+                baslik: "Sevkiyat kapısı üstü aydınlatma ve sensör bakımı",
+                metin:
+                    "Yükleme rampalarının üzerindeki aydınlatma armatürleri ve kapı sensörleri, sevkiyat trafiğinin en yoğun olduğu noktada bulunduğu için bakımı genellikle trafiğin durduğu bir ara pencerede yapılır. Makaslı platform, rampa önündeki düz zeminde hızlı kurulup sökülebildiği için bu dar pencerelere sığan bir çalışma temposu sağlıyor; kapı açık kaldığı sürece platform kapı hattının dışında konumlandırılır.",
+            },
+            {
+                baslik: "Metal işleme atölyesinde tavan aydınlatma ve kanal bakımı",
+                metin:
+                    "Kaynak, kesim ve büküm hatlarının bulunduğu atölyelerde tavan aydınlatması ve toz emme kanalı, tezgâhların sabit dizilimi arasında düz bir koridor bırakır; bu koridor genellikle raf aralığından geniş olsa da tezgâh çıkıntıları ve malzeme sehpaları dar noktalar oluşturabilir. Çalışma öncesi hat sorumlusuyla güzergâh üzerindeki tezgâhların o gün aktif olup olmadığı teyit edilir, aktif tezgâhın yakınında çalışılmaz.",
+            },
+            {
+                baslik: "TEM çıkışına yakınlığın sevkiyat penceresine etkisi",
+                metin:
+                    "Bozüyük çıkışının TEM'e doğrudan bağlantısı, buradaki depoların İstanbul-Ankara hattı üzerinde sık kamyon trafiği almasına yol açıyor; bu trafik yoğunluğu depo içi koridor kullanımını da dolaylı etkiliyor çünkü sevkiyat sırasında forklift trafiği artıyor. Biz makine planlamasını bu trafik desenine göre yapıyoruz, mümkünse sevkiyat dışı saatlerde koridor içi çalışmayı tercih ediyoruz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Depo raf koridoru genişliğine göre makaslı platform seçimi",
+                paragraflar: [
+                    "TEM çıkışı çevresindeki depolarda karşılaştığımız koridor tiplerini ve bunlara göre önerdiğimiz makine yaklaşımını aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Koridor tipi", "Tipik genişlik kısıtı", "Risk", "Makine yaklaşımı"],
+                    satirlar: [
+                        ["Yüksek yoğunluklu palet rafı", "Forklift dönüş yarıçapına göre dar", "Şase sığmaması", "Dar gövdeli düşük kapasiteli sınıf"],
+                        ["Standart raf koridoru", "Orta genişlik", "Düşük", "Orta kapasiteli sınıf"],
+                        ["Sevkiyat rampası önü", "Kamyon manevra alanı paylaşımı", "Trafik çakışması", "Sevkiyat dışı saat planlaması"],
+                        ["Metal atölye tezgâh arası", "Tezgâh çıkıntıları, malzeme sehpası", "Değişken engel", "Güncel güzergâh teyidi"],
+                    ],
+                },
+            },
+            {
+                baslik: "TEM Otoyolu Bozüyük çıkışının depo yerleşimine etkisi",
+                paragraflar: [
+                    "TEM Otoyolu'nun Bozüyük çıkışı, İstanbul-Ankara hattındaki lojistik firmalarının burada depo kurmasını cazip kılan bir konum sunuyor; bu nedenle çıkışa yakın bölgede orta ve büyük ölçekli depo yatırımları zaman içinde arttı. Bu depoların ortak özelliği, yüksek raf yoğunluğu ile depo alanını verimli kullanma çabasıdır — bu da koridor genişliğini sınırlayan bir tasarım tercihine dönüşüyor.",
+                    "Biz bu depolara hizmet verirken tesisin iç stok yoğunluğuna ya da kapasitesine dair bilgi paylaşmayız, çünkü bu bilgiler bize ait değildir; anlattığımız yalnızca koridor mimarisinin makine seçimine etkisidir.",
+                ],
+            },
+            {
+                baslik: "Metal işleme atölyesinde zemin ve titreşim değerlendirmesi",
+                paragraflar: [
+                    "Kaynak ve kesim hatlarının bulunduğu atölyelerde zemin genellikle düz betondur, ama bazı tezgâhların çalışma sırasında oluşturduğu titreşim, platformun sabit durması gereken bir noktada dikkat gerektirir. Çalışmaya başlamadan önce yakın çevredeki tezgâhların titreşim seviyesi sorulur, gerekirse platform daha uzak bir noktadan konumlandırılır.",
+                    "Atölye içindeki toz ve metal talaşı birikintisi de zemin sürtünmesini etkileyebilir; bu tip alanlarda tekerlek temizliği ve düşük hızla ilerleme standart uygulamamızdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Raf koridoru çok dar görünüyor, keşif olmadan makine gönderebilir misiniz?",
+                cevap:
+                    "Göndermeyiz; koridor genişliği santimetre farkıyla sığma-sığmama durumunu belirleyebildiği için önce ölçü isteriz, mümkünse fotoğraf ya da raf planındaki koridor ölçüsünü paylaşmanızı bekleriz. Ölçü net değilse kısa bir keşifle netleştiririz. Bu adımı atlayıp sahaya sığmayan bir makine göndermek hem zaman hem maliyet kaybına yol açar, bu yüzden bu adımdan taviz vermeyiz.",
+            },
+            {
+                soru: "Depomuzun zemininde özel epoksi kaplama var, hasar riski var mı?",
+                cevap:
+                    "İz bırakmayan lastik standart kullanımımızdır ve çoğu epoksi zeminde sorun yaratmaz, ama bazı hassas kaplamalarda yine de iz kalabilir. Zemininiz özellikle hassas bir kaplamaya sahipse önceden bilgi alır, gerekirse tekerlek altına koruyucu şerit ya da paspas sereriz; garantili bir zemin varsa üreticinin önerdiği koruma yöntemini uygularız.",
+            },
+            {
+                soru: "Sevkiyat saatlerinde koridor içinde çalışabilir misiniz, yoksa mutlaka beklemek mi gerekiyor?",
+                cevap:
+                    "Mümkünse sevkiyat dışı saatleri tercih ederiz çünkü forklift trafiğiyle aynı koridoru paylaşmak hem güvenlik riski hem de sizin sevkiyatınızı yavaşlatma ihtimali taşır. Ancak acil bir iş varsa ve depo yönetimi onay verirse, forklift trafiğiyle koordineli, düşük hızda ve sürekli iletişimde çalışabiliriz; bu durumda ek bir yönlendirme personeli önerilir.",
+            },
+            {
+                soru: "Metal atölyemizde tezgâhlar sürekli çalışıyor, aralarında güvenli çalışabilir misiniz?",
+                cevap:
+                    "Aktif çalışan bir tezgâhın hemen yakınında çalışmayız; güzergâh üzerindeki tezgâhların o gün aktif olup olmadığını hat sorumlusuyla teyit ederiz, aktifse o tezgâh durana ya da güvenli bir mesafe bırakılana kadar bekleriz. Titreşim ya da metal talaşı sıçraması riski varsa, bu riski azaltacak bir konumlandırma ya da zamanlama birlikte belirlenir.",
+            },
+            {
+                soru: "Farklı koridor genişliklerine sahip birden fazla raf bloğumuz var, tek makine yeter mi?",
+                cevap:
+                    "Genellikle en dar koridora göre seçilen tek bir makine tüm bloklara hizmet verebilir, ama bu makine geniş koridorlarda gereğinden düşük kapasiteli kalabilir. Verimlilik önemliyse, dar koridorlar için bir, geniş koridorlar için ikinci bir sınıf önerebiliriz; bu, iş kapsamına ve bütçeye göre birlikte değerlendirilir.",
+            },
+            {
+                soru: "TEM çıkışına yakın olmanız teslimat süresini kısaltıyor mu?",
+                cevap:
+                    "Bozüyük çıkışına yakın konumumuz, TEM üzerindeki depolara ulaşım süresini genel olarak kısaltır, ama kesin teslimat süresi günün trafik yoğunluğuna ve talep edilen makine sınıfının o an müsait olup olmadığına bağlıdır. Planlı işlerde teslimat saatini önceden netleştiririz; acil taleplerde elimizdeki müsaitliğe göre en kısa süreyi bildiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM Otoyolu'nun Bozüyük çıkışı ve bu çıkışın bölgedeki depo yatırımlarını çektiği kamuya açık genel bilgidir; raf koridoru mimarisi ve makine seçim pratiği firma saha tecrübesidir. Tesis içi stok kapasitesi, marka adı ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "TEM Otoyolu Bozüyük Çıkışında Depo Dış Cephesi ve Metal Atölye Çelik Konstrüksiyonuna Manlift",
+        giris:
+            "Makaslı platform yalnızca dikey hareket ederken, manlift (eklemli ya da teleskopik kollu) yatay uzanım gerektiren işlerde devreye giriyor — depo binasının dış cephesi, yükleme rampası üzerindeki kanopi, metal atölyenin çelik konstrüksiyon çatı kirişleri gibi noktalar, düz yukarı çıkmakla değil belirli bir açıyla yana uzanmakla erişilebiliyor. TEM Otoyolu Bozüyük çıkışının çevresindeki depo ve atölyelerin çoğu, bina dışında geniş bir açık saha (kamyon manevra alanı, açık depolama, yükleme-boşaltma bekleme sahası) barındırıyor; bu açık sahalar bina içindeki düzgün betondan farklı olarak asfalt, sıkıştırılmış zemin ya da parke taşı gibi karışık yüzeyler içerebiliyor. Manlift bu karışık dış mekân zemininde, çelik konstrüksiyon montaj ya da bakım noktasına ulaşırken hem yatay uzanımı hem de zemin çeşitliliğini aynı anda yönetmek zorunda. Bu sayfada TEM çıkışı çevresindeki depoların dış cephe ve metal atölyelerin çelik konstrüksiyon işlerinde manlift kiralamasını nasıl planladığımızı, makaslı platformdan farkını da netleştirerek anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Depo dış cephesinde tabela ve aydınlatma erişimi",
+                metin:
+                    "Depo binalarının dış cephesindeki kurumsal tabela, güvenlik aydınlatması ya da kamera montajı, bina duvarından belirli bir mesafede konumlanır ve düz yukarı çıkan bir makineyle değil yana uzanan bir kolla erişilir. Eklemli kollu manlift, bina duvarına yakın park edip kolunu hem yukarı hem yana açarak bu noktalara ulaşır; çalışma öncesi bina cephesindeki elektrik hatlarının güzergâhı sorulur.",
+            },
+            {
+                baslik: "Yükleme rampası kanopisi ve çatı kenarı bakımı",
+                metin:
+                    "Sevkiyat rampalarının üzerini kapatan kanopi yapıları, hem kamyonların altından geçtiği hem de yağmur suyu tahliyesinin yapıldığı bir noktadır; bakımı sırasında kamyon trafiğinin o an durdurulmuş olması gerekir. Manlift, rampanın yan tarafından kolunu kanopi altına ya da kenarına uzatarak bu bakımı, rampa zeminine tam oturmadan yapabiliyor.",
+            },
+            {
+                baslik: "Metal atölye çelik konstrüksiyon çatı kirişine eğik erişim",
+                metin:
+                    "Çelik konstrüksiyon atölye binalarında çatı kirişleri ve makas sistemleri, düz bir kolonun üzerinden değil belirli bir açıyla yükselen bir hatta yerleşir; bu geometriye düz dikey bir makineyle erişmek mümkün olmuyor, kolun kirişin altından ya da yanından yaklaşması gerekiyor. Teleskopik kollu manlift bu açılı erişimi sağlıyor; montaj ya da bakım öncesi kirişin taşıma kapasitesi ve platform ağırlığı birlikte değerlendirilir.",
+            },
+            {
+                baslik: "Açık saha ve tır üstü erişimde zemin çeşitliliği",
+                metin:
+                    "Depo dışındaki açık depolama ya da bekleme sahaları genellikle asfalt, sıkıştırılmış toprak ya da parke taşı gibi farklı yüzeyler içerir; bir tırın römork üstüne ya da yükleme noktasına erişim gerektiğinde makine bu karışık zeminde sabit durabilmeli. Çalışma öncesi zemin tipi ve eğim kontrol edilir, gerekirse takoz ya da destek plakası kullanılır.",
+            },
+            {
+                baslik: "TEM çıkışı çevresindeki açık sahalarda rüzgâr ve hava koşulu",
+                metin:
+                    "Otoyol çıkışına yakın açık sahalar, bina gölgesinden uzak olduğu için rüzgâra daha maruz kalabilir; yüksekte ve kolu açık şekilde çalışırken rüzgâr hızı güvenlik sınırını aşarsa çalışma ertelenir. Hava durumu çalışma günü öncesinde kontrol edilir, sınırda bir tahmin varsa sahada anlık ölçümle karar verilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Dış mekân erişim noktasına göre manlift tipi",
+                paragraflar: [
+                    "TEM çıkışı çevresindeki depo ve atölyelerde en sık ulaştığımız dış mekân noktalarını ve önerdiğimiz manlift tipini aşağıda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Uzanım ihtiyacı", "Zemin", "Önerilen tip"],
+                    satirlar: [
+                        ["Depo dış cephe tabela/aydınlatma", "Yatay + dikey açılı kol", "Bina çevresi sert zemin", "Eklemli kollu manlift"],
+                        ["Rampa kanopisi altı", "Yana uzanım, kamyon trafiği durmuş", "Rampa önü asfalt", "Eklemli kollu, dar konumlandırma"],
+                        ["Çelik konstrüksiyon çatı kirişi", "Açılı yükselme", "Atölye çevresi beton", "Teleskopik kollu manlift"],
+                        ["Açık saha / tır üstü", "Uzun yatay uzanım", "Karışık (asfalt/toprak/parke)", "Zemin tipine göre tekerlek/palet seçimi"],
+                    ],
+                },
+            },
+            {
+                baslik: "TEM Otoyolu Bozüyük çıkışının açık saha kullanımına etkisi",
+                paragraflar: [
+                    "TEM Otoyolu'nun Bozüyük çıkışına yakın konumlanan depo ve atölyelerin çoğu, kamyon manevrası ve açık depolama için binaya ek olarak geniş bir dış saha ayırıyor; bu sahaların zemin işlemesi bina içi kadar standart olmayabiliyor çünkü öncelik trafik akışı ve depolama kapasitesi oluyor.",
+                    "Bu farklı zemin karakterini önceden bilmek, doğru manlift tipini ve destek ekipmanını seçmemizi sağlıyor; keşif sırasında dış saha zeminini mutlaka yerinde değerlendiririz.",
+                ],
+            },
+            {
+                baslik: "Çelik konstrüksiyon montaj ve bakım sürecinde koordinasyon",
+                paragraflar: [
+                    "Çelik konstrüksiyon atölye binalarında çatı kirişi montajı ya da bakımı, genellikle bir çelik yapı ekibiyle birlikte yürütülen bir iştir; manlift operatörümüz, kirişin taşıma kapasitesine ve montaj sırasının nasıl ilerlediğine dair bilgiyi saha sorumlusundan alır.",
+                    "Bu koordinasyon, hem güvenlik hem de işin doğru sırayla ilerlemesi için önemlidir; montaj planı değiştiğinde manlift konumlandırması da buna göre yeniden ayarlanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform yerine neden manlift öneriyorsunuz, ikisi arasındaki fark ne?",
+                cevap:
+                    "Makaslı platform yalnızca düz yukarı çıkar, bu yüzden koridor içi ya da doğrudan üstteki noktalara uygundur. Manlift ise kolunu hem yukarı hem yana açabildiği için bina duvarından uzaktaki, açılı ya da yatay mesafe gerektiren noktalara ulaşır — dış cephe, kanopi altı ya da çelik kirişin altı gibi. İş noktanız düz üst değil yana uzanım gerektiriyorsa manlift doğru seçimdir.",
+            },
+            {
+                soru: "Açık sahamızın zemini kısmen toprak, kısmen asfalt; bu makineyi etkiler mi?",
+                cevap:
+                    "Etkiler, çünkü tekerlekli bir manlift toprak kısımda tutunma sorunu yaşayabilir. Keşif sırasında zemin geçişlerini kontrol eder, gerekirse güzergâhı yalnızca sert zemin üzerinden geçecek şekilde planlarız; toprak kısımdan geçiş zorunluysa palet ya da destek plakası kullanırız.",
+            },
+            {
+                soru: "Rampa kanopisi altında çalışırken kamyon trafiğini nasıl yönetiyorsunuz?",
+                cevap:
+                    "Çalışma öncesi rampa sorumlusuyla o bölümün geçici olarak kamyon trafiğine kapatılmasını netleştiririz; kanopi altında iş süren makine varken kamyon giriş-çıkışı yapılmaz. İş bittiğinde alan hemen boşaltılır, rampa normal işleyişine döner.",
+            },
+            {
+                soru: "Çelik kirişin taşıma kapasitesini nasıl kontrol ediyorsunuz?",
+                cevap:
+                    "Kendi başımıza kapasiteyi belirlemeyiz; bu bilgi çelik yapı projesinin statik hesabına aittir. Tesisin saha mühendisinden ya da yüklenici firmadan kirişin taşıyabileceği yükü ve varsa çalışma kısıtını öğreniriz, bu bilgi olmadan kirişe yakın çalışmayız.",
+            },
+            {
+                soru: "Rüzgârlı bir günde çalışmayı erteliyor musunuz, ne kadar süre kaybediyoruz?",
+                cevap:
+                    "Rüzgâr hızı güvenlik sınırını aşarsa erteleriz; bu, tek bir günü kaybetmek anlamına gelmez, genellikle rüzgârın düştüğü bir saat dilimini bekleriz ya da ertesi güne planlarız. Açık sahada çalıştığımız için bu riski önceden değerlendirir, iş planına bir tampon süre ekleriz.",
+            },
+            {
+                soru: "TEM çıkışına yakın olmanız dış saha işlerinde bir avantaj sağlıyor mu?",
+                cevap:
+                    "Yakınlık, makinenin sahaya ulaşma süresini kısaltır ve özellikle acil bir dış cephe ya da kanopi arızasında hızlı müdahaleyi kolaylaştırır. Ancak iş süresi zemin çeşitliliği, rüzgâr durumu ve koordinasyon gerektiren işlerde (çelik konstrüksiyon gibi) yakınlıktan bağımsız olarak sahanın kendi koşullarına bağlıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. TEM Otoyolu'nun Bozüyük çıkışı ve bu çıkışın bölgedeki depo/atölye yatırımlarını çektiği kamuya açık genel bilgidir; dış mekân erişim ve çelik konstrüksiyon koordinasyon pratiği firma saha tecrübesidir. Tesis içi kapasite, marka adı ya da doğrulanmamış rakam kullanılmamıştır.",
+    },
 };

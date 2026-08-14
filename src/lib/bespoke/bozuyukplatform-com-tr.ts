@@ -1728,4 +1728,198 @@ export const BOZUYUKPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Zemin taşıma kapasitesi, yük dağıtım plakası kullanımı ve eğim sınırı platform operasyonlarında sektör standardı iş güvenliği pratiğidir. Söğüt ve çevre bölgelerin sert kışı genel iklim bilgisidir. Tesis adı ve rakam verilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük OSB'de Seramik, Cam ve Lojistik Arasında Aynı Gün Sırayla Makaslı Platform Hizmeti",
+        giris:
+            "Bozüyük OSB'deki üç sektörün arıza çağrılarının büyük bölümü, çözümü için özel bir manevraya değil dikey ve stabil bir çalışma tabanına ihtiyaç duyar — bu yüzden makaslı platform, seramik, cam ve lojistik tesislerinin hepsinde ilk akla gelen ve en sık talep edilen makine sınıfıdır. Ancak bir günün içinde aynı makinenin üç farklı sektöre sırayla hizmet etmesi, sadece makineyi bir yerden diğerine götürmekten ibaret değildir; her sektör geçişinde kısa ama gerekli bir hazırlık dönüşümü gerekir. Sabah bir seramik tesisinde toz yoğun bir bölgede çalışan makine, öğlen bir cam hattına gitmeden önce farklı bir kontrolden geçer; öğleden sonra bir lojistik depoya yönlendirilirken de yine farklı bir hazırlık uygulanır. Bu sayfa, tek bir makaslı platformun ya da küçük bir filonun bir gün içinde üç sektöre nasıl sırayla dağıtıldığını, hangi sırayla hizmet verildiğine nasıl karar verildiğini ve sektörler arası geçişte nelere dikkat edildiğini anlatıyor. Amacımız, hangi sektörden geldiğine bakılmaksızın aynı günün içinde mümkün olan en kısa sürede sahada olmaktır; bunu tek bir sektöre özel derinlemesine bir uzmanlıkla değil, üç sektör arasında hızlı geçiş yapabilen esnek bir çalışma düzeniyle sağlıyoruz.",
+        maddeler: [
+            {
+                baslik: "Neden makaslı platform üç sektörde de varsayılan tercih",
+                metin:
+                    "Makaslı platformun düz ve geniş tabanı, sepetin dikey olarak yükselmesi sırasında yüksek stabilite sağlar; bu, beton zeminli bir üretim hattında ya da bir depo koridorunda hızlı kurulum anlamına gelir. Seramik, cam ve lojistik tesislerinin üçünde de arıza noktalarının çoğu doğrudan yukarı erişimle çözülebildiği için, telefonda çağrı alındığında ilk değerlendirilen makine sınıfı genellikle makaslı platformdur; yalnızca erişim engelli veya dar bir noktaysa farklı bir sınıfa yönlendirilir.",
+            },
+            {
+                baslik: "Günün başında hangi sektörden çağrı gelirse rota ona göre kurulur",
+                metin:
+                    "Gün başladığında elimizde sabit bir sektör sırası yoktur; rota, o sabah hangi tesisten çağrı geldiğine göre şekillenir. İlk çağrı seramik tesisinden gelmişse gün oradan başlar; ilk çağrı lojistik depodan gelmişse gün oradan başlar. Gün ilerledikçe farklı sektörlerden gelen yeni çağrılar, mevcut işin bitiş saatine ve OSB içindeki mesafeye göre sıraya eklenir; amaç, makinenin boşta bekleme süresini en aza indirip her çağrıya makul bir sürede ulaşmaktır.",
+            },
+            {
+                baslik: "Seramikten cama geçişte uygulanan kontrol",
+                metin:
+                    "Bir seramik tesisindeki toz yoğun bir işin ardından makine cam tesisine yönlendirilecekse, hareket etmeden önce hidrolik bağlantı noktaları ve sepet tabanı toz açısından gözden geçirilir; bu, hem makinenin ömrünü korur hem cam tesisindeki hassas yüzeylere toz taşınmasını önler. Bu kontrol birkaç dakika sürer ve iki iş arasındaki geçiş süresine dahildir, ayrıca bir bekleme yaratmaz.",
+            },
+            {
+                baslik: "Camdan lojistiğe geçişte uygulanan kontrol",
+                metin:
+                    "Cam tesisindeki bir işin ardından lojistik depoya geçilecekse, ısıya dayanıklı eldiven ve yüz koruyucu gibi o işe özel ekipman araçta geri toplanır, operatör depo trafiğinde görünürlüğü artıran reflektif yelek giyer. Ayrıca hidrolik hortumların sıcak yüzeye yakın çalışmadan kaynaklanan bir aşınma belirtisi taşımadığı kısaca kontrol edilir; bu kontrol, bir sonraki işin lojistik ortamında sorunsuz ilerlemesini garanti eder.",
+            },
+            {
+                baslik: "Gün sonunda makinenin durumu ve ertesi güne hazırlığı",
+                metin:
+                    "Günün son işinden sonra makine, o gün hangi sektörlerde çalıştığına bakılmaksızın genel bir kontrolden geçer — hidrolik seviye, lastik/palet durumu, sepet güvenlik kilidi gibi temel noktalar gözden geçirilir. Ertesi gün hangi sektörden ilk çağrı gelirse gelsin makinenin hazır olması için bu kontrol atlanmaz; bir günü yorucu geçen makine, ertesi sabah ilk çağrıya gecikmeyle değil hazır durumda karşılık verir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Bir günlük örnek sıralama",
+                paragraflar: [
+                    "Üç sektörden gelen çağrıların bir gün içinde nasıl sıralanabileceğine dair temsili bir örnek aşağıdaki tabloda özetlenmiştir; gerçek sıralama o günkü çağrıların saatine ve aciliyetine göre değişir.",
+                ],
+                tablo: {
+                    basliklar: ["Sıra", "Sektör", "Geçiş hazırlığı", "Not"],
+                    satirlar: [
+                        ["1", "Seramik", "Standart toz koruması", "Günün ilk çağrısı, öncelik yok"],
+                        ["2", "Cam", "Toz temizliği + ısı kontrolü", "Önceki işten geçiş kontrolü"],
+                        ["3", "Lojistik", "Isı ekipmanı toplama + yelek", "Forklift trafiğine göre saat ayarı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sıralamayı değiştiren etkenler",
+                paragraflar: [
+                    "Planlanan sıralama sabit değildir; gün içinde üretimi durduran ya da güvenlik riski taşıyan yeni bir çağrı gelirse, bu çağrı mevcut işin bitişini beklemeden veya bitişinin hemen ardından sıranın başına alınır. Bu değişiklik, sırası ötelenen tesise telefonla bildirilir; hangi çağrının neden öne alındığı açıkça anlatılır, sessizce ertelenmez.",
+                    "Mesafe de sıralamayı etkileyen bir etkendir — iki çağrı benzer aciliyette ise, OSB içinde mevcut konuma daha yakın olan tesis genellikle önce ele alınır; bu, toplam bekleme süresini üç tesis için de kısaltır.",
+                ],
+            },
+            {
+                baslik: "Tek makine mi, birden fazla mı",
+                paragraflar: [
+                    "Çoğu gün, tek bir makaslı platform üç sektörün çağrılarını sırayla karşılamaya yeterlidir çünkü OSB içi mesafeler kısadır ve geçiş hazırlıkları birkaç dakika sürer. Ancak aynı gün içinde üç sektörden de eşzamanlı ve acil nitelikte birden fazla çağrı gelirse, ikinci bir makine devreye alınması değerlendirilir; bu karar, çağrıların aciliyetine ve o anki filo durumuna göre hızla verilir.",
+                    "İkinci makinenin devreye alınması gerektiğinde bu durum size açıkça bildirilir; tek makinenin sırasını beklemek yerine paralel bir çözüm sunulduğu anlatılır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Aynı makine gün içinde üç farklı sektöre gidiyorsa, bizim çağrımız sırada kaçıncı olur?",
+                cevap:
+                    "Bu, çağrının geldiği saate, mevcut işin ne zaman biteceğine ve çağrının aciliyetine bağlıdır. Üretimi durduran veya güvenlik riski taşıyan bir arıza, sıradaki konumundan bağımsız olarak öne alınır. Aciliyeti benzer çağrılarda ise mesafe ve varış sırası belirleyicidir. Çağrınızı aldığımızda tahmini bir sıra ve süre bilgisi paylaşırız; bu tahmin gün içinde değişirse sizi ayrıca bilgilendiririz.",
+            },
+            {
+                soru: "Seramikten sonra cama, camdan sonra lojistiğe geçerken ek süre kaybediyor muyuz?",
+                cevap:
+                    "Geçiş kontrolleri (toz temizliği, ısı ekipmanı toplama, reflektif yelek giyme gibi) birkaç dakika sürer ve iki iş arasındaki toplam süreye dahildir; bu süre size açıkça bildirilir, gizli bir gecikme olarak sunulmaz. Bu kontroller atlanmaz çünkü bir sektörün hazırlığının bir sonraki sektöre taşınması hem makine hem saha güvenliği açısından risk oluşturur.",
+            },
+            {
+                soru: "Bizim çağrımız sıradayken daha acil bir çağrı gelirse ne oluyor?",
+                cevap:
+                    "Üretimi durduran veya güvenlik riski taşıyan bir çağrı geldiğinde, mevcut iş bitirilir ve o çağrı sıranın önüne alınır. Bu durumda sırası ötelenen tesise durum telefonla bildirilir, yeni tahmini süre paylaşılır. Aciliyeti benzer iki çağrı arasında keyfi bir öncelik verilmez; karar her zaman gerekçeli ve şeffaftır.",
+            },
+            {
+                soru: "Aynı gün içinde birden fazla acil çağrı varsa tek makine yetmiyorsa ne yapılıyor?",
+                cevap:
+                    "Üç sektörden eşzamanlı ve acil nitelikte birden fazla çağrı geldiğinde ikinci bir makine devreye alınması değerlendirilir. Bu, filo durumuna göre hızla karara bağlanır ve size açıkça bildirilir; tek makinenin sırasını beklemeniz gerekmediği anlatılır. Çoğu günde OSB içi kısa mesafeler ve hızlı geçiş hazırlığı sayesinde tek makine yeterli olur.",
+            },
+            {
+                soru: "Günün sonunda gelen bir çağrı ertesi güne mi kalıyor?",
+                cevap:
+                    "Aciliyetine bağlıdır. Üretimi durduran veya güvenlik riski taşıyan bir arızada gün sonunda da olsa makine yönlendirilir. Ertesi sabaha kadar bekleyebilecek nitelikte bir çağrıda ise, çağrı kaydedilir ve ertesi günün ilk işi olarak planlanır; bu tercih telefonda sizinle birlikte değerlendirilir.",
+            },
+            {
+                soru: "Farklı sektörler arasında geçiş yapan aynı makine, her sektörün özel ihtiyacına gerçekten uyum sağlayabiliyor mu?",
+                cevap:
+                    "Evet, çünkü makaslı platformun temel çalışma prensibi (dikey yükselme, stabil taban) üç sektörde de aynıdır; değişen, makinenin kendisi değil geçiş sırasında uygulanan hazırlıktır. Toz koruması, ısı kontrolü veya trafik ekipmanı gibi sektöre özgü unsurlar araçta standart olarak bulunur ve geçiş sırasında hızla uygulanır; bu sayede aynı makine bir günde üç farklı ortamda sorunsuz çalışabilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun düz taban/stabil dikey erişim özelliği ve sektörler arası geçiş kontrolü (toz, ısı, trafik ekipmanı) sektör standardı saha operasyonu pratiğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bir arada bulunması genel bölgesel bilgidir. Tesis adı, kapasite ve rakam verilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük OSB'de 'Manlift' Talebiyle Gelen Çağrıların Üç Sektöre Aynı Gün Sırayla Yönlendirilmesi",
+        giris:
+            "Telefonda gelen çağrıların önemli bir kısmında müşteri \"manlift\" kelimesini genel bir terim olarak kullanır — tam olarak hangi makine sınıfına ihtiyaç duyduğunu değil, yüksekte veya erişimi zor bir noktada çalışacak bir platforma ihtiyacı olduğunu anlatır. Bozüyük OSB'de bu tür çağrılar aynı gün içinde seramik, cam ve lojistik sektörlerinin üçünden birden gelebilir; bizim işimiz, bu çağrıları doğru sırayla, doğru önceliklendirmeyle ve müşteriye net bir bekleme beklentisi vererek karşılamaktır. Bu sayfa, tek sektöre özel bir teknik derinlik anlatmıyor; onun yerine \"manlift lazım\" diyerek arayan bir müşterinin çağrısının, aynı gün içinde başka iki sektörden gelen çağrılarla birlikte nasıl bir sıraya girdiğini, bu sıranın nasıl belirlendiğini ve müşteriye ne zaman, ne kadar net bilgi verildiğini anlatıyor. Amacımız, hangi sektörden aradığınıza bakılmaksızın çağrınızın nerede durduğunu açıkça bilmenizi sağlamak.",
+        maddeler: [
+            {
+                baslik: "\"Manlift lazım\" çağrısında ilk sorulan sorular",
+                metin:
+                    "Çağrı geldiğinde önce terimi netleştirmeye çalışmayız; müşterinin \"manlift\", \"platform\" ya da \"vinç\" demesi bizim için ayrıntı değil, önce sorunun ne olduğunu ve nerede olduğunu öğreniriz. Hangi tesisten (seramik, cam, lojistik) arandığı, arızanın üretimi durdurup durdurmadığı ve yaklaşık yükseklik/konum bilgisi alınır; bu üç bilgi, çağrının günün rotasında nereye oturacağını belirler.",
+            },
+            {
+                baslik: "Aynı gün içinde birden fazla \"manlift\" çağrısı gelirse sıralama",
+                metin:
+                    "Bir günde üç sektörden de \"manlift\" talebi gelmesi sık görülür. Bu durumda sıralama, ilk gelen çağrının önceliği ile değil, her çağrının kendi aciliyet düzeyiyle belirlenir — üretimi durduran bir arıza, geç aranmış olsa bile önce ele alınır; üretimi etkilemeyen bir çağrı ise sıraya göre bekler. Bu mantık, üç sektörden gelen taleplerin adil ve gerekçeli biçimde sıralanmasını sağlar.",
+            },
+            {
+                baslik: "Müşteriye bekleme süresi nasıl iletiliyor",
+                metin:
+                    "Çağrı alındığında, o anki sıraya göre kabaca bir varış tahmini paylaşılır — örneğin \"önümüzde bir iş var, tahmini bir buçuk-iki saat içinde sahada oluruz\" gibi. Bu tahmin kesin bir randevu saati değildir ama müşterinin \"ne zaman geliyorsunuz\" belirsizliğinde beklememesi için verilir. Sıra değişirse (daha acil bir çağrı araya girerse) bu güncelleme de ayrıca telefonla iletilir.",
+            },
+            {
+                baslik: "Sıra ortasında yeni acil çağrı gelirse rota nasıl güncelleniyor",
+                metin:
+                    "Bir sektörden acil ve üretim durduran nitelikte yeni bir çağrı geldiğinde, mevcut sıradaki daha az kritik bir çağrının önüne geçebilir. Bu durumda sırası ötelenen müşteriye durum hemen bildirilir; neden öncelik değiştiği açıklanır ve yeni tahmini süre verilir. Sessiz bir gecikme yerine, gerekçeli ve önceden haber verilen bir değişiklik uygulanır.",
+            },
+            {
+                baslik: "Gün sonuna doğru gelen taleplerde planlama",
+                metin:
+                    "Gün sonuna yakın gelen bir \"manlift\" çağrısında, arızanın aciliyeti değerlendirilir. Güvenlik riski taşıyan veya üretimi durduran bir durumda gün bitse de makine yönlendirilir. Ertesi sabaha kadar güvenle bekleyebilecek bir arızada ise, çağrı kaydedilir ve ertesi günün ilk işlerinden biri olarak planlanır; bu tercih müşteriyle birlikte, açıkça konuşularak yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Aynı gün üç sektörden gelen talep örneği",
+                paragraflar: [
+                    "Bir günde üç sektörden gelen \"manlift\" taleplerinin nasıl sıralanıp müşteriye nasıl iletildiğine dair temsili bir örnek aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Talep sırası", "Sektör", "Aciliyet", "Müşteriye iletişim"],
+                    satirlar: [
+                        ["1", "Cam", "Üretim durdu", "Hemen yola çıkıldığı bildirilir"],
+                        ["2", "Lojistik", "Üretim etkilenmiyor", "Tahmini 1-2 saat bekleme bildirilir"],
+                        ["3", "Seramik", "Üretim durdu (sonradan gelen)", "Öncelik değişikliği telefonla açıklanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bekleme süresi tahmini nasıl hesaplanıyor",
+                paragraflar: [
+                    "Tahmini süre üç bileşenden oluşur: önümüzdeki işin tahmini bitiş süresi, OSB içindeki mesafe ve geçiş hazırlığı için gereken birkaç dakika. Bu üç bileşen toplanarak kabaca bir aralık verilir; kesin bir dakika sayısı yerine bilinçli olarak bir aralık (örneğin \"bir buçuk-iki saat\") kullanılır çünkü sahadaki işin süresi bazen tahminden uzun sürebilir.",
+                    "Tahmin verildikten sonra durum değişirse (iş beklenenden uzun sürerse veya araya acil bir çağrı girerse) müşteri ayrıca aranıp güncel bilgi verilir; ilk tahmine sessizce sadık kalınmaz.",
+                ],
+            },
+            {
+                baslik: "Aynı gün birden fazla sektörden talep gelirse önceliklendirme adaleti",
+                paragraflar: [
+                    "Üç sektörden gelen taleplerin hiçbirine sektörü nedeniyle otomatik bir öncelik ya da geri plana atma uygulanmaz; sıralama yalnızca aciliyet (üretim durumu, güvenlik riski) ve ardından varış sırasına göre belirlenir. Bir tesisin \"her zaman ilk\" ya da \"her zaman son\" sırada olduğu bir düzen yoktur; her gün, o günkü çağrıların kendine özgü sırasıyla yeniden kurulur.",
+                    "Bu adalet ilkesi, üç sektörün de bizimle uzun vadeli bir güven ilişkisi kurmasının temelidir — hangi sektörden ararsa arasın, müşteri aynı şeffaf önceliklendirme mantığıyla karşılanır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift\" derken tam olarak hangi makineyi kastettiğimi bilmeniz gerekiyor mu?",
+                cevap:
+                    "Hayır, ilk çağrıda terimin tam karşılığını netleştirmeye çalışmayız. Önce arızanın nerede olduğunu, hangi sektörden aradığınızı ve üretimi etkileyip etkilemediğini sorarız; doğru makine sınıfına (makaslı, eklemli, örümcek gibi) karar verme işini biz, bu bilgilere göre yaparız. Siz sadece sorunu ve konumu anlatmanız yeterlidir.",
+            },
+            {
+                soru: "Aynı gün içinde bizden önce başka sektörden çağrı geldiyse, biz otomatik olarak sona mı kalıyoruz?",
+                cevap:
+                    "Hayır, sıralama geliş sırasına göre değil aciliyete göre belirlenir. Sizin çağrınız üretimi durduran veya güvenlik riski taşıyan nitelikteyse, önce gelen ama daha az kritik bir çağrının önüne geçebilir. Sıralama kararı ve gerekçesi telefonda size açıkça anlatılır.",
+            },
+            {
+                soru: "Verdiğiniz bekleme süresi tahmini ne kadar güvenilir?",
+                cevap:
+                    "Kesin bir randevu saati değil, o anki bilgiye göre hesaplanmış bir aralıktır (örneğin bir buçuk-iki saat). Sahadaki iş beklenenden uzun sürerse veya araya acil bir çağrı girerse, bu durum size ayrıca telefonla bildirilir ve güncel bir tahmin verilir; ilk verilen sayıya sessizce sadık kalınmaz.",
+            },
+            {
+                soru: "Sıramız ötelenirse bunu nasıl öğreniyoruz?",
+                cevap:
+                    "Sırası ötelenen her çağrı için doğrudan telefon açılır; neden öncelik değiştiği (örneğin başka bir tesiste üretim durduran bir arıza çıktığı) açıkça anlatılır ve yeni tahmini süre paylaşılır. Bilgilendirme olmadan sessizce geciken bir çağrı bırakılmaz.",
+            },
+            {
+                soru: "Üç sektörden hangisi sizin için önceliklidir?",
+                cevap:
+                    "Hiçbiri sektörü nedeniyle otomatik önceliğe sahip değildir. Öncelik yalnızca çağrının aciliyetine (üretim durumu, güvenlik riski) göre belirlenir; sonraki sırada da varış sırası gözetilir. Bir tesisin sürekli en son sırada kalması gibi bir düzen yoktur, her gün yeniden ve tarafsızca kurulur.",
+            },
+            {
+                soru: "Gün sonuna doğru arasak, ertesi güne mi kalıyoruz?",
+                cevap:
+                    "Arızanın aciliyetine bağlıdır. Güvenlik riski taşıyan veya üretimi durduran bir durumda gün bitmiş olsa da makine yönlendirilir. Ertesi sabaha kadar güvenle bekleyebilecek bir arızada ise çağrı kaydedilir ve ertesi günün ilk işlerinden biri olarak planlanır; bu karar sizinle birlikte, telefonda açıkça konuşularak verilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çağrı önceliklendirmesinde aciliyet-tabanlı sıralama ve şeffaf bekleme süresi iletişimi sektör standardı saha operasyonu/çağrı merkezi pratiğidir. Bozüyük OSB'de seramik, cam ve lojistik sektörlerinin bir arada bulunması genel bölgesel bilgidir. Tesis adı, kapasite ve rakam verilmemiştir.",
+    },
 };

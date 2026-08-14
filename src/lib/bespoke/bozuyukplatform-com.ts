@@ -1799,4 +1799,198 @@ export const BOZUYUKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Yeni tekstil tesisi/ek bina inşaat sahalarının henüz tesviye edilmemiş zemin özelliği inşaat sektörü genel bilgisidir; zemin değerlendirmesinin ziyaretten ziyarete güncellenmesi firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük'te D-650 Terminal Sahalarında Makaslı Platform Kiralama",
+        giris:
+            "D-650 karayolu ile ona paralel giden demiryolu hattının kesiştiği Bozüyük çeperindeki terminal ve TIR parkı sahalarında, işlerin büyük kısmı yükseklikten çok geniş ve düz zeminde tekrarlayan noktasal erişim gerektirir: giriş-çıkış barkovizyonu üzerindeki aydınlatma kolonlarının bakımı, saha sınırındaki tabela dizisinin sıra sıra kontrolü, yükleme rampalarının üstündeki aydınlatma armatürlerinin değişimi. Bu tip işlerde teleskopik bir bomun yatay erişimine her zaman ihtiyaç yoktur; sahanın zemini zaten sert, asfalt ya da beton kaplı ve düzdür, engel de azdır. Böyle bir zeminde makaslı platform, hem daha geniş bir çalışma sepeti sunar hem de dikey doğrultuda daha kararlı bir platform sağlar — iki teknisyenin birlikte çalıştığı armatür değişimlerinde bu fark hissedilir. Terminal işletmecileri için önemli olan bir diğer nokta, makaslı platformun saha içinde art arda birçok direk veya rampa noktasına düşük hızda ama sabit bir ritimle ilerleyebilmesidir; teleskopik makinenin konumlanma süresi burada gereksiz zaman kaybı olur. Bu sayfa, Bozüyük'teki D-650 terminal sahalarında makaslı platform kiralama hizmetimizi anlatıyor: hangi iş tipinde makaslı platformun teleskopik makineye tercih edildiğini, saha zemininin bu tercihi nasıl belirlediğini ve demiryolu hattına yakın çalışmalarda dikkat ettiğimiz noktaları içeriyor.",
+        maddeler: [
+            {
+                baslik: "Barkovizyon üstü aydınlatma kolonlarında geniş sepetli erişim",
+                metin:
+                    "Giriş-çıkış barkovizyonlarının üzerindeki aydınlatma kolonları genellikle 6-9 metre bandında, sabit bir sepet genişliği isteyen armatür gruplarıyla donatılıdır. Makaslı platformun geniş sepeti, armatür ve yedek parçaların sepette birlikte taşınmasına imkân verir; bu da barkovizyon trafiğini kesme süresini kısaltır.",
+            },
+            {
+                baslik: "Sıra tabela dizisinde art arda noktasal duruş",
+                metin:
+                    "Terminal saha sınırı boyunca dizilmiş tabela ve yön levhaları, tek tek değil sıra hâlinde kontrol edilir. Makaslı platformun düz zeminde düşük hızda ama sürekli ilerleyebilmesi, her direkte yeniden konumlanma yerine sırayı takip ederek çalışmayı mümkün kılar.",
+            },
+            {
+                baslik: "Yükleme rampası aydınlatmasında dikey kararlılık",
+                metin:
+                    "Yükleme rampalarının üzerindeki aydınlatma armatürleri, genelde rampa kenarına yakın ve dar bir dikey hat üzerindedir. Makaslı platformun sepeti yalnızca dikey doğrultuda hareket ettiği için, rampa kenarındaki bu dar hatta teleskopik bomun yanal sallanmasına kıyasla daha durağan bir çalışma yüzeyi sunar.",
+            },
+            {
+                baslik: "Demiryolu hattına yakın sahalarda güzergah ve mesafe kontrolü",
+                metin:
+                    "D-650'ye paralel demiryolu hattına yakın bazı terminal sahalarında, platformun hat sınırına ne kadar yaklaşabileceği önceden netleştirilir. Hat işletmesiyle ilgili bir kısıt varsa çalışma öncesi bu mesafe teyit edilir; makaslı platformun sabit dikey izdüşümü, hat kenarındaki bu mesafe hesabını teleskopik bomdan daha öngörülebilir kılar.",
+            },
+            {
+                baslik: "Asfalt/beton saha zemininde tekerlek yükü ve geçiş noktaları",
+                metin:
+                    "Terminal sahalarının çoğu asfalt veya beton kaplıdır, bu da makaslı platformun ağırlığı için uygun bir zemindir; ancak saha içinde bazı geçici toprak veya çakıl dolgulu geçiş noktaları bulunabilir. Güzergah üzerindeki bu noktalar çalışma öncesi sorulur, gerekirse geçici plaka ile geçiş sağlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Terminal sahasında makaslı platform ile teleskopik bom karşılaştırması",
+                paragraflar: [
+                    "D-650 terminal sahalarındaki iş tipine göre hangi platform sınıfının daha uygun olduğunu aşağıdaki gibi ayırıyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Önerilen sınıf", "Neden", "Tipik yükseklik"],
+                    satirlar: [
+                        ["Barkovizyon üstü armatür değişimi", "Makaslı platform", "Geniş sepet, iki kişilik çalışma", "6-9 m"],
+                        ["Sıra tabela/pano kontrolü", "Makaslı platform", "Düz zeminde ardışık ilerleme", "5-8 m"],
+                        ["Yol kenarı büyük pano/reklam yüzeyi", "Teleskopik bom", "Yatay uzanma gerekir", "10-16 m"],
+                        ["Demiryolu hattına yakın dar erişim", "Makaslı platform (mesafe teyitli)", "Sabit dikey izdüşüm", "6-10 m"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden zemin tipi burada belirleyici",
+                paragraflar: [
+                    "D-650 çevresindeki terminal sahalarının büyük kısmı asfalt veya beton kaplı, düz ve engelsizdir; bu da makaslı platformun doğal olarak avantajlı olduğu bir zemin profilidir. Sahanın tamamı bu şekilde değilse (örneğin saha genişletme alanında toprak dolgu varsa), o bölüm için ayrı bir değerlendirme yaparız ve gerekirse farklı bir sınıf öneririz.",
+                    "Zemin tipi netleşmeden sadece iş tanımına (aydınlatma, tabela) bakarak model önermeyiz; aynı iş tanımı farklı zeminde farklı makine gerektirebilir. Örneğin aynı barkovizyon üstü aydınlatma işi, sahanın taze asfaltlanmış kesiminde sorunsuz ilerlerken, henüz sıkıştırılmamış genişleme bölümünde ek destek veya farklı bir sınıf gerektirebilir; bu yüzden zemin bilgisini iş tanımından bağımsız olarak ayrıca sorarız.",
+                ],
+            },
+            {
+                baslik: "Demiryolu hattına yakın çalışmalarda netleştirdiğimiz noktalar",
+                paragraflar: [
+                    "Hat kenarına yakın terminal sahalarında çalışmadan önce, sahanın hat işletmesiyle olan sınırını ve varsa yaklaşım mesafesi kısıtını sorarız. Bu bilgi işletmeden netleşmeden platform sahaya girmez.",
+                    "Mesafe kısıtı belirsizse, sepetin hat tarafına en fazla ne kadar yaklaşacağını önceden hesaplayıp bu sınırı aşmayacak bir konumlanma planı yaparız; bu plan çalışma başlamadan saha yetkilisiyle birlikte teyit edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Terminal sahamızda hem aydınlatma hem tabela işi var, tek makine yeter mi?",
+                cevap:
+                    "Çoğu zaman evet; saha düz ve engelsizse makaslı platform hem barkovizyon aydınlatmasını hem sıra tabelaları tek seferde kapsayabilir. Ancak yol kenarındaki büyük pano yatay erişim gerektiriyorsa, o kısım için ayrıca teleskopik bir makine önerebiliriz — iki iş tipini birlikte değerlendirip en verimli kombinasyonu söyleriz.",
+            },
+            {
+                soru: "Demiryolu hattına yakın çalışabiliyor musunuz?",
+                cevap:
+                    "Evet ama önce hat işletmesiyle ilgili mesafe kısıtını netleştiririz. Bu bilgi belirsizse çalışmaya başlamayız; netleştikten sonra sepetin hatta en fazla ne kadar yaklaşacağını önceden hesaplayıp bu sınırın içinde kalacak bir konumlanma planlarız.",
+            },
+            {
+                soru: "Barkovizyon trafiğini ne kadar süre keseceksiniz?",
+                cevap:
+                    "Süre armatür sayısına ve sepetin taşıyabileceği malzeme miktarına bağlı; makaslı platformun geniş sepeti armatür ve yedek parçaları birlikte taşıyabildiği için, tek tek inip çıkma ihtiyacını azaltır ve kesinti süresini kısaltır. Kesin süreyi saha ziyaretinde armatür sayısına göre veririz.",
+            },
+            {
+                soru: "Saha zemini asfalt değil, kısmen toprak dolgu — yine de makaslı platform gelebilir mi?",
+                cevap:
+                    "Zemin durumuna bağlı; sıkıştırılmamış toprak dolgu üzerinde makaslı platformun tekerlek yükü risk oluşturabilir. Bu bölüm için önce zemini sorarız, gerekiyorsa geçici plaka ile geçiş sağlarız veya o kısımda farklı bir sınıf öneririz.",
+            },
+            {
+                soru: "Gece çalışma yapıyor musunuz, aydınlatma arızası genelde acil oluyor?",
+                cevap:
+                    "Evet, terminal aydınlatma arızaları güvenlik açısından acil kategoride değerlendirilir ve gece de çalışabiliriz. Saha aydınlatması yeterli değilse makinenin kendi çalışma ışığı kullanılır, ek olarak taşınabilir aydınlatma da götürülebilir.",
+            },
+            {
+                soru: "Operatörlü mü çalışıyorsunuz, terminal personeli kullanabilir mi?",
+                cevap:
+                    "Demiryolu hattına yakın veya barkovizyon gibi trafik kontrollü alanlarda operatörlü çalışmayı öncelikli öneririz; operatörümüz mesafe kısıtlarına ve saha trafiğine göre karar verir. Sertifikalı terminal personeliniz varsa operatörsüz kiralama da mümkündür, bu durumda hat mesafesi ve saha kuralları önceden aktarılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. D-650 karayolu ve paralel demiryolu hattı üzerindeki Bozüyük terminal sahalarının zemin/altyapı özelliği coğrafi genel bilgidir; makaslı platform-teleskopik bom seçim mantığı sektör genel pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük'te D-650 Terminal Sahalarında Manlift Kiralama",
+        giris:
+            "\"Manlift\" terimini Bozüyük'teki terminal işletmecileri genellikle tek bir makine sınıfı yerine, sahaya gönderilecek yükseltilebilir platformun genel adı olarak kullanır — telefonda \"bir manlift lazım\" dendiğinde bizim ilk sorduğumuz, işin barkovizyon üstü mü, saha sınırındaki tabela mı, yoksa D-650 kenarındaki büyük pano mu olduğudur; çünkü bu üç iş farklı makine sınıfı gerektirir. Bozüyük çeperindeki terminal ve TIR parkı sahalarının ortak özelliği, işlerin çoğunlukla planlı bakımdan değil ani bir arızadan (aydınlatma söndü, tabela okunmuyor, kamera açısı kaydı) gelmesidir; bu da telefonda net bir sınıf talebi yerine \"bir manlift gönderin\" ifadesini yaygınlaştırır. Biz bu talepleri karşılarken önce işin konumunu (barkovizyon, saha sınırı, yol kenarı, demiryolu hattına yakınlık) ve erişilecek yüksekliği sorarız, ardından sahaya en uygun sınıfı (makaslı, teleskopik bom veya eklemli) öneririz. Bu sayfa, Bozüyük'teki D-650 terminal sahalarında \"manlift\" talebiyle gelen işleri nasıl doğru makineye yönlendirdiğimizi ve bu süreçte hangi bilgileri önceden netleştirdiğimizi anlatıyor.",
+        maddeler: [
+            {
+                baslik: "\"Manlift lazım\" talebinde ilk sorduğumuz üç bilgi",
+                metin:
+                    "Telefonda gelen genel bir manlift talebinde önce işin sahadaki konumunu (barkovizyon üstü mü, saha sınırı mı, yol kenarı mı), erişilecek yaklaşık yüksekliği ve zemin tipini sorarız. Bu üç bilgi netleşmeden sahaya makine göndermeyiz; yanlış sınıf gönderilmesi terminal trafiğinde geri dönüş kaybına yol açar.",
+            },
+            {
+                baslik: "Ani aydınlatma arızasında hızlı sınıf tespiti",
+                metin:
+                    "Aydınlatma arızaları terminal sahasında güvenlik nedeniyle acil kategoride gelir ve genelde telefonda net bir makine sınıfı belirtilmez. Arızanın olduğu direğin konumu ve yaklaşık yüksekliği fotoğrafla teyit edilebiliyorsa, doğru sınıfı aynı gün belirleyip sahaya gönderebiliriz.",
+            },
+            {
+                baslik: "D-650 kenarındaki büyük pano işlerinde bom uzunluğu tespiti",
+                metin:
+                    "Yol kenarındaki büyük tabela ve reklam panoları genelde yatay erişim gerektirir; bu iş tipinde \"manlift\" talebi çoğunlukla teleskopik bom sınıfına karşılık gelir. Panonun yol omzuna olan uzaklığı ve yüksekliği önceden ölçülür, buna göre bom uzunluğu belirlenir.",
+            },
+            {
+                baslik: "Demiryolu hattına yakın işlerde konum netleştirme",
+                metin:
+                    "Manlift talebi demiryolu hattına yakın bir noktadan geliyorsa, çalışmaya başlamadan önce sahanın hat sınırına olan mesafesini ve varsa yaklaşım kısıtını netleştiririz. Bu bilgi olmadan sınıf seçimi ve konumlanma planı yapılmaz.",
+            },
+            {
+                baslik: "Tekrarlayan terminal müşterilerinde geçmiş talebe göre otomatik sınıf atamama",
+                metin:
+                    "Aynı terminal işletmesinden daha önce farklı bir iş için manlift istenmiş olabilir; ancak yeni talebin konumu ve yüksekliği farklıysa geçmiş sınıfı otomatik tekrarlamayız. Her talep için konum ve yükseklik bilgisini yeniden sorarız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "\"Manlift\" talebinin karşılık geldiği sınıflar",
+                paragraflar: [
+                    "Terminal sahalarından gelen genel \"manlift\" talebini, işin konumuna göre şu sınıflara yönlendiriyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["İş konumu", "Karşılık gelen sınıf", "Belirleyici faktör", "Not"],
+                    satirlar: [
+                        ["Barkovizyon üstü / saha içi düz zemin", "Makaslı platform", "Zemin düz, dikey erişim yeterli", "Geniş sepet avantajı"],
+                        ["Yol kenarı büyük pano", "Teleskopik bom", "Yatay uzanma gerekir", "Bom uzunluğu ölçüme göre"],
+                        ["Saha sınırı köşe direği (dar erişim)", "Eklemli platform", "Engel etrafından dolanma", "Dar geçiş varsa"],
+                        ["Demiryolu hattına yakın nokta", "Sınıf, mesafe teyidinden sonra", "Hat kısıtı önce netleşir", "Konumlanma planı zorunlu"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden telefonda tek bir sınıf ismi yeterli olmuyor",
+                paragraflar: [
+                    "Terminal müşterileri genelde makine sınıflarının farkını bilmek zorunda değil; onlar için önemli olan işin çözülmesi. Ama yanlış sınıf sahaya gitmesi, terminal trafiğinde hem bizim hem müşterinin zaman kaybetmesine yol açar — özellikle barkovizyon önü gibi dar bir alanda yanlış boyutta bir makinenin manevra yapması, o hattı kullanan diğer araçları da bekletir. Bu yüzden telefonda \"manlift\" denildiğinde konum ve yükseklik sorularıyla doğru sınıfı biz belirleriz, müşteriden teknik terim beklemeyiz.",
+                    "Fotoğraf paylaşıldığında bu tespit çok daha hızlı ve isabetli oluyor; mümkünse arızalı direğin veya panonun fotoğrafını, varsa çevresindeki sabit engellerin (park hâlindeki araç, konteyner, ray hattı) de görüldüğü geniş bir kare istiyoruz. Bu tek fotoğraf, telefonda sözlü anlatımla dakikalarca süren konum tarifini birkaç saniyeye indiriyor.",
+                ],
+            },
+            {
+                baslik: "Acil aydınlatma arızalarında süreç",
+                paragraflar: [
+                    "Aydınlatma arızası bildirildiğinde önce konum ve yaklaşık yükseklik sorulur, fotoğraf varsa sınıf hızlıca belirlenir. Saha demiryolu hattına yakınsa mesafe kısıtı da bu aşamada netleştirilir; kısıt netleşmeden makine sevkiyatı planlanmaz, çünkü sahaya varıp yanlış konumlanma planıyla beklemek arızayı çözme süresini uzatır, kısaltmaz.",
+                    "Gece de çalışabiliriz; saha aydınlatması yetersizse makinenin kendi ışığı kullanılır, gerekirse ek taşınabilir aydınlatma götürülür. Gece çalışmasında terminal içi araç trafiği gündüze göre farklı bir ritimde aktığı için, makinenin konumlandığı nokta etrafına gerekirse ek uyarı/işaretleme de yerleştirilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift\" derken hangi makineyi kastediyorsunuz, hepsi aynı mı?",
+                cevap:
+                    "Hayır, terminal sahalarında iş konumuna göre üç farklı sınıf (makaslı platform, teleskopik bom, eklemli platform) kullanıyoruz. Telefonda genel \"manlift\" talebi geldiğinde konum ve yükseklik sorarak doğru sınıfı biz belirliyoruz, müşteriden teknik ayrım beklemiyoruz.",
+            },
+            {
+                soru: "Arıza gece oldu, sabaha kadar bekleyebilir miyiz?",
+                cevap:
+                    "Aydınlatma arızaları güvenlik açısından acil kategoride değerlendirilir; gece de çalışabiliriz. Saha aydınlatması yetersizse makinenin kendi ışığı ve gerekirse ek taşınabilir aydınlatma kullanılır.",
+            },
+            {
+                soru: "Yol kenarındaki panomuz için hangi sınıf geliyor?",
+                cevap:
+                    "Yol kenarı panolar genelde yatay erişim gerektirdiği için teleskopik bom sınıfı öneriyoruz. Panonun yol omzuna uzaklığı ve yüksekliği önceden ölçülür, bom uzunluğu buna göre belirlenir.",
+            },
+            {
+                soru: "Demiryolu hattına yakın bir noktada arıza var, hemen gelebilir misiniz?",
+                cevap:
+                    "Öncelikle sahanın hat sınırına mesafesini ve varsa yaklaşım kısıtını netleştiririz; bu bilgi olmadan sahaya makine göndermeyiz. Netleştikten sonra uygun sınıf ve konumlanma planıyla en kısa sürede geliriz.",
+            },
+            {
+                soru: "Geçen sefer gönderdiğiniz makine sınıfı bu sefer de mi gelir?",
+                cevap:
+                    "Otomatik olarak değil; yeni talebin konumu ve yüksekliği farklıysa farklı bir sınıf gerekebilir. Her talepte konum ve yükseklik bilgisini yeniden sorarız, geçmiş talebe göre sınıf tekrarlamayız.",
+            },
+            {
+                soru: "Operatörlü mü, yoksa kendi personelimiz mi kullanabilir?",
+                cevap:
+                    "Demiryolu hattına yakın veya trafik kontrollü barkovizyon gibi alanlarda operatörlü çalışmayı öncelikli öneririz. Sertifikalı terminal personeliniz varsa operatörsüz kiralama da mümkündür, bu durumda saha kısıtları ve hat mesafesi önceden aktarılır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. D-650 karayolu ve paralel demiryolu hattı üzerindeki Bozüyük terminal sahalarının altyapı özelliği coğrafi genel bilgidir; \"manlift\" teriminin genel/karma kullanımı ve sınıf yönlendirme süreci firma pratiğidir. Tesis adı ve rakam verilmemiştir.",
+    },
 };

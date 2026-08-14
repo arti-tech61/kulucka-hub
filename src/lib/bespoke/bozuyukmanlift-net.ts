@@ -1857,4 +1857,202 @@ export const BOZUYUKMANLIFT_NET: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bozüyük çevresinde TEM otoyoluna bağlı hafriyat ve yeni inşaat faaliyeti kamuya açık genel bilgidir; zemin değerlendirmesi, eğim sınırı ve arazi tipi sınıf seçimi sektör pratiği ile firma saha deneyimine dayanır. Tesis adı ve rakam verilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük Cam Üretim Binalarında Zemin Düzlüğüne Bağlı Makaslı Platform Kiralama",
+        giris:
+            "Cam üretim binalarının içi, bir inşaat sahasından farklı bir zemin mantığıyla çalışır: beton düz ve sağlamdır, ama bu düzlük her metrekarede aynı değildir. Proses hatlarının altından geçen kablo kanalları, soğutma suyu boru güzergâhları ve bazı bölümlerdeki gömülü ray izleri, zemine görünmez engeller serpiştirir. Makaslı platformun dört tekerleği bu tür bir geçişe düz ve dengeli bastığında sorun çıkmaz, ama kanalın kapağı hafif çökmüşse ya da ray izi derinse, platform sarsılabilir ya da bir tekerlek boşta kalabilir. Bizim işimiz, hattın içine girmeden önce bu geçişleri tek tek işaretlemek ve güzergâhı buna göre çizmektir. Makaslı platformun asıl gücü, dar bir ayak izinde büyük bir çalışma alanı sunmasıdır — sepetli bir manlift gibi yana açılmaz, ama üstünde iki kişi ve bir miktar malzeme aynı anda durabilir; bu da konveyör bandı üstü bakım ya da tavan aydınlatması değişimi gibi düz-yukarı işlerde ekibin tek çıkışta işi bitirmesini sağlar. Bu sayfa, Bozüyük'teki cam üretim binalarında makaslı platformu ne zaman ve nasıl konumlandırdığımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Gömülü kanal ve ray izlerinde tekerlek geçişi",
+                metin:
+                    "Cam üretim binasının zemini genel olarak düz dökülmüş beton olsa da, proses hatlarının altından geçen kablo kanalı kapakları ve bazı eski bölümlerdeki taşıma rayı izleri, zeminde küçük ama platform için önemli seviye farkları yaratır. Dört tekerlekli bir makaslı platform bu farka dik açıyla bindiğinde sorun yaşamaz, ama açılı geçerse bir tekerlek havada kalabilir ve platform hafifçe sarsılabilir. Güzergâhı belirlerken bu kanal ve ray hatlarını önceden yürüyerek işaretleriz; kapağı gevşek ya da çökmüş bir bölüm varsa, o noktadan geçiş yerine dolaşan bir güzergâh öneririz.",
+            },
+            {
+                baslik: "Geniş platform alanında iki kişi ve malzemeyle birlikte çıkış",
+                metin:
+                    "Makaslı platformun sepetli erişime göre en belirgin farkı, çalışma alanının genişliğidir; iki kişi yan yana durabilir ve yanlarında yedek lamba, sensör ya da el aleti taşınabilir. Bu, konveyör bandı üstündeki bir aydınlatma değişiminde ya da tavan sensörü bakımında tek çıkışla işin bitmesi anlamına gelir — sepetli bir makinede olduğu gibi malzemeyi almak için tekrar inip çıkmak gerekmez. Ancak bu genişlik, platformun dar bir koridorda döndürülmesini de zorlaştırır; bu yüzden hat aralığının genişliğini önceden ölçer, dönüş için yeterli payın olup olmadığını teyit ederiz.",
+            },
+            {
+                baslik: "Elektrikli tahrikte sessiz çalışma ve hat içi iletişim",
+                metin:
+                    "Temperleme ve lamine hatlarında operatörler arası sözlü iletişim ve alarm sesleri işin güvenliği açısından kritiktir; içten yanmalı bir makinenin motor sesi bu iletişimi bastırabilir. Akülü-elektrikli makaslı platform bu ortamda tercih edilir çünkü çalışma sırasında hattaki sesli uyarıların duyulabilirliğini bozmaz. Bataryanın doluluk durumunu vardiya başında kontrol eder, uzun süreli iç mekan işlerinde şarj planını hat molalarına göre ayarlarız ki platform gün ortasında güçsüz kalmasın.",
+            },
+            {
+                baslik: "Dar hat aralığında dönüş yarıçapı kısıtı",
+                metin:
+                    "Cam üretim binalarında iki paralel hat arasındaki servis koridoru, genellikle o hatlar ilk kurulduğunda belirlenmiş sabit bir genişliktedir ve sonradan genişletilmesi neredeyse imkânsızdır. Makaslı platformun dönüş yarıçapı bu koridora sığmıyorsa, makineyi ileri-geri manevra ile ilerletmek gerekir ki bu da iş süresini uzatır. Koridor genişliğini montajdan önce mutlaka ölçer, sığmayan durumlarda daha dar gövdeli bir sınıfı ya da alternatif bir güzergâhı öneririz; tahmine dayalı sınıf seçimi yapmayız.",
+            },
+            {
+                baslik: "Düz yükselme sınırı: makaslı ne zaman yetmez",
+                metin:
+                    "Makaslı platform yalnızca dikey eksende yükselir; hedef, ayak izinin tam üstünde değil de bir fırın gövdesinin ya da boru hattının arkasında, yana kaymış bir noktadaysa bu makine yetersiz kalır. Böyle bir durumda yanal uzanma kabiliyeti olan bir makineye ihtiyaç doğar. Talebi aldığımızda önce hedefin ayak izine göre tam dikeyde mi yoksa yana kaymış mı olduğunu sorarız; cevap yana kaymışsa makaslı platform önermeyiz, çünkü sahaya yanlış sınıfı gönderip geri çekmek her iki taraf için de zaman kaybıdır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Cam üretim binası içinde makaslı platform kullanım alanları",
+                paragraflar: [
+                    "Bozüyük'teki cam üretim binalarının içinde makaslı platformun en sık kullanıldığı alanları, zemin özelliğini ve kısıtı ile birlikte aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Alan", "Zemin özelliği", "Platform gereksinimi", "Kısıt"],
+                    satirlar: [
+                        ["Konveyör bandı üstü koridor", "Kablo kanalı kapakları", "Dik açıyla geçiş", "Açılı geçiş sarsıntı yapar"],
+                        ["Eski bölüm taşıma ray izi", "Gömülü ray seviye farkı", "Önceden işaretlenmiş güzergâh", "Ray üstü açılı sürüş yok"],
+                        ["Paralel hat arası servis koridoru", "Sabit dar genişlik", "Ölçülmüş dönüş yarıçapı", "Genişletilemez koridor"],
+                        ["Temperleme hattı tavanı", "Düz sağlam beton", "Sessiz elektrikli tahrik", "Sesli alarm duyulabilirliği"],
+                        ["Fırın gövdesi arkası (yana kaymış nokta)", "Erişim dikey değil", "Yanal uzanma gerekir", "Makaslı platform uygun değil"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden makaslı platform bu iç mekan işlerinde tercih edilir",
+                paragraflar: [
+                    "Cam üretim binası içindeki düz-yukarı işlerde makaslı platformu iki nedenle tercih ederiz. Birincisi kararlılık: dört tekerlek üstünde geniş bir taban, sepetli bir makineye göre daha az sallanma ile daha büyük bir çalışma yüzeyi sunar; bu, tavan aydınlatması ya da sensör değişimi gibi iki elin birden serbest kalması gereken işlerde önemlidir. İkincisi verimlilik: geniş platform alanı sayesinde yedek parça ve el aleti aynı çıkışta taşınabilir, işin tekrar inip çıkmadan tamamlanması sağlanır.",
+                    "Ancak bu avantaj yalnızca hedef ayak izinin dikeyinde olduğunda geçerlidir. Hedef bir engelin arkasında ya da yana kaymışsa, makaslı platformun sabit dikey ekseni işe yaramaz; bu durumda yanal uzanma kabiliyeti olan bir makineye yönlendiririz. Talebi aldığımızda bu ayrımı ilk sorularımızdan biri yaparız.",
+                ],
+            },
+            {
+                baslik: "Çalışmaya başlamadan önce istediğimiz iki teyit",
+                paragraflar: [
+                    "Cam üretim binası içinde iş almadan önce iki konuda teyit isteriz. Birincisi zemin: kablo kanalı, ray izi ya da gömülü geçiş varsa bunların güzergâhtaki konumu önceden bilinmelidir; bu bilgi yoksa montaj öncesi kısa bir yürüyüşle zemini kendimiz tarar, işaretleriz.",
+                    "İkincisi koridor ölçüsü: paralel hatlar arasındaki servis koridorunun genişliği ve dönüş payı, sahaya gitmeden önce netleşmelidir. İkisi de teyit edilmeden makine sahaya gönderilmez; eksik bilgiyle gidip geri çekmek, hem bizim hem tesisin zamanını boşa harcar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Zeminimizde kablo kanalı kapakları var, makaslı platform bunun üstünden geçebilir mi?",
+                cevap:
+                    "Genellikle evet, ama açıya dikkat etmek gerekir. Platform kapağın üstünden dik açıyla geçtiğinde sorun yaşanmaz; açılı geçerse bir tekerlek havada kalabilir ve platform sarsılabilir. Montajdan önce kanal ve kapak güzergâhını yürüyerek işaretleriz, kapağı gevşek ya da çökmüş bir bölüm varsa oradan geçmeyip dolaşan bir güzergâh öneririz.",
+            },
+            {
+                soru: "İki kişi ve malzemeyle birlikte çıkmak neden bu kadar önemli?",
+                cevap:
+                    "Çünkü konveyör bandı üstü ya da tavan sensörü gibi işlerde malzemeyi unutup tekrar inmek, hattın o bölümünde ikinci bir kesinti demektir. Makaslı platformun geniş çalışma alanı, iki kişinin yedek parça ve el aletiyle birlikte tek çıkışta işi bitirmesini sağlar; bu da özellikle sürekli akan bir hatta, kesinti sayısını azaltan pratik bir avantajdır.",
+            },
+            {
+                soru: "Neden akülü-elektrikli platform istiyorsunuz, dizel olan daha mı güçlü değil mi?",
+                cevap:
+                    "Güç meselesi değil, iletişim meselesi. Temperleme ve lamine hatlarında operatörler arası sözlü uyarı ve alarm sesleri güvenlik açısından kritiktir; içten yanmalı bir motorun sesi bu iletişimi bastırabilir. Akülü-elektrikli platform iç mekanda bu sesli uyarıların duyulabilirliğini korur, bu yüzden hat içi işlerde bu sınıfı öneririz.",
+            },
+            {
+                soru: "İki hat arasındaki koridor dar, platform dönebilir mi?",
+                cevap:
+                    "Bu, koridorun genişliğine ve platformun dönüş yarıçapına bağlı; montajdan önce koridoru mutlaka ölçeriz. Sığıyorsa sorun yok; sığmıyorsa ya daha dar gövdeli bir sınıf öneririz ya da makineyi ileri-geri manevra ile ilerletmenin süreye etkisini önceden söyleriz. Tahmine dayalı sınıf seçimi yapmayız, ölçü olmadan makine göndermeyiz.",
+            },
+            {
+                soru: "Hedefimiz fırının hemen arkasında, makaslı platform yeter mi?",
+                cevap:
+                    "Muhtemelen hayır. Makaslı platform yalnızca ayak izinin dikeyinde yükselir; hedef bir gövdenin arkasında ya da yana kaymışsa bu makine yanına ulaşamaz. Bu durumda yanal uzanma kabiliyeti olan bir makineye yönlendiririz. Talebi aldığımızda hedefin dikeyde mi yana kaymış mı olduğunu ilk sorularımızdan biri yaparız, çünkü yanlış sınıfla sahaya gidip geri çekmek her iki taraf için zaman kaybıdır.",
+            },
+            {
+                soru: "Ray izi olan eski bölümde platform kayar mı?",
+                cevap:
+                    "Ray izi derinse ve platform açılı geçerse tekerlek boşta kalıp hafif sarsıntı olabilir; bu kayma değil dengesizlik riskidir. Bunu önlemek için ray güzergâhını önceden işaretler, geçişi dik açıyla planlarız. Ray izi çok derin ve düzensizse, o bölümde platform yerine güzergâhı değiştirmeyi öneririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Cam üretim binalarının iç zemin özellikleri (kablo kanalı, ray izi, koridor genişliği) ve makaslı platformun dikey erişim sınırı sektör pratiği ile firma saha deneyimine dayanır. Tesis adı ve rakam verilmemiştir.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük Cam Fabrikası Dış Yapılarında Menzilli Manlift Kiralama",
+        giris:
+            "Cam fabrikasının dışarıdan görünen yüzü, içerideki üretim hattından farklı bir erişim sorunu taşır. Fırın gövdesinin dış cephesindeki baca ve egzoz üniteleri, çatı üstündeki soğutma fanları, bina boyunca uzanan boru hattı ve konveyör köprüleri — bunların hiçbiri bir platformun ayak izinin tam üstünde durmaz. Genellikle bir engelin arkasında, bir borunun üzerinde ya da binanın köşesinden birkaç metre içeride kalır. Teleskopik ya da eklemli kollu manlift, tam bu yüzden dış yapı işlerinde tercih edilir: makine sabit bir noktada durur, kol önce yukarı sonra hedefe doğru yanal olarak uzanır ve engelin üstünden ya da yanından geçerek asıl noktaya ulaşır. Bu, tek bir ayak konumundan geniş bir alanı taramayı mümkün kılar — makineyi sürekli yer değiştirmeye gerek kalmaz. Ancak dış mekan çalışması kendi kısıtını da getirir: rüzgar, kolun uzandığı mesafeyle birlikte büyüyen bir risktir ve bu sınırı üretici belirler, biz tahmin etmeyiz. Bu sayfa, Bozüyük'teki cam fabrikasının dış yapılarında manlift kiralamayı nasıl planladığımızı anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Fırın gövdesi dışındaki baca ve egzoz erişimi",
+                metin:
+                    "Cam eritme fırınının dış cephesinde, iç ısıyı dışarı atan baca ve egzoz üniteleri bulunur; bunlar genellikle gövdenin üst kısmında, düz bir zeminden dikey olarak ulaşılamayacak bir konumdadır. Manlift kolu, makineyi gövdeden güvenli bir mesafede tutarak yukarı ve içe doğru uzanır, sepeti bacanın yanına konumlandırır. Fırının dış yüzey sıcaklığı burada da geçerli bir kısıttır; kol ne kadar uzansa da sepetin gövdeye yaklaşma mesafesi ısı ölçümüyle belirlenir, elle tahmin edilmez.",
+            },
+            {
+                baslik: "Boru hattı ve konveyör köprüsü üzerinden yanal uzanma",
+                metin:
+                    "Bina dışında yer yer boru hatları ve kapalı konveyör köprüleri, zeminden belirli bir yükseklikte yatay olarak uzanır; bu hatların altındaki ya da yanındaki bir noktaya düz bir platformla ulaşmak, hattın tam altına girmeyi gerektirir ki bu genellikle mümkün değildir. Eklemli kollu manlift, kolu önce yukarı kaldırıp sonra hattın üzerinden aşırarak karşı tarafa ya da hattın hemen yanına ulaşabilir. Bu manevra öncesi hattın taşıdığı malzemenin sıcak mı soğuk mu olduğunu, kolun hatta ne kadar yaklaşabileceğini tesisten teyit ederiz.",
+            },
+            {
+                baslik: "Çatı üstü soğutma ve havalandırma ünitesi bakımı",
+                metin:
+                    "Cam üretiminde sürekli çalışan fırınların ve bazı proses adımlarının yaydığı ısıyı dengelemek için çatı üstünde soğutma fanı ve havalandırma bacaları bulunur; bu üniteler çatı eğimine ve kenarına yakın konumlandığı için düz bir platformla değil, kenardan yanal yaklaşımla erişilir. Manlift kolu çatı kenarının dışından, binaya temas etmeden üniteye yanaşır. Çatı malzemesinin taşıma kapasitesi bilinmediği için makine hiçbir zaman çatının üstüne çıkarılmaz, her zaman zeminden çalışılır.",
+            },
+            {
+                baslik: "Rüzgar ve hava koşulu değerlendirmesi",
+                metin:
+                    "Kol dışarı ne kadar uzarsa, rüzgarın makine üzerindeki etkisi o kadar büyür; bu, üreticinin belirlediği bir rüzgar hızı sınırının olmasının nedenidir. Bozüyük'ün açık arazi karakterindeki rüzgarlı günlerinde, özellikle tam uzanmış kol pozisyonunda çalışma öncesi güncel rüzgar hızını kontrol ederiz. Sınıra yakın ya da üstünde bir tahmin varsa işi erteleriz; dış cephe ve çatı işlerinde bu kararı operatör inisiyatifine bırakmayız, ölçülebilir bir eşik üzerinden veririz.",
+            },
+            {
+                baslik: "Sabit ayak noktasından geniş alan tarama",
+                metin:
+                    "Manliftin en pratik yönü, bir kez konumlandıktan sonra kolun dönüş ve uzanma hareketiyle geniş bir alanı kapsayabilmesidir; bu, örneğin bina cephesinin farklı noktalarındaki birkaç aydınlatma ya da sensörü, makineyi sürekli yer değiştirmeden tek konumdan bitirmeyi mümkün kılar. Ancak bu geniş erişim, zemin taşıma kapasitesinin de o noktada sağlam olmasını gerektirir; kol tam uzandığında makinenin ağırlık merkezi kayar, bu yüzden ayak noktasının zemini montajdan önce kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Cam fabrikası dış yapılarında manlift erişim senaryoları",
+                paragraflar: [
+                    "Bozüyük'teki cam fabrikasının dış yapılarında manliftin en sık kullanıldığı erişim senaryolarını, kritik kısıtıyla birlikte aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Yapı", "Erişim biçimi", "Kritik kısıt", "Alternatif"],
+                    satirlar: [
+                        ["Fırın gövdesi dış bacası", "Yukarı + içe uzanma", "Ölçülmüş ısı mesafesi", "Yok, kol erişimi zorunlu"],
+                        ["Boru hattı / konveyör köprüsü", "Hattın üstünden aşma", "Hat içeriği sıcak/soğuk teyidi", "Hat durdurulup düz erişim"],
+                        ["Çatı üstü soğutma fanı", "Çatı kenarından yanal", "Çatı taşıma kapasitesi bilinmiyor", "Çatıya çıkılmaz, zeminden çalışılır"],
+                        ["Bina cephesi (rüzgarlı gün)", "Tam uzanmış kol", "Üretici rüzgar hızı sınırı", "İş ertelenir"],
+                        ["Çoklu cephe noktası", "Tek konumdan tarama", "Ayak noktası zemin sağlamlığı", "Zemin uygun değilse konum değişir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Neden manlift bu dış yapı işlerinde tercih edilir",
+                paragraflar: [
+                    "Cam fabrikasının dış yapılarında manliftı tercih etmemizin nedeni basit bir geometri sorunudur: hedef, çoğu zaman bir engelin arkasında ya da yukarıda, ayak izinin dışında bir noktadadır. Düz yükselen bir platform bu noktaya ulaşamaz, çünkü sadece kendi tabanının dikeyinde yükselir. Manliftin teleskopik ya da eklemli kolu, önce yukarı sonra yana ya da içe doğru hareket ederek engeli aşar ve hedefe doğrudan ulaşır.",
+                    "İkinci neden konum verimliliğidir: kol bir kez uzandığında dönüş hareketiyle geniş bir yay taranabilir, bu da bina cephesindeki birden fazla noktayı tek ayak konumundan bitirmeyi mümkün kılar. Ancak bu avantajın bir bedeli vardır — kol uzandıkça makinenin denge payı daralır, bu yüzden ayak noktasının zemin sağlamlığı ve rüzgar durumu her zaman önceden değerlendirilir.",
+                ],
+            },
+            {
+                baslik: "Çalışmaya başlamadan önce istediğimiz iki teyit",
+                paragraflar: [
+                    "Cam fabrikasının dış yapılarında iş almadan önce iki konuda teyit isteriz. Birincisi ısı ve hat içeriği: fırın gövdesine ya da bir boru hattına yakın çalışılacaksa, güncel yüzey sıcaklığı ve hattın o an taşıdığı malzeme tesisin kendi ekibinden teyit edilmelidir; bu bilgi olmadan kol gövdeye ya da hatta yaklaştırılmaz.",
+                    "İkincisi zemin ve hava koşulu: ayak noktasının taşıma kapasitesi ve çalışma günü rüzgar tahmini önceden kontrol edilir. İkisi de net değilse iş, teyit gelene kadar ya da hava koşulu düzelene kadar ertelenir; dış cephede belirsiz bilgiyle çalışmayı tercih etmeyiz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Fırının dış bacasına manlift ne kadar yaklaşabilir?",
+                cevap:
+                    "Bu, tesisin kendi ısı ölçümüne bağlı bir sınırdır; kol ne kadar uzanabilirse uzansın, sepetin gövdeye yaklaşma mesafesini elle tahmin etmeyiz. Çalışmaya başlamadan önce güncel yüzey sıcaklığı ve güvenli yaklaşma mesafesi tesisten istenir, bu bilgi gelmeden kol bacaya yaklaştırılmaz.",
+            },
+            {
+                soru: "Boru hattının üzerinden geçerken hatta zarar verme riski var mı?",
+                cevap:
+                    "Doğrudan temas olmadığı sürece risk düşüktür, ama kolun hatta ne kadar yaklaşabileceğini önceden netleştiririz. Hattın o an taşıdığı malzemenin sıcak mı soğuk mu olduğunu tesisten teyit eder, buna göre mesafe payı bırakırız. Belirsizlik varsa hattın o bölümünün durumu netleşene kadar çalışmayı ertelemeyi öneririz.",
+            },
+            {
+                soru: "Çatı üstündeki soğutma fanına manlift nasıl ulaşıyor, makine çatıya mı çıkıyor?",
+                cevap:
+                    "Hayır, çatı malzemesinin taşıma kapasitesi bilinmediği için makine hiçbir zaman çatının üstüne çıkarılmaz. Kol çatı kenarının dışından, zeminde duran makineden yukarı ve yana doğru uzanarak üniteye yanaşır. Bu, çatı yapısına hiç yük bindirmeden erişim sağlamanın tek güvenli yoludur.",
+            },
+            {
+                soru: "Rüzgarlı bir günde dış cephe işini nasıl planlıyorsunuz?",
+                cevap:
+                    "Kol tam uzandığında rüzgarın etkisi büyüdüğü için, üreticinin belirlediği rüzgar hızı sınırını referans alırız. Çalışma günü öncesi güncel rüzgar tahminini kontrol eder, sınıra yakın ya da üstünde bir değer varsa işi erteleriz. Bu kararı operatör inisiyatifine bırakmayız, ölçülebilir bir eşik üzerinden veririz.",
+            },
+            {
+                soru: "Bina cephesinde birden fazla nokta var, her biri için makineyi taşımanız mı gerekiyor?",
+                cevap:
+                    "Genellikle hayır. Manliftin kolu bir kez konumlandıktan sonra dönüş ve uzanma hareketiyle geniş bir yayı tarayabilir; bu, cephedeki birkaç noktayı tek ayak konumundan bitirmemizi sağlar. Ancak bu, o noktanın zemininin kol tam uzandığında da sağlam kalmasını gerektirir; zemin uygun değilse konum değiştiririz.",
+            },
+            {
+                soru: "Manlift mi makaslı platform mu; dış cephe işimiz için hangisi doğru?",
+                cevap:
+                    "Hedef bir engelin arkasında, yukarıda ya da yana kaymış bir noktadaysa manlift gerekir, çünkü kol yanal olarak uzanabilir. Hedef ayak izinin tam dikeyindeyse ve düz bir zeminse makaslı platform daha ekonomik olabilir. Hedefin konumunu tarif edin, doğru sınıfı birlikte belirleyelim; yanlış sınıfla sahaya gidip geri çekmek her iki taraf için zaman kaybıdır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Cam fabrikası dış yapılarının erişim gereksinimleri (fırın dış cephesi, boru hattı, çatı üstü üniteler) ve manliftin yanal uzanma kabiliyeti sektör pratiği ile firma saha deneyimine dayanır. Tesis adı ve rakam verilmemiştir.",
+    },
 };

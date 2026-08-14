@@ -1222,4 +1222,144 @@ export const BOLUPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Bolu'nun orman varlığına dayanan kereste sanayisinde kesim sahası ve tomruk çıkarma yollarının bulunması kamuya açık genel bilgidir; zemin değerlendirmesi ve çıkış güvencesi yaklaşımı firma saha pratiğidir. Orman sahası adı, işletme ve rakım iddiası içermez.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bolu'da Makaslı Platform Kiralama: Mobilya Showroom ve Sevkiyat Alanı İşleri",
+        giris:
+            "Bolu'nun orman zenginliğine dayanan mobilya ve ahşap sanayisinde iş yalnızca üretim holünde bitmez; bitmiş ürün önce showroom veya satış noktasında sergilenir, sonra sevkiyat rampasından çıkar. Bu iki alan da makaslı platformun en verimli çalıştığı ortamdır, çünkü ikisinde de zemin serttir, düzdür ve engelsizdir — makaslı platformun tek gerçek koşulu budur. Showroom tavanındaki spot aydınlatma değişimi veya vitrin üstü tanıtım panosu montajı, mağaza açıkken ve müşteri geçişi sürerken yapılabilir; bunun için akülü ve sessiz bir model zorunludur, çünkü içten yanmalı bir makine hem egzoz hem gürültü nedeniyle satış alanına sokulmaz. Sevkiyat rampasında ise durum tam tersi bir yoğunluğa dayanır: yükleme kapısı üstü aydınlatma, rampa çatısı bakımı veya paketleme hattı üzerindeki konveyör aski işleri, forklift trafiğinin sürdüğü bir alanda yürütülür ve platformun konumu bu trafikle çakışmayacak biçimde planlanır. Bu sayfada Bolu'daki mobilya ve ahşap işletmelerinin showroom ve sevkiyat alanlarında makaslı platformun hangi koşullarda kullanıldığını, zemin ve trafik değerlendirmesinin nasıl yapıldığını anlatıyoruz. Belirli bir mağaza adı veya rakamsal iddia içermez.",
+        maddeler: [
+            {
+                baslik: "Zemin sertliği ve düzlük şartı",
+                metin: "Makaslı platform yalnızca sert, düz ve yeterli taşıma kapasitesine sahip bir zeminde güvenle çalışır — bu, arazi tipi makinenin aksine, tek ve değişmez koşuludur. Showroom ve sevkiyat rampasının betonu genellikle bu şartı karşılar, ama zeminde eğim, kot farkı veya taze döşenmiş bir bölüm varsa platform o noktaya yönlendirilmeden önce zemin ayrıca kontrol edilir. Kontrol yalnızca gözle yapılmaz; taze döşenmiş beton söz konusuysa dökümün üzerinden geçen süre ve üretici firmanın verdiği kürleşme süresi de sorulur, bu süre dolmadan platform o bölüme çıkarılmaz.",
+            },
+            {
+                baslik: "Açık mağazada akülü ve sessiz model zorunluluğu",
+                metin: "Showroom müşteri kabul ederken çalışma yapılacaksa makine kesinlikle akülü ve sessiz bir modelden seçilir; içten yanmalı bir platform hem egzoz kokusu hem motor gürültüsü nedeniyle satış alanına uygun değildir. Ayrıca lastik izi bırakmayan (beyaz dolgu) tekerlek tercih edilir, çünkü zemin genellikle parlak ve görünür durumdadır. Akü kapasitesi de ayrıca planlanır: showroom işleri genellikle birkaç saatlik kısa aralıklarla yapıldığından tam şarjlı bir makine yeterli olur, ancak aynı gün içinde hem showroom hem sevkiyat alanında çalışılacaksa şarj durumu iki iş arasında yeniden kontrol edilir.",
+            },
+            {
+                baslik: "Sevkiyat rampasında forklift trafiğiyle eş zamanlı çalışma",
+                metin: "Yükleme kapısı üstü veya rampa çatısı işlerinde platform, forklift ve kamyon trafiğinin sürdüğü bir alanda konumlanır. Bu nedenle çalışma öncesinde rampa trafiği geçici olarak yönlendirilir veya platformun bulunduğu şerit forklift güzergâhından ayrılır; iki hareketli aracın aynı dar koridoru paylaşması beklenmez.",
+            },
+            {
+                baslik: "Paketleme hattı üstü konveyör ve aski bakımı",
+                metin: "Bitmiş ürünün paketlendiği hatta üstten geçen konveyör veya aski sistemi bakımı, hat çalışırken değil durdurulmuş hâldeyken yapılır. Hattın enerjisinin kesildiği ve tekrar başlatılmayacağı saha yetkilisince teyit edilmeden sepet hat elemanlarına yaklaştırılmaz.",
+            },
+            {
+                baslik: "Mağaza açık saatleri ile çalışma programının uyumu",
+                metin: "Showroom işlerinde çalışma saati genellikle mağazanın müşteri yoğunluğuna göre belirlenir; yoğun saatlerde platform vitrin veya ana geçiş güzergâhına yakın konumlandırılmaz. İşletmeden mağazanın günlük yoğunluk dağılımı alınır, çalışma bu bilgiye göre planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Showroom ve sevkiyat alanı karar tablosu",
+                paragraflar: ["Tablo belirli bir mağaza veya depoyu anlatmaz; mobilya ve ahşap işletmelerinin satış-sevkiyat hattında tekrar eden çalışma türlerini özetler."],
+                tablo: {
+                    basliklar: ["Alan", "Tipik iş", "Ön koşul", "Dikkat noktası"],
+                    satirlar: [
+                        ["Showroom tavanı", "Spot aydınlatma, vitrin panosu", "Akülü/sessiz model", "Müşteri geçişinden uzak"],
+                        ["Showroom zemini", "Parlak/hassas yüzey", "İz bırakmayan lastik", "Yüzey çizik riski"],
+                        ["Yükleme kapısı üstü", "Aydınlatma, çatı bakımı", "Trafik yönlendirme", "Forklift güzergâhı"],
+                        ["Paketleme hattı üstü", "Konveyör/aski bakımı", "Hat durdurma, enerji kesme", "Hat elemanına yaslanmama"],
+                        ["Rampa çatısı", "Genel bakım", "Zemin/kot kontrolü", "Kot farkı, eğim"],
+                    ],
+                },
+            },
+            {
+                baslik: "Satış alanında görünürlük ve güvenlik dengesi",
+                paragraflar: [
+                    "Showroom içinde çalışma yapılırken platformun bulunduğu alan geçici olarak işaretlenir; müşterinin fark etmeden yaklaşabileceği bir konum tercih edilmez. Vitrin ürünlerine veya sergi düzenine temas riski varsa ilgili bölüm çalışma öncesinde saha ekibiyle birlikte kontrol edilir.",
+                    "Akülü model kullanılsa da hareketli aksam ve sepet kenarı için standart uyarı şeridi bırakılır; müşteri yoğunluğu artarsa çalışma geçici olarak durdurulup daha sakin bir saate ertelenir.",
+                    "Mağaza personelinin çalışma alanından habersiz kalmaması için, işe başlamadan önce vardiya sorumlusuna kısa bir bilgilendirme yapılır; bu, hem müşteri güvenliği hem de mağaza içi trafiğin doğru yönetilmesi açısından önemlidir.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat rampasında güzergâh planlaması",
+                paragraflar: [
+                    "Rampa çevresinde platform ve forklift aynı anda çalışacaksa iki aracın güzergâhı önceden ayrılır; ortak bir dar koridor varsa geçiş sırası saha yetkilisiyle netleştirilir.",
+                    "Kamyon manevra alanına yakın bir noktada çalışma yapılacaksa manevra süresince platform güvenli bir konuma çekilir; manevra tamamlanmadan çalışma alanına geri dönülmez.",
+                    "Rampa üzerinde birden fazla yükleme kapısı varsa, çalışılan kapının komşu kapılardaki sevkiyat programını etkilememesi için iş, mümkün olduğunca sevkiyatın en sakin olduğu saat dilimine göre planlanır.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Mağaza açıkken makaslı platformla çalışılabilir mi?", cevap: "Evet, ancak akülü ve sessiz bir model zorunludur; içten yanmalı makine satış alanına sokulmaz. Çalışma alanı geçici olarak işaretlenir, müşteri yoğunluğu artarsa iş daha sakin bir saate ertelenir." },
+            { soru: "Showroom zemininde platform iz bırakır mı?", cevap: "Standart siyah lastik iz bırakabileceğinden showroom gibi parlak zeminlerde iz bırakmayan (beyaz dolgu) lastikli model tercih edilir. Zemin ayrıca kontrol edilir; eğim veya kot farkı varsa platform o noktaya yönlendirilmeden önce değerlendirilir." },
+            { soru: "Sevkiyat rampasında forklift trafiği platformu etkiler mi?", cevap: "Evet, bu yüzden çalışma öncesinde rampa trafiği geçici olarak yönlendirilir veya platformun şeridi forklift güzergâhından ayrılır. İki aracın aynı dar koridoru aynı anda paylaşması beklenmez." },
+            { soru: "Paketleme hattı çalışırken üstündeki konveyöre bakım yapılabilir mi?", cevap: "Hayır, hat durdurulmadan ve enerjisi kesilmeden sepet hat elemanlarına yaklaştırılmaz. Bakım, hattın enerjisinin kesildiği saha yetkilisince teyit edildikten sonra yapılır." },
+            { soru: "Her zeminde makaslı platform kullanılabilir mi?", cevap: "Hayır. Makaslı platformun tek değişmez koşulu sert, düz ve yeterli taşıma kapasitesine sahip zemindir; eğimli, toprak veya düzensiz bir zeminde kullanılmaz. Böyle bir zemin varsa arazi tipi sınıf değerlendirilir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Çalışılacak alanı (showroom, rampa, paketleme hattı), zeminin tipini, mağazanın veya hattın açık/kapalı olacağı saatleri paylaşın. Belirli bir mağaza adı veya kapasite varsaymayız; sağladığınız bilgiyle uygun model ve çalışma penceresi netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'daki mobilya ve ahşap işletmelerinin showroom ve sevkiyat alanına sahip olması kamuya açık genel bilgidir; zemin/trafik değerlendirmesi ve çalışma saati planlaması firma saha pratiğidir. Mağaza adı ve rakamsal iddia içermez.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bolu'da Manlift Kiralama: Orman Yolu Kenarı ve Açık Saha Erişim İşleri",
+        giris:
+            "Bolu'nun orman ürünleri sanayisinde açık sahadaki iş, showroom veya atölyeden çok farklı bir erişim sorunu getirir: hedef nokta çoğunlukla düz bir zeminin doğrudan üstünde değil, bir engelin arkasında veya yanındadır. Tomruk yığınının gölgesinde kalan bir aydınlatma direği, orman yolu kenarındaki bir elektrik hattı bağlantısı veya kereste deposu dış cephesindeki bir yükseklik noktası, doğrudan dikey bir yaklaşımla değil, mafsallı veya teleskopik kolun yana doğru uzanarak engeli aşmasıyla erişilebilir hâle gelir. Manlift bu yüzden açık sahada makaslı platformun yapamadığını yapar: offset erişim. Ama bu erişim özgürlüğü, açık havanın getirdiği iki koşulu da beraberinde taşır — zemin artık showroom betonuyla aynı garantiye sahip değildir ve rüzgâr, sepetin bulunduğu yükseklikte zeminden çok daha etkilidir. Bu yüzden Bolu'daki orman yolu kenarı ve açık depo sahası işlerinde manlift, önce zemin ve rüzgâr koşulu değerlendirilerek, sonra bom uzunluğu hedefe göre hesaplanarak devreye alınır. Bu sayfada bu değerlendirmenin nasıl yapıldığını, hangi durumda hangi şase ve bom sınıfının seçildiğini anlatıyoruz. Belirli bir saha adı veya rakım iddiası içermez.",
+        maddeler: [
+            {
+                baslik: "Offset erişim: engelin arkasındaki veya yanındaki hedef",
+                metin: "Tomruk yığını, istif edilmiş kereste veya sabit bir ekipman, hedef noktayla platform arasında doğrudan bir engel oluşturabilir. Manlift'in mafsallı veya teleskopik kolu bu engeli yanından veya üstünden aşarak hedefe ulaşır; erişim öncesinde engelin yüksekliği ve hedefe olan yatay mesafe birlikte ölçülür, yalnızca dikey yükseklik yeterli görülmez. Engelin kendisi hareketli bir yığınsa (örneğin günlük olarak büyüyen bir tomruk stoku) çalışma günü sabahında yığının güncel durumu yeniden kontrol edilir; bir önceki gün alınan ölçü aynen geçerli sayılmaz.",
+            },
+            {
+                baslik: "Açık sahada şase seçimi: zemin garantisi yok",
+                metin: "Orman yolu kenarı veya açık depo sahası, showroom betonu gibi sabit bir zemin garantisi vermez; toprak, stabilize veya çakıl yüzeyde taşıma kapasitesi güne ve yağışa göre değişebilir. Bu nedenle açık saha işlerinde arazi tipi şase (4x4 veya paletli) öncelikli değerlendirilir; standart lastik tekerlekli şase yalnızca zemin sertliği teyit edildiğinde kullanılır. Şase seçimi bir kez yapılıp sabitlenmez: iş birkaç gün sürecekse ve bu süre içinde yağış bekleniyorsa, ilk gün uygun görünen bir zeminin ilerleyen günlerde aynı taşıma kapasitesini koruyup korumayacağı da ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Rüzgâr sınırı ve yükseklikte artan etki",
+                metin: "Rüzgâr hızı zeminde hissedilenden sepetin bulunduğu yükseklikte belirgin biçimde daha fazla etkilidir; bu fark, açık orman yolu kenarında rüzgârın önünde herhangi bir bina veya perde bulunmadığında daha da artar. Üreticinin belirlediği rüzgâr sınırının üzerinde bom uzatma veya offset hareket yapılmaz; çalışma öncesinde güncel hava durumu ayrıca kontrol edilir.",
+            },
+            {
+                baslik: "Orman yolu kenarındaki elektrik hattı yakınında mesafe kuralı",
+                metin: "Orman yolu boyunca giden aydınlatma veya enerji hattı yakınında çalışma yapılacaksa hattın gerilim seviyesi ve güvenli mesafe önceden netleştirilir; bu bilgi olmadan sepet hatta yaklaştırılmaz. Hat sahibi kurumdan onay veya bilgi gerekiyorsa çalışma bu onay alınana kadar başlatılmaz.",
+            },
+            {
+                baslik: "Bom uzunluğu ve erişim zarfı hesaplaması",
+                metin: "Manlift'in ulaşabileceği nokta yalnızca dikey yükseklikle değil, taban konumundan hedefe olan yatay mesafeyle birlikte belirlenir; bu ikisinin bileşimi erişim zarfını oluşturur. Taban için uygun bir konumlandırma noktası yoksa (engebeli zemin, dar geçiş) hedefe daha yakın alternatif bir nokta aranır; zorlama ile erişim genişletilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Açık saha bom ve şase seçim tablosu",
+                paragraflar: ["Tablo belirli bir sahayı anlatmaz; orman yolu kenarı ve açık depo sahasında tekrar eden erişim türlerini özetler."],
+                tablo: {
+                    basliklar: ["Senaryo", "Erişim türü", "Şase önceliği", "Durdurma nedeni"],
+                    satirlar: [
+                        ["Tomruk yığını arkası", "Offset (yana uzanım)", "Standart/arazi tipi", "Yığın dengesizliği"],
+                        ["Orman yolu kenarı direk", "Offset + yükseklik", "Arazi tipi öncelikli", "Zemin belirsizliği"],
+                        ["Enerji hattı yakını", "Kontrollü mesafeli erişim", "Zemine göre değişir", "Hat onayı eksik"],
+                        ["Açık depo dış cephe", "Yükseklik + hafif offset", "Zemine göre değişir", "Rüzgâr sınırı üstü"],
+                        ["Rüzgârlı açık alan", "Ertelenebilir", "Uygulanmaz", "Rüzgâr sınırı üstü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hava durumu takibi ve çalışma penceresi",
+                paragraflar: [
+                    "Açık sahadaki manlift işleri, tek seferlik bir rüzgâr kontrolüyle değil, çalışma süresi boyunca sürekli takiple yürütülür; sabah uygun olan bir koşul öğleden sonra değişebilir.",
+                    "Rüzgâr veya ani yağış sınırı aşarsa bom indirilir ve makine güvenli bir konuma çekilir; koşul düzelmeden çalışmaya devam edilmez.",
+                    "Bolu'nun yükseklik farkı gösteren arazi yapısı nedeniyle aynı gün içinde farklı sahalarda rüzgâr koşulu belirgin biçimde değişebilir; bu yüzden birden fazla saha planlanan bir çalışmada her sahanın koşulu ayrı ayrı değerlendirilir, tek bir sabah kontrolü tüm güne genellenmez.",
+                ],
+            },
+            {
+                baslik: "Orman yolu kenarında konumlandırma ve trafik güvenliği",
+                paragraflar: [
+                    "Orman yolu üzerinde veya kenarında konumlanan bir manlift, yoldan geçen diğer araçlar için de bir engel oluşturabilir; bu nedenle çalışma öncesinde geçici işaretleme yapılır ve mümkünse yolun bir şeridi açık tutulur.",
+                    "Taban konumu belirlenirken yolun taşıma kapasitesi de değerlendirilir; yol yeterince sağlam değilse makine yol kenarındaki daha uygun bir noktaya konumlandırılır.",
+                    "Orman yolunda kesim veya nakliye trafiği aynı gün içinde artabilir; bu durumda manlift'in konumu ve işaretlemesi, günün ilerleyen saatlerindeki trafik yoğunluğuna göre yeniden gözden geçirilir.",
+                ],
+            },
+        ],
+        sss: [
+            { soru: "Manlift ile makaslı platform arasındaki temel fark nedir?", cevap: "Makaslı platform yalnızca dikey yükselir ve sert-düz zemin gerektirir; manlift ise mafsallı veya teleskopik koluyla yana doğru uzanarak (offset) bir engelin arkasındaki veya yanındaki hedefe ulaşabilir. Açık sahada engel varsa manlift, doğrudan dikey erişim yeterliyse makaslı platform tercih edilir." },
+            { soru: "Orman yolu kenarında her zeminde manlift kullanılabilir mi?", cevap: "Hayır. Açık saha zemini showroom betonu gibi sabit bir garanti vermez; taşıma kapasitesi güne ve yağışa göre değişir. Bu nedenle arazi tipi şase öncelikli değerlendirilir; standart şase yalnızca zemin sertliği teyit edildiğinde kullanılır." },
+            { soru: "Rüzgârlı havada manlift çalışabilir mi?", cevap: "Üreticinin belirlediği rüzgâr sınırının üzerinde bom uzatma veya offset hareket yapılmaz. Rüzgâr zeminde hissedilenden yükseklikte daha etkilidir; çalışma süresince hava durumu sürekli takip edilir, sınır aşılırsa bom indirilir." },
+            { soru: "Elektrik hattı yakınında çalışmaya nasıl karar veriliyor?", cevap: "Hattın gerilim seviyesi ve güvenli mesafe önceden netleştirilmeden sepet hatta yaklaştırılmaz. Hat sahibi kurumdan onay gerekiyorsa çalışma bu onay alınana kadar başlatılmaz." },
+            { soru: "Manlift'in erişemeyeceği bir hedef olabilir mi?", cevap: "Evet. Erişim zarfı bom uzunluğu ve taban konumuyla sınırlıdır; uygun bir konumlandırma noktası yoksa (engebeli zemin, dar geçiş) hedefe zorlama ile erişilmez, daha yakın alternatif bir nokta veya farklı bir makine sınıfı değerlendirilir." },
+            { soru: "Teklif için hangi bilgileri göndermeliyiz?", cevap: "Hedefin engelin arkasında mı yanında mı olduğunu, yaklaşık yatay-dikey mesafeyi, zeminin tipini ve yakınında enerji hattı olup olmadığını paylaşın. Belirli bir saha adı veya rakım varsaymayız; sağladığınız bilgiyle uygun bom sınıfı ve şase netleştirilir." },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bolu'nun orman yolu ağı ve açık depo sahalarının bulunması kamuya açık genel bilgidir; offset erişim değerlendirmesi, rüzgâr takibi ve hat mesafe kuralı firma saha pratiğidir. Saha adı, rakım ve işletme iddiası içermez.",
+    },
 };

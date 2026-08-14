@@ -2000,4 +2000,202 @@ export const BOZUYUKMANLIFT_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Zor zemin ve arazi koşullarında makine seçimi (lastik tipi, ayak dengesi, eğim sınırı) ekipman kategorisi genel özelliği ve firma saha pratiğidir. Tesis adı, rakam ve zemin etüdü verisi uydurulmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Seramik Fabrikası Çatı Altında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, dikey açılan makas mekanizması sayesinde geniş ve düz bir sepet tabanı sunar; bu özellik onu eklemli sınıftan ayıran temel farktır. Seramik hollerinin çatı altı katmanında — yani çatının kendisine değil, tavana asılı aydınlatma raylarına, sabit vantilatör gövdelerine, düz hatlı kablo tavalarına ve ışıklık altındaki uzun temizlik şeritlerine bakan işlerde — bu geniş sepet tabanı avantaja dönüşür. Çünkü çoğu zaman tek noktada durup birden fazla kişi ve malzemeyle çalışmak gerekir: bir kişi armatürü sökerken diğeri kabloyu çekebilir, ikisi de aynı sepette rahatça durabilir. Eklemli bomun engel aşma üstünlüğü burada aranmaz, çünkü hedef genelde düz bir hat boyunca ilerler ve tavan boşluğu engelsizdir. Bizim seramik tesislerindeki tercihimiz şu ayrıma dayanır: hat düz ve engelsizse makaslı, araya bir fırın gövdesi ya da boru demeti giriyorsa eklemli. Bu sayfa, çatı altı düz hat işlerinde makaslı platformu neden ve ne zaman önerdiğimizi anlatıyor — konu çatının üstü değil, çatının hemen altındaki düzenli tavan katmanıdır.",
+        maddeler: [
+            {
+                baslik: "Düz aydınlatma rayları ve tavan armatür hattı",
+                metin:
+                    "Seramik hollerinde tavana asılı aydınlatma rayları genellikle hattın baştan sona aynı kotta uzandığı düz bir çizgi izler. Bu tip hatlarda makaslı platform, sepeti hattın altında adım adım kaydırarak ilerler; her duruşta bir ya da iki armatür değişir, sepet tabanının genişliği yedek parça kutusunu ve el aletlerini aynı anda taşımaya yeter. Eklemli bomda sepet daha dar olduğundan aynı iş için birden fazla iniş-çıkış gerekebilir; düz hatta bu bir avantaj kaybıdır.",
+            },
+            {
+                baslik: "Sabit vantilatör ve sirkülasyon fanı gövdeleri",
+                metin:
+                    "Kurutma ve pişirme bölümlerinin üstünde havayı hareket ettiren sabit sirkülasyon fanları, tavana dizili şekilde belirli aralıklarla yerleştirilir. Bu fanların rulman kontrolü, kayış gerginliği ve motor bağlantı cıvatası kontrolü periyodik bir iştir ve fanlar genelde aynı yükseklikte, birbirinden birkaç metre aralıklarla sıralanır. Makaslı platformla bu diziyi tek bir güzergâh üzerinde, duruş sayısını fan aralığına göre ayarlayarak geçeriz; her duruşta geniş sepet tabanı sayesinde fan gövdesinin etrafında dönmeye gerek kalmadan iki yandan da erişim sağlanır.",
+            },
+            {
+                baslik: "Kablo tavası ve düz enerji hattı bakımı",
+                metin:
+                    "Hol tavanında ilerleyen kablo tavaları, üretim hattının enerji ve kumanda kablolarını taşır ve genelde ana yürüyüş koridorunun üzerinde düz bir çizgide gider. Yeni kablo çekimi, tava kapağı değişimi ya da termal kamerayla bağlantı kontrolü gibi işlerde makaslı platform hat boyunca yavaşça ilerler; sepetin geniş tabanı kablo makarasını ya da ekipman çantasını sepette taşımaya izin verir, bu da yerdeki personelle sürekli malzeme alışverişi ihtiyacını azaltır.",
+            },
+            {
+                baslik: "Işıklık altı uzun temizlik şeritleri",
+                metin:
+                    "Bazı seramik hollerinde ışıklık, tek tek noktalar hâlinde değil, tavan boyunca uzanan sürekli bir şerit olarak tasarlanmıştır. Bu şeridin iç yüzeyindeki toz filmini temizlerken sepeti şerit boyunca sabit hızda kaydırmak, nokta nokta duraklamaktan daha verimlidir. Makaslı platformun düz dikey hareketi ve geniş sepeti bu sürekli harekete uygundur; eklemli bomda ise bom açısının sürekli ayarlanması gerekeceğinden aynı iş daha yavaş ilerler.",
+            },
+            {
+                baslik: "Çoklu personel gerektiren tavan işleri",
+                metin:
+                    "Bazı bakım kalemleri tek kişiyle bitmez: biri ölçüm yaparken diğeri kayıt tutar, ya da biri parçayı tutarken diğeri cıvatalar. Makaslı platformun geniş ve düz sepet tabanı iki kişinin yan yana, rahat hareket ederek çalışmasına izin verir. Sepet içinde malzeme kutusu, el aleti çantası ve yedek parça aynı anda bulunabilir; bu da inip çıkma sayısını azaltır ve tavan altı işini tek seansta bitirme ihtimalini yükseltir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Tavan altı iş tipine göre makine seçimi",
+                paragraflar: [
+                    "Seramik hollerinde tavan katmanındaki işleri düz hat/nokta hedef ayrımına göre listeliyoruz; bu ayrım makaslı ile eklemli arasındaki tercihi belirleyen ana kriterdir.",
+                ],
+                tablo: {
+                    basliklar: ["Tavan altı iş tipi", "Hat özelliği", "Önerilen sınıf", "Sepet gereksinimi"],
+                    satirlar: [
+                        ["Aydınlatma rayı bakımı", "Düz, sürekli hat", "Makaslı", "Geniş taban, çift kişi"],
+                        ["Sirkülasyon fanı kontrolü", "Aralıklı, sabit nokta", "Makaslı", "Malzeme kutusu alanı"],
+                        ["Kablo tavası çekimi", "Düz koridor hattı", "Makaslı", "Makara taşıma kapasitesi"],
+                        ["Işıklık şerit temizliği", "Sürekli uzun şerit", "Makaslı", "Sabit hızda kayma"],
+                        ["Fırın gövdesi çevresi", "Engelli, dönemeçli", "Eklemli", "Dar sepet, bom manevrası"],
+                        ["Baca üstü tekil nokta", "İzole, yüksek nokta", "Eklemli", "Yandan yanaşma"],
+                    ],
+                },
+            },
+            {
+                baslik: "Makaslı ile eklemli arasındaki gerçek fark",
+                paragraflar: [
+                    "Sahada sık duyduğumuz bir varsayım, makaslı platformun her zaman daha ucuz ve eklemli platformun her zaman daha yetenekli olduğudur. Gerçek daha basit bir kritere dayanır: hedefe düz bir hat üzerinden mi yoksa bir engelin çevresinden mi ulaşılıyor? Düz hatta eklemli bomun kırılma yeteneği kullanılmaz, sadece dar sepeti bir dezavantaj olarak kalır. Engelli bir geometride ise makaslı platformun dikey hareketi yeterli olmaz, çünkü yana doğru manevra yapamaz.",
+                    "Seramik hollerinde bu iki iş tipi genelde aynı gün içinde art arda gelir — sabah tavan armatür bakımı, öğleden sonra fırın bacası çevresi gibi. Bu durumda tesise iki farklı makine önerebiliriz ya da işleri gün bazında ayırıp tek makineyle sırayla ilerleyebiliriz; hangisinin daha ekonomik olduğu iş yoğunluğuna göre değişir ve bunu keşif sırasında birlikte hesaplarız.",
+                ],
+            },
+            {
+                baslik: "Zemin ve konumlandırma şartı",
+                paragraflar: [
+                    "Makaslı platformlar dikey açıldığı için taban izdüşümleri sabittir ve ayak dengesi büyük ölçüde zeminin düzlüğüne bağlıdır. Seramik hollerinin üretim koridorları genellikle düz betondur, bu da makaslı platform için elverişli bir zemindir. Ancak hammadde stok alanları ya da hazırlama bölümündeki toz birikintisi tekerlek tutuşunu etkileyebileceğinden, çalışma güzergâhının önceden süpürülmüş olması istenir.",
+                    "Konumlandırmada dikkat ettiğimiz bir diğer nokta, sepetin doğrudan tavan hattının altına gelecek şekilde park edilmesidir; makaslı platform yana doğru uzanamadığından, park noktası hedeften uzaksa iş bölünerek ilerlemek gerekir. Bu yüzden geniş hollerde güzergâhı önceden hattın altında bir çizgi olarak planlarız, gereksiz taşıma-park tekrarını böylece önleriz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Tavan aydınlatma hattımız 60 metre uzunluğunda, tek seansta bitirilebilir mi?",
+                cevap:
+                    "Hat düz ve engelsizse evet, tek seansta ilerlenir; makaslı platform hat boyunca kaydırılarak her birkaç metrede bir duruş yapılır ve o duruşta erişilebilen armatürler değiştirilir. 60 metrelik bir hat için ortalama duruş sayısını ve her duruşta harcanan süreyi keşifte tahmin eder, gün içi planı buna göre çıkarırız. Aradaki tek kesinti sebebi, hattın belirli noktalarında forklift ya da başka bir ekipmanın geçiş güzergâhını kesmesi olabilir; bu durumda o noktalarda kısa bir bekleme payı bırakırız.",
+            },
+            {
+                soru: "Sirkülasyon fanlarımız birbirinden farklı yükseklikte, tek makine yeter mi?",
+                cevap:
+                    "Fanlar arasındaki yükseklik farkı büyük değilse, en yüksek fanı esas alan bir çalışma yüksekliği sınıfı seçilir ve makine tüm fanlara bu sınıfla ulaşır — düşük fanlarda sepet daha az yükselir, sorun olmaz. Fark belirginse (örneğin bazı fanlar diğerlerinden birkaç metre daha yukarıda) tek makine yine yeterli olabilir, çünkü makaslı platformun çalışma aralığı zaten bir bant kapsar; sadece duruşta sepeti fanın kotuna göre ayarlarız. Kesin karar için fan konumlarının kabaca yüksekliklerini paylaşmanız yeterli.",
+            },
+            {
+                soru: "Kablo tavası hattımız bir noktada dönüyor, makaslı platform bu dönüşü takip edebilir mi?",
+                cevap:
+                    "Makaslı platform sadece dikey hareket ettiği için dönüş noktasında makinenin kendisini yeniden konumlandırmak gerekir — sepet kendi başına yana dönemez. Uygulamada dönüş noktasına kadar bir güzergâhla ilerler, o noktada makineyi hafifçe döndürüp yeni hat üzerinden devam ederiz. Dönüş çok keskin ve dar bir koridordaysa bu manevra için ekstra alan gerekebilir; koridor genişliğini ölçüp uygunluğu keşifte teyit ederiz. Dönüş noktası sık tekrarlıyorsa o bölümde eklemli sınıfı da değerlendirebiliriz.",
+            },
+            {
+                soru: "Işıklık şeridimiz çok uzun, temizlik kaç gün sürer?",
+                cevap:
+                    "Süre şeridin uzunluğuna, kirlilik derecesine ve kaç kişiyle çalışıldığına bağlı değişir; net bir gün sayısı vermeden önce şeridin metrajını ve mevcut kirlilik yoğunluğunu görmek isteriz. Genel eğilim olarak, sepette iki kişiyle çalışıldığında ilerleme hızı tek kişiye göre belirgin artar çünkü biri temizlerken diğeri malzeme hazırlar. Geniş hollerde işi birkaç güne yaymak, üretim akışını kesmemek açısından çoğu zaman tercih edilir; bu planı işletme takviminizle birlikte oluştururuz.",
+            },
+            {
+                soru: "Aynı gün hem tavan altı hem fırın bacası işimiz var, tek makine mi yeterli?",
+                cevap:
+                    "Genelde hayır, çünkü tavan altı düz hat işleri makaslı platformun avantajlı olduğu, baca çevresi ise eklemli bomun gerekli olduğu farklı geometrilerdir. İki işi de tek makineyle yapmaya çalışmak, ya tavan altında dar sepetle verimsiz çalışmaya ya da baca çevresinde makaslı platformun yana uzanamamasından kaynaklı erişim sorununa yol açar. Yoğunluğa göre ya iki farklı makineyle aynı gün paralel ilerleriz ya da işleri iki güne bölüp tek makineyle sırayla tamamlarız; hangisinin uygun olduğunu iş listenize göre birlikte kararlaştırırız.",
+            },
+            {
+                soru: "Hol içindeki toz, makaslı platformun tekerleklerini kayganlaştırır mı?",
+                cevap:
+                    "İnce toz, özellikle ıslak bir zeminle birleştiğinde tutuşu azaltabilir ama kuru betonda genelde belirgin bir risk oluşturmaz. Yine de hammadde hazırlama ve taşlama bölümlerine yakın koridorlarda toz birikintisi fazlaysa, çalışma öncesi güzergâhın süpürülmesini isteriz; bu basit önlem hem tekerlek tutuşunu hem de ayak dengesini iyileştirir. Sürekli tozlu bir ortamda uzun süre çalışılacaksa, periyodik olarak tekerlek çevresini kontrol eder, gerekirse güzergâhı yeniden temizletiriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Makaslı platformun mekanik özellikleri (dikey açılma, geniş sepet tabanı, yana manevra edememe) ekipman kategorisi genel bilgisidir; seramik hol tavanı unsurlarının tarifi (aydınlatma rayı, sirkülasyon fanı, kablo tavası, ışıklık şeridi) ve iş planlama yaklaşımı firma saha pratiğidir. Tesis adı ve rakam uydurulmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Seramik Fabrikasında Genel Manlift Kiralama — Çatı ve Üst Yapı Bakımı",
+        giris:
+            "\"Manlift kiralama\" araması, çoğunlukla henüz hangi makine sınıfının gerektiğini bilmeyen bir arayışın ilk adımıdır — talep eden kişi genelde \"yüksekte bir bakım işimiz var\" der, sınıf ayrımını biz netleştiririz. Seramik fabrikalarında bu ilk temas genellikle çatı katmanıyla ilgilidir: bir fırın bacasında görülen bir aksaklık, ışıklıklarda fark edilen bir kararma, ya da periyodik bakım takviminde işaretli bir tarih. Bu sayfada, manlift talebiyle bize ulaşan bir seramik tesisinin sürecini baştan sona anlatıyoruz — ilk telefon görüşmesinden makinenin sahaya girmesine kadar hangi soruları sorduğumuz, hangi bilgiyi neden istediğimiz ve genel manlift kavramının seramik hollerinin üst dünyasında nasıl somut bir makine seçimine dönüştüğü. Amacımız, ilk kez arayan bir tesis yetkilisinin de süreci baştan görebilmesi; teknik jargonla değil, adım adım işleyişle anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "İlk görüşmede sorduğumuz üç soru",
+                metin:
+                    "Manlift talebiyle arayan bir tesise ilk sorduğumuz üç şey şunlardır: hedef nerede (çatı üstü mü, hol içi tavan mı, yoksa bir yapı elemanının çevresi mi), hedefin yaklaşık yüksekliği nedir, ve o noktaya düz mü yoksa bir engelin arkasından mı ulaşılıyor. Bu üç cevap, elimizde onlarca model varken hangi birkaçının uygun olduğunu belirlememize yeter. Net cevap alamadığımızda fotoğraf isteriz — bir cep telefonu fotoğrafı, sözlü tarife göre çok daha hızlı netlik sağlar.",
+            },
+            {
+                baslik: "Çatı üstü mü, hol içi tavan mı",
+                metin:
+                    "Seramik tesislerinde \"yüksekte iş\" iki farklı katmana işaret edebilir: fiziksel çatının üstü (baca, ışıklık dış yüzeyi, çatı örtüsü) ya da hol içindeki tavan altı (aydınlatma rayı, kablo tavası, sabit fan). Bu ayrım makine seçimini doğrudan etkiler çünkü çatı üstü işlerde makine genelde bina dışında, hol içi işlerde ise üretim alanının içinde çalışır — ikincisinde egzoz emisyonu nedeniyle akülü/elektrikli güç kaynağı zorunlu hâle gelir. Talep sırasında bu ayrımı netleştirmek, doğru makinenin sahaya gelmesini garanti eder.",
+            },
+            {
+                baslik: "Düz hat mı, engelli geometri mi",
+                metin:
+                    "İkinci kritik ayrım, hedefe ulaşım yolunun düz mü yoksa bir engelin (fırın gövdesi, boru demeti, ekipman adası) arkasından mı geçtiğidir. Düz hatta geniş sepetli, dikey hareketli bir makine yeterli ve daha ekonomiktir; engelli geometride ise bomun kırılarak engeli aşabilmesi gerekir. Bu ayrımı telefonda net anlayamadığımız durumlarda, tesisin genel yerleşim krokisini ya da hedefin çevresinden birkaç fotoğrafı isteriz; bu, saha ziyaretinden önce doğru makineyi ön seçmemizi sağlar.",
+            },
+            {
+                baslik: "Operatörlü mü, işletme personeli mi kullanacak",
+                metin:
+                    "Manlift talebinde netleştirdiğimiz bir diğer nokta, makineyi kimin kullanacağıdır. Tesisin kendi personeli yüksekte çalışma eğitimli ve sepet kullanımına aşinaysa makine operatörsüz teslim edilebilir; aksi hâlde bizim operatörümüz eşliğinde çalışılır. Bu tercih hem teslimat planını hem de sahada geçirilecek süreyi etkiler, bu yüzden ilk görüşmede netleştirilmesi süreci hızlandırır.",
+            },
+            {
+                baslik: "Keşif mi gerekiyor, telefonla mı netleşiyor",
+                metin:
+                    "Basit ve tek noktalı işlerde (örneğin bilinen bir baca ölçüm noktası) telefon görüşmesi ve birkaç fotoğrafla teklif netleşebilir. Çok noktalı, karmaşık geometrili ya da ilk kez çalışılan bir tesiste ise saha keşfi öneririz — özellikle fırın hattı çevresi gibi engelli bölgelerde, yerinde ölçü almadan doğru sınıfı taahhüt etmek riskli olur. Keşif kararını iş tipine göre birlikte veririz; gereksiz yere her işte keşif dayatmayız.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift talebinden makine seçimine giden adımlar",
+                paragraflar: [
+                    "İlk temastan sahaya makine girmesine kadar geçen süreci adım adım aşağıdaki gibi işletiyoruz; her adımda hangi bilginin toplandığını ve neden gerektiğini gösteriyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Adım", "Toplanan bilgi", "Amaç", "Genellikle nasıl alınır"],
+                    satirlar: [
+                        ["1. İlk görüşme", "Hedef konum ve yükseklik", "Kaba sınıf belirleme", "Telefon"],
+                        ["2. Geometri sorgusu", "Düz hat mı, engelli mi", "Makaslı/eklemli ayrımı", "Fotoğraf ya da kroki"],
+                        ["3. Ortam sorgusu", "Çatı üstü mü, hol içi mi", "Güç tipi (akülü/dizel)", "Sözlü tarif"],
+                        ["4. Operatör kararı", "Personel eğitimli mi", "Operatörlü/operatörsüz", "İşletme beyanı"],
+                        ["5. Keşif (gerekirse)", "Yerinde ölçü ve zemin", "Kesin model teyidi", "Saha ziyareti"],
+                        ["6. Teslimat", "Erişim yolu ve zaman", "Sevkiyat planı", "Birlikte planlama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Genel talep neden tek bir cevaba indirgenmiyor",
+                paragraflar: [
+                    "\"Manlift lazım\" cümlesi, aslında birbirinden oldukça farklı işlerin ortak başlığıdır. Bir baca ölçüm noktası ile bir aydınlatma rayı bakımı, ikisi de \"yükseklikte çalışma\" olsa da tamamen farklı erişim mantığı ister. Bu yüzden ilk görüşmede genel talebi hemen bir modele bağlamak yerine, önce iş tipini netleştirmeyi tercih ederiz. Bu yaklaşım daha uzun sürüyormuş gibi görünse de, yanlış makinenin sahaya gidip geri gönderilmesi ihtimalini ortadan kaldırdığı için sonuçta zaman kazandırır.",
+                    "Seramik tesislerinde bu netleştirme özellikle önemlidir çünkü aynı bina içinde hem düz hem engelli geometri bir arada bulunur. Bir tesis yetkilisinin \"çatıda bir işimiz var\" demesi, bacadan ışıklığa, tavan aydınlatmasından kurutma bölümü fanına kadar çok farklı noktalara işaret edebilir. Bu yüzden sorularımız genel değil, seramik hollerinin bildiğimiz yapısına özgüdür.",
+                ],
+            },
+            {
+                baslik: "Teklif ve sözleşme sürecinde netleştirilenler",
+                paragraflar: [
+                    "Model netleştikten sonra teklifte üç kalem ayrıca belirtilir: kiralama süresi (günlük/haftalık), operatörlü/operatörsüz ayrımı ve teslimat-toplama lojistiği. Bozüyük OSB içindeki tesislerde teslimat genelde aynı gün ya da ertesi gün mümkündür; bunun dışındaki noktalarda mesafe teklife yansıtılır.",
+                    "Sözleşme aşamasında sahadaki güvenlik sorumluluklarını da netleştiririz — hangi alanların işletme tarafından, hangilerinin bizim tarafımızdan kontrol edileceği yazılı olarak belirlenir. Bu, özellikle çok noktalı ve uzun süreli kiralamalarda anlaşmazlığı önleyen bir adımdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift lazım\" dedik ama hangi tip olduğunu bilmiyoruz, nasıl ilerliyoruz?",
+                cevap:
+                    "Bu son derece normal bir başlangıç noktası; çoğu talep bu şekilde gelir. Telefonda üç şeyi sorarız: hedef nerede, yaklaşık ne yükseklikte ve o noktaya düz mü yoksa bir engelin arkasından mı ulaşılıyor. Bu üç cevap genelde makaslı-eklemli ayrımını netleştirmeye yeter. Net bir cevap veremiyorsanız sorun değil — hedefin ve çevresinin birkaç fotoğrafını WhatsApp üzerinden gönderebilirsiniz, bu bizim için sözlü tariften çok daha net bir bilgi kaynağıdır.",
+            },
+            {
+                soru: "Telefonda mı yoksa yerinde mi karar veriyorsunuz?",
+                cevap:
+                    "İki türlü de mümkün. Bilinen, tek noktalı ve daha önce benzerini yaptığımız bir iş için telefon görüşmesi ve fotoğraf genelde yeterli olur, teklif aynı gün çıkar. Çok noktalı, karmaşık geometrili ya da ilk kez çalıştığımız bir tesiste ise saha keşfi öneririz çünkü yerinde ölçü almadan taahhüt vermek riskli olur. Hangisinin gerektiğine iş tanımınıza göre birlikte karar veririz; gereksiz yere her talepte keşif şart koşmuyoruz.",
+            },
+            {
+                soru: "Operatör bizim personelimizden mi olmalı, sizden mi gelmeli?",
+                cevap:
+                    "İkisi de mümkün, tercih işletmenin elindeki personele bağlı. Kendi personeliniz yüksekte çalışma eğitimli ve benzer ekipman kullanımına aşinaysa makineyi operatörsüz teslim edebiliriz; bu durumda kullanım öncesi kısa bir bilgilendirme yaparız. Personeliniz bu konuda deneyimsizse ya da iş tekil/kısa süreliyse bizim operatörümüz eşliğinde çalışmak daha güvenli ve pratik olur. Bu tercihi ilk görüşmede netleştirmeniz teklif ve planlama sürecini hızlandırır.",
+            },
+            {
+                soru: "Aynı hafta içinde birden fazla farklı iş için manlift gerekiyor, tek kiralama ile mi çözülüyor?",
+                cevap:
+                    "İşlerin geometrisi benzer değilse (örneğin biri düz tavan hattı, diğeri fırın bacası çevresi) genelde iki farklı makine sınıfı gerekir; bu durumda ya iki makineyi paralel kiralar ya da işleri gün gün ayırıp tek makineyi sırayla iki iş için kullanırız. Hangisinin sizin için daha ekonomik olduğunu iş listenizi ve zaman çizelgenizi görünce net söyleyebiliriz; bazen tek uzun süreli kiralama, iki kısa kiralamadan daha avantajlı çıkabiliyor.",
+            },
+            {
+                soru: "İlk kez çalışacağız, tesisinizi hiç görmediniz. Bu bir sorun mu?",
+                cevap:
+                    "Hayır, aksine bu durumda keşifi öneririz — tam olarak bu yüzden. İlk kez çalıştığımız bir tesiste hedefin geometrisini, zemin durumunu ve makinenin park edeceği alanı yerinde görmeden kesin bir model taahhüt etmek yerine, kısa bir keşif ziyaretiyle bu belirsizliği ortadan kaldırırız. Keşif genelde bir saatten kısa sürer ve teklif, keşif sonrası aynı gün ya da ertesi gün netleşir.",
+            },
+            {
+                soru: "Talebimiz acil, ne kadar sürede makine sahada olur?",
+                cevap:
+                    "Süre, işin tanımının ne kadar net olduğuna ve uygun modelin müsaitlik durumuna bağlı. İş tanımı net ve model önceden belirlenmişse aynı gün ya da ertesi gün teslimat genelde mümkündür. İş tanımı belirsizse önce kısa bir telefon görüşmesiyle sınıfı netleştiririz, bu adım süreci birkaç saat uzatabilir ama yanlış makinenin gidip geri dönmesinden daha hızlıdır. Acil taleplerde bize doğrudan ulaşmanız, önceliklendirmemizi kolaylaştırır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Talep karşılama ve makine seçim süreci firma saha pratiğidir; seramik hol yapısına dair unsurlar (fırın bacası, ışıklık, tavan aydınlatma hattı) diğer bespoke sayfalarla tutarlı, doğrulanabilir genel bilgidir. Tesis adı ve rakam uydurulmamıştır.",
+    },
 };

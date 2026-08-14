@@ -2010,4 +2010,202 @@ export const BOZUYUKPLATFORM_NET_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. OSB'de yeni tahsis edilen parsellerin inşaat öncesi zemin durumu ve kırsal alanların mevsimsel zemin değişkenliği genel gözlemdir. Yük dağıtım plakası kullanımı ve zemin değerlendirme yöntemi sektör geneli saha pratiğidir. Tesis adı, işletme adı ve doğrulanmamış rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Bozüyük OSB Yönetimi İçin Makaslı Platform Çerçeve Kiralaması ve Filo Planlaması",
+        giris:
+            "Bozüyük OSB'de onlarca farklı işletmenin her biri kendi makaslı platform ihtiyacını ayrı ayrı bir tedarikçiye sorduğunda, aynı bölgeye giden makine sayısı gereksiz yere çoğalır ve her işletme tek başına sevkiyat maliyetini üstlenir. Biz bu sayfada tek bir tesisin değil, OSB yönetiminin ya da müteşebbis heyetinin gördüğü tabloyu anlatıyoruz: bölgedeki toplam makaslı platform talebinin bir çerçeve anlaşma altında nasıl toplandığı, OSB'nin yıllık bakım takvimine bu makine sınıfının nasıl yerleştirildiği ve üye firmaların bireysel taleplerinin ortak bir filo programına nasıl dahil edildiği. Makaslı platform, geniş sepeti ve dikey hareket eden platformuyla birden fazla kişinin aynı anda çalışabildiği, düz zeminli iç ve dış alanlarda tercih edilen bir makine sınıfıdır; OSB ölçeğinde bakıldığında bu özellik, tek bir tesisin değil OSB'nin ortak alanlarının da düzenli olarak ihtiyaç duyduğu bir hizmete dönüşür. Amacımız, OSB yönetiminin üye firmalar adına nasıl bir kiralama modeli kurabileceğini, bunun maliyet ve planlama açısından ne getirdiğini göstermektir.",
+        maddeler: [
+            {
+                baslik: "OSB genelinde çerçeve anlaşmanın kurgusu",
+                metin:
+                    "Bir çerçeve anlaşma, OSB yönetiminin üye firmalar adına önceden belirlenmiş fiyat ve öncelik koşullarıyla tek bir tedarikçiyle yıllık bir sözleşme kurmasıdır. Bu düzende her firma kendi talebini doğrudan bize değil, OSB yönetiminin belirlediği bir kanaldan iletir; biz de bu talepleri tek bir program altında birleştiririz. Anlaşmanın avantajı, her firmanın ayrı ayrı fiyat pazarlığı yapmak zorunda kalmaması ve OSB'nin toplam hacminin getirdiği avantajlı koşullardan yararlanmasıdır.",
+            },
+            {
+                baslik: "Üye firma taleplerinin konsolide edilmesi",
+                metin:
+                    "OSB yönetimi üzerinden gelen talepler bize genellikle haftalık ya da aylık bir liste hâlinde ulaşır; biz bu listeyi coğrafi yakınlık ve iş süresine göre sıralayarak tek bir sevkiyat programına dönüştürürüz. Bir haftada üç farklı üye firmanın makaslı platform talebi varsa, bunları aynı güne ya da art arda gelen günlere yerleştirerek OSB'ye giden toplam sefer sayısını azaltırız. Bu konsolidasyon, OSB yönetiminin görebileceği ama tek bir üye firmanın kendi başına kuramayacağı bir verimliliktir.",
+            },
+            {
+                baslik: "OSB ortak alanlarının yıllık bakım takvimine dahil edilmesi",
+                metin:
+                    "OSB'nin kendi ortak alanları — idare binası cephesi, ortak depo çatısı, giriş kapısı üstü tabela — düzenli aralıklarla makaslı platform gerektiren bakım kalemleridir. Bu kalemler tek bir üye firmanın sorumluluğunda olmadığı için genellikle OSB yönetiminin yıllık bütçe planlamasına girer. Çerçeve anlaşma kapsamında bu ortak alan bakımını, üye firma taleplerinin yoğun olduğu dönemlerin dışına, OSB yönetimiyle birlikte belirlenen sakin bir takvime yerleştiririz.",
+            },
+            {
+                baslik: "Filo büyüklüğünün OSB'nin toplam hacmine göre belirlenmesi",
+                metin:
+                    "OSB yönetimiyle kurulan bir çerçeve ilişkide, bize ayrılacak filo büyüklüğünü tek bir tesisin değil OSB'nin toplam yıllık hacminin belirlemesi gerekir. Bu yüzden anlaşma öncesinde OSB yönetiminden, üye firmaların yaklaşık kaçının düzenli makaslı platform ihtiyacı olduğunu ve bu ihtiyacın hangi dönemlerde yoğunlaştığını öğrenmeye çalışırız. Bu bilgi netleşmeden önce filo taahhüdü vermeyiz; tahmini bir hacimle başlar, ilk birkaç ay içindeki gerçek talebe göre programı ayarlarız.",
+            },
+            {
+                baslik: "Maliyet paylaşımının OSB yönetimi üzerinden şeffaflaştırılması",
+                metin:
+                    "Çerçeve anlaşmanın en çok sorulan yanı, ortak alan bakım maliyetinin üye firmalar arasında nasıl paylaşılacağıdır; bu, bizim değil OSB yönetiminin kararıdır ve genellikle aidat sistemine bağlanır. Bizim tarafımızdan sağladığımız şey, her bir bakım kaleminin gerçek maliyetini ayrıştırılmış biçimde OSB yönetimine raporlamaktır — hangi ortak alanın bakımı ne kadar tuttu, hangi üye firmanın bireysel talebi ayrı faturalandı. Bu şeffaflık, OSB yönetiminin aidat hesaplamasını üyelerine açık biçimde savunabilmesini sağlar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Çerçeve anlaşma ile tekil kiralama arasındaki fark",
+                paragraflar: [
+                    "OSB yönetiminin çerçeve anlaşma kurup kurmaması, üye firmaların gördüğü hizmetin maliyet ve planlama tarafını doğrudan etkiler. Aşağıdaki tablo iki modelin OSB ölçeğinde nasıl farklılaştığını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Kriter", "Çerçeve anlaşma (OSB yönetimi)", "Tekil kiralama (üye firma bazında)"],
+                    satirlar: [
+                        ["Fiyatlandırma", "OSB toplam hacmine göre önceden belirli", "Her talepte ayrı teklif"],
+                        ["Sevkiyat sayısı", "Konsolide, OSB geneli programlı", "Talep başına ayrı sefer"],
+                        ["Ortak alan bakımı", "Yıllık plana yerleşik", "Ayrı istek gerektirir"],
+                        ["Öncelik sırası", "Anlaşma koşullarında tanımlı", "Sıraya göre belirlenir"],
+                        ["Raporlama", "OSB yönetimine dönemsel özet", "Sadece ilgili firmaya fatura"],
+                    ],
+                },
+            },
+            {
+                baslik: "Çerçeve anlaşmanın kurulma süreci",
+                paragraflar: [
+                    "Bir OSB yönetimiyle çerçeve anlaşma kurarken ilk adım, OSB'deki üye firma sayısını ve bunların yaklaşık talep sıklığını birlikte değerlendirmektir; bu, bize somut bir rakam vermekten çok, talep örüntüsünün mevsimsel mi yoksa yıl boyu düzenli mi olduğunu anlamamıza yarar. İkinci adım, ortak alan bakım kalemlerinin bir envanterinin çıkarılmasıdır — hangi yapılar, hangi sıklıkta, hangi tip erişim gerektiriyor. Üçüncü adım, bu bilgilerle bir taslak yıllık program hazırlamak ve OSB yönetimiyle gözden geçirmektir.",
+                    "Anlaşma imzalandıktan sonra ilk üç ay genellikle bir deneme dönemi gibi işler; bu dönemde gerçek talep hacmi tahminlerden sapabilir ve programı buna göre ayarlarız. OSB yönetimiyle düzenli bir geri bildirim döngüsü kurmak, anlaşmanın ilk yılında en çok fark yaratan unsurdur.",
+                ],
+            },
+            {
+                baslik: "Üye firmaların çerçeve anlaşmaya nasıl dahil olduğu",
+                paragraflar: [
+                    "Çerçeve anlaşma kurulduktan sonra üye firmaların bize doğrudan ulaşması genellikle mümkün olur, ancak talebin OSB yönetimine de bilgi olarak iletilmesi istenir — bu, hem raporlama bütünlüğü hem de öncelik sırasının doğru işlemesi için gereklidir. Bir üye firma acil bir talep iletirse, bunu anlaşmadaki öncelik kurallarına göre değerlendirir, gerekiyorsa OSB yönetimine bilgi vererek programı yeniden kurarız.",
+                    "Yeni katılan bir üye firma varsa, onu anlaşmaya dahil etmek için OSB yönetiminin bir onayı yeterlidir; biz ayrı bir sözleşme süreci istemeyiz, mevcut çerçevenin kapsamı genişletilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "OSB yönetimi olarak çerçeve anlaşma kurmak, üye firmalarımıza gerçekten maliyet avantajı sağlar mı?",
+                cevap:
+                    "Evet, ama avantaj her zaman doğrudan birim fiyat indirimi biçiminde görünmez; asıl kazanç, sevkiyat sayısının azalmasından ve programın önceden belirli olmasından gelir. OSB genelindeki talepleri konsolide ettiğimizde, her üye firmanın ayrı ayrı sevkiyat maliyeti taşımak yerine paylaşılan bir programın parçası olması, toplam maliyeti gözle görülür biçimde düşürür. Bunu somut göstermek için, anlaşma öncesi OSB'nin yaklaşık yıllık talep hacmini birlikte çıkarır, mevcut düzenle karşılaştırmalı bir tahmin sunarız.",
+            },
+            {
+                soru: "Anlaşma kapsamında bize ayrılacak filo büyüklüğünü nasıl belirliyorsunuz, yetersiz kalırsa ne olur?",
+                cevap:
+                    "Filo büyüklüğünü OSB'nin tahmini yıllık talep hacmine göre belirleriz, ancak bu tahmin ilk yıl kesin olamaz; bu yüzden anlaşmayı esnek bir kapasite maddesiyle kurarız. Talep beklenenden yoğun çıkarsa, ek makineyi kısa vadede devreye alabileceğimiz bir yedek kapasite anlaşmasını da baştan konuşuruz. Amacımız, OSB yönetiminin filo yetersizliği yüzünden üye firmalara söz veremediği bir duruma düşmemesidir.",
+            },
+            {
+                soru: "Ortak alan bakım maliyetini üye firmalar arasında nasıl paylaştıracağımızı siz mi belirliyorsunuz?",
+                cevap:
+                    "Hayır, bu tamamen OSB yönetiminin kararıdır ve genellikle mevcut aidat sistemine bağlanır; biz bu karara müdahale etmeyiz. Bizim rolümüz, her bakım kaleminin gerçek maliyetini ayrıştırılmış biçimde raporlamaktır — hangi ortak alanın bakımı ne kadar tuttu, hangi ekipman ve süre kullanıldı. Bu raporu OSB yönetimi kendi aidat hesaplama yöntemine göre üyelerine yansıtır; biz yalnızca şeffaf ve doğrulanabilir bir maliyet tablosu sunarız.",
+            },
+            {
+                soru: "Çerçeve anlaşma imzalamadan önce üye firmaların görüşünü almamız gerekir mi?",
+                cevap:
+                    "Bu OSB yönetiminin kendi karar sürecine bağlı bir konu, ama pratikte tavsiye ederiz — çünkü anlaşmanın gerçek değeri, üye firmaların bu kanalı ne ölçüde kullandığına bağlıdır. Bazı OSB yönetimleri anlaşmayı önce küçük bir pilot grupla başlatıp sonra genişletmeyi tercih ediyor; bu, ilk dönemdeki tahminlerin sahada ne kadar tuttuğunu görmek için makul bir yöntem. Hangi yolu seçerseniz seçin, biz anlaşmanın kapsamını sizin belirlediğiniz büyüklükte kurarız.",
+            },
+            {
+                soru: "Anlaşma süresince talep hiç gelmeyen aylar olursa, OSB yönetimi olarak bir yükümlülüğümüz oluyor mu?",
+                cevap:
+                    "Bu, anlaşmanın nasıl kurulduğuna bağlı; sabit bir minimum hacim taahhüdü istemiyorsak, düşük talepli aylarda ek bir yükümlülük doğmaz. Biz genellikle OSB anlaşmalarını sabit taahhüt yerine önceden belirlenmiş fiyat ve öncelik koşuluyla kuruyoruz — yani talep olduğunda anlaşmadaki koşullar geçerli olur, talep olmayan ayda hiçbir taraf bir şey ödemez. Sabit bir kapasite rezervasyonu isteniyorsa bunu ayrı bir madde olarak görüşürüz, ama bu genellikle çok yüksek hacimli OSB'lerde tercih edilir.",
+            },
+            {
+                soru: "OSB yönetimi değişirse ya da yönetim kurulu yenilenirse, mevcut çerçeve anlaşma geçerliliğini korur mu?",
+                cevap:
+                    "Anlaşma, OSB tüzel kişiliği adına imzalandığı için yönetim kurulu değişikliğinden bağımsız olarak süresi boyunca geçerliliğini korur; imzayı atan kişinin görevi değişmesi anlaşmayı otomatik feshetmez. Yeni yönetim kuruluyla anlaşmanın işleyişini gözden geçirmek isteriz, çünkü önceliklerde değişiklik olabilir; bu görüşmeyi biz teklif ederiz. Anlaşmanın feshi ya da yenilenmesi, sözleşmedeki bildirim süresine tabi olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bozüyük OSB'de yönetim/müteşebbis heyetinin ortak alan bakımı ve üye firma koordinasyonundaki rolü kamuya açık genel bilgidir; çerçeve anlaşma kurgusu, filo planlaması ve maliyet raporlama yöntemi firma saha pratiğidir. Tesis adı, işletme adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Bozüyük OSB'de Yeni Tesis Kayıt Sürecinde Manlift Erişimi ve Güvenlik Koordinasyonu",
+        giris:
+            "Bozüyük OSB'ye yeni bir parsel tahsis edildiğinde ya da mevcut bir üye firma büyüme kararı aldığında, süreç OSB yönetimi nezdinde kayıt, ruhsat ve yapı denetim aşamalarından geçer; bu aşamaların her birinde tek kişilik, kompakt gövdeli manlift türü yükseltici sık ihtiyaç duyulan bir ekipmandır — elektrik direği bağlantısı, geçici aydınlatma kurulumu, çevre duvarı üstü tabela montajı gibi dar kapsamlı işler makaslı platformun geniş sepetine göre manliftin tek operatörlü, dar alana giren yapısına daha uygun düşer. Biz bu sayfada tek bir tesisin değil, OSB yönetiminin bu süreci nasıl gördüğünü anlatıyoruz: yeni kayıt sürecindeki manlift taleplerinin OSB'nin ruhsat takvimiyle nasıl örtüştüğü, operatör sertifikasyonunun OSB güvenlik koordinasyonu üzerinden nasıl takip edildiği ve OSB'nin periyodik iş güvenliği denetimlerinde manlift kullanımının nasıl planlandığı. Amacımız, OSB yönetiminin idari ve güvenlik sorumluluğu açısından manlift kiralamanın nereye oturduğunu göstermektir.",
+        maddeler: [
+            {
+                baslik: "Yeni parsel kaydı sürecindeki erken manlift ihtiyacı",
+                metin:
+                    "OSB'de bir parsel yeni tahsis edildiğinde, inşaat ruhsatı alınmadan önce bile bazı hazırlık işleri — elektrik direği bağlantı noktasının işaretlenmesi, geçici saha aydınlatması, sınır tabelası — gündeme gelebilir. Bu erken dönem talepleri genellikle OSB yönetiminin kayıt sürecindeki takvimle iç içe geçer ve talep genellikle yatırımcı firmadan değil, OSB'nin kendi altyapı biriminden ya da yatırımcının OSB'ye ilk başvurusu sırasında gelir. Bu aşamada manlift, henüz düzenlenmemiş bir zeminde çalışacağı için makine seçimi ve zemin değerlendirmesi keşifte ayrıca yapılır.",
+            },
+            {
+                baslik: "OSB güvenlik biriminin operatör belge takibi",
+                metin:
+                    "OSB yönetiminin iş güvenliği kurulu ya da güvenlik birimi, bölgede çalışan iş makinesi operatörlerinin geçerli belgeye sahip olup olmadığını genel bir sorumluluk çerçevesinde takip eder. Manlift operatörlerimizin güncel operatör belgesini, talep OSB üzerinden geldiğinde OSB güvenlik birimine önceden bildiririz; bu, OSB'nin kendi denetim kaydını tamamlamasını kolaylaştırır ve sahada ayrı bir belge kontrolü ihtiyacını azaltır.",
+            },
+            {
+                baslik: "OSB'nin periyodik yüksekte çalışma denetimlerinde manlift kullanımı",
+                metin:
+                    "Bazı OSB yönetimleri, üye firmaların yüksekte çalışma güvenliğini periyodik olarak denetler ya da tatbikat düzenler; bu tür denetimlerde manlift, denetim ekibinin erişemediği noktaları — çatı saçağı, cephe üst kısmı — kontrol etmesi için kullanılabilir. Bu tür bir talep geldiğinde işin niteliği ticari bir kiralamadan çok OSB'nin kendi denetim faaliyetine destektir; programı OSB'nin denetim takvimine göre ayrı bir kalem olarak planlarız.",
+            },
+            {
+                baslik: "OSB genelinde manlift talebinin ruhsat takvimiyle örtüşmesi",
+                metin:
+                    "OSB'de bir dönemde birden fazla parselin aynı anda inşaat ya da tadilat aşamasında olması, manlift talebinin belirli aylarda yoğunlaşmasına yol açar; bu yoğunlaşma genellikle OSB'nin ruhsat onay takvimiyle örtüşür, çünkü ruhsatı onaylanan firmalar aynı dönemde saha hazırlığına başlar. OSB yönetiminden bu tür bir yoğunlaşma dönemi hakkında önceden bilgi alabildiğimizde, kapasitemizi o döneme göre ayarlar ve bekleme sürelerini kısaltırız.",
+            },
+            {
+                baslik: "OSB idari biriminin tek nokta bilgilendirme rolü",
+                metin:
+                    "Yeni kayıt sürecindeki bir firma OSB'ye ilk kez başvurduğunda, altyapı ve erişim ihtiyaçları konusunda genellikle OSB'nin idari birimine yönlendirilir; biz bu birimle düzenli iletişimde kalarak, hangi yeni parselin hangi aşamada olduğunu ve manlift ihtiyacının ne zaman ortaya çıkabileceğini önceden öğrenmeye çalışırız. Bu, tek bir firmanın son anda bize ulaşması yerine, OSB idari biriminin süreci baştan bize haber vermesi anlamına gelir ve planlamayı öngörülebilir kılar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yeni tesis kayıt sürecinde manlift ihtiyacının aşamaları",
+                paragraflar: [
+                    "OSB'de bir parselin kayıt/ruhsat sürecinden üretime geçişine kadar geçen aşamalarda manlift ihtiyacının nasıl değiştiğini aşağıdaki tabloda özetledik.",
+                ],
+                tablo: {
+                    basliklar: ["Aşama", "Tipik manlift ihtiyacı", "İlgili OSB birimi", "Zemin durumu"],
+                    satirlar: [
+                        ["Parsel tahsisi sonrası", "Sınır tabelası, ölçüm noktası", "OSB altyapı birimi", "Doğal zemin"],
+                        ["Ruhsat öncesi hazırlık", "Elektrik direği, geçici aydınlatma", "OSB idari birimi", "Kaba dolgu"],
+                        ["İnşaat dönemi", "Cephe-çatı erken erişim", "Yapı denetim", "Düzensiz, değişken"],
+                        ["Üretime geçiş", "Tabela, son kontrol", "OSB kayıt birimi", "Kısmen tamamlanmış"],
+                        ["Periyodik denetim", "Güvenlik kontrolü desteği", "OSB güvenlik birimi", "Tamamlanmış"],
+                    ],
+                },
+            },
+            {
+                baslik: "Operatör belge koordinasyonunun işleyişi",
+                paragraflar: [
+                    "OSB üzerinden gelen bir manlift talebinde, operatör belgesinin güncelliğini biz kendi içimizde zaten doğrularız; OSB güvenlik birimiyle koordinasyon bunun üzerine ek bir bildirim katmanıdır. Talep OSB idari birimi üzerinden geldiğinde, hangi operatörün hangi tarihte sahada olacağını ve belge numarasını önceden paylaşırız; bu, OSB'nin kendi ziyaretçi-yüklenici kaydını tamamlamasını hızlandırır.",
+                    "Bu koordinasyonun tek bir OSB'ye özgü olmadığını, farklı OSB'lerin farklı düzeyde belge talep ettiğini de belirtmek gerekir; bazı OSB'ler yalnızca belge numarasını isterken bazıları belgenin bir kopyasını dosyalamak ister. Hangi düzeyde bilgi istendiğini OSB idari birimiyle ilk temasta netleştiririz.",
+                ],
+            },
+            {
+                baslik: "Ruhsat dönemi yoğunlaşmasında kapasite planlaması",
+                paragraflar: [
+                    "OSB'de belirli aylarda ruhsat onaylarının toplanması, o dönemde saha hazırlığı yapan firma sayısını artırır ve manlift talebi kısa bir pencerede yoğunlaşabilir. Bu yoğunlaşmayı önceden öngörebilmek için OSB idari birimiyle dönemsel bir bilgi alışverişi kurmaya çalışırız — kaç yeni ruhsatın hangi ayda onaylandığını bilmek, bizim o dönem için kapasite ayırmamızı sağlar.",
+                    "Bu bilgi paylaşılmadığı durumlarda da çalışırız, ancak yoğun dönemde son anda gelen taleplerde bekleme süresi uzayabilir; bu yüzden OSB idari birimiyle düzenli iletişimi hem kendi planlamamız hem de üye firmaların hizmet süresi açısından değerli buluyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Yeni tahsis edilen bir parselde henüz inşaat başlamadan manlift talep edebilir miyiz, yoksa ruhsat şart mı?",
+                cevap:
+                    "Ruhsat öncesi bazı hazırlık işleri için manlift talep edilebilir — elektrik direği çalışması, sınır tabelası, geçici aydınlatma gibi. Bu aşamada zemin genellikle henüz düzenlenmemiş olduğu için önce zemin durumunu değerlendiririz ve gerekirse yük dağıtım plakası ya da arazi tipi makine kullanırız. Ruhsat gerektiren esas inşaat işleri için ise OSB'nin ruhsat onay sürecinin tamamlanmış olması beklenir; bu ayrımı keşifte netleştiririz.",
+            },
+            {
+                soru: "OSB güvenlik birimi operatör belgesi istiyor; bu süreci sizinle mi yoksa doğrudan OSB ile mi yürütmeliyiz?",
+                cevap:
+                    "İkisi birlikte işler ama yük büyük ölçüde bizim üzerimizdedir. Talep OSB üzerinden geldiğinde, operatörümüzün güncel belge bilgisini doğrudan OSB güvenlik birimine önceden bildiririz; sizin ayrıca bir belge toplamanıza gerek kalmaz. Bazı OSB'ler belgenin fiziksel bir kopyasını isteyebilir, bu durumda bunu da hazırlarız. Sizden istediğimiz tek şey, OSB'nizin bu konudaki spesifik gereksinimini varsa önceden bize iletmenizdir.",
+            },
+            {
+                soru: "OSB'nin periyodik yüksekte çalışma denetimine destek için manlift kiralıyoruz; bu, normal kiralamadan farklı mı planlanıyor?",
+                cevap:
+                    "Evet, biraz farklı planlanıyor çünkü bu talep ticari bir işten çok OSB'nin kendi denetim faaliyetine destek niteliğinde. Genellikle OSB'nin belirlediği denetim tarihine bağlı sabit bir program kurarız ve denetim ekibinin erişmek istediği noktaların listesini önceden alırız. Bu tür işlerde esneklik daha az olur çünkü denetim takvimi genellikle değiştirilemez bir tarihe bağlıdır.",
+            },
+            {
+                soru: "OSB'de aynı dönemde birçok firma ruhsat alıp aynı anda saha hazırlığına başlarsa, bizim talebimiz gecikir mi?",
+                cevap:
+                    "Bu risk gerçek, özellikle OSB'nin ruhsat onaylarının belirli aylarda yoğunlaştığı dönemlerde. Bunu azaltmak için OSB idari birimiyle dönemsel bilgi alışverişi kurmaya çalışıyoruz — hangi ayda kaç yeni ruhsatın onaylandığını bilmek, o dönem için kapasitemizi önceden ayarlamamızı sağlıyor. Talebinizi mümkün olduğunca erken bildirirseniz, yoğun dönemde bile sıranızı önceden garanti altına alabiliriz.",
+            },
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark nedir, OSB'deki kayıt sürecinde hangisini talep etmeliyiz?",
+                cevap:
+                    "Manlift tek operatörlü, kompakt gövdeli ve dar alana giren bir yükselticidir; elektrik direği, sınır tabelası ya da geçici aydınlatma gibi tek noktalık işler için uygundur. Makaslı platform ise geniş sepetiyle birden fazla kişinin aynı anda çalışabildiği, düz ve geniş zeminlerde tercih edilen bir sınıftır. Yeni kayıt sürecinin erken aşamalarında zemin henüz düzenlenmemiş ve iş tek noktalık olduğu için genellikle manlift daha uygun düşer; işin kapsamını keşifte değerlendirip doğru sınıfı önereceğiz.",
+            },
+            {
+                soru: "OSB idari birimiyle doğrudan iletişimde olduğunuzu söylüyorsunuz; bu bize ne fayda sağlıyor?",
+                cevap:
+                    "En somut fayda, sizin bize son anda ulaşmanız yerine sürecin OSB idari biriminden bize önceden haber vermesidir — hangi parselin hangi aşamada olduğunu, ruhsat takviminin nasıl ilerlediğini bildiğimiz için talebiniz geldiğinde hazırlıksız yakalanmayız. İkinci fayda, operatör belge koordinasyonu gibi idari adımların sizin üzerinizden değil doğrudan bizimle OSB arasında yürümesidir; bu, sizin sürecinizi hafifletir. Üçüncüsü, OSB'nin dönemsel yoğunluk bilgisini kullanarak kapasitemizi önceden ayarlamamız, sizin bekleme sürenizi kısaltır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. OSB'lerde parsel tahsisi, ruhsat ve yapı denetim süreçlerinin OSB yönetimi/idari birimi üzerinden yürüdüğü ve iş güvenliği kurullarının operatör belge takibindeki genel rolü kamuya açık bilgidir; OSB idari birimiyle kurulan bilgi paylaşımı ve kapasite planlaması firma saha pratiğidir. Tesis adı, işletme adı ve doğrulanmamış rakam kullanılmamıştır.",
+    },
 };
