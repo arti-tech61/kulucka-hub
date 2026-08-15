@@ -1686,4 +1686,199 @@ export const PLUSPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Zorlu zemin/arazi koşullarının makine üzerindeki mekanik etkisi genel sektör bilgisidir; plus paket kapsamı firma pratiğidir. Marka adı, tesis adı ve rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Akülü Makaslı Platform Kiralama: Filo Büyüklüğü ve Başabaş Noktası Kararı",
+        giris:
+            "Akülü makaslı platform kiralaması bize geldiğinde işletmelerin çoğu tek bir makineye ihtiyaç duyduğunu düşünerek arar, ama görüşme ilerledikçe asıl sorunun 'bir makine mi, yoksa küçük bir filo mu' olduğu ortaya çıkar. Bir işletmenin farklı sahalarda ya da farklı vardiyalarda aynı anda birden fazla yüksekte çalışma ihtiyacı varsa, tek makineyi sırayla taşımak hem zaman kaybettirir hem de işlerin birbirini beklemesine yol açar; bu noktada soru artık 'kiralamalı mıyım' değil, 'kaç makine kiralamalıyım ve bu makinelerin her biri ne kadar kullanım saatinde kendini amorti ediyor' sorusuna dönüşür. Biz bu kararı verirken işletmenin eşzamanlı iş sayısını, her sahanın kullanım yoğunluğunu ve mevcut bir filo varsa onun doluluk oranını birlikte değerlendiriyoruz; amacımız gereğinden fazla makineyi sahada boş tutmanızı değil, gerçek ihtiyacınıza denk gelen filo büyüklüğüne ulaşmanızı sağlamak. Bu sayfada, satın alma-kiralama karşılaştırmasından farklı olarak, kiralama kararı verildikten sonraki ikinci adımı — kaç makine ve hangi kullanım-saati eşiğinde ek makinenin mantıklı olduğunu — ele alıyoruz.",
+        maddeler: [
+            {
+                baslik: "Tek makine mi, küçük filo mu: eşzamanlı iş sayısı belirleyici",
+                metin:
+                    "Bir işletmenin aynı gün içinde birden fazla noktada yüksekte çalışma ihtiyacı varsa, tek makineyi bu noktalar arasında taşımak hem lojistik zaman kaybı hem de bekleyen ekiplerin verimsiz durması anlamına gelir. Eşzamanlı iş sayısı ikiyi geçtiğinde, ikinci bir makinenin kiralama maliyeti genellikle taşıma ve bekleme kaybından daha düşük kalır; bu eşiği işletmenin kendi saha sayısı ve mesafeleriyle birlikte değerlendiriyoruz.",
+            },
+            {
+                baslik: "Kullanım-saati başabaş noktası nasıl hesaplanır",
+                metin:
+                    "Ek bir makine kiralamanın mantıklı olup olmadığını belirlerken, mevcut makinenin haftalık doluluk oranına bakıyoruz. Bir makine haftanın büyük bölümünde sürekli meşgulse ve bekleyen iş birikiyorsa, ikinci makinenin kira bedeli, o bekleme süresinde kaybedilen iş gününün maliyetiyle karşılaştırıldığında genellikle kendini çabuk çıkarır. Doluluk oranı düşükse, tek makineyle devam etmek ve iş programını daha iyi planlamak daha ekonomik kalır.",
+            },
+            {
+                baslik: "Farklı çalışma yüksekliği ihtiyaçlarında karma filo",
+                metin:
+                    "Bazı işletmelerin bir kısım işi düşük-orta yükseklikte, bir kısım işi ise daha yüksek erişim gerektiren noktalarda geçiyor. Bu durumda tek bir yükseklik sınıfından birden fazla makine kiralamak yerine, farklı yükseklik sınıflarından karma bir filo kurmak, her işe en uygun makinenin gönderilmesini sağlar ve gereksiz kapasite fazlasını önler.",
+            },
+            {
+                baslik: "Vardiya sistemi olan işletmelerde filo planlaması",
+                metin:
+                    "Çok vardiyalı çalışan işletmelerde makine bir vardiyadan diğerine devredilebiliyorsa tek makine yeterli olabilir; ancak vardiyalar arasında bakım veya şarj için ayrılan süre varsa ve bu süre iş akışını kesiyorsa, ikinci bir makine bu boşluğu kapatır. Bu kararı vardiya geçiş sürelerinizi öğrenerek birlikte netleştiriyoruz.",
+            },
+            {
+                baslik: "Sezonluk yoğunlukta geçici filo büyütme",
+                metin:
+                    "Yıl boyunca tek makineyle idare eden ama belirli dönemlerde iş yükü katlanan işletmeler için, filoyu kalıcı olarak büyütmek yerine sezonluk ek kiralamayla geçici olarak genişletmeyi öneriyoruz. Bu, yoğun dönemin dışında atıl kapasite taşımanızı önler ve filo büyüklüğü kararını esnek tutar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Filo büyüklüğü karar çerçevesi",
+                paragraflar: [
+                    "Aşağıdaki tablo, işletme profiline göre önerdiğimiz filo büyüklüğü yaklaşımını özetliyor; kesin sayı her zaman sahadaki gerçek veriyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["İşletme profili", "Eşzamanlı iş", "Doluluk oranı", "Önerilen yaklaşım"],
+                    satirlar: [
+                        ["Tek saha, düzensiz kullanım", "1", "Düşük", "Tek makine, ihtiyaç anında kiralama"],
+                        ["Tek saha, yoğun sürekli iş", "1", "Yüksek", "Tek makine + yedek makine opsiyonu"],
+                        ["Çok saha, eşzamanlı iş", "2+", "Orta-yüksek", "Küçük filo (2-3 makine)"],
+                        ["Karma yükseklik ihtiyacı", "Değişken", "Orta", "Karma filo: farklı yükseklik sınıfları"],
+                        ["Sezonluk yoğunluk", "Değişken", "Dönemsel", "Temel filo + sezonluk ek kiralama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Başabaş noktası hesabında dikkate aldığımız kalemler",
+                paragraflar: [
+                    "İkinci bir makinenin kiralanmasının mantıklı olup olmadığını değerlendirirken üç kalemi birlikte tartıyoruz: ek makinenin kira bedeli, mevcut makinenin doluluk oranından kaynaklanan bekleme kaybı ve işin gecikmesinin işletmeye olan dolaylı maliyeti (örneğin bir montaj işinin ertelenmesi). Bekleme kaybı ve dolaylı maliyet toplamı, ek kira bedelini aştığında ikinci makine genellikle kendini haklı çıkarır.",
+                    "Bu hesabı tek seferlik değil, işletmenin tipik bir ayını temsil eden bir dönem üzerinden yapıyoruz; tek bir yoğun haftaya bakarak filo büyütme kararı vermek, sonraki sakin dönemde atıl kapasiteye yol açabilir.",
+                ],
+            },
+            {
+                baslik: "Filo kararını gözden geçirme sıklığı",
+                paragraflar: [
+                    "İlk filo büyüklüğü kararı genellikle tahmine dayalı kurulur; biz bu kararı birkaç haftalık gerçek kullanım verisiyle birlikte gözden geçirmeyi öneriyoruz. Doluluk oranı beklenenin altında kalırsa filo küçültülür, üzerinde kalırsa ek makine değerlendirilir — bu, filoyu statik değil, kullanım verisine göre ayarlanan dinamik bir yapı olarak ele almamızı sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Kaç makine kiralamam gerektiğini nasıl anlarım?",
+                cevap:
+                    "Bunu tek bir kuralla değil, eşzamanlı iş sayınız ve mevcut makinenin doluluk oranıyla birlikte değerlendiriyoruz. Aynı gün içinde birden fazla noktada yüksekte çalışma ihtiyacınız düzenli olarak oluşuyorsa ve bir makine haftanın büyük bölümünde sürekli meşgulse, ikinci bir makine genellikle kendini kısa sürede haklı çıkarır. Kesin sayıyı belirlemek için birkaç haftalık kullanım verinizi birlikte gözden geçirmenizi öneririz.",
+            },
+            {
+                soru: "Başabaş noktası derken tam olarak neyi kastediyorsunuz?",
+                cevap:
+                    "Başabaş noktası, ek bir makinenin kira bedelinin, o makine olmadan yaşanan bekleme kaybı ve iş gecikmesinin dolaylı maliyetine eşitlendiği nokta. Bu noktanın altında tek makineyle devam etmek daha ekonomikken, üzerinde ikinci makine kiralamak toplam maliyeti düşürüyor. Kesin bir gün veya saat sayısı vermek yerine, bu hesabı işletmenizin kendi verileriyle birlikte kuruyoruz.",
+            },
+            {
+                soru: "Karma filo kurmak tek yükseklik sınıfından birden fazla makine kiralamaktan neden daha mantıklı olabilir?",
+                cevap:
+                    "İşleriniz farklı çalışma yüksekliklerinde geçiyorsa, tek bir yükseklik sınıfından birden fazla makine kiralamak bazı işlerde gereğinden fazla, bazılarında ise yetersiz kapasite anlamına gelebilir. Karma filo, her işe en uygun makinenin gönderilmesini sağlayarak hem gereksiz kapasite fazlasını önler hem de düşük yükseklik işlerinde daha kompakt makinelerin sahaya girmesini kolaylaştırır.",
+            },
+            {
+                soru: "Sezonluk yoğunlukta filoyu geçici mi büyütmeliyim, kalıcı mı?",
+                cevap:
+                    "Yoğunluk yılın belirli dönemlerinde tekrar ediyorsa, filoyu kalıcı olarak büyütmek yerine o dönemler için sezonluk ek kiralama yapmanızı öneriyoruz. Bu yaklaşım, yoğun dönemin dışında atıl kapasite taşımanızı önler ve filo büyüklüğü kararınızı esnek tutar; sezonluk desen birkaç yıl boyunca tutarlı kalırsa, o zaman kalıcı büyütmeyi yeniden değerlendirebiliriz.",
+            },
+            {
+                soru: "Vardiya sistemimiz var, tek makine yeterli mi olur?",
+                cevap:
+                    "Bu, vardiyalar arasında makinenin devredilip devredilemediğine bağlı. Makine bir vardiyadan diğerine kesintisiz geçebiliyorsa tek makine genellikle yeterlidir; ancak vardiyalar arasında bakım veya şarj için ayrılan bir süre varsa ve bu süre iş akışını düzenli olarak kesiyorsa, ikinci bir makine bu boşluğu kapatarak toplam verimliliği artırır.",
+            },
+            {
+                soru: "Filo kararını verdikten sonra bu kararı değiştirebilir miyiz?",
+                cevap:
+                    "Evet, ilk filo büyüklüğü kararını genellikle tahmine dayalı kuruyoruz ve birkaç haftalık gerçek kullanım verisiyle birlikte gözden geçirilmesini öneriyoruz. Doluluk oranı beklenenin altında kalırsa filoyu küçültmek, üzerinde kalırsa ek makine eklemek mümkün; filoyu sabit değil, kullanım verisine göre ayarlanan dinamik bir yapı olarak ele alıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Filo büyüklüğü ve başabaş noktası mantığı genel işletme/operasyon planlaması bilgisidir; kesin sayı ve rakam uydurulmamıştır. Marka/model adı kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama: Akülü Makaslı Dışındaki Sınıflarda Satın Alma Neden Daha Zor Amorti Olur",
+        giris:
+            "Manlift, sahada tek bir makine türünü değil; makaslı, eklemli (artikülasyonlu), teleskopik ve sepetli/örümcek gibi birbirinden farklı erişim özelliklerine sahip birçok sınıfı kapsayan şemsiye bir terim. Biz akülü makaslı platform konusunda satış perspektifini de değerlendirirken, diğer manlift sınıflarında durumun farklı işlediğini görüyoruz: eklemli ve teleskopik platformlar genellikle daha yüksek çalışma yüksekliğine, daha güçlü motor sistemine ve daha karmaşık hidrolik-mekanik yapıya sahip olduğu için ilk yatırım maliyeti akülü makaslıya göre belirgin şekilde daha yüksek bir seviyede kalıyor. Bu maliyet farkı, satın alma kararının kendini amorti etmesi için gereken kullanım yoğunluğu eşiğini de yukarı çekiyor — yani bir işletmenin bu sınıfları satın alarak kâr etmesi için, akülü makaslıya göre çok daha sık ve düzenli kullanması gerekiyor. Gerçekte ise eklemli/teleskopik/örümcek sınıflarına duyulan ihtiyaç, çoğu işletmede akülü makaslıya göre daha seyrek ve daha proje bazlı ortaya çıkıyor (örneğin belirli bir cephe işi, özel bir montaj ya da dar bir erişim noktası); bu iki eğilim bir araya gelince, bu sınıflarda kiralama çoğu işletme için satın almadan daha mantıklı bir seçenek olarak öne çıkıyor. Bu sayfada bu dengeyi ve manlift kiralama kararını nasıl değerlendirdiğimizi anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Eklemli ve teleskopik sınıfların ilk yatırım maliyeti neden daha yüksek",
+                metin:
+                    "Eklemli ve teleskopik platformlar, akülü makaslıya göre daha uzun kol mekanizması, daha güçlü tahrik sistemi ve arazi koşullarına uygun daha sağlam bir şase gerektirir. Bu ek mekanik karmaşıklık, üretim ve bakım maliyetini yukarı çeker ve bu maliyet doğrudan satın alma bedeline yansır. Sonuç olarak bu sınıflardaki bir makinenin kendini amorti etmesi için gereken kullanım yoğunluğu, akülü makaslıya göre daha yüksek bir eşikte oluşur.",
+            },
+            {
+                baslik: "Kullanım sıklığı neden bu sınıflarda genelde daha düşük",
+                metin:
+                    "Akülü makaslı platform, iç mekan bakım ve montaj gibi tekrarlayan günlük işlerde sıkça kullanılırken; eklemli, teleskopik ve örümcek sınıfları genellikle belirli bir projeye özgü, dar erişimli veya yüksek irtifa gerektiren spesifik işler için devreye girer. Bu işler bir işletmenin günlük rutini değil, dönemsel veya proje bazlı ihtiyaçları olduğu için, bu sınıfların yıllık kullanım günü akülü makaslıya göre genellikle daha düşük kalır.",
+            },
+            {
+                baslik: "Yüksek maliyet + düşük kullanım: ROI eşiğinin yukarı çekilmesi",
+                metin:
+                    "Bir makinenin satın alınmasının mantıklı olması için, kullanım yoğunluğunun makinenin maliyetini belirli bir sürede karşılaması gerekir. Eklemli/teleskopik/örümcek sınıflarında hem ilk maliyet daha yüksek hem de tipik kullanım sıklığı daha düşük olduğundan, bu iki etken birleşerek satın almanın kendini amorti etmesi için gereken eşiği önemli ölçüde yukarı taşır. Bu eşiğe ulaşan işletme sayısı, akülü makaslıya göre daha azdır.",
+            },
+            {
+                baslik: "Proje bazlı ihtiyaçlarda kiralamanın esneklik avantajı",
+                metin:
+                    "Bir işletmenin yıl içinde birkaç kez, her seferinde farklı bir erişim özelliği (bazen dar bir avlu, bazen yüksek bir cephe) gerektiren işleri varsa, tek bir manlift sınıfını satın almak bu çeşitliliği karşılamaya yetmez. Kiralama, her işe en uygun sınıfı seçme esnekliği sunar; bu esneklik, tek bir makineye kilitlenmenin getirdiği kısıtı ortadan kaldırır.",
+            },
+            {
+                baslik: "İstisna: sürekli ve tekrarlayan yüksek irtifa ihtiyacı olan işletmeler",
+                metin:
+                    "Bu genel eğilimin istisnası, belirli bir eklemli veya teleskopik sınıfı düzenli ve sık aralıklarla kullanan işletmelerdir — örneğin sürekli yüksek yapı bakımı yapan bir işletme. Bu profildeki işletmeler için satın alma yine de değerlendirilebilir bir seçenektir, ancak bu profil manlift kullanıcılarının genelini değil, azınlığını temsil eder.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Manlift sınıflarına göre satın alma-kiralama eğilimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, manlift şemsiyesi altındaki sınıfların tipik maliyet ve kullanım profiline göre genel eğilimi özetliyor; kesin karar her işletmenin kendi verisiyle netleşir.",
+                ],
+                tablo: {
+                    basliklar: ["Sınıf", "İlk yatırım seviyesi", "Tipik kullanım sıklığı", "Genel eğilim"],
+                    satirlar: [
+                        ["Akülü makaslı", "Görece düşük", "Sık, düzenli (iç mekan)", "Yoğun kullanımda satın alma değerlendirilebilir"],
+                        ["Eklemli (artikülasyonlu)", "Yüksek", "Proje bazlı, seyrek", "Çoğunlukla kiralama"],
+                        ["Teleskopik", "Yüksek", "Proje bazlı, seyrek", "Çoğunlukla kiralama"],
+                        ["Sepetli / örümcek", "Yüksek (karmaşık mekanik)", "Dar alan, proje bazlı", "Çoğunlukla kiralama"],
+                    ],
+                },
+            },
+            {
+                baslik: "Bu sınıflarda ROI hesabını nasıl kuruyoruz",
+                paragraflar: [
+                    "Eklemli, teleskopik veya örümcek sınıfı için satın alma sorulduğunda, önce işletmenin bu sınıfı yıl içinde kaç gün ve ne sıklıkla kullandığını netleştiriyoruz. Bu veri, akülü makaslıya göre daha yüksek olan ilk yatırım ve bakım maliyetiyle karşılaştırılıyor; kullanım sıklığı bu yüksek eşiği karşılamıyorsa kiralamayı öneriyoruz, karşılıyorsa satın almayı değerlendirmeye alıyoruz.",
+                    "Bu hesap tek seferlik bir projeksiyon değil; işletmenin geçmiş yıllardaki kullanım deseni varsa onu, yoksa ilk kiralama dönemindeki gerçek kullanım verisini temel alarak kuruyoruz.",
+                ],
+            },
+            {
+                baslik: "Farklı sınıflar arasında geçiş esnekliği",
+                paragraflar: [
+                    "Bir işin ortasında ihtiyaç duyulan erişim özelliğinin değiştiği (örneğin planlanan eklemli platform yerine dar bir noktaya girmek için örümcek platform gerektiği) durumlarda, kiralama modeli bu geçişi satın almaya göre çok daha hızlı ve maliyetsiz şekilde mümkün kılar. Bu esneklik, özellikle birden fazla manlift sınıfına ihtiyaç duyan işletmeler için kiralamayı öne çıkaran bir başka etkendir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Neden eklemli/teleskopik platformların satın alma maliyeti akülü makaslıdan daha yüksek?",
+                cevap:
+                    "Eklemli ve teleskopik platformlar, daha uzun kol mekanizması, daha güçlü tahrik sistemi ve arazi koşullarına uygun daha sağlam bir şase gerektirir. Bu ek mekanik karmaşıklık üretim ve bakım maliyetini yukarı çeker ve bu doğrudan satın alma bedeline yansır. Kesin bir rakam vermek yerine, bu genel mekanik farkın maliyet üzerindeki etkisini anlatıyoruz; net teklif, ihtiyaç duyduğunuz spesifik sınıf ve kapasiteye göre oluşturulur.",
+            },
+            {
+                soru: "Manlift şemsiyesi altındaki tüm sınıflar için mi kiralamayı öneriyorsunuz?",
+                cevap:
+                    "Hayır, genel eğilim eklemli/teleskopik/örümcek sınıflarında kiralamanın daha mantıklı olduğu yönünde, çünkü bu sınıflarda hem ilk maliyet daha yüksek hem de tipik kullanım sıklığı daha düşük. Ancak belirli bir sınıfı düzenli ve sık aralıklarla kullanan işletmeler için satın alma yine de değerlendirilebilir bir seçenek; bu kararı işletmenizin kendi kullanım verisiyle birlikte netleştiriyoruz.",
+            },
+            {
+                soru: "Aynı işte birden fazla manlift sınıfına ihtiyaç duyarsak ne yapmalıyız?",
+                cevap:
+                    "Bir işin farklı aşamalarında farklı erişim özellikleri gerekebiliyorsa (örneğin bir aşamada geniş açık alan, başka bir aşamada dar bir avlu), kiralama modeli bu sınıflar arasında geçişi satın almaya göre çok daha hızlı ve maliyetsiz şekilde mümkün kılar. Bu tür işlerde tek bir sınıfa satın alma yoluyla kilitlenmek yerine, ihtiyaca göre sınıf değiştirebilen kiralamayı öneriyoruz.",
+            },
+            {
+                soru: "Akülü makaslı platform için satın alma mantıklıyken, eklemli için neden aynı mantık işlemiyor?",
+                cevap:
+                    "Akülü makaslı platform görece düşük maliyetli ve sıklıkla tekrarlayan iç mekan işlerinde kullanılıyor, bu da satın almanın amortisman eşiğine ulaşmasını kolaylaştırıyor. Eklemli platformlar ise hem daha yüksek maliyetli hem de tipik olarak daha seyrek, proje bazlı kullanılıyor; bu iki fark birleşince amortisman eşiği çok daha yükseğe çıkıyor ve çoğu işletme bu eşiğe ulaşamıyor. Bu yüzden sınıfa göre farklı bir öneri sunuyoruz.",
+            },
+            {
+                soru: "Sürekli yüksek irtifa işi yapan bir işletmeyiz, yine de kiralama mı önerirsiniz?",
+                cevap:
+                    "Hayır, bu profil genel eğilimin istisnası. Belirli bir eklemli veya teleskopik sınıfı düzenli ve sık aralıklarla kullanan işletmeler için satın alma anlamlı bir seçenek olabilir; bu durumda sizinle birlikte kullanım geçmişinizi ve maliyet karşılaştırmasını değerlendirip somut bir öneri sunuyoruz.",
+            },
+            {
+                soru: "Manlift kiralama sürecinde hangi sınıfı seçeceğimizi nasıl belirliyoruz?",
+                cevap:
+                    "Öncelikle işin erişim gereksinimini (çalışma yüksekliği, dar alan geçişi, zemin koşulu) netleştiriyoruz; bu bilgiler doğrudan hangi manlift sınıfının uygun olduğunu belirliyor. Birden fazla sınıf uygun görünüyorsa, işin süresi ve tekrar sıklığına göre en ekonomik seçeneği birlikte değerlendiriyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Manlift sınıfları arasındaki mekanik karmaşıklık ve maliyet farkı, kullanım sıklığı eğilimi genel sektör bilgisidir; rakam uydurulmamış, marka/model adı kullanılmamıştır.",
+    },
 };

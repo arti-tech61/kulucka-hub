@@ -1845,4 +1845,198 @@ export const MUGLAPLATFORM_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Havza stok sahaları ve zeytin bahçesi toprak yollarının genel zemin karakteri kamuya açık bilgidir; yük dağıtıcı plaka ve eğim değerlendirme yöntemi firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Yatağan-Milas Sanayi Hattında Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, Yatağan-Milas sanayi hattındaki işlerin büyük kısmında ilk akla gelen sınıftır; sebebi karmaşık değil — santral yardımcı binalarının, transfer kulelerinin ve zeytin işleme tesislerinin çoğu düz, sağlam zeminli ve tavan/çatı yapısı belirli bir yükseklikte sabit alanlardır, tam da makaslı platformun en verimli çalıştığı koşuldur. Bant konveyörlerinin üst galerilerinde aydınlatma değişimi, kazan dairesi çatı altı boru hattı bakımı, zeytinyağı fabrikası üretim salonunda tavan vinç rayı kontrolü gibi işlerin ortak noktası, makinenin bir noktadan diğerine yatayca kayarak geniş bir tavan alanını taraması gerektiğidir — bu da makaslı platformun eklemli/teleskopik bomlara göre üstün olduğu senaryodur, çünkü sepet her yükseklikte geniş kalır ve operatör dar bir sepette değil rahat bir platformda çalışır. Bölgedeki tesislerin bir kısmı dizel yakıt kullanımına kapalı iç mekanlar (üretim salonları, kapalı depo alanları) olduğundan akülü modeller standart tercih; açık saha ve stok alanı işlerinde ise dizel veya arazi tipi tekerlekli makaslı modeller devreye girer. Bu sayfa, hattaki makaslı platform taleplerinin sınıf seçimini, zemin ve erişim kriterlerini ve tipik kullanım senaryolarını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Kapalı üretim salonu ve akülü zorunluluğu",
+                metin:
+                    "Zeytinyağı fabrikaları ve santral yardımcı bina iç mekanlarında dizel egzoz emisyonu kabul edilmez; bu alanlarda akülü makaslı platform standarttır. Akülü modellerin çalışma süresi vardiya uzunluğuna göre planlanmalı, uzun vardiyalarda şarj noktası veya yedek akü ihtiyacı önceden belirlenmelidir.",
+            },
+            {
+                baslik: "Transfer kulesi ve galeri içi dar geçitler",
+                metin:
+                    "Bant konveyörlerinin transfer kuleleri ve üst galerileri genellikle dar merdiven ve kapı geçitleriyle erişilir; standart geniş şaseli bir makaslı platform bu geçitlerden giremeyebilir. Bu tür işlerde dar şaseli (yaklaşık 80 cm) modeller tercih edilir, kapı ve koridor ölçüleri teklif öncesi netleştirilir.",
+            },
+            {
+                baslik: "Açık stok sahasında arazi tipi tercih",
+                metin:
+                    "Linyit stok sahası çevresi veya zeytin işleme tesisinin açık yükleme alanı gibi düz olmayan, bazen çakıl-toprak karışık zeminlerde standart elektrikli makaslı yerine dört çeker arazi tipi (rough terrain) dizel makaslı platform kullanılır; bu modeller daha büyük tekerlek ve süspansiyona sahiptir.",
+            },
+            {
+                baslik: "Tavan yüksekliği ve sepet erişim hesabı",
+                metin:
+                    "Kazan dairesi ve üretim salonlarında tavan yüksekliği 6 ile 14 metre arasında değişebilir; sepet tabanının hedefin yaklaşık 1,8-2 metre altında kaldığı hesaplanarak sınıf seçilir. Boru hattı veya kablo tavası gibi hedefe yatay mesafe varsa, makaslı platformun sepet genişletme (slide-out) özelliği olan modelleri değerlendirilir.",
+            },
+            {
+                baslik: "Vardiya ve üretim durdurma penceresi",
+                metin:
+                    "Üretim sürekliliği olan santral ve fabrika alanlarında makaslı platform işi genellikle planlı bakım penceresine veya vardiya arası boşluğa sıkıştırılır; bu yüzden makinenin sahada hazır ve test edilmiş olması, işin başlama saatinde gecikme yaşanmaması önemlidir. Teslimat saati üretim programıyla birlikte planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Alan tipine göre makaslı platform sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, hattaki tipik alan tiplerine göre uygun makaslı platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Zemin", "Güç tipi", "Şase özelliği"],
+                    satirlar: [
+                        ["Üretim salonu / kapalı depo", "Beton, düz", "Akülü", "Standart veya dar şase"],
+                        ["Transfer kulesi galerisi", "Beton, dar geçit", "Akülü", "Dar şase (~80 cm)"],
+                        ["Kazan dairesi / bina içi", "Beton, düz", "Akülü", "Standart"],
+                        ["Açık stok sahası", "Toprak/çakıl karışık", "Dizel, arazi tipi", "Geniş tekerlek"],
+                        ["Yükleme rampası çevresi", "Beton, kot farklı", "Akülü veya dizel", "Çukur önleme sistemi"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar geçit ve kapı ölçüsü kontrolü",
+                paragraflar: [
+                    "Sanayi tesislerinde makaslı platform talebi geldiğinde ilk sorduğumuz sorulardan biri geçilecek kapı ve koridor genişliğidir; bir platformun teknik özellik tablosundaki şase genişliği bu ölçüyle karşılaştırılmadan sahaya makine gönderilmez. Bu, özellikle transfer kuleleri ve eski bina galerileri gibi dar iç mekanlarda kritik hale gelir.",
+                    "Ölçü net değilse, sahaya gitmeden önce fotoğraf veya rakamla teyit istiyoruz; belirsizlikle gelen makine sahada geçemeyebilir ve iş günü kaybına yol açar.",
+                ],
+            },
+            {
+                baslik: "Planlı duruş dönemlerinde talep artışı",
+                paragraflar: [
+                    "Santral ve fabrika tesislerinde planlı bakım/duruş dönemlerinde makaslı platform talebi kısa sürede yoğunlaşabilir; bu dönemlerde birden fazla makine aynı anda farklı bina veya galerilerde çalışabilir. Böyle dönemlerde makine sayısı ve teslimat sırası önceden planlanmalı, son dakika talebi mümkün olduğunca azaltılmalıdır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üretim salonumuzda dizel makine kullanabilir miyiz?",
+                cevap:
+                    "Kapalı üretim salonlarında egzoz emisyonu nedeniyle dizel makaslı platform genellikle kabul edilmez; akülü modeller standart tercihtir. Havalandırması iyi, geçici olarak açık kapı ile çalışılan bir alan söz konusuysa istisna değerlendirilebilir, ancak bu karar sahanın havalandırma durumuna göre önceden netleştirilir.",
+            },
+            {
+                soru: "Transfer kulesi merdiveninden makine geçer mi?",
+                cevap:
+                    "Bu tamamen kulenin kapı ve merdiven boşluğu ölçüsüne bağlıdır; standart makaslı platformlar genellikle geçmez, dar şaseli (yaklaşık 80 cm) modeller çoğu durumda geçer. Kulenizin geçit ölçüsünü fotoğraf veya rakamla paylaşırsanız, uygun modeli önceden belirleriz.",
+            },
+            {
+                soru: "Açık stok sahasında toprak zeminde makaslı platform çalışır mı?",
+                cevap:
+                    "Standart elektrikli makaslı platformlar düz beton zemin için tasarlanmıştır ve toprak/çakıl zeminde önerilmez; bu tür alanlarda dört çeker arazi tipi dizel makaslı platform kullanılır. Zeminin son durumunu (kuru mu, yağış sonrası mı) bildirirseniz uygun modeli öneririz.",
+            },
+            {
+                soru: "Kazan dairesinde tavan yüksekliği 12 metre, hangi sınıf gerekir?",
+                cevap:
+                    "12 metrelik bir hedef için sepet tabanının hedefin yaklaşık 1,8-2 metre altında kalması hesaplanarak genellikle 14-16 metre çalışma yüksekliğine sahip bir makaslı platform önerilir. Hedefe yatay mesafe de varsa sepet genişletmeli (slide-out) bir model değerlendirilir; tam ölçüyü bildirirseniz net sınıfı söyleriz.",
+            },
+            {
+                soru: "Planlı duruş döneminde aynı anda birden fazla makine kiralayabilir miyiz?",
+                cevap:
+                    "Evet, planlı bakım dönemlerinde farklı bina veya galerilerde eş zamanlı çalışacak birden fazla makaslı platform tedarik edebiliyoruz; ancak talep bu dönemlerde yoğunlaştığından, makine sayısı ve teslimat sırasını mümkün olduğunca önceden planlamanızı öneririz.",
+            },
+            {
+                soru: "Zeytinyağı fabrikasında üretim salonunun zemini kaygan olabiliyor, sorun olur mu?",
+                cevap:
+                    "Kaygan veya yağlı zemin makaslı platformun tekerlek tutuşunu etkileyebilir; bu durumda zeminin temizlenmesi veya makinenin daha düşük hızda, dikkatli konumlandırılması gerekir. Zeminde bilinen bir kayganlık sorunu varsa çalışma öncesi bildirilmesi, operatörün önlem almasını sağlar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Yatağan-Milas hattındaki tesis tipleri (santral yardımcı bina, transfer kulesi, zeytinyağı fabrikası) ve dizel/akülü kullanım kısıtı kamuya açık genel bilgidir; sınıf seçim yöntemi firma pratiğidir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Milas-Yatağan Hattında Manlift Kiralama — Baca, Soğutma Kulesi ve Bant Hattı Erişimi",
+        giris:
+            "Manlift terimini bölgedeki sanayi işletmelerinin çoğu, düz ve engelsiz bir hedefe uzanan her tür yükseklik makinesi için kullanır, ama teknik olarak eklemli ve teleskopik bom platformları makaslı platformdan ayıran tek şey uzanma yeteneğidir — hedefe düz yukarı değil, bir engelin üzerinden veya yanından dolanarak ulaşabilme. Milas-Yatağan hattında bu, tam olarak baca gövdesi çevresinde çalışma, soğutma kulesi dolgu panellerine erişim, linyit taşıma bandının üzerinden değil yanından paralel ilerleme veya havalimanı çevresi hangar çatı arası gibi işlerde karşımıza çıkar. Bu işlerin ortak paydası zeminin düz olmaması ya da hedefin bir engelin arkasında/üstünde kalmasıdır; bu yüzden manlift seçiminde önce hedefin yatay ve dikey uzaklığı, sonra zemin tipi (asfalt, stabilize, açık saha) belirlenir ve buna göre teleskopik bom mu yoksa daha esnek eklemli bom mu gerektiği netleşir. Bu sayfa, hattaki tipik manlift senaryolarını — baca/kule cephesi, bant hattı paralel erişimi ve hangar çatı arası — ve sınıf seçim mantığını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Baca gövdesi çevresinde teleskopik bom erişimi",
+                metin:
+                    "Termik santral bacalarının dış cephe bakımı, bacanın etrafında dönerek farklı açılardan yaklaşım gerektirir; bu iş için uzun erişimli teleskopik bom manliftler tercih edilir, çünkü sepet hem yükseğe çıkar hem yatayda belirli bir mesafe öteye uzanabilir. Bacanın çapı ve çalışma açısı önceden değerlendirilerek makinenin konumlandırma noktaları belirlenir.",
+            },
+            {
+                baslik: "Soğutma kulesi dolgu paneli ve eğik yüzey erişimi",
+                metin:
+                    "Soğutma kulelerinin dış yüzeyi genellikle eğik veya kademeli bir geometriye sahiptir; düz bir teleskopik bom her noktaya rahat ulaşamayabilir. Bu durumlarda eklemli bom manliftler, sepeti bir engelin üzerinden geçirip eğik yüzeye yaklaştırma esnekliği sağladığından tercih edilir.",
+            },
+            {
+                baslik: "Bant hattına paralel ilerleme",
+                metin:
+                    "Linyit taşıma bandının üst yapısında yapılan bakım işlerinde manlift bandın üzerine değil yanına, bant hattına paralel bir güzergâh üzerinde ilerler. Bu güzergâhın zemin genişliği ve varsa yan engeller (destek ayakları, kablo hatları) önceden değerlendirilir; dar güzergâhlarda daha kompakt bom sınıfı tercih edilir.",
+            },
+            {
+                baslik: "Havalimanı çevresi hangar ve çatı arası işler",
+                metin:
+                    "Milas havalimanı çevresindeki lojistik ve bakım hangarlarının çatı arası çelik konstrüksiyon işlerinde, çatı makasları arasında dar aralıklarla karşılaşılır; bu tür işlerde dar şaseli eklemli bom veya makaslı-eklemli hibrit çözümler değerlendirilir. Havalimanı çevresi güvenlik prosedürleri nedeniyle giriş-çıkış planlaması ayrıca önceden yapılır.",
+            },
+            {
+                baslik: "Rüzgar ve açık saha çalışma sınırı",
+                metin:
+                    "Baca ve soğutma kulesi gibi yüksek açık saha yapılarında rüzgar hızı, üreticinin belirttiği güvenli çalışma sınırının üzerine çıktığında iş durdurulur. Bu sınır bom uzunluğuna göre değişir; uzun bomlu manliftler kısa bomlulara göre rüzgara karşı daha hassastır. Çalışma tarihine yakın hava tahmini kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Hedef geometrisine göre manlift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, hattaki tipik hedef tiplerine göre uygun manlift sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Hedef / iş", "Erişim zorluğu", "Önerilen bom tipi", "Zemin"],
+                    satirlar: [
+                        ["Baca dış cephesi", "Yükseklik + çevresel dönüş", "Teleskopik bom", "Beton/asfalt saha"],
+                        ["Soğutma kulesi dolgu paneli", "Eğik/kademeli yüzey", "Eklemli bom", "Beton saha"],
+                        ["Bant hattı üst yapısı", "Dar paralel güzergâh", "Kompakt eklemli/teleskopik", "Stabilize yol"],
+                        ["Hangar çatı arası", "Dar çatı makası aralığı", "Dar şaseli eklemli", "Beton zemin"],
+                        ["Açık saha genel yükseklik işi", "Rüzgar etkisi", "Bom uzunluğuna göre", "Açık saha"],
+                    ],
+                },
+            },
+            {
+                baslik: "Hedef mesafesinin önceden ölçülmesi",
+                paragraflar: [
+                    "Manlift teklifinde en kritik bilgi hedefin yatay ve dikey uzaklığıdır; bu iki ölçü olmadan doğru bom uzunluğu ve tip seçimi yapılamaz. Baca ve soğutma kulesi gibi büyük yapılarda bu mesafe genellikle tesis çiziminden veya sahada yapılan basit bir ölçümle netleştirilir.",
+                    "Mesafe bilgisi eksik geldiğinde, sahaya gitmeden önce fotoğraf veya yaklaşık rakam istiyoruz; yanlış ölçüyle gelen bir makine hedefe yetişemeyebilir.",
+                ],
+            },
+            {
+                baslik: "Havalimanı çevresi güvenlik ve giriş planlaması",
+                paragraflar: [
+                    "Milas havalimanı çevresindeki tesislerde araç ve makine girişleri genellikle önceden bildirim ve güvenlik onayı gerektirir; manlift sevkiyatı bu prosedüre uygun olarak planlanır. Giriş onay süresi işin başlama tarihini etkileyebileceği için, bu tür işlerde talebi mümkün olduğunca erken iletmenizi öneririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Baca dış cephesinde hangi tip manlift kullanılır?",
+                cevap:
+                    "Baca çevresinde dönerek farklı açılardan yaklaşım gerektiği için genellikle uzun erişimli teleskopik bom manlift kullanılır. Bacanın çapını ve yaklaşık yüksekliğini bildirirseniz, konumlandırma noktalarını ve uygun bom uzunluğunu önceden hesaplarız.",
+            },
+            {
+                soru: "Soğutma kulesinin eğik yüzeyine teleskopik bom yetişir mi?",
+                cevap:
+                    "Yetişebilir ama her noktaya rahat ulaşamayabilir; eğik veya kademeli yüzeylerde sepeti engelin üzerinden geçirebilen eklemli bom manlift genellikle daha esnek çözüm sunar. Kulenin yüzey geometrisini fotoğrafla paylaşırsanız en uygun tipi öneririz.",
+            },
+            {
+                soru: "Bant hattı üzerinde çalışırken bandı durdurmamız gerekir mi?",
+                cevap:
+                    "Manlift bandın üzerine değil yanına, paralel bir güzergâha konumlanacağından çoğu durumda bandın çalışır durumda kalması mümkündür; ancak güzergâh çok darsa veya bakım işi banda doğrudan temas gerektiriyorsa geçici durdurma gerekebilir. Bu karar iş kapsamına göre sahada netleştirilir.",
+            },
+            {
+                soru: "Hangar çatı arasında makaslı yerine neden eklemli bom öneriyorsunuz?",
+                cevap:
+                    "Çatı makasları arasındaki dar aralıklar düz yukarı hareket eden makaslı platformdan çok, engelin yanından dolanabilen eklemli bomun avantajını öne çıkarır. Çatı makası aralığını ve yüksekliğini bildirirseniz, dar şaseli bir eklemli modelin geçip geçmeyeceğini önceden değerlendiririz.",
+            },
+            {
+                soru: "Rüzgarlı günlerde baca çevresinde manlift çalışabilir mi?",
+                cevap:
+                    "Üreticinin belirttiği rüzgar hızı sınırının altındaysa çalışılabilir; bu sınır bom uzunluğuna göre değişir ve uzun bomlu manliftler rüzgara karşı daha hassastır. Çalışma tarihine yakın hava tahminini kontrol edip, sınır aşılıyorsa erteleme öneririz.",
+            },
+            {
+                soru: "Havalimanı çevresindeki hangar işine giriş için ne kadar önceden bildirim gerekir?",
+                cevap:
+                    "Havalimanı çevresi güvenlik prosedürleri nedeniyle araç/makine girişi genellikle önceden onay gerektirir; bu süre tesisin kendi prosedürüne bağlı olarak değişir. Talebi mümkün olduğunca erken iletmenizi öneririz ki giriş onayı işin başlama tarihini geciktirmesin.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Baca/soğutma kulesi geometrisi, bant hattı yapısı ve havalimanı çevresi güvenlik prosedürü genel kamuya açık bilgidir; bom sınıfı seçim yöntemi firma pratiğidir.",
+    },
 };

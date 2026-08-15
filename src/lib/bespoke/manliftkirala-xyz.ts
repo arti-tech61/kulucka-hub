@@ -1979,4 +1979,198 @@ export const MANLIFTKIRALA_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Denizli'nin sanayi bölgeleri dışındaki kırsal ve arazi sahalarının zemin çeşitliliği kamuya açık coğrafi bilgidir; zemin fotoğrafıyla ön değerlendirme ve tek yetkiliyle randevu teyidi kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Üç Vardiyalı Tekstil Üretiminde Makaslı Platform Kiralama",
+        giris:
+            "Denizli'nin büyük dokuma, örme ve apre tesislerinde üretim genellikle üç vardiya halinde sürer: 07:00-15:00, 15:00-23:00 ve 23:00-07:00. Makaslı platform gerektiren işler — tavan aydınlatma değişimi, havalandırma kanalı temizliği, çatı altı bakım — bu kesintisiz düzende üretim hattını durdurmadan yapılmalı; makinenin salonun ortasına girip bir tezgahın önünde durması, o tezgahta çalışan operatörün işini doğrudan etkiler. Bu yüzden makaslı platform kiralamayı tek başına bir makine teslimi değil, vardiya programına oturan bir iş planı olarak ele alıyoruz: hangi vardiyada hangi bölümün nispeten sakin olduğunu, vardiya devir teslim saatinde kaç dakikalık bir boşluk oluştuğunu ve gece vardiyasında sahada kimin bulunacağını önceden sorarız. Bu sayfada, üç vardiyalı tekstil üretiminde makaslı platform kiralamanın vardiya bazlı planlama, gürültü/vibrasyon kısıtı ve iş emri takibi boyutlarını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Vardiya devir teslim penceresinde çalışma",
+                metin:
+                    "Vardiya değişim saatlerinde (07:00, 15:00, 23:00 civarı) tezgahlar birkaç dakikalığına durur ve salon nispeten boşalır; bu 15-20 dakikalık pencere, makaslı platformun bir tezgah sırasına girip kısa bir müdahale yapması için en uygun zamandır. Uzun süren işler için bu pencere yetmez, bu yüzden işin süresini önceden sorar, tek pencerede bitmeyecekse hangi vardiyanın en düşük üretim yoğunluğuna sahip olduğunu vardiya amirinden öğrenip ona göre planlarız.",
+            },
+            {
+                baslik: "Gece vardiyasında erişim ve gürültü kısıtı",
+                metin:
+                    "23:00-07:00 vardiyasında salon aydınlatması genellikle daha düşük tutulur ve tesiste gündüze göre daha az personel bulunur; bu hem makinenin manevra alanı bulmasını hem de bir sorun çıktığında yardım istemeyi zorlaştırabilir. Gece vardiyasında çalışacaksak, sahada bizi karşılayacak bir yetkilinin adını ve iletişim bilgisini önceden alır, aydınlatmanın yetersiz olduğu bölümler için kendi taşınabilir aydınlatmamızı hazır bulundururuz.",
+            },
+            {
+                baslik: "Vardiya amiriyle randevu koordinasyonu",
+                metin:
+                    "Üç vardiyalı bir tesiste işi onaylayan kişi genellikle vardiyaya göre değişir; gündüz vardiyasında görüştüğümüz yetkili, gece vardiyasında sahada olmayabilir. Bu yüzden randevuyu hangi vardiya amiriyle netleştirdiğimizi kayıt altına alır, iş devredilirse yeni vardiya amirine de aynı bilgiyi (giriş noktası, çalışılacak bölüm, tahmini süre) iletiriz; bu devir bilgisi eksik kalırsa makine sahada beklerken kimse işi onaylayamaz.",
+            },
+            {
+                baslik: "Üretim hattını durdurmadan kapalı mekan çalışması",
+                metin:
+                    "Dokuma ve örme salonlarında tezgah sıraları arası dar olabilir, tavan yüksekliği apre veya boyahane bölümlerine göre değişir. Salonun tavan yüksekliğini ve tezgah aralığını önceden sorar, dar geçitlerde manevra yapabilecek kompakt bir makaslı platform öneririz; aksi halde makine sıraya giremez ve iş, üretim durdurulmadan tamamlanamaz.",
+            },
+            {
+                baslik: "Vardiya bazlı iş emri takibi",
+                metin:
+                    "Bir iş tek vardiyada bitmeyip ikinci vardiyaya sarkarsa, hangi bölümün tamamlandığı, hangi bölümün kaldığı bilgisi bir sonraki vardiyaya sözlü değil yazılı olarak aktarılmalı. Bu yüzden çok bölümlü işlerde basit bir devir notu tutar, ikinci vardiyanın kaldığımız yerden devam etmesini sağlarız; bu, aynı işin baştan tekrar anlatılmasından kaynaklanan zaman kaybını önler.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Vardiyaya göre çalışma uygunluğu",
+                paragraflar: [
+                    "Üç vardiyalı bir tekstil tesisinde makaslı platform işleri için vardiyaya göre uygunluk ve kısıtları aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Vardiya", "Üretim yoğunluğu", "Kısıt", "Önerilen iş tipi"],
+                    satirlar: [
+                        ["07:00-15:00 (gündüz)", "Yüksek", "Tezgah trafiği yoğun", "Kısa, tek pencerelik müdahaleler"],
+                        ["15:00-23:00 (akşam)", "Orta-yüksek", "Vardiya değişimi 23:00'e yakın", "Devir teslim öncesi planlanan işler"],
+                        ["23:00-07:00 (gece)", "Orta", "Düşük aydınlatma, az personel", "Önceden onaylı, yetkili eşliğinde işler"],
+                        ["Vardiya arası (15-20 dk)", "Düşük", "Süre kısıtlı", "Hızlı, tek noktalı müdahaleler"],
+                    ],
+                },
+            },
+            {
+                baslik: "Vardiya amiriyle randevunun netleştirilmesi",
+                paragraflar: [
+                    "Üç vardiyalı tesislerde işi onaylayan kişi vardiyaya göre değiştiği için, randevuyu hangi vardiya amiriyle kurduğumuzu ve hangi vardiyada çalışacağımızı net biçimde kayıt altına alırız.",
+                    "İş bir vardiyada bitmezse, devam eden vardiyanın amirine aynı bilgiyi (bölüm, süre, kalan iş) iletiriz; bu iletişim eksik kalırsa makine sahada onay beklerken durabilir.",
+                ],
+            },
+            {
+                baslik: "Gece vardiyasında aydınlatma ve personel azlığı",
+                paragraflar: [
+                    "Gece vardiyasında salon aydınlatması gündüze göre daha düşük tutulabilir ve tesiste daha az personel bulunur; bu, hem makinenin manevra alanını görmesini hem de bir sorunla karşılaşıldığında hızlı yardım almayı zorlaştırabilir.",
+                    "Bu koşullara karşı, gece vardiyasında çalışacağımız işlerde taşınabilir aydınlatma hazır bulundurur, sahada bizi karşılayacak yetkilinin iletişim bilgisini önceden alırız.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Üç vardiyalı bir tesiste hangi vardiyada çalışmanızı önerirsiniz?",
+                cevap:
+                    "Kesin bir kural yok; bunu işin süresine ve tesisin hangi vardiyada nispeten daha az yoğun olduğuna göre belirleriz. Kısa, tek pencerelik işler için vardiya devir teslim saatindeki 15-20 dakikalık boşluk yeterli olabilir; uzun süren işler için vardiya amirinden en düşük üretim yoğunluğuna sahip vardiyayı sorar, ona göre planlarız.",
+            },
+            {
+                soru: "Gece vardiyasında çalışmak ek bir ücret ya da koşul gerektirir mi?",
+                cevap:
+                    "Gece vardiyasında çalışmak, aydınlatma ve personel azlığı nedeniyle bazı ek hazırlıklar gerektirebilir — taşınabilir aydınlatma, sahada bizi karşılayacak bir yetkilinin belirlenmesi gibi. Bu hazırlıkları talep aşamasında konuşur, gerekiyorsa önceden planlarız; sürpriz bir ek ücretle karşılaşmamanız için bu detayları teklif aşamasında netleştiririz.",
+            },
+            {
+                soru: "İşimiz tek vardiyada bitmezse ne olur?",
+                cevap:
+                    "İş devam eden vardiyaya sarkarsa, hangi bölümün tamamlandığı ve hangi bölümün kaldığı bilgisini bir devir notuyla bir sonraki vardiyaya aktarırız; böylece yeni vardiya, işi baştan anlatmaya gerek kalmadan kaldığımız yerden devam edebilir. Bu devir bilgisinin eksik kalması, hem zaman kaybına hem de aynı işin iki kez anlatılmasına yol açar.",
+            },
+            {
+                soru: "Salonumuzda tezgah sıraları dar, makine buraya girebilir mi?",
+                cevap:
+                    "Çoğu zaman evet, ama tavan yüksekliğini ve tezgah aralığını önceden bilmemiz gerekir. Dar geçitlerde manevra yapabilecek kompakt bir makaslı platform öneririz; ölçüler aşırı darsa bunu size baştan söyler, alternatif bir makine sınıfı ya da farklı bir erişim noktası öneririz.",
+            },
+            {
+                soru: "Vardiya amiri değişirse randevu bilgisi kaybolur mu?",
+                cevap:
+                    "Kaybolmaması için randevuyu hangi vardiya amiriyle kurduğumuzu kayıt altına alır, iş bir sonraki vardiyaya sarkarsa aynı bilgiyi yeni amire de iletiriz. Bu iletişim adımını atlamak, makinenin sahada onay beklerken durmasına neden olabilir; bu yüzden bu adımı her zaman uygularız.",
+            },
+            {
+                soru: "Vardiya değişim saatinde makine üretim alanına engel olur mu?",
+                cevap:
+                    "Amacımız tam tersi — vardiya değişim penceresini, salonun zaten nispeten boşaldığı bir zaman dilimi olarak kullanmak. Bu pencere dışında, örneğin gündüz vardiyasının en yoğun saatinde çalışmak istemeyiz; işin süresine göre en uygun pencereyi vardiya amiriyle birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-15. Denizli tekstil sanayisinin üç vardiyalı çalışma düzeni (07:00-15:00 / 15:00-23:00 / 23:00-07:00) ve vardiya devir teslim uygulaması kamuya açık iş güvenliği ve sektörel bilgidir. Vardiya amiriyle randevu koordinasyonu ve devir notu tutma kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Mermer Ocağı ve Fabrikasında Vardiya Planlı Manlift Kiralama",
+        giris:
+            "Denizli'nin mermer ocak ve fabrikalarında çalışma düzeni tekstildeki üç vardiyadan farklıdır: çoğu tesis gündüz ağırlıklı tek uzun vardiya (07:00-19:00 gibi) ya da gündüz/gece olmak üzere iki vardiya halinde çalışır. Manlift gerektiren işler — blok istif alanlarında yükseklik erişimi, kesim tesisi çatı ve aydınlatma bakımı, açık saha cephe işleri — açık havada, forklift ve vinç trafiğinin yoğun olduğu bir sahada yapılır. Bu koşullar tekstil salonlarındaki kapalı mekan planlamasından farklı bir dikkat gerektirir: gündüz vardiyasında forklift ve blok taşıma trafiğiyle çakışmamak, gece vardiyası varsa yetersiz aydınlatmaya karşı önlem almak, mermer tozunun zemin ve makine üzerindeki etkisini hesaba katmak. Bu sayfada, mermer ocağı ve fabrikasında manlift kiralamanın vardiya bazlı saha trafiği, gece aydınlatması ve toz/zemin koşulları boyutlarını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Gündüz vardiyasında forklift ve blok taşıma trafiğiyle koordinasyon",
+                metin:
+                    "Mermer ocağı ve fabrikasında gündüz vardiyası, blok taşıma, forklift ve vinç hareketinin en yoğun olduğu dönemdir. Manliftin bu trafiğin kesiştiği bir güzergahta durması hem kendi manevrasını hem de blok taşıma işini yavaşlatabilir. Bu yüzden çalışacağımız noktayı ve saat aralığını, sahadaki forklift/vinç trafiğinin nispeten azaldığı bir zaman dilimine denk getirmeye çalışır, bunu saha yetkilisiyle önceden netleştiririz.",
+            },
+            {
+                baslik: "Gece vardiyasında aydınlatma ve görüş koşulları",
+                metin:
+                    "Gece vardiyası uygulayan tesislerde saha aydınlatması, gündüze göre sınırlı olabilir; bu, hem manliftin yükseklik erişimi sırasında zemin ve çevre görüşünü hem de operatörün blok yığınlarına olan mesafeyi doğru değerlendirmesini etkiler. Gece çalışacağımız işlerde saha aydınlatmasının yeterliliğini önceden sorar, gerekiyorsa kendi taşınabilir aydınlatmamızı hazırlarız.",
+            },
+            {
+                baslik: "Vardiyalar arası geçiş penceresinde sevkiyat",
+                metin:
+                    "İki vardiyalı çalışan tesislerde gündüz ve gece vardiyası arasındaki geçiş, genellikle kısa bir teslim-devir süresine sıkışır. Manlift sevkiyatını bu dar pencereye değil, vardiyanın başında ya da saha trafiğinin göreli sakin olduğu bir saate planlarız; aksi halde makine, vardiya değişiminin karmaşasında sahaya giriş için beklemek zorunda kalabilir.",
+            },
+            {
+                baslik: "Mermer tozu ve zemin kayganlığının etkisi",
+                metin:
+                    "Kesim ve işleme alanlarına yakın sahalarda mermer tozu, özellikle nemli havada zemini kayganlaştırabilir; bu durum manliftin destek ayaklarının sağlam basmasını ve tekerlek tutuşunu etkileyebilir. Toz yoğun bir bölgede çalışacaksak, zemin durumunu önceden sorar, gerekirse zemin temizliği ya da destek plakası talep ederiz.",
+            },
+            {
+                baslik: "Açık sahada hava koşullarının vardiya planlamasına etkisi",
+                metin:
+                    "Açık saha bir mermer ocağında rüzgar, yağış gibi hava koşulları, kapalı bir tekstil salonundan farklı olarak doğrudan çalışma güvenliğini etkiler. Özellikle yüksek rüzgarda manlift kullanımı riskli hale gelebilir; bu yüzden hava durumu elverişsizse, hangi vardiyada koşulların düzeleceğini saha yetkilisiyle birlikte değerlendirir, işi gerekirse erteleriz.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Vardiyaya göre saha koşulları",
+                paragraflar: [
+                    "Mermer ocağı ve fabrikasında gündüz ve gece vardiyalarının manlift çalışması açısından farklı koşullarını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Vardiya", "Işık durumu", "Saha trafiği", "Önerilen önlem"],
+                    satirlar: [
+                        ["Gündüz (07:00-19:00 civarı)", "Doğal ışık, yeterli", "Forklift/vinç yoğun", "Trafiğin azaldığı saat dilimini seçmek"],
+                        ["Gece (varsa)", "Sınırlı, tesis aydınlatmasına bağlı", "Düşük-orta", "Taşınabilir aydınlatma hazır bulundurmak"],
+                        ["Vardiya geçiş penceresi", "Değişken", "Yoğun, kısa süreli", "Sevkiyatı bu pencereye denk getirmemek"],
+                        ["Yağışlı/rüzgarlı gün", "Doğal ışık düşük", "Trafiğe bağlı", "İşi ertelemek ya da rüzgar geçene kadar beklemek"],
+                    ],
+                },
+            },
+            {
+                baslik: "Blok taşıma trafiğiyle çakışmayan randevu",
+                paragraflar: [
+                    "Gündüz vardiyasında blok taşıma ve forklift hareketi sahanın büyük bölümünü işgal edebilir; manliftin bu trafikle aynı anda aynı güzergahta olması hem kendi işimizi hem de saha operasyonunu yavaşlatır.",
+                    "Bu nedenle çalışma noktamızı ve saatimizi saha yetkilisiyle önceden konuşur, trafiğin nispeten sakinleştiği bir dilimi tercih ederiz; bu koordinasyon, hem sevkiyat süresini kısaltır hem de sahadaki diğer ekiplerin işini aksatmaz.",
+                ],
+            },
+            {
+                baslik: "Toz ve nem koşullarında zemin değerlendirmesi",
+                paragraflar: [
+                    "Kesim ve işleme alanlarına yakın bölgelerde biriken mermer tozu, nemli havada kayganlaşarak destek ayaklarının tutuşunu zayıflatabilir; bu, kapalı bir tekstil salonundaki düz beton zeminden farklı bir risktir.",
+                    "Toz yoğun bir bölgede çalışacağımız bildirildiğinde, zemin durumunu telefonda ya da fotoğrafla önceden değerlendirir, gerekiyorsa zemin temizliği veya destek plakası talep ederiz; bu ön değerlendirme, sahada beklenmedik bir gecikmeyi önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Ocağımızda gece vardiyası var, manlift gece de çalışabilir mi?",
+                cevap:
+                    "Çalışabilir, ancak saha aydınlatmasının yeterli olup olmadığını önceden sormamız gerekir. Aydınlatma sınırlıysa kendi taşınabilir aydınlatmamızı hazırlarız; aydınlatma hiç yoksa ya da operatör görüş açısından güvenli çalışamayacağımızı düşünürsek, bunu size baştan söyler, gündüz vardiyasına kaydırmayı öneririz.",
+            },
+            {
+                soru: "Gündüz vardiyasında forklift trafiği çok yoğun, manlift bu trafiğe engel olur mu?",
+                cevap:
+                    "Amacımız tam tersi — çalışma noktamızı ve saatimizi, forklift ve blok taşıma trafiğinin nispeten azaldığı bir zaman dilimine denk getirmek. Bunu saha yetkilisiyle önceden konuşur, mümkünse trafiğin yoğun olduğu güzergahlardan kaçınan bir konumlandırma yaparız.",
+            },
+            {
+                soru: "Vardiya değişim saatinde sevkiyat yapabilir misiniz?",
+                cevap:
+                    "Genellikle tercih etmeyiz, çünkü vardiya geçiş penceresi kısa ve sahada trafik karmaşık olabilir. Sevkiyatı vardiyanın başına ya da trafiğin göreli sakin olduğu bir saate planlarız; bu, hem makinenin sahaya girişini kolaylaştırır hem de vardiya değişiminin karmaşasından etkilenmesini önler.",
+            },
+            {
+                soru: "Kesim alanına yakın çalışacağız, mermer tozu makineye zarar verir mi?",
+                cevap:
+                    "Doğrudan zarar riski düşük, ama toz nemli havada zemini kayganlaştırarak destek ayaklarının tutuşunu etkileyebilir. Bu bölgede çalışacağımızı bildiğimizde zemin durumunu önceden sorar, gerekirse zemin temizliği ya da destek plakası talep ederiz.",
+            },
+            {
+                soru: "Rüzgarlı bir günde manlift kullanımı güvenli mi?",
+                cevap:
+                    "Açık sahada yüksek rüzgar, manlift kullanımını riskli hale getirebilir. Hava durumu elverişsizse bunu size baştan söyler, saha yetkilisiyle birlikte hangi vardiyada ya da günde koşulların düzeleceğini değerlendirir, gerekirse işi erteleriz; güvenlik konusunda taviz vermeyiz.",
+            },
+            {
+                soru: "Tesisimiz tek vardiya çalışıyor, planlama farklı mı olur?",
+                cevap:
+                    "Tek vardiyalı bir tesiste vardiyalar arası geçiş penceresi sorunu yaşanmaz, bu yüzden planlama daha çok gün içindeki saha trafiğine (blok taşıma, forklift yoğunluğu) göre şekillenir. Çalışma saatini, trafiğin nispeten sakinleştiği bir dilime denk getirmeye çalışır, bunu saha yetkilisiyle netleştiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-15. Denizli mermer sanayisinde ocak ve fabrikaların gündüz ağırlıklı veya gündüz/gece iki vardiyalı çalışma düzeni kamuya açık sektörel bilgidir. Blok taşıma trafiğiyle koordinasyon, gece aydınlatma önlemi ve zemin değerlendirmesi kendi çalışma pratiğimizdir. Tesis adı, marka ve rakam kullanılmamıştır.",
+    },
 };

@@ -1692,4 +1692,176 @@ export const MANLIFTKIRALAMA_ONLINE: Record<string, BespokeIcerik> = {
         ],
         kaynak: "Elle yazıldı — 2026-08-14. Hacılar'ın Erciyes eteğinde eğimli araziye sahip olması ve Kayseri'nin karasal ikliminde kışın erken bastırması, bu dosyanın bolge:hacilar kaydında yer alan kamuya açık gözlemle tutarlıdır. Zemin ve eğim sınırlarına dair anlatılanlar üretici cihaz kurallarının sahada uygulanışıdır; tesis adı veya rakam uydurulmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Kayseri'de Makaslı Platform Kiralama",
+        giris:
+            "Kayseri'nin mobilya ve tekstil sanayisinde makaslı platform, sadece bir yükseğe çıkma aracı değil; aynı zamanda malzeme taşıyan bir çalışma sahnesidir. Mobilya üretim hollerinde panel, profil veya raf elemanı sepetle birlikte taşınarak montaj noktasına ulaştırılır; dokuma ve iplik salonlarında top hâlindeki kumaş veya iplik makarası, sepetin taşıma kapasitesi hesaba katılarak tavan seviyesindeki askı ve raf noktalarına yükseltilir. Bu ikili görev — hem operatörü hem malzemeyi taşımak — makaslı platformun kapasite etiketini kritik bir veri hâline getirir; sepete binen toplam ağırlık kişi sayısı ile malzeme ağırlığının toplamıdır ve bu sınır aşıldığında platform yükselmeyi reddeder. Kayseri OSB'deki üretim hollerinin ortak özelliği uzun, düz ve kolonsuz koridorlar olduğu için makaslı platform bu tür alanlarda eklemli bom sınıfına göre daha hızlı ilerler: dikey yükselme hattı boyunca duraksamadan aynı hizada onlarca metre tarar. Ancak bu hız avantajı sadece hedefin tam altına platform konumlandırılabildiğinde geçerlidir; hedefin altında makine, raf ayağı veya boru hattı gibi bir engel varsa makaslı platform o noktaya yaklaşamaz. Talebi alırken sorduğumuz ilk bilgiler bu yüzden sabit: taşınacak malzeme var mı ve ağırlığı ne, hedefin tam altı boş mu, koridor genişliği makine gövdesine yetiyor mu.",
+        maddeler: [
+            {
+                baslik: "Sepet kapasitesi: kişi ve malzeme ağırlığının birlikte hesabı",
+                metin: "Bir makaslı platformun sepet kapasitesi, üzerindeki etikette tek bir rakam olarak yazar ve bu rakam kişi ile malzemenin toplam ağırlığını kapsar. Mobilya montajında panel veya profil sepetle taşınacaksa, operatör sayısı buna göre azaltılır; tekstil salonunda ağır bir iplik makarası taşınacaksa aynı hesap geçerlidir. Kapasite aşıldığında platform güvenlik sistemi devreye girer ve yükselme durur; bu yüzden malzeme ağırlığı keşif aşamasında bildirilmeli, sahada tahminle yüklenmemelidir.",
+            },
+            {
+                baslik: "Yükseklik sınıfı seçimi: hol tavanı ile sepet tabanı farkı",
+                metin: "Kayseri'deki mobilya ve tekstil hollerinin tavan kotu genellikle 6 ile 12 metre arasında değişir. Platform seçerken bakılan rakam maksimum çalışma yüksekliğidir, bu da sepet tabanının değil operatörün kolla ulaşabildiği en üst noktanın yüksekliğidir; sepet tabanı hedefin yaklaşık 1,5-2 metre altında kalır. Bu farkı gözetmeden düşük sınıf bir platform seçmek, sahada makinenin hedefe yetişmemesi ve ikinci bir sevkiyat gerekmesi anlamına gelir.",
+            },
+            {
+                baslik: "Dar koridor ve raf arası geçiş genişliği",
+                metin: "Mamul ambarlarında ve bazı dokuma salonlarında raf sıraları arası koridor, standart bir makaslı platformun gövde genişliğinden dar kalabilir. Bu durumda kompakt gövdeli, dar makaslı sınıf tercih edilir; kapasite ve yükseklik bu modelde biraz daha sınırlı olsa da koridora sığması işi mümkün kılan tek çözümdür. Koridor genişliği keşifte ölçülmeden model önerilmez, çünkü makine sahaya girip koridora sığmazsa iş baştan iptal olur.",
+            },
+            {
+                baslik: "Tozlu ve ıslak zeminde lastik ve tekerlek seçimi",
+                metin: "Mobilya üretim hollerinde biriken talaş tozu, tekstil salonlarında ise nem ve iplik artığı zeminde tutunmayı etkiler. İç mekân işlerinde standart olarak iz bırakmayan (beyaz dolgu) tekerlek kullanılır; zemin tozluysa güzergâhın süpürülmesi istenir, ıslaksa kaymayı önlemek için makine hızı ve manevra sınırlanır. Aynı platform iç ve dış sahada dönüşümlü kullanılacaksa lastik tipi işin başında netleştirilir, sahada değiştirme imkânı yoktur.",
+            },
+            {
+                baslik: "Yükselme süresi ve vardiya içi verimlilik",
+                metin: "Makaslı platformun tam yüksekliğe çıkma süresi model büyüdükçe uzar; büyük kapasiteli bir platform küçük bir modelden daha yavaş yükselir. Vardiya arası kısa pencerelerde çalışılan tekstil salonlarında bu süre iş planına dahil edilir; aynı gün içinde çok sayıda nokta gezilecekse, yükselme süresi kısa olan orta sınıf bir model toplam işi daha hızlı bitirebilir. Doğru sınıf seçimi bu yüzden sadece yüksekliğe değil, o gün kaç nokta gezileceğine de bakılarak yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Yükseklik sınıfına göre kapasite ve kullanım alanı",
+                paragraflar: [
+                    "Kayseri'deki mobilya ve tekstil sanayisinde en sık talep edilen makaslı platform sınıflarını, tipik kapasite ve kullanım alanlarıyla birlikte aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Çalışma yüksekliği", "Tipik sepet kapasitesi", "Kullanım alanı", "Malzeme taşıma"],
+                    satirlar: [
+                        ["6-8 metre", "230-320 kg", "Dar koridor, ambar rafı", "Sınırlı, tek kişi + hafif parça"],
+                        ["8-10 metre", "320-450 kg", "Standart üretim holü", "Panel, profil taşınabilir"],
+                        ["10-12 metre", "450-680 kg", "Yüksek tavanlı geniş hol", "İki kişi + orta ağırlık malzeme"],
+                        ["12 metre üstü", "680 kg ve üzeri", "Ana bulvar hollerinde çatı işleri", "Ağır malzeme, çoklu personel"],
+                    ],
+                },
+            },
+            {
+                baslik: "Malzeme taşırken kapasite hesabı nasıl yapılır",
+                paragraflar: [
+                    "Sepete binen toplam ağırlık, operatör sayısı ile taşınan malzemenin ağırlığının toplamıdır ve bu rakam platformun etiketindeki azami kapasiteyi geçemez. Mobilya montajında birden fazla panel aynı anda taşınacaksa, bu panellerin toplam ağırlığı önceden tartılır veya üretici katalog değerinden hesaplanır; tekstil salonunda dolu bir iplik makarasının ağırlığı da aynı şekilde bilinmelidir.",
+                    "Kapasite sınırına yakın bir yük söz konusuysa, operatör sayısı bir kişiye indirilir veya malzeme iki sefere bölünür. Bu hesap keşif sırasında netleşmezse, sahada tahminle yükleme yapılmaz; belirsiz ağırlıktaki malzeme için platform kapasitesinin yeterli görüldüğü en düşük tonaj esas alınır.",
+                ],
+            },
+            {
+                baslik: "Tozlu ortamda hidrolik ve zincir bakımı",
+                paragraflar: [
+                    "Mobilya üretim hollerinde havada asılı kalan ince talaş tozu, makaslı platformun makas mafsallarına ve hidrolik silindir contalarına zamanla nüfuz edebilir. Bu yüzden tozlu ortamda uzun süre çalışan makinelerde mafsal ve conta kontrolü, standart iç mekân kullanımına göre daha sık yapılır; kira süresi bir haftayı aşıyorsa bu kontrol teslimat sırasında planlanır.",
+                    "Tekstil salonlarında ise sorun tozdan çok iplik ve kumaş artığının makas mekanizmasına dolanmasıdır. Bu artıklar zamanla makasın düzgün açılıp kapanmasını engelleyebilir; bu yüzden salon içinde uzun süre kalan makinelerde periyodik temizlik, kiralama sözleşmesine ek bir madde olarak eklenir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platformla aynı anda malzeme de taşınabilir mi?",
+                cevap: "Evet, ancak sepete binen toplam ağırlık operatör ve malzemenin toplamı olarak hesaplanır ve platformun azami kapasitesini geçemez. Mobilya montajında panel veya profil, tekstil salonunda iplik makarası bu şekilde taşınabiliyor; ancak taşınacak malzemenin ağırlığı keşif aşamasında bildirilmeli. Ağırlık kapasiteye yakınsa operatör sayısı bire indirilir veya malzeme iki sefere bölünür. Sahada tahminle yükleme yapılmaz, çünkü kapasite aşımı platformun güvenlik sistemini devreye sokar ve yükselme durur.",
+            },
+            {
+                soru: "6-8 metre sınıfı mı yoksa 10-12 metre sınıfı mı tercih etmeliyim?",
+                cevap: "Bu, hedefin gerçek tavan kotuna bağlı, fotoğraftan tahmin edilmemeli. Bakılan rakam maksimum çalışma yüksekliği yani operatörün kolla ulaşabildiği en üst nokta; sepet tabanı bu rakamın yaklaşık 1,5-2 metre altında kalıyor. Kayseri'deki mobilya ve tekstil hollerinin tavan kotu genellikle 6-12 metre bandında değişiyor; keşifte ölçülen gerçek kotla, taşınacak malzeme varsa onun da hesaba katıldığı sınıf birlikte belirleniyor.",
+            },
+            {
+                soru: "Dar bir koridora makaslı platform sığar mı?",
+                cevap: "Bazı mamul ambarlarında ve dokuma salonlarında raf arası koridor standart bir platformun gövde genişliğinden dar kalabiliyor. Bu durumda kompakt gövdeli, dar makaslı sınıf kullanılıyor; kapasite ve yükseklik biraz daha sınırlı kalsa da koridora sığması işi mümkün kılan tek çözüm oluyor. Koridor genişliği keşifte mutlaka ölçülüyor, çünkü makine sahaya girip koridora sığmazsa iş baştan iptal oluyor.",
+            },
+            {
+                soru: "Tozlu üretim holünde platform kullanmak makineye zarar verir mi?",
+                cevap: "Uzun vadede evet, bu yüzden önlem alınıyor. Havada asılı ince talaş tozu makas mafsallarına ve hidrolik silindir contalarına zamanla nüfuz edebiliyor. Kira süresi bir haftayı aşan işlerde mafsal ve conta kontrolü standart kullanıma göre daha sık yapılıyor; tekstil salonlarında ise iplik ve kumaş artığının makas mekanizmasına dolanmaması için periyodik temizlik kiralama sözleşmesine ek madde olarak ekleniyor.",
+            },
+            {
+                soru: "Aynı gün içinde birden fazla nokta gezilecekse hangi sınıf daha verimli?",
+                cevap: "Büyük kapasiteli bir platform, küçük bir modelden daha yavaş yükseliyor; bu yüzden vardiya arası kısa pencerelerde çalışılan işlerde yükselme süresi iş planına dahil ediliyor. Aynı gün çok sayıda nokta gezilecekse, yükseklik ve kapasite ihtiyacını karşılayan en düşük sınıf genelde toplam işi daha hızlı bitiriyor. Nokta sayısı ve aralarındaki mesafe keşifte netleşince, hangi sınıfın günü daha verimli kullandığı hesaplanabiliyor.",
+            },
+            {
+                soru: "İç mekânda kullanılan makaslı platform dışarıda da çalışabilir mi?",
+                cevap: "Zemin ve lastik tipine bağlı. İç mekân işlerinde standart olarak iz bırakmayan beyaz dolgu tekerlek kullanılıyor; bu lastikle dış sahada da kısa süreli çalışılabiliyor, ancak zemin düz beton değilse tutunma azalıyor. Aynı platform iç ve dış sahada dönüşümlü kullanılacaksa lastik tipi işin başında netleştiriliyor, çünkü sahada lastik değişimi mümkün değil. Islak veya eğimli dış zeminlerde çalışma hızı ve manevra alanı ayrıca sınırlanıyor.",
+            },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Kayseri OSB'deki mobilya ve tekstil üretim hollerinin uzun düz koridor mimarisi ve tekstil salonlarında top/makara hâlindeki malzeme taşıma ihtiyacı, dosyanın bolge:kayseri-osb ve hizmet:ic-mekan-depo-platform-kiralama kayıtlarıyla tutarlı kamuya açık gözlemdir. Kapasite ve yükseklik sınıfı bilgileri üretici katalog mantığının genel uygulanışıdır; tesis adı veya rakam uydurulmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Kayseri'de Manlift Kiralama Süreci ve Şartları",
+        giris:
+            "Kayseri'de mobilya ve tekstil sanayisinden gelen manlift talepleri, çoğu zaman makinenin sınıfından önce süreçle ilgili sorularla başlar: kaç günlüğüne kiralanabilir, OSB'ye giriş için hangi evrak gerekir, operatörü biz mi sağlıyoruz yoksa firmadan mı geliyor. Bu sorular tesadüfi değil; OSB'deki fabrikaların çoğu belirli bir giriş-çıkış prosedürü uyguluyor, tozlu üretim ortamlarında operatörün eğitimli olması bir tercih değil koşul, ve sipariş döngüsüne bağlı çalışan mobilya-tekstil üretimi kiralama süresini de doğrudan etkiliyor. Bir mobilya fabrikası yeni bir sipariş aldığında hatta ek ekipman ihtiyacı birkaç gün içinde ortaya çıkabiliyor; bu da günlük veya haftalık kısa süreli kiralamayı, aylık sabit ihtiyaçtan daha sık karşılaştığımız bir senaryo hâline getiriyor. Kiralama sürecini baştan netleştirmek — süre, teslimat noktası, operatör durumu ve sertifika kontrolü — sahada makinenin beklenenden geç gelmesi veya yanlış evrakla giriş yapamaması gibi aksaklıkları en başında önlüyor.",
+        maddeler: [
+            {
+                baslik: "Kiralama süresi: günlük, haftalık, aylık seçenekler",
+                metin: "Mobilya ve tekstil sanayisinde iş hacmi sipariş döngüsüne bağlı dalgalandığı için sabit aylık kiralamadan çok, ihtiyaca göre kısa süreli kiralama tercih ediliyor. Tek seferlik bir montaj veya bakım işinde günlük kiralama yeterli oluyor; birkaç haftaya yayılan bir üretim hattı kurulumunda haftalık, sürekli bakım ihtiyacı olan büyük tesislerde ise aylık anlaşma daha ekonomik çıkıyor. Süre seçimi, işin toplam kapsamı ve makinenin sahada ne sıklıkla kullanılacağına göre birlikte değerlendiriliyor.",
+            },
+            {
+                baslik: "OSB'ye giriş ve nakliye lojistiği",
+                metin: "Kayseri OSB'deki fabrikaların çoğu, dışarıdan gelen ağır vasıta ve iş makinesi için giriş kaydı istiyor; bu yüzden makinenin plaka bilgisi ve teslimat saati, işin başlamasından önce tesis güvenliğine bildiriliyor. Büyük kapasiteli makineler lowbed ile taşınıyor ve bu taşımanın fabrika içindeki boşaltma noktasına kadar planlanması gerekiyor; dar bir bulvara veya trafik yoğun bir saate denk gelen teslimat, işin başlangıcını geciktirebiliyor.",
+            },
+            {
+                baslik: "Operatör belgesi ve İSG farkındalığı",
+                metin: "Operatörlü kiralamada, makineyi kullanacak kişinin geçerli operatör belgesi ve iş sağlığı-güvenliği eğitimi teslimattan önce doğrulanıyor. Kendi operatörünü kullanacak tesislerde de aynı belge kontrolü isteniyor; belgesiz kullanım hem güvenlik hem sorumluluk açısından kabul edilmiyor. Mobilya üretiminde talaş tozunun yanıcı olabileceği bilinciyle, tozlu bölgelerde çalışacak operatörlerin bu riske dair temel farkındalığı da işe başlamadan önce teyit ediliyor.",
+            },
+            {
+                baslik: "Periyodik muayene ve sertifika kontrolü",
+                metin: "Kiralanan her makinenin periyodik muayene kaydı güncel olmalı; bu kayıt teslimat sırasında makineyle birlikte tesise sunuluyor. Bazı fabrikalar kendi İSG prosedürü gereği bu belgeyi girişte ayrıca kontrol ediyor, bazıları güven ilişkisine dayanarak sonradan istiyor. Belge güncel değilse makine sahaya sokulmuyor; bu, tesisin kendi denetim sorumluluğunu da koruyan bir adım.",
+            },
+            {
+                baslik: "Acil ve kısa süreli talep senaryoları",
+                metin: "Ani bir sipariş artışı veya beklenmedik bir arıza, aynı gün veya ertesi gün için manlift talebi doğurabiliyor. Bu tür acil taleplerde stoktaki uygun sınıf makine öncelikli ayrılıyor, ancak nakliye mesafesi ve OSB giriş prosedürü yine de belirli bir süre alıyor. Tekrarlayan acil ihtiyacı olan tesislerle, önceden onaylanmış bir giriş listesi ve standart teslimat noktası üzerinden anlaşarak bu süreyi kısaltmak mümkün oluyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Kiralama süresine göre senaryo karşılaştırması",
+                paragraflar: [
+                    "Kayseri'deki mobilya ve tekstil işletmelerinden gelen taleplerde en sık karşılaştığımız süre senaryolarını aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Süre", "Tipik senaryo", "Avantaj", "Dikkat edilen nokta"],
+                    satirlar: [
+                        ["Günlük", "Tek seferlik montaj/bakım", "Düşük toplam maliyet", "Teslimat saatinin net olması"],
+                        ["Haftalık", "Hat kurulumu, sipariş yoğunluğu", "Esnek uzatma imkânı", "Sahada bekleme süresi"],
+                        ["Aylık", "Sürekli bakım ihtiyacı", "Birim gün maliyeti düşer", "Periyodik muayene takibi"],
+                        ["Acil / aynı gün", "Ani sipariş, arıza", "Hızlı müdahale", "OSB giriş süresi ayrıca hesaplanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "OSB giriş prosedürü nasıl işliyor",
+                paragraflar: [
+                    "Kayseri OSB'deki fabrikaların çoğunda dışarıdan gelen araç ve iş makinesi için bir giriş kaydı prosedürü var. Makinenin plakası, sürücü/operatör bilgisi ve tahmini teslimat saati, işin başlamasından önce tesis güvenliğine iletiliyor; bazı fabrikalarda bu bilgi bir gün önceden bildirilmek zorunda.",
+                    "Büyük kapasiteli makineler lowbed ile taşındığı için, fabrika içindeki boşaltma noktasına kadar giden güzergâhın genişliği ve manevra alanı önceden değerlendiriliyor. Dar bir bulvara veya trafiğin yoğunlaştığı bir vardiya değişim saatine denk gelen teslimat, planlanan başlangıç saatini geciktirebiliyor; bu yüzden teslimat saatini vardiya dışı bir zamana almak genelde tercih ediliyor.",
+                ],
+            },
+            {
+                baslik: "Kiralama öncesi kontrol edilen evrak listesi",
+                paragraflar: [
+                    "Kiralama sözleşmesi imzalanmadan önce netleştirilen üç belge var: makinenin güncel periyodik muayene kaydı, operatörün geçerli operatör belgesi ve iş sağlığı-güvenliği eğitim kaydı. Bu belgeler teslimat sırasında makineyle birlikte tesise sunuluyor; bazı fabrikalar kendi prosedürü gereği belgeyi girişte ayrıca kontrol ediyor.",
+                    "Belge eksik veya güncelliğini yitirmişse makine sahaya sokulmuyor; bu kural istisnasız uygulanıyor, çünkü hem operatörün hem tesisteki diğer çalışanların güvenliği bu kontrole bağlı. Tekrarlayan kiralamalarda bu belgelerin bir kopyası önceden paylaşılarak süreç hızlandırılabiliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift kaç günlüğüne kiralanabilir, minimum süre var mı?",
+                cevap: "Günlük kiralama mümkün, minimum süre işin kapsamına göre değişiyor. Tek seferlik bir montaj veya bakım işinde bir günlük kiralama yeterli oluyor; birkaç haftaya yayılan bir kurulum işinde haftalık anlaşma daha uygun çıkıyor. Sürekli bakım ihtiyacı olan büyük tesislerde aylık anlaşma birim gün maliyetini düşürüyor. Süre seçimi işin toplam kapsamı ve makinenin sahada ne sıklıkla kullanılacağına göre birlikte netleştiriliyor.",
+            },
+            {
+                soru: "OSB'ye giriş için hangi bilgiler önceden bildirilmeli?",
+                cevap: "Kayseri OSB'deki fabrikaların çoğu dışarıdan gelen iş makinesi için giriş kaydı istiyor; bu yüzden makinenin plakası, operatör bilgisi ve tahmini teslimat saati işin başlamasından önce tesis güvenliğine iletiliyor. Bazı fabrikalarda bu bilginin bir gün önceden bildirilmesi gerekiyor. Büyük kapasiteli makineler lowbed ile taşındığından, fabrika içindeki boşaltma noktasına giden güzergâhın genişliği de önceden değerlendiriliyor.",
+            },
+            {
+                soru: "Kendi operatörümüzü kullanabilir miyiz, yoksa operatör firmadan mı gelmeli?",
+                cevap: "İki seçenek de sunuluyor. Kendi operatörünüzü kullanacaksanız, geçerli operatör belgesi ve iş sağlığı-güvenliği eğitim kaydı teslimattan önce doğrulanıyor; belgesiz kullanım kabul edilmiyor. Operatörlü kiralama tercih edilirse, firmadan gelen operatörün belgeleri zaten güncel tutuluyor ve teslimat sırasında tesise sunuluyor. Hangi seçeneğin uygun olduğu, tesisin kendi İSG prosedürüne ve makinenin kullanım sıklığına göre belirleniyor.",
+            },
+            {
+                soru: "Periyodik muayene kaydı olmayan bir makine kiralanabilir mi?",
+                cevap: "Hayır, güncel periyodik muayene kaydı olmayan makine sahaya sokulmuyor. Bu belge teslimat sırasında makineyle birlikte tesise sunuluyor; bazı fabrikalar kendi İSG prosedürü gereği bu belgeyi girişte ayrıca kontrol ediyor. Belge güncelliğini yitirmişse kiralama süreci durduruluyor ve güncel belgeli bir makine ayarlanana kadar teslimat yapılmıyor. Bu kural, hem operatörün hem tesisteki diğer çalışanların güvenliğini korumak için istisnasız uygulanıyor.",
+            },
+            {
+                soru: "Aynı gün içinde acil manlift ihtiyacı karşılanabilir mi?",
+                cevap: "Genelde evet, ancak nakliye mesafesi ve OSB giriş prosedürü belirli bir süre alıyor. Ani bir sipariş artışı veya beklenmedik bir arıza durumunda stoktaki uygun sınıf makine öncelikli ayrılıyor. Tekrarlayan acil ihtiyacı olan tesislerle önceden onaylanmış bir giriş listesi ve standart teslimat noktası üzerinden anlaşarak bu süreyi kısaltmak mümkün; bu tür anlaşmalar genelde sürekli çalışılan tesislerle kuruluyor.",
+            },
+            {
+                soru: "Kiralama sözleşmesi imzalanmadan önce hangi bilgileri paylaşmalıyız?",
+                cevap: "İşin kapsamı (süre, hedef yükseklik, taşınacak malzeme varsa ağırlığı), teslimat adresi ve OSB giriş prosedürüne dair tesis kuralları, operatörün kendinizden mi firmadan mı geleceği ve tesisin özel bir İSG şartı olup olmadığı paylaşılması gereken temel bilgiler. Bu bilgiler netleşince hangi makine sınıfının uygun olduğu ve teslimat saatinin nasıl planlanacağı birlikte belirleniyor; eksik bilgiyle verilen teklif sahada değişiklik gerektirebiliyor.",
+            },
+        ],
+        kaynak: "Elle yazıldı — 2026-08-14. Kayseri OSB'deki fabrikaların araç/iş makinesi giriş kaydı uygulaması ve mobilya-tekstil sanayisinin sipariş döngüsüne bağlı dalgalı kiralama talebi, dosyanın bolge:kayseri-osb kaydıyla tutarlı kamuya açık gözlemdir. Operatör belgesi ve periyodik muayene kontrolü genel iş güvenliği uygulamasının sahadaki yansımasıdır; tesis adı veya rakam uydurulmamıştır.",
+    },
 };

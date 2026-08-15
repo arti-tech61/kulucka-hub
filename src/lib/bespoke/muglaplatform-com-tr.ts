@@ -1969,4 +1969,198 @@ export const MUGLAPLATFORM_COM_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Muğla'nın dar sahil yolları, marina zemini ve tarımsal toprak çeşitliliği kamuya açık genel bilgidir; zemin bazlı makine seçimi ve keşif disiplini firma pratiğidir.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Muğla'da Makaslı Platform Kiralama — Otel ve Turizm Tesislerine Sezona Uygun Çözüm",
+        giris:
+            "Muğla'da makaslı platform talebinin büyük kısmı, Bodrum-Marmaris ekseni boyunca dizilmiş otel, resort ve tatil köyü işletmelerinden gelir ve bu talep yıl içinde düz bir çizgi izlemez: nisan-mayıs açılış hazırlığı, ekim-kasım sezon kapanışı ve aralık-mart sezon dışı bakım penceresi olmak üzere üç ayrı yoğunluk dönemi vardır. Otel işletmecisi için makaslı platformun asıl değeri, dar bir zaman aralığında (genellikle tesis kapalıyken veya düşük doluluktayken) çok sayıda işi art arda bitirebilmesidir — lobi tavan aydınlatması, iç mekan boyası, asma tavan bakımı, konferans salonu tadilatı gibi işler aynı hafta içine sıkışır. Bu yüzden Muğla'daki makaslı platform kiralama talebimizin çoğu tekli makine değil, birkaç makinenin eş zamanlı sevkiyatıdır. Dikey makaslı sınıf düz zeminli iç mekanlarda (lobi, restoran, balo salonu) standart tercihtir; dar koridor ve oda geçişlerinde kompakt şase öne çıkar. Bu sayfa, otel ve turizm tesislerinde makaslı platform kullanımının sezonsallığını, iç mekan kısıtlarını ve bizim bu döngüye göre kurduğumuz sevkiyat planlamasını anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Sezon dışı bakım penceresi: aralık-mart yoğunluğu",
+                metin:
+                    "Bodrum ve Marmaris'teki oteller kasım sonunda kapanıp mart-nisan'da yeniden açıldığı için, aralık-mart arası tesis içi bakım işlerinin en yoğun olduğu dönemdir. Bu pencerede otel yönetimleri lobi tavan aydınlatmasından balo salonu asma tavanına kadar birçok işi aynı anda planlar ve makaslı platform talebi bu üç ayda belirgin şekilde artar. Erken rezervasyon, sezon dışı dönemde makine bulunabilirliğini garantiler.",
+            },
+            {
+                baslik: "Açılış öncesi telaş: nisan-mayıs son rötuş dönemi",
+                metin:
+                    "Sezon açılışına yakın nisan-mayıs aylarında, otel işletmeleri kış boyunca yapılamayan veya son anda fark edilen işleri (boya rötuşu, aydınlatma değişimi, tavan panel onarımı) hızla tamamlamak ister. Bu dönemde talep kısa süreli ama yoğun olur; genellikle 1-3 günlük kiralamalar art arda planlanır ve açılış tarihine kadar bitirilmesi gereken iş listesi önceliklendirilir.",
+            },
+            {
+                baslik: "Dolu tesiste çalışma: kapalı alan ve saat kısıtı",
+                metin:
+                    "Sezon ortasında dolu bir otelde çalışmak gerektiğinde (acil aydınlatma arızası, misafir öncesi son dakika işi gibi) mesai saatleri misafir konforuna göre kısıtlanır — genellikle erken sabah veya gece geç saatlerde çalışılır. Bu tip işlerde akülü makaslı sınıf tercih edilir çünkü içten yanmalı motorların gürültüsü ve egzoz kokusu dolu bir lobide kabul edilmez.",
+            },
+            {
+                baslik: "İç mekan zemin ve tavan yüksekliği uyumu",
+                metin:
+                    "Otel lobisi, restoran ve balo salonu gibi geniş düz zeminli alanlarda dikey makaslı sınıf standart tercihtir; zemin genellikle mermer veya parke olduğu için tekerlek izi bırakmama önceliklidir ve iz önleyici tekerlek takımı talep üzerine sağlanır. Tavan yüksekliği, oda tipine göre değişir — standart oda koridorunda düşük tavan yeterliyken balo salonu veya atrium gibi yüksek tavanlı alanlarda daha yüksek erişimli makaslı sınıf gerekir.",
+            },
+            {
+                baslik: "Dar koridor ve oda geçişleri için kompakt şase",
+                metin:
+                    "Otel koridorları ve oda kapı genişlikleri standart bir makaslı platformun geçmesine her zaman izin vermez; bu durumda dar şaseli kompakt makaslı sınıf tercih edilir. Kapı genişliği ve koridor dönüş yarıçapı, sevkiyat öncesi fotoğrafla veya ölçüyle teyit edilir çünkü sahada makine geçmediğinde iş programı tamamen aksar.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Otel iç mekan işlerinde makaslı platform sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki otel ve turizm tesislerinde en sık karşılaşılan iç mekan işi tipine göre önerdiğimiz makaslı platform sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Alan örneği", "Önerilen sınıf", "Not"],
+                    satirlar: [
+                        ["Tavan aydınlatma / boya", "Lobi, restoran", "Dikey akülü makaslı", "Düz zeminde standart"],
+                        ["Balo salonu / atrium bakımı", "Konferans alanı", "Yüksek erişimli makaslı", "Tavan yüksekliği önceden ölçülür"],
+                        ["Koridor / oda geçişi işi", "Misafir katı", "Dar şaseli kompakt", "Kapı genişliği teyit edilir"],
+                        ["Dolu tesiste gece çalışması", "Aktif lobi", "Akülü, sessiz sınıf", "Mesai gece/erken sabah"],
+                        ["Asma tavan / panel onarımı", "Toplantı salonu", "Standart dikey makaslı", "Sezon dışı pencerede planlanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon takvimine göre erken planlama önerimiz",
+                paragraflar: [
+                    "Bodrum-Marmaris ekseninde otel bakım işleri belirli aylara yoğunlaştığı için, aralık-mart penceresinde makine bulunabilirliği talebe göre daralabilir. Bu yüzden yıllık bakım planı olan otel işletmelerine, sezon kapanışından hemen sonra (kasım sonu) gelecek dönem için ön rezervasyon önerisi sunuyoruz; bu, hem makine tahsisini garantiler hem de işletmenin iş programını netleştirmesine yardımcı olur.",
+                    "Açılış öncesi nisan-mayıs döneminde ise talep daha kısa vadeli ve reaktif olduğu için, bu dönemde 48 saat içinde sevkiyat kapasitesi ayrı olarak tutulur.",
+                ],
+            },
+            {
+                baslik: "Zemin ve mobilya koruma önlemleri",
+                paragraflar: [
+                    "Otel iç mekanlarında mermer, parke veya halı gibi hassas zeminler standarttır; bu yüzden iz önleyici (non-marking) tekerlek takımı ve gerektiğinde yük dağıtıcı koruma plakası talep üzerine sağlanır. Mobilya ve dekoratif eşyaların makine güzergâhından önceden kaldırılması, otel operasyon ekibiyle koordine edilir çünkü bu koordinasyon eksikliği sahada en sık karşılaşılan gecikme nedenidir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Otelimiz sezon dışında kapalı, o dönemde mi kiralamalıyız?",
+                cevap:
+                    "Zorunlu değil ama önerimiz bu yönde. Aralık-mart arası kapalı dönem, misafir rahatsız edilmeden birçok işi art arda bitirebileceğiniz en verimli penceredir. Sezon öncesi (kasım sonu) ön rezervasyon yaptırırsanız, en yoğun talep dönemi olan bu üç ayda makine tahsisiniz garanti altına alınır.",
+            },
+            {
+                soru: "Dolu bir otelde gece çalışabilir miyiz?",
+                cevap:
+                    "Evet, mümkündür ama akülü ve sessiz sınıf makaslı platform şarttır. İçten yanmalı motorlu makineler gürültü ve egzoz kokusu nedeniyle dolu lobide kullanılmaz. Mesai saatini misafir konforuna göre (genellikle gece geç veya sabah erken) birlikte planlarız.",
+            },
+            {
+                soru: "Makine koridorumuzdan ve oda kapımızdan geçer mi?",
+                cevap:
+                    "Standart makaslı platform her koridora sığmayabilir. Kapı genişliği ve koridor dönüş yarıçapını fotoğraf veya ölçüyle paylaşırsanız, geçmiyorsa dar şaseli kompakt sınıfı öneririz. Bu kontrolü sevkiyat öncesi yapmak, sahada makinenin geri dönmesi gibi bir gecikmeyi önler.",
+            },
+            {
+                soru: "Mermer zeminde iz bırakır mı?",
+                cevap:
+                    "Standart tekerlekle risk vardır, bu yüzden otel içi işlerde iz önleyici (non-marking) tekerlek takımını talep üzerine sağlıyoruz. Ayrıca yüksek trafik alanlarında yük dağıtıcı koruma plakası da eklenebilir. Zemin tipini önceden belirtirseniz doğru donanımla geliriz.",
+            },
+            {
+                soru: "Balo salonumuzun tavanı yüksek, standart makaslı yeter mi?",
+                cevap:
+                    "Bağlıdır; atrium veya balo salonu gibi yüksek tavanlı alanlarda standart dikey makaslı sınıf yetmeyebilir, daha yüksek erişimli bir sınıf gerekebilir. Tavan yüksekliğini belirtirseniz doğru sınıfı önceden netleştiririz, sahada eksik erişimle karşılaşmazsınız.",
+            },
+            {
+                soru: "Açılış öncesi son dakika iş çıktı, ne kadar hızlı gelebilirsiniz?",
+                cevap:
+                    "Nisan-mayıs açılış döneminde bu tip talepler sık olduğu için ayrı bir hızlı sevkiyat kapasitesi tutuyoruz; genellikle 48 saat içinde makine sahada olur. Kesin süre, o anki filo doluluğuna ve Bodrum-Marmaris ekseninde konumunuza göre değişir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bodrum-Marmaris otel sezonunun açılış/kapanış takvimi kamuya açık genel bilgidir; iç mekan makine sınıfı seçimi ve sezon dışı bakım planlaması firma pratiğidir.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Muğla'da Manlift Kiralama — Sahil Tesisleri ve Otel Dış Cephesi İçin Yüksek Erişim",
+        giris:
+            "Muğla'da manlift talebi, makaslı platformdan farklı bir ihtiyaçtan doğar: otel dış cephesi, sahil şeridi ağaçlandırması, iskele/marina üstyapısı ve tepe noktalarındaki tesis aydınlatması gibi düzensiz zeminli, açık alan ve yüksek erişim gerektiren işler. Bodrum-Marmaris ekseninde bu ihtiyacın en yoğun olduğu dönem yine sezon dışıdır — otel kapalıyken dış cephe boyası, palmiye/ağaç budaması, çatı ve saçak bakımı gibi işler misafir olmadan rahatça yapılır. Ancak manliftin turizm sektöründeki ikinci kullanım alanı sezon içi acil müdahaledir: dolu bir otelde dış aydınlatma arızası veya tabela onarımı gibi işler, misafir trafiğini etkilemeden hızlı çözülmelidir. Eklemli bom sınıf, engebeli bahçe zemini ve ağaç dalları arasında manevra gerektiren işlerde öne çıkarken, teleskopik bom sınıf düz sahil yolunda veya geniş otoparkta daha yüksek ve dikey erişim gerektiren işlerde tercih edilir. Bu sayfa, Muğla'nın turizm tesislerinde manlift kullanımının iki ana senaryosunu — sezon dışı dış cephe/peyzaj bakımı ve sezon içi acil dış mekan müdahalesi — ve buna göre kurduğumuz makine seçimini anlatıyor.",
+        maddeler: [
+            {
+                baslik: "Sezon dışı dış cephe ve peyzaj bakımı",
+                metin:
+                    "Kasım-mart arası otel kapalıyken dış cephe boyası, saçak/çatı bakımı ve palmiye/ağaç budaması gibi işler misafir trafiği olmadan planlanır. Bu dönemde talep birden fazla iş kalemini kapsayan uzun süreli kiralamalara yönelir; örneğin bir haftalık kiralamada hem cephe hem bahçe aydınlatma bakımı aynı manlift ile ardışık tamamlanır.",
+            },
+            {
+                baslik: "Sezon içi acil dış mekan müdahalesi",
+                metin:
+                    "Dolu sezonda dış aydınlatma arızası, tabela onarımı veya fırtına sonrası ağaç dalı temizliği gibi acil işler çıkabilir. Bu tip talepler kısa süreli (genellikle yarım-tam gün) ve hızlı sevkiyat gerektirir; misafir alanlarından uzak konumlanma ve düşük gürültülü çalışma önceliklidir, bu yüzden mümkün olduğunda akülü/hibrit sınıf tercih edilir.",
+            },
+            {
+                baslik: "Bahçe ve peyzaj alanında eklemli bom avantajı",
+                metin:
+                    "Otel bahçeleri genellikle düz değildir — havuz çevresi, palmiye grupları, dekoratif su öğeleri gibi engeller manevrayı zorlaştırır. Eklemli bom sınıf, sepeti engellerin üzerinden ve etrafından döndürebildiği için bu tip peyzaj alanlarında teleskopik boma göre daha kullanışlıdır; palmiye budaması gibi işlerde dal aralarına sepet sokmak gerekebilir.",
+            },
+            {
+                baslik: "Sahil yolu ve otoparkta teleskopik bom",
+                metin:
+                    "Sahil yolu, otel girişi veya geniş otopark gibi engelsiz düz alanlarda teleskopik bom sınıfı daha yüksek ve daha uzun yatay erişim sağlar; tepe noktası aydınlatma direği veya yüksek tabela gibi işlerde tercih edilir. Bu alanlarda zemin genellikle asfalt veya beton olduğu için standart tekerlekli sınıf yeterlidir.",
+            },
+            {
+                baslik: "Marina ve iskele üstyapısında erişim",
+                metin:
+                    "Marina çevresindeki direk aydınlatması, iskele üstü kablo/tesisat bakımı gibi işlerde zemin beton-ahşap karışımıdır ve makinenin konumlanacağı nokta saha trafiğine göre kısıtlıdır. Bu tip işlerde makine seçimi ve konumlanma noktası, marina işletmesiyle önceden koordine edilir; taşıma kapasitesi doğrulanmayan ahşap yüzeyde makine geçirilmez.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Turizm tesisi senaryosuna göre manlift sınıfı",
+                paragraflar: [
+                    "Aşağıdaki tablo, Muğla'daki otel ve sahil tesislerinde en sık karşılaşılan dış mekan işi tipine göre önerdiğimiz manlift sınıfını özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Alan örneği", "Önerilen sınıf", "Not"],
+                    satirlar: [
+                        ["Dış cephe boya/bakım", "Otel cephesi", "Teleskopik bom", "Sezon dışı planlanır"],
+                        ["Palmiye/ağaç budama", "Bahçe, havuz çevresi", "Eklemli bom", "Engel arası manevra"],
+                        ["Aydınlatma direği/tabela", "Otopark, giriş", "Teleskopik bom", "Yüksek dikey erişim"],
+                        ["Acil dış aydınlatma arızası", "Dolu tesis çevresi", "Akülü/hibrit, hızlı sevkiyat", "Misafirden uzak konum"],
+                        ["Marina/iskele üstyapı bakımı", "İskele, rıhtım", "Eklemli bom", "Zemin kapasitesi doğrulanır"],
+                    ],
+                },
+            },
+            {
+                baslik: "Sezon dışı toplu bakım planlaması",
+                paragraflar: [
+                    "Otel işletmelerine, sezon kapanışı sonrası (kasım-aralık) dış cephe, peyzaj ve çatı/saçak bakım işlerini tek bir uzun süreli manlift kiralamasında birleştirmelerini öneriyoruz. Bu yaklaşım hem makine sevkiyat maliyetini tek seferde amorti eder hem de sezon açılışına kadar tüm dış mekan işlerinin bitirilmesini garanti altına alır.",
+                    "Yıllık bakım planı olan tesisler için kasım sonunda gelecek sezon dışı dönem için ön rezervasyon öneriyoruz; bu dönemde bölgedeki toplam manlift talebi arttığı için erken planlama makine bulunabilirliğini garantiler.",
+                ],
+            },
+            {
+                baslik: "Acil müdahalede hız ve sessizlik önceliği",
+                paragraflar: [
+                    "Sezon içinde çıkan acil dış mekan işlerinde iki kriter öne çıkar: hız ve gürültü. Mümkün olduğunda akülü veya hibrit sınıf tercih edilir çünkü içten yanmalı motorlu makineler dolu bir otel çevresinde gürültü şikayetine yol açabilir. Sevkiyat süresi, o anki filo doluluğuna ve Bodrum-Marmaris ekseninde konumunuza göre değişir; kesin süreyi talep anında netleştiririz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Palmiye ağaçlarımızı budamak için hangi manlift uygun?",
+                cevap:
+                    "Palmiye grupları arasında manevra gerektiği için genellikle eklemli bom sınıfı öneririz; sepeti dallar arasına ve üzerine döndürebilme esnekliği teleskopik boma göre daha yüksektir. Ağaç sayısı ve aralarındaki mesafeyi belirtirseniz doğru sınıfı netleştiririz.",
+            },
+            {
+                soru: "Dolu sezonda dış aydınlatma arızası çıktı, hızlı gelebilir misiniz?",
+                cevap:
+                    "Evet, bu tip acil işler için ayrı bir hızlı sevkiyat kapasitesi tutuyoruz. Mümkünse akülü veya hibrit sınıf göndeririz çünkü dolu tesis çevresinde gürültü şikayeti oluşturmak istemeyiz. Kesin süre, o anki filo doluluğu ve konumunuza göre değişir.",
+            },
+            {
+                soru: "Otel cephe boyası için hangi bom sınıfı gerekir?",
+                cevap:
+                    "Çoğu otel cephesi için teleskopik bom sınıfı, daha yüksek ve daha uzun yatay erişimi nedeniyle tercih edilir. Cephenin yüksekliği ve önündeki alanın engelsiz olup olmadığı (havuz, peyzaj öğesi vb.) sınıf seçimini etkiler; bu bilgiyi paylaşırsanız doğru makineyi öneririz.",
+            },
+            {
+                soru: "Marina iskelesinde manlift çalışabilir mi?",
+                cevap:
+                    "Zemin ve taşıma kapasitesi doğrulanmadan çalışılmaz. Marina zemini genellikle beton olsa da iskele bölgelerinde ahşap yüzeyler bulunur ve bu yüzeylerde kapasite marina işletmesinden teyit edilmeden makine geçirilmez. Konumlanma noktası da saha trafiğine göre önceden belirlenir.",
+            },
+            {
+                soru: "Sezon dışı bakım için ne zaman rezervasyon yaptırmalıyız?",
+                cevap:
+                    "Sezon kapanışının hemen ardından, kasım sonu civarında rezervasyon yaptırmanızı öneririz. Aralık-mart arası bölgedeki toplam manlift talebi otel bakım işleri nedeniyle arttığı için erken planlama, makine tahsisinizi garantiler ve sezon açılışına kadar işlerin bitirilmesini sağlar.",
+            },
+            {
+                soru: "Bahçemizdeki havuz ve peyzaj öğeleri manevrayı engelliyor, çözüm var mı?",
+                cevap:
+                    "Bu tip engebeli bahçe düzeninde eklemli bom sınıfı standart tercihimizdir; sepeti engellerin üzerinden döndürebilme esnekliği düz erişimli teleskopik boma göre daha uygundur. Bahçenin genel yerleşimini fotoğrafla paylaşırsanız, sahaya gelmeden en uygun konumlanma noktasını birlikte belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Bodrum-Marmaris otel sezonunun açılış/kapanış takvimi kamuya açık genel bilgidir; dış mekan manlift sınıfı seçimi ve sezon planlaması firma pratiğidir.",
+    },
 };

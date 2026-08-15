@@ -2191,4 +2191,202 @@ export const USAKPLATFORM_COM: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Uşak’ın kaolen-feldspat madenciliği ve tarımsal arazi varlığı kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve mevsimsel çalışma takvimi firma pratiğidir. Belirli ocak/tesis adı, kapasite veya rakam kullanılmamıştır.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Uşak’ta Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platform, Uşak’taki üç sanayimizin ortak paydası: dokuma hollerinde asma tavan çelik konstrüksiyonuna, terbiye-boyahane biriminde nemli ve yüksek tavanlı üretim hattına, deri işleme tesisinin ıslak proses koridoruna aynı sepet mantığıyla giriyoruz — düşey doğrultuda sabit, geniş taban alanlı, ağır yük taşıyan bir platform. Organize sanayideki dokuma ve iplik hollerinde tavan kotu çoğu zaman 8-12 metre bandındadır; buradaki iş genellikle nokta işi değil hat işidir — aydınlatma armatürlerinin sırayla değişimi, kablo tavası bakımı, aspirasyon kanalı temizliği gibi aynı yükseklikte tekrarlayan görevler. Terbiye ve boyahane bölümlerinde ise nem ve buhar sürekli mevcuttur; burada makinenin elektrik aksamının bu ortama dayanıklı olması ve zeminin ıslak-kaygan olabileceği bilinerek çalışılması gerekir. Deri işleme tesislerinde de benzer bir ıslak proses söz konusudur, tabana dökülen su ve kimyasal kalıntı zemin seçimini etkiler. Makaslı platformun avantajı, bu üç ortamda da geniş sepetiyle iki kişiyi ve malzemeyi aynı anda taşıyabilmesi, sepetin sabit kalması sayesinde ustanın merdivende harcadığı dengeyi düşünme çabasından kurtulmasıdır. Seramik-cam ve yapı malzemesi üreten yan kollarımızda da benzer kotlarda, benzer mantıkla çalışırız; depo-lojistik tesislerinde ise raf koridoru genişliği makine seçimini belirleyen ek bir kısıttır.",
+        maddeler: [
+            {
+                baslik: "Dokuma hollerinde lif-toz yükü ve yangın riskine göre seçim",
+                metin:
+                    "Halı ve battaniye dokuma hollerinde havada asılı kalan lif ve toz, hem elektrik ekipmanının hem de sıcak yüzeylerin yakınında yangın yükü oluşturur. Bu hollerde çalışacak makaslı platform, üreticinin belirttiği elektrik güvenlik sınıfına uygun seçilir ve makinenin kendisi de düzenli olarak toz birikiminden temizlenir. Sepetin konumlandığı nokta, tekstil tozunun en yoğun biriktiği kanal ağızlarının hemen altına gelmeyecek şekilde planlanır; iş bitiminde sepet ve şasi üzerindeki toz artıkları silinerek makine holden çıkarılır.",
+            },
+            {
+                baslik: "Terbiye-boyahane biriminde nem ve kimyasal ortam",
+                metin:
+                    "Boyahane ve terbiye bölümlerinde zemin sık sık ıslaktır ve havada boya-kimyasal buharı bulunur. Bu ortamda akülü makaslı platform tercih edilir — yanıcı buhar riski taşıyan ortamlarda içten yanmalı makine kullanılmaz. Zemin kaygansa çalışma öncesi kurutulur veya makinenin duracağı nokta değiştirilir; şasi ve tekerlekler her iş sonunda kimyasal kalıntıdan arındırılır ki bir sonraki tesiste çapraz bulaşma olmasın.",
+            },
+            {
+                baslik: "Deri işleme tesisinde ıslak proses ve zemin aşınması",
+                metin:
+                    "Deri işleme hattının ıslak proses bölümünde (yıkama, tabaklama, boyama havuzları çevresi) zemin sürekli nemli, bazen kaygan ve kimyasal aşındırıcıya maruz kalmış olabilir. Burada makine güzergâhı, havuzların kenarından değil kuru geçitlerden planlanır; zemin kaplamasının aşınmış veya çatlamış olduğu noktalar keşifte işaretlenir ve gerekiyorsa yük dağıtıcı plaka kullanılır. Havuz üstü çalışma zorunluysa emniyet kemeri ve ekstra yaklaşım mesafesi standart uygulamadır.",
+            },
+            {
+                baslik: "Geniş sepet ile hat işini tek seferde bitirmek",
+                metin:
+                    "Makaslı platformun dar şasili eklemli modellere göre üstünlüğü, sepetinin geniş ve taşıma kapasitesinin yüksek olmasıdır — iki kişi ve malzemesi aynı anda sepette durabilir. Dokuma hattı boyunca sıralanmış onlarca aydınlatma armatürü veya kablo tavası bağlantısı, tek makineyle, malzeme sepette taşınarak, aşağı-yukarı inip binmeden bitirilir. Bu, hem işin süresini kısaltır hem de merdivenle taşınan malzemenin düşme riskini ortadan kaldırır.",
+            },
+            {
+                baslik: "Sabit zeminli hollerde manevra ve güzergah planlama",
+                metin:
+                    "Makaslı platform, eklemli modelin aksine engelin üstünden aşamaz — dikey hareket eder, bu yüzden güzergahı önceden düz ve engelsiz olmalıdır. Dokuma hollerinde raf, palet istifi veya sabit makine grupları arasında geçilecek koridor genişliği keşifte ölçülür; koridor darsa dar şasili makaslı modele geçilir. Terbiye ve deri tesislerinde ise ıslak zemin koridorları önceden belirlenip, makine bu güzergahtan sapmadan çalışır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Uşak sanayisinde tesis tipi ve makaslı platform eşleşmesi",
+                paragraflar: [
+                    "Uşak’ın üç ana sanayi kolunda makaslı platformun tipik kullanım alanı, kot aralığı ve dikkat edilen zemin/ortam koşulu aşağıda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Tesis tipi", "Tipik kot", "Ortam koşulu", "Öncelikli önlem"],
+                    satirlar: [
+                        ["Dokuma-iplik holü", "6 – 12 m", "Lif-toz, yangın yükü", "Güvenlik sınıfı + toz temizliği"],
+                        ["Terbiye-boyahane", "5 – 9 m", "Nem, kimyasal buhar", "Akülü tercih, zemin kontrolü"],
+                        ["Deri işleme (ıslak proses)", "4 – 7 m", "Islak, aşındırıcı zemin", "Kuru güzergah, plaka"],
+                        ["Seramik-cam üretim", "6 – 10 m", "Toz, sıcak fırın yakını", "Mesafe kontrolü"],
+                        ["Depo-lojistik", "7 – 11 m", "Dar raf koridoru", "Koridor genişliği ölçümü"],
+                    ],
+                },
+            },
+            {
+                baslik: "Akülü mü, dizel mi: Uşak tesislerinde tercih nedeni",
+                paragraflar: [
+                    "Kapalı hollerde ve boyahane gibi buharlı ortamlarda akülü makaslı platform neredeyse tek seçenektir; egzoz gazı ve kıvılcım riski, kapalı hacimde kabul edilemez. Uşak’taki tesislerin büyük bölümü kapalı veya yarı kapalı olduğu için filomuzun ağırlığı da akülü modellerdedir. Dış saha veya çok geniş açık depo işlerinde, şarj süresi kısıtlayıcı olursa dizel/LPG seçenek değerlendirilir; bu tercih müşteriyle birlikte, işin süresi ve ortamına göre netleştirilir.",
+                    "Akülü makinenin bir başka avantajı gürültü seviyesidir — üretim durmadan çalışılan hollerde, düşük gürültülü makine hem işitsel rahatsızlık yaratmaz hem de operatörün çevresel sesleri (uyarı, komut) daha net duymasını sağlar.",
+                ],
+            },
+            {
+                baslik: "Teslim öncesi kontrol listesi",
+                paragraflar: [
+                    "Makaslı platform sevkiyatından önce üç şey netleştirilir: tesisin kapı/koridor genişliği (makine geçebilecek mi), zemin türü ve güncel durumu (kuru mu, ıslak mı, yakın zamanda bir şey döküldü mü) ve çalışılacak kotun serbest tavan yüksekliği (sepet üstte bir engele çarpar mı). Bu üç bilgi telefonda veya fotoğrafla netleştiğinde makine seçimi kesinleşir; belirsizlik varsa ücretsiz keşif önerilir.",
+                    "Teslim sırasında operatöre (kendi personeliyse) veya bizim operatörümüze güzergah ve varsa özel dikkat noktaları (ıslak bölge, dar geçiş, hassas ekipman yakını) sözlü olarak aktarılır; bu bilgi teslim tutanağına da not düşülür.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Dokuma holümüzde toz çok yoğun; makaslı platform bu ortamda güvenli mi?",
+                cevap:
+                    "Evet, ancak makinenin elektrik güvenlik sınıfının bu ortama uygun olması ve düzenli temizlenmesi şartıyla. Toz birikimi elektrik kontaklarında ve motor çevresinde risk oluşturabileceği için makine iş öncesi ve sonrası kontrol edilir, gerekirse temizlenir. Sepetin konumlandığı nokta, tozun en yoğun biriktiği kanal ağızlarının altına gelmeyecek şekilde seçilir. Holünüzdeki toz yoğunluğunu ve varsa yangın önlem sisteminizi (sprinkler, duman dedektörü) bize iletirseniz, buna göre ek önlem alırız.",
+            },
+            {
+                soru: "Boyahanede zemin sürekli ıslak; makine kayar mı, elektrik riski var mı?",
+                cevap:
+                    "Islak zeminde akülü makaslı platform kullanırız — içten yanmalı makine bu ortamda çalıştırılmaz. Kayma riskine karşı makinenin duracağı nokta önceden kontrol edilir; zemin aşırı kaygansa kurutulur veya konum değiştirilir. Elektrik aksamı buhar ve neme dayanıklı olacak şekilde üreticinin belirttiği sınıfta seçilir. İş sonunda şasi ve tekerlekler kimyasal kalıntıdan temizlenir ki makine bir sonraki işe temiz gitsin.",
+            },
+            {
+                soru: "Deri işleme tesisimizde havuzların üstünde çalışmamız gerekiyor, güvenli mi?",
+                cevap:
+                    "Mümkünse havuz üstü çalışmadan kaçınılır — güzergah kuru geçitlerden planlanır. Zorunlu olduğu durumlarda emniyet kemeri kullanımı ve ekstra yaklaşım mesafesi standart uygulamadır; sepet havuz kenarına asla tam kenardan yaklaştırılmaz. Zemin kaplamasının durumu (aşınma, çatlak) keşifte işaretlenir ve gerekiyorsa yük dağıtıcı plaka kullanılır. Havuzların tam konumunu ve derinliğini önceden bize bildirin, güzergahı buna göre çizelim.",
+            },
+            {
+                soru: "Aynı hatta 40 armatür değişecek, bu kadar iş bir günde biter mi?",
+                cevap:
+                    "Genellikle evet — makaslı platformun geniş sepeti sayesinde malzeme sepette taşınır, iniş-biniş olmadan hat boyunca ilerlenir. Süre, armatür sayısından çok konum sayısına ve her konumda geçirilen zamana bağlıdır; net bir tahmin için hat uzunluğunu ve armatür aralığını paylaşmanız yeterli. İş büyükse ve tek günde bitmesi gerekiyorsa, ikinci bir makine veya operatörlü çalışma seçeneğini birlikte değerlendiririz.",
+            },
+            {
+                soru: "Holümüzde raf ve palet istifi var, makine aralarından geçebilir mi?",
+                cevap:
+                    "Bağlıdır — makaslı platform dikey hareket eder, engelin üstünden aşamaz, bu yüzden koridor genişliği belirleyicidir. Standart makaslı model için koridor net genişliğini keşifte ölçeriz; dar kalıyorsa dar şasili makaslı modele veya kompakt eklemliye geçeriz. Raf düzeninizin planını veya koridor ölçülerini önceden paylaşırsanız, doğru makineyi sevkiyattan önce netleştirebiliriz.",
+            },
+            {
+                soru: "Operatörlü mü kiralayalım, kendi ustamız mı kullansın?",
+                cevap:
+                    "İkisi de mümkün; seçim işin niteliğine bağlı. Kendi ustanız kullanacaksa yüksekte çalışma yeterliliği ve platform kullanım deneyimi aranır, teslimde uygulamalı devir yapılır. Uşak’taki dokuma-boyahane-deri hatlarının çoğunda, ortam koşulları (toz, nem, kimyasal) nedeniyle makinenin manevrasını bilen bir operatörün üstlenmesi ve sizin ustanızın yalnızca kendi işine (elektrik, tesisat) odaklanması işi hızlandırır. Erişimi biz kurarız, esas işi sizin ustanız yapar.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Uşak’ın dokuma-terbiye-deri üç sanayi kolunun genel ortam özellikleri (lif-toz, nem-kimyasal, ıslak proses) kamuya açık genel bilgidir; makine seçim mantığı ve saha önlemleri firma pratiğidir. Belirli tesis adı veya rakam kullanılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Uşak’ta Manlift Kiralama",
+        giris:
+            "Manlift terimi, sahada bizim için tek bir makine tipini değil bir ihtiyaç sınıfını tanımlar: sepetli, kişiyi doğrudan çalışma noktasına taşıyan her tür yüksekte çalışma platformu. Uşak’ta bu talebin en yoğun geldiği yer, dokuma hollerinin çatı çelik konstrüksiyonu ve çatı arası aydınlatma-havalandırma hattıdır — burada kot genellikle 8 metrenin üzerindedir ve makaslı platformun düz-dikey hareketi yetmeyebilir; eklemli manlift, çatı kirişinin altından dolanarak veya bir makine grubunun üstünden aşarak noktaya ulaşır. Terbiye-boyahane tesislerinde ise manlift talebi daha çok bina dışı cephe ve çatı bakımı için gelir — iç mekân nemli olsa da dış cephe kuru bir çalışma alanıdır ve burada eklemli veya teleskopik manlift bom uzunluğuyla avantaj sağlar. Deri işleme tesislerinde manlift, üretim hattından çok bina bakımı ve depo çatısı işlerinde devreye girer. Seramik-cam üretiminde fırın bacası ve baca gazı hattı gibi yüksek noktalar, yapı malzemesi tesislerinde silo üstü ve konveyör hattı, depo-lojistiğinde ise rampa üstü çatı aydınlatması manlift ile çalışılan tipik noktalardır. Ortak payda, engelli bir güzergahta ve/veya standart platformun ulaşamayacağı bir yatay-dikey kombinasyonunda çalışma noktasına ulaşmak.",
+        maddeler: [
+            {
+                baslik: "Dokuma holü çatı konstrüksiyonunda eklemli manlift",
+                metin:
+                    "Dokuma hollerinin çatı çelik konstrüksiyonu, aşıklar, gergi çubukları ve aydınlatma raylarıyla karmaşık bir geometri oluşturur. Bu geometride dikey hareket eden bir makaslı platform, çoğu zaman hedef noktaya tam altından ulaşamaz — aradaki bir kiriş veya boru engeldir. Eklemli manlift, bomu kırarak engelin yanından veya altından dolanır, sepeti hedef noktaya yatay bir yaklaşımla getirir. Bu manevra, holdeki makine gruplarının çalışmasını durdurmadan, aralarından geçilerek de yapılabilir.",
+            },
+            {
+                baslik: "Boyahane ve terbiye biriminde dış cephe ve çatı bakımı",
+                metin:
+                    "Terbiye-boyahane binalarının dış cephesinde buhar bacası, çatı havalandırma fanı ve dış aydınlatma armatürü gibi noktalar düzenli bakım gerektirir. Bu işler bina dışında, iç mekândaki nem-kimyasal ortamdan bağımsız yürütülür; burada asıl belirleyici bina çevresindeki zemin düzlüğü ve manevra alanıdır. Teleskopik manlift, uzun bom mesafesiyle binaya yakın park edip yüksek bir noktaya erişebilir; bu, bina cephesine yakın çalışma alanı olmayan tesislerde tercih sebebidir.",
+            },
+            {
+                baslik: "Deri işleme tesisinde bina bakımı ve depo çatısı",
+                metin:
+                    "Deri işleme tesislerinde manlift talebi genellikle üretim hattından değil, bina zarfından gelir: depo çatısı yalıtım veya membran bakımı, cephe yağmur oluğu temizliği, bina dışı aydınlatma değişimi. Bu işlerde zemin genellikle tesisin dış avlusudur ve iç mekândaki ıslak proses koşullarından etkilenmez; asıl kısıt avlunun manevra genişliği ve varsa araç trafiğidir. Çalışma saatleri, tesisin araç giriş-çıkış yoğunluğuna göre planlanır.",
+            },
+            {
+                baslik: "Fırın, baca ve silo gibi endüstriyel yüksek noktalar",
+                metin:
+                    "Seramik-cam üretiminde fırın bacası ve baca gazı hattı, yapı malzemesi tesislerinde silo üstü ve konveyör hattı gibi noktalar hem yüksek hem de sıcak veya tozlu bir çevreye sahiptir. Bu noktalarda manlift seçimi, sadece erişilecek yükseklik değil aynı zamanda ısı ve toz koşuluna dayanıklı ekipman gerekliliğiyle de belirlenir. Sıcak yüzeye yakın çalışmalarda sepet ile yüzey arasında güvenli mesafe bırakılır, ısı kaynağının soğutulması veya durdurulması mümkünse tercih edilir.",
+            },
+            {
+                baslik: "Bom uzunluğu ve yatay erişim mesafesinin hesaplanması",
+                metin:
+                    "Manlift seçiminde belirleyici olan tek başına yükseklik değil, makinenin duracağı nokta ile hedef nokta arasındaki yatay mesafedir. Bina cephesine yakın park edilemeyen tesislerde (örneğin önünde havuz, kanal veya sabit ekipman olan noktalarda) uzun bomlu teleskopik manlift tercih edilir; yakın park mümkünse daha kompakt eklemli model yeterli olur. Bu hesap keşifte, hedef noktanın fotoğrafı ve makinenin duracağı alanın ölçüsüyle birlikte yapılır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Uşak sanayisinde manlift tipi ve erişim noktası eşleşmesi",
+                paragraflar: [
+                    "Manlift talebinin geldiği tipik nokta, gerekli erişim mantığı ve önerilen makine tipi aşağıdaki tabloda özetlenmiştir.",
+                ],
+                tablo: {
+                    basliklar: ["Erişim noktası", "Erişim mantığı", "Önerilen makine", "Belirleyici faktör"],
+                    satirlar: [
+                        ["Dokuma holü çatı konstrüksiyonu", "Engelin yanından dolanma", "Eklemli manlift", "Kiriş/boru engeli"],
+                        ["Boyahane dış cephe-çatı", "Uzun yatay erişim", "Teleskopik manlift", "Bina yakınına park imkanı"],
+                        ["Deri tesisi depo çatısı", "Bina zarfı bakımı", "Eklemli veya teleskopik", "Avlu manevra genişliği"],
+                        ["Fırın bacası, silo üstü", "Sıcak/tozlu yüksek nokta", "Isıya dayanıklı eklemli", "Sepet-yüzey mesafesi"],
+                        ["Konveyör hattı üstü", "Dar geçiş + yükseklik", "Kompakt eklemli", "Hat üstü serbest yükseklik"],
+                    ],
+                },
+            },
+            {
+                baslik: "Eklemli mi, teleskopik mi: bom geometrisi farkı",
+                paragraflar: [
+                    "Eklemli manliftin bomu birden fazla noktadan kırılır; bu, engelin üstünden veya yanından dolanarak hedefe ulaşmayı sağlar — dokuma holündeki kiriş-boru karmaşasında tercih sebebi budur. Teleskopik manlift ise bomu düz uzatır, daha uzun yatay mesafeye ulaşır ama engelin etrafından dolanamaz — açık alanda, bina cephesine uzaktan erişimde daha uygundur.",
+                    "Uşak’taki tesislerin çoğunda iç mekân işleri eklemli, dış cephe ve açık saha işleri teleskopik makineyle çözülür. Hangi tipin gerektiği, keşifte hedef noktanın fotoğrafı ve makinenin duracağı yer görülerek netleştirilir; telefonda verilen ön bilgi kesin karardan önce bir başlangıç noktasıdır.",
+                ],
+            },
+            {
+                baslik: "Sevkiyat öncesi netleştirilmesi gereken üç bilgi",
+                paragraflar: [
+                    "Manlift talebinde üç bilgi işi doğru makineyle başlatır: hedef noktanın yerden yüksekliği ve varsa erişimi engelleyen unsur (kiriş, boru, sabit ekipman), makinenin duracağı zeminin türü ve düzlüğü, ve bina/tesis dışına park gerekiyorsa manevra alanının genişliği. Bu üç bilgi net değilse, sevkiyat öncesi ücretsiz keşif yapılır ve makine seçimi keşif sonrası kesinleşir.",
+                    "Bina dışı işlerde ayrıca çalışma saatinin tesisin araç trafiğiyle çakışmaması önemlidir; bu detay talep alınırken sorulur ve plana dahil edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki fark nedir, hangisini seçeceğiz?",
+                cevap:
+                    "İkisi de sepetli yüksekte çalışma platformudur ama hareket mantığı farklıdır. Makaslı platform yalnızca dikey hareket eder, sepet altında ne varsa onun üzerinden geçemez. Manlift (eklemli veya teleskopik) bomunu kırarak veya uzatarak yatay mesafeye de erişir, engelin yanından dolanabilir. Uşak’taki dokuma holü çatı konstrüksiyonu gibi engelli güzergahlarda genellikle manlift gerekir; düz ve engelsiz bir koridorda makaslı platform daha ekonomik ve geniş sepetlidir. Hedef noktanın fotoğrafını gönderirseniz, doğru tipi netleştiririz.",
+            },
+            {
+                soru: "Çatı konstrüksiyonumuzda birçok kiriş ve boru var, makine bunların arasından geçebilir mi?",
+                cevap:
+                    "Genellikle evet, eklemli manlift bunun için tasarlanmıştır — bomu birden fazla noktadan kırılarak engelin yanından veya altından dolanabilir. Ancak geçiş net genişliği ve makinenin bom erişim yarıçapı, keşifte veya paylaşacağınız fotoğraf-ölçülerle kontrol edilmelidir; her konstrüksiyon geometrisi farklıdır. Belirsiz noktalarda önce ücretsiz keşif yapıp güzergahı birlikte çizeriz.",
+            },
+            {
+                soru: "Boyahanenin dış cephesindeki bacaya erişmemiz gerekiyor, bina yanına park edebilir miyiz?",
+                cevap:
+                    "Bağlı olduğu duruma göre değişir. Bina yakınına park mümkünse, kompakt eklemli manlift yeterli olabilir. Yakın park edilemeyen (önünde engel, kanal veya sabit ekipman olan) noktalarda uzun bomlu teleskopik manlift tercih edilir; bu makine binadan bir miktar uzakta durup bomu hedefe doğru uzatır. Bacanın konumunu ve civarındaki zemin/engel durumunu fotoğrafla paylaşırsanız, doğru makineyi önceden belirleriz.",
+            },
+            {
+                soru: "Depo çatımızda membran bakımı yapılacak, zemin avluda düz değil; sorun olur mu?",
+                cevap:
+                    "Avlu zemininin durumu makine seçiminde önemli bir faktördür. Düzensiz veya eğimli avlu zemininde, kendi seviye dengeleme donanımına sahip eklemli manlift tercih edilir. Zemin dolgu veya sıkışmamışsa yük dağıtıcı plaka kullanılır. Avlunun genel durumunu ve varsa eğim yönünü bize iletirseniz, keşif öncesinde ön bir değerlendirme yapabiliriz; kesin karar sahada zemin kontrolüyle netleşir.",
+            },
+            {
+                soru: "Fırın bacası sıcak, makine bu koşulda çalışabilir mi?",
+                cevap:
+                    "Sıcak yüzeye yakın çalışmada asıl önlem mesafedir — sepet ile sıcak yüzey arasında güvenli bir mesafe bırakılır ve mümkünse ısı kaynağının geçici olarak soğutulması veya durdurulması istenir. Makinenin kendisi standart bir manlift olabilir, ancak operatörün ısı ve toz koşuluna karşı kişisel koruyucu ekipmanı ayrıca değerlendirilir. Fırının çalışma durumunu (aktif mi, duracak mı) ve baca çevresindeki mesafeyi önceden paylaşmanız planlamayı kolaylaştırır.",
+            },
+            {
+                soru: "Manlift için de operatör siz mi sağlıyorsunuz?",
+                cevap:
+                    "Evet, operatörlü kiralama seçeneği manlift için de geçerlidir; özellikle çatı konstrüksiyonu gibi engelli güzergahlarda deneyimli bir operatörün bom manevrasını yönetmesi işi hızlandırır ve güvenliği artırır. Kendi personeliniz kullanacaksa yüksekte çalışma ve manlift kullanım yeterliliği aranır, teslimde uygulamalı devir yapılır ve emniyet kemeri kullanımı zorunludur. Hangi seçeneğin işinize uygun olduğunu, hedef noktanın erişim zorluğuna bakarak birlikte değerlendiririz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Uşak’ın dokuma-terbiye-deri üç sanayi kolunun genel yapı özellikleri (çatı konstrüksiyonu, dış cephe, bina zarfı) kamuya açık genel bilgidir; makine tipi seçim mantığı ve saha önlemleri firma pratiğidir. Belirli tesis adı veya rakam kullanılmamıştır.",
+    },
 };

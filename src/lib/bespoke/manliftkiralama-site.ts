@@ -1691,4 +1691,196 @@ export const MANLIFTKIRALAMA_SITE: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Samsun liman dolgu sahaları ve kırsal arazinin Karadeniz yağış rejiminden etkilenmesi kamuya açık genel bilgidir; zemin değerlendirme yöntemi ve destek uygulaması firma saha pratiğidir. Tesis adı, kapasite ve rakam kullanılmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Samsun Liman Antreposu ve Gıda Ambalajlama Hattında Makaslı Platform Kiralama",
+        giris:
+            "Liman çevresindeki antrepo ve gıda ambalajlama tesislerinde çalışma düzeni, açık sahadan oldukça farklıdır: zemin düz ve beton, tavan yüksekliği sınırlı, koridorlar dardır ve çoğu zaman aynı anda iki kişi ile birlikte malzeme taşınması gerekir. Makaslı platform bu tabloya en uygun makine türüdür — dikey yükselen geniş sepedi, bomlu platformların aksine yatay uzanım gerektirmeyen bakım işlerinde daha fazla yük ve daha fazla personel taşıma imkânı sunar. Karadeniz'in dökme yük ve tahıl-gübre elleçleme kimliğine sahip liman bölgesinde, bu tip antrepolarda genellikle konveyör üstü aydınlatma, sprinkler hattı kontrolü ve raf sistemi üst kat bakımı için makaslı platform talep edilir. Gıda ambalajlama hatlarının bulunduğu kapalı alanlarda ise ek bir kısıt daha devreye girer: dizel veya LPG'li makine egzoz kokusu ve gaz emisyonu nedeniyle kullanılamaz, bu yüzden bu tesislerde neredeyse istisnasız elektrikli makaslı platform tercih edilir. Bu sayfada makaslı platformun antrepo ve gıda ambalajlama hattında hangi işlerde öne çıktığını, dar koridor modellerinin nasıl seçildiğini ve soğuk hava deposu gibi özel alanlarda nelere dikkat edildiğini anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Geniş sepetle çoklu personel ve malzeme taşıma",
+                metin:
+                    "Makaslı platformun sepedi, bomlu modellere göre belirgin biçimde daha geniştir; bu da aynı anda iki kişinin ve gerekli malzemenin (kablo makarası, aydınlatma armatürü, boru parçası) birlikte taşınmasını mümkün kılar. Antrepo içi bakım işlerinde tek seferde daha fazla iş kalemi tamamlanabildiği için iniş-çıkış sayısı azalır.",
+            },
+            {
+                baslik: "Kapalı gıda tesisinde elektrikli makine zorunluluğu",
+                metin:
+                    "Gıda ambalajlama hattının bulunduğu kapalı alanlarda içten yanmalı motorlu makine kullanılmaz; hem egzoz gazı hem de yağ kaçağı riski gıda güvenliği kurallarıyla bağdaşmaz. Bu yüzden bu tesislere sevk edilen makaslı platformlar sıradan elektrikli modeller değil, iç mekân için üretilmiş sızdırmaz akü ve düşük gürültülü tahrik sistemine sahip modellerdir.",
+            },
+            {
+                baslik: "Antrepo raf aralığı ve dar koridor modelleri",
+                metin:
+                    "Raf sistemleri arasındaki koridor genişliği standart makaslı platformun geçişine izin vermeyebilir; bu durumda dar gövdeli, düşük taban yüksekliğine sahip kompakt makaslı modeller devreye girer. Koridor genişliği teslimattan önce ölçülür, çünkü sahada ölçü almadan gönderilen bir makine koridora sığmayabilir ve iş gününü baştan aksatır.",
+            },
+            {
+                baslik: "Soğuk hava deposunda düşük sıcaklık çalışması",
+                metin:
+                    "Bazı gıda tesislerinde ürün soğuk hava deposunda saklanır ve bu bölümlerde bakım işleri de düşük sıcaklıkta yürütülür. Akülü makaslı platformların performansı düşük sıcaklıkta bir miktar azalır; bu yüzden soğuk hava deposu işlerinde şarj seviyesi normalden daha yüksek tutulur ve çalışma süresi buna göre planlanır.",
+            },
+            {
+                baslik: "Dökme yük depolama tesisinde çatı ve tavan bakımı",
+                metin:
+                    "Tahıl ve gübre gibi dökme yüklerin depolandığı kapalı ambarlarda çatı çelik konstrüksiyonu ve tavan aydınlatması düzenli kontrol gerektirir. Zemin düz ve sağlam olduğu için bu tip ambarlarda makaslı platform, eklemli bom platforma göre daha yüksek kapasiteyle ve daha kararlı biçimde çalışır; yatay erişim ihtiyacı olmadığından tercih genellikle makaslı yönde olur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Mekân tipine göre makaslı platform seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, liman çevresindeki antrepo ve gıda tesisi alanlarını ve bu alanlarda tercih ettiğimiz makaslı platform tipini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["Alan tipi", "Öne çıkan kısıt", "Tercih edilen model", "Tahrik"],
+                    satirlar: [
+                        ["Gıda ambalajlama hattı", "Egzoz/gaz emisyonu yasağı", "İç mekân elektrikli", "Akülü"],
+                        ["Antrepo dar koridor", "Raf aralığı genişliği", "Kompakt dar gövde", "Akülü"],
+                        ["Soğuk hava deposu", "Düşük sıcaklıkta çalışma", "Standart elektrikli, yüksek şarj", "Akülü"],
+                        ["Ambar çatı/tavan", "Yükseklik, düz geniş zemin", "Standart geniş sepetli", "Akülü/dizel"],
+                    ],
+                },
+            },
+            {
+                baslik: "Koridor ve kapı ölçüsü teslimattan önce neden sorulur",
+                paragraflar: [
+                    "Makaslı platformun gövde genişliği ve kapalı taşıma yüksekliği modelden modele farklıdır; bu ölçüler antrepo kapı genişliği ve koridor aralığıyla uyuşmazsa makine sahaya giremez veya rafların arasında ilerleyemez. Bu yüzden teslimattan önce koridor genişliği, kapı yüksekliği ve varsa rampa eğimi işletmeden istenir.",
+                    "Ölçü bilgisi eksikse, sahaya standart genişlikte bir makine gönderilip geri çevrilmesindense, önce fotoğraf veya kısa video üzerinden ön değerlendirme yapılması önerilir; bu, hem zaman kaybını hem de gereksiz nakliye masrafını önler.",
+                ],
+            },
+            {
+                baslik: "Gıda tesisinde hijyen ve temizlik önceliği",
+                paragraflar: [
+                    "Gıda ambalajlama hattına giren her makine, tekerlek ve gövde temizliği açısından ayrı bir standarda tabidir; dışarıdan gelen toz veya yağ izi ürün güvenliğini tehlikeye atabilir. Bu yüzden bu tesislere sevk edilen makaslı platformlar, sahaya girmeden önce temizlenir ve mümkünse yalnızca iç mekân işlerinde kullanılmış makineler tercih edilir.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Gıda ambalajlama hattında neden mutlaka elektrikli makaslı platform kullanılıyor?",
+                cevap:
+                    "İçten yanmalı motorlu makinelerin egzoz gazı ve olası yağ kaçağı, gıda güvenliği kurallarıyla bağdaşmaz; bu yüzden kapalı gıda tesislerine sevk edilen makaslı platformlar akülü ve sızdırmaz modellerden seçilir. Bu, tercih değil kapalı alan gıda tesisinin doğal bir gerekliliğidir.",
+            },
+            {
+                soru: "Antrepo koridoru dar olduğunda hangi model gönderiliyor?",
+                cevap:
+                    "Koridor genişliği teslimattan önce ölçülür ve standart makaslı platform sığmayacaksa dar gövdeli, düşük taban yüksekliğine sahip kompakt bir model tercih edilir. Ölçü bilgisi paylaşılmadan gönderilen bir makine koridora sığmayabilir, bu yüzden bu bilgi teslimattan önce netleştirilir.",
+            },
+            {
+                soru: "Soğuk hava deposunda akülü makine performans kaybediyor mu?",
+                cevap:
+                    "Evet, düşük sıcaklık akü performansını bir miktar düşürür ve çalışma süresini kısaltabilir. Bu yüzden soğuk hava deposu işlerinde makine tam şarjlı olarak teslim edilir ve çalışma süresi normal sıcaklığa göre biraz daha temkinli planlanır.",
+            },
+            {
+                soru: "Makaslı platform ile eklemli bom platform arasındaki fark nedir?",
+                cevap:
+                    "Makaslı platform yalnızca dikey yükselir ve buna karşılık geniş, yüksek kapasiteli bir sepet sunar; eklemli bom ise yatay uzanım ve yanal manevra gerektiren, engel etrafından dolaşılması gereken işlerde tercih edilir. Antrepo veya düz zeminli ambar gibi yatay erişim gerektirmeyen alanlarda makaslı platform daha kararlı ve daha yüksek kapasiteli bir seçenektir.",
+            },
+            {
+                soru: "Ambalajlama hattı çalışırken makine üstünde bakım yapılabilir mi?",
+                cevap:
+                    "Hat çalışırken yapılacak işler, hangi bölümün geçici olarak durdurulacağı önceden işletmeyle birlikte planlanır; makaslı platform çalışırken hattın diğer bölümleri üretime devam edebilir. Gıda hattına özgü hijyen kuralları nedeniyle bu planlama, çalışma tarihinden önce netleştirilir.",
+            },
+            {
+                soru: "Ambar çatısı gibi yüksek noktalarda makaslı platformun avantajı ne?",
+                cevap:
+                    "Dökme yük ambarlarının çatı ve tavan bölümü genellikle düz, geniş ve engelsiz bir zemine sahiptir; bu koşulda makaslı platform, eklemli bom platforma göre daha yüksek kapasiteyle ve daha kararlı biçimde çalışır. Yatay erişim ihtiyacı olmadığı için makaslı platform bu tip işlerde ilk tercih olur.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Samsun liman bölgesindeki antrepo ve gıda ambalajlama tesislerinin varlığı, dökme yük-tahıl-gübre elleçleme kimliği kamuya açık genel bilgidir; makine seçimi kriterleri ve saha pratiği firma bilgisidir. Tesis adı ve kapasite rakamı kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Samsun Liman Silosu ve Dış Cephe Nokta Bakımında Manlift Kiralama",
+        giris:
+            "Liman sahasındaki tahıl silosu, gübre depolama tesisi ve rıhtım üstü yapılarda bazı bakım işleri, geniş bir sepet veya uzun bir bom gerektirmez — tek bir teknisyenin kısa süreliğine, tek bir noktaya hızlıca ulaşmasını gerektirir. Dış aydınlatma armatürünün değişimi, boru hattı bağlantısının kontrolü veya bir sensörün yeniden kalibre edilmesi gibi işler bu kategoriye girer. Dikey direkli manlift (tekerlekli itmeli veya kendinden hareketli mast tipi platform) tam olarak bu iş için tasarlanmıştır: düşük gövde ağırlığı sayesinde dar koridorlarda ve tesisler arası geçitlerde kolayca manevra eder, kurulum süresi kısadır ve tek kişilik çalışma için yeterli, kompakt bir sepet sunar. Karadeniz'in liman ve dökme yük elleçleme kimliğine sahip Samsun bölgesinde, silo yapıları ve depolama tesisleri arasındaki dar geçitler sık karşılaşılan bir saha koşuludur; bu geçitlerde büyük bir bomlu platform yerine manlift tercih edilir. Bu sayfada manliftin liman sahasındaki dar geçit ve nokta bakım işlerinde nasıl konumlandığını, hangi işlerde tercih edildiğini ve tekerlekli itmeli ile kendinden hareketli modeller arasındaki farkı anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Dar geçit ve koridorlarda hızlı konumlanma",
+                metin:
+                    "Silo yapıları, depolama tesisleri ve boru hatları arasındaki geçitler genellikle bir bomlu veya makaslı platformun geçemeyeceği kadar dardır. Manliftin dar gövdesi ve düşük ağırlığı, bu geçitlerde kolayca ilerlemesini sağlar; tek kişilik bir bakım işi için makinenin genişliğinden değil, ulaşabilirliğinden faydalanılır.",
+            },
+            {
+                baslik: "Tek nokta, kısa süreli bakım işleri",
+                metin:
+                    "Aydınlatma armatürü değişimi, sensör kalibrasyonu veya küçük bir boru bağlantı kontrolü gibi işler genellikle yarım saatten kısa sürer ve tek kişi tarafından yapılır. Manliftin kurulum ve konumlandırma süresi kısa olduğu için bu tip kısa işlerde büyük bir platform kurmaktan daha verimlidir.",
+            },
+            {
+                baslik: "Tekerlekli itmeli ve kendinden hareketli model farkı",
+                metin:
+                    "Tekerlekli itmeli manlift, elle bir sonraki noktaya çekilir ve düz, engelsiz iç mekânlarda tercih edilir; kendinden hareketli model ise kendi motoruyla hareket eder ve dış sahada, hafif eğimli veya biraz daha uzun mesafeli geçişlerde daha uygundur. Hangi modelin gönderileceği, çalışılacak noktalar arasındaki mesafeye ve zemin tipine göre belirlenir.",
+            },
+            {
+                baslik: "Silo ve depolama tesisi dış cephe nokta erişimi",
+                metin:
+                    "Silo dış gövdesindeki küçük bir kaynak dikişi kontrolü veya boya nokta onarımı, gövdeyi çevreleyen büyük bir tur gerektirmeden tek bir noktada yapılabiliyorsa, manlift eklemli bom platforma göre daha hızlı bir çözümdür. İş büyükse veya birden fazla nokta gövde çevresinde dağılmışsa, bu durumda eklemli bom platform tercih edilir.",
+            },
+            {
+                baslik: "Rıhtım üstü açık sahada rüzgâr ve stabilite sınırı",
+                metin:
+                    "Manlift, bomlu platformlara göre daha düşük çalışma yüksekliğine sahiptir ve bu da rüzgârlı liman sahasında bir miktar stabilite avantajı sağlar; yine de üretici kataloğundaki rüzgâr sınırı aşıldığında çalışma durdurulur. Rıhtım üstü açık alanlarda rüzgâr hızı iç bölgeye göre daha değişken olduğu için bu sınır sahada sık kontrol edilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İş tipine göre manlift model seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, liman çevresinde manlift talep edilen iş tiplerini ve bu işlerde tercih edilen model tipini özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Konum", "Tercih edilen model", "Ortalama iş süresi"],
+                    satirlar: [
+                        ["Aydınlatma armatürü değişimi", "İç mekân / kapalı ambar", "Tekerlekli itmeli", "Kısa"],
+                        ["Sensör/kalibrasyon kontrolü", "Silo dış gövde tek nokta", "Kendinden hareketli", "Kısa"],
+                        ["Boru bağlantı kontrolü", "Depolama tesisi geçidi", "Tekerlekli itmeli", "Kısa-orta"],
+                        ["Nokta boya/kaynak onarımı", "Rıhtım üstü açık saha", "Kendinden hareketli", "Orta"],
+                    ],
+                },
+            },
+            {
+                baslik: "Manlift ile bomlu platform arasında seçim nasıl yapılır",
+                paragraflar: [
+                    "İş tek bir noktada, kısa sürede ve tek kişi tarafından yapılacaksa manlift, hem kurulum süresi hem de dar geçitlerdeki manevra kolaylığı açısından daha uygun bir seçimdir. İş birden fazla noktayı kapsıyorsa veya gövde çevresinde bir tur gerektiriyorsa, bu durumda yatay uzanımı olan eklemli bom platform tercih edilir.",
+                    "Bu ayrımı netleştirmek için, çalışılacak noktaların sayısı ve aralarındaki mesafe teslimattan önce işletmeyle birlikte değerlendirilir; belirsiz durumlarda daha esnek olan bom platform önerilir.",
+                ],
+            },
+            {
+                baslik: "Dar geçitlerde ölçü uyuşmazlığı riski",
+                paragraflar: [
+                    "Silo ve depolama tesisleri arasındaki geçit genişliği tesisten tesise farklıdır; manliftin gövde genişliği bu geçide sığmıyorsa makine sahaya giremez. Bu yüzden geçit genişliği ve varsa üstten geçen boru veya kablo yüksekliği teslimattan önce netleştirilir; ölçü belirsizse kısa bir fotoğraf paylaşımı bu riski önler.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform arasındaki temel fark nedir?",
+                cevap:
+                    "Manlift dar gövdeli, düşük ağırlıklı ve tek kişilik çalışma için tasarlanmış dikey bir platformdur; makaslı platform ise daha geniş sepet ve daha yüksek kapasiteyle çoklu personel taşımaya uygundur. Dar geçitlerde ve tek nokta kısa işlerde manlift, geniş alanlarda ve çoklu personel gereken işlerde makaslı platform tercih edilir.",
+            },
+            {
+                soru: "Tekerlekli itmeli manlift ne zaman, kendinden hareketli ne zaman tercih ediliyor?",
+                cevap:
+                    "Tekerlekli itmeli model, düz ve engelsiz iç mekânlarda kısa mesafeli hareket için yeterlidir ve daha hafiftir. Kendinden hareketli model ise dış sahada, hafif eğimli zeminde veya noktalar arası mesafe uzunsa tercih edilir; motor gücü sayesinde işçi eforu gerektirmeden konumlanma sağlar.",
+            },
+            {
+                soru: "Silo dış cephesinde manlift mi yoksa eklemli bom platform mu kullanılır?",
+                cevap:
+                    "İş tek bir noktada, gövdeyi çevrelemeden yapılabiliyorsa manlift daha hızlı bir çözümdür. Birden fazla nokta gövde çevresinde dağılmışsa veya gövdeyi çevreleyen bir tur gerekiyorsa, yatay uzanımı olan eklemli bom platform tercih edilir; bu ayrım iş kapsamına göre teslimattan önce netleştirilir.",
+            },
+            {
+                soru: "Dar geçitlerde manlift sıkışma riski var mı?",
+                cevap:
+                    "Geçit genişliği ve varsa üstten geçen boru veya kablo yüksekliği önceden netleştirilmezse, gönderilen makine geçide sığmayabilir. Bu riski önlemek için teslimattan önce geçit ölçüsü işletmeden istenir; belirsiz durumlarda kısa bir fotoğraf paylaşımı yeterli olur.",
+            },
+            {
+                soru: "Rıhtım üstü açık sahada manlift rüzgârdan nasıl etkilenir?",
+                cevap:
+                    "Manlift, bomlu platformlara göre daha düşük çalışma yüksekliğine sahip olduğu için rüzgâr etkisine görece daha az duyarlıdır, ama üretici kataloğundaki rüzgâr sınırı yine de geçerlidir. Rıhtım üstü açık alanda rüzgâr hızı sık değiştiği için bu sınır çalışma boyunca düzenli kontrol edilir.",
+            },
+            {
+                soru: "Manlift tek kişilik işler için mi sınırlı, birden fazla kişi çalışabilir mi?",
+                cevap:
+                    "Manliftin sepedi kompakttır ve öncelikli olarak tek kişilik çalışma için tasarlanmıştır; bazı modellerde ikinci bir kişi için sınırlı yer bulunsa da malzeme taşıma kapasitesi makaslı platforma göre belirgin şekilde düşüktür. Çoklu personel veya fazla malzeme gereken işlerde manlift yerine makaslı platform önerilir.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Samsun liman bölgesindeki silo, depolama tesisi ve rıhtım yapılarının varlığı, dökme yük-tahıl-gübre elleçleme kimliği kamuya açık genel bilgidir; model seçim kriterleri firma saha pratiğidir. Tesis adı ve kapasite rakamı kullanılmamıştır.",
+    },
 };

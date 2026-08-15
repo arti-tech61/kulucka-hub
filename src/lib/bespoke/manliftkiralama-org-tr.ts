@@ -1700,4 +1700,201 @@ export const MANLIFTKIRALAMA_ORG_TR: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Gaziantep'in GAOSB sanayi dokusu ve Nizip'in tarım-zeytinyağı sanayisi kamuya açık genel bilgidir. Zemin değerlendirme yaklaşımı genel ekipman güvenliği pratiğine dayanır; kapsam dışı bırakılan tarım arazisi alanı dürüstçe belirtilmiştir, uydurma kapasite veya rakam verilmemiştir.",
     },
+
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Gaziantep'te Makaslı Platform Kiralama",
+        giris:
+            "Makaslı platformun gücü karmaşık bir manevra değil, dikey doğrultuda dar bir ayak iziyle sağlam ve dengeli yükselmesidir; bu da onu Gaziantep'in düz zeminli, tekrarlı iç mekan işlerinde birinci tercih hâline getirir. GAOSB'deki makine halısı ve dokuma tesislerinde tezgah sıraları arasında düzenli aralıklarla tekrarlanan tavan aydınlatması, kanal bakımı veya iplik askı sistemi kontrolü gibi işler, hedefin tam altına dik çıkmayı gerektirir; burada eklemli bir kolun esnekliğine ihtiyaç yoktur, aksine makaslı platformun geniş ve sabit sepeti iki kişinin malzemeyle birlikte çalışmasına daha uygundur. Boyahanelerin iç mekanında da benzer bir durum var: geniş açık salon, düz beton zemin ve tekrar eden istasyon aralıkları, makaslı platformun hızlı kurulup hızlı sökülmesini avantaja çevirir. Depo raf sistemlerinde etiketleme, stok sayımı veya raf onarımı gibi işler de aynı şekilde dik erişim ister. Bu sayfada makaslı platformun Gaziantep'in tekstil ve halı üretim dokusundaki tipik kullanım alanlarını, elektrikli-dizel seçim mantığını ve dar koridor geçişlerindeki sınırlarını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "Makine halısı üretim hattı üstü bakım",
+                metin:
+                    "Makine halısı üretim hatlarında iplik besleme sistemleri, tavan rayları ve aydınlatma armatürleri düzenli aralıklarla hattın üzerinde sıralanır. Bu noktaların her biri hattın tam altından erişilebilir konumdadır; makaslı platform hat boyunca ilerleyip her istasyonda dik yükselerek işi tamamlar. Hat çalışırken değil, planlı duruş aralığında yapılan bu işlerde hız önemlidir, makaslı platformun kurulum-sökme süresi kısa olduğu için art arda birçok istasyon aynı vardiyada bitirilebilir.",
+            },
+            {
+                baslik: "Dokuma salonu ve boyahanede tekrarlı istasyon işi",
+                metin:
+                    "GAOSB'deki dokuma salonlarının tavan yapısı genellikle düzenli aralıklarla tekrar eden aydınlatma ve havalandırma noktalarından oluşur. Boyahanelerde de benzer şekilde, boya kazanları arasındaki servis noktaları düz bir sırada dizilir. Bu tekrarlı düzende her seferinde aynı hizaya dik çıkmak yeterli olduğundan, eklemli bir kolun manevra kabiliyetine gerek kalmaz; makaslı platform bu işi hem daha ekonomik hem daha hızlı yapar.",
+            },
+            {
+                baslik: "Depo raf sistemlerinde etiketleme ve stok kontrolü",
+                metin:
+                    "İplik ve kumaş depolarındaki raf sistemleri düz koridorlarla ayrılır ve her koridorda tekrarlı bir yükseklik profili vardır. Etiketleme, stok sayımı veya raf onarımı gibi işlerde platform koridor boyunca ilerleyip her raf önünde dik yükselir. Sepetin geniş ve düz tabanlı olması, malzeme kutusu veya el terminaliyle çalışan iki kişinin aynı anda sepette durmasını da kolaylaştırır.",
+            },
+            {
+                baslik: "GAOSB'nin düz betonlu hollerinde hız ve ekonomi avantajı",
+                metin:
+                    "GAOSB'de yeni yapılan sanayi hollerinin zemini genellikle düz, sağlam dökülmüş betondur ve engel yoğunluğu düşüktür. Böyle bir zeminde eklemli platformun kol esnekliğine ödenen bedel gereksizdir; makaslı platform hem kiralama maliyeti hem kurulum süresi açısından daha uygun bir seçenek olur. Engel yoğunluğu arttıkça (boru, komşu ekipman, tank grubu gibi) bu denge eklemli platform lehine döner; hangi tip uygun olduğuna keşifte hedefin fotoğrafına bakarak karar veriyoruz.",
+            },
+            {
+                baslik: "Elektrikli-dizel seçim: kapalı salon önceliği",
+                metin:
+                    "Dokuma salonu, boyahane veya kapalı depo gibi iç mekan işlerinde elektrikli makaslı platform tercih edilir; egzoz emisyonu olmadığı için hem çalışan sağlığı hem hassas iplik ve kumaş malzemesi için risk taşımaz. Açık saha işlerinde (örneğin Nizip'teki tarım deposu açık yükleme alanı) dizel model daha uzun çalışma süresi sunar. Elektrikli modelin şarj süresi ve akü kapasitesi, işin süresine göre keşifte planlanır.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Ne zaman makaslı, ne zaman eklemli platform",
+                paragraflar: [
+                    "Gaziantep'teki tipik iç mekan senaryolarını ve makaslı platformun bu senaryolardaki rolünü aşağıda topladık.",
+                ],
+                tablo: {
+                    basliklar: ["Senaryo", "Zemin/engel durumu", "Uygun tip", "Gerekçe"],
+                    satirlar: [
+                        ["Halı üretim hattı üstü", "Düz, hat boyunca tekrarlı", "Makaslı", "Dik erişim yeterli"],
+                        ["Dokuma tavanı aydınlatma", "Düz, sabit hizada", "Makaslı", "Manevraya gerek yok"],
+                        ["Depo raf koridoru", "Dar ama düz koridor", "Makaslı (dar gövde model)", "Koridor genişliğine uyar"],
+                        ["Boyahane baca dibi", "Çatı hattı gerisi, engelli", "Eklemli", "Kol dolanarak erişim gerekir"],
+                        ["Tank grubu çevresi", "Komşu ekipman engeli", "Eklemli", "Yandan yaklaşım gerekir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Dar koridor ve kapı genişliği sınırı",
+                paragraflar: [
+                    "Makaslı platformun sepet genişliği düz erişimde avantaj sağlasa da, standart gövdeli modellerin dar depo koridorlarına veya standart kapı genişliğine sığmadığı durumlar olabilir. Bu tür alanlar için daha dar gövdeli makaslı modeller mevcuttur, ama bunların da bir sınırı vardır; kapı ve koridor genişliğini keşifte net ölçüyle kontrol ediyoruz.",
+                    "Koridor çok darsa veya hedefin önünde bir engel varsa, makaslı platform yerine örümcek platform veya eklemli platform öneriyoruz; yanlış tip seçimi sahada zaman kaybına yol açar, bu yüzden telefonla verilen tahmini ölçüye göre makine göndermiyoruz.",
+                ],
+            },
+            {
+                baslik: "Zemin dayanımı ve tekerlek izi",
+                paragraflar: [
+                    "GAOSB'deki yeni dökülmüş beton hollerde zemin dayanımı genellikle yeterlidir, ama yeni dökülmüş ve henüz tam sertleşmemiş beton bölgelerde tekerlek izi bırakma riski olabilir; bu durumda iş, betonun yeterince sertleştiği tarihe ertelenir veya koruma plakası kullanılır.",
+                    "Hassas boyalı veya parlatılmış zeminlerde (örneğin showroom bağlantılı üretim alanları) tekerlek izini önlemek için koruma plakası önerilir. Zemin durumu şüpheliyse keşifte yerinde kontrol ediyoruz.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform ile eklemli platform arasındaki temel fark ne, hangisini önerirsiniz?",
+                cevap:
+                    "Fark, hedefe nasıl yaklaşıldığında. Hedefin tam altı boşsa ve düz yukarı çıkmak yeterliyse makaslı platform hem daha ekonomik hem daha hızlı kurulur; makine halısı hattı üstü veya dokuma tavanı gibi düzenli tekrarlı işlerde bu tam olarak geçerli. Ama hedefin önünde boru, tank veya komşu ekipman gibi bir engel varsa ve yandan ya da üstten dolanarak yaklaşmak gerekiyorsa eklemli platform gerekir. Keşifte hedefin fotoğrafını görüp birlikte karar veriyoruz.",
+            },
+            {
+                soru: "Dar bir depo koridorunda standart makaslı platform sığar mı?",
+                cevap:
+                    "Standart gövdeli modeller çoğu depo koridoruna sığar, ama bazı dar tasarlanmış koridorlarda sığmayabilir. Bu durumlar için daha dar gövdeli makaslı modeller var, ancak bunların da bir alt sınırı var. Koridor genişliğini telefonla tahmin etmek yerine net ölçü istiyoruz; ölçü uymuyorsa dar gövdeli model veya örümcek platform gibi bir alternatif öneriyoruz.",
+            },
+            {
+                soru: "İki kişi aynı sepette malzemeyle birlikte çalışabilir mi?",
+                cevap:
+                    "Evet, makaslı platformun sepeti bu tür işler için tasarlanmıştır ve eklemli platforma göre genellikle daha geniş, daha düz bir taban sunar. Halı üretim hattı bakımında olduğu gibi bir kişi teknik işi yaparken diğeri malzeme veya el terminaliyle destek olabilir. Sepet kapasitesi modelden modele değiştiği için, iki kişi ve malzeme ağırlığının toplamını keşifte birlikte hesaplıyoruz.",
+            },
+            {
+                soru: "Kapalı dokuma salonunda dizel makaslı platform kullanabilir miyiz?",
+                cevap:
+                    "Önermiyoruz. Kapalı bir salonda dizel motorun egzoz emisyonu hem çalışan sağlığı hem hassas iplik-kumaş malzemesi için risk taşır. Bu tür kapalı alan işlerinde elektrikli makaslı modeller kullanılır; akü kapasitesi işin süresine göre planlanır, uzun süren işlerde şarj için erişilebilir bir priz gerekir. Açık sahada dizel seçenek değerlendirilebilir.",
+            },
+            {
+                soru: "Yeni dökülmüş beton zeminde makaslı platform tekerlek izi bırakır mı?",
+                cevap:
+                    "Beton yeterince sertleşmemişse evet, bu risk var. Bu yüzden yeni dökülmüş bölgelerde önce betonun sertleşme durumunu soruyoruz; henüz erken bir aşamadaysa işi erteliyoruz ya da koruma plakası kullanarak yükü daha geniş bir alana yayıyoruz. Tam sertleşmiş standart sanayi betonunda bu risk düşüktür.",
+            },
+            {
+                soru: "Makaslı platform ile örümcek platform arasında dar alan için nasıl seçim yapılır?",
+                cevap:
+                    "Makaslı platform dar gövdeli modellerde bile belirli bir minimum genişliğin altına inemez, çünkü dengesini geniş bir taban üzerinden sağlar. Örümcek platform ise katlanarak çok daha dar bir kapı veya merdiven boşluğundan geçebilir. Koridor veya kapı genişliği standart bir aralıktaysa dar gövdeli makaslı model yeterli olur; genişlik çok dar veya merdiven varsa örümcek platform gerekir. Bu ayrımı keşifte net ölçüyle yapıyoruz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in GAOSB makine halısı, dokuma ve boyahane sanayisi kamuya açık genel bilgidir. Makaslı platformun teknik erişim mantığı ve elektrikli-dizel seçim yaklaşımı genel ekipman bilgisine dayanır; kullanım senaryoları sahadaki tekrarlı iş türlerinden çıkarılmıştır, tesis adı verilmez, uydurma kapasite veya rakam yazılmamıştır.",
+    },
+
+    "hizmet:manlift-kiralama": {
+        h1: "Gaziantep'te Manlift Kiralama",
+        giris:
+            "\"Manlift\" Gaziantep'te sahada tek bir makine tipini değil, insanı yükseğe taşıyan tüm ekipman ailesini tanımlamak için kullanılan şemsiye bir terim; makaslı platform, eklemli (boom) platform, dikey direkli platform ve örümcek platform bu ailenin farklı üyeleri, her biri farklı bir erişim problemine cevap veriyor. GAOSB'deki bir işletme sahibi genellikle \"manlift lazım\" diyerek arıyor ve ilk konuşmada asıl ihtiyacın hangi tip olduğu netleşiyor; bu yüzden hizmetimizin bu bölümünde ihtiyaç tanımından kiralama süresine kadar genel süreci anlatıyoruz. Gaziantep'in tekstil, halı ve gıda sanayisinde manlift ihtiyacı iki farklı ritimde ortaya çıkıyor: bir yanda ani bir arıza veya acil bakım için günlük kiralanan tek makine, diğer yanda yeni bir üretim hattı kurulumu veya toplu bakım kampanyası için haftalar süren proje bazlı kiralama. Bu sayfada hangi süre modelinin hangi ihtiyaca uyduğunu, filo seçim sürecini ve operatörlü-operatörsüz kiralama ayrımının genel mantığını anlatıyoruz.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" teriminin kapsamı",
+                metin:
+                    "Sahada \"manlift\" kelimesi genellikle makaslı platform, eklemli (boom) platform, dikey direkli platform ve örümcek platformun tamamını kapsayan genel bir isim olarak kullanılır. Telefonda \"manlift istiyorum\" diyen bir müşteriyle konuştuğumuzda ilk sorduğumuz şey işin ne olduğu ve hedefin nasıl bir noktada bulunduğu; bu bilgiden hangi alt tipin uygun olduğunu birlikte çıkarıyoruz. Yanlış tip tahmini sahada zaman kaybına yol açtığı için bu ilk ayrımı telefonda netleştirmeye özen gösteriyoruz.",
+            },
+            {
+                baslik: "Günlük kiralama: acil arıza ve kısa bakım",
+                metin:
+                    "GAOSB'deki bir üretim hattında beklenmedik bir arıza (örneğin tavan aydınlatması veya kanal sorunu) ortaya çıktığında, ihtiyaç genellikle bir günlük, tek seferlik bir kiralamadır. Bu tür işlerde hız önceliklidir; makine tipini telefonda netleştirip aynı gün veya ertesi gün sahaya ulaştırmaya çalışıyoruz. Günlük kiralamada makine genellikle işin bitiminde aynı gün geri alınır.",
+            },
+            {
+                baslik: "Haftalık-aylık kiralama: proje bazlı işler",
+                metin:
+                    "Yeni bir üretim hattı kurulumu, toplu bakım kampanyası veya inşaat hâlindeki bir holün elektrik-mekanik montajı gibi işler haftalar sürebilir. Bu tür projelerde makine sahada kalır, gerekirse aynı proje içinde farklı günlerde farklı noktalarda kullanılır. Uzun süreli kiralamalarda bakım ve yakıt/şarj sorumluluğu, kiralama süresinin başında netleştiriliyor.",
+            },
+            {
+                baslik: "Operatörlü-operatörsüz seçim süreci",
+                metin:
+                    "Müşterinin kendi sertifikalı operatörü varsa makine operatörsüz teslim edilebilir; operatör yoksa veya belgesi güncel değilse bizim operatörümüzle birlikte kiralama öneriyoruz. Bu tercih işin süresine, tekrarlanma sıklığına ve müşterinin kendi ekibinin deneyimine göre değişir; hangisinin uygun olduğuna teklif aşamasında birlikte karar veriyoruz.",
+            },
+            {
+                baslik: "Filo seçim sürecinde keşifin rolü",
+                metin:
+                    "Hangi manlift tipinin uygun olduğuna karar verirken telefon görüşmesi bir başlangıç noktasıdır ama tek başına yeterli değildir; hedefin yüksekliği, çevresindeki engeller ve zemin durumu net olarak bilinmeden makine göndermiyoruz. Mümkünse fotoğraf, şüpheli durumlarda yerinde keşif isteniyor; bu adım yanlış makine gönderimini ve sahada kaybedilen zamanı önlüyor.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "Süre modeline göre tipik kullanım",
+                paragraflar: [
+                    "Gaziantep'teki manlift ihtiyaçlarını süre modeline göre aşağıda özetledik; hangi modelin size uygun olduğuna işin niteliğine bakarak karar veriyoruz.",
+                ],
+                tablo: {
+                    basliklar: ["Süre modeli", "Tipik ihtiyaç", "Makine sahada kalış", "Operatör tercihi"],
+                    satirlar: [
+                        ["Günlük", "Acil arıza, tek nokta bakım", "Aynı gün geri alınır", "Genelde bizim operatörümüz"],
+                        ["Haftalık", "Bölümsel bakım kampanyası", "İş bitene kadar sahada", "Duruma göre değişir"],
+                        ["Aylık/proje bazlı", "Hat kurulumu, inşaat montajı", "Proje süresince sahada", "Genelde müşteri operatörü"],
+                        ["Tekrarlı kısa dönem", "Mevsimsel/periyodik bakım", "Her seferinde teslim-iade", "Duruma göre değişir"],
+                    ],
+                },
+            },
+            {
+                baslik: "Birden fazla makine aynı anda",
+                paragraflar: [
+                    "Büyük ölçekli bir bakım kampanyasında veya çok noktalı bir hat kurulumunda birden fazla manlift aynı anda gerekebilir; bu durumda farklı tiplerin (örneğin bir makaslı ve bir eklemli) birlikte planlanması gerekebilir. Böyle bir talepte, hangi noktada hangi tipin çalışacağını önceden netleştirip filoyu buna göre ayırıyoruz.",
+                    "Aynı anda birden fazla makine sahada olduğunda operatörler arası koordinasyon ve saha trafiği de planlamanın bir parçası; bu detayları büyük projelerde önceden konuşuyoruz.",
+                ],
+            },
+            {
+                baslik: "Güvenlik belgeleri ve operatör yeterliliği",
+                paragraflar: [
+                    "Kiraladığımız her manlift periyodik bakım ve muayene kaydına sahiptir; talep edildiğinde bu belgeler paylaşılır. Kendi operatörünüzle çalışacaksanız, operatörün ilgili ekipman sınıfı için geçerli yeterlilik belgesine sahip olması bekleniyor; belge güncel değilse bizim operatörümüzle çalışmayı öneriyoruz.",
+                    "Sahada iş güvenliği kurallarına (kişisel koruyucu ekipman, çalışma alanının işaretlenmesi gibi) uyum, kiralama sözleşmesinin bir parçasıdır; bu kurallar işe başlamadan önce sahada birlikte gözden geçiriliyor.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "\"Manlift\" derken hangi makineyi kastediyorsunuz, hepsi aynı mı?",
+                cevap:
+                    "Hayır, \"manlift\" sahada kullanılan genel bir isim; makaslı platform, eklemli (boom) platform, dikey direkli platform ve örümcek platform gibi birbirinden farklı makineleri kapsıyor. Her biri farklı bir erişim problemine cevap veriyor: makaslı platform düz dik yükselmede, eklemli platform engelli erişimde, örümcek platform dar alanlarda öne çıkıyor. \"Manlift istiyorum\" dediğinizde ilk yaptığımız şey, işin ne olduğunu sorup hangi alt tipin uygun olduğunu birlikte netleştirmek.",
+            },
+            {
+                soru: "Minimum kiralama süresi var mı, yarım gün için kiralayabilir miyim?",
+                cevap:
+                    "Çoğu işimiz günlük kiralama üzerinden ilerliyor; yarım günlük bir işi de günlük ücretlendirme kapsamında değerlendiriyoruz çünkü nakliye ve kurulum süresi zaten günün önemli bir kısmını alıyor. Çok kısa süreli tekrarlayan bir ihtiyacınız varsa (örneğin haftada birkaç saat), bunu ayrıca konuşup size uygun bir düzen önerebiliriz; standart bir paket yerine ihtiyaca göre değerlendiriyoruz.",
+            },
+            {
+                soru: "Aynı anda hem makaslı hem eklemli platforma ihtiyacım olursa nasıl planlıyorsunuz?",
+                cevap:
+                    "Büyük bir bakım kampanyası veya çok noktalı bir hat kurulumunda bu sık karşılaştığımız bir durum. Önce her noktanın hangi tipe ihtiyaç duyduğunu (düz erişim mi, engelli erişim mi) belirliyoruz, sonra filoyu buna göre ayırıp aynı gün veya aynı hafta içinde koordineli şekilde sahaya gönderiyoruz. Operatörler arası koordinasyon ve saha trafiği gibi detayları büyük projelerde işe başlamadan önce netleştiriyoruz.",
+            },
+            {
+                soru: "Kendi operatörümüz var, belgesi olması yeterli mi?",
+                cevap:
+                    "Evet, operatörünüzün ilgili ekipman sınıfı için geçerli ve güncel bir yeterlilik belgesi olması yeterli; bu durumda makineyi operatörsüz teslim ediyoruz. Belge güncel değilse veya operatörünüzün o spesifik makine tipinde deneyimi sınırlıysa, güvenlik açısından bizim operatörümüzle çalışmanızı öneriyoruz. Bu tercihi teklif aşamasında netleştiriyoruz, sahada sürpriz olmasın diye.",
+            },
+            {
+                soru: "Hangi manlift tipine ihtiyacım olduğunu bilmiyorum, nasıl karar veriyorsunuz?",
+                cevap:
+                    "Bu çok sık karşılaştığımız bir durum, çoğu müşteri makine tipini değil işi tarif ediyor ve bu tamamen normal. Telefonda hedefin ne olduğunu (tavan yüksekliği, önünde engel var mı, zemin nasıl) soruyoruz; mümkünse fotoğraf istiyoruz. Bu bilgiyle genellikle doğru tipi belirleyebiliyoruz, şüpheli durumlarda yerinde keşif yapıp kesinleştiriyoruz. Yanlış tip göndermek sahada zaman kaybettirdiği için bu adımı atlamıyoruz.",
+            },
+            {
+                soru: "Proje bazlı uzun süreli kiralamada bakım sorumluluğu kimde?",
+                cevap:
+                    "Standart periyodik bakım ve muayene bizim sorumluluğumuzda kalır; kiralama süresi boyunca makinenin teknik durumunu biz takip ederiz. Günlük yakıt/şarj ve temel temizlik gibi operasyonel konular ise genellikle sahada makineyi kullanan tarafla paylaşılır; bu detaylar kiralama süresinin başında sözleşmeyle netleştiriliyor, sonradan belirsizlik yaşanmasın diye.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Gaziantep'in GAOSB tekstil-halı-gıda sanayi dokusu kamuya açık genel bilgidir. Manlift terminolojisi ve kiralama süreç mantığı genel ekipman kiralama pratiğine dayanır; süre modelleri ve senaryolar sahadaki tekrarlı iş türlerinden çıkarılmıştır, uydurma fiyat, kapasite veya tesis adı verilmemiştir.",
+    },
 };

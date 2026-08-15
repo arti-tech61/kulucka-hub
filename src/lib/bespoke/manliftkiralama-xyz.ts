@@ -1704,4 +1704,204 @@ export const MANLIFTKIRALAMA_XYZ: Record<string, BespokeIcerik> = {
         kaynak:
             "Elle yazıldı — 2026-08-14. Çukurova ovasının tarım arazisi ve silo çevresi zemin koşulları kamuya açık genel bilgidir; zemin değerlendirme süreci ve önlemler firma pratiğidir. Doğrulanmamış rakam ve tesis adı kullanılmamıştır.",
     },
+    "hizmet:makasli-platform-kiralama": {
+        h1: "Makaslı Platform Kiralama — Adana Tekstil Üretim Hatlarında Dar Alan Erişimi",
+        giris:
+            "Çukurova'nın iplik ve dokuma fabrikalarında yükseğe erişim ihtiyacının önemli bir bölümü, açık sahada değil tezgah sıraları arasındaki dar koridorlarda, boyahene kazanları çevresinde veya apre hattının üstünde ortaya çıkar. Bu tür alanlarda eklemli bomlu bir makinenin geniş dönüş yarıçapı ve yüksek gövde profili işe yaramaz; aranan şey dikey doğrultuda çalışan, dar geçitlerden sığan ve üretim sürerken sessizce hareket edebilen bir platformdur. Makaslı platform tam olarak bu ihtiyacı karşılar: sepeti düz yukarı-aşağı hareket eder, taban genişliği standart bir kapı veya tezgah aralığından geçecek ölçüdedir ve akülü modelde egzoz gazı üretmediği için kapalı üretim hacminde sorunsuz çalışır. Adana'daki tekstil tesislerinde bu makineyi en çok aydınlatma armatürü değişimi, havalandırma kanalı temizliği, çatı altı bakım ve raf/asma kat üstü küçük onarımlar için kiralıyoruz. Sıcak yaz aylarında kapalı üretim salonlarının iç sıcaklığı da yükseldiğinden, uzun süren işlerde mola sıklığı ve vardiya arası çalışma penceresi ayrıca planlanır. Bu sayfa, makaslı platformun tekstil üretim ortamındaki kullanım mantığını, ölçü ve zemin gereksinimlerini anlatır.",
+        maddeler: [
+            {
+                baslik: "Tezgah sıraları arası dar koridor geçişi",
+                metin:
+                    "Dokuma ve iplik salonlarında tezgahlar arasındaki servis koridoru genellikle standart bir forklift veya eklemli platformun taban genişliğinden dardır. Makaslı platformun dar taban modelleri bu koridorlardan geçerek doğrudan çalışma noktasının altına konumlanabilir; bu, işin başında ayrı bir ölçüm gerektiren ama sık karşılaşılan bir kısıttır.",
+            },
+            {
+                baslik: "Akülü ve sessiz çalışma zorunluluğu",
+                metin:
+                    "Üretim durmadan yapılan bakım işlerinde içten yanmalı motorun egzoz gazı ve gürültüsü kabul edilmez; pamuk tozunun bulunduğu ortamda ayrıca yangın riski taşır. Bu yüzden tekstil tesislerinde neredeyse istisnasız akülü makaslı platform kullanılır; sepet çıkışı öncesi yüzeyde statik elektrik birikimine karşı kontrol de ayrı bir adımdır.",
+            },
+            {
+                baslik: "Kapı ve asma kat geçişinde taban yüksekliği",
+                metin:
+                    "Bazı tesislerde yükleme kapısı veya asma kat girişi standart bir makaslı platformun taban yüksekliğine göre alçaktır. Bu durumda düşük profilli model tercih edilir; işin planlanma aşamasında kapı ve geçiş yüksekliği net ölçüyle önceden alınır, sahada tahmine bırakılmaz.",
+            },
+            {
+                baslik: "Boyahene ve apre hattı üstü erişim",
+                metin:
+                    "Boyahene kazanları ve apre hattının üst kısmındaki buhar tesisatı, boru hattı ve aydınlatma armatürleri düzenli bakım ister. Bu bölgede nem ve sıcaklık genel salon ortalamasının üzerinde olabildiği için, uzun süren işlerde operatör için kısa aralıklı mola planı uygulanır.",
+            },
+            {
+                baslik: "Epoksi kaplı beton zeminde iz bırakmama",
+                metin:
+                    "Tekstil üretim salonlarının çoğunda zemin epoksi kaplı betondur ve bu yüzey çizik veya iz konusunda hassastır. Makaslı platformun standart lastikleri iz bırakmayacak şekilde seçilir; ağır yük taşıyan modellerde zemine ek koruma plakası konur.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İhtiyaca göre makaslı platform tipi karşılaştırması",
+                paragraflar: [
+                    "Aşağıdaki tablo, tekstil tesisi içindeki farklı iş tiplerine göre tercih ettiğimiz makaslı platform sınıfını özetler; rakamlar genel sektör aralıklarıdır, kesin ölçüler sahaya göre teyit edilir.",
+                ],
+                tablo: {
+                    basliklar: ["İş tipi", "Tipik çalışma yüksekliği", "Taban özelliği", "Tercih nedeni"],
+                    satirlar: [
+                        ["Tezgah arası dar koridor bakımı", "6-8 m", "Dar taban, kompakt dönüş", "Koridora sığma"],
+                        ["Çatı altı aydınlatma/havalandırma", "8-12 m", "Standart taban, akülü", "Sessiz, egzozsuz"],
+                        ["Asma kat / düşük kapı geçişi", "6-8 m", "Düşük taban yüksekliği", "Kapıdan geçme"],
+                        ["Boyahene üstü bakım", "8-10 m", "Akülü, iz bırakmaz lastik", "Nem/sıcaklığa dayanım"],
+                        ["Depo raf üstü küçük onarım", "10-12 m", "Geniş sepet, akülü", "Malzeme taşıma alanı"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tekstil salonunda kiralama öncesi ölçüm süreci",
+                paragraflar: [
+                    "Makaslı platform talebi geldiğinde önce tesisin kat planı veya en azından koridor genişliği, kapı yüksekliği ve çalışma noktasının tavana olan mesafesi istenir. Bu bilgiler eksik geldiğinde sahaya ulaşan makine dar bir koridordan geçemeyebilir; bu da işin gecikmesine yol açar.",
+                    "Ölçü bilgisi netleştikten sonra dar taban veya düşük profilli model önerilir; belirsizlik varsa daha kompakt seçenek tercih edilir çünkü fazladan birkaç santim taban genişliği koridor geçişini tamamen engelleyebilir.",
+                    "Bazı tesislerde koridor genişliği tezgah dizilimine göre yıl içinde değişebilir; bir üretim hattı yeniden düzenlendiğinde önceki ölçüm artık geçerli olmayabilir. Bu yüzden aynı tesise tekrarlanan işlerde bile ölçü teyidi her seferinde yenilenir, eski kayda güvenilmez.",
+                ],
+            },
+            {
+                baslik: "Üretim durmadan çalışma planlaması",
+                paragraflar: [
+                    "Tekstil tesislerinin çoğunda üretim 7/24 sürdüğü için makaslı platform işi genellikle vardiya arası kısa duruşlara veya belirli bir hattın planlı bakım penceresine sığdırılır. Bu, işin süresini kısaltmak değil, üretimi kesintiye uğratmadan tamamlamak anlamına gelir.",
+                    "Yaz aylarında kapalı salon içi sıcaklık dışarıdaki kadar yüksek olmasa da havalandırması zayıf bölümlerde öğleye doğru yükselir; bu tür alanlarda operatör için ek mola aralığı ve su erişimi planlanır.",
+                    "Bakım penceresi kısaldıkça iş öncesi hazırlığın önemi artar: makinenin hangi noktadan içeri alınacağı, hangi güzergâhı izleyeceği ve nerede konumlanacağı, sahaya varmadan önce netleştirilir. Bu ön planlama, kısa pencereye sığdırılan bir işin sahada zaman kaybetmeden başlamasını sağlar.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Makaslı platform tezgahlar arasındaki dar koridordan geçebilir mi?",
+                cevap:
+                    "Dar taban modelleri çoğu servis koridorundan geçecek ölçüdedir, ancak bu garanti değildir; koridor genişliği önceden net ölçüyle alınmalıdır. Bilgi eksik geldiğinde makine sahaya ulaştığında koridora sığmayabilir, bu yüzden ölçüm adımını atlamıyoruz.",
+            },
+            {
+                soru: "Kapalı üretim salonunda dizel makaslı platform kullanılabilir mi?",
+                cevap:
+                    "Tekstil salonlarında pamuk tozu ve kapalı hacim nedeniyle neredeyse istisnasız akülü makaslı platform kullanılır. Dizel model egzoz gazı ve gürültü ürettiği için hem üretim ortamına hem de yangın güvenliğine aykırıdır.",
+            },
+            {
+                soru: "Boyahenedeki nem ve sıcaklık makineye zarar verir mi?",
+                cevap:
+                    "Standart akülü makaslı platformlar bu koşullara dayanıklıdır, ancak uzun süreli çalışmalarda operatör konforu için mola sıklığı artırılır. Ekipman tarafında ise düzenli kontrol dışında ek bir önlem gerekmez.",
+            },
+            {
+                soru: "Düşük kapı yüksekliği olan bir asma kata çıkış mümkün mü?",
+                cevap:
+                    "Kapı yüksekliği önceden bildirildiğinde düşük profilli model önerilir; bu bilgi olmadan standart model gönderilirse kapıdan geçemeyebilir. Bu yüzden asma kat işlerinde kapı ölçüsünü talep formunda ayrıca soruyoruz.",
+            },
+            {
+                soru: "Epoksi zeminde makine iz bırakır mı?",
+                cevap:
+                    "İz bırakmayan lastikli standart modellerde risk düşüktür, ancak ağır yük taşıyan büyük modellerde zemine ek koruma plakası konur. Hassas epoksi zeminlerde bu önlem varsayılan olarak uygulanır.",
+            },
+            {
+                soru: "Üretim durmadan bakım işi nasıl planlanıyor?",
+                cevap:
+                    "Genellikle vardiya arası kısa duruş veya hattın planlı bakım penceresi kullanılır; iş bu pencereye sığacak şekilde önceden programlanır. Sürekli üretim yapan hatlarda bu planlama, işin süresi kadar önemli bir aşamadır.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çukurova tekstil/iplik-dokuma sanayi yapısı ve makaslı platform genel teknik aralıkları kamuya açık genel bilgidir; kullanım senaryoları ve planlama süreci firma pratiğidir. Doğrulanmamış rakam ve tesis adı kullanılmamıştır.",
+    },
+    "hizmet:manlift-kiralama": {
+        h1: "Manlift Kiralama — Adana'da Tekstil ve Tarım Sanayi İçin Araç Seçim Rehberi",
+        giris:
+            "\"Manlift\" kelimesi Türkiye'de günlük kullanımda tek bir makine türünü değil, yükseğe erişim sağlayan tüm platformların ortak adı hâline gelmiştir; arayan kişi bazen makaslı, bazen eklemli bomlu, bazen teleskopik bir makineyi kastediyor olabilir. Adana'da bu talep iki farklı sanayi kolundan geliyor: tekstil fabrikalarının kapalı üretim salonları ve ovanın tarım ürünlerini işleyen yağ-un-yem tesislerinin açık sahaları. Bu iki ortamın ihtiyacı birbirinden oldukça farklıdır — tekstil tesisinde dar koridor ve sessiz akülü çalışma önde gelirken, tarım tesisinde geniş açık alan, silo yüksekliği ve bazen toprak zemin öne çıkar. Bu yüzden \"manlift kiralama\" talebi geldiğinde ilk yaptığımız iş, arayan kişinin gerçekte hangi makine tipine ve hangi kiralama süresine ihtiyacı olduğunu netleştirmektir. Yakıt tipi (elektrikli/dizel), kiralama süresi (günlük, haftalık, aylık veya proje bazlı) ve Adana genelinde nakliye planlaması, doğru makinenin doğru zamanda sahada olmasını belirleyen üç ana değişkendir. Bu sayfa, bu seçim sürecini ve Çukurova'daki iki farklı kullanım profilini anlatır.",
+        maddeler: [
+            {
+                baslik: "\"Manlift\" teriminin gerçek kapsamı",
+                metin:
+                    "Saha dilinde manlift, makaslı platformdan eklemli boma, teleskopik bomdan örümcek platforma kadar geniş bir aileyi kapsayan genel bir addır. Talep alındığında önce işin niteliği (iç mekân mı açık alan mı, engel var mı, hedef yükseklik ne) sorulur; bu bilgiye göre gerçek makine tipi netleştirilir.",
+            },
+            {
+                baslik: "Tekstil tesisi ile tarım tesisi ihtiyaç farkı",
+                metin:
+                    "Tekstil fabrikasında dar koridor, düşük kapı ve akülü sessiz çalışma öncelikliyken; yağ-un-yem tesisinde silo yüksekliği, açık alan rüzgârı ve bazen toprak veya stabilize zemin öncelikli hale gelir. Aynı \"manlift\" talebi bu iki ortamda tamamen farklı makine ve önlem gerektirir.",
+            },
+            {
+                baslik: "Yakıt tipi seçimi: elektrikli, dizel, hibrit",
+                metin:
+                    "Kapalı üretim salonunda akülü/elektrikli model zorunludur; açık sahada uzun mesafe hareket ve devamlı güç gereken işlerde dizel veya hibrit model daha uygun olabilir. Seçim, çalışma ortamı ve işin süresi birlikte değerlendirilerek yapılır.",
+            },
+            {
+                baslik: "Kiralama süresi modelleri",
+                metin:
+                    "Günlük kiralama tek seferlik bakım işleri için, haftalık kiralama orta ölçekli projeler için, aylık ve proje bazlı kiralama ise sürekli devam eden inşaat veya bakım programları için tercih edilir. Süre uzadıkça günlük maliyet düşer, ancak makinenin sahada boşta kaldığı gün sayısı da ayrıca değerlendirilir.",
+            },
+            {
+                baslik: "Adana genelinde nakliye ve teslim planlaması",
+                metin:
+                    "Çukurova ovasının düz topoğrafyası nakliyeyi kolaylaştırsa da, OSB dışındaki tarım tesislerine ulaşım bazen ova içi yol durumuna bağlıdır. Teslim süresi, talebin hangi bölgeden geldiğine göre önceden netleştirilir; acil talep ile planlı talep arasındaki teslim süresi farkı baştan belirtilir.",
+            },
+        ],
+        ekBolumler: [
+            {
+                baslik: "İhtiyaç profiline göre manlift tipi seçimi",
+                paragraflar: [
+                    "Aşağıdaki tablo, Adana'daki iki ana sanayi kolunda hangi manlift tipini, hangi yakıtla ve genellikle hangi süre modeliyle önerdiğimizi özetler.",
+                ],
+                tablo: {
+                    basliklar: ["İhtiyaç profili", "Önerilen tip", "Yakıt", "Tipik kiralama süresi"],
+                    satirlar: [
+                        ["Tekstil salonu iç mekân bakım", "Makaslı platform", "Elektrikli/akülü", "Günlük"],
+                        ["Tarım tesisi silo dış cephe", "Eklemli/teleskopik bom", "Dizel", "Günlük-haftalık"],
+                        ["Devam eden inşaat/montaj işi", "Eklemli bom", "Dizel/hibrit", "Aylık/proje bazlı"],
+                        ["Depo raf üstü kısa iş", "Makaslı platform", "Elektrikli/akülü", "Günlük"],
+                        ["Açık alan geniş erişim yarıçapı", "Teleskopik bom", "Dizel", "Haftalık"],
+                    ],
+                },
+            },
+            {
+                baslik: "Tekstil ve tarım sanayinde manlift kullanım örnekleri",
+                paragraflar: [
+                    "Tekstil tarafında manlift talebi genellikle aydınlatma, havalandırma kanalı ve çatı altı bakım işlerinden gelir; bu işler kapalı hacimde ve genellikle akülü makaslı platformla yürütülür. Tarım tarafında ise silo gövdesi boya yenileme, elevatör hattı kontrolü ve elleçleme tesisi çatı bakımı gibi açık alan işleri eklemli veya teleskopik bomlu makineyle yapılır.",
+                    "İki profil arasındaki fark yalnızca makine tipinde değil, çalışma takviminde de görülür: tekstil tesisinde iş vardiya arası kısa pencerelere sığdırılırken, tarım tesisinde iş genellikle hasat sonrası daha sakin dönemde planlanır.",
+                    "Bazı işletmeler her iki profile de sahiptir; örneğin hem iplik üretimi hem de kendi pamuk çekirdeği işleme tesisini bünyesinde bulunduran bir grup, aynı hafta içinde biri kapalı salon için akülü makaslı platform, diğeri açık silo cephesi için dizel eklemli bom talep edebilir. Bu tür karma taleplerde iki makine farklı teslim programıyla, ayrı sahalara aynı gün içinde yönlendirilir.",
+                ],
+            },
+            {
+                baslik: "Kiralama süresine göre planlama mantığı",
+                paragraflar: [
+                    "Kısa süreli (günlük) talepte öncelik makinenin hızlı ve doğru tipte sahaya ulaşmasıdır; uzun süreli (aylık, proje bazlı) talepte ise öncelik makinenin süre boyunca kesintisiz operasyonel kalmasıdır — bu da periyodik kontrol ve gerektiğinde yedek makine bulundurma anlamına gelir.",
+                    "Talep kesin bir bitiş tarihi içermiyorsa, en başta esnek bir süre modeli (haftalık uzatma opsiyonlu) önerilir; bu, işin beklenenden uzun sürmesi durumunda ayrı bir sözleşme sürecine gerek kalmadan devam etmeyi sağlar.",
+                    "Süre modeli seçildikten sonra ikinci karar makinenin sahada nasıl teslim alınacağıdır: kısa süreli işlerde makine genellikle operatörle birlikte gelir ve iş bitince aynı gün geri alınır, uzun süreli işlerde ise makine sahada kalır ve periyodik kontrol için düzenli aralıklarla ziyaret edilir. Bu ayrım, kiralama süresine göre önceden netleştirilen bir detaydır.",
+                ],
+            },
+        ],
+        sss: [
+            {
+                soru: "Manlift ile makaslı platform aynı şey mi?",
+                cevap:
+                    "Hayır, ama günlük dilde manlift genellikle tüm yükseğe erişim platformlarını kapsayan genel bir ad olarak kullanılır. Makaslı platform bu ailenin dikey hareket eden bir alt türüdür; eklemli ve teleskopik bomlu makineler ise yanal erişim sağlayan diğer alt türlerdir.",
+            },
+            {
+                soru: "Tekstil fabrikası ile tarım tesisi için aynı makine mi öneriliyor?",
+                cevap:
+                    "Genellikle hayır. Tekstil salonunda dar koridor ve akülü sessiz çalışma öncelikliyken, tarım tesisinde açık alan erişimi ve bazen zor zemin öncelikli hale gelir. Talep alındığında bu iki profile göre farklı makine tipi önerilir.",
+            },
+            {
+                soru: "Kiralama süresi nasıl belirleniyor, günlük mü aylık mı daha uygun?",
+                cevap:
+                    "İşin niteliğine bağlıdır: tek seferlik bakım günlük, orta ölçekli proje haftalık, sürekli devam eden inşaat veya bakım programı aylık ya da proje bazlı modelle daha uygun olur. Belirsiz süreli talepte esnek uzatma opsiyonlu bir model öneririz.",
+            },
+            {
+                soru: "Elektrikli mi dizel mi tercih edilmeli?",
+                cevap:
+                    "Kapalı mekânda elektrikli/akülü model zorunludur; açık sahada uzun mesafe hareket ve sürekli güç gereken işlerde dizel daha uygun olabilir. Karar, çalışma ortamı ve işin süresi birlikte değerlendirilerek verilir.",
+            },
+            {
+                soru: "Adana'nın her bölgesine aynı sürede teslimat yapılıyor mu?",
+                cevap:
+                    "Hayır, teslim süresi talebin geldiği bölgeye göre değişir; OSB içi teslimat genellikle daha hızlı, ova içindeki tarım tesislerine ulaşım yol durumuna bağlı olarak biraz daha uzun sürebilir. Bu fark talep alınırken önceden belirtilir.",
+            },
+            {
+                soru: "Hangi makine tipine ihtiyacım olduğunu bilmiyorsam ne yapmalıyım?",
+                cevap:
+                    "Sorun değil; işin yerini (iç mekân/açık alan), hedef yüksekliği ve varsa engelleri (dar koridor, düşük kapı, zemin tipi) bize iletmeniz yeterli. Bu bilgilere göre uygun manlift tipini biz belirleriz.",
+            },
+        ],
+        kaynak:
+            "Elle yazıldı — 2026-08-14. Çukurova ovasının tekstil ve tarım sanayi yapısı, manlift teriminin genel kullanımı kamuya açık genel bilgidir; seçim rehberi ve kullanım senaryoları firma pratiğidir. Doğrulanmamış rakam ve tesis adı kullanılmamıştır.",
+    },
 };
