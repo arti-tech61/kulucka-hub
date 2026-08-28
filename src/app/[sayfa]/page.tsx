@@ -51,7 +51,50 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
     }
     const site = hostIcinSite(host);
     const alt = altSayfaBul(host, sayfa) ?? (site ? kurumsalSayfaBul(site, sayfa) : undefined);
-    if (!alt) return {};
+    if (!alt) {
+        // Alt-sayfa kaydı olmayan ama paylaşılan temanın kendi bileşeniyle render
+        // ettiği özel sayfalar (hakkimizda, iletisim, urunler) — bkz. AltSayfaGorunum
+        // içindeki `OzelSayfa` dalı. O dal generateMetadata'yı atladığı için title/
+        // description hiç üretilmiyordu; burada aynı üç anahtar için elle karşılık veriyoruz.
+        const tema = site ? temaModulu(host) : undefined;
+        if (site && tema?.sayfalar?.[sayfa]) {
+            const ozelBaslik: Record<string, string> = {
+                hakkimizda: `Hakkımızda | ${site.h1}`,
+                iletisim: `İletişim | ${site.h1}`,
+                urunler: `Ürünlerimiz | ${site.h1}`,
+            };
+            const ozelAciklama: Record<string, string> = {
+                hakkimizda: site.aciklama,
+                iletisim: `${site.bolge} bölgesinde iletişim ve teklif bilgileri.`,
+                urunler: `${site.uzmanlik} için ürün ve makine kategorileri.`,
+            };
+            const baslik = ozelBaslik[sayfa] ?? site.h1;
+            const aciklama = ozelAciklama[sayfa] ?? site.aciklama;
+            const canonical = `https://${host}/${sayfa}`;
+            const socialImage = `https://${host}/media/saha-hero.png`;
+            return {
+                title: baslik,
+                description: aciklama,
+                alternates: { canonical },
+                openGraph: {
+                    title: baslik,
+                    description: aciklama,
+                    url: canonical,
+                    siteName: site.h1,
+                    locale: "tr_TR",
+                    type: "website",
+                    images: [{ url: socialImage, alt: baslik }],
+                },
+                twitter: {
+                    card: "summary_large_image",
+                    title: baslik,
+                    description: aciklama,
+                    images: [socialImage],
+                },
+            };
+        }
+        return {};
+    }
     const canonical = `https://${host}/${alt.slug}`;
     const socialImage = `https://${host}/media/saha-hero.png`;
     return {
