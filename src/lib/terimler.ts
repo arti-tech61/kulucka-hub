@@ -173,6 +173,7 @@ export const TERIMLER: Terim[] = [
         nedenOnemli: "Belgesi olmayan veya belge tarihi geçmiş makine şantiyeye alınmaz. Kiralama sırasında belge tarihinin kiralama dönemini kapsadığı teslimat öncesi kontrol edilmelidir.",
         sikHata: "Periyodik kontrol belgesi makinenin kendisine aittir, kiralayan firmaya değil. Farklı bir makine gönderildiğinde belge de o makineye ait olmalıdır.",
         anahtarlar: ["periyodik", "kontrol", "yeşil etiket", "6331"],
+        ilgiliUrunSlug: "eklemli-platform-20m-kiralama",
     },
     {
         slug: "operator-belgesi-nedir",
@@ -182,6 +183,7 @@ export const TERIMLER: Terim[] = [
         tanim: "Yükseltici çalışma platformu kullanan personelin, Mesleki Yeterlilik Kurumu (MYK) tarafından yetkilendirilmiş kuruluşlardan alınmış operatör yeterlilik belgesine sahip olması gerekir. Belge, makine tipine göre kapsamlıdır.",
         nedenOnemli: "Operatörlü kiralamada belge yükümlülüğü kiralayan firmadadır. Operatörsüz kiralamada ise makineyi kullanacak personelin belgeli olmasını sağlamak işverenin sorumluluğundadır — bu, denetimlerde ve iş kazası durumunda doğrudan sorumluluk doğurur.",
         anahtarlar: ["operatör", "myk", "belge", "yeterlilik"],
+        ilgiliUrunSlug: "eklemli-platform-20m-kiralama",
     },
     {
         slug: "emniyet-kemeri-kullanimi",
