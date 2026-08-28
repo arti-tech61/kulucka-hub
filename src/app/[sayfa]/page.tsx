@@ -4,7 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { hostIcinSite } from "@/lib/siteler";
 import { altSayfaBul, hostAltSayfalari } from "@/lib/alt-sayfalar";
-import { kurumsalSayfaBul, kurumsalSayfalar } from "@/lib/kurumsal-sayfalar";
+import { kurumsalSayfaBul, kurumsalSayfalar, kelimeSiniriKisalt } from "@/lib/kurumsal-sayfalar";
 import { GaEtiketi } from "@/components/ga";
 import { HaberCerceve } from "@/components/haber-sitesi";
 import { hostIcinHaberSitesi } from "@/lib/haber-config";
@@ -58,15 +58,21 @@ export async function generateMetadata({ params }: { params: Promise<{ sayfa: st
         // description hiç üretilmiyordu; burada aynı üç anahtar için elle karşılık veriyoruz.
         const tema = site ? temaModulu(host) : undefined;
         if (site && tema?.sayfalar?.[sayfa]) {
-            const ozelBaslik: Record<string, string> = {
-                hakkimizda: `Hakkımızda | ${site.h1}`,
-                iletisim: `İletişim | ${site.h1}`,
-                urunler: `Ürünlerimiz | ${site.h1}`,
+            const onEkler: Record<string, string> = {
+                hakkimizda: "Hakkımızda | ",
+                iletisim: "İletişim | ",
+                urunler: "Ürünlerimiz | ",
             };
+            const ozelBaslik: Record<string, string> = Object.fromEntries(
+                Object.entries(onEkler).map(([k, onEk]) => [
+                    k,
+                    `${onEk}${kelimeSiniriKisalt(site.h1, Math.max(10, 60 - onEk.length))}`,
+                ]),
+            );
             const ozelAciklama: Record<string, string> = {
-                hakkimizda: site.aciklama,
-                iletisim: `${site.bolge} bölgesinde iletişim ve teklif bilgileri.`,
-                urunler: `${site.uzmanlik} için ürün ve makine kategorileri.`,
+                hakkimizda: kelimeSiniriKisalt(site.aciklama, 160),
+                iletisim: kelimeSiniriKisalt(`${site.bolge} bölgesinde iletişim ve teklif bilgileri.`, 160),
+                urunler: kelimeSiniriKisalt(`${site.uzmanlik} için ürün ve makine kategorileri.`, 160),
             };
             const baslik = ozelBaslik[sayfa] ?? site.h1;
             const aciklama = ozelAciklama[sayfa] ?? site.aciklama;

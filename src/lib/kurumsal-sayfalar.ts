@@ -20,14 +20,31 @@ export interface KurumsalSayfa extends AltSayfa {
     indexlenebilir: boolean;
 }
 
+// site.h1 kasıtlı olarak uzun/betimleyici (on-page H1 için doğru); ama title/description
+// etiketine olduğu gibi eklenince SERP kesme sınırını (title ~60, description ~160 karakter)
+// aşıyordu (85 domainin çoğunda). Kelime sınırında kısaltıp "…" ekleyerek sınıra çekiyoruz —
+// metni uydurmuyoruz, yalnız kesiyoruz.
+export function kelimeSiniriKisalt(metin: string, maxUzunluk: number): string {
+    if (metin.length <= maxUzunluk) return metin;
+    const kesim = metin.slice(0, maxUzunluk - 1);
+    const sonBosluk = kesim.lastIndexOf(" ");
+    const govde = sonBosluk > maxUzunluk * 0.5 ? kesim.slice(0, sonBosluk) : kesim;
+    return `${govde.trimEnd()}…`;
+}
+
+function baslikUret(onEk: string, site: SiteIcerik, maxUzunluk = 60): string {
+    const budget = Math.max(10, maxUzunluk - onEk.length);
+    return `${onEk}${kelimeSiniriKisalt(site.h1, budget)}`;
+}
+
 export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
     const bilgiSitesi = site.kategori === "egitim" || site.kategori === "rehber";
     const hizmet = bilgiSitesi ? "bilgi ve yönlendirme" : "ekipman kiralama";
     return [
         {
             slug: "hakkimizda",
-            baslik: `Hakkımızda | ${site.h1}`,
-            aciklama: `${site.h1} hizmet kapsamı, sorumlu işletme, çalışma bölgesi ve teklif süreci hakkında şeffaf bilgiler.`,
+            baslik: baslikUret("Hakkımızda | ", site),
+            aciklama: kelimeSiniriKisalt(`${site.h1} hizmet kapsamı, sorumlu işletme, çalışma bölgesi ve teklif süreci hakkında şeffaf bilgiler.`, 160),
             h1: `${site.h1} Hakkında`,
             indexlenebilir: true,
             paragraflar: [
@@ -44,8 +61,8 @@ export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
         },
         {
             slug: "iletisim",
-            baslik: `İletişim ve Talep Hazırlığı | ${site.h1}`,
-            aciklama: `${site.h1} için telefon ve e-posta bilgileri; hızlı ve doğru yanıt için iletilmesi gereken proje ayrıntıları.`,
+            baslik: baslikUret("İletişim | ", site),
+            aciklama: kelimeSiniriKisalt(`${site.h1} için telefon ve e-posta bilgileri; hızlı ve doğru yanıt için iletilmesi gereken proje ayrıntıları.`, 160),
             h1: "İletişim ve Talep Hazırlığı",
             indexlenebilir: true,
             paragraflar: [
@@ -64,8 +81,8 @@ export function kurumsalSayfalar(site: SiteIcerik): KurumsalSayfa[] {
         },
         {
             slug: "teklif-hazirligi",
-            baslik: `Teklif Hazırlama | ${site.h1}`,
-            aciklama: `${site.h1} için ihtiyaçları eksiksiz tarif etme, seçenekleri karşılaştırma ve yazılı kapsam kontrolü rehberi.`,
+            baslik: baslikUret("Teklif Hazırlama | ", site),
+            aciklama: kelimeSiniriKisalt(`${site.h1} için ihtiyaçları eksiksiz tarif etme, seçenekleri karşılaştırma ve yazılı kapsam kontrolü rehberi.`, 160),
             h1: bilgiSitesi ? "Doğru Bilgi Talebi Nasıl Hazırlanır?" : "Doğru Kiralama Teklifi Nasıl Hazırlanır?",
             indexlenebilir: true,
             paragraflar: [
