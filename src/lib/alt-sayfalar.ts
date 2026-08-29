@@ -4033,6 +4033,49 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
     ],
+
+    "istanbulplatformkiralama.net": [
+        {
+            slug: "manlift-kullanma-belgesi-myk-nasil-alinir",
+            baslik: "Manlift Kullanma Belgesi (MYK) Nasıl Alınır?",
+            aciklama: "Tuzla tersane ve OSB sahalarında manlift operatörü için MYK yeterlilik belgesi hangi adımlarla alınır, giriş kontrolünde ne aranır?",
+            h1: "Manlift Kullanma Belgesi (MYK) Nasıl Alınır?",
+            paragraflar: [
+                "Tuzla tersane kümesindeki sahalar, güvenlik kontrollü giriş uyguladığı için makineyi kullanacak personelin Mesleki Yeterlilik Kurumu (MYK) tarafından yetkilendirilmiş bir kuruluştan aldığı operatör yeterlilik belgesini kapıda ibraz etmesini bekler. Belge, kullanılacak yükseltici platform sınıfına göre kapsamlıdır; farklı bir makine sınıfı için alınmış belge saha girişinde geçerli sayılmayabilir.",
+                "Süreç kabaca üç adımdan oluşur: önce yapılacak işe ve kullanılacak makine sınıfına uygun yeterlilik kodu MYK'nın ulusal yeterlilikler kaydından teyit edilir, sonra o yeterlilik için aktif yetkiye sahip bir belgelendirme kuruluşuna başvurulur, son olarak teorik ve uygulamalı değerlendirme tamamlanıp belge düzenlenir. Süre kuruluşun sınav takvimine göre değişir; sabit bir gün sayısı verilemez.",
+                "Tersane ve OSB güvenlik birimleri genelde belgenin fotokopisini değil orijinalini veya doğrulanabilir dijital kaydını ister; belge tarihinin geçerlilik süresini kapsadığı, kişinin kimliğiyle eşleştiği ve makine sınıfının sahadaki ekipmanla uyuştuğu kontrol edilir. Operatörlü kiralamada bu kontrol firmamız tarafından teslimat öncesinde yapılır; operatörsüz kiralamada belgenin güncelliğinden kiracı firma sorumludur.",
+            ],
+            maddeler: [
+                { baslik: "1. Makine sınıfını belirleyin", metin: "Kullanılacak platform tipine (makaslı, eklemli, teleskopik) karşılık gelen yeterlilik kodu farklıdır; sınıfı tahmin etmeyin, MYK kaydından doğrulayın." },
+                { baslik: "2. Yetkili kuruluşu seçin", metin: "Başvurmadan önce kuruluşun o yeterlilik için aktif yetkisini MYK'nın güncel listesinden kontrol edin." },
+                { baslik: "3. Sınav ve belge takibini yazılı tutun", metin: "Sınav tarihi, sonucu ve belge teslim tarihini kaydedin; tersane girişinde bu kayıt işe yarar." },
+                { baslik: "4. Saha girişine hazır bulundurun", metin: "Orijinal belge veya kuruluşun doğrulama sistemine erişim, güvenlik kontrolünde vakit kaybını önler." },
+            ],
+            sss: [
+                { soru: "Belge olmadan tersane sahasına manlift sokulabilir mi?", cevap: "Makine girişi mümkün olsa da, operatörün belgesiz olması güvenlik biriminin işi durdurmasına yol açar. Operatörlü kiralama seçilirse bu risk firmamızın belgeli operatörüyle ortadan kalkar." },
+                { soru: "G sınıfı sürücü belgesi MYK operatör belgesi yerine geçer mi?", cevap: "Hayır, farklı düzenlemelerdir. Yapılacak iş ve makine sınıfı için gereken belgeyi işverenin İSG birimi ve MYK'nın güncel kaynaklarından doğrulamadan eşdeğer kabul etmeyin." },
+                { soru: "Belge süresi dolarsa ne olur?", cevap: "Yenileme koşulları ilgili yeterliliğin revizyonuna göre değişir; süre dolmadan yetkili kuruluşla yenileme süreci başlatılmalıdır." },
+                { soru: "Operatörsüz kiralamada belge kontrolünü kim yapar?", cevap: "Sorumluluk kiracı firmadadır; ancak talep edilirse teslimat öncesinde biz de belge tarihini ve makine sınıfı uyumunu birlikte kontrol ederiz." },
+            ],
+            kaynaklar: [
+                {
+                    ad: "MYK — Ana sayfa ve güncel duyurular",
+                    url: "https://www.myk.gov.tr/",
+                    not: "Mevzuat ve süreç değişikliklerini başvuru tarihinde kurumun güncel duyurularından kontrol edin.",
+                },
+                {
+                    ad: "MYK — Yetkilendirilmiş Belgelendirme Kuruluşları",
+                    url: "https://www.myk.gov.tr/index.php/tr/yetkilendirilmis-belgelendirme-kuruluslari",
+                    not: "Başvuru yapmadan önce kuruluşun güncel yetki kapsamını MYK üzerinden doğrulayın.",
+                },
+                {
+                    ad: "MYK — Ulusal Yeterlilikler",
+                    url: "https://portal.myk.gov.tr/index.php?option=com_yeterlilik",
+                    not: "Belge adı, seviye, geçerlilik ve sınav birimleri ilgili ulusal yeterlilikte yer alır.",
+                },
+            ],
+        },
+    ],
 };
 
 // Faz B rehberlerinin altıncı paragrafları slug'a özel tutulur. Bu kayıtlar
