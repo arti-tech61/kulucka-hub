@@ -4075,6 +4075,206 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
                 },
             ],
         },
+        // Elle yazılmış hedef sayfalar (2026-08-29). GSC verisi: Gebze
+        // sorguları 37 gösterim/poz 62, Tuzla forklift 24 gösterim/poz 82,
+        // sepetli manlift poz 11,4 (sayfa 1 eşiğinde). MYK sayfasının 1,7.
+        // sıraya oturması bu bespoke yaklaşımın bu sitede çalıştığını gösterdi.
+        {
+            slug: "tuzla-forklift-kiralama",
+            baslik: "Tuzla Forklift Kiralama — OSB ve Tersane Sahası Deneyimi",
+            aciklama: "Tuzla OSB, Aydınlı ve tersane bölgesinde forklift kiralama: tuzlu hava koşuluna uygun makine seçimi, saha giriş prosedürü ve Maltepe-Kartal hattına sevkiyat.",
+            h1: "Tuzla Forklift Kiralama",
+            paragraflar: [
+                "Tuzla'da forklift kiralamanın diğer ilçelerden farkı sahaların kendisidir: tersane kümesi, Tuzla OSB, Kimya Sanayicileri OSB ve Aydınlı endüstri bölgesi; her biri kendi zemin tipi, giriş prosedürü ve çevre koşuluyla gelir. Tersane sahalarında tuzlu deniz havası makine elektroniği ve şasi korozyonu üzerinde gerçek bir yıpratıcıdır; bu sahalara yönlendirdiğimiz forkliftler dönüşte ek bakım görür ve uzun süreli tersane kiralamalarında bakım periyodu buna göre sıklaştırılır.",
+                "Kapasite seçiminde işin tipini soruyoruz. OSB üretim tesislerinde palet ve hammadde taşıma 1,5-3 ton sınıfıyla çözülürken, tersane ve çelik işleme sahalarındaki sac, profil ve blok parça elleçlemesi daha yüksek tonaj ve çoğu zaman dizel makine ister. Kapalı üretim alanı ve gıda-kimya tesislerinde ise emisyon nedeniyle elektrikli forklift zorunlu hâle gelir; Kimya Sanayicileri OSB'deki bazı tesisler ek olarak ATEX koşullarını da sorar — bu gereklilik varsa teklif öncesi söylenmelidir, standart makine bu sahaya sokulmaz.",
+                "Tuzla'nın güvenlik kontrollü sahalarında (tersaneler başta) operatör belgesi ve makine evrakı kapıda denetlenir. Operatörlü kiralamada MYK belgeli operatörümüz evrak setiyle gelir; operatörsüz kiralamada personelinizin belge sınıfını teslimattan önce birlikte doğrulariz. Giriş kaydı gerektiren sahalarda araç plakası ve operatör kimliğinin önceden güvenliğe bildirilmesi teslimat gününü hızlandırır; bu bildirimi çoğu tersane işinde biz üstleniyoruz.",
+                "Sevkiyat tarafında Tuzla hub'ımızdan Aydınlı, Orhanlı ve OSB içi teslimatlar kısa mesafedir; Pendik, Kartal ve Maltepe hattına aynı gün sevkiyat çoğu zaman mümkündür. E-5 ve TEM bağlantılarının yoğun saatlerinde düşük yataklı römork trafiğe çıkmaz; teslimatlar sabah erken veya akşam sonrası planlanır. Kiralama süresi uzadıkça nakliyenin toplam maliyet içindeki payı düşer — birkaç günlük işlerde bile gidiş-dönüş nakliyeyi tek seferde planlamak bedeli belirgin azaltır.",
+            ],
+            maddeler: [
+                { baslik: "Tersane sahası deneyimi", metin: "Tuzlu hava koşuluna göre makine dönüş bakımı ve sıklaştırılmış periyot; giriş kaydı ve evrak bildirimi süreç bilgisiyle yürütülür." },
+                { baslik: "Elektrikli / dizel / LPG seçimi", metin: "Kapalı alan ve gıda-kimya tesisinde elektrikli, açık saha ve ağır elleçlemede dizel; karar sahanın koşuluna göre birlikte verilir." },
+                { baslik: "1,5-18 ton kapasite aralığı", metin: "Palet işinden ağır sac ve blok elleçlemesine kadar tonaj ihtiyacı teklif öncesinde netleştirilir." },
+                { baslik: "Maltepe-Kartal-Pendik sevkiyatı", metin: "Tuzla hub'ından Anadolu yakası sanayi hattına kısa mesafe teslimat; yoğun saat dışı nakliye planlaması standart uygulamadır." },
+            ],
+            sss: [
+                { soru: "Tersane içinde forklift kiralamak için hangi evraklar gerekir?", cevap: "Sahaya göre değişmekle birlikte tipik set: operatör MYK belgesi, makinenin periyodik kontrol raporu ve giriş için önceden bildirilmiş plaka-kimlik bilgisi. Operatörlü kiralamada bu seti biz hazırlarız; operatörsüzde eksik evrak kapıda işi durdurur." },
+                { soru: "Elektrikli forklift vardiya boyu dayanır mı?", cevap: "Tek vardiyalık standart kullanımda evet; çift vardiya çalışacaksa yedek akü veya ara şarj planı gerekir. Şarj altyapınızı (faz, priz tipi) teklif aşamasında soruyoruz." },
+                { soru: "Kısa süreli, birkaç saatlik iş için forklift gönderiyor musunuz?", cevap: "Gönderiyoruz; ancak kısa işte nakliye bedeli kiralamanın önüne geçebilir. Birkaç saatlik tek seferlik elleçlemelerde dürüst önerimiz, yakın çevrede makinesi hazır bir tedarikçiyle veya işi birleştirerek tam güne tamamlamakla ilerlemenizdir." },
+                { soru: "Yağışta açık sahada elektrikli forklift kullanılır mı?", cevap: "Elektrikli forkliftler esas olarak kapalı ve kuru zemin içindir; açık sahada yağış varsa dizel veya LPG model seçilmelidir. Saha hem kapalı hem açık bölüm içeriyorsa makine seçimini baskın kullanım alanına göre yaparız." },
+                { soru: "Uzun dönem kiralamada bakım kime ait?", cevap: "Aylık ve üzeri kiralamalarda periyodik bakım bize aittir; arıza durumunda ikame makine koşulu sözleşmeye yazılır. Tersane sahasındaki makinelerde bakım periyodu tuzlu hava nedeniyle standarttan daha sık tutulur." },
+            ],
+        },
+        {
+            slug: "gebze-platform-kiralama",
+            baslik: "Gebze Platform Kiralama — GOSB ve TOSB Hattına Tuzla'dan Sevkiyat",
+            aciklama: "Gebze, GOSB ve TOSB bölgesine eklemli platform ve manlift kiralama: otomotiv ve ağır sanayi tesislerinde saha prosedürü, Dilovası hattı sevkiyat planı.",
+            h1: "Gebze Platform Kiralama",
+            paragraflar: [
+                "Gebze; GOSB, TOSB ve çevresindeki organize sanayi kümeleriyle Doğu Marmara'nın en yoğun endüstriyel platform talebini üretir. Tuzla hub'ımız Gebze'ye TEM üzerinden kısa mesafededir ve bu hattın işleyişini biliriz: otomotiv yan sanayi tesislerinde üretim hattı üzerinde çalışma çoğu zaman planlı duruş penceresine sıkıştırılır, makine o pencerede sahada kurulu olmak zorundadır. Bu yüzden Gebze teslimatlarını saat aralığıyla değil, tesisin duruş planıyla eşleştirerek programlıyoruz.",
+                "GOSB ve TOSB tesislerinde en sık istenen sınıf eklemli platformdur; çelik konstrüksiyon aksları, havalandırma kanalları ve vinç yolu üzerindeki aydınlatma-sprinkler hatlarına düz erişim genelde mümkün olmaz, bom kırılarak ulaşılır. Kapalı üretim alanında emisyon kuralı gereği akülü modeller (filomuzda Sinoboom AB14EJ, 16 m) kullanılır; açık stok sahası ve inşaat hâlindeki tesislerde dizel 4x4 modeller (Genie Z-45/25 RT 16 m, Haulotte HA26 RTJ PRO 26,4 m) devreye girer.",
+                "Otomotiv tesislerinin saha prosedürü İstanbul plaza işlerinden daha katıdır: iş izni (work permit) süreci, saha içi hız ve refakat kuralları, bazı tesislerde makine için ayrı emniyet kontrol formu. Bu prosedürleri ilk kez görecek bir tedarikçi teslimat günü vakit kaybettirir; biz evrak setini ve operatör belgelerini tesisin İSG birimine önceden iletip giriş onayını teslimattan önce tamamlatıyoruz. Dilovası ve Çayırova hattındaki tesisler için de aynı süreç işler.",
+                "Gebze işlerinde süre planı çoğu zaman 'kısa ve kesin'dir: planlı duruşta iki gün, hafta sonu bakımında tek hafta sonu gibi. Bu tempoda makinenin doğru sınıfta ve tam saatinde sahada olması her şeydir; bu nedenle Gebze teklifi verirken makineyi rezerve eder, duruş tarihi kayarsa rezervasyonu tesisle birlikte güncelleriz. Uzun dönemli tesis içi bakım kadrolarına ise aylık kiralama ve periyodik bakım dahil sözleşme modeli öneriyoruz.",
+            ],
+            maddeler: [
+                { baslik: "Duruş penceresine eşleştirilmiş teslimat", metin: "Makine, tesisin planlı duruş takvimine göre sahada kurulu olacak şekilde programlanır; saat kayması rezervasyonla birlikte güncellenir." },
+                { baslik: "GOSB/TOSB evrak süreci", metin: "İş izni, operatör belgesi ve emniyet formları teslimattan önce tesisin İSG birimiyle tamamlanır." },
+                { baslik: "Akülü ve dizel eklemli seçenekleri", metin: "Kapalı üretim alanında 16 m akülü; açık saha ve yüksek erişimde 26,4 metreye kadar dizel 4x4 modeller." },
+                { baslik: "Dilovası-Çayırova hattı dahil", metin: "Gebze merkez ve OSB'lerin yanı sıra Dilovası sanayi hattına da aynı sevkiyat planıyla hizmet verilir." },
+            ],
+            sss: [
+                { soru: "Gebze'ye teslimat süresi ne kadar?", cevap: "Tuzla hub'ından TEM üzerinden kısa mesafedir; makine müsaitse ertesi gün, planlı işlerde istediğiniz tarihte teslim edilir. Ağır nakliye saat kısıtları nedeniyle teslimat çoğunlukla sabah erken saate planlanır." },
+                { soru: "Üretim hattının üzerinde çalışılacak; ne tür önlem alınıyor?", cevap: "Hat üzeri çalışmalar tesis duruştayken yapılır; makine altı damlama önlemi (akülü model tercihi), düşme bölgesi bariyeri ve tesisin iş izni prosedürü uygulanır. Bu koşullar keşif sırasında İSG biriminizle netleştirilir." },
+                { soru: "Hafta sonu bakım duruşunda çalışıyor musunuz?", cevap: "Evet; Gebze işlerinin önemli bölümü hafta sonu duruşlarına denk gelir. Cuma akşam teslim, pazartesi sabah alım modeli bu bölgede standart uygulamamızdır." },
+                { soru: "Tesiste birden fazla noktada iş var; kaç makine gerekir?", cevap: "Noktalar arası mesafe ve iş süresine bakılır: eklemli platform sepetteyken nokta değiştirebildiği için çoğu bakım turu tek makineyle çözülür. Eşzamanlı iki ekip çalışacaksa ikinci makine teklife eklenir." },
+                { soru: "26 metreden yüksek erişim gerekirse?", cevap: "Filomuzun üst sınırı 26,4 metredir; daha yüksek erişim gereken işlerde grup filosundan teleskopik model tedariki teklif aşamasında değerlendirilir ve süresi netleştirilir." },
+            ],
+        },
+        {
+            slug: "sepetli-manlift-kiralama",
+            baslik: "Sepetli Manlift Kiralama — Sınıflar, Kapasite ve Doğru Seçim",
+            aciklama: "Sepetli manlift kiralarken sınıf (eklemli, teleskopik, makaslı) nasıl seçilir? Sepet kapasitesi, yükseklik ve zemin uyumu Tuzla-İstanbul hattı örnekleriyle.",
+            h1: "Sepetli Manlift Kiralama",
+            paragraflar: [
+                "'Sepetli manlift' araması aslında personel yükseltici platformların tamamını kapsar — sepet, bu makine ailesinin ortak parçasıdır. Kiralama kararında asıl soru sepetin kendisi değil, sepeti taşıyan mekanizmadır: dikey makaslı sistem mi, düz teleskopik bom mu, yoksa mafsallı eklemli bom mu? Yanlış mekanizma seçimi sahada 'makine geldi ama yetişmiyor' durumunun bir numaralı sebebidir ve bu sayfa o hatayı önlemek için var.",
+                "Kaba kural şudur: erişilecek nokta makinenin hemen üzerindeyse makaslı, uzakta ama düz hat üzerindeyse teleskopik, arada engel varsa eklemli seçilir. Tersane ve OSB sahalarındaki tipik işlerden örneklersek: ambar içi raf ve aydınlatma işi makaslı ister; açık sahada yüksek silo yüzeyine erişim teleskopik ister; vinç rayının veya boru köprüsünün ötesindeki noktaya çalışma eklemli ister. Filomuzun eklemli tarafında 16 metre akülü ve dizel ile 26,4 metre dizel sınıfları hazırdır.",
+                "Sepet kapasitesi ihmal edilen ikinci kriterdir. 227-250 kg aralığındaki tipik kapasite; personelin, el aletlerinin ve malzemenin toplamıdır. Kaynak makinesi, silikon kartuşları veya cam paneliyle çıkılacak işlerde tek kişilik çalışma bile kapasiteyi zorlayabilir; iki kişilik çalışmada ekipman listesi teklif öncesinde netleşmelidir. Kapasite aşımı hem güvenlik ihlalidir hem de makinenin yük sensörünü devreye sokup işi durdurur.",
+                "Zemin ve güç tipi son eşiktir. Kapalı alanda akülü model zorunluluğa yakındır (emisyon ve gürültü); açık sahada dizel 4x4 modeller eğim ve gevşek zeminde üstündür. Tuzla-İstanbul hattındaki teslimatlarımızda keşif sorularımız bu yüzden hep aynıdır: en yüksek erişim noktası kaç metre, engel var mı, zemin ne, sepete kim ve neyle çıkacak? Bu dört yanıt doğru makineyi tek seferde belirler; telefonda beş dakika sürer ve yazılı teklife dönüşür.",
+            ],
+            tablo: {
+                basliklar: ["İş Tipi", "Doğru Sınıf", "Neden"],
+                satirlar: [
+                    ["Ambar rafı, iç mekân aydınlatma", "Makaslı", "Dikey erişim, geniş sepet alanı"],
+                    ["Açık sahada yüksek düz erişim", "Teleskopik", "Maksimum menzil, düz hat"],
+                    ["Parapet/boru/ray ötesine erişim", "Eklemli", "Bom engel üzerinden kırılır"],
+                    ["Kapalı alan + emisyon kısıtı", "Akülü eklemli/makaslı", "Sıfır emisyon, düşük gürültü"],
+                ],
+            },
+            sss: [
+                { soru: "Sepetli manlift ile sepetli vinç farkı nedir?", cevap: "Sepetli manlift kendinden tahrikli bir iş makinesidir ve sahada nokta değiştirir; sepetli vinç kamyon üstüne kuruludur, kurulduğu noktadan çalışır. Çok noktalı ve birkaç güne yayılan işlerde manlift, tek noktalı kısa işte vinç ekonomiktir." },
+                { soru: "Sepette kaç kişi çalışabilir?", cevap: "Model kapasitesine bağlıdır; 227-250 kg sınıfında tipik kullanım tek kişi + ekipman veya iki kişi + hafif el aletidir. Kişi ve ekipman toplamı kapasiteyi aşamaz; planlanan yükü teklif aşamasında birlikte hesaplarız." },
+                { soru: "Manlift kullanmak için hangi belge gerekir?", cevap: "MYK operatör yeterlilik belgesi gerekir ve belge sınıfı makine tipiyle uyumlu olmalıdır. Bu sitedeki MYK belge rehberimizde süreci adım adım anlattık; operatörlü kiralamada belgeli operatör bizden gelir." },
+                { soru: "Akülü model dış mekânda hiç kullanılamaz mı?", cevap: "Düz ve sert zeminli dış mekânda kuru havada kullanılabilir; yağış, eğim ve gevşek zemin devreye girdiğinde dizel 4x4 modele geçilmelidir. Sınırda kalan sahalarda kararı zemin fotoğrafı üzerinden birlikte veririz." },
+                { soru: "Aynı gün içinde iki farklı sahada kullanabilir miyim?", cevap: "Makine kiralama süreniz boyunca sizindir; ancak sahalar arası taşıma düşük yataklı römork gerektirir ve nakliye planına eklenir. Kısa mesafeli iki saha için gün içi ikinci nakliye çoğu zaman mümkündür; teklif buna göre düzenlenir." },
+            ],
+        },
+    ],
+    // bursaeklemliplatform.net — elle yazılmış hedef sayfalar (2026-08-29).
+    // GSC: "bursa platform kiralama" poz 6,8 ve "bursa manlift kiralama
+    // fiyatları" poz 9,2 — ikisi de sayfa 1'de; derinleştirme üst sıra hedefli.
+    "bursaeklemliplatform.net": [
+        {
+            slug: "bursa-platform-kiralama",
+            baslik: "Bursa Platform Kiralama — Şehir Merkezi ve AVM Cephe İşleri",
+            aciklama: "Bursa Osmangazi, Nilüfer ve Yıldırım'da platform kiralama: AVM ve yüksek bina cephe işlerinde eklemli platform seçimi, şehir içi kurulum ve izin pratiği.",
+            h1: "Bursa Platform Kiralama",
+            paragraflar: [
+                "Bursa'da platform kiralama talebinin ağırlık merkezi şehir merkezidir: Osmangazi ve Nilüfer'deki AVM cepheleri, Yıldırım'daki çok katlı konut blokları ve merkez caddelerdeki kurumsal bina yüzeyleri. Bu işlerin ortak özelliği, makinenin kurulacağı alanın dar ve paylaşımlı olmasıdır — otopark girişi kapatılamaz, yaya aksı korunmalıdır, mağaza vitrini önünde çalışma saat sınırına tabidir. Şehir merkezi işinde makine seçimi kadar kurulum planı da tekliftedir; biz ikisini birlikte veririz.",
+                "AVM cephe bakımı Bursa'daki en düzenli iş kalemimizdir. Cam yüzey temizliği, kompozit panel kontrolü, tabela ve aydınlatma müdahaleleri; kırılabilen bom sayesinde giriş saçağının ve totem tabelaların üzerinden aşılarak yapılır. AVM yönetimleri çalışmayı çoğunlukla mağaza kapanışı sonrasına ister; gece vardiyasında teslimat, kurulum ve iş bitiminde sahayı boşaltma bizim tarafımızdan programlanır, sabah açılışında meydanda makine kalmaz.",
+                "Görükle kampüs bölgesi ve Mudanya-Gemlik hattındaki işlerde ise açık saha koşulları öne çıkar; yurt ve site blokları, sahil tesisleri ve depo cepheleri için dizel 4x4 eklemli modeller kullanılır. Şehir merkezine dönük akülü modeller ile açık saha dizel modelleri aynı filodan planlandığı için, aynı hafta içinde merkezde gece AVM işi ve Gemlik'te gündüz depo işi tek sözleşmede yürüyebilir.",
+                "Kaldırım veya yol üzerinde kurulum gereken işlerde ilgili ilçe belediyesinin işgaliye süreci devreye girer; başvurunun işi geciktirmemesi için keşif fotoğrafları üzerinden kurulum noktasını önceden belirler, gerekiyorsa başvuru evrakını birlikte hazırlarız. Site ve AVM parseli içindeki kurulumlarda bu süreç gerekmez, yönetim onayı yeterlidir. Hangi durumda hangisinin gerektiğini teklif aşamasında net söyleriz; teslimat günü belirsizlik kalmaz.",
+            ],
+            maddeler: [
+                { baslik: "AVM gece vardiyası deneyimi", metin: "Kapanış sonrası teslimat, gece çalışma ve açılış öncesi saha boşaltma tek programda planlanır." },
+                { baslik: "Merkez ilçelerde dar alan kurulumu", metin: "Osmangazi-Nilüfer-Yıldırım hattında yaya aksı ve otopark girişini koruyan kurulum planı teklife dahildir." },
+                { baslik: "Görükle-Mudanya-Gemlik açık saha", metin: "Kampüs, sahil tesisi ve depo işlerinde dizel 4x4 eklemli modeller; merkez işleriyle aynı sözleşmede yürütülebilir." },
+                { baslik: "İşgaliye süreci desteği", metin: "Kaldırım/yol kurulumu gereken işlerde belediye başvuru evrakı keşif fotoğraflarıyla birlikte hazırlanır." },
+            ],
+            sss: [
+                { soru: "Bursa'da hangi ilçelere hizmet veriyorsunuz?", cevap: "Ana bölgemiz Osmangazi, Nilüfer ve Yıldırım merkez hattıdır; Kestel, Görükle, Mudanya ve Gemlik'e de düzenli sevkiyat yapıyoruz. Daha uzak ilçeler için nakliye süresi ve bedeli teklifte ayrıca netleştirilir." },
+                { soru: "AVM işinde makine gündüz sahada kalabilir mi?", cevap: "Yönetimin ayırdığı güvenli park alanı varsa kalır; yoksa gece vardiyaları arasında makine otoparkın uygun bölümüne alınır. Bu detay iş başlamadan AVM yönetimiyle yazılı olarak netleştirilir." },
+                { soru: "Cephe işi için hangi yükseklik sınıfı gerekir?", cevap: "Bina yüksekliğine değil erişim geometrisine bakılır: saçak, totem ve giriş kanopisi bomun kırılarak aşacağı derinliği belirler. Cephe fotoğrafı ve kat sayısıyla model önerisini aynı gün veririz." },
+                { soru: "Kiralamada asgari süre var mı?", cevap: "Günlük kiralama yapılır; AVM ve cephe işlerinde çoğu talep 2-5 günlük gece vardiyası paketine dönüşür ve dönem fiyatı günlükten avantajlıdır. Süre seçenekleri teklifte ayrı satırlarda gösterilir." },
+                { soru: "Yağmurda cephe çalışması yapılır mı?", cevap: "Dizel modeller yağışta çalışabilir ancak cam ve silikon işleri kuru yüzey ister; bu işlerde program hava tahminiyle esnetilir. Rüzgâr üretici limitini aştığında çalışma her koşulda durdurulur." },
+            ],
+        },
+        {
+            slug: "bursa-manlift-kiralama-fiyatlari",
+            baslik: "Bursa Manlift Kiralama Fiyatları — Teklifi Doğru Okuma Kılavuzu",
+            aciklama: "Bursa'da manlift kiralama fiyatı hangi kalemlerden oluşur? Gece AVM vardiyası, ilçe mesafesi ve süre seçiminin bedele etkisi; teklif karşılaştırma kılavuzu.",
+            h1: "Bursa Manlift Kiralama Fiyatları",
+            paragraflar: [
+                "Bursa'da manlift kiralama teklifi isteyen firmaların çoğu ilk telefonda tek soru sorar: 'Günlüğü ne kadar?' Oysa aynı makinenin bedeli; işin Osmangazi merkezde mi Gemlik'te mi olduğuna, gece vardiyası gerekip gerekmediğine ve sürenin üç gün mü üç hafta mı olduğuna göre değişir. Rakamı telefonda söyleyen tedarikçi bu değişkenleri henüz bilmiyordur; ya ortalama söylüyordur ya da eksik kapsam veriyordur. Doğru yaklaşım, kapsamı netleştirip yazılı teklif almaktır — bu sayfa o teklifi nasıl okuyacağınızı anlatır.",
+                "Bedeli oluşturan ilk kalem makinedir: yükseklik sınıfı ve akülü-dizel ayrımı temel belirleyicidir; AVM içi gece işinde akülü model şartken açık depo cephesinde dizel yeterlidir ve iki sınıfın günlük bedeli farklıdır. İkinci kalem süre yapısıdır: gece vardiyalı AVM paketlerinde makine gündüz atıl durur, bu yüzden vardiya saatine göre kurgulanmış paket fiyatı istemek, standart tam gün tarifesinden daha doğru sonuç verir. Üç günü aşan işlerde haftalık dönem fiyatına geçmek belirgin tasarruftur.",
+                "Üçüncü kalem nakliyedir ve Bursa'da ilçe farkı gerçektir: merkez üçgeni (Osmangazi-Nilüfer-Yıldırım) içindeki teslimat ile Mudanya, Gemlik veya Görükle teslimatı aynı nakliye satırını taşımaz. Teklifte nakliyenin gidiş-dönüş dahil olup olmadığı ve teslimat saatinin (gece AVM teslimatı gibi) özel koşul içerip içermediği açıkça yazmalıdır. Dördüncü kalem operatördür: MYK belgeli operatör dahil mi, yoksa kendi belgeli personelinizle mi çalışacaksınız — sorumluluk ve bedel bu seçime göre yer değiştirir.",
+                "Karşılaştırma yaparken iki teklifin aynı işi tarif ettiğinden emin olun: aynı yükseklik sınıfı, aynı süre yapısı, nakliye kapsamı belirtilmiş, operatör satırı net, yakıt-şarj sorumluluğu yazılmış. Bursa pazarında 'ucuz görünen' tekliflerin önemli bölümü bu satırların birini boş bırakır ve fark teslimat günü ortaya çıkar. Bizim teklifimizde beş kalem ayrı satırdır; konum, iş tipi ve tarih bilgisini ilettiğinizde aynı gün yazılı teklif gönderilir.",
+            ],
+            tablo: {
+                basliklar: ["Teklif Satırı", "Kontrol Edilecek Nokta"],
+                satirlar: [
+                    ["Makine", "Yükseklik sınıfı ve akülü/dizel ayrımı işe uygun mu?"],
+                    ["Süre", "Gece vardiyası paketi mi, tam gün mü? Haftalık dönem fiyatı soruldu mu?"],
+                    ["Nakliye", "Gidiş-dönüş dahil mi? İlçe ve saat koşulu yazıyor mu?"],
+                    ["Operatör", "MYK belgeli operatör dahil mi, sorumluluk kimde?"],
+                    ["Yakıt/şarj", "Dizellerde teslim-iade koşulu, akülüde şarj kaynağı belli mi?"],
+                ],
+            },
+            sss: [
+                { soru: "Telefonda neden net rakam vermiyorsunuz?", cevap: "Çünkü ilçe, süre ve vardiya bilgisi olmadan söylenecek rakam ya size fazla gelir ya da bizi eksik kapsamda bağlar. Bu üç bilgiyle aynı gün, kalemleri ayrık yazılı teklif veriyoruz; telefon görüşmesi beş dakika sürer." },
+                { soru: "Gece AVM vardiyası fiyatı artırır mı?", cevap: "Gece teslimat lojistiği ve operatör mesaisi teklifte ayrı görünür; buna karşılık vardiya saatine göre kurgulanmış paket, makinenin atıl saatlerini ödemediğiniz için çoğu zaman tam gün tarifesinden avantajlı çıkar." },
+                { soru: "Uzun dönem kiralamada fiyat nasıl değişir?", cevap: "Haftalık dönemde gün başı bedel günlük tarifeden, aylıkta haftalıktan düşer; ayrıca aylık sözleşmede periyodik bakım bize geçer ve arızada ikame makine koşulu yazılır. Süresi belli işte günlük tarifeyle ilerlemek gereksiz masraftır." },
+                { soru: "Başka firmadan aldığım teklifi değerlendirir misiniz?", cevap: "Kapsam satırlarını birlikte okuruz; eksik satır varsa işaret ederiz. Amacımız her işi almak değil — kapsamı tam iki teklifin karşılaştırılması bizim de işimize gelir, çünkü farkımız gizli kalemde değil planlama tarafındadır." },
+                { soru: "Fiyata hasar sigortası dahil mi?", cevap: "Makine sigortası ve sorumluluk koşulları sözleşmede ayrı maddedir; operatörlü kiralamada makine kaynaklı risk bizde kalır, operatörsüzde kullanım hasarı kiracı sorumluluğuna geçer. Bu ayrımı teklifle birlikte yazılı görürsünüz." },
+            ],
+        },
+    ],
+    // istanbul-platform.com — elle yazılmış hedef sayfalar (2026-08-29).
+    // Site profili fiyat şeffaflığı + vinç dahil geniş makine yelpazesi;
+    // İstanbul geo Ads verisinde kiralık vinç 2.400/ay ile bölgenin en
+    // hacimli terimi. GSC: örümcek platform ve istanbul vinç sorguları mevcut.
+    "istanbul-platform.com": [
+        {
+            slug: "istanbul-vinc-kiralama-rehberi",
+            baslik: "İstanbul Vinç Kiralama Rehberi — Mobil, Hiyap ve Doğru Tercih",
+            aciklama: "İstanbul'da vinç kiralama: mobil vinç ile hiyap farkı, hangi işte vinç yerine platform yeterli olur, şehir içi kurulum ve trafik izni pratiği.",
+            h1: "İstanbul Vinç Kiralama Rehberi",
+            paragraflar: [
+                "İstanbul'da 'vinç kiralama' araması yapan firmaların bir bölümü gerçekten vinç ister: kaldırılacak bir yük vardır — çatıya çıkacak klima santrali, bodruma inecek trafo, kurulacak çelik makas. Bir bölümünün ihtiyacı ise yük değil insan erişimidir ve o iş vinçle değil personel yükseltici platformla çözülür; hem daha güvenli hem daha ekonomiktir. Bu rehberin ilk görevi bu ayrımı netleştirmek: yük kaldıracaksanız vinç, personel çalıştıracaksanız platform. İkisi birden gerekiyorsa (yükü vinç kaldırır, montajı platformdaki ekip yapar) saha planı iki makineyi çakışmadan konumlandırır.",
+                "Vinç tarafında iki ana tip öne çıkar. Mobil vinç; yüksek tonajlı, kurulum alanı ve çoğu durumda ayrı trafik-kurulum izni isteyen çözümdür — çelik montaj, prefabrik eleman ve ağır makine indirme-bindirme işlerinin aracıdır. Hiyap (kamyona monte vinç) ise yükü hem taşıyıp hem indirebildiği için şehir içinde daha çeviktir; jeneratör, klima dış ünitesi, cam ve mermer paleti gibi orta tonaj işlerde tek araçla nakliye+kaldırma çözer. İstanbul trafiğinde bu fark ciddi zaman kazandırır: hiyap işini alıp gider, mobil vinç için kurulum ve izin penceresi planlanır.",
+                "Şehir içi vinç işinin görünmeyen kalemi izin ve kurulum planıdır. Yol veya kaldırım üzerinde ayak açacak her kurulum, ilçe belediyesinin işgaliye sürecine ve gerekiyorsa trafik birimlerinin saat kısıtına tabidir; Boğaz hattı ve merkez ilçelerde bu pencere çoğu zaman gece saatlerine düşer. Parsel içi kurulumda izin gerekmez ama zemin taşıma kapasitesi devreye girer — bodrum döşemesi üzerine ayak basacak vinçte statik kontrol sorulmalıdır. Teklif alırken 'vinç kaç para' yerine 'bu yükü, bu adreste, bu tarihte kaldırmak neye mal olur' diye sormak; izin, kurulum ve bekleme kalemlerini baştan görünür kılar.",
+                "Bizim bu ağdaki rolümüz şeffaf yönlendirmedir: personel erişimi işlerini kendi eklemli platform filomuzla (16 m akülü, 16-26,4 m dizel) doğrudan üstleniriz; gerçek vinç gereken işlerde ihtiyacı doğru tanımlamanıza yardım eder, iş platforma dönüyorsa bunu açık söyleriz. 'Vinç istedim, platform yeterliymiş' cümlesi müşterilerimizden en sık duyduğumuz geri bildirimdir ve çoğu zaman bütçenin önemli bölümünü içeride bırakır.",
+            ],
+            tablo: {
+                basliklar: ["İhtiyaç", "Doğru Makine", "Not"],
+                satirlar: [
+                    ["Yük kaldırma (ağır/yüksek tonaj)", "Mobil vinç", "Kurulum alanı + izin penceresi planlanır"],
+                    ["Orta tonaj yük + nakliye birlikte", "Hiyap", "Tek araçla taşıma ve indirme"],
+                    ["Personelin yüksekte çalışması", "Eklemli/teleskopik platform", "Vinçten güvenli ve ekonomik"],
+                    ["Yük + montaj ekibi birlikte", "Vinç + platform", "Saha planı çakışmasız kurgulanır"],
+                ],
+            },
+            sss: [
+                { soru: "İnsan sepetiyle vinç kullanmak yasal mı?", cevap: "Personel yüksekte çalışacaksa doğru ekipman personel yükseltici platformdur; vinçle insan taşınması ancak istisnai koşullarda ve özel şartlarla gündeme gelir. Bu ayrımı sahada esnetmek en sık görülen ve en riskli uygulamadır; işiniz personel erişimiyse teklifinizi platform üzerinden isteyin." },
+                { soru: "Vinç için trafik izni işini kim takip eder?", cevap: "İzin başvurusu kurulum noktasına ve ilçeye göre değişir; teklif aşamasında hangi iznin gerektiğini tarif eder, başvuru evrakının hazırlanmasında yönlendiririz. Parsel içi kurulumda izin gerekmez, zemin kontrolü öne çıkar." },
+                { soru: "Hiyap ile mobil vinç arasında nasıl seçim yapılır?", cevap: "Yükün ağırlığı, kaldırma yüksekliği ve yatay mesafe belirleyicidir: orta tonaj ve makul mesafede hiyap tek araçla çözer; tonaj veya erişim büyüdüğünde mobil vinç zorunludur. Yük bilgisini (ağırlık, ölçü, kat) iletirseniz doğru tipi birlikte netleştiririz." },
+                { soru: "Gece vinç çalışması mümkün mü?", cevap: "Merkez ilçelerde kurulum pencereleri zaten çoğunlukla geceye planlanır; aydınlatma, flagman ve çevre güvenliği gece planının parçasıdır. Gece çalışması ek koordinasyon ister ama İstanbul'da çoğu zaman gündüzden daha verimlidir." },
+                { soru: "Platform mu vinç mi karar veremiyorum; keşfe geliyor musunuz?", cevap: "Fotoğraf ve kısa video çoğu işte kararı netleştirir; sınırda kalan sahalarda yerinde keşif planlanır. Keşif sonucu iş platformla çözülüyorsa kendi filomuzdan, vinç gerekiyorsa doğru tanımlanmış ihtiyaçla ilerlersiniz." },
+            ],
+        },
+        {
+            slug: "orumcek-platform-kiralama",
+            baslik: "Örümcek Platform Kiralama — Dar Alan ve Hassas Zemin Çözümü",
+            aciklama: "Örümcek platform (spider lift) nedir, hangi işte gerekir? Dar kapıdan geçiş, hassas zemin ve iç mekân yüksek erişim işlerinde İstanbul kiralama rehberi.",
+            h1: "Örümcek Platform Kiralama",
+            paragraflar: [
+                "Örümcek platform (spider lift), adını açılan dört destek ayağının görüntüsünden alır ve personel yükselticiler ailesinin 'dar yerden girip yüksekte çalışan' uzmanıdır. Paletli yürüyüşü ve daraltılabilir gövdesiyle standart çift kanat kapıdan, bahçe aralığından ve yük asansörü kabininden geçebilir; ayaklarını açtığında ise kendi gövde ölçüsünün çok üzerinde çalışma yüksekliğine ulaşır. Cami, tarihî yapı, AVM atrium ve otel lobisi gibi 'makine buraya nasıl girecek?' sorusunun sorulduğu her iş, örümcek platformun doğal alanıdır.",
+                "İkinci güçlü olduğu alan hassas zeminlerdir. Ayak başına düşen yük, geniş taban plakalarıyla dağıtıldığı için mermer döşeme, tarihî taş zemin, seramik ve yerden ısıtmalı yüzeylerde standart eklemli platformun giremeyeceği yerlere kurulabilir; paletli yürüyüş de çim ve peyzaj alanında tekerlek izinden daha az tahribat bırakır. Buna karşılık kurulum-toplama süresi tekerlekli makinelerden uzundur ve nokta değiştirmek ayakların toplanmasını gerektirir — çok noktalı hızlı turlarda eklemli platform, az noktalı hassas işlerde örümcek doğru seçimdir.",
+                "İstanbul'da örümcek platform talebinin tipik adresleri bellidir: atrium ve galeri boşluğunda avize-aydınlatma işi yapılan oteller ve AVM'ler, dar bahçe girişli konaklar ve tarihî yapılar, iç avlulu okul ve kamu binaları. Bu işlerde keşif sorularımız standarttır: giriş güzergâhındaki en dar kapı-koridor ölçüsü, geçilecek zeminin cinsi ve taşıma hassasiyeti, çalışılacak en yüksek nokta. Bu üç yanıt makinenin sınıfını ve kurulumda plaka-koruma ihtiyacını belirler.",
+                "Filomuzun ana gövdesi eklemli platformlardan oluşur; örümcek platform gereken işlerde grup ağı üzerinden tedarik planlar, işi tek sözleşmede toplarız. Burada da şeffaflık ilkemiz geçerli: sahanız standart akülü eklemli makineyle çözülüyorsa (çoğu geniş girişli iç mekân işi çözülür) örümceğin ek maliyetini ödemenize gerek olmadığını söyleriz; gerçekten dar giriş ve hassas zemin varsa doğru makine örümcektir ve tedarik süresi teklifte netleştirilir.",
+            ],
+            maddeler: [
+                { baslik: "Dar geçiş yeteneği", metin: "Standart kapı ve yük asansörü ölçüsünden geçip içeride yüksek erişime açılır; giriş güzergâhı ölçüsü keşfin ilk sorusudur." },
+                { baslik: "Hassas zemin uyumu", metin: "Yük dağıtan taban plakaları ve paletli yürüyüşle mermer, tarihî taş ve yerden ısıtmalı zeminlerde çalışma imkânı." },
+                { baslik: "Az nokta, yüksek hassasiyet işleri", metin: "Kurulum süresi tekerlekli makinelerden uzun olduğu için çok noktalı hızlı turlarda eklemli platform daha verimlidir." },
+                { baslik: "Grup ağı üzerinden tedarik", metin: "İş gerçekten örümcek gerektiriyorsa tedarik ve süre planı tek sözleşmede sunulur; gerekmiyorsa açıkça söylenir." },
+            ],
+            sss: [
+                { soru: "Örümcek platform kapıdan kaç santim geçer?", cevap: "Modele göre değişir; dar sınıf makineler standart çift kanat kapı ölçüsüne göre tasarlanır. Kesin uyum için giriş güzergâhınızdaki en dar noktanın ölçüsünü (genişlik ve yükseklik) istiyoruz — tahminle makine göndermeyiz." },
+                { soru: "Mermer zemine zarar verir mi?", cevap: "Ayak plakaları altına koruyucu takozlarla yük dağıtılır ve zemin cinsi keşifte sorulur; yerden ısıtmalı ve hassas taş zeminlerde ek koruma serilir. Zemin taşıma kapasitesi belirsizse yapı yönetiminden bilgi istenir." },
+                { soru: "Elektrikle mi çalışır, egzoz olur mu?", cevap: "İç mekân işlerinde akülü/elektrikli çalışma modu kullanılır ve egzoz oluşmaz; dış mekânda dizel destekli modeller devreye girebilir. Otel ve AVM'nin açık saatlerinde çalışılacaksa gürültü sınırı da programda dikkate alınır." },
+                { soru: "Atrium işinde makine boşluğa ne kadar uzanır?", cevap: "Uzanım, modelin yan erişim şemasına ve ayak açma düzenine bağlıdır; galeri korkuluğuna mesafe ve çalışılacak noktanın konumuyla birlikte değerlendirilir. Atrium fotoğrafı ve kat yüksekliği bilgisi model seçimini netleştirir." },
+                { soru: "Eklemli platformla çözülecek işe örümcek kiralamak zarar mı?", cevap: "Teknik zarar yok, gereksiz maliyet var: örümceğin tedarik ve kurulum kalemi standart eklemliden yüksektir. Girişiniz genişse ve zemin standartsa akülü eklemli model aynı işi daha ekonomik yapar; bu değerlendirmeyi teklif öncesinde açık yaparız." },
+            ],
+        },
     ],
     // istanbuleklemliplatform.com — elle yazılmış hedef sayfalar (2026-08-29).
     // Hedef kelimeler GSC gösterim verisi + İstanbul geo hedefli Google Ads
