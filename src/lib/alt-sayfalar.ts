@@ -4076,6 +4076,124 @@ export const altSayfalar: Record<string, AltSayfa[]> = {
             ],
         },
     ],
+    // istanbuleklemliplatform.com — elle yazılmış hedef sayfalar (2026-08-29).
+    // Hedef kelimeler GSC gösterim verisi + İstanbul geo hedefli Google Ads
+    // araştırmasından (job geo=21069) seçildi. Filo bilgileri filo.ts'teki
+    // gerçek envanterden alındı; fiyat rakamı uydurulmadı.
+    "istanbuleklemliplatform.com": [
+        {
+            slug: "eklemli-platform-kiralama-istanbul",
+            baslik: "İstanbul Eklemli Platform Kiralama — Model Seçimi ve Sevkiyat",
+            aciklama: "İstanbul'da eklemli platform kiralama: hangi işte eklemli bom gerekir, akülü mü dizel mi seçilir, Levent-Maslak plaza hattında sevkiyat nasıl planlanır?",
+            h1: "İstanbul Eklemli Platform Kiralama",
+            paragraflar: [
+                "Eklemli platform, bomu iki ya da üç mafsaldan kırılabildiği için düz teleskopik bomun ulaşamadığı noktalara 'engelin üzerinden aşarak' erişir. İstanbul'da bu özelliğin en çok arandığı işler bellidir: plaza cephesinde parapetin arkasına sarkan tabela ve cam bölgeleri, giriş saçağının üzerinde kalan aydınlatma hatları, ağaçlı refüjün gerisindeki bina yüzeyleri ve liman sahalarında vinç rayının ötesine uzanan bakım noktaları. Erişilecek nokta ile makinenin kurulabileceği zemin arasında engel varsa, doğru makine sınıfı büyük olasılıkla eklemlidir.",
+                "İç mekân ve gürültüye duyarlı işlerde akülü eklemli modeller öne çıkar. Filomuzdaki Sinoboom AB14EJ, 16 metre çalışma yüksekliği ve 230 kg sepet kapasitesiyle AVM, plaza lobisi ve kapalı otopark işlerinde emisyonsuz çalışır; dar asansör holü ve yük rampası geçişlerinde dizel muadillerinden daha az yer ister. Açık sahada ve engebeli zeminde ise Genie Z-45/25 RT (16 m, dizel 4x4) ile 26,4 metreye çıkan Haulotte HA26 RTJ PRO devreye girer; ikisi de şantiye zemini, stabilize yol ve eğimli sahada çekiş üstünlüğü için 4x4 yürüyüş takımıyla donatılmıştır.",
+                "İstanbul'da sevkiyatın kendisi işin planlama kalemidir. Levent-Maslak hattı ve Ataşehir finans bölgesi gibi yoğun koridorlarda gündüz saatlerinde ağır nakliye kısıtlıdır; bu nedenle plaza işlerinde teslimatı gece veya sabah erken saate planlıyoruz. Boğaz köprüsü geçişi gerektiren yaka değişimli işlerde nakliye rotası ve saat aralığı teklif aşamasında netleştirilir ki makine sahaya vardiya başlamadan önce kurulmuş olsun.",
+                "Kiralama öncesi üç bilgiyi hazır etmeniz süreci kısaltır: erişilecek en yüksek noktanın zeminden ölçüsü, makinenin kurulacağı zeminin cinsi (beton, parke, stabilize, dolgu) ve erişim yolundaki en dar geçit ölçüsü. Bu üç veri, modelin yükseklik sınıfını, akülü-dizel seçimini ve nakliye aracının tipini aynı anda belirler; telefonda beş dakikada teklif kapsamını çıkarır.",
+                "Operatörlü kiralamada makineyi MYK yeterlilik belgeli operatörümüz kullanır; plaza ve site yönetimlerinin giriş kontrolünde istediği belge seti (operatör belgesi, makine periyodik kontrol raporu, sigorta) teslimatla birlikte hazır gelir. Operatörsüz kiralamada ise kullanacak personelinizin belge sınıfının makine tipiyle uyuştuğunu teslimat öncesi birlikte kontrol ederiz.",
+            ],
+            tablo: {
+                basliklar: ["Model", "Çalışma Yüksekliği", "Güç", "Uygun Zemin"],
+                satirlar: [
+                    ["Sinoboom AB14EJ", "16,0 m", "Akülü (AC motor)", "İç mekân ve düz dış zemin"],
+                    ["Genie Z-45/25 RT", "15,97 m", "Dizel 4x4", "Engebeli dış saha"],
+                    ["Haulotte HA26 RTJ PRO", "26,4 m", "Dizel 4x4", "Zorlu arazi, şantiye"],
+                ],
+            },
+            sss: [
+                { soru: "Eklemli platform ile teleskopik platform arasında nasıl seçim yapılır?", cevap: "Erişim noktası ile kurulum zemini arasında engel (parapet, saçak, boru hattı, ağaç) varsa eklemli; engelsiz düz mesafede maksimum yükseklik ve yatay uzanım gerekiyorsa teleskopik daha verimlidir. Kararsız kaldığınız sahada fotoğraf gönderirseniz model önerisini birlikte netleştiririz." },
+                { soru: "Plaza içine akülü eklemli platform hangi ölçülerden geçer?", cevap: "Sinoboom AB14EJ sınıfı makineler standart çift kanat kapı ve yük asansörü ölçülerine göre tasarlanır; yine de her plazanın asansör kabini ve hol dönüşü farklı olduğundan, giriş güzergâhının en dar ölçüsünü teklif öncesi istiyoruz." },
+                { soru: "İstanbul içi teslimat aynı gün yapılabilir mi?", cevap: "Makinenin müsaitliğine ve saha saatine bağlıdır; Avrupa yakası merkez bölgelerde gün içi teslimat çoğu zaman mümkündür. Trafik kısıtı olan bölgelerde gece teslimatı planlanır; kesin saat yazılı teklifte taahhüt edilir." },
+                { soru: "Yağmurlu havada eklemli platform çalışır mı?", cevap: "Dizel modeller yağışta çalışabilir; rüzgâr hızı üretici sınırını aştığında (modele göre değişir) çalışma durdurulur. Akülü iç mekân modelleri ıslak zeminde ve açık yağışta kullanılmaz." },
+                { soru: "En az kaç günlük kiralama yapılıyor?", cevap: "Günlük kiralama mevcuttur; süreye göre birim fiyat değişir. Proje birkaç haftaya yayılacaksa haftalık ve aylık dönem fiyatı günlükten belirgin biçimde avantajlıdır; süre seçenekleri yazılı teklifte ayrı satırlar hâlinde gösterilir." },
+                { soru: "Sepet kapasitesine ekipman ağırlığı dahil mi?", cevap: "Evet. 227-250 kg aralığındaki sepet kapasitesi; personel, el aleti ve malzemenin toplamıdır. İki kişi ve ağır ekipmanla çalışılacaksa bunu teklif aşamasında belirtin ki kapasitesi uygun model ayrılsın." },
+            ],
+        },
+        {
+            slug: "uzay-platform-kiralama",
+            baslik: "Uzay Platform Kiralama — Eklemli Bomlu Platformun Sahadaki Adı",
+            aciklama: "Uzay platform nedir, eklemli platformdan farkı var mı? İstanbul'da uzay platform kiralarken yükseklik sınıfı ve zemin nasıl seçilir?",
+            h1: "Uzay Platform Kiralama",
+            paragraflar: [
+                "Sahada 'uzay platform' diye aranan makine, teknik katalogda eklemli (bomlu) personel yükseltici platform olarak geçer. İsim farklı, makine aynıdır: mafsallı bom sayesinde önce yükselip sonra ileri ve aşağı uzanabilen, engel üzerinden erişim sağlayan sınıf. Türkiye pazarında bu terim özellikle usta ve taşeron ekiplerde yerleşmiştir; tedarikçiyle konuşurken hangi ismi kullandığınızın önemi yok, önemli olan erişim ölçüleri ve zemin bilgisidir.",
+                "Uzay platform talebi çoğunlukla iki iş tipinden gelir. Birincisi cephe işleri: mantolama, dış cephe boyası, cam silikon yenileme ve tabela montajında makine kaldırıma ya da bahçeye kurulur, bom balkon ve saçak üzerinden cepheye uzanır. İkincisi endüstriyel bakım: fabrika sahasında boru köprüsünün öte yanındaki vana, çelik konstrüksiyonun iç aksındaki aydınlatma armatürü gibi düz erişimle ulaşılamayan noktalar. Her iki tipte de düz bomlu makine yetersiz kalır; kırılabilen bom işi çözer.",
+                "Yükseklik sınıfını erişilecek noktanın ölçüsü değil, o noktaya giden geometri belirler. Örneğin 12 metredeki bir cephe noktasına, önünde 4 metrelik saçak varken erişmek için 16 metre sınıfı eklemli makine gerekir; bom önce saçağı aşacak yüksekliğe çıkar, sonra ileri uzanır. Bu yüzden telefonda yalnız 'kaç metre' değil, engelin derinliğini de soruyoruz. Filomuzda 16 metre sınıfında akülü (Sinoboom AB14EJ) ve dizel 4x4 (Genie Z-45/25 RT), 26 metre sınıfında dizel Haulotte HA26 RTJ PRO hazır bekler.",
+                "İstanbul'da uzay platform kiralamada zemin sorusu atlanmamalıdır. Tarihî yarımada ve eski ilçe merkezlerinde kaldırım altı boşluklu, taşıma kapasitesi belirsiz zeminler vardır; 6-15 ton arası makine ağırlıkları bu zeminlerde çelik plaka serilmeden kurulmaz. Site içi parke zeminlerde de yönetimden yük izni istenir. Zemin fotoğrafı ve konum bilgisini önden paylaşırsanız, plaka gereksinimini teklife dahil ederiz ki teslimat günü sürpriz çıkmasın.",
+            ],
+            maddeler: [
+                { baslik: "Uzay platform = eklemli platform", metin: "İki isim aynı makine sınıfını anlatır; kiralama teklifi alırken erişim ölçüleri ve zemin bilgisi isimden daha belirleyicidir." },
+                { baslik: "Engel derinliği yükseklik sınıfını değiştirir", metin: "Saçak, parapet veya boru hattının derinliği; makinenin bir üst yükseklik sınıfından seçilmesini gerektirebilir." },
+                { baslik: "Akülü sınıf iç mekânda", metin: "Kapalı alan, AVM ve plaza işlerinde emisyonsuz akülü modeller; açık saha ve engebeli zeminde dizel 4x4 modeller kullanılır." },
+                { baslik: "Zemin kapasitesi teslimattan önce netleşir", metin: "Boşluklu kaldırım, parke ve dolgu zeminlerde çelik plaka ihtiyacı önceden belirlenir; bu kalem teklifte ayrıca yazılır." },
+            ],
+            sss: [
+                { soru: "Uzay platform ile sepetli vinç aynı şey mi?", cevap: "Değil. Uzay platform kendinden tahrikli, sepeti bomun ucunda sabit bir iş makinesidir; sepetli vinç ise kamyon üzerine kurulu, ayrı sürücü gerektiren araçtır. Uzun süreli ve nokta değiştiren işlerde kendinden tahrikli uzay platform daha verimlidir." },
+                { soru: "Kaç metrelik uzay platformlar mevcut?", cevap: "Filomuzda 16 metre sınıfında akülü ve dizel, 26 metre sınıfında dizel eklemli modeller bulunur. Daha yüksek erişim gereken projelerde grup filosundan tedarik seçeneği teklif aşamasında değerlendirilir." },
+                { soru: "Uzay platform ehliyetle kullanılır mı?", cevap: "Sürücü ehliyeti yeterli değildir; MYK operatör yeterlilik belgesi gerekir. Operatörlü kiralamada belgeli operatörümüz makineyle birlikte gelir, operatörsüz seçenekte personelinizin belgesi teslimat öncesi kontrol edilir." },
+                { soru: "Bahçeli bir binada çim zemine kurulum yapılır mı?", cevap: "Çim ve toprak zeminde makine ağırlığına göre değerlendirme yapılır; çoğu durumda çelik plaka veya takoz altlıkla kurulum mümkündür. Sulama sonrası yumuşamış zeminde teslimat ertelenebilir; bunu keşifte netleştiririz." },
+                { soru: "Gece çalışması için aydınlatma makinede var mı?", cevap: "Modellerde çalışma alanı aydınlatması sınırlıdır; gece cephe işlerinde harici aydınlatma planlanmalıdır. Gece teslimatı ve gece çalışma vardiyası İstanbul trafiği açısından çoğu zaman gündüzden daha verimlidir." },
+            ],
+        },
+        {
+            slug: "sepet-vinc-mi-eklemli-platform-mu",
+            baslik: "Sepet Vinç mi, Eklemli Platform mu? İşe Göre Doğru Seçim",
+            aciklama: "Sepet vinç (kamyon üstü) ile kendinden tahrikli eklemli platform arasındaki fark: kurulum, zemin, süre ve maliyet mantığıyla hangi iş hangi makineyle çözülür?",
+            h1: "Sepet Vinç mi, Eklemli Platform mu?",
+            paragraflar: [
+                "İstanbul'da yüksekte çalışma ihtiyacı olan firmaların en sık yaşadığı kararsızlık bu ikisi arasındadır: kamyon üzerine kurulu sepet vinç mi çağırılmalı, yoksa kendinden tahrikli eklemli platform mu kiralanmalı? İkisi de personeli yükseğe çıkarır ama çalışma mantıkları farklıdır ve yanlış seçim ya gereksiz maliyet ya da yarım kalan iş demektir. Biz eklemli platform kiralayan bir firmayız; yine de bu sayfada iki makinenin gerçek farklarını tarafsız anlatıyoruz, çünkü sepet vincin doğru çözüm olduğu işler de vardır.",
+                "Sepet vinç, aracın park ettiği noktadan erişebildiği alanla sınırlıdır; ayaklarını açar, kurulur ve o noktadan çalışır. Tek noktadan erişilen kısa süreli işlerde — ağaç budama, direk lambası değişimi, tek cephe noktasında birkaç saatlik müdahale — hızlı ve pratiktir. Araç trafiğe çıktığı için şoförüyle gelir, iş bitince gider; saatlik veya günübirlik çağrılır.",
+                "Eklemli platform ise sahada kalır ve kendi tekerlekleri üzerinde nokta değiştirir. Cephe boyunca ilerleyen mantolama, bina çevresini dolaşan tabela ve aydınlatma hattı, fabrika içinde makine makine gezen bakım turu gibi işlerde her nokta için vinci yeniden kurmak yerine platform sepetteyken bir sonraki noktaya sürülür. İş birkaç güne yayılıyorsa makine sahada gecelediği için her sabah yeniden araç çağırma maliyeti ve bekleme süresi ortadan kalkar. Kapalı alanda ise karşılaştırma zaten biter: kamyon içeri giremez, akülü eklemli platform girer.",
+                "Maliyet mantığı da süreye göre ters döner. Birkaç saatlik tek nokta işinde sepet vincin günübirlik ücreti çoğu zaman daha ekonomiktir; makine kiralamak, nakliye bedeliyle birlikte kısa iş için ağır kalır. İş bir günü aşıp nokta sayısı arttığında denge platforma döner: nakliye tek sefer ödenir, makine gün boyu ve gece dahil sahanızda kalır, vinç gibi her kurulumda ayak açma-kapama süresi harcanmaz. Haftalık işlerde aradaki fark belirgindir.",
+                "Kararsız kaldığınız durumda şu üç soruyu yanıtlamak yeterlidir: iş tek noktada mı, birden çok noktada mı? Toplam süre birkaç saat mi, gün(ler) mi? Çalışma alanı açık sokak mı, kapalı ya da site içi mi? Birden çok nokta, bir günü aşan süre veya kapalı alan yanıtlarından ikisi varsa eklemli platform doğru seçimdir; tek nokta ve birkaç saat ise sepet vinç çağırmanız daha ekonomik olur — bunu size açıkça söyleriz.",
+            ],
+            tablo: {
+                basliklar: ["Kriter", "Sepet Vinç (Kamyon Üstü)", "Eklemli Platform"],
+                satirlar: [
+                    ["Nokta değiştirme", "Her noktada yeniden kurulum", "Sepetteyken sürülerek ilerler"],
+                    ["Kapalı alan", "Giremez", "Akülü modeller girer"],
+                    ["Kısa tek nokta işi", "Genelde daha ekonomik", "Nakliye nedeniyle ağır kalır"],
+                    ["Çok günlü / çok noktalı iş", "Her gün araç + kurulum maliyeti", "Sahada kalır, tek nakliye"],
+                    ["Kullanım", "Araç şoförü + operatör", "MYK belgeli operatör"],
+                ],
+            },
+            sss: [
+                { soru: "Sepet vinç de kiralıyor musunuz?", cevap: "Ana faaliyetimiz kendinden tahrikli eklemli platform kiralamadır. İşiniz sepet vinç gerektiriyorsa bunu teklif aşamasında dürüstçe söyler, ihtiyacınıza uygun sınıfı tarif ederiz; zorla platform kiralatmayız." },
+                { soru: "Eklemli platform sokakta çalışabilir mi?", cevap: "Çalışır; ancak kaldırım işgali ve yol kapatma gerektiren durumlarda ilgili belediyeden izin süreci işletilmelidir. Site içi ve özel parselde bu süreç gerekmez; keşifte hangi iznin gerektiğini birlikte netleştiririz." },
+                { soru: "İki makineyi aynı işte birlikte kullanmak mantıklı mı?", cevap: "Büyük cephe projelerinde ağır malzemeyi sepet vinç kaldırırken personel erişimini platform üstlenebilir; iki makinenin çalışma alanları çakışmayacak şekilde saha planı yapılır." },
+                { soru: "Rüzgârda hangisi daha dayanıklı?", cevap: "İkisinde de üretici rüzgâr limiti geçerlidir ve limit aşıldığında çalışma durdurulur; makine tipi rüzgâr limitini önemli ölçüde değiştirmez. Yüksek bölgelerde (boğaz hattı, tepe konumlu plazalar) günlük rüzgâr tahminiyle vardiya planlanır." },
+                { soru: "Gebze veya Tekirdağ tarafına da geliyor musunuz?", cevap: "İstanbul geneli ana bölgemizdir; komşu il sınırındaki işler için mesafe ve süreye göre nakliye bedeli teklifte ayrıca hesaplanır. Uzun süreli işlerde şehir dışı sevkiyat çoğu zaman ekonomik çıkar." },
+            ],
+        },
+        {
+            slug: "istanbul-manlift-fiyatlari-rehberi",
+            baslik: "İstanbul Manlift Kiralama Fiyatları — Neye Göre Belirlenir?",
+            aciklama: "İstanbul'da manlift kiralama fiyatını belirleyen 5 kalem: yükseklik sınıfı, süre, nakliye, operatör ve sezon. Yazılı teklifte hangi satırları kontrol etmelisiniz?",
+            h1: "İstanbul Manlift Kiralama Fiyatları Neye Göre Belirlenir?",
+            paragraflar: [
+                "İnternette 'manlift fiyatları' diye arayan herkesin görmek istediği tek bir rakamdır; ama tek rakam veren tedarikçi ya eksik teklif veriyordur ya da sürpriz kalemleri teslimat günü çıkaracaktır. Manlift kiralama bedeli beş ana kalemden oluşur ve bu kalemlerin her biri İstanbul'da işin konumuna göre ciddi biçimde değişir. Bu sayfa rakam vaat etmez; hangi kalemin fiyatı nasıl etkilediğini ve yazılı teklifte neyi kontrol etmeniz gerektiğini anlatır.",
+                "Birinci kalem makine sınıfıdır: 16 metre akülü eklemli ile 26 metre dizel 4x4 eklemli aynı günlük bedelle kiralanmaz; yükseklik, güç tipi ve makinenin yaşı-markası bedeli belirler. İkinci kalem süredir ve fiyat doğrusal düşmez: haftalık dönemin gün başı bedeli günlük kiralamadan, aylık dönem haftalıktan belirgin ölçüde avantajlıdır. Üç günü aşacağını bildiğiniz işte günlük fiyat üzerinden anlaşmak, en sık yapılan gereksiz masraftır.",
+                "Üçüncü kalem İstanbul'a özgü ağırlıktadır: nakliye. Makine düşük yataklı römorkla taşınır; mesafe, yaka geçişi (köprü/tünel ücretli geçişleri), gece teslimat zorunluluğu olan trafik kısıtlı bölgeler ve sahaya araç yanaşma güçlüğü nakliye satırını değiştirir. Aynı makine için Kadıköy'e teslimat ile Hadımköy'e teslimat aynı bedel olmaz; teklifte nakliyenin 'gidiş-dönüş dahil' yazıp yazmadığını mutlaka kontrol edin.",
+                "Dördüncü kalem operatördür. Operatörlü kiralamada MYK belgeli operatörün günlük bedeli eklenir; karşılığında belge, saha giriş evrakı ve makine sorumluluğu tedarikçide kalır. Operatörsüz kiralamada bu kalem düşer ama belgeli personel bulundurma ve olası hasar sorumluluğu size geçer. Beşinci kalem sezondur: bahar-yaz aylarında cephe işleri yoğunlaştığı için müsaitlik daralır; kışın ve iş yoğunluğunun düştüğü dönemlerde dönem anlaşmaları daha esnektir.",
+                "Sağlıklı fiyat karşılaştırması için iki tedarikçiden aynı kapsamla teklif isteyin: aynı yükseklik sınıfı, aynı süre, nakliye dahil, operatör durumu belirtilmiş ve yakıt/şarj sorumluluğu yazılmış. Kapsamları farklı iki rakamı karşılaştırmak yanıltır. Yazılı teklifimizde bu beş kalem ayrı satırlarda gösterilir; telefonda konum, yükseklik ve süre bilgisini verdiğinizde teklif aynı gün iletilir.",
+            ],
+            maddeler: [
+                { baslik: "Makine sınıfı", metin: "Yükseklik, akülü/dizel seçimi ve model; bedelin ana belirleyicisidir. İhtiyaçtan yüksek sınıf seçmek en yaygın fazla ödeme nedenidir." },
+                { baslik: "Süre", metin: "Haftalık ve aylık dönem fiyatı gün başına belirgin avantaj sağlar; süre netleşmeden günlük fiyatla anlaşmayın." },
+                { baslik: "Nakliye", metin: "Mesafe, yaka geçişi ve gece teslimat gerekliliği İstanbul'da nakliye satırını değiştirir; 'gidiş-dönüş dahil' ibaresini arayın." },
+                { baslik: "Operatör", metin: "Operatörlü seçenekte belge ve sorumluluk tedarikçide; operatörsüzde bedel düşer, sorumluluk kiracıya geçer." },
+                { baslik: "Sezon ve müsaitlik", metin: "Bahar-yaz cephe sezonunda müsaitlik daralır; tarihi esnek işlerde dönem dışı planlama pazarlık payı yaratır." },
+            ],
+            sss: [
+                { soru: "Neden sitenizde net fiyat listesi yok?", cevap: "Çünkü aynı makinenin bedeli süreye, nakliye mesafesine ve operatör seçimine göre değişir; tek rakam yayınlamak ya sizi yanıltır ya da herkese en yüksek ihtimalin fiyatını göstermek olur. Konum ve süre bilgisiyle aynı gün yazılı net teklif veriyoruz." },
+                { soru: "Teklifteki bedele yakıt dahil mi?", cevap: "Dizel modellerde yakıt sorumluluğu teklifte açıkça yazılır; yaygın uygulama makinenin dolu teslim edilip dolu iade edilmesidir. Akülü modellerde şarj sahanızdaki elektrikten sağlanır." },
+                { soru: "Hafta sonu kiralamada fiyat değişir mi?", cevap: "Hafta sonu tek başına bir zam kalemi değildir; ancak gece/hafta sonu teslimat lojistiği ve operatör mesaisi teklife yansıyabilir. Bu kalemler varsa ayrı satırda gösterilir." },
+                { soru: "Uzun dönem kiralamada bakım kime ait?", cevap: "Aylık ve daha uzun kiralamalarda periyodik bakım ve arıza müdahalesi tedarikçi sorumluluğundadır; arızada ikame makine koşulu sözleşmeye yazılmalıdır. Teklifimizde bu satır standart olarak yer alır." },
+                { soru: "Kapora veya ön ödeme isteniyor mu?", cevap: "Ödeme planı işin süresine ve kurumsal sözleşme durumuna göre belirlenir; koşullar yazılı teklifte net biçimde yer alır, teslimat günü sürpriz koşul çıkarılmaz." },
+                { soru: "Fiyatı düşürmek için ne yapabilirim?", cevap: "Üç etkili yol: süreyi netleştirip dönem fiyatı almak, tarihi esnek tutup müsait makineye göre planlamak ve sahaya araç yanaşmasını kolaylaştırarak nakliye süresini kısaltmak. İhtiyaçtan yüksek makine sınıfı seçmemek de başlı başına tasarruftur." },
+            ],
+        },
+    ],
 };
 
 // Faz B rehberlerinin altıncı paragrafları slug'a özel tutulur. Bu kayıtlar
