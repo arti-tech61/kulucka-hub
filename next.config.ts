@@ -24,27 +24,6 @@ const nextConfig: NextConfig = {
         destination: "https://guvenliyukselis.com/:path*",
         permanent: true,
       },
-      // manliftkirala.net.tr'nin eski marka/model bazlı ürün URL'leri (site
-      // kulucka-hub'a taşınırken jenerik kategori sistemine geçti). GSC'de hâlâ
-      // gösterim alan 3 URL en yakın mevcut kategoriye 301'lendi (2026-08-29).
-      {
-        source: "/urunler/manitou-mt-625-h-6-mt-telehandler-compact-kiralama",
-        has: [{ type: "host", value: "(www\\.)?manliftkirala\\.net\\.tr" }],
-        destination: "https://manliftkirala.net.tr/urunler/telehandler-7m-kiralama",
-        permanent: true,
-      },
-      {
-        source: "/urunler/zoomlion-fe18h-1-8-ton-elektrikli-forklift-kiralama",
-        has: [{ type: "host", value: "(www\\.)?manliftkirala\\.net\\.tr" }],
-        destination: "https://manliftkirala.net.tr/urunler/elektrikli-forklift-1-3-ton-kiralama",
-        permanent: true,
-      },
-      {
-        source: "/urunler/sinoboom-ab16ej-plus-16-mt-akulu-eklemli-kiralama",
-        has: [{ type: "host", value: "(www\\.)?manliftkirala\\.net\\.tr" }],
-        destination: "https://manliftkirala.net.tr/urunler/eklemli-platform-16m-kiralama",
-        permanent: true,
-      },
       // istanbulplatforms.com'un eski "üretici firmalar" ve "filo" sayfaları
       // (site kulucka-hub'a taşınırken markalar/ürünler sistemine geçti).
       // GSC'de hâlâ gösterim alan 6 URL en yakın mevcut sayfaya 301'lendi (2026-08-29).
