@@ -8,6 +8,7 @@ import { kategoriBilgisi } from "@/lib/urun-kategori-bilgi";
 import { urunKatalogu, type UrunKatalogOgesi } from "@/lib/urun-katalogu";
 import { paylasilanTemaKonfigleri } from "@/lib/paylasilan-tema-konfig";
 import { GaEtiketi } from "@/components/ga";
+import { kelimeSiniriKisalt } from "@/lib/kurumsal-sayfalar";
 import { temaModulu, Kabuk } from "@/components/temalar";
 
 export const dynamic = "force-dynamic";
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const urun = urunBul(slug);
     if (!site || !urun || !(host in paylasilanTemaKonfigleri)) return {};
     const bolgeIlk = site.bolge.split(",")[0].trim();
-    const baslik = `${urun.ad} Kiralama | ${bolgeIlk}`;
+    const baslik = kelimeSiniriKisalt(`${urun.ad} Kiralama | ${bolgeIlk}`, 60);
     const aciklama = urun.aciklamaSablonu(site);
     const canonical = `https://${host}/urunler/${slug}`;
     return {
